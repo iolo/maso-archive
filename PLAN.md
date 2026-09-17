@@ -28,6 +28,8 @@ not claim fidelity to printed pages we have not inspected.
   are preserved privately with a checksummed manifest. Fidelity is unverified.
 - [x] Import all 86 issues and 3,811 TOC entries with persistent identities,
   article candidates, a local search-data preview, and validation tests.
+- [x] Structure all 3,032 CD1 index lines and preserve their 2,462 reference
+  occurrences, grouped into 1,080 native targets; see [CD1 index](docs/CD1-INDEX.md).
 
 These are reusable results. Do not rewrite them just to follow the new sequence.
 The 2,975 TOC article candidates and 1,038 CD index references are different
@@ -52,16 +54,16 @@ populations; neither is a verified count of complete articles.
 
 | Step | Deliverable | Complete when |
 | --- | --- | --- |
-| 1 — Next | CD1 reference index | All three extracted `.lst` files are represented as structured records, retaining every occurrence, category path, title, source line, and original reference; counts and parse exceptions are reported. |
-| 2 | One explicit CD-to-TOC match | A chosen CD reference is linked to an existing TOC entry using recorded title/issue/page evidence. Uncertainty is stated; no bulk fuzzy matching. |
+| 1 — Done | CD1 reference index | All three extracted `.lst` files are represented as structured records, retaining every occurrence, category path, title, source line, and original reference; counts and parse exceptions are reported. |
+| 2 — Next | One explicit CD-to-TOC match | A chosen CD reference is linked to an existing TOC entry using recorded title/issue/page evidence. Uncertainty is stated; no bulk fuzzy matching. |
 | 3 | Raw topic map for that article | The relevant RTF topic(s), context evidence, and byte locations are identified reproducibly. Any uncertainty about where the article ends is recorded. |
 | 4 | One correctly decoded paragraph | Korean/English text and special-character handling are demonstrated on a small sample with no silent replacement characters; unsupported cases are listed. |
 | 5 | Full text for that one article | All identified article topics produce ordered text with provenance; headings, code, and tables are preserved or explicitly marked unsupported. No neighboring article is silently merged. |
 | 6 | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
 | 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Steps 1–7 are **not yet completed**, even though the extraction probe already
-exposed some of their inputs. A decoded sample is not yet a verified article.
+Step 1 is complete. Steps 2–7 remain pending, even though the extraction probe
+already exposed some of their inputs. A decoded sample is not yet a verified article.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
 
@@ -78,9 +80,10 @@ step pending until the necessary evidence exists.
 
 The owner can collect that evidence while development proceeds using the
 [offline task checklist](docs/OFFLINE-TASKS.md). Viewer reference capture and
-optional backup/scan preparation do not block the immediate index-import step.
+optional backup/scan preparation did not block index import and can continue
+while the next metadata-match step proceeds.
 
-## Exact scope of the next task: step 1
+## Step 1 completed: index import
 
 **Inputs:** `private/cd1-probe/raw/column.lst`, `language.lst`, and `panecmds.lst`,
 plus the existing extraction manifest.
@@ -100,6 +103,29 @@ This step does not read the 74 MB RTF, convert images, match all articles, add
 summaries, or build a UI. Preserve the original index files and keep generated
 content local. Commit the importer/tests, any necessary documentation changes,
 and its progress entry.
+
+Result: `make import-cd1-index` produces these artifacts. All source lines are
+accounted for; the numeric-reference baseline matches. The additional 41
+letter-suffixed targets and one named navigation target are preserved separately.
+See [usage and validation details](docs/CD1-INDEX.md).
+
+## Exact scope of the next task: step 2
+
+**Inputs:** the generated CD1 index, the existing TOC import, and their source
+locations. Start with native reference `8802065`.
+
+**Deliverable:** one explicit source-match record linking that CD reference's
+occurrences to an existing TOC entry ID, accompanied by title, issue, and page
+evidence and an explanation of any discrepancy. Keep source labels and the
+original TOC identity unchanged.
+
+**Check:** the proposed relationship is supported by the source metadata; any
+ambiguity remains marked for review instead of being declared verified. This
+matches metadata only: it does not establish that the complete body was recovered.
+
+Do not add collection-wide matching, RTF decoding, image conversion, or a review
+UI to this step. If the reference maps to a feature bundle rather than a single
+article, record that relationship explicitly before deciding on a simpler pilot.
 
 ## Later checkpoints — detail them when reached
 

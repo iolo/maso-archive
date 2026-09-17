@@ -117,3 +117,34 @@
 - Validation: checked local document links and confirmed that the proposed
   reference-evidence path is ignored by Git. No code changes or tests required.
 - Next development task remains **step 1 — CD1 reference-index importer**.
+
+## 2026-09-18 — Step 1 complete: CD1 reference-index importer
+
+- Added `make import-cd1-index` and the corresponding CLI command. The importer
+  verifies each of the three `.lst` files against the extraction manifest and
+  decodes CP949 strictly. It reads no RTF, image, or article-body files.
+- Preserved all 3,032 source lines with raw labels/targets, category paths,
+  parent relationships, line numbers, byte spans, and input hashes. Retained
+  category markers and terminators as records. Grouped references link to every
+  original occurrence rather than losing repeated categories or title variants.
+- Generated local entries, reference groups, validation report, and a checksummed
+  run manifest in `build/cd1-index/`. Added JSON Schema validation and documented
+  use and failure behavior in `docs/CD1-INDEX.md`.
+- Result: 567 categories, 2,462 reference occurrences, and three terminators.
+  The 1,080 distinct targets comprise 1,038 seven-digit references, 41 references
+  with letter suffixes, and the `mscdmenu` navigation target. The historical
+  baseline of 360 seven-digit references in 1988–1990 matches exactly.
+- Review notices: nine padded category markers and three occurrences of
+  `9311000`, whose page-like component is `000`. All were retained; no page zero
+  or final article count was inferred. No input lines remain unparsed.
+- Validation: eight new focused tests and the existing 15 tests all passed with
+  `make check`. Tests cover the actual private sources plus synthetic malformed
+  syntax, duplicate references, encoding/manifest rejection, byte provenance,
+  deterministic output, and CLI operation with only indexes and their manifest.
+  Reimporting the real files produced identical hashes for all four outputs;
+  manifest hashes, documentation links, and whitespace checks passed.
+- Limitations: reference dates are candidates based on native identifier syntax.
+  No TOC matches, RTF topic mapping, body conversion, or viewer verification was
+  performed. The first-article milestone remains incomplete.
+- Next: **step 2 — one explicit CD-to-TOC metadata match**, starting with native
+  reference `8802065`. Stop after that bounded task and its validation/log/commit.
