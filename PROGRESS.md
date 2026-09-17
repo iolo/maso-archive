@@ -176,3 +176,47 @@
 - Next: **step 3 — map reference `8802065` to its raw topic/context records and
   byte locations**, before attempting paragraph decoding. The first-article
   milestone remains incomplete pending content recovery and viewer comparison.
+
+## 2026-09-18 — Step 3 complete: pilot raw topic/context map
+
+- Resolved native reference `8802065` through hash `0x0e688271` in the MVB
+  `|CONTEXT` table to topic ordinal 149, represented by generated RTF alias
+  `2PES_R6`. The native topic title is “유닉스란 무엇인가?”. This relationship
+  is supported by context records, not just matching title text.
+- Recorded the separate linked introduction (ordinal 148, `3M4UMD`) and body
+  as the provisional recovery scope. Preserved native logical addresses, physical
+  MVB header/context locations, exact raw RTF byte spans, and input/slice hashes
+  in `data/catalog/topic-maps/cd1-8802065.json`. No article body is committed.
+- Identified a nine-byte untitled RTF separator (native ordinal 150), followed
+  by the introduction and body of “스펠링 체커” (151–152). The pilot's native
+  browse-forward pointer reaches that neighboring body; it is not evidence of
+  feature continuation. All three following topics are explicitly excluded.
+- Located the explicit CD body label `88.2.  65p` at RTF byte 378317, supporting
+  page 65 for this pilot without establishing a collection-wide suffix rule.
+  Preserved the step 2 match unchanged as its historical metadata-only decision.
+- Added `tools/map_cd1_topic.py`, a bounded stdlib generator/verifier requiring
+  the exact preserved MVB/RTF hashes. It checks native links against RTF topic
+  ordinals/context hashes and rejects unsupported source/layout changes. It
+  requires no temporary HELPDECO installation. Documented usage and format
+  evidence in `docs/CD1-TOPIC-8802065.md`.
+- Format investigation found that HELPDECO's implementation uses a 16,384-wide
+  logical TOPICPOS stride for this uncompressed MVB's 4,096-byte physical blocks;
+  using the general prose's uncompressed-size formula would mislocate records.
+  Native block headers and logical address gaps are handled separately.
+- Validation: all 27 tests passed with `make check`, including four focused
+  tests for context hashing, cross-block reads/truncation, unsupported layouts,
+  and reproduction of the map from actual private sources. The map's default
+  read-only verification and the existing step 2 metadata checker both passed.
+- Limitations: intro/body roles and article completeness await original viewer
+  comparison; other viewer navigation or decoder omissions have not been ruled
+  out. Only title/page metadata was decoded, not an article paragraph. Image
+  handling, body normalization, and collection-wide mapping remain deferred.
+- Investigated the owner's JOHAB observation before committing. On the three
+  preserved `.lst` snapshots, strict Python JOHAB and `iconv -f JOHAB -t UTF-8`
+  both fail: `column.lst` at byte 74, `language.lst` at byte 7, `panecmds.lst` at
+  byte 0. All three decode strictly as EUC-KR identically to CP949, with readable
+  Korean labels. Recorded the failed conversion evidence in `docs/CD1-INDEX.md`;
+  retained the existing importer encoding. RTF font encodings remain a separate
+  step 4 investigation.
+- Next: **step 4 — decode one paragraph inside the mapped body**, preserving
+  raw bytes and recording font/encoding decisions. The milestone is incomplete.

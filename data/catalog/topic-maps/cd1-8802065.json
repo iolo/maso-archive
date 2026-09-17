@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "cd_reference": "8802065",
+  "toc_entry_id": "maso-1988-02-toc-0035",
+  "scope": "raw_topic_mapping",
+  "sources": [
+    {
+      "path": "masocd-1/MASOCD.MVB",
+      "bytes": 259490690,
+      "sha256": "bde731b36c6a9e37ba0f23e4fce66758417753073cb537b7cc8d6dddfcd02565"
+    },
+    {
+      "path": "private/cd1-probe/raw/MASOCD.rtf",
+      "bytes": 74157536,
+      "sha256": "01465d52667ab798df0dcf7993b6de764f45fd55e09eec1f80f77291303d957b"
+    }
+  ],
+  "offset_convention": "File byte offsets are zero-based; ends are exclusive. Native TOPICPOS and TOPICOFFSET are logical addresses, not file byte offsets.",
+  "reference_hash_hex": "0x0e688271",
+  "topics": [
+    {
+      "role": "linked_introduction",
+      "rtf_context_alias": "3M4UMD",
+      "native": {
+        "ordinal": 148,
+        "topic_number": 147,
+        "topic_pos": 789443,
+        "topic_offset": 1574891,
+        "mvb_header_byte_offset": 201987011,
+        "next_topic_pos": 789925,
+        "browse_back_topic_offset": -1,
+        "browse_forward_topic_offset": -1
+      },
+      "rtf": {
+        "byte_offset": 376628,
+        "byte_length": 1310,
+        "end_exclusive": 377938,
+        "sha256": "d6932f2c7162d57f7f735a9aef60a2374e996d68e4d33c3dbff3f28d15a0503d"
+      },
+      "context_entry": {
+        "hash_hex": "0x203843ba",
+        "topic_offset": 1574891,
+        "mvb_entry_byte_offset": 232785992,
+        "byte_length": 8
+      }
+    },
+    {
+      "role": "reference_target_body",
+      "rtf_context_alias": "2PES_R6",
+      "native": {
+        "ordinal": 149,
+        "topic_number": 148,
+        "topic_pos": 789925,
+        "topic_offset": 1575226,
+        "mvb_header_byte_offset": 201987493,
+        "next_topic_pos": 986627,
+        "browse_back_topic_offset": 1409419,
+        "browse_forward_topic_offset": 1998848,
+        "title": "유닉스란 무엇인가?"
+      },
+      "rtf": {
+        "byte_offset": 377944,
+        "byte_length": 148269,
+        "end_exclusive": 526213,
+        "sha256": "7ad6397062553dee1afd273df000649be26d9723d2e66050480c1b056780038d"
+      },
+      "context_entry": {
+        "hash_hex": "0x0e688271",
+        "topic_offset": 1575226,
+        "mvb_entry_byte_offset": 232793464,
+        "byte_length": 8
+      }
+    },
+    {
+      "role": "following_untitled_separator",
+      "rtf_context_alias": null,
+      "native": {
+        "ordinal": 150,
+        "topic_number": 149,
+        "topic_pos": 986627,
+        "topic_offset": 1968825,
+        "mvb_header_byte_offset": 202036739,
+        "next_topic_pos": 986724,
+        "browse_back_topic_offset": -1,
+        "browse_forward_topic_offset": -1
+      },
+      "rtf": {
+        "byte_offset": 526219,
+        "byte_length": 9,
+        "end_exclusive": 526228,
+        "sha256": "4522e92072e899dd3824288981a8724864655a741aad4edef1f24b00dbed5f17"
+      }
+    },
+    {
+      "role": "next_article_introduction",
+      "rtf_context_alias": "3M4LHC",
+      "native": {
+        "ordinal": 151,
+        "topic_number": 150,
+        "topic_pos": 986724,
+        "topic_offset": 1968827,
+        "mvb_header_byte_offset": 202036836,
+        "next_topic_pos": 999501,
+        "browse_back_topic_offset": -1,
+        "browse_forward_topic_offset": -1
+      },
+      "rtf": {
+        "byte_offset": 526234,
+        "byte_length": 1311,
+        "end_exclusive": 527545,
+        "sha256": "f300353b1920c69bb6e6c3f24d23d4b599d2270edabe526deedf25bc16929e3a"
+      },
+      "context_entry": {
+        "hash_hex": "0x203801e1",
+        "topic_offset": 1968827,
+        "mvb_entry_byte_offset": 232785952,
+        "byte_length": 8
+      }
+    },
+    {
+      "role": "next_article_body",
+      "rtf_context_alias": "1KN6EK",
+      "native": {
+        "ordinal": 152,
+        "topic_number": 151,
+        "topic_pos": 999501,
+        "topic_offset": 1998848,
+        "mvb_header_byte_offset": 202037325,
+        "next_topic_pos": 1066809,
+        "browse_back_topic_offset": 1575226,
+        "browse_forward_topic_offset": 2131408,
+        "title": "스펠링 체커"
+      },
+      "rtf": {
+        "byte_offset": 527551,
+        "byte_length": 26313,
+        "end_exclusive": 553864,
+        "sha256": "2333726b745676cf95566178b7662a2a719ed31911e810a595d05aa0cda81327"
+      },
+      "context_entry": {
+        "hash_hex": "0x0e684098",
+        "topic_offset": 1998848,
+        "mvb_entry_byte_offset": 232793424,
+        "byte_length": 8
+      }
+    }
+  ],
+  "body_to_introduction_link": {
+    "target_alias": "3M4UMD",
+    "rtf_byte_offset": 378402,
+    "byte_length": 11
+  },
+  "body_page_label": {
+    "label": "88.2.  65p",
+    "rtf_byte_offset": 378317,
+    "byte_length": 10
+  },
+  "recovery_scope_ordinals": [
+    148,
+    149
+  ],
+  "excluded_following_ordinals": [
+    150,
+    151,
+    152
+  ],
+  "verification": {
+    "native_context_resolved": true,
+    "raw_boundaries_mapped": true,
+    "body_decoded": false,
+    "viewer_compared": false,
+    "article_completeness_verified": false
+  },
+  "limitations": [
+    "Introduction/body roles are inferred from the linked raw records; viewer confirmation is pending.",
+    "The next browse target is another article, not evidence of continuation. No continuation link was identified in the body's hidden RTF targets.",
+    "This bounded map does not rule out other material reachable through viewer macros/navigation or omitted by HELPDECO.",
+    "The CD body's page label supports page 65 for this pilot only; it does not establish a collection-wide reference-to-page rule."
+  ]
+}

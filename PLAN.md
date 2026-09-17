@@ -56,20 +56,21 @@ populations; neither is a verified count of complete articles.
 | --- | --- | --- |
 | 1 — Done | CD1 reference index | All three extracted `.lst` files are represented as structured records, retaining every occurrence, category path, title, source line, and original reference; counts and parse exceptions are reported. |
 | 2 — Done | One explicit CD-to-TOC match | `8802065` is linked to `maso-1988-02-toc-0035` with both CD occurrences, title/issue evidence, and an explicitly conditional page comparison. |
-| 3 — Next | Raw topic map for that article | The relevant RTF topic(s), context evidence, and byte locations are identified reproducibly. Any uncertainty about where the article ends is recorded. |
-| 4 | One correctly decoded paragraph | Korean/English text and special-character handling are demonstrated on a small sample with no silent replacement characters; unsupported cases are listed. |
+| 3 — Done | Raw topic map for that article | Native context/hash evidence resolves `8802065` to body topic 149 and its linked introduction 148; byte locations and following boundaries are recorded, with completeness pending viewer review. |
+| 4 — Next | One correctly decoded paragraph | Korean/English text and special-character handling are demonstrated on a small sample with no silent replacement characters; unsupported cases are listed. |
 | 5 | Full text for that one article | All identified article topics produce ordered text with provenance; headings, code, and tables are preserved or explicitly marked unsupported. No neighboring article is silently merged. |
 | 6 | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
 | 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Steps 1–2 are complete. Steps 3–7 remain pending, even though the extraction probe
+Steps 1–3 are complete. Steps 4–7 remain pending, even though the extraction probe
 already exposed some of their inputs. A decoded sample is not yet a verified article.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
 
 Selected pilot: **1988-02, “유닉스란 무엇인가?”, TOC page 65**, with CD reference
 `8802065`. The [step 2 match](docs/CD1-MATCH-8802065.md) supports the metadata
-relationship; CD page mapping and content boundaries remain unverified. If
+relationship; the [step 3 topic map](docs/CD1-TOPIC-8802065.md) adds raw boundaries
+and an explicit CD page-65 label. Content completeness remains unverified. If
 the feature proves too complex for a first sample, document why and choose a simpler
 article from step 1's inventory; do not force a one-topic-per-article assumption.
 
@@ -134,7 +135,7 @@ but is not independently verified by the CD index. The TOC has a single feature
 entry; the number of CD topics remains unknown. Recheck with
 `python3 tools/verify_cd1_match.py`.
 
-## Exact scope of the next task: step 3
+## Step 3 completed: raw topic map
 
 **Inputs:** the accepted metadata match, preserved CD1 container/extraction
 metadata, and raw RTF/project output as needed, all read-only.
@@ -151,6 +152,30 @@ correspondence or silently merge adjacent articles.
 Keep text normalization, image conversion, summaries, and bulk matching outside
 this step. If resolving the context reveals a separate substantial problem,
 record the finding and split the step before expanding implementation.
+
+Result: [the topic map](data/catalog/topic-maps/cd1-8802065.json) resolves the
+native reference by context hash to ordinal 149 (`2PES_R6`), linked to introduction
+148 (`3M4UMD`). Native topic headers and raw RTF delimiters agree. A following
+untitled separator and the next article, “스펠링 체커”, are explicitly excluded.
+The CD body labels itself `88.2.  65p`; no general page-mapping rule is inferred.
+Recheck with `python3 tools/map_cd1_topic.py`. See the
+[evidence and remaining limits](docs/CD1-TOPIC-8802065.md).
+
+## Exact scope of the next task: step 4
+
+**Inputs:** the pinned raw RTF, its font/header definitions, and step 3's body
+range for ordinal 149. Keep source reads and any decoded sample private.
+
+**Deliverable:** one decoded paragraph from the body, with its exact raw byte
+span, font/encoding decisions, and a reproducible local conversion/check command.
+Choose a small sample that exercises Korean and English; document any special
+characters encountered and unsupported cases. Do not decode the whole article.
+
+**Check:** strict decoding has no silent replacements; text characters and RTF
+controls are distinguished, and the sample stays within the mapped body. Preserve
+the original bytes. A successful decode is still pending viewer comparison in
+step 7; do not mark the article complete. Keep image conversion and full-text
+normalization outside this step, and log/commit the result before proceeding.
 
 ## Later checkpoints — detail them when reached
 

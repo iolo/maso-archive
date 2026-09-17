@@ -75,6 +75,15 @@ the import, return a nonzero exit code, and write `failed-import-report.json`.
 They leave previous successful outputs unchanged. A successful rerun removes the
 obsolete failure report.
 
+Encoding recheck (2026-09-18): after the owner's JOHAB suggestion, both Python's
+strict `johab` codec and `iconv -f JOHAB -t UTF-8` were tried on the preserved
+files. Both reject `column.lst` at zero-based byte 74, `language.lst` at byte 7,
+and `panecmds.lst` at byte 0. The prefix that JOHAB does decode is garbled.
+All three files decode strictly as EUC-KR with exactly the same text as CP949,
+including `특집/특별기획` and `유닉스란 무엇인가`. Thus these snapshots use the
+EUC-KR-compatible portion of CP949; the importer remains unchanged. This result
+does not determine encodings for RTF font runs or other disc files.
+
 Unexpected line syntax is preserved as `unparsed` and reported. Irregular
 indentation, missing/repeated terminators, content after a terminator, padded
 references, date disagreement, and zero page components produce review notices.

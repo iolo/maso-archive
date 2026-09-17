@@ -9,6 +9,7 @@
 - [TOC import and validation](docs/TOC-IMPORT.md)
 - [CD1 reference-index import](docs/CD1-INDEX.md)
 - [First CD1-to-TOC metadata match](docs/CD1-MATCH-8802065.md)
+- [Pilot raw topic map](docs/CD1-TOPIC-8802065.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate
