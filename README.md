@@ -1,1 +1,3 @@
-# masoarch
+# maso-archive
+
+월간 마이크로소프트웨어의 비공식 디지털 아카이브.

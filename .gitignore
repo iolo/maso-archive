@@ -1,0 +1,15 @@
+# Original discs and extracted publisher content
+/masocd-*.iso
+/masocd-*/
+/HMSETUP/
+/SOURCE/
+
+# Local Windows environment and machine-specific configuration
+/hwin31/
+/hwin31.cfg
+
+# Private extraction outputs and rebuildable artifacts
+/private/
+/build/
+__pycache__/
+*.pyc
