@@ -160,7 +160,7 @@ IDs, stale decisions, missing/corrupt registries, rejected input preservation,
 schema enforcement, deterministic output, and complete import of the real TOC.
 
 Next work follows the revised [step-by-step plan](../PLAN.md): the three CD1
-indexes are now structured, and the next task is one explicit metadata match
-before the later RTF decoding pilot. Durable disc inventories remain a separate
+indexes are structured and one metadata match is recorded. The next task maps
+that reference to raw topics before the later RTF decoding pilot. Durable disc inventories remain a separate
 preservation task. This importer does not complete preservation or replace human
 review.

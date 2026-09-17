@@ -55,22 +55,22 @@ populations; neither is a verified count of complete articles.
 | Step | Deliverable | Complete when |
 | --- | --- | --- |
 | 1 — Done | CD1 reference index | All three extracted `.lst` files are represented as structured records, retaining every occurrence, category path, title, source line, and original reference; counts and parse exceptions are reported. |
-| 2 — Next | One explicit CD-to-TOC match | A chosen CD reference is linked to an existing TOC entry using recorded title/issue/page evidence. Uncertainty is stated; no bulk fuzzy matching. |
-| 3 | Raw topic map for that article | The relevant RTF topic(s), context evidence, and byte locations are identified reproducibly. Any uncertainty about where the article ends is recorded. |
+| 2 — Done | One explicit CD-to-TOC match | `8802065` is linked to `maso-1988-02-toc-0035` with both CD occurrences, title/issue evidence, and an explicitly conditional page comparison. |
+| 3 — Next | Raw topic map for that article | The relevant RTF topic(s), context evidence, and byte locations are identified reproducibly. Any uncertainty about where the article ends is recorded. |
 | 4 | One correctly decoded paragraph | Korean/English text and special-character handling are demonstrated on a small sample with no silent replacement characters; unsupported cases are listed. |
 | 5 | Full text for that one article | All identified article topics produce ordered text with provenance; headings, code, and tables are preserved or explicitly marked unsupported. No neighboring article is silently merged. |
 | 6 | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
 | 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Step 1 is complete. Steps 2–7 remain pending, even though the extraction probe
+Steps 1–2 are complete. Steps 3–7 remain pending, even though the extraction probe
 already exposed some of their inputs. A decoded sample is not yet a verified article.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
 
-Provisional article for step 2: **1988-02, “유닉스란 무엇인가?”, page 65**, with
-candidate CD reference `8802065`. Both the supplied TOC and recovered index
-contain corresponding labels. Step 2 must verify the actual relationship. If
-the feature is too complex for a first sample, document why and choose a simpler
+Selected pilot: **1988-02, “유닉스란 무엇인가?”, TOC page 65**, with CD reference
+`8802065`. The [step 2 match](docs/CD1-MATCH-8802065.md) supports the metadata
+relationship; CD page mapping and content boundaries remain unverified. If
+the feature proves too complex for a first sample, document why and choose a simpler
 article from step 1's inventory; do not force a one-topic-per-article assumption.
 
 Step 7 uses the owner's working DOSBox-X setup. Automated viewer control has not
@@ -81,7 +81,7 @@ step pending until the necessary evidence exists.
 The owner can collect that evidence while development proceeds using the
 [offline task checklist](docs/OFFLINE-TASKS.md). Viewer reference capture and
 optional backup/scan preparation did not block index import and can continue
-while the next metadata-match step proceeds.
+while topic mapping proceeds.
 
 ## Step 1 completed: index import
 
@@ -109,7 +109,7 @@ accounted for; the numeric-reference baseline matches. The additional 41
 letter-suffixed targets and one named navigation target are preserved separately.
 See [usage and validation details](docs/CD1-INDEX.md).
 
-## Exact scope of the next task: step 2
+## Step 2 completed: one metadata match
 
 **Inputs:** the generated CD1 index, the existing TOC import, and their source
 locations. Start with native reference `8802065`.
@@ -126,6 +126,31 @@ matches metadata only: it does not establish that the complete body was recovere
 Do not add collection-wide matching, RTF decoding, image conversion, or a review
 UI to this step. If the reference maps to a feature bundle rather than a single
 article, record that relationship explicitly before deciding on a simpler pilot.
+
+Result: [the match record](data/catalog/source-matches/cd1-8802065.json) links
+reference `8802065` to `maso-1988-02-toc-0035`. The title and explicit issue labels
+agree. Page 65 is reported by the TOC and is consistent with the reference suffix,
+but is not independently verified by the CD index. The TOC has a single feature
+entry; the number of CD topics remains unknown. Recheck with
+`python3 tools/verify_cd1_match.py`.
+
+## Exact scope of the next task: step 3
+
+**Inputs:** the accepted metadata match, preserved CD1 container/extraction
+metadata, and raw RTF/project output as needed, all read-only.
+
+**Deliverable:** a raw topic map for `8802065` with the source hashes, context or
+link evidence resolving the native reference, and byte locations of relevant
+topic records. Distinguish a feature introduction from article-body topics.
+
+**Check:** the mapping is supported by context/link evidence, not just a title
+string search. Identify the next-topic boundaries and document any uncertain
+continuations. A feature may contain multiple topics; do not assume one-to-one
+correspondence or silently merge adjacent articles.
+
+Keep text normalization, image conversion, summaries, and bulk matching outside
+this step. If resolving the context reveals a separate substantial problem,
+record the finding and split the step before expanding implementation.
 
 ## Later checkpoints — detail them when reached
 

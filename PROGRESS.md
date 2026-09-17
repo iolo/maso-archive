@@ -148,3 +148,31 @@
   performed. The first-article milestone remains incomplete.
 - Next: **step 2 — one explicit CD-to-TOC metadata match**, starting with native
   reference `8802065`. Stop after that bounded task and its validation/log/commit.
+
+## 2026-09-18 — Step 2 complete: one CD-to-TOC metadata match
+
+- Recorded `8802065` → `maso-1988-02-toc-0035` in
+  `data/catalog/source-matches/cd1-8802065.json`. The decision is supported by
+  metadata only; existing TOC IDs, source labels, and import review states are
+  unchanged. No collection-wide matching or RTF/body processing was performed.
+- Preserved both CD occurrences: `column.lst` line 3 and `panecmds.lst` line 112,
+  with their original labels, category paths, source hashes, and byte locations.
+  The TOC evidence is the `88.02` heading at line 2451 and feature at line 2487.
+- Exactly one entry in that issue matches after removing the explicitly recorded
+  `특집 : ` prefix and final question mark. Both CD labels explicitly name 88.02.
+  The TOC reports page 65; the CD target suffix `065` is consistent with it, but
+  its reference-to-page interpretation remains unverified.
+- The TOC has a single leaf feature entry with no byline or ending page. Whether
+  the CD feature spans multiple topics or fully represents the print article is
+  unresolved. Both CD occurrences come from the same disc, not independent sources.
+- Added `tools/verify_cd1_match.py` to check this one record against actual input
+  bytes, generated-output hashes, persistent identity, occurrence completeness,
+  title/issue agreement, and the limits on page/content claims. Documented the
+  decision and recheck command in `docs/CD1-MATCH-8802065.md`.
+- Validation: the recorded match passed. Five deliberately invalid in-memory
+  revisions were rejected: omitted occurrence, incorrect TOC identity, incorrect
+  page, unsupported body-verification claim, and stale source hash. Documentation
+  links and whitespace checks passed. Importer code and source files were unchanged.
+- Next: **step 3 — map reference `8802065` to its raw topic/context records and
+  byte locations**, before attempting paragraph decoding. The first-article
+  milestone remains incomplete pending content recovery and viewer comparison.

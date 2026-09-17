@@ -110,8 +110,9 @@ comparison applies only to the three exact input hashes previously inspected;
 other input revisions are labeled `not_applicable` rather than forced to match.
 
 The provisional reference `8802065` occurs in `column.lst` at line 3 and
-`panecmds.lst` at line 112, with separate category paths. Confirming its TOC
-identity is **step 2**, not a result of this importer.
+`panecmds.lst` at line 112, with separate category paths. Its TOC identity was
+subsequently recorded in [step 2](CD1-MATCH-8802065.md); that decision is separate
+from this importer's output.
 
 Run `make check` for the tests. Synthetic fixtures cover provenance, mixed line
 endings, hierarchy, repeated/suffixed/named references, syntax exceptions, manifest
