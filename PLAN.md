@@ -3,8 +3,11 @@
 Status: proposed implementation, based on repository and source inspection on 2026-09-18.
 CD1 feasibility update: the owner has run the viewer in DOSBox-X, and a direct
 extraction probe recovered RTF, images, and indexes. See
-[CD1 extraction findings](docs/CD1-EXTRACTION.md). Catalog import, normalization,
-review, and public-site implementation remain pending.
+[CD1 extraction findings](docs/CD1-EXTRACTION.md). The TOC importer now accounts
+for all 86 issues and 3,811 entries, with persistent IDs, schema validation,
+candidate records, and a local search preview; see [TOC import](docs/TOC-IMPORT.md).
+Durable disc inventory manifests, CD1 normalization/reconciliation, review,
+and public-site implementation remain pending.
 
 ## Working rule: progress log and commits
 
@@ -85,6 +88,7 @@ schemas/                       versioned record contracts
 src/maso_archive/               inventory, import, extract, reconcile, export
 tests/fixtures/                 minimal synthetic parser/extraction fixtures
 data/manifests/                 disc hashes, file inventories, run manifests
+data/identities/                persistent import identities and retired IDs
 data/catalog/                   reviewed issues, entries, articles, entities
 data/overrides/                 explicit corrections and source-match decisions
 data/public/                    generated allowlisted publication payload
@@ -128,6 +132,11 @@ must not be the sole permanent identity. New imports reconcile against this map
 and flag ambiguous changes instead of silently assigning different identities.
 
 ## Milestone 1 — Preservation inventory and TOC import
+
+TOC import, validation, persistent identities, article candidates, and the local
+search preview are implemented. Generated unreviewed outputs are in `build/toc/`,
+separate from the future reviewed catalog. Full machine-readable disc inventories
+and actual backup verification remain outstanding.
 
 1. Record all three ISO sizes, SHA-256 hashes, volume metadata, and complete
    directory inventories. Keep acquisition/ownership notes separate from the

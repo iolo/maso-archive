@@ -53,3 +53,32 @@
   file review; confirmed that extracted content and VM files are ignored.
 - Next: implement the TOC importer and a small RTF normalization/topic-mapping
   pilot, then reconcile recovered CD1 articles with the TOC.
+
+## 2026-09-18 — TOC importer and persistent identities
+
+- Implemented `python3 -m maso_archive import-toc`, exposed through
+  `make import-toc`, with JSON Schema validation and documented dependencies.
+- Preserved every TOC bullet, hierarchy, original order, raw source line, and
+  source checksum. Parsed title/byline/page candidates conservatively, retaining
+  multiple page references and flagging incomplete or ambiguous fields.
+- Added a versioned identity map in `data/identities/toc.json`. Insertions and
+  moves preserve existing IDs; corrections, ambiguous duplicates, and removals
+  use explicit decisions bound to the source checksum. Retired IDs are not
+  reused, and rejected imports leave successful outputs and identities intact.
+- Generated issue records, all TOC entries, article candidates, a validation and
+  coverage report, local search metadata, and a checksummed run manifest under
+  the ignored `build/toc/` directory. No source bodies or public-site assets are
+  included. Recorded usage and correction procedures in `docs/TOC-IMPORT.md`.
+- Result: 86 issues, 3,811 preserved entries, and 2,975 article candidates,
+  including 199 possible feature bundles. The 2,068 review notices include nine
+  empty bylines and 12 multiple-page references; notices are not import failures.
+- Validation: all 15 tests passed with `make check`, including the real TOC,
+  nested/synthetic edge cases, failure preservation, identity changes, and schema
+  rejection. A second complete real-TOC import left all output and identity-map
+  hashes unchanged. Documentation links and whitespace checks passed.
+- Limitations: records remain unreviewed; article candidates include editorial
+  matter and bundles. No end-page inference, normalized author identities,
+  summaries, or CD article matching has been performed. Full durable disc
+  inventories and backup verification are still outstanding in Milestone 1.
+- Next: finish durable disc inventory manifests, then normalize and reconcile a
+  small CD1 RTF/topic sample against the imported TOC records.
