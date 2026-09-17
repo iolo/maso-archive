@@ -82,3 +82,38 @@
   inventories and backup verification are still outstanding in Milestone 1.
 - Next: finish durable disc inventory manifests, then normalize and reconcile a
   small CD1 RTF/topic sample against the imported TOC records.
+
+## 2026-09-18 — Plan revised into smaller tasks
+
+- Replaced the broad milestone queue in `PLAN.md` with one bounded step per
+  task, an explicit deliverable/completion check, and the existing log-and-commit
+  rule. Preserved the earlier detail in `docs/DESIGN-REFERENCE.md`; the new plan
+  takes precedence over its historical ordering and earlier “Next” entries here.
+- Set the first milestone to one CD1 article linked to the TOC and verified
+  against the original viewer, using sources already available. Missing scans
+  are not a prerequisite. Separated index import, one metadata match, topic
+  location, paragraph decoding, article text, images, and viewer comparison.
+- Defined the immediate next task as importing the three extracted CD1 indexes
+  with provenance and validation. Deferred RTF parsing and bulk matching from
+  that task; no new extraction/import implementation was started in this revision.
+- Retained completed work, the full 86-issue objective, the later-scan agreement,
+  preservation/backup follow-up, and private/public data boundaries. Later issue,
+  website, and expansion checkpoints will be decomposed when their inputs are known.
+- Validation: checked local Markdown links and whitespace, matched completion
+  statuses against prior progress, and confirmed the provisional sample's title
+  and page occur in `TOC.md`. Documentation-only change; no code tests required.
+- Next: **step 1 — CD1 reference-index importer**. Finish, validate, log, and
+  commit that step before taking on the next numbered task.
+
+## 2026-09-18 — Offline work checklist
+
+- Added `docs/OFFLINE-TASKS.md` for the owner's parallel work: open the provisional
+  CD1 article, record its boundaries and illustrations, and try copying a short
+  text sample for comparison. Specified a private evidence folder and note format.
+- Listed optional preservation of the working Windows environment, independent
+  ISO backup verification, and information gathering for later scans. Missing
+  future scans do not block the pilot; immediate index import needs no viewer
+  evidence, while the eventual verification step does.
+- Validation: checked local document links and confirmed that the proposed
+  reference-evidence path is ignored by Git. No code changes or tests required.
+- Next development task remains **step 1 — CD1 reference-index importer**.

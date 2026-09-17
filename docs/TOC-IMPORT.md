@@ -159,6 +159,7 @@ across insertions and corrections, explicit duplicate/deletion decisions, retire
 IDs, stale decisions, missing/corrupt registries, rejected input preservation,
 schema enforcement, deterministic output, and complete import of the real TOC.
 
-Next work: complete durable disc inventory manifests, then normalize a CD1 RTF
-sample and reconcile its topics with these candidate records. This importer does
-not complete every item in Milestone 1 or replace human review.
+Next work follows the revised [step-by-step plan](../PLAN.md): first structure
+the three recovered CD1 indexes, then establish one article match and a small
+RTF decoding pilot. Durable disc inventories remain a separate preservation
+task. This importer does not complete preservation or replace human review.
