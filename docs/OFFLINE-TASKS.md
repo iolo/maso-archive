@@ -26,6 +26,23 @@ its caption and nearby text so we can place it correctly. If there are many,
 start with the first and record that the reference set is incomplete.
 Viewer screens are evidence of the CD presentation, not printed-page scans.
 
+The step 6 image map now gives specific comparison targets. The private review
+page is `build/cd1-images/8802065/review.html`:
+
+- The title's small badge (`bm43.bmp`): record its appearance and whether it is
+  clickable; its navigation role is still a candidate.
+- Figure 6's example: capture the inline pointing hands and overlined numerals
+  (`bm44.wmf`–`bm53.wmf`) in context, including the end of the example.
+- The area after Figure 6 and before Figure 7: `bm54.wmf` converts to a blank
+  drawing. Record whether the original viewer shows anything there and how the
+  surrounding example/caption is spaced. Its attachment remains unresolved.
+- Figure 11's equation (`bm55.wmf`), preferably with the nearby Figure 10 code
+  example: the current SVG displays incorrect summation/infinity glyphs. Capture
+  the equation clearly enough to compare every symbol and its placement.
+
+These supplement the full article comparison; they do not replace the beginning,
+ending, section/code structure, or remaining figure/table captures.
+
 ## 3. Try copying a small text sample
 
 If text selection/copy is supported, copy the first body paragraph into Windows

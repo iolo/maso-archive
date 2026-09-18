@@ -1,7 +1,7 @@
 # CD3 extraction and reading-room content plan
 
 Status: **deferred**. Created 2026-09-18 as a separate source-specific queue.
-The active extraction task remains step 6 in [PLAN-CD1.md](PLAN-CD1.md).
+The active extraction queue is [PLAN-CD1.md](PLAN-CD1.md).
 
 ## Scope and evidence
 

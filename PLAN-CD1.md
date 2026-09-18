@@ -113,11 +113,12 @@ populations; neither is a verified count of complete articles.
 | 5b — Done | Full text for that one article | Both mapped topics produce private ordered text and structured paragraphs/runs, with 21 object placeholders, all bytes accounted for, and the step 4 paragraph reproduced exactly. Image-contained text and viewer fidelity remain pending. |
 | 5c — Done | Block identification for the pilot | 271 blocks cover all 323 paragraphs, 289 runs, and 21 objects; headings, examples, caption relationships, image-backed tables, and unresolved content retain evidence and source references. |
 | 5d — Done | Private Markdown reading preview | Separate introduction/body previews represent all 271 blocks, preserving code whitespace, heading hierarchy, caption links, and ordered object placeholders, with source/output hashes and byte locations. |
-| 6 — Next | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
-| 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
+| 6 — Done | That article's image map | All 21 occurrences match the extraction manifest and have private derivatives; nine bitmap conversions preserve decoded pixels. Blank `bm54.wmf` and the equation's damaged symbols remain explicit review exceptions. |
+| 7 — Next | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Steps 1–5d are complete. Steps 6–7 remain pending, even though the extraction probe
-already exposed some of their inputs. A decoded sample is not yet a verified article.
+Steps 1–6 are complete. Step 7 remains pending. The image map is complete as an
+inventory/conversion report, with explicit fidelity exceptions; the article is
+not yet verified.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
 
@@ -351,7 +352,7 @@ explicit comments and source whitespace. Inline HTML retains bold, underline, an
 stable anchors. Layout, images, and viewer fidelity remain pending. See
 [Markdown preview details](docs/CD1-MARKDOWN-8802065.md).
 
-## Exact scope of the next task: step 6 — image map
+## Step 6 completed: image map and conversion report
 
 **Inputs:** the 21 ordered object references in the private text recovery,
 their RTF locations, extracted BMP/DIB/WMF resources, and the extraction manifest.
@@ -378,10 +379,42 @@ The original viewer remains the fidelity reference for step 7. Its comparison
 must cover semantic blocks, code boundaries, heading hierarchy, and caption/
 figure/table relationships as well as text and images.
 
+Result: `python3 -m tools.map_cd1_images` writes private `images.json`,
+`provenance.json`, `review.html`, nine PNG derivatives, twelve SVG derivatives,
+and twelve PNG inspection previews under `build/cd1-images/8802065/`.
+All 21 named resources match the source manifest; six distinct WMF names share
+identical bytes, leaving 16 distinct source hashes. All nine bitmap conversions
+preserve dimensions and decoded RGBA pixels. Two WMFs require review: `bm54.wmf`
+produces a blank drawing; `bm55.wmf` loses mathematical Symbol glyphs in the
+equation. Live SVG text also depends on local fonts. See
+[image findings and reproduction](docs/CD1-IMAGES-8802065.md).
+
+## Exact scope of the next task: step 7 — original-viewer comparison
+
+**Inputs:** the original CD1 article in the owner's working DOSBox-X viewer,
+the preserved topic/text/block records, Markdown preview, and step 6 image map
+and review page. Use existing reference captures if available; request specific
+missing evidence using [the offline checklist](docs/OFFLINE-TASKS.md).
+
+**Deliverable:** a comparison record covering article title/page and boundaries,
+text/heading/code structure, caption links, and every image occurrence. Keep
+observations traceable to source positions and reference captures. Prioritize
+the title badge's behavior, the inline objects in Figure 6, the blank object
+between Figures 6 and 7, and the equation in Figure 11.
+
+**Check:** distinguish unobserved items from matches and discrepancies. The
+`bm55.wmf` symbol problem requires a faithful correction before the sample can
+pass; a merely viewable SVG is insufficient. Establish whether `bm54.wmf` is
+intentionally blank or missing visible content, and retain unresolved attachment
+status until evidence supports a relationship. Split any substantial conversion
+repair into a bounded task rather than silently expanding the comparison.
+Missing reference evidence or unresolved fidelity defects keep this milestone
+pending; do not mark the sample verified or begin bulk processing.
+
 ## Next checkpoints: organize and expand CD1 content
 
-Step 6 remains the next implementation task, followed by step 7. The queue below
-starts after the pilot comparison. Define exact inputs and checks when reached;
+Step 7 is next. The queue below starts after the pilot comparison.
+Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
 single “continue” still means one bounded task.
 

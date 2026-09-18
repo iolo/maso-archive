@@ -6,7 +6,7 @@ approved public catalog. It does not modify `TOC.md` or read extracted CD bodies
 
 ## Run
 
-From the repository root, use Python 3.11 or later with the dependency in
+From the repository root, use Python 3.11 or later with the dependencies in
 `requirements.txt` installed. A virtual environment is optional:
 
 ```sh

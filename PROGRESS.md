@@ -485,3 +485,43 @@
   Verified documentation links, absence of stale active `PLAN.md` references,
   source-period/target-period distinction, and staged whitespace/diff checks.
   No CD2/CD3 extraction was started.
+
+## 2026-09-18 — CD1 step 6 complete: image map and conversion report
+
+- Added `python3 -m tools.map_cd1_images`, verifying the pilot's article/block
+  hashes and every image against the extraction manifest before conversion.
+  Mapped all 21 occurrences to topic, paragraph, run, block, caption relationships,
+  source filename/hash, and private derivatives. There are 21 names but 16 distinct
+  source hashes; six pointing-hand WMFs are byte-identical and retain all positions.
+- Followed the owner's conversion suggestions: ImageMagick `convert` produced
+  nine PNGs from one BMP and eight DIB-named BMP files; Inkscape produced twelve
+  SVGs from WMFs. Added twelve white-background PNG inspection renders at 384 dpi.
+  Recorded tool versions, commands/logs, dimensions, source/output hashes, and
+  font resolution. Pillow independently checks decoded RGBA pixels and is now an
+  explicit dependency. All nine bitmap conversions preserve dimensions/pixels.
+- Generated `images.json`, `provenance.json`, and an ordered `review.html` under
+  ignored `build/cd1-images/8802065/`. Only a compact metadata summary is tracked
+  in `data/catalog/image-maps/cd1-8802065.json`; originals and media stay private.
+  Prior recovery, semantic blocks, and Markdown previews remain unchanged.
+- Inspected private raster/vector contact sheets. The title contains a section
+  badge whose navigation behavior remains unverified. Inline WMFs contain six
+  pointing hands and four overlined numerals. Table images remain images; no
+  OCR, cell geometry, or transcription was invented.
+- Found two explicit exceptions: `bm54.wmf` yields an SVG with no drawing
+  elements and an entirely white preview; its intended content/attachment remains
+  unresolved. Figure 11's `bm55.wmf` loses Symbol-font mathematical glyphs, showing
+  incorrect summation/infinity characters. A `wmf2svg --inline` fallback produced
+  invalid encoding and replacement glyphs, so it was not adopted. Font lookup
+  also substitutes Liberation Serif for Times New Roman in text-bearing SVGs.
+- Recorded 19 resources as `converted_pending_viewer` and two as `needs_review`.
+  No image is fidelity-verified. Added targeted original-viewer comparison items
+  to the offline checklist and detailed step 7's scope in PLAN-CD1.md. The blank
+  object and damaged equation must be addressed before the sample can pass.
+- Validation: all **63 tests** passed, including seven new image tests covering
+  manifest integrity, missing/unsafe inputs, converter failure, empty SVG content,
+  exact occurrence order, duplicate-resource preservation, source/output hashes,
+  pixel equivalence, and review flags. Full conversion reruns reproduced identical
+  outputs; final PNGs match the visually inspected probe images pixel-for-pixel.
+  Documentation links, Git exclusions, and whitespace checks passed.
+- Next: **step 7 — original-viewer comparison**. The first milestone remains
+  pending; no reading-room packaging, bulk recovery, or CD2/CD3 work was started.

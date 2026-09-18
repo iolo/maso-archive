@@ -23,10 +23,11 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Pilot structural review and Markdown plan](docs/CD1-BLOCK-STRUCTURE-8802065.md)
 - [Pilot semantic block map](docs/CD1-BLOCK-MAP-8802065.md)
 - [Pilot private Markdown preview](docs/CD1-MARKDOWN-8802065.md)
+- [Pilot image map and conversion findings](docs/CD1-IMAGES-8802065.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate
-the importer. Requires Python 3.11+ and the dependency in `requirements.txt`.
+the importer. Requires Python 3.11+ and the dependencies in `requirements.txt`.
 Generated output is in `build/toc/`; persistent identities are versioned in
 `data/identities/toc.json`. Imported metadata is unreviewed and not a public-site
 release. Original media, Windows files, and extracted article content stay local.

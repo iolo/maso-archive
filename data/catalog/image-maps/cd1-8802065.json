@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "cd_reference": "8802065",
+  "sources": [
+    {
+      "path": "build/cd1-text/8802065/article.json",
+      "sha256": "d92a4231df2dce3d81bbf709e8191bde741397a77218cc5e61aaa6a130b0b1a1"
+    },
+    {
+      "path": "build/cd1-blocks/8802065/blocks.json",
+      "sha256": "800c96ee597614ff78c0a567631bcd0e5ddb4b8086ccc18374bac90668a6c8d5"
+    },
+    {
+      "path": "private/cd1-probe/manifest.json",
+      "sha256": "4fde5f744cfeb16dae303b0fae07b2bdbf5c3c12906d21e09937c13191126632"
+    }
+  ],
+  "counts": {
+    "occurrences": 21,
+    "resources": 21,
+    "distinct_source_hashes": 16,
+    "formats": {
+      ".bmp": 1,
+      ".dib": 8,
+      ".wmf": 12
+    },
+    "statuses": {
+      "converted_pending_viewer": 19,
+      "needs_review": 2
+    },
+    "pixel_equivalent_bitmaps": 9
+  },
+  "duplicate_source_groups": [
+    [
+      "bm44.wmf",
+      "bm45.wmf",
+      "bm47.wmf",
+      "bm49.wmf",
+      "bm51.wmf",
+      "bm53.wmf"
+    ]
+  ],
+  "verification": {
+    "source_manifest_checked": true,
+    "exact_occurrence_coverage": true,
+    "viewer_compared": false,
+    "image_fidelity_verified": false
+  },
+  "review_items": [
+    {
+      "resource": "bm46.wmf",
+      "status": "converted_pending_viewer",
+      "concerns": [
+        "live_svg_text_depends_on_available_fonts"
+      ]
+    },
+    {
+      "resource": "bm48.wmf",
+      "status": "converted_pending_viewer",
+      "concerns": [
+        "live_svg_text_depends_on_available_fonts"
+      ]
+    },
+    {
+      "resource": "bm50.wmf",
+      "status": "converted_pending_viewer",
+      "concerns": [
+        "live_svg_text_depends_on_available_fonts"
+      ]
+    },
+    {
+      "resource": "bm52.wmf",
+      "status": "converted_pending_viewer",
+      "concerns": [
+        "live_svg_text_depends_on_available_fonts"
+      ]
+    },
+    {
+      "resource": "bm54.wmf",
+      "status": "needs_review",
+      "concerns": [
+        "svg_has_no_drawing_elements",
+        "raster_preview_is_blank"
+      ]
+    },
+    {
+      "resource": "bm55.wmf",
+      "status": "needs_review",
+      "concerns": [
+        "source_Symbol_font_not_retained_in_svg; mathematical_glyphs_suspect",
+        "live_svg_text_depends_on_available_fonts"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "path": "build/cd1-images/8802065/images.json",
+      "bytes": 55929,
+      "sha256": "c455f5493485b5188eb18e790d684d0087e6950aa2032f6af881b612dec97975"
+    },
+    {
+      "path": "build/cd1-images/8802065/review.html",
+      "bytes": 7344,
+      "sha256": "e6e31109a257a3c1eb6931365c2556fcb443cb8369ac9936e1913ee8ee9c57d1"
+    }
+  ]
+}
