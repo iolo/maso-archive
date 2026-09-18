@@ -64,8 +64,7 @@ as historical diagnostic evidence; they are not print-verification evidence.
 
 The working `masocd-1.iso` was extracted from the retained original CD. No
 optical drive is currently available. Local inventory is complete; independent
-recovery verification remains deferred as step 11b before bulk
-processing. A [prepared transfer archive](CD1-PRESERVATION.md#prepared-local-transfer-set)
+recovery verification remains deferred as step 11b, separately from extraction. A [prepared transfer archive](CD1-PRESERVATION.md#prepared-local-transfer-set)
 now groups the ISO, probe, prepared artifacts, and Git history into about 674 MB.
 When separate storage is available, copy the prepared `.tar` and `.sha256` files
 there and verify the checksum. A fresh read from the physical CD is another
@@ -94,5 +93,6 @@ The first package, [second-article check](CD1-SECOND-ARTICLE-8802114.md), and lo
 source inventory are complete. Step 11b is deferred until independent storage or an optical drive
 is available for recovery verification. The [February coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC
 import are complete. The corrected 1991–1993 entries are imported with stable IDs.
-The next article task, `8802030`, remains gated on backup/restore readiness.
+The next article task, `8802030`, can proceed from verified sources while
+backup/restore verification remains deferred.
 Physical reference collection and print comparison (step 7) remain independent.

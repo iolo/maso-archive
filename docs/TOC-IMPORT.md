@@ -210,5 +210,6 @@ schema enforcement, deterministic output, and complete import of the real TOC.
 
 Next work follows the [CD1 plan](../PLAN-CD1.md). The expanded metadata import,
 two article witnesses, and February coverage audit are complete. Independent
-backup/restore remains required before the next article batch. This importer
+backup/restore remains a deferred preservation task; the next article batch
+can proceed without it. This importer
 does not complete preservation or replace human review.

@@ -78,7 +78,7 @@ September 1993 heading. The 1991–1993 additions are now imported with all earl
 IDs preserved. Historical article and coverage provenance is unchanged; see
 [TOC snapshot handling](TOC-IMPORT.md#current-results-and-historical-snapshots).
 
-**12b.1 — recover `8802030` only**, after step 11b: map its native and RTF topic
+**12b.1 — recover `8802030` only**, with step 11b deferred: map its native and RTF topic
 boundaries, identify all linked content and media, account for every source byte,
 retain ordered structure/runs, and build a standalone package. Check title/byline
 evidence and article boundary uncertainty without labeling it print-verified.
@@ -90,3 +90,7 @@ three targets as a complete printed issue. Step 12c must report unmatched TOC
 entries and any subsequently discovered CD content explicitly. Backup/restore,
 physical comparison, deferred media repair, CD2/CD3, and the UI retain their
 separate scopes.
+
+The report's recorded `next_batch.prerequisite` preserves the earlier planning
+decision. The current [CD1 plan](../PLAN-CD1.md) supersedes that backup gate;
+source coverage findings and prepared-article evidence are unchanged.

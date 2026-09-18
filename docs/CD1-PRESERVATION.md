@@ -179,7 +179,7 @@ physical independence from device IDs. The ISO restore check does not certify
 that the probe tree, repository, or prepared artifacts were also backed up.
 Verify those copied preservation files against their inventories/snapshots too.
 After reviewing actual evidence, update readiness, PLAN-CD1, and PROGRESS and
-commit the metadata. The command does not automatically mark the planning gate
+commit the metadata. The command does not automatically mark the preservation checkpoint
 complete. A failed check leaves prior successful backup evidence untouched;
 an old success is historical evidence, not proof of the latest attempt.
 
@@ -195,5 +195,7 @@ The owner confirms the local copy is the working `masocd-1.iso`, extracted from
 the retained original physical CD. No optical drive is currently available.
 Step 11b is deferred until independent storage or an optical drive is available; probe/repository preservation remains a separate part of that checkpoint. The
 [February 1988 coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC import are complete. The next article task is
-**12b.1: recover `8802030` only**, after step 11b.
-Article batches and bulk recovery remain gated on verified preservation readiness.
+**12b.1: recover `8802030` only**. Backup/restore verification remains deferred
+and does not block extraction that reads verified originals and writes separate
+outputs. These checks concern file integrity and recoverability, not legal
+ownership or publication permission.

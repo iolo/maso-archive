@@ -60,7 +60,8 @@ the unchanged v1 contract; the command uses private CD1 sources and ImageMagick.
 
 Run `make inventory-cd1-sources` to check the original CD1 ISO, all extracted disc
 files, and preserved probe outputs. Requires `7z`. The local inventory is complete;
-independent backup/restore verification remains pending before bulk processing.
+independent backup/restore verification remains pending as a separate preservation
+task and does not block extraction from the verified sources.
 
 Run `make prepare-cd1-transfer` to stage a private archive of CD1 sources,
 prepared artifacts, and committed Git history with per-file checksums. See the

@@ -892,3 +892,25 @@
   storage or an optical drive is available. The prepared local transfer archive
   remains verified and ready to copy. No independent restore test or further
   article recovery was performed.
+
+## 2026-09-18 — Separate preservation verification from extraction progress
+
+- Corrected the overly strict backup prerequisite after clarifying its purpose
+  with the owner. Step 11b concerns recoverability and file integrity; it does
+  not verify legal ownership or publication rights. It remains deferred without
+  blocking extraction that reads checksummed originals and writes separate outputs.
+- Updated PLAN-CD1, current guidance, and readiness metadata. Replaced the
+  ambiguous bulk-readiness flag with separate independent-restore verification,
+  extraction-permission, and backup-blocking fields. No backup or physical-CD
+  read is newly claimed, and no extraction source has been modified.
+- Kept the reviewed February coverage report byte-identical. Its historical
+  next-batch prerequisite is explicitly superseded by the current plan; coverage
+  findings and prepared-article provenance are unchanged.
+- Next is **12b.1: `8802030` (CP/M의 게리 킬달)**. Then prepare the other February
+  targets, assemble the issue package with explicit missing/unmatched content,
+  and expand across CD1. The pilot/tooling phase is largely complete, but only
+  two articles are packaged so far; the final numbered stages still contain
+  substantial content-recovery work. CD2/CD3 and the reading-room UI remain separate.
+- Validation: checked readiness JSON, documentation links, remaining gate wording,
+  and whitespace. No code, schema, or article output changed; tests were not rerun
+  for this planning/metadata correction.

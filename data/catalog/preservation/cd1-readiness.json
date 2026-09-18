@@ -8,8 +8,10 @@
   "independent_backup_status": "not_available",
   "backup_status_basis": "owner_confirms_local_copy_is_working_masocd-1.iso_extracted_from_physical_cd; no_optical_drive_currently_available",
   "restore_test_status": "pending",
-  "ready_for_bulk_processing": false,
   "remaining_checkpoint": "11b: verify a copy on independent storage when available, or a fresh physical-CD read when an optical drive is available; preserve probe/repository evidence separately",
-  "allowed_next_scope": "11b deferred: local transfer set prepared; verification awaits independent storage or an optical drive; 12b.1 recovery remains gated",
-  "physical_media_status": "owner_retains_original_cd; no_optical_drive_available_for_read_verification"
+  "allowed_next_scope": "12b.1: recover 8802030 from checksummed originals into separate generated outputs; 11b remains deferred and non-blocking",
+  "physical_media_status": "owner_retains_original_cd; no_optical_drive_available_for_read_verification",
+  "independent_restore_verified": false,
+  "non_destructive_extraction_allowed": true,
+  "backup_verification_blocks_extraction": false
 }

@@ -144,5 +144,6 @@ The schema checksum remains
 
 This supports v1 for the two inspected structures. Unknown RTF constructs,
 uninspected fonts, source-specific segmentation, missing print evidence, and
-collection-wide coverage still require their own work. Next is step 11's CD1
-preservation inventory and backup/restore readiness before bulk processing.
+collection-wide coverage still require their own work. The local inventory and
+February coverage audit are now complete. Backup/restore remains deferred, and
+article `8802030` is next under the current [CD1 plan](../PLAN-CD1.md).

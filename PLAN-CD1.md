@@ -131,11 +131,12 @@ populations; neither is a verified count of complete articles.
 | 9 — Done | One-article content package | All 26 runtime files validate; 19 accepted images and two Markdown previews are included, two media exceptions stay unavailable, and package/provenance bytes reproduce exactly. |
 | 10 — Done | Second-article schema check | `8802114` preserves unnumbered headings and three long Fixedsys/Pascal listings under unchanged v1; standalone and combined two-article packages validate and reproduce. |
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
-| 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore before bulk processing. |
+| 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6 and 8–10 are complete. Step 7 is deferred pending physical-magazine evidence;
-step 11a is complete and 11b awaits independent storage. **Step 12a, a read-only
-TOC/CD coverage audit, is next; bulk recovery remains gated on step 11b.**
+Steps 1–6, 8–10, 11a, 12a, and 12a.1 are complete. Step 7 is deferred pending
+physical-magazine evidence; 11b awaits independent storage or an optical drive.
+**Step 12b.1 (`8802030`) is next. Backup/restore verification does not block
+non-destructive extraction from the verified sources.**
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
 Print comparison remains a separate pending status. No original-viewer screenshots
@@ -539,7 +540,8 @@ are useful evidence but do not establish that a backup can be restored.
 **Check:** account for the source files and distinguish inventory validation from
 actual backup/restore verification. If external storage evidence is unavailable,
 complete the local inventory and record the remaining owner task explicitly;
-do not claim preservation readiness or begin bulk extraction on that basis.
+do not claim independent backup/restore verification on that basis. Extraction
+may continue by reading verified originals and writing separate generated outputs.
 Do not repair media, implement the UI, or expand to CD2/CD3 in this step.
 
 Result: split this checkpoint into **11a complete** and **11b deferred** after
@@ -548,7 +550,8 @@ the owner confirmed that no independent backup exists yet. The command
 375 directories with a fresh extraction, verifies all 7,374 probe-manifest files,
 and inventories three supporting files. The private detailed inventory has a
 tracked hash/summary; [readiness](data/catalog/preservation/cd1-readiness.json)
-explicitly remains false for bulk processing. All 104 tests pass. The restore
+keeps independent restore verification pending, separately from permission to
+continue non-destructive extraction. All 104 tests pass. The restore
 command is implemented and tested with synthetic fixtures, but no real independent
 backup or restore is claimed. See [preservation instructions](docs/CD1-PRESERVATION.md).
 
@@ -567,7 +570,7 @@ index presence as complete printed coverage. Preserve source order and identity;
 do not silently collapse references or invent article bodies. This is read-only
 source analysis and metadata preparation, with no new article-body recovery or
 bulk extraction. Define subsequent bounded article batches from its findings;
-those remain gated on step 11b's independent preservation evidence.
+those may proceed without completing the deferred backup/restore task.
 
 Result: [coverage audit](docs/CD1-COVERAGE-1988-02.md) complete: 39 TOC entries,
 five indexed CD targets / 11 occurrences, four supported metadata relationships
@@ -607,11 +610,11 @@ the owner confirms the local copy is the working `masocd-1.iso`, extracted from
 the retained physical CD. No optical drive is available. Restore verification
 remains deferred until independent storage or an optical drive is available.
 
-**Prerequisite:** complete step 11b with real independent backup/restore evidence
-(or a verified fresh read from the physical CD, with the other preservation files
-accounted for separately).
-The current readiness record remains false; no new recovery begins on local
-inventory evidence alone.
+**Execution boundary:** read the checksummed sources and write generated outputs
+separately. Step 11b is a deferred preservation task, not a prerequisite for
+article recovery. Source modification, deletion, or replacement is outside this
+extraction workflow. Backup status does not establish legal ownership or
+publication permission.
 
 **Inputs:** the five-target February coverage report, original MVB, preserved RTF,
 indexes, media, and the two validated existing packages.
@@ -624,9 +627,8 @@ pending print verification; do not claim complete printed-issue coverage.
 
 ## Next checkpoints: organize and expand CD1 content
 
-Step 12a.1 is complete. Step 12b.1 is gated on 11b; step 7 remains independently
-deferred pending physical reference evidence.
-The backup/restore gate still applies before bulk recovery or issue article batches.
+Step 12a.1 is complete. Step 12b.1 is next. Steps 7 and 11b remain independently
+deferred; neither blocks content preparation from the verified local sources.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
 single “continue” still means one bounded task.
@@ -637,10 +639,10 @@ single “continue” still means one bounded task.
 | 9 — Done: one-article content package | Private pilot runtime files, previews, accepted assets, manifest, and separate provenance. | All content and media references resolve or carry explicit unavailable status; source links/hashes and deterministic rebuilds are checked. The reading room can consume the documented files without parsing RTF. |
 | 10 — Done: second-article check | Recovered and packaged `8802114`, including a combined two-article v1 package. | Long listings and unnumbered headings preserve source structure. Font 15 uses an explicit ASCII policy; the schema remains unchanged. |
 | 11a — Done: local source inventory | Checksummed original, exact ISO/extracted-tree comparison, and complete probe coverage. | Every observed source file is accounted for and the inventory reproduces; this alone does not establish backup readiness. |
-| 11b — Deferred: recovery-source verification | Transfer the prepared set to independent storage, or verify the physical CD when a drive is available. | A real independent ISO restore or fresh physical-CD read verifies all disc files; preserved probe/repository evidence is recorded before bulk processing. |
+| 11b — Deferred: recovery-source verification | Transfer the prepared set to independent storage, or verify the physical CD when a drive is available. | A real independent ISO restore or fresh physical-CD read verifies all disc files; preserved probe/repository evidence is recorded separately from extraction progress. |
 | 12a — Done: one-issue coverage audit | Read-only February 1988 TOC/CD coverage and matching report. | Every TOC entry and discovered CD reference has an explicit metadata relationship and preparation status, with no guessed matches or new body extraction. |
 | 12a.1 — Done: expanded TOC validation/import | Review and import the 1991–1993 additions with stable IDs and explicit historical snapshots. | Issue attribution is supported, imports validate, existing article provenance stays reproducible, and regression checks pass. |
-| 12b–c — Gated: issue preparation, in small tasks | After 11b, recover bounded article batches, then build the issue package and catalog/search records. | All issue content references resolve or carry explicit exceptions, and the static package validates end to end. First batch 12b.1 is `8802030` only, as defined in the coverage report; define later batches separately. |
+| 12b–c — Next: issue preparation, in small tasks | Recover bounded article batches, then build the issue package and catalog/search records. | All issue content references resolve or carry explicit exceptions, and the static package validates end to end. First batch 12b.1 is `8802030` only, as defined in the coverage report; define later batches separately. |
 | 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content covered by the newly supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
 
 ### Content contract requirements implemented in step 8
