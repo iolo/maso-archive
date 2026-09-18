@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "cd_reference": "8802065",
+  "sources": [
+    {
+      "path": "build/cd1-text/8802065/article.json",
+      "sha256": "d92a4231df2dce3d81bbf709e8191bde741397a77218cc5e61aaa6a130b0b1a1"
+    },
+    {
+      "path": "build/cd1-blocks/8802065/blocks.json",
+      "sha256": "800c96ee597614ff78c0a567631bcd0e5ddb4b8086ccc18374bac90668a6c8d5"
+    }
+  ],
+  "policy": {
+    "format": "Markdown with inline HTML anchors/strong/underline",
+    "heading_levels": "title H1; source levels 1/2/3 map to H2/H3/H4",
+    "code": "verbatim source projection; collision-safe unlabeled fences",
+    "spacing": "explicit source-spacing comments; original layout not reproduced",
+    "images": "ordered source placeholders; no converted assets yet"
+  },
+  "counts": {
+    "blocks": 271,
+    "paragraphs": 323,
+    "runs": 289,
+    "objects": 21,
+    "block_types": {
+      "byline": 1,
+      "caption": 13,
+      "code": 17,
+      "figure": 8,
+      "heading": 28,
+      "issue_label": 1,
+      "paragraph": 122,
+      "spacing": 77,
+      "table": 1,
+      "title": 2,
+      "unresolved": 1
+    },
+    "heading_levels": {
+      "1": 3,
+      "2": 7,
+      "3": 18
+    },
+    "caption_relationships": 13,
+    "markdown_files": 2
+  },
+  "outputs": [
+    {
+      "path": "build/cd1-markdown/8802065/introduction.md",
+      "bytes": 1083,
+      "sha256": "f85ed11c6d3300ae602e8e27dc8577e61fc7f71066d9df0b333862bf61239720"
+    },
+    {
+      "path": "build/cd1-markdown/8802065/body.md",
+      "bytes": 81647,
+      "sha256": "daf1d39afd1090f9f2f6d3a61bb179c9725bb0423b2d1f9058f4a7f5c2177e71"
+    }
+  ],
+  "verification": {
+    "source_hashes_checked": true,
+    "exact_block_coverage": true,
+    "viewer_compared": false,
+    "semantic_structure_verified": false
+  },
+  "provenance": {
+    "path": "build/cd1-markdown/8802065/provenance.json",
+    "bytes": 102985,
+    "sha256": "fea648a9935ad301f9fd3d3e50a6a2617ff6964aa6807f12a9fe6573748c2763"
+  }
+}

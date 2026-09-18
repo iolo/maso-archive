@@ -15,6 +15,7 @@
 - [Pilot full-text recovery](docs/CD1-TEXT-8802065.md)
 - [Pilot structural review and Markdown plan](docs/CD1-BLOCK-STRUCTURE-8802065.md)
 - [Pilot semantic block map](docs/CD1-BLOCK-MAP-8802065.md)
+- [Pilot private Markdown preview](docs/CD1-MARKDOWN-8802065.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate

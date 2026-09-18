@@ -396,3 +396,36 @@
 - Next: **step 5d — private Markdown preview** from the block map. Preserve mixed
   example placeholders and unresolved attachments explicitly; retain structured
   preservation data. Viewer verification and the first milestone remain pending.
+
+## 2026-09-18 — Step 5d complete: private Markdown preview
+
+- Added `python3 -m tools.render_cd1_markdown`, consuming the checksummed recovery
+  and reviewed block map without changing either. Generated separate private
+  `introduction.md`/`body.md` and `provenance.json` under
+  `build/cd1-markdown/8802065/`; tracked only the renderer, tests, documentation,
+  and metadata summary in `data/catalog/markdown-previews/cd1-8802065.json`.
+- Represented all 271 blocks, 323 paragraphs, 289 runs, and 21 object occurrences
+  in order. Kept 28 headings in three levels below topic titles, 17 verbatim
+  code/example fences, and 13 caption links to stable content anchors. Preserved
+  source spacing with explicit comments; Markdown does not reproduce RTF layout.
+- Escaped prose syntax and retained bold/underline through inline HTML. Fences
+  exceed any embedded backtick sequence. Provenance maps every block to UTF-8
+  output/content byte ranges and records input/output hashes and source content
+  hashes; preservation inputs remain separate from the reading representation.
+- Kept the ten inline WMFs in the `tbl` example as ordered placeholders with a
+  mixed-content limitation note. Retained `bm54.wmf` as an unresolved attachment,
+  image-backed table limitations, and the title icon's uncertain role. No images
+  were converted and no resource was silently discarded.
+- Initial independent rendering checks exposed Markdown trimming trailing spaces
+  from two prose paragraphs. Boundary-space entities fixed the loss; comparisons
+  now retain every block's text and all code whitespace. The first build also
+  rejected the assumed short topic-role names; the renderer now explicitly maps
+  the recovery's `linked_introduction` / `reference_target_body` roles.
+- Validation: `make check` passed all 55 tests, including eight new Markdown
+  tests. Available `markdown-it-py` independently rendered every content block
+  and the complete documents, checking text, fence/heading counts, 271 unique
+  anchors, and 13 valid caption targets. Renderer checks skip explicitly where
+  that optional test package is unavailable. Deterministic regeneration, input
+  hashes, and Git exclusion checks passed; generated content stays private.
+- Next: **step 6 — image map and viewable derivatives**. Original-viewer comparison
+  is still pending in step 7; this preview does not complete the first milestone.

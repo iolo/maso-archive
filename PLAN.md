@@ -67,11 +67,11 @@ populations; neither is a verified count of complete articles.
 | 5a — Done | RTF feature inventory for the mapped topics | All 149,579 bytes in introduction 148 and body 149 are accounted for; fonts, metadata groups, 21 object markers, and five HELPDECO literal-brace guards are located. |
 | 5b — Done | Full text for that one article | Both mapped topics produce private ordered text and structured paragraphs/runs, with 21 object placeholders, all bytes accounted for, and the step 4 paragraph reproduced exactly. Image-contained text and viewer fidelity remain pending. |
 | 5c — Done | Block identification for the pilot | 271 blocks cover all 323 paragraphs, 289 runs, and 21 objects; headings, examples, caption relationships, image-backed tables, and unresolved content retain evidence and source references. |
-| 5d — Next | Private Markdown reading preview | The block map generates readable Markdown preserving code whitespace, heading hierarchy, and caption relationships, with explicit unresolved-resource/layout markers. Preservation data remains separate. |
-| 6 | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
+| 5d — Done | Private Markdown reading preview | Separate introduction/body previews represent all 271 blocks, preserving code whitespace, heading hierarchy, caption links, and ordered object placeholders, with source/output hashes and byte locations. |
+| 6 — Next | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
 | 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Steps 1–5c are complete. Steps 5d–7 remain pending, even though the extraction probe
+Steps 1–5d are complete. Steps 6–7 remain pending, even though the extraction probe
 already exposed some of their inputs. A decoded sample is not yet a verified article.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
@@ -273,7 +273,7 @@ and 13 caption relationships without changing the recovered paragraphs/runs.
 The `tbl` example retains ten inline WMF objects as mixed content; the following
 `bm54.wmf` remains unresolved. See [block-map details](docs/CD1-BLOCK-MAP-8802065.md).
 
-## Exact scope of the next task: step 5d — private Markdown preview
+## Step 5d completed: private Markdown preview
 
 **Inputs:** the validated block map, unchanged paragraph/run recovery, and
 caption/object relationships. No image conversion is required for this preview.
@@ -292,10 +292,19 @@ Keep `bm54.wmf` unresolved until its attachment is established.
 syntax is escaped without altering source text. Use fences long enough to avoid
 collisions, and retain the three-level heading hierarchy and caption links.
 No source block disappears from the export without an explicit representation.
-Preserve RTF,
-paragraph/run JSON, and semantic decisions separately from this reading format.
+Preserve RTF, paragraph/run JSON, and semantic decisions separately from this
+reading format.
 
-## Following task: step 6 — image map
+Result: `python3 -m tools.render_cd1_markdown` writes private `introduction.md`,
+`body.md`, and `provenance.json` under `build/cd1-markdown/8802065/`. All 271 blocks
+are represented, with 17 verbatim code fences, 28 hierarchical headings, 13
+caption links, and 21 ordered object placeholders. An independent Markdown parser
+reproduces each block's text, including code whitespace; spacing blocks retain
+explicit comments and source whitespace. Inline HTML retains bold, underline, and
+stable anchors. Layout, images, and viewer fidelity remain pending. See
+[Markdown preview details](docs/CD1-MARKDOWN-8802065.md).
+
+## Exact scope of the next task: step 6 — image map
 
 **Inputs:** the 21 ordered object references in the private text recovery,
 their RTF locations, extracted BMP/DIB/WMF resources, and the extraction manifest.
