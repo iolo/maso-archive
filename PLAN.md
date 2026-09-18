@@ -65,11 +65,11 @@ populations; neither is a verified count of complete articles.
 | 3 — Done | Raw topic map for that article | Native context/hash evidence resolves `8802065` to body topic 149 and its linked introduction 148; byte locations and following boundaries are recorded, with completeness pending viewer review. |
 | 4 — Done | One correctly decoded paragraph | The first body paragraph decodes strictly to 182 characters; byte provenance, font/encoding decisions, punctuation handling, and unsupported cases are recorded. |
 | 5a — Done | RTF feature inventory for the mapped topics | All 149,579 bytes in introduction 148 and body 149 are accounted for; fonts, metadata groups, 21 object markers, and five HELPDECO literal-brace guards are located. |
-| 5b — Next | Full text for that one article | Both identified topics produce ordered private text with provenance; headings, code, and tables are preserved or explicitly marked unsupported. No neighboring article is silently merged. |
-| 6 | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
+| 5b — Done | Full text for that one article | Both mapped topics produce private ordered text and structured paragraphs/runs, with 21 object placeholders, all bytes accounted for, and the step 4 paragraph reproduced exactly. Image-contained text and viewer fidelity remain pending. |
+| 6 — Next | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
 | 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Steps 1–5a are complete. Steps 5b–7 remain pending, even though the extraction probe
+Steps 1–5b are complete. Steps 6–7 remain pending, even though the extraction probe
 already exposed some of their inputs. A decoded sample is not yet a verified article.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
@@ -216,7 +216,7 @@ from visible text. Arial and 굴림체 carry text; Times is selected only in an 
 introductory paragraph. Five literal-brace guards added by HELPDECO require
 explicit handling. See [the inventory notes](docs/CD1-RTF-INVENTORY-8802065.md).
 
-## Exact scope of the next task: step 5b
+## Step 5b completed: private full-text recovery
 
 **Inputs:** the pinned RTF, separate topic spans, step 5a's token/group/font/object
 inventory, and step 4's verified paragraph bytes and decoded-output hash.
@@ -238,6 +238,33 @@ exactly. Preserve introduction/body separation and exclude neighboring topics.
 Recover all available text now regardless of eventual publication/access policy.
 Image conversion and original-viewer comparison remain steps 6–7. Producing the
 full text does not itself establish article completeness or display fidelity.
+
+Result: `python3 -m tools.recover_cd1_text` writes separate introduction/body
+text, structured paragraphs/runs with formatting/source spans, and provenance to
+`build/cd1-text/8802065/`. All 268 text runs decode strictly; all 149,579 source
+bytes are accounted for. The 4/319 introduction/body paragraphs retain blank lines,
+and all 21 object placeholders stay in order. The step 4 sample matches exactly.
+See [full-text recovery notes](docs/CD1-TEXT-8802065.md). Text inside image resources
+is not transcribed, and viewer comparison/article completeness remain pending.
+
+## Exact scope of the next task: step 6
+
+**Inputs:** the 21 ordered object references in the private text recovery,
+their RTF locations, extracted BMP/DIB/WMF resources, and the extraction manifest.
+
+**Deliverable:** a private image map connecting each occurrence to its source
+resource and paragraph/run position, with source hashes, format/dimensions where
+readable, and viewable derivatives or a specific unsupported/missing status.
+Keep originals intact and derivatives outside Git. Distinguish a navigation icon
+from editorial images where evidence supports that distinction; do not infer
+that every resource is a separate illustration.
+
+**Check:** account for all 21 occurrences, verify files against the extraction
+manifest, and inspect rendered results for obvious conversion failures. Preserve
+repeated/composite resources in their original order. Document unreadable assets
+and fidelity uncertainties rather than silently omitting them. Do not perform
+bulk extraction, OCR, publication, or access-verification implementation here.
+The original viewer remains the fidelity reference for step 7.
 
 ## Later checkpoints — detail them when reached
 

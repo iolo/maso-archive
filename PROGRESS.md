@@ -296,3 +296,39 @@
 - Next: **step 5b — recover the complete available text of the two mapped topics
   privately**, preserving structure/provenance and all 21 object placeholders.
   Full-text fidelity and article completeness still require subsequent review.
+
+## 2026-09-18 — Step 5b complete: private full available topic text
+
+- Added `python3 -m tools.recover_cd1_text`. It validates the pinned sources and
+  reviewed inventory/sample, then writes separate `introduction.txt`, `body.txt`,
+  structured `article.json`, and `provenance.json` under ignored
+  `build/cd1-text/8802065/`. Only metadata/hashes are committed in
+  `data/catalog/text-recoveries/cd1-8802065.json`.
+- Recovered all 268 available text runs using strict CP949, with exact byte
+  round trips and zero undecoded runs/replacement characters. Preserved all 4
+  introduction and 319 body paragraphs, including blank paragraphs and code-like
+  line spacing. Text output has 192/27,686 characters respectively, including
+  line endings and generated object placeholders.
+- Preserved observed paragraph/run formatting and raw source spans. Kept
+  footnote/navigation metadata separate from visible prose without leaking its
+  font resets. All 21 object placeholders remain in source order with resource
+  names and paragraph/run locations; no image-contained text was transcribed.
+- Recorded removal of the five HELPDECO literal-brace guards; example braces
+  survive without added hyphens. No spelling corrections, Unicode normalization,
+  whitespace collapsing, or inferred table/heading semantics were applied.
+- Every one of the 40,351 tokens / 149,579 source bytes has a contiguous ledger
+  entry describing its treatment. Undecodable runs would preserve their raw bytes,
+  location, and issue placeholder; unreviewed visible controls are rejected.
+- Validation: all 42 tests passed with `make check`, including five new tests for
+  metadata/font isolation, paragraph formatting/spacing, escapes and objects,
+  explicit decoding failures, and private-source recovery. The original step 4
+  paragraph matches exactly. An independent source-span scanner and `iconv`
+  conversion matched all 268 decoded runs; both ledgers cover their full spans.
+  All four generated artifacts reproduced byte-for-byte on rerun.
+- Documented the result in `docs/CD1-TEXT-8802065.md` and marked step 5b complete
+  in PLAN.md. Private full-text preparation is independent of publication/access
+  decisions; no ownership verification or reader UI was added.
+- Next: **step 6 — map the 21 object occurrences to their extracted image
+  resources and viewable derivatives or explicit unsupported statuses**. Viewer
+  comparison and article completeness remain pending; text in images is outside
+  the recovered text layer. The first milestone is not complete.

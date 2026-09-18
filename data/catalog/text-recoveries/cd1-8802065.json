@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "cd_reference": "8802065",
+  "scope": "private_full_available_topic_text",
+  "source": {
+    "path": "private/cd1-probe/raw/MASOCD.rtf",
+    "sha256": "01465d52667ab798df0dcf7993b6de764f45fd55e09eec1f80f77291303d957b"
+  },
+  "topic_map": {
+    "path": "data/catalog/topic-maps/cd1-8802065.json",
+    "sha256": "20a88a591b59a862aea5c9a6e613773a1e04ac5eb7a19b32e7490df74a0b0ea2"
+  },
+  "inventory_sha256": "16b9ba1c79cb7a8f685ed906442eb499f4bed0cc16193e5b26634c8b4959ec18",
+  "encoding": {
+    "codec": "cp949",
+    "errors": "strict",
+    "policy": "Source-specific for observed fonts 4, 5, 6; each text run must round-trip exactly."
+  },
+  "topics": [
+    {
+      "ordinal": 148,
+      "role": "linked_introduction",
+      "paragraphs": 4,
+      "nonempty_paragraphs": 2,
+      "text_characters_with_placeholders_and_newlines": 192,
+      "metadata_groups": 2,
+      "bytes_by_disposition": {
+        "formatting": 95,
+        "metadata": 43,
+        "paragraph_boundary": 20,
+        "rtf_layout": 5,
+        "text": 1147
+      },
+      "accounted_tokens": 356,
+      "brace_guards_removed": 0,
+      "issues": []
+    },
+    {
+      "ordinal": 149,
+      "role": "reference_target_body",
+      "paragraphs": 319,
+      "nonempty_paragraphs": 238,
+      "text_characters_with_placeholders_and_newlines": 27686,
+      "metadata_groups": 11,
+      "bytes_by_disposition": {
+        "decompiler_guard": 10,
+        "formatting": 3382,
+        "metadata": 341,
+        "object_reference": 543,
+        "paragraph_boundary": 1595,
+        "rtf_layout": 324,
+        "text": 142074
+      },
+      "accounted_tokens": 39995,
+      "brace_guards_removed": 5,
+      "issues": []
+    }
+  ],
+  "object_placeholders": 21,
+  "sample_paragraph_sha256": "65183a3e12d3d3b7973b722ed455a8fecdb4b53256e155d1cb3b378796ac81a1",
+  "outputs": {
+    "introduction.txt": {
+      "bytes": 466,
+      "sha256": "2644965bed6c460969e05990acd48221833de55ce8d9fa42dc71c1a6eb40036c"
+    },
+    "body.txt": {
+      "bytes": 60550,
+      "sha256": "861262cff09af3bda63f29504ebc65ef39c09f7f95e960dc02ca316bcb59250c"
+    },
+    "article.json": {
+      "bytes": 6489154,
+      "sha256": "d92a4231df2dce3d81bbf709e8191bde741397a77218cc5e61aaa6a130b0b1a1"
+    }
+  },
+  "verification": {
+    "all_source_tokens_accounted_for": true,
+    "all_available_text_decoded": true,
+    "pilot_paragraph_matches": true,
+    "viewer_compared": false,
+    "article_completeness_verified": false
+  },
+  "limitations": [
+    "Text embedded inside image resources is not transcribed; all object positions remain placeholders for step 6.",
+    "Paragraph/run formatting is retained as observed RTF properties, without inferred heading, table, or code semantics.",
+    "Recovered topic text is private preparation, not publication or an access-control decision.",
+    "Completeness and rendering fidelity still require original-viewer comparison."
+  ]
+}
