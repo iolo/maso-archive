@@ -262,3 +262,8 @@ verify all file hashes, preserve deferred placeholders, and reproduce the packag
 without requiring RTF parsing in the reading room. All package content stays
 private; the first preparation milestone is complete. See the
 [package report](CD1-PACKAGE-8802065.md) for reproduction and remaining limitations.
+
+Step 10's [second-article check](CD1-SECOND-ARTICLE-8802114.md) also passes v1
+unchanged: unnumbered headings, long Pascal listings, and a combined two-article
+package. Its font-decoding extension belongs to extraction, not the runtime
+schema. This validates two inspected cases, not collection-wide compatibility.

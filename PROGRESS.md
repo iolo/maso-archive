@@ -658,3 +658,49 @@
   to **step 10 — second-article check**. Deferred physical-magazine comparison,
   media repair, UI implementation, publication/access policy, and CD2/CD3 remain
   separate; none is claimed complete by this package.
+
+## 2026-09-18 — CD1 step 10 complete: second article verifies schema v1
+
+- Selected **스펠링 체커**, CD reference `8802114`, February 1988 page 114.
+  Three index occurrences agree with one exact TOC title under the utility
+  section (`maso-1988-02-toc-0021`). Native context/hash and RTF aliases confirm
+  introduction/body topics 151–152, the hidden introduction link, and the following
+  separator/browse boundary. The CD page label independently agrees with the TOC.
+- Inspected a different structure: unnumbered headings, one usage command,
+  three captioned Pascal listings, and one bitmap title badge. The first decoder
+  probe rejected 417 font-15 runs; the header identifies Fixedsys and all 12,608
+  encoded bytes are ASCII. Added an opt-in strict-ASCII font policy, retaining
+  the original decoder default and explicit failures for other fonts/non-ASCII
+  Fixedsys data. No source spelling or code errors were repaired or executed.
+- Recovered all 27,624 source bytes with contiguous accounting: 485 paragraphs,
+  439 runs, and 34 decompiler brace guards handled explicitly. Mapped 39 blocks,
+  including three listing ranges of 317/36/96 paragraphs and three caption links.
+  Unnumbered headings use inspected formatting/context; the original pilot's
+  numbered-heading decisions remain unchanged.
+- Converted `bm40.bmp` to a 32 × 25 PNG with identical decoded RGBA pixels and
+  visually inspected the title badge. Its navigation behavior remains unresolved.
+  Reused Markdown rendering with article-specific labels/anchors, preserving
+  original first-pilot output hashes and every new block's content bytes.
+- Added `make check-second-article`. It creates private recovery, inventory,
+  block map, text projections, provenance, an 8-file standalone package, and a
+  30-file combined package under `build/cd1-second-article/8802114/`. The combined
+  package has two articles, four sections, 310 blocks, 808 paragraphs, 22 media
+  occurrences, 20 accepted assets, and four previews. Two TOC entries are matched;
+  37 remain unmatched. The original two deferred media remain unavailable.
+- **No schema change was needed.** Long preformatted blocks, unnumbered headings,
+  listing captions, media occurrences, shared issue metadata, and stable IDs all
+  fit v1. The approved schema hash remains unchanged. This verifies the two
+  inspected cases; it does not establish support for all remaining CD structures.
+- Validation: all **95 tests passed**, including seven new tests for opt-in
+  decoding/failures, native boundaries/accounting, every source run/mark, long
+  listing ranges, heading classification, bitmap pixels, preview content, and
+  relocated standalone/combined packages. Two command-line rebuilds reproduced
+  all reviewed hashes; standalone package verification passed. First-pilot
+  recovery, Markdown, contract, and package regressions remain byte-identical.
+  Documentation links, generated-output exclusions, and staged whitespace checks
+  passed. The initial synthetic font-policy test had an unescaped RTF brace;
+  correcting that fixture produced the intended literal-brace preservation check.
+- Updated PLAN-CD1.md and offline guidance: **step 11 — CD1 preservation
+  readiness** is next, with separate inventory and backup/restore evidence.
+  Physical-magazine verification stays pending. Publisher content remains private;
+  only code, tests, documentation, and the metadata summary are tracked.

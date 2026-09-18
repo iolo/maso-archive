@@ -52,11 +52,13 @@ def fenced(text):
 
 
 def anchor(block_id):
-    require(re.fullmatch(r"cd1-8802065:T\d+:P\d+-\d+", block_id) is not None, "Unsafe block ID")
+    require(re.fullmatch(r"cd1-\d{7}:T\d+:P\d+-\d+", block_id) is not None, "Unsafe block ID")
     return block_id.replace(":", "-")
 
 
 def render(article, block_map):
+    reference = article["cd_reference"]
+    require(re.fullmatch(r"\d{7}", reference) is not None, "Unsafe article reference")
     mapper.validate_map(article, block_map)
     for topic in article["topics"]:
         for paragraph in topic["paragraphs"]:
@@ -73,7 +75,7 @@ def render(article, block_map):
         filename = roles[topic["role"]] + ".md"
         require(filename not in files, "Duplicate topic output")
         data = bytearray((
-            f"> Private reading preview — CD1 8802065, {topic['role']} (topic {topic['ordinal']}).\n>\n"
+            f"> Private reading preview — CD1 {reference}, {topic['role']} (topic {topic['ordinal']}).\n>\n"
             "> Images are unresolved placeholders. Structure and completeness await viewer comparison.\n>\n"
             "> Layout, fonts, and blank-paragraph spacing are not reproduced; preservation data remains separate.\n\n"
         ).encode("utf-8"))

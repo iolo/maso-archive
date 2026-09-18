@@ -75,6 +75,8 @@ known missing pages. Start by locating **1983-11**. A cover, TOC, and typical ar
 page are enough to plan a later scanning pilot. Keep available source scans under
 `private/scans/`; bulk scanning is a separate future task.
 
-The first [article package](CD1-PACKAGE-8802065.md) is complete. The next development
-checkpoint is the second-article check (step 10), using the approved v1 contract. Physical
-reference collection and deferred print comparison (step 7) do not block it.
+The first package and [second-article check](CD1-SECOND-ARTICLE-8802114.md) are
+complete under the approved v1 contract. The next checkpoint is CD1 preservation
+readiness (step 11); section 4's separate backup and restore evidence are relevant
+to completing it. Physical reference collection and deferred print comparison
+(step 7) remain independent of content preparation.

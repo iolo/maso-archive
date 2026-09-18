@@ -26,6 +26,7 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Pilot image map and conversion findings](docs/CD1-IMAGES-8802065.md)
 - [Reading-room content contract v1](docs/READING-ROOM-CONTENT-V1.md)
 - [Pilot reading-room package](docs/CD1-PACKAGE-8802065.md)
+- [Second article and two-article schema check](docs/CD1-SECOND-ARTICLE-8802114.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate
@@ -47,3 +48,7 @@ Run `make reading-room-package` to assemble the private pilot under
 `build/reading-room-packages/cd1-8802065/`. Its `content/` directory contains the
 complete static handoff; adjacent provenance stays separate. See the package
 documentation for standalone verification and configurable base-URL use.
+
+Run `make check-second-article` to reproduce the second article and the combined
+two-article package under `build/cd1-second-article/8802114/`. Both validate against
+the unchanged v1 contract; the command uses private CD1 sources and ImageMagick.

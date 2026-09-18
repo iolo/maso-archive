@@ -27,8 +27,11 @@ def reset_character():
     return {"font_id": 4, "fs": None, "b": False, "ul": False}
 
 
-def recover_topic(rtf, report, initial_state=None):
+def recover_topic(rtf, report, initial_state=None, font_codecs=None):
     """Interpret visible tokens; retain metadata and account for every byte."""
+    # Callers must establish additional font/encoding mappings from source evidence.
+    font_codecs = {4: "cp949", 5: "cp949", 6: "cp949"} if font_codecs is None else dict(font_codecs)
+    require(all(codec in ("ascii", "cp949") for codec in font_codecs.values()), "Unsupported decoding policy")
     state = deepcopy(initial_state) if initial_state else {"character": reset_character(), "paragraph": {}}
     if initial_state is None:
         state["character"]["font_id"] = report["initial_font_id"]
@@ -57,11 +60,13 @@ def recover_topic(rtf, report, initial_state=None):
                "source_spans": deepcopy(spans), "encoded_bytes": len(encoded),
                "encoded_sha256": sample.digest(encoded), "encoding": "cp949"}
         try:
-            require(font in (4, 5, 6), f"Unsupported font {font}")
-            text = encoded.decode("cp949", errors="strict")
+            require(font in font_codecs, f"Unsupported font {font}")
+            codec = font_codecs[font]
+            run["encoding"] = codec
+            text = encoded.decode(codec, errors="strict")
             require("\ufffd" not in text and all(ord(c) >= 32 for c in text),
                     "Replacement/embedded control character")
-            require(text.encode("cp949", errors="strict") == encoded, "Byte round-trip mismatch")
+            require(text.encode(codec, errors="strict") == encoded, "Byte round-trip mismatch")
             run["text"] = text
         except (ValueError, UnicodeError) as error:
             run.update(kind="unsupported", text=f"[unsupported text at byte {spans[0]['byte_offset']}]",
