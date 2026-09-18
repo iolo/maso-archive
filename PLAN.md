@@ -66,12 +66,12 @@ populations; neither is a verified count of complete articles.
 | 4 — Done | One correctly decoded paragraph | The first body paragraph decodes strictly to 182 characters; byte provenance, font/encoding decisions, punctuation handling, and unsupported cases are recorded. |
 | 5a — Done | RTF feature inventory for the mapped topics | All 149,579 bytes in introduction 148 and body 149 are accounted for; fonts, metadata groups, 21 object markers, and five HELPDECO literal-brace guards are located. |
 | 5b — Done | Full text for that one article | Both mapped topics produce private ordered text and structured paragraphs/runs, with 21 object placeholders, all bytes accounted for, and the step 4 paragraph reproduced exactly. Image-contained text and viewer fidelity remain pending. |
-| 5c — Next | Block identification for the pilot | Headings, prose, code/examples, captions, figures, and possible tables are represented as blocks with source references, evidence, and uncertainty. Every paragraph/run/object remains accounted for. |
-| 5d | Private Markdown reading preview | The block map generates readable Markdown preserving code whitespace, heading hierarchy, and caption relationships, with explicit unresolved-resource/layout markers. Preservation data remains separate. |
+| 5c — Done | Block identification for the pilot | 271 blocks cover all 323 paragraphs, 289 runs, and 21 objects; headings, examples, caption relationships, image-backed tables, and unresolved content retain evidence and source references. |
+| 5d — Next | Private Markdown reading preview | The block map generates readable Markdown preserving code whitespace, heading hierarchy, and caption relationships, with explicit unresolved-resource/layout markers. Preservation data remains separate. |
 | 6 | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
 | 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Steps 1–5b are complete. Steps 5c–7 remain pending, even though the extraction probe
+Steps 1–5c are complete. Steps 5d–7 remain pending, even though the extraction probe
 already exposed some of their inputs. A decoded sample is not yet a verified article.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
@@ -249,7 +249,7 @@ and all 21 object placeholders stay in order. The step 4 sample matches exactly.
 See [full-text recovery notes](docs/CD1-TEXT-8802065.md). Text inside image resources
 is not transcribed, and viewer comparison/article completeness remain pending.
 
-## Exact scope of the next task: step 5c
+## Step 5c completed: block identification
 
 **Inputs:** the private structured recovery, source RTF formatting, text/context,
 object locations, and the [structural review](docs/CD1-BLOCK-STRUCTURE-8802065.md).
@@ -267,13 +267,32 @@ images, and composite figures may contain multiple objects. Do not infer cells
 for a table without evidence. Keep the recovered paragraph/run data unchanged,
 and reserve viewer-dependent decisions for review.
 
-## Following task: step 5d — private Markdown preview
+Result: `python3 -m tools.map_cd1_blocks` produces a separate, traceable block map
+in `build/cd1-blocks/8802065/`. It identifies 28 headings, 17 code/example blocks,
+and 13 caption relationships without changing the recovered paragraphs/runs.
+The `tbl` example retains ten inline WMF objects as mixed content; the following
+`bm54.wmf` remains unresolved. See [block-map details](docs/CD1-BLOCK-MAP-8802065.md).
 
+## Exact scope of the next task: step 5d — private Markdown preview
+
+**Inputs:** the validated block map, unchanged paragraph/run recovery, and
+caption/object relationships. No image conversion is required for this preview.
+
+**Deliverable:** private Markdown for the separate introduction/body, with
+provenance linking the export to source and block-map hashes.
 Generate Markdown from the block map, preserving heading hierarchy, fenced code,
 inline emphasis, and figure/caption relationships. Keep unresolved resources as
 explicit placeholders until step 6. Emit tables only where cell structure is
 supported; otherwise retain an image/structured fallback and a review marker.
-Check that code content/spacing and object order survive export. Preserve RTF,
+For mixed text/object examples, preserve ordered placeholders and an explicit
+limitation note; do not pretend Markdown image syntax renders inside code fences.
+Keep `bm54.wmf` unresolved until its attachment is established.
+
+**Check:** code content/spacing and object order survive export; prose Markdown
+syntax is escaped without altering source text. Use fences long enough to avoid
+collisions, and retain the three-level heading hierarchy and caption links.
+No source block disappears from the export without an explicit representation.
+Preserve RTF,
 paragraph/run JSON, and semantic decisions separately from this reading format.
 
 ## Following task: step 6 — image map
@@ -287,6 +306,12 @@ readable, and viewable derivatives or a specific unsupported/missing status.
 Keep originals intact and derivatives outside Git. Distinguish a navigation icon
 from editorial images where evidence supports that distinction; do not infer
 that every resource is a separate illustration.
+
+The owner suggested `convert` for Windows BMP/DIB → PNG and `inkscape` for WMF →
+SVG. Both are available in the current environment (also `magick`). Use them as
+the initial conversion path, record actual commands/versions, and inspect the
+results; availability does not establish conversion fidelity. Pay particular
+attention to the ten inline WMFs in the mixed example and unresolved `bm54.wmf`.
 
 **Check:** account for all 21 occurrences, verify files against the extraction
 manifest, and inspect rendered results for obvious conversion failures. Preserve

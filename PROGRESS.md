@@ -360,3 +360,39 @@
   across representative prose/code/caption/object paragraphs, confirmed both
   code-boundary pairs and heading candidate counts. This is a documentation/plan
   change; recovery code and generated article content were not modified.
+
+## 2026-09-18 — Step 5c complete: semantic block map
+
+- Added `python3 -m tools.map_cd1_blocks`, scoped to the checksummed pilot
+  recovery. It combines numbered-label/format evidence with explicit reviewed
+  paragraph ranges for code, captions, figures, and opening metadata. It does
+  not claim to classify arbitrary articles automatically.
+- Produced 271 blocks covering all 323 paragraphs, 289 runs, and 21 objects.
+  Identified 28 headings with three-level parent relationships, 17 code/example
+  blocks, and 13 explicit caption links. Retained fallback paragraphs and spacing
+  blocks. All decisions remain source-supported candidates pending viewer review.
+- Preserved four formatting-language examples, twelve isolated commands, and
+  one terminal transcript. Internal blank paragraphs and indentation remain
+  inside their example blocks. Figure captions can link to code or images.
+- Found ten inline WMF objects within the `tbl` example (paragraphs 156–173),
+  recorded as mixed text/object content. Kept the following `bm54.wmf` (174)
+  unresolved until image inspection. The table image and rendered-table figure
+  retain explicit cell-reconstruction limitations; no cell geometry was invented.
+- Generated private `blocks.json`/`provenance.json` under
+  `build/cd1-blocks/8802065/`, with a tracked metadata summary in
+  `data/catalog/block-maps/cd1-8802065.json`. Original paragraph/run recovery is
+  unchanged. Each block has source membership, byte spans, evidence, review
+  concerns, and a hash of its exact content projection.
+- Validation: all 47 tests passed with `make check`, including five new tests
+  covering heading evidence, changed-source rejection, mixed-content examples,
+  omission/duplication/invalid-link rejection, and code-spacing changes. Exact
+  ordered coverage checks include every paragraph, run, and object occurrence.
+  Independent projection from block member runs reproduced both text files
+  byte-for-byte. Both map artifacts reproduced identically on rerun; the original
+  recovery hash, documentation links, and Git exclusion checks passed.
+- Recorded the owner's conversion guidance for step 6: BMP/DIB → PNG using
+  `convert`, WMF → SVG using `inkscape`. Both commands (and `magick`) are present.
+  No images were converted in this step; actual rendering/fidelity checks remain.
+- Next: **step 5d — private Markdown preview** from the block map. Preserve mixed
+  example placeholders and unresolved attachments explicitly; retain structured
+  preservation data. Viewer verification and the first milestone remain pending.
