@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "cd_reference": "8802065",
+  "decision": "Owner requested deferring broken-image investigation and retaining records for later resolution.",
+  "image_map": {
+    "path": "build/cd1-images/8802065/images.json",
+    "sha256": "c455f5493485b5188eb18e790d684d0087e6950aa2032f6af881b612dec97975"
+  },
+  "policy": {
+    "preserve_originals_and_attempts": true,
+    "preserve_occurrence_order_and_captions": true,
+    "use_suspect_derivatives_as_article_content": false,
+    "block_viewer_comparison_or_packaging": false,
+    "implies_verified_image_fidelity": false
+  },
+  "issues": [
+    {
+      "id": "cd1-8802065-bm54-wmf",
+      "resource": "bm54.wmf",
+      "source": {
+        "path": "private/cd1-probe/raw/bm54.wmf",
+        "bytes": 214,
+        "sha256": "03c7133a09a641173be3122426ee4a0001c1ffcd136e3a3b6038ead6183d951e"
+      },
+      "occurrences": [
+        {
+          "id": "cd1-8802065:T149:P174:R1",
+          "topic_ordinal": 149,
+          "block_id": "cd1-8802065:T149:P174-174",
+          "block_kind": "unresolved",
+          "caption_block_ids": [],
+          "paragraph_ordinal": 174,
+          "run_ordinal": 1,
+          "resource": "bm54.wmf",
+          "rtf_byte_offset": 458815,
+          "role": "content_or_layout_pending_inspection"
+        }
+      ],
+      "status": "deferred",
+      "blocks_current_progress": false,
+      "reason": "Conversion yields no SVG drawing elements and a blank PNG; intended content and attachment are unknown.",
+      "existing_conversion_status": "needs_review",
+      "existing_concerns": [
+        "svg_has_no_drawing_elements",
+        "raster_preview_is_blank"
+      ],
+      "attempt_details": {
+        "path": "build/cd1-images/8802065/images.json",
+        "resource_key": "bm54.wmf"
+      },
+      "reading_representation": "unavailable_media_placeholder",
+      "resume_when": "A later media-repair task is explicitly scheduled.",
+      "resolved": false
+    },
+    {
+      "id": "cd1-8802065-bm55-wmf",
+      "resource": "bm55.wmf",
+      "source": {
+        "path": "private/cd1-probe/raw/bm55.wmf",
+        "bytes": 1270,
+        "sha256": "0bf23a5c4de995f42534ec2d2c02006d541df7a324205a728062d562ced94d66"
+      },
+      "occurrences": [
+        {
+          "id": "cd1-8802065:T149:P230:R1",
+          "topic_ordinal": 149,
+          "block_id": "cd1-8802065:T149:P230-230",
+          "block_kind": "figure",
+          "caption_block_ids": [
+            "cd1-8802065:T149:P229-229"
+          ],
+          "paragraph_ordinal": 230,
+          "run_ordinal": 1,
+          "resource": "bm55.wmf",
+          "rtf_byte_offset": 469108,
+          "role": "content_or_layout_pending_inspection"
+        }
+      ],
+      "status": "deferred",
+      "blocks_current_progress": false,
+      "reason": "Converted equation contains incorrect mathematical glyphs; source Symbol font is not retained.",
+      "existing_conversion_status": "needs_review",
+      "existing_concerns": [
+        "source_Symbol_font_not_retained_in_svg; mathematical_glyphs_suspect",
+        "live_svg_text_depends_on_available_fonts"
+      ],
+      "attempt_details": {
+        "path": "build/cd1-images/8802065/images.json",
+        "resource_key": "bm55.wmf"
+      },
+      "reading_representation": "unavailable_media_placeholder",
+      "resume_when": "A later media-repair task is explicitly scheduled.",
+      "resolved": false
+    }
+  ]
+}

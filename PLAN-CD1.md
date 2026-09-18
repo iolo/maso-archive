@@ -10,9 +10,10 @@ plan remains in [Design reference](docs/DESIGN-REFERENCE.md) as historical conte
 This plan's goal is **reproducible CD1 content extraction and a static content
 package that the reading room can consume**: issue/TOC metadata, article text and
 semantic blocks, captions, converted media, source relationships, and explicit
-coverage/review status. The first milestone remains **one complete article
-recovered from CD1, linked to its TOC record, and checked against the original
-Windows viewer**.
+coverage/review status. The first milestone is **one article recovered from CD1,
+linked to its TOC record, and checked against the original Windows viewer, with
+known broken-media exceptions explicitly deferred**. Full image fidelity is a
+separate status and is not implied by completing this milestone with exceptions.
 
 The archive target is **1983-11–1995-12: 146 monthly issues**, extended because
 the owner holds the official CDs. The supplied TOC currently covers **86 issues
@@ -38,8 +39,9 @@ Proceed from **one article → one reading-room content package → one issue �
 Use what each step teaches us to specify the next. Missing scans do not block
 the first milestone.
 Do not estimate or automate collection-wide extraction until we understand the
-one-article path. “Complete” here means complete against the CD article; it does
-not claim fidelity to printed pages we have not inspected.
+one-article path. Compare against the CD article; this does not claim fidelity to
+printed pages we have not inspected. Deferred image failures remain visible in
+the coverage record rather than requiring immediate repair.
 
 ## Responsibility and handoff
 
@@ -101,7 +103,7 @@ populations; neither is a verified count of complete articles.
 5. Report what is done and what comes next, then end that task. This does not
    require extra approval for routine edits, tests, or other work within the step.
 
-## First milestone: one verified article
+## First milestone: one reviewed article with recorded media exceptions
 
 | Step | Deliverable | Complete when |
 | --- | --- | --- |
@@ -114,13 +116,16 @@ populations; neither is a verified count of complete articles.
 | 5c — Done | Block identification for the pilot | 271 blocks cover all 323 paragraphs, 289 runs, and 21 objects; headings, examples, caption relationships, image-backed tables, and unresolved content retain evidence and source references. |
 | 5d — Done | Private Markdown reading preview | Separate introduction/body previews represent all 271 blocks, preserving code whitespace, heading hierarchy, caption links, and ordered object placeholders, with source/output hashes and byte locations. |
 | 6 — Done | That article's image map | All 21 occurrences match the extraction manifest and have private derivatives; nine bitmap conversions preserve decoded pixels. Blank `bm54.wmf` and the equation's damaged symbols remain explicit review exceptions. |
-| 7 — Next | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
+| 7 — Next | Viewer comparison record | Title, page, boundaries, text, structure, and usable illustrations are compared with `MVIEWER2.EXE`. Known broken media may remain deferred; record acceptance with exceptions separately from full-fidelity verification. |
 
 Steps 1–6 are complete. Step 7 remains pending. The image map is complete as an
 inventory/conversion report, with explicit fidelity exceptions; the article is
 not yet verified.
-The milestone is complete only after step 7 passes; unsupported content that
-prevents faithful recovery remains a blocker for that sample, not a hidden omission.
+The milestone can complete after step 7's available-content checks pass with the
+known deferred-media exceptions recorded. Those exceptions do not block content
+packaging or subsequent extraction tasks. They remain unresolved and prevent a
+claim of complete image fidelity; other unreviewed content is not automatically
+accepted by this decision.
 
 Selected pilot: **1988-02, “유닉스란 무엇인가?”, TOC page 65**, with CD reference
 `8802065`. The [step 2 match](docs/CD1-MATCH-8802065.md) supports the metadata
@@ -389,6 +394,20 @@ produces a blank drawing; `bm55.wmf` loses mathematical Symbol glyphs in the
 equation. Live SVG text also depends on local fonts. See
 [image findings and reproduction](docs/CD1-IMAGES-8802065.md).
 
+### Deferred media policy
+
+At the owner's request, defer investigation/repair of broken conversions such as
+`bm54.wmf` and `bm55.wmf`. Keep their originals, hashes, occurrence positions,
+captions, failure observations, and conversion attempts in the
+[deferred-media register](data/catalog/deferred-media/cd1-8802065.json). Revisit
+them only in a later scheduled media-repair task; they are not current blockers.
+Apply the same record-and-defer approach to further conversion failures.
+
+Reading exports should use an unavailable-media placeholder at the original
+position, retaining any caption. Suspect/blank derivatives may remain in the
+private diagnostic review page but should not be presented as recovered article
+images. Deferral changes work priority, not source evidence or fidelity status.
+
 ## Exact scope of the next task: step 7 — original-viewer comparison
 
 **Inputs:** the original CD1 article in the owner's working DOSBox-X viewer,
@@ -397,19 +416,17 @@ and review page. Use existing reference captures if available; request specific
 missing evidence using [the offline checklist](docs/OFFLINE-TASKS.md).
 
 **Deliverable:** a comparison record covering article title/page and boundaries,
-text/heading/code structure, caption links, and every image occurrence. Keep
-observations traceable to source positions and reference captures. Prioritize
-the title badge's behavior, the inline objects in Figure 6, the blank object
-between Figures 6 and 7, and the equation in Figure 11.
+text/heading/code structure, caption links, and usable images. Account for every
+image occurrence as compared, unobserved, or explicitly deferred. Keep observations
+traceable to source positions and reference captures. Compare the title badge and
+usable inline Figure 6 objects; leave the two registered problem assets deferred.
 
-**Check:** distinguish unobserved items from matches and discrepancies. The
-`bm55.wmf` symbol problem requires a faithful correction before the sample can
-pass; a merely viewable SVG is insufficient. Establish whether `bm54.wmf` is
-intentionally blank or missing visible content, and retain unresolved attachment
-status until evidence supports a relationship. Split any substantial conversion
-repair into a bounded task rather than silently expanding the comparison.
-Missing reference evidence or unresolved fidelity defects keep this milestone
-pending; do not mark the sample verified or begin bulk processing.
+**Check:** distinguish unobserved items from matches, discrepancies, and deferred
+media. Do not investigate the registered conversion failures in this step. If
+the remaining checks pass, record acceptance with deferred media and proceed to
+the content contract/package tasks. Keep full image-fidelity verification false
+while those issues remain unresolved. Missing evidence for the remaining checks
+still leaves the comparison pending; deferral does not stand in for viewer review.
 
 ## Next checkpoints: organize and expand CD1 content
 

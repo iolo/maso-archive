@@ -33,6 +33,11 @@ page is `build/cd1-images/8802065/review.html`:
   clickable; its navigation role is still a candidate.
 - Figure 6's example: capture the inline pointing hands and overlined numerals
   (`bm44.wmf`–`bm53.wmf`) in context, including the end of the example.
+
+The following two items are **deferred and optional**, following the owner's
+decision to leave broken conversions for later. They do not hold up the current
+comparison or content preparation; capture them only if convenient:
+
 - The area after Figure 6 and before Figure 7: `bm54.wmf` converts to a blank
   drawing. Record whether the original viewer shows anything there and how the
   surrounding example/caption is spaced. Its attachment remains unresolved.
@@ -40,8 +45,9 @@ page is `build/cd1-images/8802065/review.html`:
   example: the current SVG displays incorrect summation/infinity glyphs. Capture
   the equation clearly enough to compare every symbol and its placement.
 
-These supplement the full article comparison; they do not replace the beginning,
-ending, section/code structure, or remaining figure/table captures.
+The current comparison still covers the beginning, ending, section/code structure,
+and usable figures/tables. Record the two deferred items as exceptions rather
+than treating their absence as a new capture requirement.
 
 ## 3. Try copying a small text sample
 

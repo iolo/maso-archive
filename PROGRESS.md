@@ -525,3 +525,29 @@
   Documentation links, Git exclusions, and whitespace checks passed.
 - Next: **step 7 — original-viewer comparison**. The first milestone remains
   pending; no reading-room packaging, bulk recovery, or CD2/CD3 work was started.
+
+## 2026-09-18 — Defer broken-media repair at the owner's request
+
+- Changed the current priority: record broken conversions and continue content
+  preparation without investigating their repair now. This supersedes step 6's
+  earlier requirement to resolve the blank object/equation before proceeding.
+- Added `data/catalog/deferred-media/cd1-8802065.json` for `bm54.wmf` and
+  `bm55.wmf`, preserving source hashes, exact occurrences, block/caption links,
+  observed problems, and references to recorded conversion attempts. Both are
+  unresolved, explicitly deferred, and nonblocking for current progress.
+- Updated PLAN-CD1.md and the image findings: step 7 can accept the usable
+  article content with deferred media recorded, then proceed to packaging and
+  later extraction. Full image fidelity stays unverified. Missing evidence for
+  other comparison checks still needs to be collected; no comparison is claimed
+  to have happened in this revision.
+- Future reading exports retain unavailable-media placeholders and captions at
+  the original positions instead of presenting suspect derivatives as recovered
+  images. Originals and existing private diagnostic outputs remain preserved.
+  Changed the two problem-image captures in the offline checklist to optional
+  later work. Further conversion failures should use the same record-and-defer
+  approach rather than trigger immediate investigation.
+- Validation: checked the deferred records against the existing image map and
+  source hashes/occurrences, verified local documentation links and the staged
+  diff. No code, recovery, or generated media changed; no conversion or test
+  suite rerun was needed. Next task remains **step 7**, with these exceptions
+  excluded from its required repair work.
