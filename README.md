@@ -30,6 +30,7 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Second article and two-article schema check](docs/CD1-SECOND-ARTICLE-8802114.md)
 - [Gary Kildall interview and three-article package](docs/CD1-INTERVIEW-8802030.md)
 - [Turbo C editor and four-article package](docs/CD1-EDITOR-8802184.md)
+- [Turbo Pascal graphics and five-article package](docs/CD1-GRAPHICS-8802180.md)
 - [CD1 source inventory and backup readiness](docs/CD1-PRESERVATION.md)
 - [February 1988 coverage audit](docs/CD1-COVERAGE-1988-02.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
@@ -81,3 +82,7 @@ bold prompts and multi-paragraph answers under the unchanged v1 schema.
 Run `make prepare-cd1-editor` to reproduce `8802184` and the combined four-article
 package under `build/cd1-articles/8802184/`. Code tabs, blank lines, caption links,
 and three diagram bitmaps are preserved; the v1 schema remains unchanged.
+
+Run `make prepare-cd1-graphics` to reproduce `8802180` and the combined five-article
+package under `build/cd1-articles/8802180/`. It preserves Korean Pascal strings
+and mixed text/image figures, with explicit deferred-media and text-review records.

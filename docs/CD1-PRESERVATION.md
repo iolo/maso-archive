@@ -195,8 +195,8 @@ The owner confirms the local copy is the working `masocd-1.iso`, extracted from
 the retained original physical CD. No optical drive is currently available.
 Step 11b is deferred until independent storage or an optical drive is available; probe/repository preservation remains a separate part of that checkpoint. The
 [February 1988 coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC import are complete. The next article task is
-**12b.3: recover `8802180` only**, first reviewing its TOC/CD title variation;
-the Kildall interview and Turbo C editor are prepared. Backup/restore verification remains deferred
+**12c: reconcile February coverage and produce the issue handoff**;
+all five indexed targets are prepared. Backup/restore verification remains deferred
 and does not block extraction that reads verified originals and writes separate
 outputs. These checks concern file integrity and recoverability, not legal
 ownership or publication permission.

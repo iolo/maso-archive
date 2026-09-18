@@ -30,6 +30,12 @@ figures as part of a page is fine, but no special investigation of `bm54.wmf` or
 `bm55.wmf` is required now. Do not assume CD badges, navigation icons, or layout
 objects have equivalents in print.
 
+The graphics article starting at page 180 also has two deferred inline WMFs and
+a possible mixed-encoding string in its demo listing. Their locations and the
+unapplied Johab alternative are recorded in the [article notes](CD1-GRAPHICS-8802180.md).
+Include those passages if collecting reference pages; no separate investigation
+is needed now.
+
 ## 3. Keep provenance with the reference pages
 
 Suggested private location (already excluded from Git):
@@ -93,7 +99,6 @@ The first package, [second-article check](CD1-SECOND-ARTICLE-8802114.md), and lo
 source inventory are complete. Step 11b is deferred until independent storage or an optical drive
 is available for recovery verification. The [February coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC
 import are complete. The corrected 1991–1993 entries are imported with stable IDs.
-The Kildall interview (`8802030`) and Turbo C editor (`8802184`) are prepared.
-The next article task, `8802180`, can proceed from verified sources while
-backup/restore verification remains deferred.
+All five indexed February targets are prepared. The next task, **12c**, reconciles
+coverage and produces the issue handoff while backup/restore verification remains deferred.
 Physical reference collection and print comparison (step 7) remain independent.

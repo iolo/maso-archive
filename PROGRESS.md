@@ -1009,3 +1009,53 @@
   Historical packages and the earlier coverage audit stay unchanged. Publisher
   text and assets remain ignored private output; print comparison, backup/restore,
   and publication decisions remain separate from this extraction checkpoint.
+
+## 2026-09-18 — CD1 step 12b.3: Turbo Pascal graphics prepared
+
+- Resolved the metadata candidate **`8802180`** using new source evidence:
+  the native, introduction, and body titles exactly match TOC entry
+  `maso-1988-02-toc-0026` (`터보 파스칼 한글 그래픽스 툴`). Both CD index occurrences
+  retain the shorter `그래픽` spelling. The body confirms February 1988/page 180
+  and byline `글/ 신상돈`. No global title normalization or TOC edit was made.
+- Verified native body 158 (`1KN6LQ`, hash `0x0e6841cb`), introduction 157
+  (`3M4LOI`), separators 156/159, and browse boundaries. Recovered all selected
+  **26,283 RTF bytes**, producing **397 paragraphs / 362 runs / seven media
+  occurrences** with complete token accounting.
+- Preserved **80 blocks**, including three Pascal listings of **18/210/91
+  paragraphs**, an isolated formula and call, eight headings, six captions, and
+  three figures. Code whitespace, source punctuation, blank lines, and all
+  inline media positions remain intact. No program was compiled or corrected.
+- Seven font-15 runs contain non-ASCII strings. The article explicitly uses
+  strict CP949 for that font; prior articles keep their ASCII policies. One demo
+  string remains a possible mixed-encoding case: two `88 74` pairs decode as
+  `늯` in CP949 and `값` in Johab. Recorded both interpretations, exact source
+  span and pending status; the alternative is not applied. A generated preview
+  note points out the review question without altering source content.
+- Kept figure 3's text header and bitmap as two ordered paragraphs in one figure
+  block. Extended Markdown rendering for multi-paragraph figures; v1 already
+  supports the structure. Historical article/previews still reproduce exactly.
+- Converted five bitmaps with identical RGBA pixels and visually inspected the
+  three figures. Deferred inline `bm57.wmf` and `bm58.wmf` after conversion lost
+  their Symbol font. Tracked their source hashes, positions, problem IDs, and
+  null runtime assets; retained diagnostic SVG/PNG files privately. No repair
+  was attempted. Identical source bytes retain the two distinct resource IDs.
+- Added `make prepare-cd1-graphics`, a **12-file standalone** package, and a
+  **48-file combined five-article** package under `build/cd1-articles/8802180/`.
+  Standalone validation precedes composition. The combined package has ten
+  sections, 582 blocks, 2,518 paragraphs, 33 media records, 35 occurrences, and
+  ten previews. Its shared icon and every prior article/media output remain
+  identical. Four WMFs are now explicitly deferred across the five articles.
+- Validation: **148 tests passed**, including ten new graphics checks covering
+  byte/run preservation, native boundaries, Korean strings and review evidence,
+  exact listings, mixed figures, captions, rejected evidence drift, bitmap pixels,
+  deferred-asset exclusion, title matching, relocation, and predecessor preservation.
+  After recording the unapplied Johab alternative, all ten graphics checks passed
+  again. A normal command-line rebuild reproduced both tracked records. Local
+  documentation links, readiness JSON, private-output exclusions, and whitespace
+  checks also pass.
+- Updated PLAN-CD1/current guidance: **12b.3 complete; 12c is next**, to reconcile
+  coverage and build the February issue handoff. All five indexed targets are
+  prepared; 34 of 39 runtime TOC entries remain unmatched (four sections and
+  30 other article candidates). Historical coverage records stay unchanged.
+  This does not establish complete print coverage; physical comparison and
+  independent backup/restore remain separately deferred.

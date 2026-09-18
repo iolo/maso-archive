@@ -103,6 +103,6 @@ content, standalone relocation, combined-package preservation, and the separatio
 of owner-provided bibliography from CD metadata.
 
 Subsequent checkpoint: [12b.2 — Turbo C editor](CD1-EDITOR-8802184.md) is now
-complete, including a four-article package. The next bounded task is **12b.3 —
-`8802180`**, including review of its TOC/CD title variation. Backup/restore
-remains a separate deferred task and does not block extraction.
+complete, followed by [12b.3 — Turbo Pascal graphics](CD1-GRAPHICS-8802180.md).
+The next bounded task is **12c**, the February issue handoff. Backup/restore
+remains a separate deferred task and does not block content preparation.

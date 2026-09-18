@@ -92,12 +92,13 @@ def render(article, block_map):
             else:
                 require(kind in ("title", "heading", "paragraph", "caption", "figure", "table",
                                  "unresolved", "issue_label", "byline"), "Unknown block kind")
-                require(len(paragraphs) == 1, "Unexpected multi-paragraph prose block")
+                require(len(paragraphs) == 1 or kind == "figure",
+                        "Unexpected multi-paragraph prose block")
                 prefix = "# " if kind == "title" else ""
                 if kind == "heading":
                     require(block["heading_level"] in (1, 2, 3), "Invalid heading level")
                     prefix = "#" * (block["heading_level"] + 1) + " "
-                content = prefix + inline(paragraphs[0]) + "\n"
+                content = prefix + "\n\n".join(inline(p) for p in paragraphs) + "\n"
             start = len(data)
             data.extend(f'<a id="{anchor(block["id"])}"></a>\n\n'.encode("utf-8"))
             if kind == "spacing":
@@ -117,6 +118,8 @@ def render(article, block_map):
                 notes.append("Title object may be a navigation icon; role awaits viewer comparison.")
             if "table_cells_not_reconstructed" in block["decision"]["review_concerns"]:
                 notes.append("Image-backed table/layout: cell structure has not been reconstructed.")
+            if "suspect_decoded_text" in block["decision"]["review_concerns"]:
+                notes.append("A source string in this block needs physical-magazine review; its decoded characters are preserved without correction.")
             for note in notes:
                 data.extend(f"> Preview note: {note}\n\n".encode("utf-8"))
             for target in links.get(block["id"], []):

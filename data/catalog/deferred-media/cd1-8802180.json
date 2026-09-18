@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "article_id": "cd1:article:8802180",
+  "issues": [
+    {
+      "id": "cd1-8802180-bm57",
+      "resource": "bm57.wmf",
+      "status": "deferred",
+      "resolved": false,
+      "reason": "Symbol_font_not_retained_in_conversion",
+      "source": {
+        "path": "private/cd1-probe/raw/bm57.wmf",
+        "bytes": 438,
+        "sha256": "a3121514141fc4c790fab44d788fd6ca00566166e02a9d846b8ff2ff307a3b29"
+      },
+      "topic_ordinal": 158,
+      "paragraph_ordinal": 12
+    },
+    {
+      "id": "cd1-8802180-bm58",
+      "resource": "bm58.wmf",
+      "status": "deferred",
+      "resolved": false,
+      "reason": "Symbol_font_not_retained_in_conversion",
+      "source": {
+        "path": "private/cd1-probe/raw/bm58.wmf",
+        "bytes": 438,
+        "sha256": "a3121514141fc4c790fab44d788fd6ca00566166e02a9d846b8ff2ff307a3b29"
+      },
+      "topic_ordinal": 158,
+      "paragraph_ordinal": 14
+    }
+  ]
+}
