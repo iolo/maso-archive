@@ -194,9 +194,9 @@ as a real backup test. The actual-source test verifies the complete local CD1 se
 The owner confirms the local copy is the working `masocd-1.iso`, extracted from
 the retained original physical CD. No optical drive is currently available.
 Step 11b is deferred until independent storage or an optical drive is available; probe/repository preservation remains a separate part of that checkpoint. The
-[February 1988 coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC import are complete. The next article task is
-**12c: reconcile February coverage and produce the issue handoff**;
-all five indexed targets are prepared. Backup/restore verification remains deferred
+[February 1988 issue handoff](CD1-ISSUE-1988-02.md) and expanded TOC import are complete.
+The next task is **13a: inventory remaining CD1 metadata and select the next issue**.
+All five indexed February targets are prepared. Backup/restore verification remains deferred
 and does not block extraction that reads verified originals and writes separate
 outputs. These checks concern file integrity and recoverability, not legal
 ownership or publication permission.

@@ -9,7 +9,7 @@
   "backup_status_basis": "owner_confirms_local_copy_is_working_masocd-1.iso_extracted_from_physical_cd; no_optical_drive_currently_available",
   "restore_test_status": "pending",
   "remaining_checkpoint": "11b: verify a copy on independent storage when available, or a fresh physical-CD read when an optical drive is available; preserve probe/repository evidence separately",
-  "allowed_next_scope": "12c: reconcile February 1988 coverage and produce the issue handoff from five validated articles; 11b remains deferred and non-blocking",
+  "allowed_next_scope": "13a: inventory remaining CD1 metadata and issue coverage, then select the next bounded issue task; 11b remains deferred and non-blocking",
   "physical_media_status": "owner_retains_original_cd; no_optical_drive_available_for_read_verification",
   "independent_restore_verified": false,
   "non_destructive_extraction_allowed": true,

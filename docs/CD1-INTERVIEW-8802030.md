@@ -104,5 +104,6 @@ of owner-provided bibliography from CD metadata.
 
 Subsequent checkpoint: [12b.2 — Turbo C editor](CD1-EDITOR-8802184.md) is now
 complete, followed by [12b.3 — Turbo Pascal graphics](CD1-GRAPHICS-8802180.md).
-The next bounded task is **12c**, the February issue handoff. Backup/restore
+The subsequent [12c issue handoff](CD1-ISSUE-1988-02.md) is complete;
+see [PLAN-CD1](../PLAN-CD1.md) for the current task. Backup/restore
 remains a separate deferred task and does not block content preparation.

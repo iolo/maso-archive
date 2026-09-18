@@ -1059,3 +1059,49 @@
   30 other article candidates). Historical coverage records stay unchanged.
   This does not establish complete print coverage; physical comparison and
   independent backup/restore remain separately deferred.
+
+## 2026-09-18 — CD1 step 12c: February issue handoff completed
+
+- Added `make prepare-cd1-issue` and the private handoff at
+  `build/cd1-issues/1988-02/`. All **48 runtime files / 1,291,810 bytes** remain
+  identical to the validated five-article predecessor. Each article, preview,
+  asset, and media record is also checked against its standalone package.
+  All five article provenance documents are preserved in separate handoff evidence.
+- Revalidated the original two-article coverage audit without rewriting it.
+  Added a new current report accounting for **39 TOC entries, five indexed
+  references, and 11 index occurrences**: five prepared articles, 30 unmatched
+  article candidates, and four section entries where preparation is not applicable.
+  Unindexed native content remains unattributed; no absence or print-completeness
+  claim is inferred from an index gap.
+- Reproduced the current TOC entry import from the checked source and identity
+  registry and compared February with the historical snapshot. February's source
+  text, identities, order, hierarchy, titles, and pages agree. Recorded the **39
+  changed entry source IDs** caused by the expanded whole-document fingerprint;
+  no runtime metadata changed. Unrelated pre-1988 scan-availability annotations
+  are outside this February comparison.
+- Incorporated `8802180`'s later native/body-title and page evidence into the new
+  coverage record. The historical audit keeps its original ambiguous decision.
+  No global title normalization or reference-page-suffix matching was introduced.
+- Preserved four deferred WMFs and the pending CP949/Johab string question,
+  including exact source references, problem IDs, and the unapplied alternative.
+  Checked that deferred runtime IDs resolve to unresolved records and that the
+  text-review target still contains the preserved characters. Cover availability,
+  end pages, and physical verification remain unknown/pending as before.
+- The unchanged v1 handoff contains five articles, ten sections, 582 blocks,
+  2,518 paragraphs, 33 media records, 29 assets, 35 media occurrences, and ten
+  previews. Catalog search remains metadata-only (`title`, `byline`, `issue_id`).
+  Documented the configurable package base URL and manifest-based path lookup.
+  This step recovered no new topics and converted or repaired no images.
+- Validation: **156 tests passed**, including eight new handoff checks for TOC
+  drift, complete population accounting, historical/new evidence separation,
+  every runtime byte, all five provenance documents, missing/resolved review
+  records, failed-staging preservation, and relocated static loading. All 48 files
+  were fetched with exact hash checks under two nested HTTP base URLs. The eight
+  handoff checks passed again after strengthening missing-text-review validation.
+  A normal command-line rebuild reproduced both reviewed records. Documentation
+  links, readiness JSON, private-output exclusions, and whitespace checks pass.
+- Updated current guidance: **12c complete; 13a is next**, a CD1 metadata inventory
+  to account for remaining references/issues and select the next bounded issue
+  task. The first issue preparation checkpoint is complete; remaining CD1 coverage
+  is still ahead. Physical comparison and independent recovery verification remain
+  separate deferred tasks; CD2/CD3 and reading-room UI remain separately planned.

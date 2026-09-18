@@ -133,9 +133,9 @@ populations; neither is a verified count of complete articles.
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
 | 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6, 8–10, 11a, 12a, 12a.1, and 12b.1–3 are complete. Step 7 is deferred pending
+Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, and 12c are complete. Step 7 is deferred pending
 physical-magazine evidence; 11b awaits independent storage or an optical drive.
-**Step 12c (February issue handoff) is next. Backup/restore verification does not block
+**Step 13a (remaining CD1 metadata inventory) is next. Backup/restore verification does not block
 non-destructive extraction from the verified sources.**
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
@@ -707,7 +707,7 @@ five-article packages validate. All older article/media outputs remain identical
 including the earlier exceptions. All five indexed February targets are prepared,
 with four deferred WMFs in the combined package; print completeness is unverified.
 
-## Exact scope of the next task: step 12c — February 1988 issue handoff
+## Completed scope: step 12c — February 1988 issue handoff
 
 **Inputs:** the historical coverage audit, all five preparation/package records,
 the validated five-article package, reviewed match evidence (including `8802180`),
@@ -729,9 +729,49 @@ Do not recover new topics, repair images, build the reading-room UI, or start ot
 issues/CDs in this task. This completes the first issue preparation checkpoint,
 not the remaining CD1 coverage work in step 13.
 
+Result: [February issue handoff](docs/CD1-ISSUE-1988-02.md) completed under
+`build/cd1-issues/1988-02/`. All 48 runtime files are identical to the validated
+five-article package. The exporter also checks each article, preview, asset, and
+media record against its standalone package and preserves all five provenance
+documents in separate private evidence.
+
+The new [current coverage record](data/catalog/issue-coverage/cd1-1988-02-prepared.json)
+accounts for 39 TOC entries: five prepared articles, 30 unmatched article
+candidates, and four section entries. All five indexed references and 11 index
+occurrences resolve. Current/historical February text and metadata agree; 39
+entry source identifiers change only because the whole TOC document expanded.
+The old audit remains unchanged, including its earlier ambiguous graphics-title
+decision; the new record incorporates the later supporting evidence.
+
+The package retains four deferred WMFs, the pending CP949/Johab text review,
+unknown end pages, unavailable cover, and pending physical comparison. Catalog
+search remains metadata-only. Rebuild, relocated validation, and HTTP retrieval
+of every runtime file under two nested base URLs pass. No topic recovery, media
+conversion, or schema changes were needed for this handoff.
+
+## Exact scope of the next task: step 13a — CD1 metadata inventory
+
+**Inputs:** the checked CD1 index/reference import, native context metadata,
+current TOC through December 1993, existing article preparation records, and the
+February issue handoff. CD2/CD3 and scans remain outside this task.
+
+**Deliverable:** account for every CD1 index reference and explicit issue label,
+group coverage by issue, and distinguish prepared references from unprepared,
+conflicting, unattributed, suffixed, and named references needing review. Compare
+with TOC availability without claiming that index matches establish article
+completeness or that unindexed content is absent. Produce a metadata report and
+select one next issue with a concrete, bounded audit task for step 13b.
+
+**Check:** every imported reference/occurrence is accounted for exactly once in
+the inventory, source identities/hashes remain traceable, and the five prepared
+February references reconcile to the completed handoff. Retain ambiguous title
+and issue relationships explicitly; no global fuzzy matching or inferred
+navigation-only classification. Do not recover article bodies, convert/repair
+media, or change existing packages in this task.
+
 ## Next checkpoints: organize and expand CD1 content
 
-Steps 12b.1–3 are complete. Step 12c is next. Steps 7 and 11b remain independently
+Steps 12b.1–3 and 12c are complete. Step 13a is next. Steps 7 and 11b remain independently
 deferred; neither blocks content preparation from the verified local sources.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
@@ -749,7 +789,8 @@ single “continue” still means one bounded task.
 | 12b.1 — Done: Gary Kildall interview | Standalone and three-article packages preserving 27 interview turns. | Topics 145/146 and all source runs/media are accounted for, packages validate under unchanged v1, and previous article outputs remain identical. |
 | 12b.2 — Done: Turbo C editor | Standalone and four-article packages preserving code tabs, diagrams, and shared media. | Topics 160/161 and all 1,206 paragraphs are accounted for; both code blocks project exactly, five bitmap conversions preserve pixels, and unchanged v1 packages validate. |
 | 12b.3 — Done: Turbo Pascal graphics | Reviewed title match, standalone and five-article packages, deferred vectors and text-review record. | Topics 157/158, Korean Pascal strings, mixed figure paragraphs, and all media positions are preserved under unchanged v1. |
-| 12c — Next: February issue handoff | Current coverage record and validated issue package/catalog metadata. | Reconcile all 39 TOC entries and five indexed targets; preserve article bytes and exceptions, validate relocated/reproducible output, and distinguish prepared content from print coverage. |
+| 12c — Done: February issue handoff | Current coverage record and validated issue package/catalog metadata. | All 39 TOC entries and five indexed targets reconcile; 48 runtime files and all review evidence are preserved, with deterministic and relocated/base-URL checks passing. |
+| 13a — Next: CD1 metadata inventory | Disc-wide reference/issue accounting and one selected next issue task. | Every imported reference/occurrence has an explicit state; February preparation reconciles, ambiguities remain visible, and no new article recovery is performed. |
 | 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content covered by the newly supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
 
 ### Content contract requirements implemented in step 8

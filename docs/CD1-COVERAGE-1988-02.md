@@ -1,8 +1,8 @@
 # CD1 February 1988 coverage audit
 
 Step **12a is complete**. This document records the original two-article audit
-snapshot; [step 12b.1](CD1-INTERVIEW-8802030.md) now adds the prepared Kildall
-interview, bringing the current total to three of five indexed targets. The [machine-readable report](../data/catalog/issue-coverage/cd1-1988-02.json)
+snapshot. The [step 12c issue handoff](CD1-ISSUE-1988-02.md) now supplies a separate
+current report with all five indexed targets prepared. The original [machine-readable report](../data/catalog/issue-coverage/cd1-1988-02.json)
 retains all **39 TOC entries**, in source order with persistent IDs and hierarchy,
 and **five indexed CD references / 11 index occurrences**. All five reference
 hashes resolve in the checksummed MVB context table. Two articles are prepared;
@@ -80,17 +80,11 @@ September 1993 heading. The 1991–1993 additions are now imported with all earl
 IDs preserved. Historical article and coverage provenance is unchanged; see
 [TOC snapshot handling](TOC-IMPORT.md#current-results-and-historical-snapshots).
 
-**12b.1 — `8802030` is complete.** Its standalone and combined three-article
-packages validate with 27 interview turns preserved; see the
-[interview preparation record](CD1-INTERVIEW-8802030.md). The next bounded task is
-**12b.2 — `8802184` only**.
-
-After `8802184`, a later bounded batch can handle `8802180`, retaining the latter's
-unresolved TOC relationship until evidence supports a decision. Do not treat these
-indexed targets as a complete printed issue. Step 12c must report unmatched TOC
-entries and any subsequently discovered CD content explicitly. Backup/restore,
-physical comparison, deferred media repair, CD2/CD3, and the UI retain their
-separate scopes.
+**12b.1–3 and 12c are complete.** The [issue handoff](CD1-ISSUE-1988-02.md)
+preserves all five prepared articles and reconciles their newer evidence with
+every February TOC entry. The next bounded task is **13a**, a metadata inventory
+of remaining CD1 coverage. Backup/restore, physical comparison, deferred media
+repair, CD2/CD3, and the UI retain their separate scopes.
 
 The report's recorded `next_batch.prerequisite` preserves the earlier planning
 decision. The current [CD1 plan](../PLAN-CD1.md) supersedes that backup gate;

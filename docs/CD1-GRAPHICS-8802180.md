@@ -105,5 +105,5 @@ make check
 Requires private MVB/RTF/probe sources, imported indexes, historical TOC inputs,
 the reviewed four-article package, ImageMagick, and Inkscape. Normal rebuilds
 compare with both tracked preparation and deferred-media records before replacing
-generated outputs. Next: **12c**, reconcile issue coverage and produce the
-February issue handoff from these five prepared articles.
+generated outputs. The subsequent [12c issue handoff](CD1-ISSUE-1988-02.md)
+is complete. See [PLAN-CD1](../PLAN-CD1.md) for the current bounded task.
