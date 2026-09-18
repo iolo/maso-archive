@@ -10,5 +10,5 @@
   "restore_test_status": "pending",
   "ready_for_bulk_processing": false,
   "remaining_checkpoint": "11b: obtain an independently stored CD1 ISO copy and verify restoration; preserve probe evidence and repository snapshot alongside the source set",
-  "allowed_next_scope": "12a.1: validate/import expanded TOC metadata and preserve historical source snapshots; no article recovery"
+  "allowed_next_scope": "11b: independent backup/restore verification when storage is available; 12b.1 article recovery remains gated"
 }

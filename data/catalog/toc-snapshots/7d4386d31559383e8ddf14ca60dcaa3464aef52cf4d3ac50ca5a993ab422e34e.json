@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "source_sha256": "7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+  "source_git_blob": "e9db6b0e2889002a1159187bb6100d5f0d9f2d09",
+  "identities_git_blob": "4504a1b4ec0ab77a582b02c88a8bcb9f8df794ed",
+  "import_manifest": {
+    "schema_version": 1,
+    "importer_version": "0.1.0",
+    "python_version": "3.14.4",
+    "jsonschema_version": "4.19.2",
+    "source": {
+      "name": "TOC.md",
+      "sha256": "7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+      "bytes": 153894
+    },
+    "parameters": {
+      "start": "1983-11",
+      "end": "1990-12"
+    },
+    "schema_sha256": "675d320ea2edd3fbb681be3773a877f8e81f96e54032ffc2459b4d5576b1262e",
+    "identities_sha256": "7807cf0d02fc1136d34139cd371c352fcb8c68bf7ac1bca54359e37b0a15b584",
+    "outputs": {
+      "issues.json": {
+        "sha256": "437a934264352eb035603ded296f9128b4db5a42c932cd4cf09e984203414d5a",
+        "bytes": 45314
+      },
+      "toc-entries.jsonl": {
+        "sha256": "f1e6e13822ac84905fe3e184d906985b2b6945dd6f5318242828bbfd2b5b7972",
+        "bytes": 2733539
+      },
+      "article-candidates.jsonl": {
+        "sha256": "6eb819bea2780d33fc9bc71ad4c148d693bc580ad724f10b5b262fa5db79cf0d",
+        "bytes": 1277473
+      },
+      "validation-report.json": {
+        "sha256": "79e5cd95082734b4690493b393aaa40110feb1f54cfcf23732c41163409e56e9",
+        "bytes": 254719
+      },
+      "local-search.json": {
+        "sha256": "339672409cd840ae61d54195a117863e714c38ab497506d7846adc14a46c50ba",
+        "bytes": 1165076
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "TOC.md",
+      "bytes": 153894,
+      "sha256": "7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e"
+    },
+    {
+      "path": "data/identities/toc.json",
+      "bytes": 607158,
+      "sha256": "7807cf0d02fc1136d34139cd371c352fcb8c68bf7ac1bca54359e37b0a15b584"
+    },
+    {
+      "path": "build/toc/manifest.json",
+      "bytes": 1237,
+      "sha256": "c2f56e06b72f9b23a68897916c30ae47d919739401419972413727acabfec49b"
+    },
+    {
+      "path": "build/toc/issues.json",
+      "bytes": 45314,
+      "sha256": "437a934264352eb035603ded296f9128b4db5a42c932cd4cf09e984203414d5a"
+    },
+    {
+      "path": "build/toc/toc-entries.jsonl",
+      "bytes": 2733539,
+      "sha256": "f1e6e13822ac84905fe3e184d906985b2b6945dd6f5318242828bbfd2b5b7972"
+    },
+    {
+      "path": "build/toc/article-candidates.jsonl",
+      "bytes": 1277473,
+      "sha256": "6eb819bea2780d33fc9bc71ad4c148d693bc580ad724f10b5b262fa5db79cf0d"
+    },
+    {
+      "path": "build/toc/validation-report.json",
+      "bytes": 254719,
+      "sha256": "79e5cd95082734b4690493b393aaa40110feb1f54cfcf23732c41163409e56e9"
+    },
+    {
+      "path": "build/toc/local-search.json",
+      "bytes": 1165076,
+      "sha256": "339672409cd840ae61d54195a117863e714c38ab497506d7846adc14a46c50ba"
+    }
+  ]
+}

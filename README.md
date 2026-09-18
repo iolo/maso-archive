@@ -3,8 +3,8 @@
 월간 마이크로소프트웨어의 비공식 디지털 아카이브.
 
 Archive target: **November 1983–December 1995 (146 monthly issues)**. The reviewed
-TOC import covers 86 issues through December 1990; newly supplied 1991–1993
-additions await validation/import. Official CD holdings support
+TOC import covers 122 issues through December 1993, with 5,497 entries.
+Official CD holdings support
 further extraction; per-disc coverage and completeness remain to be verified.
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
@@ -44,6 +44,8 @@ bodies are not read or published.
 
 Run `make reading-room-example` to validate and rebuild the private CD1 pilot
 against the v1 content contract, using the existing recovery/block/image maps.
+First run `make restore-toc-snapshot` to restore its historical TOC inputs from
+Git history; current TOC imports remain separate from prepared-article provenance.
 The tracked [synthetic example](examples/reading-room-v1.json) demonstrates the
 format without publisher article text.
 

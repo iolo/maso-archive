@@ -146,6 +146,6 @@ mismatches. Restore mechanics use explicitly synthetic fixtures and do not count
 as a real backup test. The actual-source test verifies the complete local CD1 set.
 
 Step 11b is deferred until independent storage is available. The
-[February 1988 coverage audit](CD1-COVERAGE-1988-02.md) is complete. The next
-bounded metadata task is **12a.1: validate/import the expanded TOC**.
+[February 1988 coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC import are complete. The next article task is
+**12b.1: recover `8802030` only**, after step 11b.
 Article batches and bulk recovery remain gated on verified preservation readiness.

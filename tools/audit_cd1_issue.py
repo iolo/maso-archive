@@ -8,7 +8,6 @@ import argparse
 from collections import Counter
 import hashlib
 import json
-import subprocess
 import sys
 
 from maso_archive.cd1_index import INDEX_NAMES, group_references, parse_index
@@ -16,6 +15,7 @@ from maso_archive.reading_room_package import checked_file, file_record, load_pa
 from maso_archive.toc import assign_identities, finalize_entries, json_bytes, parse_toc
 from tools.map_cd1_topic import ROOT, SOURCES, context_entries, context_hash, require
 from tools.verify_cd1_match import checked_artifact, load
+from tools.toc_snapshot import Snapshot
 
 ISSUE = "maso-1988-02"
 TOC_SHA = "7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e"
@@ -113,22 +113,23 @@ def audit_issue(toc, entries, contexts, prepared, comparisons=None):
 
 
 def build_report():
-    toc_dir, index_dir = ROOT / "build/toc", ROOT / "build/cd1-index"
-    toc_manifest, index_manifest = load(toc_dir / "manifest.json"), load(index_dir / "manifest.json")
+    historical = Snapshot(ROOT)
+    index_dir = ROOT / "build/cd1-index"
+    toc_manifest = historical.artifact("manifest.json")
+    index_manifest = load(index_dir / "manifest.json")
     require(toc_manifest["source"]["sha256"] == TOC_SHA, "Audit requires the reviewed TOC import snapshot")
     raw = (ROOT / "TOC.md").read_bytes()
-    snapshot = raw if hashlib.sha256(raw).hexdigest() == TOC_SHA else subprocess.check_output(
-        ["git", "cat-file", "blob", TOC_BLOB], cwd=ROOT)
+    snapshot = historical.read("TOC.md")
     require(hashlib.sha256(snapshot).hexdigest() == TOC_SHA, "Archived TOC snapshot changed")
     require(issue_text(snapshot) == issue_text(raw), "Live February TOC differs; review before auditing")
-    toc = checked_artifact(toc_dir, "toc-entries.jsonl")
+    toc = historical.artifact("toc-entries.jsonl")
     issues, reconstructed, errors = parse_toc(snapshot.decode("utf-8"), "toc-sha256-" + TOC_SHA)
-    registry = load(ROOT / "data/identities/toc.json")
+    registry = json.loads(historical.read("data/identities/toc.json"))
     assign_identities(reconstructed, registry, {}, errors)
     finalize_entries(reconstructed)
     require(not errors and reconstructed == toc, "TOC import does not reproduce from its source and identities")
     require([r for r in issues if r["id"] == ISSUE] ==
-            [r for r in checked_artifact(toc_dir, "issues.json") if r["id"] == ISSUE],
+            [r for r in historical.artifact("issues.json") if r["id"] == ISSUE],
             "Issue import does not reproduce")
     entries = checked_artifact(index_dir, "entries.jsonl")
     reconstructed = []
@@ -158,7 +159,7 @@ def build_report():
     return {"schema_version": 1, "disc_id": "cd1", "issue_id": ISSUE, "scope": "metadata_only_coverage",
             "inputs": {
                 "toc_snapshot": {**toc_manifest["source"], "git_blob": TOC_BLOB},
-                "toc_import_manifest": file_record("build/toc/manifest.json", (toc_dir / "manifest.json").read_bytes()),
+                "toc_import_manifest": file_record("build/toc/manifest.json", historical.read("build/toc/manifest.json")),
                 "cd_index_import_manifest": file_record("build/cd1-index/manifest.json", (index_dir / "manifest.json").read_bytes()),
                 "mvb": file_record(mvb_path, mvb),
                 "native_context_count": len(contexts),
@@ -186,7 +187,7 @@ def main():
         else:
             RECORD.parent.mkdir(parents=True, exist_ok=True)
             RECORD.write_bytes(raw)
-    except (OSError, ValueError, KeyError, subprocess.CalledProcessError) as exc:
+    except (OSError, ValueError, KeyError) as exc:
         print(f"CD1 coverage audit failed: {exc}", file=sys.stderr)
         return 1
     print(json.dumps(report["counts"], ensure_ascii=False))

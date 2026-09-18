@@ -53,30 +53,30 @@ the existing runtime packages. No publication decision follows from this report.
 ## Reproduce
 
 ```sh
+make restore-toc-snapshot
 make audit-cd1-issue
 PYTHONPATH=src python3 -m tools.audit_cd1_issue --check
 PYTHONPATH=src python3 -m unittest discover -s tests -p test_cd1_issue_coverage.py -v
 ```
 
-The first command writes only the tracked metadata report; `--check` writes
+The restore command prepares the separate historical TOC cache; the audit
+command writes only the tracked metadata report. Its `--check` mode writes
 nothing. The commands require the existing private sources/imports, combined
 package, and local inventory. They do not invoke recovery or package builders.
 
 The reviewed import uses TOC SHA-256
 `7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e`.
-When the working TOC differs, the audit reads that historical snapshot from
-Git blob `e9db6b0e2889002a1159187bb6100d5f0d9f2d09` and verifies its SHA-256.
+The audit reads the separate, hash-verified historical cache restored from
+Git blob `e9db6b0e2889002a1159187bb6100d5f0d9f2d09` and the recorded import inputs.
 It also rejects any difference in February's current source section. Keep Git
 history available when reproducing against an expanded working TOC.
 
 ## Next bounded tasks
 
-**12a.1 — expanded TOC validation/import** can proceed while backup is pending.
-The owner's unstaged additions cover 1991–1993; the current headings contain two
-`93.10` sections and no `93.09`. Establish the intended issue from source evidence
-before assigning identities or importing. Then extend the import period, preserve
-existing IDs, and update source-snapshot handling/tests without rewriting the
-provenance of already prepared articles. The additions are untouched by this audit.
+**12a.1 — expanded TOC validation/import is complete.** The owner corrected the
+September 1993 heading. The 1991–1993 additions are now imported with all earlier
+IDs preserved. Historical article and coverage provenance is unchanged; see
+[TOC snapshot handling](TOC-IMPORT.md#current-results-and-historical-snapshots).
 
 **12b.1 — recover `8802030` only**, after step 11b: map its native and RTF topic
 boundaries, identify all linked content and media, account for every source byte,

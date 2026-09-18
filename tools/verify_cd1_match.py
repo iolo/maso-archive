@@ -10,6 +10,8 @@ import json
 from pathlib import Path
 import sys
 
+from tools.toc_snapshot import Snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_RECORD = ROOT / "data/catalog/source-matches/cd1-8802065.json"
 
@@ -43,20 +45,21 @@ def verify(record):
     evidence = record["evidence"]
     require(evidence["toc"]["path"] == "TOC.md", "Unexpected TOC source")
     require(evidence["cd_index_directory"] == "private/cd1-probe/raw", "Unexpected CD index directory")
-    toc_raw = (ROOT / "TOC.md").read_bytes()
+    snapshot = Snapshot(ROOT)
+    toc_raw = snapshot.read("TOC.md")
     require(hashlib.sha256(toc_raw).hexdigest() == evidence["toc"]["sha256"], "TOC snapshot is stale")
     toc_lines = toc_raw.decode("utf-8").splitlines()
-    toc_entries = checked_artifact(ROOT / "build/toc", "toc-entries.jsonl")
+    toc_entries = snapshot.artifact("toc-entries.jsonl")
     selected = [entry for entry in toc_entries if entry["id"] == record["toc_entry_id"]]
     require(len(selected) == 1, "TOC entry ID is missing or ambiguous")
     toc = selected[0]
     require(toc["issue_id"] == record["issue_id"], "Issue mismatch")
     require(evidence["toc"]["entry"] == {key: toc[key] for key in evidence["toc"]["entry"]}, "TOC entry evidence changed")
-    registry = load(ROOT / "data/identities/toc.json")
+    registry = json.loads(snapshot.read("data/identities/toc.json"))
     require([entry for entry in registry["entries"] if entry["id"] == toc["id"]] == [
         {key: toc[key] for key in ("id", "issue_id", "raw_text", "depth")}
     ], "Persistent TOC identity changed")
-    issues = checked_artifact(ROOT / "build/toc", "issues.json")
+    issues = snapshot.artifact("issues.json")
     heading = evidence["toc"]["issue_heading"]
     require([issue["source"] for issue in issues if issue["id"] == toc["issue_id"]] == [heading], "Issue heading changed")
     for locator in [heading, toc["source"]]:

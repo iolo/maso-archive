@@ -797,3 +797,48 @@
   first later article batch is **12b.1: `8802030` only**, explicitly gated on
   step 11b's independent backup/restore evidence. Subsequent targets `8802184`
   and `8802180`, print comparison, and remaining CD1 coverage stay separate.
+
+## 2026-09-18 — CD1 step 12a.1: expanded TOC import and historical provenance
+
+- Accepted the owner's corrected September 1993 heading. The source now has
+  **122 consecutive, unique issues from 1983-11 through 1993-12**. Removed one
+  empty trailing `-` formatting artifact; all substantive supplied text is
+  retained. The corrected expanded TOC is committed with its identity map.
+- Updated the importer/CLI default end month to `1993-12`. Imported **5,497 TOC
+  entries and 4,078 article candidates**, with no validation/identity errors.
+  The archive target still ends in 1995-12; no unsupported 1994–1995 TOC entries
+  were invented. Source SHA-256 is
+  `15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727`.
+- Preserved all **3,811 existing identities**, their issue allocators, and all
+  earlier entry fields except the source-wide fingerprint. Added **1,686 new
+  identities**; none were retired. All 3,608 review notices are retained,
+  including seven suspicious indentation cases in the additions. Candidate
+  counts are not a verified article census or publication approval.
+- Added a tracked expansion record containing source/output hashes, counts,
+  and migration checks. Current output remains in ignored `build/toc/`; the
+  durable identity registry is versioned. Repeated imports preserve every output
+  byte and identity allocation.
+- Added an explicit historical TOC snapshot descriptor and
+  `make restore-toc-snapshot`. Source and identity blobs from Git reconstruct the
+  old import in a separate ignored cache; every output is checked against its
+  reviewed hash. The recorded old manifest is retained verbatim, including its
+  historical runtime versions. Restoration does not overwrite current inputs;
+  missing/corrupt historical data cannot silently fall back to the current TOC.
+- Updated the pilot match checker, contract/package builders, second-article
+  checker, and February coverage audit to read those historical inputs explicitly.
+  Their original logical paths and fingerprints retain their historical meaning.
+  **No prepared article, provenance file, package summary, coverage report, or
+  approved runtime schema was rewritten.** The coverage audit still verifies
+  that February's current source section agrees with the historical snapshot.
+- Validation: **all 116 tests pass in the expanded working tree**. Three new
+  tests cover snapshot restoration, corruption/missing-cache rejection, current
+  input isolation, complete identity/field preservation, and deterministic expanded
+  reimports. The first full run found one remaining package-builder dependency
+  on the live manifest; moving that historical read to the snapshot resolved it.
+  The final snapshot test also runs from Git inputs without requiring a preexisting
+  cache. Command-line import, historical restore, pilot match verification, and
+  coverage reproduction passed; documentation links and whitespace checks passed.
+- Marked step **12a.1 complete**. Next article task **12b.1: `8802030` only** is
+  fully scoped in PLAN-CD1.md and remains gated on step 11b's real independent
+  backup/restore evidence. Physical comparison, unresolved title/media cases,
+  later article batches, CD2/CD3, and the reading-room UI remain separate.

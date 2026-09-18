@@ -322,7 +322,7 @@ def atomic_write(path, data):
         temporary.unlink(missing_ok=True)
 
 
-def run_import(source, output, identities_path, *, decisions_path=None, start="1983-11", end="1990-12"):
+def run_import(source, output, identities_path, *, decisions_path=None, start="1983-11", end="1993-12"):
     source, output, identities_path = Path(source), Path(output), Path(identities_path)
     expected = month_range(start, end)
     raw = source.read_bytes()

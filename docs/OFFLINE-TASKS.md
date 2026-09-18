@@ -85,8 +85,7 @@ page are enough to plan a later scanning pilot. Keep available source scans unde
 
 The first package, [second-article check](CD1-SECOND-ARTICLE-8802114.md), and local
 source inventory are complete. Step 11b remains deferred pending independent
-storage. The [February coverage audit](CD1-COVERAGE-1988-02.md) is complete. The next
-metadata task validates/imports the 1991–1993 TOC additions, including the duplicate
-`93.10` / missing `93.09` heading. Issue article batches remain gated on
-backup/restore readiness.
+storage. The [February coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC
+import are complete. The corrected 1991–1993 entries are imported with stable IDs.
+The next article task, `8802030`, remains gated on backup/restore readiness.
 Physical reference collection and print comparison (step 7) remain independent.

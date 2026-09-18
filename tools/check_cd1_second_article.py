@@ -22,6 +22,7 @@ from tools import render_cd1_markdown as markdown
 from tools import build_reading_room_package as package
 from tools.decode_cd1_paragraph import digest
 from tools.verify_cd1_match import checked_artifact
+from tools.toc_snapshot import Snapshot, read_input
 
 ROOT = native.ROOT
 REFERENCE = "8802114"
@@ -132,7 +133,7 @@ def build_check():
     inputs = {}
     def read(path, expected=None):
         path = ROOT / path
-        raw = path.read_bytes()
+        raw = read_input(ROOT, path)
         require(expected is None or digest(raw) == expected, f"Changed source: {path.relative_to(ROOT)}")
         inputs[str(path.relative_to(ROOT))] = file_record(str(path.relative_to(ROOT)), raw)
         return raw
@@ -172,7 +173,7 @@ def build_check():
     require(font is not None, "Font 15 definition changed")
     fonts = {str(n): re.search(rb"\{\\f" + str(n).encode() + rb"\\[a-z]+ ([^{};]+);\}", rtf[:rtf.index(b"\n{\\colortbl")])[1].decode("cp949") for n in FONT_CODECS}
 
-    entries = checked_artifact(ROOT / "build/toc", "toc-entries.jsonl")
+    entries = Snapshot(ROOT).artifact("toc-entries.jsonl")
     cd_entries = checked_artifact(ROOT / "build/cd1-index", "entries.jsonl")
     for path in ("build/toc/manifest.json", "build/toc/toc-entries.jsonl", "build/cd1-index/manifest.json", "build/cd1-index/entries.jsonl", "data/identities/toc.json", "TOC.md", SCHEMA_PATH):
         read(path)

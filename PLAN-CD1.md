@@ -22,8 +22,8 @@ identically, including explicit unavailable states for both deferred images.
 Physical-magazine verification remains pending.
 
 The archive target is **1983-11–1995-12: 146 monthly issues**, extended because
-the owner holds the official CDs. The supplied TOC currently covers **86 issues
-through 1990-12**; that source coverage is distinct from the expanded target.
+the owner holds the official CDs. The supplied TOC now covers **122 issues
+through 1993-12**; that source coverage is distinct from the expanded target.
 CD1's observed index coverage is **1988–1993**, all within the new target. Prepare
 its available content in controlled batches, preserving 1991–1993 source identities
 without inventing entries in the supplied TOC. Additional issue/TOC metadata must
@@ -204,7 +204,8 @@ reference `8802065` to `maso-1988-02-toc-0035`. The title and explicit issue lab
 agree. Page 65 is reported by the TOC and is consistent with the reference suffix,
 but is not independently verified by the CD index. The TOC has a single feature
 entry; the number of CD topics remains unknown. Recheck with
-`python3 tools/verify_cd1_match.py`.
+`make restore-toc-snapshot` followed by
+`PYTHONPATH=src python3 -m tools.verify_cd1_match`.
 
 ## Step 3 completed: raw topic map
 
@@ -575,22 +576,45 @@ prepared and three are unprepared. Thirty article candidates and four section
 headings have no index match; absence from the indexes is not absence from the CD.
 The approved runtime schema and existing packages are unchanged.
 
-## Exact scope of the next task: step 12a.1 — expanded TOC validation/import
+## Completed scope: step 12a.1 — expanded TOC validation/import
 
 **Inputs:** the owner's 1991–1993 TOC additions, the existing identity registry,
 reviewed TOC snapshot, import checks, and article provenance records.
 
-**Deliverable:** validate the added issue headings (currently duplicate `93.10`
-and missing `93.09`), resolve their intended attribution from source evidence,
+**Deliverable:** validate the corrected issue headings supplied by the owner,
 then import the expanded period while preserving every existing identity.
 Update snapshot handling and regression checks so historical article evidence
 remains reproducible when the working TOC grows. Do not guess the missing month
 or silently rewrite old source fingerprints. This metadata task may proceed
 while step 11b is pending; no new article recovery is included.
 
+Result: 122 consecutive issues through 1993-12, 5,497 entries, and 4,078 article
+candidates imported. All 3,811 old identities are preserved; 1,686 were added.
+The owner's September heading correction is accepted; only an empty trailing
+bullet was removed. Historical TOC/identity/import inputs now have a separately
+checksummed, reconstructable snapshot. Both article witnesses and the coverage
+report reproduce without changing their reviewed hashes or runtime schema.
+See [TOC import and historical snapshots](docs/TOC-IMPORT.md).
+
+## Exact scope of the next article task: step 12b.1 — `8802030`
+
+**Prerequisite:** complete step 11b with real independent backup/restore evidence.
+The current readiness record remains false; no new recovery begins on local
+inventory evidence alone.
+
+**Inputs:** the five-target February coverage report, original MVB, preserved RTF,
+indexes, media, and the two validated existing packages.
+
+**Deliverable:** map and recover only `8802030` (CP/M의 게리 킬달), account for
+native/RTF boundaries and all linked topics/media, preserve ordered content, and
+produce a validated standalone v1 package. Combine it with the two existing
+articles only after standalone checks pass. Preserve boundary uncertainty and
+pending print verification; do not claim complete printed-issue coverage.
+
 ## Next checkpoints: organize and expand CD1 content
 
-Step 12a.1 is next; step 7 and step 11b are deferred pending their separate evidence.
+Step 12a.1 is complete. Step 12b.1 is gated on 11b; step 7 remains independently
+deferred pending physical reference evidence.
 The backup/restore gate still applies before bulk recovery or issue article batches.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
@@ -604,7 +628,7 @@ single “continue” still means one bounded task.
 | 11a — Done: local source inventory | Checksummed original, exact ISO/extracted-tree comparison, and complete probe coverage. | Every observed source file is accounted for and the inventory reproduces; this alone does not establish backup readiness. |
 | 11b — Deferred: independent backup/restore | Independently stored source set and actual restore evidence with private location records. | A real independent ISO restore verifies all disc files; preserved probe/repository evidence is recorded before bulk processing. |
 | 12a — Done: one-issue coverage audit | Read-only February 1988 TOC/CD coverage and matching report. | Every TOC entry and discovered CD reference has an explicit metadata relationship and preparation status, with no guessed matches or new body extraction. |
-| 12a.1 — Next: expanded TOC validation/import | Review and import the 1991–1993 additions with stable IDs and explicit historical snapshots. | Issue attribution is supported, imports validate, existing article provenance stays reproducible, and regression checks pass. |
+| 12a.1 — Done: expanded TOC validation/import | Review and import the 1991–1993 additions with stable IDs and explicit historical snapshots. | Issue attribution is supported, imports validate, existing article provenance stays reproducible, and regression checks pass. |
 | 12b–c — Gated: issue preparation, in small tasks | After 11b, recover bounded article batches, then build the issue package and catalog/search records. | All issue content references resolve or carry explicit exceptions, and the static package validates end to end. First batch 12b.1 is `8802030` only, as defined in the coverage report; define later batches separately. |
 | 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content covered by the newly supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
 

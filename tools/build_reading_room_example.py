@@ -14,6 +14,7 @@ from tools import verify_cd1_match as match_tools
 from tools.decode_cd1_paragraph import digest
 from tools.map_cd1_topic import ROOT, require
 from tools.recover_cd1_text import json_bytes, topic_text
+from tools.toc_snapshot import Snapshot, read_input
 
 OUTPUT = ROOT / "build/reading-room-contract/8802065"
 RECORD = ROOT / "data/catalog/reading-room-examples/cd1-8802065.json"
@@ -37,7 +38,7 @@ def build_example():
 
     def read(path, expected=None):
         path = ROOT / path
-        raw = path.read_bytes()
+        raw = read_input(ROOT, path)
         require(expected is None or digest(raw) == expected, f"Changed input: {path.relative_to(ROOT)}")
         inputs[str(path.relative_to(ROOT))] = {"bytes": len(raw), "sha256": digest(raw)}
         return json.loads(raw)
@@ -57,10 +58,11 @@ def build_example():
     match_tools.verify(match)
     for path in ("build/toc/manifest.json", "data/identities/toc.json"):
         read(path)
-    toc_issues = match_tools.checked_artifact(ROOT / "build/toc", "issues.json")
-    toc_entries = match_tools.checked_artifact(ROOT / "build/toc", "toc-entries.jsonl")
+    snapshot = Snapshot(ROOT)
+    toc_issues = snapshot.artifact("issues.json")
+    toc_entries = snapshot.artifact("toc-entries.jsonl")
     for name in ("issues.json", "toc-entries.jsonl"):
-        raw = (ROOT / "build/toc" / name).read_bytes()
+        raw = snapshot.read("build/toc/" + name)
         inputs["build/toc/" + name] = {"bytes": len(raw), "sha256": digest(raw)}
     issue_source = next(i for i in toc_issues if i["id"] == match["issue_id"])
     selected_toc = [e for e in toc_entries if e["issue_id"] == issue_source["id"]]

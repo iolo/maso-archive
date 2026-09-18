@@ -15,6 +15,7 @@ from tools import build_reading_room_example as example
 from tools import render_cd1_markdown as markdown
 from tools.map_cd1_topic import ROOT
 from tools.recover_cd1_text import json_bytes
+from tools.toc_snapshot import Snapshot
 
 OUTPUT = ROOT / "build/reading-room-packages/cd1-8802065"
 RECORD = ROOT / "data/catalog/reading-room-packages/cd1-8802065.json"
@@ -58,7 +59,11 @@ def build_package():
 
     def read(path, expected=None):
         relative = Path(path).relative_to(ROOT).as_posix()
-        raw = checked_file(ROOT, {"path": relative, **(expected or {})})
+        snapshot = Snapshot(ROOT)
+        source_root = snapshot.directory if relative in snapshot.files else ROOT
+        if relative in snapshot.files:
+            snapshot.read(relative)
+        raw = checked_file(source_root, {"path": relative, **(expected or {})})
         inputs[relative] = file_record(relative, raw)
         return raw
 

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "scope": "metadata_only_toc_expansion",
+  "source": {
+    "name": "TOC.md",
+    "sha256": "15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+    "bytes": 251883
+  },
+  "period": {
+    "start": "1983-11",
+    "end": "1993-12"
+  },
+  "counts": {
+    "issues": 122,
+    "entries": 5497,
+    "article_candidates": 4078,
+    "diagnostics": 3608,
+    "entries_without_page_marker": 1939,
+    "by_kind": {
+      "article": 3727,
+      "section": 557,
+      "subtopic": 851,
+      "unknown": 362
+    },
+    "by_diagnostic": {
+      "bundle_or_article": 351,
+      "empty_byline": 9,
+      "entry_kind_uncertain": 862,
+      "missing_page_reference": 1939,
+      "multiple_page_references": 13,
+      "page_order_decrease": 425,
+      "repeated_title": 2,
+      "suspicious_indentation": 7
+    }
+  },
+  "previous_snapshot": "data/catalog/toc-snapshots/7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e.json",
+  "identity_migration": {
+    "preserved_entries": 3811,
+    "new_entries": 1686,
+    "retired_entries": 0,
+    "old_allocators_unchanged": true
+  },
+  "manifest": {
+    "schema_version": 1,
+    "importer_version": "0.1.0",
+    "python_version": "3.14.4",
+    "jsonschema_version": "4.19.2",
+    "source": {
+      "name": "TOC.md",
+      "sha256": "15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+      "bytes": 251883
+    },
+    "parameters": {
+      "start": "1983-11",
+      "end": "1993-12"
+    },
+    "schema_sha256": "675d320ea2edd3fbb681be3773a877f8e81f96e54032ffc2459b4d5576b1262e",
+    "identities_sha256": "2cb840ed3d2d704dc1f1c871a30e7fd427aab5b9228ca92fde8e60544a2797ae",
+    "outputs": {
+      "issues.json": {
+        "sha256": "8407f04e74aebd53c7a99bdb91c49fa7cebc7051f3541810f714645cca4bf0b3",
+        "bytes": 64259
+      },
+      "toc-entries.jsonl": {
+        "sha256": "ad21242011507327a8b4969192ac11475ec0f331e40777133da1791069ba9efc",
+        "bytes": 4056528
+      },
+      "article-candidates.jsonl": {
+        "sha256": "1855bda4816fc0dad8fe28eb677166e1a62a8b426494f956f801cd5fba871bfc",
+        "bytes": 1787229
+      },
+      "validation-report.json": {
+        "sha256": "a9960abf606b9f727cfaf54f82b373ab94e6e2e143f4811668c8e7e1563d9c5a",
+        "bytes": 437847
+      },
+      "local-search.json": {
+        "sha256": "ef9d674be22c778422e83f2b623dd08861a352b9136f853bbeb9c8a8f6875d2e",
+        "bytes": 1736551
+      }
+    }
+  },
+  "validation": {
+    "source_months_complete_and_unique": true,
+    "old_entry_fields_unchanged_except_source_hash": true,
+    "historical_article_provenance_rewritten": false,
+    "publication_decision": "not_made"
+  }
+}
