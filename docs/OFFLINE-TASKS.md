@@ -62,11 +62,19 @@ as historical diagnostic evidence; they are not print-verification evidence.
 
 ## 4. Make an independent source backup
 
-If another drive/storage location is available, copy the three ISO files there
-and verify their SHA-256 hashes against [the recorded hashes](SOURCE-INVENTORY.md).
-Record the location and verification date privately. A copy on the same disk is
-useful operationally but does not protect against that disk failing. Do not
-overwrite the sole working copy when checking that a backup can be restored.
+The owner confirmed there is no independent backup yet. CD1's local source
+inventory is complete; backup/restore remains pending as step 11b before bulk
+processing. When separate storage is available, start with `masocd-1.iso`, the
+entire `private/cd1-probe/` tree, inventory, and repository snapshot described in
+the [CD1 preservation instructions](CD1-PRESERVATION.md). Keep prepared private
+artifacts and toolchain evidence too when practical. The ISO plus probe tree is
+about 624 MB, before repository/prepared content.
+
+Record the backup location privately and use the documented restore command to
+check a newly restored ISO and all its files. A same-disk copy is not independent
+storage; a local inventory check is not a restore test. Preserve the sole working
+copy. CD2/CD3 ISO backups are also useful when convenient; their known hashes are
+in [the initial source inspection](SOURCE-INVENTORY.md).
 
 ## 5. Gather information for the later scan phase
 
@@ -75,8 +83,8 @@ known missing pages. Start by locating **1983-11**. A cover, TOC, and typical ar
 page are enough to plan a later scanning pilot. Keep available source scans under
 `private/scans/`; bulk scanning is a separate future task.
 
-The first package and [second-article check](CD1-SECOND-ARTICLE-8802114.md) are
-complete under the approved v1 contract. The next checkpoint is CD1 preservation
-readiness (step 11); section 4's separate backup and restore evidence are relevant
-to completing it. Physical reference collection and deferred print comparison
-(step 7) remain independent of content preparation.
+The first package, [second-article check](CD1-SECOND-ARTICLE-8802114.md), and local
+source inventory are complete. Step 11b remains deferred pending independent
+storage. Development can continue with step 12a's read-only February 1988 TOC/CD
+coverage audit; issue article batches remain gated on backup/restore readiness.
+Physical reference collection and print comparison (step 7) remain independent.

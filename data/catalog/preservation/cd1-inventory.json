@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd1",
+  "scope": "local_source_inventory",
+  "iso": {
+    "path": "masocd-1.iso",
+    "bytes": 351090688,
+    "sha256": "dabd54e6a516ba9e3a2c348b8d1eebddd8bd45d8be3c81c84855102a269d9a17"
+  },
+  "counts": {
+    "disc_files": 5828,
+    "disc_directories": 375,
+    "disc_file_bytes": 343516641,
+    "probe_manifest_files": 7374,
+    "probe_supporting_files": 3,
+    "probe_files": 7377,
+    "probe_bytes": 272378566
+  },
+  "probe_extensions": {
+    ".avi": 1,
+    ".bmp": 25,
+    ".dib": 4992,
+    ".ico": 1,
+    ".json": 1,
+    ".log": 1,
+    ".lst": 3,
+    ".mvp": 1,
+    ".rtf": 1,
+    ".shg": 2,
+    ".stderr": 1,
+    ".stdout": 1,
+    ".tbl": 1,
+    ".txt": 1,
+    ".wmf": 2345
+  },
+  "validation": {
+    "iso_matches_initial_hash": true,
+    "all_iso_files_match_extracted_tree": true,
+    "probe_manifest_verified": true,
+    "probe_source_matches_iso": true,
+    "independent_backup_assessed": false,
+    "restore_from_backup_assessed": false
+  },
+  "output": {
+    "path": "build/cd1-preservation/inventory.json",
+    "bytes": 3111986,
+    "sha256": "7f6c82ed586576d6c4337bf25788e0f9d0d984a267c56cac5f1416bfeb84495b"
+  }
+}

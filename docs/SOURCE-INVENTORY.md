@@ -8,6 +8,11 @@ host-side probe. See [CD1 extraction findings](CD1-EXTRACTION.md) for confirmed
 declared coverage, recovered files, and remaining encoding/validation work.
 The observations below describe the initial inspection before that probe.
 
+Step 11a now provides the [complete CD1 source inventory](CD1-PRESERVATION.md):
+5,828 ISO/extracted files, 375 directories, and 7,377 probe/support files checked.
+Independent backup/restore verification remains pending; the owner confirmed that
+no independent backup exists yet. CD2/CD3 observations below remain preliminary.
+
 ## TOC
 
 `TOC.md` is 153,894 bytes and contains 86 unique monthly headings from `83.11`

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd1",
+  "review_date": "2026-09-18",
+  "inventory_record": "data/catalog/preservation/cd1-inventory.json",
+  "inventory_sha256": "7f6c82ed586576d6c4337bf25788e0f9d0d984a267c56cac5f1416bfeb84495b",
+  "local_inventory_status": "verified",
+  "independent_backup_status": "not_available",
+  "backup_status_basis": "owner_confirmed_no_independent_backup_in_session",
+  "restore_test_status": "pending",
+  "ready_for_bulk_processing": false,
+  "remaining_checkpoint": "11b: obtain an independently stored CD1 ISO copy and verify restoration; preserve probe evidence and repository snapshot alongside the source set",
+  "allowed_next_scope": "12a: read-only TOC/CD coverage audit; no bulk recovery"
+}

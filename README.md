@@ -27,6 +27,7 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Reading-room content contract v1](docs/READING-ROOM-CONTENT-V1.md)
 - [Pilot reading-room package](docs/CD1-PACKAGE-8802065.md)
 - [Second article and two-article schema check](docs/CD1-SECOND-ARTICLE-8802114.md)
+- [CD1 source inventory and backup readiness](docs/CD1-PRESERVATION.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate
@@ -52,3 +53,7 @@ documentation for standalone verification and configurable base-URL use.
 Run `make check-second-article` to reproduce the second article and the combined
 two-article package under `build/cd1-second-article/8802114/`. Both validate against
 the unchanged v1 contract; the command uses private CD1 sources and ImageMagick.
+
+Run `make inventory-cd1-sources` to check the original CD1 ISO, all extracted disc
+files, and preserved probe outputs. Requires `7z`. The local inventory is complete;
+independent backup/restore verification remains pending before bulk processing.

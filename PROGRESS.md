@@ -704,3 +704,46 @@
   readiness** is next, with separate inventory and backup/restore evidence.
   Physical-magazine verification stays pending. Publisher content remains private;
   only code, tests, documentation, and the metadata summary are tracked.
+
+## 2026-09-18 — CD1 step 11a complete; independent backup/restore pending
+
+- Rechecked the 351,090,688-byte original CD1 ISO against its initial SHA-256.
+  Compared a fresh temporary ISO extraction with `masocd-1/`: all **5,828 files**
+  (343,516,641 bytes) and **375 directories** match, with no missing/extra files,
+  symlinks, or content differences. The MVB hash matches the preserved probe's
+  source fingerprint. Source files were not modified.
+- Verified all **7,374 probe-manifest entries** (7,372 decoder outputs plus two
+  process logs), and inventoried the manifest, build log, and internal-directory
+  listing. The complete probe tree is **7,377 files / 272,378,566 bytes**.
+  Detailed file/directory records remain private in
+  `build/cd1-preservation/inventory.json`; a tracked metadata summary pins its
+  3,111,986 bytes and SHA-256. Observed source timestamps and tool/decoder evidence
+  are retained without treating them as publication dates.
+- Added `make inventory-cd1-sources` and an optional independent-ISO restore check.
+  The latter requires a supplied backup location/storage description, creates a
+  fresh temporary restore, verifies the copied ISO and every extracted disc file,
+  and records actual evidence privately with a sanitized tracked summary. It
+  rejects the working image/workspace-local copies, corrupt input, unsafe paths,
+  and restored-tree differences. Device IDs do not prove physical independence.
+- The first inventory attempt exposed a path-ordering comparison mismatch between
+  component-sorted paths and relative strings. Using consistent relative-string
+  ordering fixed it; a regression test covers the case. No source discrepancy
+  was found after full hash comparison.
+- The owner explicitly confirmed **no independent backup yet**. No real backup
+  copy or independent restore test was performed. Recorded step **11a complete**
+  and **11b deferred**, with `ready_for_bulk_processing: false` in the readiness
+  record. Synthetic restore tests validate mechanics only, not actual preservation.
+- Documented the preservation set: original ISO, whole probe tree, inventory,
+  repository/canonical metadata, and prepared private artifacts/toolchain evidence.
+  ISO plus probe is 623,469,254 bytes; including the reconstructable disc tree is
+  966,985,895 bytes. Machine-specific backup locations stay private when supplied.
+- Validation: all **104 tests passed**, including nine new inventory/restore
+  tests covering tampering, missing/extra files, empty directories, manifest
+  coverage, symlinks, unsafe archive paths, tool failure, working-copy rejection,
+  temporary cleanup, and restoration mismatch. Two command-line inventories
+  reproduced the reviewed output hash. Documentation links, Git exclusions, and
+  staged whitespace checks passed.
+- Next non-deferred task: **12a — read-only February 1988 TOC/CD coverage audit**.
+  Split issue work into coverage first and later bounded article batches. Those
+  batches and bulk processing remain gated on step 11b's real preservation
+  evidence. Print comparison, media repair, CD2/CD3, and UI work remain separate.
