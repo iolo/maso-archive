@@ -8,8 +8,9 @@ is safe to track and exercises mixed content without publisher article text.
 The real pilot remains under ignored `build/reading-room-contract/8802065/`.
 
 This step produces a validating contract example, not a deployable package.
-Step 9 will split the runtime documents, copy accepted assets, include Markdown
-previews, and check the resulting package's files and hashes. No viewer, backend,
+Step 9's [completed pilot package](CD1-PACKAGE-8802065.md) splits the runtime
+documents, copies accepted assets, includes Markdown previews, and checks the
+resulting package's files and hashes. No viewer, backend,
 runtime RTF parser, or access-verification service is needed to consume v1.
 
 ## Documents and versioning
@@ -46,7 +47,7 @@ rather than deriving filenames from titles or IDs. Preview records identify
 at most one Markdown preview under `previews/*.md`. An empty preview list is
 valid. Media file hashes and paths live in `media.json`. The manifest does not
 hash itself. `validate_manifest(manifest, bundle)` checks inventory, paths,
-and preview ownership; step 9 must additionally verify actual file bytes.
+and preview ownership; the package validator additionally verifies actual file bytes.
 
 ## Identities and source relationships
 
@@ -254,9 +255,10 @@ its private source artifacts are absent. The synthetic fixture's asset sizes and
 zero hashes are illustrative and have no corresponding image files: it validates
 the logical contract, not package filesystem integrity.
 
-Step 9 takes this validated example and private asset bindings as inputs, writes
-the documented runtime files and previews, copies only the 19 accepted assets,
-and creates an actual manifest. Its completion check must resolve every reference,
+Step 9 took this validated example and private asset bindings as inputs, wrote
+the documented runtime files and previews, copied only the 19 accepted assets,
+and created an actual manifest. Its completion checks resolve every reference,
 verify all file hashes, preserve deferred placeholders, and reproduce the package
 without requiring RTF parsing in the reading room. All package content stays
-private; the first preparation milestone remains pending until that step passes.
+private; the first preparation milestone is complete. See the
+[package report](CD1-PACKAGE-8802065.md) for reproduction and remaining limitations.

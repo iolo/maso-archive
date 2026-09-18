@@ -25,6 +25,7 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Pilot private Markdown preview](docs/CD1-MARKDOWN-8802065.md)
 - [Pilot image map and conversion findings](docs/CD1-IMAGES-8802065.md)
 - [Reading-room content contract v1](docs/READING-ROOM-CONTENT-V1.md)
+- [Pilot reading-room package](docs/CD1-PACKAGE-8802065.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate
@@ -40,4 +41,9 @@ bodies are not read or published.
 Run `make reading-room-example` to validate and rebuild the private CD1 pilot
 against the v1 content contract, using the existing recovery/block/image maps.
 The tracked [synthetic example](examples/reading-room-v1.json) demonstrates the
-format without publisher article text. Packaging the real files is the next step.
+format without publisher article text.
+
+Run `make reading-room-package` to assemble the private pilot under
+`build/reading-room-packages/cd1-8802065/`. Its `content/` directory contains the
+complete static handoff; adjacent provenance stays separate. See the package
+documentation for standalone verification and configurable base-URL use.

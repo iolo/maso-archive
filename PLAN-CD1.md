@@ -16,6 +16,11 @@ broken-media exceptions explicitly deferred**. Physical magazine pages are the
 reference for later content verification. Original-viewer comparison is not a
 required task; print verification does not block extraction or packaging.
 
+**First preparation milestone completed in step 9:** the
+[private pilot package](docs/CD1-PACKAGE-8802065.md) validates and rebuilds
+identically, including explicit unavailable states for both deferred images.
+Physical-magazine verification remains pending.
+
 The archive target is **1983-11–1995-12: 146 monthly issues**, extended because
 the owner holds the official CDs. The supplied TOC currently covers **86 issues
 through 1990-12**; that source coverage is distinct from the expanded target.
@@ -123,9 +128,10 @@ populations; neither is a verified count of complete articles.
 | 6 — Done | That article's image map | All 21 occurrences match the extraction manifest and have private derivatives; nine bitmap conversions preserve decoded pixels. Blank `bm54.wmf` and the equation's damaged symbols remain explicit review exceptions. |
 | 7 — Deferred | Physical-magazine comparison record | When paper pages or scans/photos are available, compare title, author, page range, text, structure, figures, and captions. Record differences and deferred media; this is not a prerequisite for content preparation. |
 | 8 — Done | Reading-room content contract v1 | Schema, relationship validator, synthetic example, and reproducible private pilot preserve ordered text/media, identities, captions, missing values, and independent extraction/print status. |
+| 9 — Done | One-article content package | All 26 runtime files validate; 19 accepted images and two Markdown previews are included, two media exceptions stay unavailable, and package/provenance bytes reproduce exactly. |
 
-Steps 1–6 and 8 are complete. Step 7 is deferred pending physical-magazine evidence;
-**step 9 is next**. The first preparation milestone completes when step 9's
+Steps 1–6 and 8–9 are complete. Step 7 is deferred pending physical-magazine evidence;
+**step 10 is next**. The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
 Print comparison remains a separate pending status. No original-viewer screenshots
 or side-by-side CD-viewer checks are required to advance.
@@ -456,7 +462,7 @@ private bindings; two deferred resources have null display assets. No files are
 copied into a deployable package yet. All 77 tests pass, including independent
 source-run/projection checks and contract rejection cases. Print status is pending.
 
-## Exact scope of the next task: step 9 — one-article content package
+## Step 9 completed: one-article content package
 
 **Inputs:** the validated v1 pilot example and provenance/asset bindings, existing
 Markdown previews, image map, and deferred-media register.
@@ -476,9 +482,20 @@ able to load the documented files without RTF parsing. Print verification remain
 pending independently. Passing these checks completes the first preparation
 milestone; publication and access policy remain separate.
 
+Result: `make reading-room-package` writes the private
+`build/reading-room-packages/cd1-8802065/content/` handoff, with preservation
+evidence in the adjacent `provenance.json`. The 26 runtime files comprise four
+JSON documents, the manifest, two Markdown previews, and 19 accepted images.
+The assembled documents equal the approved step 8 example; every copied asset
+matches its source bytes. All 271 Markdown block contents remain byte-identical,
+while outdated generated status notes are updated only in the package copies.
+Standalone validation checks file hashes, inventory, schema/relationships,
+caption anchors, and SVG dependencies without extraction inputs. All 88 tests
+pass. See [package reproduction and handoff](docs/CD1-PACKAGE-8802065.md).
+
 ## Next checkpoints: organize and expand CD1 content
 
-Step 9 is next; step 7's print comparison is a deferred, independent task.
+Step 10 is next; step 7's print comparison is a deferred, independent task.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
 single “continue” still means one bounded task.
@@ -486,8 +503,8 @@ single “continue” still means one bounded task.
 | Step / checkpoint | Deliverable | Complete when |
 | --- | --- | --- |
 | 8 — Done: reading-room content contract | Versioned static-data schema, validator, synthetic example, and private pilot example. | The contract represents issue/TOC/article/media identities, mixed content, captions, missing data, and review status; the pilot validates without a UI or backend. |
-| 9 — Next: one-article content package | Export the pilot and its issue/TOC context, reading blocks, Markdown preview, converted assets, and manifest into one private package. | All content and media references resolve or carry explicit unavailable status; source links/hashes and deterministic rebuilds are checked. The reading room can consume the documented files without parsing RTF. |
-| 10 — Second-article check | Select a different structural case, repeat recovery, and export it through the same contract. | The new article preserves its source structure; unsupported cases are recorded and any schema change is explicit. Split new extraction problems into smaller tasks. |
+| 9 — Done: one-article content package | Private pilot runtime files, previews, accepted assets, manifest, and separate provenance. | All content and media references resolve or carry explicit unavailable status; source links/hashes and deterministic rebuilds are checked. The reading room can consume the documented files without parsing RTF. |
+| 10 — Next: second-article check | Select a different structural case, repeat recovery, and export it through the same contract. | The new article preserves its source structure; unsupported cases are recorded and any schema change is explicit. Split new extraction problems into smaller tasks. |
 | 11 — CD1 preservation readiness | Complete a durable CD1 source inventory; record a backup location and verify a restore when storage is available. | Source files are accounted for and backup/restore evidence exists before bulk processing. Existing probe hashes are retained but do not substitute for a verified backup. |
 | 12 — One issue, in small tasks | First establish TOC/CD coverage; then recover a bounded article batch at a time; finally build the issue package and catalog/search records. | Every TOC entry and discovered CD article has an explicit match/availability/review status, with no guessed matches or silently omitted content. The static package validates end to end. |
 | 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content beyond the supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |

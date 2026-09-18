@@ -616,3 +616,45 @@
   explicit file/hash/reference and deterministic-rebuild checks. The first
   preparation milestone remains pending until that package passes. Deferred
   physical-magazine comparison, UI work, and CD2/CD3 extraction remain separate.
+
+## 2026-09-18 — CD1 step 9 complete: private one-article package
+
+- Assembled the approved v1 contract example into
+  `build/reading-room-packages/cd1-8802065/content/`: catalog, issue, article,
+  media index, manifest, two Markdown previews, and 19 accepted images. The
+  **26 runtime files** total 376,531 bytes; separate private provenance records
+  source/input fingerprints, asset bindings, preview content ranges, and hashes.
+  The approved schema and existing source/recovery outputs remain unchanged.
+- Added `make reading-room-package` and standalone `--verify CONTENT_DIRECTORY`.
+  The latter needs only package files, validator code/dependencies, and the schema;
+  it does not read extraction inputs. Validation checks individual schemas, the
+  complete relationship graph, manifest identities, actual hashes/sizes, exact
+  file inventory, generated caption anchors, and SVG resource dependencies.
+- Preserved all 39 TOC entries, two sections, 271 blocks, 323 paragraphs, 289 runs,
+  21 media occurrences, and 13 caption relationships. Package JSON round-trips
+  exactly to the approved example; source text projections match recovered
+  introduction/body bytes. Unknown cover/end page and 38 unmatched TOC entries
+  remain explicit. Print verification remains pending.
+- Copied nine PNGs and ten SVGs byte-for-byte. Deferred `bm54.wmf`/`bm55.wmf`
+  retain null display assets, occurrences/captions, and problem IDs. Suspect
+  derivatives and diagnostic previews are absent. Four SVGs retain recorded
+  font-substitution concerns; package integrity does not establish image fidelity.
+- Adapted generated Markdown notes to the current media/physical-magazine status
+  only in package copies. All 271 protected block-content ranges are unchanged,
+  including code whitespace and mixed image placeholders; caption links resolve.
+  Original step 5d previews and their checksummed provenance remain intact.
+- Builds validate a staging directory before replacing the generated package.
+  Failed staging leaves the previous result intact; successful rebuilds remove
+  stale files. Added a tracked metadata-only summary, reproduction/handoff docs,
+  and 11 package tests. All publisher content remains ignored/private.
+- Validation: all **88 tests passed**. Two command-line rebuilds reproduced the
+  reviewed hashes; standalone validation and relocated-package tests passed.
+  A temporary localhost static server served all 26 files beneath `/archive/data/`,
+  with each response matching its recorded bytes/hash. Missing/corrupt files,
+  unexpected derivatives, unsafe paths, symlinks, mislabeled documents, broken
+  caption anchors, and external/dangling SVG resources are rejected. Documentation
+  links, Git exclusions, and staged whitespace checks passed.
+- The **first CD1 preparation milestone is complete**. PLAN-CD1.md now advances
+  to **step 10 — second-article check**. Deferred physical-magazine comparison,
+  media repair, UI implementation, publication/access policy, and CD2/CD3 remain
+  separate; none is claimed complete by this package.
