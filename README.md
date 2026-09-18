@@ -7,6 +7,11 @@ TOC import covers 122 issues through December 1993, with 5,497 entries.
 Official CD holdings support
 further extraction; per-disc coverage and completeness remain to be verified.
 
+Next milestone: **the first complete CD1 extraction pass**. The approved sequence
+is processing inventory → shared batch pipeline → February regression and a sample
+from other issues → resumable processing across CD1. Step 13a is next; full-disc
+processing begins after the batch validation checkpoint. See the plan for checks.
+
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)
 - [CD3 extraction plan — deferred](PLAN-CD3.md)

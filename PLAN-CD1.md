@@ -21,6 +21,14 @@ required task; print verification does not block extraction or packaging.
 identically, including explicit unavailable states for both deferred images.
 Physical-magazine verification remains pending.
 
+**Current milestone: the first complete CD1 extraction pass (steps 13a–13d).**
+February's six prepared articles provide the regression baseline. Build a shared
+batch pipeline, validate it on those articles and a bounded sample from other
+issues, then process the remaining CD1 work queue with resumable issue checkpoints.
+Completion means every discovered candidate has a recorded outcome, with available
+content packaged and unresolved cases retained for follow-up. It does not mean
+complete coverage of every printed issue or resolution of every damaged image.
+
 The archive target is **1983-11–1995-12: 146 monthly issues**, extended because
 the owner holds the official CDs. The supplied TOC now covers **122 issues
 through 1993-12**; that source coverage is distinct from the expanded target.
@@ -133,10 +141,10 @@ populations; neither is a verified count of complete articles.
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
 | 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, and 12c are complete. Step 7 is deferred pending
-physical-magazine evidence; 11b awaits independent storage or an optical drive.
-**Step 13a (remaining CD1 metadata inventory) is next. Backup/restore verification does not block
-non-destructive extraction from the verified sources.**
+Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, and 12d are complete.
+Step 7 is deferred pending physical-magazine evidence; 11b awaits independent storage or an optical drive.
+**Step 13a (CD1 processing inventory for the batch pipeline) is next.**
+Backup/restore verification does not block extraction from the verified sources.
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
 Print comparison remains a separate pending status. No original-viewer screenshots
@@ -784,34 +792,141 @@ content elsewhere and printed-issue completeness remain unverified. Further
 February content needs scans or another source; print review, four deferred WMFs,
 and the existing text-decoding question remain recorded, non-blocking follow-up.
 
-## Exact scope of the next task: step 13a — CD1 metadata inventory
+## Next milestone: first complete CD1 extraction pass
 
-**Inputs:** the checked CD1 index/reference import, native context metadata,
-current TOC through December 1993, existing article preparation records, and the
-February issue handoff. CD2/CD3 and scans remain outside this task.
+The owner approved moving from article-specific preparation to batch processing.
+The current scripts demonstrate recovery, structure preservation, media conversion,
+and packaging, but several still encode article-specific topic numbers, paragraph
+ranges, and caption relationships. Extract reusable operations and rules into one
+pipeline; keep reviewed exceptions as data. Existing preparation scripts and their
+historical outputs remain reproducible regression references.
 
-**Deliverable:** account for every CD1 index reference and explicit issue label,
-group coverage by issue, and distinguish prepared references from unprepared,
-conflicting, unattributed, suffixed, and named references needing review. Compare
-with TOC availability without claiming that index matches establish article
-completeness or that unindexed content is absent. Produce a metadata report and
-select one next issue with a concrete, bounded audit task for step 13b.
+The February scan already observed **3,099 native/RTF topics**, including **1,088
+dated article topics**. The index contains **1,080 distinct targets** and **2,462
+reference occurrences**. These are different populations, not interchangeable
+article totals. Reuse that evidence to build the processing queue, including
+unindexed content, linked introductions, and unresolved identities.
 
-**Check:** every imported reference/occurrence is accounted for exactly once in
-the inventory, source identities/hashes remain traceable, and the six prepared
-February articles (five indexed, one unindexed) reconcile to the completed handoff. Retain ambiguous title
-and issue relationships explicitly; no global fuzzy matching or inferred
-navigation-only classification. Do not recover article bodies, convert/repair
-media, or change existing packages in this task.
+### 13a — Next: build the CD1 processing inventory
 
-## Next checkpoints: organize and expand CD1 content
+**Inputs:** checked MVB/RTF and probe manifest, native metadata scan from 12d,
+all three index imports, current TOC through December 1993, six February article
+preparations, and existing exception records.
 
-Steps 12b.1–3, 12c, and 12d are complete. February source preparation is closed
-for the observed native content. Step 13a is the next separately scoped task. Steps 7 and 11b remain independently
-deferred; neither blocks content preparation from the verified local sources.
-Define exact inputs and checks when reached;
-split issue/disc batches into smaller numbered tasks before starting them. A
-single “continue” still means one bounded task.
+**Deliverable:** a reproducible inventory and machine-readable processing queue
+for CD1. Reconcile every native topic, context/index target, and index occurrence;
+record supported issue attribution, article/topic relationships, TOC match evidence,
+prepared status, and unresolved cases. Preserve suffixed and named references.
+Retain stable source identities for unindexed topics; page suffixes alone cannot
+establish identity or a TOC match. Record linked, navigation, separator, and
+unattributed topics with evidence rather than dropping untitled topics.
+
+Include the eleven observed context/header-offset differences as investigation
+items. Resolve associations where native evidence supports them, and leave
+ambiguous candidates explicitly blocked with their source locations. Missing TOC
+matches do not prevent preparation of independently identified article bodies.
+Group ready candidates by issue, with a separate queue for uncertain attribution.
+
+**Completion check:** all source populations reconcile without silent omissions
+or duplicate article jobs; February's six preparations resolve unchanged, including
+unindexed KEYBOARD LOCK. Every candidate is either ready/already prepared or has a
+specific unresolved dependency. Select a finite validation sample for 13c from
+other issues, based on issue range and observed RTF/media variety. This checkpoint
+produces metadata and the batch input contract; article recovery starts in 13b.
+
+### 13b — Build the shared extraction and packaging pipeline
+
+**Inputs:** the 13a queue, existing extraction/conversion/validation components,
+the approved v1 schema, and February's reviewed preparation evidence.
+
+**Deliverable:** one runner that accepts article, issue, or whole-CD scope and
+executes topic association, RTF inventory, text recovery, semantic mapping, media
+conversion, Markdown preview, and package assembly as separately recorded stages.
+Use shared rules for supported patterns and small source-bound exception records
+for reviewed article-specific decisions. Encoding policies must follow inspected
+font/run evidence; the February articles already demonstrate differing code-font
+requirements. Preserve source paragraphs, runs, formatting, code whitespace,
+objects, and source spans even when semantic classification is uncertain.
+
+Separate extraction status from semantic review and print verification. Represent
+uncertain structure explicitly where v1 supports it; otherwise retain the full
+private intermediate and record why packaging is blocked. Unsupported controls
+or undecodable spans must never disappear or be marked successfully recovered.
+Failed images remain deferred at their source positions, with diagnostics and
+source references. A single article/media failure must not abort unrelated jobs.
+
+Write private intermediate content and packages independently of originals.
+Validate staged output before replacing a successful artifact. Record input,
+configuration, tool/pipeline version, and output hashes so retries and resume can
+reuse only compatible results. Reuse validated media derivatives and compose
+issue packages from independently prepared articles, without a chain of combined
+packages that requires rebuilding all earlier articles for each addition.
+
+**Completion check:** the runner processes the February baseline through shared
+stages, preserves its content and recorded exceptions, and produces validated
+packages. Identity, byte/run coverage, source-text projection, media relationships,
+and package hashes are checked. Recovery from interruption, stale-cache rejection,
+and isolated failure handling work. Keep v1 unless a demonstrated representation
+gap requires a separately documented contract change. No new per-article script
+is needed for each ordinary job.
+
+### 13c — Validate batch operation beyond February
+
+**Inputs:** the shared runner, all six February regression articles, and a fixed
+sample of 6–10 additional candidates from at least three other issues. Use the
+13a inventory to include early and late CD1 coverage and varied text/code/media
+structures. Record the sample and expected review concerns before running it.
+
+**Deliverable:** a regression and sample report covering extraction fidelity,
+semantic decisions, successful conversions, deferred cases, and package loading.
+Compare February article content, blocks, links, and accepted assets with its
+reviewed outputs; record any justified packaging/provenance differences explicitly.
+For the new sample, verify article boundaries and source accounting against the
+preserved CD data. Compare bitmap pixels and retain vector conversion diagnostics.
+Test interruption/resume, deterministic rebuilds, and nested static base URLs.
+
+**Completion check:** no unexplained February content regressions or silent source
+loss; supported sample jobs validate and exceptions retain their source evidence.
+Resume and per-job failure isolation pass. A source-specific exception can remain
+deferred when containment works; a general preservation or runner defect must be
+fixed before expansion. Record the finite sample's outcome and proceed to 13d
+once these checks pass. Physical-magazine review is independent of this gate.
+
+### 13d — Run the first complete CD1 pass and reconcile results
+
+**Inputs:** the full 13a queue, the validated runner, sample results, and recorded
+exceptions. **Start condition:** 13c's preservation and batch-operation checks pass.
+
+**Deliverable:** process all remaining ready candidates, issue by issue, with
+resumable checkpoints and a consolidated run report. Carry successful sample
+outputs forward when their fingerprints still match. Continue after isolated
+article/media failures, retaining diagnostics and retry targets. Publish no content;
+write private article/issue packages and catalog data with explicit availability.
+
+**Completion check:** no candidate remains silently unattempted. Every job is
+prepared, prepared with review exceptions, blocked by identified source/identity
+constraints, or failed with retained evidence. Report those counts separately;
+failed and blocked jobs are not counted as extracted. Every native topic and
+index occurrence still maps to an accounted source record. Reconcile prepared
+articles, TOC links, unmatched TOC entries, unindexed content, missing media, and
+unattributed topics in the final CD1 coverage report. Validate all successful
+packages and preserve a reproducible manifest of the run and its exception queue.
+This completes the first pass; resolving individual exceptions becomes subsequent
+bounded work and does not erase their recorded first-pass outcomes.
+
+## Checkpoint status
+
+Steps 12b.1–3, 12c, and 12d are complete. **13a is the next implementation task**;
+13b–13d are planned, not yet implemented or run. A “continue” advances the next
+unfinished checkpoint. During 13d, issue boundaries are resume/reporting points
+within the full-CD pass, rather than requiring a separate plan or permission for
+every article. Subdivide engineering work when needed while preserving this
+milestone and its completion checks.
+
+Steps 7 and 11b remain independently deferred and do not block extraction. Missing
+scans, physical review, image repair, ownership/access decisions, CD2/CD3, and the
+reading-room UI remain separate scopes. Full text is prepared privately regardless
+of later publication decisions.
 
 | Step / checkpoint | Deliverable | Complete when |
 | --- | --- | --- |
@@ -827,8 +942,10 @@ single “continue” still means one bounded task.
 | 12b.3 — Done: Turbo Pascal graphics | Reviewed title match, standalone and five-article packages, deferred vectors and text-review record. | Topics 157/158, Korean Pascal strings, mixed figure paragraphs, and all media positions are preserved under unchanged v1. |
 | 12c — Done: February issue handoff | Current coverage record and validated issue package/catalog metadata. | All 39 TOC entries and five indexed targets reconcile; 48 runtime files and all review evidence are preserved, with deterministic and relocated/base-URL checks passing. |
 | 12d — Done: February native closeout | Six-article handoff, including unindexed KEYBOARD LOCK, and complete native February metadata accounting. | All six observed bodies are prepared; 29 unmatched candidates and four sections remain explicit; earlier content and exceptions survive under unchanged v1. |
-| 13a — Next: CD1 metadata inventory | Disc-wide reference/issue accounting and one selected next issue task. | Every imported reference/occurrence has an explicit state; February preparation reconciles, ambiguities remain visible, and no new article recovery is performed. |
-| 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content covered by the newly supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
+| 13a — Next: processing inventory | Complete source accounting and a batch input queue, including unindexed content. | All native/index populations reconcile; ready and unresolved jobs are explicit; February preparations remain linked. |
+| 13b — Planned: shared pipeline | Reusable extraction, structure, conversion, and packaging stages with resume and exception records. | February runs through shared stages with preservation checks, isolated failures, and compatible-cache reuse. |
+| 13c — Planned: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
+| 13d — Planned: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
 
 ### Content contract requirements implemented in step 8
 

@@ -83,8 +83,8 @@ IDs preserved. Historical article and coverage provenance is unchanged; see
 
 **12b.1–3, 12c, and 12d are complete.** The [issue handoff](CD1-ISSUE-1988-02.md)
 preserves all six prepared articles and reconciles their newer evidence with
-every February TOC entry. The next bounded task is **13a**, a metadata inventory
-of remaining CD1 coverage. Backup/restore, physical comparison, deferred media
+every February TOC entry. The next task is **13a**, the processing inventory for
+the [shared pipeline and complete CD1 pass](../PLAN-CD1.md#next-milestone-first-complete-cd1-extraction-pass). Backup/restore, physical comparison, deferred media
 repair, CD2/CD3, and the UI retain their separate scopes.
 
 The report's recorded `next_batch.prerequisite` preserves the earlier planning

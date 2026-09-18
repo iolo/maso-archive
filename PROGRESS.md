@@ -1151,3 +1151,35 @@
   documentation links, readiness JSON, private-output exclusions, and whitespace
   checks pass. Updated the plan, current handoff documentation, and owner task list;
   step 13a remains a separate future task.
+
+## 2026-09-18 — Revised step 13 for the first complete CD1 extraction pass
+
+- Applied the owner's approval to move from article-specific preparation toward
+  a shared batch pipeline. Revised PLAN-CD1 around four checkpoints: **13a processing
+  inventory → 13b shared extraction/packaging pipeline → 13c regression and sample
+  validation → 13d resumable full-CD1 pass**. Step 13a remains the next implementation
+  task; this change implements the plan revision, not the pipeline or batch run.
+- Made native-topic accounting, unindexed articles, linked introductions, stable
+  identities, and unresolved context relationships part of the processing queue.
+  The existing 3,099-topic scan and six February preparations are reusable inputs;
+  native article-topic and index-reference populations remain distinct.
+- Specified reusable stages with source-bound exception data, complete byte/run
+  preservation, explicit uncertain structures, deferred media, compatible cache
+  reuse, staged package validation, interruption recovery, and per-job failure
+  isolation. Issue packages will compose independent article outputs.
+- Defined the expansion check: preserve all six February articles and validate a
+  fixed sample of 6–10 candidates across at least three other issues. Full-disc
+  processing starts after fidelity and batch-operation checks pass. Source-specific
+  exceptions can remain recorded; general preservation defects require correction.
+- Defined full-pass completion as accounting for every candidate's outcome, with
+  validated successful packages and explicit failed/blocked cases. Issue boundaries
+  serve as resume/reporting points within the pass. Missing scans, physical review,
+  independent backup, deferred repairs, access/publication, CD2/CD3, and UI work
+  retain their separate scopes.
+- Updated README, current coverage/handoff/preservation guidance, the offline task
+  list, and readiness next-scope text. Historical extraction records and outputs
+  remain unchanged; the owner's existing PRD-reading-room edits are left untouched.
+- Validation: local documentation links, the new milestone anchor, unique checkpoint
+  headings, readiness JSON, and whitespace checks pass. Only `allowed_next_scope`
+  changed in the readiness record. No runtime code changed, so extraction tests
+  were not rerun.
