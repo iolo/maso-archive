@@ -191,10 +191,9 @@ working image or corrupt backups, temporary-restore cleanup, and restored-tree
 mismatches. Restore mechanics use explicitly synthetic fixtures and do not count
 as a real backup test. The actual-source test verifies the complete local CD1 set.
 
-The owner reports a local copy and physical CD. No optical drive is currently
-visible to this machine, and the copy's path/storage location is not yet supplied.
-Step 11b awaits verification of an accessible independent copy or fresh physical-CD
-read; probe/repository preservation remains a separate part of that checkpoint. The
+The owner confirms the local copy is the working `masocd-1.iso`, extracted from
+the retained original physical CD. No optical drive is currently available.
+Step 11b is deferred until independent storage or an optical drive is available; probe/repository preservation remains a separate part of that checkpoint. The
 [February 1988 coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC import are complete. The next article task is
 **12b.1: recover `8802030` only**, after step 11b.
 Article batches and bulk recovery remain gated on verified preservation readiness.

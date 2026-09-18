@@ -5,11 +5,11 @@
   "inventory_record": "data/catalog/preservation/cd1-inventory.json",
   "inventory_sha256": "7f6c82ed586576d6c4337bf25788e0f9d0d984a267c56cac5f1416bfeb84495b",
   "local_inventory_status": "verified",
-  "independent_backup_status": "unverified",
-  "backup_status_basis": "owner_reports_local_copy_and_physical_cd; local_copy_path_and_storage_independence_not_yet_identified",
+  "independent_backup_status": "not_available",
+  "backup_status_basis": "owner_confirms_local_copy_is_working_masocd-1.iso_extracted_from_physical_cd; no_optical_drive_currently_available",
   "restore_test_status": "pending",
   "ready_for_bulk_processing": false,
-  "remaining_checkpoint": "11b: verify an independent ISO copy or fresh read from the physical CD; record preserved probe/repository evidence separately",
-  "allowed_next_scope": "11b: verify owner-reported recovery sources once an accessible copy/device path is supplied; 12b.1 article recovery remains gated",
-  "physical_media_status": "owner_reported_available_not_read_tested"
+  "remaining_checkpoint": "11b: verify a copy on independent storage when available, or a fresh physical-CD read when an optical drive is available; preserve probe/repository evidence separately",
+  "allowed_next_scope": "11b deferred: local transfer set prepared; verification awaits independent storage or an optical drive; 12b.1 recovery remains gated",
+  "physical_media_status": "owner_retains_original_cd; no_optical_drive_available_for_read_verification"
 }

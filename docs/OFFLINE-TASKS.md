@@ -62,14 +62,14 @@ as historical diagnostic evidence; they are not print-verification evidence.
 
 ## 4. Make an independent source backup
 
-The owner reports a local copy and the physical CD. CD1's local source
-inventory is complete; their independent recovery verification remains pending as
-step 11b before bulk
+The working `masocd-1.iso` was extracted from the retained original CD. No
+optical drive is currently available. Local inventory is complete; independent
+recovery verification remains deferred as step 11b before bulk
 processing. A [prepared transfer archive](CD1-PRESERVATION.md#prepared-local-transfer-set)
 now groups the ISO, probe, prepared artifacts, and Git history into about 674 MB.
-Provide the local copy's path and storage description, or an accessible physical-CD
-device/mount path. Alternatively, copy the prepared `.tar` and `.sha256` files to
-separate storage and verify the checksum there. This
+When separate storage is available, copy the prepared `.tar` and `.sha256` files
+there and verify the checksum. A fresh read from the physical CD is another
+verification route once an optical drive is available. This
 local staging does not count as an independent backup.
 
 For a manual copy instead, start with `masocd-1.iso`, the
@@ -80,8 +80,7 @@ about 624 MB, before repository/prepared content.
 
 Record the backup location privately and use the documented restore command to
 check a newly restored ISO and all its files. A same-disk copy is not independent
-storage; a local inventory check is not a restore test. Preserve the sole working
-copy. CD2/CD3 ISO backups are also useful when convenient; their known hashes are
+storage; a local inventory check is not a restore test. Preserve the working image and original CD. CD2/CD3 ISO backups are also useful when convenient; their known hashes are
 in [the initial source inspection](SOURCE-INVENTORY.md).
 
 ## 5. Gather information for the later scan phase
@@ -92,8 +91,8 @@ page are enough to plan a later scanning pilot. Keep available source scans unde
 `private/scans/`; bulk scanning is a separate future task.
 
 The first package, [second-article check](CD1-SECOND-ARTICLE-8802114.md), and local
-source inventory are complete. Step 11b awaits verification of the owner-reported
-recovery sources. The [February coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC
+source inventory are complete. Step 11b is deferred until independent storage or an optical drive
+is available for recovery verification. The [February coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC
 import are complete. The corrected 1991–1993 entries are imported with stable IDs.
 The next article task, `8802030`, remains gated on backup/restore readiness.
 Physical reference collection and print comparison (step 7) remain independent.

@@ -881,3 +881,14 @@
   The transfer set is ready to copy. Step 11b still needs accessible recovery-source
   and preservation evidence before article task 12b.1 (`8802030`) begins. No new
   article text, media conversion, publication, or external-storage write occurred.
+
+### Owner clarification: working image and retained physical CD
+
+- The reported local copy is the existing `masocd-1.iso`, extracted from the
+  owner's retained physical CD. It is not an additional independent digital copy.
+  The owner confirms no optical drive is currently available.
+- The source location question is resolved. Recorded the physical original and
+  unavailable drive explicitly; step 11b remains deferred until independent
+  storage or an optical drive is available. The prepared local transfer archive
+  remains verified and ready to copy. No independent restore test or further
+  article recovery was performed.
