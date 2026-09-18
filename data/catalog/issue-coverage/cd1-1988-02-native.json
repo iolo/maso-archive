@@ -1,0 +1,3637 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd1",
+  "issue_id": "maso-1988-02",
+  "checkpoint": "12d",
+  "scope": "all_observed_native_February_articles_and_complete_TOC_accounting",
+  "historical_audit": {
+    "path": "data/catalog/issue-coverage/cd1-1988-02.json",
+    "bytes": 72514,
+    "sha256": "ccfdcbf84a910244fd0c1e4de0adaf5d770db443b9923f227591c2b4949e8bb1"
+  },
+  "metadata_comparison": {
+    "historical_source": {
+      "name": "TOC.md",
+      "sha256": "7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+      "bytes": 153894,
+      "git_blob": "e9db6b0e2889002a1159187bb6100d5f0d9f2d09"
+    },
+    "current_source": {
+      "path": "TOC.md",
+      "bytes": 251883,
+      "sha256": "15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+    },
+    "entry_differences": [
+      {
+        "toc_entry_id": "maso-1988-02-toc-0001",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0002",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0003",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0004",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0005",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0006",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0007",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0008",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0009",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0010",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0011",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0012",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0013",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0014",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0015",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0016",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0017",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0018",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0019",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0020",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0021",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0022",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0023",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0024",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0025",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0026",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0027",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0028",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0029",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0030",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0031",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0032",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0033",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0034",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0035",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0036",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0037",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0038",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      },
+      {
+        "toc_entry_id": "maso-1988-02-toc-0039",
+        "field": "source.id",
+        "before": "toc-sha256-7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e",
+        "after": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+      }
+    ],
+    "runtime_metadata_changes": [],
+    "issue_text_identical": true
+  },
+  "toc_entries": [
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2292,
+        "sibling_order": 1,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "프로그램 공장 : 자료구조와 알고리즘(6) : 링크드 리스트의 개선과 트리구조 = 20",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2453,
+          "line_end": 2453,
+          "raw_line": "- 프로그램 공장 : 자료구조와 알고리즘(6) : 링크드 리스트의 개선과 트리구조 = 20"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "프로그램 공장 : 자료구조와 알고리즘(6) : 링크드 리스트의 개선과 트리구조",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "20",
+        "page_candidates": [
+          20
+        ],
+        "start_page_candidate": 20,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0001",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2293,
+        "sibling_order": 2,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "캐드 : 버사캐드를 써보자 = 94",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2454,
+          "line_end": 2454,
+          "raw_line": "- 캐드 : 버사캐드를 써보자 = 94"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "캐드 : 버사캐드를 써보자",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "94",
+        "page_candidates": [
+          94
+        ],
+        "start_page_candidate": 94,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0002",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2294,
+        "sibling_order": 3,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "소프트웨어 소개 : 코드뷰를 써보셨읍니까?(1) = 36",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2455,
+          "line_end": 2455,
+          "raw_line": "- 소프트웨어 소개 : 코드뷰를 써보셨읍니까?(1) = 36"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "소프트웨어 소개 : 코드뷰를 써보셨읍니까?(1)",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "36",
+        "page_candidates": [
+          36
+        ],
+        "start_page_candidate": 36,
+        "end_page_candidate": null,
+        "flags": [
+          "page_order_decrease"
+        ],
+        "id": "maso-1988-02-toc-0003",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2295,
+        "sibling_order": 4,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "테크닉 : 퀵베이직에서 FABS를 사용하자 = 46",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2456,
+          "line_end": 2456,
+          "raw_line": "- 테크닉 : 퀵베이직에서 FABS를 사용하자 = 46"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "테크닉 : 퀵베이직에서 FABS를 사용하자",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "46",
+        "page_candidates": [
+          46
+        ],
+        "start_page_candidate": 46,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0004",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2296,
+        "sibling_order": 5,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "워드프로세서 : 완벽한 한글 워드프로세서 = 56",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2457,
+          "line_end": 2457,
+          "raw_line": "- 워드프로세서 : 완벽한 한글 워드프로세서 = 56"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "워드프로세서 : 완벽한 한글 워드프로세서",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "56",
+        "page_candidates": [
+          56
+        ],
+        "start_page_candidate": 56,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0005",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2297,
+        "sibling_order": 6,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "컴퓨터 언어 : MSX-C(1) = 110",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2458,
+          "line_end": 2458,
+          "raw_line": "- 컴퓨터 언어 : MSX-C(1) = 110"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "컴퓨터 언어 : MSX-C(1)",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "110",
+        "page_candidates": [
+          110
+        ],
+        "start_page_candidate": 110,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0006",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2298,
+        "sibling_order": 7,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "정보 레이다",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2459,
+          "line_end": 2459,
+          "raw_line": "- 정보 레이다"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "정보 레이다",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1988-02-toc-0007",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "not_applicable_section",
+      "preparation_status": "not_applicable_section",
+      "content_availability": "not_applicable_section"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2299,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "행사 및 교육안내 = 129",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2460,
+          "line_end": 2460,
+          "raw_line": "  - 행사 및 교육안내 = 129"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "행사 및 교육안내",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "129",
+        "page_candidates": [
+          129
+        ],
+        "start_page_candidate": 129,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0008",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2300,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "국내뉴스 = 130",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2461,
+          "line_end": 2461,
+          "raw_line": "  - 국내뉴스 = 130"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "국내뉴스",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "130",
+        "page_candidates": [
+          130
+        ],
+        "start_page_candidate": 130,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0009",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2301,
+        "sibling_order": 3,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "신제품 안내 = 132",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2462,
+          "line_end": 2462,
+          "raw_line": "  - 신제품 안내 = 132"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "신제품 안내",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "132",
+        "page_candidates": [
+          132
+        ],
+        "start_page_candidate": 132,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0010",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2302,
+        "sibling_order": 4,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "해외뉴스 = 136",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2463,
+          "line_end": 2463,
+          "raw_line": "  - 해외뉴스 = 136"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "해외뉴스",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "136",
+        "page_candidates": [
+          136
+        ],
+        "start_page_candidate": 136,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0011",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2303,
+        "sibling_order": 5,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "신간안내 = 141",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2464,
+          "line_end": 2464,
+          "raw_line": "  - 신간안내 = 141"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "신간안내",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "141",
+        "page_candidates": [
+          141
+        ],
+        "start_page_candidate": 141,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0012",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2304,
+        "sibling_order": 6,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "복덕방 = 145",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2465,
+          "line_end": 2465,
+          "raw_line": "  - 복덕방 = 145"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "복덕방",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "145",
+        "page_candidates": [
+          145
+        ],
+        "start_page_candidate": 145,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0013",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2305,
+        "sibling_order": 7,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "애독자광장 = 148",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2466,
+          "line_end": 2466,
+          "raw_line": "  - 애독자광장 = 148"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "애독자광장",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "148",
+        "page_candidates": [
+          148
+        ],
+        "start_page_candidate": 148,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0014",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2306,
+        "sibling_order": 8,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "QA = 150",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2467,
+          "line_end": 2467,
+          "raw_line": "  - QA = 150"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "QA",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "150",
+        "page_candidates": [
+          150
+        ],
+        "start_page_candidate": 150,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0015",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2307,
+        "sibling_order": 9,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "애독자 퀴즈 = 158",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2468,
+          "line_end": 2468,
+          "raw_line": "  - 애독자 퀴즈 = 158"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "애독자 퀴즈",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "158",
+        "page_candidates": [
+          158
+        ],
+        "start_page_candidate": 158,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0016",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2308,
+        "sibling_order": 10,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "애독자 설문지 = 160",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2469,
+          "line_end": 2469,
+          "raw_line": "  - 애독자 설문지 = 160"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "애독자 설문지",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "160",
+        "page_candidates": [
+          160
+        ],
+        "start_page_candidate": 160,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0017",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2309,
+        "sibling_order": 11,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "디버깅 룸·게시판 = 152",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2470,
+          "line_end": 2470,
+          "raw_line": "  - 디버깅 룸·게시판 = 152"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "디버깅 룸·게시판",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "152",
+        "page_candidates": [
+          152
+        ],
+        "start_page_candidate": 152,
+        "end_page_candidate": null,
+        "flags": [
+          "page_order_decrease"
+        ],
+        "id": "maso-1988-02-toc-0018",
+        "parent_id": "maso-1988-02-toc-0007",
+        "section_path": [
+          "maso-1988-02-toc-0007"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2310,
+        "sibling_order": 8,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "유틸리티",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2471,
+          "line_end": 2471,
+          "raw_line": "- 유틸리티"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "유틸리티",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1988-02-toc-0019",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "not_applicable_section",
+      "preparation_status": "not_applicable_section",
+      "content_availability": "not_applicable_section"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2311,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "BDS-C 그래픽 라이브러리 = 102",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2472,
+          "line_end": 2472,
+          "raw_line": "  - BDS-C 그래픽 라이브러리 = 102"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "BDS-C 그래픽 라이브러리",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "102",
+        "page_candidates": [
+          102
+        ],
+        "start_page_candidate": 102,
+        "end_page_candidate": null,
+        "flags": [
+          "page_order_decrease"
+        ],
+        "id": "maso-1988-02-toc-0020",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2312,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "스펠링 체커 = 114",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2473,
+          "line_end": 2473,
+          "raw_line": "  - 스펠링 체커 = 114"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "스펠링 체커",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "114",
+        "page_candidates": [
+          114
+        ],
+        "start_page_candidate": 114,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0021",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [
+        "8802114"
+      ],
+      "candidate_references": [],
+      "relationship_status": "matched",
+      "preparation_status": "prepared",
+      "content_availability": "prepared",
+      "match_basis": "reviewed_indexed_article_evidence"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2313,
+        "sibling_order": 3,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "APPLE ≡ MSX = 122",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2474,
+          "line_end": 2474,
+          "raw_line": "  - APPLE ≡ MSX = 122"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "APPLE ≡ MSX",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "122",
+        "page_candidates": [
+          122
+        ],
+        "start_page_candidate": 122,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0022",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2314,
+        "sibling_order": 4,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "KEYBOARD LOCK = 162",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2475,
+          "line_end": 2475,
+          "raw_line": "  - KEYBOARD LOCK = 162"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "KEYBOARD LOCK",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "162",
+        "page_candidates": [
+          162
+        ],
+        "start_page_candidate": 162,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0023",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [
+        "8802162"
+      ],
+      "candidate_references": [],
+      "relationship_status": "matched",
+      "preparation_status": "prepared",
+      "content_availability": "prepared",
+      "match_basis": "exact_TOC_native_intro_title_and_explicit_body_page_with_native_context"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2315,
+        "sibling_order": 5,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "한글 배너 = 174",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2476,
+          "line_end": 2476,
+          "raw_line": "  - 한글 배너 = 174"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "한글 배너",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "174",
+        "page_candidates": [
+          174
+        ],
+        "start_page_candidate": 174,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0024",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2316,
+        "sibling_order": 6,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "RECOVER = 178",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2477,
+          "line_end": 2477,
+          "raw_line": "  - RECOVER = 178"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "RECOVER",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "178",
+        "page_candidates": [
+          178
+        ],
+        "start_page_candidate": 178,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0025",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2317,
+        "sibling_order": 7,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "터보 파스칼 한글 그래픽스 툴 = 180",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2478,
+          "line_end": 2478,
+          "raw_line": "  - 터보 파스칼 한글 그래픽스 툴 = 180"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "터보 파스칼 한글 그래픽스 툴",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "180",
+        "page_candidates": [
+          180
+        ],
+        "start_page_candidate": 180,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0026",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [
+        "8802180"
+      ],
+      "candidate_references": [],
+      "relationship_status": "matched",
+      "preparation_status": "prepared",
+      "content_availability": "prepared",
+      "match_basis": "reviewed_indexed_article_evidence"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2318,
+        "sibling_order": 8,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "터보 C로 작성한 에디터 = 184",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2479,
+          "line_end": 2479,
+          "raw_line": "  - 터보 C로 작성한 에디터 = 184"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "터보 C로 작성한 에디터",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "184",
+        "page_candidates": [
+          184
+        ],
+        "start_page_candidate": 184,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0027",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [
+        "8802184"
+      ],
+      "candidate_references": [],
+      "relationship_status": "matched",
+      "preparation_status": "prepared",
+      "content_availability": "prepared",
+      "match_basis": "reviewed_indexed_article_evidence"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2319,
+        "sibling_order": 9,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "램상주 에디터와 BIOS 사전 = 196",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2480,
+          "line_end": 2480,
+          "raw_line": "  - 램상주 에디터와 BIOS 사전 = 196"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "램상주 에디터와 BIOS 사전",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "196",
+        "page_candidates": [
+          196
+        ],
+        "start_page_candidate": 196,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0028",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2320,
+        "sibling_order": 10,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "MSX-DOS용 램상주 모니터 = 208",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2481,
+          "line_end": 2481,
+          "raw_line": "  - MSX-DOS용 램상주 모니터 = 208"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "MSX-DOS용 램상주 모니터",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "208",
+        "page_candidates": [
+          208
+        ],
+        "start_page_candidate": 208,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0029",
+        "parent_id": "maso-1988-02-toc-0019",
+        "section_path": [
+          "maso-1988-02-toc-0019"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2321,
+        "sibling_order": 9,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "읽을거리",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2482,
+          "line_end": 2482,
+          "raw_line": "- 읽을거리"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "읽을거리",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1988-02-toc-0030",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "not_applicable_section",
+      "preparation_status": "not_applicable_section",
+      "content_availability": "not_applicable_section"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2322,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "유명한 프로그래머를 만났읍니다(5) : CP/M의 게리 킬달 = 30",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2483,
+          "line_end": 2483,
+          "raw_line": "  - 유명한 프로그래머를 만났읍니다(5) : CP/M의 게리 킬달 = 30"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "유명한 프로그래머를 만났읍니다(5) : CP/M의 게리 킬달",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "30",
+        "page_candidates": [
+          30
+        ],
+        "start_page_candidate": 30,
+        "end_page_candidate": null,
+        "flags": [
+          "page_order_decrease"
+        ],
+        "id": "maso-1988-02-toc-0031",
+        "parent_id": "maso-1988-02-toc-0030",
+        "section_path": [
+          "maso-1988-02-toc-0030"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [
+        "8802030"
+      ],
+      "candidate_references": [],
+      "relationship_status": "matched",
+      "preparation_status": "prepared",
+      "content_availability": "prepared",
+      "match_basis": "reviewed_indexed_article_evidence"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2323,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "마이크로소프트의 독자가 되는 법 = 155",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2484,
+          "line_end": 2484,
+          "raw_line": "  - 마이크로소프트의 독자가 되는 법 = 155"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "마이크로소프트의 독자가 되는 법",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "155",
+        "page_candidates": [
+          155
+        ],
+        "start_page_candidate": 155,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0032",
+        "parent_id": "maso-1988-02-toc-0030",
+        "section_path": [
+          "maso-1988-02-toc-0030"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2324,
+        "sibling_order": 10,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "연작 단편소설 : 1988년에 보내는 편지(1) : 제1신 미래로부터의 전언 = 109",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2485,
+          "line_end": 2485,
+          "raw_line": "- 연작 단편소설 : 1988년에 보내는 편지(1) : 제1신 미래로부터의 전언 = 109"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "연작 단편소설 : 1988년에 보내는 편지(1) : 제1신 미래로부터의 전언",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "109",
+        "page_candidates": [
+          109
+        ],
+        "start_page_candidate": 109,
+        "end_page_candidate": null,
+        "flags": [
+          "page_order_decrease"
+        ],
+        "id": "maso-1988-02-toc-0033",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2325,
+        "sibling_order": 11,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "정보 : 소프트웨어를 등록하려면 = 221",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2486,
+          "line_end": 2486,
+          "raw_line": "- 정보 : 소프트웨어를 등록하려면 = 221"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "정보 : 소프트웨어를 등록하려면",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "221",
+        "page_candidates": [
+          221
+        ],
+        "start_page_candidate": 221,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0034",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2326,
+        "sibling_order": 12,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "특집 : 유닉스란 무엇인가? = 65",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2487,
+          "line_end": 2487,
+          "raw_line": "- 특집 : 유닉스란 무엇인가? = 65"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "특집 : 유닉스란 무엇인가?",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "65",
+        "page_candidates": [
+          65
+        ],
+        "start_page_candidate": 65,
+        "end_page_candidate": null,
+        "flags": [
+          "page_order_decrease"
+        ],
+        "id": "maso-1988-02-toc-0035",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "matched_references": [
+        "8802065"
+      ],
+      "candidate_references": [],
+      "relationship_status": "matched",
+      "preparation_status": "prepared",
+      "content_availability": "prepared",
+      "match_basis": "reviewed_indexed_article_evidence"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2327,
+        "sibling_order": 13,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "취재",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2488,
+          "line_end": 2488,
+          "raw_line": "- 취재"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "취재",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1988-02-toc-0036",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "not_applicable_section",
+      "preparation_status": "not_applicable_section",
+      "content_availability": "not_applicable_section"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2328,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "PC 그래픽으로 성형수술을 = 70",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2489,
+          "line_end": 2489,
+          "raw_line": "  - PC 그래픽으로 성형수술을 = 70"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "PC 그래픽으로 성형수술을",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "70",
+        "page_candidates": [
+          70
+        ],
+        "start_page_candidate": 70,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0037",
+        "parent_id": "maso-1988-02-toc-0036",
+        "section_path": [
+          "maso-1988-02-toc-0036"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2329,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "IBM PC용 그래픽 보드들 = 74",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2490,
+          "line_end": 2490,
+          "raw_line": "  - IBM PC용 그래픽 보드들 = 74"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "IBM PC용 그래픽 보드들",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "74",
+        "page_candidates": [
+          74
+        ],
+        "start_page_candidate": 74,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1988-02-toc-0038",
+        "parent_id": "maso-1988-02-toc-0036",
+        "section_path": [
+          "maso-1988-02-toc-0036"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    },
+    {
+      "entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1988-02",
+        "order": 2330,
+        "sibling_order": 3,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "PC 사용자 인터뷰 : 로터스 1-2-3의 철저한 사용자 = 68",
+        "source": {
+          "id": "toc-sha256-15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727",
+          "line_start": 2491,
+          "line_end": 2491,
+          "raw_line": "  - PC 사용자 인터뷰 : 로터스 1-2-3의 철저한 사용자 = 68"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "PC 사용자 인터뷰 : 로터스 1-2-3의 철저한 사용자",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "68",
+        "page_candidates": [
+          68
+        ],
+        "start_page_candidate": 68,
+        "end_page_candidate": null,
+        "flags": [
+          "page_order_decrease"
+        ],
+        "id": "maso-1988-02-toc-0039",
+        "parent_id": "maso-1988-02-toc-0036",
+        "section_path": [
+          "maso-1988-02-toc-0036"
+        ],
+        "kind_candidate": "article"
+      },
+      "matched_references": [],
+      "candidate_references": [],
+      "relationship_status": "no_observed_native_match",
+      "preparation_status": "unprepared",
+      "content_availability": "no_match_in_reviewed_native_February_metadata"
+    }
+  ],
+  "cd_references": [
+    {
+      "schema_version": 1,
+      "reference": "8802030",
+      "reference_kind": "numeric",
+      "issue_candidate": "1988-02",
+      "in_target_period_candidate": true,
+      "occurrence_ids": [
+        "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L291",
+        "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L764"
+      ],
+      "title_variants": [
+        "CP/M의 게리 킬달"
+      ],
+      "occurrences": [
+        {
+          "schema_version": 1,
+          "id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L291",
+          "source": {
+            "name": "column.lst",
+            "sha256": "ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60",
+            "encoding": "cp949",
+            "line": 291,
+            "byte_offset": 12316,
+            "byte_length": 38
+          },
+          "raw_line": "      88.02 CP/M의 게리 킬달|8802030",
+          "indent": 6,
+          "kind": "reference",
+          "parent_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L290",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L288",
+              "label": "읽을거리/나눔터(인터뷰, 연재 컬럼, 각종 읽을거리들)"
+            },
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L289",
+              "label": "인터뷰"
+            },
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L290",
+              "label": "외국 프로그래머"
+            }
+          ],
+          "label": "88.02 CP/M의 게리 킬달",
+          "title": "CP/M의 게리 킬달",
+          "display_issue": "1988-02",
+          "reference_raw": "8802030",
+          "reference": "8802030"
+        },
+        {
+          "schema_version": 1,
+          "id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L764",
+          "source": {
+            "name": "panecmds.lst",
+            "sha256": "3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8",
+            "encoding": "cp949",
+            "line": 764,
+            "byte_offset": 34383,
+            "byte_length": 36
+          },
+          "raw_line": "    88.02 CP/M의 게리 킬달|8802030",
+          "indent": 4,
+          "kind": "reference",
+          "parent_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L763",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L762",
+              "label": "인터뷰"
+            },
+            {
+              "entry_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L763",
+              "label": "외국 프로그래머"
+            }
+          ],
+          "label": "88.02 CP/M의 게리 킬달",
+          "title": "CP/M의 게리 킬달",
+          "display_issue": "1988-02",
+          "reference_raw": "8802030",
+          "reference": "8802030"
+        }
+      ],
+      "attribution": {
+        "display_issues": [
+          "1988-02"
+        ],
+        "all_labels_agree": true,
+        "reference_month_is_inferred": true,
+        "conflict": false
+      },
+      "native_context": {
+        "hash_hex": "0x0e6881f5",
+        "topic_offset": 1409419,
+        "mvb_entry_byte_offset": 232793456,
+        "byte_length": 8
+      },
+      "native_status": "resolved_hash",
+      "relationship": {
+        "status": "supported_by_metadata",
+        "basis": "record_specific_series_prefix",
+        "toc_candidate_ids": [
+          "maso-1988-02-toc-0031"
+        ],
+        "origin": "existing_package",
+        "page_suffix_used_to_match": false
+      },
+      "preparation_status": "prepared",
+      "prepared_article": {
+        "id": "cd1:article:8802030",
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0031"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      }
+    },
+    {
+      "schema_version": 1,
+      "reference": "8802065",
+      "reference_kind": "numeric",
+      "issue_candidate": "1988-02",
+      "in_target_period_candidate": true,
+      "occurrence_ids": [
+        "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L3",
+        "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L112"
+      ],
+      "title_variants": [
+        "유닉스란 무엇인가"
+      ],
+      "occurrences": [
+        {
+          "schema_version": 1,
+          "id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L3",
+          "source": {
+            "name": "column.lst",
+            "sha256": "ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60",
+            "encoding": "cp949",
+            "line": 3,
+            "byte_offset": 27,
+            "byte_length": 37
+          },
+          "raw_line": "    88.02 유닉스란 무엇인가|8802065",
+          "indent": 4,
+          "kind": "reference",
+          "parent_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L2",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L1",
+              "label": "특집/특별기획"
+            },
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L2",
+              "label": "특집"
+            }
+          ],
+          "label": "88.02 유닉스란 무엇인가",
+          "title": "유닉스란 무엇인가",
+          "display_issue": "1988-02",
+          "reference_raw": "8802065",
+          "reference": "8802065"
+        },
+        {
+          "schema_version": 1,
+          "id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L112",
+          "source": {
+            "name": "panecmds.lst",
+            "sha256": "3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8",
+            "encoding": "cp949",
+            "line": 112,
+            "byte_offset": 5584,
+            "byte_length": 39
+          },
+          "raw_line": "      88.02 유닉스란 무엇인가|8802065",
+          "indent": 6,
+          "kind": "reference",
+          "parent_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L111",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L1",
+              "label": "운영체제(도스, 윈도우즈, OS/2, 유닉스/제닉스)"
+            },
+            {
+              "entry_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L110",
+              "label": "유닉스/제닉스"
+            },
+            {
+              "entry_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L111",
+              "label": "리뷰/활용"
+            }
+          ],
+          "label": "88.02 유닉스란 무엇인가",
+          "title": "유닉스란 무엇인가",
+          "display_issue": "1988-02",
+          "reference_raw": "8802065",
+          "reference": "8802065"
+        }
+      ],
+      "attribution": {
+        "display_issues": [
+          "1988-02"
+        ],
+        "all_labels_agree": true,
+        "reference_month_is_inferred": true,
+        "conflict": false
+      },
+      "native_context": {
+        "hash_hex": "0x0e688271",
+        "topic_offset": 1575226,
+        "mvb_entry_byte_offset": 232793464,
+        "byte_length": 8
+      },
+      "native_status": "resolved_hash",
+      "relationship": {
+        "status": "supported_by_metadata",
+        "basis": "record_specific_prefix_and_question_mark",
+        "toc_candidate_ids": [
+          "maso-1988-02-toc-0035"
+        ],
+        "origin": "existing_package",
+        "page_suffix_used_to_match": false
+      },
+      "preparation_status": "prepared",
+      "prepared_article": {
+        "id": "cd1:article:8802065",
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0035"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      }
+    },
+    {
+      "schema_version": 1,
+      "reference": "8802114",
+      "reference_kind": "numeric",
+      "issue_candidate": "1988-02",
+      "in_target_period_candidate": true,
+      "occurrence_ids": [
+        "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L924",
+        "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L641",
+        "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L341"
+      ],
+      "title_variants": [
+        "스펠링 체커"
+      ],
+      "occurrences": [
+        {
+          "schema_version": 1,
+          "id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L924",
+          "source": {
+            "name": "column.lst",
+            "sha256": "ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60",
+            "encoding": "cp949",
+            "line": 924,
+            "byte_offset": 39563,
+            "byte_length": 33
+          },
+          "raw_line": "      88.02 스펠링 체커|8802114",
+          "indent": 6,
+          "kind": "reference",
+          "parent_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L922",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L805",
+              "label": "활용(운영체제, 데이터베이스 개발, 각종 소프트웨어 응용)"
+            },
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L921",
+              "label": "유틸리티(일반 유틸리티, 도스 확장자 등)"
+            },
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L922",
+              "label": "도스용 유틸리티"
+            }
+          ],
+          "label": "88.02 스펠링 체커",
+          "title": "스펠링 체커",
+          "display_issue": "1988-02",
+          "reference_raw": "8802114",
+          "reference": "8802114"
+        },
+        {
+          "schema_version": 1,
+          "id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L641",
+          "source": {
+            "name": "language.lst",
+            "sha256": "a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc",
+            "encoding": "cp949",
+            "line": 641,
+            "byte_offset": 29461,
+            "byte_length": 31
+          },
+          "raw_line": "    88.02 스펠링 체커|8802114",
+          "indent": 4,
+          "kind": "reference",
+          "parent_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L625",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L591",
+              "label": "파스칼"
+            },
+            {
+              "entry_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L625",
+              "label": "유틸리티 제작"
+            }
+          ],
+          "label": "88.02 스펠링 체커",
+          "title": "스펠링 체커",
+          "display_issue": "1988-02",
+          "reference_raw": "8802114",
+          "reference": "8802114"
+        },
+        {
+          "schema_version": 1,
+          "id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L341",
+          "source": {
+            "name": "panecmds.lst",
+            "sha256": "3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8",
+            "encoding": "cp949",
+            "line": 341,
+            "byte_offset": 15494,
+            "byte_length": 31
+          },
+          "raw_line": "    88.02 스펠링 체커|8802114",
+          "indent": 4,
+          "kind": "reference",
+          "parent_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L340",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L312",
+              "label": "일반 유틸리티"
+            },
+            {
+              "entry_id": "cd1-index:panecmds.lst:3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8:L340",
+              "label": "일반 활용"
+            }
+          ],
+          "label": "88.02 스펠링 체커",
+          "title": "스펠링 체커",
+          "display_issue": "1988-02",
+          "reference_raw": "8802114",
+          "reference": "8802114"
+        }
+      ],
+      "attribution": {
+        "display_issues": [
+          "1988-02"
+        ],
+        "all_labels_agree": true,
+        "reference_month_is_inferred": true,
+        "conflict": false
+      },
+      "native_context": {
+        "hash_hex": "0x0e684098",
+        "topic_offset": 1998848,
+        "mvb_entry_byte_offset": 232793424,
+        "byte_length": 8
+      },
+      "native_status": "resolved_hash",
+      "relationship": {
+        "status": "supported_by_metadata",
+        "basis": "exact_title",
+        "toc_candidate_ids": [
+          "maso-1988-02-toc-0021"
+        ],
+        "origin": "existing_package",
+        "page_suffix_used_to_match": false
+      },
+      "preparation_status": "prepared",
+      "prepared_article": {
+        "id": "cd1:article:8802114",
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0021"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      }
+    },
+    {
+      "schema_version": 1,
+      "reference": "8802180",
+      "reference_kind": "numeric",
+      "issue_candidate": "1988-02",
+      "in_target_period_candidate": true,
+      "occurrence_ids": [
+        "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L423",
+        "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L600"
+      ],
+      "title_variants": [
+        "터보 파스칼 한글 그래픽 툴"
+      ],
+      "occurrences": [
+        {
+          "schema_version": 1,
+          "id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L423",
+          "source": {
+            "name": "column.lst",
+            "sha256": "ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60",
+            "encoding": "cp949",
+            "line": 423,
+            "byte_offset": 17910,
+            "byte_length": 46
+          },
+          "raw_line": "    88.02 터보 파스칼 한글 그래픽 툴|8802180",
+          "indent": 4,
+          "kind": "reference",
+          "parent_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L422",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L408",
+              "label": "원리구현(언어별 프로그래밍 기법, 각종 원리 분석/응용)"
+            },
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L422",
+              "label": "비디오/화면 제어"
+            }
+          ],
+          "label": "88.02 터보 파스칼 한글 그래픽 툴",
+          "title": "터보 파스칼 한글 그래픽 툴",
+          "display_issue": "1988-02",
+          "reference_raw": "8802180",
+          "reference": "8802180"
+        },
+        {
+          "schema_version": 1,
+          "id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L600",
+          "source": {
+            "name": "language.lst",
+            "sha256": "a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc",
+            "encoding": "cp949",
+            "line": 600,
+            "byte_offset": 27672,
+            "byte_length": 46
+          },
+          "raw_line": "    88.02 터보 파스칼 한글 그래픽 툴|8802180",
+          "indent": 4,
+          "kind": "reference",
+          "parent_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L599",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L591",
+              "label": "파스칼"
+            },
+            {
+              "entry_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L599",
+              "label": "그래픽 프로그래밍"
+            }
+          ],
+          "label": "88.02 터보 파스칼 한글 그래픽 툴",
+          "title": "터보 파스칼 한글 그래픽 툴",
+          "display_issue": "1988-02",
+          "reference_raw": "8802180",
+          "reference": "8802180"
+        }
+      ],
+      "attribution": {
+        "display_issues": [
+          "1988-02"
+        ],
+        "all_labels_agree": true,
+        "reference_month_is_inferred": true,
+        "conflict": false
+      },
+      "native_context": {
+        "hash_hex": "0x0e6841cb",
+        "topic_offset": 2326947,
+        "mvb_entry_byte_offset": 232793448,
+        "byte_length": 8
+      },
+      "native_status": "resolved_hash",
+      "relationship": {
+        "status": "supported_by_metadata",
+        "basis": "reviewed_native_body_title_and_page_agreement",
+        "toc_candidate_ids": [
+          "maso-1988-02-toc-0026"
+        ],
+        "origin": "existing_package",
+        "page_suffix_used_to_match": false
+      },
+      "preparation_status": "prepared",
+      "prepared_article": {
+        "id": "cd1:article:8802180",
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0026"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      }
+    },
+    {
+      "schema_version": 1,
+      "reference": "8802184",
+      "reference_kind": "numeric",
+      "issue_candidate": "1988-02",
+      "in_target_period_candidate": true,
+      "occurrence_ids": [
+        "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L532",
+        "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L212"
+      ],
+      "title_variants": [
+        "터보 C로 작성한 에디터"
+      ],
+      "occurrences": [
+        {
+          "schema_version": 1,
+          "id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L532",
+          "source": {
+            "name": "column.lst",
+            "sha256": "ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60",
+            "encoding": "cp949",
+            "line": 532,
+            "byte_offset": 22631,
+            "byte_length": 42
+          },
+          "raw_line": "    88.02 터보 C로 작성한 에디터|8802184",
+          "indent": 4,
+          "kind": "reference",
+          "parent_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L531",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L408",
+              "label": "원리구현(언어별 프로그래밍 기법, 각종 원리 분석/응용)"
+            },
+            {
+              "entry_id": "cd1-index:column.lst:ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60:L531",
+              "label": "일반 에디터/그래픽 에디터 구현"
+            }
+          ],
+          "label": "88.02 터보 C로 작성한 에디터",
+          "title": "터보 C로 작성한 에디터",
+          "display_issue": "1988-02",
+          "reference_raw": "8802184",
+          "reference": "8802184"
+        },
+        {
+          "schema_version": 1,
+          "id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L212",
+          "source": {
+            "name": "language.lst",
+            "sha256": "a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc",
+            "encoding": "cp949",
+            "line": 212,
+            "byte_offset": 9636,
+            "byte_length": 44
+          },
+          "raw_line": "      88.02 터보 C로 작성한 에디터|8802184",
+          "indent": 6,
+          "kind": "reference",
+          "parent_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L211",
+          "category_path": [
+            {
+              "entry_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L1",
+              "label": "C"
+            },
+            {
+              "entry_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L183",
+              "label": "유틸리티 제작"
+            },
+            {
+              "entry_id": "cd1-index:language.lst:a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc:L211",
+              "label": "일반 에디터"
+            }
+          ],
+          "label": "88.02 터보 C로 작성한 에디터",
+          "title": "터보 C로 작성한 에디터",
+          "display_issue": "1988-02",
+          "reference_raw": "8802184",
+          "reference": "8802184"
+        }
+      ],
+      "attribution": {
+        "display_issues": [
+          "1988-02"
+        ],
+        "all_labels_agree": true,
+        "reference_month_is_inferred": true,
+        "conflict": false
+      },
+      "native_context": {
+        "hash_hex": "0x0e6841c5",
+        "topic_offset": 2427045,
+        "mvb_entry_byte_offset": 232793440,
+        "byte_length": 8
+      },
+      "native_status": "resolved_hash",
+      "relationship": {
+        "status": "supported_by_metadata",
+        "basis": "exact_title",
+        "toc_candidate_ids": [
+          "maso-1988-02-toc-0027"
+        ],
+        "origin": "existing_package",
+        "page_suffix_used_to_match": false
+      },
+      "preparation_status": "prepared",
+      "prepared_article": {
+        "id": "cd1:article:8802184",
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0027"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      }
+    }
+  ],
+  "counts": {
+    "toc_entries": 39,
+    "toc_sections": 4,
+    "toc_relationships": {
+      "matched": 6,
+      "no_observed_native_match": 29,
+      "not_applicable_section": 4
+    },
+    "toc_preparation": {
+      "not_applicable_section": 4,
+      "prepared": 6,
+      "unprepared": 29
+    },
+    "cd_references": 5,
+    "cd_index_occurrences": 11,
+    "cd_relationships": {
+      "supported_by_metadata": 5
+    },
+    "cd_preparation": {
+      "prepared": 5
+    },
+    "native_articles": 6,
+    "unindexed_native_articles": 1
+  },
+  "review_records": {
+    "deferred_media": [
+      {
+        "schema_version": 1,
+        "cd_reference": "8802065",
+        "decision": "Owner requested deferring broken-image investigation and retaining records for later resolution.",
+        "image_map": {
+          "path": "build/cd1-images/8802065/images.json",
+          "sha256": "c455f5493485b5188eb18e790d684d0087e6950aa2032f6af881b612dec97975"
+        },
+        "policy": {
+          "preserve_originals_and_attempts": true,
+          "preserve_occurrence_order_and_captions": true,
+          "use_suspect_derivatives_as_article_content": false,
+          "block_viewer_comparison_or_packaging": false,
+          "implies_verified_image_fidelity": false
+        },
+        "issues": [
+          {
+            "id": "cd1-8802065-bm54-wmf",
+            "resource": "bm54.wmf",
+            "source": {
+              "path": "private/cd1-probe/raw/bm54.wmf",
+              "bytes": 214,
+              "sha256": "03c7133a09a641173be3122426ee4a0001c1ffcd136e3a3b6038ead6183d951e"
+            },
+            "occurrences": [
+              {
+                "id": "cd1-8802065:T149:P174:R1",
+                "topic_ordinal": 149,
+                "block_id": "cd1-8802065:T149:P174-174",
+                "block_kind": "unresolved",
+                "caption_block_ids": [],
+                "paragraph_ordinal": 174,
+                "run_ordinal": 1,
+                "resource": "bm54.wmf",
+                "rtf_byte_offset": 458815,
+                "role": "content_or_layout_pending_inspection"
+              }
+            ],
+            "status": "deferred",
+            "blocks_current_progress": false,
+            "reason": "Conversion yields no SVG drawing elements and a blank PNG; intended content and attachment are unknown.",
+            "existing_conversion_status": "needs_review",
+            "existing_concerns": [
+              "svg_has_no_drawing_elements",
+              "raster_preview_is_blank"
+            ],
+            "attempt_details": {
+              "path": "build/cd1-images/8802065/images.json",
+              "resource_key": "bm54.wmf"
+            },
+            "reading_representation": "unavailable_media_placeholder",
+            "resume_when": "A later media-repair task is explicitly scheduled.",
+            "resolved": false
+          },
+          {
+            "id": "cd1-8802065-bm55-wmf",
+            "resource": "bm55.wmf",
+            "source": {
+              "path": "private/cd1-probe/raw/bm55.wmf",
+              "bytes": 1270,
+              "sha256": "0bf23a5c4de995f42534ec2d2c02006d541df7a324205a728062d562ced94d66"
+            },
+            "occurrences": [
+              {
+                "id": "cd1-8802065:T149:P230:R1",
+                "topic_ordinal": 149,
+                "block_id": "cd1-8802065:T149:P230-230",
+                "block_kind": "figure",
+                "caption_block_ids": [
+                  "cd1-8802065:T149:P229-229"
+                ],
+                "paragraph_ordinal": 230,
+                "run_ordinal": 1,
+                "resource": "bm55.wmf",
+                "rtf_byte_offset": 469108,
+                "role": "content_or_layout_pending_inspection"
+              }
+            ],
+            "status": "deferred",
+            "blocks_current_progress": false,
+            "reason": "Converted equation contains incorrect mathematical glyphs; source Symbol font is not retained.",
+            "existing_conversion_status": "needs_review",
+            "existing_concerns": [
+              "source_Symbol_font_not_retained_in_svg; mathematical_glyphs_suspect",
+              "live_svg_text_depends_on_available_fonts"
+            ],
+            "attempt_details": {
+              "path": "build/cd1-images/8802065/images.json",
+              "resource_key": "bm55.wmf"
+            },
+            "reading_representation": "unavailable_media_placeholder",
+            "resume_when": "A later media-repair task is explicitly scheduled.",
+            "resolved": false
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "article_id": "cd1:article:8802180",
+        "issues": [
+          {
+            "id": "cd1-8802180-bm57",
+            "resource": "bm57.wmf",
+            "status": "deferred",
+            "resolved": false,
+            "reason": "Symbol_font_not_retained_in_conversion",
+            "source": {
+              "path": "private/cd1-probe/raw/bm57.wmf",
+              "bytes": 438,
+              "sha256": "a3121514141fc4c790fab44d788fd6ca00566166e02a9d846b8ff2ff307a3b29"
+            },
+            "topic_ordinal": 158,
+            "paragraph_ordinal": 12
+          },
+          {
+            "id": "cd1-8802180-bm58",
+            "resource": "bm58.wmf",
+            "status": "deferred",
+            "resolved": false,
+            "reason": "Symbol_font_not_retained_in_conversion",
+            "source": {
+              "path": "private/cd1-probe/raw/bm58.wmf",
+              "bytes": 438,
+              "sha256": "a3121514141fc4c790fab44d788fd6ca00566166e02a9d846b8ff2ff307a3b29"
+            },
+            "topic_ordinal": 158,
+            "paragraph_ordinal": 14
+          }
+        ]
+      }
+    ],
+    "text_reviews": [
+      {
+        "id": "cd1-8802180-text-001",
+        "topic_ordinal": 158,
+        "paragraph_ordinal": 320,
+        "source_span": {
+          "byte_offset": 629837,
+          "end_exclusive": 629885
+        },
+        "encoded_pair_hex": "8874",
+        "decoded_codepoint": "U+B2AF",
+        "occurrences": 2,
+        "status": "pending_physical_comparison",
+        "corrected": false,
+        "alternative_decoding": {
+          "codec": "johab",
+          "codepoint": "U+AC12",
+          "applied": false,
+          "basis": "8874_decodes_to_value_word_also_present_in_figure_header_293; possible_mixed_encoding"
+        },
+        "reason": "unusual_decoded_syllable_in_demo_labels; strict_CP949_roundtrip_does_not_prove_intended_glyph"
+      }
+    ]
+  },
+  "limits": {
+    "printed_issue_completeness": "unverified",
+    "unindexed_native_targets": "one_February_body_attributed_and_prepared",
+    "cover": "unavailable",
+    "new_topics_recovered": 2,
+    "new_media_conversions": 5,
+    "publication_decision": "not_made",
+    "independent_backup_verified": false,
+    "native_metadata_completeness": "all_observed_February_issue_keywords_and_opening_labels_accounted_for",
+    "remaining_29": "No matching February native body observed; obtain scans or another source. Absence of mislabeled content is not proven."
+  },
+  "runtime_counts": {
+    "issues": 1,
+    "toc_entries": 39,
+    "articles": 6,
+    "media": 38,
+    "sections": 12,
+    "blocks": 677,
+    "paragraphs": 2821,
+    "media_occurrences": 40,
+    "files": 56,
+    "assets": 34,
+    "previews": 12
+  },
+  "catalog_search_fields": [
+    "title",
+    "byline",
+    "issue_id"
+  ],
+  "indexed_checkpoint": {
+    "path": "data/catalog/issue-coverage/cd1-1988-02-prepared.json",
+    "bytes": 92268,
+    "sha256": "578fbe2652edca1da617585bf2a88139dac229c27ded539bf79156d0ee48a502"
+  },
+  "native_scan": {
+    "native_topics": 3099,
+    "dated_article_topics": 1088,
+    "navigation_topics": 10,
+    "untitled_topics": 2001,
+    "unattributed_titled_topics": 0,
+    "other_issue_context_offset_differences": [
+      {
+        "ordinal": 442,
+        "issue": "1989-07",
+        "header_topic_offset": 34933688,
+        "context": {
+          "hash_hex": "0x17317e0b",
+          "topic_offset": 34963456,
+          "mvb_entry_byte_offset": 232790760,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 528,
+        "issue": "1989-10",
+        "header_topic_offset": 41978878,
+        "context": {
+          "hash_hex": "0x155fa137",
+          "topic_offset": 42008576,
+          "mvb_entry_byte_offset": 232790312,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 985,
+        "issue": "1990-08",
+        "header_topic_offset": 79399596,
+        "context": {
+          "hash_hex": "0x98be3fd0",
+          "topic_offset": 79429632,
+          "mvb_entry_byte_offset": 232794344,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 1150,
+        "issue": "1990-11",
+        "header_topic_offset": 90999785,
+        "context": {
+          "hash_hex": "0x96e04215",
+          "topic_offset": 91029504,
+          "mvb_entry_byte_offset": 232783992,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 1298,
+        "issue": "1991-02",
+        "header_topic_offset": 102369733,
+        "context": {
+          "hash_hex": "0x49da7600",
+          "topic_offset": 102400000,
+          "mvb_entry_byte_offset": 232796824,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 1342,
+        "issue": "1991-03",
+        "header_topic_offset": 105122799,
+        "context": {
+          "hash_hex": "0x49dbac12",
+          "topic_offset": 105152512,
+          "mvb_entry_byte_offset": 232796952,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 1389,
+        "issue": "1991-04",
+        "header_topic_offset": 108756995,
+        "context": {
+          "hash_hex": "0x49dce2fd",
+          "topic_offset": 108756997,
+          "mvb_entry_byte_offset": 232797080,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 1870,
+        "issue": "1992-03",
+        "header_topic_offset": 146113832,
+        "context": {
+          "hash_hex": "0x529ed1ee",
+          "topic_offset": 146113834,
+          "mvb_entry_byte_offset": 232801720,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 2089,
+        "issue": "1992-07",
+        "header_topic_offset": 165350216,
+        "context": {
+          "hash_hex": "0x52a3b26f",
+          "topic_offset": 165380096,
+          "mvb_entry_byte_offset": 232804848,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 2247,
+        "issue": "1992-10",
+        "header_topic_offset": 180782227,
+        "context": {
+          "hash_hex": "0x50d1d6cb",
+          "topic_offset": 180782229,
+          "mvb_entry_byte_offset": 232801256,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      },
+      {
+        "ordinal": 3049,
+        "issue": "1993-12",
+        "header_topic_offset": 242452951,
+        "context": {
+          "hash_hex": "0x598b3efb",
+          "topic_offset": 242483200,
+          "mvb_entry_byte_offset": 232805344,
+          "byte_length": 8
+        },
+        "status": "outside_February_scope_not_resolved"
+      }
+    ],
+    "february_body_topics": 6,
+    "february_page_labels": 6,
+    "february_articles": [
+      {
+        "native": {
+          "ordinal": 146,
+          "topic_number": 145,
+          "topic_pos": 705269,
+          "topic_offset": 1409419,
+          "mvb_header_byte_offset": 201964277,
+          "next_topic_pos": 789346,
+          "browse_back_topic_offset": 1149241,
+          "browse_forward_topic_offset": 1575226
+        },
+        "title": "CP/M의 게리 킬달",
+        "issue": "1988-02",
+        "rtf": {
+          "byte_offset": 306664,
+          "byte_length": 69943,
+          "sha256": "b7f2f71807064e0533d5434f1752b5ddf05d6c1e8c477af4c2ccc9c8e153fe32"
+        },
+        "context_at_header": true,
+        "alias": "6SRE0ZE",
+        "context": {
+          "hash_hex": "0x0e6881f5",
+          "topic_offset": 1409419,
+          "mvb_entry_byte_offset": 232793456,
+          "byte_length": 8
+        },
+        "issue_keyword": {
+          "label": "88년 2월",
+          "byte_offset": 306948,
+          "byte_length": 59,
+          "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+        },
+        "opening_page_label": {
+          "page": 30,
+          "label": "88.2.  30p",
+          "byte_offset": 307008,
+          "byte_length": 10
+        },
+        "reference": "8802030",
+        "numeric_context": {
+          "hash_hex": "0x0e6881f5",
+          "topic_offset": 1409419,
+          "mvb_entry_byte_offset": 232793456,
+          "byte_length": 8
+        }
+      },
+      {
+        "native": {
+          "ordinal": 149,
+          "topic_number": 148,
+          "topic_pos": 789925,
+          "topic_offset": 1575226,
+          "mvb_header_byte_offset": 201987493,
+          "next_topic_pos": 986627,
+          "browse_back_topic_offset": 1409419,
+          "browse_forward_topic_offset": 1998848,
+          "title": "유닉스란 무엇인가?"
+        },
+        "title": "유닉스란 무엇인가?",
+        "issue": "1988-02",
+        "rtf": {
+          "byte_offset": 377944,
+          "byte_length": 148269,
+          "sha256": "7ad6397062553dee1afd273df000649be26d9723d2e66050480c1b056780038d"
+        },
+        "context_at_header": true,
+        "alias": "2PES_R6",
+        "context": {
+          "hash_hex": "0x0e688271",
+          "topic_offset": 1575226,
+          "mvb_entry_byte_offset": 232793464,
+          "byte_length": 8
+        },
+        "issue_keyword": {
+          "label": "88년 2월",
+          "byte_offset": 378257,
+          "byte_length": 59,
+          "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+        },
+        "opening_page_label": {
+          "page": 65,
+          "label": "88.2.  65p",
+          "byte_offset": 378317,
+          "byte_length": 10
+        },
+        "reference": "8802065",
+        "numeric_context": {
+          "hash_hex": "0x0e688271",
+          "topic_offset": 1575226,
+          "mvb_entry_byte_offset": 232793464,
+          "byte_length": 8
+        }
+      },
+      {
+        "native": {
+          "ordinal": 152,
+          "topic_number": 151,
+          "topic_pos": 999501,
+          "topic_offset": 1998848,
+          "mvb_header_byte_offset": 202037325,
+          "next_topic_pos": 1066809,
+          "browse_back_topic_offset": 1575226,
+          "browse_forward_topic_offset": 2131408,
+          "title": "스펠링 체커"
+        },
+        "title": "스펠링 체커",
+        "issue": "1988-02",
+        "rtf": {
+          "byte_offset": 527551,
+          "byte_length": 26313,
+          "sha256": "2333726b745676cf95566178b7662a2a719ed31911e810a595d05aa0cda81327"
+        },
+        "context_at_header": true,
+        "alias": "1KN6EK",
+        "context": {
+          "hash_hex": "0x0e684098",
+          "topic_offset": 1998848,
+          "mvb_entry_byte_offset": 232793424,
+          "byte_length": 8
+        },
+        "issue_keyword": {
+          "label": "88년 2월",
+          "byte_offset": 527885,
+          "byte_length": 59,
+          "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+        },
+        "opening_page_label": {
+          "page": 114,
+          "label": "88.2.  114p",
+          "byte_offset": 527945,
+          "byte_length": 11
+        },
+        "reference": "8802114",
+        "numeric_context": {
+          "hash_hex": "0x0e684098",
+          "topic_offset": 1998848,
+          "mvb_entry_byte_offset": 232793424,
+          "byte_length": 8
+        }
+      },
+      {
+        "native": {
+          "ordinal": 155,
+          "topic_number": 154,
+          "topic_pos": 1067265,
+          "topic_offset": 2131408,
+          "mvb_header_byte_offset": 202055937,
+          "next_topic_pos": 1163752,
+          "browse_back_topic_offset": 1998848,
+          "browse_forward_topic_offset": 2326947
+        },
+        "title": "KEYBOARD LOCK",
+        "issue": "1988-02",
+        "rtf": {
+          "byte_offset": 554717,
+          "byte_length": 52862,
+          "sha256": "de3f3e9bc146548942d57ddddc73cf12a99e0cb26b29867b1bf39b9dc927f3da"
+        },
+        "context_at_header": true,
+        "alias": "1KN6JI",
+        "context": {
+          "hash_hex": "0x0e68416d",
+          "topic_offset": 2131408,
+          "mvb_entry_byte_offset": 232793432,
+          "byte_length": 8
+        },
+        "issue_keyword": {
+          "label": "88년 2월",
+          "byte_offset": 555072,
+          "byte_length": 59,
+          "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+        },
+        "opening_page_label": {
+          "page": 162,
+          "label": "88.2.  162p",
+          "byte_offset": 555132,
+          "byte_length": 11
+        },
+        "reference": "8802162",
+        "numeric_context": {
+          "hash_hex": "0x0e68416d",
+          "topic_offset": 2131408,
+          "mvb_entry_byte_offset": 232793432,
+          "byte_length": 8
+        }
+      },
+      {
+        "native": {
+          "ordinal": 158,
+          "topic_number": 157,
+          "topic_pos": 1164275,
+          "topic_offset": 2326947,
+          "mvb_header_byte_offset": 202079219,
+          "next_topic_pos": 1214837,
+          "browse_back_topic_offset": 2131408,
+          "browse_forward_topic_offset": 2427045
+        },
+        "title": "터보 파스칼 한글 그래픽스 툴",
+        "issue": "1988-02",
+        "rtf": {
+          "byte_offset": 608716,
+          "byte_length": 25173,
+          "sha256": "b2c3efb6e27d5180678b1d1dbef4c818118ff142dc352f23b4f88889d7512cce"
+        },
+        "context_at_header": true,
+        "alias": "1KN6LQ",
+        "context": {
+          "hash_hex": "0x0e6841cb",
+          "topic_offset": 2326947,
+          "mvb_entry_byte_offset": 232793448,
+          "byte_length": 8
+        },
+        "issue_keyword": {
+          "label": "88년 2월",
+          "byte_offset": 609246,
+          "byte_length": 59,
+          "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+        },
+        "opening_page_label": {
+          "page": 180,
+          "label": "88.2.  180p",
+          "byte_offset": 609323,
+          "byte_length": 11
+        },
+        "reference": "8802180",
+        "numeric_context": {
+          "hash_hex": "0x0e6841cb",
+          "topic_offset": 2326947,
+          "mvb_entry_byte_offset": 232793448,
+          "byte_length": 8
+        }
+      },
+      {
+        "native": {
+          "ordinal": 161,
+          "topic_number": 160,
+          "topic_pos": 1215484,
+          "topic_offset": 2427045,
+          "mvb_header_byte_offset": 202093564,
+          "next_topic_pos": 1392856,
+          "browse_back_topic_offset": 2326947,
+          "browse_forward_topic_offset": 2786503
+        },
+        "title": "터보 C로 작성한 에디터",
+        "issue": "1988-02",
+        "rtf": {
+          "byte_offset": 635396,
+          "byte_length": 60835,
+          "sha256": "9cae43baee446952a8842f0590dfce22f8cd6a8724fa3ff5a91144ab890c3ed9"
+        },
+        "context_at_header": true,
+        "alias": "1KN6LK",
+        "context": {
+          "hash_hex": "0x0e6841c5",
+          "topic_offset": 2427045,
+          "mvb_entry_byte_offset": 232793440,
+          "byte_length": 8
+        },
+        "issue_keyword": {
+          "label": "88년 2월",
+          "byte_offset": 635839,
+          "byte_length": 59,
+          "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+        },
+        "opening_page_label": {
+          "page": 184,
+          "label": "88.2.  184p",
+          "byte_offset": 635916,
+          "byte_length": 11
+        },
+        "reference": "8802184",
+        "numeric_context": {
+          "hash_hex": "0x0e6841c5",
+          "topic_offset": 2427045,
+          "mvb_entry_byte_offset": 232793440,
+          "byte_length": 8
+        }
+      }
+    ],
+    "boundary_articles": [
+      {
+        "native": {
+          "ordinal": 143,
+          "topic_number": 142,
+          "topic_pos": 576528,
+          "topic_offset": 1149241,
+          "mvb_header_byte_offset": 201933840,
+          "next_topic_pos": 704632,
+          "browse_back_topic_offset": 885432,
+          "browse_forward_topic_offset": 1409419
+        },
+        "title": "터보 C에서 그래픽을",
+        "issue": "1988-01",
+        "rtf": {
+          "byte_offset": 256375,
+          "byte_length": 48762,
+          "sha256": "2d6d120be81a0a605937361d6c8396ff6662b80f25f2204c3ca2a37bca6f808c"
+        },
+        "context_at_header": true,
+        "alias": "1KM6GK",
+        "context": {
+          "hash_hex": "0x0e670a5b",
+          "topic_offset": 1149241,
+          "mvb_entry_byte_offset": 232793416,
+          "byte_length": 8
+        },
+        "issue_keyword": {
+          "label": "88년 1월",
+          "byte_offset": 256849,
+          "byte_length": 59,
+          "sha256": "e45e176a283e259283296cd65b0e8c6a9841a822b8ec0fd072fec526212b1d44"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 164,
+          "topic_number": 163,
+          "topic_pos": 1394352,
+          "topic_offset": 2786503,
+          "mvb_header_byte_offset": 202137264,
+          "next_topic_pos": 1590826,
+          "browse_back_topic_offset": 2427045,
+          "browse_forward_topic_offset": 3179995
+        },
+        "title": "우편번호 변환 프로그램",
+        "issue": "1988-03",
+        "rtf": {
+          "byte_offset": 700702,
+          "byte_length": 98766,
+          "sha256": "314cf745007be20a9d663a8bf462c73062f2844c85fae9230f3bdc12a4e60eb1"
+        },
+        "context_at_header": true,
+        "alias": "2PET_M7",
+        "context": {
+          "hash_hex": "0x0e69b82e",
+          "topic_offset": 2786503,
+          "mvb_entry_byte_offset": 232793480,
+          "byte_length": 8
+        },
+        "issue_keyword": {
+          "label": "88년 3월",
+          "byte_offset": 701219,
+          "byte_length": 59,
+          "sha256": "6855d15621e698341baae3df31fdc680457b034aa71366cbe84a5685a8c339de"
+        }
+      }
+    ],
+    "undated_navigation": [
+      {
+        "native": {
+          "ordinal": 1,
+          "topic_number": 0,
+          "topic_pos": 12,
+          "topic_offset": 0,
+          "mvb_header_byte_offset": 201787404,
+          "next_topic_pos": 646,
+          "browse_back_topic_offset": -1,
+          "browse_forward_topic_offset": 491520
+        },
+        "title": "마이크로소프트웨어 CD 창간호",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 0,
+          "byte_length": 3354,
+          "sha256": "f8b79b30c9f8f075b30ec84cc18be3b1ff01519494f461f01ef2e72d27d8295c"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 7,
+          "topic_number": 6,
+          "topic_pos": 1324,
+          "topic_offset": 183,
+          "mvb_header_byte_offset": 201788716,
+          "next_topic_pos": 1768,
+          "browse_back_topic_offset": -1,
+          "browse_forward_topic_offset": 319
+        },
+        "title": "도움말 차례",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 3792,
+          "byte_length": 996,
+          "sha256": "e0dade5174cf7c55a908c2d34a53de66eb1d557e885f528db9953f6af495f9a4"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 8,
+          "topic_number": 7,
+          "topic_pos": 1768,
+          "topic_offset": 319,
+          "mvb_header_byte_offset": 201789160,
+          "next_topic_pos": 3332,
+          "browse_back_topic_offset": 183,
+          "browse_forward_topic_offset": 1578
+        },
+        "title": "마이크로소프트웨어 CD 소개",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 4794,
+          "byte_length": 4814,
+          "sha256": "ac7f8caf1e88a3f2ac5fa6eabdf70fce934209acecc29293cef55d2443c67a8e"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 9,
+          "topic_number": 8,
+          "topic_pos": 3332,
+          "topic_offset": 1578,
+          "mvb_header_byte_offset": 201790724,
+          "next_topic_pos": 17413,
+          "browse_back_topic_offset": 319,
+          "browse_forward_topic_offset": 33558
+        },
+        "title": "기본적인 사용법",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 9614,
+          "byte_length": 5295,
+          "sha256": "1346e5cfe4630f211f86ba711a6262a5b91f4ff6c6f6539e9a12572a81acdc0e"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 10,
+          "topic_number": 9,
+          "topic_pos": 17413,
+          "topic_offset": 33558,
+          "mvb_header_byte_offset": 201792517,
+          "next_topic_pos": 19053,
+          "browse_back_topic_offset": 1578,
+          "browse_forward_topic_offset": 34807
+        },
+        "title": "기사정보구역 아이콘 설명",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 14915,
+          "byte_length": 4822,
+          "sha256": "7daeb44b9000de1da5a0b65d5c8df79788d6d87840c1ca4a74cfeb2cb97270ad"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 11,
+          "topic_number": 10,
+          "topic_pos": 19053,
+          "topic_offset": 34807,
+          "mvb_header_byte_offset": 201794157,
+          "next_topic_pos": 20325,
+          "browse_back_topic_offset": 33558,
+          "browse_forward_topic_offset": 35777
+        },
+        "title": "인덱스 이용방법",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 19743,
+          "byte_length": 3652,
+          "sha256": "43a1446150b64d4eb47c43586a0dd68dbdad49e5055b24b7f7b4a53dbddb676e"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 12,
+          "topic_number": 11,
+          "topic_pos": 20325,
+          "topic_offset": 35777,
+          "mvb_header_byte_offset": 201795429,
+          "next_topic_pos": 34599,
+          "browse_back_topic_offset": 34807,
+          "browse_forward_topic_offset": 66845
+        },
+        "title": "기사찾기를 이용하여 기사를 찾는 방법",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 23401,
+          "byte_length": 5301,
+          "sha256": "68ad2ad2a1a278868af73e861e3545da4c8f3892f944f38a2487f26a8a3ed7a9"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 13,
+          "topic_number": 12,
+          "topic_pos": 34599,
+          "topic_offset": 66845,
+          "mvb_header_byte_offset": 201797415,
+          "next_topic_pos": 36555,
+          "browse_back_topic_offset": 35777,
+          "browse_forward_topic_offset": 68278
+        },
+        "title": "전문검색 이용방법",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 28708,
+          "byte_length": 5097,
+          "sha256": "9b896c1c12e2304ac00e805535249f489ce272e81aca00d0dfce8bfc6056861d"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 14,
+          "topic_number": 13,
+          "topic_pos": 36555,
+          "topic_offset": 68278,
+          "mvb_header_byte_offset": 201799371,
+          "next_topic_pos": 49858,
+          "browse_back_topic_offset": 66845,
+          "browse_forward_topic_offset": 98915
+        },
+        "title": "기사 인쇄와 복사하기",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 33811,
+          "byte_length": 2795,
+          "sha256": "dfa417a6d5c95373b9580c93c29f30bf6c0d30764b861907dcbb141569bcdb20"
+        }
+      },
+      {
+        "native": {
+          "ordinal": 15,
+          "topic_number": 14,
+          "topic_pos": 49858,
+          "topic_offset": 98915,
+          "mvb_header_byte_offset": 201800386,
+          "next_topic_pos": 51795,
+          "browse_back_topic_offset": 68278,
+          "browse_forward_topic_offset": -1
+        },
+        "title": "툴아이콘 기능소개",
+        "issue": null,
+        "rtf": {
+          "byte_offset": 36612,
+          "byte_length": 4344,
+          "sha256": "ae8303f845f5a91377811d529ca5c7d1402d233d9f18fde76607d33b0d771291"
+        }
+      }
+    ],
+    "method": "All native titles and all RTF issue-keyword footnotes; independent opening February page-label scan; alias/context and browse-chain checks."
+  },
+  "native_articles": [
+    {
+      "native": {
+        "ordinal": 146,
+        "topic_number": 145,
+        "topic_pos": 705269,
+        "topic_offset": 1409419,
+        "mvb_header_byte_offset": 201964277,
+        "next_topic_pos": 789346,
+        "browse_back_topic_offset": 1149241,
+        "browse_forward_topic_offset": 1575226
+      },
+      "title": "CP/M의 게리 킬달",
+      "issue": "1988-02",
+      "rtf": {
+        "byte_offset": 306664,
+        "byte_length": 69943,
+        "sha256": "b7f2f71807064e0533d5434f1752b5ddf05d6c1e8c477af4c2ccc9c8e153fe32"
+      },
+      "context_at_header": true,
+      "alias": "6SRE0ZE",
+      "context": {
+        "hash_hex": "0x0e6881f5",
+        "topic_offset": 1409419,
+        "mvb_entry_byte_offset": 232793456,
+        "byte_length": 8
+      },
+      "issue_keyword": {
+        "label": "88년 2월",
+        "byte_offset": 306948,
+        "byte_length": 59,
+        "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+      },
+      "opening_page_label": {
+        "page": 30,
+        "label": "88.2.  30p",
+        "byte_offset": 307008,
+        "byte_length": 10
+      },
+      "reference": "8802030",
+      "numeric_context": {
+        "hash_hex": "0x0e6881f5",
+        "topic_offset": 1409419,
+        "mvb_entry_byte_offset": 232793456,
+        "byte_length": 8
+      },
+      "article_id": "cd1:article:8802030",
+      "toc_entry_ids": [
+        "maso-1988-02-toc-0031"
+      ],
+      "preparation_status": "prepared",
+      "index_status": "indexed"
+    },
+    {
+      "native": {
+        "ordinal": 149,
+        "topic_number": 148,
+        "topic_pos": 789925,
+        "topic_offset": 1575226,
+        "mvb_header_byte_offset": 201987493,
+        "next_topic_pos": 986627,
+        "browse_back_topic_offset": 1409419,
+        "browse_forward_topic_offset": 1998848,
+        "title": "유닉스란 무엇인가?"
+      },
+      "title": "유닉스란 무엇인가?",
+      "issue": "1988-02",
+      "rtf": {
+        "byte_offset": 377944,
+        "byte_length": 148269,
+        "sha256": "7ad6397062553dee1afd273df000649be26d9723d2e66050480c1b056780038d"
+      },
+      "context_at_header": true,
+      "alias": "2PES_R6",
+      "context": {
+        "hash_hex": "0x0e688271",
+        "topic_offset": 1575226,
+        "mvb_entry_byte_offset": 232793464,
+        "byte_length": 8
+      },
+      "issue_keyword": {
+        "label": "88년 2월",
+        "byte_offset": 378257,
+        "byte_length": 59,
+        "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+      },
+      "opening_page_label": {
+        "page": 65,
+        "label": "88.2.  65p",
+        "byte_offset": 378317,
+        "byte_length": 10
+      },
+      "reference": "8802065",
+      "numeric_context": {
+        "hash_hex": "0x0e688271",
+        "topic_offset": 1575226,
+        "mvb_entry_byte_offset": 232793464,
+        "byte_length": 8
+      },
+      "article_id": "cd1:article:8802065",
+      "toc_entry_ids": [
+        "maso-1988-02-toc-0035"
+      ],
+      "preparation_status": "prepared",
+      "index_status": "indexed"
+    },
+    {
+      "native": {
+        "ordinal": 152,
+        "topic_number": 151,
+        "topic_pos": 999501,
+        "topic_offset": 1998848,
+        "mvb_header_byte_offset": 202037325,
+        "next_topic_pos": 1066809,
+        "browse_back_topic_offset": 1575226,
+        "browse_forward_topic_offset": 2131408,
+        "title": "스펠링 체커"
+      },
+      "title": "스펠링 체커",
+      "issue": "1988-02",
+      "rtf": {
+        "byte_offset": 527551,
+        "byte_length": 26313,
+        "sha256": "2333726b745676cf95566178b7662a2a719ed31911e810a595d05aa0cda81327"
+      },
+      "context_at_header": true,
+      "alias": "1KN6EK",
+      "context": {
+        "hash_hex": "0x0e684098",
+        "topic_offset": 1998848,
+        "mvb_entry_byte_offset": 232793424,
+        "byte_length": 8
+      },
+      "issue_keyword": {
+        "label": "88년 2월",
+        "byte_offset": 527885,
+        "byte_length": 59,
+        "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+      },
+      "opening_page_label": {
+        "page": 114,
+        "label": "88.2.  114p",
+        "byte_offset": 527945,
+        "byte_length": 11
+      },
+      "reference": "8802114",
+      "numeric_context": {
+        "hash_hex": "0x0e684098",
+        "topic_offset": 1998848,
+        "mvb_entry_byte_offset": 232793424,
+        "byte_length": 8
+      },
+      "article_id": "cd1:article:8802114",
+      "toc_entry_ids": [
+        "maso-1988-02-toc-0021"
+      ],
+      "preparation_status": "prepared",
+      "index_status": "indexed"
+    },
+    {
+      "native": {
+        "ordinal": 155,
+        "topic_number": 154,
+        "topic_pos": 1067265,
+        "topic_offset": 2131408,
+        "mvb_header_byte_offset": 202055937,
+        "next_topic_pos": 1163752,
+        "browse_back_topic_offset": 1998848,
+        "browse_forward_topic_offset": 2326947
+      },
+      "title": "KEYBOARD LOCK",
+      "issue": "1988-02",
+      "rtf": {
+        "byte_offset": 554717,
+        "byte_length": 52862,
+        "sha256": "de3f3e9bc146548942d57ddddc73cf12a99e0cb26b29867b1bf39b9dc927f3da"
+      },
+      "context_at_header": true,
+      "alias": "1KN6JI",
+      "context": {
+        "hash_hex": "0x0e68416d",
+        "topic_offset": 2131408,
+        "mvb_entry_byte_offset": 232793432,
+        "byte_length": 8
+      },
+      "issue_keyword": {
+        "label": "88년 2월",
+        "byte_offset": 555072,
+        "byte_length": 59,
+        "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+      },
+      "opening_page_label": {
+        "page": 162,
+        "label": "88.2.  162p",
+        "byte_offset": 555132,
+        "byte_length": 11
+      },
+      "reference": "8802162",
+      "numeric_context": {
+        "hash_hex": "0x0e68416d",
+        "topic_offset": 2131408,
+        "mvb_entry_byte_offset": 232793432,
+        "byte_length": 8
+      },
+      "article_id": "cd1:article:8802162",
+      "toc_entry_ids": [
+        "maso-1988-02-toc-0023"
+      ],
+      "preparation_status": "prepared",
+      "index_status": "unindexed"
+    },
+    {
+      "native": {
+        "ordinal": 158,
+        "topic_number": 157,
+        "topic_pos": 1164275,
+        "topic_offset": 2326947,
+        "mvb_header_byte_offset": 202079219,
+        "next_topic_pos": 1214837,
+        "browse_back_topic_offset": 2131408,
+        "browse_forward_topic_offset": 2427045
+      },
+      "title": "터보 파스칼 한글 그래픽스 툴",
+      "issue": "1988-02",
+      "rtf": {
+        "byte_offset": 608716,
+        "byte_length": 25173,
+        "sha256": "b2c3efb6e27d5180678b1d1dbef4c818118ff142dc352f23b4f88889d7512cce"
+      },
+      "context_at_header": true,
+      "alias": "1KN6LQ",
+      "context": {
+        "hash_hex": "0x0e6841cb",
+        "topic_offset": 2326947,
+        "mvb_entry_byte_offset": 232793448,
+        "byte_length": 8
+      },
+      "issue_keyword": {
+        "label": "88년 2월",
+        "byte_offset": 609246,
+        "byte_length": 59,
+        "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+      },
+      "opening_page_label": {
+        "page": 180,
+        "label": "88.2.  180p",
+        "byte_offset": 609323,
+        "byte_length": 11
+      },
+      "reference": "8802180",
+      "numeric_context": {
+        "hash_hex": "0x0e6841cb",
+        "topic_offset": 2326947,
+        "mvb_entry_byte_offset": 232793448,
+        "byte_length": 8
+      },
+      "article_id": "cd1:article:8802180",
+      "toc_entry_ids": [
+        "maso-1988-02-toc-0026"
+      ],
+      "preparation_status": "prepared",
+      "index_status": "indexed"
+    },
+    {
+      "native": {
+        "ordinal": 161,
+        "topic_number": 160,
+        "topic_pos": 1215484,
+        "topic_offset": 2427045,
+        "mvb_header_byte_offset": 202093564,
+        "next_topic_pos": 1392856,
+        "browse_back_topic_offset": 2326947,
+        "browse_forward_topic_offset": 2786503
+      },
+      "title": "터보 C로 작성한 에디터",
+      "issue": "1988-02",
+      "rtf": {
+        "byte_offset": 635396,
+        "byte_length": 60835,
+        "sha256": "9cae43baee446952a8842f0590dfce22f8cd6a8724fa3ff5a91144ab890c3ed9"
+      },
+      "context_at_header": true,
+      "alias": "1KN6LK",
+      "context": {
+        "hash_hex": "0x0e6841c5",
+        "topic_offset": 2427045,
+        "mvb_entry_byte_offset": 232793440,
+        "byte_length": 8
+      },
+      "issue_keyword": {
+        "label": "88년 2월",
+        "byte_offset": 635839,
+        "byte_length": 59,
+        "sha256": "70bf68713ae74ccb05a20d3f20fd879330a5542d358457ece033af23e45da19f"
+      },
+      "opening_page_label": {
+        "page": 184,
+        "label": "88.2.  184p",
+        "byte_offset": 635916,
+        "byte_length": 11
+      },
+      "reference": "8802184",
+      "numeric_context": {
+        "hash_hex": "0x0e6841c5",
+        "topic_offset": 2427045,
+        "mvb_entry_byte_offset": 232793440,
+        "byte_length": 8
+      },
+      "article_id": "cd1:article:8802184",
+      "toc_entry_ids": [
+        "maso-1988-02-toc-0027"
+      ],
+      "preparation_status": "prepared",
+      "index_status": "indexed"
+    }
+  ]
+}

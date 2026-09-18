@@ -31,6 +31,7 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Gary Kildall interview and three-article package](docs/CD1-INTERVIEW-8802030.md)
 - [Turbo C editor and four-article package](docs/CD1-EDITOR-8802184.md)
 - [Turbo Pascal graphics and five-article package](docs/CD1-GRAPHICS-8802180.md)
+- [Unindexed KEYBOARD LOCK article and six-article package](docs/CD1-KEYBOARD-8802162.md)
 - [February 1988 issue handoff and current coverage](docs/CD1-ISSUE-1988-02.md)
 - [CD1 source inventory and backup readiness](docs/CD1-PRESERVATION.md)
 - [February 1988 coverage audit](docs/CD1-COVERAGE-1988-02.md)
@@ -88,7 +89,12 @@ Run `make prepare-cd1-graphics` to reproduce `8802180` and the combined five-art
 package under `build/cd1-articles/8802180/`. It preserves Korean Pascal strings
 and mixed text/image figures, with explicit deferred-media and text-review records.
 
-Run `make prepare-cd1-issue` to reproduce the February issue handoff under
-`build/cd1-issues/1988-02/`. Its 48 runtime files preserve all five prepared articles;
-the current coverage record also accounts for four sections and 30 unmatched
-article candidates. See the [base URL and search handoff](docs/CD1-ISSUE-1988-02.md#static-base-url-and-metadata-search).
+Run `make prepare-cd1-issue` to reproduce the historical five-article indexed
+checkpoint under `build/cd1-issues/1988-02/`.
+
+Run `make prepare-cd1-keyboard` and `make close-cd1-february` for the current
+February handoff at `build/cd1-issues/1988-02-native/`. Its 56 runtime files contain
+all six articles identified by native February metadata, including the unindexed
+“KEYBOARD LOCK.” Coverage accounts for four sections and 29 unmatched article
+candidates; physical-magazine completeness remains unverified.
+See the [base URL and search handoff](docs/CD1-ISSUE-1988-02.md#static-base-url-and-metadata-search).

@@ -749,6 +749,41 @@ search remains metadata-only. Rebuild, relocated validation, and HTTP retrieval
 of every runtime file under two nested base URLs pass. No topic recovery, media
 conversion, or schema changes were needed for this handoff.
 
+## Completed scope: step 12d — February native coverage closeout
+
+The owner explicitly requested **February 1988**, so this task precedes the
+previously queued disc-wide inventory. Check native metadata for articles omitted
+from the indexes, prepare any February bodies found, and reconcile the issue.
+
+**Inputs:** the checked MVB/RTF, all three index imports, the current/historical
+TOC, and the five-article step 12c handoff. **Completion check:** every observed
+February native issue keyword and opening page label resolves to a prepared
+article; all 39 TOC rows remain accounted for and runtime content validates.
+
+Result: scanning all **3,099 native/RTF topics** found **six February bodies**.
+All 1,088 dated article titles agree between native headers and RTF footnotes;
+ten titled navigation topics and 2,001 untitled topics are accounted for. The
+independent opening date/page scan gives the same six February bodies, bounded
+by January topic 143 and March topic 164. Eleven context/header-offset differences
+in other issues are recorded for later review; no February association differs.
+This is a February coverage check, not completion of the disc-wide step 13a.
+
+Recovered the unindexed [KEYBOARD LOCK](docs/CD1-KEYBOARD-8802162.md), reference
+`8802162`, with exact native/introductory/TOC title, explicit issue/page 162, and
+numeric-context/body-alias agreement. Its 303 paragraphs retain two listings,
+three image-backed tables, a diagram, and five pixel-equivalent PNGs. No index
+occurrence was invented; the indexes still contain five February references.
+
+The [current handoff](docs/CD1-ISSUE-1988-02.md) at
+`build/cd1-issues/1988-02-native/` contains **six articles / 56 runtime files** under
+unchanged schema v1. All previous article, preview, asset, and review evidence
+survives. The earlier five-article checkpoint and historical reports remain
+reproducible. Current coverage is **six prepared, 29 unmatched article candidates,
+and four sections**. All observed native February bodies are prepared; mislabeled
+content elsewhere and printed-issue completeness remain unverified. Further
+February content needs scans or another source; print review, four deferred WMFs,
+and the existing text-decoding question remain recorded, non-blocking follow-up.
+
 ## Exact scope of the next task: step 13a — CD1 metadata inventory
 
 **Inputs:** the checked CD1 index/reference import, native context metadata,
@@ -763,15 +798,16 @@ completeness or that unindexed content is absent. Produce a metadata report and
 select one next issue with a concrete, bounded audit task for step 13b.
 
 **Check:** every imported reference/occurrence is accounted for exactly once in
-the inventory, source identities/hashes remain traceable, and the five prepared
-February references reconcile to the completed handoff. Retain ambiguous title
+the inventory, source identities/hashes remain traceable, and the six prepared
+February articles (five indexed, one unindexed) reconcile to the completed handoff. Retain ambiguous title
 and issue relationships explicitly; no global fuzzy matching or inferred
 navigation-only classification. Do not recover article bodies, convert/repair
 media, or change existing packages in this task.
 
 ## Next checkpoints: organize and expand CD1 content
 
-Steps 12b.1–3 and 12c are complete. Step 13a is next. Steps 7 and 11b remain independently
+Steps 12b.1–3, 12c, and 12d are complete. February source preparation is closed
+for the observed native content. Step 13a is the next separately scoped task. Steps 7 and 11b remain independently
 deferred; neither blocks content preparation from the verified local sources.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
@@ -790,6 +826,7 @@ single “continue” still means one bounded task.
 | 12b.2 — Done: Turbo C editor | Standalone and four-article packages preserving code tabs, diagrams, and shared media. | Topics 160/161 and all 1,206 paragraphs are accounted for; both code blocks project exactly, five bitmap conversions preserve pixels, and unchanged v1 packages validate. |
 | 12b.3 — Done: Turbo Pascal graphics | Reviewed title match, standalone and five-article packages, deferred vectors and text-review record. | Topics 157/158, Korean Pascal strings, mixed figure paragraphs, and all media positions are preserved under unchanged v1. |
 | 12c — Done: February issue handoff | Current coverage record and validated issue package/catalog metadata. | All 39 TOC entries and five indexed targets reconcile; 48 runtime files and all review evidence are preserved, with deterministic and relocated/base-URL checks passing. |
+| 12d — Done: February native closeout | Six-article handoff, including unindexed KEYBOARD LOCK, and complete native February metadata accounting. | All six observed bodies are prepared; 29 unmatched candidates and four sections remain explicit; earlier content and exceptions survive under unchanged v1. |
 | 13a — Next: CD1 metadata inventory | Disc-wide reference/issue accounting and one selected next issue task. | Every imported reference/occurrence has an explicit state; February preparation reconciles, ambiguities remain visible, and no new article recovery is performed. |
 | 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content covered by the newly supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
 

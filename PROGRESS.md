@@ -1105,3 +1105,49 @@
   task. The first issue preparation checkpoint is complete; remaining CD1 coverage
   is still ahead. Physical comparison and independent recovery verification remain
   separate deferred tasks; CD2/CD3 and reading-room UI remain separately planned.
+
+## 2026-09-18 — CD1 step 12d: February native coverage closed out
+
+- Followed the owner's explicit request to focus on February 1988 before the
+  previously queued step 13a. Reviewed every one of the **3,099 native/RTF topics**
+  for native titles and issue-keyword metadata. Accounted for 1,088 dated article
+  topics, ten titled navigation topics, and 2,001 untitled topics. Native and RTF
+  article titles agree. Issue keywords and an independent opening date/page scan
+  both identify **six February bodies**, bounded by January/March browse neighbors.
+- Discovered **KEYBOARD LOCK**, page 162, omitted from all three indexes. Matched
+  TOC `maso-1988-02-toc-0023` using exact title, explicit issue/page, native context
+  `0x0e68416d`, exported alias `1KN6JI`, and linked introduction `3M4LMA`. Retained
+  zero index occurrences. The five indexed references and 11 occurrences remain
+  distinct from the six native/prepared articles; prior reports are unchanged.
+- Added `make prepare-cd1-keyboard`: recovered topics 154/155 and all **53,683 source
+  bytes, 303 paragraphs, 315 runs, and 95 blocks**. Preserved 37-paragraph BASIC and
+  173-paragraph assembly listings without execution or correction, ten headings,
+  six caption relationships, three image-backed tables, and one diagram. Five
+  bitmap resources convert to PNG with identical decoded pixels. Table cells are
+  explicitly unreconstructed; code whitespace and image-adjacent spaces survive.
+- Added `make close-cd1-february` and the current private handoff at
+  `build/cd1-issues/1988-02-native/`: **56 runtime files / 1,484,924 bytes**, six
+  articles, twelve sections, 677 blocks, 2,821 paragraphs, 38 media records,
+  34 assets, 40 media occurrences, and twelve previews. The approved v1 schema is
+  unchanged. All earlier article/preview/asset bytes and media records survive;
+  all six article provenance documents and the complete metadata inventory remain
+  in private handoff evidence. The historical five-article handoff still reproduces.
+- Current coverage accounts for **six prepared articles, 29 unmatched article
+  candidates, and four section entries**. All observed native February bodies are
+  prepared. Absence of mislabeled content elsewhere and printed completeness are
+  not proven; scans or another source can address the remaining candidates.
+  Eleven other-issue context/header-offset differences discovered during the scan
+  are recorded for later review, without expanding into their extraction/repair.
+- Preserved all four deferred WMFs, the existing CP949/Johab string question,
+  missing cover/end pages, and pending physical comparison. Independent recovery
+  remains deferred and non-blocking. No publication or UI work was performed.
+- Validation: **167 tests passed**, including eleven new checks for native/index
+  population accounting, rejected issue-keyword drift, complete byte/run/mark
+  preservation, exact listings, table/caption structure, bitmap pixels, prior
+  content preservation, relocation, and failed-staging recovery. All 56 runtime
+  files were fetched and hash-checked under two nested HTTP base URLs. After
+  strengthening the unchanged-issue-metadata guard, all five closeout checks passed
+  again. Both normal build commands reproduced the reviewed records. Local
+  documentation links, readiness JSON, private-output exclusions, and whitespace
+  checks pass. Updated the plan, current handoff documentation, and owner task list;
+  step 13a remains a separate future task.

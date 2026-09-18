@@ -99,7 +99,10 @@ The first package, [second-article check](CD1-SECOND-ARTICLE-8802114.md), and lo
 source inventory are complete. Step 11b is deferred until independent storage or an optical drive
 is available for recovery verification. The [February coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC
 import are complete. The corrected 1991–1993 entries are imported with stable IDs.
-The [February issue handoff](CD1-ISSUE-1988-02.md) is complete, with all five indexed
-targets prepared. The next task, **13a**, inventories remaining CD1 metadata and
+The [February issue handoff](CD1-ISSUE-1988-02.md) now contains all six observed native
+February articles, including unindexed KEYBOARD LOCK (page 162). Its 29 remaining
+article candidates need scans or another source; the coverage report lists their
+TOC identities and pages. Physical review of the six prepared articles is still
+pending. The next task, **13a**, inventories remaining CD1 metadata and
 selects the next issue while backup/restore verification remains deferred.
 Physical reference collection and print comparison (step 7) remain independent.

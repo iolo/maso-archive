@@ -1,8 +1,9 @@
 # CD1 February 1988 coverage audit
 
 Step **12a is complete**. This document records the original two-article audit
-snapshot. The [step 12c issue handoff](CD1-ISSUE-1988-02.md) now supplies a separate
-current report with all five indexed targets prepared. The original [machine-readable report](../data/catalog/issue-coverage/cd1-1988-02.json)
+snapshot. The [step 12d issue handoff](CD1-ISSUE-1988-02.md) now supplies a separate
+current report with six native articles prepared, including one omitted from the
+indexes. The original [machine-readable report](../data/catalog/issue-coverage/cd1-1988-02.json)
 retains all **39 TOC entries**, in source order with persistent IDs and hierarchy,
 and **five indexed CD references / 11 index occurrences**. All five reference
 hashes resolve in the checksummed MVB context table. Two articles are prepared;
@@ -80,8 +81,8 @@ September 1993 heading. The 1991–1993 additions are now imported with all earl
 IDs preserved. Historical article and coverage provenance is unchanged; see
 [TOC snapshot handling](TOC-IMPORT.md#current-results-and-historical-snapshots).
 
-**12b.1–3 and 12c are complete.** The [issue handoff](CD1-ISSUE-1988-02.md)
-preserves all five prepared articles and reconciles their newer evidence with
+**12b.1–3, 12c, and 12d are complete.** The [issue handoff](CD1-ISSUE-1988-02.md)
+preserves all six prepared articles and reconciles their newer evidence with
 every February TOC entry. The next bounded task is **13a**, a metadata inventory
 of remaining CD1 coverage. Backup/restore, physical comparison, deferred media
 repair, CD2/CD3, and the UI retain their separate scopes.
