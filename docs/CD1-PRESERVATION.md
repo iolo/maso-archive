@@ -145,6 +145,7 @@ working image or corrupt backups, temporary-restore cleanup, and restored-tree
 mismatches. Restore mechanics use explicitly synthetic fixtures and do not count
 as a real backup test. The actual-source test verifies the complete local CD1 set.
 
-Step 11b is deferred until independent storage is available. The next bounded
-development task can be **12a: a read-only February 1988 TOC/CD coverage audit**.
+Step 11b is deferred until independent storage is available. The
+[February 1988 coverage audit](CD1-COVERAGE-1988-02.md) is complete. The next
+bounded metadata task is **12a.1: validate/import the expanded TOC**.
 Article batches and bulk recovery remain gated on verified preservation readiness.

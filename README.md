@@ -2,8 +2,9 @@
 
 월간 마이크로소프트웨어의 비공식 디지털 아카이브.
 
-Archive target: **November 1983–December 1995 (146 monthly issues)**. The supplied
-TOC currently covers 86 issues through December 1990. Official CD holdings support
+Archive target: **November 1983–December 1995 (146 monthly issues)**. The reviewed
+TOC import covers 86 issues through December 1990; newly supplied 1991–1993
+additions await validation/import. Official CD holdings support
 further extraction; per-disc coverage and completeness remain to be verified.
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
@@ -28,6 +29,7 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Pilot reading-room package](docs/CD1-PACKAGE-8802065.md)
 - [Second article and two-article schema check](docs/CD1-SECOND-ARTICLE-8802114.md)
 - [CD1 source inventory and backup readiness](docs/CD1-PRESERVATION.md)
+- [February 1988 coverage audit](docs/CD1-COVERAGE-1988-02.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate
@@ -57,3 +59,7 @@ the unchanged v1 contract; the command uses private CD1 sources and ImageMagick.
 Run `make inventory-cd1-sources` to check the original CD1 ISO, all extracted disc
 files, and preserved probe outputs. Requires `7z`. The local inventory is complete;
 independent backup/restore verification remains pending before bulk processing.
+
+Run `make audit-cd1-issue` for the read-only February 1988 TOC/CD coverage audit,
+or `PYTHONPATH=src python3 -m tools.audit_cd1_issue --check` to verify its tracked
+report without writing. It accounts for metadata and existing prepared packages.

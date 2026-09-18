@@ -747,3 +747,53 @@
   Split issue work into coverage first and later bounded article batches. Those
   batches and bulk processing remain gated on step 11b's real preservation
   evidence. Print comparison, media repair, CD2/CD3, and UI work remain separate.
+
+## 2026-09-18 — CD1 step 12a: February 1988 coverage audit complete
+
+- Added `make audit-cd1-issue` and a read-only `--check` mode. The tracked
+  metadata report retains all **39 TOC entries** in source order, with persistent
+  IDs, hierarchy, original source locators, and explicit relationship/preparation
+  status. It includes all **five indexed CD references / 11 occurrences**
+  attributed to February 1988 by the three indexes.
+- Reproduced the TOC entries from the reviewed source snapshot and identity
+  registry, and all CD index entries/groups from the checksummed CP949 originals.
+  All five target hashes resolve in the original MVB context table; their native
+  offsets are retained. Context resolution does not establish article boundaries,
+  printed page numbers, or complete printed-issue coverage.
+- Retained two existing matches (`8802065`, `8802114`), added two supported
+  metadata relationships (`8802030`, `8802184`), and recorded `8802180` as an
+  unresolved candidate: TOC `그래픽스 툴` versus CD `그래픽 툴`. The interview
+  comparison removes its specific series prefix; no general fuzzy-title rule or
+  page-suffix-only matching was introduced. New matches remain audit metadata.
+- The TOC has four section headings and 35 article candidates. Four candidates
+  are matched, one is unresolved, and **30 article candidates have no index
+  match**. The latter status does not assert that their bodies are absent from
+  the CD. Unindexed native targets and physical print completeness remain outside
+  this audit's established coverage.
+- Verified the existing combined package against its tracked hashes and v1
+  standalone validator: two prepared articles, four sections, 39 TOC entries,
+  and 30 runtime files. Three indexed targets remain unprepared. No new article
+  recovery, runtime package/schema changes, image repair, or publication occurred.
+  Local inventory evidence still verifies; independent backup/restore is pending.
+- The owner's working `TOC.md` now appends 1991–1993 entries. Its reviewed prefix,
+  including February 1988, is byte-identical. The audit verifies the historical
+  SHA-256 using the preserved Git blob and additionally compares the live issue
+  section; it does not overwrite/reimport the expanded TOC. Those user changes
+  remain unstaged and outside this commit.
+- Validation: all **nine new coverage tests pass** with the expanded working TOC;
+  repeated report checks reproduce identical metadata. Tests exercise duplicate
+  titles/references, missing index evidence, issue-label/reference conflicts,
+  named targets, unresolved variants, prepared identity mismatches, and source
+  order/snapshot checks. Documentation links and whitespace checks pass.
+- The working-tree full suite reports one failure and two errors caused by the
+  expanded TOC: changed second-article provenance, the pilot's old source hash,
+  and the original TOC importer range/validation. In a temporary copy using the
+  reviewed TOC snapshot, **all 113 tests pass**. The first temporary harness used
+  symlinked source directories, which the existing validators correctly rejected;
+  rerunning with real file copies passed. No user source was replaced to run tests.
+- Updated PLAN-CD1.md and offline guidance. Next is **12a.1: validate/import the
+  expanded TOC**, resolving duplicate `93.10` / missing `93.09` headings from
+  source evidence and preserving historical provenance when imports grow. The
+  first later article batch is **12b.1: `8802030` only**, explicitly gated on
+  step 11b's independent backup/restore evidence. Subsequent targets `8802184`
+  and `8802180`, print comparison, and remaining CD1 coverage stay separate.
