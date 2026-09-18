@@ -13,6 +13,7 @@
 - [Pilot paragraph decoding](docs/CD1-PARAGRAPH-8802065.md)
 - [Pilot RTF feature inventory](docs/CD1-RTF-INVENTORY-8802065.md)
 - [Pilot full-text recovery](docs/CD1-TEXT-8802065.md)
+- [Pilot structural review and Markdown plan](docs/CD1-BLOCK-STRUCTURE-8802065.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate

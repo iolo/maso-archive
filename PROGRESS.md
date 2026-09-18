@@ -332,3 +332,31 @@
   resources and viewable derivatives or explicit unsupported statuses**. Viewer
   comparison and article completeness remain pending; text in images is outside
   the recovered text layer. The first milestone is not complete.
+
+## 2026-09-18 — Structural-fidelity review and Markdown plan
+
+- Investigated the owner's concern that plain text flattens code, figures,
+  sections, and other blocks. Clarified that step 5b recovered the text layer and
+  formatting evidence, not a finished reading edition. Raw RTF and structured
+  paragraph/run output remain preserved and unchanged.
+- Found three bold 12-point, seven bold 10-point, and eighteen bold 9-point
+  heading candidates. Direct comparison also proved that prose, code, captions,
+  and image-marker paragraphs can have identical paragraph/run formatting.
+  Style alone therefore cannot identify all block types reliably.
+- Located code examples at body paragraphs 182–202 (`.PS`–`.PE`) and 212–217
+  (`.EQ`–`.EN`), preserving their source ranges and internal blank lines. Figure
+  captions can label code examples as well as rendered images; an automatic
+  caption-to-next-image rule would misrepresent this article.
+- Recommended Markdown as a derived reading/export format in response to the
+  owner's question. Keep preservation data and semantic decisions separately;
+  use heading hierarchy, fenced code, captions/images, and supported simple
+  tables, with explicit unresolved/complex-layout handling.
+- Added `docs/CD1-BLOCK-STRUCTURE-8802065.md` and revised PLAN.md: next is
+  **5c — block identification**, followed by **5d — private Markdown preview**,
+  then image mapping and viewer comparison. Structural decisions need evidence,
+  source references, and uncertainty; no speculative classifications were applied
+  to the recovered article in this review.
+- Validation: checked the actual private article hash, asserted identical styles
+  across representative prose/code/caption/object paragraphs, confirmed both
+  code-boundary pairs and heading candidate counts. This is a documentation/plan
+  change; recovery code and generated article content were not modified.

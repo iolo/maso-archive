@@ -66,10 +66,12 @@ populations; neither is a verified count of complete articles.
 | 4 — Done | One correctly decoded paragraph | The first body paragraph decodes strictly to 182 characters; byte provenance, font/encoding decisions, punctuation handling, and unsupported cases are recorded. |
 | 5a — Done | RTF feature inventory for the mapped topics | All 149,579 bytes in introduction 148 and body 149 are accounted for; fonts, metadata groups, 21 object markers, and five HELPDECO literal-brace guards are located. |
 | 5b — Done | Full text for that one article | Both mapped topics produce private ordered text and structured paragraphs/runs, with 21 object placeholders, all bytes accounted for, and the step 4 paragraph reproduced exactly. Image-contained text and viewer fidelity remain pending. |
-| 6 — Next | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
+| 5c — Next | Block identification for the pilot | Headings, prose, code/examples, captions, figures, and possible tables are represented as blocks with source references, evidence, and uncertainty. Every paragraph/run/object remains accounted for. |
+| 5d | Private Markdown reading preview | The block map generates readable Markdown preserving code whitespace, heading hierarchy, and caption relationships, with explicit unresolved-resource/layout markers. Preservation data remains separate. |
+| 6 | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
 | 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Steps 1–5b are complete. Steps 6–7 remain pending, even though the extraction probe
+Steps 1–5b are complete. Steps 5c–7 remain pending, even though the extraction probe
 already exposed some of their inputs. A decoded sample is not yet a verified article.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
@@ -247,7 +249,34 @@ and all 21 object placeholders stay in order. The step 4 sample matches exactly.
 See [full-text recovery notes](docs/CD1-TEXT-8802065.md). Text inside image resources
 is not transcribed, and viewer comparison/article completeness remain pending.
 
-## Exact scope of the next task: step 6
+## Exact scope of the next task: step 5c
+
+**Inputs:** the private structured recovery, source RTF formatting, text/context,
+object locations, and the [structural review](docs/CD1-BLOCK-STRUCTURE-8802065.md).
+Plain-text exports are convenience files, not the final reading representation.
+
+**Deliverable:** a separate block map referencing existing paragraphs/runs and
+source spans. Identify title/heading candidates, prose, code/examples, captions,
+figures, and possible tables, with evidence and review/uncertainty status. Keep
+unresolved content intact. Use formatting together with numbering, code syntax,
+caption labels, and context; style alone is demonstrably ambiguous in this pilot.
+
+**Check:** account for every paragraph/run/object once in source order; preserve
+code spaces and internal blank lines. Caption relationships may target code or
+images, and composite figures may contain multiple objects. Do not infer cells
+for a table without evidence. Keep the recovered paragraph/run data unchanged,
+and reserve viewer-dependent decisions for review.
+
+## Following task: step 5d — private Markdown preview
+
+Generate Markdown from the block map, preserving heading hierarchy, fenced code,
+inline emphasis, and figure/caption relationships. Keep unresolved resources as
+explicit placeholders until step 6. Emit tables only where cell structure is
+supported; otherwise retain an image/structured fallback and a review marker.
+Check that code content/spacing and object order survive export. Preserve RTF,
+paragraph/run JSON, and semantic decisions separately from this reading format.
+
+## Following task: step 6 — image map
 
 **Inputs:** the 21 ordered object references in the private text recovery,
 their RTF locations, extracted BMP/DIB/WMF resources, and the extraction manifest.
@@ -264,7 +293,9 @@ manifest, and inspect rendered results for obvious conversion failures. Preserve
 repeated/composite resources in their original order. Document unreadable assets
 and fidelity uncertainties rather than silently omitting them. Do not perform
 bulk extraction, OCR, publication, or access-verification implementation here.
-The original viewer remains the fidelity reference for step 7.
+The original viewer remains the fidelity reference for step 7. Its comparison
+must cover semantic blocks, code boundaries, heading hierarchy, and caption/
+figure/table relationships as well as text and images.
 
 ## Later checkpoints — detail them when reached
 
