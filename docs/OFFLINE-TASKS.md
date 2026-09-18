@@ -1,6 +1,6 @@
 # Offline tasks for the owner
 
-These tasks support the first milestone in [PLAN.md](../PLAN.md). Start with
+These tasks support the first milestone in [PLAN-CD1.md](../PLAN-CD1.md). Start with
 items 1–3; the rest are optional. The index importer can proceed independently.
 
 ## 1. Open the provisional article

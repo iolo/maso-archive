@@ -457,3 +457,31 @@
   patches. Git's whitespace check reports the supplied PRD's existing final blank
   line; retained it to preserve the owner's file and checked its other whitespace
   separately. Next implementation task remains **step 6**.
+
+## 2026-09-18 — Extend archive target and separate disc plans
+
+- Extended the archive target to **1983-11–1995-12: 146 monthly issues**, based
+  on the owner's official CD holdings. The existing TOC remains a source for
+  86 issues through 1990-12; the additional 60 months require source-supported
+  metadata, not invented TOC entries or presumed complete CD coverage.
+- Renamed `PLAN.md` to `PLAN-CD1.md` and updated active documentation links.
+  Added deferred `PLAN-CD2.md` and `PLAN-CD3.md`, each with its own source/format
+  inspection task and subsequent sample-first checkpoints. Their apparent 1994
+  and 1995 coverage and decoder compatibility still need verification. CD1's
+  active task remains **step 6 — image mapping and conversion**.
+- Updated README.md with the expanded scope and three plans. Marked the old
+  design reference's 86-issue scope as historical; retained historical progress
+  entries as written. Documented that the TOC importer's default expected range
+  describes the supplied file and therefore still ends at 1990-12.
+- Updated CD1 index importer 0.2.0 to classify target-period candidates through
+  1995-12 and record the target range in generated reports/manifests. All 1,038
+  numeric references are now in range; the historical 360 references for
+  1988–1990 remain independently checked. Original index occurrences, native
+  references, TOC identities, recovered article content, and the reading-room
+  PRD are unchanged.
+- Validation: all **56 tests** passed with `make check`, including a new test for
+  inclusive period boundaries, later years, invalid months, and named references.
+  Regenerated the private CD1 index and rechecked the pilot metadata match.
+  Verified documentation links, absence of stale active `PLAN.md` references,
+  source-period/target-period distinction, and staged whitespace/diff checks.
+  No CD2/CD3 extraction was started.

@@ -12,7 +12,8 @@ from jsonschema import Draft202012Validator
 
 from .toc import ImportFailure, atomic_write, json_bytes
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
+TARGET_PERIOD = {"start": "1983-11", "end": "1995-12"}
 INDEX_NAMES = ("column.lst", "language.lst", "panecmds.lst")
 SCHEMA_PATH = Path(__file__).resolve().parents[2] / "schemas/cd1-index.schema.json"
 REFERENCE = re.compile(r"([0-9]{2})([0-9]{2})([0-9]{3})([A-Za-z]*)\Z")
@@ -38,7 +39,7 @@ def reference_fields(reference):
     return {
         "reference_kind": "suffixed" if match[4] else "numeric",
         "issue_candidate": issue,
-        "in_target_period_candidate": "1983-11" <= issue <= "1990-12" if issue else None,
+        "in_target_period_candidate": TARGET_PERIOD["start"] <= issue <= TARGET_PERIOD["end"] if issue else None,
     }
 
 
@@ -202,12 +203,12 @@ def run_import(source_dir, manifest_path, output):
     observed = {"numeric_references": len(numeric),
                 "target_numeric_references": sum(g["in_target_period_candidate"] is True for g in numeric)}
     known_inputs = {source["name"]: source["sha256"] for source in sources} == BASELINE_HASHES
-    expected = {"numeric_references": 1038, "target_numeric_references": 360}
+    expected = {"numeric_references": 1038, "target_numeric_references": 1038}
     baseline_status = ("matched" if observed == expected else "different") if known_inputs else "not_applicable"
     if baseline_status == "different":
         diagnostics.append({"code": "baseline_count_difference", "source_name": None, "line": None})
     report = {
-        "schema_version": 1, "errors": [], "sources": sources,
+        "schema_version": 1, "target_period": dict(TARGET_PERIOD), "errors": [], "sources": sources,
         "counts": {
             "source_files": len(sources), "lines": sum(s["lines"] for s in sources),
             "blank_lines": sum(s["blank_lines"] for s in sources), "entries": len(entries),
@@ -230,6 +231,7 @@ def run_import(source_dir, manifest_path, output):
                "validation-report.json": json_bytes(report)}
     run_manifest = {
         "schema_version": 1, "importer_version": VERSION, "encoding": "cp949",
+        "target_period": dict(TARGET_PERIOD),
         "python_version": platform.python_version(),
         "jsonschema_version": importlib.metadata.version("jsonschema"),
         "extraction_manifest_sha256": sha256(manifest_raw),

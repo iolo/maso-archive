@@ -2,7 +2,13 @@
 
 월간 마이크로소프트웨어의 비공식 디지털 아카이브.
 
-- [CD1 extraction and reading-room content plan](PLAN.md)
+Archive target: **November 1983–December 1995 (146 monthly issues)**. The supplied
+TOC currently covers 86 issues through December 1990. Official CD holdings support
+further extraction; per-disc coverage and completeness remain to be verified.
+
+- [CD1 extraction and reading-room content plan](PLAN-CD1.md)
+- [CD2 extraction plan — deferred](PLAN-CD2.md)
+- [CD3 extraction plan — deferred](PLAN-CD3.md)
 - [Reading-room PRD](PRD-reading-room.md)
 - [Detailed design reference](docs/DESIGN-REFERENCE.md)
 - [Progress](PROGRESS.md)

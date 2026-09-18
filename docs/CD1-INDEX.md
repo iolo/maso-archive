@@ -1,6 +1,6 @@
 # CD1 reference-index importer
 
-This implements step 1 of [the plan](../PLAN.md). It structures the three
+This implements step 1 of [the plan](../PLAN-CD1.md). It structures the three
 extracted index files while preserving every occurrence and its provenance.
 It does not read RTF, article bodies, or images, and does not match the TOC.
 
@@ -110,8 +110,12 @@ rerun the command to rebuild the set.
 There are no blank or unparsed lines in these inputs. The grouped output contains
 **1,080 targets**: 1,038 seven-digit references, 41 letter-suffixed references, and
 one named navigation target. The seven-digit references include **360 candidates
-for 1988–1990**, matching the earlier observation. The other reference forms are
-reported separately, not discarded to make the counts agree.
+for 1988–1990**, matching the earlier observation. With the archive target extended
+to **1983-11–1995-12**, all **1,038** seven-digit references are now target-period
+candidates. Importer 0.2.0 records that target period in the report and manifest;
+the TOC import's source range remains 1983-11–1990-12. The other reference forms
+are reported separately, not discarded to make the counts agree. A target-period
+flag does not establish a TOC match or complete article recovery.
 
 The 12 notices are nine category references with trailing spaces and three
 occurrences of `9311000`. Their original bytes/values are retained. The baseline

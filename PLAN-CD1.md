@@ -14,12 +14,19 @@ coverage/review status. The first milestone remains **one complete article
 recovered from CD1, linked to its TOC record, and checked against the original
 Windows viewer**.
 
-The archive's initial selection remains **1983-11–1990-12: 86 issues**. CD1's
-observed index coverage is **1988–1993**. Prepare available CD1 content across
-that source coverage in later controlled batches; keep the initial archive
-selection separate from extraction coverage. Preserve 1991–1993 source identities
-without inventing entries in the existing TOC or silently expanding that selection.
-Missing 1983–1987 scans remain a separate future source task.
+The archive target is **1983-11–1995-12: 146 monthly issues**, extended because
+the owner holds the official CDs. The supplied TOC currently covers **86 issues
+through 1990-12**; that source coverage is distinct from the expanded target.
+CD1's observed index coverage is **1988–1993**, all within the new target. Prepare
+its available content in controlled batches, preserving 1991–1993 source identities
+without inventing entries in the supplied TOC. Additional issue/TOC metadata must
+come from inspected CD records or later supplied sources.
+
+CD2's apparent 1994 coverage and CD3's apparent 1995 coverage are handled separately
+in [PLAN-CD2.md](PLAN-CD2.md) and [PLAN-CD3.md](PLAN-CD3.md). Those are deferred
+source-specific queues, not additional tasks in this CD1 plan. Source coverage
+and article completeness still require verification. Missing 1983–1987 scans
+remain a separate future source task.
 
 Full-text extraction/preparation is required regardless of whether an article is
 ever published. Keep the recovered text and provenance private and reusable.
@@ -63,13 +70,14 @@ editorial relationships or synthetic assets.
 ## Already completed
 
 - [x] Inspect all three discs and record their ISO hashes and format findings.
-- [x] Establish the scope: 50 issues from 1983–1987 start with TOC metadata;
-  the owner will arrange scans later. The 36 issues from 1988–1990 are candidates
-  for CD1 enrichment.
+- [x] Establish initial source availability: 50 issues from 1983–1987 start with
+  TOC metadata; the owner will arrange scans later. The supplied TOC also covers
+  36 issues from 1988–1990 eligible for CD1 enrichment. The expanded archive target
+  adds 60 monthly issues for 1991–1995; their TOC metadata is not yet imported.
 - [x] Run the CD1 viewer in the owner's DOSBox-X environment.
 - [x] Prove direct CD1 extraction: raw RTF, image resources, and three indexes
   are preserved privately with a checksummed manifest. Fidelity is unverified.
-- [x] Import all 86 issues and 3,811 TOC entries with persistent identities,
+- [x] Import all 86 supplied TOC issues and 3,811 entries with persistent identities,
   article candidates, a local search-data preview, and validation tests.
 - [x] Structure all 3,032 CD1 index lines and preserve their 2,462 reference
   occurrences, grouped into 1,080 native targets; see [CD1 index](docs/CD1-INDEX.md).
@@ -144,7 +152,9 @@ provide a separate view grouped by reference without losing their categories.
 source line is accounted for; repeated references across indexes stay traceable;
 the same inputs give identical outputs. For the current files, check the earlier
 observations of **1,038 distinct seven-digit references**, including **360 in
-1988–1990**. A discrepancy must be explained rather than forced to match a count.
+1988–1990**. All 1,038 now fall within the expanded 1983-11–1995-12 target; retain
+the earlier-period count as source evidence. A discrepancy must be explained
+rather than forced to match a count.
 
 This step does not read the 74 MB RTF, convert images, match all articles, add
 summaries, or build a UI. Preserve the original index files and keep generated
@@ -382,7 +392,7 @@ single “continue” still means one bounded task.
 | 10 — Second-article check | Select a different structural case, repeat recovery, and export it through the same contract. | The new article preserves its source structure; unsupported cases are recorded and any schema change is explicit. Split new extraction problems into smaller tasks. |
 | 11 — CD1 preservation readiness | Complete a durable CD1 source inventory; record a backup location and verify a restore when storage is available. | Source files are accounted for and backup/restore evidence exists before bulk processing. Existing probe hashes are retained but do not substitute for a verified backup. |
 | 12 — One issue, in small tasks | First establish TOC/CD coverage; then recover a bounded article batch at a time; finally build the issue package and catalog/search records. | Every TOC entry and discovered CD article has an explicit match/availability/review status, with no guessed matches or silently omitted content. The static package validates end to end. |
-| 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including source content outside the initial archive selection. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
+| 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content beyond the supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
 
 ### Content contract requirements to carry into step 8
 
@@ -405,8 +415,9 @@ single “continue” still means one bounded task.
   Validate schema versions, ordering, identities, references, and output hashes.
 
 This plan ends with validated CD1 content packages and an honest coverage report.
-UI implementation follows the reading-room PRD; publication, access policy,
-CD2/CD3 extraction, and later scans each need their own scope when pursued.
+UI implementation follows the reading-room PRD; publication, access policy, and
+later scans need their own scope when pursued. CD2/CD3 extraction follows the
+separate disc plans linked above.
 
 ## Boundaries that remain in force
 

@@ -8,7 +8,7 @@ import sys
 import tempfile
 import unittest
 
-from maso_archive.cd1_index import INDEX_NAMES, parse_index, run_import
+from maso_archive.cd1_index import INDEX_NAMES, parse_index, reference_fields, run_import
 from maso_archive.toc import ImportFailure
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -47,6 +47,14 @@ class IndexTests(unittest.TestCase):
 
     def run_import(self):
         return run_import(self.source, self.manifest, self.output)
+
+    def test_expanded_target_boundaries_and_unknown_dates(self):
+        for reference, expected in [("8310001", False), ("8311001", True),
+                                    ("9101001", True), ("9304410a", True),
+                                    ("9401001", True), ("9512001", True),
+                                    ("9601001", False), ("9513001", None), ("mscdmenu", None)]:
+            with self.subTest(reference=reference):
+                self.assertIs(reference_fields(reference)["in_target_period_candidate"], expected)
 
     def test_preserves_occurrences_hierarchy_native_references_and_bytes(self):
         report = self.run_import()
@@ -140,6 +148,7 @@ class IndexTests(unittest.TestCase):
         self.run_import()
         self.assertEqual(before, {p.name: p.read_bytes() for p in self.output.iterdir()})
         manifest = json.loads((self.output / "manifest.json").read_text())
+        self.assertEqual(manifest["target_period"], {"start": "1983-11", "end": "1995-12"})
         for name, details in manifest["outputs"].items():
             raw = (self.output / name).read_bytes()
             self.assertEqual(details["sha256"], hashlib.sha256(raw).hexdigest())
@@ -166,10 +175,13 @@ class IndexTests(unittest.TestCase):
         report = run_import(PRIVATE / "raw", PRIVATE / "manifest.json", self.output)
         self.assertEqual(report["baseline_comparison"]["status"], "matched")
         self.assertEqual(report["counts"]["numeric_references"], 1038)
-        self.assertEqual(report["counts"]["target_numeric_references"], 360)
+        self.assertEqual(report["counts"]["target_numeric_references"], 1038)
+        self.assertEqual(report["target_period"], {"start": "1983-11", "end": "1995-12"})
         self.assertEqual(report["counts"]["entries"], 3032)
         entries = read_jsonl(self.output / "entries.jsonl")
         groups = read_jsonl(self.output / "references.jsonl")
+        self.assertEqual(sum(g["reference_kind"] == "numeric" and "1988-01" <= g["issue_candidate"] <= "1990-12"
+                             for g in groups), 360)
         self.assertEqual(Counter(i for g in groups for i in g["occurrence_ids"]),
                          Counter(e["id"] for e in entries if e["kind"] == "reference"))
         by_id = {entry["id"]: entry for entry in entries}

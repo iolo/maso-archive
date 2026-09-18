@@ -32,9 +32,13 @@ PYTHONPATH=src python3 -m maso_archive import-toc \
   --identities data/identities/toc.json
 ```
 
-The default expected period is November 1983–December 1990. For a separate test
-collection use `--start YYYY-MM --end YYYY-MM`, and separate output and identity
-paths. The importer interprets two-digit issue years as 1900–1999. Missing,
+The default expected **source** period is November 1983–December 1990, matching
+the supplied `TOC.md`. The archive target now ends in December 1995; this does not
+create TOC records for the additional 60 months. Import their metadata only when
+supported by additional source material and reviewed identity decisions.
+For a separate test collection use `--start YYYY-MM --end YYYY-MM`, and separate
+output and identity paths. The importer interprets two-digit issue years as
+1900–1999. Missing,
 duplicate, out-of-scope, empty, or out-of-order issues reject the import.
 Unsupported nonblank Markdown lines also reject it; source text is never silently
 dropped. Blank lines are preserved indirectly by source line locations/hash,
@@ -159,7 +163,7 @@ across insertions and corrections, explicit duplicate/deletion decisions, retire
 IDs, stale decisions, missing/corrupt registries, rejected input preservation,
 schema enforcement, deterministic output, and complete import of the real TOC.
 
-Next work follows the revised [step-by-step plan](../PLAN.md): the three CD1
+Next work follows the revised [step-by-step plan](../PLAN-CD1.md): the three CD1
 indexes are structured and one metadata match is recorded. The next task maps
 that reference to raw topics before the later RTF decoding pilot. Durable disc inventories remain a separate
 preservation task. This importer does not complete preservation or replace human

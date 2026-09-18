@@ -1,7 +1,12 @@
 # Design reference
 
+Historical scope below: 1983-11–1990-12. The current archive target is
+**1983-11–1995-12 (146 monthly issues)**, with separate [CD1](../PLAN-CD1.md),
+[CD2](../PLAN-CD2.md), and [CD3](../PLAN-CD3.md) extraction plans. Earlier issue
+counts and proposals below describe the original design, not current scope.
+
 This is the earlier detailed plan, retained as a technical reference on
-2026-09-18. [PLAN.md](../PLAN.md) now controls execution order, step boundaries,
+2026-09-18. [PLAN-CD1.md](../PLAN-CD1.md) now controls execution order, step boundaries,
 and current work. The milestone groupings and implementation sequence below
 describe the earlier proposal, not the active task queue. Future components
 such as SQLite, a review interface, OCR, and generated summaries are options to
@@ -89,7 +94,7 @@ Proposed layout (to be created during implementation):
 
 ```text
 TOC.md                         supplied transcription, retained as a source
-PLAN.md
+PLAN-CD1.md
 docs/                          extraction findings and operating instructions
 schemas/                       versioned record contracts
 src/maso_archive/               inventory, import, extract, reconcile, export
