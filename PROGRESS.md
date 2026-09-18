@@ -220,3 +220,40 @@
   step 4 investigation.
 - Next: **step 4 — decode one paragraph inside the mapped body**, preserving
   raw bytes and recording font/encoding decisions. The milestone is incomplete.
+
+## 2026-09-18 — Step 4 complete: one strictly decoded body paragraph
+
+- Selected the first prose paragraph under section I within body ordinal 149:
+  raw RTF bytes `[378665, 379785)`, including its formatting reset and ending
+  paragraph control. No introduction or neighboring article text is included.
+- Added `python3 -m tools.decode_cd1_paragraph`, with exact RTF/topic-map/sample
+  hash checks. It preserves the raw slice and writes tokenized CP949 bytes,
+  UTF-8 text, and provenance to ignored `build/cd1-paragraph/8802065/`.
+  Only the metadata record in `data/catalog/paragraph-samples/` is committed.
+- Result: 182 text characters (128 Hangul syllables, 54 ASCII), 310 CP949 bytes,
+  no replacement characters. Korean, English, parentheses, periods, question
+  mark, and original spacing are preserved. No spelling or Unicode normalization
+  is applied. The output adds one LF for the terminal paragraph control.
+- Font evidence: the sample's `plain` reset selects document default font 4,
+  Arial, at 9 points. There are no font changes inside the sample. The RTF header
+  lacks explicit code-page/font-charset declarations, so CP949 is a documented
+  source-specific interpretation rather than an inference from Arial. Strict
+  EUC-KR produces identical text for this paragraph.
+- The bounded decoder rejects unsupported controls/groups instead of dropping
+  them. It tokenizes byte escapes before decoding, preserves escaped literal
+  RTF syntax, and requires exact CP949 round-trip equality. Hidden destinations,
+  font switches, symbol glyphs, Unicode escapes, tables, and images remain outside
+  its supported subset. No full article conversion was attempted.
+- Validation: all 32 tests passed with `make check`, including five new tests
+  covering mixed Korean/ASCII and spacing, escaped syntax, malformed/incomplete
+  bytes, unsupported controls/groups, and the real private sample's provenance.
+  Independent `iconv -f CP949 -t UTF-8` output exactly matches the decoded text
+  before its terminal LF; all generated artifact hashes match the record. A
+  rerun reproduced all four artifacts byte-for-byte; local documentation links
+  and Git exclusion of the decoded output were checked.
+- Documented the result in `docs/CD1-PARAGRAPH-8802065.md`. Updated the plan to
+  split full-text recovery into **5a — control/font/structure inventory** and
+  **5b — ordered full-text recovery**, because this sample alone does not exercise
+  the remaining RTF features. Step 5a is the next bounded task.
+- Limitations: original viewer glyph/text comparison and article completeness
+  remain unverified. The first milestone is not complete.

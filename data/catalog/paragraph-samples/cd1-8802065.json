@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "cd_reference": "8802065",
+  "toc_entry_id": "maso-1988-02-toc-0035",
+  "scope": "one_body_paragraph",
+  "selection": "First prose paragraph under section I",
+  "source": {
+    "path": "private/cd1-probe/raw/MASOCD.rtf",
+    "sha256": "01465d52667ab798df0dcf7993b6de764f45fd55e09eec1f80f77291303d957b"
+  },
+  "topic_map": {
+    "path": "data/catalog/topic-maps/cd1-8802065.json",
+    "sha256": "20a88a591b59a862aea5c9a6e613773a1e04ac5eb7a19b32e7490df74a0b0ea2",
+    "body_ordinal": 149
+  },
+  "raw_span": {
+    "byte_offset": 378665,
+    "end_exclusive": 379785,
+    "byte_length": 1120,
+    "sha256": "322b6a9cb5da8354a1dd5858b38ee006bbd770a87ecbc73df9cbd2a1f0e2d9e2",
+    "includes_terminal_par": true
+  },
+  "font": {
+    "default_id": 4,
+    "name": "Arial",
+    "default_declaration_span": [
+      11,
+      17
+    ],
+    "font_entry_span": [
+      115,
+      134
+    ],
+    "reset_control": "plain",
+    "font_changes_in_sample": 0,
+    "font_size_half_points": 18,
+    "explicit_code_page_or_charset": null
+  },
+  "encoding": {
+    "codec": "cp949",
+    "errors": "strict",
+    "round_trip_equal": true,
+    "euc_kr_text_equal": true,
+    "decision": "Source-specific Korean byte interpretation, not inferred from Arial or the ansi keyword; viewer glyph comparison pending."
+  },
+  "text": {
+    "characters_excluding_terminal_lf": 182,
+    "cp949_bytes": 310,
+    "hangul_syllables": 128,
+    "ascii_characters": 54,
+    "replacement_characters": 0,
+    "punctuation": [
+      "(",
+      ")",
+      ".",
+      "?"
+    ],
+    "normalization": "None; control delimiters and physical CR/LF removed, terminal par represented by one LF."
+  },
+  "outputs": {
+    "paragraph.raw.rtf": {
+      "bytes": 1120,
+      "sha256": "322b6a9cb5da8354a1dd5858b38ee006bbd770a87ecbc73df9cbd2a1f0e2d9e2"
+    },
+    "paragraph.cp949": {
+      "bytes": 310,
+      "sha256": "6a183f4f520d1543050fdcae72e2837bb4f87249640cb3d5675f60d69038856e"
+    },
+    "paragraph.txt": {
+      "bytes": 439,
+      "sha256": "65183a3e12d3d3b7973b722ed455a8fecdb4b53256e155d1cb3b378796ac81a1"
+    }
+  },
+  "unsupported": [
+    "Nested groups, hidden text, footnotes, fields and destinations",
+    "Font changes and symbol-font glyph mapping",
+    "Unicode escapes, special-character control words/symbols other than escaped braces/backslash",
+    "Tables, images, embedded objects, tabs and explicit line-break controls",
+    "Other paragraph prologues and unescaped non-ASCII input"
+  ],
+  "verification": {
+    "strict_decode_passed": true,
+    "viewer_compared": false,
+    "article_completeness_verified": false
+  }
+}

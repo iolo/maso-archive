@@ -57,12 +57,13 @@ populations; neither is a verified count of complete articles.
 | 1 — Done | CD1 reference index | All three extracted `.lst` files are represented as structured records, retaining every occurrence, category path, title, source line, and original reference; counts and parse exceptions are reported. |
 | 2 — Done | One explicit CD-to-TOC match | `8802065` is linked to `maso-1988-02-toc-0035` with both CD occurrences, title/issue evidence, and an explicitly conditional page comparison. |
 | 3 — Done | Raw topic map for that article | Native context/hash evidence resolves `8802065` to body topic 149 and its linked introduction 148; byte locations and following boundaries are recorded, with completeness pending viewer review. |
-| 4 — Next | One correctly decoded paragraph | Korean/English text and special-character handling are demonstrated on a small sample with no silent replacement characters; unsupported cases are listed. |
-| 5 | Full text for that one article | All identified article topics produce ordered text with provenance; headings, code, and tables are preserved or explicitly marked unsupported. No neighboring article is silently merged. |
+| 4 — Done | One correctly decoded paragraph | The first body paragraph decodes strictly to 182 characters; byte provenance, font/encoding decisions, punctuation handling, and unsupported cases are recorded. |
+| 5a — Next | RTF feature inventory for the mapped topics | Controls, font usage, groups/destinations, and structural features in introduction 148 and body 149 are accounted for, with unsupported cases located before full-text conversion. |
+| 5b | Full text for that one article | All identified article topics produce ordered text with provenance; headings, code, and tables are preserved or explicitly marked unsupported. No neighboring article is silently merged. |
 | 6 | That article's image map | Referenced images are traced to extracted files and linked to the right text location. Each is renderable or listed as unsupported; absence of images is a valid documented result. |
 | 7 | Viewer comparison record | Title, printed page, article boundaries, text, and available illustrations are compared with `MVIEWER2.EXE`; discrepancies are resolved or documented, and the sample is marked verified only if it passes. |
 
-Steps 1–3 are complete. Steps 4–7 remain pending, even though the extraction probe
+Steps 1–4 are complete. Steps 5a–7 remain pending, even though the extraction probe
 already exposed some of their inputs. A decoded sample is not yet a verified article.
 The milestone is complete only after step 7 passes; unsupported content that
 prevents faithful recovery remains a blocker for that sample, not a hidden omission.
@@ -161,7 +162,7 @@ The CD body labels itself `88.2.  65p`; no general page-mapping rule is inferred
 Recheck with `python3 tools/map_cd1_topic.py`. See the
 [evidence and remaining limits](docs/CD1-TOPIC-8802065.md).
 
-## Exact scope of the next task: step 4
+## Step 4 completed: one decoded paragraph
 
 **Inputs:** the pinned raw RTF, its font/header definitions, and step 3's body
 range for ordinal 149. Keep source reads and any decoded sample private.
@@ -176,6 +177,31 @@ controls are distinguished, and the sample stays within the mapped body. Preserv
 the original bytes. A successful decode is still pending viewer comparison in
 step 7; do not mark the article complete. Keep image conversion and full-text
 normalization outside this step, and log/commit the result before proceeding.
+
+Result: `python3 -m tools.decode_cd1_paragraph` produces one private paragraph
+and its raw-byte/provenance artifacts in `build/cd1-paragraph/8802065/`. The
+sample is 182 characters and matches independent `iconv` CP949 decoding. The
+RTF resets to default Arial without an explicit code page; CP949 is recorded as
+a source-specific choice. See [the sample notes](docs/CD1-PARAGRAPH-8802065.md).
+Viewer comparison remains pending. The limited sample does not exercise groups,
+font changes, tables, or symbol glyphs, so full-text recovery is split below.
+
+## Exact scope of the next task: step 5a
+
+**Inputs:** the pinned RTF header and step 3's separate introduction/body spans
+(ordinals 148–149), plus step 4's supported/unsupported feature list.
+
+**Deliverable:** a reproducible local inventory of RTF controls, referenced fonts,
+group/destination types, and structural features within those two topics. Record
+counts and byte locations for features needing support or review. Keep title,
+footnote/navigation metadata, text, and object markers distinguishable.
+
+**Check:** the tokenizer accounts for every byte inside each mapped span,
+distinguishes escaped text from syntax, and reports unknown constructs without
+discarding them. Record font/encoding uncertainty explicitly. This is inspection
+only: do not decode full article text or convert images yet. Use the inventory
+to specify the bounded step 5b implementation; split again if a substantial
+unknown requires its own task.
 
 ## Later checkpoints — detail them when reached
 
