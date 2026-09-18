@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "cd_reference": "8802065",
+  "scope": "rtf_feature_inventory",
+  "source": {
+    "path": "private/cd1-probe/raw/MASOCD.rtf",
+    "sha256": "01465d52667ab798df0dcf7993b6de764f45fd55e09eec1f80f77291303d957b"
+  },
+  "topic_map": {
+    "path": "data/catalog/topic-maps/cd1-8802065.json",
+    "sha256": "20a88a591b59a862aea5c9a6e613773a1e04ac5eb7a19b32e7490df74a0b0ea2"
+  },
+  "font_definitions": [
+    {
+      "font_id": 4,
+      "name": "Arial",
+      "byte_offset": 115,
+      "byte_length": 19
+    },
+    {
+      "font_id": 5,
+      "name": "굴림체",
+      "byte_offset": 134,
+      "byte_length": 20
+    },
+    {
+      "font_id": 6,
+      "name": "Times",
+      "byte_offset": 154,
+      "byte_length": 19
+    }
+  ],
+  "explicit_encoding_declarations": [],
+  "topics": [
+    {
+      "ordinal": 148,
+      "role": "linked_introduction",
+      "byte_offset": 376628,
+      "byte_length": 1310,
+      "sha256": "d6932f2c7162d57f7f735a9aef60a2374e996d68e4d33c3dbff3f28d15a0503d",
+      "accounted_bytes": 1310,
+      "token_counts": {
+        "control_word": 27,
+        "group_close": 3,
+        "group_open": 3,
+        "hex_byte": 274,
+        "physical_newline": 5,
+        "text_bytes": 44
+      },
+      "initial_font_id": null,
+      "final_font_id": 4,
+      "issues": [],
+      "controls": {
+        "b": {
+          "count": 1,
+          "first_byte_offset": 376725,
+          "parameters": [
+            null
+          ]
+        },
+        "f": {
+          "count": 3,
+          "first_byte_offset": 376707,
+          "parameters": [
+            4,
+            5,
+            6
+          ]
+        },
+        "footnote": {
+          "count": 1,
+          "first_byte_offset": 376636,
+          "parameters": [
+            null
+          ]
+        },
+        "fs": {
+          "count": 3,
+          "first_byte_offset": 376710,
+          "parameters": [
+            16,
+            18
+          ]
+        },
+        "li": {
+          "count": 2,
+          "first_byte_offset": 376688,
+          "parameters": [
+            215,
+            395
+          ]
+        },
+        "par": {
+          "count": 4,
+          "first_byte_offset": 376717,
+          "parameters": [
+            null
+          ]
+        },
+        "pard": {
+          "count": 3,
+          "first_byte_offset": 376645,
+          "parameters": [
+            null
+          ]
+        },
+        "plain": {
+          "count": 3,
+          "first_byte_offset": 376650,
+          "parameters": [
+            null
+          ]
+        },
+        "ri": {
+          "count": 2,
+          "first_byte_offset": 376694,
+          "parameters": [
+            395
+          ]
+        },
+        "sa": {
+          "count": 1,
+          "first_byte_offset": 376677,
+          "parameters": [
+            95
+          ]
+        },
+        "sl": {
+          "count": 2,
+          "first_byte_offset": 376682,
+          "parameters": [
+            285
+          ]
+        },
+        "up": {
+          "count": 2,
+          "first_byte_offset": 376629,
+          "parameters": [
+            null
+          ]
+        }
+      },
+      "group_roles": {
+        "metadata_footnote": 1,
+        "metadata_marker": 2
+      },
+      "metadata_markers": {
+        "#": 1
+      },
+      "visible_fonts": {
+        "4": {
+          "token_count": 298,
+          "first_byte_offset": 376802
+        },
+        "5": {
+          "token_count": 17,
+          "first_byte_offset": 376733
+        }
+      },
+      "objects": [],
+      "literal_brace_guards": []
+    },
+    {
+      "ordinal": 149,
+      "role": "reference_target_body",
+      "byte_offset": 377944,
+      "byte_length": 148269,
+      "sha256": "7ad6397062553dee1afd273df000649be26d9723d2e66050480c1b056780038d",
+      "accounted_bytes": 148269,
+      "token_counts": {
+        "control_symbol": 52,
+        "control_word": 944,
+        "group_close": 16,
+        "group_open": 16,
+        "hex_byte": 32914,
+        "physical_newline": 324,
+        "text_bytes": 5729
+      },
+      "initial_font_id": 4,
+      "final_font_id": 4,
+      "issues": [],
+      "controls": {
+        "b": {
+          "count": 28,
+          "first_byte_offset": 378375,
+          "parameters": [
+            null
+          ]
+        },
+        "f": {
+          "count": 39,
+          "first_byte_offset": 378372,
+          "parameters": [
+            4,
+            5
+          ]
+        },
+        "footnote": {
+          "count": 5,
+          "first_byte_offset": 377952,
+          "parameters": [
+            null
+          ]
+        },
+        "fs": {
+          "count": 39,
+          "first_byte_offset": 378380,
+          "parameters": [
+            16,
+            18,
+            20,
+            24,
+            36
+          ]
+        },
+        "keepn": {
+          "count": 2,
+          "first_byte_offset": 378151,
+          "parameters": [
+            null
+          ]
+        },
+        "li": {
+          "count": 108,
+          "first_byte_offset": 378171,
+          "parameters": [
+            215,
+            395
+          ]
+        },
+        "par": {
+          "count": 319,
+          "first_byte_offset": 378328,
+          "parameters": [
+            null
+          ]
+        },
+        "pard": {
+          "count": 113,
+          "first_byte_offset": 377961,
+          "parameters": [
+            null
+          ]
+        },
+        "plain": {
+          "count": 33,
+          "first_byte_offset": 377966,
+          "parameters": [
+            null
+          ]
+        },
+        "qr": {
+          "count": 1,
+          "first_byte_offset": 378157,
+          "parameters": [
+            null
+          ]
+        },
+        "ri": {
+          "count": 108,
+          "first_byte_offset": 378177,
+          "parameters": [
+            395,
+            565
+          ]
+        },
+        "sa": {
+          "count": 27,
+          "first_byte_offset": 378344,
+          "parameters": [
+            95
+          ]
+        },
+        "sb": {
+          "count": 1,
+          "first_byte_offset": 378160,
+          "parameters": [
+            35
+          ]
+        },
+        "sl": {
+          "count": 108,
+          "first_byte_offset": 378165,
+          "parameters": [
+            285
+          ]
+        },
+        "ul": {
+          "count": 2,
+          "first_byte_offset": 378368,
+          "parameters": [
+            null
+          ]
+        },
+        "up": {
+          "count": 10,
+          "first_byte_offset": 377945,
+          "parameters": [
+            null
+          ]
+        },
+        "v": {
+          "count": 1,
+          "first_byte_offset": 378403,
+          "parameters": [
+            null
+          ]
+        }
+      },
+      "group_roles": {
+        "hidden_context_link": 1,
+        "metadata_footnote": 5,
+        "metadata_marker": 10
+      },
+      "metadata_markers": {
+        "#": 1,
+        "$": 1,
+        "+": 1,
+        "K": 2
+      },
+      "visible_fonts": {
+        "4": {
+          "token_count": 38071,
+          "first_byte_offset": 378317
+        },
+        "5": {
+          "token_count": 513,
+          "first_byte_offset": 378430
+        }
+      },
+      "objects": [
+        {
+          "byte_offset": 378386,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm43.bmp"
+        },
+        {
+          "byte_offset": 387134,
+          "byte_length": 42,
+          "command": "ewl",
+          "resource": "p8020671.dib"
+        },
+        {
+          "byte_offset": 395170,
+          "byte_length": 42,
+          "command": "ewl",
+          "resource": "p8020672.dib"
+        },
+        {
+          "byte_offset": 450594,
+          "byte_length": 42,
+          "command": "ewl",
+          "resource": "p8020853.dib"
+        },
+        {
+          "byte_offset": 455566,
+          "byte_length": 42,
+          "command": "ewl",
+          "resource": "p8020865.dib"
+        },
+        {
+          "byte_offset": 458426,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm44.wmf"
+        },
+        {
+          "byte_offset": 458462,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm45.wmf"
+        },
+        {
+          "byte_offset": 458502,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm46.wmf"
+        },
+        {
+          "byte_offset": 458518,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm47.wmf"
+        },
+        {
+          "byte_offset": 458595,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm48.wmf"
+        },
+        {
+          "byte_offset": 458611,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm49.wmf"
+        },
+        {
+          "byte_offset": 458664,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm50.wmf"
+        },
+        {
+          "byte_offset": 458680,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm51.wmf"
+        },
+        {
+          "byte_offset": 458730,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm52.wmf"
+        },
+        {
+          "byte_offset": 458746,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm53.wmf"
+        },
+        {
+          "byte_offset": 458815,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm54.wmf"
+        },
+        {
+          "byte_offset": 458943,
+          "byte_length": 41,
+          "command": "ewl",
+          "resource": "82087_7.dib"
+        },
+        {
+          "byte_offset": 461845,
+          "byte_length": 42,
+          "command": "ewl",
+          "resource": "p8020899.dib"
+        },
+        {
+          "byte_offset": 469108,
+          "byte_length": 16,
+          "command": "bmc",
+          "resource": "bm55.wmf"
+        },
+        {
+          "byte_offset": 477819,
+          "byte_length": 42,
+          "command": "ewl",
+          "resource": "p802090_.dib"
+        },
+        {
+          "byte_offset": 498353,
+          "byte_length": 42,
+          "command": "ewl",
+          "resource": "88020911.dib"
+        }
+      ],
+      "literal_brace_guards": [
+        {
+          "byte_offset": 461973,
+          "byte_length": 2,
+          "role": "helpdeco_literal_brace_guard"
+        },
+        {
+          "byte_offset": 461988,
+          "byte_length": 2,
+          "role": "helpdeco_literal_brace_guard"
+        },
+        {
+          "byte_offset": 462007,
+          "byte_length": 2,
+          "role": "helpdeco_literal_brace_guard"
+        },
+        {
+          "byte_offset": 462044,
+          "byte_length": 2,
+          "role": "helpdeco_literal_brace_guard"
+        },
+        {
+          "byte_offset": 462088,
+          "byte_length": 2,
+          "role": "helpdeco_literal_brace_guard"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Lexical coverage is not decoded text or verified completeness.",
+    "CP949 remains a source-specific decoding choice; symbol/glyph fidelity awaits viewer review.",
+    "Object markers are located only; resources are not converted or checked here.",
+    "No table controls were observed; tables or code may still be represented by images or formatted text."
+  ],
+  "verification": {
+    "full_text_decoded": false,
+    "viewer_compared": false
+  }
+}

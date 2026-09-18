@@ -257,3 +257,42 @@
   the remaining RTF features. Step 5a is the next bounded task.
 - Limitations: original viewer glyph/text comparison and article completeness
   remain unverified. The first milestone is not complete.
+
+## 2026-09-18 — Step 5a complete: RTF feature inventory
+
+- Recorded the owner's clarification: full-text extraction/preparation is
+  required independently of publication. Possible future access for paper/CD
+  owners remains a separate product decision; eligibility and verification are
+  unresolved and do not block private recovery. Added that boundary to PLAN.md.
+- Added `python3 -m tools.inventory_cd1_rtf`, a byte-preserving lexical inventory
+  for introduction 148 and body 149. All 149,579 source bytes are accounted for.
+  Detailed token/control/group/font locations stay under ignored
+  `build/cd1-rtf-inventory/8802065/`; a compact metadata record is tracked in
+  `data/catalog/rtf-inventories/cd1-8802065.json`. No full body text was decoded.
+- Classified six metadata footnotes, twelve marker groups, one hidden context
+  link, and 21 embedded-object markers. The introduction/body contain 4/319
+  paragraph controls, including empty paragraphs. No explicit table, tab, or
+  Unicode controls were observed; table/code semantics cannot be inferred from
+  that absence, particularly where content is represented by image resources.
+- Traced visible text to Arial and 굴림체, with Times selected only for an empty
+  introductory paragraph. Group-scoped font resets/restoration and inter-topic
+  inheritance are represented. Explicit code-page/font-charset declarations
+  remain absent; strict full-text decoding and viewer glyph checks are pending.
+- Initial inventory reported five unsupported `\-` symbols in example text.
+  Pinned HELPDECO source confirms that its emitter inserts this sequence after
+  literal opening braces to prevent sample code from becoming help commands.
+  Recorded all five byte positions as literal-brace guards; no unclassified
+  constructs remain. Full-text recovery must remove these guards explicitly
+  with provenance instead of inserting hyphens or deleting example braces.
+- Validation: all 37 tests passed with `make check`, including five new tests
+  for byte coverage/binary payloads, scoped font restoration/metadata, object
+  versus literal-brace handling, unknown/malformed syntax, and the private-source
+  inventory. Reruns reproduced both outputs byte-for-byte; independently joining
+  all token spans reproduced both source-slice hashes. Documentation links and
+  Git exclusion of the detailed inventory passed. No image conversion, bulk
+  extraction, access control, or UI changes
+  were performed. The owner's pre-existing untracked `PRD-reading-room.md` was
+  read for context and left unchanged and outside this commit.
+- Next: **step 5b — recover the complete available text of the two mapped topics
+  privately**, preserving structure/provenance and all 21 object placeholders.
+  Full-text fidelity and article completeness still require subsequent review.
