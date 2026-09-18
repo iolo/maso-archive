@@ -579,3 +579,40 @@
 - Validation: checked documentation links, the revised active/deferred step
   sequence, and the staged diff. This changes planning and offline guidance only;
   no code, extraction output, or media changed, so no test rerun was needed.
+
+## 2026-09-18 — CD1 step 8 complete: reading-room content contract v1
+
+- Added a versioned JSON Schema and documented static catalog, issue, article,
+  media, and package-manifest documents. Stable identities reuse native CD
+  references and existing TOC/block/occurrence IDs. Explicit manifest lookups and
+  package-relative paths support a configurable base URL without local paths.
+- Defined ordered sections, blocks, paragraphs, and text/media runs, preserving
+  bold/underline, code indentation, empty paragraphs, trailing spaces, inline
+  images, heading hierarchy, and caption relationships. Image-backed tables and
+  unresolved blocks remain explicit; Markdown is a derived preview rather than
+  the required runtime representation of mixed code/media content.
+- Added a synthetic public fixture and a deterministic private pilot exporter,
+  invoked with `make reading-room-example`. The pilot contains all 39 February
+  1988 TOC entries, with one established match and 38 unmatched entries, plus
+  two sections, 271 blocks, 323 paragraphs, 289 runs, 21 media occurrences, and
+  13 caption relationships. Unknown cover/end page and original TOC order remain.
+- The 19 accepted media derivatives have checked hashes and planned package
+  paths. Deferred `bm54.wmf` and `bm55.wmf` retain occurrence/caption links and
+  problem IDs, with null display assets. Suspect derivatives are not exposed as
+  article images. No repair, asset copying, or full package build occurred here.
+- Separated source extraction checks from pending physical-magazine verification.
+  Runtime data contains source identities and statuses; a private provenance
+  sidecar holds input/schema hashes, source spans, metadata evidence, and local
+  asset bindings. Publisher text and all generated outputs stay ignored/private;
+  only the schema, code, synthetic example, and metadata summary are tracked.
+- Validation: all **77 tests passed**, including 14 contract tests for exact
+  source-run/text/format preservation, repeatable output, independent document
+  schemas, many-to-many TOC links, mixed media, unavailable placeholders,
+  manifest inventory/preview ownership, unsafe paths, duplicate/dangling
+  identities, stale catalog projections, and independent print-review metadata.
+  Two command-line rebuilds reproduced the recorded output hashes; documentation
+  links, generated-output exclusions, and staged whitespace checks passed.
+- Updated PLAN-CD1.md: **step 9 — one-article content package** is next, with
+  explicit file/hash/reference and deterministic-rebuild checks. The first
+  preparation milestone remains pending until that package passes. Deferred
+  physical-magazine comparison, UI work, and CD2/CD3 extraction remain separate.

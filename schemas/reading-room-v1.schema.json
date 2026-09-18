@@ -1,0 +1,1174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MASO reading-room content contract v1",
+  "$ref": "#/$defs/bundle",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*(?![\\s\\S])"
+    },
+    "issue_id": {
+      "type": "string",
+      "pattern": "^maso-19[0-9]{2}-(0[1-9]|1[0-2])(?![\\s\\S])"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}(?![\\s\\S])"
+    },
+    "page": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "uniqueItems": true
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "disc_id",
+        "reference"
+      ],
+      "properties": {
+        "disc_id": {
+          "enum": [
+            "cd1",
+            "cd2",
+            "cd3"
+          ]
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "print_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "report_id",
+        "pages_compared"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "partial",
+            "matched",
+            "differences"
+          ]
+        },
+        "report_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pages_compared": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/page"
+          },
+          "uniqueItems": true
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "pending"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "report_id": {
+                "type": "null"
+              },
+              "pages_compared": {
+                "maxItems": 0
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "report_id": {
+                "$ref": "#/$defs/id"
+              },
+              "pages_compared": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "pages": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/page"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/page"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "mime_type",
+        "bytes",
+        "sha256",
+        "dimensions"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^media/[A-Za-z0-9][A-Za-z0-9._-]*(/[A-Za-z0-9][A-Za-z0-9._-]*)*(?![\\s\\S])"
+        },
+        "mime_type": {
+          "enum": [
+            "image/png",
+            "image/svg+xml",
+            "image/jpeg",
+            "image/webp"
+          ]
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "width",
+            "height",
+            "unit"
+          ],
+          "properties": {
+            "width": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "height": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "unit": {
+              "enum": [
+                "px",
+                "mm",
+                "cm",
+                "in",
+                "pt"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "source",
+        "status",
+        "asset",
+        "reason",
+        "problem_ids",
+        "rendering_notes"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "disc_id",
+            "resource"
+          ],
+          "properties": {
+            "disc_id": {
+              "enum": [
+                "cd1",
+                "cd2",
+                "cd3"
+              ]
+            },
+            "resource": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "status": {
+          "enum": [
+            "available",
+            "deferred",
+            "missing",
+            "unsupported"
+          ]
+        },
+        "asset": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/asset"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "problem_ids": {
+          "$ref": "#/$defs/ids"
+        },
+        "rendering_notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "available"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "asset": {
+                "$ref": "#/$defs/asset"
+              },
+              "reason": {
+                "type": "null"
+              },
+              "problem_ids": {
+                "maxItems": 0
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "asset": {
+                "type": "null"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "marks": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "bold",
+          "underline"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "inline": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "text",
+            "marks"
+          ],
+          "properties": {
+            "type": {
+              "const": "text"
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "marks": {
+              "$ref": "#/$defs/marks"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "media_id",
+            "occurrence_id",
+            "marks"
+          ],
+          "properties": {
+            "type": {
+              "const": "media"
+            },
+            "media_id": {
+              "$ref": "#/$defs/id"
+            },
+            "occurrence_id": {
+              "$ref": "#/$defs/id"
+            },
+            "marks": {
+              "$ref": "#/$defs/marks"
+            }
+          }
+        }
+      ]
+    },
+    "paragraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "runs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "runs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/inline"
+          }
+        }
+      }
+    },
+    "block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "layout",
+        "heading_level",
+        "parent_heading_id",
+        "interpretation",
+        "paragraphs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "enum": [
+            "title",
+            "heading",
+            "paragraph",
+            "code",
+            "caption",
+            "figure",
+            "table",
+            "spacing",
+            "unresolved",
+            "issue_label",
+            "byline"
+          ]
+        },
+        "layout": {
+          "enum": [
+            "flow",
+            "preformatted",
+            "spacing"
+          ]
+        },
+        "heading_level": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 3
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parent_heading_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "interpretation": {
+          "enum": [
+            "source_supported",
+            "unresolved"
+          ]
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/paragraph"
+          },
+          "minItems": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "heading"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "heading_level": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 3
+              },
+              "layout": {
+                "const": "flow"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "heading_level": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "code"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "layout": {
+                "const": "preformatted"
+              }
+            }
+          },
+          "else": {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "spacing"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "layout": {
+                  "const": "spacing"
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "layout": {
+                  "const": "flow"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "role",
+        "blocks"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "role": {
+          "enum": [
+            "introduction",
+            "body",
+            "continuation",
+            "unknown"
+          ]
+        },
+        "blocks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/block"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "from_block",
+        "to_block"
+      ],
+      "properties": {
+        "type": {
+          "const": "caption_for"
+        },
+        "from_block": {
+          "$ref": "#/$defs/id"
+        },
+        "to_block": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "toc_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "parent_id",
+        "kind",
+        "title",
+        "byline",
+        "pages",
+        "article_ids",
+        "link_status"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "enum": [
+            "section",
+            "article",
+            "subtopic",
+            "unknown"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "byline": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pages": {
+          "$ref": "#/$defs/pages"
+        },
+        "article_ids": {
+          "$ref": "#/$defs/ids"
+        },
+        "link_status": {
+          "enum": [
+            "matched",
+            "unmatched"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "link_status": {
+                "const": "matched"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "article_ids": {
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "article_ids": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      ]
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "kind",
+        "id",
+        "year",
+        "month",
+        "label",
+        "toc_status",
+        "cover_media_id",
+        "toc"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "kind": {
+          "const": "issue"
+        },
+        "id": {
+          "$ref": "#/$defs/issue_id"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 1999
+        },
+        "month": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "toc_status": {
+          "enum": [
+            "available",
+            "partial",
+            "missing"
+          ]
+        },
+        "cover_media_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "toc": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/toc_entry"
+          }
+        }
+      }
+    },
+    "article": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "kind",
+        "id",
+        "issue_id",
+        "title",
+        "byline",
+        "pages",
+        "source",
+        "toc_entry_ids",
+        "extraction_status",
+        "print_verification",
+        "sections",
+        "relationships",
+        "content_status"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "kind": {
+          "const": "article"
+        },
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "issue_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/issue_id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "byline": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pages": {
+          "$ref": "#/$defs/pages"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "toc_entry_ids": {
+          "$ref": "#/$defs/ids"
+        },
+        "extraction_status": {
+          "enum": [
+            "checked",
+            "unchecked"
+          ]
+        },
+        "print_verification": {
+          "$ref": "#/$defs/print_check"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/section"
+          },
+          "minItems": 0
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relation"
+          },
+          "uniqueItems": true
+        },
+        "content_status": {
+          "enum": [
+            "available",
+            "not_prepared",
+            "unavailable"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "content_status": {
+                "const": "available"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "sections": {
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "sections": {
+                "maxItems": 0
+              },
+              "relationships": {
+                "maxItems": 0
+              },
+              "extraction_status": {
+                "const": "unchecked"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "issue_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "year",
+        "month",
+        "label",
+        "toc_status",
+        "cover_media_id"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/issue_id"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 1999
+        },
+        "month": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "toc_status": {
+          "enum": [
+            "available",
+            "partial",
+            "missing"
+          ]
+        },
+        "cover_media_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "article_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "issue_id",
+        "title",
+        "byline",
+        "pages",
+        "content_status"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "issue_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/issue_id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "byline": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pages": {
+          "$ref": "#/$defs/pages"
+        },
+        "content_status": {
+          "enum": [
+            "available",
+            "not_prepared",
+            "unavailable"
+          ]
+        }
+      }
+    },
+    "catalog": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "kind",
+        "issues",
+        "articles",
+        "search_fields"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "kind": {
+          "const": "catalog"
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue_summary"
+          }
+        },
+        "articles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/article_summary"
+          }
+        },
+        "search_fields": {
+          "const": [
+            "title",
+            "byline",
+            "issue_id"
+          ]
+        }
+      }
+    },
+    "media_index": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "kind",
+        "items"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "kind": {
+          "const": "media_index"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/media"
+          }
+        }
+      }
+    },
+    "bundle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "kind",
+        "catalog",
+        "issues",
+        "articles",
+        "media"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "kind": {
+          "const": "contract_example"
+        },
+        "catalog": {
+          "$ref": "#/$defs/catalog"
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue"
+          }
+        },
+        "articles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/article"
+          }
+        },
+        "media": {
+          "$ref": "#/$defs/media_index"
+        }
+      }
+    },
+    "package_path": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*(/[A-Za-z0-9][A-Za-z0-9._-]*)*(?![\\s\\S])"
+    },
+    "document_file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "id",
+        "path",
+        "bytes",
+        "sha256"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "catalog",
+            "issue",
+            "article",
+            "media_index"
+          ]
+        },
+        "id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "path": {
+          "$ref": "#/$defs/package_path"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "preview_file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "article_id",
+        "section_id",
+        "path",
+        "bytes",
+        "sha256"
+      ],
+      "properties": {
+        "article_id": {
+          "$ref": "#/$defs/id"
+        },
+        "section_id": {
+          "$ref": "#/$defs/id"
+        },
+        "path": {
+          "$ref": "#/$defs/package_path"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "package_manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "kind",
+        "documents",
+        "previews"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "kind": {
+          "const": "package_manifest"
+        },
+        "documents": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/document_file"
+          }
+        },
+        "previews": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/preview_file"
+          }
+        }
+      }
+    }
+  }
+}

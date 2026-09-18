@@ -63,7 +63,8 @@ Keep three layers distinct: preserved source/recovery evidence; structured readi
 content with ordered blocks and media relationships; and derived reading exports
 such as Markdown. Markdown remains useful for review, but mixed code/image content
 must also be available as structured data so the viewer can represent it faithfully.
-The exact versioned handoff schema is a later bounded step, informed by this pilot.
+The [v1 content contract](docs/READING-ROOM-CONTENT-V1.md), completed in step 8,
+defines this handoff using the pilot's inspected structures.
 
 Packages stay private during preparation. Choosing publication content, deployment,
 or an ownership/access policy belongs to separate work; extraction and packaging
@@ -121,9 +122,10 @@ populations; neither is a verified count of complete articles.
 | 5d — Done | Private Markdown reading preview | Separate introduction/body previews represent all 271 blocks, preserving code whitespace, heading hierarchy, caption links, and ordered object placeholders, with source/output hashes and byte locations. |
 | 6 — Done | That article's image map | All 21 occurrences match the extraction manifest and have private derivatives; nine bitmap conversions preserve decoded pixels. Blank `bm54.wmf` and the equation's damaged symbols remain explicit review exceptions. |
 | 7 — Deferred | Physical-magazine comparison record | When paper pages or scans/photos are available, compare title, author, page range, text, structure, figures, and captions. Record differences and deferred media; this is not a prerequisite for content preparation. |
+| 8 — Done | Reading-room content contract v1 | Schema, relationship validator, synthetic example, and reproducible private pilot preserve ordered text/media, identities, captions, missing values, and independent extraction/print status. |
 
-Steps 1–6 are complete. Step 7 is deferred pending physical-magazine evidence;
-**step 8 is next**. The first preparation milestone completes when step 9's
+Steps 1–6 and 8 are complete. Step 7 is deferred pending physical-magazine evidence;
+**step 9 is next**. The first preparation milestone completes when step 9's
 article package validates, including explicit placeholders for deferred media.
 Print comparison remains a separate pending status. No original-viewer screenshots
 or side-by-side CD-viewer checks are required to advance.
@@ -426,7 +428,7 @@ original magazine or official CD is not a verification result. Broken conversion
 remain deferred. This task can resume when reference pages are available and
 scheduled; it does not block steps 8–9 or later content preparation.
 
-## Exact scope of the next task: step 8 — reading-room content contract
+## Step 8 completed: reading-room content contract
 
 **Inputs:** the recovered pilot metadata/text, semantic block map, image map,
 deferred-media register, and static-data requirements in the reading-room PRD.
@@ -443,23 +445,54 @@ contract must support a static client-side reading room without a backend or
 runtime RTF parsing. No print capture or original-viewer comparison is required.
 This step defines the contract; the full sample package is step 9.
 
+Result: [contract v1](docs/READING-ROOM-CONTENT-V1.md) and its
+[schema](schemas/reading-room-v1.schema.json) define catalog, issue, article,
+media, and package-manifest documents. `make reading-room-example` regenerates
+the private validating example and provenance sidecar. All 39 issue TOC entries
+remain ordered, with only the established pilot match linked. Two sections,
+271 blocks, 323 paragraphs, 289 runs, 21 media occurrences, and 13 caption
+relationships preserve the recovered source. Nineteen media assets have verified
+private bindings; two deferred resources have null display assets. No files are
+copied into a deployable package yet. All 77 tests pass, including independent
+source-run/projection checks and contract rejection cases. Print status is pending.
+
+## Exact scope of the next task: step 9 — one-article content package
+
+**Inputs:** the validated v1 pilot example and provenance/asset bindings, existing
+Markdown previews, image map, and deferred-media register.
+
+**Deliverable:** one private package containing `manifest.json`, `catalog.json`,
+`media.json`, separate issue/article documents, Markdown previews, and the 19
+accepted media files, with a separate preservation/provenance record. Use the v1
+contract's relative paths and configurable package base URL. Keep deferred media
+at their original positions with unavailable status; do not copy suspect display
+derivatives. Do not add UI, bulk extraction, or media repair to this step.
+
+**Check:** validate every document and the assembled relationship graph, resolve
+all required file references, verify actual bytes/hashes against the manifest and
+source bindings, and reproduce the package deterministically. Preserve exact
+article text/whitespace and both deferred placeholders. The reading room must be
+able to load the documented files without RTF parsing. Print verification remains
+pending independently. Passing these checks completes the first preparation
+milestone; publication and access policy remain separate.
+
 ## Next checkpoints: organize and expand CD1 content
 
-Step 8 is next; step 7's print comparison is a deferred, independent task.
+Step 9 is next; step 7's print comparison is a deferred, independent task.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
 single “continue” still means one bounded task.
 
 | Step / checkpoint | Deliverable | Complete when |
 | --- | --- | --- |
-| 8 — Next: reading-room content contract | Define a versioned static-data schema using the pilot's metadata, blocks, and image map. | The contract represents issue/TOC/article/media identities, mixed content, captions, missing data, and review status; a sample validates without requiring a UI or backend. |
-| 9 — One-article content package | Export the pilot and its issue/TOC context, reading blocks, Markdown preview, converted assets, and manifest into one private package. | All content and media references resolve or carry explicit unavailable status; source links/hashes and deterministic rebuilds are checked. The reading room can consume the documented files without parsing RTF. |
+| 8 — Done: reading-room content contract | Versioned static-data schema, validator, synthetic example, and private pilot example. | The contract represents issue/TOC/article/media identities, mixed content, captions, missing data, and review status; the pilot validates without a UI or backend. |
+| 9 — Next: one-article content package | Export the pilot and its issue/TOC context, reading blocks, Markdown preview, converted assets, and manifest into one private package. | All content and media references resolve or carry explicit unavailable status; source links/hashes and deterministic rebuilds are checked. The reading room can consume the documented files without parsing RTF. |
 | 10 — Second-article check | Select a different structural case, repeat recovery, and export it through the same contract. | The new article preserves its source structure; unsupported cases are recorded and any schema change is explicit. Split new extraction problems into smaller tasks. |
 | 11 — CD1 preservation readiness | Complete a durable CD1 source inventory; record a backup location and verify a restore when storage is available. | Source files are accounted for and backup/restore evidence exists before bulk processing. Existing probe hashes are retained but do not substitute for a verified backup. |
 | 12 — One issue, in small tasks | First establish TOC/CD coverage; then recover a bounded article batch at a time; finally build the issue package and catalog/search records. | Every TOC entry and discovered CD article has an explicit match/availability/review status, with no guessed matches or silently omitted content. The static package validates end to end. |
 | 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content beyond the supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
 
-### Content contract requirements to carry into step 8
+### Content contract requirements implemented in step 8
 
 - Reuse existing TOC identities and native CD references. Model article/topic/TOC
   relationships explicitly, including unmatched sources and multi-topic articles.

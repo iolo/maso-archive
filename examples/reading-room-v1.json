@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "kind": "contract_example",
+  "catalog": {
+    "schema_version": 1,
+    "kind": "catalog",
+    "issues": [
+      {
+        "id": "maso-1988-02",
+        "year": 1988,
+        "month": 2,
+        "label": "Synthetic issue",
+        "toc_status": "partial",
+        "cover_media_id": null
+      }
+    ],
+    "articles": [
+      {
+        "id": "cd1:article:synthetic",
+        "issue_id": "maso-1988-02",
+        "title": "Synthetic article",
+        "byline": null,
+        "pages": {
+          "start": 10,
+          "end": null
+        },
+        "content_status": "available"
+      },
+      {
+        "id": "cd1:article:unmatched",
+        "issue_id": null,
+        "title": "Synthetic source with unknown issue",
+        "byline": null,
+        "pages": {
+          "start": null,
+          "end": null
+        },
+        "content_status": "not_prepared"
+      }
+    ],
+    "search_fields": [
+      "title",
+      "byline",
+      "issue_id"
+    ]
+  },
+  "issues": [
+    {
+      "schema_version": 1,
+      "kind": "issue",
+      "id": "maso-1988-02",
+      "year": 1988,
+      "month": 2,
+      "label": "Synthetic issue",
+      "toc_status": "partial",
+      "cover_media_id": null,
+      "toc": [
+        {
+          "id": "maso-1988-02-toc-0001",
+          "parent_id": null,
+          "kind": "section",
+          "title": "Synthetic section",
+          "byline": null,
+          "pages": {
+            "start": null,
+            "end": null
+          },
+          "article_ids": [],
+          "link_status": "unmatched"
+        },
+        {
+          "id": "maso-1988-02-toc-0002",
+          "parent_id": "maso-1988-02-toc-0001",
+          "kind": "article",
+          "title": "Synthetic article",
+          "byline": null,
+          "pages": {
+            "start": 10,
+            "end": null
+          },
+          "article_ids": [
+            "cd1:article:synthetic"
+          ],
+          "link_status": "matched"
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "schema_version": 1,
+      "kind": "article",
+      "id": "cd1:article:synthetic",
+      "issue_id": "maso-1988-02",
+      "title": "Synthetic article",
+      "byline": null,
+      "pages": {
+        "start": 10,
+        "end": null
+      },
+      "source": {
+        "disc_id": "cd1",
+        "reference": "synthetic"
+      },
+      "toc_entry_ids": [
+        "maso-1988-02-toc-0002"
+      ],
+      "content_status": "available",
+      "extraction_status": "unchecked",
+      "print_verification": {
+        "status": "pending",
+        "report_id": null,
+        "pages_compared": []
+      },
+      "sections": [
+        {
+          "id": "synthetic:introduction",
+          "role": "introduction",
+          "blocks": [
+            {
+              "id": "synthetic:title",
+              "type": "title",
+              "layout": "flow",
+              "heading_level": null,
+              "parent_heading_id": null,
+              "interpretation": "source_supported",
+              "paragraphs": [
+                {
+                  "id": "synthetic:p1",
+                  "runs": [
+                    {
+                      "type": "text",
+                      "text": "Synthetic article",
+                      "marks": [
+                        "bold"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "synthetic:body",
+          "role": "body",
+          "blocks": [
+            {
+              "id": "synthetic:heading",
+              "type": "heading",
+              "layout": "flow",
+              "heading_level": 1,
+              "parent_heading_id": null,
+              "interpretation": "source_supported",
+              "paragraphs": [
+                {
+                  "id": "synthetic:p2",
+                  "runs": [
+                    {
+                      "type": "text",
+                      "text": "I. Example",
+                      "marks": [
+                        "bold"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "synthetic:caption",
+              "type": "caption",
+              "layout": "flow",
+              "heading_level": null,
+              "parent_heading_id": "synthetic:heading",
+              "interpretation": "source_supported",
+              "paragraphs": [
+                {
+                  "id": "synthetic:p3",
+                  "runs": [
+                    {
+                      "type": "text",
+                      "text": "Example caption",
+                      "marks": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "synthetic:code",
+              "type": "code",
+              "layout": "preformatted",
+              "heading_level": null,
+              "parent_heading_id": "synthetic:heading",
+              "interpretation": "source_supported",
+              "paragraphs": [
+                {
+                  "id": "synthetic:p4",
+                  "runs": [
+                    {
+                      "type": "text",
+                      "text": "  x = <value>;  ",
+                      "marks": []
+                    },
+                    {
+                      "type": "media",
+                      "media_id": "cd1:media:sample.bmp",
+                      "occurrence_id": "synthetic:occ1",
+                      "marks": []
+                    }
+                  ]
+                },
+                {
+                  "id": "synthetic:p5",
+                  "runs": []
+                },
+                {
+                  "id": "synthetic:p6",
+                  "runs": [
+                    {
+                      "type": "media",
+                      "media_id": "cd1:media:broken.wmf",
+                      "occurrence_id": "synthetic:occ2",
+                      "marks": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "  trailing  ",
+                      "marks": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "synthetic:prose",
+              "type": "paragraph",
+              "layout": "flow",
+              "heading_level": null,
+              "parent_heading_id": "synthetic:heading",
+              "interpretation": "source_supported",
+              "paragraphs": [
+                {
+                  "id": "synthetic:p7",
+                  "runs": [
+                    {
+                      "type": "text",
+                      "text": "Literal **markup** and <tag>; ",
+                      "marks": [
+                        "underline"
+                      ]
+                    },
+                    {
+                      "type": "media",
+                      "media_id": "cd1:media:sample.bmp",
+                      "occurrence_id": "synthetic:occ3",
+                      "marks": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "type": "caption_for",
+          "from_block": "synthetic:caption",
+          "to_block": "synthetic:code"
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "kind": "article",
+      "id": "cd1:article:unmatched",
+      "issue_id": null,
+      "title": "Synthetic source with unknown issue",
+      "byline": null,
+      "pages": {
+        "start": null,
+        "end": null
+      },
+      "source": {
+        "disc_id": "cd1",
+        "reference": "unmatched"
+      },
+      "toc_entry_ids": [],
+      "content_status": "not_prepared",
+      "extraction_status": "unchecked",
+      "print_verification": {
+        "status": "pending",
+        "report_id": null,
+        "pages_compared": []
+      },
+      "sections": [],
+      "relationships": []
+    }
+  ],
+  "media": {
+    "schema_version": 1,
+    "kind": "media_index",
+    "items": [
+      {
+        "id": "cd1:media:sample.bmp",
+        "source": {
+          "disc_id": "cd1",
+          "resource": "sample.bmp"
+        },
+        "status": "available",
+        "asset": {
+          "path": "media/cd1/sample.bmp.png",
+          "mime_type": "image/png",
+          "bytes": 64,
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "dimensions": {
+            "width": 32,
+            "height": 25,
+            "unit": "px"
+          }
+        },
+        "reason": null,
+        "problem_ids": [],
+        "rendering_notes": []
+      },
+      {
+        "id": "cd1:media:broken.wmf",
+        "source": {
+          "disc_id": "cd1",
+          "resource": "broken.wmf"
+        },
+        "status": "deferred",
+        "asset": null,
+        "reason": "conversion_deferred",
+        "problem_ids": [
+          "synthetic:problem:1"
+        ],
+        "rendering_notes": []
+      }
+    ]
+  }
+}

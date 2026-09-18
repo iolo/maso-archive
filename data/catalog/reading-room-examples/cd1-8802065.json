@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "article_id": "cd1:article:8802065",
+  "schema": {
+    "path": "schemas/reading-room-v1.schema.json",
+    "sha256": "2a160d646c4a92552fcc4647216348c14ee74c357a375412f23fed54bffc6f68"
+  },
+  "counts": {
+    "issues": 1,
+    "toc_entries": 39,
+    "articles": 1,
+    "media": 21,
+    "sections": 2,
+    "blocks": 271,
+    "paragraphs": 323,
+    "media_occurrences": 21
+  },
+  "available_media": 19,
+  "deferred_media": 2,
+  "caption_relationships": 13,
+  "validation": {
+    "schema_and_relationships": true,
+    "exact_source_projection": true,
+    "assets_copied": false,
+    "physical_magazine_compared": false
+  },
+  "outputs": [
+    {
+      "path": "build/reading-room-contract/8802065/pilot.example.json",
+      "bytes": 274128,
+      "sha256": "e47177f486f0dcc12b2dacb3b58794c23c99a37ca3d6a6570ed004e8edaac2cf"
+    },
+    {
+      "path": "build/reading-room-contract/8802065/provenance.json",
+      "bytes": 90238,
+      "sha256": "7c611db52b5fa59312a9fd66f25c0b65476efc445a2b5d790faeff07c1e518f8"
+    }
+  ]
+}

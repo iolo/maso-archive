@@ -24,6 +24,7 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Pilot semantic block map](docs/CD1-BLOCK-MAP-8802065.md)
 - [Pilot private Markdown preview](docs/CD1-MARKDOWN-8802065.md)
 - [Pilot image map and conversion findings](docs/CD1-IMAGES-8802065.md)
+- [Reading-room content contract v1](docs/READING-ROOM-CONTENT-V1.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate
@@ -35,3 +36,8 @@ release. Original media, Windows files, and extracted article content stay local
 Run `make import-cd1-index` to structure the three extracted CD1 indexes into
 `build/cd1-index/`. This uses the private extraction files and manifest; article
 bodies are not read or published.
+
+Run `make reading-room-example` to validate and rebuild the private CD1 pilot
+against the v1 content contract, using the existing recovery/block/image maps.
+The tracked [synthetic example](examples/reading-room-v1.json) demonstrates the
+format without publisher article text. Packaging the real files is the next step.

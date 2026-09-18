@@ -75,5 +75,6 @@ known missing pages. Start by locating **1983-11**. A cover, TOC, and typical ar
 page are enough to plan a later scanning pilot. Keep available source scans under
 `private/scans/`; bulk scanning is a separate future task.
 
-The next development task is the reading-room content contract (step 8). Physical
+The next development task is the one-article content package (step 9), using the
+completed [v1 content contract](READING-ROOM-CONTENT-V1.md). Physical
 reference collection and deferred print comparison (step 7) do not block it.
