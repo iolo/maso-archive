@@ -551,3 +551,31 @@
   diff. No code, recovery, or generated media changed; no conversion or test
   suite rerun was needed. Next task remains **step 7**, with these exceptions
   excluded from its required repair work.
+
+## 2026-09-18 — Use physical magazines for content verification
+
+- Removed original CD1 viewer comparison as a required task at the owner's
+  request. Physical magazine pages, or legible scans/photos of them, are now
+  the reference for content accuracy. Technical extraction checks still compare
+  decoded content and converted media with preserved CD sources.
+- Replaced step 7 with a deferred physical-magazine comparison: record the issue,
+  edition/page evidence, extent compared, and metadata/text/structure/media
+  differences. Preserve CD-derived text and document any print-based correction
+  separately; a difference may originate in the CD edition, not extraction.
+- Made **step 8 — reading-room content contract** the next active task. The
+  preparation milestone now ends with step 9's reproducible sample package;
+  pending print verification and registered broken-media exceptions do not block
+  content preparation. No physical-page comparison has yet been claimed complete.
+- Rewrote the offline checklist around locating the February 1988 printed
+  article, establishing its actual page range, and keeping scans/photos with
+  provenance when convenient. Removed required viewer screenshots, copy/export
+  experiments, and navigation-behavior checks. Partial pages support only partial
+  comparison; no full scan set is required before development continues.
+- Updated image documentation to explain that existing `converted_pending_viewer`
+  and false `viewer_compared` fields are historical conversion metadata, not
+  current workflow requirements. Kept those checksummed artifacts and the deferred
+  image records unchanged; the upcoming contract will distinguish extraction
+  integrity from physical-magazine verification.
+- Validation: checked documentation links, the revised active/deferred step
+  sequence, and the staged diff. This changes planning and offline guidance only;
+  no code, extraction output, or media changed, so no test rerun was needed.

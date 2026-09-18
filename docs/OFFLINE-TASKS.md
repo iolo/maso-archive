@@ -1,103 +1,66 @@
 # Offline tasks for the owner
 
-These tasks support the first milestone in [PLAN-CD1.md](../PLAN-CD1.md). Start with
-items 1–3; the rest are optional. The index importer can proceed independently.
+These tasks provide physical-magazine evidence for later content verification in
+[PLAN-CD1.md](../PLAN-CD1.md). Do them when convenient; extraction and reading-room
+content preparation continue independently. No original CD-viewer comparison,
+screenshots, copy/export tests, or new Windows setup are required.
 
-## 1. Open the provisional article
+## 1. Locate the pilot in the physical magazine
 
-In the CD1 viewer, find **1988년 2월, “유닉스란 무엇인가?”, page 65**.
-The recovered index uses reference `8802065`; the viewer may not expose that ID.
+Start with **February 1988, “유닉스란 무엇인가?”**. The current TOC and CD record
+point to **page 65**, but the full printed page range has not been established.
 
-Record the displayed title, issue/date, printed page label, and author if shown.
-Also record the menu/search route used to open it. If there are several matching
-entries, list them rather than assuming they are the same article. If unavailable,
-note exactly what you searched and what the viewer displayed.
+Record the issue/date, edition if relevant, displayed title, author, and printed
+page range. Check for continuations on later pages and note where the article ends.
+If that issue is not available yet, simply leave its print comparison pending.
 
-## 2. Capture its beginning, ending, and structure
+## 2. Capture reference pages when available
 
-Save screenshots at the viewer's native resolution, keeping the text readable.
-Capture the title/opening and the final paragraph or section. Note whether the
-article is one scrolling view or several linked topics, and record the visible
-section names/navigation order. If the article continues into another topic,
-record the link rather than treating the first screen's end as the article's end.
+Scans or clear photos of the complete article are useful. Preserve page numbers,
+margins, headings, code examples, figure/table captions, and readable small text.
+Keep the originals; any cropped or enhanced review copies should remain separate.
+Record missing, cut-off, or unreadable pages rather than implying full coverage.
 
-Capture each distinct illustration/table in the sample if practical, including
-its caption and nearby text so we can place it correctly. If there are many,
-start with the first and record that the reference set is incomplete.
-Viewer screens are evidence of the CD presentation, not printed-page scans.
+Begin with the opening and ending pages if collecting the full article takes
+longer. Partial captures can support partial comparisons; they do not verify
+uncaptured content. Include the issue's TOC if readily available.
 
-The step 6 image map now gives specific comparison targets. The private review
-page is `build/cd1-images/8802065/review.html`:
+Broken converted images remain deferred. Capturing their corresponding printed
+figures as part of a page is fine, but no special investigation of `bm54.wmf` or
+`bm55.wmf` is required now. Do not assume CD badges, navigation icons, or layout
+objects have equivalents in print.
 
-- The title's small badge (`bm43.bmp`): record its appearance and whether it is
-  clickable; its navigation role is still a candidate.
-- Figure 6's example: capture the inline pointing hands and overlined numerals
-  (`bm44.wmf`–`bm53.wmf`) in context, including the end of the example.
+## 3. Keep provenance with the reference pages
 
-The following two items are **deferred and optional**, following the owner's
-decision to leave broken conversions for later. They do not hold up the current
-comparison or content preparation; capture them only if convenient:
-
-- The area after Figure 6 and before Figure 7: `bm54.wmf` converts to a blank
-  drawing. Record whether the original viewer shows anything there and how the
-  surrounding example/caption is spaced. Its attachment remains unresolved.
-- Figure 11's equation (`bm55.wmf`), preferably with the nearby Figure 10 code
-  example: the current SVG displays incorrect summation/infinity glyphs. Capture
-  the equation clearly enough to compare every symbol and its placement.
-
-The current comparison still covers the beginning, ending, section/code structure,
-and usable figures/tables. Record the two deferred items as exceptions rather
-than treating their absence as a new capture requirement.
-
-## 3. Try copying a small text sample
-
-If text selection/copy is supported, copy the first body paragraph into Windows
-Notepad and save it. Capture the same paragraph in a screenshot, making sure its
-Korean text, English words, and punctuation are readable. Keep the saved file in
-its original encoding; conversion can happen on the host later.
-
-Record whether selection, copy, or export is unavailable, produces garbled text,
-or omits formatting. Testing is enough: no need to troubleshoot the viewer or
-transcribe a whole article manually. Note available print/export commands without
-installing new drivers for this task.
-
-## Where to put reference evidence
-
-Use a private folder under the repository:
+Suggested private location (already excluded from Git):
 
 ```text
-private/reference/cd1/8802065/
+private/reference/print/1988-02/8802065/
   notes.md
-  01-opening.png
-  02-ending.png
-  figure-01.png
-  first-paragraph.txt
+  page-065-original.jpg
+  ...
 ```
 
-Suggested names only; retain the actual format generated by the capture tool.
-Inside the DOS guest, a short filename such as `C:\EXPORT\FIRST.TXT` is fine;
-copy it to this host folder afterwards. `private/` is already excluded from Git.
-
-The note can be short:
+Use the actual printed page numbers and original capture formats. A short note
+is enough:
 
 ```text
-Displayed title / issue / page / author:
-How I opened it:
-Section or topic order:
-How the article ends:
-Images/tables captured (and anything still missing):
-Copy/export result:
-DOSBox-X version, display settings, and any missing-font symptoms:
+Physical issue / edition:
+Printed title / author:
+Article start, end, and continuation pages:
+Pages captured and corresponding filenames:
+Missing or unreadable portions:
+Capture date and source copy:
+Observed differences from the CD-derived preview, if any:
 ```
 
-## 4. Preserve the working viewer environment
+Later comparison will cover metadata, article boundaries, text, headings, code,
+figures, tables, and captions. Differences may come from the CD edition or from
+extraction. Keep CD-derived text intact and record any print-based correction
+separately, with its page evidence. Existing CD-viewer captures may be retained
+as historical diagnostic evidence; they are not print-verification evidence.
 
-After exiting Windows and DOSBox-X, make a separate copy of the working `hwin31/`
-directory and `hwin31.cfg`. Record the DOSBox-X version and any font/display changes
-needed to make the viewer readable. A stopped copy avoids saving a partially
-written Windows session. Record where the copy is kept.
-
-## 5. Make an independent source backup
+## 4. Make an independent source backup
 
 If another drive/storage location is available, copy the three ISO files there
 and verify their SHA-256 hashes against [the recorded hashes](SOURCE-INVENTORY.md).
@@ -105,14 +68,12 @@ Record the location and verification date privately. A copy on the same disk is
 useful operationally but does not protect against that disk failing. Do not
 overwrite the sole working copy when checking that a backup can be restored.
 
-## 6. Gather information for the later scan phase
+## 5. Gather information for the later scan phase
 
 When convenient, list which 1983–1987 issues can be obtained or scanned and any
-known missing pages. Start by locating **1983-11**. If a scan is readily available,
-a cover, TOC, and one typical article page are enough to plan a later scanning
-pilot. Preserve full page margins and readable small text/code in the original
-scan files. Keep these under `private/scans/`; bulk scanning is a later task.
+known missing pages. Start by locating **1983-11**. A cover, TOC, and typical article
+page are enough to plan a later scanning pilot. Keep available source scans under
+`private/scans/`; bulk scanning is a separate future task.
 
-The first milestone depends on the existing CD1 source, not on these future
-scans. Viewer evidence will be needed for its final comparison step, while
-backup/scan preparation can proceed at the owner's convenience.
+The next development task is the reading-room content contract (step 8). Physical
+reference collection and deferred print comparison (step 7) do not block it.

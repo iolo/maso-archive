@@ -10,10 +10,11 @@ plan remains in [Design reference](docs/DESIGN-REFERENCE.md) as historical conte
 This plan's goal is **reproducible CD1 content extraction and a static content
 package that the reading room can consume**: issue/TOC metadata, article text and
 semantic blocks, captions, converted media, source relationships, and explicit
-coverage/review status. The first milestone is **one article recovered from CD1,
-linked to its TOC record, and checked against the original Windows viewer, with
-known broken-media exceptions explicitly deferred**. Full image fidelity is a
-separate status and is not implied by completing this milestone with exceptions.
+coverage/review status. The first milestone is **one reproducible CD1 article
+package, linked to its TOC record and usable by the reading room, with known
+broken-media exceptions explicitly deferred**. Physical magazine pages are the
+reference for later content verification. Original-viewer comparison is not a
+required task; print verification does not block extraction or packaging.
 
 The archive target is **1983-11–1995-12: 146 monthly issues**, extended because
 the owner holds the official CDs. The supplied TOC currently covers **86 issues
@@ -39,9 +40,10 @@ Proceed from **one article → one reading-room content package → one issue �
 Use what each step teaches us to specify the next. Missing scans do not block
 the first milestone.
 Do not estimate or automate collection-wide extraction until we understand the
-one-article path. Compare against the CD article; this does not claim fidelity to
-printed pages we have not inspected. Deferred image failures remain visible in
-the coverage record rather than requiring immediate repair.
+one-article path. Check extraction integrity against the preserved CD sources,
+and record content accuracy against physical magazine pages separately. A valid
+extraction/package is not a claim of print verification. Deferred image failures
+remain visible in the coverage record rather than requiring immediate repair.
 
 ## Responsibility and handoff
 
@@ -91,7 +93,9 @@ populations; neither is a verified count of complete articles.
 ## How each step works
 
 1. Work on one numbered step at a time. A request to do the “next task” means
-   the next unfinished step, unless the user explicitly requests a larger batch.
+   the next unfinished, non-deferred step, unless the user explicitly requests
+   a larger batch. Resume a deferred task when its evidence is available and
+   it is scheduled, rather than blocking the active queue.
 2. Before implementing, name the input, one main deliverable, and completion
    check. Avoid adding adjacent features to the same step.
 3. If a step reveals another substantial unknown, split it into smaller steps
@@ -103,29 +107,26 @@ populations; neither is a verified count of complete articles.
 5. Report what is done and what comes next, then end that task. This does not
    require extra approval for routine edits, tests, or other work within the step.
 
-## First milestone: one reviewed article with recorded media exceptions
+## Pilot extraction status
 
 | Step | Deliverable | Complete when |
 | --- | --- | --- |
 | 1 — Done | CD1 reference index | All three extracted `.lst` files are represented as structured records, retaining every occurrence, category path, title, source line, and original reference; counts and parse exceptions are reported. |
 | 2 — Done | One explicit CD-to-TOC match | `8802065` is linked to `maso-1988-02-toc-0035` with both CD occurrences, title/issue evidence, and an explicitly conditional page comparison. |
-| 3 — Done | Raw topic map for that article | Native context/hash evidence resolves `8802065` to body topic 149 and its linked introduction 148; byte locations and following boundaries are recorded, with completeness pending viewer review. |
+| 3 — Done | Raw topic map for that article | Native context/hash evidence resolves `8802065` to body topic 149 and its linked introduction 148; byte locations and following boundaries are recorded, with completeness relative to print unverified. |
 | 4 — Done | One correctly decoded paragraph | The first body paragraph decodes strictly to 182 characters; byte provenance, font/encoding decisions, punctuation handling, and unsupported cases are recorded. |
 | 5a — Done | RTF feature inventory for the mapped topics | All 149,579 bytes in introduction 148 and body 149 are accounted for; fonts, metadata groups, 21 object markers, and five HELPDECO literal-brace guards are located. |
-| 5b — Done | Full text for that one article | Both mapped topics produce private ordered text and structured paragraphs/runs, with 21 object placeholders, all bytes accounted for, and the step 4 paragraph reproduced exactly. Image-contained text and viewer fidelity remain pending. |
+| 5b — Done | Full text for that one article | Both mapped topics produce private ordered text and structured paragraphs/runs, with 21 object placeholders, all bytes accounted for, and the step 4 paragraph reproduced exactly. Image-contained text and print verification remain pending. |
 | 5c — Done | Block identification for the pilot | 271 blocks cover all 323 paragraphs, 289 runs, and 21 objects; headings, examples, caption relationships, image-backed tables, and unresolved content retain evidence and source references. |
 | 5d — Done | Private Markdown reading preview | Separate introduction/body previews represent all 271 blocks, preserving code whitespace, heading hierarchy, caption links, and ordered object placeholders, with source/output hashes and byte locations. |
 | 6 — Done | That article's image map | All 21 occurrences match the extraction manifest and have private derivatives; nine bitmap conversions preserve decoded pixels. Blank `bm54.wmf` and the equation's damaged symbols remain explicit review exceptions. |
-| 7 — Next | Viewer comparison record | Title, page, boundaries, text, structure, and usable illustrations are compared with `MVIEWER2.EXE`. Known broken media may remain deferred; record acceptance with exceptions separately from full-fidelity verification. |
+| 7 — Deferred | Physical-magazine comparison record | When paper pages or scans/photos are available, compare title, author, page range, text, structure, figures, and captions. Record differences and deferred media; this is not a prerequisite for content preparation. |
 
-Steps 1–6 are complete. Step 7 remains pending. The image map is complete as an
-inventory/conversion report, with explicit fidelity exceptions; the article is
-not yet verified.
-The milestone can complete after step 7's available-content checks pass with the
-known deferred-media exceptions recorded. Those exceptions do not block content
-packaging or subsequent extraction tasks. They remain unresolved and prevent a
-claim of complete image fidelity; other unreviewed content is not automatically
-accepted by this decision.
+Steps 1–6 are complete. Step 7 is deferred pending physical-magazine evidence;
+**step 8 is next**. The first preparation milestone completes when step 9's
+article package validates, including explicit placeholders for deferred media.
+Print comparison remains a separate pending status. No original-viewer screenshots
+or side-by-side CD-viewer checks are required to advance.
 
 Selected pilot: **1988-02, “유닉스란 무엇인가?”, TOC page 65**, with CD reference
 `8802065`. The [step 2 match](docs/CD1-MATCH-8802065.md) supports the metadata
@@ -134,15 +135,10 @@ and an explicit CD page-65 label. Content completeness remains unverified. If
 the feature proves too complex for a first sample, document why and choose a simpler
 article from step 1's inventory; do not force a one-topic-per-article assumption.
 
-Step 7 uses the owner's working DOSBox-X setup. Automated viewer control has not
-been established. If a direct comparison needs the owner's help, request a
-specific comparison for this sample, not a new Windows installation. Keep the
-step pending until the necessary evidence exists.
-
-The owner can collect that evidence while development proceeds using the
-[offline task checklist](docs/OFFLINE-TASKS.md). Viewer reference capture and
-optional backup/scan preparation did not block index import and can continue
-while topic mapping proceeds.
+The owner can prepare physical-magazine reference pages when convenient using
+[the offline task checklist](docs/OFFLINE-TASKS.md). These are evidence for later
+print comparison, not prerequisites for the content contract or sample package.
+Keep original CD extraction records intact when print/CD differences are found.
 
 ## Step 1 completed: index import
 
@@ -235,8 +231,8 @@ characters encountered and unsupported cases. Do not decode the whole article.
 
 **Check:** strict decoding has no silent replacements; text characters and RTF
 controls are distinguished, and the sample stays within the mapped body. Preserve
-the original bytes. A successful decode is still pending viewer comparison in
-step 7; do not mark the article complete. Keep image conversion and full-text
+the original bytes. A successful decode does not establish agreement with print;
+physical-page comparison is deferred in step 7. Keep image conversion and full-text
 normalization outside this step, and log/commit the result before proceeding.
 
 Result: `python3 -m tools.decode_cd1_paragraph` produces one private paragraph
@@ -244,7 +240,7 @@ and its raw-byte/provenance artifacts in `build/cd1-paragraph/8802065/`. The
 sample is 182 characters and matches independent `iconv` CP949 decoding. The
 RTF resets to default Arial without an explicit code page; CP949 is recorded as
 a source-specific choice. See [the sample notes](docs/CD1-PARAGRAPH-8802065.md).
-Viewer comparison remains pending. The limited sample does not exercise groups,
+Print verification remains pending. The limited sample does not exercise groups,
 font changes, tables, or symbol glyphs, so full-text recovery is split below.
 
 ## Step 5a completed: RTF feature inventory
@@ -291,8 +287,9 @@ spurious hyphens into example code. The original step 4 paragraph must reproduce
 exactly. Preserve introduction/body separation and exclude neighboring topics.
 
 Recover all available text now regardless of eventual publication/access policy.
-Image conversion and original-viewer comparison remain steps 6–7. Producing the
-full text does not itself establish article completeness or display fidelity.
+Image conversion is step 6; physical-magazine comparison is deferred in step 7.
+Producing the full text does not itself establish article completeness or display
+fidelity.
 
 Result: `python3 -m tools.recover_cd1_text` writes separate introduction/body
 text, structured paragraphs/runs with formatting/source spans, and provenance to
@@ -300,7 +297,7 @@ text, structured paragraphs/runs with formatting/source spans, and provenance to
 bytes are accounted for. The 4/319 introduction/body paragraphs retain blank lines,
 and all 21 object placeholders stay in order. The step 4 sample matches exactly.
 See [full-text recovery notes](docs/CD1-TEXT-8802065.md). Text inside image resources
-is not transcribed, and viewer comparison/article completeness remain pending.
+is not transcribed, and print verification/article completeness remain pending.
 
 ## Step 5c completed: block identification
 
@@ -318,7 +315,7 @@ caption labels, and context; style alone is demonstrably ambiguous in this pilot
 code spaces and internal blank lines. Caption relationships may target code or
 images, and composite figures may contain multiple objects. Do not infer cells
 for a table without evidence. Keep the recovered paragraph/run data unchanged,
-and reserve viewer-dependent decisions for review.
+and retain source/layout uncertainty for later print comparison.
 
 Result: `python3 -m tools.map_cd1_blocks` produces a separate, traceable block map
 in `build/cd1-blocks/8802065/`. It identifies 28 headings, 17 code/example blocks,
@@ -354,8 +351,8 @@ are represented, with 17 verbatim code fences, 28 hierarchical headings, 13
 caption links, and 21 ordered object placeholders. An independent Markdown parser
 reproduces each block's text, including code whitespace; spacing blocks retain
 explicit comments and source whitespace. Inline HTML retains bold, underline, and
-stable anchors. Layout, images, and viewer fidelity remain pending. See
-[Markdown preview details](docs/CD1-MARKDOWN-8802065.md).
+stable anchors. Original print layout, deferred images, and print verification
+remain pending. See [Markdown preview details](docs/CD1-MARKDOWN-8802065.md).
 
 ## Step 6 completed: image map and conversion report
 
@@ -380,9 +377,9 @@ manifest, and inspect rendered results for obvious conversion failures. Preserve
 repeated/composite resources in their original order. Document unreadable assets
 and fidelity uncertainties rather than silently omitting them. Do not perform
 bulk extraction, OCR, publication, or access-verification implementation here.
-The original viewer remains the fidelity reference for step 7. Its comparison
-must cover semantic blocks, code boundaries, heading hierarchy, and caption/
-figure/table relationships as well as text and images.
+Physical magazine pages are the content reference for deferred step 7. Technical
+checks still verify CD bytes, decoded text, and conversion outputs. CD-only badges,
+navigation, and reformatted layout need not match the printed page presentation.
 
 Result: `python3 -m tools.map_cd1_images` writes private `images.json`,
 `provenance.json`, `review.html`, nine PNG derivatives, twelve SVG derivatives,
@@ -408,36 +405,54 @@ position, retaining any caption. Suspect/blank derivatives may remain in the
 private diagnostic review page but should not be presented as recovered article
 images. Deferral changes work priority, not source evidence or fidelity status.
 
-## Exact scope of the next task: step 7 — original-viewer comparison
+## Step 7 deferred: comparison with physical magazines
 
-**Inputs:** the original CD1 article in the owner's working DOSBox-X viewer,
-the preserved topic/text/block records, Markdown preview, and step 6 image map
-and review page. Use existing reference captures if available; request specific
-missing evidence using [the offline checklist](docs/OFFLINE-TASKS.md).
+**Inputs, when available:** the physical February 1988 issue or legible scans/
+photos with printed page numbers, plus the preserved CD1 topic/text/block records,
+Markdown preview, image map, and deferred-media register. TOC page 65 is a starting
+locator, not proof of the complete printed article's page range.
 
-**Deliverable:** a comparison record covering article title/page and boundaries,
-text/heading/code structure, caption links, and usable images. Account for every
-image occurrence as compared, unobserved, or explicitly deferred. Keep observations
-traceable to source positions and reference captures. Compare the title badge and
-usable inline Figure 6 objects; leave the two registered problem assets deferred.
+**Deliverable:** a print-comparison record identifying issue/edition, evidence
+files and page ranges, reviewer observations, and the extent actually compared.
+Cover title/author, article boundaries and continuations, text, code, headings,
+figures, tables, and captions. Distinguish CD editorial/reformatting differences
+from extraction errors. Preserve CD-derived text and document any proposed
+print-based correction separately, with provenance.
 
-**Check:** distinguish unobserved items from matches, discrepancies, and deferred
-media. Do not investigate the registered conversion failures in this step. If
-the remaining checks pass, record acceptance with deferred media and proceed to
-the content contract/package tasks. Keep full image-fidelity verification false
-while those issues remain unresolved. Missing evidence for the remaining checks
-still leaves the comparison pending; deferral does not stand in for viewer review.
+**Check:** distinguish matches, differences, unobserved pages, and deferred media.
+Partial scans establish only partial comparison. Keep print verification pending
+until the relevant evidence has actually been examined; the existence of an
+original magazine or official CD is not a verification result. Broken conversions
+remain deferred. This task can resume when reference pages are available and
+scheduled; it does not block steps 8–9 or later content preparation.
+
+## Exact scope of the next task: step 8 — reading-room content contract
+
+**Inputs:** the recovered pilot metadata/text, semantic block map, image map,
+deferred-media register, and static-data requirements in the reading-room PRD.
+
+**Deliverable:** a versioned static-data contract and a validating pilot example
+covering issue/TOC/article/media identities, ordered blocks and mixed content,
+caption relationships, media placeholders, and source/verification status.
+Keep preservation evidence separate from the viewer's required runtime data.
+
+**Check:** represent the current pilot without losing source order or code
+whitespace, inventing missing metadata, or treating broken media as usable assets.
+Distinguish extraction checks from pending physical-magazine verification. The
+contract must support a static client-side reading room without a backend or
+runtime RTF parsing. No print capture or original-viewer comparison is required.
+This step defines the contract; the full sample package is step 9.
 
 ## Next checkpoints: organize and expand CD1 content
 
-Step 7 is next. The queue below starts after the pilot comparison.
+Step 8 is next; step 7's print comparison is a deferred, independent task.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
 single “continue” still means one bounded task.
 
 | Step / checkpoint | Deliverable | Complete when |
 | --- | --- | --- |
-| 8 — Reading-room content contract | Define a versioned static-data schema using the pilot's metadata, blocks, and image map. | The contract represents issue/TOC/article/media identities, mixed content, captions, missing data, and review status; a sample validates without requiring a UI or backend. |
+| 8 — Next: reading-room content contract | Define a versioned static-data schema using the pilot's metadata, blocks, and image map. | The contract represents issue/TOC/article/media identities, mixed content, captions, missing data, and review status; a sample validates without requiring a UI or backend. |
 | 9 — One-article content package | Export the pilot and its issue/TOC context, reading blocks, Markdown preview, converted assets, and manifest into one private package. | All content and media references resolve or carry explicit unavailable status; source links/hashes and deterministic rebuilds are checked. The reading room can consume the documented files without parsing RTF. |
 | 10 — Second-article check | Select a different structural case, repeat recovery, and export it through the same contract. | The new article preserves its source structure; unsupported cases are recorded and any schema change is explicit. Split new extraction problems into smaller tasks. |
 | 11 — CD1 preservation readiness | Complete a durable CD1 source inventory; record a backup location and verify a restore when storage is available. | Source files are accounted for and backup/restore evidence exists before bulk processing. Existing probe hashes are retained but do not substitute for a verified backup. |
@@ -463,6 +478,8 @@ single “continue” still means one bounded task.
 - Retain traceability to source topics/spans and preservation manifests, while
   keeping detailed extraction ledgers out of the viewer's required runtime data.
   Validate schema versions, ordering, identities, references, and output hashes.
+  Record physical-magazine comparison status independently of extraction checks;
+  legacy `viewer_compared` flags describe historical evidence, not a workflow gate.
 
 This plan ends with validated CD1 content packages and an honest coverage report.
 UI implementation follows the reading-room PRD; publication, access policy, and
