@@ -62,6 +62,11 @@ Run `make inventory-cd1-sources` to check the original CD1 ISO, all extracted di
 files, and preserved probe outputs. Requires `7z`. The local inventory is complete;
 independent backup/restore verification remains pending before bulk processing.
 
+Run `make prepare-cd1-transfer` to stage a private archive of CD1 sources,
+prepared artifacts, and committed Git history with per-file checksums. See the
+[transfer instructions](docs/CD1-PRESERVATION.md#prepared-local-transfer-set).
+Copying it to independent storage and verifying restoration remain separate steps.
+
 Run `make audit-cd1-issue` for the read-only February 1988 TOC/CD coverage audit,
 or `PYTHONPATH=src python3 -m tools.audit_cd1_issue --check` to verify its tracked
 report without writing. It accounts for metadata and existing prepared packages.

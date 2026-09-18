@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: import-toc import-cd1-index reading-room-example reading-room-package check-second-article inventory-cd1-sources audit-cd1-issue restore-toc-snapshot test check
+.PHONY: import-toc import-cd1-index reading-room-example reading-room-package check-second-article inventory-cd1-sources audit-cd1-issue restore-toc-snapshot prepare-cd1-transfer test check
 
 import-toc:
 	PYTHONPATH=src $(PYTHON) -m maso_archive import-toc
@@ -22,6 +22,9 @@ check-second-article:
 
 inventory-cd1-sources:
 	$(PYTHON) -m tools.inventory_cd1_sources
+
+prepare-cd1-transfer:
+	PYTHONPATH=src $(PYTHON) -m tools.prepare_cd1_transfer
 
 audit-cd1-issue:
 	PYTHONPATH=src $(PYTHON) -m tools.audit_cd1_issue

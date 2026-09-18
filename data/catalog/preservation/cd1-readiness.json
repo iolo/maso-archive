@@ -5,10 +5,11 @@
   "inventory_record": "data/catalog/preservation/cd1-inventory.json",
   "inventory_sha256": "7f6c82ed586576d6c4337bf25788e0f9d0d984a267c56cac5f1416bfeb84495b",
   "local_inventory_status": "verified",
-  "independent_backup_status": "not_available",
-  "backup_status_basis": "owner_confirmed_no_independent_backup_in_session",
+  "independent_backup_status": "unverified",
+  "backup_status_basis": "owner_reports_local_copy_and_physical_cd; local_copy_path_and_storage_independence_not_yet_identified",
   "restore_test_status": "pending",
   "ready_for_bulk_processing": false,
-  "remaining_checkpoint": "11b: obtain an independently stored CD1 ISO copy and verify restoration; preserve probe evidence and repository snapshot alongside the source set",
-  "allowed_next_scope": "11b: independent backup/restore verification when storage is available; 12b.1 article recovery remains gated"
+  "remaining_checkpoint": "11b: verify an independent ISO copy or fresh read from the physical CD; record preserved probe/repository evidence separately",
+  "allowed_next_scope": "11b: verify owner-reported recovery sources once an accessible copy/device path is supplied; 12b.1 article recovery remains gated",
+  "physical_media_status": "owner_reported_available_not_read_tested"
 }

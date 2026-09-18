@@ -842,3 +842,42 @@
   fully scoped in PLAN-CD1.md and remains gated on step 11b's real independent
   backup/restore evidence. Physical comparison, unresolved title/media cases,
   later article batches, CD2/CD3, and the reading-room UI remain separate.
+
+## 2026-09-18 — CD1 preservation handoff prepared; recovery sources clarified
+
+- Continued the pending preservation checkpoint by preparing a portable local
+  transfer archive. It contains the original ISO, entire probe tree, current build
+  artifacts/inventories/historical TOC cache, and committed Git refs/history through
+  `a0cf9971227092f0d372591db1d0a723a266fbb1`. The reconstructable extracted disc
+  tree is omitted. Uncommitted files and ignored material outside the named source
+  sets are explicitly outside this snapshot; the new transfer tool is committed
+  after the captured content revision.
+- The private archive is **673,433,600 bytes**, with **7,581 payload files** totaling
+  666,343,528 bytes. SHA-256:
+  `a18c40ba44c5be68316d60ccdd2210e236ff290b7d5b51149b972602151bed3a`.
+  A `.sha256` sidecar and private receipt sit alongside it; the tracked transfer
+  receipt records its relative path/hash. `MANIFEST.json` retains all payload
+  hashes and directories, and `RESTORE.txt` provides recovery instructions.
+- Added `make prepare-cd1-transfer`. It first checks the ISO/probe against the
+  preserved inventory, stages a Git bundle, writes a fresh private archive, and
+  verifies every archived payload byte without extracting. Source changes,
+  unsafe paths, links, duplicate members, missing files, and corrupt content are
+  rejected. Names include commit/content hashes so newer sets retain older ones.
+- Verified the real archive and Git bundle. Cloned the archived bundle into a
+  temporary mirror, ran `git fsck --full`, checked the captured HEAD, and verified
+  the historical TOC blob. These checks were local; no independent copy or
+  physical-disc read was performed, and readiness remains false.
+- The owner clarified that a **local copy and physical CD are available**.
+  Updated readiness from unavailable to unverified, recording the physical CD as
+  an owner-reported independent recovery source. Its readability has not been
+  tested here. No optical drive is visible in the machine's block-device listing;
+  the local copy's accessible path and storage independence remain unspecified.
+  Requested a copy/device location to perform the next verification.
+- Validation: **all 120 tests pass**, including four new transfer tests for exact
+  round trips, deterministic bytes, source preservation, payload/manifest
+  corruption, missing/duplicate members, unsafe paths, and archive/source links.
+  Documentation links, private-output exclusions, and whitespace checks pass.
+- Updated PLAN-CD1, preservation/offline guidance, and the readiness record.
+  The transfer set is ready to copy. Step 11b still needs accessible recovery-source
+  and preservation evidence before article task 12b.1 (`8802030`) begins. No new
+  article text, media conversion, publication, or external-storage write occurred.

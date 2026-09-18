@@ -102,6 +102,52 @@ privately. A second path, filesystem device ID, or copy on the same physical dis
 does not by itself establish independence. This step has not copied sources to
 another storage location.
 
+## Prepared local transfer set
+
+The [transfer record](../data/catalog/preservation/cd1-transfer.json) identifies
+a **673,433,600-byte archive** ready to copy to separate storage:
+
+```text
+private/preservation/cd1-transfer/cd1-a0cf99712270-a18c40ba44c5.tar
+private/preservation/cd1-transfer/cd1-a0cf99712270-a18c40ba44c5.tar.sha256
+```
+
+It contains 7,581 payload files: the original ISO, the complete probe tree, all
+current `build/` artifacts (including inventories and historical TOC inputs), and
+a self-contained Git bundle through commit `a0cf9971227092f0d372591db1d0a723a266fbb1`.
+`MANIFEST.json` lists every payload file's size/hash and the directory inventory;
+`RESTORE.txt` explains the transfer and restore steps. The reconstructable
+`masocd-1/` directory is omitted. Uncommitted repository changes and ignored files
+outside these named source sets are not included. The transfer preparation tool
+itself was committed after this content snapshot; rerun it for a later snapshot.
+
+```sh
+make prepare-cd1-transfer
+```
+
+The command verifies the ISO/probe against the preserved inventory, includes
+committed Git refs/history, and hashes every archived payload without extracting
+it. It writes only beneath ignored `private/preservation/cd1-transfer/`. Archive
+names include their repository commit and content hash, so a later set does not
+replace an earlier one. Each set has a `.sha256` sidecar and private JSON receipt.
+It never updates backup readiness or writes to external storage.
+
+Copy the archive and checksum sidecar together. On the **separate storage**, run:
+
+```sh
+sha256sum -c cd1-a0cf99712270-a18c40ba44c5.tar.sha256
+```
+
+Extract into a new empty directory. The ISO will be at its root; retain the probe
+tree, build artifacts, and Git bundle alongside it. To restore repository history,
+clone `repository.bundle` into a new checkout. The prepared bundle was also
+cloned locally and passed `git fsck --full`; its historical TOC blob is intact.
+Those local checks do not establish independent storage or complete step 11b.
+Provide the independent location/storage description for the restore check below.
+The physical CD is also an independent recovery source: once its drive is
+accessible, a fresh read can be compared against the preserved ISO/disc inventory.
+Possession of the disc is recorded separately from successful read/restore evidence.
+
 ## Restore check when the backup exists
 
 After creating an independent ISO copy, supply its real path and a factual
@@ -145,7 +191,10 @@ working image or corrupt backups, temporary-restore cleanup, and restored-tree
 mismatches. Restore mechanics use explicitly synthetic fixtures and do not count
 as a real backup test. The actual-source test verifies the complete local CD1 set.
 
-Step 11b is deferred until independent storage is available. The
+The owner reports a local copy and physical CD. No optical drive is currently
+visible to this machine, and the copy's path/storage location is not yet supplied.
+Step 11b awaits verification of an accessible independent copy or fresh physical-CD
+read; probe/repository preservation remains a separate part of that checkpoint. The
 [February 1988 coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC import are complete. The next article task is
 **12b.1: recover `8802030` only**, after step 11b.
 Article batches and bulk recovery remain gated on verified preservation readiness.

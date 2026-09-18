@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "scope": "local_transfer_set",
+  "repository_commit": "a0cf9971227092f0d372591db1d0a723a266fbb1",
+  "archive": {
+    "path": "private/preservation/cd1-transfer/cd1-a0cf99712270-a18c40ba44c5.tar",
+    "bytes": 673433600,
+    "sha256": "a18c40ba44c5be68316d60ccdd2210e236ff290b7d5b51149b972602151bed3a"
+  },
+  "payload_files": 7581,
+  "payload_bytes": 666343528,
+  "archive_payload_verified": true,
+  "git_bundle_verified": true,
+  "independent_backup_verified": false,
+  "restore_from_independent_storage_verified": false
+}

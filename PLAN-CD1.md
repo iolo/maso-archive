@@ -598,7 +598,18 @@ See [TOC import and historical snapshots](docs/TOC-IMPORT.md).
 
 ## Exact scope of the next article task: step 12b.1 — `8802030`
 
-**Prerequisite:** complete step 11b with real independent backup/restore evidence.
+Step 11b handoff preparation is complete: a checksummed **674 MB local transfer
+archive** contains the ISO, full probe, prepared artifacts, and Git history through
+`a0cf997`. See the [transfer instructions](docs/CD1-PRESERVATION.md#prepared-local-transfer-set)
+and [receipt](data/catalog/preservation/cd1-transfer.json). All archived payloads
+and the Git bundle were checked locally. This is ready for the owner to copy;
+the owner reports a local copy and physical CD. Their accessible locations and
+restore evidence are pending; the physical CD is an independent recovery source
+but has not been read-tested here.
+
+**Prerequisite:** complete step 11b with real independent backup/restore evidence
+(or a verified fresh read from the physical CD, with the other preservation files
+accounted for separately).
 The current readiness record remains false; no new recovery begins on local
 inventory evidence alone.
 
@@ -626,7 +637,7 @@ single “continue” still means one bounded task.
 | 9 — Done: one-article content package | Private pilot runtime files, previews, accepted assets, manifest, and separate provenance. | All content and media references resolve or carry explicit unavailable status; source links/hashes and deterministic rebuilds are checked. The reading room can consume the documented files without parsing RTF. |
 | 10 — Done: second-article check | Recovered and packaged `8802114`, including a combined two-article v1 package. | Long listings and unnumbered headings preserve source structure. Font 15 uses an explicit ASCII policy; the schema remains unchanged. |
 | 11a — Done: local source inventory | Checksummed original, exact ISO/extracted-tree comparison, and complete probe coverage. | Every observed source file is accounted for and the inventory reproduces; this alone does not establish backup readiness. |
-| 11b — Deferred: independent backup/restore | Independently stored source set and actual restore evidence with private location records. | A real independent ISO restore verifies all disc files; preserved probe/repository evidence is recorded before bulk processing. |
+| 11b — Pending: recovery-source verification | Verify the owner-reported local copy or physical CD; retain private location records. | A real independent ISO restore or fresh physical-CD read verifies all disc files; preserved probe/repository evidence is recorded before bulk processing. |
 | 12a — Done: one-issue coverage audit | Read-only February 1988 TOC/CD coverage and matching report. | Every TOC entry and discovered CD reference has an explicit metadata relationship and preparation status, with no guessed matches or new body extraction. |
 | 12a.1 — Done: expanded TOC validation/import | Review and import the 1991–1993 additions with stable IDs and explicit historical snapshots. | Issue attribution is supported, imports validate, existing article provenance stays reproducible, and regression checks pass. |
 | 12b–c — Gated: issue preparation, in small tasks | After 11b, recover bounded article batches, then build the issue package and catalog/search records. | All issue content references resolve or carry explicit exceptions, and the static package validates end to end. First batch 12b.1 is `8802030` only, as defined in the coverage report; define later batches separately. |
