@@ -1,15 +1,25 @@
-# Step-by-step implementation plan
+# CD1 extraction and reading-room content plan
 
-Revised 2026-09-18. This is the active work queue. The previous detailed plan is
-retained in [Design reference](docs/DESIGN-REFERENCE.md); it is not a requirement
-to build every proposed component now.
+Revised 2026-09-18. This is the active work queue for extracting CD1 and organizing
+its content for the reading room. The separate [reading-room PRD](PRD-reading-room.md)
+owns the viewer's UI and application architecture. The previous broad archive
+plan remains in [Design reference](docs/DESIGN-REFERENCE.md) as historical context.
 
 ## Goal and first milestone
 
-The eventual goal remains a searchable archive for **1983-11–1990-12: 86 issues**.
-We do not yet have all its source material. The first milestone uses only what
-we already have: **one complete article recovered from CD1, linked to its TOC
-record, and checked against the original Windows viewer**.
+This plan's goal is **reproducible CD1 content extraction and a static content
+package that the reading room can consume**: issue/TOC metadata, article text and
+semantic blocks, captions, converted media, source relationships, and explicit
+coverage/review status. The first milestone remains **one complete article
+recovered from CD1, linked to its TOC record, and checked against the original
+Windows viewer**.
+
+The archive's initial selection remains **1983-11–1990-12: 86 issues**. CD1's
+observed index coverage is **1988–1993**. Prepare available CD1 content across
+that source coverage in later controlled batches; keep the initial archive
+selection separate from extraction coverage. Preserve 1991–1993 source identities
+without inventing entries in the existing TOC or silently expanding that selection.
+Missing 1983–1987 scans remain a separate future source task.
 
 Full-text extraction/preparation is required regardless of whether an article is
 ever published. Keep the recovered text and provenance private and reusable.
@@ -17,11 +27,38 @@ Possible future access for paper-issue/CD owners is a separate product decision;
 eligibility rules and ownership/access verification are unresolved. They do not
 block extraction, and no access mechanism is selected in this checkpoint.
 
-Proceed from **one article → one issue → the catalog**. Use what each step
-teaches us to specify the next. Missing scans do not block the first milestone.
+Proceed from **one article → one reading-room content package → one issue → CD1**.
+Use what each step teaches us to specify the next. Missing scans do not block
+the first milestone.
 Do not estimate or automate collection-wide extraction until we understand the
 one-article path. “Complete” here means complete against the CD article; it does
 not claim fidelity to printed pages we have not inspected.
+
+## Responsibility and handoff
+
+| This plan produces | The reading-room PRD owns |
+| --- | --- |
+| Recovered text, semantic blocks, media derivatives, and provenance | Article/media display and reading typography |
+| Stable issue/article/media identities, TOC order, and explicit relationships | Issue selection, navigation, routing, and responsive layouts |
+| Pregenerated catalog/search data and content availability status | Client-side browsing/search interactions and missing-content presentation |
+| Versioned static data files and validation reports | Vite/React/TypeScript SPA, components, themes, and application tests |
+
+The handoff must work with the PRD's **static files and client-side SPA**, with no
+runtime extraction, server, database, or backend requirement. Extraction tools
+remain offline build tools. Viewer development can use the first sample package
+without waiting for the entire CD to be processed.
+
+Keep three layers distinct: preserved source/recovery evidence; structured reading
+content with ordered blocks and media relationships; and derived reading exports
+such as Markdown. Markdown remains useful for review, but mixed code/image content
+must also be available as structured data so the viewer can represent it faithfully.
+The exact versioned handoff schema is a later bounded step, informed by this pilot.
+
+Packages stay private during preparation. Choosing publication content, deployment,
+or an ownership/access policy belongs to separate work; extraction and packaging
+continue independently of those decisions. Source-internal navigation, unresolved
+attachments, and absent covers must remain explicit rather than becoming guessed
+editorial relationships or synthetic assets.
 
 ## Already completed
 
@@ -331,21 +368,45 @@ The original viewer remains the fidelity reference for step 7. Its comparison
 must cover semantic blocks, code boundaries, heading hierarchy, and caption/
 figure/table relationships as well as text and images.
 
-## Later checkpoints — detail them when reached
+## Next checkpoints: organize and expand CD1 content
 
-These retain the intended outcome without pretending that unknown extraction
-work is already specified. Break each checkpoint into numbered tasks before
-starting it; none is a single “next task.”
+Step 6 remains the next implementation task, followed by step 7. The queue below
+starts after the pilot comparison. Define exact inputs and checks when reached;
+split issue/disc batches into smaller numbered tasks before starting them. A
+single “continue” still means one bounded task.
 
-| Checkpoint | Small tasks to schedule | Evidence needed to advance |
+| Step / checkpoint | Deliverable | Complete when |
 | --- | --- | --- |
-| A second article | Choose one case that exercises a different feature, such as code or an image; repeat the verified path and address one new failure at a time. | The method works beyond the first sample. |
-| Preservation readiness | Generate a durable inventory for CD1; reuse it for CD2 and CD3 separately; record an actual backup location and verify a restore when backup storage is available. | Source files are accounted for; backups are verified rather than assumed. Existing hashes/private probe manifests support the pilot but do not complete this checkpoint. |
-| One issue | Choose an issue with usable CD content; enumerate TOC/CD matches; review ambiguities; recover its available articles in small batches; produce a coverage report. | Every TOC entry has a known status, including absent or unsupported content. Complete these preservation tasks before bulk processing. |
-| Local catalog | Render one issue's TOC; add article metadata navigation; add title/author search; then enable all 86 imported issues. | Useful browsing/search works with missing content honestly labeled. A database or new framework is added only if required. |
-| Publication-ready build | Specify public fields and asset decisions; implement the allowlisted export; test exclusion and withdrawal; prepare a site build and contact/access information. | The exact public artifact is reviewable. Local build completion does not mean deployment or publication approval. |
-| Restricted reading access, if pursued | Define eligibility and permission evidence; evaluate paper/CD ownership verification and delivery options against the reading-room design. | An explicit access policy and reviewed technical design; no ownership-verification mechanism is assumed or required for private text recovery. |
-| Expansion | Review one additional issue at a time; measure failure/review effort before choosing a larger batch; add supplied 1983–1987 scans through a separate sample-first path. | Quality and source traceability survive a larger collection. |
+| 8 — Reading-room content contract | Define a versioned static-data schema using the pilot's metadata, blocks, and image map. | The contract represents issue/TOC/article/media identities, mixed content, captions, missing data, and review status; a sample validates without requiring a UI or backend. |
+| 9 — One-article content package | Export the pilot and its issue/TOC context, reading blocks, Markdown preview, converted assets, and manifest into one private package. | All content and media references resolve or carry explicit unavailable status; source links/hashes and deterministic rebuilds are checked. The reading room can consume the documented files without parsing RTF. |
+| 10 — Second-article check | Select a different structural case, repeat recovery, and export it through the same contract. | The new article preserves its source structure; unsupported cases are recorded and any schema change is explicit. Split new extraction problems into smaller tasks. |
+| 11 — CD1 preservation readiness | Complete a durable CD1 source inventory; record a backup location and verify a restore when storage is available. | Source files are accounted for and backup/restore evidence exists before bulk processing. Existing probe hashes are retained but do not substitute for a verified backup. |
+| 12 — One issue, in small tasks | First establish TOC/CD coverage; then recover a bounded article batch at a time; finally build the issue package and catalog/search records. | Every TOC entry and discovered CD article has an explicit match/availability/review status, with no guessed matches or silently omitted content. The static package validates end to end. |
+| 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including source content outside the initial archive selection. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
+
+### Content contract requirements to carry into step 8
+
+- Reuse existing TOC identities and native CD references. Model article/topic/TOC
+  relationships explicitly, including unmatched sources and multi-topic articles.
+- Include issue dates, ordered TOC entries, source-supported titles/authors/pages,
+  and cover availability. Missing values remain missing; CD index coverage is not
+  evidence of complete printed-issue coverage.
+- Preserve ordered blocks, code whitespace, inline emphasis, captions, and
+  mixed text/media sequences. Expose unresolved content and table-image fallbacks
+  so the viewer does not need to reverse-engineer the Markdown preview.
+- Give media stable identities, package-relative paths, formats/dimensions where
+  known, and conversion/availability status. Resource references must work beneath
+  a configurable static base URL without leaking local filesystem paths.
+- Provide small issue/article catalog records for navigation and client-side
+  search. Document the searchable fields; keep their generation separate from
+  the viewer's search interaction. Do not invent related/recommended articles.
+- Retain traceability to source topics/spans and preservation manifests, while
+  keeping detailed extraction ledgers out of the viewer's required runtime data.
+  Validate schema versions, ordering, identities, references, and output hashes.
+
+This plan ends with validated CD1 content packages and an honest coverage report.
+UI implementation follows the reading-room PRD; publication, access policy,
+CD2/CD3 extraction, and later scans each need their own scope when pursued.
 
 ## Boundaries that remain in force
 
@@ -357,9 +418,9 @@ starting it; none is a single “next task.”
   follows from successful extraction or possession of a disc.
 - Missing authors, pages, bodies, and covers remain missing. CD reformatted text
   is not a facsimile of the original magazine page.
-- CD2/CD3 bulk extraction, OCR for later scans, summaries, entity enrichment,
-  timelines, and full-text publication stay deferred until a concrete checkpoint
-  requires them. They do not block the first verified article.
+- UI implementation, CD2/CD3 extraction, OCR for later scans, summaries, entity
+  enrichment, timelines, and publication/access implementation are outside this
+  CD1 content plan. They do not block private content preparation.
 
 For existing implementation details, see [TOC import](docs/TOC-IMPORT.md),
 [CD1 extraction](docs/CD1-EXTRACTION.md), and

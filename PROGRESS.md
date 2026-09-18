@@ -429,3 +429,31 @@
   hashes, and Git exclusion checks passed; generated content stays private.
 - Next: **step 6 — image map and viewable derivatives**. Original-viewer comparison
   is still pending in step 7; this preview does not complete the first milestone.
+
+## 2026-09-18 — Refocus plan on CD1 content preparation
+
+- Read the owner's separate `PRD-reading-room.md` and included it unchanged as
+  the viewer/UI reference. Revised PLAN.md around CD1 extraction and organizing
+  static content for that reading room; linked both documents from README.md.
+- Defined the handoff as pregenerated issue/TOC/article/media data, ordered
+  semantic blocks, Markdown previews, converted assets, provenance, and explicit
+  coverage/review status. The PRD owns the client-side SPA and UI; the extraction
+  plan adds no runtime server, database, or backend requirement.
+- Kept step 6 image mapping and step 7 original-viewer comparison next. Added
+  subsequent checkpoints for a versioned content contract, one-article package,
+  a second structural sample, preservation readiness, one issue, and remaining
+  CD1 coverage in bounded tasks. Exact schemas and batch sizes remain to be
+  specified from evidence when those steps are reached.
+- Distinguished CD1's observed 1988–1993 source coverage from the archive's
+  initial 1983-11–1990-12 selection. Later CD1 extraction preserves sources
+  outside that selection without inventing TOC records or changing archive scope.
+- Removed UI, publication, and access implementation from this plan's future
+  queue. Kept full-text preparation independent of publication and eligibility
+  decisions; CD2/CD3 and later scans belong to separate future scopes.
+- Validation: checked local documentation links and the staged diff; confirmed
+  the supplied PRD is byte-for-byte unchanged. Documentation-only revision; no
+  extraction output or code changed, so no test rerun was needed. The initial
+  combined edit was rejected on a mismatched context line and reapplied in smaller
+  patches. Git's whitespace check reports the supplied PRD's existing final blank
+  line; retained it to preserve the owner's file and checked its other whitespace
+  separately. Next implementation task remains **step 6**.

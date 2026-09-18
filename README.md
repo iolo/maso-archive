@@ -2,7 +2,8 @@
 
 월간 마이크로소프트웨어의 비공식 디지털 아카이브.
 
-- [Step-by-step plan](PLAN.md)
+- [CD1 extraction and reading-room content plan](PLAN.md)
+- [Reading-room PRD](PRD-reading-room.md)
 - [Detailed design reference](docs/DESIGN-REFERENCE.md)
 - [Progress](PROGRESS.md)
 - [Offline tasks for the owner](docs/OFFLINE-TASKS.md)
