@@ -133,9 +133,9 @@ populations; neither is a verified count of complete articles.
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
 | 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6, 8–10, 11a, 12a, and 12a.1 are complete. Step 7 is deferred pending
+Steps 1–6, 8–10, 11a, 12a, 12a.1, and 12b.1 are complete. Step 7 is deferred pending
 physical-magazine evidence; 11b awaits independent storage or an optical drive.
-**Step 12b.1 (`8802030`) is next. Backup/restore verification does not block
+**Step 12b.2 (`8802184`) is next. Backup/restore verification does not block
 non-destructive extraction from the verified sources.**
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
@@ -599,7 +599,7 @@ checksummed, reconstructable snapshot. Both article witnesses and the coverage
 report reproduce without changing their reviewed hashes or runtime schema.
 See [TOC import and historical snapshots](docs/TOC-IMPORT.md).
 
-## Exact scope of the next article task: step 12b.1 — `8802030`
+## Completed scope: step 12b.1 — `8802030`
 
 Step 11b handoff preparation is complete: a checksummed **674 MB local transfer
 archive** contains the ISO, full probe, prepared artifacts, and Git history through
@@ -625,9 +625,36 @@ produce a validated standalone v1 package. Combine it with the two existing
 articles only after standalone checks pass. Preserve boundary uncertainty and
 pending print verification; do not claim complete printed-issue coverage.
 
+Result: [Gary Kildall interview](docs/CD1-INTERVIEW-8802030.md) prepared.
+Topics 145/146 contain 71,443 RTF bytes, 107 paragraphs, 85 runs, and one bitmap.
+All 27 prompts and 40 answer paragraphs retain their ordered text and bold/plain
+formatting. Turn associations remain in the private block map/provenance; v1
+paragraph blocks preserve the reading representation without schema changes.
+Standalone (8 files) and combined three-article (34 files) packages validate.
+The older packages and historical coverage report remain unchanged. Three of
+February's five indexed targets are prepared; `8802184` and `8802180` remain.
+The owner's *Programmers at Work* attribution is recorded separately from the
+CD editorial byline and remains unverified against the book.
+
+## Exact scope of the next article task: step 12b.2 — `8802184`
+
+**Inputs:** the metadata match for `터보 C로 작성한 에디터`, the checksummed native
+MVB and preserved RTF/media, and the validated three-article package.
+
+**Deliverable:** map only this article's native/RTF boundaries and linked topics;
+recover all available text and preserve code/listing whitespace, font decisions,
+media, and captions. Inspect actual structures before extending decoder behavior;
+retain unsupported content explicitly. Validate a standalone v1 package before
+composing the next combined package, preserving all earlier article bytes.
+
+**Check:** exact source-byte/run/paragraph accounting, supported TOC/title/page
+metadata, media disposition, and reproducible standalone/combined validation.
+Physical-print comparison remains pending. Do not infer full issue coverage or
+start `8802180`, remaining issues, media repair, or reading-room UI work in this batch.
+
 ## Next checkpoints: organize and expand CD1 content
 
-Step 12a.1 is complete. Step 12b.1 is next. Steps 7 and 11b remain independently
+Step 12b.1 is complete. Step 12b.2 is next. Steps 7 and 11b remain independently
 deferred; neither blocks content preparation from the verified local sources.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
@@ -642,7 +669,8 @@ single “continue” still means one bounded task.
 | 11b — Deferred: recovery-source verification | Transfer the prepared set to independent storage, or verify the physical CD when a drive is available. | A real independent ISO restore or fresh physical-CD read verifies all disc files; preserved probe/repository evidence is recorded separately from extraction progress. |
 | 12a — Done: one-issue coverage audit | Read-only February 1988 TOC/CD coverage and matching report. | Every TOC entry and discovered CD reference has an explicit metadata relationship and preparation status, with no guessed matches or new body extraction. |
 | 12a.1 — Done: expanded TOC validation/import | Review and import the 1991–1993 additions with stable IDs and explicit historical snapshots. | Issue attribution is supported, imports validate, existing article provenance stays reproducible, and regression checks pass. |
-| 12b–c — Next: issue preparation, in small tasks | Recover bounded article batches, then build the issue package and catalog/search records. | All issue content references resolve or carry explicit exceptions, and the static package validates end to end. First batch 12b.1 is `8802030` only, as defined in the coverage report; define later batches separately. |
+| 12b.1 — Done: Gary Kildall interview | Standalone and three-article packages preserving 27 interview turns. | Topics 145/146 and all source runs/media are accounted for, packages validate under unchanged v1, and previous article outputs remain identical. |
+| 12b.2–c — Next: issue preparation, in small tasks | Recover bounded article batches, then build the issue package and catalog/search records. | All issue content references resolve or carry explicit exceptions, and the static package validates end to end. Next batch 12b.2 is `8802184` only; then define the `8802180` batch and complete issue packaging/coverage records. |
 | 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content covered by the newly supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
 
 ### Content contract requirements implemented in step 8

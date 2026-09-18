@@ -28,6 +28,7 @@ further extraction; per-disc coverage and completeness remain to be verified.
 - [Reading-room content contract v1](docs/READING-ROOM-CONTENT-V1.md)
 - [Pilot reading-room package](docs/CD1-PACKAGE-8802065.md)
 - [Second article and two-article schema check](docs/CD1-SECOND-ARTICLE-8802114.md)
+- [Gary Kildall interview and three-article package](docs/CD1-INTERVIEW-8802030.md)
 - [CD1 source inventory and backup readiness](docs/CD1-PRESERVATION.md)
 - [February 1988 coverage audit](docs/CD1-COVERAGE-1988-02.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
@@ -71,3 +72,7 @@ Copying it to independent storage and verifying restoration remain separate step
 Run `make audit-cd1-issue` for the read-only February 1988 TOC/CD coverage audit,
 or `PYTHONPATH=src python3 -m tools.audit_cd1_issue --check` to verify its tracked
 report without writing. It accounts for metadata and existing prepared packages.
+
+Run `make prepare-cd1-interview` to reproduce `8802030` and the combined
+three-article package under `build/cd1-articles/8802030/`. The interview preserves
+bold prompts and multi-paragraph answers under the unchanged v1 schema.

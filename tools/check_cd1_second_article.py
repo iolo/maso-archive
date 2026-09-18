@@ -82,17 +82,17 @@ def block_map(article):
     return result
 
 
-def reading_sections(article, mapping):
+def reading_sections(article, mapping, reference=REFERENCE, introduction_ordinal=151):
     sections = []
     for topic in article["topics"]:
-        section = {"id": f"cd1:topic:{topic['ordinal']}", "role": "introduction" if topic["ordinal"] == 151 else "body", "blocks": []}
+        section = {"id": f"cd1:topic:{topic['ordinal']}", "role": "introduction" if topic["ordinal"] == introduction_ordinal else "body", "blocks": []}
         for block in mapping["blocks"]:
             if block["topic_ordinal"] != topic["ordinal"]:
                 continue
             paragraphs = []
             for member in block["members"]:
                 source = topic["paragraphs"][member["paragraph_ordinal"] - 1]
-                identifier = f"cd1-{REFERENCE}:T{topic['ordinal']}:P{source['ordinal']:03d}"
+                identifier = f"cd1-{reference}:T{topic['ordinal']}:P{source['ordinal']:03d}"
                 runs = []
                 for n, run in enumerate(source["runs"], 1):
                     require(run["kind"] in ("text", "object"), "Unresolved decoding cannot become reading text")

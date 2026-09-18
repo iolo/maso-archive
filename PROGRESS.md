@@ -914,3 +914,54 @@
 - Validation: checked readiness JSON, documentation links, remaining gate wording,
   and whitespace. No code, schema, or article output changed; tests were not rerun
   for this planning/metadata correction.
+
+## 2026-09-18 — CD1 step 12b.1: Gary Kildall interview prepared
+
+- Mapped reference **`8802030` / CP/M의 게리 킬달** to native body topic 146
+  (hash `0x0e6881f5`, alias `6SRE0ZE`) and linked introduction 145 (`3M4UJI`).
+  Both CD index occurrences agree with February 1988 and the specific TOC series
+  prefix comparison for `maso-1988-02-toc-0031`. The CD explicitly reports page
+  30 and credits `글/ 편집부`; end page and print comparison remain unknown/pending.
+- Verified both RTF aliases against native context offsets, the introduction
+  link, adjacent separators 144/147, and previous/next browse boundaries. The
+  two selected spans total **71,443 bytes**. An initial adjacent-topic probe hit
+  unsupported `tab` controls in the preceding article; its text was excluded
+  from this bounded task. The actual interview topics need no decoder extension.
+- Recovered **107 paragraphs / 85 runs / one media occurrence**, with strict
+  font 4/5 CP949 decoding and complete byte/token accounting. Every paragraph,
+  run, mark, and spacing block survives projection into the unchanged v1 contract.
+- Identified **27 interview prompts and 40 answer paragraphs** using reviewed
+  positions, bold/plain runs, indentation, spacing, and source order. Prompts
+  remain bold paragraph blocks; no artificial headings or visible speaker labels
+  were introduced. Private block/provenance metadata preserves explicit turn
+  associations and interview-question/answer subtypes. Dedicated runtime Q/A
+  roles would require a future contract extension; they are not claimed here.
+- Converted the 32 × 25 title-linked `bm42.bmp` to PNG and confirmed decoded
+  RGBA equality. The small marker is not an interview photograph. Source object
+  position and emphasis remain intact; no other media occurs in these topics.
+- Preserved the owner's *Programmers at Work* attribution as an owner-provided
+  bibliographic note, unverified against the book. No book credit was observed
+  in the recovered text; the CD's editorial byline remains unchanged. The TOC
+  series label `(5)` and introduction's fourth-programmer wording are retained
+  without harmonization. No book/print completeness or publication rights are
+  inferred, and publisher text/assets stay in ignored build output.
+- Added `make prepare-cd1-interview`, an **8-file standalone package**, and a
+  **34-file combined three-article package** under `build/cd1-articles/8802030/`.
+  Standalone validation precedes composition. The combined package has six
+  sections, 417 blocks, 915 paragraphs, 23 media occurrences, and six previews.
+  All 39 TOC entries remain; three link to prepared articles. Earlier article
+  documents/previews remain byte-identical, including both deferred media states.
+- Reused the second-article assembler and parameterized its section projection
+  with defaults preserving the earlier result. No schema or general decoder
+  changes were needed. The historical two-article package and coverage report
+  remain unchanged; the new preparation summary records the newer status.
+- Validation: **all 128 tests pass**, including eight new interview checks for
+  native boundaries, complete byte accounting, every run/mark, multi-paragraph
+  answers, rejected style drift, bitmap pixels, preview content ranges, relocated
+  standalone/combined packages, old article preservation, and attribution limits.
+  A second command-line build reproduced the reviewed record. Documentation links,
+  private-output exclusions, and whitespace checks pass.
+- Updated PLAN-CD1 and current guidance: **12b.1 complete; 12b.2 (`8802184`,
+  터보 C로 작성한 에디터) is next**. Three of February's five indexed targets are
+  prepared; `8802184` and `8802180` remain. Backup/restore and physical comparison
+  remain independently deferred and do not block extraction.
