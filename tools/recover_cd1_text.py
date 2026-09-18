@@ -1,7 +1,7 @@
 """Recover the mapped CD1 pilot's full available text into private build output.
 
-Run python3 -m tools.recover_cd1_text. This supports only the reviewed pilot RTF
-subset. Unknown/undecodable content stays explicitly flagged with source spans.
+Run python3 -m tools.recover_cd1_text. The reusable decoder supports the reviewed
+CD1 RTF subset. Unknown/undecodable content stays explicitly flagged with source spans.
 """
 
 import argparse
@@ -64,7 +64,7 @@ def recover_topic(rtf, report, initial_state=None, font_codecs=None):
             codec = font_codecs[font]
             run["encoding"] = codec
             text = encoded.decode(codec, errors="strict")
-            require("\ufffd" not in text and all(ord(c) >= 32 for c in text),
+            require("\ufffd" not in text and all(c == "\t" or ord(c) >= 32 for c in text),
                     "Replacement/embedded control character")
             require(text.encode(codec, errors="strict") == encoded, "Byte round-trip mismatch")
             run["text"] = text
@@ -124,7 +124,15 @@ def recover_topic(rtf, report, initial_state=None, font_codecs=None):
         elif kind == "control_word":
             flush()
             word, value = token["word"], token["parameter"]
-            if word == "par":
+            if word == "tab":
+                require(value is None, "Unexpected tab parameter")
+                # Keep the character, not a guessed tab width; spans still point
+                # to the original control token and the ledger records its use.
+                add_bytes(b"\t", token)
+                account(token, "text_control")
+                transformations.append({"byte_offset": start, "byte_length": length,
+                                        "action": "emit_rtf_tab_character"})
+            elif word == "par":
                 paragraphs.append({"ordinal": len(paragraphs) + 1,
                                    "source_span": {"byte_offset": paragraph_start, "end_exclusive": start + length},
                                    "format": state["paragraph"].copy(), "runs": runs,

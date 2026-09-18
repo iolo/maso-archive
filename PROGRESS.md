@@ -965,3 +965,47 @@
   터보 C로 작성한 에디터) is next**. Three of February's five indexed targets are
   prepared; `8802184` and `8802180` remain. Backup/restore and physical comparison
   remain independently deferred and do not block extraction.
+
+## 2026-09-18 — CD1 step 12b.2: Turbo C editor prepared
+
+- Mapped **`8802184` / 터보 C로 작성한 에디터** to body topic 161 (`1KN6LK`,
+  hash `0x0e6841c5`) and introduction 160 (`3M4LOC`). Native context offsets,
+  the introduction link, adjacent separators 159/162, and browse boundaries
+  agree. The selected RTF spans total **62,315 bytes**. Both index occurrences
+  match TOC entry `maso-1988-02-toc-0027`, February 1988, and page 184. The CD
+  credits `글/ 우원식`; end page and physical comparison remain unknown/pending.
+- Recovered **1,206 paragraphs / 1,117 runs / five media occurrences** with
+  strict CP949 for fonts 4/5 and ASCII for explicitly identified Fixedsys font 15.
+  Every source byte is accounted for; no unsupported runs remain.
+- Added explicit RTF `\tab` support: all **30 tabs** survive as U+0009 with
+  source spans and transformation records. They are not expanded to spaces.
+  Parameterized tabs and unsupported controls still fail. The existing 175
+  HELPDECO brace-guard removals remain separately recorded.
+- Mapped **85 blocks**, including a **1,121-line C listing**, a two-line example
+  in the prose font, 14 headings, three figures, and four caption relationships.
+  Code text, blank lines, tabs, and apparent source spelling errors remain exact
+  in JSON and Markdown. Closing-heading placement is explicitly an interpretation
+  pending physical review. No historical program was compiled or executed.
+- Converted all five bitmaps to PNG with identical decoded RGBA pixels and
+  visually inspected the three diagrams. The shared `bm40.bmp` icon keeps its
+  existing identity and bytes; it appears once in the combined media index.
+  No deferred WMF repair was attempted, and their existing records remain intact.
+- Added `make prepare-cd1-editor`, a **12-file standalone package**, and a
+  **41-file combined four-article package** under `build/cd1-articles/8802184/`.
+  Standalone validation precedes composition. The combined package has eight
+  sections, 502 blocks, 2,121 paragraphs, 27 media records, 28 media occurrences,
+  and eight previews. All previous article documents, previews, media records,
+  and image assets remain identical. Schema v1 is unchanged.
+- Validation: **138 tests pass**, including eight editor integration checks and
+  two tab-decoder checks. Coverage includes complete byte accounting, every run
+  and mark, exact fenced code, tab transformations, heading/caption relationships,
+  rejected evidence drift, bitmap pixels, relocated packages, and shared media.
+  Earlier recovery/package records still reproduce under the extended decoder.
+  A second command-line build reproduced the reviewed record. Local documentation
+  links, readiness JSON, private-output exclusions, and whitespace checks pass.
+- Updated current guidance: **12b.2 complete; 12b.3 (`8802180`) is next**, starting
+  with its TOC/CD title variation. Four of February's five indexed targets are
+  prepared; 35 of 39 TOC entries remain unmatched in the runtime package.
+  Historical packages and the earlier coverage audit stay unchanged. Publisher
+  text and assets remain ignored private output; print comparison, backup/restore,
+  and publication decisions remain separate from this extraction checkpoint.

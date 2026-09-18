@@ -93,6 +93,7 @@ The first package, [second-article check](CD1-SECOND-ARTICLE-8802114.md), and lo
 source inventory are complete. Step 11b is deferred until independent storage or an optical drive
 is available for recovery verification. The [February coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC
 import are complete. The corrected 1991–1993 entries are imported with stable IDs.
-The Kildall interview (`8802030`) is prepared. The next article task, `8802184`, can proceed from verified sources while
+The Kildall interview (`8802030`) and Turbo C editor (`8802184`) are prepared.
+The next article task, `8802180`, can proceed from verified sources while
 backup/restore verification remains deferred.
 Physical reference collection and print comparison (step 7) remain independent.

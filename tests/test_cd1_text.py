@@ -51,6 +51,35 @@ class TextRecoveryTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.recover(rb"\f4\unknown X")
 
+    def test_tabs_preserve_characters_format_and_source_accounting(self):
+        raw = rb"\f5\b A\tab B\tab\tab  C\par \plain\tab\par "
+        topic = self.recover(raw)
+        self.assertFalse(topic["issues"])
+        self.assertEqual(recovery.topic_text(topic), "A\tB\t\t C\n\t\n")
+        self.assertTrue(all(r["format"]["b"] and r["format"]["font_id"] == 5
+                            for r in topic["paragraphs"][0]["runs"]))
+        self.assertFalse(topic["paragraphs"][1]["runs"][0]["format"]["b"])
+        controls = [t for t in topic["accounting"] if t["disposition"] == "text_control"]
+        self.assertEqual(len(controls), 4)
+        self.assertEqual(len(topic["transformations"]), 4)
+        for token, change in zip(controls, topic["transformations"]):
+            start, length = token["byte_offset"], token["byte_length"]
+            self.assertIn(raw[start:start + length], (rb"\tab", b"\\tab "))
+            self.assertEqual(change, {"byte_offset": start, "byte_length": length,
+                                      "action": "emit_rtf_tab_character"})
+        cursor = 0
+        for token in topic["accounting"]:
+            self.assertEqual(token["byte_offset"], cursor)
+            cursor += token["byte_length"]
+        self.assertEqual(cursor, len(raw))
+
+    def test_tab_support_does_not_accept_other_controls_or_parameters(self):
+        with self.assertRaisesRegex(ValueError, "Unexpected tab parameter"):
+            self.recover(rb"\f4\tab2 X\par ")
+        with self.assertRaisesRegex(ValueError, "Unsupported visible control"):
+            self.recover(rb"\f4\line X\par ")
+        self.assertEqual(len(self.recover(rb"\f4\'01\par ")["issues"]), 1)
+
     @unittest.skipUnless((inventory.ROOT / inventory.RTF).exists(), "Private RTF unavailable")
     def test_real_text_matches_reviewed_outputs_and_excludes_neighbors(self):
         record, artifacts = recovery.build_recovery()

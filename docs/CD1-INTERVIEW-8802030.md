@@ -102,7 +102,7 @@ multi-paragraph answers, changed formatting, pixel equality, protected preview
 content, standalone relocation, combined-package preservation, and the separation
 of owner-provided bibliography from CD metadata.
 
-Next bounded task: **12b.2 — `8802184`, 터보 C로 작성한 에디터**. Map its source
-boundaries and inspect the actual code/listing formats before deciding whether
-the existing decoder and v1 contract are sufficient. Backup/restore remains a
-separate deferred task and does not block this extraction.
+Subsequent checkpoint: [12b.2 — Turbo C editor](CD1-EDITOR-8802184.md) is now
+complete, including a four-article package. The next bounded task is **12b.3 —
+`8802180`**, including review of its TOC/CD title variation. Backup/restore
+remains a separate deferred task and does not block extraction.

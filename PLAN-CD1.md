@@ -133,9 +133,9 @@ populations; neither is a verified count of complete articles.
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
 | 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6, 8–10, 11a, 12a, 12a.1, and 12b.1 are complete. Step 7 is deferred pending
+Steps 1–6, 8–10, 11a, 12a, 12a.1, and 12b.1–2 are complete. Step 7 is deferred pending
 physical-magazine evidence; 11b awaits independent storage or an optical drive.
-**Step 12b.2 (`8802184`) is next. Backup/restore verification does not block
+**Step 12b.3 (`8802180`) is next. Backup/restore verification does not block
 non-destructive extraction from the verified sources.**
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
@@ -636,7 +636,7 @@ February's five indexed targets are prepared; `8802184` and `8802180` remain.
 The owner's *Programmers at Work* attribution is recorded separately from the
 CD editorial byline and remains unverified against the book.
 
-## Exact scope of the next article task: step 12b.2 — `8802184`
+## Completed scope: step 12b.2 — `8802184`
 
 **Inputs:** the metadata match for `터보 C로 작성한 에디터`, the checksummed native
 MVB and preserved RTF/media, and the validated three-article package.
@@ -652,9 +652,45 @@ metadata, media disposition, and reproducible standalone/combined validation.
 Physical-print comparison remains pending. Do not infer full issue coverage or
 start `8802180`, remaining issues, media repair, or reading-room UI work in this batch.
 
+Result: [Turbo C editor article](docs/CD1-EDITOR-8802184.md) prepared. Topics
+160/161 account for 62,315 RTF bytes, 1,206 paragraphs, 1,117 runs, and five media
+occurrences. The 85 blocks retain the 1,121-line C listing, a two-line code example,
+14 headings, and four caption relationships. A bounded decoder extension preserves
+all 30 RTF tabs as literal tab characters with source-byte transformation records.
+Code whitespace and source spelling remain unchanged in JSON and Markdown.
+
+Five bitmap conversions preserve decoded pixels, including three diagrams. The
+standalone package (12 files) validates before composition into a four-article
+package (41 files). The shared title icon has one media identity; older article
+documents, previews, assets, and deferred media records remain identical. Schema
+v1 is unchanged. Four of February's five indexed targets are now prepared;
+`8802180` remains. Physical comparison is pending, and the historical coverage
+audit remains a record of its earlier two-article state.
+
+## Exact scope of the next article task: step 12b.3 — `8802180`
+
+**Inputs:** the February coverage audit's remaining candidate,
+`maso-1988-02-toc-0026`, checksummed MVB/RTF/index/media sources, and the validated
+four-article package. The TOC title is `터보 파스칼 한글 그래픽스 툴`; the CD index
+title is `터보 파스칼 한글 그래픽 툴`.
+
+**Deliverable:** review that specific title variation using native/body metadata
+and page evidence before deciding the TOC relationship. Preserve both source
+labels and the comparison rationale; do not globally normalize titles or force
+an ambiguous match. Map and recover only `8802180`, preserving actual code,
+figures, captions, and any unsupported content with explicit records. Validate
+a standalone v1 package before composing it with the four prepared articles.
+
+**Check:** complete selected-topic byte/run/paragraph accounting, supported
+metadata relationships, reproducible packages, and unchanged earlier article
+outputs. Keep print verification pending and defer failed media conversions.
+Do not start remaining issues, reading-room UI work, or complete issue coverage
+claims. Step 12c will reconcile the five-target preparation status with the full
+TOC and produce the final issue package/coverage handoff separately.
+
 ## Next checkpoints: organize and expand CD1 content
 
-Step 12b.1 is complete. Step 12b.2 is next. Steps 7 and 11b remain independently
+Steps 12b.1–2 are complete. Step 12b.3 is next. Steps 7 and 11b remain independently
 deferred; neither blocks content preparation from the verified local sources.
 Define exact inputs and checks when reached;
 split issue/disc batches into smaller numbered tasks before starting them. A
@@ -670,7 +706,8 @@ single “continue” still means one bounded task.
 | 12a — Done: one-issue coverage audit | Read-only February 1988 TOC/CD coverage and matching report. | Every TOC entry and discovered CD reference has an explicit metadata relationship and preparation status, with no guessed matches or new body extraction. |
 | 12a.1 — Done: expanded TOC validation/import | Review and import the 1991–1993 additions with stable IDs and explicit historical snapshots. | Issue attribution is supported, imports validate, existing article provenance stays reproducible, and regression checks pass. |
 | 12b.1 — Done: Gary Kildall interview | Standalone and three-article packages preserving 27 interview turns. | Topics 145/146 and all source runs/media are accounted for, packages validate under unchanged v1, and previous article outputs remain identical. |
-| 12b.2–c — Next: issue preparation, in small tasks | Recover bounded article batches, then build the issue package and catalog/search records. | All issue content references resolve or carry explicit exceptions, and the static package validates end to end. Next batch 12b.2 is `8802184` only; then define the `8802180` batch and complete issue packaging/coverage records. |
+| 12b.2 — Done: Turbo C editor | Standalone and four-article packages preserving code tabs, diagrams, and shared media. | Topics 160/161 and all 1,206 paragraphs are accounted for; both code blocks project exactly, five bitmap conversions preserve pixels, and unchanged v1 packages validate. |
+| 12b.3–c — Next: finish the first issue preparation | Recover `8802180`, then reconcile issue coverage and package/catalog records. | Review the remaining candidate's title variation, preserve all content or explicit exceptions, and validate the final issue handoff without claiming complete printed-issue coverage. |
 | 13 — Remaining CD1 coverage, in small tasks | Repeat issue preparation and account for remaining native targets, linked topics, and media, including 1991–1993 content covered by the newly supplied TOC. | A CD1 coverage report distinguishes recovered, unsupported, missing, unmatched, and navigation-only content. Reproducible packages retain all known exceptions and review status; no unreviewed article is labeled verified. |
 
 ### Content contract requirements implemented in step 8
