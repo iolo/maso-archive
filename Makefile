@@ -126,3 +126,7 @@ review-cd1-symbols:
 
 retry-cd1-symbol-sample:
 	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_symbol_sample $(FONT_ARGS)
+
+.PHONY: retry-cd1-symbol-arrows
+retry-cd1-symbol-arrows:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_symbol_arrows $(FONT_ARGS)

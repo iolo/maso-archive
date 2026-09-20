@@ -2020,3 +2020,66 @@
 - Full text, media and per-run evidence remain private. TOC matching, physical
   review, scans, image repair, backup/restore, CD2/CD3, UI and publication/access
   remain separate work. The owner's two PRD files are excluded from this commit.
+
+### 2026-09-20 — Step 18b started: reversible Symbol arrows in 9208198
+
+- Implement a separate source-bound glyph adapter for the eight reviewed runs:
+  six right arrows, one up arrow, two left arrows and 95 literal source spaces.
+  Map literal RTF byte 20 to U+0020 without changing spacing or reflowing text.
+- Keep the frozen parser, historical pipeline and schema unchanged. A separate
+  article pipeline invokes the adapter only for the exact reviewed job; auxiliary
+  handling and subsequent structure/media/Markdown/package stages retain behavior.
+- Name the new glyph encoding explicitly and preserve original encoded bytes.
+  Independent checks reconstruct RTF spans and verify the pinned glyph mapping
+  plus reverse bytes. Validate policy boundaries, full article preservation and
+  an isolated rebuild before planning combined integration.
+
+### 2026-09-20 — Step 18b sample verified; full regressions running
+
+- `9208198` prepares with review exceptions: **1,696 paragraphs, 535 blocks,
+  181,856 RTF bytes, 1,346 text runs and 24 object occurrences**. All eight Symbol
+  runs preserve six right arrows, one up arrow, two left arrows and 95 spaces.
+- Both article topics retain complete source accounting and formatting. All 15
+  available bitmaps preserve source pixels; nine WMFs remain explicitly deferred.
+  Both linked auxiliaries preserve their earlier separate recovery/dispositions.
+- Corrected an initial draft assumption about source-span fields: associations
+  store offset and length, so the adapter derives the end position. Its failed
+  draft checkpoint remains private under the earlier implementation identity.
+- Normal reruns reproduce the tracked sample record exactly. An isolated fresh
+  rebuild reproduces **all 22 runtime files byte for byte**, with identical source
+  checks and outcomes. All seven new tests pass, including the Markdown edge-space
+  representation (`&#32;`) and exact source/policy rejection checks.
+- Full regressions are running. Combined 17b coverage remains unchanged; 18c will
+  integrate the two validated Symbol samples in a separately audited checkpoint.
+
+### 2026-09-20 — Step 18b completed: reversible Symbol-arrow article
+
+- The source-bound `cd1_symbol_arrows_v1` adapter prepares `9208198` with its
+  **nine arrows and 95 literal spaces across eight runs / 104 encoded bytes**.
+  It preserves original bytes, spans, hashes, font/paragraph formatting, object
+  order and complete neighboring source text. It introduces no global font codec.
+- Independent source checks reconstruct every text run from RTF, validate the
+  pinned glyph reference and inverse bytes, and account for both complete topics.
+  The article retains **1,696 paragraphs, 535 blocks, 181,856 RTF bytes, 1,346 text
+  runs and 24 object occurrences**. All 15 available bitmaps preserve pixels;
+  nine WMFs remain deferred. Both auxiliary recoveries retain prior dispositions.
+- Standalone and partial August 1992 issue packages validate. Normal reruns
+  reproduce the record; an isolated rebuild reproduces **all 22 runtime files
+  byte for byte**, including Markdown with preserved edge-space entities.
+- **276 regression tests pass without skips** (seven new tests), including all
+  historical source/package/schema/Markdown/base-URL checks. Documentation links,
+  catalog JSON and whitespace checks pass. The frozen stage comparison confirms
+  only the exact-job gate, recorded glyph policy and article recovery call differ.
+- PLAN-CD1 marks **18b done; 18c next**: carry both supported Symbol samples into
+  combined issue packages, preserve earlier histories and audit all coverage.
+  Current 17b coverage remains **988 prepared articles across 72 issues, 92 failures
+  and eight blockers**. The two Symbol conflicts, `9309201` and 37 existing-codec
+  failures remain separate investigations.
+- The report is `docs/CD1-SYMBOL-ARROWS.md`; the tracked sample summary is
+  `data/catalog/batch-runs/cd1-symbol-arrow-sample.json`. Full text, media and
+  detailed evidence remain private. Shared decoder, schema, policies and earlier
+  records remain unchanged. The owner's two PRD files are excluded from this commit.
+- Final staged whitespace review removed one extra EOF blank line from the new
+  pipeline. Its implementation-bound record was regenerated; all runtime hashes,
+  source checks, outcomes and glyph-policy hash remain identical. No behavior or
+  historical implementation changed.

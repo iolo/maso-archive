@@ -1216,7 +1216,7 @@ Normal reruns reproduce both records; an isolated rebuild reproduces all 10
 runtime files exactly. **269 regression tests pass without skips**. See the
 [Symbol review report](docs/CD1-SYMBOL-REVIEW.md).
 
-### 18b — Next: reversible Symbol-arrow recovery and validation
+### 18b — Done: reversible Symbol-arrow recovery and validation
 
 Implement an isolated source-bound glyph decoder for `9208198` using the pinned
 mapping and complete 18a evidence. Account for every source byte and literal
@@ -1229,9 +1229,38 @@ contract, including a fresh rebuild and negative policy tests. Preserve both
 font/context conflicts and every earlier outcome. After validation, plan a separate
 combined-coverage checkpoint carrying the successful `9210202` sample forward.
 
+**Results:** `9208198` prepares with all eight reviewed runs preserving nine arrows
+and 95 literal spaces. Both topics retain **1,696 paragraphs, 535 blocks,
+181,856 RTF bytes, 1,346 text runs and 24 object occurrences**. Fifteen available
+bitmaps preserve source pixels; nine WMFs remain deferred. Exact source checks,
+Markdown spacing, standalone/partial-issue packages and normal reruns validate.
+An isolated rebuild reproduces all **22 runtime files** byte for byte.
+**276 regression tests pass without skips**. Frozen decoder, shared policy,
+schema and historical records remain unchanged. See the
+[Symbol-arrow report](docs/CD1-SYMBOL-ARROWS.md).
+
+### 18c — Next: integrate both validated Symbol samples
+
+Carry the source-bound punctuation sample `9210202` (18a) and reversible-arrow
+sample `9208198` (18b) into combined coverage. Preserve the 17b handoff and all
+four earlier retry histories, plus both Symbol sample outcomes and the two
+explicit font/context conflicts. Use isolated outputs and durable checkpoints.
+
+Verify each sample's implementation identity, source evidence and runtime hashes
+before reuse. Use the arrow-specific byte/glyph checker for `9208198` and the
+ordinary source checker for `9210202`. Compose all 72 issue packages from verified
+17b articles plus the two samples; compare previous article/media/preview content
+exactly, and keep auxiliary and deferred-media dispositions unchanged.
+
+Reconcile every original candidate and exception class, update coverage only
+after package/source validation, and prove complete resume and repeated reporting.
+The expected increase is two prepared articles, subject to that complete audit.
+The two Symbol conflicts, `9309201`, existing-codec failures and other exception
+classes are outside this integration's recovery scope.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b, 17a–17b and 18a are complete**.
+Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b, 17a–17b and 18a–18b are complete**.
 Every CD1 candidate has a durable first-pass outcome, all 470 association failures
 have subsequent outcomes, and all 33 reviewed ASCII-font candidates prepare.
 Current audited 17b packages contain **988 prepared articles across 72 issues**,
@@ -1240,10 +1269,11 @@ repeated coverage reporting and all 262 regression tests pass.
 
 Checkpoint 17b incorporates all six supported declaration successes into combined
 coverage. The ambiguous `9309201` remains deferred with its review evidence.
-Checkpoint 18a has audited all four Symbol cases and prepared one invariant
-punctuation sample; all 269 regressions pass. Next, 18b implements and
-validates reversible arrow recovery for `9208198`. The two font/context conflicts,
-`9309201` and 37 existing-codec failures remain separate investigations.
+Checkpoints 18a–18b have audited all four Symbol cases and validated the invariant
+punctuation sample `9210202` and reversible-arrow sample `9208198`; all **276
+regressions pass**. Next, **18c** carries both samples into combined issue coverage
+with a complete preservation and reconciliation audit. The two font/context
+conflicts, `9309201` and 37 existing-codec failures remain separate investigations.
 Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
 TOC matching is separate metadata work: 924 prepared articles still lack reviewed
@@ -1281,7 +1311,8 @@ of later publication decisions.
 | 17a — Done: remaining non-Symbol font review | Six supported policies, one deferred article and five fixed sample packages. | All 14 topics preserve evidence, five samples validate, 93 runtime files rebuild identically and 256 tests pass. |
 | 17b — Done: font-declaration retry reconciliation | Six successful retries, combined coverage and four preserved retry histories. | All 72 packages validate with 988 articles; the 80-file manifest and 15 coverage tables reproduce exactly; 262 tests pass and the ambiguous article remains deferred. |
 | 18a — Done: Symbol-font source review | One invariant-punctuation sample, two font/context conflicts and one deferred arrow decoder. | All six topics/15 runs retain evidence; the sample validates, 10 runtime files rebuild identically and 269 tests pass. |
-| 18b — Next: reversible Symbol-arrow recovery | Source-bound decoder, independent byte checks and one validated article. | All source bytes, glyphs, whitespace and formatting are preserved; package/Markdown/fresh-rebuild checks pass without broadening policy to conflicting articles. |
+| 18b — Done: reversible Symbol-arrow recovery | Source-bound decoder, independent byte checks and one validated article. | Eight reviewed runs preserve nine arrows and 95 spaces; both topics/packages validate, 22 runtime files rebuild exactly and 276 tests pass. |
+| 18c — Next: combined Symbol coverage | Two carried samples, combined issue packages and preserved exception histories. | All 72 packages and original candidates reconcile; earlier content is unchanged, both new articles pass source checks, and resume/repeated reporting agree. |
 
 ### Content contract requirements implemented in step 8
 
