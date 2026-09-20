@@ -1,0 +1,2 @@
+# Preserve the pinned upstream mapping byte for byte, including comment spacing.
+data/reference/adobe-symbol.txt -text -whitespace

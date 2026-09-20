@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "checkpoint": "18a",
+  "scope": "four_Symbol_font_cases",
+  "current_record": {
+    "path": "data/catalog/batch-runs/cd1-font-declaration-pass.json",
+    "bytes": 81564,
+    "sha256": "2167d7e25bde318d1a4717dc126da793ce82c421a3e15e747daf62422d42e0e1"
+  },
+  "prior_review_record": {
+    "path": "data/catalog/batch-runs/cd1-font-review.json",
+    "bytes": 16600,
+    "sha256": "76743ef97a36401464bb3fbde4a107e0076a8aff9619048693a1bb89d884eb67"
+  },
+  "mapping_reference": {
+    "url": "https://www.unicode.org/Public/MAPPINGS/VENDORS/ADOBE/symbol.txt",
+    "retrieved": "2026-09-20",
+    "file": {
+      "path": "data/reference/adobe-symbol.txt",
+      "bytes": 10489,
+      "sha256": "deb78ca840a429311939b9d165890873f71fb23ef223ceeb144a6c6d641a7e52"
+    },
+    "applicability": "reference mapping plus exact declaration and context; not physical glyph verification"
+  },
+  "pipeline_identity_sha256": "a4052c2f266b3d0eb21c4ea3a49eb2a5961136a6c683d23209c20b0ec7dea819",
+  "code_sha256": "61d59051c5df07dd3f97ad57101d5438de738e9d286939f17605775c10610c66",
+  "retained_check_sha256": "c45cff999d2af9703b74fd855650768345ae574ece838af97767d0a3ed65a0da",
+  "output_root": "build/cd1-symbol-review/stages/review/90e41d2c0dc853a5049ab1bfc38e66dbc9eb7ccee9627004d1300191909346bc",
+  "fingerprint": "90e41d2c0dc853a5049ab1bfc38e66dbc9eb7ccee9627004d1300191909346bc",
+  "outputs": [
+    {
+      "path": "articles/9205400a/recovery.json",
+      "bytes": 741375,
+      "sha256": "848ced427e37fc4c6607b52cd21a066af1e06878535932018331a9b1c34aa057"
+    },
+    {
+      "path": "articles/9205403/recovery.json",
+      "bytes": 800667,
+      "sha256": "138dcd7374d62bd0886045a2d220a33148ed27053306bede5a7ba1dc1e58b339"
+    },
+    {
+      "path": "articles/9208198/recovery.json",
+      "bytes": 7929152,
+      "sha256": "93cb7cef0e3a2035adfec75e82bb669fdccdd8cb2a5c1c50c6f0dbd8a11cc30a"
+    },
+    {
+      "path": "articles/9210202/recovery.json",
+      "bytes": 4100069,
+      "sha256": "a072af5074b304deaab0fb6d0924681cb4e695628eb1e7d2d70420f1e251664b"
+    },
+    {
+      "path": "jobs.json",
+      "bytes": 7822,
+      "sha256": "71838c43b8747af1025805bb25339ffdc28ebac7c913d63141009b1c9c02a89d"
+    },
+    {
+      "path": "policy.json",
+      "bytes": 1884,
+      "sha256": "52d6ec59228c1019996a9d970e1919f78529542c9a38a04276fb93e4261f3514"
+    },
+    {
+      "path": "runs.json",
+      "bytes": 93389,
+      "sha256": "489d0e6528b09969ce91633dc94e24d58b4c62356073244985cb4285ea95ceed"
+    }
+  ],
+  "cases": {
+    "9205400a": {
+      "runs": 2,
+      "status": "deferred_font_context_conflict",
+      "basis": "Two apparent BASIC PRINT keywords conflict with Greek capitals in the declared Symbol font"
+    },
+    "9205403": {
+      "runs": 1,
+      "status": "deferred_font_context_conflict",
+      "basis": "Apparent Pascal identifier suffix k conflicts with Greek kappa in the declared Symbol font"
+    },
+    "9208198": {
+      "runs": 8,
+      "status": "deferred_symbol_decoder_required",
+      "basis": "Left/up/right arrows agree with annotation context; frozen ASCII/CP949 decoder cannot preserve their byte-to-glyph mapping"
+    },
+    "9210202": {
+      "runs": 4,
+      "status": "source_bound_invariant_ascii_ready",
+      "font_codecs": {
+        "2": "ascii"
+      },
+      "basis": "Only digits 1/2/3, comma and semicolon; Symbol and ASCII mappings agree and source code context supports them"
+    }
+  },
+  "accepted_references": [
+    "9210202"
+  ],
+  "deferred_references": [
+    "9205400a",
+    "9205403",
+    "9208198"
+  ],
+  "fixed_sample": {
+    "9210202": "Only digits 1/2/3, comma and semicolon; Symbol and ASCII mappings agree and source code context supports them"
+  },
+  "counts": {
+    "articles": 4,
+    "source_topics": 6,
+    "reviewed_runs": 15,
+    "reviewed_bytes": 125,
+    "accepted_runs": 4,
+    "job_states": {
+      "deferred_font_context_conflict": 2,
+      "deferred_symbol_decoder_required": 1,
+      "source_bound_invariant_ascii_ready": 1
+    }
+  },
+  "limits": [
+    "one_invariant_ascii_policy_only",
+    "two_font_context_conflicts_retained",
+    "arrow_decoder_extension_pending",
+    "no_global_Symbol_mapping",
+    "no_code_repair",
+    "physical_review_pending",
+    "current_17b_combined_coverage_unchanged"
+  ]
+}

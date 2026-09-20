@@ -119,3 +119,10 @@ run-cd1-font-declaration-pass:
 
 report-cd1-font-declaration-pass:
 	PYTHONPATH=src $(PYTHON) -m tools.batch.font_declaration_coverage $(REPORT_ARGS)
+
+.PHONY: review-cd1-symbols retry-cd1-symbol-sample
+review-cd1-symbols:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.symbol_review $(FONT_ARGS)
+
+retry-cd1-symbol-sample:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_symbol_sample $(FONT_ARGS)

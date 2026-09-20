@@ -1957,3 +1957,66 @@
   TOC matching, physical review, scans, image repair, backup/restore, CD2/CD3, UI
   and publication/access remain separate work. The owner's two PRD files are
   excluded from this commit.
+
+### 2026-09-20 — Step 18a started: four Symbol-font cases
+
+- Inspect all six associated topics and 15 unsupported font-2 runs while preserving
+  the 17b combined handoff. Pin Unicode's published Adobe Symbol mapping, including
+  its redistribution notice, and compare the actual declaration and source context.
+- `9210202` contains only digits, commas and a semicolon whose mappings agree with
+  ASCII. `9208198` contains directional arrows requiring a distinct reversible
+  glyph decoder. `9205400a` and `9205403` have code-letter bytes that conflict with
+  the Symbol declaration; retain both interpretations without repairing code.
+- Validate the supported digit/punctuation sample under the unchanged decoder and
+  schema. Keep the arrow implementation limitation separate from the two source
+  ambiguities, with complete original byte/context evidence for each.
+- The complete audit reproduces all six original recoveries and checks **15 runs,
+  125 encoded bytes**. Only `9210202` receives a policy: four runs/nine bytes of
+  invariant digits and punctuation. The other 11 runs retain original unsupported
+  evidence, distinguished as two font/context conflicts and one decoder limitation.
+- The sample prepares with review exceptions: **424 paragraphs, 424 blocks,
+  90,389 RTF bytes, 380 text runs and three object occurrences**. All three bitmap
+  resources preserve pixels; standalone and partial issue packages validate.
+  Normal reruns, an isolated 10-file rebuild and full regressions are running.
+- Normal audit/sample reruns reproduce both tracked records exactly. The isolated
+  fresh rebuild reproduces **all 10 runtime files byte for byte**, with identical
+  source checks and outcomes. Full historical/package regressions remain running.
+
+### 2026-09-20 — Step 18a completed: Symbol decisions and invariant-punctuation sample
+
+- All **four Symbol-font articles, six source topics, 15 unsupported runs and
+  125 encoded bytes** are audited. Original recoveries reproduce exactly. The
+  Unicode-hosted Adobe Symbol reference is pinned with its original notice and
+  SHA-256 `deb78ca840a429311939b9d165890873f71fb23ef223ceeb144a6c6d641a7e52`.
+  Reference applicability is explicitly distinguished from physical verification.
+- A file-specific Git attribute preserves the pinned mapping's upstream comment
+  whitespace and disables text normalization; project source checks remain active.
+- `9210202` receives the sole source-bound policy: four runs/nine bytes containing
+  only invariant digits 1/2/3, comma and semicolon. It prepares with review
+  exceptions, preserving **424 paragraphs, 424 blocks, 90,389 RTF bytes, 380 text
+  runs and three object occurrences**. Its standalone and partial issue packages
+  validate, and all three available bitmap resources preserve source pixels.
+- `9205400a` and `9205403` remain deferred because apparent programming text
+  conflicts with the declared Symbol glyphs. No keyword, identifier or missing
+  operator is repaired. `9208198` retains nine directional-arrow candidates and
+  95 space bytes across eight runs; a reversible Symbol decoder is required.
+  Space-mapping alternatives remain explicit. This implementation limitation is
+  recorded separately from the two source ambiguities.
+- All 11 deferred runs and complete original recoveries remain unchanged, with
+  raw bytes, context and competing interpretations retained privately. Independent
+  accounting identifies byte transport as `retained_bytes_not_decoded_text` and
+  does not approve glyphs. Original decoder, shared policy, schema and history
+  remain unchanged; no global font-2 mapping is introduced.
+- Normal audit/sample reruns reproduce both tracked records exactly. An isolated
+  fresh rebuild reproduces **all 10 runtime files byte for byte**, with identical
+  source checks and outcomes. **269 regression tests pass without skips**,
+  including seven new Symbol policy/reference/artifact tests. Documentation links,
+  catalog JSON and whitespace checks pass.
+- PLAN-CD1 marks **18a done; 18b next**: implement and validate isolated reversible
+  arrow recovery for `9208198`, then plan a separate integration carrying this
+  punctuation sample forward. Combined 17b coverage remains **988 articles across
+  72 issues, 92 failures and eight blockers**. The two Symbol source conflicts,
+  `9309201` and 37 existing-codec failures remain separate investigations.
+- Full text, media and per-run evidence remain private. TOC matching, physical
+  review, scans, image repair, backup/restore, CD2/CD3, UI and publication/access
+  remain separate work. The owner's two PRD files are excluded from this commit.

@@ -1193,7 +1193,7 @@ ambiguous-article decision. A second complete audit reproduces all tables and th
 tracked summary exactly. **262 regression tests pass without skips**. See the
 [font-declaration pass report](docs/CD1-FONT-DECLARATION-PASS.md).
 
-### 18a — Next: review the four remaining Symbol-font cases
+### 18a — Done: review the four remaining Symbol-font cases
 
 Audit all associated source topics for `9205400a`, `9205403`, `9208198` and
 `9210202`. The 15a recovery retains 15 unsupported font-2 runs across these four
@@ -1207,9 +1207,31 @@ Validate source accounting, formatting, packages and reproducibility before
 planning any broader retry. The ambiguous `9309201` case and 37 existing-codec
 failures remain separate investigations; current combined coverage is preserved.
 
+**Audit and sample results:** all six topics reproduce the original recovery and
+all 15 Symbol runs (125 encoded bytes) are checked. `9210202` supports only four
+invariant digit/punctuation runs and prepares as a sample with 424 paragraphs and
+three pixel-equivalent bitmaps. Two articles retain font/context conflicts;
+`9208198` retains supported arrow candidates pending a reversible Symbol decoder.
+Normal reruns reproduce both records; an isolated rebuild reproduces all 10
+runtime files exactly. **269 regression tests pass without skips**. See the
+[Symbol review report](docs/CD1-SYMBOL-REVIEW.md).
+
+### 18b — Next: reversible Symbol-arrow recovery and validation
+
+Implement an isolated source-bound glyph decoder for `9208198` using the pinned
+mapping and complete 18a evidence. Account for every source byte and literal
+space, preserve font/paragraph formatting, and reject unreviewed glyphs. Extend
+independent source checks coherently; do not relabel Symbol bytes as CP949 or
+rewrite frozen decoder history to make a check pass.
+
+Validate the full article, Markdown projection, media and unchanged content
+contract, including a fresh rebuild and negative policy tests. Preserve both
+font/context conflicts and every earlier outcome. After validation, plan a separate
+combined-coverage checkpoint carrying the successful `9210202` sample forward.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b and 17a–17b are complete**.
+Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b, 17a–17b and 18a are complete**.
 Every CD1 candidate has a durable first-pass outcome, all 470 association failures
 have subsequent outcomes, and all 33 reviewed ASCII-font candidates prepare.
 Current audited 17b packages contain **988 prepared articles across 72 issues**,
@@ -1218,8 +1240,10 @@ repeated coverage reporting and all 262 regression tests pass.
 
 Checkpoint 17b incorporates all six supported declaration successes into combined
 coverage. The ambiguous `9309201` remains deferred with its review evidence.
-Next, 18a reviews the four Symbol-font cases before selecting any glyph mapping
-or validation sample. The 37 existing-codec failures remain a separate group.
+Checkpoint 18a has audited all four Symbol cases and prepared one invariant
+punctuation sample; all 269 regressions pass. Next, 18b implements and
+validates reversible arrow recovery for `9208198`. The two font/context conflicts,
+`9309201` and 37 existing-codec failures remain separate investigations.
 Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
 TOC matching is separate metadata work: 924 prepared articles still lack reviewed
@@ -1256,7 +1280,8 @@ of later publication decisions.
 | 16b — Done: ordinary-font retry reconciliation | Remaining candidate, carried samples and combined issue coverage. | All five prepare; 72 current packages validate with 982 articles, exact resume/repeated audit and 248 passing tests. |
 | 17a — Done: remaining non-Symbol font review | Six supported policies, one deferred article and five fixed sample packages. | All 14 topics preserve evidence, five samples validate, 93 runtime files rebuild identically and 256 tests pass. |
 | 17b — Done: font-declaration retry reconciliation | Six successful retries, combined coverage and four preserved retry histories. | All 72 packages validate with 988 articles; the 80-file manifest and 15 coverage tables reproduce exactly; 262 tests pass and the ambiguous article remains deferred. |
-| 18a — Next: Symbol-font source review | Four bounded source decisions and a supported sample if justified. | All associated source topics and glyph evidence are accounted for; accepted mappings pass preservation/rebuild checks and ambiguous cases remain explicit. |
+| 18a — Done: Symbol-font source review | One invariant-punctuation sample, two font/context conflicts and one deferred arrow decoder. | All six topics/15 runs retain evidence; the sample validates, 10 runtime files rebuild identically and 269 tests pass. |
+| 18b — Next: reversible Symbol-arrow recovery | Source-bound decoder, independent byte checks and one validated article. | All source bytes, glyphs, whitespace and formatting are preserved; package/Markdown/fresh-rebuild checks pass without broadening policy to conflicting articles. |
 
 ### Content contract requirements implemented in step 8
 
