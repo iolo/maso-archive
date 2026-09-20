@@ -1740,3 +1740,75 @@
   font cases and TOC matching remain separate work. Historical records are preserved,
   all full text/context evidence remains private, and the owner's PRD edits are
   excluded from this commit.
+
+### 2026-09-20 — Step 16b started: ordinary-font retry and combined handoff
+
+- Process the remaining reviewed candidate `9207134` with the unchanged 16a
+  source-bound policy, carrying its four verified sample outcomes forward.
+- Compose current issue packages from the 15b handoffs plus successful retries;
+  preserve historical records and all existing article, preview and media bytes.
+  Audit source fidelity, current coverage, resume and repeated report generation
+  before counting the five outcomes in combined availability.
+- `9207134` prepares with review exceptions, and all four 16a samples carry
+  forward successfully. All five reviewed candidates now have successful outcomes;
+  final issue composition, coverage/source auditing and reproducibility checks
+  remain in progress before the combined total is updated.
+- Execution completed with all **72 combined packages prepared**, containing
+  **982 articles**. The five outcomes comprise four carried 16a successes and one
+  new 16b success. The 79-file execution manifest has SHA-256
+  `59f51ba083ad162deb631e6a52700ba2fa69a518f5547f58e3d0d83e57c67af0`.
+  Complete resume verification is running before the consolidated audit.
+- Complete resume verifies all five outcomes and all 72 issue checkpoints,
+  reproducing the exact **79-file execution manifest** byte for byte. The
+  consolidated source, package, media and coverage audit is now running.
+- The complete source/package/media audit passes: **982 articles across 72 issues**,
+  **98 failures and eight blockers**. All five new recoveries match the exact
+  reviewed substitutions; prior article/preview/media payloads retain their bytes.
+  Current accounting covers 387,726 paragraphs, 218,163 blocks, 64,893,349 RTF bytes
+  and 359,954 text runs. All 3,366 available bitmaps preserve source pixels.
+- The 14 coverage tables preserve separate five-entry ordinary-font, 33-entry
+  ASCII-font and 470-entry association histories. Media counts are 4,562 available,
+  873 deferred and 730 not packaged. There are 918 prepared articles awaiting
+  reviewed TOC links; the 64 linked available TOC entries remain unchanged.
+  Full regressions and a second complete audit are running before closeout.
+- The second complete source/package/media audit reproduces all **14 private
+  coverage tables and the tracked summary exactly**. Execution manifest bytes
+  remain unchanged after resume and both audits. Historical/font regressions
+  have passed so far; the full suite is finishing before the checkpoint commit.
+
+### 2026-09-20 — Step 16b completed: ordinary-font retries and combined CD1 coverage
+
+- The remaining candidate `9207134` prepares with review exceptions; all four
+  verified 16a samples carry forward. All **five reviewed candidates** now have
+  successful subsequent outcomes. All **72 current combined packages validate**
+  with **982 articles** (four prepared and 978 prepared with review exceptions).
+- **98 failures and eight blockers** remain: 48 font/decoding cases, 35 unsupported
+  RTF constructs, 13 inherited-formatting cases, one unterminated paragraph, one
+  document-envelope case and eight source-topic ownership blockers. No new failure
+  occurred. Original decoder, policy, schema and historical records remain unchanged.
+- Both complete audits validate all 72 previous and all 72 current packages plus
+  the five successful standalones. Existing article JSON, Markdown previews and
+  available media retain exact bytes. The five recoveries match only the reviewed
+  source substitutions; new text runs, topic accounting and auxiliaries are checked
+  independently. The 977 historical source audits carry forward under verified
+  hashes, rather than being represented as newly decoded content.
+- Current accounting covers **387,726 paragraphs, 218,163 blocks, 64,893,349 RTF
+  bytes and 359,954 text runs**. All 6,165 source media are accounted for:
+  **4,562 available, 873 deferred and 730 not packaged**. All **3,366 available
+  bitmap resources** preserve source pixels. Broken conversions remain deferred.
+- The **14 coverage tables** reconcile all native/index/TOC populations and preserve
+  separate histories for five ordinary-font, 33 ASCII-font and 470 association
+  retries. Unretried exception instructions and font-review annotations survive.
+  **64 TOC entries** link to available content; **918 prepared articles** still
+  need reviewed TOC links and remain accessible through native identities.
+- Complete resume reproduces the **79-file execution manifest** exactly; the second
+  complete audit reproduces all **14 tables and the tracked summary byte for byte**.
+  **248 regression tests pass without skips**, including five new scope/gate/source/
+  history/artifact tests and all existing source, package, schema, Markdown, resume
+  and static base-URL checks. Documentation links, catalog JSON and whitespace pass.
+- PLAN-CD1 marks **16b done; 17a next**: review the seven remaining non-Symbol font
+  candidates before selecting a supported source-bound policy and fixed sample.
+  Four Symbol-font cases and 37 existing-codec failures remain separate groups.
+  TOC matching, physical review, scans, image repair, backup/restore, CD2/CD3, UI and
+  publication/access remain separate scopes. Full text and detailed evidence stay
+  private, and the owner's two PRD files are excluded from this commit.
