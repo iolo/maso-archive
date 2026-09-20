@@ -1173,7 +1173,7 @@ reproduce both records exactly; an isolated rebuild reproduces all 93 article
 runtime files byte for byte. **256 regression tests pass without skips**.
 See the [declaration review](docs/CD1-FONT-DECLARATION-REVIEW.md).
 
-### 17b — Next: remaining supported declaration case and combined coverage
+### 17b — Done: remaining supported declaration case and combined coverage
 
 Process `9306300` under the unchanged 17a source-bound policy and carry its five
 sample successes forward. Compose and audit current issue packages against 16b;
@@ -1183,23 +1183,46 @@ deferred with its exact raw-byte/context evidence. The other four Symbol-font an
 preservation, resume, repeated coverage reporting and regression checks before
 counting additional combined availability.
 
+**Execution and audit results:** `9306300` prepares with review exceptions and all
+five samples carry forward. All 72 combined packages validate with **988 articles,
+92 failures and eight blockers**. The six recoveries match the reviewed source
+changes; previous article/preview/media bytes remain exact. All 3,419 available
+bitmaps preserve source pixels. Complete resume reproduces the 80-file manifest.
+Fifteen coverage tables preserve all four retry histories and the explicit
+ambiguous-article decision. A second complete audit reproduces all tables and the
+tracked summary exactly. **262 regression tests pass without skips**. See the
+[font-declaration pass report](docs/CD1-FONT-DECLARATION-PASS.md).
+
+### 18a — Next: review the four remaining Symbol-font cases
+
+Audit all associated source topics for `9205400a`, `9205403`, `9208198` and
+`9210202`. The 15a recovery retains 15 unsupported font-2 runs across these four
+articles. Determine whether the exact bytes, font declaration and surrounding
+source support a glyph mapping compatible with the preservation contract.
+ASCII byte values alone must not be treated as ASCII glyphs in a Symbol font.
+
+Deliver source-bound decisions and a fixed validation sample only where evidence
+supports decoding; otherwise retain raw bytes and explicit unresolved decisions.
+Validate source accounting, formatting, packages and reproducibility before
+planning any broader retry. The ambiguous `9309201` case and 37 existing-codec
+failures remain separate investigations; current combined coverage is preserved.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b and 17a are complete**.
+Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b and 17a–17b are complete**.
 Every CD1 candidate has a durable first-pass outcome, all 470 association failures
 have subsequent outcomes, and all 33 reviewed ASCII-font candidates prepare.
-Current audited 16b packages contain **982 prepared articles across 72 issues**,
-with **98 failures and eight blockers** explicitly retained. Full regressions,
-resume and repeat-audit checks pass.
+Current audited 17b packages contain **988 prepared articles across 72 issues**,
+with **92 failures and eight blockers** explicitly retained. Complete resume,
+repeated coverage reporting and all 262 regression tests pass.
 
-Checkpoint 16b includes all five ordinary-font successes in combined coverage.
-Checkpoint 17a supports six further candidates, validates five standalone samples
-and retains one ambiguous article without a decoding policy. Next, 17b processes
-the remaining supported candidate `9306300`, carries those samples forward and
-reconciles combined coverage against 16b.
+Checkpoint 17b incorporates all six supported declaration successes into combined
+coverage. The ambiguous `9309201` remains deferred with its review evidence.
+Next, 18a reviews the four Symbol-font cases before selecting any glyph mapping
+or validation sample. The 37 existing-codec failures remain a separate group.
 Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
-TOC matching is separate metadata work: 918 prepared articles still lack reviewed
+TOC matching is separate metadata work: 924 prepared articles still lack reviewed
 TOC links. Failed or blocked articles are not counted as extracted.
 
 Steps 7 and 11b remain independently deferred and do not block extraction. Missing
@@ -1232,7 +1255,8 @@ of later publication decisions.
 | 16a — Done: ordinary-font non-ASCII review | Five source-bound policies and four fixed sample packages. | All ten topics preserve source evidence; four packages validate, 72 runtime files rebuild identically and 243 tests pass. |
 | 16b — Done: ordinary-font retry reconciliation | Remaining candidate, carried samples and combined issue coverage. | All five prepare; 72 current packages validate with 982 articles, exact resume/repeated audit and 248 passing tests. |
 | 17a — Done: remaining non-Symbol font review | Six supported policies, one deferred article and five fixed sample packages. | All 14 topics preserve evidence, five samples validate, 93 runtime files rebuild identically and 256 tests pass. |
-| 17b — Next: font-declaration retry reconciliation | One remaining supported candidate, five carried samples and current coverage. | All six supported candidates have subsequent outcomes; combined packages and repeatability validate while the ambiguous seventh remains deferred. |
+| 17b — Done: font-declaration retry reconciliation | Six successful retries, combined coverage and four preserved retry histories. | All 72 packages validate with 988 articles; the 80-file manifest and 15 coverage tables reproduce exactly; 262 tests pass and the ambiguous article remains deferred. |
+| 18a — Next: Symbol-font source review | Four bounded source decisions and a supported sample if justified. | All associated source topics and glyph evidence are accounted for; accepted mappings pass preservation/rebuild checks and ambiguous cases remain explicit. |
 
 ### Content contract requirements implemented in step 8
 

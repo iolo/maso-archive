@@ -1872,3 +1872,88 @@
   matching, physical review, scans, image repair, backup/restore, CD2/CD3, UI and
   publication/access remain separate work. The owner's two PRD files are excluded
   from this commit.
+
+### 2026-09-20 — Step 17b started: supported declaration retries and combined coverage
+
+- Process only `9306300` under the unchanged 17a policy and carry the five validated
+  sample successes forward. Preserve the 16b combined handoff and all earlier
+  source, policy and retry evidence.
+- Reconcile all 72 combined issue packages, retain separate histories for the
+  declaration, ordinary-font, ASCII-font and association passes, and explicitly
+  carry the ambiguous `9309201` decision without approving a decoding policy.
+- Complete source/media preservation, execution resume, repeated coverage audit
+  and regression checks before updating availability and committing the checkpoint.
+- Scope tests pass, including refusal to promote the ambiguous article or accept
+  changed source associations/codecs. The combined pass has carried four 17a
+  successes and prepared issue checkpoints through January 1992; execution and
+  the remaining source/package audit continue before availability is updated.
+- `9306300` prepares with review exceptions, and all five 17a samples carry
+  forward successfully. All six supported candidates now have subsequent prepared
+  outcomes. The remaining issue checkpoints, complete resume and coverage audit
+  are pending before the new combined total is accepted.
+- Execution completes with all 72 issue packages prepared and six successful
+  retries (five carried, one new). The 80-file execution manifest has SHA-256
+  `16cd2b493c2ce49488280c56b29fae7b9b9fe2709710b9f72aea0340d3e66003`.
+  Complete resume verification is running before the consolidated audit.
+- Complete resume verifies all six retry outcomes and all 72 issue checkpoints,
+  reproducing the exact **80-file execution manifest byte for byte**. The complete
+  source/package/media/coverage audit is now running.
+- The complete source/package/media audit passes: **988 articles across 72
+  issues**, with **92 failures and eight blockers** retained. All six recoveries
+  match only the reviewed substitutions, and existing article/preview/media bytes
+  remain exact. Current accounting covers **390,366 paragraphs, 219,994 blocks,
+  65,353,264 RTF bytes and 362,186 text runs**.
+- All 6,165 source media are accounted for: **4,617 available, 882 deferred and
+  666 not packaged**. All **3,419 available bitmaps** preserve source pixels.
+  Fifteen coverage tables preserve four separate retry histories and the explicit
+  ambiguous-article decision. **64 TOC entries** link to content; **924 prepared
+  articles** still lack reviewed TOC links. Full regressions and a second complete
+  audit are running before closeout.
+- The second complete audit reproduces all **15 private coverage tables and the
+  tracked summary exactly**. The execution manifest remains byte-identical after
+  resume and both audits. All six new 17b tests pass, including complete combined
+  package preservation and all four retry histories. The remaining historical
+  regression suite is still running before closeout.
+
+### 2026-09-20 — Step 17b completed: declaration retries and combined CD1 coverage
+
+- `9306300` prepares with review exceptions, and all five verified 17a samples
+  carry forward. All **six supported declaration candidates** have successful
+  subsequent outcomes. All **72 current combined packages validate with 988
+  articles** (four prepared and 984 prepared with review exceptions).
+- **92 failures and eight blockers** remain: 42 font/decoding cases, 35 unsupported
+  RTF constructs, 13 inherited-formatting cases, one unterminated paragraph, one
+  document-envelope case and eight source-topic ownership blockers. No new failure
+  occurs. `9309201` remains deferred with its exact source evidence and no approved
+  decoding policy; its explicit 17a decision is linked from the current exception.
+- Both complete audits validate all 72 previous and all 72 current issue packages
+  plus six successful standalones. Existing article JSON, Markdown previews and
+  media retain exact bytes. The six recoveries match only the reviewed source
+  substitutions; new text-run bytes, complete topic accounting and auxiliary
+  content are independently checked. The 982 historical article source audits
+  carry forward under verified hashes and are not presented as newly decoded.
+- Current accounting covers **390,366 paragraphs, 219,994 blocks, 65,353,264 RTF
+  bytes and 362,186 text runs**. The six successes add 2,640 paragraphs. All 6,165
+  source media are accounted for: **4,617 available, 882 deferred and 666 not
+  packaged**. All **3,419 available bitmap resources** preserve source pixels.
+  Deferred conversions remain recorded for later resolution.
+- The **15 private coverage tables** reconcile all native/index/TOC populations
+  and preserve separate histories for six declaration, five ordinary-font,
+  33 ASCII-font and 470 association retries. Other exception instructions and
+  annotations survive. **64 TOC entries** link to content; **924 prepared
+  articles** lack reviewed TOC links and remain available under native identities.
+- Complete resume reproduces the **80-file execution manifest byte for byte**.
+  The second complete audit reproduces all **15 coverage tables and the tracked
+  summary exactly**. **262 regression tests pass without skips**, including six
+  new scope/gate/deferral/history/package tests and all existing source, schema,
+  Markdown, resume and static base-URL checks. Documentation links, catalog JSON
+  and whitespace checks pass.
+- PLAN-CD1 marks **17b done; 18a next**: review the four Symbol-font candidates
+  (`9205400a`, `9205403`, `9208198`, `9210202`) and their 15 retained font-2 runs
+  before selecting any glyph mapping or validation sample. The ambiguous article
+  and 37 existing-codec failures remain separate investigations.
+- Original decoder, shared policies, schema and historical records remain
+  unchanged. Full text, previews, media and detailed evidence remain private.
+  TOC matching, physical review, scans, image repair, backup/restore, CD2/CD3, UI
+  and publication/access remain separate work. The owner's two PRD files are
+  excluded from this commit.

@@ -112,3 +112,10 @@ review-cd1-font-declarations:
 
 retry-cd1-font-declaration-sample:
 	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_font_declarations $(FONT_ARGS)
+
+.PHONY: run-cd1-font-declaration-pass report-cd1-font-declaration-pass
+run-cd1-font-declaration-pass:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.font_declaration_pass
+
+report-cd1-font-declaration-pass:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.font_declaration_coverage $(REPORT_ARGS)
