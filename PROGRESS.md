@@ -1493,3 +1493,72 @@
   availability without rewriting 13d history. Other exception classes and TOC
   review remain separate bounded work. The owner's `PRD-reading-room.md` changes
   and new `PRD-local-web.md` remain outside this commit.
+
+### 2026-09-20 — Step 14b started: full association retry and combined issue pass
+
+- Started all 464 remaining association candidates using the unchanged 14a
+  pipeline/policy. Six verified sample outcomes carry forward from their existing
+  checkpoints. Each new attempt records source/stage evidence and a durable
+  outcome; resume retains completed failures instead of repeatedly retrying them.
+- Compose each current issue from verified first-pass successes plus verified
+  association-retry successes, rejecting duplicate identities or conflicting
+  shared media. New combined packages live separately from historical handoffs.
+- The pass is in progress. Newly exposed decoder/font/formatting failures remain
+  explicit; they do not stop unrelated articles. Final gains, complete coverage
+  reconciliation, repeatability checks and the completion commit follow execution.
+
+- Execution completed: **401 new preparations and 63 failures** from 464 new
+  attempts, plus six carried sample successes. All 72 combined issue checkpoints
+  validate, with 944 prepared articles in total. New failures comprise 41 decoding/
+  font cases, 15 unsupported RTF cases and seven inherited-formatting cases; all
+  retain diagnostics (182 copied failure-evidence files). Complete resume and
+  consolidated coverage verification remain in progress.
+- Complete resume verified all 470 outcomes and 72 combined issue checkpoints.
+  The 1,652-file execution manifest reproduces byte for byte (SHA-256
+  `6b8778e606b08503023e672c5b33d3d9c97bbb27250db4aba95a5a7d01c427b4`).
+  The consolidated source/package/media audit is running separately.
+- The complete audit passed and produced the separate tracked 14b summary plus
+  12 private coverage tables. All 944 standalone articles and 72 combined issue
+  packages validate; article JSON, Markdown previews and media bytes are preserved.
+  Current article accounting totals 359,284 paragraphs, 202,527 blocks, 61,491,911
+  RTF bytes and 330,177 text runs. All 3,171 available bitmap derivatives preserve
+  source pixels. Independent report reproduction and full regressions are running.
+
+### 2026-09-20 — Step 14b completed: all association retries and current CD1 handoff
+
+- All **470 original association failures** have subsequent outcomes: six carried
+  sample successes plus **401 new preparations and 63 new failures**. The latter
+  are 41 font/decoding cases, 15 unsupported RTF constructs and seven inherited-
+  formatting cases, with 182 copied failure-evidence files. No association check
+  fails under the reviewed policy; unsupported later stages remain explicit.
+- All **72 current issue packages validate**, combining 537 first-pass successes
+  with 407 successful association retries. Current availability is **944 articles**
+  (four prepared and 940 prepared with review exceptions), **136 failures and
+  eight blockers**. Duplicate articles, changed standalone content and conflicting
+  shared media are rejected. Historical 13d/14a outcomes and packages remain intact.
+- The separate current report accounts for all 3,099 topics, 2,103 contexts,
+  1,080 index references, 2,462 occurrences, 3,032 index rows, 5,497 TOC rows and
+  6,165 media resources. It retains before/after retry history and qualified evidence
+  paths. New failures require bounded auxiliary-aware follow-up in a new output
+  root; historical generic retry commands are identified as historical evidence.
+- Current article source accounting covers **359,284 paragraphs, 202,527 blocks,
+  61,491,911 RTF bytes and 330,177 text runs**. Every new successful source run and
+  auxiliary disposition is checked; the unchanged 537 first-pass source audits
+  carry forward with verified hashes. All combined article JSON, Markdown previews
+  and available media preserve standalone bytes.
+- Media availability is **4,312 available, 771 deferred and 1,082 not packaged**.
+  All **3,171 available bitmaps** preserve source dimensions and decoded RGBA pixels.
+  Deferred images remain recorded for later repair. Only 62 TOC entries currently
+  link to available text; 882 prepared articles lack reviewed TOC links and remain
+  available under native identities. TOC matching does not invent new body coverage.
+- Complete resume reproduces the 1,652-file execution manifest exactly. A second
+  independent source/package/media audit reproduces the tracked summary and all
+  **12 private coverage tables** byte for byte. **223 regression tests pass**,
+  including six new merge/reconciliation/artifact tests and existing historical,
+  source, interruption/resume, failure-isolation and static-loading checks.
+- PLAN-CD1 marks **14b done**; current README, handoff guidance and preservation
+  readiness point to the completed report. The next bounded extraction class is
+  86 font/decoding failures; TOC matching remains separate metadata work. Physical
+  comparison, scans, image repair, backup/restore, CD2/CD3, publication/access and
+  reading-room UI remain separate. Original pipeline/policy/schema and historical
+  tracked records are unchanged. The owner's two PRD files are excluded.

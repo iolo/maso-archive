@@ -9,7 +9,7 @@
   "backup_status_basis": "owner_confirms_local_copy_is_working_masocd-1.iso_extracted_from_physical_cd; no_optical_drive_currently_available",
   "restore_test_status": "pending",
   "remaining_checkpoint": "11b: verify a copy on independent storage when available, or a fresh physical-CD read when an optical drive is available; preserve probe/repository evidence separately",
-  "allowed_next_scope": "13a–13d completed with all 1,088 first-pass outcomes preserved. 14a completed: 111 linked auxiliary topics accounted for (109 recovered, two deferred), and six association retries prepare in separate packages. Next is 14b: retry the remaining 464 association candidates and reconcile combined availability. Physical review and 11b remain deferred and non-blocking",
+  "allowed_next_scope": "13a–13d and 14a–14b completed with all historical outcomes preserved. All 470 association retries have subsequent outcomes; 944 articles validate across 72 current issue packages, with 136 failures and eight blockers retained. Next extraction work should validate a bounded sample of the 86 font/decoding failures before broader retries; TOC matching remains separate metadata work. Physical review and 11b remain deferred and non-blocking",
   "physical_media_status": "owner_retains_original_cd; no_optical_drive_available_for_read_verification",
   "independent_restore_verified": false,
   "non_destructive_extraction_allowed": true,

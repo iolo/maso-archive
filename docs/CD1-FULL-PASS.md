@@ -33,9 +33,10 @@ The 15 articles validated in 13c carried forward entirely from compatible caches
 The document-envelope case is the final candidate, `9312488`, whose source ends
 with an unmatched closing brace. Its raw source and diagnostics remain available.
 These are first-pass outcomes, not claims that the source content is unrecoverable.
-The largest next task is a bounded linked-content ownership review, followed by
-targeted retries and availability updates that preserve this history. Ownership
-here means deciding which article a linked native topic belongs to.
+The subsequent [14a review](CD1-ASSOCIATIONS.md) and
+[14b retry pass](CD1-ASSOCIATION-PASS.md) address the linked-content class and
+update availability while preserving this history. Ownership here means deciding
+which article a linked native topic belongs to.
 
 A complete resume verified all 1,088 records and 72 issue checkpoints and
 reproduced the execution manifest byte for byte: SHA-256
@@ -164,5 +165,6 @@ separate work.
 
 The subsequent [14a association checkpoint](CD1-ASSOCIATIONS.md) preserves the
 111 linked auxiliaries and prepares six additional articles in separate sample
-packages. Its results do not overwrite this first-pass history. Step 14b will
-retry the remaining 464 association candidates and combine successful packages.
+packages. Its results do not overwrite this first-pass history. The subsequent
+[14b pass](CD1-ASSOCIATION-PASS.md) records all 464 remaining retries and combines
+successful packages, bringing current availability to 944 articles across 72 issues.

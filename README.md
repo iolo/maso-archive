@@ -7,18 +7,18 @@ TOC import covers 122 issues through December 1993, with 5,497 entries.
 Official CD holdings support
 further extraction; per-disc coverage and completeness remain to be verified.
 
-**The first complete CD1 pass (13a–13d) is finished.** All 1,088 candidates across
-72 issues have outcomes: **537 prepared articles** (533 with review exceptions),
-**543 failed**, and **eight blocked**. Validated content packages and complete
-coverage/retry records remain private. Next is bounded work on retained source
-exceptions; complete printed-issue coverage and physical review remain unverified.
-See the [full-pass report](docs/CD1-FULL-PASS.md).
+**Current CD1 coverage: 944 prepared articles across 72 issues.** Step 14b adds
+401 articles after the six successful 14a samples, with all 470 association retries
+accounted for. Of 1,088 candidates, **136 remain failed and eight blocked** with
+retained evidence. All combined issue packages validate; content remains private.
+See the [complete retry pass and current coverage](docs/CD1-ASSOCIATION-PASS.md).
 
-**14a is complete: linked auxiliary recovery and a six-article retry sample.**
-109 of 111 auxiliary topics decode; two retain raw source and formatting diagnostics.
-All six sample articles now prepare in separate packages. Next is **14b**: retry
-the remaining 464 association candidates and combine successful results with the
-existing issue handoffs. See the [association review](docs/CD1-ASSOCIATIONS.md).
+The [historical first pass](docs/CD1-FULL-PASS.md) retains its original 537
+preparations and every outcome. The [14a association review](docs/CD1-ASSOCIATIONS.md)
+also preserves 109 recovered auxiliary topics and two deferred formatting cases.
+Next is bounded work on remaining source exceptions and TOC matching: 882 prepared
+articles still lack reviewed TOC links. Complete printed-issue coverage and physical
+review remain unverified.
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)

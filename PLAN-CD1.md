@@ -1027,7 +1027,7 @@ article runtime files byte for byte. **217 regression tests pass**, with the six
 association checks repeated against the final artifacts. First-pass history,
 original pipeline code and schema v1 remain unchanged.
 
-### 14b — Next: retry the remaining association candidates and reconcile availability
+### 14b — Done: retry the remaining association candidates and reconcile availability
 
 **Scope:** the 464 association candidates outside 14a's fixed sample, using the
 validated separate-auxiliary policy. Record each attempt with durable outcomes;
@@ -1040,16 +1040,35 @@ outcome; report gains and remaining failures separately, validate every new/comb
 package, and update current coverage without overwriting 13d's historical report.
 Other exception classes and TOC matching remain subsequent bounded work.
 
+**Execution and audit results:** all 464 new candidates have outcomes: **401 prepare
+with review exceptions and 63 fail** with retained evidence. Including the six
+carried sample successes, the association class contributes 407 preparations.
+All **72 current combined issue packages validate**, containing **944 articles**
+(four prepared and 940 prepared with review exceptions). The remaining 136
+failures and eight blockers are explicit. No association failure remains.
+
+The [current coverage report](docs/CD1-ASSOCIATION-PASS.md) reconciles every source
+population in 12 private tables and retains a separate before/after retry history.
+It verifies every current standalone and combined package, unchanged article/
+Markdown/media bytes, newly prepared source runs and 3,171 bitmap pixel matches.
+Complete resume reproduces the execution manifest byte for byte. A second complete
+audit reproduces the tracked summary and all 12 coverage tables exactly.
+**223 regression tests pass**. Original sources, 13d/14a records, pipeline and
+runtime schema remain unchanged; full text and detailed evidence remain private.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, and 13a–13d are complete. Every CD1 candidate has a
-durable first-pass outcome. Subsequent extraction work should take one bounded
-exception class from the retained retry queue, preserve the first-pass history,
-and verify any additional packages before updating current availability. The
-largest class is 470 failures requiring linked-content ownership decisions.
-Step **14a is complete**; **14b is next**, applying its validated policy to the
-remaining 464 candidates and reconciling combined availability.
-This completion does not imply that failed or blocked articles were extracted.
+Steps 12b.1–3, 12c, 12d, 13a–13d, and **14a–14b are complete**. Every CD1 candidate
+has a durable first-pass outcome, and all 470 association failures now have
+subsequent outcomes. Current packages contain **944 prepared articles across 72
+issues**, with **136 failures and eight blockers** explicitly retained.
+
+Subsequent extraction work should take one bounded exception class, starting with
+the largest remaining class: 86 font/decoding-policy failures. Preserve both
+historical and current outcomes, validate a fixed sample, and verify additional
+packages before updating availability. TOC matching is separate metadata work;
+882 prepared articles still lack reviewed TOC links. Failed or blocked articles
+are not counted as extracted.
 
 Steps 7 and 11b remain independently deferred and do not block extraction. Missing
 scans, physical review, image repair, ownership/access decisions, CD2/CD3, and the
@@ -1075,7 +1094,7 @@ of later publication decisions.
 | 13c — Done: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
 | 13d — Done: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
 | 14a — Done: auxiliary policy and retry sample | Separate auxiliary recovery and six fixed retry articles. | All 470 association failures are accounted for; sample associations, source fidelity, packages and resume validate. |
-| 14b — Next: association retry pass | Remaining 464 retries and combined current coverage. | Every original association failure has a subsequent outcome, and new/combined packages validate without rewriting first-pass history. |
+| 14b — Done: association retry pass | Remaining 464 retries and combined current coverage. | Every original association failure has a subsequent outcome; all 72 combined packages validate with 944 articles, while history and remaining failures are preserved. |
 
 ### Content contract requirements implemented in step 8
 

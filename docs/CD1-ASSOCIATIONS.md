@@ -45,9 +45,10 @@ review remain pending.
 
 The six standalone and six sample issue packages validate. They add six prepared
 articles beyond 13d's historical 537, but the sample issue packages contain only
-sample articles. They do not replace the prior combined issue handoffs. Step 14b
-will retry the remaining 464 association candidates and reconcile successful
-results into current combined packages and availability records.
+sample articles. They do not replace the prior combined issue handoffs. The
+subsequent [14b pass](CD1-ASSOCIATION-PASS.md) retries the remaining 464 candidates
+and reconciles successful results into current combined packages and availability
+records.
 
 ## Commands and private evidence
 
