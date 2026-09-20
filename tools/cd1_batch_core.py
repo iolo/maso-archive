@@ -52,7 +52,14 @@ def inherited_states(raw, offsets):
                 state['character']['font_id' if word == 'f' else 'fs'] = value
             elif word in ('b', 'ul'):
                 state['character'][word] = value != 0
-            elif word in ('sl', 'li', 'ri', 'sa', 'sb'):
+                if word == 'ul' and 'underline_style' in state['character']:
+                    state['character']['underline_style'] = 'single' if value != 0 else 'none'
+            elif word == 'uldb':
+                state['character']['ul'] = value != 0
+                state['character']['underline_style'] = 'double' if value != 0 else 'none'
+            elif word == 'tx':
+                state['paragraph'].setdefault('tab_stops', []).append(value)
+            elif word in ('sl', 'li', 'ri', 'sa', 'sb', 'fi'):
                 state['paragraph'][word] = value
             elif word in ('qr', 'keepn'):
                 state['paragraph'][word] = value != 0
@@ -66,7 +73,12 @@ def inherited_states(raw, offsets):
     return snapshots
 
 
-def map_blocks(article, profile=None):
+def fixed_pitch(paragraph):
+    return bool(paragraph['text'].strip()) and bool(paragraph['runs']) and all(
+        r['kind'] == 'text' and r['format']['font_id'] == 15 for r in paragraph['runs'])
+
+
+def map_blocks(article, profile=None, source_metadata=None):
     overrides = {(d['topic'], d['first']): d for d in (profile or {}).get('decisions', [])}
     result = {'schema_version': 1, 'cd_reference': article['cd_reference'], 'blocks': [],
               'relationships': (profile or {}).get('relationships', []),
@@ -74,7 +86,7 @@ def map_blocks(article, profile=None):
     used = set()
     for topic in article['topics']:
         paragraphs, ordinal = topic['paragraphs'], topic['ordinal']
-        index, parent = 1, None
+        index, parent, last_heading_level = 1, None, 0
         while index <= len(paragraphs):
             paragraph = paragraphs[index - 1]
             declaration = overrides.get((ordinal, index))
@@ -82,6 +94,31 @@ def map_blocks(article, profile=None):
                 used.add((ordinal, index))
             end = declaration['last'] if declaration else index
             require(index <= end <= len(paragraphs), 'Decision exceeds topic')
+            automatic = {}
+            if not profile and fixed_pitch(paragraph):
+                # Keep contiguous fixed-pitch material preformatted, including its
+                # internal blank lines. Code/table/terminal semantics await review.
+                scan = index
+                while scan < len(paragraphs):
+                    candidate = paragraphs[scan]
+                    if fixed_pitch(candidate):
+                        end = scan + 1
+                    elif candidate['text'].strip() or candidate['runs']:
+                        break
+                    scan += 1
+                automatic = {'kind': 'code', 'decision': {'basis': 'contiguous_Fixedsys_source_runs',
+                             'review_concerns': ['semantic_review_pending', 'fixed_pitch_layout_not_language_identification']}}
+            elif not profile:
+                level = blocks.heading_level(paragraph)
+                visible = ''.join(r['text'] for r in paragraph['runs'] if r['kind'] == 'text').strip()
+                if source_metadata and visible == source_metadata['title']:
+                    automatic = {'kind': 'title'}
+                elif source_metadata and index == 1 and source_metadata['opening_page'].get('label') and visible == source_metadata['opening_page']['label']:
+                    automatic = {'kind': 'issue_label'}
+                elif re.match(r'^글\s*/', visible):
+                    automatic = {'kind': 'byline'}
+                elif level and level <= last_heading_level + 1:
+                    automatic = {'kind': 'heading', 'heading_level': level, 'parent_heading_id': None}
             members = paragraphs[index - 1:end]
             # Without a reviewed profile, structure is explicitly uncertain. A
             # whitespace-only paragraph is the only semantic inference made here.
@@ -90,6 +127,7 @@ def map_blocks(article, profile=None):
             block = {'id': f"cd1-{article['cd_reference']}:T{ordinal}:P{index:03d}-{end:03d}",
                      'topic_ordinal': ordinal, 'kind': kind, 'parent_heading_id': parent,
                      'decision': {'basis': 'source_paragraph', 'review_concerns': [] if profile else ['semantic_review_pending']}}
+            block.update(automatic)
             if declaration:
                 block.update(deepcopy(declaration['properties']))
             block.update(members=[{'paragraph_ordinal': p['ordinal'], 'run_ordinals': list(range(1, len(p['runs']) + 1)),
@@ -103,6 +141,7 @@ def map_blocks(article, profile=None):
                 require(block['content_sha256'] == declaration['content_sha256'], 'Source-bound decision text changed')
             if kind == 'heading' or block['kind'] == 'heading':
                 parent = block['id']
+                last_heading_level = block['heading_level']
             result['blocks'].append(block)
             index = end + 1
     require(used == set(overrides), 'Unused/overlapping source decisions')

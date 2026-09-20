@@ -141,9 +141,9 @@ populations; neither is a verified count of complete articles.
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
 | 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, 12d, 13a, and 13b are complete.
+Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, 12d, 13a, 13b, and 13c are complete.
 Step 7 is deferred pending physical-magazine evidence; 11b awaits independent storage or an optical drive.
-**Step 13c (validate the batch on the frozen sample beyond February) is next.**
+**Step 13d (run and reconcile the first complete CD1 pass) is next.**
 Backup/restore verification does not block extraction from the verified sources.
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
@@ -907,7 +907,7 @@ and actual February interruption/resume and isolated decoder failure. Physical
 verification remains pending. The nine frozen additional candidates belong to 13c;
 no whole-disc extraction has run.
 
-### 13c — Next: validate batch operation beyond February
+### 13c — Completed: validate batch operation beyond February
 
 **Inputs:** the shared runner, all six February regression articles, and a fixed
 sample of 6–10 additional candidates from at least three other issues. Use the
@@ -929,7 +929,29 @@ deferred when containment works; a general preservation or runner defect must be
 fixed before expansion. Record the finite sample's outcome and proceed to 13d
 once these checks pass. Physical-magazine review is independent of this gate.
 
-### 13d — Run the first complete CD1 pass and reconcile results
+Result (2026-09-20): [frozen-sample validation](docs/CD1-BATCH-VALIDATION.md)
+prepared all nine additional candidates plus the six February regression articles.
+The 15 packages span ten issues and contain **8,110 paragraphs, 2,388 blocks,
+213 media occurrences and 200 distinct media records**. All 95 available bitmap
+resources preserve decoded pixels. The 168 available media and 32 deferred vectors
+include February's four known exceptions and 28 math-library conversions whose
+Symbol glyphs remain suspect; no image repair was attempted.
+
+Independent run-byte reconstruction and contiguous accounting cover **992,844 RTF
+bytes and 7,431 text runs**, plus 21 separately recovered auxiliary paragraphs in
+two author biographies and a series list. Source-bound policy handles extra fonts;
+RTF first-line indent, tab stops and double underline remain in preservation data.
+Shared fixed-pitch layout rules retain code whitespace, and a sample-discovered
+missing-parent heading bug is fixed. Semantic and physical review remain pending.
+February article/preview bytes and accepted media remain unchanged under v1.
+
+A fresh build in an empty root reproduces every recorded stage output; resume
+reuses all **328 stage calls**. All **524 file fetches** under two nested static
+base URLs match package hashes. The finite sample gate is satisfied; proceed to
+13d and record every candidate's outcome. This is not a claim of complete printed
+coverage or universal support for every remaining CD1 source construct.
+
+### 13d — Next: run the first complete CD1 pass and reconcile results
 
 **Inputs:** the full 13a queue, the validated runner, sample results, and recorded
 exceptions. **Start condition:** 13c's preservation and batch-operation checks pass.
@@ -953,8 +975,8 @@ bounded work and does not erase their recorded first-pass outcomes.
 
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a, and 13b are complete. **13c is next**;
-the frozen additional sample and full-disc run (13c–13d) have not yet run. A “continue” advances the next
+Steps 12b.1–3, 12c, 12d, 13a, 13b, and 13c are complete. **13d is next**;
+the frozen sample passed, and the full-disc run has not yet started. A “continue” advances the next
 unfinished checkpoint. During 13d, issue boundaries are resume/reporting points
 within the full-CD pass, rather than requiring a separate plan or permission for
 every article. Subdivide engineering work when needed while preserving this
@@ -981,8 +1003,8 @@ of later publication decisions.
 | 12d — Done: February native closeout | Six-article handoff, including unindexed KEYBOARD LOCK, and complete native February metadata accounting. | All six observed bodies are prepared; 29 unmatched candidates and four sections remain explicit; earlier content and exceptions survive under unchanged v1. |
 | 13a — Done: processing inventory | Complete source accounting and a batch input queue, including unindexed content. | All native/index populations reconcile; ready and unresolved jobs are explicit; February preparations remain linked. |
 | 13b — Done: shared pipeline | Reusable extraction, structure, conversion, and packaging stages with resume and exception records. | February runs through shared stages with preservation checks, isolated failures, and compatible-cache reuse. |
-| 13c — Next: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
-| 13d — Planned: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
+| 13c — Done: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
+| 13d — Next: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
 
 ### Content contract requirements implemented in step 8
 

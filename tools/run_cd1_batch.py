@@ -29,7 +29,8 @@ from tools.decode_cd1_paragraph import digest
 from tools.map_cd1_topic import ROOT, require
 
 OUTPUT = ROOT / 'build/cd1-batch'
-VERSION = '1.0.0'
+VERSION = '1.1.0'
+POLICY = ROOT / 'data/catalog/batch-profiles/cd1-shared-policy.json'
 
 
 def read_json(path):
@@ -75,6 +76,7 @@ class Runner:
         for record in manifest['inputs'].values():
             checked_file(ROOT, record)
         self.profiles = read_json(PROFILES)
+        self.policy = read_json(POLICY)
         baseline_record = checked_file(ROOT, {'path': self.profiles['baseline_record'],
                                              'bytes': (ROOT / self.profiles['baseline_record']).stat().st_size,
                                              'sha256': self.profiles['baseline_record_sha256']})
@@ -86,6 +88,7 @@ class Runner:
         self.baseline_articles = {a['source']['reference']: a for a in self.baseline['articles']}
         self.baseline_media = {m['source']['resource']: m for m in self.baseline['media']['items']}
         self.rtf = (images.RAW / 'MASOCD.rtf').read_bytes()
+        require(digest(self.rtf) == self.policy['source_rtf_sha256'], 'Shared policy source changed')
         self.media_manifest = read_json(images.MANIFEST)
         self.toc = [json.loads(line) for line in (ROOT / 'build/toc/toc-entries.jsonl').read_bytes().splitlines()]
         self.tools = {}
@@ -106,7 +109,7 @@ class Runner:
                 for p in sorted((ROOT / parent).glob('*.py'))}
         self.identity = {'version': VERSION, 'code': code, 'python': platform.python_version(), 'pillow': pillow_version,
                          'jsonschema': distribution_version('jsonschema'),
-                         'schema': digest((ROOT / SCHEMA_PATH).read_bytes()), 'profiles': digest(PROFILES.read_bytes()),
+                         'schema': digest((ROOT / SCHEMA_PATH).read_bytes()), 'profiles': digest(PROFILES.read_bytes()), 'shared_policy': digest(POLICY.read_bytes()),
                          'queue': digest((queue.OUTPUT / 'manifest.json').read_bytes()), 'tools': self.tools}
         self.cache = Cache(self.output / 'stages', self.identity)
         self.states = {}
@@ -181,6 +184,12 @@ class Runner:
         profile = self.profiles['articles'].get(ref)
         if profile:
             require(profile['source_topics'] == job['source_topics'], 'Reviewed source association changed')
+        extra_fonts = self.policy['article_fonts'].get(ref)
+        if extra_fonts:
+            require(extra_fonts['source_topics'] == job['source_topics'], 'Additional font evidence changed')
+        codecs = {int(k): v for k, v in (profile['font_codecs'] if profile else self.policy['default_font_codecs']).items()}
+        if extra_fonts:
+            codecs.update({int(k): v for k, v in extra_fonts['font_codecs'].items()})
         token = job['id'].rsplit(':', 1)[1]
         chain = {'job': job, 'profile': profile}
         stages = {}
@@ -197,9 +206,43 @@ class Runner:
             links = [link for t in job['source_topics'] for link in self.topic_lookup[t['id']]['links']]
             put(target, 'related-links.json', links)
             put(target, 'association.json', job)
+            auxiliary_records = []
+            for destination in sorted({link['target_topic_id'] for link in links} - selected):
+                if destination in self.policy['auxiliaries']:
+                    decision = self.policy['auxiliaries'][destination]
+                    source = self.topic_lookup[destination]
+                    require(source['rtf'] == decision['rtf'] and source['aliases'] == decision['aliases'] and source['links'] == decision['links'], 'Auxiliary source decision changed')
+                    start, length = source['rtf']['byte_offset'], source['rtf']['byte_length']
+                    raw = self.rtf[start:start + length]
+                    require(digest(raw) == source['rtf']['sha256'], 'Auxiliary bytes changed')
+                    path = target / 'auxiliaries' / str(source['native']['ordinal'])
+                    path.mkdir(parents=True)
+                    (path / 'source.rtf').write_bytes(raw)
+                    evidence = {'topic_id': destination, **decision}
+                    try:
+                        initial = {k: v for k, v in self.states[start].items() if k != 'unknown'}
+                        require(not self.states[start]['unknown'], 'Unsupported auxiliary inherited formatting')
+                        report = inventory.inspect_topic(raw, start, initial['character']['font_id'])
+                        report.update(ordinal=source['native']['ordinal'], role='linked_auxiliary')
+                        put(path, 'inventory.json', report)
+                        require(not report['issues'], 'Unsupported auxiliary controls')
+                        recovered_aux = recovery.recover_topic(self.rtf, report, initial, {int(k): v for k,v in self.policy['default_font_codecs'].items()})
+                        put(path, 'recovery.json', recovered_aux)
+                        require(not recovered_aux['issues'], 'Undecoded auxiliary text')
+                        evidence.update(recovery_status='recovered', paragraphs=len(recovered_aux['paragraphs']))
+                        resources = sorted({r['object']['resource'] for p in recovered_aux['paragraphs'] for r in p['runs'] if r['kind'] == 'object'})
+                        evidence['media'] = []
+                        for resource in resources:
+                            raw_media = images.checked_source(resource, self.media_manifest)
+                            evidence['media'].append({'resource': resource, 'sha256': digest(raw_media), 'status': 'source_preserved; auxiliary_rendering_deferred'})
+                    except Exception as error:
+                        evidence.update(recovery_status='deferred', error_type=type(error).__name__, error=str(error))
+                    put(path, 'disposition.json', evidence)
+                    auxiliary_records.append(evidence)
+            put(target, 'auxiliaries.json', auxiliary_records)
             for link in links:
                 destination = link['target_topic_id']
-                require(destination in selected or destination in self.topic_lookup and
+                require(destination in selected or destination in self.policy['auxiliaries'] or destination in self.topic_lookup and
                         self.topic_lookup[destination]['role'] in ('navigation', 'application_resource_topic', 'formatting_separator'),
                         'Related content outside selected topics needs ownership review: ' + str(destination))
             for topic in job['source_topics']:
@@ -208,7 +251,7 @@ class Runner:
                 require(digest(raw) == span['sha256'], 'Topic bytes changed')
                 (target / f"topic-{topic['native']['ordinal']}.rtf").write_bytes(raw)
             put(target, 'association.json', job)
-        stage('association', associate)
+        associated = stage('association', associate)
         def inspect(target):
             reports = []
             for topic in job['source_topics']:
@@ -224,7 +267,6 @@ class Runner:
         inspected = stage('inventory', inspect)
         def recover(target):
             topics = []
-            codecs = {int(k): v for k, v in profile['font_codecs'].items()} if profile else {4: 'cp949', 5: 'cp949', 6: 'cp949'}
             put(target, 'encoding-policy.json', {'font_codecs': codecs, 'unknown_fonts': 'retain_undecoded_and_fail', 'basis': 'source_bound_reviewed_CD1_fonts'})
             for report in read_json(inspected / 'inventory.json'):
                 initial = {k: v for k, v in self.states[report['byte_offset']].items() if k != 'unknown'}
@@ -235,7 +277,7 @@ class Runner:
                 require(all(p['terminated_by_par'] for p in topic['paragraphs']), 'Unterminated paragraph needs representation review')
         recovered = stage('recovery', recover)
         article = read_json(recovered / 'recovery.json')
-        mapped = stage('semantics', lambda target: put(target, 'blocks.json', map_blocks(article, profile)))
+        mapped = stage('semantics', lambda target: put(target, 'blocks.json', map_blocks(article, profile, job)))
         mapping = read_json(mapped / 'blocks.json')
         names = sorted({r['object']['resource'] for t in article['topics'] for p in t['paragraphs'] for r in p['runs'] if r['kind'] == 'object'})
         media, assets, media_stages = [], {}, []
@@ -257,7 +299,7 @@ class Runner:
         runtime['sections'] = reading_sections(article, mapping, ref, intro)
         for section in runtime['sections']:
             for block in section['blocks']:
-                if block['type'] == 'unresolved':
+                if block['type'] == 'unresolved' or not profile and block['type'] != 'spacing':
                     block['interpretation'] = 'unresolved'
         runtime['relationships'] = [{'type': 'caption_for', 'from_block': r['from_block'], 'to_block': r['to_block']} for r in mapping['relationships']]
         for section, topic in zip(runtime['sections'], article['topics']):
@@ -287,12 +329,14 @@ class Runner:
                 destination.parent.mkdir(parents=True, exist_ok=True)
                 destination.write_bytes(raw)
             put(target, 'provenance.json', {'job': job, 'stages': deepcopy(stages), 'semantic_review': 'reviewed_source_decisions' if profile else 'pending',
+                                          'auxiliary_evidence': read_json(associated / 'auxiliaries.json'),
                                           'historical_evidence': self.baseline_evidence['article_evidence'][ref] if profile else None,
                                           'validation': validate_bundle(bundle)})
         packaged = stage('package', assemble_article, lambda root: load_package(root / 'content'))
         result = {'status': 'prepared', 'package': packaged.relative_to(self.output).as_posix(), 'stages': stages,
                   'counts': validate_bundle(bundle), 'deferred_media': [m['id'] for m in media if m['status'] != 'available'],
-                  'semantic_review': 'reviewed_source_decisions' if profile else 'pending'}
+                  'semantic_review': 'reviewed_source_decisions' if profile else 'pending',
+                  'auxiliaries': read_json(associated / 'auxiliaries.json')}
         write(self.output / 'articles' / (token + '.json'), recovery.json_bytes({'identity_sha256': key(self.identity), **result}))
         return result
 
@@ -340,7 +384,8 @@ class Runner:
         return result
 
     def run(self, jobs):
-        self.states = inherited_states(self.rtf, [t['rtf']['byte_offset'] for j in jobs if j['state'] != 'blocked' for t in j['source_topics']])
+        self.states = inherited_states(self.rtf, [t['rtf']['byte_offset'] for j in jobs if j['state'] != 'blocked' for t in j['source_topics']] +
+                                       [a['rtf']['byte_offset'] for a in self.policy['auxiliaries'].values()])
         results = isolate(jobs, self.process)
         issues = {}
         for issue_id in sorted({j['issue_id'] for j in jobs}):

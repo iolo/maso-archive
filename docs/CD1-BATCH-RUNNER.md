@@ -1,9 +1,9 @@
 # CD1 shared batch runner — checkpoint 13b
 
 The runner re-extracts February's six articles through shared stages and composes
-independent article packages into an issue package. **13b is complete; 13c's nine
-frozen additional candidates are next.** No other actual-source articles or
-whole-disc run were processed in this checkpoint. Schema v1 remains unchanged.
+independent article packages into an issue package. **13b is complete.** Its results below describe the February checkpoint.
+The subsequent [13c frozen-sample validation](CD1-BATCH-VALIDATION.md) also passes;
+**13d, the complete CD1 pass, is next**. Schema v1 remains unchanged.
 
 ## Commands and outputs
 
@@ -14,7 +14,7 @@ PYTHONPATH=src python3 -m tools.build_cd1_batch_profiles
 ```
 
 Article selectors also accept a stable article ID or queue job ID. `--all` selects
-the full queue, including explicit ownership blockers; run it after 13c's checks.
+the full queue, including explicit ownership blockers; 13c's checks now pass.
 The runner requires the verified 13a inventory, original MVB/RTF/probe artifacts,
 current TOC import, and the historical February handoff. It rechecks their hashes
 before processing. It never calls an article-specific preparation script.
@@ -44,17 +44,21 @@ successful full February run can write the metadata-only checkpoint record with
 
 1. **Association:** validate selected topic hashes and inspected queue links;
    retain original topic RTF and native/context/TOC evidence. Multiple introductions
-   or linked content outside the selected ownership scope fail explicitly.
+   or unreviewed linked content outside the selected ownership scope fail explicitly.
+   Three source-bound auxiliary topics reviewed in 13c are recovered separately.
 2. **RTF inventory:** establish scoped inherited character/paragraph state across
    preceding topics, then inventory every selected token, group, control and object.
    Unknown inherited formatting or unsupported constructs retain failure evidence.
+   First-line indentation, tab stops and double underline are also preserved after
+   the source checks in 13c.
 3. **Recovery:** strictly decode with explicit font/codec policies; retain every
    paragraph, run, source span, formatting property, token disposition and object.
    Undecodable runs retain their encoded evidence and cannot become reading text.
 4. **Semantics:** apply common paragraph preservation and source-bound reviewed
-   decisions. Unreviewed nonempty paragraphs remain `unresolved`; unsupported
-   code-font policies fail recovery for inspection instead of guessing. The next
-   sample checkpoint supplies evidence for additional rules and encoding policies.
+   decisions. Unclassified nonempty paragraphs remain `unresolved`. The 13c shared rules
+   retain Fixedsys passages as preformatted candidates, with semantic review still
+   pending, and preserve supported headings without inventing missing parents.
+   Unknown font policies fail recovery for inspection instead of guessing.
 5. **Media:** reuse checked shared resources and reviewed dispositions. New bitmap
    conversion checks decoded pixels; WMF conversion retains diagnostics and rejects
    suspect/blank output. Failed conversions stay deferred at their occurrences.

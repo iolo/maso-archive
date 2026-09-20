@@ -150,7 +150,15 @@ def recover_topic(rtf, report, initial_state=None, font_codecs=None):
                     state["character"]["font_id" if word == "f" else "fs"] = value
                 elif word in ("b", "ul"):
                     state["character"][word] = value != 0
-                elif word in ("sl", "li", "ri", "sa", "sb"):
+                    if word == "ul" and "underline_style" in state["character"]:
+                        state["character"]["underline_style"] = "single" if value != 0 else "none"
+                elif word == "uldb":
+                    state["character"]["ul"] = value != 0
+                    state["character"]["underline_style"] = "double" if value != 0 else "none"
+                elif word == "tx":
+                    require(value is not None, "Missing tab stop parameter")
+                    state["paragraph"].setdefault("tab_stops", []).append(value)
+                elif word in ("sl", "li", "ri", "sa", "sb", "fi"):
                     require(value is not None, "Missing paragraph format parameter")
                     state["paragraph"][word] = value
                 elif word in ("qr", "keepn"):

@@ -167,6 +167,7 @@ reader provide the batch input contract without introducing runtime dependencies
 on the original disc into reading-room packages.
 
 The [shared runner](CD1-BATCH-RUNNER.md) is complete for 13b.
-Next is **13c: validate the frozen sample beyond February**. Full-disc extraction begins after
-13c passes. Physical comparison, missing scans, deferred repairs, backup/restore,
+The [frozen-sample validation](CD1-BATCH-VALIDATION.md) also passes.
+Next is **13d: run and reconcile the full CD1 queue**. Physical comparison,
+missing scans, deferred repairs, backup/restore,
 CD2/CD3, publication/access decisions, and reading-room UI remain separate work.

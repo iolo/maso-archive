@@ -9,9 +9,9 @@ further extraction; per-disc coverage and completeness remain to be verified.
 
 Next milestone: **the first complete CD1 extraction pass**. The approved sequence
 is processing inventory → shared batch pipeline → February regression and a sample
-from other issues → resumable processing across CD1. Steps 13a and 13b are complete;
-**13c, validation on the frozen sample beyond February, is next**. Full-disc processing begins after the batch
-validation checkpoint. See the plan for checks.
+from other issues → resumable processing across CD1. Steps 13a–13c are complete;
+**13d, the first full-CD1 pass, is next**. The six February articles and nine
+additional candidates pass the shared-pipeline validation. See the plan for checks.
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)
@@ -113,4 +113,6 @@ It accounts for 1,088 dated article candidates across 72 months: six prepared,
 articles through independent resumable stages. Run `make batch-cd1 BATCH_ARGS="--issue 1988-02"`
 or select one article with `BATCH_ARGS="--article 8802030"`. Output is private under
 `build/cd1-batch/`; article and issue pointer files locate validated packages.
-Full-disc execution follows the frozen sample check in 13c.
+The [frozen sample validation](docs/CD1-BATCH-VALIDATION.md) passes for all fifteen
+articles, including fresh rebuild, resume and nested static URLs. Run
+`make validate-cd1-batch` to reproduce that checkpoint. The full-CD1 pass is next.

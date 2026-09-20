@@ -1295,3 +1295,72 @@
   deferred image repair, independent backup/restore, access/publication, CD2/CD3
   and reading-room UI remain separate. The owner's concurrent changes to
   `PRD-reading-room.md` were left untouched and excluded from this commit.
+
+### 2026-09-20 — Step 13c: frozen sample, preservation audit and batch validation
+
+- Ran the nine candidates frozen in 13a, together with all six February regression
+  articles. The first sample-only attempt prepared **three of nine**; six stopped
+  explicitly on missing font policies, an unsupported `fi` control, or auxiliary
+  topic ownership. Its report remains in `build/cd1-sample-initial/`. The first
+  expanded attempt prepared **14 of 15** and exposed an automatic heading rule
+  assigning level two without a level-one parent. Retained that attempt report,
+  fixed the shared rule, and added a regression test; no missing heading was
+  invented to force the package to validate.
+- Added source-bound shared policy: CP949 for inspected Fixedsys runs (including
+  Korean comments), with February's reviewed policies preserved. Additional font
+  26 in `9105358` and font 95 in `9304310` contain only spaces; their ASCII policies
+  are bound to exact article-topic hashes. Unknown fonts still fail with encoded
+  source evidence. Preserved first-line indentation, tab-stop positions, double
+  underline, resets and inherited state in structured RTF recovery.
+- Added conservative common structure rules for explicit titles/bylines, supported
+  numbered headings, and contiguous Fixedsys passages. Preformatted candidates
+  retain code whitespace, internal blank paragraphs and tabs; language and
+  code/table/terminal interpretation remain unverified. Unclassified paragraphs
+  and missing-parent heading cases remain explicit. No per-article preparation
+  scripts or runtime schema changes were introduced.
+- Inspected links to **two author biographies and one series navigation topic**.
+  Recovered their **21 paragraphs** separately with raw RTF, source/run accounting,
+  source links and dispositions. Verified all eight auxiliary media references;
+  their rendering remains deferred. These topics are not merged into the article
+  body or followed recursively into other articles. Other unreviewed linked
+  content still requires an ownership decision.
+- **All 15 articles now prepare across ten issues:** **8,110 paragraphs, 2,388
+  blocks, 213 media occurrences and 200 distinct media records**. Nine new articles
+  contribute 5,289 paragraphs. Preserved the unindexed native identity/source
+  alias, both suffixed identities, interior context offsets and the supplement's
+  null page number. February's article JSON/Markdown bytes, media records and
+  accepted assets remain unchanged; its historical artifacts/13b record survive.
+- Independently reconstructed **7,431 text runs from 992,844 original RTF bytes**,
+  checking codec round trips and encoded hashes, complete contiguous topic byte
+  accounting, paragraph projections, boundaries and identities. Audited auxiliary
+  recovery separately. All **95 available bitmap resources** match decoded source
+  pixels. Of the 200 article media records, **168 are available and 32 deferred**:
+  February's four existing exceptions plus 28 math-library vectors whose Symbol
+  font/glyphs are suspect after conversion. Kept diagnostics and source positions;
+  no broken-image repair was attempted.
+- Added `make validate-cd1-batch`. A fresh run in an empty temporary root reproduced
+  **every recorded stage output hash**, including conversion diagnostics and
+  preservation intermediates. Compatible resume reused **all 328 stage calls**.
+  All **524 HTTP file fetches** beneath `/archive/cd1/sample/` and
+  `/reader/data/magazines/cd1/` matched the composed package files. This verifies
+  the current sample's source preparation and static loading, not print fidelity
+  or universal support for all remaining disc constructs.
+- Recorded the frozen selection, per-article/topic counts, source hashes, media
+  dispositions/diagnostics, issue package locations and validation results in
+  `data/catalog/batch-runs/cd1-validation-sample.json`. Full text, images, source
+  spans and auxiliary recovery remain private under `build/`; tracked material
+  contains tools, tests, policy/validation metadata and documentation.
+- **202 tests pass**, including eight new checks covering formatting/reset rules,
+  fixed-pitch preservation, heading-parent constraints, independent run-byte
+  reconstruction, ledger gaps, frozen identities, auxiliary accounting and all
+  retained issue/media artifacts. Existing actual-source interruption/resume,
+  failure isolation and February regressions pass. The finite validation command,
+  full suite, tracked/private report comparison, local documentation links and
+  whitespace checks all pass. Validation ran with the converter and localhost
+  access required by these checks.
+- Updated PLAN-CD1 and current guidance: **13c complete; 13d, the first full CD1
+  pass, is next**. Every remaining candidate will receive a prepared, blocked or
+  failed outcome with evidence. Semantic/physical review, missing scans, deferred
+  image repair, independent backup/restore, access/publication, CD2/CD3 and UI remain
+  separate. The owner's concurrent `PRD-reading-room.md` edits remain untouched
+  and are excluded from this commit.

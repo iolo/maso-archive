@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "source_rtf_sha256": "01465d52667ab798df0dcf7993b6de764f45fd55e09eec1f80f77291303d957b",
+  "default_font_codecs": {
+    "4": "cp949",
+    "5": "cp949",
+    "6": "cp949",
+    "15": "cp949"
+  },
+  "font_basis": {
+    "15": "Fixedsys: reviewed February graphics includes Korean text; all frozen sample font-15 runs strictly round-trip CP949. Fixed pitch is a layout hint, not proof of programming language."
+  },
+  "article_fonts": {
+    "9105358": {
+      "source_topics": [
+        {
+          "id": "cd1:topic:1432",
+          "native": {
+            "ordinal": 1432,
+            "topic_number": 1431,
+            "topic_pos": 56754492,
+            "topic_offset": 113508371,
+            "mvb_header_byte_offset": 215976252,
+            "next_topic_pos": 56755108,
+            "browse_back_topic_offset": -1,
+            "browse_forward_topic_offset": -1
+          },
+          "rtf": {
+            "byte_offset": 32588615,
+            "byte_length": 1477,
+            "sha256": "e62389fcc807e328b9b24c27acdd8da4fd8e18b65e595c00a0390f446053f596"
+          },
+          "aliases": [
+            "0CVO57"
+          ],
+          "context_relation": "at_native_header"
+        },
+        {
+          "id": "cd1:topic:1433",
+          "native": {
+            "ordinal": 1433,
+            "topic_number": 1432,
+            "topic_pos": 56755108,
+            "topic_offset": 113508727,
+            "mvb_header_byte_offset": 215976868,
+            "next_topic_pos": 56820993,
+            "browse_back_topic_offset": 112986089,
+            "browse_forward_topic_offset": 113640482
+          },
+          "rtf": {
+            "byte_offset": 32590098,
+            "byte_length": 42834,
+            "sha256": "a5784e97c793abb3c1dcb0b8cf09784f92a976b9759e8298b8e469e7c60094db"
+          },
+          "aliases": [
+            "UKQ8IO"
+          ],
+          "context_relation": "at_native_header"
+        }
+      ],
+      "font_codecs": {
+        "26": "ascii"
+      },
+      "basis": "Only U+0020 space occurs in this additional font in the inspected source-bound article; no non-ASCII glyph interpretation is authorized."
+    },
+    "9304310": {
+      "source_topics": [
+        {
+          "id": "cd1:topic:2610",
+          "native": {
+            "ordinal": 2610,
+            "topic_number": 2609,
+            "topic_pos": 104742924,
+            "topic_offset": 209485824,
+            "mvb_header_byte_offset": 227973132,
+            "next_topic_pos": 104743523,
+            "browse_back_topic_offset": -1,
+            "browse_forward_topic_offset": -1
+          },
+          "rtf": {
+            "byte_offset": 62156635,
+            "byte_length": 1422,
+            "sha256": "92ea651b671cf7a5b5d2e940e5bf21eb752751d0815d9607cc64cece408e9d94"
+          },
+          "aliases": [
+            ".CUO19"
+          ],
+          "context_relation": "at_native_header"
+        },
+        {
+          "id": "cd1:topic:2611",
+          "native": {
+            "ordinal": 2611,
+            "topic_number": 2610,
+            "topic_pos": 104743523,
+            "topic_offset": 209486203,
+            "mvb_header_byte_offset": 227973731,
+            "next_topic_pos": 105054753,
+            "browse_back_topic_offset": 209256451,
+            "browse_forward_topic_offset": 210109021
+          },
+          "rtf": {
+            "byte_offset": 62158063,
+            "byte_length": 217081,
+            "sha256": "e183ee6f28dbb902c71996d949396e884c3054e0fdc3090aeb8ceee06d7013f2"
+          },
+          "aliases": [
+            "0BD8YA"
+          ],
+          "context_relation": "at_native_header"
+        }
+      ],
+      "font_codecs": {
+        "95": "ascii"
+      },
+      "basis": "Only U+0020 space occurs in this additional font in the inspected source-bound article; no non-ASCII glyph interpretation is authorized."
+    }
+  },
+  "auxiliaries": {
+    "cd1:topic:0030": {
+      "rtf": {
+        "byte_offset": 47620,
+        "byte_length": 626,
+        "sha256": "b610aff72e4735f0700018876c549d9f0a6668619d6b801621d65410f613a848"
+      },
+      "role": "author_biography",
+      "aliases": [
+        "N222"
+      ],
+      "links": [],
+      "disposition": "recover_separately; preserve source links; do not merge into article body or traverse related articles"
+    },
+    "cd1:topic:0033": {
+      "rtf": {
+        "byte_offset": 49831,
+        "byte_length": 1347,
+        "sha256": "bffb75c5c64c1a293297505d7fc2881cd19478fb586c6851571f448e6cb32659"
+      },
+      "role": "author_biography",
+      "aliases": [
+        "N262"
+      ],
+      "links": [],
+      "disposition": "recover_separately; preserve source links; do not merge into article body or traverse related articles"
+    },
+    "cd1:topic:0132": {
+      "rtf": {
+        "byte_offset": 129172,
+        "byte_length": 1135,
+        "sha256": "5cbf4096c426fd0b5b9fe273d8f1ad0693d11852f4188c9be33590d5000ac51e"
+      },
+      "role": "series_navigation",
+      "aliases": [
+        "YJ0950"
+      ],
+      "links": [
+        {
+          "alias": "UKN7GK",
+          "byte_offset": 129375,
+          "byte_length": 11,
+          "target_topic_id": "cd1:topic:1271"
+        },
+        {
+          "alias": "8BC8Z9",
+          "byte_offset": 129510,
+          "byte_length": 11,
+          "target_topic_id": "cd1:topic:1342"
+        },
+        {
+          "alias": "UKQ8IO",
+          "byte_offset": 129653,
+          "byte_length": 11,
+          "target_topic_id": "cd1:topic:1433"
+        },
+        {
+          "alias": "8BF85_",
+          "byte_offset": 129796,
+          "byte_length": 11,
+          "target_topic_id": "cd1:topic:1475"
+        },
+        {
+          "alias": "8BG8Y9",
+          "byte_offset": 129939,
+          "byte_length": 11,
+          "target_topic_id": "cd1:topic:1519"
+        },
+        {
+          "alias": "8BH979",
+          "byte_offset": 130050,
+          "byte_length": 11,
+          "target_topic_id": "cd1:topic:1564"
+        },
+        {
+          "alias": "8BI85_",
+          "byte_offset": 130153,
+          "byte_length": 11,
+          "target_topic_id": "cd1:topic:1608"
+        }
+      ],
+      "disposition": "recover_separately; preserve source links; do not merge into article body or traverse related articles"
+    }
+  }
+}

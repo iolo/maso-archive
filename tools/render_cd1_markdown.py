@@ -112,6 +112,8 @@ def render(article, block_map):
                 notes.append("Mixed text/object example: placeholders inside the code fence preserve object order; images cannot render there.")
             if block["object_refs"]:
                 notes.append("Image resources unresolved; image mapping/conversion is pending.")
+            if "fixed_pitch_layout_not_language_identification" in block["decision"]["review_concerns"]:
+                notes.append("Fixed-pitch source layout is preserved; code, table, or terminal interpretation awaits review.")
             if kind == "unresolved":
                 notes.append("Source paragraph structure awaits review; text, formatting, and object order are retained in preservation data."
                              if "semantic_review_pending" in block["decision"]["review_concerns"] else

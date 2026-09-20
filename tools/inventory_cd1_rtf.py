@@ -15,7 +15,7 @@ from tools.map_cd1_topic import ROOT, SOURCES, require
 
 OUTPUT = ROOT / "build/cd1-rtf-inventory/8802065"
 RECORD = ROOT / "data/catalog/rtf-inventories/cd1-8802065.json"
-KNOWN = set("b f fs footnote keepn li par pard plain qr ri sa sb sl tab ul up v".split())
+KNOWN = set("b f fi fs footnote keepn li par pard plain qr ri sa sb sl tab tx ul uldb up v".split())
 WORD = re.compile(rb"\\([a-zA-Z]+)(-?\d+)? ?")
 
 

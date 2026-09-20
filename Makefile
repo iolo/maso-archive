@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: import-toc import-cd1-index reading-room-example reading-room-package check-second-article prepare-cd1-interview prepare-cd1-editor prepare-cd1-graphics prepare-cd1-keyboard close-cd1-february prepare-cd1-issue inventory-cd1-sources inventory-cd1-processing batch-cd1 audit-cd1-issue restore-toc-snapshot prepare-cd1-transfer test check
+.PHONY: import-toc import-cd1-index reading-room-example reading-room-package check-second-article prepare-cd1-interview prepare-cd1-editor prepare-cd1-graphics prepare-cd1-keyboard close-cd1-february prepare-cd1-issue inventory-cd1-sources inventory-cd1-processing batch-cd1 validate-cd1-batch audit-cd1-issue restore-toc-snapshot prepare-cd1-transfer test check
 
 import-toc:
 	PYTHONPATH=src $(PYTHON) -m maso_archive import-toc
@@ -37,6 +37,9 @@ close-cd1-february:
 
 prepare-cd1-issue:
 	PYTHONPATH=src $(PYTHON) -m tools.prepare_cd1_issue
+
+validate-cd1-batch:
+	PYTHONPATH=src $(PYTHON) -m tools.validate_cd1_batch $(VALIDATION_ARGS)
 
 batch-cd1:
 	PYTHONPATH=src $(PYTHON) -m tools.run_cd1_batch $(BATCH_ARGS)

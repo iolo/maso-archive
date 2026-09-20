@@ -83,9 +83,9 @@ IDs preserved. Historical article and coverage provenance is unchanged; see
 
 **12b.1–3, 12c, and 12d are complete.** The [issue handoff](CD1-ISSUE-1988-02.md)
 preserves all six prepared articles and reconciles their newer evidence with
-every February TOC entry. The [processing inventory](CD1-PROCESSING-INVENTORY.md)
-and [shared runner](CD1-BATCH-RUNNER.md) are complete; **13c**, validation beyond
-February, is next in the
+every February TOC entry. The [processing inventory](CD1-PROCESSING-INVENTORY.md),
+[shared runner](CD1-BATCH-RUNNER.md), and [sample validation](CD1-BATCH-VALIDATION.md)
+are complete; **13d**, the full queue run, is next in the
 [complete CD1 pass](../PLAN-CD1.md#next-milestone-first-complete-cd1-extraction-pass).
 Backup/restore, physical comparison, deferred media
 repair, CD2/CD3, and the UI retain their separate scopes.
