@@ -1812,3 +1812,63 @@
   TOC matching, physical review, scans, image repair, backup/restore, CD2/CD3, UI and
   publication/access remain separate scopes. Full text and detailed evidence stay
   private, and the owner's two PRD files are excluded from this commit.
+
+### 2026-09-20 — Step 17a started: seven non-Symbol font declarations
+
+- Review all associated topics for `8910172`, `9010204`, `9107124`, `9108302`,
+  `9304171`, `9306300` and `9309201`, preserving the 16b combined handoff.
+- Initial byte/context inspection supports six candidates. `9309201` contains
+  an ambiguous code-listing sequence: CP949 round-trips but consumes the ASCII
+  `G` after byte `a4` as part of an extended Hangul character. Preserve competing
+  interpretations and leave the entire article outside the accepted policy.
+- Validate five fixed samples covering Tms Rmn spacing, two Fixedsys declarations,
+  the vertical Korean-font parenthesis and Helvetica text. Keep the remaining
+  supported Helvetica candidate for the subsequent pass, with source, packaging,
+  pixel-preservation and isolated-rebuild checks before closeout.
+- The complete audit reproduces all 14 original topic recoveries and independently
+  checks 799 unsupported runs. Six candidates qualify for source-bound policies
+  covering 703 runs, including 222 non-ASCII runs. The entire original recovery for
+  `9309201` remains unchanged; all 96 unsupported runs stay outside the policy.
+- All five sample articles prepare with review exceptions, preserving 2,159
+  paragraphs, 1,350 blocks, 380,446 RTF bytes, 1,842 text runs and 67 object
+  occurrences. All 56 available bitmap resources preserve pixels; nine distinct
+  media remain deferred. Eight new policy/artifact tests pass. Full regressions,
+  normal audit/sample reruns and an isolated fresh rebuild are running.
+- Normal audit/sample reruns reproduce both tracked summaries exactly. An
+  isolated rebuild reproduces **all 93 article runtime files byte for byte**,
+  with identical source checks and outcomes. Full historical/source/package
+  regressions are still running before checkpoint closeout.
+
+### 2026-09-20 — Step 17a completed: font declarations and ambiguous-byte preservation
+
+- All seven candidates and their 14 associated topics are audited against the
+  original recovery. Six supported policies cover **703 unsupported runs**,
+  including **222 non-ASCII runs**, from the 799 runs inspected. Each policy is
+  bound to the exact source, article, topic associations and font declarations.
+- `9309201` remains deferred: strict CP949 round-trips an ambiguous listing
+  sequence but consumes an apparent ASCII `G` into extended Hangul. All **96
+  unsupported runs** and the complete original recovery remain unchanged; no
+  policy or runtime package is approved. Raw bytes, competing interpretations and
+  context stay private, with independent byte accounting explicitly distinguished
+  from decoded text. No guessed glyph or source repair is introduced.
+- All **five fixed samples prepare with review exceptions**. Five standalone and
+  five partial issue packages validate, preserving **2,159 paragraphs, 1,350
+  blocks, 380,446 RTF bytes, 1,842 text runs and 67 object occurrences**. All
+  **56 available bitmap resources** preserve source pixels; nine distinct media
+  remain deferred. Formatting, source boundaries and auxiliary decisions survive.
+- Normal audit/sample reruns reproduce both tracked summaries exactly. An isolated
+  rebuild reproduces **all 93 article runtime files byte for byte**, with identical
+  source checks and outcomes. **256 regression tests pass without skips**,
+  including eight new policy/artifact tests. Documentation links, catalog JSON
+  and whitespace checks pass.
+- PLAN-CD1 marks **17a done; 17b next**: process the remaining supported candidate
+  `9306300`, carry the five samples forward and reconcile combined packages against
+  16b. Current combined coverage remains **982 articles across 72 issues, 98
+  failures and eight blockers** until that integration is audited. Four Symbol
+  cases, 37 existing-codec failures and the ambiguous article remain outside the
+  supported retry scope.
+- Original decoder, shared policies, schema and historical records remain
+  unchanged. Full text, previews, media and detailed evidence stay private. TOC
+  matching, physical review, scans, image repair, backup/restore, CD2/CD3, UI and
+  publication/access remain separate work. The owner's two PRD files are excluded
+  from this commit.

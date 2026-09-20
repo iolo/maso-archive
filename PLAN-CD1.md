@@ -1150,7 +1150,7 @@ resume reproduces the 79-file execution manifest. A second complete audit
 reproduces all 14 coverage tables and the tracked summary exactly.
 **248 regression tests pass**.
 
-### 17a — Next: review seven remaining non-Symbol font candidates
+### 17a — Done: review seven remaining non-Symbol font candidates
 
 **Scope:** `8910172`, `9010204`, `9107124`, `9108302`, `9304171`, `9306300`
 and `9309201`, retained by the 15a full-source audit with unreviewed Tms Rmn,
@@ -1163,9 +1163,29 @@ supports decoding; retain ambiguous cases explicitly. Validate source preservati
 packages and an isolated rebuild before planning a broader retry. The four Symbol
 cases and 37 failures under existing codecs remain separate investigations.
 
+**Audit and sample results:** all 14 source topics reproduce the original recovery.
+Six candidates support exact-source policies covering 703 unsupported runs (222
+non-ASCII). `9309201` retains its whole original recovery and has no approved
+policy: one byte sequence round-trips under CP949 but consumes an apparent ASCII
+`G` into extended Hangul. All five fixed samples prepare with review exceptions,
+preserving 2,159 paragraphs and 380,446 RTF bytes. Normal audit/sample reruns
+reproduce both records exactly; an isolated rebuild reproduces all 93 article
+runtime files byte for byte. **256 regression tests pass without skips**.
+See the [declaration review](docs/CD1-FONT-DECLARATION-REVIEW.md).
+
+### 17b — Next: remaining supported declaration case and combined coverage
+
+Process `9306300` under the unchanged 17a source-bound policy and carry its five
+sample successes forward. Compose and audit current issue packages against 16b;
+preserve all historical outcomes and any newly exposed failure. Keep `9309201`
+deferred with its exact raw-byte/context evidence. The other four Symbol-font and
+37 existing-codec failures remain separate investigations. Complete source/media
+preservation, resume, repeated coverage reporting and regression checks before
+counting additional combined availability.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b and 16a–16b are complete**.
+Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b and 17a are complete**.
 Every CD1 candidate has a durable first-pass outcome, all 470 association failures
 have subsequent outcomes, and all 33 reviewed ASCII-font candidates prepare.
 Current audited 16b packages contain **982 prepared articles across 72 issues**,
@@ -1173,8 +1193,10 @@ with **98 failures and eight blockers** explicitly retained. Full regressions,
 resume and repeat-audit checks pass.
 
 Checkpoint 16b includes all five ordinary-font successes in combined coverage.
-Next, 17a reviews the seven remaining non-Symbol font candidates before choosing
-any further source-bound policy or validation sample.
+Checkpoint 17a supports six further candidates, validates five standalone samples
+and retains one ambiguous article without a decoding policy. Next, 17b processes
+the remaining supported candidate `9306300`, carries those samples forward and
+reconciles combined coverage against 16b.
 Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
 TOC matching is separate metadata work: 918 prepared articles still lack reviewed
@@ -1209,7 +1231,8 @@ of later publication decisions.
 | 15b — Done: ASCII-policy retry pass | Remaining 27 eligible retries and current coverage reconciliation. | All 33 eligible candidates prepare; all 72 current packages validate with 977 articles while history and remaining failures are preserved. |
 | 16a — Done: ordinary-font non-ASCII review | Five source-bound policies and four fixed sample packages. | All ten topics preserve source evidence; four packages validate, 72 runtime files rebuild identically and 243 tests pass. |
 | 16b — Done: ordinary-font retry reconciliation | Remaining candidate, carried samples and combined issue coverage. | All five prepare; 72 current packages validate with 982 articles, exact resume/repeated audit and 248 passing tests. |
-| 17a — Next: remaining non-Symbol font review | Seven bounded source decisions and a supported fixed sample. | Source evidence justifies each accepted mapping and sample preservation/reproducibility checks pass; ambiguous cases remain deferred. |
+| 17a — Done: remaining non-Symbol font review | Six supported policies, one deferred article and five fixed sample packages. | All 14 topics preserve evidence, five samples validate, 93 runtime files rebuild identically and 256 tests pass. |
+| 17b — Next: font-declaration retry reconciliation | One remaining supported candidate, five carried samples and current coverage. | All six supported candidates have subsequent outcomes; combined packages and repeatability validate while the ambiguous seventh remains deferred. |
 
 ### Content contract requirements implemented in step 8
 

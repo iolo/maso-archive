@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "checkpoint": "17a",
+  "scope": "seven_non_Symbol_font_declarations",
+  "current_record": {
+    "path": "data/catalog/batch-runs/cd1-ordinary-font-pass.json",
+    "bytes": 81159,
+    "sha256": "88d01de40cc8814e14c41fd59e6eb8bff0cf8b3221afe2470fbbeb6992118951"
+  },
+  "prior_review_record": {
+    "path": "data/catalog/batch-runs/cd1-font-review.json",
+    "bytes": 16600,
+    "sha256": "76743ef97a36401464bb3fbde4a107e0076a8aff9619048693a1bb89d884eb67"
+  },
+  "pipeline_identity_sha256": "19b38d802ef38064ea6a388d49f440218f7c6225ab960ba6bd4910be9f29c3d0",
+  "code_sha256": "c45cff999d2af9703b74fd855650768345ae574ece838af97767d0a3ed65a0da",
+  "output_root": "build/cd1-font-declaration-review/stages/review/39f13b7fdb8cff5be2b1f392fcd212a86c3ea080a172cab24cddccfcbb5d2195",
+  "fingerprint": "39f13b7fdb8cff5be2b1f392fcd212a86c3ea080a172cab24cddccfcbb5d2195",
+  "outputs": [
+    {
+      "path": "articles/8910172/recovery.json",
+      "bytes": 3597869,
+      "sha256": "196792ac07d374f510f76c5878339fa123cfdc327b58d9f32f15e512879a1bc4"
+    },
+    {
+      "path": "articles/9010204/recovery.json",
+      "bytes": 2269899,
+      "sha256": "8e870751ccbe9e6af255017e346cdf24520d27245467591185891b7c687028a2"
+    },
+    {
+      "path": "articles/9107124/recovery.json",
+      "bytes": 3350846,
+      "sha256": "294b85f6319022ea13e6e916636a721a3795e122e2f8cb14d73cfdf819d6f766"
+    },
+    {
+      "path": "articles/9108302/recovery.json",
+      "bytes": 2938231,
+      "sha256": "00627cd33805440c506f56d19276d69a2247d27acb9b7e0a7825f11cc744a2c3"
+    },
+    {
+      "path": "articles/9304171/recovery.json",
+      "bytes": 4279646,
+      "sha256": "9e3f4cb9525b8400cc37323e865aa580a833f6487068c9a9c8ab0b3207e4d5af"
+    },
+    {
+      "path": "articles/9306300/recovery.json",
+      "bytes": 3591247,
+      "sha256": "ec5ed1fc6ae723b5905a846f9f071ad99d5d3a5cc3b655ee8f8128d6a79454e6"
+    },
+    {
+      "path": "articles/9309201/recovery.json",
+      "bytes": 2279002,
+      "sha256": "352acb2ce12c0a2d2b35edf7d3878610487d67a80d7feb45a1c13b172aef5ddf"
+    },
+    {
+      "path": "jobs.json",
+      "bytes": 16955,
+      "sha256": "37ee4cd047d4e73235c2bb2cdb597ef822a42ce8f8a66db10f38b8863975724e"
+    },
+    {
+      "path": "policy.json",
+      "bytes": 9983,
+      "sha256": "7a8f30c36ee758c0050a101d7fc4a95c72556f1c946d58c30136628682455474"
+    },
+    {
+      "path": "runs.json",
+      "bytes": 3986872,
+      "sha256": "35162491b125706a33a23e529b771d3b86fce1960d17181b849211227f75bc3e"
+    }
+  ],
+  "cases": {
+    "8910172": {
+      "font_codecs": {
+        "1": "ascii"
+      },
+      "runs": 1,
+      "non_ascii": 0,
+      "basis": "fourteen spaces after a pointer-assignment illustration; no visible glyph inferred"
+    },
+    "9010204": {
+      "font_codecs": {
+        "64": "cp949"
+      },
+      "runs": 205,
+      "non_ascii": 31,
+      "basis": "C listing identifiers and Korean comments agree with surrounding source and compiler notes"
+    },
+    "9107124": {
+      "font_codecs": {
+        "73": "cp949"
+      },
+      "runs": 28,
+      "non_ascii": 4,
+      "basis": "C++ class listing has coherent Korean private/public member annotations"
+    },
+    "9108302": {
+      "font_codecs": {
+        "72": "ascii"
+      },
+      "runs": 1,
+      "non_ascii": 0,
+      "basis": "single ASCII opening parenthesis before Lock, matched by the following closing parenthesis; vertical font retained"
+    },
+    "9304171": {
+      "font_codecs": {
+        "7": "cp949",
+        "0": "ascii"
+      },
+      "runs": 99,
+      "non_ascii": 85,
+      "basis": "Korean outline-font introduction and body agree in title and terminology; one Helv ASCII run retained"
+    },
+    "9306300": {
+      "font_codecs": {
+        "7": "cp949"
+      },
+      "runs": 369,
+      "non_ascii": 102,
+      "basis": "Korean presentation/EMS/VGA prose and listing context support the shared byte repertoire"
+    },
+    "9309201": {
+      "font_codecs": {
+        "7": "cp949"
+      },
+      "runs": 96,
+      "non_ascii": 36,
+      "basis": "ambiguous high byte before apparent GET keyword; strict CP949 consumes ASCII G into extended Hangul"
+    }
+  },
+  "accepted_references": [
+    "8910172",
+    "9010204",
+    "9107124",
+    "9108302",
+    "9304171",
+    "9306300"
+  ],
+  "deferred_references": [
+    "9309201"
+  ],
+  "reviewed_fonts": {
+    "0": "Helv",
+    "1": "Tms Rmn",
+    "7": "Helvetica",
+    "64": "fixedsys",
+    "72": "@굴림체",
+    "73": "FIXEDSYS"
+  },
+  "fixed_sample": {
+    "8910172": "fourteen spaces after a pointer-assignment illustration; no visible glyph inferred",
+    "9010204": "C listing identifiers and Korean comments agree with surrounding source and compiler notes",
+    "9107124": "C++ class listing has coherent Korean private/public member annotations",
+    "9108302": "single ASCII opening parenthesis before Lock, matched by the following closing parenthesis; vertical font retained",
+    "9304171": "Korean outline-font introduction and body agree in title and terminology; one Helv ASCII run retained"
+  },
+  "counts": {
+    "articles": 7,
+    "source_topics": 14,
+    "reviewed_runs": 799,
+    "non_ASCII_runs": 258,
+    "ambiguous_runs": 1,
+    "accepted_runs": 703,
+    "accepted_non_ASCII_runs": 222,
+    "job_states": {
+      "deferred_ambiguous_source_byte": 1,
+      "source_bound_font_policy_ready": 6
+    }
+  },
+  "limits": [
+    "six_accepted_source_associations_one_deferred",
+    "not_a_global_font_mapping",
+    "no_replacement_or_fallback",
+    "physical_review_pending",
+    "current_16b_combined_coverage_unchanged"
+  ]
+}
