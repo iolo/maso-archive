@@ -1183,3 +1183,59 @@
   headings, readiness JSON, and whitespace checks pass. Only `allowed_next_scope`
   changed in the readiness record. No runtime code changed, so extraction tests
   were not rerun.
+
+## 2026-09-20 — CD1 step 13a: processing inventory completed
+
+- Added `make inventory-cd1-processing`, the private metadata artifacts under
+  `build/cd1-processing-inventory/`, and a tracked inventory record. Reused the
+  February native scan, checked original MVB/RTF hashes, reproduced all three
+  index imports/grouping and current TOC entries, and verified February's runtime
+  files and source-topic evidence. No new article text or media was prepared.
+- Accounted for **3,099 topics, 2,103 contexts, 3,032 index entries, 1,080 distinct
+  index targets, 2,462 reference occurrences, and 5,497 TOC entries**. All index
+  targets resolve to native/exported aliases: 1,079 dated bodies and one navigation
+  topic. All 41 suffixed references remain distinct. Nine dated candidates are
+  unindexed, including already-prepared KEYBOARD LOCK; no numeric reference was
+  invented from a page label.
+- Built **1,088 article-candidate jobs across 72 months**: six already prepared,
+  **1,074 ready for runner validation**, and **eight blocked on ownership**. Ready
+  is a metadata state, not a claim of successful extraction or complete boundaries.
+  The eight blockers preserve three substantial unaliased topics following bodies
+  and five possible introductions without the expected direct link. Their content
+  is not discarded or merged solely from adjacency.
+- Classified the other sources as 883 linked introduction candidates, 993
+  formatting-only separators, 114 linked auxiliary topics, three application
+  resource topics, and ten navigation topics. Retained all aliases, incoming and
+  outgoing links, native locations, and RTF spans/hashes. All 31 context/header
+  differences (eleven dated bodies) lie inside the corresponding ordered native
+  topic intervals; association evidence is recorded without treating those offsets
+  as article-header addresses. Actual recovery boundaries remain a runner check.
+- Preserved the six prepared identities, TOC links, exact source spans, extraction
+  status, and pending physical comparison. Conservative new TOC matching requires
+  exact titles, explicit issues, and observed pages: 66 entries matched, 185 need
+  review, 2,780 have no exact-title match, 1,909 are outside observed CD1 months,
+  and 557 are sections. Unmatched TOC metadata does not block body preparation.
+- Froze a **nine-candidate validation sample spanning 1988–1993**, including
+  unindexed/suffixed references, additional fonts, long code-bearing topics,
+  bitmap/vector variety, interior context offsets, and a supplement without a
+  numeric page label. Selection uses lexical hints only; complete RTF/semantic
+  inspection is still required in the shared pipeline.
+- Documented the versioned batch input contract and added a standalone inventory
+  reader. It checks hashes, unique ownership, complete source populations, job
+  states, context intervals, links, and TOC/job relationships after relocation.
+  Staging validates before replacement; failed validation preserves the previous
+  inventory. Normal builds must reproduce the reviewed record.
+- Updated PLAN-CD1 and current guidance: **13a complete; 13b, the shared extraction
+  and packaging runner, is next**. Full-disc processing follows 13c validation.
+  Historical extraction records and packages remain unchanged; physical review,
+  deferred repairs, backup/restore, CD2/CD3, access/publication, and UI remain
+  separate. The owner's PRD-reading-room edits remain untouched.
+- Validation: **179 tests passed**, including twelve new inventory checks covering
+  complete populations, unindexed/suffixed identities, context bounds, explicit
+  page matching, retained ownership blockers, February evidence, fixed sample,
+  rejection of missing/duplicate/falsely-ready jobs, relocation, and failed staging.
+  The initial restricted run blocked two localhost HTTP tests and changed Inkscape
+  diagnostics used by a historical reproducibility assertion; an authorized
+  unrestricted `make check` passed the full suite without source/record changes.
+  Normal inventory rebuild and standalone verification pass, as do documentation
+  links, metadata totals, private-output exclusions, readiness JSON, and whitespace.

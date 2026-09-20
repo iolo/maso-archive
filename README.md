@@ -9,8 +9,9 @@ further extraction; per-disc coverage and completeness remain to be verified.
 
 Next milestone: **the first complete CD1 extraction pass**. The approved sequence
 is processing inventory → shared batch pipeline → February regression and a sample
-from other issues → resumable processing across CD1. Step 13a is next; full-disc
-processing begins after the batch validation checkpoint. See the plan for checks.
+from other issues → resumable processing across CD1. Step 13a is complete;
+the shared runner in **13b is next**. Full-disc processing begins after the batch
+validation checkpoint. See the plan for checks.
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)
@@ -40,6 +41,7 @@ processing begins after the batch validation checkpoint. See the plan for checks
 - [February 1988 issue handoff and current coverage](docs/CD1-ISSUE-1988-02.md)
 - [CD1 source inventory and backup readiness](docs/CD1-PRESERVATION.md)
 - [February 1988 coverage audit](docs/CD1-COVERAGE-1988-02.md)
+- [CD1 processing inventory and batch input contract](docs/CD1-PROCESSING-INVENTORY.md)
 - [CD1 extraction findings](docs/CD1-EXTRACTION.md)
 
 Run `make import-toc` to build the local TOC catalog and `make check` to validate
@@ -103,3 +105,8 @@ all six articles identified by native February metadata, including the unindexed
 “KEYBOARD LOCK.” Coverage accounts for four sections and 29 unmatched article
 candidates; physical-magazine completeness remains unverified.
 See the [base URL and search handoff](docs/CD1-ISSUE-1988-02.md#static-base-url-and-metadata-search).
+
+Run `make inventory-cd1-processing` to reproduce the CD1 batch input inventory.
+It accounts for 1,088 dated article candidates across 72 months: six prepared,
+1,074 ready for runner validation, and eight blocked on topic ownership. The
+shared extraction runner is the next implementation checkpoint.

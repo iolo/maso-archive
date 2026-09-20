@@ -1,0 +1,4155 @@
+{
+  "schema_version": 1,
+  "inventory_version": "1.0.0",
+  "disc_id": "cd1",
+  "checkpoint": "13a",
+  "scope": "metadata_only",
+  "inputs": {
+    "tools/inventory_cd1_processing.py": {
+      "path": "tools/inventory_cd1_processing.py",
+      "bytes": 35878,
+      "sha256": "0f607806d2273f3ed58c1e0031fe92759d13a8e951a1998fc83cda9ffe0a442d"
+    },
+    "tools/close_cd1_february.py": {
+      "path": "tools/close_cd1_february.py",
+      "bytes": 16906,
+      "sha256": "5ca8fb279576aac2e81a25383252cdda96e8947aeae04b39b922ea8a2e2d4132"
+    },
+    "tools/map_cd1_topic.py": {
+      "path": "tools/map_cd1_topic.py",
+      "bytes": 11459,
+      "sha256": "3fc694559b021861dd4846a90d16c037155c7ba691ca9ba6d3797184b71d8594"
+    },
+    "src/maso_archive/cd1_index.py": {
+      "path": "src/maso_archive/cd1_index.py",
+      "bytes": 12128,
+      "sha256": "12e149f3b8dc0bf3f30cf81ce4abe5953a3255c42de425d1496169c29f8f1ac9"
+    },
+    "masocd-1/MASOCD.MVB": {
+      "path": "masocd-1/MASOCD.MVB",
+      "bytes": 259490690,
+      "sha256": "bde731b36c6a9e37ba0f23e4fce66758417753073cb537b7cc8d6dddfcd02565"
+    },
+    "private/cd1-probe/raw/MASOCD.rtf": {
+      "path": "private/cd1-probe/raw/MASOCD.rtf",
+      "bytes": 74157536,
+      "sha256": "01465d52667ab798df0dcf7993b6de764f45fd55e09eec1f80f77291303d957b"
+    },
+    "build/cd1-index/manifest.json": {
+      "path": "build/cd1-index/manifest.json",
+      "bytes": 1400,
+      "sha256": "d1d0f0647792165fafd2f0774d0fce5becfb9568fc2451e9f0deaaa8d3d349fc"
+    },
+    "private/cd1-probe/manifest.json": {
+      "path": "private/cd1-probe/manifest.json",
+      "bytes": 1109026,
+      "sha256": "4fde5f744cfeb16dae303b0fae07b2bdbf5c3c12906d21e09937c13191126632"
+    },
+    "private/cd1-probe/raw/column.lst": {
+      "path": "private/cd1-probe/raw/column.lst",
+      "bytes": 58047,
+      "sha256": "ac8b1885fdc19b8db1fcf8a85983b6dc1c082c4fda12df3b84d1ea3470220a60"
+    },
+    "private/cd1-probe/raw/language.lst": {
+      "path": "private/cd1-probe/raw/language.lst",
+      "bytes": 38691,
+      "sha256": "a89d2541e32e3cec89fa1ec9c84403ffcb95e937279b64a33c110d28b48471dc"
+    },
+    "private/cd1-probe/raw/panecmds.lst": {
+      "path": "private/cd1-probe/raw/panecmds.lst",
+      "bytes": 39152,
+      "sha256": "3396b2504d528c359ff51a8cd6c9306854d526d5ea1e26a7742960e45df694b8"
+    },
+    "build/cd1-index/entries.jsonl": {
+      "path": "build/cd1-index/entries.jsonl",
+      "bytes": 3139974,
+      "sha256": "f3c3c7dd10ed6df0f9041843ef7c0d0f3f972c0b0295edf16993a0998aac9599"
+    },
+    "build/cd1-index/references.jsonl": {
+      "path": "build/cd1-index/references.jsonl",
+      "bytes": 470279,
+      "sha256": "8abe3c9f596020cb021acb145797f5a5106c3643e2deb15c7fcacd82d31fabc7"
+    },
+    "build/toc/manifest.json": {
+      "path": "build/toc/manifest.json",
+      "bytes": 1237,
+      "sha256": "dfc8365c84a9fee7e78d21a55ad0b9a38117050b4b60240e14160394e6e4b90d"
+    },
+    "TOC.md": {
+      "path": "TOC.md",
+      "bytes": 251883,
+      "sha256": "15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727"
+    },
+    "data/identities/toc.json": {
+      "path": "data/identities/toc.json",
+      "bytes": 905089,
+      "sha256": "2cb840ed3d2d704dc1f1c871a30e7fd427aab5b9228ca92fde8e60544a2797ae"
+    },
+    "build/toc/toc-entries.jsonl": {
+      "path": "build/toc/toc-entries.jsonl",
+      "bytes": 4056528,
+      "sha256": "ad21242011507327a8b4969192ac11475ec0f331e40777133da1791069ba9efc"
+    },
+    "data/catalog/issue-packages/cd1-1988-02-native.json": {
+      "path": "data/catalog/issue-packages/cd1-1988-02-native.json",
+      "bytes": 10753,
+      "sha256": "053119422e4d23add898dd21a88116b0387284100d8374033f2f2b7e93239259"
+    },
+    "build/cd1-issues/1988-02-native/content/articles/cd1/8802030.json": {
+      "path": "build/cd1-issues/1988-02-native/content/articles/cd1/8802030.json",
+      "bytes": 83006,
+      "sha256": "a1269594745e7768173f9a35f726d15be7d0fbab6689ff6819c53f17a3701c4e"
+    },
+    "build/cd1-issues/1988-02-native/content/articles/cd1/8802065.json": {
+      "path": "build/cd1-issues/1988-02-native/content/articles/cd1/8802065.json",
+      "bytes": 222740,
+      "sha256": "fd84ac93107ef3e813e1235cbbadf8a7944ec6d38813bb4e0c2ae2e4bc2695d5"
+    },
+    "build/cd1-issues/1988-02-native/content/articles/cd1/8802114.json": {
+      "path": "build/cd1-issues/1988-02-native/content/articles/cd1/8802114.json",
+      "bytes": 141604,
+      "sha256": "32460aabe47ad0a623724bc2791920ce63e1dd0e7cd145457be423d2a3ccdc3d"
+    },
+    "build/cd1-issues/1988-02-native/content/articles/cd1/8802162.json": {
+      "path": "build/cd1-issues/1988-02-native/content/articles/cd1/8802162.json",
+      "bytes": 132400,
+      "sha256": "4b529d35b3ab768c05d315f8bd709eaaf0e9fd79cc87d3e727fa881ee72cb079"
+    },
+    "build/cd1-issues/1988-02-native/content/articles/cd1/8802180.json": {
+      "path": "build/cd1-issues/1988-02-native/content/articles/cd1/8802180.json",
+      "bytes": 131419,
+      "sha256": "333f029aa4052b62e1acc5f0064d4bbf39d71a49165b0c48ca84a07b9fb792f6"
+    },
+    "build/cd1-issues/1988-02-native/content/articles/cd1/8802184.json": {
+      "path": "build/cd1-issues/1988-02-native/content/articles/cd1/8802184.json",
+      "bytes": 348144,
+      "sha256": "15a3293c8945228353480fef5453aaee60426f5351cb340aaa793105ff646baf"
+    },
+    "build/cd1-issues/1988-02-native/content/catalog.json": {
+      "path": "build/cd1-issues/1988-02-native/content/catalog.json",
+      "bytes": 1897,
+      "sha256": "d7566e070ea7b3c444f4852b5042c70fcf1437a466a91f59ae0f3a62d43706be"
+    },
+    "build/cd1-issues/1988-02-native/content/issues/maso-1988-02.json": {
+      "path": "build/cd1-issues/1988-02-native/content/issues/maso-1988-02.json",
+      "bytes": 12471,
+      "sha256": "d9101189bfbc470738184ba4628be9fca3fc0a1186d3b3dd6e2fab1d1db5cec9"
+    },
+    "build/cd1-issues/1988-02-native/content/manifest.json": {
+      "path": "build/cd1-issues/1988-02-native/content/manifest.json",
+      "bytes": 4991,
+      "sha256": "c154bd8b9467358c414b714c62331590b3ee1bb838ee22330602022f236c6637"
+    },
+    "build/cd1-issues/1988-02-native/content/media.json": {
+      "path": "build/cd1-issues/1988-02-native/content/media.json",
+      "bytes": 20519,
+      "sha256": "02432d88d6150d8b49fc59bd57edbc6d97c797e16e62123a840870f47e4e36a3"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/82087_7.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/82087_7.dib.png",
+      "bytes": 4710,
+      "sha256": "86ac5228d5a591f66daeeebc64755c5bbf6908d0def1c5648b92b96bc0a62d06"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/82181_3.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/82181_3.dib.png",
+      "bytes": 37931,
+      "sha256": "0c82a8e0b8d7e2e3a696b9399a7722d90c52743bf33460a3f5385c34d2f50ff5"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/82185_2.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/82185_2.dib.png",
+      "bytes": 19586,
+      "sha256": "5cdb66addd421a422cae2779c1f5075d32ffd22b5e3bff9a1af2518ecf6bd6d2"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/82186_3.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/82186_3.dib.png",
+      "bytes": 8972,
+      "sha256": "7ec9413e9bce8350f6c4b29e0bbd0b8a649302b1f3dd5bcb6bf4fb8d7676c4fa"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/88020911.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/88020911.dib.png",
+      "bytes": 2157,
+      "sha256": "d58c67d315ecf7be0aa19633e1be3d0a2347c5ee12829ae04d1a4b55f34feacb"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/88021631.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/88021631.dib.png",
+      "bytes": 4540,
+      "sha256": "9b56953d4bcee9bb3674f6f83fd093129e474a42e388f7f40821ee4cdbb079fc"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/88021642.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/88021642.dib.png",
+      "bytes": 7640,
+      "sha256": "6025960d1e9ca435a771bbb6d763c44f8961479ffa0f00e992842c4b07e8da48"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/88021653.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/88021653.dib.png",
+      "bytes": 8360,
+      "sha256": "2e855495b7b55b03ac7f94c37e3e7498dde9c3ad7851310ed1b6e062a306996a"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm39.bmp.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm39.bmp.png",
+      "bytes": 95,
+      "sha256": "166def870f4ec047c2708921d74ed706d592acb7033e55e0cd7591132a8961f1"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm40.bmp.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm40.bmp.png",
+      "bytes": 225,
+      "sha256": "c792d7c9b4951c8559f0bf39362862c06626732adf6448d3b33c4fc15c47492a"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm41.bmp.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm41.bmp.png",
+      "bytes": 297,
+      "sha256": "3eda61632bb120794f7abfde907476288a602bafc3f83504dd19931620394e84"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm42.bmp.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm42.bmp.png",
+      "bytes": 209,
+      "sha256": "7207e73486e06c2dfc72dfb16c331f1bcd9a6b0e584d5f4a5b7b8894d2262d75"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm43.bmp.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm43.bmp.png",
+      "bytes": 256,
+      "sha256": "c2e8aafc26f04bc89d458c75043121234b419e0c4877e06acc3d22c5ead8b040"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm44.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm44.wmf.svg",
+      "bytes": 3630,
+      "sha256": "1869e3fb1ea1bd1ae369085c72059829e494bddbbf4eba57bfb1dd301942ded0"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm45.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm45.wmf.svg",
+      "bytes": 3630,
+      "sha256": "1869e3fb1ea1bd1ae369085c72059829e494bddbbf4eba57bfb1dd301942ded0"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm46.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm46.wmf.svg",
+      "bytes": 1411,
+      "sha256": "3adf96ba158afebed9e0ad22bdad011a07d8e488b26355133c83ade9dc450672"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm47.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm47.wmf.svg",
+      "bytes": 3630,
+      "sha256": "1869e3fb1ea1bd1ae369085c72059829e494bddbbf4eba57bfb1dd301942ded0"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm48.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm48.wmf.svg",
+      "bytes": 1410,
+      "sha256": "11570998f8dccfad59721b70fad541e1b2aca7b46d0c2d6d37d7493ad454dde2"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm49.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm49.wmf.svg",
+      "bytes": 3630,
+      "sha256": "1869e3fb1ea1bd1ae369085c72059829e494bddbbf4eba57bfb1dd301942ded0"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm50.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm50.wmf.svg",
+      "bytes": 1411,
+      "sha256": "88dab92aaef9e8d9007c649c1ff5c4cd0b82e544d615353d39da0205a42aef60"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm51.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm51.wmf.svg",
+      "bytes": 3630,
+      "sha256": "1869e3fb1ea1bd1ae369085c72059829e494bddbbf4eba57bfb1dd301942ded0"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm52.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm52.wmf.svg",
+      "bytes": 1410,
+      "sha256": "322e77e6f4a02cdc37bc444c70ee7c73e1c1e1216c464eb9f9429e88e92c5471"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm53.wmf.svg": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm53.wmf.svg",
+      "bytes": 3630,
+      "sha256": "1869e3fb1ea1bd1ae369085c72059829e494bddbbf4eba57bfb1dd301942ded0"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/bm56.bmp.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/bm56.bmp.png",
+      "bytes": 225,
+      "sha256": "ace2f30d75ae7c99fb35bf731f92c266e2879b159b5bd6eeeef98b9a0714b729"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8020671.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8020671.dib.png",
+      "bytes": 2445,
+      "sha256": "820ae1e2141745e5c3c5cdcb84e1adddce9fe43eb0aa6f3d0dd43c4c23628bd1"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8020672.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8020672.dib.png",
+      "bytes": 2082,
+      "sha256": "ddace0e5e33515c3f196ed600347ac42bf78c83abe68e194d3cf02fa6eec35e9"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8020853.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8020853.dib.png",
+      "bytes": 1817,
+      "sha256": "2ab39881a1df4c6bba9b42f492d30930940474ae9bb0b7cebfa5e091db4a5a47"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8020865.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8020865.dib.png",
+      "bytes": 1195,
+      "sha256": "e2df5d8cdd3740c12303ca4533ba248806d8bd5598e37b9fea3b2f0ea689ca06"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8020899.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8020899.dib.png",
+      "bytes": 1139,
+      "sha256": "6c15d61460e90279536d6a39e1778c4f1dbdf985a6f17051a7ef5c0963f8d2fe"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p802090_.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p802090_.dib.png",
+      "bytes": 1249,
+      "sha256": "8e52d4050ffd276697110218eabc8639d4e39b8a19ca4286aea95e5b88484f77"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8021641.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8021641.dib.png",
+      "bytes": 1992,
+      "sha256": "7a264b3a2150eb4157e5b148b8484cdf57b3fa04cbb9a0b54cbe70cdbe899723"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8021811.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8021811.dib.png",
+      "bytes": 2728,
+      "sha256": "9cdec93e1d36ca3522ebeda9e95e11854ace9d0a10f8b5a6344343768147a891"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8021812.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8021812.dib.png",
+      "bytes": 1697,
+      "sha256": "6b19710c704bd6086e31e9bfd85d9b4be0e29a70832a2c8548de47ea6e275208"
+    },
+    "build/cd1-issues/1988-02-native/content/media/cd1/p8021851.dib.png": {
+      "path": "build/cd1-issues/1988-02-native/content/media/cd1/p8021851.dib.png",
+      "bytes": 3007,
+      "sha256": "79d0f435b6f23b144c8f3bad955a5cca412b19cb8d2531d76576b7a3fe59300b"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802030/body.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802030/body.md",
+      "bytes": 34915,
+      "sha256": "8483b052b0fadce8dabf33f7f9c5fd2f48456a7d73adce20e610c85e40ddcaa0"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802030/introduction.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802030/introduction.md",
+      "bytes": 1227,
+      "sha256": "3004b67aa4465ddaa79ecb0cd1361c15622005f480763877be23883a12dc288b"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802065/body.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802065/body.md",
+      "bytes": 82352,
+      "sha256": "6caffb4ff2d82279af15dfaa7d76e7851e79f69189a7247f9713fe385b4546d6"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802065/introduction.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802065/introduction.md",
+      "bytes": 1150,
+      "sha256": "8cbd32e76e0aaab2c6d99b91c7051c0cf68213ad39dacbff9d0b6c19a459ebac"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802114/body.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802114/body.md",
+      "bytes": 20176,
+      "sha256": "af06a26ce4dac83637a7df0e5a2c28f3ae87ef76d13de509ee973e60df62c096"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802114/introduction.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802114/introduction.md",
+      "bytes": 1126,
+      "sha256": "440dc036d4717373fc2554b2d001cc049f5f324a43a6d98fc3f660af99cdf827"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802162/body.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802162/body.md",
+      "bytes": 33205,
+      "sha256": "e70d608b98fa053b4f5c40b5d7fdbb5399589c6c75c6182ff3a6835afc592f8a"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802162/introduction.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802162/introduction.md",
+      "bytes": 944,
+      "sha256": "a6eaf26b170d6b738f64ffc5c6ff159016af1640188b24d571c0aa9dc2e68355"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802180/body.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802180/body.md",
+      "bytes": 20291,
+      "sha256": "8e0e76e7f178e4b698db4bf54982998913f187409623fd84d58141f7b779ee1f"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802180/introduction.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802180/introduction.md",
+      "bytes": 1048,
+      "sha256": "4ce595669dbfbc5180eaff10ec055b3e663090424614c5281985e70d0d112cfb"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802184/body.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802184/body.md",
+      "bytes": 46076,
+      "sha256": "1b749e359c2fc8b342824d2d0808bb453308b03d0b8c80a0c62eab79cc89b9f3"
+    },
+    "build/cd1-issues/1988-02-native/content/previews/cd1/8802184/introduction.md": {
+      "path": "build/cd1-issues/1988-02-native/content/previews/cd1/8802184/introduction.md",
+      "bytes": 1247,
+      "sha256": "ff5dec047ac73046cbbac6abd4a2ed939c9019d6860f22e292d07f7b065354f6"
+    },
+    "build/cd1-issues/1988-02-native/provenance.json": {
+      "path": "build/cd1-issues/1988-02-native/provenance.json",
+      "bytes": 3429173,
+      "sha256": "38de858c841cc1c072656e3810b018ffc64e955d35c360cacaecc9647a41020d"
+    },
+    "data/catalog/topic-maps/cd1-8802065.json": {
+      "path": "data/catalog/topic-maps/cd1-8802065.json",
+      "bytes": 5526,
+      "sha256": "20a88a591b59a862aea5c9a6e613773a1e04ac5eb7a19b32e7490df74a0b0ea2"
+    }
+  },
+  "implementation_sha256": "2235bdc63b014a6f3908934114581cdf977b7879821be967e8752ff32ace0bc4",
+  "counts": {
+    "native_topics": 3099,
+    "topic_roles": {
+      "application_resource_topic": 3,
+      "dated_article_candidate": 1088,
+      "formatting_separator": 993,
+      "linked_auxiliary_topic": 114,
+      "linked_introduction_candidate": 883,
+      "navigation": 10,
+      "unattributed_content": 8
+    },
+    "native_contexts": 2103,
+    "context_associations": {
+      "at_native_header": 2072,
+      "inside_native_topic_interval": 31
+    },
+    "index_entries": 3032,
+    "index_references": 1080,
+    "reference_kinds": {
+      "named": 1,
+      "numeric": 1038,
+      "suffixed": 41
+    },
+    "index_occurrences": 2462,
+    "index_targets": {
+      "article_topic": 1079,
+      "navigation_topic": 1
+    },
+    "article_candidates": 1088,
+    "job_states": {
+      "already_prepared": 6,
+      "blocked": 8,
+      "ready": 1074
+    },
+    "unindexed_article_candidates": 9,
+    "toc_entries": 5497,
+    "toc_status": {
+      "matched": 66,
+      "needs_review": 185,
+      "no_exact_title_match": 2780,
+      "outside_observed_CD1_issues": 1909,
+      "section": 557
+    },
+    "issues": 72,
+    "unattributed_content_topics": 8
+  },
+  "outputs": [
+    {
+      "path": "contexts.jsonl",
+      "bytes": 533171,
+      "sha256": "6df77ec8ebec0cca7d9a85b9ca3d5951bca288990b21907cf74d5bbb1a728f2a"
+    },
+    {
+      "path": "index-entries.jsonl",
+      "bytes": 3139974,
+      "sha256": "f3c3c7dd10ed6df0f9041843ef7c0d0f3f972c0b0295edf16993a0998aac9599"
+    },
+    {
+      "path": "index-references.jsonl",
+      "bytes": 748471,
+      "sha256": "6e73f1ffe437819e4fb244817d4819e982f8ccee78876e99255bc47bc698863a"
+    },
+    {
+      "path": "issues.json",
+      "bytes": 54576,
+      "sha256": "d317ef32668853e4e85c0c2e59413d0edcf8f91172efedf84f500c1baaeb78bf"
+    },
+    {
+      "path": "jobs.jsonl",
+      "bytes": 2841366,
+      "sha256": "0c26af8ad953d8401e2d9386e901a332a21d72c54d7aa7c0618aff0778016a50"
+    },
+    {
+      "path": "review-items.json",
+      "bytes": 2027,
+      "sha256": "326182f25ca57cd3539ce03a7f40f7f8db110e078ac5d8c17ec617df5a043f03"
+    },
+    {
+      "path": "toc-coverage.jsonl",
+      "bytes": 1819106,
+      "sha256": "5942f18bd8385f7ec89836a7a1b04ce66d67e1a666bc5bc0b14d192b4ca51e71"
+    },
+    {
+      "path": "topics.jsonl",
+      "bytes": 3089265,
+      "sha256": "0dbf1ca364f2bd19d5a10c23076295b0ef8f86e52cb797a0a2e3e0049b28752e"
+    },
+    {
+      "path": "validation-sample.json",
+      "bytes": 13358,
+      "sha256": "639b04c0cfdb511af841947ff8c16a36e3d439e5d9b7f829076ac67edaebf61e"
+    }
+  ],
+  "queue_semantics": "ready means eligible for runner validation, not checked recovery or proven complete article boundaries",
+  "limits": [
+    "no_new_article_recovery",
+    "no_new_media_conversion",
+    "no_physical_verification",
+    "exact_title_metadata_matches_only",
+    "untitled_content_and_related_links_require_runner_review"
+  ],
+  "output_root": "build/cd1-processing-inventory",
+  "issues": [
+    {
+      "issue_id": "maso-1988-01",
+      "job_ids": [
+        "cd1:job:0e670a03",
+        "cd1:job:0e670a30",
+        "cd1:job:0e670a5b"
+      ],
+      "counts": {
+        "article_candidates": 3,
+        "states": {
+          "ready": 3
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 10,
+        "toc_entries": 46,
+        "toc_status": {
+          "matched": 2,
+          "no_exact_title_match": 35,
+          "section": 9
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-02",
+      "job_ids": [
+        "cd1:job:0e6881f5",
+        "cd1:job:0e688271",
+        "cd1:job:0e684098",
+        "cd1:job:0e68416d",
+        "cd1:job:0e6841cb",
+        "cd1:job:0e6841c5"
+      ],
+      "counts": {
+        "article_candidates": 6,
+        "states": {
+          "already_prepared": 6
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 11,
+        "toc_entries": 39,
+        "toc_status": {
+          "matched": 6,
+          "no_exact_title_match": 29,
+          "section": 4
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-03",
+      "job_ids": [
+        "cd1:job:0e69b82e",
+        "cd1:job:0e69b930",
+        "cd1:job:0e69b986",
+        "cd1:job:0e697731"
+      ],
+      "counts": {
+        "article_candidates": 4,
+        "states": {
+          "ready": 4
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 10,
+        "toc_entries": 35,
+        "toc_status": {
+          "no_exact_title_match": 31,
+          "section": 4
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-04",
+      "job_ids": [
+        "cd1:job:0e6aef44",
+        "cd1:job:0e6aef6f",
+        "cd1:job:0e6af019",
+        "cd1:job:0e6aaf46",
+        "cd1:job:0e6aae95",
+        "cd1:job:0e6aaec4"
+      ],
+      "counts": {
+        "article_candidates": 6,
+        "states": {
+          "ready": 6
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 12,
+        "toc_entries": 46,
+        "toc_status": {
+          "matched": 2,
+          "no_exact_title_match": 37,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-05",
+      "job_ids": [
+        "cd1:job:0e6c25d5",
+        "cd1:job:0e6c25fc",
+        "cd1:job:0e6c2627",
+        "cd1:job:0e6c262b",
+        "cd1:job:0e6be5d6",
+        "cd1:job:0e6be57c"
+      ],
+      "counts": {
+        "article_candidates": 6,
+        "states": {
+          "ready": 6
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 16,
+        "toc_entries": 46,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 1,
+          "no_exact_title_match": 37,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-06",
+      "job_ids": [
+        "cd1:job:0e6d5c6c",
+        "cd1:job:0e6d5c8f",
+        "cd1:job:0e6d5cc0",
+        "cd1:job:0e6d5ced",
+        "cd1:job:0e6d1b11",
+        "cd1:job:0e6d1beb"
+      ],
+      "counts": {
+        "article_candidates": 6,
+        "states": {
+          "ready": 6
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 11,
+        "toc_entries": 52,
+        "toc_status": {
+          "no_exact_title_match": 44,
+          "section": 8
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-07",
+      "job_ids": [
+        "cd1:job:0e6e92d2",
+        "cd1:job:0e6e9322",
+        "cd1:job:0e6e9353",
+        "cd1:job:0e6e51cd",
+        "cd1:job:0e6e51fa",
+        "cd1:job:0e6e52d3",
+        "cd1:job:0e6e58ae"
+      ],
+      "counts": {
+        "article_candidates": 7,
+        "states": {
+          "ready": 7
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 15,
+        "toc_entries": 45,
+        "toc_status": {
+          "matched": 1,
+          "no_exact_title_match": 37,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-08",
+      "job_ids": [
+        "cd1:job:0e6fc98a",
+        "cd1:job:0e6f8864",
+        "cd1:job:0e6f8939",
+        "cd1:job:0e6f90cc"
+      ],
+      "counts": {
+        "article_candidates": 4,
+        "states": {
+          "ready": 4
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 9,
+        "toc_entries": 50,
+        "toc_status": {
+          "no_exact_title_match": 41,
+          "section": 9
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-09",
+      "job_ids": [
+        "cd1:job:0e70c01e",
+        "cd1:job:0e70bec6",
+        "cd1:job:0e70bf4d",
+        "cd1:job:0e70bf74"
+      ],
+      "counts": {
+        "article_candidates": 4,
+        "states": {
+          "ready": 4
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 9,
+        "toc_entries": 52,
+        "toc_status": {
+          "matched": 1,
+          "no_exact_title_match": 44,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-10",
+      "job_ids": [
+        "cd1:job:0c9cb650",
+        "cd1:job:0c9cb756",
+        "cd1:job:0c9cb752",
+        "cd1:job:0c9c7520",
+        "cd1:job:0c9c75d2",
+        "cd1:job:0c9c75fb"
+      ],
+      "counts": {
+        "article_candidates": 6,
+        "states": {
+          "ready": 6
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 14,
+        "toc_entries": 49,
+        "toc_status": {
+          "matched": 1,
+          "no_exact_title_match": 48
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-11",
+      "job_ids": [
+        "cd1:job:0c91cb4e",
+        "cd1:job:0c91cbf9",
+        "cd1:job:0c91cbfe",
+        "cd1:job:0c9189d2",
+        "cd1:job:0c918ace"
+      ],
+      "counts": {
+        "article_candidates": 5,
+        "states": {
+          "ready": 5
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 12,
+        "toc_entries": 49,
+        "toc_status": {
+          "matched": 2,
+          "no_exact_title_match": 46,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1988-12",
+      "job_ids": [
+        "cd1:job:0c92c0e0",
+        "cd1:job:0c92c109",
+        "cd1:job:0c92c192",
+        "cd1:job:0c92c190"
+      ],
+      "counts": {
+        "article_candidates": 4,
+        "states": {
+          "ready": 4
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 8,
+        "toc_entries": 47,
+        "toc_status": {
+          "matched": 1,
+          "no_exact_title_match": 45,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-01",
+      "job_ids": [
+        "cd1:job:172a779c",
+        "cd1:job:172a781b",
+        "cd1:job:172a35c6",
+        "cd1:job:172a361c",
+        "cd1:job:172a3643",
+        "cd1:job:172a366a",
+        "cd1:job:172a366e",
+        "cd1:job:172a3697",
+        "cd1:job:172a36ef",
+        "cd1:job:172a3e82"
+      ],
+      "counts": {
+        "article_candidates": 10,
+        "states": {
+          "ready": 10
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 21,
+        "toc_entries": 48,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 46
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-02",
+      "job_ids": [
+        "cd1:job:172bae00",
+        "cd1:job:172bae7f",
+        "cd1:job:172b6cd4",
+        "cd1:job:172b6d01",
+        "cd1:job:172b6d5b",
+        "cd1:job:172b6d59",
+        "cd1:job:172b7515",
+        "cd1:job:172b7392"
+      ],
+      "counts": {
+        "article_candidates": 8,
+        "states": {
+          "ready": 8
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 19,
+        "toc_entries": 44,
+        "toc_status": {
+          "needs_review": 1,
+          "no_exact_title_match": 42,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-03",
+      "job_ids": [
+        "cd1:job:172ce4c0",
+        "cd1:job:172ce541",
+        "cd1:job:172ca365",
+        "cd1:job:172ca3bb",
+        "cd1:job:172ca3ee",
+        "cd1:job:172caba2",
+        "cd1:job:172caa21"
+      ],
+      "counts": {
+        "article_candidates": 7,
+        "states": {
+          "ready": 7
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 18,
+        "toc_entries": 42,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 40
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-04",
+      "job_ids": [
+        "cd1:job:172e1b57",
+        "cd1:job:172e1bd0",
+        "cd1:job:172dda00",
+        "cd1:job:172dda4e",
+        "cd1:job:172dda79",
+        "cd1:job:172ddacf",
+        "cd1:job:172ddad5",
+        "cd1:job:172de0b8",
+        "cd1:job:172de0dd"
+      ],
+      "counts": {
+        "article_candidates": 9,
+        "states": {
+          "ready": 9
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 22,
+        "toc_entries": 34,
+        "toc_status": {
+          "needs_review": 1,
+          "no_exact_title_match": 33
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-05",
+      "job_ids": [
+        "cd1:job:172f1193",
+        "cd1:job:172f1114",
+        "cd1:job:172f113d",
+        "cd1:job:172f18ce",
+        "cd1:job:172f18c8",
+        "cd1:job:172f1747",
+        "cd1:job:172f1772"
+      ],
+      "counts": {
+        "article_candidates": 7,
+        "states": {
+          "ready": 7
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 15,
+        "toc_entries": 45,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 42,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-06",
+      "job_ids": [
+        "cd1:job:173088d1",
+        "cd1:job:173046a5",
+        "cd1:job:173047ce",
+        "cd1:job:17304dd8",
+        "cd1:job:17304e2e",
+        "cd1:job:17304e8a"
+      ],
+      "counts": {
+        "article_candidates": 6,
+        "states": {
+          "ready": 6
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 15,
+        "toc_entries": 34,
+        "toc_status": {
+          "needs_review": 3,
+          "no_exact_title_match": 31
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-07",
+      "job_ids": [
+        "cd1:job:1731bf65",
+        "cd1:job:1731bf8e",
+        "cd1:job:17317eb6",
+        "cd1:job:17317ddc",
+        "cd1:job:17317de2",
+        "cd1:job:17317e0b",
+        "cd1:job:173185ee",
+        "cd1:job:17318471",
+        "cd1:job:17318494"
+      ],
+      "counts": {
+        "article_candidates": 9,
+        "states": {
+          "ready": 9
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 21,
+        "toc_entries": 37,
+        "toc_status": {
+          "needs_review": 4,
+          "no_exact_title_match": 33
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-08",
+      "job_ids": [
+        "cd1:job:1732b41b",
+        "cd1:job:1732b446",
+        "cd1:job:1732b477",
+        "cd1:job:1732b51d",
+        "cd1:job:1732bb2b",
+        "cd1:job:1732bba8",
+        "cd1:job:1732bbd2",
+        "cd1:job:1732bbd7"
+      ],
+      "counts": {
+        "article_candidates": 8,
+        "states": {
+          "ready": 8
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 16,
+        "toc_entries": 39,
+        "toc_status": {
+          "needs_review": 1,
+          "no_exact_title_match": 38
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-09",
+      "job_ids": [
+        "cd1:job:1733ebe1",
+        "cd1:job:1733ebdf",
+        "cd1:job:1733ea59",
+        "cd1:job:1733ea89",
+        "cd1:job:1733ea85",
+        "cd1:job:1733ead7",
+        "cd1:job:1733eadb",
+        "cd1:job:1733eb0a",
+        "cd1:job:1733eb2d",
+        "cd1:job:1733f312",
+        "cd1:job:1733f1eb",
+        "cd1:job:1733f23b",
+        "cd1:job:1733f241",
+        "cd1:job:1733f268"
+      ],
+      "counts": {
+        "article_candidates": 14,
+        "states": {
+          "ready": 14
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 26,
+        "toc_entries": 44,
+        "toc_status": {
+          "needs_review": 5,
+          "no_exact_title_match": 38,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-10",
+      "job_ids": [
+        "cd1:job:155fa0b5",
+        "cd1:job:155fa0e1",
+        "cd1:job:155fa10c",
+        "cd1:job:155fa137",
+        "cd1:job:155fa162",
+        "cd1:job:155fa1b2",
+        "cd1:job:155fa20e",
+        "cd1:job:155fa847",
+        "cd1:job:155fa8c6",
+        "cd1:job:155fa91c"
+      ],
+      "counts": {
+        "article_candidates": 10,
+        "states": {
+          "ready": 10
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 25,
+        "toc_entries": 44,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 42
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-11",
+      "job_ids": [
+        "cd1:job:1554f7df",
+        "cd1:job:1554b710",
+        "cd1:job:1554b70c",
+        "cd1:job:1554b587",
+        "cd1:job:1554b60a",
+        "cd1:job:1554b633",
+        "cd1:job:1554b68f",
+        "cd1:job:1554b6df",
+        "cd1:job:1554bcc0",
+        "cd1:job:1554bd47",
+        "cd1:job:1554bd9b",
+        "cd1:job:1554bdc4",
+        "cd1:job:1554bdeb"
+      ],
+      "counts": {
+        "article_candidates": 13,
+        "states": {
+          "ready": 13
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 29,
+        "toc_entries": 49,
+        "toc_status": {
+          "needs_review": 6,
+          "no_exact_title_match": 43
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1989-12",
+      "job_ids": [
+        "cd1:job:1555ec46",
+        "cd1:job:1555ec6f",
+        "cd1:job:1555eca1",
+        "cd1:job:1555ec9b",
+        "cd1:job:1555eccc",
+        "cd1:job:1555ecef",
+        "cd1:job:1555ed20",
+        "cd1:job:1555ed4b",
+        "cd1:job:1555f47e",
+        "cd1:job:1555fa92",
+        "cd1:job:1555fab7",
+        "cd1:job:1555fabb"
+      ],
+      "counts": {
+        "article_candidates": 12,
+        "states": {
+          "ready": 12
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 33,
+        "toc_entries": 39,
+        "toc_status": {
+          "needs_review": 5,
+          "no_exact_title_match": 34
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-01",
+      "job_ids": [
+        "cd1:job:98b5ba0c",
+        "cd1:job:98b5ba38",
+        "cd1:job:98b5ba3c",
+        "cd1:job:98b5ba69",
+        "cd1:job:98b5bb0f",
+        "cd1:job:98b5c14c",
+        "cd1:job:98b5c1f4",
+        "cd1:job:98b5c223",
+        "cd1:job:98b5c24a",
+        "cd1:job:98b5c24e",
+        "cd1:job:98b5c9df"
+      ],
+      "counts": {
+        "article_candidates": 11,
+        "states": {
+          "ready": 11
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 30,
+        "toc_entries": 45,
+        "toc_status": {
+          "needs_review": 4,
+          "no_exact_title_match": 40,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-02",
+      "job_ids": [
+        "cd1:job:98b6f1fe",
+        "cd1:job:98b6f079",
+        "cd1:job:98b6f0a7",
+        "cd1:job:98b6f125",
+        "cd1:job:98b6f1a6",
+        "cd1:job:98b6f805",
+        "cd1:job:98b6f8b6",
+        "cd1:job:98b6f8e1",
+        "cd1:job:98b6f90c"
+      ],
+      "counts": {
+        "article_candidates": 9,
+        "states": {
+          "ready": 9
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 20,
+        "toc_entries": 43,
+        "toc_status": {
+          "needs_review": 4,
+          "no_exact_title_match": 38,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-03",
+      "job_ids": [
+        "cd1:job:98b8270a",
+        "cd1:job:98b82739",
+        "cd1:job:98b8275f",
+        "cd1:job:98b8278a",
+        "cd1:job:98b8278f",
+        "cd1:job:98b827b4",
+        "cd1:job:98b827df",
+        "cd1:job:98b8280c",
+        "cd1:job:98b82837",
+        "cd1:job:98b82fc3",
+        "cd1:job:98b82e74",
+        "cd1:job:98b82f9f"
+      ],
+      "counts": {
+        "article_candidates": 12,
+        "states": {
+          "ready": 12
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 29,
+        "toc_entries": 43,
+        "toc_status": {
+          "needs_review": 4,
+          "no_exact_title_match": 39
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-04",
+      "job_ids": [
+        "cd1:job:98b95da2",
+        "cd1:job:98b95dca",
+        "cd1:job:98b95df9",
+        "cd1:job:98b95df5",
+        "cd1:job:98b95e24",
+        "cd1:job:98b95e1e",
+        "cd1:job:98b95e22",
+        "cd1:job:98b95e4b",
+        "cd1:job:98b95ea1",
+        "cd1:job:98b95ef5",
+        "cd1:job:98b9665f",
+        "cd1:job:98b96659",
+        "cd1:job:98b96555",
+        "cd1:job:98b9655c",
+        "cd1:job:98b965b1",
+        "cd1:job:98b965d8",
+        "cd1:job:98b96603",
+        "cd1:job:98b96d92"
+      ],
+      "counts": {
+        "article_candidates": 18,
+        "states": {
+          "ready": 18
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 43,
+        "toc_entries": 45,
+        "toc_status": {
+          "needs_review": 6,
+          "no_exact_title_match": 38,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-05",
+      "job_ids": [
+        "cd1:job:98ba9460",
+        "cd1:job:98ba94b7",
+        "cd1:job:98ba94b4",
+        "cd1:job:98ba94db",
+        "cd1:job:98ba9538",
+        "cd1:job:98ba9563",
+        "cd1:job:98ba955b",
+        "cd1:job:98ba9588",
+        "cd1:job:98ba9cf0",
+        "cd1:job:98ba9b6b",
+        "cd1:job:98ba9be8",
+        "cd1:job:98ba9bef",
+        "cd1:job:98ba9c15",
+        "cd1:job:98ba9c19",
+        "cd1:job:98ba9c3e",
+        "cd1:job:98ba9cc7",
+        "cd1:job:98baa42b",
+        "cd1:job:98baa2a2"
+      ],
+      "counts": {
+        "article_candidates": 18,
+        "states": {
+          "ready": 18
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 39,
+        "toc_entries": 44,
+        "toc_status": {
+          "needs_review": 7,
+          "no_exact_title_match": 37
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-06",
+      "job_ids": [
+        "cd1:job:98bbcaed",
+        "cd1:job:98bbcb6f",
+        "cd1:job:98bbcbf2",
+        "cd1:job:98bbcc21",
+        "cd1:job:98bbd385",
+        "cd1:job:98bbd37f",
+        "cd1:job:98bbd1fa",
+        "cd1:job:98bbd200",
+        "cd1:job:98bbd229",
+        "cd1:job:98bbd250",
+        "cd1:job:98bbd27b",
+        "cd1:job:98bbd27f",
+        "cd1:job:98bbd2a7",
+        "cd1:job:98bbd326",
+        "cd1:job:98bbd35a",
+        "cd1:job:98bbd356",
+        "cd1:job:98bbdaba",
+        "cd1:job:98bbd933",
+        "cd1:job:98bbd98f",
+        "cd1:job:98bbd9b8"
+      ],
+      "counts": {
+        "article_candidates": 20,
+        "states": {
+          "ready": 20
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 47,
+        "toc_entries": 39,
+        "toc_status": {
+          "needs_review": 5,
+          "no_exact_title_match": 34
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-07",
+      "job_ids": [
+        "cd1:job:98bd01d5",
+        "cd1:job:98bd0255",
+        "cd1:job:98bd0282",
+        "cd1:job:98bd02ae",
+        "cd1:job:98bd0a10",
+        "cd1:job:98bd0895",
+        "cd1:job:98bd088d",
+        "cd1:job:98bd08e5",
+        "cd1:job:98bd090e",
+        "cd1:job:98bd0939",
+        "cd1:job:98bd093d",
+        "cd1:job:98bd0966",
+        "cd1:job:98bd0993",
+        "cd1:job:98bd09ba",
+        "cd1:job:98bd09be",
+        "cd1:job:98bd0fca",
+        "cd1:job:98bd0ff1",
+        "cd1:job:98bd0ff7",
+        "cd1:job:98bd101d"
+      ],
+      "counts": {
+        "article_candidates": 19,
+        "states": {
+          "ready": 19
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 43,
+        "toc_entries": 41,
+        "toc_status": {
+          "needs_review": 4,
+          "no_exact_title_match": 37
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-08",
+      "job_ids": [
+        "cd1:job:98be3840",
+        "cd1:job:98be386c",
+        "cd1:job:98be3893",
+        "cd1:job:98be38e9",
+        "cd1:job:98be38ed",
+        "cd1:job:98be38ef",
+        "cd1:job:98be391c",
+        "cd1:job:98be40a3",
+        "cd1:job:98be40a5",
+        "cd1:job:98be3f20",
+        "cd1:job:98be3f53",
+        "cd1:job:98be3f4d",
+        "cd1:job:98be3f51",
+        "cd1:job:98be3f78",
+        "cd1:job:98be3fd0",
+        "cd1:job:98be407e",
+        "cd1:job:98be4659",
+        "cd1:job:98be468c",
+        "cd1:job:98be4688"
+      ],
+      "counts": {
+        "article_candidates": 19,
+        "states": {
+          "ready": 19
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 38,
+        "toc_entries": 44,
+        "toc_status": {
+          "needs_review": 4,
+          "no_exact_title_match": 40
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-09",
+      "job_ids": [
+        "cd1:job:98bf6efc",
+        "cd1:job:98bf6f2c",
+        "cd1:job:98bf6f57",
+        "cd1:job:98bf6f84",
+        "cd1:job:98bf6f80",
+        "cd1:job:98bf6faf",
+        "cd1:job:98bf6fa9",
+        "cd1:job:98bf6fd2",
+        "cd1:job:98bf6fd8",
+        "cd1:job:98bf75bb",
+        "cd1:job:98bf75b9",
+        "cd1:job:98bf75de",
+        "cd1:job:98bf7609",
+        "cd1:job:98bf7638",
+        "cd1:job:98bf7661",
+        "cd1:job:98bf76e6",
+        "cd1:job:98bf7cf0",
+        "cd1:job:98bf7d17"
+      ],
+      "counts": {
+        "article_candidates": 18,
+        "states": {
+          "ready": 18
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 37,
+        "toc_entries": 47,
+        "toc_status": {
+          "needs_review": 4,
+          "no_exact_title_match": 43
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-10",
+      "job_ids": [
+        "cd1:job:96eb255d",
+        "cd1:job:96eb255a",
+        "cd1:job:96eb2583",
+        "cd1:job:96eb25b3",
+        "cd1:job:96eb25ad",
+        "cd1:job:96eb25b1",
+        "cd1:job:96eb25d8",
+        "cd1:job:96eb2609",
+        "cd1:job:96eb262e",
+        "cd1:job:96eb2d92",
+        "cd1:job:96eb2c0f",
+        "cd1:job:96eb2c13",
+        "cd1:job:96eb2c3c",
+        "cd1:job:96eb2c65",
+        "cd1:job:96eb2c69",
+        "cd1:job:96eb2c90",
+        "cd1:job:96eb2cbd",
+        "cd1:job:96eb2d15",
+        "cd1:job:96eb34cf",
+        "cd1:job:96eb3348"
+      ],
+      "counts": {
+        "article_candidates": 20,
+        "states": {
+          "ready": 20
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 40,
+        "toc_entries": 41,
+        "toc_status": {
+          "needs_review": 5,
+          "no_exact_title_match": 35,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-11",
+      "job_ids": [
+        "cd1:job:96e03a5d",
+        "cd1:job:96e03a88",
+        "cd1:job:96e03ab1",
+        "cd1:job:96e03ad8",
+        "cd1:job:96e03b09",
+        "cd1:job:96e0426b",
+        "cd1:job:96e04115",
+        "cd1:job:96e0410d",
+        "cd1:job:96e0413a",
+        "cd1:job:96e04169",
+        "cd1:job:96e04192",
+        "cd1:job:96e041e6",
+        "cd1:job:96e04215",
+        "cd1:job:96e0481b",
+        "cd1:job:96e04845"
+      ],
+      "counts": {
+        "article_candidates": 15,
+        "states": {
+          "ready": 15
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 34,
+        "toc_entries": 40,
+        "toc_status": {
+          "needs_review": 7,
+          "no_exact_title_match": 31,
+          "section": 2
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1990-12",
+      "job_ids": [
+        "cd1:job:96e17097",
+        "cd1:job:96e170ea",
+        "cd1:job:96e170ee",
+        "cd1:job:96e17146",
+        "cd1:job:96e178fa",
+        "cd1:job:96e17775",
+        "cd1:job:96e177a4",
+        "cd1:job:96e177fa",
+        "cd1:job:96e17821",
+        "cd1:job:96e1787f",
+        "cd1:job:96e1787b",
+        "cd1:job:96e17eb0",
+        "cd1:job:96e17f62"
+      ],
+      "counts": {
+        "article_candidates": 13,
+        "states": {
+          "ready": 13
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 30,
+        "toc_entries": 39,
+        "toc_status": {
+          "needs_review": 5,
+          "no_exact_title_match": 34
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-01",
+      "job_ids": [
+        "cd1:job:49d930ac",
+        "cd1:job:49d93103",
+        "cd1:job:49d930fd",
+        "cd1:job:49d93159",
+        "cd1:job:49d93155",
+        "cd1:job:49d931a9",
+        "cd1:job:49d9378e",
+        "cd1:job:49d93836",
+        "cd1:job:49d9385f",
+        "cd1:job:49d9388c",
+        "cd1:job:49d938bd",
+        "cd1:job:49d938e2",
+        "cd1:job:49d9404c",
+        "cd1:job:49d93ec1",
+        "cd1:job:49d93ef4",
+        "cd1:job:49d93f9a"
+      ],
+      "counts": {
+        "article_candidates": 16,
+        "states": {
+          "ready": 16
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 31,
+        "toc_entries": 44,
+        "toc_status": {
+          "needs_review": 4,
+          "no_exact_title_match": 40
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-02",
+      "job_ids": [
+        "cd1:job:49daa941",
+        "cd1:job:49da6765",
+        "cd1:job:49da6792",
+        "cd1:job:49da67b9",
+        "cd1:job:49da67e4",
+        "cd1:job:49da6817",
+        "cd1:job:49da6815",
+        "cd1:job:49da683c",
+        "cd1:job:49da6e23",
+        "cd1:job:49da6e4e",
+        "cd1:job:49da6e73",
+        "cd1:job:49da6ea4",
+        "cd1:job:49da6ef6",
+        "cd1:job:49da6f50",
+        "cd1:job:49da6f75",
+        "cd1:job:49da76df",
+        "cd1:job:49da7583",
+        "cd1:job:49da75aa",
+        "cd1:job:49da75d7",
+        "cd1:job:49da7600",
+        "cd1:job:49da762b",
+        "cd1:job:49da7656"
+      ],
+      "counts": {
+        "article_candidates": 22,
+        "states": {
+          "ready": 22
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 47,
+        "toc_entries": 45,
+        "toc_status": {
+          "needs_review": 7,
+          "no_exact_title_match": 38
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-03",
+      "job_ids": [
+        "cd1:job:49dbdfd4",
+        "cd1:job:49db9dfa",
+        "cd1:job:49db9e21",
+        "cd1:job:49db9e7f",
+        "cd1:job:49dba631",
+        "cd1:job:49dba637",
+        "cd1:job:49dba508",
+        "cd1:job:49dba55a",
+        "cd1:job:49dba55e",
+        "cd1:job:49dba589",
+        "cd1:job:49dba5b4",
+        "cd1:job:49dba5e3",
+        "cd1:job:49dbac12",
+        "cd1:job:49dbac18",
+        "cd1:job:49dbac43",
+        "cd1:job:49dbac93",
+        "cd1:job:49dbad3f"
+      ],
+      "counts": {
+        "article_candidates": 17,
+        "states": {
+          "ready": 17
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 37,
+        "toc_entries": 49,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 47
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-04",
+      "job_ids": [
+        "cd1:job:49dd1667",
+        "cd1:job:49dcd48d",
+        "cd1:job:49dcd4ba",
+        "cd1:job:49dcd539",
+        "cd1:job:49dcd562",
+        "cd1:job:49dcdb47",
+        "cd1:job:49dcdb9f",
+        "cd1:job:49dcdb9b",
+        "cd1:job:49dcdbef",
+        "cd1:job:49dcdc70",
+        "cd1:job:49dce27a",
+        "cd1:job:49dce2fd",
+        "cd1:job:49dce32c",
+        "cd1:job:49dce353",
+        "cd1:job:49dce380",
+        "cd1:job:49dce3a9"
+      ],
+      "counts": {
+        "article_candidates": 16,
+        "states": {
+          "ready": 16
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 37,
+        "toc_entries": 43,
+        "toc_status": {
+          "needs_review": 5,
+          "no_exact_title_match": 37,
+          "section": 1
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-05",
+      "job_ids": [
+        "cd1:job:49de4cfa",
+        "cd1:job:49de0acd",
+        "cd1:job:49de0b4f",
+        "cd1:job:49de11da",
+        "cd1:job:49de1255",
+        "cd1:job:49de1280",
+        "cd1:job:49de12af",
+        "cd1:job:49de1334",
+        "cd1:job:49de1a92",
+        "cd1:job:49de190d",
+        "cd1:job:49de19bf",
+        "cd1:job:49de19e8",
+        "cd1:job:49de1a13",
+        "cd1:job:49de1a3c",
+        "cd1:job:49de1a6b",
+        "cd1:job:49de21c9"
+      ],
+      "counts": {
+        "article_candidates": 16,
+        "states": {
+          "blocked": 1,
+          "ready": 15
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 38,
+        "toc_entries": 43,
+        "toc_status": {
+          "needs_review": 1,
+          "no_exact_title_match": 42
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-06",
+      "job_ids": [
+        "cd1:job:49df4186",
+        "cd1:job:49df41da",
+        "cd1:job:49df486f",
+        "cd1:job:49df486d",
+        "cd1:job:49df4896",
+        "cd1:job:49df48bf",
+        "cd1:job:49df4919",
+        "cd1:job:49df496b",
+        "cd1:job:49df4998",
+        "cd1:job:49df49bf",
+        "cd1:job:49df4fa0",
+        "cd1:job:49df5027",
+        "cd1:job:49df50a2"
+      ],
+      "counts": {
+        "article_candidates": 13,
+        "states": {
+          "blocked": 1,
+          "ready": 12
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 29,
+        "toc_entries": 39,
+        "toc_status": {
+          "needs_review": 5,
+          "no_exact_title_match": 34
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-07",
+      "job_ids": [
+        "cd1:job:49e077ee",
+        "cd1:job:49e07819",
+        "cd1:job:49e08081",
+        "cd1:job:49e07f52",
+        "cd1:job:49e07f7f",
+        "cd1:job:49e07fac",
+        "cd1:job:49e07fd7",
+        "cd1:job:49e0802f",
+        "cd1:job:49e0805a",
+        "cd1:job:49e08056",
+        "cd1:job:49e08633",
+        "cd1:job:49e086b6",
+        "cd1:job:49e086e7"
+      ],
+      "counts": {
+        "article_candidates": 13,
+        "states": {
+          "ready": 13
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 29,
+        "toc_entries": 40,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 38
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-08",
+      "job_ids": [
+        "cd1:job:49e1f0b3",
+        "cd1:job:49e1aeb2",
+        "cd1:job:49e1aeb0",
+        "cd1:job:49e1af85",
+        "cd1:job:49e1b593",
+        "cd1:job:49e1b5bc",
+        "cd1:job:49e1b5eb",
+        "cd1:job:49e1b616",
+        "cd1:job:49e1b63b",
+        "cd1:job:49e1b691",
+        "cd1:job:49e1b6bc",
+        "cd1:job:49e1b6eb",
+        "cd1:job:49e1be49",
+        "cd1:job:49e1bd49",
+        "cd1:job:49e1bd9f",
+        "cd1:job:49e1bdd0"
+      ],
+      "counts": {
+        "article_candidates": 16,
+        "states": {
+          "ready": 16
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 37,
+        "toc_entries": 45,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 43
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-09",
+      "job_ids": [
+        "cd1:job:49e32715",
+        "cd1:job:49e2e4e9",
+        "cd1:job:49e2e51a",
+        "cd1:job:49e2e53d",
+        "cd1:job:49e2ec4f",
+        "cd1:job:49e2ec76",
+        "cd1:job:49e2eca9",
+        "cd1:job:49e2eca7",
+        "cd1:job:49e2ecf7",
+        "cd1:job:49e2ed2a",
+        "cd1:job:49e2ed55",
+        "cd1:job:49e2ed51",
+        "cd1:job:49e2f359",
+        "cd1:job:49e2f3b5",
+        "cd1:job:49e2f461"
+      ],
+      "counts": {
+        "article_candidates": 15,
+        "states": {
+          "ready": 15
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 39,
+        "toc_entries": 39,
+        "toc_status": {
+          "no_exact_title_match": 39
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-10",
+      "job_ids": [
+        "cd1:job:480e9b6c",
+        "cd1:job:480e9b9f",
+        "cd1:job:480e9bc4",
+        "cd1:job:480ea282",
+        "cd1:job:480ea2ad",
+        "cd1:job:480ea2fb",
+        "cd1:job:480ea32a",
+        "cd1:job:480ea355",
+        "cd1:job:480ea384",
+        "cd1:job:480ea382",
+        "cd1:job:480ea9b3",
+        "cd1:job:480ea9e6",
+        "cd1:job:480eaa63"
+      ],
+      "counts": {
+        "article_candidates": 13,
+        "states": {
+          "ready": 13
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 24,
+        "toc_entries": 41,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 39
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-11",
+      "job_ids": [
+        "cd1:job:4803f244",
+        "cd1:job:4803b01c",
+        "cd1:job:4803b047",
+        "cd1:job:4803b072",
+        "cd1:job:4803b0c2",
+        "cd1:job:4803b0f3",
+        "cd1:job:4803b8d2",
+        "cd1:job:4803b755",
+        "cd1:job:4803b77e",
+        "cd1:job:4803b7ab",
+        "cd1:job:4803b853",
+        "cd1:job:4803b884",
+        "cd1:job:4803be88",
+        "cd1:job:4803bf3a"
+      ],
+      "counts": {
+        "article_candidates": 14,
+        "states": {
+          "ready": 14
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 34,
+        "toc_entries": 36,
+        "toc_status": {
+          "needs_review": 1,
+          "no_exact_title_match": 35
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1991-12",
+      "job_ids": [
+        "cd1:job:4804e6d4",
+        "cd1:job:4804e6db",
+        "cd1:job:4804e72d",
+        "cd1:job:4804e72e",
+        "cd1:job:4804e731",
+        "cd1:job:4804e755",
+        "cd1:job:4804e788",
+        "cd1:job:4804e7b3",
+        "cd1:job:4804ee0f",
+        "cd1:job:4804ee3c",
+        "cd1:job:4804ee69",
+        "cd1:job:4804f571",
+        "cd1:job:4804f577",
+        "cd1:job:4804f5c9"
+      ],
+      "counts": {
+        "article_candidates": 14,
+        "states": {
+          "blocked": 1,
+          "ready": 13
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 34,
+        "toc_entries": 51,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 49
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-01",
+      "job_ids": [
+        "cd1:job:529c5c35",
+        "cd1:job:529c5c37",
+        "cd1:job:529c5c65",
+        "cd1:job:529c5c8f",
+        "cd1:job:529c5d12",
+        "cd1:job:529c5d3a",
+        "cd1:job:529c6345",
+        "cd1:job:529c6370",
+        "cd1:job:529c639d",
+        "cd1:job:529c63ef",
+        "cd1:job:529c6422",
+        "cd1:job:529c6447",
+        "cd1:job:529c6c07",
+        "cd1:job:529c6a7c",
+        "cd1:job:529c6ad4",
+        "cd1:job:529c6ad5",
+        "cd1:job:529c6ad6",
+        "cd1:job:529c6ad7"
+      ],
+      "counts": {
+        "article_candidates": 18,
+        "states": {
+          "ready": 18
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 36,
+        "toc_entries": 41,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 36,
+          "section": 3
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-02",
+      "job_ids": [
+        "cd1:job:529d92d0",
+        "cd1:job:529d92ca",
+        "cd1:job:529d92f8",
+        "cd1:job:529d931e",
+        "cd1:job:529d9349",
+        "cd1:job:529d9373",
+        "cd1:job:529d93a5",
+        "cd1:job:529d9b61",
+        "cd1:job:529d9b5f",
+        "cd1:job:529d9a01",
+        "cd1:job:529d9a05",
+        "cd1:job:529d9a2e",
+        "cd1:job:529d9a5f",
+        "cd1:job:529d9a8a",
+        "cd1:job:529d9a87",
+        "cd1:job:529da13a",
+        "cd1:job:529da169",
+        "cd1:job:529da1bd",
+        "cd1:job:529da1e8",
+        "cd1:job:529da1e9",
+        "cd1:job:529da1ea",
+        "cd1:job:529da1eb",
+        "cd1:job:529da211"
+      ],
+      "counts": {
+        "article_candidates": 23,
+        "states": {
+          "ready": 23
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 50,
+        "toc_entries": 44,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 35,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-03",
+      "job_ids": [
+        "cd1:job:529ec963",
+        "cd1:job:529ec961",
+        "cd1:job:529ec98b",
+        "cd1:job:529ec9b7",
+        "cd1:job:529eca07",
+        "cd1:job:529eca5d",
+        "cd1:job:529eca90",
+        "cd1:job:529eca8c",
+        "cd1:job:529ed1ee",
+        "cd1:job:529ed096",
+        "cd1:job:529ed0f2",
+        "cd1:job:529ed0f0",
+        "cd1:job:529ed142",
+        "cd1:job:529ed196",
+        "cd1:job:529ed1c3",
+        "cd1:job:529ed92d",
+        "cd1:job:529ed84e",
+        "cd1:job:529ed8a3",
+        "cd1:job:529ed8a8",
+        "cd1:job:529ed8cf"
+      ],
+      "counts": {
+        "article_candidates": 20,
+        "states": {
+          "ready": 20
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 44,
+        "toc_entries": 39,
+        "toc_status": {
+          "matched": 2,
+          "no_exact_title_match": 30,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-04",
+      "job_ids": [
+        "cd1:job:529ffff4",
+        "cd1:job:52a0001e",
+        "cd1:job:52a00046",
+        "cd1:job:52a00075",
+        "cd1:job:52a000a0",
+        "cd1:job:52a000c9",
+        "cd1:job:52a000f4",
+        "cd1:job:52a00887",
+        "cd1:job:52a006fb",
+        "cd1:job:52a00700",
+        "cd1:job:52a00754",
+        "cd1:job:52a007ae",
+        "cd1:job:52a00802",
+        "cd1:job:52a00ee7",
+        "cd1:job:52a00f3f",
+        "cd1:job:52a00f3d",
+        "cd1:job:52a00f66",
+        "cd1:job:52a00f8d",
+        "cd1:job:52a00f8e",
+        "cd1:job:52a00f8f"
+      ],
+      "counts": {
+        "article_candidates": 20,
+        "states": {
+          "ready": 20
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 46,
+        "toc_entries": 44,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 2,
+          "no_exact_title_match": 35,
+          "section": 6
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-05",
+      "job_ids": [
+        "cd1:job:52a13687",
+        "cd1:job:52a1372c",
+        "cd1:job:52a13757",
+        "cd1:job:52a137b6",
+        "cd1:job:52a13f18",
+        "cd1:job:52a13dba",
+        "cd1:job:52a13e93",
+        "cd1:job:52a13ebc",
+        "cd1:job:52a13eef",
+        "cd1:job:52a144f9",
+        "cd1:job:52a14549",
+        "cd1:job:52a14578",
+        "cd1:job:52a145d2",
+        "cd1:job:52a14d8c",
+        "cd1:job:e1180695",
+        "cd1:job:52a14d85"
+      ],
+      "counts": {
+        "article_candidates": 16,
+        "states": {
+          "ready": 16
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 37,
+        "toc_entries": 41,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 1,
+          "no_exact_title_match": 33,
+          "section": 6
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-06",
+      "job_ids": [
+        "cd1:job:52a26d14",
+        "cd1:job:52a26d18",
+        "cd1:job:52a26d47",
+        "cd1:job:52a26e1a",
+        "cd1:job:52a26e45",
+        "cd1:job:52a275a9",
+        "cd1:job:52a2744f",
+        "cd1:job:52a2747b",
+        "cd1:job:52a274a3",
+        "cd1:job:52a274d6",
+        "cd1:job:52a27528",
+        "cd1:job:52a27b86",
+        "cd1:job:52a27bb7",
+        "cd1:job:52a27be2",
+        "cd1:job:52a27cb5",
+        "cd1:job:52a27cb7",
+        "cd1:job:52a27cb8",
+        "cd1:job:52a28417"
+      ],
+      "counts": {
+        "article_candidates": 18,
+        "states": {
+          "ready": 18
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 39,
+        "toc_entries": 48,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 2,
+          "no_exact_title_match": 39,
+          "section": 6
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-07",
+      "job_ids": [
+        "cd1:job:52a3a3a7",
+        "cd1:job:52a3a3ab",
+        "cd1:job:52a3a3d4",
+        "cd1:job:52a3a400",
+        "cd1:job:52a3a428",
+        "cd1:job:52a3a42e",
+        "cd1:job:52a3a486",
+        "cd1:job:52a3a4a9",
+        "cd1:job:52a3a4d8",
+        "cd1:job:52a3aae0",
+        "cd1:job:52a3ab3e",
+        "cd1:job:52a3ab69",
+        "cd1:job:52a3b219",
+        "cd1:job:52a3b26f",
+        "cd1:job:52a3b29c",
+        "cd1:job:52a3b2f2",
+        "cd1:job:52a3b2f3",
+        "cd1:job:52a3b2f4"
+      ],
+      "counts": {
+        "article_candidates": 18,
+        "states": {
+          "ready": 18
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 36,
+        "toc_entries": 40,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 1,
+          "no_exact_title_match": 33,
+          "section": 5
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-08",
+      "job_ids": [
+        "cd1:job:52a4da6d",
+        "cd1:job:52a4da67",
+        "cd1:job:52a4dae6",
+        "cd1:job:52a4db6f",
+        "cd1:job:52a4db6d",
+        "cd1:job:52a4e173",
+        "cd1:job:52a4e179",
+        "cd1:job:52a4e1a0",
+        "cd1:job:52a4e1cb",
+        "cd1:job:52a4e1cf",
+        "cd1:job:52a4e27b",
+        "cd1:job:52a4ea0c",
+        "cd1:job:e1b31c84",
+        "cd1:job:e1b31c85",
+        "cd1:job:52a4e8db"
+      ],
+      "counts": {
+        "article_candidates": 15,
+        "states": {
+          "blocked": 1,
+          "ready": 14
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 33,
+        "toc_entries": 39,
+        "toc_status": {
+          "matched": 4,
+          "needs_review": 3,
+          "no_exact_title_match": 27,
+          "section": 5
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-09",
+      "job_ids": [
+        "cd1:job:52a610f8",
+        "cd1:job:52a610fe",
+        "cd1:job:52a61126",
+        "cd1:job:52a61152",
+        "cd1:job:52a611a4",
+        "cd1:job:52a611d5",
+        "cd1:job:52a617e3",
+        "cd1:job:52a6180e",
+        "cd1:job:52a61889",
+        "cd1:job:52a618e5",
+        "cd1:job:52a61908",
+        "cd1:job:52a61f3f",
+        "cd1:job:52a61f99",
+        "cd1:job:52a6201c",
+        "cd1:job:52a6206e",
+        "cd1:job:e1e7728b",
+        "cd1:job:52a6206f",
+        "cd1:job:52a62071"
+      ],
+      "counts": {
+        "article_candidates": 18,
+        "states": {
+          "ready": 18
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 41,
+        "toc_entries": 45,
+        "toc_status": {
+          "needs_review": 2,
+          "no_exact_title_match": 37,
+          "section": 6
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-10",
+      "job_ids": [
+        "cd1:job:50d2095d",
+        "cd1:job:50d1c75a",
+        "cd1:job:50d1c756",
+        "cd1:job:50d1c780",
+        "cd1:job:50d1c7aa",
+        "cd1:job:50d1c7d5",
+        "cd1:job:50d1c800",
+        "cd1:job:50d1c829",
+        "cd1:job:50d1cfb8",
+        "cd1:job:50d1ce35",
+        "cd1:job:50d1ce60",
+        "cd1:job:50d1ce8f",
+        "cd1:job:50d1cf3d",
+        "cd1:job:50d1d6f1",
+        "cd1:job:50d1d5a1",
+        "cd1:job:50d1d5c4",
+        "cd1:job:50d1d5f3",
+        "cd1:job:50d1d678",
+        "cd1:job:50d1d69f",
+        "cd1:job:50d1d6c6",
+        "cd1:job:50d1d6c8",
+        "cd1:job:50d1d6ca",
+        "cd1:job:50d1d6cb"
+      ],
+      "counts": {
+        "article_candidates": 23,
+        "states": {
+          "ready": 23
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 51,
+        "toc_entries": 47,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 2,
+          "no_exact_title_match": 39,
+          "section": 5
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-11",
+      "job_ids": [
+        "cd1:job:50c71e30",
+        "cd1:job:50c6dc2d",
+        "cd1:job:50c6dc54",
+        "cd1:job:50c6dcb0",
+        "cd1:job:50c6dcaf",
+        "cd1:job:50c6dd06",
+        "cd1:job:50c6dd31",
+        "cd1:job:50c6dd2f",
+        "cd1:job:50c6e493",
+        "cd1:job:50c6e30c",
+        "cd1:job:50c6e362",
+        "cd1:job:50c6e391",
+        "cd1:job:50c6e3bc",
+        "cd1:job:50c6ebca",
+        "cd1:job:50c6ea47",
+        "cd1:job:50c6eaf7",
+        "cd1:job:50c6eb1c",
+        "cd1:job:50c6eb74",
+        "cd1:job:50c6f1af",
+        "cd1:job:50c6f1ad",
+        "cd1:job:50c6f1ae",
+        "cd1:job:50c6f1d1"
+      ],
+      "counts": {
+        "article_candidates": 22,
+        "states": {
+          "ready": 22
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 58,
+        "toc_entries": 47,
+        "toc_status": {
+          "matched": 2,
+          "needs_review": 2,
+          "no_exact_title_match": 36,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1992-12",
+      "job_ids": [
+        "cd1:job:50c854c3",
+        "cd1:job:50c812c0",
+        "cd1:job:50c8136a",
+        "cd1:job:50c813c4",
+        "cd1:job:50c813c2",
+        "cd1:job:50c81b24",
+        "cd1:job:50c8199d",
+        "cd1:job:50c819c8",
+        "cd1:job:50c819f3",
+        "cd1:job:50c81a20",
+        "cd1:job:50c81a74",
+        "cd1:job:50c8225d",
+        "cd1:job:50c820d8",
+        "cd1:job:50c8212c",
+        "cd1:job:50c82207",
+        "cd1:job:50c82992",
+        "cd1:job:50c8283a",
+        "cd1:job:50c8286b",
+        "cd1:job:50c8286c",
+        "cd1:job:50c82898",
+        "cd1:job:50c8288f"
+      ],
+      "counts": {
+        "article_candidates": 21,
+        "states": {
+          "blocked": 1,
+          "ready": 20
+        },
+        "unindexed_candidates": 1,
+        "index_occurrences": 47,
+        "toc_entries": 42,
+        "toc_status": {
+          "no_exact_title_match": 37,
+          "section": 5
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-01",
+      "job_ids": [
+        "cd1:job:5b5fca24",
+        "cd1:job:5b5f881f",
+        "cd1:job:5b5f8879",
+        "cd1:job:5b5f8872",
+        "cd1:job:5b5f889b",
+        "cd1:job:5b5f88a1",
+        "cd1:job:5b5f88c7",
+        "cd1:job:5b5f88fa",
+        "cd1:job:5b5f8921",
+        "cd1:job:5b5f8f00",
+        "cd1:job:5b5f8f2b",
+        "cd1:job:5b5f8f56",
+        "cd1:job:5b5f9033",
+        "cd1:job:5b5f905e",
+        "cd1:job:5b5f905c",
+        "cd1:job:5b5f97bd",
+        "cd1:job:5b5f9662",
+        "cd1:job:5b5f9695",
+        "cd1:job:5b5f96e5",
+        "cd1:job:5b5f9710",
+        "cd1:job:5b5f9741",
+        "cd1:job:5b5f9797",
+        "cd1:job:5b5f978f",
+        "cd1:job:5b5f9790"
+      ],
+      "counts": {
+        "article_candidates": 24,
+        "states": {
+          "ready": 24
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 56,
+        "toc_entries": 49,
+        "toc_status": {
+          "matched": 3,
+          "needs_review": 1,
+          "no_exact_title_match": 39,
+          "section": 6
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-02",
+      "job_ids": [
+        "cd1:job:5b6100b7",
+        "cd1:job:5b60beb0",
+        "cd1:job:5b60bee1",
+        "cd1:job:5b60bf06",
+        "cd1:job:5b60bf0a",
+        "cd1:job:5b60bf2f",
+        "cd1:job:5b60bf33",
+        "cd1:job:5b60bf62",
+        "cd1:job:5b60bf60",
+        "cd1:job:5b60bfb8",
+        "cd1:job:5b60c718",
+        "cd1:job:5b60c595",
+        "cd1:job:5b60c5ef",
+        "cd1:job:5b60c5eb",
+        "cd1:job:5b60c612",
+        "cd1:job:5b60c697",
+        "cd1:job:5b60c6c4",
+        "cd1:job:5b60ce4f",
+        "cd1:job:5b60cd26",
+        "cd1:job:5b60cd4f",
+        "cd1:job:5b60cd7e",
+        "cd1:job:5b60cda1",
+        "cd1:job:5b60d58e",
+        "cd1:job:5943deeb",
+        "cd1:job:5b60d585",
+        "cd1:job:5b60d586",
+        "cd1:job:5943dd93",
+        "cd1:job:5b60d587",
+        "cd1:job:5943ddbe"
+      ],
+      "counts": {
+        "article_candidates": 29,
+        "states": {
+          "blocked": 1,
+          "ready": 28
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 69,
+        "toc_entries": 54,
+        "toc_status": {
+          "matched": 5,
+          "needs_review": 5,
+          "no_exact_title_match": 38,
+          "section": 6
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-03",
+      "job_ids": [
+        "cd1:job:5b62374a",
+        "cd1:job:5b61f547",
+        "cd1:job:5b61f599",
+        "cd1:job:5b61f5c2",
+        "cd1:job:5b61f5c6",
+        "cd1:job:5b61f5ed",
+        "cd1:job:5b61f620",
+        "cd1:job:5b61f61c",
+        "cd1:job:5b61fdad",
+        "cd1:job:5b61fc57",
+        "cd1:job:5b61fc7e",
+        "cd1:job:5b61fcab",
+        "cd1:job:5b61fcd6",
+        "cd1:job:5b61fd28",
+        "cd1:job:5b61fd84",
+        "cd1:job:5b6204e2",
+        "cd1:job:5b620361",
+        "cd1:job:5b62038e",
+        "cd1:job:5b6203de",
+        "cd1:job:5b6203e4",
+        "cd1:job:5b620434",
+        "cd1:job:5b62043a",
+        "cd1:job:5b6204bd",
+        "cd1:job:5b6204b5",
+        "cd1:job:5976ca78",
+        "cd1:job:5b6204b6",
+        "cd1:job:5976caa3",
+        "cd1:job:5b620c1d"
+      ],
+      "counts": {
+        "article_candidates": 28,
+        "states": {
+          "ready": 28
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 63,
+        "toc_entries": 52,
+        "toc_status": {
+          "matched": 5,
+          "needs_review": 4,
+          "no_exact_title_match": 38,
+          "section": 5
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-04",
+      "job_ids": [
+        "cd1:job:5b636ddd",
+        "cd1:job:5b632c01",
+        "cd1:job:5b632c2c",
+        "cd1:job:5b632c7f",
+        "cd1:job:5b632cb3",
+        "cd1:job:5b632cd5",
+        "cd1:job:5b6332b7",
+        "cd1:job:5b6332ea",
+        "cd1:job:5b633365",
+        "cd1:job:5b633394",
+        "cd1:job:5b6339f8",
+        "cd1:job:5b633a4e",
+        "cd1:job:5b633a75",
+        "cd1:job:5b633acb",
+        "cd1:job:5b633b4e",
+        "cd1:job:5b634131",
+        "cd1:job:59abf34c",
+        "cd1:job:5b634128",
+        "cd1:job:59abf1c9",
+        "cd1:job:5b634129",
+        "cd1:job:5b63412a",
+        "cd1:job:59abf21f"
+      ],
+      "counts": {
+        "article_candidates": 22,
+        "states": {
+          "ready": 22
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 49,
+        "toc_entries": 49,
+        "toc_status": {
+          "matched": 2,
+          "needs_review": 6,
+          "no_exact_title_match": 35,
+          "section": 6
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-05",
+      "job_ids": [
+        "cd1:job:5b64a470",
+        "cd1:job:5b64626d",
+        "cd1:job:5b646298",
+        "cd1:job:5b6462c1",
+        "cd1:job:5b6462ef",
+        "cd1:job:5b646ad5",
+        "cd1:job:5b646952",
+        "cd1:job:5b646950",
+        "cd1:job:5b6469fa",
+        "cd1:job:5b64720a",
+        "cd1:job:5b647089",
+        "cd1:job:5b6470e1",
+        "cd1:job:5b64712f",
+        "cd1:job:5b64718b",
+        "cd1:job:5b6471e3",
+        "cd1:job:5b6477e7",
+        "cd1:job:5b6477e8",
+        "cd1:job:59e02409",
+        "cd1:job:5b6477ea",
+        "cd1:job:59e0245f",
+        "cd1:job:59e02460"
+      ],
+      "counts": {
+        "article_candidates": 21,
+        "states": {
+          "ready": 21
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 50,
+        "toc_entries": 52,
+        "toc_status": {
+          "matched": 4,
+          "needs_review": 5,
+          "no_exact_title_match": 37,
+          "section": 6
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-06",
+      "job_ids": [
+        "cd1:job:5b65db03",
+        "cd1:job:5b659900",
+        "cd1:job:5b659929",
+        "cd1:job:5b65997d",
+        "cd1:job:5b6599a9",
+        "cd1:job:5b6599d0",
+        "cd1:job:5b6599fb",
+        "cd1:job:5b65a164",
+        "cd1:job:5b659fdf",
+        "cd1:job:5b65a062",
+        "cd1:job:5b65a13d",
+        "cd1:job:5b65a8a1",
+        "cd1:job:5b65a89f",
+        "cd1:job:5b65a749",
+        "cd1:job:5b65a76e",
+        "cd1:job:5b65a7f3",
+        "cd1:job:5b65a849",
+        "cd1:job:5b65afd4",
+        "cd1:job:5b65ae80",
+        "cd1:job:5a144f91",
+        "cd1:job:5a144f92",
+        "cd1:job:5b65aead",
+        "cd1:job:5b65aea4",
+        "cd1:job:5a14559d"
+      ],
+      "counts": {
+        "article_candidates": 24,
+        "states": {
+          "blocked": 1,
+          "ready": 23
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 55,
+        "toc_entries": 50,
+        "toc_status": {
+          "matched": 2,
+          "needs_review": 1,
+          "no_exact_title_match": 42,
+          "section": 5
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-07",
+      "job_ids": [
+        "cd1:job:5b671196",
+        "cd1:job:5b66cf91",
+        "cd1:job:5b66cfbe",
+        "cd1:job:5b66d00e",
+        "cd1:job:5b66d03c",
+        "cd1:job:5b66d069",
+        "cd1:job:5b66d095",
+        "cd1:job:5b66d6c8",
+        "cd1:job:5b66d6f5",
+        "cd1:job:5b66d74f",
+        "cd1:job:5b66d7d0",
+        "cd1:job:5b66ddd8",
+        "cd1:job:5b66de32",
+        "cd1:job:5b66deb3",
+        "cd1:job:5b66df09",
+        "cd1:job:5b66e4e4",
+        "cd1:job:5a48725d",
+        "cd1:job:5b66e4e5",
+        "cd1:job:5a487288",
+        "cd1:job:5b66e4e6",
+        "cd1:job:5b66e4e7",
+        "cd1:job:5a4872de",
+        "cd1:job:5b66e4e8",
+        "cd1:job:5a487309",
+        "cd1:job:5b66e4e9"
+      ],
+      "counts": {
+        "article_candidates": 25,
+        "states": {
+          "blocked": 1,
+          "ready": 24
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 57,
+        "toc_entries": 58,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 1,
+          "no_exact_title_match": 49,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-08",
+      "job_ids": [
+        "cd1:job:5b684829",
+        "cd1:job:5b680678",
+        "cd1:job:5b6806a1",
+        "cd1:job:5b6806d4",
+        "cd1:job:5b6806f9",
+        "cd1:job:5b680724",
+        "cd1:job:5b680e85",
+        "cd1:job:5b680d03",
+        "cd1:job:5b680e07",
+        "cd1:job:5b680e32",
+        "cd1:job:5b680e5b",
+        "cd1:job:5b68146f",
+        "cd1:job:5b68151b",
+        "cd1:job:5b681546",
+        "cd1:job:5b681594",
+        "cd1:job:5b681cf8",
+        "cd1:job:5b681b75",
+        "cd1:job:5b681ba8",
+        "cd1:job:5b681ba6",
+        "cd1:job:5b681bf6",
+        "cd1:job:5b681bf7",
+        "cd1:job:5b681bf8",
+        "cd1:job:5b681bf9",
+        "cd1:job:5a7cb2e4",
+        "cd1:job:5b681bfa",
+        "cd1:job:5b681bfb",
+        "cd1:job:5b681bfd"
+      ],
+      "counts": {
+        "article_candidates": 27,
+        "states": {
+          "ready": 27
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 68,
+        "toc_entries": 49,
+        "toc_status": {
+          "matched": 4,
+          "needs_review": 1,
+          "no_exact_title_match": 40,
+          "section": 4
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-09",
+      "job_ids": [
+        "cd1:job:5b697ebc",
+        "cd1:job:5b693cde",
+        "cd1:job:5b693d0d",
+        "cd1:job:5b693d34",
+        "cd1:job:5b693d67",
+        "cd1:job:5b693d92",
+        "cd1:job:5b693db4",
+        "cd1:job:5b694518",
+        "cd1:job:5b6943c7",
+        "cd1:job:5b694448",
+        "cd1:job:5b694c56",
+        "cd1:job:5b694b27",
+        "cd1:job:5b694b52",
+        "cd1:job:5b694b83",
+        "cd1:job:5b694c2f",
+        "cd1:job:5b695391",
+        "cd1:job:5b695235",
+        "cd1:job:5ab0cef8",
+        "cd1:job:5b695236",
+        "cd1:job:5b695237",
+        "cd1:job:5ab0cf4e",
+        "cd1:job:5b695238",
+        "cd1:job:5ab0cf79",
+        "cd1:job:5ab0cf7a",
+        "cd1:job:5b695239",
+        "cd1:job:5ab0cfa4",
+        "cd1:job:5b69523a",
+        "cd1:job:5ab0cfcf",
+        "cd1:job:5ab0cfd0"
+      ],
+      "counts": {
+        "article_candidates": 29,
+        "states": {
+          "ready": 29
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 67,
+        "toc_entries": 60,
+        "toc_status": {
+          "matched": 5,
+          "needs_review": 1,
+          "no_exact_title_match": 47,
+          "section": 7
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-10",
+      "job_ids": [
+        "cd1:job:59953516",
+        "cd1:job:5994f36a",
+        "cd1:job:5994f3b9",
+        "cd1:job:5994f3bf",
+        "cd1:job:5994f3e6",
+        "cd1:job:5994f3e8",
+        "cd1:job:5994f415",
+        "cd1:job:5994fa9e",
+        "cd1:job:5994fb4b",
+        "cd1:job:5994fb4e",
+        "cd1:job:599502ad",
+        "cd1:job:5995012b",
+        "cd1:job:59950183",
+        "cd1:job:599501ac",
+        "cd1:job:599501d9",
+        "cd1:job:5995025a",
+        "cd1:job:5995088d",
+        "cd1:job:599508ba",
+        "cd1:job:599508bb",
+        "cd1:job:599508bc",
+        "cd1:job:0c0877a5",
+        "cd1:job:599508bd",
+        "cd1:job:0c0877d0",
+        "cd1:job:599508be",
+        "cd1:job:0c0877fb",
+        "cd1:job:0c0877fc"
+      ],
+      "counts": {
+        "article_candidates": 26,
+        "states": {
+          "ready": 26
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 54,
+        "toc_entries": 59,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 3,
+          "no_exact_title_match": 46,
+          "section": 9
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-11",
+      "job_ids": [
+        "cd1:job:598a4a18",
+        "cd1:job:598a49eb",
+        "cd1:job:598a080d",
+        "cd1:job:598a086b",
+        "cd1:job:598a0890",
+        "cd1:job:598a08c1",
+        "cd1:job:598a08ba",
+        "cd1:job:598a08e6",
+        "cd1:job:598a0f48",
+        "cd1:job:598a1787",
+        "cd1:job:598a1604",
+        "cd1:job:598a16d5",
+        "cd1:job:598a1700",
+        "cd1:job:598a1733",
+        "cd1:job:598a1d66",
+        "cd1:job:598a1d8f",
+        "cd1:job:598a1deb",
+        "cd1:job:598a1de2",
+        "cd1:job:598a1de3",
+        "cd1:job:0a330532",
+        "cd1:job:598a1de4",
+        "cd1:job:0a33055d",
+        "cd1:job:0a33055e",
+        "cd1:job:598a1de5",
+        "cd1:job:0a330588"
+      ],
+      "counts": {
+        "article_candidates": 25,
+        "states": {
+          "ready": 25
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 55,
+        "toc_entries": 61,
+        "toc_status": {
+          "matched": 3,
+          "needs_review": 5,
+          "no_exact_title_match": 43,
+          "section": 10
+        }
+      }
+    },
+    {
+      "issue_id": "maso-1993-12",
+      "job_ids": [
+        "cd1:job:598b807e",
+        "cd1:job:598b3ecd",
+        "cd1:job:598b3efb",
+        "cd1:job:598b3f52",
+        "cd1:job:598b46e3",
+        "cd1:job:598b455a",
+        "cd1:job:598b4589",
+        "cd1:job:598b45df",
+        "cd1:job:598b4c99",
+        "cd1:job:598b4ce9",
+        "cd1:job:598b4d9b",
+        "cd1:job:598b4dc2",
+        "cd1:job:598b53f7",
+        "cd1:job:598b5424",
+        "cd1:job:598b544f",
+        "cd1:job:598b54a1",
+        "cd1:job:598b54d0",
+        "cd1:job:598b54f9",
+        "cd1:job:598b54fa",
+        "cd1:job:0a67460f",
+        "cd1:job:0a674610",
+        "cd1:job:598b54fb",
+        "cd1:job:0a67463a",
+        "cd1:job:598b54fc",
+        "cd1:job:598b54fd"
+      ],
+      "counts": {
+        "article_candidates": 25,
+        "states": {
+          "ready": 25
+        },
+        "unindexed_candidates": 0,
+        "index_occurrences": 55,
+        "toc_entries": 61,
+        "toc_status": {
+          "matched": 1,
+          "needs_review": 6,
+          "no_exact_title_match": 46,
+          "section": 8
+        }
+      }
+    }
+  ],
+  "unindexed_articles": [
+    {
+      "id": "cd1:job:0e68416d",
+      "body_topic_id": "cd1:topic:0155",
+      "title": "KEYBOARD LOCK",
+      "issue_id": "maso-1988-02",
+      "source_reference": "8802162",
+      "state": "already_prepared"
+    },
+    {
+      "id": "cd1:job:0e6aae95",
+      "body_topic_id": "cd1:topic:0185",
+      "title": "터보 파스칼 한글용 그래픽 툴박스",
+      "issue_id": "maso-1988-04",
+      "source_reference": "1KP6JK",
+      "state": "ready"
+    },
+    {
+      "id": "cd1:job:0e6d5c6c",
+      "body_topic_id": "cd1:topic:0201",
+      "title": "(c)Brain이라 불리우는 소프트웨어 바이러스",
+      "issue_id": "maso-1988-06",
+      "source_reference": "3BO8_.K",
+      "state": "ready"
+    },
+    {
+      "id": "cd1:job:98ba9bef",
+      "body_topic_id": "cd1:topic:0805",
+      "title": "매킨토시의 탄생, 그 속에 얽힌 이야기들",
+      "issue_id": "maso-1990-05",
+      "source_reference": "13KQ7HP",
+      "state": "ready"
+    },
+    {
+      "id": "cd1:job:98be407e",
+      "body_topic_id": "cd1:topic:0988",
+      "title": "아리랑-한글.한자 글꼴 인쇄기",
+      "issue_id": "maso-1990-08",
+      "source_reference": "13KT7MO",
+      "state": "ready"
+    },
+    {
+      "id": "cd1:job:96eb25ad",
+      "body_topic_id": "cd1:topic:1066",
+      "title": "프로그램 제작자의 권리",
+      "issue_id": "maso-1990-10",
+      "source_reference": "13BV6JK",
+      "state": "ready"
+    },
+    {
+      "id": "cd1:job:49d93ec1",
+      "body_topic_id": "cd1:topic:1235",
+      "title": "속에서 본 IBM PC -인터럽트, 인터럽트 제어기, 메모리, I/O 포트",
+      "issue_id": "maso-1991-01",
+      "source_reference": "8BA8Y9",
+      "state": "ready"
+    },
+    {
+      "id": "cd1:job:49da76df",
+      "body_topic_id": "cd1:topic:1286",
+      "title": "속에서 본 IBM PC  -이렇게 소리가 난답니다-",
+      "issue_id": "maso-1991-02",
+      "source_reference": "8BB97A",
+      "state": "ready"
+    },
+    {
+      "id": "cd1:job:50c8283a",
+      "body_topic_id": "cd1:topic:2361",
+      "title": "레이저 프린터 고장진단과 해결",
+      "issue_id": "maso-1992-12",
+      "source_reference": "99B9Z9",
+      "state": "ready"
+    }
+  ],
+  "blocked_jobs": [
+    {
+      "id": "cd1:job:49de19e8",
+      "body_topic_id": "cd1:topic:1436",
+      "title": "스트링,리피트 프리픽스,스택,인터럽트 명령",
+      "issue_id": "maso-1991-05",
+      "blockers": [
+        {
+          "code": "unattributed_adjacent_content",
+          "topic_id": "cd1:topic:1437"
+        }
+      ]
+    },
+    {
+      "id": "cd1:job:49df41da",
+      "body_topic_id": "cd1:topic:1454",
+      "title": "캐드용 장비와 그 원리",
+      "issue_id": "maso-1991-06",
+      "blockers": [
+        {
+          "code": "unattributed_adjacent_content",
+          "topic_id": "cd1:topic:1453"
+        }
+      ]
+    },
+    {
+      "id": "cd1:job:4804f5c9",
+      "body_topic_id": "cd1:topic:1734",
+      "title": "도스의 메모리 공간을 최대로 확보하는 법",
+      "issue_id": "maso-1991-12",
+      "blockers": [
+        {
+          "code": "unattributed_adjacent_content",
+          "topic_id": "cd1:topic:1733"
+        }
+      ]
+    },
+    {
+      "id": "cd1:job:52a4ea0c",
+      "body_topic_id": "cd1:topic:2132",
+      "title": "Xtoolkit의 활용",
+      "issue_id": "maso-1992-08",
+      "blockers": [
+        {
+          "code": "unattributed_adjacent_content",
+          "topic_id": "cd1:topic:2133"
+        }
+      ]
+    },
+    {
+      "id": "cd1:job:50c8288f",
+      "body_topic_id": "cd1:topic:2366",
+      "title": "프린터가 이젝트를 하지 못할때",
+      "issue_id": "maso-1992-12",
+      "blockers": [
+        {
+          "code": "unattributed_adjacent_content",
+          "topic_id": "cd1:topic:2367"
+        }
+      ]
+    },
+    {
+      "id": "cd1:job:5b6100b7",
+      "body_topic_id": "cd1:topic:2437",
+      "title": "꼭 새 것으로 바꿔야만 하는가",
+      "issue_id": "maso-1993-02",
+      "blockers": [
+        {
+          "code": "unattributed_adjacent_content",
+          "topic_id": "cd1:topic:2436"
+        }
+      ]
+    },
+    {
+      "id": "cd1:job:5b6599fb",
+      "body_topic_id": "cd1:topic:2704",
+      "title": "어떤 잉크젯과 레이저 프린터를 구입할 것인가?",
+      "issue_id": "maso-1993-06",
+      "blockers": [
+        {
+          "code": "unattributed_adjacent_content",
+          "topic_id": "cd1:topic:2703"
+        }
+      ]
+    },
+    {
+      "id": "cd1:job:5b66cf91",
+      "body_topic_id": "cd1:topic:2750",
+      "title": "전세계를 연결하는 인터네트와 비트네트",
+      "issue_id": "maso-1993-07",
+      "blockers": [
+        {
+          "code": "unattributed_adjacent_content",
+          "topic_id": "cd1:topic:2749"
+        }
+      ]
+    }
+  ],
+  "review_items": [
+    {
+      "id": "cd1-inventory-topic-1437",
+      "kind": "unattributed_content",
+      "topic_ids": [
+        "cd1:topic:1437"
+      ],
+      "status": "needs_review",
+      "reason": "Content has no reviewed owner; adjacency alone is not an article boundary."
+    },
+    {
+      "id": "cd1-inventory-topic-1453",
+      "kind": "unattributed_content",
+      "topic_ids": [
+        "cd1:topic:1453"
+      ],
+      "status": "needs_review",
+      "reason": "Content has no reviewed owner; adjacency alone is not an article boundary."
+    },
+    {
+      "id": "cd1-inventory-topic-1733",
+      "kind": "unattributed_content",
+      "topic_ids": [
+        "cd1:topic:1733"
+      ],
+      "status": "needs_review",
+      "reason": "Content has no reviewed owner; adjacency alone is not an article boundary."
+    },
+    {
+      "id": "cd1-inventory-topic-2133",
+      "kind": "unattributed_content",
+      "topic_ids": [
+        "cd1:topic:2133"
+      ],
+      "status": "needs_review",
+      "reason": "Content has no reviewed owner; adjacency alone is not an article boundary."
+    },
+    {
+      "id": "cd1-inventory-topic-2367",
+      "kind": "unattributed_content",
+      "topic_ids": [
+        "cd1:topic:2367"
+      ],
+      "status": "needs_review",
+      "reason": "Content has no reviewed owner; adjacency alone is not an article boundary."
+    },
+    {
+      "id": "cd1-inventory-topic-2436",
+      "kind": "unattributed_content",
+      "topic_ids": [
+        "cd1:topic:2436"
+      ],
+      "status": "needs_review",
+      "reason": "Content has no reviewed owner; adjacency alone is not an article boundary."
+    },
+    {
+      "id": "cd1-inventory-topic-2703",
+      "kind": "unattributed_content",
+      "topic_ids": [
+        "cd1:topic:2703"
+      ],
+      "status": "needs_review",
+      "reason": "Content has no reviewed owner; adjacency alone is not an article boundary."
+    },
+    {
+      "id": "cd1-inventory-topic-2749",
+      "kind": "unattributed_content",
+      "topic_ids": [
+        "cd1:topic:2749"
+      ],
+      "status": "needs_review",
+      "reason": "Content has no reviewed owner; adjacency alone is not an article boundary."
+    }
+  ],
+  "validation_sample": [
+    {
+      "job_id": "cd1:job:0e6aae95",
+      "body_topic_id": "cd1:topic:0185",
+      "issue_id": "maso-1988-04",
+      "title": "터보 파스칼 한글용 그래픽 툴박스",
+      "source_reference": "1KP6JK",
+      "features": {
+        "font_ids": [
+          5
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "ul",
+          "up",
+          "v"
+        ],
+        "par_controls": 38,
+        "tab_controls": 0,
+        "resources": [
+          "88041641.dib",
+          "bm41.bmp"
+        ],
+        "object_occurrences": 2,
+        "media_extensions": {
+          ".bmp": 1,
+          ".dib": 1
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "1988 unindexed native identity; short bitmap-bearing topic",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media",
+        "unindexed_native_identity"
+      ]
+    },
+    {
+      "job_id": "cd1:job:172a366a",
+      "body_topic_id": "cd1:topic:0302",
+      "issue_id": "maso-1989-01",
+      "title": "터보 파스칼 4.0, 수학 함수 라이브러리",
+      "source_reference": "8901152",
+      "features": {
+        "font_ids": [
+          4,
+          5,
+          15
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "ul",
+          "up",
+          "v"
+        ],
+        "par_controls": 282,
+        "tab_controls": 0,
+        "resources": [
+          "91153_1.dib",
+          "91153_2.dib",
+          "bm244.wmf",
+          "bm245.wmf",
+          "bm246.wmf",
+          "bm247.wmf",
+          "bm248.wmf",
+          "bm249.wmf",
+          "bm250.wmf",
+          "bm251.wmf",
+          "bm252.wmf",
+          "bm253.wmf",
+          "bm254.wmf",
+          "bm255.wmf",
+          "bm256.wmf",
+          "bm257.wmf",
+          "bm258.wmf",
+          "bm259.wmf",
+          "bm260.wmf",
+          "bm261.wmf",
+          "bm262.wmf",
+          "bm263.wmf",
+          "bm264.wmf",
+          "bm265.wmf",
+          "bm266.wmf",
+          "bm267.wmf",
+          "bm268.wmf",
+          "bm269.wmf",
+          "bm270.wmf",
+          "bm271.wmf",
+          "bm272.wmf",
+          "bm273.wmf",
+          "bm274.wmf",
+          "bm275.wmf",
+          "bm276.wmf",
+          "bm277.wmf",
+          "bm278.wmf",
+          "bm279.wmf",
+          "bm280.wmf",
+          "bm281.wmf",
+          "bm282.wmf",
+          "bm283.wmf",
+          "bm284.wmf",
+          "bm285.wmf",
+          "bm286.wmf",
+          "bm287.wmf",
+          "bm39.bmp",
+          "bm41.bmp"
+        ],
+        "object_occurrences": 48,
+        "media_extensions": {
+          ".bmp": 2,
+          ".dib": 2,
+          ".wmf": 44
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "1989 math-library title; font 15 and numerous vector occurrences",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media"
+      ]
+    },
+    {
+      "job_id": "cd1:job:96e04215",
+      "body_topic_id": "cd1:topic:1150",
+      "issue_id": "maso-1990-11",
+      "title": "터보 C용 VGA 800 X 600모드 그래픽 라이브러리",
+      "source_reference": "9011288",
+      "features": {
+        "font_ids": [
+          4,
+          5,
+          15
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "tab",
+          "ul",
+          "up",
+          "v"
+        ],
+        "par_controls": 1890,
+        "tab_controls": 25,
+        "resources": [
+          "0b292_a.dib",
+          "90112881.dib",
+          "90112882.dib",
+          "9011289.dib",
+          "9011290.dib",
+          "bm1086.wmf",
+          "bm39.bmp",
+          "bm56.bmp"
+        ],
+        "object_occurrences": 8,
+        "media_extensions": {
+          ".bmp": 2,
+          ".dib": 5,
+          ".wmf": 1
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "1990 long font-15 topic; bitmap/vector mix and interior context offset",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media",
+        "context_is_inside_topic_not_header"
+      ]
+    },
+    {
+      "job_id": "cd1:job:49de19bf",
+      "body_topic_id": "cd1:topic:1433",
+      "issue_id": "maso-1991-05",
+      "title": "중첩확장 메모리의 이용",
+      "source_reference": "9105358",
+      "features": {
+        "font_ids": [
+          4,
+          5,
+          15,
+          26
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "ul",
+          "up",
+          "v"
+        ],
+        "par_controls": 219,
+        "tab_controls": 0,
+        "resources": [
+          "bm1333.wmf",
+          "bm1334.wmf",
+          "bm1335.wmf",
+          "bm1336.wmf",
+          "bm1337.wmf",
+          "bm1338.wmf",
+          "bm1339.wmf",
+          "bm1340.wmf",
+          "bm1341.wmf",
+          "bm1342.wmf",
+          "bm1343.wmf",
+          "bm1344.wmf",
+          "bm1345.wmf",
+          "bm1346.wmf",
+          "bm1347.wmf",
+          "bm1348.wmf",
+          "bm1349.wmf",
+          "bm1350.wmf",
+          "bm1351.wmf",
+          "bm1352.wmf",
+          "bm1353.wmf",
+          "bm1354.wmf",
+          "bm1355.wmf",
+          "bm1356.wmf",
+          "bm1357.wmf",
+          "bm1358.wmf",
+          "bm1359.wmf",
+          "bm1360.wmf",
+          "bm1361.wmf",
+          "bm1362.wmf",
+          "bm1363.wmf",
+          "bm1364.wmf",
+          "bm1365.wmf",
+          "bm1366.wmf",
+          "bm1367.wmf",
+          "bm1368.wmf",
+          "bm1369.wmf",
+          "bm1370.wmf",
+          "bm1371.wmf",
+          "bm1372.wmf",
+          "bm1373.wmf",
+          "bm1374.wmf",
+          "bm1375.wmf",
+          "bm1376.wmf",
+          "bm1377.wmf",
+          "bm1378.wmf",
+          "bm29.bmp",
+          "bm40.bmp"
+        ],
+        "object_occurrences": 48,
+        "media_extensions": {
+          ".bmp": 2,
+          ".wmf": 46
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "1991 additional font 26 and vector-heavy topic",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media"
+      ]
+    },
+    {
+      "job_id": "cd1:job:e1e7728b",
+      "body_topic_id": "cd1:topic:2182",
+      "issue_id": "maso-1992-09",
+      "title": "클리퍼에서 2바이트 문자가 섞여있는 문자열 자르기",
+      "source_reference": "9209394a",
+      "features": {
+        "font_ids": [
+          4,
+          5,
+          15
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "fi",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "up"
+        ],
+        "par_controls": 78,
+        "tab_controls": 0,
+        "resources": [
+          "bm554.bmp"
+        ],
+        "object_occurrences": 1,
+        "media_extensions": {
+          ".bmp": 1
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "1992 suffixed reference and font-15 content",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media"
+      ]
+    },
+    {
+      "job_id": "cd1:job:5943dd93",
+      "body_topic_id": "cd1:topic:2502",
+      "issue_id": "maso-1993-02",
+      "title": "BACKUP과 RESTORE명령이 필요없는 HDD 교체방법",
+      "source_reference": "9302402a",
+      "features": {
+        "font_ids": [
+          4,
+          5
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "up"
+        ],
+        "par_controls": 10,
+        "tab_controls": 0,
+        "resources": [
+          "bm554.bmp"
+        ],
+        "object_occurrences": 1,
+        "media_extensions": {
+          ".bmp": 1
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "1993 short suffixed reference; opening label omits month trailing period",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media"
+      ]
+    },
+    {
+      "job_id": "cd1:job:5b6339f8",
+      "body_topic_id": "cd1:topic:2611",
+      "issue_id": "maso-1993-04",
+      "title": "'92 컴퓨터 바이러스 결산 보고서",
+      "source_reference": "9304310",
+      "features": {
+        "font_ids": [
+          4,
+          5,
+          15,
+          95
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "ul",
+          "up",
+          "v"
+        ],
+        "par_controls": 515,
+        "tab_controls": 0,
+        "resources": [
+          "93043131.dib",
+          "93043142.dib",
+          "93043153.dib",
+          "93043156.dib",
+          "93043175.dib",
+          "93043186.dib",
+          "93043197.dib",
+          "93043198.dib",
+          "93043219.dib",
+          "9304321a.dib",
+          "9304321b.dib",
+          "9304323c.dib",
+          "9304324d.dib",
+          "9304324e.dib",
+          "9304327f.dib",
+          "9304327g.dib",
+          "9304327h.dib",
+          "9304328i.dib",
+          "bm56.bmp",
+          "p3043111.dib",
+          "p3043112.dib",
+          "p3043113.dib",
+          "p304323e.dib",
+          "p304326i.dib",
+          "p304326j.dib"
+        ],
+        "object_occurrences": 25,
+        "media_extensions": {
+          ".bmp": 1,
+          ".dib": 24
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "1993 additional font 95 and bitmap-heavy topic",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media"
+      ]
+    },
+    {
+      "job_id": "cd1:job:598a4a18",
+      "body_topic_id": "cd1:topic:2985",
+      "issue_id": "maso-1993-11",
+      "title": "씨앗 통합 개발 환경",
+      "source_reference": "9311000",
+      "features": {
+        "font_ids": [
+          4,
+          5
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "ul",
+          "up",
+          "v"
+        ],
+        "par_controls": 508,
+        "tab_controls": 0,
+        "resources": [
+          "3b01.dib",
+          "3b010.dib",
+          "3b011.dib",
+          "3b012.dib",
+          "3b013.dib",
+          "3b014.dib",
+          "3b015.dib",
+          "3b016.dib",
+          "3b017.dib",
+          "3b018.dib",
+          "3b019.dib",
+          "3b02.dib",
+          "3b020.dib",
+          "3b03.dib",
+          "3b04.dib",
+          "3b05.dib",
+          "3b06.dib",
+          "3b07.dib",
+          "3b08.dib",
+          "3b09.dib",
+          "3b1.dib",
+          "3b2.dib",
+          "3b3.dib",
+          "3b4.dib",
+          "93110001.dib",
+          "93110006.dib",
+          "93110007.dib",
+          "9311000e.dib",
+          "9311000f.dib",
+          "9311000k.dib",
+          "bm56.bmp"
+        ],
+        "object_occurrences": 31,
+        "media_extensions": {
+          ".bmp": 1,
+          ".dib": 30
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "1993 supplement with no numeric opening page; many bitmap occurrences",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media"
+      ]
+    },
+    {
+      "job_id": "cd1:job:598b3efb",
+      "body_topic_id": "cd1:topic:3049",
+      "issue_id": "maso-1993-12",
+      "title": "PC 통신에서의 음성 구현",
+      "source_reference": "9312167",
+      "features": {
+        "font_ids": [
+          4,
+          5,
+          15
+        ],
+        "control_words": [
+          "b",
+          "f",
+          "footnote",
+          "fs",
+          "keepn",
+          "li",
+          "par",
+          "pard",
+          "plain",
+          "qr",
+          "ri",
+          "sa",
+          "sb",
+          "sl",
+          "tab",
+          "ul",
+          "up",
+          "v"
+        ],
+        "par_controls": 1716,
+        "tab_controls": 1504,
+        "resources": [
+          "3c170_4.dib",
+          "3c170_5.dib",
+          "93121691.dib",
+          "93121692.dib",
+          "bm39.bmp",
+          "bm43.bmp",
+          "p3121682.dib",
+          "p3121693.dib",
+          "p3121705.dib"
+        ],
+        "object_occurrences": 9,
+        "media_extensions": {
+          ".bmp": 2,
+          ".dib": 7
+        },
+        "blank_formatting_only": false
+      },
+      "selection_reason": "December 1993 long font-15 topic and interior context offset",
+      "review_concerns": [
+        "validate_boundaries_and_inherited_RTF_state",
+        "inspect_semantic_structure",
+        "validate_font_encoding_and_media",
+        "context_is_inside_topic_not_header"
+      ]
+    }
+  ],
+  "context_offset_differences": [
+    {
+      "hash_hex": "0x155fa137",
+      "topic_offset": 42008576,
+      "mvb_entry_byte_offset": 232790312,
+      "byte_length": 8,
+      "alias": "2BV6HO",
+      "topic_id": "cd1:topic:0528",
+      "native_header_topic_offset": 41978878,
+      "next_header_topic_offset": 42206710,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x17317e0b",
+      "topic_offset": 34963456,
+      "mvb_entry_byte_offset": 232790760,
+      "byte_length": 8,
+      "alias": "2KS6JM",
+      "topic_id": "cd1:topic:0442",
+      "native_header_topic_offset": 34933688,
+      "next_header_topic_offset": 34998353,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x28fc6504",
+      "topic_offset": 21528576,
+      "mvb_entry_byte_offset": 232786528,
+      "byte_length": 8,
+      "alias": "4M5LMA",
+      "topic_id": "cd1:topic:0349",
+      "native_header_topic_offset": 21499085,
+      "next_header_topic_offset": 21529058,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x49da7600",
+      "topic_offset": 102400000,
+      "mvb_entry_byte_offset": 232796824,
+      "byte_length": 8,
+      "alias": "8BB929",
+      "topic_id": "cd1:topic:1298",
+      "native_header_topic_offset": 102369733,
+      "next_header_topic_offset": 102631913,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x49dbac12",
+      "topic_offset": 105152512,
+      "mvb_entry_byte_offset": 232796952,
+      "byte_length": 8,
+      "alias": "8BC8Z9",
+      "topic_id": "cd1:topic:1342",
+      "native_header_topic_offset": 105122799,
+      "next_header_topic_offset": 105221534,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x49dce2fd",
+      "topic_offset": 108756997,
+      "mvb_entry_byte_offset": 232797080,
+      "byte_length": 8,
+      "alias": "UKP8HK",
+      "topic_id": "cd1:topic:1389",
+      "native_header_topic_offset": 108756995,
+      "next_header_topic_offset": 109022263,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x50d1d6cb",
+      "topic_offset": 180782229,
+      "mvb_entry_byte_offset": 232801256,
+      "byte_length": 8,
+      "alias": "VBV8MN",
+      "topic_id": "cd1:topic:2247",
+      "native_header_topic_offset": 180782227,
+      "next_header_topic_offset": 180813824,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x529ed1ee",
+      "topic_offset": 146113834,
+      "mvb_entry_byte_offset": 232801720,
+      "byte_length": 8,
+      "alias": "VKO7NK",
+      "topic_id": "cd1:topic:1870",
+      "native_header_topic_offset": 146113832,
+      "next_header_topic_offset": 146573909,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x52a3b26f",
+      "topic_offset": 165380096,
+      "mvb_entry_byte_offset": 232804848,
+      "byte_length": 8,
+      "alias": "9BG919",
+      "topic_id": "cd1:topic:2089",
+      "native_header_topic_offset": 165350216,
+      "next_header_topic_offset": 165611991,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x598b3efb",
+      "topic_offset": 242483200,
+      "mvb_entry_byte_offset": 232805344,
+      "byte_length": 8,
+      "alias": "WBN6JN",
+      "topic_id": "cd1:topic:3049",
+      "native_header_topic_offset": 242452951,
+      "next_header_topic_offset": 242846946,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x5bab677a",
+      "topic_offset": 103579648,
+      "mvb_entry_byte_offset": 232798280,
+      "byte_length": 8,
+      "alias": "0CTN01",
+      "topic_id": "cd1:topic:1317",
+      "native_header_topic_offset": 103549671,
+      "next_header_topic_offset": 103580265,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x5bab6d61",
+      "topic_offset": 105250816,
+      "mvb_entry_byte_offset": 232798304,
+      "byte_length": 8,
+      "alias": "0CTO27",
+      "topic_id": "cd1:topic:1344",
+      "native_header_topic_offset": 105221536,
+      "next_header_topic_offset": 105251184,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x5baf02cf",
+      "topic_offset": 114460415,
+      "mvb_entry_byte_offset": 232798576,
+      "byte_length": 8,
+      "alias": "0CWM33",
+      "topic_id": "cd1:topic:1450",
+      "native_header_topic_offset": 114460413,
+      "next_header_topic_offset": 114491395,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x646d6283",
+      "topic_offset": 143165753,
+      "mvb_entry_byte_offset": 232802320,
+      "byte_length": 8,
+      "alias": "XM4NIA",
+      "topic_id": "cd1:topic:1828",
+      "native_header_topic_offset": 143165751,
+      "next_header_topic_offset": 143166062,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6470f7d0",
+      "topic_offset": 153616384,
+      "mvb_entry_byte_offset": 232802632,
+      "byte_length": 8,
+      "alias": "XM7LIG",
+      "topic_id": "cd1:topic:1958",
+      "native_header_topic_offset": 153587093,
+      "next_header_topic_offset": 153616663,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x64723671",
+      "topic_offset": 160464903,
+      "mvb_entry_byte_offset": 232802800,
+      "byte_length": 8,
+      "alias": "XM8MNE",
+      "topic_id": "cd1:topic:2030",
+      "native_header_topic_offset": 160464901,
+      "next_header_topic_offset": 160465299,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6d31c62b",
+      "topic_offset": 204934096,
+      "mvb_entry_byte_offset": 232807376,
+      "byte_length": 8,
+      "alias": ".CTO03",
+      "topic_id": "cd1:topic:2551",
+      "native_header_topic_offset": 204934094,
+      "next_header_topic_offset": 204963840,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6d37c7c1",
+      "topic_offset": 224462061,
+      "mvb_entry_byte_offset": 232807896,
+      "byte_length": 8,
+      "alias": ".CYM53",
+      "topic_id": "cd1:topic:2804",
+      "native_header_topic_offset": 224462059,
+      "next_header_topic_offset": 224462555,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6d37ce4c",
+      "topic_offset": 225806656,
+      "mvb_entry_byte_offset": 232807936,
+      "byte_length": 8,
+      "alias": ".CYN11",
+      "topic_id": "cd1:topic:2822",
+      "native_header_topic_offset": 225806654,
+      "next_header_topic_offset": 225807024,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6d37d5b8",
+      "topic_offset": 227082244,
+      "mvb_entry_byte_offset": 232807976,
+      "byte_length": 8,
+      "alias": ".CYO29",
+      "topic_id": "cd1:topic:2834",
+      "native_header_topic_offset": 227082242,
+      "next_header_topic_offset": 227082584,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6d37dcbe",
+      "topic_offset": 228917335,
+      "mvb_entry_byte_offset": 232808008,
+      "byte_length": 8,
+      "alias": ".CYP11",
+      "topic_id": "cd1:topic:2849",
+      "native_header_topic_offset": 228917333,
+      "next_header_topic_offset": 228917696,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6d37dcf1",
+      "topic_offset": 229049990,
+      "mvb_entry_byte_offset": 232808024,
+      "byte_length": 8,
+      "alias": ".CYP29",
+      "topic_id": "cd1:topic:2852",
+      "native_header_topic_offset": 229049988,
+      "next_header_topic_offset": 229050312,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6d390c9b",
+      "topic_offset": 232621265,
+      "mvb_entry_byte_offset": 232808112,
+      "byte_length": 8,
+      "alias": ".CZO43",
+      "topic_id": "cd1:topic:2902",
+      "native_header_topic_offset": 232621263,
+      "next_header_topic_offset": 232621710,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x6d390ccc",
+      "topic_offset": 232784732,
+      "mvb_entry_byte_offset": 232808120,
+      "byte_length": 8,
+      "alias": ".CZO59",
+      "topic_id": "cd1:topic:2905",
+      "native_header_topic_offset": 232784730,
+      "next_header_topic_offset": 232785098,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x96e04215",
+      "topic_offset": 91029504,
+      "mvb_entry_byte_offset": 232783992,
+      "byte_length": 8,
+      "alias": "13BM7LO",
+      "topic_id": "cd1:topic:1150",
+      "native_header_topic_offset": 90999785,
+      "next_header_topic_offset": 91456397,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0x98be3fd0",
+      "topic_offset": 79429632,
+      "mvb_entry_byte_offset": 232794344,
+      "byte_length": 8,
+      "alias": "ABH82_",
+      "topic_id": "cd1:topic:0985",
+      "native_header_topic_offset": 79399596,
+      "next_header_topic_offset": 79560704,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0xa8affc21",
+      "topic_offset": 89194496,
+      "mvb_entry_byte_offset": 232794568,
+      "byte_length": 8,
+      "alias": "C0RM83",
+      "topic_id": "cd1:topic:1122",
+      "native_header_topic_offset": 89165016,
+      "next_header_topic_offset": 89195026,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0xa8bae6f6",
+      "topic_offset": 84347693,
+      "mvb_entry_byte_offset": 232794776,
+      "byte_length": 8,
+      "alias": "15D.LMC",
+      "topic_id": "cd1:topic:1065",
+      "native_header_topic_offset": 84347691,
+      "next_header_topic_offset": 84347967,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0xa8baedb2",
+      "topic_offset": 86048768,
+      "mvb_entry_byte_offset": 232794856,
+      "byte_length": 8,
+      "alias": "15D.MJG",
+      "topic_id": "cd1:topic:1095",
+      "native_header_topic_offset": 86019139,
+      "next_header_topic_offset": 86049232,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0xaa86b1f0",
+      "topic_offset": 54493184,
+      "mvb_entry_byte_offset": 232795008,
+      "byte_length": 8,
+      "alias": "CCSM28",
+      "topic_id": "cd1:topic:0662",
+      "native_header_topic_offset": 54463850,
+      "next_header_topic_offset": 54493763,
+      "association": "inside_native_topic_interval"
+    },
+    {
+      "hash_hex": "0xaa8cca82",
+      "topic_offset": 74973511,
+      "mvb_entry_byte_offset": 232792488,
+      "byte_length": 8,
+      "alias": "CCXN51",
+      "topic_id": "cd1:topic:0912",
+      "native_header_topic_offset": 74973509,
+      "next_header_topic_offset": 74973787,
+      "association": "inside_native_topic_interval"
+    }
+  ],
+  "manifest": {
+    "path": "manifest.json",
+    "bytes": 22249,
+    "sha256": "245c6039515e6a2dfd35936591f248f76ad946933d6f32b72fcfd456502d9ae9"
+  }
+}

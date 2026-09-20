@@ -1,6 +1,6 @@
 # CD1 extraction and reading-room content plan
 
-Revised 2026-09-18. This is the active work queue for extracting CD1 and organizing
+Revised 2026-09-20. This is the active work queue for extracting CD1 and organizing
 its content for the reading room. The separate [reading-room PRD](PRD-reading-room.md)
 owns the viewer's UI and application architecture. The previous broad archive
 plan remains in [Design reference](docs/DESIGN-REFERENCE.md) as historical context.
@@ -141,9 +141,9 @@ populations; neither is a verified count of complete articles.
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
 | 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, and 12d are complete.
+Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, 12d, and 13a are complete.
 Step 7 is deferred pending physical-magazine evidence; 11b awaits independent storage or an optical drive.
-**Step 13a (CD1 processing inventory for the batch pipeline) is next.**
+**Step 13b (shared extraction and packaging pipeline) is next.**
 Backup/restore verification does not block extraction from the verified sources.
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
@@ -807,7 +807,7 @@ reference occurrences**. These are different populations, not interchangeable
 article totals. Reuse that evidence to build the processing queue, including
 unindexed content, linked introductions, and unresolved identities.
 
-### 13a — Next: build the CD1 processing inventory
+### 13a — Completed: build the CD1 processing inventory
 
 **Inputs:** checked MVB/RTF and probe manifest, native metadata scan from 12d,
 all three index imports, current TOC through December 1993, six February article
@@ -834,7 +834,28 @@ specific unresolved dependency. Select a finite validation sample for 13c from
 other issues, based on issue range and observed RTF/media variety. This checkpoint
 produces metadata and the batch input contract; article recovery starts in 13b.
 
-### 13b — Build the shared extraction and packaging pipeline
+Result (2026-09-20): the [processing inventory](docs/CD1-PROCESSING-INVENTORY.md)
+reconciles 3,099 topics, 2,103 contexts, 1,080 index targets, 2,462 occurrences,
+and all 5,497 current TOC entries. It produces **1,088 dated article candidates
+across 72 months: six already prepared, 1,074 ready for runner validation, and
+eight blocked on adjacent content ownership**. Nine dated candidates are unindexed.
+All six February identities, topic spans, and reviewed TOC matches are retained.
+
+Native interval and alias evidence associates all 31 context/header-offset
+differences, including eleven dated bodies. Three substantial unaliased topics
+and five possible introductions remain explicit ownership cases. They block only
+the affected jobs. The queue retains 883 linked introduction candidates, 114 linked
+auxiliary topics, three application-resource topics, ten navigation topics, and
+993 formatting-only separators. Ready status does not establish complete article
+boundaries; the runner must inspect inherited RTF state and related links.
+
+A frozen **nine-candidate sample** spans 1988–1993 and includes unindexed/suffixed
+references, extra fonts, long listings, varied media, an interior context offset,
+and a supplement with no numeric page label. `make inventory-cd1-processing`
+rebuilds the metadata; the versioned manifest and standalone reader validate the
+queue after relocation. No new article bodies or images were prepared in 13a.
+
+### 13b — Next: build the shared extraction and packaging pipeline
 
 **Inputs:** the 13a queue, existing extraction/conversion/validation components,
 the approved v1 schema, and February's reviewed preparation evidence.
@@ -916,7 +937,7 @@ bounded work and does not erase their recorded first-pass outcomes.
 
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, and 12d are complete. **13a is the next implementation task**;
+Steps 12b.1–3, 12c, 12d, and 13a are complete. **13b is the next implementation task**;
 13b–13d are planned, not yet implemented or run. A “continue” advances the next
 unfinished checkpoint. During 13d, issue boundaries are resume/reporting points
 within the full-CD pass, rather than requiring a separate plan or permission for
@@ -942,8 +963,8 @@ of later publication decisions.
 | 12b.3 — Done: Turbo Pascal graphics | Reviewed title match, standalone and five-article packages, deferred vectors and text-review record. | Topics 157/158, Korean Pascal strings, mixed figure paragraphs, and all media positions are preserved under unchanged v1. |
 | 12c — Done: February issue handoff | Current coverage record and validated issue package/catalog metadata. | All 39 TOC entries and five indexed targets reconcile; 48 runtime files and all review evidence are preserved, with deterministic and relocated/base-URL checks passing. |
 | 12d — Done: February native closeout | Six-article handoff, including unindexed KEYBOARD LOCK, and complete native February metadata accounting. | All six observed bodies are prepared; 29 unmatched candidates and four sections remain explicit; earlier content and exceptions survive under unchanged v1. |
-| 13a — Next: processing inventory | Complete source accounting and a batch input queue, including unindexed content. | All native/index populations reconcile; ready and unresolved jobs are explicit; February preparations remain linked. |
-| 13b — Planned: shared pipeline | Reusable extraction, structure, conversion, and packaging stages with resume and exception records. | February runs through shared stages with preservation checks, isolated failures, and compatible-cache reuse. |
+| 13a — Done: processing inventory | Complete source accounting and a batch input queue, including unindexed content. | All native/index populations reconcile; ready and unresolved jobs are explicit; February preparations remain linked. |
+| 13b — Next: shared pipeline | Reusable extraction, structure, conversion, and packaging stages with resume and exception records. | February runs through shared stages with preservation checks, isolated failures, and compatible-cache reuse. |
 | 13c — Planned: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
 | 13d — Planned: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
 

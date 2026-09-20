@@ -195,7 +195,8 @@ The owner confirms the local copy is the working `masocd-1.iso`, extracted from
 the retained original physical CD. No optical drive is currently available.
 Step 11b is deferred until independent storage or an optical drive is available; probe/repository preservation remains a separate part of that checkpoint. The
 [February 1988 issue handoff](CD1-ISSUE-1988-02.md) and expanded TOC import are complete.
-The next task is **13a: build the CD1 processing inventory for the batch pipeline**.
+The [13a processing inventory](CD1-PROCESSING-INVENTORY.md) is complete.
+The next task is **13b: implement the shared batch pipeline**.
 All six observed native February articles are prepared. Shared-pipeline validation
 will precede a resumable run across the remaining CD1 queue. Backup/restore
 verification remains deferred and does not block extraction that reads verified originals and writes separate

@@ -103,8 +103,8 @@ The [February issue handoff](CD1-ISSUE-1988-02.md) now contains all six observed
 February articles, including unindexed KEYBOARD LOCK (page 162). Its 29 remaining
 article candidates need scans or another source; the coverage report lists their
 TOC identities and pages. Physical review of the six prepared articles is still
-pending. The next task, **13a**, builds the full CD1 processing inventory for a
-shared batch pipeline. After regression and sample validation, the runner will
-process the remaining CD1 queue. These offline tasks, including backup/restore
+pending. The [13a processing inventory](CD1-PROCESSING-INVENTORY.md) is complete.
+The next task, **13b**, implements the shared batch pipeline. After regression
+and sample validation, the runner will process the remaining CD1 queue. These offline tasks, including backup/restore
 verification, remain independent of that extraction milestone.
 Physical reference collection and print comparison (step 7) remain independent.
