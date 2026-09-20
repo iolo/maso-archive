@@ -91,3 +91,10 @@ run-cd1-font-pass:
 
 report-cd1-font-pass:
 	PYTHONPATH=src $(PYTHON) -m tools.batch.font_coverage $(REPORT_ARGS)
+
+.PHONY: review-cd1-ordinary-fonts retry-cd1-ordinary-font-sample
+review-cd1-ordinary-fonts:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.ordinary_font_review $(FONT_ARGS)
+
+retry-cd1-ordinary-font-sample:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_ordinary_fonts $(FONT_ARGS)

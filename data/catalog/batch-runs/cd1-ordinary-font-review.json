@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "checkpoint": "16a",
+  "scope": "five_ordinary_font_non_ASCII_cases",
+  "current_record": {
+    "path": "data/catalog/batch-runs/cd1-font-pass.json",
+    "bytes": 80697,
+    "sha256": "1eec766220b9be2153910fb89ee43318776ccf4992020f85e419692ae02e88d8"
+  },
+  "prior_review_record": {
+    "path": "data/catalog/batch-runs/cd1-font-review.json",
+    "bytes": 16600,
+    "sha256": "76743ef97a36401464bb3fbde4a107e0076a8aff9619048693a1bb89d884eb67"
+  },
+  "pipeline_identity_sha256": "15f48e5a44e29cf3f7abb029f15d89f54792f99fb78877c5ffc829c863c26100",
+  "code_sha256": "e18ce1c7cb424d7d6270ac4ed2da7fa1d3edff1f1a53639436ed3603d4be0032",
+  "output_root": "build/cd1-ordinary-font-review/stages/review/fd6ac2b9ed590214d6f7182f24a36b7c329e72496bb3493fd40eaf91e71007eb",
+  "fingerprint": "fd6ac2b9ed590214d6f7182f24a36b7c329e72496bb3493fd40eaf91e71007eb",
+  "outputs": [
+    {
+      "path": "articles/8905226/recovery.json",
+      "bytes": 8305534,
+      "sha256": "6ff90a5c8e562ced3156a07b41fff9530e1dc6c365bf39e55c8818dbec10195e"
+    },
+    {
+      "path": "articles/9201260/recovery.json",
+      "bytes": 3178882,
+      "sha256": "bfdd94e812672a4b98d911695e3aadf40b911bac695a570bc21470407d64004f"
+    },
+    {
+      "path": "articles/9202208/recovery.json",
+      "bytes": 5814662,
+      "sha256": "f4b15eebf0d0d7f7d6a443857cc26e15ebc67a210bae48d37d19cd6cb985b75c"
+    },
+    {
+      "path": "articles/9203182/recovery.json",
+      "bytes": 3037204,
+      "sha256": "79c36c8fe546056ce464d829f9bcb3e81159378b373832d9b42f47e72dab7921"
+    },
+    {
+      "path": "articles/9207134/recovery.json",
+      "bytes": 4386083,
+      "sha256": "65312ddce23cac25b50749a9ede417f5ff912cfedc4c5a4e4a0b6df7ce5fa363"
+    },
+    {
+      "path": "jobs.json",
+      "bytes": 12060,
+      "sha256": "1081a4a9cc617078cc5a2896bfecf60063b1cd72a964ed8384c3ea41890cc693"
+    },
+    {
+      "path": "policy.json",
+      "bytes": 8248,
+      "sha256": "86ed3e0de9e7d4b50c43504387e8b3b71bdd57ca960f1a893c18c65e93f710a9"
+    },
+    {
+      "path": "runs.json",
+      "bytes": 80580,
+      "sha256": "7300fef93f702cbfd7b554286c0d7b53f4b7c73ec42c3e9536074f6c561ed49d"
+    }
+  ],
+  "cases": {
+    "8905226": {
+      "font": 13,
+      "runs": 3353,
+      "non_ascii": 8,
+      "basis": "eight contiguous assembly string rows form a box under KS X 1001 decoding"
+    },
+    "9201260": {
+      "font": 26,
+      "runs": 8,
+      "non_ascii": 4,
+      "basis": "Korean spline prose and captions agree with adjacent font-5 headings and figure objects"
+    },
+    "9202208": {
+      "font": 0,
+      "runs": 3,
+      "non_ascii": 1,
+      "basis": "Korean SMM paragraph agrees with the adjacent mixed font-4/font-5 heading"
+    },
+    "9203182": {
+      "font": 13,
+      "runs": 60,
+      "non_ascii": 4,
+      "basis": "Korean C comments and banner text fit the enclosing ASCII listing and object positions"
+    },
+    "9207134": {
+      "font": 26,
+      "runs": 1,
+      "non_ascii": 1,
+      "basis": "Korean listing caption names the isAT function in the following listing"
+    }
+  },
+  "fixed_sample": {
+    "8905226": "eight contiguous assembly string rows form a box under KS X 1001 decoding",
+    "9201260": "Korean spline prose and captions agree with adjacent font-5 headings and figure objects",
+    "9202208": "Korean SMM paragraph agrees with the adjacent mixed font-4/font-5 heading",
+    "9203182": "Korean C comments and banner text fit the enclosing ASCII listing and object positions"
+  },
+  "counts": {
+    "articles": 5,
+    "source_topics": 10,
+    "reviewed_runs": 3425,
+    "non_ASCII_runs": 18
+  },
+  "limits": [
+    "exact_five_source_associations_only",
+    "not_a_global_font_mapping",
+    "no_replacement_or_fallback",
+    "physical_review_pending",
+    "current_15b_combined_coverage_unchanged"
+  ]
+}

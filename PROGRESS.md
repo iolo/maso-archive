@@ -1686,3 +1686,57 @@
   CD2/CD3, reading-room UI and publication/access remain separate scopes. Full text
   and detailed diagnostics remain private. Documentation links, catalog JSON and
   whitespace validate; the owner's two PRD files are excluded from this commit.
+
+### 2026-09-20 — Step 16a started: five ordinary-font non-ASCII cases
+
+- Review the five source associations left by 15a with non-ASCII bytes in Courier
+  New, Helv and MS Sans Serif: `8905226`, `9201260`, `9202208`, `9203182`, `9207134`.
+  The 18 non-ASCII runs contain Korean prose/captions/code comments or contiguous
+  box-drawing rows. CP949 and EUC-KR interpretations agree and round-trip exactly;
+  surrounding headings, listings and figure positions support those readings.
+- Bind the additional mappings to exact source topics; independently recheck all
+  ten topics against the original recovery. Validate four fixed sample articles
+  spanning each font and both Korean/box-drawing concerns, leaving `9207134` for
+  the subsequent pass. Preserve the 977-article combined handoff and all history.
+- Full text and competing-decoding/context evidence stay private. No global
+  decoding, semantic, schema or media-repair change is included.
+- Audit and sample execution passed: all ten topics reproduce the old recovery;
+  3,425 previously unsupported runs (18 non-ASCII) recover under the reviewed
+  source-bound policy. All four sample articles prepare with review exceptions.
+  They preserve 6,181 paragraphs, 4,654 blocks, 401,251 RTF bytes, 5,708 text runs
+  and 106 object occurrences. All 40 available bitmap resources preserve pixels;
+  62 deferred media references remain recorded.
+- Normal audit/sample reruns reproduce both summaries. An isolated fresh rebuild
+  reproduces all 72 article runtime files byte for byte, with identical source
+  checks and outcomes. All seven new tests pass against completed artifacts.
+  Full historical/source/schema/static-loading regressions are running.
+
+### 2026-09-20 — Step 16a completed: ordinary-font non-ASCII policy and four samples
+
+- All five reviewed associations support the exact-source CP949 policy. Their ten
+  topics reproduce the original 15a recovery, with only the reviewed replacements
+  in 3,425 unsupported runs (3,407 ASCII and 18 non-ASCII). Strict CP949 and EUC-KR
+  byte reproduction, contextual review and independent RTF span reconstruction
+  support the decisions; private evidence preserves alternatives and neighboring
+  paragraphs. No global font mapping or original decoding code changes.
+- All four fixed samples prepare with review exceptions under unchanged schema v1.
+  Four standalone and four partial sample issue packages validate, preserving
+  **6,181 paragraphs, 4,654 blocks, 401,251 RTF bytes, 5,708 text runs and 106
+  object occurrences**. Existing text, formatting, metadata, source accounting,
+  article boundaries, object positions and auxiliary decisions remain exact.
+- All 106 media references have dispositions: **44 available and 62 deferred**.
+  All **40 available bitmap resources** preserve source pixels. Failed conversions
+  retain their diagnostics, and semantic/physical review remains explicit.
+- Normal audit/sample reruns reproduce both tracked summaries exactly. A fresh
+  isolated rebuild reproduces **all 72 article runtime files byte for byte** and
+  identical source checks/outcomes. **243 regression tests pass without skips**,
+  including seven new policy/artifact checks and all historical source, package,
+  schema, Markdown, resume and static-loading regressions. Catalog JSON, report
+  links and whitespace validate.
+- PLAN-CD1 marks **16a done; 16b next**. The current 15b combined handoff remains
+  977 articles across 72 issues; four additional successes are standalone samples.
+  `9207134` is source-audited but awaits packaging. Step 16b processes that remaining
+  case, carries the four samples and reconciles combined coverage. The other 48
+  font cases and TOC matching remain separate work. Historical records are preserved,
+  all full text/context evidence remains private, and the owner's PRD edits are
+  excluded from this commit.

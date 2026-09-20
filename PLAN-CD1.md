@@ -1107,17 +1107,50 @@ pixel checks pass for all 3,330 resources. Complete resume reproduces the exact
 execution manifest and **236 regression tests pass**. A second complete audit
 reproduces all 13 coverage tables and the tracked summary exactly.
 
+### 16a — Done: five ordinary-font non-ASCII cases and fixed sample
+
+**Scope:** `8905226`, `9201260`, `9202208`, `9203182` and `9207134`, the five
+remaining cases with non-ASCII runs in previously reviewed ordinary fonts. Review
+all ten source topics and all 18 non-ASCII runs, including surrounding text and
+competing byte interpretations. Font names and successful round-trips alone do
+not establish a decoding policy.
+
+**Deliverable:** an exact-source CP949 policy where supported, private contextual
+evidence, and four fixed sample packages: the assembly box-drawing listing
+(`8905226`), spline prose/captions (`9201260`), Helv prose (`9202208`) and Korean
+C comments/banner (`9203182`). Preserve all original text, formatting, boundaries,
+object positions, auxiliary decisions and historical results. Check reproducibility
+with an isolated rebuild; keep the 15b combined handoffs unchanged.
+
+**Results:** all five cases support the source-bound CP949 policy. All ten topics
+reproduce their old recovery before applying the reviewed changes; 3,425 previously
+unsupported runs include 18 non-ASCII runs. All four samples prepare with review
+exceptions, preserving 6,181 paragraphs, 4,654 blocks and 401,251 RTF bytes.
+All 40 available bitmap resources preserve pixels. Normal reruns reproduce both
+records, and a fresh isolated rebuild reproduces all 72 article runtime files.
+**243 regression tests pass**. See the
+[ordinary-font review report](docs/CD1-ORDINARY-FONT-REVIEW.md).
+
+### 16b — Next: remaining reviewed case and combined coverage
+
+After 16a validation, process `9207134` under the exact-source policy and carry
+the four sample outcomes forward. Preserve later-stage failures if any; compose
+and audit all current issue packages before updating combined availability.
+The other 48 font/decoding cases require separate investigations. TOC matching
+remains a separate metadata checkpoint.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b and 15a–15b are complete**.
+Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b and 16a are complete**.
 Every CD1 candidate has a durable first-pass outcome, all 470 association failures
 have subsequent outcomes, and all 33 reviewed ASCII-font candidates prepare.
 Current packages contain **977 prepared articles across 72 issues**, with
 **103 failures and eight blockers** explicitly retained.
 
-The next extraction checkpoint should select one bounded unresolved font/decoding
-subtype from 15a's audit of the remaining 53 cases, validate a fixed sample, and
-preserve current/historical outcomes before any broader retry. Unsupported RTF,
+Checkpoint 16a adds four validated standalone samples beyond that combined
+handoff. Next, 16b processes `9207134`, carries the four samples forward and
+reconciles combined coverage under the five-case policy.
+Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
 TOC matching is separate metadata work: 913 prepared articles still lack reviewed
 TOC links. Failed or blocked articles are not counted as extracted.
@@ -1149,6 +1182,8 @@ of later publication decisions.
 | 14b — Done: association retry pass | Remaining 464 retries and combined current coverage. | Every original association failure has a subsequent outcome; all 72 combined packages validate with 944 articles, while history and remaining failures are preserved. |
 | 15a — Done: font audit and ASCII sample | All 86 failures audited; six fixed source-bound retries. | Full source associations are accounted for; only reviewed ASCII runs change; packages, source fidelity and reproducibility validate. |
 | 15b — Done: ASCII-policy retry pass | Remaining 27 eligible retries and current coverage reconciliation. | All 33 eligible candidates prepare; all 72 current packages validate with 977 articles while history and remaining failures are preserved. |
+| 16a — Done: ordinary-font non-ASCII review | Five source-bound policies and four fixed sample packages. | All ten topics preserve source evidence; four packages validate, 72 runtime files rebuild identically and 243 tests pass. |
+| 16b — Next: ordinary-font retry reconciliation | Remaining candidate, carried samples and combined issue coverage. | All five candidates have subsequent outcomes and current packages/coverage validate without rewriting history. |
 
 ### Content contract requirements implemented in step 8
 
