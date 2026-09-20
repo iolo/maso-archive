@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: import-toc import-cd1-index reading-room-example reading-room-package check-second-article prepare-cd1-interview prepare-cd1-editor prepare-cd1-graphics prepare-cd1-keyboard close-cd1-february prepare-cd1-issue inventory-cd1-sources inventory-cd1-processing batch-cd1 validate-cd1-batch run-cd1-full-pass report-cd1-full-pass review-cd1-associations retry-cd1-association-sample run-cd1-association-pass report-cd1-association-pass audit-cd1-issue restore-toc-snapshot prepare-cd1-transfer test check
+.PHONY: import-toc import-cd1-index reading-room-example reading-room-package check-second-article prepare-cd1-interview prepare-cd1-editor prepare-cd1-graphics prepare-cd1-keyboard close-cd1-february prepare-cd1-issue inventory-cd1-sources inventory-cd1-processing batch-cd1 validate-cd1-batch run-cd1-full-pass report-cd1-full-pass review-cd1-associations retry-cd1-association-sample review-cd1-fonts retry-cd1-font-sample run-cd1-association-pass report-cd1-association-pass audit-cd1-issue restore-toc-snapshot prepare-cd1-transfer test check
 
 import-toc:
 	PYTHONPATH=src $(PYTHON) -m maso_archive import-toc
@@ -79,3 +79,9 @@ test:
 
 check: test
 	git diff --check
+
+review-cd1-fonts:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.font_review $(FONT_ARGS)
+
+retry-cd1-font-sample:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_fonts $(FONT_ARGS)

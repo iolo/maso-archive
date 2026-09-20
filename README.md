@@ -16,9 +16,15 @@ See the [complete retry pass and current coverage](docs/CD1-ASSOCIATION-PASS.md)
 The [historical first pass](docs/CD1-FULL-PASS.md) retains its original 537
 preparations and every outcome. The [14a association review](docs/CD1-ASSOCIATIONS.md)
 also preserves 109 recovered auxiliary topics and two deferred formatting cases.
-Next is bounded work on remaining source exceptions and TOC matching: 882 prepared
-articles still lack reviewed TOC links. Complete printed-issue coverage and physical
-review remain unverified.
+
+**15a is complete:** all 86 font/decoding failures are audited, and six additional
+articles prepare in separate sample packages using a source-bound ASCII-only policy.
+The audit identifies **33 eligible candidates and 53 deferred cases**. Next is 15b:
+retry the remaining 27 eligible candidates and reconcile combined availability.
+See the [font audit and sample report](docs/CD1-FONT-REVIEW.md).
+
+TOC matching remains separate: 882 articles in the 14b handoff still lack reviewed
+TOC links. Complete printed-issue coverage and physical review remain unverified.
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)

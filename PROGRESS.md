@@ -1562,3 +1562,58 @@
   comparison, scans, image repair, backup/restore, CD2/CD3, publication/access and
   reading-room UI remain separate. Original pipeline/policy/schema and historical
   tracked records are unchanged. The owner's two PRD files are excluded.
+
+### 2026-09-20 — Step 15a started: font failure audit and fixed ASCII-only sample
+
+- Auditing all 86 retained font/decoding failures against every associated source
+  topic, including topics not reached before the historical first failure.
+- Freeze six representative retries before execution: `8803110`, `8804096`,
+  `8910268`, `9012137`, `9106274`, and `9205208`. Review only ordinary-font ASCII
+  mappings tied to exact source topics; non-ASCII, symbol glyphs and malformed
+  byte sequences remain deferred. Original decoder/policy/history stay unchanged.
+- Audit completed: 163 full source topics versus 150 historically recovered,
+  with 4,682 undecoded runs explicitly classified. 33 candidates qualify for the
+  narrow ASCII policy; 53 remain deferred. Historical recovery prefixes reproduce
+  exactly; every undecoded run is independently reconstructed from source bytes.
+- All six fixed samples prepare in separate standalone and partial issue packages.
+  Source accounting covers 2,927 paragraphs, 1,839 blocks, 548,953 RTF bytes and
+  3,488 text runs. All 35 available bitmaps preserve source pixels; six WMFs stay
+  deferred. Normal audit/sample commands reproduce their records, and a fresh
+  isolated rebuild preserves all 84 article runtime files byte for byte. Full
+  regression checks are running; broader 27-candidate execution is deferred to 15b.
+
+### 2026-09-20 — Step 15a completed: source-bound ASCII policy and six successful retries
+
+- Audited **all 86 font/decoding failures** across **163 source topics**, including
+  13 topics beyond the historical 150-topic recovery prefixes. Historical prefixes
+  reproduce exactly. Every source byte and undecoded run retains evidence.
+- Classified **4,682 unsupported runs**: 3,667 reviewed ordinary-font ASCII runs,
+  813 unreviewed-font/symbol runs, 184 existing codec failures and 18 non-ASCII/
+  control-byte runs in additional ordinary fonts. **33 candidates** contain only
+  reviewed ASCII failures; **53 remain deferred**. Mixed articles are not declared
+  ready merely because some of their runs can be decoded.
+- Added a separate audit and runner extension. ASCII mappings for six explicitly
+  reviewed ordinary font declarations are tied to exact source-topic records and
+  hashes. Symbol fonts, non-ASCII bytes, control characters and existing codec
+  failures remain unsupported. No fallback, replacement text or global mapping
+  change is introduced. The unchanged source decoder and schema remain in use.
+- All **six fixed retries prepare with review exceptions**, validating six
+  standalone and six partial sample issue packages. Independent checks cover
+  **2,927 paragraphs, 1,839 blocks, 548,953 RTF bytes and 3,488 text runs**, with
+  50 object occurrences. Only reviewed unsupported-to-ASCII runs and their derived
+  paragraph/issue fields change; existing text, formatting, spans and accounting
+  remain exact. Auxiliary recovery retains the reviewed 14a dispositions/text.
+- All **35 available bitmaps preserve source pixels**; six WMFs in `8910268`
+  remain deferred with diagnostics. Existing semantic and physical-review limits
+  remain explicit. The six samples add standalone content; 14b's 72 combined
+  packages and its historical 944-article coverage record remain unchanged.
+- Normal audit and sample reruns reproduce both tracked summaries exactly. A
+  fresh isolated rebuild reproduces **all 84 article runtime files byte for byte**.
+  **230 regression tests pass**, including seven new font-policy/artifact checks
+  and existing source, history, schema, preservation, resume and static-loading
+  regressions. Local documentation links, catalog JSON and whitespace validate.
+- PLAN-CD1 marks **15a done; 15b next**: process the remaining 27 eligible
+  candidates, carry the six successes forward, and audit combined availability.
+  The 53 other font cases need separate bounded investigations. Full text, images
+  and per-run diagnostics remain private; original pipeline/policy/schema and
+  historical records are unchanged. The owner's PRD edits are excluded.
