@@ -21,10 +21,10 @@ required task; print verification does not block extraction or packaging.
 identically, including explicit unavailable states for both deferred images.
 Physical-magazine verification remains pending.
 
-**Current milestone: the first complete CD1 extraction pass (steps 13a–13d).**
-February's six prepared articles provide the regression baseline. Build a shared
-batch pipeline, validate it on those articles and a bounded sample from other
-issues, then process the remaining CD1 work queue with resumable issue checkpoints.
+**Completed milestone: the first complete CD1 extraction pass (steps 13a–13d).**
+February's six prepared articles supplied the regression baseline. The shared
+batch pipeline passed those articles and a bounded sample from other issues,
+then processed the remaining CD1 work queue with resumable issue checkpoints.
 Completion means every discovered candidate has a recorded outcome, with available
 content packaged and unresolved cases retained for follow-up. It does not mean
 complete coverage of every printed issue or resolution of every damaged image.
@@ -141,9 +141,9 @@ populations; neither is a verified count of complete articles.
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
 | 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, 12d, 13a, 13b, and 13c are complete.
+Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, 12d, and 13a–13d are complete.
 Step 7 is deferred pending physical-magazine evidence; 11b awaits independent storage or an optical drive.
-**Step 13d (run and reconcile the first complete CD1 pass) is next.**
+**Step 13d is complete: every candidate has an outcome; source exceptions remain.**
 Backup/restore verification does not block extraction from the verified sources.
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
@@ -951,7 +951,7 @@ base URLs match package hashes. The finite sample gate is satisfied; proceed to
 13d and record every candidate's outcome. This is not a claim of complete printed
 coverage or universal support for every remaining CD1 source construct.
 
-### 13d — Next: run the first complete CD1 pass and reconcile results
+### 13d — Done: run the first complete CD1 pass and reconcile results
 
 **Inputs:** the full 13a queue, the validated runner, sample results, and recorded
 exceptions. **Start condition:** 13c's preservation and batch-operation checks pass.
@@ -973,14 +973,34 @@ packages and preserve a reproducible manifest of the run and its exception queue
 This completes the first pass; resolving individual exceptions becomes subsequent
 bounded work and does not erase their recorded first-pass outcomes.
 
+**Recorded result:** [full-pass report](docs/CD1-FULL-PASS.md) and
+[`cd1-full-pass.json`](data/catalog/batch-runs/cd1-full-pass.json). All **1,088
+candidates across 72 issues** have outcomes: **four prepared**, **533 prepared
+with review exceptions**, **543 failed**, and **eight blocked**. Every failure
+retains stage/source evidence; all failed/blocked jobs have retry records.
+
+All **537 standalone articles and 72 issue packages** validate. Independent source
+audits cover **179,356 paragraphs, 96,399 blocks, 30,038,307 RTF bytes and 167,611
+text runs**; all **1,479 available bitmap derivatives** preserve source pixels.
+Coverage accounts for all **3,099 topics, 2,103 contexts, 2,462 index occurrences,
+5,497 TOC entries and 6,165 referenced media resources**. Of 537 preparations,
+51 have confirmed TOC links and 486 retain source identities without guessed
+matches. Seven of nine unindexed candidates prepare; the eight unattributed
+topics remain explicit. Media availability is 2,174 available, 393 deferred and
+3,598 not packaged. No content is published and no image repair is claimed.
+
+All 15 validated sample articles reuse compatible stages. Complete resume
+reproduces the execution manifest byte for byte. First-pass outcomes and source
+artifacts remain preserved for subsequent bounded exception/TOC review.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a, 13b, and 13c are complete. **13d is next**;
-the frozen sample passed, and the full-disc run has not yet started. A “continue” advances the next
-unfinished checkpoint. During 13d, issue boundaries are resume/reporting points
-within the full-CD pass, rather than requiring a separate plan or permission for
-every article. Subdivide engineering work when needed while preserving this
-milestone and its completion checks.
+Steps 12b.1–3, 12c, 12d, and 13a–13d are complete. Every CD1 candidate has a
+durable first-pass outcome. Subsequent extraction work should take one bounded
+exception class from the retained retry queue, preserve the first-pass history,
+and verify any additional packages before updating current availability. The
+largest class is 470 failures requiring linked-content ownership decisions.
+This completion does not imply that failed or blocked articles were extracted.
 
 Steps 7 and 11b remain independently deferred and do not block extraction. Missing
 scans, physical review, image repair, ownership/access decisions, CD2/CD3, and the
@@ -1004,7 +1024,7 @@ of later publication decisions.
 | 13a — Done: processing inventory | Complete source accounting and a batch input queue, including unindexed content. | All native/index populations reconcile; ready and unresolved jobs are explicit; February preparations remain linked. |
 | 13b — Done: shared pipeline | Reusable extraction, structure, conversion, and packaging stages with resume and exception records. | February runs through shared stages with preservation checks, isolated failures, and compatible-cache reuse. |
 | 13c — Done: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
-| 13d — Next: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
+| 13d — Done: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
 
 ### Content contract requirements implemented in step 8
 

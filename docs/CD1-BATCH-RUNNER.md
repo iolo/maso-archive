@@ -3,7 +3,7 @@
 The runner re-extracts February's six articles through shared stages and composes
 independent article packages into an issue package. **13b is complete.** Its results below describe the February checkpoint.
 The subsequent [13c frozen-sample validation](CD1-BATCH-VALIDATION.md) also passes;
-**13d, the complete CD1 pass, is next**. Schema v1 remains unchanged.
+**[13d, the complete CD1 pass](CD1-FULL-PASS.md), is complete**. Schema v1 remains unchanged.
 
 ## Commands and outputs
 

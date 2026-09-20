@@ -120,7 +120,7 @@ gaps and the retained sample packages.
 
 The sample does not establish complete printed-issue coverage or prove that every
 remaining CD1 candidate is supported. Semantic/physical review and unresolved
-media remain explicit. The next checkpoint, **13d**, attempts the complete queue
-and records every prepared, blocked or failed outcome with retry evidence. Missing
+media remain explicit. The subsequent [complete pass, **13d**](CD1-FULL-PASS.md), records all 1,088
+outcomes: 537 prepared articles, 543 failures and eight blockers, with retry evidence. Missing
 scans, image repair, physical comparison, independent backup verification, CD2/CD3,
 publication/access decisions and reading-room UI remain separate.

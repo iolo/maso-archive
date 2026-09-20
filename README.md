@@ -7,11 +7,12 @@ TOC import covers 122 issues through December 1993, with 5,497 entries.
 Official CD holdings support
 further extraction; per-disc coverage and completeness remain to be verified.
 
-Next milestone: **the first complete CD1 extraction pass**. The approved sequence
-is processing inventory → shared batch pipeline → February regression and a sample
-from other issues → resumable processing across CD1. Steps 13a–13c are complete;
-**13d, the first full-CD1 pass, is next**. The six February articles and nine
-additional candidates pass the shared-pipeline validation. See the plan for checks.
+**The first complete CD1 pass (13a–13d) is finished.** All 1,088 candidates across
+72 issues have outcomes: **537 prepared articles** (533 with review exceptions),
+**543 failed**, and **eight blocked**. Validated content packages and complete
+coverage/retry records remain private. Next is bounded work on retained source
+exceptions; complete printed-issue coverage and physical review remain unverified.
+See the [full-pass report](docs/CD1-FULL-PASS.md).
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)
@@ -107,12 +108,18 @@ candidates; physical-magazine completeness remains unverified.
 See the [base URL and search handoff](docs/CD1-ISSUE-1988-02.md#static-base-url-and-metadata-search).
 
 Run `make inventory-cd1-processing` to reproduce the CD1 batch input inventory.
-It accounts for 1,088 dated article candidates across 72 months: six prepared,
-1,074 ready for runner validation, and eight blocked on topic ownership. The
+Its frozen input snapshot contains 1,088 dated article candidates across 72 months:
+six prepared at inventory time, 1,074 ready, and eight blocked on topic ownership.
+Current outcomes are recorded in the full-pass report. The
 [shared extraction runner](docs/CD1-BATCH-RUNNER.md) reproduces all six February
 articles through independent resumable stages. Run `make batch-cd1 BATCH_ARGS="--issue 1988-02"`
 or select one article with `BATCH_ARGS="--article 8802030"`. Output is private under
 `build/cd1-batch/`; article and issue pointer files locate validated packages.
 The [frozen sample validation](docs/CD1-BATCH-VALIDATION.md) passes for all fifteen
 articles, including fresh rebuild, resume and nested static URLs. Run
-`make validate-cd1-batch` to reproduce that checkpoint. The full-CD1 pass is next.
+`make validate-cd1-batch` to reproduce that checkpoint.
+
+Run `make run-cd1-full-pass` to execute or verify/resume the recorded complete pass,
+and `make report-cd1-full-pass` to reproduce its coverage audit. The
+[full-pass guide](docs/CD1-FULL-PASS.md) explains package locations, outcome states,
+retained diagnostics, and subsequent retries.

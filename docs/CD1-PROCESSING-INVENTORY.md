@@ -168,6 +168,7 @@ on the original disc into reading-room packages.
 
 The [shared runner](CD1-BATCH-RUNNER.md) is complete for 13b.
 The [frozen-sample validation](CD1-BATCH-VALIDATION.md) also passes.
-Next is **13d: run and reconcile the full CD1 queue**. Physical comparison,
+The [13d full-pass report](CD1-FULL-PASS.md) now reconciles every candidate;
+individual source exceptions remain subsequent bounded work. Physical comparison,
 missing scans, deferred repairs, backup/restore,
 CD2/CD3, publication/access decisions, and reading-room UI remain separate work.

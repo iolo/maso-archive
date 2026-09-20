@@ -198,9 +198,9 @@ Step 11b is deferred until independent storage or an optical drive is available;
 The [13a processing inventory](CD1-PROCESSING-INVENTORY.md) is complete.
 The [shared runner](CD1-BATCH-RUNNER.md) completes 13b.
 The [frozen-sample validation](CD1-BATCH-VALIDATION.md) also passes.
-The next task is **13d: the complete CD1 pass**.
-All six observed native February articles are prepared. Shared-pipeline validation
-now permits a resumable run across the remaining CD1 queue. Backup/restore
+The [13d complete-pass report](CD1-FULL-PASS.md) records every CD1 candidate
+and validates all 537 prepared articles across 72 issue packages. Source exceptions
+remain explicit for subsequent bounded work. Backup/restore
 verification remains deferred and does not block extraction that reads verified originals and writes separate
 outputs. These checks concern file integrity and recoverability, not legal
 ownership or publication permission.

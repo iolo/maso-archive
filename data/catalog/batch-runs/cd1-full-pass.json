@@ -1,0 +1,1836 @@
+{
+  "schema_version": 1,
+  "checkpoint": "13d",
+  "scope": "first_complete_CD1_pass",
+  "pipeline_identity_sha256": "d35d6a9894ff0d25b682ce5bfa963878ad1f2f13560e3a2d142d69139c7857ab",
+  "run_root": "build/cd1-batch/full-pass/d35d6a9894ff0d25b682ce5bfa963878ad1f2f13560e3a2d142d69139c7857ab",
+  "counts": {
+    "candidates": 1088,
+    "outcomes": {
+      "blocked": 8,
+      "failed": 543,
+      "prepared": 4,
+      "prepared_with_review_exceptions": 533
+    },
+    "prepared_articles": 537,
+    "issues": 72,
+    "issue_states": {
+      "prepared": 72
+    },
+    "native_topics": 3099,
+    "topic_states": {
+      "auxiliary_source_retained": 111,
+      "auxiliary_text_recovered": 3,
+      "blocked": 10,
+      "failed": 1046,
+      "formatting_source_retained": 993,
+      "non_article_source_retained": 13,
+      "prepared_article_content": 915,
+      "unattributed_source_retained": 8
+    },
+    "native_contexts": 2103,
+    "index_references": 1080,
+    "index_entries": 3032,
+    "index_occurrences": 2462,
+    "index_occurrence_outcomes": {
+      "blocked": 17,
+      "failed": 1206,
+      "non_article_target": 3,
+      "prepared": 7,
+      "prepared_with_review_exceptions": 1229
+    },
+    "toc_entries": 5497,
+    "toc_content_status": {
+      "available": 51,
+      "unavailable": 5446
+    },
+    "toc_metadata_status": {
+      "matched": 66,
+      "needs_review": 185,
+      "no_exact_title_match": 2780,
+      "outside_observed_CD1_issues": 1909,
+      "section": 557
+    },
+    "prepared_without_toc_link": 486,
+    "unindexed_candidates": {
+      "failed": 2,
+      "prepared": 1,
+      "prepared_with_review_exceptions": 6
+    },
+    "unattributed_topics": 8,
+    "exception_categories": {
+      "font_or_decoding_policy": 45,
+      "rtf_document_envelope": 1,
+      "source_topic_ownership": 8,
+      "unreviewed_linked_content": 470,
+      "unsupported_inherited_formatting": 6,
+      "unsupported_rtf_construct": 20,
+      "unterminated_paragraph": 1
+    },
+    "pixel_equivalent_bitmaps": 1479,
+    "source_media": 6165,
+    "source_media_status": {
+      "verified": 6165
+    },
+    "runtime_media": {
+      "available": 2174,
+      "deferred": 393,
+      "not_packaged": 3598
+    },
+    "attempted_media": 2567,
+    "paragraphs": 179356,
+    "blocks": 96399,
+    "source_bytes_checked": 30038307,
+    "text_runs_checked": 167611
+  },
+  "source_inventory_record": "data/catalog/processing-inventories/cd1.json",
+  "execution_manifest": {
+    "path": "build/cd1-batch/full-pass/d35d6a9894ff0d25b682ce5bfa963878ad1f2f13560e3a2d142d69139c7857ab/manifest.json",
+    "bytes": 770066,
+    "sha256": "1c2cca1566ebaefd952eac7a878c148bf65e796ff60942ffd01429a15ec23907"
+  },
+  "reporter": {
+    "path": "tools/batch/report.py",
+    "bytes": 20393,
+    "sha256": "3a200f53e3dbb60b6517d63ff6d9f527d5e46c60da571a2bd467d54b4d0867b0"
+  },
+  "verification": {
+    "all_1088_candidates_have_outcomes": true,
+    "all_successful_article_and_issue_packages_checked": true,
+    "all_prepared_source_runs_and_topic_accounting_checked": true,
+    "sample_articles_carried_forward_from_cache": 15,
+    "all_native_topics_contexts_and_index_occurrences_reconciled": true,
+    "physical_verification": "pending"
+  },
+  "issues": [
+    {
+      "issue_id": "maso-1988-01",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-01/2b91ce1dbd7c60acf90edc157574b627e68dddf3c4c246526ce5be482eef9abb",
+      "fingerprint": "2b91ce1dbd7c60acf90edc157574b627e68dddf3c4c246526ce5be482eef9abb",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 46,
+        "articles": 2,
+        "media": 10,
+        "sections": 4,
+        "blocks": 219,
+        "paragraphs": 1692,
+        "media_occurrences": 11,
+        "files": 20,
+        "assets": 10,
+        "previews": 4
+      },
+      "candidate_outcomes": {
+        "failed": 1,
+        "prepared_with_review_exceptions": 2
+      }
+    },
+    {
+      "issue_id": "maso-1988-02",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-02/5eb66f88beef7bd2da78442609cde0c9ec667ecb385ed85499841aa867523bd5",
+      "fingerprint": "5eb66f88beef7bd2da78442609cde0c9ec667ecb385ed85499841aa867523bd5",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 6,
+        "media": 38,
+        "sections": 12,
+        "blocks": 677,
+        "paragraphs": 2821,
+        "media_occurrences": 40,
+        "files": 56,
+        "assets": 34,
+        "previews": 12
+      },
+      "candidate_outcomes": {
+        "prepared": 4,
+        "prepared_with_review_exceptions": 2
+      }
+    },
+    {
+      "issue_id": "maso-1988-03",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-03/db31aba6faddcc32b82f83af8b997477b30ff12c6b0ed5e46a74aa113c236500",
+      "fingerprint": "db31aba6faddcc32b82f83af8b997477b30ff12c6b0ed5e46a74aa113c236500",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 35,
+        "articles": 3,
+        "media": 15,
+        "sections": 6,
+        "blocks": 770,
+        "paragraphs": 2021,
+        "media_occurrences": 16,
+        "files": 26,
+        "assets": 13,
+        "previews": 6
+      },
+      "candidate_outcomes": {
+        "failed": 1,
+        "prepared_with_review_exceptions": 3
+      }
+    },
+    {
+      "issue_id": "maso-1988-04",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-04/ccf3e397821fed3dbb9915e2fe7e5a713965049218ebe8c68d880822906a97f4",
+      "fingerprint": "ccf3e397821fed3dbb9915e2fe7e5a713965049218ebe8c68d880822906a97f4",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 46,
+        "articles": 5,
+        "media": 43,
+        "sections": 7,
+        "blocks": 438,
+        "paragraphs": 1677,
+        "media_occurrences": 44,
+        "files": 40,
+        "assets": 24,
+        "previews": 7
+      },
+      "candidate_outcomes": {
+        "failed": 1,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1988-05",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-05/d61983cba0cf8e6e9f70e73c4523c4312b55269ccd0d3ad02ba957ed54a4b0ca",
+      "fingerprint": "d61983cba0cf8e6e9f70e73c4523c4312b55269ccd0d3ad02ba957ed54a4b0ca",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 46,
+        "articles": 4,
+        "media": 41,
+        "sections": 4,
+        "blocks": 642,
+        "paragraphs": 2575,
+        "media_occurrences": 44,
+        "files": 32,
+        "assets": 20,
+        "previews": 4
+      },
+      "candidate_outcomes": {
+        "failed": 2,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1988-06",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-06/346c33b78251c6df57275b60cf21d3762ec62ed5a0c3a0132b27e32556dcdb97",
+      "fingerprint": "346c33b78251c6df57275b60cf21d3762ec62ed5a0c3a0132b27e32556dcdb97",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 52,
+        "articles": 5,
+        "media": 31,
+        "sections": 6,
+        "blocks": 682,
+        "paragraphs": 1932,
+        "media_occurrences": 33,
+        "files": 43,
+        "assets": 28,
+        "previews": 6
+      },
+      "candidate_outcomes": {
+        "failed": 1,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1988-07",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-07/86960e8535fb9e65d15d3a4aa73675293ae2da22043dea2028fd3fe9c70d37d0",
+      "fingerprint": "86960e8535fb9e65d15d3a4aa73675293ae2da22043dea2028fd3fe9c70d37d0",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 45,
+        "articles": 4,
+        "media": 53,
+        "sections": 5,
+        "blocks": 872,
+        "paragraphs": 889,
+        "media_occurrences": 54,
+        "files": 65,
+        "assets": 52,
+        "previews": 5
+      },
+      "candidate_outcomes": {
+        "failed": 3,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1988-08",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-08/751d142c40433048257eaffc52cf34dbf85b2f48843ac75e5a675f38b5c52025",
+      "fingerprint": "751d142c40433048257eaffc52cf34dbf85b2f48843ac75e5a675f38b5c52025",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 50,
+        "articles": 2,
+        "media": 1,
+        "sections": 3,
+        "blocks": 96,
+        "paragraphs": 96,
+        "media_occurrences": 2,
+        "files": 10,
+        "assets": 1,
+        "previews": 3
+      },
+      "candidate_outcomes": {
+        "failed": 2,
+        "prepared_with_review_exceptions": 2
+      }
+    },
+    {
+      "issue_id": "maso-1988-09",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-09/c8268ee680ee045c9e142d2b06856e8a32ff39ac921a93d615a5d8ad960fdb48",
+      "fingerprint": "c8268ee680ee045c9e142d2b06856e8a32ff39ac921a93d615a5d8ad960fdb48",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 52,
+        "articles": 3,
+        "media": 5,
+        "sections": 4,
+        "blocks": 323,
+        "paragraphs": 951,
+        "media_occurrences": 5,
+        "files": 16,
+        "assets": 5,
+        "previews": 4
+      },
+      "candidate_outcomes": {
+        "failed": 1,
+        "prepared_with_review_exceptions": 3
+      }
+    },
+    {
+      "issue_id": "maso-1988-10",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-10/8e5cb6fb123d58d3fa44a9327f46a1da6ea740648c6c57989937f005725a03ae",
+      "fingerprint": "8e5cb6fb123d58d3fa44a9327f46a1da6ea740648c6c57989937f005725a03ae",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 49,
+        "articles": 4,
+        "media": 17,
+        "sections": 5,
+        "blocks": 532,
+        "paragraphs": 1360,
+        "media_occurrences": 18,
+        "files": 30,
+        "assets": 17,
+        "previews": 5
+      },
+      "candidate_outcomes": {
+        "failed": 2,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1988-11",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-11/ce12714ec121d5a404cc5d363230a0349743e5e42cc82528292283d21fbe6686",
+      "fingerprint": "ce12714ec121d5a404cc5d363230a0349743e5e42cc82528292283d21fbe6686",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 49,
+        "articles": 4,
+        "media": 14,
+        "sections": 6,
+        "blocks": 452,
+        "paragraphs": 1174,
+        "media_occurrences": 14,
+        "files": 28,
+        "assets": 14,
+        "previews": 6
+      },
+      "candidate_outcomes": {
+        "failed": 1,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1988-12",
+      "status": "prepared",
+      "package": "stages/issue-maso-1988-12/62cbfa799e8829c57496a1f0af7246a4baf995ce8ffd1385526588c59b15588b",
+      "fingerprint": "62cbfa799e8829c57496a1f0af7246a4baf995ce8ffd1385526588c59b15588b",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 47,
+        "articles": 2,
+        "media": 6,
+        "sections": 4,
+        "blocks": 384,
+        "paragraphs": 562,
+        "media_occurrences": 6,
+        "files": 16,
+        "assets": 6,
+        "previews": 4
+      },
+      "candidate_outcomes": {
+        "failed": 2,
+        "prepared_with_review_exceptions": 2
+      }
+    },
+    {
+      "issue_id": "maso-1989-01",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-01/c7eb4a29829c27c4102298914be20da6a1985fe776097171f62e202203044c7b",
+      "fingerprint": "c7eb4a29829c27c4102298914be20da6a1985fe776097171f62e202203044c7b",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 48,
+        "articles": 4,
+        "media": 112,
+        "sections": 8,
+        "blocks": 593,
+        "paragraphs": 1153,
+        "media_occurrences": 114,
+        "files": 75,
+        "assets": 59,
+        "previews": 8
+      },
+      "candidate_outcomes": {
+        "failed": 6,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1989-02",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-02/2073d03fe1a92e4b98115a866113b452c7fc4fb31502c3bb5f111bc012e859db",
+      "fingerprint": "2073d03fe1a92e4b98115a866113b452c7fc4fb31502c3bb5f111bc012e859db",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 44,
+        "articles": 5,
+        "media": 40,
+        "sections": 10,
+        "blocks": 3004,
+        "paragraphs": 4542,
+        "media_occurrences": 42,
+        "files": 59,
+        "assets": 40,
+        "previews": 10
+      },
+      "candidate_outcomes": {
+        "failed": 3,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1989-03",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-03/9ab2fd004e73d8eb29be49168ab9d66731ca88cd6925bf102c4410fea78cafde",
+      "fingerprint": "9ab2fd004e73d8eb29be49168ab9d66731ca88cd6925bf102c4410fea78cafde",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 42,
+        "articles": 4,
+        "media": 34,
+        "sections": 8,
+        "blocks": 5598,
+        "paragraphs": 5598,
+        "media_occurrences": 36,
+        "files": 41,
+        "assets": 25,
+        "previews": 8
+      },
+      "candidate_outcomes": {
+        "failed": 3,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1989-04",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-04/a62c06d90eabf0bcef851bfca6871d07d8d5c20578191dc4b1b52c45b5c7d217",
+      "fingerprint": "a62c06d90eabf0bcef851bfca6871d07d8d5c20578191dc4b1b52c45b5c7d217",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 34,
+        "articles": 5,
+        "media": 65,
+        "sections": 10,
+        "blocks": 5826,
+        "paragraphs": 8721,
+        "media_occurrences": 68,
+        "files": 75,
+        "assets": 56,
+        "previews": 10
+      },
+      "candidate_outcomes": {
+        "failed": 4,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1989-05",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-05/b2a023464ba2bc011151503cce99cc0614957590ea011fad963afa51c2407364",
+      "fingerprint": "b2a023464ba2bc011151503cce99cc0614957590ea011fad963afa51c2407364",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 45,
+        "articles": 4,
+        "media": 42,
+        "sections": 8,
+        "blocks": 803,
+        "paragraphs": 3076,
+        "media_occurrences": 46,
+        "files": 57,
+        "assets": 41,
+        "previews": 8
+      },
+      "candidate_outcomes": {
+        "failed": 3,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1989-06",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-06/bf71eb0b07cfc33366ea1a04f5ce0f458d9cf6299b6cd2650547cc53ea5c560d",
+      "fingerprint": "bf71eb0b07cfc33366ea1a04f5ce0f458d9cf6299b6cd2650547cc53ea5c560d",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 34,
+        "articles": 4,
+        "media": 24,
+        "sections": 8,
+        "blocks": 799,
+        "paragraphs": 6488,
+        "media_occurrences": 26,
+        "files": 33,
+        "assets": 17,
+        "previews": 8
+      },
+      "candidate_outcomes": {
+        "failed": 2,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1989-07",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-07/ebcb5427fb4eebad6ceeee69145abc630550b337b3bf768104f4c2b55b04bcef",
+      "fingerprint": "ebcb5427fb4eebad6ceeee69145abc630550b337b3bf768104f4c2b55b04bcef",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 37,
+        "articles": 5,
+        "media": 18,
+        "sections": 10,
+        "blocks": 680,
+        "paragraphs": 4410,
+        "media_occurrences": 20,
+        "files": 37,
+        "assets": 18,
+        "previews": 10
+      },
+      "candidate_outcomes": {
+        "failed": 4,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1989-08",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-08/b5ef760eb0f0911e11041dc2390ced77c44cd31fcc0f3c2b0f40236581eeb4d7",
+      "fingerprint": "b5ef760eb0f0911e11041dc2390ced77c44cd31fcc0f3c2b0f40236581eeb4d7",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 4,
+        "media": 8,
+        "sections": 7,
+        "blocks": 480,
+        "paragraphs": 2234,
+        "media_occurrences": 10,
+        "files": 23,
+        "assets": 8,
+        "previews": 7
+      },
+      "candidate_outcomes": {
+        "failed": 4,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1989-09",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-09/4c63dc4a878c029c0e7e6c6f703593fa289598f6163aea4d9bdcad3d6b82b659",
+      "fingerprint": "4c63dc4a878c029c0e7e6c6f703593fa289598f6163aea4d9bdcad3d6b82b659",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 44,
+        "articles": 5,
+        "media": 60,
+        "sections": 10,
+        "blocks": 597,
+        "paragraphs": 2030,
+        "media_occurrences": 63,
+        "files": 67,
+        "assets": 48,
+        "previews": 10
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1989-10",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-10/f710d826b3e9c841106cf50564d05dbf46cac511072d30eeb3da8fa673f7622d",
+      "fingerprint": "f710d826b3e9c841106cf50564d05dbf46cac511072d30eeb3da8fa673f7622d",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 44,
+        "articles": 4,
+        "media": 45,
+        "sections": 8,
+        "blocks": 1205,
+        "paragraphs": 1250,
+        "media_occurrences": 47,
+        "files": 58,
+        "assets": 42,
+        "previews": 8
+      },
+      "candidate_outcomes": {
+        "failed": 6,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1989-11",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-11/c6c0bf72346d957de34154e6faafd7fdf43632d959c8c4febb04e5ad465b7f4f",
+      "fingerprint": "c6c0bf72346d957de34154e6faafd7fdf43632d959c8c4febb04e5ad465b7f4f",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 49,
+        "articles": 7,
+        "media": 30,
+        "sections": 14,
+        "blocks": 875,
+        "paragraphs": 2242,
+        "media_occurrences": 35,
+        "files": 55,
+        "assets": 30,
+        "previews": 14
+      },
+      "candidate_outcomes": {
+        "failed": 6,
+        "prepared_with_review_exceptions": 7
+      }
+    },
+    {
+      "issue_id": "maso-1989-12",
+      "status": "prepared",
+      "package": "stages/issue-maso-1989-12/1480bf34419f2d9f045d8e8e26612840be62f625c886c725a2cac63bd4e14dd8",
+      "fingerprint": "1480bf34419f2d9f045d8e8e26612840be62f625c886c725a2cac63bd4e14dd8",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 9,
+        "media": 20,
+        "sections": 18,
+        "blocks": 894,
+        "paragraphs": 3678,
+        "media_occurrences": 27,
+        "files": 51,
+        "assets": 20,
+        "previews": 18
+      },
+      "candidate_outcomes": {
+        "failed": 3,
+        "prepared_with_review_exceptions": 9
+      }
+    },
+    {
+      "issue_id": "maso-1990-01",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-01/7cbf2467a860c8634237fb3841a640516e61791f6754996020230740b9aa9da4",
+      "fingerprint": "7cbf2467a860c8634237fb3841a640516e61791f6754996020230740b9aa9da4",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 45,
+        "articles": 8,
+        "media": 56,
+        "sections": 16,
+        "blocks": 1062,
+        "paragraphs": 4941,
+        "media_occurrences": 62,
+        "files": 80,
+        "assets": 52,
+        "previews": 16
+      },
+      "candidate_outcomes": {
+        "failed": 3,
+        "prepared_with_review_exceptions": 8
+      }
+    },
+    {
+      "issue_id": "maso-1990-02",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-02/92e4377707a3db979348cdaa4bebd37033a8f1e5c31e7ba624202f1ade9afa44",
+      "fingerprint": "92e4377707a3db979348cdaa4bebd37033a8f1e5c31e7ba624202f1ade9afa44",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 43,
+        "articles": 6,
+        "media": 24,
+        "sections": 11,
+        "blocks": 2029,
+        "paragraphs": 3531,
+        "media_occurrences": 28,
+        "files": 45,
+        "assets": 24,
+        "previews": 11
+      },
+      "candidate_outcomes": {
+        "failed": 3,
+        "prepared_with_review_exceptions": 6
+      }
+    },
+    {
+      "issue_id": "maso-1990-03",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-03/688ae2150958eabd3b6673e197781041f0574a301388e247d93a82a47341c1ef",
+      "fingerprint": "688ae2150958eabd3b6673e197781041f0574a301388e247d93a82a47341c1ef",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 43,
+        "articles": 2,
+        "media": 19,
+        "sections": 4,
+        "blocks": 269,
+        "paragraphs": 2372,
+        "media_occurrences": 21,
+        "files": 28,
+        "assets": 18,
+        "previews": 4
+      },
+      "candidate_outcomes": {
+        "failed": 10,
+        "prepared_with_review_exceptions": 2
+      }
+    },
+    {
+      "issue_id": "maso-1990-04",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-04/ad8f5809833e475dede3407803f673d14464693f1512188fb3fdb980642194a1",
+      "fingerprint": "ad8f5809833e475dede3407803f673d14464693f1512188fb3fdb980642194a1",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 45,
+        "articles": 9,
+        "media": 49,
+        "sections": 18,
+        "blocks": 1247,
+        "paragraphs": 2639,
+        "media_occurrences": 55,
+        "files": 80,
+        "assets": 49,
+        "previews": 18
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 9
+      }
+    },
+    {
+      "issue_id": "maso-1990-05",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-05/013b56ddba61b5d8edd2973c0936fe69085cbdb21536b2fdf2c44a5aaa52d8e8",
+      "fingerprint": "013b56ddba61b5d8edd2973c0936fe69085cbdb21536b2fdf2c44a5aaa52d8e8",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 44,
+        "articles": 8,
+        "media": 34,
+        "sections": 16,
+        "blocks": 2004,
+        "paragraphs": 2316,
+        "media_occurrences": 38,
+        "files": 62,
+        "assets": 34,
+        "previews": 16
+      },
+      "candidate_outcomes": {
+        "failed": 10,
+        "prepared_with_review_exceptions": 8
+      }
+    },
+    {
+      "issue_id": "maso-1990-06",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-06/ea802752aa6f06da80b6ec5e2a8a4179625564319d6e8fa67e621463ef4a7fc4",
+      "fingerprint": "ea802752aa6f06da80b6ec5e2a8a4179625564319d6e8fa67e621463ef4a7fc4",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 11,
+        "media": 71,
+        "sections": 22,
+        "blocks": 1653,
+        "paragraphs": 4234,
+        "media_occurrences": 82,
+        "files": 88,
+        "assets": 51,
+        "previews": 22
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 11
+      }
+    },
+    {
+      "issue_id": "maso-1990-07",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-07/f685379bd1397c364192b48c88a891c281ec195cb8d60194bf9188a5facbed3f",
+      "fingerprint": "f685379bd1397c364192b48c88a891c281ec195cb8d60194bf9188a5facbed3f",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 41,
+        "articles": 4,
+        "media": 38,
+        "sections": 8,
+        "blocks": 554,
+        "paragraphs": 1139,
+        "media_occurrences": 39,
+        "files": 47,
+        "assets": 31,
+        "previews": 8
+      },
+      "candidate_outcomes": {
+        "failed": 15,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1990-08",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-08/aac77cc8a9f6a63618cab8ad94175baaeb4ef62a011f2bf697d4380e6e091353",
+      "fingerprint": "aac77cc8a9f6a63618cab8ad94175baaeb4ef62a011f2bf697d4380e6e091353",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 44,
+        "articles": 8,
+        "media": 44,
+        "sections": 16,
+        "blocks": 803,
+        "paragraphs": 803,
+        "media_occurrences": 49,
+        "files": 53,
+        "assets": 25,
+        "previews": 16
+      },
+      "candidate_outcomes": {
+        "failed": 11,
+        "prepared_with_review_exceptions": 8
+      }
+    },
+    {
+      "issue_id": "maso-1990-09",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-09/034b6ca14e6010dcd00a51b93378c8606ea24008140798a8fd2eafaae23b443d",
+      "fingerprint": "034b6ca14e6010dcd00a51b93378c8606ea24008140798a8fd2eafaae23b443d",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 47,
+        "articles": 8,
+        "media": 36,
+        "sections": 16,
+        "blocks": 1236,
+        "paragraphs": 1809,
+        "media_occurrences": 39,
+        "files": 51,
+        "assets": 23,
+        "previews": 16
+      },
+      "candidate_outcomes": {
+        "failed": 10,
+        "prepared_with_review_exceptions": 8
+      }
+    },
+    {
+      "issue_id": "maso-1990-10",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-10/5c8f88fa879a7c3c370837635d350e735001c7db61190f259f552570fae5a207",
+      "fingerprint": "5c8f88fa879a7c3c370837635d350e735001c7db61190f259f552570fae5a207",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 41,
+        "articles": 11,
+        "media": 62,
+        "sections": 22,
+        "blocks": 1522,
+        "paragraphs": 2768,
+        "media_occurrences": 71,
+        "files": 96,
+        "assets": 59,
+        "previews": 22
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 11
+      }
+    },
+    {
+      "issue_id": "maso-1990-11",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-11/d71a98a8cfcd51b70aada41db4ec260ea4a5614146208f4b17c3b58ee579f237",
+      "fingerprint": "d71a98a8cfcd51b70aada41db4ec260ea4a5614146208f4b17c3b58ee579f237",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 40,
+        "articles": 10,
+        "media": 41,
+        "sections": 20,
+        "blocks": 1517,
+        "paragraphs": 5503,
+        "media_occurrences": 47,
+        "files": 72,
+        "assets": 38,
+        "previews": 20
+      },
+      "candidate_outcomes": {
+        "failed": 5,
+        "prepared_with_review_exceptions": 10
+      }
+    },
+    {
+      "issue_id": "maso-1990-12",
+      "status": "prepared",
+      "package": "stages/issue-maso-1990-12/6939b5c37f59726632bf1c095dc2a50d36a1bb06fd2ca81b4d3e9d481272e800",
+      "fingerprint": "6939b5c37f59726632bf1c095dc2a50d36a1bb06fd2ca81b4d3e9d481272e800",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 6,
+        "media": 18,
+        "sections": 11,
+        "blocks": 893,
+        "paragraphs": 2215,
+        "media_occurrences": 22,
+        "files": 39,
+        "assets": 18,
+        "previews": 11
+      },
+      "candidate_outcomes": {
+        "failed": 7,
+        "prepared_with_review_exceptions": 6
+      }
+    },
+    {
+      "issue_id": "maso-1991-01",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-01/1c28477f63a47cfd8f7f0da7543689154bc4f6f2e4c4c529c764392b2433cbb3",
+      "fingerprint": "1c28477f63a47cfd8f7f0da7543689154bc4f6f2e4c4c529c764392b2433cbb3",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 44,
+        "articles": 7,
+        "media": 49,
+        "sections": 13,
+        "blocks": 1571,
+        "paragraphs": 4590,
+        "media_occurrences": 52,
+        "files": 72,
+        "assets": 48,
+        "previews": 13
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 7
+      }
+    },
+    {
+      "issue_id": "maso-1991-02",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-02/37f2455669668fe9e11e3547033fa65a28d13251604e90468db68c82e13c1b96",
+      "fingerprint": "37f2455669668fe9e11e3547033fa65a28d13251604e90468db68c82e13c1b96",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 45,
+        "articles": 14,
+        "media": 114,
+        "sections": 26,
+        "blocks": 2182,
+        "paragraphs": 2972,
+        "media_occurrences": 124,
+        "files": 146,
+        "assets": 102,
+        "previews": 26
+      },
+      "candidate_outcomes": {
+        "failed": 8,
+        "prepared_with_review_exceptions": 14
+      }
+    },
+    {
+      "issue_id": "maso-1991-03",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-03/a8d886b5737ec19d2b86b583c59ffc63182fde8a6fa27307b6e7ab8d022a31ca",
+      "fingerprint": "a8d886b5737ec19d2b86b583c59ffc63182fde8a6fa27307b6e7ab8d022a31ca",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 49,
+        "articles": 5,
+        "media": 16,
+        "sections": 9,
+        "blocks": 989,
+        "paragraphs": 1469,
+        "media_occurrences": 18,
+        "files": 33,
+        "assets": 15,
+        "previews": 9
+      },
+      "candidate_outcomes": {
+        "failed": 12,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1991-04",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-04/e9486f851d86b56c05fb3eec1a6546cb39816ab88ea3531992e6e2e0286c6452",
+      "fingerprint": "e9486f851d86b56c05fb3eec1a6546cb39816ab88ea3531992e6e2e0286c6452",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 43,
+        "articles": 5,
+        "media": 20,
+        "sections": 10,
+        "blocks": 873,
+        "paragraphs": 1895,
+        "media_occurrences": 24,
+        "files": 35,
+        "assets": 16,
+        "previews": 10
+      },
+      "candidate_outcomes": {
+        "failed": 11,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1991-05",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-05/6c5c018e0de02cf253072cc3da164b925e5f6d452b07a32476cfeb2ccb389490",
+      "fingerprint": "6c5c018e0de02cf253072cc3da164b925e5f6d452b07a32476cfeb2ccb389490",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 43,
+        "articles": 4,
+        "media": 59,
+        "sections": 7,
+        "blocks": 1064,
+        "paragraphs": 1852,
+        "media_occurrences": 61,
+        "files": 74,
+        "assets": 59,
+        "previews": 7
+      },
+      "candidate_outcomes": {
+        "blocked": 1,
+        "failed": 11,
+        "prepared_with_review_exceptions": 4
+      }
+    },
+    {
+      "issue_id": "maso-1991-06",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-06/0797aab2dc98244f19e28b2d1f47836f3e8a6a2936c818663b3091ee1abd67e4",
+      "fingerprint": "0797aab2dc98244f19e28b2d1f47836f3e8a6a2936c818663b3091ee1abd67e4",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 3,
+        "media": 5,
+        "sections": 5,
+        "blocks": 633,
+        "paragraphs": 633,
+        "media_occurrences": 5,
+        "files": 17,
+        "assets": 5,
+        "previews": 5
+      },
+      "candidate_outcomes": {
+        "blocked": 1,
+        "failed": 9,
+        "prepared_with_review_exceptions": 3
+      }
+    },
+    {
+      "issue_id": "maso-1991-07",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-07/2737955369b070572aea47d1d7a514f603f02c9a130744d16b2dc263a54683ec",
+      "fingerprint": "2737955369b070572aea47d1d7a514f603f02c9a130744d16b2dc263a54683ec",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 40,
+        "articles": 5,
+        "media": 29,
+        "sections": 10,
+        "blocks": 2561,
+        "paragraphs": 2612,
+        "media_occurrences": 30,
+        "files": 47,
+        "assets": 28,
+        "previews": 10
+      },
+      "candidate_outcomes": {
+        "failed": 8,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1991-08",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-08/bb63dbc118b1e800f4398739e6806eab67960bf65cf850057c81cfe7455b5a0f",
+      "fingerprint": "bb63dbc118b1e800f4398739e6806eab67960bf65cf850057c81cfe7455b5a0f",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 45,
+        "articles": 7,
+        "media": 60,
+        "sections": 13,
+        "blocks": 867,
+        "paragraphs": 944,
+        "media_occurrences": 62,
+        "files": 79,
+        "assets": 55,
+        "previews": 13
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 7
+      }
+    },
+    {
+      "issue_id": "maso-1991-09",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-09/42af8aeb44aa7c2e76d75caf0b248ed31dfb107081f61ad067f23c35fd94b99c",
+      "fingerprint": "42af8aeb44aa7c2e76d75caf0b248ed31dfb107081f61ad067f23c35fd94b99c",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 6,
+        "media": 20,
+        "sections": 11,
+        "blocks": 530,
+        "paragraphs": 633,
+        "media_occurrences": 23,
+        "files": 41,
+        "assets": 20,
+        "previews": 11
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 6
+      }
+    },
+    {
+      "issue_id": "maso-1991-10",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-10/258362584f2095fcac772fd2b82f1f3ead3f7c632567835ce3b5de231ac08d7b",
+      "fingerprint": "258362584f2095fcac772fd2b82f1f3ead3f7c632567835ce3b5de231ac08d7b",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 41,
+        "articles": 6,
+        "media": 32,
+        "sections": 11,
+        "blocks": 619,
+        "paragraphs": 1574,
+        "media_occurrences": 34,
+        "files": 52,
+        "assets": 31,
+        "previews": 11
+      },
+      "candidate_outcomes": {
+        "failed": 7,
+        "prepared_with_review_exceptions": 6
+      }
+    },
+    {
+      "issue_id": "maso-1991-11",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-11/cb8752db52c4c3da4f3e02037749f1418f7652495613e31d3dd340620a33a6fd",
+      "fingerprint": "cb8752db52c4c3da4f3e02037749f1418f7652495613e31d3dd340620a33a6fd",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 36,
+        "articles": 8,
+        "media": 27,
+        "sections": 14,
+        "blocks": 715,
+        "paragraphs": 1576,
+        "media_occurrences": 29,
+        "files": 53,
+        "assets": 27,
+        "previews": 14
+      },
+      "candidate_outcomes": {
+        "failed": 6,
+        "prepared_with_review_exceptions": 8
+      }
+    },
+    {
+      "issue_id": "maso-1991-12",
+      "status": "prepared",
+      "package": "stages/issue-maso-1991-12/e1c1d5a34c8c164f6a434167b7d7440eed03c72088e214dd00e1726ad1518b26",
+      "fingerprint": "e1c1d5a34c8c164f6a434167b7d7440eed03c72088e214dd00e1726ad1518b26",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 51,
+        "articles": 1,
+        "media": 6,
+        "sections": 2,
+        "blocks": 117,
+        "paragraphs": 739,
+        "media_occurrences": 6,
+        "files": 13,
+        "assets": 6,
+        "previews": 2
+      },
+      "candidate_outcomes": {
+        "blocked": 1,
+        "failed": 12,
+        "prepared_with_review_exceptions": 1
+      }
+    },
+    {
+      "issue_id": "maso-1992-01",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-01/d62d2c6483f004de8852b6702353faa41764baa6824f53d8ad5aa33d4d588b4b",
+      "fingerprint": "d62d2c6483f004de8852b6702353faa41764baa6824f53d8ad5aa33d4d588b4b",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 41,
+        "articles": 6,
+        "media": 45,
+        "sections": 11,
+        "blocks": 664,
+        "paragraphs": 3016,
+        "media_occurrences": 48,
+        "files": 65,
+        "assets": 44,
+        "previews": 11
+      },
+      "candidate_outcomes": {
+        "failed": 12,
+        "prepared_with_review_exceptions": 6
+      }
+    },
+    {
+      "issue_id": "maso-1992-02",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-02/f4e75e778d2a7f4e2874ee0750fa0fe8073997598463200b2ba7316facbeb971",
+      "fingerprint": "f4e75e778d2a7f4e2874ee0750fa0fe8073997598463200b2ba7316facbeb971",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 44,
+        "articles": 5,
+        "media": 26,
+        "sections": 9,
+        "blocks": 495,
+        "paragraphs": 495,
+        "media_occurrences": 28,
+        "files": 41,
+        "assets": 23,
+        "previews": 9
+      },
+      "candidate_outcomes": {
+        "failed": 18,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1992-03",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-03/dc0b9ed4ea64ebb27010af6c92abd5d53e23bfff8e0b5af6b99c44c1291ab96c",
+      "fingerprint": "dc0b9ed4ea64ebb27010af6c92abd5d53e23bfff8e0b5af6b99c44c1291ab96c",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 7,
+        "media": 81,
+        "sections": 13,
+        "blocks": 1452,
+        "paragraphs": 1798,
+        "media_occurrences": 83,
+        "files": 71,
+        "assets": 47,
+        "previews": 13
+      },
+      "candidate_outcomes": {
+        "failed": 13,
+        "prepared_with_review_exceptions": 7
+      }
+    },
+    {
+      "issue_id": "maso-1992-04",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-04/ccfbaad78b5cf7ae91710b1a96bc5d4876b2953ec98dc37e3f0f55689e38758a",
+      "fingerprint": "ccfbaad78b5cf7ae91710b1a96bc5d4876b2953ec98dc37e3f0f55689e38758a",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 44,
+        "articles": 11,
+        "media": 80,
+        "sections": 19,
+        "blocks": 2927,
+        "paragraphs": 5086,
+        "media_occurrences": 87,
+        "files": 111,
+        "assets": 77,
+        "previews": 19
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 11
+      }
+    },
+    {
+      "issue_id": "maso-1992-05",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-05/13c2280059fe4fa1c0edb678637445949dbf11405a7752872ddda88298bad85b",
+      "fingerprint": "13c2280059fe4fa1c0edb678637445949dbf11405a7752872ddda88298bad85b",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 41,
+        "articles": 5,
+        "media": 38,
+        "sections": 9,
+        "blocks": 1121,
+        "paragraphs": 1121,
+        "media_occurrences": 40,
+        "files": 45,
+        "assets": 27,
+        "previews": 9
+      },
+      "candidate_outcomes": {
+        "failed": 11,
+        "prepared_with_review_exceptions": 5
+      }
+    },
+    {
+      "issue_id": "maso-1992-06",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-06/fccd5bd11bd704ae0462e2164fc2e944bae1f1143546117a6621fb4a9d63bf0b",
+      "fingerprint": "fccd5bd11bd704ae0462e2164fc2e944bae1f1143546117a6621fb4a9d63bf0b",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 48,
+        "articles": 7,
+        "media": 56,
+        "sections": 12,
+        "blocks": 723,
+        "paragraphs": 1814,
+        "media_occurrences": 61,
+        "files": 45,
+        "assets": 22,
+        "previews": 12
+      },
+      "candidate_outcomes": {
+        "failed": 11,
+        "prepared_with_review_exceptions": 7
+      }
+    },
+    {
+      "issue_id": "maso-1992-07",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-07/047acd1abd7fba0934c3c188a0eedb38962355febbc6a05f24f3bb2946d8a12e",
+      "fingerprint": "047acd1abd7fba0934c3c188a0eedb38962355febbc6a05f24f3bb2946d8a12e",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 40,
+        "articles": 8,
+        "media": 30,
+        "sections": 13,
+        "blocks": 1053,
+        "paragraphs": 1507,
+        "media_occurrences": 34,
+        "files": 55,
+        "assets": 30,
+        "previews": 13
+      },
+      "candidate_outcomes": {
+        "failed": 10,
+        "prepared_with_review_exceptions": 8
+      }
+    },
+    {
+      "issue_id": "maso-1992-08",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-08/776874009dd9173bf7a6d853b790e89add46c4f68492b5d3f0cb44eace0fb761",
+      "fingerprint": "776874009dd9173bf7a6d853b790e89add46c4f68492b5d3f0cb44eace0fb761",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 39,
+        "articles": 8,
+        "media": 55,
+        "sections": 13,
+        "blocks": 1177,
+        "paragraphs": 2465,
+        "media_occurrences": 59,
+        "files": 65,
+        "assets": 40,
+        "previews": 13
+      },
+      "candidate_outcomes": {
+        "blocked": 1,
+        "failed": 6,
+        "prepared_with_review_exceptions": 8
+      }
+    },
+    {
+      "issue_id": "maso-1992-09",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-09/7a30127c135459d0608320a2e9aeece458081e1c4919fef8f8c53be3ed603cd7",
+      "fingerprint": "7a30127c135459d0608320a2e9aeece458081e1c4919fef8f8c53be3ed603cd7",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 45,
+        "articles": 9,
+        "media": 33,
+        "sections": 14,
+        "blocks": 1143,
+        "paragraphs": 2116,
+        "media_occurrences": 38,
+        "files": 60,
+        "assets": 33,
+        "previews": 14
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 9
+      }
+    },
+    {
+      "issue_id": "maso-1992-10",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-10/8b1f1b759f007ff4a2efe1181d99caa55835aca4749950cbf71c3785703f66e6",
+      "fingerprint": "8b1f1b759f007ff4a2efe1181d99caa55835aca4749950cbf71c3785703f66e6",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 47,
+        "articles": 9,
+        "media": 62,
+        "sections": 15,
+        "blocks": 3304,
+        "paragraphs": 3304,
+        "media_occurrences": 68,
+        "files": 87,
+        "assets": 59,
+        "previews": 15
+      },
+      "candidate_outcomes": {
+        "failed": 14,
+        "prepared_with_review_exceptions": 9
+      }
+    },
+    {
+      "issue_id": "maso-1992-11",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-11/81858096cbb73a1d0cd59bf2b76f807780a94bfa2a998af2c44500c496cc477e",
+      "fingerprint": "81858096cbb73a1d0cd59bf2b76f807780a94bfa2a998af2c44500c496cc477e",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 47,
+        "articles": 8,
+        "media": 65,
+        "sections": 13,
+        "blocks": 1967,
+        "paragraphs": 2116,
+        "media_occurrences": 68,
+        "files": 77,
+        "assets": 52,
+        "previews": 13
+      },
+      "candidate_outcomes": {
+        "failed": 14,
+        "prepared_with_review_exceptions": 8
+      }
+    },
+    {
+      "issue_id": "maso-1992-12",
+      "status": "prepared",
+      "package": "stages/issue-maso-1992-12/5eb5f6eff79c84847f942e1b2ca9963ba299a277988ac513644f35bf0cf6f6d6",
+      "fingerprint": "5eb5f6eff79c84847f942e1b2ca9963ba299a277988ac513644f35bf0cf6f6d6",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 42,
+        "articles": 6,
+        "media": 21,
+        "sections": 9,
+        "blocks": 1023,
+        "paragraphs": 1792,
+        "media_occurrences": 24,
+        "files": 36,
+        "assets": 17,
+        "previews": 9
+      },
+      "candidate_outcomes": {
+        "blocked": 1,
+        "failed": 14,
+        "prepared_with_review_exceptions": 6
+      }
+    },
+    {
+      "issue_id": "maso-1993-01",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-01/5747d100205e41f1c3f8d59e14dc9a14ecd1994a2aef67c98e6ab4cbc65252b0",
+      "fingerprint": "5747d100205e41f1c3f8d59e14dc9a14ecd1994a2aef67c98e6ab4cbc65252b0",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 49,
+        "articles": 14,
+        "media": 76,
+        "sections": 25,
+        "blocks": 2336,
+        "paragraphs": 2876,
+        "media_occurrences": 87,
+        "files": 101,
+        "assets": 58,
+        "previews": 25
+      },
+      "candidate_outcomes": {
+        "failed": 10,
+        "prepared_with_review_exceptions": 14
+      }
+    },
+    {
+      "issue_id": "maso-1993-02",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-02/739e1a8b4263d08888caab8420870ad14c6fe0c8022325b4d2ad60235a9b574e",
+      "fingerprint": "739e1a8b4263d08888caab8420870ad14c6fe0c8022325b4d2ad60235a9b574e",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 54,
+        "articles": 16,
+        "media": 66,
+        "sections": 21,
+        "blocks": 1219,
+        "paragraphs": 1880,
+        "media_occurrences": 79,
+        "files": 107,
+        "assets": 66,
+        "previews": 21
+      },
+      "candidate_outcomes": {
+        "blocked": 1,
+        "failed": 12,
+        "prepared_with_review_exceptions": 16
+      }
+    },
+    {
+      "issue_id": "maso-1993-03",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-03/4c25fae424003d4cffbbee753b6b2d593418bc1ae50619eabb7a4b5ba0817d53",
+      "fingerprint": "4c25fae424003d4cffbbee753b6b2d593418bc1ae50619eabb7a4b5ba0817d53",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 52,
+        "articles": 14,
+        "media": 39,
+        "sections": 24,
+        "blocks": 1325,
+        "paragraphs": 3140,
+        "media_occurrences": 49,
+        "files": 80,
+        "assets": 38,
+        "previews": 24
+      },
+      "candidate_outcomes": {
+        "failed": 14,
+        "prepared_with_review_exceptions": 14
+      }
+    },
+    {
+      "issue_id": "maso-1993-04",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-04/911b5c8c3727e1a29cbd0daec53150a68202898a9b2090acd817864f2162a700",
+      "fingerprint": "911b5c8c3727e1a29cbd0daec53150a68202898a9b2090acd817864f2162a700",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 49,
+        "articles": 12,
+        "media": 39,
+        "sections": 17,
+        "blocks": 2013,
+        "paragraphs": 2117,
+        "media_occurrences": 46,
+        "files": 72,
+        "assets": 39,
+        "previews": 17
+      },
+      "candidate_outcomes": {
+        "failed": 10,
+        "prepared_with_review_exceptions": 12
+      }
+    },
+    {
+      "issue_id": "maso-1993-05",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-05/664702f0bc8b7825a07ac2cec6527fae7d27f0ff2c7023d9a74953d1baddae88",
+      "fingerprint": "664702f0bc8b7825a07ac2cec6527fae7d27f0ff2c7023d9a74953d1baddae88",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 52,
+        "articles": 12,
+        "media": 34,
+        "sections": 18,
+        "blocks": 2883,
+        "paragraphs": 3000,
+        "media_occurrences": 44,
+        "files": 68,
+        "assets": 34,
+        "previews": 18
+      },
+      "candidate_outcomes": {
+        "failed": 9,
+        "prepared_with_review_exceptions": 12
+      }
+    },
+    {
+      "issue_id": "maso-1993-06",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-06/31387573edf12fb8360b87c6e369206d26e9efa139fe950661b42ff4d9066885",
+      "fingerprint": "31387573edf12fb8360b87c6e369206d26e9efa139fe950661b42ff4d9066885",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 50,
+        "articles": 14,
+        "media": 38,
+        "sections": 22,
+        "blocks": 3015,
+        "paragraphs": 3015,
+        "media_occurrences": 48,
+        "files": 77,
+        "assets": 37,
+        "previews": 22
+      },
+      "candidate_outcomes": {
+        "blocked": 1,
+        "failed": 9,
+        "prepared_with_review_exceptions": 14
+      }
+    },
+    {
+      "issue_id": "maso-1993-07",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-07/7f038eb2d28c564ada775a2765e6d49ac0dbf30fa659ca32ebcbbaaa0647f968",
+      "fingerprint": "7f038eb2d28c564ada775a2765e6d49ac0dbf30fa659ca32ebcbbaaa0647f968",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 58,
+        "articles": 16,
+        "media": 35,
+        "sections": 22,
+        "blocks": 1171,
+        "paragraphs": 2585,
+        "media_occurrences": 47,
+        "files": 76,
+        "assets": 34,
+        "previews": 22
+      },
+      "candidate_outcomes": {
+        "blocked": 1,
+        "failed": 8,
+        "prepared_with_review_exceptions": 16
+      }
+    },
+    {
+      "issue_id": "maso-1993-08",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-08/2fec92285708c79869651d94d1ab88cec287260516b6134a18b0546941ef32bc",
+      "fingerprint": "2fec92285708c79869651d94d1ab88cec287260516b6134a18b0546941ef32bc",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 49,
+        "articles": 16,
+        "media": 41,
+        "sections": 25,
+        "blocks": 2721,
+        "paragraphs": 3004,
+        "media_occurrences": 53,
+        "files": 86,
+        "assets": 41,
+        "previews": 25
+      },
+      "candidate_outcomes": {
+        "failed": 11,
+        "prepared_with_review_exceptions": 16
+      }
+    },
+    {
+      "issue_id": "maso-1993-09",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-09/fcceefd26f2a4030be03480ecf0ec43f0a5175a53cc60a316b3241ab1800fc54",
+      "fingerprint": "fcceefd26f2a4030be03480ecf0ec43f0a5175a53cc60a316b3241ab1800fc54",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 60,
+        "articles": 21,
+        "media": 39,
+        "sections": 29,
+        "blocks": 2635,
+        "paragraphs": 3496,
+        "media_occurrences": 57,
+        "files": 87,
+        "assets": 33,
+        "previews": 29
+      },
+      "candidate_outcomes": {
+        "failed": 8,
+        "prepared_with_review_exceptions": 21
+      }
+    },
+    {
+      "issue_id": "maso-1993-10",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-10/99ca2289e0dffc25278bce3454a9e11a35720f5627469ddd0de357e9c0d7c371",
+      "fingerprint": "99ca2289e0dffc25278bce3454a9e11a35720f5627469ddd0de357e9c0d7c371",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 59,
+        "articles": 15,
+        "media": 8,
+        "sections": 18,
+        "blocks": 930,
+        "paragraphs": 930,
+        "media_occurrences": 18,
+        "files": 44,
+        "assets": 7,
+        "previews": 18
+      },
+      "candidate_outcomes": {
+        "failed": 11,
+        "prepared_with_review_exceptions": 15
+      }
+    },
+    {
+      "issue_id": "maso-1993-11",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-11/fa8e8c065d39594bdef41cf3bf37d3d49eff3f0531c74b5dc6d47016bc8fa671",
+      "fingerprint": "fa8e8c065d39594bdef41cf3bf37d3d49eff3f0531c74b5dc6d47016bc8fa671",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 61,
+        "articles": 15,
+        "media": 58,
+        "sections": 21,
+        "blocks": 1394,
+        "paragraphs": 1584,
+        "media_occurrences": 69,
+        "files": 98,
+        "assets": 58,
+        "previews": 21
+      },
+      "candidate_outcomes": {
+        "failed": 10,
+        "prepared_with_review_exceptions": 15
+      }
+    },
+    {
+      "issue_id": "maso-1993-12",
+      "status": "prepared",
+      "package": "stages/issue-maso-1993-12/01b83056e5ab55d4fc2f0dc6b138bca92b2b6773d4d9d5892f347dc568768883",
+      "fingerprint": "01b83056e5ab55d4fc2f0dc6b138bca92b2b6773d4d9d5892f347dc568768883",
+      "counts": {
+        "issues": 1,
+        "toc_entries": 61,
+        "articles": 17,
+        "media": 123,
+        "sections": 27,
+        "blocks": 2757,
+        "paragraphs": 6168,
+        "media_occurrences": 138,
+        "files": 166,
+        "assets": 118,
+        "previews": 27
+      },
+      "candidate_outcomes": {
+        "failed": 8,
+        "prepared_with_review_exceptions": 17
+      }
+    }
+  ],
+  "limits": [
+    "failed_and_blocked_jobs_are_not_extracted",
+    "semantic_review_pending_for_generic_preparations",
+    "first_pass_does_not_establish_complete_printed_issue_coverage",
+    "deferred_media_not_repaired",
+    "individual_exceptions_remain_subsequent_bounded_work"
+  ],
+  "coverage_root": "build/cd1-batch/full-pass/d35d6a9894ff0d25b682ce5bfa963878ad1f2f13560e3a2d142d69139c7857ab/reports/coverage/e52570ec69854f9eb1584d7e14d3510ae2690d4fb91ae6d50a699f3fd9ae9380",
+  "outputs": [
+    {
+      "path": "catalog.jsonl",
+      "bytes": 629921,
+      "sha256": "af871a34b4b44f48e4d23e1b1f502b8f419bf54790992346ad5422a66af95dc7"
+    },
+    {
+      "path": "contexts.jsonl",
+      "bytes": 604772,
+      "sha256": "127900ca1fa883c546af97704d92ed2c495ef60ccba2e3837470bebc57957822"
+    },
+    {
+      "path": "entries.jsonl",
+      "bytes": 3616273,
+      "sha256": "328767a0f9ac72cf8156e154b0c8a684bbf538a04e4731c61102e9e225384908"
+    },
+    {
+      "path": "exceptions.jsonl",
+      "bytes": 657251,
+      "sha256": "d2b7a0697bda655e1304e2829993433aba6b6bbec8a6f7d2f3ced78e915615f6"
+    },
+    {
+      "path": "issues.jsonl",
+      "bytes": 33962,
+      "sha256": "58b5f973dd84203735424cac62e86ab86293ef6ff9aee9458e45d4b0fb10bd02"
+    },
+    {
+      "path": "media.jsonl",
+      "bytes": 3443563,
+      "sha256": "1ae75d730575f3e1cf95fb7f39565c73ccf3275d368a75ffb3240df821c6f0e3"
+    },
+    {
+      "path": "references.jsonl",
+      "bytes": 847566,
+      "sha256": "6f5cad45266b8d7c12cfa185c760c8ca7d78d2f1d999192e40b8e6fd0a46f2b3"
+    },
+    {
+      "path": "source_checks.jsonl",
+      "bytes": 246534,
+      "sha256": "cbfc7bfa562ed5f8548f49a817156aad9485d08ec65f32714fc8452b03b7ff15"
+    },
+    {
+      "path": "toc.jsonl",
+      "bytes": 2229818,
+      "sha256": "a6c7359a68739a709690e3e6a7004d6750790dc8f062dd748e92d91b32196e53"
+    },
+    {
+      "path": "topics.jsonl",
+      "bytes": 1680192,
+      "sha256": "d706012a30d483c331b4de25c53b217b985982d4601aa9b8652fe4f96e49620e"
+    },
+    {
+      "path": "unattributed.jsonl",
+      "bytes": 1640,
+      "sha256": "227221d0fe9c0444f2bcfa48a344f94a5aface0409438d16e6419e3f984ee032"
+    }
+  ]
+}

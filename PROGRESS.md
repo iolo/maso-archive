@@ -1364,3 +1364,77 @@
   image repair, independent backup/restore, access/publication, CD2/CD3 and UI remain
   separate. The owner's concurrent `PRD-reading-room.md` edits remain untouched
   and are excluded from this commit.
+
+### 2026-09-20 — Step 13d started: durable full-queue execution
+
+- Started all 1,088 candidates across 72 issues using the exact extraction identity
+  validated in 13c. The new outer driver records its own code hash separately,
+  checks the sample gate, and leaves compatible extraction/media caches reusable.
+- Added durable per-job outcomes, source evidence, successful-stage references,
+  copied failure-stage evidence, retry arguments, progress totals, and issue
+  checkpoints. Resume verifies completed records and keeps original first-pass
+  failures rather than automatically retrying them. Issues without successful
+  articles can receive valid metadata-only TOC packages.
+- The execution process is live; final counts, full source/TOC/media reconciliation,
+  all-package verification and the final commit remain pending. Original media,
+  historical records and the owner's PRD edits are unchanged. No content is
+  published and no broken images are repaired.
+- Added the coverage/report builder and targeted tests for explicit unavailable
+  states, omission/duplication rejection, TOC-link consistency, retained failure
+  evidence and metadata-only issue packages. Seven targeted checks pass; the
+  full-pass artifact test waits for the completed run. Full-suite validation and
+  the requirement-by-requirement completion audit follow execution.
+
+### 2026-09-20 — Step 13d completed: first complete CD1 pass and reconciliation
+
+- Executed the complete frozen queue, issue by issue, using the unchanged 13c
+  extraction identity: **1,088 candidates in 72 issues**. Outcomes are **four
+  prepared**, **533 prepared with review exceptions**, **543 failed**, and **eight
+  blocked**. No candidate is silently unattempted, and failed/blocked cases are
+  never counted as extracted. All 15 prior sample articles reuse compatible stages.
+- Validated **537 standalone article packages and all 72 combined issue packages**,
+  including exact article populations and unchanged standalone content. The
+  packages contain **179,356 paragraphs and 96,399 blocks**. Independently checked
+  **30,038,307 original RTF bytes and 167,611 text runs** across 915 article topics;
+  audited the three recovered auxiliary topics separately.
+- Reconciled **3,099 native topics, 2,103 contexts, 1,080 index references, 2,462
+  index occurrences, 3,032 index rows and all 5,497 TOC entries**. Of 66 confirmed
+  TOC metadata matches, 51 now link to prepared articles and 15 remain unavailable.
+  Another 486 prepared articles retain source identities without guessed TOC
+  links. Seven of nine unindexed candidates prepare; two fail. All eight
+  unattributed topics retain source evidence and explicit unresolved ownership.
+- Verified every one of **6,165 referenced source media resources**. Runtime
+  disposition is **2,174 available, 393 deferred and 3,598 not packaged**. All
+  **1,479 available bitmap derivatives** preserve decoded source pixels. Retained
+  vector diagnostics and original resources without attempting image repair.
+- Retained source-job records for all candidates and **2,168 copied failure
+  evidence files** for all 543 failures. The consolidated retry queue includes
+  all 551 failed/blocked candidates. Failure classes are 470 unreviewed linked
+  content, 45 font/decoding policies, 20 unsupported RTF constructs, six inherited
+  formatting cases, one unterminated paragraph and the final article's unmatched
+  closing brace. Eight queue blockers concern source-topic ownership.
+- Completed a real full resume: all 1,088 outcomes and 72 issue checkpoints
+  reproduce the original 4,416-output execution manifest byte for byte, SHA-256
+  `1c2cca1566ebaefd952eac7a878c148bf65e796ff60942ffd01429a15ec23907`.
+  Known failures remain stable first-pass outcomes rather than being retried by
+  resume. Earlier preparation records, original sources and schema v1 remain intact.
+- Added `make run-cd1-full-pass`, `make report-cd1-full-pass`, the tracked
+  `data/catalog/batch-runs/cd1-full-pass.json` summary and 11 private coverage
+  tables. Reporting validates every source/package/evidence population and
+  compares newly generated coverage bytes with cached output. Tools and metadata
+  are tracked; article text, images, previews and detailed recovery stay private.
+- Repeated the complete source/package/media audit independently. Both runs
+  produced identical counts, issue records and byte hashes for all 11 coverage
+  tables. The final reporter identity and every coverage output hash verify;
+  the execution manifest remains unchanged. The second audit includes the
+  strengthened freshly-generated-versus-cached coverage check.
+- **211 tests pass**, including nine first-pass checks and the existing actual-source
+  interruption/resume, failure containment, February regression and static loading
+  tests. Local documentation links, metadata JSON and whitespace checks pass.
+- Updated PLAN-CD1, README, preservation readiness and current checkpoint guidance:
+  **13a–13d are complete**. Subsequent bounded work should begin with linked-content
+  ownership and explicit TOC review; recorded first-pass failures remain history.
+  This does not establish complete printed coverage. Physical comparison, scans,
+  deferred image repair, independent backup/restore, access/publication, CD2/CD3
+  and reading-room UI remain separate. The owner's PRD edits are unchanged and
+  excluded from the commit.

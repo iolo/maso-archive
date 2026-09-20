@@ -85,8 +85,9 @@ IDs preserved. Historical article and coverage provenance is unchanged; see
 preserves all six prepared articles and reconciles their newer evidence with
 every February TOC entry. The [processing inventory](CD1-PROCESSING-INVENTORY.md),
 [shared runner](CD1-BATCH-RUNNER.md), and [sample validation](CD1-BATCH-VALIDATION.md)
-are complete; **13d**, the full queue run, is next in the
-[complete CD1 pass](../PLAN-CD1.md#next-milestone-first-complete-cd1-extraction-pass).
+are complete, as is the [13d full-pass reconciliation](CD1-FULL-PASS.md).
+Remaining source exceptions are subsequent bounded work in the
+[CD1 plan](../PLAN-CD1.md#next-milestone-first-complete-cd1-extraction-pass).
 Backup/restore, physical comparison, deferred media
 repair, CD2/CD3, and the UI retain their separate scopes.
 
