@@ -1617,3 +1617,72 @@
   The 53 other font cases need separate bounded investigations. Full text, images
   and per-run diagnostics remain private; original pipeline/policy/schema and
   historical records are unchanged. The owner's PRD edits are excluded.
+
+### 2026-09-20 — Step 15b started: remaining ASCII retries and combined handoff
+
+- Process the remaining 27 eligible candidates under the unchanged 15a policy;
+  carry forward six sample outcomes and preserve the other 53 deferred font cases.
+- Compose all 72 current issue packages from verified 14b handoffs plus successful
+  font retries. Preserve durable outcomes and any newly exposed later-stage failures.
+  Audit exact content/source/media preservation and current coverage before closeout.
+- Execution completed: **all 27 new attempts prepare with review exceptions**,
+  plus six carried 15a successes. All 72 issue checkpoints prepare, containing
+  **977 articles**. The current exception population is 103 failures and eight
+  unchanged blockers; no new article failure occurred. The 159-file execution
+  manifest is preserved for exact resume comparison (SHA-256
+  `04375a76b766e4c3ebb76f1b04210d493788a78d9a12c7a2bb1074f033e64273`).
+  Consolidated fidelity/coverage verification is in progress.
+- The complete source/package/media audit passed. All 72 historical and 72 current
+  issue packages validate; existing article JSON, previews and available media
+  retain exact bytes. All 33 font-success recoveries match the audited source with
+  only approved ASCII substitutions. Historical source audits carry forward under
+  verified hashes and the unchanged pipeline; the new coverage record has 13 tables.
+- Current source accounting totals **380,996 paragraphs, 213,319 blocks,
+  64,394,136 RTF bytes and 353,753 text runs**. All 3,330 available bitmaps preserve
+  decoded pixels; media counts are 4,526 available, 811 deferred and 828 not packaged.
+  Resume verification and full regressions are running before the repeat audit.
+- Complete resume verifies all 33 outcomes and 72 issue checkpoints, reproducing
+  the exact 159-file execution manifest. **236 full-suite tests pass**, including
+  six new scope/merge/preservation/artifact checks and all historical/source/static
+  loading regressions. The second complete coverage audit is running to compare
+  every regenerated table and the tracked summary with the recorded results.
+
+### 2026-09-20 — Step 15b completed: all eligible ASCII retries and current CD1 handoff
+
+- All **27 new retries prepare with review exceptions**, carrying six verified
+  15a successes forward. All **33 eligible font candidates** now have successful
+  subsequent outcomes. The other 53 font/decoding cases remain deferred; no new
+  article failure occurred. Original decoder, policy, schema and 13d/14a/14b/15a
+  records and packages remain unchanged.
+- All **72 current combined issue packages validate**, containing **977 articles**
+  (four prepared and 973 prepared with review exceptions). Current exceptions are
+  **103 failures and eight blockers**: 53 font/decoding cases, 35 unsupported RTF
+  constructs, 13 inherited-formatting cases, one unterminated paragraph, one
+  document-envelope case, and eight source-topic ownership blockers.
+- The audit validates all 72 historical and 72 current handoffs plus every successful
+  font standalone package. Existing article JSON, previews and available media
+  preserve exact bytes; all 33 recoveries permit only the reviewed ASCII changes.
+  New source runs and auxiliary recovery are independently checked. The unchanged
+  944 historical source audits carry forward under verified hashes; intermediate
+  historical stage audits remain historical evidence rather than claimed fresh work.
+- Current accounting covers **380,996 paragraphs, 213,319 blocks, 64,394,136 RTF
+  bytes and 353,753 text runs**. The font successes add 21,712 paragraphs beyond
+  14b. All 6,165 referenced media are accounted for: **4,526 available, 811 deferred
+  and 828 not packaged**. All **3,330 available bitmaps** preserve source pixels.
+  Broken images remain recorded for later repair.
+- The **13 private coverage tables** reconcile every native topic, context, index
+  occurrence/reference, TOC row and candidate. They preserve the 470-entry historical
+  association retry table separately from the 33 font outcomes. **64 TOC entries**
+  link to available content; **913 prepared articles** still need reviewed TOC links
+  and remain available through native identities. No printed coverage is invented.
+- Complete resume reproduces the **159-file execution manifest** byte for byte.
+  A second complete source/package/media audit reproduces all **13 tables and the
+  tracked summary exactly**. **236 regression tests pass**, including six new
+  retry-scope/merge/preservation/artifact checks and all existing source, history,
+  decoding, preservation, failure-isolation, resume and static-loading regressions.
+- PLAN-CD1 marks **15b done**. The next bounded extraction checkpoint should review
+  one remaining font/decoding subtype from the 15a evidence; TOC matching remains
+  separate metadata work. Physical review, scans, media repair, backup/restore,
+  CD2/CD3, reading-room UI and publication/access remain separate scopes. Full text
+  and detailed diagnostics remain private. Documentation links, catalog JSON and
+  whitespace validate; the owner's two PRD files are excluded from this commit.

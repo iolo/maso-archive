@@ -1082,7 +1082,7 @@ reproduces all 84 article runtime files. **230 regression tests pass**, includin
 seven new font-policy/artifact tests and all historical/source/static-loading checks.
 See the [font audit and sample report](docs/CD1-FONT-REVIEW.md).
 
-### 15b — Next: retry the remaining ASCII-policy candidates and reconcile coverage
+### 15b — Done: retry the remaining ASCII-policy candidates and reconcile coverage
 
 **Scope:** the remaining 27 of 15a's 33 eligible candidates, carrying its six
 sample successes forward. Use the source-bound ASCII policy in a new private
@@ -1095,20 +1095,32 @@ font retries. Reconcile current availability and the remaining exception queue
 without replacing historical reports. Validate exact content preservation,
 source/media fidelity and repeatability before counting new current coverage.
 
+**Execution and audit results:** all 27 new attempts prepare with review exceptions.
+With six carried samples, all 33 eligible candidates have successful subsequent
+outcomes. The 72 combined issue packages validate with **977 articles** (four
+prepared, 973 prepared with review exceptions), **103 failures and eight blockers**.
+The [current coverage report](docs/CD1-FONT-PASS.md) accounts for all populations
+in 13 private tables, preserving the prior association history separately from
+font retry history. All existing article/preview/media bytes are preserved;
+all 33 font recoveries match the audited ASCII substitutions. Available bitmap
+pixel checks pass for all 3,330 resources. Complete resume reproduces the exact
+execution manifest and **236 regression tests pass**. A second complete audit
+reproduces all 13 coverage tables and the tracked summary exactly.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a–13d, and **14a–14b are complete**. Every CD1 candidate
-has a durable first-pass outcome, and all 470 association failures now have
-subsequent outcomes. Current packages contain **944 prepared articles across 72
-issues**, with **136 failures and eight blockers** explicitly retained.
+Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b and 15a–15b are complete**.
+Every CD1 candidate has a durable first-pass outcome, all 470 association failures
+have subsequent outcomes, and all 33 reviewed ASCII-font candidates prepare.
+Current packages contain **977 prepared articles across 72 issues**, with
+**103 failures and eight blockers** explicitly retained.
 
-Step **15a is complete**: all 86 font failures are audited, 33 qualify for the
-reviewed ASCII-only policy, and six fixed samples prepare in separate packages.
-Step **15b is next**: retry the remaining 27 eligible candidates and reconcile
-combined availability. The other 53 font cases remain deferred. Preserve historical
-and current outcomes before counting further gains. TOC matching is separate
-metadata work; 882 articles in the 14b handoff still lack reviewed TOC links.
-Failed or blocked articles are not counted as extracted.
+The next extraction checkpoint should select one bounded unresolved font/decoding
+subtype from 15a's audit of the remaining 53 cases, validate a fixed sample, and
+preserve current/historical outcomes before any broader retry. Unsupported RTF,
+inherited formatting and source-topic ownership remain separate exception classes.
+TOC matching is separate metadata work: 913 prepared articles still lack reviewed
+TOC links. Failed or blocked articles are not counted as extracted.
 
 Steps 7 and 11b remain independently deferred and do not block extraction. Missing
 scans, physical review, image repair, ownership/access decisions, CD2/CD3, and the
@@ -1136,7 +1148,7 @@ of later publication decisions.
 | 14a — Done: auxiliary policy and retry sample | Separate auxiliary recovery and six fixed retry articles. | All 470 association failures are accounted for; sample associations, source fidelity, packages and resume validate. |
 | 14b — Done: association retry pass | Remaining 464 retries and combined current coverage. | Every original association failure has a subsequent outcome; all 72 combined packages validate with 944 articles, while history and remaining failures are preserved. |
 | 15a — Done: font audit and ASCII sample | All 86 failures audited; six fixed source-bound retries. | Full source associations are accounted for; only reviewed ASCII runs change; packages, source fidelity and reproducibility validate. |
-| 15b — Next: ASCII-policy retry pass | Remaining 27 eligible retries and current coverage reconciliation. | All 33 eligible outcomes and all combined issue packages validate without overwriting history. |
+| 15b — Done: ASCII-policy retry pass | Remaining 27 eligible retries and current coverage reconciliation. | All 33 eligible candidates prepare; all 72 current packages validate with 977 articles while history and remaining failures are preserved. |
 
 ### Content contract requirements implemented in step 8
 

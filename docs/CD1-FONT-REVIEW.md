@@ -62,9 +62,10 @@ semantic block-classification rules for the newly accepted fonts. Generic semant
 review and physical-magazine comparison remain pending.
 
 The six successes add available standalone text beyond 14b's 944 articles. The
-**72 combined current handoffs remain the 14b packages** until step 15b reconciles
-these six samples with the remaining 27 eligible retries. The 53 deferred font
-cases and other exception classes are not retried here.
+subsequent [15b pass](CD1-FONT-PASS.md) reconciles these samples and the remaining
+27 eligible retries into 72 current combined packages containing 977 articles.
+This sample record and the 14b handoffs remain historical checkpoints. The 53
+deferred font cases and other exception classes are not retried by this policy.
 
 Normal audit and sample reruns reproduce both tracked summaries. A fresh isolated
 rebuild reproduces **all 84 article runtime files** byte for byte. **230 regression

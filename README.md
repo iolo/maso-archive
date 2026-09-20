@@ -7,24 +7,20 @@ TOC import covers 122 issues through December 1993, with 5,497 entries.
 Official CD holdings support
 further extraction; per-disc coverage and completeness remain to be verified.
 
-**Current CD1 coverage: 944 prepared articles across 72 issues.** Step 14b adds
-401 articles after the six successful 14a samples, with all 470 association retries
-accounted for. Of 1,088 candidates, **136 remain failed and eight blocked** with
+**Step 15b is complete: 977 prepared CD1 articles across 72 issues.** It adds
+27 articles after six successful 15a samples, with all 33 eligible font retries
+accounted for. Of 1,088 candidates, **103 remain failed and eight blocked** with
 retained evidence. All combined issue packages validate; content remains private.
-See the [complete retry pass and current coverage](docs/CD1-ASSOCIATION-PASS.md).
+See the [font retry pass and current coverage](docs/CD1-FONT-PASS.md).
 
 The [historical first pass](docs/CD1-FULL-PASS.md) retains its original 537
-preparations and every outcome. The [14a association review](docs/CD1-ASSOCIATIONS.md)
-also preserves 109 recovered auxiliary topics and two deferred formatting cases.
+preparations, and the [14b association pass](docs/CD1-ASSOCIATION-PASS.md) retains
+its 944-article handoff. The [15a font audit](docs/CD1-FONT-REVIEW.md) supports
+source-bound ASCII-only additions; **53 other font/decoding cases remain deferred**.
+Further extraction should take one bounded unresolved subtype from that audit.
 
-**15a is complete:** all 86 font/decoding failures are audited, and six additional
-articles prepare in separate sample packages using a source-bound ASCII-only policy.
-The audit identifies **33 eligible candidates and 53 deferred cases**. Next is 15b:
-retry the remaining 27 eligible candidates and reconcile combined availability.
-See the [font audit and sample report](docs/CD1-FONT-REVIEW.md).
-
-TOC matching remains separate: 882 articles in the 14b handoff still lack reviewed
-TOC links. Complete printed-issue coverage and physical review remain unverified.
+TOC matching remains separate: 913 prepared articles still lack reviewed TOC links.
+Complete printed-issue coverage and physical review remain unverified.
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)
