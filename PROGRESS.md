@@ -2083,3 +2083,85 @@
   pipeline. Its implementation-bound record was regenerated; all runtime hashes,
   source checks, outcomes and glyph-policy hash remain identical. No behavior or
   historical implementation changed.
+
+### 2026-09-20 — Step 18c started: integrate both validated Symbol samples
+
+- Carry `9210202` from 18a and `9208198` from 18b, verifying each distinct
+  pipeline identity, source-bound checkpoint and complete runtime inventory.
+  Do not re-extract other candidates or broaden either decoding policy.
+- Preserve 17b's 988 prepared articles, all four earlier retry histories and all
+  unresolved outcomes. Keep the two Symbol font/context conflicts explicit.
+- Build isolated combined issue handoffs, then independently audit source runs,
+  article/preview/media preservation, all original populations and coverage.
+  Verify complete resume and repeat the coverage report before committing.
+
+### 2026-09-20 — Step 18c execution and resume verified
+
+- Carried both successful sample checkpoints under their distinct 18a/18b
+  identities. All 72 combined issue handoffs are prepared in the isolated
+  `build/cd1-symbol-pass/` root. Seventy unchanged handoffs copy prior content
+  exactly; August and October 1992 merge only the two reviewed sample articles.
+- Complete resume reproduces the **74-file execution manifest** exactly, SHA-256
+  `6699c36150411a3c43b05b5be59885a4560e216210a53e7903d364a48e97b8ca`.
+  Run identity: `2400eb4ff7a9d5be64e2229d0d0e785298b98b58395929f0f360729295e0a5b7`.
+- New policy tests reject wrong pipelines, changed source associations, altered
+  sample inventories, unrelated failures and attempted promotion of either Symbol
+  conflict. The independent full coverage audit is running before coverage changes.
+
+### 2026-09-21 — Step 18c coverage audit passed; repeat and regressions running
+
+- All 72 prior and 72 current issue packages validate, preserving every earlier
+  article payload, Markdown preview and available media file. Both carried samples
+  reproduce their independent source checks under their distinct decoding policies.
+- Combined coverage is **990 prepared articles across 72 issues**, with 90 failed
+  candidates and eight ownership blockers. The two samples are the only newly
+  available candidates; no new extraction was attempted. All 1,088 candidates,
+  3,099 topics, 2,103 contexts, 1,080 references, 2,462 index occurrences, 3,032
+  index rows and 5,497 TOC entries reconcile.
+- Current content preserves **392,486 paragraphs, 220,953 blocks, 65,625,509 RTF
+  bytes and 363,912 text runs**. All 6,165 source media are accounted for:
+  **4,630 available, 891 deferred and 644 not packaged**. All **3,432 available
+  bitmap resources** preserve source pixels. Shared resources count only once.
+- The 16 coverage tables preserve all five retry histories, 988 prior source
+  audits, the ambiguous `9309201` annotation and both explicit Symbol conflicts.
+  Forty font/decoding exceptions remain: two Symbol conflicts, one ambiguous
+  declaration and 37 existing-codec failures. Physical/semantic review and image
+  repair remain separate. TOC availability stays at 64 entries; 926 prepared
+  articles lack reviewed TOC links.
+- Repeated coverage reporting and regressions are running. Checkpoint 19a is
+  planned as a bounded source-byte review of the 37 existing-codec failures;
+  unsupported or ambiguous interpretations must retain their original evidence.
+
+### 2026-09-21 — Step 18c repeated coverage verified
+
+- A second complete audit reproduces **all 16 coverage tables and the tracked
+  summary exactly**, including both independent sample source checks, every
+  historical/current package and all available bitmap pixels.
+- Coverage summary SHA-256: `8dfc45c16e0d773c2ffb04147e8099cb728e46d1777b356fe64d253f6c5b148e`.
+- All six new integration tests pass without skips, covering exact eligibility,
+  distinct sample identities, runtime inventory/policy rejection, all 72 handoffs,
+  both added article payloads, preserved histories and deferred decisions.
+  Full historical regressions remain running.
+
+### 2026-09-21 — Step 18c completed: combined Symbol coverage
+
+- Both validated Symbol samples are integrated into the 72 current issue handoffs.
+  Coverage is **990 prepared articles, 90 failures and eight blockers** out of
+  1,088 candidates. All earlier article, preview and media bytes remain exact;
+  both new source audits reproduce the samples. No new extraction was attempted.
+- Complete resume reproduces the 74-file manifest. Repeated full reporting
+  reproduces all 16 tables and the tracked summary exactly. Five separate retry
+  histories preserve the two Symbol samples and the earlier 6/5/33/470 retries.
+  The two Symbol conflicts, `9309201` and all other unresolved outcomes survive.
+- **282 regression tests pass without skips**, including six new integration
+  tests and all historical source/package/schema/Markdown/base-URL checks.
+  Changed-document links, catalog JSON and staged whitespace checks pass.
+- PLAN-CD1 marks **18c done; 19a next**: audit retained source bytes for the 37
+  existing-codec failures and validate a bounded sample only where supported.
+  Forty font/decoding failures remain in total. Other exception classes, physical
+  review, TOC matching, scans, media repair, backup/restore, CD2/CD3, UI and
+  publication/access remain separate work.
+- The current report is `docs/CD1-SYMBOL-PASS.md`, backed by
+  `data/catalog/batch-runs/cd1-symbol-pass.json`. Full text, media and detailed
+  evidence remain private. Frozen decoder, shared policy, schema and historical
+  records remain unchanged. The owner's two PRD files are excluded from the commit.

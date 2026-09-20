@@ -130,3 +130,10 @@ retry-cd1-symbol-sample:
 .PHONY: retry-cd1-symbol-arrows
 retry-cd1-symbol-arrows:
 	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_symbol_arrows $(FONT_ARGS)
+
+.PHONY: run-cd1-symbol-pass report-cd1-symbol-pass
+run-cd1-symbol-pass:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.symbol_pass
+
+report-cd1-symbol-pass:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.symbol_coverage $(REPORT_ARGS)
