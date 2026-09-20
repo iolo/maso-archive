@@ -1,0 +1,3381 @@
+{
+  "version": 1,
+  "baseline_record": "data/catalog/issue-packages/cd1-1988-02-native.json",
+  "baseline_record_sha256": "053119422e4d23add898dd21a88116b0387284100d8374033f2f2b7e93239259",
+  "inputs": {
+    "build/cd1-blocks/8802065/blocks.json": {
+      "path": "build/cd1-blocks/8802065/blocks.json",
+      "bytes": 243572,
+      "sha256": "800c96ee597614ff78c0a567631bcd0e5ddb4b8086ccc18374bac90668a6c8d5"
+    },
+    "build/cd1-second-article/8802114/blocks.json": {
+      "path": "build/cd1-second-article/8802114/blocks.json",
+      "bytes": 126395,
+      "sha256": "2feda8cb1ac59475db639d32ceeff3f6bc4ae08fed9e48f4bf3ae630f130fe03"
+    },
+    "build/cd1-articles/8802030/blocks.json": {
+      "path": "build/cd1-articles/8802030/blocks.json",
+      "bytes": 85405,
+      "sha256": "3e7da1154cbf3fa9b2d0f2e899de989e4558f62405a2a5c60a7a13b5d4c12895"
+    },
+    "build/cd1-articles/8802184/blocks.json": {
+      "path": "build/cd1-articles/8802184/blocks.json",
+      "bytes": 309718,
+      "sha256": "41304048f5a110c30764cd22f772f4769ca44875ecd69d286f38f49110d8439c"
+    },
+    "build/cd1-articles/8802180/blocks.json": {
+      "path": "build/cd1-articles/8802180/blocks.json",
+      "bytes": 129059,
+      "sha256": "a57feadc17fbf3755a42a783cfbb2bced9ab1692a2454c8d531ef697899d2ba7"
+    },
+    "build/cd1-articles/8802162/blocks.json": {
+      "path": "build/cd1-articles/8802162/blocks.json",
+      "bytes": 116753,
+      "sha256": "5a1dc5423c2ed46d81d3c8d2d370315202754ac9dc21576f4cc20c814fc947e5"
+    }
+  },
+  "articles": {
+    "8802065": {
+      "article_id": "cd1:article:8802065",
+      "source_topics": [
+        {
+          "id": "cd1:topic:0148",
+          "native": {
+            "ordinal": 148,
+            "topic_number": 147,
+            "topic_pos": 789443,
+            "topic_offset": 1574891,
+            "mvb_header_byte_offset": 201987011,
+            "next_topic_pos": 789925,
+            "browse_back_topic_offset": -1,
+            "browse_forward_topic_offset": -1
+          },
+          "rtf": {
+            "byte_offset": 376628,
+            "byte_length": 1310,
+            "sha256": "d6932f2c7162d57f7f735a9aef60a2374e996d68e4d33c3dbff3f28d15a0503d"
+          },
+          "aliases": [
+            "3M4UMD"
+          ],
+          "context_relation": "at_native_header"
+        },
+        {
+          "id": "cd1:topic:0149",
+          "native": {
+            "ordinal": 149,
+            "topic_number": 148,
+            "topic_pos": 789925,
+            "topic_offset": 1575226,
+            "mvb_header_byte_offset": 201987493,
+            "next_topic_pos": 986627,
+            "browse_back_topic_offset": 1409419,
+            "browse_forward_topic_offset": 1998848,
+            "title": "유닉스란 무엇인가?"
+          },
+          "rtf": {
+            "byte_offset": 377944,
+            "byte_length": 148269,
+            "sha256": "7ad6397062553dee1afd273df000649be26d9723d2e66050480c1b056780038d"
+          },
+          "aliases": [
+            "2PES_R6"
+          ],
+          "context_relation": "at_native_header"
+        }
+      ],
+      "font_codecs": {
+        "4": "cp949",
+        "5": "cp949",
+        "6": "cp949"
+      },
+      "decisions": [
+        {
+          "topic": 148,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "subtype": "introductory_title",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "linked_topic_title",
+              "review_concerns": []
+            },
+            "parent_heading_id": null
+          },
+          "content_sha256": "38300f2c54cdfc79401394ab310a08b101c8a6fcac2ffd58a34a118e5097d5c5"
+        },
+        {
+          "topic": 149,
+          "first": 1,
+          "last": 1,
+          "properties": {
+            "kind": "issue_label",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "explicit_issue_page_label",
+              "review_concerns": []
+            },
+            "parent_heading_id": null
+          },
+          "content_sha256": "c90a722f8b9bff051e77a056694bc1101af139ab7e945d5bf2d0b004743aa7ad"
+        },
+        {
+          "topic": 149,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "subtype": "with_navigation_icon",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "native_title_and_large_bold_runs",
+              "review_concerns": [
+                "navigation_icon_role_pending_viewer"
+              ]
+            },
+            "parent_heading_id": null
+          },
+          "content_sha256": "d83f5b885d3cdc7c097fc41e8dd113d44a51c5f81e266d469daf12f734356703"
+        },
+        {
+          "topic": 149,
+          "first": 4,
+          "last": 4,
+          "properties": {
+            "kind": "byline",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "byline_prefix_at_article_opening",
+              "review_concerns": []
+            },
+            "parent_heading_id": null
+          },
+          "content_sha256": "c1fd1e5645b175f5e99448649eeb4bdb84cec05bd50ee225d95b9a69f1367ea1"
+        },
+        {
+          "topic": 149,
+          "first": 6,
+          "last": 6,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 1,
+            "parent_heading_id": null
+          },
+          "content_sha256": "1e40172cfc7948382c61a847680e4ca2f6e52586975be6193bcd8e711bc5fcac"
+        },
+        {
+          "topic": 149,
+          "first": 11,
+          "last": 11,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 1,
+            "parent_heading_id": null
+          },
+          "content_sha256": "5138302fd653dd063e1eee61f101795cd02d476297b02ea6a3a2e5db67a757cb"
+        },
+        {
+          "topic": 149,
+          "first": 12,
+          "last": 12,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2,
+            "parent_heading_id": "cd1-8802065:T149:P011-011"
+          },
+          "content_sha256": "b83941b0db02c022971854bed500fd8309e4c5fc85baf5c7620757ea60b2aa2f"
+        },
+        {
+          "topic": 149,
+          "first": 20,
+          "last": 20,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P012-012"
+          },
+          "content_sha256": "dfb7ee54fe0d3b1a721a70e539e15c57b45dc224445109e37858c85b46634ef9"
+        },
+        {
+          "topic": 149,
+          "first": 21,
+          "last": 21,
+          "properties": {
+            "kind": "figure",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P012-012"
+          },
+          "content_sha256": "e45c09c64944955a5320c5be346738a6a9f8a442fac300c596f53ecc079175ee"
+        },
+        {
+          "topic": 149,
+          "first": 23,
+          "last": 23,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2,
+            "parent_heading_id": "cd1-8802065:T149:P011-011"
+          },
+          "content_sha256": "655e457c022d5819a8b0ff9063f7d1dd91547ae5bf1b1297536e0a2783c93a73"
+        },
+        {
+          "topic": 149,
+          "first": 26,
+          "last": 26,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P023-023"
+          },
+          "content_sha256": "b027599cd2486020df469e32ba42738ee436f6bb99c772fe4ed231a292323a5b"
+        },
+        {
+          "topic": 149,
+          "first": 30,
+          "last": 30,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P023-023"
+          },
+          "content_sha256": "01e5f86fdf23d1489407b5af7ba72c52ee2a17f6b503e7be1df323f9c699038b"
+        },
+        {
+          "topic": 149,
+          "first": 33,
+          "last": 33,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P023-023"
+          },
+          "content_sha256": "6ab47f2b32bfdc1825e0eb464fe9182b689ef3775f9845a4a15bfaf5053c6c9a"
+        },
+        {
+          "topic": 149,
+          "first": 37,
+          "last": 37,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P033-033"
+          },
+          "content_sha256": "0f3d78ed6222ad1ff105d7030822e5f0ff8a76be16260b3f21830e00cbd1456a"
+        },
+        {
+          "topic": 149,
+          "first": 38,
+          "last": 38,
+          "properties": {
+            "kind": "figure",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P033-033"
+          },
+          "content_sha256": "0e4958b6ee8b6158877fb1eaa0c55dd9facb501350ddd4b5bb21d76f4106180e"
+        },
+        {
+          "topic": 149,
+          "first": 40,
+          "last": 40,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P023-023"
+          },
+          "content_sha256": "5949c2b0a08d09d4868fbcfd0008c4eedc25b1e71eb11a08f25d0dbee730886b"
+        },
+        {
+          "topic": 149,
+          "first": 45,
+          "last": 45,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P023-023"
+          },
+          "content_sha256": "f97dd24b4ec2e1fa3023eea2071f7c7baa0a8f403c8a5e969a49a4667e4b0139"
+        },
+        {
+          "topic": 149,
+          "first": 49,
+          "last": 49,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P023-023"
+          },
+          "content_sha256": "e93463716a277e926c0c21d6f73978025b12b5742c36a9ff1e9d195c73ab33b2"
+        },
+        {
+          "topic": 149,
+          "first": 52,
+          "last": 52,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2,
+            "parent_heading_id": "cd1-8802065:T149:P011-011"
+          },
+          "content_sha256": "b5c46832d525613299416795df0efd2cb3b9b0cfd7a58129dbe8579e3a8d5d5d"
+        },
+        {
+          "topic": 149,
+          "first": 55,
+          "last": 55,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "4ba181e5b61a6044b181be7b792fe108c545148b50a07e15cbf6afc961eb673d"
+        },
+        {
+          "topic": 149,
+          "first": 59,
+          "last": 59,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P055-055",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "1848c9b5218b97e1378d66b55d9a78fbbc86dc9b08261f7acba0f49a587a38a4"
+        },
+        {
+          "topic": 149,
+          "first": 67,
+          "last": 67,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P055-055",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "3f7f3234f24d866af86e405cd07a37a34eacb8bf66b50a0d84cf6fcaf95281ab"
+        },
+        {
+          "topic": 149,
+          "first": 71,
+          "last": 71,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P055-055",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "6b50b9b212d3a0d3b2d4f79222d3433d4a14016fe5f9d05400e7a32f44de7dfa"
+        },
+        {
+          "topic": 149,
+          "first": 76,
+          "last": 76,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P055-055",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "ff931731cb99618b3dd67a63931a184e5c6b6293658fe6c450dba5f12e79b516"
+        },
+        {
+          "topic": 149,
+          "first": 80,
+          "last": 80,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P055-055",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "0203938a9749a4f854368483f045bbbdfd3b01e104a43cd9a4aeaffa76db2f98"
+        },
+        {
+          "topic": 149,
+          "first": 85,
+          "last": 85,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P055-055",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "bde852880b66e2dc94c9988bac7e336f26cc6d70b5a59bfc616fbb46906b9e72"
+        },
+        {
+          "topic": 149,
+          "first": 90,
+          "last": 90,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P055-055",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "9161a54a5b2df9907abd88d88ffa94d4a0b386e6d337970937fed61eb8cdcd4c"
+        },
+        {
+          "topic": 149,
+          "first": 96,
+          "last": 96,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "de757eac571491666a4d57ca1cb5b3be4d1c68ed74609552d50cdc49e9fd95a5"
+        },
+        {
+          "topic": 149,
+          "first": 100,
+          "last": 100,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P096-096",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "7f48fb6d94d9736b162d6a6d83b5d8e1ecbe7951b55339b132e49e633bc4128f"
+        },
+        {
+          "topic": 149,
+          "first": 105,
+          "last": 105,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P096-096",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "64c90d3959deaabd131d629f121d99195d2f6331a1a07edf08b50a49c6a33f8e"
+        },
+        {
+          "topic": 149,
+          "first": 109,
+          "last": 109,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P096-096",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "cc6077c932460277ac2c45c05fa3c03fe041e8c9ec71b6c8f33461bb5a1968f7"
+        },
+        {
+          "topic": 149,
+          "first": 113,
+          "last": 113,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P096-096",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "45cc37d7ae1888c846b8f78ff0a4fa6e532317507ba706f11d9e987bc45246ce"
+        },
+        {
+          "topic": 149,
+          "first": 123,
+          "last": 123,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "4e3098fbd150cff00da65c15d0bb215700d91fa3323b8b0414d9e780f54e2bff"
+        },
+        {
+          "topic": 149,
+          "first": 128,
+          "last": 128,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "fb413723ea51a949a88015d23ff9c9d7068d1f38cb5eb76eba743faef1a847a0"
+        },
+        {
+          "topic": 149,
+          "first": 129,
+          "last": 129,
+          "properties": {
+            "kind": "figure",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "19b997d52dc98fa57b7dada61ee9e7a4c9c2f702228f9bfdc7316fd624c8095c"
+        },
+        {
+          "topic": 149,
+          "first": 136,
+          "last": 136,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "01cad0a96d120813844b226d401c8020348ccefb3e6a24fd7fb8d71bf605c17b"
+        },
+        {
+          "topic": 149,
+          "first": 137,
+          "last": 145,
+          "properties": {
+            "kind": "code",
+            "subtype": "roff_mm_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "figure_4_caption_and_macro_sequence",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "9d0d95a78d006c4821f8666934cc7f843a137b00735da6a218c91ab55f1b5530"
+        },
+        {
+          "topic": 149,
+          "first": 147,
+          "last": 147,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "a523540aaebb990bc94ab7235ffe7e1f9f5ac7f71bb015f725ee286aaafbfcea"
+        },
+        {
+          "topic": 149,
+          "first": 148,
+          "last": 148,
+          "properties": {
+            "kind": "figure",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "a27268db84799936f0742139f585bd62b2309f15a5b5eb7808c3c47e283127bc"
+        },
+        {
+          "topic": 149,
+          "first": 154,
+          "last": 154,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "8bafbb8072541acd3ae5b32a02732f96cfdd1738e34769d53f88ba52f20758e6"
+        },
+        {
+          "topic": 149,
+          "first": 156,
+          "last": 173,
+          "properties": {
+            "kind": "code",
+            "subtype": "roff_tbl_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "figure_6_caption_and_DS_TS_TE_DE_delimiters",
+              "review_concerns": [
+                "ten_inline_objects_require_image_inspection; example_is_not_text_only"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123",
+            "representation": "mixed_text_objects",
+            "language": null
+          },
+          "content_sha256": "239b8372a0d8c63a29bf3b33ffcf1e86a4933d94afd29bd6ccff8bb803ac14a0"
+        },
+        {
+          "topic": 149,
+          "first": 174,
+          "last": 174,
+          "properties": {
+            "kind": "unresolved",
+            "subtype": "adjacent_object",
+            "decision": {
+              "status": "unresolved",
+              "basis": "object_between_example_end_and_next_caption",
+              "review_concerns": [
+                "bm54.wmf_attachment_unknown_until_image_inspection"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "b233eec1cdb0d8128ee0984c35af9c5d50a6ea9ec8cd045e4a912717c600fa7e"
+        },
+        {
+          "topic": 149,
+          "first": 175,
+          "last": 175,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "f8846474656452583f04f831d103484ef143c40013c4ada793ab6f0a6d8d6617"
+        },
+        {
+          "topic": 149,
+          "first": 176,
+          "last": 176,
+          "properties": {
+            "kind": "figure",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection",
+                "table_cells_not_reconstructed"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "a3a2ef240e40655c7d7fa0013b035fe18fd013c51444623402f1a17d0a5a642e"
+        },
+        {
+          "topic": 149,
+          "first": 180,
+          "last": 180,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "a64605cc69aeb02fb441ad152c5f52da994c8bd15cf2f797d7ff964d219d6c6b"
+        },
+        {
+          "topic": 149,
+          "first": 182,
+          "last": 202,
+          "properties": {
+            "kind": "code",
+            "subtype": "pic_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "figure_8_caption_and_PS_PE_delimiters",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "043f8ad8245947c8bce1684a1ae61f2b8b9dde51b40fafd8b934e1b0f76ba958"
+        },
+        {
+          "topic": 149,
+          "first": 207,
+          "last": 207,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "cafe8e2b29077a6e87fe77b7c8ab09f2a62d5b3c4be316c63315411dbd352bbc"
+        },
+        {
+          "topic": 149,
+          "first": 208,
+          "last": 208,
+          "properties": {
+            "kind": "figure",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "f2019d65859cb96e05f68704149c4ea897feb9a52ce38d4443bf7de236c93185"
+        },
+        {
+          "topic": 149,
+          "first": 210,
+          "last": 210,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123"
+          },
+          "content_sha256": "29e917a3850b0b376581025fd214db5ce7e74f863194e0f41bd930b1ebcf5fb2"
+        },
+        {
+          "topic": 149,
+          "first": 212,
+          "last": 217,
+          "properties": {
+            "kind": "code",
+            "subtype": "eqn_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "figure_10_caption_and_EQ_EN_delimiters",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P123-123",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "ee28bf32eb7bc53814f1fa66e884a598822ef322dd5e208e66830881aefb4c07"
+        },
+        {
+          "topic": 149,
+          "first": 224,
+          "last": 224,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "ec682db5e1157a2421eeaff52cd7ed3991f6098d506b4c4db257a3a18a9711ea"
+        },
+        {
+          "topic": 149,
+          "first": 229,
+          "last": 229,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P224-224"
+          },
+          "content_sha256": "ea466310f026195beeae958cb9cf16ede2c1974d28f9cf3b7b5794b8c0370ad9"
+        },
+        {
+          "topic": 149,
+          "first": 230,
+          "last": 230,
+          "properties": {
+            "kind": "figure",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P224-224"
+          },
+          "content_sha256": "1b78d9cd58f663cbf1d441a2f3ff7c511d0cd889ff2351256c4e5bcfff4b1b20"
+        },
+        {
+          "topic": 149,
+          "first": 232,
+          "last": 232,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "c44f85293bed462a36493cb086f8e613bfaab20a7e344168a30887b540e2bc15"
+        },
+        {
+          "topic": 149,
+          "first": 237,
+          "last": 237,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "5e796dcc87d165a3ded6824a20142287fb69820cfdf14be6262a13bd7f5cee24"
+        },
+        {
+          "topic": 149,
+          "first": 244,
+          "last": 244,
+          "properties": {
+            "kind": "caption",
+            "subtype": "figure",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P237-237"
+          },
+          "content_sha256": "1113d8508a7d27c36239df600955baf5e3c1797d5f188efe7fcdd1a4198ea6fa"
+        },
+        {
+          "topic": 149,
+          "first": 245,
+          "last": 245,
+          "properties": {
+            "kind": "figure",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P237-237"
+          },
+          "content_sha256": "28cd0347bd365e809ca9d9b8cf362739afa60052c196f03ea23d9850c61a3caa"
+        },
+        {
+          "topic": 149,
+          "first": 251,
+          "last": 251,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "6f4010003ae113697ce3e74a016f8ad095f4bf4a41df37b4ea7df203c6ca0bf0"
+        },
+        {
+          "topic": 149,
+          "first": 255,
+          "last": 257,
+          "properties": {
+            "kind": "code",
+            "subtype": "terminal_transcript",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "prompt_usage_output_prompt_sequence",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P251-251",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "d431d7e6278c848e3e556e6edadd9ac04586cc205f9b8104a905b9a7b3819d9a"
+        },
+        {
+          "topic": 149,
+          "first": 261,
+          "last": 261,
+          "properties": {
+            "kind": "code",
+            "subtype": "command_example",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "isolated_prompt_and_explanatory_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P251-251",
+            "representation": "preformatted_text",
+            "language": null
+          },
+          "content_sha256": "5bf7b653079555787bca8adeef3430d349c87a2951564bc914c2001c0f6c17a0"
+        },
+        {
+          "topic": 149,
+          "first": 266,
+          "last": 266,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "aeecd94018a1649095333afcc361697e433d141291b581bedd9b2176b1d15c70"
+        },
+        {
+          "topic": 149,
+          "first": 270,
+          "last": 270,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P052-052"
+          },
+          "content_sha256": "8fd7cd6807e48b7e5e64d58d80e786d8022e6207d51f0b4fc5c8c21c7faf7947"
+        },
+        {
+          "topic": 149,
+          "first": 275,
+          "last": 275,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2,
+            "parent_heading_id": "cd1-8802065:T149:P011-011"
+          },
+          "content_sha256": "5ba978f1024a8a6682605bccfac84294a7c679dc63091f3f40bcdfcc271fee5a"
+        },
+        {
+          "topic": 149,
+          "first": 282,
+          "last": 282,
+          "properties": {
+            "kind": "caption",
+            "subtype": "table",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "label_and_reviewed_content_context",
+              "review_concerns": []
+            },
+            "parent_heading_id": "cd1-8802065:T149:P275-275"
+          },
+          "content_sha256": "f5977e466d5568b4a4058432fdf51c8a172698a1475bbd41c980c4cadbffa97a"
+        },
+        {
+          "topic": 149,
+          "first": 283,
+          "last": 283,
+          "properties": {
+            "kind": "table",
+            "subtype": "image_backed",
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "caption_link_and_object_run",
+              "review_concerns": [
+                "image_contents_pending_inspection",
+                "table_cells_not_reconstructed"
+              ]
+            },
+            "parent_heading_id": "cd1-8802065:T149:P275-275"
+          },
+          "content_sha256": "0356973b3727c50ae4a082d47ae893672b547b84597abadfaf72919d90627f37"
+        },
+        {
+          "topic": 149,
+          "first": 285,
+          "last": 285,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P275-275"
+          },
+          "content_sha256": "bc16c65d1ed623d132065202de5c15f59529655c6beaa5560c8f30957ee50239"
+        },
+        {
+          "topic": 149,
+          "first": 290,
+          "last": 290,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P275-275"
+          },
+          "content_sha256": "01d2e567323f2469ff0f7ea7674f8e7b3e30fd30cb3d1cfd1feb92ec40a4ab92"
+        },
+        {
+          "topic": 149,
+          "first": 296,
+          "last": 296,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 3,
+            "parent_heading_id": "cd1-8802065:T149:P275-275"
+          },
+          "content_sha256": "d47c3f2ee190bdbe2b80bc8b9b65e75b9eb7b21ebca277c213f2c7771b0ac667"
+        },
+        {
+          "topic": 149,
+          "first": 303,
+          "last": 303,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 1,
+            "parent_heading_id": null
+          },
+          "content_sha256": "0cc28972c01ccf2fbed534e3031c02ca8b879ba0697df649b4f213c8a3ef1600"
+        },
+        {
+          "topic": 149,
+          "first": 304,
+          "last": 304,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2,
+            "parent_heading_id": "cd1-8802065:T149:P303-303"
+          },
+          "content_sha256": "9b911f649e186eed79dc4eaa0edd27923f9ae1b0add999e6da3f7382b19ea1e4"
+        },
+        {
+          "topic": 149,
+          "first": 309,
+          "last": 309,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2,
+            "parent_heading_id": "cd1-8802065:T149:P303-303"
+          },
+          "content_sha256": "687e2ee6990bb4aacaf5ab58f8c719481b3f5135363cf870306406aa47ea8814"
+        },
+        {
+          "topic": 149,
+          "first": 314,
+          "last": 314,
+          "properties": {
+            "kind": "heading",
+            "subtype": null,
+            "decision": {
+              "status": "source_supported_pending_viewer",
+              "basis": "numbered_label_bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2,
+            "parent_heading_id": "cd1-8802065:T149:P303-303"
+          },
+          "content_sha256": "454490e30dcb16ccec9618ff58a73a9e67cf0d0b3c8580259a2bfea158503210"
+        }
+      ],
+      "relationships": [
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 1,
+          "from_block": "cd1-8802065:T149:P020-020",
+          "to_block": "cd1-8802065:T149:P021-021",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 2,
+          "from_block": "cd1-8802065:T149:P037-037",
+          "to_block": "cd1-8802065:T149:P038-038",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 3,
+          "from_block": "cd1-8802065:T149:P128-128",
+          "to_block": "cd1-8802065:T149:P129-129",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 4,
+          "from_block": "cd1-8802065:T149:P136-136",
+          "to_block": "cd1-8802065:T149:P137-145",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 5,
+          "from_block": "cd1-8802065:T149:P147-147",
+          "to_block": "cd1-8802065:T149:P148-148",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 6,
+          "from_block": "cd1-8802065:T149:P154-154",
+          "to_block": "cd1-8802065:T149:P156-173",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 7,
+          "from_block": "cd1-8802065:T149:P175-175",
+          "to_block": "cd1-8802065:T149:P176-176",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 8,
+          "from_block": "cd1-8802065:T149:P180-180",
+          "to_block": "cd1-8802065:T149:P182-202",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 9,
+          "from_block": "cd1-8802065:T149:P207-207",
+          "to_block": "cd1-8802065:T149:P208-208",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 10,
+          "from_block": "cd1-8802065:T149:P210-210",
+          "to_block": "cd1-8802065:T149:P212-217",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 11,
+          "from_block": "cd1-8802065:T149:P229-229",
+          "to_block": "cd1-8802065:T149:P230-230",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "figure",
+          "label_number": 12,
+          "from_block": "cd1-8802065:T149:P244-244",
+          "to_block": "cd1-8802065:T149:P245-245",
+          "status": "source_supported_pending_viewer"
+        },
+        {
+          "kind": "caption_for",
+          "label_kind": "table",
+          "label_number": 1,
+          "from_block": "cd1-8802065:T149:P282-282",
+          "to_block": "cd1-8802065:T149:P283-283",
+          "status": "source_supported_pending_viewer"
+        }
+      ],
+      "runtime_metadata": {
+        "schema_version": 1,
+        "kind": "article",
+        "id": "cd1:article:8802065",
+        "issue_id": "maso-1988-02",
+        "title": "유닉스란 무엇인가?",
+        "byline": "글/ 편집부",
+        "pages": {
+          "start": 65,
+          "end": null
+        },
+        "source": {
+          "disc_id": "cd1",
+          "reference": "8802065"
+        },
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0035"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      },
+      "article_sha256": "fd84ac93107ef3e813e1235cbbadf8a7944ec6d38813bb4e0c2ae2e4bc2695d5"
+    },
+    "8802114": {
+      "article_id": "cd1:article:8802114",
+      "source_topics": [
+        {
+          "id": "cd1:topic:0151",
+          "native": {
+            "ordinal": 151,
+            "topic_number": 150,
+            "topic_pos": 986724,
+            "topic_offset": 1968827,
+            "mvb_header_byte_offset": 202036836,
+            "next_topic_pos": 999501,
+            "browse_back_topic_offset": -1,
+            "browse_forward_topic_offset": -1
+          },
+          "rtf": {
+            "byte_offset": 526234,
+            "byte_length": 1311,
+            "sha256": "f300353b1920c69bb6e6c3f24d23d4b599d2270edabe526deedf25bc16929e3a"
+          },
+          "aliases": [
+            "3M4LHC"
+          ],
+          "context_relation": "at_native_header"
+        },
+        {
+          "id": "cd1:topic:0152",
+          "native": {
+            "ordinal": 152,
+            "topic_number": 151,
+            "topic_pos": 999501,
+            "topic_offset": 1998848,
+            "mvb_header_byte_offset": 202037325,
+            "next_topic_pos": 1066809,
+            "browse_back_topic_offset": 1575226,
+            "browse_forward_topic_offset": 2131408,
+            "title": "스펠링 체커"
+          },
+          "rtf": {
+            "byte_offset": 527551,
+            "byte_length": 26313,
+            "sha256": "2333726b745676cf95566178b7662a2a719ed31911e810a595d05aa0cda81327"
+          },
+          "aliases": [
+            "1KN6EK"
+          ],
+          "context_relation": "at_native_header"
+        }
+      ],
+      "font_codecs": {
+        "4": "cp949",
+        "5": "cp949",
+        "6": "cp949",
+        "15": "ascii"
+      },
+      "decisions": [
+        {
+          "topic": 151,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_title",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "42dfc594980d7c72d70c2c5e10aa5e607ded7f28ad2e8882fe1473a546eda67e"
+        },
+        {
+          "topic": 152,
+          "first": 1,
+          "last": 1,
+          "properties": {
+            "kind": "issue_label",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "explicit_issue_page_label",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "690ca7aac4f537081c1cf7cc03d2f92bbcabc6726723bb4f9fb363a8177c7247"
+        },
+        {
+          "topic": 152,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_title",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "8ef65b38e94c26ba1f5f458c5cfd25edc14af9bb8f8e9cc6afd1d0864248a50b"
+        },
+        {
+          "topic": 152,
+          "first": 4,
+          "last": 4,
+          "properties": {
+            "kind": "byline",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "explicit_editorial_byline",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "c1fd1e5645b175f5e99448649eeb4bdb84cec05bd50ee225d95b9a69f1367ea1"
+        },
+        {
+          "topic": 152,
+          "first": 10,
+          "last": 10,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "unnumbered_bold_24_half_points_indent_215",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "dd74b8d6fa0bb5397279f30c5441929d80b0dedc93f8d75d175631a02cbcb76f"
+        },
+        {
+          "topic": 152,
+          "first": 14,
+          "last": 14,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "unnumbered_bold_24_half_points_indent_215",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "85e08c66a2b7ee236da2372e54fd44e1373dfe56eb54ca9955e7a3ad1cd6e53e"
+        },
+        {
+          "topic": 152,
+          "first": 18,
+          "last": 18,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802114:T152:P014-014",
+            "decision": {
+              "basis": "isolated_command_between_usage_instructions",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "b7df7ec9ca2e1981e0a2f6cac78981fbea143c38a11487180eece23a382e6930"
+        },
+        {
+          "topic": 152,
+          "first": 24,
+          "last": 24,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802114:T152:P014-014",
+            "decision": {
+              "basis": "numbered_listing_label",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "e3fdc7581869b26d1d0ac9acc5910e4bd5117ce8c60c7557eaf4230dbaa99540"
+        },
+        {
+          "topic": 152,
+          "first": 26,
+          "last": 342,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802114:T152:P014-014",
+            "decision": {
+              "basis": "caption_program_end_and_Fixedsys_runs",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "3855bb278365f779eb6722382361e0039b94a74394c0dcf2ab217f0c80deeb29"
+        },
+        {
+          "topic": 152,
+          "first": 344,
+          "last": 344,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802114:T152:P014-014",
+            "decision": {
+              "basis": "numbered_listing_label",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "553d55ce1bbfff3c75b69657c82bf95a5233468a3f5ba00a49a62d4bd2702af3"
+        },
+        {
+          "topic": 152,
+          "first": 346,
+          "last": 381,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802114:T152:P014-014",
+            "decision": {
+              "basis": "caption_program_end_and_Fixedsys_runs",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "f0a67dbb06468f4e8ce076a0618719623500a6af89f0f2eebf438c089f8471ab"
+        },
+        {
+          "topic": 152,
+          "first": 383,
+          "last": 383,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802114:T152:P014-014",
+            "decision": {
+              "basis": "numbered_listing_label",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "defb8998e6d9eec9c443502830bb0ef9584f26d1395c537709dd9f091e53bbdf"
+        },
+        {
+          "topic": 152,
+          "first": 385,
+          "last": 480,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802114:T152:P014-014",
+            "decision": {
+              "basis": "caption_program_end_and_Fixedsys_runs",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "591144e259e3b13823aea70daa813232eb6e54d87978a69c3db2a9fd599237c9"
+        }
+      ],
+      "relationships": [
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802114:T152:P024-024",
+          "to_block": "cd1-8802114:T152:P026-342"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802114:T152:P344-344",
+          "to_block": "cd1-8802114:T152:P346-381"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802114:T152:P383-383",
+          "to_block": "cd1-8802114:T152:P385-480"
+        }
+      ],
+      "runtime_metadata": {
+        "schema_version": 1,
+        "kind": "article",
+        "id": "cd1:article:8802114",
+        "issue_id": "maso-1988-02",
+        "title": "스펠링 체커",
+        "byline": "글/ 편집부",
+        "pages": {
+          "start": 114,
+          "end": null
+        },
+        "source": {
+          "disc_id": "cd1",
+          "reference": "8802114"
+        },
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0021"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      },
+      "article_sha256": "32460aabe47ad0a623724bc2791920ce63e1dd0e7cd145457be423d2a3ccdc3d"
+    },
+    "8802030": {
+      "article_id": "cd1:article:8802030",
+      "source_topics": [
+        {
+          "id": "cd1:topic:0145",
+          "native": {
+            "ordinal": 145,
+            "topic_number": 144,
+            "topic_pos": 704729,
+            "topic_offset": 1409026,
+            "mvb_header_byte_offset": 201963737,
+            "next_topic_pos": 705269,
+            "browse_back_topic_offset": -1,
+            "browse_forward_topic_offset": -1
+          },
+          "rtf": {
+            "byte_offset": 305158,
+            "byte_length": 1500,
+            "sha256": "9e32dd4bf6153c8aa78b758e246cc092a33abd91616944cd3b789c97bed7bc27"
+          },
+          "aliases": [
+            "3M4UJI"
+          ],
+          "context_relation": "at_native_header"
+        },
+        {
+          "id": "cd1:topic:0146",
+          "native": {
+            "ordinal": 146,
+            "topic_number": 145,
+            "topic_pos": 705269,
+            "topic_offset": 1409419,
+            "mvb_header_byte_offset": 201964277,
+            "next_topic_pos": 789346,
+            "browse_back_topic_offset": 1149241,
+            "browse_forward_topic_offset": 1575226
+          },
+          "rtf": {
+            "byte_offset": 306664,
+            "byte_length": 69943,
+            "sha256": "b7f2f71807064e0533d5434f1752b5ddf05d6c1e8c477af4c2ccc9c8e153fe32"
+          },
+          "aliases": [
+            "6SRE0ZE"
+          ],
+          "context_relation": "at_native_header"
+        }
+      ],
+      "font_codecs": {
+        "4": "cp949",
+        "5": "cp949"
+      },
+      "decisions": [
+        {
+          "topic": 145,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "subtype": null,
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_paragraph_and_opening_metadata",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "3b2a0652cfc8b7b87f38e3ec170a0d109cd119541b0524fc3f2ad39c250a7b45"
+        },
+        {
+          "topic": 146,
+          "first": 1,
+          "last": 1,
+          "properties": {
+            "kind": "issue_label",
+            "subtype": null,
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_paragraph_and_opening_metadata",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "85cfee2f2db15c13344a88a93bff7ba3a1fefce2edd57f9ccc4535182f633cdd"
+        },
+        {
+          "topic": 146,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "subtype": null,
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_paragraph_and_opening_metadata",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "b0ff4282416fc07ec02390523b0872615e04ce5f64692ff6d1bb626a1420ec03"
+        },
+        {
+          "topic": 146,
+          "first": 4,
+          "last": 4,
+          "properties": {
+            "kind": "byline",
+            "subtype": null,
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_paragraph_and_opening_metadata",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "c1fd1e5645b175f5e99448649eeb4bdb84cec05bd50ee225d95b9a69f1367ea1"
+        }
+      ],
+      "relationships": [],
+      "runtime_metadata": {
+        "schema_version": 1,
+        "kind": "article",
+        "id": "cd1:article:8802030",
+        "issue_id": "maso-1988-02",
+        "title": "CP/M의 게리 킬달",
+        "byline": "글/ 편집부",
+        "pages": {
+          "start": 30,
+          "end": null
+        },
+        "source": {
+          "disc_id": "cd1",
+          "reference": "8802030"
+        },
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0031"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      },
+      "article_sha256": "a1269594745e7768173f9a35f726d15be7d0fbab6689ff6819c53f17a3701c4e"
+    },
+    "8802184": {
+      "article_id": "cd1:article:8802184",
+      "source_topics": [
+        {
+          "id": "cd1:topic:0160",
+          "native": {
+            "ordinal": 160,
+            "topic_number": 159,
+            "topic_pos": 1214934,
+            "topic_offset": 2426645,
+            "mvb_header_byte_offset": 202093014,
+            "next_topic_pos": 1215484,
+            "browse_back_topic_offset": -1,
+            "browse_forward_topic_offset": -1
+          },
+          "rtf": {
+            "byte_offset": 633910,
+            "byte_length": 1480,
+            "sha256": "928ba1889771b33d5e51a68f780271fb0d84a6dad252861af5495a894027073a"
+          },
+          "aliases": [
+            "3M4LOC"
+          ],
+          "context_relation": "at_native_header"
+        },
+        {
+          "id": "cd1:topic:0161",
+          "native": {
+            "ordinal": 161,
+            "topic_number": 160,
+            "topic_pos": 1215484,
+            "topic_offset": 2427045,
+            "mvb_header_byte_offset": 202093564,
+            "next_topic_pos": 1392856,
+            "browse_back_topic_offset": 2326947,
+            "browse_forward_topic_offset": 2786503
+          },
+          "rtf": {
+            "byte_offset": 635396,
+            "byte_length": 60835,
+            "sha256": "9cae43baee446952a8842f0590dfce22f8cd6a8724fa3ff5a91144ab890c3ed9"
+          },
+          "aliases": [
+            "1KN6LK"
+          ],
+          "context_relation": "at_native_header"
+        }
+      ],
+      "font_codecs": {
+        "4": "cp949",
+        "5": "cp949",
+        "15": "ascii"
+      },
+      "decisions": [
+        {
+          "topic": 160,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_title",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "4992c143068bdcc303924513b76710eca8e0b984f752ffb392a907c5ea0e7109"
+        },
+        {
+          "topic": 161,
+          "first": 1,
+          "last": 1,
+          "properties": {
+            "kind": "issue_label",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "explicit_issue_page_label_with_object",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "aae915e2de2bc9994e168d11f05a54f5554f87440eade173fe1798b5974b9467"
+        },
+        {
+          "topic": 161,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_title",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "aaf1a0cf148cd4d8a43eb7dfff9a081f5c72d63048e7cead9b0465c54c78c53b"
+        },
+        {
+          "topic": 161,
+          "first": 4,
+          "last": 4,
+          "properties": {
+            "kind": "byline",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "explicit_author_byline",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "4319707f13aef0dc353117cb0a3e474e5e54342ed90d532e0e7d7f7d07e560f1"
+        },
+        {
+          "topic": 161,
+          "first": 9,
+          "last": 9,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "3c5471810909208b2e970096f4f451d142ecc1ea0c4604da6a25c38c99431457"
+        },
+        {
+          "topic": 161,
+          "first": 22,
+          "last": 22,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802184:T161:P009-009",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "2d69fac769fd1f2b3d62ade4fb704867864cda6cba170c636f83d572f0205f5f"
+        },
+        {
+          "topic": 161,
+          "first": 24,
+          "last": 1144,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802184:T161:P009-009",
+            "decision": {
+              "basis": "listing_caption_Fixedsys_runs_and_C_boundaries",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "9b6852b08def04facd054267e643ac70736adf47996cf0252516f62eac72d113"
+        },
+        {
+          "topic": 161,
+          "first": 1146,
+          "last": 1146,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "125322e8aa467f614fff6ff2f8c5321713df01d0715d2a8811a72452302da7f4"
+        },
+        {
+          "topic": 161,
+          "first": 1147,
+          "last": 1147,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "84f91a5efb6b6760440b72477e0009142a2841ab71cd1e80fd17eda30a5c40bb"
+        },
+        {
+          "topic": 161,
+          "first": 1150,
+          "last": 1150,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802184:T161:P1147-1147",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "0ca8c3d342d399ca01edf8dd420a2cf9f795fb0aeec0e6be386fa77a92b701af"
+        },
+        {
+          "topic": 161,
+          "first": 1151,
+          "last": 1151,
+          "properties": {
+            "kind": "figure",
+            "parent_heading_id": "cd1-8802184:T161:P1147-1147",
+            "decision": {
+              "basis": "single_bitmap_after_numbered_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "6679d8bf236fe5382599895f30052f396aa087b1e2b2290b8aa87227b750bb7a"
+        },
+        {
+          "topic": 161,
+          "first": 1153,
+          "last": 1153,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "ca55a28959a4bd8749be779deb31c16700b982d3071f33081bc705421ace5cf1"
+        },
+        {
+          "topic": 161,
+          "first": 1158,
+          "last": 1158,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "b0697f8f4731221c88d0597068aac0c594c1c7ee857ec6bf150dc39868277948"
+        },
+        {
+          "topic": 161,
+          "first": 1162,
+          "last": 1163,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802184:T161:P1158-1158",
+            "decision": {
+              "basis": "isolated_C_example_between_explanatory_paragraphs",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "24248bea7dc535c3844a82a4ca8e9bd9c4e3a0e6ef264a476b34f84a378c3e17"
+        },
+        {
+          "topic": 161,
+          "first": 1167,
+          "last": 1167,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "7d91691450d1640c90612ca5d7ac1d693789420c7a4628c742470ee151d21274"
+        },
+        {
+          "topic": 161,
+          "first": 1170,
+          "last": 1170,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802184:T161:P1167-1167",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "5fbd91a28bd3c8ca1978db1114a2caf53ff0352fb060dbe38abe4928814bb193"
+        },
+        {
+          "topic": 161,
+          "first": 1171,
+          "last": 1171,
+          "properties": {
+            "kind": "figure",
+            "parent_heading_id": "cd1-8802184:T161:P1167-1167",
+            "decision": {
+              "basis": "single_bitmap_after_numbered_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "4852f25f36fe0508a3a4d02d45115da4fbda803973b2c6157966cce72f84073d"
+        },
+        {
+          "topic": 161,
+          "first": 1173,
+          "last": 1173,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "d8ba2760edb326adc0af32d429f1e20bc4d4895abf4e9c5787947b035cb4cca3"
+        },
+        {
+          "topic": 161,
+          "first": 1177,
+          "last": 1177,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "b2d2a8a613e17ef96eeab30c61d2c9ade79b072f8ca1b747ee39488e015b37fa"
+        },
+        {
+          "topic": 161,
+          "first": 1180,
+          "last": 1180,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "395873d90dfd6eb7443faf31f003723a482bb9d69a378870a8812a38949871ca"
+        },
+        {
+          "topic": 161,
+          "first": 1183,
+          "last": 1183,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "555589cdb732adb06f6c3cc0d38487a1f41c0fd37f4472e642fe61548e03cf0e"
+        },
+        {
+          "topic": 161,
+          "first": 1186,
+          "last": 1186,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802184:T161:P1183-1183",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "3507f0b2a785ab07dde62ebea3adf5ed5b2b3ca5957c3666823ce9d8c65822f1"
+        },
+        {
+          "topic": 161,
+          "first": 1187,
+          "last": 1187,
+          "properties": {
+            "kind": "figure",
+            "parent_heading_id": "cd1-8802184:T161:P1183-1183",
+            "decision": {
+              "basis": "single_bitmap_after_numbered_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "bcbcac4df7ed470dc095dbe69629502cd8fb220329b9521f6d3e4e4debfc96fe"
+        },
+        {
+          "topic": 161,
+          "first": 1189,
+          "last": 1189,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "ec589de246f63b7ffff805e2a86dadf34fa22b147d3b61dffca3c13d6ec786ae"
+        },
+        {
+          "topic": 161,
+          "first": 1192,
+          "last": 1192,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802184:T161:P1146-1146",
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "2440ce26b26036c2ff375153ca53f00d6f83d3fe583d7862b7918c9335d31b50"
+        },
+        {
+          "topic": 161,
+          "first": 1195,
+          "last": 1195,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "c6b3f6119f2bd84d89b6d8ce1fcb05a599aa3820983829f344e202a78772af75"
+        },
+        {
+          "topic": 161,
+          "first": 1199,
+          "last": 1199,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_indented_source_heading",
+              "review_concerns": [
+                "unnumbered_closing_heading_level_inferred"
+              ]
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "02e663de40e7657ff779bbb3ea32e81d92ba9ffe04570366eb0a674fd8263684"
+        }
+      ],
+      "relationships": [
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802184:T161:P022-022",
+          "to_block": "cd1-8802184:T161:P024-1144"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802184:T161:P1150-1150",
+          "to_block": "cd1-8802184:T161:P1151-1151"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802184:T161:P1170-1170",
+          "to_block": "cd1-8802184:T161:P1171-1171"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802184:T161:P1186-1186",
+          "to_block": "cd1-8802184:T161:P1187-1187"
+        }
+      ],
+      "runtime_metadata": {
+        "schema_version": 1,
+        "kind": "article",
+        "id": "cd1:article:8802184",
+        "issue_id": "maso-1988-02",
+        "title": "터보 C로 작성한 에디터",
+        "byline": "글/ 우원식",
+        "pages": {
+          "start": 184,
+          "end": null
+        },
+        "source": {
+          "disc_id": "cd1",
+          "reference": "8802184"
+        },
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0027"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      },
+      "article_sha256": "15a3293c8945228353480fef5453aaee60426f5351cb340aaa793105ff646baf"
+    },
+    "8802180": {
+      "article_id": "cd1:article:8802180",
+      "source_topics": [
+        {
+          "id": "cd1:topic:0157",
+          "native": {
+            "ordinal": 157,
+            "topic_number": 156,
+            "topic_pos": 1163849,
+            "topic_offset": 2326665,
+            "mvb_header_byte_offset": 202078793,
+            "next_topic_pos": 1164275,
+            "browse_back_topic_offset": -1,
+            "browse_forward_topic_offset": -1
+          },
+          "rtf": {
+            "byte_offset": 607600,
+            "byte_length": 1110,
+            "sha256": "a91fe7f5e8a4e79c2c91615b2f8a412925de0c74b778a468b27dbe01925c4d45"
+          },
+          "aliases": [
+            "3M4LOI"
+          ],
+          "context_relation": "at_native_header"
+        },
+        {
+          "id": "cd1:topic:0158",
+          "native": {
+            "ordinal": 158,
+            "topic_number": 157,
+            "topic_pos": 1164275,
+            "topic_offset": 2326947,
+            "mvb_header_byte_offset": 202079219,
+            "next_topic_pos": 1214837,
+            "browse_back_topic_offset": 2131408,
+            "browse_forward_topic_offset": 2427045
+          },
+          "rtf": {
+            "byte_offset": 608716,
+            "byte_length": 25173,
+            "sha256": "b2c3efb6e27d5180678b1d1dbef4c818118ff142dc352f23b4f88889d7512cce"
+          },
+          "aliases": [
+            "1KN6LQ"
+          ],
+          "context_relation": "at_native_header"
+        }
+      ],
+      "font_codecs": {
+        "4": "cp949",
+        "5": "cp949",
+        "15": "cp949"
+      },
+      "decisions": [
+        {
+          "topic": 157,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_title",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "c985eb81c2b6ef7dd6996011382ca1a155168d25e66c4e21773df797eb72ab47"
+        },
+        {
+          "topic": 158,
+          "first": 1,
+          "last": 1,
+          "properties": {
+            "kind": "issue_label",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "explicit_issue_page_label_with_object",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "e4a2dcdd971c55cb8a992736b5ce273054c1908856cd43f3470a67356702c16b"
+        },
+        {
+          "topic": 158,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_title",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "e35b9877e1456d04fbd1ac59ea336b5a347b363bcabfc6cc667688cfb01ea779"
+        },
+        {
+          "topic": 158,
+          "first": 4,
+          "last": 4,
+          "properties": {
+            "kind": "byline",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "explicit_author_byline",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "42133c100788b5c1348bb66c0d97f042bf9e9df4ecb031a1b5dd41cc4d9b24a1"
+        },
+        {
+          "topic": 158,
+          "first": 11,
+          "last": 11,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "234b06dd1999c0d5afa6296afe25af4579bbe1b5257918a6a5a39473562ff753"
+        },
+        {
+          "topic": 158,
+          "first": 14,
+          "last": 14,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802180:T158:P011-011",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "91de4cd6cec1bbec035882c9549b0049f326830367af60042c215a0eddc60473"
+        },
+        {
+          "topic": 158,
+          "first": 15,
+          "last": 15,
+          "properties": {
+            "kind": "figure",
+            "parent_heading_id": "cd1-8802180:T158:P011-011",
+            "decision": {
+              "basis": "captioned_figure_with_ordered_text_and_bitmap",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "3abbd2fa836b69dd7dde04d3ee07ba50c789dadc9f82c69a0bd5fb4f73375168"
+        },
+        {
+          "topic": 158,
+          "first": 17,
+          "last": 17,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802180:T158:P011-011",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "85fda1f9f57e43958550d3b60fbd9d3ccbbca0546ca4821abdbd7d994adf1f05"
+        },
+        {
+          "topic": 158,
+          "first": 19,
+          "last": 36,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802180:T158:P011-011",
+            "decision": {
+              "basis": "numbered_listing_and_Fixedsys_runs",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "52b6d946de8dfcfaf652f684476827003fdba9e3e5bb25bbbd33da5ced7d2308"
+        },
+        {
+          "topic": 158,
+          "first": 38,
+          "last": 38,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802180:T158:P011-011",
+            "decision": {
+              "basis": "bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "f71cab6bb2daf380860865a69b3c530329e9a557c02cd431ee710ae27ed1f0fb"
+        },
+        {
+          "topic": 158,
+          "first": 41,
+          "last": 41,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802180:T158:P038-038",
+            "decision": {
+              "basis": "isolated_formula_or_call_between_explanatory_paragraphs",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "877da4ad6bd79133f1d4ef16248d5e063e12db9457c883abf0367ecd1d8b4ec8"
+        },
+        {
+          "topic": 158,
+          "first": 45,
+          "last": 45,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802180:T158:P011-011",
+            "decision": {
+              "basis": "bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "95c1e2582b597608483dc9c89b1881e6303798858c5ab60439635084463e9ccd"
+        },
+        {
+          "topic": 158,
+          "first": 48,
+          "last": 48,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802180:T158:P045-045",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "4a22b42b8f4cd21f1a08a935a13d643aff70a5e7b459318fbb238005821cd98b"
+        },
+        {
+          "topic": 158,
+          "first": 49,
+          "last": 49,
+          "properties": {
+            "kind": "figure",
+            "parent_heading_id": "cd1-8802180:T158:P045-045",
+            "decision": {
+              "basis": "captioned_figure_with_ordered_text_and_bitmap",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "8beabbdfa627b3d098c0a1bf0b93daba2c6d416fe40e31a7e624b22118924c4e"
+        },
+        {
+          "topic": 158,
+          "first": 51,
+          "last": 51,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802180:T158:P011-011",
+            "decision": {
+              "basis": "bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "d358c46eaeebc62736085705cd3327302d5956c829a5bfcb594b91147d97ca86"
+        },
+        {
+          "topic": 158,
+          "first": 54,
+          "last": 54,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "829073b809fb88c84f0a060e3d4fea2513561454838af06b0bcdf6dcf75740a5"
+        },
+        {
+          "topic": 158,
+          "first": 61,
+          "last": 61,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802180:T158:P054-054",
+            "decision": {
+              "basis": "isolated_formula_or_call_between_explanatory_paragraphs",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "25ff46c09dc14296054250860bfba9b9b39659fb1faee7b97ab4a3cbc6a264a6"
+        },
+        {
+          "topic": 158,
+          "first": 71,
+          "last": 71,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "7ede0c45de60c5c2350413e27d1cc24753d3e6e803073a92ef79a0bb5c0b23ea"
+        },
+        {
+          "topic": 158,
+          "first": 75,
+          "last": 75,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802180:T158:P071-071",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "952fb89d34866c4ea5e5d49f89b5307d22d37e19734ee3619d067bb2a0e596e6"
+        },
+        {
+          "topic": 158,
+          "first": 77,
+          "last": 286,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802180:T158:P071-071",
+            "decision": {
+              "basis": "numbered_listing_and_Fixedsys_runs",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "307df75a7a376e374fb9aa2e714fc7729dbe6ccca882c9b20532193bd5b539a5"
+        },
+        {
+          "topic": 158,
+          "first": 288,
+          "last": 288,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "ff78049c07dbaa982a9d31c852c76655fbbd91fa8083f49383e1e67412ff4341"
+        },
+        {
+          "topic": 158,
+          "first": 291,
+          "last": 291,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802180:T158:P288-288",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "0bd737f8c7807cf30f45eaab1931aa79a9285b575cbeb4cdc3d53cea5514a9c8"
+        },
+        {
+          "topic": 158,
+          "first": 293,
+          "last": 294,
+          "properties": {
+            "kind": "figure",
+            "parent_heading_id": "cd1-8802180:T158:P288-288",
+            "decision": {
+              "basis": "captioned_figure_with_ordered_text_and_bitmap",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "9a929a2bf516d2cf956605ad6777207b0d4bced152b46798d0f5fbc66417d346"
+        },
+        {
+          "topic": 158,
+          "first": 296,
+          "last": 296,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802180:T158:P288-288",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "56adc721c5cc0205fb5c43af5095fb35509fc6ba130be54ddc5250d02aea6b8b"
+        },
+        {
+          "topic": 158,
+          "first": 298,
+          "last": 388,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802180:T158:P288-288",
+            "decision": {
+              "basis": "numbered_listing_and_Fixedsys_runs",
+              "review_concerns": [
+                "suspect_decoded_text"
+              ]
+            }
+          },
+          "content_sha256": "2e2f1262efba9eb384b05692a10edcd27d0c87954983fe7de7a9929711feafcc"
+        },
+        {
+          "topic": 158,
+          "first": 390,
+          "last": 390,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_size_and_indent",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "02e663de40e7657ff779bbb3ea32e81d92ba9ffe04570366eb0a674fd8263684"
+        }
+      ],
+      "relationships": [
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802180:T158:P014-014",
+          "to_block": "cd1-8802180:T158:P015-015"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802180:T158:P017-017",
+          "to_block": "cd1-8802180:T158:P019-036"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802180:T158:P048-048",
+          "to_block": "cd1-8802180:T158:P049-049"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802180:T158:P075-075",
+          "to_block": "cd1-8802180:T158:P077-286"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802180:T158:P291-291",
+          "to_block": "cd1-8802180:T158:P293-294"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802180:T158:P296-296",
+          "to_block": "cd1-8802180:T158:P298-388"
+        }
+      ],
+      "runtime_metadata": {
+        "schema_version": 1,
+        "kind": "article",
+        "id": "cd1:article:8802180",
+        "issue_id": "maso-1988-02",
+        "title": "터보 파스칼 한글 그래픽스 툴",
+        "byline": "글/ 신상돈",
+        "pages": {
+          "start": 180,
+          "end": null
+        },
+        "source": {
+          "disc_id": "cd1",
+          "reference": "8802180"
+        },
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0026"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      },
+      "article_sha256": "333f029aa4052b62e1acc5f0064d4bbf39d71a49165b0c48ca84a07b9fb792f6"
+    },
+    "8802162": {
+      "article_id": "cd1:article:8802162",
+      "source_topics": [
+        {
+          "id": "cd1:topic:0154",
+          "native": {
+            "ordinal": 154,
+            "topic_number": 153,
+            "topic_pos": 1066906,
+            "topic_offset": 2131193,
+            "mvb_header_byte_offset": 202055578,
+            "next_topic_pos": 1067265,
+            "browse_back_topic_offset": -1,
+            "browse_forward_topic_offset": -1
+          },
+          "rtf": {
+            "byte_offset": 553890,
+            "byte_length": 821,
+            "sha256": "3244a91b82031e5e01e8884acc43971b6336c2a18bb5c5a2759cf46034a1ce44"
+          },
+          "aliases": [
+            "3M4LMA"
+          ],
+          "context_relation": "at_native_header"
+        },
+        {
+          "id": "cd1:topic:0155",
+          "native": {
+            "ordinal": 155,
+            "topic_number": 154,
+            "topic_pos": 1067265,
+            "topic_offset": 2131408,
+            "mvb_header_byte_offset": 202055937,
+            "next_topic_pos": 1163752,
+            "browse_back_topic_offset": 1998848,
+            "browse_forward_topic_offset": 2326947
+          },
+          "rtf": {
+            "byte_offset": 554717,
+            "byte_length": 52862,
+            "sha256": "de3f3e9bc146548942d57ddddc73cf12a99e0cb26b29867b1bf39b9dc927f3da"
+          },
+          "aliases": [
+            "1KN6JI"
+          ],
+          "context_relation": "at_native_header"
+        }
+      ],
+      "font_codecs": {
+        "4": "cp949",
+        "5": "cp949",
+        "15": "ascii"
+      },
+      "decisions": [
+        {
+          "topic": 154,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_title",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "a52fc51037dae26cbb2cee3e8debcdc9d33813e5c78801ac9cdfbd718a42dbed"
+        },
+        {
+          "topic": 155,
+          "first": 1,
+          "last": 1,
+          "properties": {
+            "kind": "issue_label",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "explicit_issue_page_label",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "0e2a8bfe01b4d528205c54a037d5655f862487063b1a18d012561e1650ab92cc"
+        },
+        {
+          "topic": 155,
+          "first": 2,
+          "last": 2,
+          "properties": {
+            "kind": "title",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "source_title",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "363a9840ff16e478c8afcada2426919fcb1e4d510e411f54c7ff16ebbef2fbcb"
+        },
+        {
+          "topic": 155,
+          "first": 4,
+          "last": 4,
+          "properties": {
+            "kind": "byline",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "explicit_editorial_byline",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "c1fd1e5645b175f5e99448649eeb4bdb84cec05bd50ee225d95b9a69f1367ea1"
+        },
+        {
+          "topic": 155,
+          "first": 10,
+          "last": 10,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "be4eca91a07afd8172cd6d97ab311e1ccc1f11269eca5f568b91f804be3058fb"
+        },
+        {
+          "topic": 155,
+          "first": 19,
+          "last": 19,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": null,
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 1
+          },
+          "content_sha256": "125322e8aa467f614fff6ff2f8c5321713df01d0715d2a8811a72452302da7f4"
+        },
+        {
+          "topic": 155,
+          "first": 23,
+          "last": 23,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802162:T155:P019-019",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "ae719596d067389549fc428729ed46313686593c08f5383fde73a31fc31809a5"
+        },
+        {
+          "topic": 155,
+          "first": 24,
+          "last": 24,
+          "properties": {
+            "kind": "table",
+            "parent_heading_id": "cd1-8802162:T155:P019-019",
+            "decision": {
+              "basis": "bitmap_and_trailing_space_after_numbered_caption",
+              "review_concerns": [
+                "table_cells_not_reconstructed"
+              ]
+            }
+          },
+          "content_sha256": "b629482c5d5b9fa5ac0a6d61a89096c51bd4f2ada5e736908285329290e4b615"
+        },
+        {
+          "topic": 155,
+          "first": 29,
+          "last": 29,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802162:T155:P019-019",
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "71451be7e8af1eaaf9c2a8fadc51ce0046aa178b6f75c0c4727c2e5fc72ce6ba"
+        },
+        {
+          "topic": 155,
+          "first": 34,
+          "last": 34,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802162:T155:P029-029",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "75e845264e0476d115880fbc4627f9b2a2a4c2757144e785d7090332e8261595"
+        },
+        {
+          "topic": 155,
+          "first": 35,
+          "last": 35,
+          "properties": {
+            "kind": "table",
+            "parent_heading_id": "cd1-8802162:T155:P029-029",
+            "decision": {
+              "basis": "bitmap_and_trailing_space_after_numbered_caption",
+              "review_concerns": [
+                "table_cells_not_reconstructed"
+              ]
+            }
+          },
+          "content_sha256": "bae293923b28c00a41b10b3b479900b5f961f576f35abf420862292b7ba3fe74"
+        },
+        {
+          "topic": 155,
+          "first": 37,
+          "last": 37,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802162:T155:P019-019",
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "25f48d066e3a09e76f71c0a76885950c79c83887b616ed55a74a6cd9eeb91e90"
+        },
+        {
+          "topic": 155,
+          "first": 43,
+          "last": 43,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802162:T155:P037-037",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "600a8794c9b7a069c621803ebf6abf33c9900db04e31fb6de4acd3c276ddae11"
+        },
+        {
+          "topic": 155,
+          "first": 44,
+          "last": 44,
+          "properties": {
+            "kind": "figure",
+            "parent_heading_id": "cd1-8802162:T155:P037-037",
+            "decision": {
+              "basis": "bitmap_and_trailing_space_after_numbered_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "f60231c774f1e3bf561471f9ec38deed346e465296e3ae93fe14c74fc3c92147"
+        },
+        {
+          "topic": 155,
+          "first": 48,
+          "last": 48,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802162:T155:P037-037",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "4eb473e665cd6934897dddf02eddf89d00fe118873e9bd2d9544485b403ce414"
+        },
+        {
+          "topic": 155,
+          "first": 49,
+          "last": 49,
+          "properties": {
+            "kind": "table",
+            "parent_heading_id": "cd1-8802162:T155:P037-037",
+            "decision": {
+              "basis": "bitmap_and_trailing_space_after_numbered_caption",
+              "review_concerns": [
+                "table_cells_not_reconstructed"
+              ]
+            }
+          },
+          "content_sha256": "bfd3e8607a8ab016c052d5fa04c2b157b3539ce0d11a210d70b4a4da4481a513"
+        },
+        {
+          "topic": 155,
+          "first": 51,
+          "last": 51,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802162:T155:P019-019",
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 2
+          },
+          "content_sha256": "b7ce546796876b5dedfee55128b786d12a53dd2cd8b414830c1e0fd293bb6bd3"
+        },
+        {
+          "topic": 155,
+          "first": 54,
+          "last": 54,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802162:T155:P051-051",
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 3
+          },
+          "content_sha256": "2e35c2507a3ae0f0f54ff92e9d4e03a256106b6b694307ff8c473b0273356943"
+        },
+        {
+          "topic": 155,
+          "first": 56,
+          "last": 56,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802162:T155:P051-051",
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 3
+          },
+          "content_sha256": "e415e10bdb1d2baa435dd922655c8159440e39864a0a8febc668df5ac5cf696d"
+        },
+        {
+          "topic": 155,
+          "first": 63,
+          "last": 63,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802162:T155:P051-051",
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 3
+          },
+          "content_sha256": "be6491ef2a5c2234adf30b5207f418d3497ce5abff7335ab947431ff798dfe44"
+        },
+        {
+          "topic": 155,
+          "first": 72,
+          "last": 72,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802162:T155:P051-051",
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 3
+          },
+          "content_sha256": "c2d39ca08934e15528f4bd0c473c4e01cacae71b24ef188e540a848d55ef717a"
+        },
+        {
+          "topic": 155,
+          "first": 82,
+          "last": 82,
+          "properties": {
+            "kind": "heading",
+            "parent_heading_id": "cd1-8802162:T155:P051-051",
+            "decision": {
+              "basis": "bold_source_heading_size_and_line_range_labels",
+              "review_concerns": []
+            },
+            "heading_level": 3
+          },
+          "content_sha256": "b4e5f9b3aed90a10ae8a6f6ca72ef5cd3cfd6a717783e6ad6b30f09494d1221e"
+        },
+        {
+          "topic": 155,
+          "first": 84,
+          "last": 84,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802162:T155:P082-082",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "8d4e541328356d42cae7c03fe9e01e32d422b4387adda85dfaf8e1340cc25ade"
+        },
+        {
+          "topic": 155,
+          "first": 86,
+          "last": 122,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802162:T155:P082-082",
+            "decision": {
+              "basis": "listing_caption_Fixedsys_runs_and_program_boundaries",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "676c4e397277026390aeb983fdcfa6739d7640c14d408e70e5980fd8da90146c"
+        },
+        {
+          "topic": 155,
+          "first": 124,
+          "last": 124,
+          "properties": {
+            "kind": "caption",
+            "parent_heading_id": "cd1-8802162:T155:P082-082",
+            "decision": {
+              "basis": "numbered_source_caption",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "0f69979b14f8510a7e03f74735aa7e640edc79e3bdfb8847795df908f0a765f7"
+        },
+        {
+          "topic": 155,
+          "first": 126,
+          "last": 298,
+          "properties": {
+            "kind": "code",
+            "parent_heading_id": "cd1-8802162:T155:P082-082",
+            "decision": {
+              "basis": "listing_caption_Fixedsys_runs_and_program_boundaries",
+              "review_concerns": []
+            }
+          },
+          "content_sha256": "72d40d7d01ddfece16767da62e30a4a82684b81b403ef0db0b354e5c9a010b48"
+        }
+      ],
+      "relationships": [
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802162:T155:P023-023",
+          "to_block": "cd1-8802162:T155:P024-024"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802162:T155:P034-034",
+          "to_block": "cd1-8802162:T155:P035-035"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802162:T155:P043-043",
+          "to_block": "cd1-8802162:T155:P044-044"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802162:T155:P048-048",
+          "to_block": "cd1-8802162:T155:P049-049"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802162:T155:P084-084",
+          "to_block": "cd1-8802162:T155:P086-122"
+        },
+        {
+          "kind": "caption_for",
+          "from_block": "cd1-8802162:T155:P124-124",
+          "to_block": "cd1-8802162:T155:P126-298"
+        }
+      ],
+      "runtime_metadata": {
+        "schema_version": 1,
+        "kind": "article",
+        "id": "cd1:article:8802162",
+        "issue_id": "maso-1988-02",
+        "title": "KEYBOARD LOCK",
+        "byline": "글/ 편집부",
+        "pages": {
+          "start": 162,
+          "end": null
+        },
+        "source": {
+          "disc_id": "cd1",
+          "reference": "8802162"
+        },
+        "toc_entry_ids": [
+          "maso-1988-02-toc-0023"
+        ],
+        "content_status": "available",
+        "extraction_status": "checked",
+        "print_verification": {
+          "status": "pending",
+          "report_id": null,
+          "pages_compared": []
+        }
+      },
+      "article_sha256": "4b529d35b3ab768c05d315f8bd709eaaf0e9fd79cc87d3e727fa881ee72cb079"
+    }
+  }
+}

@@ -141,9 +141,9 @@ populations; neither is a verified count of complete articles.
 | 11a — Done | Local CD1 preservation inventory | All 5,828 disc files and 375 directories match a fresh ISO extraction; all 7,374 probe manifest entries plus three supporting files are inventoried. |
 | 11b — Deferred | Independent backup/restore verification | The owner confirmed no independent backup yet. Preserve the source set on separate storage and check a real restore when available; this does not block non-destructive extraction. |
 
-Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, 12d, and 13a are complete.
+Steps 1–6, 8–10, 11a, 12a, 12a.1, 12b.1–3, 12c, 12d, 13a, and 13b are complete.
 Step 7 is deferred pending physical-magazine evidence; 11b awaits independent storage or an optical drive.
-**Step 13b (shared extraction and packaging pipeline) is next.**
+**Step 13c (validate the batch on the frozen sample beyond February) is next.**
 Backup/restore verification does not block extraction from the verified sources.
 The first preparation milestone is complete: step 9's
 article package validates, including explicit placeholders for deferred media.
@@ -855,7 +855,7 @@ and a supplement with no numeric page label. `make inventory-cd1-processing`
 rebuilds the metadata; the versioned manifest and standalone reader validate the
 queue after relocation. No new article bodies or images were prepared in 13a.
 
-### 13b — Next: build the shared extraction and packaging pipeline
+### 13b — Completed: build the shared extraction and packaging pipeline
 
 **Inputs:** the 13a queue, existing extraction/conversion/validation components,
 the approved v1 schema, and February's reviewed preparation evidence.
@@ -891,7 +891,23 @@ and isolated failure handling work. Keep v1 unless a demonstrated representation
 gap requires a separately documented contract change. No new per-article script
 is needed for each ordinary job.
 
-### 13c — Validate batch operation beyond February
+Result (2026-09-20): the [shared runner](docs/CD1-BATCH-RUNNER.md) accepts article,
+issue, and whole-disc selections and records seven independently checked stages.
+All six February articles were recovered again from the original RTF. Source-bound
+metadata profiles preserve reviewed decisions; runtime article JSON, Markdown,
+media records and accepted asset bytes match the prior handoff. The combined v1
+package retains 2,821 paragraphs, 677 blocks, 38 media records, four deferred WMFs,
+and the graphics text-review evidence. Original packages remain unchanged.
+
+Hash-checked immutable generations provide interruption recovery, stale/corrupt
+cache rejection, per-article failure isolation, shared media reuse, and independent
+issue composition. Unknown fonts/controls retain private source evidence and fail
+recovery; unreviewed semantics remain explicit. Tests cover both synthetic faults
+and actual February interruption/resume and isolated decoder failure. Physical
+verification remains pending. The nine frozen additional candidates belong to 13c;
+no whole-disc extraction has run.
+
+### 13c — Next: validate batch operation beyond February
 
 **Inputs:** the shared runner, all six February regression articles, and a fixed
 sample of 6–10 additional candidates from at least three other issues. Use the
@@ -937,8 +953,8 @@ bounded work and does not erase their recorded first-pass outcomes.
 
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, and 13a are complete. **13b is the next implementation task**;
-13b–13d are planned, not yet implemented or run. A “continue” advances the next
+Steps 12b.1–3, 12c, 12d, 13a, and 13b are complete. **13c is next**;
+the frozen additional sample and full-disc run (13c–13d) have not yet run. A “continue” advances the next
 unfinished checkpoint. During 13d, issue boundaries are resume/reporting points
 within the full-CD pass, rather than requiring a separate plan or permission for
 every article. Subdivide engineering work when needed while preserving this
@@ -964,8 +980,8 @@ of later publication decisions.
 | 12c — Done: February issue handoff | Current coverage record and validated issue package/catalog metadata. | All 39 TOC entries and five indexed targets reconcile; 48 runtime files and all review evidence are preserved, with deterministic and relocated/base-URL checks passing. |
 | 12d — Done: February native closeout | Six-article handoff, including unindexed KEYBOARD LOCK, and complete native February metadata accounting. | All six observed bodies are prepared; 29 unmatched candidates and four sections remain explicit; earlier content and exceptions survive under unchanged v1. |
 | 13a — Done: processing inventory | Complete source accounting and a batch input queue, including unindexed content. | All native/index populations reconcile; ready and unresolved jobs are explicit; February preparations remain linked. |
-| 13b — Next: shared pipeline | Reusable extraction, structure, conversion, and packaging stages with resume and exception records. | February runs through shared stages with preservation checks, isolated failures, and compatible-cache reuse. |
-| 13c — Planned: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
+| 13b — Done: shared pipeline | Reusable extraction, structure, conversion, and packaging stages with resume and exception records. | February runs through shared stages with preservation checks, isolated failures, and compatible-cache reuse. |
+| 13c — Next: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
 | 13d — Planned: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
 
 ### Content contract requirements implemented in step 8

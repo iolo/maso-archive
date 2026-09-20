@@ -196,7 +196,8 @@ the retained original physical CD. No optical drive is currently available.
 Step 11b is deferred until independent storage or an optical drive is available; probe/repository preservation remains a separate part of that checkpoint. The
 [February 1988 issue handoff](CD1-ISSUE-1988-02.md) and expanded TOC import are complete.
 The [13a processing inventory](CD1-PROCESSING-INVENTORY.md) is complete.
-The next task is **13b: implement the shared batch pipeline**.
+The [shared runner](CD1-BATCH-RUNNER.md) completes 13b.
+The next task is **13c: validate the frozen additional sample**.
 All six observed native February articles are prepared. Shared-pipeline validation
 will precede a resumable run across the remaining CD1 queue. Backup/restore
 verification remains deferred and does not block extraction that reads verified originals and writes separate

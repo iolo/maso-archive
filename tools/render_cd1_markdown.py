@@ -52,13 +52,13 @@ def fenced(text):
 
 
 def anchor(block_id):
-    require(re.fullmatch(r"cd1-\d{7}:T\d+:P\d+-\d+", block_id) is not None, "Unsafe block ID")
+    require(re.fullmatch(r"cd1-[A-Za-z0-9][A-Za-z0-9_.-]*:T\d+:P\d+-\d+", block_id) is not None, "Unsafe block ID")
     return block_id.replace(":", "-")
 
 
 def render(article, block_map):
     reference = article["cd_reference"]
-    require(re.fullmatch(r"\d{7}", reference) is not None, "Unsafe article reference")
+    require(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]*", reference) is not None, "Unsafe article reference")
     mapper.validate_map(article, block_map)
     for topic in article["topics"]:
         for paragraph in topic["paragraphs"]:
@@ -113,7 +113,9 @@ def render(article, block_map):
             if block["object_refs"]:
                 notes.append("Image resources unresolved; image mapping/conversion is pending.")
             if kind == "unresolved":
-                notes.append("Unresolved attachment: this object has not been assigned to either neighboring figure/example.")
+                notes.append("Source paragraph structure awaits review; text, formatting, and object order are retained in preservation data."
+                             if "semantic_review_pending" in block["decision"]["review_concerns"] else
+                             "Unresolved attachment: this object has not been assigned to either neighboring figure/example.")
             if "navigation_icon_role_pending_viewer" in block["decision"]["review_concerns"]:
                 notes.append("Title object may be a navigation icon; role awaits viewer comparison.")
             if "table_cells_not_reconstructed" in block["decision"]["review_concerns"]:

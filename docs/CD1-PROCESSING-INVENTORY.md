@@ -166,6 +166,7 @@ inventory; failed validation leaves the previous output intact. The manifest and
 reader provide the batch input contract without introducing runtime dependencies
 on the original disc into reading-room packages.
 
-Next is **13b: implement the shared runner**. Full-disc extraction begins after
+The [shared runner](CD1-BATCH-RUNNER.md) is complete for 13b.
+Next is **13c: validate the frozen sample beyond February**. Full-disc extraction begins after
 13c passes. Physical comparison, missing scans, deferred repairs, backup/restore,
 CD2/CD3, publication/access decisions, and reading-room UI remain separate work.

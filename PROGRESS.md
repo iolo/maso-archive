@@ -1239,3 +1239,59 @@
   unrestricted `make check` passed the full suite without source/record changes.
   Normal inventory rebuild and standalone verification pass, as do documentation
   links, metadata totals, private-output exclusions, readiness JSON, and whitespace.
+
+### 2026-09-20 — Step 13b: shared CD1 batch runner and February regression
+
+- Implemented one article/issue/whole-disc runner with seven recorded stages:
+  association, RTF inventory, recovery, semantic mapping, media, Markdown, and
+  package assembly. `make batch-cd1 BATCH_ARGS="--issue 1988-02"` prepares the
+  February baseline; article selectors accept source references and stable IDs.
+  Actual-source work in this checkpoint covered only February's six articles.
+- Rechecked queue inputs and original MVB/RTF/probe hashes; preserved raw selected
+  topic evidence and native/context/TOC links. Added scoped inherited formatting
+  snapshots across RTF pages, including group restoration and opaque binary data.
+  Unsupported inherited/visible controls, unknown codecs, undecoded spans and
+  unresolved external content ownership cannot silently become successful text.
+- Exported **168 source-bound exceptional block decisions** from the six reviewed
+  maps into metadata-only profiles. Ordinary paragraph/spacing blocks use shared
+  rules; font policies preserve February's different Fixedsys requirements.
+  Recovery reads the original RTF again, retaining byte accounting, paragraphs,
+  runs, formatting, objects and source spans. Unreviewed generic semantics remain
+  explicit; broader font/structure evidence belongs to the frozen 13c sample.
+- Added immutable stage generations, staged validation, atomic successful-output
+  publication, compatible-cache checks, corruption quarantine, retained failure
+  evidence, and per-article failure isolation. Fingerprints include source/config,
+  upstream output hashes, schema/profile/code, runtime/converter versions and
+  installed font-file hashes. Media checkpoints are shared; reviewed derivatives
+  and known deferred cases are reused without retrying broken WMFs.
+- Composed the February issue from independent article packages. **All six article
+  JSON documents and all twelve Markdown previews match the baseline byte for
+  byte; media records and accepted assets are unchanged.** The resulting v1
+  package contains **56 runtime files, 6 articles, 12 sections, 677 blocks, 2,821
+  paragraphs, 38 media records, 34 available assets, and 40 occurrences**. Four
+  WMFs remain deferred. Existing coverage, the graphics decoding ambiguity, and
+  Gary Kildall bibliographic context remain in private provenance. Combined
+  catalog/media/manifest ordering reflects independent composition; source order
+  and historical artifacts remain unchanged.
+- Recorded the validated output in `data/catalog/batch-runs/cd1-february.json`.
+  A second full February run verified and reused **all 83 stage calls** from cache.
+  All 58 recorded issue-stage files (runtime, provenance and checkpoint) pass
+  checksum verification. Publisher text/media/intermediates remain ignored under
+  private/build paths; only tools, tests, metadata and documentation are tracked.
+- Added **15 tests**, including actual-source interruption after one recovered
+  topic, retained partial evidence, successful resume, isolated decoder failure
+  followed by a successful article, independent issue composition, exact baseline
+  regression, source-bound decision drift, unknown fonts/controls, binary/group
+  inheritance, stale/corrupt caches, failed staging and symlink rejection.
+  **194 tests passed** in the unrestricted full suite. The restricted attempt hit
+  the previously observed two localhost socket restrictions and one historical
+  Inkscape-diagnostics mismatch; unrestricted verification passed without changing
+  historical records. The final runner-specific suite also passes (15 tests), as
+  do profile reproduction, documentation links, private-output exclusions and
+  `git diff --check`.
+- Updated PLAN-CD1, current guidance and readiness metadata: **13b complete;
+  13c is next**, using the already frozen nine candidates beyond February. Full
+  CD1 extraction follows that checkpoint. Physical comparison, missing scans,
+  deferred image repair, independent backup/restore, access/publication, CD2/CD3
+  and reading-room UI remain separate. The owner's concurrent changes to
+  `PRD-reading-room.md` were left untouched and excluded from this commit.
