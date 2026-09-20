@@ -161,3 +161,8 @@ The [sample report](CD1-BATCH-VALIDATION.md) and all earlier preparation records
 remain historical checkpoints. Missing scans, physical comparison, image repair,
 independent backup/restore, access/publication, CD2/CD3 and reading-room UI remain
 separate work.
+
+The subsequent [14a association checkpoint](CD1-ASSOCIATIONS.md) preserves the
+111 linked auxiliaries and prepares six additional articles in separate sample
+packages. Its results do not overwrite this first-pass history. Step 14b will
+retry the remaining 464 association candidates and combine successful packages.

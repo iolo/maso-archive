@@ -993,6 +993,53 @@ All 15 validated sample articles reuse compatible stages. Complete resume
 reproduces the execution manifest byte for byte. First-pass outcomes and source
 artifacts remain preserved for subsequent bounded exception/TOC review.
 
+### 14a — Done: preserve linked auxiliaries and validate bounded retries
+
+**Scope:** the 470 first-pass linked-content failures. Audit every blocking link
+against native topic identity, context, source bytes and existing article ownership.
+Keep separate auxiliary topics outside article bodies and preserve outgoing links
+without recursively importing the articles they reference. Decode auxiliary text
+with the existing source policy; retain raw RTF and diagnostics for unsupported
+formatting. Leave the original extraction pipeline, shared policy, first-pass
+outcomes and issue packages reproducible.
+
+**Deliverable:** a source-bound auxiliary policy, private recovery records, all
+470 retry targets and a fixed six-article retry sample. The sample covers leaf,
+series, mixed, highly shared and deferred auxiliary cases. Additional bodies use
+separate package/checkpoint roots; sample issue packages are partial handoffs.
+
+**Completion check:** all 587 blocking link occurrences and 111 destinations are
+accounted for; unsupported auxiliary content stays explicit; every sample passes
+association with unchanged article boundaries, independently audited body text,
+validated packages and repeatable resume. Test rejection of ambiguous ownership,
+changed source evidence and writes inside the original first-pass output root.
+
+**Recorded result:** [association review and retry sample](docs/CD1-ASSOCIATIONS.md).
+All 470 failures map to 111 separate auxiliaries; 109 recover 774 paragraphs,
+85,274 RTF bytes and 1,176 text runs. Topics 18 and 19 retain raw source and
+unsupported inherited-formatting evidence. All 308 outgoing links survive.
+
+All six fixed articles prepare with review exceptions: 791 paragraphs, 284 blocks,
+128,520 audited RTF bytes, 718 text runs and ten pixel-equivalent bitmap resources.
+Six standalone and six partial issue packages validate. Repeat commands reproduce
+both tracked records; a fresh dependency-identified rebuild preserves all 57
+article runtime files byte for byte. **217 regression tests pass**, with the six
+association checks repeated against the final artifacts. First-pass history,
+original pipeline code and schema v1 remain unchanged.
+
+### 14b — Next: retry the remaining association candidates and reconcile availability
+
+**Scope:** the 464 association candidates outside 14a's fixed sample, using the
+validated separate-auxiliary policy. Record each attempt with durable outcomes;
+retain newly exposed font/RTF failures and all first-pass history. Carry 14a's six
+results forward. Compose current issue packages from verified first-pass successes
+plus verified retry successes, with explicit availability and no duplicate articles.
+
+**Completion check:** all 470 original association failures have a subsequent
+outcome; report gains and remaining failures separately, validate every new/combined
+package, and update current coverage without overwriting 13d's historical report.
+Other exception classes and TOC matching remain subsequent bounded work.
+
 ## Checkpoint status
 
 Steps 12b.1–3, 12c, 12d, and 13a–13d are complete. Every CD1 candidate has a
@@ -1000,6 +1047,8 @@ durable first-pass outcome. Subsequent extraction work should take one bounded
 exception class from the retained retry queue, preserve the first-pass history,
 and verify any additional packages before updating current availability. The
 largest class is 470 failures requiring linked-content ownership decisions.
+Step **14a is complete**; **14b is next**, applying its validated policy to the
+remaining 464 candidates and reconciling combined availability.
 This completion does not imply that failed or blocked articles were extracted.
 
 Steps 7 and 11b remain independently deferred and do not block extraction. Missing
@@ -1025,6 +1074,8 @@ of later publication decisions.
 | 13b — Done: shared pipeline | Reusable extraction, structure, conversion, and packaging stages with resume and exception records. | February runs through shared stages with preservation checks, isolated failures, and compatible-cache reuse. |
 | 13c — Done: batch validation | Six-article regression baseline plus a fixed sample from other issues. | Fidelity, deterministic builds, resume, failure containment, and static loading pass; unresolved source cases remain visible. |
 | 13d — Done: complete CD1 pass | All remaining ready candidates processed; private packages and consolidated coverage/exception reports. | Every job has an outcome; failed/blocked cases retain evidence and successful packages validate. |
+| 14a — Done: auxiliary policy and retry sample | Separate auxiliary recovery and six fixed retry articles. | All 470 association failures are accounted for; sample associations, source fidelity, packages and resume validate. |
+| 14b — Next: association retry pass | Remaining 464 retries and combined current coverage. | Every original association failure has a subsequent outcome, and new/combined packages validate without rewriting first-pass history. |
 
 ### Content contract requirements implemented in step 8
 

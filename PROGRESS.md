@@ -1438,3 +1438,58 @@
   deferred image repair, independent backup/restore, access/publication, CD2/CD3
   and reading-room UI remain separate. The owner's PRD edits are unchanged and
   excluded from the commit.
+
+### 2026-09-20 — Step 14a started: linked auxiliary recovery and bounded retry validation
+
+- Audited all 470 first-pass linked-content failures: their 587 blocking links
+  target exactly 111 unowned auxiliary topics, including 31 leaf topics and 80
+  topics with outgoing links. All 308 outgoing links remain source references.
+- Added a separate auxiliary audit/policy and an extension of the existing runner
+  with its own identity and output root. Original root-level pipeline code, shared
+  policy and first-pass packages remain unchanged. Two unsupported auxiliary
+  formatting cases retain raw RTF and state evidence.
+- Fixed the six-article sample before execution: `9308449`, `9103252`, `9010234`,
+  `9201335`, `9008224`, and `9004200`. These cover leaf, series, mixed, shared and
+  both deferred auxiliary cases. PLAN-CD1 now distinguishes this validation step
+  from 14b's remaining 464 retries and combined availability reconciliation.
+
+### 2026-09-20 — Step 14a completed: auxiliary policy and six successful retries
+
+- Accounted for every one of the 470 association failures, 587 blocking links and
+  111 auxiliary destinations. The source-bound policy requires an unowned,
+  undated auxiliary with a resolved native context, an alias and consistent
+  incoming links. Other/ambiguous destinations remain blocked. Auxiliary links
+  stay separate from article bodies; no recursive article import is performed.
+- Recovered **109 auxiliary topics**, comprising **774 paragraphs, 85,274 source
+  RTF bytes and 1,176 text runs**, with independent byte accounting and codec
+  round-trip verification. Topics 18 and 19 remain deferred with exact raw RTF,
+  native metadata and inherited-formatting state. Preserved all 308 outgoing links
+  and verified 28 distinct media resources in recovered auxiliaries; their
+  rendering remains deferred.
+- All **six fixed article retries prepare with review exceptions**: **791
+  paragraphs, 284 blocks, 128,520 audited RTF bytes and 718 text runs** across ten
+  article topics. Auxiliary paragraphs are not merged into article bodies, and
+  auxiliary recovery matches the separate audit, including both deferred cases.
+  All ten available bitmap resources preserve original decoded pixels.
+- Validated six standalone and six partial sample issue packages. These add six
+  prepared articles beyond the historical 537. Sample issue packages do not
+  replace the complete first-pass handoffs. First-pass outcomes and all original
+  sources remain unchanged; article/auxiliary semantic and physical review remain
+  pending. No publisher content is committed or published, and no media is repaired.
+- Added `make review-cd1-associations` and `make retry-cd1-association-sample`, with
+  separate tracked audit/sample summaries and private source/package/checkpoint
+  artifacts. Both normal commands reproduce their records exactly. The extension
+  fingerprints its reviewed policy, implementation and checkpoint helper, and
+  refuses output inside the original first-pass root. A fresh dependency-identified
+  rebuild reproduces **all 57 article runtime files** byte for byte; final resume
+  and the six focused regression/artifact checks pass.
+- **217 full-suite tests pass**, covering existing source/package/HTTP regressions
+  and six new ownership, source-integrity, deferred-recovery, output-isolation and
+  actual-artifact checks. Documentation links, JSON metadata, original pipeline
+  preservation and whitespace checks also pass.
+- PLAN-CD1 now records **14a complete; 14b next**: retry the remaining 464 members
+  of this exception class, retain any newly exposed decoder/formatting failures,
+  carry the six sample results forward, and reconcile combined packages/current
+  availability without rewriting 13d history. Other exception classes and TOC
+  review remain separate bounded work. The owner's `PRD-reading-room.md` changes
+  and new `PRD-local-web.md` remain outside this commit.

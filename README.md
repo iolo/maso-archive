@@ -14,6 +14,12 @@ coverage/retry records remain private. Next is bounded work on retained source
 exceptions; complete printed-issue coverage and physical review remain unverified.
 See the [full-pass report](docs/CD1-FULL-PASS.md).
 
+**14a is complete: linked auxiliary recovery and a six-article retry sample.**
+109 of 111 auxiliary topics decode; two retain raw source and formatting diagnostics.
+All six sample articles now prepare in separate packages. Next is **14b**: retry
+the remaining 464 association candidates and combine successful results with the
+existing issue handoffs. See the [association review](docs/CD1-ASSOCIATIONS.md).
+
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)
 - [CD3 extraction plan — deferred](PLAN-CD3.md)
