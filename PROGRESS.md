@@ -2476,9 +2476,28 @@
 - Select native reference `940116300`, `한글 TeX을 이용하려면`, from `book.lst` line
   467. Map its 77,248-byte RTF topic, context, source-copy action, `TEX.ZIP`,
   and 22 image markers. All marker names occur in the private decoded output.
-  The disc's `94.1 / 163p` label supports a CD-native issue/page attribution;
-  no independent paper or library TOC match is claimed.
+  The disc's label includes `94.`, `1`, `163p`, and unresolved dynamic fields;
+  issue and page attribution remains provisional. No independent paper or
+  library TOC match is claimed.
 - Validation: `python3 -m tools.inventory_cd2_sources --write-record` succeeded.
   Run the command without the flag to reproduce and compare the record. Limits:
   text, media conversion, topic/article boundaries, and paper agreement are not
   yet verified. Next: one readable article and portable private reference.
+
+### 2026-09-26 — CD2 checkpoint 2: readable pilot article
+
+- Input: the checksummed CD2 source tree, M12 decoder probe, and candidate
+  `940116300`. Correct the checkpoint 1 issue-label wording after finding four
+  dynamic `vfld` fields in the article's label and byline; keep them unresolved.
+- Build `build/cd2-reference-pilot/` with `tools/build_cd2_pilot.py`: UTF-8 text,
+  207 ordered source-backed paragraphs, four explicit field markers, 22 original
+  bitmap files and pixel-equivalent PNGs, plus the original `TEX.ZIP` attachment.
+  All recovered content remains private and excluded from Git.
+- Validate source checksums, exact RTF token coverage, image pixel conversions,
+  output links and two identical builds. The text SHA-256 is
+  `59c20be8a67421ec9251d267ddf2db90884c1561e5932f76c166c9f1c2189ec4`.
+  Chromium displayed Korean text and all 22 images loaded; the only console
+  error was a missing favicon. Details are in `docs/CD2-PILOT-ARTICLE.md`.
+- Limits: dynamic fields, paper agreement, article boundaries, and general CD2
+  topic compatibility remain unresolved. Next: one CD-native issue slice and a
+  second structurally different article before a complete reference pass.

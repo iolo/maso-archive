@@ -41,7 +41,7 @@
       "entry": "한글 TeX을 이용하려면^940116300"
     },
     "title_evidence": "CD-native index and matching RTF title footnote",
-    "issue_evidence": "RTF's own 94.1 / 163p label; no independent paper issue metadata",
+    "issue_evidence": "RTF label includes 94., unresolved dynamic fields, 1, and 163p; no independent paper issue metadata",
     "rtf": {
       "path": "MASO2.rtf",
       "byte_offset": 406653,
@@ -75,7 +75,7 @@
   },
   "private_detail": {
     "path": "build/cd2-preservation/inventory.json",
-    "bytes": 1030908,
-    "sha256": "96acf5389378c1d7b0a02806d1e71c0fe1da98f37ad4887d393328897cf528fc"
+    "bytes": 1030943,
+    "sha256": "e790cc46c2866e53b68ef111df862626474974fffd23daf716db5468b5ce07df"
   }
 }

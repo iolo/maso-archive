@@ -29,14 +29,15 @@ contains 1,388 page-delimited topics. These are decoder topics, not necessarily
 policies have not been assumed for CD2.
 
 `book.lst` line 467 is `한글 TeX을 이용하려면^940116300`. The matching RTF topic has
-the same title in its native footnote, context `3H9UTZ3`, page label `94.1 / 163p`,
+the same title in its native footnote, context `3H9UTZ3`, a `94.` / `1` /
+`163p` label interrupted by unresolved dynamic fields,
 and action `!SrcCopy(9401163)`. Its bytes occupy offset 406,653 through 483,901
 exclusive in `MASO2.rtf`, between adjacent `\page` markers; their SHA-256 is
 `c3b7063c28755b3e047e75a835f15b334f5e12f7c8ac3b2c9ff54d28346172e6`.
 The corresponding attachment directory has `TEX.ZIP`. The RTF contains 22
 ordered image markers, and every named resource exists in the private decoder
 output. This is a source-bound text/code/image probe, with article boundaries
-still subject to paper review. The issue label comes from the CD body itself;
+still subject to paper review. The partial issue label comes from the CD body itself;
 there is no independent 1994 library TOC match.
 
 Next: decode this one topic's text and ordered blocks, preserve the ZIP and image

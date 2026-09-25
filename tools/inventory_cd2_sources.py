@@ -67,7 +67,7 @@ def cd2_candidate(rtf, extracted, probe):
     require(len(title_footnotes) == 1, "Candidate title footnote changed")
     encoded = re.sub(rb"\\'([0-9a-fA-F]{2})", lambda m: bytes.fromhex(m[1].decode()), title_footnotes[0])
     require(encoded.decode("cp949") == TITLE, "Index and article title disagree")
-    require(b"163p" in body and b"94." in body, "Article's own page label changed")
+    require(b"94.\\{vfld21\\}1\\{vfld1\\}.  163p" in body, "Article's own page label changed")
     resources = []
     names = {row["path"] for row in probe["files"]}
     for m in MEDIA.finditer(body):
@@ -81,7 +81,7 @@ def cd2_candidate(rtf, extracted, probe):
     return {"native_reference": REF, "native_context": CONTEXT.decode(),
             "index": {"file": "book.lst", "line": matches[0][1], "entry": matches[0][2]},
             "title_evidence": "CD-native index and matching RTF title footnote",
-            "issue_evidence": "RTF's own 94.1 / 163p label; no independent paper issue metadata",
+            "issue_evidence": "RTF label includes 94., unresolved dynamic fields, 1, and 163p; no independent paper issue metadata",
             "rtf": {"path": RTF, "byte_offset": start, "byte_length": end - start,
                     "sha256": sha(body), "boundary_basis": "adjacent HELPDECO \\page markers"},
             "action": ACTION.decode(), "source_attachment_files": source_files,
