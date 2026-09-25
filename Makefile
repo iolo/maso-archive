@@ -137,3 +137,10 @@ run-cd1-symbol-pass:
 
 report-cd1-symbol-pass:
 	PYTHONPATH=src $(PYTHON) -m tools.batch.symbol_coverage $(REPORT_ARGS)
+
+.PHONY: review-cd1-codecs retry-cd1-oem-sample
+review-cd1-codecs:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.codec_review $(FONT_ARGS)
+
+retry-cd1-oem-sample:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_oem_sample $(FONT_ARGS)

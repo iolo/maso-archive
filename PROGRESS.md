@@ -2165,3 +2165,62 @@
   `data/catalog/batch-runs/cd1-symbol-pass.json`. Full text, media and detailed
   evidence remain private. Frozen decoder, shared policy, schema and historical
   records remain unchanged. The owner's two PRD files are excluded from the commit.
+
+### 2026-09-25 — Step 19a started: existing-codec failure review
+
+- Inspect all 37 remaining existing-codec failures without changing defaults or
+  combined 18c coverage. The retained recoveries contain 184 CP949 failures plus
+  one additional unsupported Courier New run in an otherwise failing article.
+- Separate exact DOS box-drawing literals, characters split across font changes,
+  and mixed or ambiguous bytes. Preserve whole recoveries, original run bytes,
+  font/formatting, context and competing interpretations for every decision.
+- Verify a pinned Microsoft CP437 mapping from Unicode with its distribution
+  license; any approval must be tied to exact reviewed runs, not a font-wide
+  fallback. Select a small sample only after source-bound policies validate.
+
+### 2026-09-25 — Step 19a audit and fixed samples verified
+
+- All **37 articles, 70 topics, 185 unsupported runs and 10,504 encoded bytes**
+  retain exact original recoveries. Independent byte checks cover every topic/run.
+  The review groups 184 CP949 errors (164 illegal, 20 incomplete sequences) and
+  one additional unsupported Courier New space run in an otherwise failing article.
+- Five source-bound OEM policies cover **30 literal runs / 1,073 bytes / 37 box
+  glyphs**. Programming context supports exact Pascal frame, assembly border and
+  printf-marker interpretations; no font-wide fallback or source repair is allowed.
+- `8901110` and `9103202` retain split multibyte characters (Hangul `를` and
+  fullwidth `！`) across Arial/Fixedsys boundaries. Candidate concatenation
+  round-trips, but formatting representation remains unresolved. Thirty other
+  articles retain mixed or ambiguous source evidence and all original issues.
+- Three samples (`8901200`, `8911214`, `9206396`) prepare with review exceptions,
+  preserving **3,767 paragraphs, 634 blocks, 332,886 RTF bytes, 3,209 text runs
+  and 27 object occurrences**. Only 14 approved runs change (609 bytes / 21 glyphs).
+  All 24 distinct available bitmaps preserve source pixels; `bm1829.wmf` remains
+  deferred. All auxiliary dispositions and earlier content remain unchanged.
+- Normal audit/sample reruns reproduce both records exactly. An isolated fresh
+  rebuild reproduces **all 46 runtime files byte for byte**, with identical
+  source checks and outcomes. Nine new tests pass without skips. The separate
+  process method differs only at the job gate, recorded policy and recovery call.
+- The reference and license are pinned byte for byte; the mapping parser handles
+  the upstream DOS EOF marker without changing the file. Full historical
+  regressions are running. Combined 18c coverage remains 990 articles / 72 issues;
+  the two additional approved candidates are reserved for checkpoint 19b.
+
+### 2026-09-25 — Step 19a completed: codec review and OEM samples
+
+- All 37 existing-codec failures have recorded decisions and complete source-byte
+  evidence. Five articles support exact OEM literal policies; three fixed samples
+  prepare successfully. Two cross-font character cases and 30 mixed/ambiguous
+  articles remain deferred with their original bytes and formatting.
+- Normal review/sample reruns reproduce both records exactly, and an isolated
+  fresh rebuild reproduces all 46 runtime files byte for byte. **291 regression
+  tests pass without skips** in `make check`, including the nine new tests and
+  all historical source/package/Markdown/schema/base-URL checks.
+- PLAN-CD1 marks **19a done; 19b next**: prepare `8902178` and `8903170`, carry
+  the three validated samples, then audit combined packages and coverage against
+  18c. Current combined coverage remains **990 prepared articles across 72 issues,
+  90 failures and eight blockers** until that integration is verified.
+- The report is `docs/CD1-CODEC-REVIEW.md`, backed by `cd1-codec-review.json`
+  and `cd1-oem-sample.json` in `data/catalog/batch-runs/`. Full article text,
+  media and detailed evidence remain private. Shared decoders, schema, earlier
+  policies and historical records remain unchanged. The owner's two PRD files
+  are excluded from this commit.

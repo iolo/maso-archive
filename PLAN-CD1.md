@@ -1,6 +1,6 @@
 # CD1 extraction and reading-room content plan
 
-Revised 2026-09-21. This is the active work queue for extracting CD1 and organizing
+Revised 2026-09-25. This is the active work queue for extracting CD1 and organizing
 its content for the reading room. The separate [reading-room PRD](PRD-reading-room.md)
 owns the viewer's UI and application architecture. The previous broad archive
 plan remains in [Design reference](docs/DESIGN-REFERENCE.md) as historical context.
@@ -1267,7 +1267,7 @@ and a second full audit reproduces all 16 coverage tables and the tracked summar
 exactly. **282 regression tests pass without skips**. See the
 [Symbol integration report](docs/CD1-SYMBOL-PASS.md).
 
-### 19a — Next: review the 37 remaining failures under existing codecs
+### 19a — Done: review the 37 remaining failures under existing codecs
 
 Audit the retained source recoveries for all 37 existing-codec failures without
 changing defaults or retrying the broader queue. Group the exact failing byte
@@ -1287,21 +1287,51 @@ The two Symbol font/context conflicts, `9309201`, unsupported RTF, inherited
 formatting and source ownership remain separate exception classes. Keep 18c's
 combined packages and all earlier records immutable during this review.
 
+Result: all **37 articles, 70 topics and 185 unsupported runs** retain exact
+original recoveries and independent source-byte accounting. Five policies support
+exact DOS box-drawing literals; three complete samples validate with **46 runtime
+files reproduced byte for byte** in an isolated fresh rebuild. Two cross-font
+character cases and 30 mixed/ambiguous articles remain deferred. Normal audit and
+sample reruns reproduce both records exactly; **291 regression tests pass without
+skips**. Combined 18c coverage remains unchanged. See the
+[existing-codec review](docs/CD1-CODEC-REVIEW.md).
+
+### 19b — Next: retry and integrate the five reviewed OEM articles
+
+Carry the three validated 19a samples (`8901200`, `8911214`, `9206396`) and
+process the two remaining approved articles (`8902178`, `8903170`) under their
+exact run policies. Preserve all source evidence and outcomes; do not broaden
+CP437 to other runs, fonts or articles. Keep auxiliary and media dispositions.
+
+Compose isolated current issue packages against the immutable 18c handoff.
+Independently validate all five complete articles, inverse source bytes, glyphs,
+formatting, Markdown and media. Compare earlier article/preview/media bytes
+exactly, preserve every retry history and reconcile all original candidates.
+Prove complete resume and repeated coverage reporting before counting new
+availability. The expected gain is five articles, subject to that audit.
+
+The two cross-font character cases, 30 mixed/ambiguous source cases, two Symbol
+conflicts and `9309201` remain deferred. Their interpretation and representation
+questions belong to separate bounded checkpoints.
+
 ## Checkpoint status
 
-Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b, 17a–17b and 18a–18c are complete**.
+Steps 12b.1–3, 12c, 12d, 13a–13d, **14a–14b, 15a–15b, 16a–16b, 17a–17b, 18a–18c and 19a are complete**.
 Every CD1 candidate has a durable first-pass outcome, all 470 association failures
 have subsequent outcomes, and all 33 reviewed ASCII-font candidates prepare.
 Current audited 18c packages contain **990 prepared articles across 72 issues**,
 with **90 failures and eight blockers** explicitly retained. Complete resume,
-repeated coverage reporting and all **282 regression tests** pass.
+repeated coverage reporting and all **291 regression tests** pass.
 
 Checkpoint 18c incorporates the invariant-punctuation article `9210202` and the
 reversible-arrow article `9208198`, preserving the 17b handoff and all earlier
 retry histories. Both Symbol font/context conflicts and the ambiguous `9309201`
-remain deferred with their source evidence. Next, **19a** reviews the **37
-remaining failures under existing codecs**, allowing a fixed recovery sample only
-where exact source evidence supports a reversible mapping.
+remain deferred with their source evidence. Checkpoint **19a** reviewed all **37
+remaining failures under existing codecs**: five support exact OEM literal
+policies, two need cross-font character representation, and 30 retain mixed or
+ambiguous source bytes. Three fixed samples validate and rebuild identically.
+Next, **19b** prepares the two remaining approved articles and integrates all five
+against the immutable 18c packages before counting new availability.
 Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
 TOC matching is separate metadata work: 926 prepared articles still lack reviewed
@@ -1341,7 +1371,8 @@ of later publication decisions.
 | 18a — Done: Symbol-font source review | One invariant-punctuation sample, two font/context conflicts and one deferred arrow decoder. | All six topics/15 runs retain evidence; the sample validates, 10 runtime files rebuild identically and 269 tests pass. |
 | 18b — Done: reversible Symbol-arrow recovery | Source-bound decoder, independent byte checks and one validated article. | Eight reviewed runs preserve nine arrows and 95 spaces; both topics/packages validate, 22 runtime files rebuild exactly and 276 tests pass. |
 | 18c — Done: combined Symbol coverage | Two carried samples, combined issue packages and preserved exception histories. | All 72 packages validate with 990 articles; both samples pass source checks, the 74-file manifest and 16 coverage tables reproduce exactly, and 282 tests pass. |
-| 19a — Next: existing-codec failure review | Source-bound decisions for 37 candidates and a fixed sample where supported. | Exact failing bytes and interpretations are accounted for; supported recovery passes source/package/rebuild checks and ambiguous cases stay deferred. |
+| 19a — Done: existing-codec failure review | Decisions for all 37 candidates, five exact OEM policies and three validated samples. | All 70 topics retain source evidence; 46 runtime files rebuild identically, 291 tests pass, and two cross-font plus 30 ambiguous cases remain deferred. |
+| 19b — Next: exact-run OEM integration | Two remaining retries, three carried samples and combined coverage. | All five outcomes and original populations reconcile; prior content is preserved, source/package audits pass, and resume/repeated reporting agree. |
 
 ### Content contract requirements implemented in step 8
 
