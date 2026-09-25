@@ -2322,3 +2322,22 @@
   now. Remaining extraction cleanup is not a prerequisite. Historical results and
   the owner's PRD edits remain unchanged. This documentation-only revision is
   checked for links and whitespace; extraction regressions need no rerun.
+
+### 2026-09-25 — Close CD1 extraction milestone; prioritize paper restoration
+
+- The owner clarifies the purpose of CD recovery: convenient text/media to help
+  restore paper magazines, including comparison with OCR. Continuing to perfect
+  CD-specific details has displaced that goal. Treat the existing 19b handoff as
+  the completed CD1 extraction milestone with known exceptions: 995 prepared
+  articles across 72 issues, 85 failed candidates and eight blockers retained.
+- Defer 20a and further exception cleanup. Preserve all outputs and evidence;
+  reopen a case for a concrete paper/OCR restoration need or clear practical
+  recovery benefit. No new recovery, coverage increase or paper-verification claim
+  accompanies this scope decision.
+- Document CD text as an OCR comparison aid. Differences require paper/scan review;
+  CD agreement alone is not proof, and CD text must not automatically override OCR.
+  Keep source versions and paper-supported corrections distinguishable. No OCR
+  tooling or additional extraction checkpoint is introduced by this revision.
+- Update PLAN-CD1's goal, stopping point and task status accordingly. This is a
+  documentation-only change, checked for links and whitespace. The owner's PRD
+  edits and all historical extraction records remain untouched.

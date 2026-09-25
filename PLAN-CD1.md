@@ -1,14 +1,19 @@
 # CD1 extraction and reading-room content plan
 
-Revised 2026-09-25. This is the active work queue for extracting CD1 and organizing
-its content for the reading room. The separate [reading-room PRD](PRD-reading-room.md)
+Revised 2026-09-25. The CD1 extraction milestone is **complete with known
+exceptions**; further cleanup is deferred in favor of using the results for paper
+magazine restoration. This document records the handoff and retained backlog.
+The separate [reading-room PRD](PRD-reading-room.md)
 owns the viewer's UI and application architecture. The previous broad archive
 plan remains in [Design reference](docs/DESIGN-REFERENCE.md) as historical context.
 
 ## Goal and first milestone
 
-This plan's goal is **reproducible CD1 content extraction and a static content
-package that the reading room can consume**: issue/TOC metadata, article text and
+CD extraction serves the larger goal of restoring the original paper magazines.
+The CDs offer a convenient source of text and media that can accelerate that work,
+including comparison with later OCR. The practical deliverable is **usable CD1
+reference content and a static package that the reading room can consume**:
+issue/TOC metadata, article text and
 semantic blocks, captions, converted media, source relationships, and explicit
 coverage/review status. The first milestone is **one reproducible CD1 article
 package, linked to its TOC record and usable by the reading room, with known
@@ -28,6 +33,15 @@ then processed the remaining CD1 work queue with resumable issue checkpoints.
 Completion means every discovered candidate has a recorded outcome, with available
 content packaged and unresolved cases retained for follow-up. It does not mean
 complete coverage of every printed issue or resolution of every damaged image.
+
+**Current stopping point: use the 19b handoff.** It contains 995 prepared articles
+across 72 issues, with 85 failed candidates and eight blockers recorded. The
+[handoff report](docs/CD1-OEM-PASS.md) identifies the private packages and coverage
+record. The extraction milestone is complete at this useful level of coverage;
+full paper restoration and verification remain future work. Retain the unresolved
+source evidence and backlog. Do not start further font/RTF recovery checkpoints
+simply to eliminate every CD exception. Reopen a case when it helps a specific
+paper/OCR restoration need or offers a clear practical recovery benefit.
 
 The archive target is **1983-11–1995-12: 146 monthly issues**, extended because
 the owner holds the official CDs. The supplied TOC now covers **122 issues
@@ -87,8 +101,17 @@ These priorities govern future recovery work and supersede typography-preservati
 gates in unfinished tasks. Completed checkpoints and their exact-byte checks remain
 historical reproducibility records; they need not be rerun to mimic paper typography.
 The existing 995-article handoff is usable for the personal archive now. Remaining
-extraction cleanup, including 20a, is optional and does not gate reading-room work
+extraction cleanup, including 20a, is deferred and does not gate reading-room work
 or the owner's paper-based review.
+
+Use CD text as a comparison aid for OCR: align the corresponding article or
+passage and highlight differences for inspection against the paper page/scan.
+Agreement can support review but does not establish correctness; a CD omission,
+edit or transcription error must not overwrite correct OCR automatically. Keep
+CD-derived text, OCR and paper-verified corrections distinguishable. Useful partial
+CD recoveries can remain labeled reference material without being counted as
+complete restored articles. This describes the future use of the handoff, not a
+new OCR-tool implementation checkpoint in this plan.
 
 ### Content handoff
 
@@ -1355,7 +1378,11 @@ and all six retry histories remain intact. Complete resume reproduces the
 tables and the tracked summary exactly. **298 regression tests pass without
 skips**. See the [OEM integration report](docs/CD1-OEM-PASS.md).
 
-### 20a — Optional follow-up: normalize two split characters for readable text
+### 20a — Deferred: normalize two split characters when useful for paper restoration
+
+Retained backlog only. This is not the next active task or a prerequisite for the
+personal archive. Revisit it when one of these articles is needed for paper/OCR
+work; no font-boundary investigation is scheduled now.
 
 Review `8901110` (`를`) and `9103202` (`！`), whose multibyte characters cross an
 Arial/Fixedsys boundary. Decode the adjacent fragments together where their bytes
@@ -1388,9 +1415,10 @@ Checkpoint 19b incorporates all five exact-run OEM articles, preserving the 18c
 handoff, its Symbol recoveries and every earlier retry history. Thirty-five
 font/decoding failures remain: two cross-font character cases, 30 mixed/ambiguous
 codec cases, two Symbol font/context conflicts and the ambiguous `9309201`.
-Optional **20a** recovers the two split characters with documented ordinary-font
-normalization and retained byte evidence. It does not block use of the existing
-handoff; all restored content remains subject to the owner's paper verification.
+The CD1 extraction milestone is complete with these known exceptions. **20a and
+further exception cleanup are deferred**; use the existing handoff for reading and
+as reference material for paper/OCR restoration. All CD-derived content remains
+subject to the owner's paper verification.
 Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
 TOC matching is separate metadata work: 931 prepared articles still lack reviewed
@@ -1432,7 +1460,7 @@ of later publication decisions.
 | 18c — Done: combined Symbol coverage | Two carried samples, combined issue packages and preserved exception histories. | All 72 packages validate with 990 articles; both samples pass source checks, the 74-file manifest and 16 coverage tables reproduce exactly, and 282 tests pass. |
 | 19a — Done: existing-codec failure review | Decisions for all 37 candidates, five exact OEM policies and three validated samples. | All 70 topics retain source evidence; 46 runtime files rebuild identically, 291 tests pass, and two cross-font plus 30 ambiguous cases remain deferred. |
 | 19b — Done: exact-run OEM integration | Two successful retries, three carried samples and combined coverage. | All 72 packages validate with 995 articles; five source audits and six histories survive, the 81-file manifest and 17 coverage tables reproduce exactly, and 298 tests pass. |
-| 20a — Optional: split-character normalization | Two readable articles with documented ordinary-font normalization and retained source evidence. | Joined characters have byte/context support, original fragments remain traceable, text/structure/package checks pass, and paper verification stays pending; display font boundaries are not a gate. |
+| 20a — Deferred: split-character normalization | Retained recovery option when these two articles are needed for paper/OCR restoration. | Reopen for a concrete restoration benefit; preserve evidence and readable text without requiring exact display font boundaries. Not a CD1 completion gate. |
 
 ### Content contract requirements implemented in step 8
 
