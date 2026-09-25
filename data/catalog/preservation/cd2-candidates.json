@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd2",
+  "source_inventory_sha256": "e790cc46c2866e53b68ef111df862626474974fffd23daf716db5468b5ce07df",
+  "counts": {
+    "candidates": 1330,
+    "indexed_candidates": 1326,
+    "unindexed_title_candidates": 4,
+    "indexed_topics": 1326,
+    "rtf_topics": 1388,
+    "unindexed_topics": 62,
+    "title_differences": 69,
+    "media_occurrences": 2661,
+    "unavailable_media_occurrences": 0,
+    "actions": 174,
+    "unavailable_actions": 2
+  },
+  "index_counts": {
+    "book.lst": 497,
+    "info.lst": 572,
+    "qnatip.lst": 257
+  },
+  "issue_groups": {
+    "9401": 93,
+    "9402": 92,
+    "9403": 98,
+    "9404": 110,
+    "9405": 109,
+    "9406": 119,
+    "9407": 120,
+    "9408": 126,
+    "9409": 116,
+    "9410": 114,
+    "9411": 121,
+    "9412": 112
+  },
+  "private_detail": {
+    "path": "build/cd2-preservation/candidates.json",
+    "bytes": 1245144,
+    "sha256": "04a91f244468c4e574fa46e86b10a2bf88f3a7fb73e2eb6237875f25309c738b"
+  },
+  "limitations": [
+    "Index entries are CD-native candidates, not paper-verified article or issue records.",
+    "Unindexed RTF topics need separate classification.",
+    "Title differences retain both native index and RTF strings."
+  ]
+}

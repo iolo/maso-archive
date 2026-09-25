@@ -2501,3 +2501,24 @@
 - Limits: dynamic fields, paper agreement, article boundaries, and general CD2
   topic compatibility remain unresolved. Next: one CD-native issue slice and a
   second structurally different article before a complete reference pass.
+
+### 2026-09-26 — CD2 checkpoint 3: native queue and 9401 slice
+
+- Input: the checked M12 RTF and three CD-native indexes. Map every index
+  reference to its unique RTF context hash and record ordered media and native
+  `SrcCopy`/`ListView` actions. The private candidate map covers 1,326 indexed
+  references and four additional titled topics; 58 untitled topics remain for
+  classification. Track 69 index/RTF title differences and two unavailable
+  `SrcCopy` targets without dropping their article candidates.
+- Build a private `9401` CD-native list with 93 entries in RTF order. Export the
+  first article and independent second case `940121800`, which has two source
+  ZIPs and a CP949 code listing. The second export preserves its original TXT
+  and a UTF-8 listing with the same whitespace; 91 entries stay visibly pending.
+- Validate independent parsing of both article topics, original attachment and
+  media checksums, PNG pixel equality, and two identical issue builds. Chromium
+  navigation opened the second case, showed Korean text and listing code, loaded
+  both images, and exposed the attachment/listing/text links. See
+  `docs/CD2-ISSUE-SLICE.md` for counts and reproduction.
+- Limits: CD-native group labels are not independent paper issue metadata. Most
+  candidates remain unprocessed, and untitled RTF topics need classification.
+  Next: resumable complete reference pass with explicit per-candidate outcomes.
