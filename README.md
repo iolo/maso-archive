@@ -33,6 +33,7 @@ packages and earlier records; the readable reference adds useful text from the
 - [Reading-room PRD](PRD-reading-room.md)
 - [Detailed design reference](docs/DESIGN-REFERENCE.md)
 - [Progress](PROGRESS.md)
+- [Successor notes and remaining work](docs/SUCCESSOR-NOTES.md)
 - [Offline tasks for the owner](docs/OFFLINE-TASKS.md)
 - [TOC import and validation](docs/TOC-IMPORT.md)
 - [CD1 reference-index import](docs/CD1-INDEX.md)

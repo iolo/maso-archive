@@ -2399,3 +2399,15 @@
   The owner's PRD files remain untouched and outside this commit. CD1's reference
   deliverable is complete with visible exceptions; paper/OCR work, CD2/CD3 and the
   richer reading room remain separate scopes.
+
+### 2026-09-26 — Successor handoff and stopping point
+
+- At the owner's request, stop active work and leave the remaining tasks to a
+  successor. Add `docs/SUCCESSOR-NOTES.md`, linked from README, with the usable
+  reference path, completed validation, remaining work and source/owner-file care.
+- Emphasize readable text, code and images for paper/OCR restoration; cosmetic RTF
+  fidelity and elimination of every exception must not become acceptance gates.
+  Clarify that the eight source-assignment blockers do not concern legal ownership.
+- This is a documentation-only handoff. Check whitespace and relative document
+  links; do not rerun extraction or change the private export. Preserve both owner
+  PRD files outside the handoff commit. No next workstream is started.
