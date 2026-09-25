@@ -1,8 +1,9 @@
 # CD1 extraction and reading-room content plan
 
-Revised 2026-09-25. The CD1 extraction milestone is **complete with known
-exceptions**; further cleanup is deferred in favor of using the results for paper
-magazine restoration. This document records the handoff and retained backlog.
+Revised 2026-09-25. **Step 20 is complete: the usable CD1 text/code/image
+reference is ready** for reading and paper/OCR comparison. Open
+`build/cd1-reference/index.html` locally. Cosmetic formatting is not an acceptance
+gate. This document records the handoff and retained backlog.
 The separate [reading-room PRD](PRD-reading-room.md)
 owns the viewer's UI and application architecture. The previous broad archive
 plan remains in [Design reference](docs/DESIGN-REFERENCE.md) as historical context.
@@ -34,14 +35,16 @@ Completion means every discovered candidate has a recorded outcome, with availab
 content packaged and unresolved cases retained for follow-up. It does not mean
 complete coverage of every printed issue or resolution of every damaged image.
 
-**Current stopping point: use the 19b handoff.** It contains 995 prepared articles
+**Validated baseline: the 19b handoff.** It contains 995 prepared articles
 across 72 issues, with 85 failed candidates and eight blockers recorded. The
 [handoff report](docs/CD1-OEM-PASS.md) identifies the private packages and coverage
 record. The extraction milestone is complete at this useful level of coverage;
 full paper restoration and verification remain future work. Retain the unresolved
 source evidence and backlog. Do not start further font/RTF recovery checkpoints
 simply to eliminate every CD exception. Reopen a case when it helps a specific
-paper/OCR restoration need or offers a clear practical recovery benefit.
+paper/OCR restoration need or offers a clear practical recovery benefit. The
+owner's subsequent request to finish usable text/code/image delivery authorizes
+step 20 below, including recovery from cosmetic-format failures.
 
 The archive target is **1983-11–1995-12: 146 monthly issues**, extended because
 the owner holds the official CDs. The supplied TOC now covers **122 issues
@@ -100,9 +103,9 @@ usable, honestly marked representation cannot be produced.
 These priorities govern future recovery work and supersede typography-preservation
 gates in unfinished tasks. Completed checkpoints and their exact-byte checks remain
 historical reproducibility records; they need not be rerun to mimic paper typography.
-The existing 995-article handoff is usable for the personal archive now. Remaining
-extraction cleanup, including 20a, is deferred and does not gate reading-room work
-or the owner's paper-based review.
+The readable reference in step 20 builds on the existing 995-article handoff.
+Remaining uncertain-glyph, image and ownership work does not gate reading-room
+use or the owner's paper-based review.
 
 Use CD text as a comparison aid for OCR: align the corresponding article or
 passage and highlight differences for inspection against the paper page/scan.
@@ -1378,29 +1381,50 @@ and all six retry histories remain intact. Complete resume reproduces the
 tables and the tracked summary exactly. **298 regression tests pass without
 skips**. See the [OEM integration report](docs/CD1-OEM-PASS.md).
 
-### 20a — Deferred: normalize two split characters when useful for paper restoration
+### 20 — Done: deliver the human-readable CD1 reference
 
-Retained backlog only. This is not the next active task or a prerequisite for the
-personal archive. Revisit it when one of these articles is needed for paper/OCR
-work; no font-boundary investigation is scheduled now.
+Use the 995 prepared articles plus retained sources for the 85 failed candidates.
+Deliver one portable private folder with a plain HTML issue/article/image index,
+UTF-8 article text, paragraph/image positions and separate downloads of identified
+listings/preformatted text. Follow the minimal static approach in the owner's local
+web PRD; no SPA, backend, database or OCR engine is needed for this handoff.
 
-Review `8901110` (`를`) and `9103202` (`！`), whose multibyte characters cross an
-Arial/Fixedsys boundary. Decode the adjacent fragments together where their bytes
-and context support the character. Normalize the ordinary-font transition in the
-reading output using a documented rule; preserving two display font runs for one
-character is not required. Keep both original fragments, their spans and font
-declarations in private provenance, separate from the normalized reading text.
+For failed candidates, ignore cosmetic font/color/alignment boundaries, preserve
+text and code whitespace, and represent line/cell/row controls readably. Keep
+localized unknown-byte/glyph markers and source evidence rather than losing an
+entire article. Recover the two split characters as part of this general text
+handling. Do not guess source ownership for the eight blocked candidates or
+automatically repair code. Keep historical 19b records unchanged and report
+reference availability separately from those strict package outcomes.
 
-Validate both complete articles with source-byte accounting across the joined
-fragments, unchanged neighboring text and meaningful structure, valid packages and
-repeatable output. Reconstruction of original bytes may use the retained evidence;
-each normalized display run need not independently reproduce an original font run.
-Use the current content contract where possible; exact font-boundary fidelity
-alone does not justify a schema redesign. Keep the 19b handoff reproducible and
-mark the resulting text as awaiting paper verification. Record remaining ambiguity
-explicitly. The 30 mixed/ambiguous cases, Symbol conflicts, `9309201` and other
-exception classes remain outside this small follow-up. This work is not required
-before using the personal archive or beginning paper review.
+Browse CD articles independently of the library TOC. Retain existing reviewed
+links and transcribed entries, with mismatches visible; metadata inconsistencies
+must not hide article text. Keep images near their source content, expose original
+files for comparison, and retain deferred WMFs without another repair project.
+
+Complete when all candidates have a visible status, exports preserve text/code
+characters and line breaks, every local link/image resolves or is explicitly
+deferred, targeted extraction/export tests pass, a rebuild agrees, and real-browser
+checks confirm usable article/code/image pages. Missing scans, paper review,
+uncertain glyphs and unresolved ownership remain visible follow-up items, not
+reasons to postpone the usable handoff. Update entry-point documentation and
+commit the tools, tests and metadata; all article text/media stay private.
+
+Result: `build/cd1-reference/index.html` provides **1,080 article text exports**:
+995 earlier preparations, 52 additional references without decoding-gap markers,
+and 33 references with localized gaps. Eight ownership-blocked candidates remain
+explicit. The export includes **3,125 listing files**, 7,738 image occurrences and
+4,979 viewable images; 1,111 images retain deferred status and original-file links.
+All 122 TOC issues have pages, with the 72 CD1 issues shown first. Both split
+characters are recovered without a separate font-boundary checkpoint.
+
+All **12 focused tests pass without skips**. The complete export checker validates
+26,828 files, 7,994 HTML pages and 81,086 local links, including every article text,
+paragraph position and listing's characters/spacing in HTML and text. A full
+rebuild reproduces every output exactly. Historical extraction code and 19b
+records remain unchanged. See the [readable reference guide](docs/CD1-READABLE-REFERENCE.md).
+This completes the usable CD1 handoff with explicit gaps; further work is driven by
+paper/OCR restoration needs, with CD2/CD3 and the richer reading room separate.
 
 ## Checkpoint status
 
@@ -1415,9 +1439,10 @@ Checkpoint 19b incorporates all five exact-run OEM articles, preserving the 18c
 handoff, its Symbol recoveries and every earlier retry history. Thirty-five
 font/decoding failures remain: two cross-font character cases, 30 mixed/ambiguous
 codec cases, two Symbol font/context conflicts and the ambiguous `9309201`.
-The CD1 extraction milestone is complete with these known exceptions. **20a and
-further exception cleanup are deferred**; use the existing handoff for reading and
-as reference material for paper/OCR restoration. All CD-derived content remains
+Step **20 is complete**: the accessible text/code/image reference adds useful
+text from all 85 previously failed candidates. There are 1,047 text exports without
+marked decoding gaps and 33 with explicit gaps; eight candidates remain blocked.
+Use this reference for reading and OCR comparison. All CD-derived content remains
 subject to the owner's paper verification.
 Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
@@ -1460,7 +1485,7 @@ of later publication decisions.
 | 18c — Done: combined Symbol coverage | Two carried samples, combined issue packages and preserved exception histories. | All 72 packages validate with 990 articles; both samples pass source checks, the 74-file manifest and 16 coverage tables reproduce exactly, and 282 tests pass. |
 | 19a — Done: existing-codec failure review | Decisions for all 37 candidates, five exact OEM policies and three validated samples. | All 70 topics retain source evidence; 46 runtime files rebuild identically, 291 tests pass, and two cross-font plus 30 ambiguous cases remain deferred. |
 | 19b — Done: exact-run OEM integration | Two successful retries, three carried samples and combined coverage. | All 72 packages validate with 995 articles; five source audits and six histories survive, the 81-file manifest and 17 coverage tables reproduce exactly, and 298 tests pass. |
-| 20a — Deferred: split-character normalization | Retained recovery option when these two articles are needed for paper/OCR restoration. | Reopen for a concrete restoration benefit; preserve evidence and readable text without requiring exact display font boundaries. Not a CD1 completion gate. |
+| 20 — Done: readable CD1 reference | Portable plain HTML, 1,080 article texts, 3,125 listings, images and explicit remaining gaps. | All candidates are represented; 12 tests and the full link/text checks pass, output repeats exactly, and the handoff is documented. |
 
 ### Content contract requirements implemented in step 8
 

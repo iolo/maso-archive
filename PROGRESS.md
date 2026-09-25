@@ -2341,3 +2341,61 @@
 - Update PLAN-CD1's goal, stopping point and task status accordingly. This is a
   documentation-only change, checked for links and whitespace. The owner's PRD
   edits and all historical extraction records remain untouched.
+
+### 2026-09-25 — Step 20 started: usable text, code and image reference
+
+- The owner asks to finish around readable, OCR-comparable text/code and images,
+  accepting inconsistent human-entered formatting and library TOC metadata. Reopen
+  the usability deliverable; the extraction-baseline closeout does not finish it.
+- Build a private plain-HTML reference following the local-web PRD, with UTF-8
+  article/listing downloads, image links and paragraph positions. Keep CD article
+  navigation independent of uncertain TOC matching. Preserve both owner PRD files.
+- A recovery pass over the 85 failed candidates finds 52 without text-gap markers,
+  including both cross-font characters; 33 retain readable surrounding text with
+  explicit unknown-byte/glyph markers. Eight ownership-blocked candidates remain
+  unassigned. These reference recoveries do not change historical 19b counts or
+  imply paper verification.
+- The first export stopped when Pillow rejected a bitmap. Update image handling
+  to try the available ImageMagick decoder once and retain an explicit deferred
+  record if it also fails; do not make an image exception block the text export.
+
+### 2026-09-25 — Step 20 completed: readable CD1 reference delivered
+
+- Deliver `build/cd1-reference/index.html`: a portable private folder of plain HTML,
+  UTF-8 text, listing downloads, paragraph/image positions and original/converted
+  image links. It opens directly from disk, with no server or framework. The 72
+  issues containing CD text appear first; 50 earlier TOC-only issues remain
+  accessible. Inconsistent TOC titles do not hide CD articles or force matches.
+- All 1,088 candidates have pages. **1,080 have article text**: 995 existing
+  preparations plus **52 newly readable references and 33 with marked text gaps**.
+  The eight ownership-blocked candidates retain explicit notices. Both cross-font
+  characters recover through ordinary formatting normalization. There are 371
+  localized unknown-byte/Symbol records in the 33 marked references; no code repair
+  or paper-verification claim is made.
+- The handoff has **458,678 paragraphs, 3,125 listing/preformatted-text downloads,
+  7,738 image occurrences and 6,090 distinct referenced images**. Of those images,
+  4,979 have viewable derivatives and 1,111 are deferred with original-file links.
+  ImageMagick decoded nine DIBs rejected by Pillow; each has a conversion note.
+  Deferred WMFs were not retried. The folder occupies about 1.07 GB.
+- All **12 focused tests pass without skips**, covering split characters, code
+  whitespace/operators, table/line controls, hidden metadata, image positions,
+  explicit gaps, document boundaries, HTML escaping and blocked source ownership.
+  An initially malformed synthetic test literal was corrected before the passing
+  runs. The full export check verifies **26,828 files, 7,994 HTML pages and 81,086
+  local links**, all article text/paragraph positions and every listing's exact
+  characters in HTML and TXT.
+- A complete final rebuild reproduces the manifest and every output file exactly.
+  Manifest SHA-256: `f0c60ec00065a744922f42beaad83386b7eb1bf7fb5edc934e423ae6e1e533c6`.
+  Chrome checks through the Playwright skill confirm direct-file browsing, readable
+  Korean text, code text links, the recovered fullwidth character and image pages.
+  The Turbo C HTML and TXT listing both contain 30,624 characters and 30 tabs;
+  its diagram loads at 467×258 with its original available. Initial browser defaults
+  blocked file URLs; the isolated local-file configuration and installed Chrome
+  completed the checks without a runtime server or browser installation.
+- Update README, PLAN-CD1 and `docs/CD1-READABLE-REFERENCE.md` around the actual
+  usable handoff. Historical decoder/policy/schema/package records remain unchanged;
+  their 298-test baseline was not needlessly rerun for this isolated export.
+  Source text, images, snapshots and browser screenshots stay ignored/private.
+  The owner's PRD files remain untouched and outside this commit. CD1's reference
+  deliverable is complete with visible exceptions; paper/OCR work, CD2/CD3 and the
+  richer reading room remain separate scopes.

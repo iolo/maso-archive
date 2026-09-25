@@ -7,20 +7,25 @@ TOC import covers 122 issues through December 1993, with 5,497 entries.
 Official CD holdings support
 further extraction; per-disc coverage and completeness remain to be verified.
 
-**Step 15b is complete: 977 prepared CD1 articles across 72 issues.** It adds
-27 articles after six successful 15a samples, with all 33 eligible font retries
-accounted for. Of 1,088 candidates, **103 remain failed and eight blocked** with
-retained evidence. All combined issue packages validate; content remains private.
-See the [font retry pass and current coverage](docs/CD1-FONT-PASS.md).
+**The CD1 reading/OCR reference is available locally at
+`build/cd1-reference/index.html`.** Open it directly in a browser; no server is
+needed. It includes **1,080 article text exports** across 72 CD1 issues:
+**1,047 without marked decoding gaps and 33 with localized gaps**. Eight candidates
+retain unresolved article boundaries. The index also includes the 50 earlier
+TOC-only issues.
 
-The [historical first pass](docs/CD1-FULL-PASS.md) retains its original 537
-preparations, and the [14b association pass](docs/CD1-ASSOCIATION-PASS.md) retains
-its 944-article handoff. The [15a font audit](docs/CD1-FONT-REVIEW.md) supports
-source-bound ASCII-only additions; **53 other font/decoding cases remain deferred**.
-Further extraction should take one bounded unresolved subtype from that audit.
+There are **3,125 listing/preformatted-text downloads**, paragraph/image positions
+for OCR comparison, and **4,979 viewable images**. Another 1,111 referenced images
+have explicit deferred status and original-file links. CD article navigation works
+independently of inconsistent library TOC titles. Paper magazines remain authoritative;
+CD text is a secondary reference and has not yet been verified against paper.
 
-TOC matching remains separate: 913 prepared articles still lack reviewed TOC links.
-Complete printed-issue coverage and physical review remain unverified.
+See [the readable reference guide](docs/CD1-READABLE-REFERENCE.md) for paths,
+remaining gaps and validation. Run `make export-cd1-reference` to reproduce the
+private export and `make check-cd1-reference` to check its text, listings and links.
+The [historical 19b handoff](docs/CD1-OEM-PASS.md) retains its 995 strictly prepared
+packages and earlier records; the readable reference adds useful text from the
+85 previously failed candidates without changing those historical outcomes.
 
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan — deferred](PLAN-CD2.md)

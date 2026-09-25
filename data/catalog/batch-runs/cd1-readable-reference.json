@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "checkpoint": "20",
+  "scope": "human_readable_CD1_text_code_and_images_for_OCR_reference",
+  "output_root": "build/cd1-reference",
+  "counts": {
+    "issues": 122,
+    "issues_with_cd_articles": 72,
+    "candidates": 1088,
+    "article_status": {
+      "blocked": 8,
+      "normalized": 52,
+      "prepared": 995,
+      "reference_with_gaps": 33
+    },
+    "readable_articles": 1047,
+    "articles_with_text": 1080,
+    "paragraphs": 458678,
+    "listing_files": 3125,
+    "image_occurrences": 7738,
+    "distinct_images": 6090,
+    "image_status": {
+      "available": 4979,
+      "deferred": 1111
+    },
+    "toc_entries": 5497,
+    "text_gaps": 371
+  },
+  "inputs": {
+    "coverage": {
+      "path": "data/catalog/batch-runs/cd1-oem-pass.json",
+      "bytes": 82413,
+      "sha256": "a687459e798d89e5c5de22aedb0cda4885446e3d093dc2f0252f0e96b7344ec4"
+    },
+    "rtf_sha256": "01465d52667ab798df0dcf7993b6de764f45fd55e09eec1f80f77291303d957b",
+    "toc_sha256": "ad21242011507327a8b4969192ac11475ec0f331e40777133da1791069ba9efc",
+    "issues_sha256": "8407f04e74aebd53c7a99bdb91c49fa7cebc7051f3541810f714645cca4bf0b3",
+    "implementation": {
+      "tools/reference/export.py": "f91f6c71be8e70f926134a88ed668f7d242d2961e80a4d3b7d624c88aecb8312",
+      "tools/reference/text.py": "4eaa3b863bc68f961c53ad6ee8018220df1d889e1d1c9775cb1579fce49fac10"
+    }
+  },
+  "manifest": {
+    "path": "build/cd1-reference/manifest.json",
+    "bytes": 4816963,
+    "sha256": "f0c60ec00065a744922f42beaad83386b7eb1bf7fb5edc934e423ae6e1e533c6"
+  },
+  "limits": [
+    "paper_verification_pending",
+    "marked_gaps_are_not_inferred_text",
+    "eight_ownership_blockers_retained",
+    "deferred_vectors_not_repaired",
+    "TOC_links_not_guessed",
+    "historical_19b_records_unchanged"
+  ]
+}

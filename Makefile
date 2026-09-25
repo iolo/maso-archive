@@ -151,3 +151,10 @@ run-cd1-oem-pass:
 
 report-cd1-oem-pass:
 	PYTHONPATH=src $(PYTHON) -m tools.batch.oem_coverage $(REPORT_ARGS)
+
+.PHONY: export-cd1-reference check-cd1-reference
+export-cd1-reference:
+	PYTHONPATH=src $(PYTHON) -m tools.reference.export $(REFERENCE_ARGS)
+
+check-cd1-reference:
+	PYTHONPATH=src $(PYTHON) -m tools.reference.check
