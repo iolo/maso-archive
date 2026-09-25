@@ -2411,3 +2411,22 @@
 - This is a documentation-only handoff. Check whitespace and relative document
   links; do not rerun extraction or change the private export. Preserve both owner
   PRD files outside the handoff commit. No next workstream is started.
+
+### 2026-09-26 — Reading-room SPA implementation planned
+
+- Read the owner's current `PRD-reading-room.md`, `docs/SUCCESSOR-NOTES.md`,
+  reference guide, current CD1 status, historical content contract and exporter.
+  Inspect the completed JSON sidecars and confirm the adjacent issue/TOC files
+  match the reference manifest's recorded hashes. `PRD-local-web.md`, mentioned
+  by the handoff, is absent from this working tree.
+- Add `PLAN-reading-room.md` and a README link. Scope the SPA to 1983-11–1993-12
+  and the completed reference: 122 issues, 5,497 TOC entries, 1,080 article texts,
+  eight blocked candidates, and existing media/downloads. Preserve the CD1
+  deliverable and its historical records; further extraction is not a prerequisite.
+- Plan a deterministic static-data adapter, a first usable February reader, full
+  archive/media navigation, metadata search, and focused production/browser checks.
+  Document responsive layout, missing-content states, theme behavior, hash routes,
+  static hosting, source fidelity, private output and the synthetic demo path.
+- This is planning only: no frontend scaffold, extraction, export modification or
+  dependency installation. Validate document links and whitespace; historical
+  extraction tests do not need rerunning. Next action is adapter/fixture step 1.

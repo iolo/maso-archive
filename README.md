@@ -31,6 +31,7 @@ packages and earlier records; the readable reference adds useful text from the
 - [CD2 extraction plan — deferred](PLAN-CD2.md)
 - [CD3 extraction plan — deferred](PLAN-CD3.md)
 - [Reading-room PRD](PRD-reading-room.md)
+- [Reading-room implementation plan](PLAN-reading-room.md)
 - [Detailed design reference](docs/DESIGN-REFERENCE.md)
 - [Progress](PROGRESS.md)
 - [Successor notes and remaining work](docs/SUCCESSOR-NOTES.md)
