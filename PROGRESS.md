@@ -2302,3 +2302,23 @@
 - The current report is `docs/CD1-OEM-PASS.md`, backed by
   `data/catalog/batch-runs/cd1-oem-pass.json`. Full text, media and detailed evidence
   stay private. The owner's two PRD files are excluded from the commit.
+
+### 2026-09-25 — Source authority and typography priorities clarified
+
+- The owner identifies original paper magazines as the primary source and CDs as
+  a secondary extraction source, and will revalidate every restored article/issue
+  against paper. CD byte/package checks establish reproducibility, not printed
+  accuracy. Paper-supported corrections take precedence while retaining CD evidence.
+- Revise PLAN-CD1 to prioritize readable text, code whitespace, meaningful emphasis,
+  structure and figures. Exact ordinary RTF typefaces and font-run boundaries are
+  not acceptance gates. Preserve raw RTF/provenance; permit documented normalization
+  in reading content. Font-dependent glyph/encoding ambiguity remains a text concern.
+- Replace 20a's lossless display-font representation requirement with optional,
+  bounded recovery of `를` and `！` across ordinary-font boundaries. Preserve both
+  byte fragments in provenance and validate the joined text; no schema redesign
+  is required merely to represent the cosmetic transition. No extraction occurs
+  in this plan revision, and no additional article is counted as prepared.
+- The existing 995-article handoff can support the personal archive and paper review
+  now. Remaining extraction cleanup is not a prerequisite. Historical results and
+  the owner's PRD edits remain unchanged. This documentation-only revision is
+  checked for links and whitespace; extraction regressions need no rerun.

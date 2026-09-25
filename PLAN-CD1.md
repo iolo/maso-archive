@@ -60,6 +60,38 @@ remain visible in the coverage record rather than requiring immediate repair.
 
 ## Responsibility and handoff
 
+### Source authority and recovery priorities — clarified 2026-09-25
+
+**The original paper magazines are the primary, authoritative source.** The CDs
+are a secondary source for preparing a usable transcription. The owner will
+revalidate every restored article/issue against the paper magazines. Until then,
+CD-derived content remains provisional; successful byte/package checks establish
+reproducibility, not agreement with the printed original. Corrections supported
+by paper review take precedence over CD text, with the original CD evidence and
+the basis for each correction retained.
+
+Prioritize readable text, complete articles, code whitespace, meaningful emphasis,
+section/paragraph structure, captions and figure relationships. Exact RTF typefaces
+and cosmetic font-run boundaries are not archive acceptance requirements. Keep
+the original RTF and extraction evidence for traceability, but allow documented
+normalization of ordinary fonts in reading content. A font transition alone must
+not block a character whose bytes and context support its interpretation.
+
+Font information still matters when it changes the glyph/encoding interpretation,
+as with Symbol or code-page-dependent symbols. Relaxing typography requirements
+does not authorize guessed text, discarded bytes or silent replacement characters.
+Record uncertain content for paper review; defer a whole article only when a
+usable, honestly marked representation cannot be produced.
+
+These priorities govern future recovery work and supersede typography-preservation
+gates in unfinished tasks. Completed checkpoints and their exact-byte checks remain
+historical reproducibility records; they need not be rerun to mimic paper typography.
+The existing 995-article handoff is usable for the personal archive now. Remaining
+extraction cleanup, including 20a, is optional and does not gate reading-room work
+or the owner's paper-based review.
+
+### Content handoff
+
 | This plan produces | The reading-room PRD owns |
 | --- | --- |
 | Recovered text, semantic blocks, media derivatives, and provenance | Article/media display and reading typography |
@@ -1323,22 +1355,25 @@ and all six retry histories remain intact. Complete resume reproduces the
 tables and the tracked summary exactly. **298 regression tests pass without
 skips**. See the [OEM integration report](docs/CD1-OEM-PASS.md).
 
-### 20a — Next: preserve characters split across font changes
+### 20a — Optional follow-up: normalize two split characters for readable text
 
-Review `8901110` and `9103202`, whose multibyte characters cross an Arial/Fixedsys
-boundary. Establish an explicit representation that retains both original byte
-fragments, their source spans and formatting while projecting one Unicode
-character. Do not merge away font changes, move bytes between source runs, or
-choose a glyph merely because concatenated bytes decode.
+Review `8901110` (`를`) and `9103202` (`！`), whose multibyte characters cross an
+Arial/Fixedsys boundary. Decode the adjacent fragments together where their bytes
+and context support the character. Normalize the ordinary-font transition in the
+reading output using a documented rule; preserving two display font runs for one
+character is not required. Keep both original fragments, their spans and font
+declarations in private provenance, separate from the normalized reading text.
 
-If the source evidence and representation support reversible recovery, validate
-both complete articles in an isolated sample: independent inverse-byte checks,
-unchanged neighboring content, Markdown/media/schema validation and identical
-fresh builds. Keep the 19b handoff immutable. Document any contract implications
-before changing a shared format; if lossless representation is not yet supported,
-retain the original outcomes and record the limitation. Integration follows a
-separate checkpoint after sample validation. The 30 ambiguous-source articles,
-Symbol conflicts, `9309201` and other exception classes remain outside this sample.
+Validate both complete articles with source-byte accounting across the joined
+fragments, unchanged neighboring text and meaningful structure, valid packages and
+repeatable output. Reconstruction of original bytes may use the retained evidence;
+each normalized display run need not independently reproduce an original font run.
+Use the current content contract where possible; exact font-boundary fidelity
+alone does not justify a schema redesign. Keep the 19b handoff reproducible and
+mark the resulting text as awaiting paper verification. Record remaining ambiguity
+explicitly. The 30 mixed/ambiguous cases, Symbol conflicts, `9309201` and other
+exception classes remain outside this small follow-up. This work is not required
+before using the personal archive or beginning paper review.
 
 ## Checkpoint status
 
@@ -1353,8 +1388,9 @@ Checkpoint 19b incorporates all five exact-run OEM articles, preserving the 18c
 handoff, its Symbol recoveries and every earlier retry history. Thirty-five
 font/decoding failures remain: two cross-font character cases, 30 mixed/ambiguous
 codec cases, two Symbol font/context conflicts and the ambiguous `9309201`.
-Next, **20a** reviews lossless representation for the two cross-font characters
-and validates isolated full-article samples only where the evidence supports it.
+Optional **20a** recovers the two split characters with documented ordinary-font
+normalization and retained byte evidence. It does not block use of the existing
+handoff; all restored content remains subject to the owner's paper verification.
 Preserve current/historical outcomes before any broader retry. Unsupported RTF,
 inherited formatting and source-topic ownership remain separate exception classes.
 TOC matching is separate metadata work: 931 prepared articles still lack reviewed
@@ -1396,7 +1432,7 @@ of later publication decisions.
 | 18c — Done: combined Symbol coverage | Two carried samples, combined issue packages and preserved exception histories. | All 72 packages validate with 990 articles; both samples pass source checks, the 74-file manifest and 16 coverage tables reproduce exactly, and 282 tests pass. |
 | 19a — Done: existing-codec failure review | Decisions for all 37 candidates, five exact OEM policies and three validated samples. | All 70 topics retain source evidence; 46 runtime files rebuild identically, 291 tests pass, and two cross-font plus 30 ambiguous cases remain deferred. |
 | 19b — Done: exact-run OEM integration | Two successful retries, three carried samples and combined coverage. | All 72 packages validate with 995 articles; five source audits and six histories survive, the 81-file manifest and 17 coverage tables reproduce exactly, and 298 tests pass. |
-| 20a — Next: cross-font character representation | Decisions and, where supported, two reversible complete-article samples. | Both byte fragments and formats remain traceable; supported samples pass source/package/fresh-build checks, or the representation limitation remains explicit. |
+| 20a — Optional: split-character normalization | Two readable articles with documented ordinary-font normalization and retained source evidence. | Joined characters have byte/context support, original fragments remain traceable, text/structure/package checks pass, and paper verification stays pending; display font boundaries are not a gate. |
 
 ### Content contract requirements implemented in step 8
 
