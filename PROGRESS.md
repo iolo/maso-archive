@@ -2430,3 +2430,36 @@
 - This is planning only: no frontend scaffold, extraction, export modification or
   dependency installation. Validate document links and whitespace; historical
   extraction tests do not need rerunning. Next action is adapter/fixture step 1.
+
+### 2026-09-26 — Reading-room SPA delivered
+
+- Implement the static adapter in `tools/reading_room/`, the Vite/React/TypeScript
+  client in `web/`, and the build/use guide in `docs/READING-ROOM.md`. Use the
+  pinned completed CD1 reference and matching TOC inputs; preserve existing
+  article identities, reviewed links, ordered TOCs, literal text/listings and
+  media availability. No extraction or historical package records changed.
+- Export the full private `build/reading-room/` site: 122 issues, 5,497 TOC
+  entries, 1,088 article records, 1,080 text downloads, 3,125 listings and 6,783
+  issue/media records. The output is about 1.3 GB, including original and
+  converted media. Eight blocked articles, 33 gap-bearing references and the
+  earlier TOC-only issues remain explicit. `make check-reading-room` verifies
+  generated file inventory/hashes, counts and cross-links.
+- Deliver bookshelf, issue/TOC/article/media/search routes, responsive TOC,
+  same-issue context, downloads, System/Light/Dark theme, keyboard skip link,
+  missing-cover/deferred-media states and Korean interface copy. Use hash routes
+  for static hosting and load article bodies only when visited. A separate
+  `build/reading-room-demo/` works from a checkout without private content and
+  includes prepared/recovered/gap/blocked/unmatched/deferred examples.
+- Focused Python tests (2) and Vitest tests (3) pass; TypeScript and production
+  build pass. Independent full-data check reconciles all expected counts and
+  checksums. Browser checks covered February browsing, Gary Kildall, Turbo C,
+  metadata search, deferred media, 360 px mobile layout, synthetic demo and
+  `/archive/` nested-base serving. A recovered article initially crashed because
+  its text runs omitted optional `marks`; fix rendering, add a regression test
+  and confirm the gap-bearing article displays in the browser. The Turbo C first
+  listing remains 30,624 bytes with its recorded SHA-256. A production-dependency
+  `npm audit --omit=dev --audit-level=moderate` reports zero vulnerabilities.
+- Keep owner edits to `PRD-reading-room.md` outside the implementation commit.
+  Static hosting is required for the SPA; the older reference still opens
+  directly as a local file. Paper verification and any public-access decision
+  remain separate.

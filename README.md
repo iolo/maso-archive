@@ -7,6 +7,14 @@ TOC import covers 122 issues through December 1993, with 5,497 entries.
 Official CD holdings support
 further extraction; per-disc coverage and completeness remain to be verified.
 
+**The browser reading room is available at `build/reading-room/index.html` when
+served from a static host.** Run `make export-reading-room` and
+`make build-reading-room` to prepare it locally; see the
+[reading-room guide](docs/READING-ROOM.md) for setup, the private data requirement
+and the synthetic demo. It covers issue browsing, TOCs, articles, media,
+downloads, metadata search and mobile reading. Static hosting is required for
+the SPA's JSON requests.
+
 **The CD1 reading/OCR reference is available locally at
 `build/cd1-reference/index.html`.** Open it directly in a browser; no server is
 needed. It includes **1,080 article text exports** across 72 CD1 issues:
@@ -32,6 +40,7 @@ packages and earlier records; the readable reference adds useful text from the
 - [CD3 extraction plan — deferred](PLAN-CD3.md)
 - [Reading-room PRD](PRD-reading-room.md)
 - [Reading-room implementation plan](PLAN-reading-room.md)
+- [Reading-room build and use guide](docs/READING-ROOM.md)
 - [Detailed design reference](docs/DESIGN-REFERENCE.md)
 - [Progress](PROGRESS.md)
 - [Successor notes and remaining work](docs/SUCCESSOR-NOTES.md)

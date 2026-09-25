@@ -158,3 +158,21 @@ export-cd1-reference:
 
 check-cd1-reference:
 	PYTHONPATH=src $(PYTHON) -m tools.reference.check
+
+.PHONY: export-reading-room demo-reading-room build-reading-room check-reading-room test-reading-room
+export-reading-room:
+	PYTHONPATH=src $(PYTHON) -m tools.reading_room.export
+
+demo-reading-room:
+	PYTHONPATH=src $(PYTHON) -m tools.reading_room.export --demo
+	cd web && READING_ROOM_OUTPUT=build/reading-room-demo npm run build
+
+build-reading-room:
+	cd web && npm run build
+
+check-reading-room:
+	PYTHONPATH=src $(PYTHON) -m tools.reading_room.check
+
+test-reading-room:
+	PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -p test_reading_room_web_export.py -v
+	cd web && npm test && npm run build

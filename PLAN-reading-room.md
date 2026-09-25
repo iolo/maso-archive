@@ -2,8 +2,8 @@
 
 Prepared 2026-09-26 from [PRD-reading-room.md](PRD-reading-room.md), the
 [predecessor handoff](docs/SUCCESSOR-NOTES.md), and inspection of the completed
-[CD1 reference](docs/CD1-READABLE-REFERENCE.md). Status: **planned; implementation
-has not started**. This plan owns the SPA; [PLAN-CD1.md](PLAN-CD1.md) remains the
+[CD1 reference](docs/CD1-READABLE-REFERENCE.md). Status: **implemented**; see the
+[build and use guide](docs/READING-ROOM.md). This plan owns the SPA; [PLAN-CD1.md](PLAN-CD1.md) remains the
 record of completed extraction and its deferred backlog.
 
 ## Outcome and scope
@@ -263,9 +263,10 @@ existing archive with visible exceptions. Preserve the original CD1 reference.
 No deployment, additional recovery campaign or paper-verification claim is part
 of completion.
 
-## Next action
+## Delivered
 
-Start step 1 with the adapter and February fixture, then proceed directly to the
-working reader. The documented defaults for metadata search, hash routing,
-missing covers and same-issue suggestions allow implementation without another
-planning checkpoint.
+The adapter, synthetic demo, full archive export, responsive reader, metadata
+search, static package and focused validation are complete. The production build
+resides under ignored `build/reading-room/`; the synthetic demo uses
+`build/reading-room-demo/`. Refer to the guide for commands and current limits.
+Later changes should respond to concrete reading or paper-restoration needs.
