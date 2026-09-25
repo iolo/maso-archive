@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd2",
+  "scope": "source_map_and_candidate",
+  "iso": {
+    "path": "masocd-2.iso",
+    "bytes": 197738496,
+    "sha256": "fc7b3047b2c6cc2555500faf43dc0b73ff877c2f5b01acdb32041615d2f31a0e"
+  },
+  "container": {
+    "path": "DATA/MASO2.M12",
+    "bytes": 125394639,
+    "sha256": "97f2a71944258e1a0612429a8530af9762681a21e4278e4db06021016a43c8a7"
+  },
+  "counts": {
+    "disc_files": 1956,
+    "disc_directories": 102,
+    "list_files": 88,
+    "source_directories": 97,
+    "probe_files": 2354,
+    "rtf_pages": 1388
+  },
+  "probe_extensions": {
+    ".bmp": 58,
+    ".dib": 2163,
+    ".lst": 3,
+    ".mvp": 1,
+    ".rtf": 1,
+    ".tbl": 1,
+    ".tre": 3,
+    ".wmf": 114,
+    ".wwm": 5,
+    ".wwt": 5
+  },
+  "candidate": {
+    "native_reference": "940116300",
+    "native_context": "3H9UTZ3",
+    "index": {
+      "file": "book.lst",
+      "line": 467,
+      "entry": "한글 TeX을 이용하려면^940116300"
+    },
+    "title_evidence": "CD-native index and matching RTF title footnote",
+    "issue_evidence": "RTF's own 94.1 / 163p label; no independent paper issue metadata",
+    "rtf": {
+      "path": "MASO2.rtf",
+      "byte_offset": 406653,
+      "byte_length": 77248,
+      "sha256": "c3b7063c28755b3e047e75a835f15b334f5e12f7c8ac3b2c9ff54d28346172e6",
+      "boundary_basis": "adjacent HELPDECO \\page markers"
+    },
+    "action": "!SrcCopy(9401163)",
+    "unknowns": [
+      "Print text and article boundaries are not paper-verified.",
+      "Source attachment membership is inferred from the native SrcCopy action and matching directory.",
+      "Media conversion and placement have not been validated in a browser."
+    ]
+  },
+  "candidate_attachment_paths": [
+    "DATA/SOURCE/9401163/TEX.ZIP"
+  ],
+  "candidate_media": {
+    "markers": 22,
+    "available": 22,
+    "missing_names": []
+  },
+  "viewer_entry_point": "BIN/MASO2.EXE on the disc; shortcut-only setup per owner",
+  "validation": {
+    "iso_hash_matches_recorded": true,
+    "fresh_iso_extraction_matches_tree": true,
+    "cd1_decoder_emits_cd2_rtf": true,
+    "index_title_matches_rtf": true,
+    "body_decoded": false,
+    "viewer_compared": false
+  },
+  "private_detail": {
+    "path": "build/cd2-preservation/inventory.json",
+    "bytes": 1030908,
+    "sha256": "96acf5389378c1d7b0a02806d1e71c0fe1da98f37ad4887d393328897cf528fc"
+  }
+}

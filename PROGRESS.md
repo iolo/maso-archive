@@ -2463,3 +2463,22 @@
   Static hosting is required for the SPA; the older reference still opens
   directly as a local file. Paper verification and any public-access decision
   remain separate.
+
+### 2026-09-26 — CD2 checkpoint 1: source map and one candidate
+
+- Input: the supplied CD2 ISO, its initial SHA-256, and the extracted tree.
+  Verify all 1,956 ISO files and 102 directories against a fresh extraction;
+  preserve the full checksummed inventory privately and a compact tracked
+  summary in `data/catalog/preservation/cd2-inventory.json`.
+- Test CD1's pinned HELPDECO revision against `DATA/MASO2.M12`. It emits a
+  24,741,045-byte RTF, three CD-native indexes, and image resources. Record the
+  decoder path and disc viewer entry point in `docs/CD2-SOURCE-MAP.md`.
+- Select native reference `940116300`, `한글 TeX을 이용하려면`, from `book.lst` line
+  467. Map its 77,248-byte RTF topic, context, source-copy action, `TEX.ZIP`,
+  and 22 image markers. All marker names occur in the private decoded output.
+  The disc's `94.1 / 163p` label supports a CD-native issue/page attribution;
+  no independent paper or library TOC match is claimed.
+- Validation: `python3 -m tools.inventory_cd2_sources --write-record` succeeded.
+  Run the command without the flag to reproduce and compare the record. Limits:
+  text, media conversion, topic/article boundaries, and paper agreement are not
+  yet verified. Next: one readable article and portable private reference.
