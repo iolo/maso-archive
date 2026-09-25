@@ -144,3 +144,10 @@ review-cd1-codecs:
 
 retry-cd1-oem-sample:
 	PYTHONPATH=src $(PYTHON) -m tools.batch.retry_oem_sample $(FONT_ARGS)
+
+.PHONY: run-cd1-oem-pass report-cd1-oem-pass
+run-cd1-oem-pass:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.oem_pass
+
+report-cd1-oem-pass:
+	PYTHONPATH=src $(PYTHON) -m tools.batch.oem_coverage $(REPORT_ARGS)

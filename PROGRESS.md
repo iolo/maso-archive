@@ -2224,3 +2224,81 @@
   media and detailed evidence remain private. Shared decoders, schema, earlier
   policies and historical records remain unchanged. The owner's two PRD files
   are excluded from this commit.
+
+### 2026-09-25 — Step 19b started: exact-run OEM integration
+
+- Carry the three verified 19a samples and process `8902178` and `8903170` under
+  their existing exact-run policies. The reviewed decoder and earlier artifacts
+  remain frozen; integration uses a separate output directory and new drivers.
+- Audit all five full articles, source bytes, formatting, Markdown and media;
+  compare all combined packages with 18c and preserve every retry history.
+  Verify resume and repeated coverage before counting any additional articles.
+
+### 2026-09-25 — Step 19b execution completed; coverage audit started
+
+- `8902178` and `8903170` both prepare with review exceptions. The three 19a
+  samples are carried unchanged; all five outcomes are durable and all 72 combined
+  issue packages compose successfully in `build/cd1-oem-pass/`.
+- The execution manifest covers 81 files, SHA-256
+  `52765a24a05ee6f266b2acc1a3381a6f56de1c9ada81fa4b9acf7f8290931f78`.
+  Independent source/package/coverage validation is running before the expected
+  five-article gain is counted. Four selection and sample-provenance tests pass.
+- Plan 20a as the next bounded source/representation review for the two cross-font
+  characters. Preserve both original fragments and formats; allow isolated full
+  samples only if reversible representation is supported, before later integration.
+
+### 2026-09-25 — Step 19b combined coverage verified
+
+- All 72 previous/current issue packages validate, preserving earlier article,
+  preview and media bytes. All five complete source checks pass; the three carried
+  checks equal the 19a sample record. The additions preserve 9,242 paragraphs,
+  978 blocks, 665,446 RTF bytes and 8,234 text runs across nine source topics.
+- Coverage is **995 prepared articles, 85 failures and eight blockers** out of
+  1,088 candidates. All 6,165 media resources reconcile: 4,651 available, 893
+  deferred and 621 not packaged; 3,453 bitmap conversions match source pixels.
+- Seventeen coverage tables preserve all six retry histories and the 32 deferred
+  codec-review decisions. Earlier Symbol and declaration annotations remain exact.
+  Summary SHA-256: `a687459e798d89e5c5de22aedb0cda4885446e3d093dc2f0252f0e96b7344ec4`.
+  Complete resume and repeated reporting remain to be verified.
+
+### 2026-09-25 — Step 19b resume and integration tests verified
+
+- Complete resume reproduces the 81-file execution manifest exactly. The two new
+  outcomes resume from their checkpoints; all three carried sample pointers and
+  all 72 composed issue records remain unchanged.
+- All seven new integration tests pass without skips, including exact eligibility,
+  sample provenance and runtime inventory, all 72 preserved issue payloads, six
+  retry histories, deferred decisions, independent source-byte reconstruction and
+  literal box-drawing text/spacing in Markdown. Full regressions and a second
+  complete coverage audit are running.
+
+### 2026-09-25 — Step 19b repeated coverage verified
+
+- A second complete audit reproduces all **17 coverage tables and the tracked
+  summary exactly**, including all five full source checks, every historical/current
+  package, previous payload bytes and all available bitmap pixels. The tracked
+  summary's bytes also match the copy saved before the repeat.
+- Complete resume and repeated reporting are verified; all seven new integration
+  tests pass. Full historical regressions remain running before final closeout.
+
+### 2026-09-25 — Step 19b completed: combined OEM coverage
+
+- All five reviewed articles are integrated into the 72 current issue handoffs:
+  **995 prepared articles, 85 failures and eight blockers** out of 1,088 candidates.
+  The two new full articles and three carried samples preserve every reviewed
+  byte/run/format; earlier article, preview and media bytes remain exact.
+- Complete resume reproduces the 81-file execution manifest. Repeated complete
+  reporting reproduces all 17 coverage tables and the tracked summary exactly.
+  Six retry histories and all deferred source decisions remain traceable.
+- **298 regression tests pass without skips** in `make check`, including seven
+  new integration tests and all historical source/package/schema/Markdown/base-URL
+  and TOC checks. Changed-document links, catalog JSON and staged whitespace
+  checks pass. No shared decoder, source policy, schema or historical record changed.
+- PLAN-CD1 marks **19b done; 20a next**: review reversible representation for the
+  two characters split across fonts, preserving both fragments and formats before
+  isolated complete-article samples. The other remaining exception classes,
+  metadata matching, physical review, scans, media repair, backup/restore, CD2/CD3,
+  UI and publication/access remain separate work.
+- The current report is `docs/CD1-OEM-PASS.md`, backed by
+  `data/catalog/batch-runs/cd1-oem-pass.json`. Full text, media and detailed evidence
+  stay private. The owner's two PRD files are excluded from the commit.
