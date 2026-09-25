@@ -1,6 +1,19 @@
 # reading-room
 
-browser-based reading room for issues/articles in archive
+NOTE: this PRD is related PRD-local-web.md but seperated for simplicity.
+
+## GOAL
+
+- browser-based reading room for issues/articles in archive
+
+## INPUT
+
+- output of PLAN-CD1.md
+  - build/cd1-reference/index.html
+
+## OUTPUT
+
+- SPA webapp for reading issues/articles in archive
 
 ## architecture
 
@@ -26,28 +39,33 @@ user <--> SPA webapp <--> static files
 ## UI layout
 
 - header
+  - fixed on top
   - logo, main nav, dark/light mode toggle
     - issue selector
       - year
       - month
     - search
     - dark/light mode toggle
-  - fixed on top
   - main nav
 - nav: TOC
   - left side on main
   - list/tree on desktop. dropdown on mobile.
+  - TOC of the selected issue
 - main
   - varying content area
-  - issue index(like bookshelf)
-  - selected issue cover
-  - selected article
-  - selected media
+  - index of issues(like bookshelf)
+  - or cover of the selected issue
+  - or the selected article
+  - or the selected media
 - aside
-  - link to releated articles, recommended articles, etc.
   - right side on main
   - collapsible. open at desktop, closed at mobile by default
+  - link to releated articles, recommended articles, etc.
 - footer
-  - copyright, license, etc.
   - sticky on bottom
+  - copyright, legal, link, etc.
 
+## target contents
+
+- 83.11 to 93.12 issues, but some issues are missing(not prepared yet).
+- TOC of all issues are prepared, but some articles could be missing(not prepared yet).
