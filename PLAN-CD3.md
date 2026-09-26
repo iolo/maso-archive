@@ -74,8 +74,8 @@ uncertain bytes, discard unparsed content, or mark CD text as paper-verified.
 ## Bounded work sequence and outcome
 
 The checkpoints below were completed in order, refining later work from the
-source evidence. The result is a private reference for all 967 discovered CD3
-article candidates, with 792 success and 175 partial outcomes, plus explicit
+source evidence. The result is a private reference for all 968 discovered CD3
+article candidates, with 792 success and 176 partial outcomes, plus explicit
 auxiliary-topic and media accounting. See [the source map](docs/CD3-SOURCE-MAP.md)
 for format evidence. A failure in one article or image did not hide usable text
 in another. The checksummed source trail did not require an independent backup

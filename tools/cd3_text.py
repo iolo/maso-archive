@@ -17,4 +17,5 @@ COSMETIC_CD3 = COSMETIC | set("""
 
 
 def parse_cd3(raw, base):
-    return parse(raw, base, skip=SKIP, cosmetic=COSMETIC_CD3)
+    return parse(raw, base, skip=SKIP, cosmetic=COSMETIC_CD3,
+                 allow_terminal_group_close=True)

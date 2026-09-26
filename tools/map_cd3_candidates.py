@@ -17,6 +17,7 @@ PAGE = re.compile(rb"(?<!\\)\\page\n")
 FOOTNOTE = re.compile(rb"\{\\up ([+!#$])\}\{\\footnote\\pard\\plain\{\\up \1\} ([^}]+)\}")
 MEDIA = re.compile(rb"\\\{(?:bmc|ewl) ([^}]+)\\\}")
 CAB_ACTION = re.compile(rb"!fc\(([^)]+)\)", re.I)
+LINK = re.compile(rb"\{\\v ([^}]+)\}")
 ISSUE = re.compile(rb"([0-9]{2})\\'b3\\'e2\s+([0-9]{1,2})\\'bf\\'f9\\'c8\\'a3", re.I)
 
 
@@ -85,17 +86,32 @@ def build():
             actual = disc_names.get(normalized.lower())
             attachments.append({"action": argument, "path": actual,
                                 "rtf_byte_offset": start + match.start(), "available": actual is not None})
+        links = [{"alias": match[1].decode("ascii"), "rtf_byte_offset": start + match.start()}
+                 for match in LINK.finditer(raw)]
         title = footnotes["$"][0] if footnotes["$"] else None
+        title_basis = "native_title_footnote" if title else None
+        if ordinal == 859:
+            require(not title and labels == ["9506"] and len(raw) > 7000 and
+                    raw.startswith(b"\\pard\\keepn\\qr"),
+                    "Reviewed untitled article exception changed")
+            title = "원하는 크기의 클라이언트 영역을 갖는 윈도우 생성"
+            title_basis = "visible lead phrase; no native title footnote or context alias"
         role = "article_candidate" if title else "author_bio" if footnotes["!"] == ["Author"] else "auxiliary_topic" if footnotes["#"] else "document_tail"
         topic = {"identity": f"topic-{ordinal:04d}", "ordinal": ordinal,
-                 "role": role, "title": title, "category": footnotes["!"][0] if footnotes["!"] else None,
+                 "role": role, "title": title, "title_basis": title_basis,
+                 "category": footnotes["!"][0] if footnotes["!"] else None,
                  "context_aliases": footnotes["#"], "browse_refs": footnotes["+"],
                  "native_issue_labels": labels, "group": labels[0] if len(labels) == 1 else "undated",
                  "rtf": {"byte_offset": start, "byte_length": end - start, "sha256": digest(raw)},
-                 "media": resources, "cab_actions": attachments,
+                 "media": resources, "cab_actions": attachments, "links": links,
                  "initial_outcome": "pending" if title else "classified"}
         topics.append(topic)
     for topic in topics:
+        for link in topic["links"]:
+            target = topics[aliases[link["alias"]] - 1] if link["alias"] in aliases else None
+            link["target_topic"] = target["identity"] if target else None
+            link["target_role"] = target["role"] if target else (
+                "cab_action" if link["alias"].lower().startswith("!fc(") else "unresolved")
         for item in topic["media"]:
             alias = item["target_alias"]
             target = topics[aliases[alias] - 1] if alias in aliases else None
@@ -114,6 +130,7 @@ def build():
     candidates = [t for t in topics if t["role"] == "article_candidate"]
     summary = {"schema_version": 1, "disc_id": "cd3", "source_inventory_sha256": digest(inventory_raw),
                "counts": {"rtf_topics": len(topics), "article_candidates": len(candidates),
+                          "untitled_article_candidates": sum(t["title_basis"] != "native_title_footnote" for t in candidates),
                           "author_bios": sum(t["role"] == "author_bio" for t in topics),
                           "auxiliary_topics": sum(t["role"] == "auxiliary_topic" for t in topics),
                           "document_tails": sum(t["role"] == "document_tail" for t in topics),
@@ -124,7 +141,13 @@ def build():
                           "resolved_figures": sum(m["target_media"] is not None for t in candidates for m in t["media"]),
                           "missing_figure_sources": sum(m["target_media"] is not None and not m["target_media"]["available"] for t in candidates for m in t["media"]),
                           "cab_actions": sum(len(t["cab_actions"]) for t in topics),
-                          "missing_cab_actions": sum(not a["available"] for t in topics for a in t["cab_actions"])},
+                          "missing_cab_actions": sum(not a["available"] for t in topics for a in t["cab_actions"]),
+                          "article_links": sum(len(t["links"]) for t in candidates),
+                          "linked_text_only_supplements": len({link["target_topic"] for t in candidates for link in t["links"]
+                                                          if link["target_role"] == "auxiliary_topic" and
+                                                          link["target_topic"] and not topics[int(link["target_topic"].split("-")[1]) - 1]["media"]}),
+                          "linked_author_bios": len({link["target_topic"] for t in candidates for link in t["links"]
+                                                      if link["target_role"] == "author_bio"})},
                "native_groups": dict(sorted(Counter(t["group"] for t in candidates).items())),
                "private_detail": {"path": str(OUTPUT.relative_to(ROOT)), "bytes": len(raw), "sha256": digest(raw)},
                "limitations": ["CD-native labels are not paper-verified magazine issue identities.",

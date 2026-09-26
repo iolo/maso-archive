@@ -54,6 +54,18 @@ def verify():
         blocks = json.loads((article / "blocks.json").read_bytes())
         require(blocks["source"] == span and blocks["candidate"] == topic,
                 "Article source blocks differ")
+        page = (article / "index.html").read_text(encoding="utf-8")
+        figure_targets = {m["target_topic"] for m in topic["media"] if m["target_topic"]}
+        for link in topic["links"]:
+            target_id = link["target_topic"]
+            if target_id is None or target_id in figure_targets:
+                continue
+            target_topic = queue["topics"][int(target_id.split("-")[1]) - 1]
+            if target_topic["role"] == "article_candidate":
+                href = f"../../../../groups/{target_topic['group']}/articles/{target_id}/index.html"
+            else:
+                href = f"../../../../supplements/{target_id}/index.html"
+            require(f'href="{href}"' in page, "Article linked topic omitted")
         text = (article / "article.txt").read_text(encoding="utf-8")
         if row["status"] == "failed":
             require("error" in blocks and not text, "Failed article has unaccounted text")
@@ -116,6 +128,44 @@ def verify():
     require(len(supplements) == len(other) and
             {t["identity"] for t in supplements} == {t["identity"] for t in other},
             "Auxiliary topic coverage differs")
+    require(Counter(t["status"] for t in supplements) == catalog["supplement_outcomes"],
+            "Supplement outcomes differ")
+    other_by_id = {t["identity"]: t for t in other}
+    for record in supplements:
+        topic = other_by_id[record["identity"]]
+        require(record["rtf"] == topic["rtf"] and record["media"] == topic["media"],
+                "Supplement source differs")
+        directory = OUTPUT / "supplements" / topic["identity"]
+        blocks = json.loads((directory / "blocks.json").read_bytes())
+        require(blocks["source"] == topic["rtf"] and blocks["topic"] == topic,
+                "Supplement blocks differ")
+        text = (directory / "text.txt").read_text(encoding="utf-8")
+        if record["status"] == "failed":
+            require("error" in blocks and not text, "Failed supplement has unaccounted text")
+        else:
+            expected, occurrences = [], []
+            for paragraph in blocks["paragraphs"]:
+                for run in paragraph["runs"]:
+                    if run["type"] == "media":
+                        expected.append(f"[image:{run['resource']}]")
+                        occurrences.append(run["resource"])
+                    else:
+                        expected.append(run["text"])
+                if paragraph["terminated"]:
+                    expected.append("\n")
+            require(text == "".join(expected) and digest(text.encode()) == record["text_sha256"],
+                    "Supplement text differs")
+            require(occurrences == [m["name"] for m in topic["media"]] and
+                    record["issue_records"] == len(blocks["issues"]),
+                    "Supplement media or issue records differ")
+    source_media = json.loads((OUTPUT / "media-sources.json").read_bytes())["resources"]
+    require({m["name"] for m in source_media} ==
+            {p for p in probe_files if p.lower().endswith(".bmp")},
+            "Decoded media coverage differs")
+    for item in source_media:
+        original = checked(PROBE / "main/raw" / item["name"], probe_files[item["name"]])
+        require((OUTPUT / "media-sources" / item["name"]).read_bytes() == original,
+                "Decoded media original differs")
     used = {m["source_name"] for t in queue["topics"] for m in t["media"] if m["source_name"]}
     unassigned = json.loads((OUTPUT / "unassigned-media.json").read_bytes())["resources"]
     expected_unassigned = {p for p in probe_files if p.lower().endswith(".bmp")} - used
@@ -135,6 +185,10 @@ def verify():
                          "partial": catalog["outcomes"].get("partial", 0),
                          "failed": catalog["outcomes"].get("failed", 0),
                          "supplemental_topics": len(supplements),
+                         "supplement_success": catalog["supplement_outcomes"].get("success", 0),
+                         "supplement_partial": catalog["supplement_outcomes"].get("partial", 0),
+                         "supplement_failed": catalog["supplement_outcomes"].get("failed", 0),
+                         "source_media": len(source_media),
                          "unassigned_media": len(unassigned),
                          "article_media_occurrences": media_count,
                          "figure_links": sum(r["figure_links"] for r in rows),

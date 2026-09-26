@@ -58,7 +58,8 @@ def decode(data, source_offset, issues):
     return re.sub(r"\{(vfld\d*)\}", r"⟦field:\1⟧", text)
 
 
-def parse(raw, base, *, skip=SKIP, cosmetic=COSMETIC):
+def parse(raw, base, *, skip=SKIP, cosmetic=COSMETIC,
+          allow_terminal_group_close=False):
     tokens = tokenize(raw, base)
     require(sum(t["byte_length"] for t in tokens) == len(raw), "RTF byte coverage failed")
     spans = []
@@ -158,6 +159,9 @@ def parse(raw, base, *, skip=SKIP, cosmetic=COSMETIC):
                 marker = f"⟦RTF control:{word}⟧"
                 runs.append({"type": "text", "text": marker, "bold": False, "source_fragments": []})
                 issues.append({"type": "unsupported_control", "byte_offset": start, "word": word})
+        elif (kind == "group_close" and allow_terminal_group_close and
+              index == len(tokens) - 1 and start == base + len(raw) - 1):
+            pass  # CD3's final RTF document close, after the final topic.
         elif kind != "physical_newline":
             raise ValueError(f"Unrepresented RTF token at {start}: {kind}")
         index += 1

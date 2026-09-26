@@ -2,24 +2,28 @@
   "schema_version": 1,
   "disc_id": "cd3",
   "scope": "private_readable_reference",
-  "source_queue_sha256": "fc77970bf8d3a43c8a88bccb1641b9542fa17117939b4e16b09d2031209a5c8c",
+  "source_queue_sha256": "c6d132af00484b02e0fd344e06485ee535a2386c68922025625ab19ac63647a3",
   "output_manifest": {
     "path": "build/cd3-reference/manifest.json",
-    "sha256": "17d7094b47c6c2d1fbbcd289edf8837b22e91bbd90f8bae282c736d75842f149"
+    "sha256": "3261c212e073f49dd7905a9e48ea2d872245046961225dc0e23551fb491624d0"
   },
   "counts": {
-    "article_candidates": 967,
+    "article_candidates": 968,
     "groups": 18,
     "success": 792,
-    "partial": 175,
+    "partial": 176,
     "failed": 0,
-    "supplemental_topics": 1369,
+    "supplemental_topics": 1368,
+    "supplement_success": 1118,
+    "supplement_partial": 250,
+    "supplement_failed": 0,
+    "source_media": 1570,
     "unassigned_media": 511,
     "article_media_occurrences": 1139,
     "figure_links": 971,
     "resolved_figures": 969,
     "copied_cab_actions": 79,
-    "output_files": 5664
+    "output_files": 11346
   },
   "validation": {
     "all_candidate_outcomes_accounted": true,

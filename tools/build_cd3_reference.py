@@ -45,6 +45,8 @@ def check_links(stage, allow_root=False):
                     f"Nonportable link: {page} -> {target}")
             if allow_root and page == stage / "index.html" and target == "../../index.html":
                 continue
+            if allow_root and page.is_relative_to(stage / "articles") and target.startswith("../../../../"):
+                continue
             resolved = (page.parent / target.split("#", 1)[0]).resolve()
             require(resolved.is_relative_to(stage.resolve()) and resolved.is_file(),
                     f"Broken link: {page.relative_to(stage)} -> {target}")
@@ -53,6 +55,7 @@ def check_links(stage, allow_root=False):
 def build_group(group, queue, probe_files, disc_files, rtf, queue_hash,
                 *, resume=False, verify_existing=False):
     topics = [t for t in queue["topics"] if t["role"] == "article_candidate" and t["group"] == group]
+    by_id = {t["identity"]: t for t in queue["topics"]}
     require(topics, f"No CD3 candidates for group {group}")
     target = OUTPUT / "groups" / group
     if resume and target.exists():
@@ -90,6 +93,8 @@ def build_group(group, queue, probe_files, disc_files, rtf, queue_hash,
             require(digest(raw) == span["sha256"], f"Changed CD3 topic: {identity}")
             directory = f"articles/{identity}"
             reasons = []
+            if candidate["title_basis"] != "native_title_footnote":
+                reasons.append("No native title footnote; display title is a visible lead phrase")
             if group == "undated":
                 reasons.append("No unique CD-native issue label; group placement remains unresolved")
             elif not group.startswith("95"):
@@ -156,6 +161,22 @@ def build_group(group, queue, probe_files, disc_files, rtf, queue_hash,
                     "token_count": token_count, "attachments": attachments}))
                 if issues:
                     reasons.append(f"{len(issues)} localized text uncertainties; see source blocks")
+                figure_topics = {m["target_topic"] for m in candidate["media"] if m["target_topic"]}
+                linked = []
+                for link in candidate["links"]:
+                    target_id = link["target_topic"]
+                    if target_id is None or target_id in figure_topics:
+                        continue
+                    linked_target = by_id[target_id]
+                    if linked_target["role"] == "article_candidate":
+                        url = f"../../../../groups/{linked_target['group']}/articles/{target_id}/index.html"
+                        label = linked_target["title"]
+                    else:
+                        url = f"../../../../supplements/{target_id}/index.html"
+                        label = f"{linked_target['role'].replace('_', ' ')} {target_id}"
+                    linked.append(f'<li><a href="{url}">{html.escape(label)}</a> · source offset {link["rtf_byte_offset"]}</li>')
+                if linked:
+                    body.append('<section><h2>Linked CD topics</h2><ul>' + "".join(linked) + '</ul></section>')
                 body.extend(rendered)
                 row = {"identity": identity, "title": title, "group": group,
                        "status": "partial" if reasons else "success", "reasons": sorted(set(reasons)),
@@ -214,6 +235,12 @@ def finalize(queue, probe_files, rtf, queue_hash):
         rows.extend(json.loads((target / "groups" / group / "articles.json").read_bytes())["articles"])
     require({r["identity"] for r in rows} == grouped and len(rows) == len(grouped),
             "CD3 article candidate coverage differs")
+    source_media = []
+    for name in sorted(p for p in probe_files if p.lower().endswith(".bmp")):
+        original = checked(PROBE / "main/raw" / name, probe_files[name])
+        put(target, f"media-sources/{name}", original)
+        source_media.append({"name": name, "sha256": digest(original), "bytes": len(original)})
+    put(target, "media-sources.json", json_bytes({"schema_version": 1, "resources": source_media}))
     supplements = []
     for topic in queue["topics"]:
         if topic["role"] == "article_candidate":
@@ -221,10 +248,57 @@ def finalize(queue, probe_files, rtf, queue_hash):
         span = topic["rtf"]
         raw = rtf[span["byte_offset"]:span["byte_offset"] + span["byte_length"]]
         require(digest(raw) == span["sha256"], "Supplement source changed")
+        directory = f"supplements/{topic['identity']}"
+        parts = ['<nav><a href="../index.html">All supplemental topics</a></nav>',
+                 f'<h1>{html.escape(topic["role"].replace("_", " "))} {topic["identity"]}</h1>',
+                 '<p class="note">CD-native auxiliary topic · paper relationship unverified</p>',
+                 '<p><a href="text.txt">UTF-8 text</a> · <a href="blocks.json">Source blocks</a></p>']
+        try:
+            paragraphs, issues, token_count = parse_cd3(raw, span["byte_offset"])
+            text_parts, rendered = [], []
+            media_index = 0
+            for paragraph in paragraphs:
+                content = []
+                for run in paragraph["runs"]:
+                    if run["type"] == "media":
+                        item = topic["media"][media_index]
+                        media_index += 1
+                        text_parts.append(f"[image:{item['name']}]")
+                        if item["source_name"]:
+                            content.append(f'<a href="../../media-sources/{item["source_name"]}">[image:{html.escape(item["name"])} · original]</a>')
+                        else:
+                            content.append(f'<span class="gap">[image:{html.escape(item["name"])} · source unavailable]</span>')
+                    else:
+                        text_parts.append(run["text"])
+                        content.append(marked_html(run))
+                if paragraph["terminated"]:
+                    text_parts.append("\n")
+                rendered.append("<p>" + "".join(content) + "</p>")
+            require(media_index == len(topic["media"]), "Supplement media order differs")
+            text = "".join(text_parts)
+            put(target, f"{directory}/text.txt", text)
+            put(target, f"{directory}/blocks.json", json_bytes({"identity": topic["identity"],
+                "source": span, "topic": topic, "paragraphs": paragraphs, "issues": issues,
+                "token_count": token_count}))
+            parts.extend(rendered)
+            status = "partial" if issues or any(not m["available"] for m in topic["media"]) else "success"
+            issue_count = len(issues)
+            text_hash = digest(text.encode())
+        except (ValueError, IndexError, KeyError, OSError) as error:
+            put(target, f"{directory}/text.txt", "")
+            put(target, f"{directory}/blocks.json", json_bytes({"identity": topic["identity"],
+                "source": span, "topic": topic, "error": str(error)}))
+            parts.append(f'<p class="gap">Text unavailable: {html.escape(str(error))}</p>')
+            status, issue_count, text_hash = "failed", 0, None
+        put(target, f"{directory}/index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 ' + topic["identity"] + '</title><link rel="stylesheet" href="../../style.css"><body>' + "".join(parts) + '</body></html>\n')
         supplements.append({"identity": topic["identity"], "role": topic["role"],
                             "context_aliases": topic["context_aliases"], "media": topic["media"],
-                            "rtf": span})
+                            "rtf": span, "status": status, "issue_records": issue_count,
+                            "text_sha256": text_hash})
     put(target, "supplements.json", json_bytes({"schema_version": 1, "topics": supplements}))
+    supplement_items = [f'<li><a href="{row["identity"]}/index.html">{row["identity"]}</a> · {html.escape(row["role"].replace("_", " "))} · {row["status"]}</li>'
+                        for row in supplements]
+    put(target, "supplements/index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 supplemental topics</title><link rel="stylesheet" href="../style.css"><body><nav><a href="../index.html">CD3 reference</a></nav><h1>Supplemental topics</h1><p class="note">Native auxiliary topics, author bios, and document tail; print relationships remain unverified.</p><ol>' + "".join(supplement_items) + '</ol></body></html>\n')
     used = {m["source_name"] for t in queue["topics"] for m in t["media"] if m["source_name"]}
     unassigned = []
     for name in sorted(p for p in probe_files if p.lower().endswith(".bmp") and p not in used):
@@ -235,12 +309,14 @@ def finalize(queue, probe_files, rtf, queue_hash):
     put(target, "unassigned-media.json", json_bytes({"schema_version": 1, "resources": unassigned}))
     list_items = [f'<li><a href="groups/{group}/index.html">{html.escape(group)}</a> · {manifests[group]["candidates"]} candidates</li>' for group in groups]
     put(target, "style.css", CSS + "\n")
-    put(target, "index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 private reference</title><link rel="stylesheet" href="style.css"><body><h1>CD3 private reference</h1><p class="note">CD transcription · paper review pending · native labels are not verified magazine issue identities.</p><ol>' + "".join(list_items) + '</ol><p><a href="catalog.json">Coverage catalog</a> · <a href="supplements.json">Auxiliary topics</a> · <a href="unassigned-media.json">Unassigned media</a></p></body></html>\n')
+    put(target, "index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 private reference</title><link rel="stylesheet" href="style.css"><body><h1>CD3 private reference</h1><p class="note">CD transcription · paper review pending · native labels are not verified magazine issue identities.</p><ol>' + "".join(list_items) + '</ol><p><a href="catalog.json">Coverage catalog</a> · <a href="supplements/index.html">Supplemental topics</a> · <a href="media-sources.json">Original media</a> · <a href="unassigned-media.json">Unassigned media</a></p></body></html>\n')
     catalog = {"schema_version": 1, "disc_id": "cd3", "source_queue_sha256": queue_hash,
                "candidates": len(rows), "outcomes": dict(sorted(Counter(r["status"] for r in rows).items())),
                "groups": {group: {k: m[k] for k in ("candidates", "outcomes", "media_resources", "media_occurrences")}
                           for group, m in manifests.items()},
-               "supplemental_topics": len(supplements), "unassigned_media": len(unassigned),
+               "supplemental_topics": len(supplements),
+               "supplement_outcomes": dict(sorted(Counter(t["status"] for t in supplements).items())),
+               "source_media": len(source_media), "unassigned_media": len(unassigned),
                "articles": rows}
     put(target, "catalog.json", json_bytes(catalog))
     check_links(target)

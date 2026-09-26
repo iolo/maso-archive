@@ -90,7 +90,8 @@ CD3 has `MASO3.EXE`, viewer DLLs named `MV*14N.DLL`, and 105 `.CAB` files.
 Its attachment directories span `FILES/9501` through `FILES/9512`.
 `MASO3.CNT` decodes readably with CP949 and describes a 32-bit application.
 A later checked M14 decode and [CD3 source map](CD3-SOURCE-MAP.md) found 967
-titled article candidates. CD-native labels include apparent 1994 and 1996
+titled candidates and one source-bound untitled article body. CD-native labels
+include apparent 1994 and 1996
 material as well as 1995, and do not verify printed-issue coverage.
 
 CD3 reports an ISO creation timestamp in 1994 while many executable and

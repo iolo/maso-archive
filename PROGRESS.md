@@ -2567,7 +2567,8 @@
   ISO, all 137 extracted files and 14 directories against fresh extraction,
   both M14 decoder probes, and member listings for 105 CABs containing 2,130
   entries. `tools/map_cd3_candidates.py` binds 967 titled article candidates
-  to exact RTF topic spans and preserves the 1,369 other topic classifications.
+  and one reviewed untitled body to exact RTF topic spans, preserving 1,368
+  other topic classifications.
   `LIST.M14` yields a small baggage text file, not an article list.
 - Check: the ISO hash matches the recorded
   `7c269df8479c72919863f27b68dceb6fe8b567a18f27eb9481655e15e4ae17d0`;
@@ -2616,13 +2617,13 @@
   Build all 18 native groups with `tools/build_cd3_reference.py`, retaining
   original attachments, media, and recovered bodies in ignored private paths.
 - Deliverable: `build/cd3-reference/index.html` and a coverage catalog for all
-  967 article candidates: 792 success, 175 partial, none failed or blocked.
+  968 article candidates: 792 success, 176 partial, none failed or blocked.
   The reference has 1,139 article image markers, 969 resolved figure links,
-  79 copied CAB actions, 1,369 classified nonarticle topics, and 511 unassigned
+  79 copied CAB actions, 1,368 classified nonarticle topics, and 511 unassigned
   original BMPs. A missing CAB in `topic-0104`, two unresolved figure aliases,
   and unavailable figure sources remain visible without hiding readable text.
   Localized source markers retain 1,869 undecodable byte runs and 17 unsupported
-  RTF controls. The complete output has 5,664 checked files.
+  RTF controls. The complete output has 11,346 checked files.
 - Check: the full `--verify-existing` rebuild matched all group manifests.
   `make check-cd3-reference` reconciles source/output hashes, every candidate,
   text and code whitespace, figure and attachment bytes, auxiliary topics,
@@ -2633,3 +2634,26 @@
 - The offline CD3 extraction queue is complete with honest gaps. Paper/OCR
   comparison, verified corrections, independent backup, CD3-to-SPA integration,
   and any publication/access decision remain separate work.
+
+### 2026-09-26 — CD3 completion audit: linked text and untitled body
+
+- Audited all 1,712 article actions against native context aliases after the
+  initial reference pass. The figure links were already placed, but 115 linked
+  text-only sidebars and 12 author biographies also carry readable source text.
+  Export all 1,368 nonarticle topics as private pages and UTF-8 text downloads,
+  retaining their source positions and article links. A supplemental shelf makes
+  three longer unlinked auxiliary texts discoverable. All 1,570 decoded BMP
+  originals are now retained in a global media shelf as well.
+- Reviewed `topic-0859`, a full 1995-06 article body between neighboring Q&A
+  articles without a native title footnote or context alias. Retain it as the
+  one provisional-title candidate using its visible lead phrase, with a clear
+  review note. The final candidate count is 968; the other 1,368 topics are
+  separately classified. The terminal RTF closing brace in the final image
+  topic is accounted for by the parser rather than reported as a failed body.
+- The expanded reference has 792 success and 176 partial article outcomes,
+  1,118 success and 250 partial supplemental outcomes, and zero failed pages.
+  The `--verify-existing` group rebuild and complete source/output checker cover
+  11,346 files and every HTML link. Chromium followed the sidebar from
+  `topic-0004` to readable `topic-1052` and opened `topic-0859` with its
+  missing-title note. The CD2 pilot still rebuilds identically after the
+  shared parser's opt-in CD3 terminal-brace handling.

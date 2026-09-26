@@ -4,10 +4,11 @@
   "source_inventory_sha256": "54f49789e2085da95abd1e40dd713329e492a2d25adb1f90ecbaadac6cd2179c",
   "counts": {
     "rtf_topics": 2336,
-    "article_candidates": 967,
+    "article_candidates": 968,
+    "untitled_article_candidates": 1,
     "author_bios": 12,
     "auxiliary_topics": 1355,
-    "document_tails": 2,
+    "document_tails": 1,
     "media_occurrences": 2384,
     "article_media_occurrences": 1139,
     "missing_media_occurrences": 253,
@@ -15,7 +16,10 @@
     "resolved_figures": 969,
     "missing_figure_sources": 8,
     "cab_actions": 80,
-    "missing_cab_actions": 1
+    "missing_cab_actions": 1,
+    "article_links": 1712,
+    "linked_text_only_supplements": 115,
+    "linked_author_bios": 12
   },
   "native_groups": {
     "9409": 2,
@@ -27,7 +31,7 @@
     "9503": 42,
     "9504": 58,
     "9505": 72,
-    "9506": 86,
+    "9506": 87,
     "9507": 93,
     "9508": 108,
     "9509": 97,
@@ -39,8 +43,8 @@
   },
   "private_detail": {
     "path": "build/cd3-preservation/candidates.json",
-    "bytes": 2089344,
-    "sha256": "fc77970bf8d3a43c8a88bccb1641b9542fa17117939b4e16b09d2031209a5c8c"
+    "bytes": 2512667,
+    "sha256": "c6d132af00484b02e0fd344e06485ee535a2386c68922025625ab19ac63647a3"
   },
   "limitations": [
     "CD-native labels are not paper-verified magazine issue identities.",

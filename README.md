@@ -42,7 +42,7 @@ and explicit uncertainties. See the [CD2 reference guide](docs/CD2-READABLE-REFE
 for reproduction, coverage, and gaps. It does not extend the current SPA catalog.
 
 **The private CD3 reference is available at `build/cd3-reference/index.html`**
-after extraction. It accounts for 967 titled CD-native candidates across 18
+after extraction. It accounts for 968 CD-native article candidates across 18
 provisional groups, with readable text and inline code, linked figures, original
 CAB attachments, and visible gaps. See the
 [CD3 reference guide](docs/CD3-READABLE-REFERENCE.md) for reproduction and

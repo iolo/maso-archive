@@ -2,7 +2,7 @@
 
 The private output is `build/cd3-reference/index.html`, a portable static
 HTML/text/image reference built from the supplied CD3 ISO and checksummed M14
-decoder probes. It is about 992 MB of files. Original media and recovered bodies
+decoder probes. It is about 1.3 GB of files. Original media and recovered bodies
 remain under ignored `private/` and `build/` paths; the tracked
 `data/catalog/preservation/cd3-readable-reference.json` contains hashes and
 counts, not article text. Serve it locally with
@@ -22,7 +22,7 @@ extractor, application server, or database.
    `make build-cd3-reference CD3_ARGS=--resume` verifies and reuses completed
    group packages. `CD3_ARGS=--verify-existing` rebuilds all groups and requires
    identical manifests; the completed pass met this check.
-4. Run `make check-cd3-reference`. It checks 5,664 output files, all candidate
+4. Run `make check-cd3-reference`. It checks 11,346 output files, all candidate
    identities and outcomes, source topic spans, text and code whitespace against
    ordered blocks, media and CAB bytes, auxiliary topics, unassigned media, and
    every generated HTML link. The verified root manifest matches the tracked
@@ -36,12 +36,19 @@ attachments are copied byte-for-byte, and their member names and sizes are
 recorded in the private source inventory. No separate CD3 code-list container
 was found: inline code remains in the article text download, while source files
 inside CAB archives remain available in their original archives.
+Article pages link their native text boxes, author bios, and related articles.
+The `supplements/index.html` shelf is available in the private output, including
+three longer auxiliary texts without
+an article link. Every supplemental topic has a source-backed page and text
+download; image-only topics link to their original BMP. All 1,570 decoded BMP
+originals are retained under `media-sources/`.
 
 ## Coverage and exceptions
 
-The main RTF has 2,336 topics. Native title footnotes identify **967 article
-candidates** in 18 provisional groups. Every candidate has readable text and
-an explicit outcome: **792 success, 175 partial, none failed or blocked**.
+The main RTF has 2,336 topics. Native title footnotes identify 967 article
+candidates, and one additional 1995-06 body without a title footnote is retained
+under its visible lead phrase. All **968 candidates** have readable text and
+an explicit outcome: **792 success, 176 partial, none failed or blocked**.
 Partial means a localized decoding, figure, attachment, or issue-label exception;
 it does not mean the body was discarded. The groups include 12 apparent 1995
 months, some 1994 labels, one 1996 label, and seven candidates without a unique
@@ -67,11 +74,13 @@ articles as visible markers with source evidence in `blocks.json`. It preserves
 paragraphs, line breaks, tabs, spaces, bold, italic, and underline where present.
 No uncertain bytes or code have been guessed.
 
-The remaining **1,369** RTF topics are classified separately: 12 author bios,
-1,355 auxiliary topics, and two document tails. Their context aliases, ordered
-media, and checksummed source spans are in `supplements.json` and the private
-candidate queue. They are not counted as paper articles. A reference page's
-successful export establishes source reproducibility, not agreement with print.
+The remaining **1,368** RTF topics are classified separately: 12 author bios,
+1,355 auxiliary topics, and one document tail. All have private pages and
+downloads: 1,118 export without parser/media gaps and 250 retain explicit
+partial states; none failed. Their context aliases, ordered media, and
+checksummed source spans are in `supplements.json` and the private candidate
+queue. They are not counted as paper articles. A reference page's successful
+export establishes source reproducibility, not agreement with print.
 
 ## Validation and limits
 
@@ -80,8 +89,10 @@ The full pass built by native group and then passed an independent
 root and 9501 group navigation, Korean article text, a resolved 313×132 figure
 in `topic-0037`, the figure and original CAB link in `topic-0015`, and the
 missing-CAB notice alongside readable code in `topic-0104`. The only observed
-console error was a missing favicon. `topic-0036` retains its inline C and
-assembly spacing in the UTF-8 download and rendered paragraphs.
+console error was a missing favicon. A later browser check followed the
+`topic-0004` sidebar link to readable `topic-1052` and opened the provisional
+`topic-0859` article with its missing-title note. `topic-0036` retains its
+inline C and assembly spacing in the UTF-8 download and rendered paragraphs.
 
 The CD is a secondary transcription. Article boundaries, CD date/page labels,
 text, figures, and CAB contents have not been checked against physical magazines.

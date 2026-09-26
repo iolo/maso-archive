@@ -24,10 +24,13 @@ software and only creates a shortcut to the viewer on the CD.
 Run `make map-cd3-candidates` to reproduce
 `build/cd3-preservation/candidates.json` from the checksummed source inventory.
 The main RTF has 2,336 page-delimited topics. Native title footnotes identify
-967 article candidates, each bound to an exact RTF byte span and context alias.
-The other topics are 12 author bios, 1,355 auxiliary topics, and two document
-tails. A title footnote is evidence of a CD article candidate, not proof of a
-paper article boundary. The CD's own date labels form 18 groups: 12 apparent
+967 article candidates. A further 1995-06 body, `topic-0859`, lacks a title
+footnote and context alias but carries a native issue/page label and the same
+article structure as its neighbors. Its visible lead phrase is retained as a
+provisional display title, giving **968** source-bound candidates. The other
+topics are 12 author bios, 1,355 auxiliary topics, and one document tail. A
+title footnote or reviewed body structure is evidence of a CD candidate, not
+proof of a paper article boundary. The CD's own date labels form 18 groups: 12 apparent
 1995 months, four 1994 months, one 1996 label, and an undated group. Two
 candidates have multiple month labels and five have none; all seven remain
 undated. These labels are not verified printed-issue identities, and CD3 cannot
@@ -41,6 +44,14 @@ refer to BMPs absent from the decoded probe. Across all topics, 253 image
 occurrences refer to missing decoded sources. These remain explicit gaps. An
 additional 511 decoded BMPs have no RTF marker and remain unassigned. Do not
 infer their article placement from similar names.
+
+Article actions also link to 115 text-only sidebars, all 12 author bios, and
+other articles. The candidate queue records each action's source offset and
+target topic. The reference exports every supplemental topic as a readable page
+or explicit media record; the text boxes remain linked from their source
+articles. Three longer auxiliary texts have no article link and remain
+discoverable on the supplemental-topic shelf. All 1,570 decoded BMP originals
+are retained in a global media shelf.
 
 The RTF contains 80 `fc(Files\\...cab)` actions. Seventy-nine resolve to
 byte-identical CAB files in the ISO tree. `Files\\9504\\Grid.cab` in
