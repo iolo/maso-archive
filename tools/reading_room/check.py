@@ -33,6 +33,11 @@ def check(root):
         media = read(root / f'media/{date}.json')
         if issue['issue'] != summary or media['issueId'] != issue_id:
             raise ValueError(f'Issue identity differs: {issue_id}')
+        if summary['cover']:
+            cover = summary['cover']
+            if cover['width'] <= 0 or cover['height'] <= 0 or digest(safe(root, cover['path'])) != cover['sha256']:
+                raise ValueError(f'Cover differs: {issue_id}')
+            counts['covers'] += 1
         if len(issue['toc']) != summary['tocCount'] or len(issue['articles']) != summary['articleCount']:
             raise ValueError(f'Issue count differs: {issue_id}')
         counts['tocEntries'] += len(issue['toc'])

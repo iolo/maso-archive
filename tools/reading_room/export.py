@@ -60,7 +60,7 @@ def text_for(blocks):
     )
 
 
-def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None):
+def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None, covers=None):
     reference, toc, output = map(Path, (reference, toc, output))
     manifest = read(reference / 'manifest.json')
     if manifest.get('kind') != 'cd1-readable-reference' or manifest.get('schema_version') != 1:
@@ -168,8 +168,10 @@ def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None):
             search.append({'kind': 'article', 'id': article['article_id'],
                            'issueId': issue_id, 'title': article['title'], 'byline': article['byline'],
                            'reference': article['reference'], 'status': article['status']})
-    files.append(write(output, 'catalog.json', {'schemaVersion': VERSION,
-          'issues': issues, 'articles': articles}))
+    catalog = {'schemaVersion': VERSION, 'issues': issues, 'articles': articles}
+    from .covers import attach_covers
+    cover_inputs = attach_covers(output, catalog, covers)
+    files.append(write(output, 'catalog.json', catalog))
     files.append(write(output, 'search.json', {'schemaVersion': VERSION, 'items': search}))
     # Inventory includes every generated document plus each copied source asset.
     inventory = [{'path': p.relative_to(output).as_posix(), 'bytes': p.stat().st_size,
@@ -181,6 +183,9 @@ def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None):
                          'articles': len(articles), 'texts': sum(a['text'] is not None for a in articles),
                          'listings': sum(a['listings'] for a in articles), 'mediaRecords': len(images)},
               'files': inventory}
+    if covers is not None:
+        result['coverInputs'] = cover_inputs
+        result['counts']['covers'] = sum(i['cover'] is not None for i in issues)
     write(output, 'manifest.json', result)
     return result
 
@@ -269,6 +274,7 @@ def main():
     parser.add_argument('--output', type=Path, default=OUTPUT)
     parser.add_argument('--issue', help='Single YYYY-MM issue for a first slice')
     parser.add_argument('--demo', action='store_true', help='Generate synthetic demo without private sources')
+    parser.add_argument('--covers', type=Path, default=ROOT / 'covers', help='Optional masoYYMM cover image directory')
     parser.add_argument('--all-discs', action='store_true', help='Aggregate completed CD1, CD2 and CD3 references')
     parser.add_argument('--cd2-reference', type=Path, default=ROOT / 'build/cd2-reference')
     parser.add_argument('--cd3-reference', type=Path, default=ROOT / 'build/cd3-reference')
@@ -281,9 +287,9 @@ def main():
         return
     if args.all_discs:
         from .aggregate import aggregate
-        result = aggregate(args.reference, args.toc, args.cd2_reference, args.cd3_reference, args.output)
+        result = aggregate(args.reference, args.toc, args.cd2_reference, args.cd3_reference, args.output, args.covers)
     else:
-        result = export(args.reference, args.toc, args.output, args.issue)
+        result = export(args.reference, args.toc, args.output, args.issue, args.covers)
     print(json.dumps(result['counts'], ensure_ascii=False))
 
 

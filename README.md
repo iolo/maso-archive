@@ -47,6 +47,11 @@ make demo-reading-room
 cd web && READING_ROOM_OUTPUT=build/reading-room-demo npm run preview
 ```
 
+Optional covers go in `covers/` as `masoYYMM.jpg`, `.jpeg`, `.png` or `.webp`
+(for example `maso8311.jpg`). Re-export and build to show them on the bookshelf
+and issue page. Missing covers retain placeholders; lower-quality samples are
+fine. See [adding covers](docs/READING-ROOM.md#add-or-replace-cover-images).
+
 ## Delivered coverage
 
 | Source | Navigation groups | Candidates | Readable texts | UTF-8 listings |
@@ -88,7 +93,7 @@ counts. CD1's historical strict packages and earlier retry results remain intact
   pages. The decoder is unpatched; generated RTF/source flags retain the defect,
   and genuine underline is also suppressed. See the
   [bug record and deferred correction](docs/CD3-HELPDECO-UNDERLINE-BUG.md).
-- Cover scans, print verification, corrected transcriptions, further TOC matching,
+- Complete cover coverage, print verification, corrected transcriptions, further TOC matching,
   independent backup/restore verification and publication remain future work.
   Search covers metadata, not full article text.
 

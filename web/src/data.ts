@@ -1,5 +1,6 @@
 export type Status = 'prepared' | 'normalized' | 'reference_with_gaps' | 'blocked' | 'unavailable' | 'success' | 'partial'
-export type IssueSummary = { id: string; year: number; month: number; label: string; articleCount: number; textCount: number; tocCount: number; cover: null; disc?: string; nativeGroup?: boolean }
+export type Cover = { path: string; width: number; height: number; sha256: string }
+export type IssueSummary = { id: string; year: number; month: number; label: string; articleCount: number; textCount: number; tocCount: number; cover: Cover | null; disc?: string; nativeGroup?: boolean }
 export type ArticleSummary = { reference: string; article_id: string; issue_id: string; title: string; byline: string | null; page: number | null; status: Status; path: string; text: string | null; paragraphs: number; listings: number; image_occurrences: number; resources: string[]; text_sha256: string | null; disc?: string; nativeReference?: string; referencePath?: string; paragraphsPath?: string }
 export type TocEntry = { id: string; parentId: string | null; depth: number; title: string; byline: string | null; page: number | null; kind: string; articleIds: string[] }
 export type IssueDoc = { schemaVersion: 1 | 2; issue: IssueSummary; toc: TocEntry[]; articles: ArticleSummary[] }

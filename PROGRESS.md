@@ -2745,3 +2745,25 @@
   scans/TOCs, independent backup or a publication decision. Commit the completed
   aggregation, display workaround and documentation handoff together; private
   source/generated content remains excluded.
+
+### 2026-09-26 — Add optional owner-supplied issue covers
+
+- Added date-based cover input from private `covers/masoYYMM.jpg`, `.jpeg`,
+  `.png` or `.webp` files. The exporter validates images, rejects duplicate dates,
+  preserves original bytes and records dimensions and hashes. Missing covers
+  remain optional. Date matches illustrate native CD groups without changing
+  their identities or asserting a verified printed-issue association.
+- Attached all eight supplied samples, including September and October 1995
+  CD3 groups. The aggregate retains its 152 groups and 3,386 articles; its file
+  inventory is now 44,680. Copied cover hashes match the originals.
+- Bookshelf and issue pages display covers without cropping, with placeholders
+  for absent or failed images. Documented naming, replacement and rebuild steps
+  in README and the reading-room guide; updated the successor handoff. Source
+  images, generated output and browser artifacts remain excluded from Git.
+- Validation: eight Python adapter tests, six Vitest tests, TypeScript checking
+  and the production build pass. Full aggregate export validation passes.
+  Chromium decoded all eight bookshelf covers and checked JPEG/PNG issue pages,
+  missing covers, deliberate image-load failure and a 360px mobile viewport
+  without horizontal overflow. No page errors occurred; the deliberately
+  aborted image request produced the expected console network error. Local
+  documentation links and whitespace checks pass.

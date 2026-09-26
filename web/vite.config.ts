@@ -28,7 +28,8 @@ export default defineConfig({
             file.endsWith('.css') ? 'text/css; charset=utf-8' :
             file.endsWith('.json') ? 'application/json; charset=utf-8' :
             file.endsWith('.txt') ? 'text/plain; charset=utf-8' : file.endsWith('.svg') ? 'image/svg+xml' :
-            file.endsWith('.png') ? 'image/png' : 'application/octet-stream')
+            /\.png$/i.test(file) ? 'image/png' : /\.jpe?g$/i.test(file) ? 'image/jpeg' :
+            /\.webp$/i.test(file) ? 'image/webp' : 'application/octet-stream')
           fs.createReadStream(file).pipe(res)
         })
       },

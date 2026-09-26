@@ -8,9 +8,53 @@ from unittest.mock import patch
 from tools.reading_room.export import demo, safe, text_for
 from tools.reading_room.aggregate import add_disc, aggregate, checked_reference, project_blocks
 from tools.reading_room.export import digest, read, write
+from tools.reading_room.covers import attach_covers
 
 
 class ReadingRoomWebExportTest(unittest.TestCase):
+    def test_optional_covers_match_dates_and_preserve_images(self):
+        from PIL import Image
+        with TemporaryDirectory() as temp:
+            root = Path(temp)
+            covers = root / 'covers'
+            covers.mkdir()
+            Image.new('RGB', (12, 16), 'green').save(covers / 'maso9509.png')
+            Image.new('RGB', (15, 20), 'blue').save(covers / 'maso8311.jpg')
+            output = root / 'data'
+            issues = [{'id': id, 'year': year, 'month': month, 'cover': None}
+                      for id, year, month in [('maso-1983-11', 1983, 11), ('cd3-9509', 1995, 9),
+                                             ('cd2-9409', 1994, 9), ('cd3-9409', 1994, 9),
+                                             ('cd3-undated', 0, 0)]]
+            for issue in issues:
+                write(output, f'issues/{issue["id"].removeprefix("maso-")}.json', {'issue': issue, 'toc': []})
+            catalog = {'issues': issues}
+            records = attach_covers(output, catalog, covers)
+            self.assertEqual(len(records), 2)
+            self.assertEqual(issues[1]['cover']['width'], 12)
+            self.assertEqual((output / issues[0]['cover']['path']).read_bytes(), (covers / 'maso8311.jpg').read_bytes())
+            self.assertEqual(read(output / 'issues/cd3-9509.json')['issue'], issues[1])
+            self.assertTrue(all(i['cover'] is None for i in issues[2:]))
+            self.assertEqual(attach_covers(output, catalog, root / 'absent'), [])
+            # One date image can illustrate distinct native groups without merging IDs.
+            Image.new('RGB', (12, 16)).save(covers / 'maso9409.webp')
+            attach_covers(output, catalog, covers)
+            self.assertEqual(issues[2]['cover'], issues[3]['cover'])
+            self.assertNotEqual(issues[2]['id'], issues[3]['id'])
+            Image.new('RGB', (12, 16)).save(covers / 'maso9509.jpg')
+            with self.assertRaisesRegex(ValueError, 'Duplicate cover'):
+                attach_covers(output, catalog, covers)
+
+    def test_cover_inputs_reject_bad_dates_and_corrupt_images(self):
+        with TemporaryDirectory() as temp:
+            root = Path(temp)
+            path = root / 'maso9513.png'
+            path.write_bytes(b'not an image')
+            with self.assertRaisesRegex(ValueError, 'filename'):
+                attach_covers(root / 'data', {'issues': []}, root)
+            path.rename(root / 'maso9512.png')
+            with self.assertRaises(OSError):
+                attach_covers(root / 'data', {'issues': []}, root)
+
     def test_demo_covers_missing_and_literal_content(self):
         with TemporaryDirectory() as temp:
             root = Path(temp)

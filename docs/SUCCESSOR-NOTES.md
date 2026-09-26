@@ -74,11 +74,14 @@ supported. See the guide for required private inputs; a Git checkout alone
 cannot reproduce publisher content. `make demo-reading-room` supports UI work
 without those inputs.
 
-`make test-reading-room` runs the six focused Python adapter tests, six Vitest
+`make test-reading-room` runs the focused Python adapter tests, six Vitest
 tests, TypeScript checks and a production build. `make check-reading-room`
 verifies the prepared inventory, hashes, article memberships, literal text,
 listings, attachments, media, search coverage and source manifests. The current
-aggregate inventories 44,672 data files, about 3.43 GB before its root manifest.
+aggregate inventories 44,672 reference data files, about 3.43 GB before its root
+manifest, plus optional covers (eight supplied samples bring it to 44,680).
+Add covers as `covers/masoYYMM.jpg/png/webp`, then re-export/build; see
+[the cover guide](READING-ROOM.md#add-or-replace-cover-images).
 Use per-disc checks from the reference guides when changing those exporters;
 avoid rerunning the whole historical suite for documentation-only changes.
 

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, Route, Routes, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, BookOpen, ChevronDown, ExternalLink, Menu, Moon, Search, Sun, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { type ArticleDoc, type ArticleSummary, type Block, type Catalog, type IssueDoc, type IssueSummary, type Media, type MediaDoc, type Run, type SearchDoc, type TocEntry, articlePath, dateOf, issuePath, load, mediaPath, mediaUrl, search, sourceUrl, tocPath } from './data'
+import { type ArticleDoc, type ArticleSummary, type Block, type Catalog, type IssueDoc, type IssueSummary, type Media, type MediaDoc, type Run, type SearchDoc, type TocEntry, articlePath, dataUrl, dateOf, issuePath, load, mediaPath, mediaUrl, search, sourceUrl, tocPath } from './data'
 
 type Theme = 'system' | 'light' | 'dark'
 
@@ -90,18 +90,29 @@ function ContextAside({ issue, article }: { issue?: IssueDoc; article?: ArticleD
 
 function statusLabel(status: string) { return ({ prepared: 'CD 본문', normalized: '복원된 CD 본문', reference_with_gaps: '글자 판독 공백 있음', blocked: '글 경계 확인 필요', unavailable: '본문 없음', success: 'CD 본문', partial: '일부 확인 필요' } as Record<string, string>)[status] || status }
 
+export function IssueCover({ issue, compact = false }: { issue: IssueSummary; compact?: boolean }) {
+  const [failedPath, setFailedPath] = useState<string | null>(null)
+  const cover = issue.cover
+  return <div className={'cover-frame ' + (compact ? 'cover-thumb' : 'cover-full')}>
+    {cover && failedPath !== cover.path ? <img src={dataUrl(cover.path)} width={cover.width} height={cover.height}
+      alt={compact ? '' : `${issue.label} 표지`} loading={compact ? 'lazy' : 'eager'} decoding="async"
+      onError={() => setFailedPath(cover.path)} /> : <div className="cover-empty" role="img" aria-label="표지 이미지 없음">
+      <span>{issue.label}</span><strong>표지 이미지 없음</strong></div>}
+  </div>
+}
+
 function Bookshelf({ catalog }: { catalog: Catalog }) {
   const groups = [...new Set(catalog.issues.map(i => i.year))]
   return <div className="bookshelf page-content"><div className="page-heading"><p className="eyebrow">월간 마이크로소프트웨어</p><h1>호 목록</h1><p>1983–1993년 도서관 차례와 CD1·CD2·CD3의 글을 찾아보세요. CD2·CD3 묶음은 CD 날짜 표기이며 종이 잡지의 발행호와 대조 전입니다.</p></div>
     {catalog.sources && <p className="source-note">보충 글·원본 자료: {catalog.sources.filter(s => s.referencePath).map(s => <a key={s.disc} href={sourceUrl(s.referencePath!)} target="_blank" rel="noreferrer">{s.disc.toUpperCase()} 참조 자료 ↗ </a>)}</p>}
-    {groups.map(year => <section key={year} className="year-section"><h2>{year || '날짜 미확인'}</h2><div className="issue-grid">{catalog.issues.filter(i => i.year === year).map(issue => <Link key={issue.id} className="issue-tile" to={issuePath(issue.id)}><span className="issue-date">{issue.label}</span><strong>{issue.nativeGroup ? 'CD 날짜 묶음' : `${String(issue.month).padStart(2, '0')}월호`}</strong><span>{issue.textCount ? `CD 글 ${issue.textCount}편` : '차례만 있음'}</span><ArrowRight size={17} /></Link>)}</div></section>)}
+    {groups.map(year => <section key={year} className="year-section"><h2>{year || '날짜 미확인'}</h2><div className="issue-grid">{catalog.issues.filter(i => i.year === year).map(issue => <Link key={issue.id} className="issue-tile" to={issuePath(issue.id)}><IssueCover issue={issue} compact /><span className="issue-date">{issue.label}</span><strong>{issue.nativeGroup ? 'CD 날짜 묶음' : `${String(issue.month).padStart(2, '0')}월호`}</strong><span>{issue.textCount ? `CD 글 ${issue.textCount}편` : '차례만 있음'}</span><ArrowRight size={17} /></Link>)}</div></section>)}
   </div>
 }
 
 function IssueOverview({ issue }: { issue: IssueDoc }) {
   return <div className="page-content"><div className="page-heading"><p className="eyebrow">{issue.issue.label} · 월간 마이크로소프트웨어</p><h1>{issue.issue.nativeGroup ? issue.issue.label : `${issue.issue.year}년 ${issue.issue.month}월호`}</h1><p>차례 {issue.issue.tocCount}항목 · CD 글 {issue.issue.textCount}편</p></div>
     {issue.issue.nativeGroup && <p className="notice">CD의 날짜 표기로 묶었습니다. 발행호 확인 전이며 도서관 차례 연결은 없습니다.</p>}
-    <div className="cover-placeholder" role="img" aria-label="표지 이미지 없음"><span>{issue.issue.label}</span><strong>표지 이미지 없음</strong></div>
+    <IssueCover issue={issue.issue} />
     <section className="article-index"><h2>CD에서 읽을 수 있는 글</h2>{issue.articles.length ? <ul>{issue.articles.map(article => <li key={article.article_id}><Link to={articlePath(article.article_id)}>{article.title}</Link><span>{statusLabel(article.status)}</span></li>)}</ul> : <p>이 호의 CD1 본문은 준비되지 않았습니다. 왼쪽 차례의 제목은 볼 수 있습니다.</p>}</section>
   </div>
 }

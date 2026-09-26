@@ -61,6 +61,48 @@ For development, run `npm run dev` in `web/` after exporting data. Vite serves
 the selected build data through its local development middleware. Set
 `READING_ROOM_OUTPUT=build/reading-room-demo` to develop against the demo.
 
+## Add or replace cover images
+
+Put optional images in the private `covers/` directory at the repository root.
+Use one file per month, named **`masoYYMM.jpg`**, `.jpeg`, `.png` or `.webp`:
+
+```text
+covers/maso8311.jpg  → November 1983
+covers/maso9001.png  → January 1990
+covers/maso9509.png  → September 1995
+```
+
+For this archive, `YY` means `19YY`. Both the bookshelf and issue overview show
+available covers. Missing covers keep a placeholder; small or lower-quality
+images are accepted. Images retain their original bytes and proportions, with
+no cropping or upscaling of the source file. Replace a file later with a better
+copy under the same name, or remove it to return to the placeholder.
+
+After adding, replacing or removing covers:
+
+```sh
+make export-reading-room
+make check-reading-room
+make build-reading-room
+```
+
+Refresh the browser. Covers are copied into `build/reading-room/data/covers/`,
+included in the file/hash manifest and listed under `coverInputs`; `counts.covers`
+counts navigation groups with an assigned cover. A failed image load also shows
+the missing-cover placeholder. The current sample set contains eight images.
+Keep only one supported image per date; duplicate dates, malformed image names
+or corrupt files produce an export error. A missing `covers/` folder is fine.
+Images outside an export's date range are not assigned.
+
+To use another source folder, pass
+`make export-reading-room READING_ROOM_ARGS="--covers /path/to/covers"`.
+The synthetic demo does not consume private covers. `covers/` and generated
+outputs are excluded from Git.
+
+For CD2/CD3, matching uses the group's displayed year/month. The same date cover
+can illustrate multiple distinct native groups; it does not verify their printed
+issue identity or create TOC associations. Undated groups stay without a cover.
+
 ## Deployment base and routes
 
 The default build assumes the site is served from `/`. For a nested directory,
@@ -111,8 +153,9 @@ The combined media index has 9,990 group/resource records: 6,783 from CD1,
 2,139 from CD2, and 1,068 from CD3 (1,039 copied media records plus 29 explicit
 missing-source records). This is not a distinct-image count. CD2/CD3 contribute
 1,758 and 79 original attachment links respectively. Original bytes, including
-CAB/source files, stay unchanged. The complete data tree contains 44,672
-inventoried files and approximately 3.43 GB before its root manifest.
+CAB/source files, stay unchanged. The reference-only data tree contains 44,672
+inventoried files and approximately 3.43 GB before its root manifest; the eight
+sample covers bring the file inventory to 44,680.
 
 For the earlier CD1-only export, run
 `PYTHONPATH=src python3 -m tools.reading_room.export --output build/reading-room-cd1/data`.
@@ -132,8 +175,8 @@ The CD1 portion contains 5,497 TOC entries, 3,125 listing downloads and
 6,783 issue-specific media records. Those media records represent 6,090 distinct
 referenced images: 4,979 viewable derivatives and 1,111 deferred originals.
 Eight candidate articles still have unresolved boundaries; 33 other references
-have localized marked text gaps. Cover scans are absent, so issue pages show a
-plain missing-cover placeholder. Search covers metadata, not full article text.
+have localized marked text gaps. Optional owner-supplied covers are supported;
+issues without one show a plain placeholder. Search covers metadata, not full article text.
 The aside shows more articles from the same issue and source links; it does not
 claim editorial recommendations. The reader does not perform OCR, article
 correction, new extraction or paper verification.

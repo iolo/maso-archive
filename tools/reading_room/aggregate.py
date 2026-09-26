@@ -165,9 +165,11 @@ def add_disc(root, disc, output, catalog, search):
             'outcomes': native_catalog['outcomes']}
 
 
-def aggregate(cd1, toc, cd2, cd3, output):
+def aggregate(cd1, toc, cd2, cd3, output, covers=None):
     output = Path(output)
     roots = [Path(p).resolve() for p in (cd1, toc, cd2, cd3)]
+    if covers is not None:
+        roots.append(Path(covers).resolve())
     if any(output.resolve().is_relative_to(p) or p.is_relative_to(output.resolve()) for p in roots):
         raise ValueError('Output must not overlap inputs')
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -183,11 +185,14 @@ def aggregate(cd1, toc, cd2, cd3, output):
         catalog['schemaVersion'] = search['schemaVersion'] = 2
         catalog['sources'] = sources
         catalog['issues'].sort(key=lambda i: (i['year'] or 9999, i['month'], i['id']))
+        from .covers import attach_covers
+        manifest['coverInputs'] = attach_covers(stage, catalog, covers)
         write(stage, 'catalog.json', catalog)
         write(stage, 'search.json', search)
         counts = Counter(manifest['counts'])
         for source in sources[1:]:
             counts.update({k: v for k, v in source['counts'].items() if k != 'attachments'})
+        counts['covers'] = sum(i['cover'] is not None for i in catalog['issues'])
         manifest.update(schemaVersion=2, sources=sources, counts=dict(counts))
         manifest['files'] = [{'path': p.relative_to(stage).as_posix(), 'bytes': p.stat().st_size,
                               'sha256': digest(p)} for p in sorted(stage.rglob('*'))
