@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd2",
+  "scope": "private_readable_reference",
+  "iso_sha256": "fc7b3047b2c6cc2555500faf43dc0b73ff877c2f5b01acdb32041615d2f31a0e",
+  "candidate_map_sha256": "04a91f244468c4e574fa46e86b10a2bf88f3a7fb73e2eb6237875f25309c738b",
+  "output_manifest_sha256": "dbe1dbfbb787fed2e9ae0df5519a673e4defe062552f221c12747c7c406f5e5c",
+  "coverage_sha256": "b4e50862a70642db13a6e9ab147282529416d1a53b16cd1565aded4e9856ca98",
+  "candidate_count": 1330,
+  "outcomes": {
+    "partial": 1110,
+    "success": 220
+  },
+  "media_occurrences": 2661,
+  "media_resource_records": 2139,
+  "media_statuses": {
+    "available": 2008,
+    "available_with_caveat": 130,
+    "deferred": 1
+  },
+  "unassigned_media_resources": 284,
+  "unassigned_media_statuses": {
+    "available": 284
+  },
+  "untitled_topic_classes": {
+    "document_tail": 1,
+    "multimedia_supplement": 27,
+    "navigation_link_list": 26,
+    "untitled_topic": 4
+  },
+  "output_files_verified": 10792,
+  "all_html_links_resolve": true,
+  "paper_review": "pending"
+}

@@ -176,3 +176,16 @@ check-reading-room:
 test-reading-room:
 	PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -p test_reading_room_web_export.py -v
 	cd web && npm test && npm run build
+
+.PHONY: inventory-cd2-sources map-cd2-candidates build-cd2-reference check-cd2-reference
+inventory-cd2-sources:
+	$(PYTHON) -m tools.inventory_cd2_sources
+
+map-cd2-candidates:
+	$(PYTHON) -m tools.map_cd2_candidates
+
+build-cd2-reference:
+	$(PYTHON) -m tools.build_cd2_reference --all $(CD2_ARGS)
+
+check-cd2-reference:
+	$(PYTHON) -m tools.verify_cd2_reference

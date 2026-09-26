@@ -10,7 +10,7 @@ import shutil
 import tempfile
 
 from PIL import Image
-from tools.build_cd2_pilot import CSS, digest, parse, put
+from tools.build_cd2_pilot import CSS, digest, marked_html, parse, put
 from tools.inventory_cd2_sources import PROBE, ROOT, TREE, RECORD
 from tools.map_cd1_topic import require
 from tools.map_cd2_candidates import SUMMARY as CANDIDATE_RECORD
@@ -76,8 +76,7 @@ def render_article(root, row, rtf, disc_files, probe_files):
             else:
                 text = run["text"]
                 plain.append(text)
-                safe = html.escape(text)
-                rendered.append(f"<strong>{safe}</strong>" if run["bold"] else safe)
+                rendered.append(marked_html(run))
         if paragraph["terminated"]:
             plain.append("\n")
         body.append("<p>"+"".join(rendered)+"</p>")

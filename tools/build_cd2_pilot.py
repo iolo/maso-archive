@@ -18,10 +18,19 @@ from tools.recover_cd1_text import json_bytes
 
 OUTPUT = ROOT / "build/cd2-reference-pilot"
 TOPIC = "940116300"
-CSS = """body{font:17px/1.65 system-ui,sans-serif;max-width:72rem;margin:2rem auto;padding:0 1rem;color:#222}a{color:#1455a0}.note{color:#555}.gap{border-left:4px solid #a60;padding-left:1rem}p{white-space:pre-wrap;tab-size:8;overflow-wrap:anywhere}img{max-width:100%;height:auto}figure{margin:1.5rem 0}figcaption{color:#555}"""
+CSS = """body{font:17px/1.65 system-ui,sans-serif;max-width:72rem;margin:2rem auto;padding:0 1rem;color:#222}a{color:#1455a0}.note{color:#555}.gap{border-left:4px solid #a60;padding-left:1rem}p{white-space:pre-wrap;tab-size:8;overflow-wrap:anywhere}img{max-width:100%;height:auto}figure{margin:1.5rem 0}figcaption{color:#555}.small-caps{font-variant:small-caps}"""
 OBJECT = re.compile(rb"\\\{(?:bmc|ewl) ([^}]+)\\\}")
 SKIP = re.compile(rb"\{\\up [+#$K]\}\{\\footnote\\pard\\plain\{\\up [+#$K]\}[^}]*\}|\{\\up [+#$K]\}|\{\\v [^}]+\}")
-COSMETIC = set("pard plain fs keepn li qr qc ql qj ri sa sb sl tx cf ul uldb".split())
+COSMETIC = set("pard fs keepn li qr qc ql qj ri sa sb sl tx cf".split())
+
+
+def marked_html(run):
+    value = html.escape(run["text"])
+    for key, tag in (("small_caps", "span"), ("strike", "s"), ("underline", "u"),
+                     ("italic", "em"), ("bold", "strong")):
+        if run.get(key):
+            value = f'<span class="small-caps">{value}</span>' if key == "small_caps" else f"<{tag}>{value}</{tag}>"
+    return value
 
 
 def digest(raw):
@@ -53,17 +62,23 @@ def parse(raw, base):
     tokens = tokenize(raw, base)
     require(sum(t["byte_length"] for t in tokens) == len(raw), "RTF byte coverage failed")
     spans = []
+    if raw.startswith(b"{\\rtf1"):
+        beginning = raw.find(b"{\\up +}")
+        require(beginning > 0, "RTF document preamble has no first topic")
+        spans.append((base, base + beginning, "metadata", None))
     for pattern, role in ((SKIP, "metadata"), (OBJECT, "object")):
         spans.extend((base + m.start(), base + m.end(), role, m) for m in pattern.finditer(raw))
     spans.sort()
     require(all(a[1] <= b[0] for a, b in zip(spans, spans[1:])), "Overlapping RTF spans")
     paragraphs, runs, buffer, fragments, issues = [], [], bytearray(), [], []
-    bold = False
+    bold = italic = underline = strike = small_caps = False
 
     def flush():
         if buffer:
             runs.append({"type": "text", "text": decode(bytes(buffer), fragments[0]["byte_offset"], issues),
-                         "bold": bold, "source_fragments": fragments.copy()})
+                         "bold": bold, "italic": italic, "underline": underline,
+                         "strike": strike, "small_caps": small_caps,
+                         "source_fragments": fragments.copy()})
             buffer.clear()
             fragments.clear()
 
@@ -122,9 +137,20 @@ def parse(raw, base):
             elif word == "b":
                 flush()
                 bold = value != 0
+            elif word in ("i", "ul", "uldb", "strike", "scaps"):
+                flush()
+                enabled = value != 0
+                if word == "i":
+                    italic = enabled
+                elif word in ("ul", "uldb"):
+                    underline = enabled
+                elif word == "strike":
+                    strike = enabled
+                else:
+                    small_caps = enabled
             elif word == "plain":
                 flush()
-                bold = False
+                bold = italic = underline = strike = small_caps = False
             elif word in COSMETIC:
                 pass
             else:
@@ -176,8 +202,7 @@ def build(destination=OUTPUT, verify_existing=False):
             else:
                 value = run["text"]
                 plain.append(value)
-                escaped = html.escape(value)
-                content.append(f"<strong>{escaped}</strong>" if run["bold"] else escaped)
+                content.append(marked_html(run))
         if p["terminated"]:
             plain.append("\n")
         rendered.append("<p>" + "".join(content) + "</p>")

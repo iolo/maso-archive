@@ -11,7 +11,8 @@ The observations below describe the initial inspection before that probe.
 Step 11a now provides the [complete CD1 source inventory](CD1-PRESERVATION.md):
 5,828 ISO/extracted files, 375 directories, and 7,377 probe/support files checked.
 Independent backup/restore verification remains pending; the owner confirmed that
-no independent backup exists yet. CD2/CD3 observations below remain preliminary.
+no independent backup exists yet. CD3 observations below remain preliminary;
+CD2's later extraction is documented in the [CD2 reference guide](CD2-READABLE-REFERENCE.md).
 
 ## TOC
 
@@ -78,8 +79,11 @@ or otherwise uninspected records, nor complete coverage of those six years.
 
 CD2 includes `BIN/MASO2.EXE`, `BIN/MASO2.INI`, and viewer DLLs named `MV*12.DLL`.
 Its `DATA/SOURCE/` identifiers and `DATA/LIST/` filenames indicate 1994 material.
-The INI names Windows Notepad as a text editor. Article-body decoding has not
-been attempted, and directory names alone do not establish full coverage.
+The INI names Windows Notepad as a text editor. A later checksummed M12 decode,
+CD-native candidate map, and private readable reference account for 1,330
+article candidates; see the [source map](CD2-SOURCE-MAP.md) and
+[coverage guide](CD2-READABLE-REFERENCE.md). These CD-native groups do not
+independently verify printed issue identities or completeness.
 
 CD3 has `MASO3.EXE`, viewer DLLs named `MV*14N.DLL`, and 105 `.CAB` files.
 Its attachment directories span `FILES/9501` through `FILES/9512`.
@@ -98,8 +102,10 @@ and Python for TOC counts, byte inspection, CP949 samples, and SHA-256 hashing.
 Complete inventories should be generated into durable machine-readable manifests
 in Milestone 1. Temporary inspection files are not project deliverables.
 
-No application was executed, no full container was decompiled, no OCR or AI
-summary was generated, and no image was published. Full scans, covers, text
+At this initial inventory stage, no application was executed, no full container
+was decompiled, no OCR or AI summary was generated, and no image was published.
+Subsequent CD1 and CD2 work is documented in their source/reference guides.
+Full scans, covers, text
 completeness, accurate printed-page mappings, and 1983–1987 source availability
 remain to be established. The owner confirmed that scans for 1983–1987 can be
 arranged later; those 50 issues start with TOC metadata only. The CD

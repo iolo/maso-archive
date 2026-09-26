@@ -2522,3 +2522,37 @@
 - Limits: CD-native group labels are not independent paper issue metadata. Most
   candidates remain unprocessed, and untitled RTF topics need classification.
   Next: resumable complete reference pass with explicit per-candidate outcomes.
+
+### 2026-09-26 — CD2 checkpoint 4: complete private reference pass
+
+- Input: the checked ISO/extracted tree, pinned M12 decoder probe, and mapped
+  queue of 1,330 article candidates in 12 provisional CD-native groups. Build
+  `build/cd2-reference/` by group with `tools/build_cd2_reference.py`; keep
+  original media, recovered bodies, and ZIP/TXT attachments outside Git.
+- Deliver a portable HTML/text/code/image reference, `coverage.json`, issue
+  manifests, and 58 classified supplemental topic records. Every candidate has
+  an explicit outcome: 220 success, 1,110 partial, none failed or blocked. The
+  reference accounts for 2,661 ordered media occurrences and 2,139 per-group
+  media records: 2,008 direct previews, 130 fallback previews flagged for paper
+  review, and one visibly deferred WMF preview with its original available.
+  Preserve 284 additional decoded image resources with no article marker on a
+  separate unassigned-media shelf; do not invent their placements.
+  Two `SrcCopy` targets have no matching external attachment; their article
+  text remains readable. The 69 native index/RTF title differences retain both
+  source strings.
+- Localized uncertainty remains visible: 5,434 dynamic-field occurrences,
+  639 undecodable byte runs, and 124 unsupported RTF controls. The 58 untitled
+  topics have source spans and supplementary text/classifications, separate
+  from article candidates. Preserve source bold and underline emphasis in
+  ordered runs and HTML. No CD text is marked paper-verified.
+- Validate all 12 batches and an independent `--verify-existing` full rebuild.
+  `tools/verify_cd2_reference.py` reconciles source hashes, every candidate,
+  ordered media relationship, original and UTF-8 code listing whitespace,
+  attachments, 10,792 output files, supplemental topics, and all generated
+  links. Chromium displayed the root/issue navigation, Korean text, 22 images
+  in the TeX pilot, the JPEG article's code listing and three attachments, and
+  the deferred WMF state. See `docs/CD2-READABLE-REFERENCE.md` and the tracked
+  `data/catalog/preservation/cd2-readable-reference.json` for reproduction.
+- The reference fulfills the CD2 offline extraction queue with honest gaps.
+  Paper/OCR comparison, verified corrections, CD2-to-SPA integration, backup,
+  and any publication/access decision remain separate work.

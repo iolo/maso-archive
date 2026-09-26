@@ -35,8 +35,15 @@ The [historical 19b handoff](docs/CD1-OEM-PASS.md) retains its 995 strictly prep
 packages and earlier records; the readable reference adds useful text from the
 85 previously failed candidates without changing those historical outcomes.
 
+**The private CD2 reference is available at `build/cd2-reference/index.html`**
+after extraction. It accounts for 1,330 CD-native article candidates across 12
+provisional groups, with readable text, original code/attachments, image links,
+and explicit uncertainties. See the [CD2 reference guide](docs/CD2-READABLE-REFERENCE.md)
+for reproduction, coverage, and gaps. It does not extend the current SPA catalog.
+
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
-- [CD2 extraction plan — deferred](PLAN-CD2.md)
+- [CD2 extraction plan](PLAN-CD2.md)
+- [CD2 private readable reference](docs/CD2-READABLE-REFERENCE.md)
 - [CD3 extraction plan — deferred](PLAN-CD3.md)
 - [Reading-room PRD](PRD-reading-room.md)
 - [Reading-room implementation plan](PLAN-reading-room.md)
