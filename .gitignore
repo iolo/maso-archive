@@ -1,0 +1,24 @@
+# Original discs and extracted publisher content
+/masocd-*.iso
+/masocd-*/
+/HMSETUP/
+/SOURCE/
+/covers/
+
+# Local Windows environment and machine-specific configuration
+/hwin31/
+/hwin31.cfg
+
+# Private extraction outputs and rebuildable artifacts
+/private/
+/build/
+__pycache__/
+*.pyc
+/.venv/
+
+# Private local-browser verification artifacts
+/.playwright-cli/
+/output/playwright/
+/web/node_modules/
+/web/.vite/
+/web/*.tsbuildinfo
