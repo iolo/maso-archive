@@ -58,7 +58,7 @@ def decode(data, source_offset, issues):
     return re.sub(r"\{(vfld\d*)\}", r"⟦field:\1⟧", text)
 
 
-def parse(raw, base):
+def parse(raw, base, *, skip=SKIP, cosmetic=COSMETIC):
     tokens = tokenize(raw, base)
     require(sum(t["byte_length"] for t in tokens) == len(raw), "RTF byte coverage failed")
     spans = []
@@ -66,7 +66,7 @@ def parse(raw, base):
         beginning = raw.find(b"{\\up +}")
         require(beginning > 0, "RTF document preamble has no first topic")
         spans.append((base, base + beginning, "metadata", None))
-    for pattern, role in ((SKIP, "metadata"), (OBJECT, "object")):
+    for pattern, role in ((skip, "metadata"), (OBJECT, "object")):
         spans.extend((base + m.start(), base + m.end(), role, m) for m in pattern.finditer(raw))
     spans.sort()
     require(all(a[1] <= b[0] for a, b in zip(spans, spans[1:])), "Overlapping RTF spans")
@@ -151,7 +151,7 @@ def parse(raw, base):
             elif word == "plain":
                 flush()
                 bold = italic = underline = strike = small_caps = False
-            elif word in COSMETIC:
+            elif word in cosmetic:
                 pass
             else:
                 flush()

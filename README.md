@@ -41,10 +41,19 @@ provisional groups, with readable text, original code/attachments, image links,
 and explicit uncertainties. See the [CD2 reference guide](docs/CD2-READABLE-REFERENCE.md)
 for reproduction, coverage, and gaps. It does not extend the current SPA catalog.
 
+**The private CD3 reference is available at `build/cd3-reference/index.html`**
+after extraction. It accounts for 967 titled CD-native candidates across 18
+provisional groups, with readable text and inline code, linked figures, original
+CAB attachments, and visible gaps. See the
+[CD3 reference guide](docs/CD3-READABLE-REFERENCE.md) for reproduction and
+coverage. Its date labels include 1994 and 1996 anomalies; it does not extend
+the current SPA catalog.
+
 - [CD1 extraction and reading-room content plan](PLAN-CD1.md)
 - [CD2 extraction plan](PLAN-CD2.md)
 - [CD2 private readable reference](docs/CD2-READABLE-REFERENCE.md)
-- [CD3 extraction plan — deferred](PLAN-CD3.md)
+- [CD3 extraction plan — implemented](PLAN-CD3.md)
+- [CD3 private readable reference](docs/CD3-READABLE-REFERENCE.md)
 - [Reading-room PRD](PRD-reading-room.md)
 - [Reading-room implementation plan](PLAN-reading-room.md)
 - [Reading-room build and use guide](docs/READING-ROOM.md)

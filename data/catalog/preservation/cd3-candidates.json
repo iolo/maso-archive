@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd3",
+  "source_inventory_sha256": "54f49789e2085da95abd1e40dd713329e492a2d25adb1f90ecbaadac6cd2179c",
+  "counts": {
+    "rtf_topics": 2336,
+    "article_candidates": 967,
+    "author_bios": 12,
+    "auxiliary_topics": 1355,
+    "document_tails": 2,
+    "media_occurrences": 2384,
+    "article_media_occurrences": 1139,
+    "missing_media_occurrences": 253,
+    "figure_links": 971,
+    "resolved_figures": 969,
+    "missing_figure_sources": 8,
+    "cab_actions": 80,
+    "missing_cab_actions": 1
+  },
+  "native_groups": {
+    "9409": 2,
+    "9410": 2,
+    "9411": 3,
+    "9412": 5,
+    "9501": 53,
+    "9502": 47,
+    "9503": 42,
+    "9504": 58,
+    "9505": 72,
+    "9506": 86,
+    "9507": 93,
+    "9508": 108,
+    "9509": 97,
+    "9510": 107,
+    "9511": 96,
+    "9512": 88,
+    "9605": 1,
+    "undated": 7
+  },
+  "private_detail": {
+    "path": "build/cd3-preservation/candidates.json",
+    "bytes": 2089344,
+    "sha256": "fc77970bf8d3a43c8a88bccb1641b9542fa17117939b4e16b09d2031209a5c8c"
+  },
+  "limitations": [
+    "CD-native labels are not paper-verified magazine issue identities.",
+    "Some candidates carry 1994 or 1996 labels, or no unique issue label.",
+    "Untitled auxiliary topics and unassigned bitmaps are retained separately."
+  ]
+}

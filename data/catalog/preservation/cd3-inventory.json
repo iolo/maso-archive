@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd3",
+  "scope": "source_inventory",
+  "iso": {
+    "path": "masocd-3.iso",
+    "bytes": 327081984,
+    "sha256": "7c269df8479c72919863f27b68dceb6fe8b567a18f27eb9481655e15e4ae17d0"
+  },
+  "containers": {
+    "MASO3.M14": {
+      "path": "MASO3.M14",
+      "bytes": 299619070,
+      "sha256": "d953ba97ca6255dcffb2f82f07354117098fc86ad9d93ba47146d72a96625ba9"
+    },
+    "LIST.M14": {
+      "path": "LIST.M14",
+      "bytes": 10067,
+      "sha256": "93d286f59808ce9bd61dc37eb3a33a84b3b46221fab99a564af4ca150ff3578c"
+    }
+  },
+  "counts": {
+    "disc_files": 137,
+    "disc_directories": 14,
+    "main_probe_files": 1572,
+    "list_probe_files": 3,
+    "cab_files": 105,
+    "cab_members": 2130
+  },
+  "probe_extensions": {
+    ".bmp": 1570,
+    ".mvp": 1,
+    ".rtf": 1
+  },
+  "viewer_entry_point": "MASO3.EXE on disc; owner reports setup creates only a shortcut",
+  "validation": {
+    "iso_hash_matches_recorded": true,
+    "fresh_iso_extraction_matches_tree": true,
+    "both_m14_decode_to_rtf": true,
+    "cab_members_listed_without_extraction": true
+  },
+  "private_detail": {
+    "path": "build/cd3-preservation/inventory.json",
+    "bytes": 467381,
+    "sha256": "54f49789e2085da95abd1e40dd713329e492a2d25adb1f90ecbaadac6cd2179c"
+  }
+}

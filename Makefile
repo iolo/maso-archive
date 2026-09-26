@@ -189,3 +189,16 @@ build-cd2-reference:
 
 check-cd2-reference:
 	$(PYTHON) -m tools.verify_cd2_reference
+
+.PHONY: inventory-cd3-sources map-cd3-candidates build-cd3-reference check-cd3-reference
+inventory-cd3-sources:
+	$(PYTHON) -m tools.inventory_cd3_sources
+
+map-cd3-candidates:
+	$(PYTHON) -m tools.map_cd3_candidates
+
+build-cd3-reference:
+	$(PYTHON) -m tools.build_cd3_reference --all $(CD3_ARGS)
+
+check-cd3-reference:
+	$(PYTHON) -m tools.verify_cd3_reference

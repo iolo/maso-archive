@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "disc_id": "cd3",
+  "scope": "private_readable_reference",
+  "source_queue_sha256": "fc77970bf8d3a43c8a88bccb1641b9542fa17117939b4e16b09d2031209a5c8c",
+  "output_manifest": {
+    "path": "build/cd3-reference/manifest.json",
+    "sha256": "17d7094b47c6c2d1fbbcd289edf8837b22e91bbd90f8bae282c736d75842f149"
+  },
+  "counts": {
+    "article_candidates": 967,
+    "groups": 18,
+    "success": 792,
+    "partial": 175,
+    "failed": 0,
+    "supplemental_topics": 1369,
+    "unassigned_media": 511,
+    "article_media_occurrences": 1139,
+    "figure_links": 971,
+    "resolved_figures": 969,
+    "copied_cab_actions": 79,
+    "output_files": 5664
+  },
+  "validation": {
+    "all_candidate_outcomes_accounted": true,
+    "all_auxiliary_topics_classified": true,
+    "text_and_whitespace_match_blocks": true,
+    "media_and_cab_sources_match": true,
+    "all_html_links_resolve": true,
+    "output_files_match_manifest": true
+  },
+  "limits": [
+    "CD3 labels and text have not been compared with paper magazines.",
+    "An original viewer comparison was not needed to resolve the mapped source relationships."
+  ]
+}

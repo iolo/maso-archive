@@ -54,11 +54,12 @@ its available content in controlled batches, preserving 1991–1993 source ident
 without inventing entries in the supplied TOC. Additional issue/TOC metadata must
 come from inspected CD records or later supplied sources.
 
-CD2's apparent 1994 coverage and CD3's apparent 1995 coverage are handled separately
-in [PLAN-CD2.md](PLAN-CD2.md) and [PLAN-CD3.md](PLAN-CD3.md). Those are deferred
-source-specific queues, not additional tasks in this CD1 plan. Source coverage
-and article completeness still require verification. Missing 1983–1987 scans
-remain a separate future source task.
+CD2 and CD3 are handled separately in [PLAN-CD2.md](PLAN-CD2.md) and
+[PLAN-CD3.md](PLAN-CD3.md). Their private references are now implemented;
+CD3's native labels include some 1994 and 1996 anomalies alongside apparent
+1995 material. Neither disc is an additional task in this CD1 plan, and paper
+issue coverage and article completeness still require verification. Missing
+1983–1987 scans remain a separate future source task.
 
 Full-text extraction/preparation is required regardless of whether an article is
 ever published. Keep the recovered text and provenance private and reusable.

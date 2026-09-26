@@ -2556,3 +2556,80 @@
 - The reference fulfills the CD2 offline extraction queue with honest gaps.
   Paper/OCR comparison, verified corrections, CD2-to-SPA integration, backup,
   and any publication/access decision remain separate work.
+
+### 2026-09-26 — CD3 checkpoint 1: checked source map and candidate
+
+- Input: the owner-supplied `masocd-3.iso`, extracted `masocd-3/` tree, initial
+  SHA-256 record, and the pinned HELPDECO revision used for CD1/CD2. The owner
+  clarified that CD3 setup installs no software; it creates only a shortcut to
+  the viewer on the CD.
+- Deliverable: `tools/inventory_cd3_sources.py` verifies the 327,081,984-byte
+  ISO, all 137 extracted files and 14 directories against fresh extraction,
+  both M14 decoder probes, and member listings for 105 CABs containing 2,130
+  entries. `tools/map_cd3_candidates.py` binds 967 titled article candidates
+  to exact RTF topic spans and preserves the 1,369 other topic classifications.
+  `LIST.M14` yields a small baggage text file, not an article list.
+- Check: the ISO hash matches the recorded
+  `7c269df8479c72919863f27b68dceb6fe8b567a18f27eb9481655e15e4ae17d0`;
+  source and decoded trees have tracked checksums. The main M14 decodes to a
+  25,222,941-byte RTF and 1,570 BMPs. The private queue retains native aliases,
+  date labels, image occurrences, and CAB actions. See
+  `docs/CD3-SOURCE-MAP.md`.
+- Limits and next task: native labels include 1994 and 1996 anomalies and do not
+  prove printed issues. Recover a source-bound article with inline code before
+  expanding to a group.
+
+### 2026-09-26 — CD3 checkpoint 2: readable article and code
+
+- Input: the checked topic map and `topic-0036` (`FLI, FLC 파일 분석`), whose native
+  label reads 1994-12. Use exact RTF byte spans and the CD3 parser configuration
+  in `tools/cd3_text.py`.
+- Deliverable: a private HTML article, UTF-8 text download, and source-backed
+  blocks in `build/cd3-reference/groups/9412/articles/topic-0036/`. Its 10,924
+  text characters and 254 paragraphs retain inline C and assembly spacing.
+- Check: the parser accounts for every RTF token in the selected span, the
+  source hash binds the article, and the group export reproduces identically.
+  The generated article text and blocks reconstruct byte-identically under the
+  independent reference checker. Browser navigation opened the article page.
+- Limits and next task: CD text and the 1994 date label are not paper-verified.
+  Test a second structural case with a linked figure and an actual 1995 label.
+
+### 2026-09-26 — CD3 checkpoint 3: native group and linked figure
+
+- Input: the candidate queue and the linked-figure pattern in `topic-0037`
+  (`애니메이션 플레이어 제작`). The article stores a viewer Click icon followed by a
+  native context alias; the alias resolves to a separate single-image topic.
+- Deliverable: a browsable 9501 native group with all 53 candidates, plus
+  article pages that place linked figure previews beside their source captions.
+  The second case shows the original `T01311.BMP` and its 313×132 PNG rather
+  than only the Click icon. The map retains both icon and target identities.
+- Check: group links and source media order validate, repeat builds agree, and
+  Chromium loaded Korean text and the figure at its expected dimensions.
+  Across CD3, 969 of 971 figure links resolve; two `CKX.TC` targets remain
+  explicit unresolved aliases. Eight resolved figures refer to missing BMPs.
+- Limits and next task: CD-native grouping is not a supplied-library TOC match.
+  Continue through all candidate groups while retaining missing-media states.
+
+### 2026-09-26 — CD3 checkpoint 4: complete private reference
+
+- Input: the checked ISO, M14 probes, CAB inventory, and full candidate queue.
+  Build all 18 native groups with `tools/build_cd3_reference.py`, retaining
+  original attachments, media, and recovered bodies in ignored private paths.
+- Deliverable: `build/cd3-reference/index.html` and a coverage catalog for all
+  967 article candidates: 792 success, 175 partial, none failed or blocked.
+  The reference has 1,139 article image markers, 969 resolved figure links,
+  79 copied CAB actions, 1,369 classified nonarticle topics, and 511 unassigned
+  original BMPs. A missing CAB in `topic-0104`, two unresolved figure aliases,
+  and unavailable figure sources remain visible without hiding readable text.
+  Localized source markers retain 1,869 undecodable byte runs and 17 unsupported
+  RTF controls. The complete output has 5,664 checked files.
+- Check: the full `--verify-existing` rebuild matched all group manifests.
+  `make check-cd3-reference` reconciles source/output hashes, every candidate,
+  text and code whitespace, figure and attachment bytes, auxiliary topics,
+  unassigned media, and all HTML links. Chromium checked root/group navigation,
+  Korean pages, a resolved figure, a CAB link, and the missing-CAB notice.
+  The only observed console error was a missing favicon. See
+  `docs/CD3-READABLE-REFERENCE.md` and the tracked coverage summary.
+- The offline CD3 extraction queue is complete with honest gaps. Paper/OCR
+  comparison, verified corrections, independent backup, CD3-to-SPA integration,
+  and any publication/access decision remain separate work.
