@@ -5,7 +5,7 @@
   "source_queue_sha256": "c6d132af00484b02e0fd344e06485ee535a2386c68922025625ab19ac63647a3",
   "output_manifest": {
     "path": "build/cd3-reference/manifest.json",
-    "sha256": "3261c212e073f49dd7905a9e48ea2d872245046961225dc0e23551fb491624d0"
+    "sha256": "dcda5d327727d932b16ba5fd3555443d643853f67e0f32da7c59fb9ce7393dc5"
   },
   "counts": {
     "article_candidates": 968,

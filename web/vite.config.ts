@@ -24,7 +24,9 @@ export default defineConfig({
           const root = path.join(output, 'data')
           const file = path.resolve(root, relative)
           if (!file.startsWith(root + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) return next()
-          res.setHeader('Content-Type', file.endsWith('.json') ? 'application/json; charset=utf-8' :
+          res.setHeader('Content-Type', file.endsWith('.html') ? 'text/html; charset=utf-8' :
+            file.endsWith('.css') ? 'text/css; charset=utf-8' :
+            file.endsWith('.json') ? 'application/json; charset=utf-8' :
             file.endsWith('.txt') ? 'text/plain; charset=utf-8' : file.endsWith('.svg') ? 'image/svg+xml' :
             file.endsWith('.png') ? 'image/png' : 'application/octet-stream')
           fs.createReadStream(file).pipe(res)

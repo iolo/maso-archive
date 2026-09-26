@@ -1,12 +1,24 @@
 # Reading-room implementation plan
 
+**2026-09-26 aggregation follow-up completed:** at the owner's request, the
+reading room now consumes the completed PLAN-CD1/CD2/CD3 results through the
+version 2 adapter. It has 3,386 candidates, 3,378 texts, 3,212 listings and
+152 navigation groups. CD1 identities/TOCs stay intact; CD2/CD3 groups retain
+disc-native labels without inferred printed-issue matches. All three sources
+are browsable/searchable, with native attachments, figures and supplemental
+reference links. See [the current guide](docs/READING-ROOM.md). The original
+CD1 implementation scope below records the earlier delivered milestone.
+The later [CD3 underline diagnosis](docs/CD3-HELPDECO-UNDERLINE-BUG.md) is retained
+as a known HELPDECO defect with a display-only workaround. Decoder correction
+is deferred; see the [implementation handoff](docs/SUCCESSOR-NOTES.md).
+
 Prepared 2026-09-26 from [PRD-reading-room.md](PRD-reading-room.md), the
 [predecessor handoff](docs/SUCCESSOR-NOTES.md), and inspection of the completed
 [CD1 reference](docs/CD1-READABLE-REFERENCE.md). Status: **implemented**; see the
 [build and use guide](docs/READING-ROOM.md). This plan owns the SPA; [PLAN-CD1.md](PLAN-CD1.md) remains the
 record of completed extraction and its deferred backlog.
 
-## Outcome and scope
+## Original CD1 outcome and scope (historical)
 
 Deliver a simple, responsive reading room for **November 1983–December 1993**.
 Readers can browse issues, inspect each issue's TOC, read available articles,

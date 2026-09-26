@@ -1,15 +1,27 @@
 # Reading room
 
-The static reading room is generated from the completed private CD1 reference.
-The reader covers 122 issues (1983-11–1993-12), including the 50 issues with
-library TOCs but no CD1 body. It renders 1,080 article texts from 1,088
-candidate records. CD text is a secondary transcription pending comparison with
-paper magazines.
+The static reading room combines the completed **CD1, CD2 and CD3** references.
+It contains **3,378 readable texts from 3,386 candidates**, with browsing,
+metadata search, figures, source downloads and explicit review states.
+CD text is a secondary transcription pending comparison with paper magazines.
+
+| Source | Issue/date groups | Candidates | Readable texts | UTF-8 listings |
+| --- | ---: | ---: | ---: | ---: |
+| CD1 | 122 library issues | 1,088 | 1,080 | 3,125 |
+| CD2 | 12 native date groups | 1,330 | 1,330 | 87 |
+| CD3 | 18 native groups | 968 | 968 | 0 (code stays in article text) |
+| Combined | 152 | 3,386 | 3,378 | 3,212 |
+
+The 5,497 library TOC entries still cover 1983-11–1993-12. CD2/CD3 groups have
+no invented TOC links. CD3 includes anomalous 1994/1996 labels and an undated
+group; overlapping labels remain separate by disc. These 152 navigation groups
+are not a claim of 152 distinct printed issues.
 
 ## Build the local archive
 
-From the repository root, with the private `build/cd1-reference/` and
-`build/toc/` folders present:
+From the repository root, with the private `build/cd1-reference/`,
+`build/cd2-reference/`, `build/cd3-reference/`, `build/toc/`, and CD1 reviewed
+issue packages present:
 
 ```sh
 cd web && npm ci && cd ..
@@ -27,8 +39,11 @@ browsers restrict local JSON fetches. The older
 `build/cd1-reference/index.html` remains the direct-file reader.
 
 The export refuses a TOC snapshot that does not match the completed reference's
-input hashes. It does not change the reference, extraction records or publisher
-sources. The generated data and source assets stay under ignored `build/` and
+input hashes, and verifies CD2/CD3 file inventories and hashes before copying.
+It builds and checks a staging tree before replacing reading-room data, so
+missing or changed inputs leave the previous data usable. It does not change
+the references, extraction records or publisher sources.
+The generated data and source assets stay under ignored `build/` and
 must be handled as private content. A checkout without those folders can still
 build and test the synthetic demo:
 
@@ -70,7 +85,42 @@ context panels adapt to mobile. Keyboard users can skip to the main content.
 
 ## Data and known limits
 
-The adapter projects the existing `catalog.json`, per-article `reference.json`,
+The aggregate uses static data version 2. The reader also accepts version 1
+CD1/demo documents, preserving existing CD1 URLs. CD2/CD3 article IDs are
+disc-qualified (for example `cd3:article:topic-0037`), documents use names such
+as `articles/cd3-topic-0037.json`, and native groups use `cd3-9501`. Explicit
+paths locate media and source blocks without imposing CD1's folder layout.
+The manifest pins all three input manifests and inventories every output file,
+including the complete copied CD2/CD3 references under `data/source/`.
+
+CD2 retains 220 success and 1,110 partial outcomes; CD3 retains 792 success and
+176 partial outcomes. Partial status can mean text, media, attachment or metadata
+uncertainty. It does not imply the body is missing. The adapter preserves
+paragraph termination, whitespace, emphasis and source figure markers. CD3
+blanket underlining comes from a [HELPDECO font-decoding bug](CD3-HELPDECO-UNDERLINE-BUG.md)
+and is suppressed in the reading display. The decoder is unpatched; its generated
+flags remain in source blocks, and text/download bytes are unchanged. This
+workaround also suppresses genuine CD3 underline. CD3
+Click icons resolve to their recovered figure targets; missing originals have
+an unavailable state without a broken download link. Native source links open
+the portable references for sidebars, author biographies and related topics.
+The bookshelf also links the full references, supplemental and unassigned-media
+shelves. These auxiliary topics remain outside the article/search counts.
+
+The combined media index has 9,990 group/resource records: 6,783 from CD1,
+2,139 from CD2, and 1,068 from CD3 (1,039 copied media records plus 29 explicit
+missing-source records). This is not a distinct-image count. CD2/CD3 contribute
+1,758 and 79 original attachment links respectively. Original bytes, including
+CAB/source files, stay unchanged. The complete data tree contains 44,672
+inventoried files and approximately 3.43 GB before its root manifest.
+
+For the earlier CD1-only export, run
+`PYTHONPATH=src python3 -m tools.reading_room.export --output build/reading-room-cd1/data`.
+The default `make export-reading-room` aggregates all discs; custom paths can
+be passed with `READING_ROOM_ARGS`. The historical strict package schema is
+unchanged.
+
+For CD1, the adapter projects the existing `catalog.json`, per-article `reference.json`,
 text/listing files and media from `build/cd1-reference/`. It reads the pinned TOC
 snapshot and reviewed links from existing issue packages. Issue TOCs and CD article
 lists remain separate; an unmatched TOC entry does not imply absent CD content.
@@ -78,7 +128,7 @@ Article IDs, paragraph order, literal runs, code whitespace, gap markers and
 download bytes are retained. Source/reference records remain available through
 article links. Media has separate issue/resource identities and original links.
 
-The current export contains 5,497 TOC entries, 3,125 listing downloads and
+The CD1 portion contains 5,497 TOC entries, 3,125 listing downloads and
 6,783 issue-specific media records. Those media records represent 6,090 distinct
 referenced images: 4,979 viewable derivatives and 1,111 deferred originals.
 Eight candidate articles still have unresolved boundaries; 33 other references

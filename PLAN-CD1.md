@@ -1,5 +1,10 @@
 # CD1 extraction and reading-room content plan
 
+Wrap-up 2026-09-26: this extraction plan and the subsequent CD2, CD3 and combined
+reading-room implementation are complete. See the [current handoff](docs/SUCCESSOR-NOTES.md)
+for delivered coverage and deferred work. Earlier checkpoint scopes below remain
+historical records and do not reopen extraction or UI implementation.
+
 Revised 2026-09-25. **Step 20 is complete: the usable CD1 text/code/image
 reference is ready** for reading and paper/OCR comparison. Open
 `build/cd1-reference/index.html` locally. Cosmetic formatting is not an acceptance

@@ -1,5 +1,10 @@
 # CD2 extraction and private reference plan
 
+Aggregation follow-up (2026-09-26): the owner subsequently requested combining
+all completed disc plans in the reading room. CD2 is now included through the
+[version 2 adapter](docs/READING-ROOM.md), with native identities and date groups
+preserved. The extraction milestone and historical scope below remain unchanged.
+
 Revised 2026-09-26. Status: **implemented**. The private complete pass and its
 coverage report are described in [the CD2 reference guide](docs/CD2-READABLE-REFERENCE.md).
 This is the source-specific work sequence used for `masocd-2.iso`.
@@ -23,12 +28,12 @@ The supplied library TOC covers **122 issues through 1993-12**. Do not manufactu
 titles alone. CD-native issue/article navigation can stand on its own until
 independent issue metadata is available.
 
-The [reading-room PRD](PRD-reading-room.md) and current implementation target
-**1983-11–1993-12**. This plan prepares CD2 data offline; adding 1994 to the SPA
-requires a separate product-scope decision and a versioned adapter/input update.
-Do not silently extend the current catalog or make SPA integration an extraction
-acceptance gate. Keep original media, recovered bodies, and generated references
-private. Publication and access policy remain separate decisions.
+The original [reading-room PRD](PRD-reading-room.md) targeted **1983-11–1993-12**.
+After this offline reference was completed, the owner requested all-disc
+aggregation. The implemented version 2 adapter now includes CD2's native groups
+without inventing 1994 library TOCs. SPA integration was not an extraction
+acceptance gate. Keep original media, recovered bodies and generated references
+private; publication and access policy remain separate decisions.
 
 ## Starting evidence and CD1 lessons
 
@@ -139,9 +144,9 @@ Stop when the usable private reference and honest coverage report are delivered.
 ## Handoff and task records
 
 Keep CD2-native identities and provenance distinct from CD1, even where a title
-or asset resembles an existing record. If later requested, expose CD2 through a
-versioned static reading-room adapter with explicit 1994 issue metadata and
-compatibility checks; the SPA needs no runtime extraction, server, or database.
+or asset resembles an existing record. The completed version 2 reading-room
+adapter exposes CD2 through its native date groups and verified reference inputs;
+the SPA needs no runtime extraction, application server or database.
 Do not alter the completed CD1 export or historical strict packages to accommodate
 CD2. Paper/OCR comparison, verified corrections, and any public release remain
 separate follow-up work.

@@ -2657,3 +2657,91 @@
   `topic-0004` to readable `topic-1052` and opened `topic-0859` with its
   missing-title note. The CD2 pilot still rebuilds identically after the
   shared parser's opt-in CD3 terminal-brace handling.
+
+### 2026-09-26 — Aggregate completed CD1/CD2/CD3 references for the reading room
+
+- At the owner's request, extended the completed reader to consume all three
+  completed extraction plans. `make export-reading-room` now uses the version 2
+  adapter in `tools/reading_room/aggregate.py`. Existing CD1/demo documents and
+  CD1 URLs remain supported. Extraction and the original references are unchanged.
+- The combined private catalog has 3,386 candidates and 3,378 readable texts,
+  5,497 library TOC entries, 3,212 UTF-8 listings and 9,990 group/media records.
+  Navigation contains 122 library issues, 12 CD2 groups and 18 CD3 groups;
+  overlapping native dates, CD3's 1996 label and seven undated candidates stay
+  separate. Native groups have no guessed library TOC associations.
+- Preserve CD2's 220 success/1,110 partial outcomes and CD3's 792 success/176
+  partial outcomes. Project exact paragraphs, whitespace, emphasis and CD3
+  figure targets; expose missing originals without broken download links.
+  Include 1,837 CD2/CD3 attachment links with unchanged bytes. Complete copied
+  references keep supplemental texts, biographies and unassigned-media shelves
+  reachable; these are not added to article/search counts.
+- Verify native reference inventories before copying; stage and validate the
+  aggregate before replacing existing reader data. The manifest pins all three
+  input manifests and inventories 44,672 files (about 3.43 GB before the root
+  manifest). The independent checker reconciles memberships, text reconstruction,
+  download hashes, media, search coverage and source manifests.
+- Validation: five focused Python adapter tests and six Vitest tests pass;
+  TypeScript and production build pass. `make check-reading-room` validates the
+  real aggregate. Chromium checks covered CD1 `8802184`, CD2 `940121800`, CD3
+  `topic-0037`, `topic-0104`, `topic-0004`, and `topic-0095`, including download
+  links, literal text, the 313-pixel linked figure, source-topic links, missing
+  media, refresh, native-reference search and the undated selector. The 360px
+  dark-mode reader and mobile TOC have no viewport overflow. Browser console:
+  zero errors or warnings. Production assets: 319.59 kB JS (101.63 kB gzip),
+  20.60 kB CSS (5.31 kB gzip). Native-label header controls also fit within
+  the mobile viewport after a screenshot caught and resolved clipping.
+- Updated the reading-room guide, README and plan handoffs. Paper verification,
+  corrected transcriptions, printed-issue completeness and publication remain
+  outside this aggregation task. Outputs and browser artifacts remain ignored.
+
+### 2026-09-26 — Correct pervasive CD3 display underlining
+
+- Investigated the owner's report against the decoder RTF and preserved runs:
+  4,463,116 of 4,478,600 article characters carry underline flags, affecting
+  all 968 articles. The reading adapter had rendered those flags literally.
+- Added CD3-only display normalization shared by the reading-room adapter and
+  the standalone article/supplement HTML renderer. Original RTF and source
+  block flags remain intact; bold, italic, other marks, text and download bytes
+  are preserved. CD1/CD2 underline handling is unchanged.
+- Rebuilt the CD3 reference, verified it and updated its manifest hash record;
+  rebuilt and validated the complete aggregate. All 8,971 non-page/non-manifest
+  file hashes match the earlier reference. All 2,336 current article/supplement
+  pages and all 968 CD3 reader documents have no blanket underline markup.
+  Counts and extraction outcomes are unchanged.
+- Six focused adapter tests pass, including source-flag preservation, literal
+  text, bold/italic retention and unchanged CD2 underline behavior. Chromium
+  checked three CD3 articles and the linked topic-1052 supplement; the reading
+  body has no underline elements or computed underline decoration. The local
+  reading room is updated; reload an already-open article to load its new data.
+
+### 2026-09-26 — Record HELPDECO root cause and close implementation handoff
+
+- Recorded `docs/CD3-HELPDECO-UNDERLINE-BUG.md` with the pinned decoder revision,
+  source-code links, the 5,292-byte FONT stream hash, descriptor offsets and a
+  reproducible private inspection command. HELPDECO labels descriptor byte 35
+  `DoubleUnderline`; CD3 stores character-set values there (53 Hangul 0x81,
+  seven ANSI 0x00 and four Symbol 0x02 records). A normal Korean descriptor has
+  its actual underline byte at offset 33 set to zero. The nonzero character-set
+  value incorrectly becomes RTF `uldb`. The owner confirms no blanket underline
+  in the Windows viewer.
+- Clarified that generated RTF and parsed flags are decoder evidence, not
+  authoritative original typography. The delivered display workaround also
+  suppresses genuine underline. Decoder correction, pinned-probe migration and
+  any upstream report are deferred; no new extraction campaign was started.
+- Rewrote README around the completed combined reader, real build/demo commands,
+  per-disc coverage, private inputs and known limits. Updated the successor
+  handoff, offline tasks, reference/source guides and plan handoffs; removed
+  stale claims that CD2/CD3 were absent from the SPA or that viewer/batch
+  implementation was the next task. Historical checkpoint records and the
+  owner's original PRD remain intact.
+- Validation: all 152 local Markdown link targets across the 15 changed/new
+  documents resolve; documented totals and the CD3 manifest pin match current
+  private manifests, and README make targets exist. Whitespace checks pass.
+  This documentation-only closeout relies on the already completed six adapter
+  tests, six Vitest tests, production build, private-data validation and browser
+  checks recorded above; it does not rerun the historical recovery suite.
+- Implementation is complete with retained exceptions. Future work is limited
+  to a new owner request: the decoder correction, specific recovery/paper review,
+  scans/TOCs, independent backup or a publication decision. Commit the completed
+  aggregation, display workaround and documentation handoff together; private
+  source/generated content remains excluded.

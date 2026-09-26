@@ -74,6 +74,16 @@ articles as visible markers with source evidence in `blocks.json`. It preserves
 paragraphs, line breaks, tabs, spaces, bold, italic, and underline where present.
 No uncertain bytes or code have been guessed.
 
+The CD3 RTF export flags over 99% of article text as underlined, across all
+968 candidates, because [HELPDECO misreads the character-set byte as double
+underline](CD3-HELPDECO-UNDERLINE-BUG.md). The owner confirms normal rendering
+in the Windows viewer. Reading pages and the reading-room adapter suppress
+underlining, including supplemental pages. The decoder is unpatched: generated
+RTF and `blocks.json` retain its erroneous flags, not verified original emphasis.
+The workaround also suppresses genuine underline. Text downloads, bold, italic
+and other marks are unchanged; a decoder correction and probe migration remain
+deferred.
+
 The remaining **1,368** RTF topics are classified separately: 12 author bios,
 1,355 auxiliary topics, and one document tail. All have private pages and
 downloads: 1,118 export without parser/media gaps and 250 retain explicit
@@ -96,6 +106,7 @@ inline C and assembly spacing in the UTF-8 download and rendered paragraphs.
 
 The CD is a secondary transcription. Article boundaries, CD date/page labels,
 text, figures, and CAB contents have not been checked against physical magazines.
-The implemented reading-room SPA still ends at 1993-12. Paper/OCR comparison,
-verified corrections, 1995 SPA integration, and any publication decision are
-separate follow-up work.
+The [reading room](READING-ROOM.md) now includes CD3 through its version 2
+adapter, retaining native date groups, article identities and explicit gaps.
+Library TOCs still end at 1993-12. Paper/OCR comparison, verified corrections
+and any publication decision remain separate follow-up work.

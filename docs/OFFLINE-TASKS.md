@@ -1,9 +1,12 @@
 # Offline tasks for the owner
 
-These tasks provide physical-magazine evidence for later content verification in
-[PLAN-CD1.md](../PLAN-CD1.md). Do them when convenient; extraction and reading-room
-content preparation continue independently. No original CD-viewer comparison,
-screenshots, copy/export tests, or new Windows setup are required.
+CD1, CD2, CD3 restoration and the combined reading room are complete. These
+optional tasks provide physical-magazine evidence and independent preservation
+for later work; they do not block the delivered reader. See the
+[current handoff](SUCCESSOR-NOTES.md). No routine original-viewer comparison,
+screenshots, copy/export tests or new Windows setup are required. The owner's
+existing Windows observation for the [CD3 underline bug](CD3-HELPDECO-UNDERLINE-BUG.md)
+is retained as diagnostic evidence, not paper verification.
 
 ## 1. Locate the pilot in the physical magazine
 
@@ -71,7 +74,9 @@ as historical diagnostic evidence; they are not print-verification evidence.
 The working `masocd-1.iso` was extracted from the retained original CD. No
 optical drive is currently available. Local inventory is complete; independent
 recovery verification remains deferred as step 11b, separately from extraction. A [prepared transfer archive](CD1-PRESERVATION.md#prepared-local-transfer-set)
-now groups the ISO, probe, prepared artifacts, and Git history into about 674 MB.
+groups an earlier CD1 ISO/probe/artifact/Git snapshot into about 674 MB. It is a
+historical CD1 transfer set, not a backup of the completed CD2/CD3 references
+or combined reading room.
 When separate storage is available, copy the prepared `.tar` and `.sha256` files
 there and verify the checksum. A fresh read from the physical CD is another
 verification route once an optical drive is available. This
@@ -95,16 +100,9 @@ known missing pages. Start by locating **1983-11**. A cover, TOC, and typical ar
 page are enough to plan a later scanning pilot. Keep available source scans under
 `private/scans/`; bulk scanning is a separate future task.
 
-The first package, [second-article check](CD1-SECOND-ARTICLE-8802114.md), and local
-source inventory are complete. Step 11b is deferred until independent storage or an optical drive
-is available for recovery verification. The [February coverage audit](CD1-COVERAGE-1988-02.md) and expanded TOC
-import are complete. The corrected 1991–1993 entries are imported with stable IDs.
-The [February issue handoff](CD1-ISSUE-1988-02.md) now contains all six observed native
-February articles, including unindexed KEYBOARD LOCK (page 162). Its 29 remaining
-article candidates need scans or another source; the coverage report lists their
-TOC identities and pages. Physical review of the six prepared articles is still
-pending. The [13a processing inventory](CD1-PROCESSING-INVENTORY.md) is complete.
-The next task, **13b**, implements the shared batch pipeline. After regression
-and sample validation, the runner will process the remaining CD1 queue. These offline tasks, including backup/restore
-verification, remain independent of that extraction milestone.
-Physical reference collection and print comparison (step 7) remain independent.
+The pilot, February slice, full CD1 pass, subsequent CD2/CD3 references and
+combined reading room are implemented. The original references retain their
+coverage reports and unresolved cases. Use the current reader to identify a
+specific passage or figure for comparison; the historical pilot/batch steps
+are not a new work queue. Physical review, missing scans and independent
+backup/restore verification remain optional follow-up work until requested.

@@ -14,6 +14,9 @@ Independent backup/restore verification remains pending; the owner confirmed tha
 no independent backup exists yet. The initial CD2/CD3 observations below have
 since been followed by private complete passes; see the
 [CD2](CD2-READABLE-REFERENCE.md) and [CD3](CD3-READABLE-REFERENCE.md) reference guides.
+All three are now included in the [completed reading room](READING-ROOM.md).
+The [CD3 HELPDECO font defect](CD3-HELPDECO-UNDERLINE-BUG.md) remains in the
+pinned probe; a display-only workaround is delivered and decoder correction is deferred.
 
 ## TOC
 

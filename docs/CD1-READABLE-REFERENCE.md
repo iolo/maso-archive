@@ -5,6 +5,9 @@ portable private reference for human reading and comparison with paper scans/OCR
 It needs no server, framework, database or internet connection. Copy the whole
 folder to move it; all links are relative. It currently occupies about 1.07 GB.
 
+CD1 is also included in the completed [combined CD1/CD2/CD3 reading room](READING-ROOM.md).
+This guide describes the independently preserved CD1 reference and its counts.
+
 ## What is available
 
 | Content | Count |

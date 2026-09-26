@@ -54,7 +54,7 @@ def copy(root, dest, relative):
 
 def text_for(blocks):
     return ''.join(
-        ''.join(r['text'] if r['type'] == 'text' else f"[image:{r['resource']}]" for r in p['runs'])
+        ''.join(r['text'] if r['type'] == 'text' else r.get('textMarker', f"[image:{r['resource']}]") for r in p['runs'])
         + ('\n' if p.get('terminated', True) else '')
         for b in blocks for p in b['paragraphs']
     )
@@ -269,12 +269,21 @@ def main():
     parser.add_argument('--output', type=Path, default=OUTPUT)
     parser.add_argument('--issue', help='Single YYYY-MM issue for a first slice')
     parser.add_argument('--demo', action='store_true', help='Generate synthetic demo without private sources')
+    parser.add_argument('--all-discs', action='store_true', help='Aggregate completed CD1, CD2 and CD3 references')
+    parser.add_argument('--cd2-reference', type=Path, default=ROOT / 'build/cd2-reference')
+    parser.add_argument('--cd3-reference', type=Path, default=ROOT / 'build/cd3-reference')
     args = parser.parse_args()
+    if args.all_discs and (args.issue or args.demo):
+        parser.error('--all-discs cannot be combined with --issue or --demo')
     if args.demo:
         target = ROOT / 'build/reading-room-demo/data' if args.output == OUTPUT else args.output
         print(json.dumps(demo(target), ensure_ascii=False))
         return
-    result = export(args.reference, args.toc, args.output, args.issue)
+    if args.all_discs:
+        from .aggregate import aggregate
+        result = aggregate(args.reference, args.toc, args.cd2_reference, args.cd3_reference, args.output)
+    else:
+        result = export(args.reference, args.toc, args.output, args.issue)
     print(json.dumps(result['counts'], ensure_ascii=False))
 
 

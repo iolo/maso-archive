@@ -2,164 +2,124 @@
 
 월간 마이크로소프트웨어의 비공식 디지털 아카이브.
 
-Archive target: **November 1983–December 1995 (146 monthly issues)**. The reviewed
-TOC import covers 122 issues through December 1993, with 5,497 entries.
-Official CD holdings support
-further extraction; per-disc coverage and completeness remain to be verified.
+**CD1, CD2, CD3 restoration and the combined reading room are implemented.**
+The private reader provides issue/date-group browsing, library TOCs, Korean
+article text, code downloads, figures, original attachments and metadata search.
+Paper magazines remain authoritative; CD transcription has not been verified
+against print.
 
-**The browser reading room is available at `build/reading-room/index.html` when
-served from a static host.** Run `make export-reading-room` and
-`make build-reading-room` to prepare it locally; see the
-[reading-room guide](docs/READING-ROOM.md) for setup, the private data requirement
-and the synthetic demo. It covers issue browsing, TOCs, articles, media,
-downloads, metadata search and mobile reading. Static hosting is required for
-the SPA's JSON requests.
+## Read the archive
 
-**The CD1 reading/OCR reference is available locally at
-`build/cd1-reference/index.html`.** Open it directly in a browser; no server is
-needed. It includes **1,080 article text exports** across 72 CD1 issues:
-**1,047 without marked decoding gaps and 33 with localized gaps**. Eight candidates
-retain unresolved article boundaries. The index also includes the 50 earlier
-TOC-only issues.
+With the prepared private data, start the existing build:
 
-There are **3,125 listing/preformatted-text downloads**, paragraph/image positions
-for OCR comparison, and **4,979 viewable images**. Another 1,111 referenced images
-have explicit deferred status and original-file links. CD article navigation works
-independently of inconsistent library TOC titles. Paper magazines remain authoritative;
-CD text is a secondary reference and has not yet been verified against paper.
+```sh
+cd web
+npm run preview
+```
 
-See [the readable reference guide](docs/CD1-READABLE-REFERENCE.md) for paths,
-remaining gaps and validation. Run `make export-cd1-reference` to reproduce the
-private export and `make check-cd1-reference` to check its text, listings and links.
-The [historical 19b handoff](docs/CD1-OEM-PASS.md) retains its 995 strictly prepared
-packages and earlier records; the readable reference adds useful text from the
-85 previously failed candidates without changing those historical outcomes.
+Open the local address printed by Vite. The static site is in
+`build/reading-room/`; it needs HTTP hosting for JSON requests, with no backend,
+database or runtime extraction. It is not a direct `file://` application.
 
-**The private CD2 reference is available at `build/cd2-reference/index.html`**
-after extraction. It accounts for 1,330 CD-native article candidates across 12
-provisional groups, with readable text, original code/attachments, image links,
-and explicit uncertainties. See the [CD2 reference guide](docs/CD2-READABLE-REFERENCE.md)
-for reproduction, coverage, and gaps. It does not extend the current SPA catalog.
+To regenerate it from the completed private references, use Python 3.11+ with
+`requirements.txt` installed and Node.js 20.19+ (20.x) or 22.12+:
 
-**The private CD3 reference is available at `build/cd3-reference/index.html`**
-after extraction. It accounts for 968 CD-native article candidates across 18
-provisional groups, with readable text and inline code, linked figures, original
-CAB attachments, and visible gaps. See the
-[CD3 reference guide](docs/CD3-READABLE-REFERENCE.md) for reproduction and
-coverage. Its date labels include 1994 and 1996 anomalies; it does not extend
-the current SPA catalog.
+```sh
+cd web && npm ci && cd ..
+make export-reading-room
+make check-reading-room
+make build-reading-room
+cd web && npm run preview
+```
 
-- [CD1 extraction and reading-room content plan](PLAN-CD1.md)
-- [CD2 extraction plan](PLAN-CD2.md)
-- [CD2 private readable reference](docs/CD2-READABLE-REFERENCE.md)
-- [CD3 extraction plan — implemented](PLAN-CD3.md)
-- [CD3 private readable reference](docs/CD3-READABLE-REFERENCE.md)
-- [Reading-room PRD](PRD-reading-room.md)
-- [Reading-room implementation plan](PLAN-reading-room.md)
-- [Reading-room build and use guide](docs/READING-ROOM.md)
-- [Detailed design reference](docs/DESIGN-REFERENCE.md)
-- [Progress](PROGRESS.md)
-- [Successor notes and remaining work](docs/SUCCESSOR-NOTES.md)
-- [Offline tasks for the owner](docs/OFFLINE-TASKS.md)
-- [TOC import and validation](docs/TOC-IMPORT.md)
-- [CD1 reference-index import](docs/CD1-INDEX.md)
-- [First CD1-to-TOC metadata match](docs/CD1-MATCH-8802065.md)
-- [Pilot raw topic map](docs/CD1-TOPIC-8802065.md)
-- [Pilot paragraph decoding](docs/CD1-PARAGRAPH-8802065.md)
-- [Pilot RTF feature inventory](docs/CD1-RTF-INVENTORY-8802065.md)
-- [Pilot full-text recovery](docs/CD1-TEXT-8802065.md)
-- [Pilot structural review and Markdown plan](docs/CD1-BLOCK-STRUCTURE-8802065.md)
-- [Pilot semantic block map](docs/CD1-BLOCK-MAP-8802065.md)
-- [Pilot private Markdown preview](docs/CD1-MARKDOWN-8802065.md)
-- [Pilot image map and conversion findings](docs/CD1-IMAGES-8802065.md)
-- [Reading-room content contract v1](docs/READING-ROOM-CONTENT-V1.md)
-- [Pilot reading-room package](docs/CD1-PACKAGE-8802065.md)
-- [Second article and two-article schema check](docs/CD1-SECOND-ARTICLE-8802114.md)
-- [Gary Kildall interview and three-article package](docs/CD1-INTERVIEW-8802030.md)
-- [Turbo C editor and four-article package](docs/CD1-EDITOR-8802184.md)
-- [Turbo Pascal graphics and five-article package](docs/CD1-GRAPHICS-8802180.md)
-- [Unindexed KEYBOARD LOCK article and six-article package](docs/CD1-KEYBOARD-8802162.md)
-- [February 1988 issue handoff and current coverage](docs/CD1-ISSUE-1988-02.md)
-- [CD1 source inventory and backup readiness](docs/CD1-PRESERVATION.md)
-- [February 1988 coverage audit](docs/CD1-COVERAGE-1988-02.md)
-- [CD1 processing inventory and batch input contract](docs/CD1-PROCESSING-INVENTORY.md)
-- [CD1 extraction findings](docs/CD1-EXTRACTION.md)
+The export requires `build/cd1-reference/`, `build/cd2-reference/`,
+`build/cd3-reference/`, the pinned `build/toc/` snapshot and CD1 reviewed issue
+packages. It verifies the inputs and stages a checked replacement before
+updating the reader. A Git checkout alone does not contain publisher sources or
+finished private outputs. See the [reading-room guide](docs/READING-ROOM.md) for
+input details, synthetic demo, development, routes and nested hosting.
 
-Run `make import-toc` to build the local TOC catalog and `make check` to validate
-the importer. Requires Python 3.11+ and the dependencies in `requirements.txt`.
-Generated output is in `build/toc/`; persistent identities are versioned in
-`data/identities/toc.json`. Imported metadata is unreviewed and not a public-site
-release. Original media, Windows files, and extracted article content stay local.
+Without private inputs:
 
-Run `make import-cd1-index` to structure the three extracted CD1 indexes into
-`build/cd1-index/`. This uses the private extraction files and manifest; article
-bodies are not read or published.
+```sh
+cd web && npm ci && cd ..
+make demo-reading-room
+cd web && READING_ROOM_OUTPUT=build/reading-room-demo npm run preview
+```
 
-Run `make reading-room-example` to validate and rebuild the private CD1 pilot
-against the v1 content contract, using the existing recovery/block/image maps.
-First run `make restore-toc-snapshot` to restore its historical TOC inputs from
-Git history; current TOC imports remain separate from prepared-article provenance.
-The tracked [synthetic example](examples/reading-room-v1.json) demonstrates the
-format without publisher article text.
+## Delivered coverage
 
-Run `make reading-room-package` to assemble the private pilot under
-`build/reading-room-packages/cd1-8802065/`. Its `content/` directory contains the
-complete static handoff; adjacent provenance stays separate. See the package
-documentation for standalone verification and configurable base-URL use.
+| Source | Navigation groups | Candidates | Readable texts | UTF-8 listings |
+| --- | ---: | ---: | ---: | ---: |
+| CD1 | 122 library issues, 72 with CD1 bodies | 1,088 | 1,080 | 3,125 |
+| CD2 | 12 native date groups | 1,330 | 1,330 | 87 |
+| CD3 | 18 native groups | 968 | 968 | Inline code stays in article text |
+| Combined | 152 | 3,386 | 3,378 | 3,212 |
 
-Run `make check-second-article` to reproduce the second article and the combined
-two-article package under `build/cd1-second-article/8802114/`. Both validate against
-the unchanged v1 contract; the command uses private CD1 sources and ImageMagick.
+The archive target is November 1983–December 1995 (146 monthly issues).
+The supplied library TOCs cover 122 issues through December 1993, with 5,497
+entries. The 152 navigation groups are **not 152 distinct verified printed
+issues**: CD2/CD3 keep their own identities, overlapping dates and CD3's
+anomalous 1994/1996 labels and undated group. No later TOC associations were
+invented. The combined media index has 9,990 group/resource records, including
+unavailable states; CD2/CD3 supply 1,837 original attachment links.
 
-Run `make inventory-cd1-sources` to check the original CD1 ISO, all extracted disc
-files, and preserved probe outputs. Requires `7z`. The local inventory is complete;
-independent backup/restore verification remains pending as a separate preservation
-task and does not block extraction from the verified sources.
+All three standalone references remain available:
 
-Run `make prepare-cd1-transfer` to stage a private archive of CD1 sources,
-prepared artifacts, and committed Git history with per-file checksums. See the
-[transfer instructions](docs/CD1-PRESERVATION.md#prepared-local-transfer-set).
-Copying it to independent storage and verifying restoration remain separate steps.
+| Reference | Private entry point | Reproduction and coverage |
+| --- | --- | --- |
+| CD1 | `build/cd1-reference/index.html` | [CD1 guide](docs/CD1-READABLE-REFERENCE.md) |
+| CD2 | `build/cd2-reference/index.html` | [CD2 guide](docs/CD2-READABLE-REFERENCE.md) |
+| CD3 | `build/cd3-reference/index.html` | [CD3 guide](docs/CD3-READABLE-REFERENCE.md) |
 
-Run `make audit-cd1-issue` for the read-only February 1988 TOC/CD coverage audit,
-or `PYTHONPATH=src python3 -m tools.audit_cd1_issue --check` to verify its tracked
-report without writing. It accounts for metadata and existing prepared packages.
+The reading room includes all three discs. Its CD2/CD3 source links also expose
+supplemental texts, biographies and unassigned-media shelves, outside the article
+counts. CD1's historical strict packages and earlier retry results remain intact.
 
-Run `make prepare-cd1-interview` to reproduce `8802030` and the combined
-three-article package under `build/cd1-articles/8802030/`. The interview preserves
-bold prompts and multi-paragraph answers under the unchanged v1 schema.
+## Known limits
 
-Run `make prepare-cd1-editor` to reproduce `8802184` and the combined four-article
-package under `build/cd1-articles/8802184/`. Code tabs, blank lines, caption links,
-and three diagram bitmaps are preserved; the v1 schema remains unchanged.
+- CD1 retains eight unresolved article boundaries, 33 texts with localized gaps,
+  and 1,111 deferred distinct images with original links.
+- CD2 has 220 success and 1,110 partial outcomes; CD3 has 792 success and 176
+  partial outcomes. Partial can mean a text, media, attachment or metadata
+  exception; readable bodies are retained.
+- **HELPDECO misreads CD3's font character-set byte as double underline.** The
+  current display workaround removes CD3 underlining in the reader and standalone
+  pages. The decoder is unpatched; generated RTF/source flags retain the defect,
+  and genuine underline is also suppressed. See the
+  [bug record and deferred correction](docs/CD3-HELPDECO-UNDERLINE-BUG.md).
+- Cover scans, print verification, corrected transcriptions, further TOC matching,
+  independent backup/restore verification and publication remain future work.
+  Search covers metadata, not full article text.
 
-Run `make prepare-cd1-graphics` to reproduce `8802180` and the combined five-article
-package under `build/cd1-articles/8802180/`. It preserves Korean Pascal strings
-and mixed text/image figures, with explicit deferred-media and text-review records.
+The completed implementation is a private reading/restoration reference. Original
+ISOs, decoder probes, recovered bodies/assets, generated sites and browser
+artifacts are excluded from Git. No public deployment was performed.
 
-Run `make prepare-cd1-issue` to reproduce the historical five-article indexed
-checkpoint under `build/cd1-issues/1988-02/`.
+## Validation and handoff
 
-Run `make prepare-cd1-keyboard` and `make close-cd1-february` for the current
-February handoff at `build/cd1-issues/1988-02-native/`. Its 56 runtime files contain
-all six articles identified by native February metadata, including the unindexed
-“KEYBOARD LOCK.” Coverage accounts for four sections and 29 unmatched article
-candidates; physical-magazine completeness remains unverified.
-See the [base URL and search handoff](docs/CD1-ISSUE-1988-02.md#static-base-url-and-metadata-search).
+```sh
+make test-reading-room    # Python adapter tests, Vitest, TypeScript and build
+make check-reading-room   # Prepared private data: inventory, hashes and links
+```
 
-Run `make inventory-cd1-processing` to reproduce the CD1 batch input inventory.
-Its frozen input snapshot contains 1,088 dated article candidates across 72 months:
-six prepared at inventory time, 1,074 ready, and eight blocked on topic ownership.
-Current outcomes are recorded in the full-pass report. The
-[shared extraction runner](docs/CD1-BATCH-RUNNER.md) reproduces all six February
-articles through independent resumable stages. Run `make batch-cd1 BATCH_ARGS="--issue 1988-02"`
-or select one article with `BATCH_ARGS="--article 8802030"`. Output is private under
-`build/cd1-batch/`; article and issue pointer files locate validated packages.
-The [frozen sample validation](docs/CD1-BATCH-VALIDATION.md) passes for all fifteen
-articles, including fresh rebuild, resume and nested static URLs. Run
-`make validate-cd1-batch` to reproduce that checkpoint.
+Per-disc checks are `make check-cd1-reference`, `make check-cd2-reference` and
+`make check-cd3-reference`; prerequisites and rebuild commands are in their guides.
+`make check` runs the broader historical Python suite when relevant to a change.
+Focused tests and real-browser checks cover article/media navigation, search,
+downloads, missing states and mobile reading. Checks establish extraction
+consistency and usability, not agreement with print.
 
-Run `make run-cd1-full-pass` to execute or verify/resume the recorded complete pass,
-and `make report-cd1-full-pass` to reproduce its coverage audit. The
-[full-pass guide](docs/CD1-FULL-PASS.md) explains package locations, outcome states,
-retained diagnostics, and subsequent retries.
+- [Current successor handoff and deferred work](docs/SUCCESSOR-NOTES.md)
+- Completed plans: [CD1](PLAN-CD1.md), [CD2](PLAN-CD2.md), [CD3](PLAN-CD3.md),
+  [reading room](PLAN-reading-room.md)
+- [Chronological implementation and validation record](PROGRESS.md)
+- Source maps: [initial inspection](docs/SOURCE-INVENTORY.md),
+  [CD1 extraction](docs/CD1-EXTRACTION.md), [CD2](docs/CD2-SOURCE-MAP.md),
+  [CD3](docs/CD3-SOURCE-MAP.md)
+- [Optional physical-magazine and backup tasks](docs/OFFLINE-TASKS.md)
+- Historical foundations: [TOC import](docs/TOC-IMPORT.md),
+  [strict v1 package contract](docs/READING-ROOM-CONTENT-V1.md),
+  [CD1 19b checkpoint](docs/CD1-OEM-PASS.md),
+  [original reading-room PRD](PRD-reading-room.md),
+  [design reference](docs/DESIGN-REFERENCE.md)

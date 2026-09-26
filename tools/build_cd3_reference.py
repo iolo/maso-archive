@@ -13,6 +13,7 @@ import tempfile
 from tools.build_cd2_pilot import CSS, marked_html, put
 from tools.build_cd2_reference import convert_media, file_manifest, verify_package
 from tools.cd3_text import parse_cd3
+from tools.cd3_display import reading_run
 from tools.inventory_cd3_sources import PROBE, RECORD, ROOT, TREE
 from tools.map_cd1_topic import require
 from tools.map_cd3_candidates import SUMMARY as QUEUE_RECORD, checked, digest
@@ -150,7 +151,7 @@ def build_group(group, queue, probe_files, disc_files, rtf, queue_hash,
                                 content.append(f'<a href="../../media/{media["name"]}">[image:{html.escape(shown["name"])} · preview unavailable]</a>')
                         else:
                             plain.append(run["text"])
-                            content.append(marked_html(run))
+                            content.append(marked_html(reading_run(run)))
                     if paragraph["terminated"]:
                         plain.append("\n")
                     rendered.append("<p>" + "".join(content) + "</p>")
@@ -270,7 +271,7 @@ def finalize(queue, probe_files, rtf, queue_hash):
                             content.append(f'<span class="gap">[image:{html.escape(item["name"])} · source unavailable]</span>')
                     else:
                         text_parts.append(run["text"])
-                        content.append(marked_html(run))
+                        content.append(marked_html(reading_run(run)))
                 if paragraph["terminated"]:
                     text_parts.append("\n")
                 rendered.append("<p>" + "".join(content) + "</p>")

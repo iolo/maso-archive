@@ -21,6 +21,12 @@ yields one small RTF and a 161-byte `LIST1.TXT` baggage file. LIST.M14 is not
 the article index. The owner's setup observation is that it installs no
 software and only creates a shortcut to the viewer on the CD.
 
+Known decoder limitation: [HELPDECO's font reader interprets CD3's Hangul
+character-set byte as double underline](CD3-HELPDECO-UNDERLINE-BUG.md).
+The pinned probe therefore contains bogus `\uldb` formatting. The reading display
+suppresses CD3 underlining; the decoder and checksummed probe remain unchanged.
+Use the bug record for byte-level evidence and the deferred correction path.
+
 Run `make map-cd3-candidates` to reproduce
 `build/cd3-preservation/candidates.json` from the checksummed source inventory.
 The main RTF has 2,336 page-delimited topics. Native title footnotes identify

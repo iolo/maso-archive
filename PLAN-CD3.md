@@ -1,5 +1,11 @@
 # CD3 extraction and private reference plan
 
+Aggregation follow-up (2026-09-26): the owner subsequently requested combining
+all completed disc plans in the reading room. CD3 is now included through the
+[version 2 adapter](docs/READING-ROOM.md), including linked figures, attachments,
+supplemental reference links and native date exceptions. The extraction
+milestone and historical scope below remain unchanged.
+
 Revised 2026-09-26. Status: **implemented**. The private complete pass and its
 coverage report are described in [the CD3 reference guide](docs/CD3-READABLE-REFERENCE.md).
 This is the source-specific work sequence used for the owner's official
@@ -24,12 +30,13 @@ Do not manufacture 1995 TOC entries, authors, pages, covers, or CD-to-TOC matche
 from filenames, titles, or timestamps. CD-native navigation can stand on its own
 until independent issue metadata is available.
 
-The [reading-room PRD](PRD-reading-room.md) and implemented SPA cover
-**1983-11–1993-12**. This plan prepares CD3 data offline. Adding 1995 to the SPA
-requires a separate product-scope decision and a versioned static adapter/input
-update; SPA integration is not an extraction acceptance gate. Keep the ISO,
-recovered bodies, media, and generated reference private. Publication and access
-policy remain separate decisions.
+The original [reading-room PRD](PRD-reading-room.md) targeted **1983-11–1993-12**.
+After this offline reference was completed, the owner requested all-disc
+aggregation. The implemented version 2 adapter now exposes CD3's native groups,
+including date anomalies and undated candidates, without inventing later TOCs.
+SPA integration was not an extraction acceptance gate. Keep the ISO, recovered
+bodies, media and generated reference private; publication and access policy
+remain separate decisions.
 
 ## Starting evidence and lessons from CD1 and CD2
 
@@ -154,9 +161,11 @@ remain.
 ## Handoff and task records
 
 Keep CD3-native identities and provenance distinct from CD1/CD2, even where
-titles or assets resemble earlier records. If later requested, expose CD3 through
-a versioned static reading-room adapter with supported 1995 issue metadata and
-compatibility checks. Do not alter the completed CD1/CD2 references or historical
+titles or assets resemble earlier records. The completed version 2 reading-room
+adapter now exposes the checked reference with native date labels and explicit
+exceptions. The [HELPDECO underline bug](docs/CD3-HELPDECO-UNDERLINE-BUG.md) is
+recorded with a display workaround; decoder correction is deferred.
+Do not alter the completed CD1/CD2 references or historical
 strict packages to accommodate CD3. Paper/OCR comparison, verified corrections,
 and any public release are separate follow-up work.
 

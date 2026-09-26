@@ -161,7 +161,7 @@ check-cd1-reference:
 
 .PHONY: export-reading-room demo-reading-room build-reading-room check-reading-room test-reading-room
 export-reading-room:
-	PYTHONPATH=src $(PYTHON) -m tools.reading_room.export
+	PYTHONPATH=src $(PYTHON) -m tools.reading_room.export --all-discs $(READING_ROOM_ARGS)
 
 demo-reading-room:
 	PYTHONPATH=src $(PYTHON) -m tools.reading_room.export --demo

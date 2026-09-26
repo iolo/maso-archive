@@ -26,8 +26,8 @@ counts, not article text.
 The reference is about 856 MiB on disk. It can be served by any local static
 server; the pages use relative links and need no runtime extraction, database,
 or application server. For local browsing, run
-`python3 -m http.server 4178 --directory build/cd2-reference`. The completed CD1 reference and
-the 1983-11–1993-12 SPA remain separate.
+`python3 -m http.server 4178 --directory build/cd2-reference`. The completed source references remain separate; the
+[reading room](READING-ROOM.md) now aggregates all three discs for browsing and search.
 
 ## Coverage
 
@@ -90,6 +90,6 @@ The CD is a secondary transcription. Paper text, issue identities, page labels,
 article boundaries, and fallback-rendered WMF/DIB appearance have not been
 checked against physical magazines or scans. Dynamic `vfld` fields interrupt
 some labels and bylines. These remain visible as uncertainty markers. The
-current reading-room SPA ends at 1993-12; this CD2 reference does not change its
-catalog. Paper/OCR comparison, verified corrections, and publication policy are
+reading room now includes CD2 through its version 2 adapter, retaining native
+groups separately from the library TOCs that end at 1993-12. Paper/OCR comparison, verified corrections, and publication policy are
 separate follow-up work.
