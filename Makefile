@@ -35,6 +35,23 @@ check-pdf-comparison:
 export-pdf-reader:
 	PYTHONPATH=src $(PYTHON) -m tools.reading_room.scan $(PDF_READER_ARGS)
 
+PDF_BATCH_STATE ?= private/pdf-restoration/10-batch/state
+PDF_BATCH_REQUEST ?= private/pdf-restoration/10-batch/request.json
+PDF_BATCH_OUTPUT ?= build/pdf-restoration/10-batch
+.PHONY: prepare-pdf-batch resume-pdf-batch export-pdf-batch check-pdf-batch
+prepare-pdf-batch:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.batch prepare --request $(PDF_BATCH_REQUEST) --state $(PDF_BATCH_STATE) $(PDF_BATCH_ARGS)
+
+resume-pdf-batch:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.batch resume --state $(PDF_BATCH_STATE) $(PDF_BATCH_ARGS)
+
+export-pdf-batch:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.batch export --state $(PDF_BATCH_STATE) --output $(PDF_BATCH_OUTPUT)
+
+check-pdf-batch:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.batch check --state $(PDF_BATCH_STATE)
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.batch check --output $(PDF_BATCH_OUTPUT)
+
 .PHONY: import-toc import-cd1-index reading-room-example reading-room-package check-second-article prepare-cd1-interview prepare-cd1-editor prepare-cd1-graphics prepare-cd1-keyboard close-cd1-february prepare-cd1-issue inventory-cd1-sources inventory-cd1-processing batch-cd1 validate-cd1-batch run-cd1-full-pass report-cd1-full-pass review-cd1-associations retry-cd1-association-sample review-cd1-fonts retry-cd1-font-sample run-cd1-font-pass report-cd1-font-pass run-cd1-association-pass report-cd1-association-pass audit-cd1-issue restore-toc-snapshot prepare-cd1-transfer test check
 
 import-toc:

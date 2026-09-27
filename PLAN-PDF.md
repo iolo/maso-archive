@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-28. Status: **in progress; steps 1–9 complete; next: 10 bounded batch and resume checks**.
+Revised 2026-09-28. Status: **in progress; steps 1–10 complete; next: 11-batch-01, the first named November batch**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -89,9 +89,14 @@ replacement sample before passing the bulk gate. Subsequent issue reports must
 separate usable results from exceptions rather than equating accounting with
 successful restoration.
 
-Use initial batch ceilings of **3 articles and 12 distinct source pages per
-batch**, whichever is reached first. Step 10 may lower these based on measured
-mapping, OCR, and review effort; record the selected ceilings before bulk work.
+The initial qualification ceilings were **3 articles and 12 distinct source
+pages per batch**. Step 10 passed the bulk-readiness gate and selected lower
+operating ceilings of **2 articles and 6 distinct source pages per batch**,
+whichever is reached first, to keep manual mapping and review bounded. Apply
+these ceilings to all subsequent named batches. Historical manual review times
+were not recorded; step 10 measures replay time and preserves workload counts
+without inventing a restoration throughput estimate. Time new mapping and
+review work prospectively.
 For a longer article, use numbered page/region segments within the page ceiling,
 then close out the assembled article separately. Never mark a segment as a
 complete article. Each batch names its TOC IDs, source pages or mapping targets,

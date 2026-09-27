@@ -474,3 +474,133 @@ fixtures, request isolation and CD regression routes pass. All 47 focused tests,
 the production build and data integrity check pass. Browser review and closeout
 are saved under `private/pdf-restoration/9-reader-ui/`; screenshots are under
 `output/playwright/pdf-9/`. Step 10's batch/resume gate remains before bulk work.
+
+## Step 10: bounded batch, resume and review preservation
+
+`tools.pdf_restore.batch` runs regional OCR from mapped, existing TOC identities.
+It does not locate articles, classify headings, transcribe corrections or assign
+review status. Each named batch has a private request, an immutable `plan.json`,
+an atomically saved `ledger.json`, and an independent content-addressed cache.
+The qualification batch replays only the pilot, January 1988 and August 1991
+samples: three articles, seven source pages, 35 regions (33 OCR jobs and two
+figures). It does not expand the restoration queue.
+
+Prepare a request before execution. Paths in its pins are repository-relative;
+use `tools.pdf_restore.inventory.pin(ROOT, path)` to obtain hashes and sizes.
+For example, a new mapped article's request has this structure:
+
+```json
+{
+  "batch_id": "11-batch-01",
+  "limits": {"articles": 2, "source_pages": 6, "lookup_pages": 20},
+  "lookup_pages": [],
+  "articles": [{
+    "map": {"path": "private/pdf-restoration/11-batch-01/map.json",
+            "sha256": "REPLACE_WITH_ACTUAL_SHA256", "bytes": 1234}
+  }]
+}
+```
+
+Use an optional `recipe` pin alongside `map` only for an already reviewed
+package. Record inspected lookup pages as objects with `source_id` and one-based
+`pdf_page`. Declare mapping targets and lookup limits in the checkpoint plan
+before mapping. Record new mapping/review time and region counts as work happens;
+historical sample mapping/review durations were not timed and must not be
+inferred from OCR time. Keep unresolved mapping as an explicit separate outcome.
+Two articles and six distinct source pages are the selected operating ceilings
+for subsequent batches, with twenty lookup pages and one targeted retry per
+failed region. The runner's absolute qualification limits remain three articles
+and twelve pages; new requests should use the lower operating ceilings. Segment
+long articles before OCR and close out the complete article separately.
+
+Exact commands for the saved qualification batch are:
+
+```sh
+# Preparation refuses an existing state directory. Do this only once.
+make prepare-pdf-batch
+# Resume pending/interrupted tasks; verified successes are reused.
+make resume-pdf-batch
+# An optional deliberate checkpoint after four attempted regions:
+make resume-pdf-batch PDF_BATCH_ARGS="--max-tasks 4"
+# Publish evidence plus unchanged reviewed packages, into a fresh directory.
+make export-pdf-batch
+make check-pdf-batch
+```
+
+Defaults are `private/pdf-restoration/10-batch/request.json`, its sibling
+`state/`, and `build/pdf-restoration/10-batch/`. Override `PDF_BATCH_REQUEST`,
+`PDF_BATCH_STATE`, and `PDF_BATCH_OUTPUT` for a named batch or repeat export.
+The cache defaults to `private/pdf-restoration/batch-cache`; set
+`PDF_BATCH_ARGS="--cache <private-path>"` during preparation to choose another.
+Resume/check exit with code 2 while any task is incomplete, including a deliberate
+`--max-tasks` stop. Export can preserve partial outcomes but does not turn them
+into readable articles. `make check-pdf-batch` requires completed OCR and a valid
+export; inspect a partial export independently with:
+
+```sh
+PYTHONPATH=src python3 -m tools.pdf_restore.batch check \
+  --output build/pdf-restoration/10-batch
+```
+
+A failed task is skipped on ordinary resumes while other regions continue.
+After inspecting its saved `state/failures/<key>-<attempt>/` diagnostics, request
+its sole targeted retry explicitly:
+
+```sh
+make resume-pdf-batch \
+  PDF_BATCH_ARGS="--retry scan-EXISTING-TOC-ID/REGION-ID --reason 'record the bounded repair'"
+```
+
+A second failure remains deferred; further recovery requires a separately named
+repair checkpoint. SIGINT/SIGTERM preserve an interrupted row. A killed process
+may leave a `running` row and a dot-prefixed temporary directory; resume uses
+only validated, atomically published cache directories. It recovers the row,
+ignores incomplete temporary files and preserves successful regions. File locks
+prevent concurrent runners from racing the same state or shared cache. Temporary
+directories left by a hard kill can be inspected and cleaned up separately.
+
+Each cache key includes the PDF hash, page geometry/rotation, that region's
+coordinates and kind, page exclusions, pinned engine/model bytes and version,
+renderer version/binary hash, Pillow version, processing implementation hashes,
+and effective language/PSM/render configuration. Page exclusions invalidate all
+regions on that page conservatively; an isolated region crop/configuration
+change invalidates only that region. Notes and corrected reading text are not
+OCR dependencies. A changed input or toolchain cannot silently alter an existing
+plan: prepare a new request/state and reuse the same cache. Global configuration
+uses `config`; per-article `region_config` maps region IDs to overrides, e.g.
+`{"r01": {"psm": 7}}`. Only supported languages, PSM 3–13 and render scales
+1000–6000 are accepted. Every cache hit rechecks hashes and complete inventories.
+
+Exports contain a map and build-compatible `ocr-pageN/evidence.json` bundles for
+each article, plus an outcome ledger and complete file manifest. Only eligible
+region crops enter exports. TSV coordinates are relative to the crop; settings
+record its page origin. Full-page scratch renders stay private. For new work,
+review these bundles against scans, create a separate correction record and
+package recipe as in step 5, then use `make build-pdf-article` and
+`make check-pdf-article`. Never adopt new OCR as corrected text automatically.
+
+When an existing recipe is supplied, batch export compares every crop, raw TXT
+and TSV byte with the evidence used by that recipe. Only an exact match permits
+a `reviewed/` rebuild from the original immutable recipe; its original OCR,
+corrections, provenance and review limits remain intact. Otherwise the fresh
+evidence is exported with `review_required: true` and no reviewed package.
+Mapping changes require omitting the old recipe until the changed map is
+reviewed. The original correction files remain available for post-production.
+
+Qualification results, timings, synthetic failure ledgers, interruption and
+invalidation evidence, and the bulk-readiness decision are saved under
+`private/pdf-restoration/10-batch/`. Source-derived inputs and outputs stay
+ignored. `make test-pdf` exercises batch behavior without real scans or an OCR
+installation, including a killed child process and persistent failure/retry
+limits. Review effort, rather than engine speed, determines batch sizing; an
+OCR-complete outcome is never counted as restored or verified on that basis.
+
+Step 10 is complete. All 35 real regions match the existing reviewed evidence;
+the three reviewed packages and repeated batch exports are byte-identical.
+The main export contains 345 files / 55,221,603 bytes. Successful regional work
+totals 85.6 seconds, with 29.8 seconds in OCR; a complete-cache resume takes
+about 0.6 seconds without new engine calls. These are replay measurements,
+not new-article restoration estimates. All 37 focused PDF tests pass. The
+full-repository check was stopped during an unrelated CD artifact audit and
+is not claimed as passed. The saved bulk-readiness record admits the next
+named November batch within the selected two-article/six-page ceilings.

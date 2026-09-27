@@ -554,3 +554,86 @@ history remains in [PROGRESS.md](PROGRESS.md).
   its original code uncertainties. Bulk gate remains unpassed. Stall count 0.
   Next: step 10, a bounded batch of already prepared samples with synthetic
   failure and resume checks, within the three-article/twelve-page ceiling.
+
+### 2026-09-28 — Step 10 started: bounded batch and resume
+
+- Step 9 is committed as `99e342e`. Fixed this checkpoint to the prepared pilot,
+  January 1988 and August 1991 samples: three existing TOC identities, seven
+  source pages, no new location research. Saved the pinned request and scope
+  in `private/pdf-restoration/10-batch/` before execution.
+- Implementing region-level cache keys, durable outcomes and bounded retries.
+  Existing reviewed corrections and raw OCR remain immutable; changed evidence
+  must not inherit review automatically. Synthetic failures will exercise
+  interruption, isolation and invalidation without expanding the queue.
+- The real replay completed all 35 regions (33 OCR jobs and two figures) with
+  no failures. Every crop, raw TXT and TSV matches the previous reviewed
+  evidence. A SIGINT during a changed-region run left an interrupted ledger;
+  resuming completed that region and reused the other 34 results. Separate
+  crop and PSM changes each invalidate only one key and require review for
+  the pilot, preserving the original corrections and all original cache entries.
+- Synthetic checks pass for a killed process, failure isolation, one successful
+  retry, a persistent failure stopped at the retry ceiling, corrupt cache/input
+  rejection and preserved partial exports. Final repeat-export, effort and
+  bulk-readiness records are in progress; no new article has been mapped.
+
+### 2026-09-28 — Step 10 complete: bounded batch and resume gate
+
+- Added `tools/pdf_restore/batch.py` and prepare/resume/export/check Makefile
+  targets. Requests pin existing TOC maps, source/queue inputs and optional
+  reviewed recipes. Preparation enforces article, distinct-page and lookup
+  ceilings, source eligibility and geometry, and refuses existing state paths.
+- Cache keys include source hash, region coordinates/kind, page geometry and
+  exclusions, pinned engine/model bytes, renderer, Pillow, implementation and
+  processing configuration. Completed entries have checked file inventories;
+  changed inputs/tools cannot silently alter a prepared plan. Locks serialize
+  runners, atomic ledgers preserve every outcome, and atomic cache publication
+  prevents incomplete work from becoming a successful cache hit.
+- Replayed only `maso-1983-11-toc-0012`, `maso-1988-01-toc-0018` and
+  `maso-1991-08-toc-0004`: seven existing mapped pages, 35 regions, 33 OCR jobs
+  and two figure crops. All complete without failures. Original crops, raw TXT
+  and TSV match exactly. All three `reviewed/` rebuilds are byte-identical to
+  the original packages; corrections and original review limits are unchanged.
+- Delivered `build/pdf-restoration/10-batch/`: 345 files, 55,221,603 bytes,
+  including build-compatible regional OCR bundles, unchanged reviewed packages,
+  separate outcomes and a complete manifest. The repeat export is byte-identical.
+  A no-op resume takes about 0.6 seconds, makes no engine calls and leaves its
+  ledger unchanged. No full-page scratch render enters the export.
+- A real SIGINT during diagnostic PSM processing records an interrupted task;
+  resume finishes it and reuses the other 34 regions. Separate PSM and crop
+  variants each change one cache key, preserving all 35 original cache entries
+  including manifest timestamps. Both changed pilot outputs require review and
+  omit a reviewed pilot export; their unchanged companion articles retain theirs.
+  These are private diagnostic variants, not replacements or new restorations.
+- Saved a durable synthetic failure/interruption ledger and partial export.
+  The failed region does not prevent two other regions completing; its one
+  targeted retry fails and a further retry is rejected. Partial raw output and
+  diagnostics remain saved. Ordinary resumes never retry failures automatically.
+- All 37 focused PDF tests pass, including nine new batch tests. Coverage
+  includes actual child-process SIGKILL, interrupted and post-publication crash
+  recovery, successful and exhausted retries, isolated map/config invalidation,
+  source/model changes, bounds, locks, corrupt pins/cache, exact review reuse,
+  changed-evidence review requirements, exclusions and partial exports.
+  The broader `make check` was stopped during its first long-running, unrelated
+  CD association artifact audit; no full-suite pass is claimed.
+- Measured successful regional work totals 85.6 seconds, including 51.9 seconds
+  rendering/cropping and 29.8 seconds in OCR; cache payload is 18,442,581 bytes.
+  Mapping/review workload records retain 35 mapped/reviewed regions, 45 reading
+  blocks, 111 code lines and fourteen historical lookup pages. This checkpoint
+  adds no mapping or proofreading. Historical manual durations are unavailable,
+  not zero; future batches must record them prospectively. The prior three-page
+  matchstick sample alone needed 31 regions, reinforcing the manual review cost.
+- Selected subsequent ceilings: **two articles / six distinct source pages**,
+  twenty lookup pages and one targeted retry per failed region. Longer articles
+  require segments and a separate article closeout. Documented exact commands,
+  request format, failure recovery, review handoff and cache behavior in
+  `docs/PDF-RESTORATION.md`.
+- Rechecked the useful pilot, all three contrasting sample gates, step 7's
+  limited CD correspondence, and steps 8–9's reader records and manifest pins.
+  Their source packages, corrections and original reader input pins remain
+  unchanged. Saved validation, effort, interruption, invalidation, synthetic
+  outcomes and bulk-readiness records under `private/pdf-restoration/10-batch/`.
+- Outcome: step 10 complete; **bulk gate passed for bounded named batches**.
+  Original sample uncertainties remain visible; no additional article or issue
+  coverage is claimed. Stall count 0. Next: `11-batch-01`, name the next November
+  TOC identities and mapping targets before execution, within two articles/six
+  pages. Reuse the pilot and matchstick sample in November issue accounting.
