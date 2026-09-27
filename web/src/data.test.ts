@@ -6,11 +6,11 @@ import { dataUrl, load, mediaUrl, normalize, search, type SearchItem } from './d
 
 describe('archive data lookup', () => {
   afterEach(() => vi.unstubAllGlobals())
-  it('loads both supported static versions and rejects unknown versions', async () => {
+  it('loads all three supported static versions and rejects unknown versions', async () => {
     vi.stubGlobal('document', { baseURI: 'http://localhost/archive/' })
-    for (const version of [1, 2, 3]) {
+    for (const version of [1, 2, 3, 4]) {
       vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({ schemaVersion: version }) }))
-      if (version < 3) expect(await load('catalog.json')).toEqual({ schemaVersion: version })
+      if (version <= 3) expect(await load('catalog.json')).toEqual({ schemaVersion: version })
       else await expect(load('catalog.json')).rejects.toThrow('Unsupported data version')
     }
   })

@@ -418,3 +418,63 @@ history remains in [PROGRESS.md](PROGRESS.md).
   `whole_cd_article_verified: false`. Bulk gate remains unpassed. Stall count
   0. Next: step 8, stage one pilot article through the reading-room version 3
   adapter while retaining version 1/2 support and existing CD records/URLs.
+
+### 2026-09-27 — Step 8 started: staged reader adapter
+
+- Committed the completed steps 1–7 as `d076c3e` after the owner requested
+  per-step commits. Future checkpoints include a progress entry and commit.
+- Fixed inputs before implementation: pilot `scan-maso-1983-11-toc-0012`
+  and the existing combined reader data. Saved input manifest pins and scope
+  under `private/pdf-restoration/8-reader-adapter/checkpoint-plan.json`.
+- Scope is one scan article in `build/reading-room-pdf-pilot/data`, with a
+  separate repeat export. Existing production data remains the baseline.
+  Implementing contract version 3 and adapter validation; scan-specific UI
+  presentation and browser acceptance remain step 9.
+- Implemented the v3 projection and source/region/download pins. The pilot's
+  projected text matches its existing UTF-8 download byte for byte; literal
+  code blocks retain their own whitespace, with separators kept outside them.
+  All 27 PDF tests, eight existing web-export tests and six frontend tests pass;
+  TypeScript checking passes. Full combined-data export and repeat verification
+  are in progress, preserving existing CD files and routes.
+
+### 2026-09-27 — Step 8 complete: version 3 pilot adapter
+
+- Added `tools/reading_room/scan.py` and `make export-pdf-reader`. It validates
+  the baseline and reviewed pilot, stages independent file copies, binds the
+  existing issue/TOC identities, checks the result and publishes only to a
+  fresh output directory. Production reader data and scan inputs remain intact.
+- Extended the static web contract and loader to version 3 while retaining
+  version 1/2 documents and existing route identities. New scan records carry
+  independent availability/review states, pinned source and region metadata,
+  exact content order, figures, downloads, correction/review evidence and gaps.
+  Documented path scopes in `docs/READING-ROOM-STATIC-V3.md`; original PDF paths
+  are provenance rather than nonexistent full-PDF downloads.
+- Copied the complete immutable pilot package under
+  `data/source/pdf/scan-maso-1983-11-toc-0012/`. Kept generated reader paragraph
+  positions outside that package so its original manifest remains valid.
+  All fourteen text/code blocks retain exact text, including both literal
+  listings; separate spacing blocks preserve the unchanged full-text download.
+  Nine scan regions, one figure and three downloads retain their hashes.
+- Delivered `build/reading-room-pdf-pilot/data`: 152 issue groups, 5,497 TOC
+  entries, 3,387 article records and 3,379 text downloads, including the one
+  added pilot. The export has 44,727 files totaling 3,453,577,239 bytes.
+  All 3,386 original CD summaries and identities are unchanged. All 40,980
+  original source files and all CD article documents remain byte-identical.
+- Only four baseline documents change: catalog, search, November 1983 issue
+  and its media index. The new manifest pins the baseline and scan manifests.
+  All 44,676 other baseline files retain their paths, hashes and sizes. Only
+  the pilot's TOC entry gains an article link; other TOC entries are unchanged.
+  No CD relationship is inferred for this pre-CD pilot.
+- Validation: 27 PDF tests, eight existing reader-export tests and six frontend
+  tests pass; TypeScript checking passes. Synthetic version 1/2 baselines
+  preserve CD bytes and yield deterministic version 3 exports. Rehashed edits
+  to scan content, geometry, review state, download paths or package provenance
+  are rejected. Changed inputs and unknown identities do not replace outputs.
+- The complete real export and `build/reading-room-pdf-pilot-repeat/data` pass
+  integrity checks and `diff -qr` reports identical trees. Original reader and
+  pilot manifests still match their pre-execution pins. Saved validation and
+  pinned closeout under `private/pdf-restoration/8-reader-adapter/`.
+- Outcome: step 8 complete; bulk gate remains unpassed. Stall count 0.
+  Next: step 9, scan-aware reading UI and desktop/mobile acceptance, including
+  evidence/download routes, synthetic availability cases and existing CD routes.
+  No step 9 browser or scan-specific display acceptance is claimed here.

@@ -10,7 +10,7 @@ from .export import digest, read, safe, text_for
 def check(root):
     root = Path(root)
     manifest = read(root / 'manifest.json')
-    if manifest.get('kind') != 'reading-room-static' or manifest.get('schemaVersion') not in (1, 2):
+    if manifest.get('kind') != 'reading-room-static' or manifest.get('schemaVersion') not in (1, 2, 3):
         raise ValueError('Unsupported reading-room manifest')
     expected = {row['path'] for row in manifest['files']} | {'manifest.json'}
     actual = {p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file()}
@@ -21,6 +21,8 @@ def check(root):
         if path.stat().st_size != row['bytes'] or digest(path) != row['sha256']:
             raise ValueError(f'File bytes differ: {row["path"]}')
     catalog = read(root / 'catalog.json')
+    if catalog.get('schemaVersion') not in (1, 2, 3):
+        raise ValueError('Unsupported catalog version')
     issues = {row['id']: row for row in catalog['issues']}
     articles = {row['article_id']: row for row in catalog['articles']}
     if len(issues) != len(catalog['issues']) or len(articles) != len(catalog['articles']) or len({a['reference'] for a in articles.values()}) != len(articles):
@@ -66,6 +68,15 @@ def check(root):
         doc = read(root / f'articles/{summary["reference"]}.json')
         if doc['article'] != summary:
             raise ValueError(f'Article identity differs: {article_id}')
+        if summary.get('sourceKind') == 'scan':
+            if manifest['schemaVersion'] != 3 or doc['schemaVersion'] != 3:
+                raise ValueError('Scan articles require version 3')
+            from .scan import validate_scan
+            issue_doc = read(root / f'issues/{summary["issue_id"].removeprefix("maso-")}.json')
+            entries = [t for t in issue_doc['toc'] if t['id'] == summary['tocEntryId'] and article_id in t['articleIds']]
+            if len(entries) != 1:
+                raise ValueError('Scan TOC identity/link differs')
+            validate_scan(root, doc, entries[0])
         if summary['text']:
             text = safe(root / 'source', summary['text'])
             if digest(text) != summary['text_sha256'] or text_for(doc['blocks']).encode() != text.read_bytes():
@@ -87,6 +98,17 @@ def check(root):
             raise ValueError(f'Article media differs: {article_id}')
         counts['articles'] += 1
     counts['issues'] = len(issues)
+    scan_inputs = manifest.get('scanInputs', [])
+    scan_ids = {a['article_id'] for a in articles.values() if a.get('sourceKind') == 'scan'}
+    if len(scan_inputs) != len(scan_ids) or {s['articleId'] for s in scan_inputs} != scan_ids:
+        raise ValueError('Scan input coverage differs')
+    for source in scan_inputs:
+        summary = articles[source['articleId']]
+        if source['packagePath'] != summary['referencePath']:
+            raise ValueError('Scan input package identity differs')
+        path = safe(root / 'source', source['packagePath']).parent / 'manifest.json'
+        if digest(path) != source['manifestSha256']:
+            raise ValueError('Copied scan manifest differs')
     search = read(root / 'search.json')['items']
     if Counter(s['id'] for s in search if s['kind'] == 'article') != Counter({id: 1 for id in articles}):
         raise ValueError('Search article coverage differs')

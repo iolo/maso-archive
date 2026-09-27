@@ -135,6 +135,11 @@ paths locate media and source blocks without imposing CD1's folder layout.
 The manifest pins all three input manifests and inventories every output file,
 including the complete copied CD2/CD3 references under `data/source/`.
 
+A separate [version 3 scan pilot](READING-ROOM-STATIC-V3.md) is staged under
+`build/reading-room-pdf-pilot/data`, retaining the complete CD baseline. The
+loader accepts version 3; scan-specific UI and browser acceptance are the next
+PDF checkpoint. The production aggregate above remains unchanged.
+
 CD2 retains 220 success and 1,110 partial outcomes; CD3 retains 792 success and
 176 partial outcomes. Partial status can mean text, media, attachment or metadata
 uncertainty. It does not imply the body is missing. The adapter preserves

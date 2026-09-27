@@ -415,3 +415,31 @@ findings, incomplete dispositions, changed bytes and expanded page scope.
 The export checker verifies its complete file inventory and hashes; it does not
 establish transcription accuracy. Step 8 will integrate one scan pilot into a
 separate reading-room export while preserving existing CD data and compatibility.
+
+## Step 8: staged reading-room adapter
+
+The pilot is now included in a separate version 3 data export at
+`build/reading-room-pdf-pilot/data`. It is linked to its canonical November 1983
+TOC entry and includes exact text/code, its figure, all nine scan regions, three
+downloads, correction records and separate availability/review states. The
+original portable package is copied intact under `data/source/pdf/<scan-id>/`.
+
+```sh
+make export-pdf-reader \
+  PDF_READER_ARGS="--output build/reading-room-pdf-pilot-new/data"
+PYTHONPATH=src python3 -m tools.reading_room.check \
+  --data build/reading-room-pdf-pilot-new/data
+diff -qr build/reading-room-pdf-pilot/data build/reading-room-pdf-pilot-new/data
+```
+
+The command defaults to the existing production data and pilot package. It
+refuses existing outputs, validates in isolation and leaves its inputs intact.
+The [static version 3 contract](READING-ROOM-STATIC-V3.md) documents identities,
+path scopes, evidence fields and compatibility. Version 1/2 loading and existing
+CD URLs remain supported; all 3,386 CD article summaries and original files are
+preserved. No CD relationship is inferred for the pilot.
+
+The complete repeat export is byte-identical. All 27 PDF tests, eight existing
+web-export tests, six frontend tests and TypeScript checking pass. Step 8 proves
+the data projection; scan-specific reader labels, review/evidence presentation
+and browser acceptance are the next checkpoint, step 9.
