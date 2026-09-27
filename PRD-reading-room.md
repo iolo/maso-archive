@@ -10,6 +10,11 @@ NOTE: this PRD is related PRD-local-web.md but seperated for simplicity.
 
 - output of PLAN-CD1.md
   - build/cd1-reference/index.html
+- output of PLAN-CD2.md
+  - build/cd2-reference/index.html
+- output of PLAN-CD3.md
+  - build/cd3-reference/index.html
+- covers: cover images of all issues, but some issues are missing(not prepared yet).
 
 ## OUTPUT
 
@@ -67,5 +72,5 @@ user <--> SPA webapp <--> static files
 
 ## target contents
 
-- 83.11 to 93.12 issues, but some issues are missing(not prepared yet).
+- 83.11 to 95.12 issues, but some issues are missing(not prepared yet).
 - TOC of all issues are prepared, but some articles could be missing(not prepared yet).

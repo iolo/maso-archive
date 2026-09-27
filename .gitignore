@@ -1,6 +1,7 @@
 # Original discs and extracted publisher content
 /masocd-*.iso
 /masocd-*/
+/maso-pdf/
 /HMSETUP/
 /SOURCE/
 /covers/
