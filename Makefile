@@ -1,5 +1,36 @@
 PYTHON ?= python3
 
+PDF_RECIPE ?= private/pdf-restoration/pilot/package-recipe.json
+PDF_OUTPUT ?= build/pdf-restoration/pilot
+PDF_COMPARISON_RECIPE ?= private/pdf-restoration/7-cd-comparison/comparison-recipe.json
+PDF_COMPARISON_OUTPUT ?= build/pdf-restoration/7-cd-comparison
+
+.PHONY: inventory-pdf prepare-pdf-covers install-pdf-covers build-pdf-article check-pdf-article test-pdf
+inventory-pdf:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.inventory $(PDF_ARGS)
+
+prepare-pdf-covers:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.covers prepare
+
+install-pdf-covers:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.covers install
+
+build-pdf-article:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.build --recipe $(PDF_RECIPE) --output $(PDF_OUTPUT)
+
+check-pdf-article:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.build --check --output $(PDF_OUTPUT)
+
+test-pdf:
+	PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -p 'test_pdf_*.py' -v
+
+.PHONY: compare-pdf-cd check-pdf-comparison
+compare-pdf-cd:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.compare --recipe $(PDF_COMPARISON_RECIPE) --output $(PDF_COMPARISON_OUTPUT)
+
+check-pdf-comparison:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.compare --check --output $(PDF_COMPARISON_OUTPUT)
+
 .PHONY: import-toc import-cd1-index reading-room-example reading-room-package check-second-article prepare-cd1-interview prepare-cd1-editor prepare-cd1-graphics prepare-cd1-keyboard close-cd1-february prepare-cd1-issue inventory-cd1-sources inventory-cd1-processing batch-cd1 validate-cd1-batch run-cd1-full-pass report-cd1-full-pass review-cd1-associations retry-cd1-association-sample review-cd1-fonts retry-cd1-font-sample run-cd1-font-pass report-cd1-font-pass run-cd1-association-pass report-cd1-association-pass audit-cd1-issue restore-toc-snapshot prepare-cd1-transfer test check
 
 import-toc:

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "scan-maso-1900-01-toc-0001",
+  "issue_id": "maso-1900-01",
+  "toc_entry_id": "maso-1900-01-toc-0001",
+  "title": "Synthetic example",
+  "source": {
+    "id": "pdf-synthetic",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "path": "inputs/example.pdf",
+    "bytes": 0
+  },
+  "toc_pin": {
+    "path": "inputs/TOC.md",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bytes": 0
+  },
+  "coordinates": "upright-normalized-top-left",
+  "pages": [],
+  "regions": [],
+  "excluded_regions": [],
+  "mapping": {
+    "status": "unresolved",
+    "evidence": [],
+    "uncertainties": [
+      "Synthetic missing page."
+    ]
+  },
+  "raw_ocr": [],
+  "blocks": [],
+  "figures": [],
+  "downloads": [],
+  "corrections": [],
+  "availability": "unresolved",
+  "verification": {
+    "status": "unreviewed",
+    "reviewed_region_ids": [],
+    "evidence": [],
+    "uncertainties": []
+  },
+  "relationships": [],
+  "gaps": [
+    "Not mapped."
+  ]
+}
