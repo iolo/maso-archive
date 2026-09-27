@@ -4,6 +4,8 @@ import { ArrowLeft, ArrowRight, BookOpen, ChevronDown, ExternalLink, Menu, Moon,
 import { Button } from '@/components/ui/button'
 import { type ArticleDoc, type ArticleSummary, type Block, type Catalog, type IssueDoc, type IssueSummary, type Media, type MediaDoc, type Run, type SearchDoc, type TocEntry, articlePath, dataUrl, dateOf, issuePath, load, mediaPath, mediaUrl, search, sourceUrl, tocPath } from './data'
 
+import { ScanArticle, availabilityLabel } from './ScanArticle'
+
 type Theme = 'system' | 'light' | 'dark'
 
 function useDocument<T>(path: string | null) {
@@ -65,9 +67,9 @@ function TocList({ issue, selected }: { issue: IssueDoc; selected?: string }) {
   return <nav aria-label={`${issue.issue.label} 차례`} className="toc-list">
     <Link className="toc-home" to={issuePath(issue.issue.id)}>호 개요 <ArrowRight size={14} /></Link>
     {issue.toc.map(entry => <Link key={entry.id} className={'toc-entry' + (selected === entry.id ? ' active' : '')} style={{ paddingLeft: `${12 + Math.min(entry.depth, 5) * 14}px` }} to={tocPath(issue.issue.id, entry.id)} aria-current={selected === entry.id ? 'page' : undefined}>
-      <span>{entry.title}</span>{entry.articleIds.length > 0 && <span className="toc-dot" aria-label="CD 글 있음" />}
+      <span>{entry.title}</span>{entry.articleIds.length > 0 && <span className="toc-dot" aria-label="읽기 자료 있음" />}
     </Link>)}
-    {issue.articles.length > 0 && <><div className="toc-section-label">CD 글</div>{issue.articles.map(article => <Link key={article.article_id} className="toc-entry" to={articlePath(article.article_id)}>{article.title}</Link>)}</>}
+    {issue.articles.length > 0 && <><div className="toc-section-label">읽기 자료</div>{issue.articles.map(article => <Link key={article.article_id} className="toc-entry" to={articlePath(article.article_id)}>{article.title}</Link>)}</>}
   </nav>
 }
 
@@ -83,12 +85,12 @@ function ContextAside({ issue, article }: { issue?: IssueDoc; article?: ArticleD
   if (!issue) return null
   return <aside className={'context-aside' + (open ? ' open' : '')} aria-label="관련 자료"><Button variant="ghost" className="aside-toggle" onClick={() => setOpen(!open)} aria-expanded={open}>{open ? '관련 자료 접기' : '관련 자료 보기'} <ChevronDown size={15} /></Button>
     {open && <div className="aside-content"><h2>같은 호의 글</h2><ul>{issue.articles.filter(a => a.article_id !== article?.article.article_id).slice(0, 10).map(a => <li key={a.article_id}><Link to={articlePath(a.article_id)}>{a.title}</Link><small>{statusLabel(a.status)}</small></li>)}</ul>
-      {article && <><h2>원본 자료</h2><a href={sourceUrl(article.article.referencePath || article.article.path.replace(/index\.html$/, 'reference.json'))} target="_blank" rel="noreferrer">참조 기록 <ExternalLink size={13} /></a></>}
+      {article && (article.article.referencePath || article.article.path) && <><h2>원본 자료</h2><a href={sourceUrl(article.article.referencePath || article.article.path.replace(/index\.html$/, 'reference.json'))} target="_blank" rel="noreferrer">참조 기록 <ExternalLink size={13} /></a></>}
     </div>}
   </aside>
 }
 
-function statusLabel(status: string) { return ({ prepared: 'CD 본문', normalized: '복원된 CD 본문', reference_with_gaps: '글자 판독 공백 있음', blocked: '글 경계 확인 필요', unavailable: '본문 없음', success: 'CD 본문', partial: '일부 확인 필요' } as Record<string, string>)[status] || status }
+function statusLabel(status: string) { return ({ prepared: 'CD 본문', normalized: '복원된 CD 본문', reference_with_gaps: '글자 판독 공백 있음', blocked: '글 경계 확인 필요', unavailable: '본문 없음', success: 'CD 본문', partial: '일부 확인 필요', readable: '스캔 · 읽기 가능', 'image-only': '스캔만 있음', failed: '복원 시도 실패', unresolved: '복원 상태 미확인' } as Record<string, string>)[status] || status }
 
 export function IssueCover({ issue, compact = false }: { issue: IssueSummary; compact?: boolean }) {
   const [failedPath, setFailedPath] = useState<string | null>(null)
@@ -103,17 +105,17 @@ export function IssueCover({ issue, compact = false }: { issue: IssueSummary; co
 
 function Bookshelf({ catalog }: { catalog: Catalog }) {
   const groups = [...new Set(catalog.issues.map(i => i.year))]
-  return <div className="bookshelf page-content"><div className="page-heading"><p className="eyebrow">월간 마이크로소프트웨어</p><h1>호 목록</h1><p>1983–1993년 도서관 차례와 CD1·CD2·CD3의 글을 찾아보세요. CD2·CD3 묶음은 CD 날짜 표기이며 종이 잡지의 발행호와 대조 전입니다.</p></div>
+  return <div className="bookshelf page-content"><div className="page-heading"><p className="eyebrow">월간 마이크로소프트웨어</p><h1>호 목록</h1><p>도서관 차례, CD1·CD2·CD3 전사 자료와 스캔 복원 글을 찾아보세요. CD2·CD3 묶음은 CD 날짜 표기이며 종이 잡지의 발행호와 대조 전입니다.</p></div>
     {catalog.sources && <p className="source-note">보충 글·원본 자료: {catalog.sources.filter(s => s.referencePath).map(s => <a key={s.disc} href={sourceUrl(s.referencePath!)} target="_blank" rel="noreferrer">{s.disc.toUpperCase()} 참조 자료 ↗ </a>)}</p>}
-    {groups.map(year => <section key={year} className="year-section"><h2>{year || '날짜 미확인'}</h2><div className="issue-grid">{catalog.issues.filter(i => i.year === year).map(issue => <Link key={issue.id} className="issue-tile" to={issuePath(issue.id)}><IssueCover issue={issue} compact /><span className="issue-date">{issue.label}</span><strong>{issue.nativeGroup ? 'CD 날짜 묶음' : `${String(issue.month).padStart(2, '0')}월호`}</strong><span>{issue.textCount ? `CD 글 ${issue.textCount}편` : '차례만 있음'}</span><ArrowRight size={17} /></Link>)}</div></section>)}
+    {groups.map(year => <section key={year} className="year-section"><h2>{year || '날짜 미확인'}</h2><div className="issue-grid">{catalog.issues.filter(i => i.year === year).map(issue => <Link key={issue.id} className="issue-tile" to={issuePath(issue.id)}><IssueCover issue={issue} compact /><span className="issue-date">{issue.label}</span><strong>{issue.nativeGroup ? 'CD 날짜 묶음' : `${String(issue.month).padStart(2, '0')}월호`}</strong><span>{issue.textCount ? `읽기 자료 ${issue.textCount}편` : '차례만 있음'}</span><ArrowRight size={17} /></Link>)}</div></section>)}
   </div>
 }
 
 function IssueOverview({ issue }: { issue: IssueDoc }) {
-  return <div className="page-content"><div className="page-heading"><p className="eyebrow">{issue.issue.label} · 월간 마이크로소프트웨어</p><h1>{issue.issue.nativeGroup ? issue.issue.label : `${issue.issue.year}년 ${issue.issue.month}월호`}</h1><p>차례 {issue.issue.tocCount}항목 · CD 글 {issue.issue.textCount}편</p></div>
+  return <div className="page-content"><div className="page-heading"><p className="eyebrow">{issue.issue.label} · 월간 마이크로소프트웨어</p><h1>{issue.issue.nativeGroup ? issue.issue.label : `${issue.issue.year}년 ${issue.issue.month}월호`}</h1><p>차례 {issue.issue.tocCount}항목 · 읽기 자료 {issue.issue.textCount}편</p></div>
     {issue.issue.nativeGroup && <p className="notice">CD의 날짜 표기로 묶었습니다. 발행호 확인 전이며 도서관 차례 연결은 없습니다.</p>}
     <IssueCover issue={issue.issue} />
-    <section className="article-index"><h2>CD에서 읽을 수 있는 글</h2>{issue.articles.length ? <ul>{issue.articles.map(article => <li key={article.article_id}><Link to={articlePath(article.article_id)}>{article.title}</Link><span>{statusLabel(article.status)}</span></li>)}</ul> : <p>이 호의 CD1 본문은 준비되지 않았습니다. 왼쪽 차례의 제목은 볼 수 있습니다.</p>}</section>
+    <section className="article-index"><h2>읽기 자료</h2>{issue.articles.length ? <ul>{issue.articles.map(article => <li key={article.article_id}><Link to={articlePath(article.article_id)}>{article.title}</Link><span>{article.sourceKind === 'scan' && article.availability ? availabilityLabel(article.availability) : statusLabel(article.status)}</span></li>)}</ul> : <p>이 호의 읽기 본문은 준비되지 않았습니다. 왼쪽 차례의 제목은 볼 수 있습니다.</p>}</section>
   </div>
 }
 
@@ -121,8 +123,8 @@ function TocDetail({ issue, id }: { issue: IssueDoc; id: string }) {
   const entry = issue.toc.find(e => e.id === id)
   if (!entry) return <NotFound />
   return <div className="page-content"><p className="eyebrow">{issue.issue.label} · 차례 항목</p><h1>{entry.title}</h1><p className="metadata">{entry.page !== null && `${entry.page}쪽`}{entry.byline && ` · ${entry.byline}`}</p>
-    {entry.articleIds.length ? <><h2>연결된 CD 글</h2><ul>{entry.articleIds.map(id => { const article = issue.articles.find(a => a.article_id === id); return article && <li key={id}><Link to={articlePath(id)}>{article.title} <ArrowRight size={16} /></Link></li> })}</ul></> : <p className="notice">이 차례 항목에 확인된 CD 글 연결이 없습니다. 차례의 제목만으로 CD 본문 부재를 단정할 수 없습니다.</p>}
-    <p className="source-note">도서관 차례와 CD 본문은 서로 다른 전사 자료입니다. 종이 잡지 확인은 아직 완료되지 않았습니다.</p></div>
+    {entry.articleIds.length ? <><h2>연결된 읽기 자료</h2><ul>{entry.articleIds.map(id => { const article = issue.articles.find(a => a.article_id === id); return article && <li key={id}><Link to={articlePath(id)}>{article.title} <ArrowRight size={16} /></Link></li> })}</ul></> : <p className="notice">이 차례 항목에 확인된 읽기 자료 연결이 없습니다. 차례만으로 원문 부재를 단정할 수 없습니다.</p>}
+    <p className="source-note">자료마다 출처와 검토 범위가 다릅니다. 연결된 글에서 확인 상태를 확인하세요.</p></div>
 }
 
 export function RenderRun({ run, issueId, media }: { run: Run; issueId: string; media: Media[] }) {
@@ -168,7 +170,8 @@ function ArticleView({ doc }: { doc: ArticleDoc }) {
     const frame = requestAnimationFrame(() => document.getElementById(paragraphId || blockId!)?.scrollIntoView())
     return () => cancelAnimationFrame(frame)
   }, [paragraphId, blockId, article.article_id])
-  return <article className="article-view page-content"><div className="page-heading"><p className="eyebrow"><Link to={issuePath(article.issue_id)}>{dateOf(article.issue_id)}</Link> · {statusLabel(article.status)}</p><h1>{article.title}</h1><p className="metadata">{article.byline && `${article.byline} · `}{article.page !== null && `${article.page}쪽 · `}CD 참조 {article.reference} · 종이 잡지 대조 전</p></div>
+  if (doc.scan) return <ScanArticle key={article.article_id} doc={doc} />
+  return <article className="article-view page-content"><div className="page-heading"><p className="eyebrow"><Link to={issuePath(article.issue_id)}>{dateOf(article.issue_id)}</Link> · {article.sourceKind === 'scan' && article.availability ? availabilityLabel(article.availability) : statusLabel(article.status)}</p><h1>{article.title}</h1><p className="metadata">{article.byline && `${article.byline} · `}{article.page !== null && `${article.page}쪽 · `}CD 참조 {article.reference} · 종이 잡지 대조 전</p></div>
     {article.status === 'reference_with_gaps' && <p className="notice">이 글에는 판독하지 못한 글자가 표시되어 있습니다. ⟦…⟧ 표시는 원문 글자가 아니므로 종이 잡지나 스캔으로 확인해 주세요.</p>}
     {article.status === 'partial' && <p className="notice">본문·이미지·첨부 또는 CD 표기에 확인이 필요한 부분이 있습니다. 아래 출처와 확인 상태를 참고해 주세요.</p>}
     {article.status === 'normalized' && <p className="notice">CD의 일반 서식을 정리해 읽기 쉽게 표시했습니다. 종이 잡지 대조는 아직 끝나지 않았습니다.</p>}
@@ -198,11 +201,11 @@ function SearchView({ catalog }: { catalog: Catalog }) {
   useEffect(() => setDraft(query), [query])
   const result = useDocument<SearchDoc>('search.json')
   const items = useMemo(() => search(result.value?.items || [], query, selectedIssue), [result.value, query, selectedIssue])
-  return <div className="page-content search-view"><div className="page-heading"><p className="eyebrow">자료 찾기</p><h1>제목·글쓴이 검색</h1><p>차례와 CD 글의 제목, 글쓴이, CD 참조 번호를 찾습니다. 본문 전체 검색은 제공하지 않습니다.</p></div>
+  return <div className="page-content search-view"><div className="page-heading"><p className="eyebrow">자료 찾기</p><h1>제목·글쓴이 검색</h1><p>차례와 읽기 자료의 제목, 글쓴이, 참조 번호를 찾습니다. 본문 전체 검색은 제공하지 않습니다.</p></div>
     <form className="search-form" onSubmit={e => { e.preventDefault(); setParams({ q: draft, ...(selectedIssue ? { issue: selectedIssue } : {}) }) }}><label htmlFor="search-query">검색어</label><div><input id="search-query" value={draft} onChange={e => setDraft(e.target.value)} placeholder="제목, 글쓴이 또는 참조 번호" /><Button type="submit">검색</Button></div></form>
     <label className="search-filter">호 필터 <select value={selectedIssue} onChange={e => setParams({ q: query, ...(e.target.value ? { issue: e.target.value } : {}) })}><option value="">모든 호</option>{catalog.issues.map(i => <option key={i.id} value={i.id}>{i.label}</option>)}</select></label>
     {result.loading || result.error ? <DataState loading={result.loading} error={result.error} retry={result.retry} /> : <section aria-live="polite" className="search-results"><h2>{query ? `${items.length}건` : '검색어를 입력하세요'}</h2>{query && items.length === 0 && <p>검색 결과가 없습니다.</p>}
-      <ul>{items.map(item => <li key={item.kind + item.id}><span className="result-kind">{item.kind === 'toc' ? '차례' : 'CD 글'} · {dateOf(item.issueId)} · {item.kind === 'article' ? statusLabel(item.status) : item.status === 'linked' ? 'CD 글 연결' : '연결 미확인'}</span><Link to={item.kind === 'article' ? articlePath(item.id) : tocPath(item.issueId, item.id)}>{item.title} <ArrowRight size={16} /></Link>{item.byline && <span>{item.byline}</span>}</li>)}</ul></section>}
+      <ul>{items.map(item => <li key={item.kind + item.id}><span className="result-kind">{item.kind === 'toc' ? '차례' : item.sourceKind === 'scan' ? '스캔 복원' : 'CD 글'} · {dateOf(item.issueId)} · {item.kind === 'article' ? statusLabel(item.status) : item.status === 'linked' ? '읽기 자료 연결' : '연결 미확인'}</span><Link to={item.kind === 'article' ? articlePath(item.id) : tocPath(item.issueId, item.id)}>{item.title} <ArrowRight size={16} /></Link>{item.byline && <span>{item.byline}</span>}</li>)}</ul></section>}
   </div>
 }
 
@@ -244,6 +247,6 @@ export default function App() {
       <Route path="/search" element={<main id="main"><SearchView catalog={catalog.value} /></main>} />
       <Route path="*" element={<main id="main"><NotFound /></main>} />
     </Routes>}
-    <footer className="site-footer"><span>월간 마이크로소프트웨어 · 개인 열람 참고 자료</span><span>CD 전사 자료 · 종이 잡지 대조 전</span></footer>
+    <footer className="site-footer"><span>월간 마이크로소프트웨어 · 개인 열람 참고 자료</span><span>자료별 출처와 검토 범위를 확인하세요</span></footer>
   </div>
 }

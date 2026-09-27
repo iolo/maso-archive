@@ -98,7 +98,7 @@ def validate_scan(root, doc, toc):
     return package
 
 
-def stage(base, package_dir, output):
+def stage(base, package_dir, output, covers=None):
     base, package_dir, output = (Path(p).resolve() for p in (base, package_dir, output))
     if output.exists() or output.is_relative_to(base) or base.is_relative_to(output):
         raise ValueError('Use a separate, fresh reader output')
@@ -167,6 +167,14 @@ def stage(base, package_dir, output):
                                     sourceKind='scan', availability=summary['availability'], verification=summary['verification']))
         write(staged, 'search.json', search)
         manifest = deepcopy(read(base / 'manifest.json'))
+        cover_issue_paths = set()
+        if covers is not None:
+            from .covers import attach_covers
+            manifest['coverInputs'] = attach_covers(staged, catalog, covers)
+            cover_issue_paths = {f'issues/{i.removeprefix("maso-")}.json'
+                                 for row in manifest['coverInputs'] for i in row['issueIds']}
+            manifest['counts']['covers'] = sum(i['cover'] is not None for i in catalog['issues'])
+            write(staged, 'catalog.json', catalog)
         manifest.update(schemaVersion=3, baseManifestSha256=base_manifest_sha,
                         scanInputs=[dict(articleId=package['id'], manifestSha256=package_manifest_sha,
                                          packagePath=doc['scan']['packagePath'])])
@@ -177,7 +185,7 @@ def stage(base, package_dir, output):
         write(staged, 'manifest.json', manifest)
         check(staged)
         # Only these five baseline documents may differ. All CD article/source files are exact copies.
-        changed = {'catalog.json', 'manifest.json', 'search.json', issue_path, media_path}
+        changed = {'catalog.json', 'manifest.json', 'search.json', issue_path, media_path} | cover_issue_paths
         for record in read(base / 'manifest.json')['files']:
             if record['path'] not in changed and digest(safe(staged, record['path'])) != record['sha256']:
                 raise ValueError('Existing reader file changed during scan export')
@@ -192,8 +200,9 @@ def main():
     parser.add_argument('--base', type=Path, default=Path('build/reading-room/data'))
     parser.add_argument('--package', type=Path, default=Path('build/pdf-restoration/pilot'))
     parser.add_argument('--output', type=Path, default=Path('build/reading-room-pdf-pilot/data'))
+    parser.add_argument('--covers', type=Path, help='Include reviewed/owner covers through the existing cover adapter')
     args = parser.parse_args()
-    result = stage(args.base, args.package, args.output)
+    result = stage(args.base, args.package, args.output, args.covers)
     print(json.dumps(result['counts']))
 
 

@@ -23,6 +23,24 @@ def refresh(root):
 
 
 class PDFReaderTests(unittest.TestCase):
+    def test_optional_covers_reuse_existing_presentation_and_preserve_cd_sources(self):
+        from PIL import Image
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            base, scan, _ = self.fixture(root)
+            covers = root / 'covers'
+            covers.mkdir()
+            Image.new('RGB', (30, 40), 'green').save(covers / 'maso0001.png')
+            output = root / 'build/covered'
+            stage(base, scan, output, covers=covers)
+            self.assertEqual(check(output)['covers'], 1)
+            cover = read(output / 'issues/1900-01.json')['issue']['cover']
+            self.assertEqual((output / cover['path']).read_bytes(), (covers / 'maso0001.png').read_bytes())
+            self.assertIsNone(read(base / 'issues/1900-01.json')['issue']['cover'])
+            for path in (base / 'source').rglob('*'):
+                if path.is_file():
+                    self.assertEqual(path.read_bytes(), (output / path.relative_to(base)).read_bytes())
+
     def fixture(self, root, version=1):
         recipe = test_pdf_build.PDFBuildTests().fixture(root)
         scan = root / 'build/scan'

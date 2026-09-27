@@ -137,8 +137,10 @@ including the complete copied CD2/CD3 references under `data/source/`.
 
 A separate [version 3 scan pilot](READING-ROOM-STATIC-V3.md) is staged under
 `build/reading-room-pdf-pilot/data`, retaining the complete CD baseline. The
-loader accepts version 3; scan-specific UI and browser acceptance are the next
-PDF checkpoint. The production aggregate above remains unchanged.
+loader accepts version 3. The scan-specific UI described in
+[PDF restoration](PDF-RESTORATION.md) passes desktop/mobile checks in
+`build/reading-room-pdf-ui/`, including scan evidence, review states and extracted
+covers. The production aggregate above remains unchanged.
 
 CD2 retains 220 success and 1,110 partial outcomes; CD3 retains 792 success and
 176 partial outcomes. Partial status can mean text, media, attachment or metadata

@@ -93,6 +93,9 @@ positions, region/download provenance and independent review states. Changing
 projection data and merely recalculating the outer manifest cannot conceal a
 mismatch with the copied scan package.
 
-Step 8 validates this data adapter and version compatibility. Scan-specific UI
-labels, review presentation, evidence navigation and desktop/mobile browser
-acceptance are step 9; this staged data export is not yet a completed scan reader.
+Step 8 validates this data adapter and version compatibility. Step 9 adds the
+scan-specific UI, review presentation, evidence navigation and desktop/mobile
+acceptance in `build/reading-room-pdf-ui/`. Its optional `--covers covers` adapter
+argument includes available extracted covers through the existing presentation.
+The original step 8 data export remains intact. See
+[PDF restoration](PDF-RESTORATION.md) for build/preview commands and scope.

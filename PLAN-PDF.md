@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-27. Status: **in progress; steps 1–8 complete; next: 9 staged reader UI and browser checks**.
+Revised 2026-09-28. Status: **in progress; steps 1–9 complete; next: 10 bounded batch and resume checks**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

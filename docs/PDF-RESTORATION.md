@@ -443,3 +443,34 @@ The complete repeat export is byte-identical. All 27 PDF tests, eight existing
 web-export tests, six frontend tests and TypeScript checking pass. Step 8 proves
 the data projection; scan-specific reader labels, review/evidence presentation
 and browser acceptance are the next checkpoint, step 9.
+
+## Step 9: read the pilot and its scan evidence
+
+The existing application now supports scan-derived reading. The pilot's
+availability and review scope are separate, remaining gaps stay visible, and
+each body section links to its source regions. Selecting a region opens a
+native-resolution image with contained scrolling and original-size/download
+links. Other regions are not loaded automatically. Corrected prose, literal
+code, figures, raw OCR and correction records remain separate.
+
+```sh
+make export-pdf-reader \
+  PDF_READER_ARGS="--output build/reading-room-pdf-ui-new/data --covers covers"
+READING_ROOM_OUTPUT=build/reading-room-pdf-ui-new READING_ROOM_BASE=/archive/ \
+  npm --prefix web run build
+READING_ROOM_OUTPUT=build/reading-room-pdf-ui-new READING_ROOM_BASE=/archive/ \
+  npm --prefix web run preview -- --port 4178
+```
+
+The completed local site is `build/reading-room-pdf-ui/`; its preview is
+`http://127.0.0.1:4178/archive/`. Open the pilot through November 1983's TOC,
+metadata search or `#/articles/scan-maso-1983-11-toc-0012`. Region links append
+`?region=r08`, for example. The standalone preview and original CD references
+remain available. Production reader data is unchanged.
+
+The staged site includes 27 covers, preserving owner images and all nineteen
+newly installed PDF covers. Desktop/mobile, nested hosting, missing-state
+fixtures, request isolation and CD regression routes pass. All 47 focused tests,
+the production build and data integrity check pass. Browser review and closeout
+are saved under `private/pdf-restoration/9-reader-ui/`; screenshots are under
+`output/playwright/pdf-9/`. Step 10's batch/resume gate remains before bulk work.

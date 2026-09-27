@@ -478,3 +478,79 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: step 9, scan-aware reading UI and desktop/mobile acceptance, including
   evidence/download routes, synthetic availability cases and existing CD routes.
   No step 9 browser or scan-specific display acceptance is claimed here.
+
+### 2026-09-27 — Step 9 started: scan-aware reader
+
+- Step 8 is committed as `1d38b23`. Fixed step 9 to its existing pilot,
+  synthetic partial/image-only/unavailable cases and representative CD routes.
+  Saved manifest/cover-ledger pins and browser acceptance scope under
+  `private/pdf-restoration/9-reader-ui/`.
+- Implementing separate availability/review presentation, region evidence
+  navigation and source-aware labels in the existing application. Reusing the
+  existing cover presentation for extracted covers; no new OCR or article
+  restoration is included. Playwright desktop/mobile and nested-host checks
+  will precede checkpoint completion and commit.
+- The scan reader now shows availability and review independently, retains
+  exact prose/code, and loads a region image only when selected. The real
+  pilot's issue → TOC → article → r08 evidence flow passes at desktop and
+  mobile widths under `/archive/`. All thirteen fetched region/download/
+  correction assets match pinned hashes. Metadata search fetches no bodies;
+  sampled CD1/CD2/CD3 routes and source links remain usable.
+- Integrated available covers through the existing adapter: the staged reader
+  now has 27 covers. An extracted cover decodes correctly, and an intentionally
+  aborted image request shows the existing fallback. Finishing synthetic
+  availability checks and final validation; production data remains unchanged.
+
+### 2026-09-28 — Step 9 complete: scan reading and browser acceptance
+
+- Added `ScanArticle.tsx` to the existing application. The pilot shows distinct
+  availability/review states, visible remaining uncertainties, expandable review
+  scope and correction links, exact prose/code, its figure, three downloads and
+  the independent portable preview. The header retains the printed byline,
+  including a role when the canonical TOC author omits it.
+- Added article-local `?region=<id>` evidence navigation. Selected regions load
+  at native resolution in a contained scrolling area, with original-size and
+  download links, independent PDF/printed page numbers and a return-to-text link.
+  The application never treats an unknown folio as an inferred printed number.
+  Unselected region images are not fetched; the inline figure remains lazy.
+- Updated shared shelf, issue, TOC and search labels to include scan reading
+  without changing CD source labels or identities. Search contains the pilot's
+  metadata and opens its existing canonical route. Available material is linked
+  without inventing text or source downloads for missing-state fixtures.
+- Added optional `--covers` support to the staged adapter, reusing the existing
+  cover implementation. All nineteen installed PDF-cover pins match exported
+  bytes; existing owner covers are preserved. The reader now presents 27 covers.
+  An extracted cover renders with contained proportions; a deliberately aborted
+  request and missing-cover fixtures exercise the fallback.
+- Delivered the nested-base site in `build/reading-room-pdf-ui/`, served locally
+  at `http://127.0.0.1:4178/archive/`. Its data has 44,746 files totaling
+  3,466,427,386 bytes. All 44,412 source/article files from step 8 and all 3,387
+  article summaries are unchanged. Only the catalog and nineteen issue cover
+  records change, with nineteen added cover files and a new manifest. Original
+  step 8, pilot and cover-ledger pins remain unchanged.
+- Playwright desktop 1440×1000 and mobile 360×800 checks pass: issue → TOC →
+  pilot → r08 evidence, mobile TOC navigation, visible review/gaps, exact prose
+  and both code blocks, no page overflow and contained horizontal code/scan
+  scrolling. Thirteen region/download/correction assets match browser-computed
+  hashes and sizes. The independent preview opens successfully.
+- Request checks find no article fetches on issue/TOC or fresh search pages,
+  and only the pilot body on its routes. Initially only its inline figure is
+  fetched; selecting r08 adds that region alone. The later explicit integrity
+  audit fetches the other regions intentionally. Existing CD1 `8802184`, CD2
+  `cd2-940109500` and CD3 `cd3-topic-0084` routes, downloads/reference links and
+  mobile containment pass.
+- Invented partial, image-only and failed fixtures run in a separate intercepted
+  browser session without changing archive data. Partial text retains its marked
+  gap and literal code; image-only material exposes its scan without a body or
+  text download; failed recovery shows no broken source links and makes no
+  missing-source claim. Unknown region and unresolved-state rendering also pass
+  unit checks. Screenshots and snapshots are in `output/playwright/pdf-9/`.
+- Validation: 28 PDF tests, eight existing web-export tests and eleven frontend
+  tests pass. TypeScript/Vite production build and complete static data integrity
+  check pass. No unexpected application console errors occurred; the aborted
+  cover request is an intentional failure fixture. Saved validation, browser
+  review and pinned closeout under `private/pdf-restoration/9-reader-ui/`.
+- Outcome: step 9 complete; pilot remains **readable / sample-reviewed**, with
+  its original code uncertainties. Bulk gate remains unpassed. Stall count 0.
+  Next: step 10, a bounded batch of already prepared samples with synthetic
+  failure and resume checks, within the three-article/twelve-page ceiling.
