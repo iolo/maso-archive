@@ -637,3 +637,73 @@ history remains in [PROGRESS.md](PROGRESS.md).
   coverage is claimed. Stall count 0. Next: `11-batch-01`, name the next November
   TOC identities and mapping targets before execution, within two articles/six
   pages. Reuse the pilot and matchstick sample in November issue accounting.
+
+### 2026-09-28 — 11-batch-01 started: opening articles
+
+- Step 10 is committed as `b7aea42`. Named existing November entries
+  `maso-1983-11-toc-0001` (창간사) and `maso-1983-11-toc-0002` (장관 특별면담)
+  before mapping. Candidate PDF positions are 13–17, with adjacent pages 12/18
+  reserved for boundary lookup; positions and printed folios remain unverified
+  until inspected. Saved source/queue/readiness pins and a mapping start time in
+  `private/pdf-restoration/11-batch-01/checkpoint-plan.json`.
+- Limits remain two articles, six source pages, twenty lookup pages and one
+  targeted retry per failed region. Existing pilot and matchstick packages are
+  retained for issue accounting; this batch adds no parent/group bodies.
+
+### 2026-09-28 — 11-batch-01 complete: editorial and minister interview
+
+- Restored the two named TOC entries, with five mapped source pages and two
+  outside lookup pages. PDF13 contains the complete opening editorial; PDF14–17
+  contain the complete interview at visible printed pages 12–15. PDF12 is an
+  unrelated advertisement; PDF18 opens a distinct feature. Neither lookup page
+  entered OCR or the article packages. No retry or scope expansion was needed.
+- The editorial's full printed title includes “기술입국에”, which is absent
+  from its shorter canonical TOC label. Preserved the printed reading title and
+  original TOC identity separately. PDF13 has no visible folio: its observed
+  printed page remains unknown, without promoting the TOC's page 11 to evidence.
+  Preserved the publisher portrait, printed byline/role and publication date.
+- The interview retains mixed Korean/Hanja, period spelling, speaker labels,
+  interview date/place, both photographs and captions. Joined three evidenced
+  cross-page/column continuations and preserved all three repeated pull quotes,
+  relocating them to avoid breaking continuous sentences. Historical statistics
+  and terminology remain as printed rather than being silently repaired.
+- The bounded runner completed all 22 regions: nineteen OCR jobs and three
+  figure crops, with zero failures/retries. A subsequent resume leaves the
+  ledger unchanged. Raw TXT/TSV/settings remain separate from reviewed reading
+  text. Saved per-region scan/raw pins and correction decisions in each article's
+  `corrections.json`; no original OCR or earlier sample package was overwritten.
+- Compared every mapped region and all printed text rows against the scans.
+  Both articles are **readable / sample-reviewed**, not fully verified. The
+  interview exposes one localized `실시/실지` uncertainty and states the limits
+  of Unicode matching for historical Hanja glyph variants. Reflow, spacing and
+  quotation placement normalizations remain explicit. The editorial's unknown
+  folio is also visible in its scan links and review notes.
+- Delivered `build/pdf-restoration/11-batch-01/`: 103 files, 20,530,372 bytes,
+  with a two-article index, batch report, portable previews, text/raw-OCR
+  downloads, 22 scan regions and separate correction records. There are 63 text
+  blocks and three figures, with no invented code/listing download. Original
+  unreviewed batch evidence is preserved in `11-batch-01-evidence/`; each
+  reviewed article's repeat export is byte-identical in `11-batch-01-repeat/`.
+- Validation: all 37 focused PDF tests pass; package/link/hash checks and exact
+  regional-character accounting pass. Desktop 1440×1000 and mobile 360×800
+  checks confirm all 63 DOM blocks, all three images, repeated quotes, readable
+  Hanja, visible gaps and no horizontal page overflow. Twenty-eight browser
+  assets match hashes/sizes. Actual index → interview → scan clicks succeed.
+  Screenshots are in `output/playwright/pdf-11-batch-01/`. The only initial
+  resource error was the local server's missing favicon; article assets pass.
+- Recorded mapping elapsed time of 129.7 seconds and transcription/review
+  elapsed time of 367.1 seconds, including inspection and artifact preparation.
+  Rendering/cropping took 14.5 seconds and OCR 20.9 seconds. These are observed
+  batch measurements, not a forecast of new-article throughput. Retained the
+  two-article/six-page ceilings and twenty-page lookup/one-retry limits.
+- Started a separate November issue ledger without changing the historical
+  queue: 47 entries reconcile to four classified, readable/sample-reviewed
+  articles (including the pilot and matchsticks), one evidenced group heading
+  and 42 unresolved eligibility decisions. Those 42 are not counted as failed
+  or missing articles. Saved a batch snapshot and the current issue ledger in
+  `private/pdf-restoration/11-november/issue-progress.json`.
+- Saved mapping, OCR, review timing, package validation, browser, issue snapshot
+  and pinned closeout records under `private/pdf-restoration/11-batch-01/`.
+  Local preview: `http://127.0.0.1:4179/`. Outcome: batch complete; November issue
+  remains in progress. Stall count 0. Next: name `11-batch-02` within the same
+  limits; issue-wide reader export/inspection remains the separate closeout.

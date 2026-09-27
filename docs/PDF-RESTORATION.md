@@ -604,3 +604,53 @@ not new-article restoration estimates. All 37 focused PDF tests pass. The
 full-repository check was stopped during an unrelated CD artifact audit and
 is not claimed as passed. The saved bulk-readiness record admits the next
 named November batch within the selected two-article/six-page ceilings.
+
+## Step 11: November batches
+
+`11-batch-01` restores existing entries `maso-1983-11-toc-0001` (opening
+editorial) and `maso-1983-11-toc-0002` (minister interview). Open
+`build/pdf-restoration/11-batch-01/index.html` or the local preview at
+`http://127.0.0.1:4179/`. Both packages are readable/sample-reviewed and retain
+separate raw OCR and `corrections.json` evidence. They contain no code listing.
+
+The editorial occupies PDF13, with no visible printed folio. Its full printed
+title is preserved separately from the shortened TOC label. The interview spans
+PDF14–17 / printed12–15 and preserves mixed Korean/Hanja, three pull quotations,
+two photographs and complete speaker/date/place metadata. Cross-column sentences
+remain continuous. A localized syllable uncertainty and Hanja glyph-variant
+limits are visible; period language and factual claims are not modernized.
+
+The private inputs and records are under `private/pdf-restoration/11-batch-01/`.
+The batch runner's immutable plan covers OCR; subsequent reviewed package recipes
+live in its `editorial/` and `interview/` directories. The raw evidence export's
+unreviewed status does not overwrite the later reviewed article outcomes.
+
+```sh
+# Existing state: resume/check without repeating successful OCR.
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-01/state
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-01/state \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-01-evidence
+
+# Rebuild a reviewed article into a fresh directory; use interview for the other.
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-01/editorial/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-01-new/editorial
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-01-new/editorial
+
+# Serve the completed two-article preview.
+python3 -m http.server 4179 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-01
+```
+
+For a new bounded execution state, use `make prepare-pdf-batch` with
+`PDF_BATCH_REQUEST=private/pdf-restoration/11-batch-01/request.json` and a fresh
+`PDF_BATCH_STATE`; reuse the shared cache. Never overwrite an existing plan or
+reviewed correction file to force a rerun.
+
+All 37 focused PDF tests, two deterministic package rebuilds, complete asset
+checks and desktop/mobile browser checks pass. Batch output totals 103 files /
+20,530,372 bytes. The November issue ledger separately tracks four completed
+articles, one group heading and 42 unresolved eligibility decisions among the
+47 original TOC entries. This is a completed batch, not an issue closeout;
+issue-wide staging and coverage reconciliation follow the remaining named batches.
