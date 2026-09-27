@@ -707,3 +707,76 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Local preview: `http://127.0.0.1:4179/`. Outcome: batch complete; November issue
   remains in progress. Stall count 0. Next: name `11-batch-02` within the same
   limits; issue-wide reader export/inspection remains the separate closeout.
+
+### 2026-09-28 — 11-batch-02 started: two further game articles
+
+- Batch 01 is committed as `b3da519`. Named `maso-1983-11-toc-0014`
+  (ENEMY SATELLITE) and `maso-1983-11-toc-0015` (REVERSE), following the
+  completed pilot and matchstick sample within the evidenced 취미생활 group.
+  Saved the current issue ledger, input pins and mapping start time before
+  inspecting candidate PDF35–37 and boundary lookup pages 34/38.
+- Scope remains two articles, six source pages, twenty lookup pages and one
+  targeted retry per failed region. Printed numbering and extent will be
+  established locally; no parent body or new TOC entry will be introduced.
+- Mapping confirmed three source pages: ENEMY SATELLITE at PDF35 / printed33,
+  REVERSE at PDF36–37 / printed34–35. PDF34/38 were boundary lookups only.
+  Explicitly excluded the unrelated academy advertisement below REVERSE.
+- All 27 regions completed (24 OCR regions, three figures), with no retries.
+  Reviewed every printed text row and figure; saved separate raw evidence,
+  regional transcriptions and `corrections.json`. The reviewed packages contain
+  37 blocks, including three code blocks and five separately preserved inline
+  listing annotations. Faint operators and code spacing remain explicit limits.
+- All 37 focused PDF tests pass. Both reviewed package rebuilds are byte-identical;
+  package hashes, local links, literal listing downloads, raw OCR preservation
+  and non-whitespace transcription accounting pass. Browser acceptance and
+  November ledger reconciliation remain in progress.
+
+### 2026-09-28 — 11-batch-02 complete: ENEMY SATELLITE and REVERSE
+
+- Completed both named articles as **readable / sample-reviewed**, within the
+  two-article/six-page ceilings. Used three mapped pages and two boundary lookup
+  pages; no failed region, OCR retry or scope expansion. Their existing parent
+  remains an evidenced group heading without an invented article body.
+- ENEMY SATELLITE preserves its illustration, introduction, complete explanation
+  and listing. Recovered a prose row omitted by OCR directly from the crop.
+  Separated five dotted-leader annotations from BASIC, retaining their text and
+  line associations in the reading package and correction evidence. Marked
+  faint `=/−` operators and one localized prose reading uncertainty explicitly.
+  Preserved the anomalous extra A, R and S characters and physical code wraps.
+- REVERSE preserves its provider credit, award note, both figures/captions,
+  complete explanation and two listing columns. Joined the evidenced continuations
+  across columns/pages. Retained printed `A(R)>0`, `;:` and trailing colon forms,
+  plus discrepancies between prose and code. Its lower-page advertisement is
+  explicitly excluded. Exact code spacing, border-star counts and historical
+  glyph correspondence remain unverified; neither program was repaired or run.
+- Delivered `build/pdf-restoration/11-batch-02/`: 125 files, 11,842,040 bytes,
+  including an index, report, two portable previews, three figures, 27 scan
+  regions and separate text/listing/raw-OCR downloads and correction records.
+  Original unreviewed evidence remains in `11-batch-02-evidence/`; deterministic
+  reviewed rebuilds remain in `11-batch-02-repeat/`. No prior package changed.
+- Validation: all 37 focused PDF tests pass. Both rebuilds are byte-identical;
+  package/link/hash checks, raw preservation and complete transcription accounting
+  pass. A no-op batch resume leaves its ledger unchanged. Browser checks at
+  1440×1000 and 360×800 confirm all 37 DOM blocks, three images, visible review
+  limits and no page overflow; code scrolls within its container. All 35 fetched
+  assets match their pins. Actual index → article, listing download and scan
+  clicks succeed; the downloaded listing matches the package byte for byte.
+  Screenshots are in `output/playwright/pdf-11-batch-02/`.
+- Browser setup initially raced server startup; navigation succeeded after the
+  server started. A stalled sandboxed Playwright call succeeded after escalation.
+  The only subsequent resource error was the local server's missing favicon;
+  article assets pass. No full-repository check is claimed for this data-only
+  batch; no application or extraction-tool code changed.
+- Observed mapping elapsed time: 240.5 seconds. Transcription/review and correction
+  preparation: 205.3 seconds. Cached processing totals: 10.4 seconds rendering/
+  cropping and 11.5 seconds OCR. These are bounded batch observations, not proof
+  of character-perfect code or a forecast of whole-issue throughput.
+- Updated `private/pdf-restoration/11-november/issue-progress.json` and saved a
+  pinned batch snapshot: 47 entries reconcile to six readable/sample-reviewed
+  articles, one group heading and 40 unresolved eligibility decisions. Those 40
+  are not failed or missing articles. Preserved all four prior article manifests.
+- Saved mapping, OCR, timing, package/browser validation and closeout records
+  under `private/pdf-restoration/11-batch-02/`. Preview:
+  `http://127.0.0.1:4180/`. Outcome: batch complete; November issue in progress.
+  Stall count 0. Next: name `11-batch-03` before mapping within the same limits;
+  issue-wide reader staging and coverage reconciliation remain the later closeout.

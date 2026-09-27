@@ -654,3 +654,41 @@ checks and desktop/mobile browser checks pass. Batch output totals 103 files /
 articles, one group heading and 42 unresolved eligibility decisions among the
 47 original TOC entries. This is a completed batch, not an issue closeout;
 issue-wide staging and coverage reconciliation follow the remaining named batches.
+
+### November batch 02
+
+`11-batch-02` restores existing entries `maso-1983-11-toc-0014` (ENEMY SATELLITE,
+PDF35 / printed33) and `maso-1983-11-toc-0015` (REVERSE, PDF36–37 / printed34–35).
+Both are readable/sample-reviewed. Open `build/pdf-restoration/11-batch-02/index.html`
+or the local preview at `http://127.0.0.1:4180/`.
+
+The packages preserve three figures, all explanation text and downloadable BASIC
+listings. ENEMY SATELLITE's dotted-leader annotations are separate reading text,
+with their printed line associations recorded in `corrections.json`. Faint
+operators and one prose uncertainty are marked. REVERSE's shared-page advertisement
+is excluded. Printed code anomalies, prose/code discrepancies and physical listing
+wraps remain intact. Exact spacing, border-star counts and glyph correspondence
+remain unverified; these are transcription downloads, not tested executable code.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-02/state
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-02/state \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-02-evidence
+
+# Rebuild into a fresh directory; use reverse for the other article.
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-02/enemy/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-02-new/enemy
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-02-new/enemy
+
+python3 -m http.server 4180 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-02
+```
+
+Private mapping, transcriptions, corrections, validation and closeout records are
+under `private/pdf-restoration/11-batch-02/`. The batch contains 125 files /
+11,842,040 bytes. All 37 focused PDF tests, deterministic rebuilds, complete asset
+checks and desktop/mobile browser checks pass. The November ledger now records
+six restored articles, one group heading and 40 unresolved eligibility decisions;
+the next checkpoint is `11-batch-03`, within the same two-article/six-page limits.
