@@ -692,3 +692,40 @@ under `private/pdf-restoration/11-batch-02/`. The batch contains 125 files /
 checks and desktop/mobile browser checks pass. The November ledger now records
 six restored articles, one group heading and 40 unresolved eligibility decisions;
 the next checkpoint is `11-batch-03`, within the same two-article/six-page limits.
+
+### November batch 03
+
+`11-batch-03` restores `maso-1983-11-toc-0016` (원), PDF38–39 / printed36–37.
+Open `build/pdf-restoration/11-batch-03/index.html` or `http://127.0.0.1:4181/`.
+The article is readable/sample-reviewed, with both formulas, an illustration and
+five independent captioned BASIC listings. Printed code wraps and discrepancies
+are preserved; exact code spacing/glyphs and one prose reading remain unverified.
+
+Its `corrections.json` includes selected `notable_corrections` examples alongside
+the pinned raw/scan evidence and full reviewed blocks. A `listing_index` identifies
+each listing's block, region and UTF-8 byte range in the combined `listing.txt`.
+The byte range ends are exclusive and include blank-line separators. The download
+contains five separate printed programs, not one executable program.
+
+One crop edge was widened during review. The original `map.json`, `state/` and
+`11-batch-03-evidence/` remain intact. Final recipes use `map-reviewed.json` and
+evidence from `state-reviewed/`, which reused 22 regions and processed only r08.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-03/state-reviewed
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-03/state-reviewed \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-03-evidence-reviewed
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-03/circle/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-03-new/circle
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-03-new/circle
+python3 -m http.server 4181 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-03
+```
+
+Output totals 104 files / 9,617,434 bytes. All 37 focused tests, deterministic
+rebuild, asset checks and desktop/mobile checks pass. November now has seven
+restored articles, one group heading and 39 unresolved eligibility decisions.
+Next is `11-batch-04`: establish 잠수함's extent before admitting extraction;
+split work into bounded checkpoints if it exceeds the six-source-page ceiling.

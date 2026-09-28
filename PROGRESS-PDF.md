@@ -780,3 +780,83 @@ history remains in [PROGRESS.md](PROGRESS.md).
   `http://127.0.0.1:4180/`. Outcome: batch complete; November issue in progress.
   Stall count 0. Next: name `11-batch-03` before mapping within the same limits;
   issue-wide reader staging and coverage reconciliation remain the later closeout.
+
+### 2026-09-28 — 11-batch-03 started: 원
+
+- Batch 02 is committed as `3aee759`. Named `maso-1983-11-toc-0016` (원)
+  before mapping candidate PDF38–39, with boundary lookups PDF37/40. Saved the
+  current issue ledger, input pins and mapping start time in the private batch.
+- This batch admits one article within the two-article/six-page ceilings, with
+  twenty lookup pages and one targeted retry per failed region. The next entry,
+  잠수함, has a possible eight-page span from TOC candidates; its actual extent
+  and a suitably bounded checkpoint will be determined separately. No article
+  failure or missing pages are inferred from those candidates.
+- Confirmed PDF38–39 / printed36–37 as the complete article, with PDF37/40
+  serving only as boundary lookups. Mapped 23 regions: 22 text/code regions
+  and one illustration. All OCR tasks completed without engine failure.
+- Widened r08's right crop edge after review, preserving the initial map, state
+  and evidence export. `map-reviewed.json`, `request-reviewed.json` and
+  `state-reviewed/` are the final mapping inputs. Only r08 was reprocessed;
+  the other 22 region payloads were reused byte for byte.
+- Reviewed every printed row. Preserved three-column reading order, both formulas,
+  repeated title, five listing captions and all physical code wraps. The new
+  `corrections.json` includes 13 selected before/after OCR examples and verified
+  byte ranges for five independent listings in `listing.txt`. Code precision
+  limits and one prose uncertainty remain visible.
+- All 37 focused tests, package/link/hash checks, raw preservation, transcription
+  accounting, five listing ranges and the byte-identical rebuild pass. Browser
+  acceptance and issue-ledger reconciliation are next.
+
+### 2026-09-28 — 11-batch-03 complete: 원
+
+- Restored the single named article as **readable / sample-reviewed**, using two
+  source pages and two boundary lookups. All 23 regions are represented: three
+  prose columns, both formulas, one illustration, both occurrences of the title,
+  provider/platform text and five captioned BASIC listings. No TOC entry or
+  parent body was invented; no neighboring article or advertisement was included.
+- Preserved original map/state/evidence and the separate reviewed map revision.
+  The r08 crop adjustment processed one changed region and reused the other 22
+  payloads unchanged. No OCR engine retry or failed task was needed. Empty OCR
+  results for both white-on-dark titles were recovered directly from the scans.
+- `corrections.json` now includes 13 selected raw/reviewed excerpts with scan
+  evidence, plus a `listing_index` giving each independent listing's caption,
+  block/region identity and exact UTF-8 byte range in `listing.txt`. These examples
+  supplement the full reviewed blocks; they are not an exhaustive edit diff.
+  Five byte ranges were checked against the exported listing and browser fetch.
+- Retained physical code wraps, including split `180`, `X1` and `Y1` tokens;
+  the five listings are separate programs, not one executable file. Preserved
+  prose `SQRT` versus printed code `SQR`, listing 4's endpoint `X0`, and spaced
+  `> =` operators. Exact spacing and 0/O/1/I glyph correspondence remain
+  unverified. One localized 여태/어태 prose uncertainty is visibly marked.
+  No historical algorithm, prose claim or program was repaired or executed.
+- Delivered `build/pdf-restoration/11-batch-03/`: 104 files, 9,617,434 bytes,
+  including the batch index/report, portable article, 37 blocks, five code
+  blocks, one figure, scan regions and separate correction/raw-OCR/text/listing
+  artifacts. Final raw evidence is in `11-batch-03-evidence-reviewed/`; the
+  initial evidence remains in `11-batch-03-evidence/`. The repeat reviewed export
+  in `11-batch-03-repeat/` is byte-identical.
+- All 37 focused PDF tests pass. Package hashes/links, original raw bytes,
+  unaffected cached payloads, complete transcription accounting and listing
+  ranges pass. A no-op resume leaves the reviewed ledger unchanged. Desktop
+  1440×1000 and mobile 360×800 checks confirm exact text for all 37 DOM blocks,
+  both formulas, image readiness, all five code blocks and no page overflow.
+  All 27 fetched assets match their pins. Actual index → article, listing
+  download and widened-scan clicks succeed. The downloaded listing is identical.
+  Screenshots are in `output/playwright/pdf-11-batch-03/`; the only console
+  resource error was the local server's missing favicon.
+- Observed initial mapping: 67.2 seconds; transcription/review and correction
+  preparation, including the crop adjustment: 271.4 seconds. Initial regional
+  processing took 7.5 seconds rendering/cropping and 9.5 seconds OCR. The reviewed
+  plan reused 22 cached regions and ran only r08; its cached timing totals are
+  not additional full-batch processing. Measurements do not establish exact code
+  transcription or predict whole-issue throughput.
+- Reconciled all 47 November entries: seven restored/sample-reviewed articles,
+  one group heading and 39 unresolved eligibility decisions. Preserved the six
+  prior article manifests. Saved the updated issue ledger, batch snapshot,
+  validation and pinned closeout records under the private batch directory.
+- Updated the plan and workflow documentation; no application/extraction code
+  changed. Preview: `http://127.0.0.1:4181/`. Batch complete; issue in progress;
+  stall count 0. Next: `11-batch-04`, first establishing 잠수함's actual extent.
+  If it exceeds six source pages, define bounded mapping/segment checkpoints
+  before extraction, retaining one article identity and explicit partial coverage
+  until assembly. Do not silently raise the source-page ceiling.
