@@ -771,3 +771,59 @@ Its scope is saved in the private batch's `next-checkpoint.json`. After that rep
 is committed, `11-batch-05` handles the six remaining pages within the existing
 ceiling. A later aggregation checkpoint preserves one article identity and all
 segment evidence while checking complete coverage; it performs no new extraction.
+
+### Evidenced raster orientation correction
+
+`11-orientation-repair` qualified PDF42 / printed40 with an explicit 180-degree
+clockwise correction. The source PDF and its rotation metadata (0) remain
+unchanged. The optional page field is separate from inventory geometry:
+
+```json
+"orientation_correction": {
+  "clockwise_degrees": 180,
+  "evidence": "The title, folio and listing are upside down in the source render."
+}
+```
+
+Allowed corrections are 90, 180 and 270 degrees, with a nonblank observation.
+Omit the field when no correction is needed. This additive schema change keeps
+existing maps valid. `page_transform()` composes the source PDF rotation and
+this correction; recompute `pdf_to_upright_normalized` when adding or changing
+it. Map every region and exclusion against the corrected, upright image.
+`width_pt`, `height_pt`, `MediaBox`, `CropBox` and `rotation` retain their original
+inventory values, including for quarter-turn corrections that swap raster size.
+
+Both OCR paths use a lossless pixel transpose after Poppler's metadata-aware
+render and before exclusion masking and region cropping. Crop bounds and TSV
+positions refer to that corrected image. The standalone `page.png` remains the
+original Poppler render; `eligible-page.png` and region crops use the correction.
+The batch runner keeps full page renders temporary and exports region evidence.
+
+The pinned map, page evidence and regional OCR settings carry the correction.
+Publication rejects missing or mismatched correction evidence, including page
+evidence used for figures. Batch dependencies already include page geometry, so
+changing a correction invalidates that page's tasks while unrelated pages can
+reuse their cache. Changes to tool implementation also invalidate runtime pins:
+older batch states cannot resume under this changed implementation. Keep those
+states as historical evidence and prepare a fresh named state for new work.
+Existing reviewed packages can still be checked or rebuilt from their recipes.
+
+Qualification evidence is in `private/pdf-restoration/11-orientation-repair/`
+and `build/pdf-restoration/11-orientation-repair-evidence/`. The four samples
+check the title, first listing rows, last listing rows and folio, on one real
+source page. Batch and standalone crops match pixel for pixel. Inspection
+confirms upright title, folio40 and listing boundaries490–1817. Raw OCR still
+contains errors and has not been promoted to reviewed transcription.
+
+All 42 focused tests pass, covering composed rotations, invalid correction
+records, exclusion masking, crops, selective cache invalidation and publication
+provenance. Eight existing November packages pass integrity checks; the opening
+segment rebuild remains byte-identical. No article availability or issue counts
+changed in this repair.
+
+The owner has authorized later manual correction of user-defined bitmap glyphs.
+Continue with scan-linked markers and unresolved bytes/counts in `corrections.json`;
+do not make decoding these glyphs a prerequisite for extraction. `11-batch-05`
+will map and restore all six continuation pages, using r15+ IDs and the evidenced
+correction on PDF42. The qualification windows are not a complete listing map.
+Keep segment coverage partial until the separate eight-page assembly checkpoint.

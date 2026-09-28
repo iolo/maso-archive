@@ -14,11 +14,26 @@ def scan_id(toc_entry_id):
     return 'scan-' + toc_entry_id
 
 
+def orientation_degrees(page):
+    """Explicit clockwise raster correction; absence preserves legacy geometry."""
+    correction = page.get('orientation_correction')
+    if correction is None and 'orientation_correction' not in page:
+        return 0
+    if (not isinstance(correction, dict) or
+        set(correction) != {'clockwise_degrees', 'evidence'} or
+        type(correction['clockwise_degrees']) is not int or
+        correction['clockwise_degrees'] not in (90, 180, 270) or
+        not isinstance(correction['evidence'], str) or not correction['evidence'].strip()):
+        raise ValueError('Invalid evidenced orientation correction')
+    return correction['clockwise_degrees']
+
+
 def page_transform(page):
     """Affine PDF bottom-left points -> upright normalized top-left coordinates.
 
     [a,b,c,d,e,f] means u=a*x+c*y+e; v=b*x+d*y+f. Use MediaBox because
-    page rendering uses the full page (no Poppler -cropbox option).
+    page rendering uses the full page (no Poppler -cropbox option). Compose
+    immutable PDF rotation with the optional clockwise raster correction.
     """
     x0, y0, x1, y1 = page['MediaBox']
     width, height = x1 - x0, y1 - y0
@@ -28,9 +43,10 @@ def page_transform(page):
                 180: [-1, 0, 0, 1, x1, -y0], 270: [0, -1, -1, 0, y1, x1]}
     if page['rotation'] not in matrices:
         raise ValueError('Unsupported page rotation')
-    if page['rotation'] in (90, 270):
+    rotation = (page['rotation'] + orientation_degrees(page)) % 360
+    if rotation in (90, 270):
         width, height = height, width
-    a, b, c, d, e, f = matrices[page['rotation']]
+    a, b, c, d, e, f = matrices[rotation]
     return [a / width, b / height, c / width, d / height, e / width, f / height]
 
 

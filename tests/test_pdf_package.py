@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 import unittest
 
+from jsonschema import ValidationError
+
 from tools.pdf_restore.package import page_transform, validate_package
 
 EXAMPLE = Path(__file__).resolve().parents[1] / 'examples/pdf-article.json'
@@ -46,6 +48,38 @@ class PDFPackageTests(unittest.TestCase):
         p['pages'][0]['pdf_page'] = 12
         with self.assertRaisesRegex(ValueError, 'numbering'):
             validate_package(p)
+
+    def test_orientation_composes_with_source_rotation_without_mutation(self):
+        for rotation in (0, 90, 180, 270):
+            for correction in (90, 180, 270):
+                p = self.package()
+                row = page(0, rotation)
+                row['orientation_correction'] = dict(clockwise_degrees=correction, evidence='Synthetic inverted title')
+                before = copy.deepcopy(row)
+                matrix = page_transform(row)
+                self.assertEqual(row, before)
+                self.assertEqual(matrix, page_transform(page(0, (rotation + correction) % 360)))
+                row['pdf_to_upright_normalized'] = matrix
+                p['pages'] = [row]
+                validate_package(p)
+                row['pdf_to_upright_normalized'] = before['pdf_to_upright_normalized']
+                with self.assertRaisesRegex(ValueError, 'Rotation transform'):
+                    validate_package(p)
+
+    def test_orientation_requires_supported_angle_and_evidence(self):
+        invalid = [None, {}, {'clockwise_degrees': 180},
+                   {'clockwise_degrees': 180, 'evidence': '  '},
+                   {'clockwise_degrees': 180, 'evidence': 'Observed', 'extra': 1}]
+        invalid += [dict(clockwise_degrees=v, evidence='Observed') for v in (0, -90, 45, 360, True, '180')]
+        for correction in invalid:
+            with self.subTest(correction=correction):
+                p = self.package()
+                p['pages'] = [page(0)]
+                p['pages'][0]['orientation_correction'] = correction
+                with self.assertRaises((ValidationError, ValueError)):
+                    validate_package(p)
+                with self.assertRaises(ValueError):
+                    page_transform(p['pages'][0])
 
     def test_shared_page_excludes_advertisement(self):
         p = self.package()

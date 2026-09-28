@@ -13,6 +13,7 @@ from PIL import Image
 
 from tools.pdf_restore import batch
 from tools.pdf_restore.inventory import pin, write_json
+from tools.pdf_restore.package import page_transform
 import test_pdf_build as build_fixtures
 
 
@@ -176,6 +177,50 @@ class PDFBatchTests(unittest.TestCase):
         new_runtime = self.prepare(self.root / 'private/model-change')
         self.assertTrue(all(a['key'] != b['key'] for a, b in zip(mapped['tasks'], new_runtime['tasks'])))
 
+    def test_orientation_invalidates_only_affected_page_and_exports_provenance(self):
+        self.data['articles'][0].pop('recipe')
+        path = self.root / 'private/pilot/map.json'
+        package = json.loads(path.read_bytes())
+        second = deepcopy(package['pages'][0])
+        second.update(pdf_index=1, pdf_page=2)
+        package['pages'].append(second)
+        package['regions'][2]['pdf_index'] = 1
+        inventory_path = self.root / 'private/pdf-restoration/inventory/sources.json'
+        inventory = json.loads(inventory_path.read_bytes())
+        inventory['sources'][0]['pages'].append(second)
+        write_json(inventory_path, inventory)
+        write_json(path, package)
+        self.data['articles'][0]['map'] = pin(self.root, path.relative_to(self.root).as_posix())
+        original = self.prepare()
+        with patch.object(batch, 'process_region', side_effect=self.worker):
+            batch.resume(self.state, self.root)
+        correction = dict(clockwise_degrees=180, evidence='Synthetic inverted title and folio')
+        package['pages'][0]['orientation_correction'] = correction
+        package['pages'][0]['pdf_to_upright_normalized'] = page_transform(package['pages'][0])
+        write_json(path, package)
+        self.data['articles'][0]['map'] = pin(self.root, path.relative_to(self.root).as_posix())
+        state = self.root / 'private/oriented'
+        revised = self.prepare(state)
+        self.assertEqual([a['key'] != b['key'] for a, b in zip(original['tasks'], revised['tasks'])],
+                         [True, True, False])
+        self.calls.clear()
+        with patch.object(batch, 'process_region', side_effect=self.worker):
+            self.assertEqual(batch.resume(state, self.root)['attempts'], 2)
+        self.assertEqual(self.calls, [t['id'] for t in revised['tasks'][:2]])
+        output = self.root / 'build/oriented'
+        outcome = batch.export(state, output, self.root)[0]
+        self.assertTrue(outcome['review_required'])
+        self.assertIsNone(outcome['reviewed_export'])
+        folder = output / package['id'] / 'ocr-page1'
+        for filename in ('evidence.json', 'r1-psm6.settings.json'):
+            self.assertEqual(json.loads((folder / filename).read_bytes())['orientation_correction'], correction)
+        exported_map = json.loads((folder.parent / 'map.json').read_bytes())
+        self.assertEqual(exported_map['pages'][0]['rotation'], 0)
+        self.assertEqual(batch.check_export(output)['summary']['counts'], {'complete': 3})
+        ledger = (state / 'ledger.json').read_bytes()
+        batch.resume(state, self.root)
+        self.assertEqual((state / 'ledger.json').read_bytes(), ledger)
+
     def test_page_ceiling_and_source_changes(self):
         plan = self.prepare()
         self.data['articles'][0].pop('recipe')
@@ -265,6 +310,46 @@ class PDFBatchTests(unittest.TestCase):
             batch.process_region(plan['tasks'][0], output, scratch, self.root, self.runtime)
             batch.process_region(plan['tasks'][2], output, scratch, self.root, self.runtime)
         self.assertEqual(renderer.call_count, 1)
+
+    def test_real_worker_orients_before_masking_and_cropping(self):
+        plan = self.prepare()
+        scratch = self.root / 'private/orientation-scratch'
+        scratch.mkdir()
+        # Distinct corners make direction and quarter-turn dimension errors visible.
+        source = Image.new('RGB', (4, 6), 'blue')
+        source.putpixel((0, 0), (255, 0, 0))
+        source.putpixel((3, 5), (0, 255, 0))
+        def render(args, **kwargs):
+            source.save(args[-1] + '.png')
+        expected = {90: ((6, 4), (5, 0), (0, 3)), 180: ((4, 6), (3, 5), (0, 0)),
+                    270: ((6, 4), (0, 3), (5, 0))}
+        with patch.object(batch.subprocess, 'run', side_effect=render) as renderer:
+            for degrees, (size, red, green) in expected.items():
+                task = deepcopy(plan['tasks'][1])  # Figure: exercise real crop without an OCR engine.
+                dep = task['dependency']
+                dep['page']['orientation_correction'] = dict(clockwise_degrees=degrees, evidence='Synthetic corners')
+                dep['region']['bbox'] = [0, 0, 1, 1]
+                dep['exclusions'] = []
+                output = self.root / f'private/rotation-{degrees}'
+                output.mkdir()
+                batch.process_region(task, output, scratch, self.root, self.runtime)
+                with Image.open(output / 'region.png') as image:
+                    self.assertEqual(image.size, size)
+                    self.assertEqual(image.getpixel(red), (255, 0, 0))
+                    self.assertEqual(image.getpixel(green), (0, 255, 0))
+                # Mask an excluded region touching a fractional crop boundary.
+                dep['region']['bbox'] = [0, 0, 1, .49]
+                dep['exclusions'] = [[0, .49, 1, 1]]
+                batch.process_region(task, output, scratch, self.root, self.runtime)
+                with Image.open(output / 'region.png') as image:
+                    self.assertEqual(image.size, (size[0], size[1] // 2))
+                    self.assertNotIn((0, 255, 0) if degrees == 90 else (255, 0, 0),
+                                     [c for _, c in image.getcolors(24)])
+                    self.assertEqual(image.getpixel(red if degrees == 90 else green),
+                                     (255, 0, 0) if degrees == 90 else (0, 255, 0))
+                    self.assertTrue(all(image.getpixel((x, image.height - 1)) == (255, 255, 255)
+                                        for x in range(image.width)))
+            self.assertEqual(renderer.call_count, 3)
 
 
 if __name__ == '__main__':

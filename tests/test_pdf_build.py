@@ -101,6 +101,55 @@ class PDFBuildTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'already exists'):
                 build(recipe, output, root)
 
+    def test_oriented_page_requires_matching_image_and_ocr_provenance(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            recipe_path = self.fixture(root)
+            base = recipe_path.parent
+            correction = dict(clockwise_degrees=180, evidence='Synthetic inverted title')
+            package = json.loads((base / 'map.json').read_bytes())
+            package['pages'][0]['orientation_correction'] = correction
+            package['pages'][0]['pdf_to_upright_normalized'] = page_transform(package['pages'][0])
+            write_json(base / 'map.json', package)
+            recipe = json.loads(recipe_path.read_bytes())
+            recipe['map'] = pin(base, 'map.json')
+            corrections = json.loads((base / 'corrections.json').read_bytes())
+            corrections['map'] = recipe['map']
+            write_json(base / 'corrections.json', corrections)
+            recipe['corrections'] = pin(base, 'corrections.json')
+            evidence = json.loads((base / 'ocr/evidence.json').read_bytes())
+            for row in evidence['results']:
+                path = base / 'ocr' / row['settings']['path']
+                settings = json.loads(path.read_bytes())
+                settings['package']['sha256'] = recipe['map']['sha256']
+                write_json(path, settings)
+                row['settings'] = pin(base / 'ocr', path.name)
+
+            def save_evidence():
+                write_json(base / 'ocr/evidence.json', evidence)
+                recipe['ocr_bundles'][0]['manifest'] = pin(base, 'ocr/evidence.json')
+                write_json(recipe_path, recipe)
+
+            save_evidence()
+            with self.assertRaisesRegex(ValueError, 'evidence orientation'):
+                build(recipe_path, root / 'build/missing-image-provenance', root)
+            evidence['orientation_correction'] = correction
+            save_evidence()
+            with self.assertRaisesRegex(ValueError, 'orientation correction'):
+                build(recipe_path, root / 'build/missing-ocr-provenance', root)
+            for row in evidence['results']:
+                path = base / 'ocr' / row['settings']['path']
+                settings = json.loads(path.read_bytes())
+                settings['orientation_correction'] = correction
+                write_json(path, settings)
+                row['settings'] = pin(base / 'ocr', path.name)
+            save_evidence()
+            output = root / 'build/oriented'
+            built = build(recipe_path, output, root)
+            self.assertEqual(built['pages'][0]['rotation'], 0)
+            self.assertEqual(built['pages'][0]['orientation_correction'], correction)
+            self.assertEqual(check_export(output), built)
+
     def test_prose_only_article_omits_listing_download(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

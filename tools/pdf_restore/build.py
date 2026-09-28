@@ -142,6 +142,9 @@ def build(recipe_path, output, root=ROOT):
         for bundle in recipe['ocr_bundles']:
             folder = safe_path(base, bundle['directory'])
             manifest = json.loads(checked(base, bundle['manifest']))
+            page = next((p for p in package['pages'] if p['pdf_page'] == manifest['pdf_page']), None)
+            if page is None or manifest.get('orientation_correction') != page.get('orientation_correction'):
+                raise ValueError('OCR evidence orientation differs from mapped page')
             if manifest['source_sha256'] != package['source']['sha256'] or manifest['runtime'] != recipe['runtime']:
                 raise ValueError('OCR source or runtime provenance differs')
             images = {r['path']: r for r in manifest['images']}
@@ -153,6 +156,9 @@ def build(recipe_path, output, root=ROOT):
                 if id not in regions or id in raw_regions:
                     raise ValueError('Duplicate or unknown OCR region')
                 settings = json.loads(checked(folder, row['settings']))
+                page = next(p for p in package['pages'] if p['pdf_index'] == regions[id]['pdf_index'])
+                if settings.get('orientation_correction') != page.get('orientation_correction'):
+                    raise ValueError('OCR orientation correction differs from mapped page')
                 if (settings['package']['sha256'] != recipe['map']['sha256'] or
                     settings['source_sha256'] != package['source']['sha256'] or
                     settings['pdf_index'] != regions[id]['pdf_index'] or

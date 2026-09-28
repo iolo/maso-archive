@@ -107,6 +107,16 @@
               270
             ]
           },
+          "orientation_correction": {
+            "description": "Optional clockwise raster correction after PDF rotation. Region coordinates use the corrected image; source geometry stays unchanged.",
+            "type": "object",
+            "properties": {
+              "clockwise_degrees": {"type": "integer", "enum": [90, 180, 270]},
+              "evidence": {"type": "string", "pattern": "\\S"}
+            },
+            "required": ["clockwise_degrees", "evidence"],
+            "additionalProperties": false
+          },
           "MediaBox": {
             "type": "array",
             "items": {

@@ -17,7 +17,7 @@ from PIL import Image, __version__ as pillow_version
 
 from .build import build, checked, safe_path
 from .inventory import ROOT, digest, pin, write_json
-from .ocr import RUNTIME, pixel_box, run_region, verify_runtime
+from .ocr import RUNTIME, orient_image, pixel_box, run_region, verify_runtime
 from .package import validate_package
 
 DEFAULT_CONFIG = {'scale_to': 3000, 'psm': 6}
@@ -259,6 +259,7 @@ def process_region(task, stage, scratch, root, runtime):
                        check=True, capture_output=True)
     with Image.open(render) as image:
         image.load()
+        image = orient_image(image, page)
         for bbox in dep['exclusions']:
             image.paste('white', pixel_box(bbox, image.size))
         crop = pixel_box(dep['region']['bbox'], image.size)
@@ -432,10 +433,12 @@ def export(state, output, root=ROOT):
                 base = safe_path(stage, article['id'])
                 base.mkdir()
                 (base / 'map.json').write_bytes(checked(root, article['map']))
+                page_map = {p['pdf_page']: p for p in json.loads((base / 'map.json').read_bytes())['pages']}
                 bundles = []
                 for pdf_page in article['source_pages']:
                     folder = base / f'ocr-page{pdf_page}'
                     folder.mkdir()
+                    page = page_map[pdf_page]
                     images, results = [], []
                     for task in tasks:
                         dep = task['dependency']
@@ -451,6 +454,7 @@ def export(state, output, root=ROOT):
                             shutil.copyfile(cached / ('result.' + suffix), safe_path(folder, name + '.' + suffix))
                         cached_settings = json.loads((cached / 'settings.json').read_bytes())
                         write_json(folder / (name + '.settings.json'), {**dep['config'],
+                            **{k: dep['page'][k] for k in ('orientation_correction',) if k in dep['page']},
                             'region_ids': [id], 'image': id + '.png', 'package': {'sha256': article['map']['sha256']},
                             'source_sha256': dep['source_sha256'], 'pdf_page': pdf_page, 'pdf_index': pdf_page - 1,
                             'render_scale_to': dep['config']['scale_to'], 'runtime': plan['runtime_pin'],
@@ -460,6 +464,7 @@ def export(state, output, root=ROOT):
                         results.append({'region_ids': [id], 'text': pin(folder, name + '.txt'),
                                         'positions': pin(folder, name + '.tsv'), 'settings': pin(folder, name + '.settings.json')})
                     write_json(folder / 'evidence.json', {'source_sha256': tasks[0]['dependency']['source_sha256'],
+                               **{k: page[k] for k in ('orientation_correction',) if k in page},
                                'pdf_page': pdf_page, 'runtime': plan['runtime_pin'], 'images': images, 'results': results})
                     bundles.append({'directory': folder.name, 'manifest': pin(base, folder.name + '/evidence.json')})
                 complete = all(ledger['tasks'][t['id']]['status'] == 'complete' for t in tasks)

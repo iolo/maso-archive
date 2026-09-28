@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-28. Status: **in progress; steps 1–10 and 11-batch-01–04 complete (잠수함 opening only); next: 11-orientation-repair, then 11-batch-05 continuation**.
+Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–04 and 11-orientation-repair complete (잠수함 opening only); next: 11-batch-05 continuation, with manual bitmap correction deferred**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -80,6 +80,16 @@ readable result must preserve coherent prose order and expose available code and
 figures without silent omissions; code that has not been checked character by
 character remains explicitly unverified. This is not a requirement to execute
 historical code or to proofread the whole archive.
+
+For old user-defined bitmap characters, the owner has authorized manual
+post-production correction (2026-09-28). Preserve uncertain occurrences as
+explicit markers linked to printed lines and pinned scan regions in
+`corrections.json`; leave unknown character codes/counts unresolved. Do not let
+glyph decoding block the bounded extraction pass or invent replacement bytes.
+Track pending manual glyph corrections separately from deferred page coverage.
+Complete page coverage can be readable with these visible uncertainties;
+segmented coverage remains partial until assembly. Neither status certifies
+character-perfect or executable code.
 
 Before bulk work, prove useful results on the pilot and contrasting samples,
 including Korean prose, code, illustrations, and later layouts. An image-only or

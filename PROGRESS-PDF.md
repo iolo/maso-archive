@@ -944,3 +944,55 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Saved its one-real-page limit and acceptance criteria in `next-checkpoint.json`.
   Commit that repair before `11-batch-05` processes PDF42–47; reserve r15+ region
   identities and preserve this opening package until the assembly checkpoint.
+
+### 2026-09-28 — 11-orientation-repair started
+
+- Opening checkpoint is committed as `755edff`. Begin the saved one-real-page
+  repair for PDF42, with synthetic checks for transforms, crops, masking, cache
+  invalidation and provenance. Preserve source geometry and prior packages.
+- Recorded the owner's authorization to defer old bitmap-character correction
+  to manual post-production. Keep occurrence markers and scan evidence in
+  `corrections.json`; pending glyph correction will not block extraction and is
+  tracked separately from the six deferred continuation pages.
+- Added optional evidenced clockwise orientation correction while retaining
+  original inventory geometry. Both OCR paths transpose before masking/cropping;
+  transforms, settings, image evidence and cache dependencies track it. Export
+  rejects mismatched image/OCR orientation provenance.
+- All 42 focused tests pass. Real qualification on PDF42 completed four sample
+  crops with zero failures/retries; standalone and batch pixels match. Inspected
+  upright repeated title, folio40 and listing boundaries490–1817. Raw OCR errors
+  remain untouched and no reviewed continuation package is claimed.
+
+### 2026-09-28 — 11-orientation-repair complete
+
+- Implemented explicit page-level `orientation_correction`, accepting evidenced
+  clockwise 90/180/270 corrections independently of immutable PDF rotation.
+  Omission retains legacy behavior. PDF-to-upright transforms compose both
+  rotations; masks and crop/TSV coordinates use corrected raster geometry.
+  Both render paths use a pixel transpose without resampling.
+- Correction records are pinned through maps, page evidence, OCR settings and
+  batch dependencies. Publication checks image and OCR provenance. Synthetic
+  checks prove all rotation compositions, invalid-input rejection, masking/crop
+  behavior and selective invalidation with unchanged-page cache reuse.
+- Qualified only PDF42 / printed40, within the one-real-page limit. Its source
+  metadata remains rotation 0; the separate correction is 180. Four OCR samples
+  completed without failures or retries: title, initial rows, final rows and
+  folio. Visual review confirms the upright title and listing 490–1817. Batch and
+  standalone crops match pixel for pixel. These are qualification windows, not
+  the full continuation map or approved transcription. No bitmap codes inferred.
+- Saved plan, preservation pins, map, runner state/cache, original and corrected
+  render evidence, orientation review, validation and next-checkpoint records
+  in `private/pdf-restoration/11-orientation-repair/`. Unreviewed batch output is
+  in `build/pdf-restoration/11-orientation-repair-evidence/`.
+- All 42 focused tests, export integrity and no-op resume pass. All eight prior
+  November packages pass integrity checks; the opening package rebuild is
+  byte-identical. Source, inventory, issue ledger and prior opening evidence
+  remain unchanged. November still has seven readable articles, one partial,
+  one group heading and 38 unresolved eligibility decisions.
+- Updated the plan and workflow documentation with the owner's manual bitmap
+  correction decision. Keep scan-linked occurrence markers in `corrections.json`
+  and distinguish deferred glyph corrections from pending page coverage.
+  Existing runner states retain their old implementation pins; new work uses
+  fresh states. Checkpoint complete; stall count 0. Next: `11-batch-05`, restoring
+  PDF42–47 within six pages, r15+ region IDs and the same article identity,
+  followed by separate assembly without new extraction.

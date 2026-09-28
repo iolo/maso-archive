@@ -12,7 +12,7 @@ import time
 from PIL import Image
 
 from .inventory import ROOT, digest, pin, write_json
-from .package import validate_package
+from .package import orientation_degrees, validate_package
 
 RUNTIME = ROOT / 'private/pdf-restoration/ocr-runtime'
 DEB_HASHES = {
@@ -86,6 +86,14 @@ def pixel_box(bbox, size):
     return box
 
 
+def orient_image(image, page):
+    """Correct a Poppler-rendered image before upright masks/crops, without resampling."""
+    degrees = orientation_degrees(page)
+    transpose = {90: Image.Transpose.ROTATE_270, 180: Image.Transpose.ROTATE_180,
+                 270: Image.Transpose.ROTATE_90}
+    return image.transpose(transpose[degrees]) if degrees else image
+
+
 def run_region(image, destination, config, runtime=RUNTIME):
     started = time.monotonic()
     args = [str(runtime / 'root/usr/bin/tesseract'), str(image), str(destination),
@@ -120,6 +128,7 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME):
     subprocess.run(render_args, check=True, capture_output=True)
     with Image.open(render) as image:
         image.load()
+        image = orient_image(image, page)
         # Conservative rounding can include a boundary pixel. Whiten every
         # exclusion before making either page or region OCR inputs.
         for excluded in package['excluded_regions']:
@@ -155,6 +164,8 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME):
                   'runtime': pin(runtime, 'runtime.json'), 'source_sha256': source['sha256'],
                   'package': {'sha256': digest(package_path)}, 'pdf_page': pdf_page,
                   'pdf_index': page['pdf_index'], 'render_size': dimensions, 'render_scale_to': 3000}
+        if 'orientation_correction' in page:
+            config['orientation_correction'] = page['orientation_correction']
         write_json(destination.with_suffix('.settings.json'), config)
         timings[task['name']] = run_region(output / task['image'], destination, task, runtime)
         results.append(dict(region_ids=task['region_ids'],
@@ -163,6 +174,7 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME):
                             settings=pin(output, task['name'] + '.settings.json')))
     write_json(output / 'evidence.json', dict(source_sha256=source['sha256'], pdf_page=pdf_page,
                runtime=pin(runtime, 'runtime.json'), results=results,
+               **{k: page[k] for k in ('orientation_correction',) if k in page},
                images=[pin(output, p.name) for p in sorted(output.glob('*.png'))]))
     write_json(output / 'timing.json', dict(seconds=timings, total_seconds=sum(timings.values()),
                volatile_fields=['timing.json; wall-clock processing time only']))
