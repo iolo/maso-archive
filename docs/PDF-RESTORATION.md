@@ -1063,3 +1063,56 @@ November now has ten readable/sample-reviewed articles, one group heading
 and 36 unresolved eligibility decisions. Next is `11-batch-08`, 당신의 심장을
 진단해 드립니다; reuse its observed PDF55 opening and verify the ending before
 bounded extraction. Deferred submarine bitmap correction remains unchanged.
+
+### November batch 08: 당신의 심장을 진단해 드립니다
+
+`11-batch-08` restores `maso-1983-11-toc-0020`, PDF55–57 / printed53–55.
+PDF58 opens the next article and was the only outside lookup. The opening image
+was reused from batch07. The package contains thirteen reading blocks, one
+illustration and eight code blocks covering 141 numbered rows, 10–1520.
+
+The prose columns join at 고 + 형 지방, retaining both scan references and
+regional transcripts. The illustration and its Microcomputing credit remain
+available. Listing 780 continues across PDF56–57: `listing_line_index` retains
+one global download range with two `segments`, each identifying its original
+region, scan pin and UTF-8 range. Physical code wraps remain intact.
+
+`corrections.json` includes 24 selected OCR corrections, eight block ranges,
+141 line ranges, 25 listing anomalies and five prose review items. Original
+spelling, duplicated wording, numeric references, age ranges and absent closing
+quotes remain as printed. Exact whitespace, decorative asterisk counts,
+ambiguous glyphs and punctuation remain unverified. The package is
+**readable/sample-reviewed**; no historical execution or semantic repair occurred.
+
+Crop revision processed five regions and reused ten. The original and reviewed
+maps/states/evidence exports remain available; both states resume without
+changing their ledgers. There were no engine failures or retries. Preparation
+schema validation and an export blocked by the active OCR lock were resolved
+before the completed export; neither was an OCR engine failure.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-08/state-reviewed
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-08/state-reviewed \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-08-evidence-reviewed
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-08/heart/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-08-new/heart
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-08-new/heart
+python3 -m http.server 4187 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-08
+```
+
+The article package totals 68 files / 16,556,494 bytes; the wrapper/report totals
+72 files / 16,576,347 bytes. A separate rebuild is byte-identical, all 48 focused
+tests pass, and 945 pinned prior inputs remain unchanged. Desktop/mobile checks
+verify all thirteen blocks, the illustration, 19 asset pins and correction
+indexes. Actual article navigation, listing download and scan navigation pass;
+downloaded bytes match. Preview: `http://127.0.0.1:4187/`.
+
+November now has eleven readable/sample-reviewed articles, one group heading
+and 35 unresolved eligibility decisions. Next is `11-batch-09`, the first bounded
+segment of 도서관리 프로그램. Reuse its observed PDF58 opening; the TOC spacing
+suggests a longer article, so preserve explicit deferred coverage within the
+six-page limit. The ending is not yet verified. No application or extraction
+code changes were needed; deferred submarine bitmap correction is unchanged.

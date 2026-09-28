@@ -1299,3 +1299,85 @@ history remains in [PROGRESS.md](PROGRESS.md).
   the ending before mapping, and stay within one article, six source pages and
   six outside lookup pages. The next TOC item begins at printed56; its actual
   source boundary is not yet verified.
+
+### 2026-09-28 — 11-batch-08 started
+
+- AWARI is committed as `8f3ab7e`. Target: 당신의 심장을 진단해 드립니다
+  (`maso-1983-11-toc-0020`). Pin source, TOC, inventory, runtime, issue ledger
+  and prior exports before mapping. Reuse the observed PDF55 / printed53
+  opening and verify the ending from the scan.
+- Limits: one article, six source pages, six outside lookup pages and one
+  targeted retry per failed region. Preserve raw OCR, illustrations, literal
+  code and scan-linked corrections. Record uncertainties without executing or
+  repairing the historical program; reconcile issue counts after validation.
+
+- Confirmed PDF55–57 / printed53–55; PDF58 opens the next article and was
+  the only outside lookup. Mapped 15 regions, one illustration and eight code
+  regions. Revised five crops to preserve code-number margins and complete
+  wrapped rows; ten tasks were reused. All OCR tasks completed without failure.
+- Prepared thirteen reading blocks and 141 numbered code rows, with 24 selected
+  OCR corrections, eight block ranges, 141 line ranges, 25 listing anomalies
+  and five prose review items. Line780 crosses PDF56–57 and retains both scan
+  segments in its global byte range. Joined the two prose columns with both
+  region references. Original wording and unverified code details remain visible.
+- The separate rebuild is byte-identical; all 48 PDF tests and package checks
+  pass. All 945 pinned prior files are unchanged. Browser acceptance is in
+  progress; issue accounting is unchanged until those checks pass.
+
+### 2026-09-28 — 11-batch-08 complete
+
+- Restored 당신의 심장을 진단해 드립니다 (`maso-1983-11-toc-0020`) across
+  PDF55–57 / printed53–55. PDF58 opens 도서관리 프로그램 and was the only
+  outside lookup page. Complete coverage fits the saved one-article/six-page
+  limit; no article assembly is required.
+- Delivered **readable/sample-reviewed** content: 15 regions, thirteen blocks,
+  eight code blocks and one illustration with its printed Microcomputing credit.
+  Joined the prose columns at 고 + 형 지방 while retaining both scan references
+  and regional transcripts. Repeated running titles, folios and decorative
+  borders are excluded from the reading blocks.
+- Preserved 141 numbered BASIC rows, 10–1520, and physical code wraps.
+  `corrections.json` contains 24 selected OCR corrections, eight block ranges,
+  141 `listing_line_index` entries, 25 `listing_anomalies` and five
+  `text_review_items`. Line780 crosses PDF56–57; its global UTF-8 range contains
+  two source segments, each with its own pinned scan and byte range. Verified
+  all ranges and the complete continuation; no missing line numbers were invented.
+- Retained duplicated Korean wording, original numeric references, unusual
+  English spellings and printed age ranges. Missing closing quotes were not
+  supplied. Exact whitespace, decorative asterisk counts, faint punctuation and
+  ambiguous glyphs remain unverified. No custom bitmap markers were identified.
+  No historical execution, semantic repair or factual modernization occurred.
+- Revised five crops to widen the code-number margin and move split boundaries
+  into whitespace, including the complete final row of 990. Five tasks processed,
+  ten reused; both original and reviewed maps/states/evidence exports remain
+  available. Final inputs are `map-reviewed.json` and `state-reviewed/`.
+  Both states resume without modifying their ledgers; zero engine failures or
+  retries. A draft page-schema rejection and a premature export rejected by the
+  active OCR lock are recorded separately; both resolved before export.
+- Exported `build/pdf-restoration/11-batch-08/`: 72 files / 16,576,347 bytes,
+  including the wrapper/report and article package (68 files / 16,556,494 bytes).
+  The separate rebuild is byte-identical. Saved regional transcription,
+  correction evidence, crop review, validation, ledger snapshot and pinned closeout.
+- All 48 focused PDF tests pass. Raw-byte preservation, regional coverage,
+  source geometry, joined prose, image placement and all correction/listing
+  offsets pass. All 945 pinned prior input files remain unchanged.
+- Playwright checks at 1440×1000 and 360×800 pass: all thirteen DOM blocks match,
+  the illustration loads, all 19 fetched asset pins match, and code scrolling
+  stays within its container. Actual index→article, listing download and final
+  scan clicks pass; downloaded bytes match. Inspected prose and mobile screenshots
+  under `output/playwright/pdf-11-batch-08/`. Only the local favicon returned 404.
+  Sandbox socket denial and npx DNS failure were resolved with approved
+  escalation. No application or extraction code changes were required.
+- Observed mapping took 91.7 seconds; crop review, transcription and correction
+  preparation took 473.0 seconds, including processing waits and the server
+  interruption. Initial render/crop and OCR timings were 10.46s/11.49s. Final
+  cached timings were 12.86s/11.50s and include reused tasks; these are not a
+  second full-pass cost or whole-issue throughput estimate.
+- November now has eleven readable/sample-reviewed articles, one group heading
+  and 35 unresolved eligibility decisions across 47 entries. Only this article's
+  entry changed. Prior restorations and deferred submarine bitmap work remain intact.
+- Checkpoint complete; stall count 0. Preview: `http://127.0.0.1:4187/`.
+  Next: `11-batch-09`, the first bounded segment of 도서관리 프로그램
+  (`maso-1983-11-toc-0021`). Reuse PDF58 / printed56, inspect local boundaries
+  within one article, six source pages and six outside lookup pages, and record
+  deferred coverage explicitly. The next TOC entry is GUN MAN at printed82;
+  that spacing suggests segmentation but does not verify the actual ending.

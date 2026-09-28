@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–07, 11-orientation-repair and 11-submarine-assemble complete. AWARI covers all three pages; 잠수함's manual bitmap correction remains deferred. Next: 11-batch-08, establish 당신의 심장을 진단해 드립니다's boundaries and restore a bounded article/segment**.
+Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–08, 11-orientation-repair and 11-submarine-assemble complete. 당신의 심장을 진단해 드립니다 covers all three pages; 잠수함's manual bitmap correction remains deferred. Next: 11-batch-09, establish local boundaries and restore the first bounded segment of 도서관리 프로그램**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
