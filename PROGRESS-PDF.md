@@ -1605,3 +1605,77 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: `11-batch-12`, segment 4 at PDF76 / printed74, beginning with
   BOOKSHELF200. Reuse the observed opening and preserve all three segments.
   No application or extraction code changes were required; no issue closeout.
+
+### 2026-09-28 — 11-batch-12 started
+
+- Segment 3 is committed as `5473888`. Continue 도서관리 프로그램 segment 4
+  from PDF76 / printed74 and BOOKSHELF200. Preserve all three earlier segments,
+  raw OCR and scan-linked corrections. Retain the six-source-page ceiling,
+  six outside lookups and one targeted retry per failed region. Verify the
+  boundary locally; the next TOC start does not establish the article ending.
+- Continue ignoring `tocs/` and preserve the owner's `.gitignore` edit.
+
+- Segment 4 is built with twenty regions, nineteen code blocks and one caption.
+  Its 309 numbered rows belong to BOOKSHELF and SC SEQ LIST0–6. Enlarged scans
+  confirm duplicate BOOKSHELF590; both occurrences remain distinct. Five rows
+  cross regions and LIST6's final240 continues outside this segment on PDF82.
+- Widened the left margins of r02 and r20 to retain clipped line-number digits.
+  The final OCR run processed two tasks and reused eighteen cached results.
+  Both states and evidence exports remain preserved. The reviewed package has
+  eighteen selected OCR corrections, 43 listing anomalies and one caption review.
+  Browser acceptance and checkpoint reconciliation are underway.
+
+### 2026-09-29 — 11-batch-12 complete
+
+- Restored 도서관리 프로그램 segment 4, PDF76–81 / printed74–79, under
+  `maso-1983-11-toc-0021`. Six included pages remain within the source ceiling;
+  PDF82 is the sole outside lookup. SC SEQ LIST6's 240행 continues there.
+  Full article extent remains unverified; the next TOC start is only a hint.
+- Twenty regions produce twenty reading blocks: nineteen code blocks and one
+  caption, without figures. The 309 visible numbered rows belong to eight
+  programs: BOOKSHELF has 118 (200–1370), SC SEQ LIST0–5 each have 28 (10–290),
+  and LIST6 has 23 (10–240, final row incomplete). BOOKSHELF ends here; its
+  opening remains in segment 3. LIST0–5 are complete, and LIST6 is partial.
+- `corrections.json` verifies twenty text ranges, nineteen code-block ranges
+  and 309 line ranges. BOOKSHELF950, LIST2's 110 and 280, LIST3's 220 and LIST6's
+  40 each retain two source segments. Both printed BOOKSHELF590 rows are kept
+  with distinct occurrence/line IDs; 580 is absent. No SC SEQ listing's missing
+  90 was invented. The final240 has explicit deferred continuation provenance.
+- Retained eighteen selected OCR corrections, 43 listing anomalies and one
+  caption review. Original spellings, DATA punctuation and the caption's SEO
+  versus code SEQ remain separately visible. Exact spaces, strings, faint
+  punctuation and glyphs remain unverified; no execution or semantic repair.
+  A final enlarged scan check moved BOOKSHELF1310's opening parenthesis to its
+  printed continuation row. The earlier package and repeat are preserved in
+  ignored `11-batch-12-review-draft/` and `11-batch-12-repeat-review-draft/`.
+- Widened two left crop margins, r02 and r20, to retain all line-number digits.
+  Final inputs use `map-final.json` and `state-final/`. The revision processed
+  two tasks with eighteen cache hits; both completed states resume unchanged.
+  Both evidence exports remain saved. Zero engine failures or retries.
+- Exported `build/pdf-restoration/11-batch-12/`: 95 files / 32,537,804 bytes,
+  including wrapper/report and segment package (91 files / 32,516,920 bytes).
+  The separate final rebuild is byte-identical. All 48 focused PDF tests pass;
+  source geometry, raw evidence, regional coverage, identities and byte ranges
+  validate. All 1,445 prior file pins remained unchanged before the ledger update.
+- Background Playwright checks pass at 1440×1000 and 360×800: twenty DOM blocks,
+  nineteen code containers, 24 asset pins and all 309 line ranges. Code scrolling
+  works without page overflow. Actual index→article, final listing download and
+  final scan clicks pass; downloaded bytes match and the scan loads. Inspected
+  desktop BOOKSHELF and mobile DATA screenshots under
+  `output/playwright/pdf-11-batch-12/`. Checks were repeated after the wrap fix;
+  only favicon.ico returned 404. No application or extraction code changes.
+- Mapping took 66.6 seconds. Initial draft review/build took 643.0 seconds;
+  wall time after mapping through the corrected rebuild was 1,048.0 seconds,
+  including earlier browser checks and waits. Initial render/crop and OCR times
+  were 19.63s/19.84s; final cached totals were 25.02s/19.81s, including reused
+  tasks. These are not active transcription-only or whole-issue throughput.
+- November counts remain eleven readable articles, one partial article, one
+  group heading and 34 unresolved eligibility decisions. Only the library
+  entry changed; its three prior segment records remain identical. Four separate
+  segments now cover PDF58–81 / printed56–79, twenty-four pages, without assembly
+  or a complete-article claim. Deferred submarine bitmap work, `tocs/` and the
+  owner's `.gitignore` edit remain untouched. No issue closeout is claimed.
+- Checkpoint complete; stall count 0. Preview: `http://127.0.0.1:4191/`.
+  Next: `11-batch-13`, segment 5 at PDF82 / printed80. Preserve LIST6's carried
+  240 row with a link to this segment's exact bytes and scans, and verify the
+  remaining article boundary within the same bounded limits.

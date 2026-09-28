@@ -1284,3 +1284,60 @@ heading and 34 unresolved eligibility decisions. Next is `11-batch-12`, segment 
 starting with BOOKSHELF200 at PDF76 / printed74. Ignore `tocs/` for now. Deferred
 submarine bitmap correction is unchanged; no application or extraction code
 changes were needed.
+
+### November batch 12: 도서관리 프로그램, segment 4
+
+`11-batch-12` restores PDF76–81 / printed74–79 under `maso-1983-11-toc-0021`.
+The article remains **partial/sample-reviewed**. Four separately preserved
+segments cover PDF58–81, twenty-four pages; the full ending is still unverified.
+PDF82 is the sole outside lookup and continues SC SEQ LIST6 line240.
+
+Twenty regions produce nineteen code blocks and one caption, with no figures.
+The 309 visible numbered rows comprise BOOKSHELF200–1370 (118 rows), complete
+SC SEQ LIST0–5 (28 rows each, 10–290), and LIST6's opening (23 rows, 10–240).
+BOOKSHELF's opening remains in segment 3; LIST6's final included row is partial.
+
+`corrections.json` records eight listing identities and 309 line ranges.
+Two printed BOOKSHELF590 rows retain distinct occurrence and line IDs; 580 is
+not invented. Missing90 in the SC SEQ programs is also preserved. BOOKSHELF950,
+LIST2's110 and280, LIST3's220 and LIST6's40 each retain two source segments.
+Twenty text ranges, nineteen code-block ranges, eighteen selected OCR corrections,
+43 listing anomalies and one caption review support manual post-production.
+Original DATA strings and printed misspellings remain intact, including the
+caption's SEO versus code SEQ. Exact spaces and ambiguous glyphs remain unverified;
+no execution or semantic repair occurred.
+
+Two left crop margins were widened to retain clipped line-number digits. The
+final run processed two tasks with eighteen cache hits. Both completed OCR states
+resume unchanged; both evidence exports are retained. A final enlarged scan
+check corrected the physical wrap of BOOKSHELF1310's opening parenthesis. Earlier
+packages remain in ignored review-draft directories. Final inputs use
+`map-final.json` and `state-final/`.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-12/state-final
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-12/state-final \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-12-evidence-final
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-12/library-segment-04/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-12-new/library-segment-04
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-12-new/library-segment-04
+python3 -m http.server 4191 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-12
+```
+
+The segment package totals 91 files / 32,516,920 bytes; the wrapper/report totals
+95 files / 32,537,804 bytes. A separate final rebuild is byte-identical, all 48
+focused PDF tests pass, and 1,445 prior file pins were preserved before the
+intentional issue-ledger update. Background desktop/mobile browser checks verify
+all blocks, 24 asset pins and 309 line ranges. Actual article navigation, listing
+download, code scrolling and final scan navigation pass; downloaded bytes match.
+Preview: `http://127.0.0.1:4191/`.
+
+Issue counts remain eleven readable articles, one partial article, one group
+heading and 34 unresolved eligibility decisions. Next is `11-batch-13`, segment 5
+at PDF82 / printed80, preserving the carried LIST6 line240 and verifying the
+remaining article boundary locally. Ignore `tocs/` for now. Deferred submarine
+bitmap correction is unchanged; no application or extraction code changes
+were needed.
