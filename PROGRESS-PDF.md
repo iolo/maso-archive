@@ -1142,3 +1142,82 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and TOC printed46 start, then restore within one article / six source pages.
   Its ending is not yet verified; allow at most six outside lookup pages and
   one targeted retry per failed region. Keep 잠수함's manual glyph work deferred.
+
+### 2026-09-28 — 11-batch-06 started
+
+- Assembly checkpoint is committed as `bb5b759`. Pinned source/TOC/inventory,
+  runtime, issue ledger and previous exports before new work.
+- Target: 체커 (`maso-1983-11-toc-0018`), with one article / six source pages,
+  at most six outside lookup pages and one targeted retry per failed region.
+  Inspect PDF48 onward and the next TOC boundary before determining the map;
+  split the article if its observed extent exceeds the page ceiling.
+- Preserve raw OCR and literal printed code, use scan-linked correction records,
+  and keep unknown glyph bytes/counts explicit. Manual bitmap correction remains
+  deferred; no historical program execution or semantic repair is planned.
+
+- Boundary inspection confirms PDF48–51 / printed46–49; PDF52 starts AWARI.
+  Mapped 17 regions: six figures and eleven text/code regions. Two crop revisions
+  preserve the complete illustrated header and move listing splits into whitespace.
+  Original, first-review and final maps/states/exports remain available; unchanged
+  tasks were reused, with no engine failures or retry attempts.
+- Prepared nine reading blocks, including one joined three-column body and four
+  code blocks containing 73 numbered rows. `corrections.json` records 17 selected
+  OCR corrections, four listing ranges, 73 per-line ranges and twelve printed
+  anomalies. All six figures remain in source order, including the game boards
+  that continue across printed page/column boundaries. Package validation and
+  desktop/mobile browser review are in progress; issue counts are unchanged.
+
+### 2026-09-28 — 11-batch-06 complete
+
+- Restored 체커 (`maso-1983-11-toc-0018`) across PDF48–51 / printed46–49.
+  PDF52 opens AWARI and was the only outside lookup page. Full article coverage
+  fits the saved one-article/six-page limit; no segment assembly is required.
+- Delivered **readable/sample-reviewed** content: 17 regions, nine blocks,
+  four code blocks and six figures. Joined the three prose columns with explicit
+  scan references, including the sentence crossing from the second to third
+  column. Preserved the complete illustrated header, instruction screen and
+  four gameplay columns in source order. Two boards continue across printed
+  page/column boundaries; no rows were invented or images composited.
+- The listing preserves 73 numbered rows, 10–1880, and physical wraps inside
+  strings, expressions and numeric targets. `corrections.json` contains 17
+  selected OCR correction examples, four block ranges, 73 `listing_line_index`
+  entries and twelve `listing_anomalies`, with scan pins and UTF-8 byte offsets.
+  `figure_sequence` records board continuations. Exact whitespace, ambiguous
+  glyphs and faint punctuation remain unverified. No historical execution,
+  syntax repair or program-logic repair was performed. No custom bitmap markers
+  were identified in this listing; gameplay screens remain raster evidence.
+- Retained original map/state/export and both crop revisions. The first revision
+  completed the illustrated header, recovered a wrapped code row and adjusted
+  right-column bounds: four regions processed, thirteen reused. The final split
+  adjustment moved six pixels into whitespace: two processed, fifteen reused.
+  Final inputs are `map-final.json` and `state-final/`. All three states resume
+  without changing their ledgers; there were zero engine failures or retries.
+- Exported `build/pdf-restoration/11-batch-06/`: 65 files / 16,338,741 bytes,
+  including index/report and the article package (61 files / 16,320,406 bytes).
+  The separate reviewed rebuild is byte-identical. Saved unreviewed evidence in
+  the original, reviewed and final evidence exports, plus mapping/crop review,
+  regional transcription, validation, ledger snapshots and pinned closeout.
+- All 48 focused PDF tests pass. Package/link/hash checks, exact raw-byte
+  preservation, complete regional coverage, joined prose, figure order, all
+  listing/line/anomaly ranges and selected correction excerpts pass. All 815
+  pinned prior input files remain unchanged, including the submarine assembly.
+- Playwright checks at 1440×1000 and 360×800 pass: all nine DOM blocks match,
+  all six figures load in order, all 21 fetched asset pins match, and code
+  scrolling stays within its container. Actual index→article, listing download
+  and final scan clicks pass; downloaded listing bytes match. Inspected prose
+  and mobile screenshots under `output/playwright/pdf-11-batch-06/`. Only the
+  local favicon returned 404. Local server/browser acceptance used approved
+  sandbox escalation. No application or extraction code changes were required.
+- Observed mapping took 76.2 seconds; crop review, transcription and correction
+  preparation took 341.2 seconds, including revised-crop processing waits.
+  Initial render/crop and OCR timings were 11.0s/6.5s. Final cached task timings
+  were 16.3s/6.5s and include reused tasks; they are not a second full-pass cost
+  or a claim of exact-code verification or whole-issue throughput.
+- November now has nine readable/sample-reviewed articles, one group heading
+  and 37 unresolved eligibility decisions across 47 entries. Only 체커's entry
+  changed; prior restorations and deferred submarine bitmap work remain intact.
+- Checkpoint complete; stall count 0. Preview: `http://127.0.0.1:4185/`.
+  Next: `11-batch-07`, AWARI (`maso-1983-11-toc-0019`). Reuse the observed PDF52 /
+  printed50 opening, verify the ending before mapping, and stay within one
+  article, six source pages and six outside lookup pages. The next TOC item
+  begins at printed53; its actual source boundary is not yet verified.

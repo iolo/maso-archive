@@ -953,3 +953,57 @@ November now has eight readable, sample-reviewed articles, one group heading
 and 38 unresolved eligibility decisions. The next checkpoint, `11-batch-06`,
 establishes the extent of 체커 before bounded extraction; it does not reopen
 잠수함's deferred bitmap correction.
+
+### November batch 06: 체커
+
+`11-batch-06` restores `maso-1983-11-toc-0018`, PDF48–51 / printed46–49.
+The next article, AWARI, begins on PDF52 / printed50; that was the only outside
+lookup page. The four-page package includes the illustrated opening, joined
+three-column prose, five game/instruction screen images and the two-column BASIC
+listing. The illustrated opening retains its overlaid title/introduction/credit
+as one complete image; those text regions also have reading transcriptions.
+Screens that continue across columns or pages retain their original boundaries.
+
+There are 17 mapped regions, nine reading blocks, six figures and four code
+blocks covering 73 numbered rows, 10–1880. The article is
+**readable/sample-reviewed**. `corrections.json` records 17 selected OCR
+corrections, four block ranges, 73 `listing_line_index` entries and twelve
+`listing_anomalies`, each tied to a scan and UTF-8 listing range. The
+`figure_sequence` records two board continuations. These indexes support later
+manual review without inferring absent punctuation, repairing program logic or
+executing the listing. Physical code wraps and printed anomalies remain visible;
+exact spacing and ambiguous glyphs remain unverified.
+
+Two crop revisions corrected header completeness, listing row boundaries and a
+right margin. The original 17-task state and first revised state remain intact;
+the first revision processed four regions and reused thirteen, then a six-pixel
+split adjustment processed two and reused fifteen. Final evidence is in
+`map-final.json`, `state-final/` and `11-batch-06-evidence-final/`. All three states
+resume without changing their ledgers. No engine failures or retries occurred.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-06/state-final
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-06/state-final \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-06-evidence-final
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-06/checkers/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-06-new/checkers
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-06-new/checkers
+python3 -m http.server 4185 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-06
+```
+
+The article package has 61 files / 16,320,406 bytes. A separate rebuild is
+byte-identical, all 48 focused tests pass, and 815 pinned prior input files remain
+unchanged. Package checks validate raw bytes, coverage, prose joining, image
+order and all listing/correction ranges. No application or extraction code
+changes were needed for this checkpoint.
+
+Desktop/mobile checks verify all nine text blocks, all six figures, 21 asset
+pins and the correction indexes. Actual index→article, listing-download and
+scan navigation passes; downloaded bytes match. The batch wrapper totals
+65 files / 16,338,741 bytes. Preview: `http://127.0.0.1:4185/`.
+November now has nine readable/sample-reviewed articles, one group heading
+and 37 unresolved eligibility decisions. Next is `11-batch-07`, AWARI; reuse its
+observed PDF52 opening and verify its ending before bounded extraction.

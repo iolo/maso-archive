@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–05, 11-orientation-repair and 11-submarine-assemble complete. 잠수함 covers all eight pages; manual bitmap correction remains deferred. Next: 11-batch-06, establish 체커's boundaries and restore a bounded article/segment**.
+Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–06, 11-orientation-repair and 11-submarine-assemble complete. 체커 covers all four pages; 잠수함's manual bitmap correction remains deferred. Next: 11-batch-07, establish AWARI's boundaries and restore a bounded article/segment**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
