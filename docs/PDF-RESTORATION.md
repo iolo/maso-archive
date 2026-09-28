@@ -827,3 +827,54 @@ do not make decoding these glyphs a prerequisite for extraction. `11-batch-05`
 will map and restore all six continuation pages, using r15+ IDs and the evidenced
 correction on PDF42. The qualification windows are not a complete listing map.
 Keep segment coverage partial until the separate eight-page assembly checkpoint.
+
+### November batch 05: 잠수함 continuation
+
+`11-batch-05` restores PDF42–47 / printed40–45 as a second segment of
+`maso-1983-11-toc-0017`. The same article identity now has separate opening and
+continuation packages. The continuation remains **partial/sample-reviewed**;
+assembly is pending, with no further extraction required for these eight pages.
+Open `build/pdf-restoration/11-batch-05/index.html` or
+`http://127.0.0.1:4183/`.
+
+The package contains 21 regions/blocks, including six repeated titles and fifteen
+code blocks covering printed lines490–11360. Physical wraps and printed anomalies
+remain visible. `corrections.json` supplies 20 selected correction examples,
+15 listing byte ranges and 90 scan-linked unresolved graphics occurrences.
+Null character codes/counts remain explicit; the owner will correct these later.
+
+The new `glyph_definitions` index locates 38 printed character definitions by
+declared code, printed line, scan pin and UTF-8 listing range. Repeated &H96, &H97
+and &H87 definitions are preserved, including differing operands. These are
+transcribed, unverified definitions, without inferred bitmap decoding or links
+to graphics-marker byte identities. The listing is not an executable restoration.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-05/state-reviewed
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-05/state-reviewed \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-05-evidence-reviewed
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-05/submarine/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-05-new/submarine
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-05-new/submarine
+python3 -m http.server 4183 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-05
+```
+
+The original map/state/export remain preserved. Crop review required one map
+revision; `map-reviewed.json` and `state-reviewed/` contain the revised boundaries,
+reusing six unchanged title tasks and regenerating fifteen code crops. No engine
+failure or retry occurred. All 42 focused tests, deterministic rebuild, integrity
+checks and desktop/mobile browser checks pass. Output totals 99 files /
+24,031,393 bytes. All prior article packages remain unchanged.
+
+November still has seven readable articles, one partial article, one group
+heading and 38 unresolved eligibility decisions. Its ledger stores both segments
+under the existing article and marks assembly pending. `11-submarine-assemble`
+will combine them without new OCR: 35 regions, 38 blocks, three figures, seventeen
+code ranges, 104 graphics occurrences and 38 definition entries. Assembly must
+retain each segment's original map/OCR settings and review provenance, with
+explicitly rebased scan references and listing offsets. Do not relabel historical
+OCR as having been generated against a newly combined map. Full page coverage
+may become readable while manual glyph corrections remain deferred and visible.

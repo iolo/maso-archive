@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–04 and 11-orientation-repair complete (잠수함 opening only); next: 11-batch-05 continuation, with manual bitmap correction deferred**.
+Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–05 and 11-orientation-repair complete; 잠수함 opening and continuation preserved separately. Next: 11-submarine-assemble, with manual bitmap correction deferred**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

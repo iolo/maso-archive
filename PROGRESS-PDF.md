@@ -996,3 +996,84 @@ history remains in [PROGRESS.md](PROGRESS.md).
   fresh states. Checkpoint complete; stall count 0. Next: `11-batch-05`, restoring
   PDF42–47 within six pages, r15+ region IDs and the same article identity,
   followed by separate assembly without new extraction.
+
+### 2026-09-28 — 11-batch-05 started: 잠수함 continuation
+
+- Orientation repair is committed as `0387789`. Admitted the saved six-page
+  continuation, PDF42–47 / printed40–45, under the existing article identity.
+  Saved input pins, the issue-ledger snapshot and prior-package preservation
+  pins before mapping. Use r15+ region IDs and the qualified correction on PDF42.
+- Bitmap character decoding remains deferred to the owner's manual pass. Keep
+  raw OCR, scan-linked markers, reviewed text and remaining uncertainties in
+  separate correction evidence. The continuation stays partial until assembly.
+- Initial OCR completed all 21 regions without engine failures. Crop review
+  prompted one map revision: widen code margins and move three splits away from
+  rows1000,5500,10160. Kept the initial map/state/export; a fresh state reused six
+  title tasks and regenerated fifteen changed code crops. No engine retry used.
+- Compared all included printed rows and boundaries. Saved 21 transcription
+  blocks (15 code), 20 selected OCR correction examples, 90 unresolved graphics
+  occurrences and an index of 38 printed character definitions. Preserved
+  repeated &H96, &H97 and &H87 definitions and unusual printed forms.
+- Built the continuation as partial/sample-reviewed. The opening remains in its
+  original package; assembly is pending. Package, browser and ledger validation
+  are in progress.
+
+### 2026-09-28 — 11-batch-05 complete: 잠수함 continuation
+
+- Completed PDF42–47 / printed40–45 within the six-source-page ceiling, with
+  zero outside lookup pages. Retained the same article/TOC identity and used
+  r15–r35; opening r01–r14 remain untouched. PDF42 has the qualified separate
+  180-degree correction, with original rotation metadata 0 preserved.
+- Preserved all included printed rows from 490 through 11360, including physical
+  wraps, six repeated titles, character definitions and final screen strings.
+  The package contains 21 blocks, 15 code blocks and 344 numbered rows. It remains
+  **partial/sample-reviewed** until the opening and continuation are assembled.
+  All eight source pages now have segment evidence; no missing page is claimed.
+- `corrections.json` retains 20 selected OCR correction examples, 15 verified
+  UTF-8 listing ranges and 90 unresolved graphics occurrences. Every marker links
+  its printed line, region and pinned scan; encoded bytes and character counts
+  remain null. Manual bitmap correction is deferred to the owner and does not
+  block this extraction checkpoint.
+- Added `glyph_definitions`: 38 printed definitions with declared code, printed
+  line, scan pin and exact listing byte range. Preserved repeated &H96, &H97 and
+  &H87 definitions, including the differing 129/127 operands. The index does not
+  decode bitmaps or associate definitions with graphics markers. Retained the
+  unusual printed comparisons, variable names, punctuation and quote layout;
+  exact spacing, music strings and faint direction symbols remain unverified.
+  No program execution or semantic repair was performed.
+- One map revision widened code margins and moved three splits off printed
+  rows. Initial 21-task evidence stays intact; the new state reused six title
+  tasks and processed fifteen revised code regions. Both states resume without
+  modifying their ledgers. No engine failures or retries occurred.
+- Delivered `build/pdf-restoration/11-batch-05/`: 99 files, 24,031,393 bytes,
+  including the index/report, continuation preview, 21 scan regions, raw OCR,
+  correction record, text and listing. Original and revised unreviewed evidence
+  remain in `11-batch-05-evidence/` and `11-batch-05-evidence-reviewed/`; the
+  reviewed export in `11-batch-05-repeat/` is byte-identical.
+- All 42 focused tests pass. Package/link/hash checks, raw preservation, exact
+  regional transcription accounting, all 15 listing ranges, 90 graphics markers,
+  38 definition ranges and orientation provenance pass. Prior eight article
+  packages and original source/queue/TOC pins remain unchanged.
+- Playwright checks at 1440×1000 and 360×800 pass: all 21 DOM blocks, visible partial
+  scope, 25 fetched asset pins, all correction indexes and contained code scrolling.
+  Actual index→article, listing download and scan clicks succeed; downloaded
+  listing bytes match. Screenshots are under `output/playwright/pdf-11-batch-05/`.
+  Only the local favicon returned 404. A stalled script invocation was cancelled
+  before browser traffic and rerun successfully with the approved wrapper.
+- Observed mapping took 67.0 seconds. Crop revision, transcription and correction
+  preparation took 550.5 seconds, including the revised-crop processing wait.
+  Initial render/crop and OCR timings were 15.0s/14.3s; the revised state's cached
+  task timings are 25.6s/14.3s and include reused title tasks. These are local
+  observations, not exact-code verification or whole-issue throughput estimates.
+- November remains 47 entries: eight classified articles (seven readable, one
+  partial), one group heading and 38 unresolved eligibility decisions. Added the
+  continuation segment to the existing article record, preserving the opening
+  directory/manifest and explicitly marking assembly pending. No new article
+  or readable completion was counted. Saved ledger snapshot and pinned closeout.
+- Preview: `http://127.0.0.1:4183/`. Checkpoint complete; stall count 0. No
+  application/extraction code changed. Next: `11-submarine-assemble`, one article
+  with no new source-page extraction or OCR. Preserve both segments' original
+  maps/settings and review evidence; validate 35 regions, 38 blocks, three figures,
+  17 listing ranges, 104 graphics occurrences and 38 definition entries under one
+  article identity. Add bounded assembly support if needed instead of changing
+  historical OCR provenance to claim a different map.
