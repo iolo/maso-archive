@@ -1542,3 +1542,66 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: `11-batch-11`, segment 3, starting at PDF70 / printed68. Preserve
   SEARCH320's carried row and the two prior segments within the same bounded
   limits. The next TOC start remains a hint, not article-extent evidence.
+
+### 2026-09-28 — 11-batch-11 started
+
+- Segment 2 is committed as `7ead10c`. Continue 도서관리 프로그램 with segment 3
+  at PDF70 / printed68, beginning with the carried CATALOG SEARCH320 row.
+  Pin current inputs and both prior segments; retain raw OCR and scan-linked
+  corrections. Keep the one-article, six-source-page, six-outside-lookup limits
+  and one targeted retry per failed region. Full article extent is unverified.
+- Continue ignoring `tocs/` and preserve the owner's `.gitignore` edit.
+
+- Segment 3 is built: eighteen regions, fifteen code blocks, three captions,
+  506 numbered rows and one carried SEARCH320 fragment. The package retains
+  eleven selected correction examples, 33 listing anomalies and one caption
+  review. All 48 focused PDF tests pass; the separate rebuild is byte-identical
+  and all 1,358 prior input pins remain unchanged. Browser acceptance is underway.
+
+### 2026-09-28 — 11-batch-11 complete
+
+- Restored 도서관리 프로그램 segment 3, PDF70–75 / printed68–73, under
+  `maso-1983-11-toc-0021`. PDF76 was the sole outside lookup; BOOKSHELF200
+  continues there. Six source pages remain within the checkpoint limit.
+  Full article extent is unverified; GUN MAN's TOC start is only a hint.
+- Eighteen regions produce eighteen reading blocks: fifteen code blocks and
+  three listing captions, without figures. SEARCH has 350 visible numbered
+  rows plus the carried 320 fragment, LIST has 42 rows, BORROW 95 and BOOKSHELF
+  19. SEARCH ends here; LIST and BORROW are complete; BOOKSHELF is an opening.
+- `corrections.json` indexes 507 local line ranges across four listing identities,
+  506 with visible numbers. The first unnumbered fragment links the prior
+  SEARCH320 manifest, download, byte range and scan provenance without inventing
+  a local number. SEARCH1570 and BORROW740 each span two current regions.
+  Eighteen text ranges and fifteen code-block ranges are verified.
+- Retained eleven selected OCR corrections, 33 listing anomalies and one caption
+  review. Printed SEARCH numbering gaps and 3445 remain intact. The apparent
+  continuation of SEARCH3190 is printed after 3200 and stays in physical order.
+  The caption's CATACOG spelling is preserved separately from code CATALOG.
+  Exact whitespace, decorative symbol counts and ambiguous glyphs remain
+  unverified; no code execution, semantic repair or character-perfect claim.
+- All eighteen OCR tasks completed without engine failures, retries or crop
+  revisions. Raw evidence and positions are preserved; resume leaves the ledger
+  unchanged. Mapping took 73.3 seconds and review/build took 592.0 seconds,
+  including processing waits. Render/crop and OCR took 17.35s/18.32s.
+  These are not active transcription-only or whole-issue throughput measurements.
+- Exported `build/pdf-restoration/11-batch-11/`: 87 files / 29,175,443 bytes,
+  including the wrapper/report and segment package (83 files / 29,156,445 bytes).
+  A separate rebuild is byte-identical. All 48 focused PDF tests pass; geometry,
+  raw evidence, regional representation, identities and byte ranges validate.
+  All 1,358 pinned prior files remained unchanged before the ledger update.
+- Background Playwright checks pass at 1440×1000 and 360×800: eighteen DOM
+  blocks, fifteen code containers, 22 asset pins and all 507 line ranges.
+  Code scrolling works without page overflow. Actual index→article, listing
+  download and final scan clicks pass; download bytes match and the scan loads.
+  Inspected desktop SEARCH and mobile BOOKSHELF screenshots under
+  `output/playwright/pdf-11-batch-11/`. Only favicon.ico returned 404.
+- November counts remain eleven readable articles, one partial article, one
+  group heading and 34 unresolved eligibility decisions. Only the library
+  entry changed; both prior segment records remain identical. Its three separate
+  segments cover PDF58–75 / printed56–73, eighteen pages, without assembly or
+  a complete-article claim. Deferred submarine bitmap work remains intact.
+  `tocs/` and the owner's `.gitignore` edit were left alone.
+- Checkpoint complete; stall count 0. Preview: `http://127.0.0.1:4190/`.
+  Next: `11-batch-12`, segment 4 at PDF76 / printed74, beginning with
+  BOOKSHELF200. Reuse the observed opening and preserve all three segments.
+  No application or extraction code changes were required; no issue closeout.
