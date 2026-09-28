@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–09, 11-orientation-repair and 11-submarine-assemble complete. 도서관리 프로그램 segment 1 covers PDF58–63 / printed56–61 as a partial article; its full ending remains unverified. 잠수함's manual bitmap correction remains deferred. Next: 11-batch-10, continue 도서관리 프로그램 with segment 2 starting at PDF64 / printed62**.
+Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–10, 11-orientation-repair and 11-submarine-assemble complete. 도서관리 프로그램 has two preserved segments covering PDF58–69 / printed56–67; its full ending remains unverified. 잠수함's manual bitmap correction remains deferred. Next: 11-batch-11, continue 도서관리 프로그램 with segment 3 at PDF70 / printed68, completing the carried SEARCH320 row. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

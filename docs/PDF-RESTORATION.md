@@ -1170,3 +1170,62 @@ and 34 unresolved eligibility decisions. Next is `11-batch-10`, segment 2 of the
 same article starting at PDF64 / printed62. Preserve segment 1 and explicit
 deferred coverage until the full extent is verified. No application or extraction
 code changes were needed; deferred submarine bitmap correction is unchanged.
+
+### November batch 10: 도서관리 프로그램, segment 2
+
+`11-batch-10` restores PDF64–69 / printed62–67 under `maso-1983-11-toc-0021`.
+The article remains **partial/sample-reviewed**. Segment 1 is preserved separately;
+the two segments cover PDF58–69 without claiming complete coverage or assembly.
+PDF70 is the sole outside lookup and continues the final SEARCH row.
+
+There are 36 regions, thirty reading blocks, figure8 with its caption and ten
+code blocks. The 342 numbered rows belong to three listings: CATALOG MASTER
+has 66 rows (1–680), CATALOG ENTER has 244 (10–2440), and CATALOG SEARCH has
+32 (10–320, last row incomplete). Printed gaps in numbering are not filled.
+
+`corrections.json` uses `listing_id` together with `printed_line` to distinguish
+repeated line numbers. Each of the 342 line entries points to its UTF-8 range
+in `listing.txt`. ENTER190, 620, 950, 1870 and 2350 each have two source segments
+within one global range. Thirty listing anomalies, eleven prose review items,
+23 selected OCR corrections and thirty text ranges support manual review.
+Physical code wraps and original spelling remain intact; exact whitespace,
+decorative strings and ambiguous glyphs remain unverified. No execution or
+semantic repair occurred.
+
+Four prose joins retain regional transcripts and all scan references. The
+opening continues segment 1's unfinished sentence. SEARCH320 ends at SE;
+the following ARCH ON AUTHOR on PDF70 is recorded as deferred evidence.
+The final enlarged-crop review corrected the draft table reference from 3 to 2;
+the earlier builds remain in ignored review-draft directories.
+
+Crop revisions processed fourteen prose regions, two code regions and one
+wrapped heading, with 22/34/35 cache hits. Final inputs are `map-final3.json`
+and `state-final3/`. All four completed states resume unchanged;
+`state-reviewed/` was prepared only and superseded without processing.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-10/state-final3
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-10/state-final3 \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-10-evidence-final3
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-10/library-segment-02/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-10-new/library-segment-02
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-10-new/library-segment-02
+python3 -m http.server 4189 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-10
+```
+
+The segment package totals 152 files / 31,321,476 bytes; the wrapper/report totals
+156 files / 31,352,270 bytes. A separate final rebuild is byte-identical, all
+48 focused tests pass, and 1,202 pinned prior files were preserved before the
+intentional issue-ledger update. Desktop/mobile checks verify thirty blocks,
+ten code containers, the figure, forty asset pins and all line ranges. Actual
+article navigation, listing download and final scan navigation pass; downloaded
+bytes match. Preview: `http://127.0.0.1:4189/`.
+
+Issue counts remain eleven readable articles, one partial article, one group
+heading and 34 unresolved eligibility decisions. Next is `11-batch-11`, segment 3
+starting at PDF70 / printed68; retain SEARCH320's continuation provenance.
+Ignore `tocs/` for now. No application or extraction code changes were needed;
+deferred submarine bitmap correction remains unchanged.

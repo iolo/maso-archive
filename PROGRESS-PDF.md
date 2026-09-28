@@ -1457,3 +1457,88 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: `11-batch-10`, segment 2 of the same article, starting at PDF64 / printed62.
   Reuse the observed continuation image and preserve the prior segment within
   the same one-article, six-source-page and six-outside-lookup limits.
+
+### 2026-09-28 — 11-batch-10 started
+
+- Segment 1 is committed as `c389642`. Continue 도서관리 프로그램
+  (`maso-1983-11-toc-0021`) with segment 2, starting at PDF64 / printed62.
+  Reuse its observed opening and preserve the prior segment and continuation.
+- Keep the one-article, six-source-page, six-outside-lookup limits and one
+  targeted retry per failed region. The full article ending remains unverified.
+  Ignore `tocs/` as requested; preserve the owner's existing `.gitignore` edit.
+
+- Confirmed PDF64–69 / printed62–67 as the second six-page segment. PDF70 is
+  the sole outside lookup and continues CATALOG SEARCH line320. Mapped 36
+  regions: two pages of explanation, figure8 and ten code regions. The full
+  article ending remains unverified.
+- Built 30 reading blocks and one figure. CATALOG MASTER has 66 numbered rows,
+  ENTER has 244, and the included SEARCH opening has 32 (342 total). Correction
+  indexes distinguish each listing and retain five rows spanning source regions.
+  Four prose joins retain the original regional transcripts.
+- Crop review widened fourteen prose margins, two long code margins and one
+  wrapped heading. All 36 tasks are complete with zero engine failures/retries.
+  The byte-identical rebuild, 48 focused tests, byte ranges, source geometry and
+  preservation of 1,202 pinned prior files pass. Browser acceptance is in progress;
+  the issue ledger remains unchanged until it passes.
+
+### 2026-09-28 — 11-batch-10 complete
+
+- Restored 도서관리 프로그램 segment 2 (`maso-1983-11-toc-0021`), PDF64–69 /
+  printed62–67. PDF70 / printed68 is the sole outside lookup and continues
+  SEARCH320. The full article ending remains unverified. Both segments remain
+  separate, preserving twelve pages of partial coverage; no assembly is claimed.
+- Delivered **partial/sample-reviewed** content: 36 regions, 30 reading blocks,
+  figure8 with its caption and ten code blocks. MASTER has 66 numbered rows
+  (1–680), ENTER has 244 (10–2440), and SEARCH has 32 (10–320, final row partial).
+  Physical code wraps, printed spelling and numbering remain intact. No code
+  execution, semantic repair or manual bitmap correction occurred.
+- `corrections.json` contains 23 selected OCR corrections, thirty listing
+  anomalies, eleven prose review items, thirty text ranges, ten block ranges
+  and 342 line ranges. `listing_id` distinguishes the three independently
+  numbered programs. ENTER190, 620, 950, 1870 and 2350 each retain a single
+  download range with source segments for both contributing regions.
+- Four prose joins preserve original regional transcription and all scan links.
+  The opening 한다. continues the prior segment's 기회를 제공. SEARCH320 ends
+  at the printed SE; its observed PDF70 continuation is recorded but not imported.
+  Exact spaces, decorative strings, faint punctuation and ambiguous glyphs
+  remain unverified. A final enlarged-crop check corrected draft 표 3는 to 표 2는;
+  the earlier build and repeat remain preserved as review drafts.
+- Widened fourteen prose margins for page skew, two long code margins and one
+  wrapped heading. Revision runs processed 14/2/1 tasks with 22/34/35 cache hits.
+  Final inputs are `map-final3.json` and `state-final3/`. All four completed states
+  resume without ledger changes; `state-reviewed/` was prepared only. Original,
+  final and final3 evidence exports are saved; final2 has its retained state/cache.
+  Zero engine failures or retries. An inventory-only page field was rejected
+  during draft schema validation and removed before initial OCR preparation.
+- Exported `build/pdf-restoration/11-batch-10/`: 156 files / 31,352,270 bytes,
+  including the wrapper/report and segment package (152 files / 31,321,476 bytes).
+  The separate final rebuild is byte-identical. All 48 focused PDF tests pass;
+  geometry, raw bytes, regional representation, listing identities, prose joins
+  and all text/code ranges validate. All 1,202 pinned prior files remained
+  unchanged before the intentional issue-ledger update.
+- Playwright checks at 1440×1000 and 360×800 pass: all thirty DOM blocks,
+  ten code containers, the figure, forty asset pins and 342 line ranges.
+  Horizontal code scrolling stays within the containers; the page does not
+  overflow. Actual index→article, listing download and final scan clicks pass;
+  downloaded bytes match and the scan loads. Inspected figure/prose and mobile
+  code screenshots under `output/playwright/pdf-11-batch-10/`.
+- Manual interaction changed a browser reference; a fresh navigation check
+  passed. A private acceptance-script viewport reference was corrected and
+  rerun. Local server socket denial and sandboxed npx DNS errors were resolved
+  with approved escalation. Only the favicon returned 404; no application or
+  extraction code changes were required.
+- Mapping took 102.3 seconds. Initial draft review/build took 749.0 seconds;
+  wall time after mapping through the corrected rebuild was 1,907.1 seconds,
+  including earlier browser checks and approval/network waits. Initial
+  render/crop and OCR times were 20.23s/29.75s; final cached times were
+  23.01s/29.64s, including reused tasks. These are not active transcription-only
+  timings, character-perfect verification or whole-issue throughput.
+- November counts remain eleven readable articles, one partial article, one
+  group heading and 34 unresolved eligibility decisions. Only the library
+  article entry changed; its first segment record is unchanged. Deferred
+  submarine bitmap work remains intact. `tocs/` and the owner's `.gitignore`
+  edit were left alone. No issue closeout is claimed.
+- Checkpoint complete; stall count 0. Preview: `http://127.0.0.1:4189/`.
+  Next: `11-batch-11`, segment 3, starting at PDF70 / printed68. Preserve
+  SEARCH320's carried row and the two prior segments within the same bounded
+  limits. The next TOC start remains a hint, not article-extent evidence.
