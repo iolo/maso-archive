@@ -1341,3 +1341,61 @@ at PDF82 / printed80, preserving the carried LIST6 line240 and verifying the
 remaining article boundary locally. Ignore `tocs/` for now. Deferred submarine
 bitmap correction is unchanged; no application or extraction code changes
 were needed.
+
+### November batch 13: 도서관리 프로그램, final segment
+
+`11-batch-13` restores PDF82–83 / printed80–81 under `maso-1983-11-toc-0021`.
+LIST9 DATA290 closes on PDF83, and the sole outside lookup, PDF84 / printed82,
+visibly opens GUN MAN. The article's full extent is now verified as PDF58–83 /
+printed56–81. Five separate segments cover these twenty-six pages without gaps
+or overlaps. Availability remains **partial/sample-reviewed** pending assembly.
+
+Seven code regions produce seven blocks, without figures or captions. There are
+89 visible numbered rows: LIST6's250–290 and complete LIST7–9, 28 rows each.
+The carried, unnumbered LIST6 line240 fragment makes ninety local line-index
+entries. Its record pins segment 4's manifest, listing, corrections, exact byte
+range and source segments. No local line number was inserted. LIST7's180 and
+LIST8's130 each retain two current source regions.
+
+`corrections.json` contains seven text ranges, seven code-block ranges, ninety
+line ranges, six selected OCR corrections and twenty listing anomalies. LIST7
+prints170 twice, with the second occurrence after180; occurrence and line IDs
+preserve both. Missing190 and90 are not supplied. Original spelling, DATA strings
+and physical wraps remain intact. Exact whitespace and ambiguous glyphs remain
+unverified; no execution or semantic repair occurred.
+
+The r01 bottom margin was widened around LIST6 DATA290's separate closing quote.
+The final run processed one task with six cache hits. Both completed states
+resume unchanged, and both evidence exports are retained. Final inputs use
+`map-final.json` and `state-final/`.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-13/state-final
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-13/state-final \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-13-evidence-final
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-13/library-segment-05/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-13-new/library-segment-05
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-13-new/library-segment-05
+python3 -m http.server 4192 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-13
+```
+
+The segment package totals 39 files / 11,313,954 bytes; the wrapper/report totals
+43 files / 11,326,701 bytes. A separate rebuild is byte-identical, all 48 focused
+PDF tests pass, and 1,540 prior file pins were preserved before the ledger update.
+Background desktop/mobile checks verify all blocks, eleven asset pins and ninety
+line ranges. Actual article navigation, listing download, code scrolling and
+final scan navigation pass; downloaded bytes match.
+Preview: `http://127.0.0.1:4192/`.
+
+Next is `11-library-assemble`: combine the five saved segments without new OCR.
+Namespace repeated region/block IDs, retain all text and listing correction
+indexes, and resolve carried SEARCH320 and LIST6 line240 with explicit original
+provenance. Superseded segment-coverage notes must be resolved while transcription
+uncertainties remain visible. The saved plan expects 135 regions, 106 blocks,
+51 code blocks and sixteen figures. GUN MAN follows as `11-batch-14` at PDF84 /
+printed82. November counts remain eleven readable articles, one partial article,
+one group heading and 34 unresolved eligibility decisions. Ignore `tocs/` for
+now; deferred submarine bitmap work remains unchanged.

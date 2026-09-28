@@ -1679,3 +1679,79 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: `11-batch-13`, segment 5 at PDF82 / printed80. Preserve LIST6's carried
   240 row with a link to this segment's exact bytes and scans, and verify the
   remaining article boundary within the same bounded limits.
+
+### 2026-09-29 — 11-batch-13 started
+
+- Segment 4 is committed as `7c03660`. Continue 도서관리 프로그램 segment 5
+  from PDF82 / printed80, preserving the carried SC SEQ LIST6 line240 and its
+  prior byte/scan references. Pin all four previous segments and inspect the
+  article boundary locally. Retain the six-source-page, six-outside-lookup
+  limits and one targeted retry per failed region.
+- Continue ignoring `tocs/` and preserve the owner's `.gitignore` edit.
+
+- Boundary verified: LIST9 DATA290 closes on PDF83 / printed81, and PDF84 /
+  printed82 visibly opens GUN MAN. Only PDF82–83 are included; PDF84 is the sole
+  outside lookup. All five segments now cover 26 contiguous pages, PDF58–83,
+  while assembly remains pending.
+- Built seven code regions with 89 visible numbered rows and the carried LIST6
+  line240 fragment. Ninety line-index entries distinguish four listings and
+  both printed LIST7 170 occurrences; the second follows180. Two rows cross
+  current regions. Six selected OCR corrections and twenty listing anomalies
+  retain source-linked review evidence. Widened r01's bottom margin for its
+  closing quote; one task was reprocessed with six cache hits.
+
+### 2026-09-29 — 11-batch-13 complete
+
+- Restored 도서관리 프로그램 segment 5, PDF82–83 / printed80–81, under
+  `maso-1983-11-toc-0021`. LIST9 DATA290 and its closing string end on PDF83;
+  PDF84 / printed82 visibly opens GUN MAN. This verifies the article's full
+  extent as PDF58–83 / printed56–81, twenty-six pages. Only two source pages
+  and one outside lookup were needed; no following article content was extracted.
+- Seven regions produce seven code blocks, with no figures or captions. The
+  89 visible numbered rows comprise LIST6's final250–290 and complete LIST7–9
+  (28 rows each). One unnumbered LIST6 line240 continuation makes ninety local
+  line-index entries across four listing identities. It links the prior segment's
+  manifest, listing, corrections, exact byte range and scan provenance without
+  inventing a local number. LIST7's180 and LIST8's130 each span two regions.
+- `corrections.json` retains seven text ranges, seven code-block ranges, ninety
+  line ranges, six selected OCR correction examples and twenty listing anomalies.
+  LIST7 prints170 twice: the second follows180 and precedes200. Both occurrence
+  IDs are preserved; 190 is not invented. The programs' absent90 stays absent.
+  Original spelling, DATA punctuation and physical wraps remain intact. Exact
+  spaces and ambiguous glyphs remain unverified; no execution or semantic repair.
+- Widened r01's bottom margin around LIST6 DATA290's separate closing quote.
+  Final inputs are `map-final.json` and `state-final/`. One task was processed
+  with six cache hits. Both completed states resume unchanged and both evidence
+  exports remain saved. Zero engine failures or retries.
+- Exported `build/pdf-restoration/11-batch-13/`: 43 files / 11,326,701 bytes,
+  including wrapper/report and segment package (39 files / 11,313,954 bytes).
+  The separate rebuild is byte-identical. All 48 focused PDF tests pass; geometry,
+  raw evidence, regional coverage, identities, duplicate-number occurrences and
+  byte ranges validate. The carried240 matches its prior pinned bytes. All five
+  segments have disjoint contiguous page coverage, and all 1,540 prior file pins
+  remained unchanged before the intentional ledger update.
+- Background Playwright checks pass at 1440×1000 and 360×800: seven DOM/code
+  blocks, eleven asset pins, all ninety line ranges, the prior-fragment link and
+  verified-ending/assembly-pending status. Code scrolling works without page
+  overflow. Actual index→article, listing download and final scan clicks pass;
+  downloaded bytes match and the scan loads. Inspected desktop LIST7 and mobile
+  carried-fragment screenshots under `output/playwright/pdf-11-batch-13/`.
+  Only favicon.ico returned 404; no application or extraction code changes.
+- Mapping took 69.0 seconds and review/build took 350.3 seconds, including
+  processing waits. Initial render/crop and OCR times were 6.66s/6.64s; final
+  cached totals were 6.65s/6.64s, including reused tasks. These are not active
+  transcription-only timings or character-perfect verification.
+- November counts remain eleven readable articles, one partial article, one
+  group heading and 34 unresolved eligibility decisions. Only the library
+  entry changed; its four earlier segment records remain identical. Availability
+  remains partial because the primary package is only the final two-page segment
+  and the complete article has not been assembled. Deferred submarine bitmap
+  work, `tocs/` and the owner's `.gitignore` edit remain untouched.
+- Checkpoint complete; stall count 0. Preview: `http://127.0.0.1:4192/`.
+  Next: `11-library-assemble`, one article with zero new source pages or OCR tasks.
+  Preserve all five packages, namespace repeated region/block IDs, and retain
+  text/prose/listing/anomaly indexes and cross-segment continuations. The saved
+  assembly plan expects 135 regions, 106 blocks, 51 code blocks and sixteen
+  figures. Add bounded assembly support where required, with meaningful checks.
+  After assembly, `11-batch-14` starts GUN MAN at PDF84 / printed82. No issue
+  closeout is claimed.

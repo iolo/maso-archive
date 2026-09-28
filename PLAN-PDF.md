@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–12, 11-orientation-repair and 11-submarine-assemble complete. 도서관리 프로그램 has four preserved segments covering PDF58–81 / printed56–79; its full ending remains unverified. 잠수함's manual bitmap correction remains deferred. Next: 11-batch-13, continue 도서관리 프로그램 with segment 5 at PDF82 / printed80, preserving the carried SC SEQ LIST6 line240. Ignore `tocs/` for now as requested**.
+Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–13, 11-orientation-repair and 11-submarine-assemble complete. 도서관리 프로그램 has five preserved segments covering its verified full extent, PDF58–83 / printed56–81; assembly remains pending. 잠수함's manual bitmap correction remains deferred. Next: 11-library-assemble, combine the five segments and retain all correction indexes without new OCR. Then 11-batch-14 starts GUN MAN at PDF84 / printed82. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
