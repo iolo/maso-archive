@@ -1077,3 +1077,68 @@ history remains in [PROGRESS.md](PROGRESS.md).
   17 listing ranges, 104 graphics occurrences and 38 definition entries under one
   article identity. Add bounded assembly support if needed instead of changing
   historical OCR provenance to claim a different map.
+
+### 2026-09-28 — 11-submarine-assemble started
+
+- Continuation checkpoint is committed as `eb59917`. Pinned both segment
+  manifests/recipes, prior article packages, source inventory and issue ledger.
+  The checkpoint permits one article, zero new source-page extraction and zero
+  OCR tasks. Expected union: eight pages,35 regions,38 blocks and three figures.
+- Add a separate assembly path because original OCR settings refer to distinct
+  maps. Preserve the input packages byte for byte, validate their identity and
+  disjoint coverage, then combine reading content and correction indexes.
+  Manual bitmap correction remains deferred and visible.
+
+### 2026-09-28 — 11-submarine-assemble complete
+
+- Combined the reviewed opening and continuation under the existing
+  `maso-1983-11-toc-0017` identity. The article now covers PDF40–47 / printed38–45:
+  35 regions, 38 blocks, 17 code blocks and three figures. Availability is
+  **readable/sample-reviewed**, with explicit character-accuracy limits.
+  No new source pages were extracted and no OCR tasks were run.
+- Added `tools.pdf_restore.assemble` and `make assemble-pdf-article`. The recipe
+  pins ordered input manifests and expected pages. Assembly rejects mismatched
+  identities, overlapping pages/regions, incomplete regional review, changed
+  OCR provenance and incorrect listing/definition offsets before publication.
+  The existing article checker independently reconstructs the combined map,
+  correction indexes, downloads and preview from retained segments.
+- Preserved every original package file under `segments/opening/` and
+  `segments/continuation/`. Original maps, settings, raw OCR, scans and review
+  records are unchanged. PDF42 retains its evidenced 180-degree image correction
+  and original rotation metadata 0. The new union map is not substituted into
+  historical OCR settings. All 647 pinned prior input files remain unchanged.
+- The combined listing is exactly the original opening bytes followed by the
+  original continuation bytes. `corrections.json` retains 30 selected correction
+  examples, 17 listing ranges, 104 unresolved graphics occurrences and 38 printed
+  glyph definitions. Scan paths and UTF-8 offsets are explicitly rebased with
+  source-segment identities. Only four superseded scope/orientation notes are
+  resolved; original notes remain in the preserved segment packages.
+- Bitmap codes/counts remain unresolved, repeated definitions and printed
+  anomalies remain intact, and the owner will perform later manual correction.
+  Full page coverage does not mean character-perfect or executable code.
+  No historical program execution, bitmap inference or semantic repair occurred.
+- Delivered `build/pdf-restoration/11-submarine-assemble/`: 168 files,
+  50,505,064 bytes including index/report and the article package. The article
+  alone has 164 files / 50,469,596 bytes; retained original exports account for
+  part of that size. A separate assembly rebuild is byte-identical.
+- All 48 focused PDF tests pass, including six new assembly tests covering
+  preservation, deterministic output, invalid coverage/identity/provenance,
+  UTF-8 indexes and tampering even after outer-manifest rehashing. Source/TOC,
+  package/link/hash, raw archive and correction-index checks pass.
+- Playwright checks at 1440×1000 and 360×800 pass: 38 exact DOM blocks, three
+  loaded figures, 39 fetched asset pins, every correction index and contained
+  code scrolling. Actual index→article, listing-download and last-scan clicks
+  succeed; downloaded listing bytes match. Inspected desktop, figure and mobile
+  screenshots under `output/playwright/pdf-11-submarine-assemble/`. Local server
+  binding required sandbox escalation; one stalled sandboxed script invocation
+  was cancelled before traffic and passed on an escalated rerun.
+- Updated November's ledger to eight readable/sample-reviewed articles, zero
+  partial articles, one group heading and 38 unresolved eligibility decisions
+  across 47 entries. The primary restoration now references the assembly;
+  original segment records remain unchanged. Saved before/after snapshots,
+  validation, browser acceptance, pinned closeout and next-checkpoint inputs.
+- Checkpoint complete; stall count 0. Preview: `http://127.0.0.1:4184/`.
+  Next: `11-batch-06`, establish 체커's boundaries from the observed PDF48 opening
+  and TOC printed46 start, then restore within one article / six source pages.
+  Its ending is not yet verified; allow at most six outside lookup pages and
+  one targeted retry per failed region. Keep 잠수함's manual glyph work deferred.

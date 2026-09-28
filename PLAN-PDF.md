@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–05 and 11-orientation-repair complete; 잠수함 opening and continuation preserved separately. Next: 11-submarine-assemble, with manual bitmap correction deferred**.
+Revised 2026-09-28. Status: **in progress; steps 1–10, 11-batch-01–05, 11-orientation-repair and 11-submarine-assemble complete. 잠수함 covers all eight pages; manual bitmap correction remains deferred. Next: 11-batch-06, establish 체커's boundaries and restore a bounded article/segment**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -309,6 +309,11 @@ within step 10's limits, followed by a separate `11-closeout` checkpoint.
   ownership, and page-less entries locally; retain decisions with evidence.
 - Reuse successful samples. Save packages, review coverage, failures, retries,
   and unresolved boundaries after every batch. Avoid duplicate article bodies.
+- For disjoint reviewed segments, assemble without new OCR. Retain original
+  packages/maps/settings unchanged, validate complete ordered page coverage,
+  rebase correction scan paths and listing byte ranges, and explicitly resolve
+  superseded scope notes. Complete coverage can be readable/sample-reviewed
+  while scan-linked bitmap markers remain pending the owner's manual correction.
 - At closeout, generate a standalone issue reference with TOC navigation,
   downloads, scan evidence, and visible states using the existing preview tooling.
 

@@ -21,6 +21,10 @@ build-pdf-article:
 check-pdf-article:
 	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.build --check --output $(PDF_OUTPUT)
 
+.PHONY: assemble-pdf-article
+assemble-pdf-article:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.assemble --recipe $(PDF_RECIPE) --output $(PDF_OUTPUT)
+
 test-pdf:
 	PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -p 'test_pdf_*.py' -v
 

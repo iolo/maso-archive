@@ -878,3 +878,78 @@ retain each segment's original map/OCR settings and review provenance, with
 explicitly rebased scan references and listing offsets. Do not relabel historical
 OCR as having been generated against a newly combined map. Full page coverage
 may become readable while manual glyph corrections remain deferred and visible.
+
+### Assemble reviewed segments without new OCR
+
+`tools.pdf_restore.assemble` combines two to twelve disjoint, reviewed packages
+for one source/TOC/article identity. The source inventory, original page geometry,
+complete regional review, correction records and original OCR map/orientation
+bindings must agree. Every segment must account for its included regions. The
+explicit ordered page list must match exactly; overlapping pages, duplicate
+identities and incomplete or unreviewed segments fail before publication.
+Nested assemblies and comparison relationships require a separate adapter.
+
+The assembly recipe has exactly these fields:
+
+```json
+{
+  "segments": [
+    {"name": "opening", "manifest": {"path": "build/example-opening/manifest.json", "sha256": "<SHA-256>", "bytes": 123}},
+    {"name": "continuation", "manifest": {"path": "build/example-continuation/manifest.json", "sha256": "<SHA-256>", "bytes": 456}}
+  ],
+  "expected_pdf_pages": [40, 41, 42, 43, 44, 45, 46, 47],
+  "evidence": ["Evidence supporting complete article coverage and reading order."],
+  "uncertainties": ["Remaining transcription and glyph limitations."],
+  "resolved_notes": [
+    {"segment": "opening", "note": "Exact superseded uncertainty from the original package.", "reason": "Evidence explaining why assembly resolves this note."}
+  ]
+}
+```
+
+Manifest paths are repository-relative pins. Segment names are unique lowercase
+letters/digits/hyphens beginning with a letter. `resolved_notes` can be empty;
+unlisted uncertainties remain visible. Original notes are retained unchanged
+inside `segments/<name>/`, together with every original package file. The
+combined `map.json` describes the union, while raw settings keep their original
+map hashes. `assembly.json` and the saved recipe identify that distinction.
+
+Reading order and literal code bytes are preserved. Combined `corrections.json`
+rebases scans and UTF-8 listing/definition offsets, retains graphics occurrences
+and records each source segment. The raw ZIP includes original OCR, positions,
+settings, scans, maps, runtimes, provenance and corrections. `check-pdf-article`
+also reconstructs the assembly from retained segments and compares its map,
+correction indexes, article, downloads and rendered preview. It detects changed
+projections even when the outer manifest has been rehashed. This is consistency
+verification against pinned inputs, not cryptographic authorship verification.
+
+```sh
+make assemble-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-submarine-assemble/assembly-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-submarine-assemble-new/submarine
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/11-submarine-assemble-new/submarine
+make test-pdf
+python3 -m http.server 4184 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-submarine-assemble
+```
+
+The completed `11-submarine-assemble` checkpoint covers PDF40–47 / printed38–45:
+35 regions, 38 blocks, 17 code blocks and three figures under the original article
+identity. All 104 unresolved graphics markers and 38 printed glyph definitions
+remain available for manual correction. Only four superseded scope/orientation
+notes were resolved. The combined listing is the exact concatenation of the two
+segment listings; original maps, OCR and segment packages remain unchanged.
+No new PDF extraction, OCR, character decoding or historical program execution
+was performed. The article is **readable/sample-reviewed**, with full page
+coverage and explicit limits on character accuracy and executability.
+
+The package has 164 files / 50,469,596 bytes, including retained segment exports.
+All 48 focused tests pass, and a separate rebuild is byte-identical. The source,
+TOC, inventory and all prior article files (647 pinned inputs) remain unchanged.
+Desktop/mobile browser checks verify every block, all three figures, 39 asset
+pins, listing/definition ranges and marker records. Actual index, download and
+scan navigation passes; the downloaded listing matches the package bytes.
+November now has eight readable, sample-reviewed articles, one group heading
+and 38 unresolved eligibility decisions. The next checkpoint, `11-batch-06`,
+establishes the extent of 체커 before bounded extraction; it does not reopen
+잠수함's deferred bitmap correction.

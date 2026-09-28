@@ -95,18 +95,14 @@ def check_export(output):
             raise ValueError('Export file inventory differs from manifest')
         for record in manifest['files']:
             checked(output, record)
+    if (output / 'assembly.json').exists():
+        from .assemble import check_assembly
+        check_assembly(output, package)
     return package
 
 
-def build(recipe_path, output, root=ROOT):
-    root, recipe_path, output = Path(root).resolve(), Path(recipe_path).resolve(), Path(output).resolve()
-    if not any(output.is_relative_to(root / d) for d in ('build', 'private')):
-        raise ValueError('Generated export must remain under build/ or private/')
-    if output.exists():
-        raise ValueError('Export already exists; rebuild into a separate output for comparison')
-    base = recipe_path.parent
-    recipe = json.loads(recipe_path.read_bytes())
-    package = validate_package(json.loads(checked(base, recipe['map'])))
+def validate_source(package, root=ROOT):
+    """Check source identity, inventory geometry and TOC eligibility without OCR."""
     checked(root, {key: package['source'][key] for key in ('path', 'sha256', 'bytes')})
     checked(root, package['toc_pin'])
     inventory = root / 'private/pdf-restoration/inventory'
@@ -124,6 +120,19 @@ def build(recipe_path, output, root=ROOT):
     if not any(q['toc_entry_id'] == package['toc_entry_id'] and q['issue_id'] == package['issue_id']
                and q['source_id'] == package['source']['id'] for q in queue):
         raise ValueError('Article is not an existing eligible TOC entry')
+    return inventory
+
+
+def build(recipe_path, output, root=ROOT):
+    root, recipe_path, output = Path(root).resolve(), Path(recipe_path).resolve(), Path(output).resolve()
+    if not any(output.is_relative_to(root / d) for d in ('build', 'private')):
+        raise ValueError('Generated export must remain under build/ or private/')
+    if output.exists():
+        raise ValueError('Export already exists; rebuild into a separate output for comparison')
+    base = recipe_path.parent
+    recipe = json.loads(recipe_path.read_bytes())
+    package = validate_package(json.loads(checked(base, recipe['map'])))
+    inventory = validate_source(package, root)
     corrections = json.loads(checked(base, recipe['corrections']))
     if corrections['article_id'] != package['id'] or corrections['map'] != recipe['map']:
         raise ValueError('Corrections belong to a different article or region map')
