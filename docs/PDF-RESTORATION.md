@@ -1007,3 +1007,59 @@ scan navigation passes; downloaded bytes match. The batch wrapper totals
 November now has nine readable/sample-reviewed articles, one group heading
 and 37 unresolved eligibility decisions. Next is `11-batch-07`, AWARI; reuse its
 observed PDF52 opening and verify its ending before bounded extraction.
+
+### November batch 07: AWARI
+
+`11-batch-07` restores `maso-1983-11-toc-0019`, PDF52–54 / printed50–52.
+PDF55 opens the next TOC article and was the only outside lookup page. The
+opening image was reused from batch06. The package includes ten reading blocks,
+six figures and three code blocks covering 69 numbered rows, 5–999.
+
+The example explanation continues from PDF52 to PDF54, across an illustrated
+page. The reading block joins the split word and completes the explanation
+before the illustration and three numbered gameplay panels. Regional transcripts
+and both page references remain intact; `prose_joins` documents this placement.
+The photo, board diagram, robot illustration and panels retain their source
+order. `figure_sequence` records panel ranges ①–⑥, ⑦–⑫ and ⑬–⑯.
+
+`corrections.json` retains 18 selected OCR corrections, three block ranges,
+69 `listing_line_index` entries, twelve `listing_anomalies` and three
+`text_review_items`. Printed spelling, unusual expressions, physical code wraps
+and final prose counts remain as observed. Exact blank-string widths, ambiguous
+glyphs and punctuation remain unverified. The package is
+**readable/sample-reviewed**; no historical execution or semantic repair occurred.
+
+An unsupported draft region kind was rejected during preparation, before OCR,
+and corrected to `section-label`. Crop review processed four revised regions
+and reused thirteen. A final photo-border adjustment processed one image and
+reused sixteen regions, including all OCR results. The original, reviewed and
+final maps/states/evidence exports are retained; all three completed states
+resume without modifying their ledgers. There were no engine failures or retries.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-07/state-final
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-07/state-final \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-07-evidence-final
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-07/awari/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-07-new/awari
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-07-new/awari
+python3 -m http.server 4186 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-07
+```
+
+The article package has 61 files / 13,893,668 bytes. A separate rebuild is
+byte-identical, all 48 focused tests pass, and 880 pinned prior input files remain
+unchanged. Package checks cover raw bytes, complete regional representation,
+the prose join, figure order and all correction/listing offsets. No application
+or extraction code changes were required.
+
+Desktop/mobile checks verify all ten text blocks, all six figures, 21 asset
+pins and the correction indexes. Actual index→article, listing-download and
+scan navigation passes; downloaded bytes match. The batch wrapper totals
+65 files / 13,912,077 bytes. Preview: `http://127.0.0.1:4186/`.
+November now has ten readable/sample-reviewed articles, one group heading
+and 36 unresolved eligibility decisions. Next is `11-batch-08`, 당신의 심장을
+진단해 드립니다; reuse its observed PDF55 opening and verify the ending before
+bounded extraction. Deferred submarine bitmap correction remains unchanged.
