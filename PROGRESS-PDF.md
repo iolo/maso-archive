@@ -860,3 +860,87 @@ history remains in [PROGRESS.md](PROGRESS.md).
   If it exceeds six source pages, define bounded mapping/segment checkpoints
   before extraction, retaining one article identity and explicit partial coverage
   until assembly. Do not silently raise the source-page ceiling.
+
+### 2026-09-28 — 11-batch-04 started: 잠수함 extent and admission
+
+- Batch 03 is committed as `7ed61b5`. Named `maso-1983-11-toc-0017`
+  (잠수함) and saved the current issue ledger, source/queue pins and start time.
+  Its TOC candidates suggest printed38–45; this is not yet an observed extent.
+- Boundary preflight is limited to candidate PDF39–48, within twenty lookup
+  pages. Admit extraction only after checking the six-source-page ceiling.
+  If larger, define bounded segment checkpoints with one article identity and
+  explicit partial coverage before extraction. Keep the existing limits.
+- Preflight confirms eight article pages, PDF40–47 / printed38–45; PDF39 ends
+  원 and PDF48 starts 체커. No intervening advertisements. PDF42 / printed40
+  renders upside down and requires a separate evidenced orientation correction.
+- Before extraction, saved `extent-and-segments.json`: this checkpoint covers
+  PDF40–41 only (introduction/images and listing90–486); the continuation covers
+  PDF42–47 after orientation support is validated, followed by aggregation with
+  no new extraction. Keep one TOC/article identity. The opening export will be
+  explicitly partial, not counted as a complete readable article.
+- The admitted two-page segment completed all 14 regions (eleven OCR regions,
+  three figures), with zero engine failures/retries. Reviewed every included
+  printed row and all figures. Saved separate raw OCR, transcription and
+  `corrections.json`, with ten selected correction examples, two listing byte
+  ranges and fourteen unresolved graphics-string occurrences linked to scans.
+- Built the opening article as **partial / sample-reviewed**. Coverage records
+  distinguish included PDF40–41 from deferred PDF42–47; no absent source pages
+  are claimed. Graphic placeholders, uncertain music digits/case, code spacing
+  and printed discrepancies remain explicit; no character codes were invented.
+- All 37 focused tests and the byte-identical rebuild pass. Package/link/hash
+  checks, all-region coverage, raw preservation, transcription accounting,
+  two listing ranges and fourteen graphics occurrences pass. Browser checks
+  and issue-ledger reconciliation remain in progress.
+
+### 2026-09-28 — 11-batch-04 complete: 잠수함 opening segment
+
+- Completed the bounded opening checkpoint; the article remains **partial /
+  sample-reviewed**. Preflight inspected ten pages and confirmed the full article
+  at PDF40–47 / printed38–45. Only PDF40–41 entered extraction; eight other pages
+  were lookups. No source-page ceiling was raised and no additional TOC identity
+  was introduced. The saved segment plan separates the two-page opening,
+  six-page continuation and later aggregation without new extraction.
+- Preserved all opening prose, the provider/award note, repeated title, naval
+  illustration and two complete screen figures. Joined the evidenced column
+  continuation. Included every printed code row from 90 through 486, retaining
+  physical wraps and anomalous printed forms. The continuation begins at 490;
+  its six observed pages are deferred, not missing from the source.
+- `corrections.json` contains ten selected OCR correction examples, two verified
+  UTF-8 listing ranges, explicit included/deferred coverage, and fourteen
+  `unresolved_graphics` occurrences. Each graphics marker identifies its printed
+  line and pinned scan region; encoded bytes and character counts remain null.
+  The markers represent individual occurrences or whole strings as stated and
+  do not imply that similar shapes share a character code.
+- Kept the body/listing discrepancies, uncertain w/W and 6100/8100 readings,
+  `=>` ordering, quote layout and code-spacing limits visible. No historical
+  program or algorithm was repaired or executed. Code containing editorial
+  graphics markers is explicitly described as an incomplete transcription.
+- Delivered `build/pdf-restoration/11-batch-04/`: 62 files, 9,690,187 bytes,
+  with index/report, partial article preview, 17 blocks (two code blocks), three
+  figures, fourteen scan regions and correction/raw-OCR/text/listing artifacts.
+  Original unreviewed evidence is in `11-batch-04-evidence/`; the reviewed repeat
+  export in `11-batch-04-repeat/` is byte-identical.
+- All 37 focused tests pass. Package/link/hash checks, raw preservation, complete
+  included-region accounting, transcription accounting, listing ranges and
+  graphics-marker references pass. A no-op resume leaves the ledger unchanged.
+  Browser checks at 1440×1000 and 360×800 verify all 17 DOM blocks, three images,
+  visible partial/deferred coverage and contained code scrolling. All 18 fetched
+  assets match their pins. Actual index → article, listing download and scan
+  clicks succeed; downloaded listing bytes match. Screenshots are under
+  `output/playwright/pdf-11-batch-04/`. Only the local favicon request returned 404.
+- Observed mapping/preflight preparation: 133.3 seconds. Opening transcription,
+  review and correction preparation: 188.9 seconds. Rendering/cropping took
+  7.1 seconds and OCR 6.2 seconds. No OCR failures/retries. These measurements
+  exclude restoration of the deferred six pages and do not certify exact code.
+- The November ledger now reconciles 47 entries to eight classified articles
+  (seven readable, one partial), one group heading and 38 unresolved eligibility
+  decisions. All eight have sample-review records limited to their stated
+  coverage. Preserved all seven previous article manifests and source pins.
+  Saved the updated ledger snapshot, validation and pinned closeout records.
+- Preview: `http://127.0.0.1:4182/`. Checkpoint complete; article and issue still
+  in progress; stall count 0. No application/extraction code changed here.
+  Next is the separately bounded `11-orientation-repair`: qualify a 180-degree
+  image correction for PDF42 without altering its source rotation metadata (0).
+  Saved its one-real-page limit and acceptance criteria in `next-checkpoint.json`.
+  Commit that repair before `11-batch-05` processes PDF42–47; reserve r15+ region
+  identities and preserve this opening package until the assembly checkpoint.

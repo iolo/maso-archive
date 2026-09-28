@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-28. Status: **in progress; steps 1–10 and 11-batch-01–03 complete; next: 11-batch-04 (map 잠수함 extent before extraction)**.
+Revised 2026-09-28. Status: **in progress; steps 1–10 and 11-batch-01–04 complete (잠수함 opening only); next: 11-orientation-repair, then 11-batch-05 continuation**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

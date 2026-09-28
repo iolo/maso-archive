@@ -729,3 +729,45 @@ rebuild, asset checks and desktop/mobile checks pass. November now has seven
 restored articles, one group heading and 39 unresolved eligibility decisions.
 Next is `11-batch-04`: establish 잠수함's extent before admitting extraction;
 split work into bounded checkpoints if it exceeds the six-source-page ceiling.
+
+### November batch 04: partial 잠수함
+
+`11-batch-04` restores the opening of `maso-1983-11-toc-0017` (잠수함),
+PDF40–41 / printed38–39. The complete article occupies PDF40–47 / printed38–45;
+the six continuation pages are observed but deferred. The package is explicitly
+**partial/sample-reviewed**, with complete opening prose, three images and
+listing lines 90–486. Open `build/pdf-restoration/11-batch-04/index.html` or
+`http://127.0.0.1:4182/`.
+
+The correction record retains selected OCR examples and listing byte ranges,
+and adds `coverage` and `unresolved_graphics`. Fourteen editorial markers link
+graphics-string occurrences to printed lines and pinned scan regions. Null
+`encoded_bytes` and `character_count` mean unresolved; occurrence IDs are not
+character codes. The partial listing preserves physical wraps and remaining
+uncertainties and is not an executable reconstruction.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-04/state
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-04/state \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-04-evidence
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-04/submarine/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-04-new/submarine
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-04-new/submarine
+python3 -m http.server 4182 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-04
+```
+
+The batch totals 62 files / 9,690,187 bytes. All 37 focused tests, deterministic
+rebuild, asset checks and desktop/mobile checks pass. November has seven readable
+articles, one partial article, one group heading and 38 unresolved eligibility
+decisions. The partial article is not counted as a completed readable restoration.
+
+PDF42 is physically upside down despite rotation metadata 0. The next checkpoint,
+`11-orientation-repair`, must qualify explicit image correction while preserving
+the source and its metadata, with one real page plus focused synthetic checks.
+Its scope is saved in the private batch's `next-checkpoint.json`. After that repair
+is committed, `11-batch-05` handles the six remaining pages within the existing
+ceiling. A later aggregation checkpoint preserves one article identity and all
+segment evidence while checking complete coverage; it performs no new extraction.
