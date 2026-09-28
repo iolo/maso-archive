@@ -1381,3 +1381,79 @@ history remains in [PROGRESS.md](PROGRESS.md).
   within one article, six source pages and six outside lookup pages, and record
   deferred coverage explicitly. The next TOC entry is GUN MAN at printed82;
   that spacing suggests segmentation but does not verify the actual ending.
+
+### 2026-09-28 — 11-batch-09 started
+
+- Heart article checkpoint is committed as `15b4f16`. Target: 도서관리 프로그램
+  (`maso-1983-11-toc-0021`), first bounded segment. Pinned source, TOC, inventory,
+  runtime, issue ledger and prior exports. Reuse PDF58 / printed56 opening.
+- Limits: one article, six source pages, six outside lookup pages and one
+  targeted retry per failed region. Verify local boundaries and record deferred
+  or unresolved coverage explicitly; the next TOC item alone does not establish
+  the article ending. Preserve raw OCR, illustrations, literal code and corrections.
+
+- Confirmed six-page first segment: PDF58–63 / printed56–61. PDF64 continues
+  the last sentence and is the only outside lookup. The full ending remains
+  unverified. Mapped 54 regions, including 15 images: three illustrations, nine
+  menu examples, two tables and one flowchart. No numbered code listing occurs
+  in these six pages.
+- All initial OCR tasks completed. Crop review recovered the complete instruction
+  sentence, widened text/menu margins and trimmed adjacent letter fragments from
+  the opening illustration. Original maps, state and OCR evidence are retained.
+  Prose transcription, caption matching and continuation records are in progress.
+
+### 2026-09-28 — 11-batch-09 complete
+
+- Restored the first six pages of 도서관리 프로그램 (`maso-1983-11-toc-0021`),
+  PDF58–63 / printed56–61, within the saved limit. PDF64 / printed62 is the
+  only outside lookup and continues the final sentence. The full article ending
+  remains unverified; the next TOC start does not establish coverage.
+- Delivered **partial/sample-reviewed** content: 54 regions, 31 reading blocks
+  and 15 figures (three illustrations, nine menus, two tables and one flowchart).
+  Twelve captions remain paired with their figures. There is no numbered code
+  listing in this segment. Menu, table and flowchart interiors remain images.
+- `corrections.json` preserves 27 selected OCR corrections, eleven text review
+  items, 31 UTF-8 `text_index` ranges and five prose joins, with regional text
+  and scan references retained. The Catalog Enter prose follows the intervening
+  tables and flowchart; this placement and the unfinished final sentence are
+  documented. Original wording and ambiguous punctuation remain reviewable.
+- The reader illustration intersects a menu and caption; its rectangular crop
+  deliberately retains that source overlap, recorded in the corrections and
+  visible gap notice. No artwork was erased or composited. No historical code
+  execution, semantic repair or bitmap correction occurred.
+- Crop revision recovered the complete instruction sentence and menu edges,
+  retained illustration strokes and removed adjacent prose fragments from the
+  opening illustration. Seven tasks processed with 47 cache hits, then one
+  figure processed with 53 cache hits. The intermediate `state-reviewed/` was
+  prepared only and superseded before processing. Final inputs are
+  `map-final2.json` and `state-final2/`; all three completed states resume without
+  ledger changes. Zero engine failures or retries.
+- Exported `build/pdf-restoration/11-batch-09/`: 185 files / 30,234,337 bytes,
+  including the wrapper/report and segment package (181 files / 30,192,570 bytes).
+  The separate rebuild is byte-identical. Saved crop review, transcription,
+  corrections, validation, issue ledger snapshot and pinned closeout.
+- All 48 focused PDF tests pass. Raw bytes, regional coverage, source geometry,
+  reading order, caption pairs and correction offsets pass. All 1,017 pinned
+  prior files remained unchanged before the intentional issue-ledger update;
+  every other TOC entry remains unchanged.
+- Playwright checks at 1440×1000 and 360×800 pass: 31 DOM blocks, 15 loaded
+  figures, 57 fetched asset pins, all text offsets and a visible partial-scope
+  notice. No horizontal page overflow. Actual index→article, text download and
+  final scan clicks pass; downloaded bytes match and the scan loads.
+  Inspected table, flowchart and final-prose screenshots under
+  `output/playwright/pdf-11-batch-09/`. The initial continuation screenshot was
+  blank immediately after scrolling; a capture after two animation frames
+  displays correctly. Both captures are retained. Only the favicon returned 404.
+- Mapping took 126.7 seconds; crop review, transcription and correction preparation
+  took 631.3 seconds, including processing waits. Initial render/crop and OCR
+  timings were 21.69s/24.30s; final cached timings were 30.30s/24.36s, including
+  reused tasks. These do not establish exact transcription or issue throughput.
+- November now has eleven readable articles, one partial article, one group
+  heading and 34 unresolved eligibility decisions across 47 entries. All twelve
+  classified articles are sample-reviewed within their recorded limits.
+  No application or extraction code changes were required; deferred submarine
+  bitmap work remains intact. No issue closeout is claimed.
+- Checkpoint complete; stall count 0. Preview: `http://127.0.0.1:4188/`.
+  Next: `11-batch-10`, segment 2 of the same article, starting at PDF64 / printed62.
+  Reuse the observed continuation image and preserve the prior segment within
+  the same one-article, six-source-page and six-outside-lookup limits.

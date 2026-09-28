@@ -1116,3 +1116,57 @@ segment of 도서관리 프로그램. Reuse its observed PDF58 opening; the TOC 
 suggests a longer article, so preserve explicit deferred coverage within the
 six-page limit. The ending is not yet verified. No application or extraction
 code changes were needed; deferred submarine bitmap correction is unchanged.
+
+### November batch 09: 도서관리 프로그램, segment 1
+
+`11-batch-09` restores PDF58–63 / printed56–61 under `maso-1983-11-toc-0021`.
+This is a **partial/sample-reviewed** article: the sentence continues on PDF64,
+the only outside lookup, and the full ending remains unverified. The next TOC
+entry does not establish the ending. The six-page checkpoint limit is unchanged.
+
+The package contains 54 regions, 31 reading blocks and 15 figures: three
+illustrations, nine menu examples, two tables and one flowchart, with twelve
+caption pairs. There is no numbered code listing in this segment. Image interiors
+remain available through full-resolution scan links. The reader illustration
+overlaps a menu/caption; its rectangular crop preserves that overlap with an
+explicit note instead of modifying the artwork.
+
+`corrections.json` contains 27 selected OCR corrections, eleven text review
+items, 31 UTF-8 text ranges and five prose joins. Original regional transcripts
+and all contributing scan references remain available. The Catalog Enter prose
+is placed after the intervening tables/flowchart, and the final sentence remains
+unfinished with a visible continuation notice. Unusual printed wording and
+ambiguous glyphs are retained for review.
+
+Crop revisions processed seven tasks with 47 cache hits, then one figure with
+53 cache hits. `state-reviewed/` was prepared but superseded without processing;
+the original, final and final2 states all resume without changing their ledgers.
+No engine failures or retries occurred. Final inputs use `map-final2.json` and
+`state-final2/`.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-09/state-final2
+make check-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-09/state-final2 \
+  PDF_BATCH_OUTPUT=build/pdf-restoration/11-batch-09-evidence-final2
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-09/library-segment-01/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-09-new/library-segment-01
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-09-new/library-segment-01
+python3 -m http.server 4188 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-09
+```
+
+The segment package totals 181 files / 30,192,570 bytes; the wrapper/report
+totals 185 files / 30,234,337 bytes. A separate rebuild is byte-identical, all
+48 focused tests pass, and 1,017 pinned prior files were preserved before the
+intentional ledger update. Desktop/mobile checks verify all 31 blocks, 15 images,
+57 asset pins, correction offsets and partial-coverage status. Actual article
+navigation, text download and final scan navigation pass; downloaded bytes match.
+Preview: `http://127.0.0.1:4188/`.
+
+November now has eleven readable articles, one partial article, one group heading
+and 34 unresolved eligibility decisions. Next is `11-batch-10`, segment 2 of the
+same article starting at PDF64 / printed62. Preserve segment 1 and explicit
+deferred coverage until the full extent is verified. No application or extraction
+code changes were needed; deferred submarine bitmap correction is unchanged.
