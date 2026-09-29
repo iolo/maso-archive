@@ -3311,3 +3311,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Only0038 changed; counts remain26 readable, one partial, three headings and17
   unresolved eligibility decisions. Next11-generator-assemble combines both
   immutable segments acrossPDF181–187 without new OCR. Step11 remains active.
+
+### 2026-09-30 — 11-generator-assemble started
+
+- Continue fromd2a5cd5. Assemble immutable segmentsPDF181–186 and187 into the
+  complete seven-page 프로그램 제너레이터 article without OCR. Retain five
+  original images,30 blocks and all correction notes; rebase text/listing ranges.
+- Resolve four superseded scope notes and the preliminary mapping uncertainty
+  about70020 using the final-page enlarged review confirming30020.
+
+### 2026-09-30 — 11-generator-assemble complete
+
+- Complete 프로그램 제너레이터 is readable/sample-reviewed acrossPDF181–187 /
+  printed179–185.52 regions produce30 reading blocks, five original images and
+  four code/transcript blocks. Flowchart, BASIC, menu and Quic procedure records
+  remain distinct:85 indexed records over88 physical rows.
+- Both original packages remain unchanged. All47 regional transcriptions match
+  their reading blocks exactly. Seven prose joins span17 boundaries;32 prose
+  notes and26 listing notes remain scan-linked. Five image notes and three
+  provisional-reading records remain in original metadata. No new OCR or repair.
+- Four superseded scope notes and one preliminary mapping uncertainty are
+  resolved. The final enlarged scan supports30020 for both SECURE and its error
+  handler. No cross-segment prose fragment or code continuation is present.
+- Rebuild is byte-identical; all15,308 protected pins,215 copied original files,
+  201 raw archive members, ordered seven-page coverage and all text/listing byte
+  ranges verify. Generic tooling remains unchanged since batch28's53-test run.
+- Desktop/mobile checks pass at1440×1000 and360×800 for30 blocks, five images,
+  56 pins,32 prose review ranges and85 local/logical listing ranges. Four code
+  blocks scroll on mobile; actual180px scrolling verified without page overflow.
+  Article25,545-byte and listing2,593-byte downloads match. Rebased final listing
+  scan opens3177×4320. Desktop table and mobile segment boundary/scroll images
+  inspected. Only favicon.ico404. Browser closed; http://127.0.0.1:4220/.
+- Article output:226 files /73,415,134 bytes. Wrapper/report/manifest:230 files /
+  73,462,628 bytes. Assembly/review/validation361.8s includes tool waits. Saved
+  assembly recipe, validation, browser evidence, ledger snapshot and next inputs.
+- Only0038 changed. November now has27 readable/sample-reviewed articles, no
+  partial articles, three headings and17 unresolved eligibility decisions.
+  Next11-batch-35 maps 디스어셈블러의 구성 fromPDF188 / printed186 and classifies
+  its parent 테크니칼. Remaining classifications, article outcomes and standalone
+  issue closeout keep step11 active.
