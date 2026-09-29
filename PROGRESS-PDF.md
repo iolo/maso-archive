@@ -3271,3 +3271,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next11-batch-34 restores finalPDF187 procedure listing, then assembles all seven
   pages. Remaining classifications, article outcomes and issue closeout keep
   step11 active. Deferred manual bitmap corrections remain outside this checkpoint.
+
+### 2026-09-30 — 11-batch-34 started
+
+- Continue from2400467 with final 프로그램 제너레이터 pagePDF187 / printed185.
+  Mapped the Quic-N-Easi procedure listing and figure2c caption. Repeated10:/
+  100:/200:/300:/400: prefixes are procedure labels, not BASIC row numbers.
+  Preserve the printed SECURE30020/handler70020 discrepancy and all syntax.
+- Prior six-page segment remains immutable. No incoming/outgoing prose fragment;
+  complete article assembly follows this final-page checkpoint.
+
+- Enlarged6000px listing resolves preliminary70020 reading as30020, matching
+  SECURE1:30020. Both crops inspected and complete; no crop repair needed.
+  Preserve the printed day check without GOTO, group prefixes and blank rows.
+
+### 2026-09-30 — 11-batch-34 complete
+
+- Final 프로그램 제너레이터 pagePDF187 / printed185 is partial/sample-reviewed.
+  Two regions produce the literal Quic-N-Easi procedure listing and figure2C
+  caption.55 procedure rows and four blank separators have59 physical-row indexes;
+  repeated group prefixes remain separate from BASIC row numbering.
+- Both crops inspected without repairs. Sixteen listing notes retain KEY0,
+  argument sequences, group/branch labels, punctuation and the DAY check without
+  GOTO. Enlarged scan resolves preliminary70020 as30020, matching SECURE's target.
+  One caption note retains 정의해 하는. No execution or syntax repair.
+- Rebuild is byte-identical; all15,211 protected pins, nine raw archive members,
+  geometry and every text/listing range validate. Both OCR tasks complete and
+  resume unchanged with no failures/retries. No generic tooling change since
+  batch28's successful53-test run; its evidence remains pinned.
+- Desktop/mobile checks pass at1440×1000 and360×800. All59 listing ranges and six
+  pins verified; actual180px code scrolling works with no page overflow. Article
+  1,584-byte and listing1,433-byte downloads match. Listing scan opens3177×4320.
+  Status and mobile code/scroll screenshots inspected. Only favicon.ico404.
+  Browser closed; final-page preview http://127.0.0.1:4219/.
+- Article output:19 files /5,230,926 bytes. Wrapper/report/manifest:23 files /
+  5,241,220 bytes. Mapping0.2s; review/build/validation566.8s includes tool waits.
+  Render/crop10.043s, OCR2.683s. Saved validation, browser evidence, ledger snapshot
+  and the two pinned segment manifests for assembly.
+- Only0038 changed; counts remain26 readable, one partial, three headings and17
+  unresolved eligibility decisions. Next11-generator-assemble combines both
+  immutable segments acrossPDF181–187 without new OCR. Step11 remains active.
