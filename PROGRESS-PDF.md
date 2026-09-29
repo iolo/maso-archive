@@ -3814,3 +3814,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   verifies its ending and excludes following unlisted material. Eight special-
   feature entries still need ownership/classification decisions; standalone issue
   export and staged-reader inspection remain required. Step11 active.
+
+### 2026-09-30 — 11-batch-43 started
+
+- Continue from3068e6f withQ.A, openingPDF218 / printed216. Check the ending
+  locally before extraction; preserve question/answer order and scan evidence.
+  One TOC article, six extracted pages and six lookup pages maximum. Previous
+  goal turn made progress: batches41/42 completed, validated and committed.
+
+### 2026-09-30 — 11-batch-43 complete
+
+- Q.A is readable/sample-reviewed across PDF218–220 / printed216–218. Six
+  exchanges retain their question/answer order, reader names, two pullquotes,
+  opening lock/key illustration and original module-testing diagram. Following
+  PDF221–222 are advertisements and excluded.21 regions contain19 regional
+  texts,17 reading blocks and two figures; two prose joins cross two boundaries.
+- Compared all21 crops and two repaired edges. Widened CP/M and GOTO prose crops;
+  originals and initial transcription remain preserved.40 scan-linked text notes
+  and two figure notes retain differing machine names, provisional small letters,
+  historical technical claims and old 읍니다 endings. No listing or execution.
+- Byte-identical rebuild,21,765 protected input pins,79 raw archive members,
+  geometry, all regions and all text/review ranges validate. Both completed OCR
+  states resume unchanged:21 initial tasks, two repairs,19 cache hits, no failures
+  or retries. Generic tooling unchanged; pinned evidence records55 passing tests.
+- Desktop1440×1000 and mobile360×800 pass:24 asset pins, two images, complete
+  review scope and no overflow. Diagram and mobile screenshots visually inspected.
+  Actual13,908-byte article download matches; scan link opens the700×528 diagram.
+  Onlyfavicon404; browser closed. Preview http://127.0.0.1:4231/.
+- Article package88 files /25,046,565 bytes; wrapper/report/manifest92 files /
+  25,068,190 bytes. Mapping115.5s; review/build/validation elapsed1,077.7s,
+  including tool waits. Private validator cache-hit expectation corrected before
+  successful validation. Processing times are pinned in the private closeout.
+- Only0047 changed. November now has34 readable/sample-reviewed articles, no
+  partial articles, five headings and eight unresolved eligibility decisions.
+  Next11-batch-44 maps the special feature between the interview endingPDF17 and
+  verified maze openingPDF30. Resolve its parent and seven pageless children
+  without duplicate bodies, extracting at most six pages per batch. All47-entry
+  accounting and standalone issue export/reader closeout remain. Step11 active.
