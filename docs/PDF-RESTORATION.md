@@ -1888,3 +1888,43 @@ and 25 unresolved eligibility decisions. Next is `11-batch-22`, editor segment02
 at PDF138–140: remaining explanations, two diagrams and BASIC330–1300, with the
 bottom advertisement excluded. Complete the separate assembly afterward, then
 continue toward full November accounting and the staged issue reference.
+
+## November editor article, second segment
+
+`11-batch-22` restores PDF138–140 / printed136–138 under the same article identity
+`maso-1983-11-toc-0030`. Twelve mapped regions produce eight reading blocks,
+including four code blocks, and two original diagrams/captions. DELETE/OUTPUT
+explanations and the closing accompany figures3-3/3-4 and BASIC330–1300. The
+advertisement below1300 is excluded. PDF141 opens MICRO COMPUTER GRAPHIC.
+
+The98 numbered BASIC rows span103 physical lines. Wrapped490/500/550/570 retain
+split identifiers and strings. `corrections.json` includes eight text ranges,
+four code ranges,98 line ranges,50 line notes,three prose review points and ten
+selected OCR corrections. Two column joins retain regional text. TE in400 is
+provisionally read and flagged; I/1, O/0, exact spaces, decorative symbol counts
+and executable correctness remain unverified. No semantic repair was performed.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-22/state.json
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-22/editor-segment-02/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-22-new/editor-segment-02
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-22-new/editor-segment-02
+python3 -m http.server 4202 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-22
+```
+
+All twelve OCR tasks / ten text outcomes completed without failures or retries;
+the completed state resumes unchanged. The53-file package is13,190,987 bytes and
+rebuilds byte-identically. All51 PDF tests pass; all7,808 preserved pins matched
+before ledger update. Checks cover all regions, geometry, raw archives, reading
+order, joins and correction ranges. Browser checks pass at1440×1000 and360×800:
+eight blocks, two diagrams,16 asset pins, all review scope and correction ranges.
+All four code blocks scroll without page overflow; actual scrolling reaches500px.
+The3,410-byte listing download matches, and the final scan opens successfully.
+Preview: `http://127.0.0.1:4202/`.
+
+Both immutable editor segments are now ready for separate assembly. The article
+remains partial until that checkpoint validates all nine pages together. November
+counts remain nineteen readable, one partial, two headings and25 unresolved
+eligibility decisions. Step11 continues through every entry and issue closeout.

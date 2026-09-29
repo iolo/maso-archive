@@ -2423,3 +2423,56 @@ history remains in [PROGRESS.md](PROGRESS.md).
   DELETE/OUTPUT explanations and closing, diagrams3-3/3-4 and BASIC330–1300.
   Exclude the advertisement below the final listing. Assemble the article in a
   separate checkpoint, then continue the November queue and issue closeout.
+
+### 2026-09-29 — 11-batch-22 started
+
+- Continue Step 11 from `1153800` with editor segment 02, PDF138–140 /
+  printed136–138, under existing TOC identity `maso-1983-11-toc-0030`.
+  Reuse pinned boundary evidence; preserve DELETE/OUTPUT explanations, closing,
+  diagrams3-3/3-4 and BASIC330–1300. Exclude the advertisement on PDF140.
+- Preserve segment 01 and prior packages. Validate this segment and commit its
+  checkpoint before separate article assembly. Keep bitmap correction deferred
+  and ignore `tocs/` as requested.
+
+- Mapped and inspected all twelve regions on the final three pages: six prose,
+  two figures and four code crops. OCR completed all twelve tasks / ten text
+  outcomes without failures. Figures3-3/3-4 and their captions are intact;
+  running headings and the lower-page advertisement are excluded.
+- Transcribed 98 numbered BASIC rows330–1300 across103 physical lines, preserving
+  wraps in490/500/550/570. Two cross-column prose joins retain regional text.
+  corrections.json includes98 line ranges,50 line notes,three prose review items
+  and ten selected OCR corrections. The uncertain400 variable is provisionally
+  TE; printed glyphs, spacing and source behavior remain manual review targets.
+- The53-file segment package rebuilds byte-identically. All51 PDF tests pass,
+  all7,808 preserved input pins match, and completed OCR resumes unchanged.
+  Browser checks are underway before recording the partial outcome and commit.
+
+### 2026-09-29 — 11-batch-22 complete
+
+- Restored editor segment02, PDF138–140 / printed136–138, with DELETE/OUTPUT
+  explanations, closing, figures3-3/3-4 and98 BASIC rows330–1300. All12 regions
+  are represented in eight reading blocks and two original diagrams. Physical
+  wraps and printed quirks remain visible and linked to correction evidence.
+- The53-file package is13,190,987 bytes and rebuilds identically. All51 PDF tests
+  pass. Checks validate source geometry, raw archive bytes, every region, two
+  prose joins, eight text ranges, four listing ranges and98 numbered-row ranges.
+  All7,808 preserved input pins matched before the ledger update. The completed
+  OCR state resumes unchanged;12 crop tasks/10 text outcomes, no failures/retries.
+- Background browser checks pass at1440×1000 and360×800 for all blocks, diagrams,
+  16 asset pins, correction ranges and six scope notes. Four code blocks scroll
+  without page overflow; actual scrolling reaches500px. The3,410-byte download
+  matches. The final scan opens at2204×1520. The initial desktop screenshot
+  preceded paint; a fresh settled screenshot and mobile screenshot were inspected.
+  Only favicon.ico returned404. Browser closed; preview http://127.0.0.1:4202/.
+- Both disjoint editor segments now cover all nine observed pages; availability
+  remains partial/sample-reviewed until separate assembly. November counts stay
+  nineteen readable, one partial, two headings and25 unresolved eligibility
+  decisions. Only0030 changed; prior packages, tocs/, the owner's .gitignore edit
+  and deferred bitmap correction remain intact. No issue closeout.
+- Mapping took236.9s; review/build/validation647.2s including waits. Cached render/
+  crop17.00s and OCR8.04s do not establish character-perfect proofreading speed.
+  Wrapper/report/manifest total57 files /13,207,537 bytes. Private helpers,
+  validation, browser records, ledger snapshots and next inputs are saved.
+- Next:11-editor-assemble, using the two immutable segments without new OCR.
+  Validate PDF132–140 and BASIC10–1300, resolve superseded partial-scope notes,
+  and inspect the combined reader before continuing to MICRO COMPUTER GRAPHIC.
