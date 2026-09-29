@@ -2883,3 +2883,59 @@ history remains in [PROGRESS.md](PROGRESS.md).
   articles, three headings and21 unresolved eligibility decisions. Next:
   11-batch-28 maps 메일링 프로그램 at PDF164 / printed162. Step11 remains active
   through all47 classifications, eligible outcomes and standalone issue closeout.
+
+### 2026-09-30 — 11-batch-28 started
+
+- Continue from `7fcfe03` with 메일링 프로그램, TOC0035, beginning PDF164 /
+  printed162. Inspect up to six included pages164–169 and boundary lookups
+  170–172 before deciding segment coverage. Preserve printed BASIC source,
+  wraps, original photographs and scan-linked correction scope without execution.
+
+- Scans establish the complete article at PDF164–171 / printed162–169. The
+  introduction ends on164; seven listing pages follow, ending at50260 on171.
+  PDF172 opens UNIX1. This segment includes164–169;170–171 are deferred.
+- Mapped eleven regions, including the opening photo and five full-page listing
+  crops. Code renders use6000 pixels because the dot-matrix text becomes faint;
+  introductory text/photo use4000. Preserve line4530 across167/168 and the
+  outgoing7260 fragment across169/170 with explicit continuation evidence.
+
+- All eleven crops inspected; five listing pages reviewed in fifteen overlapping
+  enlarged slices. Nine reading blocks retain the opening photo, joined prose,
+  and five code blocks.287 numbered BASIC lines cover349 physical rows, including
+  the two-region4530 continuation;7260 remains explicitly outgoing to PDF170.
+-68 listing notes, seven prose notes and one figure note preserve printed gaps,
+  wraps and discrepancies. Twelve rows contain fifteen split-glyph markers and
+  four unreadable markers. No program execution or semantic repair; raw OCR stays
+  unchanged. Exact string spaces and decorative symbol counts remain reviewable.
+- All53 PDF tests pass. Rebuild is byte-identical; all12,084 protected input pins,
+  raw OCR archives, source geometry, region coverage and download/review ranges
+  validate. Eleven OCR tasks /ten text outcomes resume unchanged without failures.
+  Browser review follows before recording this partial article outcome.
+
+### 2026-09-30 — 11-batch-28 complete
+
+- 메일링 프로그램 segment01 is partial/sample-reviewed across PDF164–169 /
+  printed162–167. Eleven regions produce nine blocks, one original photo and
+  five code blocks.287 numbered BASIC lines cover349 physical rows. Line4530
+  spans two scan regions; outgoing7260 is explicitly incomplete until PDF170.
+-68 listing notes, seven prose notes and one figure note retain uncertainties.
+  Twelve rows contain fifteen split-glyph and four unreadable markers. Printed
+  GOSUB57010, DENAY/SAVEING, numbering gaps and the200 continuation remain;
+  neither execution nor semantic repair was attempted.
+- All53 PDF tests pass. Rebuild is byte-identical; all12,084 protected pins,
+  raw OCR archive bytes, geometry and every text/listing range validate. Eleven
+  tasks /ten text outcomes resume unchanged without failures or retries.
+- Desktop/mobile checks pass at1440×1000 and360×800 for nine blocks, one photo,
+  fifteen pins and all indexed ranges. All five code blocks scroll on mobile;
+  actual scroll reaches180px without page overflow. The15,270-byte listing
+  download matches, and the final scan opens at3289×4699. Desktop photo and mobile
+  continuation views inspected. Only favicon.ico returned404. Browser closed;
+  preview http://127.0.0.1:4211/.
+- Article output:52 files /62,058,798 bytes. Wrapper/report/manifest:56 files /
+  62,074,908 bytes. Mapping131.9s; review/build/validation1196.5s includes
+  interruption, context recovery and tool waits. Processing:render/crop63.654s,
+  OCR27.375s; these are not character-perfect proofreading throughput.
+- Only0035 changed in the ledger. November now has23 readable articles, one
+  partial article, three headings and20 unresolved eligibility decisions.
+  Next11-batch-29 restores the final two pages170–171 with incoming7260, followed
+  by a separate immutable assembly. Step11 and standalone issue closeout remain.
