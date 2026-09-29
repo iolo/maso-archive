@@ -3726,3 +3726,53 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next11-batch-41 maps 효과적 활용 소고 fromPDF212 / printed210, confirms its end
   before 신간안내 & 서평 at printed214, and resolves parent 정보모음 ownership.
   All47 classifications and standalone issue export/reader closeout remain required.
+
+### 2026-09-30 — 11-batch-41 started
+
+- Continue from5a21f05 with 효과적 활용 소고, openingPDF212 / printed210.
+  Inspect its ending and the following book-review opening before extraction;
+  resolve 정보모음 parent ownership locally. Previous goal turn completed and
+  committed both the final IEEE-488 pages and immutable full-article assembly.
+- Local inspection confirms PDF212–215 / printed210–213 is the complete article;
+  PDF216 opens the book reviews. The 정보모음 TOC parent has no separate body.
+  Restored30 regional texts into24 blocks, preserving two original spread-image
+  halves. Five prose joins cross six boundaries;39 text notes and one explicit
+  indistinct-ending marker remain scan-linked. One top-edge crop repaired.
+- Package and rebuild match byte for byte. All20,941 protected inputs,123 raw
+  archive members,32 region representations and24 text ranges validate. Both OCR
+  states resume unchanged;32 initial tasks, one repair and31 cache hits. Generic
+  tooling unchanged; current pinned evidence records55 passing PDF tests.
+  Desktop/mobile browser acceptance and actual download checks are underway.
+
+### 2026-09-30 — 11-batch-41 complete
+
+- 효과적 활용 소고 is readable/sample-reviewed across PDF212–215 / printed210–213.
+  Preserved30 regional texts,24 reading blocks and both original halves of the
+  two-page illustration. Five joined blocks cross six column/page/image boundaries.
+  Backup, peripheral interfaces and CRT photography are searchable; no listing.
+- All32 enlarged crops compared; one floppy-prose top edge widened and reinspected.
+  Initial draft, original coordinates/crops/OCR and revised extraction are retained.
+  39 scan-linked text notes and two figure notes preserve period spellings,
+  Corvus Mirror, historical capacity/price claims, 초당5천 K바이트,16f부터5.6f
+  and shutter fractions. One faint introductory ending is explicitly marked
+  판독불명 instead of inventing a grammatical expansion. No technical rewriting.
+- Byte-identical rebuild and full package validation pass: all20,941 protected
+  inputs,123 raw archive members,32 represented regions,24 block ranges and39
+  review ranges. Both OCR states resume unchanged:32 initial tasks, one repair,
+  31 cache hits, no failures/retries. Generic tooling unchanged; pinned evidence
+  from the IEEE-488 assembly records55 passing PDF tests.
+- Desktop1440×1000 and mobile360×800 pass:35 asset pins, both images, complete
+  review scope and no overflow. Actual20,201-byte download matches the package;
+  full illustration scan opens1430×1128. Desktop illustration and mobile prose/
+  illustration screenshots inspected. Onlyfavicon404; browser closed. Preview4229.
+  Local-server sandbox restriction and launcher DNS/session failure recovered
+  before successful browser acceptance; these did not alter the restored package.
+- Article package132 files /34,670,543 bytes. Wrapper/report/manifest136 files /34,699,993 bytes; timing
+  is pinned in the private closeout. Elapsed time includes the interrupted turn,
+  tool/approval waits and browser recovery; it is not an active-work estimate.
+- Classified 정보모음 as a group heading with no body,
+  supported by the TOC hierarchy and adjacent article boundaries. Only0044/0045
+  ledger entries changed:32 readable, no partial articles, five group headings,
+  ten unresolved eligibility decisions among47 entries. Next11-batch-42 restores
+  신간안내 & 서평 fromPDF216 after checking its end beforeQ.A. Pageless special-
+  feature ownership and standalone issue export/reader closeout remain. Step11 active.
