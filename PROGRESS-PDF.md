@@ -3527,3 +3527,49 @@ history remains in [PROGRESS.md](PROGRESS.md).
   inspecting its ending and following IEEE-488 opening before extraction.
   All47 classifications and the standalone issue export/reader closeout remain
   required; step11 stays active.
+
+### 2026-09-30 — 11-batch-38 started
+
+- Continue from6defadf with 텔레비전을 컴퓨터용모니터로 쓰는 법, opening
+  PDF198 / printed196. Inspect article boundaries before extraction, keeping
+  original circuit diagrams and scan-linked wording review. Previous goal turn
+  completed and committed the final robot segment and full article assembly.
+
+### 2026-09-30 — 11-batch-38 complete
+
+- 텔레비전을 컴퓨터용모니터로 쓰는 법 is readable/sample-reviewed across
+  PDF198–203 / printed196–201. The nextPDF204 opens IEEE-488버스를 이용한 시스템구성.
+  46 regions produce29 reading blocks and nine original images; no program listing.
+- Retained the complete opening-page composition because its tilted title,
+  illustration and lead overlap. Its37 text regions are separately searchable.
+  Eight numbered diagrams preserve field scans, video waveforms, receiver blocks,
+  dot-matrix/character generation, CRTC and the complete UF-55S circuit.
+- Compared all37 text regions and joined eight column/page boundaries, including
+  텔/레비전,525/개의 and호오스에 대/고.35 scan-linked text notes retain printed1929년,
+  컴퓨터 통상,피일드,UHF,15.6KH, vendor/model wording and period construction claims.
+  Enlarged scans corrected draft실현된다는,기본 원리,복부분,진공관,한번에 하나의,
+  훼어차일드 and얼굴과 입을. Inline pulse labels become0 111 0 while original
+  waveforms remain in scans. Nine figure notes preserve labels and component values.
+- Repaired five crop edges: full figure2 caption, figure3 right label, and three
+  paragraph left edges. Initial maps/crops/OCR retained and revised edges reinspected.
+  Before extraction, mapping validation caught an unsupported heading kind and
+  overlap between the figure3 antenna and running-header exclusion; both corrected.
+  OCR itself had46 initial tasks, five repairs,41 cache hits, no failures/retries.
+- Rebuild is byte-identical. All18,156 protected inputs,158 raw archive members,
+  geometry,37 regional texts,29 text ranges and35 review ranges validate. Both OCR
+  states resume unchanged. Generic tooling remains unchanged since batch28's
+  successful53-test run; that evidence remains pinned.
+- Desktop1440×1000 and mobile360×800 checks pass:49 asset pins, all nine images,
+  full review scope and no page overflow. Article18,895-byte download matches;
+  no listing download is offered. Circuit scan opens2311×2236. Desktop circuit,
+  mobile prose and circuit screenshots inspected. Only favicon.ico404; browser
+  closed. Preview http://127.0.0.1:4225/.
+- Article output167 files /49,914,584 bytes; wrapper/report/manifest171 files /
+  49,950,198 bytes. Mapping223.5s; review/build/validation905.2s includes tool waits.
+  Final-state render/crop45.199s, OCR29.911s. Saved review, validation, browser
+  evidence, ledger snapshot and pinned next-checkpoint inputs.
+- Only0042 changed. November now has30 readable/sample-reviewed articles, no
+  partial articles, four headings and13 unresolved eligibility decisions.
+  Next11-batch-39 maps IEEE-488버스를 이용한 시스템구성 fromPDF204 / printed202;
+  inspect boundaries and split within six extracted pages if needed. Remaining
+  classifications, article outcomes and standalone issue closeout keep step11 active.
