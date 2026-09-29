@@ -3223,3 +3223,51 @@ history remains in [PROGRESS.md](PROGRESS.md).
   partial articles, three headings and18 unresolved eligibility decisions.
   Next11-batch-33 maps 프로그램 제너레이터 from PDF181 / printed179. Remaining
   classifications, article outcomes and standalone issue closeout keep step11 active.
+
+### 2026-09-30 — 11-batch-33 started
+
+- Continue fromb544369 with 프로그램 제너레이터, TOC0038. Local scans confirm
+  PDF181–187 / printed179–185; PDF188 starts 디스어셈블러의 구성. This segment
+  covers the first six pages181–186; final figure2c procedure listing187 is deferred.
+- Mapped50 regions: five original screenshots/tables, generated BASIC, a flowchart
+  transcript, a menu, prose and captions. Trace three-column reading order and
+  words split across columns/pages; preserve period reviews, prices and claims.
+
+- Recovery check found no live extraction process and no prepared task ledger.
+  Mapping had failed because page186's running-header exclusion overlapped
+  its first screenshot. Narrowed that exclusion to the visible header boundary;
+  retained the empty prior state directory as interrupted-attempt evidence.
+
+### 2026-09-30 — 11-batch-33 complete
+
+- First six pages of 프로그램 제너레이터 are partial/sample-reviewed across
+  PDF181–186 / printed179–184. Fifty regions produce28 reading blocks, five
+  original screenshots/tables and three literal code/transcript blocks. Final
+  figure2c on PDF187 / printed185 remains deferred; no outgoing prose fragment.
+- Seven prose joins span17 boundaries. Six flowchart steps,13 BASIC rows and
+  seven menu rows have26 indexed records over29 physical rows.31 prose notes,
+  ten listing notes and five figure notes retain Stanford/Standard, Quic-N-East,
+  source claims, menu notation and BASIC physical wraps. Three provisional
+  readings remain explicit. No execution, semantic repair or historical update.
+- All50 initial crops inspected; seven narrow/clipped edges widened and
+  reinspected.43 unchanged tasks reused cache. Initial/final50-task ledgers
+  resume unchanged, with45 text OCR outcomes and zero failures/retries.
+  Initial exclusion-overlap rejection and recovery are recorded separately.
+- Rebuild is byte-identical; all14,293 protected pins,186 raw archive members,
+  geometry, region coverage, byte ranges and26 listing records validate.
+  Generic tooling remains unchanged since batch28's successful53-test run.
+- Desktop/mobile checks pass at1440×1000 and360×800 for28 blocks, five images,
+  54 pins and all review/listing ranges. Three code blocks scroll on mobile;
+  actual180px scrolling verified, with no page overflow. Article23,905-byte
+  and listing1,160-byte downloads match. Final summary scan opens at1132×532.
+  Desktop figure and mobile code/scroll screenshots inspected. Only favicon.ico
+  returned404. Browser closed; preview http://127.0.0.1:4218/.
+- Article output:196 files /43,640,677 bytes. Wrapper/report/manifest:200 files /
+  43,684,223 bytes. Mapping468.2s; review/build/validation1056.9s includes recovery
+  and tool waits. Cached render/crop66.563s and OCR37.555s include reused work.
+  Saved recipes, validation, browser evidence, ledger snapshot and next inputs.
+- Only0038 changed. November now has26 readable articles, one partial article,
+  three headings and17 unresolved eligibility decisions;27 articles sample-reviewed.
+  Next11-batch-34 restores finalPDF187 procedure listing, then assembles all seven
+  pages. Remaining classifications, article outcomes and issue closeout keep
+  step11 active. Deferred manual bitmap corrections remain outside this checkpoint.
