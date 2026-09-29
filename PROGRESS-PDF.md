@@ -3484,3 +3484,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next11-robot-assemble combines both packages without OCR and resolves the
   0230-to-0238 segment boundary. Remaining November entries and issue closeout
   keep step11 active.
+
+### 2026-09-30 — 11-robot-assemble started
+
+- Continue from71cc9a8. Assemble both immutable robot packages acrossPDF190–197
+  without new OCR, resolve obsolete scope notes, preserve the original column
+  order and verify the complete0230-to-0238 row boundary.
+
+### 2026-09-30 — 11-robot-assemble complete
+
+- 마이크로 로봇의 제작 is readable/sample-reviewed across all eight pages,
+  PDF190–197 / printed188–195. Assembled two immutable packages without new OCR,
+  retaining238 original files,60 regions,52 regional transcriptions,45 reading
+  blocks and eight photos/diagrams. Six prose joins span seven boundaries.
+- Preserved31 prose notes and51 listing notes. Ten code/transcript blocks contain
+  357 physical records: four PIO explanations and353 hex rows /2,824 displayed
+  byte positions. Sorted coverage0100–0C07 is complete; the original first-page
+  sequence0170…01D8,0100…0158,0160…0168,01E0…0230 stays unchanged.
+- Verified adjacent complete0230 and0238 rows resolve the segment boundary.
+  Retained the original custom deferred-continuation metadata as historical
+  provenance, with explicit assembly evidence and separate boundary review.
+  No partial row/prose join was required. Resolved four obsolete scope notes and
+  two initial mapping-review notes; retained provisional0980 final91, source byte
+  discrepancies, original3.2K length claim and all remaining review notes.
+- Deterministic rebuild matches. All17,639 protected inputs,238 copied original
+  files and224 raw archive members validate. All regional text remains identical;
+  45 text ranges,31 prose review ranges and357 local/logical listing ranges rebase
+  correctly. Generic tooling unchanged; batch28's53-test evidence remains pinned.
+- Desktop1440×1000 and mobile360×800 reader checks pass:64 asset pins and all
+  eight images load, full review scope remains visible and superseded notes are
+  hidden. Nine hex blocks scroll at320px, with actual31px movement and no page
+  overflow; all code fits360px. Article30,405-byte and listing10,335-byte downloads
+  match. Full flowchart scan opens2305×2380; desktop flowchart and mobile code/
+  scrolling screenshots inspected. Only favicon.ico404. Browser closed; preview
+  http://127.0.0.1:4224/.
+- Article output249 files /105,434,040 bytes; wrapper/report/manifest253 files /
+  105,485,067 bytes. Assembly/rebuild/validation/browser checks226.4s; no new OCR
+  tasks or source-page extraction. Saved boundary review, ledger and next inputs.
+- Only0041 changed. November now has29 readable/sample-reviewed articles, no
+  partial articles, four headings and14 unresolved eligibility decisions.
+  Next11-batch-38 maps 텔레비전을 컴퓨터용모니터로 쓰는 법 fromPDF198 / printed196,
+  inspecting its ending and following IEEE-488 opening before extraction.
+  All47 classifications and the standalone issue export/reader closeout remain
+  required; step11 stays active.
