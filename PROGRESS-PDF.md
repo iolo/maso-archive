@@ -3135,3 +3135,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   eligibility decisions. Next11-unix-assemble must preserve27 blocks, twelve
   original images,45 prose notes, two provisional readings and both originals,
   then continue from PDF179. Step11 issue accounting and closeout remain.
+
+### 2026-09-30 — 11-unix-assemble started
+
+- Assemble two immutable UNIX segments without new OCR. All seven source pages
+  PDF172–178 / printed170–176 build as readable/sample-reviewed with27 blocks,
+  eleven cartoons and one version table. Retain45 prose notes, two provisional
+  readings, the caption overlap and exact regional byte partitions.
+- Incoming 점/점 links adjacent reading blocks; seven within-segment joins span
+  fifteen boundaries. Four superseded partial-scope notes are resolved while
+  both original packages and their correction metadata remain unchanged.
+
+### 2026-09-30 — 11-unix-assemble complete
+
+- Complete UNIX 1(연재) is readable/sample-reviewed across PDF172–178 / printed
+  170–176. Forty-nine regions produce27 reading blocks, eleven original cartoons
+  and one version table. All45 prose review notes remain; five figure notes and
+  two provisional-reading records stay in original segment metadata.
+- Both original packages remain unchanged. All37 regional transcriptions have
+  exact byte partitions into reading blocks. Seven prose joins span15 boundaries;
+  incoming 점/점 links adjacent blocks without rewriting their text. Original
+  caption overlap remains explicit. Four superseded scope notes are resolved.
+  No new OCR or historical/technical repair.
+- Rebuild is byte-identical; all13,513 protected pins,180 copied original files,
+  168 raw archive members, full page coverage and every text/review range verify.
+  Generic tooling remains unchanged since batch28's successful53-test run.
+- Desktop/mobile checks pass at1440×1000 and360×800 for27 blocks, twelve images,
+  52 pins,45 prose review ranges and the linked continuation. No page overflow.
+  The25,743-byte article download matches; rebased final scan opens at806×2228.
+  Desktop table and mobile segment boundary screenshots inspected. Only
+  favicon.ico returned404. Browser closed; complete preview http://127.0.0.1:4216/.
+- Article output:190 files /72,835,968 bytes. Wrapper/report/manifest:194 files /
+  72,875,502 bytes. Assembly/review/validation212.1s includes tool waits. Saved
+  assembly recipe, validation, browser evidence, ledger snapshot and next inputs.
+- Only0036 changed. November now has25 readable/sample-reviewed articles, no
+  partial articles, three headings and19 unresolved eligibility decisions.
+  Next11-batch-32 maps 마이티용 순서배열 프로그램 from PDF179 / printed177.
+  Step11 remains active through remaining classifications, outcomes and closeout.
