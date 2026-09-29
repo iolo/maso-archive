@@ -3443,3 +3443,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   four headings and14 unresolved eligibility decisions;29 sample-reviewed articles.
   Next11-batch-37 restoresPDF196–197 before immutable robot article assembly.
   Remaining classifications, article outcomes and issue closeout keep step11 active.
+
+### 2026-09-30 — 11-batch-37 started
+
+- Continue from8357ffe with final robot listing pagesPDF196–197 / printed194–195.
+  Map six code columns in source order, excluding the book advertisements below
+  the last listing. Preserve addresses and bytes without execution or inference.
+  The first six-page package remains unchanged for subsequent article assembly.
+
+### 2026-09-30 — 11-batch-37 complete
+
+- Final robot listing segment covers PDF196–197 / printed194–195 in six code
+  columns. Both immutable segments now cover all eight article pages; full
+  assembly remains. Book advertisements below the listing stay excluded.
+- Compared314 physical rows /2,512 byte positions, from0238 through0C00, with
+  enlarged scans. Preserved repeated-table differences,03B8 byte6F,0760 byteEA,
+  09A8 byteAA,09D8 byteF0 and final09 3E without opcode inference or execution.
+  37 scan-linked listing notes include provisional0980 final91. Addresses are
+  unnumbered physical records, not BASIC line numbers. No binary reconstruction.
+- Widened r04's left edge to recover clipped address digits, retained initial
+  map/crops/OCR and reinspected the repaired crop. Six initial extraction tasks,
+  one repair, five cache hits, no failures/retries; both OCR states resume unchanged.
+- Rebuild is byte-identical. All17,411 protected inputs,25 raw archive members,
+  six regional texts and314 listing byte ranges validate. Generic tooling remains
+  unchanged since batch28's successful53-test run; its evidence stays pinned.
+- Desktop1440×1000, mobile360×800 and narrow320px checks pass: ten asset pins,
+  six text ranges and314 listing ranges. Eight-byte rows fit360px; all six blocks
+  scroll at320px, actual31px movement, no page overflow. Article9,117-byte and
+  listing9,106-byte downloads match; scan link loads1020×4812. Desktop/mobile
+  screenshots inspected. Only favicon.ico404; browser closed. Preview:
+  http://127.0.0.1:4223/.
+- Article output35 files /26,284,639 bytes; wrapper/report/manifest39 files /
+  26,298,682 bytes. Mapping script0.2s (extent/lookup inspected in batch36);
+  review/build/validation987.5s includes interrupted turn and tool waits.
+  Final-state render/crop32.172s, OCR11.006s. Evidence, ledger snapshot and
+  assembly inputs saved. Previous status-only goal turn made no progress;
+  this checkpoint completed transcription, validation and reader inspection.
+- Only0041 changed. Counts remain28 readable articles, one partial article,
+  four headings and14 unresolved eligibility decisions;29 sample-reviewed articles.
+  Next11-robot-assemble combines both packages without OCR and resolves the
+  0230-to-0238 segment boundary. Remaining November entries and issue closeout
+  keep step11 active.
