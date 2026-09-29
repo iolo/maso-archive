@@ -3776,3 +3776,41 @@ history remains in [PROGRESS.md](PROGRESS.md).
   ten unresolved eligibility decisions among47 entries. Next11-batch-42 restores
   신간안내 & 서평 fromPDF216 after checking its end beforeQ.A. Pageless special-
   feature ownership and standalone issue export/reader closeout remain. Step11 active.
+
+### 2026-09-30 — 11-batch-42 started
+
+- Continue fromebba1bc with 신간안내 & 서평, openingPDF216 / printed214.
+  Check its end and the followingQ.A opening before extraction; preserve printed
+  book information and cover scans. Bound this checkpoint to one TOC article,
+  six extracted pages and six lookup pages. Batch41 originals remain immutable.
+
+### 2026-09-30 — 11-batch-42 complete
+
+- 신간안내 & 서평 is readable/sample-reviewed across PDF216–217 / printed214–215.
+  The two book reviews are sections of existing TOC0046, not new articles. Both
+  original covers, bibliographic blocks and the second-page column notice remain
+  visible.12 regions retain10 regional texts and nine reading blocks; one prose
+  join restores 기계와/는 across columns. NextPDF218 explicitly opensQ.A.
+- Compared all12 enlarged crops; no boundary repairs required. Initial draft,
+  map, scans and raw OCR are preserved.26 text notes and two cover notes retain
+  Japanese names as printed in Hangul, Compunication, Chinese characters,
+  KS5602, 키이보오드, 레코오더, format/page counts and historical prices.
+  Faint 나변화시대/확장되는 and small author-name letters remain provisional,
+  with scan-linked review notes. No external bibliographic or technical rewriting.
+- Rebuild is byte-identical. All21,566 protected inputs,43 raw archive members,
+  12 represented regions, nine block ranges and26 review ranges validate.
+  Completed OCR resumes unchanged:12 initial tasks, no failures/retries/repairs.
+  Generic tooling unchanged; pinned IEEE-488 assembly evidence has55 passing tests.
+  A private helper-generation syntax error was corrected before successful builds.
+- Desktop1440×1000 and mobile360×800 pass:15 pins, both covers, complete review
+  scope and no overflow. Actual9,275-byte article download matches; full cover
+  scan opens562×840. Desktop cover and mobile prose/cover screenshots inspected.
+  Onlyfavicon404; browser closed. Preview http://127.0.0.1:4230/.
+- Article package52 files /16,019,750 bytes. Wrapper/report/manifest and measured
+  processing/elapsed times are pinned in the private closeout. No program listing.
+- Only0046's ledger record changed. November now has33 readable/sample-reviewed
+  articles, no partial articles, five headings and nine unresolved eligibility
+  decisions across47 entries. Next11-batch-43 mapsQ.A fromPDF218/printed216,
+  verifies its ending and excludes following unlisted material. Eight special-
+  feature entries still need ownership/classification decisions; standalone issue
+  export and staged-reader inspection remain required. Step11 active.
