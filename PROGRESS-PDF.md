@@ -3350,3 +3350,47 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next11-batch-35 maps 디스어셈블러의 구성 fromPDF188 / printed186 and classifies
   its parent 테크니칼. Remaining classifications, article outcomes and standalone
   issue closeout keep step11 active.
+
+### 2026-09-30 — 11-batch-35 started
+
+- Continue from0000e0e with 디스어셈블러의 구성, completePDF188–189 / printed186–187.
+  NextPDF190 opens 마이크로 로봇의 제작. Map prose, reference tables, monitor
+  illustration, instruction examples and the hexadecimal listingA2E8–AA88.
+- Classify unpaged parent 테크니칼 as a group heading using TOC hierarchy and
+  local child openings; do not create a duplicate body. Preserve printed bytes,
+  terminology and address discrepancies without execution or binary reconstruction.
+
+### 2026-09-30 — 11-batch-35 complete
+
+- 디스어셈블러의 구성 is readable/sample-reviewed acrossPDF188–189 /
+  printed186–187.24 regions produce21 reading blocks, two original images and
+  eight code/example blocks. 테크니칼 is a group heading without a duplicate body.
+  NextPDF190 opens 마이크로 로봇의 제작.
+- Compared22 text regions, repaired two clipped/tight paragraph edges and joined
+  정/의한 across columns. Preserved original three-part reference table and monitor
+  illustration.14 prose notes retain mnemonic, two-path, STAC wording, GA2ED versus
+  GA2EE/A2EE, output selectors and period claims without technical repair.
+- Indexed136 unnumbered physical records, including123 hex rows /1,968 byte
+  positions. Addresses remain separate from BASIC row numbers. One obscured byte
+  atA61B is marked??; other faint readings remain provisional.23 listing notes
+  retain the boxed02 example and full final16-byte row throughAA97 despite prose
+  endAA8F. Two figure notes preserve the images. No binary reconstruction or execution.
+- Rebuild is byte-identical; all15,778 protected pins,91 raw archive members,
+  geometry, regional text and correction/listing byte ranges validate. Both OCR
+  states complete and resume unchanged:24 initial tasks, two repair tasks and22
+  cache hits, no failures/retries. Generic tooling unchanged since batch28's
+  successful53-test run; its evidence remains pinned.
+- Desktop/mobile checks pass at1440×1000 and360×800:28 asset pins,21 text ranges,
+  14 prose review ranges and136 listing ranges. Three code blocks scroll; actual
+  180px scrolling works without page overflow. Article12,146-byte and listing
+  6,733-byte downloads match; hex scan opens1468×4566. Desktop table and mobile
+  code/scroll screenshots inspected. Only favicon.ico404. Browser closed;
+  preview http://127.0.0.1:4221/.
+- Article output:101 files /23,045,312 bytes. Wrapper/report/manifest:105 files /
+  23,070,252 bytes. Mapping122.1s; review/build/validation1,105.6s includes interrupted
+  turn/status check and tool waits. Render/crop52.629s, OCR18.386s for final state.
+  Saved validation, browser evidence, ledger snapshot and next checkpoint inputs.
+- Only0039/0040 changed. November now has28 readable/sample-reviewed articles,
+  no partial articles, four headings and15 unresolved eligibility decisions.
+  Next11-batch-36 maps 마이크로 로봇의 제작 fromPDF190, within six extracted pages.
+  Remaining classifications, article outcomes and issue closeout keep step11 active.
