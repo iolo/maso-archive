@@ -3573,3 +3573,61 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next11-batch-39 maps IEEE-488버스를 이용한 시스템구성 fromPDF204 / printed202;
   inspect boundaries and split within six extracted pages if needed. Remaining
   classifications, article outcomes and standalone issue closeout keep step11 active.
+
+### 2026-09-30 — 11-batch-39 started
+
+- Continue from3232bd2 with IEEE-488버스를 이용한 시스템구성, opening
+  PDF204 / printed202. Inspect its ending and following article before mapping;
+  preserve original diagrams, tables and period terminology. Previous goal turn
+  completed and committed the six-page television-monitor article.
+
+- Batch39 review/validation: full article extent verified asPDF204–211, with
+  PDF210–211 deferred. First six pages now have50 mapped regions,40 reviewed
+  text regions,27 reading blocks, nine numbered diagrams and an original table
+  with searchable rows. Six prose joins span13 boundaries. Nine crop repairs
+  preserve initial evidence;40 text review notes include sourceS₄/AHT and the
+  START,BUSY continuation across diagram-onlyPDF209. Deterministic rebuild and
+  all18,949 protected inputs validate. Browser/download acceptance is in progress.
+
+### 2026-09-30 — 11-batch-39 complete
+
+- IEEE-488버스를 이용한 시스템구성 is partial/sample-reviewed across
+  PDF204–209 / printed202–207. The complete article spansPDF204–211; final
+  PDF210–211 remain deferred before 효과적 활용 소고 opensPDF212. This batch
+  used six extracted pages and three outside lookup pages.
+- 50 regions produce27 reading blocks from40 regional texts, nine original
+  numbered diagrams and the original ten-row interface table. The table header,
+  functions and abbreviations are also searchable; no program listing.
+- Compared all text crops and preserved40 scan-linked text notes and ten figure
+  notes. Six prose joins span13 boundaries, including내보낸/다,tri-/state,
+  Hewlett/Packard,EOI/(end or identify) and컴/퓨터. PDF208 endsSTART,BUSY;
+  its sentence resumesPDF210 after diagram-onlyPDF209. Saved explicit boundary
+  evidence without importing deferred prose into this segment.
+- Enlarged scans corrected draft디지털,무조건으로,번신지가,프로그래밍형 and an
+  inverted enable-line explanation. Retained디지탈,무조정,시어비스,핸드쉐이크,
+  S₄ despite the figure's switch placement, provisionalAHT, RFD/DAC notation,
+  IFC's missing closing parenthesis and original chip/value claims. Detailed
+  scan resolvesDAV 선은; overbar/subscripts use Unicode. No technical repair.
+- Widened eight prose margins and the searchable table region to include its
+  header and finalController row. All nine repairs reinspected; initial maps,
+  crops, OCR and draft text retained. Before extraction, schema validation caught
+  an invalid segment suffix on the article id; canonical id restored while
+  segment identity remains in coverage. OCR had50 initial tasks, nine repairs,
+  41 cache hits and no failures/retries.
+- Rebuild is byte-identical. All18,949 protected inputs,171 raw archive members,
+  geometry,40 regional texts,27 block ranges and40 review ranges validate.
+  Both OCR states resume unchanged. Generic tooling unchanged since batch28's
+  successful53-test run; that evidence remains pinned.
+- Desktop1440×1000 and mobile360×800 reader checks pass:53 asset pins, all ten
+  images, visible partial scope and no overflow. Actual18,344-byte article
+  download matches; no listing download. Circuit scan opens2283×1720.
+  Desktop circuit and mobile prose/circuit screenshots inspected. Onlyfavicon404;
+  browser closed. Preview http://127.0.0.1:4226/.
+- Article output180 files /35,207,711 bytes; wrapper/report/manifest184 files /
+  35,245,603 bytes. Mapping399.3s and review/build/validation755.0s include tool
+  waits; final-state render/crop42.096s and OCR29.737s. Saved next inputs and ledger.
+- Only0043 changed. November now has30 readable articles, one partial article,
+  four headings and12 unresolved eligibility decisions;31 sample-reviewed articles.
+  Next11-batch-40 restoresPDF210–211, then a separate assembly checkpoint combines
+  the immutable packages and resolves superseded scope notes. Remaining entries
+  and standalone issue closeout keep step11 active.
