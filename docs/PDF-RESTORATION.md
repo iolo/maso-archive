@@ -1464,3 +1464,55 @@ spacing or executable BASIC. November now has twelve readable/sample-reviewed
 articles, one group heading and 34 unresolved eligibility decisions. Next is
 `11-batch-14`, GUN MAN at PDF84 / printed82, with the existing six-page extraction
 limit and boundary review before assigning its extent. `tocs/` remains out of scope.
+
+## Step 11 batch 14: GUN MAN
+
+`11-batch-14` restores the clearly identified GUN MAN page, PDF84 / printed82,
+under `maso-1983-11-toc-0022`. It contains the platform/title, supplier credit,
+callout, three introductory paragraphs, program explanation, original title
+illustration and a framed BASIC listing ending at 2490 GOTO2000. PDF85 is an
+uncaptioned photograph without explicit continuation text; its article ownership
+remains unresolved and it is retained only as boundary evidence. PDF86 / printed84
+opens MARK. The readable/sample-reviewed scope is the identified GUN MAN page;
+it does not assert ownership of the neighboring photo.
+
+Ten regions produce nine reading blocks and one figure. Platform/title crops
+intentionally overlap the preserved illustration so their text is accessible
+without erasing the original labels. The one code block contains fifty numbered
+rows, 2000–2490, across 51 physical lines: 2430 wraps before `4, BF`. No line number
+or physical continuation is invented. Nine regional text ranges, fifty line
+ranges, two prose review items, nine selected OCR correction examples and 25 code
+review notes remain in `corrections.json` with pinned scans and raw evidence.
+
+Review notes cover SPRITE hex runs, I/1 and 0/O distinctions, faint horizontal
+strokes, 2390's2809, 2400's `J NEXT`, 2450's `FORM-203` and 2480's `FORV-0`. These are
+provisional scan readings, not syntax repairs. The explanation's printed `우측`
+for 2140–2170 also remains unchanged. Exact glyphs, whitespace and executable
+correctness remain unverified; sprite bytes were not inferred from expected shapes.
+
+```sh
+make resume-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-14/state-mapped
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-14/gun-man
+make test-pdf
+python3 -m http.server 4194 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-14
+```
+
+One source page and two outside lookup pages were used. The completed state
+resumes unchanged; ten crop tasks and nine text OCR outcomes completed with no
+engine failures or retries. Raw evidence is retained in
+`build/pdf-restoration/11-batch-14-evidence/`. The package contains 48 files /
+7,567,902 bytes and has a byte-identical independent rebuild. All 51 focused PDF
+tests pass; all 2,144 prior file pins matched before the intentional ledger update.
+Desktop/mobile checks verify nine DOM blocks, one figure, fourteen asset pins,
+all text and line ranges, literal listing downloads and horizontal code scrolling.
+Preview: `http://127.0.0.1:4194/`.
+
+November now has thirteen readable/sample-reviewed articles, one group heading
+and 33 unresolved eligibility decisions. Only GUN MAN's entry changed. Next is
+`11-batch-15`: map MARK from PDF86 / printed84, check the education heading's
+eligibility without duplicating article content, and establish the ending within
+the existing one-article/six-source-page ceiling. The neighboring photo remains
+unassigned. `tocs/` and deferred submarine bitmap correction stay out of scope.

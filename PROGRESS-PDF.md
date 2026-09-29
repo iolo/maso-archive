@@ -1820,3 +1820,74 @@ history remains in [PROGRESS.md](PROGRESS.md).
   scan, establish the ending before assigning coverage, and retain the existing
   one-article/six-source-page limit, six outside lookup pages and one engine retry
   per failed region. Update this log and commit that checkpoint separately.
+
+### 2026-09-29 — 11-batch-14 started
+
+- Library assembly committed as `6d0d63e`. Continue with GUN MAN under its
+  existing TOC identity, from observed PDF84 / printed82. Retain the one-article,
+  six-source-page ceiling and verify the following boundary before mapping.
+- Preserve literal BASIC and scan-linked corrections, update the November ledger,
+  validate the reader/downloads, and commit. Ignore `tocs/`; retain the owner's
+  `.gitignore` change and deferred submarine bitmap review.
+
+- Mapped the clearly identified GUN MAN page, PDF84 / printed82, with ten
+  regions. PDF85 is an uncaptioned photograph whose attribution remains unresolved;
+  it is retained only as boundary evidence. PDF86 opens MARK. Completed ten crop
+  tasks and nine text OCR outcomes with zero engine failures or retries.
+- Reviewed all included regions: nine text/code blocks and one original title
+  illustration. Fifty numbered rows (2000–2490) occupy 51 physical code lines;
+  2430 wraps once. Retained SPRITE hex strings, 25 line-specific review notes,
+  two prose review items and nine selected OCR correction examples. Exact glyphs,
+  spaces and program execution remain unverified. Rebuild and all 51 tests pass;
+  2,144 prior pins match. Browser checks and ledger closeout are in progress.
+
+### 2026-09-29 — 11-batch-14 complete
+
+- Restored GUN MAN under `maso-1983-11-toc-0022`, PDF84 / printed82, as
+  readable/sample-reviewed. The identified page contains its title illustration,
+  HYCOM-800 label, supplier credit, instruction callout, introduction, program
+  explanation and framed BASIC listing. Neighbor PDF85 is an uncaptioned photo
+  without explicit continuation; its attribution remains unresolved and it is
+  boundary evidence only. PDF86 / printed84 opens MARK. No photograph ownership
+  or character-perfect coverage is inferred from the TOC interval.
+- Ten regions yield nine reading blocks, one code block and one figure. The
+  original title illustration retains its embedded platform/title labels and
+  artist mark; overlapping text crops make the labels accessible without erasing
+  pixels. The fifty numbered rows, 2000–2490, occupy 51 physical lines. Wrapped 2430
+  remains one indexed row with both printed lines and an exact byte range.
+- `corrections.json` retains nine text ranges, one code-block range, fifty line
+  ranges, nine selected OCR correction examples, 25 listing review notes and two
+  prose review items. Printed 2390's2809, 2400's J NEXT, 2450's FORM-203 and 2480's
+  FORV-0 remain as read. Faint operators, I/1, 0/O and SPRITE hex runs are explicit
+  manual-review items; no bitmap bytes are inferred or code executed/repaired.
+  The explanation's 우측 for 2140–2170 remains distinct from other descriptions.
+- Used one source page and two outside lookups. The final input is `map.json`;
+  processing state is `state-mapped/`. Ten crop tasks and nine text OCR outcomes
+  completed with zero engine failures or retries. The completed state resumes
+  unchanged, and the separate evidence export remains saved. Raw source geometry,
+  scan assets, OCR text, positions and original settings all validate.
+- The package is 48 files / 7,567,902 bytes and rebuilds byte-identically. All 51
+  focused PDF tests pass; all 2,144 preserved file pins matched before the intended
+  ledger update. Text and listing ranges, selected correction excerpts, physical
+  wrap preservation, source identity and all mapped-region coverage validate.
+  No extraction or reader implementation changes were needed.
+- Background Playwright checks pass at 1440×1000 and 360×800: nine DOM blocks,
+  one figure, fourteen asset pins, all text/line ranges, visible photo-attribution
+  limits and literal code. Actual wrapper→article, listing download and code-scan
+  clicks pass; downloaded bytes match and the scan loads. Horizontal code scrolling
+  works without page overflow. Inspected desktop illustration and mobile listing
+  images under `output/playwright/pdf-11-batch-14/`. Only favicon.ico returned 404.
+  Browser closed; preview remains at `http://127.0.0.1:4194/`.
+- November now has thirteen readable/sample-reviewed articles, one group heading
+  and 33 unresolved eligibility decisions. Only GUN MAN's entry changed. Original
+  library segments/assembly, deferred submarine bitmap correction, `tocs/` and
+  the owner's `.gitignore` change remain untouched. No issue closeout. Stall count 0.
+- Mapping took 162.5 seconds; review/build/validation took 794.4 seconds,
+  including tool waits. Render/crop and OCR processing took 4.21 and 4.10 seconds.
+  These are wall timings, not character-perfect proofreading throughput. The
+  wrapper/report export totals 52 files / 7,581,586 bytes.
+- Private validation, timing, browser evidence, ledger snapshots and closeout
+  records are saved. Next is `11-batch-15`: MARK at PDF86 / printed84, including
+  the education-heading eligibility check. Reuse the observed opening image,
+  establish its ending and split before exceeding six source pages; retain the
+  six-lookup and one-engine-retry limits. Update progress and commit separately.
