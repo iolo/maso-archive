@@ -3394,3 +3394,52 @@ history remains in [PROGRESS.md](PROGRESS.md).
   no partial articles, four headings and15 unresolved eligibility decisions.
   Next11-batch-36 maps 마이크로 로봇의 제작 fromPDF190, within six extracted pages.
   Remaining classifications, article outcomes and issue closeout keep step11 active.
+
+### 2026-09-30 — 11-batch-36 started
+
+- Continue from982c058 with 마이크로 로봇의 제작, opening
+  PDF190 / printed188. Inspect the local ending and following article before mapping;
+  split within six extracted pages if needed. Preserve original diagrams, source
+  listings and period construction descriptions with scan-linked corrections.
+
+### 2026-09-30 — 11-batch-36 complete
+
+- First six pages of 마이크로 로봇의 제작 are partial/sample-reviewed across
+  PDF190–195 / printed188–193. Full article isPDF190–197; followingPDF198 opens
+  the television-monitor article. Final two hex-listing pages remain deferred;
+  advertisements below the listing onPDF197 are outside this article.
+- 54 regions produce39 reading blocks, eight original images and four code/
+  transcript blocks. Two photos and six diagrams include the complete branching
+  flowchart. Compared46 text regions and repaired eight crop boundaries, including
+  the 기타 heading, paragraph edges, sensor label, opening photo/byline and two
+  hex-block bottoms. Six prose joins span seven boundaries, including 주프로/그램.
+- 31 prose notes preserve 기억스켜, resert, 센서 기관, period claims and terminology.
+  Enlarged scans corrected draft readings to 버퍼게이트, 다알링턴, 직선의 길 and
+  결합시킬. Eight figure notes retain original labels/arrows and the adjacent byline
+  in the opening photo. No redrawing, engineering repair or code execution.
+- 43 unnumbered records comprise four PIO mode rows and39 hex rows /312 byte
+  positions.14 listing notes preserve layout order: left0170–01D0, middle01D8
+  then0100–0158, right0160/0168 then01E0–0230. Sorted address coverage is0100–0237;
+  the transcript itself is not reordered. Complete last row continues at0238 on
+  deferredPDF196. No unfinished prose remains at this segment boundary.
+- Rebuild is byte-identical; all16,259 protected pins,193 raw archive members,
+  geometry and text/listing ranges validate. Both OCR states resume unchanged:
+  54 initial tasks, eight repairs,46 cache hits, no failures/retries. The draft
+  export was retained separately after a final spelling correction; the builder
+  refused overwrite as designed and the final export used a fresh directory.
+  Generic tooling unchanged since batch28's successful53-test run.
+- Desktop1440×1000 and mobile360×800 checks pass for58 pins,39 text ranges,
+  31 prose review ranges and43 listing ranges. Eight-byte rows fit360px; at320px,
+  three hex blocks scroll, with actual31px scrolling and no page overflow. An
+  inherited overflow assertion was adjusted to these observed widths; no reader
+  change. Article21,199-byte and listing1,229-byte downloads match. Flowchart scan
+  opens2305×2380; desktop flowchart and mobile code/scroll screenshots inspected.
+  Only favicon.ico404. Browser closed; preview http://127.0.0.1:4222/.
+- Article output:203 files /43,485,884 bytes. Wrapper/report/manifest:207 files /
+  43,529,723 bytes. Mapping145.4s; review/build/validation1,046.2s includes tool
+  waits. Final-state render/crop73.371s, OCR33.530s. Saved validation, browser
+  evidence, issue snapshot and pinned next-checkpoint inputs.
+- Only0041 changed. November now has28 readable articles, one partial article,
+  four headings and14 unresolved eligibility decisions;29 sample-reviewed articles.
+  Next11-batch-37 restoresPDF196–197 before immutable robot article assembly.
+  Remaining classifications, article outcomes and issue closeout keep step11 active.
