@@ -3631,3 +3631,51 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next11-batch-40 restoresPDF210–211, then a separate assembly checkpoint combines
   the immutable packages and resolves superseded scope notes. Remaining entries
   and standalone issue closeout keep step11 active.
+
+### 2026-09-30 — 11-batch-40 started
+
+- Continue from6bf7fd9 with the final IEEE-488 pages,PDF210–211 / printed208–209.
+  Reinspected the incoming START,BUSY continuation, concluding references and
+  following 효과적 활용 소고 opening. Restore the original table/flowcharts and
+  literal prose before assembling both immutable segments in a separate checkpoint.
+
+- Batch40 review:23 regions,20 regional texts,18 reading blocks, original table2
+  and flowcharts10–11. Two prose joins and28 text review notes retain literal
+  register/reference spellings; one faint Japanese character has an explicit
+  marker. Four crop repairs reinspected. Final segment built; package and browser
+  checks underway. Assembly must distinguish the prior outgoing continuation
+  declaration from this segment's standard incoming link while preserving originals.
+
+### 2026-09-30 — 11-batch-40 complete
+
+- Final IEEE-488 pagesPDF210–211 / printed208–209 are partial/sample-reviewed
+  pending assembly withPDF204–209. NextPDF212 opens 효과적 활용 소고.23 regions
+  produce18 reading blocks,20 regional texts, original table2 and flowcharts10–11.
+  Four frequency-mode rows are searchable; no program listing or reconstructed code.
+- Reviewed all crops and four widened prose edges. Two internal joins restore
+  한/후 and지시하/게 된다. The standard incoming continuation record identifies
+  priorsegment-01/r44 START,BUSY and currentr01 논리 회로는 across diagram-only209.
+  Initial draft, crops/OCR and initial build retained before normalizing that record.
+- 28 text review notes preserve printed서어비스,Excuting,그림8,Motororola,
+  transister,IEC-29 and Japanese reference spellings. ROW/ROR's round glyph,
+  provisionalfᵢ subscript andジステム/ユントローラ remain scan-linked; one faint
+  leading Japanese character is explicitly marked판독불명. No bibliographic or
+  engineering corrections from external sources. Three figure notes retain diagrams.
+- Byte-identical rebuild, all19,814 protected inputs,84 raw archive members,
+  geometry,20 regional texts,18 block ranges and28 review ranges validate.
+  Both OCR states resume unchanged:23 initial tasks, four repair attempts,
+  19 cache hits, no failures/retries. Generic tooling still unchanged; pinned
+  batch28 evidence records53 passing tests.
+- Desktop1440×1000 and mobile360×800 reader checks pass:26 pins, all three images,
+  visible partial scope and no overflow. Actual6,974-byte article download matches;
+  full BI flowchart scan opens1554×3040. Desktop flowchart and mobile prose/table/
+  flowchart screenshots inspected. Onlyfavicon404; browser closed. Preview4227.
+- Article output93 files /12,989,939 bytes; wrapper/report/manifest97 files /
+  13,013,162 bytes. Mapping56.2s and review/build/validation584.8s include tool waits;
+  final-state render/crop17.724s, OCR12.015s. Saved next inputs and segment manifests.
+- Only0043's restoration record changed, retaining both segment manifests. Counts
+  remain30 readable, one partial, four headings and12 unresolved eligibility;
+  31 sample-reviewed articles. Next11-ieee488-assemble combines the immutable
+  eight-page article without OCR. The first segment's outgoing prose declaration
+  needs explicit assembly handling instead of being interpreted as an incoming
+  declaration; preserve it and validate its matching next-segment link. Step11 active.
