@@ -1928,3 +1928,44 @@ Both immutable editor segments are now ready for separate assembly. The article
 remains partial until that checkpoint validates all nine pages together. November
 counts remain nineteen readable, one partial, two headings and25 unresolved
 eligibility decisions. Step11 continues through every entry and issue closeout.
+
+## November editor article assembled
+
+`11-editor-assemble` combines the two immutable editor segments under existing
+identity `maso-1983-11-toc-0030`. Complete PDF132–140 / printed130–138 coverage is
+now `readable / sample-reviewed`. No new OCR or source pages were processed.
+The54 regions produce34 reading blocks, twelve original diagrams and five code
+blocks. BASIC10–1300 has130 numbered rows over140 physical lines; eight wrapped
+statements retain their original segment bytes.
+
+Namespaced corrections retain34 text ranges,15 prose review points,130 local and
+logical line ranges,68 line notes and eight prose joins. Four partial-scope notes
+are explicitly resolved in the assembly. Both original packages, their maps,
+settings and correction files remain byte-identical; unresolved glyph, spacing
+and source-code concerns stay visible. No cross-segment fragment repair is needed.
+
+```sh
+make assemble-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-editor-assemble/assembly-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-editor-assemble-new/editor
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-editor-assemble-new/editor
+python3 -m http.server 4203 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-editor-assemble
+```
+
+The213-file article is66,463,279 bytes and rebuilds byte-identically. All8,064
+preserved pins,202 copied originals and188 raw archive members match. Validation
+checks full page coverage, reading order and every projected range. Tooling is
+unchanged; the immediately preceding batch22 run passed all51 PDF tests.
+
+Browser checks pass at1440×1000 and360×800 for34 blocks, twelve diagrams,58 pins,
+all correction ranges and visible scope. Superseded partial notes are absent
+from the combined review panel and preserved in the originals. Five code blocks
+scroll without page overflow; actual scrolling reaches500px. The4,777-byte listing
+download matches and the rebased final scan opens at2204×1520. Desktop/mobile
+screenshots were inspected. Preview: `http://127.0.0.1:4203/`.
+
+November now has twenty readable/sample-reviewed articles, no partial articles,
+two group headings and25 unresolved eligibility decisions. Next is11-batch-23,
+MICRO COMPUTER GRAPHIC atPDF141 / printed139; establish its ending from scans.
+The complete issue accounting and staged issue reference remain required.

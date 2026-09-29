@@ -2476,3 +2476,50 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next:11-editor-assemble, using the two immutable segments without new OCR.
   Validate PDF132–140 and BASIC10–1300, resolve superseded partial-scope notes,
   and inspect the combined reader before continuing to MICRO COMPUTER GRAPHIC.
+
+### 2026-09-29 — 11-editor-assemble started
+
+- Assemble both immutable editor segments from `e6d5cd5` without new OCR.
+  Require complete ordered PDF132–140 / printed130–138 coverage, twelve diagrams,
+  BASIC10–1300 and all original evidence. Namespace local correction identities,
+  rebase byte ranges, and explicitly resolve four superseded partial-scope notes.
+- Preserve printed glyph ambiguities and physical wraps. Validate the combined
+  article and desktop/mobile reader before marking0030 readable and committing.
+  Continue afterward through the remaining November entries and issue closeout.
+
+- Assembly and independent rebuild succeeded. Complete ordered nine-page
+  coverage contains54 regions,34 reading blocks,12 diagrams and five code blocks.
+  All130 numbered BASIC rows10–1300 span140 physical lines; eight wrapped rows
+  retain exact segment bytes. No cross-segment fragments needed joining.
+- All8,064 preserved pins and202 copied original files match. The213-file
+  assembled package is66,463,279 bytes. Validation checks188 raw archive members,
+  34 text ranges,15 prose review points,130 local/logical line ranges,68 line
+  notes and eight prose joins. Four partial-scope notes are explicitly resolved;
+  original segment records remain unchanged. No new OCR or source-page processing.
+- Reused batch22's immediately preceding51-test pass because tooling is unchanged.
+  Combined-reader browser checks follow before the ledger update and commit.
+
+### 2026-09-30 — 11-editor-assemble complete
+
+- Combined both immutable editor segments into one readable/sample-reviewed
+  article, PDF132–140 / printed130–138, without new OCR. All54 regions,34 reading
+  blocks,12 diagrams and130 numbered BASIC rows are retained in source order.
+  The4,777-byte listing is the exact concatenation of the two originals.
+- Validation confirms full ordered coverage, byte-identical rebuild,202 copied
+  originals,188 raw archive members and8,064 preserved input pins. Every text,
+  review and listing range validates. Four superseded scope notes are resolved;
+  glyph/spacing/code concerns remain visible. All source packages remain intact.
+  The unchanged tooling uses batch22's immediately preceding51-test pass.
+- Desktop/mobile browser checks pass for all34 blocks,12 figures,58 pins and
+  correction ranges. Five code blocks scroll without page overflow; actual
+  scrolling reaches500px. Downloaded listing bytes match; the rebased final scan
+  opens at2204×1520. Desktop diagram and mobile code screenshots were inspected.
+  Only favicon.ico returned404. Browser closed; preview http://127.0.0.1:4203/.
+- Article output totals213 files /66,463,279 bytes; wrapper/report/manifest totals
+  217 files /66,508,349 bytes. Assembly/review/validation took289.8s including
+  tool waits, with zero new OCR tasks. Private recipes, validation, browser
+  records, original segments, ledger snapshots and next inputs are saved.
+- November now has twenty readable/sample-reviewed articles, no partial articles,
+  two group headings and25 unresolved eligibility decisions. Only0030 changed.
+  Step11 remains active. Next:11-batch-23 maps MICRO COMPUTER GRAPHIC beginning
+  atPDF141 / printed139; establish the ending locally before extraction.
