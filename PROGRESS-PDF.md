@@ -3085,3 +3085,53 @@ history remains in [PROGRESS.md](PROGRESS.md).
   headings and19 unresolved eligibility decisions. Next11-batch-31 restores
   PDF178 / printed176, preserves incoming 점/점 continuation and final table,
   then assembles the seven-page article. Step11 issue closeout remains pending.
+
+### 2026-09-30 — 11-batch-31 started
+
+- Continue from2e321a5 with final UNIX page PDF178 / printed176. The next page
+  opens 마이티용 순서배열 프로그램, confirming the seven-page article boundary.
+- Mapped eight regions: six text/caption regions and two original images (versions
+  table and XENIX cartoon). Trace incoming 점/점, internal 판매하/게 and 소/유자
+  joins. Preserve period licensing/version claims and original table cells.
+
+- All eight crops inspected, including table cells and cartoon lettering; three
+  tight crop edges widened and reinspected. Final extraction reused five cached
+  regions and processed three changes with no failures. Initial evidence remains.
+- Five reading blocks preserve all six regional transcriptions and both original
+  images. Fifteen prose notes and two image notes retain printed spelling/claims.
+  Incoming continuation pins prior manifest, article bytes, corrections and scan;
+  two within-page joins preserve exact regional byte partitions.
+
+### 2026-09-30 — 11-batch-31 complete
+
+- Final UNIX page is partial/sample-reviewed at PDF178 / printed176. Eight
+  regions retain six text/caption transcriptions, five reading blocks, the
+  original six-row version table and XENIX cartoon. Fifteen prose notes and two
+  figure notes retain printed spelling, version/licensing/pricing claims and
+  table cells. No contemporary factual repair or inferred table data.
+- Incoming 점/점 pins the first segment's manifest, exact article range,
+  corrections and scan. Within-page 판매하/게 and 소/유자 joins retain exact
+  regional byte partitions; the final sentence and next article boundary verify.
+  Both immutable segments cover all seven pages; separate assembly remains.
+- Three tight crop edges widened and reinspected. Five unchanged crops match
+  originals and used cache; three changed tasks completed without failures.
+  Initial and final eight-task states resume unchanged. Both maps/extractions
+  remain preserved; six OCR text outcomes, no retries.
+- Rebuild is byte-identical; all13,262 protected pins,27 raw archive members,
+  geometry, regional partitions, text ranges and incoming evidence validate.
+  Generic tooling remains unchanged since batch28's53-test pass.
+- Desktop/mobile checks pass at1440×1000 and360×800 for five blocks, two images,
+  eleven pins and15 review ranges, with no page overflow. The3,440-byte article
+  download matches; final scan opens at806×2228. Desktop table and mobile
+  licensing text screenshots inspected. Browser closed; preview4215.
+- Browser launcher initially failed sandbox DNS. An early harness ran on the
+  wrapper and got article.json404; that failure is preserved. Navigation rerun
+  with approved access and all article checks passed. Favicon.ico404 also logged.
+- Article output:36 files /7,034,843 bytes. Wrapper/report/manifest:40 files /
+  7,048,721 bytes. Recorded mapping-script time0.3s excludes prior scan/planning;
+  review/build/validation571.0s includes tool/approval waits. Final cached
+  render/crop10.154s and OCR5.520s include reused work, not only repair runtime.
+- Counts remain24 readable articles, one partial, three headings and19 unresolved
+  eligibility decisions. Next11-unix-assemble must preserve27 blocks, twelve
+  original images,45 prose notes, two provisional readings and both originals,
+  then continue from PDF179. Step11 issue accounting and closeout remain.
