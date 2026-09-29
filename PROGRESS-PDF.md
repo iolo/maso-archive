@@ -2207,3 +2207,80 @@ history remains in [PROGRESS.md](PROGRESS.md).
   heading is 영어 학습용 프로그램; retain the existing TOC identity. Verify its
   ending from scans and preserve any listing and figures. Keep the six-source-page,
   six-outside-lookup and one-engine-retry limits; update this log and commit.
+
+### 2026-09-29 — 11-batch-19 started
+
+- Continue toward full Step 11 completion from commit `4e2cd37`. Next is
+  영어학습용 프로그래밍, existing `maso-1983-11-toc-0028`, opening at
+  PDF121 / printed119. Establish its ending and preserve prose, listing and figures.
+- Retain six source pages, six outside lookups and one engine retry per failed
+  region. Preserve prior packages and source pins, scan-linked corrections and
+  literal code. Deferred bitmap correction and `tocs/` remain outside this batch.
+
+### 2026-09-29 — 11-batch-19 review and validation
+
+- Confirmed complete coverage at PDF121–125 / printed119–123; PDF126 opens the
+  Pascal article. Twenty-two regions preserve prose, two figures, the inline730
+  example and all201 main numbered rows through3000 END.
+- `corrections.json` has202 line ranges, twenty DATA-row records, nine character
+  definitions,124 line review notes and five prose review items. Retain printed
+  quirks such as WW=WW=2, missing THEN, form and the music-string discrepancy.
+- Validation caught a wrapped `1 )` fragment incorrectly indexed as a new row;
+  corrected the private indexing helper without changing the transcription.
+  Bare target continuation210 within1130 is also retained as part of1130.
+  Final count:201 main rows, one inline row,238 physical lines,33 wrapped rows.
+- All51 PDF tests pass. The93-file package rebuilds identically;3,743 preserved
+  pins, raw OCR, source geometry, all block/line/DATA/glyph ranges and prose joins
+  validate. OCR completed22 tasks with20 text outcomes, no failures or retries.
+  Browser acceptance and ledger closeout follow.
+- Browser acceptance caught omitted visible review notes caused by a reused local
+  variable in the private recipe helper. Renamed it, rebuilt and verified that
+  package uncertainties/gaps equal all six correction scope notes. No shared
+  reader change was needed; the final package is93 files /28,560,616 bytes.
+
+### 2026-09-29 — 11-batch-19 complete
+
+- Restored 영어학습용 프로그래밍 under existing TOC identity
+  `maso-1983-11-toc-0028`, PDF121–125 / printed119–123. Displayed title is
+  영어 학습용 프로그램. Status is `readable / sample-reviewed`; exact code
+  glyphs, string spacing and executable correctness remain unverified.
+- Eighteen reading blocks include nine code blocks: one independent inline730
+  example and eight main listing regions. The 201 main rows plus one inline row
+  occupy 238 physical lines, with 33 wrapped rows. Twenty DATA entries and nine
+  DEF CHR$ definitions have exact listing ranges and scans. The original bitmap
+  grid and execution example remain images, including the printed form choice.
+- `corrections.json` retains eighteen text ranges, nine code-block ranges, 202
+  numbered-row ranges, 124 line review notes, five prose review items and eleven
+  selected OCR corrections. The source's missing THEN, unusual assignments,
+  differing music strings, English grammar and physical word wraps are preserved.
+  Neither BASIC execution nor manual submarine bitmap correction was performed.
+- Five source pages and one outside lookup stay within the limits. All 22 crop
+  tasks and twenty text OCR outcomes completed without engine failures or retries;
+  the completed state resumes unchanged. A private request's incorrect option
+  name was fixed before processing; its empty setup directory remains separate.
+  No source geometry revision or shared extraction/reader change was needed.
+- Final export: 93 files / 28,560,616 bytes, with an independent byte-identical
+  rebuild. All 51 PDF tests pass. All 3,743 preserved input pins matched before
+  the ledger update. Every source region, raw archive entry, prose join, text/code
+  interval, DATA interval and twelve-term character definition validates.
+- Background Playwright checks pass at 1440×1000 and 360×800: eighteen DOM blocks,
+  two images, 26 asset pins, 202 row ranges, twenty DATA ranges and nine character
+  definitions. All six review-scope notes are visible. Eight long code containers
+  scroll without page overflow; the short inline example fits. Actual horizontal
+  scrolling reaches 500px. The actual 9,929-byte listing download matches and the
+  final scan opens at 2228×2152. Desktop bitmap and mobile DATA screenshots were
+  inspected under `output/playwright/pdf-11-batch-19/`. Only favicon.ico returned
+  404. Browser closed; preview remains at `http://127.0.0.1:4199/`.
+- November now has eighteen readable/sample-reviewed articles, two group headings
+  and 27 unresolved eligibility decisions. Only this article's ledger entry changed.
+  Previous packages, `tocs/`, the owner's `.gitignore` edit and deferred bitmap
+  correction remain untouched. Step 11 remains active; no issue closeout yet.
+- Mapping took 106.1 seconds; review/build/validation took 3717.8 seconds including
+  tool and approval waits. Cached render/crop and OCR totals were 30.53s and
+  18.17s. These timings do not establish character-perfect proofreading throughput.
+  Wrapper, report and manifest total 97 files / 28,582,755 bytes. Private helpers,
+  closeout, validations, browser records, ledger snapshots and next inputs are saved.
+- Next: `11-batch-20`, 파스칼 프로그램 1(연재), observed PDF126 / printed124.
+  Verify the ending independently of the next TOC start, preserve examples and
+  illustrations, and split before exceeding six source pages. Continue updating
+  this log and committing each checkpoint through Step 11 issue closeout.

@@ -1730,3 +1730,58 @@ headings and 28 unresolved eligibility decisions. Next is `11-batch-19`,
 영어학습용 프로그래밍 from PDF121 / printed119, displayed as 영어 학습용 프로그램.
 Establish its ending within the six-source-page limit. This checkpoint does not
 close the issue or perform deferred bitmap correction.
+
+## November English-learning program checkpoint
+
+`11-batch-19` restores `maso-1983-11-toc-0028`, 영어학습용 프로그래밍, across
+PDF121–125 / printed119–123. The displayed title is 영어 학습용 프로그램.
+The listing ends with 3000 END; PDF126 opens the separate Pascal article.
+Availability is `readable`, verification `sample-reviewed`, with exact code
+spacing, faint glyphs and executable correctness explicitly unverified.
+
+Twenty-two regions produce eighteen reading blocks and two original figures:
+the 8421 bitmap grid and an execution sample. The complete main listing has 201
+numbered rows; a separate inline 730 example describes fifty questions instead of
+the main program's twenty. Nine code blocks contain 238 physical lines, including
+33 wrapped rows. The target 1210 in 1130 remains physically split as 1/210;
+its bare 210 continuation is not indexed as a new statement. Similarly, a wrapped
+`1 )` in a character definition belongs to its preceding statement.
+
+`corrections.json` contains eighteen text ranges, nine code-block ranges, 202
+numbered-row ranges, 124 line review notes, five prose review items and eleven
+selected OCR correction examples. Twenty `data_index` records identify the
+English exercises in 2500–2690; nine `glyph_definitions` records identify the
+printed character codes and twelve transcribed row terms. Each has exact UTF-8
+listing ranges and scans. These records support manual review without changing
+printed choices such as form, grammar such as did you ate, music strings, missing
+THEN or unusual assignments. No program execution or semantic repair was done.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-19/state
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-19/english/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-19-new/english
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-19-new/english
+python3 -m http.server 4199 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-19
+```
+
+All 22 crop tasks and twenty text OCR outcomes completed without engine failures
+or retries. Completed state resumes unchanged. The 93-file package is 28,560,616
+bytes and rebuilds identically. All 51 PDF tests pass; 3,743 preserved input pins
+matched before the ledger update. Validation covers all regions, original
+geometry, raw archive bytes, prose joins and text/line/DATA/glyph intervals.
+Browser acceptance caught missing visible scope notes in the private recipe;
+the final package displays all six notes and validates them against corrections.
+
+Desktop/mobile checks pass for all eighteen DOM blocks, two images, 26 asset
+pins and the correction indexes. Eight long code containers scroll without page
+overflow; the short inline example fits. The actual 9,929-byte listing download
+matches and the final scan opens at 2228×2152. Only favicon.ico returned 404.
+Preview: `http://127.0.0.1:4199/`.
+
+November now has eighteen readable/sample-reviewed articles, two group headings
+and 27 unresolved eligibility decisions. Next is `11-batch-20`, 파스칼 프로그램
+1(연재) from PDF126 / printed124, within the six-source-page limit. Step 11 remains
+active until every TOC entry is classified, each eligible article has an outcome,
+and the standalone issue reference has been exported and inspected.

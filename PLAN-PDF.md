@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–18, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 마이크로 컴퓨터 시스템입문 is readable across PDF118–120 / printed116–118, including its photograph, three diagrams and four scan-linked references. Next: 11-batch-19, 영어학습용 프로그래밍 at observed PDF121 / printed119, within the six-source-page limit. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–19, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 영어학습용 프로그래밍 is readable across PDF121–125 / printed119–123, including 201 main BASIC rows, an independent inline example, twenty DATA rows and nine character definitions. Next: 11-batch-20, 파스칼 프로그램 1(연재) at observed PDF126 / printed124, within the six-source-page limit. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
