@@ -1969,3 +1969,45 @@ November now has twenty readable/sample-reviewed articles, no partial articles,
 two group headings and25 unresolved eligibility decisions. Next is11-batch-23,
 MICRO COMPUTER GRAPHIC atPDF141 / printed139; establish its ending from scans.
 The complete issue accounting and staged issue reference remain required.
+
+## November MICRO COMPUTER GRAPHIC first segment
+
+`11-batch-23` restores PDF141–146 / printed139–144 under existing TOC identity
+`maso-1983-11-toc-0031`, with `partial / sample-reviewed` availability. Scans
+verify the whole article through PDF149 / printed147. PDF150–151 are advertisements;
+PDF152 starts 정보레이다. The final phrase 「더우기 직선을 」 continues on PDF147
+as 「그리기 위해서」; the correction records retain that boundary for assembly.
+
+All39 regions were inspected; eleven crops were refined with initial evidence
+preserved. The26 reading blocks include five independent BASIC examples with36
+numbered rows, alongside ten original diagrams, tables and graphics. Three
+cross-column prose joins retain regional transcriptions. `corrections.json`
+records26 text ranges, five listing ranges,36 line ranges,15 code notes, eleven
+prose review points, four figure notes and ten selected OCR corrections. Printed
+COLRS,14366, PRINT TAB punctuation, the R/T discrepancy and address/coordinate
+claims remain scan-linked without semantic repair.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-23/state-final.json
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-23/graphic-segment-01/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-23-new/graphic-segment-01
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-23-new/graphic-segment-01
+python3 -m http.server 4204 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-23
+```
+
+Initial/final OCR each completed39 tasks /29 text outcomes without failures;
+completed states resume unchanged. The137-file article package is38,636,128 bytes
+and rebuilds byte-identically. All51 PDF tests pass, all8,508 preserved input pins
+match, and all region, geometry, archive and correction-range checks pass.
+
+Browser checks pass at1440×1000 and360×800 for26 blocks, ten figures,43 pins and
+correction ranges. Five code blocks scroll without page overflow; actual scrolling
+reaches100px. The802-byte listing download matches, and the last source scan opens
+at886×321. Desktop diagram/mobile code screenshots were inspected. Preview:
+`http://127.0.0.1:4204/`.
+
+November now has twenty readable articles, one partial article, two headings and
+24 unresolved eligibility decisions. Next is11-batch-24 for PDF147–149, followed
+by separate assembly. Full issue accounting and staged issue inspection remain.

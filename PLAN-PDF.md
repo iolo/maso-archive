@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–22, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble and 11-editor-assemble complete. 에디터를 만드는 법 is readable/sample-reviewed across PDF132–140 / printed130–138 with twelve diagrams and BASIC10–1300. November has twenty readable articles, two headings and25 unresolved eligibility decisions. Next: 11-batch-23 maps MICRO COMPUTER GRAPHIC from PDF141 / printed139. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-30. Status: **in progress; steps 1–10, 11-batch-01–23, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble and 11-editor-assemble complete. MICRO COMPUTER GRAPHIC segment01 covers PDF141–146 / printed139–144; the full article is verified at PDF141–149. November has twenty readable articles, one partial article, two headings and24 unresolved eligibility decisions. Next: 11-batch-24 restores PDF147–149, then separate article assembly. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

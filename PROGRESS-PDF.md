@@ -2523,3 +2523,71 @@ history remains in [PROGRESS.md](PROGRESS.md).
   two group headings and25 unresolved eligibility decisions. Only0030 changed.
   Step11 remains active. Next:11-batch-23 maps MICRO COMPUTER GRAPHIC beginning
   atPDF141 / printed139; establish the ending locally before extraction.
+
+### 2026-09-30 — 11-batch-23 started
+
+- Continue from `762006e` with MICRO COMPUTER GRAPHIC, existing TOC identity0031,
+  beginning atPDF141 / printed139. Inspect at mostPDF141–146 for this segment
+  and six outside pages147–152 to establish the ending. Use disjoint numbered
+  segments when the verified article exceeds six pages; assemble separately.
+- Preserve all earlier packages, source diagrams/code and correction evidence.
+  Keep bitmap correction deferred and ignore tocs/. Update progress during work
+  and commit the completed checkpoint before advancing through the issue queue.
+
+- Scans verify the complete article atPDF141–149 / printed139–147. The following
+  PDF150–151 are full-page advertisements; PDF152 opens 정보레이다. Segment01
+  includes141–146, with147–149 deferred. The final phrase 더우기 직선을 continues
+  onPDF147 as 그리기 위해서; retain that explicit prose boundary for assembly.
+- Initial map contains39 regions, including original address grids, graphics,
+  small tables and five BASIC examples. Six included pages and six outside
+  lookups satisfy the checkpoint limits. OCR has started; crop/content review,
+  transcription, correction indexes and package/browser validation remain.
+- Initial OCR completed39 crop tasks /29 text outcomes with no engine failures.
+  Evidence export and local OCR bundles are saved. This is extraction progress,
+  not a reviewed restoration outcome; the issue ledger is unchanged from the
+  completed editor assembly. Detailed crop/transcription review is next.
+
+- Reviewed all39 original crops and eleven refined crops. Expanded tight text
+  edges and diagram borders using a separate final map; initial evidence remains
+  intact. Both OCR states complete39 tasks /29 text outcomes without failures.
+- Transcribed26 reading blocks, including five independent BASIC examples with
+  36 numbered rows. Ten figure/table/graphic images retain original labels and
+  captions. Three cross-column prose joins preserve regional text. The last
+  prose fragment remains explicitly linked to the deferredPDF147 continuation.
+- corrections.json records26 text ranges, five listing ranges,36 line ranges,
+  15 code notes, eleven prose review points, four figure notes and ten selected
+  OCR corrections. Printed COLRS,14366,PRINT TAB punctuation, R/T discrepancy
+  and address/coordinate claims remain uncorrected and scan-linked.
+- The137-file segment package is38,636,128 bytes and rebuilds byte-identically.
+  All51 PDF tests pass; all8,508 preserved pins match. Completed OCR states resume
+  unchanged. Browser checks are underway before recording the partial outcome.
+
+### 2026-09-30 — 11-batch-23 complete
+
+- MICRO COMPUTER GRAPHIC segment01 is partial/sample-reviewed across PDF141–146
+  / printed139–144. The verified nine-page article continues through PDF149.
+  Its39 regions contain26 reading blocks, ten original figures/tables/graphics
+  and five independent BASIC examples with36 numbered rows. The final prose
+  fragment and three cross-column joins have explicit correction records.
+- Both initial/final OCR states complete39 tasks /29 text outcomes without
+  failures and resume unchanged. Eleven revised crops were reprocessed while
+  unchanged evidence stayed byte-identical. All51 PDF tests pass; all8,508
+  preserved pins matched before updating the ledger. The137-file article package
+  is38,636,128 bytes and rebuilds byte-identically. Every correction range,
+  region, archive, geometry record and listing identity validates.
+- Desktop/mobile browser checks pass at1440×1000 and360×800 for26 blocks, ten
+  figures,43 pins and correction ranges. Five code blocks scroll without page
+  overflow; actual scrolling reaches100px. The802-byte listing download matches;
+  the final scan opens at886×321. Desktop diagram and mobile code screenshots
+  were inspected. Final scan console has no errors. Browser closed; preview
+  http://127.0.0.1:4204/.
+- Wrapper/report/manifest total141 files /38,669,426 bytes. Mapping took162.2s;
+  review/build/validation1208.4s including interruption and tool waits. Final
+  cached render/crop71.948s and OCR17.423s do not certify proofreading speed.
+  Private recipes, initial/final evidence, validation, browser records, ledger
+  snapshots and next inputs are saved.
+- November now has twenty readable, one partial, two headings and24 unresolved
+  eligibility decisions. Only0031 changed; previous articles and deferred bitmap
+  review remain intact. Next:11-batch-24 restores PDF147–149, links the incoming
+  prose fragment, then assembles the article separately. Step11 remains active
+  through complete November accounting and the staged issue export.
