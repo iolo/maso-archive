@@ -1755,3 +1755,68 @@ history remains in [PROGRESS.md](PROGRESS.md).
   figures. Add bounded assembly support where required, with meaningful checks.
   After assembly, `11-batch-14` starts GUN MAN at PDF84 / printed82. No issue
   closeout is claimed.
+
+### 2026-09-29 — 11-library-assemble started
+
+- Final segment committed as `d7e7ebb`. Assemble the five preserved packages
+  covering PDF58–83 / printed56–81 into one article. No new source pages, OCR
+  tasks or outside lookups. Preserve original packages and all correction data;
+  namespace repeated IDs and link the two carried code fragments explicitly.
+- Validate complete coverage, deterministic export, correction offsets, raw bytes
+  and desktop/mobile reading. Keep manual glyph review deferred, ignore `tocs/`,
+  and preserve the owner's `.gitignore` edit. Update progress and commit.
+
+### 2026-09-29 — 11-library-assemble complete
+
+- Assembled 도서관리 프로그램 across PDF58–83 / printed56–81: all 26 pages,
+  135 regions, 106 reading blocks, 51 code blocks and sixteen figures. The prior
+  boundary review observes LIST9 DATA290 ending on PDF83 and GUN MAN opening on
+  PDF84. No new source pages, OCR tasks or outside lookups were used.
+- Added opt-in `namespaced-v1` assembly support. Repeated regional, block and
+  figure IDs receive segment prefixes with an explicit original identity map.
+  Every original package remains byte-identical under its own segment directory;
+  the original OCR settings still bind to their original maps. Default assembly
+  behavior remains compatible with the existing submarine export.
+- Combined `corrections.json` retains 106 UTF-8 text ranges, 24 prose/caption
+  review items, 51 code-block ranges, 1,248 local line entries, 126 anomaly notes,
+  sixteen program identities, nine local prose joins, regional transcriptions,
+  figure order and image overlap notes. Original numbering reviews, policies,
+  continuation declarations and complete correction files remain available.
+- A separate logical line index links those local entries into 1,246 numbered
+  rows. SEARCH320 and SC SEQ LIST6 line240 each retain both physical fragments,
+  exact original ranges and verified prior manifest/listing/correction/scan pins.
+  The listing download is the exact concatenation of original bytes. No number,
+  newline or character is invented or removed. Duplicate BOOKSHELF590 and LIST7
+  170 retain distinct occurrences in printed order; missing numbers stay absent.
+  The prose continuation is linked through its original reading blocks.
+- Thirteen superseded scope notes have exact-text dispositions and reasons.
+  Remaining notes are labelled by source segment. Availability is now
+  readable/sample-reviewed; exact glyphs, whitespace, strings and executable
+  correctness remain unverified. Deferred submarine bitmap work is untouched.
+- All 51 focused PDF tests pass, including synthetic repeated IDs, Korean byte
+  offsets, carried-line pin/range rejection, duplicate numbers, deterministic
+  export and rehashed correction tampering. The full separate rebuild is
+  byte-identical. All 1,583 preserved input pins matched before the intentional
+  ledger update; all 546 original package files were copied unchanged. The raw
+  archive's 512 entries match their original files. The submarine assembly still
+  validates with the current checker.
+- Background Playwright checks pass at 1440×1000 and 360×800: all 106 DOM blocks,
+  sixteen images, 139 asset pins, text/line ranges and continuation associations.
+  All 51 code containers scroll on mobile without page overflow. Actual wrapper
+  link, listing download and final scan clicks pass; downloaded bytes match and
+  the final scan loads. Inspected desktop figure and mobile continuation images
+  under `output/playwright/pdf-11-library-assemble/`. Only favicon.ico returned404.
+  The test browser is closed; preview remains at `http://127.0.0.1:4193/`.
+- Exported `build/pdf-restoration/11-library-assemble/library/`: 557 files /
+  204,044,508 bytes, including the five retained original packages. Wrapper,
+  report and manifest are in its parent directory. Validation, browser evidence,
+  ledger snapshots and the next checkpoint plan are saved privately.
+- November now has twelve readable/sample-reviewed articles, zero partial
+  articles, one group heading and 34 unresolved eligibility decisions. Only the
+  library entry changed, preserving all five original segment records. This is
+  an article checkpoint, not issue closeout. Stall count0. `tocs/` and the owner's
+  `.gitignore` change remain untouched.
+- Next: `11-batch-14`, GUN MAN at PDF84 / printed82. Reuse the observed opening
+  scan, establish the ending before assigning coverage, and retain the existing
+  one-article/six-source-page limit, six outside lookup pages and one engine retry
+  per failed region. Update this log and commit that checkpoint separately.

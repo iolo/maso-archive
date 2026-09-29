@@ -29,7 +29,8 @@ def text_bytes(package):
 
 
 def validate_recipe(recipe):
-    if set(recipe) != {'segments', 'expected_pdf_pages', 'evidence', 'uncertainties', 'resolved_notes'}:
+    if (set(recipe) - {'index_mode'} != {'segments', 'expected_pdf_pages', 'evidence', 'uncertainties', 'resolved_notes'} or
+        ('index_mode' in recipe and recipe['index_mode'] != 'namespaced-v1')):
         raise ValueError('Unknown or missing assembly recipe field')
     segments = recipe['segments']
     if not 2 <= len(segments) <= 12:
@@ -121,6 +122,14 @@ def read_segment(folder, manifest):
 def project(recipe, segments):
     """Derive combined content and correction indexes; never modify original evidence."""
     validate_recipe(recipe)
+    if recipe.get('index_mode') == 'namespaced-v1':
+        from .assembly_indexes import project_indexes
+        return project_indexes(recipe, segments)
+    return project_legacy(recipe, segments)
+
+
+def project_legacy(recipe, segments):
+    """Original projection, retained for existing immutable assembly exports."""
     first = segments[0][0]
     package = deepcopy(first)
     arrays = ('pages', 'regions', 'excluded_regions', 'blocks', 'figures', 'content_order', 'raw_ocr', 'region_assets')

@@ -889,7 +889,7 @@ explicit ordered page list must match exactly; overlapping pages, duplicate
 identities and incomplete or unreviewed segments fail before publication.
 Nested assemblies and comparison relationships require a separate adapter.
 
-The assembly recipe has exactly these fields:
+The default assembly recipe has these fields (the optional `index_mode` is described below):
 
 ```json
 {
@@ -1399,3 +1399,68 @@ uncertainties remain visible. The saved plan expects 135 regions, 106 blocks,
 printed82. November counts remain eleven readable articles, one partial article,
 one group heading and 34 unresolved eligibility decisions. Ignore `tocs/` for
 now; deferred submarine bitmap work remains unchanged.
+
+## Step 11 library assembly: regional and line correction indexes
+
+`11-library-assemble` combines the five reviewed 도서관리 프로그램 segments,
+PDF58–83 / printed56–81. PDF84 opens GUN MAN, as recorded in the prior boundary
+review. The result is readable/sample-reviewed: 26 pages, 135 regions, 106 blocks,
+51 code blocks and sixteen figures. No new source pages or OCR tasks are used.
+
+For segments that reuse IDs and supply regional text and physical listing indexes,
+add `"index_mode": "namespaced-v1"` to the assembly recipe. Default recipes retain
+the original projection, so earlier assembled exports still validate unchanged.
+Namespaced mode requires a text index covering every block and a line index that
+partitions each segment's listing download. It rejects invalid identities, scans,
+UTF-8 ranges, incomplete line coverage and inconsistent carried-line evidence.
+
+The combined `corrections.json` provides:
+
+- `identity_map`: original segment, kind and ID mapped to a unique combined ID.
+  Region, block and figure references use these IDs; original OCR settings still
+  refer to the immutable original maps.
+- `text_index` and `text_review_items`: ranges in combined `article.txt`, computed
+  from the actual UTF-8 reading order, including namespaced figure placeholders.
+  Each retains its original `source_range` and `source_segment`.
+- `listing_index`: code-block ranges in combined `listing.txt`. The download is
+  the exact concatenation of original listing bytes, including physical wraps.
+- `listing_line_index`: all 1,248 local physical line entries, with unique local
+  row IDs, original occurrence IDs, source ranges and rebased regional scan spans.
+  `logical_line_id` associates each entry with the combined numbered line.
+- `logical_listing_line_index`: 1,246 numbered lines across sixteen programs.
+  `source_parts` links the local entries. SEARCH320 and SC SEQ LIST6 line240 each
+  have two parts. Joining these index ranges adds no printed number, removes no
+  newline and repairs no code. Duplicate BOOKSHELF590 and LIST7 170 retain distinct
+  occurrence IDs in printed order.
+- 126 `listing_anomalies`, 24 prose/caption review items, nine local `prose_joins`,
+  the figure sequence, image overlap notes and regional transcriptions.
+  `resolved_continuations` records two verified code fragment links and one prose
+  link. The prose retains its original reading blocks and block separator.
+- `listing_groups` and `segment_continuations` preserve segment-scoped declarations;
+  they do not claim newly inferred program completeness. Original continuation
+  evidence is explicitly labelled as original. `segments[].original_metadata`
+  retains numbering reviews, policies and any additional review metadata.
+
+Each original package, including its complete corrections, remains byte-for-byte
+under `segments/<name>/`. `segments[].original_corrections` links its portable pin.
+Carried-line verification checks the prior manifest, listing and correction hashes,
+exact prior byte range, scan spans, listing identity, number and adjacency. The
+combined raw archive retains the original map/settings binding. The checker derives
+all combined indexes again from the retained originals, catching index tampering
+that only updates outer hashes. Historical notes remain scoped to their segments;
+superseded scope notes are resolved only by exact original text and a recorded reason.
+
+```sh
+make assemble-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-library-assemble/assembly-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-library-assemble/library
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/11-library-assemble/library
+make test-pdf
+```
+
+Use a fresh output directory for rebuilding. Assembly does not certify exact glyphs,
+spacing or executable BASIC. November now has twelve readable/sample-reviewed
+articles, one group heading and 34 unresolved eligibility decisions. Next is
+`11-batch-14`, GUN MAN at PDF84 / printed82, with the existing six-page extraction
+limit and boundary review before assigning its extent. `tocs/` remains out of scope.

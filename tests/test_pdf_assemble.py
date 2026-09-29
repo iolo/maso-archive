@@ -110,6 +110,148 @@ class PDFAssemblyTests(unittest.TestCase):
             if spec['name'] == folder.name:
                 spec['manifest'] = pin(self.root, folder.relative_to(self.root).as_posix()+'/manifest.json')
 
+    def rich_segments(self):
+        """Two synthetic programs share regional IDs and a split numbered line."""
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = [read_segment(self.root/'build'/s['name'], s['manifest']) for s in self.recipe['segments']]
+        texts = ['10 PRINT "한글\n', '    이어짐"\n10 END\n']
+        for i, (source, correction) in enumerate(segments):
+            # Deliberately repeat IDs across both segments, including the figure.
+            code, figure, block = f'code{i}', f'figure{i}', f'block{i}'
+            def rename(value):
+                if isinstance(value, dict):
+                    return {k: rename(v) for k, v in value.items()}
+                if isinstance(value, list):
+                    return [rename(v) for v in value]
+                if isinstance(value, str):
+                    return {'code'+str(i): 'code', 'figure'+str(i): 'figure',
+                            'block'+str(i): 'block', 'corrections.json#'+code: 'corrections.json#code'}.get(value, value)
+                return value
+            source, correction = rename(source), rename(correction)
+            segments[i] = source, correction
+            source['blocks'][0]['text'] = texts[i]
+            correction['blocks'] = deepcopy(source['blocks'])
+            correction['unresolved_graphics'] = correction['glyph_definitions'] = []
+            correction['listing_index'][0].update(utf8_byte_start=0, utf8_byte_end_exclusive=len(texts[i].encode()))
+            scan = source['region_assets'][0]['asset']
+            start, end = block_ranges(source)['block']
+            correction['text_index'] = [dict(block_id='block', region_ids=['code'], scans=[scan],
+                download='article.txt', utf8_byte_start=start, utf8_byte_end_exclusive=end)]
+            excerpt = '한글' if i == 0 else '이어짐'
+            before = texts[i].index(excerpt)
+            position = start + len(texts[i][:before].encode())
+            correction['text_review_items'] = [dict(block_id='block', region_id='code', scan=scan,
+                transcription_excerpt=excerpt, download='article.txt', utf8_byte_start=position,
+                utf8_byte_end_exclusive=position+len(excerpt.encode()), note='Faint text', status='review-needed')]
+            correction['regional_transcription'] = {'code': texts[i]}
+            correction['prose_joins'] = [dict(block_id='block', regions=['code'], separators=[])]
+            correction['figure_sequence'] = [dict(figure_id='figure', region_id='figure', caption_block_id=None)]
+            correction['image_overlap_notes'] = [dict(region_id='figure', related_regions=['code'], note='Adjacent')]
+            correction['listing_groups'] = [dict(listing_id='program', complete_listing=False)]
+            correction['numbering_review'] = {'note': 'Printed duplicate 10 retained.'}
+            lines, cursor = [], 0
+            for n, physical in enumerate(texts[i].splitlines(True)):
+                end = cursor + len(physical.encode())
+                part = dict(region_id='code', scan=scan, utf8_byte_start=cursor, utf8_byte_end_exclusive=end)
+                lines.append(dict(**part, listing_id='program', printed_line=10, printed_line_visible=not(i and n == 0),
+                    download='listing.txt', segments=[deepcopy(part)], status='unverified'))
+                cursor = end
+            correction['listing_line_index'] = lines
+            correction['listing_anomalies'] = [dict(**deepcopy(lines[-1]), note='Preserve printing')]
+        prior_source, prior_correction = segments[0]
+        prior_line = prior_correction['listing_line_index'][-1]
+        segments[1][1]['listing_line_index'][0]['prior_segment'] = deepcopy(dict(segment_id='opening',
+            manifest=self.recipe['segments'][0]['manifest'],
+            listing=next(p for p in prior_source['downloads'] if p['path'] == 'listing.txt'),
+            corrections=prior_source['corrections'][0], utf8_byte_start=prior_line['utf8_byte_start'],
+            utf8_byte_end_exclusive=prior_line['utf8_byte_end_exclusive'], source_segments=deepcopy(prior_line['segments'])))
+        self.recipe['index_mode'] = 'namespaced-v1'
+        return segments
+
+    def test_namespaced_indexes_preserve_utf8_fragments_duplicates_and_metadata(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.rich_segments()
+        package, correction = project(self.recipe, segments)
+        article, listing = text_bytes(package)
+        self.assertEqual(listing, b''.join(text_bytes(s)[1] for s, _ in segments))
+        self.assertEqual([b['id'] for b in package['blocks']], ['opening-block', 'continuation-block'])
+        self.assertEqual(len(correction['identity_map']), 8)
+        self.assertEqual(len(correction['listing_line_index']), 3)
+        logical = correction['logical_listing_line_index']
+        self.assertEqual([r['line_id'] for r in logical], ['program:10:1', 'program:10:2'])
+        self.assertEqual(len(logical[0]['source_parts']), 2)
+        self.assertEqual(listing[logical[0]['utf8_byte_start']:logical[0]['utf8_byte_end_exclusive']].decode(),
+                         '10 PRINT "한글\n    이어짐"\n')
+        for row in correction['text_review_items']:
+            self.assertEqual(article[row['utf8_byte_start']:row['utf8_byte_end_exclusive']].decode(), row['transcription_excerpt'])
+        self.assertEqual(correction['prose_joins'][1]['regions'], ['continuation-code'])
+        self.assertEqual(correction['image_overlap_notes'][1]['related_regions'], ['continuation-code'])
+        self.assertEqual(correction['figure_sequence'][1]['figure_id'], 'continuation-figure')
+        self.assertEqual(correction['segments'][1]['original_metadata']['numbering_review'], segments[1][1]['numbering_review'])
+        self.assertEqual(correction['listing_anomalies'][1]['logical_line_id'], 'program:10:2')
+        self.assertEqual(project(self.recipe, segments), (package, correction))
+
+    def test_namespaced_indexes_reject_bad_ranges_references_and_carried_evidence(self):
+        original = self.rich_segments()
+        for change in ('text', 'utf8', 'scan', 'region', 'gap', 'parts', 'prior-pin', 'prior-range', 'prior-scan', 'anomaly'):
+            segments = deepcopy(original)
+            correction = segments[1][1]
+            row = correction['listing_line_index'][0]
+            if change == 'text': correction['text_index'][0]['utf8_byte_start'] += 1
+            if change == 'utf8': correction['text_review_items'][0]['utf8_byte_start'] += 1
+            if change == 'scan': correction['text_review_items'][0]['scan']['sha256'] = '0'*64
+            if change == 'region': correction['prose_joins'][0]['regions'] = ['missing']
+            if change == 'gap': row['utf8_byte_start'] += 1
+            if change == 'parts': row['segments'][0]['utf8_byte_end_exclusive'] -= 1
+            if change == 'prior-pin': row['prior_segment']['listing']['sha256'] = '0'*64
+            if change == 'prior-range': row['prior_segment']['utf8_byte_start'] += 1
+            if change == 'prior-scan': row['prior_segment']['source_segments'][0]['scan']['sha256'] = '0'*64
+            if change == 'anomaly': correction['listing_anomalies'][0]['printed_line'] = 999
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
+    def test_namespaced_export_rebuild_and_rehashed_index_tamper(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        for spec in self.recipe['segments']:
+            name = spec['name']
+            source, correction = read_segment(self.root/'build'/name, spec['manifest'])
+            start, end = block_ranges(source)[source['blocks'][0]['id']]
+            correction['text_index'] = [dict(block_id=source['blocks'][0]['id'],
+                region_ids=source['blocks'][0]['region_ids'], download='article.txt',
+                utf8_byte_start=start, utf8_byte_end_exclusive=end)]
+            correction['listing_line_index'] = []
+            cursor = 0
+            for text in source['blocks'][0]['text'].splitlines(True):
+                end = cursor + len(text.encode())
+                part = dict(region_id=source['blocks'][0]['region_ids'][0], scan=correction['records'][0]['scan'],
+                            utf8_byte_start=cursor, utf8_byte_end_exclusive=end)
+                correction['listing_line_index'].append(dict(**part, listing_id='program', printed_line=int(text.split()[0]),
+                                                             segments=[deepcopy(part)]))
+                cursor = end
+            base = self.root/'private'/name
+            write_json(base/'corrections.json', correction)
+            recipe = json.loads((base/'recipe.json').read_bytes())
+            recipe['corrections'] = pin(base, 'corrections.json')
+            write_json(base/'recipe.json', recipe)
+            output = self.root/'build'/('rich-'+name)
+            build(base/'recipe.json', output, self.root)
+            spec['manifest'] = pin(self.root, output.relative_to(self.root).as_posix()+'/manifest.json')
+        self.recipe['index_mode'] = 'namespaced-v1'
+        self.run_assembly()
+        repeat = self.root/'build/repeat'
+        self.run_assembly(repeat)
+        files = lambda d: {p.relative_to(d).as_posix(): p.read_bytes() for p in d.rglob('*') if p.is_file()}
+        self.assertEqual(files(self.output), files(repeat))
+        correction = json.loads((self.output/'corrections.json').read_bytes())
+        correction['text_index'][1]['utf8_byte_start'] += 1
+        write_json(self.output/'corrections.json', correction)
+        package = json.loads((self.output/'article.json').read_bytes())
+        package['corrections'] = [pin(self.output, 'corrections.json')]
+        write_json(self.output/'article.json', package)
+        self.rehash(self.output)
+        with self.assertRaisesRegex(ValueError, 'correction projection'):
+            check_export(self.output)
+
     def test_deterministic_assembly_preserves_segments_offsets_and_review(self):
         original = {name:{p.relative_to(self.root/'build'/name).as_posix():p.read_bytes()
                          for p in (self.root/'build'/name).rglob('*') if p.is_file()}
