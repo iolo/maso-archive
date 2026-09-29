@@ -3030,3 +3030,58 @@ history remains in [PROGRESS.md](PROGRESS.md).
   partial articles, three headings and20 unresolved eligibility decisions.
   Next11-batch-30 maps UNIX 1(연재) at PDF172 / printed170. Step11 remains active
   through the remaining classifications, eligible outcomes and issue closeout.
+
+### 2026-09-30 — 11-batch-30 started
+
+- Continue from `f276a08` with UNIX 1(연재), TOC0036, starting PDF172 /
+  printed170. Inspect local page boundaries through the next TOC start at
+  printed177 before choosing coverage within the six-page batch ceiling.
+  Preserve period terminology, diagrams and printed claims without factual repair.
+
+- Boundary scans establish PDF172–178 / printed170–176 as the complete article;
+  PDF179 starts 마이티용 순서배열 프로그램. This segment covers172–177, with final
+  page178 and its table deferred. Mapped41 regions at4000 pixels, including ten
+  original explanatory cartoons and their separately transcribed captions.
+- Column/page joins require explicit tracing, especially PDF176's sentence
+  interrupted by cartoons and the outgoing 점/점 continuation at177/178. Preserve
+  source spelling, model names, period claims and small mathematical notation.
+
+- All41 crops inspected; four clipped text/figure edges widened and reinspected.
+  Original map/extraction remain intact. The repair reused37 cached regions and
+  processed four changed crops without failures; the caption inr14 deliberately
+  overlaps its separate transcription without erasing original image content.
+- Six pages build with22 blocks, ten cartoons,31 regional transcriptions and five
+  section joins spanning13 boundaries. Every regional byte maps to one reading
+  block;30 prose notes preserve names, period claims, the small summation formula
+  and two provisional readings. Final178/table and full assembly remain.
+
+### 2026-09-30 — 11-batch-30 complete
+
+- First UNIX segment is partial/sample-reviewed across PDF172–177 / printed170–175.
+  Forty-one regions retain ten original cartoons,31 regional transcriptions and
+  22 reading blocks. Five section joins span13 column/page boundaries; regional
+  UTF-8 parts partition every transcribed byte exactly once. Final178/table remain.
+- Thirty prose review notes retain period names, specifications, historical claims,
+  Coporation, BBM, FOAMT and the small summation formula. Two provisional readings
+  remain scan-linked: 사용시가 and the176/177 boundary 부작시켰을때. The widened
+  general-purpose cartoon retains its caption alongside separate transcription.
+- Initial41 tasks and repaired41-task state resume unchanged. Four repaired crops
+  were reinspected;37 unchanged crops match the originals and were cache hits.
+  All31 text OCR outcomes and original maps/extractions remain preserved; no
+  failures/retries. Final cached render/crop44.925s and OCR33.946s include reused
+  processing, not just repair runtime. No historical or semantic repair.
+- Rebuild is byte-identical; all12,577 protected pins,135 raw archive members,
+  source geometry, all text/review ranges and regional byte partitions validate.
+  Generic tooling is unchanged since batch28's successful53-test run.
+- Desktop/mobile checks pass at1440×1000 and360×800 for22 blocks, ten cartoons,
+  44 asset/download pins and all30 review ranges. No page overflow. Downloaded
+  article.txt matches22,170 bytes; final scan opens at796×3180. Desktop cartoon
+  and mobile prose screenshots inspected. Only favicon.ico returned404. Browser
+  closed; preview http://127.0.0.1:4214/.
+- Article output:144 files /41,592,160 bytes. Wrapper/report/manifest:148 files /
+  41,624,964 bytes. Mapping143.5s; review/build/validation1262.4s includes waits
+  and interruption. Saved recipe, validation, ledger snapshot and next inputs.
+- Only0036 changed. November has24 readable articles, one partial article, three
+  headings and19 unresolved eligibility decisions. Next11-batch-31 restores
+  PDF178 / printed176, preserves incoming 점/점 continuation and final table,
+  then assembles the seven-page article. Step11 issue closeout remains pending.
