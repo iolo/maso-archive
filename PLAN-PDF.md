@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-30. Status: **in progress; steps 1–10, 11-batch-01–23, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble and 11-editor-assemble complete. MICRO COMPUTER GRAPHIC segment01 covers PDF141–146 / printed139–144; the full article is verified at PDF141–149. November has twenty readable articles, one partial article, two headings and24 unresolved eligibility decisions. Next: 11-batch-24 restores PDF147–149, then separate article assembly. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-30. Status: **in progress; steps 1–10, 11-batch-01–24, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble and 11-editor-assemble complete. Both MICRO COMPUTER GRAPHIC segments cover PDF141–149 / printed139–147; separate assembly remains required. November has twenty readable articles, one partial article, two headings and24 unresolved eligibility decisions. Next: 11-graphic-assemble combines both immutable segments without new OCR. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

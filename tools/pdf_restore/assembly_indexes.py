@@ -132,6 +132,8 @@ def namespace(segment):
 
 
 def verify_prior(current, prior, row, previous_row):
+    if previous_row.get('row_kind') == 'unnumbered':
+        raise ValueError('Carried line requires a preceding numbered row')
     reference = row.get('prior_segment')
     if not isinstance(reference, dict) or reference.get('segment_id') != prior.name:
         raise ValueError('Carried line requires the immediately prior segment')
@@ -217,7 +219,18 @@ def project_indexes(recipe, originals):
             cursor = row[END]
             local = context.local_line(row, number)
             key = (row['listing_id'], row['printed_line'])
-            if row.get('printed_line_visible', True):
+            if row.get('row_kind') == 'unnumbered':
+                if (row['printed_line'] is not None or row.get('printed_line_visible') is not False or
+                    type(row.get('physical_line')) is not int or row['physical_line'] < 1 or
+                    'prior_segment' in row or 'continuation' in row):
+                    raise ValueError('Unnumbered row must have an explicit physical identity and no carried evidence')
+                occurrences[key] += 1
+                logical = dict(listing_id=key[0], printed_line=None, printed_line_visible=False,
+                               row_kind='unnumbered', occurrence=occurrences[key],
+                               line_id=f'{key[0]}:unnumbered:{occurrences[key]}', download='listing.txt',
+                               **{START: local[START], END: local[END]}, source_parts=[], segments=[])
+                corrections['logical_listing_line_index'].append(logical)
+            elif row.get('printed_line_visible', True):
                 value = span(row, context.listing).lstrip()
                 if not value.startswith(str(row['printed_line']) + ' '):
                     raise ValueError('Printed line differs from indexed bytes')

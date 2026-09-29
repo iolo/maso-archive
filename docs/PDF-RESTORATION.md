@@ -2011,3 +2011,47 @@ at886×321. Desktop diagram/mobile code screenshots were inspected. Preview:
 November now has twenty readable articles, one partial article, two headings and
 24 unresolved eligibility decisions. Next is11-batch-24 for PDF147–149, followed
 by separate assembly. Full issue accounting and staged issue inspection remain.
+
+## November MICRO COMPUTER GRAPHIC final segment
+
+`11-batch-24` restores PDF147–149 / printed145–147 as the second immutable
+`partial / sample-reviewed` segment of `maso-1983-11-toc-0031`. The opening prose
+continues segment01; two column joins retain regional text. Figure6, three tables
+and the closing graphic remain original images. All32 regions and two refined
+code crops were inspected. Both OCR states complete32 tasks /27 text outcomes
+without failures and resume unchanged.
+
+The25 reading blocks include nine code blocks:52 numbered rows, seven unnumbered
+commands and four printed ellipsis rows. Animation rows80/110 each retain three
+physical lines; marginal Korean notes remain aligned with their printed rows.
+Printed HPOLT,CONTOL,$0056/$00E6 and the absent150 row are preserved without repair.
+Corrections include63 line ranges,26 line notes, eleven prose review points,
+three figure notes and twelve selected OCR corrections.
+
+Assembly now accepts explicit `row_kind: "unnumbered"` rows with a null printed
+number, `printed_line_visible: false`, and a positive physical-line identity.
+It keeps each as an independent logical row and rejects carried-line evidence
+on these rows. Existing numbered continuation checks remain in force. This
+supports immediate commands and printed ellipses without inventing line numbers.
+Two focused regression tests and the full53-test PDF suite pass; a real projection
+of both segments preserves all99 indexed rows and the cross-segment prose link.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-24/state-final.json
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-24/graphic-segment-02/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-24-new/graphic-segment-02
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-24-new/graphic-segment-02
+python3 -m http.server 4205 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-24
+```
+
+The124-file package is17,919,256 bytes and rebuilds byte-identically; all9,157
+preserved pins match. Browser checks pass at1440×1000 and360×800 for25 blocks,
+five figures,36 pins and correction ranges. Six code blocks scroll on mobile
+without page overflow. The1,640-byte listing download matches; the closing scan
+opens at852×208. Preview: `http://127.0.0.1:4205/`.
+
+Both segments cover all nine pages but the article remains partial until the
+separate `11-graphic-assemble` checkpoint. Counts remain twenty readable, one
+partial, two headings and24 unresolved eligibility decisions.

@@ -2591,3 +2591,56 @@ history remains in [PROGRESS.md](PROGRESS.md).
   review remain intact. Next:11-batch-24 restores PDF147–149, links the incoming
   prose fragment, then assembles the article separately. Step11 remains active
   through complete November accounting and the staged issue export.
+
+### 2026-09-30 — 11-batch-24 started
+
+- Continue from `a363945` with MICRO COMPUTER GRAPHIC segment02, PDF147–149 /
+  printed145–147. Preserve the first segment and link its outgoing prose to
+  「그리기 위해서」. Map the final three pages immediately before extraction;
+  retain the following advertisement/boundary evidence from batch23.
+- Review printed HCOLOR, animation and memory-copy examples, including wraps,
+  marginal annotations and original tables. Keep complete availability deferred
+  until separate assembly validates all nine pages. Step11 remains active.
+
+- All32 initial crops and two expanded code crops have been reviewed. Initial
+  and final OCR each complete32 tasks /27 text outcomes without failures; only
+  the two revised regions required new work. Raw evidence remains immutable.
+- Restored25 reading blocks, five original figures/tables and nine code blocks.
+  Corrections index52 numbered rows, seven unnumbered commands, four ellipsis
+  rows, two wrapped numbered rows and the Korean marginal annotations. Printed
+  HPOLT,CONTOL,$0056/$00E6 and the absent150 line remain visible and uncorrected.
+- Assembly projection now accepts explicitly identified unnumbered physical rows
+  without treating them as carried numbered statements. Two focused tests cover
+  mixed numbered/unnumbered content, UTF-8 ranges and invalid continuation claims.
+  All53 PDF tests pass. A real two-segment projection preserves99 indexed rows,
+  all eleven unnumbered rows and the linked prose boundary.
+- The124-file package is17,919,256 bytes and rebuilds byte-identically. All9,157
+  preserved input pins match. Completed OCR states resume unchanged; every
+  correction range, source geometry record, archive member and region validates.
+  Browser review follows before recording the second segment and committing.
+
+### 2026-09-30 — 11-batch-24 complete
+
+- The final three-page segment is partial/sample-reviewed. Both immutable
+  segments now cover PDF141–149 / printed139–147, awaiting separate assembly.
+  Segment02 has25 reading blocks, five figures/tables, nine code blocks,52
+  numbered rows and eleven unnumbered rows over67 physical lines.
+- All53 PDF tests pass, including the new explicit unnumbered-row projection
+  cases. Rebuild is byte-identical; all9,157 preserved pins and every region,
+  archive, source geometry, correction range and prose join validate. Initial
+  and final OCR states resume unchanged; two revised crops retain prior evidence.
+- Desktop/mobile checks pass at1440×1000 and360×800 for25 blocks, five figures,
+  36 pins and all correction ranges. Six code blocks need horizontal scrolling;
+  actual animation-code scrolling reaches151px without page overflow. The1,640
+  byte listing download matches; the closing scan opens at852×208. Desktop table
+  and mobile code screenshots inspected. Only favicon.ico returned404. Browser
+  closed; preview http://127.0.0.1:4205/.
+- Article package:124 files /17,919,256 bytes. Wrapper/report/manifest:128 files /
+  17,950,935 bytes. Recorded review/build/validation wall time1519.9s includes
+  interruption and tool waits. The2.6s mapping-helper timing excludes earlier
+  scan inspection; final cached render/crop33.787s and OCR16.360s are not human
+  proofreading throughput. Recipes, review evidence, ledger and next plan saved.
+- Counts remain twenty readable, one partial, two headings and24 unresolved
+  eligibility decisions. Only0031 changed. Next:11-graphic-assemble validates
+  the complete nine-page article, resolves superseded scope notes, and retains
+  both original segments. Step11 still requires the remaining queue and closeout.

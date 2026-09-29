@@ -210,6 +210,68 @@ class PDFAssemblyTests(unittest.TestCase):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 project(self.recipe, segments)
 
+    def unnumbered_segments(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.rich_segments()
+        texts = ['HGR : HCOLOR=3\n10 PRINT "한글"\n.\n', 'POKE 768, 160\n10 END\n.\n']
+        for (source, correction), text in zip(segments, texts, strict=True):
+            source['blocks'][0]['text'] = text
+            correction['blocks'] = deepcopy(source['blocks'])
+            correction['regional_transcription']['code'] = text
+            correction['text_review_items'] = []
+            start, end = block_ranges(source)['block']
+            correction['text_index'][0].update(utf8_byte_start=start, utf8_byte_end_exclusive=end)
+            correction['listing_index'][0]['utf8_byte_end_exclusive'] = len(text.encode())
+            scan = source['region_assets'][0]['asset']
+            rows, cursor = [], 0
+            for ordinal, line in enumerate(text.splitlines(True), 1):
+                end = cursor + len(line.encode())
+                part = dict(region_id='code', scan=scan, utf8_byte_start=cursor, utf8_byte_end_exclusive=end)
+                numbered = line.startswith('10 ')
+                row = dict(**part, listing_id='program', printed_line=10 if numbered else None,
+                           printed_line_visible=numbered, physical_line=ordinal,
+                           segments=[deepcopy(part)], download='listing.txt')
+                if not numbered:
+                    row['row_kind'] = 'unnumbered'
+                rows.append(row)
+                cursor = end
+            correction['listing_line_index'] = rows
+            correction['listing_anomalies'] = [dict(**deepcopy(rows[-1]), note='Printed ellipsis')]
+        return segments
+
+    def test_unnumbered_commands_and_ellipses_stay_independent_across_segments(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.unnumbered_segments()
+        package, correction = project(self.recipe, segments)
+        listing = text_bytes(package)[1]
+        logical = correction['logical_listing_line_index']
+        self.assertEqual(listing, b'HGR : HCOLOR=3\n10 PRINT "' + '한글'.encode() +
+                         b'"\n.\nPOKE 768, 160\n10 END\n.\n')
+        self.assertEqual([r['line_id'] for r in logical], [
+            'program:unnumbered:1', 'program:10:1', 'program:unnumbered:2',
+            'program:unnumbered:3', 'program:10:2', 'program:unnumbered:4'])
+        self.assertEqual([listing[r['utf8_byte_start']:r['utf8_byte_end_exclusive']]
+                          for r in logical if r.get('row_kind') == 'unnumbered'],
+                         [b'HGR : HCOLOR=3\n', b'.\n', b'POKE 768, 160\n', b'.\n'])
+        self.assertEqual(correction['resolved_continuations'], [])
+        self.assertTrue(all(len(r['source_parts']) == 1 for r in logical))
+        self.assertEqual(correction['listing_anomalies'][1]['logical_line_id'], 'program:unnumbered:4')
+        self.assertEqual(project(self.recipe, segments), (package, correction))
+
+    def test_unnumbered_rows_require_explicit_identity_without_continuation_evidence(self):
+        original = self.unnumbered_segments()
+        for change in ('kind', 'number', 'visibility', 'ordinal', 'prior', 'continuation'):
+            segments = deepcopy(original)
+            row = segments[0][1]['listing_line_index'][0]
+            if change == 'kind': row.pop('row_kind')
+            if change == 'number': row['printed_line'] = 10
+            if change == 'visibility': row['printed_line_visible'] = True
+            if change == 'ordinal': row['physical_line'] = 0
+            if change == 'prior': row['prior_segment'] = {}
+            if change == 'continuation': row['continuation'] = {}
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
     def test_namespaced_export_rebuild_and_rehashed_index_tamper(self):
         from tools.pdf_restore.assembly_indexes import block_ranges
         for spec in self.recipe['segments']:
