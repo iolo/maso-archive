@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–20, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 파스칼 프로그램 1(연재) is readable across PDF126–131 / printed124–129, including twenty code examples/templates, seven images, five formulae and six references. Next: 11-batch-21, 에디터를 만드는 법 at observed PDF132 / printed130; use disjoint numbered segments if it exceeds six source pages. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–21, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 에디터를 만드는 법 segment 01 preserves PDF132–137 / printed130–135, ten diagrams and BASIC10–320 with partial/sample-reviewed status. The full article is verified at PDF132–140. Next: 11-batch-22 restores PDF138–140, then a separate editor assembly. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

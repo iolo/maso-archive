@@ -2353,3 +2353,73 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next:11-batch-21, 에디터를 만드는 법, observed PDF132 / printed130. Establish
   its extent from scans and use disjoint numbered segments if longer than six
   pages. Continue through every November entry and the separate issue closeout.
+
+### 2026-09-29 — 11-batch-21 started
+
+- Continue Step 11 from commit `cdf2f7e` with 에디터를 만드는 법,
+  `maso-1983-11-toc-0030`, opening at PDF132 / printed130. This checkpoint
+  includes at most PDF132–137; inspect up to six outside pages to establish
+  the article ending. Use a numbered partial segment if coverage exceeds six
+  source pages, then assemble separately after the remaining segment is reviewed.
+- Preserve prior packages, raw OCR, printed examples and source-linked corrections.
+  Keep bitmap correction deferred and ignore `tocs/`. Update this log during work
+  and commit each finished checkpoint before proceeding toward issue closeout.
+
+- Scans establish the full article at PDF132–140 / printed130–138, ending at
+  BASIC1300 above an advertisement. PDF141 opens MICRO COMPUTER GRAPHIC.
+  This segment retains PDF132–137; three pages are deferred, not missing.
+- All 42 mapped regions were inspected. Six crops were refined to retain diagram
+  labels/edge glyphs and separate the first caption from following prose. Both
+  OCR passes completed with no engine failures. The first segment has 26 reading
+  blocks, ten diagrams and 32 BASIC rows (10–320) across 37 physical lines.
+- corrections.json records six prose joins, 32 line ranges, 18 line notes,
+  twelve prose review points and ten selected OCR corrections. Printed variable
+  names, diagram references, decorative strings and G/OTO wrapping are preserved.
+  Initial build and independent rebuild succeeded; validation and background
+  desktop/mobile checks follow before the partial outcome is recorded and committed.
+
+### 2026-09-29 — 11-batch-21 complete
+
+- Restored editor segment 01 under existing identity `maso-1983-11-toc-0030`,
+  에디터를 만드는 법, PDF132–137 / printed130–135. Availability remains
+  `partial`, verification `sample-reviewed`. The full nine-page extent is verified;
+  PDF138–140 are deferred to the next segment, followed by separate assembly.
+- Forty-two regions yield 26 reading blocks and ten original diagrams/captions:
+  figures 1–8 and 3-1/3-2. The prose covers design, linked lists, the storage pool
+  and commands through INSERT. BASIC10–320 has 32 numbered rows across 37 physical
+  lines. Rows30,160,180,190 wrap; G/OTO remains physically split in180.
+- corrections.json retains 26 text ranges, one code-block range, 32 line ranges,
+  18 line notes, twelve prose review points and ten selected OCR corrections.
+  Six cross-column/page prose joins preserve their original regional text.
+  Printed SPC-100, Responce, repeated figure4-(a), &HZD and differing variable
+  references remain reviewable. No code execution or semantic repair was done.
+  Exact glyphs, decorative symbol counts and string spaces remain unverified.
+- Six source pages and four outside lookups satisfy checkpoint limits. Initial
+  and final OCR states completed all 42 crops and 32 text outcomes without engine
+  failures or retries. Six revised crops used a separate final map; only those
+  tasks were reprocessed. Both states resume unchanged. Reused 126 scan/OCR files
+  match; 30 settings differ only in the map/package hash.
+- The 149-file segment package is 30,971,394 bytes and rebuilds byte-identically.
+  All 51 PDF tests pass. All 6,748 preserved input pins matched before the ledger
+  update. Source geometry, every mapped region, raw archive bytes, text and code
+  ranges, physical line fragments and prose joins validate.
+- Background browser checks pass at 1440×1000 and 360×800: 26 DOM blocks, ten
+  images, 46 asset pins and all correction ranges. All six scope notes and partial
+  status are visible. Long code scrolls without page overflow; actual scrolling
+  reaches 500px. Downloaded listing.txt matches 1,367 bytes; the final prose scan
+  opens at 869×495. Desktop buffer-diagram and mobile-code screenshots were
+  inspected under output/playwright/pdf-11-batch-21/. Only favicon.ico returned
+  404. Browser closed; preview remains http://127.0.0.1:4201/.
+- November now has nineteen readable articles, one partial article, two group
+  headings and 25 unresolved eligibility decisions. All twenty classified articles
+  are sample-reviewed. Only0030 changed. Earlier packages, tocs/, the owner's
+  .gitignore edit and deferred bitmap correction remain intact. No issue closeout.
+- Mapping took 152.5s; review/build/validation took 1047.3s including tool/approval
+  waits. Final cached render/crop and OCR totals are 46.96s and 29.65s. These do
+  not establish character-perfect proofreading throughput. Wrapper/report/manifest
+  total 153 files / 31,006,204 bytes. Helpers, validation, correction evidence,
+  browser records, ledger snapshots and next inputs are saved privately.
+- Next: 11-batch-22, editor segment 02, PDF138–140 / printed136–138. Preserve the
+  DELETE/OUTPUT explanations and closing, diagrams3-3/3-4 and BASIC330–1300.
+  Exclude the advertisement below the final listing. Assemble the article in a
+  separate checkpoint, then continue the November queue and issue closeout.

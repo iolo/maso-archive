@@ -1838,3 +1838,53 @@ headings and26 unresolved eligibility decisions. Next is `11-batch-21`, 에디�
 만드는 법, observed PDF132 / printed130. Verify its extent from scans and split
 before exceeding six source pages. Step11 still requires complete TOC accounting,
 outcomes for every eligible article and the staged standalone issue reference.
+
+## November editor article, first segment
+
+`11-batch-21` restores segment 01 of `maso-1983-11-toc-0030`, 에디터를 만드는 법,
+across PDF132–137 / printed130–135. Scans verify the full article through PDF140
+/ printed138, ending with BASIC1300 above an advertisement. PDF141 opens MICRO
+COMPUTER GRAPHIC. The segment is `partial / sample-reviewed`; the last three
+pages and separate assembly remain required before complete-article status.
+
+Forty-two regions produce 26 reading blocks, ten original diagrams/captions and
+one code block. The prose covers the editor design, linked lists, storage pool
+and commands through INSERT. The first 32 numbered BASIC rows (10–320) occupy
+37 physical lines. Four wrapped rows retain their printed layout, including
+180's G/OTO split. Remaining330–1300 appear on later source pages.
+
+`corrections.json` records 26 text ranges, one code range, 32 numbered-row ranges,
+18 line notes, twelve prose review points and ten selected OCR corrections.
+Six prose joins retain regional text. Printed model names, Responce, inconsistent
+figure references, &HZD and differing pointer-variable forms remain linked to
+scans. Exact I/1 and O/0 glyphs, decorative symbol counts, string spaces and
+executable correctness remain unverified. No semantic repair was performed.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-21/state-final
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-21/editor-segment-01/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-21-new/editor-segment-01
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-21-new/editor-segment-01
+python3 -m http.server 4201 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-21
+```
+
+Both OCR states completed 42 crops / 32 text outcomes without failures or retries
+and resume unchanged. Six edge corrections use map-final.json and final bundles.
+Only those crops were reprocessed. Reused 126 scan/OCR artifacts match; 30 reused
+settings change only the map/package hash. Original evidence remains saved.
+
+The 149-file package is 30,971,394 bytes and rebuilds identically. All 51 PDF tests
+pass; 6,748 preserved input pins matched before ledger update. Checks cover all
+regions, geometry, raw archive bytes, joins and correction ranges. Desktop/mobile
+checks pass for all blocks, ten images, 46 pins and visible partial/review scope.
+The code scrolls without page overflow; actual horizontal scrolling reaches500px.
+The actual 1,367-byte listing download matches and the final scan opens at869×495.
+Only favicon.ico returned404. Preview: `http://127.0.0.1:4201/`.
+
+November now has nineteen readable and one partial article, two group headings
+and 25 unresolved eligibility decisions. Next is `11-batch-22`, editor segment02
+at PDF138–140: remaining explanations, two diagrams and BASIC330–1300, with the
+bottom advertisement excluded. Complete the separate assembly afterward, then
+continue toward full November accounting and the staged issue reference.
