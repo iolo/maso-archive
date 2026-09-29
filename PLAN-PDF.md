@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-30. Status: **in progress; steps 1–10, 11-batch-01–26, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble, 11-editor-assemble and 11-graphic-assemble complete. Both 정보레이다 segments cover PDF152–158 / printed150–156 with eleven original images and five explicit unreadable passages; separate assembly is next. November has twenty-one readable articles, one partial article, two headings and23 unresolved eligibility decisions. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-30. Status: **in progress; steps 1–10, 11-batch-01–26, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble, 11-editor-assemble, 11-graphic-assemble and 11-radar-assemble complete. 정보레이다 is readable/sample-reviewed across PDF152–158 / printed150–156 with eleven original images,43 text review points and five explicit unreadable passages. November has twenty-two readable articles, no partial articles, two headings and23 unresolved eligibility decisions. Next: 11-batch-27 maps VISICALC활용1 at PDF160 and checks its 비즈니스 parent heading. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

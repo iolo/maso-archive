@@ -2793,3 +2793,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
   eligibility decisions. Only0032 changed. Next:11-radar-assemble verifies all
   seven pages, eleven original images and five uncertainty markers without OCR.
   Step11 still requires the remaining queue and standalone issue closeout.
+
+### 2026-09-30 — 11-radar-assemble started
+
+- Assemble both immutable news segments from `2083b32` without new OCR. Require
+  ordered PDF152–158 / printed150–156 coverage, eleven original images,22 blocks,
+  43 text review points and all five unreadable passages. Preserve seven regional
+  boundaries in five joins; no cross-segment sentence join is needed. Resolve
+  superseded segment-scope notes while retaining original packages and metadata.
+
+### 2026-09-30 — 11-radar-assemble complete
+
+- Complete 정보레이다 is readable/sample-reviewed across PDF152–158 /
+  printed150–156. Forty regions produce22 reading blocks and eleven original
+  images. All43 text review points and five explicit unreadable passages remain
+  scan-linked; five joins preserve seven regional boundaries. Two figure notes
+  and five unresolved-text records also remain in original segment metadata.
+- Both original packages are unchanged; no new OCR. Four superseded scope notes
+  are resolved. PDF159's uncaptioned photograph remains boundary evidence with
+  no established news association. The next article begins on PDF160.
+- Rebuild is byte-identical; all11,302 protected pins,147 copied originals and135
+  raw archive members match. Full ordered page coverage and every text/review
+  range validate. Tooling is unchanged since batch26's successful53-test run.
+- Desktop/mobile checks pass at1440×1000 and360×800 for22 blocks, eleven figures
+  and43 pins without overflow. The26,266-byte text download matches; the rebased
+  final scan opens at1149×560. Desktop portrait and mobile segment-boundary views
+  inspected. Only favicon.ico returned404. Browser closed; complete preview
+  http://127.0.0.1:4209/.
+- Article output:157 files /103,067,505 bytes. Wrapper/report/manifest:161 files /
+  103,101,384 bytes. Assembly/review/validation took226.0s including tool waits.
+  Recipes, validation, browser records, ledger snapshot and next inputs saved.
+- November now has twenty-two readable/sample-reviewed articles, no partial
+  articles, two headings and23 unresolved eligibility decisions. Only0032 changed.
+  Next:11-batch-27 maps VISICALC활용1 and checks the 비즈니스 parent heading locally.
+  Step11 continues through the remaining entries and standalone issue closeout.
