@@ -1891,3 +1891,80 @@ history remains in [PROGRESS.md](PROGRESS.md).
   the education-heading eligibility check. Reuse the observed opening image,
   establish its ending and split before exceeding six source pages; retain the
   six-lookup and one-engine-retry limits. Update progress and commit separately.
+
+### 2026-09-29 — 11-batch-15 started
+
+- GUN MAN committed as `62379bf`. Continue with MARK at PDF86 / printed84,
+  under its existing TOC identity; verify the ending and reconcile the education
+  heading without duplicating article content. Retain the one-article/six-source-
+  page and six-outside-lookup limits.
+- Preserve raw OCR, literal code, scans and correction indexes; validate the
+  reader and downloads, update the ledger and commit. The neighboring PDF85 photo
+  remains unassigned. Ignore `tocs/` and preserve the owner's `.gitignore` edit.
+
+- Verified MARK on PDF86–88 / printed84–86, ending at 3560 END; PDF89 opens
+  유효숫자를 18로. Saved the education-heading ownership decision separately.
+  Fifteen regions include a flowchart; the repeated running header is excluded.
+- Reviewed twelve reading blocks and two prose joins. The full program has 244
+  numbered rows; the inline 3560 END example is indexed separately. Four rows
+  wrap physically. The correction record retains 144 line review notes, four
+  prose review items, thirteen selected OCR corrections and one explicit unknown
+  output label on line 3320. Exact glyphs/spacing and execution remain unverified.
+- Fifteen crop tasks and fourteen text OCR outcomes completed without engine
+  failures or retries. The state resumes unchanged, the rebuild is byte-identical,
+  all 51 PDF tests pass and 2,196 preserved input pins match. Browser checks and
+  issue-ledger closeout are underway.
+
+### 2026-09-29 — 11-batch-15 complete
+
+- Restored 기능이 강화된 성적관리프로그램 MARK, `maso-1983-11-toc-0024`,
+  across PDF86–88 / printed84–86 as readable/sample-reviewed. The listing ends
+  at 3560 END; PDF89 / printed87 opens 유효숫자를 18로. Recorded 교육입문,
+  `maso-1983-11-toc-0023`, as a grouping with no separate body identified here.
+  The neighboring PDF85 photo remains unassigned; proximity is not ownership.
+- Fifteen regions produce twelve reading blocks, four code blocks and one
+  original flowchart. The repeated running header is excluded. Two prose joins
+  preserve the opening column continuation and the sentence continuing onto
+  the following page around the diagram. Original regional transcriptions,
+  the flowchart and its separate caption remain available.
+- The main program has 244 numbered rows; the prose's 3560 END example has its
+  own listing identity. Together there are 245 indexed rows and 249 physical
+  lines. Rows 1705, 1715, 1725 and 1735 retain their wraps. Printed numbering gaps,
+  MATHMATICS, unusual operators and PLAY strings remain as transcribed, without
+  semantic repair. Code was not executed; exact glyphs and spaces are unverified.
+- `corrections.json` retains twelve text ranges, four code-block ranges, all
+  245 line ranges, 144 line review notes, four prose review items and thirteen
+  selected OCR corrections. The faint output label on 3320 is explicitly marked
+  `⟦판독불확실:출력표시⟧`. Its exact UTF-8 range and scan are indexed under
+  `unresolved_text`, with original characters left unknown. The marker is not
+  source code. Other faint rows retain visible manual-review limits.
+- Used three source pages and one outside lookup. Fifteen crop tasks and fourteen
+  text OCR outcomes completed with zero engine failures or retries; the four code
+  crops used scale 4000. Final inputs are `map.json` and `state/`. The completed
+  state resumes unchanged and the separate raw-evidence export validates.
+- The package has 68 files / 14,034,712 bytes and rebuilds byte-identically. All
+  51 focused PDF tests pass. All 2,196 preserved input pins matched before the
+  intentional ledger update. Raw OCR/settings, geometry, complete regional
+  coverage, literal downloads, unique listing identities, numbering gaps, four
+  wraps, correction excerpts, two prose joins and the uncertainty marker validate.
+  No extraction or reader implementation changes were needed.
+- Background Playwright checks pass at 1440×1000 and 360×800: twelve DOM blocks,
+  one flowchart, nineteen asset pins and all text/line ranges. Actual wrapper
+  navigation, listing download and final scan clicks pass; downloaded bytes match.
+  Code scrolling works without page overflow, and the 3320 marker and review scope
+  are present in the reader. Inspected desktop flowchart and mobile code images
+  under `output/playwright/pdf-11-batch-15/`. Only favicon.ico returned 404.
+  Preview remains at `http://127.0.0.1:4195/`.
+- November now has fourteen readable/sample-reviewed articles, two group headings
+  and 31 unresolved eligibility decisions. Only MARK and the education grouping
+  changed. Prior packages, deferred submarine bitmap review, `tocs/` and the
+  owner's `.gitignore` change remain untouched. No issue closeout. Stall count 0.
+- Mapping took 122.6 seconds; review/build/validation took 1378.3 seconds,
+  including tool waits. Cached render/crop and OCR totals were 16.05s and 11.49s.
+  These are wall timings, not character-perfect proofreading throughput. The
+  wrapper/report totals 72 files / 14,052,852 bytes. The background
+  browser is closed; closeout, timing, validation and ledger snapshots are saved.
+- Next: `11-batch-16`, 유효숫자를 18로 at PDF89 / printed87. Reuse the observed
+  opening image, establish actual coverage and split before exceeding six source
+  pages; do not infer extent from the next TOC entry. Retain the six-lookup and
+  one-engine-retry limits, update progress and commit the checkpoint separately.

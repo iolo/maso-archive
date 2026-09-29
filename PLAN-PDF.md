@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–14, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. GUN MAN is readable from PDF84 / printed82, with fifty code rows and explicit glyph-review limits; the uncaptioned neighboring PDF85 photo remains unassigned. The complete library assembly is preserved. 잠수함's manual bitmap correction remains deferred. Next: 11-batch-15, MARK at PDF86 / printed84, including the education-heading eligibility check. Ignore `tocs/` for now as requested**.
+Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–15, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. MARK is readable across PDF86–88 / printed84–86, with its flowchart, full listing and explicit proofreading limits. 교육입문 is recorded as a TOC grouping; the uncaptioned PDF85 photograph remains unassigned. 잠수함's manual bitmap correction remains deferred. Next: 11-batch-16, 유효숫자를 18로 at PDF89 / printed87, within the six-source-page limit. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

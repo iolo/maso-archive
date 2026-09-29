@@ -1516,3 +1516,56 @@ and 33 unresolved eligibility decisions. Only GUN MAN's entry changed. Next is
 eligibility without duplicating article content, and establish the ending within
 the existing one-article/six-source-page ceiling. The neighboring photo remains
 unassigned. `tocs/` and deferred submarine bitmap correction stay out of scope.
+
+## Step 11 batch 15: MARK
+
+`11-batch-15` restores 기능이 강화된 성적관리프로그램 MARK,
+`maso-1983-11-toc-0024`, across PDF86–88 / printed84–86. The final listing ends
+at 3560 END; PDF89 / printed87 opens 유효숫자를 18로. The parent 교육입문
+(`maso-1983-11-toc-0023`) is a TOC grouping with no separately identified body
+here. Its ownership decision is saved independently. The uncaptioned PDF85 photo
+remains unassigned; neither the grouping nor MARK claims it.
+
+Fifteen regions produce twelve reading blocks and one original flowchart. A
+repeated running header is excluded. Two prose joins connect the opening columns
+and a sentence continuing onto the next page around the diagram; original regional
+transcriptions remain available. The flowchart and its caption retain separate
+reading items, and its internal labels remain in the source image.
+
+The BASIC download contains an inline `3560 END` example and the full 244-row
+program, distinguished by `mark-inline-example` and `mark` listing identities.
+Together they have 245 indexed rows and 249 physical lines. Rows 1705, 1715, 1725
+and 1735 retain their physical wraps. Printed numbering gaps, MATHMATICS, music
+strings and unusual operators are preserved without semantic repair. Exact spaces,
+quotes and faint letter/digit distinctions remain unverified.
+
+`corrections.json` retains twelve text ranges, four code-block ranges, all 245 line
+ranges, 144 line review notes, four prose review items and thirteen selected OCR
+correction examples. The output label at 3320 is explicitly marked
+`⟦판독불확실:출력표시⟧`; `unresolved_text` links its exact UTF-8 range and scan,
+with the original characters unresolved. This is an editorial marker, not source
+code. No program execution or bitmap reconstruction was performed.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-15/state
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-15/mark
+make test-pdf
+python3 -m http.server 4195 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-15
+```
+
+The checkpoint uses three source pages and one outside lookup. Fifteen crop tasks
+and fourteen text OCR outcomes completed with zero engine failures or retries;
+code crops used scale 4000. The completed state resumes unchanged. Raw evidence is
+saved under `build/pdf-restoration/11-batch-15-evidence/`. The package contains
+68 files / 14,034,712 bytes and has a byte-identical independent rebuild. All 51
+focused PDF tests pass, and all 2,196 prior pins matched before the ledger update.
+Desktop/mobile checks cover the reading order, flowchart, nineteen asset pins,
+all indexed ranges, marker visibility, literal downloads and code scrolling.
+Preview: `http://127.0.0.1:4195/`.
+
+November now has fourteen readable/sample-reviewed articles, two group headings
+and 31 unresolved eligibility decisions. Only MARK and its education grouping
+changed. Next is `11-batch-16`, 유효숫자를 18로 from PDF89 / printed87. Establish
+its actual ending and split before exceeding six source pages; the next TOC start
+is not proof of extent. Ignore `tocs/`; deferred submarine bitmap work is unchanged.
