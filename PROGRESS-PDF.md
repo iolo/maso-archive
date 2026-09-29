@@ -2133,3 +2133,77 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Establish its ending, preserve the opening photograph and column order, and
   split before exceeding six source pages. Retain six outside lookups and one
   engine retry per failed region; update this log and commit separately.
+
+### 2026-09-29 — 11-batch-18 started
+
+- Previous checkpoint committed as `54b3941`. Continue with 마이크로 컴퓨터
+  시스템입문, `maso-1983-11-toc-0027`, from observed PDF118 / printed116.
+  Verify the ending and preserve its opening photograph, prose order and diagrams.
+- Retain the six-source-page, six-outside-lookup and one-engine-retry limits.
+  Save scan-linked corrections, validate the package and browser, update the issue
+  ledger and commit. Ignore `tocs/`; retain the owner's `.gitignore` edit and
+  deferred submarine bitmap work.
+
+### 2026-09-29 — 11-batch-18 transcription and package review
+
+- Verified the complete article at PDF118–120 / printed116–118, ending with
+  references and figure3. PDF121 opens the separate English-learning article.
+  Mapped 22 regions: eighteen text regions and the opening photograph plus three
+  diagrams. Four column/page boundaries become three joined prose blocks.
+- Enlarged scan review corrected the chapter outline and publisher reading.
+  Widened r02 to retain its overlapping callout, and r08/r19 to preserve edge
+  glyphs. Kept initial evidence; only three crop tasks were reprocessed, with no
+  engine failures or retries. Both completed OCR states resume unchanged.
+- Built fourteen reading blocks with seven localized review notes and four
+  scan-linked bibliography ranges in `corrections.json`. Historical dates,
+  specifications, prices and printed names remain unchanged. No code listing.
+- The 86-file package rebuilds byte-identically; all 51 PDF tests pass. All
+  3,237 preserved input pins, raw OCR bytes, text/reference ranges, source
+  geometry and prose joins validate. Browser acceptance and ledger closeout next.
+
+### 2026-09-29 — 11-batch-18 complete
+
+- Restored 마이크로 컴퓨터 시스템입문 under existing TOC identity
+  `maso-1983-11-toc-0027`, PDF118–120 / printed116–118. Status is
+  `readable / sample-reviewed`; exact-glyph accuracy remains limited. The six
+  chapter titles are a series outline; this article contains chapter1 only.
+- The opening photo includes its overlapping callout. All three diagrams retain
+  original labels and geometry. Figure3 follows the programming explanation in
+  reading order, before the resumed history; the source placement is preserved
+  in the map. No historical facts, code or diagrams were rewritten or executed.
+- `corrections.json` contains fourteen text ranges, seven localized review items,
+  four numbered reference ranges and five selected OCR correction examples, all
+  linked to scans. Regional transcription preserves the four original join
+  boundaries. Printed chip dimensions, dates, transistor counts, model names,
+  prices and bibliographic wording remain available for manual review.
+- Three source pages and one outside lookup stay within the limits. Initial OCR
+  completed 22 crop tasks and eighteen text outcomes without failures or retries.
+  The final map reprocessed only r02/r08/r19. Both evidence exports remain saved;
+  unchanged OCR and scan bytes match. Final recipe uses `map-final.json` and
+  `state-final/`. A missing null caption field in the private recipe was fixed
+  before successful export; no extraction or reader implementation change.
+- The package has 86 files / 16,240,666 bytes and rebuilds byte-identically. All
+  51 PDF tests pass. All 3,237 preserved input pins matched before the ledger
+  update. Every region, raw archive entry, prose join, text/reference range and
+  original page transform validates. No spurious `listing.txt` is generated.
+- Background Playwright checks pass at 1440×1000 and 360×800: fourteen DOM blocks,
+  four images, 25 asset pins, fourteen text ranges, seven review items and four
+  bibliography ranges. No page overflow; all review notes visible. Actual wrapper
+  navigation, article download and final diagram scan clicks pass. The downloaded
+  9,106 bytes match exactly; the final scan loads at 2351×516. Desktop diagram and
+  mobile prose screenshots were inspected under `output/playwright/pdf-11-batch-18/`.
+  Only favicon.ico returned 404. Browser closed; preview remains at
+  `http://127.0.0.1:4198/`.
+- November now records seventeen readable/sample-reviewed articles, two group
+  headings and 28 unresolved eligibility decisions. Only this article's ledger
+  entry changed. Prior packages, deferred submarine bitmap work, `tocs/` and the
+  owner's `.gitignore` edit remain untouched. No issue closeout; stall count 0.
+- Mapping took 84.5 seconds; review/build/validation took 1185.3 seconds including
+  tool waits. Final cached render/crop and OCR totals were 26.60s and 13.18s.
+  These timings do not establish character-perfect proofreading throughput.
+  Wrapper, report and manifest total 90 files / 16,262,268 bytes. Closeout,
+  validation, browser records, ledger snapshots and next inputs are saved privately.
+- Next: `11-batch-19`, 영어학습용 프로그래밍 at PDF121 / printed119. Its displayed
+  heading is 영어 학습용 프로그램; retain the existing TOC identity. Verify its
+  ending from scans and preserve any listing and figures. Keep the six-source-page,
+  six-outside-lookup and one-engine-retry limits; update this log and commit.

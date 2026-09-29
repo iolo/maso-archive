@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–17, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 1차방정식 is readable across PDF111–115 / printed109–113, including its terminology table, full listing, independent inline examples and continued output screens. Next: 11-batch-18, 마이크로 컴퓨터 시스템입문 at observed PDF118 / printed116, within the six-source-page limit. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–18, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 마이크로 컴퓨터 시스템입문 is readable across PDF118–120 / printed116–118, including its photograph, three diagrams and four scan-linked references. Next: 11-batch-19, 영어학습용 프로그래밍 at observed PDF121 / printed119, within the six-source-page limit. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

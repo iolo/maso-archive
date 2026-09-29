@@ -1679,3 +1679,54 @@ November now records sixteen readable/sample-reviewed articles, two group
 headings and 29 unresolved eligibility decisions. Next is `11-batch-18`,
 마이크로 컴퓨터 시스템입문 from PDF118 / printed116, within the six-page limit.
 This is an article checkpoint, not issue closeout or deferred bitmap correction.
+
+## November microcomputer systems checkpoint
+
+`11-batch-18` restores `maso-1983-11-toc-0027`, 마이크로 컴퓨터 시스템입문,
+across PDF118–120 / printed116–118. Its closing references and figure3 precede
+the next article at PDF121. The existing TOC identity is retained. The six-chapter
+outline announces a series; this article covers chapter1's definition, components
+and history. It is `readable / sample-reviewed`, with explicit transcription limits.
+
+Twenty-two regions produce fourteen reading blocks, one photograph and three
+original diagrams. Three prose joins reconnect four column/page boundaries,
+including 사/용자가 and 기능/(SUBROUTINE CALL). Figure3 follows the programming
+explanation in reading order; original source geometry stays in the map. The
+opening photograph includes the overlapping callout. Printed diagram labels,
+historical dates, specifications, chip names and prices remain unchanged.
+
+`corrections.json` preserves regional text, fourteen exact UTF-8 block ranges,
+seven localized review items, five selected OCR correction examples and four
+`reference_index` records. Each numbered reference has its transcription, exact
+`article.txt` range and source scan. These are scan transcriptions, not externally
+verified bibliography. Faint glyphs and punctuation remain manual review scope.
+There is no code listing or `listing.txt` download for this article.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-18/state-final
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-18/micro-system/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-18-new/micro-system
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-18-new/micro-system
+python3 -m http.server 4198 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-18
+```
+
+Initial OCR completed 22 crop tasks and eighteen text outcomes with no engine
+failures or retries. Review widened r02 to include its whole callout and r08/r19
+to retain edge glyphs; only those three tasks were reprocessed. Initial and final
+maps/evidence exports remain saved. Both completed states resume unchanged, and
+unaffected scan/OCR bytes match. The recipe uses `map-final.json` and final bundles.
+
+The 86-file package is 16,240,666 bytes and rebuilds identically. All 51 PDF tests
+pass; 3,237 preserved input pins matched before the ledger update. Desktop/mobile
+checks validate all content, four images, 25 asset pins and text/reference ranges,
+with no page overflow. The actual 9,106-byte article download matches, and the
+final diagram scan opens at 2351×516. Only favicon.ico returned 404. Preview:
+`http://127.0.0.1:4198/`.
+
+November now records seventeen readable/sample-reviewed articles, two group
+headings and 28 unresolved eligibility decisions. Next is `11-batch-19`,
+영어학습용 프로그래밍 from PDF121 / printed119, displayed as 영어 학습용 프로그램.
+Establish its ending within the six-source-page limit. This checkpoint does not
+close the issue or perform deferred bitmap correction.
