@@ -2752,3 +2752,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   11-batch-26 restores PDF158 / printed156, then separate news assembly. PDF159
   remains an uncaptioned boundary photo without established article association;
   PDF160 opens VISICALC활용1. Step11 remains active through issue closeout.
+
+### 2026-09-30 — 11-batch-26 started
+
+- Continue from `ce6d325` with the final news page PDF158 / printed156. Preserve
+  the software-contest winner interview, portrait and Aram report under the
+  existing0032 article. The first segment remains immutable. Both stories end
+  on this page; separate assembly follows the final segment's validation.
+
+- Reviewed all eight crops and transcribed seven text regions. Two joins produce
+  five reading blocks; the original portrait is preserved. One faint word before
+  자신감 remains explicitly marked; eleven scan-linked review points preserve
+  names, period wording, program-title wrap, quantities and the historical contact.
+- The final-page package builds byte-identically. All53 PDF tests pass; all11,110
+  protected pins, raw OCR bytes, source geometry and text/correction ranges match.
+  OCR completed eight tasks / seven text outcomes without failure and resumes
+  unchanged. Desktop/mobile reader and download/scan checks follow.
+
+### 2026-09-30 — 11-batch-26 complete
+
+- The final news segment is partial/sample-reviewed at PDF158 / printed156,
+  with eight regions, five reading blocks and the original interview portrait.
+  Both segments cover the verified seven-page article and await separate assembly.
+  Eleven text review notes retain one unreadable word and printed period wording;
+  two regional joins preserve the interview and Aram reading order.
+- All53 PDF tests pass. Rebuild is byte-identical; all11,110 protected file pins,
+  raw OCR, source geometry, reading coverage and text ranges validate. OCR state
+  resumes unchanged with eight completed tasks, seven text outcomes and no failures.
+- Desktop/mobile checks pass at1440×1000 and360×800 for five blocks, one figure,
+  eleven pins and correction ranges without page overflow. The3,997-byte text
+  download matches; closing scan opens at1149×560. Initial desktop screenshot
+  was blank; recaptured after viewport settled and visually inspected. Desktop
+  portrait and mobile Aram views pass. Only favicon.ico returned404. Browser
+  closed; preview http://127.0.0.1:4208/.
+- Article package:39 files /8,774,675 bytes. Wrapper/report/manifest:43 files /
+  8,788,261 bytes. Mapping36.6s; review/build/validation413.1s includes tool waits.
+  Render/crop7.927s and OCR6.387s are processing timings, not human proofreading
+  throughput. Recipes, review evidence, ledger snapshot and next plan saved.
+- Counts remain twenty-one readable, one partial, two headings and23 unresolved
+  eligibility decisions. Only0032 changed. Next:11-radar-assemble verifies all
+  seven pages, eleven original images and five uncertainty markers without OCR.
+  Step11 still requires the remaining queue and standalone issue closeout.
