@@ -2984,3 +2984,49 @@ history remains in [PROGRESS.md](PROGRESS.md).
   unresolved eligibility decisions. Next11-mailing-assemble must preserve387
   logical BASIC lines, all correction notes and both originals, then continue
   with UNIX from PDF172. Step11 issue accounting and standalone closeout remain.
+
+### 2026-09-30 — 11-mailing-assemble started
+
+- Assemble the two immutable mailing-program packages without new OCR. Verify
+  PDF164–171 / printed162–169 in source order; preserve one original photo,
+  eleven blocks,387 logical BASIC lines,115 listing notes and seven prose notes.
+  Link incoming7260 to its exact prior fragment, retain4530's internal two-scan
+  mapping and all forty uncertainty markers. Resolve four superseded scope notes.
+
+- Complete eight-page assembly builds as readable/sample-reviewed. Thirteen
+  regions produce eleven blocks, seven code blocks and one photo.387 logical
+  lines span388 local records /485 physical rows. All115 listing notes, seven
+  prose notes and forty uncertainty markers remain;23 unresolved-row records
+  stay in original metadata. Four superseded scope notes are resolved.
+- Rebuild is byte-identical; all12,395 protected pins,71 copied original files,
+  57 raw archive members, full page order and every correction range validate.
+  The7260 logical row joins two immutable source fragments;4530 retains its
+  within-segment two-scan mapping. No new OCR or generic tooling changes.
+
+### 2026-09-30 — 11-mailing-assemble complete
+
+- Complete 메일링 프로그램 is readable/sample-reviewed across PDF164–171 /
+  printed162–169. Thirteen regions produce eleven blocks, one original photo and
+  seven BASIC code blocks.387 logical lines cover388 local records /485 physical
+  rows.115 listing notes and seven prose notes preserve all printed uncertainties.
+- Both original packages remain unchanged. Line7260 joins two immutable segment
+  fragments;4530 retains its internal two-scan mapping. Four superseded scope
+  notes are resolved.35 split-glyph and five unreadable markers remain visible;
+  all23 unresolved-row records and the photo note stay in original metadata.
+  No program execution, semantic repair or new OCR was performed.
+- Rebuild is byte-identical; all12,395 protected pins,71 copied original files,
+  57 raw archive members, full page coverage and every text/listing/review range
+  validate. Generic tooling is unchanged since batch28's successful53-test run.
+- Desktop/mobile checks pass at1440×1000 and360×800 for eleven blocks, one photo,
+  seventeen pins and all387 logical line ranges. Seven code blocks scroll on
+  mobile, with actual180px movement and no page overflow. The22,461-byte listing
+  download matches; the rebased final scan opens at3268×4675. Desktop photo and
+  mobile7260 boundary views inspected. Only favicon.ico returned404. Browser
+  closed; complete preview http://127.0.0.1:4213/.
+- Article output:82 files /129,466,289 bytes. Wrapper/report/manifest:86 files /
+  129,486,219 bytes. Assembly/review/validation264.4s includes tool waits.
+  Saved recipe, validation, browser evidence, ledger snapshot and next inputs.
+- Only0035 changed. November now has24 readable/sample-reviewed articles, no
+  partial articles, three headings and20 unresolved eligibility decisions.
+  Next11-batch-30 maps UNIX 1(연재) at PDF172 / printed170. Step11 remains active
+  through the remaining classifications, eligible outcomes and issue closeout.
