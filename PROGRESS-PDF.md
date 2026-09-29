@@ -2683,3 +2683,72 @@ history remains in [PROGRESS.md](PROGRESS.md).
   articles, two headings and24 unresolved eligibility decisions. Only0031 changed.
   Next:11-batch-25 maps 뉴스모음 : 정보레이다 from PDF152 / printed150. Step11
   continues through all47 classifications, eligible outcomes and issue closeout.
+
+### 2026-09-30 — 11-batch-25 started
+
+- Continue from `6f51928` with 뉴스모음 : 정보레이다, existing TOC identity0032,
+  beginning PDF152 / printed150. Inspect up to six included pages152–157 and
+  local boundary lookups158–160 before deciding complete versus segmented scope.
+- Preserve news subheadings and photographs under the existing TOC body owner;
+  do not create extra unlisted articles. Keep prior packages and correction
+  evidence intact, with the owner's bitmap post-production still deferred.
+
+- Scans establish the news text at PDF152–158 / printed150–156. The first six
+  pages are mapped as32 regions including ten photographs/illustrations; the
+  final interview and Aram report on PDF158 are deferred to segment02. There
+  is no sentence fragment at this segment boundary.
+- PDF159 is an uncaptioned full-page photograph with no established association
+  to the news body; its scan remains boundary evidence outside the package.
+  PDF160 / printed158 opens VISICALC활용1. No new TOC article is introduced.
+- Prepared32 OCR tasks within the six-source-page and three-lookup-page limits.
+  Extraction is running; crop review, transcription, corrections and package
+  validation remain before the issue ledger can record a restoration outcome.
+
+- Initial OCR completed all32 tasks /22 text outcomes without failures. Saved
+  the evidence export and local OCR bundles. This is extraction progress only;
+  detailed crop/transcription review is next and the issue ledger remains at
+  the completed graphics assembly (twenty-one readable articles).
+
+- Inspected all32 initial crops and transcribed all22 text regions. Preserve
+  ten original photos/illustrations, including the printed children-photo caption.
+  Three joined prose blocks will retain five column/page-boundary transitions.
+- Five initially uncertain passages have explicit scan-linked markers, including
+  gutter-obscured words, a price and a name. Printed product specifications and
+  historical claims are preserved rather than reconciled with modern knowledge.
+- Seven tight/gutter-affected prose crops are being expanded and rendered at4000
+  pixels for a second inspection. Initial map and evidence remain immutable.
+
+- All seven revised crops are now inspected. The refined name reads 이범천;
+  four unreadable passages remain explicitly marked. Corrections include32
+  prose review points, two figure notes,22 selected OCR comparisons and all
+  five column/page transitions in three joined blocks.
+- The first segment builds as partial/sample-reviewed with17 reading blocks
+  and ten original images. A second build is byte-identical; all53 PDF tests
+  pass, all10,592 protected file pins match, and text/correction ranges and raw
+  OCR preservation validate. Both OCR states resume unchanged. Browser review
+  is next before recording the partial outcome and committing this checkpoint.
+
+### 2026-09-30 — 11-batch-25 complete
+
+- 정보레이다 segment01 is partial/sample-reviewed across PDF152–157 /
+  printed150–155. Its32 regions produce17 reading blocks and ten original
+  photographs/illustrations. Four unreadable passages remain explicit;32 prose
+  review points and two figure notes retain manual correction scope. Five
+  column/page joins are represented in three blocks with regional text preserved.
+- All53 PDF tests pass. Rebuild is byte-identical, all10,592 protected pins match,
+  all raw OCR and correction ranges validate, and both OCR states resume unchanged.
+  Seven revised crops retain their original evidence; no source code is present.
+- Desktop/mobile checks pass at1440×1000 and360×800 for17 blocks, ten figures and
+  35 pins without page overflow. The22,147-byte text download matches; the final
+  scan opens at1199×2216. Desktop photo/caption and mobile uncertain-price views
+  inspected. Only favicon.ico returned404. Browser closed; preview
+  http://127.0.0.1:4207/.
+- Article package:108 files /60,029,184 bytes. Wrapper/report/manifest:112 files /
+  60,055,995 bytes. Mapping117.5s; review/build/validation1104.8s includes tool
+  waits and interruption. Final cached render/crop88.099s and OCR30.311s are not
+  human proofreading throughput. Recipes, evidence, ledger and next plan saved.
+- November now has twenty-one readable articles, one partial article, two
+  headings and23 unresolved eligibility decisions. Only0032 changed. Next:
+  11-batch-26 restores PDF158 / printed156, then separate news assembly. PDF159
+  remains an uncaptioned boundary photo without established article association;
+  PDF160 opens VISICALC활용1. Step11 remains active through issue closeout.
