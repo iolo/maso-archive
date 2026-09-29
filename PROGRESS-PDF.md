@@ -2644,3 +2644,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   eligibility decisions. Only0031 changed. Next:11-graphic-assemble validates
   the complete nine-page article, resolves superseded scope notes, and retains
   both original segments. Step11 still requires the remaining queue and closeout.
+
+### 2026-09-30 — 11-graphic-assemble started
+
+- Assemble the two immutable MICRO COMPUTER GRAPHIC segments from `04f286c`
+  without new OCR. Require complete ordered PDF141–149 / printed139–147 coverage,
+  fifteen figures/tables/graphics,88 numbered rows and eleven unnumbered rows.
+- Preserve the five regional prose joins, link the sentence at the segment
+  boundary, and resolve four superseded scope notes while retaining all source
+  packages and correction evidence. Validate and browser-review before marking
+  the article readable and proceeding to 정보레이다.
+
+### 2026-09-30 — 11-graphic-assemble complete
+
+- Complete MICRO COMPUTER GRAPHIC is readable/sample-reviewed across PDF141–149
+  / printed139–147. The71 regions produce51 reading blocks, fifteen original
+  figures/tables/graphics and fourteen code blocks. Both original packages remain
+  immutable; the2,442-byte listing is their exact concatenation without new OCR.
+- All88 numbered rows, seven unnumbered commands and four ellipsis rows validate
+  over103 physical lines. Two numbered rows retain wraps. Namespaced corrections
+  preserve99 local/logical row ranges,41 code notes,22 prose review points, five
+  regional prose joins and the linked cross-segment sentence. Seven figure notes
+  remain in original segment metadata. Four superseded scope notes are resolved.
+- Rebuild is byte-identical; all10,030 protected pins,261 copied originals and247
+  raw archive members match. Full ordered page coverage and every text/listing
+  range validate. Tooling is unchanged since batch24's successful53-test run.
+- Desktop/mobile checks pass at1440×1000 and360×800 for51 blocks, fifteen figures,
+  75 pins and all correction ranges. Eleven code blocks scroll on mobile without
+  page overflow; animation code reaches151px. Download bytes match; the rebased
+  final scan opens at852×208. Desktop boundary/figure and mobile code screenshots
+  were inspected. Only favicon.ico returned404. Browser closed; preview
+  http://127.0.0.1:4206/.
+- Article output totals272 files /85,028,522 bytes; wrapper/report/manifest totals
+  276 files /85,085,822 bytes. Assembly/review/validation took221.1s including
+  tool waits, with no new source-page processing. Recipes, validation, browser
+  records, ledger snapshot and next inputs saved.
+- November now has twenty-one readable/sample-reviewed articles, no partial
+  articles, two headings and24 unresolved eligibility decisions. Only0031 changed.
+  Next:11-batch-25 maps 뉴스모음 : 정보레이다 from PDF152 / printed150. Step11
+  continues through all47 classifications, eligible outcomes and issue closeout.

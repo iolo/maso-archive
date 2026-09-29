@@ -2055,3 +2055,42 @@ opens at852×208. Preview: `http://127.0.0.1:4205/`.
 Both segments cover all nine pages but the article remains partial until the
 separate `11-graphic-assemble` checkpoint. Counts remain twenty readable, one
 partial, two headings and24 unresolved eligibility decisions.
+
+## November MICRO COMPUTER GRAPHIC assembled
+
+`11-graphic-assemble` combines both immutable segments under TOC identity
+`maso-1983-11-toc-0031`. Complete PDF141–149 / printed139–147 coverage is now
+`readable / sample-reviewed`. No new OCR or source-page processing was required.
+The71 regions produce51 reading blocks, fifteen figures/tables/graphics and
+fourteen code blocks. All88 numbered rows, seven immediate commands and four
+ellipsis rows are preserved over103 physical lines, including two wrapped rows.
+
+Namespaced corrections retain99 local/logical row ranges,41 code notes,22 prose
+review points and five regional prose joins. The sentence crossing segments is
+explicitly linked. Four superseded scope notes are resolved; seven figure notes
+remain available in original segment metadata and correction files. Original
+packages, scans, maps and settings stay byte-identical. Glyph, spacing, gutter
+shadow and printed-source concerns remain visible for manual correction.
+
+```sh
+make assemble-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-graphic-assemble/assembly-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-graphic-assemble-new/graphic
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-graphic-assemble-new/graphic
+python3 -m http.server 4206 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-graphic-assemble
+```
+
+The272-file article package is85,028,522 bytes and rebuilds byte-identically.
+All10,030 protected pins,261 copied source files and247 raw archive members match.
+Validation checks full page order and every correction range. The unchanged
+tooling uses batch24's immediately preceding successful53-test run.
+
+Browser checks pass at1440×1000 and360×800 for51 blocks, fifteen figures,75 pins,
+all correction ranges and visible review scope. Eleven code blocks scroll on
+mobile without page overflow. The2,442-byte listing download matches; the rebased
+last scan opens at852×208. Preview: `http://127.0.0.1:4206/`.
+
+November now has twenty-one readable articles, no partial articles, two headings
+and24 unresolved eligibility decisions. Next is11-batch-25 for 정보레이다 at
+PDF152 / printed150. Full issue accounting and staged inspection remain required.
