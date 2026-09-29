@@ -152,6 +152,27 @@ def verify_prior(current, prior, row, previous_row):
             {**value, 'path': prior.prefix + '/manifest.json'} for key, value in expected.items()}
 
 
+def verify_outgoing_prose(context, following, row):
+    """Match a historical outgoing note to the next segment's reviewed link."""
+    if (following is None or 'prior_segment' in row or
+        not isinstance(row.get('last_source_text'), str) or not row['last_source_text'] or
+        not isinstance(row.get('next_source_text'), str) or not row['next_source_text'] or
+        type(row.get('next_pdf_page')) is not int):
+        raise ValueError('Outgoing prose continuation requires a reviewed next segment')
+    links = [r for r in following.correction.get('segment_continuations', [])
+             if r.get('kind') == 'prose' and r.get('prior_segment') == context.name and
+             r.get('prior_region') == row.get('last_region') and
+             r.get('prior_text_end') == row['last_source_text'] and
+             r.get('text_start') == row['next_source_text']]
+    if len(links) != 1:
+        raise ValueError('Outgoing prose continuation differs from incoming link')
+    regions = [r for r in following.source['regions'] if r['id'] == links[0].get('region_id')]
+    if len(regions) != 1 or regions[0]['pdf_index'] + 1 != row['next_pdf_page']:
+        raise ValueError('Outgoing prose continuation differs from next source page')
+    # The incoming-link pass below verifies both blocks' actual text and emits
+    # the single resolved boundary. Keep the outgoing declaration as provenance.
+
+
 def project_indexes(recipe, originals):
     contexts, offset = [], 0
     for spec, (source, correction) in zip(recipe['segments'], originals, strict=True):
@@ -267,6 +288,10 @@ def project_indexes(recipe, originals):
                                                     {k: deepcopy(v) for k, v in row.items() if k not in pair[0]})
         for row in original.get('segment_continuations', []):
             if row['kind'] != 'prose':
+                continue
+            if row.get('status') == 'deferred-to-next-segment':
+                following = contexts[index + 1] if index + 1 < len(contexts) else None
+                verify_outgoing_prose(context, following, row)
                 continue
             if index == 0 or row['prior_segment'] != contexts[index - 1].name:
                 raise ValueError('Prose continuation has no prior segment')

@@ -3679,3 +3679,50 @@ history remains in [PROGRESS.md](PROGRESS.md).
   eight-page article without OCR. The first segment's outgoing prose declaration
   needs explicit assembly handling instead of being interpreted as an incoming
   declaration; preserve it and validate its matching next-segment link. Step11 active.
+
+### 2026-09-30 — 11-ieee488-assemble started
+
+- Continue from8aaa347. Assemble the two immutable IEEE-488 packages across
+  PDF204–211 without OCR. Added strict matching of an outgoing prose declaration
+  to the next segment's incoming link and source page; existing incoming checks
+  verify actual text and emit one resolved boundary. Original metadata is retained.
+  Regression tests cover preserved text, mismatched page/region/text, missing or
+  duplicate links and dangling outgoing notes; focused assembly checks pass.
+
+### 2026-09-30 — 11-ieee488-assemble complete
+
+- IEEE-488버스를 이용한 시스템구성 is readable/sample-reviewed across all eight
+  pagesPDF204–211 / printed202–209. Both immutable segment packages are copied
+  unchanged; no OCR or source-page extraction.73 regions retain60 regional texts,
+  45 reading blocks, eleven numbered diagrams and two original/searchable tables.
+- Retained68 text review notes,13 figure notes and one faint Japanese reference
+  marker. Eight internal prose joins span15 boundaries. Matched the outgoing
+  PDF208 START,BUSY declaration to the incoming PDF210 논리 회로는 link across
+  diagram-onlyPDF209. Exactly one resolved boundary records the two reading blocks;
+  both original declarations remain available as historical provenance.
+- Generic assembly now recognizes explicit outgoing prose declarations and requires
+  one matching next-segment incoming link with the same prior region, text and
+  target source page. Existing incoming validation checks both actual text ends.
+  Missing/duplicate links, mismatched page/region/text and dangling declarations
+  fail validation. Two regression tests added; all55 PDF tests pass.
+- Resolved four superseded segment-scope notes and two initial mapping-review
+  uncertainties. Remaining source discrepancies, period spellings,ROW/ROR,fᵢ,
+  S₄/AHT and Japanese reference review stay visible. Original data and metadata
+  are preserved; no engineering or bibliographic rewriting.
+- Rebuild is byte-identical. All20,354 protected inputs,273 copied original files,
+  261 raw archive members, complete ordered source coverage,45 text ranges and
+  68 review ranges validate. All regional text bytes are unchanged. No listing.
+- Desktop1440×1000 and mobile360×800 reader checks pass:76 pins, all13 images,
+  complete review scope, hidden superseded notes and no overflow. Actual25,462-byte
+  article download matches. Full BI flowchart scan opens1554×3040. Desktop
+  flowchart and mobile prose/table/flowchart screenshots inspected. Onlyfavicon404;
+  browser closed. Preview http://127.0.0.1:4228/.
+- Article output283 files /72,265,637 bytes; wrapper/report/manifest287 files /
+  72,323,614 bytes. Assembly/rebuild/validation/browser work284.6s; zero new OCR
+  tasks. Saved boundary review, ledger and next-checkpoint inputs, including the
+  new55-test evidence for subsequent unchanged-tooling checks.
+- Only0043 changed. November now has31 readable/sample-reviewed articles, no
+  partial articles, four headings and12 unresolved eligibility decisions.
+  Next11-batch-41 maps 효과적 활용 소고 fromPDF212 / printed210, confirms its end
+  before 신간안내 & 서평 at printed214, and resolves parent 정보모음 ownership.
+  All47 classifications and standalone issue export/reader closeout remain required.

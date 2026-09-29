@@ -210,6 +210,55 @@ class PDFAssemblyTests(unittest.TestCase):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 project(self.recipe, segments)
 
+    def prose_segments(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.rich_segments()
+        for (source, correction), text in zip(segments, ['전송을 시', '작한다.'], strict=True):
+            source['blocks'][0].update(kind='prose', text=text)
+            source['regions'][0]['kind'] = 'prose'
+            correction['blocks'] = deepcopy(source['blocks'])
+            correction['regional_transcription'] = {'code': text}
+            start, end = block_ranges(source)['block']
+            correction['text_index'][0].update(utf8_byte_start=start, utf8_byte_end_exclusive=end)
+            for key in ('text_review_items', 'listing_index', 'listing_line_index', 'listing_anomalies'):
+                correction[key] = []
+        segments[0][1]['segment_continuations'] = [dict(kind='prose', last_region='code',
+            last_source_text='전송을 시', next_pdf_page=2, next_source_text='작한다.',
+            status='deferred-to-next-segment')]
+        segments[1][1]['segment_continuations'] = [dict(kind='prose', prior_segment='opening',
+            prior_region='code', region_id='code', prior_text_end='전송을 시',
+            text_start='작한다.', join_separator='')]
+        return segments
+
+    def test_outgoing_prose_note_matches_incoming_link_without_rewriting_originals(self):
+        segments = self.prose_segments()
+        original = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, original)
+        self.assertEqual([b['text'] for b in package['blocks']], ['전송을 시', '작한다.'])
+        self.assertEqual(correction['segment_continuations'][0],
+                         dict(source_segment='opening', original=original[0][1]['segment_continuations'][0]))
+        self.assertEqual(correction['resolved_continuations'], [dict(kind='prose',
+            status='linked-reading-blocks', prior_block_id='opening-block',
+            block_id='continuation-block', join_separator='', text_normalized=False)])
+
+    def test_outgoing_prose_requires_matching_page_link_and_actual_text(self):
+        original = self.prose_segments()
+        for change in ('page', 'region', 'outgoing-text', 'incoming-text', 'missing', 'duplicate', 'dangling'):
+            segments = deepcopy(original)
+            outgoing = segments[0][1]['segment_continuations'][0]
+            incoming = segments[1][1]['segment_continuations']
+            if change == 'page': outgoing['next_pdf_page'] = 3
+            if change == 'region': incoming[0]['region_id'] = 'missing'
+            if change == 'outgoing-text': outgoing['last_source_text'] = 'changed'
+            if change == 'incoming-text':
+                outgoing['next_source_text'] = incoming[0]['text_start'] = 'changed'
+            if change == 'missing': incoming.clear()
+            if change == 'duplicate': incoming.append(deepcopy(incoming[0]))
+            if change == 'dangling': incoming.append(deepcopy(outgoing))
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
     def unnumbered_segments(self):
         from tools.pdf_restore.assembly_indexes import block_ranges
         segments = self.rich_segments()
