@@ -2827,3 +2827,59 @@ history remains in [PROGRESS.md](PROGRESS.md).
   articles, two headings and23 unresolved eligibility decisions. Only0032 changed.
   Next:11-batch-27 maps VISICALC활용1 and checks the 비즈니스 parent heading locally.
   Step11 continues through the remaining entries and standalone issue closeout.
+
+### 2026-09-30 — 11-batch-27 started
+
+- Continue from `bddaca5` with VISICALC활용1 at PDF160 / printed158 and its
+  unresolved 비즈니스 parent heading. Inspect the article boundary locally before
+  extraction. Preserve printed spreadsheet commands, diagrams, screens and
+  source wording; establish heading/body ownership without adding a TOC body.
+
+- Scans establish complete PDF160–163 / printed158–161 coverage, ending above
+  an unrelated typesetting advertisement. PDF164 opens 메일링 프로그램. Saved
+  ownership evidence classifies the unpaginated 비즈니스 parent as a group heading.
+- Mapped38 regions including eleven original diagrams/tables/screens and seven
+  instruction regions. All extraction uses4000-pixel renders. Boxed cell locations
+  and circled RETURN/space symbols need explicit transcription conventions;
+  printed formula and instruction inconsistencies will remain scan-linked.
+
+- All38 crops inspected, including eleven images and seven instruction regions.
+  Transcribed27 text regions into25 blocks, with one prose join and one command
+  join. Six command blocks preserve62 transcript rows (one blank separator),
+  indexed individually with scan links.21 instruction notes,15 prose review
+  points and six figure notes retain printed discrepancies and notation choices.
+- No formula correction or execution. Cell boxes become brackets, circled key
+  symbols stay Ⓡ/Ⓢ, and source ellipsis marks have explicit transcription notes.
+  Printed E8×D7, four [E1]/DC locations and split label/title fragments remain.
+- All53 PDF tests pass. Rebuild is byte-identical; all11,634 protected pins, raw
+  OCR bytes, source geometry, region coverage and correction/listing ranges
+  validate. The38 completed OCR tasks /27 text outcomes resume unchanged with
+  no failures. Browser review follows before recording the article and heading.
+
+### 2026-09-30 — 11-batch-27 complete
+
+- VISICALC활용1 is readable/sample-reviewed across PDF160–163 / printed158–161.
+  Its38 regions produce25 reading blocks, eleven original diagrams/tables/screens
+  and six instruction blocks.62 unnumbered transcript rows include one blank
+  separator;21 instruction notes,15 prose review points and six figure notes
+  preserve source notation and discrepancies without formula repair or execution.
+- Confirmed 비즈니스 as a group heading with no separate body, based on TOC
+  hierarchy and independently titled/credited articles. The closing typesetting
+  advertisement is excluded. Only0033 and0034 change in the issue ledger.
+- All53 PDF tests pass. Rebuild is byte-identical; all11,634 protected pins,
+  raw OCR, source geometry, region coverage and text/listing ranges validate.
+  The38-task OCR state resumes unchanged with27 text outcomes and no failures.
+- Desktop/mobile checks pass at1440×1000 and360×800 for25 blocks, eleven images,
+  42 pins and every correction range. Five instruction blocks scroll on mobile;
+  actual formula scrolling reaches180px without page overflow. The2,593-byte
+  listing download matches; the final command scan opens at992×292. Desktop
+  October screen and mobile formula views inspected. Only favicon.ico returned404.
+  Browser closed; preview http://127.0.0.1:4210/.
+- Article output:130 files /20,608,468 bytes. Wrapper/report/manifest:134 files /
+  20,637,175 bytes. Mapping109.0s; review/build/validation574.2s includes tool waits.
+  Render/crop25.914s and OCR12.697s are processing timings, not human proofreading
+  throughput. Recipes, ownership evidence, validation, ledger and next plan saved.
+- November now has twenty-three readable/sample-reviewed articles, no partial
+  articles, three headings and21 unresolved eligibility decisions. Next:
+  11-batch-28 maps 메일링 프로그램 at PDF164 / printed162. Step11 remains active
+  through all47 classifications, eligible outcomes and standalone issue closeout.
