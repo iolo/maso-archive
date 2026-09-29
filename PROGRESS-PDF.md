@@ -2284,3 +2284,72 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Verify the ending independently of the next TOC start, preserve examples and
   illustrations, and split before exceeding six source pages. Continue updating
   this log and committing each checkpoint through Step 11 issue closeout.
+
+### 2026-09-29 — 11-batch-20 started
+
+- Continue Step 11 from commit `69e5288` with 파스칼 프로그램 1(연재),
+  `maso-1983-11-toc-0029`, opening at PDF126 / printed124. Verify its extent
+  from scans, keeping the six-source-page and six-outside-lookup limits.
+- Preserve the previous packages, source pins, printed examples and scan-linked
+  corrections. Keep manual bitmap correction deferred and ignore `tocs/`.
+  Update this log and commit this checkpoint before proceeding toward closeout.
+
+- Confirmed the six-page article ends with references at PDF131 / printed129;
+  PDF132 opens the separate editor article. All eighty regions and seven images
+  have been compared with scans. Widened25 tight crop edges in a separate final
+  map; original crops and OCR remain saved. Both OCR runs completed without
+  engine failures. Final transcription has66 reading blocks,20 distinct code
+  examples/templates and134 physical code lines, including two Fortran labels.
+- Added six prose joins, one cross-column program join, five formula ranges and
+  six reference ranges to corrections.json. Retained printed code, historical
+  claims and mathematical typography; no execution or semantic repair. Initial
+  build and independent rebuild succeeded. Package validation and background
+  desktop/mobile reader acceptance follow before ledger update and commit.
+
+### 2026-09-29 — 11-batch-20 complete
+
+- Restored 파스칼 프로그램 1(연재), existing TOC identity
+  `maso-1983-11-toc-0029`, across PDF126–131 / printed124–129. Display title is
+  파스칼 프로그래밍 1. Availability is `readable`, verification `sample-reviewed`;
+  exact code glyphs, spacing and executable correctness remain unverified.
+- Eighty regions yield66 reading blocks and seven original images: two facing-page
+  illustration fragments and five syntax diagrams. Twenty separately identified
+  examples/templates contain134 physical code lines in Pascal, BASIC and Fortran.
+  The two printed Fortran100 labels remain distinct from physical line ordinals.
+- corrections.json retains66 text ranges,20 code-block ranges,134 line ranges,
+  22 line notes, five prose notes, five formula ranges, six reference ranges and
+  twelve selected OCR corrections. Six prose joins and the converter's column
+  join retain original regional text. Only the read-/number joining hyphen is
+  removed across a region boundary; physical code wraps remain visible.
+- Printed END;, Single roots is, WHILE-END, reversed comment braces and the
+  value/scale explanation remain visible with review notes. Mathematical glyphs
+  and typeset formulae have readable Unicode transcriptions linked to scans.
+  Source claims, reference details and program semantics were not repaired.
+- Six source pages and one outside lookup satisfy checkpoint limits. Initial and
+  final OCR states each completed80 crop tasks/73 text outcomes without engine
+  failures or retries. Twenty-five edge revisions used a separate final map;
+  only those tasks were reprocessed. Both completed states resume unchanged.
+  Reused202 scan/OCR artifacts match;49 settings differ only in their map hash.
+- The310-file package is31,357,253 bytes and rebuilds byte-identically. All51 PDF
+  tests pass. All4,560 preserved input pins matched before ledger update. Source
+  geometry, complete regional coverage, raw archive bytes, joins and every
+  text/code/line/formula/reference range validate.
+- Background browser checks pass at1440×1000 and360×800:66 DOM blocks, seven
+  images,84 asset pins and all correction indexes. All six review scope notes
+  appear. Eleven long code containers scroll without page overflow; actual
+  converter scrolling reaches390px. Downloaded listing.txt matches3,382 bytes;
+  the final reference scan opens at897×666. Desktop diagram and mobile code
+  screenshots were inspected under output/playwright/pdf-11-batch-20/. Only
+  favicon.ico returned404. Browser closed; preview is http://127.0.0.1:4200/.
+- November now has nineteen readable/sample-reviewed articles, two group headings
+  and26 unresolved eligibility decisions. Only0029 changed. Previous packages,
+  tocs/, the owner's .gitignore edit and deferred bitmap correction remain intact.
+  This completes the Pascal checkpoint, not Step11 or the issue closeout.
+- Mapping took152.6s; review/build/validation took1210.2s including interrupted
+  turn, tool and approval waits. Final cached render/crop and OCR totals are
+  63.49s and32.90s; these are not character-perfect proofreading throughput.
+  Wrapper/report/manifest total314 files /31,417,723 bytes. Helpers, correction
+  evidence, validation, browser records and next inputs are saved privately.
+- Next:11-batch-21, 에디터를 만드는 법, observed PDF132 / printed130. Establish
+  its extent from scans and use disjoint numbered segments if longer than six
+  pages. Continue through every November entry and the separate issue closeout.

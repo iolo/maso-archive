@@ -1785,3 +1785,56 @@ and 27 unresolved eligibility decisions. Next is `11-batch-20`, 파스칼 프로
 1(연재) from PDF126 / printed124, within the six-source-page limit. Step 11 remains
 active until every TOC entry is classified, each eligible article has an outcome,
 and the standalone issue reference has been exported and inspected.
+
+## November Pascal programming checkpoint
+
+`11-batch-20` restores `maso-1983-11-toc-0029`, 파스칼 프로그램 1(연재), across
+PDF126–131 / printed124–129. The displayed title is 파스칼 프로그래밍 1.
+References end on PDF131; PDF132 opens the separate editor article. Availability
+is `readable`, verification `sample-reviewed`, with exact glyphs, code spacing
+and executable correctness explicitly unverified.
+
+Eighty regions produce66 reading blocks and seven images: two facing-page cartoon
+fragments and IF, REPEAT, WHILE, FOR and CASE syntax diagrams. Twenty independent
+examples/templates contain134 physical code lines. Each has its own listing_id;
+Fortran's two printed100 statement labels are distinguished from physical line
+ordinals. Pascal and its BASIC/Fortran comparisons remain separate examples.
+
+`corrections.json` contains66 text ranges,20 code-block ranges,134 line ranges,
+22 line review notes, five prose review items and twelve selected OCR corrections.
+Five formulae and six references have exact UTF-8 ranges and scans. Six prose
+joins and one cross-column converter join preserve regional transcriptions.
+Printed END;, Single roots is, WHILE-END, reversed comment braces, mathematical
+operators and the value/scale explanation remain reviewable. No historical,
+bibliographic or semantic correction and no program execution was performed.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-20/state-final
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-20/pascal/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-20-new/pascal
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-20-new/pascal
+python3 -m http.server 4200 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-20
+```
+
+Both initial and final OCR states completed80 crops/73 text outcomes without
+engine failures or retries and resume unchanged. Twenty-five tight crop edges
+were widened in map-final.json. Only those tasks were reprocessed. Reused202
+scan/OCR artifacts match;49 reused settings change only the package/map hash.
+Original maps, crops, OCR and the final evidence export remain saved.
+
+The310-file package is31,357,253 bytes and rebuilds identically. All51 PDF tests
+pass;4,560 preserved input pins matched before ledger update. Validation covers
+all regions, source geometry, raw archive bytes, joins and every correction range.
+Desktop/mobile checks validate66 DOM blocks, seven images,84 asset pins and all
+six visible scope notes. Eleven long code containers scroll without page overflow;
+actual horizontal scrolling reaches390px. The actual3,382-byte listing download
+matches and the final reference scan opens at897×666. Only favicon.ico returned404.
+Preview: `http://127.0.0.1:4200/`.
+
+November now records nineteen readable/sample-reviewed articles, two group
+headings and26 unresolved eligibility decisions. Next is `11-batch-21`, 에디터를
+만드는 법, observed PDF132 / printed130. Verify its extent from scans and split
+before exceeding six source pages. Step11 still requires complete TOC accounting,
+outcomes for every eligible article and the staged standalone issue reference.

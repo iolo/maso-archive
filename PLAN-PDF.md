@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–19, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 영어학습용 프로그래밍 is readable across PDF121–125 / printed119–123, including 201 main BASIC rows, an independent inline example, twenty DATA rows and nine character definitions. Next: 11-batch-20, 파스칼 프로그램 1(연재) at observed PDF126 / printed124, within the six-source-page limit. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–20, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 파스칼 프로그램 1(연재) is readable across PDF126–131 / printed124–129, including twenty code examples/templates, seven images, five formulae and six references. Next: 11-batch-21, 에디터를 만드는 법 at observed PDF132 / printed130; use disjoint numbered segments if it exceeds six source pages. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
