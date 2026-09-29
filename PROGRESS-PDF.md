@@ -2939,3 +2939,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   partial article, three headings and20 unresolved eligibility decisions.
   Next11-batch-29 restores the final two pages170–171 with incoming7260, followed
   by a separate immutable assembly. Step11 and standalone issue closeout remain.
+
+### 2026-09-30 — 11-batch-29 started
+
+- Continue from `5bbac2d` with the final two mailing-program listing pages,
+  PDF170–171 / printed168–169. Lookup scans confirm incoming7260 and final50260;
+  PDF172 opens UNIX1. Map two full-page code crops at6000 pixels, excluding
+  running titles. Preserve prior segment and continuation evidence for assembly.
+
+- Both crops inspected in six overlapping enlarged slices. Two code blocks index
+  100 newly numbered lines plus incoming7260, covering136 physical rows.47 review
+  notes retain printed gaps, OPEN "P", CLOSE : END and faint control-code values.
+  Eleven rows contain twenty split-glyph and one unreadable marker. The carried
+  fragment pins the preceding segment's exact bytes, manifest and scan evidence.
+- Rebuild is byte-identical; all12,293 protected input pins, raw archive members,
+  geometry, every listing/text range and prior continuation references validate.
+  Two OCR tasks/outcomes resume unchanged without failures. Generic tooling is
+  unchanged since batch28's53-test pass. Browser checks precede segment closeout.
+
+### 2026-09-30 — 11-batch-29 complete
+
+- Final mailing-program segment is partial/sample-reviewed across PDF170–171 /
+  printed168–169. Two code blocks index100 newly numbered lines plus incoming7260
+  over136 physical rows.47 listing notes retain printed source quirks and gaps;
+  eleven rows contain twenty split-glyph and one unreadable marker. Final50260
+  and the following UNIX1 boundary are verified. No execution or semantic repair.
+- Both immutable segments now cover all eight article pages; separate assembly
+  remains. The incoming7260 row pins the first segment's manifest, listing,
+  corrections and exact prior byte/scan ranges. Original packages remain intact.
+- Rebuild is byte-identical; all12,293 protected pins, raw archives, source
+  geometry and indexed ranges validate. Two OCR outcomes resume unchanged with
+  no failures/retries. Tooling remains unchanged since batch28's53-test pass.
+- Desktop/mobile checks pass at1440×1000 and360×800 for both code blocks, six
+  pins and101 local line ranges. Both blocks scroll on mobile, including actual
+  180px movement without page overflow. The7,191-byte download matches, and the
+  final scan opens at3268×4675. Desktop ending and mobile incoming-fragment
+  screenshots inspected. Only favicon.ico returned404. Browser closed;
+  preview http://127.0.0.1:4212/.
+- Article output:19 files /23,855,469 bytes. Wrapper/report/manifest:23 files /
+  23,865,708 bytes. Mapping51.3s; review/build/validation636.8s includes tool waits.
+  Render/crop24.464s; OCR9.479s. Saved segment manifests, correction metadata,
+  validation, ledger snapshot and next assembly inputs.
+- Counts remain23 readable articles, one partial article, three headings and20
+  unresolved eligibility decisions. Next11-mailing-assemble must preserve387
+  logical BASIC lines, all correction notes and both originals, then continue
+  with UNIX from PDF172. Step11 issue accounting and standalone closeout remain.
