@@ -2051,3 +2051,85 @@ history remains in [PROGRESS.md](PROGRESS.md).
   ending and preserve its table, inline examples and full listing distinctly.
   Split before exceeding six source pages; retain six outside lookups and one
   engine retry per failed region. Update this log and commit separately.
+
+### 2026-09-29 — 11-batch-17 started
+
+- Previous checkpoint committed as `29f679b`. Continue with 1차방정식,
+  `maso-1983-11-toc-0026`, from observed PDF111 / printed109. Establish the
+  actual ending and use a numbered segment if it exceeds six source pages.
+- Preserve the terminology table, prose, inline examples and full listing with
+  distinct correction identities. Retain six outside lookups and one OCR retry
+  per failed region; update the ledger, validate the preview and commit. Ignore
+  `tocs/`, retain the owner's `.gitignore` edit and defer submarine bitmap work.
+
+- Established five-page coverage, PDF111–115 / printed109–113. The listing ends
+  on PDF114, while figure3 continues through both columns of PDF115. PDF116 is
+  an advertisement; a separate handoff lookup confirms the next article at PDF118.
+- Thirty-one regions preserve21 reading blocks, eight code blocks and six images.
+  The main listing has 184 numbered rows plus two separately identified inline 348
+  examples. The 186 indexed rows occupy 334 physical lines; 113 rows wrap, including
+  cross-column264 and 418. Fifteen table pairs, five prose review items, 129 line
+  review notes and fourteen selected corrections are recorded.
+- Widened four listing crops during review; retained initial, reviewed and final
+  maps/evidence. Only affected regions were reprocessed, with zero engine failures
+  or retries. All 51 PDF tests pass, the rebuild is byte-identical and2,824 prior
+  file pins match. Browser checks and issue accounting are in progress.
+
+### 2026-09-29 — 11-batch-17 complete
+
+- Restored 1차방정식, `maso-1983-11-toc-0026`, across PDF111–115 /
+  printed109–113 as readable/sample-reviewed. The BASIC listing ends with
+  436 RETURN on PDF114, but figure3's output continues through both columns
+  of PDF115. PDF116 is an unrelated advertisement. A second outside lookup
+  confirms 마이크로 컴퓨터 시스템입문 at PDF118 / printed116; PDF117 was
+  not inspected or assigned to either article.
+- Thirty-one regions yield 21 reading blocks, eight code blocks and six images:
+  the displayed equation, terminology table, problem-selection screen and three
+  consecutive output frames. Original output images preserve the printed numbers
+  and mathematical results without recalculation or transcription as BASIC.
+- The main program has 184 numbered rows, with two independently identified
+  inline 348 examples. The 186 indexed rows occupy 334 physical code lines; 113 rows
+  wrap. Lines 264 and 418 continue across columns, with exact ranges and both scan
+  fragments in each line record. No line number or code character is inserted at
+  the boundary. The inline examples' AND text is separated from Korean connecting
+  prose while preserving the original mixed regions.
+- `corrections.json` retains 21 text ranges, eight code-block ranges, 186 line
+  ranges, 129 line review notes, five prose review items and fourteen selected OCR
+  corrections. Fifteen `table_rows` records link English/Korean pairs to exact
+  text ranges and the original table. Printed PERPENCULAR, line 144's 60,
+  line 384's U8 and omitted quotes remain as read. Exact spaces, repeated equals,
+  faint glyphs and executable correctness remain unverified; no semantic repair.
+- Five source pages and two outside lookups stay within the limits. The initial
+  31 crop tasks yielded 25 text OCR outcomes without engine failures or retries.
+  Review widened the lower edges of r24/r25 and the side edges of r26/r27 to
+  retain complete boundary rows. Two mapping revisions reprocessed only these
+  four regions; unchanged OCR/scan bytes match. Initial, reviewed and final
+  evidence exports remain saved. Final inputs use `map-final.json` and
+  `state-final/`; all three completed states resume unchanged.
+- The package contains 117 files / 28,689,965 bytes and rebuilds byte-identically.
+  All 51 focused PDF tests pass; all 2,824 preserved input pins matched before the
+  ledger update. Every region, source transform, raw archive entry, text/code
+  range, table pair, mixed inline split and cross-column continuation validates.
+  No extraction or reader implementation changes were needed.
+- Background Playwright checks pass at 1440×1000 and 360×800: all 21 DOM blocks,
+  six figures, 35 asset pins, 186 line ranges, fifteen table ranges and both column
+  continuations. All eight code containers scroll without page overflow. Actual
+  wrapper navigation, listing download and final scan clicks pass; the 7,997-byte
+  download matches exactly and the last output scan loads at 1129×3460. Inspected
+  desktop table and mobile continuation screenshots under
+  `output/playwright/pdf-11-batch-17/`. All review notes are visible. Only
+  favicon.ico returned 404. Browser closed; preview remains at
+  `http://127.0.0.1:4197/`.
+- November now has sixteen readable/sample-reviewed articles, two group headings
+  and 29 unresolved eligibility decisions. Only this article's ledger entry changed.
+  Earlier packages, deferred submarine bitmap work, `tocs/` and the owner's
+  `.gitignore` change remain untouched. No issue closeout; stall count 0.
+- Mapping took 116.3 seconds; review/build/validation took 1183.7 seconds including
+  tool waits. Final cached render/crop and OCR totals were 33.17s and 16.19s. These
+  timings do not establish character-perfect proofreading throughput. Wrapper,
+  report and manifest total 121 files / 28,717,853 bytes. Closeout, validation,
+  browser records, ledger snapshots and next-checkpoint inputs are saved privately.
+- Next: `11-batch-18`, 마이크로 컴퓨터 시스템입문 at PDF118 / printed116.
+  Establish its ending, preserve the opening photograph and column order, and
+  split before exceeding six source pages. Retain six outside lookups and one
+  engine retry per failed region; update this log and commit separately.

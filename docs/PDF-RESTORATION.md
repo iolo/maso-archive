@@ -1624,3 +1624,58 @@ November now records fifteen readable/sample-reviewed articles, two group
 headings and 30 unresolved eligibility decisions. Next is `11-batch-17`,
 1차방정식 from PDF111 / printed109, within the existing six-source-page ceiling.
 This checkpoint does not close the issue or perform deferred bitmap correction.
+
+## Step 11 batch 17: 1차방정식
+
+`11-batch-17` restores `maso-1983-11-toc-0026` across PDF111–115 / printed109–113.
+Its listing ends on PDF114, while figure3 continues through both columns of
+PDF115. PDF116 is an unrelated advertisement. A handoff lookup confirms the next
+article at PDF118 / printed116; PDF117 remains uninspected here.
+
+The 31 regions yield 21 reading blocks, eight code blocks and six images. These
+include the original equation, terminology table, problem-selection screen and
+three consecutive output frames. The table also has fifteen accessible English/
+Korean pairs. Output frames remain original images; their mathematical results
+were not recalculated or mixed into source code.
+
+There are 184 main-program rows and two separately identified inline 348 examples,
+occupying 334 physical lines. All 113 wrapped rows retain their breaks. Lines 264
+and 418 each have two scan-backed segments in `listing_line_index`; their byte
+ranges cover the column continuation without adding a repeated number. The two
+inline examples and main program have three independent `listing_id` values.
+`mixed_inline_regions` retains the boundary between the examples' AND text and
+Korean connecting prose. `table_rows` indexes all fifteen term pairs, preserving
+the printed PERPENCULAR spelling. The correction record also holds 129 line notes,
+five prose review items and fourteen selected OCR corrections. Exact spaces,
+repeated equals, faint glyphs, line 144's 60 and line 384's U8 remain review items.
+No program execution or semantic repair was performed.
+
+```sh
+make resume-pdf-batch PDF_BATCH_STATE=private/pdf-restoration/11-batch-17/state-final
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-17/equation/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-17-new/equation
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-17-new/equation
+python3 -m http.server 4197 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-17
+```
+
+Final mapping uses `map-final.json`. Two crop revisions widened four listing
+regions to preserve complete edge rows; only those regions were reprocessed.
+All 31 tasks and 25 text outcomes completed with no engine failures or retries.
+Initial, reviewed and final evidence exports remain under `build/pdf-restoration/`
+as `11-batch-17-evidence`, `11-batch-17-evidence-reviewed` and
+`11-batch-17-evidence-final`. All completed states resume unchanged; unaffected
+raw OCR, position and scan bytes match.
+
+The 117-file package is 28,689,965 bytes and rebuilds identically. All 51 PDF tests
+pass; the 2,824 preserved pins matched before the ledger update. Desktop/mobile
+checks validate all content, six figures, 35 asset pins, text/line/table ranges,
+column continuations and review notes. All eight code containers scroll without
+page overflow. The actual 7,997-byte listing download matches, and the final scan
+opens at 1129×3460. Only favicon.ico returned 404. Preview: `http://127.0.0.1:4197/`.
+
+November now records sixteen readable/sample-reviewed articles, two group
+headings and 29 unresolved eligibility decisions. Next is `11-batch-18`,
+마이크로 컴퓨터 시스템입문 from PDF118 / printed116, within the six-page limit.
+This is an article checkpoint, not issue closeout or deferred bitmap correction.
