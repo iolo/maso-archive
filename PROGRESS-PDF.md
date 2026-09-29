@@ -3172,3 +3172,54 @@ history remains in [PROGRESS.md](PROGRESS.md).
   partial articles, three headings and19 unresolved eligibility decisions.
   Next11-batch-32 maps 마이티용 순서배열 프로그램 from PDF179 / printed177.
   Step11 remains active through remaining classifications, outcomes and closeout.
+
+### 2026-09-30 — 11-batch-32 started
+
+- Continue from0976743 with 마이티용 순서배열 프로그램, TOC0037. Local scans
+  confirm two article pages PDF179–180 / printed177–178; PDF181 starts 프로그램
+  제너레이터. Mapped19 regions including three BASIC listings, three sample
+  outputs, the original photo and insertion-sort diagram.
+- Preserve printed program2/3 caption/type discrepancies and all source code
+  without execution. Trace first-column FLAG wrap and the 삽입법/이 끝난다.
+  continuation across the second page's diagram/listing placement.
+
+- All19 crops inspected, including every listing/output and both figures. Three
+  clipped/tight edges widened and reinspected;16 unchanged tasks reused cache.
+  Initial maps/extractions preserved; all19 tasks complete without failures.
+- Complete article builds with14 reading blocks, six code/output blocks and two
+  figures. Indexes distinguish89 numbered BASIC lines from26 sample-output rows
+  across118 physical rows.28 listing notes, ten prose notes and two figure notes
+  preserve type/caption mismatches, ELVIES, wraps and provisional punctuation.
+
+### 2026-09-30 — 11-batch-32 complete
+
+- Complete 마이티용 순서배열 프로그램 is readable/sample-reviewed across
+  PDF179–180 / printed177–178. Nineteen regions produce14 blocks, six code/output
+  blocks and two original figures. Three BASIC programs have89 numbered rows;
+  three samples have26 unnumbered output rows,118 physical rows total.
+- Twenty-eight listing notes, ten prose notes and two figure notes retain the
+  program2/3 string/numeric caption mismatch, printed THEN/GOTO distinctions,
+  ELVIES, wrapped ELSE lines, blank rows and a provisional comma-like mark after
+  program1's260. Three prose joins retain column/page continuity. No execution
+  or semantic repair; source wording and examples remain available for review.
+- Three crop edges repaired and reinspected;16 unchanged regions match originals
+  and used cache. Initial/final19-task states resume unchanged with17 text OCR
+  outcomes and no failures/retries. An early export was correctly rejected by
+  the live OCR lock; no artifact was created, and export succeeded after completion.
+- Rebuild is byte-identical; all13,911 protected pins,71 raw archive members,
+  geometry, text ranges and all115 indexed listing/output rows validate. Generic
+  tooling remains unchanged since batch28's successful53-test run.
+- Desktop/mobile checks pass at1440×1000 and360×800 for14 blocks, two images,
+  23 pins and all115 row ranges. Four code/output blocks scroll on mobile; actual
+  135px code scrolling verified with no page overflow. Article6,934-byte and
+  listing2,190-byte downloads match. Final output scan opens at1157×610.
+  Desktop diagram and mobile code/scroll screenshots inspected. Only favicon.ico
+  returned404. Browser closed; preview http://127.0.0.1:4217/.
+- Article output:81 files /16,232,361 bytes. Wrapper/report/manifest:85 files /
+  16,253,628 bytes. Mapping76.9s; review/build/validation750.9s includes tool waits.
+  Final cached render/crop40.132s and OCR11.322s include reused work, not only
+  repair runtime. Saved recipe, validation, ledger snapshot and next inputs.
+- Only0037 changed. November now has26 readable/sample-reviewed articles, no
+  partial articles, three headings and18 unresolved eligibility decisions.
+  Next11-batch-33 maps 프로그램 제너레이터 from PDF181 / printed179. Remaining
+  classifications, article outcomes and standalone issue closeout keep step11 active.
