@@ -1968,3 +1968,86 @@ history remains in [PROGRESS.md](PROGRESS.md).
   opening image, establish actual coverage and split before exceeding six source
   pages; do not infer extent from the next TOC entry. Retain the six-lookup and
   one-engine-retry limits, update progress and commit the checkpoint separately.
+
+### 2026-09-29 — 11-batch-16 started
+
+- MARK committed as `cdb2e4b`. Continue with 유효숫자를 18로 under
+  `maso-1983-11-toc-0025`, beginning at observed PDF89 / printed87. Establish
+  its actual ending; use a numbered segment if coverage exceeds six source pages.
+- Preserve raw OCR, literal listings and scan-linked correction records. Retain
+  the six outside lookup and one retry limits, update issue accounting, validate
+  the export and browser, and commit. Ignore `tocs/`; preserve the owner's
+  `.gitignore` change and deferred submarine bitmap correction.
+
+- Verified the complete article on PDF89–91 / printed87–89. PDF92 is an
+  unrelated submission notice; a separate handoff lookup confirms 1차방정식
+  at PDF111 / printed109. Intervening pages are not assigned to this article.
+- Sixteen regions preserve eleven reading blocks, three original annotated
+  listing frames and three code blocks. The 86 numbered rows occupy 121 physical
+  lines, including 32 wrapped rows. Fourteen margin labels have exact text ranges,
+  listing associations and bracket scans in `corrections.json`.
+- Corrected one preliminary map note after enlarged review: 10480 is present,
+  followed by10500; 10490 is absent. Geometry is unchanged and the reviewed state
+  reuses all cached results. Thirteen text OCR outcomes completed without failures
+  or retries. The package rebuild is byte-identical, all 51 PDF tests pass and
+  2,452 preserved input pins match. Browser checks and ledger closeout are underway.
+
+### 2026-09-29 — 11-batch-16 complete
+
+- Restored 유효숫자를 18로, `maso-1983-11-toc-0025`, across PDF89–91 /
+  printed87–89 as readable/sample-reviewed. The program listing runs from 10000
+  through 10850 GOTO10420. The described routines are present through 10845; PDF92
+  is an unrelated software submission notice. A second outside lookup confirms
+  the next selected article, 1차방정식, at PDF111 / printed109. The intervening
+  pages were not inspected or assigned to this article based on the TOC gap.
+- Sixteen regions yield eleven reading blocks, three code blocks and three
+  original annotated listing frames. Three prose columns join at two sentence
+  continuations. The original frames preserve the margin labels and brackets;
+  their separate code and label transcriptions intentionally overlap the images.
+- The listing contains 86 numbered rows and 121 physical lines, with 32 wrapped
+  rows. Numbers, variables, operators and quoted strings that split across physical
+  lines retain those breaks. Enlarged review confirms 10480 followed by 10500;
+  no 10490 is invented. The additional 10845 row remains in printed order. Line 10260's
+  second statement appears as SA$ and stays unchanged; no semantic repair or
+  execution was performed. Exact spacing, repeated asterisks and faint glyphs
+  remain unverified.
+- `corrections.json` retains eleven text ranges, three code-block ranges, all 86
+  line ranges, 49 line review notes, four prose review items and thirteen selected
+  OCR correction examples. Fourteen margin annotations have exact UTF-8 text
+  ranges, listing-line associations and original bracket scans. These explanatory
+  labels remain separate from program code. The printed 10430 prose reference is
+  preserved without reconciling it to a different program line.
+- Three source pages and two outside lookups stay within the limits. Sixteen
+  crop tasks and thirteen text OCR outcomes completed without failures or retries.
+  A preliminary map note wrongly named the absent number; `map-reviewed.json`
+  corrects only that note. Geometry stays identical and `state-reviewed/` reuses
+  every cached result. Initial and reviewed evidence exports remain saved; raw
+  OCR, positions and scan bytes match. The final state resumes unchanged.
+- The package contains 66 files / 24,285,466 bytes and rebuilds byte-identically.
+  All 51 focused PDF tests pass; all 2,452 preserved input pins matched before the
+  intentional ledger update. Every mapped region, text/line range, wrap, selected
+  correction, margin association, source transform and raw archive entry validates.
+  No extraction or reader implementation changes were needed.
+- Background Playwright checks pass at 1440×1000 and 360×800: eleven DOM blocks,
+  three figures, twenty asset pins, all text/line ranges and fourteen margin-label
+  ranges. The first review caught a private recipe variable shadowing the full
+  scope notes; corrected it, rebuilt and checked every note in the final DOM.
+  Actual wrapper navigation, listing download and final scan clicks pass. The
+  3,454-byte download matches exactly; the final scan loads at 1686×3276. All three
+  code containers scroll horizontally without page overflow. Inspected desktop
+  annotated-frame and mobile-code screenshots under `output/playwright/pdf-11-batch-16/`.
+  Only favicon.ico returned 404. Browser closed; preview remains at
+  `http://127.0.0.1:4196/`.
+- November now has fifteen readable/sample-reviewed articles, two group headings
+  and 30 unresolved eligibility decisions. Only this article's entry changed.
+  Prior packages, deferred submarine bitmap work, `tocs/` and the owner's
+  `.gitignore` change remain untouched. No issue closeout; stall count 0.
+- Mapping took 71.0 seconds; review/build/validation took 750.9 seconds, including
+  tool waits. Cached render/crop and OCR totals were 19.52s and 9.54s. These wall
+  timings do not measure character-perfect proofreading throughput. The wrapper,
+  report and manifest total 70 files / 24,303,358 bytes. Closeout, validation, browser
+  records, ledger snapshots and the next checkpoint plan are saved privately.
+- Next: `11-batch-17`, 1차방정식 at observed PDF111 / printed109. Establish its
+  ending and preserve its table, inline examples and full listing distinctly.
+  Split before exceeding six source pages; retain six outside lookups and one
+  engine retry per failed region. Update this log and commit separately.

@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–15, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. MARK is readable across PDF86–88 / printed84–86, with its flowchart, full listing and explicit proofreading limits. 교육입문 is recorded as a TOC grouping; the uncaptioned PDF85 photograph remains unassigned. 잠수함's manual bitmap correction remains deferred. Next: 11-batch-16, 유효숫자를 18로 at PDF89 / printed87, within the six-source-page limit. Ignore `tocs/` for now as requested**.
+Revised 2026-09-29. Status: **in progress; steps 1–10, 11-batch-01–16, 11-orientation-repair, 11-submarine-assemble and 11-library-assemble complete. 유효숫자를 18로 is readable across PDF89–91 / printed87–89, preserving its annotated listing, physical wraps and explicit proofreading limits. Next: 11-batch-17, 1차방정식 at observed PDF111 / printed109, within the six-source-page limit. Intervening pages are not assigned to the completed article. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

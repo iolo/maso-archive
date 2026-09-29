@@ -1569,3 +1569,58 @@ and 31 unresolved eligibility decisions. Only MARK and its education grouping
 changed. Next is `11-batch-16`, 유효숫자를 18로 from PDF89 / printed87. Establish
 its actual ending and split before exceeding six source pages; the next TOC start
 is not proof of extent. Ignore `tocs/`; deferred submarine bitmap work is unchanged.
+
+## Step 11 batch 16: 유효숫자를 18로
+
+`11-batch-16` restores `maso-1983-11-toc-0025` across PDF89–91 / printed87–89.
+PDF92 is a separate software submission notice. Another bounded lookup confirms
+1차방정식 at PDF111 / printed109; the intervening pages were not assigned to this
+article. The education parent remains a grouping, without a duplicate body.
+
+Sixteen regions produce eleven reading blocks, three code blocks and three
+original annotated frames. The three-column explanation has two sentence joins.
+Original listing images retain every margin label and bracket, with separate
+literal code and label transcriptions. The 86 numbered rows occupy 121 physical
+lines, including 32 wrapped rows. Numbers, strings and operators split across
+printed lines remain split. Line 10260's apparent SA$ stays as read; 10480 is
+followed by 10500, and 10845 remains between 10840 and 10850. No missing number is
+invented or historical program executed or repaired.
+
+`corrections.json` contains eleven text indexes, three listing-block indexes,
+86 line indexes, 49 line review notes, four prose review items and thirteen
+selected OCR corrections. Its fourteen `margin_annotations` records include
+exact label byte ranges in `article.txt`, associated listing-line IDs and pinned
+bracket scans. Labels are explanatory text, not inserted BASIC comments. Exact
+blank widths, repeated asterisks and faint glyphs remain manual-review work.
+
+```sh
+make resume-pdf-batch \
+  PDF_BATCH_STATE=private/pdf-restoration/11-batch-16/state-reviewed
+make build-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/11-batch-16/digits18/package-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/11-batch-16-new/digits18
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/11-batch-16-new/digits18
+python3 -m http.server 4196 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/11-batch-16
+```
+
+Final mapping uses `map-reviewed.json`; only a preliminary numbering note changed,
+with all geometry retained. The final state reuses all sixteen cached crops and
+thirteen text outcomes and resumes unchanged. There were no engine failures or
+retries. Both evidence exports remain under `build/pdf-restoration/`, with suffixes
+`11-batch-16-evidence` and `11-batch-16-evidence-reviewed`. Original raw OCR, scans
+and positions remain unchanged; settings retain their corresponding map pins.
+
+The package has 66 files / 24,285,466 bytes and a byte-identical independent rebuild.
+All 51 PDF tests pass. The 2,452 preserved input pins matched before the ledger
+update. Desktop/mobile checks cover all content, figures, twenty asset pins,
+text/line and margin ranges, scrolling, actual downloads and scan links. The
+private recipe's initial scope-note shadowing was corrected before the final
+build and browser review; every final scope note is checked in the DOM. The
+3,454-byte listing download matches exactly, and the final scan loads at 1686×3276.
+Only favicon.ico returned 404. Preview: `http://127.0.0.1:4196/`.
+
+November now records fifteen readable/sample-reviewed articles, two group
+headings and 30 unresolved eligibility decisions. Next is `11-batch-17`,
+1차방정식 from PDF111 / printed109, within the existing six-source-page ceiling.
+This checkpoint does not close the issue or perform deferred bitmap correction.
