@@ -63,41 +63,77 @@ the selected build data through its local development middleware. Set
 
 ## Add or replace cover images
 
-Put optional images in the private `covers/` directory at the repository root.
-Use one file per month, named **`masoYYMM.jpg`**, `.jpeg`, `.png` or `.webp`:
+Put donated JPEGs in the private `covers/` directory as **`YYMM.jpg`**:
 
 ```text
-covers/maso8311.jpg  → November 1983
-covers/maso9001.png  → January 1990
-covers/maso9509.png  → September 1995
+covers/8311.jpg  → November 1983
+covers/9001.jpg  → January 1990
+covers/9509.jpg  → September 1995
 ```
 
-For this archive, `YY` means `19YY`. Both the bookshelf and issue overview show
-available covers. Missing covers keep a placeholder; small or lower-quality
-images are accepted. Images retain their original bytes and proportions, with
-no cropping or upscaling of the source file. Replace a file later with a better
-copy under the same name, or remove it to return to the placeholder.
+`YY` means `19YY`; months must be 01–12. Exports select donated images first,
+then verified front-cover candidates from `private/pdf-restoration/covers/`,
+then the existing placeholder. PDF eligibility requires the pinned review,
+visible date, and candidate hash; `masoYYMM.*` filenames alone are ignored.
+PDF preparation and visual review remain a separate workflow. A corrupt donation
+fails the export instead of silently selecting a PDF image. Missing source
+folders are supported. June 1991 currently has neither source.
 
-After adding, replacing or removing covers:
+Every selected image is decoded and re-encoded as an RGB JPEG at quality 80,
+within 480 × 640 pixels, preserving proportions without cropping or upscaling.
+EXIF orientation is applied, embedded color profiles are converted to sRGB,
+and source metadata is stripped. Donated originals stay unchanged and must
+never be committed or served. Private manifests and rebuildable thumbnails
+live under ignored `build/cover-thumbnails/`; only derivatives are copied into
+`build/reading-room/data/covers/`. Content-sensitive filenames change when source
+bytes or transform settings change.
+
+After adding, replacing or removing a donation:
 
 ```sh
+make prepare-cover-thumbnails  # Optional: export also prepares all supplied dates.
 make export-reading-room
 make check-reading-room
 make build-reading-room
 ```
 
-Refresh the browser. Covers are copied into `build/reading-room/data/covers/`,
-included in the file/hash manifest and listed under `coverInputs`; `counts.covers`
-counts navigation groups with an assigned cover. A failed image load also shows
-the missing-cover placeholder. The current sample set contains eight images.
-Keep only one supported image per date; duplicate dates, malformed image names
-or corrupt files produce an export error. A missing `covers/` folder is fine.
-Images outside an export's date range are not assigned.
+Preparation validates a staged derivative set before replacing the previous one.
+CD1 and aggregate exports likewise validate staged readers before replacement.
+An export refresh clears obsolete cover assignments and removes stale assets;
+a frontend build alone does not refresh data. Dates outside the catalog are
+prepared but do not create issues. `coverInputs` describes only public derivatives;
+`counts.covers` counts assigned navigation groups and `counts.coverAssets` counts
+unique images. Failed image loads retain the placeholder.
 
-To use another source folder, pass
+Custom export paths use `READING_ROOM_ARGS`, for example
 `make export-reading-room READING_ROOM_ARGS="--covers /path/to/covers"`.
-The synthetic demo does not consume private covers. `covers/` and generated
-outputs are excluded from Git.
+Use `--pdf-cover-checkpoint` and `--cover-thumbnails` for alternative private
+checkpoint/cache directories. An absent checkpoint disables PDF fallback.
+The preparation command uses `COVER_ARGS` and calls its cache option `--thumbnails`.
+The synthetic demo never consumes private sources.
+
+Scan staging accepts `--covers` to refresh baseline covers using this same
+priority and validation. With no cover refresh requested, it preserves the
+baseline, including legacy covers; that copy is not a completed cover migration.
+The checker enforces derivative rules for `coverPolicy: thumbnail-v1` outputs;
+`--require-thumbnails` additionally rejects unmigrated baselines. Baseline integrity
+checks remain available without that option.
+
+After reader checks and browser inspection pass, retire paired legacy JPEGs:
+
+```sh
+make cleanup-legacy-covers                    # Writes build/cover-cleanup.json; no deletion.
+make cleanup-legacy-covers COVER_ARGS=--apply  # Applies the existing report after revalidation.
+```
+
+Cleanup requires exact `masoYYMM.jpg` → `YYMM.jpg` pairing, current source and
+thumbnail hashes, and a validated reader using the donation for matching dates.
+A date outside the reader catalog may use its validated prepared thumbnail.
+Changed files or validation evidence invalidate the report. Reapplying the same
+report is safe; completed deletions are logged in ignored
+`build/cover-cleanup.<report-hash>.applied.json`. Unpaired legacy JPEGs, legacy
+`.png`, `.jpeg` and `.webp` variants, donated originals, PDF candidates and review records are
+preserved. Ordinary preparation, export and checking never delete source files.
 
 For CD2/CD3, matching uses the group's displayed year/month. The same date cover
 can illustrate multiple distinct native groups; it does not verify their printed
@@ -161,8 +197,9 @@ The combined media index has 9,990 group/resource records: 6,783 from CD1,
 missing-source records). This is not a distinct-image count. CD2/CD3 contribute
 1,758 and 79 original attachment links respectively. Original bytes, including
 CAB/source files, stay unchanged. The reference-only data tree contains 44,672
-inventoried files and approximately 3.43 GB before its root manifest; the eight
-sample covers bring the file inventory to 44,680.
+inventoried files and approximately 3.43 GB before its root manifest and covers.
+The cover contribution depends on the supplied dates; inspect the current manifest
+for exact file and cover counts.
 
 For the earlier CD1-only export, run
 `PYTHONPATH=src python3 -m tools.reading_room.export --output build/reading-room-cd1/data`.

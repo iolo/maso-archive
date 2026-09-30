@@ -47,10 +47,11 @@ make demo-reading-room
 cd web && READING_ROOM_OUTPUT=build/reading-room-demo npm run preview
 ```
 
-Optional covers go in `covers/` as `masoYYMM.jpg`, `.jpeg`, `.png` or `.webp`
-(for example `maso8311.jpg`). Re-export and build to show them on the bookshelf
-and issue page. Missing covers retain placeholders; lower-quality samples are
-fine. See [adding covers](docs/READING-ROOM.md#add-or-replace-cover-images).
+Donated covers go in private `covers/` as `YYMM.jpg` (for example `8311.jpg`).
+Exports generate JPEG thumbnails bounded by 480 × 640 pixels for the bookshelf
+and issue page. Donated images take priority over verified PDF covers, then
+placeholders. Originals stay unchanged and must never be committed or served.
+See [adding covers and retiring legacy JPEGs](docs/READING-ROOM.md#add-or-replace-cover-images).
 
 ## Delivered coverage
 

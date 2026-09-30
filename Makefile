@@ -222,6 +222,13 @@ export-cd1-reference:
 check-cd1-reference:
 	PYTHONPATH=src $(PYTHON) -m tools.reference.check
 
+.PHONY: prepare-cover-thumbnails cleanup-legacy-covers
+prepare-cover-thumbnails:
+	PYTHONPATH=src $(PYTHON) -m tools.reading_room.covers prepare $(COVER_ARGS)
+
+cleanup-legacy-covers:
+	PYTHONPATH=src $(PYTHON) -m tools.reading_room.covers cleanup $(COVER_ARGS)
+
 .PHONY: export-reading-room demo-reading-room build-reading-room check-reading-room test-reading-room
 export-reading-room:
 	PYTHONPATH=src $(PYTHON) -m tools.reading_room.export --all-discs $(READING_ROOM_ARGS)
@@ -234,10 +241,10 @@ build-reading-room:
 	cd web && npm run build
 
 check-reading-room:
-	PYTHONPATH=src $(PYTHON) -m tools.reading_room.check
+	PYTHONPATH=src $(PYTHON) -m tools.reading_room.check --require-thumbnails
 
 test-reading-room:
-	PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -p test_reading_room_web_export.py -v
+	PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -p 'test_reading_room*.py' -v
 	cd web && npm test && npm run build
 
 .PHONY: inventory-cd2-sources map-cd2-candidates build-cd2-reference check-cd2-reference

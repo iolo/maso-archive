@@ -3,11 +3,12 @@ import argparse
 from collections import Counter
 import json
 from pathlib import Path
+import re
 
 from .export import digest, read, safe, text_for
 
 
-def check(root):
+def check(root, require_thumbnails=False):
     root = Path(root)
     manifest = read(root / 'manifest.json')
     if manifest.get('kind') != 'reading-room-static' or manifest.get('schemaVersion') not in (1, 2, 3):
@@ -20,6 +21,10 @@ def check(root):
         path = safe(root, row['path'])
         if path.stat().st_size != row['bytes'] or digest(path) != row['sha256']:
             raise ValueError(f'File bytes differ: {row["path"]}')
+    from .covers import POLICY, date_label, validate_thumbnail
+    strict_covers = require_thumbnails or manifest.get('coverPolicy') == POLICY
+    if require_thumbnails and manifest.get('coverPolicy') != POLICY:
+        raise ValueError('Reader has not completed thumbnail migration')
     catalog = read(root / 'catalog.json')
     if catalog.get('schemaVersion') not in (1, 2, 3):
         raise ValueError('Unsupported catalog version')
@@ -65,6 +70,28 @@ def check(root):
                 safe(root / 'source', item.get('previewPath', f'{directory}/{item["asset_name"]}')).stat()
             elif item['status'] not in ('deferred', 'missing'):
                 raise ValueError(f'Unaccounted media state: {item["resource"]}')
+    cover_paths = {i['cover']['path'] for i in issues.values() if i['cover']}
+    if strict_covers:
+        cover_rows = manifest.get('coverInputs', [])
+        if len(cover_rows) != len(cover_paths) or {r['path'] for r in cover_rows} != cover_paths:
+            raise ValueError('Cover input inventory differs')
+        actual_covers = {p.relative_to(root).as_posix() for p in (root / 'covers').rglob('*') if p.is_file()}
+        if actual_covers != cover_paths:
+            raise ValueError('Unreferenced or missing cover derivatives')
+        for row in cover_rows:
+            match = re.fullmatch(r'covers/(\d{4})-[0-9a-f]{24}-thumb\.jpg', row['path'])
+            if not match or row['filename'] != Path(row['path']).name:
+                raise ValueError('Invalid reader derivative filename')
+            date = date_label(match[1])
+            covered = [i for i in issues.values() if i['cover'] and i['cover']['path'] == row['path']]
+            if row['issueIds'] != [i['id'] for i in covered]:
+                raise ValueError('Cover issue membership differs')
+            for issue in covered:
+                if (issue['year'], issue['month']) != date or issue['cover'] != {k: row[k] for k in ('path', 'width', 'height', 'sha256')}:
+                    raise ValueError('Cover date/assignment differs')
+            path = safe(root, row['path'])
+            validate_thumbnail(path, dict(row, bytes=path.stat().st_size))
+        counts['coverAssets'] = len(cover_paths)
     for article_id, summary in articles.items():
         if memberships[article_id] != 1:
             raise ValueError(f'Article membership differs: {article_id}')
@@ -147,8 +174,9 @@ def check(root):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data', type=Path, default=Path('build/reading-room/data'))
+    parser.add_argument('--require-thumbnails', action='store_true')
     args = parser.parse_args()
-    print(json.dumps(check(args.data)))
+    print(json.dumps(check(args.data, require_thumbnails=args.require_thumbnails)))
 
 
 if __name__ == '__main__':

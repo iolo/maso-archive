@@ -8,6 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -60,7 +61,23 @@ def text_for(blocks):
     )
 
 
-def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None, covers=None):
+def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None, covers=None,
+           cover_checkpoint=None, thumbnails=None):
+    from .covers import DEFAULT_OUTPUT, separate, replace_directory
+    output = Path(output)
+    separate(output, reference, toc, covers, cover_checkpoint, thumbnails or DEFAULT_OUTPUT)
+    separate(thumbnails or DEFAULT_OUTPUT, reference, toc, covers, cover_checkpoint, output)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='.cd1-reader-', dir=output.parent) as temp:
+        staged = Path(temp) / 'data'
+        result = _export(reference, toc, staged, issue_filter, covers, cover_checkpoint, thumbnails)
+        from .check import check
+        check(staged, require_thumbnails=True)
+        replace_directory(staged, output, Path(temp) / 'previous')
+    return result
+
+
+def _export(reference, toc, output, issue_filter, covers, cover_checkpoint, thumbnails):
     reference, toc, output = map(Path, (reference, toc, output))
     manifest = read(reference / 'manifest.json')
     if manifest.get('kind') != 'cd1-readable-reference' or manifest.get('schema_version') != 1:
@@ -170,7 +187,7 @@ def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None, cover
                            'reference': article['reference'], 'status': article['status']})
     catalog = {'schemaVersion': VERSION, 'issues': issues, 'articles': articles}
     from .covers import attach_covers
-    cover_inputs = attach_covers(output, catalog, covers)
+    cover_inputs = attach_covers(output, catalog, covers, cover_checkpoint, thumbnails)
     files.append(write(output, 'catalog.json', catalog))
     files.append(write(output, 'search.json', {'schemaVersion': VERSION, 'items': search}))
     # Inventory includes every generated document plus each copied source asset.
@@ -183,9 +200,11 @@ def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None, cover
                          'articles': len(articles), 'texts': sum(a['text'] is not None for a in articles),
                          'listings': sum(a['listings'] for a in articles), 'mediaRecords': len(images)},
               'files': inventory}
-    if covers is not None:
-        result['coverInputs'] = cover_inputs
-        result['counts']['covers'] = sum(i['cover'] is not None for i in issues)
+    from .covers import POLICY
+    result['coverPolicy'] = POLICY
+    result['coverInputs'] = cover_inputs
+    result['counts']['covers'] = sum(i['cover'] is not None for i in issues)
+    result['counts']['coverAssets'] = len(cover_inputs)
     write(output, 'manifest.json', result)
     return result
 
@@ -274,7 +293,10 @@ def main():
     parser.add_argument('--output', type=Path, default=OUTPUT)
     parser.add_argument('--issue', help='Single YYYY-MM issue for a first slice')
     parser.add_argument('--demo', action='store_true', help='Generate synthetic demo without private sources')
-    parser.add_argument('--covers', type=Path, default=ROOT / 'covers', help='Optional masoYYMM cover image directory')
+    parser.add_argument('--covers', type=Path, default=ROOT / 'covers', help='Private donated YYMM.jpg directory')
+    from .covers import DEFAULT_CHECKPOINT, DEFAULT_OUTPUT
+    parser.add_argument('--pdf-cover-checkpoint', type=Path, default=DEFAULT_CHECKPOINT)
+    parser.add_argument('--cover-thumbnails', type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument('--all-discs', action='store_true', help='Aggregate completed CD1, CD2 and CD3 references')
     parser.add_argument('--cd2-reference', type=Path, default=ROOT / 'build/cd2-reference')
     parser.add_argument('--cd3-reference', type=Path, default=ROOT / 'build/cd3-reference')
@@ -287,9 +309,9 @@ def main():
         return
     if args.all_discs:
         from .aggregate import aggregate
-        result = aggregate(args.reference, args.toc, args.cd2_reference, args.cd3_reference, args.output, args.covers)
+        result = aggregate(args.reference, args.toc, args.cd2_reference, args.cd3_reference, args.output, args.covers, args.pdf_cover_checkpoint, args.cover_thumbnails)
     else:
-        result = export(args.reference, args.toc, args.output, args.issue, args.covers)
+        result = export(args.reference, args.toc, args.output, args.issue, args.covers, args.pdf_cover_checkpoint, args.cover_thumbnails)
     print(json.dumps(result['counts'], ensure_ascii=False))
 
 

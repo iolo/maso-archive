@@ -30,12 +30,12 @@ class PDFReaderTests(unittest.TestCase):
             base, scan, _ = self.fixture(root)
             covers = root / 'covers'
             covers.mkdir()
-            Image.new('RGB', (30, 40), 'green').save(covers / 'maso0001.png')
+            Image.new('RGB', (30, 40), 'green').save(covers / '0001.jpg')
             output = root / 'build/covered'
-            stage(base, scan, output, covers=covers)
+            stage(base, scan, output, covers=covers, thumbnails=root / 'thumbnails')
             self.assertEqual(check(output)['covers'], 1)
             cover = read(output / 'issues/1900-01.json')['issue']['cover']
-            self.assertEqual((output / cover['path']).read_bytes(), (covers / 'maso0001.png').read_bytes())
+            self.assertNotEqual((output / cover['path']).read_bytes(), (covers / '0001.jpg').read_bytes())
             self.assertIsNone(read(base / 'issues/1900-01.json')['issue']['cover'])
             for path in (base / 'source').rglob('*'):
                 if path.is_file():

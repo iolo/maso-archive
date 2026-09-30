@@ -2767,3 +2767,43 @@
   without horizontal overflow. No page errors occurred; the deliberately
   aborted image request produced the expected console network error. Local
   documentation links and whitespace checks pass.
+
+
+### 2026-09-30 — Donated cover thumbnail migration
+
+- Implemented `PLAN-covers.md`: donated `YYMM.jpg` images take priority over
+  reviewed PDF front-cover artifacts; unverified legacy inputs are ignored.
+  Both sources produce metadata-free RGB JPEG thumbnails bounded by 480 × 640,
+  with EXIF orientation and embedded-profile conversion, no upscaling/cropping,
+  content-sensitive names, and private source/transform provenance.
+- Preparation and CD1/aggregate export use validated staging and preserve prior
+  usable outputs on failure. All reader exports use derivatives; scan refresh
+  narrowly allows replaced/removed covers and cover fields while protecting CD
+  sources and article data. Legacy no-refresh scan baselines remain supported
+  without claiming a completed thumbnail migration.
+- Generated 145 thumbnails totaling 9,541,138 bytes (65.8 KB average) from
+  1,258,032,347 bytes of unchanged donations. The largest, February 1993, is
+  112,833 bytes due to its detailed textured artwork; visual inspection supported
+  retaining quality 80. Aggregate coverage is 149 groups sharing 145 assets;
+  all 152 groups and 3,386 articles remain. June 1991 has no eligible source.
+- Added explicit dry-run/apply cleanup with reader validation, prepared source
+  and derivative pins, legacy file identity checks, stale-report rejection and
+  per-report deletion logs. Removed exactly 20 paired legacy JPEGs, then reapplied
+  the same report safely. All 145 donations, seven legacy PNGs and private PDF
+  review/candidate files retain their pre-migration hashes.
+- Validation: `make test-reading-room` passes 40 Python and 13 Vitest tests,
+  TypeScript and production build; all 58 PDF tests pass. Full private preparation,
+  export, strict checker and build pass. Separate CD1-only export and scan refresh
+  pass; scan output contains the reviewed pilot plus unchanged CD material.
+- Chromium inspection at desktop 1440 × 1000 and mobile 390 × 844 passed for
+  bookshelf and issue covers, missing-image and forced failed-load placeholders,
+  PDF-only fallback under `/archive/`, and donation replacement of that PDF URL.
+  No horizontal overflow; cover requests use bounded derivative paths. The one
+  deliberately aborted image request produced the expected network error.
+- Updated README and `docs/READING-ROOM.md` with regeneration, priority, private
+  provenance, strict versus legacy validation and cleanup commands. Existing
+  user `.gitignore` changes are preserved; originals, derivatives, migration
+  evidence and screenshots remain untracked under ignored directories. No deployment.
+- Final post-cleanup checks pass for all four refreshed reader outputs. Rebuilding
+  fallback thumbnails from the retained checkpoint alone still yields 21 verified
+  PDF covers. Results are recorded privately in `build/cover-final-checks.json`.

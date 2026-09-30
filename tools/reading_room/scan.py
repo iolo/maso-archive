@@ -98,12 +98,15 @@ def validate_scan(root, doc, toc):
     return package
 
 
-def stage(base, package_dir, output, covers=None):
+def stage(base, package_dir, output, covers=None, cover_checkpoint=None, thumbnails=None):
     base, package_dir, output = (Path(p).resolve() for p in (base, package_dir, output))
     if output.exists() or output.is_relative_to(base) or base.is_relative_to(output):
         raise ValueError('Use a separate, fresh reader output')
     if output.is_relative_to(package_dir) or package_dir.is_relative_to(output):
         raise ValueError('Output overlaps scan input')
+    from .covers import DEFAULT_OUTPUT, POLICY, separate
+    separate(output, covers, cover_checkpoint, thumbnails or DEFAULT_OUTPUT)
+    separate(thumbnails or DEFAULT_OUTPUT, base, package_dir, covers, cover_checkpoint, output)
     from .check import check
     check(base)
     base_manifest_sha = digest(base / 'manifest.json')
@@ -168,11 +171,27 @@ def stage(base, package_dir, output, covers=None):
         write(staged, 'search.json', search)
         manifest = deepcopy(read(base / 'manifest.json'))
         cover_issue_paths = set()
-        if covers is not None:
+        removed_cover_paths = set()
+        if covers is not None or cover_checkpoint is not None:
             from .covers import attach_covers
-            manifest['coverInputs'] = attach_covers(staged, catalog, covers)
-            cover_issue_paths = {f'issues/{i.removeprefix("maso-")}.json'
-                                 for row in manifest['coverInputs'] for i in row['issueIds']}
+            old_issues = {i['id']: deepcopy(i) for i in catalog['issues']}
+            removed_cover_paths = {r['path'] for r in manifest['files'] if r['path'].startswith('covers/')}
+            manifest['coverInputs'] = attach_covers(staged, catalog, covers, cover_checkpoint, thumbnails)
+            manifest['coverPolicy'] = POLICY
+            manifest['counts']['coverAssets'] = len(manifest['coverInputs'])
+            cover_issue_paths = set()
+            for current in catalog['issues']:
+                before = old_issues[current['id']]
+                if before.get('cover') != current.get('cover'):
+                    name = f'issues/{current["id"].removeprefix("maso-")}.json'
+                    # A refresh may change only the cover field, even for issues
+                    # with no replacement. The scan issue's content was handled above.
+                    old_doc, new_doc = read(base / name), read(staged / name)
+                    if name != issue_path:
+                        old_doc['issue']['cover'] = current['cover']
+                        if old_doc != new_doc:
+                            raise ValueError('Cover refresh changed unrelated issue data')
+                    cover_issue_paths.add(name)
             manifest['counts']['covers'] = sum(i['cover'] is not None for i in catalog['issues'])
             write(staged, 'catalog.json', catalog)
         manifest.update(schemaVersion=3, baseManifestSha256=base_manifest_sha,
@@ -185,7 +204,7 @@ def stage(base, package_dir, output, covers=None):
         write(staged, 'manifest.json', manifest)
         check(staged)
         # Only these five baseline documents may differ. All CD article/source files are exact copies.
-        changed = {'catalog.json', 'manifest.json', 'search.json', issue_path, media_path} | cover_issue_paths
+        changed = {'catalog.json', 'manifest.json', 'search.json', issue_path, media_path} | cover_issue_paths | removed_cover_paths
         for record in read(base / 'manifest.json')['files']:
             if record['path'] not in changed and digest(safe(staged, record['path'])) != record['sha256']:
                 raise ValueError('Existing reader file changed during scan export')
@@ -200,9 +219,13 @@ def main():
     parser.add_argument('--base', type=Path, default=Path('build/reading-room/data'))
     parser.add_argument('--package', type=Path, default=Path('build/pdf-restoration/pilot'))
     parser.add_argument('--output', type=Path, default=Path('build/reading-room-pdf-pilot/data'))
-    parser.add_argument('--covers', type=Path, help='Include reviewed/owner covers through the existing cover adapter')
+    parser.add_argument('--covers', type=Path, help='Refresh using donated YYMM.jpg images')
+    from .covers import DEFAULT_CHECKPOINT, DEFAULT_OUTPUT
+    parser.add_argument('--pdf-cover-checkpoint', type=Path, help='Verified PDF checkpoint; defaults to the private checkpoint with --covers')
+    parser.add_argument('--cover-thumbnails', type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
-    result = stage(args.base, args.package, args.output, args.covers)
+    checkpoint = args.pdf_cover_checkpoint or (DEFAULT_CHECKPOINT if args.covers is not None else None)
+    result = stage(args.base, args.package, args.output, args.covers, checkpoint, args.cover_thumbnails)
     print(json.dumps(result['counts']))
 
 
