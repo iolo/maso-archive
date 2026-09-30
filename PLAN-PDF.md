@@ -1,6 +1,13 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-30. Status: **in progress; steps 1–10, 11-batch-01–45, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble, 11-editor-assemble, 11-graphic-assemble, 11-radar-assemble, 11-mailing-assemble, 11-unix-assemble, 11-generator-assemble, 11-robot-assemble 11-ieee488-assemble and 11-feature-assemble complete. All47 November TOC entries are classified:35 body-owning articles, five group headings and seven section references; no unresolved eligibility decisions.All35 articles are readable/sample-reviewed. The assembled feature preserves all eleven pagesPDF18–28:86 regions,46 reading blocks,13 images, seven code/table blocks,104 physical listing rows and74 text review notes. Seven child section anchors now target the one assembled parent. Next: 11-closeout standalone issue reference, full staged reader export and inspection. Step11 remains active. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-30. Status: **steps 1–11 complete.** November 1983's
+47 TOC entries are accounted for: 35 readable/sample-reviewed articles, five
+group headings and seven section references. The standalone issue reference and
+complete staged reader export passed integrity and desktop/mobile checks.
+No partial, image-only, failed or unresolved article outcomes remain for this
+issue; manual bitmap correction in 잠수함 and full proofreading remain deferred.
+Next: **12-1984-02-batch-01**, within the established two-article/six-page limits.
+Ignore `tocs/` for now as requested.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

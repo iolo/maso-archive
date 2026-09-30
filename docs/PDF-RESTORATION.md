@@ -2094,3 +2094,27 @@ last scan opens at852×208. Preview: `http://127.0.0.1:4206/`.
 November now has twenty-one readable articles, no partial articles, two headings
 and24 unresolved eligibility decisions. Next is11-batch-25 for 정보레이다 at
 PDF152 / printed150. Full issue accounting and staged inspection remain required.
+
+## Complete issue references and staged reader exports
+
+After all eligible articles have outcomes and segmented articles are assembled,
+`tools.pdf_restore.issue` validates the complete canonical TOC against the issue
+ledger. It rejects omitted entries, duplicate/unlisted bodies, unresolved
+eligibility, inconsistent outcome counts and invalid parent section anchors.
+The standalone output copies every immutable article package, adds a47-entry
+November TOC and creates reading pages using the existing preview renderer.
+Reading pages link to the issue, previous/next article, downloads and original
+scan evidence. Child section entries link to the one parent's heading anchor.
+
+```sh
+make export-pdf-issue PDF_ISSUE_ARGS="--base build/reading-room/data --ledger private/pdf-restoration/11-november/issue-progress.json --output build/pdf-restoration/11-closeout"
+make export-pdf-issue-reader PDF_ISSUE_ARGS="--base build/reading-room/data --ledger private/pdf-restoration/11-november/issue-progress.json --output build/reading-room-pdf-november/data"
+```
+
+Both commands require fresh output directories. `accounting.json` and the
+standalone manifest record separate article availability, verification, group
+heading and section-reference counts. Every original package retains its own
+manifest and correction evidence. The reader export copies the CD baseline once
+and validates all added documents and unchanged CD files before publication.
+See [the version3 contract](READING-ROOM-STATIC-V3.md#complete-scan-issues) for
+section navigation, accounting fields and staged preview commands.

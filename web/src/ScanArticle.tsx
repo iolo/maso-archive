@@ -5,6 +5,7 @@ import { type ArticleDoc, type Availability, type Block, type ScanData, type Ver
 export const availabilityLabel = (state: Availability) => ({ readable: '읽기 가능', partial: '일부 복원', 'image-only': '스캔만 있음', failed: '복원 시도 실패', unresolved: '복원 상태 미확인' })[state]
 export const verificationLabel = (state: VerificationStatus) => ({ unreviewed: '미검토', 'sample-reviewed': '범위를 정해 검토', 'fully-reviewed': '전체 검토' })[state]
 export const regionPath = (articleId: string, regionId: string) => `${articlePath(articleId)}?region=${encodeURIComponent(regionId)}`
+export const sectionPath = (articleId: string, blockId: string) => `${articlePath(articleId)}?section=${encodeURIComponent(blockId)}`
 const downloadLabel = (path: string) => ({ 'article.txt': '전체 글 · UTF-8', 'listing.txt': '코드 목록 · UTF-8', 'raw-ocr.zip': '교정 전 OCR와 스캔' })[path.split('/').pop()!] || path.split('/').pop()!
 const blockText = (block: Block) => block.paragraphs.map(p => p.runs.map(r => r.type === 'text' ? r.text : '').join('') + (p.terminated ? '\n' : '')).join('')
 
@@ -31,11 +32,24 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
   const byline = bylineBlock ? blockText(bylineBlock) : article.byline
   const [params] = useSearchParams()
   const regionId = params.get('region')
+  const sectionId = params.get('section')
+  const section = doc.blocks.find(b => b.scanBlockId === sectionId && (b.type === 'title' || b.type === 'heading'))
   const region = scan.regions.find(r => r.id === regionId)
   const focus = useRef<HTMLElement>(null)
   useEffect(() => {
     if (regionId) { focus.current?.focus(); window.scrollTo(0, 0) }
   }, [regionId])
+  useEffect(() => {
+    if (!regionId && section) {
+      const target = document.getElementById(section.id)
+      target?.focus({ preventScroll: true })
+      // Jump directly so lazy figures crossed during smooth scrolling cannot
+      // move the destination before the animation finishes.
+      target?.scrollIntoView({ block: 'start', behavior: 'instant' })
+    } else if (!regionId && sectionId) {
+      window.scrollTo(0, 0)
+    }
+  }, [regionId, sectionId, section])
   const regionLinks = (ids: string[]) => <p className="scan-links">{ids.map(id => <Link key={id} to={regionPath(article.article_id, id)}>원문 스캔 {id}</Link>)}</p>
   if (regionId) {
     const page = scan.pages.find(p => p.pdf_index === region?.pdf_index)
@@ -55,13 +69,14 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
       {article.tocEntryId && <Link to={tocPath(article.issue_id, article.tocEntryId)}>차례 항목으로</Link>}
     </div>
     <ScanReview scan={scan} />
+    {sectionId && !section && <p className="notice">요청한 절을 찾을 수 없습니다. 아래 본문과 차례를 확인하세요.</p>}
     <nav className="article-actions" aria-label="스캔 글 자료">
       {scan.downloads.map(pin => <a key={pin.path} href={sourceUrl(pin.path)} download>{downloadLabel(pin.path)}</a>)}
       {article.path && <a href={sourceUrl(article.path)} target="_blank" rel="noreferrer">독립형 복원본</a>}
       <a href="#scan-regions" onClick={e => { e.preventDefault(); document.getElementById('scan-regions')?.scrollIntoView() }}>스캔 영역 목록</a>
     </nav>
     {readable && <div className="article-body">{doc.blocks.map(block => {
-      if (block.type === 'spacing' || block.type === 'title' || block.type === 'byline') return null
+      if (block.type === 'spacing' || block.type === 'byline') return null
       if (block.scanFigureId) {
         const figure = scan.figures.find(f => f.id === block.scanFigureId)
         if (!figure) return null
@@ -72,8 +87,8 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
         </figure>
       }
       const text = blockText(block)
-      return <section key={block.id} id={block.id} className={block.preformatted ? 'code-section' : 'scan-text'} data-scan-block={block.scanBlockId}>
-        {block.preformatted ? <pre><code>{text}</code></pre> : block.type === 'heading' ? <h2>{text}</h2> : text.split('\n\n').map((p, i) => <p key={i} className="article-paragraph">{p}</p>)}
+      return <section key={block.id} id={block.id} tabIndex={-1} className={block.preformatted ? 'code-section' : 'scan-text'} data-scan-block={block.scanBlockId}>
+        {block.preformatted ? <pre><code>{text}</code></pre> : block.type === 'heading' || block.type === 'title' ? <h2>{text}</h2> : text.split('\n\n').map((p, i) => <p key={i} className="article-paragraph">{p}</p>)}
         {regionLinks(block.regionIds || [])}
       </section>
     })}</div>}

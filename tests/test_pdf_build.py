@@ -15,7 +15,7 @@ EXAMPLE = Path(__file__).resolve().parents[1] / 'examples/pdf-article.json'
 
 
 class PDFBuildTests(unittest.TestCase):
-    def fixture(self, root, with_code=True):
+    def fixture(self, root, with_code=True, first_kind='prose', toc_number='0001'):
         last_kind = 'code' if with_code else 'prose'
         base = root / 'private/pilot'
         folder = base / 'ocr'
@@ -25,6 +25,8 @@ class PDFBuildTests(unittest.TestCase):
         runtime = root / 'private/pdf-restoration/ocr-runtime'
         write_json(runtime / 'runtime.json', {'synthetic': True})
         package = json.loads(EXAMPLE.read_bytes())
+        package['id'] = 'scan-maso-1900-01-toc-' + toc_number
+        package['toc_entry_id'] = 'maso-1900-01-toc-' + toc_number
         package['source'].update(pin(root, 'source.pdf'))
         package['toc_pin'] = pin(root, 'TOC.md')
         page = dict(pdf_index=0, pdf_page=1, printed_page='2', width_pt=100, height_pt=100,
@@ -32,7 +34,7 @@ class PDFBuildTests(unittest.TestCase):
         page['pdf_to_upright_normalized'] = page_transform(page)
         package['pages'] = [page]
         package['regions'] = [dict(id=id, pdf_index=0, kind=kind, bbox=box, notes='Synthetic') for id, kind, box in
-                              [('r1', 'prose', [0, 0, .5, .4]), ('r2', 'figure', [.5, 0, 1, .4]),
+                              [('r1', first_kind, [0, 0, .5, .4]), ('r2', 'figure', [.5, 0, 1, .4]),
                                ('r3', last_kind, [0, .4, 1, .6])]]
         package['excluded_regions'] = [dict(id='ad', pdf_index=0, kind='advertisement', bbox=[0, .6, 1, 1], notes='Excluded')]
         package['mapping'] = dict(status='mapped', evidence=['Synthetic complete extent'], uncertainties=[])
@@ -41,7 +43,7 @@ class PDFBuildTests(unittest.TestCase):
         write_json(inventory / 'sources.json', {'sources': [{**package['source'], 'scope': 'toc-entries-and-cover', 'pages': [page]}]})
         (inventory / 'queue.jsonl').write_text(json.dumps(dict(toc_entry_id=package['toc_entry_id'], issue_id=package['issue_id'], source_id=package['source']['id'])) + '\n')
         results, records, images, blocks = [], [], [], []
-        for id, kind in [('r1', 'prose'), ('r2', 'figure'), ('r3', last_kind)]:
+        for id, kind in [('r1', first_kind), ('r2', 'figure'), ('r3', last_kind)]:
             Image.new('RGB', (20, 20), 'blue').save(folder / f'{id}.png')
             images.append(pin(folder, f'{id}.png'))
             raw = None

@@ -41,8 +41,8 @@ class PDFReaderTests(unittest.TestCase):
                 if path.is_file():
                     self.assertEqual(path.read_bytes(), (output / path.relative_to(base)).read_bytes())
 
-    def fixture(self, root, version=1):
-        recipe = test_pdf_build.PDFBuildTests().fixture(root)
+    def fixture(self, root, version=1, first_kind='prose'):
+        recipe = test_pdf_build.PDFBuildTests().fixture(root, first_kind=first_kind)
         scan = root / 'build/scan'
         package = build_article(recipe, scan, root)
         base = root / 'build/base'

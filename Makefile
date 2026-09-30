@@ -39,6 +39,13 @@ check-pdf-comparison:
 export-pdf-reader:
 	PYTHONPATH=src $(PYTHON) -m tools.reading_room.scan $(PDF_READER_ARGS)
 
+.PHONY: export-pdf-issue export-pdf-issue-reader
+export-pdf-issue:
+	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.issue $(PDF_ISSUE_ARGS)
+
+export-pdf-issue-reader:
+	PYTHONPATH=src $(PYTHON) -m tools.reading_room.scan_issue $(PDF_ISSUE_ARGS)
+
 PDF_BATCH_STATE ?= private/pdf-restoration/10-batch/state
 PDF_BATCH_REQUEST ?= private/pdf-restoration/10-batch/request.json
 PDF_BATCH_OUTPUT ?= build/pdf-restoration/10-batch

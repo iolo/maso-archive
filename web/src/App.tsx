@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight, BookOpen, ChevronDown, ExternalLink, Menu, Moon,
 import { Button } from '@/components/ui/button'
 import { type ArticleDoc, type ArticleSummary, type Block, type Catalog, type IssueDoc, type IssueSummary, type Media, type MediaDoc, type Run, type SearchDoc, type TocEntry, articlePath, dataUrl, dateOf, issuePath, load, mediaPath, mediaUrl, search, sourceUrl, tocPath } from './data'
 
-import { ScanArticle, availabilityLabel } from './ScanArticle'
+import { ScanArticle, availabilityLabel, sectionPath, verificationLabel } from './ScanArticle'
 
 type Theme = 'system' | 'light' | 'dark'
 
@@ -115,15 +115,21 @@ function IssueOverview({ issue }: { issue: IssueDoc }) {
   return <div className="page-content"><div className="page-heading"><p className="eyebrow">{issue.issue.label} · 월간 마이크로소프트웨어</p><h1>{issue.issue.nativeGroup ? issue.issue.label : `${issue.issue.year}년 ${issue.issue.month}월호`}</h1><p>차례 {issue.issue.tocCount}항목 · 읽기 자료 {issue.issue.textCount}편</p></div>
     {issue.issue.nativeGroup && <p className="notice">CD의 날짜 표기로 묶었습니다. 발행호 확인 전이며 도서관 차례 연결은 없습니다.</p>}
     <IssueCover issue={issue.issue} />
-    <section className="article-index"><h2>읽기 자료</h2>{issue.articles.length ? <ul>{issue.articles.map(article => <li key={article.article_id}><Link to={articlePath(article.article_id)}>{article.title}</Link><span>{article.sourceKind === 'scan' && article.availability ? availabilityLabel(article.availability) : statusLabel(article.status)}</span></li>)}</ul> : <p>이 호의 읽기 본문은 준비되지 않았습니다. 왼쪽 차례의 제목은 볼 수 있습니다.</p>}</section>
+    {issue.scanRestoration && <section aria-label="호 복원 및 검토 상태"><h2>호 복원 기록</h2>
+      <p>본문 {issue.scanRestoration.counts.classified_articles}편 · 묶음 제목 {issue.scanRestoration.counts.group_headings} · 절 참조 {issue.scanRestoration.counts.section_references} · 분류 미해결 {issue.scanRestoration.counts.unresolved_eligibility}</p>
+      <p>복원: {Object.entries(issue.scanRestoration.counts.restoration_availability).map(([state, count]) => `${availabilityLabel(state as Parameters<typeof availabilityLabel>[0])} ${count}`).join(' · ')}</p>
+      <p>검토: {Object.entries(issue.scanRestoration.counts.verification).map(([state, count]) => `${verificationLabel(state as Parameters<typeof verificationLabel>[0])} ${count}`).join(' · ')}</p>
+      <p>판독 불확실성과 수동 비트맵 교정 대기는 각 글의 교정 기록에 남아 있습니다.</p>
+    </section>}
+    <section className="article-index"><h2>읽기 자료</h2>{issue.articles.length ? <ul>{issue.articles.map(article => <li key={article.article_id}><Link to={articlePath(article.article_id)}>{article.title}</Link><span>{article.sourceKind === 'scan' && article.availability ? availabilityLabel(article.availability) : statusLabel(article.status)}{article.verification && ` · ${verificationLabel(article.verification)}`}</span></li>)}</ul> : <p>이 호의 읽기 본문은 준비되지 않았습니다. 왼쪽 차례의 제목은 볼 수 있습니다.</p>}</section>
   </div>
 }
 
-function TocDetail({ issue, id }: { issue: IssueDoc; id: string }) {
+export function TocDetail({ issue, id }: { issue: IssueDoc; id: string }) {
   const entry = issue.toc.find(e => e.id === id)
   if (!entry) return <NotFound />
   return <div className="page-content"><p className="eyebrow">{issue.issue.label} · 차례 항목</p><h1>{entry.title}</h1><p className="metadata">{entry.page !== null && `${entry.page}쪽`}{entry.byline && ` · ${entry.byline}`}</p>
-    {entry.articleIds.length ? <><h2>연결된 읽기 자료</h2><ul>{entry.articleIds.map(id => { const article = issue.articles.find(a => a.article_id === id); return article && <li key={id}><Link to={articlePath(id)}>{article.title} <ArrowRight size={16} /></Link></li> })}</ul></> : <p className="notice">이 차례 항목에 확인된 읽기 자료 연결이 없습니다. 차례만으로 원문 부재를 단정할 수 없습니다.</p>}
+    {entry.sectionRef ? <><p>이 항목은 아래 글 안의 절입니다.</p><Link to={sectionPath(entry.sectionRef.articleId, entry.sectionRef.blockId)}>{entry.title} 본문으로 <ArrowRight size={16} /></Link></> : entry.restorationKind === 'group-heading' ? <><p>여러 글을 묶는 차례 제목입니다.</p><ul>{issue.toc.filter(t => t.parentId === entry.id).map(t => <li key={t.id}><Link to={tocPath(issue.issue.id, t.id)}>{t.title}</Link></li>)}</ul></> : entry.articleIds.length ? <><h2>연결된 읽기 자료</h2><ul>{entry.articleIds.map(id => { const article = issue.articles.find(a => a.article_id === id); return article && <li key={id}><Link to={articlePath(id)}>{article.title} <ArrowRight size={16} /></Link></li> })}</ul></> : <p className="notice">이 차례 항목에 확인된 읽기 자료 연결이 없습니다. 차례만으로 원문 부재를 단정할 수 없습니다.</p>}
     <p className="source-note">자료마다 출처와 검토 범위가 다릅니다. 연결된 글에서 확인 상태를 확인하세요.</p></div>
 }
 
@@ -219,7 +225,12 @@ function RoutedPage({ catalog }: { catalog: Catalog }) {
   const media = useDocument<MediaDoc>(params.resource && issueId ? `media/${dateOf(issueId)}.json` : null)
   const location = useLocation()
   const focus = useRef<HTMLElement>(null)
-  useEffect(() => { focus.current?.focus(); window.scrollTo(0, 0) }, [location.pathname])
+  useEffect(() => {
+    if (!new URLSearchParams(location.search).has('section')) {
+      focus.current?.focus()
+      window.scrollTo(0, 0)
+    }
+  }, [location.pathname, location.search])
   if (params.articleId && !issueId) return <NotFound />
   if (issueId && !catalog.issues.some(i => i.id === issueId)) return <NotFound />
   return <div className={'workspace' + (!issueId ? ' no-issue' : '')}>

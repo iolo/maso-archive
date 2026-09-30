@@ -1,12 +1,41 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { MemoryRouter } from 'react-router-dom'
-import { ScanArticle } from './ScanArticle'
+import { ScanArticle, sectionPath } from './ScanArticle'
+import { TocDetail } from './App'
+import type { IssueDoc } from './data'
 import { scanFixture } from './scan-fixtures'
 
 const render = (state: Parameters<typeof scanFixture>[0], route = '/') => renderToStaticMarkup(<MemoryRouter initialEntries={[route]}><ScanArticle doc={scanFixture(state)} /></MemoryRouter>)
 describe('scan reading and evidence states', () => {
   afterEach(() => vi.unstubAllGlobals())
+  it('retains internal titles as section targets and reports unknown targets', () => {
+    vi.stubGlobal('document', { baseURI: 'http://localhost/archive/' })
+    const doc = scanFixture('readable')
+    doc.blocks.unshift({ id: 'internal-title', scanBlockId: 'section-2', type: 'title', preformatted: false,
+      paragraphs: [{ id: 'heading', terminated: false, runs: [{ type: 'text', text: '2. Internal heading' }] }] })
+    const html = renderToStaticMarkup(<MemoryRouter initialEntries={['/?section=section-2']}><ScanArticle doc={doc} /></MemoryRouter>)
+    expect(html).toContain('id="internal-title" tabindex="-1"')
+    expect(html).toContain('<h2>2. Internal heading</h2>')
+    expect(html).not.toContain('요청한 절을 찾을 수 없습니다')
+    expect(render('readable', '/?section=unknown')).toContain('요청한 절을 찾을 수 없습니다')
+  })
+  it('links section entries to one parent body and treats group headings as groups', () => {
+    const article = scanFixture('readable').article
+    const issue: IssueDoc = { schemaVersion: 3, issue: { id: article.issue_id, year: 1900, month: 1, label: 'Synthetic', articleCount: 1, textCount: 1, tocCount: 3, cover: null },
+      articles: [article], toc: [
+        { id: 'group', parentId: null, depth: 0, title: 'Group', byline: null, page: null, kind: 'heading', articleIds: [], restorationKind: 'group-heading' },
+        { id: 'parent', parentId: 'group', depth: 1, title: 'Parent', byline: null, page: 1, kind: 'article', articleIds: [article.article_id], restorationKind: 'article' },
+        { id: 'child', parentId: 'parent', depth: 2, title: 'Internal section', byline: null, page: null, kind: 'subtopic', articleIds: [article.article_id], restorationKind: 'section-reference', sectionRef: { articleId: article.article_id, blockId: 'section-2' } },
+      ] }
+    const html = renderToStaticMarkup(<MemoryRouter><TocDetail issue={issue} id="child" /></MemoryRouter>)
+    expect(html).toContain(sectionPath(article.article_id, 'section-2'))
+    expect(html).toContain('이 항목은 아래 글 안의 절입니다')
+    const group = renderToStaticMarkup(<MemoryRouter><TocDetail issue={issue} id="group" /></MemoryRouter>)
+    expect(group).toContain('여러 글을 묶는 차례 제목')
+    expect(group).toContain('Parent')
+    expect(group).not.toContain('읽기 자료 연결이 없습니다')
+  })
   it('shows the printed byline even when the TOC author omits its role', () => {
     vi.stubGlobal('document', { baseURI: 'http://localhost/archive/' })
     const doc = scanFixture('readable')

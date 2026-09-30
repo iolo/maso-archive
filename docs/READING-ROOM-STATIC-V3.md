@@ -99,3 +99,35 @@ acceptance in `build/reading-room-pdf-ui/`. Its optional `--covers covers` adapt
 argument includes available extracted covers through the existing presentation.
 The original step 8 data export remains intact. See
 [PDF restoration](PDF-RESTORATION.md) for build/preview commands and scope.
+
+## Complete scan issues
+
+`tools.reading_room.scan_issue` stages all body-owning packages from a reconciled
+issue ledger in one transaction. It requires a fresh output and an issue with
+no pre-existing reading links; it never silently replaces a CD match. The
+canonical TOC order, titles and parent IDs must match the complete ledger.
+Group headings own no body. A section reference points to one parent article
+and a verified title block on its recorded source page.
+
+The issue document adds `scanRestoration` with all TOC classifications and
+separate availability, verification and unresolved-eligibility counts. TOC rows
+add `restorationKind`; section rows also have `sectionRef: {articleId, blockId}`.
+The manifest's `scanIssues` pins the accounting document and input ledger hash.
+The checker verifies these records against the copied packages and rejects
+broken ownership, non-heading section targets and inconsistent search links.
+
+The reader displays internal title blocks and opens section links with
+`?section=<scanBlockId>`, focusing and scrolling to the heading. Group headings
+link to their child TOC entries. These fields are optional for older exports.
+
+```sh
+make export-pdf-issue-reader PDF_ISSUE_ARGS="--base build/reading-room/data --ledger private/pdf-restoration/11-november/issue-progress.json --output build/reading-room-pdf-november/data"
+PYTHONPATH=src python3 -m tools.reading_room.check --data build/reading-room-pdf-november/data
+cd web
+READING_ROOM_OUTPUT=build/reading-room-pdf-november READING_ROOM_BASE=/archive/ npm run build
+READING_ROOM_OUTPUT=build/reading-room-pdf-november READING_ROOM_BASE=/archive/ npm run preview -- --port 4236
+```
+
+The production baseline remains unchanged. Availability remains independent of
+review status, including when an article has complete page coverage but pending
+manual character/bitmap corrections.

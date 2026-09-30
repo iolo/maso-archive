@@ -3997,3 +3997,77 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next11-closeout must generate the standalone issue reference and export and
   inspect all November content in the staged reader. This accounting milestone
   does not finish step11. Deferred manual bitmap correction stays visible.
+
+### 2026-09-30 — 11-closeout started
+
+- Continue from4ff1ad6. Pin all35 final article packages and the existing CD
+  reader baseline; no new extraction/OCR. Deliver a portable47-entry issue
+  reference and staged reader export with35 unique bodies, five group headings
+  and seven section links; verify downloads, scans, statuses and navigation.
+- Reader adapter currently stages one scan package and hides every title block.
+  Extend issue staging and retain internal headings so section references reach
+  real visible targets. Preserve baseline CD records and original article bytes.
+- Canonical check confirms maze is0012;0011 is the 취미생활 group heading. A
+  batch45 next-plan following-article hint used0011; correct this advisory hint
+  in closeout evidence. The immutable packages and authoritative ledger already
+  use0012 correctly; printed/PDF boundary remains28/30.
+
+- Implemented complete-issue reference and single-transaction reader staging;
+  original article packages and baseline CD files remain independent copies.
+  Reader now shows internal title blocks, targets section links, presents group
+  headings and separates issue availability/review counts.58 PDF tests, eight
+  reader-export tests,13 frontend tests and production build passed.
+- Real standalone reference and staged reader exports completed. November has35
+  bodies and all47 TOC entries; staged reader totals3,421 articles with original
+  CD entries preserved. Full static reader integrity check passed during export.
+  Standalone link/preservation validation and browser acceptance underway.
+
+### 2026-09-30 — 11-closeout complete; step 11 complete
+
+- All 47 canonical November TOC entries reconcile: **35 body-owning articles,
+  five group headings and seven section references**. All 35 articles are
+  readable/sample-reviewed; partial, image-only, failed, unresolved and
+  unresolved eligibility counts are zero. No unlisted article or duplicate body.
+- Delivered portable issue reference at `build/pdf-restoration/11-closeout`
+  with 36 HTML pages, 3,395 checked local links and 112 fragment targets.
+  Its 4,990 files total 1,566,812,900 bytes. Manifest SHA-256:
+  `2b61c897636ab9def03ac2e595592cd46c23afa48473960566ab0a927170ec80`.
+- Delivered staged reader at `build/reading-room-pdf-november`; its data export
+  has 49,839 files / 5,075,726,208 bytes and 3,421 articles. All 3,386 existing
+  CD article records, 44,813 baseline files and 4,950 original scan-package files
+  remain unchanged. Data manifest SHA-256:
+  `15cfc0586a8519984bfb3d661d30605fff1cad8e06d941f30cde64c86ae5c8e5`.
+- Added reusable complete-issue export/staging commands and integrity checks.
+  Staging rejects incomplete or duplicate ownership and invalid section targets.
+  Reader displays internal headings, section links, group children and separate
+  availability/review totals. Existing static-contract versions remain supported.
+- Validation passed: 58 PDF tests, eight reader-export tests, 13 frontend tests,
+  TypeScript and production build. Synthetic complete-issue exports reproduce
+  deterministically; real exports pass package, identity, link and preservation
+  checks. The closeout audit rechecks all 24,623 protected input pins.
+- Browser inspection covers all 35 standalone bodies and all 35 staged article
+  routes at desktop 1440×1000/mobile 360×800. The issue preserves 958 reading
+  blocks and 187 figures; the staged body renders 938 blocks plus 20 bylines in
+  article headers. No page overflow; 81 wide code blocks scroll locally.
+  Seven section links focus visible headings; five group pages expose their
+  children. A real smooth-scroll/lazy-image section-jump failure was fixed by
+  jumping directly. The final section and mobile checks pass.
+- Standalone browser hash checks cover all 60 text/listing downloads (813,132
+  bytes). Actual standalone and reader feature downloads match the original
+  43,508-byte article and 3,512-byte listing. Previous/next/issue navigation,
+  region view and original-size 2374×1616 scan opening pass. Metadata search
+  reaches the section entry; representative CD1/CD2/CD3 routes remain readable.
+  Reader console has no errors or warnings; standalone had only a favicon 404.
+  Test browsers closed; local preview servers remain available.
+- Preserved 104 explicit bitmap occurrences in 잠수함 with scan-linked
+  `corrections.json` records for owner correction. Review notes and markers are
+  visible; actual code scrolling checked at 180px. Readable/sample-reviewed
+  means useful complete coverage, not character-perfect or executable code.
+- Private evidence: `private/pdf-restoration/11-closeout/completion-audit.json`,
+  validation reports, browser scripts/results and screenshots under
+  `output/playwright/pdf-11-closeout`. The completed issue ledger retains all
+  article entries unchanged and pins both exports. Export manifests pin the
+  preserved pre-closeout ledger; completion metadata is recorded separately.
+- Step 11 is complete. Next is `12-1984-02-batch-01`: select canonical entries
+  and map the first bounded February 1984 batch. Final aggregate installation
+  remains step 13. Owner `/tocs/` ignore change and unrelated PRDs are untouched.

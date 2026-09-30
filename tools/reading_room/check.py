@@ -29,9 +29,12 @@ def check(root):
         raise ValueError('Duplicate reading-room identity')
     memberships = Counter()
     counts = Counter()
+    accounted_issues = set()
     for issue_id, summary in issues.items():
         date = issue_id.removeprefix('maso-')
         issue = read(root / f'issues/{date}.json')
+        if 'scanRestoration' in issue:
+            accounted_issues.add(issue_id)
         media = read(root / f'media/{date}.json')
         if issue['issue'] != summary or media['issueId'] != issue_id:
             raise ValueError(f'Issue identity differs: {issue_id}')
@@ -109,7 +112,25 @@ def check(root):
         path = safe(root / 'source', source['packagePath']).parent / 'manifest.json'
         if digest(path) != source['manifestSha256']:
             raise ValueError('Copied scan manifest differs')
+    scan_issues = manifest.get('scanIssues', [])
+    if len({s['issueId'] for s in scan_issues}) != len(scan_issues) or {s['issueId'] for s in scan_issues} != accounted_issues:
+        raise ValueError('Scan issue accounting coverage differs')
+    for source in scan_issues:
+        from .scan_issue import validate_issue
+        path = safe(root, source['path'])
+        if digest(path) != source['sha256'] or source['issueId'] not in issues:
+            raise ValueError('Scan issue accounting pin differs')
+        issue_doc = read(root / f'issues/{source["issueId"].removeprefix("maso-")}.json')
+        validate_issue(root, issue_doc, read(path))
     search = read(root / 'search.json')['items']
+    for source in scan_issues:
+        for row in read(safe(root, source['path']))['entries']:
+            matches = [s for s in search if s['kind'] == 'toc' and s['id'] == row['id']]
+            links = [row['articleId']] if row.get('articleId') else []
+            if (len(matches) != 1 or matches[0].get('articleIds') != links or
+                    matches[0]['issueId'] != source['issueId'] or
+                    matches[0]['status'] != ('linked' if links else row['classification'])):
+                raise ValueError('Scan issue search TOC differs')
     if Counter(s['id'] for s in search if s['kind'] == 'article') != Counter({id: 1 for id in articles}):
         raise ValueError('Search article coverage differs')
     for source in manifest.get('sources', [])[1:]:
