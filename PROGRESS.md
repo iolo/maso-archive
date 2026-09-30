@@ -2807,3 +2807,68 @@
 - Final post-cleanup checks pass for all four refreshed reader outputs. Rebuilding
   fallback thumbnails from the retained checkpoint alone still yields 21 verified
   PDF covers. Results are recorded privately in `build/cover-final-checks.json`.
+
+## 2026-09-30 — TOC restoration completed
+
+- Added read-only OCR comparison tooling, inventories, source-preserving rename
+  journals/rollback, reviewed image preparation, reader TOC image/gallery support,
+  and focused tests. `TOC.md`, imported identities, and article associations remain
+  unchanged; baseline hashes are recorded in ignored private evidence.
+- Inventory confirms 240 JPEGs/145 issue sets and missing June 1991. Visual
+  identity/order inspection covered all 20 contact sheets. This inspection does
+  not establish completed page-by-page transcription comparison.
+- Found a full-page Jakarta advertisement among July 1995 donations. It remains
+  preserved and accounted for but is excluded from the TOC viewer. The remaining
+  July page appears incomplete as a TOC set and has no independently visible
+  printed month; the gallery explains the donor-supplied date and coverage gap.
+- Prepared 239 accepted TOC images in preview/readable sizes (478 derivatives).
+  Full local OCR covers all 240 originals; colored-heading and column-order
+  limitations remain recorded. All originals are normalized with a reversible
+  journal, and independent name/hash checks pass. No catalog correction was applied.
+- Isolated aggregate, CD1-only and PDF scan exports and their checkers pass.
+  Reader validation passed 54 Python tests, 15 frontend tests and the build;
+  all 58 PDF tests passed. The 14 focused TOC tests also pass after adding review
+  invalidation checks for changed catalog/OCR evidence.
+- Active reader export, strict checker, build and preservation of 44,818 prior
+  data files pass. Real-data desktop/mobile browser checks cover zoom/scrolling,
+  lazy requests, missing/failed images, gallery ordering and uncertainty notes,
+  focus restoration and preserved article navigation, under `/archive/` and `/`.
+- Detailed visual comparison covers donated catalog pages from November 1983 through
+  December 1993, with 420 findings including unreadable regions in August 1984 and
+  April 1986 and clipped page digits in July 1992. Findings include missing entries, shifted page numbers, split titles
+  and the internally conflicting February 1987 masthead year. Later findings
+  include September 1988's shifted page assignments, September 1989's missing
+  SPSS Q&A entry and displaced contributor, and November 1989's displaced pages.
+  The 1990 comparisons add merged/split titles, contributor differences, July
+  and August's swapped page assignments, and October's missing readers-section page.
+  The 1991 comparisons add March's conflicting colophon date, November's omitted
+  news section, December's omitted competition notice, and title/byline differences.
+  June 1991 remains a catalog-only coverage gap because no scan was donated.
+  The 1992 comparisons add January's four omitted articles, May's missing news
+  page and AUTOEXEC.BAT spelling, July/August contributor differences, and
+  December's displaced feature page (289 versus 298), hierarchy differences,
+  omitted news sidebar and missing printer troubleshooting item.
+  The 1993 comparisons add installment/title/byline differences, an omitted
+  readers-section entry, hierarchy differences, and split utility titles.
+  All 24 later issue sets were reviewed as image-only evidence, without catalog
+  additions. July 1995's donor-only date and incomplete contents remain unresolved;
+  its advertisement has a separate excluded disposition. All 240 file reviews are
+  pinned to unchanged originals, current OCR evidence and unchanged `TOC.md`;
+  all catalog/identity baseline hashes still match. The regenerated versioned
+  report is selected by `private/toc-restoration/reports/latest.json`.
+  No page reviews remain pending or stale. Delivered the full mismatch report
+  selected by `reports/latest.json` (version
+  `bb5cd0a4d210d66a52f4a3e188329b93a4070c923a9e1f0f9d187bc4bdcf7cbe`).
+  See `PLAN-tocs.md` and `docs/TOC-RESTORATION.md` for commands and limitations.
+- Final validation passes 56 reader Python tests, 15 frontend tests, 58 PDF tests,
+  18 TOC/snapshot tests and TypeScript/production build. The new full-issue PDF
+  export test preserves inherited issue images, the gallery and every derivative.
+  Both historical article witnesses and February coverage reproduce their reviewed
+  records without writing catalog or historical artifacts.
+- Independent completion audit confirms all 240 unchanged original hashes,
+  current OCR/review pins, 420 report findings, 478 derivatives, four strict reader
+  checks and eight historical snapshot files. All 44,818 prior reader files and
+  the original manifest reproduce after removing only intended TOC presentation
+  additions; the 479 added files are derivatives plus the gallery. Evidence is
+  saved in `private/toc-restoration/completion-audit.json`. No catalog corrections,
+  commits or publication were performed; unresolved readings remain for the owner.

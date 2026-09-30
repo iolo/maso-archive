@@ -70,6 +70,11 @@ anomalous 1994/1996 labels and undated group. No later TOC associations were
 invented. The combined media index has 9,990 group/resource records, including
 unavailable states; CD2/CD3 supply 1,837 original attachment links.
 
+The reader also includes 239 donated TOC pages as reduced images, including a
+separate gallery for the 24 issue sets from 1994–1995. The original scans and OCR
+stay private. [TOC comparison results](docs/TOC-RESTORATION.md#reviewed-donation-results--2026-09-30)
+record 420 visual findings for manual review; the library catalog remains unchanged.
+
 All three standalone references remain available:
 
 | Reference | Private entry point | Reproduction and coverage |
@@ -125,6 +130,7 @@ consistency and usability, not agreement with print.
   [CD3](docs/CD3-SOURCE-MAP.md)
 - [Optional physical-magazine and backup tasks](docs/OFFLINE-TASKS.md)
 - Historical foundations: [TOC import](docs/TOC-IMPORT.md),
+  [donated TOC images and read-only OCR comparison](docs/TOC-RESTORATION.md),
   [strict v1 package contract](docs/READING-ROOM-CONTENT-V1.md),
   [CD1 19b checkpoint](docs/CD1-OEM-PASS.md),
   [original reading-room PRD](PRD-reading-room.md),

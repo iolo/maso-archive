@@ -1,5 +1,10 @@
 # TOC importer
 
+Donated scan comparison follows [TOC restoration](TOC-RESTORATION.md). That workflow
+leaves this authoritative source and its imported identities unchanged; mismatches
+are reported for the owner to correct manually. Image preparation never reimports
+the catalog or bypasses pinned historical dependencies.
+
 The importer preserves every source bullet, proposes metadata fields, and
 reports uncertainty. Its outputs are **unreviewed local working data**, not an
 approved public catalog. It does not modify `TOC.md` or read extracted CD bodies.

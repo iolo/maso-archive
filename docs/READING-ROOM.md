@@ -227,6 +227,12 @@ correction, new extraction or paper verification.
 
 ## Checks
 
+Donated TOC scans use the separate [TOC image workflow](TOC-RESTORATION.md).
+Canonical issues show ordered reduced images; scans outside the catalog appear
+in a date-labeled gallery. OCR comparison remains private and never replaces
+catalog text. The new export options are `--tocs`, `--toc-images`, and
+`--toc-reviews`; missing donation directories and older datasets remain supported.
+
 ```sh
 make test-reading-room
 make check-reading-room

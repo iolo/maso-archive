@@ -1,5 +1,21 @@
 PYTHON ?= python3
 
+.PHONY: inventory-tocs normalize-tocs ocr-tocs compare-tocs prepare-toc-images
+inventory-tocs:
+	PYTHONPATH=src $(PYTHON) -m tools.toc_restore inventory $(TOC_ARGS)
+
+normalize-tocs:
+	PYTHONPATH=src $(PYTHON) -m tools.toc_restore normalize $(TOC_ARGS)
+
+ocr-tocs:
+	PYTHONPATH=src $(PYTHON) -m tools.toc_restore ocr $(TOC_ARGS)
+
+compare-tocs:
+	PYTHONPATH=src $(PYTHON) -m tools.toc_restore compare $(TOC_ARGS)
+
+prepare-toc-images:
+	PYTHONPATH=src $(PYTHON) -m tools.toc_restore prepare $(TOC_ARGS)
+
 PDF_RECIPE ?= private/pdf-restoration/pilot/package-recipe.json
 PDF_OUTPUT ?= build/pdf-restoration/pilot
 PDF_COMPARISON_RECIPE ?= private/pdf-restoration/7-cd-comparison/comparison-recipe.json

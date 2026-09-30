@@ -62,15 +62,20 @@ def text_for(blocks):
 
 
 def export(reference=REFERENCE, toc=TOC, output=OUTPUT, issue_filter=None, covers=None,
-           cover_checkpoint=None, thumbnails=None):
+           cover_checkpoint=None, thumbnails=None, tocs=None, toc_images=None, toc_reviews=None):
     from .covers import DEFAULT_OUTPUT, separate, replace_directory
     output = Path(output)
     separate(output, reference, toc, covers, cover_checkpoint, thumbnails or DEFAULT_OUTPUT)
     separate(thumbnails or DEFAULT_OUTPUT, reference, toc, covers, cover_checkpoint, output)
+    from .tocs import DEFAULT_OUTPUT as TOC_IMAGES, refresh
+    separate(output, tocs, toc_images or TOC_IMAGES, toc_reviews)
+    separate(toc_images or TOC_IMAGES, reference, toc, covers, cover_checkpoint, thumbnails or DEFAULT_OUTPUT, output, tocs, toc_reviews)
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='.cd1-reader-', dir=output.parent) as temp:
         staged = Path(temp) / 'data'
         result = _export(reference, toc, staged, issue_filter, covers, cover_checkpoint, thumbnails)
+        if tocs is not None:
+            refresh(staged, result, tocs, toc_images, toc_reviews)
         from .check import check
         check(staged, require_thumbnails=True)
         replace_directory(staged, output, Path(temp) / 'previous')
@@ -298,6 +303,11 @@ def main():
     parser.add_argument('--pdf-cover-checkpoint', type=Path, default=DEFAULT_CHECKPOINT)
     parser.add_argument('--cover-thumbnails', type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument('--all-discs', action='store_true', help='Aggregate completed CD1, CD2 and CD3 references')
+    from .tocs import DEFAULT_OUTPUT as TOC_IMAGES
+    from tools.toc_restore.inventory import PRIVATE, SOURCES
+    parser.add_argument('--tocs', type=Path, default=SOURCES)
+    parser.add_argument('--toc-images', type=Path, default=TOC_IMAGES)
+    parser.add_argument('--toc-reviews', type=Path, default=PRIVATE / 'reviews.json')
     parser.add_argument('--cd2-reference', type=Path, default=ROOT / 'build/cd2-reference')
     parser.add_argument('--cd3-reference', type=Path, default=ROOT / 'build/cd3-reference')
     args = parser.parse_args()
@@ -305,13 +315,21 @@ def main():
         parser.error('--all-discs cannot be combined with --issue or --demo')
     if args.demo:
         target = ROOT / 'build/reading-room-demo/data' if args.output == OUTPUT else args.output
-        print(json.dumps(demo(target), ensure_ascii=False))
+        result = demo(target)
+        from .tocs import demo_images
+        result.update(demo_images(target))
+        print(json.dumps(result, ensure_ascii=False))
         return
+    if (args.toc / 'manifest.json').exists():
+        imported = read(args.toc / 'manifest.json')
+        if imported.get('source', {}).get('sha256') != digest(ROOT / 'TOC.md'):
+            import sys
+            print('TOC.md differs from the prepared import. Preserving pinned catalog inputs; catalog migration requires separate follow-up.', file=sys.stderr)
     if args.all_discs:
         from .aggregate import aggregate
-        result = aggregate(args.reference, args.toc, args.cd2_reference, args.cd3_reference, args.output, args.covers, args.pdf_cover_checkpoint, args.cover_thumbnails)
+        result = aggregate(args.reference, args.toc, args.cd2_reference, args.cd3_reference, args.output, args.covers, args.pdf_cover_checkpoint, args.cover_thumbnails, args.tocs, args.toc_images, args.toc_reviews)
     else:
-        result = export(args.reference, args.toc, args.output, args.issue, args.covers, args.pdf_cover_checkpoint, args.cover_thumbnails)
+        result = export(args.reference, args.toc, args.output, args.issue, args.covers, args.pdf_cover_checkpoint, args.cover_thumbnails, args.tocs, args.toc_images, args.toc_reviews)
     print(json.dumps(result['counts'], ensure_ascii=False))
 
 

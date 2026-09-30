@@ -165,7 +165,8 @@ def add_disc(root, disc, output, catalog, search):
             'outcomes': native_catalog['outcomes']}
 
 
-def aggregate(cd1, toc, cd2, cd3, output, covers=None, cover_checkpoint=None, thumbnails=None):
+def aggregate(cd1, toc, cd2, cd3, output, covers=None, cover_checkpoint=None, thumbnails=None,
+              tocs=None, toc_images=None, toc_reviews=None):
     output = Path(output)
     from .covers import DEFAULT_OUTPUT, POLICY, separate
     separate(output, cover_checkpoint, thumbnails or DEFAULT_OUTPUT)
@@ -173,6 +174,9 @@ def aggregate(cd1, toc, cd2, cd3, output, covers=None, cover_checkpoint=None, th
     if covers is not None:
         roots.append(Path(covers).resolve())
     separate(thumbnails or DEFAULT_OUTPUT, *roots, cover_checkpoint, output)
+    from .tocs import DEFAULT_OUTPUT as TOC_IMAGES, refresh
+    separate(output, tocs, toc_images or TOC_IMAGES, toc_reviews)
+    separate(toc_images or TOC_IMAGES, *roots, cover_checkpoint, thumbnails or DEFAULT_OUTPUT, output, tocs, toc_reviews)
     if any(output.resolve().is_relative_to(p) or p.is_relative_to(output.resolve()) for p in roots):
         raise ValueError('Output must not overlap inputs')
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -203,6 +207,8 @@ def aggregate(cd1, toc, cd2, cd3, output, covers=None, cover_checkpoint=None, th
                               'sha256': digest(p)} for p in sorted(stage.rglob('*'))
                              if p.is_file() and p != stage / 'manifest.json']
         write(stage, 'manifest.json', manifest)
+        if tocs is not None:
+            refresh(stage, manifest, tocs, toc_images, toc_reviews)
         from .check import check
         check(stage)
         backup = Path(temp) / 'previous-data'

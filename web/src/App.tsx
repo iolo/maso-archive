@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button'
 import { type ArticleDoc, type ArticleSummary, type Block, type Catalog, type IssueDoc, type IssueSummary, type Media, type MediaDoc, type Run, type SearchDoc, type TocEntry, articlePath, dataUrl, dateOf, issuePath, load, mediaPath, mediaUrl, search, sourceUrl, tocPath } from './data'
 
 import { ScanArticle, availabilityLabel, sectionPath, verificationLabel } from './ScanArticle'
+import { TocImages } from './TocImages'
+import type { TocGallery } from './data'
 
 type Theme = 'system' | 'light' | 'dark'
 
@@ -106,6 +108,7 @@ export function IssueCover({ issue, compact = false }: { issue: IssueSummary; co
 function Bookshelf({ catalog }: { catalog: Catalog }) {
   const groups = [...new Set(catalog.issues.map(i => i.year))]
   return <div className="bookshelf page-content"><div className="page-heading"><p className="eyebrow">월간 마이크로소프트웨어</p><h1>호 목록</h1><p>도서관 차례, CD1·CD2·CD3 전사 자료와 스캔 복원 글을 찾아보세요. CD2·CD3 묶음은 CD 날짜 표기이며 종이 잡지의 발행호와 대조 전입니다.</p></div>
+    {catalog.tocGallery && <p><Link to="/toc-scans">차례 스캔 모음 <ArrowRight size={16} /></Link></p>}
     {catalog.sources && <p className="source-note">보충 글·원본 자료: {catalog.sources.filter(s => s.referencePath).map(s => <a key={s.disc} href={sourceUrl(s.referencePath!)} target="_blank" rel="noreferrer">{s.disc.toUpperCase()} 참조 자료 ↗ </a>)}</p>}
     {groups.map(year => <section key={year} className="year-section"><h2>{year || '날짜 미확인'}</h2><div className="issue-grid">{catalog.issues.filter(i => i.year === year).map(issue => <Link key={issue.id} className="issue-tile" to={issuePath(issue.id)}><IssueCover issue={issue} compact /><span className="issue-date">{issue.label}</span><strong>{issue.nativeGroup ? 'CD 날짜 묶음' : `${String(issue.month).padStart(2, '0')}월호`}</strong><span>{issue.textCount ? `읽기 자료 ${issue.textCount}편` : '차례만 있음'}</span><ArrowRight size={17} /></Link>)}</div></section>)}
   </div>
@@ -115,6 +118,7 @@ function IssueOverview({ issue }: { issue: IssueDoc }) {
   return <div className="page-content"><div className="page-heading"><p className="eyebrow">{issue.issue.label} · 월간 마이크로소프트웨어</p><h1>{issue.issue.nativeGroup ? issue.issue.label : `${issue.issue.year}년 ${issue.issue.month}월호`}</h1><p>차례 {issue.issue.tocCount}항목 · 읽기 자료 {issue.issue.textCount}편</p></div>
     {issue.issue.nativeGroup && <p className="notice">CD의 날짜 표기로 묶었습니다. 발행호 확인 전이며 도서관 차례 연결은 없습니다.</p>}
     <IssueCover issue={issue.issue} />
+    <TocImages key={issue.issue.id} pages={issue.tocImages} label={issue.issue.label} />
     {issue.scanRestoration && <section aria-label="호 복원 및 검토 상태"><h2>호 복원 기록</h2>
       <p>본문 {issue.scanRestoration.counts.classified_articles}편 · 묶음 제목 {issue.scanRestoration.counts.group_headings} · 절 참조 {issue.scanRestoration.counts.section_references} · 분류 미해결 {issue.scanRestoration.counts.unresolved_eligibility}</p>
       <p>복원: {Object.entries(issue.scanRestoration.counts.restoration_availability).map(([state, count]) => `${availabilityLabel(state as Parameters<typeof availabilityLabel>[0])} ${count}`).join(' · ')}</p>
@@ -217,6 +221,14 @@ function SearchView({ catalog }: { catalog: Catalog }) {
 
 function NotFound() { return <div className="page-content"><h1>자료를 찾을 수 없습니다</h1><p>주소를 확인하거나 호 목록으로 돌아가세요.</p><Link to="/">호 목록 <ArrowRight size={16} /></Link></div> }
 
+function TocGalleryView({ path }: { path?: string }) {
+  const gallery = useDocument<TocGallery>(path || null)
+  return <div className="page-content"><h1>차례 스캔 모음</h1><p>목록에 아직 등록되지 않은 호의 인쇄 차례입니다.</p>
+    {!path ? <p>준비된 차례 스캔이 없습니다.</p> : gallery.loading || gallery.error ? <DataState loading={gallery.loading} error={gallery.error} retry={gallery.retry} /> :
+      gallery.value?.sets.length ? gallery.value.sets.map(group => <section key={group.date}><h2>{group.date}</h2>{group.note && <p className="notice">{group.note}</p>}<TocImages pages={group.pages} label={group.date} /></section>) : <p>추가 차례 스캔이 없습니다.</p>}
+  </div>
+}
+
 function RoutedPage({ catalog }: { catalog: Catalog }) {
   const params = useParams()
   const issueId = params.issueId || (params.articleId ? catalog.articles.find(a => a.article_id === params.articleId)?.issue_id : undefined)
@@ -256,6 +268,7 @@ export default function App() {
       <Route path="/issues/:issueId/media/:resource" element={<RoutedPage catalog={catalog.value} />} />
       <Route path="/articles/:articleId" element={<RoutedPage catalog={catalog.value} />} />
       <Route path="/search" element={<main id="main"><SearchView catalog={catalog.value} /></main>} />
+      <Route path="/toc-scans" element={<main id="main"><TocGalleryView path={catalog.value.tocGallery} /></main>} />
       <Route path="*" element={<main id="main"><NotFound /></main>} />
     </Routes>}
     <footer className="site-footer"><span>월간 마이크로소프트웨어 · 개인 열람 참고 자료</span><span>자료별 출처와 검토 범위를 확인하세요</span></footer>

@@ -98,7 +98,8 @@ def validate_scan(root, doc, toc):
     return package
 
 
-def stage(base, package_dir, output, covers=None, cover_checkpoint=None, thumbnails=None):
+def stage(base, package_dir, output, covers=None, cover_checkpoint=None, thumbnails=None,
+          tocs=None, toc_images=None, toc_reviews=None):
     base, package_dir, output = (Path(p).resolve() for p in (base, package_dir, output))
     if output.exists() or output.is_relative_to(base) or base.is_relative_to(output):
         raise ValueError('Use a separate, fresh reader output')
@@ -107,6 +108,9 @@ def stage(base, package_dir, output, covers=None, cover_checkpoint=None, thumbna
     from .covers import DEFAULT_OUTPUT, POLICY, separate
     separate(output, covers, cover_checkpoint, thumbnails or DEFAULT_OUTPUT)
     separate(thumbnails or DEFAULT_OUTPUT, base, package_dir, covers, cover_checkpoint, output)
+    from .tocs import DEFAULT_OUTPUT as TOC_IMAGES, attach_tocs
+    separate(output, tocs, toc_images or TOC_IMAGES, toc_reviews)
+    separate(toc_images or TOC_IMAGES, base, package_dir, covers, cover_checkpoint, thumbnails or DEFAULT_OUTPUT, output, tocs, toc_reviews)
     from .check import check
     check(base)
     base_manifest_sha = digest(base / 'manifest.json')
@@ -194,6 +198,22 @@ def stage(base, package_dir, output, covers=None, cover_checkpoint=None, thumbna
                     cover_issue_paths.add(name)
             manifest['counts']['covers'] = sum(i['cover'] is not None for i in catalog['issues'])
             write(staged, 'catalog.json', catalog)
+        toc_changed = set()
+        if tocs is not None:
+            before_docs = {f'issues/{i["id"].removeprefix("maso-")}.json':
+                           read(staged / f'issues/{i["id"].removeprefix("maso-")}.json') for i in catalog['issues']}
+            toc_changed = {r['path'] for r in manifest['files'] if r['path'].startswith('tocs/')}
+            toc_changed.add('toc-gallery.json')
+            manifest.update(attach_tocs(staged, catalog, tocs, toc_images, toc_reviews))
+            for name, previous in before_docs.items():
+                updated = read(staged / name)
+                if previous != updated:
+                    expected = deepcopy(previous)
+                    expected['tocImages'] = updated.get('tocImages')
+                    if updated != expected:
+                        raise ValueError('TOC refresh changed unrelated issue data')
+                    toc_changed.add(name)
+            write(staged, 'catalog.json', catalog)
         manifest.update(schemaVersion=3, baseManifestSha256=base_manifest_sha,
                         scanInputs=[dict(articleId=package['id'], manifestSha256=package_manifest_sha,
                                          packagePath=doc['scan']['packagePath'])])
@@ -204,7 +224,7 @@ def stage(base, package_dir, output, covers=None, cover_checkpoint=None, thumbna
         write(staged, 'manifest.json', manifest)
         check(staged)
         # Only these five baseline documents may differ. All CD article/source files are exact copies.
-        changed = {'catalog.json', 'manifest.json', 'search.json', issue_path, media_path} | cover_issue_paths | removed_cover_paths
+        changed = {'catalog.json', 'manifest.json', 'search.json', issue_path, media_path} | cover_issue_paths | removed_cover_paths | toc_changed
         for record in read(base / 'manifest.json')['files']:
             if record['path'] not in changed and digest(safe(staged, record['path'])) != record['sha256']:
                 raise ValueError('Existing reader file changed during scan export')
@@ -223,9 +243,13 @@ def main():
     from .covers import DEFAULT_CHECKPOINT, DEFAULT_OUTPUT
     parser.add_argument('--pdf-cover-checkpoint', type=Path, help='Verified PDF checkpoint; defaults to the private checkpoint with --covers')
     parser.add_argument('--cover-thumbnails', type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument('--tocs', type=Path, help='Refresh the separate TOC image collection')
+    parser.add_argument('--toc-images', type=Path)
+    parser.add_argument('--toc-reviews', type=Path)
     args = parser.parse_args()
     checkpoint = args.pdf_cover_checkpoint or (DEFAULT_CHECKPOINT if args.covers is not None else None)
-    result = stage(args.base, args.package, args.output, args.covers, checkpoint, args.cover_thumbnails)
+    result = stage(args.base, args.package, args.output, args.covers, checkpoint, args.cover_thumbnails,
+                   args.tocs, args.toc_images, args.toc_reviews)
     print(json.dumps(result['counts']))
 
 

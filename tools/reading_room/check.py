@@ -26,6 +26,8 @@ def check(root, require_thumbnails=False):
     if require_thumbnails and manifest.get('coverPolicy') != POLICY:
         raise ValueError('Reader has not completed thumbnail migration')
     catalog = read(root / 'catalog.json')
+    from .tocs import check_tocs
+    check_tocs(root, catalog, manifest)
     if catalog.get('schemaVersion') not in (1, 2, 3):
         raise ValueError('Unsupported catalog version')
     issues = {row['id']: row for row in catalog['issues']}
