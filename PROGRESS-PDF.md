@@ -3911,3 +3911,50 @@ history remains in [PROGRESS.md](PROGRESS.md).
   final six feature pagesPDF23–28, followed by immutable assembly and a separate
   standalone issue export/reader closeout. Deferred manual bitmap correction stays
   visible and does not block complete coverage.
+
+### 2026-09-30 — 11-batch-45 started
+
+- Continue from8536c02 with final feature pagesPDF23–28 / printed21–26. Previous
+  goal turn completed and committed batches43/44. All47 entries are classified;
+  the special feature remains the only partial article. Protect previous inputs,
+  map the final six pages locally, then restore DOS through the internal conclusion.
+  Assembly and standalone issue closeout remain separate checkpoints.
+
+- Final six pages now mapped and scan-compared:45 regions,36 regional texts,
+  20 reading blocks, nine images and two independent five-row BASIC examples.
+  Nine crop regions widened; one line-number edge received a second repair.
+  Five prose joins cross16 boundaries.38 text notes preserve printed terminology,
+  duplicated 프, original printer figures and provisional small glyphs. Package
+  built; repeat-build, byte-range and browser/download validation underway.
+
+### 2026-09-30 — 11-batch-45 complete
+
+- Restored final feature pagesPDF23–28 / printed21–26: DOS, utilities, CP/M,
+  output devices and internal conclusion.45 mapped regions contain36 regional
+  texts,20 reading blocks, nine original images and two independent BASIC
+  renumbering examples. Five prose joins cross16 column/page boundaries.
+- Compared all45 crops and nine repaired regions; one line-number edge required
+  a second widening. Initial and intermediate crops/OCR remain preserved.38
+  scan-linked text notes, nine figure notes and four listing notes retain printed
+  terminology, duplicated 프, historical printer figures and provisional small
+  glyphs. Ten listing rows preserve the before/after examples and distinguish
+  editorial arrows from BASIC commands. No execution or technical correction.
+- Rebuild is byte-identical. All22,959 protected inputs,154 raw archive members,
+  source geometry, regional representations and text/listing/review ranges
+  validate. Three completed OCR states resume unchanged:45 initial crop tasks,
+  ten repair tasks across nine regions,36/44 repair-state cache hits, zero
+  failures/retries. Generic tooling unchanged;55 passing tests remain pinned.
+- Desktop1440×1000/mobile360×800 pass:49 asset pins, nine images, full review
+  scope and no page overflow. The wide annotated code example scrolls locally
+  through161px. Screenshots inspected; actual22,778-byte article and229-byte
+  listing downloads match. Scan link opens the2374×1616 printer diagram. Only
+  initial favicon404; no errors on the final scan page. Test browser closed.
+- Article package164 files /56,432,504 bytes; wrapper/report/manifest167 files /
+  56,467,271 bytes. Mapping159.1s; review/build/validation elapsed1,696.0s
+  includes tool waits, interruption and status-only time. Measurements pinned.
+- Only parent0003 restoration changed. All47 entries remain classified:35
+  body-owning articles, five headings, seven section references;34 readable and
+  one partial,35 sample-reviewed, zero unresolved eligibility. Both segments now
+  coverPDF18–28; no pages await extraction. Next11-feature-assemble combines
+  immutable packages and rebases seven section targets. Standalone issue export
+  and staged reader inspection remain. Step11 active; bitmap correction deferred.
