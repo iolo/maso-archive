@@ -3851,3 +3851,63 @@ history remains in [PROGRESS.md](PROGRESS.md).
   verified maze openingPDF30. Resolve its parent and seven pageless children
   without duplicate bodies, extracting at most six pages per batch. All47-entry
   accounting and standalone issue export/reader closeout remain. Step11 active.
+
+### 2026-09-30 — 11-batch-44 started
+
+- Continue fromc7aae75 with 특집 : 새로운 각도에서 본 개인용 컴퓨터 and
+  its seven pageless TOC children. Bound local lookup toPDF18–29 between proven
+  neighboring articles, then establish body ownership before extraction. At most
+  six source pages may be extracted in this checkpoint; preserve earlier packages.
+- Previous status-only goal turn made no progress. Current turn completed Q.A's
+  remaining browser/download checks, reconciled its ledger and committed batch43.
+- Local inspection confirms one11-page editorial featurePDF18–28, followed by
+  an unlisted illustrationPDF29; maze startsPDF30. Seven pageless children are
+  numbered sections of the parent body; its internal8.맺음말 is not a new article.
+- First segmentPDF18–22 contains41 regions,37 regional texts,26 reading blocks,
+  five code/table blocks and four original images. Eight crop edges repaired;
+  63 hex rows/504 byte positions and94 physical listing rows compared.36 text
+  notes, four figure notes and one explicit indistinct-particle marker retained.
+- Package and rebuild match. All22,191 protected inputs,153 raw archive members,
+  source geometry and text/listing/review ranges validate.41 initial crop tasks,
+  eight repairs and33 cache hits; completed states resume unchanged. Generic
+  tooling unchanged with55 pinned passing tests. Reader/download checks underway.
+
+### 2026-09-30 — 11-batch-44 complete
+
+- First feature segmentPDF18–22 / printed16–20 is partial/sample-reviewed,
+  covering numbered sections1–3. The complete parent article isPDF18–28 /
+  printed16–26, with a shared editorial introduction/byline and8.맺음말.
+  ExcludedPDF29's separate unlisted illustration; the maze opensPDF30.
+- Resolved all eight remaining classifications from local scans. Parent0003 owns
+  one body; children0004–0010 are section references, not duplicate articles or
+  empty group headings. Their headings occurPDF18,20,22,23,25,26,27. CP/M
+  continues inPDF27's left column alongside the output section. Final section
+  anchor targets must be rebased after assembly; deferred headings are not yet
+  linked as though their restored content exists.
+- Preserved41 regions,37 regional texts,26 reading blocks, four original images
+  and five code/table blocks. Five prose joins cross11 boundaries. Both assembly
+  tables, BASIC line10 and63 hex rows/504 printed byte positions remain searchable;
+  listing.txt indexes94 physical rows, distinguishing addresses from BASIC numbers.
+- All41 crops and eight repaired boundaries compared.36 text notes, four figure
+  notes and seven listing notes retain historical terminology/claims, printed
+  repetition, SHIFT DF and provisional 노멘. One indistinct particle is explicitly
+  marked. Initial drafts/crops/OCR remain preserved; no code execution or repair.
+- Rebuild is byte-identical. All22,191 protected inputs,153 raw archive members,
+  geometry, regional representations and text/listing/review ranges validate.
+  OCR states resume unchanged:41 initial tasks, eight repairs,33 cache hits,
+  no failures/retries. Generic tooling unchanged;55 passing tests remain pinned.
+- Desktop1440×1000/mobile360×800 pass:45 asset pins, four images and no page
+  overflow. Four wide code blocks scroll locally; actual horizontal scroll180px
+  verified. Screenshots inspected. Actual article20,586-byte and listing3,283-byte
+  downloads match; full OS diagram scan opens743×1208. Onlyfavicon404;
+  browser closed. Preview http://127.0.0.1:4232/.
+- Article package163 files /44,888,572 bytes; wrapper/report/manifest166 files /
+  44,922,595 bytes. Mapping193.0s; review/build/validation elapsed1,209.6s,
+  including tool waits. Processing measurements are pinned in the private closeout.
+- All47 entries now classified:35 body-owning articles, five group headings and
+  seven section references, with zero unresolved eligibility decisions. Outcomes:
+  34 readable, one partial, zero image-only/failed/unresolved;35 sample-reviewed.
+  Classification completion does not finish step11. Next11-batch-45 restores the
+  final six feature pagesPDF23–28, followed by immutable assembly and a separate
+  standalone issue export/reader closeout. Deferred manual bitmap correction stays
+  visible and does not block complete coverage.

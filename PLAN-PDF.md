@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-30. Status: **in progress; steps 1–10, 11-batch-01–43, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble, 11-editor-assemble, 11-graphic-assemble, 11-radar-assemble, 11-mailing-assemble, 11-unix-assemble, 11-generator-assemble, 11-robot-assemble and 11-ieee488-assemble complete. Q.A is readable/sample-reviewed across PDF218–220 / printed216–218, preserving six exchanges, two figures,17 reading blocks and40 text review notes. November has thirty-four readable articles, no partial articles, five headings and8 unresolved eligibility decisions. Next: 11-batch-44 maps the special feature and determines its parent/pageless-child ownership locally. Step 11 remains active through all November entries and issue closeout. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
+Revised 2026-09-30. Status: **in progress; steps 1–10, 11-batch-01–44, 11-orientation-repair, 11-submarine-assemble, 11-library-assemble, 11-editor-assemble, 11-graphic-assemble, 11-radar-assemble, 11-mailing-assemble, 11-unix-assemble, 11-generator-assemble, 11-robot-assemble and 11-ieee488-assemble complete. All47 November TOC entries are classified:35 body-owning articles, five group headings and seven section references; no unresolved eligibility decisions.34 articles are readable and the special feature is partial. Its first five pagesPDF18–22 preserve sections1–3, four images, two assembly tables, a BASIC example and63 hex rows, with36 text review notes. Next: 11-batch-45 restores final feature pagesPDF23–28, then immutable full-article assembly and standalone issue closeout. Step11 remains active. 잠수함's manual bitmap correction remains deferred. Ignore `tocs/` for now as requested**.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -307,6 +307,10 @@ within step 10's limits, followed by a separate `11-closeout` checkpoint.
 
 - Map each batch immediately before extraction. Resolve headings, parent/child
   ownership, and page-less entries locally; retain decisions with evidence.
+- The opening feature is one article across PDF18–28. Its seven pageless TOC
+  children are section references: preserve their TOC entries and link them to
+  the final parent section anchors after assembly. Count these references
+  separately from body-owning articles and group headings. PDF29 is excluded.
 - Reuse successful samples. Save packages, review coverage, failures, retries,
   and unresolved boundaries after every batch. Avoid duplicate article bodies.
 - For disjoint reviewed segments, assemble without new OCR. Retain original
