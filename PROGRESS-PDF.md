@@ -3958,3 +3958,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   coverPDF18–28; no pages await extraction. Next11-feature-assemble combines
   immutable packages and rebases seven section targets. Standalone issue export
   and staged reader inspection remain. Step11 active; bitmap correction deferred.
+
+### 2026-09-30 — 11-feature-assemble started
+
+- Continue from7447e35 with both immutable feature segments coveringPDF18–28.
+  Assemble without OCR or new extraction; verify complete page order, all text
+  and listing ranges, preserved originals and seven rebased child section anchors.
+  Resolve superseded segment scope notes while keeping small-glyph uncertainties.
+  Previous goal turn made progress: batch45 validated and committed.
+
+### 2026-09-30 — 11-feature-assemble complete
+
+- Assembled the complete special featurePDF18–28 / printed16–26 without OCR or
+  new extraction.86 regions,73 regional transcriptions,46 reading blocks,13
+  original images and seven independent code/table blocks preserve104 physical
+  listing rows. Ten internal prose joins span27 boundaries; the segment boundary
+  separates complete sections3and4 and needs no sentence join.
+- Rebased74 text review notes, all text/listing byte ranges and scan references.
+  One indistinct-particle marker and provisional historical readings remain.
+  Resolved two superseded segment-scope notes and two completed mapping-review
+  notes; all original metadata remains inspectable. No code execution or repair.
+- Both original packages are byte-identical copies (327 files). Deterministic
+  rebuild, all23,928 protected input pins,313 raw archive members, complete
+  ordered page coverage,104 local/logical listing rows and seven child section
+  anchors validate. Generic tooling unchanged;55 passing tests remain pinned.
+- Desktop1440×1000/mobile360×800 pass:90 asset pins,13 images, complete review
+  scope, superseded scope notes hidden and no page overflow. Five wide code
+  blocks scroll locally; actual146px movement verified. Screenshots inspected.
+  Actual43,508-byte article and3,512-byte listing downloads match; original
+  printer scan opens2374×1616. Onlyfavicon404; test browser closed.
+- Article package338 files /152,072,933 bytes; wrapper/report/manifest341 files /
+  152,139,338 bytes. Assembly/validation elapsed454.2s including tool waits.
+- Parent0003 is now readable/sample-reviewed; seven section references target
+  its validated assembled heading IDs. All47 entries:35 readable articles,
+  five group headings and seven section references. Zero partial/image-only/
+  failed/unresolved articles and zero unresolved eligibility decisions. All35
+  articles are sample-reviewed, not character-perfect certified.
+- Next11-closeout must generate the standalone issue reference and export and
+  inspect all November content in the staged reader. This accounting milestone
+  does not finish step11. Deferred manual bitmap correction stays visible.
