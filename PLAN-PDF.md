@@ -598,6 +598,15 @@ issue in the staged reader before moving to remaining issues.
   listing reviews address complete downloads; source table/footnote indexes
   remain explicitly local.75 PDF tests,prior assembly checks and byte-identical
   rebuild pass. Next 케이-모니터1 begins167/PDF163.
+- 케이-모니터1 spans printed167–171/PDF163–167. Its complete PC-8001 package
+  has30 regions,21 reading blocks,nine original images and four captions. Preserve
+  all85 numbered BASIC lines in86 physical rows,including700's G/OTO720 wrap.
+  Three searchable tables provide22 data rows and three headers.21 regional
+  ranges,46 text reviews,41 Unicode spans,22 listing reviews and five uncertainty
+  markers validate. The r22 table-heading crop was widened once; initial evidence
+  remains intact and29 other regions were reused. Flowchart/output-image overlap,
+  literal d/m prose,table commas and source code quirks remain explicit. All prior
+  pins and byte-identical rebuild pass. Next 기계어 테크닉 begins172/PDF168.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

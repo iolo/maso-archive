@@ -6174,3 +6174,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   케이-모니터1 from167/PDF163,whose source specifies PC-8001 BASIC. Preserve its
   dialect and checksum notation. Full issue reconciliation and reader integration
   remain pending; corrected TOC and completed cover/TOC work are unchanged.
+
+
+### 2026-10-02 — 12-1984-02-batch-32 started
+
+- Verify 케이-모니터1 from167/PDF163 and restore up to six source pages.
+  Preserve6,700 prior-file pins; previous598c7c6 made progress. Keep PC-8001
+  BASIC dialect,checksum notation and uncertain source glyphs; JSON/assets
+  checks only,without browser work.
+
+### 2026-10-02 — 12-1984-02-batch-32 complete
+
+- Restored complete 케이-모니터1,printed167–171/PDF163–167:30 regions,21 reading
+  blocks,nine original images and four captions. Next 기계어 테크닉 begins172/PDF168.
+  Keyboard conversion,three table panels,flowchart,checksum-output example,
+  cartoon and both BASIC panels remain original images. Flowchart rectangle
+  overlaps the upper part of the separately preserved output example; internal
+  diagram labels/output bytes remain imagery rather than certified transcription.
+- PC-8001 listing10–1370 retains85 numbered lines in86 physical rows,including
+  700's G/OTO720 wrap. Source number gaps,DEFUSR0/USR(0),660's X-6MOD3,920's
+  IFT/ELSEX and checksum expressions remain literal. Three searchable tables
+  preserve22 data rows and three headers with25 indexed ranges. Preserve the
+  printed d/m duplicates in prose and distinct d,/m, table commands.
+- corrections.json includes21 regional ranges,46 text reviews,41 Unicode spans
+  and22 listing reviews. Five markers retain uncertain star-border counts,
+  the dot after20 and two output-alignment spaces. Original byline,program notice,
+  source claims and keypad mappings remain; no execution or source-byte claim.
+- All30 initial tasks completed without failures. One targeted r22 crop revision
+  recovers the final 용 of the spaced 내용 heading. Initial map,OCR and evidence
+  export are intact;29 unchanged regions were reused. Initial render/crop14.87s
+  and OCR8.36s; revision2.27s/0.32s; actual totals17.14s/8.68s. Revised-cache totals
+  are not added again. Exactly31 region-processing attempts,one review-driven retry.
+- All JSON/assets,table/listing/correction ranges,raw OCR archive and6,700 prior
+  pins pass. The104-file article package (39,640,741 bytes) rebuilds byte-identically;
+  article.txt12,653 bytes and listing.txt3,804 bytes. Generic tooling and latest
+  successful75-test log remain unchanged. No browser work or repeated full suite.
+- Wrapper106 files/39,663,145 bytes; manifest SHA-256
+  d475f8ba8f2374274e7fa748175081481757840d39ba74f7112c1fc71ea903a2.
+  Elapsed804.5s covers mapping,source review,one crop revision,validation,rebuild
+  and closeout; it is wall time,not CPU time. Private source maps,recipes,
+  original/reviewed evidence,validation and next plan are under
+  private/pdf-restoration/12-1984-02-batch-32.
+- Only entry0029 changes:29 readable/sample-reviewed articles,no partials,four
+  group headings and10 unresolved eligibility decisions. Next:batch33,기계어
+  테크닉 from172/PDF168. Full issue reconciliation and reader integration remain
+  pending; corrected TOC and completed cover/TOC integrations are unchanged.
