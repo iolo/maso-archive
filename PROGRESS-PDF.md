@@ -6871,3 +6871,58 @@ history remains in [PROGRESS.md](PROGRESS.md).
   headings. Only0036 coverage changed. Next225–230/PDF221–226;fifteen pages
   and assembly remain for the dictionary,followed by heading classification
   and issue closeout. Corrected TOC and cover/TOC integrations stay unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-44 started
+
+- Restore dictionary225–230/PDF221–226,with one following-page lookup.
+  Preserve9,323 prior-file pins and both immutable segments;69b29bb made
+  verified progress. Local package checks only;no browser or reader staging.
+
+### 2026-10-02 — 12-1984-02-batch-44 complete: dictionary225–230
+
+- Restored six continuation pages225–230/PDF221–226,TOC0036. Folios and
+  running headers verified;INT begins a fresh entry and PRINT# ends completely.
+  Following231/PDF227 opens Q/question-mark. Three immutable segments now
+  cover213–230,eighteen pages of candidate27;no new external join required.
+- 64 regions,52 blocks and three original MEM/OPEN/ROM-table images preserve
+  source text and examples.61 regional ranges,47 review notes and30 Unicode
+  spans validate.47 entries and48 boxed machine labels remain source-linked.
+- Nine joins cover LEN,LOAD,MEM,NEXT,number sign,ON GOSUB,POINT,POKE and
+  PRINT. Duplicate 이 at LOAD page boundary remains;MEM PR-/INT is joined as
+  PRINT. Eighteen consecutive source pages pass assembly preflight while all
+  prior segments and their correction records remain immutable.
+- Four table groups retain21 rows (19 data,two ROM-action headings):five
+  memory sizes,eight OPEN device/secondary codes and six STOP/ROM POKE rows.
+  Three parameter rows,19 literal POKE ranges and17 independent examples are
+  byte-indexed. PRINT USING formats have5/2 and2/3/2 hash counts as printed.
+  Two key-notation ranges retain OFF/RVS mnemonics and □ without inferred
+  control bytes. Three source formulas remain indexed;no runnable listing made.
+- Literal245,TRE(0),MAN,SHIF 0,컴퓨로 터로,NEXT1–15 beside FOR1TO5,
+  ON ERROR LOAD and39/30 mismatch,ABC(),POINT−1 1,POKE0–65536 and
+  differing59468/59486 addresses remain. Enlarged source corrected preliminary
+  LOAD wording,CLOSF and 먹을 readings before export. Printed source errors
+  are not technically repaired. No new explicit unresolved markers;existing
+  markers remain in earlier segments. Full proofreading and byte certification
+  are still not claimed.
+- Validation passed:9,323 preserved-file pins,source/OCR assets,all images,
+  ZIP bytes,joins,definition/label/table/parameter/POKE/key/example/formula
+  ranges,assembly preflight and one fresh byte-identical rebuild.64 initial
+  OCR tasks,no revisions or processing failures. No script/test authoring failure.
+  Existing77-test log/tooling pins unchanged;no full-suite repeat,pipeline
+  change,browser,reader staging or emulator work.
+- Measured task-ledger execution45.132258s. Wall interval
+  794.8s includes lookup,mapping,transcription,source review,export,
+  validation,rebuild and closeout;not active compute time. Stage token usage
+  remains unmeasured.
+- Output `build/pdf-restoration/12-1984-02-batch-44`:259 files,
+  36,503,051 bytes;article.txt27,274 bytes. Article manifest SHA-256:
+  `61fd7e5a0206d0bd7484f05596dfc55df63cc59456c69e5d2b10911cfe85fa14`.
+  Wrapper manifest SHA-256:
+  `a78fe42dd5cc209c88e8ccd01b27d69e2335e15ce7ace269ef8fd250def35cfe`.
+  Private maps,OCR,transcriptions,corrections,validation,assembly preflight,
+  ledger snapshots and next plan remain in the matching directory.
+- Counts unchanged:43 entries,37 classified/sample-reviewed articles (36
+  readable,one partial dictionary),four group headings and two unresolved
+  headings. Only0036 coverage changed. Next231–236/PDF227–232,then237–239,
+  assembly,two heading classifications and full issue closeout. Corrected TOC
+  and completed cover/TOC integrations remain unchanged.

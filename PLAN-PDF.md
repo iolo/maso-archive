@@ -77,9 +77,11 @@ searchable16-color table. Ending239/PDF235 and following advertisement240
 are inspected;remaining continuity still awaits source review. Batch43 restored
 219–224/PDF215–220,including57 definition fragments,73 machine labels and
 11 independent examples. Twelve pages are now preserved in two immutable
-segments;the DEFDBL boundary join is verified. Next is **12-1984-02-batch-44**:
-restore225–230/PDF221–226. Three bounded continuation segments and assembly
-remain,subject to source verification. Two section
+segments;the DEFDBL boundary join is verified. Batch44 restored225–230/PDF221–226,
+including47 entries,17 independent examples and three original table images.
+Eighteen pages are now preserved in three immutable segments. Next is
+**12-1984-02-batch-45**: restore231–236/PDF227–232. Nine source pages in two
+bounded continuation segments and assembly remain,subject to source verification. Two section
 classifications and full issue reconciliation/closeout also remain.
 Step12 remains open.
 
@@ -725,6 +727,16 @@ issue in the staged reader before moving to remaining issues.
   ending remain literal. Four blank widths and one small INPUT separator await
   manual correction. No crop/OCR revision;fresh rebuild matches. Twelve pages
   preserved across two segments;next225–230,then231–236 and237–239,then assembly.
+- Dictionary continuation225–230/PDF221–226 is restored:64 regions,52 blocks,
+  three original table images,61 regional ranges,47 review notes and30 Unicode
+  spans.47 entries,48 machine labels,21 table/header rows,three parameter rows,
+  19 literal POKE ranges,two key-notation ranges,17 independent examples and
+  three formulas validate. Nine internal joins;no new external boundary join.
+  Printed245,TRE(0),MAN,duplicate LOAD wording,NEXT15,line39/30,ABC(),
+  POINT−1 1 and differing POKE addresses remain source-linked. PRINT USING
+  hash counts checked;key-control bytes remain unverified. No OCR revisions;
+  fresh rebuild matches. Eighteen pages preserved,next231–236 then237–239,
+  followed by assembly and issue closeout. No per-batch browser work.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
