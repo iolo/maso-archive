@@ -149,9 +149,10 @@ entries do not require decisions. Decisions for another source hash are rejected
 Commit the correction/decision file, updated identity map, and progress entry
 together. Subsequent unchanged imports do not need the decisions file.
 
-## Current results and historical snapshots
+## Earlier expansion and historical snapshots
 
-The corrected source imports as **122 issues, 5,497 entries, and 4,078 article
+Before the 2026-10-01 owner correction migration, the source imported as
+**122 issues, 5,497 entries, and 4,078 article
 candidates**, through December 1993. All 3,811 earlier identities and their issue
 allocators remain unchanged; 1,686 entries were added in the 36 new issues.
 The owner corrected the duplicated October 1993 heading to September. One empty
@@ -218,3 +219,34 @@ two article witnesses, and February coverage audit are complete. Independent
 backup/restore remains a deferred preservation task; the next article batch
 can proceed without it. This importer
 does not complete preservation or replace human review.
+
+
+## Owner correction migration — 2026-10-01
+
+The owner's `bccb3e0` edit is imported through
+`data/overrides/toc-owner-review-2026-10-01.json`. The current source has
+122 issues, 5,299 entries and 4,170 provisional article candidates. It retains
+5,032 IDs, allocates 267 new IDs and retires 465 IDs; retired IDs are never reused.
+Combined entries receive new IDs. Explicit successor records carry existing
+reading links forward; two omitted entries have no successor and had no reader
+links. Article identities, transcriptions and historical package metadata remain
+unchanged. November 1983 and February 1984 retain their complete entry identities.
+
+The migration record under `data/catalog/toc-migrations/<current-source-sha>.json`
+pins the previous snapshot, reviewed decisions and new outputs. The reading-room
+exporter requires these exact pins and replays the import from the old allocator
+before using corrected metadata with the historical CD1 reference. A changed
+source without a matching reviewed migration fails; no hash gate is bypassed.
+
+The previous expanded catalog remains reproducible:
+
+```sh
+PYTHONPATH=src python3 -m tools.toc_snapshot --record \
+  data/catalog/toc-snapshots/15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727.json
+```
+
+The CD1 standalone reference builder uses that historical catalog explicitly.
+Its content reproduces unchanged; its implementation provenance records the
+updated builder. Current reader TOC and search metadata use the corrected source.
+The older two-article witness snapshot remains independent. Previous scan
+comparison reports retain their original TOC hash and review scope.

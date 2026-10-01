@@ -87,9 +87,11 @@ def _export(reference, toc, output, issue_filter, covers, cover_checkpoint, thum
     manifest = read(reference / 'manifest.json')
     if manifest.get('kind') != 'cd1-readable-reference' or manifest.get('schema_version') != 1:
         raise ValueError('Unsupported or missing CD1 reference manifest')
-    for name, key in [('issues.json', 'issues_sha256'), ('toc-entries.jsonl', 'toc_sha256')]:
-        if digest(toc / name) != manifest['inputs'][key]:
-            raise ValueError(f'{name} differs from the pinned CD1 reference snapshot')
+    migration = receipt = None
+    if any(digest(toc / name) != manifest['inputs'][key] for name, key in
+           [('issues.json', 'issues_sha256'), ('toc-entries.jsonl', 'toc_sha256')]):
+        from tools.toc_migration import load_migration
+        migration, receipt = load_migration(toc, manifest['inputs'], ROOT)
     issue_rows = read(toc / 'issues.json')
     toc_rows = [json.loads(line) for line in (toc / 'toc-entries.jsonl').read_text(encoding='utf-8').splitlines()]
     articles = read(reference / 'catalog.json')
@@ -130,6 +132,9 @@ def _export(reference, toc, output, issue_filter, covers, cover_checkpoint, thum
             if entry['kind'] == 'article':
                 doc = read(package / entry['path'])
                 article_metadata[doc['id']] = {'byline': doc['byline'], 'page': doc['pages']['start']}
+    if migration:
+        from tools.toc_migration import migrate_links
+        reviewed = migrate_links(reviewed, migration)
     for article in articles:
         article.update(article_metadata.get(article['article_id'], {'byline': None, 'page': None}))
         by_issue[article['issue_id']].append(article)
@@ -200,12 +205,14 @@ def _export(reference, toc, output, issue_filter, covers, cover_checkpoint, thum
                   'sha256': digest(p)} for p in sorted(output.rglob('*')) if p.is_file() and p.name != 'manifest.json']
     result = {'schemaVersion': VERSION, 'kind': 'reading-room-static',
               'sourceManifestSha256': digest(reference / 'manifest.json'),
-              'tocSha256': manifest['inputs']['toc_sha256'], 'issuesSha256': manifest['inputs']['issues_sha256'],
+              'tocSha256': digest(toc / 'toc-entries.jsonl'), 'issuesSha256': digest(toc / 'issues.json'),
               'counts': {'issues': len(issues), 'tocEntries': len(toc_rows),
                          'articles': len(articles), 'texts': sum(a['text'] is not None for a in articles),
                          'listings': sum(a['listings'] for a in articles), 'mediaRecords': len(images)},
               'files': inventory}
     from .covers import POLICY
+    if receipt:
+        result['tocMigration'] = receipt
     result['coverPolicy'] = POLICY
     result['coverInputs'] = cover_inputs
     result['counts']['covers'] = sum(i['cover'] is not None for i in issues)

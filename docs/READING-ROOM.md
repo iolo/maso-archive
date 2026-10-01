@@ -12,7 +12,7 @@ CD text is a secondary transcription pending comparison with paper magazines.
 | CD3 | 18 native groups | 968 | 968 | 0 (code stays in article text) |
 | Combined | 152 | 3,386 | 3,378 | 3,212 |
 
-The 5,497 library TOC entries still cover 1983-11–1993-12. CD2/CD3 groups have
+The 5,299 library TOC entries still cover 1983-11–1993-12. CD2/CD3 groups have
 no invented TOC links. CD3 includes anomalous 1994/1996 labels and an undated
 group; overlapping labels remain separate by disc. These 152 navigation groups
 are not a claim of 152 distinct printed issues.
@@ -209,13 +209,16 @@ unchanged.
 
 For CD1, the adapter projects the existing `catalog.json`, per-article `reference.json`,
 text/listing files and media from `build/cd1-reference/`. It reads the pinned TOC
-snapshot and reviewed links from existing issue packages. Issue TOCs and CD article
-lists remain separate; an unmatched TOC entry does not imply absent CD content.
+snapshot or an explicitly validated owner correction migration, plus reviewed
+links from existing issue packages. The adapter replays migration decisions and
+preserves historical article records; it does not rewrite their source hashes.
+Issue TOCs and CD article lists remain separate; an unmatched TOC entry does not
+imply absent CD content.
 Article IDs, paragraph order, literal runs, code whitespace, gap markers and
 download bytes are retained. Source/reference records remain available through
 article links. Media has separate issue/resource identities and original links.
 
-The CD1 portion contains 5,497 TOC entries, 3,125 listing downloads and
+The CD1 portion contains 5,299 TOC entries, 3,125 listing downloads and
 6,783 issue-specific media records. Those media records represent 6,090 distinct
 referenced images: 4,979 viewable derivatives and 1,111 deferred originals.
 Eight candidate articles still have unresolved boundaries; 33 other references

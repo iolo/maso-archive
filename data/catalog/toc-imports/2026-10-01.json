@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "checkpoint": "12-catalog-reconcile",
+  "status": "complete",
+  "source": {
+    "path": "TOC.md",
+    "bytes": 252444,
+    "sha256": "725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56"
+  },
+  "migration": {
+    "path": "data/catalog/toc-migrations/725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56.json",
+    "bytes": 260652,
+    "sha256": "1036105626de5b2cd94fe53edae63797b00dc03c78941d0aa68ecbef663247a9"
+  },
+  "identity_counts": {
+    "previous_entries": 5497,
+    "current_entries": 5299,
+    "preserved_ids": 5032,
+    "new_ids": 267,
+    "retired_ids": 465
+  },
+  "current_import": {
+    "path": "build/toc/manifest.json",
+    "bytes": 1237,
+    "sha256": "70c3dd2483f542b54f7791cd04ae78db6f5c93ebf74bcd5e6c7f5da8ff46192f"
+  },
+  "pdf_queue": {
+    "path": "private/pdf-restoration/inventory-2026-10-01/queue.jsonl",
+    "bytes": 951227,
+    "sha256": "c56b0e0a3972a725d88ec00985e630beb5f2fca0c951ccf5ab60e977c76787d0"
+  },
+  "pdf_queue_report": {
+    "path": "private/pdf-restoration/inventory-2026-10-01/report.json",
+    "bytes": 2382,
+    "sha256": "cf36da6e29e42a73a296a53d514a81571eaec8b4a6557cd4dc68236a8754802d"
+  },
+  "preserved_step11_ledger": {
+    "path": "private/pdf-restoration/11-november/issue-progress.json",
+    "bytes": 100631,
+    "sha256": "abb896ed6bde00c0ae563e990fa5eee27d1d365500b3fcab096c8e5e89a597c5"
+  },
+  "preserved_samples": [
+    {
+      "toc_entry_id": "maso-1988-01-toc-0018",
+      "package": {
+        "path": "build/pdf-restoration/6b-turbo-pascal/manifest.json",
+        "bytes": 8652,
+        "sha256": "da3e7f95158434e11cf144c06d6ca9b0a32e273ec00114a248c1e428a2ebeaa1"
+      },
+      "availability": "readable",
+      "verification": "sample-reviewed"
+    },
+    {
+      "toc_entry_id": "maso-1991-08-toc-0004",
+      "package": {
+        "path": "build/pdf-restoration/6c-basic-column/manifest.json",
+        "bytes": 10596,
+        "sha256": "a8d83368a7d1a374323ef107fcadaf25ae0c7ecca17137ce59a9f4e76be223f7"
+      },
+      "availability": "readable",
+      "verification": "sample-reviewed"
+    }
+  ],
+  "reader_manifest": {
+    "path": "build/reading-room-catalog-reconciled/data/manifest.json",
+    "bytes": 6787748,
+    "sha256": "c793b9cdfd8c6a7700e9b5a4ac9828e60aa942babf162caf5c50de22c80d2448"
+  },
+  "pdf_reader_manifest": {
+    "path": "build/reading-room-pdf-reconciled/data/manifest.json",
+    "bytes": 7665258,
+    "sha256": "e7f5d928ea5b37bfb0f5971a9993cd37c342097142bb132919f160839157e486"
+  },
+  "reader_counts": {
+    "covers": 149,
+    "tocEntries": 5299,
+    "mediaRecords": 10177,
+    "coverAssets": 145,
+    "texts": 3413,
+    "listings": 3237,
+    "articles": 3421,
+    "issues": 152
+  },
+  "baseline_files_preserved_during_pdf_staging": 45292,
+  "original_pdf_package_content_files": 4915,
+  "cover_assets": 145,
+  "toc_pages": 239,
+  "toc_derivatives": 478,
+  "tests": {
+    "toc_and_snapshot": 21,
+    "pdf": 59,
+    "reader": 56,
+    "frontend": 15,
+    "typescript": true,
+    "production_build": true
+  },
+  "browser": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "cover": [
+      444,
+      640
+    ],
+    "toc_readable": [
+      1600,
+      2354
+    ],
+    "readable_requests_before_open": 0,
+    "toc_page_selection": true,
+    "zoom_scroll": 200,
+    "escape_and_focus": true,
+    "section_top": 84.875,
+    "corrected_toc_and_search": true,
+    "mobile_overflow": false,
+    "cd_routes": 3,
+    "actual_article_download_bytes": 43508,
+    "actual_listing_download_bytes": 3512,
+    "download_bytes_match": true,
+    "console_errors": 0,
+    "console_warnings": 0,
+    "screenshots_inspected": true
+  },
+  "next_checkpoint": "12-1984-02-batch-01",
+  "limitations": [
+    "No new OCR or article extraction.",
+    "Prior scan comparison reports remain historical, not automatically reapproved against corrected TOC.",
+    "Manual bitmap correction in 잠수함 remains deferred.",
+    "Separate staged outputs; final aggregate installation remains step 13."
+  ]
+}

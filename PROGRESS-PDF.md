@@ -4071,3 +4071,65 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Step 11 is complete. Next is `12-1984-02-batch-01`: select canonical entries
   and map the first bounded February 1984 batch. Final aggregate installation
   remains step 13. Owner `/tocs/` ignore change and unrelated PRDs are untouched.
+
+### 2026-10-01 — 12-catalog-reconcile started
+
+- Authorized prerequisite before February extraction: reconcile the owner's
+  committed TOC corrections (`bccb3e0`), preserve stable identities and prior
+  article evidence, and retain the completed cover/TOC image integration.
+- Preserved the previous 5,497-entry TOC as a reproducible historical snapshot.
+  An isolated import probe rejected 956 unresolved old identities without
+  changing the current catalog. Reviewed spelling/byline/page corrections,
+  category splits and combined entries through explicit identity decisions.
+- Corrected import now has 122 issues, 5,299 entries and 4,170 provisional article
+  candidates. November's 47 and February's 43 entries are unchanged. Reader
+  dependency migration, PDF queue refresh and validation remain in progress.
+
+### 2026-10-01 — 12-catalog-reconcile complete
+
+- Imported the owner's corrected `TOC.md` without editing it: 122 issues,
+  **5,299 entries and 4,170 provisional article candidates**. Explicit decisions
+  preserve 5,032 IDs, allocate 267 new IDs and retire 465 IDs without reuse.
+  Retirements record successors for merged entries; the two omitted entries
+  without successors had no reader links. All prior reading links carry forward.
+- Preserved the previous expanded catalog as a reproducible Git-backed snapshot.
+  The reader requires pinned migration inputs and exact import replay before
+  combining corrected metadata with historical CD1 packages. A real standalone
+  CD1 rebuild reproduces all 26,827 content files; only its exporter provenance
+  changes. Existing article identities, bodies and historical evidence stay intact.
+- Refreshed the PDF queue at
+  `private/pdf-restoration/inventory-2026-10-01/queue.jsonl`: **828 entries and
+  686 provisional article candidates** across the same 19 eligible PDFs.
+  Original PDF/evidence hashes validate; each completed November entry retains
+  its original outcome. November's 47 and February's 43 catalog entries are
+  unchanged. No new OCR, extraction or source-page mapping in this checkpoint.
+- Exported `build/reading-room-catalog-reconciled/data`, then staged all 35
+  November articles in `build/reading-room-pdf-reconciled`. The combined reader
+  has **3,421 articles**, 3,413 texts, 3,237 listings and 10,177 media records.
+  Final data manifest SHA-256:
+  `e7f5d928ea5b37bfb0f5971a9993cd37c342097142bb132919f160839157e486`.
+- Retained the completed cover/TOC work: 145 donated cover derivatives assigned
+  to 149 groups, 239 TOC pages with 478 derivatives and 24 later image galleries.
+  Cover priority remains donated → verified PDF → placeholder. Original scans
+  stay private; historical TOC comparison findings are not silently reapproved.
+- Preservation checks pass for all 3,386 CD article records, all 35 original
+  November packages (4,915 content files plus 35 manifests), the step 11 ledger,
+  and both contrasting sample packages. Separate staged outputs leave prior
+  exports unchanged. Deferred manual bitmap corrections remain available in
+  the original `corrections.json` records.
+- Validation passed: 21 TOC/migration/snapshot tests, 59 PDF tests, 56 reader
+  tests, 15 frontend tests, TypeScript and production build. The final combined
+  export passes the complete file-hash and reader integrity checks.
+- Desktop 1440×1000/mobile 390×844 browser checks pass for donated covers,
+  lazy TOC loading, page selection, zoom, Escape/focus restoration, November
+  section navigation, February metadata, corrected titles/search and CD1/2/3
+  article routes. Actual 43,508-byte article and 3,512-byte listing downloads
+  match originals. No mobile page overflow or console errors/warnings;
+  screenshots inspected and test browser closed.
+- Tracked checkpoint receipt: `data/catalog/toc-imports/2026-10-01.json`.
+  Private audit and validation evidence:
+  `private/pdf-restoration/12-catalog-reconcile/completion-audit.json`.
+  Browser evidence: `output/playwright/pdf-catalog-reconcile`.
+- Next is **12-1984-02-batch-01**: select and map the first bounded February
+  batch using the refreshed queue. Use the reconciled reader baseline for later
+  staging. Step 12 remains open; final aggregate installation remains step 13.

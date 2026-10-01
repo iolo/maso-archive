@@ -190,11 +190,11 @@ class ImportTests(unittest.TestCase):
         source = ROOT / "TOC.md"
         report = run_import(source, self.output, self.ids)
         self.assertEqual(report["counts"]["issues"], 122)
-        self.assertEqual(report["counts"]["entries"], 5497)
+        self.assertEqual(report["counts"]["entries"], 5299)
         self.assertEqual(report["errors"], [])
         lines = source.read_text(encoding="utf-8").splitlines()
         entries = self.entries()
-        self.assertEqual(len({entry["id"] for entry in entries}), 5497)
+        self.assertEqual(len({entry["id"] for entry in entries}), 5299)
         self.assertEqual(
             {entry["source"]["line_start"] for entry in entries},
             {i for i, line in enumerate(lines, 1) if line.lstrip().startswith("- ")},

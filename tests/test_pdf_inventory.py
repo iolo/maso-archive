@@ -4,11 +4,37 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
-from tools.pdf_restore.inventory import load_toc, page_metadata, pin, queue_for, text_pages, write_json
+from tools.pdf_restore.inventory import load_toc, page_metadata, pin, queue_for, refresh_queue, text_pages, write_json
 
 
 class PDFInventoryTests(unittest.TestCase):
+    def test_queue_refresh_preserves_completed_outcomes_and_rejects_changed_evidence(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / 'scan.pdf').write_bytes(b'synthetic scan')
+            source = dict(pin(root, 'scan.pdf'), id='pdf-sample', provisional_issue_id='issue',
+                          scope='toc-entries-and-cover', page_count=1, evidence=[])
+            write_json(root / 'sources.json', dict(sources=[source]))
+            row = dict(id='heading', issue_id='issue', parent_id=None, title_candidate='Group')
+            outcome = dict(toc_entry_id='heading', title='Group', parent_id=None,
+                           classification='group-heading', body_owner=False, restoration=None)
+            write_json(root / 'ledger.json', dict(status='complete', issue_id='issue', entries=[outcome]))
+            totals = dict(sources=1, pages=1, bytes=len(b'synthetic scan'), toc_issues=1, toc_entries=1, article_candidates=0)
+            with patch('tools.pdf_restore.inventory.load_toc', return_value=([], [], [row], [])), patch('tools.pdf_restore.inventory.EXPECTED', totals):
+                refresh_queue(root / 'sources.json', root / 'output', [root / 'ledger.json'], root)
+                saved = (root / 'output/queue.jsonl').read_bytes()
+                self.assertEqual(json.loads(saved)['completed_outcome'], outcome)
+                row['title_candidate'] = 'Changed title'
+                with self.assertRaisesRegex(ValueError, 'metadata changed'):
+                    refresh_queue(root / 'sources.json', root / 'rejected', [root / 'ledger.json'], root)
+                self.assertFalse((root / 'rejected').exists())
+                (root / 'scan.pdf').write_bytes(b'changed scan')
+                with self.assertRaisesRegex(ValueError, 'hash/size differs'):
+                    refresh_queue(root / 'sources.json', root / 'rejected', [], root)
+                self.assertEqual((root / 'output/queue.jsonl').read_bytes(), saved)
+
     def test_rotation_boxes_and_index_conventions(self):
         raw = '''Pages: 2
 Page 1 size: 100 x 200 pts

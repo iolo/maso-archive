@@ -66,7 +66,12 @@ class SnapshotTests(unittest.TestCase):
             output = root / "output"
             run_import(root / "TOC.md", output, identities, **descriptor["import_manifest"]["parameters"])
             old_entries = [json.loads(line) for line in (output / "toc-entries.jsonl").read_bytes().splitlines()]
-            result = run_import(ROOT / "TOC.md", output, identities)
+            # This test certifies the earlier expansion, not later owner edits.
+            expanded = json.loads((ROOT / 'data/catalog/toc-imports/1993-12.json').read_bytes())
+            expanded_record = json.loads((ROOT / ('data/catalog/toc-snapshots/' + expanded['source']['sha256'] + '.json')).read_bytes())
+            source = root / 'expanded.md'
+            source.write_bytes(subprocess.check_output(['git', 'cat-file', 'blob', expanded_record['source_git_blob']], cwd=ROOT))
+            result = run_import(source, output, identities)
             entries = [json.loads(line) for line in (output / "toc-entries.jsonl").read_bytes().splitlines()]
             registry = json.loads(identities.read_bytes())
             self.assertEqual(registry["entries"][:3811], old_registry["entries"])
@@ -81,7 +86,7 @@ class SnapshotTests(unittest.TestCase):
             self.assertEqual(result["errors"], [])
             before = {p.name: p.read_bytes() for p in output.iterdir()}
             before_ids = identities.read_bytes()
-            run_import(ROOT / "TOC.md", output, identities)
+            run_import(source, output, identities)
             self.assertEqual(before, {p.name: p.read_bytes() for p in output.iterdir()})
             self.assertEqual(before_ids, identities.read_bytes())
 

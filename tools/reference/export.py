@@ -181,7 +181,12 @@ def build(output=OUTPUT,write_record=False):
             require(article['id'] not in prepared,'Duplicate prepared article')
             prepared[article['id']]=(article,media,package,manifest)
     require(len(prepared)==995,'Prepared reference population changed')
-    toc_path=ROOT/'build/toc/toc-entries.jsonl';issue_path=ROOT/'build/toc/issues.json'
+    # This historical reference keeps its original catalog, independently of
+    # the current reader's explicitly reviewed metadata migration.
+    from tools.toc_snapshot import Snapshot
+    snapshot=Snapshot(ROOT, 'data/catalog/toc-snapshots/15d932cf6a34f14981b07ff875d1b5be4f43a525063c303d2d99f54169987727.json')
+    snapshot.restore()
+    toc_path=snapshot.directory/'build/toc/toc-entries.jsonl';issue_path=snapshot.directory/'build/toc/issues.json'
     toc=[json.loads(l) for l in toc_path.read_bytes().splitlines()];all_issues=read(issue_path)
     require(len(toc)==5497 and len(all_issues)==122,'TOC population changed')
     # Current metadata is kept separate from older package TOC snapshots.

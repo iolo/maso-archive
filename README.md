@@ -63,9 +63,10 @@ See [adding covers and retiring legacy JPEGs](docs/READING-ROOM.md#add-or-replac
 | Combined | 152 | 3,386 | 3,378 | 3,212 |
 
 The archive target is November 1983–December 1995 (146 monthly issues).
-The supplied library TOCs cover 122 issues through December 1993, with 5,497
-entries. The 152 navigation groups are **not 152 distinct verified printed
-issues**: CD2/CD3 keep their own identities, overlapping dates and CD3's
+The supplied library TOCs cover 122 issues through December 1993, with 5,299
+entries after the owner’s manual corrections. The 152 navigation groups are
+**not 152 distinct verified printed issues**: CD2/CD3 keep their own identities,
+overlapping dates and CD3's
 anomalous 1994/1996 labels and undated group. No later TOC associations were
 invented. The combined media index has 9,990 group/resource records, including
 unavailable states; CD2/CD3 supply 1,837 original attachment links.
@@ -73,7 +74,8 @@ unavailable states; CD2/CD3 supply 1,837 original attachment links.
 The reader also includes 239 donated TOC pages as reduced images, including a
 separate gallery for the 24 issue sets from 1994–1995. The original scans and OCR
 stay private. [TOC comparison results](docs/TOC-RESTORATION.md#reviewed-donation-results--2026-09-30)
-record 420 visual findings for manual review; the library catalog remains unchanged.
+record 420 historical visual findings. The owner’s subsequent catalog corrections
+are imported through the [reviewed identity migration](docs/TOC-IMPORT.md#owner-correction-migration--2026-10-01).
 
 All three standalone references remain available:
 

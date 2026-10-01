@@ -2118,3 +2118,28 @@ manifest and correction evidence. The reader export copies the CD baseline once
 and validates all added documents and unchanged CD files before publication.
 See [the version3 contract](READING-ROOM-STATIC-V3.md#complete-scan-issues) for
 section navigation, accounting fields and staged preview commands.
+
+
+### Resume after the owner TOC correction
+
+Use the current catalog import and queue from the 2026-10-01 reconciliation.
+Keep the initial inventory and completed article packages unchanged. Refreshing
+the queue validates existing PDF/evidence hashes without repeating extraction:
+
+```sh
+PYTHONPATH=src python3 -m tools.pdf_restore.inventory \
+  --refresh-from private/pdf-restoration/inventory/sources.json \
+  --completed-ledger private/pdf-restoration/11-november/issue-progress.json \
+  --output private/pdf-restoration/inventory-2026-10-01
+```
+
+The output must be fresh. Current totals are 828 TOC entries and 686 provisional
+article candidates. Each completed November entry includes its original
+`completed_outcome`; other entries still require local eligibility/mapping review.
+The report pins the old source inventory, current catalog and completion ledger.
+
+The combined staged preview is `build/reading-room-pdf-reconciled`. It adds all
+35 November articles to `build/reading-room-catalog-reconciled/data`, which uses
+the corrected catalog, donated cover thumbnails and existing TOC image collection.
+Use this updated baseline for subsequent PDF staging. Earlier November exports
+remain historical checkpoints. Final aggregate installation remains step 13.

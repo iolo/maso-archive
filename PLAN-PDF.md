@@ -1,13 +1,15 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-09-30. Status: **steps 1–11 complete.** November 1983's
+Revised 2026-10-01. Status: **steps 1–11 complete.** November 1983's
 47 TOC entries are accounted for: 35 readable/sample-reviewed articles, five
 group headings and seven section references. The standalone issue reference and
 complete staged reader export passed integrity and desktop/mobile checks.
 No partial, image-only, failed or unresolved article outcomes remain for this
 issue; manual bitmap correction in 잠수함 and full proofreading remain deferred.
-Next: **12-1984-02-batch-01**, within the established two-article/six-page limits.
-Ignore `tocs/` for now as requested.
+The **12-catalog-reconcile** checkpoint is complete: the owner's corrected TOC,
+completed cover/TOC image integration and all 35 November articles coexist in a
+validated staged reader. Next is **12-1984-02-batch-01**, within the established
+two-article/six-page limits. Step 12's remaining-issue campaign is still open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -45,6 +47,26 @@ useful results with explicit gaps. Follow the bounded checkpoint approach in
 - Use scans as evidence for corrections. Preserve raw OCR, CD transcription,
   and scan-supported corrections separately. Reproducibility does not establish
   transcription accuracy or complete printed-issue coverage.
+
+## Cover and TOC integration after step 11
+
+- `TOC.md`, including the owner's `bccb3e0` corrections, remains authoritative.
+  OCR findings do not authorize further catalog edits. Preserve stable IDs with
+  explicit decisions; keep old catalog snapshots and article packages unchanged.
+- Follow [PLAN-covers.md](PLAN-covers.md): donated cover → verified PDF cover →
+  placeholder. Serve only bounded derivatives, never donated originals. Reuse the
+  completed cover preparation rather than restoring deleted legacy JPEGs.
+- Follow [PLAN-tocs.md](PLAN-tocs.md): preserve normalized originals and the
+  reduced-image viewer/gallery. Completed scan comparison reports remain pinned
+  historical evidence; a new catalog hash does not silently reapprove them.
+- The corrected import contains 5,299 entries across 122 issues. The PDF queue
+  now contains **828 entries and 686 provisional article candidates** across the
+  same 19 eligible PDFs. These replace the original 839/684 sizing totals below.
+  November's 47 entries and February's 43 entries are unchanged.
+- Current PDF queue: `private/pdf-restoration/inventory-2026-10-01/queue.jsonl`.
+  Its report pins the original source inventory and November completion ledger;
+  `completed_outcome` preserves finished classifications and restoration states.
+  Original inventory and step 11 closeout records remain historical artifacts.
 
 ## Inspected starting point
 
@@ -352,8 +374,8 @@ issue in the staged reader before moving to remaining issues.
   visible rather than inflating restoration totals.
 
 **Artifact/check per batch and issue:** the same outputs/checks as step 11, with
-an issue progress entry. **Milestone check:** all 839 TOC entries are accounted
-for, subject to any evidenced input correction recorded in step 1; each eligible
+an issue progress entry. **Milestone check:** all 828 current TOC entries are accounted
+for (839 in the initial snapshot; corrected by the owner after step 11); each eligible
 article has an outcome and the two 1995 sources remain cover-only. Report actual
 usable coverage separately from complete queue accounting.
 

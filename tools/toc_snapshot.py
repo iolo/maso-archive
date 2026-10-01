@@ -21,12 +21,14 @@ RECORD = f"data/catalog/toc-snapshots/{SOURCE_SHA}.json"
 
 
 class Snapshot:
-    def __init__(self, root=ROOT):
+    def __init__(self, root=ROOT, record=RECORD):
         self.root = Path(root)
-        self.record = json.loads((self.root / RECORD).read_bytes())
-        if self.record["source_sha256"] != SOURCE_SHA:
+        self.record = json.loads((self.root / record).read_bytes())
+        source_sha = self.record["source_sha256"]
+        if (len(source_sha) != 64 or any(c not in '0123456789abcdef' for c in source_sha) or
+                self.record['import_manifest']['source']['sha256'] != source_sha):
             raise ValueError("Unexpected historical TOC source")
-        self.directory = self.root / "build/toc-snapshots" / SOURCE_SHA
+        self.directory = self.root / "build/toc-snapshots" / source_sha
         self.files = {r["path"]: r for r in self.record["files"]}
         if len(self.files) != len(self.record["files"]):
             raise ValueError("Duplicate snapshot paths")
@@ -82,13 +84,15 @@ def read_input(root, path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.parse_args()
+    parser.add_argument('--record', default=RECORD, help='Pinned snapshot descriptor')
+    args = parser.parse_args()
     try:
-        Snapshot().restore()
+        snapshot = Snapshot(record=args.record)
+        snapshot.restore()
     except (OSError, ValueError, KeyError, subprocess.CalledProcessError) as exc:
         print(f"TOC snapshot restore failed: {exc}", file=sys.stderr)
         return 1
-    print(f"Historical TOC snapshot verified: {SOURCE_SHA}")
+    print(f"Historical TOC snapshot verified: {snapshot.record['source_sha256']}")
     return 0
 
 

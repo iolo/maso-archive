@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]
 ISSUES = ('8311 8402 8403 8405 8406 8407 8408 8409 8410 8412 '
           '8502 8503 8510 8511 8801 9108 9109 9212 9303 9503 9507').split()
 EXPECTED = dict(sources=21, pages=6615, bytes=2664455314,
-                toc_issues=19, toc_entries=839, article_candidates=684)
+                toc_issues=19, toc_entries=828, article_candidates=686)
 
 
 def digest(path):
@@ -197,11 +197,73 @@ def inventory(root=ROOT, output=None):
     return totals
 
 
+
+def refresh_queue(source_record, output, completed_ledgers=(), root=ROOT):
+    """Reconcile current catalog metadata while retaining original PDF evidence."""
+    from .build import checked
+    source_record, output = Path(source_record).resolve(), Path(output).resolve()
+    if output.exists():
+        raise ValueError('Use a fresh queue output')
+    original = json.loads(source_record.read_bytes())
+    sources = original['sources']
+    inputs, _, entries, candidates = load_toc(root)
+    for source in sources:
+        checked(root, {k: source[k] for k in ('path', 'bytes', 'sha256')})
+        for evidence in source['evidence']:
+            checked(source_record.parent, evidence)
+    queue = queue_for(sources, entries, candidates)
+    by_id = {q['toc_entry_id']: q for q in queue}
+    completed = []
+    for path in completed_ledgers:
+        path = Path(path).resolve()
+        ledger = json.loads(path.read_bytes())
+        rows = [q for q in queue if q['issue_id'] == ledger['issue_id']]
+        if ledger['status'] != 'complete' or [q['toc_entry_id'] for q in rows] != [e['toc_entry_id'] for e in ledger['entries']]:
+            raise ValueError('Completed issue membership changed; review required')
+        for entry in ledger['entries']:
+            row = by_id[entry['toc_entry_id']]
+            toc = row['toc_entry']
+            if toc['title_candidate'] != entry['title'] or toc['parent_id'] != entry['parent_id']:
+                raise ValueError('Completed issue metadata changed; review required')
+            if entry.get('restoration'):
+                checked(root, entry['restoration']['manifest'])
+            # Keep the original outcome record intact and explicitly pinned.
+            row['completed_outcome'] = entry
+        completed.append(pin(root, path.relative_to(root).as_posix()))
+    totals = dict(sources=len(sources), pages=sum(s['page_count'] for s in sources),
+                  bytes=sum(s['bytes'] for s in sources), toc_issues=len({q['issue_id'] for q in queue}),
+                  toc_entries=len(queue), article_candidates=sum(q['provisional_article_id'] is not None for q in queue))
+    if totals != EXPECTED:
+        raise ValueError(f'Plan counts differ; review input correction: {totals}')
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='.queue-refresh-', dir=output.parent) as temp:
+        stage = Path(temp) / 'queue'
+        stage.mkdir()
+        (stage / 'queue.jsonl').write_text(''.join(json.dumps(q, ensure_ascii=False, sort_keys=True) + '\n' for q in queue))
+        report = dict(checkpoint='catalog-reconciliation', totals=totals, inputs=inputs,
+                      original_sources=pin(root, source_record.relative_to(root).as_posix()),
+                      completed_ledgers=completed, queue=pin(stage, 'queue.jsonl'),
+                      note='No new OCR or mapping. Original inventories and completed packages remain immutable. Other entries retain provisional eligibility.')
+        write_json(stage / 'report.json', report)
+        for record in inputs + completed:
+            checked(root, record)
+        stage.rename(output)
+    return totals
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path)
+    parser.add_argument('--refresh-from', type=Path, help='Reuse a pinned sources.json; no PDF extraction')
+    parser.add_argument('--completed-ledger', type=Path, action='append', default=[])
     args = parser.parse_args()
-    print(json.dumps(inventory(output=args.output), indent=2))
+    if args.refresh_from:
+        if args.output is None:
+            parser.error('--refresh-from requires a fresh --output')
+        result = refresh_queue(args.refresh_from, args.output, args.completed_ledger)
+    else:
+        result = inventory(output=args.output)
+    print(json.dumps(result, indent=2))
 
 
 if __name__ == '__main__':
