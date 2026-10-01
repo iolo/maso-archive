@@ -5787,3 +5787,24 @@ history remains in [PROGRESS.md](PROGRESS.md).
   rejects code. Add an opt-in combined projection with focused tests if needed,
   preserving prior mode behavior and all original packages. Whole-issue closeout
   and reader staging remain open; authoritative TOC and cover/TOC work are intact.
+
+
+### 2026-10-01 — 12-1984-02-accounting-assemble started
+
+- Assemble the eleven preserved accounting pages without new OCR. Add an opt-in
+  combined regional/listing projection so all correction ranges remain usable in
+  the complete downloads; preserve historical modes and both source packages.
+
+
+### 2026-10-01 — restoration cost audit requested
+
+- Paused further restoration for a measured/estimated cost breakdown. See
+  `docs/PDF-COST-AUDIT.md`; private aggregate evidence is under
+  `private/pdf-restoration/cost-audit-2026-10-01`. No pipeline changes made for
+  the audit. Current accounting assembly remains pending closeout:73 PDF tests,
+  immutable rebuild,4,438 prior pins and desktop/mobile browser checks passed.
+- Completed February sample:24 batches and four assemblies,10h34m elapsed
+  including waits. Initial and revised render/OCR task execution totals20m36s.
+  There were53 revised-region reruns plus five new regions, no task failures.
+  Token accounting separates cached input, uncached input and output; finer
+  activity attribution is explicitly approximate. Restoration has not resumed.
