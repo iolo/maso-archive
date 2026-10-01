@@ -58,17 +58,19 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **34 readable articles**, all sample-reviewed, no partial articles,
-four classified group headings and five unresolved entries. Batches25–29 restored
+has **35 readable articles**, all sample-reviewed, no partial articles,
+four classified group headings and four unresolved entries. Batches25–29 restored
 UNIX, VisiCalc 활용, 우수한 프로그래머가 되는 첩경 and dBASEII, and classified
 테크니컬. Batches30–38 and their assemblies completed 로더란 무엇인가,
 기계어 테크닉, the16-page 한글 워드프로세서의 설계2 and the eight-page
 A/D,D/A의 이론과 실제1. All original segments and correction evidence remain
 preserved. Batch39 restored the complete competition notice200/PDF196 and
 second competition review201/PDF197, including all11 reviewed submissions.
-Next is **12-1984-02-batch-40**: verify SNAKY GAME from202/PDF198 and restore
-at most six source pages. The other game, dictionary supplement and two section
-classifications remain, followed by full issue reconciliation and closeout.
+Batch40 restored complete SNAKY GAME202–207/PDF198–203,including148 numbered
+BASIC statements in282 physical rows,five images and two searchable tables.
+Next is **12-1984-02-batch-41**: verify 지하괴물잡기 from208/PDF204 and
+restore at most six source pages. The dictionary supplement and two section
+classifications remain,followed by full issue reconciliation and closeout.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -677,6 +679,13 @@ issue in the staged reader before moving to remaining issues.
   validate. Historical rules,prizes,names and printed spelling errors remain
   source-linked. No retries or browser work;both fresh rebuilds match.
   Next verify SNAKY GAME from202/PDF198 within the six-page batch limit.
+- SNAKY GAME202–207/PDF198–203 is complete:51 regions,42 blocks,five images,
+  four captions and two searchable tables with28 indexed rows.148 numbered
+  BASIC statements retain282 physical wraps/rows,seven uncertain blank-string
+  widths and26 final DATA values.46 regional ranges,45 reviews,33 Unicode spans
+  and29 listing reviews validate.13 one-time crop extensions preserve initial
+  evidence and reuse38 unchanged regions;fresh rebuild matches. Next verify
+  지하괴물잡기 from208/PDF204. No per-batch browser work is required.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

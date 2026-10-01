@@ -6641,3 +6641,62 @@ history remains in [PROGRESS.md](PROGRESS.md).
   classifications. Next verify SNAKY GAME from202/PDF198,at most six pages.
   Full issue reconciliation,standalone reference/report and reader acceptance
   remain open. Corrected TOC and completed cover/TOC integrations are unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-40 started
+
+- Verify SNAKY GAME from202/PDF198 through its boundary with the next game.
+  Preserve8,455 prior-file pins and source-linked BASIC layout;restore at most
+  six source pages. Previous1acbe04 made progress. Package checks only.
+
+### 2026-10-02 — 12-1984-02-batch-40 complete: SNAKY GAME
+
+- Complete six-page article202–207/PDF198–203,TOC0034. Visible folios,
+  running titles and next208/PDF204 지하괴물잡기 verify the extent. Source
+  title,프로그램 공모 최우수상,애플 컴패터블 and 김 진규's affiliation
+  are retained. No unrelated page or advertisement was included.
+- 51 regions,42 blocks,five original images and four captions preserve the
+  screen,two tables,key diagram and complete flowchart. Searchable tables
+  retain22 variable rows and five routine rows plus one header. Four explicit
+  prose joins cover 이/동,대/한 and two paragraph continuations.
+- BASIC10–17000:148 numbered statements in282 physical rows. Identifiers,
+  quoted strings and branch targets preserve source wraps,including S/F,
+  S/S,77/0,102/10 and1204/0. No numeric continuation becomes a new statement.
+  All26 final DATA values are indexed without execution or decoding claims.
+- Corrections retain46 regional ranges,45 review excerpts,33 Unicode spans,
+  29 listing review ranges and seven unknown blank-string widths. Tiny marks
+  before RETURN,FF,N and1,and printed dot/apostrophe-like marks remain
+  provisional readings for manual correction. Prose 개소한,움직이지 않기
+  하기,행번호120,행번호500이하 and3160～3080 remain literal. Original
+  character bytes,exact quoted spacing and executable correctness are unverified.
+- One crop expansion each for12 listing regions and one clipped prose region
+  recovers edge text;38 unaffected regions reuse cache. Adjacent-row context
+  overlaps are excluded from transcription,so source rows appear exactly once.
+  Original maps/OCR remain alongside revised versions.51 initial tasks plus13
+  revision tasks completed with zero processing failures. One request-field
+  error failed preparation before OCR;two transcription assertions initially
+  mistook numeric continuations for statement numbers and were corrected to
+  use explicit source-number sequences. These are recorded authoring retries.
+- Validation passed:all images/pins,table rows,physical/logical listing spans,
+  correction/glyph ranges,source ordering,ZIP contents and a fresh byte-identical
+  rebuild. All8,455 prior-file pins remain unchanged. Generic tooling and
+  its77-test log remain unchanged and were verified without repeating tests.
+  No browser,reader staging,emulator work or program execution.
+- Measured task-ledger execution:34.662849s initial plus13.692476s revision,
+  total48.355325s. Revised cached processing totals include reused work and
+  were not added again. Wall checkpoint interval858.3s includes mapping,
+  transcription,source review,authoring retries,validation/rebuild and closeout;
+  it is not active compute time. Stage token usage was not measured.
+- Output `build/pdf-restoration/12-1984-02-batch-40`:202 files,
+  31,671,627 bytes;article.txt22,473 bytes,listing.txt6,757 bytes.
+  Article manifest SHA-256:
+  `8639e98557c12296d6dc23d409db9923eaaa1199ab45ba28bcdde15c34849bb8`.
+  Wrapper manifest SHA-256:
+  `1845e9abc65e3b6387f3e34238e9d5901dbb93988c5b1be00e8fae581b2a82e2`.
+  Maps,initial/revised evidence,transcriptions,corrections,validation,ledger
+  snapshots and next-checkpoint plan are in the matching private directory.
+- February:43 entries,35 readable/sample-reviewed articles,no partials,four
+  classified group headings and four unresolved entries. Only0034 changed.
+  Next verify 지하괴물잡기 from208/PDF204;the dictionary supplement and
+  two section classifications remain. Full issue reconciliation,standalone
+  reference/report and reader integration remain pending. Corrected TOC and
+  completed cover/TOC integration are intact.
