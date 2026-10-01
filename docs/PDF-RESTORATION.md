@@ -2495,3 +2495,42 @@ one group heading and36 unresolved eligibility decisions. Next is
 `12-1984-02-batch-09`: verify 3차원 미로 and 드래곤 within the two-article/six-page
 ceiling. Only PDF43/printed52 is already verified. Issue reconciliation and the
 complete staged reader export remain ahead.
+
+### February 3차원 미로 and 드래곤
+
+`12-1984-02-batch-09` restores two complete, **readable/sample-reviewed** articles:
+
+- 3차원 미로: printed52–53 / PDF43–42,93 numbered BASIC lines in95 physical
+  rows, two original photograph halves, one prose join,24 text review notes and
+  18 listing anomalies. Two blank-looking strings and the hash-like mark at325
+  have explicit unresolved markers. The DATA line has12 literal numeric values.
+- 드래곤: printed54–55 / PDF41–40,125 numbered lines in170 physical rows,
+  the original title illustration,34 text review notes and31 listing anomalies.
+  Fourteen blank-looking strings have explicit markers. Printed syntax anomalies
+  and split targets130/1100/1200 remain literal. The lower advertisement on55
+  and following article at56 are excluded.
+
+Prose graphics use documented Unicode reading substitutes. Unknown code strings
+are not assigned guessed machine characters; inspect their linked scans in
+`corrections.json`. Neither listing is execution-verified. The initial crops and
+two revised evidence exports remain available: two code right edges and the
+illustration's sword tip were recovered without changing earlier packages.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-09/maze
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-09/dragon
+python3 -m http.server 4248 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-09
+```
+
+Both packages rebuild byte-identically. All1,424 prior-file pins pass; generic
+tooling is unchanged and the preceding65-test log remains pinned. Desktop/mobile
+acceptance passes for17 blocks,29 asset/download pins,58 review ranges, original
+scan access and four actual downloads. Screenshots are saved under
+`output/playwright/pdf-1984-02-batch-09`; the test browser is closed.
+
+February now has eight readable/sample-reviewed articles, no partial articles,
+one group heading and34 unresolved eligibility decisions. Next is
+`12-1984-02-batch-10`: verify 최신예 폭격기32K and 천하무적 제공호 within the
+two-article/six-page ceiling. Only PDF39/printed56 is already verified; later
+folios and boundaries remain candidates. Issue reconciliation/export remains ahead.

@@ -4723,3 +4723,65 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and 드래곤 and restore within two articles/six pages. Only PDF43/printed52 is
   already verified; later page locations and extents remain candidates. Complete
   issue accounting and staged reader export remain in progress.
+
+### 2026-10-01 — 12-1984-02-batch-09 started
+
+- Prior checkpoint committed as `ed94cf6`. Verify 3차원 미로 and 드래곤 locally
+  before restoring at most two articles/six source pages. The known opening is
+  PDF43/printed52; candidate continuation and boundary pages are42–39.
+- Saved fixed input pins, the February ledger snapshot and all prior February
+  package hashes. Preserve complete Microtext, earlier packages and cover/TOC
+  integration. The preceding goal turn made progress by completing and committing
+  the eight-page assembly; no active stall or failed prerequisite remains.
+
+### 2026-10-01 — 12-1984-02-batch-09 complete
+
+- Restored **3차원 미로** (printed52–53 / PDF43–42) and **드래곤**
+  (printed54–55 / PDF41–40) as **readable/sample-reviewed**. Verified all four
+  folios and both article boundaries locally. PDF39/printed56 starts 최신예
+  폭격기32K and remains outside this batch. The advertisement below 드래곤's
+  final code panels is explicitly excluded.
+- 3차원 미로 has11 regions, eight blocks and both original halves of its
+  facing-page photograph. Joined the prose boundary 미로 / 안을. BASIC10–1100
+  contains93 numbered lines in95 physical rows, retaining200/545 wraps. Its
+  correction record preserves24 text notes,18 listing anomalies, four Unicode
+  arrow substitutes and a12-value literal DATA index. Two blank-looking strings
+  and the hash-like mark at325 use explicit unknown markers. Printed duplicate
+  variable names,126 at380, parentheses and the unclosed860 quote remain literal.
+- 드래곤 has ten regions, nine blocks and the original title illustration.
+  BASIC5–1210 contains125 numbered lines in170 physical rows, including targets
+  split13/0,110/0 and1/200. Its correction record preserves34 text notes,
+  31 listing anomalies, three prose symbol substitutes and14 unknown blank
+  strings. Retained the parenthesis-like mark at340, high-score Z at790 and
+  comma at980. No inferred gameplay correction, execution or original-byte claim.
+- All21 initial OCR regions completed without engine failure. Enlarged review
+  found two clipped code right edges; revision reused19 regions and reprocessed
+  two. A second revision retained the illustration's complete sword tip, reusing
+  20 regions and reprocessing one. Original and both revised evidence exports
+  validate. Final cached rendering/cropping31.7s and OCR11.0s include reused
+  regions; these are not sums of all revision wall times. No failed-region retry.
+- Both article packages rebuild byte-identically:49 files /12,454,224 bytes for
+  미로 and48 files /7,960,135 bytes for 드래곤. All text/review ranges, physical/
+  logical indexes, literal DATA values, Unicode annotations and raw archive bytes
+  pass. All1,424 prior output-file pins and fixed inputs still match. Generic
+  tooling is unchanged; the preceding successful65-test log remains pinned.
+- Desktop1440×1000/mobile390×844 acceptance passes for17 blocks,29 asset/download
+  pins and58 review ranges. Five wide code panels scroll without page overflow.
+  Original scans open at1268×1931 and1053×1510. Actual article/listing downloads
+  match:5,315/3,275 bytes for 미로 and4,854/3,681 bytes for 드래곤. Four screenshots
+  inspected; no application errors, initial favicon404 only; test browser closed.
+  Preview: `http://127.0.0.1:4248/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-09` contains100 files /
+  20,439,687 bytes including index/report/manifest. Manifest SHA-256:
+  `f6398dca799a316efe569c37f21a14aa965ad2d2d28067c3e812d6270d5140e7`.
+  Maps, revisions, transcriptions, validation, ledger snapshots and next plan are
+  in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-09`. Elapsed3,851.3s includes mapping,
+  extraction/review, validation/rebuild, browser checks and tool waits.
+- Only these two TOC ledger entries changed. February now has **eight readable/
+  sample-reviewed articles, no partial articles, one group heading and34 unresolved
+  eligibility decisions**. Prior packages, authoritative TOC and cover/TOC
+  integration remain intact. Next: **12-1984-02-batch-10**, verify 최신예 폭격기32K
+  and 천하무적 제공호 before extraction within two articles/six pages. Only the
+  former's PDF39/printed56 opening is already verified. Complete-issue accounting,
+  restoration and staged reader export remain in progress.
