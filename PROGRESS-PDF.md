@@ -6510,3 +6510,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next final198–199,then assemble;no split-word segment boundary exists. Full
   February reconciliation and reader acceptance remain pending. Corrected TOC
   and completed cover/TOC integrations are unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-38 started
+
+- Restore converter final198–199/PDF194–195,including photograph,capacitor
+  circuits,bipolar code table and processor interface. Preserve8,002 prior-file
+  pins and reuse saved scans. Previousba15946 made progress. No browser work.
+
+### 2026-10-02 — 12-1984-02-batch-38 complete: converter final pages
+
+- Restored final198–199/PDF194–195:16 regions,9 blocks,four images including
+  original photograph and bipolar-code table,and two printed captions. Table2
+  is referenced in prose but has no visible caption;none was invented. All eight
+  article pages now exist in two immutable segments;whole assembly is next.
+- Table transcription preserves17 data rows plus header,duplicate positive3/8,
+  all printed dashes and two explicit tiny-mark uncertainties. Enlarged review
+  corrected the initial provisional blank-cell observation to actual dashes.
+  Preserve ADC wording,+7/8 endpoint,Signed Mag-nitude and L-SB source hyphens.
+  Two joins cover three boundaries;12 regional ranges,28 reviews and29 Unicode
+  spans validate. Circuit internals and final ornament remain original imagery.
+- All16 initial OCR tasks passed. Extended r07 left edge once to recover
+  clipped first characters;one revised task and15 cached regions. Initial
+  map/OCR preserved. Measured initial render/crop6.7851s/OCR3.2180s;revision
+  3.4778s/0.3450s;actual cumulative10.2629s/3.5630s without cache double-counting.
+- All8,002 prior-file pins,source/table/uncertainty ranges,image decoding,raw
+  OCR identity and fresh byte-identical rebuild pass. Regional projector accepts
+  the package. Generic tooling and prior77-test log unchanged,pins checked.
+  No repeated full suite,new pipeline feature,browser work or reader staging.
+- Article manifest304b4cabb58b647728b41b1c86fc37abfdda55113879cddba79436b21ab01bec:
+  62 files/11,692,595 bytes,article.txt4,431 bytes. Wrapper
+  64 files/11,709,552 bytes;manifest SHA-256
+  0e659dba7f1f785c44ad0dbf22571fcf2a340917cbb92b26f34d367c332b5e64.
+  Elapsed378.4s includes review,transcription,crop revision,validation
+  and closeout;wall time is not active CPU/model time. Stage token use unmeasured.
+  Evidence:private/pdf-restoration/12-1984-02-batch-38.
+- Entry0032 stays partial pending assembly;counts unchanged at32 classified,
+  31 readable,one partial,four group headings and seven unresolved eligibility
+  decisions. Next assemble all eight pages without a new boundary join,then
+  competition notice/review200–201. Full issue reconciliation and reader
+  acceptance remain pending;corrected TOC and cover integrations unchanged.

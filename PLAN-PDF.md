@@ -659,6 +659,11 @@ issue in the staged reader before moving to remaining issues.
   ranges,45 reviews and54 Unicode spans validate. Preserve printed numeric
   discrepancies and the duplicate000 row;exclude the recruitment ad on193.
   Next restore198–199 and assemble without a new boundary join.
+- Final converter pages198–199 are restored:16 regions,9 blocks,four original
+  images,two captions and17 bipolar-code data rows plus header.12 regional
+  ranges,28 reviews,29 Unicode spans and two uncertain marks validate. One
+  r07 crop extension recovers clipped text;15 cached regions reused. All eight
+  pages are ready for regional-prose-v1 assembly without a boundary join.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
