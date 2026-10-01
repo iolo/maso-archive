@@ -5043,3 +5043,67 @@ history remains in [PROGRESS.md](PROGRESS.md).
   프로그래밍 from confirmed PDF13/printed82 within six source pages. The catalog
   starts the next article at88; each following folio and boundary needs checking.
   Full-issue restoration, reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-14 started
+
+- Previous checkpoint committed as `a3e328b`; the complete software guide and APA
+  tutorial are verified progress toward the full February issue goal.
+- Saved fixed inputs, prior output pins and the issue-ledger snapshot. Verify
+  파스칼 프로그래밍 from confirmed PDF13/printed82 within one article and six
+  source pages. Inspect candidate continuations and the following boundary;
+  preserve prior articles and completed cover/TOC integration.
+- Mapping found a scan-order break: PDF12–7 are advertisements. Bounded adaptive
+  lookup located the continuation at PDF79–83 / printed83–87, with next article
+  PDF84/printed88. Seventeen pages inspected in total; six article pages selected.
+  The original candidate plan is retained alongside the adaptive mapping record.
+
+### 2026-10-01 — 12-1984-02-batch-14 complete
+
+- Restored **파스칼 프로그래밍 마지막회**, printed82–87 / PDF13 and79–83,
+  as readable/sample-reviewed. The title illustration and matching continuation,
+  every folio, final endmark and next article PDF84/printed88 were verified.
+  PDF12–7 are ads; adaptive PDF94–97 samples are 타임머신 printed98–101 and
+  remain outside this package. Seventeen pages inspected: six source pages and
+  eleven outside lookups. No continuation or assembly is required for Pascal.
+- Forty-eight regions produce39 reading blocks, four original illustrations and
+  nine independent Pascal/editor/menu/file-layout examples containing20 physical
+  rows. Five circled DEMO markers are editorial labels, not source-language line
+  numbers. The combined listing download is an example collection, not a program.
+- Five prose joins retain the83/84 continuation, 프롬/프트, 싶/은, 쪼개/질 and
+  여/기에는. All six editor sections and the file-format/P-machine discussion are
+  present. Castle artwork intentionally duplicates the separately transcribed
+  title, lead and handwritten speech bubble; other incidental figure text stays
+  image-preserved.
+- `corrections.json` preserves42 text notes,11 listing annotations,44 regional
+  UTF-8 ranges and48 Unicode reading-symbol spans. The deliberate `inyeger`,
+  absent declaration colon, literal LCIT and provisional soopc spelling, open
+  menu parentheses and historical technical claims remain unrepaired. Exact
+  spacing, full character proofreading, source encoding and execution remain
+  manual post-production scope.
+- All48 initial OCR regions completed without failure. One targeted crop expansion
+  each recovered the lead's left edge and the final sentence;46 regions reused
+  cached evidence. Original maps, OCR and outputs are retained. Selected final
+  render/crop60.6s and OCR28.6s are cached processing totals, not cumulative time.
+- The191-file article package (50,896,021 bytes) rebuilds byte-identically.
+  Noncontiguous page mapping, complete region coverage, six sections, prose joins,
+  example/marker identities, all ranges, raw OCR bytes and2,030 prior output pins
+  pass. Generic tooling remains unchanged; the prior successful65-test log is pinned.
+- Desktop1440×1000/mobile390×844 checks pass for39 blocks,52 asset/download pins
+  and42 review ranges. Five wide examples scroll without page overflow. Original
+  title artwork opens at2718×3960. Actual article/listing downloads match18,462/557
+  bytes. Two screenshots inspected; no application errors, initial favicon404 only;
+  test browser closed. Preview: `http://127.0.0.1:4253/`.
+- Output `build/pdf-restoration/12-1984-02-batch-14` has194 files /
+  50,934,680 bytes. Manifest SHA-256:
+  `60a1f244751523a6aab48036cb26752b079903426bbf194242e4b81e80d6b048`.
+  Private maps, initial/revised evidence, transcriptions, validation and next plan
+  are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-14`. Elapsed935.7s includes adaptive mapping,
+  extraction/revision, review, validation/rebuild, browser acceptance and waits.
+- Only Pascal's ledger entry changed. February has **fifteen readable/sample-reviewed
+  articles, no partial articles, two group headings and26 unresolved eligibility
+  decisions**. Prior articles and completed cover/TOC integration remain intact.
+  Next: **12-1984-02-batch-15**, verify 마이크로컴퓨터 시스템 입문 from confirmed
+  PDF84/printed88 and restore its first segment within six source pages. The next
+  catalog entry starts97; actual extent/continuations require local verification.
+  Full-issue restoration, reconciliation and staged reader acceptance remain open.

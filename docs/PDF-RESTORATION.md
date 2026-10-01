@@ -2714,3 +2714,57 @@ no partial articles and27 unresolved eligibility decisions. Next is
 `12-1984-02-batch-14`: verify Pascal from PDF13/printed82 within six source pages.
 Its continuation and the next article's catalogued88-page boundary need local
 inspection. Issue reconciliation and staged reader acceptance remain pending.
+
+### February 1984 batch 14: final Pascal installment
+
+`12-1984-02-batch-14` restores 파스칼 프로그래밍 마지막회 at printed82–87,
+with a verified scan-order jump from PDF13 to PDF79–83. PDF12–7 are advertisements;
+adaptive PDF94–97 samples show the separate Time Machine article at printed98–101.
+The next article begins PDF84/printed88. Seventeen lookups were inspected in total;
+only the six Pascal pages are included. The article is readable/sample-reviewed,
+with no source continuation or assembly outstanding.
+
+Forty-eight regions produce39 reading blocks and four original illustrations.
+The six editor sections, file-format and P-machine discussion are transcribed.
+Five explicit joins reconnect words/sentences across columns and pages. The castle
+illustration intentionally duplicates the separate title, lead and speech-bubble
+transcriptions; other incidental figure text remains in the original images.
+
+Nine independent Pascal, editor/menu and file-layout examples contain20 physical
+rows. Their `listing_id` values stay distinct. Five circled DEMO row markers have
+an `editorial_marker_index` and are explicitly not Pascal statement labels.
+`listing.txt` is a collection of examples, not one executable source program.
+`corrections.json` includes42 text notes,11 listing annotations,44 regional text
+ranges and48 Unicode reading-symbol spans. Source-supported deliberate `inyeger`,
+missing declaration colon, LCIT, provisional soopc, unbalanced menu parentheses
+and historical technical explanations are not repaired or certified as correct.
+Precise spacing, character-perfect text, original encoding and execution remain
+unverified.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-14/pascal
+python3 -m http.server 4253 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-14
+```
+
+All48 initial OCR tasks completed without failure. The lead and final sentence
+needed one crop expansion each;46 regions reused cached evidence. Initial maps,
+OCR and exports remain separate. The191-file package (50,896,021 bytes) rebuilds
+exactly. Mapping/coverage, section/example/marker identities, joins, ranges, raw
+archives and2,030 prior output pins pass. Generic tooling is unchanged; the prior
+65-test success log is pinned.
+
+Desktop1440×1000/mobile390×844 checks pass for39 blocks,52 pins and42 review ranges.
+Five wide examples scroll without page overflow. The title illustration opens at
+2718×3960. Actual downloads match18,462 article bytes and557 listing bytes. Two
+screenshots were inspected, no application errors occurred, and the browser closed.
+Evidence lives in `private/pdf-restoration/12-1984-02-batch-14` and
+`output/playwright/pdf-1984-02-batch-14`. The194-file wrapper totals50,934,680 bytes,
+manifest SHA-256 `60a1f244751523a6aab48036cb26752b079903426bbf194242e4b81e80d6b048`.
+
+February now has fifteen readable/sample-reviewed articles, two group headings,
+no partial articles and26 unresolved eligibility decisions. Next is
+`12-1984-02-batch-15`: verify 마이크로컴퓨터 시스템 입문 from PDF84/printed88
+and restore at most six source pages. Its catalogued88–96 extent needs local
+verification and may require multiple segments followed by assembly. Complete
+issue restoration, reconciliation and staged reader acceptance remain pending.

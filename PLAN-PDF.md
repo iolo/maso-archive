@@ -32,11 +32,15 @@ screen strings, map DATA and music strings. Batch13 restored 사용하는 사람
 입장에 서서, printed76–77 / PDF19–18, and APA프로그램의 활용법, printed78–81 /
 PDF17–14. All26 guide items and15 independent command/listing examples are
 preserved, with source-linked notes for hidden controls and literal anomalies.
-February has fourteen readable/sample-reviewed articles, no partial articles,
-two group headings and27 unresolved eligibility decisions. Next is
-**12-1984-02-batch-14**: verify 파스칼 프로그래밍 within one article and six source
-pages. Only PDF13/printed82 is already verified; inspect each following folio
-and boundary. Step 12 remains open.
+Batch14 restored 파스칼 프로그래밍 마지막회, printed82–87. The source order
+changes: its title is PDF13 and its continuation is PDF79–83; PDF12–7 are ads.
+All six editor sections, file-format/P-machine discussion, nine independent
+examples and four illustrations are preserved. February has fifteen readable/
+sample-reviewed articles, no partial articles, two group headings and26 unresolved
+eligibility decisions. Next is **12-1984-02-batch-15**: verify 마이크로컴퓨터
+시스템 입문 and restore its first segment within six source pages. Only its
+PDF84/printed88 opening is verified; inspect its extent and boundary locally.
+Step 12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -434,9 +438,13 @@ issue in the staged reader before moving to remaining issues.
   printed76–81 / PDF19–14. Preserve all26 guide items,15 separate APA examples,
   terminal input/output identities and hidden/inverse-control uncertainty. Do not
   interpret the combined example download as one executable BASIC program.
-- 파스칼 프로그래밍 begins at verified PDF13/printed82. The catalog starts
-  마이크로컴퓨터 시스템 입문 at88. Inspect candidate PDF12–8 and the following
-  boundary individually; do not infer the extent from a global page offset.
+- 파스칼 프로그래밍 is complete at printed82–87 / PDF13 and79–83. Preserve
+  the verified scan-order jump, all six editor sections, four illustrations and
+  nine independent examples. The circled DEMO markers are editorial labels;
+  retain deliberate inyeger and literal menu/technical wording without repair.
+- 마이크로컴퓨터 시스템 입문 begins at verified PDF84/printed88. The catalog
+  starts 타임머신 at97. Inspect candidate PDF85–93 and its boundary individually;
+  expect segmentation if the locally verified article exceeds six source pages.
   Extract at most six source pages per checkpoint and preserve any continuation;
   validate complete coverage and assembly before promoting a partial segment.
 - Reconcile each issue, produce its standalone reference/report, and validate
