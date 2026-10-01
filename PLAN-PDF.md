@@ -11,9 +11,11 @@ completed cover/TOC image integration and all 35 November articles coexist in a
 validated staged reader. February batches 01–03 restored the complete editor's
 note and three FC-100 feature segments covering printed18–30. The feature is now
 assembled as readable/sample-reviewed, with every original segment and correction
-record preserved. February has two readable articles and41 unresolved eligibility
-decisions. Next is **12-1984-02-batch-04**: classify the 취미생활 divider and map
-우주전쟁 from PDF63/printed32. Step 12's remaining-issue campaign is still open.
+record preserved. Batch04 restored 우주전쟁, printed32–35, and classified the
+취미생활 divider. February has three readable/sample-reviewed articles, one group
+heading and39 unresolved eligibility decisions. Next is **12-1984-02-batch-05**:
+verify and restore FLIP-IT II from PDF59/printed36. Step 12's remaining-issue
+campaign is still open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve

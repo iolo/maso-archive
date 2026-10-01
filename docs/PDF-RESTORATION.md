@@ -2293,3 +2293,36 @@ two readable/sample-reviewed articles and41 unresolved eligibility decisions.
 The saved next plan is `12-1984-02-batch-04`: classify the 취미생활 divider using
 PDF64 evidence, then verify and restore 우주전쟁 from PDF63/printed32 within
 the existing extraction ceilings. Complete-issue reader export remains ahead.
+
+### February 우주전쟁
+
+`12-1984-02-batch-04` restores the complete SPC-1000 article at verified
+printed32–35 / PDF63–60 as **readable/sample-reviewed**. The 취미생활 divider
+at PDF64 is classified as a group heading; FLIP-IT II starts at PDF59/printed36.
+Neither boundary is included in the article. Nine regions produce eight reading
+blocks, one screenshot and four code panels with208 numbered BASIC lines in214
+physical rows. Wrapped lines0,1,8030 and9115 preserve their printed row identities.
+
+The correction record keeps27 text review notes and24 listing anomalies. Five
+graphic marks in8020/8060 and the unknown quoted blank-run length in6010 remain
+explicit markers linked to scans. Printed character-definition bytes, variable
+inconsistencies and questionable tokens are preserved for manual review. No
+execution or original machine-byte certification is claimed.
+
+```sh
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-04/space-war
+python3 -m http.server 4242 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-04
+```
+
+The44-file article package rebuilds byte-identically. Desktop/mobile checks pass
+for all text, review ranges,13 asset/download pins, screenshot access and both
+actual downloads. Wide code panels scroll without page overflow. All940 prior
+file pins remain valid; generic tooling is unchanged from the preceding62-test
+run. The full acceptance was repeated after browser interaction and passed.
+
+February now has three readable/sample-reviewed articles, one group heading and
+39 unresolved eligibility decisions. The saved next plan is
+`12-1984-02-batch-05`: verify FLIP-IT II's extent from PDF59/printed36 before
+extracting further pages. Complete-issue reader export remains ahead.

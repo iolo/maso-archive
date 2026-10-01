@@ -4377,3 +4377,53 @@ history remains in [PROGRESS.md](PROGRESS.md).
   authoritative TOC edits remain intact. Next: **12-1984-02-batch-04**, classify
   취미생활 from saved PDF64 evidence and verify 우주전쟁's extent from PDF63 /
   printed32. Candidate pages63–60 and boundary59 must each be inspected locally.
+
+### 2026-10-01 — 12-1984-02-batch-04 started
+
+- Verified 우주전쟁 on printed32–35 / PDF63–60, followed by FLIP-IT II at
+  PDF59/printed36. Classify saved PDF64 취미생활 as the section divider.
+- Restore one four-page article, retaining the screenshot and shaded listing
+  crops. Preserve printed BASIC, wraps and bitmap uncertainty without execution
+  or inferred technical repairs. Completed February/November results stay intact.
+
+### 2026-10-01 — 12-1984-02-batch-04 complete
+
+- Restored **우주전쟁** (`maso-1984-02-toc-0003`), SPC-1000, 삼성전자 S/W
+  개발부, as **readable/sample-reviewed**. All four pages are verified locally:
+  printed32–35 / PDF63–60. Saved PDF64 is the 취미생활 divider; PDF59/printed36
+  starts FLIP-IT II. Both boundaries remain outside the article.
+- The package contains nine mapped regions, eight reading blocks, one screenshot
+  and four BASIC panels: **208 numbered lines in214 physical rows**. Printed
+  wraps at0,1,8030 and9115 retain their physical identities. All nine OCR tasks
+  completed, with no failures or retries; rendering/cropping took39.1s and OCR8.7s.
+- `corrections.json` retains27 scan-linked text review notes,24 listing anomalies,
+  five unresolved graphic marks at8020/8060 and one unknown blank-run length at6010.
+  The printed character definition is preserved without assigning inferred bytes
+  to those graphics. Printed variable/token inconsistencies, punctuation, music
+  and octal-prefix ambiguity remain visible. The listing has not been executed
+  or certified as the original machine bytes; manual post-production remains.
+- The44-file article package /31,953,207 bytes rebuilds byte-identically. Region
+  coverage, reading order, archive bytes, physical/logical row partitions, unique
+  line numbers, all review ranges and uncertainty markers validate. All940 prior
+  file pins and pre-update input pins pass. Generic tooling is unchanged; the
+  preceding successful62-test log is pinned and new artifacts validated directly.
+- Desktop1440×1000/mobile390×844 acceptance passes, including all eight rendered
+  blocks,13 asset/download pins,27 review ranges and the loaded screenshot.
+  All four wide code blocks scroll horizontally without page overflow. Actual
+  7,606-byte article and6,339-byte listing downloads match the package. The
+  original screenshot opens1099×851. No application errors; initial favicon404
+  only. Repeated the full check after the user's browser interaction, inspected
+  both screenshots and closed the test browser. Preview: `http://127.0.0.1:4242/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-04` contains47 files /
+  31,965,505 bytes including index/report/manifest. Manifest SHA-256:
+  `0f36353defcfa9a2c410b609a4e3acd2ef0c60cf264c81bd87d17a9ea7960ebe`.
+  Private mapping, validation, ledger snapshots, closeout and next plan are under
+  the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-04`. Elapsed1198.2s includes mapping,
+  transcription review, validation, repeated browser acceptance and tool waits.
+- Classified only 우주전쟁 and its 취미생활 parent. February now has **three
+  readable/sample-reviewed articles, one group heading and39 unresolved eligibility
+  decisions**. Prior packages, authoritative TOC and cover/TOC integration remain
+  intact. Next: **12-1984-02-batch-05**, FLIP-IT II from verified PDF59/printed36.
+  Candidate PDF58–55 and boundary54 still require local folio/content inspection;
+  the next TOC article starts at41. Complete-issue export remains ahead.
