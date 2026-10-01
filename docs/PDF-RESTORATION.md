@@ -2464,7 +2464,8 @@ indexes. Its14,293-byte listing is the exact concatenation of the source listing
 
 The opt-in recipe mode `wrapped-listing-v1` supports physical wraps across code
 panels within a segment and partial listing review ranges. It requires explicit
-`prose_joins` (use `[]` when none) and each segment to start at a numbered row.
+`prose_joins` (use `[]` when none). A numbered sequence starts at a numbered row;
+explicitly unnumbered examples may precede or follow it.
 Physical/logical rows, scan identities, UTF-8 spans and literal DATA values are
 validated before projection. Original listing-group declarations remain in
 `source_listing_groups`; aggregate coverage counts included blocks and rows
@@ -3072,6 +3073,25 @@ scan links before rebasing. Original correction metadata and all source packages
 remain unchanged. Prose joins use the regional mode's explicit `intervening` list;
 code joins across segments are not inferred. Existing index modes retain their
 behavior, including regional-prose-v1's rejection of code.
+
+Unnumbered examples can coexist with numbered, physically wrapped listings.
+They require `row_kind: "unnumbered"`, `printed_line: null`,
+`printed_line_visible: false`, an exact physical row identity and scan span,
+and no numbered logical-line link. Their bytes and labels are preserved without
+inventing BASIC line numbers. A numbered continuation cannot cross an intervening
+unnumbered row. Group summaries count these physical rows separately; only
+numbered statements enter `logical_listing_line_index`. Older numbered-only
+assemblies retain their existing output.
+
+The loader assembly uses this support for three POKE examples, its complete
+73-line main program with31 physical wraps, and three optional shape commands
+in four physical rows. Across seven pages it preserves77 regions,58 reading
+blocks,11 images,124 code rows and ten unresolved glyph/space markers. All66
+regional ranges,77 text reviews,93 Unicode spans and27 listing reviews address
+the combined downloads. The seven-row memory-table index and six-footnote index
+remain explicitly local in each immutable segment's `corrections.json` and
+`original_metadata`; use the combined regional index for those passages in the
+whole article. No code execution or original-byte certification is implied.
 
 The February accounting assembly covers printed125–135/PDF121–131:119 regions,
 99 reading blocks,11 images,246 BASIC rows and35 margin labels. Its corrections

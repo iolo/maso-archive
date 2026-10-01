@@ -708,6 +708,121 @@ class PDFAssemblyTests(unittest.TestCase):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 project(self.recipe, segments)
 
+    def mixed_listing_segments(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.regional_listing_segments()
+        for i, (source, c) in enumerate(segments):
+            block = deepcopy(source['blocks'][0])
+            block.update(id='immediate', region_ids=['immediate-region'],
+                         text='① POKE 103,1\n② PRINT "한"\n',
+                         correction_evidence=['corrections.json#immediate-region'])
+            source['blocks'].append(block)
+            source['regions'].append(dict(source['regions'][0], id='immediate-region'))
+            source['region_assets'].append(dict(source['region_assets'][0], region_id='immediate-region'))
+            source['verification']['reviewed_region_ids'].append('immediate-region')
+            source['content_order'].insert(0 if i else len(source['content_order']),
+                                           dict(type='block', id='immediate'))
+            c['records'].append(dict(c['records'][0], id='immediate-region'))
+            c['blocks'] = deepcopy(source['blocks'])
+            original_size = len(text_bytes(source)[1]) - len(block['text'].encode())
+            prefix = len(block['text'].encode()) if i else 0
+
+            def shift(value):
+                if isinstance(value, list):
+                    for row in value: shift(row)
+                elif isinstance(value, dict):
+                    for key, child in value.items():
+                        if key in ('utf8_byte_start', 'utf8_byte_end_exclusive'):
+                            value[key] += prefix
+                        elif isinstance(child, (dict, list)):
+                            shift(child)
+            for key in ('listing_index', 'listing_line_index', 'logical_listing_line_index',
+                        'listing_anomalies', 'data_statements'):
+                shift(c[key])
+            start = 0 if i else original_size
+            cursor = start
+            scan = source['region_assets'][-1]['asset']
+            rows = []
+            for ordinal, text in enumerate(block['text'].splitlines(True), 1):
+                end = cursor + len(text.encode())
+                part = dict(region_id='immediate-region', scan=scan,
+                            utf8_byte_start=cursor, utf8_byte_end_exclusive=end)
+                rows.append(dict(**part, block_id='immediate', listing_id='immediate',
+                    line_id=f'immediate:{ordinal}', physical_line=ordinal, printed_line=None,
+                    printed_line_visible=False, row_kind='unnumbered', download='listing.txt',
+                    source_label=text[0], segments=[deepcopy(part)]))
+                cursor = end
+            if i:
+                c['listing_line_index'] = rows + c['listing_line_index']
+            else:
+                c['listing_line_index'].extend(rows)
+            c['listing_index'].append(dict(block_id='immediate', region_ids=['immediate-region'],
+                scan=scan, download='listing.txt', utf8_byte_start=start, utf8_byte_end_exclusive=cursor))
+            c['listing_groups'].append(dict(listing_id='immediate', block_ids=['immediate'],
+                                           complete_example=True, execute_verified=False))
+            c['listing_anomalies'].append(dict(block_id='immediate', region_id='immediate-region',
+                scan=scan, download='listing.txt', transcription_excerpt='①',
+                utf8_byte_start=start, utf8_byte_end_exclusive=start+len('①'.encode())))
+            scans = {r['region_id']: r['asset'] for r in source['region_assets']}
+            ranges = block_ranges(source)
+            c['text_index'] = [dict(block_id=b['id'], region_ids=b['region_ids'],
+                scans=[scans[r] for r in b['region_ids']], download='article.txt',
+                utf8_byte_start=ranges[b['id']][0], utf8_byte_end_exclusive=ranges[b['id']][1])
+                for b in source['blocks']]
+            c['regional_text_index'] = [dict(row, region_id=row['region_ids'][0], scan=row['scans'][0])
+                                        for row in c['text_index']]
+            c['regional_transcription']['immediate-region'] = block['text']
+            for row in c['text_review_items']:
+                text = next(b['text'] for b in source['blocks'] if b['id'] == row['block_id'])
+                offset = ranges[row['block_id']][0] + len(text[:text.index(row['transcription_excerpt'])].encode())
+                row.update(utf8_byte_start=offset,
+                           utf8_byte_end_exclusive=offset+len(row['transcription_excerpt'].encode()))
+            c['unicode_glyphs'] = [dict(row, glyph=row['transcription_excerpt'],
+                encoded_bytes=None, source_encoding_verified=False) for row in c['text_review_items']]
+        return segments
+
+    def test_regional_listing_mixes_unnumbered_examples_with_wrapped_numbered_lines(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import span
+        segments = self.mixed_listing_segments()
+        original = deepcopy(segments)
+        p, c = project(self.recipe, segments)
+        self.assertEqual(segments, original)
+        article, listing = text_bytes(p)
+        self.assertEqual(listing, b''.join(text_bytes(s)[1] for s, _ in segments))
+        self.assertEqual(len(c['listing_line_index']), 10)
+        self.assertEqual(len(c['logical_listing_line_index']), 4)
+        rows = [r for r in c['listing_line_index'] if r['row_kind'] == 'unnumbered']
+        self.assertEqual(len(rows), 4)
+        self.assertTrue(all(r['printed_line'] is None and 'logical_line_id' not in r for r in rows))
+        self.assertEqual([r['source_label'] for r in rows], ['①', '②', '①', '②'])
+        group = next(g for g in c['listing_groups'] if g['listing_id'] == 'immediate')
+        self.assertEqual((group['physical_rows'], group['unnumbered_rows'], group['numbered_entries']), (4, 4, 0))
+        for field, data in [('regional_text_index', article), ('listing_anomalies', listing)]:
+            for row in c[field]:
+                self.assertEqual(span(row, data), row['transcription_excerpt'])
+        for row in rows:
+            original_listing = text_bytes(segments[0 if row['source_segment'] == 'opening' else 1][0])[1]
+            self.assertEqual(span(row, listing), span(row['source_range'], original_listing))
+
+    def test_mixed_listing_rejects_inferred_numbers_and_wraps_across_independent_rows(self):
+        original = self.mixed_listing_segments()
+        for change in ('number', 'missing-number', 'visible', 'logical-link', 'continuation-link', 'orphan-after-example'):
+            segments = deepcopy(original)
+            row = segments[1][1]['listing_line_index'][0]
+            if change == 'number': row['printed_line'] = 1
+            if change == 'missing-number': row.pop('printed_line')
+            if change == 'visible': row['printed_line_visible'] = True
+            if change == 'logical-link': row['logical_line_id'] = 'program:20:1'
+            if change == 'continuation-link': row['continues_printed_line'] = 20
+            if change == 'orphan-after-example':
+                row = segments[1][1]['listing_line_index'][2]
+                row.update(row_kind='wrapped-continuation', printed_line=None,
+                           printed_line_visible=False, continues_printed_line=20)
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
     def regional_segments(self):
         from tools.pdf_restore.assembly_indexes import block_ranges
         segments = self.standalone_segments(prose=True)

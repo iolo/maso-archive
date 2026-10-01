@@ -591,8 +591,13 @@ issue in the staged reader before moving to remaining issues.
   Final166 is now restored in a second immutable package:14 regions,12 blocks,
   figure6/caption,three optional commands in four physical rows and six footnotes.
   It adds24 text reviews,27 Unicode spans and one shape ta-/ble column join.
-  Assembly requires validated unnumbered-row support alongside numbered wraps
-  in the opt-in listing projector; do not alter source packages to fit it.
+  Completed assembly adds validated unnumbered-row support alongside numbered
+  wraps in the opt-in listing projector, without changing either source package.
+  All seven pages now provide77 regions,58 blocks,11 images,124 code rows and
+  five code groups.66 regional ranges,77 text reviews,93 Unicode spans and27
+  listing reviews address complete downloads; source table/footnote indexes
+  remain explicitly local.75 PDF tests,prior assembly checks and byte-identical
+  rebuild pass. Next 케이-모니터1 begins167/PDF163.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

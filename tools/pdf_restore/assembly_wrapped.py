@@ -1,7 +1,7 @@
 """Project reviewed physical wraps without joining or repairing printed code.
 
-Each immutable input starts at a numbered line. Wraps may cross its code panels;
-cross-segment carried fragments continue to use the historical namespaced mode.
+Numbered listings may coexist with explicitly unnumbered examples. Wraps may
+cross code panels; cross-segment carried fragments use the historical namespaced mode.
 Source logical indexes are checked against physical rows before offsets change.
 """
 from collections import Counter
@@ -87,6 +87,13 @@ def project_listing(context, corrections, listing):
             raise ValueError('Wrapped physical row must retain its exact scan span')
         project_range(row)  # Validate region/scan/download even before constructing indexes.
         number = row.get('printed_line')
+        if row.get('row_kind') == 'unnumbered':
+            if ('printed_line' not in row or number is not None or row.get('printed_line_visible') is not False or
+                    any(k in row for k in ('logical_line_id', 'continues_printed_line'))):
+                raise ValueError('Unnumbered row cannot infer a numbered logical line')
+            physical.append(row)
+            current = None  # A subsequent wrap cannot jump across this independent row.
+            continue
         if row.get('row_kind') == 'numbered':
             if (type(number) is not int or row.get('printed_line_visible') is not True or
                     not text.startswith(str(number) + ' ')):
@@ -135,8 +142,9 @@ def project_listing(context, corrections, listing):
     for row in physical:
         revised = project_range(row)
         revised.update(line_id=line_ids[row['line_id']], source_line_id=row['line_id'],
-                       logical_line_id=logical_ids[row['logical_line_id']],
                        segments=[context.listing_range(p) for p in row['segments']])
+        if row.get('row_kind') != 'unnumbered':
+            revised['logical_line_id'] = logical_ids[row['logical_line_id']]
         corrections['listing_line_index'].append(revised)
     for row in original.get('listing_anomalies', []):
         if span(row, context.listing) != row.get('transcription_excerpt'):
@@ -177,3 +185,6 @@ def project_listing(context, corrections, listing):
             target['source_segments'].append(context.name)
         target['numbered_entries'] += sum(r['listing_id'] == id for r in logicals)
         target['physical_rows'] += sum(r['listing_id'] == id for r in physical)
+        unnumbered = sum(r['listing_id'] == id and r['row_kind'] == 'unnumbered' for r in physical)
+        if unnumbered:
+            target['unnumbered_rows'] = target.get('unnumbered_rows', 0) + unnumbered

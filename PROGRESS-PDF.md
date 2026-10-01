@@ -6129,3 +6129,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   add narrowly scoped validated support,then assemble without new OCR. This is
   required compatibility work,not a cost-audit optimization. Full issue closeout
   and reader integration remain open; corrected TOC and cover work are intact.
+
+
+### 2026-10-02 — 12-1984-02-loader-assemble started
+
+- Assemble all7 loader pages without new OCR. Add validated mixed unnumbered/
+  wrapped listing support; preserve6,390 prior files and both source packages.
+  Previousa11ed13 made progress. Validate combined ranges and byte-identical
+  rebuild; no browser work or reader staging.
+
+### 2026-10-02 — 12-1984-02-loader-assemble complete
+
+- Assembled the complete seven-page loader article160–166/PDF156–162 from
+  two immutable packages:77 regions,58 reading blocks,11 original images and
+  nine captions. No new OCR or cross-segment sentence/code join. Eight original
+  column/page joins and six resolved scope notes remain traceable.
+- Added narrowly scoped unnumbered-row support to the opt-in wrapped/regional
+  listing projector. Explicit null line numbers,false number visibility,physical
+  identity and exact scan spans are required; inferred numbered logical links
+  are rejected. A continuation cannot jump across an independent unnumbered row.
+  Existing numbered-only projections keep their original output.
+- Five source groups contain124 physical rows:73 numbered statements,31 wraps
+  and20 unnumbered rows. Three optional commands occupy four of those rows;
+  circled labels are preserved without invented BASIC numbers. All66 regional
+  ranges,77 text reviews,93 Unicode spans,27 listing reviews and ten unresolved
+  glyph/space markers address combined downloads. Seven memory-table rows and
+  six footnotes keep their specialized local indexes in the original segment
+  corrections/original_metadata; combined regional spans cover the same passages.
+- All75 PDF tests pass,including two new mixed-row tests and negative cases for
+  inferred/missing numbers,logical links and invalid continuations. Ran29 focused
+  tests,then75 regression tests; repeated75 after tightening explicit-null
+  rejection. Final log:private/pdf-restoration/12-1984-02-loader-assemble/tests-final.log.
+  Accounting,Microtext and UNIX assemblies still validate unchanged. Every
+  artifact/range check,6,390 prior pins and deterministic rebuild pass; original
+  segment copies are byte-identical. No browser work or reader staging.
+- Article package308 files/61,296,205 bytes; article.txt26,441 bytes and
+  listing.txt2,942 bytes. Wrapper310 files/61,356,990 bytes; manifest SHA-256
+  3d953d39e33fa4d5383a4f6c5c192cb1dd8adcd1b1f7841059b2fc50587c12b7.
+  Elapsed378.9s includes implementation,tests,assembly,validation,rebuild and
+  closeout; it is wall time,not CPU time. Recipes,tooling/test pins,validation and
+  next plan are under private/pdf-restoration/12-1984-02-loader-assemble.
+- Only entry0028 is promoted:28 readable/sample-reviewed articles,no partials,
+  four group headings and11 unresolved eligibility decisions. Next:batch32,
+  케이-모니터1 from167/PDF163,whose source specifies PC-8001 BASIC. Preserve its
+  dialect and checksum notation. Full issue reconciliation and reader integration
+  remain pending; corrected TOC and completed cover/TOC work are unchanged.
