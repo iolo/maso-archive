@@ -5162,3 +5162,61 @@ history remains in [PROGRESS.md](PROGRESS.md).
   completed cover/TOC integration remain intact. Next: **12-1984-02-batch-16**,
   restore final systems pages94–96 / PDF90–92, then assemble all nine pages.
   Full-issue restoration, reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-16 started
+
+- Previous checkpoint committed as `e77753c`; restoring the first six systems
+  pages advanced the February goal. Saved fixed inputs, prior output pins and
+  the ledger snapshot. Restore verified final pages94–96 / PDF90–92 with
+  figures15–20 and references, preserving the first segment and explicit joins.
+  Whole-article promotion requires subsequent assembly and validation.
+
+### 2026-10-01 — 12-1984-02-batch-16 complete: systems final segment
+
+- Restored verified final printed94–96 / PDF90–92 of 마이크로컴퓨터 시스템
+  입문, with PDF93/printed97 checked as the next article boundary. All nine
+  article pages are now restored across two immutable segments; the article
+  remains partial/sample-reviewed until complete assembly and acceptance.
+- The31 regions produce18 reading blocks, six original diagrams15–20 and six
+  searchable captions. Sections3.1–3.3 and all three printed references are
+  transcribed. No program listing is present. Source CRT, 클런신호, 모렘,
+  그림3,10, 편수 and 기전연구구사 remain literal readings with review notes.
+- `corrections.json` includes25 regional UTF-8 ranges,17 text review notes,
+  three prose joins, three reference ranges and22 Unicode spans. Ten overlined
+  DSR/DTR/RTS/CTS/DCDA/DCDB occurrences use explicit U+0305 reading notation;
+  the unbarred RTS occurrence stays unbarred. Original bytes, pin wiring and
+  historical technical claims are not certified. Diagram details remain images.
+- Initial31 OCR tasks completed without failures. One permitted crop retry
+  widened r24's left edge and recovered clipped paragraph initials;30 cached
+  regions were reused. Original evidence is preserved. Selected cached
+  render/crop20.3s and OCR13.8s are processing totals, not cumulative elapsed time.
+- The116-file package (14,641,750 bytes) rebuilds byte-identically. Three-page
+  mapping, complete region coverage, joins, captions, mode entries, reference/
+  signal ranges, raw OCR and2,440 prior output pins pass. Generic tooling is
+  unchanged; the previous successful65-test log remains pinned.
+- Desktop1440×1000/mobile390×844 acceptance passes for18 blocks,34 pins and17
+  text review ranges, with visible partial state and no overflow. Original
+  figure15 opens at2180×443; article download matches9,399 bytes. Desktop/mobile
+  screenshots and an additional settled signal-notation screenshot were inspected.
+  No application errors; initial favicon404 only. Test browser closed. Preview:
+  `http://127.0.0.1:4255/`.
+- Assembly preflight confirms the current adjacent-only join rejects the split
+  page93/94 sentence, because nine figure/caption/table items intervene. It also
+  preserves specialized correction fields only as segment metadata, not global
+  ranges. Saved the exact join/items and expected totals:93 regions,51 source
+  blocks becoming50,21 images,20 captions,40 text notes,72 regional ranges,
+  eight controller rows,29 Unicode spans,10 signal entries and three references.
+  Next checkpoint adds narrowly opt-in support with meaningful negative tests;
+  no original segment needs modification or new OCR.
+- Output `build/pdf-restoration/12-1984-02-batch-16` has119 files /
+  14,669,566 bytes. Manifest SHA-256:
+  `25b46b22fe8b4af16558a316ca3993cb3a4e1c373453314be186e153ac0ec7ae`.
+  Private evidence, corrections, validation, preflight and next plan are under
+  the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-16`. Elapsed600.5s includes transcription,
+  crop revision, rebuild, browser checks, assembly preflight and tool waits.
+- Only systems entry0017 changed; counts remain **fifteen readable articles,
+  one partial article, two group headings and25 unresolved eligibility decisions**.
+  Next: **12-1984-02-systems-assemble**, join and validate both segments before
+  promoting the article. Full-issue restoration, reconciliation and staged reader
+  acceptance remain open. Prior packages and cover/TOC integration are intact.

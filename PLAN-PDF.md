@@ -41,8 +41,12 @@ extent is verified at printed88–96 / PDF84–92; 타임머신 starts97 / PDF93
 The partial package preserves15 images,14 captions and an eight-row searchable
 controller table. February has fifteen readable/sample-reviewed articles, one
 partial/sample-reviewed article, two group headings and25 unresolved eligibility
-decisions. Next is **12-1984-02-batch-16**: restore the final three systems pages,
-printed94–96 / PDF90–92, then validate full coverage and assembly. Step12 remains open.
+decisions. Batch16 restored final printed94–96 / PDF90–92, including figures15–20,
+three references and ten overlined signal-name occurrences. All nine pages are
+preserved in two partial packages. Next is **12-1984-02-systems-assemble**:
+explicitly join the split sentence across intervening figures/table and project
+all regional correction indexes before validating the complete article.
+Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -447,9 +451,13 @@ issue in the staged reader before moving to remaining issues.
 - 마이크로컴퓨터 시스템 입문 is verified at printed88–96 / PDF84–92; the
   first six pages are partial/sample-reviewed. Preserve its15 original images,
   eight-row controller table, literal570S/CUP/8257 readings and source joins.
-  Restore final printed94–96 / PDF90–92 next; 타임머신 starts97 / PDF93.
+  Both segments now cover all nine pages; 타임머신 starts97 / PDF93.
   Page93 ends 과 and94 begins 의 차이점을 보여주고 있다.; join without a
-  separator during assembly. Validate all nine pages before promoting the article.
+  separator across the explicitly reviewed figure/caption/table items. The current
+  assembler only supports adjacent blocks and does not project regional, table,
+  signal, Unicode or reference indexes. Add bounded opt-in support with negative
+  tests, preserve all original segment files and verify50 joined blocks,21 images,
+  72 regional ranges and40 review notes before promoting the article.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

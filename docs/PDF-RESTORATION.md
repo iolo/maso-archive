@@ -2819,3 +2819,52 @@ sample-reviewed article, two group headings and25 unresolved eligibility decisio
 Next is `12-1984-02-batch-16`, final systems pages94–96 / PDF90–92, followed by
 complete nine-page assembly. Full-issue reconciliation and staged reader
 acceptance remain pending; existing cover/TOC integration is preserved.
+
+
+## February 1984 systems article, final three pages
+
+`12-1984-02-batch-16` restores printed94–96 / PDF90–92 of 마이크로컴퓨터
+시스템 입문. Both immutable packages now contain every verified page88–96;
+the article remains partial/sample-reviewed until complete assembly passes.
+PDF93/printed97 begins 타임머신 and is excluded.
+
+The31 regions produce18 reading blocks, six original diagrams15–20, six
+captions and three references. `corrections.json` contains25 regional ranges,
+17 review notes, three joins, three reference ranges and22 Unicode spans.
+Ten overlined signal names are rendered with U+0305 per character, including
+DSR,DTR,RTS,CTS,DCDA andDCDB; unbarred RTS is retained where printed. The scan
+remains authoritative for pin labels, waveforms and original typography.
+CRT, 클런신호, 모렘, 편수 and 기전연구구사 are preserved without inferred repair.
+There is no code download or execution certification.
+
+One targeted retry expanded r24's left edge to recover clipped initial glyphs;
+30 regions reused cached evidence. All initial maps/OCR remain. The116-file
+article package totals14,641,750 bytes and rebuilds identically. Mapping, source
+coverage, text/glyph/reference ranges and2,440 prior file pins pass. Generic
+code remains unchanged and the prior65-test result is pinned.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-16/systems
+python3 -m http.server 4255 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-16
+```
+
+Desktop1440×1000/mobile390×844 checks pass for18 blocks,34 pins and17 review
+ranges. Original figure15 opens at2180×443; article download matches9,399 bytes.
+The overlined names were visually checked at mobile size after image/font
+layout settled. Screenshots are in `output/playwright/pdf-1984-02-batch-16`;
+private evidence and assembly preflight are in
+`private/pdf-restoration/12-1984-02-batch-16`. The119-file wrapper totals14,669,566
+bytes, manifest SHA-256
+`25b46b22fe8b4af16558a316ca3993cb3a4e1c373453314be186e153ac0ec7ae`.
+
+Next is `12-1984-02-systems-assemble`. Preflight found the adjacent-only prose
+join cannot connect 과/의 across nine intervening figure/caption/table items.
+It also leaves regional/table/Unicode/signal/reference indexes scoped to original
+segment metadata. Add opt-in support, preserve the original item order and segment
+bytes, and verify the93 regions,50 joined blocks,21 images,40 review notes,
+72 regional ranges, eight table rows,29 Unicode spans,10 signal entries and
+three references with global UTF-8 ranges. Meaningful negative tests and full PDF
+regression precede article promotion. February counts remain fifteen readable,
+one partial, two headings and25 unresolved eligibility decisions; full issue
+restoration and staged reader acceptance remain pending.
