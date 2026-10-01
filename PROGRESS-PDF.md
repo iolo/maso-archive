@@ -4486,3 +4486,64 @@ history remains in [PROGRESS.md](PROGRESS.md).
   intact. Next: **12-1984-02-batch-06**, 구슬게임 from verified PDF54/printed41;
   candidate PDF53–52 and boundary51 require local verification. Complete-issue
   classification, restoration and reader export remain in progress.
+
+### 2026-10-01 — 12-1984-02-batch-06 started
+
+- Verified 구슬게임 at printed41–43 / PDF54–52, followed by 마이크로텍스트 at
+  PDF51/printed44. Restore one complete three-page article, preserving its title
+  illustration, flowchart, prose and BASIC character-pattern evidence.
+- Prior checkpoint committed as `60437d7`;1,062 prior output-file pins saved.
+  Printed technical anomalies and uncertain symbols remain for manual review.
+
+### 2026-10-01 — 12-1984-02-batch-06 complete
+
+- Restored **구슬게임** (`maso-1984-02-toc-0005`), HYCOM-800, 동양나이론
+  전자기술연구소, as **readable/sample-reviewed**. Three source pages are verified
+  locally: printed41–43 / PDF54–52. PDF51/printed44 starts 마이크로텍스트 and
+  is excluded. Ten mapped regions produce seven reading blocks, two original
+  images (title illustration and flowchart) and three code panels.
+- Joined the prose column break 빈 / 털털이가 되고 만다. with both regional
+  transcriptions and source scans retained. BASIC has **207 numbered entries /
+  206 distinct printed numbers in211 physical rows**. The source prints1560
+  twice; separate occurrence identities preserve both without renumbering.
+  Wrapped lines100,1690,1830 and1870 retain their physical rows.
+- `corrections.json` contains34 text review notes,30 listing anomalies,15 literal
+  PATTERN definitions and79 individually indexed Unicode reading substitutes:
+  48 filled circles,24 hollow circles and seven won signs. Original symbol bytes
+  remain unverified. Ten long blank runs have unique explicit markers. Short
+  spacing, O/0-like shapes, small marks and decorative repetition remain for
+  manual proofreading; no execution or machine-byte certification is claimed.
+- Preserved the apparent missing closing parenthesis at100, extra parenthesis
+  at650, `OR 15` at1680 and `E=5` at1740. The prose's 액/후 hexadecimal strings
+  appear longer than the corresponding80/90 definitions; both printed readings
+  are retained and noted rather than reconciled through inference.
+- All initial ten OCR tasks completed without failure. Expanded the right edge
+  of prose r06 to capture its full hexadecimal run: nine regions reused cache,
+  one reprocessed, no failed-region retries. Both evidence exports validate.
+  Final cached processing totals13.1s rendering/cropping and6.8s OCR, including
+  reused regions rather than summing both passes' wall times.
+- The45-file article package /11,448,567 bytes rebuilds byte-identically. Region
+  coverage, reading order, prose join, raw archive bytes, all review/anomaly ranges,
+  physical/logical indexes, duplicate identities,79 symbol ranges,15 definitions
+  and ten blank markers validate. All1,062 prior-file pins and pre-update inputs
+  pass. Generic tooling remains unchanged; preceding successful62-test log pinned.
+- Desktop1440×1000/mobile390×844 acceptance passes for all seven rendered blocks,
+  14 asset/download pins,34 review ranges and both loaded images. Three wide code
+  panels scroll without page overflow. Actual8,138-byte article and5,965-byte
+  listing downloads match. Original flowchart opens994×1851; screenshots inspected
+  and test browser closed. No application errors; initial favicon404 only.
+  Preview: `http://127.0.0.1:4244/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-06` contains48 files /
+  11,461,774 bytes including index/report/manifest. Manifest SHA-256:
+  `a59d66b2b4c88aa5769214f542306280923e661df7f2a1705f11618bc8b84867`.
+  Mapping/revision records, validation, ledger snapshots, closeout and next plan
+  are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-06`. Elapsed819.7s includes mapping,
+  transcription review, revised crop, validation, browser checks and tool waits.
+- Only 구슬게임's ledger entry changed. February now has **five readable/
+  sample-reviewed articles, one group heading and37 unresolved eligibility
+  decisions**. Prior packages, authoritative TOC and cover/TOC integration remain
+  intact. Next: **12-1984-02-batch-07**, verify 마이크로텍스트 from PDF51/printed44
+  and restore at most six pages. The next catalog start52 suggests eight pages,
+  so continuation and article boundary require local verification and any remaining
+  pages must be deferred explicitly. Complete-issue reader export remains ahead.

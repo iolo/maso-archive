@@ -13,9 +13,11 @@ note and three FC-100 feature segments covering printed18–30. The feature is n
 assembled as readable/sample-reviewed, with every original segment and correction
 record preserved. Batch04 restored 우주전쟁, printed32–35, and classified the
 취미생활 divider. Batch05 restored FLIP-IT II, printed36–40, preserving all
-listing wraps. February has four readable/sample-reviewed articles, one group
-heading and38 unresolved eligibility decisions. Next is **12-1984-02-batch-06**:
-verify and restore 구슬게임 from PDF54/printed41. Step 12's remaining-issue
+listing wraps. Batch06 restored 구슬게임, printed41–43, including its character
+definitions and duplicate printed line number. February has five readable/
+sample-reviewed articles, one group heading and37 unresolved eligibility decisions.
+Next is **12-1984-02-batch-07**: verify 마이크로텍스트 from PDF51/printed44 and
+restore its first segment within the six-page ceiling. Step 12's remaining-issue
 campaign is still open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and

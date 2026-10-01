@@ -2359,3 +2359,37 @@ February now has four readable/sample-reviewed articles, one group heading and
 38 unresolved eligibility decisions. The saved next plan is
 `12-1984-02-batch-06`: verify 구슬게임's extent from PDF54/printed41 before
 restoring further pages. Complete-issue reader export remains ahead.
+
+### February 구슬게임
+
+`12-1984-02-batch-06` restores the complete HYCOM-800 article at verified
+printed41–43 / PDF54–52 as **readable/sample-reviewed**. The following article,
+마이크로텍스트 at PDF51/printed44, is excluded. Ten regions produce seven reading
+blocks, a title illustration, a flowchart and three code panels. The joined
+prose column break retains both source transcriptions.
+
+The listing preserves207 numbered entries in211 physical rows. Printed1560
+occurs twice, with separate occurrence identities; it is not silently renumbered.
+Four logical lines wrap. The correction record includes34 text review notes,
+30 listing anomalies,15 PATTERN definitions and79 source-linked Unicode circle/
+currency substitutes. Ten long blank runs retain explicit markers. Original
+machine bytes remain unverified. The prose's hexadecimal discrepancies and
+printed technical anomalies are preserved for manual correction.
+
+```sh
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-06/marbles
+python3 -m http.server 4244 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-06
+```
+
+The45-file article package rebuilds byte-identically. All1,062 prior-file pins,
+correction ranges, symbol ranges, definitions, duplicate identities and listing
+partitions validate. The prose crop was widened to preserve its full final hex
+string; original and revised OCR exports are retained. Desktop/mobile checks
+pass for all blocks, images,14 asset/download pins and both actual downloads.
+
+February now has five readable/sample-reviewed articles, one group heading and
+37 unresolved eligibility decisions. Next is `12-1984-02-batch-07`: verify
+마이크로텍스트's extent and restore at most six pages from PDF51/printed44.
+Any continuation remains explicit until a later checkpoint completes the article.
