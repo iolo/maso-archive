@@ -16,12 +16,14 @@ record preserved. Batch04 restored 우주전쟁, printed32–35, and classified 
 listing wraps. Batch06 restored 구슬게임, printed41–43, including its character
 definitions and duplicate printed line number. Batch07 restored 마이크로텍스트's
 first six pages, printed44–49 / PDF51–46, through BASIC2080. Its complete extent
-is verified at printed44–51; the last two pages are present and deferred.
+is verified at printed44–51. Batch08 restored the final two pages, printed50–51,
+through3470; both immutable segments now cover all eight pages.
 February has five readable/sample-reviewed articles, one partial/sample-reviewed
 article, one group heading and36 unresolved eligibility decisions. Next is
-**12-1984-02-batch-08**: restore printed50–51 / PDF45–44, listing2090–3470,
-then assemble both preserved segments before promoting the article. Step 12's
-remaining-issue campaign is still open.
+**12-1984-02-microtext-assemble**: add bounded support for within-segment physical
+code wraps and partial listing review ranges, then assemble both preserved
+segments before promoting the article. Step 12's remaining-issue campaign is
+still open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -397,7 +399,11 @@ issue in the staged reader before moving to remaining issues.
   Preserve the first six-page segment and its seven prose/table joins, code270
   page continuation, literal technical anomalies and correction indexes. Restore
   the remaining two pages separately; validate assembly before calling the whole
-  article readable. The following PDF43/printed52 starts 3차원 미로.
+  article readable. The following PDF43/printed52 starts 3차원 미로. Both segments
+  are now restored. Assembly preflight confirms the existing namespaced mode
+  rejects internal wrapped physical rows; extend support in a separate bounded
+  checkpoint with synthetic tests, preserving338 logical/606 physical rows,
+  partial anomaly ranges, DATA indexes and all original metadata.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

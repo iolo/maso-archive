@@ -4487,6 +4487,7 @@ history remains in [PROGRESS.md](PROGRESS.md).
   candidate PDF53–52 and boundary51 require local verification. Complete-issue
   classification, restoration and reader export remain in progress.
 
+
 ### 2026-10-01 — 12-1984-02-batch-06 started
 
 - Verified 구슬게임 at printed41–43 / PDF54–52, followed by 마이크로텍스트 at
@@ -4608,3 +4609,60 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and cover/TOC integration remain intact. Next: **12-1984-02-batch-08**, restore
   the final two verified pages and then assemble both segments. Complete-issue
   classification, restoration and reader export remain in progress.
+
+### 2026-10-01 — 12-1984-02-batch-08 started
+
+- Restore 마이크로텍스트's final two verified pages, printed50–51 / PDF45–44,
+  preserving BASIC2090–3470 and the2750 page continuation. The following
+  PDF43/printed52 begins 3차원 미로. First segment remains immutable.
+- Prior checkpoint committed as `e2946ff`;1,233 prior output-file pins saved.
+  After this segment, assemble and validate the eight-page article separately.
+
+### 2026-10-01 — 12-1984-02-batch-08 complete
+
+- Restored 마이크로텍스트's final two pages, printed50–51 / PDF45–44, as
+  **partial/sample-reviewed**. Four mapped code panels preserve BASIC2090–3470:
+  139 numbered lines in287 physical rows. Line2750 continues across the page
+  break with target2490; that target is not misclassified as a new numbered row.
+  The verified next article at PDF43/printed52 remains excluded.
+- `corrections.json` retains25 text review notes and25 listing anomalies.
+  Preserved the missing-looking parenthesis at2150, absent-looking comparison
+  mark at2220, `ZO:1` at2260, repeated equality at2270, terminal dot at2360,
+  comma-like mark after3080's LOCK and `CC > N91` at3130. Variable shapes,
+  prompt symbols and quoted spacing remain owner-proofread scope; no inferred
+  technical repair or execution claim.
+- The final DATA statements have separate literal numeric indexes:58 values
+  at3460 and ten at3470, including final-1. Physical numeric splits remain in
+  the listing download; only the derived index removes those newlines. This
+  does not certify original machine bytes or executable machine code.
+- All four OCR tasks completed without failure, crop revision or retry.
+  Rendering/cropping9.0s, OCR6.7s. The27-file article /10,588,938 bytes rebuilds
+  byte-identically. Region coverage, all review ranges, physical/logical row
+  partitions,2750 continuation, DATA indexes and raw archive bytes validate.
+  All1,233 prior-file pins and pre-update inputs pass. Generic tooling unchanged;
+  the preceding successful62-test log remains pinned.
+- Desktop1440×1000/mobile390×844 acceptance passes for all four blocks, eight
+  asset/download pins and25 review ranges. Four wide panels scroll without page
+  overflow. Actual6,912-byte article and6,905-byte listing downloads match.
+  Screenshots inspected; no application errors, initial favicon404 only; test
+  browser closed. Preview: `http://127.0.0.1:4246/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-08` contains30 files /
+  10,598,648 bytes including index/report/manifest. Manifest SHA-256:
+  `6f0b389e882fcfb2d2fbb11c292c08d7b79e2759bf3f100cc1f3676e0ba1be98`.
+  Mapping, reviewed transcriptions, validation, ledger snapshots, assembly
+  preflight and next plan are in the matching private directory. Browser evidence
+  is under `output/playwright/pdf-1984-02-batch-08`. Elapsed729.4s includes
+  extraction, review, validation, browser acceptance and tool waits.
+- Both segments now cover all eight article pages:338 numbered lines in606
+  physical rows and14,293 combined listing bytes. Assembly preflight validates
+  both immutable inputs but the existing namespaced mode rejects internal wrapped
+  rows with `Carried line has no preceding numbered row`. Its existing anomaly
+  projection also assumes full-row ranges. Next is the bounded
+  **12-1984-02-microtext-assemble** checkpoint: extend opt-in projection with
+  synthetic tests, preserve62 text notes/46 listing anomalies and DATA metadata,
+  assemble, then verify and promote the complete article.
+- Only 마이크로텍스트's ledger entry changed. February remains at five readable/
+  sample-reviewed articles, one partial/sample-reviewed article, one group heading
+  and36 unresolved eligibility decisions. All source pages of the partial article
+  are restored; assembly remains. Prior packages, authoritative TOC and cover/TOC
+  integration are preserved. Complete-issue work remains active.

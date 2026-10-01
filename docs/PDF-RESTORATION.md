@@ -2426,3 +2426,30 @@ February now has five readable/sample-reviewed articles, one partial/sample-revi
 article, one group heading and36 unresolved eligibility decisions. Next is
 `12-1984-02-batch-08`: restore the final two verified pages and assemble the
 article, preserving this first segment. Complete-issue reader export remains ahead.
+
+### February 마이크로텍스트, final segment
+
+`12-1984-02-batch-08` restores printed50–51 / PDF45–44 as
+**partial/sample-reviewed**. Four code panels preserve2090–3470, with139 numbered
+lines in287 physical rows. The2750 page continuation retains both scan identities.
+Twenty-five review notes preserve literal anomalies and uncertain marks. The
+two DATA statements additionally have literal numeric indexes of58 and ten values;
+the listing retains their physical line breaks. No execution claim is made.
+
+```sh
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-08/microtext
+python3 -m http.server 4246 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-08
+```
+
+The27-file article rebuilds byte-identically; all1,233 prior-file pins pass.
+Desktop/mobile checks pass for text, review ranges, eight asset/download pins,
+code scrolling and both actual downloads. The test browser is closed.
+
+Both segments now cover all eight pages and338 numbered/606 physical rows.
+Assembly remains pending: the existing namespaced projection rejects within-segment
+physical wraps and assumes full-row listing anomalies. The next bounded checkpoint,
+`12-1984-02-microtext-assemble`, adds opt-in support and synthetic tests before
+assembling and validating the complete article. February's article remains partial
+until that gate passes; issue totals are unchanged.
