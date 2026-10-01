@@ -629,6 +629,16 @@ issue in the staged reader before moving to remaining issues.
   no circuit or code execution certification. Existing regional/listing projector
   preflight and byte-identical rebuild pass. Continue182–187 next,then188–191
   and immutable assembly. All17 extent lookup images are saved for reuse.
+- The middle six Hangul wordprocessor pages182–187 are now preserved in a
+  second partial package:48 regions,24 blocks,13 figures and captions,two
+  binary-counter tables,and five joins across11 column/page boundaries.
+  35 regional ranges,40 text reviews,147 Unicode spans and six complete
+  overline groups validate. One incomplete marginal mark remains explicit.
+  A single r39 crop extension preserves its final2;47 other OCR regions were
+  reused. Assembly now accepts fully overlined digits such as F̅8̅;77 PDF tests
+  and a byte-identical rebuild pass. Restore final188–191 next,then assemble
+  all16 pages with the two source-linked boundary joins. Twelve pages restored
+  does not yet mean a complete article. No browser work in this checkpoint.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

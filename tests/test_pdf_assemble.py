@@ -823,7 +823,7 @@ class PDFAssemblyTests(unittest.TestCase):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 project(self.recipe, segments)
 
-    def regional_segments(self):
+    def regional_segments(self, overlined='D̅S̅R̅'):
         from tools.pdf_restore.assembly_indexes import block_ranges
         segments = self.standalone_segments(prose=True)
         for i, (source, c) in enumerate(segments):
@@ -831,7 +831,7 @@ class PDFAssemblyTests(unittest.TestCase):
             region = block['region_ids'][0]
             block.update(kind='prose', text='분류 | 용도 | 모델 | ' if i == 0 else '1. 인쇄 참조')
             next(r for r in source['regions'] if r['id'] == region)['kind'] = 'prose'
-            prose['text'] = '한글 끝과' if i == 0 else '의 D̅S̅R̅ 설명.'
+            prose['text'] = '한글 끝과' if i == 0 else f'의 {overlined} 설명.'
             scan = source['region_assets'][0]['asset']
             if i == 0:
                 next(r for r in source['regions'] if r['id'] == region)['bbox'] = source['regions'][1]['bbox'][:]
@@ -866,8 +866,8 @@ class PDFAssemblyTests(unittest.TestCase):
             else:
                 row = next(r for r in c['regional_text_index'] if r['block_id'] == 'prose')
                 start = row['utf8_byte_start'] + len('의 '.encode())
-                c['unicode_glyphs'] = [dict(row, glyph='D̅S̅R̅', utf8_byte_start=start,
-                    utf8_byte_end_exclusive=start+len('D̅S̅R̅'.encode()), encoded_bytes=None, source_encoding_verified=False)]
+                c['unicode_glyphs'] = [dict(row, glyph=overlined, utf8_byte_start=start,
+                    utf8_byte_end_exclusive=start+len(overlined.encode()), encoded_bytes=None, source_encoding_verified=False)]
                 c['signal_notation_index'] = deepcopy(c['unicode_glyphs'])
                 row = next(r for r in c['regional_text_index'] if r['block_id'] == 'block1')
                 c['reference_index'] = [dict(row, number=1, transcription_excerpt='1. 인쇄 참조', bibliographically_verified=False)]
@@ -877,6 +877,28 @@ class PDFAssemblyTests(unittest.TestCase):
             intervening=[dict(segment='opening', type=kind, id=id) for kind, id in
                          [('figure','figure0'), ('block','caption'), ('block','block0')]])])
         return segments
+
+    def test_regional_prose_preserves_overlined_port_digits_through_a_join(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import span
+        segments = self.regional_segments(overlined='F̅8̅')
+        before = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        article, _ = text_bytes(package)
+        row, = correction['signal_notation_index']
+        self.assertEqual(span(row, article), 'F̅8̅')
+        self.assertEqual(row['block_id'], 'opening-prose')
+        self.assertEqual(row['region_id'], 'continuation-prose')
+        self.assertTrue(row['scan']['path'].startswith('segments/continuation/'))
+        self.assertEqual(span(row['source_range'], text_bytes(segments[1][0])[0]), 'F̅8̅')
+        self.assertEqual(before, segments)
+
+    def test_regional_prose_rejects_incomplete_or_punctuated_overlined_ports(self):
+        for glyph in ('F̅8', 'F̅-̅', '\u0305'):
+            with self.subTest(glyph=glyph):
+                segments = self.regional_segments(overlined=glyph)
+                with self.assertRaisesRegex(ValueError, 'complete overlined'):
+                    project(self.recipe, segments)
 
     def test_regional_prose_preserves_interrupted_join_source_ranges_and_blank_cells(self):
         from tools.pdf_restore.assemble import text_bytes

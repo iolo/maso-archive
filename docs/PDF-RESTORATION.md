@@ -2892,6 +2892,9 @@ text region is represented exactly once; each specialized span must lie within
 its source region, match source bytes and retain a valid scan pin. Table rows
 retain consecutive identities and explicit null cells linked to their original
 figure area. Signal notation corresponds to overlined Unicode reading glyphs.
+Uppercase letters and digits are supported, including the printed F̅8̅ port
+notation. Every character must retain its combining overline; incomplete bars
+and punctuation are rejected. These are reading forms, not certified source bytes.
 Projected rows contain global offsets, original offsets and segment identities;
 complete original correction files and metadata remain under `segments/`.
 

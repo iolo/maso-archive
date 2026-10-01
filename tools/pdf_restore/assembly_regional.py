@@ -96,8 +96,8 @@ def project_regional(context, result, project_range):
     if signal_keys(signals) != signal_keys(overlined):
         raise ValueError('Signal notation index differs from overlined glyphs')
     for row in signals:
-        if not re.fullmatch(r'(?:[A-Z]\u0305)+', row['glyph']):
-            raise ValueError('Signal notation must retain complete overlined letters')
+        if not re.fullmatch(r'(?:[A-Z0-9]\u0305)+', row['glyph']):
+            raise ValueError('Signal notation must retain complete overlined letters or digits')
         result['signal_notation_index'].append(linked(row, row['glyph']))
 
     counts = defaultdict(int)

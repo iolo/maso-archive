@@ -6332,3 +6332,55 @@ history remains in [PROGRESS.md](PROGRESS.md).
   segment unchanged,then restore188–191 and assemble. Full February closeout
   and reader integration remain pending; corrected TOC and completed cover/TOC
   integrations are unchanged.
+
+
+### 2026-10-02 — 12-1984-02-batch-35 started
+
+- Restore middle pages182–187/PDF178–183 of 한글워드프로세서의 설계2.
+  Reuse saved lookup scans; preserve7,177 prior-file pins and the first
+  six-page package. Previous042e237 made progress. Keep circuitry and printed
+  technical claims source-linked. No browser work or reader staging.
+
+### 2026-10-02 — 12-1984-02-batch-35 complete: Hangul wordprocessor middle segment
+
+- Restored printed182–187/PDF178–183 of 한글워드프로세서의 설계2:
+  48 regions,24 reading blocks,13 original figures and13 captions. Two binary
+  counter tables have two data rows plus two headers. Five prose joins cover
+  eleven boundaries,retaining intervening figures/captions exactly once.
+- Corrections contain35 regional ranges,40 text reviews,147 Unicode spans and
+  six complete overline groups. Printed F̅8̅ required a narrow assembly fix:
+  accept fully overlined uppercase letters and digits while rejecting partial
+  bars and punctuation. Added join/rejection regression coverage;31 focused
+  assembly tests and all77 PDF tests pass. This is compatibility work,not a
+  performance-pipeline change. Original source packages remain unchanged.
+- Preserved EPROM and address-decoding claims,dedicate RAM,line of sight,
+  MO,÷8÷10,001μF,prose10μsec versus figure20's10nsec,and4/5(220/220+47).
+  One incomplete parenthesis/1-shaped marginal fragment remains ⟦기호1⟧,
+  source-linked for manual correction. Circuit internals and the author halftone
+  remain imagery. No code listing occurs in this segment; no listing.txt was
+  invented. No electrical correctness or original-character-byte certification.
+- Reused eleven saved extent lookup images. All48 initial OCR tasks passed;
+  extended r39's lower crop edge once to preserve the complete last2 and ran
+  one new task,reusing47 cached regions. Initial map/OCR and revised evidence
+  remain available. Measured initial render/crop15.3028s and OCR12.7445s;
+  revision1.7076s/0.5235s; actual cumulative17.0104s/13.2680s. Cached revised
+  totals were not added again. No export/rebuild retry was needed this turn.
+- All7,177 prior-file pins,source/correction ranges,table rows,figure links,
+  image decoding,raw OCR archive identity and a fresh byte-identical rebuild
+  pass. Production regional/listing projector preflight accepts F̅8̅ and all
+  six complete overline groups. No Playwright or reader staging.
+- Article manifestd658c38d5aca948924bb1f07414a54e2e3e39f0d9ff60018acfd144b6ab77807:
+  163 files/30,273,343 bytes,article.txt17,909 bytes. Wrapper165 files/
+  30,308,450 bytes; manifest SHA-256
+  75d251048ef49ee8b1b0337712cc78c8d6a505fb1d4f8618d20071e29be9c4f5.
+  Elapsed1019.5s from recorded start includes conversation/context handoffs,
+  source review,transcription,crop revision,compatibility tests,export,rebuild
+  and closeout; it is wall time,not active CPU time. Stage token use is not
+  instrumented. Private evidence:private/pdf-restoration/12-1984-02-batch-35.
+- Only entry0031's partial coverage changes to twelve of sixteen pages in two
+  immutable segments. Counts stay31 classified/sample-reviewed:30 readable,
+  one partial,four group headings and eight unresolved eligibility decisions.
+  Next:batch36,final188–191/PDF184–187,then whole-article assembly. Preserve
+  incoming 프로그램된/내용을 and outgoing 스위/치 joins plus intervening
+  figures. Full February reconciliation and reader integration remain pending;
+  corrected TOC and completed cover/TOC integrations are unchanged.
