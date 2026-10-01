@@ -6048,3 +6048,47 @@ history remains in [PROGRESS.md](PROGRESS.md).
   four group headings and12 unresolved eligibility decisions. Next:batch30,
   로더란 무엇인가 from160/PDF156. Full issue reconciliation and reader
   integration remain pending; authoritative cover/TOC work is unchanged.
+
+
+### 2026-10-02 — 12-1984-02-batch-30 started
+
+- Verify 로더란 무엇인가 from160/PDF156 and restore up to six source pages.
+  Preserve6,089 prior-file pins; previous checkpoint51ea720 made progress.
+  Keep diagrams, historical notes and examples source-linked; JSON/assets
+  validation only, without per-batch browser work.
+
+### 2026-10-02 — 12-1984-02-batch-30 complete (article partial)
+
+- Verified 로더란 무엇인가 spans printed160–166/PDF156–162; K-Monitor starts
+  167/PDF163. Restored the first six pages160–165:63 regions,46 reading blocks,
+  ten original images and eight captions. Final166 remains source-present and
+  deferred, with remaining explanation,figure6,optional shape commands and notes.
+- Four code groups preserve three independent POKE examples and the complete
+  main PROGRAM LOADER listing0–1220. All120 physical rows are indexed:16
+  unnumbered commands,73 numbered lines and31 wrapped continuations. Printed
+  LOADER/LOADED differences, CALL -756, POKE,104,B and literal generated-command
+  strings remain unchanged. No execution or inferred repair was performed.
+- corrections.json has53 regional ranges,53 text reviews,66 Unicode spans and
+  23 listing reviews. Seven quoted-space widths and three prompt/explanation
+  glyphs have explicit unresolved markers. Preserve interpreter footnote6 as
+  printed despite definition5 on the deferred page. Seven joins connect column/
+  page boundaries; allocation's discretionary hyphen is documented. Memory-table
+  header and six data rows have seven indexed ranges. Original diagrams retain
+  internal text; separate captions partly overlap image rectangles1/4.
+- All63 initial OCR tasks completed without retries/failures; saved results were
+  reused on resume. Measured render/crop18.04s and OCR16.36s. Package/asset/source
+  checks, every correction/table/listing range, raw OCR archive and6,089 protected
+  prior-file pins pass. The233-file article package (35,304,344 bytes) rebuilds
+  byte-identically; article.txt22,052 bytes and listing.txt2,788 bytes. Generic
+  tooling and its successful73-test log remain unchanged. No browser checks or
+  redundant full-suite execution.
+- Wrapper235 files/35,346,393 bytes; manifest SHA-256
+  bad4b0e0b2364af883b832c157ea0f71cee6af56708b172fdbc81e57ef7a506b.
+  Elapsed1,021.3s is wall time since the original checkpoint start, including
+  conversation/context interruption and resumed work; it is not active labor or
+  CPU time. Private mapping,transcription,recipes,validation,closeout and next
+  checkpoint are saved under private/pdf-restoration/12-1984-02-batch-30.
+- Only entry0028 changes:28 classified/sample-reviewed articles,27 readable and
+  one partial; four group headings and11 unresolved eligibility decisions. Next:
+  final loader page166/PDF162, then seven-page assembly. Full issue reconciliation
+  and reader integration remain open; corrected TOC and cover work are intact.

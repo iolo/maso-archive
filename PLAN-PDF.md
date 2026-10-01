@@ -577,6 +577,17 @@ issue in the staged reader before moving to remaining issues.
   and field-name examples remain source readings. All prior pins and the
   byte-identical rebuild pass. PDF155 is the 테크니컬 group divider without
   visible folio; position159 is inferred, not printed. Loader begins160/PDF156.
+- 로더란 무엇인가 spans printed160–166/PDF156–162. First six pages are a
+  partial package with63 regions,46 blocks,10 original images and eight captions.
+  Three independent POKE examples and the complete main PROGRAM LOADER listing
+  retain120 physical rows:16 unnumbered,73 numbered and31 wrapped continuations.
+  Keep printed code/address discrepancies and ten unresolved quoted-space/glyph
+  markers for manual correction. Seven joins,53 regional ranges,53 text reviews,
+  66 Unicode spans,23 listing reviews and seven memory-table rows validate.
+  Final166/PDF162 contains remaining explanation,figure6,optional shape commands
+  and footnotes; restore it next, then assemble all seven pages using the existing
+  regional-listing-v1 projection. Preserve the printed interpreter6 reference
+  despite its final-page definition5. No per-batch browser check is required.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
