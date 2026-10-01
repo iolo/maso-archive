@@ -79,10 +79,13 @@ are inspected;remaining continuity still awaits source review. Batch43 restored
 11 independent examples. Twelve pages are now preserved in two immutable
 segments;the DEFDBL boundary join is verified. Batch44 restored225–230/PDF221–226,
 including47 entries,17 independent examples and three original table images.
-Eighteen pages are now preserved in three immutable segments. Next is
-**12-1984-02-batch-45**: restore231–236/PDF227–232. Nine source pages in two
-bounded continuation segments and assembly remain,subject to source verification. Two section
-classifications and full issue reconciliation/closeout also remain.
+Batch45 restored231–236/PDF227–232,including57 entries,19 independent
+examples and the original REPT image. Twenty-four pages are now preserved in
+four immutable segments;two TI$ HOME symbols remain source-linked markers.
+Next is **12-1984-02-batch-46**: restore final237–239/PDF233–235,including
+ASCII-code tables,then assemble the dictionary. Three source pages and assembly
+remain,subject to final continuity verification. Two section classifications
+and full issue reconciliation/closeout also remain.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -737,6 +740,17 @@ issue in the staged reader before moving to remaining issues.
   hash counts checked;key-control bytes remain unverified. No OCR revisions;
   fresh rebuild matches. Eighteen pages preserved,next231–236 then237–239,
   followed by assembly and issue closeout. No per-batch browser work.
+- Dictionary continuation231–236/PDF227–232 is restored:69 regions,63 blocks,
+  one original REPT image,68 regional ranges,52 review notes and70 Unicode
+  spans.57 entries,61 machine labels,19 independent examples,three formulas,
+  three POKE ranges and six key notations validate. Five internal joins;no new
+  external definition join. REPT24/8 cross-mark rows remain indexed beside
+  the source image. Two TI$ HOME graphics are source-local correction markers;
+  no control bytes inferred. Printed RNA(0),GAVE/GAME,SGN X=1,REM comma,
+  DATA trailing period and historical claims remain literal. One READ crop
+  extension restores the final sentence;68 cached regions reused. Fresh rebuild
+  matches. Twenty-four pages preserved;next final237–239/code tables,then
+  assembly and issue closeout. No per-batch browser or reader staging.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

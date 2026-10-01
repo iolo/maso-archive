@@ -6926,3 +6926,61 @@ history remains in [PROGRESS.md](PROGRESS.md).
   headings. Only0036 coverage changed. Next231–236/PDF227–232,then237–239,
   assembly,two heading classifications and full issue closeout. Corrected TOC
   and completed cover/TOC integrations remain unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-45 started
+
+- Restore dictionary231–236/PDF227–232,with one following-page lookup.
+  Preserve9,582 prior-file pins and three immutable segments;6996cee made
+  verified progress. Reuse available lookup images;local package checks only.
+
+### 2026-10-02 — 12-1984-02-batch-45 complete: dictionary231–236
+
+- Restored six continuation pages231–236/PDF227–232,TOC0036. Folios and
+  running headers verified;Q/question-mark begins and VARPTR ends completely.
+  Following237/PDF233 begins VERIFY and later introduces ASCII-code tables.
+  Four immutable segments now cover213–236,24 pages of candidate27. Full
+  extent verification awaits final237–239;no new external definition join.
+- 69 regions,63 blocks and one original REPT image preserve all source text
+  and independent examples.68 regional ranges,52 review notes and70 Unicode
+  spans validate.57 entries and61 machine labels remain source-linked.
+- Five internal joins cover READ,RIGHT$,SAVE,SHIFT@ and STR$. Physical SA-/VE
+  joins as SAVE.19 independent examples,three formulas,three literal POKE
+  ranges and six key notations retain byte indexes. Examples are not combined
+  into a runnable listing. Twenty-four consecutive source pages pass assembly
+  preflight;previous DEFDBL remains the only external definition join so far.
+- REPT retains24/8 repeated cross marks in two indexed rows plus original
+  image. RND fractional digit counts9/9/15 and STRING$ five stars checked.
+  Two TI$ square-with-inner-square HOME representations remain separate
+  source-local markers for manual correction;no Hanja or PET byte inferred.
+- Literal RNA(0),SAVE GAVE/GAME,SGN X=1,REM comma shorthand,DATA trailing
+  period and historical RESET/RESTORE/RETURN/STOP/TRACE claims retained.
+  Enlarged STEP source supports damaged100;STRING$ uses Z rather than OCR2.
+  No technical repair,execution,character-perfect claim or byte certification.
+- One downward READ crop extension restores its final sentence. Initial map
+  and OCR remain intact;69 initial tasks plus one revised task,68 cache hits,
+  no process failures. No private-script/test authoring failures recorded.
+- Validation passed:9,582 prior-file pins,source/OCR assets,all region images,
+  ZIP bytes,joins,entry/label/example/formula/POKE/key/repetition indexes,
+  uncertainty ranges,assembly preflight and one fresh byte-identical rebuild.
+  Existing77-test log/tooling pins unchanged;no full-suite repeat,pipeline
+  change,browser,reader staging or emulator work.
+- Measured task execution45.524397s initial plus2.516795s revision,total
+  48.041192s. Cached report totals were not added again. Wall interval939.8s
+  includes prior setup,context handoff,scope clarification,source review,
+  transcription,export,validation/rebuild and closeout;not active compute time.
+  Stage token usage remains unmeasured. The preceding scope-only response
+  made no restoration progress;pending OCR was polled and confirmed terminal
+  before continuing,without restarting it. Existing cost audit was not repeated.
+- Output `build/pdf-restoration/12-1984-02-batch-45`:285 files,
+  34,738,468 bytes;article.txt26,848 bytes. Article manifest SHA-256:
+  `81a437816f0b010ddfd1a7876dd001cb208641d0a57c5e15add36370ef92f16c`.
+  Wrapper manifest SHA-256:
+  `8cb02a6cb7baf1da9036562f36a64a7d19ed347cffc2dd90cc5f8781b2db68dd`.
+  Private initial/revised maps and OCR,transcriptions,corrections,validation,
+  assembly preflight,ledger snapshots and next plan remain available.
+- Counts unchanged:43 entries,37 classified/sample-reviewed articles (36
+  readable,one partial dictionary),four group headings and two unresolved
+  headings. Only0036 coverage changed. Next final237–239/PDF233–235,with
+  ASCII-code tables and explicit shared-page advertisement exclusion,then
+  dictionary assembly,two heading classifications and full issue closeout.
+  Corrected TOC and completed cover/TOC integrations remain unchanged.
