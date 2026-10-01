@@ -58,8 +58,8 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **35 readable articles**, all sample-reviewed, no partial articles,
-four classified group headings and four unresolved entries. Batches25–29 restored
+has **36 readable articles**, all sample-reviewed, no partial articles,
+four classified group headings and three unresolved entries. Batches25–29 restored
 UNIX, VisiCalc 활용, 우수한 프로그래머가 되는 첩경 and dBASEII, and classified
 테크니컬. Batches30–38 and their assemblies completed 로더란 무엇인가,
 기계어 테크닉, the16-page 한글 워드프로세서의 설계2 and the eight-page
@@ -68,9 +68,12 @@ preserved. Batch39 restored the complete competition notice200/PDF196 and
 second competition review201/PDF197, including all11 reviewed submissions.
 Batch40 restored complete SNAKY GAME202–207/PDF198–203,including148 numbered
 BASIC statements in282 physical rows,five images and two searchable tables.
-Next is **12-1984-02-batch-41**: verify 지하괴물잡기 from208/PDF204 and
-restore at most six source pages. The dictionary supplement and two section
-classifications remain,followed by full issue reconciliation and closeout.
+Batch41 restored complete 지하괴물잡기208–212/PDF204–208,including216
+numbered statements in242 physical rows and all18 character definitions.
+Bitmap spans and unknown blank widths remain explicitly source-linked for
+manual correction. Next is **12-1984-02-batch-42**: verify the dictionary
+supplement from213/PDF209 and restore its first segment of at most six pages.
+Two section classifications and full issue reconciliation/closeout also remain.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -686,6 +689,14 @@ issue in the staged reader before moving to remaining issues.
   and29 listing reviews validate.13 one-time crop extensions preserve initial
   evidence and reuse38 unchanged regions;fresh rebuild matches. Next verify
   지하괴물잡기 from208/PDF204. No per-batch browser work is required.
+- 지하괴물잡기208–212/PDF204–208 is complete:35 regions,29 blocks,five
+  images including all four bitmap/photo listing panels.216 numbered statements
+  retain242 physical rows;200:CLS is a V= continuation,not a duplicate number.
+  64 graphic spans and26 unknown blank widths remain manual-correction markers.
+  18 DEFCHR$ definitions retain216 printed hex values without inferred glyph
+  mapping.30 regional ranges,123 reviews and116 listing reviews validate.
+  Three one-time crop extensions reuse32 regions;fresh rebuild matches.
+  Lower212 advertisement excluded. Next verify the dictionary from213/PDF209.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

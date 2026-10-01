@@ -6700,3 +6700,65 @@ history remains in [PROGRESS.md](PROGRESS.md).
   two section classifications remain. Full issue reconciliation,standalone
   reference/report and reader integration remain pending. Corrected TOC and
   completed cover/TOC integration are intact.
+
+### 2026-10-02 — 12-1984-02-batch-41 started
+
+- Verify 지하괴물잡기 from208/PDF204 and its following boundary. Preserve
+ 8,657 prior-file pins,source BASIC and correction evidence;at most six source
+ pages. Previousf3c59a8 made progress. Package checks only,no browser work.
+
+### 2026-10-02 — 12-1984-02-batch-41 complete: 지하괴물잡기
+
+- Complete five-page article208–212/PDF204–208,TOC0035. Source award,
+  SPC-1000 label and 이 재성/신림중2년 byline retained. All visible folios
+  and the following dictionary title213/PDF209 verify the extent. Lower212
+  세운 기술서적 advertisement is explicitly excluded. Lookup214–215 also
+  confirms the dictionary body rather than game continuation.
+- 35 regions,29 blocks,five original images preserve the screen and all four
+  listing panels,including bitmap characters and photograph backgrounds.
+  Ten variable descriptions join across columns while the screen remains once;
+  fourteen routine ranges are searchable and indexed. No captions invented.
+- BASIC10–2160:216 numbered statements in242 physical rows. Full-source and
+  enlarged review correct the preliminary duplicate200 claim:200:CLS continues
+  the preceding V= assignment and is not another statement number. Wrapped
+  CH/R$,hexadecimal fields,music strings and long scoring rows remain literal.
+- Corrections preserve30 regional ranges,123 review excerpts,18 Unicode spans
+  and116 listing-review ranges.64 source-local graphic spans and26 unknown
+  blank widths are explicit markers for manual post-production. Markers do not
+  assign original character codes or assume repeated-looking graphics match.
+  All18 DEFCHR$ definitions128–145 retain their12 printed hex values each,
+  216 values total,with source listing ranges. No mapping between these values
+  and PRINT glyphs,execution,byte certification or exact layout is claimed.
+- Printed LOCATE15,Q at both480/490,R=R+1 at both870/890,blank strings at
+  1330/1340,You are score=,strict score inequalities and missing closing
+  parenthesis in the K-variable explanation remain unchanged. Music strings,
+  decorative star counts and small marks remain owner-review scope.
+- One vertical-edge extension each forr21,r28,r33 preserves complete source
+  rows;32 unaffected regions reused cache.35 initial plus3 revision tasks,
+  zero processing failures. Initial map/OCR remain intact. An excluded-region
+  schema omission failed before OCR and was corrected. One generated closeout
+  syntax error was corrected before any ledger write. Both are authoring costs,
+  recorded separately from OCR revisions. No duplicate or repeated export.
+- Validation passed:source/OCR and8,657 prior-file pins,all region images,
+  physical/logical listing spans,correction ranges,14 routine ranges,18 character
+  definitions,advertisement exclusion,ZIP contents and a fresh byte-identical
+  rebuild. Generic tooling and its77-test log remain unchanged,pins verified;
+  no repeated suite,browser,reader staging or emulator work.
+- Measured task-ledger execution37.877782s initial plus14.373718s revision,
+  total52.251500s. Revised cached processing totals include reused work and
+  were not added again. Wall interval730.2s includes mapping,transcription,
+  source review,crop revisions,authoring errors,validation and closeout;it is
+  not active compute time. Stage token usage was not measured.
+- Output `build/pdf-restoration/12-1984-02-batch-41`:138 files,
+  83,631,853 bytes;article.txt13,903 bytes,listing.txt10,437 bytes.
+  Article manifest SHA-256:
+  `012ab7cc21bd243a246fe796e9f98fde01fbb335db0890744cca6be3abfc8bde`.
+  Wrapper manifest SHA-256:
+  `7a07972c7605b1769866e25e6186f2775a83e114623af8e4163c2503e6467ca3`.
+  Initial/revised maps and evidence,transcriptions,corrections,validation,
+  ledger snapshots and next plan remain in the matching private directory.
+- February:43 entries,36 readable/sample-reviewed articles,no partials,four
+  classified group headings and three unresolved entries. Only0035 changed.
+  Next verify the BASIC dictionary supplement from213/PDF209 and restore its
+  first bounded segment. Two section classifications and full issue closeout
+  remain. Corrected TOC and completed cover/TOC integrations are unchanged.
