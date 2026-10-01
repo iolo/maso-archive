@@ -639,6 +639,12 @@ issue in the staged reader before moving to remaining issues.
   and a byte-identical rebuild pass. Restore final188–191 next,then assemble
   all16 pages with the two source-linked boundary joins. Twelve pages restored
   does not yet mean a complete article. No browser work in this checkpoint.
+- Final Hangul pages188–191 are restored:16 regions,8 blocks,five original
+  figures,three captions and two joins across three boundaries.11 regional
+  ranges,25 reviews,29 Unicode spans and four overline groups validate. All
+  sixteen source pages now exist in three immutable packages;next assemble
+  using regional-listing-v1 and the two explicit boundary joins. No new OCR
+  is needed for assembly;retain local table indexes and all original packages.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

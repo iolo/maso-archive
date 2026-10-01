@@ -6384,3 +6384,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   incoming 프로그램된/내용을 and outgoing 스위/치 joins plus intervening
   figures. Full February reconciliation and reader integration remain pending;
   corrected TOC and completed cover/TOC integrations are unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-36 started
+
+- Restore final188–191/PDF184–187 of 한글워드프로세서의 설계2:
+  the input/output interface and conclusion,plus three original circuit sheets.
+  Reuse saved lookup scans and preserve both prior segments. Previous23e0010
+  made progress. Package validation only; no browser work or reader staging.
+
+### 2026-10-02 — 12-1984-02-batch-36 complete: Hangul wordprocessor final segment
+
+- Restored final188–191/PDF184–187:16 regions,8 reading blocks,five original
+  figures and three captions. Prose ends188;all three following circuit sheets
+  belong to the article. Original figure order25,27,26 is preserved. The last
+  two sheets have no invented captions or figure numbers. Keep sideways source
+  orientation,figure26's handwritten margin label and final prose ornament.
+- Two joins cover three column boundaries:제거시/키면,사용하/였다 and
+  속도적인/것은.11 regional ranges,25 reviews,29 Unicode spans and four
+  overline groups validate. Preserve F̅8̅,F̅7̅H,Q̅₀,Q̅₇,printed figure2.6,
+  Epson series names,and CRTWR/INPUT/output references to the prior installment.
+  No absent code is generated;no listing.txt for this segment. Circuit internals
+  remain imagery without netlist,electrical or original-byte certification.
+- All16 initial OCR tasks completed without failures,retries or crop revision.
+  Five saved lookup scans reused. Measured render/crop7.6908s and OCR3.2659s.
+  All7,342 prior-file pins,source/correction byte ranges,figure/caption identity,
+  image decoding,raw OCR identity and fresh byte-identical rebuild pass.
+  Production regional/listing projector accepts the segment. Generic tooling
+  and prior77-test log unchanged,pins checked;no repeated test suite or browser.
+- Article manifest65efbfaa060c99e754fd762dbada4061d9689a59cbc983a8734316af17e09042:
+  59 files/14,994,646 bytes,article.txt4,543 bytes. Wrapper
+  61 files/15,009,607 bytes; manifest SHA-256
+  ab40155e1c269b0b6de34e0d3951c55eb527bb693cab578533513504b7b332fa.
+  Elapsed409.8s includes mapping,source review,transcription,validation
+  and closeout;wall time is not active CPU/model time. Stage token use unmeasured.
+  Evidence:private/pdf-restoration/12-1984-02-batch-36.
+- All16 article pages are now restored in three immutable segments. Entry0031
+  stays partial until assembly;counts remain31 classified,30 readable,one
+  partial,four group headings and eight unresolved eligibility decisions. Next
+  assemble with explicit 프로그램된/내용을 and 스위/치 joins across retained
+  figures/captions. Then A/D,D/A starts192/PDF188. Full February reconciliation
+  and reader integration remain pending;corrected TOC and covers unchanged.
