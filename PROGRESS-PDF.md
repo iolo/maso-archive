@@ -5386,3 +5386,63 @@ history remains in [PROGRESS.md](PROGRESS.md).
   디버깅 룸 within six source pages. Printed errata are separate historical
   source material, not patches to earlier packages. Whole-issue restoration,
   reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-19 started
+
+- Previous checkpoint committed as `d27cf95`. Saved fixed inputs and prior-output
+  pins. Restore Q&A and verify the debugging section within two articles/six
+  source pages; retain printed errata independently from earlier packages.
+
+### 2026-10-01 — 12-1984-02-batch-19 complete
+
+- Restored Q&A at individually verified printed105–107/PDF101–103 and the
+  complete one-page 디버깅 룸 at printed108/PDF104. PDF105–106 are full-page
+  advertisements; PDF107/printed111 begins 정보 레이다. All3,113 prior output
+  pins and completed November/cover/TOC integration remain intact.
+- Q&A has29 regions,23 reading blocks, the original lock/key wordmark and two
+  searchable listing captions. Five column/page joins preserve all eight
+  question/answer pairs, each indexed with source-linked question/answer ranges.
+  The separate BASIC loader has two logical/five physical rows and19 DATA values;
+  ten disassembly rows have address, literal-byte, mnemonic and operand indexes.
+  The source DATA76 split7/6 is preserved; addresses are not BASIC line numbers.
+- Q&A corrections retain28 review notes, four listing notes,28 regional ranges
+  and14 Unicode spans. Literal $300(786),80행,6021바이트 and historical claims
+  remain unchanged. Names/contact lines were checked against enlarged scans.
+  Wordmark/title overlap is intentional. No executable binary was reconstructed.
+- Debugging has14 regions/blocks, five independent BASIC patch examples and six
+  indexed correction/enhancement entries. Its15 logical/66 physical rows retain
+  numeric wraps, repeated coordinates and continuation-only1/4 rows. Twenty
+  text notes,12 listing notes,14 regional ranges and six Unicode spans preserve
+  P32/P61/P270/P195/P238, Y1),그리,/나머 fragments and the provisional small mark
+  after D=0. The fifth numbered item remains explicitly a graphics enhancement.
+  No patch was applied to prior packages or mapped to an inferred target issue.
+- All43 initial OCR tasks completed without failures; no crop retries needed.
+  A metadata revision removed an unsupported target-article label from the P195
+  prose correction, reusing all43 OCR regions. Original maps, OCR and preliminary
+  exports remain privately preserved. Cached render/crop24.5s and OCR25.1s are
+  selected processing totals, not cumulative elapsed time.
+- Both article packages rebuild byte-identically: Q&A124 files/17,873,590 bytes;
+  debugging67 files/4,986,069 bytes. Coverage, joins, source ranges, all physical/
+  logical rows, question/answer and errata indexes, assembly rows, raw OCR and
+  prior pins pass. Generic tooling is unchanged; the successful68-test PDF
+  regression log remains pinned. Character-perfect text, original bytes and
+  code execution remain outside certification.
+- Desktop1440×1000/mobile390×844 checks pass for37 blocks,51 pins and48 review
+  ranges. One Q&A and four debugging code blocks scroll internally; no page
+  overflow or application errors. Original wordmark opens at2310×1288. Actual
+  Q&A article/listing downloads match12,891/402 bytes; debugging matches
+  3,810/1,921 bytes. Four screenshots inspected and test browser closed. Preview:
+  `http://127.0.0.1:4259/`.
+- Output `build/pdf-restoration/12-1984-02-batch-19` has194 files /
+  22,899,767 bytes. Manifest SHA-256:
+  `6a9d1c53da6b0e04725a33ef49742650d5acff6ac5ece8276735899c87aa9490`.
+  Private recipes, corrections, validation, preserved preliminary exports,
+  ledger snapshots and next plan are in the matching private directory; browser
+  evidence is under `output/playwright/pdf-1984-02-batch-19`. Elapsed
+  2243.6s includes transcription, metadata revision, rebuild, browser
+  checks and waits.
+- Only entries0039/0040 changed. February now has **twenty readable/sample-reviewed
+  articles, no partial articles, two group headings and21 unresolved eligibility
+  decisions**. Next: **12-1984-02-batch-20**, inspect/restore 정보 레이다 from
+  printed111/PDF107 within six source pages. Whole-issue restoration,
+  reconciliation and staged reader acceptance remain open.

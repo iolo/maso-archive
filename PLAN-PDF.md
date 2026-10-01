@@ -466,12 +466,18 @@ issue in the staged reader before moving to remaining issues.
   Two original screen photographs,34 review notes and the unresolved faint
   prose key name remain source-linked; quoted spacing/control bytes and graph
   execution remain unverified.
-- Q&A is verified at printed105–107 / PDF101–103; 디버깅 룸 begins at
-  printed108/PDF104. These 정보모음 TOC entries occur physically before the
-  business section. Restore them separately, within two articles/six source
-  pages, after verifying the debugging continuation and following boundary.
-  Printed errata remain their own source material; do not silently patch earlier
-  restored articles or change the authoritative TOC's order.
+- Q&A is complete at printed105–107 / PDF101–103; 디버깅 룸 is complete
+  on printed108/PDF104. Preserve eight indexed question/answer pairs, separate
+  BASIC/disassembly examples, ten explicit assembly-row records and five prose
+  joins. Six errata/enhancement entries index five independent BASIC patches
+  and the source's incomplete prose corrections. Literal $300(786),80행,
+  Y1),그리,/나머 and historical technical claims remain unmodified. Exact target
+  articles/issues are unverified; never apply patches silently to prior exports.
+- PDF105–106 are advertisements. 정보 레이다 starts at printed111/PDF107;
+  inspect its continuation and boundary within six source pages. These 정보모음
+  entries occur physically before the business section; keep the authoritative
+  TOC order unchanged. Preserve historical news/specifications and photographs
+  as source content without modernizing claims.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
