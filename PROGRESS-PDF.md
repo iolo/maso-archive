@@ -6549,3 +6549,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   decisions. Next assemble all eight pages without a new boundary join,then
   competition notice/review200–201. Full issue reconciliation and reader
   acceptance remain pending;corrected TOC and cover integrations unchanged.
+
+### 2026-10-02 — 12-1984-02-converter-assemble started
+
+- Assemble all eight converter pages from two immutable segments. Preserve
+  8,066 prior-file pins and all source-linked table/formula corrections. No new
+  OCR,boundary join,source edits or browser work.
+
+### 2026-10-02 — complete February A/D,D/A converter assembly
+
+- Assembled all eight pages192–199/PDF188–195 from two immutable packages:
+  63 regions,39 reading blocks,14 original images and12 printed captions.
+  Recruitment advertisement on193 remains explicitly excluded. Photograph,
+  figures1–11 and both table images remain;no absent captions generated.
+- Six original prose joins across ten boundaries remain;no inter-segment join
+  is needed.49 regional ranges,73 reviews,83 Unicode spans and two uncertain
+  tiny binary-cell marks project to article.txt. Every range matches original
+  and combined bytes. Four tables'45 rows(41 data,4 headers),three formula/
+  example ranges and12 caption links stay explicitly source-local in original
+  corrections/original_metadata;global regional ranges locate their text.
+- Retained printed duplicate000 and3/8 rows,numerical discrepancies,ADC wording,
+  dash cells,Signed Mag-nitude/L-SB hyphens and historical technical claims.
+  Circuit internals and final ornament remain imagery. No listing.txt or code
+  execution,netlist,electrical correctness or original-byte certification.
+- All8,066 prior-file pins,both original packages byte-for-byte,source ranges,
+  table/formula indexes,image decoding,raw OCR identity and fresh byte-identical
+  assembly rebuild pass. Generic tooling and77-test log unchanged,pins checked.
+  No new OCR,crop revision,export retry,full-suite repeat,browser or reader work.
+- Article manifest24974c87d79affc46b4eac03ada7f36054c2dda6b922de3fefd26dfbc20d2672:
+  240 files/46,189,224 bytes,article.txt17,313 bytes. Wrapper
+  242 files/46,237,547 bytes;manifest SHA-256
+  35566b9f982637000a8f06c983677db6b4640c1eb2c079ad433ac6b9b8eebff2.
+  Elapsed127.4s includes recipe,assembly,validation,rebuild and ledger
+  closeout;wall time is not active CPU/model time. Stage token use unmeasured.
+  Evidence:private/pdf-restoration/12-1984-02-converter-assemble.
+- Only entry0032 advances partial→readable/sample-reviewed. February now has
+  32 readable/sample-reviewed articles,no partials,four group headings and
+  seven unresolved eligibility decisions. Next batch39:TOC-listed competition
+  notice200 and second competition review201,verify extents through202. Games,
+  supplement and section classifications remain later work. Full issue
+  reconciliation and reader acceptance are open;corrected TOC/covers unchanged.

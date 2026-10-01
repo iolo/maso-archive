@@ -664,6 +664,13 @@ issue in the staged reader before moving to remaining issues.
   ranges,28 reviews,29 Unicode spans and two uncertain marks validate. One
   r07 crop extension recovers clipped text;15 cached regions reused. All eight
   pages are ready for regional-prose-v1 assembly without a boundary join.
+- The complete eight-page converter assembly is readable/sample-reviewed:
+  63 regions,39 blocks,14 images and12 captions.49 regional ranges,73 reviews,
+  83 Unicode spans and two tiny-mark uncertainties validate against original
+  and combined bytes. Four tables'45 row indexes and three formula ranges stay
+  source-local,with global regional ranges provided. All source packages and
+  deterministic rebuild match. Next restore TOC-listed competition notice200
+  and second competition review201 after verifying their extents.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

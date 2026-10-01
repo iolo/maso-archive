@@ -3159,3 +3159,25 @@ work was required. Circuit internals,sideways diagram orientation and marginal
 marks remain original imagery. Literal errors and historical technical claims
 are retained for manual post-production;sample review does not certify original
 character bytes,electrical correctness or executable code.
+
+
+## Complete February A/D,D/A article
+
+`build/pdf-restoration/12-1984-02-converter-assemble/converter` contains all
+eight pages192–199/PDF188–195,with both immutable source packages preserved
+under `segments/part1` and `segments/part2`. Its39 blocks,14 original images
+and12 captions include the photograph,circuit figures and table imagery;the
+recruitment advertisement on193 remains explicitly excluded.
+
+Combined corrections project49 regional ranges,73 reviews,83 Unicode spans
+and two uncertain binary-cell marks. Four tables'45 row indexes,three formula/
+example ranges and12 caption links remain local in source corrections and
+`original_metadata`;use global regional ranges for the combined passages.
+The six source prose joins remain;no segment-boundary join or code listing is
+needed. Printed numeric errors,duplicate rows,ADC terminology,dashes and
+line-end hyphens remain available for manual correction against pinned scans.
+
+Both source packages and a fresh assembly rebuild are byte-identical. No new
+OCR,generic tooling change or browser work was needed. The unchanged77-test
+log and tooling pins were checked. Sample review does not certify complete
+proofreading,circuit internals,electrical correctness or original character bytes.
