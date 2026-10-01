@@ -59,7 +59,7 @@ and four complete listing-panel images. Both segments retain180 review notes,
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
 has **37 readable articles and no partial articles**, all sample-reviewed,
-four classified group headings and two unresolved entries. Batches25–29 restored
+six classified group headings and no unresolved entries. Batches25–29 restored
 UNIX, VisiCalc 활용, 우수한 프로그래머가 되는 첩경 and dBASEII, and classified
 테크니컬. Batches30–38 and their assemblies completed 로더란 무엇인가,
 기계어 테크닉, the16-page 한글 워드프로세서의 설계2 and the eight-page
@@ -88,9 +88,12 @@ pages now have verified continuity;64 final table-glyph markers remain explicit.
 The complete27-page dictionary is now assembled and validated:245 reading
 blocks,14 original images,276 global regional ranges and73 uncertainty markers.
 All five source packages remain byte-identical;DEFDBL's first boundary is joined.
-Next is **12-1984-02-classify-headings**: resolve 공모입선작 and 정보모음,
-then perform full issue reconciliation,standalone reference/report and reader
-integration/acceptance. Article restoration is complete;issue closeout remains.
+The remaining 공모입선작 and 정보모음 entries are now verified non-owning
+TOC groups. All43 entries reconcile as37 readable/sample-reviewed articles and
+six group headings;no eligibility decisions remain. Next is
+**12-1984-02-closeout**: standalone issue reference/report and combined staged
+reader integration/acceptance. Article restoration is complete;issue closeout
+remains unverified until those outputs and preservation checks pass.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -782,6 +785,14 @@ issue in the staged reader before moving to remaining issues.
   all five embedded packages are unchanged. No new OCR or browser work. All37
   articles are readable/sample-reviewed;two group-heading decisions and issue
   reconciliation,standalone reference/report and reader acceptance remain.
+- Final heading classification is complete. 공모입선작0033 groups the two
+  restored prize-winning games;정보모음0037 groups six distinct articles at
+  printed17,105,108,111,200,201. Both canonical pageless section identities and
+  child links remain unchanged;neither owns an additional body or invented
+  standalone divider page. All43 canonical entries pass full ownership/accounting
+  checks:37 readable/sample-reviewed articles,six groups,no unresolved eligibility.
+  All37 article records and11,153 prior-file pins are unchanged. Next is issue
+  closeout,with standalone reference/report and staged reader acceptance.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

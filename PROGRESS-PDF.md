@@ -7115,3 +7115,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
   공모입선작0033 and 정보모음0037,then full issue reconciliation,standalone
   reference/report and staged reader integration/acceptance. Corrected TOC and
   completed cover/TOC integrations are preserved. The issue goal remains open.
+
+### 2026-10-02 — 12-1984-02-classify-headings complete
+
+- Resolved final two pageless TOC section entries as non-owning group headings.
+  공모입선작0033 retains SNAKY GAME0034 and 지하괴물잡기0035;reused source
+  openings confirm distinct 최우수상/우수상 article headings,titles and bodies.
+  정보모음0037 retains six separate articles0038–0043 at printed17,105,108,
+  111,200,201,with their existing source mappings and complete package outcomes.
+- Classification uses corrected TOC hierarchy and independently restored child
+  packages. No standalone divider page or parent article body is invented.
+  All canonical identities,titles,parent links,37 article records and existing
+  four group decisions remain unchanged. No TOC,cover or donated-image edits.
+- Full43-entry ownership/accounting check passes against reconciled catalog:
+  37 readable/sample-reviewed article bodies,six group headings,no section
+  references or unresolved eligibility. Partial,image-only,failed and unresolved
+  article outcomes are all zero. This accounting does not by itself complete
+  standalone reference or reader acceptance.
+- Verified11,153 prior-file pins and all37 authoritative package manifests.
+  Two existing source images viewed;no new rendering,OCR,article body,code
+  change,test rerun or browser work. Existing79-test log/tooling pins verified.
+- Private checkpoint retains fixed inputs,before/after ledgers,classification
+  evidence with child manifests/source extents,accounting validation,reproduction
+  script and full closeout plan. Output
+  `build/pdf-restoration/12-1984-02-classify-headings` contains classification
+  review,accounting report,validation report and manifest. Manifest SHA-256:
+  `ee5f120e65369bff5093341f5dcb30999c6373d2248dddce0c06f30af394310f`.
+- Measured checkpoint execution interval8.8s excludes preceding canonical/child
+  mapping reads and two reused source-image views;not total-turn or CPU time.
+  New OCR cost is zero;stage token usage remains unmeasured.
+- Next `12-1984-02-closeout`: generate and validate standalone issue reference,
+  stage37 February articles alongside35 November articles and existing CD data,
+  preserve corrected catalog and completed cover/TOC-image integration,perform
+  issue-level reader navigation/layout/download acceptance,and record completion
+  audit. Goal remains open until those full-issue requirements are verified.
