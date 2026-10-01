@@ -4982,3 +4982,64 @@ history remains in [PROGRESS.md](PROGRESS.md).
   입장에 서서 and APA프로그램의 활용법 within two articles/six source pages.
   Only PDF19/printed76 is verified; subsequent folios/boundaries need inspection.
   Full-issue restoration, reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-13 started
+
+- Previous checkpoint committed as `f5f0e78`; completing 독도는 우리땅 made
+  verified progress toward the full February issue goal.
+- Saved fixed inputs, prior output pins and the issue-ledger snapshot. Verify
+  사용하는 사람의 입장에 서서 and APA프로그램의 활용법 within two articles and
+  six source pages. Only PDF19/printed76 is already confirmed; inspect candidate
+  continuations and the following boundary. Preserve prior articles and completed
+  cover/TOC integration.
+
+### 2026-10-01 — 12-1984-02-batch-13 complete
+
+- The intervening browser-interaction turn did not advance restoration; checked
+  live browser state and resumed this checkpoint. No restoration blocker remains.
+- Restored **사용하는 사람의 입장에 서서**, printed76–77 / PDF19–18, and
+  **APA프로그램의 활용법**, printed78–81 / PDF17–14. Individually verified all
+  six folios and the following PDF13/printed82 Pascal opening. Both complete
+  articles are readable/sample-reviewed; no continuation or assembly is needed.
+- The guide retains26 numbered items,27 circled subitems and the conclusion.
+  Five column/page transitions join the peripheral list, split Korean words and
+  FOR~/NEXT. The independent77-page callout precedes the continuous guide, with
+  its original coordinates preserved. Fourteen notes retain historical wording,
+  awkward subjects and the literal `divied by zero` spelling.
+- APA retains37 reading blocks, the original cartoon/computer photograph and
+  searchable menu output. Its15 independent example blocks contain49 numbered
+  BASIC rows within114 physical rows, including commands, output and blanks.
+  Repeated numbers have example identities; the COMPRESS before/after listings
+  are distinct. `listing.txt` is an example collection, not one executable program.
+- Corrections include33 APA text notes,17 listing annotations,25 Unicode reading
+  symbols and two control-character examples. Hidden CTRL-D/A bytes are not
+  inserted; visible D/A and the inverse-display explanation remain linked to scans.
+  The printed FRIST, AFTER USE, missing phrases, open quotes, provisional20-dash
+  strings and &KEYS warning are preserved. The four HOLD/MERGE command steps
+  remain in prose and have a separate download range. Exact spacing, original
+  character bytes and execution remain unverified for manual post-production.
+- All52 OCR regions completed without failures or retries: render/crop31.9s,
+  OCR29.8s. The50-file guide and173-file APA packages rebuild byte-identically.
+  Region coverage, guide numbering, prose joins, example/row identities, all UTF-8
+  ranges, raw OCR archive bytes and1,804 prior output pins pass. Generic tooling
+  is unchanged; the preceding successful65-test log is pinned.
+- Desktop1440×1000/mobile390×844 checks pass for42 blocks,59 asset/download pins
+  and47 review ranges. Five wide APA code blocks scroll without page overflow.
+  Original cartoon opens at1349×1313. Actual downloads match8,624/10,803 article
+  bytes and1,474 APA listing bytes. Four screenshots inspected; no application
+  errors, initial favicon404 only; test browser closed. Preview:
+  `http://127.0.0.1:4252/`.
+- Output `build/pdf-restoration/12-1984-02-batch-13` has226 files /
+  29,166,896 bytes. Manifest SHA-256:
+  `436d158079dbeffe36554ffd68a2cc4ab118f0221fb59239510651fb0bec6e24`.
+  Maps, transcriptions, validation, snapshots and next plan are in the matching
+  private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-13`. Elapsed1,055.3s includes mapping,
+  extraction, review, validation/rebuild, browser acceptance and tool waits.
+- Only these two ledger entries changed. February has **fourteen readable/
+  sample-reviewed articles, no partial articles, two group headings and27
+  unresolved eligibility decisions**. Prior articles and completed cover/TOC
+  integration remain intact. Next: **12-1984-02-batch-14**, verify 파스칼
+  프로그래밍 from confirmed PDF13/printed82 within six source pages. The catalog
+  starts the next article at88; each following folio and boundary needs checking.
+  Full-issue restoration, reconciliation and staged reader acceptance remain open.

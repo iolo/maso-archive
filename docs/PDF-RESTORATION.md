@@ -2660,3 +2660,57 @@ two group headings and29 unresolved eligibility decisions. Next is
 within two articles and six source pages. Only PDF19/printed76 is verified;
 following pages and boundaries are candidates until inspected. Complete-issue
 reconciliation and staged reader export remain pending.
+
+### February 1984 batch 13: software guide and APA
+
+`12-1984-02-batch-13` restores 사용하는 사람의 입장에 서서 at printed76–77 /
+PDF19–18 and APA프로그램의 활용법 at printed78–81 / PDF17–14. Every folio and
+both article boundaries were inspected locally; PDF13/printed82 begins Pascal.
+Both articles are readable/sample-reviewed with no deferred source continuation.
+
+The guide preserves26 numbered recommendations and27 circled subitems. Its six
+source columns form one continuous reading block, with five explicit joins; the
+standalone pullquote precedes that block and retains its printed77 coordinates.
+Fourteen correction notes preserve historical wording and literal `divied`.
+
+APA includes37 blocks, the original cartoon and computer photograph, and a
+searchable transcription of its menu. Fifteen independent example blocks contain
+49 numbered BASIC rows among114 physical rows. Commands, terminal output and
+blank rows have distinct kinds. Repeated numbers have example identities; the
+COMPRESS session's before/after listings have separate sublisting IDs.
+`listing.txt` collects these examples in reading order, not as one runnable program.
+The four HOLD/MERGE steps stay inside the prose and have a separate byte-range
+index in `corrections.json`.
+
+Thirty-three APA text review notes and17 listing annotations retain `FRIST`,
+`AFTER USE`, visible gaps, open quotes, provisional twenty-dash strings and the
+printed `&KEYS` warning. Two control-character records describe the hidden
+CTRL-D/A and displayed D/A examples without inventing control bytes or inverse
+video encoding. Twenty-five Unicode typography spans and the source scans support
+manual proofreading. Precise quoted spacing and executable behavior are unverified.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-13/manual
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-13/apa
+python3 -m http.server 4252 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-13
+```
+
+All52 OCR tasks completed without failures or retries. The50-file guide package
+(10,665,044 bytes) and173-file APA package (18,458,887 bytes) reproduce exactly.
+Coverage, numbering, joins, example identities, UTF-8 ranges, raw archives and
+all1,804 prior output pins pass. Generic tooling is unchanged; the prior65-test
+success log is pinned. Desktop1440×1000/mobile390×844 checks cover42 blocks,
+59 pins and47 review ranges, with no page overflow or application errors. Five
+wide code blocks scroll. Actual downloads match8,624 and10,803 article bytes and
+1,474 APA listing bytes. Four screenshots were inspected and the browser closed.
+
+Private evidence lives in `private/pdf-restoration/12-1984-02-batch-13`; browser
+artifacts are in `output/playwright/pdf-1984-02-batch-13`. The complete wrapper has
+226 files /29,166,896 bytes, manifest SHA-256
+`436d158079dbeffe36554ffd68a2cc4ab118f0221fb59239510651fb0bec6e24`.
+February now has fourteen readable/sample-reviewed articles, two group headings,
+no partial articles and27 unresolved eligibility decisions. Next is
+`12-1984-02-batch-14`: verify Pascal from PDF13/printed82 within six source pages.
+Its continuation and the next article's catalogued88-page boundary need local
+inspection. Issue reconciliation and staged reader acceptance remain pending.

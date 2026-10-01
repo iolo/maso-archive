@@ -28,12 +28,15 @@ PDF35–31, preserving462 numbered statements in502 physical rows, two diagrams
 and three command tables. The following advertising/promotional pages are
 excluded; 교육입문 is a verified group divider. Batch12 restored 독도는 우리땅,
 printed70–75 / PDF25–20, including its page-spanning DATA statement, Korean
-screen strings, map DATA and music strings. February has twelve readable/
-sample-reviewed articles, no partial articles, two group headings and29 unresolved
-eligibility decisions. Next is **12-1984-02-batch-13**: verify 사용하는 사람의
-입장에 서서 and APA프로그램의 활용법 within two articles and six source pages.
-Only PDF19/printed76 is already verified; inspect each following folio and
-boundary. Step 12 remains open.
+screen strings, map DATA and music strings. Batch13 restored 사용하는 사람의
+입장에 서서, printed76–77 / PDF19–18, and APA프로그램의 활용법, printed78–81 /
+PDF17–14. All26 guide items and15 independent command/listing examples are
+preserved, with source-linked notes for hidden controls and literal anomalies.
+February has fourteen readable/sample-reviewed articles, no partial articles,
+two group headings and27 unresolved eligibility decisions. Next is
+**12-1984-02-batch-14**: verify 파스칼 프로그래밍 within one article and six source
+pages. Only PDF13/printed82 is already verified; inspect each following folio
+and boundary. Step 12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -427,9 +430,13 @@ issue in the staged reader before moving to remaining issues.
   DATA190,28 literal DATA records,14 music strings, Korean Unicode reading text
   and source-linked anomalies. Original encoding, execution and playback remain
   unverified; the flowchart and screen image retain their internal labels as images.
-- 사용하는 사람의 입장에 서서 begins at verified PDF19/printed76. The catalog
-  starts APA프로그램의 활용법 at78 and 파스칼 프로그래밍 at82. Inspect candidate
-  PDF18–14 and the following boundary individually; two articles may share a batch.
+- 사용하는 사람의 입장에 서서 and APA프로그램의 활용법 are complete at
+  printed76–81 / PDF19–14. Preserve all26 guide items,15 separate APA examples,
+  terminal input/output identities and hidden/inverse-control uncertainty. Do not
+  interpret the combined example download as one executable BASIC program.
+- 파스칼 프로그래밍 begins at verified PDF13/printed82. The catalog starts
+  마이크로컴퓨터 시스템 입문 at88. Inspect candidate PDF12–8 and the following
+  boundary individually; do not infer the extent from a global page offset.
   Extract at most six source pages per checkpoint and preserve any continuation;
   validate complete coverage and assembly before promoting a partial segment.
 - Reconcile each issue, produce its standalone reference/report, and validate
