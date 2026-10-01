@@ -74,9 +74,12 @@ Bitmap spans and unknown blank widths remain explicitly source-linked for
 manual correction. Batch42 restored the dictionary opening213–218/PDF209–214,
 with37 entries (last DEFDBL incomplete),68 machine labels,three images and a
 searchable16-color table. Ending239/PDF235 and following advertisement240
-are inspected;intervening continuity still awaits source review. Next is
-**12-1984-02-batch-43**: restore219–224/PDF215–220. Four bounded continuation
-segments and assembly are expected,subject to source verification. Two section
+are inspected;remaining continuity still awaits source review. Batch43 restored
+219–224/PDF215–220,including57 definition fragments,73 machine labels and
+11 independent examples. Twelve pages are now preserved in two immutable
+segments;the DEFDBL boundary join is verified. Next is **12-1984-02-batch-44**:
+restore225–230/PDF221–226. Three bounded continuation segments and assembly
+remain,subject to source verification. Two section
 classifications and full issue reconciliation/closeout also remain.
 Step12 remains open.
 
@@ -712,6 +715,16 @@ issue in the staged reader before moving to remaining issues.
   following advertisement240 are verified endpoints,not proof of uninspected
   intervening continuity. Next219–224,then provisional225–230,231–236,237–239,
   followed by source-preserving assembly. No per-batch browser work.
+- Dictionary continuation219–224/PDF215–220 is restored:71 regions,62 blocks,
+  one original HCOLOR-table image,70 regional ranges,43 review notes and32
+  Unicode spans.57 definition fragments,73 machine labels,eight color rows
+  plus header,19 command-guide rows,11 independent examples and three formula
+  ranges validate. Eight internal joins and incoming DEFDBL 한/다. join are
+  proved;following225 starts INT without another boundary join. Printed17
+  digits,duplicate HCOLOR2,FRE OI,INKFY$,HTAB14행 and duplicated INST/DEL
+  ending remain literal. Four blank widths and one small INPUT separator await
+  manual correction. No crop/OCR revision;fresh rebuild matches. Twelve pages
+  preserved across two segments;next225–230,then231–236 and237–239,then assembly.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

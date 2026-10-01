@@ -6820,3 +6820,54 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Only0036 changed. Next restore219–224/PDF215–220,then remaining dictionary
   segments and assembly. Two heading classifications and issue closeout remain.
   Corrected TOC and completed cover/TOC integrations are unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-43 started
+
+- Restore dictionary219–224/PDF215–220,with one following-page lookup.
+  Preserve9,030 prior-file pins and immutable first segment;f4436ed made
+  verified progress. Local package checks only;no browser or reader staging.
+
+### 2026-10-02 — 12-1984-02-batch-43 complete: dictionary219–224
+
+- Restored six continuation pages219–224/PDF215–220,TOC0036. All folios,
+  running headers and first DEFDBL continuation verified. Following225/PDF221
+  begins INT. INST/DEL finishes at224;no outgoing definition join is needed.
+  Two immutable segments now cover213–224,twelve pages of candidate27.
+- 71 regions,62 blocks and one original HCOLOR-table image preserve all source
+  text and examples.70 regional ranges,43 review notes and32 Unicode spans
+  validate.57 definition fragments include incoming DEFDBL;73 boxed machine
+  labels,11 independent examples and three formula ranges are source-indexed.
+- Eight page/column joins cover DELETE,DRAW AT,ELSE,ESC J,FIX,FRE,IF and
+  INKEY$. Assembly preflight proves prior DEFDBL ending한 plus opening다.
+  without modifying either package. Paired FIX examples remain separate;
+  FN/FRE examples preserve physical wraps and printed statement-number gaps.
+- Eight HCOLOR data rows plus header retain printed code sequence0,1,2,3,2,5,6,7.
+  Duplicate2 is not replaced by4;row-position indexes preserve both occurrences.
+  Original table image remains available. EDIT,GR and HGR guides add19
+  indexed command rows. No captions invented or runnable combined listing made.
+- Printed17-digit precision,CALL-992,FRE OI/SP- wrap,INKFY$,HTAB14행,
+  HTAB5=TAB5(),missing OPEN delimiter and repeated INST/DEL ending remain
+  literal. Four quoted blank widths and one tiny INPUT separator are explicit
+  unresolved markers. Enlarged source corrected preliminary5*2-minus reading
+  to printed5*2= before export. No technical repair,execution or byte certification.
+- Validation passed:9,030 preserved-file pins,source/OCR assets,all region
+  images,ZIP bytes,internal/incoming joins,all definition/label/table/guide/
+  example/formula indexes,uncertainties and one fresh byte-identical rebuild.
+  No OCR revisions or processing failures;71 initial tasks only. Generic code
+  and existing77-test log pins unchanged;no full-suite repeat or browser work.
+- Measured task-ledger execution44.443539s. Wall interval
+  736.1s includes lookup,mapping,transcription,source review,export,
+  validation,rebuild and closeout;not active compute time. Stage token usage
+  unmeasured. No script/test authoring failures in this checkpoint.
+- Output `build/pdf-restoration/12-1984-02-batch-43`:293 files,
+  33,830,860 bytes;article.txt26,413 bytes. Article manifest SHA-256:
+  `9aead0a7ae35a9e546842315bfac3ef10a0fbe115d842a029530f1b09e2581c3`.
+  Wrapper manifest SHA-256:
+  `21bc454b24afbf2c9d5427ebd3e61d29640f520c0bddba0882e813ba06cf22ba`.
+  Private maps,OCR,transcriptions,corrections,validation,assembly preflight,
+  ledger snapshots and next plan are retained in the matching directory.
+- Counts unchanged:43 entries,37 classified/sample-reviewed articles (36
+  readable,one partial dictionary),four group headings and two unresolved
+  headings. Only0036 coverage changed. Next225–230/PDF221–226;fifteen pages
+  and assembly remain for the dictionary,followed by heading classification
+  and issue closeout. Corrected TOC and cover/TOC integrations stay unchanged.
