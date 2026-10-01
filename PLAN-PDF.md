@@ -21,11 +21,13 @@ through3470. The complete eight-page article is now assembled and validated,
 preserving both immutable segments, all correction records and physical wraps.
 Batch09 restored 3차원 미로, printed52–53, and 드래곤, printed54–55, preserving
 physical code wraps and explicit unknown strings/glyphs while excluding the
-shared-page advertisement. February has eight readable/sample-reviewed articles,
-no partial articles, one group heading and34 unresolved eligibility decisions.
-Next is **12-1984-02-batch-10**: verify 최신예 폭격기32K and 천하무적 제공호,
-then restore within the two-article/six-page ceiling. Only the former's opening
-at PDF39/printed56 is already verified. Step 12's remaining-issue campaign is open.
+shared-page advertisement. Batch10 restored 최신예 폭격기32K, printed56–58,
+and 천하무적 제공호, printed59, retaining literal DATA strings and historical
+code anomalies. February has ten readable/sample-reviewed articles, no partial
+articles, one group heading and32 unresolved eligibility decisions. Next is
+**12-1984-02-batch-11**: verify 루빅의 큐브's extent and restore at most its first
+six source pages. Only PDF35/printed60 is already verified; preserve any remaining
+continuation explicitly. Step 12's remaining-issue campaign is open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -408,8 +410,13 @@ issue in the staged reader before moving to remaining issues.
   The following 3차원 미로 and 드래곤 are now restored from locally verified
   printed52–55 / PDF43–40. Their physical wraps, unknown strings and literal
   syntax anomalies remain explicit; the advertisement below 드래곤 is excluded.
-  PDF39/printed56 starts 최신예 폭격기32K. Verify its remaining pages and
-  천하무적 제공호's boundaries before the next bounded extraction.
+  최신예 폭격기32K and 천하무적 제공호 are also complete at printed56–59 /
+  PDF39–36. Retain their literal shape DATA punctuation, quoted spacing and
+  historical address/direction anomalies for owner proofreading.
+- 루빅의 큐브 begins at verified PDF35/printed60. The next catalog article starts
+  at70, but intervening divider/advertising pages and local order require inspection.
+  Extract at most six source pages per checkpoint and preserve any continuation;
+  validate complete coverage and assembly before promoting a partial segment.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

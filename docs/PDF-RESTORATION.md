@@ -2534,3 +2534,42 @@ one group heading and34 unresolved eligibility decisions. Next is
 `12-1984-02-batch-10`: verify 최신예 폭격기32K and 천하무적 제공호 within the
 two-article/six-page ceiling. Only PDF39/printed56 is already verified; later
 folios and boundaries remain candidates. Issue reconciliation/export remains ahead.
+
+### February 최신예 폭격기32K and 천하무적 제공호
+
+`12-1984-02-batch-10` restores both articles as **readable/sample-reviewed**:
+
+- 최신예 폭격기32K: printed56–58 / PDF39–37,166 numbered BASIC lines in235
+  physical rows, original illustration and game screenshot, one prose join,
+  31 text review notes and26 listing anomalies. Four literal shape DATA strings
+  retain physical-wrap evidence and the uncertain apostrophe-like mark at310.
+  The two terrain DATA indexes each contain20 integers.
+- 천하무적 제공호: printed59 / PDF36,47 numbered/physical rows, the original
+  illustration,12 text review notes and seven listing anomalies. Printed15514,
+  143 and CARRIES remain unchanged. Six Unicode prose glyph occurrences are
+  documented reading substitutes, with no original-byte assignment.
+
+The shape-string index removes physical newlines only and records that310 is
+not a pure hexadecimal string. It does not decode or certify machine bytes.
+Printed punctuation, split targets and mismatches between prose and code remain
+linked to their scans in `corrections.json`; neither program is execution-verified.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-10/bomber
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-10/jaegong
+python3 -m http.server 4249 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-10
+```
+
+All20 OCR regions completed without failure, revision or retry. Both packages
+rebuild byte-identically; all1,524 prior-file pins pass. Generic tooling is
+unchanged and the preceding65-test log remains pinned. Desktop/mobile checks
+pass for16 blocks,28 asset/download pins,43 review ranges, original scan access
+and four actual downloads. Browser evidence is saved under
+`output/playwright/pdf-1984-02-batch-10`; the test browser is closed.
+
+February now has ten readable/sample-reviewed articles, no partial articles,
+one group heading and32 unresolved eligibility decisions. Next is
+`12-1984-02-batch-11`: verify 루빅의 큐브's extent from PDF35/printed60 and restore
+at most six source pages, explicitly retaining any deferred continuation.
+Complete-issue accounting and reader export remain ahead.

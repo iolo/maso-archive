@@ -4785,3 +4785,64 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and 천하무적 제공호 before extraction within two articles/six pages. Only the
   former's PDF39/printed56 opening is already verified. Complete-issue accounting,
   restoration and staged reader export remain in progress.
+
+### 2026-10-01 — 12-1984-02-batch-10 started
+
+- Prior checkpoint committed as `a690a46`; the preceding goal turn completed
+  two articles and made progress. Verify 최신예 폭격기32K and 천하무적 제공호
+  within two articles/six pages. Only PDF39/printed56 is already verified;
+  PDF38–35 are continuation/boundary candidates, not an assumed global offset.
+- Save input pins, the issue-ledger snapshot and all prior February package
+  hashes before extraction. Preserve source-supported code, explicit correction
+  notes and the completed cover/TOC integration.
+
+### 2026-10-01 — 12-1984-02-batch-10 complete
+
+- Restored **최신예 폭격기32K** (printed56–58 / PDF39–37) and **천하무적
+  제공호** (printed59 / PDF36) as **readable/sample-reviewed**. Verified all
+  four folios and article boundaries. The following PDF35/printed60 starts
+  루빅의 큐브 and remains excluded from this batch.
+- 폭격기 has13 regions, ten blocks, the original title illustration and game
+  screenshot. Two prose columns join with a paragraph break. BASIC100–1740
+  contains166 numbered lines in235 physical rows, including inserted1525 and
+  numbers split inside coordinates/branch targets. Its correction record retains
+  31 text notes and26 listing anomalies. Preserved comma-like190 punctuation,
+  unclosed590/750 quotes, dot-like950 separator,1570/1590 punctuation and printed
+  DO DROP at1680 without inferred technical repair.
+- Four shape DATA strings have literal indexes of16/46/49/22 characters.
+  The49-character310 reading retains its uncertain apostrophe-like mark and is
+  explicitly not pure hexadecimal. Only physical newlines are removed in the
+  derived index; no decoded-byte or executable-table claim. The numeric DATA
+  statements560/570 each have20 literal values with their physical wraps retained.
+- 제공호 has seven regions, six blocks and one original illustration. BASIC20–480
+  preserves47 numbered/physical rows. Its correction record retains12 text notes,
+  seven listing anomalies and six Unicode prose glyph occurrences. Printed15514
+  at110,143 at120, CARRIES at270 and inconsistent direction/count descriptions
+  remain source-supported readings for manual correction. No execution or original
+  character-byte verification is claimed for either program.
+- All20 OCR tasks completed without failure, crop revision or retry.
+  Rendering/cropping23.2s, OCR11.9s. Both article packages rebuild byte-identically:
+  57 files /17,445,217 bytes for 폭격기 and36 files /6,400,071 bytes for 제공호.
+  All review ranges, physical/logical indexes, DATA values, symbol annotations and
+  raw archive bytes pass. All1,524 prior output-file pins and fixed inputs still
+  match. Generic tooling is unchanged; the preceding successful65-test log is pinned.
+- Desktop1440×1000/mobile390×844 checks pass for16 blocks,28 asset/download pins
+  and43 review ranges. Five wide code panels scroll without page overflow.
+  Original illustrations open at2510×2028 and1435×1848. Actual article/listing
+  downloads match:8,371/5,209 bytes and2,029/909 bytes respectively. Four screenshots
+  inspected; no application errors, initial favicon404 only; test browser closed.
+  Preview: `http://127.0.0.1:4249/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-10` contains96 files /
+  23,868,900 bytes including index/report/manifest. Manifest SHA-256:
+  `2966a263f366119aa315801d68c5135e402258c66b26f3765a9a651b50361b43`.
+  Maps, transcriptions, validation, ledger snapshots and next plan are in the
+  matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-10`. Elapsed643.7s includes mapping,
+  extraction/review, validation/rebuild, browser checks and tool waits.
+- Only these two TOC ledger entries changed. February now has **ten readable/
+  sample-reviewed articles, no partial articles, one group heading and32 unresolved
+  eligibility decisions**. Prior packages, authoritative TOC and cover/TOC
+  integration remain intact. Next: **12-1984-02-batch-11**, verify 루빅의 큐브's
+  extent and restore at most its first six source pages. Only PDF35/printed60 is
+  verified; possible continuation/divider pages require inspection. Complete-issue
+  accounting, restoration and staged reader export remain in progress.
