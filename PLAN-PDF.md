@@ -619,6 +619,16 @@ issue in the staged reader before moving to remaining issues.
   for manual correction. No OCR retry or crop revision; all prior pins and a
   byte-identical rebuild pass. Next 한글워드프로세서의 설계2 begins176/PDF172;
   inspect its extent and restore at most six source pages per checkpoint.
+- 한글워드프로세서의 설계2 spans printed176–191/PDF172–187:16 pages,
+  including circuit panels189–191 after the prose conclusion188. Next A/D,D/A
+  begins192. First six pages176–181 are a partial package:54 regions,27 blocks,
+  eleven original figures and captions,a four-row clock table and two unnumbered
+  Z80 example lines. Six joins cover16 column/page boundaries.43 regional ranges,
+  59 text reviews,123 reading-glyph spans and eight complete signal-overbar ranges
+  validate. Keep printed historical claims,units,wording and signal differences;
+  no circuit or code execution certification. Existing regional/listing projector
+  preflight and byte-identical rebuild pass. Continue182–187 next,then188–191
+  and immutable assembly. All17 extent lookup images are saved for reuse.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

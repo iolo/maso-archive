@@ -6272,3 +6272,63 @@ history remains in [PROGRESS.md](PROGRESS.md).
   한글워드프로세서의 설계2 from176/PDF172. Its full extent remains to be
   inspected. Full issue reconciliation and reader integration remain pending;
   corrected TOC and completed cover/TOC integrations are unchanged.
+
+
+### 2026-10-02 — 12-1984-02-batch-34 started
+
+- Verify 한글워드프로세서의 설계2 from176/PDF172 and restore up to six
+  source pages. Preserve6,981 prior-file pins; previous2ebf546 made progress.
+  Keep technical claims,circuit diagrams and source notation without inferred
+  repair. Package checks only; no browser work.
+
+### 2026-10-02 — 12-1984-02-batch-34 complete: 한글워드프로세서의 설계2, first segment
+
+- Verified the full16-page article at printed176–191/PDF172–187. The prose
+  conclusion is on188,but circuit pages189–191 belong to the same article.
+  Next A/D,D/A opens192/PDF188. All17 extent/boundary pages were inspected;
+  their lookup images are saved for reuse in later checkpoints.
+- Restored the first six pages176–181 as an explicitly partial package:
+  54 regions,27 reading blocks,eleven original figures and eleven captions.
+  Figure2's four clock-speed rows and header are searchable with five row
+  ranges. JP START / START : DJNZ START remains a two-line unnumbered Z80
+  example; no BASIC line numbers or execution claim.
+- Six prose joins cover16 column/page boundaries,including 메모/리,그/림,
+  워/드 and 프로/그램. Intervening figures/captions remain exactly once.
+  43 regional ranges,59 text reviews,123 Unicode reading spans and eight
+  complete signal-overbar ranges address the exported text. IORQ's absent
+  printed bar is preserved; the other visible bars are represented explicitly.
+- Kept historical processor/instruction-count claims,Noice,duplicated 쇼트키
+  wording,0.1mV,Zw/Tw,4 4.7K,0047μF,Randam,and figure-caption discrepancies.
+  The clock formula and small prime-like marks are source-linked review items.
+  Circuit internals remain original images,not certified netlists or searchable
+  component inventories. Final 프로그램된 continues on source-present182;
+  remaining182–191 and whole-article assembly are deferred.
+- All54 initial OCR tasks completed without failure,retry or crop revision.
+  Measured render/crop15.7686s and OCR14.7718s are processing totals. Fixed one
+  private transcription-script quote typo before its first successful run.
+  Before closeout,checked the existing assembly contract and grouped signal
+  overbars into complete names,adding signal indexes and continuation fields.
+  Preserved the initial export/review/validation under before-signal-index and
+  repeated export plus deterministic rebuild/validation once for that metadata
+  fix. Scans,OCR and article/listing text did not change. Corrected a private
+  ledger-description typo and repinned its dependent records after closeout.
+- Final package checks,all6,981 prior-file pins,correction byte ranges,image
+  decoding,raw OCR identity and fresh byte-identical rebuild pass. The existing
+  production regional/listing projectors accept43 regions,123 glyph ranges,
+  eight signals and two unnumbered code rows. Full assembly is still pending.
+  Generic tools and their latest successful75-test log are unchanged; pins
+  checked without rerunning the full suite. No browser work or reader staging.
+- Article manifest1438211b20cf731c75704766f3a93d420fd322c90167fd2cb0d66af9689156a1:
+  194 files/27,921,790 bytes,article.txt20,828 bytes,listing.txt28 bytes.
+  Wrapper196 files/27,957,690 bytes; manifest SHA-256
+  2186536e77d99dc868226210ccf01cc908d97ffb26c17049e4fec68ead5459b4.
+  Elapsed772.0s to initial closeout includes extent review,mapping,transcription,
+  enlarged review,metadata revision and both validation/rebuild passes; this
+  is wall time,not active CPU time. Private maps,OCR,recipes,validation,projector
+  preflight and next inputs are under private/pdf-restoration/12-1984-02-batch-34.
+- Only entry0031 changes:31 classified/sample-reviewed articles,30 readable
+  and one partial,four group headings and eight unresolved eligibility decisions.
+  Next:batch35,printed182–187/PDF178–183 of the same article. Preserve first
+  segment unchanged,then restore188–191 and assemble. Full February closeout
+  and reader integration remain pending; corrected TOC and completed cover/TOC
+  integrations are unchanged.
