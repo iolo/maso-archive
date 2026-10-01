@@ -61,8 +61,9 @@ all regional/Unicode and listing correction indexes projected together. February
 has **twenty-three readable articles and one partial article**, all sample-reviewed,
 three group headings and16 unresolved eligibility decisions. Batch25 restored
 UNIX's first six pages, printed136–141/PDF132–137; the full seven-page extent is
-verified. Next is **12-1984-02-batch-26**: restore final142/PDF138, retaining the
-split word 살/펴보기로, then assemble the complete article. Step12 remains open.
+verified. Batch26 restored final142/PDF138, retaining the split word
+살/펴보기로. Next is **12-1984-02-unix-assemble**: combine both immutable
+segments and validate all correction ranges. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -541,7 +542,8 @@ issue in the staged reader before moving to remaining issues.
   pattern examples without modern correction. The last 살 continues as
   펴보기로 하자. on the final page. One r48 figure crop was widened once;
   original maps/OCR/export remain intact. Per-batch package checks pass without
-  Playwright; final page and complete assembly remain pending.
+  Playwright. Final page142 is now restored with two cartoons and one caption;
+  full assembly and the explicit 살/펴보기로 join remain pending.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

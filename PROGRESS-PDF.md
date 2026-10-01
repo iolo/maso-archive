@@ -5873,3 +5873,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
   all sample-reviewed; three group headings and16 unresolved eligibility
   decisions remain. Next: batch26, final UNIX page142/PDF138 and assembly plan.
   Existing covers/TOCs and reader staging remain unchanged.
+
+
+### 2026-10-01 — 12-1984-02-batch-26 started
+
+- Restore final UNIX page142/PDF138 with its incoming split-word continuation,
+  two original cartoons and caption. Previous checkpoint9f82f6b made progress.
+  Preserve initial/revised prior outputs; package checks only, no browser gate.
+
+
+### 2026-10-01 — 12-1984-02-batch-26 complete
+
+- Restored final UNIX142/PDF138:5 regions,2 reading blocks,2 cartoons and one
+  caption. One column join preserves 시스템이므로; incoming 펴보기로 하자.
+  remains a fragment until joined to prior 살 during assembly. Historical TSS,
+  real-time claims and caption wording are unchanged. Lower image's rectangular
+  crop overlaps part of its separate caption; cartoon content is complete.
+- Seven review notes,3 regional ranges and2 Unicode spans validate. All5 tasks
+  completed with no retries/failures.24 article files/4,867,586 bytes rebuild
+  identically; article.txt2,905 bytes. All5,324 protected prior-file pins pass.
+  Existing73-test tooling/log pins remain unchanged. No browser checks.
+- Output26 files/4,874,256 bytes; wrapper SHA-256
+  46c4878e65e9da3299eb985d086a78538417e51c40c25da7c3d44279e82429a7. Elapsed246.1s.
+  Private recipes/evidence/validation/ledger snapshots and next plan are saved.
+- Both UNIX segments now cover all7 pages; availability remains partial until
+  assembly. Counts unchanged:23 readable and one partial, three group headings,
+  16 unresolved eligibility decisions. Next:12-1984-02-unix-assemble, using
+  regional-prose-v1 with the intervening machine-control cartoon recorded.
