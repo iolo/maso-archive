@@ -2326,3 +2326,36 @@ February now has three readable/sample-reviewed articles, one group heading and
 39 unresolved eligibility decisions. The saved next plan is
 `12-1984-02-batch-05`: verify FLIP-IT II's extent from PDF59/printed36 before
 extracting further pages. Complete-issue reader export remains ahead.
+
+### February FLIP-IT II
+
+`12-1984-02-batch-05` restores the complete Trigem article at verified
+printed36–40 / PDF59–55 as **readable/sample-reviewed**. The following article,
+구슬게임 at PDF54/printed41, is excluded. Sixteen regions produce15 reading
+blocks, one screenshot and eight BASIC panels with228 numbered lines across527
+physical rows. Of those numbered lines,150 wrap;380,640,940 and1620 continue
+across a column or page boundary. Both source identities and literal physical
+rows remain in the download indexes.
+
+The correction record retains29 text review notes and22 listing anomalies.
+Printed `DEF COLOR=`, chained equality, `SQURE`, string spacing and numeric data
+are preserved for review. The screenshot's APPLE’S CHIPS and listing's TRIGEM’S
+CHIPS remain distinct. This is a scan transcription without an execution claim.
+
+```sh
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-05/flip-it
+python3 -m http.server 4243 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-05
+```
+
+Seven code crops were widened after review found a tight right margin; original
+and revised OCR exports are both retained. The final72-file article package
+rebuilds byte-identically. All987 prior-file pins, correction ranges, listing
+partitions and cross-region continuations validate. Desktop/mobile acceptance
+checks all15 blocks,20 asset/download pins,29 review ranges and actual downloads.
+
+February now has four readable/sample-reviewed articles, one group heading and
+38 unresolved eligibility decisions. The saved next plan is
+`12-1984-02-batch-06`: verify 구슬게임's extent from PDF54/printed41 before
+restoring further pages. Complete-issue reader export remains ahead.

@@ -4427,3 +4427,62 @@ history remains in [PROGRESS.md](PROGRESS.md).
   intact. Next: **12-1984-02-batch-05**, FLIP-IT II from verified PDF59/printed36.
   Candidate PDF58–55 and boundary54 still require local folio/content inspection;
   the next TOC article starts at41. Complete-issue export remains ahead.
+
+### 2026-10-01 — 12-1984-02-batch-05 started
+
+- Verified FLIP-IT II at printed36–40 / PDF59–55, followed by 구슬게임 at
+  PDF54/printed41. Restore one complete five-page article within the existing
+  ceiling, preserving prose, screenshot, both listing columns and wrapped rows.
+- Prior checkpoint committed as `c1b9c59`;987 prior output-file pins saved.
+  Listing execution and technical repair remain outside this restoration pass.
+
+### 2026-10-01 — 12-1984-02-batch-05 complete
+
+- Restored **FLIP-IT II** (`maso-1984-02-toc-0004`), 트라이젬, 삼보 컴퓨터
+  교육부, as **readable/sample-reviewed**. Five source pages are verified locally:
+  printed36–40 / PDF59–55. PDF54/printed41 starts 구슬게임 and is excluded.
+- Sixteen regions produce15 reading blocks, one original screenshot and eight
+  listing panels. The complete BASIC listing has **228 numbered lines in527
+  physical rows**;150 numbered lines wrap. Continuations at380,640,940 and1620
+  cross a column or page boundary and retain both source identities. Wrapped
+  numbers, variable names and quoted strings remain physically separate.
+- `corrections.json` retains29 text review notes and22 listing anomalies, full
+  regional transcriptions and exact article/listing UTF-8 indexes. Preserved
+  printed anomalies include `DEF COLOR=`, `B = C = D` and `SQURE`. The screenshot
+  says APPLE’S CHIPS while the listing says TRIGEM’S CHIPS; neither was adjusted
+  to match the other. Small marks, quoted spacing and long numeric strategy
+  strings remain owner-proofread scope. No execution or byte-certification claim.
+- Initial16 OCR tasks completed without failures. Review exposed a tight right
+  edge in one listing panel; widened seven code-column crops and checked the final
+  margins. The revised pass reused nine cached regions and reprocessed seven;
+  no failed-region retries. Original and revised map/OCR exports are retained and
+  validate. Final cached rendering/cropping totals27.3s and OCR18.8s include the
+  reused regions; these are not a sum of both passes' wall times.
+- The72-file article package /26,880,660 bytes rebuilds byte-identically. Region
+  coverage, reading order, raw archive bytes, all29 review ranges,22 listing
+  anomaly ranges, physical/logical row partitions and four cross-region wraps
+  validate. All987 prior-file pins and pre-update inputs pass. Generic tooling
+  remains unchanged; the preceding successful62-test log is pinned.
+- Corrected private validation-helper assumptions during closeout: validate the
+  saved initial OCR export after map revision, and reuse the already completed
+  rebuild for byte comparison. Final checks pass against both evidence exports
+  and the reviewed package; no generic tooling change was needed.
+- Desktop1440×1000/mobile390×844 checks pass for all15 rendered blocks,20 asset/
+  download pins,29 review ranges and loaded screenshot. All eight wide code panels
+  scroll without page overflow. Actual18,038-byte article and13,358-byte listing
+  downloads match; original screenshot opens1056×833. No application errors;
+  initial favicon404 only. Both screenshots inspected and test browser closed.
+  Preview: `http://127.0.0.1:4243/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-05` contains75 files /
+  26,898,486 bytes including index/report/manifest. Manifest SHA-256:
+  `6fae3f1598eb4f3be0625d723f6aba8f81b2de255293c453b3a05562b7f3ac7f`.
+  Mapping/revision records, validation, ledger snapshots, closeout and next plan
+  are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-05`. Elapsed1125.6s includes mapping,
+  transcription review, expanded crops, validation, browser checks and tool waits.
+- Only FLIP-IT II's ledger entry changed. February now has **four readable/
+  sample-reviewed articles, one group heading and38 unresolved eligibility
+  decisions**. Prior packages, authoritative TOC and cover/TOC integration remain
+  intact. Next: **12-1984-02-batch-06**, 구슬게임 from verified PDF54/printed41;
+  candidate PDF53–52 and boundary51 require local verification. Complete-issue
+  classification, restoration and reader export remain in progress.
