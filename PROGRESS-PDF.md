@@ -5965,3 +5965,45 @@ history remains in [PROGRESS.md](PROGRESS.md).
   three group headings and15 unresolved eligibility decisions. Next:batch28,
   우수한 프로그래머가 되는 첩경 from149/PDF145. Whole-issue reconciliation
   and reader integration remain open; existing cover/TOC work is unchanged.
+
+
+### 2026-10-02 — 12-1984-02-batch-28 started
+
+- Verify 우수한 프로그래머가 되는 첩경 from149/PDF145 and restore up to
+  six source pages. Preserve5,716 prior-file pins; previous checkpoint
+ 433e407 made progress. Validate JSON/assets and correction ranges, without
+ per-batch browser work.
+
+
+### 2026-10-02 — 12-1984-02-batch-28 complete
+
+- Restored complete 우수한 프로그래머가 되는 첩경, printed149–154/PDF145–150.
+  The next dBASEII article begins155/PDF151.54 regions yield42 reading blocks,
+  five original diagrams/panels and four captions. Two shared-page advertisements
+  are explicitly excluded. Six joins connect seven column/page boundaries.
+- Preserve all four programming stages, six BASIC commands and four processing
+  elements. Three independent BASIC examples contain25 numbered/physical rows:
+  deliberate IMPUT and grouping errors, plus the schematic subroutine skeleton.
+  Seven dotted placeholders are reading ellipses; no statements or exact dot
+  counts are inferred. Original panels retain brackets, arrows and typography.
+- corrections.json contains49 regional ranges,44 text reviews,51 Unicode spans
+  and13 listing reviews. Every article/listing range and example identity passes.
+  Historical language and technical assertions remain literal; code was neither
+  repaired nor executed. Final proofreading and source-byte certification remain
+  outside the claim of sample-reviewed restoration.
+- All54 initial OCR tasks completed without retries/failures:15.91s render/crop
+  and14.12s OCR execution. One advertisement-record schema field was corrected
+  before OCR started; this caused no OCR rerun. Assets, coverage/order, raw OCR
+  archive and all5,716 prior-file pins pass. The212-file article package
+  (26,095,869 bytes) rebuilds byte-identically; article.txt20,118 bytes and
+  listing.txt280 bytes. Generic tooling and prior73-test log remain unchanged.
+  No browser checks or redundant full test-suite execution.
+- Wrapper214 files/26,135,221 bytes; manifest SHA-256
+  07e59afdacc9c5d0f88a60c0d82eb14510ebd9120d097b5ba10f33f96ac76937. Elapsed584.0s
+  covers mapping, transcription/review, validation and closeout, not CPU time.
+  Private recipes/evidence/validation and next plan are saved under
+  private/pdf-restoration/12-1984-02-batch-28.
+- Only entry0025 is promoted:26 readable/sample-reviewed articles, no partials,
+  three group headings and14 unresolved eligibility decisions. Next:batch29,
+  dBASEII database-package article from155/PDF151. Full issue reconciliation
+  and reader integration remain pending; cover/TOC integration is unchanged.

@@ -58,14 +58,16 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **twenty-five readable articles**, all sample-reviewed, no partial articles,
-three group headings and15 unresolved eligibility decisions. Batches25–26 restored
+has **twenty-six readable articles**, all sample-reviewed, no partial articles,
+three group headings and14 unresolved eligibility decisions. Batches25–26 restored
 UNIX's seven pages, printed136–142/PDF132–138; both immutable segments are now
 assembled with the explicit 살/펴보기로 join and all correction ranges validated.
 Batch27 restored the complete six-page VisiCalc 활용 at printed143–148/PDF139–144,
 preserving seven original images and source-linked reviews of printed formula
-inconsistencies. Next is **12-1984-02-batch-28**: verify and restore 우수한
-프로그래머가 되는 첩경 from149/PDF145 within the six-page ceiling. Step12 remains open.
+inconsistencies. Batch28 restored 우수한 프로그래머가 되는 첩경, printed149–154,
+including five diagrams and three independent BASIC examples. Next is
+**12-1984-02-batch-29**: verify and restore the dBASEII database-package article
+from155/PDF151 within the six-page ceiling. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -557,6 +559,14 @@ issue in the staged reader before moving to remaining issues.
   linearization as reading conventions. Spreadsheet cells remain imagery. All
   original assets, prior-file pins and deterministic rebuild pass without browser
   checks or generic pipeline changes. Next article begins149/PDF145.
+- 우수한 프로그래머가 되는 첩경 spans printed149–154/PDF145–150. Its complete
+  package contains54 regions,42 blocks,five images,four captions and three
+  independent BASIC examples with25 rows. Preserve intentional IMPUT/grouping
+  errors, Korean REM text and seven dotted placeholders; no execution or inferred
+  omitted code. Two shared-page advertisements are excluded.49 regional ranges,
+ 44 text reviews,51 Unicode spans and13 listing reviews validate. Six joins
+  connect seven boundaries; all prior pins and byte-identical rebuild pass.
+  Next dBASEII article starts155/PDF151; no per-batch browser check is required.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
