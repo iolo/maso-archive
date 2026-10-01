@@ -2617,3 +2617,46 @@ two group headings and30 unresolved eligibility decisions. Next is
 the six-source-page ceiling. Its following pages and boundary remain candidates
 until individually inspected. Issue reconciliation and staged reader acceptance
 are still pending; completed cover/TOC integration and prior articles are intact.
+
+### February 1984 batch 12: 독도는 우리땅
+
+`12-1984-02-batch-12` restores the complete SPC-1000 article, printed70–75 /
+PDF25–20, as **readable/sample-reviewed**. The next article starts at verified
+PDF19/printed76. Sixteen regions produce13 blocks, the original game screen and
+flowchart. The variable list joins across pages70/71. BASIC10–2480 contains248
+numbered statements in267 physical rows, with DATA190 spanning two source pages
+under one logical identity. No continuation or assembly remains outstanding.
+
+The correction record contains51 text notes,43 listing annotations,28 literal
+DATA records,14 PLAY strings and87 Unicode reading spans/symbols. Numeric DATA
+retains unusual punctuation and trailing commas. Text DATA preserves the printed
+province, city and mountain names. Music strings retain note/rest sequences and
+source rows without claiming verified playback. Korean bitmap screen text is
+readable Unicode, not restored original machine bytes. Printed syntax anomalies,
+quoted spacing and historical wording remain explicit for manual correction.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-12/dokdo
+python3 -m http.server 4251 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-12
+```
+
+All16 initial OCR regions completed without failure. One flowchart right margin
+was widened to retain the complete1240–1560 label;15 regions reused cached
+evidence. Initial maps and evidence remain intact. The69-file article rebuild
+matches byte-for-byte. Cross-page indexes, DATA/music records, Unicode and review
+ranges, raw archive bytes and all1,732 prior output pins pass. Generic tooling is
+unchanged; its preceding65-test log remains pinned.
+
+Desktop/mobile acceptance verifies13 rendered blocks,20 pins,51 review ranges,
+original scan access and both actual downloads. Five wide code panels scroll
+without page overflow. Screenshot/download evidence is under
+`output/playwright/pdf-1984-02-batch-12`; the test browser is closed. The complete
+wrapper has72 files /34,992,790 bytes, including index/report/manifest.
+
+February now has twelve readable/sample-reviewed articles, no partial articles,
+two group headings and29 unresolved eligibility decisions. Next is
+`12-1984-02-batch-13`: verify 사용하는 사람의 입장에 서서 and APA프로그램의 활용법
+within two articles and six source pages. Only PDF19/printed76 is verified;
+following pages and boundaries are candidates until inspected. Complete-issue
+reconciliation and staged reader export remain pending.

@@ -26,11 +26,14 @@ and 천하무적 제공호, printed59, retaining literal DATA strings and histor
 code anomalies. Batch11 restored the complete 루빅의 큐브 at printed60–64 /
 PDF35–31, preserving462 numbered statements in502 physical rows, two diagrams
 and three command tables. The following advertising/promotional pages are
-excluded; 교육입문 is a verified group divider. February has eleven readable/
-sample-reviewed articles, no partial articles, two group headings and30 unresolved
-eligibility decisions. Next is **12-1984-02-batch-12**: verify 독도는 우리땅's
-extent and restore at most six source pages. Only PDF25/printed70 is already
-verified; inspect each following folio and boundary. Step 12 remains open.
+excluded; 교육입문 is a verified group divider. Batch12 restored 독도는 우리땅,
+printed70–75 / PDF25–20, including its page-spanning DATA statement, Korean
+screen strings, map DATA and music strings. February has twelve readable/
+sample-reviewed articles, no partial articles, two group headings and29 unresolved
+eligibility decisions. Next is **12-1984-02-batch-13**: verify 사용하는 사람의
+입장에 서서 and APA프로그램의 활용법 within two articles and six source pages.
+Only PDF19/printed76 is already verified; inspect each following folio and
+boundary. Step 12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -420,8 +423,13 @@ issue in the staged reader before moving to remaining issues.
   advertising/promotional pages are excluded and PDF26 is the 교육입문 divider
   (locally inferred position69, no visible folio). Preserve its literal code
   anomalies, numeric physical wraps and source-linked review notes.
-- 독도는 우리땅 begins at verified PDF25/printed70. The next catalog article
-  starts at76; inspect candidate PDF24–20 and the following boundary individually.
+- 독도는 우리땅 is complete at printed70–75 / PDF25–20. Retain its cross-page
+  DATA190,28 literal DATA records,14 music strings, Korean Unicode reading text
+  and source-linked anomalies. Original encoding, execution and playback remain
+  unverified; the flowchart and screen image retain their internal labels as images.
+- 사용하는 사람의 입장에 서서 begins at verified PDF19/printed76. The catalog
+  starts APA프로그램의 활용법 at78 and 파스칼 프로그래밍 at82. Inspect candidate
+  PDF18–14 and the following boundary individually; two articles may share a batch.
   Extract at most six source pages per checkpoint and preserve any continuation;
   validate complete coverage and assembly before promoting a partial segment.
 - Reconcile each issue, produce its standalone reference/report, and validate

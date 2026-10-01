@@ -4913,3 +4913,72 @@ history remains in [PROGRESS.md](PROGRESS.md).
   **12-1984-02-batch-12**, verify 독도는 우리땅 from PDF25/printed70; candidate
   following pages and boundary require inspection within the six-page ceiling.
   Complete-issue restoration/accounting and staged reader export remain open.
+
+### 2026-10-01 — 12-1984-02-batch-12 started
+
+- Previous checkpoint committed as `fcc478d`; it completed 루빅의 큐브 and
+  classified 교육입문, making verified progress toward the issue goal.
+- Saved fixed inputs, prior output pins and the issue-ledger snapshot. Inspect
+  독도는 우리땅 from verified PDF25/printed70, its candidate continuation pages
+  and the next boundary; extract at most six source pages. Preserve completed
+  articles, authoritative TOC and cover/TOC integration.
+- Verified the complete six-page article at printed70–75 / PDF25–20 and the
+  next article at PDF19/printed76. All16 OCR regions completed without failure.
+  Widened one flowchart crop to include the complete1240–1560 label; preserved
+  the initial evidence and reused the other15 regions.
+- Transcribed248 numbered statements in267 physical rows. The190 DATA statement
+  continues across pages;28 literal DATA records and14 music strings retain scan
+  links, alongside51 text review notes and43 code annotations. Korean screen
+  text is Unicode reading transcription, with no original-byte or execution claim.
+  Package integrity, a fresh rebuild and browser acceptance are in progress.
+
+### 2026-10-01 — 12-1984-02-batch-12 complete
+
+- Restored **독도는 우리땅**, printed70–75 / PDF25–20, as **readable/
+  sample-reviewed**. All six folios and the following article boundary are
+  verified. The listing runs10–2480; no source-present continuation or assembly
+  is outstanding. The next PDF19/printed76 article remains excluded.
+- Sixteen regions produce13 blocks and two original figures: the game screenshot
+  and flowchart. The variable list joins across70/71 with both scans retained.
+  BASIC contains**248 numbered statements in267 physical rows**. DATA190 spans
+  two pages under one logical identity; physical breaks inside numbers, quoted
+  strings and GOSUB remain intact.
+- `corrections.json` includes**51 text review notes,43 code annotations,28 DATA
+  records and14 music strings**. DATA indexes preserve semicolon-like separators
+  at160/230 and the trailing comma at190. Six quoted DATA rows retain9/5 province,
+  8/6 city and6/4 mountain names; two label rows retain14/10 entries. These are
+  literal reading indexes, not certified executable values. Music indexes retain
+  original wraps through their source rows and do not claim verified playback.
+- Preserved apostrophe-like30/1830 marks,990 ELSEELSE,1030's open quote,
+  1110's unusual wrapped punctuation,1600's dot-like separators and2100's
+  semicolon-like coordinate separator. Korean screen text is Unicode reading
+  transcription;87 indexed spans/symbols include85 Korean code spans and two
+  byline symbols. Original encoding, precise quoted spacing and execution remain
+  unverified. Historical descriptions and source inconsistencies are unchanged.
+- All16 initial OCR regions completed without failure. One flowchart crop was
+  widened to recover the full1240–1560 label;15 regions reused cached evidence.
+  Initial output is preserved. Final selected render/crop32.1s and OCR15.3s are
+  cached processing totals, not cumulative elapsed work across revisions.
+- The69-file article package (34,975,443 bytes) rebuilds byte-identically. All
+  text, physical/logical, cross-page, DATA, music and Unicode ranges pass, as do
+  raw OCR archive bytes and all1,732 prior output pins. Generic tooling remains
+  unchanged; the preceding successful65-test log is pinned.
+- Desktop1440×1000/mobile390×844 checks pass for13 blocks,20 asset/download
+  pins and51 review ranges. Five wide code blocks scroll without page overflow.
+  The original game screenshot opens at1086×848. Actual article/listing downloads
+  match13,069/9,748 bytes. Two screenshots inspected; no application errors,
+  initial favicon404 only; test browser closed. Preview: `http://127.0.0.1:4251/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-12` has72 files /
+  34,992,790 bytes. Manifest SHA-256:
+  `579eef05e7c09fcd670bf61151d961625affbafae1019999fdb8b956652c9443`.
+  Private maps, transcriptions, validation, snapshots and next plan are in the
+  matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-12`. Elapsed1,097.4s includes mapping,
+  extraction/revision, review, validation/rebuild, browser acceptance and waits.
+- Only this article's ledger entry changed. February now has **twelve readable/
+  sample-reviewed articles, no partial articles, two group headings and29
+  unresolved eligibility decisions**. Prior articles and completed cover/TOC
+  integration remain intact. Next: **12-1984-02-batch-13**, verify 사용하는 사람의
+  입장에 서서 and APA프로그램의 활용법 within two articles/six source pages.
+  Only PDF19/printed76 is verified; subsequent folios/boundaries need inspection.
+  Full-issue restoration, reconciliation and staged reader acceptance remain open.
