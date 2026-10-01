@@ -58,8 +58,8 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **36 readable articles**, all sample-reviewed, no partial articles,
-four classified group headings and three unresolved entries. Batches25–29 restored
+has **36 readable articles and one partial article**, all sample-reviewed,
+four classified group headings and two unresolved entries. Batches25–29 restored
 UNIX, VisiCalc 활용, 우수한 프로그래머가 되는 첩경 and dBASEII, and classified
 테크니컬. Batches30–38 and their assemblies completed 로더란 무엇인가,
 기계어 테크닉, the16-page 한글 워드프로세서의 설계2 and the eight-page
@@ -71,9 +71,13 @@ BASIC statements in282 physical rows,five images and two searchable tables.
 Batch41 restored complete 지하괴물잡기208–212/PDF204–208,including216
 numbered statements in242 physical rows and all18 character definitions.
 Bitmap spans and unknown blank widths remain explicitly source-linked for
-manual correction. Next is **12-1984-02-batch-42**: verify the dictionary
-supplement from213/PDF209 and restore its first segment of at most six pages.
-Two section classifications and full issue reconciliation/closeout also remain.
+manual correction. Batch42 restored the dictionary opening213–218/PDF209–214,
+with37 entries (last DEFDBL incomplete),68 machine labels,three images and a
+searchable16-color table. Ending239/PDF235 and following advertisement240
+are inspected;intervening continuity still awaits source review. Next is
+**12-1984-02-batch-43**: restore219–224/PDF215–220. Four bounded continuation
+segments and assembly are expected,subject to source verification. Two section
+classifications and full issue reconciliation/closeout also remain.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -697,6 +701,17 @@ issue in the staged reader before moving to remaining issues.
   mapping.30 regional ranges,123 reviews and116 listing reviews validate.
   Three one-time crop extensions reuse32 regions;fresh rebuild matches.
   Lower212 advertisement excluded. Next verify the dictionary from213/PDF209.
+- Dictionary opening213–218/PDF209–214 is restored as a partial article:
+  58 regions,48 blocks,three images,55 regional ranges,40 review notes and52
+  Unicode spans.37 dictionary entries include the unfinished DEFDBL opening;
+  seven column/page joins,68 boxed machine labels,16 color data rows plus header,
+  six independent example/output groups and three formula ranges are indexed.
+  Literal boxed O,W80,D$/A$,CHR$(47),duplicate 회색 and 열은파란색 remain
+  unchanged. Two reverse-field symbols await manual correction. One CHR$ crop
+  extension reuses57 unchanged regions;fresh rebuild matches. Ending239 and
+  following advertisement240 are verified endpoints,not proof of uninspected
+  intervening continuity. Next219–224,then provisional225–230,231–236,237–239,
+  followed by source-preserving assembly. No per-batch browser work.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

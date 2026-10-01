@@ -6762,3 +6762,61 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next verify the BASIC dictionary supplement from213/PDF209 and restore its
   first bounded segment. Two section classifications and full issue closeout
   remain. Corrected TOC and completed cover/TOC integrations are unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-42 started
+
+- Inspect the BASIC dictionary supplement beginning213/PDF209 and locate its
+  ending;restore first six pages at most. Preserve8,795 prior-file pins and all
+  bitmap correction evidence. Previousf07cbfa made progress. Package checks only.
+
+### 2026-10-02 — 12-1984-02-batch-42 complete: dictionary opening
+
+- Restored first six supplement pages213–218/PDF209–214,TOC0036. Title
+  illustrations and all visible folios retained. Dictionary ending239/PDF235
+  and following advertisement240/PDF236 inspected. Candidate extent213–239
+  is27 pages;intervening219–232 has not yet been visually verified,so full
+  extent verification remains false. Twenty-one source pages remain deferred.
+- 58 regions,48 blocks and3 original images retain title artwork,butterfly
+  and color table.55 regional text ranges,40 source-linked review notes and52
+  Unicode spans validate.37 dictionary entries include unfinished DEFDBL;
+  seven explicit joins cover introduction,ABS,@,CDBL,CLEAR,CONT and CTRL J.
+- 68 boxed machine labels retain Apple/PET/TRS-80 distinctions and literal
+  boxed O without inventing its machine association. Directional CRSR marks
+  are linearized with documented arrows. Two reverse-field box shapes remain
+  explicit source-local graphic markers for manual post-production.
+- All16 color values plus header are searchable,indexed and preserved in an
+  original table image. Numeric text order follows the three printed vertical
+  groups. Both5/10 say 회색;7 says 열은파란색. Six independent example/output
+  groups and three formula ranges stay with their definitions. CSNG statement30
+  retains its physical wrap;examples are not concatenated into a runnable program.
+- Literal ASC D$/A$,CINT −32767배,CLR/HOME CHR$(47),boxed O,CALL-922,
+  DEF W80 and FNAO remain with review evidence. Historical claims and command
+  differences are not technically repaired or executed;source bytes are unverified.
+- One left-edge extension fixes two clipped CHR$ continuation characters;
+  57 unchanged regions reuse cache.58 initial tasks plus1 revision,no processing
+  failures. Initial map/OCR preserved. An initial private gap-object schema
+  error failed before OCR and was corrected to the existing string schema.
+  No generic tooling changes,pipeline optimization or browser/reader staging.
+- Checks passed:all8,795 prior-file pins,current source/OCR assets,all region
+  images,ZIP bytes,seven joins,definition/label/table/example/formula indexes,
+  uncertainty ranges and a fresh byte-identical rebuild. Existing77-test log
+  and tooling pins verified;no unnecessary full-suite repeat.
+- Measured task execution39.800014s initial plus2.317024s revision,
+  total42.117037s. Cached revised report totals were not added again. Wall
+  interval929.5s includes prior setup,context handoff,scope clarification,
+  source review,transcription,authoring failure,validation and closeout;not
+  active compute time. Stage token use unmeasured. Existing cost audit was
+  confirmed complete rather than repeated. The preceding scope-only response
+  made no authoritative progress;setup was confirmed terminal before resuming.
+- Output `build/pdf-restoration/12-1984-02-batch-42`:235 files,
+  29,955,748 bytes;article.txt22,569 bytes. Article manifest SHA-256:
+  `3745188211d8b77b741ca0d8f25599e2688e9f6aaf190e54a80c15eceeefc1f6`.
+  Wrapper manifest SHA-256:
+  `4e122cf5bb5b99be103590f2862d28a6d344545383415e5bac1a741defd52457`.
+  Matching private directory retains maps,initial/revised OCR,transcriptions,
+  corrections,validation,ledger snapshots and next-checkpoint plan.
+- February:43 entries,37 classified/sample-reviewed articles (36 readable,
+  one partial dictionary),four group headings and two unresolved headings.
+  Only0036 changed. Next restore219–224/PDF215–220,then remaining dictionary
+  segments and assembly. Two heading classifications and issue closeout remain.
+  Corrected TOC and completed cover/TOC integrations are unchanged.
