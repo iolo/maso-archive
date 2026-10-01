@@ -58,17 +58,17 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **twenty-seven readable articles**, all sample-reviewed, no partial articles,
-four group headings and12 unresolved eligibility decisions. Batches25–26 restored
-UNIX's seven pages, printed136–142/PDF132–138; both immutable segments are now
-assembled with the explicit 살/펴보기로 join and all correction ranges validated.
-Batch27 restored the complete six-page VisiCalc 활용 at printed143–148/PDF139–144,
-preserving seven original images and source-linked reviews of printed formula
-inconsistencies. Batch28 restored 우수한 프로그래머가 되는 첩경, printed149–154,
-including five diagrams and three independent BASIC examples. Batch29 restored
-the dBASEII article at printed155–158, including five searchable tables, and
-classified the following 테크니컬 divider. Next is **12-1984-02-batch-30**:
-verify and restore 로더란 무엇인가 from160/PDF156 within the six-page ceiling.
+has **34 readable articles**, all sample-reviewed, no partial articles,
+four classified group headings and five unresolved entries. Batches25–29 restored
+UNIX, VisiCalc 활용, 우수한 프로그래머가 되는 첩경 and dBASEII, and classified
+테크니컬. Batches30–38 and their assemblies completed 로더란 무엇인가,
+기계어 테크닉, the16-page 한글 워드프로세서의 설계2 and the eight-page
+A/D,D/A의 이론과 실제1. All original segments and correction evidence remain
+preserved. Batch39 restored the complete competition notice200/PDF196 and
+second competition review201/PDF197, including all11 reviewed submissions.
+Next is **12-1984-02-batch-40**: verify SNAKY GAME from202/PDF198 and restore
+at most six source pages. The other game, dictionary supplement and two section
+classifications remain, followed by full issue reconciliation and closeout.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -671,6 +671,12 @@ issue in the staged reader before moving to remaining issues.
   source-local,with global regional ranges provided. All source packages and
   deterministic rebuild match. Next restore TOC-listed competition notice200
   and second competition review201 after verifying their extents.
+- Competition notice200/PDF196 and second competition review201/PDF197 are
+  complete:32 regions,29 blocks,one publisher-logo image,31 regional ranges,
+  29 review notes and48 Unicode spans. Both column joins and all11 submissions
+  validate. Historical rules,prizes,names and printed spelling errors remain
+  source-linked. No retries or browser work;both fresh rebuilds match.
+  Next verify SNAKY GAME from202/PDF198 within the six-page batch limit.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

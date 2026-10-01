@@ -6589,3 +6589,55 @@ history remains in [PROGRESS.md](PROGRESS.md).
   notice200 and second competition review201,verify extents through202. Games,
   supplement and section classifications remain later work. Full issue
   reconciliation and reader acceptance are open;corrected TOC/covers unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-39 started
+
+- Verify and restore competition notice200/PDF196 and second competition
+  review201/PDF197. Preserve8,308 prior-file pins and completed converter
+  assembly. Printed historical rules/results remain literal. No browser work.
+
+### 2026-10-02 — 12-1984-02-batch-39 complete: competition notice and review
+
+- Restored TOC0042 공모 안내 at200/PDF196 and TOC0043 제2차 공모 총평
+  at201/PDF197. Source headlines are 소프트웨어를 공모합니다. and
+  짧은 연륜을 의심하게 할 정도. The notice has no printed folio;position200
+  is supported by the TOC and adjacent199/201. The review shows201, and202
+  opens SNAKY GAME. These are complete TOC-listed articles,not excluded ads.
+- Notice:17 regions,15 blocks,one original publisher logo,16 regional text
+  ranges,11 review notes and43 Unicode spans. Submission itemsㄱ–ㅋ retain
+  their cross-column continuation. Judging50/40/10,prizes10만원(1명) and
+  5만원(2명),historical address/phone and rights terms are source-checked.
+  Printed 사용 기재 and the unmatched closing parenthesis after 명수 제한
+  없음) remain literal;dotted leaders use an explicitly documented ellipsis.
+- Review:15 regions,14 blocks,15 regional ranges,18 review notes and five
+  Unicode spans. All11 numbered submissions retain titles,names,machines and
+  institutions. Entry4 joins 보이고/있다. across columns. Enlarged scans
+  confirm 최 승,김 재연,김 현준,이 종운 and 광주동일고. Printed 결들인,
+  임위로,editorial(?) and award terms remain unchanged. Closing ornament
+  remains in its source crop. No original-character-byte certification.
+- Validation passed:all32 region images,31 regional ranges,29 review excerpts,
+  48 glyph spans,two explicit joins,source/OCR pins,ZIP contents and fresh
+  byte-identical builds. All8,308 prior-file pins remain unchanged. Generic
+  tooling and its successful77-test log are unchanged,pins verified without
+  repeating the suite. No Playwright,browser checks or reader staging.
+- 32 initial OCR tasks completed,zero failures,retries or crop revisions.
+  Measured task execution:render/crop6.22951005s,OCR5.78006676s. Checkpoint
+  wall interval651.1s includes interruption,scope clarification,context recovery,
+  transcription,review and validation;it is not active compute time. Stage token
+  usage was not measured. The previous clarification turn did not advance
+  restoration;this turn revalidated state and resumed the saved completed OCR.
+- Output `build/pdf-restoration/12-1984-02-batch-39`:147 files,8,213,033 bytes;
+  notice article.txt2,788 bytes,review article.txt4,132 bytes,no code listings.
+  Wrapper manifest SHA-256:
+  `2c9f947bfdf6216e6a5d2179d62fcbc34e553b5a8c41bb8d741ec60410453bbb`.
+  Package manifests:
+  notice `86a817802f5a3511ab3e066a2627b34f196ed420cec02f868f2742221b953af5`;
+  review `5d5ff364cea933c019fbf9d94af254b76aaf9db7eac23c2c3760b385d9abe4df`.
+  Maps,transcriptions,corrections,validation,ledger snapshots and next plan are
+  preserved in the matching private checkpoint directory.
+- February ledger:43 entries,34 readable/sample-reviewed articles,no partials,
+  four classified group headings and five unresolved entries. Only0042/0043
+  changed. Remaining:two games,the BASIC dictionary supplement and two section
+  classifications. Next verify SNAKY GAME from202/PDF198,at most six pages.
+  Full issue reconciliation,standalone reference/report and reader acceptance
+  remain open. Corrected TOC and completed cover/TOC integrations are unchanged.
