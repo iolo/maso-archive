@@ -49,11 +49,14 @@ article is now assembled and validated, preserving24 news-item identities,
 image associations and all correction ranges. Batch22 restored 삼성SPC-500 at
 printed122–124 / PDF118–120, including its final system diagram above an excluded
 advertisement. All six tables/diagrams and the photograph retain original images;
-the six captions and all prose are transcribed. February has twenty-two readable/
-sample-reviewed articles, no partial articles, three group headings and18
-unresolved eligibility decisions. Next is **12-1984-02-batch-23**: verify and
-restore the opening 회계관리 프로그램 segment from PDF121/printed125 within six
-source pages, mapping its continuation and complete extent locally. Step12 remains open.
+the six captions and all prose are transcribed. Batch23 restored the first six
+pages of 회계 관리 프로그램, printed125–130 / PDF121–126, including15 variable
+definitions, three screen images, a flowchart and both halves of a photograph.
+Its complete extent is verified at printed125–135 / PDF121–131. February has
+**twenty-two readable and one partial article**, all sample-reviewed, three group
+headings and17 unresolved eligibility decisions. Next is **12-1984-02-batch-24**:
+restore the final explanation page131 and BASIC listing pages132–135, then
+assemble the complete eleven-page article. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -503,6 +506,16 @@ issue in the staged reader before moving to remaining issues.
   images rather than certified searchable text. Keep literal TV 표6, 비데오,
   키이, 8가지의 음계, Z-80A/Z80A and capacity claims. The124 bookstore
   advertisement is excluded; 회계 관리 프로그램 begins125/PDF121.
+- 회계 관리 프로그램 spans printed125–135 / PDF121–131; UNIX begins136/PDF132.
+  The first six pages are restored as a partial article with27 reading blocks,
+  six original image crops, four captions and15 printed variable definitions.
+  Preserve all eight prose joins,41 review notes,35 regional ranges and28 Unicode
+  spans. Keep the provisional 역할난을, literal FI$/DI$/F1 and L3,K3,: notation,
+  confirmed end-code999999, 지수승/지수성 and routine-name variants. Screen and
+  flowchart labels remain imagery; blank flowchart nodes are not inferred.
+  Final prose131 and BASIC listing132–135 remain. Preserve physical code wraps,
+  uncertain glyphs and original segments during assembly; no execution or repair.
+  The opening segment ends at a complete paragraph, with no sentence join needed.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

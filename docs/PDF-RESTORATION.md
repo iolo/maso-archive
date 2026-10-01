@@ -3003,3 +3003,29 @@ February now has22 readable/sample-reviewed articles, three group headings and18
 unresolved eligibility decisions. Next is the opening 회계관리 프로그램 segment,
 with full extent to verify within the bounded mapping workflow. Issue closeout
 and staged reader acceptance remain pending; cover/TOC integration is preserved.
+
+
+## February accounting program: opening segment
+
+`12-1984-02-batch-23` provides printed125–130 / PDF121–126 of the eleven-page
+회계 관리 프로그램. Complete extent is verified at125–135 / PDF121–131;
+UNIX begins136/PDF132. The final explanation page and four BASIC listing pages
+are deferred to batch24, so the current article remains partial/sample-reviewed.
+
+The package has27 reading blocks, six original images, four captions and eight
+explicit prose joins. Screen and flowchart labels remain images, including blank
+flowchart nodes. The facing-page photograph remains two independent source crops.
+`corrections.json` contains41 review notes,35 regional ranges,28 Unicode spans
+and source-linked ranges for all15 printed variable definitions. Historical
+notation, punctuation and claims remain literal. End-code999999 is visually
+confirmed; 역할난을 remains a provisional reading. No missing definition or code
+repair is inferred. The segment ends at a complete paragraph; final assembly
+needs no sentence join at this boundary and must preserve every correction range.
+
+All41 OCR tasks completed without retries; the156-file article package rebuilds
+byte-identically. Desktop/mobile rendering, original image links and the28,364-byte
+article download pass. Private evidence is in the matching checkpoint directory;
+screenshots/downloads are under `output/playwright/pdf-1984-02-batch-23`.
+Preview: `http://127.0.0.1:4264/`. February has22 readable articles and one partial,
+three group headings and17 eligibility decisions remaining. Reader staging waits
+for issue closeout, preserving the completed cover/TOC integration.

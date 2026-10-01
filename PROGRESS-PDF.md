@@ -5662,3 +5662,59 @@ history remains in [PROGRESS.md](PROGRESS.md).
   decisions**. Next: **12-1984-02-batch-23**, restore the opening accounting-program
   segment from PDF121/printed125 within six source pages and verify its extent.
   Whole-issue restoration, reconciliation and staged reader acceptance remain open.
+
+
+### 2026-10-01 — 12-1984-02-batch-23 started
+
+- Previous checkpoint committed as `61533a0`. Pinned prior outputs and the issue
+  ledger. Verify the accounting-program article from PDF121/printed125 and
+  restore its opening segment within six source pages, retaining continuation
+  boundaries and original code notation.
+
+- Opening segment mapped and transcribed: printed125–130 / PDF121–126,
+  41 source regions,27 reading blocks, six original images and four captions.
+  Complete extent is verified at125–135; final prose and four BASIC pages remain.
+  All41 OCR tasks completed without retries. The156-file package rebuilds
+  byte-identically and all3,968 prior-file pins pass. Browser acceptance pending.
+
+
+### 2026-10-01 — 12-1984-02-batch-23 complete
+
+- Restored the opening accounting-program segment at printed125–130 / PDF121–126.
+  Individually verified the full extent at125–135 / PDF121–131 and UNIX's opening
+  at136/PDF132. Last prose page131 and BASIC pages132–135 remain for batch24.
+  The opening segment ends at a complete paragraph, without a cross-segment join.
+- 41 source regions produce27 reading blocks and six original images: three screen
+  photographs, a flowchart and two separate halves of the facing-page photograph.
+  Four captions are searchable. Internal screen/flowchart lettering stays in the
+  images; blank flowchart nodes are preserved. Eight column/page joins are explicit.
+- `corrections.json` records41 review notes,35 regional UTF-8 ranges,28 Unicode
+  spans and15 individually indexed variable definitions. Preserve FI$/DI$/F1,
+  the extra comma in L3,K3,:, 현금 발행 and missing L5/K5 without inferred repair.
+  Enlarged scan confirms end-code999999. Literal 낮설게, 캐릭터 건 간에,
+  오페레이터/오퍼레이터, 차대 평균, 지수승/지수성 and routine labels remain.
+  역할난을 is one explicit provisional reading for owner proofreading.
+- All41 OCR tasks completed with zero failures/retries. Selected processing totals
+  are render/crop20.5s and OCR18.8s. The156-file article package
+  (40,979,787 bytes) rebuilds byte-identically; article.txt is28,364
+  bytes. Coverage, all text/glyph ranges, joins, variables and raw OCR checks pass.
+  All3,968 prior-file pins remain intact. Generic tooling and its previously
+  successful71-test PDF log are unchanged; no new generic code was introduced.
+- Desktop1440×1000 and mobile390×844 checks verify27 blocks,44 pins,41 review
+  ranges and63 regional/Unicode spans. All six images load; no page overflow or
+  application errors, with initial favicon404 only. Full flowchart opens at
+  1086×1833. Actual article download matches28,364 bytes. Three screenshots were
+  inspected and Chrome closed. Browser interruptions did not lose saved work.
+  Preview: `http://127.0.0.1:4264/`.
+- Output `build/pdf-restoration/12-1984-02-batch-23` has159 files /
+  41,011,205 bytes. Manifest SHA-256:
+  `2d7afcbc43273ee508a731fc227db35eb2b4a775cddec543ed0dd90c524bb013`.
+  Maps, OCR, transcription, recipes, rebuild, validation, ledger snapshots and
+  next plan are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-23`. Elapsed1205.1s includes
+  context handoff, browser interruptions, review, validation and tool waits.
+- Only entry0022 changed. February now has **22 readable articles and one partial
+  article**, all sample-reviewed, three group headings and17 unresolved eligibility
+  decisions. Next: **12-1984-02-batch-24**, final accounting prose and four BASIC
+  pages, followed by full assembly. Whole-issue reconciliation and staged reader
+  acceptance remain pending; corrected TOC and completed cover/TOC work are intact.
