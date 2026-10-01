@@ -653,6 +653,12 @@ issue in the staged reader before moving to remaining issues.
   locate those passages. Original packages and deterministic rebuild match.
   Next verify A/D,D/A의 이론과 실제1 from192/PDF188;no new restoration scope
   or per-batch browser work is implied by this completed assembly.
+- A/D,D/A의 이론과 실제1 spans192–199/PDF188–195. First six pages are
+  restored:47 regions,30 blocks,ten images/captions,three eight-row tables and
+  three formula/example ranges. Four joins cover seven boundaries.37 regional
+  ranges,45 reviews and54 Unicode spans validate. Preserve printed numeric
+  discrepancies and the duplicate000 row;exclude the recruitment ad on193.
+  Next restore198–199 and assemble without a new boundary join.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

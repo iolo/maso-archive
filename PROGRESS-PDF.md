@@ -6469,3 +6469,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   from192/PDF188;inspect extent before mapping. Full issue reconciliation and
   reader acceptance remain pending;corrected TOC and cover/TOC integration
   remain unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-37 started
+
+- Verify A/D,D/A extent from192/PDF188 and restore up to six source pages.
+  Preserve7,832 prior-file pins and completed Hangul assembly. Printed formulas,
+  circuit diagrams and historical claims remain literal. No browser work.
+
+### 2026-10-02 — 12-1984-02-batch-37 complete: A/D,D/A first segment
+
+- Verified eight-page extent192–199/PDF188–195 and next competition notice
+  at200/PDF196. Restored first192–197:47 regions,30 blocks,ten original
+  figures/table images and ten captions. The lower recruitment advertisement
+  on193 is explicitly excluded. Final198–199 is source-present and deferred.
+- Three eight-row tables plus headers provide27 indexed rows. Figure1's
+  formula/legend,binary examples and resolution formula have three explicit
+  source ranges. Four joins cover seven boundaries,including 이/처럼,높/은,
+  증/가하고,111에/서,연/산증폭기,전류스위치/로는 and 모/든.
+  Intervening figures,captions and table rows remain exactly once.
+- 37 regional ranges,45 review notes and54 Unicode reading spans validate.
+  Preserved duplicate000 table input,0.53515625,5/4096 or0.025%,8-bit6.25%,
+  1000→0111 described as an LSB increase,and original table values. Technical
+  claims,component counts and current ranges are literal. Circuit internals
+  remain images;no code listing,electrical or original-byte certification.
+- All47 initial OCR tasks completed without failure,retry or crop revision.
+  Measured render/crop12.3183s and OCR10.0064s;lookup rendering0.2983s recorded
+  separately. All7,832 prior-file pins,source/correction/table/formula ranges,
+  image decoding,raw OCR identity and a fresh byte-identical rebuild pass.
+  Regional projector preflight passes. Generic tooling and77-test log unchanged,
+  pins checked;no repeated full suite,browser or reader staging.
+- Article manifestb6f4473c8a358daacf24e30e53a7124ce8e0c58e0e644b55f477daafcdbc8394:
+  168 files/18,845,697 bytes,article.txt12,797 bytes. Wrapper
+  170 files/18,879,696 bytes;manifest SHA-256
+  db817192af82370d2b535cec0aa0afbba59680118364aa5ed45a5d1725d73b88.
+  Elapsed604.8s includes extent review,mapping,transcription,validation
+  and closeout;wall time is not active CPU/model time. Stage token use unmeasured.
+  Evidence:private/pdf-restoration/12-1984-02-batch-37.
+- Entry0032 becomes partial:32 classified/sample-reviewed articles,31 readable
+  and one partial,four group headings and seven unresolved eligibility decisions.
+  Next final198–199,then assemble;no split-word segment boundary exists. Full
+  February reconciliation and reader acceptance remain pending. Corrected TOC
+  and completed cover/TOC integrations are unchanged.
