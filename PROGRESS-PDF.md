@@ -5107,3 +5107,58 @@ history remains in [PROGRESS.md](PROGRESS.md).
   PDF84/printed88 and restore its first segment within six source pages. The next
   catalog entry starts97; actual extent/continuations require local verification.
   Full-issue restoration, reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-15 started
+
+- Previous checkpoint committed as `a00ebb9`; restoring the full Pascal article
+  across the verified scan-order break advanced the February issue goal.
+- Saved fixed inputs, prior output pins and the ledger snapshot. Verify
+  마이크로컴퓨터 시스템 입문 from PDF84/printed88 and its catalogued boundary
+  before97. Restore at most six source pages and retain any continuation as an
+  explicit segment; preserve prior articles and completed cover/TOC integration.
+
+### 2026-10-01 — 12-1984-02-batch-15 complete: systems first segment
+
+- Verified the full 마이크로컴퓨터 시스템 입문 extent at printed88–96 /
+  PDF84–92, with 타임머신 beginning printed97 / PDF93. Restored only the first
+  six pages, printed88–93 / PDF84–89, within the checkpoint ceiling. Four
+  additional pages were inspected for continuation/boundary evidence. Final
+  printed94–96 pages are source-present and explicitly deferred, not missing.
+- The62 source regions produce33 reading blocks,15 original images (opening
+  photo plus figures1–14),14 searchable captions and an eight-row controller
+  table. The table's original image and searchable transcription intentionally
+  coexist; blank cells stay blank/null. Diagram labels, pin overbars, arrows and
+  waveforms remain in original images. No standalone program listing is present.
+- `corrections.json` includes47 regional UTF-8 ranges,23 review notes, six joined
+  prose blocks, eight table-row ranges and seven Unicode spans. Preserve literal
+  570S, CUP,8257 and figure3·8 references. ASC-/II and other physical wraps are
+  joined with recorded normalization. The incomplete ending 과 continues with
+  의 차이점을 보여주고 있다. on94; assembly must use an empty separator.
+- Initial62 OCR tasks completed without failures. Enlarged review required no
+  crop retry. A metadata-only correction records 에서/발생되며 as the actual
+  final column boundary; fresh map/state/export reused all62 cached regions.
+  Original evidence remains intact. Cached render/crop32.4s and OCR21.4s are
+  processing totals, not cumulative elapsed time.
+- The213-file article package (28,500,504 bytes) rebuilds byte-identically.
+  Six-page mapping, region coverage, all joins/captions/table rows, UTF-8 ranges,
+  visible partial state/gap, raw OCR and2,224 prior output pins pass. Generic
+  tooling is unchanged; the previous successful65-test log remains pinned.
+- Desktop1440×1000/mobile390×844 checks pass for33 blocks,65 asset/download pins
+  and23 review ranges. No horizontal page overflow. Original photograph opens
+  at2046×1948; actual article download matches13,956 bytes. Two screenshots were
+  inspected, no application errors occurred and the browser closed. A sandbox
+  server-socket denial was resolved by the approved local preview server before
+  rerunning acceptance. Preview: `http://127.0.0.1:4254/`.
+- Output `build/pdf-restoration/12-1984-02-batch-15` has216 files /
+  28,542,884 bytes. Manifest SHA-256:
+  `f102a11b39d71a129f58cab081b192c6c9185a50745ae3bb319c1286fb235e61`.
+  Private maps, OCR, corrections, validation and next plan are in the matching
+  private directory; screenshots/download evidence is under
+  `output/playwright/pdf-1984-02-batch-15`. Elapsed970.3s includes mapping,
+  transcription, validation/rebuild, browser acceptance, interruption and waits.
+- Only systems entry0017 changed. February now has **fifteen readable articles,
+  one partial article, two group headings and25 unresolved eligibility decisions**;
+  all sixteen classified articles are sample-reviewed. Prior packages and the
+  completed cover/TOC integration remain intact. Next: **12-1984-02-batch-16**,
+  restore final systems pages94–96 / PDF90–92, then assemble all nine pages.
+  Full-issue restoration, reconciliation and staged reader acceptance remain open.

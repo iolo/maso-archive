@@ -2768,3 +2768,54 @@ no partial articles and26 unresolved eligibility decisions. Next is
 and restore at most six source pages. Its catalogued88–96 extent needs local
 verification and may require multiple segments followed by assembly. Complete
 issue restoration, reconciliation and staged reader acceptance remain pending.
+
+
+## February 1984 systems article, first six pages
+
+`12-1984-02-batch-15` restores 마이크로컴퓨터 시스템 입문 at printed88–93 /
+PDF84–89 as partial/sample-reviewed. All nine article folios are verified at
+printed88–96 / PDF84–92, followed by 타임머신 at printed97 / PDF93. Final
+printed94–96 pages are source-present and deferred to the next checkpoint.
+
+The62 regions produce33 reading blocks,15 original images and14 captions.
+Figure11 is also searchable as eight controller-comparison rows; its original
+image remains available and blank cells are not filled by inference. Diagram
+pin names, active-low bars, arrows and waveforms stay in their source images.
+This prose/diagram segment has no `listing.txt` download.
+
+`corrections.json` indexes47 regional text ranges,23 review notes, eight table
+rows and seven Hanja/interpunct spans. Six reading blocks join physical columns
+and pages while retaining source attribution. Literal570S,CUP,8257 and the
+figure3·8 references are preserved. Original line-end hyphens in ASCII,
+handshake, programmed and interrupt are explicitly normalized for reading.
+The last sentence ends 과; the next page starts 의 차이점을 보여주고 있다.
+Its empty-separator join is recorded for final assembly without inventing text
+inside this partial package.
+
+All62 initial OCR tasks completed successfully. No crop retry was needed.
+A metadata-only map revision corrected the recorded 에서/발생되며 boundary;
+a fresh state/export reused all62 cached tasks. Original maps and OCR remain.
+The213-file package,28,500,504 bytes, rebuilds byte-identically. Source coverage,
+caption/table identities, text ranges, raw OCR and2,224 prior file pins pass.
+Generic tooling is unchanged; the previous65-test result remains pinned.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-15/systems
+python3 -m http.server 4254 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-15
+```
+
+Desktop1440×1000/mobile390×844 acceptance checks pass for33 blocks,65 pins and
+23 review ranges, with visible partial status/continuation and no page overflow.
+The original photo opens at2046×1948 and the article download matches13,956
+bytes. Both screenshots were inspected and the browser closed. Evidence is in
+`private/pdf-restoration/12-1984-02-batch-15` and
+`output/playwright/pdf-1984-02-batch-15`. The216-file wrapper totals28,542,884
+bytes; manifest SHA-256
+`f102a11b39d71a129f58cab081b192c6c9185a50745ae3bb319c1286fb235e61`.
+
+February now has fifteen readable/sample-reviewed articles, one partial/
+sample-reviewed article, two group headings and25 unresolved eligibility decisions.
+Next is `12-1984-02-batch-16`, final systems pages94–96 / PDF90–92, followed by
+complete nine-page assembly. Full-issue reconciliation and staged reader
+acceptance remain pending; existing cover/TOC integration is preserved.

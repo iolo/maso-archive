@@ -35,12 +35,14 @@ preserved, with source-linked notes for hidden controls and literal anomalies.
 Batch14 restored 파스칼 프로그래밍 마지막회, printed82–87. The source order
 changes: its title is PDF13 and its continuation is PDF79–83; PDF12–7 are ads.
 All six editor sections, file-format/P-machine discussion, nine independent
-examples and four illustrations are preserved. February has fifteen readable/
-sample-reviewed articles, no partial articles, two group headings and26 unresolved
-eligibility decisions. Next is **12-1984-02-batch-15**: verify 마이크로컴퓨터
-시스템 입문 and restore its first segment within six source pages. Only its
-PDF84/printed88 opening is verified; inspect its extent and boundary locally.
-Step 12 remains open.
+examples and four illustrations are preserved. Batch15 restored the first six
+pages of 마이크로컴퓨터 시스템 입문, printed88–93 / PDF84–89. Its complete
+extent is verified at printed88–96 / PDF84–92; 타임머신 starts97 / PDF93.
+The partial package preserves15 images,14 captions and an eight-row searchable
+controller table. February has fifteen readable/sample-reviewed articles, one
+partial/sample-reviewed article, two group headings and25 unresolved eligibility
+decisions. Next is **12-1984-02-batch-16**: restore the final three systems pages,
+printed94–96 / PDF90–92, then validate full coverage and assembly. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -442,11 +444,12 @@ issue in the staged reader before moving to remaining issues.
   the verified scan-order jump, all six editor sections, four illustrations and
   nine independent examples. The circled DEMO markers are editorial labels;
   retain deliberate inyeger and literal menu/technical wording without repair.
-- 마이크로컴퓨터 시스템 입문 begins at verified PDF84/printed88. The catalog
-  starts 타임머신 at97. Inspect candidate PDF85–93 and its boundary individually;
-  expect segmentation if the locally verified article exceeds six source pages.
-  Extract at most six source pages per checkpoint and preserve any continuation;
-  validate complete coverage and assembly before promoting a partial segment.
+- 마이크로컴퓨터 시스템 입문 is verified at printed88–96 / PDF84–92; the
+  first six pages are partial/sample-reviewed. Preserve its15 original images,
+  eight-row controller table, literal570S/CUP/8257 readings and source joins.
+  Restore final printed94–96 / PDF90–92 next; 타임머신 starts97 / PDF93.
+  Page93 ends 과 and94 begins 의 차이점을 보여주고 있다.; join without a
+  separator during assembly. Validate all nine pages before promoting the article.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
