@@ -6007,3 +6007,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   three group headings and14 unresolved eligibility decisions. Next:batch29,
   dBASEII database-package article from155/PDF151. Full issue reconciliation
   and reader integration remain pending; cover/TOC integration is unchanged.
+
+
+### 2026-10-02 — 12-1984-02-batch-29 started
+
+- Verify dBASEII database-package article from155/PDF151 and restore up to
+  six source pages. Preserve5,930 prior-file pins; previous checkpoint
+  d691d67 made progress. Validate JSON/assets and correction ranges without
+  per-batch browser work.
+
+
+### 2026-10-02 — 12-1984-02-batch-29 complete
+
+- Restored complete dBASEII introductory article, printed155–158/PDF151–154:
+  42 regions,27 reading blocks,seven original images and six captions. Four joins
+  connect eight column/page boundaries. Five searchable tables retain19 data
+  rows,six header rows and one dotted continuation row, with26 indexed ranges.
+- corrections.json provides35 regional ranges,41 text reviews and48 Unicode
+  spans. Preserve both table3/table4 supply discrepancies:60/40 for 한영희 and
+  40/60 for 허진호. Historical hardware/DBMS claims, Hierachical, record/field
+  limits and field-name examples remain literal. Superscripts and table separators
+  have explicit reading conventions; original images retain source typography.
+  Photo's rectangular crop necessarily includes some separately transcribed prose.
+- Classified entry0027 테크니컬 as a group heading without an article body:
+  PDF155 is a full-page divider, with no visible folio. Position159 is inferred
+  from surrounding printed158/160. Loader starts160/PDF156; its next page161
+  was a boundary lookup only. No loader text was added to this package.
+- All42 initial tasks completed without retries/failures:13.26s render/crop and
+  11.06s OCR execution. JSON/assets, page/region order, table/correction ranges,
+  raw OCR archive and all5,930 prior-file pins pass. The157-file article package
+  (25,723,830 bytes) rebuilds byte-identically; article.txt15,771 bytes.
+  Generic tooling/prior73-test log remain unchanged. No browser checks or
+  redundant full test-suite execution.
+- Wrapper159 files/25,752,809 bytes; manifest SHA-256
+  6cc684842472f52891e2b4a885d59fec9b2c0559e38b7b85daf8b93392fcd377. Elapsed584.1s
+  covers mapping, transcription/table review, validation and closeout, not CPU
+  time. Private recipes/evidence/validation and next plan are saved under
+  private/pdf-restoration/12-1984-02-batch-29.
+- Only entries0026–0027 change:27 readable/sample-reviewed articles, no partials,
+  four group headings and12 unresolved eligibility decisions. Next:batch30,
+  로더란 무엇인가 from160/PDF156. Full issue reconciliation and reader
+  integration remain pending; authoritative cover/TOC work is unchanged.

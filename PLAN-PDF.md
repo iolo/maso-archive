@@ -58,16 +58,18 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **twenty-six readable articles**, all sample-reviewed, no partial articles,
-three group headings and14 unresolved eligibility decisions. Batches25–26 restored
+has **twenty-seven readable articles**, all sample-reviewed, no partial articles,
+four group headings and12 unresolved eligibility decisions. Batches25–26 restored
 UNIX's seven pages, printed136–142/PDF132–138; both immutable segments are now
 assembled with the explicit 살/펴보기로 join and all correction ranges validated.
 Batch27 restored the complete six-page VisiCalc 활용 at printed143–148/PDF139–144,
 preserving seven original images and source-linked reviews of printed formula
 inconsistencies. Batch28 restored 우수한 프로그래머가 되는 첩경, printed149–154,
-including five diagrams and three independent BASIC examples. Next is
-**12-1984-02-batch-29**: verify and restore the dBASEII database-package article
-from155/PDF151 within the six-page ceiling. Step12 remains open.
+including five diagrams and three independent BASIC examples. Batch29 restored
+the dBASEII article at printed155–158, including five searchable tables, and
+classified the following 테크니컬 divider. Next is **12-1984-02-batch-30**:
+verify and restore 로더란 무엇인가 from160/PDF156 within the six-page ceiling.
+Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -567,6 +569,14 @@ issue in the staged reader before moving to remaining issues.
  44 text reviews,51 Unicode spans and13 listing reviews validate. Six joins
   connect seven boundaries; all prior pins and byte-identical rebuild pass.
   Next dBASEII article starts155/PDF151; no per-batch browser check is required.
+- The dBASEII introductory article spans printed155–158/PDF151–154. Its complete
+  package has42 regions,27 blocks,seven images and six captions. Five searchable
+  tables retain19 data rows and both printed supply-quantity discrepancies.26
+  table-row ranges,35 regional ranges,41 text reviews and48 Unicode spans pass
+  validation. Four joins connect eight boundaries. Historical claims, exponents
+  and field-name examples remain source readings. All prior pins and the
+  byte-identical rebuild pass. PDF155 is the 테크니컬 group divider without
+  visible folio; position159 is inferred, not printed. Loader begins160/PDF156.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
