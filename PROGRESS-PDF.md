@@ -6092,3 +6092,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   one partial; four group headings and11 unresolved eligibility decisions. Next:
   final loader page166/PDF162, then seven-page assembly. Full issue reconciliation
   and reader integration remain open; corrected TOC and cover work are intact.
+
+
+### 2026-10-02 — 12-1984-02-batch-31 started
+
+- Restore final loader page166/PDF162 from verified source; keep prior six-page
+  package unchanged. Preserve6,324 prior-file pins; previous635a92a made progress.
+  Review optional shape commands,remaining explanation,figure6 and six footnotes.
+  Package checks only; no browser work.
+
+### 2026-10-02 — 12-1984-02-batch-31 complete (assembly pending)
+
+- Restored final loader page166/PDF162:14 regions,12 reading blocks,original
+  figure6/caption and all six footnotes. Three optional shape commands retain
+  four physical rows and circled labels; command2's PEEK/(176) wrap is preserved.
+  These are independent source examples, not additional numbered main-code lines.
+- corrections.json has13 regional ranges,24 text reviews,27 Unicode spans,four
+  listing reviews and six footnote ranges. One column join removes the documented
+  discretionary hyphen in shape ta-/ble. Preserve carrage return,CNTL/CTRL,
+  command quotation marks,address claims,power-cycle advice and the difference
+  between prior interpreter reference6 and definition5. No execution or repair.
+- All14 initial OCR tasks completed without retries:render/crop3.15s and OCR3.41s.
+  Artifact/index checks,raw OCR archive,6,324 protected prior pins and byte-identical
+  rebuild pass. Article package64 files/4,949,065 bytes; article.txt4,267 bytes and
+  listing.txt154 bytes. Generic tooling and prior73-test log unchanged; no browser
+  checks or repeated full suite. Elapsed312.5s includes source review,validation
+  and inspection of assembly compatibility; it is wall time, not CPU time.
+- Wrapper66 files/4,962,588 bytes; manifest SHA-256
+  f92331157a834450c5f404b73cc4cd96df744e55548ea1667c0ab5a8de365584.
+  Recipes,evidence,validation,closeout and next plan are under
+  private/pdf-restoration/12-1984-02-batch-31. Both article segments are immutable.
+- Counts remain27 readable and one partial article,all28 sample-reviewed; four
+  group headings and11 unresolved eligibility decisions. All seven loader pages
+  are restored; assembly remains pending. Source inspection found the opt-in
+  wrapped projector rejects unnumbered rows mixed with numbered wraps. Next:
+  add narrowly scoped validated support,then assemble without new OCR. This is
+  required compatibility work,not a cost-audit optimization. Full issue closeout
+  and reader integration remain open; corrected TOC and cover work are intact.

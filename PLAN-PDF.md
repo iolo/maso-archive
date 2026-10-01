@@ -588,6 +588,11 @@ issue in the staged reader before moving to remaining issues.
   and footnotes; restore it next, then assemble all seven pages using the existing
   regional-listing-v1 projection. Preserve the printed interpreter6 reference
   despite its final-page definition5. No per-batch browser check is required.
+  Final166 is now restored in a second immutable package:14 regions,12 blocks,
+  figure6/caption,three optional commands in four physical rows and six footnotes.
+  It adds24 text reviews,27 Unicode spans and one shape ta-/ble column join.
+  Assembly requires validated unnumbered-row support alongside numbered wraps
+  in the opt-in listing projector; do not alter source packages to fit it.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
