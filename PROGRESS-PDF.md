@@ -4666,3 +4666,60 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and36 unresolved eligibility decisions. All source pages of the partial article
   are restored; assembly remains. Prior packages, authoritative TOC and cover/TOC
   integration are preserved. Complete-issue work remains active.
+
+### 2026-10-01 — 12-1984-02-microtext-assemble started
+
+- Both immutable segments are verified; add opt-in wrapped-listing assembly
+  support, test synthetic edge cases, and combine printed44–51 / PDF51–44.
+  No new source pages or OCR. Preserve338 numbered/606 physical rows, all62 text
+  review notes/46 listing anomalies, two DATA indexes and original correction files.
+- Prior checkpoint committed as `ab9c06f`;1,263 prior output-file pins saved.
+
+### 2026-10-01 — 12-1984-02-microtext-assemble complete
+
+- Assembled **마이크로텍스트**, printed44–51 / PDF51–44, as
+  **readable/sample-reviewed**. No new source pages, lookup pages or OCR tasks.
+  Both original segments and correction files remain byte-identical inside the
+  complete package; all1,263 prior output-file pins pass.
+- Added opt-in `wrapped-listing-v1` assembly. It validates physical rows against
+  source bytes and scans, derives and checks logical lines, projects partial
+  UTF-8 review ranges, and retains literal DATA indexes. Explicit listing groups
+  cover every code block; original segment completeness flags remain available.
+  Each input segment must start at a numbered row. The existing assembly modes
+  remain unchanged; previous library and FC-100 assemblies still validate.
+- Three new tests cover cross-panel wraps, duplicate printed numbers, partial
+  UTF-8 ranges, deterministic builds without OCR, and17 malformed-evidence cases.
+  Assembly tests:19 passed; full PDF regression:65 passed. Rehashed DATA tampering
+  is rejected by export validation.
+- The complete article contains32 regions,24 blocks, one photograph,31 regional
+  transcriptions and nine code panels. BASIC100–3470 preserves338 numbered lines
+  in606 physical rows, including the270/2750 page continuations. Four prose/table
+  joins retain seven source boundaries. The14,293-byte listing is the exact
+  concatenation of both original listings; article text is29,387 bytes.
+- Preserved62 text review notes,46 listing anomalies and the two DATA indexes
+  containing58 and ten literal values. Resolved five pending-coverage notes;
+  all transcription uncertainties remain explicit. No code repair, execution
+  verification or original-machine-byte certification is claimed.
+- The158-file article /72,809,386 bytes rebuilds byte-identically. All ranges,
+  physical/logical indexes, DATA values, source coordinates and archived files
+  validate. Desktop1440×1000/mobile390×844 checks pass for24 blocks,36 pinned
+  assets/downloads and62 review ranges. Nine wide panels scroll without page
+  overflow; the original2331×1761 photograph opens. Both actual downloads match.
+  Screenshots were inspected; no application errors, initial favicon404 only.
+  Browser checks finished and the test browser closed before the user's latest
+  report of touching Chrome; saved results remain valid.
+- Output `build/pdf-restoration/12-1984-02-microtext-assemble` contains161 files /
+  72,843,911 bytes including index/report/manifest. Manifest SHA-256:
+  `a2d9412f36af3d652e57541e3c6c1b48ff722d4516b3559131ee2535acb3c369`.
+  Recipe, tests, validation, ledger snapshots and next plan are in the matching
+  private directory. Browser evidence is under
+  `output/playwright/pdf-1984-02-microtext-assemble`.
+  Preview: `http://127.0.0.1:4247/`. Elapsed686.8s covers implementation, tests,
+  assembly, deterministic rebuild, browser acceptance and tool waits.
+- Only 마이크로텍스트's ledger entry changed. February now has **six readable/
+  sample-reviewed articles, no partial articles, one group heading and36 unresolved
+  eligibility decisions**. Authoritative TOC, prior packages and completed cover/
+  TOC integration remain intact. Next: **12-1984-02-batch-09**, verify 3차원 미로
+  and 드래곤 and restore within two articles/six pages. Only PDF43/printed52 is
+  already verified; later page locations and extents remain candidates. Complete
+  issue accounting and staged reader export remain in progress.

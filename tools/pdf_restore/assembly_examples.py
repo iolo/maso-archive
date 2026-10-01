@@ -61,6 +61,7 @@ def join_blocks(recipe, package, contexts):
 
 
 def project_examples(recipe, originals):
+    wrapped = recipe.get('index_mode') == 'wrapped-listing-v1'
     contexts, offset, normalized = [], 0, []
     for spec, (source, correction) in zip(recipe['segments'], originals, strict=True):
         if correction.get('glyph_definitions'):
@@ -82,8 +83,10 @@ def project_examples(recipe, originals):
               'listing_index', 'listing_line_index', 'listing_anomalies', 'listing_groups',
               'segment_continuations')
     corrections.update({key: [] for key in fields})
-    corrections.update(index_mode='standalone-examples-v1', regional_transcription={},
+    corrections.update(index_mode=recipe['index_mode'], regional_transcription={},
                        reading_replacements={}, resolved_continuations=resolved, identity_map=[])
+    if wrapped:
+        corrections.update(logical_listing_line_index=[], data_statements=[], source_listing_groups=[])
     for context, segment_record in zip(contexts, corrections['segments'], strict=True):
         original = context.correction
         segment_record['original_corrections'] = rebase(context.source['corrections'][0], context.prefix)
@@ -147,6 +150,11 @@ def project_examples(recipe, originals):
                 corrections[field].append(revised)
         corrections['segment_continuations'].extend(dict(source_segment=context.name, original=deepcopy(row))
                                                     for row in original.get('segment_continuations', []))
+
+        if wrapped:
+            from .assembly_wrapped import project_listing
+            project_listing(context, corrections, listing)
+            continue
 
         code = {b['id']: b for b in context.source['blocks'] if b['kind'] == 'code'}
         groups = original.get('listing_groups', [])

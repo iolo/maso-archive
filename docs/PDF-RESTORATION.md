@@ -2453,3 +2453,45 @@ physical wraps and assumes full-row listing anomalies. The next bounded checkpoi
 `12-1984-02-microtext-assemble`, adds opt-in support and synthetic tests before
 assembling and validating the complete article. February's article remains partial
 until that gate passes; issue totals are unchanged.
+
+### February 마이크로텍스트, complete assembly
+
+`12-1984-02-microtext-assemble` completes printed44–51 / PDF51–44 as
+**readable/sample-reviewed**. Both immutable segment packages are included.
+The assembled article preserves338 numbered lines in606 physical rows,62 text
+review notes,46 listing anomalies, seven prose/table boundaries and both DATA
+indexes. Its14,293-byte listing is the exact concatenation of the source listings.
+
+The opt-in recipe mode `wrapped-listing-v1` supports physical wraps across code
+panels within a segment and partial listing review ranges. It requires explicit
+`prose_joins` (use `[]` when none) and each segment to start at a numbered row.
+Physical/logical rows, scan identities, UTF-8 spans and literal DATA values are
+validated before projection. Original listing-group declarations remain in
+`source_listing_groups`; aggregate coverage counts included blocks and rows
+without certifying execution. DATA indexes remove physical newlines only for
+numeric indexing; the source download retains them. Existing assembly modes
+remain available unchanged.
+
+```sh
+# Rebuild into a fresh output directory; preserve the accepted package.
+make assemble-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/12-1984-02-microtext-assemble/assembly-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-microtext-rebuild/microtext
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-microtext-assemble/microtext
+python3 -m http.server 4247 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-microtext-assemble
+```
+
+All65 PDF tests pass. The158-file article rebuilds byte-identically, all1,263
+prior-file pins pass, and previous library/FC-100 assemblies still validate.
+Desktop/mobile checks pass for24 blocks,36 asset/download pins, all review ranges,
+code scrolling, original photograph access and both actual downloads. Saved
+browser evidence is under `output/playwright/pdf-1984-02-microtext-assemble`;
+the test browser is closed.
+
+February now has six readable/sample-reviewed articles, no partial articles,
+one group heading and36 unresolved eligibility decisions. Next is
+`12-1984-02-batch-09`: verify 3차원 미로 and 드래곤 within the two-article/six-page
+ceiling. Only PDF43/printed52 is already verified. Issue reconciliation and the
+complete staged reader export remain ahead.

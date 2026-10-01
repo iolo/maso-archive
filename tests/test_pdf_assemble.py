@@ -495,6 +495,168 @@ class PDFAssemblyTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'correction projection'):
             check_export(self.output)
 
+    def wrapped_segments(self, split_panel=False):
+        from collections import Counter
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.standalone_segments()
+        self.recipe['index_mode'] = 'wrapped-listing-v1'
+        for i, (source, c) in enumerate(segments):
+            block = source['blocks'][0]
+            block['text'] = '10 PRINT "한\n글"\n10 END\n' if i == 0 else '20 DATA 1\n28,2,-1\n30 END\n'
+            if split_panel and i == 0:
+                following = deepcopy(block)
+                block['text'], following['text'] = '10 PRINT "한\n', '글"\n10 END\n'
+                following['id'] = 'second-panel'
+                following['region_ids'] = ['second-region']
+                following['correction_evidence'] = ['corrections.json#second-region']
+                source['blocks'].append(following)
+                source['regions'].append(dict(source['regions'][0], id='second-region'))
+                source['region_assets'].append(dict(source['region_assets'][0], region_id='second-region'))
+                source['verification']['reviewed_region_ids'].append('second-region')
+                position = source['content_order'].index(dict(type='block', id=block['id']))
+                source['content_order'].insert(position + 1, dict(type='block', id=following['id']))
+                c['records'].append(dict(c['records'][0], id='second-region'))
+            c.update(blocks=deepcopy(source['blocks']), unresolved_graphics=[],
+                     listing_index=[], listing_line_index=[], logical_listing_line_index=[],
+                     listing_anomalies=[], data_statements=[], text_review_items=[])
+            scans = {r['region_id']: r['asset'] for r in source['region_assets']}
+            code = {b['id']: b for b in source['blocks'] if b['kind'] == 'code'}
+            order = [r['id'] for r in source['content_order'] if r['type'] == 'block' and r['id'] in code]
+            c['listing_groups'] = [dict(listing_id='program', block_ids=order, complete_listing=False,
+                                        execute_verified=False)]
+            cursor, counts, logical = 0, Counter(), None
+            for id in order:
+                b = code[id]
+                region = b['region_ids'][0]
+                start = cursor
+                for ordinal, text in enumerate(b['text'].splitlines(True), 1):
+                    end = cursor + len(text.encode())
+                    number = int(text.split()[0]) if text.split()[0] in ('10', '20', '30') else None
+                    part = dict(region_id=region, scan=scans[region], utf8_byte_start=cursor,
+                                utf8_byte_end_exclusive=end)
+                    if number is not None:
+                        counts[number] += 1
+                        logical = dict(listing_id='program', printed_line=number, occurrence=counts[number],
+                            line_id=f'program:{number}:{counts[number]}', download='listing.txt',
+                            utf8_byte_start=cursor, utf8_byte_end_exclusive=end, source_parts=[], segments=[])
+                        c['logical_listing_line_index'].append(logical)
+                    logical['utf8_byte_end_exclusive'] = end
+                    row = dict(**part, block_id=id, listing_id='program', line_id=f'{id}:{ordinal}',
+                        physical_line=ordinal, printed_line=number, printed_line_visible=number is not None,
+                        row_kind='numbered' if number is not None else 'wrapped-continuation',
+                        download='listing.txt', logical_line_id=logical['line_id'], segments=[deepcopy(part)])
+                    if number is None:
+                        row['continues_printed_line'] = logical['printed_line']
+                    logical['source_parts'].append(row['line_id'])
+                    logical['segments'].append(deepcopy(part))
+                    c['listing_line_index'].append(row)
+                    cursor = end
+                c['listing_index'].append(dict(block_id=id, region_ids=[region], scan=scans[region],
+                    download='listing.txt', utf8_byte_start=start, utf8_byte_end_exclusive=cursor))
+            article, listing = text_bytes(source)
+            ranges = block_ranges(source)
+            c['text_index'] = [dict(block_id=b['id'], region_ids=b['region_ids'],
+                scans=[scans[r] for r in b['region_ids']], download='article.txt',
+                utf8_byte_start=ranges[b['id']][0], utf8_byte_end_exclusive=ranges[b['id']][1])
+                for b in source['blocks']]
+            c['regional_transcription'] = {b['region_ids'][0]: b['text'] for b in source['blocks']}
+            excerpt = '한' if i == 0 else '28'
+            for download, data, destination in [('article.txt', article, c['text_review_items']),
+                                                ('listing.txt', listing, c['listing_anomalies'])]:
+                start = data.index(excerpt.encode())
+                destination.append(dict(block_id=block['id'], region_id=block['region_ids'][0],
+                    scan=scans[block['region_ids'][0]], download=download, transcription_excerpt=excerpt,
+                    utf8_byte_start=start, utf8_byte_end_exclusive=start+len(excerpt.encode())))
+            if i:
+                row = c['logical_listing_line_index'][0]
+                c['data_statements'] = [dict(printed_line=20, line_id=row['line_id'],
+                    literal_values=[128, 2, -1], value_count=3, physical_rows=2,
+                    scan=scans[block['region_ids'][0]], download='listing.txt',
+                    utf8_byte_start=row['utf8_byte_start'], utf8_byte_end_exclusive=row['utf8_byte_end_exclusive'],
+                    physical_newlines_removed_for_index_only=True, original_machine_bytes_verified=False,
+                    execution_verified=False)]
+        return segments
+
+    def test_wrapped_listing_preserves_panel_wraps_duplicates_and_partial_utf8_ranges(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.wrapped_segments(split_panel=True)
+        untouched = deepcopy(segments)
+        p, c = project(self.recipe, segments)
+        article, listing = text_bytes(p)
+        self.assertEqual(segments, untouched)
+        self.assertEqual(listing, b''.join(text_bytes(s)[1] for s, _ in segments))
+        self.assertEqual([r['line_id'] for r in c['logical_listing_line_index']],
+                         ['program:10:1', 'program:10:2', 'program:20:1', 'program:30:1'])
+        first = c['logical_listing_line_index'][0]
+        self.assertEqual([r['region_id'] for r in first['segments']], ['opening-code0', 'opening-second-region'])
+        self.assertEqual(len(c['listing_line_index']), 6)
+        self.assertEqual(len({r['line_id'] for r in c['listing_line_index']}), 6)
+        self.assertEqual(c['listing_groups'][0]['numbered_entries'], 4)
+        self.assertEqual(len(c['source_listing_groups']), 2)
+        self.assertEqual(c['data_statements'][0]['literal_values'], [128, 2, -1])
+        for field, data in [('text_review_items', article), ('listing_anomalies', listing)]:
+            for r in c[field]:
+                self.assertEqual(data[r['utf8_byte_start']:r['utf8_byte_end_exclusive']].decode(), r['transcription_excerpt'])
+                self.assertTrue(r['scan']['path'].startswith('segments/'))
+        self.assertEqual(c['segments'][1]['original_metadata']['logical_listing_line_index'],
+                         segments[1][1]['logical_listing_line_index'])
+
+    def test_wrapped_listing_rejects_tampered_physical_logical_review_and_data_evidence(self):
+        original = self.wrapped_segments()
+        for change in ('ordinal', 'number', 'orphan', 'logical-link', 'source-parts', 'logical-range',
+                       'scan', 'part-scan', 'group', 'duplicate-group', 'utf8', 'excerpt', 'data',
+                       'data-range', 'data-verified', 'duplicate-id', 'carried'):
+            segments = deepcopy(original)
+            c = segments[0][1]
+            row = c['listing_line_index'][1]
+            if change == 'ordinal': row['physical_line'] = 8
+            if change == 'number': row['printed_line'] = 10
+            if change == 'orphan': c['listing_line_index'][0]['row_kind'] = 'wrapped-continuation'
+            if change == 'logical-link': row['logical_line_id'] = 'program:10:2'
+            if change == 'source-parts': c['logical_listing_line_index'][0]['source_parts'].reverse()
+            if change == 'logical-range': c['logical_listing_line_index'][0]['utf8_byte_end_exclusive'] -= 1
+            if change == 'scan': row['scan']['sha256'] = '0'*64
+            if change == 'part-scan': row['segments'][0]['scan']['sha256'] = '0'*64
+            if change == 'group': c['listing_groups'][0]['block_ids'] = []
+            if change == 'duplicate-group': c['listing_groups'].append(deepcopy(c['listing_groups'][0]))
+            if change == 'utf8': c['listing_anomalies'][0]['utf8_byte_start'] += 1
+            if change == 'excerpt': c['listing_anomalies'][0]['transcription_excerpt'] = 'wrong'
+            if change == 'data': segments[1][1]['data_statements'][0]['literal_values'][0] = 1
+            if change == 'data-range': segments[1][1]['data_statements'][0]['utf8_byte_end_exclusive'] -= 1
+            if change == 'data-verified': segments[1][1]['data_statements'][0]['execution_verified'] = True
+            if change == 'duplicate-id': row['line_id'] = c['listing_line_index'][0]['line_id']
+            if change == 'carried': row['prior_segment'] = {}
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
+    def test_wrapped_export_rebuild_and_rehashed_data_tamper(self):
+        segments = self.wrapped_segments()
+        for spec, (source, correction) in zip(self.recipe['segments'], segments):
+            base = self.root/'private'/spec['name']
+            write_json(base/'corrections.json', correction)
+            recipe = json.loads((base/'recipe.json').read_bytes())
+            recipe['corrections'] = pin(base, 'corrections.json')
+            write_json(base/'recipe.json', recipe)
+            output = self.root/'build'/('wrapped-'+spec['name'])
+            build(base/'recipe.json', output, self.root)
+            spec['manifest'] = pin(self.root, output.relative_to(self.root).as_posix()+'/manifest.json')
+        with patch('tools.pdf_restore.ocr.page_ocr', side_effect=AssertionError('No OCR')):
+            self.run_assembly()
+        repeat = self.root/'build/repeat'
+        self.run_assembly(repeat)
+        files = lambda d: {p.relative_to(d).as_posix():p.read_bytes() for p in d.rglob('*') if p.is_file()}
+        self.assertEqual(files(self.output), files(repeat))
+        c = json.loads((self.output/'corrections.json').read_bytes())
+        c['data_statements'][0]['literal_values'][0] = 1
+        write_json(self.output/'corrections.json', c)
+        p = json.loads((self.output/'article.json').read_bytes())
+        p['corrections'] = [pin(self.output, 'corrections.json')]
+        write_json(self.output/'article.json', p)
+        self.rehash(self.output)
+        with self.assertRaisesRegex(ValueError, 'correction projection'):
+            check_export(self.output)
+
     def test_deterministic_assembly_preserves_segments_offsets_and_review(self):
         original = {name:{p.relative_to(self.root/'build'/name).as_posix():p.read_bytes()
                          for p in (self.root/'build'/name).rglob('*') if p.is_file()}

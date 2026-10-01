@@ -17,13 +17,13 @@ listing wraps. Batch06 restored 구슬게임, printed41–43, including its char
 definitions and duplicate printed line number. Batch07 restored 마이크로텍스트's
 first six pages, printed44–49 / PDF51–46, through BASIC2080. Its complete extent
 is verified at printed44–51. Batch08 restored the final two pages, printed50–51,
-through3470; both immutable segments now cover all eight pages.
-February has five readable/sample-reviewed articles, one partial/sample-reviewed
-article, one group heading and36 unresolved eligibility decisions. Next is
-**12-1984-02-microtext-assemble**: add bounded support for within-segment physical
-code wraps and partial listing review ranges, then assemble both preserved
-segments before promoting the article. Step 12's remaining-issue campaign is
-still open.
+through3470. The complete eight-page article is now assembled and validated,
+preserving both immutable segments, all correction records and physical wraps.
+February has six readable/sample-reviewed articles, no partial articles, one
+group heading and36 unresolved eligibility decisions. Next is
+**12-1984-02-batch-09**: verify 3차원 미로 and 드래곤, then restore their article
+bodies within the two-article/six-page ceiling. Only the former's opening at
+PDF43/printed52 is already verified. Step 12's remaining-issue campaign is open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -397,13 +397,14 @@ issue in the staged reader before moving to remaining issues.
   do not expand a processing batch into an open-ended pipeline redesign.
 - 마이크로텍스트 spans eight verified pages, exceeding one batch's ceiling.
   Preserve the first six-page segment and its seven prose/table joins, code270
-  page continuation, literal technical anomalies and correction indexes. Restore
-  the remaining two pages separately; validate assembly before calling the whole
-  article readable. The following PDF43/printed52 starts 3차원 미로. Both segments
-  are now restored. Assembly preflight confirms the existing namespaced mode
-  rejects internal wrapped physical rows; extend support in a separate bounded
-  checkpoint with synthetic tests, preserving338 logical/606 physical rows,
-  partial anomaly ranges, DATA indexes and all original metadata.
+  page continuation, literal technical anomalies and correction indexes. The
+  remaining two pages were restored separately. The complete article now passes
+  assembly and browser acceptance with opt-in `wrapped-listing-v1` support:
+  338 logical/606 physical rows, partial anomaly ranges, DATA indexes and all
+  original metadata are preserved. Synthetic tests cover wraps, source identities,
+  UTF-8 ranges and tampered indexes; existing assembly modes remain unchanged.
+  The following PDF43/printed52 starts 3차원 미로. Verify its remaining pages and
+  드래곤's boundaries locally before the next bounded extraction.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
