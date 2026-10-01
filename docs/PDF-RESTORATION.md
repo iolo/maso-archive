@@ -3085,3 +3085,17 @@ assets, provenance, correction indexes and reproducibility. It does not require
 Playwright or per-batch desktop/mobile preview checks. Reader acceptance remains
 at issue closeout and integration. Previously collected browser evidence stays
 as history and is not a requirement to close an otherwise valid package.
+
+
+## February UNIX opening segment
+
+Batch25 restores printed136–141/PDF132–137 of the verified seven-page UNIX
+article. The reviewed package is `build/pdf-restoration/12-1984-02-batch-25-reviewed/unix`;
+its initial export, map and OCR are preserved separately. Thirteen cartoons and
+diagrams remain original images with nine transcribed captions. All45 regional
+text ranges,36 review notes and44 reading-glyph ranges validate against article.txt.
+Five join records cover eight boundaries; the outgoing 살/펴보기로 continuation
+is explicit. Pattern examples remain explanatory prose, not an executable listing.
+One figure crop revision recovers the left edge of r48; no text-OCR retry was
+needed. Artifact checks and deterministic rebuild pass. Final page142 and complete
+assembly remain pending; no browser acceptance is required for this batch.

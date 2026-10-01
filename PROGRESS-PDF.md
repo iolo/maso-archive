@@ -5835,3 +5835,41 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Private recipes, snapshots, validation and source references are preserved in
   private/pdf-restoration/12-1984-02-accounting-assemble. Elapsed976.6s includes
   the intervening cost audit and browser-close wait, not just assembly work.
+
+
+### 2026-10-01 — 12-1984-02-batch-25 started
+
+- Verify UNIX from printed136/PDF132, then restore up to six pages. Preserve
+ 4,916 prior-file pins. Validate package/index artifacts; no per-batch browser
+ acceptance. Accounting assembly is committed as7691501.
+
+
+### 2026-10-01 — 12-1984-02-batch-25 complete
+
+- Verified UNIX's seven-page extent, printed136–142/PDF132–138, and following
+  VisiCalc143/PDF139. Restored first six pages:58 regions,37 reading blocks,
+  13 cartoons/diagrams and nine separate captions. Internal cartoon lettering
+  remains source imagery. Last 살 is explicitly linked to next page's 펴보기로
+  하자.; the final page has not been inserted into this partial package.
+- Five join records connect eight column/page boundaries. corrections.json
+  provides45 regional ranges,36 review notes and44 Unicode glyph spans. Keep
+  historical terminology/claims, BREAK Continue without inferred comma, go to,
+  variable/module wording, ex/INed, MAKE/SCCS and DC/BC descriptions. Pattern
+  symbols ␣ and ∧, asterisk and range-hyphen rendering are explicit reading
+  conventions, not executable code or original-byte certification.
+- All58 initial tasks completed. One r48 figure crop was widened once after
+  image review;57 unchanged tasks reused cache.59 processing attempts, zero
+  failures and zero text-OCR retries. Initial maps/evidence/package are retained;
+  reviewed output is build/pdf-restoration/12-1984-02-batch-25-reviewed.
+- JSON/assets, all correction ranges, raw OCR archive, outgoing continuation,
+  original/revised maps and all4,916 prior pins pass. The203-file article package
+  (30,288,825 bytes) rebuilds byte-identically; article.txt is22,048 bytes.
+  Generic tools and their successful73-test log are unchanged. No browser check
+  or redundant full test-suite rerun was performed.
+- Wrapper205 files/30,328,030 bytes; manifest SHA-256
+  b1555e661188a1447b38d3af8837bade53f9106d2cc7ba3dccf63bde66f9d745. Elapsed798.1s includes mapping,
+  transcription/review, the image retry and package validation/closeout.
+- Only entry0023 changes:24 classified articles (23 readable, one partial),
+  all sample-reviewed; three group headings and16 unresolved eligibility
+  decisions remain. Next: batch26, final UNIX page142/PDF138 and assembly plan.
+  Existing covers/TOCs and reader staging remain unchanged.

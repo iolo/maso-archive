@@ -58,10 +58,11 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **twenty-three readable articles**, all sample-reviewed, no partial articles,
-three group headings and17 unresolved eligibility decisions. Next is
-**12-1984-02-batch-25**: verify UNIX's complete extent from printed136/PDF132
-and restore up to six pages. Step12 remains open.
+has **twenty-three readable articles and one partial article**, all sample-reviewed,
+three group headings and16 unresolved eligibility decisions. Batch25 restored
+UNIX's first six pages, printed136–141/PDF132–137; the full seven-page extent is
+verified. Next is **12-1984-02-batch-26**: restore final142/PDF138, retaining the
+split word 살/펴보기로, then assemble the complete article. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -532,6 +533,15 @@ issue in the staged reader before moving to remaining issues.
   indexes and listing rows/reviews through opt-in regional-listing-v1. Both source
   packages and previous mode behavior are preserved. All73 PDF tests, complete
   range validation and byte-identical rebuild pass; no new OCR or boundary join.
+- UNIX spans printed136–142/PDF132–138; VisiCalc begins143/PDF139. The opening
+  six-page segment has58 regions,37 reading blocks,13 original cartoons/diagrams
+  and nine captions. Five join records connect eight boundaries;45 regional
+  ranges,36 review notes and44 Unicode glyph spans are source-linked. Preserve
+  historical 메인 머신, 쉘, 변수/module wording, ex/INed, MAKE/SCCS, DC/BC and
+  pattern examples without modern correction. The last 살 continues as
+  펴보기로 하자. on the final page. One r48 figure crop was widened once;
+  original maps/OCR/export remain intact. Per-batch package checks pass without
+  Playwright; final page and complete assembly remain pending.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
