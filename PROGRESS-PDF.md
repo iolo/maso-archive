@@ -5556,3 +5556,57 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: **12-1984-02-news-assemble**, combine all24 news items across eight pages
   with preserved source associations and corrections, without new OCR. Whole-issue
   restoration, reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-news-assemble started
+
+- Previous checkpoint committed as `012011e`. Pinned both news segments, issue
+  ledger and prior outputs. Assemble all eight verified pages without new OCR,
+  preserving24 news-item identities, associations and correction ranges.
+
+
+### 2026-10-01 — 12-1984-02-news-assemble complete
+
+- Assembled all eight verified 정보 레이다 pages, printed111–118 / PDF107–114,
+  from the immutable domestic and overseas packages. No new source pages or OCR.
+  All 3,590 prior files pass their pins, including prior restoration outputs and
+  completed cover/TOC integration. The older systems assembly still validates.
+- Added opt-in projection of news metadata in `regional-prose-v1`. All24 stories
+  retain independent source IDs, local/global ordinals, subsection, heading,
+  block/image ownership, pages and original/global UTF-8 ranges. Five shared
+  header regions remain separate; the excluded advertisement stays excluded.
+  Older packages without news metadata produce unchanged correction structures.
+- Three synthetic tests cover projection, source identity collisions, unchanged
+  original metadata, malformed ownership/pages/ranges/scans and unsupported
+  cross-segment story joins. All25 assembly tests and all71 PDF tests pass.
+  Rehashing an altered news range still fails independent correction reprojection.
+- The71 regions produce53 reading blocks and nine original images. The combined
+  corrections preserve66 review notes,62 regional ranges,143 Unicode spans,
+  nine internal prose joins and one provisional 휩웨어 reading. No new prose
+  join is needed. Six obsolete scope notes are explicitly resolved; the original
+  partial-state packages and correction metadata remain byte-identical.
+- Historical2배(8MHz/5MHz),78%/73%, DRAM/DPAM,1983 prospective date,1300MFLOPS,
+  prices and spellings remain literal. Final proofreading and historical claims
+  remain outside certification. The287-file article package (69,260,408 bytes)
+  rebuilds byte-identically; article.txt is30,446 bytes.
+- Desktop1440×1000/mobile390×844 checks verify53 blocks,74 pins, all24 news
+  indexes,66 review ranges and205 regional/Unicode spans. All nine images load;
+  the original diagram opens at1201×523 and the actual download matches.
+  Three screenshots inspected. A long generated review phrase caused2px mobile
+  overflow; adding spaces in that authored note fixed it without changing the
+  article text or source segments. Initial export/recipe/screenshots are preserved.
+  Rechecks compare scrollWidth with clientWidth and bypass stale browser cache.
+  Browser interruptions left artifacts intact.
+  See private browser-review.json for viewport measurements and review notes.
+  Preview: `http://127.0.0.1:4262/`.
+- Output `build/pdf-restoration/12-1984-02-news-assemble` has290 files /
+  69,320,695 bytes. Manifest SHA-256:
+  `05b41d2f05b39e15fcf0fed1122ff0e460d82bdaaa0f325e7bc1c2b309dd4496`.
+  Recipes, validation, original-tool backups, tests, ledger snapshots and next
+  plan are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-news-assemble`. Elapsed6905.4s
+  includes implementation, validation, context handoff and browser interruptions.
+- Only entry0041 was promoted. February has **twenty-one readable/sample-reviewed
+  articles, no partial articles, three group headings and19 unresolved eligibility
+  decisions**. Next: **12-1984-02-batch-22**, verify and restore 삼성SPC-500 from
+  PDF118/printed122, establishing its full end before extraction. Whole-issue
+  restoration, reconciliation and staged reader acceptance remain open.

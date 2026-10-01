@@ -155,6 +155,8 @@ def project_examples(recipe, originals):
         if regional:
             from .assembly_regional import project_regional
             project_regional(context, corrections, text_range)
+            from .assembly_news import project_news
+            project_news(context, corrections, text_range, positions)
         for id, text in original.get('regional_transcription', {}).items():
             corrections['regional_transcription'][context.identity(id, context.regions)] = deepcopy(text)
         for id, replacements in original.get('reading_replacements', {}).items():

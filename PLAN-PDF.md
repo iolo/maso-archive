@@ -42,10 +42,14 @@ The first package preserves15 images,14 captions and an eight-row searchable
 controller table. Batch16 restored final printed94–96 / PDF90–92, including
 figures15–20, three references and ten overlined signal-name occurrences.
 The complete nine-page article is now assembled and validated, preserving both
-immutable segments and projecting every regional correction index. February has
-sixteen readable/sample-reviewed articles, no partial articles, two group headings
-and25 unresolved eligibility decisions. Next is **12-1984-02-batch-17**: verify
-and restore 타임머신 from PDF93/printed97, including its end and next-article
+immutable segments and projecting every regional correction index. Batches17–19
+restored 타임머신, 매개변수로 표현된 함수의 그래프, Q&A and 디버깅 룸.
+Batches20–21 restored both 정보 레이다 subsections; the complete eight-page
+article is now assembled and validated, preserving24 news-item identities,
+image associations and all correction ranges. February has twenty-one readable/
+sample-reviewed articles, no partial articles, three group headings and19
+unresolved eligibility decisions. Next is **12-1984-02-batch-22**: verify and
+restore 삼성SPC-500 from PDF118/printed122, including its full end and next
 boundary. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -480,10 +484,13 @@ issue in the staged reader before moving to remaining issues.
   The overseas subsection is restored at printed117–118 / PDF113–114: nine
   news items, three prose joins and26 review notes, retaining78%/73%, DRAM/DPAM,
   the prospective1983 date and1300MFLOPS. The complete eight-page extent is
-  verified. Assemble both segments, preserving all24 news identities and image
-  associations,62 regional ranges,66 review notes and143 Unicode spans; promote
-  readability only after full assembly checks. The page118 advertisement and
-  following PDF115–116 notices are excluded. PDF117 is the 비즈니스 divider
+  verified and both immutable segments are now assembled as readable/sample-reviewed.
+  Validated news-index projection preserves all24 news identities, subsection
+  membership, image associations,62 regional ranges,66 review notes and143
+  Unicode spans. Independent stories and header regions partition the source;
+  no new sentence join is needed. All71 PDF tests and deterministic rebuild pass.
+  The page118 advertisement and following PDF115–116 notices are excluded.
+  PDF117 is the 비즈니스 divider
   (no visible folio); 삼성SPC-500 opens at printed122/PDF118. These 정보모음
   entries occur physically before business; keep authoritative TOC order.
 - Reconcile each issue, produce its standalone reference/report, and validate

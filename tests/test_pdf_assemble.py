@@ -786,6 +786,135 @@ class PDFAssemblyTests(unittest.TestCase):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 project(self.recipe, current)
 
+    def news_segments(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.regional_segments()
+        self.recipe['prose_joins'] = []
+        for i, (source, c) in enumerate(segments):
+            heading = 'block'+str(i)
+            for block in source['blocks']:
+                if block['id'] == heading:
+                    block.update(kind='section-label', text='기사 제목'+str(i))
+            for region in source['regions']:
+                region['bbox'] = [0, 0, .8, .8]
+                if region['id'] == 'code'+str(i):
+                    region['kind'] = 'section-label'
+            source['excluded_regions'] = [dict(id='ad', kind='advertisement', pdf_index=i,
+                                               bbox=[.9, .9, 1, 1], notes='Excluded advertisement')]
+            source['content_order'] = [dict(type='block', id='prose'), dict(type='block', id=heading),
+                                       dict(type='figure', id='figure'+str(i))]
+            if i == 0:
+                source['content_order'].append(dict(type='block', id='caption'))
+            for key in ('unicode_glyphs', 'signal_notation_index', 'controller_table_index', 'reference_index'):
+                c[key] = []
+            c['text_index'], c['regional_text_index'], c['text_review_items'] = [], [], []
+            c['regional_transcription'] = {}
+            ranges = block_ranges(source)
+            assets = {r['region_id']: r['asset'] for r in source['region_assets']}
+            for block in source['blocks']:
+                start, end = ranges[block['id']]
+                row = dict(block_id=block['id'], region_ids=block['region_ids'], download='article.txt',
+                           scans=[assets[id] for id in block['region_ids']],
+                           utf8_byte_start=start, utf8_byte_end_exclusive=end)
+                c['text_index'].append(row)
+                id = block['region_ids'][0]
+                local = dict(block_id=block['id'], region_id=id, scan=assets[id], download='article.txt',
+                             utf8_byte_start=start, utf8_byte_end_exclusive=end)
+                c['regional_text_index'].append(local)
+                c['text_review_items'].append(dict(local, transcription_excerpt=block['text']))
+                c['regional_transcription'][id] = block['text']
+            c['blocks'] = deepcopy(source['blocks'])
+            c['section_header_region_ids'] = ['prose']
+            ids = [r['id'] for r in source['content_order'] if r['type'] == 'block' and r['id'] != 'prose']
+            c['news_item_index'] = [dict(id='same-story-id', ordinal=1, subsection='부분'+str(i),
+                heading_block_id=heading, block_ids=ids, figure_ids=['figure'+str(i)],
+                region_ids=[r['id'] for r in source['regions'] if r['id'] != 'prose'],
+                pdf_pages=[i+1], printed_pages=[i+7],
+                ranges=[deepcopy(next(r for r in c['text_index'] if r['block_id'] == id)) for id in ids],
+                complete_printed_news_item=True, historically_verified=False)]
+        return segments
+
+    def test_news_items_project_independent_identities_images_headers_and_utf8_ranges(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import span
+        segments = self.news_segments()
+        before = deepcopy(segments)
+        package, c = project(self.recipe, segments)
+        self.assertEqual(segments, before)
+        self.assertEqual([r['id'] for r in c['news_item_index']],
+                         ['opening-same-story-id', 'continuation-same-story-id'])
+        self.assertEqual([r['ordinal'] for r in c['news_item_index']], [1, 2])
+        self.assertEqual([r['source_ordinal'] for r in c['news_item_index']], [1, 1])
+        self.assertEqual(c['section_header_region_ids'], ['opening-prose', 'continuation-prose'])
+        self.assertEqual([r['id'] for r in package['excluded_regions']], ['opening-ad', 'continuation-ad'])
+        article, _ = text_bytes(package)
+        for i, row in enumerate(c['news_item_index']):
+            name = self.recipe['segments'][i]['name']
+            self.assertEqual(row['heading_block_id'], name+'-block'+str(i))
+            self.assertEqual(row['figure_ids'], [name+'-figure'+str(i)])
+            self.assertEqual(row['pdf_pages'], [i+1])
+            self.assertEqual(row['printed_pages'], [i+7])
+            self.assertEqual(c['segments'][i]['original_metadata']['news_item_index'],
+                             segments[i][1]['news_item_index'])
+            local, _ = text_bytes(segments[i][0])
+            for r in row['ranges']:
+                self.assertEqual(span(r, article), span(r['source_range'], local))
+                self.assertTrue(all(s['path'].startswith('segments/'+name+'/') for s in r['scans']))
+        self.assertEqual(project(self.recipe, segments), (package, c))
+
+    def test_news_items_reject_wrong_ownership_ranges_pages_and_source_claims(self):
+        segments = self.news_segments()
+        for change in ('missing-header', 'header-overlap', 'excluded-header', 'missing-item', 'duplicate-item',
+                       'ordinal', 'heading', 'figure', 'region', 'duplicate-region', 'pdf-page', 'folio',
+                       'range', 'utf8', 'scan', 'range-regions', 'order', 'verified', 'incomplete', 'subsection'):
+            current = deepcopy(segments)
+            source, c = current[0]
+            row = c['news_item_index'][0]
+            if change == 'missing-header': del c['section_header_region_ids']
+            if change == 'header-overlap': c['section_header_region_ids'].append('code0')
+            if change == 'excluded-header': c['section_header_region_ids'].append('ad')
+            if change == 'missing-item': c['news_item_index'] = []
+            if change == 'duplicate-item': c['news_item_index'].append(deepcopy(row))
+            if change == 'ordinal': row['ordinal'] = 2
+            if change == 'heading': row['heading_block_id'] = 'prose'
+            if change == 'figure': row['figure_ids'] = []
+            if change == 'region': row['region_ids'].remove('figure0')
+            if change == 'duplicate-region': row['region_ids'].append('code0')
+            if change == 'pdf-page': row['pdf_pages'] = [2]
+            if change == 'folio': row['printed_pages'] = [8]
+            if change == 'range': row['ranges'].pop()
+            if change == 'utf8': row['ranges'][0]['utf8_byte_start'] += 1
+            if change == 'scan': row['ranges'][0]['scans'][0]['sha256'] = '0'*64
+            if change == 'range-regions': row['ranges'][0]['region_ids'] = ['prose']
+            if change == 'order': row['block_ids'].reverse()
+            if change == 'verified': row['historically_verified'] = True
+            if change == 'incomplete': row['complete_printed_news_item'] = False
+            if change == 'subsection': row['subsection'] = ''
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, current)
+
+    def test_news_projection_keeps_older_exports_unchanged_and_rejects_cross_item_join(self):
+        segments = self.regional_segments()
+        _, c = project(self.recipe, segments)
+        self.assertNotIn('news_item_index', c)
+        self.assertNotIn('section_header_region_ids', c)
+        news = self.news_segments()
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        source, original = news[0]
+        source['content_order'].append(source['content_order'].pop(0))
+        ranges = block_ranges(source)
+        for key in ('text_index', 'regional_text_index', 'text_review_items'):
+            for row in original[key]:
+                row['utf8_byte_start'], row['utf8_byte_end_exclusive'] = ranges[row['block_id']]
+        item = original['news_item_index'][0]
+        item['ranges'] = [deepcopy(next(r for r in original['text_index'] if r['block_id'] == id))
+                          for id in item['block_ids']]
+        self.recipe['prose_joins'] = [dict(left=dict(segment='opening', block_id='prose', ending='과'),
+            right=dict(segment='continuation', block_id='prose', opening='의'), separator='',
+            intervening=[])]
+        with self.assertRaisesRegex(ValueError, 'News items cannot use cross-segment prose joins'):
+            project(self.recipe, news)
+
     def test_deterministic_assembly_preserves_segments_offsets_and_review(self):
         original = {name:{p.relative_to(self.root/'build'/name).as_posix():p.read_bytes()
                          for p in (self.root/'build'/name).rglob('*') if p.is_file()}

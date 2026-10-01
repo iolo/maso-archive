@@ -2929,3 +2929,46 @@ two group headings and25 unresolved eligibility decisions. Next is
 five-page extent and next graph article boundary require local verification.
 Full-issue restoration and staged reader acceptance remain pending; prior
 cover/TOC integration is preserved.
+
+
+## February news assembly and independent story indexes
+
+`12-1984-02-news-assemble` combines the two immutable 정보 레이다 segments into
+all eight printed pages111–118 / PDF107–114. It preserves15 domestic and nine
+overseas stories,53 reading blocks and nine original images without new OCR.
+No cross-segment prose join is needed.66 review notes,62 regional ranges and143
+Unicode spans point into the complete article download; nine original local
+prose joins and the provisional 휩웨어 reading remain explicit.
+
+In `regional-prose-v1`, source corrections declaring `news_item_index` or
+`section_header_region_ids` opt into validated news projection. Story records
+must own distinct included regions through their blocks/figures; stories and
+shared headers must cover all included regions exactly. Headings, reading order,
+page sets, complete-block ranges and scan pins must agree with the source.
+Stories retain `complete_printed_news_item: true` and `historically_verified:
+false`: transcription does not certify historical claims. Excluded advertising
+cannot become a story or header. Cross-segment joins involving news sources are
+rejected until an explicit continued-story model exists.
+
+Projected stories have namespaced IDs, consecutive global ordinals,
+`source_id`, `source_segment` and `source_ordinal`. Nested ranges retain global
+UTF-8 offsets and `source_range`; scan paths are rebased into the immutable
+segment copies. Complete original indexes remain in segment metadata and files.
+Older sources without news metadata are unchanged. Three new synthetic tests
+bring the assembly suite to25 and the full PDF suite to71 passing tests. The
+complete package rebuilds byte-identically and rejects rehashed range tampering.
+
+```sh
+PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble \
+  --recipe private/pdf-restoration/12-1984-02-news-assemble/assembly-recipe.json \
+  --output build/pdf-restoration/12-1984-02-news-rebuild
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-news-assemble/news
+```
+
+The actual article download is30,446 bytes. Desktop/mobile checks preserve story
+order, all source links and original image access. Private browser-review.json
+records viewport measurements; screenshots/downloads are under
+`output/playwright/pdf-1984-02-news-assemble`. Final character proofreading and
+historical factual review remain deferred. Next is 삼성SPC-500 from verified
+PDF118/printed122, with full extent to establish in batch22. Reader staging waits
+for February issue closeout; completed cover and TOC integration remains intact.
