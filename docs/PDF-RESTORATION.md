@@ -2898,6 +2898,15 @@ and punctuation are rejected. These are reading forms, not certified source byte
 Projected rows contain global offsets, original offsets and segment identities;
 complete original correction files and metadata remain under `segments/`.
 
+Regional modes also project explicit graphic markers such as `⟦TI$-HOME-1⟧`.
+The marker must be the entire indexed excerpt, have
+`status: manual-correction-required`, and match an `unresolved_text` record's
+block, region, scan, download, marker and byte range. Supplied character bytes
+or claims of verified encoding are rejected. Markers retain their original
+spelling; `source_segment` and projected ranges distinguish repeated marker
+names across packages. Existing rendered-glyph notes keep their original
+validation rules, and all original correction metadata remains unchanged.
+
 The assembled correction file preserves40 text review notes,72 regional ranges,
 eight controller rows,29 Unicode spans,10 signal entries and three references.
 All122 specialized spans and51 source block ranges match the original download

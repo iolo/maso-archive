@@ -5,6 +5,7 @@ explicit adjacent prose blocks and preserves source coordinates beside projected
 UTF-8 ranges. It does not infer executable programs or original glyph bytes.
 """
 from copy import deepcopy
+import re
 
 from .assemble import project_legacy, rebase, text_bytes
 from .assembly_indexes import END, START, Segment, block_ranges, namespace, span
@@ -147,7 +148,20 @@ def project_examples(recipe, originals):
         corrections['source_text_index'].extend(text_range(row, whole=True) for row in rows)
         for field in ('text_review_items', 'unresolved_text', 'unresolved_graphics'):
             for row in original.get(field, []):
-                if field == 'unresolved_graphics' and (not row.get('rendered_glyph') or
+                if field == 'unresolved_graphics' and regional and 'marker' in row:
+                    marker = row['marker']
+                    identity = ('block_id', 'region_id', 'scan', 'download', START, END,
+                                'marker', 'transcription_excerpt')
+                    if (not isinstance(marker, str) or not re.fullmatch(r'⟦[^⟦⟧\r\n]+⟧', marker) or
+                            row.get('transcription_excerpt') != marker or
+                            row.get('status') != 'manual-correction-required' or
+                            any(row.get(key) is not None for key in ('original_bytes', 'encoded_bytes')) or
+                            any(key in row and row[key] is not False for key in
+                                ('machine_byte_verified', 'source_encoding_verified')) or
+                            not any(all(note.get(key) == row.get(key) for key in identity)
+                                    for note in original.get('unresolved_text', []))):
+                        raise ValueError('Graphic marker requires matching unresolved source text and unverified bytes')
+                elif field == 'unresolved_graphics' and (not row.get('rendered_glyph') or
                         row['rendered_glyph'] not in row.get('transcription_excerpt', '') or
                         row.get('machine_byte_verified') is not False):
                     raise ValueError('Text glyph note requires an unverified rendered glyph')

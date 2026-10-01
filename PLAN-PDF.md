@@ -58,7 +58,7 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **36 readable articles and one partial article**, all sample-reviewed,
+has **37 readable articles and no partial articles**, all sample-reviewed,
 four classified group headings and two unresolved entries. Batches25–29 restored
 UNIX, VisiCalc 활용, 우수한 프로그래머가 되는 첩경 and dBASEII, and classified
 테크니컬. Batches30–38 and their assemblies completed 로더란 무엇인가,
@@ -85,9 +85,12 @@ four immutable segments;two TI$ HOME symbols remain source-linked markers.
 Batch46 restored final237–239/PDF233–235,including six final commands,
 five ASCII tables in six original panels and166 searchable data rows. All27
 pages now have verified continuity;64 final table-glyph markers remain explicit.
-Next is **12-1984-02-dictionary-assemble**: combine the five immutable segments,
-join DEFDBL across the first boundary and preserve all correction records.
-Two section classifications and full issue reconciliation/closeout also remain.
+The complete27-page dictionary is now assembled and validated:245 reading
+blocks,14 original images,276 global regional ranges and73 uncertainty markers.
+All five source packages remain byte-identical;DEFDBL's first boundary is joined.
+Next is **12-1984-02-classify-headings**: resolve 공모입선작 and 정보모음,
+then perform full issue reconciliation,standalone reference/report and reader
+integration/acceptance. Article restoration is complete;issue closeout remains.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -765,6 +768,20 @@ issue in the staged reader before moving to remaining issues.
   advertisement excluded;following240 advertising confirms the ending. All27
   pages now verified;fresh rebuild matches,no OCR retries. Next assemble five
   immutable segments with one DEFDBL join and all local correction indexes.
+- The complete27-page dictionary is assembled from five immutable segments.
+  290 regions yield245 blocks,14 images and five captions.276 regional ranges,
+  207 review notes,236 Unicode spans and73 uncertainty markers are projected
+  into article.txt;69 markers are graphic and four are blank-width text notes.
+  Thirty original joins remain and DEFDBL 한/다. is joined once.203 definitions
+  retain204 original fragments;257 labels,219 table/header rows,55 examples,
+  14 formulas and all cell/key/POKE/guide indexes remain explicitly local in
+  original corrections/metadata. Both source and combined ranges validate.
+  Regional assembly now accepts explicit graphic markers with matching unresolved
+  text evidence and rejects inferred bytes;existing glyph checks remain strict.
+  All79 PDF tests and a fresh byte-identical rebuild pass;9,973 prior files and
+  all five embedded packages are unchanged. No new OCR or browser work. All37
+  articles are readable/sample-reviewed;two group-heading decisions and issue
+  reconciliation,standalone reference/report and reader acceptance remain.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

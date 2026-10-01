@@ -7046,3 +7046,72 @@ history remains in [PROGRESS.md](PROGRESS.md).
   table/header rows,55 independent examples and14 formula ranges locally.
   Two heading classifications and full issue closeout remain. Corrected TOC
   and completed cover/TOC integrations stay unchanged.
+
+### 2026-10-02 — 12-1984-02-dictionary-assemble started
+
+- Assemble all27 dictionary pages from five immutable segments;preserve9,973
+  prior-file pins. DEFDBL 한/다. is the only new join. Assembly inspection
+  found explicit graphic markers need validation alongside existing rendered
+  glyph notes. A narrow regional-mode compatibility path now checks matching
+  unresolved source ranges and rejects inferred bytes;79 PDF tests pass.
+  No source packages changed,new OCR or browser work. Checkpoint wall clock
+  starts after that preliminary inspection/patch/test work.
+
+### 2026-10-02 — 12-1984-02-dictionary-assemble complete
+
+- Assembled all27 dictionary pages213–239/PDF209–235 from five immutable
+  packages.290 regions produce245 blocks,14 original images and five captions.
+  DEFDBL joins first-segment ending 한 with second-segment opening 다. without
+  inserted space. Thirty source-local joins and all original content ordering
+  remain.19 superseded scope/assembly notes are resolved;source uncertainty
+  and technical/byte-certification limits remain explicit.
+- 276 regional ranges,207 review notes,236 Unicode spans,73 unresolved-text
+  markers and69 graphic-marker ranges project into complete article.txt.
+  Four blank-width markers remain text-only. Original segment and local byte
+  coordinates accompany each global range. Repeated ⟦기호1⟧ labels in parts1/2
+  remain distinct by source segment and position. Source scans retain their pins.
+- All204 dictionary fragments map to203 definitions after DEFDBL join. Local
+  indexes retain257 machine labels,219 table/header rows,618 nonblank cells,
+  two blank cells,55 independent examples,14 formulas,19 command-guide rows,
+  three parameter rows,25 POKE ranges,13 key notations,two repetition rows
+  and six figure/caption links. These remain explicitly segment-local in each
+  original corrections.json and original_metadata,with global regional access;
+  no unsupported global special-index coordinates are claimed.
+- Preserved literal duplicate code values,printed command/formula anomalies,
+  all source bitmap/control markers and excluded239 laser-book advertisement.
+  Following240 advertising confirms ending. Full proofreading,manual glyph
+  correction,original character-byte certification and technical execution
+  remain outside restoration claims. No new OCR,crops or reader/browser staging.
+- Assembly inspection identified a compatibility gap before attempting export:
+  existing rendered-glyph validation did not accept explicit source-local markers.
+  Added a narrow regional-mode path requiring a complete marker excerpt,manual
+  correction status and matching unresolved source text/block/region/scan/range.
+  Supplied bytes or encoding-certainty claims are rejected;existing rendered
+  glyph rules remain strict. Original packages were not edited to fit the checker.
+- Two new synthetic tests verify marker projection across a joined Korean UTF-8
+  boundary,source immutability and deterministic results;11 invalid cases cover
+  changed/malformed markers,status,byte claims,missing text,range,scan and region.
+  All79 PDF tests pass (test-log runtime1.967s). No test/authoring failures.
+  Test log and updated tooling hashes are pinned for subsequent checkpoints.
+- Validation passed:9,973 prior-file pins,all five embedded packages byte for
+  byte,all projected and local correction spans,DEFDBL identity mapping,all
+  image assets,ZIP members,caption/exclusion records and a fresh byte-identical
+  rebuild. Generic checker change is a correctness fix,not cost optimization.
+- Output `build/pdf-restoration/12-1984-02-dictionary-assemble`:1,180 files,
+  234,091,228 bytes;article.txt113,988 bytes. Article manifest SHA-256:
+  `9d56149010da602d2e5a3338f1f0e66dd8a53fa293a7316fa6a5c5f7af42c53d`.
+  Wrapper manifest SHA-256:
+  `627b0950687d8aeabb2d0f27411ab618e703a81b96c4924a0de8c9f5b3a2a395`.
+  Recipe,validation,test log,ledger snapshots and next classification plan
+  remain in the matching private directory.
+- Measured checkpoint wall interval218.4s starts at plan creation and includes
+  recipe,assembly,validation,rebuild and ledger closeout. It excludes preceding
+  compatibility inspection,patch and test execution;it is not total-turn or
+  active CPU time. New OCR task cost is zero;stage token usage unmeasured.
+- February now has37 readable/sample-reviewed articles,no partial/image-only/
+  failed/unresolved article outcomes,four classified group headings and two
+  unresolved heading decisions among43 TOC entries. Only0036 was promoted;
+  all other entries and original segment metadata remain unchanged. Next resolve
+  공모입선작0033 and 정보모음0037,then full issue reconciliation,standalone
+  reference/report and staged reader integration/acceptance. Corrected TOC and
+  completed cover/TOC integrations are preserved. The issue goal remains open.

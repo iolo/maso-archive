@@ -893,6 +893,61 @@ class PDFAssemblyTests(unittest.TestCase):
         self.assertEqual(span(row['source_range'], text_bytes(segments[1][0])[0]), 'F̅8̅')
         self.assertEqual(before, segments)
 
+    def marker_segments(self):
+        marker = '⟦TI$-HOME-1⟧'
+        segments = self.regional_segments(overlined=marker)
+        c = segments[1][1]
+        row = deepcopy(c['unicode_glyphs'][0])
+        row.pop('glyph')
+        row.pop('encoded_bytes')
+        row.pop('source_encoding_verified')
+        row.update(marker=marker, transcription_excerpt=marker,
+                   status='manual-correction-required', original_bytes=None)
+        c['unicode_glyphs'], c['signal_notation_index'] = [], []
+        c['unresolved_text'] = [deepcopy(row)]
+        c['unresolved_graphics'] = [row]
+        return segments
+
+    def test_regional_marker_projection_preserves_source_and_joined_utf8_ranges(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import span
+        segments = self.marker_segments()
+        before = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        article, _ = text_bytes(package)
+        row, = correction['unresolved_graphics']
+        self.assertEqual(span(row, article), '⟦TI$-HOME-1⟧')
+        self.assertEqual(span(row['source_range'], text_bytes(segments[1][0])[0]), row['marker'])
+        self.assertEqual(row['block_id'], 'opening-prose')
+        self.assertEqual(row['region_id'], 'continuation-prose')
+        self.assertTrue(row['scan']['path'].startswith('segments/continuation/'))
+        self.assertIsNone(row['original_bytes'])
+        self.assertEqual(before, segments)
+        self.assertEqual(project(self.recipe, segments), (package, correction))
+
+    def test_regional_marker_rejects_tampering_and_inferred_character_bytes(self):
+        original = self.marker_segments()
+        for change in ('marker', 'status', 'bytes', 'encoded', 'verified', 'encoding',
+                       'missing-text', 'range', 'scan', 'region', 'malformed'):
+            segments = deepcopy(original)
+            c = segments[1][1]
+            row = c['unresolved_graphics'][0]
+            if change == 'marker': row['marker'] = '⟦other⟧'
+            if change == 'status': row['status'] = 'verified'
+            if change == 'bytes': row['original_bytes'] = [19]
+            if change == 'encoded': row['encoded_bytes'] = [19]
+            if change == 'verified': row['machine_byte_verified'] = True
+            if change == 'encoding': row['source_encoding_verified'] = True
+            if change == 'missing-text': c['unresolved_text'] = []
+            if change == 'range': row['utf8_byte_start'] += 1
+            if change == 'scan': row['scan']['sha256'] = '0'*64
+            if change == 'region': row['region_id'] = 'missing'
+            if change == 'malformed':
+                row['marker'] = row['transcription_excerpt'] = '⟦unclosed'
+                c['unresolved_text'] = [deepcopy(row)]
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
     def test_regional_prose_rejects_incomplete_or_punctuated_overlined_ports(self):
         for glyph in ('F̅8', 'F̅-̅', '\u0305'):
             with self.subTest(glyph=glyph):
