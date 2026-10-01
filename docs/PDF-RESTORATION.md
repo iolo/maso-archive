@@ -2171,3 +2171,32 @@ one readable article, one partial article, both sample-reviewed, and 41 entries
 awaiting local eligibility decisions. The next bounded request is saved in
 `private/pdf-restoration/12-1984-02-batch-01/next-checkpoint.json`. Its PDF75–70
 mapping candidates are hypotheses; only PDF75/printed20 is already verified.
+
+### FC-100 feature, second segment
+
+`12-1984-02-batch-02` continues the same article through printed20–25 / PDF75–70.
+All six folios were inspected in reading order. The package remains partial;
+display control continues at PDF69/printed26 and the article's ending is not yet
+mapped. Both immutable segments now cover printed18–25, pending later assembly.
+
+The segment contains 55 regions, 39 reading blocks, seven original table images
+and 13 independent code examples (14 physical rows). The tables retain all
+printed rows but their internal text is not transcribed or included in text
+downloads. `corrections.json` preserves six prose joins, 25 text review notes,
+two ambiguous-mark occurrences and three Unicode heart representations whose
+original machine encoding is not certified. Repeated line10 examples remain
+separate; the listing is not an executable combined program.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-02/feature
+python3 -m http.server 4239 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-02
+```
+
+Package hashes, raw OCR archive, region coverage, text/listing ranges, reading
+order, byte-identical rebuild and desktop/mobile display checks pass. Actual
+17,287-byte article and 168-byte listing downloads match. The unchanged generic
+tooling retains batch01's successful 59-test evidence; this checkpoint validates
+the new data directly. The issue counts remain one readable, one partial and
+41 unresolved eligibility decisions. Resume from this batch's
+`next-checkpoint.json` for `12-1984-02-batch-03` at PDF69/printed26.

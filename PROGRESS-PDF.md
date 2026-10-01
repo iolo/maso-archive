@@ -4197,3 +4197,64 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next: **12-1984-02-batch-02**, continue the FC-100 feature at PDF75/printed20,
   verify each further candidate page locally and retain this segment unchanged.
   Complete-issue assembly/export and final aggregate installation remain ahead.
+
+### 2026-10-01 — 12-1984-02-batch-02 started
+
+- Continue FC-100 feature `maso-1984-02-toc-0001` from the immutable first
+  segment. Verified all six included pages: PDF75–70 = printed20–25, in that
+  reading order. Boundary-only PDF69 = printed26 continues display control.
+- Map one article segment within the six-page ceiling. Preserve tables1–4 and
+  three dense entry-point reference panels as original images; transcribe prose,
+  captions and code examples separately. Internal table text remains image-based.
+  The feature stays partial; its full ending has not yet been mapped.
+
+### 2026-10-01 — 12-1984-02-batch-02 complete
+
+- Restored the next six FC-100 feature pages, PDF75–70 / printed20–25, as
+  **partial/sample-reviewed**. Both immutable segments now cover printed18–25.
+  Display control continues at inspected PDF69/printed26; the full article
+  ending and later page sequence remain unmapped. Final assembly is still ahead.
+- The package contains **55 regions, 39 reading blocks, seven table images and
+  13 independent code examples / 14 physical rows**. Compared all mapped crops
+  at enlarged scale. Six prose joins connect nine column/page boundaries;
+  explicit continuation records preserve the beginning and ending fragments.
+- Tables1–4 and three dense entry-point reference panels retain their complete
+  original images, including internal code and addresses. Captions are separate
+  text. Internal table text is not transcribed or included in text/listing
+  downloads; this limitation is visible in the reader and correction metadata.
+- `corrections.json` retains raw regional transcriptions, text/listing byte
+  ranges, separate repeated line10 examples and 25 scan-linked review notes.
+  Two small marks between printed0 andC remain explicit 판독불명 occurrences.
+  Three visible hearts are represented as Unicode♥ without claiming recovery
+  of the source machine's bytes. No historical technical correction or execution.
+- Enlarged comparison corrected draft wording, the monitor hyphen prompt and
+  an extra zero byte. Apparent source inconsistencies such as the printedC for
+  28H, identifier0F, C741H/C74DH/C77DH/C785H addresses, type suffix1 and
+  워크 에로어 remain documented for owner review rather than silently repaired.
+- All 55 OCR tasks completed with zero failures/retries. Six included pages
+  and one boundary lookup stay within the ceilings. Measured rendering/cropping
+  took39.2s and OCR27.1s; checkpoint elapsed844.4s includes manual review and waits.
+- Article package **210 files / 34,058,968 bytes** rebuilds byte-identically.
+  Region representation, page order, prose joins, all correction ranges, 14
+  unique listing-row identities and raw archive bytes validate. All260 protected
+  prior files and pre-update input pins remain unchanged. Generic tools are
+  unchanged; prior batch01's successful59-test log is pinned, and new package
+  data is validated directly without repeating that unchanged suite.
+- Browser checks pass at desktop1440×1000/mobile390×844: all39 blocks and their
+  order match;59 asset/download pins and25 text-review ranges validate; seven
+  images load and the review scope is visible. No page overflow or application
+  errors; only the initial favicon404. Actual17,287-byte article and168-byte
+  listing downloads match. The original entry-point panel opens1543×3183.
+  Two screenshots inspected; test browser closed. Preview:
+  `http://127.0.0.1:4239/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-02` contains213 files /
+  34,099,405 bytes including index/report/manifest. Manifest SHA-256:
+  `eaca5f052b62a9495135816da1522b0c47b1d1bcc81d93ba59b3d6f6958f695c`.
+  Private closeout, validation, prior-ledger snapshot and next plan are under
+  `private/pdf-restoration/12-1984-02-batch-02`; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-02`.
+- Updated only the existing feature's segment history in the February ledger.
+  Counts stay **one readable, one partial, both sample-reviewed, 41 unresolved
+  eligibility decisions**; this continuation does not add another article.
+  Next: **12-1984-02-batch-03**, starting PDF69/printed26 and verifying each
+  following candidate and the article boundary locally before extraction.
