@@ -2573,3 +2573,47 @@ one group heading and32 unresolved eligibility decisions. Next is
 `12-1984-02-batch-11`: verify 루빅의 큐브's extent from PDF35/printed60 and restore
 at most six source pages, explicitly retaining any deferred continuation.
 Complete-issue accounting and reader export remain ahead.
+
+### February 1984 batch 11: 루빅의 큐브
+
+`12-1984-02-batch-11` restores the complete five-page article, printed60–64 /
+PDF35–31, as **readable/sample-reviewed**. The final3100 END confirms coverage.
+PDF30–27 are excluded advertising/promotional material; PDF26 is the 교육입문
+divider (position69 inferred locally, no visible folio). PDF25/printed70 starts
+독도는 우리땅. No article continuation or assembly is required.
+
+The26 mapped regions produce24 blocks, two original cube diagrams, three command
+tables and four captions. The BASIC listing has462 numbered statements in502
+physical rows. Numeric continuation rows such as `0`, `21` and `30` stay attached
+to their logical statements. Source-linked corrections include38 text notes,
+30 code annotations and15 Unicode formula/fraction occurrences. The enlarged
+scans corrected the preliminary L-direction and2620 readings. Worn punctuation,
+1500's repeated J,2216's numeral1,3030's provisional3060 and3070's `> <` remain
+explicitly reviewable. Quoted spacing, mathematical accuracy, execution and
+original machine bytes are not certified.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-11/cube
+python3 -m http.server 4250 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-11
+```
+
+All26 initial OCR regions completed without failure. Five tight line-number
+margins were expanded once;21 regions reused cached evidence. Final mapping
+metadata corrections reused all26 regions without new OCR. Initial and revised
+evidence remain immutable. The109-file article rebuild matches byte-for-byte;
+all1,620 prior output pins, correction ranges, listing indexes and raw archive
+bytes pass. Generic tooling is unchanged and its preceding65-test log is pinned.
+
+Desktop1440×1000/mobile390×844 checks pass for24 blocks,30 pins,38 review ranges,
+original image access and both actual downloads. Six wide code panels scroll
+without page overflow. Browser evidence is under
+`output/playwright/pdf-1984-02-batch-11`; the test browser is closed. The complete
+wrapper has112 files /22,666,535 bytes, including its index, report and manifest.
+
+February now has eleven readable/sample-reviewed articles, no partial articles,
+two group headings and30 unresolved eligibility decisions. Next is
+`12-1984-02-batch-12`: verify 독도는 우리땅's extent from PDF25/printed70 within
+the six-source-page ceiling. Its following pages and boundary remain candidates
+until individually inspected. Issue reconciliation and staged reader acceptance
+are still pending; completed cover/TOC integration and prior articles are intact.

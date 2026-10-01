@@ -4846,3 +4846,70 @@ history remains in [PROGRESS.md](PROGRESS.md).
   extent and restore at most its first six source pages. Only PDF35/printed60 is
   verified; possible continuation/divider pages require inspection. Complete-issue
   accounting, restoration and staged reader export remain in progress.
+
+### 2026-10-01 — 12-1984-02-batch-11 started
+
+- Previous checkpoint committed as `cb78dc7`; it completed two articles and
+  made progress. Verify 루빅의 큐브's extent from PDF35/printed60 and extract
+  at most six source pages, with any continuation explicitly deferred.
+- Saved fixed input pins, the issue-ledger snapshot and prior February package
+  hashes. Inspect candidate continuation/boundary pages locally; preserve all
+  earlier packages, authoritative TOC and cover/TOC integration.
+- Boundary review found the complete article at printed60–64 / PDF35–31;
+  PDF30–27 contain excluded advertising/promotional material, PDF26 is the
+  교육입문 divider and PDF25/printed70 opens 독도는 우리땅. All26 OCR regions
+  completed. Five line-number margins were expanded once; a subsequent metadata
+  correction reused all OCR. Original evidence remains intact.
+- Transcribed462 numbered statements in502 physical rows, with38 text review
+  notes and30 code annotations. Enlarged scans corrected preliminary readings
+  of the L direction and2620 target. The full package and an independent rebuild
+  match byte-for-byte; all1,620 prior output pins remain intact. Desktop/mobile
+  and actual-download acceptance is now in progress.
+
+### 2026-10-01 — 12-1984-02-batch-11 complete
+
+- Restored **루빅의 큐브**, printed60–64 / PDF35–31, as **readable/
+  sample-reviewed**. All five article folios and the final3100 END are verified;
+  no continuation or assembly is needed. PDF30–27 are excluded advertisements/
+  unlisted promotional material. PDF26 is the **교육입문** group divider,
+  with inferred position69 but no visible folio. PDF25/printed70 opens the next
+  article, 독도는 우리땅.
+- The package contains26 regions,24 text/code blocks, two original diagrams,
+  three transcribed command tables and four captions. BASIC10–3100 contains
+  **462 numbered statements in502 physical rows**. All numeric and quoted wraps
+  remain in downloads and separate logical/physical indexes. There are38 text
+  review notes,30 code annotations and15 Unicode formula/fraction occurrences.
+- Enlarged scans corrected the preliminary L-direction reading to 왼쪽 and
+  line2620 to2990. Preserved provisional dot1280, repeated J at1500, numeral1
+  at2216, apostrophe-like2270 mark, target3060 at3030 and reversed `> <` at3070.
+  Each remains linked to its scan; quoted spacing and worn symbols require
+  owner proofreading. No execution, mathematical or original-byte certification.
+- Initial26 OCR regions completed without failure. Five code crops received one
+  left-margin expansion each;21 regions reused cached evidence. Final mapping
+  metadata corrections reused all26 regions with zero OCR attempts. Original
+  maps, states and evidence remain intact. Final cached render/crop24.7s and
+  OCR17.1s describe the selected results, not cumulative work across revisions.
+- The article rebuild is byte-identical:109 files /22,642,317 bytes. All text
+  and listing ranges, logical/physical coverage, scan pins and raw OCR archive
+  bytes pass. All1,620 prior output-file pins and fixed inputs remain intact.
+  Generic tooling is unchanged; the preceding successful65-test log is pinned.
+- Desktop1440×1000/mobile390×844 checks pass for24 blocks,30 asset/download
+  pins and38 review ranges. Six wide code panels scroll without page overflow.
+  Original diagram opens at921×700. Actual downloads match14,943-byte article
+  and9,514-byte listing. Two screenshots inspected; no application errors,
+  initial favicon404 only. Test browser closed; the user's browser interaction
+  did not affect saved outputs. Preview: `http://127.0.0.1:4250/`.
+- Complete batch output `build/pdf-restoration/12-1984-02-batch-11` has112 files /
+  22,666,535 bytes. Manifest SHA-256:
+  `2e82eca14aa588199c9122f4bfd31c8bc6411a2837aa089a0db681633fd86123`.
+  Private maps, transcriptions, validation, ledger snapshots and next plan are in
+  the matching private directory; screenshots/downloads are under
+  `output/playwright/pdf-1984-02-batch-11`. Elapsed1,151.9s includes mapping,
+  OCR/revisions, review, validation/rebuild, browser acceptance and tool waits.
+- Only the cube article and 교육입문 heading ledger entries changed. February
+  now has **eleven readable/sample-reviewed articles, no partial articles,
+  two group headings and30 unresolved eligibility decisions**. Prior packages,
+  authoritative TOC and completed cover/TOC integration remain intact. Next:
+  **12-1984-02-batch-12**, verify 독도는 우리땅 from PDF25/printed70; candidate
+  following pages and boundary require inspection within the six-page ceiling.
+  Complete-issue restoration/accounting and staged reader export remain open.

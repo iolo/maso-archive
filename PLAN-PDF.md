@@ -23,11 +23,14 @@ Batch09 restored 3차원 미로, printed52–53, and 드래곤, printed54–55, 
 physical code wraps and explicit unknown strings/glyphs while excluding the
 shared-page advertisement. Batch10 restored 최신예 폭격기32K, printed56–58,
 and 천하무적 제공호, printed59, retaining literal DATA strings and historical
-code anomalies. February has ten readable/sample-reviewed articles, no partial
-articles, one group heading and32 unresolved eligibility decisions. Next is
-**12-1984-02-batch-11**: verify 루빅의 큐브's extent and restore at most its first
-six source pages. Only PDF35/printed60 is already verified; preserve any remaining
-continuation explicitly. Step 12's remaining-issue campaign is open.
+code anomalies. Batch11 restored the complete 루빅의 큐브 at printed60–64 /
+PDF35–31, preserving462 numbered statements in502 physical rows, two diagrams
+and three command tables. The following advertising/promotional pages are
+excluded; 교육입문 is a verified group divider. February has eleven readable/
+sample-reviewed articles, no partial articles, two group headings and30 unresolved
+eligibility decisions. Next is **12-1984-02-batch-12**: verify 독도는 우리땅's
+extent and restore at most six source pages. Only PDF25/printed70 is already
+verified; inspect each following folio and boundary. Step 12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -413,8 +416,12 @@ issue in the staged reader before moving to remaining issues.
   최신예 폭격기32K and 천하무적 제공호 are also complete at printed56–59 /
   PDF39–36. Retain their literal shape DATA punctuation, quoted spacing and
   historical address/direction anomalies for owner proofreading.
-- 루빅의 큐브 begins at verified PDF35/printed60. The next catalog article starts
-  at70, but intervening divider/advertising pages and local order require inspection.
+- 루빅의 큐브 is complete at printed60–64 / PDF35–31. Its following PDF30–27
+  advertising/promotional pages are excluded and PDF26 is the 교육입문 divider
+  (locally inferred position69, no visible folio). Preserve its literal code
+  anomalies, numeric physical wraps and source-linked review notes.
+- 독도는 우리땅 begins at verified PDF25/printed70. The next catalog article
+  starts at76; inspect candidate PDF24–20 and the following boundary individually.
   Extract at most six source pages per checkpoint and preserve any continuation;
   validate complete coverage and assembly before promoting a partial segment.
 - Reconcile each issue, produce its standalone reference/report, and validate
