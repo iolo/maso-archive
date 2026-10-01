@@ -460,11 +460,18 @@ issue in the staged reader before moving to remaining issues.
   The30 explicit U+2422 blank symbols are reading notation, not recovered spaces
   or original bytes. Retain literal Y3<>=0, the variant330 difference, physical
   PRINT wraps and prose variable-name discrepancies without inferred repairs.
-- 매개변수로 표현된 함수의 그래프 begins at verified PDF98/printed102.
-  Inspect its extent locally; the catalog's next article at122 and intervening
-  business divider do not establish the graph article's length. Restore at most
-  six source pages per checkpoint and retain partial status if continuation is
-  needed. Preserve its BASIC, original graph screens and correction evidence.
+- 매개변수로 표현된 함수의 그래프 is complete at printed102–104 /
+  PDF98–100. Preserve67 logical/134 physical BASIC rows, including22 blank
+  string rows, the cross-page400 continuation and the unnumbered55 target row.
+  Two original screen photographs,34 review notes and the unresolved faint
+  prose key name remain source-linked; quoted spacing/control bytes and graph
+  execution remain unverified.
+- Q&A is verified at printed105–107 / PDF101–103; 디버깅 룸 begins at
+  printed108/PDF104. These 정보모음 TOC entries occur physically before the
+  business section. Restore them separately, within two articles/six source
+  pages, after verifying the debugging continuation and following boundary.
+  Printed errata remain their own source material; do not silently patch earlier
+  restored articles or change the authoritative TOC's order.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

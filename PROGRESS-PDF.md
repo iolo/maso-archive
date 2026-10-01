@@ -5331,3 +5331,58 @@ history remains in [PROGRESS.md](PROGRESS.md).
   decisions**. Next: **12-1984-02-batch-18**, inspect and restore a bounded graph
   article segment from PDF98/printed102. Whole-issue restoration, reconciliation
   and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-18 started
+
+- Previous checkpoint committed as `d322f6b`. Saved fixed inputs and prior-output
+  pins. Inspect the graph article from PDF98/printed102 and restore at most six
+  source pages, preserving literal BASIC, figures and correction evidence.
+
+### 2026-10-01 — 12-1984-02-batch-18 complete
+
+- Restored the complete 매개변수로 표현된 함수의 그래프, individually
+  verified printed102–104 / PDF98–100. The listing ends7105 before Q&A at
+  printed105–107/PDF101–103; PDF104/printed108 begins 디버깅 룸. Those four
+  lookup pages remain outside this article. All3,061 prior output pins and
+  completed November/cover/TOC integration remain intact.
+- Eleven source regions produce eight reading blocks and two original screen
+  photographs. Internal screen labels/numbers remain image-preserved. Joined
+  the prose 시작/해서 column boundary with both source ranges retained.
+- BASIC contains67 numbered statements across134 physical rows. Preserved22
+  blank string rows, long menu/error-message strings, ENT/ER and EL/SE wraps.
+  The standalone55 continues the preceding ELSE; it is not another statement.
+  Line400 spans both page scans, including D/Y in the denominator. All physical
+  rows, logical statements and the cross-page link have validated byte ranges.
+- `corrections.json` includes34 text review notes,22 listing notes, nine regional
+  ranges and eight Unicode spans. Enlarged review distinguishes slashed0 from
+  actual @ in PEEK(514)=40, ONERRORGOTO0 and PRINT@. The almost absent key name
+  in the60분법 prose is explicitly ⟦기호1⟧, not an inferred D. Retained Ploting,
+  historical wording and source menu layout. Exact quoted spacing, original
+  control bytes, code execution and graph correctness remain unverified.
+- Initial11 OCR tasks completed without failures. No targeted retries needed.
+  A metadata-only revision corrected preliminary low-resolution zero/@ readings
+  in mapping notes and reused all11 OCR regions. Original maps, OCR and exports
+  remain preserved. Selected cached render/crop15.6s and OCR9.9s are processing
+  totals, not cumulative elapsed time.
+- The49-file article package (15,501,134 bytes) rebuilds byte-identically.
+  Mapping, coverage, prose join, regional/review/Unicode ranges, all physical and
+  logical rows, raw OCR and prior output pins pass. Generic tools are unchanged;
+  the successful68-test PDF regression log remains pinned.
+- Desktop1440×1000/mobile390×844 checks pass for eight blocks,15 pins and34
+  review ranges. Both long code blocks scroll internally; no page overflow or
+  application errors. Original screen image opens at1038×843. Actual article/
+  listing downloads match8,027/4,820 bytes. Both screenshots inspected and test
+  browser closed. Preview: `http://127.0.0.1:4258/`.
+- Output `build/pdf-restoration/12-1984-02-batch-18` has52 files /
+  15,514,851 bytes. Manifest SHA-256:
+  `6285f25edf9bb791405d9486cf0b225f2a171ae4816dcbe45e0b15f8afcaaf08`.
+  Private recipes, source corrections, validation, ledger snapshots and next
+  plan are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-18`. Elapsed564.7s includes
+  source review, transcription, metadata revision, rebuild, browser checks and waits.
+- Only entry0019 changed. February now has **eighteen readable/sample-reviewed
+  articles, no partial articles, two group headings and23 unresolved eligibility
+  decisions**. Next: **12-1984-02-batch-19**, restore Q&A and verify/restore
+  디버깅 룸 within six source pages. Printed errata are separate historical
+  source material, not patches to earlier packages. Whole-issue restoration,
+  reconciliation and staged reader acceptance remain open.
