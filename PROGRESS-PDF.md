@@ -5500,3 +5500,59 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: **12-1984-02-batch-21**, restore overseas news from printed117/PDF113,
   establish the article end and plan assembly. Whole-issue restoration,
   reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-21 started
+
+- Previous checkpoint committed as `b2f3c6b`. Pinned prior outputs and the issue
+  ledger. Verify and restore the overseas-news continuation from printed117 /
+  PDF113 within six source pages, and establish the article end before assembly.
+
+### 2026-10-01 — 12-1984-02-batch-21 complete
+
+- Restored 정보 레이다's final two pages, individually verified printed117–118 /
+  PDF113–114, containing all nine overseas-news items. The complete article
+  spans printed111–118 / PDF107–114. Both restored segments remain **partial**
+  until their eight-page assembly is validated.
+- The 22 source regions produce 19 reading blocks with no article figures or
+  code. Nine `news_item_index` records link headings, bodies, source pages and
+  byte ranges. Three explicit joins retain CPU news across columns, IBM news
+  across pages and the PC Junior 카트리/지용 split. No inter-segment sentence
+  join is needed.
+- Corrections preserve 26 review notes, 22 regional ranges and 22 Unicode spans.
+  Apple headline78%/body73%, headlineDRAM/bodyDPAM, prospective1983 date,
+  ATLAS/I, 후지쯔/후지쓰, 富士通/沖電氣 and historical prices remain literal.
+  Enlarged review corrected the initial mapping's130MFLOPS to1300MFLOPS.
+  Technical and historical claims were transcribed without external repair.
+- Lower-page 서울 마이컴 학원 advertisement on printed118 is excluded as x01.
+  PDF115–116 are independent event notices. PDF117 is a full-page 비즈니스
+  divider without a visible folio; its position121 is inferred locally, not
+  reported as printed. Entry0020 is now a group heading. 삼성SPC-500 begins
+  PDF118/printed122 and continues PDF119/printed123; its full end remains for
+  the next restoration batch to verify. Catalog text and order remain intact.
+- All 22 initial OCR tasks completed without failures or crop retries. Mapping
+  metadata was revised using all 22 cached regions; original maps, OCR and
+  preliminary exports remain privately preserved. Review-method metadata was
+  corrected to describe this figure-free segment. Selected cached render/crop
+  time is12.4s and OCR10.1s, separate from cumulative elapsed time.
+- The package rebuilds byte-identically: 98 files / 7,604,276 bytes; article.txt
+  is5,974 bytes. Region coverage, advertisement exclusion, all nine news indexes,
+  three joins, correction/Unicode ranges and raw OCR validate. All 3,489 prior
+  files pass their pins. Generic tooling is unchanged; the prior successful
+  68-test PDF log remains pinned. Cover/TOC and November integration are intact.
+- Desktop1440×1000 and mobile390×844 checks pass for19 blocks,25 pins,26 review
+  ranges and nine news indexes. Partial status and assembly gap are visible;
+  no overflow or application errors. The DPAM source crop opens at1124×403.
+  Actual article download matches5,974 bytes. Three screenshots inspected and
+  test browser closed. Preview: `http://127.0.0.1:4261/`.
+- Output `build/pdf-restoration/12-1984-02-batch-21` has 101 files /
+  7,625,798 bytes. Manifest SHA-256:
+  `c52275f8f950e31a6e299c56f13c09396fb5d6e5e7128d9972f9f8a0452935ca`.
+  Recipes, corrections, validation, initial/revised evidence, ledger snapshots
+  and next plan are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-21`. Elapsed 3084.5s includes
+  mapping, enlarged review, metadata revisions, rebuild, browser checks and waits.
+- Only entries0041/0020 changed. February has **twenty readable articles, one
+  partial article, three group headings and19 unresolved eligibility decisions**.
+  Next: **12-1984-02-news-assemble**, combine all24 news items across eight pages
+  with preserved source associations and corrections, without new OCR. Whole-issue
+  restoration, reconciliation and staged reader acceptance remain open.
