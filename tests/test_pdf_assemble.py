@@ -363,6 +363,138 @@ class PDFAssemblyTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'correction projection'):
             check_export(self.output)
 
+    def standalone_segments(self, prose=False):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = [read_segment(self.root/'build'/s['name'], s['manifest']) for s in self.recipe['segments']]
+        for i, (source, c) in enumerate(segments):
+            b = source['blocks'][0]
+            b['text'] = '10 PRINT "♥"\nOUT 0:0\n'
+            id, region = b['id'], b['region_ids'][0]
+            scan = source['region_assets'][0]['asset']
+            c['unresolved_graphics'], c['glyph_definitions'] = [], []
+            c['listing_index'] = [dict(block_id=id, region_id=region, scan=scan, download='listing.txt',
+                utf8_byte_start=0, utf8_byte_end_exclusive=len(b['text'].encode()))]
+            c['listing_groups'] = [dict(id=id, block_ids=[id], standalone_example=True, execute_verified=False)]
+            c['listing_line_index'] = []
+            cursor = 0
+            for ordinal, line in enumerate(b['text'].splitlines(True), 1):
+                end = cursor + len(line.encode())
+                c['listing_line_index'].append(dict(block_id=id, region_id=region, scan=scan,
+                    listing_id=id, physical_line=ordinal, row_kind='numbered' if ordinal == 1 else 'immediate-command',
+                    printed_line=10 if ordinal == 1 else None, printed_line_visible=ordinal == 1,
+                    download='listing.txt', utf8_byte_start=cursor, utf8_byte_end_exclusive=end))
+                cursor = end
+            c['listing_anomalies'] = [dict(c['listing_index'][0], note='Whole example review; not just one row.')]
+            if prose:
+                r = dict(source['regions'][0], id='prose', kind='prose')
+                source['regions'].append(r)
+                source['region_assets'].append(dict(region_id='prose', asset=scan))
+                c['records'].append(dict(id='prose', region_ids=['prose'], scan=scan, raw_ocr=None, block_ids=['prose']))
+                source['blocks'].append(dict(id='prose', kind='prose', text='한글 시작' if i == 0 else '과 끝',
+                    region_ids=['prose'], correction_evidence=['corrections.json#prose'], uncertainties=[]))
+                order = dict(type='block', id='prose')
+                source['content_order'].insert(0 if i else len(source['content_order']), order)
+                source['verification']['reviewed_region_ids'].append('prose')
+            c['blocks'] = deepcopy(source['blocks'])
+            ranges = block_ranges(source)
+            c['text_index'] = [dict(block_id=b['id'], region_ids=b['region_ids'], scans=[scan],
+                download='article.txt', utf8_byte_start=ranges[b['id']][0], utf8_byte_end_exclusive=ranges[b['id']][1])
+                for b in source['blocks']]
+            c['text_review_items'] = []
+            for block in source['blocks']:
+                excerpt = '♥' if block['kind'] == 'code' else block['text']
+                start = ranges[block['id']][0] + len(block['text'][:block['text'].index(excerpt)].encode())
+                row = dict(block_id=block['id'], region_id=block['region_ids'][0], scan=scan,
+                    transcription_excerpt=excerpt, download='article.txt', utf8_byte_start=start,
+                    utf8_byte_end_exclusive=start+len(excerpt.encode()), status='review-needed')
+                c['text_review_items'].append(row)
+                if excerpt == '♥':
+                    c['unresolved_graphics'].append(dict(row, rendered_glyph='♥', machine_byte_verified=False))
+            c['regional_transcription'] = {b['region_ids'][0]: b['text'] for b in source['blocks']}
+            c['prose_joins'] = []
+            c['figure_review_items'] = [dict(figure_id=source['figures'][0]['id'],
+                region_id=source['figures'][0]['region_ids'][0], scan=source['figures'][0]['asset'], text_transcribed=False)]
+            c['segment_continuations'] = [dict(boundary='end' if i == 0 else 'start', note='Historical format retained')]
+        self.recipe.update(index_mode='standalone-examples-v1', prose_joins=[])
+        if prose:
+            self.recipe['prose_joins'] = [dict(left=dict(segment='opening', block_id='prose', ending='시작'),
+                right=dict(segment='continuation', block_id='prose', opening='과 끝'), separator='')]
+        return segments
+
+    def test_standalone_examples_join_prose_and_preserve_glyph_and_listing_ranges(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.standalone_segments(prose=True)
+        untouched = deepcopy(segments)
+        package, c = project(self.recipe, segments)
+        self.assertEqual(segments, untouched)
+        self.assertEqual(len(package['blocks']), 3)
+        joined = next(b for b in package['blocks'] if b['kind'] == 'prose')
+        self.assertEqual(joined['text'], '한글 시작과 끝')
+        article, listing = text_bytes(package)
+        self.assertEqual(listing, b''.join(text_bytes(s)[1] for s, _ in segments))
+        self.assertEqual(len(c['listing_groups']), 2)
+        self.assertEqual(len({r['line_id'] for r in c['listing_line_index']}), 4)
+        self.assertEqual([r['printed_line'] for r in c['listing_line_index']], [10, None, 10, None])
+        for r in c['text_review_items'] + c['unresolved_graphics']:
+            self.assertEqual(article[r['utf8_byte_start']:r['utf8_byte_end_exclusive']].decode(), r['transcription_excerpt'])
+            self.assertTrue(r['scan']['path'].startswith('segments/'))
+        self.assertEqual(len(c['source_text_index']), 4)
+        self.assertEqual(len(c['text_index']), 3)
+        self.assertEqual(c['segments'][1]['original_metadata']['segment_continuations'],
+                         segments[1][1]['segment_continuations'])
+        self.assertEqual(c['figure_review_items'][1]['figure_id'], 'continuation-figure1')
+        self.assertEqual(project(self.recipe, segments), (package, c))
+
+    def test_standalone_projection_rejects_invalid_joins_and_review_evidence(self):
+        original = self.standalone_segments(prose=True)
+        recipe = deepcopy(self.recipe)
+        for change in ('join-text', 'join-order', 'join-kind', 'utf8', 'glyph', 'scan', 'line-range',
+                       'line-number', 'inferred-number', 'carried-line', 'group', 'anomaly'):
+            segments = deepcopy(original)
+            self.recipe = deepcopy(recipe)
+            source, c = segments[1]
+            if change == 'join-text': self.recipe['prose_joins'][0]['right']['opening'] = 'wrong'
+            if change == 'join-order': source['content_order'].reverse()
+            if change == 'join-kind': source['blocks'][-1]['kind'] = 'code'
+            if change == 'utf8': c['text_review_items'][0]['utf8_byte_start'] += 1
+            if change == 'glyph': c['unresolved_graphics'][0]['rendered_glyph'] = 'different'
+            if change == 'scan': c['figure_review_items'][0]['scan'] = dict(c['figure_review_items'][0]['scan'], sha256='0'*64)
+            if change == 'line-range': c['listing_line_index'][0]['utf8_byte_end_exclusive'] -= 1
+            if change == 'line-number': c['listing_line_index'][0]['printed_line'] = 20
+            if change == 'inferred-number': c['listing_line_index'][1]['printed_line'] = 20
+            if change == 'carried-line': c['listing_line_index'][1]['prior_segment'] = {}
+            if change == 'group': c['listing_groups'][0]['standalone_example'] = False
+            if change == 'anomaly': c['listing_anomalies'][0]['utf8_byte_end_exclusive'] += 1
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
+    def test_standalone_export_rebuild_and_rehashed_glyph_tamper(self):
+        segments = self.standalone_segments()
+        for spec, (source, correction) in zip(self.recipe['segments'], segments):
+            base = self.root/'private'/spec['name']
+            write_json(base/'corrections.json', correction)
+            recipe = json.loads((base/'recipe.json').read_bytes())
+            recipe['corrections'] = pin(base, 'corrections.json')
+            write_json(base/'recipe.json', recipe)
+            output = self.root/'build'/('examples-'+spec['name'])
+            build(base/'recipe.json', output, self.root)
+            spec['manifest'] = pin(self.root, output.relative_to(self.root).as_posix()+'/manifest.json')
+        with patch('tools.pdf_restore.ocr.page_ocr', side_effect=AssertionError('No OCR')):
+            self.run_assembly()
+        repeat = self.root/'build/repeat'
+        self.run_assembly(repeat)
+        files = lambda d: {p.relative_to(d).as_posix(): p.read_bytes() for p in d.rglob('*') if p.is_file()}
+        self.assertEqual(files(self.output), files(repeat))
+        c = json.loads((self.output/'corrections.json').read_bytes())
+        c['unresolved_graphics'][0]['utf8_byte_start'] += 1
+        write_json(self.output/'corrections.json', c)
+        package = json.loads((self.output/'article.json').read_bytes())
+        package['corrections'] = [pin(self.output, 'corrections.json')]
+        write_json(self.output/'article.json', package)
+        self.rehash(self.output)
+        with self.assertRaisesRegex(ValueError, 'correction projection'):
+            check_export(self.output)
+
     def test_deterministic_assembly_preserves_segments_offsets_and_review(self):
         original = {name:{p.relative_to(self.root/'build'/name).as_posix():p.read_bytes()
                          for p in (self.root/'build'/name).rglob('*') if p.is_file()}

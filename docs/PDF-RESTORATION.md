@@ -2236,3 +2236,60 @@ namespace repeated IDs, join the two cross-segment sentence fragments and rebase
 all correction ranges. Resolve superseded coverage notes while keeping scan
 uncertainties, Unicode heart limits and image-only table scope visible. Only
 the completed assembly can promote the feature to readable/sample-reviewed.
+
+### FC-100 feature assembly
+
+`12-1984-02-feature-assemble` joins all three saved segments without new OCR.
+The complete13-page feature is **readable/sample-reviewed**:116 regions,
+77 reading blocks,20 images and22 independent code examples with23 physical
+rows. The two cross-segment sentence fragments are joined in the reading view;
+all79 original block ranges and96 regional transcriptions remain traceable.
+
+Use `"index_mode": "standalone-examples-v1"` for this correction format. Unlike
+the existing program-continuation format, each code block must declare itself
+as an independent, unverified example. Physical rows retain printed numbers or
+explicit immediate-command identities. The mode accepts text-range glyph notes
+whose original machine bytes remain unverified. Earlier assembly modes keep
+their existing behavior and continue validating their saved exports.
+
+This mode also requires an explicit `prose_joins` array. Each join identifies
+`left: {segment, block_id, ending}`, `right: {segment, block_id, opening}` and
+`separator`. Only adjacent prose blocks across consecutive segments can join;
+the expected source suffix/prefix must match. Original segments stay unchanged.
+
+The combined `corrections.json` includes77 final `text_index` entries and79
+`source_text_index` entries with their original ranges,54 text review notes,
+two unresolved-text occurrences, three Unicode-heart notes,20 figure reviews,
+11 local prose joins and two resolved cross-segment joins. Region/block/figure
+identities, scan paths, listing groups and physical row IDs are namespaced.
+Text and listing ranges address the combined downloads; original metadata and
+correction files remain available under each retained segment. Listing anomalies
+may cover a complete standalone example, including more than one physical row.
+The checker rederives all projections and rejects altered ranges even when
+outer hashes have been recomputed.
+
+```sh
+make assemble-pdf-article \
+  PDF_RECIPE=private/pdf-restoration/12-1984-02-feature-assemble/assembly-recipe.json \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-feature-assemble-rebuild/feature
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-feature-assemble/feature
+python3 -m http.server 4241 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-feature-assemble
+```
+
+The448-file article package rebuilds byte-identically, and all437 original
+segment files are preserved. The32,089-byte article and302-byte listing validate;
+the listing exactly concatenates the three original listing downloads. All62
+PDF tests pass, including synthetic join/range validation and rehashed-glyph
+tampering rejection. The existing November library assembly still validates.
+Table/diagram interiors remain image-based; ambiguous marks, Unicode-heart
+limits and printed technical inconsistencies remain visible for manual review.
+
+Desktop/mobile checks validate the77 rendered blocks, both joins,20 images,
+120 asset/download pins, all54 review ranges and actual text/listing downloads.
+The correction link and full-resolution image access work. February now has
+two readable/sample-reviewed articles and41 unresolved eligibility decisions.
+The saved next plan is `12-1984-02-batch-04`: classify the 취미생활 divider using
+PDF64 evidence, then verify and restore 우주전쟁 from PDF63/printed32 within
+the existing extraction ceilings. Complete-issue reader export remains ahead.

@@ -9,10 +9,11 @@ issue; manual bitmap correction in 잠수함 and full proofreading remain deferr
 The **12-catalog-reconcile** checkpoint is complete: the owner's corrected TOC,
 completed cover/TOC image integration and all 35 November articles coexist in a
 validated staged reader. February batches 01–03 restored the complete editor's
-note and three partial FC-100 feature segments covering printed18–30. The feature
-ends on printed30; PDF64 is a section divider and PDF63 starts the next article
-on printed32. Next is **12-1984-02-feature-assemble**, combining the three saved
-segments without new OCR. Step 12's remaining-issue campaign is still open.
+note and three FC-100 feature segments covering printed18–30. The feature is now
+assembled as readable/sample-reviewed, with every original segment and correction
+record preserved. February has two readable articles and41 unresolved eligibility
+decisions. Next is **12-1984-02-batch-04**: classify the 취미생활 divider and map
+우주전쟁 from PDF63/printed32. Step 12's remaining-issue campaign is still open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -377,11 +378,11 @@ issue in the staged reader before moving to remaining issues.
   the bounded pass. State clearly which table contents are not transcribed;
   preserve full-resolution access and separate captions. Continue prose and code
   extraction without treating image-preserved tables as searchable text.
-- The FC-100 extent is now verified as printed18–30 / PDF77–65 in descending
-  local order. Assemble its three immutable segments before promoting the feature
-  to readable. Preserve both cross-segment prose joins, all correction ranges,
-  original table/diagram images and unresolved transcription notes. PDF64's
-  취미생활 divider and PDF63's 우주전쟁 opening remain outside this article.
+- The assembled FC-100 covers printed18–30 / PDF77–65 in descending local order.
+  Both cross-segment prose joins, all correction ranges, original table/diagram
+  images and unresolved transcription notes remain explicit. Reuse this complete
+  package at issue closeout. PDF64's 취미생활 divider and PDF63's 우주전쟁 opening
+  remain outside this article; verify each following page before extraction.
 - An unsupported format becomes a separate bounded sample/repair checkpoint;
   do not expand a processing batch into an open-ended pipeline redesign.
 - Reconcile each issue, produce its standalone reference/report, and validate

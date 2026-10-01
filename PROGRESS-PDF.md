@@ -4317,3 +4317,63 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: **12-1984-02-feature-assemble**, join the three segments without new
   OCR and retain all corrections. Then batch04 can classify the 취미생활
   divider and establish 우주전쟁's extent from PDF63/printed32.
+
+### 2026-10-01 — 12-1984-02-feature-assemble started
+
+- Assemble the three immutable FC-100 packages:13 pages, printed18–30 /
+  PDF77–65 in descending local order. No new source-page extraction or OCR.
+- Preserve116 regions,20 images and all correction evidence; join the two
+  cross-segment prose fragments. Add an opt-in assembly mode for standalone
+  command indexes and text-range glyph notes while preserving prior exports.
+
+### 2026-10-01 — 12-1984-02-feature-assemble complete
+
+- Assembled the complete FC-100 feature, printed18–30 / PDF77–65, as
+  **readable/sample-reviewed**. All13 pages retain their verified descending
+  local PDF order. No new pages, lookups or OCR tasks. The section divider at
+  PDF64 and 우주전쟁 opening at PDF63 remain outside the article.
+- Joined “(패미콤 사용” / “설명서21페이지참조)” and character generator) /
+  “를 내장하고 있다.” across segment boundaries. The result has116 regions,
+  **77 reading blocks,20 original images and22 independent code examples with
+  23 physical rows**. Both joins retain the original source identities and
+  offsets; the full listing is the exact concatenation of the original listings.
+- Combined `corrections.json` preserves79 source block ranges,77 final block
+  ranges,96 regional transcriptions,54 text review notes, two ambiguous-text
+  occurrences, three Unicode-heart notes,20 figure reviews,11 local prose joins
+  and both resolved cross-segment joins. Every original correction file and its
+  metadata remains inspectable. Eight obsolete extent/assembly notes are resolved
+  by exact note and evidence; the catalog17/observed18 discrepancy stays visible.
+- Added opt-in `standalone-examples-v1` assembly support. It namespaces identities,
+  projects scan-linked text/glyph/listing ranges and validates independent numbered
+  or immediate-command rows. Explicit prose joins require matching adjacent source
+  blocks across consecutive segments. Previous assembly modes remain unchanged.
+  Synthetic tests exercise UTF-8 ranges, joins, independent repeated numbers,
+  whole-example anomalies, invalid evidence and rehashed correction tampering.
+- All62 PDF tests pass. The448-file article package /98,922,104 bytes rebuilds
+  byte-identically. All437 original segment files and input pins pass preservation
+  checks. Raw archive bytes, all review ranges, figure order, local prose joins
+  and listing identities validate. The existing November library assembly also
+  validates unchanged with the updated pipeline.
+- Browser acceptance passes at desktop1440×1000/mobile390×844: all77 blocks,
+  both prose joins,20 images,120 asset/download pins and54 review ranges match.
+  No overflow or application errors; initial favicon404 only. Actual32,089-byte
+  article and302-byte listing downloads match. The correction link opens and the
+  original final reference panel displays1550×2113. Screenshots inspected and
+  test browser closed. Preview: `http://127.0.0.1:4241/`.
+- Corrected two private browser-harness assumptions: corrections is a navigation
+  link, and its navigation should follow the original-image check to avoid a
+  lazy-image reload after back navigation. Repeated the full acceptance run after
+  the user's browser interaction; saved source/package bytes were unaffected.
+- Checkpoint output `build/pdf-restoration/12-1984-02-feature-assemble` contains
+  451 files /99,010,014 bytes including index/report/manifest. Manifest SHA-256:
+  `3bffeb772f58eb4d09c963196905ef5555f2b8d9bad5d8985eb79766333f6a0b`.
+  Plan, recipe, validation, ledger snapshots and closeout are under the matching
+  private directory; screenshots/download evidence are under
+  `output/playwright/pdf-1984-02-feature-assemble`. Elapsed696.5s includes
+  implementation, validation, browser-harness corrections and tool waits.
+- Promoted only the existing FC-100 ledger entry. February now has **two readable,
+  zero partial, both sample-reviewed,41 unresolved eligibility decisions**; no
+  extra article was counted. Original segment history, cover/TOC integration and
+  authoritative TOC edits remain intact. Next: **12-1984-02-batch-04**, classify
+  취미생활 from saved PDF64 evidence and verify 우주전쟁's extent from PDF63 /
+  printed32. Candidate pages63–60 and boundary59 must each be inspected locally.
