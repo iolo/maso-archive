@@ -29,15 +29,15 @@ def text_bytes(package):
 
 
 def validate_recipe(recipe):
-    examples = recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1')
+    examples = recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1')
     optional = {'index_mode', 'prose_joins'} if examples else {'index_mode'}
     if (set(recipe) - optional != {'segments', 'expected_pdf_pages', 'evidence', 'uncertainties', 'resolved_notes'} or
         ('index_mode' in recipe and recipe['index_mode'] not in
-         ('namespaced-v1', 'standalone-examples-v1', 'wrapped-listing-v1'))):
+         ('namespaced-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1'))):
         raise ValueError('Unknown or missing assembly recipe field')
     if examples:
         from .assembly_examples import validate_joins
-        validate_joins(recipe.get('prose_joins'))
+        validate_joins(recipe.get('prose_joins'), regional=recipe.get('index_mode') == 'regional-prose-v1')
     segments = recipe['segments']
     if not 2 <= len(segments) <= 12:
         raise ValueError('Assembly requires two to twelve segments')
@@ -128,7 +128,7 @@ def read_segment(folder, manifest):
 def project(recipe, segments):
     """Derive combined content and correction indexes; never modify original evidence."""
     validate_recipe(recipe)
-    if recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1'):
+    if recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1'):
         from .assembly_examples import project_examples
         return project_examples(recipe, segments)
     if recipe.get('index_mode') == 'namespaced-v1':

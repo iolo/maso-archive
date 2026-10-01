@@ -5220,3 +5220,60 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: **12-1984-02-systems-assemble**, join and validate both segments before
   promoting the article. Full-issue restoration, reconciliation and staged reader
   acceptance remain open. Prior packages and cover/TOC integration are intact.
+
+### 2026-10-01 — 12-1984-02-systems-assemble started
+
+- Previous checkpoint committed as `638eddd`; all nine systems source pages
+  are restored. Saved fixed input/tool pins, prior outputs and ledger snapshot.
+  Add opt-in assembly support for the explicit interrupted prose join and
+  specialized regional indexes; preserve both segments and require regression,
+  deterministic rebuild and browser acceptance before article promotion.
+
+### 2026-10-01 — 12-1984-02-systems-assemble complete
+
+- Assembled both immutable systems segments into the complete nine-page article,
+  printed88–96 / PDF84–92. No new source pages or OCR tasks. Preserved all
+  original segment bytes and2,559 prior output pins; completed cover/TOC and
+  November reader integration remain unchanged.
+- Added opt-in `regional-prose-v1` assembly support. A join explicitly names
+  every intervening figure/caption/table item; omissions, order changes and
+  unindexed prose are rejected. Existing assembly modes retain adjacent-only
+  behavior. Regional spans must cover each text region once; specialized ranges
+  must fit their region and original text. Controller rows retain null cells and
+  original figure-area attribution; signal notations track overlined glyphs.
+- Three new synthetic tests cover successful Korean/combining-mark joins and
+  rejection of incomplete/reordered interruptions, missing/duplicate regions,
+  wrong UTF-8 spans/scans, changed table cells/blank semantics and reference
+  identities. All22 assembly tests and all68 PDF tests pass. The actual export
+  checker rejects a rehashed alteration to a global signal range.
+- The93 regions produce50 reading blocks,21 original images and20 captions.
+  Page93's 과 joins94's 의 차이점을 보여주고 있다. with an empty separator.
+  Four figures, four captions and the comparison table retain relative order.
+  Four obsolete scope notes are resolved; original partial-state records remain
+  in the preserved segment directories.
+- Combined `corrections.json` projects40 review notes,72 regional ranges, eight
+  controller rows,29 Unicode spans,10 signal entries and three references into
+  article.txt. All122 specialized ranges and51 original block ranges reproduce
+  source bytes exactly. Nine original prose-join records remain; literal570S,
+  CUP,8257,CRT,클런신호,모렘 and bibliographic anomalies remain unchanged.
+  Character-perfect transcription, technical claims and original bytes remain
+  outside certification.
+- The339-file article package (65,078,566 bytes) rebuilds byte-identically.
+  Coverage, reading order, source copies, original OCR, all range/scan links and
+  tamper detection pass. Desktop1440×1000/mobile390×844 checks verify50 blocks,
+  96 pins,40 review ranges and122 specialized ranges. No overflow or application
+  errors; initial favicon404 only. Original photo opens at2046×1948. Actual
+  article download matches23,585 bytes; no code download is generated. Two
+  screenshots inspected and browser closed. Preview: `http://127.0.0.1:4256/`.
+- Output `build/pdf-restoration/12-1984-02-systems-assemble` has342 files /
+  65,148,938 bytes. Manifest SHA-256:
+  `a8c98d3c018596a1b40f6d11dfec0fd2292b7d1159ffec6eabc5bbde24eed4a6`.
+  Recipe, saved original tooling, tests, validation, ledger snapshots and next
+  plan are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-systems-assemble`. Elapsed637.6s includes
+  implementation, tests, assembly/rebuild, tamper check, browser review and waits.
+- Only systems entry0017 was promoted. February now has **sixteen readable/
+  sample-reviewed articles, no partial articles, two group headings and25
+  unresolved eligibility decisions**. Next: **12-1984-02-batch-17**, verify and
+  restore 타임머신 from PDF93/printed97 within six source pages. Full-issue
+  restoration, reconciliation and staged reader acceptance remain open.

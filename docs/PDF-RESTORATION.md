@@ -2868,3 +2868,64 @@ three references with global UTF-8 ranges. Meaningful negative tests and full PD
 regression precede article promotion. February counts remain fifteen readable,
 one partial, two headings and25 unresolved eligibility decisions; full issue
 restoration and staged reader acceptance remain pending.
+
+
+## Complete February systems assembly and regional correction ranges
+
+`12-1984-02-systems-assemble` combines both immutable systems segments into
+readable/sample-reviewed coverage of all nine printed pages88–96 / PDF84–92.
+No source pages or OCR are regenerated. The93 regions produce50 reading blocks,
+21 original images,20 captions, an eight-row controller table and three references.
+The page93/94 sentence is joined at 과/의 with an empty separator, retaining the
+relative order of the intervening four figures, four captions and table.
+
+The opt-in `regional-prose-v1` recipe mode requires an `intervening` list on each
+prose join. Each entry has `segment`, `type` (`figure` or `block`) and local `id`.
+The exact intervening order must match source content. Blocks must be captions
+or prose backed by a source-linked controller-table index. Unlisted or arbitrary
+prose and code listings are rejected. Existing modes remain adjacent-only.
+
+This mode projects `regional_text_index`, `controller_table_index`,
+`unicode_glyphs`, `signal_notation_index` and `reference_index`. Every source
+text region is represented exactly once; each specialized span must lie within
+its source region, match source bytes and retain a valid scan pin. Table rows
+retain consecutive identities and explicit null cells linked to their original
+figure area. Signal notation corresponds to overlined Unicode reading glyphs.
+Projected rows contain global offsets, original offsets and segment identities;
+complete original correction files and metadata remain under `segments/`.
+
+The assembled correction file preserves40 text review notes,72 regional ranges,
+eight controller rows,29 Unicode spans,10 signal entries and three references.
+All122 specialized spans and51 source block ranges match the original download
+bytes. Nine segment-local prose joins and the new cross-segment join are recorded.
+Only four superseded partial-coverage notes are resolved. Historical570S,CUP,
+8257,CRT,클런신호,모렘 and bibliographic anomalies remain owner-proofread scope.
+
+Three new synthetic tests exercise successful and rejected joins/ranges with
+Korean and combining overbars. All22 assembly tests and all68 PDF tests pass.
+The real339-file package (65,078,566 bytes) rebuilds byte-identically, preserves
+both original segments and2,559 prior files, and rejects a rehashed change to a
+signal range through independent reprojection.
+
+```sh
+PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble \
+  --recipe private/pdf-restoration/12-1984-02-systems-assemble/assembly-recipe.json \
+  --output build/pdf-restoration/12-1984-02-systems-rebuild
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-systems-assemble/systems
+```
+
+Desktop1440×1000/mobile390×844 checks pass for50 blocks,96 pins,40 text notes
+and122 specialized spans, with no page overflow. The original photograph opens
+at2046×1948 and the actual article download matches23,585 bytes. Two screenshots
+were inspected and the browser closed. Preview: `http://127.0.0.1:4256/`.
+Private evidence and scripts are in `private/pdf-restoration/12-1984-02-systems-assemble`;
+screenshots/downloads are under `output/playwright/pdf-1984-02-systems-assemble`.
+The342-file wrapper totals65,148,938 bytes, manifest SHA-256
+`a8c98d3c018596a1b40f6d11dfec0fd2292b7d1159ffec6eabc5bbde24eed4a6`.
+
+February now has sixteen readable/sample-reviewed articles, no partial articles,
+two group headings and25 unresolved eligibility decisions. Next is
+`12-1984-02-batch-17`, 타임머신 from verified PDF93/printed97; its candidate
+five-page extent and next graph article boundary require local verification.
+Full-issue restoration and staged reader acceptance remain pending; prior
+cover/TOC integration is preserved.

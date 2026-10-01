@@ -38,15 +38,15 @@ All six editor sections, file-format/P-machine discussion, nine independent
 examples and four illustrations are preserved. Batch15 restored the first six
 pages of 마이크로컴퓨터 시스템 입문, printed88–93 / PDF84–89. Its complete
 extent is verified at printed88–96 / PDF84–92; 타임머신 starts97 / PDF93.
-The partial package preserves15 images,14 captions and an eight-row searchable
-controller table. February has fifteen readable/sample-reviewed articles, one
-partial/sample-reviewed article, two group headings and25 unresolved eligibility
-decisions. Batch16 restored final printed94–96 / PDF90–92, including figures15–20,
-three references and ten overlined signal-name occurrences. All nine pages are
-preserved in two partial packages. Next is **12-1984-02-systems-assemble**:
-explicitly join the split sentence across intervening figures/table and project
-all regional correction indexes before validating the complete article.
-Step12 remains open.
+The first package preserves15 images,14 captions and an eight-row searchable
+controller table. Batch16 restored final printed94–96 / PDF90–92, including
+figures15–20, three references and ten overlined signal-name occurrences.
+The complete nine-page article is now assembled and validated, preserving both
+immutable segments and projecting every regional correction index. February has
+sixteen readable/sample-reviewed articles, no partial articles, two group headings
+and25 unresolved eligibility decisions. Next is **12-1984-02-batch-17**: verify
+and restore 타임머신 from PDF93/printed97, including its end and next-article
+boundary. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -448,16 +448,15 @@ issue in the staged reader before moving to remaining issues.
   the verified scan-order jump, all six editor sections, four illustrations and
   nine independent examples. The circled DEMO markers are editorial labels;
   retain deliberate inyeger and literal menu/technical wording without repair.
-- 마이크로컴퓨터 시스템 입문 is verified at printed88–96 / PDF84–92; the
-  first six pages are partial/sample-reviewed. Preserve its15 original images,
-  eight-row controller table, literal570S/CUP/8257 readings and source joins.
-  Both segments now cover all nine pages; 타임머신 starts97 / PDF93.
-  Page93 ends 과 and94 begins 의 차이점을 보여주고 있다.; join without a
-  separator across the explicitly reviewed figure/caption/table items. The current
-  assembler only supports adjacent blocks and does not project regional, table,
-  signal, Unicode or reference indexes. Add bounded opt-in support with negative
-  tests, preserve all original segment files and verify50 joined blocks,21 images,
-  72 regional ranges and40 review notes before promoting the article.
+- 마이크로컴퓨터 시스템 입문 is complete at printed88–96 / PDF84–92.
+  Preserve both original segments,21 images,20 captions, eight controller rows,
+  three references,72 regional ranges and40 review notes. The explicit page93/94
+  과/의 join retains the intervening figure/caption/table order. The tested
+  opt-in `regional-prose-v1` assembly mode projects regional, table, Unicode,
+  signal and reference ranges while keeping old assembly behavior unchanged.
+- 타임머신 begins at verified PDF93/printed97. Its candidate97–101 extent
+  follows the catalog's next graph article at102; inspect every continuation
+  folio and actual boundary locally within the six-source-page ceiling.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

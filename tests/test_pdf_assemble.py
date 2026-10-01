@@ -657,6 +657,135 @@ class PDFAssemblyTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'correction projection'):
             check_export(self.output)
 
+    def regional_segments(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.standalone_segments(prose=True)
+        for i, (source, c) in enumerate(segments):
+            block, prose = source['blocks']
+            region = block['region_ids'][0]
+            block.update(kind='prose', text='분류 | 용도 | 모델 | ' if i == 0 else '1. 인쇄 참조')
+            next(r for r in source['regions'] if r['id'] == region)['kind'] = 'prose'
+            prose['text'] = '한글 끝과' if i == 0 else '의 D̅S̅R̅ 설명.'
+            scan = source['region_assets'][0]['asset']
+            if i == 0:
+                next(r for r in source['regions'] if r['id'] == region)['bbox'] = source['regions'][1]['bbox'][:]
+                source['regions'].append(dict(source['regions'][0], id='caption', kind='caption'))
+                source['region_assets'].append(dict(region_id='caption', asset=scan))
+                c['records'].append(dict(id='caption', region_ids=['caption'], scan=scan, raw_ocr=None))
+                source['blocks'].append(dict(id='caption', kind='caption', text='그림 설명', region_ids=['caption'],
+                    correction_evidence=['corrections.json#caption'], uncertainties=[]))
+                source['verification']['reviewed_region_ids'].append('caption')
+                source['content_order'] = [dict(type='block', id='prose'), dict(type='figure', id='figure0'),
+                                          dict(type='block', id='caption'), dict(type='block', id='block0')]
+            for key in ('listing_index', 'listing_groups', 'listing_line_index', 'listing_anomalies',
+                        'unresolved_graphics', 'unicode_glyphs', 'signal_notation_index',
+                        'controller_table_index', 'reference_index'):
+                c[key] = []
+            ranges = block_ranges(source)
+            c['blocks'] = deepcopy(source['blocks'])
+            c['text_index'], c['regional_text_index'], c['text_review_items'] = [], [], []
+            c['regional_transcription'] = {}
+            for b in source['blocks']:
+                start, end = ranges[b['id']]
+                row = dict(block_id=b['id'], region_id=b['region_ids'][0], scan=scan, download='article.txt',
+                           utf8_byte_start=start, utf8_byte_end_exclusive=end)
+                c['regional_text_index'].append(row)
+                c['text_index'].append(dict(row, region_ids=b['region_ids']))
+                c['text_review_items'].append(dict(row, transcription_excerpt=b['text']))
+                c['regional_transcription'][row['region_id']] = b['text']
+            if i == 0:
+                row = next(r for r in c['regional_text_index'] if r['block_id'] == 'block0')
+                c['controller_table_index'] = [dict(row, table_id='figure0', row=1, classification='분류',
+                    purpose='용도', series_8080='모델', series_z80=None, original_blank_cells_preserved=True)]
+            else:
+                row = next(r for r in c['regional_text_index'] if r['block_id'] == 'prose')
+                start = row['utf8_byte_start'] + len('의 '.encode())
+                c['unicode_glyphs'] = [dict(row, glyph='D̅S̅R̅', utf8_byte_start=start,
+                    utf8_byte_end_exclusive=start+len('D̅S̅R̅'.encode()), encoded_bytes=None, source_encoding_verified=False)]
+                c['signal_notation_index'] = deepcopy(c['unicode_glyphs'])
+                row = next(r for r in c['regional_text_index'] if r['block_id'] == 'block1')
+                c['reference_index'] = [dict(row, number=1, transcription_excerpt='1. 인쇄 참조', bibliographically_verified=False)]
+        self.recipe.update(index_mode='regional-prose-v1', prose_joins=[dict(
+            left=dict(segment='opening', block_id='prose', ending='과'),
+            right=dict(segment='continuation', block_id='prose', opening='의'), separator='',
+            intervening=[dict(segment='opening', type=kind, id=id) for kind, id in
+                         [('figure','figure0'), ('block','caption'), ('block','block0')]])])
+        return segments
+
+    def test_regional_prose_preserves_interrupted_join_source_ranges_and_blank_cells(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.regional_segments()
+        before = deepcopy(segments)
+        package, c = project(self.recipe, segments)
+        self.assertEqual(before, segments)
+        self.assertEqual(next(b['text'] for b in package['blocks'] if b['id'] == 'opening-prose'),
+                         '한글 끝과의 D̅S̅R̅ 설명.')
+        self.assertEqual([r['id'] for r in package['content_order']],
+                         ['opening-prose', 'opening-figure0', 'opening-caption', 'opening-block0',
+                          'continuation-figure1', 'continuation-block1'])
+        data, listing = text_bytes(package)
+        self.assertEqual(listing, b'')
+        for key in ('regional_text_index', 'controller_table_index', 'unicode_glyphs',
+                    'signal_notation_index', 'reference_index'):
+            for row in c[key]:
+                self.assertEqual(data[row['utf8_byte_start']:row['utf8_byte_end_exclusive']].decode(),
+                                 row['transcription_excerpt'])
+                self.assertTrue(row['scan']['path'].startswith('segments/'))
+                self.assertIn('source_range', row)
+        glyph = c['unicode_glyphs'][0]
+        self.assertEqual(glyph['region_id'], 'continuation-prose')
+        self.assertEqual(glyph['block_id'], 'opening-prose')
+        self.assertEqual(c['controller_table_index'][0]['table_id'], 'opening-figure0')
+        self.assertIsNone(c['controller_table_index'][0]['series_z80'])
+        self.assertEqual(project(self.recipe, segments), (package, c))
+
+    def test_regional_prose_rejects_unreviewed_interruption_and_keeps_legacy_strict(self):
+        segments = self.regional_segments()
+        recipe = deepcopy(self.recipe)
+        for change in ('missing', 'reordered', 'duplicate', 'invented', 'body', 'caption-kind', 'code', 'legacy'):
+            current = deepcopy(segments)
+            self.recipe = deepcopy(recipe)
+            items = self.recipe['prose_joins'][0]['intervening']
+            if change == 'missing': items.pop()
+            if change == 'reordered': items.reverse()
+            if change == 'duplicate': items.append(deepcopy(items[0]))
+            if change == 'invented': items[0]['id'] = 'unseen'
+            if change == 'body': current[0][1]['controller_table_index'] = []
+            if change == 'caption-kind': current[0][0]['blocks'][-1]['kind'] = 'prose'
+            if change == 'code': current[1][0]['blocks'][0]['kind'] = 'code'
+            if change == 'legacy':
+                self.recipe['index_mode'] = 'standalone-examples-v1'
+                del self.recipe['prose_joins'][0]['intervening']
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, current)
+
+    def test_regional_prose_rejects_bad_region_utf8_signal_table_and_reference_evidence(self):
+        segments = self.regional_segments()
+        for change in ('missing-region', 'duplicate-region', 'regional-text', 'regional-block', 'utf8',
+                       'glyph', 'foreign-region', 'scan', 'signal', 'signal-inference',
+                       'table-cell', 'table-blank', 'table-figure', 'table-number', 'reference', 'reference-number'):
+            current = deepcopy(segments)
+            source, first = current[0]
+            second = current[1][1]
+            if change == 'missing-region': second['regional_text_index'].pop()
+            if change == 'duplicate-region': second['regional_text_index'].append(second['regional_text_index'][0])
+            if change == 'regional-text': second['regional_transcription']['prose'] = '다른 글'
+            if change == 'regional-block': second['regional_text_index'][0]['block_id'] = 'prose'
+            if change == 'utf8': second['unicode_glyphs'][0]['utf8_byte_start'] += 1
+            if change == 'glyph': second['unicode_glyphs'][0]['glyph'] = 'R̅T̅S̅'
+            if change == 'foreign-region': second['unicode_glyphs'][0]['region_id'] = 'code1'
+            if change == 'scan': second['unicode_glyphs'][0]['scan'] = dict(second['unicode_glyphs'][0]['scan'], sha256='0'*64)
+            if change == 'signal': second['signal_notation_index'] = []
+            if change == 'signal-inference': second['unicode_glyphs'][0]['source_encoding_verified'] = True
+            if change == 'table-cell': first['controller_table_index'][0]['series_8080'] = '교정한 모델'
+            if change == 'table-blank': first['controller_table_index'][0]['series_z80'] = ''
+            if change == 'table-figure': source['regions'][0]['bbox'] = [0,0,1,.4]
+            if change == 'table-number': first['controller_table_index'][0]['row'] = 2
+            if change == 'reference': second['reference_index'][0]['transcription_excerpt'] = '수정된 참조'
+            if change == 'reference-number': second['reference_index'][0]['number'] = 2
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, current)
+
     def test_deterministic_assembly_preserves_segments_offsets_and_review(self):
         original = {name:{p.relative_to(self.root/'build'/name).as_posix():p.read_bytes()
                          for p in (self.root/'build'/name).rglob('*') if p.is_file()}

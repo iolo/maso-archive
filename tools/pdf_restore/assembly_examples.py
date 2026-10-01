@@ -11,13 +11,16 @@ from .assembly_indexes import END, START, Segment, block_ranges, namespace, span
 from .package import validate_package
 
 
-def validate_joins(rows):
+def validate_joins(rows, regional=False):
     if not isinstance(rows, list):
         raise ValueError('Standalone assembly requires explicit prose joins')
     for row in rows:
-        if (not isinstance(row, dict) or set(row) != {'left', 'right', 'separator'} or
+        if (not isinstance(row, dict) or set(row) != ({'left', 'right', 'separator', 'intervening'} if regional else {'left', 'right', 'separator'}) or
                 row['separator'] not in ('', ' ', '\n\n')):
             raise ValueError('Invalid prose join')
+        if regional:
+            from .assembly_regional import validate_intervening
+            validate_intervening(row['intervening'])
         for side, edge in (('left', 'ending'), ('right', 'opening')):
             part = row[side]
             if (not isinstance(part, dict) or set(part) != {'segment', 'block_id', edge} or
@@ -42,7 +45,13 @@ def join_blocks(recipe, package, contexts):
         a, b = (blocks[id] for id in ids)
         order = package['content_order']
         i = order.index(dict(type='block', id=ids[0]))
-        if (i + 1 >= len(order) or order[i + 1] != dict(type='block', id=ids[1]) or
+        j = order.index(dict(type='block', id=ids[1]))
+        if recipe.get('index_mode') == 'regional-prose-v1':
+            from .assembly_regional import check_intervening
+            check_intervening(row['intervening'], order[i + 1:j], contexts)
+        elif j != i + 1:
+            raise ValueError('Prose join differs from adjacent reviewed text')
+        if (j <= i or
                 a['kind'] != 'prose' or b['kind'] != 'prose' or
                 not a['text'].endswith(left['ending']) or not b['text'].startswith(right['opening'])):
             raise ValueError('Prose join differs from adjacent reviewed text')
@@ -51,7 +60,7 @@ def join_blocks(recipe, package, contexts):
         for key in ('region_ids', 'correction_evidence', 'uncertainties'):
             a[key] = list(dict.fromkeys(a[key] + b[key]))
         package['blocks'].remove(b)
-        del order[i + 1]
+        del order[j]
         positions[ids[1]] = (ids[0], offset)
         used.update(ids)
         resolved.append(dict(kind='prose', status='joined-reading-blocks', block_id=ids[0],
@@ -62,6 +71,9 @@ def join_blocks(recipe, package, contexts):
 
 def project_examples(recipe, originals):
     wrapped = recipe.get('index_mode') == 'wrapped-listing-v1'
+    regional = recipe.get('index_mode') == 'regional-prose-v1'
+    if regional and any(b['kind'] == 'code' for source, _ in originals for b in source['blocks']):
+        raise ValueError('Regional prose mode cannot assemble code listings')
     contexts, offset, normalized = [], 0, []
     for spec, (source, correction) in zip(recipe['segments'], originals, strict=True):
         if correction.get('glyph_definitions'):
@@ -87,6 +99,9 @@ def project_examples(recipe, originals):
                        reading_replacements={}, resolved_continuations=resolved, identity_map=[])
     if wrapped:
         corrections.update(logical_listing_line_index=[], data_statements=[], source_listing_groups=[])
+    if regional:
+        from .assembly_regional import FIELDS
+        corrections.update({field: [] for field in FIELDS})
     for context, segment_record in zip(contexts, corrections['segments'], strict=True):
         original = context.correction
         segment_record['original_corrections'] = rebase(context.source['corrections'][0], context.prefix)
@@ -137,6 +152,9 @@ def project_examples(recipe, originals):
                         row.get('machine_byte_verified') is not False):
                     raise ValueError('Text glyph note requires an unverified rendered glyph')
                 corrections[field].append(text_range(row))
+        if regional:
+            from .assembly_regional import project_regional
+            project_regional(context, corrections, text_range)
         for id, text in original.get('regional_transcription', {}).items():
             corrections['regional_transcription'][context.identity(id, context.regions)] = deepcopy(text)
         for id, replacements in original.get('reading_replacements', {}).items():
