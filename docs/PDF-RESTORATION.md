@@ -3060,3 +3060,28 @@ assembly. Their combined evidence includes119 regions,99 blocks,11 images,
 The next checkpoint must project regional and listing indexes together; preserve
 original segments and existing assembly mode behavior. No new OCR or boundary
 sentence join is needed. Whole-issue reader staging remains deferred.
+
+
+## Mixed regional and listing assembly
+
+`regional-listing-v1` combines the existing regional/Unicode text projection and
+wrapped-listing projection. Use it when an immutable article's segments contain
+both indexed prose and BASIC. It validates regional spans against article.txt,
+listing spans against listing.txt, physical/logical row identities and original
+scan links before rebasing. Original correction metadata and all source packages
+remain unchanged. Prose joins use the regional mode's explicit `intervening` list;
+code joins across segments are not inferred. Existing index modes retain their
+behavior, including regional-prose-v1's rejection of code.
+
+The February accounting assembly covers printed125–135/PDF121–131:119 regions,
+99 reading blocks,11 images,246 BASIC rows and35 margin labels. Its corrections
+project180 reviews,108 regional ranges,28 Unicode spans,98 listing reviews and65
+unresolved items. Nine internal prose joins remain; no new boundary join.
+73 PDF tests and the complete package's rebuild, source-preservation and tamper
+checks pass. Original symbol/spacing markers remain for manual correction.
+
+Per the user's clarified scope, ordinary PDF extraction/assembly validates JSON,
+assets, provenance, correction indexes and reproducibility. It does not require
+Playwright or per-batch desktop/mobile preview checks. Reader acceptance remains
+at issue closeout and integration. Previously collected browser evidence stays
+as history and is not a requirement to close an otherwise valid package.

@@ -657,6 +657,57 @@ class PDFAssemblyTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'correction projection'):
             check_export(self.output)
 
+    def regional_listing_segments(self):
+        segments = self.wrapped_segments(split_panel=True)
+        self.recipe.update(index_mode='regional-listing-v1', prose_joins=[])
+        for source, c in segments:
+            c['regional_text_index'] = [dict(row, region_id=row['region_ids'][0],
+                scan=row['scans'][0]) for row in c['text_index']]
+            c['unicode_glyphs'] = [dict(row, glyph=row['transcription_excerpt'],
+                encoded_bytes=None, source_encoding_verified=False) for row in c['text_review_items']]
+        return segments
+
+    def test_regional_listing_projects_both_downloads_without_changing_sources(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import span
+        segments = self.regional_listing_segments()
+        untouched = deepcopy(segments)
+        p, c = project(self.recipe, segments)
+        article, listing = text_bytes(p)
+        self.assertEqual(segments, untouched)
+        self.assertEqual(listing, b''.join(text_bytes(s)[1] for s, _ in segments))
+        self.assertEqual(len(c['regional_text_index']), 3)
+        self.assertEqual(len(c['unicode_glyphs']), 2)
+        self.assertEqual(len(c['listing_line_index']), 6)
+        self.assertEqual(len(c['logical_listing_line_index']), 4)
+        for field, data in [('regional_text_index', article), ('unicode_glyphs', article),
+                            ('listing_anomalies', listing)]:
+            for row in c[field]:
+                self.assertEqual(span(row, data), row['transcription_excerpt'])
+        # Opt-in projection leaves the historical wrapped result intact.
+        old_recipe = dict(self.recipe, index_mode='wrapped-listing-v1')
+        _, old = project(old_recipe, segments)
+        self.assertNotIn('regional_text_index', old)
+        self.assertNotIn('unicode_glyphs', old)
+        for key in ('listing_index', 'listing_line_index', 'logical_listing_line_index',
+                    'listing_anomalies', 'data_statements', 'text_review_items'):
+            self.assertEqual(c[key], old[key])
+        with self.assertRaisesRegex(ValueError, 'cannot assemble code'):
+            project(dict(self.recipe, index_mode='regional-prose-v1'), segments)
+
+    def test_regional_listing_rejects_damage_to_either_coordinate_system(self):
+        original = self.regional_listing_segments()
+        for change in ('region', 'glyph', 'physical', 'logical', 'review'):
+            segments = deepcopy(original)
+            c = segments[0][1]
+            if change == 'region': c['regional_text_index'].pop()
+            if change == 'glyph': c['unicode_glyphs'][0]['utf8_byte_start'] += 1
+            if change == 'physical': c['listing_line_index'][0]['physical_line'] += 1
+            if change == 'logical': c['logical_listing_line_index'][0]['source_parts'] = []
+            if change == 'review': c['listing_anomalies'][0]['transcription_excerpt'] = 'wrong'
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
     def regional_segments(self):
         from tools.pdf_restore.assembly_indexes import block_ranges
         segments = self.standalone_segments(prose=True)

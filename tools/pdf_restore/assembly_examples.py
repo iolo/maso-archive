@@ -46,7 +46,7 @@ def join_blocks(recipe, package, contexts):
         order = package['content_order']
         i = order.index(dict(type='block', id=ids[0]))
         j = order.index(dict(type='block', id=ids[1]))
-        if recipe.get('index_mode') == 'regional-prose-v1':
+        if recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1'):
             from .assembly_regional import check_intervening
             check_intervening(row['intervening'], order[i + 1:j], contexts)
         elif j != i + 1:
@@ -70,9 +70,9 @@ def join_blocks(recipe, package, contexts):
 
 
 def project_examples(recipe, originals):
-    wrapped = recipe.get('index_mode') == 'wrapped-listing-v1'
-    regional = recipe.get('index_mode') == 'regional-prose-v1'
-    if regional and any(b['kind'] == 'code' for source, _ in originals for b in source['blocks']):
+    wrapped = recipe.get('index_mode') in ('wrapped-listing-v1', 'regional-listing-v1')
+    regional = recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1')
+    if regional and not wrapped and any(b['kind'] == 'code' for source, _ in originals for b in source['blocks']):
         raise ValueError('Regional prose mode cannot assemble code listings')
     contexts, offset, normalized = [], 0, []
     for spec, (source, correction) in zip(recipe['segments'], originals, strict=True):

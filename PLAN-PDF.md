@@ -56,11 +56,12 @@ Its complete extent is verified at printed125–135 / PDF121–131. Batch24 rest
 the final explanation and all four BASIC pages:246 numbered rows,35 margin labels
 and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
-markers. February has **twenty-two readable and one partial article**, all
-sample-reviewed, three group headings and17 unresolved eligibility decisions.
-Next is **12-1984-02-accounting-assemble**: combine the eleven pages, project all
-regional and listing correction indexes, and validate the complete article.
-Step12 remains open.
+markers. The eleven-page accounting article is now assembled and validated with
+all regional/Unicode and listing correction indexes projected together. February
+has **twenty-three readable articles**, all sample-reviewed, no partial articles,
+three group headings and17 unresolved eligibility decisions. Next is
+**12-1984-02-batch-25**: verify UNIX's complete extent from printed136/PDF132
+and restore up to six pages. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -402,7 +403,11 @@ within step 10's limits, followed by a separate `11-closeout` checkpoint.
   downloads, scan evidence, and visible states using the existing preview tooling.
 
 **Artifact/check per batch:** saved packages and reconciled batch outcomes, with
-region/order checks and recorded text-review coverage. **Issue closeout:** all
+region/order checks and recorded text-review coverage. Validate JSON, assets,
+source links, correction byte ranges and reproducibility at this stage. Browser
+layout/download checks are reserved for issue closeout and reader integration;
+ordinary extraction and assembly batches do not require Playwright acceptance.
+**Issue closeout:** all
 47 entries have a classification and every eligible article has an outcome;
 no unlisted article is added. Report readable/partial/image-only/failed/unresolved
 counts separately, plus unresolved eligibility decisions. Export and inspect the
@@ -523,9 +528,10 @@ issue in the staged reader before moving to remaining issues.
   notes and98 listing review spans. Tight W/AA/AB crop edges and1534's placement
   in the following region are documented; full panels retain exact source context.
   Each statement appears once in listing.txt. Literal THEN343, LB=0, KICOM and
-  F1$/D1$ remain unchanged. Assembly must project both regional/Unicode indexes
-  and listing rows/reviews, preserving previous modes and immutable segments.
-  No new OCR, inter-segment sentence join, code repair or execution is needed.
+  F1$/D1$ remain unchanged. Completed assembly projects both regional/Unicode
+  indexes and listing rows/reviews through opt-in regional-listing-v1. Both source
+  packages and previous mode behavior are preserved. All73 PDF tests, complete
+  range validation and byte-identical rebuild pass; no new OCR or boundary join.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

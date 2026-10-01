@@ -5808,3 +5808,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
   There were53 revised-region reruns plus five new regions, no task failures.
   Token accounting separates cached input, uncached input and output; finer
   activity attribution is explicitly approximate. Restoration has not resumed.
+
+### 2026-10-01 — 12-1984-02-accounting-assemble complete
+
+- Combined all11 accounting pages, printed125–135/PDF121–131, from the two
+  immutable packages.119 regions yield99 blocks and11 images.246 BASIC rows,
+  35 margin labels and nine internal prose joins remain; no new OCR or join.
+- Added opt-in regional-listing-v1:108 regional ranges,28 Unicode spans,
+  180 text reviews,98 listing reviews and65 unresolved items now reference the
+  complete downloads. Existing modes retain their behavior. Original symbols,
+  wording and crop/bracket limitations remain available for manual correction.
+- All73 PDF tests (27 assembly tests), full correction-range checks, deterministic
+  rebuild, rehashed-index tamper rejection and4,438 prior-file pins pass.
+  The475-file article package is148,188,146 bytes; article.txt44,651 bytes,
+  listing.txt11,638 bytes. Wrapper478 files/148,285,486 bytes; manifest SHA-256
+  1295acc6e1396440c9df7366ec5f7e42897a96da8ef3c37d4d8776af47e7550d.
+- Earlier browser evidence verified99 blocks,123 pins and all11 images, with
+  no page overflow; three saved screenshots were inspected. This is historical
+  evidence, not a batch gate. The user clarified that PDF-to-JSON/assets work
+  does not need Playwright. PLAN and documentation now reserve browser acceptance
+  for issue closeout/reader integration. No additional browser checks were run.
+  A browser-close command failed on npm DNS; closure does not block the artifact.
+- Only entry0022 is promoted:23 readable/sample-reviewed articles, no partials,
+  three group headings and17 unresolved eligibility decisions. Whole-issue
+  reconciliation and reader staging remain pending. Next: UNIX, batch25.
+- Private recipes, snapshots, validation and source references are preserved in
+  private/pdf-restoration/12-1984-02-accounting-assemble. Elapsed976.6s includes
+  the intervening cost audit and browser-close wait, not just assembly work.
