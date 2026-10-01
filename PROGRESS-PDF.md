@@ -6984,3 +6984,65 @@ history remains in [PROGRESS.md](PROGRESS.md).
   ASCII-code tables and explicit shared-page advertisement exclusion,then
   dictionary assembly,two heading classifications and full issue closeout.
   Corrected TOC and completed cover/TOC integrations remain unchanged.
+
+### 2026-10-02 — 12-1984-02-batch-46 started
+
+- Restore final dictionary237–239/PDF233–235 and source ASCII tables.
+  Preserve9,867 prior-file pins and four immutable segments;81172d1 made
+  verified progress. Lookup images reused;no browser or reader staging.
+
+### 2026-10-02 — 12-1984-02-batch-46 complete: final dictionary237–239
+
+- Restored final237–239/PDF233–235,TOC0036. Six final definitions cover VERIFY,
+  VLIN AT,VTAB,WAIT,XDRAW AT and XPLOT,followed by ASCII prose/tables. All
+  folios and running headers checked. Earlier24 pages remain immutable;full
+  dictionary extent213–239/PDF209–235 is now verified. No source pages remain
+  deferred;whole-article assembly is still pending and availability stays partial.
+- 28 regions,21 blocks,six original table images and five captions preserve
+  source material.22 regional ranges,25 review notes,52 Unicode spans,seven
+  boxed machine labels,two independent examples and two WAIT formulas validate.
+  One prose join connects237 ending SHIFT시킨 with239 opening 문자는,across
+  the intervening table page238. Six figure/caption links retain table2's two
+  panels. Shared239 laser-book advertisement explicitly excluded;following240
+  is advertising,confirming the article ending.
+- Five tables retain166 ordered data rows and six physical headers.618 nonblank
+  cell ranges and two explicitly blank source cells remain indexed. Table3's
+  printed third code repeats96;row identities prevent collapse. Table5 preserves
+  first161→255 and final222→255 separately. Caption5 says PET16 and final prose
+  says TAB;neither is silently repaired. Header POKE59468 12 keeps its absent
+  comma. Table1's CTRL M / RETURN slash documents two-line-cell linearization.
+- 64 unique source-cell markers retain eight unclear ink symbols in tables2/3
+  plus26 table4 and30 table5 position-dependent PET bitmap cells. Original
+  images remain authority;printed numeric labels are transcribed,not certified
+  recovered character bytes. Final table5 pi and directional keys are documented
+  reading representations. Full proofreading/manual correction remains deferred.
+- Mixed-case PRiNT/PrINT,Apple/PET differing WAIT formulas,XPLOT future claim,
+  VLIN coordinates and historical ASCII descriptions remain literal. The five-row
+  character-display example and two-row VTAB example stay independent;no code
+  execution or technical repair. No crop/OCR revisions or processing failures.
+- Validation passed:9,867 prior-file pins,source/OCR assets,all region images,
+  ZIP bytes,join,definition/label/example/formula/POKE/key/table/row/cell ranges,
+  all64 markers,caption links,advertisement non-overlap,27-page assembly
+  preflight and one fresh byte-identical rebuild. Generic tooling and existing
+  77-test log pins unchanged;no full-suite repeat,pipeline change or browser work.
+- Measured task-ledger execution23.429967s for28 initial tasks. Wall interval
+  619.9s includes mapping,source-table review,transcription,export,validation,
+  rebuild and closeout;not active compute time. Stage token usage unmeasured.
+  No private-script/test authoring failures in this checkpoint.
+- Output `build/pdf-restoration/12-1984-02-batch-46`:106 files,
+  19,705,052 bytes;article.txt10,798 bytes. Article manifest SHA-256:
+  `cb6480a976b93572cd2d6d876c786130632c928a2cea0d7c636aaab5d528eb72`.
+  Wrapper manifest SHA-256:
+  `133ae6b07c6e542a092fecd42d43437ae907bfbc887e264ac7623f1454fdcd13`.
+  Private map/OCR,source-literal table transcription,corrections,validation,
+  assembly preflight,ledger snapshots and assembly plan remain available.
+- Counts unchanged:43 entries,37 classified/sample-reviewed articles (36
+  readable,one partial dictionary),four group headings and two unresolved
+  headings. Only0036 coverage changed. Next assemble all27 dictionary pages
+  from five segments without new OCR;join first DEFDBL 한/다. boundary.
+  Expected290 regions,245 combined blocks,14 images,276 regional ranges,
+  207 review notes,236 Unicode spans and73 source-local uncertainty markers.
+  Preserve204 definition fragments (203 after DEFDBL join),257 labels,219
+  table/header rows,55 independent examples and14 formula ranges locally.
+  Two heading classifications and full issue closeout remain. Corrected TOC
+  and completed cover/TOC integrations stay unchanged.

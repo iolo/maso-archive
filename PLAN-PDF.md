@@ -82,10 +82,12 @@ including47 entries,17 independent examples and three original table images.
 Batch45 restored231–236/PDF227–232,including57 entries,19 independent
 examples and the original REPT image. Twenty-four pages are now preserved in
 four immutable segments;two TI$ HOME symbols remain source-linked markers.
-Next is **12-1984-02-batch-46**: restore final237–239/PDF233–235,including
-ASCII-code tables,then assemble the dictionary. Three source pages and assembly
-remain,subject to final continuity verification. Two section classifications
-and full issue reconciliation/closeout also remain.
+Batch46 restored final237–239/PDF233–235,including six final commands,
+five ASCII tables in six original panels and166 searchable data rows. All27
+pages now have verified continuity;64 final table-glyph markers remain explicit.
+Next is **12-1984-02-dictionary-assemble**: combine the five immutable segments,
+join DEFDBL across the first boundary and preserve all correction records.
+Two section classifications and full issue reconciliation/closeout also remain.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -751,6 +753,18 @@ issue in the staged reader before moving to remaining issues.
   extension restores the final sentence;68 cached regions reused. Fresh rebuild
   matches. Twenty-four pages preserved;next final237–239/code tables,then
   assembly and issue closeout. No per-batch browser or reader staging.
+- Final dictionary237–239/PDF233–235 is restored:28 regions,21 blocks,six
+  original table images,five captions,22 regional ranges,25 review notes and52
+  Unicode spans. Six final definitions,seven machine labels,two independent
+  examples and two WAIT formulas remain literal. Five tables contain166 data
+  rows plus six physical headers,618 nonblank cell ranges and two blank cells.
+  Table3 repeats96;table5 preserves161→255 and222→255;caption5 says16 and
+  final prose says TAB.64 source-cell graphic markers defer uncertain ink
+  symbols and position-dependent PET bitmaps without inferring their bytes.
+  ASCII prose joins237 to239 across the intervening tables. Shared laser-book
+  advertisement excluded;following240 advertising confirms the ending. All27
+  pages now verified;fresh rebuild matches,no OCR retries. Next assemble five
+  immutable segments with one DEFDBL join and all local correction indexes.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
