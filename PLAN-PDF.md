@@ -473,11 +473,15 @@ issue in the staged reader before moving to remaining issues.
   and the source's incomplete prose corrections. Literal $300(786),80행,
   Y1),그리,/나머 and historical technical claims remain unmodified. Exact target
   articles/issues are unverified; never apply patches silently to prior exports.
-- PDF105–106 are advertisements. 정보 레이다 starts at printed111/PDF107;
-  inspect its continuation and boundary within six source pages. These 정보모음
-  entries occur physically before the business section; keep the authoritative
-  TOC order unchanged. Preserve historical news/specifications and photographs
-  as source content without modernizing claims.
+- PDF105–106 are advertisements. 정보 레이다's domestic subsection is restored
+  at printed111–116 / PDF107–112:15 indexed news items, eight photographs,
+  one diagram, six prose joins and40 source-linked review notes. Preserve
+  provisional 휩웨어 and literal quantities/spellings without inferred repair.
+  The entire article remains partial: 나라밖 소식 begins at printed117/PDF113
+  and continues beyond that page. Verify the remaining extent and following
+  boundary within six source pages, then assemble while preserving news-item
+  identities, image associations and regional ranges. These 정보모음 entries
+  occur physically before the business section; keep authoritative TOC order.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

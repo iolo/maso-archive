@@ -5446,3 +5446,57 @@ history remains in [PROGRESS.md](PROGRESS.md).
   decisions**. Next: **12-1984-02-batch-20**, inspect/restore 정보 레이다 from
   printed111/PDF107 within six source pages. Whole-issue restoration,
   reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-20 started
+
+- Previous checkpoint committed as `4dda4db`. Saved fixed inputs and prior-output
+  pins. Verify 정보 레이다 from printed111/PDF107, restoring at most six source
+  pages while preserving historical news, original photographs and correction notes.
+
+### 2026-10-01 — 12-1984-02-batch-20 complete
+
+- Restored 정보 레이다's complete domestic-news subsection at individually
+  verified printed111–116/PDF107–112. PDF113/printed117 begins 나라밖 소식,
+  and its IBM item continues beyond that page. The article remains **partial**
+  until the overseas subsection, full extent and assembly are verified.
+- Fifteen news items have source-linked `news_item_index` records identifying
+  company/title/body blocks, related photographs, pages and UTF-8 text ranges.
+  All49 regions are covered by34 reading blocks and nine original images:
+  eight photographs and the BENSON2000 diagram. Its diagram on printed114 is
+  associated with the preceding Iljin CAD story; no captions were invented.
+- Six column/page joins retain Spotlight, HART, Sewoon, Cheono, OSM and DMS
+  prose. 내용/은 and 용/이하게 join with empty separators. This segment starts
+  and ends at subsection boundaries without an unfinished sentence.
+- `corrections.json` retains40 review notes,40 regional ranges and121 Unicode
+  spans. Literal2배(8MHz/5MHz), PL/1, FORTHⅡ, CPU보드에1, 핸드웨어, 산매,
+  아프터서어비스 and Zeus3X's280MB/130MB discrepancy remain unchanged. 휩웨어
+  has an explicit provisional-reading record. Historical names, addresses,
+  dates, prices and claims were transcribed, without external factual repair.
+- All49 initial OCR tasks completed. One targeted retry widened diagram r26
+  into the blank gutter to retain its rightmost label;48 regions were reused.
+  Initial maps/OCR/exports remain preserved. Selected cached render/crop45.8s
+  and OCR34.4s are processing totals, not total elapsed time.
+- Package rebuild is byte-identical:179 files /38,179,680 bytes, including the
+  24,372-byte article download. Region coverage, all15 news associations, six
+  joins, review/Unicode ranges, raw OCR and all3,307 prior-file pins pass.
+  Generic tooling is unchanged; the successful68-test PDF log remains pinned.
+  November packages and completed cover/TOC integration remain intact.
+- Desktop1440×1000 and mobile390×844 checks pass for34 blocks, nine images,
+  52 pins,40 review ranges and15 news indexes. Partial status and overseas-news
+  gap are visible, all images load, and there is no page overflow or application
+  error. The expanded diagram opens at1201×523. The actual article download
+  matches24,372 bytes. Three screenshots inspected and test browser closed.
+  Preview: `http://127.0.0.1:4260/`. A sandbox npm DNS failure interrupted the
+  first browser-check launcher; rerunning with approved access passed.
+- Output `build/pdf-restoration/12-1984-02-batch-20` has182 files /
+  38,215,700 bytes. Manifest SHA-256:
+  `ef8c35d7f58c4a8a449f0ee3760d28798c13f43d404ef4afc8982d597d17ac74`.
+  Private recipes, corrections, validation, initial/revised OCR evidence,
+  ledger snapshots and next plan are in the matching private directory;
+  browser evidence is under `output/playwright/pdf-1984-02-batch-20`.
+  Elapsed1216.7s includes review, crop retry, rebuild and browser waits.
+- Only entry0041 changed. February now has **twenty readable articles, one
+  partial article, two group headings and20 unresolved eligibility decisions**.
+  Next: **12-1984-02-batch-21**, restore overseas news from printed117/PDF113,
+  establish the article end and plan assembly. Whole-issue restoration,
+  reconciliation and staged reader acceptance remain open.
