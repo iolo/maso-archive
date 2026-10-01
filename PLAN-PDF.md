@@ -52,11 +52,15 @@ advertisement. All six tables/diagrams and the photograph retain original images
 the six captions and all prose are transcribed. Batch23 restored the first six
 pages of 회계 관리 프로그램, printed125–130 / PDF121–126, including15 variable
 definitions, three screen images, a flowchart and both halves of a photograph.
-Its complete extent is verified at printed125–135 / PDF121–131. February has
-**twenty-two readable and one partial article**, all sample-reviewed, three group
-headings and17 unresolved eligibility decisions. Next is **12-1984-02-batch-24**:
-restore the final explanation page131 and BASIC listing pages132–135, then
-assemble the complete eleven-page article. Step12 remains open.
+Its complete extent is verified at printed125–135 / PDF121–131. Batch24 restored
+the final explanation and all four BASIC pages:246 numbered rows,35 margin labels
+and four complete listing-panel images. Both segments retain180 review notes,
+108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
+markers. February has **twenty-two readable and one partial article**, all
+sample-reviewed, three group headings and17 unresolved eligibility decisions.
+Next is **12-1984-02-accounting-assemble**: combine the eleven pages, project all
+regional and listing correction indexes, and validate the complete article.
+Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -513,9 +517,15 @@ issue in the staged reader before moving to remaining issues.
   spans. Keep the provisional 역할난을, literal FI$/DI$/F1 and L3,K3,: notation,
   confirmed end-code999999, 지수승/지수성 and routine-name variants. Screen and
   flowchart labels remain imagery; blank flowchart nodes are not inferred.
-  Final prose131 and BASIC listing132–135 remain. Preserve physical code wraps,
-  uncertain glyphs and original segments during assembly; no execution or repair.
-  The opening segment ends at a complete paragraph, with no sentence join needed.
+  Final prose131 and BASIC listing132–135 are now restored:246 numbered/physical
+  rows,35 separate margin labels (O/W repeated), an office photograph and four
+  complete listing panels. Keep64 final-segment uncertainty markers,139 review
+  notes and98 listing review spans. Tight W/AA/AB crop edges and1534's placement
+  in the following region are documented; full panels retain exact source context.
+  Each statement appears once in listing.txt. Literal THEN343, LB=0, KICOM and
+  F1$/D1$ remain unchanged. Assembly must project both regional/Unicode indexes
+  and listing rows/reviews, preserving previous modes and immutable segments.
+  No new OCR, inter-segment sentence join, code repair or execution is needed.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

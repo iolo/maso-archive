@@ -3029,3 +3029,34 @@ screenshots/downloads are under `output/playwright/pdf-1984-02-batch-23`.
 Preview: `http://127.0.0.1:4264/`. February has22 readable articles and one partial,
 three group headings and17 eligibility decisions remaining. Reader staging waits
 for issue closeout, preserving the completed cover/TOC integration.
+
+
+## February accounting program: final segment
+
+`12-1984-02-batch-24` restores printed131–135 / PDF127–131: the closing
+explanation and complete four-page BASIC listing.246 numbered statements are
+246 physical rows, with35 separate margin labels A–AG (O and W repeated).
+Four complete listing-panel images preserve original brackets, character forms
+and spacing alongside the regional code transcription and office photograph.
+
+`corrections.json` records139 text reviews,73 regional ranges,98 listing reviews
+and64 explicit symbol/punctuation/space uncertainties. Reverse/control glyphs
+and decomposed Korean printer strings are not assigned inferred bytes. Literal
+THEN343, LB=0, KICOM and F1$/D1$ remain unchanged. Each affected crop was revised
+at most once; initial maps/OCR and subsequent evidence remain available. Tight
+W/AA/AB label crops still have partial left edges, supplied by full-panel context.
+1534 belongs to printed bracket AB but is scanned in the following region; the
+statement appears once and regional names do not certify exact bracket ownership.
+
+The308-file article export rebuilds identically. Browser checks verify all rows,
+review spans and assets, horizontal mobile code scrolling, full-resolution panel
+access and both downloads (article16,165 bytes; listing11,638 bytes). Evidence is
+in the matching private directory and `output/playwright/pdf-1984-02-batch-24`.
+Preview: `http://127.0.0.1:4265/`.
+
+Both accounting segments now cover all eleven pages but remain partial until
+assembly. Their combined evidence includes119 regions,99 blocks,11 images,
+180 review notes,108 regional ranges,28 Unicode spans and65 unresolved items.
+The next checkpoint must project regional and listing indexes together; preserve
+original segments and existing assembly mode behavior. No new OCR or boundary
+sentence join is needed. Whole-issue reader staging remains deferred.

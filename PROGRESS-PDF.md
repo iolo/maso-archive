@@ -5718,3 +5718,72 @@ history remains in [PROGRESS.md](PROGRESS.md).
   decisions. Next: **12-1984-02-batch-24**, final accounting prose and four BASIC
   pages, followed by full assembly. Whole-issue reconciliation and staged reader
   acceptance remain pending; corrected TOC and completed cover/TOC work are intact.
+
+
+### 2026-10-01 — 12-1984-02-batch-24 started
+
+- Previous checkpoint committed as `af24c36`; prior goal turn made progress.
+  Preserve4,127 prior-file pins and restore the final five accounting pages,
+  printed131–135 / PDF127–131. Full extent and following UNIX boundary verified.
+  Keep printed routine labels, physical code rows and uncertain glyph evidence.
+
+- Final five pages transcribed:246 numbered BASIC rows,35 margin labels, final
+  prose and office photograph. Four complete listing-panel images preserve all
+  brackets and uncertain display symbols. One crop revision per affected region
+  reprocessed30 regions; new O label and four context panels bring the final map
+  to78 regions. Original maps and all OCR stages remain intact.308-file export
+  rebuilds byte-identically; all4,127 prior pins pass. Browser acceptance pending.
+
+
+### 2026-10-01 — 12-1984-02-batch-24 complete
+
+- Restored final printed131–135 / PDF127–131: closing explanation, office
+  photograph and all four BASIC pages. UNIX's opening at136/PDF132 remains the
+  verified next boundary. All11 accounting pages now exist in two immutable
+  partial packages; assembly and its acceptance checks remain pending.
+- The final78 source regions yield72 reading blocks and five images, including
+  four complete listing panels.246 numbered BASIC statements remain246 physical
+  rows, from2 through1652; no statement wraps across a page.35 margin labels
+  preserve A–AG, with O and W repeated, outside listing.txt. One prose column
+  join connects 화일 네임과 선택번호를; no inter-segment join is needed.
+- `corrections.json` has139 review notes,73 regional ranges and98 listing review
+  spans.64 explicit uncertainties cover control/graphic symbols, decomposed
+  Korean printer strings, blank-string widths and faint324 end punctuation.
+  Complete source panels retain original glyph forms, counts, spacing and brackets
+  for manual work. No encoded bytes, Korean glyph reconstruction or execution
+  results are inferred. Preserve THEN343, LB=0, KICOM, F1$/D1$, the printed
+  numeric thresholds,19라인 and historical prose/routine references.
+- Initial73 processing tasks completed. Visual review found clipped boundary rows
+  and labels:30 affected regions received exactly one coordinate revision each;
+  one newly observed O label and four complete-panel regions were added.
+  Final78 regions are complete with zero task failures,108 processing attempts
+  across retained stages. Original and revised maps/OCR remain separate.
+  Narrow W/AA/AB label crops still have partial left edges after their allowed
+  retry; full panels preserve the complete labels.1534 belongs to bracket AB
+  but its scan lies in the following region; this is explicitly documented and
+  the statement is transcribed once. Crop names do not certify bracket ownership.
+- The308-file article package (56,678,588 bytes) rebuilds byte-identically.
+  article.txt is16,165 bytes; listing.txt is11,638 bytes.
+  Every text/uncertainty/listing range, row identity, source-page row count,
+  margin label, raw OCR file and all4,127 prior-file pins pass. Generic tooling
+  and its successful71-test PDF log remain unchanged.
+- Desktop1440×1000/mobile390×844 checks verify72 rendered blocks,82 asset/download
+  pins,139 text-review ranges,98 listing-review ranges,73 regional ranges and246
+  physical rows. All five images load. All36 wide code blocks scroll on mobile;
+  no page overflow or application errors (initial favicon404 only). The final
+  original panel opens at2391×3128. Both actual downloads match. Three screenshots
+  inspected and Chrome closed. Preview: `http://127.0.0.1:4265/`.
+- Output `build/pdf-restoration/12-1984-02-batch-24` has311 files /
+  56,740,156 bytes. Manifest SHA-256:
+  `7982320408376851e86ddcf0df2e109cfc070a378787d5daecdd56641ccd7089`.
+  Maps, all OCR stages, transcription, recipes, rebuild, validation, ledger
+  snapshots and next plan are in the matching private directory. Browser evidence
+  is under `output/playwright/pdf-1984-02-batch-24`. Elapsed1449.0s
+  includes review, mapping revisions, transcription, validation and tool waits.
+- Only entry0022's segment coverage changed. Counts remain **22 readable and one
+  partial article**, all sample-reviewed, three group headings and17 unresolved
+  eligibility decisions. Next: **12-1984-02-accounting-assemble**. Existing wrapped
+  listing assembly does not project regional/Unicode indexes; regional-prose mode
+  rejects code. Add an opt-in combined projection with focused tests if needed,
+  preserving prior mode behavior and all original packages. Whole-issue closeout
+  and reader staging remain open; authoritative TOC and cover/TOC work are intact.
