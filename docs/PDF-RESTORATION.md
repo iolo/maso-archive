@@ -2143,3 +2143,31 @@ The combined staged preview is `build/reading-room-pdf-reconciled`. It adds all
 the corrected catalog, donated cover thumbnails and existing TOC image collection.
 Use this updated baseline for subsequent PDF staging. Earlier November exports
 remain historical checkpoints. Final aggregate installation remains step 13.
+
+## February 1984: first batch and nonsequential source pages
+
+`12-1984-02-batch-01` restores `maso-1984-02-toc-0038` (the complete editor's
+note, printed17/PDF78) and the first segment of `maso-1984-02-toc-0001`
+(the FC-100 feature, printed18–19/PDF77–76). The feature remains partial and
+continues at printed20/PDF75. Its catalog opening17 differs from observed18;
+both values remain recorded. PDF79 contains printed83, so these mappings do
+not establish a global offset or complete article extent.
+
+The two packages contain 33 scan regions, 26 reading blocks, four original
+images and three independent OUT command examples. `corrections.json` retains
+regional transcriptions, prose joins, UTF-8 text/listing ranges, 14 review notes,
+and the next segment's unfinished sentence. Printed spellings and technical
+claims are preserved; the commands are transcriptions without execution checks.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-01/editorial
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-01/feature
+python3 -m http.server 4238 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-01
+```
+
+The issue ledger is `private/pdf-restoration/12-1984-02/issue-progress.json`:
+one readable article, one partial article, both sample-reviewed, and 41 entries
+awaiting local eligibility decisions. The next bounded request is saved in
+`private/pdf-restoration/12-1984-02-batch-01/next-checkpoint.json`. Its PDF75–70
+mapping candidates are hypotheses; only PDF75/printed20 is already verified.

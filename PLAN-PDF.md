@@ -8,8 +8,10 @@ No partial, image-only, failed or unresolved article outcomes remain for this
 issue; manual bitmap correction in 잠수함 and full proofreading remain deferred.
 The **12-catalog-reconcile** checkpoint is complete: the owner's corrected TOC,
 completed cover/TOC image integration and all 35 November articles coexist in a
-validated staged reader. Next is **12-1984-02-batch-01**, within the established
-two-article/six-page limits. Step 12's remaining-issue campaign is still open.
+validated staged reader. **12-1984-02-batch-01** restored the complete editor's
+note and the first two FC-100 feature pages. Next is **12-1984-02-batch-02**,
+continuing at PDF75 / printed20 within the established two-article/six-page
+limits. Step 12's remaining-issue campaign is still open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -365,6 +367,11 @@ issue in the staged reader before moving to remaining issues.
 
 - Reuse completed samples; map only the current batch. Preserve evidence and
   continue past isolated failures within the retry limit.
+- February's PDF is not in printed reading order. Verified local mappings are
+  PDF78→printed17, PDF77→18, PDF76→19 and PDF75→20; PDF79 instead contains
+  printed83. Confirm each page locally, retain explicit reading order and never
+  infer a global offset. The FC-100 feature starts on observed printed18 despite
+  catalog17; preserve the discrepancy without editing the authoritative TOC.
 - An unsupported format becomes a separate bounded sample/repair checkpoint;
   do not expand a processing batch into an open-ended pipeline redesign.
 - Reconcile each issue, produce its standalone reference/report, and validate

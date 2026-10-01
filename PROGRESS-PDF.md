@@ -4133,3 +4133,67 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next is **12-1984-02-batch-01**: select and map the first bounded February
   batch using the refreshed queue. Use the reconciled reader baseline for later
   staging. Step 12 remains open; final aggregate installation remains step 13.
+
+### 2026-10-01 — 12-1984-02-batch-01 started
+
+- Targets: `maso-1984-02-toc-0038` (편집자 노트) and the opening segment of
+  `maso-1984-02-toc-0001` (금성 FC-100 feature). Use the reconciled queue and
+  preserve all earlier article packages and completed cover/TOC integration.
+- Local inspection finds PDF78 = printed17 (editor note), PDF77 = printed18
+  (feature opening), PDF76 = printed19 and PDF75 = printed20 (continuation).
+  PDF79 instead contains printed83: no global page offset is safe. The feature's
+  catalog start17 conflicts with observed18; preserve both without changing TOC.
+- This first batch covers three source pages: the complete one-page editor note
+  and the first two feature pages, within the two-article/six-page ceiling.
+  Preserve the feature as partial; begin the next segment at PDF75/printed20.
+  Map and review the nonsequential page order explicitly before extending it.
+
+### 2026-10-01 — 12-1984-02-batch-01 complete
+
+- Restored the complete 편집자 노트 (`0038`, PDF78/printed17) as
+  **readable/sample-reviewed**. Restored the first two FC-100 feature pages
+  (`0001`, PDF77–76/printed18–19) as **partial/sample-reviewed**. The unfinished
+  final sentence continues at PDF75/printed20; the complete feature extent is
+  still unmapped. No missing source pages are inferred.
+- Three distinct source pages, two articles and 33 mapped regions yield
+  26 reading blocks, four original images and three independent OUT examples.
+  All included regions were compared at enlarged scale. Two prose joins preserve
+  the feature's page/column continuations; the separate editorial introduction
+  and photograph precede its main body. Diagram labels remain in original images.
+- Retained raw OCR, settings, positions, scans and separate `corrections.json`.
+  Fourteen scan-linked review notes and UTF-8 byte ranges preserve printed
+  oddities including Miceosoft, tonen, 키드드 and 모는 기종. Corrected draft
+  RAM/ROM reversal and other readings against scans. Historical claims remain
+  unchanged; full proofreading and code execution are not claimed.
+- All 33 OCR tasks completed without failure or retry. Seven source pages were
+  visually inspected, including four outside the included pages; 14 candidate
+  page renders were retained, still within the 20-page lookup ceiling. The first
+  new-issue batch deliberately uses three pages to establish explicit local
+  ordering rather than treating the six-page ceiling as a required batch size.
+- Both packages rebuild byte-identically: editorial 43 files / 5,269,610 bytes;
+  feature 98 files / 9,919,834 bytes. Including the batch index/report/manifest,
+  the output has **144 files / 15,217,831 bytes** at
+  `build/pdf-restoration/12-1984-02-batch-01`. Batch manifest SHA-256:
+  `296004b6fdfc3aeb2b3910366c7fb6c8995fc4b21c97609ca1809e289cfc1945`.
+- Validation passes for package hashes, complete region representation, prose
+  joins, text/review/listing ranges, raw archive bytes and explicit page order.
+  All 4,915 November content files and 35 manifests remain unchanged, as do the
+  reconciled reader manifest, catalog, queue and source pins. Generic restoration
+  tooling is unchanged; all 59 PDF tests pass.
+- Browser checks pass at desktop1440×1000/mobile390×844: all 26 rendered blocks
+  and their order match, 40 asset/download pins and 14 correction ranges verify,
+  all four figures load, and review/partial-coverage notes remain visible.
+  No page overflow, browser console errors or warnings. Actual 4,169-byte editor
+  text, 5,643-byte feature text and 59-byte listing downloads match originals.
+  The original RAM diagram opens at759×1220. Four screenshots were inspected;
+  test browser closed. Preview: `http://127.0.0.1:4238/`.
+- Started the February issue ledger at
+  `private/pdf-restoration/12-1984-02/issue-progress.json`: one readable, one
+  partial, both sample-reviewed, and 41 unresolved eligibility decisions.
+  These are unfinished local reviews, not 41 failed or missing articles.
+  Private closeout, validation and next-plan records are under
+  `private/pdf-restoration/12-1984-02-batch-01/`; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-01`. Elapsed873.3s includes tool waits.
+- Next: **12-1984-02-batch-02**, continue the FC-100 feature at PDF75/printed20,
+  verify each further candidate page locally and retain this segment unchanged.
+  Complete-issue assembly/export and final aggregate installation remain ahead.
