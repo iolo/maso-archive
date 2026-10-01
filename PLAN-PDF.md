@@ -90,10 +90,13 @@ blocks,14 original images,276 global regional ranges and73 uncertainty markers.
 All five source packages remain byte-identical;DEFDBL's first boundary is joined.
 The remaining 공모입선작 and 정보모음 entries are now verified non-owning
 TOC groups. All43 entries reconcile as37 readable/sample-reviewed articles and
-six group headings;no eligibility decisions remain. Next is
-**12-1984-02-closeout**: standalone issue reference/report and combined staged
-reader integration/acceptance. Article restoration is complete;issue closeout
-remains unverified until those outputs and preservation checks pass.
+six group headings;no eligibility decisions remain. The **12-1984-02-reference**
+checkpoint now packages all37 articles with their original JSON,assets and
+correction records. Source/page checks,static links and a byte-identical rebuild
+pass without browser use. Next is **12-1984-02-closeout**,a separate combined
+reading-room integration/acceptance checkpoint. Article restoration and standalone
+packaging are complete;full issue closeout remains unverified until reader
+integration and preservation checks pass.
 Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
@@ -793,6 +796,17 @@ issue in the staged reader before moving to remaining issues.
   checks:37 readable/sample-reviewed articles,six groups,no unresolved eligibility.
   All37 article records and11,153 prior-file pins are unchanged. Next is issue
   closeout,with standalone reference/report and staged reader acceptance.
+- Standalone reference checkpoint is complete at
+  `build/pdf-restoration/12-1984-02-reference`. All37 immutable packages reconcile
+  with43 TOC entries and six groups.6,817 copied package files,including62
+  correction files across assembled/original segments,remain byte-identical.
+  Source identity,page geometry and full-article coverage match the saved ledger.
+  All4,346 local links,111 fragments and37 previous/next routes pass static checks;
+  a fresh export reproduces all6,859 output files.11,157 prior-file pins remain
+  unchanged. No new OCR,pipeline changes,reader staging or browser work.
+  One validation-script retry normalized string/integer printed-page labels;
+  no source content was changed. Reading-room integration/acceptance remains a
+  separate closeout stage;static link checks do not claim browser acceptance.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

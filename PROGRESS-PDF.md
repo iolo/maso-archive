@@ -7149,3 +7149,41 @@ history remains in [PROGRESS.md](PROGRESS.md).
   preserve corrected catalog and completed cover/TOC-image integration,perform
   issue-level reader navigation/layout/download acceptance,and record completion
   audit. Goal remains open until those full-issue requirements are verified.
+
+### 2026-10-02 — 12-1984-02-reference complete
+
+- Revalidated the saved cost audit in `docs/PDF-COST-AUDIT.md` and its private
+  aggregate. Its2026-10-01 cutoff and28-checkpoint sample remain historical;
+  those totals do not include later restoration. No optimization or pipeline
+  change was made. Fine-grained token attribution remains estimated.
+- Separated standalone PDF packaging from reading-room integration following
+  the owner's clarification. Generated `build/pdf-restoration/12-1984-02-reference`
+  from the reconciled43-entry ledger:37 readable/sample-reviewed articles,
+  six non-owning groups,no unresolved eligibility or other article outcomes.
+- Preserved all6,817 copied package files byte for byte,including62 original
+  and assembled corrections.json files.1,711 regions,1,266 blocks,227 figures
+  and683,804 article-text bytes retain their source evidence. Checked source PDF
+  identity,page geometry,ordered page coverage and complete-article ledger states.
+  The11,157 prior-file pins and corrected TOC/cover/TOC-image plan inputs match.
+- Static verification passes for38 reference pages,4,346 local links,111 fragment
+  targets and every article's issue/previous/next navigation. A second export is
+  byte-identical,including the manifest.6,859 output files total1,569,650,903 bytes.
+  Manifest SHA-256:
+  `95657775c84b7cd4b6940a5b9e71b3121e5de77c07d2743d4211aec30c48bf07`.
+- One validator-authoring retry: printed-page labels are strings in packages
+  and integers in some ledger records. Normalizing the comparison resolved all27
+  representation-only mismatches. No source/package change or repeated initial
+  export was needed. The initial failure and resumed script are retained privately.
+- Measured checkpoint interval73.694s includes initial export,failed validation,
+  diagnosis,resumed verification and deliberate rebuild. Successful resumed
+  artifact validation took8.170s;the rebuild took6.891s. Initial export/failed
+  validation substage timings were lost on assertion failure and are unmeasured.
+  Preliminary inspection,script authoring and documentation/commit are outside
+  that interval. New OCR cost is zero;stage token usage is unmeasured.
+- Existing79-test log and tooling pins verified;no generic code changed and no
+  test rerun was needed. No Playwright,browser,server or reading-room staging.
+  Static integrity checks do not claim visual or interactive acceptance.
+- Ledger entries/counts remain unchanged;its standalone reference and validation
+  pins now identify this output. `12-1984-02-closeout` still requires separate
+  combined reader integration,preservation audit and issue-level acceptance.
+  Manual bitmap correction and full proofreading remain deferred as agreed.
