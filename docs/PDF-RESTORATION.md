@@ -2972,3 +2972,34 @@ records viewport measurements; screenshots/downloads are under
 historical factual review remain deferred. Next is 삼성SPC-500 from verified
 PDF118/printed122, with full extent to establish in batch22. Reader staging waits
 for February issue closeout; completed cover and TOC integration remains intact.
+
+
+## February SPC-500 review and table image associations
+
+`12-1984-02-batch-22` restores 삼성SPC-500 at printed122–124 / PDF118–120.
+The prose ends on123; the final system diagram on124 remains part of the article.
+The bookstore advertisement below it is excluded, and the accounting-program
+article begins at125/PDF121.24 regions produce15 reading blocks, a photograph,
+six numbered table/diagram images and six searchable captions.
+
+`corrections.json` includes `table_figure_index`: each record has its printed
+number, figure/region and scan pin, caption block/region, caption text and UTF-8
+range, source page and printed folio. `internal_text_transcribed` is false for
+all six tables. Their cells, addresses and internal labels remain original
+imagery. `caption_in_figure_crop` is true only for table6, whose caption occupies
+an inset in the complete diagram. Its unusual leading TV is preserved literally.
+
+22 review notes,17 regional ranges and32 Unicode spans retain source evidence.
+Two explicit column joins connect the audio sentence and GENER-/ATOR; only the
+physical word-break hyphen is removed. Historical terminology and specifications
+remain unchanged. The article download contains3,776 bytes; no code listing is
+created. All24 OCR tasks completed without retries and the85-file package rebuilds
+byte-identically. Prior tooling and the successful71-test PDF log are unchanged.
+Desktop/mobile checks verify every image and source link; private evidence is in
+`private/pdf-restoration/12-1984-02-batch-22`, and screenshots/downloads in
+`output/playwright/pdf-1984-02-batch-22`. Preview: `http://127.0.0.1:4263/`.
+
+February now has22 readable/sample-reviewed articles, three group headings and18
+unresolved eligibility decisions. Next is the opening 회계관리 프로그램 segment,
+with full extent to verify within the bounded mapping workflow. Issue closeout
+and staged reader acceptance remain pending; cover/TOC integration is preserved.

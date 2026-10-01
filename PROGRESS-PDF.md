@@ -5610,3 +5610,55 @@ history remains in [PROGRESS.md](PROGRESS.md).
   decisions**. Next: **12-1984-02-batch-22**, verify and restore 삼성SPC-500 from
   PDF118/printed122, establishing its full end before extraction. Whole-issue
   restoration, reconciliation and staged reader acceptance remain open.
+
+
+### 2026-10-01 — 12-1984-02-batch-22 started
+
+- Previous checkpoint committed as `46205e7`. Pinned prior outputs and the issue
+  ledger. Verify 삼성SPC-500 from PDF118/printed122, establish its complete
+  extent and next boundary, then restore within six source pages.
+
+
+### 2026-10-01 — 12-1984-02-batch-22 complete
+
+- Restored the complete 삼성SPC-500 review at individually verified printed122–124 /
+  PDF118–120. The prose end on123 does not end the article: table6's system block
+  diagram continues on124 above an excluded bookstore advertisement. The next
+  회계 관리 프로그램 opening is verified at printed125/PDF121.
+- All24 regions yield15 reading blocks and seven original images: one photograph
+  and six numbered tables/diagrams. Six captions are separately searchable.
+  Internal table cells, memory addresses and diagram labels/arrows remain image
+  assets, with full-resolution access and explicit limits on transcription.
+- `corrections.json` records six `table_figure_index` associations,22 review notes,
+  17 regional UTF-8 ranges and32 Unicode spans. Literal TV 표6 is retained; its
+  caption intentionally also appears within the complete diagram crop. The
+  source's 비데오, 키이, 흑백에 구별없이, 8가지의 음계, Z-80A/Z80A and
+  RAM/ROM expansion claims remain unchanged for owner proofreading.
+- Two explicit column joins retain the audio sentence after3개의 and the
+  GENER-/ATOR continuation. Only the physical word-break hyphen is removed.
+  Original raw OCR and source crops are preserved. The photograph follows the
+  complete audio sentence in the linear reading order; no caption was invented.
+- All24 OCR tasks completed with zero failures or retries. Render/crop8.4s and
+  OCR3.4s are selected processing totals, separate from elapsed checkpoint time.
+  The85-file article package (10,865,719 bytes) rebuilds byte-identically;
+  article.txt is3,776 bytes. Region coverage, caption associations,
+  correction ranges, raw OCR and all3,880 prior-file pins pass. Generic tooling
+  is unchanged; the prior successful71-test PDF log and tooling hashes are pinned.
+- Desktop1440×1000 and mobile390×844 checks verify15 blocks,27 pins, all six
+  table/caption links,22 review ranges and49 regional/Unicode spans. All seven
+  images load, no page overflow or application errors; initial favicon404 only.
+  The original final diagram opens at2288×1705.
+  Actual article download matches3,776 bytes. Three screenshots inspected and
+  browser closed. Preview: `http://127.0.0.1:4263/`.
+- Output `build/pdf-restoration/12-1984-02-batch-22` has88 files /
+  10,884,434 bytes. Manifest SHA-256:
+  `5154163b67a92f57c4114ee7ccb808877c9515f3c239ad30ae1b0eb99f5ca1ea`.
+  Maps, OCR evidence, transcription, recipes, validation, ledger snapshots and
+  next plan are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-22`. Elapsed615.5s includes
+  mapping, enlarged review, rebuild, browser acceptance and tool waits.
+- Only entry0021 changed. February now has **twenty-two readable/sample-reviewed
+  articles, no partial articles, three group headings and18 unresolved eligibility
+  decisions**. Next: **12-1984-02-batch-23**, restore the opening accounting-program
+  segment from PDF121/printed125 within six source pages and verify its extent.
+  Whole-issue restoration, reconciliation and staged reader acceptance remain open.

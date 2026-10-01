@@ -46,11 +46,14 @@ immutable segments and projecting every regional correction index. Batches17–1
 restored 타임머신, 매개변수로 표현된 함수의 그래프, Q&A and 디버깅 룸.
 Batches20–21 restored both 정보 레이다 subsections; the complete eight-page
 article is now assembled and validated, preserving24 news-item identities,
-image associations and all correction ranges. February has twenty-one readable/
-sample-reviewed articles, no partial articles, three group headings and19
-unresolved eligibility decisions. Next is **12-1984-02-batch-22**: verify and
-restore 삼성SPC-500 from PDF118/printed122, including its full end and next
-boundary. Step12 remains open.
+image associations and all correction ranges. Batch22 restored 삼성SPC-500 at
+printed122–124 / PDF118–120, including its final system diagram above an excluded
+advertisement. All six tables/diagrams and the photograph retain original images;
+the six captions and all prose are transcribed. February has twenty-two readable/
+sample-reviewed articles, no partial articles, three group headings and18
+unresolved eligibility decisions. Next is **12-1984-02-batch-23**: verify and
+restore the opening 회계관리 프로그램 segment from PDF121/printed125 within six
+source pages, mapping its continuation and complete extent locally. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -493,6 +496,13 @@ issue in the staged reader before moving to remaining issues.
   PDF117 is the 비즈니스 divider
   (no visible folio); 삼성SPC-500 opens at printed122/PDF118. These 정보모음
   entries occur physically before business; keep authoritative TOC order.
+- 삼성SPC-500 is complete at printed122–124 / PDF118–120. The prose ends on123
+  but the final system block diagram continues on124. Preserve all six numbered
+  tables/diagrams, the computer photograph, six searchable captions and two column
+  joins. Table cells, memory addresses and internal diagram labels remain original
+  images rather than certified searchable text. Keep literal TV 표6, 비데오,
+  키이, 8가지의 음계, Z-80A/Z80A and capacity claims. The124 bookstore
+  advertisement is excluded; 회계 관리 프로그램 begins125/PDF121.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
