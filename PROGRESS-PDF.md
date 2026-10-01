@@ -6219,3 +6219,56 @@ history remains in [PROGRESS.md](PROGRESS.md).
   group headings and10 unresolved eligibility decisions. Next:batch33,기계어
   테크닉 from172/PDF168. Full issue reconciliation and reader integration remain
   pending; corrected TOC and completed cover/TOC integrations are unchanged.
+
+
+### 2026-10-02 — 12-1984-02-batch-33 started
+
+- Verify 기계어 테크닉 from172/PDF168 and restore up to six source pages.
+  Preserve6,806 prior-file pins; previousd8df89c made progress. Keep printed
+  bytes,mnemonics,addresses and historical explanations without execution or
+  inferred repair. Package checks only; no browser work.
+
+### 2026-10-02 — 12-1984-02-batch-33 complete: 기계어 테크닉
+
+- Restored the complete serial1 article by 윤종도/태평양건설 전기부:
+  printed172–175/PDF168–171. The next article begins176/PDF172. All four
+  source pages and the boundary page were inspected. The package contains
+  48 regions,35 reading blocks,ten original panels and ten separate captions.
+- Three independent listings preserve28 ordinal6502 rows,18 ordinalZ80 rows
+  and four numbered BASIC rows. Machine ordinals retain leading zeros and are
+  explicitly unnumbered in the BASIC index; all50 physical rows and46 machine
+  ordinal/address records are source-linked. Four searchable memory tables
+  retain19 indexed rows. C730's four leading byte cells remain null and short
+  final rows are not filled with inferred bytes.
+- Two prose joins cover1984/년,$800/(2048),and 프로그램/카운터. Intervening
+  6502 panel,header,listing and caption remain exactly once.38 regional ranges,
+  50 text reviews,103 reading-glyph spans and15 listing reviews address the
+  exported downloads. Two tiny marks after byte fields remain explicit
+  ⟦기호1⟧/⟦기호2⟧ uncertainties for manual correction.
+- Kept printed STA #18,missing Z80 operand bytes and subsequent addresses,
+  22 3D C7/LD (PEA),HL,ORA,$800(2014),$B0에 하위 바이트,LD 1A,(HL),and
+  prose7B versus listing/diagramFB. Historical processor and branch claims
+  remain unchanged. Diagram internals are image-preserved; code was neither
+  executed nor repaired and original character bytes are not certified.
+- All48 initial OCR tasks completed without failure,retry or crop revision.
+  Measured render/crop12.5101s and OCR12.8270s are task processing totals.
+  Corrected one stale path in the private closeout script before any ledger
+  mutation; closeout restarted and rechecked input/prior pins. OCR,transcription
+  and the successful package validation/rebuild were not repeated for that fix.
+- Package checks,all6,806 prior-file pins,source/correction byte ranges,image
+  decoding,raw OCR archive identity and a fresh byte-identical rebuild pass.
+  Article manifest385272c56ee98e172e5e2891149fa468f1a3009bbead2ddfcda2dad58744881b:
+  173 files/24,414,087 bytes,article.txt17,321 bytes,listing.txt1,583 bytes.
+  Generic tooling and the successful75-test log remain unchanged; their pins
+  were checked. No browser work,reader staging or repeated full test suite.
+- Wrapper175 files/24,446,730 bytes; manifest SHA-256
+  a91a47ef7edc85048b323911ea06a6d398bce252ad167a9108e902a5256cf5ca.
+  Elapsed844.8s includes mapping,conversation/context handoff,transcription,
+  enlarged review,validation,rebuild and closeout; it is not active CPU time.
+  Private maps,recipes,OCR,validation,closeout and next-checkpoint inputs are
+  under private/pdf-restoration/12-1984-02-batch-33.
+- Only entry0030 changes:30 readable/sample-reviewed articles,no partials,
+  four group headings and nine unresolved eligibility decisions. Next:batch34,
+  한글워드프로세서의 설계2 from176/PDF172. Its full extent remains to be
+  inspected. Full issue reconciliation and reader integration remain pending;
+  corrected TOC and completed cover/TOC integrations are unchanged.

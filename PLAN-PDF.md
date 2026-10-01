@@ -607,6 +607,18 @@ issue in the staged reader before moving to remaining issues.
   remains intact and29 other regions were reused. Flowchart/output-image overlap,
   literal d/m prose,table commas and source code quirks remain explicit. All prior
   pins and byte-identical rebuild pass. Next 기계어 테크닉 begins172/PDF168.
+- 기계어 테크닉 연재1회 spans printed172–175/PDF168–171. Its complete
+  package has48 regions,35 reading blocks,ten original panels and ten captions.
+  Preserve28 ordinal6502 rows,18 ordinalZ80 rows and four numbered BASIC rows
+  in three independent listing groups. Machine ordinals are not BASIC line
+  numbers. Four memory tables provide19 indexed rows,including visibly blank
+  C730 cells. Two prose joins cover three boundaries and retain intervening
+  listing content once.38 regional ranges,50 text reviews,103 reading-glyph
+  spans,15 listing reviews and two unresolved tiny marks validate. Printed
+  byte/address/mnemonic discrepancies and7B/FB disagreement remain explicit
+  for manual correction. No OCR retry or crop revision; all prior pins and a
+  byte-identical rebuild pass. Next 한글워드프로세서의 설계2 begins176/PDF172;
+  inspect its extent and restore at most six source pages per checkpoint.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
