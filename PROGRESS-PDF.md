@@ -6424,3 +6424,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   assemble with explicit 프로그램된/내용을 and 스위/치 joins across retained
   figures/captions. Then A/D,D/A starts192/PDF188. Full February reconciliation
   and reader integration remain pending;corrected TOC and covers unchanged.
+
+### 2026-10-02 — 12-1984-02-hangul-assemble started
+
+- Assemble all16 source pages from three immutable segments. Preserve7,403
+  prior-file pins and resolve two explicit prose joins across retained figures
+  and captions. No new OCR,source edits or browser work.
+
+### 2026-10-02 — complete February Hangul wordprocessor assembly
+
+- Assembled all16 pages176–191/PDF172–187 from three immutable segments.
+  Prose conclusion188 and all three subsequent circuit sheets are included.
+  Next A/D,D/A begins192/PDF188.118 regions,57 reading blocks,29 original
+  figures and27 captions retain actual page order,including25,27,26.
+- Two explicit cross-segment joins restore 프로그램된 내용을 나타낸다. and
+  스위치가 없어도 되기 때문이다. Figure12/caption12 and figures24–25 with
+  their captions remain exactly once. Thirteen original joins across30 internal
+  boundaries and all original correction metadata remain preserved. Nine scope
+  notes resolved;historical claims and proofreading limits remain explicit.
+- Combined corrections project89 regional ranges,124 reviews,299 Unicode
+  spans,18 complete overline groups and one unresolved marginal mark. Every
+  projected range matches both the combined and original download bytes. The
+  two unnumbered Z80 example rows produce listing.txt28bytes;no absent code
+  from prior-installment references was generated or executed.
+- Three tables'9 row indexes and27 caption links remain explicitly local in
+  source corrections/original_metadata. Global regional ranges locate their
+  passages in the combined article. Original diagrams,handwritten margin label
+  and concluding ornament remain imagery;no electrical or source-byte claim.
+- All7,403 prior-file pins,all three original packages byte-for-byte,source
+  ranges,figure/caption order,image decoding,raw OCR identity and a fresh
+  byte-identical assembly rebuild pass. Generic tooling and the77-test log
+  remain unchanged,pins checked. No new OCR,crop revision,export retry,browser
+  work,reader staging or repeated full test suite.
+- Article manifest2146b592599b0ec9df533531ef9a4b1ff6a907fe0e06b0fdaa4c1524cc7757e6:
+  427 files/110,534,256 bytes,article.txt43,453 bytes,listing.txt28bytes.
+  Wrapper429 files/110,616,659 bytes;manifest SHA-256
+  87bbf09d368dd78f7daea80915cfa734ebc40318c77333bf4cfba036a095825f.
+  Elapsed163.5s includes recipe,assembly,validation,rebuild and ledger
+  closeout;it is wall time,not active CPU/model time. Stage token use unmeasured.
+  Evidence:private/pdf-restoration/12-1984-02-hangul-assemble.
+- Only entry0031 advances partial→readable/sample-reviewed. February now has
+  31 readable/sample-reviewed articles,no partials,four group headings and
+  eight unresolved eligibility decisions. Next:batch37,A/D,D/A의 이론과 실제1
+  from192/PDF188;inspect extent before mapping. Full issue reconciliation and
+  reader acceptance remain pending;corrected TOC and cover/TOC integration
+  remain unchanged.

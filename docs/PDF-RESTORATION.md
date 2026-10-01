@@ -3134,3 +3134,28 @@ ranges,43 review notes and46 Unicode spans retain original and combined offsets.
 All source packages/pins and the byte-identical rebuild validate. No new OCR,
 tooling change or browser acceptance was required. Historical technical claims
 and reading-glyph conventions remain subject to final manual proofreading.
+
+
+## Complete February Hangul wordprocessor article
+
+`build/pdf-restoration/12-1984-02-hangul-assemble/hangul` contains the complete
+16-page article,printed176–191/PDF172–187. Its three immutable source packages
+are preserved under `segments/part1`, `segments/part2` and `segments/part3`.
+The assembly retains57 reading blocks,29 original figures and27 captions;the
+prose conclusion is followed by all three original circuit sheets.
+
+Two source-supported joins connect 프로그램된/내용을 and 스위/치 across
+explicitly retained figures and captions. Combined corrections contain89
+regional ranges,124 reviews,299 Unicode spans,18 overline groups and one
+uncertain marginal mark. Original and combined byte ranges validate. Three
+tables'9 row indexes and27 caption links stay local in source correction files
+and `original_metadata`;use global regional ranges for their combined passages.
+The two unnumbered Z80 example rows remain28bytes of listing.txt.
+
+All source packages and a fresh assembly rebuild are byte-identical. The latest
+77-test PDF suite covers the overlined-digit compatibility fix;its unchanged
+tooling and test-log pins were checked during assembly. No new OCR or browser
+work was required. Circuit internals,sideways diagram orientation and marginal
+marks remain original imagery. Literal errors and historical technical claims
+are retained for manual post-production;sample review does not certify original
+character bytes,electrical correctness or executable code.

@@ -645,6 +645,14 @@ issue in the staged reader before moving to remaining issues.
   sixteen source pages now exist in three immutable packages;next assemble
   using regional-listing-v1 and the two explicit boundary joins. No new OCR
   is needed for assembly;retain local table indexes and all original packages.
+- The complete16-page Hangul wordprocessor assembly is readable/sample-reviewed:
+  118 regions,57 blocks,29 figures and27 captions. Two boundary joins preserve
+  intervening figures/captions;89 regional ranges,124 reviews,299 Unicode spans
+  and18 signal groups validate against original and combined bytes. Three
+  tables'9 row indexes remain explicitly source-local;global regional ranges
+  locate those passages. Original packages and deterministic rebuild match.
+  Next verify A/D,D/A의 이론과 실제1 from192/PDF188;no new restoration scope
+  or per-batch browser work is implied by this completed assembly.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
