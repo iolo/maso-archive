@@ -3099,3 +3099,15 @@ is explicit. Pattern examples remain explanatory prose, not an executable listin
 One figure crop revision recovers the left edge of r48; no text-OCR retry was
 needed. Artifact checks and deterministic rebuild pass. Final page142 and complete
 assembly remain pending; no browser acceptance is required for this batch.
+
+
+## Complete February UNIX assembly
+
+`build/pdf-restoration/12-1984-02-unix-assemble/unix` combines both immutable
+segments, printed136–142/PDF132–138, using existing regional-prose-v1. Its explicit
+join reconstructs 살펴보기로 하자. across the retained machine-control cartoon.
+The combined package contains38 blocks,15 images and10 captions;48 regional
+ranges,43 review notes and46 Unicode spans retain original and combined offsets.
+All source packages/pins and the byte-identical rebuild validate. No new OCR,
+tooling change or browser acceptance was required. Historical technical claims
+and reading-glyph conventions remain subject to final manual proofreading.

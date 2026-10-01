@@ -5900,3 +5900,31 @@ history remains in [PROGRESS.md](PROGRESS.md).
   assembly. Counts unchanged:23 readable and one partial, three group headings,
   16 unresolved eligibility decisions. Next:12-1984-02-unix-assemble, using
   regional-prose-v1 with the intervening machine-control cartoon recorded.
+
+
+### 2026-10-02 — 12-1984-02-unix-assemble started
+
+- Assemble all7 UNIX pages from immutable segments, with one explicit split-word
+  join and no new OCR. Preserve5,350 prior-file pins; validate projected JSON,
+  assets and correction ranges without per-batch browser work.
+
+
+### 2026-10-02 — 12-1984-02-unix-assemble complete
+
+- Assembled all7 UNIX pages, printed136–142/PDF132–138:63 regions,38 blocks,
+  15 original cartoons/diagrams and10 captions. Explicitly joined 살/펴보기로
+  하자. while preserving the intervening machine-control cartoon. Six original
+  join records remain; six obsolete partial-scope notes are resolved.
+- All48 regional ranges,43 review notes and46 Unicode spans point to the full
+  article.txt. Original segment/range identities and correction metadata remain.
+  Both source packages and all5,350 prior-file pins pass unchanged. No new OCR,
+  generic tooling changes or browser work. Historical wording and notation remain
+  literal; final proofreading and original-byte certification are not claimed.
+- The237-file article package (53,036,608 bytes) rebuilds byte-identically;
+  article.txt25,117 bytes, no listing.txt. Wrapper239 files/
+  53,083,616 bytes; manifest SHA-256
+  f96451f840905a57865aa8968d4cb2f880d413610e49a0abe6daab68f6b16d49. Elapsed126.2s.
+- Only entry0023 is promoted:24 readable/sample-reviewed articles, no partials,
+  three group headings and16 unresolved eligibility decisions. Next:batch27,
+  VisiCalc 활용143/PDF139. Full issue reconciliation and reader staging remain
+  pending; existing cover/TOC integration is unchanged.

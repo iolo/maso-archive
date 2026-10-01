@@ -58,12 +58,12 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **twenty-three readable articles and one partial article**, all sample-reviewed,
-three group headings and16 unresolved eligibility decisions. Batch25 restored
-UNIX's first six pages, printed136–141/PDF132–137; the full seven-page extent is
-verified. Batch26 restored final142/PDF138, retaining the split word
-살/펴보기로. Next is **12-1984-02-unix-assemble**: combine both immutable
-segments and validate all correction ranges. Step12 remains open.
+has **twenty-four readable articles**, all sample-reviewed, no partial articles,
+three group headings and16 unresolved eligibility decisions. Batches25–26 restored
+UNIX's seven pages, printed136–142/PDF132–138; both immutable segments are now
+assembled with the explicit 살/펴보기로 join and all correction ranges validated.
+Next is **12-1984-02-batch-27**: verify and restore VisiCalc 활용 from
+printed143/PDF139 within the six-page ceiling. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -542,8 +542,11 @@ issue in the staged reader before moving to remaining issues.
   pattern examples without modern correction. The last 살 continues as
   펴보기로 하자. on the final page. One r48 figure crop was widened once;
   original maps/OCR/export remain intact. Per-batch package checks pass without
-  Playwright. Final page142 is now restored with two cartoons and one caption;
-  full assembly and the explicit 살/펴보기로 join remain pending.
+  Playwright. Final page142 adds two cartoons and one caption. Completed seven-page
+  assembly contains63 regions,38 reading blocks,15 images,10 captions and the
+  explicit 살/펴보기로 join across the preserved machine-control cartoon.48
+  regional ranges,43 review notes and46 Unicode spans validate in the combined
+  download; both source packages and the deterministic rebuild are byte-identical.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
