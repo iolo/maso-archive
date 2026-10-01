@@ -5928,3 +5928,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   three group headings and16 unresolved eligibility decisions. Next:batch27,
   VisiCalc 활용143/PDF139. Full issue reconciliation and reader staging remain
   pending; existing cover/TOC integration is unchanged.
+
+
+### 2026-10-02 — 12-1984-02-batch-27 started
+
+- Verify VisiCalc 활용 from143/PDF139 and restore at most six source pages.
+  Preserve5,589 prior-file pins. Prior UNIX assembly is committed as7ca5a52.
+  Source notation and figures remain literal; JSON/assets checks only.
+
+
+### 2026-10-02 — 12-1984-02-batch-27 complete
+
+- Restored complete VisiCalc 활용, printed143–148/PDF139–144. The following
+  programmer article begins149/PDF145.34 regions yield21 reading blocks and
+  seven original photograph/spreadsheet/diagram images. Five recorded joins
+  connect six column/page boundaries. Spreadsheet cells remain source images.
+- corrections.json includes27 regional ranges,48 source-linked review notes
+  and177 Unicode spans. Preserve printed formula/command discrepancies, including
+  +B38+B39, repeated 영업 외 수익, B40/C40, multiplication in the current-ratio
+  explanation, missing parentheses, differing ×100/×2 multipliers and repeated
+  /TB. Boxed cells, circled keys, range dots and linearized fractions have explicit
+  reading conventions; no executable or source-byte certification is claimed.
+- All34 initial tasks completed with no retries/failures. Recorded render/crop
+  execution14.78s and OCR12.06s are nested within the checkpoint interval. JSON,
+  page/region coverage and reading order, all correction ranges, raw OCR archive,
+  asset integrity and all5,589 prior-file pins pass. The125-file article package
+  (33,170,888 bytes) rebuilds byte-identically; article.txt16,603 bytes.
+  Generic tooling and the prior successful73-test log remain unchanged. No
+  browser checks or redundant full test-suite run were performed.
+- Wrapper127 files/33,194,909 bytes; manifest SHA-256
+  b0372deb84fa5d4f6c9f1d57de04f66495854b808e3e65f58aab78a8ff5b85d5. Elapsed903.9s
+  includes earlier lookup, context handoff and scope clarification; it is not
+  uninterrupted active work. Private recipes/evidence/validation and next plan
+  are saved in private/pdf-restoration/12-1984-02-batch-27.
+- Only entry0024 is promoted:25 readable/sample-reviewed articles, no partials,
+  three group headings and15 unresolved eligibility decisions. Next:batch28,
+  우수한 프로그래머가 되는 첩경 from149/PDF145. Whole-issue reconciliation
+  and reader integration remain open; existing cover/TOC work is unchanged.

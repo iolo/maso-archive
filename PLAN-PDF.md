@@ -1,6 +1,6 @@
 # Step-by-step PDF restoration plan
 
-Revised 2026-10-01. Status: **steps 1–11 complete.** November 1983's
+Revised 2026-10-02. Status: **steps 1–11 complete.** November 1983's
 47 TOC entries are accounted for: 35 readable/sample-reviewed articles, five
 group headings and seven section references. The standalone issue reference and
 complete staged reader export passed integrity and desktop/mobile checks.
@@ -58,12 +58,14 @@ and four complete listing-panel images. Both segments retain180 review notes,
 108 regional ranges,28 Unicode spans and65 unresolved readings or symbol/spacing
 markers. The eleven-page accounting article is now assembled and validated with
 all regional/Unicode and listing correction indexes projected together. February
-has **twenty-four readable articles**, all sample-reviewed, no partial articles,
-three group headings and16 unresolved eligibility decisions. Batches25–26 restored
+has **twenty-five readable articles**, all sample-reviewed, no partial articles,
+three group headings and15 unresolved eligibility decisions. Batches25–26 restored
 UNIX's seven pages, printed136–142/PDF132–138; both immutable segments are now
 assembled with the explicit 살/펴보기로 join and all correction ranges validated.
-Next is **12-1984-02-batch-27**: verify and restore VisiCalc 활용 from
-printed143/PDF139 within the six-page ceiling. Step12 remains open.
+Batch27 restored the complete six-page VisiCalc 활용 at printed143–148/PDF139–144,
+preserving seven original images and source-linked reviews of printed formula
+inconsistencies. Next is **12-1984-02-batch-28**: verify and restore 우수한
+프로그래머가 되는 첩경 from149/PDF145 within the six-page ceiling. Step12 remains open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -547,6 +549,14 @@ issue in the staged reader before moving to remaining issues.
   explicit 살/펴보기로 join across the preserved machine-control cartoon.48
   regional ranges,43 review notes and46 Unicode spans validate in the combined
   download; both source packages and the deterministic rebuild are byte-identical.
+- VisiCalc 활용 spans printed143–148/PDF139–144. Its complete package has34
+  regions,21 reading blocks and seven original images. Five recorded joins
+  connect six boundaries;27 regional ranges,48 review notes and177 Unicode
+  spans validate against the complete text. Preserve source formula/command
+  discrepancies without repair; document boxed cells, circled keys and fraction
+  linearization as reading conventions. Spreadsheet cells remain imagery. All
+  original assets, prior-file pins and deterministic rebuild pass without browser
+  checks or generic pipeline changes. Next article begins149/PDF145.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
