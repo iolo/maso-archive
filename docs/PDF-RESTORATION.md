@@ -2200,3 +2200,39 @@ tooling retains batch01's successful 59-test evidence; this checkpoint validates
 the new data directly. The issue counts remain one readable, one partial and
 41 unresolved eligibility decisions. Resume from this batch's
 `next-checkpoint.json` for `12-1984-02-batch-03` at PDF69/printed26.
+
+### FC-100 feature, final segment
+
+`12-1984-02-batch-03` restores printed26–30 / PDF69–65. The feature concludes
+on printed30. Boundary-only PDF64 is the 취미생활 section divider with no visible
+folio, and PDF63 opens 우주전쟁 on printed32. Neither is included. All13 feature
+pages are now covered by three immutable segments, pending assembly.
+
+The final segment has37 regions,22 reading blocks,10 original reference/diagram
+images and six independent command rows. External captions are transcribed;
+internal reference text, addresses and small diagram labels remain image-based.
+The19 scan-linked review notes preserve the unusual PRINT punctuation, printed
+W D000 within the load explanation and provisional DISZILOOG spelling. Three
+prose joins cover five boundaries, including8/DH. Original regional text retains
+the a-ccess line-end hyphen removed in the reading view. Commands are not repaired
+or combined into an executable program.
+
+```sh
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-03/feature
+python3 -m http.server 4240 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-03
+```
+
+The129-file article package rebuilds byte-identically. Raw archive bytes,
+region coverage, prose joins, correction ranges and literal listing identities
+validate. Desktop/mobile checks pass with matching8,941-byte article and75-byte
+listing downloads. The unchanged generic pipeline retains batch01's successful
+59-test evidence. The February ledger still records one readable article, one
+partial article and41 unresolved eligibility decisions.
+
+The saved `next-checkpoint.json` requests **12-1984-02-feature-assemble** with
+zero new pages or OCR tasks. Preserve descending PDF77–65 reading order,
+namespace repeated IDs, join the two cross-segment sentence fragments and rebase
+all correction ranges. Resolve superseded coverage notes while keeping scan
+uncertainties, Unicode heart limits and image-only table scope visible. Only
+the completed assembly can promote the feature to readable/sample-reviewed.

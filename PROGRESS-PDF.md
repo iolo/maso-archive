@@ -4258,3 +4258,62 @@ history remains in [PROGRESS.md](PROGRESS.md).
   eligibility decisions**; this continuation does not add another article.
   Next: **12-1984-02-batch-03**, starting PDF69/printed26 and verifying each
   following candidate and the article boundary locally before extraction.
+
+### 2026-10-01 — 12-1984-02-batch-03 started
+
+- Verified the final five FC-100 pages: PDF69–65 = printed26–30. The conclusion
+  ends on printed30; boundary-only PDF64 is the 취미생활 divider (no visible
+  folio), and PDF63 starts 우주전쟁 on printed32. Neither boundary is included.
+- Restore one five-page segment, retaining five reference panels and figures3–7
+  as original images with external captions transcribed. Previous segments stay
+  immutable; the feature remains partial until three-segment assembly.
+
+### 2026-10-01 — 12-1984-02-batch-03 complete
+
+- Restored the final five FC-100 feature pages, PDF69–65 / printed26–30, as
+  **partial/sample-reviewed**. The conclusion establishes the article's end.
+  The three immutable segments cover all13 pages, printed18–30 / PDF77–65;
+  assembly remains necessary before the article can become readable.
+- All37 mapped regions were compared at enlarged scale. The package contains
+  **27 regional transcriptions, 22 reading blocks, 10 original images and six
+  independent command examples / six physical rows**. Three prose joins connect
+  five column/page boundaries, including the split8/DH. The initial fragment
+  continues batch02's character generator); no ending fragment remains.
+- Five reference panels and figures3–7 retain their complete original images.
+  Figure3's paired diagrams share one image. External figure captions are text;
+  internal addresses, reference text and small diagram labels remain image-only
+  and are excluded from text/listing downloads. This scope is visible in review
+  notes and corrections metadata.
+- `corrections.json` includes19 scan-linked text review notes, regional drafts
+  and corrections, reading-only a-ccess normalization, text/listing byte ranges,
+  independent command identities and all source crops. Preserved the PRINT
+  example's two adjacent comma strings and the printed W D000 under a load
+  explanation; neither was repaired. Enlarged review also retained DISZILO/OG
+  as DISZILOOG with a provisional spelling note. No execution or technical
+  correctness claim; prior segments' ambiguous marks and hearts stay unchanged.
+- All37 OCR tasks completed with zero failures/retries. Five included pages
+  and two boundary-only lookups meet the ceilings. Rendering/cropping took25.2s,
+  OCR13.7s; checkpoint elapsed701.8s includes manual comparison and tool waits.
+- Article package **129 files / 21,786,630 bytes** rebuilds byte-identically.
+  Region coverage, reading order, raw archive bytes, prose joins and all review
+  and listing ranges validate. All617 prior-file pin records and pre-update
+  input pins pass. Generic tools remain unchanged; batch01's successful59-test
+  log is pinned, with this batch's new artifacts validated directly.
+- Desktop1440×1000/mobile390×844 checks pass: all22 blocks and their order
+  match,41 asset/download pins and19 review ranges validate, all10 images load,
+  and review notes are visible. No overflow or application errors; only the
+  initial favicon404. Actual8,941-byte article and75-byte listing downloads
+  match. The original final reference panel opens1550×2113. Both screenshots
+  inspected and test browser closed. Preview: `http://127.0.0.1:4240/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-03` contains132 files /
+  21,813,969 bytes including index/report/manifest. Manifest SHA-256:
+  `e99beb19efdc94a421b6c93f8646fb4158d33c4e7ef46793370fcf71cb04cdf9`.
+  Private mapping, validation, closeout and next plan are under
+  `private/pdf-restoration/12-1984-02-batch-03`; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-03`.
+- Only the existing feature's ledger segment history changed. Counts remain
+  **one readable, one partial, both sample-reviewed,41 unresolved eligibility
+  decisions**. Cover/TOC integration and authoritative TOC edits are preserved.
+  Next: **12-1984-02-feature-assemble**, join the three segments without new
+  OCR and retain all corrections. Then batch04 can classify the 취미생활
+  divider and establish 우주전쟁's extent from PDF63/printed32.
