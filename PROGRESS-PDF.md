@@ -4547,3 +4547,64 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and restore at most six pages. The next catalog start52 suggests eight pages,
   so continuation and article boundary require local verification and any remaining
   pages must be deferred explicitly. Complete-issue reader export remains ahead.
+
+### 2026-10-01 — 12-1984-02-batch-07 started
+
+- Verified 마이크로텍스트 across printed44–51 / PDF51–44; the next article,
+  3차원 미로, starts PDF43/printed52. Restore the first six pages, printed44–49,
+  through BASIC2080. PDF45–44/printed50–51 are present and deferred explicitly.
+- Prior checkpoint committed as `3a1e61d`;1,110 prior output-file pins saved.
+  Preserve cross-column/page prose joins, the code270 wrap and all review notes.
+
+### 2026-10-01 — 12-1984-02-batch-07 complete
+
+- Restored the first six pages of **마이크로텍스트**
+  (`maso-1984-02-toc-0006`), 애플 컴패티블, 편집부, as **partial/sample-reviewed**.
+  Included printed44–49 / PDF51–46. Full article extent is verified at printed44–51
+  / PDF51–44; printed50–51 and BASIC2090–3470 are present and deferred.
+  PDF43/printed52 starts 3차원 미로 and is excluded.
+- Twenty-eight mapped regions produce20 reading blocks, one original typewriter
+  photograph and five code panels. The photograph retains its printed lead box;
+  that lead is also transcribed separately for readability. Four joined prose/
+  table blocks connect seven column/page boundaries, retaining regional text and
+  scans. Variable and routine descriptions are transcribed with column spacing
+  normalized; the heading is 변수 설명.
+- BASIC100–2080 contains199 numbered lines in319 physical rows. Line270 spans
+  printed47–48 and retains both scan identities. Number, variable and string
+  wraps remain in the download. Decorative blank lines/indentation are normalized.
+  `corrections.json` preserves37 text review notes and21 listing anomalies,
+  including printed `CHRA`, the terminal dot after270's `N1.`, routine range
+  `230 2350`, prose typos and the IIe/SH instruction discrepancy. Similar470/480
+  symbols, N0/O-like glyphs, small punctuation and quoted spacing remain for
+  owner proofreading; no execution or original-character-byte claim.
+- All28 initial OCR tasks completed without failure. Enlarged review exposed
+  a clipped final word in routine-table r23; widened its right edge. The revised
+  pass reused27 cached regions and reprocessed one, with no failed-region retry.
+  Both immutable evidence exports validate. Final cached processing totals37.3s
+  rendering/cropping and29.0s OCR; these include reused regions rather than
+  summing the wall times of both passes.
+- The120-file article package /36,436,312 bytes rebuilds byte-identically.
+  Region coverage, all text/review ranges,319 physical rows,199 logical rows,
+  seven joins,270 continuation and raw archive bytes validate. All1,110 prior
+  output-file pins and pre-update inputs pass. Generic tooling is unchanged;
+  the preceding successful62-test log is pinned.
+- After the user reported touching Chrome, started a separate named session
+  from the known local index. Desktop1440×1000/mobile390×844 acceptance passes
+  for all20 blocks,32 asset/download pins,37 review ranges and loaded photograph.
+  Five wide code panels scroll without page overflow. Actual22,463-byte article
+  and7,388-byte listing downloads match; original photograph opens2331×1761.
+  Screenshots inspected, no application errors, initial favicon404 only, and
+  test browser closed. Preview: `http://127.0.0.1:4245/`.
+- Batch output `build/pdf-restoration/12-1984-02-batch-07` contains123 files /
+  36,462,233 bytes including index/report/manifest. Manifest SHA-256:
+  `7829a46e1ab703968e7ebec6c51328503e0b284040d3477064d61cb78555536c`.
+  Mapping/revision records, validation, ledger snapshots and next plan are in the
+  matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-07`. Elapsed1461.7s includes mapping,
+  transcription, crop revision, validation, browser checks and conversation/tool waits.
+- Only 마이크로텍스트's ledger entry changed. February now has **five readable/
+  sample-reviewed articles, one partial/sample-reviewed article, one group heading
+  and36 unresolved eligibility decisions**. Prior packages, authoritative TOC
+  and cover/TOC integration remain intact. Next: **12-1984-02-batch-08**, restore
+  the final two verified pages and then assemble both segments. Complete-issue
+  classification, restoration and reader export remain in progress.

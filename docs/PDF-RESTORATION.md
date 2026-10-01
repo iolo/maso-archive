@@ -2393,3 +2393,36 @@ February now has five readable/sample-reviewed articles, one group heading and
 37 unresolved eligibility decisions. Next is `12-1984-02-batch-07`: verify
 마이크로텍스트's extent and restore at most six pages from PDF51/printed44.
 Any continuation remains explicit until a later checkpoint completes the article.
+
+### February 마이크로텍스트, first segment
+
+`12-1984-02-batch-07` restores printed44–49 / PDF51–46 as
+**partial/sample-reviewed**. The whole article is verified at printed44–51;
+its last two pages, PDF45–44 and BASIC2090–3470, are present and deferred.
+The following PDF43/printed52 starts 3차원 미로.
+
+Twenty-eight regions produce20 blocks, a typewriter photograph and five code
+panels. Seven prose/table boundaries are joined with regional transcriptions
+retained. The photograph includes the printed lead, also transcribed separately.
+BASIC100–2080 has199 numbered lines in319 physical rows;270 crosses a page.
+The correction record preserves37 text notes and21 listing anomalies, including
+`CHRA`, `N1.`, printed routine range `230 2350` and uncertain symbols/spacing.
+No execution or original-byte certification is claimed.
+
+```sh
+make check-pdf-article \
+  PDF_OUTPUT=build/pdf-restoration/12-1984-02-batch-07/microtext
+python3 -m http.server 4245 --bind 127.0.0.1 \
+  --directory build/pdf-restoration/12-1984-02-batch-07
+```
+
+The120-file article rebuilds byte-identically. A widened routine-table crop
+retains the final word; original and revised evidence remain available. All1,110
+prior-file pins, correction ranges, physical/logical row indexes and joins pass.
+Desktop/mobile acceptance passes for all blocks,32 asset/download pins, original
+photograph access and actual downloads. The test browser was closed afterward.
+
+February now has five readable/sample-reviewed articles, one partial/sample-reviewed
+article, one group heading and36 unresolved eligibility decisions. Next is
+`12-1984-02-batch-08`: restore the final two verified pages and assemble the
+article, preserving this first segment. Complete-issue reader export remains ahead.

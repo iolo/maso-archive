@@ -14,11 +14,14 @@ assembled as readable/sample-reviewed, with every original segment and correctio
 record preserved. Batch04 restored 우주전쟁, printed32–35, and classified the
 취미생활 divider. Batch05 restored FLIP-IT II, printed36–40, preserving all
 listing wraps. Batch06 restored 구슬게임, printed41–43, including its character
-definitions and duplicate printed line number. February has five readable/
-sample-reviewed articles, one group heading and37 unresolved eligibility decisions.
-Next is **12-1984-02-batch-07**: verify 마이크로텍스트 from PDF51/printed44 and
-restore its first segment within the six-page ceiling. Step 12's remaining-issue
-campaign is still open.
+definitions and duplicate printed line number. Batch07 restored 마이크로텍스트's
+first six pages, printed44–49 / PDF51–46, through BASIC2080. Its complete extent
+is verified at printed44–51; the last two pages are present and deferred.
+February has five readable/sample-reviewed articles, one partial/sample-reviewed
+article, one group heading and36 unresolved eligibility decisions. Next is
+**12-1984-02-batch-08**: restore printed50–51 / PDF45–44, listing2090–3470,
+then assemble both preserved segments before promoting the article. Step 12's
+remaining-issue campaign is still open.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -390,6 +393,11 @@ issue in the staged reader before moving to remaining issues.
   remain outside this article; verify each following page before extraction.
 - An unsupported format becomes a separate bounded sample/repair checkpoint;
   do not expand a processing batch into an open-ended pipeline redesign.
+- 마이크로텍스트 spans eight verified pages, exceeding one batch's ceiling.
+  Preserve the first six-page segment and its seven prose/table joins, code270
+  page continuation, literal technical anomalies and correction indexes. Restore
+  the remaining two pages separately; validate assembly before calling the whole
+  article readable. The following PDF43/printed52 starts 3차원 미로.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
