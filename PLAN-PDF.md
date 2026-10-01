@@ -454,9 +454,17 @@ issue in the staged reader before moving to remaining issues.
   과/의 join retains the intervening figure/caption/table order. The tested
   opt-in `regional-prose-v1` assembly mode projects regional, table, Unicode,
   signal and reference ranges while keeping old assembly behavior unchanged.
-- 타임머신 begins at verified PDF93/printed97. Its candidate97–101 extent
-  follows the catalog's next graph article at102; inspect every continuation
-  folio and actual boundary locally within the six-source-page ceiling.
+- 타임머신 is complete at printed97–101 / PDF93–97. Preserve the72-line
+  main calendar listing and three separate compatibility variants,84 logical/
+  88 physical rows, two original images, five prose joins and34 review notes.
+  The30 explicit U+2422 blank symbols are reading notation, not recovered spaces
+  or original bytes. Retain literal Y3<>=0, the variant330 difference, physical
+  PRINT wraps and prose variable-name discrepancies without inferred repairs.
+- 매개변수로 표현된 함수의 그래프 begins at verified PDF98/printed102.
+  Inspect its extent locally; the catalog's next article at122 and intervening
+  business divider do not establish the graph article's length. Restore at most
+  six source pages per checkpoint and retain partial status if continuation is
+  needed. Preserve its BASIC, original graph screens and correction evidence.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

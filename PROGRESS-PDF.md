@@ -5277,3 +5277,57 @@ history remains in [PROGRESS.md](PROGRESS.md).
   unresolved eligibility decisions**. Next: **12-1984-02-batch-17**, verify and
   restore 타임머신 from PDF93/printed97 within six source pages. Full-issue
   restoration, reconciliation and staged reader acceptance remain open.
+
+### 2026-10-01 — 12-1984-02-batch-17 started
+
+- Previous checkpoint committed as `220a1d0`. Saved fixed inputs and prior-output
+  pins. Verify 타임머신 printed97–101/PDF93–97 and the following article boundary;
+  preserve the calendar listing and its separate compatibility variants, source
+  images and correction ranges. Cover/TOC integration remains intact.
+
+### 2026-10-01 — 12-1984-02-batch-17 complete
+
+- Restored the complete 타임머신 calendar tutorial, individually verified
+  printed97–101 / PDF93–97. PDF98/printed102 begins the graph article. All
+  2,901 prior February output pins, November packages and completed cover/TOC
+  integration remain intact.
+- The38 source regions produce31 reading blocks and two original images:
+  the calendar illustration and annotated January1984 example. Internal calendar
+  labels and memo layout remain image-preserved. Five prose joins restore
+  있/는,7×4+1=/29,오/른쪽으로,JD!로/표현하며 and 두 번/째.
+- Six main listing blocks contain72 numbered lines10–720. Three independent
+  compatibility alternatives add12 numbered lines;84 logical/88 physical rows
+  are indexed with distinct example identities. Four physical continuations
+  at280,340,370,400 and four DATA records retain exact download ranges.
+- `corrections.json` contains34 text review notes,16 listing notes,36 regional
+  ranges and38 Unicode spans. Thirty U+2422 blank markers explicitly represent
+  the source's space notation. Literal Y3<>=0, variant330 JD!, prose Y!/M!,
+  MO$( , ), row/column wording and quoted-string uncertainty remain unchanged.
+  The combined listing is reading-order material with alternatives, not a
+  patched executable. Original bytes and calendar execution remain unverified.
+- Initial38 OCR tasks completed without failures. One permitted crop retry
+  recovered clipped LENGTH in r28;37 regions reused. A metadata-only revision
+  corrected the main-block count from seven to six, reusing all38 OCR regions.
+  Earlier maps, crops, states and exports remain preserved. Selected cached
+  render/crop34.5s and OCR26.0s are processing totals, not cumulative elapsed time.
+- The157-file article package (28,579,282 bytes) rebuilds byte-identically.
+  Mapping, complete coverage, regional/Unicode ranges, four listing identities,
+  physical/logical continuations, raw OCR and prior pins pass. Generic tooling
+  is unchanged; the successful68-test PDF regression log remains pinned.
+- Desktop1440×1000/mobile390×844 checks pass for31 blocks,42 pins and34 review
+  ranges. Nine wide code blocks scroll internally; no page overflow or application
+  errors. Original illustration opens at1571×1110. Actual article/listing
+  downloads match18,647/2,811 bytes. Both screenshots inspected and test browser
+  closed. Preview: `http://127.0.0.1:4257/`.
+- Output `build/pdf-restoration/12-1984-02-batch-17` has160 files /
+  28,612,922 bytes. Manifest SHA-256:
+  `b89a4a8bac7b9f1a25a44cea814a5a56089eef9ad7d307894b800017bbde9e79`.
+  Private recipes, corrections, original evidence, validation, ledger snapshots
+  and next plan are in the matching private directory; browser evidence is under
+  `output/playwright/pdf-1984-02-batch-17`. Elapsed676.7s includes
+  transcription, revisions, rebuild, browser checks and tool waits.
+- Only entry0018 changed. February now has **seventeen readable/sample-reviewed
+  articles, no partial articles, two group headings and24 unresolved eligibility
+  decisions**. Next: **12-1984-02-batch-18**, inspect and restore a bounded graph
+  article segment from PDF98/printed102. Whole-issue restoration, reconciliation
+  and staged reader acceptance remain open.
