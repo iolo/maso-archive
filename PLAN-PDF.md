@@ -1,5 +1,32 @@
 # Step-by-step PDF restoration plan
 
+## Scope and current next step
+
+**Scope clarified 2026-10-02:** this plan converts eligible PDF content into
+structured JSON and extracted image assets. Deliver article/issue identities,
+ordered text/code/caption blocks, figures and covers, source/region provenance,
+immutable raw OCR, `corrections.json`, and explicit availability/review outcomes.
+Text/listing files may accompany the JSON for correction and reuse.
+
+HTML previews, human-readable publication, reading-room adapters/integration,
+browser/Playwright checks, frontend builds/tests, and reader installation belong
+to a separate rendering task. They are not prerequisites at any checkpoint,
+including issue closeout and final campaign completion. PDF page rasterization
+and cropping for OCR, scan review, and image extraction remain in scope.
+
+November 1983 and February 1984 remain complete; 17 eligible issues remain.
+Before starting March 1984, complete the bounded data-only tooling checkpoint
+below. Preserve completed packages and historical rendered outputs unchanged.
+The revised requirements supersede rendering gates in older progress entries,
+tool documentation, and saved successor notes; those records remain evidence of
+work already performed, not authority to repeat rendering work.
+
+## Historical completion record
+
+The following records work completed under the earlier scope, including reader
+work. Steps 8–9 below now specify the data contract and data acceptance gates;
+reuse existing evidence rather than repeating completed extraction.
+
 Revised 2026-10-02. Status: **steps 1–11 complete.** November 1983's
 47 TOC entries are accounted for: 35 readable/sample-reviewed articles, five
 group headings and seven section references. The standalone issue reference and
@@ -101,11 +128,14 @@ correction and full proofreading remain deferred. February1984 is complete withi
 the agreed restoration scope. Step12 remains open for the other17 eligible issues;
 the next issue is March1984,with no extraction started yet.
 
-Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
-integrate the results into the existing reading room. Use local OCR and preserve
-useful results with explicit gaps. Follow the bounded checkpoint approach in
+## Objective
+
+Restore only articles listed in [TOC.md](TOC.md) into JSON, extract image assets
+and available covers, and preserve useful results with explicit gaps. Use local
+OCR. Follow the bounded checkpoint approach in
 [PLAN-CD1.md](PLAN-CD1.md), [PLAN-CD2.md](PLAN-CD2.md),
-[PLAN-CD3.md](PLAN-CD3.md), and [PLAN-reading-room.md](PLAN-reading-room.md).
+[PLAN-CD3.md](PLAN-CD3.md). Rendering and reading-room delivery are separate work
+under [PLAN-reading-room.md](PLAN-reading-room.md), when requested.
 
 ## Working rules
 
@@ -113,7 +143,8 @@ useful results with explicit gaps. Follow the bounded checkpoint approach in
   [PROGRESS-PDF.md](PROGRESS-PDF.md) recording inputs, completed work, outputs,
   validation, unresolved issues, and the next step. Record partial or blocked
   outcomes honestly before moving on. Also record each issue closeout. Steps
-  11 and 12 are campaign milestones, not single execution checkpoints.
+  11 and 12 are campaign milestones, not single execution checkpoints. Commit
+  changes after each completed step or named checkpoint.
 - Each executable checkpoint has one goal, fixed inputs, a work limit, a saved
   artifact, and an acceptance check. Split a checkpoint before expanding its
   scope. Mapping proceeds with the current article/batch, not across the archive
@@ -130,25 +161,30 @@ useful results with explicit gaps. Follow the bounded checkpoint approach in
   the blocker, preserved partial outputs, and what would allow progress. Do not
   silently continue investigating beyond this limit.
 - Preserve source PDFs and existing CD references. Keep scans, OCR, restored
-  text, images, and generated references in ignored private/build locations.
+  text, images, and generated data packages in ignored private/build locations.
 - Article extraction is limited to existing TOC entries. Ignore advertising
   and other unlisted material for now, including advertising regions on pages
   shared with eligible articles. Cover extraction is explicitly included.
 - Use scans as evidence for corrections. Preserve raw OCR, CD transcription,
   and scan-supported corrections separately. Reproducibility does not establish
   transcription accuracy or complete printed-issue coverage.
+- Validate data and source evidence directly. Do not generate HTML, launch a
+  browser, rebuild a reader, or run frontend checks to accept PDF restoration.
+  `readable` describes coherent extracted content, not successful UI rendering.
 
-## Cover and TOC integration after step 11
+## Cover and TOC inputs and preservation
 
 - `TOC.md`, including the owner's `bccb3e0` corrections, remains authoritative.
   OCR findings do not authorize further catalog edits. Preserve stable IDs with
   explicit decisions; keep old catalog snapshots and article packages unchanged.
 - Follow [PLAN-covers.md](PLAN-covers.md): donated cover → verified PDF cover →
-  placeholder. Serve only bounded derivatives, never donated originals. Reuse the
-  completed cover preparation rather than restoring deleted legacy JPEGs.
+  placeholder. Reuse completed cover preparation and preserve its asset metadata
+  and bounded derivatives rather than restoring deleted legacy JPEGs. Serving
+  covers is outside this plan.
 - Follow [PLAN-tocs.md](PLAN-tocs.md): preserve normalized originals and the
-  reduced-image viewer/gallery. Completed scan comparison reports remain pinned
-  historical evidence; a new catalog hash does not silently reapprove them.
+  existing reduced-image assets and viewer/gallery work without modifying them.
+  TOC presentation is outside this plan. Completed scan comparison reports remain
+  pinned historical evidence; a new catalog hash does not silently reapprove them.
 - The corrected import contains 5,299 entries across 122 issues. The PDF queue
   now contains **828 entries and 686 provisional article candidates** across the
   same 19 eligible PDFs. These replace the original 839/684 sizing totals below.
@@ -268,7 +304,7 @@ pages of each PDF for cover evidence. Defer unresolved cover searches.
 
 **Artifact/check:** a 21-source cover ledger plus available images. Inspect each
 new cover for orientation, proportions, and date evidence; verify existing cover
-bytes remain unchanged. Later reader integration checks their presentation.
+bytes remain unchanged. Presentation checks belong to the separate rendering task.
 
 ## 3. Map one pilot and define its restoration record
 
@@ -286,8 +322,8 @@ page/lookup limits; segment it if needed.
   unresolved; do not guess a fixed page offset.
 - Define the minimal article package: stable scan-derived ID distinct from CD
   IDs and independent of OCR titles, issue/TOC links, source hashes, region map,
-  raw OCR paths/settings, corrected blocks, figures, downloads, and independent
-  availability/review states. Keep correction evidence separate from raw OCR.
+  raw OCR paths/settings, corrected blocks, figures, asset/file references, and
+  independent availability/review states. Keep correction evidence separate from raw OCR.
 
 **Artifact/check:** one evidenced pilot map and a documented package schema with
 synthetic examples. Verify numbering, rotated coordinates, shared-page exclusion,
@@ -320,12 +356,11 @@ using separate segment checkpoints if its extent exceeds the page ceiling.
 - Produce ordered prose, literal code, captions, and figure crops. Preserve code
   whitespace and uncertain characters; store scan-supported corrections apart
   from raw OCR. Apply the pilot review requirement above.
-- Export a minimal standalone article preview with downloads, scan-region
-  evidence, and visible availability/review states. Keep this renderer reusable
-  for later issue references rather than building a second reader application.
+- Export article JSON, extracted images, correction records, and scan-region
+  evidence with explicit availability/review states and a file/hash manifest.
 
-**Artifact/check:** one reviewed article package and preview. Check complete
-mapped-region coverage, advertisement exclusion, figure/download links, and
+**Artifact/check:** one reviewed JSON and asset package. Check complete
+mapped-region coverage, advertisement exclusion, local asset references, and
 unchanged raw OCR. Rebuild the package to verify stable IDs and content. A
 partial result is retained, but the useful-pilot gate must pass before scaling.
 
@@ -362,41 +397,43 @@ CD reference; one article association and up to two mapped pages of comparison.
 **Artifact/check:** one comparison record whose decisions lead back to the scan;
 no raw OCR or CD bytes change. If no sampled association can be supported, record
 an explicit deferred comparison and expose no relationship. This does not block
-independent scan reading. Leave September 1991's annotation until relevant to a
+independent PDF extraction. Leave September 1991's annotation until relevant to a
 selected article, and defer March 1995's interior blank page entirely unless it
 becomes relevant to cover identification.
 
-## 8. Export one article through the reading-room adapter
+## 8. Establish a portable JSON and asset export
 
-**Goal:** validate the restoration package against the reader's actual data needs.
-**Input and limit:** the pilot package and current reader data; one scan-derived
-article in a separate staged export, retaining the existing CD records.
+**Goal:** deliver a reusable data package independent of any renderer.
+**Input and limit:** the pilot package and documented restoration schema;
+one scan-derived article, without changing existing CD records.
 
-- Extend the static contract to version 3 with source/region references and
-  availability/verification states. Retain version 1/2 support and existing URLs.
-- Attach the article to its canonical issue/TOC identities. Include figures,
-  downloads, scan evidence, and only supported version relationships.
-- Validate paths, hashes, identities, and links before replacing any reader data.
+- Document the JSON contract for ordered blocks, source/region references,
+  corrections, assets, and independent availability/verification states.
+- Retain canonical issue/TOC identities, stable article/block IDs, and only
+  evidenced version relationships. Existing compatibility fields may remain,
+  but must not require HTML pages, reader routes, or a running application.
+- Include a manifest of package files and hashes with resolvable local paths.
 
-**Artifact/check:** one staged export and focused adapter/compatibility tests.
-Re-export it deterministically; verify existing CD IDs, links, and download bytes
-remain intact. Correct package omissions here before bulk restoration.
+**Artifact/check:** one JSON and asset export with focused schema/reference
+checks. Re-export deterministically and verify raw OCR, source evidence, and CD
+bytes remain intact. Correct package omissions before bulk restoration.
 
-## 9. Read the pilot in the existing application
+## 9. Validate the pilot data and evidence
 
-**Goal:** demonstrate the complete issue → TOC → article → scan-evidence flow.
-**Input and limit:** step 8's staged export; the pilot plus synthetic partial,
-image-only, and unavailable cases, with representative existing CD routes.
+**Goal:** prove that article content and corrections can be consumed from files.
+**Input and limit:** step 8's package; the pilot plus synthetic partial,
+image-only, failed, and unresolved outcomes.
 
-- Render restored text, figures, downloads, scan regions at readable resolution,
-  and distinct review states. Load article/page assets on demand.
-- Include the pilot's metadata in search and available extracted covers in the
-  existing cover presentation. Preserve standalone PDF and CD reference links.
+- Validate issue/TOC/article identities, block order, source-region coverage,
+  asset paths/hashes/dimensions, correction targets and listing byte ranges.
+- Verify literal code and whitespace survive JSON serialization and extraction.
+  Inspect source/crop images directly for evidence and crop quality.
+- Check that incomplete outcomes and review limits remain explicit, and that
+  the package can be validated without HTML, CSS, reader data, or a browser.
 
-**Artifact/check:** a working staged reader verified on desktop and mobile.
-Check literal code rendering, evidence/download links, missing states, cover
-fallbacks, search, CD navigation, and nested hosting. Confirm unrelated article
-bodies are not fetched. Record browser results before advancing to bulk work.
+**Artifact/check:** a saved data-validation report and focused fixtures covering
+the above invariants. Retain the scan comparison/review evidence from steps 5–6;
+passing structural checks does not establish transcription accuracy.
 
 ## 10. Prove bounded batch and resume behavior
 
@@ -413,13 +450,13 @@ bodies are not fetched. Record browser results before advancing to bulk work.
 
 **Artifact/check:** a tested batch runner, durable outcome ledger, documented
 limits, and a bulk-readiness record. Advance only after steps 5–6 demonstrate
-useful results and steps 8–9 demonstrate a working reader. Record step 7's
-comparison result or explicit deferral. A gate failure becomes a bounded repair
+useful results and steps 8–9 demonstrate valid JSON and asset exports. Record
+step 7's comparison result or explicit deferral. A gate failure becomes a bounded repair
 checkpoint, not a reason to process more issues speculatively.
 
 ## 11. Complete November 1983 through named batches
 
-**Goal:** deliver the first complete issue accounting and usable issue reference.
+**Goal:** deliver the first complete issue accounting and JSON issue index.
 **Input:** November's 47 TOC entries, existing samples, and the validated workflow.
 **Size:** campaign milestone; each `11-batch-NN` is an independent checkpoint
 within step 10's limits, followed by a separate `11-closeout` checkpoint.
@@ -428,8 +465,9 @@ within step 10's limits, followed by a separate `11-closeout` checkpoint.
   ownership, and page-less entries locally; retain decisions with evidence.
 - The opening feature is one article across PDF18–28. Its seven pageless TOC
   children are section references: preserve their TOC entries and link them to
-  the final parent section anchors after assembly. Count these references
-  separately from body-owning articles and group headings. PDF29 is excluded.
+  the final parent article and stable section/block IDs after assembly. Count
+  these references separately from body-owning articles and group headings.
+  PDF29 is excluded.
 - Reuse successful samples. Save packages, review coverage, failures, retries,
   and unresolved boundaries after every batch. Avoid duplicate article bodies.
 - For disjoint reviewed segments, assemble without new OCR. Retain original
@@ -437,28 +475,35 @@ within step 10's limits, followed by a separate `11-closeout` checkpoint.
   rebase correction scan paths and listing byte ranges, and explicitly resolve
   superseded scope notes. Complete coverage can be readable/sample-reviewed
   while scan-linked bitmap markers remain pending the owner's manual correction.
-- At closeout, generate a standalone issue reference with TOC navigation,
-  downloads, scan evidence, and visible states using the existing preview tooling.
+- At closeout, generate a JSON issue index and report containing TOC accounting,
+  package/asset references, source evidence, correction records, and outcome states.
 
 **Artifact/check per batch:** saved packages and reconciled batch outcomes, with
 region/order checks and recorded text-review coverage. Validate JSON, assets,
-source links, correction byte ranges and reproducibility at this stage. Browser
-layout/download checks are reserved for issue closeout and reader integration;
-ordinary extraction and assembly batches do not require Playwright acceptance.
+source links, correction byte ranges and reproducibility at this stage. These
+data checks also apply at issue closeout; no HTML or browser acceptance is required.
 **Issue closeout:** all
 47 entries have a classification and every eligible article has an outcome;
 no unlisted article is added. Report readable/partial/image-only/failed/unresolved
-counts separately, plus unresolved eligibility decisions. Export and inspect the
-issue in the staged reader before moving to remaining issues.
+counts separately, plus unresolved eligibility decisions. Validate the JSON issue
+index, package references and asset integrity before moving to remaining issues.
 
 ## 12. Process remaining issues through the same bounded procedure
 
-**Goal:** extend the proven workflow to the remaining 18 TOC-covered PDFs.
+**Goal:** extend the proven workflow to the other TOC-covered PDFs; 17 remain
+after February 1984's completion.
 **Input and size:** one issue at a time chronologically; named checkpoints such as
 `12-1984-02-batch-01` and `12-1984-02-closeout`, using the established ceilings.
 
 - Reuse completed samples; map only the current batch. Preserve evidence and
   continue past isolated failures within the retry limit.
+
+### Historical February checkpoints
+
+The notes below retain the completed February sequence under the earlier scope.
+References to subsequent work describe the next action at that historical point;
+they do not impose rendering or reader acceptance on remaining issues.
+
 - February's PDF is not in printed reading order. Verified local mappings are
   PDF78→printed17, PDF77→18, PDF76→19 and PDF75→20; PDF79 instead contains
   printed83. Confirm each page locally, retain explicit reading order and never
@@ -821,8 +866,11 @@ issue in the staged reader before moving to remaining issues.
   and nested hosting pass;79 PDF,56 reader and15 frontend tests plus production
   build pass. Completion evidence is in the matching private closeout directory
   and `build/pdf-restoration/12-1984-02-closeout`. No new OCR or pipeline changes.
-- Reconcile each issue, produce its standalone reference/report, and validate
-  its staged reader export before starting the next issue.
+
+### Requirements for remaining issues
+
+- Reconcile each issue, produce its JSON index/report, and validate its article
+  packages and extracted assets before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the
   extraction queue. Keep unresolved classification and source-label conflicts
   visible rather than inflating restoration totals.
@@ -833,22 +881,24 @@ for (839 in the initial snapshot; corrected by the owner after step 11); each el
 article has an outcome and the two 1995 sources remain cover-only. Report actual
 usable coverage separately from complete queue accounting.
 
-## 13. Reconcile and install the complete reader export
+## 13. Reconcile the complete JSON and asset collection
 
-**Goal:** make all delivered PDF results available alongside the existing archive.
+**Goal:** deliver a consistent collection ready for downstream use.
 **Input and limit:** completed issue packages/reports, cover ledger, and existing
 CD references; aggregation only, with no new restoration or UI features.
 
 - Reconcile manifests, source hashes, identities, TOC membership, outcome totals,
   review coverage, covers, and links across the 19 eligible issues.
-- Build and validate a complete staged export; preserve standalone references
-  and existing URLs before replacing reader data through the established flow.
-- Confirm no 1995 article records were added. Check available 1995 covers through
-  existing presentation without inventing canonical TOC or CD issue associations.
+- Build an aggregate JSON index and file/hash manifest referencing completed
+  issue indexes, article packages, corrections, and assets. Preserve existing
+  packages and CD data; do not install or replace reading-room data.
+- Confirm no 1995 article records were added. Account for available 1995 cover
+  assets without inventing canonical TOC or CD issue associations.
 
-**Artifact/check:** a validated full export and coverage report distinguishing
-usable results, unresolved eligibility, and restoration gaps. Existing CD links
-and download bytes remain intact; repeated exports reproduce content.
+**Artifact/check:** a validated JSON/asset collection and coverage report
+distinguishing usable results, unresolved eligibility, and restoration gaps.
+All local references resolve and hashes match; repeated exports reproduce content
+apart from declared volatile metadata. Existing CD records and bytes remain intact.
 
 ## 14. Complete regression checks and handoff
 
@@ -856,10 +906,10 @@ and download bytes remain intact; repeated exports reproduce content.
 **Input and limit:** the full export and accumulated checkpoint evidence;
 final regression and documentation, not a new recovery campaign.
 
-- Run the focused pipeline/adapter/reader checks introduced in earlier steps.
+- Run the focused pipeline, schema, package and asset checks introduced above.
   Use synthetic fixtures in ordinary tests and keep real scans/OCR outside Git.
-- Check representative desktop/mobile reading, literal code, scan evidence,
-  downloads, cover fallbacks, metadata search, CD navigation, and nested hosting.
+- Check representative literal code/whitespace, correction byte ranges, source
+  evidence, image integrity and cover metadata directly from data and image files.
 - Document preparation, resume, export, validation commands, required private
   inputs, output locations, and known limits. Update README and successor notes.
 - Record final TOC accounting, eligible articles, availability/review totals,
@@ -867,7 +917,31 @@ final regression and documentation, not a new recovery campaign.
 
 **Completion:** the pilot/sample quality gates passed; every eligible article has
 an explicit outcome; unresolved eligibility is separately reported; all usable
-results and available covers appear in the reading room. Report restoration
+results and available image/cover assets are indexed in the validated JSON
+collection with provenance and correction records. No renderer or reader is
+required to complete this plan. Report restoration
 coverage rather than claiming every article was recovered. Full proofreading,
 cloud OCR, advertising restoration, TOC expansion, full-text search, ownership
-features, and public deployment remain deferred.
+features, and public deployment remain deferred. HTML rendering and reading-room
+delivery are separate tasks consuming this data collection.
+
+## Next checkpoint: remove HTML dependencies from data delivery
+
+**Goal:** make the existing tools satisfy the clarified scope before March 1984.
+**Input and limit:** existing build/assembly/batch/issue export and validation
+code, plus synthetic fixtures and already completed package evidence. One bounded
+compatibility checkpoint; no new OCR, article restoration, or renderer redesign.
+
+- Separate JSON/asset validation from preview validation. Currently `build.py`
+  requires `index.html` in `check_export`, `assemble.py` compares generated HTML,
+  and `issue.py` generates a rendered issue reference. Check their callers too.
+- Make PDF data delivery and issue closeout work without generating HTML/CSS or
+  invoking reader/frontend tools. Preserve existing package schemas, stable IDs,
+  raw OCR, corrections and assets; retain old rendered artifacts unchanged.
+- Reuse focused fixtures to demonstrate export, assembly, resume and closeout
+  with no HTML present. Document the data-only commands and successor checkpoint.
+
+**Artifact/check:** focused passing data tests and a JSON/asset-only sample issue
+index/report, with package preservation checks. Update PROGRESS and commit before
+starting March extraction. This is planned follow-up; the scope revision itself
+does not implement these tooling changes.

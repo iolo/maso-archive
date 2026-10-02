@@ -2,7 +2,16 @@
 
 Follow [PLAN-PDF.md](../PLAN-PDF.md) in checkpoint order and record each outcome
 in [PROGRESS-PDF.md](../PROGRESS-PDF.md). The tools here do not authorize bulk OCR
-before the pilot, contrasting samples, and staged reader pass their gates.
+before the pilot, contrasting samples, and JSON/asset validation pass their gates.
+
+**Scope clarified 2026-10-02:** PDF restoration delivers JSON and extracted
+images/assets, with source evidence, raw OCR, correction records and outcome
+states. HTML previews and reading-room integration are separate tasks, including
+at issue closeout and final handoff. Earlier rendering commands and acceptance
+records below describe existing tools and historical work, not current PDF gates.
+Some tools still require HTML; the next bounded checkpoint in PLAN-PDF.md removes
+that dependency before March extraction. This documentation revision does not
+change those tools or completed packages.
 
 ## Step 1: source inventory
 
@@ -3209,10 +3218,10 @@ cd web
 READING_ROOM_OUTPUT=build/reading-room-pdf-february READING_ROOM_BASE=/archive/ npm run preview -- --port 4184
 ```
 
-Open `http://127.0.0.1:4184/archive/#/issues/maso-1984-02`. This is a staged export;
-the final aggregate installation remains step13. No server is left running by
-the closeout. Ordinary PDF extraction/assembly uses static artifact validation;
-browser checks belong to the separate reader-integration stage.
+Open `http://127.0.0.1:4184/archive/#/issues/maso-1984-02` to inspect this historical
+staged export. No server is left running by the closeout. Future rendering,
+browser checks and reader installation belong to a separate task outside
+PLAN-PDF.md. Its revised step 13 aggregates JSON and assets only.
 
 The closeout report is `build/pdf-restoration/12-1984-02-closeout/report.json`.
 The authoritative ledger is `private/pdf-restoration/12-1984-02/issue-progress.json`;

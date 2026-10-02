@@ -7284,3 +7284,26 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Added measured/estimated tables and limitations to `docs/PDF-COST-AUDIT.md`.
   Subtask JSON/CSV and private reproduction/evidence files accompany the issue
   statistics. No pipeline changes,new restoration or browser work.
+
+### 2026-10-02 — Clarify PDF scope: JSON and extracted assets
+
+- Revised PLAN-PDF.md to match the owner's explicit goal: structured article and
+  issue JSON plus extracted images/assets, source/region evidence, immutable raw
+  OCR, corrections.json and separate availability/review outcomes. PDF page
+  rasterization and cropping for OCR/source review remain in scope.
+- Removed HTML previews, reader adapters/integration, browser/Playwright checks,
+  frontend tests/builds and reader installation from every future acceptance gate,
+  including issue closeout and campaign completion. Steps 8–9 now validate the
+  portable data contract; steps 13–14 reconcile and hand off JSON/assets.
+- Preserved historical completion records and outputs. November and February
+  remain complete; 17 eligible issues remain. Cover/TOC plans and owner catalog
+  corrections remain authoritative; their existing presentation work is preserved.
+  Updated the restoration guide to distinguish historical commands from current
+  scope. Earlier notes about step 13 reader installation are superseded.
+- Inspected existing tooling and recorded a bounded follow-up before March:
+  remove HTML requirements from build/assembly validation and issue export,
+  including dependent callers, while preserving package data and correction
+  evidence. This revision does not implement that change or alter the pipeline.
+- Validation: reviewed the revised scope and future gates; `git diff --check`
+  passes. Documentation only; no OCR, package regeneration, browser work or test
+  suite run. Next: the data-only tooling checkpoint, then March extraction.
