@@ -93,11 +93,13 @@ TOC groups. All43 entries reconcile as37 readable/sample-reviewed articles and
 six group headings;no eligibility decisions remain. The **12-1984-02-reference**
 checkpoint now packages all37 articles with their original JSON,assets and
 correction records. Source/page checks,static links and a byte-identical rebuild
-pass without browser use. Next is **12-1984-02-closeout**,a separate combined
-reading-room integration/acceptance checkpoint. Article restoration and standalone
-packaging are complete;full issue closeout remains unverified until reader
-integration and preservation checks pass.
-Step12 remains open.
+pass without browser use. **12-1984-02-closeout is complete**: separate combined
+reading-room integration,preservation checks and desktop/mobile acceptance pass.
+All37 February articles coexist with35 November articles and3,386 CD articles;
+corrected TOC,145 cover assets and145 TOC scan sets remain intact. Manual bitmap
+correction and full proofreading remain deferred. February1984 is complete within
+the agreed restoration scope. Step12 remains open for the other17 eligible issues;
+the next issue is March1984,with no extraction started yet.
 
 Restore only articles listed in [TOC.md](TOC.md), extract available covers, and
 integrate the results into the existing reading room. Use local OCR and preserve
@@ -807,6 +809,18 @@ issue in the staged reader before moving to remaining issues.
   One validation-script retry normalized string/integer printed-page labels;
   no source content was changed. Reading-room integration/acceptance remains a
   separate closeout stage;static link checks do not claim browser acceptance.
+- February issue closeout is complete. Combined reader
+  `build/reading-room-pdf-february` preserves50,313 baseline files,all3,421 prior
+  article records and all6,817 February package files. Only the four expected
+  baseline catalog/search/February issue/media documents change.145 cover assets,
+  149 covered issues and145 TOC scan sets/239 pages/478 derivatives are preserved.
+  The inherited checklist's149 TOC-set count was corrected against PLAN-tocs.md;
+  the baseline/data were unchanged. All37 rendered article routes,193 literal code
+  blocks,1,711 region links and six group routes pass. Desktop/mobile,actual
+  text/listing/scan downloads,correction access,TOC zoom,search,November/CD routes
+  and nested hosting pass;79 PDF,56 reader and15 frontend tests plus production
+  build pass. Completion evidence is in the matching private closeout directory
+  and `build/pdf-restoration/12-1984-02-closeout`. No new OCR or pipeline changes.
 - Reconcile each issue, produce its standalone reference/report, and validate
   its staged reader export before starting the next issue.
 - Keep advertisements, unlisted material, and 1995 article bodies outside the

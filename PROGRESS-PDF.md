@@ -7187,3 +7187,52 @@ history remains in [PROGRESS.md](PROGRESS.md).
   pins now identify this output. `12-1984-02-closeout` still requires separate
   combined reader integration,preservation audit and issue-level acceptance.
   Manual bitmap correction and full proofreading remain deferred as agreed.
+
+### 2026-10-02 — 12-1984-02-closeout complete
+
+- Completed the separate reading-room integration checkpoint after PDF conversion
+  and standalone packaging. February's43 canonical entries resolve to37 readable/
+  sample-reviewed articles and six non-owning group headings. No partial,image-only,
+  failed,unresolved article outcomes or unresolved eligibility remain. This is
+  scope completion,not full proofreading or executable-code certification.
+- Staged `build/reading-room-pdf-february` under nested `/archive/` hosting.
+  Its3,458 articles comprise3,386 existing CD articles,35 November articles and
+  37 February articles. All3,421 prior article records and50,313 baseline files
+  are unchanged. The four expected baseline documents change:catalog,search,
+  February issue and February media. All6,817 February package files retain their
+  exact bytes;18,016 prior/reference file pins pass the final preservation audit.
+- Corrected TOC identities/hierarchy and PLAN-covers/PLAN-tocs inputs remain
+  unchanged. Preserved145 cover assets for149 covered issues,plus145 TOC scan sets
+  (121 issue attachments and24 gallery sets),239 pages and478 derivatives.
+  The inherited closeout checklist incorrectly said149 TOC sets;the validator
+  was corrected against PLAN-tocs.md and the unchanged baseline. No data restaging.
+- Browser acceptance covers all37 article routes,six group routes,193 literal
+  code blocks and1,711 scan-region links. Inspected1440×1000 desktop and390×844
+  mobile screenshots;verified mobile TOC,internal code scrolling,bitmap markers,
+  source scan/correction access,TOC lazy loading/zoom/Escape/focus,February search,
+  November section navigation and one article from each of CD1/CD2/CD3.
+- Actual browser downloads match original bytes:dictionary article113,988 bytes,
+  monster listing10,437 bytes and source scan38,467 bytes. Browser console reports
+  zero errors/warnings. Browser used only for this separate integration acceptance;
+  isolated browser and local preview server were closed afterward.
+- One browser-script retry narrowed the TOC count to canonical entry links;
+  the original selector also counted overview/article links. Completed TOC dialog
+  checks were retained. A final explicit route/title check replaced an initial
+  mobile screenshot on the first feature route. The initial URL's missing hash
+  route was also corrected before acceptance. No reader/UI/pipeline code changed.
+- Fresh regression checks pass:79 PDF tests (2.091s),56 reader/export tests
+  (4.461s),15 frontend tests,and TypeScript/production build. Staging took72.696s;
+  preservation comparison0.100s;37-route browser script2.423s;resumed interaction
+  script3.172s. These are individual measured intervals,not total active work.
+  Overall checkpoint wall time includes long interruptions/approval waits.
+  Failed-check diagnosis,screenshot review and documentation are not separately
+  timed;stage token usage is unmeasured. No new OCR or optimization changes.
+- Reader data:57,210 files,6,719,732,985 bytes. Manifest SHA-256:
+  `954b3cdc37930c8d98fed4289bfee8588ed29c86ef280afd9906c4da1454f71f`.
+  Standalone reference remains `build/pdf-restoration/12-1984-02-reference`.
+  Closeout report/accounting are under `build/pdf-restoration/12-1984-02-closeout`;
+  requirement-by-requirement audit,logs and scripts are in its private counterpart.
+- February is complete within the agreed scope. Source-linked bitmap/control/
+  blank-width correction remains for the owner,with original corrections.json
+  preserved. Final aggregate installation remains step13;no public deployment.
+  Step12 has17 remaining eligible issues. Next is March1984;no work started there.

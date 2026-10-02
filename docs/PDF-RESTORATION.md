@@ -3190,3 +3190,33 @@ Both source packages and a fresh assembly rebuild are byte-identical. No new
 OCR,generic tooling change or browser work was needed. The unchanged77-test
 log and tooling pins were checked. Sample review does not certify complete
 proofreading,circuit internals,electrical correctness or original character bytes.
+
+## Completed February1984 issue
+
+All43 corrected TOC entries are accounted for:37 readable/sample-reviewed bodies
+and six group headings. Use `build/pdf-restoration/12-1984-02-reference/index.html`
+for the portable issue reference. Each article retains JSON,text,assets,original
+segments and corrections.json;manual bitmap/control/blank-width corrections and
+full proofreading remain deferred. The package is not an execution certificate.
+
+`build/reading-room-pdf-february` is the separately validated combined reader:
+February37,November35 and CD3,386 articles. It preserves corrected TOC metadata,
+donated-cover priority,145 cover assets and145 TOC scan sets (239 pages and478
+derivatives). To view the already-built nested-hosting export locally:
+
+```sh
+cd web
+READING_ROOM_OUTPUT=build/reading-room-pdf-february READING_ROOM_BASE=/archive/ npm run preview -- --port 4184
+```
+
+Open `http://127.0.0.1:4184/archive/#/issues/maso-1984-02`. This is a staged export;
+the final aggregate installation remains step13. No server is left running by
+the closeout. Ordinary PDF extraction/assembly uses static artifact validation;
+browser checks belong to the separate reader-integration stage.
+
+The closeout report is `build/pdf-restoration/12-1984-02-closeout/report.json`.
+The authoritative ledger is `private/pdf-restoration/12-1984-02/issue-progress.json`;
+the requirement audit,reproduction scripts,test logs,retry notes and output pins
+are under `private/pdf-restoration/12-1984-02-closeout`. Browser/download evidence
+is under `output/playwright/pdf-1984-02-closeout`. Real sources and these generated
+exports remain private/ignored. March1984 is the next issue;no extraction has begun.
