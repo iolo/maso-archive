@@ -1,4 +1,115 @@
-# PDF restoration cost audit — 2026-10-01
+# PDF restoration cost audits
+
+## Completed-issue statistics — 2026-10-02
+
+Cutoff: February goal completion at2026-10-02 02:57:34 UTC. Statistics come
+from4,443 deduplicated response-usage records and saved checkpoint intervals.
+The earlier audit's token totals and first24 batches' task-processing seconds
+reproduce exactly. No restoration,pipeline change or browser work was done for
+this statistics update.
+
+These are observed work windows,not clean benchmarks. November's window begins
+at step11 batch01 and excludes earlier pipeline development and two reused pilot
+articles. February's window begins at batch01 and includes subsequent audits,
+implementation,reader integration,between-checkpoint work and interruptions.
+Calendar elapsed includes idle/approval time and cannot be called active labor.
+
+| Observed issue window | Articles delivered | Calendar elapsed | Uncached input | Output | Cached input |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| November1983,step11 bulk work through closeout | 35 | 57.81h | 7,685,683 | 1,375,890 | 313,575,808 |
+| February1984,first batch through goal completion | 37 | 25.44h | 6,107,250 | 1,313,296 | 230,869,632 |
+
+Cached input is already included in total input. Reasoning tokens are already
+included in output. Uncached input plus output is a useful comparison subtotal,
+but is neither a monetary cost nor the goal-service counter. Response records
+are assigned by completion timestamp;boundary-crossing responses cannot be
+split exactly among activities.
+
+February averages **41.25 calendar minutes per delivered article**,with165,061
+uncached input tokens,35,494 output tokens and6,239,720 cached input tokens per
+article. The uncached-plus-output subtotal is200,555 tokens/article. These
+averages spread all issue-window overhead across37 articles;individual article
+measurements below exclude that shared overhead.
+
+The previously reported **6,609,803 tokens and20h38m21s** are goal-service
+counters. That goal began at03:25:03 UTC after batches01–03 and feature assembly.
+Its calendar span is23.54h;its service elapsed counter is20.64h. The service
+counter averages178,643 tokens and33.47 minutes across37 delivered articles,
+but is not a complete issue measurement and is not interchangeable with raw
+input/output totals. No unsupported cache-weighting or billing formula is assumed.
+
+### February recorded checkpoints
+
+| Recorded window | Count | Elapsed | Uncached input + output |
+| --- | ---: | ---: | ---: |
+| Restoration batches,including each batch's review/validation | 46 | 12.41h | 5,482,407 |
+| Article assemblies | 10 | 3.03h | 499,422 |
+| Heading classification and standalone reference | 2 | 0.02h | 8,436 |
+| Separate reader closeout | 1 | 6.54h | 376,122 |
+| Outside those checkpoint boundaries | — | 3.44h | 1,054,159 |
+| Full February window | — | 25.44h | 7,420,546 |
+
+The59 saved checkpoint intervals do not overlap. Their22.00h total includes
+waits inside checkpoints and omits preliminary reads,script authoring,commits
+and other work outside the saved boundaries. Reader closeout's6.54h contains
+long interruptions/approval waits;it is not browser execution time. Local
+reader staging measured72.696s. Most of the tiny reference checkpoint's earlier
+script preparation falls outside its recorded interval.
+
+The median restoration batch is13.87 minutes (middle50%:10.63–17.76 minutes).
+After combining article segments and assemblies,the mean recorded direct cost
+is25.03 minutes/article and the median15.60 minutes/article. These exclude
+issue-wide closeout and between-checkpoint work. Shared two-article batches are
+split equally solely for the per-article table;those rows are labeled estimates.
+
+| Article | Article pages | Recorded article checkpoints | Uncached input + output |
+| --- | ---: | ---: | ---: |
+| 매개변수로 표현된 함수의 그래프 | 3 | 9.41min | 76,111 |
+| 지하괴물잡기 | 5 | 12.17min | 94,486 |
+| SNAKY GAME | 6 | 14.30min | 107,923 |
+| 회계관리 프로그램 | 11 | 60.51min | 521,248 |
+| 베이직 명령어 번역용 소사전 | 27 | 70.64min | 529,247 |
+| 정보 레이다 | 8 | 186.78min | 365,799 |
+
+These six examples all have single-owner checkpoint windows,so no shared-batch
+split is needed. They still include any waits in those windows. 정보 레이다
+includes a115-minute assembly interval with interruptions/repeated acceptance;
+its long duration is not evidence of three hours of OCR processing.
+
+Direct task ledgers show **31m54s** of rendering/OCR orchestration across the
+46 February batches:1,706 initial executions taking1,728.33s and80 subsequent
+executions taking185.67s. No process failures or interruptions are recorded in
+those task ledgers. Subsequent executions include changed/new regions,not just
+failure retries;cache hits are excluded. These task durations are nested in the
+checkpoint times and must not be added to them. Optimizing the OCR engine alone
+cannot address most of the observed issue turnaround.
+
+### Scale illustration,not a forecast
+
+Assume each future issue has February's37-article workload,the same process and
+the same idle pattern;run issues sequentially without improvement:
+
+| Issues | Calendar elapsed | Uncached input | Output | Cached input |
+| --- | ---: | ---: | ---: | ---: |
+| 20 | 509h | 122.15M | 26.27M | 4.62B |
+| 150 | 3,816h | 916.09M | 196.99M | 34.63B |
+
+These are linear scenarios from one issue,not active person-hours,an invoice or
+a confidence interval. Article count,length,layout,source quality,code density
+and idle time vary. November is an earlier workflow with setup/reused samples,
+so averaging both issues does not produce a trustworthy production forecast.
+The present process should not be extrapolated unchanged to150 issues.
+
+Complete37-article CSV and machine-readable totals:
+`build/pdf-restoration/cost-audit-2026-10-02/february-articles.csv`,
+`issue-windows.csv`,and `statistics.json`. The reproduction script and compact
+usage records are in `private/pdf-restoration/cost-audit-2026-10-02/`.
+Raw conversation content is not copied into these outputs. The statistics
+script's initial log filter failed its historical-total check;correcting its
+JSON whitespace assumption resolved it. A legacy started_at field was also
+included before final totals,so all ten assemblies are counted.
+
+## Historical partial audit — 2026-10-01
 
 Audit cutoff: 2026-10-01 14:26:46 UTC, immediately before the audit request.
 No restoration or pipeline changes were made after that request. The accounting

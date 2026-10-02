@@ -7236,3 +7236,29 @@ history remains in [PROGRESS.md](PROGRESS.md).
   blank-width correction remains for the owner,with original corrections.json
   preserved. Final aggregate installation remains step13;no public deployment.
   Step12 has17 remaining eligible issues. Next is March1984;no work started there.
+
+### 2026-10-02 — Completed-issue cost statistics
+
+- Updated `docs/PDF-COST-AUDIT.md` using4,443 deduplicated response-usage records
+  through February goal completion. Reproduced the previous audit's exact token
+  totals and first24 batches' task-processing seconds. No new restoration,
+  pipeline changes or browser work. February goal remains complete;March unstarted.
+- November step11's observed window is57.81 calendar hours for35 delivered
+  articles,with7,685,683 uncached input and1,375,890 output tokens plus313,575,808
+  cached input. It excludes earlier setup and two reused pilot articles.
+- February's complete observed window is25.44 calendar hours for37 articles:
+  6,107,250 uncached input,1,313,296 output and230,869,632 cached input tokens.
+  Average41.25 calendar minutes and200,555 uncached-plus-output tokens/article.
+  Calendar spans include idle/approval waits;active labor is not measured.
+- The earlier6,609,803-token/20h38m goal counter starts after batches01–03 and
+  feature assembly. Documented its different scope and accounting;it must not
+  be substituted for the full issue's input/output usage or monetary billing.
+- All59 February checkpoint windows reconcile without overlap:46 restoration
+  batches,ten assemblies,classification,reference and reader closeout. Direct
+  article checkpoint mean25.03min,median15.60min;shared two-article batch splits
+  are estimates. Full37-article CSV,issue-window CSV and detailed JSON are saved
+  under `build/pdf-restoration/cost-audit-2026-10-02`,with private reproduction code.
+- Rendering/OCR task ledgers total31m54s across1,706 initial and80 subsequent
+  executions,excluding cache hits. These nested durations are not additive to
+  checkpoint clocks. Linear20/150-issue illustrations explicitly retain February's
+  workload and idle pattern;they are scenarios,not forecasts or active-hour bills.
