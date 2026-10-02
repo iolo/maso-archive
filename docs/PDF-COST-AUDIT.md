@@ -109,6 +109,89 @@ script's initial log filter failed its historical-total check;correcting its
 JSON whitespace assumption resolved it. A legacy started_at field was also
 included before final totals,so all ten assemblies are counted.
 
+## February subtask drilldown — 2026-10-02
+
+This uses the same full February window and token totals above. It separates
+recorded elapsed boundaries from estimated activity labels;the two views overlap
+and must not be added together. No workflow or restoration change was made.
+
+### Measured elapsed boundaries
+
+All46 restoration batches have a saved review-complete timestamp. Assigning
+response records to those intervals gives:
+
+| Recorded interval | Elapsed | Uncached input + output | Cached input |
+| --- | ---: | ---: | ---: |
+| Batch start to review complete: mapping,OCR,transcription,source review | 7.82h | 4,291,045 | 100,100,352 |
+| Review complete to batch closeout: export,validation,rebuild,browser where used,documentation | 4.59h | 1,191,362 | 47,883,136 |
+| Ten article assemblies | 3.03h | 499,422 | 22,675,072 |
+| Final separate reader integration/acceptance | 6.54h | 376,122 | 4,616,576 |
+
+The two batch intervals sum exactly to12.4054h and5,482,407 uncached-plus-output
+tokens. These are mixed
+activity intervals,not separate stopwatch measurements for transcription alone
+or validation alone. Activities can cross the review marker. The other3.46h
+of the full window covers classification/reference and time outside checkpoint
+boundaries. The final reader interval includes long interruptions/approval waits.
+
+The directly measured machine work is much smaller:
+
+| Local engine/task work | Measured time |
+| --- | ---: |
+| Poppler rendering and cropping | 17m14.73s |
+| Tesseract OCR | 11m58.47s |
+| Remaining task-ledger orchestration overhead | 2m40.81s |
+| Total | 31m54.00s |
+
+The split was read from1,786 unique executed cache-task timing records,excluding
+cache hits;their execution-ledger totals match the previous report exactly.
+Initial1,706 executions took28m48.33s;80 subsequent executions took3m05.67s.
+There are zero recorded process failures/interruption retries. Subsequent
+executions include revised crops and newly added regions. Lookup/contact-sheet
+renders outside these task records are not included. These durations are nested
+inside checkpoint intervals. The local engines themselves consume no model
+tokens;assistant orchestration,transcription and review do.
+
+Mapping has separately saved elapsed durations for only25 of46 batches,totaling
+70m26.9s. This is an incomplete measured subset,not a full-issue estimate;it
+cannot be subtracted from the pre-review interval to infer transcription time.
+
+### Estimated model-token attribution
+
+The earlier audit's keyword heuristic was applied to the full issue:each response
+is labeled using the preceding tool action. These allocations are diagnostic
+estimates,even though the token totals themselves are measured. Mixed commands,
+script filenames,context reuse and response boundaries can misclassify work.
+Shares use uncached input plus output;cached input is shown separately.
+
+| Estimated activity | Uncached input + output | Share | Cached input |
+| --- | ---: | ---: | ---: |
+| Transcription and visual source review | 3,386,889 | 45.6% | 83,715,968 |
+| Documentation,closeout and context | 1,149,319 | 15.5% | 44,355,072 |
+| Validation,tests and rebuilds | 889,941 | 12.0% | 22,102,784 |
+| Browser acceptance across the issue | 795,074 | 10.7% | 35,448,448 |
+| Other tool orchestration | 623,549 | 8.4% | 30,106,752 |
+| Implementation,packaging and assembly | 342,662 | 4.6% | 6,301,952 |
+| Mapping and preparation | 153,295 | 2.1% | 5,729,920 |
+| Rendering/OCR orchestration | 79,817 | 1.1% | 3,108,736 |
+| Total | 7,420,546 | 100% | 230,869,632 |
+
+Do not convert these shares into elapsed hours or money. For example,the browser
+estimate includes earlier per-batch browser work,not just the final reader stage.
+Packaging-related validation may fall under validation rather than assembly.
+Documentation/context includes the audit and handoff work within the issue window.
+
+Transcription/source review is the largest estimated model workload. Repeated
+context loading,bespoke validation/closeout scripts,and per-batch browser checks
+are the next areas to investigate. Existing evidence does not justify a numerical
+savings guarantee or dropping source-fidelity checks. OCR-engine speed alone has
+little effect on the observed end-to-end time/model usage.
+
+Reproducible outputs: `build/pdf-restoration/cost-audit-2026-10-02/`
+`subtask-statistics.json` and `subtask-token-estimates.csv`. Private `subtasks.py`,
+46-batch phase boundaries and per-task timings are saved alongside the earlier
+audit script. Raw transcript text is not copied into the report.
+
 ## Historical partial audit — 2026-10-01
 
 Audit cutoff: 2026-10-01 14:26:46 UTC, immediately before the audit request.

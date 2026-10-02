@@ -7262,3 +7262,25 @@ history remains in [PROGRESS.md](PROGRESS.md).
   executions,excluding cache hits. These nested durations are not additive to
   checkpoint clocks. Linear20/150-issue illustrations explicitly retain February's
   workload and idle pattern;they are scenarios,not forecasts or active-hour bills.
+
+### 2026-10-02 — February subtask cost drilldown
+
+- Split all46 batch windows at saved review-complete timestamps:7.8166h before
+  review completion with4,291,045 uncached-plus-output tokens,and4.5888h afterward
+  with1,191,362. These mixed intervals reconcile exactly with the batch totals;
+  they do not isolate transcription-only or validation-only elapsed time.
+- Inspected1,786 unique executed task-cache timing records,excluding reused
+  cache entries. Rendering/cropping took17m14.73s,Tesseract11m58.47s,and remaining
+  task overhead2m40.81s,total31m54s. Initial/subsequent task totals match the prior
+  audit. Local engines consume no model tokens;model orchestration/review is separate.
+- Separately recorded mapping time covers only25 batches:70m26.9s. Retained it
+  as an incomplete measured subset without extrapolating a total or inferring
+  transcription duration by subtraction.
+- Applied the prior tool-action attribution heuristic to the full February
+  window. Estimated uncached-plus-output shares:transcription/source review45.6%,
+  documentation/context15.5%,validation/rebuild12.0%,browser10.7%,other orchestration
+  8.4%,implementation/assembly4.6%,mapping2.1%,OCR orchestration1.1%. Categories
+  reconcile to7,420,546 tokens;labels are estimates,not per-stage billing.
+- Added measured/estimated tables and limitations to `docs/PDF-COST-AUDIT.md`.
+  Subtask JSON/CSV and private reproduction/evidence files accompany the issue
+  statistics. No pipeline changes,new restoration or browser work.
