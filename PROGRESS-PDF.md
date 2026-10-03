@@ -9050,3 +9050,28 @@ history remains in [PROGRESS.md](PROGRESS.md).
   andfour unclassified entries**,with all44 identities intact. Wholeissue incomplete.
   Next:Q&A PDF254–257/printed256–259 andlisted advertisingindexlower204,then
   information-section reconciliation andthefull issue JSON/assets export.
+
+### 2026-10-04 — 12-1984-03-batch-42 complete: Q&A and 광고색인
+
+- Restored canonical0042 Q&A, PDF254–257/printed256–259, and0043 advertising
+  index on lower204. Five source pages,four lookups,two articles;unchanged
+  Tesseract plus enlarged source review. Upper204 belongs to 세운상가.
+- Q&A:36 regions,29 blocks,three original images,seven standalone BASIC rows,
+  56 indexed examples,four prose boundaries. Two token tables retain original
+  cells as images with searchable captions. Inline100/200 example includes its
+  Korean prose tail and remains in article text. No table-cell or execution claim.
+  Historical character128/129,address and duplicate$302 inconsistencies retained;
+  년자 and 맬럼 readings remain uncertain. Sixteen one-time crop repairs preserve
+  initial scans/OCR; repaired margins and overlapping answer label reviewed.
+- Index:four regions,two blocks,one tree illustration,22 advertiser/page entries,
+  one prose boundary; dotted leaders normalized to tabs,表2/3/4 retained.
+- 56 executed tasks (40 initial,16 repair),zero failures;73.2636s task elapsed,
+  36.1102s render/crop,31.5397s OCR. Review interval724.1073s includes tool/context
+  waits,not active human labor. Exact backend/reasoning and stage tokens unknown.
+- Native exports in build/pdf-restoration/12-1984-03-batch-42/{qa,ads}; private
+  evidence,recipes,byte indexes,classification,metrics and next checkpoint saved.
+  Exact rebuilds and135 prior native/eighteen assembly checks pass. No pipeline
+  changes or repeated tooling tests;90-test baseline remains current.
+- March:36 readable articles,one terminal source-gap partial,five groups,two
+  unclassified. Next restore listed 정보 레이다124–131, correcting the earlier
+  exclusion; classify 정보모음 and finish whole-issue accounting/export.

@@ -234,11 +234,15 @@ indexed examples. Published corrections remain separate from earlier native arti
 PRINT graphicG870 retains an undecoded marker linked to its scan. Four one-time
 crop repairs preserve initial evidence;OCR settings unchanged. Exact rebuilds,
 all indexes and133 prior native/eighteen assembly preservation checks pass.
-March has34 readable articles,one source-gap partial,five groups andfour unclassified.
-Next batch42 restores Q&A PDF254–257/printed256–259 andlistedadvertisingindexlower204.
-Follow private/pdf-restoration/12-1984-03-batch-41/next-checkpoint.json.
-Before issue closeout, restore listed advertisingindex204 separately and recheck
-정보레이다124–131 against canonicaltoc0040; earlier exclusion needs reconciliation.
+Batch42 completes Q&A PDF254–257/printed256–259 and the listed advertising index
+on lower204. Forty regions,31 blocks,four original images,seven standalone BASIC
+rows and78 indexed examples;five prose boundaries. Sixteen one-time crop repairs
+preserve initial evidence. Inline code with its Korean prose tail remains in article
+text. Exact rebuilds and135 prior native/eighteen assembly checks pass.
+March has36 readable articles,one source-gap partial,five groups andtwo unclassified.
+Next follow private/pdf-restoration/12-1984-03-batch-42/next-checkpoint.json:
+reconcile and restore 정보 레이다124–131 in two bounded batches, classify0038
+정보모음, then perform whole-issue accounting and JSON/assets export.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

@@ -523,18 +523,23 @@ Indexvalidation caught two numericwraprows(0 TO20,00 PTS);explicitphysicalrow
 overrides keep themunnumbered. Initialindex exports saved inprivatebatch41/index-attempt;
 article/listing bytes remain identical. Exact rebuilds,all indexes and133 prior
 native/eighteen assemblychecks pass. No toolingchange;90-test baseline current.
-Next follow `private/pdf-restoration/12-1984-03-batch-41/next-checkpoint.json`:
-restore Q&A PDF254–257/printed256–259 andlistedadvertisingindexlowerPDF/printed204.
-Folios diverge after249;never assumePDFnumbers areprintednumbers.242contestcall
-andPDF258/printed260promotionalmaterial remainexcluded.
-March now34 readable articles,one terminalsource-gap partial,five groups,four
-unclassified;all44 identities intact.
-Whole issue remains incomplete. Canonical0038정보모음 group,0040정보레이다,0042Q&A
-and0043광고색인 still require classification/restoration before final issue accounting
-and JSON/assets export.
-Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck
-정보레이다124–131againstcanonicaltoc0040. Earlierbatch21unlistedexclusionmay
-need correction;do not rely on it to omit an eligible listed body.
+Batch42 completes Q&A PDF254–257/printed256–259 and lower204 광고색인.
+Recipes private/pdf-restoration/12-1984-03-batch-42/{qa/revised,ads}; exports
+build/pdf-restoration/12-1984-03-batch-42/{qa,ads}. Forty regions,31 blocks,four
+images,seven standalone BASIC rows,78 indexed examples,five prose boundaries.
+Sixteen one-time QA crop repairs preserve originals; unchanged Tesseract settings.
+Q&A token tables remain source images with captions. Inline100/200 example and
+same-line Korean tail remain prose, separate from standalone10–70 listing.
+Printed character128/129,addresses,duplicated$302 text and historical claims stay
+literal; 년자 and 맬럼 readings marked uncertain. Advertising index has22 entries.
+56 executed tasks,zero failures,73.2636s task,36.1102s rendering,31.5397s OCR;
+724.1073s review interval includes tool/context waits. Exact rebuilds,byte indexes
+and135 prior native/eighteen assembly checks pass. No tooling change.
+March now36 readable articles,one terminal source-gap partial,five groups,two
+unclassified;all44 identities intact. Follow batch42/next-checkpoint.json:
+restore listed 정보 레이다124–131 in batches43/44, correcting batch21's earlier
+unlisted exclusion; classify0038정보모음 and validate whole-issue JSON/assets.
+Folios diverge after249;never assume PDF numbers equal printed numbers.
 Keep the directory within canonicaltoc0037;physical order differs from TOCorder.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
