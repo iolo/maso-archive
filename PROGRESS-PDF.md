@@ -8898,3 +8898,38 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings andnine unclassified entries**; all44 identities intact.
   Nextbatch38 restoresA/D232–237;238–241andassemblyfollow. Wholeissue incomplete.
   Advertisingindex204,정보레이다124–131reconciliation andcontestresults243remain queued.
+
+
+### 2026-10-03 — March batch38: A/D converter comparison and analog input circuitry
+
+- Restored A/D232–237 within six source pages/one article. Six prior lookup pages
+  230,231,238,241,242,243 support the continuation and verified228–241 extent.
+  Saved50 regions,27 ordered text blocks,13 original images with linked captions,
+  38 indexed examples and ten column/page prose boundaries. No standalone listing.
+- Reviewed every mapped text region and image boundary against enlarged scans.
+  Figures16–27 and table3 retain source geometry; inner labels and table entries
+  remain images, without a character-perfect transcript claim. Figures22 and24
+  intentionally include their separately searchable captions.
+- Preserved printed derivative b, V_FS·/2ⁿ with dot, caption20 denominator R_c
+  versus prose RC,0.5V input range,16Hz SAC limitation and conversion-speed claims.
+  Math subscripts, integral bounds and average-voltage bar have explicit Unicode/
+  plain-text notation. Small punctuation and full technical correctness remain unverified.
+- Incoming230r18단계적으로→232r03로 변한다. preserves the source duplicated 로.
+  Outgoing237r46증폭기와 A→238DC가 부착되어 있다. removes only the physical
+  English line-end hyphen. Opening page/region identities and reading order stay intact.
+- Widened figure22r26 bottom and figure27r49 right/bottom once each to retain ground
+  terminals and an output label. Initial crops remain preserved. All other evidence
+  is unchanged; Tesseract settings remain fixed. Final recipe: private batch38/ad/revised.
+- All52 executed tasks (50 initial,two crop repairs) completed without failure.
+  Task elapsed48.8275s; rendering26.5150s; OCR19.4303s. Review interval492.7759s
+  includes tool/context waits, not active human labor. Stage-specific tokens and
+  backend/reasoning measurements remain unavailable.
+- Export `build/pdf-restoration/12-1984-03-batch-38/ad` rebuilds byte-identically.
+  Text/example byte indexes, captions, ten joins, raw OCR/scans and continuation
+  endpoints pass.129 prior native packages and17 assemblies validate unchanged.
+  No tooling changes; the90-test baseline remains current. JSON/assets only.
+- Updated ledger, metrics, validation and next-checkpoint records. March retains
+  **30 readable/sample-reviewed articles,one partial article,four non-owning group
+  headings and nine unclassified entries**; all44 canonical identities remain intact.
+  A/D now covers228–237 in two immutable segments. Next: finish238–241 and assemble
+  the full article; restore listed contestresults243 separately. Whole March is incomplete.

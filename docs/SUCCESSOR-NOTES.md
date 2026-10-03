@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–37 and seventeen article assemblies are complete.
+delivery is required. March batches01–38 and seventeen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -446,11 +446,29 @@ Finalrecipes private batch37/shape/revised andad/revised. Shape r08right andad r
 edges widened once each; original evidence retained. OCR settings unchanged.
 Exact native/assembly rebuilds and127 prior native/sixteen assembly checks pass.
 No tooling changes;90-test baseline retained. Metrics are in private batch37/metrics.json.
-Next follow `private/pdf-restoration/12-1984-03-batch-37/next-checkpoint.json`:
-batch38 restores A/D232–237;238–241andassemblyfollow. Opening230r18ends단계적으로;
-232begins로 변한다. Incoming kindprose,prior_segmentopening,prior_regionr18,
-prior_text_end단계적으로,text_start로 변한다.,join_separator empty,no direction.
-Printed231material is already placed before230; do not relocate source IDs.
+Batch38/ad restores232–237: 50 regions,27 blocks,13 source images and captions,
+38 indexed examples and ten native prose boundaries. Final recipe is
+`private/pdf-restoration/12-1984-03-batch-38/ad/revised`; native export is
+`build/pdf-restoration/12-1984-03-batch-38/ad`. No standalone listing in this segment.
+Figures16–27 and table3 retain original geometry; table/inner labels are not certified
+character transcripts. Figure22 and24 intentionally include searchable captions.
+Printed derivative b, V_FS·/2ⁿ dot, caption20 denominator R_c versus prose RC,
+0.5V range and16Hz SAC claim remain literal. Plain Unicode math notation is explicit.
+English line-end hyphens are removed only when rejoining split DAC/ADC or sinusodal.
+Incoming opening230r18단계적으로→middle232r03로 변한다. retains duplicated 로.
+Source231 text already precedes230 in opening reading order; source IDs unchanged.
+Two crop repairs: r26 bottom retains ground and adjacent caption; r49 right/bottom
+retains output label and ground. Initial evidence preserved; OCR settings unchanged.
+Native rebuild and129 prior native/seventeen assembly checks pass. No tooling change;
+90-test baseline retained. Metrics:52 tasks,zero failures,48.8275s task elapsed,
+26.5150s rendering,19.4303s OCR,492.7759s review interval including tool waits.
+Next follow `private/pdf-restoration/12-1984-03-batch-38/next-checkpoint.json`:
+batch39 restores A/D238–241 and assembles228–241, plus listed contestresults243
+as a second article if within bounds. Incoming ending kindprose, prior_segment
+middle, prior_regionr46, prior_text_end증폭기와 A, text_startDC가 부착되어 있다.,
+join_separator empty, no direction field. This rejoins237A-/238DC with the physical
+hyphen removed. Use immutable opening(batch37), middle(batch38), ending(batch39);
+six obsolete scope notes are expected after assembly. Original packages stay exact.
 A/D241endswithconclusion/asterisk.242unlistedcontestcall excluded;243matches
 canonical0044공모결과발표 andmust be restored separately;244wordprocessor begins.
 March now30 readable,one partial,four groups,nine unclassified;all44 identities intact.
