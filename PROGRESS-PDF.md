@@ -7438,3 +7438,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   established sample-reviewed standard. Next batch04 resumes printed28/PDF28;
   restore at most six source pages, review and validate, then continue toward
   complete issue accounting and data export. The whole-March goal remains active.
+
+### 2026-10-03 — March batch 04: input/output and interpreter dump, pages28–33
+
+- Continued the whole-March goal with the unchanged Tesseract and scan-review
+  workflow. Verified printed/PDF28–33; inspected34 only for dump continuity.
+  Section6 input/output routines, section7 command placement, patch table and
+  the beginning of figure28's machine-code dump are included. Ending unmapped.
+- All38 OCR tasks completed without failures or retries. Compared every region
+  against full pages and enlarged crops, including all ten code regions row by
+  row. Delivered18 ordered blocks,five source images,nine captions and627
+  physical listing rows in six groups. The page33 dump contains208 address rows
+  from0000 through0CF0; each has16 transcribed hexadecimal bytes. Shape checks
+  establish row accounting, not byte-perfect or executable correctness.
+- Eleven prose joins preserve column/page continuity. Recorded the incoming
+  page27/28 먼/저 join without a space. Recovered command-table and routine
+  addresses, reference markers and Korean patch annotations. Preserved leading
+  zeros, skipped line numbers,bare2640,unnumbered header/comments,source7DH,
+  LOWCGI prose,A1A1 grouping and apparent RET apostrophe. Twenty-four listing
+  anomaly rows retain scan links. Printer header/byte readings,O/0 labels,
+  decorative asterisk counts and several dense dump glyphs remain uncertain.
+- Checked exact region coverage,text ranges,complete listing byte coverage,
+  anomaly references,prose joins and native/exported scan/raw OCR byte equality.
+  Fresh JSON/assets rebuild is byte-identical. Source/runtime/TOC pins and76
+  previous package manifests remain unchanged. Recorded figure19's rectangular
+  caption overlap. No programs executed or repaired; no HTML/browser work.
+- Rendering/cropping18.624s,Tesseract16.129s,total task elapsed37.347s. The review,
+  transcription and packaging interval after OCR was1229.748s (20m29.748s),
+  including tool/context waits, not active human labor. Stage-specific tokens
+  and verified reviewer backend/reasoning settings remain unavailable.
+- Output: build/pdf-restoration/12-1984-03-batch-04/feature. Native maps,raw OCR,
+  transcription,corrections,recipe,metrics,validation,rebuild and prior issue
+  ledger are under private/pdf-restoration/12-1984-03-batch-04/. Numbered labels
+  use literal strings in the physical index to preserve printed leading zeros.
+- March remains one readable editorial,one partial feature and42 unclassified
+  TOC entries. The issue ledger retains four feature segments and distinguishes
+  latest-segment pages28–33 from aggregate pages14–33. Next batch05 resumes
+  printed34/PDF34 at dump address0D00; at most six source pages. Full proofreading,
+  feature assembly,remaining articles and issue export remain pending. The
+  whole-March goal stays active.
