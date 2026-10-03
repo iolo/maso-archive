@@ -8473,3 +8473,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings and18 unclassified entries**. All44 identities intact.
   Next batch28 restores171–173and assembles165–173;within remaining page allowance,
   may begin next article174after extentverification. Whole issue remains incomplete.
+
+
+### 2026-10-03 — March batch28: northwest completed; database opening
+
+- Restored northwest171–173 and database174–176 within the six-page/two-article
+  limit;lookup177–178 confirms database174–177 and next medicalarticle178.
+- Northwest ending contains206 physical BASIC rows:187 numbered10690–12550 and
+  19 wraps,three regions joined into one listingblock. SourceK0=N1,repeatedK3,
+  K7amongK6conditions,TOTATION,CONECTED,ONE THOUSAND ONE and2030guide preserved.
+  O/0glyphs,string spaces and decorative counts remain explicitly uncertain.
+- Complete northwest165–173 assembly has47 regions,29 blocks,10 original images,
+  eight captions and275 physical listing rows. Eleven unresolved drawn-grid markers
+  remain source-linked with unknown encoding/counts. Native segments unchanged;
+  four obsolete scope notes resolved.170line10680/171line10690linked as separate
+  reading blocks;downloads preserve exact native bytes and physical line endings.
+- Database opening has26 regions,16 blocks,five images and67 byte-indexed example
+  rows. Schema,blank recordform and four-record table searchable alongside original
+  images;table tabs preserve blankETCcells. Full character-perfect certification
+  and command execution unverified. SourceResearch-er,NumYoung,case differences,
+  15000Researcher,colonclaim andJOBtype/example mismatch retained.
+- Five prose boundaries reviewed:174한/다,175입/력,175/176끝마/치기,176명령/문
+  without separators;176함께 출력된다 with space.176endsLIST STRUCTURE introduction;
+  outputscreen begins177. Final177and immutable databaseassembly remain.
+- One source-backed crop repair widensr25on176 to recover LIST syntax closing
+  bracket and quotation mark. Initialmap/OCR/crops retained;other28regions unchanged.
+  All24 text regions and five image boundaries enlarged-scan reviewed.
+- An initial assembly check rejected an extra direction field in incoming listing
+  metadata. Corrected that field,retained initial export attempts,and rebuilt.
+  Final native/assembly exports rebuild byte-identically. Text/example/listing
+  byte indexes,joins,source/settings pins and111 prior packages/nine assemblies pass.
+  No tooling changes;existing88-test PDF baseline not rerun. JSON/assets only.
+- 30 executed tasks(29initial,one repair),zero OCR failures:39.780s task time,
+  22.914s render/crop and13.591s OCR. Review interval1,014.181s includes tool/context
+  waits,not active human labor. Exact backend/stage-token measurements unavailable.
+- Native outputs `build/pdf-restoration/12-1984-03-batch-28/{northwest,database}`;
+  final recipes private batch28/northwest and batch28/database/revised. Full assembly
+  `build/pdf-restoration/12-1984-03-northwest`. Validation,metrics and ledger retained.
+- March now has **23 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and17 unclassified entries**. All44 identities intact.
+  Next batch29 restores database177,assembles174–177,and may begin medical178within
+  remaining page allowance after extentverification. Whole issue remains incomplete.

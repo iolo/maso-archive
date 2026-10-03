@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–27 and nine article assemblies are complete.
+delivery is required. March batches01–28 and ten article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -253,15 +253,34 @@ Six prose boundaries:165전/부 and165/166프로/그램 no separator;166/167vari
 167공장/으로부터 and167/168공급/능력 no separator;168equations newline.
 r14/r17rightedges widened once each; original evidence preserved. Exact rebuild
 and110 earlier native/nine assembly checks pass; no tooling or OCR configuration change.
-March has22 readable articles,one partial article,three group headings and18
-unclassified entries;all44 canonical identities preserved;complete issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-27/next-checkpoint.json`:
-batch28 restores171–173 and assembles165–173; remaining<=3sourcepages may begin
-데이터 베이스 패키지174after extentverification.170ends10680;171starts10690.
-Opening has untyped outgoing listing continuation for block`listing-opening`;
-ending must supply matching incoming kind`listing-block`,prior_segment`opening`,
-prior_block_id`listing-opening`,prior_printed_line10680,printed_line10690,newline.
-Preserve all native bytes and unresolvedmarkers. No physicalrow crosses170/171.
+Batch28 completes northwest171–173:three regions,one listing block,206 physical
+rows (187 numbered10690–12550,19 wraps). Final native recipe is private
+batch28/northwest (no revised directory). SourceK0=N1,repeatedK3condition,
+K7amongK6conditions,TOTATION,CONECTED,ONE THOUSAND ONE and2030guide retained;
+O/0glyphs and decorative counts remain uncertain. Printednumbers increase normally;
+no inferred renumbering. Incoming listing-block metadata links170/171complete rows.
+Full `build/pdf-restoration/12-1984-03-northwest` has47 regions,29 blocks,10 images
+and275 physical rows,with both source segments immutable. Eleven unresolvedgraphic
+markers remain with original source links; four obsolete scope notes resolved.
+Batch28/database restores174–176 of verified174–177:26 regions,16 blocks,five images,
+67 indexed example rows,five prose boundaries. Finalrecipe private
+batch28/database/revised. Original schema/form/table images also have searchable
+text with intentional overlaps;table tabs preserve blankETCcells. PrintedResearch-er
+hyphen,NumYoung,addresscase,15000Researcher,colonclaim andnumericJOBversuswordexample
+remain literal. One r25rightedge repair recovers LIST closingbracket andquotation.
+Five prose joins:174한/다,175입/력,175/176끝마/치기,176명령/문,no separator;
+176함께 출력된다 with space.176endsLIST STRUCTURE introduction;177begins result
+screen,not a physicalrowfragment. Next medicalarticle begins178.
+Both natives and northwestassembly rebuild byte-identically;111 prior natives and
+nine earlier assemblies pass unchanged. No tooling or OCR configuration change.
+Private initial-package-attempt preserves an export whose incoming listing link had
+an extra direction field; corrected final metadata validates. Transcription unchanged.
+March has23 readable articles,one partial article,three group headings and17
+unclassified entries;all44 canonical identities preserved;whole issue closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-28/next-checkpoint.json`:
+batch29 restores database177 and assembles174–177; remaining<=5sourcepages may
+begin 의료보험수가계산프로그램178after verifying its extent. Lookup177–178already
+reviewed,source pages beyond178still require mapping. Preserve native bytes.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
