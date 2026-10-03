@@ -7630,3 +7630,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   starting54 after verifying boundaries, within two articles/six source pages.
   Remaining March bodies, TOC accounting and issue JSON/assets export are pending;
   the whole-March goal remains active.
+
+### 2026-10-03 — March batch08: paddle construction and apple-counting game
+
+- Completed 기초 공작실 게임패들의 제작 on printed/PDF51–53 and 맛있는 사과가
+  들어 있어요 on54–55. Verified56 starts the next article, printed 홀 인 원
+  (canonical TOC title 올 인원). Two articles, five source pages, one lookup page;
+  the lower55 advertisement is excluded. All40 regional tasks finished without
+  failures, crop repairs or retries using the unchanged Tesseract configuration.
+- Paddle construction is readable/sample-reviewed: 29 regions,18 ordered blocks
+  and eight complete numbered diagrams with reviewed captions. Three source-backed
+  joins restore page/column continuity. Preserved the circuit labels,560Ω/150KΩ
+  values,pin references and figure7 cable-number footnote. Caption bracket shapes
+  are explicitly normalized; historical prose is retained, with no circuit validation.
+- Apple-counting is readable/sample-reviewed: 11 regions,nine ordered blocks,
+  one photograph and80 numbered BASIC rows across two source columns. All prose
+  and code rows were compared with enlarged scans. Eleven anomaly rows preserve
+  inserted line numbers,double commas,printed English,reset logic,the unexplained
+  D variable and literal accuracy formula. No repairs or inferred missing code;
+  character-perfect proofreading and executable-code validation remain deferred.
+- Exact region coverage,UTF-8 text/listing indexes,physical row sequences,anomaly
+  ranges,three prose joins,eight caption links and original scan/raw OCR bytes
+  validate. Fresh JSON/assets rebuilds match byte for byte. Input pins and83 earlier
+  packages pass read-only preservation checks. No tooling changes or repeated
+  full test suite; the85-test tooling baseline remains unchanged. No HTML work.
+- Rendering/cropping11.682s,Tesseract6.783s,total task elapsed20.526s. Review,
+  transcription and native packaging interval376.294s (6m16.294s),including
+  tool/context waits,not active human labor. Stage-specific tokens and verified
+  reviewer settings remain unavailable; no model comparison performed.
+- Outputs: build/pdf-restoration/12-1984-03-batch-08/{paddles,apples}. Matching
+  private checkpoint contains recipes,review evidence,metrics,validation,exact
+  rebuilds,pre-update ledger and next checkpoint. March now has six readable/
+  sample-reviewed articles,zero partial articles,one group heading and37 entries
+  awaiting classification/restoration. All44 canonical TOC identities are retained.
+- Next batch09 starts at56; verify the mini-golf article extent and optionally
+  include 팽이 놀이 from61 within the two-article/six-source-page limit. Remaining
+  March bodies,TOC accounting and whole-issue JSON/assets export are pending;
+  the whole-March goal remains active.
