@@ -19,10 +19,13 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batch 01 is complete: the editorial on printed13/PDF13 is readable,
-and the Hangul-computer feature's opening printed14–15/PDF14–15 is partial,
-both sample-reviewed. Continue that feature at printed16/PDF16 in batch 02,
-mapping at most six source pages. Its complete ending remains unverified.
+March batches 01–02 are complete: the editorial on printed13/PDF13 is readable,
+and the Hangul-computer feature covers printed14–21/PDF14–21 in two immutable
+partial, sample-reviewed segments. Batch02 retains38 regions,19 ordered blocks,
+eight image panels and281 physical listing rows, with literal anomalies and
+uncertain glyphs recorded. Continue at printed22/PDF22 (section4) in batch03,
+mapping at most six source pages. The feature ending and whole issue remain
+unverified/incomplete; segment assembly is still required.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
 work already performed, not authority to repeat rendering work.

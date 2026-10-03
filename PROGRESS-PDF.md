@@ -7358,3 +7358,41 @@ history remains in [PROGRESS.md](PROGRESS.md).
   42 entries awaiting classification/restoration. The issue is incomplete.
   Next saved checkpoint: batch02, feature continuation at printed16/PDF16,
   at most six source pages, followed by the same semantic review and data checks.
+
+### 2026-10-03 — March batch 02: Hangul-computer feature pages16–21
+
+- Owner confirmed continuation of March1984 with Tesseract and semantic review.
+  Verified local printed/PDF16–21 and inspected22 only for the next section.
+  Restored six source pages within the existing batch limit; no article ending
+  or global folio offset inferred. Section4 starts at printed22/PDF22.
+- The unchanged pinned runtime completed38 region tasks without failures or
+  retries. Compared all38 regions with full pages and enlarged source crops;
+  reviewed six listing panels row by row. The partial package contains19 ordered
+  blocks, eight original image panels, nine captions and four code groups with
+  281 physical rows. Nine prose-region joins preserve sentence continuity.
+- Recovered the faint system heading, hexadecimal addresses, reference numbers
+  and keyboard mode keys A/Q/Z. Retained historical wording and printed code
+  anomalies, including repeated/malformed addresses, missing terminators,
+  EQU S, SPAC$S and 0D3$. Indexed27 listing anomaly rows. Damaged line-number
+  endings remain [423?]/[424?]; S/$ and O/0 ambiguities remain explicit. No
+  programs executed or repaired; full character-perfect proofreading deferred.
+- Validated package identities, exact region coverage, all text byte ranges,
+  complete listing byte coverage, anomaly indexes and all nine prose joins.
+  Raw OCR and scan assets match native evidence byte for byte. Fresh JSON/assets
+  rebuild is byte-identical; source/runtime/TOC pins and all74 previous package
+  manifests remain unchanged. No HTML, browser, reader or frontend work.
+- Measured rendering/cropping16.717s, Tesseract12.943s and total task elapsed31.663s.
+  The source-review/correction interval after OCR was1036.939s (17m16.939s),
+  including tool/conversation waits; it is not active human labor. Per-stage
+  tokens and verified backend/model setting are unavailable. No model comparison.
+- Output: build/pdf-restoration/12-1984-03-batch-02/feature. Private maps, immutable
+  raw OCR, reviewed transcription, correction indexes, metrics, rebuild and
+  validation are under private/pdf-restoration/12-1984-03-batch-02/. Retained a
+  pre-validation review draft separately when correcting two metadata references;
+  no final or prior package was overwritten. Saved the previous issue ledger.
+- March remains one readable editorial, one partial feature and42 TOC entries
+  awaiting classification/restoration. The ledger retains both feature segments
+  and explicitly separates latest-package coverage from aggregate pages14–21.
+  Next: batch03 at printed22/PDF22, section4 한글모아쓰기 프로그램; at most
+  six source pages, then the same source review and data validation. Assembly
+  and the complete feature extent remain pending.
