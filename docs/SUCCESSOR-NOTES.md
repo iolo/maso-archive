@@ -1,5 +1,18 @@
 # Successor notes — 2026-09-26 implementation wrap-up
 
+**Current PDF continuation, 2026-10-03:** follow [PLAN-PDF.md](../PLAN-PDF.md)
+and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
+scan-based semantic review campaign. November1983 and February1984 are complete.
+Data-only export/assembly/issue validation is implemented; no browser or reader
+delivery is required. March batch01 restored the complete editorial and first
+two feature pages. Resume at printed16/PDF16 using
+`private/pdf-restoration/12-1984-03-batch-01/next-checkpoint.json`, with at most
+two articles/six source pages per batch. The feature and issue remain incomplete.
+Earlier CD handoff details below are historical; they do not cancel this work.
+No reviewer-model comparison has been performed. If the owner changes models,
+record the selection and check a bounded prose/code/figure batch before making
+claims about equivalent review quality or savings.
+
 CD1, CD2, CD3 reference extraction and the combined reading room are complete.
 The owner requested a documentation handoff and retention of the HELPDECO bug
 record. No decoder migration, new recovery pass or public deployment is in

@@ -19,6 +19,10 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
+March batch 01 is complete: the editorial on printed13/PDF13 is readable,
+and the Hangul-computer feature's opening printed14–15/PDF14–15 is partial,
+both sample-reviewed. Continue that feature at printed16/PDF16 in batch 02,
+mapping at most six source pages. Its complete ending remains unverified.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
 work already performed, not authority to repeat rendering work.
@@ -933,8 +937,8 @@ Completed 2026-10-03. Article export, segment assembly, batch-reviewed export
 and issue closeout now default to JSON/assets without HTML. Explicit `--preview`
 retains optional historical rendering for separate use. All 82 PDF tests pass;
 a JSON-only sample issue rebuilds identically, and all 72 completed November/
-February article packages pass read-only preservation checks. Next: March 1984's
-first bounded Tesseract/restoration batch. The requirements below are retained
+February article packages pass read-only preservation checks. March 1984's first
+bounded Tesseract/restoration batch is now complete. The requirements below are retained
 as the completed checkpoint's scope.
 
 **Goal:** make the existing tools satisfy the clarified scope before March 1984.

@@ -7328,3 +7328,33 @@ history remains in [PROGRESS.md](PROGRESS.md).
   sample-issue/issue.json. Existing packages and historical HTML remain intact.
   Updated PLAN-PDF.md and the restoration guide. Next: map and restore March's
   first bounded batch using Tesseract and source review.
+
+### 2026-10-03 — March batch 01: editorial and Hangul-computer opening
+
+- Verified March 1984 on the PDF cover and local folios13–16. Restored the
+  complete editorial13/PDF13 and the feature opening14–15/PDF14–15; inspected
+  page16 only for continuity. No global page offset or complete feature extent
+  is inferred. Existing canonical TOC IDs and catalog text remain unchanged.
+- Used the pinned Tesseract runtime and 4000-pixel regional rendering. Initial
+  23 tasks completed; source review found six clipped left crop edges. Preserved
+  initial maps/raw output, widened those six regions once and reused17 unchanged
+  cached results. No OCR failure, engine tuning or additional model trial.
+- Compared all23 regions with scans. Editorial delivers six ordered blocks;
+  feature delivers11 blocks and one complete memory diagram with its caption.
+  Recovered two faint lines omitted by OCR and joined four column boundaries.
+  Preserved printed 조그만한, 나을, Imsi and prose2EFEH versus diagram2EFF;
+  no inferred correction of historical claims. Full proofreading remains deferred.
+- Both JSON/asset packages and correction byte ranges validate, and fresh
+  rebuilds are byte-identical without new OCR or HTML. Source/runtime/catalog
+  pins and all72 previous package manifests remain unchanged. Outputs are under
+  build/pdf-restoration/12-1984-03-batch-01/{editorial,feature}; private maps,
+  raw evidence, corrections, metrics and validation share the checkpoint name.
+- Measured29 distinct executed region tasks, including six crop repairs:
+  rendering/cropping13.461s, Tesseract11.180s, total task elapsed26.321s.
+  Mapping-through-review elapsed574.374s includes tool/conversation waits and
+  preparation; separate review-only time and stage-specific tokens are unavailable.
+  This is not a GPT-6.1-SOL qualification or model-cost comparison.
+- March's44 TOC entries now have one readable article, one partial feature and
+  42 entries awaiting classification/restoration. The issue is incomplete.
+  Next saved checkpoint: batch02, feature continuation at printed16/PDF16,
+  at most six source pages, followed by the same semantic review and data checks.
