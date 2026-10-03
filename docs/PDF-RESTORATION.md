@@ -3272,4 +3272,39 @@ The authoritative ledger is `private/pdf-restoration/12-1984-02/issue-progress.j
 the requirement audit,reproduction scripts,test logs,retry notes and output pins
 are under `private/pdf-restoration/12-1984-02-closeout`. Browser/download evidence
 is under `output/playwright/pdf-1984-02-closeout`. Real sources and these generated
-exports remain private/ignored. March1984 is the next issue;no extraction has begun.
+exports remain private/ignored. March1984 was the next issue at that historical checkpoint; its completed data-only restoration is recorded below.
+
+
+## March 1984 data-only closeout
+
+March is complete under the current JSON/assets scope. All 44 canonical entries
+are accounted for: 38 articles and six section headings. All 38 articles are
+sample-reviewed; 37 are readable. 한글 워드 프로세서 프로그램 retains a terminal
+partial outcome: printed pages 244–249 are restored, but 250–251 are absent from
+the PDF. No continuation was fabricated. Full character proofreading and historical
+code execution remain unverified.
+
+The standalone package is `build/pdf-restoration/12-1984-03-reference/issue.json`.
+Its `accounting.json` records identities, ownership, availability and review separately.
+The completion report is `build/pdf-restoration/12-1984-03-closeout/report.json`.
+Reproduction and validation evidence are under `private/pdf-restoration/12-1984-03-closeout`.
+The authoritative ledger is `private/pdf-restoration/12-1984-03/issue-progress.json`.
+
+The export contains 237 source pages, 1,794 regions, 1,143 ordered blocks, 314 figures
+and 7,078 physical listing rows. Its 6,963 files total 1,752,191,791 bytes. Original
+package copies, source geometry, canonical accounting and an identical fresh issue
+build were verified. Tesseract settings stayed unchanged; semantic review preserves
+literal source errors and explicit uncertainties. HTML, reader integration, browser
+checks and frontend work were outside this task's scope.
+
+```sh
+PYTHONPATH=src:. python3 -m tools.pdf_restore.issue \
+  --ledger private/pdf-restoration/12-1984-03-closeout/export-ledger.json \
+  --base build/reading-room-catalog-reconciled/data \
+  --output build/pdf-restoration/12-1984-03-reference-fresh
+PYTHONPATH=src:. python3 -m tools.pdf_restore.issue \
+  --check --output build/pdf-restoration/12-1984-03-reference-fresh
+```
+
+Use a fresh output path. Publisher content and generated artifacts remain private,
+not committed. April 1984 is the next eligible issue and has not been started.

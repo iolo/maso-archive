@@ -14,12 +14,25 @@ to a separate rendering task. They are not prerequisites at any checkpoint,
 including issue closeout and final campaign completion. PDF page rasterization
 and cropping for OCR, scan review, and image extraction remain in scope.
 
-November 1983 and February 1984 remain complete; 17 eligible issues remain.
-The data-only tooling checkpoint below is complete. Continue March 1984 with
-the validated local Tesseract pipeline and scan-based semantic review, through
-the existing bounded batches. Preserve completed packages and historical rendered
-outputs unchanged.
-March batches 01–39 and eighteen article assemblies are complete: the editorial on
+November 1983, February 1984 and **March 1984 are complete**; 16 eligible issues
+remain. March accounts for all 44 TOC entries: 38 articles and six section headings.
+All 38 articles are sample-reviewed; 37 are readable. The word-processor article
+is partial because printed pages 250–251 are absent from the PDF. All available
+eligible content is restored, with no invented continuation.
+
+March's standalone JSON/assets package is
+`build/pdf-restoration/12-1984-03-reference/issue.json`; the completion report is
+`build/pdf-restoration/12-1984-03-closeout/report.json`. It covers 237 source pages,
+1,794 regions, 1,143 blocks, 314 figures and 7,078 physical listing rows. Checks of
+canonical identities, source geometry, all 6,957 copied article files and a
+byte-identical issue rebuild pass. The package has 6,963 files totaling
+1,752,191,791 bytes. Historical errors, uncertain glyphs and proofreading limits
+remain explicit. No pipeline change or rendering work was required; the 90-test
+tooling baseline remains current.
+
+April 1984 is the next eligible issue and has not been started. The following
+March checkpoint record preserves the completed work and its provenance.
+March batches 01–44 and nineteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -247,10 +260,11 @@ Batch44 completes news130–131 and assembles124–131:68 regions,48 blocks,ten
 original images,139 indexed native examples,ten native prose boundaries andone
 cross-segment continuation. Exact native/assembly rebuilds and138 prior native/
 eighteen assembly checks pass. Canonical0038정보모음 is a non-owning group.
-All44 TOC entries are classified:38 articles (37 readable andone terminal
-word-processor source-gap partial) andsix groups. Whole-issue JSON/assets export
-and final accounting are next;follow batch44/next-checkpoint.json.
-The active objective is all remaining March content, not one bounded checkpoint.
+The March closeout is complete. All 44 canonical entries and 38 article outcomes
+match the standalone export. Stale aggregate ledger counters were recomputed from
+the authoritative entries. Printed pages 250–251 remain an explicit source gap.
+See `private/pdf-restoration/12-1984-03-closeout/completion-audit.json` and
+`validation.json`. The March objective is complete; April 1984 has not been started.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
 work already performed, not authority to repeat rendering work.

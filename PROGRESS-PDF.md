@@ -9121,3 +9121,39 @@ history remains in [PROGRESS.md](PROGRESS.md).
   sixgroups,zero unresolvedeligibility. Allavailableeligiblecontent isrestored.
   Next:recompute aggregateledgercounts andverify standalonewholeissueJSON/assets
   export. Printed250–251 remainabsent;no inventedcontinuation.
+
+### 2026-10-04 — 12-1984-03-closeout complete: March JSON/assets
+
+- All 44 canonical TOC entries are accounted for: 38 body-owning articles and six
+  section headings. All 38 articles are sample-reviewed: 37 readable and one
+  terminal partial. No image-only, failed, unreviewed or unresolved outcomes remain.
+- The partial article is 한글 워드 프로세서 프로그램. Available printed pages
+  244–249 are restored; 250–251 are absent from the PDF. PDF page 250 is printed
+  page 252. The source gap is explicit, with no invented continuation. All other
+  article coverage is complete and segmented articles are assembled.
+- Recomputed stale aggregate ledger counters from the 44 authoritative entries
+  and validated packages. Entry identities, titles, parents, order and restoration
+  records are unchanged. The two bodies sharing page 204 use disjoint regions.
+- Standalone `build/pdf-restoration/12-1984-03-reference` contains 237 source
+  pages, 1,794 regions, 1,143 blocks, 314 figures, 7,078 physical listing rows and
+  736,022 article-text bytes. Its 6,963 files total 1,752,191,791 bytes, including
+  native packages, corrections, raw OCR, source crops, cover, TOC and accounting.
+- Source identity, page geometry, all 6,957 original package files, 139 prior native
+  manifests and 19 assembly manifests pass verification. A fresh issue export is
+  byte-identical. Existing November/February ledger and reference pins remain
+  intact. No new OCR, pipeline changes, HTML, browser or reader work. The unchanged
+  90-test tooling baseline was reused.
+- One pre-export assertion encountered numeric strings in five older printed-page
+  lists. Comparing both sides as integers fixes the audit without changing metadata.
+  The initial script, plan and `validation-retry.json` are preserved. The failure
+  occurred before any export or ledger mutation.
+- Successful closeout took 44.235 seconds, including 14.029 seconds for export and
+  13.771 seconds for the deterministic rebuild. These measurements include integrity
+  I/O, not semantic review. Stage token measurements are unavailable.
+- Completion report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
+  Reproduction scripts, audits and ledger snapshots are under
+  `private/pdf-restoration/12-1984-03-closeout`. Historical source errors and uncertain
+  readings remain explicit; full character proofreading, manual graphics correction
+  and code execution are not certified.
+- March objective complete. Sixteen eligible issues remain; April 1984 is next and
+  has not been started.

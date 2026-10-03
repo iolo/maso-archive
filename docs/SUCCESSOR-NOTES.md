@@ -1,10 +1,27 @@
 # Successor notes — 2026-09-26 implementation wrap-up
 
-**Current PDF continuation, 2026-10-03:** follow [PLAN-PDF.md](../PLAN-PDF.md)
-and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
-scan-based semantic review campaign. November1983 and February1984 are complete.
-Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–39 and eighteen article assemblies are complete.
+**Current PDF status, 2026-10-04:** November 1983, February 1984 and March 1984
+are complete under [PLAN-PDF.md](../PLAN-PDF.md)'s data-only scope. March's 44 TOC
+entries comprise 38 articles and six section headings. All articles are
+sample-reviewed: 37 readable and one terminal partial due to a source gap.
+Printed pages 250–251 are absent; all available word-processor pages 244–249 are
+restored. No continuation was invented.
+
+Standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
+Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
+Ledger: `private/pdf-restoration/12-1984-03/issue-progress.json`.
+The issue contains 237 source pages, 1,794 regions, 1,143 blocks, 314 figures and
+7,078 physical listing rows. Its 6,963 files total 1,752,191,791 bytes. All 6,957
+original package files, canonical identities, source geometry and a byte-identical
+issue rebuild pass verification. The 139 prior native and 19 assembly manifest
+pins remain intact. Source errors, uncertain readings and deferred manual bitmap
+correction remain explicit. No pipeline changes; the 90-test baseline was reused.
+HTML, browser checks and reader integration are outside this task's scope.
+
+The March objective is complete. April 1984 is next and has not been started;
+16 eligible issues remain. March batches 01–44 and nineteen article assemblies
+are complete. The checkpoint record below preserves detailed provenance; older
+pending notes are superseded by this closeout and its completion audit.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -556,9 +573,16 @@ segments:8pages,68regions,48blocks,tenimages,139nativeexamples,tennativeprosejoi
 one cross-segment Panasonic link andfour resolved scope notes. Exact rebuilds and
 138 prior native/eighteen assembly checks pass. Group0038정보모음 classifies as
 non-owning parent of six separate bodies;no separate body/divider invented.
-All44 entries classified:38 articles (37readable,one terminalwordsourcegap),six
-groups. Follow batch44/next-checkpoint.json forwholeissueJSON/assets accounting/
-export. Recompute stale rootcounts from44 authoritativeentries duringcloseout.
+March closeout verifies all 44 entries, 38 article outcomes and six groups,
+including the word-processor source gap. Stale root counts were recomputed from
+the authoritative entries without changing their identities, parents or content.
+The standalone JSON/assets export and rebuild match; source provenance and all
+native copies are preserved. See the private closeout validation and completion
+audit. One pre-export audit comparison needed numeric normalization because five
+older ledgers store printed page numbers as strings. Original metadata was kept.
+The initial script and plan remain in `initial-audit-attempt`; that failure occurred
+before any export or ledger write. No March extraction, assembly or export work
+remains. April has not been started.
 Folios diverge after249;never assume PDF numbers equal printed numbers.
 Keep the directory within canonicaltoc0037;physical order differs from TOCorder.
 Continue unchanged Tesseract plus scan-based semantic review within existing
