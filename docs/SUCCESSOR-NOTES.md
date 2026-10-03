@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–09 and two article assemblies are complete.
+delivery is required. March batches01–10 and two article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -24,11 +24,20 @@ Native review recipe is under `batch-09/golf/revised-final`; originals and two
 once-repaired crops remain preserved. Code860 crosses59/60;1040 crosses columns.
 Source table1770,PRINT CS,AP and uncertain650 period/1150 F/P remain literal.
 Rebuild is byte-identical and85 earlier packages pass read-only preservation checks.
-Page39 is a non-owning 취미생활 group heading. March has seven readable articles,
-one group heading and36 unclassified entries; issue closeout remains pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-09/next-checkpoint.json`:
-batch10 starts 팽이 놀이 at61, then candidate 사냥게임 at64 within two articles/
-six source pages after verifying extents. Source61–62 already visually inspected.
+Batch10/dreidel completes 팽이 놀이61–63:11 regions,eight blocks,one image,
+117 physical rows (116 numbered,one wrap). Decorative quote-like prefixes/star
+counts remain uncertain; source DRIEDEL,A$ and number gaps remain literal.
+Batch10/hunting restores64–66 of verified64–69:37 regions,33 blocks,two images,
+four code examples/six rows,and two source-backed prose joins. Repeated SCALE=1
+is deliberately retained. Full program explanation/listing67–69 remains pending;
+no dangling prose/code fragment crosses66/67. Both packages rebuild identically;
+86 earlier packages pass preservation checks. No crop repair or OCR retry.
+Page39 is a non-owning 취미생활 group heading. March has eight readable articles,
+one partial article,one group heading and34 unclassified entries; closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-10/next-checkpoint.json`:
+batch11 completes hunting67–69 and assembles64–69 with the immutable opening.
+Candidate 영어 단어 퍼즐 게임 begins70; verify its extent before adding it within
+two articles/six source pages. Source67–70 already visually inspected.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe

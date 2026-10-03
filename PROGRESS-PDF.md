@@ -7710,3 +7710,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   verifying article boundaries,within two articles/six source pages. Full proofreading,
   remaining March bodies,TOC accounting and whole-issue JSON/assets export remain
   pending; the whole-March goal remains active.
+
+### 2026-10-03 — March batch10: dreidel and hunting introduction61–66
+
+- Verified 팽이 놀이 spans printed/PDF61–63 and 사냥게임 spans64–69;70 begins
+  영어 단어 퍼즐 게임. Restored61–66 within two articles/six source pages and
+  four lookup pages67–70. All48 regional Tesseract tasks completed without failure,
+  crop repair or retry; the runtime and OCR configuration are unchanged.
+- Complete 팽이 놀이 is readable/sample-reviewed:11 regions,eight ordered blocks,
+  one original game-screen image,and117 physical listing rows (116 numbered plus
+  one continuation of660). Number gaps60–100 and1200–1210 remain literal. Reviewed
+  every prose and code row against enlarged scans. Preserved DRIEDEL,extra A$ in800,
+  conditional forms,Korean screen strings and narrative/scoring discrepancies.
+  Decorative quote-like prefixes and exact star-run lengths remain uncertain;
+  no comment-syntax repair or character-perfect/executable-code claim.
+- Hunting64–66 is partial/sample-reviewed:37 regions,33 blocks,two original images
+  (photograph and complete flowchart),and four short BASIC examples/six physical
+  rows. Includes the introduction,instructions,variables,shape table,ROT/SCALE/DRAW
+  and Boolean explanations. Two source-backed joins reconnect65's 프로+그램 with
+  no space and65/66's 수행하고,+하나라도 with one space. Repeated SCALE=1 in the
+  four/eight-rotation claims and square placeholders are deliberately retained.
+- Full figure boundaries and text/example rows were source-reviewed. Boxed K/M
+  keys normalized to plain letters; CTRL-G stays an instruction without invented
+  control bytes. Flowchart labels and ranges remain in its original asset.
+  Explanation67–68 and full program68–69 remain explicitly pending. There is no
+  dangling sentence or code row across66/67; full hunting assembly remains required.
+- Validated all48 regions exactly once,text/listing byte ranges,15 anomaly rows,
+  independent numbered-row sequences,all five code groups,two prose joins and
+  immutable source/raw OCR evidence. Fresh JSON/assets rebuilds match byte for
+  byte. Input pins and86 prior packages pass read-only preservation checks.
+  No tracked tooling change,repeated full test suite,HTML or browser work; the
+  preceding85-test tooling baseline remains unchanged.
+- Rendering/cropping15.768s,Tesseract11.360s,total task elapsed30.311s. Review,
+  transcription and native packaging interval503.141s (8m23.141s),including
+  tool/context waits,not active human labor. Stage-specific tokens and verified
+  reviewer settings remain unavailable; no model comparison performed.
+- Outputs: build/pdf-restoration/12-1984-03-batch-10/{dreidel,hunting}. Matching
+  private checkpoint holds recipes,review evidence,metrics,validation,exact rebuilds,
+  pre-update ledger and next checkpoint. March now has eight readable articles,
+  one partial article,one group heading and34 entries awaiting classification/
+  restoration. Hunting's immutable opening segment and aggregate coverage are
+  recorded; all44 canonical TOC identities are unchanged.
+- Next batch11 completes hunting67–69,then assembles64–69. Optionally begin the
+  puzzle article at70 after verifying its extent,within the existing limits.
+  Remaining bodies,TOC accounting and whole-issue JSON/assets export remain
+  pending; the whole-March goal stays active.
