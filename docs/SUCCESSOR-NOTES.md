@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–32 and thirteen article assemblies are complete.
+delivery is required. March batches01–33 and fourteen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -354,9 +354,33 @@ Exact rebuild/index/settings checks pass;119 earlier natives and13 assemblies
 unchanged.47 tasks(45initial,two repairs),zero failures;73.251s tasktime,
 38.724s render/crop,30.656s OCR;712.667s review interval includes waits.
 Issue ledger now records both segments,aggregate190–200;counts unchanged.
-Next follow `private/pdf-restoration/12-1984-03-batch-32/next-checkpoint.json`:
-batch33 restores세운상가201–204and assembles190–204. May also begin206–207
-within six-source-page limit after checking extent and classifying205divider.
+Batch33/sewoon completes201–204:27 regions,20 blocks,two photographs andfive
+vendor continuation joins. Nineteen new vendor entries plus ACEcontinuation;
+ROM64–128KB/ROMBASIC,LIDEX,METTIC,CP/M MUSIC,unmatchedparenthesis andmissing
+TIMEphone remain literal. Vendorname한국측기 explicitly uncertain.
+Full `build/pdf-restoration/12-1984-03-sewoon` covers190–204:101 regions,69 blocks,
+ten images andten indexed native table rows. Three natives remain unchanged;
+21 native prose boundaries,two crosssegment links andsix obsolete scope notes
+resolved. Nativebody bytes preserved;reading links do not concatenate text.
+Batch33/machine restores206–207ofverified206–209:17 regions,13 blocks,one original
+title artwork,five assembly rows and33 indexed prose examples. Finalrecipes private
+batch33/sewoon and batch33/machine;no revised directory. Title/series intentionally
+searchable over originaltitleart. Listing1bytecolumn08/28notBASIClinenumbers;
+allfive rows unnumbered. Captionprogramlist1linked. SourceIOCSmissingparenthesis,
+833B,FA62G,CALL0012Hcomma andROMsize/performanceclaim retained.
+Threeprosejoins:206있으므로/F800space,206/207프로그램을/작성해야space,
+207entrycolumnsnewline.207endscompleteORGparagraph;208beginslisting2,nocarry.
+205technicaldivider classifiednon-owning;209references/endmarker,nextinterface210.
+Exactnative/assemblyrebuilds pass;120 earlier natives/13assemblies unchanged.
+44 tasks,zero failures,no repairs:67.991s tasktime,35.899s render/crop,28.274s OCR;
+393.845s reviewinterval includes waits. No toolingchanges or baseline-test rerun.
+March now27 readable,onepartial,fourgroups,12unclassified;all44 identities intact.
+Next follow `private/pdf-restoration/12-1984-03-batch-33/next-checkpoint.json`:
+batch34 completesmachine208–209and assembles206–209,thenmaybegininterface210–213
+within sixsourcepages after verifyingextent. Wholeissue remains incomplete.
+Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck
+정보레이다124–131againstcanonicaltoc0040. Earlierbatch21unlistedexclusionmay
+need correction;do not rely on it to omit an eligible listed body.
 Keep the directory within canonicaltoc0037;physical order differs from TOCorder.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.

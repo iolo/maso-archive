@@ -8677,3 +8677,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings and14 unclassified entries**. Aggregate세운상가coverage
   now190–200. Next batch33 restores201–204and assembles the feature;205divider and
   technical206follow. All44 canonical identities preserved;whole issue incomplete.
+
+
+### 2026-10-03 — March batch33: 세운상가 assembled; 기계어 테크닉 opened
+
+- Restored201–204 and206–207 within six source pages/two articles. Five lookup
+  pages200,205,208–210 verify continuations and boundaries.205is a non-owning
+  technical divider;기계어테크닉 runs206–209,nextinterfacearticle210.
+- 세운상가 ending:27 regions,20 blocks,two original photographs,five newline
+  vendor continuations. Nineteen new vendor entries plus incomingACEcontinuation.
+  Retained repeatedSUPER-7,unmatched가능),ROM64–128KB/ROMBASIC,LIDEX,METTIC,
+  CP/M MUSIC andsourceendmarker. TIMEhas no printedphone;none invented.
+  Vendorname한국측기 is explicitly uncertain;historicalclaims retained.
+- Complete190–204 assembly:101 regions,69 blocks,ten images andten indexed
+  native hardware-table rows. Three segment packages preserved byte-for-byte;
+  21 native prose boundaries andtwo crosssegment reading links checked. Six
+  obsolete scope notes resolved. Crosssegment links preserve separate textblocks.
+- 기계어테크닉206–207:17 regions,13 blocks,one title artwork,five physical
+  assembly rows and33 indexed prose examples. Title/series searchable over original
+  artwork by design. Listing1caption linked;hexbytes08/28are not line numbers.
+  No execution certification. SourceIOCSmissingparenthesis,833BwithoutH,FA62G,
+  CALL0012Htrailingcomma andROMsize/performanceclaim preserved literally.
+- Three prose joins:206column있으므로/F800space;206/207프로그램을/작성해야space;
+  207entrycolumnparagraphs newline.207endsfullORGparagraph before208listing2;
+  no crosssegment physical textcarry. Final208–209andmachineassemblyremain.
+- All41 text regions andthree image boundaries compared with enlarged scans.
+  No crop repairs or OCRsettingschanges. Native exports andfeatureassembly rebuild
+  byte-identically;indexes,joins,captions/rawbytes/settingspins pass.120 earlier
+  natives and13 earlier assemblies validate unchanged. No toolingchanges;
+  existing88-test PDFbaseline not rerun. JSON/assets only.
+- 44 executed tasks,zero failures:67.991s tasktime,35.899s render/crop and28.274s
+  OCR. Review interval393.845s includes tool/context waits,not active human labor.
+  Exact backend/stage-token measurements unavailable.
+- Outputs `build/pdf-restoration/12-1984-03-batch-33/{sewoon,machine}` and
+  `build/pdf-restoration/12-1984-03-sewoon`. Finalrecipes private batch33/sewoon
+  and batch33/machine. Classification,metrics,validation andledger saved.
+- March now has **27 readable/sample-reviewed articles,one partial article,four
+  non-owning group headings and12 unclassified entries**. All44 identities intact.
+  Nextbatch34 completesmachine208–209and assembles206–209;interface210follows.
+  Wholeissue incomplete. Laterrestore listedadvertisingindex204 separately and
+  reconcile정보레이다124–131withcanonicaltoc0040;earlierunlistedexclusionis not
+  sufficient evidence to omit an eligible listed body.

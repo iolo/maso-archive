@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–32 and thirteen article assemblies are complete: the editorial on
+March batches 01–33 and fourteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -166,11 +166,19 @@ images,ten indexed hardware-table rows and seven prose boundaries. Twenty-four
 vendor entries retain source categories and cross-column/page continuations.
 Two crop edges repaired once each; exact rebuild and preservation checks cover
 119 earlier native packages and thirteen assemblies. Both segments remain immutable.
-March has twenty-six readable and one partial/sample-reviewed articles,three
-group headings and14 entries awaiting classification/restoration. The issue remains
-incomplete. Next batch33 restores 세운상가201–204 and assembles190–204;
-205is the technical divider and the next article begins206.
-Follow private/pdf-restoration/12-1984-03-batch-32/next-checkpoint.json.
+Batch33 completes 세운상가201–204 and assembles190–204:101 regions,69 blocks,
+ten original images andten indexed hardware-table rows. Three immutable segments
+retain21 native prose boundaries andtwo crosssegment reading links. 기계어테크닉
+206–207 of verified206–209 has17 regions,13 blocks,one title artwork,five physical
+assembly rows and33 indexed prose examples.205technicaldivider is non-owning.
+No crop repair; exact rebuild and preservation checks cover120 earlier native
+packages and thirteen assemblies. March has twenty-seven readable andone partial
+article,four group headings and12 entries awaiting classification/restoration.
+Next batch34 completes 기계어테크닉208–209 and assembles206–209;interface210
+follows after extent verification. Whole March remains incomplete.
+Follow private/pdf-restoration/12-1984-03-batch-33/next-checkpoint.json.
+Before issue closeout, restore listed advertisingindex204 separately and recheck
+정보레이다124–131 against canonicaltoc0040; earlier exclusion needs reconciliation.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
