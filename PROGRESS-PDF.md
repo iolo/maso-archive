@@ -7477,3 +7477,41 @@ history remains in [PROGRESS.md](PROGRESS.md).
   printed34/PDF34 at dump address0D00; at most six source pages. Full proofreading,
   feature assembly,remaining articles and issue export remain pending. The
   whole-March goal stays active.
+
+### 2026-10-03 — March batch 05: feature ending, pages34–37
+
+- Verified the complete feature extent14–37. Final four pages contain the
+  remaining interpreter/support dumps,Korean BASIC demonstration,section8
+  conclusion,acknowledgement and references. Looked at38–40 only: publisher book
+  promotion,section divider,then a distinct game article. No global folio offset
+  inferred and no promotion/advertising extraction added.
+- All17 mapped region tasks completed without failure or retry. Compared every
+  region with full-page/enlarged scans,including seven dump and three demonstration
+  panels row by row. Delivered eight blocks and609 physical listing rows in three
+  groups. Native image crops preserve the original printed appearance.
+- Retained304 interpreter address rows0D00–1FF0 and256 support rowsC000–CFF0,
+  each with16 source-transcribed bytes. Repeated FF/00 rows retain the periodic
+  finalFF exceptions. Rechecked two repetitive/extra-looking byte rows against
+  enlarged crops. Row counts/shape establish accounting,not byte-perfect code.
+- Korean program and sample interaction retain line-number gaps,prompts,status,
+  printed commands and the missing 식/LET before210. Two prose joins restore
+  conclusion continuity; reference line wraps normalized. Twenty-four anomaly
+  rows retain source links. Some dense byte glyphs,the dump-header8/S token,
+  Korean command/separator glyphs and precise output indentation remain uncertain.
+  No programs executed,assembled or repaired; full proofreading stays deferred.
+- Exact region coverage,text/listing byte indexes,anomalies,prose joins and native
+  scan/raw OCR preservation pass. Fresh JSON/assets rebuild is byte-identical;
+  input pins and77 prior package manifests are unchanged. No HTML/browser work.
+- Rendering/cropping13.384s,Tesseract17.154s,total task elapsed31.675s. Review,
+  transcription and packaging elapsed1108.098s (18m28.098s),including tool/context
+  waits,not active human labor. Stage-specific tokens and verified reviewer model
+  settings remain unavailable; no model comparison performed.
+- Output: build/pdf-restoration/12-1984-03-batch-05/feature; private evidence,
+  metrics,validation,rebuild and pre-update ledger under the matching checkpoint.
+  The issue ledger retains all five segments and aggregate14–37 with a verified
+  ending. It still counts the unassembled feature as partial: March has one
+  readable editorial,one partial feature and42 entries awaiting classification.
+- Next assemble the full feature with global provenance. Batch01 legacy boundary
+  metadata needs a validated immutable adapter; later incoming links specify
+  opening/composition-encoding segment names. Then continue the issue at40,
+  keeping the two-article/six-source-page batch limit. Whole-March goal active.

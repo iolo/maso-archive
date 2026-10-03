@@ -4,17 +4,17 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–04 restored the complete editorial and
-feature pages14–33 in four immutable partial segments. Batch04 includes38
-regions and627 physical listing rows. Resume the interpreter dump at printed34/
-PDF34 using `private/pdf-restoration/12-1984-03-batch-04/next-checkpoint.json`,
-with at most two articles/six source pages per batch. Address0D00 follows0CF0;
-there is no carried physical row. The feature and issue remain incomplete;
-assembly is pending. Retain all four segments and their correction evidence.
-Batch04 records the page27/28 먼 + 저 prose join; its prior segment name is
-`composition-encoding`. Preserve leading-zero listing labels as literal strings
-and retain the explicit byte/glyph uncertainties. The historical batch01 prose
-continuation note still needs immutable recipe-level handling during assembly.
+delivery is required. March batches01–05 restored the complete editorial and
+all feature pages14–37 in five immutable partial segments. Batch05 has17 regions
+and609 physical listing rows; its conclusion/references confirm the ending37.
+Next follow `private/pdf-restoration/12-1984-03-batch-05/next-checkpoint.json`:
+assemble all five feature segments with global indexes, then resume remaining
+articles at printed/PDF40. Page38 is publisher promotion;39 is a section divider.
+Retain all source/correction evidence. Batch01's legacy continuation lacks kind
+and has a longer ending than batch02's incoming suffix; adapt it with validated
+assembly metadata without editing the original package. Batch02 expects prior
+segment name `opening`; batch04 expects `composition-encoding`. Preserve literal
+leading-zero string line labels, physical wraps and all dump-address rows.
 The active owner goal is to complete all remaining March1984 content.
 Earlier CD handoff details below are historical; they do not cancel this work.
 No reviewer-model comparison has been performed. If the owner changes models,

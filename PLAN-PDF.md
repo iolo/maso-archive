@@ -19,16 +19,15 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–04 are complete: the editorial on printed13/PDF13 is readable,
-and the Hangul-computer feature covers printed14–33/PDF14–33 in four immutable
-partial, sample-reviewed segments. Batch04 restores input/output routines,
-command placement and the start of the interpreter dump, with38 regions,
-18 ordered blocks,five image panels and627 physical listing rows. Uncertain
-glyphs and literal source anomalies remain explicit.
-Continue the dump at printed34/PDF34 in batch05, mapping at most six source pages.
-The feature ending and whole issue remain unverified/incomplete; segment assembly
-is still required. The active objective is all remaining March content, not only
-the next bounded checkpoint.
+March batches 01–05 are complete: the editorial on printed13/PDF13 is readable,
+and the Hangul-computer feature covers its verified full extent, printed/PDF14–37,
+in five immutable partial, sample-reviewed segments. Batch05 restores the final
+four pages:17 regions,eight blocks,609 physical listing rows,conclusion and
+references. The feature ends37;38 is publisher promotion,39 a section divider,
+and40 starts a distinct game article. Uncertain glyphs remain explicit.
+Next assemble the five feature segments with global correction/listing provenance,
+then continue the remaining March articles. The whole issue remains incomplete.
+The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
 work already performed, not authority to repeat rendering work.
