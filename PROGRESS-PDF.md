@@ -8554,3 +8554,45 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings and16 unclassified entries**. All44 identities intact.
   Next batch30 restores medical183–185,assembles178–185,and may begin UPDATE186
   within remaining allowance afterextentverification. Whole issue remains incomplete.
+
+
+### 2026-10-03 — March batch30: medical completed; UPDATE opening
+
+- Restored medical183–185 and UPDATE186–188 within six-page/two-article limit.
+  Five lookup pages189–193confirm UPDATE186–189,nextphysical세운상가190.
+  UPDATElisting189sits above an excluded advertisement;세운상가extentstillunknown.
+- Medical ending has29 regions,12 blocks,16 original images and seven linked
+  source headings. Four workflow diagrams and twelve form/menu screens retained;
+  innerlabels,dashedblankruns and exact geometry remain image-authoritative.
+  Statisticslist crosses183columns withnewline. Printed서어비스,자동축출,
+  finalㅇafterㅎ and historicalclaims retained;character-perfect review deferred.
+- Full medical178–185 assembly has75 regions,39 blocks,31 images and18 linked
+  headings. Both native segments unchanged;four obsolete scope notes resolved.
+  Five native prose boundaries plus182②효과/183ㄱ. 보험 수가의 자동계산
+  reviewed. Crosssegment link usesnewline metadata;native blocks/bytes preserved.
+- UPDATE opening has28 regions,21 blocks,five images and32 indexed table rows:
+  10masterrecords,7transactions,12resultrecords plus three headers. Three tables
+  are searchable alongside original images. Standardflow boundingbox intentionally
+  includes mastertable and small neighboring resulttableedge;fullresulttable retained.
+  Program/processflow labels remain image-authoritative,no invented transcriptions.
+- Source conflicts preserved:송재만grade3inmaster/5inresult;outputnumber shifts
+  to윤이용8,손강렬9,이상복10,변영일11. Conditiondeleteinput0, 0 0 lacks
+  secondcomma;captionup to date literal. No algorithm or sampledata repair.
+- Two withinpage prose joins:수/정 no separator and작성,/응용 withspace.
+  One r20uppercrop repair recovers firstconditionline187. Initialmap/OCR/crops
+  retained;allotherregions unchanged.188endsflowchart,189beginslisting10,
+  with no physicaltextfragment crossingsegments. Listing189and assembly remain.
+- All36 textregions and21 imageboundaries enlarged-scan reviewed. Native and
+  medicalassembly rebuilds byte-identical;byteindexes,captions,joins,source/settings
+  pins pass. All115 earlier native packages and11 prior assemblies unchanged.
+  No toolingchanged;existing88-test PDFbaseline notrerun. JSON/assets only.
+- 58 executed tasks(57initial,one repair),zero failures:51.808s task time,
+  32.287s render/crop and13.818s OCR. Review interval643.192s includes tool/context
+  waits,not active human labor. Exact backend/stage-token measurements unavailable.
+- Outputs `build/pdf-restoration/12-1984-03-batch-30/{medical,update}` and
+  `build/pdf-restoration/12-1984-03-medical`. Finalrecipes private batch30/medical
+  and batch30/update/revised. Metrics,validation and issue ledger retained.
+- March now has **25 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and15 unclassified entries**. All44 identities intact.
+  Next batch31 restores UPDATE189,assembles186–189,and may begin 세운상가190
+  within remainingfive-page allowance afterextentverification. Wholeissue incomplete.

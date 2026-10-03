@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–29 and eleven article assemblies are complete.
+delivery is required. March batches01–30 and twelve article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -296,12 +296,31 @@ Fourjoins:178부/딪쳐 noseparator;178/179이에 따른 space;181/182outpatient
 prior_segmentopening,prior_regionr46,prior_text_end② 효과,nexttextasabove,newline.
 Both natives and databaseassembly rebuild byte-identically;113 prior natives and
 ten earlier assemblies pass unchanged. No tooling or OCR configuration change.
-March has24 readable articles,one partial article,three group headings and16
+Batch30/medical completes183–185:29 regions,12 blocks,16 images,seven linked
+headings and one acrosscolumn statisticslist join. Finalrecipe private batch30/medical
+(no revised). Printed서어비스,자동축출,finalㅇafterㅎ and historicalclaims retained.
+Full `build/pdf-restoration/12-1984-03-medical` has178–185,eight pages,75 regions,
+39 blocks,31 images and18 linked headings. Both segments remain immutable;four
+obsolete scope notes resolved. Five native prose boundaries plus182②효과/183
+ㄱ. 보험 수가의 자동계산 linked withnewline metadata;nativeblocks stay separate.
+Batch30/update restores186–188 of verified186–189:28 regions,21 blocks,five
+images,32 indexed table rows and two prose boundaries. Finalrecipe private
+batch30/update/revised;one r20uppercrop repair recovers firstconditionline187.
+Three searchable tables preserve10master,7transaction and12resultrecords plus
+headers. Printed송재만grade3/result5 and shifted resultemployee numbers from8
+retained. Conditiondeleteinput0, 0 0 and captionup to date remain literal.
+Flowchartlabels are image-authoritative;standardflow boundingbox includesmastertable
+and small neighboring resulttableedge intentionally. All original diagrams retained.
+Both natives and medicalassembly rebuild byte-identically;115 prior natives and
+11 earlier assemblies validate unchanged. No tooling or OCR configuration change.
+March has25 readable articles,one partial article,three group headings and15
 unclassified entries;all44 canonical identities preserved;whole issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-29/next-checkpoint.json`:
-batch30 restores medical183–185 and assembles178–185; remaining<=3sourcepages may
-begin UPDATE186after extentverification. Lookup183–187already reviewed;186start
-and187flowchart/tables belongtoUPDATE,its endstillunknown. Preserve nativebytes.
+Next follow `private/pdf-restoration/12-1984-03-batch-30/next-checkpoint.json`:
+batch31 restores UPDATElisting189 and assembles186–189.188flowchart/189listing10
+has no physicaltextcarry.189loweradvertisement excluded. Remaining<=5sourcepages
+may begin nextphysical세운상가190afterextentverification. Lookup189–193reviewed:
+190opening,191introart,192–193body;full세운extentstillunknown. TOCorder differs
+from physical order;do not skip later technicalarticles or infer global offsets.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
