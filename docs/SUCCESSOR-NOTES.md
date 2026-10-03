@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–19 and seven article assemblies are complete.
+delivery is required. March batches01–20 and seven article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -134,13 +134,25 @@ Vertical omission dots use⋮and parameter dot·;printed stars useASCII*. Mathem
 superscripts/subscripts useUnicode and compoundexponents use^(eₘ). Smallo/0 and
 precise math typography remain explicitly uncertain. Native/assembly rebuilds match;
 101 earlier natives and six earlier assemblies pass preservation checks.
+Batch20 completes 기계어 강좌118–123 at
+`build/pdf-restoration/12-1984-03-batch-20/z80`:41 regions,23 blocks,six original
+images,23 physical listing rows in three groups,11 indexed prose examples and
+12 column/page boundaries. Fifteen assembly/source rows,three byte-dump rows and
+five BASIC rows remain literal;four BASIC line numbers and one PRINT wrap.
+CA8015/table versus C515/dump,uncertain0011/8011 address and BASIC20 apostrophe
+are retained. Original hardware claims,adressing,그리고인가 and4-before-five-item
+operand list remain source forms. Figure1/2 right edges widened once each;initial
+images preserved. Final recipe is private batch20/z80/revised. Exact rebuild and
+103 prior native/seven assembly preservation checks pass. No engine change.
 Page39 취미생활 and81 교육입문 are non-owning group headings; promotional80
-has no independent article body. March has nineteen readable articles,no partial
-articles,two group headings and23 unclassified entries;issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-19/next-checkpoint.json`:
-batch20 verifies 기계어 강좌 extent from118,then restores within existing six-source-
-page/two-article limits. Lookup118 already reviewed;following source pages need
-inspection. Continue unchanged Tesseract plus scan-based semantic review.
+has no independent article body. March has twenty readable articles,no partial
+articles,two group headings and22 unclassified entries;issue closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-20/next-checkpoint.json`:
+batch21 inspects intervening124–133 and business heading0022,then verifies
+심층적 회귀분석134 extent and restores first≤6sourcepages. Lookup124 is reviewed;
+125–134 were rendered in batch20 but not reviewed or used. Reuse those images.
+Continue unchanged Tesseract plus scan-based semantic review within existing
+six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe

@@ -8148,3 +8148,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   group headings and23 unclassified entries**. All44 canonical IDs,titles and parents
   preserved;whole-issue export pending. Next batch20 verifies 기계어 강좌 extent from118
   and continues with unchanged Tesseract/semantic review within established limits.
+
+### 2026-10-03 — March batch20: complete Z80 course118–123
+
+- Verified and restored complete 기계어 강좌118–123, printed Z80 기계어 강좌,
+  by 이세형. Closing star precedes unrelated 정보 레이다124. Pages125–134 were
+  rendered for potential lookup but not reviewed or used; no body coverage claimed.
+- Package has41 regions,23 blocks,six original images,23 physical listing rows,
+  11 indexed prose examples and twelve prose column/page boundaries. Original
+  artwork,four numbered hardware diagrams and annotated assembly syntax retained.
+  Searchable code includes15 assembly/source rows,three byte-dump rows and five
+  BASIC loader rows;four BASIC line numbers plus one wrapped PRINT row.
+- Enlarged scans retain source왜나하면,프로그램comma카운터,adressing,프래그,
+  그리고인가,255/65535 capacity claims,16비트 label-size wording and differing
+  instruction counts. Four-item operand introduction still precedes items1–5.
+  Register primes useUnicode;code apostrophes useASCII. No technical correction.
+- Assembly tableCA8015 and byte dumpC515 remain different. DEC A address appears
+  0011;0/8 ambiguity is recorded rather than replacing it with expected8011.
+  BASIC20 trailing apostrophe and30 physical PRINT wrap remain literal. Code has
+  not been executed or repaired; exact spacing/tiny punctuation remain scan-authoritative.
+- Widened figure1 and figure2 right edges once to recover full pin/bus labels.
+  All initial evidence retained; no text-region retries or engine/config changes.
+  Figure2 rectangle retains tiny neighboring prose fragments; full prose is also
+  searchable. Figure3 blank address-bus bit-count and figure4 label remain original.
+- All mapped-region coverage,text/listing byte ranges,captions,joins,source/raw
+  hashes and fresh byte-identical rebuild pass.103 earlier native packages and
+  seven assembled articles pass read-only preservation checks. No tooling changes
+  or repeat baseline suite;JSON/assets only.
+- 43 executed tasks(41 initial,two figure repairs),zero failures:38.161s aggregate
+  task time,19.077s render/crop and14.741s OCR. Review interval711.828s includes
+  source review,transcription,packaging and tool/context waits,not active human
+  labor. Stage-specific token counts and exact backend settings unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-20/z80`; final recipe under
+  `private/pdf-restoration/12-1984-03-batch-20/z80/revised`. Initial evidence,
+  transcripts,diffs,metrics,validation and next-checkpoint record remain private.
+- March now has **20 readable/sample-reviewed articles,0 partial articles,2 non-owning
+  group headings and22 unclassified entries**. All44 canonical IDs,titles and parents
+  preserved;whole-issue export pending. Next batch21 checks intervening124–133 and
+  business heading0022,then verifies 심층적 회귀분석134 extent and restores within
+  existing bounded limits using unchanged Tesseract/semantic review.

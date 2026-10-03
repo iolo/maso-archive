@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–19 and seven article assemblies are complete: the editorial on
+March batches 01–20 and seven article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -93,11 +93,17 @@ Complete 자료 구조113–117 has43 regions,30 blocks,four images,137 physical
 PL-I/schematic rows in six groups,13 indexed examples,six prose boundaries and three
 listing-column joins. One prose crop repaired once; historical syntax retained.
 Native/assembly rebuilds match;101 prior native packages and six assemblies pass
-preservation checks. March has nineteen readable/sample-reviewed articles,no partial
-articles,two group headings and23 entries awaiting classification/restoration.
-The issue is incomplete. Next batch20 verifies 기계어 강좌 from118,then restores
-within the existing bounded limits. Follow
-private/pdf-restoration/12-1984-03-batch-19/next-checkpoint.json.
+preservation checks.
+Batch20 completes 기계어 강좌118–123:41 regions,23 blocks,six original images,
+23 physical listing rows across assembly/byte-dump/BASIC groups,11 indexed prose
+examples and twelve prose boundaries. Two diagram edges widened once. Literal
+CA/C5 discrepancy,0011 address ambiguity and BASIC apostrophe/wrap retained.
+Exact rebuild and103 prior native/seven assembly preservation checks pass.
+March has twenty readable/sample-reviewed articles,no partial articles,two group
+headings and22 entries awaiting classification/restoration. The issue is incomplete.
+Next batch21 checks intervening news/promotional pages and the business heading,
+then verifies 심층적 회귀분석 from134 and restores within existing bounded limits.
+Follow private/pdf-restoration/12-1984-03-batch-20/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
