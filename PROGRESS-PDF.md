@@ -8230,3 +8230,47 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings and20 unclassified entries**. All44 canonical IDs,
   titles and parents preserved; whole-issue export pending. Next batch22 restores
   regression140–145 with unchanged Tesseract/semantic review within existing limits.
+
+
+### 2026-10-03 — March batch22: regression middle140–145
+
+- Restored140–145 of verified134–154 심층적 회귀분석. Lookup146 begins the next
+  DATA block,followed by simultaneous-equation example and program structure.
+  Opening134–139 remains immutable;final146–154 and full assembly remain.
+- Package has67 regions,51 blocks,eight original images,170 physical rows in
+  eleven code/screen groups,31 byte-indexed prose/caption examples,eight prose
+  boundaries and six plot captions. Ten printed screens contain164rows;insurance
+  DATA has six physical rows(five numbered and one115numeric wrap). The abbreviated
+  annotatedDATA block remains prose;its brace covers9010–9030 and values are not
+  expanded. No physical row crosses145/146.
+- Six scatter plots,computer/robot artwork and insurance plot retained as images.
+  Plot axis labels separately searchable. Artwork rectangle includes fragments of
+  T-matrix explanation/screen,which remain separately searchable in full.
+- Source says rightmost column for a leftmost index;preserved. Also retained
+  X12=190,190.1311and missing parenthesis,7.34244,variable/correlation reversals,
+  COV(X1,Y1),missingB2 in MEAN,S′S=T′T,abbreviatedDATA5.7,b1(여기서는b1이다),
+  logepsilon minus and exponent1,502comma. Printed99%intervals are narrower than
+  95%;extra-looking fitted-value digits remain literal. No statistical correction.
+- Source INDEPENT and ANOVA footer CORRELATION MATRIX retained. Quote-like mark,
+  repeated9count and tiny punctuation remain uncertain. Mathematical matrices,
+  sums,hats,bars,primes and indices use documented searchable notation;blank lower
+  triangles and omitted summation bounds are not filled. Exact typography and
+  decorative rule counts remain scan-authoritative. No historical code execution.
+- r13right and r35left/right prose edges widened once each;initial evidence retained.
+  All67 mapped regions compared with enlarged scans;all eight image boundaries and
+  six captions reviewed. No engine/config changes.
+- Region coverage,text/listing/example byte ranges,joins,captions,source/raw hashes
+  and fresh byte-identical rebuild pass.105 earlier native packages and seven
+  assemblies pass preservation checks. No tooling changes or repeat baseline suite;
+  JSON/assets only.
+- 69 executed tasks(67 initial,two repairs),zero failures:43.553s aggregate task
+  time,22.621s render/crop and15.634s OCR. Review interval677.980s includes tool and
+  context waits,not active human labor. Exact backend/stage-token metrics unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-22/regression`; final recipe under
+  `private/pdf-restoration/12-1984-03-batch-22/regression/revised`. Original evidence,
+  transcripts,diffs,metrics,validation and next-checkpoint record remain private.
+- March remains **20 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and20 unclassified entries**. Regression ledger retains
+  both immutable segments and aggregate134–145 coverage. All44 canonical IDs,titles
+  and parents preserved;whole-issue export pending. Next batch23 restores146–151
+  within established bounds using unchanged Tesseract/semantic review.

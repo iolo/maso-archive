@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–21 and seven article assemblies are complete.
+delivery is required. March batches01–22 and seven article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -160,11 +160,29 @@ once each; initial evidence retained. Fresh rebuild matches;104 prior natives an
 seven assemblies pass preservation checks. Page133 비지니스 is the third non-owning
 group heading,after39 취미생활 and81 교육입문. Unlisted news124–131 and notice132
 are excluded. Classification and lookup evidence are pinned under private batch21.
+Batch22 restores regression140–145 at
+`build/pdf-restoration/12-1984-03-batch-22/regression`:67 regions,51 blocks,eight
+original images,170 physical rows in eleven code/screen groups and31 indexed
+prose/caption example rows. Six scatter plots retain searchable axis captions;
+computer/robot artwork and insurance graph remain original. Artwork rectangle
+includes separately searchable T-matrix prose/screen fragments. Eight prose
+boundaries joined,including142제거/한 and143예측/에. Ten screen groups contain
+164rows;insuranceDATA has six rows(five numbered,one115numeric wrap).
+Source rightmost-column wording,variable/correlation reversals,COV(X1,Y1),missingB2
+in MEAN,S′S=T′T,abbreviatedDATA5.7,logepsilon minus and10exponent1,502comma are
+literal. Narrower99%intervals and extra fitted-value digits not recalculated.
+Screen quote-like mark,repeated9count and small punctuation remain uncertain.
+Final recipe is private batch22/regression/revised. r13right and r35left/right
+edges widened once;originals kept. Exact rebuild and105 prior native/seven assembly
+preservation checks pass. No OCR configuration change or historical program execution.
 March has20 readable articles,one partial article,three group headings and20
 unclassified entries; all44 canonical IDs/titles/parents preserved;issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-21/next-checkpoint.json`:
-batch22 maps/restores regression140–145. Page140 continues example step④;
-140–154 remain to restore and assemble with134–139. Article ends154 beforeVISICALC155.
+Regression ledger now retains both native segments and aggregate coverage134–145.
+Next follow `private/pdf-restoration/12-1984-03-batch-22/next-checkpoint.json`:
+batch23 maps/restores146–151.146begins tireDATA9000,then simultaneous-equation
+example and program structure. No code row crosses145/146.146–154 and full134–154
+assembly remain;article ends154 beforeVISICALC155. Opening139/140boundary also
+starts a new example step,without a carried row or prose fragment.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
