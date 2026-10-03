@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–30 and twelve article assemblies are complete: the editorial on
+March batches 01–31 and thirteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -155,11 +155,18 @@ UPDATE186–188 of verified186–189 restores28 regions,21 blocks,five images an
 32 indexed table rows. One uppercrop repair recovers187firstconditionline.
 Printed table conflicts and syntax remain literal; exact rebuild and preservation
 checks cover115 earlier native packages and eleven earlier assemblies.
-March has twenty-five readable and one partial/sample-reviewed articles,three
-group headings and15 entries awaiting classification/restoration. The issue remains
-incomplete. Next batch31 restores UPDATElisting189 and assembles186–189,then may
-begin 세운상가190 within the remaining five-page allowance after extentverification.
-Follow private/pdf-restoration/12-1984-03-batch-30/next-checkpoint.json.
+Batch31 completes UPDATE189 and assembles186–189:30 regions,22 blocks,five
+images,32 indexed native table rows and52 physical BASIC rows. The original
+numbering,190wrap and sampletable conflicts remain unchanged. 세운상가190–194
+of verified190–204 restores29 regions,15 blocks andfour original images.
+Nine prose boundaries and the190/191split title are reviewed; no crop repair.
+Exact rebuild and preservation checks cover117 earlier packages and12 assemblies.
+March has twenty-six readable and one partial/sample-reviewed articles,three
+group headings and14 entries awaiting classification/restoration. The issue remains
+incomplete. Next batch32 restores 세운상가195–200,including the hardware table
+and supplier directory. Final201–204and full assembly follow;205is the technical
+divider and the next article begins206.
+Follow private/pdf-restoration/12-1984-03-batch-31/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

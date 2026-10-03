@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–30 and twelve article assemblies are complete.
+delivery is required. March batches01–31 and thirteen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -313,14 +313,32 @@ Flowchartlabels are image-authoritative;standardflow boundingbox includesmastert
 and small neighboring resulttableedge intentionally. All original diagrams retained.
 Both natives and medicalassembly rebuild byte-identically;115 prior natives and
 11 earlier assemblies validate unchanged. No tooling or OCR configuration change.
-March has25 readable articles,one partial article,three group headings and15
+Batch31/update completes listing189: two regions, one block and52 physical
+BASIC rows (51 numbered10–2050 plus the190wrap). Finalrecipe private batch31/update,
+no revised directory. Literal UP TO DATE, NONE UPDATING,1098 and semicolon-separated
+PRINT# fields retained. Decorative asterisk counts/comment alignment uncertain.
+Full `build/pdf-restoration/12-1984-03-update` covers186–189:30 regions,22 blocks,
+five images,32 native indexed table rows and52 physical listing rows. Both source
+segments immutable;four obsolete scope notes resolved. No188/189physical carry.
+Batch31/sewoon restores190–194 of verified190–204:29 regions,15 blocks,four
+original images. Finalrecipe private batch31/sewoon,no revised. Introartwork overlaps
+searchable intro by design;192/193buildingphoto retained as two nativepanels;
+194marketphoto retained.190세운/191상가 joined without separator.
+Nine prose joins:등/이,꺼/도,SP/C-1000,R/OM,FD-/525,용/도,업/체,프로/그램
+without separators;상표중에/「Ⅱ」 withspace. Headline살아서숨쉬는현장 differs
+fromcanonical/runningtitle살아서움직이는현장;deck아끼하바라/body아끼야바라,
+FC-50,SUPUR-7,SDKLCDclaim and historical prices/claims retained.
+194ends4. 디지쎅터 카드;195beginsCCTV. Outgoingtypedprose link requires incoming
+prior_segmentopening,prior_regionr28,prior_text_end4. 디지쎅터 카드,text_startCCTV,
+joinnewline.195–196finish survey;196table;197–204supplierdirectory.204loweradvertising
+index excluded;205technicaldivider,nextarticle206. Lookup195–208reviewed.
+Both natives/full UPDATEassembly rebuild byte-identically;117 prior packages and
+12 earlier assemblies unchanged. No OCR repairs/settings or tooling changes.
+March has26 readable articles,one partial article,three group headings and14
 unclassified entries;all44 canonical identities preserved;whole issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-30/next-checkpoint.json`:
-batch31 restores UPDATElisting189 and assembles186–189.188flowchart/189listing10
-has no physicaltextcarry.189loweradvertisement excluded. Remaining<=5sourcepages
-may begin nextphysical세운상가190afterextentverification. Lookup189–193reviewed:
-190opening,191introart,192–193body;full세운extentstillunknown. TOCorder differs
-from physical order;do not skip later technicalarticles or infer global offsets.
+Next follow `private/pdf-restoration/12-1984-03-batch-31/next-checkpoint.json`:
+batch32 restores세운상가195–200;final201–204and immutable assembly remain afterward.
+Keep the directory within canonicaltoc0037;physical order differs from TOCorder.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain

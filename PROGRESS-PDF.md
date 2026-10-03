@@ -8596,3 +8596,47 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings and15 unclassified entries**. All44 identities intact.
   Next batch31 restores UPDATE189,assembles186–189,and may begin 세운상가190
   within remainingfive-page allowance afterextentverification. Wholeissue incomplete.
+
+
+### 2026-10-03 — March batch31: UPDATE completed; 세운상가 opening
+
+- Restored UPDATE189 and 세운상가190–194 within the six-page/two-article limit.
+  Fourteen lookup pages195–208 establish the complete feature extent190–204,
+  including its supplier directory. Page204's lower advertising index is excluded;
+  205 is the technical divider and the next article starts206.
+- UPDATE ending contains two regions, one block and52 physical BASIC rows:
+  51 numbered10–2050 and one continuation of190. The300/310column join uses a
+  newline; the source's physical wrap remains intact. UP TO DATE, NONE UPDATING,
+  line1098 and semicolon-separated PRINT# fields remain literal. Decorative
+  asterisk counts and comment alignment are explicitly uncertain; execution unverified.
+- Complete UPDATE186–189 assembly has30 regions,22 blocks,five original images,
+  32 indexed native table rows and52 physical listing rows. Both native segments
+  remain unchanged;four obsolete scope notes resolved. Two native prose boundaries
+  and one listing join are checked.188flowchart/189listing have no physical carry.
+- 세운상가 opening has29 regions,15 blocks andfour original images. Intro artwork
+  intentionally overlaps searchable text. The building photograph spanning192–193
+  remains two native panels;194market photograph is retained. No captions invented.
+  The decorative190세운/191상가 title joins without a separator.
+- Nine prose boundaries reviewed:등/이,꺼/도,SP/C-1000,R/OM,FD-/525,용/도,
+  업/체 and프로/그램 without separators;상표중에/「Ⅱ」 with a space.
+  All regional transcripts and source crops remain individually traceable.
+- Printed headline살아서숨쉬는현장 differs from canonical/running title
+  살아서움직이는현장. Deck아끼하바라/body아끼야바라,FC-50,SUPUR-7,
+  MATE1/MATE-1,SDKLCD claim, historical prices and survey claims remain literal.
+  Page194ends4. 디지쎅터 카드;195opensCCTV explanation. Typed outgoing prose
+  continuation records a newline;195–204and full feature assembly remain.
+- All27 text regions andfour image boundaries reviewed against enlarged scans.
+  No crop repairs or OCR configuration changes. Native exports and UPDATEassembly
+  rebuild byte-identically; byte indexes, joins and source/settings pins pass.
+  All117 earlier packages and12 earlier assemblies validate unchanged.
+  No tooling changed; existing88-test PDF baseline not rerun. JSON/assets only.
+- 31 executed tasks,zero failures:62.069s task time,34.671s render/crop and
+  24.507s OCR. Review interval335.343s includes tool/context waits,not active
+  human labor. Exact backend/stage-token measurements unavailable.
+- Outputs `build/pdf-restoration/12-1984-03-batch-31/{update,sewoon}` and
+  `build/pdf-restoration/12-1984-03-update`. Final recipes are private
+  batch31/update and batch31/sewoon;no revised directories. Metrics and ledger saved.
+- March now has **26 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and14 unclassified entries**. All44 identities intact.
+  Next batch32 restores세운상가195–200,including table and directory;201–204and
+  full assembly follow. The whole issue remains incomplete.
