@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–14 and four article assemblies are complete: the editorial on
+March batches 01–15 and four article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -63,11 +63,17 @@ conversion-listing rows and68 indexed example/output rows within prose/captions.
 The searchable number-base table,eleven prose boundaries and four diagram captions
 are checked. Two crop boundaries were repaired once each; source discrepancies
 remain literal. Export rebuilds identically;94 prior packages pass preservation.
-March has fourteen readable/sample-reviewed articles,no partial articles,two group
-headings and28 entries awaiting classification/restoration; the issue is incomplete.
-Next batch15 starts 소프트웨어 복사 방지 기술88; verify its extent before mapping within
-two articles/six source pages. Follow
-private/pdf-restoration/12-1984-03-batch-14/next-checkpoint.json.
+Batch15 completes 소프트웨어 복사 방지 기술88–91:42 regions,27 blocks,six images,
+five indexed monitor commands,seven indexed bit rows and nine prose joins.
+컴퓨터와 수92–93 is partial,with verified full extent92–99:18 regions,11 blocks,
+two images,six indexed arithmetic rows and five prose joins. All60 tasks completed
+without repair/retry; native exports rebuild identically and95 prior packages pass
+preservation checks. Source discrepancies remain literal.
+March has fifteen readable/sample-reviewed articles,one partial article,two group
+headings and26 entries awaiting classification/restoration; the issue is incomplete.
+Next batch16 restores 컴퓨터와 수94–99 and assembles92–99 within the existing
+six-source-page limit. Follow
+private/pdf-restoration/12-1984-03-batch-15/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–14 and four article assemblies are complete.
+delivery is required. March batches01–15 and four article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -70,13 +70,27 @@ each widened once. Literal source discrepancies include16 binary ones versusFFF,
 nine81 terms in the twelve-byte definition,11264($2000),14366,DEF STR$ and FC DATA
 punctuation. Code wraps,uncertain spaces and printed YOU- hyphen remain explicit.
 Exact rebuild and94 prior native package/four assembly preservation checks pass.
+Batch15 completes 소프트웨어 복사 방지 기술88–91 at
+`build/pdf-restoration/12-1984-03-batch-15/protection`:42 regions,27 blocks,six
+images,five indexed monitor commands,seven indexed bit rows,nine prose joins and
+four references. Original field-marker size discrepancy,BB00/BC56/BB56 wording,
+VTOC35/23 notation,FF EF map update and DOS3,3 remain literal. No execution claim.
+Batch15/numbers restores 컴퓨터와 수92–93 of verified92–99:18 regions,11 blocks,
+two images,six indexed arithmetic rows and five prose joins. Opening artwork
+intentionally retains the separately searchable editor note. Diagram2048 label
+under8⁴,prose4096,deliberate invalid71834 example and conversion-direction wording
+remain source forms. Exponents/base labels/bit indices use Unicode superscripts
+and subscripts. No full code listing appears in either package.
+All60 tasks completed without repair/retry. Both native exports rebuild identically;
+95 prior native packages and four assemblies pass preservation checks.
 Page39 취미생활 and81 교육입문 are non-owning group headings; promotional80
-has no independent article body. March has fourteen readable articles,no partial
-articles,two group headings and28 unclassified entries; closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-14/next-checkpoint.json`:
-batch15 starts 소프트웨어 복사 방지 기술88 (printed 소프트웨어 복사방지기술Ⅰ).
-Page88 reviewed; verify the remaining extent within two articles/six source
-pages. TOC next entry92 is a boundary clue,not an assumed page offset.
+has no independent article body. March has fifteen readable articles,one partial
+article,two group headings and26 unclassified entries; closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-15/next-checkpoint.json`:
+batch16 restores remaining 컴퓨터와 수94–99,then assembles92–99 with immutable
+batch15/numbers. Full lookup94–100 reviewed; next article begins100. Openingr18
+ends `16진수를 10진수`; incoming94 begins `로 바꿀 수 있다.` with no join space.
+Match the outgoing prose continuation in corrections when restoring the ending.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe

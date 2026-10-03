@@ -7931,3 +7931,49 @@ history remains in [PROGRESS.md](PROGRESS.md).
   ordering and parent links remain unchanged. Next batch15 verifies/restores
   소프트웨어 복사 방지 기술 from88. Remaining bodies,TOC accounting and whole-issue
   JSON/assets export remain pending; the whole-March goal stays active.
+
+### 2026-10-03 — March batch15: copy protection88–91 and number systems92–93
+
+- Completed 소프트웨어 복사 방지 기술88–91 (printed 소프트웨어 복사방지기술Ⅰ,
+  연재1회,강남천) and restored opening 컴퓨터와 수92–93. Full lookup94–100 verifies
+  the latter article ends99 and the next begins100. Printed/PDF88–100 locally
+  agree. Six source pages,seven lookup pages; all60 regional Tesseract tasks
+  completed without failure,repair or retry. Engine/configuration unchanged.
+- Copy-protection package is readable/sample-reviewed:42 regions,27 blocks,six
+  original images (two photographs,four technical diagrams),nine prose joins and
+  four references. Five monitor commands and seven bit-pattern rows remain in prose
+  with scan-linked byte indexes. Commands AC01/B3BC/BEFE/AEDC and9DBFG,track35/23
+  wording and FF FF 00 00→FF EF 00 00 remain literal and unexecuted.
+- Preserved International Business Machinery,관심이 많게 마련이다,prenibblizing,
+  BB00..BC56 versusBB56,DOS3,3 and lowered C₄..C₇. Address-field epilogue diagram
+  labels2bytes while prose says3; original image remains unchanged. All gap ranges,
+  initial128byte label and odd-even AND diagram retained. Historical platform and
+  copyright statements are transcribed without independent endorsement.
+- Number-systems opening is partial/sample-reviewed:18 regions,11 blocks,two
+  original images,six indexed arithmetic rows and five prose joins. Editor note
+  attributes Randy Carlstrom,Computers and Electronics,December1983pp47–55.
+  Artwork includes that note intentionally and a separate searchable block.
+  Unicode exponents/base labels preserve the printed math. Invalid octal71834
+  is explicitly explained by the source; diagram2048 under8⁴ versus prose4096,
+  conversion-direction wording and16과15answer remain literal.
+- Source93 ends mid-sentence at16진수를10진수; lookup94 starts로 바꿀 수 있다.
+  Recorded an outgoing prose continuation with empty separator. Remaining94–99
+  and immutable whole-article assembly are explicit; no complete-article claim.
+- Validated all60 regions exactly once,text/example byte ranges,18 indexed example
+  rows,14 prose boundaries,all eight image boundaries,caption1 and source/raw OCR
+  pins. Corrected one missing inter-word space at a prose join before final export;
+  initial package draft retained privately. Both JSON/assets exports rebuild byte
+  for byte; all95 earlier native packages and four assemblies pass read-only checks.
+  No standalone listing is invented for either prose article.
+- Rendering/cropping26.441s,Tesseract16.895s,total task elapsed48.574s. Review,
+  transcription and packaging interval1393.781s (23m13.781s),including tool/context
+  waits,not active human labor. Stage-specific tokens and verified reviewer settings
+  remain unavailable; no model comparison. No tracked tooling changes,HTML or browser
+  work;85-test tooling baseline remains unchanged.
+- Outputs: build/pdf-restoration/12-1984-03-batch-15/{protection,numbers}. Private
+  checkpoint retains maps,OCR,transcription,recipes,metrics,validation,exact rebuilds,
+  pre-update ledger and next checkpoint. March now has fifteen readable articles,
+  one partial article,two group headings and26 unclassified entries. All44 canonical
+  identities,ordering and parent links are unchanged. Next batch16 restores94–99
+  and assembles 컴퓨터와 수92–99. Whole-March accounting/export remains pending;
+  the whole-March goal stays active.
