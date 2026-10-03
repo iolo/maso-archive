@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–15 and four article assemblies are complete.
+delivery is required. March batches01–18 and six article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -100,15 +100,30 @@ Opening photo widened once to retain entire series banner; initial evidence reta
 Figure6 spans103–104 in three ordered parts. Source figure5 RD,BCD diagram60/11,
 JP/JR bytes,flag claims and editorial note remain literal. No standalone listing in
 this opening. Exact rebuild and98 prior native/five assembly preservation checks pass.
+Batch18 completes systems106–108 and assembles100–108 at
+`build/pdf-restoration/12-1984-03-systems`:100 regions,65 blocks,21 images,
+29 physical source/assembler-output rows,17 indexed native examples and15 prose
+boundaries. Captions1–15 retain source numbering. Both native segments are copied
+unchanged. Assembler internal source numbers0001–0014 are separate metadata;
+leading addresses are not BASIC line numbers. Printed Errors0 is not an execution
+claim. Literal two path and uncertain desuription c/u remain documented.
+Batch18/tape restores109–111 of verified109–112:49 regions,44 blocks,four images,
+13 physical dump/command/output rows,six listing groups and10 indexed examples.
+Boxed address placeholders,screen return glyphs and keyboard/screen table remain
+original images. Single-nibble1 and uncertain colon-like punctuation remain literal.
+Final recipes are under private batch18/{systems,tape}/revised. Five systems and
+two tape boundaries repaired once each; initial evidence preserved. OCR engine and
+configuration unchanged. Native/assembly rebuilds match;99 prior native packages
+and five prior assemblies pass preservation checks.
 Page39 취미생활 and81 교육입문 are non-owning group headings; promotional80
-has no independent article body. March has sixteen readable articles,one partial
-article,two group headings and25 unclassified entries; issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-17/next-checkpoint.json`:
-batch18 completes106–108 and assembles100–108. Openingr57 ends `소스(so`;
-incoming106 begins `urce)`. Physical so-/urce) line-end hyphen has been normalized;
-join with no separator. Lookup106–109 verified;108 contains source/assembler-output
-listings and closing references. Up to three pages of next article109 may follow
-once its extent is source-verified. No new engine/configuration.
+has no independent article body. March has seventeen readable articles,one partial
+article,two group headings and24 unclassified entries; issue closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-18/next-checkpoint.json`:
+batch19 finishes tape112 and assembles109–112. Openingr49 ends
+`이들에 의해 프로그램시 이상한 그림이 화면에 표시되며`;112 begins
+`로딩되는 과정이 화면에 표시되어`;join with one space. Next 자료구조 begins113;
+verify its extent before including up to five further source pages. Lookup112/113
+already reviewed. Continue unchanged Tesseract plus scan-based semantic review.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe

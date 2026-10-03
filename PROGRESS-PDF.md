@@ -8055,3 +8055,50 @@ history remains in [PROGRESS.md](PROGRESS.md).
   parents preserved. Whole-issue export remains pending. Next batch18 finishes106–108,
   assembles100–108,and may use three remaining source slots for the next article109
   after verifying its extent. Continue the validated Tesseract/semantic-review pipeline.
+
+
+### 2026-10-03 — March batch18: systems ending and tape opening
+
+- Restored systems106–108 and assembled complete 마이크로 컴퓨터 시스템 입문
+  100–108 from two immutable native segments. Ending:41 regions,26 blocks,six
+  images,29 physical source/assembler-output rows,12 indexed embedded examples
+  and nine prose boundaries. Assembly:100 regions,65 blocks,21 images,29 listing
+  rows,17 native indexed examples and15 prose boundaries including the segment join.
+- Verified captions10–15,assembler/source examples and four closing references.
+  Source105소스(so/106urce) joins without a space;107sym-/108bol table is likewise
+  explicitly normalized. Source two path remains literal; faint desuription c/u
+  spelling remains uncertain. Source/output columns retain meaningful characters;
+  exact spaces remain approximate. Printed Errors0 is not an execution claim.
+- Assembler source-line numbers0001–0014 occur inside rows following addresses and
+  opcodes. Recorded them as separate metadata under physical row identities,keeping
+  original listing bytes intact. First index attempt is preserved privately; no
+  assembler-tool implementation or historical code changed.
+- Verified tape article109–112 through closing star and next 자료구조113. Restored
+  opening109–111:49 regions,44 blocks,four images,13 physical listing rows in six
+  groups,10 indexed examples and one page-boundary join. Plain byte dumps,monitor
+  commands and alphabet output are searchable. Boxed placeholder dumps,return glyph
+  and sixteen-row character-code table remain original images. No placeholder values
+  invented. Literal one-nibble1 and uncertain colon-like mark after1 remain flagged.
+- Five systems crop repairs recover clipped cross/meta headings,meta prose,example
+  prose and misplaced figure12 caption. Two tape repairs recover heading top and
+  left-indented soft-switch prose. Each region repaired once; original crops,OCR and
+  intermediate evidence preserved. All unaffected crop/text/TSV bytes agree; OCR
+  engine/configuration remains unchanged apart from map pins and repaired geometry.
+- Both native packages and full systems assembly pass region coverage,byte indexes,
+  caption links,prose joins,raw evidence hashes and exact fresh rebuilds. Native
+  segments copied byte-for-byte into assembly.99 earlier native packages and five
+  earlier complete assemblies pass read-only preservation checks. Sample-reviewed;
+  full character-perfect proofreading and historical program execution remain deferred.
+- 97 executed tasks(90 initial,seven crop repairs),no failures:55.297s aggregate
+  task time,29.845s render/crop,18.946s OCR. Review interval1200.983s includes scan
+  comparison,transcription,packaging and tool/context waits,not active human labor.
+  Stage token counts and exact reviewer backend settings unavailable.
+- Outputs `build/pdf-restoration/12-1984-03-batch-18/{systems,tape}` and complete
+  `build/pdf-restoration/12-1984-03-systems`. Private batch18 retains final revised
+  recipes,transcripts,raw diffs,metrics,validation,assembly validation and next
+  checkpoint. JSON/assets only; unchanged tooling needs no repeat baseline suite.
+- March now has **17 readable/sample-reviewed articles,1 partial article,2 non-owning
+  group headings and24 unclassified entries**. All44 canonical identities,titles and
+  parents preserved; whole-issue export pending. Next batch19 finishes tape112 and
+  assembles109–112,then may include up to five source pages of 자료구조 from113 after
+  verifying its extent. Continue the established two-article/six-source-page limits.

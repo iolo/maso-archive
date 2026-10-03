@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–17 and five article assemblies are complete: the editorial on
+March batches 01–18 and six article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -79,11 +79,18 @@ Batch17 restores 마이크로 컴퓨터 시스템 입문100–105 of verified100
 59 regions,39 blocks,15 images,five indexed assembly examples,five prose boundaries
 and nine numbered captions. One opening-photo boundary repaired once; originals
 preserved. Exact rebuild and98 prior native/five assembly preservation checks pass.
-March has sixteen readable/sample-reviewed articles,one partial article,two group
-headings and25 entries awaiting classification/restoration; the issue is incomplete.
-Next batch18 completes106–108 and assembles100–108. Up to three source pages of
-next article109 may follow after verifying its extent. Follow
-private/pdf-restoration/12-1984-03-batch-17/next-checkpoint.json.
+Batch18 completes systems106–108 and assembles100–108:100 regions,65 blocks,
+21 original images,29 physical assembly/output rows,17 indexed native examples
+and15 prose boundaries. Both source segments remain immutable; captions1–15 and
+source105/106 word split are checked. Tape109–111 restores49 regions,44 blocks,four original images,
+13 physical listing rows and10 indexed examples; complete extent109–112 verified.
+Seven crop boundaries repaired once each. Native/assembly rebuilds match;99 earlier
+native packages and five assemblies pass preservation checks.
+March has seventeen readable/sample-reviewed articles,one partial article,two group
+headings and24 entries awaiting classification/restoration; the issue is incomplete.
+Next batch19 finishes tape112 and assembles109–112,then may restore up to five
+source pages of 자료구조 from113 after verifying its extent. Follow
+private/pdf-restoration/12-1984-03-batch-18/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
