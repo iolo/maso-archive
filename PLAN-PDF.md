@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–24 and eight article assemblies are complete: the editorial on
+March batches 01–25 and eight article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -121,11 +121,15 @@ listing rows. One left-edge crop repair recovers line-number digits. Full regres
 127 blocks, 12 images and 1,256 listing rows. Exact native/assembly rebuilds and
 107 prior package/seven prior assembly checks pass. A narrowly validated listing
 block continuation adapter preserves the 4215/4220 boundary; all 88 PDF tests pass.
-March has twenty-one readable/sample-reviewed articles, three group headings and
-20 entries awaiting classification/restoration. Business 133 is the third non-owning
-group heading; unlisted news 124–131 and notice 132 are excluded. The issue remains
-incomplete. Next batch25 verifies and restores Visicalc의 활용 beginning on155.
-Follow private/pdf-restoration/12-1984-03-batch-24/next-checkpoint.json.
+Batch25 restores VisiCalc155–160: 69 regions,39 blocks,23 original images,
+18 captions,47 indexed command/key examples and seven prose boundaries. Six
+regions widened once each; initial/intermediate evidence retained. Exact rebuild
+and108 prior package/eight assembly checks pass; no tooling or engine changes.
+March has twenty-one readable and one partial/sample-reviewed articles,three group
+headings and19 entries awaiting classification/restoration. VisiCalc spans155–164,
+including the sideways command chart164; nextarticle 서북편란법 begins165.
+The issue remains incomplete. Next batch26 restores161–164 and assembles VisiCalc.
+Follow private/pdf-restoration/12-1984-03-batch-25/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

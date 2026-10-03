@@ -8355,3 +8355,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   headings and20 unclassified entries**;all44 canonical IDs/titles/parents preserved.
   Whole-issue restoration/export remains pending. Next batch25 verifies and restores
   Visicalc의 활용 beginning155 using unchanged Tesseract and semantic review.
+
+
+### 2026-10-03 — March batch25: VisiCalc opening155–160
+
+- Verified VisiCalc serial5 spans155–164: prose ends163,sideways command chart164,
+  next 서북편란법165. Restored opening155–160; final161–164 and assembly remain.
+  Five inspected boundary lookups161–165; two additional previews166/167 were
+  rendered but unused. No article text from those previews is claimed reviewed.
+- Native package has69 regions,39 reading blocks,23 original images,18 captions,
+  47 byte-indexed command/key examples and seven explicit prose boundaries.
+ 155바란/다 and158때/까지 join without a separator;160ends a complete paragraph
+  pointing to161figure15. No physical command row crosses the segment boundary.
+- Following FebruaryVISICALC,screen cells,numbers,highlighting and labels remain
+  original images rather than certified searchable tables. Prose,prompt boxes,
+  commands and key notation remain searchable. Four artworks and an uncaptioned
+  column-insertion-after screen are preserved; no9-4caption invented. Caption12
+  identifies an original print prompt box. No executable listing or input-byte claim.
+- Boxed keys/cell references become readable brackets;circledR/S useⓇ/Ⓢ.
+  Prompt arrow labels are linearized with explicit R/C,A/M and FILE/PRINTER/slot
+  associations. Prose/English word wraps normalized; source terminology retained.
+- SourceVISICAL,Expendar,PRINTNG,63columns/254rows,145KB,FIrounding andFDreturn
+  wording retained. FORMAT menu S/$andFX-8Q/0remain uncertain. Figure10-2total
+  5060000and11-2displacedORT/SALES REP remain in source images without repair.
+- Six distinct regions widened once each in two rounds: r14opening parenthesis,
+  r18leading slash,r33bottom strokes,r07left imageframe,r26/r31captionleft strokes.
+  Initial/intermediate map,crop,OCR and settings evidence preserved. All46 text
+  regions reviewed against enlarged scans;all23image boundaries/18captions checked.
+- Coverage,text/example byte ranges,caption links,joins,source/raw pins and fresh
+  byte-identical rebuild pass.108 prior packages and eight assemblies validate
+  unchanged. No OCR/tooling changes; established88 PDF test baseline not rerun.
+- 75 executed tasks(69 initial,six repairs),zero failures:50.039s task time,
+  33.763s render/crop and11.644s OCR. Review interval699.232s includes tool/context
+  waits,not active human labor. Exact backend/stage-token metrics unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-25/visicalc`; final recipe under
+  `private/pdf-restoration/12-1984-03-batch-25/visicalc/final`. Earlier `revised`
+  directory is intermediate evidence. Metrics,validation and next-checkpoint private.
+- March now has **21 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and19 unclassified entries**. All44 canonical IDs,
+  titles and parents preserved. Next batch26 restores161–164 and assembles VisiCalc;
+  complete issue restoration/export remains pending.

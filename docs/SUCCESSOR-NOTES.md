@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–24 and eight article assemblies are complete.
+delivery is required. March batches01–25 and eight article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -207,11 +207,27 @@ in batch23 against batch24 incoming `kind: listing-block`. It links separate
 4215/4220 reading blocks without changing rows or asserting execution validity.
 Historical `kind: code` fragment declarations remain handled by existing checks.
 All source uncertainties remain; only eight superseded extent/assembly notes resolved.
-March has21 readable/sample-reviewed articles,three group headings and20
+Batch25 restores VisiCalc155–160 at
+`build/pdf-restoration/12-1984-03-batch-25/visicalc`:69 regions,39 blocks,23 images,
+18 source captions,47 byte-indexed command/key examples and seven prose boundaries.
+Screens/cell values/highlights remain original images,following FebruaryVISICALC;
+commands,key symbols and explanatory prose are searchable. No executable listing.
+Boxed keys/cells use brackets,circledR/S useⓇ/Ⓢ;arrow-label associations recorded.
+Source VISICAL,Expendar,PRINTNG,FIrounding/FDreturn claims and capacities remain.
+FORMAT menu S/$andFX-8Q/0glyphs are explicit uncertainties. Source5060000total in
+10-2and displacedORT/SALES REP in11-2are not repaired. The column-insertion-after
+screen has no printed caption; no9-4caption invented.
+Final recipe is private batch25/visicalc/final. Two repair rounds affect six distinct
+regions once each: r14left,r18left,r33bottom,r07leftframe,r26/r31captionleft.
+Initial and intermediate evidence preserved. Exact rebuild and108 prior packages/
+eight assemblies pass; no tooling changes or repeat88-testbaseline required.
+March has21 readable articles,one partial article,three group headings and19
 unclassified entries; all44 canonical IDs/titles/parents preserved;issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-24/next-checkpoint.json`:
-batch25 verifies extent and restores Visicalc의 활용 beginning155. The155opening
-is visually confirmed; map the next<=6sourcepages within established bounds.
+Next follow `private/pdf-restoration/12-1984-03-batch-25/next-checkpoint.json`:
+batch26 restores final161–164 and assembles complete VisiCalc155–164. Page163ends
+prose; sideways command chart164 belongs toarticle. Next 서북편란법165 confirmed.
+160ends a complete printing paragraph pointing to161figure15; no split command or
+prose row. Preview scans161–165 retained;166/167were rendered but not used for review.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
