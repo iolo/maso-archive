@@ -4,17 +4,19 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–05 restored the complete editorial and
-all feature pages14–37 in five immutable partial segments. Batch05 has17 regions
-and609 physical listing rows; its conclusion/references confirm the ending37.
-Next follow `private/pdf-restoration/12-1984-03-batch-05/next-checkpoint.json`:
-assemble all five feature segments with global indexes, then resume remaining
-articles at printed/PDF40. Page38 is publisher promotion;39 is a section divider.
-Retain all source/correction evidence. Batch01's legacy continuation lacks kind
-and has a longer ending than batch02's incoming suffix; adapt it with validated
-assembly metadata without editing the original package. Batch02 expects prior
-segment name `opening`; batch04 expects `composition-encoding`. Preserve literal
-leading-zero string line labels, physical wraps and all dump-address rows.
+delivery is required. March batches01–05 and feature assembly are complete.
+Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
+feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
+77 blocks,22 image panels and2,033 physical listing rows; all five original
+packages remain unchanged under segments. Rebuild and85 PDF tests pass.
+Next follow `private/pdf-restoration/12-1984-03-feature-assembly/next-checkpoint.json`:
+batch06 resumes 추리력 테스트 게임 at printed/PDF40, within the existing
+two-article/six-page limit. Page38 is publisher promotion;39 is a section divider.
+March has two readable articles and42 unclassified TOC entries; issue closeout
+is pending. The namespaced assembler now validates the legacy prose boundary
+and regional listing ranges without rewriting originals; see the assembly recipe
+and validation evidence. Preserve all literal leading zeros, wraps, dump rows,
+uncertainties and source/correction records. No new OCR engine/configuration.
 The active owner goal is to complete all remaining March1984 content.
 Earlier CD handoff details below are historical; they do not cancel this work.
 No reviewer-model comparison has been performed. If the owner changes models,

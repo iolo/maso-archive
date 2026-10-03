@@ -7515,3 +7515,38 @@ history remains in [PROGRESS.md](PROGRESS.md).
   metadata needs a validated immutable adapter; later incoming links specify
   opening/composition-encoding segment names. Then continue the issue at40,
   keeping the two-article/six-source-page batch limit. Whole-March goal active.
+
+### 2026-10-03 — March feature assembly: complete pages14–37
+
+- Assembled all five immutable feature segments into the readable/sample-reviewed
+  package build/pdf-restoration/12-1984-03-feature. The24-page article contains
+  149 regions,77 ordered blocks,22 original image panels and2,033 physical listing
+  rows. Both distinct figure15 labels,sideways diagrams,source claims,literal
+  program anomalies and every retained uncertainty remain unchanged.
+- Namespaced assembly needed two compatibility fixes: an early outgoing prose
+  record lacked kind and quoted a longer ending than the incoming suffix; newer
+  listing indexes covered individual regions rather than whole code blocks.
+  Added strict source/block/text/page/folio/link validation for that legacy shape,
+  and checked regional order,scan pins,transcription and exact byte partitioning
+  before coalescing code-block ranges. Originals are never rewritten. Three
+  focused tests cover success,immutable inputs and rejected mismatches; all85
+  PDF tests pass. No OCR/runtime/configuration change.
+- Global indexes include77 text blocks,34 regional listing ranges and2,033 physical
+  rows covering72,388 listing bytes. Two prose boundaries retain linked reading
+  blocks and explicit separators (15/16 space;27/28 none); their actual block text
+  is not silently rewritten. One legacy adaptation is recorded alongside the
+  original declaration. Printed leading-zero labels remain literal strings.
+- Verified all512 interpreter dump rows0000–1FF0 and256 support rowsC000–CFF0;
+  these checks prove address/row accounting,not executable or byte-perfect code.
+  Compared all copied segment files byte for byte,validated text/listing spans
+  and source scans,and reproduced the full assembly byte-identically in a fresh
+  directory. Read-only validation also passes for78 previous packages:72 prior
+  November/February packages,the editorial and five feature segments. No HTML.
+- Evidence and recipe: private/pdf-restoration/12-1984-03-feature-assembly/.
+  Updated March's ledger to two readable articles,zero partial articles and42
+  TOC entries awaiting classification/restoration. The feature retains all five
+  segment manifests and verified coverage14–37; full proofreading remains deferred.
+- Next batch06 begins 추리력 테스트 게임 at printed40/PDF40. Verify its extent,
+  restore at most six source pages and continue source-based review. Complete
+  March accounting,remaining articles and issue JSON/assets export remain pending;
+  the owner’s whole-March goal stays active.

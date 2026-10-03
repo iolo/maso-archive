@@ -101,6 +101,43 @@ class Segment:
         return result
 
 
+def block_listing_index(segment):
+    """Coalesce regional ranges only after proving their exact block coverage."""
+    supplied = segment.correction.get('listing_index', [])
+    if len({r['block_id'] for r in supplied}) == len(supplied):
+        return supplied, False  # Preserve the established block-index format.
+    blocks = {b['id']: b for b in segment.source['blocks'] if b['kind'] == 'code'}
+    if {r['block_id'] for r in supplied} != set(blocks):
+        raise ValueError('Regional listing index differs from code blocks')
+    combined, cursor, consumed = [], 0, []
+    for item in segment.source['content_order']:
+        if item['type'] != 'block' or item['id'] not in blocks:
+            continue
+        block = blocks[item['id']]
+        rows = [r for r in supplied if r['block_id'] == block['id']]
+        if [r.get('region_id') for r in rows] != block['region_ids']:
+            raise ValueError('Regional listing order differs from block regions')
+        start = cursor
+        for row in rows:
+            region = row['region_id']
+            if (row.get('download') != 'listing.txt' or row[START] != cursor or
+                row.get('scan') != segment.assets.get(region)):
+                raise ValueError('Regional listing range or scan differs')
+            value = span(row, segment.listing)
+            expected = segment.correction.get('regional_transcription', {}).get(region)
+            if not isinstance(expected, str) or value != expected + '\n':
+                raise ValueError('Regional listing differs from source transcription')
+            cursor = row[END]
+            consumed.append(row)
+        if segment.listing[start:cursor] != block['text'].encode():
+            raise ValueError('Regional listing does not cover its code block')
+        combined.append(dict(block_id=block['id'], region_ids=block['region_ids'],
+                             download='listing.txt', **{START: start, END: cursor}))
+    if consumed != supplied or cursor != len(segment.listing):
+        raise ValueError('Regional listing order or complete byte coverage differs')
+    return combined, True
+
+
 def namespace(segment):
     source, correction = deepcopy(segment.source), deepcopy(segment.correction)
     for key, allowed in [('regions', segment.regions), ('excluded_regions', segment.regions),
@@ -125,6 +162,7 @@ def namespace(segment):
         revised = segment.references({k: v for k, v in row.items() if k != 'scan'})
         revised.update(id=segment.identity(row['id'], segment.regions), source_id=row['id'], scan=row['scan'])
         correction['records'].append(revised)
+    correction['listing_index'], _ = block_listing_index(segment)
     for key in ('listing_index', 'glyph_definitions', 'unresolved_graphics'):
         correction[key] = [segment.references({k: v for k, v in row.items() if k != 'scan'}) |
                            ({'scan': row['scan']} if 'scan' in row else {}) for row in correction.get(key, [])]
@@ -173,6 +211,34 @@ def verify_outgoing_prose(context, following, row):
     # the single resolved boundary. Keep the outgoing declaration as provenance.
 
 
+def legacy_outgoing_prose(context, following, row):
+    """Validate the early boundary format without changing its source record."""
+    required = {'region_id', 'block_id', 'ending', 'next_pdf_page',
+                'next_printed_page', 'next_scan_opening', 'status'}
+    if (set(row) != required or row['status'] != 'next-segment-required' or
+        following is None or not isinstance(row['ending'], str) or not row['ending']):
+        raise ValueError('Unrecognized legacy prose continuation')
+    blocks = [b for b in context.source['blocks'] if b['id'] == row['block_id'] and
+              row['region_id'] in b['region_ids'] and b['kind'] == 'prose']
+    if len(blocks) != 1 or not blocks[0]['text'].endswith(row['ending']):
+        raise ValueError('Legacy continuation differs from source block')
+    links = [r for r in following.correction.get('segment_continuations', [])
+             if r.get('kind') == 'prose' and r.get('prior_segment') == context.name and
+             r.get('prior_region') == row['region_id'] and
+             r.get('text_start') == row['next_scan_opening'] and
+             isinstance(r.get('prior_text_end'), str) and r['prior_text_end'] and
+             row['ending'].endswith(r['prior_text_end'])]
+    if len(links) != 1:
+        raise ValueError('Legacy continuation requires one matching incoming link')
+    pages = [p for p in following.source['pages'] if p['pdf_page'] == row['next_pdf_page']]
+    if len(pages) != 1 or str(pages[0]['printed_page']) != str(row['next_printed_page']):
+        raise ValueError('Legacy continuation differs from printed page')
+    return dict(kind='prose', status='deferred-to-next-segment',
+                last_region=row['region_id'], last_source_text=links[0]['prior_text_end'],
+                next_pdf_page=row['next_pdf_page'], next_source_text=row['next_scan_opening'],
+                join_separator=links[0]['join_separator'])
+
+
 def project_indexes(recipe, originals):
     contexts, offset = [], 0
     for spec, (source, correction) in zip(recipe['segments'], originals, strict=True):
@@ -202,6 +268,10 @@ def project_indexes(recipe, originals):
     occurrences, local_rows = Counter(), {}
     for index, context in enumerate(contexts):
         original = context.correction
+        _, regional_listing = block_listing_index(context)
+        if regional_listing:
+            corrections.setdefault('regional_listing_index', []).extend(
+                context.listing_range(row) for row in original['listing_index'])
         for key in ('text_index', 'text_review_items'):
             rows = original.get(key, [])
             if key == 'text_index' and (len(rows) != len(context.blocks) or
@@ -287,6 +357,13 @@ def project_indexes(recipe, originals):
             corrections['listing_anomalies'].append(deepcopy(pair[1]) |
                                                     {k: deepcopy(v) for k, v in row.items() if k not in pair[0]})
         for row in original.get('segment_continuations', []):
+            if 'kind' not in row:
+                following = contexts[index + 1] if index + 1 < len(contexts) else None
+                adapted = legacy_outgoing_prose(context, following, row)
+                verify_outgoing_prose(context, following, adapted)
+                corrections.setdefault('legacy_continuation_adaptations', []).append(
+                    dict(source_segment=context.name, original=deepcopy(row), adapted=adapted))
+                continue
             if row['kind'] != 'prose':
                 continue
             if row.get('status') == 'deferred-to-next-segment':

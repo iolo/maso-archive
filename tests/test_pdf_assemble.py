@@ -3,6 +3,7 @@ from copy import deepcopy
 import json
 from pathlib import Path
 import tempfile
+from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 import zipfile
@@ -256,6 +257,79 @@ class PDFAssemblyTests(unittest.TestCase):
             if change == 'missing': incoming.clear()
             if change == 'duplicate': incoming.append(deepcopy(incoming[0]))
             if change == 'dangling': incoming.append(deepcopy(outgoing))
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
+    def legacy_prose_segments(self):
+        segments = self.prose_segments()
+        segments[0][1]['segment_continuations'] = [dict(region_id='code', block_id='block',
+            ending='전송을 시', next_pdf_page=2,
+            next_printed_page=segments[1][0]['pages'][0]['printed_page'],
+            next_scan_opening='작한다.', status='next-segment-required')]
+        segments[1][1]['segment_continuations'][0]['prior_text_end'] = '시'
+        return segments
+
+    def test_regional_listing_ranges_require_exact_order_text_and_scan_coverage(self):
+        from tools.pdf_restore.assembly_indexes import block_listing_index
+        scan = dict(path='scan.png', sha256='synthetic', bytes=1)
+        values = {'a': '0200 ; 한글', 'b': '0210 RET'}
+        text = ''.join(v + '\n' for v in values.values())
+        middle = len((values['a'] + '\n').encode())
+        rows = [dict(block_id='code', region_id=id, scan=scan, download='listing.txt',
+                     utf8_byte_start=start, utf8_byte_end_exclusive=end)
+                for id, start, end in [('a', 0, middle), ('b', middle, len(text.encode()))]]
+        context = SimpleNamespace(source=dict(blocks=[dict(id='code', kind='code',
+            text=text, region_ids=['a', 'b'])], content_order=[dict(type='block', id='code')]),
+            correction=dict(listing_index=rows, regional_transcription=values),
+            listing=text.encode(), assets={'a': scan, 'b': scan})
+        before = deepcopy(context)
+        combined, regional = block_listing_index(context)
+        self.assertTrue(regional)
+        self.assertEqual(context, before)
+        self.assertEqual(combined, [dict(block_id='code', region_ids=['a', 'b'],
+            download='listing.txt', utf8_byte_start=0, utf8_byte_end_exclusive=len(text.encode()))])
+        for change in ('gap', 'overlap', 'order', 'scan', 'text', 'region', 'block', 'tail'):
+            bad = deepcopy(context)
+            index = bad.correction['listing_index']
+            if change == 'gap': index[1]['utf8_byte_start'] += 1
+            if change == 'overlap': index[1]['utf8_byte_start'] -= 1
+            if change == 'order': index.reverse()
+            if change == 'scan': index[1]['scan'] = dict(scan, path='other.png')
+            if change == 'text': bad.correction['regional_transcription']['b'] = 'changed'
+            if change == 'region': index[1]['region_id'] = 'missing'
+            if change == 'block': bad.source['blocks'][0]['text'] = 'changed'
+            if change == 'tail': bad.listing += b'x'
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                block_listing_index(bad)
+
+    def test_legacy_prose_boundary_preserves_original_and_validates_shorter_suffix(self):
+        segments = self.legacy_prose_segments()
+        original = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, original)
+        self.assertEqual([b['text'] for b in package['blocks']], ['전송을 시', '작한다.'])
+        adaptation = correction['legacy_continuation_adaptations'][0]
+        self.assertEqual(adaptation['original'], original[0][1]['segment_continuations'][0])
+        self.assertEqual(adaptation['adapted']['last_source_text'], '시')
+        self.assertEqual(len(correction['resolved_continuations']), 1)
+
+    def test_legacy_prose_boundary_rejects_unproved_adaptations(self):
+        original = self.legacy_prose_segments()
+        for change in ('ending', 'block', 'region', 'page', 'folio', 'opening', 'suffix',
+                       'missing', 'duplicate', 'unknown-field'):
+            segments = deepcopy(original)
+            row = segments[0][1]['segment_continuations'][0]
+            incoming = segments[1][1]['segment_continuations']
+            if change == 'ending': row['ending'] = 'changed'
+            if change == 'block': row['block_id'] = 'missing'
+            if change == 'region': row['region_id'] = 'missing'
+            if change == 'page': row['next_pdf_page'] = 3
+            if change == 'folio': row['next_printed_page'] = 'wrong'
+            if change == 'opening': row['next_scan_opening'] = 'changed'
+            if change == 'suffix': incoming[0]['prior_text_end'] = 'changed'
+            if change == 'missing': incoming.clear()
+            if change == 'duplicate': incoming.append(deepcopy(incoming[0]))
+            if change == 'unknown-field': row['unrecognized'] = True
             with self.subTest(change=change), self.assertRaises(ValueError):
                 project(self.recipe, segments)
 

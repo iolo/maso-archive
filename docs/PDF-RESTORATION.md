@@ -16,6 +16,16 @@ still checked, including any already-pinned HTML. Optional preview generation
 and preview-specific checks require an explicit `--preview` on the article or
 assembly CLI. Issue export also accepts `--preview` for historical rendering.
 
+The `namespaced-v1` assembly mode also accepts listing indexes split by source
+region within a code block. It verifies region order, scan pins, exact regional
+transcription and complete byte coverage before producing block ranges; the
+global `regional_listing_index` retains each original span and source range.
+An early `next-segment-required` prose record without `kind` is accepted only
+when its source block, ending, following PDF/printed page and unique reviewed
+incoming link agree. `legacy_continuation_adaptations` records that validation;
+the original segment and continuation record remain unchanged. Unknown legacy
+shapes and inconsistent boundaries fail validation.
+
 ## Current data-only commands
 
 ```sh
