@@ -4,24 +4,26 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–06 and feature assembly are complete.
+delivery is required. March batches01–07 and two article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
 packages remain unchanged under segments. Rebuild and85 PDF tests pass.
-Batch06 restores 추리력 테스트 게임40–45:22 regions,16 blocks,two images,
-391 physical code rows and42 unresolved PET graphics markers. Extent40–46 is
-verified. Native recipe/evidence is under batch06/reasoning/revised-final;
-initial and intermediate crops remain preserved. Six regions received one repair
-each. Exact rebuild and79 prior-package checks pass. Page39 is a verified
-non-owning 취미생활 group heading. March has two readable articles,one partial
-article,one group heading and40 unclassified entries; issue closeout is pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-06/next-checkpoint.json`:
-batch07 finishes Apple1400–2490 on46, then continues 모래시계 from47, within
-two articles/six source pages. Assemble the game40–46 after the final segment
-validates. Preserve PET line99/98 uncertainty,duplicate590 and all graphics
-markers; do not repair historical code. The namespaced assembler validates
-the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe
+The full 추리력 테스트 게임40–46 is assembled at
+`build/pdf-restoration/12-1984-03-reasoning`: 24 regions, 17 blocks, two images,
+535 physical rows and 42 unresolved PET graphics markers. Both native segments
+(batch06/reasoning/revised-final and batch07/reasoning) remain unchanged.
+Batch07/hourglass restores complete 모래시계47–50: 18 regions, 13 blocks,
+one image and 376 rows across five implementations. All three exports rebuild
+identically; 80 earlier packages pass read-only preservation checks.
+Page39 is a non-owning 취미생활 group heading. March has four readable articles,
+one group heading and 39 unclassified entries; issue closeout remains pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-07/next-checkpoint.json`:
+batch08 starts 기초 공작실 게임패들의 제작 at51, then candidate 맛있는 사과가
+들어 있어요 at54 if verified extents fit two articles/six source pages.
+Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
+small punctuation marks; do not repair historical code. The namespaced assembler
+validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe
 and validation evidence. Preserve all literal leading zeros, wraps, dump rows,
 uncertainties and source/correction records. No new OCR engine/configuration.
 The active owner goal is to complete all remaining March1984 content.

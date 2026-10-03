@@ -7588,3 +7588,45 @@ history remains in [PROGRESS.md](PROGRESS.md).
   privately. Next batch07 restores46,then 모래시계 from47 within the existing
   two-article/six-source-page ceiling. Assemble game40–46 after the last segment;
   the whole-March goal remains active and the issue export is still pending.
+
+### 2026-10-03 — March batch07: complete reasoning game and hourglass
+
+- Restored the final Apple continuation on printed/PDF46 and complete 모래시계
+  on47–50. Verified51 starts 기초 공작실 게임패들의 제작. Scope: two articles,
+  five source pages and one lookup page. Twenty regional Tesseract tasks finished
+  without failures, crop repairs or retries; the runtime/configuration is unchanged.
+- Reviewed all 520 physical listing rows and source prose. The final game segment
+  has two regions, one code block and 144 rows, including 34 physical wraps.
+  Its 110 numbered rows run1400–2490. Literal wording, open strings, jump targets
+  and uncertain period-like marks remain source-linked; no program repair.
+- 모래시계 is readable/sample-reviewed: 18 regions, 13 ordered blocks, one original
+  screen image and 376 physical rows across Spotlight II, FC-100, SPC-1000, Apple
+  SCRN and Apple logic implementations. Source-number sequences and four wraps
+  reconcile. Preserved missing170, absent THEN tokens, inserted line numbers,
+  and uncertain apostrophe-like marks at SCRN260/750. The lower49 advertisement
+  is excluded. Historical prose claims remain literal; full proofreading deferred.
+- Assembled full 추리력 테스트 게임40–46 into
+  build/pdf-restoration/12-1984-03-reasoning: seven pages, 24 regions, 17 blocks,
+  two images, 535 physical rows, 32 anomaly rows and all 42 unresolved PET graphics
+  markers. Global correction indexes cover ten regional listing ranges. Apple
+  numbered rows1000–2490 are continuous across the complete-row1390/1400 boundary.
+  Eight segment-coverage notes are resolved; all other uncertainty remains.
+- Both original game packages and all their files remain byte-identical under
+  assembly segments. Text, listing, marker, anomaly, scan and raw-OCR indexes pass.
+  Fresh rebuilds of both new native packages and the full game match exactly.
+  Input pins and 80 earlier packages pass read-only preservation checks. No
+  tooling change, repeated full test suite, HTML or browser work was needed.
+- Rendering/cropping10.556s, Tesseract6.201s, task elapsed19.124s. Scan review,
+  transcription and native packaging interval552.405s (9m12.405s), including
+  tool/context waits; this excludes later assembly/closeout and is not active
+  human labor. Stage-specific tokens and verified reviewer settings unavailable;
+  no reviewer-model comparison performed.
+- Native outputs: build/pdf-restoration/12-1984-03-batch-07/{reasoning,hourglass}.
+  Private batch07 holds recipes, review evidence, metrics, validations, exact
+  rebuilds, pre-update ledger and next checkpoint. March now has four readable/
+  sample-reviewed articles, zero partial articles, one group heading and 39 TOC
+  entries awaiting classification/restoration. Canonical identities are unchanged.
+- Next batch08 begins game-paddle construction at51 and may continue the article
+  starting54 after verifying boundaries, within two articles/six source pages.
+  Remaining March bodies, TOC accounting and issue JSON/assets export are pending;
+  the whole-March goal remains active.

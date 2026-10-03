@@ -19,22 +19,23 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–06 and feature assembly are complete: the editorial on
+March batches 01–07 and two article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
 Global correction/listing indexes, exact source copies, identical rebuild and
 all85 PDF tests pass. Uncertain glyphs and proofreading limits remain explicit.
-Batch06 restores 추리력 테스트 게임 on printed/PDF40–45:22 regions,16 blocks,
-two image panels,391 physical listing rows and42 unresolved PET graphics markers.
-Its full extent40–46 is verified; the Apple listing still needs page46. Six
-regions received one crop repair each, with initial evidence preserved. Exact
-rebuild and79 earlier-package preservation checks pass. Page39's 취미생활 is a
-non-owning group heading. March has two readable articles,one partial article,
-one group heading and40 entries awaiting classification/restoration.
-Next batch07 finishes Apple1400–2490 on46 and continues 모래시계 from47,
-within two articles/six source pages. Follow batch06/next-checkpoint.json;
-assemble the complete game40–46 after its final segment validates.
+The complete 추리력 테스트 게임 on printed/PDF40–46 is assembled from two
+immutable segments: 24 regions, 17 blocks, two images, 535 physical listing rows
+and 42 unresolved PET graphics markers. Batch07 also restores the complete
+모래시계 on47–50: 18 regions, 13 blocks, one image and 376 listing rows across
+five implementations. All new packages reproduce byte-identically; 80 earlier
+packages pass preservation checks. Page39's 취미생활 is a non-owning group heading.
+March has four readable/sample-reviewed articles, one group heading and 39
+entries awaiting classification/restoration; the whole issue remains incomplete.
+Next batch08 starts 기초 공작실 게임패들의 제작 at51, then the next candidate
+맛있는 사과가 들어 있어요 at54 if verified extents fit the existing limits.
+Follow private/pdf-restoration/12-1984-03-batch-07/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
