@@ -7396,3 +7396,45 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next: batch03 at printed22/PDF22, section4 한글모아쓰기 프로그램; at most
   six source pages, then the same source review and data validation. Assembly
   and the complete feature extent remain pending.
+
+### 2026-10-03 — March batch 03: Hangul composition and encoding, pages22–27
+
+- Continued the active whole-March goal using the unchanged Tesseract and
+  scan-review pipeline. Verified printed/PDF22–27 and inspected28 only for
+  continuity. Sections4–5 and the beginning of section6 are included; the complete
+  feature extent remains unmapped. This checkpoint does not complete the issue.
+- Initial40 tasks completed. Source review found clipped prose/column edges and
+  a code header spanning two columns. One repair pass changed four regions and
+  separated the header as a new region;36 cached results reused. Both maps and
+  raw attempts remain immutable, with45 unique executed tasks and no failures.
+- Reviewed all41 final regions against the scans, including seven assembly
+  panels and a four-row address example. Delivered21 ordered blocks,eight image
+  panels,nine captions and516 physical listing rows in three groups. Preserved
+  the9053 string wrap,inserted5235/5465 numbers,bare final6250 and absence of5620.
+  Seven prose joins preserve column/page continuity; page27 ends inside 먼/저.
+- Recovered faint headings and clipped prose, address ranges and inequality
+  signs. Preserved both distinct figures numbered15, sideways figure13, original
+  Hangul tables, source ESC/ALT7DH claim, TWO BIT CODE comment and20CEH listing
+  address. Twelve listing anomaly rows are source-linked. The example syllable,
+  damaged header glyphs,O/0 typography and precise title-string hyphen counts
+  remain explicitly uncertain. No execution or inferred program repair.
+- Checked exact region coverage, text and listing byte indexes, anomaly rows,
+  seven prose joins, and byte equality of native/exported raw OCR and scan assets.
+  Fresh rebuild is byte-identical. Source/runtime/TOC pins and75 prior package
+  manifests remain unchanged. Rectangular overlap between adjacent flowcharts
+  and a caption is documented; all owned figure content is retained. No HTML,
+  browser, reader delivery or frontend checks were required.
+- Measured rendering/cropping21.600s, Tesseract13.609s, task elapsed37.428s.
+  After-initial-OCR through crop repair/review/transcription elapsed695.591s,
+  including tool waits, not active human labor. Stage-specific tokens and verified
+  reviewer model settings remain unavailable; this is not a model comparison.
+- Output: build/pdf-restoration/12-1984-03-batch-03/feature. Private checkpoint
+  evidence includes feature/revised/{map,transcription-reviewed,corrections,
+  package-recipe}.json, initial/repaired OCR, metrics, validation, rebuild and the
+  previous issue ledger. The ledger retains all three feature segments, aggregate
+  pages14–27 and explicit latest-segment-only package coverage.
+- March still has one readable editorial,one partial feature and42 entries
+  awaiting classification/restoration. Full proofreading remains deferred at the
+  established sample-reviewed standard. Next batch04 resumes printed28/PDF28;
+  restore at most six source pages, review and validate, then continue toward
+  complete issue accounting and data export. The whole-March goal remains active.

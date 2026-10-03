@@ -4,13 +4,14 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–02 restored the complete editorial and
-feature pages14–21 in two immutable partial segments. Batch02 includes38 regions,
-281 physical listing rows and explicit source anomalies/uncertainties. Resume at
-printed22/PDF22, section4, using
-`private/pdf-restoration/12-1984-03-batch-02/next-checkpoint.json`, with at most
-two articles/six source pages per batch. The feature and issue remain incomplete;
-assembly is pending. Keep both segment packages and their correction evidence.
+delivery is required. March batches01–03 restored the complete editorial and
+feature pages14–27 in three immutable partial segments. Batch03 includes41
+regions and516 physical listing rows. Resume section6 at printed28/PDF28 using
+`private/pdf-restoration/12-1984-03-batch-03/next-checkpoint.json`, with at most
+two articles/six source pages per batch. Join the page27/28 prose fragments
+먼 + 저 without a space. The feature and issue remain incomplete; assembly is
+pending. Retain all three segment packages and their source/correction evidence.
+The active owner goal is to complete all remaining March1984 content.
 Earlier CD handoff details below are historical; they do not cancel this work.
 No reviewer-model comparison has been performed. If the owner changes models,
 record the selection and check a bounded prose/code/figure batch before making
