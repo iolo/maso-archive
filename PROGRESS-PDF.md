@@ -8432,3 +8432,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - March now has **22 readable/sample-reviewed articles,three non-owning group
   headings and19 unclassified entries**. All44 canonical identities preserved.
   Next batch27 verifies/restores 서북편란법 from165. Whole issue remains incomplete.
+
+
+### 2026-10-03 — March batch27: 서북편란법 opening165–170
+
+- Verified article165–173:prose165–168,flowchart169,listing170–173. Next 데이터
+  베이스 패키지174. Six source pages restored;four boundary lookups171–174 reviewed.
+  Final171–173and full immutable assembly remain.
+- Package has44 regions,28 reading blocks,10 original images,eight captions,five
+  searchable tables,70 byte-indexed example/reference rows and six prose boundaries.
+  Tables preserve empty cells,cost/variable pairs and literal values; original images
+  retain cell geometry. Six numbered arrows in table4-2are recorded separately.
+- Joins:165전/부 and165/166프로/그램 without separators;166/167variable list with
+  newline;167공장/으로부터 and167/168공급/능력 without separators;168equations with
+  newline. No text inferred from mathematical meaning or program behavior.
+- Listing preserves69 numbered physical rows10000–10680. Page171starts10690;
+  no split physicalrow. Eleven drawn PRINTstrings10180–10280use unique unresolved
+  markers with source listing/gridimage links. Byte encodings and character counts
+  remain unknown. Header3/8 is ambiguous; no guessed executable grid characters.
+- Sourceprose/flowchart references differ fromlisting line numbers. Duplicate3/6
+  in variable explanation,MODI1,현대,unclosedREADbracket,apparent repeatedC2costrow,
+  S<0condition andTruck/Factoryreversal remain literal. SmallA/Bmarks,MODI1glyph,
+  punctuation and lastC2digit remain uncertain. Decorative star/stringspace counts
+  approximate; execution and character-perfect certification deferred.
+- All34 text regions compared with enlarged scans,including all69 code rows;
+  ten image boundaries/eight captions reviewed. Two source-backed rightedge repairs
+  to r14/r17on166 retain complete strokes; each region repaired once. Initial
+  map,crops and raw OCR retained; engine/settings unchanged.
+- Text/example byte ranges,table provenance,caption links,joins,69 listing rows,
+  eleven graphicmarkers and fresh byte-identical rebuild pass.110 prior native
+  packages and nine assemblies validate unchanged. No tooling changed,so the88-test
+  PDF baseline was not rerun. JSON/assets only; no HTML/browser checks.
+- 46 executed tasks(44initial,two repairs),zero failures:37.057s task time,
+  17.754s render/crop and14.048s OCR. Review interval639.740s includes tool/context
+  waits,not active human labor. Exact backend/stage-token measurements unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-27/northwest`; final recipe under
+  `private/pdf-restoration/12-1984-03-batch-27/northwest/revised`. Private metrics,
+  validation,ledger snapshot and next-checkpoint preserved.
+- March now has **22 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and18 unclassified entries**. All44 identities intact.
+  Next batch28 restores171–173and assembles165–173;within remaining page allowance,
+  may begin next article174after extentverification. Whole issue remains incomplete.

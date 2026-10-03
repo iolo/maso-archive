@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–26 and nine article assemblies are complete.
+delivery is required. March batches01–27 and nine article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -236,11 +236,32 @@ SAVEformula claim,missing quote neararrow162 and WINDOWsemicolon163 retained.
 Printer setup ^CO O/0 is uncertain; no expected printer command substituted.
 Exact native/assembly rebuilds and109 prior package/eight prior assembly checks pass.
 Both native segments remain byte-identical. No tooling changes or repeat88-testbaseline.
-March has22 readable articles,three group headings and19 unclassified entries;
-all44 canonical IDs/titles/parents preserved; complete issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-26/next-checkpoint.json`:
-batch27 verifies 서북편란법 extent beginning165 and restores next<=6sourcepages.
-Keep canonical TOC spelling/title unchanged even where printed typography differs.
+Batch27 restores 서북편란법165–170 at
+`build/pdf-restoration/12-1984-03-batch-27/northwest`:44 regions,28 blocks,10 images,
+eight captions,five searchable tables,70 byte-indexed examples/reference rows,
+69 physical BASIC rows10000–10680 and six prose boundaries. Full extent165–173
+verified;next 데이터 베이스 패키지174. Finalrecipe private batch27/northwest/revised.
+Five table/image overlaps preserve cell geometry while providing searchable values;
+table4-2arrows recorded separately. Blankcells remain blank;table4-1cost/variable
+pairs use slashnotation. Original screens,flowchart and drawn listinggrid retained.
+Eleven rows10180–10280contain unresolvedgraphicsmarkers,each source-linked to both
+listingcrop and gridimage. No inferred byte values or run lengths. Header3/8uncertain.
+Sourceprose/flowchart line numbers differ fromlisting;duplicate3/6variable numbers,
+MODI1,현대,unclosedREADbracket,apparentC2costrow andTruck/Factoryreversal retained.
+SmallA/Bsubscript-like marks,MODI1glyph,prosepunctuation andlastC2digit uncertain.
+Six prose boundaries:165전/부 and165/166프로/그램 no separator;166/167variables newline;
+167공장/으로부터 and167/168공급/능력 no separator;168equations newline.
+r14/r17rightedges widened once each; original evidence preserved. Exact rebuild
+and110 earlier native/nine assembly checks pass; no tooling or OCR configuration change.
+March has22 readable articles,one partial article,three group headings and18
+unclassified entries;all44 canonical identities preserved;complete issue closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-27/next-checkpoint.json`:
+batch28 restores171–173 and assembles165–173; remaining<=3sourcepages may begin
+데이터 베이스 패키지174after extentverification.170ends10680;171starts10690.
+Opening has untyped outgoing listing continuation for block`listing-opening`;
+ending must supply matching incoming kind`listing-block`,prior_segment`opening`,
+prior_block_id`listing-opening`,prior_printed_line10680,printed_line10690,newline.
+Preserve all native bytes and unresolvedmarkers. No physicalrow crosses170/171.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
