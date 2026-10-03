@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–18 and six article assemblies are complete: the editorial on
+March batches 01–19 and seven article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -82,15 +82,22 @@ preserved. Exact rebuild and98 prior native/five assembly preservation checks pa
 Batch18 completes systems106–108 and assembles100–108:100 regions,65 blocks,
 21 original images,29 physical assembly/output rows,17 indexed native examples
 and15 prose boundaries. Both source segments remain immutable; captions1–15 and
-source105/106 word split are checked. Tape109–111 restores49 regions,44 blocks,four original images,
+source105/106 word split are checked. Tape109–111 restores49 regions,44 blocks,
+four original images,
 13 physical listing rows and10 indexed examples; complete extent109–112 verified.
 Seven crop boundaries repaired once each. Native/assembly rebuilds match;99 earlier
 native packages and five assemblies pass preservation checks.
-March has seventeen readable/sample-reviewed articles,one partial article,two group
-headings and24 entries awaiting classification/restoration; the issue is incomplete.
-Next batch19 finishes tape112 and assembles109–112,then may restore up to five
-source pages of 자료구조 from113 after verifying its extent. Follow
-private/pdf-restoration/12-1984-03-batch-18/next-checkpoint.json.
+Batch19 completes tape112 and assembles109–112:67 regions,58 blocks,seven images,
+22 physical listing rows,20 indexed native examples and three prose boundaries.
+Complete 자료 구조113–117 has43 regions,30 blocks,four images,137 physical Pascal/
+PL-I/schematic rows in six groups,13 indexed examples,six prose boundaries and three
+listing-column joins. One prose crop repaired once; historical syntax retained.
+Native/assembly rebuilds match;101 prior native packages and six assemblies pass
+preservation checks. March has nineteen readable/sample-reviewed articles,no partial
+articles,two group headings and23 entries awaiting classification/restoration.
+The issue is incomplete. Next batch20 verifies 기계어 강좌 from118,then restores
+within the existing bounded limits. Follow
+private/pdf-restoration/12-1984-03-batch-19/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

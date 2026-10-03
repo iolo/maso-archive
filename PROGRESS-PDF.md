@@ -8102,3 +8102,49 @@ history remains in [PROGRESS.md](PROGRESS.md).
   parents preserved; whole-issue export pending. Next batch19 finishes tape112 and
   assembles109–112,then may include up to five source pages of 자료구조 from113 after
   verifying its extent. Continue the established two-article/six-source-page limits.
+
+
+### 2026-10-03 — March batch19: complete tape and data structures
+
+- Restored tape112 and assembled complete 자동실행 테이프의 전모109–112.
+  Ending:18 regions,14 blocks,three original images,nine byte-dump rows,10 indexed
+  commands and one column join. Full assembly:67 regions,58 blocks,seven images,
+  22 physical listing rows,20 native indexed examples and three prose boundaries.
+- Retained nine-row SNACK ATTACK dump,all monitor/load/save commands,boxed address
+  placeholders and special screen glyphs. Four unnumbered keyboard/screen captions
+  remain literal;first belongs to the searchable dump. Incoming111/112 prose is
+  linked with one-space semantics in correction metadata;native blocks and text
+  download paragraph separators remain unchanged. No source values invented.
+- Verified and restored complete 자료 구조113–117,ending with six references/star
+  before next 기계어 강좌118.43 regions,30 blocks,four original images,137 physical
+  listing/schematic rows across TEST,BINSRCH,FACT,direct/indirect recursion and PADD;
+  13 indexed prose examples,six prose boundaries and three code-column joins.
+- Retained opening computer photo,two artworks and complete vending-machine flowchart
+  with its unnumbered caption. Sourcebyline한국기술과학기술원,phonepair(a₁,a₂),
+  data struture,pol nomial,38.41,연산지어서 and deletion/complexity claims remain
+  literal. Mathematical subscripts/superscripts useUnicode;compoundexponents use
+  ^(eₘ),with sourcefirstbm and missing-looking intertermplus preserved.
+- Code retains BINSRCH LOW/ER wrap,A(MID),undeclaredJ and unclosed-looking while
+  comment;FACT procedure and smallo;PADD POLINOMIAL,splitcomment opener and¬=.
+  Physical rows and comment hyphens are unchanged. Typographic stars useASCII*;
+  schematic vertical dots use⋮and parameter placeholders·. Smallo/0 is explicitly
+  uncertain. Restoration does not claim execution correctness.
+- Widened data r10prose crop once to recover edge characters. All other crop/text/
+  TSV bytes preserved;engine/configuration unchanged apart from map pin and repaired
+  geometry. Tape needed no repair. Initial evidence remains available privately.
+- Native packages and tape assembly pass full mapped-region coverage,byte indexes,
+  caption links,listing/prose joins,raw evidence hashes and exact fresh rebuilds.
+  Both tape segments copied byte-for-byte.101 earlier native packages and six prior
+  complete assemblies pass read-only preservation checks. No tooling changes or
+  repeat baseline suite;JSON/assets only.
+- 62 executed tasks(61 initial,one repair),zero failures:46.619s aggregate task
+  time,24.147s render/crop,16.298s OCR. Review interval915.332s includes scan review,
+  transcription,packaging and tool/context waits;not active human labor. Stage token
+  counts and exact backend settings unavailable.
+- Outputs `build/pdf-restoration/12-1984-03-batch-19/{tape,data}` and full assembly
+  `build/pdf-restoration/12-1984-03-tape`. Recipes,transcripts,diffs,metrics,validation,
+  assembly validation and next checkpoint remain under private batch19.
+- March now has **19 readable/sample-reviewed articles,0 partial articles,2 non-owning
+  group headings and23 unclassified entries**. All44 canonical IDs,titles and parents
+  preserved;whole-issue export pending. Next batch20 verifies 기계어 강좌 extent from118
+  and continues with unchanged Tesseract/semantic review within established limits.
