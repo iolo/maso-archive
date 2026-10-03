@@ -535,10 +535,20 @@ literal; 년자 and 맬럼 readings marked uncertain. Advertising index has22 en
 56 executed tasks,zero failures,73.2636s task,36.1102s rendering,31.5397s OCR;
 724.1073s review interval includes tool/context waits. Exact rebuilds,byte indexes
 and135 prior native/eighteen assembly checks pass. No tooling change.
-March now36 readable articles,one terminal source-gap partial,five groups,two
-unclassified;all44 identities intact. Follow batch42/next-checkpoint.json:
-restore listed 정보 레이다124–131 in batches43/44, correcting batch21's earlier
-unlisted exclusion; classify0038정보모음 and validate whole-issue JSON/assets.
+Batch43 reconciles canonical0040 정보 레이다 with TOC/source124–131. Earlier
+batch21 unlisted exclusion is superseded only for this listed body; evidence retained.
+Opening124–129:50 regions,33 blocks,ten images (including three specification
+tables),78 indexed examples,seven prose boundaries. No crop repair. Native recipe
+private/pdf-restoration/12-1984-03-batch-43/news; export corresponding build path.
+Printed Proocessing,SCULTTURE,CHRACTER,RAN,IBN versusIBM,운운체계,2류종가 and
+incompleteCTR sequence remain literal; 당살의 reading uncertain. No table-cell
+transcript claim. Outgoing129r50 ends유일하게 마쓰시타가;next130startsPC와 호환성이
+있는 컴퓨터를 발표하였다.;space join.50 tasks,zero failures,60.2416s task,
+30.6694s rendering,22.5070s OCR,339.4123s review interval including waits.
+Exact rebuild,all indexes and137 prior native/eighteen assembly checks pass.
+March now36 readable articles,two partials (terminalwordsourcegap;newsendingpending),
+five groups andone unresolved group. Follow batch43/next-checkpoint.json:
+restore news130–131,assemble124–131,classify0038정보모음 andverify fullissue export.
 Folios diverge after249;never assume PDF numbers equal printed numbers.
 Keep the directory within canonicaltoc0037;physical order differs from TOCorder.
 Continue unchanged Tesseract plus scan-based semantic review within existing

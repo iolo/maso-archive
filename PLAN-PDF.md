@@ -239,10 +239,13 @@ on lower204. Forty regions,31 blocks,four original images,seven standalone BASIC
 rows and78 indexed examples;five prose boundaries. Sixteen one-time crop repairs
 preserve initial evidence. Inline code with its Korean prose tail remains in article
 text. Exact rebuilds and135 prior native/eighteen assembly checks pass.
-March has36 readable articles,one source-gap partial,five groups andtwo unclassified.
-Next follow private/pdf-restoration/12-1984-03-batch-42/next-checkpoint.json:
-reconcile and restore 정보 레이다124–131 in two bounded batches, classify0038
-정보모음, then perform whole-issue accounting and JSON/assets export.
+Batch43 reconciles canonical0040 정보 레이다 with source124–131, superseding the
+earlier unlisted exclusion. Opening124–129 restored:50 regions,33 blocks,ten
+original images,78 indexed examples andseven prose boundaries;no crop repairs.
+Exact rebuild and137 prior native/eighteen assembly checks pass.
+March has36 readable articles,two partials (word-processor source gap;news ending
+pending),five groups andone unresolved group. Follow batch43/next-checkpoint.json:
+restore130–131,assemble124–131,classify0038정보모음,then complete issue export.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

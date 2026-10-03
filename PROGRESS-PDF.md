@@ -9075,3 +9075,27 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - March:36 readable articles,one terminal source-gap partial,five groups,two
   unclassified. Next restore listed 정보 레이다124–131, correcting the earlier
   exclusion; classify 정보모음 and finish whole-issue accounting/export.
+
+### 2026-10-04 — 12-1984-03-batch-43 complete: 정보 레이다 opening
+
+- Corrected the earlier classification:canonical0040 explicitly lists 정보 레이다
+  at124. Source title124,running headers125–131 and ending131 support124–131;
+  132 is a separate unlisted contest notice. Batch21 exclusion evidence remains
+  intact,with a scoped superseding classification review.
+- Restored124–129 within six-source-page/four-lookup-page limits:50 regions,
+  33 blocks,ten original images,78 indexed examples,seven prose boundaries.
+  Three specification tables remain images; no full-cell transcript claim.
+  Product photos andpacket-network illustration retained. No listing/no repairs.
+- Enlarged review preserves source Proocessing,SCULTTURE,CHRACTER,RAN,IBN
+  heading versusIBM body,운운체계,2류종가 andmissingconsonant before은 CTR-ㅅ.
+  당살의 reading remains uncertain. Source prices,compatibility/memory claims,
+  historical addresses andlegal reporting aretranscribed without factual repair.
+- Outgoing129r50 유일하게 마쓰시타가 links to130PC와 호환성이 있는 컴퓨터를
+  발표하였다. withspace. Ending130–131 and immutable article assembly remain.
+- 50 tasks,zero failures;60.2416s task,30.6694s rendering,22.5070s OCR;
+  339.4123s review interval includes tool/context waits. No stage token count.
+  Exact rebuild,all indexes and137 prior native/eighteen assembly preservation
+  checks pass. No pipeline changes;90-test baseline unchanged.
+- March:36 readable articles,two partials (terminalwordsourcegap;newspending),
+  five groups andone unclassified group. Nextbatch44 finishesnews,assembles it,
+  classifies 정보모음,then whole-issue accounting andJSON/assets export.
