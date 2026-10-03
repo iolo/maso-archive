@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–22 and seven article assemblies are complete: the editorial on
+March batches 01–23 and seven article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -110,13 +110,18 @@ Batch22 restores regression140–145:67 regions,51 blocks,eight original images,
 eight prose boundaries and six searchable plot captions. Literal source errors
 and uncertain punctuation retained. Two prose crop repairs,one per region;exact
 rebuild and105 prior native/seven assembly preservation checks pass.
-March has twenty readable and one partial/sample-reviewed articles,three group
-headings and20 entries awaiting classification/restoration. Business133 is the
-third non-owning group heading; unlisted news124–131 and notice132 are excluded.
-Regression134–145 is restored in two immutable segments;146–154 and full assembly
-remain. The issue is incomplete. Next batch23 restores regression146–151 within
-existing bounded limits.
-Follow private/pdf-restoration/12-1984-03-batch-22/next-checkpoint.json.
+Batch23 restores regression 146–151: 24 regions, 13 blocks, two original flowchart
+panels, 558 physical listing rows in three groups, 73 indexed example/reference
+rows, two prose boundaries and seven listing boundaries. One right-edge crop
+repair retains HOME on line 3400. Literal errors and damaged glyphs remain explicit.
+Exact rebuild and 106 prior native/seven assembly preservation checks pass.
+March has twenty readable and one partial/sample-reviewed articles, three group
+headings and 20 entries awaiting classification/restoration. Business 133 is the
+third non-owning group heading; unlisted news 124–131 and notice 132 are excluded.
+Regression 134–151 is restored in three immutable segments; 152–154 and full
+assembly remain. The issue is incomplete. Next batch24 restores regression
+152–154 and assembles the complete 134–154 article within existing bounded limits.
+Follow private/pdf-restoration/12-1984-03-batch-23/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

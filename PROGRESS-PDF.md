@@ -8274,3 +8274,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   both immutable segments and aggregate134–145 coverage. All44 canonical IDs,titles
   and parents preserved;whole-issue export pending. Next batch23 restores146–151
   within established bounds using unchanged Tesseract/semantic review.
+
+
+### 2026-10-03 — March batch23: regression examples, reference and listing 146–151
+
+- Restored six pages146–151 of verified134–154 심층적 회귀분석. Lookup152
+  confirms listing continuation4220 after4215; no physical row split. Earlier
+ 134–145 remain immutable; final152–154 and full article assembly remain.
+- Package has24 regions,13 blocks,two original flowchart panels,558 indexed
+  physical listing rows in three groups and73 byte-indexed example/reference rows.
+  DATA examples contain21 rows(15 numbered,six wraps); main BASIC10–4215 contains
+  537 rows(315 numbered,222 wraps/blank rows). Two prose boundaries and seven
+  listing boundaries joined explicitly. The main listing group remains partial.
+- Tire example DATA annotations retain source box/arrow associations. Equations,
+  prose vectors and DATA disagree; printed data count0 and reported solution
+  remain literal. Range11000–119000,(XX)inverse,duplicate variable22,L*3=H retained.
+  Variable reference joins across the intervening flowchart page for reading order.
+- Both flowchart panels retain source labels and inconsistencies: D(I,0)=0 versus
+  listing121=1,averageJ=1–10,repeatedb0,missingNF,and summary6000versus600.
+  No invented caption,figure number or diagram reconstruction.
+- Historical code syntax/variables/spelling remain literal,including J TN,
+  TRNSGENERATED,TRANSGENETED,SG,RQ,NL>0C7,malformed831,D(I,J)on1140 and
+  B(NV-J)on4080. Partially erased IF NF > on758,Fdenominator,ND/NO and O/0
+  glyphs remain explicit uncertainties. No statistical repair or program execution.
+- One source-backed crop repair widens r24 right edge to retain full HOME on3400.
+  Initial/intermediate evidence preserved. All24 mapped regions reviewed against
+  enlarged scans; both image boundaries checked. No engine/configuration changes.
+- Text/listing/example byte indexes,regional coverage,joins,raw/source hashes and
+  fresh byte-identical rebuild pass.106 prior native packages and seven assemblies
+  pass preservation checks. No tooling changes; JSON/assets only.
+- 25 executed tasks(24 initial,one repair),zero failures:29.261s task time,
+  16.051s render/crop and10.363s OCR. Review interval1049.944s includes tool/context
+  waits,not active human labor. Exact backend/stage-token metrics unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-23/regression`; final recipe under
+  `private/pdf-restoration/12-1984-03-batch-23/regression/revised`. Transcripts,
+  correction evidence,metrics,validation and next-checkpoint record remain private.
+- March remains **20 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and20 unclassified entries**. All44 canonical IDs,
+  titles and parents preserved. Ledger retains three immutable regression segments
+  with aggregate134–151 coverage. Next batch24 restores152–154 and assembles the
+  article. Complete issue restoration/export remains pending.

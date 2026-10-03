@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–22 and seven article assemblies are complete.
+delivery is required. March batches01–23 and seven article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -175,14 +175,28 @@ Screen quote-like mark,repeated9count and small punctuation remain uncertain.
 Final recipe is private batch22/regression/revised. r13right and r35left/right
 edges widened once;originals kept. Exact rebuild and105 prior native/seven assembly
 preservation checks pass. No OCR configuration change or historical program execution.
-March has20 readable articles,one partial article,three group headings and20
-unclassified entries; all44 canonical IDs/titles/parents preserved;issue closeout pending.
-Regression ledger now retains both native segments and aggregate coverage134–145.
-Next follow `private/pdf-restoration/12-1984-03-batch-22/next-checkpoint.json`:
-batch23 maps/restores146–151.146begins tireDATA9000,then simultaneous-equation
-example and program structure. No code row crosses145/146.146–154 and full134–154
-assembly remain;article ends154 beforeVISICALC155. Opening139/140boundary also
-starts a new example step,without a carried row or prose fragment.
+Batch23 restores regression 146–151 at
+`build/pdf-restoration/12-1984-03-batch-23/regression`: 24 regions, 13 blocks,
+two original flowchart panels, 558 physical listing rows and 73 byte-indexed
+example/reference rows. Two DATA groups contain 21 rows (15 numbered, six wraps);
+main BASIC 10–4215 contains 537 rows (315 numbered, 222 wraps/blank rows).
+Two prose joins reunite line descriptions and variable reference; seven listing
+joins retain physical rows. Main listing continues with 4220 on page 152.
+Printed equation/prose/DATA disagreements, data count 0, range 119000, duplicate
+variable 22, L*3=H, flowchart D(I,0)=0 and branch 6000 remain literal. Code J TN,
+TRNSGENERATED, TRANSGENETED, SG, RQ, missing THEN on759, malformed831, D(I,J)
+on1140 and B(NV-J) on4080 are not repaired. Damaged IF NF > on758, F denominator,
+ND/NO and O/0 glyphs remain uncertain. No execution verification.
+Final recipe is private batch23/regression/revised. r24 right edge widened once
+for complete HOME on3400; original evidence retained. Exact rebuild and106 prior
+native/seven assembly preservation checks pass. No OCR configuration change.
+March has20 readable articles, one partial article, three group headings and20
+unclassified entries; all44 canonical IDs/titles/parents preserved; issue closeout pending.
+Regression ledger retains three native segments and aggregate coverage134–151.
+Next follow `private/pdf-restoration/12-1984-03-batch-23/next-checkpoint.json`:
+batch24 restores final152–154 and assembles all134–154. Main listing continues
+4215/4220 across151/152 with a newline and no split physical row. Article ends154
+before VISICALC155. Earlier139/140 and145/146 boundaries have no carried row/prose.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
