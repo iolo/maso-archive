@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–08 and two article assemblies are complete: the editorial on
+March batches 01–09 and two article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -32,13 +32,16 @@ and 42 unresolved PET graphics markers. Batch07 also restores the complete
 five implementations. Batch08 completes game-paddle construction on51–53
 (29 regions,18 blocks,eight numbered diagrams) and the apple-counting game on54–55
 (11 regions,nine blocks,one photograph,80 BASIC rows). Three prose joins and all
-figure captions are source-reviewed. Both new packages reproduce byte-identically;
-83 earlier packages pass preservation checks. Page39's 취미생활 is a non-owning
-group heading. March has six readable/sample-reviewed articles, one group heading
-and 37 entries awaiting classification/restoration; the whole issue remains incomplete.
-Next batch09 starts canonical 올 인원 at56 (printed heading 홀 인 원), then
-candidate 팽이 놀이 at61 if verified extents fit the existing limits.
-Follow private/pdf-restoration/12-1984-03-batch-08/next-checkpoint.json.
+figure captions are source-reviewed. Batch09 completes 올 인원 (printed 홀 인 원)
+on56–60:18 regions,12 blocks,two images and360 physical BASIC rows (113 numbered,
+247 continuations). Two cross-boundary wraps and uncertain glyphs remain explicit.
+The new package reproduces byte-identically;85 earlier packages pass preservation
+checks. Page39's 취미생활 is a non-owning group heading. March has seven readable/
+sample-reviewed articles,one group heading and36 entries awaiting classification/
+restoration; the whole issue remains incomplete.
+Next batch10 starts 팽이 놀이 at61, then candidate 사냥게임 at64 if verified
+extents fit the existing limits. Follow
+private/pdf-restoration/12-1984-03-batch-09/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

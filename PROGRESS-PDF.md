@@ -7667,3 +7667,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   include 팽이 놀이 from61 within the two-article/six-source-page limit. Remaining
   March bodies,TOC accounting and whole-issue JSON/assets export are pending;
   the whole-March goal remains active.
+
+### 2026-10-03 — March batch09: complete mini-golf article56–60
+
+- Verified and restored the complete mini-golf article on printed/PDF56–60.
+  Retained canonical TOC title 올 인원 and actual source heading 홀 인 원.
+  Looked at61–62: the distinct 팽이 놀이 article continues beyond its first page.
+  Scope was one article,five source pages,two lookup pages. Tesseract unchanged.
+- Delivered readable/sample-reviewed JSON/assets:18 regions,12 ordered blocks,
+  two complete original images (game screen and golfer photograph),and360 physical
+  BASIC rows. All113 numbered rows100–1220 and247 continuation rows reconcile.
+  Every prose/table region and nonempty code row was compared with enlarged scans.
+  Physical wraps remain in the transcription with normalized continuation indentation;
+  exact source spacing and decorative backgrounds remain available in scan evidence.
+- Code860 continues from59 onto60;1040 continues between60's columns. Explicit
+  boundary records preserve both wraps and prevent leading19/13 in their continuation
+  rows from becoming false line numbers. Seventeen anomaly rows retain source links.
+  Source table1130–1770 differs from the listing's1170 and is deliberately retained.
+  Literal PRINT CS,AP,HH > -6 and unusual prose remain unchanged. Code650's period-like
+  mark and1150's F/P glyph remain uncertain; no historical-code repairs or execution.
+- Repaired two clipped crop boundaries once each: first code column's right edge
+  and page59 right column's bottom continuation. All18 initial tasks and two repair
+  executions completed without OCR failure. Original/intermediate evidence remains
+  immutable under golf/,golf/revised/ and final golf/revised-final/.
+- Native source coverage,text/listing byte indexes,all physical rows,anomaly records,
+  two cross-boundary continuations,source/raw OCR pins and figure boundaries pass.
+  Fresh JSON/assets rebuild matches byte for byte. Original and repaired evidence
+  copies match their pinned files;85 prior packages pass read-only preservation checks.
+  The private closeout validator was corrected to check OCR evidence against its
+  evidence manifest and external runtime reference,not an article-package contract.
+  No tracked tooling change or repeated full test suite;85-test baseline unchanged.
+- Rendering/cropping22.204s,Tesseract10.426s,total task elapsed33.940s,including
+  the two repair tasks. Review,transcription and native packaging interval584.519s
+  (9m44.519s),including tool/context waits,not active human labor. Stage-specific
+  tokens and verified reviewer settings unavailable; no model comparison performed.
+- Output: build/pdf-restoration/12-1984-03-batch-09/golf. Private checkpoint holds
+  recipes,review evidence,metrics,validation,exact rebuild,pre-update ledger and
+  next checkpoint. March now has seven readable/sample-reviewed articles,zero
+  partial articles,one group heading and36 TOC entries awaiting classification/
+  restoration. All44 canonical identities remain unchanged; no HTML work.
+- Next batch10 restores 팽이 놀이 from61 and may begin 사냥게임 from64 after
+  verifying article boundaries,within two articles/six source pages. Full proofreading,
+  remaining March bodies,TOC accounting and whole-issue JSON/assets export remain
+  pending; the whole-March goal remains active.

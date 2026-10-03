@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–08 and two article assemblies are complete.
+delivery is required. March batches01–09 and two article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -17,14 +17,18 @@ Batch07/hourglass restores complete 모래시계47–50: 18 regions, 13 blocks,
 one image and 376 rows across five implementations. Batch08 completes paddle
 construction51–53 (29 regions,18 blocks,eight numbered diagrams) and apple-counting
 54–55 (11 regions,nine blocks,one photograph,80 BASIC rows). Both packages rebuild
-identically; all text/listing/figure indexes,three prose joins and83 earlier package
-preservation checks pass. Printed program anomalies and historical claims remain
-literal; full proofreading and executable-code validation are not claimed.
-Page39 is a non-owning 취미생활 group heading. March has six readable articles,
-one group heading and 37 unclassified entries; issue closeout remains pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-08/next-checkpoint.json`:
-batch09 starts canonical 올 인원 at56 (source heading 홀 인 원), then candidate
-팽이 놀이 at61 if verified extents fit two articles/six source pages.
+identically; all text/listing/figure indexes and three prose joins pass.
+Batch09/golf completes canonical 올 인원 (printed 홀 인 원)56–60:18 regions,
+12 blocks,two images and360 physical BASIC rows (113 numbered,247 continuations).
+Native review recipe is under `batch-09/golf/revised-final`; originals and two
+once-repaired crops remain preserved. Code860 crosses59/60;1040 crosses columns.
+Source table1770,PRINT CS,AP and uncertain650 period/1150 F/P remain literal.
+Rebuild is byte-identical and85 earlier packages pass read-only preservation checks.
+Page39 is a non-owning 취미생활 group heading. March has seven readable articles,
+one group heading and36 unclassified entries; issue closeout remains pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-09/next-checkpoint.json`:
+batch10 starts 팽이 놀이 at61, then candidate 사냥게임 at64 within two articles/
+six source pages after verifying extents. Source61–62 already visually inspected.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe
