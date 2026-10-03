@@ -243,9 +243,13 @@ Batch43 reconciles canonical0040 정보 레이다 with source124–131, supersed
 earlier unlisted exclusion. Opening124–129 restored:50 regions,33 blocks,ten
 original images,78 indexed examples andseven prose boundaries;no crop repairs.
 Exact rebuild and137 prior native/eighteen assembly checks pass.
-March has36 readable articles,two partials (word-processor source gap;news ending
-pending),five groups andone unresolved group. Follow batch43/next-checkpoint.json:
-restore130–131,assemble124–131,classify0038정보모음,then complete issue export.
+Batch44 completes news130–131 and assembles124–131:68 regions,48 blocks,ten
+original images,139 indexed native examples,ten native prose boundaries andone
+cross-segment continuation. Exact native/assembly rebuilds and138 prior native/
+eighteen assembly checks pass. Canonical0038정보모음 is a non-owning group.
+All44 TOC entries are classified:38 articles (37 readable andone terminal
+word-processor source-gap partial) andsix groups. Whole-issue JSON/assets export
+and final accounting are next;follow batch44/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

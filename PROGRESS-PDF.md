@@ -9099,3 +9099,25 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - March:36 readable articles,two partials (terminalwordsourcegap;newspending),
   five groups andone unclassified group. Nextbatch44 finishesnews,assembles it,
   classifies 정보모음,then whole-issue accounting andJSON/assets export.
+
+### 2026-10-04 — 12-1984-03-batch-44 complete: news ending and final group
+
+- Restored news130–131:18 regions,15 blocks,61 indexed examples,three prose
+  joins;no figures/listing/crop repair. Two source pages,two lookups. Literal
+  source쓰쓰끼(鈴木則久),IRM×/XENI×,초전도로,스톱 위치,호완성이,의도작이다
+  preserved. Unicodecross/RomanIII notation declared;no factual modernization.
+- Full124–131 assembly preserves bothnativepackages:68regions,48blocks,ten
+  originalimages,139indexednativeexamples,tennativeproseboundaries andone
+  cross-segmentPanasoniclink. Four scope notes resolved;sourceuncertaintyremains.
+  Build output:build/pdf-restoration/12-1984-03-news.
+- Classified canonical0038정보모음 asnon-owningparent ofsix separatelyrestored
+  bodies,usingcanonicalhierarchy andexisting sourceevidence. Noindependentbody
+  ordivider invented. All44 canonicalidentities/order/parents remainunchanged.
+- 18tasks,zero failures;23.4354s task,10.7436s rendering,11.4743s OCR;
+  275.3758s reviewinterval includes tool/contextwaits. Exactnative/assemblyrebuilds,
+  indexes and138priornative/eighteenassemblypreservationcheckspass. No pipeline
+  changes orrepeatedtests;90-testbaselinecurrent.
+- March now37readablearticles,one terminalwordprocessor source-gap partial,
+  sixgroups,zero unresolvedeligibility. Allavailableeligiblecontent isrestored.
+  Next:recompute aggregateledgercounts andverify standalonewholeissueJSON/assets
+  export. Printed250–251 remainabsent;no inventedcontinuation.

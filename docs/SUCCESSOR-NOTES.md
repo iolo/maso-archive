@@ -546,9 +546,19 @@ transcript claim. Outgoing129r50 ends유일하게 마쓰시타가;next130startsP
 있는 컴퓨터를 발표하였다.;space join.50 tasks,zero failures,60.2416s task,
 30.6694s rendering,22.5070s OCR,339.4123s review interval including waits.
 Exact rebuild,all indexes and137 prior native/eighteen assembly checks pass.
-March now36 readable articles,two partials (terminalwordsourcegap;newsendingpending),
-five groups andone unresolved group. Follow batch43/next-checkpoint.json:
-restore news130–131,assemble124–131,classify0038정보모음 andverify fullissue export.
+Batch44 completes news130–131:18 regions,15 blocks,61 indexed examples,three
+prose boundaries,no images/listings/repairs.18 tasks,zero failures,23.4354s task,
+10.7436s rendering,11.4743s OCR,275.3758s review interval including waits.
+Printed쓰쓰끼(鈴木則久),IRM×/XENI×,초전도로,스톱 위치,호완성이 and의도작이다
+retained. Sourceforecasts andprices notindependentlyverified. Native recipe/export
+batch44/news. Fullassembly build/pdf-restoration/12-1984-03-news preserves both
+segments:8pages,68regions,48blocks,tenimages,139nativeexamples,tennativeprosejoins,
+one cross-segment Panasonic link andfour resolved scope notes. Exact rebuilds and
+138 prior native/eighteen assembly checks pass. Group0038정보모음 classifies as
+non-owning parent of six separate bodies;no separate body/divider invented.
+All44 entries classified:38 articles (37readable,one terminalwordsourcegap),six
+groups. Follow batch44/next-checkpoint.json forwholeissueJSON/assets accounting/
+export. Recompute stale rootcounts from44 authoritativeentries duringcloseout.
 Folios diverge after249;never assume PDF numbers equal printed numbers.
 Keep the directory within canonicaltoc0037;physical order differs from TOCorder.
 Continue unchanged Tesseract plus scan-based semantic review within existing
