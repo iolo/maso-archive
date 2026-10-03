@@ -8314,3 +8314,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   titles and parents preserved. Ledger retains three immutable regression segments
   with aggregate134–151 coverage. Next batch24 restores152–154 and assembles the
   article. Complete issue restoration/export remains pending.
+
+
+### 2026-10-03 — March batch24: complete regression134–154
+
+- Restored final152–154 of 심층적 회귀분석. Lookup155 confirms Visicalc begins;
+  no missing page is inferred from the printed program's defects. The source ends
+  at19420 without19430/RETURN and lacks a numbered18000routine; no code supplied.
+- Ending package has seven regions,two blocks,427 physical rows(298 numbered,
+  129 wraps/blank rows),five explicit listing boundaries and one indexed DATA label.
+  Printed12125 spans153columns;15040 spans153/154. DATA9000–9050spans152columns;
+  box/arrow label remains separately searchable. No figures invented.
+- Literal GOSUB1200,missing operator10100,K/Z11400,FR=0,SG,doublecolon,
+  INDEPENT,VARINCE,FITED and T1reuse retained. Small separator marks on12090 and
+  quote-like13190mark remain uncertain. Repeated decorative rules normalized;
+  exact typography/spacing remains scan-authoritative. No program execution.
+- r06 left edge widened once to recover lower154line-number digits. Original
+  evidence preserved. All seven mapped text regions compared with enlarged scans;
+  no Tesseract configuration changes.
+- Complete assembly `build/pdf-restoration/12-1984-03-regression` contains21pages,
+  163regions,127blocks,12images and1,256 physical listing rows across four immutable
+  native segments. Eight superseded scope/assembly notes resolved by exact text;
+  source glyph,punctuation,math and proofreading uncertainties remain explicit.
+- Added a narrowly validated namespaced listing-block continuation adapter for
+  the saved batch23 outgoing record. It checks numbered row endpoints,adjacent
+  page/download boundaries,block identities,newline separator and matching incoming
+  evidence. It links4215/4220reading blocks without changing source bytes or
+  combining physical rows. Historical typed code-fragment declarations unchanged.
+- Preservation checking caught an initially overbroad outgoing-record match;
+  restricted dispatch to untyped listing records and added regression coverage for
+  historical typed code fragments. All88 PDF tests now pass,including invalid
+  incoming/outgoing link cases. No engine changes or frontend/HTML work.
+- Native and assembly fresh byte-identical rebuilds pass;all107 prior packages and
+  seven prior assemblies validate unchanged. The four regression native packages,
+  raw OCR,map/settings,crops,corrections and indexes remain byte-for-byte preserved.
+- Eight tasks(seven initial,one repair),zero failures:15.696s task time,8.831s
+  render/crop and5.686s OCR. Scan-review/transcription/segment packaging interval
+  473.066s includes tool/context waits. Backend/stage-token metrics unavailable.
+- March now has **21 readable/sample-reviewed articles,three non-owning group
+  headings and20 unclassified entries**;all44 canonical IDs/titles/parents preserved.
+  Whole-issue restoration/export remains pending. Next batch25 verifies and restores
+  Visicalc의 활용 beginning155 using unchanged Tesseract and semantic review.

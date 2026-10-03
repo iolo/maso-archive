@@ -239,6 +239,45 @@ def legacy_outgoing_prose(context, following, row):
                 join_separator=links[0]['join_separator'])
 
 
+def verify_listing_blocks(context, following, row):
+    """Link adjacent numbered rows without merging or rewriting either block."""
+    required = {'block_id', 'direction', 'next_pdf_page', 'next_printed_line',
+                'join_separator', 'note'}
+    if (set(row) != required or row['direction'] != 'outgoing' or
+        row['join_separator'] != '\n' or following is None or
+        type(row['next_pdf_page']) is not int or type(row['next_printed_line']) is not int):
+        raise ValueError('Invalid outgoing listing block continuation')
+    left = [b for b in context.source['blocks'] if b['kind'] == 'code']
+    right = [b for b in following.source['blocks'] if b['kind'] == 'code']
+    a = context.correction.get('listing_line_index', [])
+    z = following.correction.get('listing_line_index', [])
+    if (not left or not right or not a or not z or left[-1]['id'] != row['block_id'] or
+        not a[-1].get('printed_line_visible') or not z[0].get('printed_line_visible') or
+        a[-1].get('block_id') != left[-1]['id'] or z[0].get('block_id') != right[0]['id'] or
+        z[0]['printed_line'] != row['next_printed_line'] or
+        a[-1][END] != len(context.listing) or z[0][START] != 0 or
+        not context.listing.endswith(b'\n') or
+        max(p['pdf_page'] for p in context.source['pages']) + 1 != row['next_pdf_page'] or
+        min(p['pdf_page'] for p in following.source['pages']) != row['next_pdf_page']):
+        raise ValueError('Listing block continuation differs from source boundary')
+    region = next(r for r in following.source['regions'] if r['id'] == z[0]['region_id'])
+    if region['pdf_index'] + 1 != row['next_pdf_page']:
+        raise ValueError('Listing continuation differs from first row source page')
+    links = [r for r in following.correction.get('segment_continuations', [])
+             if r.get('kind') == 'listing-block' and r.get('prior_segment') == context.name]
+    expected = dict(kind='listing-block', prior_segment=context.name,
+                    prior_block_id=left[-1]['id'], block_id=right[0]['id'],
+                    prior_printed_line=a[-1]['printed_line'], printed_line=z[0]['printed_line'],
+                    join_separator='\n')
+    if len(links) != 1 or {k: v for k, v in links[0].items() if k != 'note'} != expected:
+        raise ValueError('Listing block continuation requires matching incoming evidence')
+    return dict(kind='listing-block', status='linked-reading-blocks',
+                prior_block_id=context.identity(left[-1]['id'], context.blocks),
+                block_id=following.identity(right[0]['id'], following.blocks),
+                prior_printed_line=a[-1]['printed_line'], printed_line=z[0]['printed_line'],
+                join_separator='\n', text_normalized=False)
+
+
 def project_indexes(recipe, originals):
     contexts, offset = [], 0
     for spec, (source, correction) in zip(recipe['segments'], originals, strict=True):
@@ -357,6 +396,20 @@ def project_indexes(recipe, originals):
             corrections['listing_anomalies'].append(deepcopy(pair[1]) |
                                                     {k: deepcopy(v) for k, v in row.items() if k not in pair[0]})
         for row in original.get('segment_continuations', []):
+            if 'kind' not in row and row.get('direction') == 'outgoing':
+                following = contexts[index + 1] if index + 1 < len(contexts) else None
+                corrections['resolved_continuations'].append(verify_listing_blocks(context, following, row))
+                continue
+            if row.get('kind') == 'listing-block':
+                if index == 0 or row.get('prior_segment') != contexts[index - 1].name:
+                    raise ValueError('Listing block continuation has no prior segment')
+                prior = contexts[index - 1]
+                outgoing = [r for r in prior.correction.get('segment_continuations', [])
+                            if 'kind' not in r and r.get('direction') == 'outgoing']
+                if len(outgoing) != 1:
+                    raise ValueError('Listing block continuation requires one outgoing declaration')
+                verify_listing_blocks(prior, context, outgoing[0])
+                continue
             if 'kind' not in row:
                 following = contexts[index + 1] if index + 1 < len(contexts) else None
                 adapted = legacy_outgoing_prose(context, following, row)

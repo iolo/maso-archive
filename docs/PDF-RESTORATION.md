@@ -1486,6 +1486,14 @@ The combined `corrections.json` provides:
   evidence is explicitly labelled as original. `segments[].original_metadata`
   retains numbering reviews, policies and any additional review metadata.
 
+For a listing that continues with a new numbered row in the next segment,
+`namespaced-v1` also validates an outgoing block declaration against a matching
+incoming `kind: "listing-block"` record. Both numbered endpoints must belong to
+the adjacent listing boundaries, the source pages must be consecutive, and the
+separator must be a newline. The resolved link preserves separate reading blocks
+and physical rows; it does not assert program completeness or execution validity.
+Historical `kind: "code"` declarations still use the existing carried-row checks.
+
 Each original package, including its complete corrections, remains byte-for-byte
 under `segments/<name>/`. `segments[].original_corrections` links its portable pin.
 Carried-line verification checks the prior manifest, listing and correction hashes,

@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–23 and seven article assemblies are complete.
+delivery is required. March batches01–24 and eight article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -190,13 +190,28 @@ ND/NO and O/0 glyphs remain uncertain. No execution verification.
 Final recipe is private batch23/regression/revised. r24 right edge widened once
 for complete HOME on3400; original evidence retained. Exact rebuild and106 prior
 native/seven assembly preservation checks pass. No OCR configuration change.
-March has20 readable articles, one partial article, three group headings and20
-unclassified entries; all44 canonical IDs/titles/parents preserved; issue closeout pending.
-Regression ledger retains three native segments and aggregate coverage134–151.
-Next follow `private/pdf-restoration/12-1984-03-batch-23/next-checkpoint.json`:
-batch24 restores final152–154 and assembles all134–154. Main listing continues
-4215/4220 across151/152 with a newline and no split physical row. Article ends154
-before VISICALC155. Earlier139/140 and145/146 boundaries have no carried row/prose.
+Batch24 restores regression152–154 at
+`build/pdf-restoration/12-1984-03-batch-24/regression`: seven regions, two blocks,
+427 physical rows (298 numbered,129 wraps/blank rows) and one indexed DATA label.
+Five source boundaries joined with newline;12125 wraps across153columns and15040
+across153/154. One r06 left-edge repair recovers lower154line-number digits.
+Literal GOSUB1200,missing operator10100,K/Z11400,SG,doublecolon,INDEPENT,
+VARINCE,FITED and T1reuse remain. Small punctuation12090/13190 remains uncertain.
+Printed program ends19420 without19430/RETURN; missing18000routine not supplied.
+Complete regression assembly `build/pdf-restoration/12-1984-03-regression` contains
+21 pages134–154,163 regions,127 blocks,12 images and1,256 physical listing rows.
+All four native packages retained byte-for-byte. Native/assembly exact rebuilds,
+107 prior packages and seven prior assemblies pass. Full88 PDF tests pass.
+The namespaced adapter validates the untyped outgoing listing-block record saved
+in batch23 against batch24 incoming `kind: listing-block`. It links separate
+4215/4220 reading blocks without changing rows or asserting execution validity.
+Historical `kind: code` fragment declarations remain handled by existing checks.
+All source uncertainties remain; only eight superseded extent/assembly notes resolved.
+March has21 readable/sample-reviewed articles,three group headings and20
+unclassified entries; all44 canonical IDs/titles/parents preserved;issue closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-24/next-checkpoint.json`:
+batch25 verifies extent and restores Visicalc의 활용 beginning155. The155opening
+is visually confirmed; map the next<=6sourcepages within established bounds.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain

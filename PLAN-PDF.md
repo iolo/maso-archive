@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–23 and seven article assemblies are complete: the editorial on
+March batches 01–24 and eight article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -115,13 +115,17 @@ panels, 558 physical listing rows in three groups, 73 indexed example/reference
 rows, two prose boundaries and seven listing boundaries. One right-edge crop
 repair retains HOME on line 3400. Literal errors and damaged glyphs remain explicit.
 Exact rebuild and 106 prior native/seven assembly preservation checks pass.
-March has twenty readable and one partial/sample-reviewed articles, three group
-headings and 20 entries awaiting classification/restoration. Business 133 is the
-third non-owning group heading; unlisted news 124–131 and notice 132 are excluded.
-Regression 134–151 is restored in three immutable segments; 152–154 and full
-assembly remain. The issue is incomplete. Next batch24 restores regression
-152–154 and assembles the complete 134–154 article within existing bounded limits.
-Follow private/pdf-restoration/12-1984-03-batch-23/next-checkpoint.json.
+Batch24 restores regression 152–154: seven regions, two blocks and 427 physical
+listing rows. One left-edge crop repair recovers line-number digits. Full regression
+134–154 is now assembled from four immutable segments: 21 pages, 163 regions,
+127 blocks, 12 images and 1,256 listing rows. Exact native/assembly rebuilds and
+107 prior package/seven prior assembly checks pass. A narrowly validated listing
+block continuation adapter preserves the 4215/4220 boundary; all 88 PDF tests pass.
+March has twenty-one readable/sample-reviewed articles, three group headings and
+20 entries awaiting classification/restoration. Business 133 is the third non-owning
+group heading; unlisted news 124–131 and notice 132 are excluded. The issue remains
+incomplete. Next batch25 verifies and restores Visicalc의 활용 beginning on155.
+Follow private/pdf-restoration/12-1984-03-batch-24/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

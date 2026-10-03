@@ -395,6 +395,77 @@ class PDFAssemblyTests(unittest.TestCase):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 project(self.recipe, segments)
 
+    def listing_block_segments(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.rich_segments()
+        for i, (source, correction) in enumerate(segments):
+            text = f'{10 + i * 10} PRINT "' + ('한글' if i == 0 else '이어짐') + '"\n'
+            source['blocks'][0]['text'] = text
+            correction['blocks'] = deepcopy(source['blocks'])
+            correction['regional_transcription'] = {'code': text}
+            start, end = block_ranges(source)['block']
+            correction['text_index'][0].update(utf8_byte_start=start, utf8_byte_end_exclusive=end)
+            correction['text_review_items'] = correction['listing_anomalies'] = []
+            correction['listing_index'][0].update(utf8_byte_start=0, utf8_byte_end_exclusive=len(text.encode()))
+            part = dict(region_id='code', scan=source['region_assets'][0]['asset'],
+                        utf8_byte_start=0, utf8_byte_end_exclusive=len(text.encode()))
+            correction['listing_line_index'] = [dict(**part, listing_id='program', block_id='block',
+                printed_line=10 + i * 10, printed_line_visible=True, physical_line=1,
+                download='listing.txt', segments=[deepcopy(part)])]
+        page = segments[1][0]['pages'][0]['pdf_page']
+        segments[0][1]['segment_continuations'] = [dict(block_id='block', direction='outgoing',
+            next_pdf_page=page, next_printed_line=20, join_separator='\n', note='Next numbered row')]
+        segments[1][1]['segment_continuations'] = [dict(kind='listing-block', prior_segment='opening',
+            prior_block_id='block', block_id='block', prior_printed_line=10, printed_line=20,
+            join_separator='\n', note='No split physical row')]
+        return segments
+
+    def test_listing_block_boundary_preserves_separate_rows_and_native_records(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.listing_block_segments()
+        original = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, original)
+        self.assertEqual(text_bytes(package)[1], b''.join(text_bytes(p)[1] for p, _ in original))
+        self.assertEqual([r['printed_line'] for r in correction['logical_listing_line_index']], [10, 20])
+        self.assertEqual(correction['resolved_continuations'], [dict(kind='listing-block',
+            status='linked-reading-blocks', prior_block_id='opening-block', block_id='continuation-block',
+            prior_printed_line=10, printed_line=20, join_separator='\n', text_normalized=False)])
+        self.assertEqual(correction['segment_continuations'][0]['original'],
+                         original[0][1]['segment_continuations'][0])
+
+    def test_listing_block_boundary_rejects_unproved_or_mismatched_links(self):
+        original = self.listing_block_segments()
+        for change in ('page', 'number', 'block', 'separator', 'missing', 'duplicate',
+                       'incoming-number', 'incoming-prior', 'orphan', 'unknown', 'unnumbered'):
+            segments = deepcopy(original)
+            outgoing = segments[0][1]['segment_continuations'][0]
+            incoming = segments[1][1]['segment_continuations']
+            if change == 'page': outgoing['next_pdf_page'] += 1
+            if change == 'number': outgoing['next_printed_line'] += 1
+            if change == 'block': outgoing['block_id'] = 'missing'
+            if change == 'separator': outgoing['join_separator'] = ''
+            if change == 'missing': incoming.clear()
+            if change == 'duplicate': incoming.append(deepcopy(incoming[0]))
+            if change == 'incoming-number': incoming[0]['prior_printed_line'] = 99
+            if change == 'incoming-prior': incoming[0]['prior_segment'] = 'missing'
+            if change == 'orphan': segments[0][1]['segment_continuations'].clear()
+            if change == 'unknown': outgoing['invented'] = True
+            if change == 'unnumbered': segments[1][1]['listing_line_index'][0]['printed_line_visible'] = False
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
+    def test_listing_block_adapter_leaves_historical_code_fragment_declarations_unchanged(self):
+        segments = self.rich_segments()
+        _, expected = project(self.recipe, segments)
+        for direction, (_, correction) in zip(('outgoing', 'incoming'), segments):
+            correction['segment_continuations'] = [dict(kind='code', direction=direction,
+                listing_id='program', printed_line=10, region_id='code', text_normalized=False)]
+        _, actual = project(self.recipe, segments)
+        self.assertEqual(actual['resolved_continuations'], expected['resolved_continuations'])
+        for i, row in enumerate(actual['segment_continuations']):
+            self.assertEqual(row['original'], segments[i][1]['segment_continuations'][0])
+
     def test_namespaced_export_rebuild_and_rehashed_index_tamper(self):
         from tools.pdf_restore.assembly_indexes import block_ranges
         for spec in self.recipe['segments']:
