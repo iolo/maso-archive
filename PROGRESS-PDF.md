@@ -7977,3 +7977,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   identities,ordering and parent links are unchanged. Next batch16 restores94–99
   and assembles 컴퓨터와 수92–99. Whole-March accounting/export remains pending;
   the whole-March goal stays active.
+
+
+### 2026-10-03 — March batch16: number systems94–99 and complete92–99 assembly
+
+- Restored ending 컴퓨터와 수94–99 with unchanged local Tesseract and enlarged-scan
+  semantic review:89 mapped regions,44 text blocks,34 original images and43 indexed
+  table/arithmetic rows. Six source pages and lookup100; no crop repair or retry.
+- Joined eleven column/page boundaries and verified the93/94 continuation:
+  `16진수를 10진수` + `로 바꿀 수 있다.`. Original opening92–93 remains byte-identical.
+  Full92–99 assembly has107 regions,55 blocks,36 images and49 indexed native example
+  rows; seventeen prose boundaries including the segment link. No code listing exists.
+- Preserved the erroneous binary/octal conversion table as both image and searchable
+  text. Printed missing formula parenthesis,×18 term,53−23 prose versus53−24 diagram,
+  seven-bit1010110 versus eight-bit diagram,18−A=E,MSB/sign contradictions and
+  negative/positive operand mismatches remain literal. Aligned carry/borrow equations
+  remain original images; no inferred arithmetic or digit-padding correction.
+- Retained caption numbers3,4,5; opening number1 remains unchanged. The uncaptioned
+  conversion table receives no invented caption. Two artwork quotations remain both
+  original images and searchable text; overlap is documented. Tiny mathematical
+  typography remains scan-authoritative; sample-reviewed is not character-perfect.
+- Native text/example byte indexes,caption links,region coverage,raw OCR and scan
+  hashes validate. Native and complete-article exports rebuild byte-identically.
+  Both source segments are copied unchanged into the assembly.97 earlier native
+  packages and four earlier assemblies pass read-only preservation checks.
+- 89 tasks completed on their first attempt:39.112s aggregate task time,including
+  21.721s render/crop and15.116s OCR. Review interval1407.276s includes scan comparison,
+  transcription,packaging and tool/context waits; it is not active human labor.
+  Stage token counts and exact reviewer backend settings are unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-16/numbers`; complete assembly
+  `build/pdf-restoration/12-1984-03-numbers`. Private batch16 retains recipes,
+  transcripts,raw diffs,metrics,validation,assembly validation and next checkpoint.
+  No HTML or browser/frontend work; unchanged tooling does not require rerunning
+  the earlier85-test assembler baseline.
+- March ledger now has **16 readable/sample-reviewed articles,0 partial articles,
+  2 non-owning group headings and26 unclassified entries**,with all44 canonical TOC
+  IDs,titles and parents preserved. Full issue export remains pending.
+  Next batch17 verifies 마이크로 컴퓨터 시스템 입문 from100; TOC next article109
+  is a boundary candidate,not yet a source-verified ending. Continue within the
+  existing two-article/six-source-page limits and Tesseract/semantic-review pipeline.

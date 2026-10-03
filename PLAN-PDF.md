@@ -69,11 +69,17 @@ five indexed monitor commands,seven indexed bit rows and nine prose joins.
 two images,six indexed arithmetic rows and five prose joins. All60 tasks completed
 without repair/retry; native exports rebuild identically and95 prior packages pass
 preservation checks. Source discrepancies remain literal.
-March has fifteen readable/sample-reviewed articles,one partial article,two group
-headings and26 entries awaiting classification/restoration; the issue is incomplete.
-Next batch16 restores 컴퓨터와 수94–99 and assembles92–99 within the existing
-six-source-page limit. Follow
-private/pdf-restoration/12-1984-03-batch-15/next-checkpoint.json.
+Batch16 completes 컴퓨터와 수94–99 and assembles92–99:107 regions,55 blocks,
+36 original images and49 indexed example/table rows preserved in native corrections.
+All89 tasks completed once without crop repair; eleven new column/page joins and
+one cross-segment prose link are checked. Native and assembly rebuilds match;
+97 prior native packages and four prior assemblies pass preservation checks.
+Source mathematical errors and prose/diagram discrepancies remain literal.
+March has sixteen readable/sample-reviewed articles,two group headings and26 entries
+awaiting classification/restoration; the issue is incomplete.
+Next batch17 verifies 마이크로 컴퓨터 시스템 입문 from100 and restores a bounded
+segment within the existing six-source-page limit. Follow
+private/pdf-restoration/12-1984-03-batch-16/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

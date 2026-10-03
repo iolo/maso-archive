@@ -83,14 +83,22 @@ remain source forms. Exponents/base labels/bit indices use Unicode superscripts
 and subscripts. No full code listing appears in either package.
 All60 tasks completed without repair/retry. Both native exports rebuild identically;
 95 prior native packages and four assemblies pass preservation checks.
+Batch16 completes 컴퓨터와 수94–99 and assembles92–99 at
+`build/pdf-restoration/12-1984-03-numbers`:107 regions,55 blocks,36 images and49
+indexed example/table rows in the unchanged native corrections. Ending has89
+regions,44 blocks,34 images,43 indexed rows and eleven prose boundaries. The exact
+openingr18/endingr01 continuation is linked with no separator. All89 tasks completed
+once without repair. Native/assembly rebuilds match;97 prior natives and four prior
+assemblies pass preservation. Source conversion-table errors,unmatched formula,
+operand/sign contradictions and seven-bit diagram row remain literal. Figure numbers
+1,3,4,5 remain source numbering; uncaptioned table is not given an invented caption.
 Page39 취미생활 and81 교육입문 are non-owning group headings; promotional80
-has no independent article body. March has fifteen readable articles,one partial
-article,two group headings and26 unclassified entries; closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-15/next-checkpoint.json`:
-batch16 restores remaining 컴퓨터와 수94–99,then assembles92–99 with immutable
-batch15/numbers. Full lookup94–100 reviewed; next article begins100. Openingr18
-ends `16진수를 10진수`; incoming94 begins `로 바꿀 수 있다.` with no join space.
-Match the outgoing prose continuation in corrections when restoring the ending.
+has no independent article body. March has sixteen readable articles,two group
+headings and26 unclassified entries; issue closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-16/next-checkpoint.json`:
+batch17 verifies 마이크로 컴퓨터 시스템 입문 from100,then restores within the
+six-source-page limit. TOC next article is109; inspect source boundaries before
+assuming100–108. Lookup100 already reviewed. No new engine/configuration.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe
