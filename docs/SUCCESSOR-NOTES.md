@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–34 and fifteen article assemblies are complete.
+delivery is required. March batches01–35 and sixteen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -393,11 +393,28 @@ legacy string-valued numbers unchanged.89 PDFtests pass. Exactnative/assembly
 rebuilds and122 earlier native/fourteen assembly preservation checks pass.
 43 tasks,zero failures,no repairs:85.798s tasktime,49.812s render/crop,31.744s OCR;
 928.171s reviewinterval includes tool/context waits.
-March now28 readable,onepartial,fourgroups,11unclassified;all44 identities intact.
-Next follow `private/pdf-restoration/12-1984-03-batch-34/next-checkpoint.json`:
-batch35 completesinterface214–217and assembles210–217,thenmaybeginshape218–219
-within sixsourcepages after verifyingextent. Incomingproseprior_segmentopening,
-prior_regionr28,prior_text_end끼칠수→214도있다.;joinseparatornone.
+Batch35/interface completes214–217:30 regions,14 blocks,five diagrams with
+captions2–6,eleven prose boundaries. SourceXONASCII16/XOFFASCII18,CTS/RTScondition,
+repeated송신clause,CD20pin andgroundingclaims remain literal;꺾자로consonantuncertain.
+Full `build/pdf-restoration/12-1984-03-interface` covers210–217:58 regions,
+27 blocks,12 images,eight linkedcaptions,19nativeproseboundaries andonecrosssegment
+readinglink수도. Nativeblocks stayseparate;four obsolete scope notes resolved.
+Batch34outgoingnoteomittednext_source_text. Acheckedadapterusestheunique reviewed
+incominglink,page/folio/separatorandactualtextvalidation;originalnote/packageunchanged.
+Adaptationstoredinassemblycorrections.outgoing_prose_adaptations.90PDFtests pass.
+Batch35/shape opens218–219ofverified218–227:18 regions,11 blocks,four images,
+six searchable vector-table rows andthree prose boundaries.○/●preserved;table
+andtitleart intentionallyoverlap transcripts. Originaldiagramreferencedasfigure1
+hasnoseparateprintedcaption;noneinvented. Sourcebinaryvalues/claimsretained.
+Finalrecipes private batch35/interface andbatch35/shape;no revised directories.
+No crop repairs or OCRsettingschanges. Nativeandassemblyexactrebuilds and124earlier
+native/fifteenassemblypreservationchecks pass.
+48 tasks,zero failures:59.955s tasktime,31.167s render/crop,25.022s OCR;
+696.210s reviewinterval includes tool/context waits.
+March now29 readable,onepartial,fourgroups,10unclassified;all44 identities intact.
+Next follow `private/pdf-restoration/12-1984-03-batch-35/next-checkpoint.json`:
+batch36 restores shape220–225;226–227andfull218–227assemblyfollow.
+219endscompletebinaryexampleparagraph;220newparagraph,nophysicaltextcarry.
 Wholeissue remains incomplete.
 Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck
 정보레이다124–131againstcanonicaltoc0040. Earlierbatch21unlistedexclusionmay

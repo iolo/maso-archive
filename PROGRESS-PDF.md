@@ -8764,3 +8764,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Nextbatch35 completesinterface214–217andassembles210–217;shape218follows.
   Wholeissue incomplete. Listedadvertisingindex204and정보레이다124–131classification
   reconciliation remain explicitly queued before issue closeout.
+
+
+### 2026-10-03 — March batch35: interface assembled; shape-table article opened
+
+- Restored214–219 within six source pages/two articles. Five lookup pages213,
+  220,226–228confirm boundaries. Shape article runs218–227;nextA/Darticle228.
+- Interface ending214–217:30 regions,14 blocks,five original diagrams with
+  captions2–6and11 prose boundaries. Active-low bars retained with combiningU+0305;
+  original connector/timing labels remain image-authoritative.
+- Preserved XONASCII16/XOFFASCII18,CTS/RTScondition,repeated송신clause without
+  an inferred DCE clause,CD20pin,historicalgroundingclaims andsourceend□.
+  꺾자로consonantform is explicitly uncertain. Technical contradictions uncorrected.
+- Complete210–217assembly:58 regions,27 blocks,12 images,eight linked captions,
+  19 native prose boundaries andone crosssegment readinglink.213끼칠수→214도있다.
+  joins with no separator in metadata;native textblocks andbytes remain unchanged.
+  Four obsolete scope notes resolved;both original segments preserved.
+- Previous outgoing note omitted next_source_text. A narrow adapter obtains it
+  from the unique reviewed incoming declaration only when priorregion/suffix,
+  nextpage/folio andseparator agree. Existing checks verify actual text andadjacency.
+  Original metadata stays immutable;assembly records outgoing_prose_adaptations.
+  Regression fixture covers preservation andnine invalid cases. All90 PDFtests pass;
+  log private batch35/tests-final.log.
+- Shape opening218–219:18 regions,11 blocks,four original images,21 indexed
+  examples including six searchable vector-table rows,andthree prose boundaries.
+  Title/subtitle andtable intentionally duplicate sourceimage content for search.
+  Hollow○/filled●symbols andbinaryleadingzeros retained. Vector diagram referenced
+  asfigure1has no separate printedcaption;none invented. Dropcap애rejoined.
+- Preserved source세째,벡터점,indexdescription,vectorsequence and111011110ninebit
+  example.219ends a completeparagraph;220starts a new paragraph,no physical carry.
+  Final220–227andfull218–227assemblyremain. No program listing in this segment.
+- All39 text regions andnine image boundaries compared with enlarged scans.
+  No crop repairs or OCRsettingschanges. Nativeandassemblyexports rebuild exactly;
+  indexes,joins,captions,rawbytes andsettingspins pass.124 earlier native packages
+  and15 earlier assemblies validate unchanged. JSON/assets only.
+- 48 executed tasks,zero failures:59.955s tasktime,31.167s render/crop,25.022s OCR.
+  Review interval696.210s includes tool/context waits,not active human labor.
+  Exact backend/stage-token measurements unavailable.
+- Outputs `build/pdf-restoration/12-1984-03-batch-35/{interface,shape}` and
+  `build/pdf-restoration/12-1984-03-interface`. Finalrecipes private batch35/interface
+  andbatch35/shape;no revised directories. Metrics,validation andledger saved.
+- March now has **29 readable/sample-reviewed articles,one partial article,four
+  non-owning group headings and10 unclassified entries**. All44 identities intact.
+  Nextbatch36 restores shape220–225;226–227andfullassemblyfollow. Wholeissue
+  incomplete. Advertisingindex204and정보레이다124–131classification reconciliation
+  remain queued before issue closeout.

@@ -243,6 +243,37 @@ class PDFAssemblyTests(unittest.TestCase):
             status='linked-reading-blocks', prior_block_id='opening-block',
             block_id='continuation-block', join_separator='', text_normalized=False)])
 
+    def test_outgoing_prose_missing_opening_uses_reviewed_link_and_preserves_native_note(self):
+        segments = self.prose_segments()
+        outgoing = segments[0][1]['segment_continuations'][0]
+        outgoing.pop('next_source_text')
+        outgoing.update(direction='outgoing', join_separator='',
+                        next_printed_page=segments[1][0]['pages'][0]['printed_page'])
+        original = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, original)
+        self.assertEqual([b['text'] for b in package['blocks']], ['전송을 시', '작한다.'])
+        self.assertEqual(correction['outgoing_prose_adaptations'], [dict(
+            source_segment='opening', original=outgoing,
+            adapted=outgoing | {'next_source_text': '작한다.'})])
+        self.assertEqual(len(correction['resolved_continuations']), 1)
+        for change in ('page', 'printed-page', 'separator', 'missing', 'duplicate',
+                       'prefix', 'suffix', 'direction', 'empty-opening'):
+            invalid = deepcopy(original)
+            note = invalid[0][1]['segment_continuations'][0]
+            incoming = invalid[1][1]['segment_continuations']
+            if change == 'page': note['next_pdf_page'] = 3
+            if change == 'printed-page': note['next_printed_page'] = 'wrong'
+            if change == 'separator': note['join_separator'] = ' '
+            if change == 'missing': incoming.clear()
+            if change == 'duplicate': incoming.append(deepcopy(incoming[0]))
+            if change == 'prefix': incoming[0]['text_start'] = 'wrong'
+            if change == 'suffix': note['last_source_text'] = incoming[0]['prior_text_end'] = 'wrong'
+            if change == 'direction': note.pop('direction')
+            if change == 'empty-opening': note['next_source_text'] = ''
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, invalid)
+
     def test_outgoing_prose_requires_matching_page_link_and_actual_text(self):
         original = self.prose_segments()
         for change in ('page', 'region', 'outgoing-text', 'incoming-text', 'missing', 'duplicate', 'dangling'):

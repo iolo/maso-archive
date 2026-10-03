@@ -240,6 +240,25 @@ def legacy_outgoing_prose(context, following, row):
                 join_separator=links[0]['join_separator'])
 
 
+def outgoing_prose_opening(context, following, row):
+    """Recover an omitted opening field from one reviewed incoming declaration."""
+    if (following is None or row.get('direction') != 'outgoing' or
+        'next_source_text' in row or 'prior_segment' in row):
+        raise ValueError('Incomplete outgoing prose note requires a reviewed incoming link')
+    links = [r for r in following.correction.get('segment_continuations', [])
+             if r.get('kind') == 'prose' and r.get('prior_segment') == context.name and
+             r.get('prior_region') == row.get('last_region') and
+             r.get('prior_text_end') == row.get('last_source_text')]
+    pages = [p for p in following.source['pages'] if p['pdf_page'] == row.get('next_pdf_page')]
+    if (len(links) != 1 or len(pages) != 1 or
+        str(pages[0]['printed_page']) != str(row.get('next_printed_page')) or
+        'join_separator' not in row or row['join_separator'] != links[0].get('join_separator')):
+        raise ValueError('Incomplete outgoing prose note differs from incoming evidence')
+    # The normal outgoing and incoming passes still validate the region, page,
+    # actual block suffix/prefix, and adjacency before accepting the assembly.
+    return deepcopy(row) | {'next_source_text': links[0].get('text_start')}
+
+
 def verify_listing_blocks(context, following, row):
     """Link adjacent numbered rows without merging or rewriting either block."""
     required = {'block_id', 'direction', 'next_pdf_page', 'next_printed_line',
@@ -425,7 +444,12 @@ def project_indexes(recipe, originals):
                 continue
             if row.get('status') == 'deferred-to-next-segment':
                 following = contexts[index + 1] if index + 1 < len(contexts) else None
-                verify_outgoing_prose(context, following, row)
+                adapted = row
+                if 'next_source_text' not in row:
+                    adapted = outgoing_prose_opening(context, following, row)
+                    corrections.setdefault('outgoing_prose_adaptations', []).append(
+                        dict(source_segment=context.name, original=deepcopy(row), adapted=adapted))
+                verify_outgoing_prose(context, following, adapted)
                 continue
             if index == 0 or row['prior_segment'] != contexts[index - 1].name:
                 raise ValueError('Prose continuation has no prior segment')

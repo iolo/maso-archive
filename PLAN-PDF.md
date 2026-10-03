@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–34 and fifteen article assemblies are complete: the editorial on
+March batches 01–35 and sixteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -180,11 +180,19 @@ indexes while preserving existing string indexes. All89 PDF tests pass.
 Interface210–213ofverified210–217 has28 regions,13 blocks,seven images andeight
 prose boundaries. Active-low overbars and the two-panel road spread are preserved.
 No crop repairs;exact rebuild and preservation checks cover122 earlier native
-packages and fourteen assemblies. March has twenty-eight readable andone partial
-article,four group headings and11 entries awaiting classification/restoration.
-Next batch35 completes interface214–217 and assembles210–217;shape218follows
-within existing batch limits after extent verification. Whole March remains incomplete.
-Follow private/pdf-restoration/12-1984-03-batch-34/next-checkpoint.json.
+packages and fourteen assemblies.
+Batch35 completes interface214–217 and assembles210–217:58 regions,27 blocks,
+12 images,eight linked captions and19 native prose boundaries. The213/214수도
+reading link preserves native bytes;an adapter records the omitted opening field
+in the earlier outgoing note using the reviewed incoming link. All90 PDFtests pass.
+Shape218–219ofverified218–227 has18 regions,11 blocks,four images,a searchable
+six-row vector table andthree prose boundaries.220–227andassemblyremain.
+No crop repairs;exact rebuild and preservation checks cover124 earlier native
+packages and fifteen assemblies. March has twenty-nine readable andone partial
+article,four group headings and10 entries awaiting classification/restoration.
+Next batch36 restores shape220–225;226–227andfull218–227assemblyfollow.
+Whole March remains incomplete.
+Follow private/pdf-restoration/12-1984-03-batch-35/next-checkpoint.json.
 Before issue closeout, restore listed advertisingindex204 separately and recheck
 정보레이다124–131 against canonicaltoc0040; earlier exclusion needs reconciliation.
 The active objective is all remaining March content, not one bounded checkpoint.
