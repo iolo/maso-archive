@@ -8395,3 +8395,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings and19 unclassified entries**. All44 canonical IDs,
   titles and parents preserved. Next batch26 restores161–164 and assembles VisiCalc;
   complete issue restoration/export remains pending.
+
+
+### 2026-10-03 — March batch26: complete VisiCalc155–164
+
+- Restored final161–164:30 regions,18 reading blocks,eight original images,seven
+  captions,22 byte-indexed command/key examples and four prose boundaries. The
+  prose ends163; unnumbered command chart164 completes the article. Boundary165
+  confirms next 서북편란법. No carried prose/command row crosses160/161.
+- Enlarged scans confirm161/162입/력 with no separator,162LOADcolumns with a space,
+  162/163DIF explanation with newline,and163WINDOWcolumns with a space. Printed
+  STORAGEinitialization,SAVEformula claim,missing quote neararrow162 and window
+  switching semicolon163 retained. Printer setup ^CO retains explicit O/0 ambiguity.
+- Preserved chart164 with lossless clockwise90 correction before cropping; original
+  PDF geometry and correction provenance remain recorded. Its title is searchable;
+  inner labels,branches and vendor mark remain the original image. No full chart
+  transcription or executable command verification claimed. Screens remain images.
+- One source-backed r30 crop repair recovers leftmost labels and surrounding margin;
+  initial map/image preserved. Other29 regions reuse unchanged evidence. All22 text
+  regions compared with enlarged source crops; all eight image boundaries and seven
+  captions checked. No OCR engine/configuration or tooling change.
+- Complete `build/pdf-restoration/12-1984-03-visicalc` assembles two immutable natives:
+  10 pages,99 regions,57 blocks,31 images,25 captions and69 native indexed examples.
+  Four obsolete scope/assembly notes resolved; glyph/proofreading limits retained.
+  No listing.txt because command examples are explanatory prose,not program listings.
+- Native and full assembly rebuild byte-identically. Source/region pins,OCR/settings,
+  text/example byte ranges,caption links and joins pass. All109 prior native packages
+  and eight prior assemblies validate unchanged. Existing88-test PDF baseline was
+  not rerun because no tooling changed. JSON/assets only; no HTML/browser checks.
+- 31 executed tasks(30 initial,one repair),zero failures:23.498s task time,
+  13.467s render/crop and8.589s OCR. Review interval410.216s includes tool/context
+  waits,not active human labor. Exact backend/stage-token measurements unavailable.
+- Native output `build/pdf-restoration/12-1984-03-batch-26/visicalc`; recipe under
+  `private/pdf-restoration/12-1984-03-batch-26/visicalc/revised`. Private validation,
+  assembly recipe,metrics,ledger snapshot and next-checkpoint retained.
+- March now has **22 readable/sample-reviewed articles,three non-owning group
+  headings and19 unclassified entries**. All44 canonical identities preserved.
+  Next batch27 verifies/restores 서북편란법 from165. Whole issue remains incomplete.

@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–25 and eight article assemblies are complete: the editorial on
+March batches 01–26 and nine article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -125,11 +125,16 @@ Batch25 restores VisiCalc155–160: 69 regions,39 blocks,23 original images,
 18 captions,47 indexed command/key examples and seven prose boundaries. Six
 regions widened once each; initial/intermediate evidence retained. Exact rebuild
 and108 prior package/eight assembly checks pass; no tooling or engine changes.
-March has twenty-one readable and one partial/sample-reviewed articles,three group
-headings and19 entries awaiting classification/restoration. VisiCalc spans155–164,
-including the sideways command chart164; nextarticle 서북편란법 begins165.
-The issue remains incomplete. Next batch26 restores161–164 and assembles VisiCalc.
-Follow private/pdf-restoration/12-1984-03-batch-25/next-checkpoint.json.
+Batch26 completes VisiCalc161–164 and assembles155–164 from two immutable
+segments:99 regions,57 blocks,31 original images and69 indexed native command/key
+examples. The ending has30 regions,18 blocks,eight images,seven captions and four
+prose boundaries. Chart164 is upright after a lossless clockwise90 rotation; one
+boundary repair recovers its leftmost labels. Exact native/assembly rebuilds and
+109 prior package/eight prior assembly checks pass. No tooling or engine changes.
+March has twenty-two readable/sample-reviewed articles,three group headings and19
+entries awaiting classification/restoration. The issue remains incomplete.
+Next batch27 verifies and restores 서북편란법 beginning165.
+Follow private/pdf-restoration/12-1984-03-batch-26/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

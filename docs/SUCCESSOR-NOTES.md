@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–25 and eight article assemblies are complete.
+delivery is required. March batches01–26 and nine article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -221,13 +221,26 @@ Final recipe is private batch25/visicalc/final. Two repair rounds affect six dis
 regions once each: r14left,r18left,r33bottom,r07leftframe,r26/r31captionleft.
 Initial and intermediate evidence preserved. Exact rebuild and108 prior packages/
 eight assemblies pass; no tooling changes or repeat88-testbaseline required.
-March has21 readable articles,one partial article,three group headings and19
-unclassified entries; all44 canonical IDs/titles/parents preserved;issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-25/next-checkpoint.json`:
-batch26 restores final161–164 and assembles complete VisiCalc155–164. Page163ends
-prose; sideways command chart164 belongs toarticle. Next 서북편란법165 confirmed.
-160ends a complete printing paragraph pointing to161figure15; no split command or
-prose row. Preview scans161–165 retained;166/167were rendered but not used for review.
+Batch26 completes VisiCalc161–164 and assembles155–164 at
+`build/pdf-restoration/12-1984-03-visicalc`:10 pages,99 regions,57 reading blocks,
+31 images,25 source captions and69 indexed examples preserved in native metadata.
+Ending package `build/pdf-restoration/12-1984-03-batch-26/visicalc` has30 regions,
+18 blocks,eight images,seven captions,22 indexed examples and four prose boundaries.
+Final recipe is private batch26/visicalc/revised. Only r30 was widened once to
+recover leftmost command-chart labels. Page164 uses recorded lossless clockwise90
+orientation correction; original PDF geometry retained. Chart title is searchable,
+inner labels/branches remain an original image. No full chart transcript claimed.
+161/162입/력 joins without separator;162LOADcolumnswithspace;162/163DIFwithnewline;
+163WINDOWcolumnswithspace. No carried fragment at160/161. Printed STORAGEinitialization,
+SAVEformula claim,missing quote neararrow162 and WINDOWsemicolon163 retained.
+Printer setup ^CO O/0 is uncertain; no expected printer command substituted.
+Exact native/assembly rebuilds and109 prior package/eight prior assembly checks pass.
+Both native segments remain byte-identical. No tooling changes or repeat88-testbaseline.
+March has22 readable articles,three group headings and19 unclassified entries;
+all44 canonical IDs/titles/parents preserved; complete issue closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-26/next-checkpoint.json`:
+batch27 verifies 서북편란법 extent beginning165 and restores next<=6sourcepages.
+Keep canonical TOC spelling/title unchanged even where printed typography differs.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
