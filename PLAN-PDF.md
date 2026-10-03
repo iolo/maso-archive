@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–28 and ten article assemblies are complete: the editorial on
+March batches 01–29 and eleven article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -142,11 +142,17 @@ preserved. Database174–176 of verified174–177 restores26 regions,16 blocks,
 five images,67 indexed example rows and five prose boundaries. One syntax-crop
 edge repaired once. Both natives/full assembly rebuild identically;111 prior
 packages and nine prior assemblies validate unchanged.
-March has twenty-three readable and one partial/sample-reviewed articles,three
-group headings and17 entries awaiting classification/restoration. The issue remains
-incomplete. Next batch29 restores database177 and assembles174–177; next article
-의료보험수가계산프로그램 begins178,extent still to verify.
-Follow private/pdf-restoration/12-1984-03-batch-28/next-checkpoint.json.
+Batch29 completes database177 and assembles174–177:31 regions,18 blocks,
+six original images and93 indexed native example rows;seven prose boundaries.
+Medical178–182 of verified178–185 restores46 regions,27 blocks,15 original
+images,eleven linked headings and four prose boundaries. One database syntax-crop
+repair;both natives and assembly rebuild identically.113 earlier native packages
+and ten earlier assemblies validate unchanged.
+March has twenty-four readable and one partial/sample-reviewed articles,three
+group headings and16 entries awaiting classification/restoration. The issue remains
+incomplete. Next batch30 restores medical183–185 and assembles178–185; UPDATE
+begins186,extent still to verify.
+Follow private/pdf-restoration/12-1984-03-batch-29/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

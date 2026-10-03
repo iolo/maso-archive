@@ -8514,3 +8514,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings and17 unclassified entries**. All44 identities intact.
   Next batch29 restores database177,assembles174–177,and may begin medical178within
   remaining page allowance after extentverification. Whole issue remains incomplete.
+
+
+### 2026-10-03 — March batch29: database completed; medical opening
+
+- Restored database177 and medical178–182 within six-page/two-article limit.
+  Five lookup pages183–187confirm medical178–185,nextUPDATE186;UPDATEextentunknown.
+- Database ending hasfive regions,two blocks,one original outputscreen,26 indexed
+  example rows and two columnjoins. Searchable structuretable retains00040record
+  count,NEME,00077total and blankDECcells. DISPAY,DELETEexpressions missingclosing
+  angle,and early DISPLAYclosingquotation remain literal. One r04rightedge crop
+  repair recoversINSERTclosingquote;originalevidence preserved,engine unchanged.
+- Full database174–177 assembly has31 regions,18 blocks,six images,93 indexed
+  native examples and seven prose boundaries. Both native segments unchanged;
+  four obsolete scope notes resolved.176introduces177screen without carriedtext.
+- Medical opening has46 regions,27 blocks,15 images and eleven linked source
+  diagram/form headings. Two originalartworks,five system/workflow diagrams,eight
+  forms/menus retained. Inner labels and dashedblankruns remain image-authoritative;
+  explanatory text and headings searchable. No programlisting intheseopeningpages.
+- Four prose joins:178부/딪쳐 no separator;178/179이에 따른 withspace;
+  181/182outpatientstatistics and182inpatientoutline acrosscolumns withnewlines.
+  Dropcap19recombinedwith70as1970.182endsdischarge②효과;183opensitslist,
+  ㄱ. 보험 수가의 자동계산. Outgoingtypedprosecontinuation recordsnewline.
+- Source하청(?),규정(?),시어비스,학사관리,재래환자,축출and발생주의법 retained.
+  Smallconsonant in부딪쳐,apostrophe-like markafter화면 and damaged182listlabel
+  (apparentㄷbefore뇌파,not inferredㅍ) remain uncertain. Historicalclaims transcribed
+  without present-dayverification;character-perfect certification deferred.
+- All35 textregions and16 imageboundaries reviewed enlarged. Native and assembly
+  rebuilds byte-identical;byteindexes,captions,joins,OCR/settings/source pins pass.
+  All113 earlier native packages and ten prior assemblies validate unchanged.
+  No toolingchanged;existing88-test PDFbaseline notrerun. JSON/assets only.
+- 52 executed tasks(51initial,one repair),zero failures:66.698s task time,
+  40.395s render/crop and21.791s OCR. Review interval487.039s includes tool/context
+  waits,not active human labor. Exact backend/stage-token measurements unavailable.
+- Outputs `build/pdf-restoration/12-1984-03-batch-29/{database,medical}` and
+  `build/pdf-restoration/12-1984-03-database`. Finalrecipes private
+  batch29/database/revised and batch29/medical. Metrics,validation and ledger retained.
+- March now has **24 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and16 unclassified entries**. All44 identities intact.
+  Next batch30 restores medical183–185,assembles178–185,and may begin UPDATE186
+  within remaining allowance afterextentverification. Whole issue remains incomplete.
