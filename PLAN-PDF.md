@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–13 and four article assemblies are complete: the editorial on
+March batches 01–14 and four article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -58,11 +58,16 @@ Batch13 completes 당신도 암산왕77–78 (14 regions,11 blocks,one illustrat
 arithmetic operators and uncertain punctuation remain explicitly flagged; both
 exports rebuild identically and92 prior packages pass preservation checks.
 교육입문81 is a second non-owning group heading; promotional80 is excluded.
-March has thirteen readable/sample-reviewed articles,no partial articles,two group
-headings and29 entries awaiting classification/restoration; the issue is incomplete.
-Next batch14 starts 베이직 강좌82; verify its extent before mapping within
+Batch14 completes 베이직 강좌82–87:41 regions,24 blocks,five images,40 physical
+conversion-listing rows and68 indexed example/output rows within prose/captions.
+The searchable number-base table,eleven prose boundaries and four diagram captions
+are checked. Two crop boundaries were repaired once each; source discrepancies
+remain literal. Export rebuilds identically;94 prior packages pass preservation.
+March has fourteen readable/sample-reviewed articles,no partial articles,two group
+headings and28 entries awaiting classification/restoration; the issue is incomplete.
+Next batch15 starts 소프트웨어 복사 방지 기술88; verify its extent before mapping within
 two articles/six source pages. Follow
-private/pdf-restoration/12-1984-03-batch-13/next-checkpoint.json.
+private/pdf-restoration/12-1984-03-batch-14/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

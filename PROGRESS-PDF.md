@@ -7885,3 +7885,49 @@ history remains in [PROGRESS.md](PROGRESS.md).
   awaiting classification/restoration. Next batch14 verifies/restores 베이직 강좌
   from82. Remaining bodies,TOC accounting and whole-issue JSON/assets export remain
   pending; the whole-March goal stays active.
+
+### 2026-10-03 — March batch14: BASIC lesson82–87
+
+- Completed 베이직 강좌82–87,연재1회,by 임근희/전기통신연구소. Six source
+  pages and one lookup88; printed/PDF82–88 locally verified. The next article
+  starts88. All41 initial Tesseract tasks and two crop repairs completed without
+  failure; engine/runtime/configuration remain unchanged.
+- Readable/sample-reviewed package contains41 regions,24 ordered text blocks,five
+  original images and the complete40-row conversion listing (23 numbered,17 wraps).
+  Sixty-seven source-linked annotated code rows and one output row remain within
+  prose/caption blocks. Number-base table has a header and16 searchable data rows.
+  Four figure captions and eleven prose boundaries are reviewed; cross-column
+  password and character-definition code wraps retain physical newlines.
+- Preserved opening artwork including its printed quotation; the quotation also
+  has searchable text,with intentional overlap documented. The floating conversion
+  program follows the completed number-base discussion to avoid breaking a sentence.
+  Repaired figure2's left grid border and caption's right edge once each; original
+  and revised evidence are retained. All five image boundaries were reviewed.
+- Literal source discrepancies remain visible: sixteen binary ones versusFFF,
+  octonary/nomal,주변장치 경영,nine81 terms in the twelve-byte definition,
+  11264($2000),14366,DEF STR$,figure references and FC DATA punctuation.
+  Conversion220's H/1 wrap,bare NEXT and repeated HEX prompt250 are retained.
+  Printed YOU- hyphen,beep glyph and exact string/output spaces remain uncertain.
+  Source reference to표2 is preserved without inventing an absent table. No code
+  execution,semantic repair or character-perfect proofreading claim.
+- Validated all41 regions exactly once,all text/listing/example byte ranges,
+  number sequences,table cells,twelve listing anomaly rows,caption associations,
+  eleven joins and source/raw OCR pins. Fresh JSON/assets rebuild is byte-identical;
+  all94 prior native packages and four assemblies pass read-only preservation.
+  The private validator initially compared settings files byte-for-byte across the
+  map revision; adjusted it to verify the changed map hash separately and require
+  all actual settings to remain identical. Unaffected OCR text,positions and crops
+  remain byte-identical; initial evidence was not changed.
+- Rendering/cropping23.223s,Tesseract16.425s,total task elapsed44.648s,including
+  two repairs. Review/transcription/native packaging interval1217.080s (20m17.080s)
+  includes tool/context waits,not active human labor. Stage-specific token counts
+  and verified reviewer settings remain unavailable; no model comparison.
+- Output: build/pdf-restoration/12-1984-03-batch-14/basic. Private checkpoint
+  retains original/revised maps,OCR,transcription,recipes,metrics,validation,
+  identical rebuild,pre-update ledger and next checkpoint. No tracked tooling
+  changes,HTML or browser work;85-test tooling baseline remains unchanged.
+- March now has fourteen readable articles,no partial articles,two group headings
+  and28 entries awaiting classification/restoration. All44 canonical identities,
+  ordering and parent links remain unchanged. Next batch15 verifies/restores
+  소프트웨어 복사 방지 기술 from88. Remaining bodies,TOC accounting and whole-issue
+  JSON/assets export remain pending; the whole-March goal stays active.
