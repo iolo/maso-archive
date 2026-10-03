@@ -8972,3 +8972,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   unclassified entries**, with all44 canonical identities intact. Whole issue remains
   incomplete. Next: verify and restore the word-processor article from244,then the
   remaining contest entry and information pages,followed by full issue JSON/assets export.
+
+
+### 2026-10-04 — March batch40: word processor preserved with missing source pages
+
+- Restored all supplied pages244–249 of canonical0035한글 워드 프로세서 프로그램.
+  Six source pages/one article and18 lookup pages243,250–266 stay within limits.
+  Source PDF249 bears249; next PDF250 bears252 and starts the tunnel game.
+  Printed250–251 are missing. All remaining scans were checked for a misplaced
+  continuation; none was found. The guide describes routines through4150,while
+  the surviving listing cuts off within3190 afterHPLOT.
+- Outcome is **partial/sample-reviewed**,with the available-source restoration
+  complete and the missing pages explicitly recorded. No assembly or available
+  continuation is deferred; no missing program text was invented.
+- Saved23 regions,14 ordered text blocks,two original images,one linked caption,
+  453 physical listing rows (220 numbered1000–3190),55 indexed examples,one prose
+  boundary and six listing boundaries. Physical1890/2610 page wraps remain intact.
+  The full flowchart includes separately transcribed1000–1070 intentionally.
+- Reviewed all text regions and images against enlarged scans. Preserved source
+  중성 terminology,스크롤 기능이 있어,22characters/21columns,guide/code mismatches,
+  CUSOR spelling,= < operator,1290X=LE and3160duplicateX.1310quotes remain visibly
+  empty despite the prose instruction to enterCTRL-G. Title-string padding and
+  asterisk counts,fine jamo shapes and small punctuation remain uncertain.
+- No crop repairs or OCR retries.23 tasks completed without failure:39.1440s task
+  elapsed,20.5718s rendering and16.1099s OCR. Review interval1187.6902s includes
+  tool/context waits and index correction,not active human labor. Stage-specific
+  tokens and exact backend/reasoning measurements remain unavailable.
+- Validation caught numeric wrapped operands/targets mislabeled as BASIC labels.
+  Corrected the private reviewer index rule; preserved the initial export under
+  privatebatch40/index-attempt. Transcription,article/listing bytes,raw OCR and
+  scans are unchanged. The final package rebuilds byte-identically; every byte
+  index,source pin,image/caption and join passes.132 prior native packages and18
+  assemblies validate unchanged. No tooling changes;90-test baseline remains current.
+- Classified0034공모입선작 as a non-owning group from canonical children and the
+  source award banners on244/printed252. No separate body or divider invented.
+  Updated ledger,classification,metrics and next-checkpoint evidence. Export:
+  `build/pdf-restoration/12-1984-03-batch-40/word`; recipe privatebatch40/word.
+- March now has **32 readable articles,one terminal source-gap partial,five groups
+  and six unclassified entries**,with all44 canonical identities intact. Whole issue
+  remains incomplete. Next: tunnelgamePDF250–252/printed252–254 anddebugPDF253/
+  printed255; Q&A,listed advertisingindex204 and정보레이다 reconciliation follow.

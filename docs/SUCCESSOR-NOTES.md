@@ -483,11 +483,32 @@ Printed실증,지난1월호,names/schools,19entries and500points remain source f
 No crop repair or OCR retry.42 initial tasks complete; native and assembly rebuilds
 match and130 prior natives/seventeen assemblies validate unchanged. No tooling change;
 90-test baseline remains current. Metrics and validation are under private batch39.
-Next follow `private/pdf-restoration/12-1984-03-batch-39/next-checkpoint.json`:
-verify word-processor extent from244 and restore at most244–249 within six pages.
-Tunnelgame appears250; independently verify boundary. Classify canonical0034
-공모입선작 from children/source evidence.242 contest call stays excluded.
-March now32 readable articles,four groups,eight unclassified;all44 identities intact.
+Batch40/word restores all available244–249 of canonical0035한글 워드 프로세서 프로그램:
+23 regions,14 blocks,two images,453 physical listing rows (220 numbered1000–3190),
+55 indexed examples,one prose join and six listing boundaries. Recipe is private
+batch40/word; export `build/pdf-restoration/12-1984-03-batch-40/word`.
+Printed250–251 are absent:PDF249 bears249,nextPDF250 bears252/tunnelgame.
+All remainingPDF251–266 checked for misplaced continuation; none found. Code ends
+within3190 afterHPLOT;245guide continues through4150. Outcome remainspartial,
+source_pages_missing=true,missing_printed_pages=[250,251],assembly_required=false,
+available_source_restoration_complete=true. Do not queue a nonexistent continuation.
+Physical1890 and2610 page wraps,source3160duplicateX,1310emptyvisiblequotes,
+CUSOR,= <,guide/code inconsistencies and historical terminology remain literal.
+Title-string padding/asterisk count and fine glyphs remain uncertain; no execution.
+Full flowchart rectangle includes separately transcribed1000–1070 intentionally.
+First index attempt mislabeled numeric wrap fragments as line numbers; preserved
+under privatebatch40/index-attempt. Corrected private reviewer regex recognizes
+four-digit labels followed by statements; transcription/OCR/scans remain exact.
+No crop repair or OCR retry. Native byte-identical rebuild,all indexes and132 prior
+native/eighteen assembly checks pass. No tooling change;90-test baseline current.
+Canonical0034공모입선작 classified non-owning from canonical children plus244
+최우수상/printed252우수상 banners; no independent body or divider invented.
+Next follow `private/pdf-restoration/12-1984-03-batch-40/next-checkpoint.json`:
+restore tunnelgamePDF250–252/printed252–254 anddebugPDF253/printed255 after verifying
+boundaries. Q&A isPDF254–257/printed256–259. Folios diverge after249; never assume
+PDFnumbers are printed numbers.242 contest call stays excluded.
+March now32 readable articles,one terminalsource-gap partial,five groups,six
+unclassified;all44 identities intact.
 Whole issue remains incomplete. Canonical0038정보모음 group,0041디버깅룸 and0042Q&A
 also require classification/restoration before final issue accounting and JSON/assets export.
 Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck

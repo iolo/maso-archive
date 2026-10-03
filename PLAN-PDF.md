@@ -218,9 +218,17 @@ Contestresults243 is independently readable: six regions,four blocks,two column
 joins and13 indexed examples. Both native packages and the full assembly rebuild
 identically;130 prior natives and seventeen assemblies validate unchanged.
 No crop repair or OCR retry; only canonical contest-title spacing changed in metadata.
-March has32 readable articles,four groups and eight unclassified entries.
-Next batch40 verifies the word-processor extent from244 and restores at most244–249.
-Follow private/pdf-restoration/12-1984-03-batch-39/next-checkpoint.json.
+Batch40 restores the word-processor article's surviving244–249:23 regions,
+14 blocks,two original images,453 physical listing rows (220 numbered),55 indexed
+examples and one prose/six listing boundaries. Printed250–251 are missing:
+PDF250 bears252 and begins tunnelgame. The surviving listing ends within3190;
+245describes routines through4150. This is a terminal source-gap partial outcome,
+with all available pages restored and no invented continuation or program repair.
+Canonical0034공모입선작 is a non-owning group supported by its two awarded children.
+Exact rebuild and132 prior native/eighteen assembly checks pass;OCR unchanged.
+March has32 readable articles,one source-gap partial,five groups and six unclassified.
+Next batch41 restores tunnelgamePDF250–252/printed252–254 anddebugPDF253/printed255.
+Follow private/pdf-restoration/12-1984-03-batch-40/next-checkpoint.json.
 Before issue closeout, restore listed advertisingindex204 separately and recheck
 정보레이다124–131 against canonicaltoc0040; earlier exclusion needs reconciliation.
 The active objective is all remaining March content, not one bounded checkpoint.
