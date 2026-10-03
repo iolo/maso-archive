@@ -7844,3 +7844,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   remain unchanged. Next batch13 verifies and restores 당신도 암산왕 from77.
   Remaining bodies,TOC accounting and whole-issue JSON/assets export remain pending;
   the whole-March goal stays active.
+
+### 2026-10-03 — March batch13: arithmetic and fireworks77–79
+
+- Completed 당신도 암산왕77–78 and 불꽃 놀이79 within two articles/three source
+  pages. Lookup80 is promotional material,81 is 교육입문 divider,and82 starts
+  베이직 강좌. Printed/PDF77–79,81–82 locally verified;80 has no visible folio.
+  All21 initial Tesseract tasks completed without failure,crop repair or retry.
+- Arithmetic article is readable/sample-reviewed:14 regions,11 blocks,one original
+  helmet illustration and64 physical listing rows (63 numbered,one541 continuation).
+  Introduction,variable table and full routine guide retained; the guide joins
+  77 columns with newline. FC-30 listing10–590 retains the543→545 number jump.
+  Plus-like glyphs80/90/330/340/450 remain+ with explicit uncertainty;540's missing-
+  looking opening quote and560's literal minus before256 are not silently repaired.
+  Narrative ranges and four-operation claims remain independent source statements.
+- Fireworks79 is readable/sample-reviewed:seven regions,five blocks,two original
+  photographs and33 physical rows (21 numbered,12 unnumbered heading/wrap rows).
+  Preserved FIREWORKS/BY SAMBO COMPUTER following5 REM without invented prefixes,
+  127 split1/27,YOLD splitY/OLD,HPLOT coefficients76/78 and spaced< =. Precise
+  vertical spacing normalized; no execution or character-perfect-code claim.
+- Source review covered every mapped text/code row and all three image boundaries.
+  Validated all21 regions exactly once,text/listing indexes,16 anomaly rows,
+  one prose join,full independent number sequences and unchanged raw OCR/crops.
+  Fresh JSON/assets rebuilds match byte for byte. All92 prior native packages and
+  four earlier assemblies pass read-only preservation checks. A private validator
+  initially passed an extra source-id field to the strict pin checker; corrected
+  its input to path/hash/bytes and reran successfully. Source bytes were unchanged.
+- Classified 교육입문81 as a non-owning group heading with pinned full-page source
+  evidence and its subsection contents. Promotional80 and lower78 bookshop ad are
+  excluded. All44 canonical TOC identities,ordering and parent links remain unchanged.
+- Rendering/cropping9.188s,Tesseract3.702s,total task elapsed15.005s. Review,
+  transcription and native packaging interval314.583s (5m14.583s),including tool/
+  context waits,not active human labor. Stage-specific tokens and verified reviewer
+  settings unavailable; no model comparison. No tracked tooling changes,HTML or
+  browser work; preceding85-test baseline remains unchanged.
+- Outputs: build/pdf-restoration/12-1984-03-batch-13/{mental,fireworks}. Private
+  checkpoint retains recipes,review evidence,classification review,metrics,
+  validation,exact rebuilds,pre-update ledger and next checkpoint. March now has
+  thirteen readable articles,no partial articles,two group headings and29 entries
+  awaiting classification/restoration. Next batch14 verifies/restores 베이직 강좌
+  from82. Remaining bodies,TOC accounting and whole-issue JSON/assets export remain
+  pending; the whole-March goal stays active.

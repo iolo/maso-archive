@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–12 and four article assemblies are complete.
+delivery is required. March batches01–13 and four article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -51,12 +51,20 @@ r09/r10/r12 right edges were each widened once. Program3015 crosses76 columns;
 duplicated plus signs,DI/DIR,SCRAMLED and repeated prose particle remain literal.
 Decorative star counts and small punctuation remain uncertain. Native/assembly
 rebuilds match and90 earlier packages pass preservation checks.
-Page39 is a non-owning 취미생활 group heading. March has eleven readable articles,
-no partial articles,one group heading and32 unclassified entries; closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-12/next-checkpoint.json`:
-batch13 starts 당신도 암산왕77. Verify its extent within two articles/six source
-pages. Printed/PDF73–77 checked locally;78–80 lookup images exist in batch12 but
-have not yet been source-reviewed. Do not extrapolate a global page offset.
+Batch13 completes 당신도 암산왕77–78 (14 regions,11 blocks,one illustration,
+64 physical listing rows:63 numbered plus541 continuation) and 불꽃 놀이79
+(seven regions,five blocks,two photographs,33 physical rows:21 numbered plus12
+unnumbered heading/wrap rows). No crop repair or retry. Arithmetic plus-like glyphs,
+missing-looking540 quote and560 timer formula are retained with explicit uncertainty;
+no inferred executable repair. Both exports rebuild identically;92 prior packages
+and all four earlier assemblies pass preservation checks.
+Page39 취미생활 and81 교육입문 are non-owning group headings; promotional80
+has no independent article body. March has thirteen readable articles,no partial
+articles,two group headings and29 unclassified entries; closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-13/next-checkpoint.json`:
+batch14 starts 베이직 강좌82. Verify its extent within two articles/six source
+pages. Page82 visually checked;83 lookup image exists in batch13 but has not been
+source-reviewed. Divider81 lists next article88; verify the actual boundary.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe

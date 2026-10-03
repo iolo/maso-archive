@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–12 and four article assemblies are complete: the editorial on
+March batches 01–13 and four article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -52,11 +52,17 @@ one original illustration and182 physical listing rows (86 numbered,96 wraps).
 Three right-edge crops were widened once each; original/intermediate evidence
 remains unchanged. Source anomalies and uncertain decorative counts remain explicit.
 Fresh native/assembly rebuilds match;90 earlier packages pass preservation checks.
-March has eleven readable/sample-reviewed articles,no partial articles,one group
-heading and32 entries awaiting classification/restoration; the issue is incomplete.
-Next batch13 starts 당신도 암산왕77; verify its extent before mapping within
+Batch13 completes 당신도 암산왕77–78 (14 regions,11 blocks,one illustration,
+64 physical listing rows) and 불꽃 놀이79 (seven regions,five blocks,two photos,
+33 physical listing rows). All21 tasks completed without repair/retry. Literal
+arithmetic operators and uncertain punctuation remain explicitly flagged; both
+exports rebuild identically and92 prior packages pass preservation checks.
+교육입문81 is a second non-owning group heading; promotional80 is excluded.
+March has thirteen readable/sample-reviewed articles,no partial articles,two group
+headings and29 entries awaiting classification/restoration; the issue is incomplete.
+Next batch14 starts 베이직 강좌82; verify its extent before mapping within
 two articles/six source pages. Follow
-private/pdf-restoration/12-1984-03-batch-12/next-checkpoint.json.
+private/pdf-restoration/12-1984-03-batch-13/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
