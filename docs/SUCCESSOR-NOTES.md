@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–31 and thirteen article assemblies are complete.
+delivery is required. March batches01–32 and thirteen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -336,8 +336,27 @@ Both natives/full UPDATEassembly rebuild byte-identically;117 prior packages and
 12 earlier assemblies unchanged. No OCR repairs/settings or tooling changes.
 March has26 readable articles,one partial article,three group headings and14
 unclassified entries;all44 canonical identities preserved;whole issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-31/next-checkpoint.json`:
-batch32 restores세운상가195–200;final201–204and immutable assembly remain afterward.
+Batch32/sewoon restores195–200:45 regions,34 blocks,four images,ten indexed
+hardware-table rows and seven prose boundaries. Finalrecipe private
+batch32/sewoon/revised;initial evidence preserved. r17right recovers clipped내;
+r45top recoversACE전자heading. Each repaired once; OCR settings unchanged.
+Hardwaretable original and searchable transcription intentionally overlap; 기타cell
+펑션 키 부착 spansFC-30/100/150,transcribed once atFC-30 with explicit mergedcell
+metadata. Source70K,10K,DELEXE,DESK CALANDER,프로그램용액 retained.
+24 vendor entries include partialACE. Distinct부광전자addresses preserved;
+두리 repeated본체 and 선경 empty본체 unchanged. 아산Koreanmodelname uncertain.
+아산/전자 and 워드/프로세서 join without separators;five vendor joins use newline.
+Middle incoming194/195link is recorded. Middle200r45ends펑션키이;201begins
+• 드라이브. Ending incoming must use prior_segmentmiddle,prior_regionr45,
+prior_text_end펑션키이,text_start• 드라이브,joinnewline. Futureassembly segment
+names opening,middle,ending; preserve native bytes. No listing in middle.
+Exact rebuild/index/settings checks pass;119 earlier natives and13 assemblies
+unchanged.47 tasks(45initial,two repairs),zero failures;73.251s tasktime,
+38.724s render/crop,30.656s OCR;712.667s review interval includes waits.
+Issue ledger now records both segments,aggregate190–200;counts unchanged.
+Next follow `private/pdf-restoration/12-1984-03-batch-32/next-checkpoint.json`:
+batch33 restores세운상가201–204and assembles190–204. May also begin206–207
+within six-source-page limit after checking extent and classifying205divider.
 Keep the directory within canonicaltoc0037;physical order differs from TOCorder.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.

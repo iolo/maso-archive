@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–31 and thirteen article assemblies are complete: the editorial on
+March batches 01–32 and thirteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -161,12 +161,16 @@ numbering,190wrap and sampletable conflicts remain unchanged. 세운상가190–
 of verified190–204 restores29 regions,15 blocks andfour original images.
 Nine prose boundaries and the190/191split title are reviewed; no crop repair.
 Exact rebuild and preservation checks cover117 earlier packages and12 assemblies.
+Batch32 extends 세운상가 through195–200:45 regions,34 blocks,four original
+images,ten indexed hardware-table rows and seven prose boundaries. Twenty-four
+vendor entries retain source categories and cross-column/page continuations.
+Two crop edges repaired once each; exact rebuild and preservation checks cover
+119 earlier native packages and thirteen assemblies. Both segments remain immutable.
 March has twenty-six readable and one partial/sample-reviewed articles,three
 group headings and14 entries awaiting classification/restoration. The issue remains
-incomplete. Next batch32 restores 세운상가195–200,including the hardware table
-and supplier directory. Final201–204and full assembly follow;205is the technical
-divider and the next article begins206.
-Follow private/pdf-restoration/12-1984-03-batch-31/next-checkpoint.json.
+incomplete. Next batch33 restores 세운상가201–204 and assembles190–204;
+205is the technical divider and the next article begins206.
+Follow private/pdf-restoration/12-1984-03-batch-32/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

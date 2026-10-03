@@ -8640,3 +8640,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   non-owning group headings and14 unclassified entries**. All44 identities intact.
   Next batch32 restores세운상가195–200,including table and directory;201–204and
   full assembly follow. The whole issue remains incomplete.
+
+
+### 2026-10-03 — March batch32: 세운상가 survey and directory continued
+
+- Restored195–200 of verified190–204 feature within six source pages/one article.
+  Four lookup pages201,204–206 confirm the directory continuation and article end.
+  New segment has45 regions,34 text blocks,four original images and no listing.
+- Completed survey prose and retained the196 hardware table as both original image
+  and searchable nine-model/ten-row transcription. Nine columns use tabs; blank
+  cells remain blank. The 기타cell 펑션 키 부착 spansFC-30/100/150; transcribed
+  once atFC-30 with explicit metadata for the merged cell. Caption linked.
+- Reviewed24 vendor entries on197–200,including partialACE. Five vendor continuations
+  join with newlines;아산/전자 and워드/프로세서 join without separators.
+  Two부광전자 entries preserve distinct addresses. Repeated본체 under두리 and
+  empty본체 under선경 remain literal. No missing product/category inferred.
+- Source70K RAM,10K RAM,12K RAM,8877A,DELEXE,DISISECTOR,DESK CALANDER,
+  EASY WRITR and프로그램용액 retained. 아산's Korean modelname is explicitly
+  uncertain. Historical prices/specifications uncorrected; typography normalized.
+- Original195market,196circuit,196table and198workbench images preserved.
+  One repair each:197r17right edge recovers clipped내;200r45upper edge recovers
+  ACE전자heading. Initial evidence retained; Tesseract configuration unchanged.
+- Middle incoming continuation links194heading to195CCTV using newline. Outgoing
+  200r45펑션키이→201• 드라이브 uses newline. Full assembly must name native
+  segments opening,middle,ending and preserve their bytes. Final201–204 remains.
+- All41 text regions andfour image boundaries compared with enlarged scans.
+  Package rebuild is byte-identical; indexes, seven joins, image/caption links,
+  raw OCR bytes and settings pins pass.119 earlier native packages and13 earlier
+  assemblies validate unchanged. No tooling changes;88-test baseline not rerun.
+- 47 executed tasks(45initial,two repairs),zero failures:73.251s tasktime,
+  38.724s render/crop and30.656s OCR. Review interval712.667s includes tool/context
+  waits,not active human labor. Stage-token/backend measurements unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-32/sewoon`; finalrecipe under
+  private batch32/sewoon/revised. Metrics,validation and both segment pins saved.
+- March remains **26 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and14 unclassified entries**. Aggregate세운상가coverage
+  now190–200. Next batch33 restores201–204and assembles the feature;205divider and
+  technical206follow. All44 canonical identities preserved;whole issue incomplete.
