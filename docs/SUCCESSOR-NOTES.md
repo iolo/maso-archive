@@ -4,17 +4,24 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–05 and feature assembly are complete.
+delivery is required. March batches01–06 and feature assembly are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
 packages remain unchanged under segments. Rebuild and85 PDF tests pass.
-Next follow `private/pdf-restoration/12-1984-03-feature-assembly/next-checkpoint.json`:
-batch06 resumes 추리력 테스트 게임 at printed/PDF40, within the existing
-two-article/six-page limit. Page38 is publisher promotion;39 is a section divider.
-March has two readable articles and42 unclassified TOC entries; issue closeout
-is pending. The namespaced assembler now validates the legacy prose boundary
-and regional listing ranges without rewriting originals; see the assembly recipe
+Batch06 restores 추리력 테스트 게임40–45:22 regions,16 blocks,two images,
+391 physical code rows and42 unresolved PET graphics markers. Extent40–46 is
+verified. Native recipe/evidence is under batch06/reasoning/revised-final;
+initial and intermediate crops remain preserved. Six regions received one repair
+each. Exact rebuild and79 prior-package checks pass. Page39 is a verified
+non-owning 취미생활 group heading. March has two readable articles,one partial
+article,one group heading and40 unclassified entries; issue closeout is pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-06/next-checkpoint.json`:
+batch07 finishes Apple1400–2490 on46, then continues 모래시계 from47, within
+two articles/six source pages. Assemble the game40–46 after the final segment
+validates. Preserve PET line99/98 uncertainty,duplicate590 and all graphics
+markers; do not repair historical code. The namespaced assembler validates
+the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe
 and validation evidence. Preserve all literal leading zeros, wraps, dump rows,
 uncertainties and source/correction records. No new OCR engine/configuration.
 The active owner goal is to complete all remaining March1984 content.

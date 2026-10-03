@@ -19,16 +19,22 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–05 and feature assembly are complete: the editorial on
+March batches 01–06 and feature assembly are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
 Global correction/listing indexes, exact source copies, identical rebuild and
 all85 PDF tests pass. Uncertain glyphs and proofreading limits remain explicit.
-Next batch06 starts at printed40/PDF40, 추리력 테스트 게임; map at most six
-source pages and verify its ending. Page38 is publisher promotion,39 a section
-divider. March has two readable articles and42 TOC entries still awaiting
-classification/restoration; the whole issue remains incomplete.
+Batch06 restores 추리력 테스트 게임 on printed/PDF40–45:22 regions,16 blocks,
+two image panels,391 physical listing rows and42 unresolved PET graphics markers.
+Its full extent40–46 is verified; the Apple listing still needs page46. Six
+regions received one crop repair each, with initial evidence preserved. Exact
+rebuild and79 earlier-package preservation checks pass. Page39's 취미생활 is a
+non-owning group heading. March has two readable articles,one partial article,
+one group heading and40 entries awaiting classification/restoration.
+Next batch07 finishes Apple1400–2490 on46 and continues 모래시계 from47,
+within two articles/six source pages. Follow batch06/next-checkpoint.json;
+assemble the complete game40–46 after its final segment validates.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

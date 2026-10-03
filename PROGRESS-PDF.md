@@ -7550,3 +7550,41 @@ history remains in [PROGRESS.md](PROGRESS.md).
   restore at most six source pages and continue source-based review. Complete
   March accounting,remaining articles and issue JSON/assets export remain pending;
   the owner’s whole-March goal stays active.
+
+### 2026-10-03 — March batch06: reasoning game pages40–45
+
+- Verified 추리력 테스트 게임 spans printed/PDF40–46;47 begins 모래시계.
+  Restored40–45 with the unchanged Tesseract pipeline and scan-based semantic
+  review. Included22 regions,16 ordered text/code blocks,two original images
+  (head photograph and full flowchart),and391 physical listing rows. PET,
+  SPC-1000 and FC-30 programs are complete in this segment; Apple ends at1390
+  and continues1400–2490 on46. Availability remains partial/sample-reviewed.
+- Compared all prose and physical code rows with enlarged scans. Preserved
+  literal source examples,open strings,wrapped rows,misspellings,jump targets,
+  PET line99/98 uncertainty and duplicate590. Recorded24 source-linked anomaly
+  rows and42 unique unresolved PET graphic/control markers. Marker byte values
+  and run lengths are unknown; no executable or character-perfect claim.
+- Fixed clipped boundaries once each in six regions: variable table,program
+  explanation,PET bottom,SPC right,FC first-column right and Apple right.
+  Preserved initial and intermediate evidence; final native recipe is under
+  private/pdf-restoration/12-1984-03-batch-06/reasoning/revised-final.
+  Execution accounting confirms22 initial tasks plus6 repairs,zero failures,
+  and no region retried twice. Three lookup pages39,46,47 remain within limits.
+- Verified page39 is a 취미생활 section divider with no independent article
+  body; classified its canonical parent as group-heading. March now accounts
+  for three articles (two readable,one partial),one group heading and40 entries
+  still awaiting classification/restoration. Canonical TOC identities unchanged.
+- All22 regions represented once;391 physical rows partition the listing exactly.
+  Text/anomaly ranges,42 graphics markers,source/raw pins and regional listing
+  indexes validate. Fresh JSON/assets rebuild is byte-identical. Read-only
+  checks preserve79 earlier packages. No tooling change or repeated full test
+  suite needed; the preceding85-test tooling baseline remains unchanged.
+- Render/crop20.359s,Tesseract11.165s,total task elapsed34.115s. Review,
+  transcription and packaging interval853.273s (14m13.273s),including tool and
+  context waits,not active human labor. Stage-specific token counts and verified
+  reviewer settings remain unavailable; no reviewer-model comparison performed.
+- Output: build/pdf-restoration/12-1984-03-batch-06/reasoning. Validation,metrics,
+  classification evidence,pre-update ledger and next checkpoint are preserved
+  privately. Next batch07 restores46,then 모래시계 from47 within the existing
+  two-article/six-source-page ceiling. Assemble game40–46 after the last segment;
+  the whole-March goal remains active and the issue export is still pending.
