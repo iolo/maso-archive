@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–38 and seventeen article assemblies are complete: the editorial on
+March batches 01–39 and eighteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -211,11 +211,16 @@ Batch38 restores A/D232–237: 50 regions,27 blocks,13 original images and capti
 literal; table3 and diagram labels remain source images. Two diagram crops were
 widened once each; initial evidence retained. Exact rebuild, indexes and129 prior
 native/seventeen assembly checks pass. OCR settings remain unchanged.
-March has30 readable and one partial article,four groups and nine unclassified
-entries. Next batch39 finishes A/D238–241 and assembles228–241; listed contest
-results243 may be restored as the second article within the existing limits.
-Follow private/pdf-restoration/12-1984-03-batch-38/next-checkpoint.json.
-Contestresults243matchcanonical0044 andremain separately queued;242call is unlisted.
+Batch39 finishes A/D238–241 and assembles228–241: 113 regions,61 blocks,
+29 source images,25 linked captions,24 physical assembly-listing rows and95 native
+indexed examples. All three original segments remain exact; six scope notes resolve.
+Contestresults243 is independently readable: six regions,four blocks,two column
+joins and13 indexed examples. Both native packages and the full assembly rebuild
+identically;130 prior natives and seventeen assemblies validate unchanged.
+No crop repair or OCR retry; only canonical contest-title spacing changed in metadata.
+March has32 readable articles,four groups and eight unclassified entries.
+Next batch40 verifies the word-processor extent from244 and restores at most244–249.
+Follow private/pdf-restoration/12-1984-03-batch-39/next-checkpoint.json.
 Before issue closeout, restore listed advertisingindex204 separately and recheck
 정보레이다124–131 against canonicaltoc0040; earlier exclusion needs reconciliation.
 The active objective is all remaining March content, not one bounded checkpoint.

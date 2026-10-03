@@ -8933,3 +8933,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   headings and nine unclassified entries**; all44 canonical identities remain intact.
   A/D now covers228–237 in two immutable segments. Next: finish238–241 and assemble
   the full article; restore listed contestresults243 separately. Whole March is incomplete.
+
+
+### 2026-10-03 — March batch39: A/D article assembled; contest results restored
+
+- Restored A/D238–241 and canonical0044 contestresults243 within five source pages/
+  two articles; three lookup pages237,242,244 confirm continuations and boundaries.
+  A/D ends with conclusion/asterisk241;242 is an unlisted contest call;244 begins
+  the word-processor article. No new group classification inferred from a banner.
+- A/D ending:36 regions,20 blocks,nine original images,eight captions,24 physical
+  unnumbered assembly-listing rows,38 indexed examples and five prose boundaries.
+  Figure28 preserves the flowchart,searchable port legend and code with timing
+  header,total104 and comments. No invented instruction,comment marker or execution.
+- Preserved source caption유통도,48,000byte throughput,CMR=−20logλ,prose충진형
+  versus caption증진형,N-channel polarity and finalC_S10μF/C_F3.6μF claim.
+  Small glyphs/math punctuation remain explicitly uncertain; no technical repair.
+  Incoming237A-/238DC uses the previously declared no-separator link.
+- Full228–241assembly at `build/pdf-restoration/12-1984-03-ad`:113 regions,
+  61 blocks,29 original images,25 linked captions,24 physical listing rows and95
+  indexed native examples.21 native prose boundaries and two cross-segment links
+  preserve the unusual230/231 narrative order and duplicated 로. Six scope notes
+  resolve; all three native packages and source block/listing bytes remain exact.
+- Contestresults243: six regions,four blocks,two column joins and13 indexed examples.
+  Original names,school labels,program titles,19entry count,500points,지난1월호
+  and실증 spelling retained. No source image or code listing is present.
+  Canonical title spacing corrected in metadata only; all six cached OCR payloads
+  remain unchanged. Final recipes private batch39/ad andbatch39/contest/revised.
+- Every mapped text and image region reviewed against enlarged scans. No crop
+  repair or OCR retry.42 initial tasks completed without failure. Review interval
+  523.8226s includes tool/context waits; stage-specific tokens/backend unavailable.
+- Both native exports and full A/D assembly rebuild byte-identically. All byte
+  indexes,listing rows,captions,joins and source/raw OCR pins pass.130 prior native
+  packages and17 assemblies validate unchanged. A closeout assertion was corrected
+  to inspect the normalized figure sequence at its actual assembly location; no
+  package or tooling change was needed.90-test baseline remains current.
+- Updated ledger,metrics,classification and next checkpoint. March now has
+  **32 readable/sample-reviewed articles,four non-owning group headings and eight
+  unclassified entries**, with all44 canonical identities intact. Whole issue remains
+  incomplete. Next: verify and restore the word-processor article from244,then the
+  remaining contest entry and information pages,followed by full issue JSON/assets export.

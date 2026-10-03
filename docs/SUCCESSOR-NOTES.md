@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–38 and seventeen article assemblies are complete.
+delivery is required. March batches01–39 and eighteen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -462,17 +462,34 @@ retains output label and ground. Initial evidence preserved; OCR settings unchan
 Native rebuild and129 prior native/seventeen assembly checks pass. No tooling change;
 90-test baseline retained. Metrics:52 tasks,zero failures,48.8275s task elapsed,
 26.5150s rendering,19.4303s OCR,492.7759s review interval including tool waits.
-Next follow `private/pdf-restoration/12-1984-03-batch-38/next-checkpoint.json`:
-batch39 restores A/D238–241 and assembles228–241, plus listed contestresults243
-as a second article if within bounds. Incoming ending kindprose, prior_segment
-middle, prior_regionr46, prior_text_end증폭기와 A, text_startDC가 부착되어 있다.,
-join_separator empty, no direction field. This rejoins237A-/238DC with the physical
-hyphen removed. Use immutable opening(batch37), middle(batch38), ending(batch39);
-six obsolete scope notes are expected after assembly. Original packages stay exact.
-A/D241endswithconclusion/asterisk.242unlistedcontestcall excluded;243matches
-canonical0044공모결과발표 andmust be restored separately;244wordprocessor begins.
-March now30 readable,one partial,four groups,nine unclassified;all44 identities intact.
-Wholeissue remains incomplete.
+Batch39/ad completes238–241: 36 regions,20 blocks,nine source images,eight
+captions,24 physical unnumbered listing rows,38 indexed examples and five native
+prose boundaries. Recipe is private batch39/ad (no revised subdirectory).
+Figure28 consists of original flowchart,searchable port legend and assembly code;
+its caption is linked to the diagram and code. Timing header,total104 and original
+comments are retained. No missing instruction,comment delimiter or execution claim.
+Source유통도,48,000bytes,CMR=−20logλ,prose충진형/caption증진형,N-channel polarity
+andC_S10μF/C_F3.6μF remain literal or explicitly uncertain.241 ends conclusion/asterisk.
+Full assembly `build/pdf-restoration/12-1984-03-ad`:14 pages,113 regions,61 blocks,
+29 original images,25 linked captions,24 physical listing rows,95 native examples,
+21 native prose boundaries and two cross-segment links. Six scope notes resolved.
+All original packages and source block/listing bytes remain exact. Assembled figure
+sequence lives at corrections.figure_sequence,not segments[].original_metadata.
+Batch39/contest completes canonical0044공모결과 발표 on243: six regions,four
+blocks,two column joins,13 indexed examples,no image/listing. Printed banner and
+headline retained alongside canonical identity. Recipe is private batch39/contest/revised;
+revision fixes only canonical title spacing,with all six cached OCR payloads reused.
+Printed실증,지난1월호,names/schools,19entries and500points remain source forms.
+No crop repair or OCR retry.42 initial tasks complete; native and assembly rebuilds
+match and130 prior natives/seventeen assemblies validate unchanged. No tooling change;
+90-test baseline remains current. Metrics and validation are under private batch39.
+Next follow `private/pdf-restoration/12-1984-03-batch-39/next-checkpoint.json`:
+verify word-processor extent from244 and restore at most244–249 within six pages.
+Tunnelgame appears250; independently verify boundary. Classify canonical0034
+공모입선작 from children/source evidence.242 contest call stays excluded.
+March now32 readable articles,four groups,eight unclassified;all44 identities intact.
+Whole issue remains incomplete. Canonical0038정보모음 group,0041디버깅룸 and0042Q&A
+also require classification/restoration before final issue accounting and JSON/assets export.
 Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck
 정보레이다124–131againstcanonicaltoc0040. Earlierbatch21unlistedexclusionmay
 need correction;do not rely on it to omit an eligible listed body.
