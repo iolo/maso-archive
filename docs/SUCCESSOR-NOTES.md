@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–35 and sixteen article assemblies are complete.
+delivery is required. March batches01–36 and sixteen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -412,10 +412,28 @@ native/fifteenassemblypreservationchecks pass.
 48 tasks,zero failures:59.955s tasktime,31.167s render/crop,25.022s OCR;
 696.210s reviewinterval includes tool/context waits.
 March now29 readable,onepartial,fourgroups,10unclassified;all44 identities intact.
-Next follow `private/pdf-restoration/12-1984-03-batch-35/next-checkpoint.json`:
-batch36 restores shape220–225;226–227andfull218–227assemblyfollow.
-219endscompletebinaryexampleparagraph;220newparagraph,nophysicaltextcarry.
-Wholeissue remains incomplete.
+Batch36/shape restores220–225: 56 regions,30 blocks,nine figures,153 physical
+BASIC rows (82 numbered,71 wraps/blank rows),55 indexed examples and16 prose
+boundaries. Main listing has150 rows; separate error patch hasthree rows.
+Tables2/3 have searchable transcripts; captions preserve their table/figure namespace.
+Page222 variable list joinsr25→r27; main prose joinsr28→r29→r34→r26→r35→r36→r37→r38.
+The top-middle prompt fragment belongs after bottom-leftDO-, retaining DO-NE.
+Source000000111,38400,1952-byte length,25kilobytes/22kilobytes claims,FINISH,
+NOW-MAX,missing division glyphs in130/1270,ASV260 andBY920 remain literal.
+Final recipe is private batch36/shape (no revised directory). Initial package attempt
+is preserved after correcting a nine-bit transcription and outgoing metadata fields.
+No crops or OCR settings changed. Exact rebuild and126 prior native/sixteen assembly
+preservation checks pass.56 tasks,zero failures:61.041s tasktime,28.238s render/crop,
+27.100s OCR;1049.494s review interval includes tool/context waits.
+Next follow `private/pdf-restoration/12-1984-03-batch-36/next-checkpoint.json`:
+batch37 finishes shape226–227 and assembles218–227; may beginA/D228–231 after
+extent verification. Use opening(batch35),middle(batch36),ending(batch37).
+219/220 has no physical fragment carry. Main225 ends1300;226 begins1310.
+Middle outgoing untyped listing declaration names block`listing-a`; incoming must use
+kind`listing-block`,prior_segment`middle`,prior_block_id`listing-a`,actual ending
+block_id,prior_printed_line1300,printed_line1310,join_separator newline,no direction.
+Preserve native bytes; six obsolete scope notes expected at assembly.
+Counts remain29 readable/one partial/four groups/10 unclassified. Wholeissue incomplete.
 Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck
 정보레이다124–131againstcanonicaltoc0040. Earlierbatch21unlistedexclusionmay
 need correction;do not rely on it to omit an eligible listed body.

@@ -8809,3 +8809,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Nextbatch36 restores shape220–225;226–227andfullassemblyfollow. Wholeissue
   incomplete. Advertisingindex204and정보레이다124–131classification reconciliation
   remain queued before issue closeout.
+
+
+### 2026-10-03 — March batch36: shape-table explanation and listing opening
+
+- Restored shape-table article pages220–225 within six source pages/one article.
+  Four lookup pages219,226–228 support the verified218–227 extent and next A/D
+  article228. Opening218–219 remains unchanged; final226–227 and assembly remain.
+- Package contains56 regions,30 blocks,nine original images,nine linked captions,
+  153 physical BASIC rows and55 indexed prose/table examples. Separate error patch
+  hasthree physical rows; main listing has150 (80 numbered,70 wraps/blank rows).
+  All47 text regions andnine image boundaries compared with enlarged scans.
+- Tables2/3 have searchable rows alongside original images; the byte5–11 brace
+  label appears once with an explicit representation note. Other diagrams retain
+  their original labels as images. Sixteen prose boundaries andone listing-column
+  boundary are source-reviewed.
+- Page222 has nonlinear text flow: variable list continuesr25→r27; prose andsplit
+  prompt followr28→r29→r34→r26→r35→r36→r37→r38. Regional source positions remain
+  traceable. Printed DO-NE hyphen and unmatched closing quote are preserved.
+- Preserved nine-bit000000111,38400 table start,1952-byte length,25kilobyte/22kilobyte
+  claims,FINISH/NOW-MAX,buffer-condition prose andliteral quoted messages. Main
+  listing retains PRINT D$ = CHR$ form,SHAPE MANIPULATE,ASV260,BY920,X prompt380,
+  and absent division glyphs in130/1270. No technical or executable repairs.
+- Native listing wraps,split identifiers/numbers andblank rows remain indexed.
+  Spacing/string padding andindistinct punctuation are explicitly uncertain.
+  Main225 endsline1300; outgoing listing-block declaration points to226line1310.
+  Prose ends224＊. No219/220 physical text carry was invented.
+- Initial package attempt retained after correcting the source nine-bit transcript
+  and matching outgoing metadata to the existing assembly schema. No OCR settings
+  changes,crop repairs or tooling changes. Existing90-test baseline remains current.
+- Fresh native rebuild is byte-identical; byte indexes,joins,captions,raw OCR/scans
+  andsettings pins pass.126 prior packages and16 prior assemblies validate unchanged.
+  JSON/assets only; publisher content remains outside Git.
+- 56 executed tasks,zero failures:61.041s tasktime,28.238s render/crop,27.100s OCR.
+  Review interval1049.494s includes tool/context waits,not active human labor.
+  Exact backend/stage-token measurements unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-36/shape`; final recipe under
+  private batch36/shape (no revised directory). Metrics,validation andledger saved.
+  Shape218–225 is represented by two immutable segments.
+- March remains **29 readable/sample-reviewed articles,one partial article,four
+  non-owning group headings and10 unclassified entries**; all44 identities intact.
+  Nextbatch37 finishes shape226–227 and assembles218–227,then may beginA/D228–231
+  after extent verification within batch limits. Wholeissue remains incomplete.
+  Advertisingindex204 and정보레이다124–131 reconciliation remain queued.
