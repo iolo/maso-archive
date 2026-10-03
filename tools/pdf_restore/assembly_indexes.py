@@ -5,6 +5,7 @@ combined downloads; source ranges and segment-local identities remain explicit.
 """
 from collections import Counter
 from copy import deepcopy
+import re
 
 from .assemble import project_legacy, rebase, text_bytes
 
@@ -362,7 +363,10 @@ def project_indexes(recipe, originals):
                 corrections['logical_listing_line_index'].append(logical)
             elif row.get('printed_line_visible', True):
                 value = span(row, context.listing).lstrip()
-                if not value.startswith(str(row['printed_line']) + ' '):
+                number_token = re.match(r'([0-9]+) ', value)
+                if (not value.startswith(str(row['printed_line']) + ' ') and
+                    not (number_token and type(row['printed_line']) is int and
+                         int(number_token[1]) == row['printed_line'])):
                     raise ValueError('Printed line differs from indexed bytes')
                 occurrences[key] += 1
                 logical = dict(listing_id=key[0], printed_line=key[1], occurrence=occurrences[key],

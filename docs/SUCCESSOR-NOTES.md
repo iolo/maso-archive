@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–33 and fourteen article assemblies are complete.
+delivery is required. March batches01–34 and fifteen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -374,10 +374,31 @@ Threeprosejoins:206있으므로/F800space,206/207프로그램을/작성해야spa
 Exactnative/assemblyrebuilds pass;120 earlier natives/13assemblies unchanged.
 44 tasks,zero failures,no repairs:67.991s tasktime,35.899s render/crop,28.274s OCR;
 393.845s reviewinterval includes waits. No toolingchanges or baseline-test rerun.
-March now27 readable,onepartial,fourgroups,12unclassified;all44 identities intact.
-Next follow `private/pdf-restoration/12-1984-03-batch-33/next-checkpoint.json`:
-batch34 completesmachine208–209and assembles206–209,thenmaybegininterface210–213
-within sixsourcepages after verifyingextent. Wholeissue remains incomplete.
+Batch34/machine completes208–209:15 regions,11 blocks,two diagrams,35 physical
+assembly rows andtwo prose boundaries. Listing2has17 unnumbered declaration/address
+rows;listing3has18 printed01–18 rows. ORGwithoutoperand,BNEFB,PEA,ORA,address
+and prosebyteorder discrepancies remain literal. Referenceauthor조신휘uncertain.
+Complete `build/pdf-restoration/12-1984-03-machine` covers206–209:32 regions,
+24 blocks,three images and40 listing rows. Two native packages unchanged;five native
+prose boundaries,no crosssegment fragmentcarry,four obsolete scope notes resolved.
+Batch34/interface restores210–213ofverified210–217:28 regions,13 blocks,seven
+images,eight prose boundaries. Title/subtitle overlap artwork intentionally;parallel
+road illustration remains two original panels with shared caption context. Active-low
+signal bars use combiningU+0305;plain occurrences stay plain. Carrage Return,
+개안,repeatedACKlow transition and historical electricalclaims remain source forms.
+Finalrecipes private batch34/machine andbatch34/interface;no reviseddirectories.
+Initial package attempt retained for corrected listing-anomaly row references.
+Assembler accepts zero-padded printednumbers indexed as integers while retaining
+legacy string-valued numbers unchanged.89 PDFtests pass. Exactnative/assembly
+rebuilds and122 earlier native/fourteen assembly preservation checks pass.
+43 tasks,zero failures,no repairs:85.798s tasktime,49.812s render/crop,31.744s OCR;
+928.171s reviewinterval includes tool/context waits.
+March now28 readable,onepartial,fourgroups,11unclassified;all44 identities intact.
+Next follow `private/pdf-restoration/12-1984-03-batch-34/next-checkpoint.json`:
+batch35 completesinterface214–217and assembles210–217,thenmaybeginshape218–219
+within sixsourcepages after verifyingextent. Incomingproseprior_segmentopening,
+prior_regionr28,prior_text_end끼칠수→214도있다.;joinseparatornone.
+Wholeissue remains incomplete.
 Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck
 정보레이다124–131againstcanonicaltoc0040. Earlierbatch21unlistedexclusionmay
 need correction;do not rely on it to omit an eligible listed body.

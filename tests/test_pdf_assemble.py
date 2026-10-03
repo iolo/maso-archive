@@ -420,6 +420,38 @@ class PDFAssemblyTests(unittest.TestCase):
             join_separator='\n', note='No split physical row')]
         return segments
 
+    def test_printed_line_numbers_preserve_leading_zeros_and_reject_mismatches(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.listing_block_segments()
+        for i, (source, correction) in enumerate(segments, 1):
+            text = f'{i:02}' + source['blocks'][0]['text'][2:]
+            source['blocks'][0]['text'] = text
+            correction['blocks'] = deepcopy(source['blocks'])
+            correction['regional_transcription'] = {'code': text}
+            correction['listing_line_index'][0]['printed_line'] = i
+            correction['segment_continuations'] = []
+        original = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, original)
+        self.assertEqual(text_bytes(package)[1], b''.join(text_bytes(p)[1] for p, _ in original))
+        self.assertEqual([r['printed_line'] for r in correction['logical_listing_line_index']], [1, 2])
+        legacy = deepcopy(original)
+        for i, (_, native) in enumerate(legacy, 1):
+            native['listing_line_index'][0]['printed_line'] = f'{i:02}'
+        legacy_package, legacy_correction = project(self.recipe, legacy)
+        self.assertEqual(text_bytes(legacy_package)[1], text_bytes(package)[1])
+        self.assertEqual([r['printed_line'] for r in legacy_correction['logical_listing_line_index']], ['01', '02'])
+        for prefix in ('03', '1X', '-1'):
+            with self.subTest(prefix=prefix):
+                invalid = deepcopy(original)
+                source, native = invalid[0]
+                text = prefix + source['blocks'][0]['text'][2:]
+                source['blocks'][0]['text'] = text
+                native['blocks'] = deepcopy(source['blocks'])
+                native['regional_transcription'] = {'code': text}
+                with self.assertRaisesRegex(ValueError, 'Printed line differs from indexed bytes'):
+                    project(self.recipe, invalid)
+
     def test_listing_block_boundary_preserves_separate_rows_and_native_records(self):
         from tools.pdf_restore.assemble import text_bytes
         segments = self.listing_block_segments()

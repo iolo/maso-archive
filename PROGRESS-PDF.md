@@ -8718,3 +8718,49 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Wholeissue incomplete. Laterrestore listedadvertisingindex204 separately and
   reconcile정보레이다124–131withcanonicaltoc0040;earlierunlistedexclusionis not
   sufficient evidence to omit an eligible listed body.
+
+
+### 2026-10-03 — March batch34: machine-language article assembled; interface opened
+
+- Restored208–213 within six source pages/two articles. Six lookup pages207,
+  214–218 verify boundaries. Interface article runs210–217;nextshapearticle218.
+- Machine ending208–209:15 regions,11 blocks,two original diagrams,35 physical
+  assembly rows and50 indexed prose examples. Two prose joins andtwo diagram/two
+  listing captions checked. Listing2has17 declaration/address rows,all unnumbered;
+  listing3has18 numbered rows01–18. Leading zeros remain in the source transcript.
+- Preserved ORGwithoutoperand,printedaddressincrements,BNEFB,PEA,unspacedORA,
+  upper/lowerbyte claims,BDat0853versusdiagram0854,andCALL&H12. Referenceauthor
+  조신휘 is uncertain. Lastmonth correction is archived,not execution-certified.
+- Complete206–209 assembly:32 regions,24 blocks,three images,40 physical listing
+  rows and83 indexed native prose examples. Both segments remain byte-identical;
+  five native prose boundaries andfour resolved scope notes.207ends a complete
+  paragraph before208listing2;no crosssegment fragmentcarry was invented.
+- Interface opening210–213:28 regions,13 blocks,seven images,eight prose boundaries.
+  Originaltitleart overlaps searchable title/subtitle by design. The parallel-road
+  illustration remains two separate source panels;gutter clipping is not reconstructed.
+  Three captions linked;pinchart interior labels remain image-authoritative.
+- Preserved Hand-/shake hyphen,알/려,상/태,하/나,에/서는 and수/월해 joins.
+  Active-low bars use combiningU+0305;plain signal names remain plain where printed.
+  Carrage Return,개안,repeatedACKlow transition,TTLlevels andhistorical grounding
+  claims remain literal.213ends끼칠수;214begins도있다.,deferrednoseparatorjoin.
+- All34 text regions andnine figure boundaries reviewed against enlarged scans.
+  No crop repairs or OCRsettingschanges. Initial package attempt retained after
+  correcting listing-anomaly physical-row references;source/transcript bytes unchanged.
+- Assembly validation exposed zero-padded numeric line labels with integer indexes.
+  The checker now accepts those labels while preserving existing string-valued line
+  numbers and rejecting mismatched/malformed labels. A regression fixture covers
+  preservation and rejection. All89 PDFtests pass;log private batch34/tests-final.log.
+- Native and full assembly exports rebuild byte-identically. Byte indexes,joins,
+  caption links,raw OCR/scans/settings pins pass.122 prior native packages and14
+  prior assemblies validate unchanged. JSON/assets only.
+- 43 executed tasks,zero failures:85.798s tasktime,49.812s render/crop,31.744s OCR.
+  Review interval928.171s includes tool/context waits,not active human labor.
+  Exact backend/stage-token measurements unavailable.
+- Outputs `build/pdf-restoration/12-1984-03-batch-34/{machine,interface}` and
+  `build/pdf-restoration/12-1984-03-machine`. Finalrecipes private batch34/machine
+  andbatch34/interface. Metrics,classification,validation andledger saved.
+- March now has **28 readable/sample-reviewed articles,one partial article,four
+  non-owning group headings and11 unclassified entries**. All44 identities intact.
+  Nextbatch35 completesinterface214–217andassembles210–217;shape218follows.
+  Wholeissue incomplete. Listedadvertisingindex204and정보레이다124–131classification
+  reconciliation remain explicitly queued before issue closeout.
