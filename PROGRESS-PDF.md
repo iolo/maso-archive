@@ -8852,3 +8852,49 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Nextbatch37 finishes shape226–227 and assembles218–227,then may beginA/D228–231
   after extent verification within batch limits. Wholeissue remains incomplete.
   Advertisingindex204 and정보레이다124–131 reconciliation remain queued.
+
+
+### 2026-10-03 — March batch37: shape-table article assembled; A/D article opened
+
+- Restored226–231 within six source pages/two articles. Nine lookup pages225,
+  232,238–244 verify boundaries. A/D runs228–241;242is an unlisted contest call,
+  243matchescanonical0044contestresults andremains separately queued,244wordprocessor.
+- Shape ending226–227: nine regions,four blocks,two original plots,236 physical
+  listing rows (80 numbered,156 wraps/blank rows) and34 indexed printed-output rows.
+  Listing ends63999; source output follows. No execution-based claims are made.
+- Three internal listing boundaries preserve21065ASV/E,26010across226/227,
+  and48020number77/4. PrintedCRAET,NAME without dollar20020,S*MAX21050,ASV26010,
+  doublecolon27050,N+1>NOWMAX27060,andAN<=ASVE+BS31000remain literal.
+  String padding,indentation andsmall punctuation remain explicitly uncertain.
+- Complete218–227assembly:83 regions,45 blocks,15 original images,389 physical
+  listing rows,110 indexed native examples,19 native prose boundaries andone
+  crosssegment listing-block link1300→1310. Six obsolete scope notes resolved.
+  Allthree native packages stay exact; source prose/code blocks andlisting bytes
+  remain unchanged. Assembly figure placeholders use namespaced figure IDs.
+- A/D opening228–231:27 regions,14 blocks,seven images,four linked figure captions,
+  19 indexed examples andsix prose boundaries. Diagram labels remain original
+  images. Title art andthe photo's text cutout intentionally overlap searchable text.
+- Source narrative order is228→231→230→232 despite the printed folios. Basic
+  paragraph joins228때까지→231변한다; counter explanation joins231리세트시키/고,
+  입력/전압,formula→230단,newline,and230만/큼. Original source locations unchanged.
+  Outgoing230r18단계적으로→232로 변한다. is declared with no separator.
+- Preserved위 경우는 온도,quantized error,comparator polarity conflicting with
+  figure14,and10bit/1MHz/1.024msec/1000회claims. Subscripts useunderscore notation,
+  exponent n usesⁿ; dropcap아 rejoined. No historical technical correction.
+- All27 text regions andnine image boundaries reviewed against enlarged scans.
+  Shape r08rightedge andA/D r22diagram edges each repaired once; original evidence
+  preserved. OCRsettings unchanged. Finalrecipes private batch37/shape/revised
+  andbatch37/ad/revised. No tooling change;90-test baseline remains current.
+- Native andfull assembly exports rebuild byte-identically. Byte indexes,joins,
+  captions,source pins andraw OCR/scans pass.127 prior native packages and16
+  prior assemblies validate unchanged. JSON/assets only; content remains outside Git.
+- 38 executed tasks (36 initial,two repairs),zero failures:48.248s tasktime,
+  31.140s render/crop,15.122s OCR. Review interval559.303s includes tool/context
+  waits,not active human labor.
+- Outputs `build/pdf-restoration/12-1984-03-batch-37/{shape,ad}` and
+  `build/pdf-restoration/12-1984-03-shape`. Metrics,classification,validation andledger
+  saved under private batch37. Stage-specific token/backend measurements unavailable.
+- March now has **30 readable/sample-reviewed articles,one partial article,four
+  non-owning group headings andnine unclassified entries**; all44 identities intact.
+  Nextbatch38 restoresA/D232–237;238–241andassemblyfollow. Wholeissue incomplete.
+  Advertisingindex204,정보레이다124–131reconciliation andcontestresults243remain queued.

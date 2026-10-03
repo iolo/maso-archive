@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–36 and sixteen article assemblies are complete.
+delivery is required. March batches01–37 and seventeen article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -425,15 +425,36 @@ is preserved after correcting a nine-bit transcription and outgoing metadata fie
 No crops or OCR settings changed. Exact rebuild and126 prior native/sixteen assembly
 preservation checks pass.56 tasks,zero failures:61.041s tasktime,28.238s render/crop,
 27.100s OCR;1049.494s review interval includes tool/context waits.
-Next follow `private/pdf-restoration/12-1984-03-batch-36/next-checkpoint.json`:
-batch37 finishes shape226–227 and assembles218–227; may beginA/D228–231 after
-extent verification. Use opening(batch35),middle(batch36),ending(batch37).
-219/220 has no physical fragment carry. Main225 ends1300;226 begins1310.
-Middle outgoing untyped listing declaration names block`listing-a`; incoming must use
-kind`listing-block`,prior_segment`middle`,prior_block_id`listing-a`,actual ending
-block_id,prior_printed_line1300,printed_line1310,join_separator newline,no direction.
-Preserve native bytes; six obsolete scope notes expected at assembly.
-Counts remain29 readable/one partial/four groups/10 unclassified. Wholeissue incomplete.
+Batch37/shape completes226–227: nine regions,four blocks,two original plots,
+236 physical listing rows (80 numbered,156 wraps/blank rows),34 indexed output rows.
+Internal code carries21065ASV/E,26010across226/227,and48020number77/4 retained.
+PrintedCRAET,NAME without dollar20020,S*MAX21050,ASV26010,doublecolon27050,
+N+1>NOWMAX27060 andAN<=ASVE+BS31000 remain literal; no program repair/execution.
+Full shape218–227 assembly at`build/pdf-restoration/12-1984-03-shape`:10 pages,
+83 regions,45 blocks,15 figures,389 physical listing rows,110 native examples,
+19 native prose boundaries andone1300→1310listing-block link. Three native
+segments remain exact; six obsolete scope notes resolved. Article figure placeholders
+use namespaced IDs; source prose/code blocks andlisting concatenation stay exact.
+Batch37/ad opens228–231ofverified228–241:27 regions,14 blocks,seven images,
+four figure captions,19 examples andsix prose boundaries. Source narrative order
+228→231→230→232 differs from printed folios. Joinr10→r20 forbasic paragraph;
+counter flowr21→r24→r25→r16→r17. Source page/region IDs remain unchanged.
+Figure12–15innerlabels remainimages;title/photo text overlap explicitly recorded.
+Subscripts useunderscore notation andUnicode exponentⁿ. Printed위 경우는 온도,
+comparator polarity discrepancy andtiming claims preserved. Dropcap아 restored.
+Finalrecipes private batch37/shape/revised andad/revised. Shape r08right andad r22
+edges widened once each; original evidence retained. OCR settings unchanged.
+Exact native/assembly rebuilds and127 prior native/sixteen assembly checks pass.
+No tooling changes;90-test baseline retained. Metrics are in private batch37/metrics.json.
+Next follow `private/pdf-restoration/12-1984-03-batch-37/next-checkpoint.json`:
+batch38 restores A/D232–237;238–241andassemblyfollow. Opening230r18ends단계적으로;
+232begins로 변한다. Incoming kindprose,prior_segmentopening,prior_regionr18,
+prior_text_end단계적으로,text_start로 변한다.,join_separator empty,no direction.
+Printed231material is already placed before230; do not relocate source IDs.
+A/D241endswithconclusion/asterisk.242unlistedcontestcall excluded;243matches
+canonical0044공모결과발표 andmust be restored separately;244wordprocessor begins.
+March now30 readable,one partial,four groups,nine unclassified;all44 identities intact.
+Wholeissue remains incomplete.
 Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck
 정보레이다124–131againstcanonicaltoc0040. Earlierbatch21unlistedexclusionmay
 need correction;do not rely on it to omit an eligible listed body.
