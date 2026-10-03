@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–20 and seven article assemblies are complete.
+delivery is required. March batches01–21 and seven article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -144,13 +144,27 @@ are retained. Original hardware claims,adressing,그리고인가 and4-before-fiv
 operand list remain source forms. Figure1/2 right edges widened once each;initial
 images preserved. Final recipe is private batch20/z80/revised. Exact rebuild and
 103 prior native/seven assembly preservation checks pass. No engine change.
-Page39 취미생활 and81 교육입문 are non-owning group headings; promotional80
-has no independent article body. March has twenty readable articles,no partial
-articles,two group headings and22 unclassified entries;issue closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-20/next-checkpoint.json`:
-batch21 inspects intervening124–133 and business heading0022,then verifies
-심층적 회귀분석134 extent and restores first≤6sourcepages. Lookup124 is reviewed;
-125–134 were rendered in batch20 but not reviewed or used. Reuse those images.
+Batch21 restores 심층적 회귀분석134–139 of verified134–154 at
+`build/pdf-restoration/12-1984-03-batch-21/regression`:65 regions,61 blocks,two
+original images,101 physical rows in eight groups and71 indexed prose table/example
+rows. BASIC DATA has12 physical rows(five numbered and seven wraps);seven source
+screen groups have89 rows. Two column prose boundaries joined. Opening artwork
+includes separately searchable introduction; office photo has no invented caption.
+Blank ninth Y cell,small table139 versus130,uncertain apostrophe90/190,coefficient
+6/5 and screenF/R remain explicit. Printed9000 parameters differ across examples;
+NF,TRNSGENERATED,TRANSGENETED,CORELATION and공산분 are literal. No statistical
+or executable repairs. Mathematical notation normalized for search; regional scans
+remain authoritative. Decorative dot/colon/rule counts and column spacing approximate.
+Final recipe is private batch21/regression/revised. r34/r36 prose right edges widened
+once each; initial evidence retained. Fresh rebuild matches;104 prior natives and
+seven assemblies pass preservation checks. Page133 비지니스 is the third non-owning
+group heading,after39 취미생활 and81 교육입문. Unlisted news124–131 and notice132
+are excluded. Classification and lookup evidence are pinned under private batch21.
+March has20 readable articles,one partial article,three group headings and20
+unclassified entries; all44 canonical IDs/titles/parents preserved;issue closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-21/next-checkpoint.json`:
+batch22 maps/restores regression140–145. Page140 continues example step④;
+140–154 remain to restore and assemble with134–139. Article ends154 beforeVISICALC155.
 Continue unchanged Tesseract plus scan-based semantic review within existing
 six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain

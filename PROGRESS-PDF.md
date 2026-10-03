@@ -8187,3 +8187,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   preserved;whole-issue export pending. Next batch21 checks intervening124–133 and
   business heading0022,then verifies 심층적 회귀분석134 extent and restores within
   existing bounded limits using unchanged Tesseract/semantic review.
+
+
+### 2026-10-03 — March batch21: regression opening134–139
+
+- Restored 심층적 회귀분석134–139 by 신동완,대림산업 기획조정실. Boundary
+  lookup verifies the ending154 beforeVISICALC155; detailed140–154 restoration
+  and full article assembly remain. Six source pages and13 lookup pages used.
+- Classified business divider133 as non-owning group0022. Unlisted 정보레이다
+  news124–131 and contest notice132 excluded from body restoration. All lookup
+  scans and classification decisions pinned; no global folio-offset assumption.
+- Package contains65 regions,61 blocks,two original images,101 physical rows
+  across eight code/screen groups,71 byte-indexed table/example rows and two prose
+  column joins. BASIC DATA includes five numbered rows and seven physical wraps;
+  seven printed screen groups contain89 rows. Screens are source evidence,not
+  execution results from this restoration. All tables remain searchable with
+  tab-separated columns and blank cells; source crops preserve original layout.
+- Preserved blank ninth Y value,small139/earlier130 discrepancy,uncertain
+  apostrophe90/190 and coefficient6/5. Later code/screen values remain separately
+  literal. DATA9000 examples disagree onNZ/NL; printed screenNZ1/NL0 is unchanged.
+  Transformation15/16 formulas,missing-looking parentheses,baseline3,sourceNF,
+  TRNSGENERATED,TRANSGENETED,J TN,CORELATION and공산분 remain original forms.
+- Mathematical typography uses documented Unicode/plain notation for search.
+  Matrix rows use bracket/semicolon notation. Exact code alignment,decorative
+  dot/colon/rule counts,tiny glyphs and math typography remain scan-authoritative.
+  No historical mathematics or program repaired; full character-perfect review deferred.
+- Opening artwork and office photograph retained. Artwork rectangle includes part
+  of the separately searchable introduction by design. No figure captions invented.
+  Prose right edges r34/r36 widened once each; initial evidence preserved. OCR
+  engine/configuration unchanged.
+- All region coverage,text/listing/example byte ranges,joins,source/raw hashes and
+  fresh byte-identical rebuild pass.104 prior native packages and seven assemblies
+  pass read-only preservation checks. No tooling changes or repeat baseline suite;
+  JSON/assets only.
+- 67 executed tasks(65 initial,two repairs),zero failures:48.597s aggregate task
+  time,26.338s render/crop and16.857s OCR. Review interval1042.015s includes tool
+  and context waits,not active human labor. Backend/stage-token details unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-21/regression`; final recipe under
+  `private/pdf-restoration/12-1984-03-batch-21/regression/revised`. Initial evidence,
+  transcripts,diffs,metrics,validation and next checkpoint remain private.
+- March now has **20 readable/sample-reviewed articles,one partial article,three
+  non-owning group headings and20 unclassified entries**. All44 canonical IDs,
+  titles and parents preserved; whole-issue export pending. Next batch22 restores
+  regression140–145 with unchanged Tesseract/semantic review within existing limits.
