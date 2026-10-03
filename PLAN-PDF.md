@@ -226,9 +226,17 @@ PDF250 bears252 and begins tunnelgame. The surviving listing ends within3190;
 with all available pages restored and no invented continuation or program repair.
 Canonical0034공모입선작 is a non-owning group supported by its two awarded children.
 Exact rebuild and132 prior native/eighteen assembly checks pass;OCR unchanged.
-March has32 readable articles,one source-gap partial,five groups and six unclassified.
-Next batch41 restores tunnelgamePDF250–252/printed252–254 anddebugPDF253/printed255.
-Follow private/pdf-restoration/12-1984-03-batch-40/next-checkpoint.json.
+Batch41 completes tunnelgamePDF250–252/printed252–254:13 regions,seven blocks,
+two images,198 physical listing rows (97 numbered),34 indexed examples andtwo
+prose boundaries. DebuggingroomPDF253/printed255:12 regions,nine blocks,two images,
+25 physical listing rows in three correction groups,seven numbered labels andeight
+indexed examples. Published corrections remain separate from earlier native articles;
+PRINT graphicG870 retains an undecoded marker linked to its scan. Four one-time
+crop repairs preserve initial evidence;OCR settings unchanged. Exact rebuilds,
+all indexes and133 prior native/eighteen assembly preservation checks pass.
+March has34 readable articles,one source-gap partial,five groups andfour unclassified.
+Next batch42 restores Q&A PDF254–257/printed256–259 andlistedadvertisingindexlower204.
+Follow private/pdf-restoration/12-1984-03-batch-41/next-checkpoint.json.
 Before issue closeout, restore listed advertisingindex204 separately and recheck
 정보레이다124–131 against canonicaltoc0040; earlier exclusion needs reconciliation.
 The active objective is all remaining March content, not one bounded checkpoint.

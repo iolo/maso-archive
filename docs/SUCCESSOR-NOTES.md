@@ -503,14 +503,35 @@ No crop repair or OCR retry. Native byte-identical rebuild,all indexes and132 pr
 native/eighteen assembly checks pass. No tooling change;90-test baseline current.
 Canonical0034공모입선작 classified non-owning from canonical children plus244
 최우수상/printed252우수상 banners; no independent body or divider invented.
-Next follow `private/pdf-restoration/12-1984-03-batch-40/next-checkpoint.json`:
-restore tunnelgamePDF250–252/printed252–254 anddebugPDF253/printed255 after verifying
-boundaries. Q&A isPDF254–257/printed256–259. Folios diverge after249; never assume
-PDFnumbers are printed numbers.242 contest call stays excluded.
-March now32 readable articles,one terminalsource-gap partial,five groups,six
+Batch41 completes tunnelgamePDF250–252/printed252–254:13 regions,seven blocks,
+two images,198 physical listing rows/97 numbered labels,34 indexed examples,
+two prose boundaries and two listing boundaries. Source5140RETURN closes article.
+Guide126less-than0/133 versuscode>=0/135,guide5130 versusGOSUB5000,SB0(O/0uncertain),
+HOME::,TM=VV,repeatedLO=PEEK expression andsourceEnglish remain literal.
+DebugPDF253/printed255 completes canonical0041:12 regions,nine blocks,two images,
+25 physical rows/7 numbered labels in three independent correction groups,eight
+indexed examples and one listing-column boundary. Four errata references remain
+separate from older native packages. Paper-tape art andcorrectedaccountingflowchart
+retained. Subway870 PRINTglyph is⟦G870⟧,with encodedbytes/count null andscanlink;
+LOCATEN,R andMicrotextLN/LIN,C7,ZO(O/0uncertain) retained. Endingasterisk recorded
+separately fromcode. These are correctionfragments,not complete programs.
+Recipes privatebatch41/{tunnel,debug}/revised;exports build/pdf-restoration/
+12-1984-03-batch-41/{tunnel,debug}. One-timecrop repairs:tunnelr05/r11/r12right,
+debugr11left;initialevidence retained.29 executedtasks,zeroOCRfailures,42.1343s task,
+25.9985s rendering,12.7598s OCR,826.1070s reviewinterval includingtool/contextwaits.
+Indexvalidation caught two numericwraprows(0 TO20,00 PTS);explicitphysicalrow
+overrides keep themunnumbered. Initialindex exports saved inprivatebatch41/index-attempt;
+article/listing bytes remain identical. Exact rebuilds,all indexes and133 prior
+native/eighteen assemblychecks pass. No toolingchange;90-test baseline current.
+Next follow `private/pdf-restoration/12-1984-03-batch-41/next-checkpoint.json`:
+restore Q&A PDF254–257/printed256–259 andlistedadvertisingindexlowerPDF/printed204.
+Folios diverge after249;never assumePDFnumbers areprintednumbers.242contestcall
+andPDF258/printed260promotionalmaterial remainexcluded.
+March now34 readable articles,one terminalsource-gap partial,five groups,four
 unclassified;all44 identities intact.
-Whole issue remains incomplete. Canonical0038정보모음 group,0041디버깅룸 and0042Q&A
-also require classification/restoration before final issue accounting and JSON/assets export.
+Whole issue remains incomplete. Canonical0038정보모음 group,0040정보레이다,0042Q&A
+and0043광고색인 still require classification/restoration before final issue accounting
+and JSON/assets export.
 Beforeissuecloseout, handle listedadvertisingindex204 separately;recheck
 정보레이다124–131againstcanonicaltoc0040. Earlierbatch21unlistedexclusionmay
 need correction;do not rely on it to omit an eligible listed body.

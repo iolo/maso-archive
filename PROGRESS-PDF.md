@@ -9012,3 +9012,41 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and six unclassified entries**,with all44 canonical identities intact. Whole issue
   remains incomplete. Next: tunnelgamePDF250–252/printed252–254 anddebugPDF253/
   printed255; Q&A,listed advertisingindex204 and정보레이다 reconciliation follow.
+
+
+### 2026-10-04 — March batch41: tunnel game and debugging room
+
+- Restored canonical0036터널 통과 게임 onPDF250–252/printed252–254 and0041디버깅 룸
+  onPDF253/printed255. Four source pages/two articles andtwo lookup pages249,254.
+  Game listing5140RETURN closes254;debuggingroom ends withasterisk255;Q&A starts256.
+- Tunnelgame:13 regions,seven blocks,two original images,198 physical listing rows,
+  97 numbered labels,34 indexed examples,two prose boundaries andtwo listing joins.
+  Preserved physical string/identifier/number wraps,guide126less-than0/133 versus
+  code>=0/135,guide5130 versusGOSUB5000,SB0(O/0uncertain),HOME::,TM=VV,repeatedLO=PEEK
+  expression andsourceEnglish. No runnable-source or execution claim.
+- Debuggingroom:12 regions,nine blocks,two original images,25 physical listing rows,
+  seven numbered labels in three correction groups,eight indexed examples andone
+  code-column join. Four published corrections referenceFLIP-ITII,Microtext,the
+  accounting flowchart andsubwaygame. Kept these as their own article;earlier native
+  packages remain unchanged. Original paper-tape art andcorrectedflowchart retained.
+- Subway870's solid graphic is represented by⟦G870⟧with its authoritative scan;
+  encodedbytes andcharacter count remain unknown. PrintedLOCATEN,R,MicrotextLN/LIN,
+  C7 andZO(O/0uncertain) remain literal. The closingasterisk is recorded separately
+  from BASIC. Exact small glyphs/string padding andfull proofreading remain deferred.
+- Reviewed every mapped text andimage region. Widened three tunnel right boundaries
+  (screenr05,listingr11/r12) anddebugproser11left once each. Initial crops preserved;
+  all other cached evidence unchanged.29 regiontasks (25initial+4repairs),zeroOCR
+  failures;42.1343s task elapsed,25.9985s rendering,12.7598s OCR. Reviewinterval
+  826.1070s includes tool/contextwaits andindexcorrection,not active humanlabor.
+- Indexvalidation found two wrapped numericrows misclassified aslabels. Explicit
+  source-backed row overrides mark0 TO20and00 PTSunnumbered. Initialattemptexports
+  retained;article/listing bytes are unchanged. Both final packages rebuild exactly;
+  byteindexes,captions,joins,rawOCR/scans andsettings pass.133 prior nativepackages
+  and18 assemblies validate unchanged. No toolingchange;90-test baseline remains current.
+- Recipes privatebatch41/{tunnel,debug}/revised;exports under
+  `build/pdf-restoration/12-1984-03-batch-41`. Ledger,metrics,classification andnext
+  checkpoint updated. Stage-specifictokens/exactbackend measurements unavailable.
+- March now has **34 readable articles,one terminal source-gap partial,five groups
+  andfour unclassified entries**,with all44 identities intact. Wholeissue incomplete.
+  Next:Q&A PDF254–257/printed256–259 andlisted advertisingindexlower204,then
+  information-section reconciliation andthefull issue JSON/assets export.
