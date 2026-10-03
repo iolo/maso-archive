@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–11 and three article assemblies are complete.
+delivery is required. March batches01–12 and four article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -40,12 +40,23 @@ Batch11/puzzle restores70–72 of verified70–73:12 regions,nine blocks,two ima
 67 numbered program rows through3325. Literal guide3340/code3400 discrepancy and
 missing3185 remain explicit. Page73 starts3330 and ends9580 P=1:RETURN;74 begins
 매직 스퀘어. No crop repair or OCR retry in this batch.
-Page39 is a non-owning 취미생활 group heading. March has nine readable articles,
-one partial article,one group heading and33 unclassified entries; closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-11/next-checkpoint.json`:
-batch12 restores puzzle73 and assembles70–73. Verify the next article's extent
-before including it within two articles/six source pages. Printed/PDF67–74 checked
-locally; do not extrapolate a global page offset.
+Batch12 completes puzzle73 and assembles70–73 at
+`build/pdf-restoration/12-1984-03-puzzle`:13 regions,10 blocks,two images,133
+program rows and one prose join. Both native segments are preserved unchanged.
+Batch12/magic completes 매직 스퀘어74–76:12 regions,six blocks,one original
+illustration and182 physical rows (86 numbered,96 continuations). Its final native
+recipe is `private/pdf-restoration/12-1984-03-batch-12/magic/revised-final`.
+Original and intermediate evidence remain under magic/ and magic/revised/;
+r09/r10/r12 right edges were each widened once. Program3015 crosses76 columns;
+duplicated plus signs,DI/DIR,SCRAMLED and repeated prose particle remain literal.
+Decorative star counts and small punctuation remain uncertain. Native/assembly
+rebuilds match and90 earlier packages pass preservation checks.
+Page39 is a non-owning 취미생활 group heading. March has eleven readable articles,
+no partial articles,one group heading and32 unclassified entries; closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-12/next-checkpoint.json`:
+batch13 starts 당신도 암산왕77. Verify its extent within two articles/six source
+pages. Printed/PDF73–77 checked locally;78–80 lookup images exist in batch12 but
+have not yet been source-reviewed. Do not extrapolate a global page offset.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe

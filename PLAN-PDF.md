@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–11 and three article assemblies are complete: the editorial on
+March batches 01–12 and four article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -46,11 +46,17 @@ The assembly preserves both original segments unchanged. Puzzle70–72 is partia
 12 regions,nine blocks,two images and67 program rows through3325;73 remains.
 Native exports and the hunting assembly rebuild identically;88 earlier packages
 pass preservation checks. Page39's 취미생활 is a non-owning group heading.
-March has nine readable/sample-reviewed articles,one partial article,one group
-heading and33 entries awaiting classification/restoration; the issue is incomplete.
-Next batch12 restores puzzle73,then assembles70–73. 매직 스퀘어 begins74;
-verify its extent before including it within two articles/six source pages.
-Follow private/pdf-restoration/12-1984-03-batch-11/next-checkpoint.json.
+Batch12 completes puzzle73 and assembles70–73:13 regions,10 blocks,two images
+and133 program rows. It also completes 매직 스퀘어74–76:12 regions,six blocks,
+one original illustration and182 physical listing rows (86 numbered,96 wraps).
+Three right-edge crops were widened once each; original/intermediate evidence
+remains unchanged. Source anomalies and uncertain decorative counts remain explicit.
+Fresh native/assembly rebuilds match;90 earlier packages pass preservation checks.
+March has eleven readable/sample-reviewed articles,no partial articles,one group
+heading and32 entries awaiting classification/restoration; the issue is incomplete.
+Next batch13 starts 당신도 암산왕77; verify its extent before mapping within
+two articles/six source pages. Follow
+private/pdf-restoration/12-1984-03-batch-12/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

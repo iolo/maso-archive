@@ -7800,3 +7800,47 @@ history remains in [PROGRESS.md](PROGRESS.md).
   assembles70–73,and may begin 매직 스퀘어74 after verifying its extent. Full
   proofreading,remaining bodies,TOC accounting and whole-issue JSON/assets export
   remain pending; the whole-March goal stays active.
+
+### 2026-10-03 — March batch12: complete puzzle and Magic Square73–76
+
+- Completed puzzle ending73 and all of 매직 스퀘어74–76 within two articles/four
+  source pages. Lookup77 begins 당신도 암산왕 and confirms the Magic Square end.
+  Lookup renders78–80 were also prepared but not source-reviewed or used for this
+  checkpoint. All13 initial tasks and three crop-repair executions completed without
+  OCR failure; Tesseract runtime/configuration remains unchanged.
+- Puzzle ending73 contains66 numbered rows3330–9580. Independently enlarged the
+  letter string4010 and retained its35 characters,including repeated N/O. Korean
+  printer wording,recursive GOSUB9000 and source spacing remain literal. Full puzzle
+  70–73 is readable/sample-reviewed:13 regions,10 blocks,two original images,
+  133 numbered program rows and one variable-table prose join. Opening3325 and
+  ending3330 meet at a complete-row boundary; both native segments are unchanged.
+  Only four coverage/assembly notes were resolved; glyph/source uncertainty remains.
+- Complete Magic Square74–76 is readable/sample-reviewed:12 regions,six blocks,
+  one original screen illustration and182 physical listing rows (86 numbered plus
+  96 wraps). Two prose boundaries reconnect74's 진+다 without space and74/75's
+  그리는+부분이다 with one space. Program3015 continues across76 columns with
+  its THEN and GOTO3010 rows intact. The lower76 advertisement is excluded.
+- Source review preserved duplicated plus signs2040/2221/2223,DI versus DIR,
+  YOUWILL,SCRAMLED and prose A를 를/F자 statements. Decorative borders use22 stars
+  with explicit uncertainty; exact star counts,string spacing and tiny punctuation
+  are not certified. No historical-code repair or execution claim.
+- Widened r09/r10 on75 and r12 on76 once each to retain complete right-edge text.
+  Original and intermediate evidence remain immutable. Checked all13 mapped regions,
+  every physical listing row,13 native anomaly rows,text/listing byte indexes,
+  two prose joins,full illustration boundary and raw OCR/source pins. Fresh native
+  and puzzle-assembly JSON/assets rebuilds match byte for byte; all90 earlier
+  native packages and three earlier assemblies pass read-only preservation checks.
+- Rendering/cropping17.910s,Tesseract7.022s,total task elapsed26.242s,including
+  three repairs. Review,transcription and native packaging interval453.002s
+  (7m33.002s),including tool/context waits,not active human labor. Stage-specific
+  tokens and verified reviewer settings remain unavailable; no model comparison.
+- Outputs: build/pdf-restoration/12-1984-03-batch-12/{puzzle,magic} and complete
+  build/pdf-restoration/12-1984-03-puzzle. Final Magic Square recipe is in private
+  batch12/magic/revised-final. Checkpoint retains originals,repairs,recipes,metrics,
+  validation,exact rebuilds,pre-update ledger and next checkpoint. No tracked
+  tooling changes,HTML or browser work;85-test tooling baseline remains unchanged.
+- March now has eleven readable articles,no partial articles,one group heading and
+  32 entries awaiting classification/restoration. All44 canonical TOC identities
+  remain unchanged. Next batch13 verifies and restores 당신도 암산왕 from77.
+  Remaining bodies,TOC accounting and whole-issue JSON/assets export remain pending;
+  the whole-March goal stays active.
