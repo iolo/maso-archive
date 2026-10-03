@@ -7307,3 +7307,24 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Validation: reviewed the revised scope and future gates; `git diff --check`
   passes. Documentation only; no OCR, package regeneration, browser work or test
   suite run. Next: the data-only tooling checkpoint, then March extraction.
+
+### 2026-10-03 — Resume Tesseract restoration; complete data-only tooling
+
+- Owner resumed the remaining issues with the validated Tesseract and semantic
+  review pipeline. March 1984 remains the next issue; OCR experiments are outside
+  this continuation. No engine, runtime, model or review-standard change.
+- Article export/check and segment assembly now work without HTML; optional
+  historical previews require explicit selection. Batch-reviewed export inherits
+  the data-only behavior while retaining interruption, cache and retry rules.
+- Issue closeout now delivers an issue JSON index, retained ledger/TOC,
+  accounting, article packages, cover and a file/hash manifest. Its offline
+  checker reconciles identity, ownership, review/availability counts and assets.
+  No browser, reader staging or frontend build is part of acceptance.
+- All 82 PDF tests pass, including renderer-free export/assembly/issue checks,
+  interrupted batch resume and data tampering checks. A synthetic JSON-only
+  issue rebuilds byte-identically. All 72 completed November/February packages
+  pass read-only checks of their original manifests and retained files.
+- Evidence: private/pdf-restoration/data-only-checkpoint/validation.json and
+  sample-issue/issue.json. Existing packages and historical HTML remain intact.
+  Updated PLAN-PDF.md and the restoration guide. Next: map and restore March's
+  first bounded batch using Tesseract and source review.

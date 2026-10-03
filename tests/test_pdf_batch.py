@@ -259,6 +259,8 @@ class PDFBatchTests(unittest.TestCase):
         batch.export(self.state, two, self.root)
         files = lambda d: {p.relative_to(d): p.read_bytes() for p in d.rglob('*') if p.is_file()}
         self.assertEqual(files(one), files(two))
+        self.assertFalse(list(one.rglob('*.html')))
+        self.assertFalse(list(one.rglob('*.css')))
         self.assertEqual(originals, {p: p.read_bytes() for p in originals})
         self.assertFalse(any(p.name == 'page.png' for p in one.rglob('*')))
         (one / outcomes[0]['id'] / 'map.json').write_text('changed')

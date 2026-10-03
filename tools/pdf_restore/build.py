@@ -1,4 +1,4 @@
-"""Assemble a reviewed scan article and portable preview from pinned private inputs."""
+"""Export reviewed scan article data; optionally render a separate preview."""
 import argparse
 from copy import deepcopy
 from html.parser import HTMLParser
@@ -68,10 +68,29 @@ class Links(HTMLParser):
         self.links.extend(attrs[key] for key in ('href', 'src') if key in attrs)
 
 
-def check_export(output):
+def check_export(output, *, preview=False):
     package = validate_package(json.loads((output / 'article.json').read_bytes()))
     for record in package_pins(package):
         checked(output, record)
+    if preview:
+        check_preview(output, package)
+    manifest_path = output / 'manifest.json'
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_bytes())
+        names = [row['path'] for row in manifest['files']]
+        actual = {p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file()}
+        if len(names) != len(set(names)) or actual != set(names) | {'manifest.json'}:
+            raise ValueError('Export file inventory differs from manifest')
+        for record in manifest['files']:
+            checked(output, record)
+    if (output / 'assembly.json').exists():
+        from .assemble import check_assembly
+        check_assembly(output, package, preview=preview)
+    return package
+
+
+def check_preview(output, package):
+    """Optional rendering checks, independent of data acceptance."""
     links = Links()
     links.feed((output / 'index.html').read_text())
     for href in links.links:
@@ -86,19 +105,6 @@ def check_export(output):
     for block in package['blocks']:
         if block['id'] not in links.ids:
             raise ValueError('Preview silently omits a reading block')
-    manifest_path = output / 'manifest.json'
-    if manifest_path.exists():
-        manifest = json.loads(manifest_path.read_bytes())
-        names = [row['path'] for row in manifest['files']]
-        actual = {p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file()}
-        if len(names) != len(set(names)) or actual != set(names) | {'manifest.json'}:
-            raise ValueError('Export file inventory differs from manifest')
-        for record in manifest['files']:
-            checked(output, record)
-    if (output / 'assembly.json').exists():
-        from .assemble import check_assembly
-        check_assembly(output, package)
-    return package
 
 
 def validate_source(package, root=ROOT):
@@ -123,7 +129,7 @@ def validate_source(package, root=ROOT):
     return inventory
 
 
-def build(recipe_path, output, root=ROOT):
+def build(recipe_path, output, root=ROOT, *, preview=False):
     root, recipe_path, output = Path(root).resolve(), Path(recipe_path).resolve(), Path(output).resolve()
     if not any(output.is_relative_to(root / d) for d in ('build', 'private')):
         raise ValueError('Generated export must remain under build/ or private/')
@@ -238,10 +244,11 @@ def build(recipe_path, output, root=ROOT):
         package['downloads'] = [pin(stage, name) for name in download_names]
         validate_package(package)
         write_json(stage / 'article.json', package)
-        html, css = render_preview(package)
-        (stage / 'index.html').write_text(html, encoding='utf-8')
-        (stage / 'style.css').write_text(css, encoding='utf-8')
-        check_export(stage)
+        if preview:
+            html, css = render_preview(package)
+            (stage / 'index.html').write_text(html, encoding='utf-8')
+            (stage / 'style.css').write_text(css, encoding='utf-8')
+        check_export(stage, preview=preview)
         write_json(stage / 'manifest.json', dict(article_id=package['id'], availability=package['availability'],
                    verification=package['verification']['status'], mapped_regions=len(regions),
                    represented_regions=len({id for b in package['blocks'] + package['figures'] for id in b['region_ids']}),
@@ -258,13 +265,14 @@ def main():
     parser.add_argument('--recipe', type=Path)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--check', action='store_true')
+    parser.add_argument('--preview', action='store_true', help='Also generate or check optional HTML')
     args = parser.parse_args()
     if args.check:
-        package = check_export(args.output)
+        package = check_export(args.output, preview=args.preview)
     else:
         if args.recipe is None:
             parser.error('--recipe is required when building')
-        package = build(args.recipe, args.output)
+        package = build(args.recipe, args.output, preview=args.preview)
     print(f"{'Checked' if args.check else 'Built'} {package['id']}: {package['availability']} / {package['verification']['status']}")
 
 

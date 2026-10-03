@@ -8,6 +8,7 @@ import zipfile
 from PIL import Image
 
 from tools.pdf_restore.build import build, check_export
+from unittest.mock import patch
 from tools.pdf_restore.inventory import pin, write_json
 from tools.pdf_restore.package import page_transform
 
@@ -74,17 +75,31 @@ class PDFBuildTests(unittest.TestCase):
         write_json(base / 'recipe.json', recipe)
         return base / 'recipe.json'
 
+    def test_data_export_does_not_call_renderer_and_still_checks_assets(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            recipe = self.fixture(root)
+            output = root / 'build/data'
+            with patch('tools.pdf_restore.build.render_preview', side_effect=AssertionError('no renderer')):
+                package = build(recipe, output, root)
+                self.assertEqual(check_export(output), package)
+            self.assertFalse((output / 'index.html').exists())
+            self.assertFalse((output / 'style.css').exists())
+            (output / 'ocr/r1.png').write_bytes(b'changed')
+            with self.assertRaisesRegex(ValueError, 'hash/size'):
+                check_export(output)
+
     def test_deterministic_portable_export_preserves_raw_code_and_excludes_ad(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             recipe = self.fixture(root)
             raw_before = (recipe.parent / 'ocr/r3.txt').read_bytes()
             output, repeat = root / 'build/one', root / 'build/two'
-            package = build(recipe, output, root)
-            build(recipe, repeat, root)
+            package = build(recipe, output, root, preview=True)
+            build(recipe, repeat, root, preview=True)
             files = lambda d: {p.relative_to(d).as_posix(): p.read_bytes() for p in d.rglob('*') if p.is_file()}
             self.assertEqual(files(output), files(repeat))
-            self.assertEqual(check_export(output), package)
+            self.assertEqual(check_export(output, preview=True), package)
             self.assertEqual((recipe.parent / 'ocr/r3.txt').read_bytes(), raw_before)
             self.assertEqual((output / 'listing.txt').read_text(), package['blocks'][1]['text'])
             html = (output / 'index.html').read_text()
@@ -101,7 +116,7 @@ class PDFBuildTests(unittest.TestCase):
                 self.assertNotIn('ocr/page.png', archive.namelist())
                 self.assertEqual(archive.read('ocr/r3.txt'), raw_before)
             with self.assertRaisesRegex(ValueError, 'already exists'):
-                build(recipe, output, root)
+                build(recipe, output, root, preview=True)
 
     def test_oriented_page_requires_matching_image_and_ocr_provenance(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -157,8 +172,8 @@ class PDFBuildTests(unittest.TestCase):
             root = Path(temporary)
             recipe = self.fixture(root, with_code=False)
             output = root / 'build/output'
-            package = build(recipe, output, root)
-            self.assertEqual(check_export(output), package)
+            package = build(recipe, output, root, preview=True)
+            self.assertEqual(check_export(output, preview=True), package)
             self.assertEqual([item['path'] for item in package['downloads']], ['article.txt', 'raw-ocr.zip'])
             self.assertFalse((output / 'listing.txt').exists())
             self.assertNotIn('listing.txt', (output / 'index.html').read_text())
@@ -209,15 +224,15 @@ class PDFBuildTests(unittest.TestCase):
             root = Path(temporary)
             recipe = self.fixture(root)
             output = root / 'build/output'
-            build(recipe, output, root)
+            build(recipe, output, root, preview=True)
             original = (output / 'index.html').read_text()
             (output / 'index.html').write_text(original + '<a href="#missing">Broken</a>')
             with self.assertRaisesRegex(ValueError, 'Broken preview fragment'):
-                check_export(output)
+                check_export(output, preview=True)
             (output / 'index.html').write_text(original)
             (output / 'ocr/r2.png').write_bytes(b'changed')
             with self.assertRaisesRegex(ValueError, 'hash/size'):
-                check_export(output)
+                check_export(output, preview=True)
 
 
 if __name__ == '__main__':

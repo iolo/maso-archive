@@ -259,7 +259,7 @@ def raw_names(package, recipe):
     return sorted(names)
 
 
-def check_assembly(folder, package):
+def check_assembly(folder, package, *, preview=False):
     """Offline verification against retained segments, even if outer files were rehashed."""
     recipe = json.loads((folder / 'assembly-recipe.json').read_bytes())
     validate_recipe(recipe)
@@ -285,12 +285,13 @@ def check_assembly(folder, package):
     expected['downloads'] = [pin(folder, name) for name in ['article.txt'] + (['listing.txt'] if listing else []) + ['raw-ocr.zip']]
     if package != expected:
         raise ValueError('Assembly article projection differs from original segments')
-    html, css = render_preview(expected)
-    if (folder / 'index.html').read_text() != html or (folder / 'style.css').read_text() != css:
-        raise ValueError('Assembly preview differs from reading projection')
+    if preview:
+        html, css = render_preview(expected)
+        if (folder / 'index.html').read_text() != html or (folder / 'style.css').read_text() != css:
+            raise ValueError('Assembly preview differs from reading projection')
 
 
-def assemble(recipe_path, output, root=ROOT):
+def assemble(recipe_path, output, root=ROOT, *, preview=False):
     root, recipe_path, output = (Path(p).resolve() for p in (root, recipe_path, output))
     if not any(output.is_relative_to(root / d) for d in ('build', 'private')) or output.exists():
         raise ValueError('Use a fresh assembly output under build/ or private/')
@@ -335,13 +336,14 @@ def assemble(recipe_path, output, root=ROOT):
         package['downloads'] = [pin(stage, name) for name in ['article.txt'] + (['listing.txt'] if listing else []) + ['raw-ocr.zip']]
         validate_package(package)
         write_json(stage / 'article.json', package)
-        html, css = render_preview(package)
-        (stage / 'index.html').write_text(html)
-        (stage / 'style.css').write_text(css)
+        if preview:
+            html, css = render_preview(package)
+            (stage / 'index.html').write_text(html)
+            (stage / 'style.css').write_text(css)
         write_json(stage / 'manifest.json', dict(article_id=package['id'], availability=package['availability'],
                    verification=package['verification']['status'], files=[pin(stage, p.relative_to(stage).as_posix())
                    for p in sorted(stage.rglob('*')) if p.is_file()]))
-        check_export(stage)
+        check_export(stage, preview=preview)
         checked(recipe_path.parent, recipe_pin)
         for spec, folder in zip(recipe['segments'], folders, strict=True):
             read_segment(folder, spec['manifest'])
@@ -353,8 +355,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--recipe', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--preview', action='store_true', help='Also generate optional HTML')
     args = parser.parse_args()
-    package = assemble(args.recipe, args.output)
+    package = assemble(args.recipe, args.output, preview=args.preview)
     print(f'Assembled {package["id"]}: {len(package["pages"])} pages / {package["availability"]}')
 
 

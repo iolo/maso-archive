@@ -8,8 +8,8 @@ import tempfile
 
 from tools.reading_room.export import digest, read, safe, write
 from tools.reference.export import esc, page
-from .build import checked, check_export
-from .inventory import ROOT
+from .build import checked, check_export as check_article
+from .inventory import ROOT, pin
 from .preview import CSS, EXTRA_CSS, render_preview
 
 
@@ -93,7 +93,7 @@ def load_inputs(ledger_path, base, root=ROOT):
         if safe(root, restoration['manifest']['path']) != directory / 'manifest.json':
             raise ValueError('Article directory differs from manifest')
         checked(root, restoration['manifest'])
-        packages[entry['toc_entry_id']] = check_export(directory)
+        packages[entry['toc_entry_id']] = check_article(directory)
         directories[entry['toc_entry_id']] = directory
     return accounting(ledger, issue['toc'], packages), issue, packages, directories
 
@@ -103,7 +103,56 @@ def inventory(folder):
             for p in sorted(folder.rglob('*')) if p.is_file() and p != folder / 'manifest.json']
 
 
-def export(ledger_path, base, output, root=ROOT):
+def render_issue(staged, report, issue, packages, base):
+    """Legacy HTML delivery, requested explicitly and outside data acceptance."""
+    owners = [r for r in report['entries'] if r['bodyOwner']]
+    css = CSS + EXTRA_CSS
+    for number, row in enumerate(owners):
+        id = row['articleId']
+        html, css = render_preview(packages[row['id']])
+        html = re.sub(r'(href|src)="([^"#][^"]*)"',
+                      lambda m: f'{m[1]}="../articles/{esc(id)}/{m[2]}"', html)
+        links = ['<a href="../index.html">호 차례</a>']
+        for index, label in ((number - 1, '이전 글'), (number + 1, '다음 글')):
+            if 0 <= index < len(owners):
+                links.append(f'<a href="{esc(owners[index]["articleId"])}.html">{label}</a>')
+        html = html.replace('<main>', '<main><nav aria-label="호 탐색">' + ''.join(links) + '</nav>', 1)
+        target = staged / 'read' / f'{id}.html'
+        target.parent.mkdir(exist_ok=True)
+        target.write_text(html, encoding='utf-8')
+    body = [f'<main><h1>{esc(issue["issue"]["label"])} · 마이크로소프트웨어</h1>',
+            '<p>목차에 실린 글의 복원 자료입니다. 광고와 별도 미등재 자료는 포함하지 않습니다.</p>']
+    cover = issue['issue'].get('cover')
+    if cover:
+        source = safe(Path(base), cover['path'])
+        if digest(source) != cover['sha256']:
+            raise ValueError('Issue cover differs')
+        shutil.copyfile(source, staged / ('cover' + source.suffix))
+        body.append(f'<img class="issue-cover" src="cover{esc(source.suffix)}" alt="표지">')
+    counts = report['counts']
+    body.extend([f'<p>차례 {counts["toc_entries"]}항목 · 본문 {counts["classified_articles"]}편 · '
+                 f'묶음 제목 {counts["group_headings"]} · 절 참조 {counts["section_references"]}</p>',
+                 '<section aria-label="호 복원 상태"><h2>복원 및 검토</h2>',
+                 '<p>복원: ' + ' · '.join(f'{s} {n}' for s, n in counts['restoration_availability'].items()) + '</p>',
+                 '<p>검토: ' + ' · '.join(f'{s} {n}' for s, n in counts['verification'].items()) + '</p>',
+                 f'<p>분류 미해결 {counts["unresolved_eligibility"]}</p>',
+                 '<p>읽기 가능은 문자 단위 완전 교정이나 코드 실행 검증을 뜻하지 않습니다. 판독 불확실성과 수동 비트맵 교정 대기는 각 글의 교정 기록에 남아 있습니다.</p></section>',
+                 '<nav aria-label="호 차례"><h2>차례</h2><ol>'])
+    for row in report['entries']:
+        label = esc(row['title'])
+        if row.get('articleId'):
+            href = f'read/{row["articleId"]}.html'
+            if row.get('sectionRef'):
+                href += '#' + row['sectionRef']['blockId']
+            label = f'<a href="{esc(href)}">{label}</a> — {row["availability"]} / {row["verification"]}'
+        body.append(f'<li id="{esc(row["id"])}" style="margin-left:{row["depth"]}rem">{label} '
+                    f'<small>({esc(row["classification"])})</small></li>')
+    body.append('</ol></nav><p><a download href="accounting.json">호 복원 기록 JSON</a></p></main>')
+    (staged / 'index.html').write_text(page(issue['issue']['label'], ''.join(body), 0), encoding='utf-8')
+    (staged / 'style.css').write_text(css + '\n.issue-cover{width:12rem;max-width:100%;height:auto}li{margin-block:.6rem}', encoding='utf-8')
+
+
+def export(ledger_path, base, output, root=ROOT, *, preview=False):
     output = Path(output).resolve()
     report, issue, packages, directories = load_inputs(ledger_path, base, root)
     if output.exists() or any(output.is_relative_to(d) or d.is_relative_to(output) for d in directories.values()):
@@ -113,66 +162,88 @@ def export(ledger_path, base, output, root=ROOT):
         staged = Path(temp) / 'reference'
         staged.mkdir()
         write(staged, 'accounting.json', report)
-        owners = [r for r in report['entries'] if r['bodyOwner']]
-        css = CSS + EXTRA_CSS
-        for number, row in enumerate(owners):
-            id = row['articleId']
-            shutil.copytree(directories[row['id']], staged / 'articles' / id)
-            html, css = render_preview(packages[row['id']])
-            html = re.sub(r'(href|src)="([^"#][^"]*)"',
-                          lambda m: f'{m[1]}="../articles/{esc(id)}/{m[2]}"', html)
-            links = ['<a href="../index.html">호 차례</a>']
-            for index, label in ((number - 1, '이전 글'), (number + 1, '다음 글')):
-                if 0 <= index < len(owners):
-                    links.append(f'<a href="{esc(owners[index]["articleId"])}.html">{label}</a>')
-            html = html.replace('<main>', '<main><nav aria-label="호 탐색">' + ''.join(links) + '</nav>', 1)
-            target = staged / 'read' / f'{id}.html'
-            target.parent.mkdir(exist_ok=True)
-            target.write_text(html, encoding='utf-8')
-        body = [f'<main><h1>{esc(issue["issue"]["label"])} · 마이크로소프트웨어</h1>',
-                '<p>목차에 실린 글의 복원 자료입니다. 광고와 별도 미등재 자료는 포함하지 않습니다.</p>']
+        articles = []
+        for row in report['entries']:
+            if not row['bodyOwner']:
+                continue
+            relative = 'articles/' + row['articleId']
+            shutil.copytree(directories[row['id']], staged / relative)
+            articles.append(dict(tocEntryId=row['id'], articleId=row['articleId'],
+                                 path=relative + '/article.json',
+                                 manifest=pin(staged, relative + '/manifest.json')))
         cover = issue['issue'].get('cover')
+        cover_pin = None
         if cover:
             source = safe(Path(base), cover['path'])
             if digest(source) != cover['sha256']:
                 raise ValueError('Issue cover differs')
-            shutil.copyfile(source, staged / ('cover' + source.suffix))
-            body.append(f'<img class="issue-cover" src="cover{esc(source.suffix)}" alt="표지">')
+            name = 'cover' + source.suffix
+            shutil.copyfile(source, staged / name)
+            cover_pin = pin(staged, name)
+        shutil.copyfile(ledger_path, staged / 'ledger.json')
+        write(staged, 'toc.json', issue['toc'])
+        write(staged, 'issue.json', dict(issueId=report['issueId'], label=issue['issue']['label'],
+              cover=cover_pin, accounting=pin(staged, 'accounting.json'), articles=articles))
+        if preview:
+            render_issue(staged, report, issue, packages, base)
         counts = report['counts']
-        body.extend([f'<p>차례 {counts["toc_entries"]}항목 · 본문 {counts["classified_articles"]}편 · '
-                     f'묶음 제목 {counts["group_headings"]} · 절 참조 {counts["section_references"]}</p>',
-                     '<section aria-label="호 복원 상태"><h2>복원 및 검토</h2>',
-                     '<p>복원: ' + ' · '.join(f'{s} {n}' for s, n in counts['restoration_availability'].items()) + '</p>',
-                     '<p>검토: ' + ' · '.join(f'{s} {n}' for s, n in counts['verification'].items()) + '</p>',
-                     f'<p>분류 미해결 {counts["unresolved_eligibility"]}</p>',
-                     '<p>읽기 가능은 문자 단위 완전 교정이나 코드 실행 검증을 뜻하지 않습니다. 판독 불확실성과 수동 비트맵 교정 대기는 각 글의 교정 기록에 남아 있습니다.</p></section>',
-                     '<nav aria-label="호 차례"><h2>차례</h2><ol>'])
-        for row in report['entries']:
-            label = esc(row['title'])
-            if row.get('articleId'):
-                href = f'read/{row["articleId"]}.html'
-                if row.get('sectionRef'):
-                    href += '#' + row['sectionRef']['blockId']
-                label = f'<a href="{esc(href)}">{label}</a> — {row["availability"]} / {row["verification"]}'
-            body.append(f'<li id="{esc(row["id"])}" style="margin-left:{row["depth"]}rem">{label} '
-                        f'<small>({esc(row["classification"])})</small></li>')
-        body.append('</ol></nav><p><a download href="accounting.json">호 복원 기록 JSON</a></p></main>')
-        (staged / 'index.html').write_text(page(issue['issue']['label'], ''.join(body), 0), encoding='utf-8')
-        (staged / 'style.css').write_text(css + '\n.issue-cover{width:12rem;max-width:100%;height:auto}li{margin-block:.6rem}', encoding='utf-8')
         manifest = dict(kind='pdf-issue-reference', issueId=report['issueId'], counts=counts,
                         ledgerSha256=digest(ledger_path), files=inventory(staged))
         write(staged, 'manifest.json', manifest)
+        check_export(staged)
         staged.rename(output)
+    return manifest
+
+
+def check_export(output):
+    """Validate a portable issue using its retained ledger, TOC and article data."""
+    output = Path(output)
+    manifest = read(output / 'manifest.json')
+    if manifest['files'] != inventory(output):
+        raise ValueError('Issue file inventory or hashes differ')
+    index = read(output / 'issue.json')
+    report = read(output / 'accounting.json')
+    checked(output, index['accounting'])
+    if index['accounting']['path'] != 'accounting.json':
+        raise ValueError('Issue accounting path differs')
+    if index['cover']:
+        checked(output, index['cover'])
+    packages = {}
+    for row in index['articles']:
+        folder = safe(output, row['path']).parent
+        if row['path'] != 'articles/' + row['articleId'] + '/article.json':
+            raise ValueError('Issue article path differs')
+        if safe(output, row['manifest']['path']) != folder / 'manifest.json':
+            raise ValueError('Issue article manifest path differs')
+        checked(output, row['manifest'])
+        package = check_article(folder)
+        if (row['tocEntryId'] in packages or package['toc_entry_id'] != row['tocEntryId'] or
+                package['id'] != row['articleId']):
+            raise ValueError('Duplicate or inconsistent issue article identity')
+        packages[row['tocEntryId']] = package
+    ledger = read(output / 'ledger.json')
+    if (accounting(ledger, read(output / 'toc.json'), packages) != report or
+            index['issueId'] != report['issueId'] or manifest['issueId'] != report['issueId'] or
+            manifest['counts'] != report['counts'] or manifest['ledgerSha256'] != digest(output / 'ledger.json')):
+        raise ValueError('Issue accounting differs from retained inputs')
     return manifest
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--ledger', type=Path, required=True)
-    parser.add_argument('--base', type=Path, required=True)
+    parser.add_argument('--ledger', type=Path)
+    parser.add_argument('--base', type=Path)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--check', action='store_true')
+    parser.add_argument('--preview', action='store_true', help='Also generate legacy HTML reference')
     args = parser.parse_args()
-    print(export(args.ledger, args.base, args.output)['counts'])
+    if args.check:
+        result = check_export(args.output)
+    else:
+        if args.ledger is None or args.base is None:
+            parser.error('--ledger and --base are required when exporting')
+        result = export(args.ledger, args.base, args.output, preview=args.preview)
+    print(result['counts'])
 
 
 if __name__ == '__main__':

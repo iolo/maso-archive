@@ -9,7 +9,7 @@ import test_pdf_reader
 from test_pdf_reader import inventory, refresh
 from tools.pdf_restore.build import build
 from tools.pdf_restore.inventory import pin
-from tools.pdf_restore.issue import AVAILABILITY, export
+from tools.pdf_restore.issue import AVAILABILITY, export, check_export
 from tools.reading_room.check import check
 from tools.reading_room.export import digest, read, write
 from tools.reading_room.scan_issue import stage_issue
@@ -57,14 +57,34 @@ class PDFIssueTests(unittest.TestCase):
         path = write(root, 'ledger.json', ledger)
         return base, path, one, two
 
+    def test_data_issue_closeout_without_renderer_and_rehashed_bad_link(self):
+        from unittest.mock import patch
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            base, ledger, _, _ = self.fixture(root)
+            output = root / 'data-issue'
+            with patch('tools.pdf_restore.issue.render_issue', side_effect=AssertionError('no renderer')):
+                manifest = export(ledger, base, output, root)
+                self.assertEqual(check_export(output), manifest)
+            self.assertFalse(list(output.rglob('*.html')))
+            self.assertFalse(list(output.rglob('*.css')))
+            index = read(output / 'issue.json')
+            index['articles'][0]['articleId'] = 'wrong'
+            write(output, 'issue.json', index)
+            from tools.pdf_restore.issue import inventory as data_inventory
+            manifest['files'] = data_inventory(output)
+            write(output, 'manifest.json', manifest)
+            with self.assertRaisesRegex(ValueError, 'article path'):
+                check_export(output)
+
     def test_issue_export_and_staging_preserve_bodies_and_cd_bytes(self):
         with TemporaryDirectory() as tmp:
             root = Path(tmp)
             base, ledger, one, two = self.fixture(root)
             old = {p.relative_to(base): p.read_bytes() for p in base.rglob('*') if p.is_file()}
             reference, repeat = root / 'reference', root / 'repeat'
-            export(ledger, base, reference, root)
-            export(ledger, base, repeat, root)
+            export(ledger, base, reference, root, preview=True)
+            export(ledger, base, repeat, root, preview=True)
             self.assertEqual(inventory(reference), inventory(repeat))
             self.assertEqual(len(list((reference / 'read').glob('*.html'))), 2)
             html = (reference / 'index.html').read_text()

@@ -15,8 +15,10 @@ including issue closeout and final campaign completion. PDF page rasterization
 and cropping for OCR, scan review, and image extraction remain in scope.
 
 November 1983 and February 1984 remain complete; 17 eligible issues remain.
-Before starting March 1984, complete the bounded data-only tooling checkpoint
-below. Preserve completed packages and historical rendered outputs unchanged.
+The data-only tooling checkpoint below is complete. Continue March 1984 with
+the validated local Tesseract pipeline and scan-based semantic review, through
+the existing bounded batches. Preserve completed packages and historical rendered
+outputs unchanged.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
 work already performed, not authority to repeat rendering work.
@@ -925,7 +927,15 @@ cloud OCR, advertising restoration, TOC expansion, full-text search, ownership
 features, and public deployment remain deferred. HTML rendering and reading-room
 delivery are separate tasks consuming this data collection.
 
-## Next checkpoint: remove HTML dependencies from data delivery
+## Completed checkpoint: remove HTML dependencies from data delivery
+
+Completed 2026-10-03. Article export, segment assembly, batch-reviewed export
+and issue closeout now default to JSON/assets without HTML. Explicit `--preview`
+retains optional historical rendering for separate use. All 82 PDF tests pass;
+a JSON-only sample issue rebuilds identically, and all 72 completed November/
+February article packages pass read-only preservation checks. Next: March 1984's
+first bounded Tesseract/restoration batch. The requirements below are retained
+as the completed checkpoint's scope.
 
 **Goal:** make the existing tools satisfy the clarified scope before March 1984.
 **Input and limit:** existing build/assembly/batch/issue export and validation
@@ -943,5 +953,5 @@ compatibility checkpoint; no new OCR, article restoration, or renderer redesign.
 
 **Artifact/check:** focused passing data tests and a JSON/asset-only sample issue
 index/report, with package preservation checks. Update PROGRESS and commit before
-starting March extraction. This is planned follow-up; the scope revision itself
-does not implement these tooling changes.
+starting March extraction. The 2026-10-03 implementation completes these gates;
+the earlier scope revision alone did not implement the tooling changes.

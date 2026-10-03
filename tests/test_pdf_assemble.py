@@ -98,9 +98,9 @@ class PDFAssemblyTests(unittest.TestCase):
         self.recipe_path = self.root / 'private/assembly-recipe.json'
         self.output = self.root / 'build/assembled'
 
-    def run_assembly(self, output=None):
+    def run_assembly(self, output=None, *, preview=False):
         write_json(self.recipe_path, self.recipe)
-        return assemble(self.recipe_path, output or self.output, self.root)
+        return assemble(self.recipe_path, output or self.output, self.root, preview=preview)
 
     def rehash(self, folder):
         manifest = json.loads((folder / 'manifest.json').read_bytes())
@@ -1252,8 +1252,16 @@ class PDFAssemblyTests(unittest.TestCase):
             self.run_assembly()
         self.assertFalse(self.output.exists())
 
+    def test_data_assembly_needs_no_renderer_or_html(self):
+        from unittest.mock import patch
+        with patch('tools.pdf_restore.assemble.render_preview', side_effect=AssertionError('no renderer')):
+            package = self.run_assembly()
+            self.assertEqual(check_export(self.output), package)
+        self.assertFalse(list(self.output.rglob('*.html')))
+        self.assertFalse(list(self.output.rglob('*.css')))
+
     def test_checker_rejects_rehashed_projection_index_and_preview_changes(self):
-        self.run_assembly()
+        self.run_assembly(preview=True)
         originals = {name:(self.output/name).read_bytes() for name in ('article.json','corrections.json','index.html','manifest.json')}
         for target in ('text','offset','preview'):
             for name,value in originals.items():(self.output/name).write_bytes(value)
@@ -1271,7 +1279,7 @@ class PDFAssemblyTests(unittest.TestCase):
                 (self.output/'index.html').write_bytes(originals['index.html'].replace('한글'.encode(),b'changed'))
             self.rehash(self.output)
             with self.subTest(target=target),self.assertRaisesRegex(ValueError,'Assembly .* differs'):
-                check_export(self.output)
+                check_export(self.output, preview=True)
 
 
 if __name__ == '__main__':

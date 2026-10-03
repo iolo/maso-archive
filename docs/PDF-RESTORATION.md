@@ -9,9 +9,35 @@ images/assets, with source evidence, raw OCR, correction records and outcome
 states. HTML previews and reading-room integration are separate tasks, including
 at issue closeout and final handoff. Earlier rendering commands and acceptance
 records below describe existing tools and historical work, not current PDF gates.
-Some tools still require HTML; the next bounded checkpoint in PLAN-PDF.md removes
-that dependency before March extraction. This documentation revision does not
-change those tools or completed packages.
+The data-only tooling checkpoint completed 2026-10-03. Article build/check,
+assembly, batch-reviewed export and issue export now default to data-only
+operation. Historical packages remain unchanged; their complete manifests are
+still checked, including any already-pinned HTML. Optional preview generation
+and preview-specific checks require an explicit `--preview` on the article or
+assembly CLI. Issue export also accepts `--preview` for historical rendering.
+
+## Current data-only commands
+
+```sh
+make build-pdf-article PDF_RECIPE=private/path/package-recipe.json PDF_OUTPUT=build/pdf-restoration/new-article
+make check-pdf-article PDF_OUTPUT=build/pdf-restoration/new-article
+make assemble-pdf-article PDF_RECIPE=private/path/assembly-recipe.json PDF_OUTPUT=build/pdf-restoration/new-assembly
+make export-pdf-batch PDF_BATCH_STATE=private/path/state PDF_BATCH_OUTPUT=build/pdf-restoration/new-batch
+make export-pdf-issue PDF_ISSUE_ARGS='--ledger private/path/issue-progress.json --base build/reading-room-catalog-reconciled/data --output build/pdf-restoration/new-issue'
+PYTHONPATH=src python3 -m tools.pdf_restore.issue --check --output build/pdf-restoration/new-issue
+```
+
+Use fresh output directories. `prepare-pdf-batch` and `resume-pdf-batch` keep the
+same pinned Tesseract, cache, interruption and explicit retry behavior. Issue
+closeout consumes the existing catalog as input without rendering or installing
+a reader. It delivers `issue.json`, `accounting.json`, the retained ledger/TOC,
+article packages, cover when available and a checked file/hash manifest.
+The standalone checker reconciles ownership and outcomes against these retained
+inputs. Copied historical article/segment packages retain all original files;
+new data-only packages need no HTML or CSS. Review standards and uncertainties
+are unchanged. The private `data-only-checkpoint/` evidence contains a synthetic
+JSON-only issue, its identical rebuild and preservation results for the 72
+completed real articles.
 
 ## Step 1: source inventory
 
