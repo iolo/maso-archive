@@ -8016,3 +8016,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next batch17 verifies 마이크로 컴퓨터 시스템 입문 from100; TOC next article109
   is a boundary candidate,not yet a source-verified ending. Continue within the
   existing two-article/six-source-page limits and Tesseract/semantic-review pipeline.
+
+
+### 2026-10-03 — March batch17: systems opening100–105
+
+- Verified full 마이크로 컴퓨터 시스템 입문100–108,with closing references on108
+  and next article 자동실행 테이프의 전모 starting109. Restored100–105 only within
+  the six-source-page ceiling; four lookup pages106–109 reviewed.
+- The opening has59 regions,39 text blocks,15 original images,five indexed assembly
+  examples and five source column/page joins. Captions1–9 checked; figure6 consists
+  of three original transfer/search/I/O panels across103–104. Original instruction
+  tables,three-photo strip,opening photograph and robot illustration are retained.
+- Reviewed LD(084AH),A; LD(084AH),HL; LD B,(IX+9); ADD A,B; DAA as embedded examples
+  with article byte indexes. Full listings are on deferred108; none invented here.
+  Stack8025H/8024H/8023H,BCD0001 0111,JP/JR bytes and source flag claims remain literal.
+  Original figure5 RD and BCD diagram60(BCD)beside9/11(BCD)beside17 are preserved.
+- Widened opening-photo crop r02 once to include the whole series banner; its initial
+  crop/evidence remains unchanged. Banner also has searchable transcription. All
+  unaffected crop/text/TSV bytes agree. OCR settings remain identical apart from map
+  pin and repaired crop geometry. No engine/configuration changes or speculative retries.
+- Final105word is physically so-/urce) across105/106. Opening normalized text ends
+  `소스(so`; declared continuation `urce)` must join without a separator. Historical
+  editorial note and technical statements are preserved without correction.
+- Native package passes region coverage,byte indexes,caption links,prose joins,raw
+  evidence hashes and byte-identical fresh rebuild.98 prior native packages and five
+  complete article assemblies pass read-only preservation checks. Sample-reviewed;
+  exact tiny table typography remains scan-authoritative,not character-perfect.
+- 60 executed tasks(59 initial,one crop repair),no failures:36.456s aggregate task
+  time,22.379s render/crop,9.382s OCR. Review interval694.978s includes source comparison,
+  transcription,packaging and tool/context waits; not active human labor. Stage token
+  counts and exact reviewer backend settings unavailable.
+- Output `build/pdf-restoration/12-1984-03-batch-17/systems`; final recipe and reviewed
+  corrections under private batch17/systems/revised. Validation,metrics,settings check,
+  initial/revised evidence and next checkpoint saved. JSON/assets only; no HTML or
+  browser/frontend work. Unchanged tooling does not need repeat baseline tests.
+- March now has **16 readable/sample-reviewed articles,1 partial article,2 non-owning
+  group headings and25 unclassified entries**. All44 canonical TOC identities/titles/
+  parents preserved. Whole-issue export remains pending. Next batch18 finishes106–108,
+  assembles100–108,and may use three remaining source slots for the next article109
+  after verifying its extent. Continue the validated Tesseract/semantic-review pipeline.
