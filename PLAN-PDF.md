@@ -19,7 +19,7 @@ The data-only tooling checkpoint below is complete. Continue March 1984 with
 the validated local Tesseract pipeline and scan-based semantic review, through
 the existing bounded batches. Preserve completed packages and historical rendered
 outputs unchanged.
-March batches 01–10 and two article assemblies are complete: the editorial on
+March batches 01–11 and three article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
 149 regions,77 ordered blocks,22 image panels and2,033 physical listing rows.
@@ -39,13 +39,18 @@ Batch10 completes 팽이 놀이61–63:11 regions,eight blocks,one image and117 
 listing rows. It also restores 사냥게임64–66 of verified64–69:37 regions,33 blocks,
 two images and four short code groups. Both exports rebuild byte-identically;
 86 earlier packages pass preservation checks. Two prose joins and source anomalies
-remain documented. Page39's 취미생활 is a non-owning group heading. March has eight
-readable/sample-reviewed articles,one partial article,one group heading and34
-entries awaiting classification/restoration; the whole issue remains incomplete.
-Next batch11 completes hunting explanation/listing67–69,then assembles64–69.
-Candidate 영어 단어 퍼즐 게임 begins70; verify its extent before including it
-within the existing limits. Follow
-private/pdf-restoration/12-1984-03-batch-10/next-checkpoint.json.
+remain documented. Batch11 completes hunting67–69 and assembles64–69 as readable:
+45 regions,38 blocks,two images,195 physical listing rows across five code groups,
+three prose joins and61 source-linked annotated code rows in native corrections.
+The assembly preserves both original segments unchanged. Puzzle70–72 is partial:
+12 regions,nine blocks,two images and67 program rows through3325;73 remains.
+Native exports and the hunting assembly rebuild identically;88 earlier packages
+pass preservation checks. Page39's 취미생활 is a non-owning group heading.
+March has nine readable/sample-reviewed articles,one partial article,one group
+heading and33 entries awaiting classification/restoration; the issue is incomplete.
+Next batch12 restores puzzle73,then assembles70–73. 매직 스퀘어 begins74;
+verify its extent before including it within two articles/six source pages.
+Follow private/pdf-restoration/12-1984-03-batch-11/next-checkpoint.json.
 The active objective is all remaining March content, not one bounded checkpoint.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of

@@ -4,7 +4,7 @@
 and [PROGRESS-PDF.md](../PROGRESS-PDF.md) for the owner-authorized Tesseract plus
 scan-based semantic review campaign. November1983 and February1984 are complete.
 Data-only export/assembly/issue validation is implemented; no browser or reader
-delivery is required. March batches01–10 and two article assemblies are complete.
+delivery is required. March batches01–11 and three article assemblies are complete.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
 feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
 77 blocks,22 image panels and2,033 physical listing rows; all five original
@@ -29,15 +29,23 @@ Batch10/dreidel completes 팽이 놀이61–63:11 regions,eight blocks,one image
 counts remain uncertain; source DRIEDEL,A$ and number gaps remain literal.
 Batch10/hunting restores64–66 of verified64–69:37 regions,33 blocks,two images,
 four code examples/six rows,and two source-backed prose joins. Repeated SCALE=1
-is deliberately retained. Full program explanation/listing67–69 remains pending;
-no dangling prose/code fragment crosses66/67. Both packages rebuild identically;
-86 earlier packages pass preservation checks. No crop repair or OCR retry.
-Page39 is a non-owning 취미생활 group heading. March has eight readable articles,
-one partial article,one group heading and34 unclassified entries; closeout pending.
-Next follow `private/pdf-restoration/12-1984-03-batch-10/next-checkpoint.json`:
-batch11 completes hunting67–69 and assembles64–69 with the immutable opening.
-Candidate 영어 단어 퍼즐 게임 begins70; verify its extent before adding it within
-two articles/six source pages. Source67–70 already visually inspected.
+is deliberately retained. Batch11 completes explanation/listing67–69 and assembles
+hunting64–69 at `build/pdf-restoration/12-1984-03-hunting`:45 regions,38 blocks,
+two images,195 physical rows across five code groups,and three prose joins.
+The native ending preserves61 byte-indexed annotated example rows inside its prose,
+including differences from the main program. Both native segments remain unchanged.
+Program450 wraps across68/69; no inferred repair or inserted CTRL-G. Full assembly
+and new native packages rebuild identically;88 earlier packages pass preservation.
+Batch11/puzzle restores70–72 of verified70–73:12 regions,nine blocks,two images,
+67 numbered program rows through3325. Literal guide3340/code3400 discrepancy and
+missing3185 remain explicit. Page73 starts3330 and ends9580 P=1:RETURN;74 begins
+매직 스퀘어. No crop repair or OCR retry in this batch.
+Page39 is a non-owning 취미생활 group heading. March has nine readable articles,
+one partial article,one group heading and33 unclassified entries; closeout pending.
+Next follow `private/pdf-restoration/12-1984-03-batch-11/next-checkpoint.json`:
+batch12 restores puzzle73 and assembles70–73. Verify the next article's extent
+before including it within two articles/six source pages. Printed/PDF67–74 checked
+locally; do not extrapolate a global page offset.
 Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
 small punctuation marks; do not repair historical code. The namespaced assembler
 validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe

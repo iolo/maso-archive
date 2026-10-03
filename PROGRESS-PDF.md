@@ -7755,3 +7755,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   puzzle article at70 after verifying its extent,within the existing limits.
   Remaining bodies,TOC accounting and whole-issue JSON/assets export remain
   pending; the whole-March goal stays active.
+
+### 2026-10-03 — March batch11: hunting ending and puzzle opening67–72
+
+- Completed hunting67–69 and restored puzzle70–72 within two articles/six source
+  pages. Two lookup pages73–74 verify the puzzle extent70–73 and next article,
+  매직 스퀘어. All20 initial regional Tesseract tasks completed without failure,
+  crop repair or retry. Local OCR runtime/configuration remains unchanged.
+- Hunting ending: eight regions,five blocks,189 physical program rows (131 numbered,
+  58 continuations),14 anomaly rows and61 individually byte-indexed annotated code
+  rows inside source-ordered prose. Column67 reconnects 총+알 without an inserted
+  space; program450 continues across68/69. Printed example100's missing equals,
+  110/140's250 coordinates,330's ORAW,1200's THEN150 and other differences from the
+  main listing remain literal. No historical-code repair or execution claim.
+- Complete hunting64–69 is assembled as readable/sample-reviewed:45 regions,
+  38 blocks,two original images,195 physical listing rows across five groups,
+  16 anomaly rows and three prose joins. Both native packages remain byte-identical
+  under segments. Only four coverage/assembly notes were resolved; all textual,
+  technical and execution uncertainty remains. Annotated example indexes remain
+  accessible in unchanged native ending corrections,not silently deduplicated.
+- Puzzle opening70–72 is partial/sample-reviewed:12 regions,nine blocks,two original
+  images,67 numbered program rows through3325,and one variable-table column join.
+  Source guide3340–3465 differs from code dispatch3400; code lacks3185 despite the
+  guide range. Both retained. Boxed Q/RETURN normalized to plain labels; subscript1
+  retained in the variable table. Faint punctuation and exact string spaces are not
+  certified character-perfect. Page73 begins3330 at a complete-row boundary.
+- Source review checked every mapped text/code row and original image boundary.
+  Validated all20 regions exactly once,text/listing/annotated-example byte ranges,
+  physical row indexes,18 native anomaly rows,two prose joins and unchanged raw OCR
+  and scan evidence. Native and full-assembly fresh rebuilds match byte for byte.
+  All88 prior native packages and earlier feature/reasoning assemblies pass
+  read-only preservation checks. Canonical44-entry TOC identity/order is unchanged.
+- Rendering/cropping17.223s,Tesseract11.533s,total task elapsed30.111s. Review,
+  transcription and native packaging interval835.147s (13m55.147s),including
+  tool/context waits,not active human labor. Stage-specific token measurements and
+  verified reviewer settings remain unavailable; no model comparison performed.
+- Outputs: build/pdf-restoration/12-1984-03-batch-11/{hunting,puzzle} and complete
+  build/pdf-restoration/12-1984-03-hunting. Private checkpoint retains recipes,
+  review evidence,metrics,native/assembly validation,exact rebuilds,pre-update
+  ledger and next checkpoint. No tracked tooling changes,HTML or browser work;
+  preceding85-test tooling baseline remains unchanged.
+- March now has nine readable articles,one partial article,one group heading and
+  33 TOC entries awaiting classification/restoration. Next batch12 completes puzzle73,
+  assembles70–73,and may begin 매직 스퀘어74 after verifying its extent. Full
+  proofreading,remaining bodies,TOC accounting and whole-issue JSON/assets export
+  remain pending; the whole-March goal stays active.
