@@ -32,59 +32,47 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–21 and eleven assemblies are complete:** twenty articles are
-readable and sample-reviewed. All 42 canonical TOC identities remain; three
-non-owning groups are classified and 19 identities await classification/
-restoration. VisiCalc134–138 and database141–147 are fully assembled. Eleven
-assemblies preserve 25 immutable native segments.
+**May batches 01–22 and eleven assemblies are complete:** twenty-one articles
+are sample-reviewed: twenty readable and one partial. All 42 canonical TOC
+identities remain; five non-owning groups are classified and 16 identities await
+classification/restoration. Database141–147 is fully assembled. Eleven assemblies
+preserve 25 immutable native segments.
 
-Batch21 restores database142–147: 77 regions, 57 blocks, ten original images,
-67 regional text spans, 61 text review ranges and 124 unnumbered physical example/
-comment rows across seven listing groups. Four flowcharts, three cartoons, a photo
-and both command table panels remain as images alongside searchable text. Ten
-native prose boundaries are joined in eight groups, including 사용/되는 without
-a space. The 141word/142-star continuation is joined in the separate full assembly.
+Batch22 restores accounting148–153 of verified148–154: 43 regions, 33 blocks,
+six original images, 37 regional text spans, 101 text review ranges and 223
+numbered BASIC rows in one continuous PET/CBM program. Four native prose
+boundaries retain 다음으로, 만일 누계까지, 대변합계 and 계정을. The conclusion
+ends150; listing sectionsA–S continue through1720 on153. Ending154 and the full
+148–154 assembly remain. The technical and contest divider155 owns no body;
+both canonical group identities are classified with their existing children.
 
-Literal source errors remain: coomands, EMDIF, DO WHICE, incomplete IF Item＝,
-Invocies, noublank, let,s, a missing quote, filename punctuation and the doubled
-plus across the Name/Address wrap. Circled-at/angled-placeholder Unicode readings
-and source technical claims are unverified. The sample comment's continuous
-asterisk border has uncertain line alignment; header 8+8 and footer 26 stars are
-reviewed, while comment prefixes/blank-star placement remain provisional. The
-original table and crops are authoritative. Native20's title edge/final italic
-word glyph uncertainty is retained unchanged. Full proofreading remains deferred.
+PET graphics, run lengths, quoted spacing and decomposed Hangul glyph sequences
+remain explicitly uncertain. Composed Korean candidates inside markers are
+reading aids with original scans authoritative. Faint ASCII variables/digits,
+including row30 CC=-B70, row119 D1$ and I5/6 candidates, need manual proofreading.
+Literal RIGHT$ argument count, POKE10, IN$/IK$, KL(3) in902, missing colon in951,
+985 reference, F$/F1$ and1447 self-branch are preserved. No code execution or
+source machine-byte certification. Full proofreading remains deferred.
 
-All eight upright141–148 lookups were reviewed before mapping: six mapped pages
-and two outside-map lookups. Final RETURN on147 precedes accounting148. All 85
-executed tasks pass (77 initial/eight crop repairs), with zero failures/no OCR
-retry. Each affected region was repaired once. All 79 initial and ten revised
-inspection panels and ten original image crops were reviewed. Initial maps,
-raw OCR, positions/settings and attempts are preserved.
+All nine upright148–156 lookups were reviewed before mapping: six mapped pages
+and three outside-map lookups. Eleven distinct regions were repaired once;
+54 executed tasks pass (43 initial/11 repairs), zero failures/no OCR retry.
+All46 initial and14 revised panels, six image crops and a row30 zoom reviewed.
+Initial maps/crops/raw OCR, positions/settings and attempts remain unchanged.
 
-Exact native rebuild, UTF-8 ranges and listing projection pass. All 172 prior
-native and 29 assembly pins remain unchanged; ten May assemblies revalidate.
-The passing unchanged 100-test baseline is reused. No pipeline, HTML, frontend
-or browser work. Whole May remains incomplete; unprocessed content is not missing.
+Exact native rebuild, UTF-8 ranges and physical/logical listing projections pass.
+All173 prior native and30 assembly pins remain unchanged; eleven May assemblies
+revalidate. The passing unchanged100-test baseline is reused. No pipeline, HTML,
+frontend or browser work. Whole May remains incomplete; unprocessed is not missing.
 
-Full database141–147 assembly follows native checkpointc4d90b2: 87 regions,
-63 blocks, eleven images, 133 unnumbered physical rows in eight listing groups,
-76 native regional spans, 64 source block ranges and 73 global text reviews.
-Twelve native prose boundaries remain; 141word/142-star joins without a separator
-or intervening objects. The provisional italic final glyph, clipped native20
-heading edge and sample border alignment remain explicit. All333 original files
-are byte-identical; exact assembly rebuild and global source indexes pass. All173
-prior native/29 assembly pins are unchanged; the passing100-test baseline is
-reused. No new mapping/render/OCR or pipeline change.
-
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–21}`.
-Latest ending: `build/pdf-restoration/12-1984-05-batch-21/database`.
-Evidence: `private/pdf-restoration/12-1984-05-batch-21`.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–22}`.
+Latest opening: `build/pdf-restoration/12-1984-05-batch-22/accounting`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-22`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Latest full export: `build/pdf-restoration/12-1984-05-database`.
-Assembly evidence: `private/pdf-restoration/12-1984-05-database-assemble`.
-Next: accounting148 after fresh extent verification. Whole May closeout later.
-Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
+Next: accounting ending154, then separate full148–154 assembly after its named
+native checkpoint. Terminal156 needs fresh extent verification. Whole May closeout
+later. Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
 The following March checkpoint record preserves the completed work and its provenance.
 March batches 01–44 and nineteen article assemblies are complete: the editorial on

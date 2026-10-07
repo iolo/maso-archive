@@ -10252,3 +10252,31 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and19 unresolved. Eleven May assemblies preserve25 immutable native segments.
   Whole May remains incomplete. Next bounded batch22:accounting148 after fresh
   extent verification; current148 lookup proves only its opening.
+
+### 2026-10-08 — May native batch22: accounting148–153
+
+- Nine upright148–156 lookups reviewed before mapping prove full accounting
+  extent148–154. Conclusion150, final2540RETURN/READY154, divider155 and next
+  terminal article156 checked. One article/six mapped pages/three outside lookups.
+- Opening package:43 regions/33 blocks/six original images,37 regional spans,
+  101 text reviews and223 physical/numbered BASIC rows in one continuous listing.
+  Four prose joins retain 다음으로, 만일 누계까지, 대변합계 and 계정을.
+  SectionsA–S through1720 available;ending154 and full148–154 assembly remain.
+- Literal anomalies preserved:RIGHT$ arguments,POKE10,IN$/IK$,KL(3) in902,
+  missing951 colon,985 reference,F$/F1$ and1447 self-branch. PET graphics/run
+  lengths/quoted spaces/Hangul glyph sequences explicitly marked;faint ASCII
+  identifiers/digits remain provisional. No execution or encoded-byte claims;
+  full proofreading deferred,original scans authoritative.
+- Eleven regions repaired once;54 executed tasks43 initial/11 repair pass,
+  zero failures/no retries. All46 initial/14 revised inspection panels,six figures
+  and supplementary row30 zoom reviewed. Original maps/crops/raw evidence retained.
+- Technical and contest headings are non-owning groups on155;existing child
+  topology retained. Ledger42 identities:21 articles20 readable/one partial,
+  five groups,16 unresolved. Whole May incomplete;unprocessed is not missing.
+- Exact native rebuild,UTF-8/global source ranges,physical/logical listing
+  projection pass. All173 prior native/30 assembly pins unchanged;eleven May
+  assemblies revalidate. Unchanged100-test baseline reused,no pipeline or rendering
+  work. Export:`build/pdf-restoration/12-1984-05-batch-22/accounting`.
+  Evidence/validation:`private/pdf-restoration/12-1984-05-batch-22`.
+- Next:accounting154 ending after fresh boundary review,then separate full
+  assembly after its named native commit. Terminal156 needs fresh extent proof.
