@@ -10358,3 +10358,36 @@ history remains in [PROGRESS.md](PROGRESS.md).
   thenremainingpages andseparatefull156–180 assembly after namednativeendingcommit.
 - Export:`build/pdf-restoration/12-1984-05-batch-24/terminal`.
   Evidence/validation:`private/pdf-restoration/12-1984-05-batch-24`.
+
+### 2026-10-08 — May native batch25: terminal162–167 middle
+
+- Fresh whole upright156,161–168,179–181 scans reviewed before mapping:12 scans,
+  one article/six mapped pages/six outside-map lookups. Full156–180 extent and
+  incoming161/162 모두가/그림7 and outgoing167/168 이/부분에 clauses verified.
+- Package:51 regions,31 blocks,15 original images,36 regional ranges,67 text
+  review ranges and15 source caption spans. Four prose groups preserve five
+  native boundaries, including the printed Configu-/ration hyphen and newline.
+- Six searchable tables preserve83 data rows/396 cells, including blanks. Five
+  separate headers retained; table2 has no invented header. Table4 rotated grouped
+  headers flattened explicitly; physical cell wraps collapsed to spaces. Literal
+  Received Date, Repuest, Trming, From DEC, GNC/VCD/DTD and printed address ranges
+  remain. Table7 extra leading zeroes and missing second dollar sign retained.
+- Three independent unnumbered assembly groups retain68 physical rows27/28/13,
+  zero numbered logical entries and no BASIC/DATA. Listing4 header PC-3001 is a
+  literal3-shaped reading with unresolved3/8 ambiguity. Literal boud, GS(17번핀)
+  and IOCB expansion retained. No technical repair, source-byte or execution claim.
+- Three distinct regions repaired once: figure12 bottom caption and both table7
+  image/searchable left edges. All48 initial/two revised text panels,15 original
+  images and two revised images reviewed. All54 tasks51 initial/three repair
+  complete,zero failures/no OCR retries. Initial maps/crops/raw OCR and revised
+  positions/settings/attempts preserved. Full proofreading deferred.
+- Exact rebuild, regional/block/cell/row/caption/listing UTF-8 ranges and wrapped
+  listing projection pass. All176 prior native/31 assembly pins unchanged;
+  twelve May assemblies revalidate. Passing unchanged100-test baseline reused.
+  No pipeline change or HTML/frontend/browser work.
+- Ledger42 identities:22 sample-reviewed articles,21 readable/one partial,
+  five groups and15 unresolved. Terminal156–167 available in two immutable
+  segments;168–180 and full assembly remain. Whole May incomplete. Next batch26
+  targets168–173 after fresh continuation/boundary review.
+- Export:`build/pdf-restoration/12-1984-05-batch-25/terminal`.
+  Evidence/validation:`private/pdf-restoration/12-1984-05-batch-25`.
