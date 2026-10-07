@@ -9996,3 +9996,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next:fullbasic-technique115–118 assembly after named native commit;116실제/
   117프로그램의 usesonespace beyond preserved cartoon. Then UNIX126–127 with
   possiblemedical128 onlyafter fresh extent proof within bounded batch limits.
+
+### 2026-10-07 — May full basic-technique assembly115–118
+
+- Separate fullassembly after native batch17 commit7b843fa. Complete115–118
+  extent proven before ads119–120,business121 anddistinct UNIX122. Preserve
+  both native batches16/17 under immutable segment copies. JSON/assets only;
+  no new mapping,rendering,OCR orHTML.
+- Readable/sample-reviewed:56 regions,47 blocks,four original figures,103
+  physical BASIC rows/76 numbered logical entries across12 independent listings.
+  All27 source wraps retained;no executable joining. Four native prose
+  boundaries plus116실제/117프로그램의 space join beyond retained cartoon pass.
+- All48 source-block ranges,56 text reviews,103 listing reviews andtwo projected
+  caption spans validate. Native52 regional ranges/transcriptions unchanged in
+  original metadata. All230 original files byte-identical;exact assembly rebuild
+  matches. All166 prior native/25 assembly pins unchanged;100-test baseline reused.
+- Literal 아디디어,PROGAMER,31-L,표.,촛점,컴머 and24claim retained. Physical
+  GOSUB target/Ydigit wraps andindependent listing variants preserved. Full
+  proofreading,punctuation/spacing,source machinebytes andexecution unverified.
+- Export: `build/pdf-restoration/12-1984-05-basictech`.
+  Recipe/evidence/validation: `private/pdf-restoration/12-1984-05-basictech-assemble`.
+  Manifestafc8f95a4cbb9fc20adca6dacfb45886e620c04bae65b54c4fb461dc3b6b82f0.
+  Ledger42 identities:17articles (16readable/1partial),3groups/22unresolved.
+  Seven May assemblies preserve17immutable segments. WholeMay incomplete.
+- Next:batch18 UNIX126–127 after fresh bounded source verification;possible
+  medical128 only after complete extent proof withinremainingfour pages/two
+  articles. Separate UNIX assembly after nativecommit;125UNIX프/126로그램전반
+  no separator beyond original upper/lower pipe diagrams andshared caption.

@@ -7,15 +7,15 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–17 and six assemblies are complete:** seventeen articles are
-sample-reviewed: fifteen readable and two partial. Readable articles cover
+**May batches 01–17 and seven assemblies are complete:** seventeen articles are
+sample-reviewed: sixteen readable and one partial. Readable articles cover
 editorial19, AppleII20–43, AI44–50, SERPENT52–56, 진리표57, 틱-택-토58–59,
 LUNAR60–63, meteor64–65, 도망자66–71, 바이오리듬72–75, 결혼행진곡76–77,
-낚시78–82, 공중전83–85,Z80 lecture99–106 and LOGO107–114. Six assemblies
-preserve fifteen immutable native segments. Hobby51, education97 and business121
+낚시78–82, 공중전83–85,Z80 lecture99–106, LOGO107–114 and basic-technique115–118.
+Seven assemblies preserve seventeen immutable native segments. Hobby51, education97 and business121
 are non-owning groups. All42 TOC identities remain;22 await classification/restoration.
-All basic-technique115–118 native pages are restored; separate full assembly
-remains. UNIX122–125 is restored of verified122–127;126–127 and assembly remain.
+Full basic-technique115–118 is assembled and readable. UNIX122–125 is restored
+of verified122–127;126–127 and its assembly remain.
 Basic ending118 precedes ads119–120,business121 and distinct UNIX122. UNIX ends
 127 before medical128; medical128–132 inspected only, full extent not yet proven.
 Batch17 restores70 regions,52 blocks,nine original UNIX figures,61 regional
@@ -37,16 +37,27 @@ six May assemblies revalidate. Pipeline unchanged;passing100-test baseline reuse
 LOGO full107–114 remains readable:107 regions,80 blocks,fifteen images,
 142 physical explanatory rows and13 globally projected caption spans. Caption
 adapter7bd14c4 and native batch16 commit790ee67 preceded assemblyd92a288.
+Basic-technique fullassembly follows native commit7b843fa:56 regions,47 blocks,
+four original figures,103 physical BASIC rows/76 numbered logical entries in12
+independent listings. Twenty-seven printed wraps remain unjoined. Four native
+prose boundaries and one116실제/117프로그램의 space join validate beyond
+retained cartoon. All48 source-block ranges,56 text reviews,103 listing reviews
+andtwo globally projected caption spans validate. All52 native regional spans
+remain unchanged in original metadata. All230 original files are byte-identical;
+fullassembly rebuild matches. All166 prior native/25 assembly pins unchanged.
+No pipeline change/newOCR;passing100-test baseline reused. JSON/assets only.
 WholeMay remains incomplete;unprocessed is not missing. Full character
 proofreading,encoded source bytes and command/code execution remain unverified.
 JSON/assets only;no HTML,frontend or browser work.
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17}`.
-Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo}`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next:separate full basic-technique115–118 assembly after named native commit.
-Preserve116실제/117프로그램의 with one space beyond retained cartoon. Then
-UNIX126–127;possible medical128 only after fresh extent proof within two-article/
-six mapped-page/twenty outside-map lookup-page limit. WholeMay closeout later.
+Next:batch18 UNIX126–127 after fresh source verification. Preserve125UNIX프/
+126로그램전반 without a space beyond the two retained pipe-comparison diagrams
+andshared caption. Possible medical128 only after complete extent proof within
+remainingfour pages/two-article limit. Separate UNIX assembly after named native
+commit. Two articles/six mapped pages/twenty outside-map lookups maximum;
+wholeMay closeout remains later.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
