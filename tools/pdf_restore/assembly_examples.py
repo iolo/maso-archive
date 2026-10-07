@@ -201,6 +201,36 @@ def project_examples(recipe, originals):
         for field in ('figure_sequence', 'figure_review_items', 'prose_joins'):
             for row in original.get(field, []):
                 revised = references(row)
+                if field == 'figure_sequence':
+                    caption_fields = {'caption_region_id', 'caption_download',
+                                      'caption_utf8_byte_start', 'caption_utf8_byte_end_exclusive',
+                                      'caption_scan', 'caption_text'}
+                    # Historical caption identities without explicit spans keep
+                    # their existing projection. New spans must prove their own
+                    # caption block, region, bitmap and exact UTF-8 text first.
+                    if caption_fields.intersection(row):
+                        block = next((b for b in context.source['blocks']
+                                      if b['id'] == row.get('caption_block_id')), None)
+                        if (not caption_fields.issubset(row) or block is None or
+                                block['kind'] != 'caption' or
+                                row['caption_region_id'] not in block['region_ids'] or
+                                row['caption_scan'] != context.assets.get(row['caption_region_id']) or
+                                not isinstance(row['caption_text'], str) or not row['caption_text']):
+                            raise ValueError('Figure caption span requires its source caption block and scan')
+                        caption = text_range(dict(block_id=block['id'],
+                            region_id=row['caption_region_id'], scan=row['caption_scan'],
+                            download=row['caption_download'],
+                            utf8_byte_start=row['caption_utf8_byte_start'],
+                            utf8_byte_end_exclusive=row['caption_utf8_byte_end_exclusive'],
+                            transcription_excerpt=row['caption_text']))
+                        revised.update(caption_block_id=caption['block_id'],
+                            caption_region_id=caption['region_id'], caption_scan=caption['scan'],
+                            caption_utf8_byte_start=caption[START],
+                            caption_utf8_byte_end_exclusive=caption[END],
+                            source_caption_block_id=block['id'],
+                            source_caption_region_id=row['caption_region_id'],
+                            source_caption_scan=deepcopy(row['caption_scan']),
+                            source_caption_range=caption['source_range'])
                 if 'trim_region_end' in revised:
                     revised['trim_region_end'] = {context.identity(id, context.regions): value
                                                   for id, value in row['trim_region_end'].items()}

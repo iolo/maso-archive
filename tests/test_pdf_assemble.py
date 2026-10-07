@@ -629,6 +629,81 @@ class PDFAssemblyTests(unittest.TestCase):
                 right=dict(segment='continuation', block_id='prose', opening='과 끝'), separator='')]
         return segments
 
+    def caption_segments(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.standalone_segments(prose=True)
+        for i, (source, correction) in enumerate(segments):
+            old_ranges = block_ranges(source)
+            scan = source['region_assets'][0]['asset']
+            source['regions'].append(dict(source['regions'][0], id='caption', kind='caption'))
+            source['region_assets'].append(dict(region_id='caption', asset=scan))
+            source['verification']['reviewed_region_ids'].append('caption')
+            text = '그림. 한글 ♥' if i == 0 else '그림. 다음 ♠'
+            source['blocks'].append(dict(id='caption', kind='caption', text=text,
+                region_ids=['caption'], correction_evidence=['corrections.json#caption'], uncertainties=[]))
+            # Keep the cross-segment prose join adjacent while moving the first
+            # caption ahead of all other text and the second behind it.
+            item = dict(type='block', id='caption')
+            source['content_order'].insert(0, item) if i == 0 else source['content_order'].append(item)
+            ranges = block_ranges(source)
+            for key in ('text_index', 'text_review_items', 'unresolved_graphics'):
+                for row in correction[key]:
+                    delta = ranges[row['block_id']][0] - old_ranges[row['block_id']][0]
+                    row['utf8_byte_start'] += delta
+                    row['utf8_byte_end_exclusive'] += delta
+            start, end = ranges['caption']
+            correction['text_index'].append(dict(block_id='caption', region_ids=['caption'],
+                scans=[scan], download='article.txt', utf8_byte_start=start, utf8_byte_end_exclusive=end))
+            correction['blocks'] = deepcopy(source['blocks'])
+            correction['records'].append(dict(id='caption', region_ids=['caption'], scan=scan,
+                raw_ocr=None, block_ids=['caption']))
+            correction['regional_transcription']['caption'] = text
+            correction['figure_sequence'] = [dict(figure_id=source['figures'][0]['id'],
+                region_id=source['figures'][0]['region_ids'][0], caption_block_id='caption',
+                caption_region_id='caption', caption_download='article.txt', caption_scan=scan,
+                caption_utf8_byte_start=start, caption_utf8_byte_end_exclusive=end, caption_text=text)]
+        return segments
+
+    def test_figure_caption_spans_project_utf8_ids_scans_and_preserve_originals(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.caption_segments()
+        untouched = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        article, _ = text_bytes(package)
+        self.assertEqual(segments, untouched)
+        self.assertEqual(next(b['text'] for b in package['blocks'] if b['kind'] == 'prose'), '한글 시작과 끝')
+        for name, row, (_, original) in zip(('opening', 'continuation'),
+                correction['figure_sequence'], segments, strict=True):
+            native = original['figure_sequence'][0]
+            self.assertEqual(article[row['caption_utf8_byte_start']:row['caption_utf8_byte_end_exclusive']].decode(), row['caption_text'])
+            self.assertEqual(row['caption_block_id'], name + '-caption')
+            self.assertEqual(row['caption_region_id'], name + '-caption')
+            self.assertEqual(row['caption_scan']['path'], 'segments/' + name + '/' + native['caption_scan']['path'])
+            self.assertEqual(row['source_caption_scan'], native['caption_scan'])
+            self.assertEqual(row['source_caption_range'], {k: native['caption_' + k]
+                for k in ('utf8_byte_start', 'utf8_byte_end_exclusive')})
+        self.assertNotEqual(correction['figure_sequence'][1]['caption_utf8_byte_start'],
+            segments[1][1]['figure_sequence'][0]['caption_utf8_byte_start'])
+        self.assertEqual(project(self.recipe, segments), (package, correction))
+
+    def test_figure_caption_spans_reject_missing_fields_wrong_sources_and_bytes(self):
+        original = self.caption_segments()
+        for change in ('missing', 'block', 'kind', 'region', 'scan', 'download', 'bounds', 'utf8', 'text'):
+            segments = deepcopy(original)
+            source, correction = segments[1]
+            row = correction['figure_sequence'][0]
+            if change == 'missing': row.pop('caption_text')
+            if change == 'block': row['caption_block_id'] = 'missing'
+            if change == 'kind': next(b for b in source['blocks'] if b['id'] == 'caption')['kind'] = 'prose'
+            if change == 'region': row['caption_region_id'] = 'prose'
+            if change == 'scan': row['caption_scan'] = dict(row['caption_scan'], sha256='0' * 64)
+            if change == 'download': row['caption_download'] = 'listing.txt'
+            if change == 'bounds': row['caption_utf8_byte_end_exclusive'] += 1
+            if change == 'utf8': row['caption_utf8_byte_start'] += 1
+            if change == 'text': row['caption_text'] = 'wrong'
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
     def test_standalone_examples_join_prose_and_preserve_glyph_and_listing_ranges(self):
         from tools.pdf_restore.assemble import text_bytes
         segments = self.standalone_segments(prose=True)

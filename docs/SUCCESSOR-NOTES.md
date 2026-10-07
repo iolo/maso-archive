@@ -38,12 +38,18 @@ proofreading,encoded source bytes and code execution remain unverified.
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next:after named native commit,bounded caption adapter/sample checkpoint.
-The assembler currently carries custom figure-caption byte spans,region IDs and
-scan pins as segment-local fields; validate/project explicit spans without
-altering immutable source packages or historical assemblies lacking these fields.
-Then separate fullLOGO107–114 assembly (110컴퓨/111터는,no separator),followed
-by basic-technique117–118 within two articles/six mapped pages/twenty lookups.
+Caption adapter/sample checkpoint is complete after native batch16 commit790ee67.
+The bounded LOGO sample exposed39 stale caption span/region/scan projections.
+Explicit caption fields now require a mapped caption block,matching region/scan,
+valid UTF-8 bounds and exact text;13 caption ranges project globally alongside
+original segment coordinates. Fields absent from historical assemblies keep
+their existing projection. Two regression tests cover joined UTF-8 text,identity/
+pin projection,source immutability and nine invalid caption cases.
+All100 PDF tests pass;164 prior native/24 assembly pins remain byte-identical;
+all24 assemblies revalidate. No full LOGO assembly generated in this checkpoint.
+Next:after adapter checkpoint commit,separate fullLOGO107–114 assembly
+(110컴퓨/111터는,no separator),then basic-technique117–118 within two articles/
+six mapped pages/twenty lookups. WholeMay remains incomplete.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.

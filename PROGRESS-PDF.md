@@ -9913,3 +9913,25 @@ history remains in [PROGRESS.md](PROGRESS.md).
   IDs/scan pins. No prior assembly has those custom fields;preserve old outputs.
   Then separate fullLOGO107–114 assembly with110컴퓨/111터는 no-separator join,
   followed by basic-technique117–118 (116실제/117프로그램의 with space,cartoon retained).
+
+### 2026-10-07 — May LOGO caption adapter/sample checkpoint
+
+- Native batch16 committed as790ee67 before adapter work. Bounded projection
+  sample exposed39 stale caption span/region/scan fields across13 captions;
+  no full LOGO assembly exported and no source packages changed.
+- Explicit caption fields require all metadata,a mapped caption block,its own
+  region/scan,valid UTF-8 range and exact caption text. Project global bounds,
+  namespaced identities and rebased scan;retain original coordinates/pins.
+  Historical rows without custom fields retain their existing projection.
+- Two regression tests cover a joined Korean/Unicode sample,deterministic
+  projection,source immutability and nine invalid cases (missing field,unknown
+  block,wrong kind/region/scan/download,bounds,UTF-8 split and mismatched text).
+  All100 PDF tests pass in4.499s.164 native/24 assembly manifests unchanged;
+  all24 prior assemblies revalidate and contain no custom caption spans.
+- Actual LOGO sample107regions/80blocks/15figures validates92 regional spans,
+  81 source-block ranges and13 projected caption spans;110컴퓨/111터는 joins
+  without separator. No mapping/render/OCR/HTML in this adapter checkpoint.
+  Evidence: `private/pdf-restoration/12-1984-05-logo-adapter`.
+- Ledger remains16articles (14readable/2partial),3groups/23unresolved.
+  Next after named adapter commit:separate fullLOGO107–114 assembly,then
+  basic-technique117–118 native checkpoint within existing batch limits.
