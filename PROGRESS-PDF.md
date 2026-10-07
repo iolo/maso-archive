@@ -9771,3 +9771,39 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Four assemblies preserve all eleven native segments. Next batch14 verifies
   education-group ownership and 기계어 강좌 beginning99 within existing limits.
   Whole May remains incomplete; full character proofreading remains deferred.
+
+### 2026-10-07 — May batch14: education divider and 기계어 강좌99–104
+
+- Verified education97 as a non-owning divider listing canonical children99,
+  107 and115. Advertisement98 excluded. Lecture99–106 closes before LOGO107;
+  current one-article batch maps six pages99–104 with five boundary lookups.
+- Native partial:35 regions,20 blocks,three original cartoon/memory-diagram
+  images,110 physical unnumbered rows in six complete example groups. Hexadecimal
+  addresses/opcodes are source tokens,not BASIC line numbers. All110 physical
+  rows have scan-linked reviews;72 machine-column rows retain unknown encoded
+  bytes and explicit unverified execution. No inferred program or string bytes.
+- Four joins cover12 prose boundaries,with32 exact regional UTF-8 ranges,
+  54 text reviews and14 explanatory instruction rows. Source101 ends즉 몇개의
+  before102예를 들면; no invented bridge. Source표1 reference remains without
+  an invented table. Original diagrams retain source labels and discrepancies.
+- Literal Accnmulator,AB/DH,63999,28,6%,LD B,00H versus16repeat prose,
+  LD L,(1235H),1A9FH versusdiagram9F1AH,BEFORE RUNNIG,AFLER RUNNING,
+  LALL ACCPRT andproseJR versuslistingJP remain. DEFM quote punctuation,
+  F9/LPI/smallhex glyphs,columns anddecorative counts are candidates; no repairs
+  to historical claims,algorithms,encoded bytes or executable instructions.
+- Two distinct crops repaired once each:103r29 right comment edge .790→.812
+  and104r34 header top .719→.704. Initial/intermediate maps,crops,rawOCR,
+  positions/settings and48 inspection panels preserved. All37 executed tasks
+  passed (35 initial/two repairs); zero failures and no OCR retry.
+- Exact native rebuild,text/regional/listing spans and unnumbered wrapped-index
+  projection validate. All159 prior native/23 assembly pins unchanged; four May
+  assemblies revalidate read-only. Pipeline unchanged; pinned96-test passing
+  baseline reused. JSON/assets only; no HTML or reader work.
+- Export: `build/pdf-restoration/12-1984-05-batch-14/machine`.
+  Final recipe/transcript: `private/pdf-restoration/12-1984-05-batch-14/machine/final-2`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-14`.
+  Ledger retains42 identities:14 sample-reviewed articles (13 readable/one partial),
+  two non-owning groups and26 unresolved entries. WholeMay remains incomplete.
+  Next batch15 restores105–106,then separate full99–106 assembly with explicit
+  no-separator 각 파라/메터를 join andeight intervening figure/listing objects.
+  LOGO107 follows within the existing limits. Full proofreading deferred.
