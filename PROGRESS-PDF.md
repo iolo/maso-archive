@@ -10634,3 +10634,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   lookup limits. Unlisted announcement189 remains excluded.
 - Exports: `build/pdf-restoration/12-1984-05-batch-30/{fastdos,classifieds}`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-batch-30`.
+
+### 2026-10-08 — May native batch31: contest review190–191 and cat opening192–195
+
+- After native30 checkpoint e24aa85, reviewed15 fresh upright scans189–203 before
+  mapping. Review owns190–191; cat owns192–197, before independent functionkeys198–201
+  and next article202. Unlisted announcement189 is lookup-only and excluded.
+  Two articles/six mapped pages/nine outside-map lookups, within checkpoint limits.
+- Complete review package is readable/sample-reviewed. Cat opening192–195 is
+  partial/sample-reviewed with196–197 explicitly deferred, not missing. A native
+  ending checkpoint and separate assembly are required for the full cat article.
+- Retains44 regions,32 blocks,eight original images,36 regional spans,62 text review
+  ranges andfive captions. Review:13regions/eightblocks/oneimage;cat:31regions/24blocks/
+  sevenimages. Four native prose boundaries preserve PONPOKO and 다양한; the printed
+  wrapping hyphen before NPOKO is explicitly removed. Literal HAPPY WORS, 평션,
+  duplicated 가정자동화 and other historic wording remain unchanged.
+- Winner table has eight data rows/48cells, including a blank final내용 cell.
+  Direction table has four rows/12cells. Cat program guide has23 source explanations,
+  including stage2/3 shared brace, and13 variable definitions. Unicode brace/minus
+  and normalized prose wraps are reading aids; original bitmaps are authoritative.
+- One continuous AppleSoft listing195–197 has two native codeblocks on195:
+  129physicalrows,85 visibly numbered entries,43 wraps andone unnumbered ]LIST prompt.
+  Continuation digits are not inferred as line labels. Line120 repeats170 destinations;
+  there is one defined170 entry. No DATA in this segment. Complete1090 ends195 before
+  fresh1100 on196; no cross-page physical-row join there. Quotedart/Xcounts/1030glyphs,
+  indentation/asteriskcounts andoperators require manual proofreading. Flowchart
+  duplicate3240 and T1,T2 wording remain literal. No byte/execution certification.
+- All50 original/seven revised text panels andeight original images reviewed.
+  Three distinct crops widened once:reviewr13,catr23/r29. 47executions44initial/3repair,
+  zero OCR failures or retries. Original maps/crops/raw OCR/positions/settings/attempts
+  retained. No pipeline,HTML,frontend orbrowser changes; full proofreading deferred.
+- Exact UTF-8/block/regional/table/cell/guide/variable/prompt/caption/physical/logical
+  indexes, wrapped listing projection and independent byte-identical rebuilds pass.
+  All183 prior native/32assembly pins unchanged;13Mayassemblies revalidated. Passing
+  unchanged103-test baseline reused. Canonical42 identities and source pins preserved.
+- Ledger:27sample-reviewed articles,26readable/onepartial;five non-owning groups and
+  10unresolved identities. Thirteen assemblies retain32immutable native segments.
+  WholeMay and issuecloseout remain incomplete; unprocessed content is not missing.
+- Next native32:cat ending196–197 afterfreshproof. Preserve196left5080 continuation
+  at right-column top before3090, remaining DATA and final6670. Optional functionkeys
+  198–201 fits second-article/four-page allowance afterfreshproof. Cat full192–197
+  assembly is separate and follows the named native ending commit.
+- Exports: `build/pdf-restoration/12-1984-05-batch-31/{review,cat}`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-31`.

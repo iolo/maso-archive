@@ -7,9 +7,10 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–30 and thirteen assemblies are complete:** twenty-five articles
-are readable and sample-reviewed. All42 canonical TOC identities remain;five
-non-owning groups are classified and12 identities await classification/restoration.
+**May batches 01–31 and thirteen assemblies are complete:** 26 articles are
+readable and one cat article is partial; all 27 are sample-reviewed. All 42 canonical
+TOC identities remain; five non-owning groups are classified and 10 identities
+await classification/restoration.
 AppleDOS184–187,classifieds188,workshop181–183,terminal156–180 and accounting148–154 are complete. Thirteen
 assemblies preserve32 immutable native segments. Whole May remains incomplete;
 unprocessed content is not missing.
@@ -146,16 +147,41 @@ independent rebuilds pass. All181 prior native/32 assembly pins preserved;
 maps/crops/raw OCR/positions/settings/attempts retained. Full proofreading deferred.
 Evidence: `private/pdf-restoration/12-1984-05-batch-30`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–30}`.
+Native31 completes 공모 총평 on pages 190–191 and restores the opening of
+길 잃은 고양이 on pages 192–195, within its verified 192–197 extent. The two
+packages retain 44 regions, 32 ordered blocks, eight original images, 36 regional
+spans, 62 text review ranges and five captions. Four prose boundaries preserve
+PONPOKO and 다양한; the printed wrapping hyphen before NPOKO is explicitly removed.
+The winners table has eight data rows/48 cells; the direction table has four
+rows/12 cells. The cat article has 23 program-guide rows and 13 variable definitions.
+Its one continuous AppleSoft listing retains 129 physical rows: 85 numbered entries,
+43 wraps and one ]LIST prompt. Line120 repeats destination170; only one line170
+label is present. Quoted artwork, small glyphs and source bytes remain provisional;
+printed wording and duplicate flowchart3240 are preserved. No code execution.
+
+Fifteen fresh whole scans189–203 establish boundaries before mapping: six mapped
+pages and nine outside-map lookups. All50 original/seven revised text panels and
+eight original images reviewed. Three crops widened once;47 tasks44initial/3repair,
+zero failures/retries. Exact UTF-8/table/cell/guide/variable/caption/listing indexes,
+wrapped projection and independent byte-identical rebuilds pass. All183 prior
+native/32 assembly pins unchanged;13 May assemblies revalidated. Passing unchanged
+103-test baseline reused. Original maps/crops/raw OCR and provenance retained.
+Full proofreading deferred. Cat196–197 is deferred, not missing; an ending native
+checkpoint and separate assembly are required. Evidence:
+`private/pdf-restoration/12-1984-05-batch-31`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–31}`.
 Latest full export: `build/pdf-restoration/12-1984-05-terminal`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-terminal-assemble`.
-Latest native exports: `build/pdf-restoration/12-1984-05-batch-30/{fastdos,classifieds}`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-30`.
+Latest native exports: `build/pdf-restoration/12-1984-05-batch-31/{review,cat}`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-31`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: native31 restores 공모 총평 beginning190 after fresh extent/boundary
-proof. Current lookups indicate190–191; independent cat article192 requires its
-own extent proof before mapping. Unlisted announcement189 remains excluded.
+Next: native32 restores the cat ending196–197 after fresh extent/boundary proof.
+Page195 ends complete1090 before1100; preserve the page196 left5080 continuation
+at right-column top before3090. Optional functionkeys198–201 fits the remaining
+four mapped pages/second article after fresh proof. Assemble the full cat192–197
+separately after the native ending commit. Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
