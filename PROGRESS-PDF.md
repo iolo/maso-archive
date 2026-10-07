@@ -9563,3 +9563,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   34 unresolved entries. Next batch10 verifies meteor-game beginning64 andfollowing
   도망자 extents before mapping within two articles/six source pages.
   Whole May remains incomplete; full character proofreading remains deferred.
+
+### 2026-10-07 — May batch10: meteor64–65 and 도망자66–69
+
+- Complete 유성을 격추시켜라:11 source-reviewed regions,ten blocks,one original
+  illustration,102 physical BASIC rows/99 numbered entries and11 indexed routine
+  reference rows. Printed HYCOM-800/provider/contact andⓐ/[ key notation retained.
+  Ten PRINT graphic fields1770–1860 andone mark before100C use unique scan-linked
+  markers with unknown original byte values/glyph counts. Source71 X1$,814mark,
+  1600bareREM,1455three physical rows and1875semicolon without followingvariable
+  remain literal/explicitly uncertain. Exact glyph/blank/comment counts unverified.
+- 도망자 full extent66–71 verified against final2160END71 anddistinct 바이오리듬72.
+  Current partial segment66–69 has12 regions,ten blocks,one complete damaged
+  source photograph and291 physical rows/244 numbered entries. General CHASE
+  implementation67–68 is complete:112 rows/entries; Apple68–69 is complete:
+  179 physical rows/132 entries. Separate listing groups preserve overlapping labels.
+  Seven numeric-start string rows are unlabelled physical wraps. Apple1820 spans69
+  columns; original digit/identifier/string splits retained. Source66볼/트 joins
+  without a separator. Photo/manual bitmap correction andfull proofreading deferred.
+- Printed general140/1715 missingquotes and1000→980 jumpwith no980source label
+  retained. Apple missingquotes,1470separator,2140counter line,ring-symbol O/0
+  readings andall source jumps unchanged. Original attribution/comment spacing,
+  punctuation/exclamation counts andexecution unverified. Final FC-100/SPC-1000
+  implementation70–71 exists andis explicitly deferred; no missing-source outcome.
+- Two distinct meteor crops widened once:64routine-guide left recovers leading
+  thousands digits;65right-listing bottom recovers1880RETURN. Initial/intermediate
+  evidence retained.25 executed tasks (23 initial/two repairs),zero failures/no OCR
+  retry. Task elapsed 77.0741s,render/crop 46.4734s,OCR 28.3551s;
+  mapping 121.0279s andreview 609.8533s include tool/context waits,
+  not active labor. Exact stage tokens unavailable. An initial gap-metadata object
+  was preserved andconverted to the schema-required string; transcripts/OCR unchanged.
+- Source/raw provenance,text/review/physical/logical/marker ranges,all three numbered
+  sequences andwrapped projection pass. Independent rebuilds are byte-identical;
+  151 prior native/21 assembly manifests,previous-issue/input pins and92-test baseline
+  remain valid. Pipeline unchanged;no HTML,browser or frontend work.
+- Exports: `build/pdf-restoration/12-1984-05-batch-10/{meteor,fugitive}`. Final recipes:
+  `private/pdf-restoration/12-1984-05-batch-10/{meteor,fugitive}/final/final`.
+  Ledger retains42 identities:nine sample-reviewed articles (eight readable/one
+  partial),one group,32 unresolved. Next batch11 finishesfugitive70–71 andverifies
+  biorhythm72 extent before mapping within remainingfour source pages; then full
+  fugitive66–71 assembly preserves both native segments. Whole May remains incomplete.

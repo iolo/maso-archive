@@ -32,30 +32,35 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches01–09 are complete:** seven articles are readable/sample-reviewed:
-editorial19,Apple-II20–43,AI44–50,SERPENT-α52–56,진리표57,틱-택-토58–59
-and LUNAR60–63. The Apple-II and AI assemblies retain all seven immutable
-source segments; independent rebuilds and source/index preservation checks pass.
-Batch09 adds25 regions,23 blocks,two original images and402 physical BASIC
-rows/284 numbered entries across two complete articles. Tic-tac-toe retains12
-indexed explanatory rows,one explicit source-column prose join andone nine-value
-DATA statement. LUNAR retains the printed ]LIST command separately andfour
-unlabelled numeric continuations; logical710/1850 span pages/columns without
-merging the physical download rows. Source errors,merged words,small glyphs,
-comment/exclamation counts and original executable bytes remain unverified.
-All25 initial region tasks succeeded;no crop repair/OCR retry. Both independent
-native rebuilds are byte-identical. All149 prior native/21 assembly manifest pins
-and92-test baseline remain valid; pipeline unchanged.
+**May batches01–10 are complete:** nine articles are sample-reviewed. Eight are
+readable: editorial19, Apple-II20–43, AI44–50, SERPENT-α52–56, 진리표57,
+틱-택-토58–59, LUNAR60–63 and 유성을 격추시켜라64–65. 도망자66–69 is
+partial within its verified full extent66–71; the final implementation70–71
+exists and is deferred to the next batch. The Apple-II and AI assemblies retain
+all seven immutable source segments.
+Batch10 adds23 regions,20 blocks,two original images and393 physical BASIC
+rows/343 numbered entries. Meteor has102 rows/99 entries,11 indexed routine
+reference rows and11 unique scan-linked unknown graphic/mark fields. 도망자
+has112 general rows/entries and179 Apple rows/132 entries,one no-separator
+볼/트 prose join andseven unlabelled numeric string continuations. Apple1820
+spans69 columns; physical listing rows remain unchanged. Both implementations
+are complete within this partial article. Source missingquotes,jump980,ring
+symbols andgraphic bytes remain literal or explicitly uncertain.
+Two distinct meteor crop boundaries widened once each; initial/intermediate
+artifacts retained. All25 executed tasks succeeded (23 initial/two repairs),
+no OCR retry. Independent native rebuilds are byte-identical. All151 prior native/
+21 assembly manifest pins and92-test baseline remain valid; pipeline unchanged.
 Hobby divider51 is a non-owning group with ten existing child identities.
-All42 May identities remain intact:seven readable/sample-reviewed articles,
-one group and34 entries awaiting classification/restoration. Unprocessed entries
-are not missing outcomes. Whole May remains incomplete.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09}`.
+All42 May identities remain intact: eight readable/one partial sample-reviewed
+articles,one group and32 entries awaiting classification/restoration. Unprocessed
+entries are not missing outcomes. Whole May remains incomplete.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10}`.
 Feature assemblies: `build/pdf-restoration/12-1984-05-feature` and
 `build/pdf-restoration/12-1984-05-ai`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next batch10 verifies/maps 유성을 격추시켜라 beginning64 andfollowing 도망자,
-within two articles/six source pages. Full extents still require boundary inspection.
+Next batch11 finishes 도망자70–71 (FC-100/SPC-1000) and verifies/maps 바이오리듬
+beginning72 within two articles/six source pages. Full 도망자66–71 assembly follows
+with both native segments preserved. Biorhythm extent still requires inspection.
 Full character proofreading,historical claims,source encoding and code execution
 remain unverified.
 The following March checkpoint record preserves the completed work and its provenance.
