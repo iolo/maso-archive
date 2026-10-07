@@ -10302,3 +10302,25 @@ history remains in [PROGRESS.md](PROGRESS.md).
   native ending checkpoint. Whole May incomplete. Export:
   `build/pdf-restoration/12-1984-05-batch-23/accounting`.
   Evidence:`private/pdf-restoration/12-1984-05-batch-23`.
+
+### 2026-10-08 — Full May accounting148–154 assembly
+
+- Named native ending checkpoint0ef490d precedes separate full assembly from
+  immutable native22/23. All148–154 available;readable/sample-reviewed.
+- Full package:52 regions,41 blocks,seven original images,293 physical/numbered
+  BASIC rows in one continuous program/29 codeblocks. Four native prose boundaries
+  remain;1720/1730 are complete adjacent rows,no crosssegment text join needed.
+  45 native regional spans/41 sourceblock ranges/123 global text reviews retained.
+- Literal nonmonotoniclabels/duplicate2582,GOSIB2080,PRINT(Y1/100),THEN2229
+  and other malformed source statements unchanged. PET/Hangul/run/spacing markers,
+  faint ASCII identifiers/digits/labels and prior B70/D1/I5 candidates remain
+  explicit. Source encodedbytes/execution unverified;full proofreading deferred.
+- All205 copied original files byte-identical;exact full rebuild and source/text/
+  physical/logical listing indexes pass. All175 prior native/30 assembly pins
+  unchanged. Unchanged100-test baseline reused;no new mapping/render/OCR,
+  pipeline/HTML/frontend/browser work.
+- Ledger42 identities:21 readable/sample-reviewed articles,five nonowninggroups,
+  16 unresolved. Twelve May assemblies preserve27 native segments. Whole May
+  incomplete. Next terminal156 requires fresh full extent verification.
+- Export:`build/pdf-restoration/12-1984-05-accounting`.
+  Evidence/validation:`private/pdf-restoration/12-1984-05-accounting-assemble`.
