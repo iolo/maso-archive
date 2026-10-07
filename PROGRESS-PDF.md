@@ -10772,3 +10772,35 @@ history remains in [PROGRESS.md](PROGRESS.md).
   twenty-lookup limits.
 - Export: `build/pdf-restoration/12-1984-05-cat`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-cat-assemble`.
+
+### 2026-10-08 — May native33, complete 너구리202–207
+
+- Fresh upright201–209 scans proved the complete extent before mapping;independent
+  HAPPY-WORDS208 bounds the ending. One article/six mapped pages/three outside-map
+  lookups. Independent lower advertisements203/206 excluded.
+- Delivered readable/sample-reviewed JSON/assets:47 regions,33 ordered blocks,
+  11 original images,three captions,36 regional spans and156 text reviews.
+  CGBASIC has261 physical rows,172 numbered entries and89 wraps. Logical880
+  links205right TH to206left EN;numeric fragments are not new line labels.
+- Independent hex listing has124 rows and1,488 byte-value candidates,from printed
+  554A to5B0E. Sixteen save-example tokens are separate. Initialmap5544 candidate
+  superseded by enlarged scan reading;immutable initial evidence retained.
+  Five direction rows plus header/12 cells,12 program-guide rows,10 variable rows
+  andseven commands have exact source-linked UTF-8 ranges.
+- Ninety-nine editorial graphic markers retain source run references;original
+  character bytes/run lengths unknown. Printed 같혀/갇힌,실행속도로,$13A9 versus
+  D13A6,RO/P=3/P=4,RUSH,NU=8/NU=NU-2,GOSUB1190,duplicate flowchart A-key and
+  prose2000-byte claim preserved. Full proofreading andexecution remain unverified.
+- All54 original/five repaired text panels and11 images reviewed. Three distinct
+  crops repaired once;50 executions47 initial/three repair,zero failures/retries.
+  Raw OCR,crops,positions/settings andattempts preserved. Exact text/table/cell/
+  guide/variable/command/caption/physical/logical/hex indexes,wrapped projection
+  andbyte-identical rebuild pass. All187 priornative/33 assembly pins unchanged;
+  14 May assemblies revalidated. Unchanged106-test baseline reused.
+- Ledger retains42 canonical identities:29 readable/sample-reviewed articles,
+  five non-owning groups andeight unresolved entries. Whole May andissue closeout
+  remain incomplete. No pipeline,HTML,frontend orbrowser changes.
+- Next native34: fresh HAPPY-WORDS208 full extent/boundary proof before mapping.
+  Prior208/209 lookup establishes only opening;split into bounded segments if needed.
+- Export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-33`.

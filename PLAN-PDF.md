@@ -32,12 +32,12 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–32 and fourteen assemblies are complete:** all 28 restored
+**May batches 01–33 and fourteen assemblies are complete:** all 29 restored
 articles are readable/sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and nine identities await restoration
-or classification. The full cat article192–197 and function keys198–201 are complete.
+five non-owning groups are classified and eight identities await restoration
+or classification. 너구리202–207 is complete, including its BASIC and hex listings.
 Fourteen assemblies preserve 34 immutable native segments. Next is fresh
-너구리202 extent/boundary review. Whole May remains incomplete; unprocessed
+HAPPY-WORDS208 extent/boundary review. Whole May remains incomplete; unprocessed
 content is not missing.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
@@ -262,16 +262,35 @@ remain unverified.
 Full export: `build/pdf-restoration/12-1984-05-cat`.
 Evidence: `private/pdf-restoration/12-1984-05-cat-assemble`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–32}`.
+Native33 restores the complete 너구리 article202–207: 47 regions,33 blocks,
+11 original images,three captions,36 regional spans and156 text reviews.
+Its CGBASIC listing has261 physical rows,172 numbered entries and89 wraps;
+line880 crosses205/206. Independent hex data has124 rows/1,488 byte-value
+candidates,plus16 save-example tokens. The direction table hasfive data rows
+and a header/12 cells;12 guide rows,10 variable rows andseven commands are indexed.
+Ninety-nine editorial graphic markers retain source references without inferring
+original character bytes or run lengths. Printed errors and the prose2000-byte
+claim remain unchanged;full proofreading andexecution are unverified.
+
+Nine fresh201–209 scans proved the extent before mapping; six mapped pages and
+three outside-map lookups. All54 original/five repaired text panels and11 images
+were reviewed. Three distinct crops repaired once;50 tasks,zero failures/retries.
+Exact indexes,wrapped projection andbyte-identical rebuild pass. All187 prior
+native/33 assembly pins remain unchanged;14 May assemblies revalidate andthe
+unchanged106-test baseline is reused. No pipeline or rendering changes.
+Export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-33`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–33}`.
 Latest full export: `build/pdf-restoration/12-1984-05-cat`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-cat-assemble`.
-Latest native exports: `build/pdf-restoration/12-1984-05-batch-32/{cat,function}`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-32`.
+Latest native export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-33`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next native33 begins너구리202 afterfreshfull extent/boundaryproof; prior202/203
-lookups establishonlyopening. Exclude203loweradvertisement. OptionalHAPPYWORDS208
-onlyifverifiedextents fitpagebudget; do notinfer너구리endingfromtheTOC.
+Next native34 begins HAPPY-WORDS208 after fresh full extent/boundary proof;
+prior208/209 lookups establish only its opening. Split into bounded native
+segments if its verified extent exceeds six pages;do not infer its ending from TOC.
 Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.

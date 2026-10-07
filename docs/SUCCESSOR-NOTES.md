@@ -7,12 +7,12 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–32 and fourteen assemblies are complete:** all 28 restored
+**May batches 01–33 and fourteen assemblies are complete:** all 29 restored
 articles are readable/sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and nine identities await restoration
-or classification. The full cat article192–197 and function keys198–201 are complete.
+five non-owning groups are classified and eight identities await restoration
+or classification. 너구리202–207 is complete, including its BASIC and hex listings.
 Fourteen assemblies preserve 34 immutable native segments. Next is fresh
-너구리202 extent/boundary review. Whole May remains incomplete; unprocessed
+HAPPY-WORDS208 extent/boundary review. Whole May remains incomplete; unprocessed
 content is not missing.
 
 Native32 completes the cat ending196–197 and the function-key article198–201.
@@ -54,10 +54,28 @@ remain unverified.
 Full export: `build/pdf-restoration/12-1984-05-cat`.
 Evidence: `private/pdf-restoration/12-1984-05-cat-assemble`.
 
-Next: native33, fresh review of 너구리's extent and boundaries, starting on page
-202. Prior lookups on 202/203 prove only the opening; exclude the lower advertisement
-on 203. May still needs nine TOC outcomes and a separate issue closeout.
-No rendering work is required.
+Native33 completes 너구리202–207:47 regions,33 ordered blocks,11 images,
+three captions,36 regional spans and156 text reviews. CGBASIC retains261
+physical rows/172 numbered entries/89 wraps,including880 across205/206.
+Independent hex data retains124 rows/1,488 byte-value candidates;16 save-example
+tokens are separate. Five direction rows plus header/12 cells,12 guide rows,
+10 variables andseven commands have exact UTF-8 indexes. Ninety-nine editorial
+graphic markers reference scans without certifying original bytes/counts.
+Literal $13A9 versus13A6,2000-byte prose claim,duplicate flowchart A-key,
+RUSH andGOSUB1190 remain unchanged. Full proofreading/execution unverified.
+
+Nine fresh201–209 scans reviewed before mapping;six mapped pages/three lookups.
+All54 original/five repaired text panels and11 images reviewed. Three crop
+repairs once each;50 actual tasks,zero failures/retries. Exact indexes,wrapped
+projection andbyte-identical rebuild pass. 187 priornative/33 assembly pins
+unchanged;14 May assemblies revalidated;106-test baseline reused.
+Export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-33`.
+
+Next: native34, fresh full extent/boundary review of HAPPY-WORDS208. Prior208/209
+lookups prove only the opening. Split into bounded native segments if needed.
+May still needs eight TOC outcomes and a separate issue closeout.
+JSON/assets only;no rendering work is required.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block

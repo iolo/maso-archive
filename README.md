@@ -111,11 +111,11 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7. All 28 restored articles are readable and
+May 1984 began on October 7. All 29 restored articles are readable and
 sample-reviewed. Fourteen assemblies preserve 34 original segments.
-The cat article192–197 and function-key article198–201 are complete.
-Next is 너구리, beginning202, after fresh extent and boundary review.
-Five non-owning groups are classified; nine TOC entries still await restoration
+너구리202–207 is complete, including its BASIC and hexadecimal listings.
+Next is HAPPY-WORDS, beginning208, after fresh extent and boundary review.
+Five non-owning groups are classified; eight TOC entries still await restoration
 or classification. Whole May and its issue closeout remain incomplete.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
 pass. All 106 PDF tooling tests pass.
