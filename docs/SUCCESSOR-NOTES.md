@@ -7,15 +7,18 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-May 1984 batch01 is complete. Editorial19 is readable/sample-reviewed; Apple-II
-feature20–21 is a partial/sample-reviewed opening with two original artwork
-panels. Ten mapped regions and six blocks pass raw/scan preservation, byte-index,
-column-join and exact-rebuild checks. All 42 May identities remain intact;
-two articles are classified and 40 entries await classification/restoration.
-Exports: `build/pdf-restoration/12-1984-05-batch-01/{editorial,feature}`.
+May 1984 batches01–02 are complete. Editorial19 is readable/sample-reviewed;
+Apple-II feature20–27 is available in two immutable partial/sample-reviewed
+segments. Batch02 adds 54 regions, 33 blocks, ten original figures/tables,
+nine physical code rows and eleven prose joins. Source/raw preservation,
+text/listing indexes and identical rebuild pass; printed anomalies remain noted.
+All 42 May identities remain intact; two articles are classified and 40 entries
+await classification/restoration. Exports are under
+`build/pdf-restoration/12-1984-05-batch-{01,02}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: May batch02 continues the feature from printed/PDF22, **1. 서론**,
-with at most six source pages. Full ending remains unmapped; whole issue incomplete.
+Next: May batch03 continues at printed/PDF28, with at most six source pages.
+Full feature extent20–43 is verified; 28–43 and assembly remain pending.
+Whole issue incomplete.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.

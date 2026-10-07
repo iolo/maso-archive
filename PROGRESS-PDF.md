@@ -9204,3 +9204,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next: batch02 continues the Apple-II feature from printed/PDF22, starting
   1. 서론, with at most six source pages and20 lookup pages. The introduction
   ends with a complete sentence; no mid-sentence join is required at this boundary.
+
+
+### 2026-10-07 — May batch02: Apple-II hardware continuation22–27
+
+- Continued canonical0001 within six source pages/one article. Four lookup pages
+  (21,28,43,44) verify boundaries and full feature extent20–43: page43 ends the
+  final BASIC listing;44 begins the separately listed artificial-intelligence
+  feature. Printed/PDF22–28 match locally; no global offset inferred.
+- Restored all54 mapped regions: 44 text regions become33 ordered blocks through
+  eleven prose joins. Ten original diagrams/tables retain figures1–5 (4a/4b)
+  and tables1–4, with separate source captions. Original images remain
+  authoritative for table cells and inner diagram labels.
+- Prompt code retains six physical rows/four numbered logical entries, including
+  two wrapped comment rows. The XOR illustration retains three unnumbered binary
+  rows. All nine physical rows, four logical entries, block ranges and nineteen
+  source-review excerpts pass byte-index checks and wrapped-listing projection.
+- Compared all text regions against enlarged source crops and all figure/table
+  boundaries against upright scans. Widened eight clipped page26 left-column
+  crops, one page26 middle-column crop and the figure5 bottom once each. All
+  ten initial attempts remain preserved;46 unchanged regions reuse exact scans
+  and raw OCR. No failed OCR task or OCR retry.
+- Retained printed duplications, WNDFT/WNDLFT discrepancy, IX register name,
+  truncated $FFE address and $63F0/$63F1 addresses explicitly. Greek clock symbols,
+  mixed fraction and ASCII code quotes are declared reading normalizations.
+  No historical code execution, exact executable bytes or full table transcript
+  is certified. One private authoring TypeError was fixed before output mutation;
+  its initial script and retry note remain preserved.
+- Executed64 tasks:54 initial and10 bounded crop repairs; zero failures.
+  Task elapsed92.8052s, render/crop56.7325s, OCR29.5827s. Mapping92.7121s;
+  review interval521.4870s includes OCR, repairs and tool/context waits rather
+  than active labor. Exact stage tokens/backend measurements unavailable.
+- Final package and independent rebuild are byte-identical. Prose joins, native
+  wrapped listing projection, all region/raw pins, captions and source inputs
+  pass. All141 prior native manifests and19 prior assemblies remain unchanged;
+  previous issue pins pass. No pipeline change; reused90-test tooling baseline.
+  No HTML, browser, reader or frontend work.
+- Export: `build/pdf-restoration/12-1984-05-batch-02/feature`. Recipes, raw evidence,
+  repairs, metrics and validation are under the matching private directory.
+  Ledger preserves all42 identities and now records feature segments20–21 and
+  22–27. Counts remain two classified articles: one readable and one partial,
+  both sample-reviewed;40 entries remain unresolved. Whole May incomplete.
+- Next: batch03 covers printed/PDF28–33 within the six-page ceiling, with34 as
+  a boundary lookup. Remaining feature28–43 and final article assembly pending.

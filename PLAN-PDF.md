@@ -32,17 +32,18 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batch01 is complete:** editorial19 is readable/sample-reviewed; the
-Apple-II feature opening20–21 is partial/sample-reviewed, with its full opening
-text and two original artwork panels preserved. Ten regions, six ordered blocks,
-two figures and two editorial column joins pass byte-index, scan/raw-OCR and
-identical-rebuild checks. All 42 canonical TOC identities remain intact; two
-articles are classified and 40 entries await classification/restoration.
-No missing source is inferred from these unprocessed entries. Native exports:
-`build/pdf-restoration/12-1984-05-batch-01/{editorial,feature}`; ledger:
-`private/pdf-restoration/12-1984-05/issue-progress.json`. Next batch02 continues
-the feature at printed/PDF22, beginning **1. 서론**, within the six-page ceiling.
-Full feature ending remains unmapped; whole May is incomplete.
+**May batches01–02 are complete:** editorial19 is readable/sample-reviewed;
+the Apple-II feature has two immutable partial/sample-reviewed segments covering
+20–27. Batch02 adds six pages, 54 regions, 33 ordered blocks, ten original
+figures/tables, nine physical code rows and eleven prose joins. Text/listing
+indexes, raw/scan preservation and exact rebuild pass. All 42 canonical TOC
+identities remain intact; two articles are classified and 40 entries await
+classification/restoration. Unprocessed entries are not missing-source outcomes.
+Native exports: `build/pdf-restoration/12-1984-05-batch-01/{editorial,feature}`
+and `build/pdf-restoration/12-1984-05-batch-02/feature`; ledger:
+`private/pdf-restoration/12-1984-05/issue-progress.json`. Full feature extent
+20–43 is source-verified. Next batch03 continues at printed/PDF28, within the
+six-page ceiling; 28–43 and article assembly remain pending. Whole May incomplete.
 The following March checkpoint record preserves the completed work and its provenance.
 March batches 01–44 and nineteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
