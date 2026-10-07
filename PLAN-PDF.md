@@ -32,9 +32,10 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–23 and twelve assemblies are complete:** twenty-one articles
-are readable and sample-reviewed. All42 canonical TOC identities remain;five
-non-owning groups are classified and16 identities await classification/restoration.
+**May batches 01–24 and twelve assemblies are complete:** twenty-two articles
+are sample-reviewed:twenty-one readable andone partial terminal article. All42
+canonical TOC identities remain;five non-owninggroups are classified and15
+identities await classification/restoration.
 Accounting148–154 is fully assembled. Twelve assemblies preserve27 immutable
 native segments. Whole May remains incomplete;unprocessed content is not missing.
 
@@ -67,13 +68,27 @@ listing indexes pass. All175 prior native/30 assembly pins unchanged. Passing
 unchanged100-test baseline reused. No new mapping,rendering,OCR,pipeline change,
 HTML,frontend or browser work.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–23}`.
+Terminal opening156–161 (native24) of verified156–180 retains58 regions,35
+ordered blocks,11 original images,47 regional spans,85 text reviews andten
+sourcecaption spans. Three independent unnumbered assembly listings retain52
+physical rows;BDOS table retains39 rows/four cells,includingduplicate6/32.
+Six prose groups preserve12 native boundaries. Eleven distinctregions repaired
+once each;69 executedtasks58initial/11repair,zero failures/no OCRretry. All54
+initial/11 revisedtextpanels,11 originalimages andone reviseddiagram reviewed.
+Exact rebuild,UTF-8/table/listing indexes and175priornative/31assembly pins pass.
+Unchanged100-test baseline reused. Literal asynchrnous,Receiver Transmission,
+Equipemnt,wboote,ccp+806h andCALLBDOS hyphen retained;smallglyphs/bytes/execution
+remain uncertain. Fullproofreading deferred. Remaining162–180 andfullassembly
+required;wholeMay incomplete. Evidence:`private/pdf-restoration/12-1984-05-batch-24`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–24}`.
 Latest full export: `build/pdf-restoration/12-1984-05-accounting`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-accounting-assemble`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-{22,23}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: terminal156 after fresh full extent verification. Whole May closeout later.
+Next: terminal middle162–167 after fresh continuation/boundary review. Full
+156–180 assembly follows its named native ending commit;whole May closeout later.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
 The following March checkpoint record preserves the completed work and its provenance.

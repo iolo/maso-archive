@@ -10324,3 +10324,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
   incomplete. Next terminal156 requires fresh full extent verification.
 - Export:`build/pdf-restoration/12-1984-05-accounting`.
   Evidence/validation:`private/pdf-restoration/12-1984-05-accounting-assemble`.
+
+
+### 2026-10-08 — May native batch24: terminal156–161 opening
+
+- Eleven whole upright155–162/179–181 scans reviewed before mapping:one article,
+  six mapped pages andfive outside-map lookups. Title156,finalEND RECEIVE/listing14
+  at180 anddistinctworkshop181 prove full156–180 extent;remaining162–180 required.
+- Package:58 regions,35 blocks,11 original images,47 regional spans,85 text
+  review ranges andten sourcecaption spans. Three independent unnumbered assembly
+  groups preserve52 physical rows. BDOS table has39 searchable rows/four cells,
+  preservingduplicatefunctions6/32 andliteralHL=BA. Originaltable remains.
+- Six prose groups preserve12 column/page boundaries,including드라이브,해서,
+  패리티,데이터로 and전송할. Outgoing161모두가/162그림7 clause remainsfornextnative.
+  Literalasynchrnous,Receiver Transmission,Equipemnt,wboote,ccp+806h,missinglarger
+  comment andCALLBDOS hyphen retained. Originalfigure1 duplicate0100H,figure4
+  N=4,5,6,7 andfigure5 Cloc Clock remaininbitmaps;no technicalrepair.
+- Eleven distinctregions repaired once each;69 tasks58initial/11repair complete,
+  zeroOCRfailures/no retries. All54 initial/11 revisedtextpanels,11 originalimages
+  andone reviseddiagram reviewed. Originalmaps/crops/rawOCR/positions/settings/
+  attempts preserved. Smallglyphs,quotes/operators/spacing andsourceencodedbytes
+  remainprovisional;execution unverified/fullproofreading deferred.
+- Preparation reference correctedbeforemapping/OCR;unavailablepython invocation
+  changedno files. Acceptance adaptedforunnumberedrows(zero logicalentries),fixed
+  inheritedcounter assertions andremovedtrailingregionalnewlinesinsideprosejoins.
+  Provisionalexport preserved;finalpackage exactrebuild passes.
+- AllUTF-8/source/table/caption/listing ranges andwrappedindex projection pass.
+  All175 priornative/31 assembly pins unchanged;twelveMayassemblies revalidate.
+  Passing unchanged100-test baseline reused;no pipeline/HTML/frontend/browserwork.
+- Ledger42 identities:22 sample-reviewedarticles,21readable/onepartial,fivegroups,
+  15unresolved. TwelveMayassemblies preserve27 immutable native segments. Whole
+  May incomplete;unprocessed isnotmissing. Next boundedmiddle162–167 checkpoint,
+  thenremainingpages andseparatefull156–180 assembly after namednativeendingcommit.
+- Export:`build/pdf-restoration/12-1984-05-batch-24/terminal`.
+  Evidence/validation:`private/pdf-restoration/12-1984-05-batch-24`.
