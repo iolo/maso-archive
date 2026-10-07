@@ -10120,3 +10120,29 @@ history remains in [PROGRESS.md](PROGRESS.md).
   WholeMay incomplete;unprocessed is not missing.
 - Next:fullmedical128–133 assembly after namednativecommit,then VisiCalc138 and
   possibledatabase141 afterfresh boundedextent proof.
+
+### 2026-10-07 — Full May medical128–133 assembly
+
+- Native checkpoint404f5d0 preceded separatefullassembly. Full128–133 extent
+  endsbefore VisiCalc134. Readable/sample-reviewed export has72regions,50blocks,
+  22figures,117physical rows/105numbered logical entries/12wraps/fourlistings,
+  50sourceblock spans,58text reviews and11globalcaption spans.
+- LIST1 samegroup crosses131/132,410/420;LIST3 samegroup crosses132/133 andskips
+  112 asprinted. Fourindependent source listings eachstart0/end990;execution
+  andencoded bytes remainunverified. No crosssegment prosewordjoin needed.
+- Allsource wraps/typos retained,including DATA-,HD$(C) versusHD$(0),LIST2 430
+  missingequals,MENUE. andlist-specificVTAB. Two priorLIST1 unresolvedborder
+  markers remain. SixLIST2–4 borders readtwentyasterisks,withoutrewritingLIST1.
+  Source table/flow/screen images andsearchable overlays retained;flow3-1 edge
+  uncertainty remainsdocumented withwholelookup129 context. Fullproofreading
+  remainsdeferred.
+- All240originalfiles byte-identical;exactfullassembly rebuild passes. All170
+  priornative/27assembly pins unchanged;passing100-test baseline reused.
+  No toolingchange,newmapping/render/OCR,HTML/frontend/browser work.
+- Export: `build/pdf-restoration/12-1984-05-medical`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-medical-assemble`.
+  Manifest:ec9ccbe1981375e78914aa0c85c62b82ce19981cb73554f7b498bc52f478eba0.
+  Ledger42identities:19articles (18readable/1partial),3groups/20unresolved.
+  NineMayassemblies preserve21immutable native segments. WholeMay incomplete.
+- Nextboundednative batch20:VisiCalc ending138;possibledatabase141–145 afterfresh
+  extentproof. SeparateVisiCalc fullassembly after namednativecheckpoint.
