@@ -7,13 +7,13 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–20 and nine assemblies are complete:** twenty articles are
-sample-reviewed: eighteen readable and two partial. All 42 canonical TOC
+**May batches 01–20 and ten assemblies are complete:** twenty articles are
+sample-reviewed: nineteen readable and one partial. All 42 canonical TOC
 identities remain; three non-owning groups are classified and 19 identities await
 classification/restoration. Medical128–133 is assembled. All VisiCalc134–138
-native pages are restored; a separate full assembly follows this native commit.
+native pages are restored and the full article is now assembled and readable.
 Database141 is restored of the verified141–147 extent;142–147 remain together
-for the next six-page batch. Nine assemblies preserve21 immutable segments.
+for the next six-page batch. Ten assemblies preserve23 immutable segments.
 
 Batch20 restores16 regions,11 blocks,three original images,13 regional text
 spans,17 text review ranges,nine unnumbered physical command rows,two native
@@ -39,11 +39,20 @@ unchanged passing100-test baseline is reused. JSON/assets only;noHTML,
 frontend orbrowser work. Full proofreading andoriginal machinebytes remain
 unverified;wholeMay is incomplete. Unprocessed content is not missing.
 
+Full VisiCalc134–138 assembly follows native checkpoint27c85a5:37 regions,
+18 blocks,ten figures,19 unnumbered instruction rows,27 native regional spans,
+38 text review ranges andseven globally projected captions. Nine native prose
+boundaries remain;no crosssegment join is needed. All135 original files remain
+byte-identical;the exact assembly rebuild andglobal source indexes pass.
+All172 prior native and28 assembly pins are unchanged;the100-test baseline
+is reused. Literal source discrepancies andUnicode reading representations
+remain explicit. No new mapping/render/OCR orpipeline change.
+
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01–20}`.
-Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical}`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: separate fullVisiCalc134–138 assembly after the named native checkpoint,
-then database142–147 after fresh bounded verification. WholeMay closeout later.
+Next: database142–147 after fresh bounded verification;separate full141–147
+assembly after its named native checkpoint. WholeMay closeout later.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.

@@ -10174,3 +10174,27 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Ledger42 identities:20 articles (18readable/2partial),3groups/19unresolved.
   AllVisiCalc134–138 natives ready;separate assembly after namednativecommit.
   Nextdatabase142–147 afterfresh verification;wholeMay remains incomplete.
+
+### 2026-10-07 — Full May VisiCalc134–138 assembly
+
+- Nativecheckpoint27c85a5 precedes separatefullassembly. Verified134–138
+  extent endsbefore ads139–140/database141. Immutable batches19/20 copied
+  together;no newmapping/render/OCR orpipeline change. JSON/assets only.
+- Readable/sample-reviewed fullpackage:37 regions,18 blocks,ten figures,
+  19 unnumbered physical Englishinstruction rows,one listinggroup,27 native
+  regional spans,18 sourceblock ranges,38 textreviews andseven globalcaption
+  spans. Nine native prose boundaries retained;no crosssegmentjoin137/138.
+- Literal source discrepancies,Unicode circledcommands,boxedcursors,range
+  andcomparison readings remain. Preserve3열(Column),13열(column),SUMrange,
+  roundingclaim,strictcomparison discrepancy,12행hint instruction,sourcecaret
+  prefixes,INTER- wrap andfinal<TR. Screenplacements/14/17TRIES unchanged.
+  Full proofreading,original machinebytes andexecution remain unverified.
+- All135 original files unchanged;exactassembly rebuild,source/text/listing
+  andcaption ranges pass. All172 prior native/28 assembly pins unchanged.
+  Passing100-test baseline reused;noHTML/frontend/browser work.
+- Export: `build/pdf-restoration/12-1984-05-visicalc`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-visicalc-assemble`.
+  Manifest7d5c987ca4b00e7e7ed7cf50196f7b95d5058826e48d3d66b20df86c549a9fea.
+  Ledger42 identities:20 articles (19readable/1partial),3groups/19unresolved.
+  Tenassemblies preserve23 immutable native segments. Database141 partial;
+ 142–147 nextbounded batch21,then separatefullassembly. WholeMay incomplete.
