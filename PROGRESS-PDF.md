@@ -9807,3 +9807,33 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Next batch15 restores105–106,then separate full99–106 assembly with explicit
   no-separator 각 파라/메터를 join andeight intervening figure/listing objects.
   LOGO107 follows within the existing limits. Full proofreading deferred.
+
+### 2026-10-07 — May batch15: Z80 ending105–106 and LOGO opening107–110
+
+- Verified machine99–106 and LOGO107–114 endings against distinct headings107
+  and115. Two articles/six mapped pages;11 upright source scans reviewed,with
+  five lookups outside mapped pages. Education/hobby divider ownership unchanged.
+- Two native partials:60 regions,43 blocks,seven original images;54 unnumbered
+  Z80 physical listing rows/two groups,0 inferred logical/BASIC lines. Ten prose
+  boundaries,53 regional ranges,131 text reviews and69 inline command/response
+  rows validate. LOGO prompts,wrapped REPEAT and FORWARD40RIGHT/90 retained.
+- Source CALL GR2 beside GR3,JR/JP and faint missing 덱 in 인 스드 remain explicit.
+  LOGO 기능적인/지능적인,DOS3,2,255character claim,RIGHT90 andEDIT quote retained.
+  Figure4 scan and ten-row abbreviation text intentionally overlap; figure6
+  program and later prose repeat remain separate. No executable/byte repairs.
+- One crop repair:machine106r12 right edge .577→.639 for clipped operands.
+  Initial maps,crops,rawOCR,positions/settings and67 inspected panels preserved.
+  All61 tasks pass (60 initial/one repair),zero failures/no failed-task OCR retry.
+- Exact rebuild,all text/listing spans and wrapped-index projection pass.
+  All160 prior native/23 assembly pins unchanged; four May assemblies revalidate.
+  Pipeline unchanged; passing pinned96-test baseline reused. JSON/assets only.
+- Exports: `build/pdf-restoration/12-1984-05-batch-15/{machine,logo}`.
+  Recipes: `private/pdf-restoration/12-1984-05-batch-15/{machine,logo}/final`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-15`.
+  Ledger42 identities:15 articles (13readable/2partial),2groups/25unresolved.
+  Z80 native99–106 available; full assembly remains. LOGO111–114/full assembly
+  remain. WholeMay incomplete; full proofreading deferred.
+- Next after named native commit:bounded adapter/sample fix for declared listing
+  andheading interruptions. Existing interrupted mode rejects eight retained
+  figure/listing objects at104/105. Then separate Z80 fullassembly,followed by
+  LOGOending111–114. Preserve no-separator 각 파라/메터를 and컴퓨/터는 joins.

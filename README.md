@@ -111,11 +111,12 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7; fourteen articles are sample-reviewed: thirteen
-readable and the Z80 lecture opening (99–104) partial. Four assemblies preserve
-eleven original segments. The hobby and education dividers are classified;
-26 TOC entries await classification/restoration. Next: lecture ending105–106,
-then full99–106 assembly and LOGO107.
+May 1984 began on October 7; fifteen articles are sample-reviewed: thirteen
+readable and two partials. Z80 native pages99–106 are restored and await assembly;
+LOGO107–110 is restored, with111–114 pending. Four assemblies preserve eleven
+original segments. Two non-owning dividers are classified;25 TOC entries await
+classification/restoration. Next: bounded listing-interruption adapter fix and
+Z80 assembly, then LOGO ending.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff

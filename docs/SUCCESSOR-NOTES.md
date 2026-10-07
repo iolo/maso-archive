@@ -7,39 +7,41 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–14 and four assemblies are complete:** fourteen articles are
-sample-reviewed: thirteen readable and the 기계어 강좌 opening (99–104) partial.
-The readable articles cover editorial19, AppleII20–43, AI44–50, SERPENT52–56,
-진리표57, 틱-택-토58–59, LUNAR60–63, meteor64–65, 도망자66–71,
-바이오리듬72–75, 결혼행진곡76–77, 낚시78–82 and 공중전83–85.
-Four assemblies preserve all eleven immutable native segments.
-Batch14 verifies education97 as a non-owning divider with three children;
-advertisement98 is excluded. The Z80 lecture spans99–106 before distinctLOGO107.
-Current99–104 contains35 regions,20 blocks,three original images and110 physical
-unnumbered assembly rows in six groups. Hex addresses are not BASIC line labels.
-Four prose joins cover12 column/page boundaries;32 regional ranges,54 text
-reviews,14 explanatory instruction rows and all110 listing reviews validate.
-The72 machine-column rows retain literal source tokens without deriving bytes.
-Source Accnmulator,28,6%,LD B,00H versus16repeat prose,LD L,(1235H),1A9FH versus
-its diagram,BEFORE RUNNIG,AFLER RUNNING,LALL ACCPRT andJR/JP discrepancies remain.
-Source101's unfinished 즉 몇개의 and the 표1 cross-reference remain explicit.
-Two distinct crops were widened once each: listing2 comment edge and LDDR header.
-Initial/intermediate maps,crops and OCR remain. All37 tasks succeeded (35 initial,
-two repairs); no failed task or OCR retry. Exact rebuild and indexes pass;
-all159 prior native and23 assembly manifest pins remain unchanged. All four May
-assemblies revalidate. Pipeline unchanged; pinned passing96-test baseline reused.
-All42 May identities remain intact:14 articles,two non-owning groups and26 entries
-awaiting classification/restoration. WholeMay remains incomplete; unprocessed
-entries are not missing outcomes. Full character proofreading remains deferred.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14}`.
+**May batches 01–15 and four assemblies are complete:** fifteen articles are
+sample-reviewed: thirteen readable and two partials. The readable articles cover
+editorial19, AppleII20–43, AI44–50, SERPENT52–56, 진리표57, 틱-택-토58–59,
+LUNAR60–63, meteor64–65, 도망자66–71, 바이오리듬72–75, 결혼행진곡76–77,
+낚시78–82 and 공중전83–85. Four assemblies preserve eleven native segments.
+The hobby51 and education97 dividers are non-owning groups.
+Z80 lecture99–106 is now available in two immutable native packages; its full
+assembly remains. LOGO107–114 is bounded before basic-technique115; opening107–110
+is restored, with111–114 and full assembly pending.
+Batch15 contains60 regions,43 blocks,seven original LOGO images and54 unnumbered
+Z80 physical listing rows in two groups. Ten native prose boundaries,53 regional
+ranges,131 text reviews and69 explanatory command/response rows validate.
+LOGO figure4 retains both its original abbreviation image and ten-row text;
+figure6 PINWHEEL and later prose repeat remain independently source-linked.
+Physical prompts, REPEAT wraps and FORWARD40RIGHT/90 rows remain literal.
+Z80 source CALL GR2 beside GR3,JR/JP discrepancies and faint 인 스드 remain;
+LOGO 기능적인/지능적인,DOS3,2,255char claim,RIGHT90 and EDIT leading quote remain.
+One crop repair widens106r12 right edge .577→.639 for complete operands.
+Initial maps,crops,OCR,positions/settings and67 review panels remain. All61 tasks
+succeeded (60 initial/one repair); zero failures and no OCR retry. Exact rebuild,
+text/listing indexes and wrapped projection pass. All160 prior native and23
+assembly manifest pins remain unchanged; four May assemblies revalidate.
+Pipeline unchanged; pinned passing96-test baseline reused. JSON/assets only.
+All42 identities remain:15 articles,two non-owning groups and25 entries awaiting
+classification/restoration. WholeMay remains incomplete; unprocessed is not missing.
+Full character proofreading,source bytes and code execution remain unverified.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next batch15 restores lectureending105–106; then a separate full99–106 assembly.
-The104/105 각 파라/메터를 split word needs no separator and an explicit eight-item
-figure/listing interruption record in `interrupted-wrapped-listing-v1`.
-VerifyLOGO107 next within two articles/six mapped pages/twenty lookup pages.
-Source glyphs/encoding,code execution,historical claims and manual bitmap
-correction remain unverified.
+Next: after named native commit, bounded adapter/sample repair to support explicitly
+reviewed listing/headings interruptions; then separate fullZ80 assembly99–106.
+The104/105 각 파라/메터를 join has no separator and eight retained intervening objects.
+Current interrupted adapter accepts figures/captions/tables but rejects these
+listing/title objects; preserve immutable sources while fixing the narrow adapter.
+LOGO ending111–114 follows within two articles/six mapped pages/twenty lookup pages.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
