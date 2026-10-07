@@ -10198,3 +10198,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Ledger42 identities:20 articles (19readable/1partial),3groups/19unresolved.
   Tenassemblies preserve23 immutable native segments. Database141 partial;
  142–147 nextbounded batch21,then separatefullassembly. WholeMay incomplete.
+
+### 2026-10-07 — May native batch21: database142–147
+
+- Fresh upright141–148 lookups reviewed before mapping; final147 RETURN precedes
+  accounting148. One article/six mapped pages and two outside-map lookups.
+- Ending package: 77 regions, 57 blocks, ten original images, 67 regional spans,
+  61 text reviews and 124 unnumbered physical example/comment rows in seven
+  listing groups. Paired command/explanation cells and source table bitmaps kept.
+  Ten prose boundaries in eight groups, including 사용/되는 without a space.
+  All141–147 native pages available; separate full assembly remains.
+- Literal errors retained: coomands, EMDIF, DO WHICE, incomplete IF Item＝,
+  Invocies, noublank, let,s, missing quote and doubled plus across physical wrap.
+  Border stars read 8+8/header and26/footer; continuous left border alignment,
+  comment prefixes and blank-star placement remain provisional. Unicode command
+  symbols, original machine bytes, technical claims and execution unverified.
+  Original table/scans remain authoritative; full proofreading deferred.
+- Eight distinct regions repaired once; initial maps/crops/raw OCR retained.
+  All79 initial panels, ten revised panels and ten image crops reviewed. All85
+  executed tasks pass:77 initial/eight repair, zero failures/no OCR retry.
+- Exact native rebuild, text/range and listing projections pass. All172 prior
+  native/29 assembly pins unchanged; ten May assemblies revalidate. Passing
+  unchanged100-test baseline reused. No pipeline/HTML/frontend/browser work.
+- Export: `build/pdf-restoration/12-1984-05-batch-21/database`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-21`.
+  Ledger42 identities:20 articles (19 readable/one partial), three groups and
+  19 unresolved. Whole May incomplete. Separate full database141–147 assembly
+  follows named native checkpoint; accounting148 needs fresh extent verification.

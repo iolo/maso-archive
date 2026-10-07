@@ -7,52 +7,49 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–20 and ten assemblies are complete:** twenty articles are
+**May batches 01–21 and ten assemblies are complete:** twenty articles are
 sample-reviewed: nineteen readable and one partial. All 42 canonical TOC
 identities remain; three non-owning groups are classified and 19 identities await
-classification/restoration. Medical128–133 is assembled. All VisiCalc134–138
-native pages are restored and the full article is now assembled and readable.
-Database141 is restored of the verified141–147 extent;142–147 remain together
-for the next six-page batch. Ten assemblies preserve23 immutable segments.
+classification/restoration. VisiCalc134–138 is assembled. All database141–147
+native pages are now restored; its separate full assembly remains. Ten assemblies
+preserve 23 immutable native segments.
 
-Batch20 restores16 regions,11 blocks,three original images,13 regional text
-spans,17 text review ranges,nine unnumbered physical command rows,two native
-prose boundaries andtwo caption spans. VisiCalc138 retains its gameplay ending,
-表6/7 screens and14/17TRIES values. Database141 retains its title panel,byline,
-serial heading andeight commands,including the STRUC-/TURE physical wrap.
-Prose joins retain순서를/보면 withspace and발/휘 withoutspace;the command
-sequence remains in source order. Literal Test, CMD comma,final opening-facing
-quote andUnicode angled placeholders are preserved;source encoding/execution
-are unverified. Finalitalic word carries to142-star;the finald/a glyph remains
-provisional. The r02 heading crop remains clipped at its left edge after one
-allowed repair;the full title is confirmed against original panelr01.
+Batch21 restores database142–147: 77 regions, 57 blocks, ten original images,
+67 regional text spans, 61 text review ranges and 124 unnumbered physical example/
+comment rows across seven listing groups. Four flowcharts, three cartoons, a photo
+and both command table panels remain as images alongside searchable text. Ten
+native prose boundaries are joined in eight groups, including 사용/되는 without
+a space. The
+141word/142-star continuation is reserved for the separate full assembly.
 
-Two mapped pages138/141 and11 outside-map lookup pages satisfy limits.
-All13 upright138–150 lookup scans were inspected before mapping. VisiCalc ends
-before ads139–140/database141;database147 ends before accounting148.
-All19 tasks pass (16initial/3repair),zero failures/noOCRretry. Three distinct
-heading regions repaired once each;15 initial panels,three revised crops and
-three native figures reviewed. Initial maps/rawOCR/positions/settings are kept.
-Exact native rebuilds,UTF-8 andlisting projections pass. All170 prior native
-and28 assembly pins remain unchanged;nineMay assemblies revalidate. The
-unchanged passing100-test baseline is reused. JSON/assets only;noHTML,
-frontend orbrowser work. Full proofreading andoriginal machinebytes remain
-unverified;wholeMay is incomplete. Unprocessed content is not missing.
+Literal source errors remain: coomands, EMDIF, DO WHICE, incomplete IF Item＝,
+Invocies, noublank, let,s, a missing quote, filename punctuation and the doubled
+plus across the Name/Address wrap. Circled-at/angled-placeholder Unicode readings
+and source technical claims are unverified. The sample comment's continuous
+asterisk border has uncertain line alignment; header 8+8 and footer 26 stars are
+reviewed, while comment prefixes/blank-star placement remain provisional. The
+original table and crops are authoritative. Native20's title edge/final italic
+word glyph uncertainty is retained unchanged. Full proofreading remains deferred.
 
-Full VisiCalc134–138 assembly follows native checkpoint27c85a5:37 regions,
-18 blocks,ten figures,19 unnumbered instruction rows,27 native regional spans,
-38 text review ranges andseven globally projected captions. Nine native prose
-boundaries remain;no crosssegment join is needed. All135 original files remain
-byte-identical;the exact assembly rebuild andglobal source indexes pass.
-All172 prior native and28 assembly pins are unchanged;the100-test baseline
-is reused. Literal source discrepancies andUnicode reading representations
-remain explicit. No new mapping/render/OCR orpipeline change.
+All eight upright141–148 lookups were reviewed before mapping: six mapped pages
+and two outside-map lookups. Final RETURN on147 precedes accounting148. All 85
+executed tasks pass (77 initial/eight crop repairs), with zero failures/no OCR
+retry. Each affected region was repaired once. All 79 initial and ten revised
+inspection panels and ten original image crops were reviewed. Initial maps,
+raw OCR, positions/settings and attempts are preserved.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–20}`.
+Exact native rebuild, UTF-8 ranges and listing projection pass. All 172 prior
+native and 29 assembly pins remain unchanged; ten May assemblies revalidate.
+The passing unchanged 100-test baseline is reused. No pipeline, HTML, frontend
+or browser work. Whole May remains incomplete; unprocessed content is not missing.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–21}`.
+Latest ending: `build/pdf-restoration/12-1984-05-batch-21/database`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-21`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: database142–147 after fresh bounded verification;separate full141–147
-assembly after its named native checkpoint. WholeMay closeout later.
+Next: separate full database141–147 assembly after the named native checkpoint;
+then accounting148 after fresh extent verification. Whole May closeout later.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
