@@ -32,28 +32,29 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches01–08 are complete:** five articles are readable/sample-reviewed:
-editorial19,Apple-II20–43,AI44–50,SERPENT-α52–56 and 진리표57.
-The Apple-II and AI assemblies retain all seven immutable source segments;
-independent rebuilds and source/index preservation checks pass.
-Batch08 adds35 regions,30 blocks,five original images and481 physical BASIC
-rows/224 numbered entries across two complete articles. SERPENT retains121
-scan-linked graphic/control markers with unknown bytes/run lengths,12 decimal
-DATA indexes andfour hex DATA ranges. Its3120/3400/5190 physical continuations
-remain explicit across columns/pages. Truth-table and Boolean equation images
-remain authoritative; source duplicate numbering and punctuation not repaired.
-Two distinct code bottom edges widened once each; initial/intermediate attempts
-retained. Both independent native rebuilds are byte-identical. All147 prior native/
-21 assembly manifests and92-test baseline remain valid; pipeline unchanged.
+**May batches01–09 are complete:** seven articles are readable/sample-reviewed:
+editorial19,Apple-II20–43,AI44–50,SERPENT-α52–56,진리표57,틱-택-토58–59
+and LUNAR60–63. The Apple-II and AI assemblies retain all seven immutable
+source segments; independent rebuilds and source/index preservation checks pass.
+Batch09 adds25 regions,23 blocks,two original images and402 physical BASIC
+rows/284 numbered entries across two complete articles. Tic-tac-toe retains12
+indexed explanatory rows,one explicit source-column prose join andone nine-value
+DATA statement. LUNAR retains the printed ]LIST command separately andfour
+unlabelled numeric continuations; logical710/1850 span pages/columns without
+merging the physical download rows. Source errors,merged words,small glyphs,
+comment/exclamation counts and original executable bytes remain unverified.
+All25 initial region tasks succeeded;no crop repair/OCR retry. Both independent
+native rebuilds are byte-identical. All149 prior native/21 assembly manifest pins
+and92-test baseline remain valid; pipeline unchanged.
 Hobby divider51 is a non-owning group with ten existing child identities.
-All42 May identities remain intact:five readable/sample-reviewed articles,
-one group and36 entries awaiting classification/restoration. Unprocessed entries
+All42 May identities remain intact:seven readable/sample-reviewed articles,
+one group and34 entries awaiting classification/restoration. Unprocessed entries
 are not missing outcomes. Whole May remains incomplete.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08}`.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09}`.
 Feature assemblies: `build/pdf-restoration/12-1984-05-feature` and
 `build/pdf-restoration/12-1984-05-ai`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next batch09 verifies/maps tic-tac-toe beginning58 and LUNAR beginning60,
+Next batch10 verifies/maps 유성을 격추시켜라 beginning64 andfollowing 도망자,
 within two articles/six source pages. Full extents still require boundary inspection.
 Full character proofreading,historical claims,source encoding and code execution
 remain unverified.

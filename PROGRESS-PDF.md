@@ -9528,3 +9528,38 @@ history remains in [PROGRESS.md](PROGRESS.md).
   36 unresolved entries. Next batch09 verifies tic-tac-toe58–59/LUNAR60–63 extents
   before restoring them within the two-article/six-source-page batch bound.
   Whole May remains incomplete.
+
+### 2026-10-07 — May batch09: 틱-택-토58–59 and LUNAR60–63
+
+- Complete tic-tac-toe:10 source-reviewed regions,nine blocks,90 physical/numbered
+  BASIC rows and12 indexed explanatory rows. Original numeric game grid retains
+  three physical rows;variables retain nine rows. Left58 prose ending `O이나 X로`
+  joins right `채웠는데도` with one explicit space. DATA470 has nine literal integers.
+  Printed DIM W(72,5),XEGIN,410 missingIF,550 Q<>1,590 G=G-1 andsource win-check
+  conditions retained without repair. Small170/190/comparator readings and
+  decorative comment spacing/count remain explicitly uncertain.
+- Complete LUNAR:15 regions,14 blocks,two original spacecraft/CRT images,
+  312 physical BASIC rows/194 numbered entries andone indexed ]LIST console
+  command. Listing710 wraps61/62;1850 wraps63 columns. Four numeric-start
+  continuations are explicitly unlabelled wraps,not invented BASIC labels.
+  Split digits/identifiers/string words andall physical row breaks retained.
+  Source TIME/TI,bare REM,missing1040–1070,POKE/CALL values,HI final reading,
+  merged words andduplicate BEEN BEEN retained. Small punctuation/marks and
+  exclamation run count remain uncertain; no original-byte/execution certification.
+  The unrelated advertisement below final2020END is excluded.
+- All25 initial tasks completed,zero failures/no crop repair or OCR retry. Task
+  elapsed 66.9056s,render/crop 36.4536s,OCR 28.8110s;
+  mapping 248.7623s andreview 391.2559s include tool/context waits,
+  not active labor. Exact stage tokens unavailable. Inspection panels retain
+  pinned native scans andpixel bounds; they do not mutate map/OCR evidence.
+- Native/raw provenance,all text/review/physical/logical/DATA ranges,source numbered
+  sequences andwrapped projection pass. Both independent rebuilds are byte-identical.
+  All149 prior native/21 assembly hashes,previous-issue/input pins and92-test baseline
+  remain valid. Pipeline unchanged;no HTML,browser or frontend work.
+- Exports: `build/pdf-restoration/12-1984-05-batch-09/{tic,lunar}`. Final recipes,
+  scans,corrections andtranscripts: `private/pdf-restoration/12-1984-05-batch-09/{tic,lunar}/final`.
+  Validation,timings,before/after ledger andnext checkpoint are in thebatch09 root.
+  All42 identities intact:seven readable/sample-reviewed articles,one group,
+  34 unresolved entries. Next batch10 verifies meteor-game beginning64 andfollowing
+  도망자 extents before mapping within two articles/six source pages.
+  Whole May remains incomplete; full character proofreading remains deferred.

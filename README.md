@@ -111,10 +111,10 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7; the editorial and complete Apple-II feature20–43
-are restored and verified. AI feature44–50, SERPENT-α52–56 and 진리표57 are restored and verified.
-The hobby divider51 is classified; 36 TOC entries await classification/restoration.
-Tic-tac-toe beginning58 and LUNAR beginning60 are next. See the
+May 1984 began on October 7; seven articles through LUNAR60–63 are restored
+and verified, including both complete Apple-II and AI features.
+The hobby divider51 is classified; 34 TOC entries await classification/restoration.
+The meteor game beginning64 andfollowing 도망자 are next. See the
 [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff
