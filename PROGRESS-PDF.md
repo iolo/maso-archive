@@ -9290,3 +9290,47 @@ history remains in [PROGRESS.md](PROGRESS.md).
   both sample-reviewed, and40 unresolved entries; whole May incomplete.
 - Next: batch04 continues34–39, with40 as boundary lookup. Pages34–43 and
   final feature assembly remain pending; no missing-source outcome inferred.
+
+
+### 2026-10-07 — May batch04: Apple-II DOS structures34–39
+
+- Continued canonical0001 within six source pages/one article;40 is one external
+  boundary lookup. Printed/PDF34–40 match locally. Final39 contains only table/
+  diagram continuation;40 begins DOS entry points, closing prose and the BASIC
+  program continuing through43. Full feature20–43 remains source-verified.
+- All73 mapped regions reviewed:53 text regions become45 ordered blocks through
+  seven prose joins and one physical-row code join. Twenty original image panels
+  retain tables7–17, diagrams13–20 and uncaptioned artwork. Figure18's original
+  grey code panel is preserved alongside a separate overlapping reading transcript;
+  source captions/footnotes remain linked. Table cells/inner labels stay imagery.
+- Three code groups preserve14 physical unnumbered rows: five command rows,
+  five error-status rows across columns and four opcode/instruction/comment rows.
+  Hex20/60 are not inferred BASIC line labels; indented 한다./상태 remain physical
+  explanatory wraps. All rows, byte ranges, cross-column code parts,23 source-
+  review excerpts and wrapped-listing projection pass. Execution/exact bytes
+  are not certified; symbolic #$IOBH/IOBL spacing is declared normalization.
+- Compared all text to enlarged native crops and every image boundary to source
+  pages/crops. Repaired eight distinct regions once each: four clipped prose
+  crops on37/38 (also partitioned paragraphs at source whitespace), three tight
+  table-border crops and one caption opening. Initial/intermediate attempts remain
+  preserved;65 unchanged regions reuse identical scans/raw OCR. No failed OCR/retry.
+- Literal source Volumn spelling, 보통은 wording, $9D00–$BFFF eight-kilobyte claim,
+  $AAFD/$03D6 entry points, $AA57 address and595-byte buffers remain explicit.
+  Joined VTOC's cross-column1/5 as15 and file-manager 이해하/였으면 without spaces.
+  Recorded incoming34 as continuation of33 사용자가 / 사용할 with one space for
+  final assembly; native segments retain their respective source text independently.
+- Executed81 tasks (73 initial/eight repairs), zero failures. Task elapsed98.2079s,
+  render/crop63.8721s, OCR26.1233s; mapping147.8703s, review408.9635s includes
+  processing and tool/context waits. Exact stage-token/backend measurements
+  unavailable. No tooling/pipeline changes; reused90-test baseline.
+- Final JSON/assets export and independent rebuild match byte-for-byte. Region/
+  raw preservation, caption links, indexes and prose/code joins pass. All143 prior
+  native manifests,19 assemblies, previous issue pins and source/runtime pins
+  remain unchanged. No HTML/browser/reader/frontend work.
+- Export: `build/pdf-restoration/12-1984-05-batch-04/feature`. Private recipes,
+  raw evidence, repairs, timings and validation remain in the matching directory.
+  Ledger retains all42 identities and four feature segments covering20–39.
+  One readable editorial/one partial feature are sample-reviewed;40 other entries
+  remain unresolved. Whole May incomplete; no missing-source outcome inferred.
+- Next: batch05 restores40–43 and verifies the outgoing44 boundary, then assembles
+  full feature20–43 using immutable segments and source-linked correction indexes.

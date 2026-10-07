@@ -32,18 +32,18 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches01–03 are complete:** editorial19 is readable/sample-reviewed;
-the Apple-II feature has three immutable partial/sample-reviewed segments covering
-20–33. Batch03 adds six pages, 67 regions, 44 ordered blocks, sixteen original
-image panels, twelve physical code rows and seven prose joins. Text/listing
-indexes, raw/scan preservation and exact rebuild pass. All 42 canonical TOC
-identities remain intact; two articles are classified and 40 entries await
-classification/restoration. Unprocessed entries are not missing-source outcomes.
-Native exports are under `build/pdf-restoration/12-1984-05-batch-{01,02,03}`;
+**May batches01–04 are complete:** editorial19 is readable/sample-reviewed;
+the Apple-II feature has four immutable partial/sample-reviewed segments covering
+20–39. Batch04 adds six pages, 73 regions, 45 ordered blocks, twenty original
+image panels, fourteen physical unnumbered code rows and seven prose joins.
+Text/listing indexes, raw/scan preservation and identical rebuild pass. All 42
+canonical TOC identities remain intact; two articles are classified and 40 entries
+await classification/restoration. Unprocessed entries are not missing outcomes.
+Native exports are under `build/pdf-restoration/12-1984-05-batch-{01,02,03,04}`;
 ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`. Full feature extent
-20–43 is source-verified. Next batch04 continues at printed/PDF34, joining the
-unfinished disk-format paragraph from33. Pages34–43 and article assembly remain
-pending. Whole May incomplete.
+20–43 is source-verified. Next batch05 restores printed/PDF40–43: DOS entries,
+closing prose and the final BASIC listing. Assemble20–43 after verification,
+including the33/34 sentence join. Whole May incomplete.
 The following March checkpoint record preserves the completed work and its provenance.
 March batches 01–44 and nineteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,

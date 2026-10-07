@@ -7,19 +7,18 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-May 1984 batches01–03 are complete. Editorial19 is readable/sample-reviewed;
-Apple-II feature20–33 is available in three immutable partial/sample-reviewed
-segments. Batch03 adds 67 regions, 44 blocks, sixteen image panels, twelve
-physical code rows and seven prose joins. Source/raw preservation, text/listing
-indexes and identical rebuild pass. Standalone/repeated line20 and suspicious
-POKE address remain printed-source anomalies, with no inferred code repair.
+May 1984 batches01–04 are complete. Editorial19 is readable/sample-reviewed;
+Apple-II feature20–39 is available in four immutable partial/sample-reviewed
+segments. Batch04 adds 73 regions, 45 blocks, twenty original image panels,
+fourteen unnumbered command/error/assembler rows and seven prose joins.
+Source/raw preservation, text/listing indexes and identical rebuild pass.
 All 42 May identities remain intact; two articles are classified and 40 entries
 await classification/restoration. Exports are under
-`build/pdf-restoration/12-1984-05-batch-{01,02,03}`.
+`build/pdf-restoration/12-1984-05-batch-{01,02,03,04}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: May batch04 continues at printed/PDF34, joining the unfinished paragraph
-from33. Full feature extent20–43 is verified;34–43 and assembly remain pending.
-Whole issue incomplete.
+Next: batch05 restores40–43 (DOS entries, closing and BASIC listing), then
+assembles full feature20–43, including the recorded33/34 sentence join.
+Historical code/source anomalies remain explicit. Whole issue incomplete.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
