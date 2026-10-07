@@ -7,15 +7,15 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–18 and seven assemblies are complete:** eighteen articles are
-sample-reviewed: sixteen readable and two partial. Readable articles cover
+**May batches 01–18 and eight assemblies are complete:** eighteen articles are
+sample-reviewed: seventeen readable and one partial. Readable articles cover
 editorial19, AppleII20–43, AI44–50, SERPENT52–56, 진리표57, 틱-택-토58–59,
 LUNAR60–63, meteor64–65, 도망자66–71, 바이오리듬72–75, 결혼행진곡76–77,
-낚시78–82, 공중전83–85, Z80 lecture99–106, LOGO107–114 and BASIC115–118.
-Seven assemblies preserve seventeen immutable native segments. Hobby51,
+낚시78–82, 공중전83–85, Z80 lecture99–106, LOGO107–114, BASIC115–118 and UNIX122–127.
+Eight assemblies preserve nineteen immutable native segments. Hobby51,
 education97 and business121 are non-owning groups. All42 TOC identities remain;
-21 await classification/restoration. UNIX122–127 native pages are restored;
-separate full assembly is next. Medical128–131 is restored of verified128–133;
+21 await classification/restoration. UNIX122–127 is assembled and readable.
+Medical128–131 is restored of verified128–133;
 its ending132–133 and full assembly remain. Distinct VisiCalc starts134 and ends
 138 before ads139–140/database141; these are lookup evidence only.
 Batch18 restores82 regions,56 blocks,24 original figures,58 regional text spans
@@ -36,17 +36,25 @@ listing indexes pass. All166 prior native/26 assembly pins unchanged;seven May
 assemblies revalidate. Pipeline unchanged;passing100-test baseline reused.
 BASIC full115–118 assembly37f4dc0 remains readable:56regions,47blocks,four figures,
 103 physical rows,76 numbered logical entries and27 wraps across12 listings.
+FullUNIX assembly after native checkpointf4f3197 passes:61regions,39blocks,
+11figures,55 unnumbered physical code rows/six groups,40source block spans,
+55text reviews andnine globally projected captions. Ten native boundaries and
+one crosssegment join retain UNIX프/로그램 전반 without separator. Its recipe
+includes allfour interruptions:input-stream cartoon,temporary-file diagram,
+shared caption andpipe diagram. Old outgoing annotation omitted the cartoon
+andinternal space; immutable annotations retained,actual order/reading used.
+All229 original files byte-identical;exact assembly rebuild passes. All168prior
+native/26assembly pins unchanged;unchanged100-test baseline reused. No newOCR.
 WholeMay remains incomplete;unprocessed is not missing. Full character
 proofreading,encoded source bytes and command/code execution remain unverified.
 JSON/assets only;no HTML,frontend or browser work.
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18}`.
-Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech}`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next:separate fullUNIX122–127 assembly after named native commit. Preserve125
-UNIX프/126로그램 전반 without separator beyond retained temporary-file diagram,
-shared caption andpipe diagram. Previous outgoing annotation omitted the internal
-space; actual current reading andimmutable previous annotation remain explicit.
-Then medical132–133 andpossible VisiCalc134 within bounded batch limits.
+Next:medical132–133 andpossible VisiCalc134–137 afterfresh extent proof within
+two-article/six-mapped-page/twenty-outside-map-lookup limits. LIST1 continues
+410/420 across131/132 withsame listing identity;border strings remain uncertain.
+Separate medical fullassembly after named native checkpoint.
 WholeMay closeout later.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.

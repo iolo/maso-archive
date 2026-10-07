@@ -111,12 +111,12 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7; eighteen articles are sample-reviewed: sixteen
-readable and two partial. UNIX122–127 native pages are restored; its assembly
-is next. Medical128–131 is restored, with132–133 pending. Seven assemblies
-preserve seventeen original segments. Three non-owning dividers are classified;
-21 TOC entries await classification/restoration. Byte-preservation and exact
-rebuild checks pass; the unchanged100-test PDF tooling baseline remains current.
+May 1984 began on October 7; eighteen articles are sample-reviewed: seventeen
+readable and one partial. UNIX122–127 is now assembled. Medical128–131 is
+restored, with132–133 pending. Eight assemblies preserve nineteen original
+segments. Three non-owning dividers are classified;21 TOC entries await
+classification/restoration. Byte-preservation and exact rebuild checks pass;
+the unchanged100-test PDF tooling baseline remains current.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff

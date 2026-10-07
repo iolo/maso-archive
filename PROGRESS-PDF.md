@@ -10059,3 +10059,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
   pipe diagram. Prior opening annotation omitted internal space; immutable source
   metadata andactual current reading remain explicit. Then medical132–133 and
   possible VisiCalc134 within two-article/six-page/twenty-lookup limits.
+
+### 2026-10-07 — Full May UNIX122–127 assembly
+
+- Native checkpointf4f3197 preceded this separate assembly. Full122–127 extent
+  ends before medical128. Readable/sample-reviewed export has61regions,39blocks,
+  11figures,55unnumbered physical rows/sixgroups andnine global caption spans.
+- Crosssegment UNIX프/로그램 전반 has no separator. Actual package order requires
+  four declared interruptions:input-stream cartoon,temporary-file diagram,
+  shared caption andpipe diagram. Initial recipe omitted cartoon andwas rejected;
+  corrected source-grounded recipe passes without adapter changes. Old native
+  annotation omitted cartoon/internal space;both immutable native annotations
+  remain literally preserved. Ten native prose boundaries also retained.
+- Forty source block spans,50native regional spans,55text reviews and55listing
+  reviews remain source-linked. Repeated sort/uniq names,glossary wrap,literal
+  srot/Result/name spacing andhistorical shell claims retained. Execution,
+  encoded source bytes andfull character proofreading remain unverified.
+- All229 original files byte-identical;exact fullassembly rebuild passes. All168
+  prior native/26assembly pins unchanged. Passing100-test baseline reused;
+  no tooling change,new mapping/render/OCR,HTML/frontend/browser work.
+- Export: `build/pdf-restoration/12-1984-05-unix`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-unix-assemble`.
+  Manifest:f6c993db9733313b64ae49343dd546276a23bfe91925994b9a3340e9325c0d9e.
+  Ledger42identities:18articles (17readable/1partial),3groups/21unresolved.
+  Eight May assemblies preserve19immutable native segments. WholeMay incomplete.
+- Next bounded native batch19:medical132–133;possible VisiCalc134–137 afterfresh
+  extent proof. LIST1 continues410/420 across131/132;no execution orsource-byte
+  inference. Separate medical assembly after named native checkpoint.
