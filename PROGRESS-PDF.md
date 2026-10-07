@@ -10591,3 +10591,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   two-article/six-mapped-page/twenty-outside-map-lookup bounds.
 - Export:`build/pdf-restoration/12-1984-05-batch-29/workshop`.
   Evidence/validation:`private/pdf-restoration/12-1984-05-batch-29`.
+
+### 2026-10-08 — May native batch30: Apple DOS184–187 and classifieds188
+
+- After workshop checkpoint8cfd0bc, ten fresh upright183–192 lookup scans verify
+  DOS184–187 and independent classifieds188. DOS conclusion/references187 and
+  classifieds188 bound the first article. Unlisted contest announcement189 is
+  lookup-only and excluded; review190–191 and independent cat192 identify the
+  next boundaries. Two articles/five mapped pages/five outside-map lookups.
+- Retains61 regions,45 ordered blocks,four original images,57 regional spans,
+  101 text review ranges andtwo captions. DOS has42 regions/26 blocks/four images;
+  classifieds has19 regions/19 blocks. Both are complete within native packages,
+  readable/sample-reviewed with no scope gaps or assembly requirement.
+- Seven prose groups preserve12 boundaries: BLOAD, 이것은, 바이트, paragraph
+  before RWTS, 전혀, 해야, 것이다, 속도로, 프로그램은, 차이를 곧, 명령어의
+  and patch continuation. Printed BL- wrapping hyphen removed for joined BLOAD.
+  The sector table retains16 data rows/32 cells plusheader. Thirteen inline command
+  examples andtwo bibliography entries have exact UTF-8 indexes.
+- Two independent unnumbered listings retain18 physical rows: LOADER16 and
+  directory strip2. Hex readings240main/12strip are indexed candidates; no numbered
+  BASIC entries or DATA inferred. A477 discontinuity and250-byte proseclaim retained.
+  Printed D9 beside I annotation, reinitialization instruction, differing5x/6x
+  claims,$A884~$A908 and$A0 remain literal. Bytes/alignment/execution unverified.
+- Classifieds retains15 independent notices:two exchange,twelve sale,one wanted.
+  Source BAGIC-G and15만원 remain literal. Postal blank boxes,telephone icons and
+  Roman model numerals use provisional Unicode readings. Prices,contacts,names,
+  address spacing andsource bytes remain unverified; full proofreading deferred.
+- All71 original/37 revised inspection panels andfour original images reviewed.
+  Twenty-four distinct crops widened once each;85 executions61initial/24repair,
+  zero failures/no OCR retries. Original maps/crops/raw OCR/positions/settings and
+  attempts retained. No pipeline,HTML,frontend orbrowser work.
+- Exact UTF-8/block/regional/table/cell/notice/hex/command/reference/caption and
+  physical-row indexes, wrapped listing projection andindependent byte-identical
+  rebuilds pass. All181 prior native/32 assembly pins preserved;13 May assemblies
+  revalidated. Passing unchanged103-test tooling baseline reused.
+- Ledger retains42 canonical identities:25 readable/sample-reviewed articles,
+  five non-owning groups and12 unresolved identities. Thirteen assemblies preserve
+  32 natives. Whole May andissue closeout remain incomplete;unprocessed isnotmissing.
+- Next native31: 공모 총평 opening190 after fresh extent/boundary proof; current
+  lookup candidate extent190–191. Cat article192 separate; verify full extent
+  before optional second article. Keep two-article/six-mapped-page/twenty-outside-map
+  lookup limits. Unlisted announcement189 remains excluded.
+- Exports: `build/pdf-restoration/12-1984-05-batch-30/{fastdos,classifieds}`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-30`.
