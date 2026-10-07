@@ -9369,3 +9369,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Export: `build/pdf-restoration/12-1984-05-batch-05/feature`. Private recipe,
   raw evidence, timings, tests and validation are alongside. Next checkpoint
   assembles full20–43 before starting the AI feature on44. Whole May incomplete.
+
+
+### 2026-10-07 — May Apple-II feature assembled20–43
+
+- Complete canonical0001 is readable/sample-reviewed at
+  `build/pdf-restoration/12-1984-05-feature`. Five immutable source segments cover
+  all24 pages:217 regions,140 reading blocks,49 original image panels and243
+  physical code rows/211 logical numbered entries. All765 embedded original files
+  are byte-identical. No new OCR or source extraction at this checkpoint.
+- Source33 사용자가 and34 사용할 are joined with one space. All six intervening
+  table7/table8/figure13 and caption items retain their reviewed source order.
+  All141 original block ranges,82 review ranges,26 native prose boundaries,
+  physical/logical code rows,duplicate20 occurrences and three numeric DATA
+  indexes validate. Literal RF/RP and00 remain. Fifteen coverage-only notes are
+  resolved; original technical, typographic and code uncertainties remain explicit.
+- Independent assembly rebuild matches byte-for-byte; all145 prior native and19
+  prior assembly manifest pins, previous-issue/input pins and92-test log pass.
+  Source/raw/correction provenance and all original packages remain unchanged.
+  One private validation retry handled a null caption identity and scoped the
+  duplicate-line check to its source program; neither changed restored content.
+  No pipeline changes beyond the batch05 mode; no HTML/browser/frontend work.
+- Ledger preserves all42 May identities. Editorial19 and complete feature20–43
+  are readable/sample-reviewed; no active partial article remains. Forty other
+  TOC entries await classification/restoration; May remains incomplete.
+  Private recipe, projection checks, exact rebuild and validation are under
+  `private/pdf-restoration/12-1984-05-feature-assemble`. Next batch06 starts
+  AI feature44–49 within the six-page ceiling and verifies the full extent.

@@ -8,17 +8,21 @@ Printed pages 250–251 are absent; all available word-processor pages 244–249
 restored. No continuation was invented.
 
 May 1984 batches01–05 are complete. Editorial19 is readable/sample-reviewed;
-Apple-II feature20–43 is available in five immutable partial/sample-reviewed
-segments. Batch05 adds 17 regions, 15 blocks, one original table image,
+Apple-II feature20–43 is assembled as readable/sample-reviewed from five
+immutable native segments. Batch05 adds 17 regions, 15 blocks, one original table image,
 208 physical BASIC rows/202 logical entries and one prose join.
 Source/raw preservation, text/listing indexes and identical rebuild pass.
-All 42 May identities remain intact; two articles are classified and 40 entries
+All 42 May identities remain intact; two articles are readable and 40 entries
 await classification/restoration. Exports are under
 `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: assemble full feature20–43, including the recorded33/34 sentence join.
-The opt-in interrupted wrapped-listing mode preserves intervening figures/captions
-and immutable native indexes; all92 PDF tests pass.
+Complete feature: `build/pdf-restoration/12-1984-05-feature` (24 pages,217 regions,
+140 blocks,49 image panels,243 physical code rows). The33/34 sentence join retains
+six intervening figure/caption items. All765 original files and145 prior native/
+19 prior assembly manifest pins pass; the independent rebuild is byte-identical.
+The opt-in interrupted wrapped-listing mode passes all92 PDF tests.
+Next: batch06 restores AI opening44–49 and verifies its full extent with bounded
+lookups. Article assembly closeout is saved under the matching private directory.
 Historical code/source anomalies remain explicit. Whole issue incomplete.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
