@@ -10677,3 +10677,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   assembly is separate and follows the named native ending commit.
 - Exports: `build/pdf-restoration/12-1984-05-batch-31/{review,cat}`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-batch-31`.
+
+### 2026-10-08 — May native32: cat ending196–197 and functionkeys198–201
+
+- After native31 checkpoint006ae24, reviewed13 fresh upright scans191–203 before
+  mapping. Cat full192–197extent andindependentfunction198–201/너구리202 boundaries
+  verified. Twoarticles/sixmappedpages/sevenoutside-maplookups,within limits.
+- Cat ending retains10regions,sixblocks,fourcomplete listingimages andsixregional
+  spans. Its onecat-program continuation retains286physicalrows,146numberedentries,
+  140wraps and59DATAstatements/881literalvalues;21stageDATArows have147values.
+  Numeric wrap fragments are not new labels. No1110invented. Source3040destination
+  3160,printedBUTTEN andfaint6550candidate27 retained;noalgorithmrepair.
+- Freshsource corrects native31 resume note:196leftbottom3080 continuesatrighttop
+  before3090;197starts5130. Historicalnative31savednote/maps/crops/metadata unchanged.
+  No physical-row join195/196or196/197. Allcat192–197pages restored butarticle remains
+  partial untilseparateassembly afterthis namednative endingcommit.
+- Functionkeys readable/sample-reviewed:50regions,37orderedblocks,eightimages,
+  42regionalspans,99textreviews,fourcaptions,fivenativeproseboundaries. Defaulttable
+  has10rows/20cells,includingblankKEY08;programguidehas eightaddressdescriptions.
+  Four independentlistinggroups retain173physicalrows:threeBASICnumberedentries,
+  170unnumberedrows. Monitor160addressrows/1,280hextokens;hex/assemblyexamples add28.
+  Explicitreadingorder placesaddressesintro before$38.39heading;maps unchanged.
+- LiteralFUNTION,0번/키이1,figure1reference,E003/LOCK+R/READclaims andFB69prose
+  retained. Tapecommand*9000.9500W period and92F0/92F8CBsourcecandidates retained.
+  Unicodecontrol/arrow/reverseRmarkers areeditorialreading aids,not originalbytes.
+  Glyphs,punctuation,quotedspacing andsourceencodedbytes remainuncertain;
+  fullproofreading andhistoricalcodeexecution deferred.
+- All72original/50revisedtextpanels and12original/sevenrevisedfigures reviewed.
+  Thirty-eightdistinctcrops widenedonceeach;98executions60initial/38repair,zero
+  failures/OCRretries. Initialmaps/crops/rawOCR/positions/settings/attempts retained.
+  A pre-export listingguard caughtnumericwrapfragments beingtreatedaslabels;
+  source-backed fourdigitendinglabels nowexplicitlydistinguishthosewraps.
+- ExactUTF-8/block/regional/table/cell/guide/prompt/caption/hex/physical/logical/DATA
+  indexes,wrappedprojection andindependentbyte-identicalrebuilds pass. All185prior
+  native/32assemblypins preserved;13Mayassemblies revalidated. Unchanged103-test
+  toolingbaseline reused. No pipeline,HTML,frontend orbrowser changes.
+- Ledger:28sample-reviewedarticles,27readable/onepartial;five non-owninggroups and
+  nineunresolved identities. All42canonicalidentities preserved. WholeMay incomplete.
+- Next:separatefullcat192–197assembly afternative32commit;thenfresh너구리202extent
+  proof fornative33. OptionalHAPPYWORDS208 onlyifverified extentsfitpagebudget.
+- Exports: `build/pdf-restoration/12-1984-05-batch-32/{cat,function}`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-32`.

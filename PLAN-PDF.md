@@ -32,11 +32,13 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–31 and thirteen assemblies are complete:** 26 articles are
-readable and one cat article is partial; all 27 are sample-reviewed. All 42 canonical
-TOC identities remain; five non-owning groups are classified and 10 identities
-await classification/restoration.
-AppleDOS184–187,classifieds188,workshop181–183,terminal156–180 and accounting148–154 are complete. Thirteen
+**May batches 01–32 and thirteen assemblies are complete:** 27 articles are
+readable and one cat article is partial pending full assembly; all 28 are
+sample-reviewed. All 42 canonical TOC identities remain; five non-owning groups
+are classified and nine identities await classification/restoration.
+Functionkeys198–201, AppleDOS184–187, classifieds188, workshop181–183,
+terminal156–180 and accounting148–154 are complete. All cat pages192–197 are
+restored in two immutable segments; separate assembly is next. Thirteen
 assemblies preserve32 immutable native segments. Whole May remains incomplete;
 unprocessed content is not missing.
 
@@ -218,18 +220,40 @@ Full proofreading deferred. Cat196–197 is deferred, not missing; an ending nat
 checkpoint and separate assembly are required. Evidence:
 `private/pdf-restoration/12-1984-05-batch-31`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–31}`.
+Native32 completes the cat ending196–197 and the function-key article198–201.
+It retains60 regions,43 ordered blocks,12 original images,48 regional spans,
+107 text review ranges,four captions andfive native prose boundaries.
+Cat:286 physical rows,146 numbered entries,140 wraps;59 DATA statements retain
+881 literal values. Line3080 crosses columns on196;197starts5130. These fresh
+source readings supersede the native31 resume note's5080/5150 candidates;
+historical native31 maps,metadata and saved notes remain unchanged.
+Functionkeys:four independent groups,173 physical rows,three numbered entries,
+170 unnumbered rows;1,308 hex-token candidates include1,280monitor readings.
+Its default table has10rows/20cells includingblankKEY08;programguide has eight
+address descriptions. LiteralFUNTION,FB69,0번/키이1 andsourcefigure references
+remain unchanged; Unicode control/arrow markers do not certify source bytes.
+
+Thirteen fresh191–203 scans were reviewed beforemapping,withsixmappedpages/seven
+outside-maplookups. All72 original/50 revised text panels and12 original/seven
+revised figures reviewed. Thirty-eight crops widened once;98tasks60initial/38repair,
+zero failures/retries. Exactindexes,wrappedprojection and byte-identical rebuilds
+pass;185 priornative/32assemblypins preserved and13Mayassemblies revalidated.
+The unchanged103-test baseline is reused. Fullproofreading andcodeexecution remain
+deferred. No pipeline,HTML,frontend orbrowser changes.
+Evidence: `private/pdf-restoration/12-1984-05-batch-32`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–32}`.
 Latest full export: `build/pdf-restoration/12-1984-05-terminal`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-terminal-assemble`.
-Latest native exports: `build/pdf-restoration/12-1984-05-batch-31/{review,cat}`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-31`.
+Latest native exports: `build/pdf-restoration/12-1984-05-batch-32/{cat,function}`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-32`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: native32 restores the cat ending196–197 after fresh extent/boundary proof.
-Page195 ends complete1090 before1100; preserve the page196 left5080 continuation
-at right-column top before3090. Optional functionkeys198–201 fits the remaining
-four mapped pages/second article after fresh proof. Assemble the full cat192–197
-separately after the native ending commit. Unlisted announcement189 remains excluded.
+Next: separate fullcat192–197assembly afterthe named native32endingcommit.
+Preserve1090→1100 at195/196 and5120→5130 at196/197 without physical-row joins,
+and3080's crosscolumnwrap on196. Nextnative33 begins너구리202 afterfreshfull
+extent/boundaryproof;optionalHAPPYWORDS208 onlyifverifiedextents fitpagebudget.
+Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
