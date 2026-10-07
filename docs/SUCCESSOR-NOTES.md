@@ -7,57 +7,47 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–17 and seven assemblies are complete:** seventeen articles are
-sample-reviewed: sixteen readable and one partial. Readable articles cover
+**May batches 01–18 and seven assemblies are complete:** eighteen articles are
+sample-reviewed: sixteen readable and two partial. Readable articles cover
 editorial19, AppleII20–43, AI44–50, SERPENT52–56, 진리표57, 틱-택-토58–59,
 LUNAR60–63, meteor64–65, 도망자66–71, 바이오리듬72–75, 결혼행진곡76–77,
-낚시78–82, 공중전83–85,Z80 lecture99–106, LOGO107–114 and basic-technique115–118.
-Seven assemblies preserve seventeen immutable native segments. Hobby51, education97 and business121
-are non-owning groups. All42 TOC identities remain;22 await classification/restoration.
-Full basic-technique115–118 is assembled and readable. UNIX122–125 is restored
-of verified122–127;126–127 and its assembly remain.
-Basic ending118 precedes ads119–120,business121 and distinct UNIX122. UNIX ends
-127 before medical128; medical128–132 inspected only, full extent not yet proven.
-Batch17 restores70 regions,52 blocks,nine original UNIX figures,61 regional
-text spans and111 physical code rows. BASIC has64 numbered entries in nine
-independent groups,with27 printed continuation rows; UNIX has20 unnumbered
-shell rows in one group. All source wraps remain;no executable joining/repair.
-Nine native prose boundaries,64 text reviews,111 listing reviews andseven
-caption spans validate. Annotated shell procedure/code overlap and shared
-upper/lower pipe-comparison caption remain source-linked. Literal 아디디어,
-PROGAMER,31-L,숫적으로,shell-variable restriction and gar/echo punctuation
-retained; possible shell accent and wildcard glyph remain explicit uncertainty.
-Six mapped pages117–118,122–125 andten outside-map lookup pages meet limits.
-All95 tasks pass (70initial/25repair),zero failures/no OCR retry. Twenty-five
-distinct regions repaired once each; initial maps,crops,rawOCR,positions/settings
-and102 inspection panels preserved. Repaired125 crops recover omitted opening
-lines;124 ending fourth line also recovered. Exact native rebuilds and source/
-UTF-8/wrapped-listing indexes pass. All164 prior native/25 assembly pins unchanged;
-six May assemblies revalidate. Pipeline unchanged;passing100-test baseline reused.
-LOGO full107–114 remains readable:107 regions,80 blocks,fifteen images,
-142 physical explanatory rows and13 globally projected caption spans. Caption
-adapter7bd14c4 and native batch16 commit790ee67 preceded assemblyd92a288.
-Basic-technique fullassembly follows native commit7b843fa:56 regions,47 blocks,
-four original figures,103 physical BASIC rows/76 numbered logical entries in12
-independent listings. Twenty-seven printed wraps remain unjoined. Four native
-prose boundaries and one116실제/117프로그램의 space join validate beyond
-retained cartoon. All48 source-block ranges,56 text reviews,103 listing reviews
-andtwo globally projected caption spans validate. All52 native regional spans
-remain unchanged in original metadata. All230 original files are byte-identical;
-fullassembly rebuild matches. All166 prior native/25 assembly pins unchanged.
-No pipeline change/newOCR;passing100-test baseline reused. JSON/assets only.
+낚시78–82, 공중전83–85, Z80 lecture99–106, LOGO107–114 and BASIC115–118.
+Seven assemblies preserve seventeen immutable native segments. Hobby51,
+education97 and business121 are non-owning groups. All42 TOC identities remain;
+21 await classification/restoration. UNIX122–127 native pages are restored;
+separate full assembly is next. Medical128–131 is restored of verified128–133;
+its ending132–133 and full assembly remain. Distinct VisiCalc starts134 and ends
+138 before ads139–140/database141; these are lookup evidence only.
+Batch18 restores82 regions,56 blocks,24 original figures,58 regional text spans
+and56 physical code rows. UNIX retains35 unnumbered physical rows acrossfive
+independent examples; medical LIST1 opening has19 numbered logical entries and
+two physical continuations (21rows). Two native prose boundaries,67 text review
+ranges,56 listing review ranges and13 caption spans validate. Searchable menus/
+tables intentionally overlap original scans. Ten medical flowcharts andfour
+screens remain; flow3-1 rightward file-stack line reaches its repaired crop edge,
+with whole lookup129 retained as context. Literal srot,Result,MENUE.,DATA-,HD$(C),
+숫가계산 and58×10＝580 retained. Two unclear border strings400/404 are explicitly
+marked as unresolved rather than invented machine bytes.
+Six mapped pages126–131 andten outside-map lookup pages meet limits. All112
+tasks pass (82initial/30repair),zero failures/no OCR retry. Thirty distinct
+regions repaired once each; initial maps,crops,rawOCR,positions/settings and99
+inspection panels preserved. Exact native rebuilds,source/UTF-8 andwrapped
+listing indexes pass. All166 prior native/26 assembly pins unchanged;seven May
+assemblies revalidate. Pipeline unchanged;passing100-test baseline reused.
+BASIC full115–118 assembly37f4dc0 remains readable:56regions,47blocks,four figures,
+103 physical rows,76 numbered logical entries and27 wraps across12 listings.
 WholeMay remains incomplete;unprocessed is not missing. Full character
 proofreading,encoded source bytes and command/code execution remain unverified.
 JSON/assets only;no HTML,frontend or browser work.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17}`.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next:batch18 UNIX126–127 after fresh source verification. Preserve125UNIX프/
-126로그램전반 without a space beyond the two retained pipe-comparison diagrams
-andshared caption. Possible medical128 only after complete extent proof within
-remainingfour pages/two-article limit. Separate UNIX assembly after named native
-commit. Two articles/six mapped pages/twenty outside-map lookups maximum;
-wholeMay closeout remains later.
+Next:separate fullUNIX122–127 assembly after named native commit. Preserve125
+UNIX프/126로그램 전반 without separator beyond retained temporary-file diagram,
+shared caption andpipe diagram. Previous outgoing annotation omitted the internal
+space; actual current reading andimmutable previous annotation remain explicit.
+Then medical132–133 andpossible VisiCalc134 within bounded batch limits.
+WholeMay closeout later.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.

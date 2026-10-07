@@ -10023,3 +10023,39 @@ history remains in [PROGRESS.md](PROGRESS.md).
   medical128 only after complete extent proof withinremainingfour pages/two
   articles. Separate UNIX assembly after nativecommit;125UNIX프/126로그램전반
   no separator beyond original upper/lower pipe diagrams andshared caption.
+
+### 2026-10-07 — May native batch18: UNIX126–127 and medical128–131
+
+- Two articles/six mapped pages126–131, with16 upright boundary lookups126–141
+  reviewed before mapping (ten outside-map pages). UNIX122–127 ends before
+  medical128; medical128–133 listing ends before VisiCalc134. Current medical
+  ending132–133 remains deferred; VisiCalc134–138 is lookup evidence only.
+- Two sample-reviewed partial native exports:82regions,56blocks,24figures,
+  58regional text spans,67text review ranges,13caption spans andtwo native prose
+  boundaries. All UNIX native pages available; separate full assembly remains.
+- UNIX retains35 unnumbered physical rows/five independent examples, including
+  sort/uniq duplicates andcommand glossary wraps. Medical LIST1 opening retains
+  21physical rows/19numbered logical entries/two wraps andcontinues420 on132.
+  Twenty-two medical images include ten flowcharts,four screens andrecord
+  structures. Searchable table/menu text overlaps preserved source images.
+- Literal srot,Result,MENUE.,DATA-,HD$(C),숫가계산,58×10＝580 andsource prose
+  discrepancies retained. Unclear quoted border glyphs400/404 use explicit
+  source-linked unresolved markers. No technical/executable/encoded-byte repair.
+  Repaired flow3-1 rightward file-stack line reaches crop edge; whole lookup129
+  retained as context. Full proofreading remains deferred.
+- All112 tasks succeed (82initial/30repair),zero failures/no OCR retry. Each30
+  distinct repaired regions changed once; all35 repaired and64initial inspection
+  panels reviewed,plus24original figure crops. Initial evidence/rawOCR/settings
+  preserved. No frontend/browser/HTML work.
+- Exact native rebuilds,UTF-8 andphysical/logical listing projections pass. All166
+  prior native/26assembly pins unchanged;seven May assemblies revalidated.
+  No tooling change;passing100-test baseline reused.
+- Exports: `build/pdf-restoration/12-1984-05-batch-18/{unix,medical}`.
+  Evidence/metrics/validation: `private/pdf-restoration/12-1984-05-batch-18`.
+  Ledger42identities:18articles (16readable/2partial),3groups/21unresolved.
+  WholeMay incomplete;unprocessed is not missing.
+- Next:fullUNIX122–127 assembly after named native commit;125UNIX프/126로그램
+  전반 has no separator beyond preserved temporary-file diagram/shared caption/
+  pipe diagram. Prior opening annotation omitted internal space; immutable source
+  metadata andactual current reading remain explicit. Then medical132–133 and
+  possible VisiCalc134 within two-article/six-page/twenty-lookup limits.
