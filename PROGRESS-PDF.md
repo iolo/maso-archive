@@ -9157,3 +9157,50 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and code execution are not certified.
 - March objective complete. Sixteen eligible issues remain; April 1984 is next and
   has not been started.
+
+### 2026-10-07 — May batch01: editorial and Apple-II feature opening
+
+- Owner confirmed May 1984 as the next supplied issue. The earlier April label
+  in the current plan/handoff was incorrect; no April PDF is supplied or queued.
+  Corrected current documentation while preserving historical March reports,
+  ledgers and completion evidence. Sixteen eligible issues remain to close.
+- Pinned unchanged May PDF, current TOC/queue and existing Tesseract runtime.
+  May has 256 PDF pages and 42 canonical TOC entries. Cover1 visibly confirms
+  May1984; printed19–22 match PDF19–22 locally. No global page offset inferred.
+- Restored complete canonical0035 편집자 노트 on19 and the canonical0001
+  애플II feature opening20–21 within three source pages/two articles. Two external
+  lookup pages (cover1 and following22) confirm identity and the next boundary.
+  Technical body begins22 at 1. 서론; full feature ending remains unmapped.
+- Editorial: four regions, two ordered blocks, two column joins and eight indexed
+  source-review excerpts. Joins restore 같/읍니다 without a separator and
+  제 1회라는/점 with a space; physical IB-/M becomes IBM. Source 어떤한,
+  미수지, 서어비스, 촛점 and historical spellings remain literal. The closing
+  square stays in the authoritative crop and is omitted from reading prose.
+- Feature opening: six regions, four ordered blocks, two original artwork panels
+  and four indexed source-review excerpts. Banner/title, both bylines/affiliations
+  and full introduction preserved. Roman II is transcribed as ASCII II; source
+  대헌 공전 retained. The two-page artwork is preserved as separate page panels,
+  without reconstruction; its printed21 remains visible. No source caption or
+  listing is present. Technical prose/code/diagrams beyond21 are not claimed.
+- Compared every text region with enlarged source crops and both image boundaries
+  with upright scans. Corrected garbled OCR from source; raw OCR, positions,
+  settings and all scan bytes remain immutable. No crop repair or OCR retry.
+  Ten executed tasks completed without failure: 48.3934s task elapsed, 41.8264s
+  render/crop and 5.7466s OCR. Mapping interval84.4144s and review interval163.7661s
+  include tool/context waits, not active human labor. Stage-specific tokens and
+  exact backend/reasoning measurements are unavailable; no model comparison.
+- Both final JSON/assets packages rebuild byte-identically. Every text index,
+  source-review excerpt, region/raw-OCR pin and editorial join passes. All139
+  prior native and19 assembly manifests, previous issue pins and source/runtime
+  pins pass preservation checks. Pipeline unchanged; reused the90-test tooling
+  baseline rather than repeating it. No HTML, browser, reader or frontend work.
+- Exports: `build/pdf-restoration/12-1984-05-batch-01/{editorial,feature}`.
+  Recipes, raw evidence, timing, validation and next checkpoint are under
+  `private/pdf-restoration/12-1984-05-batch-01`. Initialized
+  `private/pdf-restoration/12-1984-05/issue-progress.json`, retaining all42
+  canonical identities, titles, parents and order. Two articles are classified:
+  one readable and one partial, both sample-reviewed;40 entries remain unresolved.
+  Unprocessed entries are not missing-source outcomes. Whole May remains incomplete.
+- Next: batch02 continues the Apple-II feature from printed/PDF22, starting
+  1. 서론, with at most six source pages and20 lookup pages. The introduction
+  ends with a complete sentence; no mid-sentence join is required at this boundary.

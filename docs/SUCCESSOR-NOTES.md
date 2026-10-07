@@ -1,13 +1,23 @@
 # Successor notes — 2026-09-26 implementation wrap-up
 
-**Current PDF status, 2026-10-04:** November 1983, February 1984 and March 1984
+**Current PDF status, 2026-10-07:** November 1983, February 1984 and March 1984
 are complete under [PLAN-PDF.md](../PLAN-PDF.md)'s data-only scope. March's 44 TOC
 entries comprise 38 articles and six section headings. All articles are
 sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-Standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
+May 1984 batch01 is complete. Editorial19 is readable/sample-reviewed; Apple-II
+feature20–21 is a partial/sample-reviewed opening with two original artwork
+panels. Ten mapped regions and six blocks pass raw/scan preservation, byte-index,
+column-join and exact-rebuild checks. All 42 May identities remain intact;
+two articles are classified and 40 entries await classification/restoration.
+Exports: `build/pdf-restoration/12-1984-05-batch-01/{editorial,feature}`.
+Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
+Next: May batch02 continues the feature from printed/PDF22, **1. 서론**,
+with at most six source pages. Full ending remains unmapped; whole issue incomplete.
+
+Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
 Ledger: `private/pdf-restoration/12-1984-03/issue-progress.json`.
 The issue contains 237 source pages, 1,794 regions, 1,143 blocks, 314 figures and
@@ -18,8 +28,10 @@ pins remain intact. Source errors, uncertain readings and deferred manual bitmap
 correction remain explicit. No pipeline changes; the 90-test baseline was reused.
 HTML, browser checks and reader integration are outside this task's scope.
 
-The March objective is complete. April 1984 is next and has not been started;
-16 eligible issues remain. March batches 01–44 and nineteen article assemblies
+The March objective is complete. May 1984 is the next supplied eligible issue;
+restoration began 2026-10-07. The owner confirmed that the earlier April label
+was incorrect: no April PDF is supplied. Sixteen eligible issues remain to close.
+March batches 01–44 and nineteen article assemblies
 are complete. The checkpoint record below preserves detailed provenance; older
 pending notes are superseded by this closeout and its completion audit.
 Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled

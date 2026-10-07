@@ -30,8 +30,20 @@ byte-identical issue rebuild pass. The package has 6,963 files totaling
 remain explicit. No pipeline change or rendering work was required; the 90-test
 tooling baseline remains current.
 
-April 1984 is the next eligible issue and has not been started. The following
-March checkpoint record preserves the completed work and its provenance.
+May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
+The owner confirmed the queue correction: no April PDF is supplied.
+**May batch01 is complete:** editorial19 is readable/sample-reviewed; the
+Apple-II feature opening20–21 is partial/sample-reviewed, with its full opening
+text and two original artwork panels preserved. Ten regions, six ordered blocks,
+two figures and two editorial column joins pass byte-index, scan/raw-OCR and
+identical-rebuild checks. All 42 canonical TOC identities remain intact; two
+articles are classified and 40 entries await classification/restoration.
+No missing source is inferred from these unprocessed entries. Native exports:
+`build/pdf-restoration/12-1984-05-batch-01/{editorial,feature}`; ledger:
+`private/pdf-restoration/12-1984-05/issue-progress.json`. Next batch02 continues
+the feature at printed/PDF22, beginning **1. 서론**, within the six-page ceiling.
+Full feature ending remains unmapped; whole May is incomplete.
+The following March checkpoint record preserves the completed work and its provenance.
 March batches 01–44 and nineteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
 sample-reviewed packages. The feature retains five immutable source segments,
@@ -264,7 +276,7 @@ The March closeout is complete. All 44 canonical entries and 38 article outcomes
 match the standalone export. Stale aggregate ledger counters were recomputed from
 the authoritative entries. Printed pages 250–251 remain an explicit source gap.
 See `private/pdf-restoration/12-1984-03-closeout/completion-audit.json` and
-`validation.json`. The March objective is complete; April 1984 has not been started.
+`validation.json`. The March objective is complete; May 1984 is the next supplied issue.
 The revised requirements supersede rendering gates in older progress entries,
 tool documentation, and saved successor notes; those records remain evidence of
 work already performed, not authority to repeat rendering work.
