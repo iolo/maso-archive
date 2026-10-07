@@ -3336,3 +3336,10 @@ modes retain their prior behavior. The May 도망자 assembly exercises five sca
 notes alongside96 listing review ranges and408 physical rows. The95-test PDF suite
 covers preservation,malformed evidence,rebuild determinism andrehashed-note tamper
 rejection. This mode does not certify source glyphs,encoding orcode execution.
+
+
+Wrapped listing DATA validation accepts lowercase and mixed-case keyword spellings
+without changing source bytes. Numeric values, physical wraps, scan pins and byte
+ranges retain the same strict checks. The May 결혼행진곡 listing prints lowercase
+`data`, including a repeated273 source value; the duplicate is preserved. The
+96-test PDF suite includes mixed-case wrapped DATA and literal-value tamper rejection.

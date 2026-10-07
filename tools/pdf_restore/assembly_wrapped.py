@@ -162,7 +162,7 @@ def project_listing(context, corrections, listing):
                 row.get('scan') not in [p['scan'] for p in logical['segments']]):
             raise ValueError('DATA index differs from its unverified logical source line')
         text = span(row, context.listing).replace('\n', '')
-        match = re.fullmatch(r'\d+ DATA\s+(-?\d+(?:\s*,\s*-?\d+)*)\s*', text)
+        match = re.fullmatch(r'\d+ DATA\s+(-?\d+(?:\s*,\s*-?\d+)*)\s*', text, flags=re.IGNORECASE)
         values = [int(v) for v in match[1].split(',')] if match else None
         if (values is None or row.get('literal_values') != values or row.get('value_count') != len(values) or
                 any(type(v) is not int for v in row['literal_values'])):

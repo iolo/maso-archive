@@ -9665,3 +9665,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   group and31 unresolved entries. Next batch12 starts 결혼행진곡76 after extent
   verification. Whole May remains incomplete; proofreading,original code bytes/
   execution,historical claims andmanual photograph repair remain deferred.
+
+
+### 2026-10-07 — May batch12: 결혼행진곡76–77 and 낚시78–80
+
+- Verified local printed/PDF76–83 boundaries. Wedding final430DATA on77 precedes
+  fishing78; fishing final1710GOTO1580 on82 precedes distinct 공중전83. Current
+  mapping covers two articles/five pages76–80,with81–83 as three boundary lookups.
+  Listing panels alternate81left10–165→82right170–460→81right465–880→82left885–1710;
+  both program pages remain together fornextbatch source-order mapping/review.
+- Complete wedding:11 regions,ten blocks,one original photograph including its
+  separately searchabletitle,65 physical rows/43 numbered BASIC entries,32 text
+  reviews including28 variable/guide rows and43 listing reviews. Allphysical
+  codewraps retained;310/320formulas,330 Y=2,210precedingdot/addresscandidate and
+ 400repeated273 remain literal/candidate readings without algorithm correction.
+  Two decimal DATA rows contain12 values each. Bare&hex music420/430 groups retain
+ 30/36 literal tokens inthree physical rows each; no encoded-byte conversion.
+- Source77 code is faint andraw OCRpoor. Enlarged pinned native panels reviewed
+  everyphysical row; QURE/CURE,B/G,MO/M0,case/operators,stringcounts andsmall
+  numeric/punctuation readings remain explicitly uncertain. Historical compatibility
+  andbiology/music claims retained,not certified. Full character proofreading and
+  original machine bytes/execution remain deferred.
+- Fishing partial78–80:ten regions,seven blocks,three original images (game screen,
+  complete mainflowchart andsideways subroutine-flowchart sheet),38 text reviews
+  including30 variable/routine rows. Literal0,5 decimalcomma,1 주황색(2),오랜지색,
+  키이를 andscoring claims retained. Diagramlabels remain imagery withoutinvented
+  captions; finalphoto/listing81–82 sourceexists andis deferred,not missing.
+- Wedding guide76r10 rightedge widened once to recover320/330–340 서브루틴 endings;
+  initialcrop/OCR retained. All22 executed tasks succeeded (21 initial/one repair),
+  zero failures/noOCRretry. Exact native rebuilds,indexes,physical/logical sequences,
+  decimal/music DATA andraw/scan preservation pass. All155 prior native/22 assembly
+  pins pass; current feature/AI/fugitive assemblies revalidated read-only.
+- Lowercase/mixed-case DATA keyword validation now preserves literal keywordbytes
+  while checkingnumericvalues. All96 PDF tests pass in4.366s,including a mixed-case
+  physical wrap/value-tamper test. Pipeline change is limited tothat validation;
+  noHTML/browser/reader work. Testlog underprivatebatch12/tooling-tests.log.
+- Exports: `build/pdf-restoration/12-1984-05-batch-12/{wedding,fishing}`.
+  Final recipes/transcripts: `private/pdf-restoration/12-1984-05-batch-12/{wedding,fishing}/final`.
+  Ledger retains42 identities: twelve sample-reviewed articles,eleven readable/
+  one partial,one non-owning hobby group and29 unresolved entries. Next batch13
+  finishes fishing81–82 andverifies aircombat83; full fishing78–82 assembly follows.
+  WholeMay remains incomplete; no missing-source outcome inferred forunprocessed entries.

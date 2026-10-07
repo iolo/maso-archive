@@ -786,6 +786,21 @@ class PDFAssemblyTests(unittest.TestCase):
                     execution_verified=False)]
         return segments
 
+    def test_wrapped_data_keyword_case_preserves_literal_bytes_and_value_checks(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.wrapped_segments()
+        source, correction = segments[1]
+        source['blocks'][0]['text'] = source['blocks'][0]['text'].replace('20 DATA', '20 dAtA')
+        correction['blocks'] = deepcopy(source['blocks'])
+        untouched = deepcopy(segments)
+        package, projected = project(self.recipe, segments)
+        self.assertEqual(segments, untouched)
+        self.assertIn(b'20 dAtA 1\n28,2,-1\n', text_bytes(package)[1])
+        self.assertEqual(projected['data_statements'][0]['literal_values'], [128, 2, -1])
+        segments[1][1]['data_statements'][0]['literal_values'][0] = 129
+        with self.assertRaisesRegex(ValueError, 'DATA numeric index'):
+            project(self.recipe, segments)
+
     def scan_noted_wrapped_segments(self):
         segments = self.wrapped_segments(split_panel=True)
         self.recipe['index_mode'] = 'wrapped-scan-notes-v1'

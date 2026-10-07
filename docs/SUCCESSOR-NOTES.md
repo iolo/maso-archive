@@ -7,39 +7,41 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–11 and three assemblies are complete:** ten articles are
-readable and sample-reviewed: editorial19, Apple-II20–43, AI44–50,
-SERPENT-α52–56, 진리표57, 틱-택-토58–59, LUNAR60–63,
-유성을 격추시켜라64–65, full 도망자66–71 and 바이오리듬72–75.
-The Apple-II,AI and 도망자 assemblies preserve nine immutable native segments.
-Batch11 adds16 regions,14 blocks,one original illustration and295 numbered
-physical BASIC rows:117 FC-100/SPC-1000 rows70–71 and178 바이오리듬 rows72–75.
-Biorhythm retains13 variable rows,two twelve-value DATA statements andone SPACE
-알/수 prose join. Enlarged scans resolve733/735 and903/905 labels; initial apparent
-duplicates are corrected reading candidates. Literal missingquotes,BIORHYTHIM,
-740 raised caret candidate,1040 GOTO1040 andhistorical claims remain explicit.
-All16 OCR tasks succeeded once without crop repair orretry. Native packages
-rebuild byte-identically andretain raw OCR,positions,settings,scans andinitial
-reading candidates. Batch11's153 prior native/21 assembly pins pass.
-Full 도망자66–71 has15 regions,13 blocks,one original damaged photograph,
-408 physical rows/361 numbered entries inthree complete implementations,96
-listing reviews,ten text reviews,one no-separator 볼/트 prose join andfive
-scan-only uncertainty notes. All75 original files copied unchanged; exact rebuild
-andall155 prior native/21 assembly pins pass. Native generaljump980,Apple1820
-columnwrap,seven unlabelled numeric stringrows,FCZ2/INKEY$/lowercasex andmissing
-quotes remain literal. Four scope-only pendingnotes resolved.
-Assembly required opt-in `wrapped-scan-notes-v1` to preserve scan observations
-without invented byte ranges. Existing modes are unchanged; all95 PDF tests pass,
-including evidence rejection,identical rebuild andrehashed-note tamper detection.
-All42 May identities remain intact: ten readable/sample-reviewed articles,one
-non-owning hobby group and31 entries awaiting classification/restoration.
-Unprocessed entries are not missing outcomes. Whole May remains incomplete.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11}`.
+**May batches 01–12 and three assemblies are complete:** twelve articles are
+sample-reviewed: eleven readable and one partial. Readable articles cover the
+editorial (19), Apple II (20–43), AI (44–50), SERPENT-α (52–56), 진리표 (57),
+틱-택-토 (58–59), LUNAR (60–63), 유성을 격추시켜라 (64–65), 도망자 (66–71),
+바이오리듬 (72–75) and 결혼행진곡 (76–77). 낚시 explanation and flowcharts
+(78–80) are restored; its final photograph and program (81–82) remain for batch13.
+The three assemblies preserve all nine immutable native segments.
+Batch12 maps five pages across two articles: 21 regions, 17 blocks, four original
+images and 65 physical wedding BASIC rows / 43 numbered entries. Wedding includes
+32 text reviews, 28 variable/guide rows, 43 listing reviews, two twelve-value
+decimal DATA rows and two music DATA groups with 30/36 literal tokens. Fishing
+includes 38 text reviews, 30 variable/routine rows and complete screen, main and
+subroutine flowcharts. Its listing panels alternate 81 left → 82 right → 81 right
+→ 82 left; both pages stay together for source-order mapping in the next batch.
+Wedding guide76r10 was widened once; the initial crop, OCR and reading candidates
+are preserved. All 22 executed tasks succeeded (21 initial / one repair), with no
+OCR retry. Faint page77 code candidates remain explicit: QURE/CURE, small glyphs,
+case/operators, the line210 dot/address, 330 Y=2, repeated273 in line400 and bare
+&hex music tokens. Printed X:Y coordinates, fishing's 0,5 and 1 주황색(2) remain
+literal. Source algorithms and code execution have not been certified.
+Native exports rebuild byte-identically. All 155 prior native and 22 assembly
+manifest pins pass; all three May assemblies were revalidated. DATA keyword
+validation accepts lowercase/mixed case while preserving exact source bytes and
+checking literal numeric values. All 96 PDF tests pass.
+All 42 May identities remain intact: eleven readable articles, one partial
+article, one non-owning hobby group and 29 entries awaiting classification and
+restoration. Whole May remains incomplete; unprocessed entries are not missing
+outcomes.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next batch12 verifies/maps 결혼행진곡 beginning76 within two articles/six mapped
-pages/twenty lookup pages. Full character proofreading,source encoding,code
-execution,historical claims andmanual bitmap correction remain unverified.
+Next batch13 completes 낚시 (81–82) and verifies 공중전 beginning83 within two
+articles / six mapped pages / twenty lookup pages. Full fishing78–82 assembly
+follows. Full character proofreading, source glyphs/encoding, code execution,
+historical claims and manual bitmap correction remain unverified.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
