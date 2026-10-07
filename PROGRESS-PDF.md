@@ -10554,3 +10554,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   content is not missing.
 - Export: `build/pdf-restoration/12-1984-05-terminal`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-terminal-assemble`.
+
+### 2026-10-08 — May native batch29: workshop181–183
+
+- After terminal assemblyd2b16af,five fresh upright180–184 lookups verify full
+  lightpen workshop181–183 extent:terminal ending180,workshop title181,
+  construction diagrams182 andfinishedpen/test/application/conclusion183,
+  independentAppleDOS184. One article/three mappedpages/twooutside-maplookups.
+- Retains34 regions,20 ordered blocks,nine original images (seven construction
+  diagrams/two codepanels),25 regional spans,41 text review ranges,eight source
+  captions andseven indexed materials. Figure5 includes complete connector
+  label/light rays;incidental enclosingframe strokes retained. Caption6 complete.
+- Two independent BASIC programs contain16 physical/numbered logical rows:
+  test4 andapplication12. Printed10/20/30/40 testlabels and10/20/30/35/40/50/60/
+  65/70/75/80/90 application labels preserved. No DATA inferred. SourcePRINT I
+  juxtaposition,quotedspacecounts,I/1/0/O/PBO/OV candidates remain provisional;
+  no technical oralgorithm repair,sourcebytes/execution unverified.
+- Five native prose boundaries retain 응용기기,transistor paragraph,연결의 의미,
+  연결부가 and+5V 전원이. Literal 트라이겜 and뚫려진 wording retained. Source
+  component/voltage instructions are transcribed,not independently certified.
+  Telephoneicon/unit/title-longdash/bullet readings remain Unicode candidates;
+  original scans authoritative. Full proofreading deferred.
+- All26 original/one revised textpanels andnine original/one revised figure
+  images reviewed. Two distinct crops widened once;36executions34initial/2repair,
+  zero failures/no OCR retries. Original maps/crops/rawOCR/positions/settings
+  andattempts preserved. No pipeline,HTML,frontend orbrowser work.
+- Native export,exact UTF-8/material/caption/physical/logical indexes,wrapped
+  listing projection andindependentbyte-identical rebuild pass. All180 prior
+  native/32 assembly pins preserved;13 May assemblies revalidated. Passing
+  unchanged103-test baseline reused. Complete withinnative,noassemblyrequired.
+- Ledger retains42 canonical identities:23 readable/sample-reviewed articles,
+  five non-owninggroups and14 unresolved identities. Whole May andissuecloseout
+  incomplete;unprocessed is not missing. Thirteen assemblies preserve32 natives.
+- Next native30:Apple 쾌속 DOS opening184 after fresh full extent/boundary proof.
+  Do not assume extent to192;information articles188/190 may intervene. Keep
+  two-article/six-mapped-page/twenty-outside-map-lookup bounds.
+- Export:`build/pdf-restoration/12-1984-05-batch-29/workshop`.
+  Evidence/validation:`private/pdf-restoration/12-1984-05-batch-29`.

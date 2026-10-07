@@ -32,12 +32,12 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–28 and thirteen assemblies are complete:** twenty-two articles
+**May batches 01–29 and thirteen assemblies are complete:** twenty-three articles
 are readable and sample-reviewed. All42 canonical TOC identities remain;five
-non-owning groups are classified and15 identities await classification/restoration.
-Terminal156–180 and accounting148–154 are fully assembled. Thirteen assemblies
-preserve32 immutable native segments. Whole May remains incomplete;unprocessed
-content is not missing.
+non-owning groups are classified and14 identities await classification/restoration.
+Workshop181–183,terminal156–180 and accounting148–154 are complete. Thirteen
+assemblies preserve32 immutable native segments. Whole May remains incomplete;
+unprocessed content is not missing.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block
@@ -163,14 +163,31 @@ Five scope gaps resolved;literal errors,glyph/encoding/execution uncertainty and
 full-proofreading deferral remain explicit. No new mapping/rendering/OCR,HTML,
 frontend or browser work. Evidence:`private/pdf-restoration/12-1984-05-terminal-assemble`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–28}`.
+Workshop native29 restores the complete lightpen article181–183:34 regions,
+20 ordered blocks,seven construction diagrams/two listing panels,25 regional
+spans,41 text review ranges,eight captions andseven indexed materials. Two
+independent BASIC programs retain16 numbered physical/logical rows (4/12).
+Five native prose boundaries preserve 응용기기,연결의 의미,연결부가 and+5V 전원이.
+Quotedspacecounts,I/1/PBO/OV glyphs,sourceclaims andexecution remain unverified;
+sourcePRINT juxtaposition andliteral 트라이겜/뚫려진 wording retained.
+All26 original/one revised text panels,nine original/one revised images reviewed.
+Two distinct crops repaired once;36tasks34initial/2repair,zero failures/retries.
+Exact UTF-8/caption/material/listing indexes,wrapped projection andindependent
+rebuild pass. All180 prior native/32 assembly pins preserved;13 May assemblies
+revalidated. Passing103-test baseline reused. No pipeline/HTML/frontend/browser
+changes. Source maps/crops/rawOCR/positions/settings/attempts remain pinned.
+Evidence:`private/pdf-restoration/12-1984-05-batch-29`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–29}`.
 Latest full export: `build/pdf-restoration/12-1984-05-terminal`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-terminal-assemble`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-{24–28}`.
+Latest native export: `build/pdf-restoration/12-1984-05-batch-29/workshop`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-29`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: native29 restores 기초공작실 beginning181 after fresh full extent and boundary
-proof. May closeout follows all remaining articles and classifications.
+Next: native30 restores Apple 쾌속 DOS beginning184 after fresh full extent and
+boundary proof;information articles188/190 may intervene before192. Do not infer
+extent from TOC order. May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
 The following March checkpoint record preserves the completed work and its provenance.

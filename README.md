@@ -111,10 +111,11 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7. Twenty-two articles are readable and sample-reviewed.
+May 1984 began on October 7. Twenty-three articles are readable and sample-reviewed.
 Terminal156–180 is fully assembled;thirteen assemblies preserve32 original segments.
-Five non-owning dividers are classified;15 TOC entries await classification/
-restoration. Next is 기초공작실 beginning181 after fresh extent proof. The table
+Workshop181–183 is complete. Five non-owning dividers are classified;14 TOC entries
+await classification/restoration. Next is Apple 쾌속 DOS beginning184 after fresh
+extent proof. The table
 adapter passes103 PDF tests;source-file preservation,UTF-8 indexes and exact
 rebuild checks pass. Whole May and its issue closeout remain incomplete.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
