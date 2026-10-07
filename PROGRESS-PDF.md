@@ -9465,3 +9465,26 @@ history remains in [PROGRESS.md](PROGRESS.md).
   three sample-reviewed articles,two readable/one partial,one group,38 unresolved.
   Full AI44–50 assembly is next; SERPENT52 extent/map follows in batch08.
   Whole May remains incomplete.
+
+### 2026-10-07 — May full AI feature44–50 assembly
+
+- Combined two immutable native segments into a readable/sample-reviewed article:
+  seven pages,76 regions,58 ordered blocks,six original images,four unnumbered
+  factorial rows,42 inline example rows and75 review ranges. All59 original text
+  blocks have source ranges;11 native reading boundaries remain explicit.
+- Joined49 `별도의` to50 `과를 설립하여 운영하는 실정이다.` with one space.
+  Six scope-only pending notes resolved. Full proofreading,historical/source claims,
+  original code bytes/execution and two small punctuation uncertainties remain
+  explicit. Physical FRA-/NK,Ko-/rea),FA-/CTORIAL wraps and literal source errors
+  retained. All303 embedded original files match byte-for-byte.
+- Source/index/coverage checks and an independent byte-identical rebuild pass.
+  All147 prior native/20 prior assembly manifests,input/previous issue pins and
+  the92-test baseline remain valid. Pipeline unchanged; no new OCR,extraction,
+  HTML,browser or frontend work.
+- Complete article: `build/pdf-restoration/12-1984-05-ai`; recipe,validation,
+  before/after ledger and rebuild: `private/pdf-restoration/12-1984-05-ai-assemble`.
+  Manifest SHA-256 `7b54c36f413f906ab53dc75e49c5a1b058f7c2cad13d62894f36b1d600ec8736`.
+  All42 identities intact:three readable/sample-reviewed articles,one group,
+  38 unresolved entries. Next batch08 verifies/maps SERPENT-α beginning52;
+  truth-table57 may follow within the two-article/six-source-page batch bound.
+  Whole May remains incomplete.
