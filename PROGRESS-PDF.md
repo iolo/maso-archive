@@ -9635,3 +9635,33 @@ history remains in [PROGRESS.md](PROGRESS.md).
   assembly-pending partial,one non-owning group and31 unresolved entries.
   Next: full 도망자66–71 assembly,then 결혼행진곡76 boundary verification.
   Whole May incomplete; full character proofreading/encoding/execution deferred.
+
+
+### 2026-10-07 — May full 도망자66–71 assembly
+
+- Assembled `build/pdf-restoration/12-1984-05-fugitive` from immutable batch10
+  opening66–69 andbatch11 ending70–71. Six pages,15 regions,13 blocks,one damaged
+  original photograph,408 physical BASIC rows/361 numbered entries across three
+  complete program groups: general112/112,Apple179/132,FC/SPC117/117.
+- All75 original package files copied byte-for-byte. Combined listing is exact
+  concatenation ofnative listings; all13 source block ranges,ten text reviews,
+  96 listing reviews,physical/logical indexes,one no-separator 볼/트 prose join,
+  native1820 columnwrap andseven unlabelled numeric string continuations pass.
+  No cross-segment prose/code join orcode repair. Four scope-only notes resolved.
+- Initial existing wrapped mode rejected scan-only uncertainty notes because it
+  requires byte ranges. Added explicitly opt-in `wrapped-scan-notes-v1`; preserves
+  five notes as namespaced `unresolved_scan_notes` with exact pinned scans and
+  no invented download/offset. Original notes also remain under native segments.
+  Strict region/block/scan/note-shape checks reject malformed evidence; partial
+  byte ranges still fail. Existing modes keep their previous projection behavior.
+- All95 PDF tests pass in4.275s,including mixed scan/range reviews,wrong evidence,
+  byte-identical export/rebuild withoutOCR andrehashed-note tampering. New adapter
+  documentation is in `docs/PDF-RESTORATION.md`. Original failed recipe retained.
+- Assembly rebuild is byte-identical;155 prior native and21 prior assembly pins,
+  May source/TOC andall42 canonical identities pass. No newOCR orHTML generated.
+  Recipe/validation/rebuild andbefore/after ledger are under
+  `private/pdf-restoration/12-1984-05-fugitive-assemble`.
+- Ledger: ten readable/sample-reviewed articles,zero partials,one non-owning hobby
+  group and31 unresolved entries. Next batch12 starts 결혼행진곡76 after extent
+  verification. Whole May remains incomplete; proofreading,original code bytes/
+  execution,historical claims andmanual photograph repair remain deferred.

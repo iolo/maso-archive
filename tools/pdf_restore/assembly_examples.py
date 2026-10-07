@@ -74,7 +74,8 @@ def join_blocks(recipe, package, contexts):
 def project_examples(recipe, originals):
     # Interrupted wrapped packages use existing block/range indexes; unlike the
     # regional modes, they do not require retrofitting immutable regional indexes.
-    wrapped = recipe.get('index_mode') in ('wrapped-listing-v1', 'regional-listing-v1', 'interrupted-wrapped-listing-v1')
+    wrapped = recipe.get('index_mode') in ('wrapped-listing-v1', 'regional-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1')
+    scan_notes = recipe.get('index_mode') == 'wrapped-scan-notes-v1'
     regional = recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1')
     if regional and not wrapped and any(b['kind'] == 'code' for source, _ in originals for b in source['blocks']):
         raise ValueError('Regional prose mode cannot assemble code listings')
@@ -103,6 +104,8 @@ def project_examples(recipe, originals):
                        reading_replacements={}, resolved_continuations=resolved, identity_map=[])
     if wrapped:
         corrections.update(logical_listing_line_index=[], data_statements=[], source_listing_groups=[])
+    if scan_notes:
+        corrections['unresolved_scan_notes'] = []
     if regional:
         from .assembly_regional import FIELDS
         corrections.update({field: [] for field in FIELDS})
@@ -151,6 +154,22 @@ def project_examples(recipe, originals):
         corrections['source_text_index'].extend(text_range(row, whole=True) for row in rows)
         for field in ('text_review_items', 'unresolved_text', 'unresolved_graphics'):
             for row in original.get(field, []):
+                if scan_notes and field == 'unresolved_text' and START not in row and END not in row:
+                    # Scan observations have no download range. Keep their identity
+                    # and pinned evidence without inventing searchable byte offsets.
+                    if (set(row) != {'region_id', 'block_id', 'scan', 'markers', 'note'} or
+                            row['block_id'] not in context.blocks or
+                            row['region_id'] not in next(b['region_ids'] for b in context.source['blocks']
+                                                        if b['id'] == row['block_id']) or
+                            row['scan'] != context.assets.get(row['region_id']) or
+                            not isinstance(row['markers'], list) or not row['markers'] or
+                            any(not isinstance(v, str) or not v.strip() for v in row['markers']) or
+                            not isinstance(row['note'], str) or not row['note'].strip()):
+                        raise ValueError('Invalid scan-only uncertainty note')
+                    corrections['unresolved_scan_notes'].append(references(row))
+                    continue
+                if scan_notes and field == 'unresolved_text' and (START not in row or END not in row):
+                    raise ValueError('Uncertainty range requires both byte bounds')
                 if field == 'unresolved_graphics' and regional and 'marker' in row:
                     marker = row['marker']
                     identity = ('block_id', 'region_id', 'scan', 'download', START, END,

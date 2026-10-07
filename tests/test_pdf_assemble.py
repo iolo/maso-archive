@@ -786,6 +786,88 @@ class PDFAssemblyTests(unittest.TestCase):
                     execution_verified=False)]
         return segments
 
+    def scan_noted_wrapped_segments(self):
+        segments = self.wrapped_segments(split_panel=True)
+        self.recipe['index_mode'] = 'wrapped-scan-notes-v1'
+        for source, correction in segments:
+            block = source['blocks'][0]
+            region = block['region_ids'][0]
+            scan = next(r['asset'] for r in source['region_assets'] if r['region_id'] == region)
+            correction['unresolved_text'] = [dict(block_id=block['id'], region_id=region,
+                scan=scan, markers=['small source punctuation'], note='Original glyph remains uncertain.')]
+        return segments
+
+    def test_scan_notes_preserve_evidence_without_inventing_ranges(self):
+        segments = self.scan_noted_wrapped_segments()
+        segments[0][1]['unresolved_text'].append(deepcopy(segments[0][1]['text_review_items'][0]))
+        untouched = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, untouched)
+        self.assertEqual(len(correction['unresolved_scan_notes']), 2)
+        self.assertEqual(len(correction['unresolved_text']), 1)
+        self.assertEqual(len(correction['listing_line_index']), 6)
+        self.assertEqual(len(correction['logical_listing_line_index']), 4)
+        for spec, (source, original), note in zip(self.recipe['segments'], segments,
+                                                correction['unresolved_scan_notes']):
+            self.assertEqual(note['source_segment'], spec['name'])
+            self.assertEqual(note['markers'], original['unresolved_text'][0]['markers'])
+            self.assertNotIn('download', note)
+            self.assertNotIn('utf8_byte_start', note)
+            self.assertTrue(note['scan']['path'].startswith('segments/' + spec['name'] + '/'))
+        legacy = dict(self.recipe, index_mode='wrapped-listing-v1')
+        with self.assertRaises(KeyError):
+            project(legacy, segments)
+
+    def test_scan_notes_reject_wrong_evidence_and_incomplete_ranges(self):
+        original = self.scan_noted_wrapped_segments()
+        for change in ('block', 'region', 'scan', 'markers', 'note', 'start', 'end', 'download'):
+            segments = deepcopy(original)
+            row = segments[0][1]['unresolved_text'][0]
+            if change == 'block': row['block_id'] = 'unknown'
+            if change == 'region': row['region_id'] = 'second-region'
+            if change == 'scan': row['scan'] = dict(row['scan'], sha256='0'*64)
+            if change == 'markers': row['markers'] = ['']
+            if change == 'note': row['note'] = ''
+            if change == 'start': row['utf8_byte_start'] = 0
+            if change == 'end': row['utf8_byte_end_exclusive'] = 1
+            if change == 'download': row['download'] = 'listing.txt'
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
+    def test_scan_notes_export_rebuild_and_rehashed_tamper(self):
+        # Use the unsplit fixture so map/OCR bindings remain the original ones.
+        segments = self.wrapped_segments()
+        self.recipe['index_mode'] = 'wrapped-scan-notes-v1'
+        for spec, (source, correction) in zip(self.recipe['segments'], segments):
+            block = source['blocks'][0]
+            region = block['region_ids'][0]
+            correction['unresolved_text'] = [dict(block_id=block['id'], region_id=region,
+                scan=next(r['asset'] for r in source['region_assets'] if r['region_id'] == region),
+                markers=['uncertain punctuation'], note='Scan remains authoritative.')]
+            base = self.root/'private'/spec['name']
+            write_json(base/'corrections.json', correction)
+            recipe = json.loads((base/'recipe.json').read_bytes())
+            recipe['corrections'] = pin(base, 'corrections.json')
+            write_json(base/'recipe.json', recipe)
+            output = self.root/'build'/('scan-notes-' + spec['name'])
+            build(base/'recipe.json', output, self.root)
+            spec['manifest'] = pin(self.root, output.relative_to(self.root).as_posix() + '/manifest.json')
+        with patch('tools.pdf_restore.ocr.page_ocr', side_effect=AssertionError('No OCR')):
+            self.run_assembly()
+            repeat = self.root/'build/repeat'
+            self.run_assembly(repeat)
+        files = lambda d: {p.relative_to(d).as_posix(): p.read_bytes() for p in d.rglob('*') if p.is_file()}
+        self.assertEqual(files(self.output), files(repeat))
+        c = json.loads((self.output/'corrections.json').read_bytes())
+        c['unresolved_scan_notes'][0]['markers'] = ['tampered']
+        write_json(self.output/'corrections.json', c)
+        package = json.loads((self.output/'article.json').read_bytes())
+        package['corrections'] = [pin(self.output, 'corrections.json')]
+        write_json(self.output/'article.json', package)
+        self.rehash(self.output)
+        with self.assertRaisesRegex(ValueError, 'correction projection'):
+            check_export(self.output)
+
     def interrupted_wrapped_segments(self):
         segments = self.wrapped_segments(prose=True)
         source, correction = segments[1]

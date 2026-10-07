@@ -3317,3 +3317,22 @@ PYTHONPATH=src:. python3 -m tools.pdf_restore.issue \
 
 Use a fresh output path. Publisher content and generated artifacts remain private,
 not committed. April 1984 is the next eligible issue and has not been started.
+
+
+### Scan-only uncertainty notes in wrapped assemblies
+
+Opt-in `wrapped-scan-notes-v1` keeps the physical/logical listing projection of
+`wrapped-listing-v1` while accepting a second explicit native uncertainty shape:
+`unresolved_text` observations containing exactly `region_id`, `block_id`,
+`scan`, `markers` and `note`, with no byte bounds. The region must belong to the
+named source block, the scan must match its mapped asset, and markers/note must
+be nonblank. Notes project into `unresolved_scan_notes` with namespaced identities
+and rebased scan pins. They receive no invented download or byte offsets.
+Native correction files remain unchanged and retain their original observations.
+
+Byte-indexed uncertainty rows continue through the existing range validation;
+partial ranges and extra fields on scan-only observations fail. Other assembly
+modes retain their prior behavior. The May 도망자 assembly exercises five scan-only
+notes alongside96 listing review ranges and408 physical rows. The95-test PDF suite
+covers preservation,malformed evidence,rebuild determinism andrehashed-note tamper
+rejection. This mode does not certify source glyphs,encoding orcode execution.
