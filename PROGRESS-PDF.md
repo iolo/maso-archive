@@ -9856,3 +9856,28 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Evidence: `private/pdf-restoration/12-1984-05-machine-adapter`.
   Next separate checkpoint exports/rebuilds full99–106,thenLOGOending111–114.
   Mayledger stays15articles/13readable/2partial/2groups/25unresolved.
+
+### 2026-10-07 — May full 기계어 강좌99–106 assembly
+
+- Separate assembly after nativecheckpoint4ab4032 andadaptercheckpointcac55e3.
+  Both source packages cover all99–106 before distinctLOGO107; no newOCR/mapping.
+- Full readable/sample-reviewed package:47regions,26blocks,3images,164physical
+  unnumbered rows/eight complete examples. No logical/BASIC line numbers inferred.
+  All197 original package files remain byte-identical undersegments.
+- No-separator104각 파라/105메터를 join explicitly retains eight ordered figure,
+  heading andlisting objects. Seventeen native prose boundaries remain. All27
+  source-block ranges,81 text reviews and164 listing reviews validate.
+  Native regional,inline,machine-column anduncertainty metadata remain exact.
+- Exact assembly rebuild/index checks pass;162priornative/23priorassemblypins
+  preserved. Reused adapter98-test passing baseline (4.417s);pipeline unchanged.
+  NoHTML/browser/reader work. Three scope-only pending notes resolved;literal
+  source discrepancies,unfinished101prose andproofreading limits retained.
+- Export: `build/pdf-restoration/12-1984-05-machine`.
+  Recipe/evidence/validation: `private/pdf-restoration/12-1984-05-machine-assemble`.
+  Manifest442d946787186a91e28e894e24d025cfdce5b88655dd0f45d8597690ca3519dc.
+  Ledger42identities:15sample-reviewedarticles (14readable/1partial),2groups and
+  25unresolved. Five assemblies preserve13immutable native segments.
+- Next batch16: LOGOending111–114 afterfreshboundedverification,then separate
+  fullLOGOassembly.110컴퓨/111터는 joinswithoutseparator. Asecond115article only
+  afterextentproof withinremainingtwo mappedpages. WholeMay remains incomplete;
+  fullcharacter proofreading,source encoding andcode execution stay deferred.
