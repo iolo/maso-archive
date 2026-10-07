@@ -7,15 +7,13 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–32 and thirteen assemblies are complete:** 27 articles are
-readable and one cat article is partial pending full assembly; all 28 are
-sample-reviewed. All 42 canonical TOC identities remain; five non-owning groups
-are classified and nine identities await classification/restoration.
-Functionkeys198–201, AppleDOS184–187, classifieds188, workshop181–183,
-terminal156–180 and accounting148–154 are complete. All cat pages192–197 are
-restored in two immutable segments; separate assembly is next. Thirteen
-assemblies preserve32 immutable native segments. Whole May remains incomplete;
-unprocessed content is not missing.
+**May batches 01–32 and fourteen assemblies are complete:** all 28 restored
+articles are readable/sample-reviewed. All 42 canonical TOC identities remain;
+five non-owning groups are classified and nine identities await restoration
+or classification. The full cat article192–197 and function keys198–201 are complete.
+Fourteen assemblies preserve 34 immutable native segments. Next is fresh
+너구리202 extent/boundary review. Whole May remains incomplete; unprocessed
+content is not missing.
 
 Native32 completes the cat ending196–197 and the function-key article198–201.
 It retains60 regions,43 ordered blocks,12 original images,48 regional spans,
@@ -39,11 +37,27 @@ The unchanged103-test baseline is reused. Fullproofreading andcodeexecution rema
 deferred. No pipeline,HTML,frontend orbrowser changes.
 Evidence: `private/pdf-restoration/12-1984-05-batch-32`.
 
-Native32ending committed d15789d;postcommitaudit passes. Referenceindex adapter
-passes106tests,realcatprojection/rebuild andall32historicalassemblychecks.
-Next action:commitvalidatedtooling beforeseparate fullcat192–197assembly. Preserveall
-native31/32inputs andindexes,thenfresh너구리202extentproof. WholeMay stillrequires
-nineunresolvedTOCoutcomes andseparateissuecloseout. No rendering work is required.
+Native32ending committed d15789d. Referenceindex tooling committed648e28b;
+all106tests,realprojection/rebuild and32historicalassemblychecks pass.
+The full cat article on pages 192–197 is now readable/sample-reviewed. Its two
+immutable segments retain 41 regions, 30 ordered blocks, 11 images, four captions,
+30 regional spans and 47 text reviews. One AppleSoft program retains 415 physical
+rows: 231 numbered entries, 183 wraps and one ]LIST prompt. Fifty-nine DATA
+statements retain 881 literal values. Four direction-table rows/12 cells,
+23 program-guide explanations and 13 variables have exact combined UTF-8 indexes.
+No prose or physical-row join is needed between segments; 1090→1100 and 5120→5130
+remain separate rows. Line 3080's column wrap on page 196 is retained.
+Original files/metadata and 187 prior native/32 assembly pins are preserved;
+the byte-identical rebuild and 106-test baseline pass. No new mapping, OCR, HTML
+or browser work. Full proofreading, quoted artwork, source bytes and execution
+remain unverified.
+Full export: `build/pdf-restoration/12-1984-05-cat`.
+Evidence: `private/pdf-restoration/12-1984-05-cat-assemble`.
+
+Next: native33, fresh review of 너구리's extent and boundaries, starting on page
+202. Prior lookups on 202/203 prove only the opening; exclude the lower advertisement
+on 203. May still needs nine TOC outcomes and a separate issue closeout.
+No rendering work is required.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block
@@ -209,7 +223,7 @@ Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machi
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
 Next: native32 restores the cat ending196–197 after fresh extent/boundary proof.
 Page195 ends complete1090 before1100; preserve the page196 left5080 continuation
-at right-column top before3090. Optional functionkeys198–201 fits the remaining
+at right-column top before3090. Optional function keys198–201 fits the remaining
 four mapped pages/second article after fresh proof. Assemble the full cat192–197
 separately after the native ending commit. Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.

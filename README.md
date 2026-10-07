@@ -111,14 +111,14 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7. It has 27 readable articles and one partial article;
-all 28 are sample-reviewed. Thirteen assemblies preserve 32 original segments.
-The function-key article198–201 is complete. All cat pages192–197 are restored;
-its separate full assembly is next. Five non-owning groups are classified;
-nine TOC entries await classification/restoration.
+May 1984 began on October 7. All 28 restored articles are readable and
+sample-reviewed. Fourteen assemblies preserve 34 original segments.
+The cat article192–197 and function-key article198–201 are complete.
+Next is 너구리, beginning202, after fresh extent and boundary review.
+Five non-owning groups are classified; nine TOC entries still await restoration
+or classification. Whole May and its issue closeout remain incomplete.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
-pass. All106 PDF tooling tests pass; the cat reference-index adapter is validated.
-Whole May and its issue closeout remain incomplete.
+pass. All 106 PDF tooling tests pass.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff

@@ -10739,3 +10739,36 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - This istooling/samplevalidation;cat remainspartialpendingseparatefullassembly
   afterthis namedtoolingcommit. WholeMay still27readable/onepartial,nineunresolved.
 - Evidence: `private/pdf-restoration/12-1984-05-cat-reference-adapter`.
+
+### 2026-10-08 — Separate full cat assembly192–197
+
+- After native ending d15789d and tested reference-index tooling648e28b, assembled
+  native31 opening192–195/native32 ending196–197. The full article is readable and
+  sample-reviewed. No new lookup, mapping, OCR or rendering was needed.
+- Retains 41 regions, 30 ordered blocks, 11 original images, four captions,
+  30 regional spans, 30 source-block ranges and 47 text reviews. Four direction
+  table rows/12 cells, 23 program-guide explanations, 13 variable definitions and
+  one ]LIST prompt have exact indexes in the combined downloads.
+- One continuous AppleSoft program retains 415 physical rows: 231 numbered entries,
+  183 wraps and one unnumbered prompt. Fifty-nine DATA statements retain 881 literal
+  values. No prose or physical-row join at195/196 or196/197: 1090→1100 and5120→5130
+  remain adjacent complete rows. Line3080's column wrap on196 is retained;
+  continuation digits are not new labels.
+- Both original correction records and149 native files/manifest copies are
+  byte-identical. Exact global text/table/cell/guide/variable/prompt/caption and
+  physical/logical/DATA indexes pass, as does an independent assembly rebuild.
+  All187 prior native/32 assembly pins are preserved. Two coverage/assembly scope
+  notes are resolved; proofreading uncertainty remains. Passing106-test baseline
+  reused. No pipeline, HTML, frontend or browser changes.
+- Literal errors, duplicate flowchart3240, BUTTEN,3040 destination3160 and6550
+  candidate27 are retained. Quoted artwork, spacing, source bytes and execution
+  remain unverified; full proofreading is deferred. Source bitmaps are authoritative.
+- May retains42 canonical identities:28 readable/sample-reviewed articles,
+  five non-owning groups and nine unresolved entries. Fourteen assemblies preserve
+  34 immutable native segments. Whole May and its issue closeout remain incomplete.
+- Next native33: fresh extent/boundary review of 너구리, starting202. Prior202/203
+  lookups prove only the opening; exclude203's lower advertisement. Optional
+  HAPPYWORDS208 only if verified extents fit the two-article/six-mapped-page/
+  twenty-lookup limits.
+- Export: `build/pdf-restoration/12-1984-05-cat`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-cat-assemble`.
