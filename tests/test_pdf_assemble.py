@@ -1878,7 +1878,83 @@ class PDFAssemblyTests(unittest.TestCase):
         for mode in ('regional-listing-v1', 'interrupted-wrapped-listing-v1'):
             with self.subTest(mode=mode), self.assertRaisesRegex(ValueError, 'Intervening prose requires'):
                 project(dict(self.recipe, index_mode=mode), segments)
+    def reference_listing_segments(self):
+        from tools.pdf_restore.assembly_indexes import START, END
+        segments = self.indexed_table_interrupted_segments()
+        self.recipe.update(index_mode='wrapped-reference-listing-v1', prose_joins=[])
+        source, correction = segments[1]
+        parent = next(r for r in correction['regional_text_index'] if r['region_id'] == 'table-region')
+        rows, cursor = [], parent[START]
+        for number, line in enumerate(('열\t값\n', '한글\t\n')):
+            row = dict(parent, transcription_excerpt=line, table_id='directions', row=number,
+                       row_kind='header' if number == 0 else 'data', cells=[],
+                       **{START: cursor, END: cursor+len(line.encode())})
+            cell_start = cursor
+            for column, cell in enumerate(line.rstrip('\n').split('\t'), 1):
+                row['cells'].append(dict(parent, column=column, transcription_excerpt=cell,
+                    **{START: cell_start, END: cell_start+len(cell.encode())}))
+                cell_start += len(cell.encode())+1
+            rows.append(row);cursor = row[END]
+        correction['table_index'] = rows
+        for field in ('program_guide_index', 'variable_definition_index'):
+            correction[field] = [dict(row, source_row=i, source_encoding_verified=False,
+                                     execute_verified=False) for i, row in enumerate(rows, 1)]
+        return segments
 
+    def test_reference_listing_preserves_tables_blank_cells_guides_and_originals(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import START, END, span
+        segments = self.reference_listing_segments();untouched = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        article, _ = text_bytes(package)
+        self.assertEqual(segments, untouched)
+        self.assertEqual(correction['table_index'][0]['table_id'], 'continuation-directions')
+        blank = correction['table_index'][1]['cells'][1]
+        self.assertEqual(blank[START], blank[END])
+        self.assertEqual(blank['transcription_excerpt'], '')
+        for field in ('table_index', 'program_guide_index', 'variable_definition_index'):
+            for row in correction[field]:
+                self.assertEqual(span(row, article), row['transcription_excerpt'])
+                self.assertEqual(row['source_segment'], 'continuation')
+        _, legacy = project(dict(self.recipe, index_mode='regional-listing-v1'), segments)
+        self.assertNotIn('table_index', legacy)
+        self.assertNotIn('program_guide_index', legacy)
+
+    def test_reference_listing_rejects_changed_cells_regions_bytes_and_guide_claims(self):
+        original = self.reference_listing_segments()
+        for change in ('cell-text', 'cell-range', 'blank', 'scan', 'region', 'row-order',
+                       'missing', 'guide-order', 'guide-bytes', 'guide-execution'):
+            segments = deepcopy(original);c = segments[1][1];row = c['table_index'][1]
+            if change == 'cell-text': row['cells'][0]['transcription_excerpt'] = '다른 글'
+            if change == 'cell-range': row['cells'][0]['utf8_byte_start'] += 1
+            if change == 'blank': row['cells'][1]['utf8_byte_end_exclusive'] += 1
+            if change == 'scan': row['scan'] = segments[0][0]['region_assets'][0]['asset']
+            if change == 'region': row['region_id'] = 'code'
+            if change == 'row-order': row['row'] = 0
+            if change == 'missing': c['table_index'].pop()
+            if change == 'guide-order': c['program_guide_index'][0]['source_row'] = 2
+            if change == 'guide-bytes': c['variable_definition_index'][0]['source_encoding_verified'] = True
+            if change == 'guide-execution': c['program_guide_index'][0]['execute_verified'] = True
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
+    def test_reference_prompts_require_exact_unnumbered_rows(self):
+        from tools.pdf_restore.assembly_references import project_prompts
+        row = dict(line_id='r:1', row_kind='unnumbered', printed_line=None,
+                   printed_line_visible=False, utf8_byte_start=0, utf8_byte_end_exclusive=6)
+        prompt = dict(row, transcription_excerpt=']LIST\n', execute_verified=False)
+        context = SimpleNamespace(name='opening', listing=b']LIST\n',
+            correction={'prompt_index': [prompt], 'listing_line_index': [row]})
+        result = {'listing_line_index': [dict(row, source_segment='opening',
+                   source_line_id='r:1', line_id='opening:physical:1')]}
+        project_prompts(context, result)
+        self.assertEqual(result['prompt_index'][0]['line_id'], 'opening:physical:1')
+        for key, value in [('transcription_excerpt', ']LIST changed'), ('execute_verified', True),
+                           ('row_kind', 'numbered'), ('utf8_byte_end_exclusive', 5)]:
+            old = prompt[key];prompt[key] = value
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                project_prompts(context, result)
+            prompt[key] = old
 
 
 if __name__ == '__main__':

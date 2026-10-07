@@ -117,7 +117,7 @@ The function-key article198–201 is complete. All cat pages192–197 are restor
 its separate full assembly is next. Five non-owning groups are classified;
 nine TOC entries await classification/restoration.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
-pass. The unchanged103-test PDF tooling baseline remains current.
+pass. All106 PDF tooling tests pass; the cat reference-index adapter is validated.
 Whole May and its issue closeout remain incomplete.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 

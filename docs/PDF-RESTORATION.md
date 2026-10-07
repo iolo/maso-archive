@@ -3343,3 +3343,24 @@ without changing source bytes. Numeric values, physical wraps, scan pins and byt
 ranges retain the same strict checks. The May 결혼행진곡 listing prints lowercase
 `data`, including a repeated273 source value; the duplicate is preserved. The
 96-test PDF suite includes mixed-case wrapped DATA and literal-value tamper rejection.
+
+## Project table, guide, variable and prompt indexes into a wrapped assembly
+
+Use `"index_mode": "wrapped-reference-listing-v1"` with explicit `prose_joins`
+(an empty list is valid) when immutable native segments contain
+`regional_text_index`, `table_index`, `program_guide_index`,
+`variable_definition_index` or `prompt_index` alongside wrapped listings.
+The mode retains regional, physical/logical listing and DATA projection, and adds
+combined UTF-8 ranges for these source references. Existing modes are unchanged.
+
+Table rows must cover their complete source region in order. Cells retain exact
+UTF-8 ranges, tabs, newline boundaries and explicit blank values. Guide and
+variable rows require source order and unverified source encoding/execution.
+Prompts must match an explicitly unnumbered physical listing row. Original
+correction metadata and all native files remain intact inside the assembly.
+The adapter rejects altered cells, scans, ranges, row order and verification claims.
+
+May cat adapter evidence is in
+`private/pdf-restoration/12-1984-05-cat-reference-adapter/validation-final.json`.
+All106 PDF tests pass; the real two-segment projection/rebuild and all32 earlier
+assemblies validate. It adds no OCR, rendering or code-execution requirement.

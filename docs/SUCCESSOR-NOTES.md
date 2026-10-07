@@ -39,7 +39,9 @@ The unchanged103-test baseline is reused. Fullproofreading andcodeexecution rema
 deferred. No pipeline,HTML,frontend orbrowser changes.
 Evidence: `private/pdf-restoration/12-1984-05-batch-32`.
 
-Next action:commitnative32 beforeseparate fullcat192–197assembly. Preserveall
+Native32ending committed d15789d;postcommitaudit passes. Referenceindex adapter
+passes106tests,realcatprojection/rebuild andall32historicalassemblychecks.
+Next action:commitvalidatedtooling beforeseparate fullcat192–197assembly. Preserveall
 native31/32inputs andindexes,thenfresh너구리202extentproof. WholeMay stillrequires
 nineunresolvedTOCoutcomes andseparateissuecloseout. No rendering work is required.
 

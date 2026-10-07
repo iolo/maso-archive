@@ -242,6 +242,13 @@ The unchanged103-test baseline is reused. Fullproofreading andcodeexecution rema
 deferred. No pipeline,HTML,frontend orbrowser changes.
 Evidence: `private/pdf-restoration/12-1984-05-batch-32`.
 
+Native32ending iscommitted asd15789d. Separateopt-in referenceindex tooling
+checkpoint passes106PDFtests,realcatprojection/byte-identicalsample rebuild and
+all32historicalassemblychecks;187nativepins unchanged. It projects searchable
+tablecells,programguide,variables andprompt into combinedUTF-8 ranges. Wholecat
+assembly follows this namedtoolingcommit;sample doesnotpromoteledgeravailability.
+Evidence: `private/pdf-restoration/12-1984-05-cat-reference-adapter`.
+
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01–32}`.
 Latest full export: `build/pdf-restoration/12-1984-05-terminal`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-terminal-assemble`.
@@ -249,7 +256,7 @@ Latest native exports: `build/pdf-restoration/12-1984-05-batch-32/{cat,function}
 Native evidence: `private/pdf-restoration/12-1984-05-batch-32`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: separate fullcat192–197assembly afterthe named native32endingcommit.
+Next: separate fullcat192–197assembly afterthe named reference-index toolingcommit.
 Preserve1090→1100 at195/196 and5120→5130 at196/197 without physical-row joins,
 and3080's crosscolumnwrap on196. Nextnative33 begins너구리202 afterfreshfull
 extent/boundaryproof;optionalHAPPYWORDS208 onlyifverifiedextents fitpagebudget.

@@ -10718,3 +10718,24 @@ history remains in [PROGRESS.md](PROGRESS.md).
   proof fornative33. OptionalHAPPYWORDS208 onlyifverified extentsfitpagebudget.
 - Exports: `build/pdf-restoration/12-1984-05-batch-32/{cat,function}`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-batch-32`.
+
+### 2026-10-08 — Separate cat reference-index tooling checkpoint
+
+- Native32ending d15789d is committed andpostcommitpins/ledger audit passes.
+  The existing wrappedassembler retainedtable/guide/variable/prompt indexes only
+  inoriginalsegmentmetadata. Addedopt-in `wrapped-reference-listing-v1` to project
+  thoseindexes into combineddownloads while preservingallnativefiles/metadata.
+- Source-region/UTF-8 validation rejectsalteredcells/scans/ranges/order,missing
+  tablecoverage,inferredencoding/executionclaims andprompts without matching
+  unnumberedphysicalrows. Explicitblankcells preserveemptyspans andblockidentity.
+- All106PDFtests pass,includingthreenewtestswithblankcells,Unicode,tamperrejection
+  andlegacy-mode preservation. Realcat31/32projection andbyte-identicalsample
+  rebuild retain41regions,30blocks,11images,30regionalspans,23guiderows,13variables,
+  five tablerows,oneprompt,415physicalrows,231numberedentries and59DATA/881values.
+- All187priornative/32assemblypins preserved;all32historicalassemblies revalidated
+  withnewtooling. CanonicalMayledger remainsbyte-identicalto native32afterledger.
+  Aninitialprobe lackedPYTHONPATHsrc andfailedbeforeprojectingorwritingevidence;
+  correctedinvocationpassed. No OCR,HTML,frontend,browserorcodeexecution work.
+- This istooling/samplevalidation;cat remainspartialpendingseparatefullassembly
+  afterthis namedtoolingcommit. WholeMay still27readable/onepartial,nineunresolved.
+- Evidence: `private/pdf-restoration/12-1984-05-cat-reference-adapter`.
