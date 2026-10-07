@@ -703,11 +703,11 @@ class PDFAssemblyTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'correction projection'):
             check_export(self.output)
 
-    def wrapped_segments(self, split_panel=False):
+    def wrapped_segments(self, split_panel=False, prose=False):
         from collections import Counter
         from tools.pdf_restore.assemble import text_bytes
         from tools.pdf_restore.assembly_indexes import block_ranges
-        segments = self.standalone_segments()
+        segments = self.standalone_segments(prose=prose)
         self.recipe['index_mode'] = 'wrapped-listing-v1'
         for i, (source, c) in enumerate(segments):
             block = source['blocks'][0]
@@ -785,6 +785,65 @@ class PDFAssemblyTests(unittest.TestCase):
                     physical_newlines_removed_for_index_only=True, original_machine_bytes_verified=False,
                     execution_verified=False)]
         return segments
+
+    def interrupted_wrapped_segments(self):
+        segments = self.wrapped_segments(prose=True)
+        source, correction = segments[1]
+        # The second segment's opening figure separates the prose fragments.
+        order = source['content_order']
+        figure = next(row for row in order if row['type'] == 'figure')
+        order.remove(figure)
+        order.insert(0, figure)
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        ranges = block_ranges(source)
+        blocks = {b['id']: b for b in source['blocks']}
+        for row in correction['text_index']:
+            row['utf8_byte_start'], row['utf8_byte_end_exclusive'] = ranges[row['block_id']]
+        for row in correction['text_review_items']:
+            block = blocks[row['block_id']]
+            row['utf8_byte_start'] = ranges[block['id']][0] + len(
+                block['text'][:block['text'].index(row['transcription_excerpt'])].encode())
+            row['utf8_byte_end_exclusive'] = row['utf8_byte_start'] + len(row['transcription_excerpt'].encode())
+        self.recipe.update(index_mode='interrupted-wrapped-listing-v1', prose_joins=[dict(
+            left=dict(segment='opening', block_id='prose', ending='시작'),
+            right=dict(segment='continuation', block_id='prose', opening='과 끝'),
+            separator='', intervening=[dict(segment='continuation', **figure)])])
+        return segments
+
+    def test_interrupted_wrapped_join_preserves_figures_source_packages_and_ranges(self):
+        from tools.pdf_restore.assemble import text_bytes, validate_recipe
+        segments = self.interrupted_wrapped_segments()
+        untouched = deepcopy(segments)
+        validate_recipe(self.recipe)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, untouched)
+        joined = next(b for b in package['blocks'] if b['kind'] == 'prose')
+        self.assertEqual(joined['text'], '한글 시작과 끝')
+        self.assertEqual(len(package['figures']), 2)
+        self.assertIn(dict(type='figure', id='continuation-figure1'), package['content_order'])
+        article, listing = text_bytes(package)
+        self.assertEqual(listing, b''.join(text_bytes(s)[1] for s, _ in untouched))
+        for row in correction['text_review_items']:
+            self.assertEqual(article[row['utf8_byte_start']:row['utf8_byte_end_exclusive']].decode(),
+                             row['transcription_excerpt'])
+        self.assertEqual(len(correction['listing_line_index']), 6)
+        self.assertEqual(len(correction['logical_listing_line_index']), 4)
+
+    def test_interrupted_wrapped_join_rejects_unreviewed_order_and_unindexed_prose(self):
+        segments = self.interrupted_wrapped_segments()
+        with self.subTest('missing interruption'):
+            recipe = deepcopy(self.recipe)
+            recipe['prose_joins'][0]['intervening'] = []
+            with self.assertRaisesRegex(ValueError, 'Intervening content differs'):
+                project(recipe, segments)
+        with self.subTest('unindexed prose interruption'):
+            from tools.pdf_restore.assembly_indexes import Segment
+            from tools.pdf_restore.assembly_regional import check_intervening
+            source, correction = segments[1]
+            interruption = [dict(segment='continuation', type='block', id='prose')]
+            context = Segment(self.recipe['segments'][1], source, correction, 0)
+            with self.assertRaisesRegex(ValueError, 'Intervening prose requires'):
+                check_intervening(interruption, [dict(type='block', id='continuation-prose')], [context])
 
     def test_wrapped_listing_preserves_panel_wraps_duplicates_and_partial_utf8_ranges(self):
         from tools.pdf_restore.assemble import text_bytes

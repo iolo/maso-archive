@@ -2526,6 +2526,15 @@ without certifying execution. DATA indexes remove physical newlines only for
 numeric indexing; the source download retains them. Existing assembly modes
 remain available unchanged.
 
+The opt-in `interrupted-wrapped-listing-v1` mode uses the same block, physical-row,
+logical-row and review-range validation, and allows a prose join across explicitly
+reviewed figures/captions. Every `prose_joins` entry additionally requires an
+`intervening` list of `{segment, type, id}` objects in exact source order; use `[]`
+for an adjacent join. Other intervening prose requires a source-linked table
+index. Native packages need no added regional indexes and remain immutable.
+This supports May's page33–34 sentence continuation across tables and captions.
+Historical modes retain their original adjacency and index requirements.
+
 ```sh
 # Rebuild into a fresh output directory; preserve the accepted package.
 make assemble-pdf-article \

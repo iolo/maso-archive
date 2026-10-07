@@ -1,8 +1,9 @@
 """Opt-in assembly of standalone examples and scan-linked text review ranges.
 
-Source packages and historical index modes remain immutable. This mode joins only
-explicit adjacent prose blocks and preserves source coordinates beside projected
-UTF-8 ranges. It does not infer executable programs or original glyph bytes.
+Source packages and historical index modes remain immutable. Explicit prose joins
+preserve source coordinates beside projected UTF-8 ranges. Interrupted modes also
+require the exact intervening image/caption order. They do not infer executable
+programs or original glyph bytes.
 """
 from copy import deepcopy
 import re
@@ -47,7 +48,7 @@ def join_blocks(recipe, package, contexts):
         order = package['content_order']
         i = order.index(dict(type='block', id=ids[0]))
         j = order.index(dict(type='block', id=ids[1]))
-        if recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1'):
+        if recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'interrupted-wrapped-listing-v1'):
             from .assembly_regional import check_intervening
             check_intervening(row['intervening'], order[i + 1:j], contexts)
         elif j != i + 1:
@@ -71,7 +72,9 @@ def join_blocks(recipe, package, contexts):
 
 
 def project_examples(recipe, originals):
-    wrapped = recipe.get('index_mode') in ('wrapped-listing-v1', 'regional-listing-v1')
+    # Interrupted wrapped packages use existing block/range indexes; unlike the
+    # regional modes, they do not require retrofitting immutable regional indexes.
+    wrapped = recipe.get('index_mode') in ('wrapped-listing-v1', 'regional-listing-v1', 'interrupted-wrapped-listing-v1')
     regional = recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1')
     if regional and not wrapped and any(b['kind'] == 'code' for source, _ in originals for b in source['blocks']):
         raise ValueError('Regional prose mode cannot assemble code listings')

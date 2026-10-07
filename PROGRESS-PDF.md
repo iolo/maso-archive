@@ -9334,3 +9334,38 @@ history remains in [PROGRESS.md](PROGRESS.md).
   remain unresolved. Whole May incomplete; no missing-source outcome inferred.
 - Next: batch05 restores40–43 and verifies the outgoing44 boundary, then assembles
   full feature20–43 using immutable segments and source-linked correction indexes.
+
+
+### 2026-10-07 — May batch05: final Apple-II pages40–43
+
+- Restored canonical0001 final four pages, with44 as one boundary lookup.
+  All17 regions reviewed:16 text regions become15 blocks through the 중/요한
+  column join. Original table18 remains an image with its source caption.
+  Closing prose preserves source names/affiliation. No crop repair or OCR retry.
+- Complete DOS BASIC program50–7210 retains208 physical rows and202 numbered
+  logical entries across ten panels. Six physical wraps belong to325,730,880,
+  1045,1050 and7210; indented1055/128 do not create additional line labels.
+  Three numeric DATA indexes validate literal values without changing7180's00.
+  Fourteen text-review excerpts and fifteen listing-review ranges pass.
+- Source RF/RP inconsistency, numeric GET A, empty800 REM, reversed comparator
+  order, FOMATTED spelling and DCB/DCT difference remain literal. Execution,
+  exact machine bytes, table-cell transcripts and full proofreading are unverified.
+- All17 OCR tasks completed once with zero failures. Task elapsed27.4135s,
+  render/crop16.9248s, OCR9.1223s; mapping118.0703s and review699.8851s.
+  Review includes source comparison, compatibility work and context/tool waits;
+  exact stage tokens/backend measurements unavailable.
+- Initial native review anomalies lacked block identities; wrapped projection
+  rejected them before ledger mutation. Corrected identities pass; the initial
+  export remains preserved. Raw OCR/scans were unchanged.
+- Added opt-in interrupted-wrapped-listing-v1 assembly mode for the33/34 prose
+  continuation across reviewed figures/captions, without requiring additions to
+  immutable native regional indexes. Unknown/missing interruptions and unindexed
+  prose are rejected. All92 PDF tests pass; historical modes retain their rules.
+- Final JSON/assets and independent rebuild match byte-for-byte. All144 prior
+  native manifests,19 prior assemblies, previous-issue pins and input pins pass.
+  Ledger retains all42 identities and five partial/sample-reviewed segments
+  covering20–43. Editorial is readable; feature awaits assembly;40 other entries
+  await classification/restoration. No HTML/browser/frontend work.
+- Export: `build/pdf-restoration/12-1984-05-batch-05/feature`. Private recipe,
+  raw evidence, timings, tests and validation are alongside. Next checkpoint
+  assembles full20–43 before starting the AI feature on44. Whole May incomplete.

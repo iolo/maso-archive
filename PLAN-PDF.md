@@ -32,18 +32,19 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches01–04 are complete:** editorial19 is readable/sample-reviewed;
-the Apple-II feature has four immutable partial/sample-reviewed segments covering
-20–39. Batch04 adds six pages, 73 regions, 45 ordered blocks, twenty original
-image panels, fourteen physical unnumbered code rows and seven prose joins.
+**May batches01–05 are complete:** editorial19 is readable/sample-reviewed;
+the Apple-II feature has five immutable partial/sample-reviewed segments covering
+20–43. Batch05 adds four pages, 17 regions, 15 ordered blocks, one original
+table image, 208 physical BASIC rows/202 logical entries and one prose join.
 Text/listing indexes, raw/scan preservation and identical rebuild pass. All 42
 canonical TOC identities remain intact; two articles are classified and 40 entries
 await classification/restoration. Unprocessed entries are not missing outcomes.
-Native exports are under `build/pdf-restoration/12-1984-05-batch-{01,02,03,04}`;
+Native exports are under `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05}`;
 ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`. Full feature extent
-20–43 is source-verified. Next batch05 restores printed/PDF40–43: DOS entries,
-closing prose and the final BASIC listing. Assemble20–43 after verification,
-including the33/34 sentence join. Whole May incomplete.
+20–43 is source-verified and available. Next assemble all five segments, including
+the33/34 sentence join across intervening figures/captions. The opt-in interrupted
+wrapped-listing assembly mode preserves original packages; all92 PDF tests pass.
+Whole May incomplete.
 The following March checkpoint record preserves the completed work and its provenance.
 March batches 01–44 and nineteen article assemblies are complete: the editorial on
 printed13/PDF13 and full Hangul-computer feature on printed/PDF14–37 are readable,
