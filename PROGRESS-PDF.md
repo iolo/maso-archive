@@ -10520,3 +10520,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
   frontend or browser work. Next is separate full156–180 assembly after this
   tooling commit, then workshop181 after fresh extent proof. May remains active.
 - Evidence: `private/pdf-restoration/12-1984-05-terminal-table-adapter`.
+
+### 2026-10-08 — May terminal full156–180 assembly
+
+- Separate full assembly follows named native ending17c02f2 and tooling adapter
+  ba2a2fc. Five immutable native packages24–28 cover verified156–180;workshop181
+  independently begins after END RECEIVE180. No extraction in this checkpoint.
+- Retains191 regions,118 ordered blocks,52 figures,139 regional text spans,
+  120 source block ranges,241 review ranges and46 exact source captions.
+  Nineteen native prose boundaries preserved;two crosssegment joins retain
+  모두가 그림7 and CP/M에서는 이 부분에 across eight/three explicit objects.
+- Fifteen listing groups contain543 unnumbered physical rows:14 assembly listings
+  plus editor screen. Transmit133 rows and editor20 remain independent;receive
+  listing14 combines88+50 into138 rows across178–180. No split physical row at
+  179/180,zero numbered BASIC entries/no DATA inferred. Listing bytes unchanged.
+- Searchable tables retain167 data rows/652 cells. All generic table/cell indexes,
+  address/command examples,figure notes and native metadata remain exact in
+  immutable segments;global block/regional UTF-8 ranges validate. Five scope
+  notes resolved only;literal source errors,smallglyph/dollar/encoded-byte and
+  execution uncertainty remain explicit. Full proofreading deferred.
+- All653 original files are byte-identical. Exact source/global text,caption,
+  physical-row indexes and independent full rebuild pass;all180 prior native
+  and31 prior assembly pins preserved. Passing103-test baseline reused.
+  A first validation assertion expected END RECEIVE with one space;the source
+  has five spaces. Corrected the assertion only,preserving source alignment;
+  failed script/attempt retained. No package,transcription orpipeline change.
+- Ledger retains42 canonical identities:22 readable/sample-reviewed articles,
+  five non-owning groups and15 unresolved identities. Thirteen May assemblies
+  preserve32 immutable native segments. No new mapping/rendering/OCR,HTML,
+  frontend or browser work. Whole May and issue closeout remain incomplete.
+- Next native29: 기초공작실 beginning181 after fresh full extent/boundary review.
+  Keep two-article/six-mapped-page/twenty-outside-map-lookup bounds;unprocessed
+  content is not missing.
+- Export: `build/pdf-restoration/12-1984-05-terminal`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-terminal-assemble`.

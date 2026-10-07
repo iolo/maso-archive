@@ -32,12 +32,12 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–28 and twelve assemblies are complete:** twenty-two articles
-are sample-reviewed:twenty-one readable andone partial terminal article. All42
-canonical TOC identities remain;five non-owninggroups are classified and15
-identities await classification/restoration.
-Accounting148–154 is fully assembled. Twelve assemblies preserve27 immutable
-native segments. Whole May remains incomplete;unprocessed content is not missing.
+**May batches 01–28 and thirteen assemblies are complete:** twenty-two articles
+are readable and sample-reviewed. All42 canonical TOC identities remain;five
+non-owning groups are classified and15 identities await classification/restoration.
+Terminal156–180 and accounting148–154 are fully assembled. Thirteen assemblies
+preserve32 immutable native segments. Whole May remains incomplete;unprocessed
+content is not missing.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block
@@ -148,14 +148,29 @@ native metadata. All180 native/31 assembly pins and12 prior May assemblies pass;
 103 PDF tests pass. No full assembly or new extraction in this tooling checkpoint.
 Evidence: `private/pdf-restoration/12-1984-05-terminal-table-adapter`.
 
+Terminal full156–180 assembly is complete after native ending17c02f2 and
+separate table-adapterba2a2fc. It retains191 regions,118 ordered blocks,52 original
+images,139 regional spans,120 source block ranges,241 review ranges,46 captions
+and543 unnumbered physical listing rows. Fourteen assembly listings plus editor
+screen form15 groups;receive listing14 spans178–180 with138 rows. Nineteen native
+prose boundaries and two crosssegment joins across11 explicit objects preserved.
+Searchable tables retain167 data rows/652 cells;native indexes are unchanged.
+All653 original files are byte-identical, exact UTF-8/row indexes and independent
+full rebuild pass. All180 prior native/31 assembly pins remain;103-test baseline
+reused. A validation assertion initially expected one space in END RECEIVE;
+it now checks the original five-space alignment. No output/source change.
+Five scope gaps resolved;literal errors,glyph/encoding/execution uncertainty and
+full-proofreading deferral remain explicit. No new mapping/rendering/OCR,HTML,
+frontend or browser work. Evidence:`private/pdf-restoration/12-1984-05-terminal-assemble`.
+
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01–28}`.
-Latest full export: `build/pdf-restoration/12-1984-05-accounting`.
-Assembly evidence: `private/pdf-restoration/12-1984-05-accounting-assemble`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-{22,23}`.
-Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting}`.
+Latest full export: `build/pdf-restoration/12-1984-05-terminal`.
+Assembly evidence: `private/pdf-restoration/12-1984-05-terminal-assemble`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-{24–28}`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: commit the validated table adapter, then separate full terminal156–180 assembly. Then workshop181 after fresh extent proof. Full
-156–180 assembly follows its named native ending commit;whole May closeout later.
+Next: native29 restores 기초공작실 beginning181 after fresh full extent and boundary
+proof. May closeout follows all remaining articles and classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
 The following March checkpoint record preserves the completed work and its provenance.
