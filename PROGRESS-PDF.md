@@ -10225,3 +10225,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Ledger42 identities:20 articles (19 readable/one partial), three groups and
   19 unresolved. Whole May incomplete. Separate full database141–147 assembly
   follows named native checkpoint; accounting148 needs fresh extent verification.
+
+### 2026-10-07 — Full May database141–147 assembly
+
+- Native checkpointc4d90b2 precedes separate full assembly from immutable native
+  batches20/21. Verified141–147 extent ends with147 RETURN before accounting148.
+  JSON/assets only; no new mapping/render/OCR or pipeline change.
+- Readable/sample-reviewed full package:87 regions,63 blocks,eleven images,
+  133 unnumbered physical command/example/comment rows in eight listing groups,
+  76 native regional spans,64 source block ranges and73 global text reviews.
+  Twelve native prose boundaries retained;141word/142-star joins without a
+  separator and with no intervening objects. No separately printed captions.
+- Literal source errors and Unicode command/placeholder readings retained.
+  Native20 final italicd/a glyph and clipped heading-edge uncertainty remain;
+  full title confirmed in original panel. Sample asterisk border alignment,
+  comment prefixes/blank-star placement remain provisional; bitmaps authoritative.
+  Full proofreading, technical claims, original machine bytes and execution
+  remain unverified. No semantic or executable code repair.
+- All333 original package files remain byte-identical. Exact full assembly
+  rebuild, UTF-8/source/listing ranges pass. All173 prior native/29 assembly pins
+  unchanged; passing unchanged100-test baseline reused. No frontend/browser work.
+- Export: `build/pdf-restoration/12-1984-05-database`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-database-assemble`.
+  Manifest:570a36e3817901c821467e12e8c718169680e44cf7dd60b381aa104479d460d9.
+  Ledger42 identities:20 articles,all readable/sample-reviewed; three groups
+  and19 unresolved. Eleven May assemblies preserve25 immutable native segments.
+  Whole May remains incomplete. Next bounded batch22:accounting148 after fresh
+  extent verification; current148 lookup proves only its opening.

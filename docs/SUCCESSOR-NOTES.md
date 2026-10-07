@@ -7,20 +7,18 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–21 and ten assemblies are complete:** twenty articles are
-sample-reviewed: nineteen readable and one partial. All 42 canonical TOC
-identities remain; three non-owning groups are classified and 19 identities await
-classification/restoration. VisiCalc134–138 is assembled. All database141–147
-native pages are now restored; its separate full assembly remains. Ten assemblies
-preserve 23 immutable native segments.
+**May batches 01–21 and eleven assemblies are complete:** twenty articles are
+readable and sample-reviewed. All 42 canonical TOC identities remain; three
+non-owning groups are classified and 19 identities await classification/
+restoration. VisiCalc134–138 and database141–147 are fully assembled. Eleven
+assemblies preserve 25 immutable native segments.
 
 Batch21 restores database142–147: 77 regions, 57 blocks, ten original images,
 67 regional text spans, 61 text review ranges and 124 unnumbered physical example/
 comment rows across seven listing groups. Four flowcharts, three cartoons, a photo
 and both command table panels remain as images alongside searchable text. Ten
 native prose boundaries are joined in eight groups, including 사용/되는 without
-a space. The
-141word/142-star continuation is reserved for the separate full assembly.
+a space. The 141word/142-star continuation is joined in the separate full assembly.
 
 Literal source errors remain: coomands, EMDIF, DO WHICE, incomplete IF Item＝,
 Invocies, noublank, let,s, a missing quote, filename punctuation and the doubled
@@ -43,13 +41,24 @@ native and 29 assembly pins remain unchanged; ten May assemblies revalidate.
 The passing unchanged 100-test baseline is reused. No pipeline, HTML, frontend
 or browser work. Whole May remains incomplete; unprocessed content is not missing.
 
+Full database141–147 assembly follows native checkpointc4d90b2: 87 regions,
+63 blocks, eleven images, 133 unnumbered physical rows in eight listing groups,
+76 native regional spans, 64 source block ranges and 73 global text reviews.
+Twelve native prose boundaries remain; 141word/142-star joins without a separator
+or intervening objects. The provisional italic final glyph, clipped native20
+heading edge and sample border alignment remain explicit. All333 original files
+are byte-identical; exact assembly rebuild and global source indexes pass. All173
+prior native/29 assembly pins are unchanged; the passing100-test baseline is
+reused. No new mapping/render/OCR or pipeline change.
+
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01–21}`.
 Latest ending: `build/pdf-restoration/12-1984-05-batch-21/database`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-21`.
-Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc}`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: separate full database141–147 assembly after the named native checkpoint;
-then accounting148 after fresh extent verification. Whole May closeout later.
+Latest full export: `build/pdf-restoration/12-1984-05-database`.
+Assembly evidence: `private/pdf-restoration/12-1984-05-database-assemble`.
+Next: accounting148 after fresh extent verification. Whole May closeout later.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
