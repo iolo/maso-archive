@@ -10499,3 +10499,24 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and issue closeout remain incomplete; workshop181 follows fresh extent proof.
 - Export:`build/pdf-restoration/12-1984-05-batch-28/terminal`.
   Evidence/validation:`private/pdf-restoration/12-1984-05-batch-28`.
+
+### 2026-10-08 — May terminal table-interruption adapter
+
+- After native ending17c02f2, actual full-article projection exposed two prose
+  joins interrupted by searchable tables using generic inline_example_index.
+  Historical native packages remain immutable; no correction-schema retrofit.
+- Added opt-in regional-table-listing-v1. Explicit object order, table identity,
+  consecutive rows, exact tab-separated cells/UTF-8 ranges, optional header,
+  blank cells, scan identity and complete table coverage are checked. Existing
+  modes retain their prior behavior; no arbitrary prose inferred as a table.
+- Actual five-segment sample passes:191 regions,118 joined blocks,52 figures,
+  139 regional spans,241 review ranges and543 unnumbered physical rows unchanged.
+  Two prose joins cross eight/three explicit images/table blocks/captions.
+  All table/cell indexes remain in exact original native metadata.
+- All180 native/31 assembly pins and12 prior May assemblies pass. New tests
+  cover preservation, blank cells, altered cells/scans/ranges/row numbers,
+  unindexed body text and opt-in isolation; all103 PDF tests pass.
+- Adapter sample only: zero new mapping/rendering/OCR or full assembly, no HTML,
+  frontend or browser work. Next is separate full156–180 assembly after this
+  tooling commit, then workshop181 after fresh extent proof. May remains active.
+- Evidence: `private/pdf-restoration/12-1984-05-terminal-table-adapter`.

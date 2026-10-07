@@ -1801,6 +1801,85 @@ class PDFAssemblyTests(unittest.TestCase):
             with self.subTest(target=target),self.assertRaisesRegex(ValueError,'Assembly .* differs'):
                 check_export(self.output, preview=True)
 
+    def indexed_table_interrupted_segments(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.interrupted_wrapped_segments()
+        source, correction = segments[1]
+        prose = next(b for b in source['blocks'] if b['id'] == 'prose')
+        table = dict(deepcopy(prose), id='table', text='열\t값\n한글\t\n',
+                     region_ids=['table-region'], correction_evidence=['corrections.json#table-region'])
+        source['blocks'].append(table)
+        source['regions'].append(dict(source['regions'][0], id='table-region', kind='prose'))
+        scan = source['region_assets'][0]['asset']
+        source['region_assets'].append(dict(region_id='table-region', asset=scan))
+        source['verification']['reviewed_region_ids'].append('table-region')
+        correction['records'].append(dict(correction['records'][0], id='table-region'))
+        order = source['content_order']
+        order.insert(order.index(dict(type='block', id='prose')), dict(type='block', id='table'))
+        ranges = block_ranges(source)
+        start = ranges['table'][0] + len('열\t값\n'.encode())
+        correction['inline_example_index'] = [dict(block_id='table', region_id='table-region',
+            scan=scan, download='article.txt', table='1', row_number=1, cells=['한글', ''],
+            utf8_byte_start=start, utf8_byte_end_exclusive=ranges['table'][1],
+            transcription_excerpt='한글\t\n')]
+        for source, c in segments:
+            ranges = block_ranges(source)
+            scans = {r['region_id']: r['asset'] for r in source['region_assets']}
+            c['blocks'] = deepcopy(source['blocks'])
+            c['text_index'], c['regional_text_index'], c['text_review_items'] = [], [], []
+            c['regional_transcription'] = {}
+            for block in source['blocks']:
+                rid = block['region_ids'][0]
+                start, end = ranges[block['id']]
+                row = dict(block_id=block['id'], region_id=rid, scan=scans[rid],
+                           download='article.txt', utf8_byte_start=start, utf8_byte_end_exclusive=end)
+                c['text_index'].append(dict(row, region_ids=block['region_ids'], scans=[scans[rid]]))
+                c['regional_text_index'].append(row)
+                c['text_review_items'].append(dict(row, transcription_excerpt=block['text']))
+                c['regional_transcription'][rid] = block['text']
+        self.recipe['index_mode'] = 'regional-table-listing-v1'
+        self.recipe['prose_joins'][0]['intervening'].append(dict(segment='continuation', type='block', id='table'))
+        return segments
+
+    def test_indexed_table_join_preserves_blank_cells_prose_code_and_native_metadata(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.indexed_table_interrupted_segments()
+        original = deepcopy(segments)
+        p, c = project(self.recipe, segments)
+        self.assertEqual(segments, original)
+        article, listing = text_bytes(p)
+        self.assertEqual(listing, b''.join(text_bytes(s)[1] for s, _ in original))
+        self.assertEqual(next(b['text'] for b in p['blocks'] if b['id'] == 'opening-prose'), '한글 시작과 끝')
+        self.assertEqual(next(b['text'] for b in p['blocks'] if b['id'] == 'continuation-table'), '열\t값\n한글\t\n')
+        self.assertEqual(c['segments'][1]['original_metadata']['inline_example_index'], original[1][1]['inline_example_index'])
+        for row in c['regional_text_index']:
+            self.assertEqual(article[row['utf8_byte_start']:row['utf8_byte_end_exclusive']].decode(), row['transcription_excerpt'])
+
+    def test_indexed_table_join_rejects_tampered_cells_scan_ranges_and_unindexed_text(self):
+        original = self.indexed_table_interrupted_segments()
+        for change in ('cells', 'scan', 'number', 'download', 'range', 'table-id', 'missing', 'prefix', 'trailing'):
+            segments = deepcopy(original)
+            source, c = segments[1]
+            row = c['inline_example_index'][0]
+            if change == 'cells': row['cells'][0] = '바꾼 값'
+            if change == 'scan': row['scan']['sha256'] = '0'*64
+            if change == 'number': row['row_number'] = 2
+            if change == 'download': row['download'] = 'listing.txt'
+            if change == 'range': row['utf8_byte_start'] += 1
+            if change == 'table-id': row['table'] = ''
+            if change == 'missing': c['inline_example_index'] = []
+            if change == 'prefix': next(b for b in source['blocks'] if b['id'] == 'table')['text'] = '서술문\n열\t값\n한글\t\n'
+            if change == 'trailing': next(b for b in source['blocks'] if b['id'] == 'table')['text'] += '추가 문장'
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+
+    def test_indexed_table_join_requires_new_opt_in_mode(self):
+        segments = self.indexed_table_interrupted_segments()
+        for mode in ('regional-listing-v1', 'interrupted-wrapped-listing-v1'):
+            with self.subTest(mode=mode), self.assertRaisesRegex(ValueError, 'Intervening prose requires'):
+                project(dict(self.recipe, index_mode=mode), segments)
+
+
 
 if __name__ == '__main__':
     unittest.main()

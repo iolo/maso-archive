@@ -23,7 +23,45 @@ def validate_intervening(items):
         seen.add(key)
 
 
-def check_intervening(items, actual, contexts, *, allow_wrapped_listings=False):
+def indexed_table(context, block):
+    """Prove an explicitly indexed tab-separated table without inferring prose."""
+    rows = [r for r in context.correction.get('inline_example_index', [])
+            if r.get('block_id') == block['id'] and 'cells' in r]
+    if not rows:
+        return False
+    start, end = context.ranges[block['id']]
+    table, columns, cursor = rows[0].get('table'), None, None
+    if not isinstance(table, str) or not table:
+        raise ValueError('Tabular interruption requires a source table identity')
+    for number, row in enumerate(rows, 1):
+        cells = row.get('cells')
+        if (not isinstance(cells, list) or len(cells) < 2 or
+                any(not isinstance(c, str) or '\t' in c or '\n' in c or '\r' in c for c in cells) or
+                row.get('table') != table or type(row.get('row_number')) is not int or
+                row['row_number'] != number or row.get('region_id') not in block['region_ids'] or
+                row.get('scan') != context.assets.get(row.get('region_id')) or
+                row.get('download') != 'article.txt'):
+            raise ValueError('Tabular interruption differs from source cells or scan')
+        value = '\t'.join(cells) + '\n'
+        if (span(row, context.article) != value or row.get('transcription_excerpt') != value or
+                not start <= row[START] < row[END] <= end):
+            raise ValueError('Tabular interruption differs from source row bytes')
+        if columns is None:
+            columns = len(cells)
+            prefix = context.article[start:row[START]].decode('utf-8')
+            if prefix and (prefix.count('\n') != 1 or not prefix.endswith('\n') or
+                           len(prefix[:-1].split('\t')) != columns):
+                raise ValueError('Tabular interruption has unindexed body text')
+        elif len(cells) != columns or row[START] != cursor:
+            raise ValueError('Tabular interruption rows are not contiguous')
+        cursor = row[END]
+    if cursor != end:
+        raise ValueError('Tabular interruption has unindexed trailing text')
+    return True
+
+
+def check_intervening(items, actual, contexts, *, allow_wrapped_listings=False,
+                      allow_indexed_tables=False):
     expected = [dict(type=r['type'], id=r['segment']+'-'+r['id']) for r in items]
     if expected != actual:
         raise ValueError('Intervening content differs from reviewed order')
@@ -61,6 +99,8 @@ def check_intervening(items, actual, contexts, *, allow_wrapped_listings=False):
                     continue
             raise ValueError('Intervening listing requires declared code and an adjacent reviewed heading')
         table_rows = context.correction.get('controller_table_index', [])
+        if allow_indexed_tables and block['kind'] == 'prose' and indexed_table(context, block):
+            continue
         if (block['kind'] != 'prose' or not any(
                 r.get('region_id') in block['region_ids'] for r in table_rows)):
             raise ValueError('Intervening prose requires a source-linked table index')

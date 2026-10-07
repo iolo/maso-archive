@@ -89,13 +89,24 @@ pins unchanged,100-test baseline reused. Five immutable segments now cover all
 156–180; separate full assembly remains. Source bytes/execution and full
 proofreading unverified. Evidence:`private/pdf-restoration/12-1984-05-batch-28`.
 
+Terminal table adapter is validated separately before full assembly. New opt-in
+`regional-table-listing-v1` permits explicitly indexed tab-separated table blocks
+between continued prose. Exact row bytes, source scan identities, consecutive
+row numbering, blank cells and complete table coverage are checked; prior modes
+remain unchanged. The actual five-segment sample preserves191 regions,118 final
+blocks,52 images,139 regional spans,241 review ranges and543 physical rows.
+Two joins cross exactly11 reviewed objects. Original table indexes remain in
+native metadata. All180 native/31 assembly pins and12 prior May assemblies pass;
+103 PDF tests pass. No full assembly or new extraction in this tooling checkpoint.
+Evidence: `private/pdf-restoration/12-1984-05-terminal-table-adapter`.
+
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01–28}`.
 Latest full export: `build/pdf-restoration/12-1984-05-accounting`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-accounting-assemble`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-{22,23}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: separate full terminal156–180 assembly after the named native ending commit. Then workshop181 after fresh extent proof. May closeout
+Next: commit the validated table adapter, then separate full terminal156–180 assembly. Then workshop181 after fresh extent proof. May closeout
 follows all remaining articles and classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 

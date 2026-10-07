@@ -115,8 +115,9 @@ May 1984 began on October 7. Twenty-one articles are readable and sample-reviewe
 the terminal article is partial, with pages156–180 restored in five segments of verified156–180.
 Accounting148–154 is assembled; twelve assemblies preserve27 original segments.
 Five non-owning dividers are classified;15 TOC entries await classification/
-restoration. Next is the full terminal article assembly. Source-file preservation, UTF-8 indexes and
-exact rebuild checks pass; the unchanged100-test PDF baseline remains current.
+restoration. The table-interruption adapter passes103 PDF tests and an immutable
+five-segment sample; next is its commit and the full terminal article assembly.
+Source-file preservation, UTF-8 indexes and exact rebuild checks pass.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff
