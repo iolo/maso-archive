@@ -10086,3 +10086,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next bounded native batch19:medical132–133;possible VisiCalc134–137 afterfresh
   extent proof. LIST1 continues410/420 across131/132;no execution orsource-byte
   inference. Separate medical assembly after named native checkpoint.
+
+### 2026-10-07 — May native batch19: medical132–133 andVisiCalc134–137
+
+- Two articles/sixmapped pages132–137,withten upright132–141 lookups reviewed
+  beforemapping (fouroutside-map). Medical128–133 endsbefore VisiCalc134;
+  VisiCalc134–138 endsbefore ads139–140/database141. VisiCalc138 remainsdeferred.
+- Two sample-reviewed partialnative exports:39regions,22blocks,eightfigures,
+  31regionaltext spans,40text reviews,fivecaption spans andnineprose boundaries.
+  Allmedical nativepages available;separatefullassembly remains.
+- Medical has96physicalrows/86numberedlogical entries/tenwraps/fourlistinggroups.
+  LIST1continues410/420 across131/132;LIST3crosses132/133 andskips112 asprinted.
+  LIST2 430missingequals,MENUE.,HD$(0) andlist-specificVTAB differences retained.
+  SixLIST2–4 quotedborder strings readtwentyasterisks via manualvisualreview
+  withink-interval assistance;no automatedglyphcount/executablebyte claim.
+  PriorLIST1 uncertainborder markers unchanged.
+- VisiCalc preserves19unnumbered physicalinstruction rows,caret prefixes,INTER-
+  wrap andfinal<TR overlappingtable3. Sourcecover/sevengame screens retained.
+  Ninecolumn/page prose boundaries preserve모/임,지금/은,합/parenthesis andinput
+  instructions. Circled/boxed/formula Unicode readings explicitly unencoded;
+  literal3열(Column),13열(column),SUM range/prose mismatch androunding claim
+  retained. No algorithm/executable repair;fullproofreading remainsdeferred.
+- All49tasks succeed (39initial/10repair),zerofailures/noOCRretry. Ten distinct
+  crop regions repaired once;all41initial/15repaired panels andeightnativefigure
+  crops reviewed. MissingLIST2 final990baseline recovered. Initialevidence and
+  allrawOCR/settings preserved;noHTML/frontend/browser work.
+- Exactnative rebuilds,UTF-8 andphysical/logical listingprojection checks pass.
+  All168priornative/27assembly pins unchanged;eightMayassemblies revalidated.
+  No toolingchange;passing100-test baseline reused.
+- Exports: `build/pdf-restoration/12-1984-05-batch-19/{medical,visicalc}`.
+  Evidence/metrics/validation: `private/pdf-restoration/12-1984-05-batch-19`.
+  Ledger42identities:19articles (17readable/2partial),3groups/20unresolved.
+  WholeMay incomplete;unprocessed is not missing.
+- Next:fullmedical128–133 assembly after namednativecommit,then VisiCalc138 and
+  possibledatabase141 afterfresh boundedextent proof.
