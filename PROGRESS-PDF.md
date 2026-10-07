@@ -9935,3 +9935,32 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Ledger remains16articles (14readable/2partial),3groups/23unresolved.
   Next after named adapter commit:separate fullLOGO107–114 assembly,then
   basic-technique117–118 native checkpoint within existing batch limits.
+
+### 2026-10-07 — May full LOGO assembly107–114
+
+- Separate full assembly after native batch16 commit790ee67 and caption adapter
+  commit7bd14c4. Complete extent107–114 proven before distinctbasic-technique115;
+  combine preserved native batches15/16. JSON/assets only;no new OCR/HTML.
+- Readable/sample-reviewed:107 regions,80 blocks,fifteen original images,
+  92 regional spans,81 source-block ranges and274 text reviews. Eleven native
+  boundaries plus110컴퓨/111터는 no-separator join validate. No executable
+  listing inferred;142 physical explanatory rows remain under original metadata.
+- Thirteen caption spans globally project valid UTF-8 bounds,caption block/
+  region/scan identities;retain source coordinates/pins. All399 original files
+  byte-identical;exact export rebuild and all source/text indexes pass.
+- Preserve source claims/typos,DOS3,2,PENREVERES,CTR-L-L,BACK:HIGHT,HEIGHT20
+  versus10,FETAL versus PETAL andbibliography candidates. Original photograph,
+  diagrams,tables,physical command wraps and intentional text/image overlaps
+  remain. Full character proofreading,source bytes and execution unverified.
+- All164 prior native/24 assembly pins unchanged. Passing100-test baseline
+  reused after adapter;existing24 assemblies already revalidated. No pipeline
+  changes in fullassembly checkpoint.
+- Export: `build/pdf-restoration/12-1984-05-logo`.
+  Recipe/evidence/validation: `private/pdf-restoration/12-1984-05-logo-assemble`.
+  Manifest6994f47ab7d3c005fd10bd0ee34620eb26de12d1cd8af8ab66aefebb3a9414fa.
+  Ledger42 identities:16articles (15readable/1partial),3groups/23unresolved.
+  Six May assemblies preserve15immutable segments. WholeMay remains incomplete.
+- Next:batch17 basic-technique117–118 after fresh bounded source verification;
+  possible UNIX122 only after extent proof within remaining4pages/2article limit.
+  Separate basic-technique115–118 assembly after named native commit;116실제/
+  117프로그램의 gets one space beyond preserved cartoon.

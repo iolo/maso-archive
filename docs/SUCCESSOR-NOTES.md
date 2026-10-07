@@ -7,49 +7,49 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–16 and five assemblies are complete:** sixteen articles are
-sample-reviewed: fourteen readable and two partials. Readable articles cover
+**May batches 01–16 and six assemblies are complete:** sixteen articles are
+sample-reviewed: fifteen readable and one partial. Readable articles cover
 editorial19, AppleII20–43, AI44–50, SERPENT52–56, 진리표57, 틱-택-토58–59,
 LUNAR60–63, meteor64–65, 도망자66–71, 바이오리듬72–75, 결혼행진곡76–77,
-낚시78–82, 공중전83–85 and Z80 lecture99–106. Five assemblies preserve
-thirteen immutable native segments. Hobby51, education97 and business121 are
-non-owning groups. All42 TOC identities remain;23 await classification/restoration.
-LOGO107–114 is now available in two immutable native packages; full assembly
-remains. Basic-technique115–118 is bounded:115–116 restored,117–118 pending.
-Its ending precedes ads119–120/business divider121/distinct UNIX122.
-Batch16 contains88 regions,67 blocks,twelve original figures and twelve numbered
-BASIC physical rows/logical entries in three independent listing groups.
-Nine native prose boundaries,76 regional ranges,201 text reviews and87 inline
-LOGO command/formula/table rows validate. Physical English wraps and split
-hyphens remain explanatory prose; no invented executable LOGO listing.
-Literal PENREVERES,CTR-L-L,본그림 candidate,duplicate 반그림모드가가,
-HEIGHT20 beside call10,BACK:HIGHT,FETAL versus PETAL and bibliography candidates
-remain explicit. Color legend0–5 and background0–6 preserved. Basic-technique
-table caption 표.,컴머,Y1～23/24 claim and 촛점 retained. Original photographs,
-diagrams,table/program overlaps and cartoon preserved.
-Fourteen distinct regions repaired once each for clipped labels/baselines.
-All102 tasks succeed (88initial/14repair);zero failures/no failed-task retry.
-Initial maps,crops,rawOCR,positions/settings and100 reviewed inspection panels
-remain. Exact rebuild,text/listing indexes and wrapped projection pass.
-All162 prior native and24 assembly pins unchanged;five May assemblies revalidate.
-Pipeline unchanged;passing pinned98-test baseline reused. JSON/assets only.
+낚시78–82, 공중전83–85,Z80 lecture99–106 and LOGO107–114. Six assemblies
+preserve fifteen immutable native segments. Hobby51, education97 and business121
+are non-owning groups. All42 TOC identities remain;23 await classification/restoration.
+Basic-technique115–118 is bounded:115–116 restored,117–118 pending;its ending
+precedes ads119–120,business divider121 and distinct UNIX122.
+LOGO fullassembly combines native batches15/16:107 regions,80 blocks,fifteen
+original images (cover photograph,figures1–13,activation table),92 regional text
+ranges,81 source-block ranges and274 text reviews. All142 explanatory physical
+command/formula/table rows remain source-linked under immutable original metadata;
+no executable LOGO listing or inferred line numbers. Eleven native prose
+boundaries and one110컴퓨/111터는 cross-segment join have exact UTF-8 coverage.
+Thirteen caption spans now project globally,including region/scan identities,
+while original coordinates/pins remain. All399 original files are byte-identical.
+Literal 기능적인/지능적인,DOS3,2,돗수,255claim,RIGHT90,EDIT quote,PENREVERES,
+CTR-L-L,본그림 candidate,duplicate 가,HEIGHT20 beside call10,BACK:HIGHT,FETAL
+versus PETAL and bibliography candidates remain explicit. Table/program image
+overlaps and original physical English wraps/split hyphens preserved.
+Basic-technique partial retains four figures and twelve numbered physical/
+logical BASIC rows in three independent groups;표.,컴머,촛점 and24claim retained.
+Batch16's88 regions/67 blocks/twelve figures,nine prose boundaries,76 regional
+ranges and201 text reviews validate. Fourteen distinct regions repaired once
+each;initial maps,crops,rawOCR,positions/settings and100 inspection panels remain.
+All102 tasks pass (88initial/14repair),zero failures/no failed-task OCR retry.
+Native commit790ee67 preceded caption adapter7bd14c4,then separate LOGO assembly.
+Adapter sample exposed39 stale caption fields;two regression tests now prove
+UTF-8 projection,source immutability and rejection of nine invalid caption cases.
+All100 PDF tests pass. All164 prior native/24 assembly pins unchanged;all24 prior
+assemblies revalidate. Full LOGO exact rebuild/source indexes pass. No new
+mapping,rendering,OCR or HTML in assembly checkpoint. JSON/assets only.
 WholeMay remains incomplete;unprocessed is not missing. Full character
-proofreading,encoded source bytes and code execution remain unverified.
+proofreading,encoded source bytes and command/code execution remain unverified.
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16}`.
-Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine}`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Caption adapter/sample checkpoint is complete after native batch16 commit790ee67.
-The bounded LOGO sample exposed39 stale caption span/region/scan projections.
-Explicit caption fields now require a mapped caption block,matching region/scan,
-valid UTF-8 bounds and exact text;13 caption ranges project globally alongside
-original segment coordinates. Fields absent from historical assemblies keep
-their existing projection. Two regression tests cover joined UTF-8 text,identity/
-pin projection,source immutability and nine invalid caption cases.
-All100 PDF tests pass;164 prior native/24 assembly pins remain byte-identical;
-all24 assemblies revalidate. No full LOGO assembly generated in this checkpoint.
-Next:after adapter checkpoint commit,separate fullLOGO107–114 assembly
-(110컴퓨/111터는,no separator),then basic-technique117–118 within two articles/
-six mapped pages/twenty lookups. WholeMay remains incomplete.
+Next:batch17 basic-technique ending117–118 after fresh bounded source review;
+possible UNIX122 only after extent proof within remaining four pages/two-article
+limit. Separate full115–118 assembly after named native commit. Preserve116실제/
+117프로그램의 with one space beyond retained cartoon. Two articles/six mapped
+pages/twenty lookup pages maximum;wholeMay closeout remains later.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
