@@ -9488,3 +9488,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   38 unresolved entries. Next batch08 verifies/maps SERPENT-α beginning52;
   truth-table57 may follow within the two-article/six-source-page batch bound.
   Whole May remains incomplete.
+
+### 2026-10-07 — May batch08: SERPENT-α52–56 and 진리표57
+
+- Complete SERPENT-α:20 source-reviewed regions,18 blocks,two original images,
+  449 physical BASIC rows/192 numbered entries. Byline/platform/game directions,
+  variables,complete screen photograph and flowchart retained. Source 갖힌,
+  missing variable separator/closing parenthesis and printed key notation retained.
+- All121 unique graphic/control or mixed-symbol markers have physical row,UTF-8
+  range and scan provenance; original byte values/run lengths unknown. Source
+  => comparators,empty/space readings,extra NEXT statements,jumps520/550,English
+  spelling candidates and missing PRINT quotes remain literal/explicitly uncertain.
+  Decorative star/string spacing and full glyph fidelity are not certified.
+- Twelve decimal DATA statements andfour hexadecimal DATA ranges indexed. Physical
+  3120 hex DATA crosses55 columns;3400 music crosses55/56;5190 music crosses56
+  columns. Their logical/source parts preserve all original physical rows.
+  Numeric indexes remove newlines only for indexing,without executable repair.
+- Complete 진리표57:15 regions,12 blocks,three original table/formula images,
+  32 physical/numbered BASIC rows andsix indexed explanatory notation/variable rows.
+  Original Boolean bars,duplicate identity number2 and equation/table contents remain
+  authoritative imagery. Unicode Ā is reading notation; small punctuation after
+  code50/70 and source CHR$215 syntax remain unverified source readings.
+- Two distinct55 code bottom edges widened once each to recover final3120 DATA and
+  3400 music rows. All initial/intermediate OCR and images preserved.37 executed
+  tasks (35 initial/two repairs),zero failures/no OCR retry. Task elapsed 110.4478s,
+  render/crop 48.8302s,OCR 58.1327s;mapping 147.5151s,review 991.6950s include tool/context waits
+  and are not active labor. Exact stage tokens unavailable.
+- Native/raw provenance,text/review/physical/logical/DATA/marker ranges and wrapped
+  projection pass; all192/32 source numbered sequences verified. Both independent
+  rebuilds are byte-identical;147 prior native/21 assembly hashes,previous-issue/input
+  pins and92-test baseline remain valid. Private authoring QA restricted example
+  labels to actual notation rows and split three cross-block review annotations at
+  block boundaries. Prior exports retained; article/listing/OCR bytes unchanged.
+  Pipeline unchanged;no HTML,browser or frontend work.
+- Exports: `build/pdf-restoration/12-1984-05-batch-08/{serpent,truth}`. Final recipes,
+  scans,corrections,attempts,timings and validation:
+  `private/pdf-restoration/12-1984-05-batch-08/{serpent,truth}/revised/final`.
+  Ledger retains42 identities:five readable/sample-reviewed articles,one group,
+  36 unresolved entries. Next batch09 verifies tic-tac-toe58–59/LUNAR60–63 extents
+  before restoring them within the two-article/six-source-page batch bound.
+  Whole May remains incomplete.

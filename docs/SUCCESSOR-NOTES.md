@@ -7,28 +7,31 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches01–07 are complete:** editorial19 and Apple-II feature20–43 are
-readable/sample-reviewed. The complete feature assembly retains five immutable
-native segments:24 pages,217 regions,140 blocks,49 images and243 physical code
-rows. AI44–50 is assembled as readable/sample-reviewed from two immutable
-native segments:seven pages,76 regions,58 blocks,six images,four code rows,
-42 inline example rows and75 review ranges. The49/50 sentence joins with
-one space; all303 original files remain unchanged. Independent rebuild matches
-exactly; all147 prior native/20 assembly pins pass. The final50 checkpoint adds15 regions,14 blocks and15 review
-ranges, with no code/images. Seven clipped edges widened once each; initial
-attempts remain unchanged. Native export, all source/text indexes and an independent
-byte-identical rebuild pass. All146 prior native/20 assembly manifests and the
-92-test tooling baseline remain valid; the pipeline did not change.
+**May batches01–08 are complete:** five articles are readable/sample-reviewed:
+editorial19,Apple-II20–43,AI44–50,SERPENT-α52–56 and 진리표57.
+The Apple-II and AI assemblies retain all seven immutable source segments;
+independent rebuilds and source/index preservation checks pass.
+Batch08 adds35 regions,30 blocks,five original images and481 physical BASIC
+rows/224 numbered entries across two complete articles. SERPENT retains121
+scan-linked graphic/control markers with unknown bytes/run lengths,12 decimal
+DATA indexes andfour hex DATA ranges. Its3120/3400/5190 physical continuations
+remain explicit across columns/pages. Truth-table and Boolean equation images
+remain authoritative; source duplicate numbering and punctuation not repaired.
+Two distinct code bottom edges widened once each; initial/intermediate attempts
+retained. Both independent native rebuilds are byte-identical. All147 prior native/
+21 assembly manifests and92-test baseline remain valid; pipeline unchanged.
 Hobby divider51 is a non-owning group with ten existing child identities.
-All42 May TOC identities remain intact:three readable/sample-reviewed articles,
-one group and38 entries awaiting classification/restoration.
-Unprocessed entries are not missing outcomes. Whole May remains incomplete.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07}`.
-Feature assembly: `build/pdf-restoration/12-1984-05-feature`.
+All42 May identities remain intact:five readable/sample-reviewed articles,
+one group and36 entries awaiting classification/restoration. Unprocessed entries
+are not missing outcomes. Whole May remains incomplete.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08}`.
+Feature assemblies: `build/pdf-restoration/12-1984-05-feature` and
+`build/pdf-restoration/12-1984-05-ai`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-AI assembly: `build/pdf-restoration/12-1984-05-ai`.
-Next: verify/map SERPENT-α beginning52 in batch08.
-Full character proofreading, historical claims and executable code remain unverified.
+Next batch09 verifies/maps tic-tac-toe beginning58 and LUNAR beginning60,
+within two articles/six source pages. Full extents still require boundary inspection.
+Full character proofreading,historical claims,source encoding and code execution
+remain unverified.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
