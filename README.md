@@ -111,11 +111,11 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7; eleven articles are readable and sample-reviewed,
-including 결혼행진곡 (76–77). 낚시 (78–80) is restored as a partial article;
-its final photograph and program (81–82) remain. Three assemblies preserve all
-nine original segments. The hobby divider (51) is classified, and 29 TOC entries
-await classification/restoration. Next: finish 낚시, then verify 공중전 (83).
+May 1984 began on October 7; twelve articles are readable and sample-reviewed,
+including 공중전 (83–85). All 낚시 pages (78–82) are restored in two native
+segments; full article assembly is next. Three assemblies preserve nine original
+segments. The hobby divider (51) is classified, and 28 TOC entries await
+classification/restoration. After assembly: verify 기계어 강좌 beginning99.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff

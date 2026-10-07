@@ -7,41 +7,39 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–12 and three assemblies are complete:** twelve articles are
-sample-reviewed: eleven readable and one partial. Readable articles cover the
+**May batches 01–13 and three assemblies are complete:** thirteen articles are
+sample-reviewed: twelve readable and one partial. Readable articles cover the
 editorial (19), Apple II (20–43), AI (44–50), SERPENT-α (52–56), 진리표 (57),
 틱-택-토 (58–59), LUNAR (60–63), 유성을 격추시켜라 (64–65), 도망자 (66–71),
-바이오리듬 (72–75) and 결혼행진곡 (76–77). 낚시 explanation and flowcharts
-(78–80) are restored; its final photograph and program (81–82) remain for batch13.
-The three assemblies preserve all nine immutable native segments.
-Batch12 maps five pages across two articles: 21 regions, 17 blocks, four original
-images and 65 physical wedding BASIC rows / 43 numbered entries. Wedding includes
-32 text reviews, 28 variable/guide rows, 43 listing reviews, two twelve-value
-decimal DATA rows and two music DATA groups with 30/36 literal tokens. Fishing
-includes 38 text reviews, 30 variable/routine rows and complete screen, main and
-subroutine flowcharts. Its listing panels alternate 81 left → 82 right → 81 right
-→ 82 left; both pages stay together for source-order mapping in the next batch.
-Wedding guide76r10 was widened once; the initial crop, OCR and reading candidates
-are preserved. All 22 executed tasks succeeded (21 initial / one repair), with no
-OCR retry. Faint page77 code candidates remain explicit: QURE/CURE, small glyphs,
-case/operators, the line210 dot/address, 330 Y=2, repeated273 in line400 and bare
-&hex music tokens. Printed X:Y coordinates, fishing's 0,5 and 1 주황색(2) remain
-literal. Source algorithms and code execution have not been certified.
-Native exports rebuild byte-identically. All 155 prior native and 22 assembly
-manifest pins pass; all three May assemblies were revalidated. DATA keyword
-validation accepts lowercase/mixed case while preserving exact source bytes and
-checking literal numeric values. All 96 PDF tests pass.
-All 42 May identities remain intact: eleven readable articles, one partial
-article, one non-owning hobby group and 29 entries awaiting classification and
+바이오리듬 (72–75), 결혼행진곡 (76–77) and 공중전 (83–85). All 낚시 pages
+(78–82) are available in two immutable native segments; full article assembly
+remains. The three completed assemblies preserve nine native segments.
+Batch13 maps five pages across two articles: 23 regions, 19 blocks, four original
+images and 434 physical BASIC rows / 294 numbered entries. Fishing has 231 rows /
+180 entries in source panel order 81 left → 82 right → 81 right → 82 left. Its
+line125 numeric-start wrap is a continuation, not a new line1. Literal O=2,
+OG=3, BOUNUS, the line890 apostrophe and physical numeric/string wraps remain.
+Aircombat has 203 rows / 114 entries, 38 text reviews and 32 explanatory rows.
+Its 24 graphic/control markers retain scan pins with unknown original bytes and
+counts. Nine DEFCHR$ statements retain twelve literal tokens each; line990's
+&H8C target, line170's loop and the printed SIN formula remain unrepaired.
+Two fishing code-column crops were widened once each; initial crops and OCR are
+preserved. All 25 executed tasks succeeded (23 initial / two repairs), with no
+OCR retry. Native packages rebuild byte-identically; all 157 prior native and
+22 assembly manifest pins pass. The three May assemblies were revalidated.
+Pipeline unchanged; the pinned passing 96-test PDF baseline is reused.
+All 42 May identities remain intact: twelve readable articles, one partial
+article, one non-owning hobby group and 28 entries awaiting classification and
 restoration. Whole May remains incomplete; unprocessed entries are not missing
 outcomes.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12}`.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next batch13 completes 낚시 (81–82) and verifies 공중전 beginning83 within two
-articles / six mapped pages / twenty lookup pages. Full fishing78–82 assembly
-follows. Full character proofreading, source glyphs/encoding, code execution,
-historical claims and manual bitmap correction remain unverified.
+Next: assemble complete 낚시 (78–82) from the two pinned native packages without
+new OCR or a prose join. Batch14 then verifies the education group and 기계어
+강좌 beginning99 within two articles / six mapped pages / twenty lookup pages.
+Full character proofreading, source glyphs/encoding, code execution, historical
+claims and manual bitmap correction remain unverified.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.

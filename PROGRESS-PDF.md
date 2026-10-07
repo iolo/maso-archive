@@ -9706,3 +9706,41 @@ history remains in [PROGRESS.md](PROGRESS.md).
   one partial,one non-owning hobby group and29 unresolved entries. Next batch13
   finishes fishing81–82 andverifies aircombat83; full fishing78–82 assembly follows.
   WholeMay remains incomplete; no missing-source outcome inferred forunprocessed entries.
+
+### 2026-10-07 — May batch13: 낚시 ending81–82 and 공중전83–85
+
+- Verified printed/PDF81–86 boundaries: fishing ends1710 GOTO1580 on82;
+  aircombat ends2020 NEXTJ…RETURN on85 before a distinct advertisement86.
+  Five mapped pages, two articles and one boundary lookup remain within limits.
+- Fishing ending: six regions, five blocks, one original photograph, 231 physical
+  BASIC rows and 180 numbered entries. Source panel order is81 left10–165 →
+  82 right170–460 →81 right465–880 →82 left885–1710. Both original page geometries
+  remain pinned in PDF order; region/content order follows printed program labels.
+  One source console prompt ]LIST is separately indexed as prose.
+- Numeric-start line125 wrap1 OR is explicitly a continuation, not an invented
+  program line1. Literal O=2, OG=3, BOUNUS, line890 GOSUB apostrophe, split GOSUB55/
+  0,500, TC→T/C, GOTO9/30, GOTO86/0 and source strings remain. Small glyphs, quoted
+  blanks and asterisk counts are candidates; guide/program discrepancies are not
+  repaired. All 180 numbered entries have source-linked listing review ranges.
+- Complete aircombat: 17 regions, 14 blocks, three original artwork/flowchart
+  images, 203 physical BASIC rows, 114 numbered entries, 38 text reviews and 32
+  explanatory guide/variable rows. Full artwork overlaps separately searchable
+  title/platform/provider intentionally; original images remain unaltered.
+- Twenty-four unique graphic/control markers retain scans and byte ranges with
+  unknown original encoded bytes/counts. Nine DEFCHR$ definitions910–990 retain
+  twelve literal tokens each and original physical CHR/$ and &/H wraps. Line990
+  target&H8C remains literal. Line170's loop, printed SIN formula, EXRION/prepare
+  comments and music strings remain source forms. GOSU/B762 on360 is one logical
+  entry; no artificial3762 label. No algorithm or execution certification.
+- Two fishing82 code-column right edges were widened once each to recover
+  clipped final characters. Initial crops/OCR retained. All25 executed tasks
+  succeeded (23 initial / two repairs), zero failures and no OCR retry.
+- Native rebuilds match byte-for-byte; text, listing and scan indexes validate.
+  All157 prior native /22 assembly pins pass; the three May assemblies were
+  revalidated read-only. Pipeline unchanged; pinned96-test passing baseline reused.
+- Exports: `build/pdf-restoration/12-1984-05-batch-13/{fishing,aircombat}`.
+  Evidence/final recipes: `private/pdf-restoration/12-1984-05-batch-13`.
+  Ledger: thirteen sample-reviewed articles (twelve readable /one partial),
+  one non-owning hobby group and28 unresolved entries, retaining all42 identities.
+  Fishing78–82 is available in two immutable segments; fullassembly is the next
+  separate checkpoint. Whole May remains incomplete. Full proofreading deferred.
