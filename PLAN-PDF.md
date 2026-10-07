@@ -32,7 +32,7 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–27 and twelve assemblies are complete:** twenty-two articles
+**May batches 01–28 and twelve assemblies are complete:** twenty-two articles
 are sample-reviewed:twenty-one readable andone partial terminal article. All42
 canonical TOC identities remain;five non-owninggroups are classified and15
 identities await classification/restoration.
@@ -127,13 +127,23 @@ pins unchanged,100-test baseline reused. Four immutable terminal natives cover
 source encoding and execution remain unverified.
 Evidence: `private/pdf-restoration/12-1984-05-batch-27`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–27}`.
+Terminal native28 ending180 is complete:3 regions,2 blocks,1 listing image,
+2 regional spans,3 text review ranges,50 unnumbered physical rows and1 source
+caption. All5 text panels and original image reviewed;3 tasks, zero failures,
+no crop repairs or OCR retries. END RECEIVE and printed caption period retained.
+Prior179/180 listing continues on a fresh physical row; no row join required.
+Exact rebuild and all UTF-8/row/caption indexes pass;179 prior native/31 assembly
+pins unchanged,100-test baseline reused. Five immutable segments now cover all
+156–180; separate full assembly remains. Source bytes/execution and full
+proofreading unverified. Evidence:`private/pdf-restoration/12-1984-05-batch-28`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–28}`.
 Latest full export: `build/pdf-restoration/12-1984-05-accounting`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-accounting-assemble`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-{22,23}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: terminal180 after fresh continuation/boundary review. Full
+Next: separate full terminal156–180 assembly after the named native ending commit. Then workshop181 after fresh extent proof. Full
 156–180 assembly follows its named native ending commit;whole May closeout later.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 

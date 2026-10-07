@@ -7,8 +7,8 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–27 and twelve assemblies are complete:** twenty-two articles
-are sample-reviewed:21 readable and one partial terminal article156–179 of
+**May batches 01–28 and twelve assemblies are complete:** twenty-two articles
+are sample-reviewed:21 readable and one partial terminal article156–180 in segments of
 verified156–180. All42 canonical TOC identities remain;five non-owning groups
 are classified and15 identities await classification/restoration.
 Accounting148–154 is fully assembled. Twelve assemblies preserve27 immutable
@@ -79,13 +79,23 @@ pins unchanged,100-test baseline reused. Four immutable terminal natives cover
 source encoding and execution remain unverified.
 Evidence: `private/pdf-restoration/12-1984-05-batch-27`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–27}`.
+Terminal native28 ending180 is complete:3 regions,2 blocks,1 listing image,
+2 regional spans,3 text review ranges,50 unnumbered physical rows and1 source
+caption. All5 text panels and original image reviewed;3 tasks, zero failures,
+no crop repairs or OCR retries. END RECEIVE and printed caption period retained.
+Prior179/180 listing continues on a fresh physical row; no row join required.
+Exact rebuild and all UTF-8/row/caption indexes pass;179 prior native/31 assembly
+pins unchanged,100-test baseline reused. Five immutable segments now cover all
+156–180; separate full assembly remains. Source bytes/execution and full
+proofreading unverified. Evidence:`private/pdf-restoration/12-1984-05-batch-28`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–28}`.
 Latest full export: `build/pdf-restoration/12-1984-05-accounting`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-accounting-assemble`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-{22,23}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: terminal180 after fresh continuation/boundary review. May closeout
+Next: separate full terminal156–180 assembly after the named native ending commit. Then workshop181 after fresh extent proof. May closeout
 follows all remaining articles and classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 

@@ -10472,3 +10472,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Whole May and its issue closeout remain incomplete; unprocessed is not missing.
 - Export: `build/pdf-restoration/12-1984-05-batch-27/terminal`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-batch-27`.
+
+### 2026-10-08 — May native batch28: terminal180 ending
+
+- Continued after named native27 checkpoint058553f. Four fresh upright156 and
+  179–181 scans verify full156–180 extent and next workshop181 before mapping.
+  One mapped page and three outside-map lookups remain within the limits.
+- Retained3 regions,2 ordered blocks,1 original listing panel,2 regional text
+  spans,3 text review ranges and1 caption span. Fifty unnumbered physical rows
+  end with END RECEIVE; printed 리스트14 caption period retained. Listing14
+  remains partial within this native because its opening178–179 is in native27.
+  No split physical row at179/180; no BASIC numbers or DATA inferred.
+- All5 text panels and original image reviewed. Three executions, zero failures,
+  no crop repairs or OCR retries. A generated finalizer initially had a syntax
+  error before execution; the script was corrected, with no OCR/pipeline change.
+  Original scans/OCR/positions/settings remain pinned. Dollar/quote/0/O/1/I and
+  encoded-byte/execution uncertainty explicit; full proofreading deferred.
+- Native export, exact UTF-8 ranges, wrapped index projection, original bytes and
+  identical rebuild pass. All179 prior native and31 assembly manifests remain;
+  12 May assemblies revalidated. Passing unchanged100-test baseline reused.
+  Canonical42 identities remain:22 sample-reviewed articles,21 readable/1 partial,
+  5 non-owning groups and15 unresolved identities. No HTML/frontend/browser work.
+- Five immutable natives24–28 now contain every page156–180. Next is separate
+  full terminal assembly after this named ending commit, resolving scope gaps,
+  two crosssegment prose boundaries and shared listing14 membership. Whole May
+  and issue closeout remain incomplete; workshop181 follows fresh extent proof.
+- Export:`build/pdf-restoration/12-1984-05-batch-28/terminal`.
+  Evidence/validation:`private/pdf-restoration/12-1984-05-batch-28`.
