@@ -10146,3 +10146,31 @@ history remains in [PROGRESS.md](PROGRESS.md).
   NineMayassemblies preserve21immutable native segments. WholeMay incomplete.
 - Nextboundednative batch20:VisiCalc ending138;possibledatabase141–145 afterfresh
   extentproof. SeparateVisiCalc fullassembly after namednativecheckpoint.
+
+### 2026-10-07 — May native batch20: VisiCalc138 anddatabase141
+
+- Thirteen upright138–150 scans inspected before mapping;VisiCalc ends138
+  before ads139–140/database141. Database141–147 ends withRETURN before
+  distinctaccounting148. Two articles/two mapped pages,11 outside-map lookups.
+  Database142–147 kept together for the next six-page batch.
+- Native partial exports:16 regions,11 blocks,three images,13 regional text
+  spans,17 text reviews,nine unnumbered physical code rows,two native prose
+  boundaries andtwo captions. VisiCalc gameplay ending/table6/table7 retained.
+  Database titlepanel metadata intentionally overlap;eight quoted commands
+  keepSTRUC-/TURE wrap,Unicode angled placeholders andfinalquote direction.
+- Retain Test, CMD comma andprovisionalitalicword finalglyph;142-star
+  continuation remains explicit. 순서를/보면 joinswithspace;발/휘 withoutspace.
+  No crosssegment word join137/138 needed. Inner screen values remain source
+  bitmaps;encoded bytes,technical correctness andexecution unverified.
+- Three heading regions repaired once;initial evidence retained. r02 still
+  clipsleftmost데 after repair;fulltitle confirmed inoriginalpanelr01.
+  All15 initial panels,three revisedcrops andthree originalfigures reviewed.
+  All19 executed tasks (16initial/3repair) pass;zero failures/noOCRretry.
+- Exact native rebuilds,UTF-8 ranges andlisting projection pass. All170 prior
+  native/28assembly pins unchanged;nineMay assemblies revalidate. Unchanged
+  passing100-test baseline reused. No pipeline/HTML/frontend/browser work.
+- Exports: `build/pdf-restoration/12-1984-05-batch-20/{visicalc,database}`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-20`.
+  Ledger42 identities:20 articles (18readable/2partial),3groups/19unresolved.
+  AllVisiCalc134–138 natives ready;separate assembly after namednativecommit.
+  Nextdatabase142–147 afterfresh verification;wholeMay remains incomplete.

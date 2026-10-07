@@ -111,12 +111,13 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7; nineteen articles are sample-reviewed: eighteen
-readable andone partial. Medical128–133 is now assembled. VisiCalc134–137 is
-restored,with138pending. Nine assemblies preserve twenty-one original segments.
-Three non-owning dividers are classified;20 TOC entries await classification/
-restoration. Byte-preservation andexact rebuild checks pass;the unchanged100-test
-PDF tooling baseline remains current.
+May 1984 began on October 7; twenty articles are sample-reviewed: eighteen
+readable and two partial. VisiCalc134–138 native restoration is complete;
+its full assembly follows the native checkpoint. Database141 is restored;
+142–147 remain. Nine assemblies preserve21 original segments. Three non-owning
+dividers are classified;19 TOC entries await classification/restoration.
+Byte-preservation andexact rebuild checks pass;the unchanged100-test PDF
+baseline remains current.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff

@@ -7,59 +7,44 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–19 and nine assemblies are complete:** nineteen articles are
-sample-reviewed: eighteen readable andone partial. Readable articles cover
-editorial19,AppleII20–43,AI44–50,SERPENT52–56,진리표57,틱-택-토58–59,
-LUNAR60–63,meteor64–65,도망자66–71,바이오리듬72–75,결혼행진곡76–77,
-낚시78–82,공중전83–85,Z80lecture99–106,LOGO107–114,BASIC115–118,UNIX122–127 andmedical128–133.
-Nine assemblies preserve twenty-one immutable native segments. Hobby51,
-education97 andbusiness121 are non-owning groups. All42 TOC identities remain;
-20 await classification/restoration. Medical128–133 is assembled andreadable.
-VisiCalc134–137 restored ofverified134–138;
-ending138 andfullassembly remain. VisiCalc endsbefore ads139–140/database141.
-Batch19 restores39regions,22blocks,eight original figures,31regional text spans,
-40text review ranges,115physical code rows andfive caption spans. Medical has
-96physical rows/86numbered logical entries/ten wraps acrossfour independent
-listings;LIST1 ends420–990 after prior131line410. LIST3 crosses132/133 andsource
-skips112. VisiCalc retains19unnumbered instruction rows,sourcecaret prefixes,
-INTER- wrap andfinal<TR,overlapping originaltable3. Nine native prose boundaries
-acrossthree merged blocks preserve column/page continuations andintervening
-screens/captions/instruction rows. Circledsymbols,boxed cursors,comparison signs
-andthree-dot ranges are reading representations withunverified encoded bytes.
-Literal LIST2 430missingequals,MENUE.,HD$(0),3열(Column),13열(column),SUM range/
-prose discrepancy,strictcomparison prose androunding claim retained. Six LIST2–4
-border strings readtwenty asterisks aftermanual review withink-interval assistance;
-priorLIST1 unresolvedborder markers remain unchanged.
-Six mapped pages132–137 andfour outside-map lookup pages meet limits. All49
-tasks pass (39initial/10repair),zero failures/noOCRretry. Ten distinctregions
-repaired once each;all41initial/15repaired inspection panels,eight nativefigure
-crops,initialmaps/rawOCR/positions/settings preserved. Exactnative rebuilds,
-UTF-8 andphysical/logical listing projections pass. All168priornative/27assembly
-pins unchanged;eightMayassemblies revalidate. Pipelineunchanged;passing100-test
-baseline reused. JSON/assets only;noHTML,frontend orbrowser work.
-UNIXfull122–127 assembly005ae28 remains readable:61regions,39blocks,11figures,
-55physical code rows/sixgroups,ninecaption spans andall229originalfiles unchanged.
-Its crosssegment wordjoin includesallfour source interruptions;previous omitted
-cartoon/internalspace annotations preserved besideactual order/source reading.
-Fullmedical assembly after nativecheckpoint404f5d0 passes:72regions,50blocks,
-22figures,117physical rows/105numbered logical entries/12wraps/fourlistings,
-50sourceblock spans,58text reviews and11globally projected caption spans.
-LIST1 retains onegroup across131/132 with410/420 continuation;LIST3 samegroup
-across132/133 withskipped112. Allfour source listings start0 andend990;
-this doesnot certifyexecutability. Two priorLIST1 unresolvedborder markers and
-allsource typos retained. All240originalfiles byte-identical;exactassembly
-rebuild passes. All170priornative/27assembly pins unchanged;passing100-test
-baseline reused. No newmapping/render/OCR orpipelinechange.
-WholeMay remains incomplete;unprocessed is not missing. Full character
-proofreading,encoded source bytes andcommand/code execution remain unverified.
-Nativeexports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19}`.
+**May batches 01–20 and nine assemblies are complete:** twenty articles are
+sample-reviewed: eighteen readable and two partial. All 42 canonical TOC
+identities remain; three non-owning groups are classified and 19 identities await
+classification/restoration. Medical128–133 is assembled. All VisiCalc134–138
+native pages are restored; a separate full assembly follows this native commit.
+Database141 is restored of the verified141–147 extent;142–147 remain together
+for the next six-page batch. Nine assemblies preserve21 immutable segments.
+
+Batch20 restores16 regions,11 blocks,three original images,13 regional text
+spans,17 text review ranges,nine unnumbered physical command rows,two native
+prose boundaries andtwo caption spans. VisiCalc138 retains its gameplay ending,
+表6/7 screens and14/17TRIES values. Database141 retains its title panel,byline,
+serial heading andeight commands,including the STRUC-/TURE physical wrap.
+Prose joins retain순서를/보면 withspace and발/휘 withoutspace;the command
+sequence remains in source order. Literal Test, CMD comma,final opening-facing
+quote andUnicode angled placeholders are preserved;source encoding/execution
+are unverified. Finalitalic word carries to142-star;the finald/a glyph remains
+provisional. The r02 heading crop remains clipped at its left edge after one
+allowed repair;the full title is confirmed against original panelr01.
+
+Two mapped pages138/141 and11 outside-map lookup pages satisfy limits.
+All13 upright138–150 lookup scans were inspected before mapping. VisiCalc ends
+before ads139–140/database141;database147 ends before accounting148.
+All19 tasks pass (16initial/3repair),zero failures/noOCRretry. Three distinct
+heading regions repaired once each;15 initial panels,three revised crops and
+three native figures reviewed. Initial maps/rawOCR/positions/settings are kept.
+Exact native rebuilds,UTF-8 andlisting projections pass. All170 prior native
+and28 assembly pins remain unchanged;nineMay assemblies revalidate. The
+unchanged passing100-test baseline is reused. JSON/assets only;noHTML,
+frontend orbrowser work. Full proofreading andoriginal machinebytes remain
+unverified;wholeMay is incomplete. Unprocessed content is not missing.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–20}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next:VisiCalc138 andpossible database141–145 afterfresh boundedextent proof.
+Next: separate fullVisiCalc134–138 assembly after the named native checkpoint,
+then database142–147 after fresh bounded verification. WholeMay closeout later.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
-SeparateVisiCalc fullassembly after namednativecheckpoint;137/138 section
-boundary hasno splitword. Database ending/assembly subsequently asneeded.
-WholeMay closeout later.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
