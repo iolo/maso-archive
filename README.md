@@ -111,11 +111,12 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7; fifteen articles are sample-reviewed: fourteen
-readable and LOGO107–110 partial. The full Z80 lecture99–106 is assembled;
-five assemblies preserve thirteen original segments. Two non-owning dividers are
-classified;25 TOC entries await classification/restoration. The bounded listing
-interruption adapter passes98PDF tests. Next: LOGO ending111–114,then fullassembly.
+May 1984 began on October 7; sixteen articles are sample-reviewed: fourteen
+readable and two partials. LOGO native107–114 is restored and awaits assembly;
+basic-technique115–116 is restored,with117–118 pending. Five assemblies preserve
+thirteen original segments. Three non-owning dividers are classified;23 TOC
+entries await classification/restoration. Next:caption-span adapter validation,
+full LOGO assembly,then basic-technique ending.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff

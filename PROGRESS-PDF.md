@@ -9881,3 +9881,35 @@ history remains in [PROGRESS.md](PROGRESS.md).
   fullLOGOassembly.110컴퓨/111터는 joinswithoutseparator. Asecond115article only
   afterextentproof withinremainingtwo mappedpages. WholeMay remains incomplete;
   fullcharacter proofreading,source encoding andcode execution stay deferred.
+
+### 2026-10-07 — May batch16: LOGO ending111–114 and basic-technique115–116
+
+- Verified LOGO107–114 and basic-technique115–118 extents against distinct next
+  headings115/122. Two articles/six mapped pages;12 upright lookups111–122
+  reviewed before mapping. Ads119–120 excluded;business121 classified as third
+  non-owning group with five independently paginated children.
+- Two native partials:88 regions,67 blocks,twelve original images;twelve BASIC
+  numbered physical/logical rows in three independent groups. Nine prose
+  boundaries,76 regional ranges,201 text reviews and87 inline LOGO command,
+  formula/table rows validate. Physical command wraps/hyphens remain literal.
+- Preserve PENREVERES,CTR-L-L,본그림 candidate,duplicate 가,HEIGHT20 versus10,
+  BACK:HIGHT,FETAL versus PETAL and bibliography candidates. Color0–5 legend
+  beside background0–6 unchanged. Basic-technique 표.,컴머,촛점 and24claim retained.
+  Figures/program/table text overlaps intentional;source scans authoritative.
+- Fourteen distinct regions repaired once each for clipped labels/baselines;
+  initial maps,crops,rawOCR,positions/settings preserved. All102 tasks pass
+  (88initial/14repair),zero failures/no failed-task OCR retry.100 inspected panels.
+- Exact rebuild,all text/listing spans and wrapped projection pass. All162
+  prior native/24 assembly pins unchanged;five May assemblies revalidate.
+  Pipeline unchanged;passing pinned98-test baseline reused. JSON/assets only.
+- Exports: `build/pdf-restoration/12-1984-05-batch-16/{logo,basictech}`.
+  Recipes: `private/pdf-restoration/12-1984-05-batch-16/{logo,basictech}/final-2`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-16`.
+  Ledger42 identities:16articles (14readable/2partial),3groups/23unresolved.
+  LOGO native107–114 available;fullassembly remains. Basic-technique117–118/
+  fullassembly remain. WholeMay incomplete;full character proofreading deferred.
+- Next after named native commit:bounded caption adapter/sample checkpoint.
+  Existing assembler does not project custom figure-caption byte spans/region
+  IDs/scan pins. No prior assembly has those custom fields;preserve old outputs.
+  Then separate fullLOGO107–114 assembly with110컴퓨/111터는 no-separator join,
+  followed by basic-technique117–118 (116실제/117프로그램의 with space,cartoon retained).
