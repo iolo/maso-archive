@@ -32,21 +32,27 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches01–05 are complete:** editorial19 is readable/sample-reviewed;
+**May batches01–06 are complete:** editorial19 is readable/sample-reviewed;
 the full Apple-II feature20–43 is assembled as readable/sample-reviewed from
 five immutable native segments. Batch05 adds four pages, 17 regions, 15 ordered blocks, one original
 table image, 208 physical BASIC rows/202 logical entries and one prose join.
 Text/listing indexes, raw/scan preservation and identical rebuild pass. All 42
-canonical TOC identities remain intact; two articles are readable and 40 entries
+canonical TOC identities remain intact; two articles are readable, AI is partial
+and39 entries
 await classification/restoration. Unprocessed entries are not missing outcomes.
-Native exports are under `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05}`;
+Native exports are under `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06}`;
 ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`. Full feature extent
 20–43 is source-verified and assembled at `build/pdf-restoration/12-1984-05-feature`:
 24 pages, 217 regions, 140 blocks, 49 image panels and243 physical code rows.
 The33/34 sentence join retains all intervening figures/captions; all765 original
 files remain unchanged and an independent assembly rebuild matches exactly.
-The opt-in interrupted wrapped-listing mode passes all92 PDF tests. Next batch06
-begins AI feature44–49 and establishes its full extent through bounded lookups.
+The opt-in interrupted wrapped-listing mode passes all92 PDF tests. Batch06
+restores AI feature44–49:61 regions,45 blocks,six original images,four physical
+LISP code rows,42 inline example rows and60 review ranges. Full extent44–50 is
+source-verified;51 is the hobby divider and52 starts SERPENT-α. Three crops were
+widened once each; all source anomalies/physical code wraps remain explicit.
+Exact rebuild and145 prior native/20 assembly manifest pins pass. Next batch07
+restores final50, assembles44–50 and classifies divider51 before the next article.
 Whole May incomplete.
 The following March checkpoint record preserves the completed work and its provenance.
 March batches 01–44 and nineteen article assemblies are complete: the editorial on

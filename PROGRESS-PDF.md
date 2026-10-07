@@ -9396,3 +9396,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Private recipe, projection checks, exact rebuild and validation are under
   `private/pdf-restoration/12-1984-05-feature-assemble`. Next batch06 starts
   AI feature44–49 within the six-page ceiling and verifies the full extent.
+
+
+### 2026-10-07 — May batch06: AI feature opening44–49
+
+- Restored canonical0002 인공지능의 세계 opening within six source pages/one
+  article,with50/51/52 as three boundary lookups. Full article extent44–50 is
+  source-verified:50 closes AI,51 is a hobby divider,and52 begins SERPENT-α.
+  No AI body was inferred on51; no whole-issue or missing-source outcome claimed.
+- All61 mapped regions reviewed:55 text regions become45 ordered reading blocks
+  through ten prose/example boundaries. Six original images retain opening art,
+  two illustrations,two list-tree diagrams and the piecewise factorial formula.
+  Source formula labelNi remains imagery; no invented N! or diagram captions.
+- LISP/PROLOG explanations retain42 indexed physical example rows,60 byte-indexed
+  review ranges and two small-punctuation uncertainties. Standalone factorial
+  code retains four unnumbered physical rows,including FA-/CTORIAL and printed
+  parentheses. SECOND's FRA-/NK and PROLOG DATA Ko-/rea) wraps stay literal.
+  Source (ZCDE)),DEFUN. dot,. DATA prefix,solusition,쉽지 않지 않다는,
+  이미 해석 and컴퓨터의. 이용 remain explicit. Execution/encoding unverified.
+- Three distinct regions widened once each:46r17 suspected leading numeral,
+  48r36 clipped Korean opening characters,and49r56 clipped English/GOALS edge.
+  Expanded46 confirms no numeral before년간; no1 inserted. Initial/intermediate
+  evidence remains preserved;58 unchanged regions reuse exact images/raw text/
+  positions. Final mapping metadata corrects outgoing49별도의 /50과를 설립하여
+  to a one-space continuation without new OCR. No failed OCR or OCR retry.
+- Executed64 tasks (61 initial/three repairs),zero failures. Task elapsed101.1558s,
+  render/crop58.4965s,OCR37.8435s;mapping220.1159s,review828.5364s includes
+  native comparison,repair/metadata processing and context/tool waits. Exact
+  stage tokens/backend measurements unavailable; these are not active labor times.
+- JSON/assets export and independent rebuild are byte-identical. All regional/raw
+  provenance,text/review/example ranges,prose joins and wrapped-listing projection
+  pass. All145 prior native/20 assembly manifest pins,previous-issue/input pins
+  and92-test baseline are preserved. A private validation retry skipped nonexistent
+  OCR text for image-only regions;no restored content or ledger changed by it.
+  Pipeline unchanged;no HTML/browser/frontend work.
+- Export: `build/pdf-restoration/12-1984-05-batch-06/ai`. Final native recipe is
+  `private/pdf-restoration/12-1984-05-batch-06/ai/revised/final/metadata-final`;
+  corrections,repairs,raw attempts,timings and validation remain alongside.
+  Ledger retains all42 identities:three classified/sample-reviewed articles,
+  two readable andone partial;39 entries await classification/restoration.
+  Next batch07 restores final50,assembles44–50 and classifies divider51,then
+  starts SERPENT52 after verifying its extent. Whole May remains incomplete.

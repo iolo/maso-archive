@@ -7,22 +7,29 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-May 1984 batches01–05 are complete. Editorial19 is readable/sample-reviewed;
+May 1984 batches01–06 are complete. Editorial19 is readable/sample-reviewed;
 Apple-II feature20–43 is assembled as readable/sample-reviewed from five
 immutable native segments. Batch05 adds 17 regions, 15 blocks, one original table image,
 208 physical BASIC rows/202 logical entries and one prose join.
 Source/raw preservation, text/listing indexes and identical rebuild pass.
-All 42 May identities remain intact; two articles are readable and 40 entries
+AI feature44–49 is partial/sample-reviewed:61 regions,45 blocks,six original
+images,four unnumbered factorial rows,42 indexed inline examples and60 review
+ranges. Ten reading boundaries preserve prose/code wraps. Full AI extent44–50
+is source-verified. Three crops widened once each; source years/claims,extra
+parentheses,spellings and FRA-/NK/Ko-/rea) wraps remain literal.
+All 42 May identities remain intact; two articles are readable,one partial and39 entries
 await classification/restoration. Exports are under
-`build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05}`.
+`build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
 Complete feature: `build/pdf-restoration/12-1984-05-feature` (24 pages,217 regions,
 140 blocks,49 image panels,243 physical code rows). The33/34 sentence join retains
 six intervening figure/caption items. All765 original files and145 prior native/
 19 prior assembly manifest pins pass; the independent rebuild is byte-identical.
 The opt-in interrupted wrapped-listing mode passes all92 PDF tests.
-Next: batch06 restores AI opening44–49 and verifies its full extent with bounded
-lookups. Article assembly closeout is saved under the matching private directory.
+AI native recipe: `private/pdf-restoration/12-1984-05-batch-06/ai/revised/final/metadata-final`.
+Its exact rebuild and145 prior native/20 assembly pins pass;92-test baseline reused.
+Next: batch07 restores AI final50,assembles44–50 and classifies hobby divider51.
+SERPENT-α starts52;its full extent has not yet been inspected. Whole May incomplete.
 Historical code/source anomalies remain explicit. Whole issue incomplete.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.

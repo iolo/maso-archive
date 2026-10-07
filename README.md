@@ -112,7 +112,8 @@ artifacts are excluded from Git. No public deployment was performed.
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
 May 1984 began on October 7; the editorial and complete Apple-II feature20–43
-are restored and verified. The next batch begins the AI feature on44. See the
+are restored and verified. AI feature44–49 is restored; final50 and assembly
+are next. See the
 [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff
