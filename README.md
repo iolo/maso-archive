@@ -111,11 +111,11 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7; eight articles through the meteor game64–65 are
-restored and verified. 도망자66–69 is restored as a partial article; its final
-implementation70–71 remains. The hobby divider51 is classified, and32 TOC entries
-await classification/restoration. Next: finish 도망자 and begin 바이오리듬72. See the
-[current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
+May 1984 began on October 7; nine articles are readable and sample-reviewed.
+All 도망자66–71 pages are restored in two native segments; full assembly is next.
+바이오리듬72–75 is complete. The hobby divider51 is classified, and31 TOC entries
+await classification/restoration. After assembly, batch12 starts 결혼행진곡76.
+See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff
 

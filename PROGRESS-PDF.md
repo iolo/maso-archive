@@ -9603,3 +9603,35 @@ history remains in [PROGRESS.md](PROGRESS.md).
   partial),one group,32 unresolved. Next batch11 finishesfugitive70–71 andverifies
   biorhythm72 extent before mapping within remainingfour source pages; then full
   fugitive66–71 assembly preserves both native segments. Whole May remains incomplete.
+
+
+### 2026-10-07 — May batch11: 도망자 ending70–71 and 바이오리듬72–75
+
+- Verified local printed/PDF70–76 boundaries. Final FC-100/SPC-1000 implementation
+  ends2160 END on71; 바이오리듬 ends1450 END on75 before 결혼행진곡76.
+  Two articles/six mapped pages; only76 remains a boundary lookup outside mapping.
+- 도망자 ending: three regions/blocks,117 physical/numbered rows,38 listing review
+  ranges andtwo heading reviews. Source Z2,INKEY$,lowercase x,many missing PRINT
+  quotes,1470 absent separator before G,2040/2130 counter increments and2140 comma
+  remain literal. Both native segments now cover66–71; full assembly remains.
+- 바이오리듬:13 regions,11 blocks,one complete original collage,178 physical/
+  numbered rows,22 text reviews including13 variable rows,51 listing review
+  ranges,two twelve-value DATA rows andone SPACE prose join at 알/수. Literal
+  기민성,고를 판이면,N$()/N(25)/W$,BIORHYTHIM,650 absent quote,740 raised caret
+  candidate and1040 GOTO1040 retained. Historical cycle/accident/dating claims
+  remain printed source claims without independent certification.
+- Enlarged pinned inspection panels resolve733/735 and903/905 source labels;
+  initial apparent duplicate readings corrected. Raw OCR,geometry,positions,
+  settings,scans,initial transcripts andmap metadata retained. A map annotation
+  candidate was rejected because OCR pins the whole map; original map restored
+  unchanged andreview corrections carry the resolved reading. No new OCR needed.
+- All16 region tasks succeeded once,zero failures/crop repairs/retries. Native
+  packages rebuild byte-identically; all ranges,source row sequences,DATA and
+  wrapped-index projections pass. All153 prior native/21 assembly pins pass;
+  unchanged pipeline reuses92-test baseline. JSON/assets only,no HTML work.
+- Exports: `build/pdf-restoration/12-1984-05-batch-11/{fugitive,biorhythm}`.
+  Final recipes/transcripts: `private/pdf-restoration/12-1984-05-batch-11/{fugitive,biorhythm}/final`.
+  Ledger retains42 identities: ten sample-reviewed articles,nine readable/one
+  assembly-pending partial,one non-owning group and31 unresolved entries.
+  Next: full 도망자66–71 assembly,then 결혼행진곡76 boundary verification.
+  Whole May incomplete; full character proofreading/encoding/execution deferred.

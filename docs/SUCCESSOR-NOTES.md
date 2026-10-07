@@ -7,37 +7,31 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches01–10 are complete:** nine articles are sample-reviewed. Eight are
-readable: editorial19, Apple-II20–43, AI44–50, SERPENT-α52–56, 진리표57,
-틱-택-토58–59, LUNAR60–63 and 유성을 격추시켜라64–65. 도망자66–69 is
-partial within its verified full extent66–71; the final implementation70–71
-exists and is deferred to the next batch. The Apple-II and AI assemblies retain
-all seven immutable source segments.
-Batch10 adds23 regions,20 blocks,two original images and393 physical BASIC
-rows/343 numbered entries. Meteor has102 rows/99 entries,11 indexed routine
-reference rows and11 unique scan-linked unknown graphic/mark fields. 도망자
-has112 general rows/entries and179 Apple rows/132 entries,one no-separator
-볼/트 prose join andseven unlabelled numeric string continuations. Apple1820
-spans69 columns; physical listing rows remain unchanged. Both implementations
-are complete within this partial article. Source missingquotes,jump980,ring
-symbols andgraphic bytes remain literal or explicitly uncertain.
-Two distinct meteor crop boundaries widened once each; initial/intermediate
-artifacts retained. All25 executed tasks succeeded (23 initial/two repairs),
-no OCR retry. Independent native rebuilds are byte-identical. All151 prior native/
-21 assembly manifest pins and92-test baseline remain valid; pipeline unchanged.
-Hobby divider51 is a non-owning group with ten existing child identities.
-All42 May identities remain intact: eight readable/one partial sample-reviewed
-articles,one group and32 entries awaiting classification/restoration. Unprocessed
-entries are not missing outcomes. Whole May remains incomplete.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10}`.
-Feature assemblies: `build/pdf-restoration/12-1984-05-feature` and
-`build/pdf-restoration/12-1984-05-ai`.
+**May batches 01–11 are complete:** ten articles are sample-reviewed, nine readable
+and one pending assembly. Editorial19, Apple-II20–43, AI44–50, SERPENT-α52–56,
+진리표57, 틱-택-토58–59, LUNAR60–63, 유성을 격추시켜라64–65 and
+바이오리듬72–75 are readable. All 도망자66–71 pages are now restored in two
+partial native segments; assembling them is the next checkpoint. The Apple-II
+and AI assemblies retain their seven immutable segments.
+Batch11 adds16 regions,14 blocks,one original illustration and295 numbered
+physical BASIC rows:117 FC-100/SPC-1000 rows for 도망자70–71 and178 바이오리듬
+rows72–75. Biorhythm retains13 searchable variable rows,two twelve-value DATA
+statements andone SPACE prose join at 알/수. Native enlargement resolves labels
+733/735 and903/905; the initial apparent duplicates are recorded as corrected
+reading candidates. Literal Z2,INKEY$,lowercase x,missing PRINT quotes,BIORHYTHIM,
+740 raised caret candidate and1040 GOTO1040 remain source forms or uncertainties.
+All16 tasks succeeded once without crop repair or OCR retry. Raw OCR,positions,
+settings,scans andinitial reading candidates remain intact. Native rebuilds are
+byte-identical;153 prior native and21 assembly manifest pins pass. The92-test
+baseline is unchanged; no pipeline change. Full proofreading,source encoding,
+code execution and historical claims remain unverified.
+All42 May identities remain intact: ten sample-reviewed articles,nine readable/
+one partial,one non-owning hobby group and31 entries awaiting classification/
+restoration. Unprocessed entries are not missing outcomes. Whole May incomplete.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11}`.
+Assemblies: `build/pdf-restoration/12-1984-05-feature` and `build/pdf-restoration/12-1984-05-ai`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next batch11 finishes 도망자70–71 (FC-100/SPC-1000) and verifies/maps 바이오리듬
-beginning72 within two articles/six source pages. Full 도망자66–71 assembly follows
-with both native segments preserved. Biorhythm extent still requires inspection.
-Full character proofreading,historical claims,source encoding and code execution
-remain unverified.
+Next: assemble full 도망자66–71, then verify 결혼행진곡 beginning76 for batch12.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
