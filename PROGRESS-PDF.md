@@ -9964,3 +9964,35 @@ history remains in [PROGRESS.md](PROGRESS.md).
   possible UNIX122 only after extent proof within remaining4pages/2article limit.
   Separate basic-technique115–118 assembly after named native commit;116실제/
   117프로그램의 gets one space beyond preserved cartoon.
+
+### 2026-10-07 — May native batch17: BASIC117–118 and UNIX122–125
+
+- Two articles/six mapped pages,with16 upright boundary lookups117–132 reviewed
+  before mapping;ten outside mapped set. BASIC115–118 extent verified before
+  ads119–120,business121 and UNIX122;UNIX122–127 before medical128. Medical
+  128–132 inspected only;full extent not yet proven.
+- Two sample-reviewed partial native exports:70 regions,52 blocks,nine figures,
+  61 regional text spans,64 text reviews,seven caption spans andnine prose
+  boundaries. All BASIC115–118 native pages now available;separate assembly
+  remains. UNIX126–127 andfull assembly remain.
+- BASIC retains91 physical rows/64 numbered logical entries acrossnine independent
+  listings;27 source wraps preserve split GOSUB target digits andYdigits. UNIX
+  retains20 unnumbered shell rows,annotated procedure image/code overlap,nine
+  original cartoons/diagrams andshared upper/lower pipe comparison caption.
+- Literal 아디디어,PROGAMER,31-L,숫적으로,shell-variable numeric restriction,
+  gar/arc/tab/ext andecho punctuation retained. Possible shell accent andwildcard
+  glyph,full proofreading,source machinebytes andexecution remain unverified.
+- All95 tasks succeed (70initial/25repair),zero failures/no OCR retry. Each25
+  distinct repaired regions changed once;all30 repaired inspection panels and72
+  initial panels reviewed. Missing125 opening lines and124 final prose line
+  recovered. All initial evidence/rawOCR/positions/settings remains.
+- Exact native rebuilds,UTF-8 andphysical/logical listing indexes pass. All164
+  previous native/25 assembly pins unchanged;six May assemblies revalidated.
+  No tooling change;passing100-test baseline reused. JSON/assets only;noHTML.
+- Exports: `build/pdf-restoration/12-1984-05-batch-17/{basictech,unix}`.
+  Evidence/metrics/validation: `private/pdf-restoration/12-1984-05-batch-17`.
+  Ledger42 identities:17articles (15readable/2partial),3groups/22unresolved.
+  WholeMay incomplete;unprocessed is not missing.
+- Next:fullbasic-technique115–118 assembly after named native commit;116실제/
+  117프로그램의 usesonespace beyond preserved cartoon. Then UNIX126–127 with
+  possiblemedical128 onlyafter fresh extent proof within bounded batch limits.

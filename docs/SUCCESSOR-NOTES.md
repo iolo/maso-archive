@@ -7,49 +7,46 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–16 and six assemblies are complete:** sixteen articles are
-sample-reviewed: fifteen readable and one partial. Readable articles cover
+**May batches 01–17 and six assemblies are complete:** seventeen articles are
+sample-reviewed: fifteen readable and two partial. Readable articles cover
 editorial19, AppleII20–43, AI44–50, SERPENT52–56, 진리표57, 틱-택-토58–59,
 LUNAR60–63, meteor64–65, 도망자66–71, 바이오리듬72–75, 결혼행진곡76–77,
 낚시78–82, 공중전83–85,Z80 lecture99–106 and LOGO107–114. Six assemblies
 preserve fifteen immutable native segments. Hobby51, education97 and business121
-are non-owning groups. All42 TOC identities remain;23 await classification/restoration.
-Basic-technique115–118 is bounded:115–116 restored,117–118 pending;its ending
-precedes ads119–120,business divider121 and distinct UNIX122.
-LOGO fullassembly combines native batches15/16:107 regions,80 blocks,fifteen
-original images (cover photograph,figures1–13,activation table),92 regional text
-ranges,81 source-block ranges and274 text reviews. All142 explanatory physical
-command/formula/table rows remain source-linked under immutable original metadata;
-no executable LOGO listing or inferred line numbers. Eleven native prose
-boundaries and one110컴퓨/111터는 cross-segment join have exact UTF-8 coverage.
-Thirteen caption spans now project globally,including region/scan identities,
-while original coordinates/pins remain. All399 original files are byte-identical.
-Literal 기능적인/지능적인,DOS3,2,돗수,255claim,RIGHT90,EDIT quote,PENREVERES,
-CTR-L-L,본그림 candidate,duplicate 가,HEIGHT20 beside call10,BACK:HIGHT,FETAL
-versus PETAL and bibliography candidates remain explicit. Table/program image
-overlaps and original physical English wraps/split hyphens preserved.
-Basic-technique partial retains four figures and twelve numbered physical/
-logical BASIC rows in three independent groups;표.,컴머,촛점 and24claim retained.
-Batch16's88 regions/67 blocks/twelve figures,nine prose boundaries,76 regional
-ranges and201 text reviews validate. Fourteen distinct regions repaired once
-each;initial maps,crops,rawOCR,positions/settings and100 inspection panels remain.
-All102 tasks pass (88initial/14repair),zero failures/no failed-task OCR retry.
-Native commit790ee67 preceded caption adapter7bd14c4,then separate LOGO assembly.
-Adapter sample exposed39 stale caption fields;two regression tests now prove
-UTF-8 projection,source immutability and rejection of nine invalid caption cases.
-All100 PDF tests pass. All164 prior native/24 assembly pins unchanged;all24 prior
-assemblies revalidate. Full LOGO exact rebuild/source indexes pass. No new
-mapping,rendering,OCR or HTML in assembly checkpoint. JSON/assets only.
+are non-owning groups. All42 TOC identities remain;22 await classification/restoration.
+All basic-technique115–118 native pages are restored; separate full assembly
+remains. UNIX122–125 is restored of verified122–127;126–127 and assembly remain.
+Basic ending118 precedes ads119–120,business121 and distinct UNIX122. UNIX ends
+127 before medical128; medical128–132 inspected only, full extent not yet proven.
+Batch17 restores70 regions,52 blocks,nine original UNIX figures,61 regional
+text spans and111 physical code rows. BASIC has64 numbered entries in nine
+independent groups,with27 printed continuation rows; UNIX has20 unnumbered
+shell rows in one group. All source wraps remain;no executable joining/repair.
+Nine native prose boundaries,64 text reviews,111 listing reviews andseven
+caption spans validate. Annotated shell procedure/code overlap and shared
+upper/lower pipe-comparison caption remain source-linked. Literal 아디디어,
+PROGAMER,31-L,숫적으로,shell-variable restriction and gar/echo punctuation
+retained; possible shell accent and wildcard glyph remain explicit uncertainty.
+Six mapped pages117–118,122–125 andten outside-map lookup pages meet limits.
+All95 tasks pass (70initial/25repair),zero failures/no OCR retry. Twenty-five
+distinct regions repaired once each; initial maps,crops,rawOCR,positions/settings
+and102 inspection panels preserved. Repaired125 crops recover omitted opening
+lines;124 ending fourth line also recovered. Exact native rebuilds and source/
+UTF-8/wrapped-listing indexes pass. All164 prior native/25 assembly pins unchanged;
+six May assemblies revalidate. Pipeline unchanged;passing100-test baseline reused.
+LOGO full107–114 remains readable:107 regions,80 blocks,fifteen images,
+142 physical explanatory rows and13 globally projected caption spans. Caption
+adapter7bd14c4 and native batch16 commit790ee67 preceded assemblyd92a288.
 WholeMay remains incomplete;unprocessed is not missing. Full character
 proofreading,encoded source bytes and command/code execution remain unverified.
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16}`.
+JSON/assets only;no HTML,frontend or browser work.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next:batch17 basic-technique ending117–118 after fresh bounded source review;
-possible UNIX122 only after extent proof within remaining four pages/two-article
-limit. Separate full115–118 assembly after named native commit. Preserve116실제/
-117프로그램의 with one space beyond retained cartoon. Two articles/six mapped
-pages/twenty lookup pages maximum;wholeMay closeout remains later.
+Next:separate full basic-technique115–118 assembly after named native commit.
+Preserve116실제/117프로그램의 with one space beyond retained cartoon. Then
+UNIX126–127;possible medical128 only after fresh extent proof within two-article/
+six mapped-page/twenty outside-map lookup-page limit. WholeMay closeout later.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
 Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
