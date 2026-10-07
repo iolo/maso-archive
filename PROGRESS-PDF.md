@@ -9744,3 +9744,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
   one non-owning hobby group and28 unresolved entries, retaining all42 identities.
   Fishing78–82 is available in two immutable segments; fullassembly is the next
   separate checkpoint. Whole May remains incomplete. Full proofreading deferred.
+
+### 2026-10-07 — May full 낚시78–82 assembly
+
+- Assembled two immutable native packages covering explanation/screen/flowcharts
+  78–80 and final photograph/program81–82. Complete extent ends1710 GOTO1580 before
+  distinct 공중전83. No new OCR, prose join or code boundary join.
+- Full article: five pages, 16 regions, 12 blocks, four original images, 231
+  physical BASIC rows /180 numbered entries, 39 text-review ranges, 180 listing
+  reviews, one complete listing group and three scan-only uncertainty notes.
+  Native metadata retains all31 explanatory/console examples and the explicit
+  line125 numeric-start continuation. Source program panel order remains
+  81 left →82 right →81 right →82 left with original page geometries.
+- All69 original package files copied unchanged. Combined listing equals the
+  native ending download byte-for-byte; source text, scans and projected indexes
+  validate. Independent full rebuild is byte-identical. All159 prior native /
+  22 assembly manifest pins pass. Pipeline unchanged; pinned passing96-test PDF
+  baseline reused. Four scope-only pending notes resolved.
+- Literal source O=2, OG=3, 0,5, 1 주황색(2), BOUNUS, line890 apostrophe, numeric/
+  string wraps and guide/program discrepancies remain. Small glyphs, quoted blank/
+  asterisk counts, original encoding, algorithms and execution stay unverified.
+- Output: `build/pdf-restoration/12-1984-05-fishing`.
+  Recipe/evidence: `private/pdf-restoration/12-1984-05-fishing-assemble`.
+  Ledger retains42 identities: thirteen readable/sample-reviewed articles,
+  zero active partials, one non-owning hobby group and28 unresolved entries.
+  Four assemblies preserve all eleven native segments. Next batch14 verifies
+  education-group ownership and 기계어 강좌 beginning99 within existing limits.
+  Whole May remains incomplete; full character proofreading remains deferred.
