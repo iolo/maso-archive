@@ -7,8 +7,8 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–25 and twelve assemblies are complete:** twenty-two articles
-are sample-reviewed:21 readable and one partial terminal article156–167 of
+**May batches 01–26 and twelve assemblies are complete:** twenty-two articles
+are sample-reviewed:21 readable and one partial terminal article156–173 of
 verified156–180. All42 canonical TOC identities remain;five non-owning groups
 are classified and15 identities await classification/restoration.
 Accounting148–154 is fully assembled. Twelve assemblies preserve27 immutable
@@ -52,13 +52,23 @@ native/31 assembly pins remain; unchanged100-test baseline reused. Literal sourc
 errors and uncertain glyphs remain explicit; full proofreading deferred. Both
 terminal natives are immutable and await remaining168–180 and full assembly.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–25}`.
+Terminal native26 middle168–173 is complete:59 regions,40 blocks,17 images,
+45 table rows/100 cells,132 unnumbered assembly rows and16 caption spans.
+Two prose boundaries preserve 루틴에서/에러가. All52 initial/nine revised text
+panels,17 original images and three revised images reviewed. Ten distinct crops
+repaired once;69 tasks, zero failures/retries. Exact rebuild and all indexes pass;
+177 prior native/31 assembly pins unchanged,100-test baseline reused. Duplicate
+figure14/16 numbering and literal errors retained; source bytes/execution and full
+proofreading unverified. Three immutable terminal natives cover156–173;174–180
+and separate assembly remain.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–26}`.
 Latest full export: `build/pdf-restoration/12-1984-05-accounting`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-accounting-assemble`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-{22,23}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: terminal168–173 after fresh continuation/boundary review. Whole May closeout
+Next: terminal174–179 after fresh continuation/boundary review, then180. May closeout
 follows all remaining articles and classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 

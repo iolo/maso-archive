@@ -32,7 +32,7 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–25 and twelve assemblies are complete:** twenty-two articles
+**May batches 01–26 and twelve assemblies are complete:** twenty-two articles
 are sample-reviewed:twenty-one readable andone partial terminal article. All42
 canonical TOC identities remain;five non-owninggroups are classified and15
 identities await classification/restoration.
@@ -96,13 +96,27 @@ and31 assembly pins unchanged. Passing unchanged100-test baseline reused. Both
 terminal natives remain immutable; remaining168–180 and full assembly required.
 Evidence: `private/pdf-restoration/12-1984-05-batch-25`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–25}`.
+Terminal middle168–173 (native26) retains59 regions,40 blocks,17 original images,
+42 regional spans,67 text review ranges,16 source captions and two figure notes.
+Six tables preserve45 data rows/100 cells; six independent assembly groups retain
+132 unnumbered physical rows19/28/13/38/21/13. Two prose boundaries retain
+루틴에서 and 에러가. Three address/formula examples are indexed. All52 initial/
+nine revised text panels,17 original images and three revised images reviewed.
+Ten distinct regions repaired once;69 tasks59 initial/ten repair, zero failures
+or retries. Duplicate printed figure14/16 numbers, acept and GS-MIGHT header
+retained; small glyphs/source bytes/execution unverified. Full proofreading deferred.
+Exact rebuild and all text/cell/row/caption/listing indexes pass;177 prior native/
+31 assembly pins unchanged. Unchanged100-test baseline reused. Terminal156–173
+is available in three immutable natives;174–180 and separate assembly remain.
+Evidence: `private/pdf-restoration/12-1984-05-batch-26`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–26}`.
 Latest full export: `build/pdf-restoration/12-1984-05-accounting`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-accounting-assemble`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-{22,23}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: terminal middle168–173 after fresh continuation/boundary review. Full
+Next: terminal174–179 after fresh continuation/boundary review, then180. Full
 156–180 assembly follows its named native ending commit;whole May closeout later.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 

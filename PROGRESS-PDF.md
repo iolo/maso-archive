@@ -10391,3 +10391,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   targets168–173 after fresh continuation/boundary review.
 - Export:`build/pdf-restoration/12-1984-05-batch-25/terminal`.
   Evidence/validation:`private/pdf-restoration/12-1984-05-batch-25`.
+
+### 2026-10-08 — May native batch26: terminal168–173 middle
+
+- Fresh12 whole upright156,167–174,179–181 scans reviewed before mapping:one
+  article/six mapped pages/six outside-map lookups. Verified full156–180 extent,
+  incoming167/168 이/부분에 and internal172/173 에러/가. Paragraph173 closes;
+  new174 prose paragraph requires no crosssegment word join.
+- Package:59 regions,40 blocks,17 original images,42 regional spans,67 text
+  review ranges,16 captions and two figure source notes. Six tables preserve45
+  data rows/100 cells, including blanks and merged group labels. Three native
+  address/formula examples indexed. Two native prose boundaries retain 루틴에서
+  and 에러가; source Re-/ceiver and Counter/Ti followed by -mer wraps retained.
+- Six independent unnumbered assembly listings preserve132 physical rows
+  19/28/13/38/21/13, zero numbered logical entries and no BASIC DATA. Purely
+  vertical blank space before END omitted; printed semicolon rows retained.
+  INIT before ORG,08H/4800BAUD, GS-MIGHT missingY, table10 acept and duplicate
+  printed figure14/16 captions preserved. Dollars/quotes/0/O/1/I/8/6 and source
+  encoded bytes remain provisional; no technical repair or execution claim.
+- Ten distinct regions repaired once: listing7 comment, listing9 RET, interface
+  diagram labels/note, table12 text/caption, table13 text/caption, DART diagram
+  rightmost descriptions, listing12 full caption and cable-caption final glyphs.
+  All52 initial/nine revised text panels,17 original images and three revised
+  images reviewed. All69 tasks59 initial/ten repair complete with zero failures/
+  retries. Initial maps/crops/raw OCR and positions/settings/attempts preserved.
+  Tower crop contains incidental neighboring prose fragments to preserve full
+  illustration; prose separately transcribed. Full proofreading deferred.
+- Panel generation initially preceded completed OCR evidence copying; rerun only
+  after completion. No OCR task retried. A private acceptance-script derivation
+  caught inherited narrative wording before writing/running; current ledger note
+  now agrees with available156–173 coverage. Historical native packages unchanged.
+- Exact rebuild, UTF-8 block/regional/table-cell/table-row/caption/source-note/
+  address/listing ranges and wrapped projection pass. All177 prior native/31
+  assembly pins unchanged; twelve May assemblies revalidate. Passing unchanged
+  100-test baseline reused; no pipeline/HTML/frontend/browser work.
+- Ledger remains42 identities:22 sample-reviewed articles,21 readable/one partial,
+  five groups and15 unresolved. Terminal156–173 is available in three immutable
+  natives;174–180 and full assembly remain. Whole May incomplete. Next batch27
+  targets174–179, followed by180 and separate assembly after named ending commit.
+- Export:`build/pdf-restoration/12-1984-05-batch-26/terminal`.
+  Evidence/validation:`private/pdf-restoration/12-1984-05-batch-26`.
