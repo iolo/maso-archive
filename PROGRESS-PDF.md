@@ -9437,3 +9437,31 @@ history remains in [PROGRESS.md](PROGRESS.md).
   two readable andone partial;39 entries await classification/restoration.
   Next batch07 restores final50,assembles44–50 and classifies divider51,then
   starts SERPENT52 after verifying its extent. Whole May remains incomplete.
+
+### 2026-10-07 — May batch07: AI ending50 and hobby divider51
+
+- Restored final AI50 as15 source-reviewed regions,14 ordered blocks and15 indexed
+  review excerpts. No code/figures occur on this page. The natural-language section
+  joins across columns with a paragraph separator. Incoming49/50 continuation is
+  explicitly recorded as `별도의 / 과를 설립하여` with one space for assembly.
+- Six application headings and source conclusion retained. Historical forecasts,
+  names and the education-spending claim stay literal/unverified. Prose wraps normalize
+  Cognitive Science and HEARSAY-Ⅱ; Unicode Roman numeral is reading notation.
+  Source terminal ornament is excluded from searchable prose.
+- Seven distinct clipped right edges widened once each; all initial attempts preserved.
+ 22 executed region tasks (15 initial/seven repairs), zero failures, no OCR retry.
+  Task elapsed 28.7287s, render/crop 13.8010s, OCR 13.4880s; mapping 2.0536s and review 438.4336s
+  include context/tool waits and are not active labor. Exact stage tokens unavailable.
+- Source/raw bytes, regional bindings, review/text ranges and wrapped-index projection
+  pass. Independent rebuild is byte-identical; all146 prior native/20 assembly pins
+  and92-test baseline remain valid. Private finalizer initially expected an empty
+  listing file; corrected the assertion to expect its absence for a prose-only package.
+  No restored content changed. Pipeline unchanged; no HTML/browser/frontend work.
+- Source51 establishes canonical 취미생활 as a non-owning group with ten existing
+  child identities; printed SPRPENT-α spelling recorded without renaming SERPENT-α.
+  Classification evidence pins original divider/next article scans and PDF.
+- Export: `build/pdf-restoration/12-1984-05-batch-07/ai`; reviewed recipe:
+  `private/pdf-restoration/12-1984-05-batch-07/ai/revised`. Ledger retains42 identities:
+  three sample-reviewed articles,two readable/one partial,one group,38 unresolved.
+  Full AI44–50 assembly is next; SERPENT52 extent/map follows in batch08.
+  Whole May remains incomplete.
