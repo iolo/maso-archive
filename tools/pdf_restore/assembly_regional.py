@@ -23,12 +23,12 @@ def validate_intervening(items):
         seen.add(key)
 
 
-def check_intervening(items, actual, contexts):
+def check_intervening(items, actual, contexts, *, allow_wrapped_listings=False):
     expected = [dict(type=r['type'], id=r['segment']+'-'+r['id']) for r in items]
     if expected != actual:
         raise ValueError('Intervening content differs from reviewed order')
     sources = {c.name: c for c in contexts}
-    for row in items:
+    for position, row in enumerate(items):
         context = sources.get(row['segment'])
         if context is None:
             raise ValueError('Unknown intervening segment')
@@ -41,6 +41,25 @@ def check_intervening(items, actual, contexts):
             raise ValueError('Unknown intervening block')
         if block['kind'] == 'caption':
             continue
+        if allow_wrapped_listings and block['kind'] in ('code', 'title'):
+            # Listing projection subsequently checks every group, physical row
+            # and byte range. Here require declared membership and, for a title,
+            # its immediately following listing in both reviewed/source order.
+            code = {b['id'] for b in blocks.values() if b['kind'] == 'code'}
+            declared = {id for group in context.correction.get('listing_groups', [])
+                        for id in group.get('block_ids', []) if id in code}
+            if block['kind'] == 'code' and row['id'] in declared:
+                continue
+            if block['kind'] == 'title':
+                order = context.source['content_order']
+                index = order.index(dict(type='block', id=row['id']))
+                following = order[index + 1:index + 2]
+                reviewed = items[position + 1:position + 2]
+                if (following and following[0]['type'] == 'block' and
+                        following[0]['id'] in declared and
+                        reviewed == [dict(segment=context.name, **following[0])]):
+                    continue
+            raise ValueError('Intervening listing requires declared code and an adjacent reviewed heading')
         table_rows = context.correction.get('controller_table_index', [])
         if (block['kind'] != 'prose' or not any(
                 r.get('region_id') in block['region_ids'] for r in table_rows)):

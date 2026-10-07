@@ -9837,3 +9837,22 @@ history remains in [PROGRESS.md](PROGRESS.md).
   andheading interruptions. Existing interrupted mode rejects eight retained
   figure/listing objects at104/105. Then separate Z80 fullassembly,followed by
   LOGOending111–114. Preserve no-separator 각 파라/메터를 and컴퓨/터는 joins.
+
+### 2026-10-07 — Z80 listing-interruption adapter/sample checkpoint
+
+- Native batch15 committed as4ab4032 before adapter work. Preserved initial actual
+  projection rejection:intervening listing headings were unsupported.
+- Only interrupted-wrapped-listing-v1 opts into declared code interruptions.
+  Titles must immediately precede their declared code in both source and reviewed
+  order. Existing figure/caption/table handling and other modes remain unchanged.
+  Full wrapped projection still validates group membership,physical rows andbytes.
+- Added integration and rejection tests:immutable sources,listings andUTF-8 spans;
+  omitted/reordered/unknown headings,undeclared groups,damaged rows,prose headings,
+  isolated titles andnonopted modes. All98PDF tests pass in4.417s.
+- Actual two-segment Z80 sample projects47regions/26blocks/3images/164physicalrows,
+  with8 retained interruption objects andno-separator 각 파라/메터를 join. All81 text
+  reviews and27 source-block ranges validate. 162priornative/23assemblypins and
+  allfourMay assemblies remain unchanged. No full assembly export ornewOCR.
+- Evidence: `private/pdf-restoration/12-1984-05-machine-adapter`.
+  Next separate checkpoint exports/rebuilds full99–106,thenLOGOending111–114.
+  Mayledger stays15articles/13readable/2partial/2groups/25unresolved.

@@ -926,6 +926,87 @@ class PDFAssemblyTests(unittest.TestCase):
         self.assertEqual(len(correction['listing_line_index']), 6)
         self.assertEqual(len(correction['logical_listing_line_index']), 4)
 
+    def listing_interrupted_segments(self):
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        segments = self.interrupted_wrapped_segments()
+        source, correction = segments[1]
+        code = next(b for b in source['blocks'] if b['kind'] == 'code')
+        title = dict(deepcopy(code), id='listing-heading', kind='title', text='리스트',
+                     region_ids=['heading-region'], correction_evidence=['corrections.json#heading-region'])
+        source['blocks'].append(title)
+        source['regions'].append(dict(source['regions'][0], id='heading-region', kind='title'))
+        source['region_assets'].append(dict(source['region_assets'][0], region_id='heading-region'))
+        source['verification']['reviewed_region_ids'].append('heading-region')
+        correction['records'].append(dict(correction['records'][0], id='heading-region'))
+        order = source['content_order']
+        order.remove(dict(type='block', id=code['id']))
+        order[1:1] = [dict(type='block', id=title['id']), dict(type='block', id=code['id'])]
+        correction['blocks'] = deepcopy(source['blocks'])
+        correction['regional_transcription']['heading-region'] = title['text']
+        ranges = block_ranges(source)
+        scans = {r['region_id']: r['asset'] for r in source['region_assets']}
+        correction['text_index'] = [dict(block_id=b['id'], region_ids=b['region_ids'],
+            scans=[scans[r] for r in b['region_ids']], download='article.txt',
+            utf8_byte_start=ranges[b['id']][0], utf8_byte_end_exclusive=ranges[b['id']][1])
+            for b in source['blocks']]
+        blocks = {b['id']: b for b in source['blocks']}
+        for row in correction['text_review_items']:
+            block = blocks[row['block_id']]
+            row['utf8_byte_start'] = ranges[block['id']][0] + len(
+                block['text'][:block['text'].index(row['transcription_excerpt'])].encode())
+            row['utf8_byte_end_exclusive'] = row['utf8_byte_start'] + len(row['transcription_excerpt'].encode())
+        self.recipe['prose_joins'][0]['intervening'] = [dict(segment='continuation', **item)
+                                                      for item in order[:3]]
+        return segments
+
+    def test_interrupted_wrapped_listing_heading_preserves_sources_code_and_ranges(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.listing_interrupted_segments()
+        untouched = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, untouched)
+        article, listing = text_bytes(package)
+        self.assertEqual(listing, b''.join(text_bytes(source)[1] for source, _ in untouched))
+        joined = next(b for b in package['blocks'] if b['kind'] == 'prose')
+        self.assertEqual(joined['text'], '한글 시작과 끝')
+        self.assertIn(dict(type='block', id='continuation-listing-heading'), package['content_order'])
+        self.assertEqual(len(correction['listing_line_index']), 6)
+        for row in correction['source_text_index'] + correction['text_review_items']:
+            value = article[row['utf8_byte_start']:row['utf8_byte_end_exclusive']].decode()
+            if 'transcription_excerpt' in row:
+                self.assertEqual(value, row['transcription_excerpt'])
+            else:
+                source = untouched[0 if row['source_segment'] == 'opening' else 1][0]
+                block = next(b for b in source['blocks'] if b['id'] == row['source_block_id'])
+                self.assertEqual(value, block['text'])
+
+    def test_interrupted_listing_rejects_unreviewed_headings_groups_rows_and_other_modes(self):
+        from tools.pdf_restore.assembly_indexes import Segment
+        from tools.pdf_restore.assembly_regional import check_intervening
+        original = self.listing_interrupted_segments()
+        recipe = deepcopy(self.recipe)
+        for change in ('omitted', 'reordered', 'unknown-heading', 'undeclared-code', 'damaged-row', 'prose-heading'):
+            segments = deepcopy(original)
+            self.recipe = deepcopy(recipe)
+            source, correction = segments[1]
+            if change == 'omitted': self.recipe['prose_joins'][0]['intervening'].pop(1)
+            if change == 'reordered': self.recipe['prose_joins'][0]['intervening'].reverse()
+            if change == 'unknown-heading': self.recipe['prose_joins'][0]['intervening'][1]['id'] = 'unknown'
+            if change == 'undeclared-code': correction['listing_groups'] = []
+            if change == 'damaged-row': correction['listing_line_index'][0]['utf8_byte_end_exclusive'] -= 1
+            if change == 'prose-heading': source['blocks'][-1]['kind'] = 'prose'
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(self.recipe, segments)
+        source, correction = original[1]
+        context = Segment(recipe['segments'][1], source, correction, 0)
+        items = recipe['prose_joins'][0]['intervening']
+        actual = [dict(type=row['type'], id='continuation-'+row['id']) for row in items]
+        with self.subTest('other modes keep rejecting listings'), self.assertRaises(ValueError):
+            check_intervening(items, actual, [context])
+        # A title without its adjacent declared code is not an allowed interruption.
+        with self.subTest('isolated title'), self.assertRaises(ValueError):
+            check_intervening(items[1:2], actual[1:2], [context], allow_wrapped_listings=True)
+
     def test_interrupted_wrapped_join_rejects_unreviewed_order_and_unindexed_prose(self):
         segments = self.interrupted_wrapped_segments()
         with self.subTest('missing interruption'):

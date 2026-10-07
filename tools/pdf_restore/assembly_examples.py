@@ -50,7 +50,8 @@ def join_blocks(recipe, package, contexts):
         j = order.index(dict(type='block', id=ids[1]))
         if recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'interrupted-wrapped-listing-v1'):
             from .assembly_regional import check_intervening
-            check_intervening(row['intervening'], order[i + 1:j], contexts)
+            check_intervening(row['intervening'], order[i + 1:j], contexts,
+                              allow_wrapped_listings=recipe.get('index_mode') == 'interrupted-wrapped-listing-v1')
         elif j != i + 1:
             raise ValueError('Prose join differs from adjacent reviewed text')
         if (j <= i or

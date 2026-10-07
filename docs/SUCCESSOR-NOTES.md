@@ -29,18 +29,22 @@ Initial maps,crops,OCR,positions/settings and67 review panels remain. All61 task
 succeeded (60 initial/one repair); zero failures and no OCR retry. Exact rebuild,
 text/listing indexes and wrapped projection pass. All160 prior native and23
 assembly manifest pins remain unchanged; four May assemblies revalidate.
-Pipeline unchanged; pinned passing96-test baseline reused. JSON/assets only.
+Batch15 pipeline unchanged; its96-test baseline was reused. A subsequent bounded
+adapter/sample checkpoint passes98 PDF tests (4.417s). JSON/assets only.
 All42 identities remain:15 articles,two non-owning groups and25 entries awaiting
 classification/restoration. WholeMay remains incomplete; unprocessed is not missing.
 Full character proofreading,source bytes and code execution remain unverified.
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: after named native commit, bounded adapter/sample repair to support explicitly
-reviewed listing/headings interruptions; then separate fullZ80 assembly99–106.
+Native checkpoint committed as4ab4032. Bounded adapter/sample repair now supports
+explicitly reviewed listing/headings interruptions in interrupted-wrapped mode.
+Next: separate fullZ80 assembly99–106.
 The104/105 각 파라/메터를 join has no separator and eight retained intervening objects.
-Current interrupted adapter accepts figures/captions/tables but rejects these
-listing/title objects; preserve immutable sources while fixing the narrow adapter.
+Initial rejection is preserved. Listing groups are required; a heading must directly
+precede its declared code in both source and reviewed order. Other modes stay strict.
+Actual47-region/164-row sample and162priornative/23assemblypins validate unchanged.
+Sample evidence: `private/pdf-restoration/12-1984-05-machine-adapter`.
 LOGO ending111–114 follows within two articles/six mapped pages/twenty lookup pages.
 
 Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.

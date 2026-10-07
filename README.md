@@ -115,8 +115,8 @@ May 1984 began on October 7; fifteen articles are sample-reviewed: thirteen
 readable and two partials. Z80 native pages99–106 are restored and await assembly;
 LOGO107–110 is restored, with111–114 pending. Four assemblies preserve eleven
 original segments. Two non-owning dividers are classified;25 TOC entries await
-classification/restoration. Next: bounded listing-interruption adapter fix and
-Z80 assembly, then LOGO ending.
+classification/restoration. Listing-interruption adapter fix passes98 PDF tests. Next: Z80 assembly,
+then LOGO ending.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff
