@@ -112,10 +112,10 @@ artifacts are excluded from Git. No public deployment was performed.
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
 May 1984 began on October 7; twenty-one articles are sample-reviewed: twenty
-readable and one partial. Database141–147 is assembled; accounting148–153 is
-restored, with ending154 next. Eleven assemblies preserve25 original segments.
+readable and one partial. All accounting148–154 native pages are restored;its
+separate full assembly is next. Eleven assemblies preserve25 original segments.
 Five non-owning dividers are classified;16 TOC entries await classification/
-restoration. Byte-preservation and exact rebuild checks pass; the unchanged
+restoration. Byte-preservation and exact rebuild checks pass;the unchanged
 100-test PDF baseline remains current.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 

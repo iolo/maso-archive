@@ -10280,3 +10280,25 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Evidence/validation:`private/pdf-restoration/12-1984-05-batch-22`.
 - Next:accounting154 ending after fresh boundary review,then separate full
   assembly after its named native commit. Terminal156 needs fresh extent proof.
+
+### 2026-10-08 — May native batch23: accounting154 ending
+
+- Four upright153–156 lookups reviewed before mapping:one mapped page/three
+  outside-map lookups. First1730 continues native22 last1720;final2540RETURN and
+  READY precede non-owningdivider155/terminal156. Full148–154 extent proven.
+- Ending package:9 regions/eight blocks/one original panel,70 physical/numbered
+  BASIC rows,8 regional spans and22 text review ranges. SectionsT–Z remain in
+  one continuous program. Source nonmonotonic2040/2030 and2541/2542/2530 labels,
+  duplicate2582,GOSIB2080,PRINT(Y1/100) andTHEN2229 retained without repair.
+  Faint labels/variables and Hangul/PET/spacing markers remain explicit.
+- Four regions repaired once;13 executed tasks9 initial/four repairs complete,
+  zero failures/no retries. All8 initial/five revised panels,source listing panel
+  and supplementaryZ-label zoom reviewed. Initial maps/crops/raw evidence preserved.
+- Exact ending rebuild,UTF-8 ranges,physical/logical listing projections pass.
+  All174 prior native/30 assembly pins unchanged;eleven May assemblies revalidate.
+  Passing unchanged100-test baseline reused;no pipeline/rendering work.
+- Ledger unchanged21 articles20 readable/one partial,five groups/16 unresolved.
+  All148–154 native pages now available;separate full assembly follows named
+  native ending checkpoint. Whole May incomplete. Export:
+  `build/pdf-restoration/12-1984-05-batch-23/accounting`.
+  Evidence:`private/pdf-restoration/12-1984-05-batch-23`.
