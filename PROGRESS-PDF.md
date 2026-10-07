@@ -9247,3 +9247,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   both sample-reviewed;40 entries remain unresolved. Whole May incomplete.
 - Next: batch03 covers printed/PDF28–33 within the six-page ceiling, with34 as
   a boundary lookup. Remaining feature28–43 and final article assembly pending.
+
+
+### 2026-10-07 — May batch03: Apple-II graphics and entry points28–33
+
+- Restored canonical0001 continuation28–33 within six source pages/one article,
+  with34 as one external boundary lookup. Printed/PDF28–34 locally match;
+  full feature20–43 extent remains source-verified.
+- All67 mapped regions reviewed:51 text regions become44 ordered blocks through
+  seven prose boundaries. Sixteen original image panels preserve diagrams7–12,
+  table5, six category panels of table6 and uncaptioned artwork. Captions/category
+  headings are transcribed; original table cells/inner labels remain imagery.
+- RESET example retains nine physical rows, including a standalone20 before a
+  second line20, four comment wraps and printed POKE101,8. Five numbered logical
+  occurrences retain the duplicate20 distinctly; a trailing ASCII blank on the
+  standalone20 preserves its visible empty row under the listing-index contract.
+  Three function-key address rows remain unnumbered. All twelve physical rows,
+  five logical entries, block ranges and22 source-review excerpts pass indexing
+  and wrapped-listing projection. Code execution/repair is not certified.
+- Compared all text against enlarged native crops and every image boundary with
+  source pages/crops. One page32 title crop fell above its heading and was
+  repositioned once; initial attempt preserved. Other66 regions reuse exact
+  cached evidence. No OCR failure or retry. Source $5F8, duplicated 수수,
+  $F7FF and repeated3F4 caption retained. Physical HIM-/EM and P-/ROM wraps
+  normalized; formula M/OD4 joins without a separator;2^4 is declared notation.
+- Final33 disk-format paragraph ends 사용자가 and continues on34 at 사용할.
+  Recorded the outgoing sentence join with one space for final article assembly.
+  No section heading was invented for the untitled DOS introduction on32.
+- Executed68 tasks (67 initial, one bounded crop repair), zero failures.
+  Task elapsed75.0531s, render/crop44.6752s, OCR23.4793s; mapping88.4320s,
+  review385.2352s includes processing and tool/context waits. Exact stage-token
+  and backend measurements unavailable. A private script-generation SyntaxError
+  was fixed before execution/output mutation; the initial attempt is preserved.
+- Final JSON/assets export and independent rebuild match byte-for-byte.
+  All region/raw pins, caption links, indexes and prose joins pass. All142 prior
+  native manifests,19 assemblies, source/runtime pins and previous issue pins
+  remain unchanged. Pipeline unchanged; reused90-test baseline. No rendering work.
+- Export: `build/pdf-restoration/12-1984-05-batch-03/feature`. Private recipes,
+  raw evidence, repair, timings, validation and next checkpoint remain alongside.
+  Ledger retains all42 canonical identities and now records three feature segments
+  covering20–33. Counts remain one readable editorial, one partial feature,
+  both sample-reviewed, and40 unresolved entries; whole May incomplete.
+- Next: batch04 continues34–39, with40 as boundary lookup. Pages34–43 and
+  final feature assembly remain pending; no missing-source outcome inferred.
