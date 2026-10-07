@@ -7,8 +7,8 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–26 and twelve assemblies are complete:** twenty-two articles
-are sample-reviewed:21 readable and one partial terminal article156–173 of
+**May batches 01–27 and twelve assemblies are complete:** twenty-two articles
+are sample-reviewed:21 readable and one partial terminal article156–179 of
 verified156–180. All42 canonical TOC identities remain;five non-owning groups
 are classified and15 identities await classification/restoration.
 Accounting148–154 is fully assembled. Twelve assemblies preserve27 immutable
@@ -62,13 +62,30 @@ figure14/16 numbering and literal errors retained; source bytes/execution and fu
 proofreading unverified. Three immutable terminal natives cover156–173;174–180
 and separate assembly remain.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–26}`.
+Terminal native27 pages174–179 is complete:20 regions,12 ordered blocks,
+8 original images,12 regional spans,19 text review ranges,4 source captions,
+2 command examples and1 figure note. Three unnumbered listing groups retain
+241 physical rows:20 editor-screen rows,133 complete transmit-program rows and
+88 receive-program rows continuing180. All29 original/5 revised text panels and
+8 original images reviewed. One crop repaired once;21 tasks with zero failures
+or OCR retries. Source COBY, figure20 reference, OR E, 8H+1H(129)BYTES and SEND R
+comment beside G operand retained. Figure18 includes a narrow incidental screen
+strip; complete flowchart and screen preserved separately. A first validation
+attempt exposed per-group physical ordinals; its export remains saved, and
+per-block ordinals now pass wrapped-index projection. No pipeline change.
+Exact rebuild and all UTF-8/caption/row indexes pass;178 prior native/31 assembly
+pins unchanged,100-test baseline reused. Four immutable terminal natives cover
+156–179; native180 and separate full156–180 assembly remain. Full proofreading,
+source encoding and execution remain unverified.
+Evidence: `private/pdf-restoration/12-1984-05-batch-27`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–27}`.
 Latest full export: `build/pdf-restoration/12-1984-05-accounting`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-accounting-assemble`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-{22,23}`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: terminal174–179 after fresh continuation/boundary review, then180. May closeout
+Next: terminal180 after fresh continuation/boundary review. May closeout
 follows all remaining articles and classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
 

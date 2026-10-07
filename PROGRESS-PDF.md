@@ -10431,3 +10431,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   targets174–179, followed by180 and separate assembly after named ending commit.
 - Export:`build/pdf-restoration/12-1984-05-batch-26/terminal`.
   Evidence/validation:`private/pdf-restoration/12-1984-05-batch-26`.
+
+### 2026-10-08 — May native batch27: terminal174–179
+
+- Continued the verified terminal article156–180 after native26 commit7cef9f6.
+  Fresh upright156,173–181 scans reviewed before mapping; six mapped pages and
+  four outside-map lookups satisfy the limits. Usage paragraph starts174 after
+  a complete173 sentence; no incoming word join. Transmit listing13 ends178;
+  receive listing14 continues180, followed by independent workshop181.
+- Export retains20 regions,12 ordered blocks,8 figures,12 regional text spans,
+  19 text review ranges,4 source captions,2 command examples and1 figure note.
+  Two flowcharts, COPY.SUB screen and five assembly panels are preserved.
+  Figure18's bounding rectangle contains a narrow adjacent screen strip; the
+  complete flowchart and complete editor screen are retained separately.
+- Three unnumbered groups contain241 physical rows:20 editor-screen rows,
+  133 complete transmit rows on176–178 and88 receive rows on178–179. Colon
+  editor labels remain literal, not BASIC numbers; zero numbered logical
+  entries and no BASIC DATA. Printed semicolon rows and blank5: prompt retained;
+  vertical spacing and listing alignment normalized with source bitmaps linked.
+- Literal COBY command, figure20 reference beside printed figure19, OR E,
+  READ SEQUENTIAL FT., 8H+1H(129)BYTES and SEND R comment beside G operand retained.
+  Dollar double-stroke/quotes, 0/O/1/I and faint source glyphs remain uncertain.
+  Prose retains printed SUBMIT, COM punctuation and 도움말 wording. Full
+  proofreading, source encoded bytes and historical code execution deferred.
+- All29 original and5 revised text panels and8 original images reviewed.
+  One distinct left-margin crop repaired once;21 executions20 initial/1 repair,
+  zero failures and no OCR retries. Original maps/crops/raw OCR, positions,
+  settings and attempts remain pinned. The first export failed wrapped-index
+  projection because physical_line used group ordinals instead of per-block
+  ordinals; that export is preserved as terminal-validation-attempt-01. Revised
+  metadata uses per-block ordinals; no pipeline or transcription change.
+- Final export, scan/raw bytes, exact UTF-8 ranges, group projection and identical
+  rebuild pass. All178 prior native and31 assembly manifests preserved;12 May
+  assemblies revalidated. Passing unchanged100-test baseline reused. No HTML,
+  frontend or browser work. Canonical42 identities remain:22 articles comprising
+  21 readable and1 partial,5 non-owning groups and15 unresolved identities.
+- Four immutable terminal natives now cover156–179;180 and separate full156–180
+  assembly remain. Next native28 reviews/restores180 before a named ending
+  commit; workshop181 can follow fresh extent proof within the existing limits.
+  Whole May and its issue closeout remain incomplete; unprocessed is not missing.
+- Export: `build/pdf-restoration/12-1984-05-batch-27/terminal`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-27`.
