@@ -29,15 +29,15 @@ def text_bytes(package):
 
 
 def validate_recipe(recipe):
-    examples = recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1')
+    examples = recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1')
     optional = {'index_mode', 'prose_joins'} if examples else {'index_mode'}
     if (set(recipe) - optional != {'segments', 'expected_pdf_pages', 'evidence', 'uncertainties', 'resolved_notes'} or
         ('index_mode' in recipe and recipe['index_mode'] not in
-         ('namespaced-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1'))):
+         ('namespaced-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1'))):
         raise ValueError('Unknown or missing assembly recipe field')
     if examples:
         from .assembly_examples import validate_joins
-        validate_joins(recipe.get('prose_joins'), regional=recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-reference-listing-v1'))
+        validate_joins(recipe.get('prose_joins'), regional=recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1'))
     segments = recipe['segments']
     if not 2 <= len(segments) <= 12:
         raise ValueError('Assembly requires two to twelve segments')
@@ -128,7 +128,7 @@ def read_segment(folder, manifest):
 def project(recipe, segments):
     """Derive combined content and correction indexes; never modify original evidence."""
     validate_recipe(recipe)
-    if recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1'):
+    if recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1'):
         from .assembly_examples import project_examples
         return project_examples(recipe, segments)
     if recipe.get('index_mode') == 'namespaced-v1':
@@ -137,7 +137,7 @@ def project(recipe, segments):
     return project_legacy(recipe, segments)
 
 
-def project_legacy(recipe, segments):
+def project_legacy(recipe, segments, *, check_listing_markers=True):
     """Original projection, retained for existing immutable assembly exports."""
     first = segments[0][0]
     package = deepcopy(first)
@@ -217,7 +217,7 @@ def project_legacy(recipe, segments):
         raise ValueError('Duplicate correction identity across segments')
     if len({r['id'] for r in graphics}) != len(graphics) or len({r['marker'] for r in graphics}) != len(graphics):
         raise ValueError('Duplicate graphics occurrence identity across segments')
-    if Counter(re.findall(r'⟦G[^⟧]*⟧', text_bytes(package)[1].decode())) != Counter(r['marker'] for r in graphics):
+    if check_listing_markers and Counter(re.findall(r'⟦G[^⟧]*⟧', text_bytes(package)[1].decode())) != Counter(r['marker'] for r in graphics):
         raise ValueError('Graphics occurrence index does not match combined listing')
     package['gaps'] = list(dict.fromkeys(recipe['uncertainties'] + retained_notes))
     package['availability'] = 'readable'

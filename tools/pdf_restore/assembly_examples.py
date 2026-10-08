@@ -48,11 +48,11 @@ def join_blocks(recipe, package, contexts):
         order = package['content_order']
         i = order.index(dict(type='block', id=ids[0]))
         j = order.index(dict(type='block', id=ids[1]))
-        if recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-reference-listing-v1'):
+        if recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1'):
             from .assembly_regional import check_intervening
             check_intervening(row['intervening'], order[i + 1:j], contexts,
                               allow_wrapped_listings=recipe.get('index_mode') == 'interrupted-wrapped-listing-v1',
-                              allow_indexed_tables=recipe.get('index_mode') in ('regional-table-listing-v1', 'wrapped-reference-listing-v1'))
+                              allow_indexed_tables=recipe.get('index_mode') in ('regional-table-listing-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1'))
         elif j != i + 1:
             raise ValueError('Prose join differs from adjacent reviewed text')
         if (j <= i or
@@ -76,9 +76,10 @@ def join_blocks(recipe, package, contexts):
 def project_examples(recipe, originals):
     # Interrupted wrapped packages use existing block/range indexes; unlike the
     # regional modes, they do not require retrofitting immutable regional indexes.
-    wrapped = recipe.get('index_mode') in ('wrapped-listing-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1')
+    wrapped = recipe.get('index_mode') in ('wrapped-listing-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1')
+    literal = recipe.get('index_mode') == 'wrapped-literal-reference-v1'
     scan_notes = recipe.get('index_mode') == 'wrapped-scan-notes-v1'
-    regional = recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'wrapped-reference-listing-v1')
+    regional = recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1')
     if regional and not wrapped and any(b['kind'] == 'code' for source, _ in originals for b in source['blocks']):
         raise ValueError('Regional prose mode cannot assemble code listings')
     contexts, offset, normalized = [], 0, []
@@ -86,6 +87,9 @@ def project_examples(recipe, originals):
         if correction.get('glyph_definitions'):
             raise ValueError('Glyph byte definitions require the existing listing assembly mode')
         context = Segment(spec, source, correction, offset)
+        if literal:
+            from .assembly_literals import validate_markers
+            validate_markers(context)
         contexts.append(context)
         offset += len(context.listing)
         # Legacy projection accepts bytecode markers, not text-range glyph notes.
@@ -93,7 +97,7 @@ def project_examples(recipe, originals):
         copy = deepcopy(correction)
         copy['unresolved_graphics'] = []
         normalized.append(namespace(Segment(spec, source, copy, context.offset)))
-    package, corrections = project_legacy(recipe, normalized)
+    package, corrections = project_legacy(recipe, normalized, check_listing_markers=not literal)
     positions, resolved = join_blocks(recipe, package, contexts)
     ranges = block_ranges(package)
     article, listing = text_bytes(package)
@@ -172,6 +176,10 @@ def project_examples(recipe, originals):
                     continue
                 if scan_notes and field == 'unresolved_text' and (START not in row or END not in row):
                     raise ValueError('Uncertainty range requires both byte bounds')
+                if literal and field == 'unresolved_graphics':
+                    corrections[field].append(dict(text_range(row),
+                        marker=row['transcription_excerpt'], source_marker_field='transcription_excerpt'))
+                    continue
                 if field == 'unresolved_graphics' and regional and 'marker' in row:
                     marker = row['marker']
                     identity = ('block_id', 'region_id', 'scan', 'download', START, END,
@@ -193,9 +201,12 @@ def project_examples(recipe, originals):
         if regional:
             from .assembly_regional import project_regional
             project_regional(context, corrections, text_range)
-            if recipe.get('index_mode') == 'wrapped-reference-listing-v1':
+            if recipe.get('index_mode') in ('wrapped-reference-listing-v1', 'wrapped-literal-reference-v1'):
                 from .assembly_references import project_references
                 project_references(context, corrections, text_range)
+            if literal:
+                from .assembly_literals import project_inline_examples
+                project_inline_examples(context, corrections, text_range)
             from .assembly_news import project_news
             project_news(context, corrections, text_range, positions)
         for id, text in original.get('regional_transcription', {}).items():
@@ -245,9 +256,12 @@ def project_examples(recipe, originals):
         if wrapped:
             from .assembly_wrapped import project_listing
             project_listing(context, corrections, listing)
-            if recipe.get('index_mode') == 'wrapped-reference-listing-v1':
+            if recipe.get('index_mode') in ('wrapped-reference-listing-v1', 'wrapped-literal-reference-v1'):
                 from .assembly_references import project_prompts
                 project_prompts(context, corrections)
+            if literal:
+                from .assembly_literals import project_hex_indexes
+                project_hex_indexes(context, corrections, listing)
             continue
 
         code = {b['id']: b for b in context.source['blocks'] if b['kind'] == 'code'}

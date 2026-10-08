@@ -116,10 +116,17 @@ Three code markers and one prose marker have immutable regional excerpt records,
 without legacy glyph fields. No full export created or source input changed.
 Preflight evidence: `private/pdf-restoration/12-1984-05-happy-reference-adapter`.
 
-Next: separately implement, test and commit an opt-in marker-excerpt adapter with
-global inline-example/hex-token/hex-row projection; keep existing modes unchanged.
-Then full HAPPY-WORDS 208–215 assembly from preserved native34/35, with no 213/214
-physical row or prose join. Native36 then needs fresh full 리뷰쌀롱 220 extent proof;
+The opt-in `wrapped-literal-reference-v1` adapter is tested: all 112 PDF tests,
+real HAPPY projection and 33 historical assembly compatibility checks pass.
+All 191 native manifest pins remain unchanged. Strict marker/regional links and
+unverified inline/hex indexes retain literal candidates; no original bytes or
+execution are certified. Projection has 538 physical rows, 1,000 hex candidates,
+four markers and five inline examples. Repeated projection is identical and the
+ledger remains unchanged. Three native34 prose joins are retained.
+
+Next: commit this separate tooling checkpoint before full HAPPY-WORDS 208–215
+assembly from preserved native34/35, with no 213/214 physical row or prose join.
+Native36 then needs fresh full 리뷰쌀롱 220 extent proof;
 220/221 lookups establish only its opening. May still needs six unresolved TOC
 outcomes and a separate issue closeout.
 JSON/assets only;no rendering work is required.

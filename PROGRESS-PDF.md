@@ -10891,3 +10891,25 @@ history remains in [PROGRESS.md](PROGRESS.md).
   before full assembly. This is remaining implementation work, not a source gap.
 - Evidence: `private/pdf-restoration/12-1984-05-happy-reference-adapter`.
   The issue ledger remains 30 readable/one partial, five groups/six unresolved.
+
+### 2026-10-08 — HAPPY-WORDS literal-reference adapter
+
+- Added explicit opt-in `wrapped-literal-reference-v1`. Marker excerpts must cover
+  every source marker exactly once, retain exact regional UTF-8 spans/pins, and
+  match unresolved text records. Legacy listing-marker checks are bypassed only
+  after these checks; all historical modes retain their existing behavior.
+- Combined inline examples, hex rows and tokens require exact source identity,
+  literal values/ranges and explicit unverified flags. No glyph encoding, machine
+  bytes or execution is inferred. Original metadata remains unchanged.
+- All 112 PDF tests pass, including malformed marker, scan, range, token coverage,
+  address and verification-claim rejection. Real native34/35 projection retains
+  66 regions, 47 blocks, 16 images, 50 regional spans, 85 text reviews and 538
+  physical rows: 284 numbered, 126 wraps and 128 unnumbered. Four markers, five
+  inline examples, 126 hex rows/1,000 candidates and two prompts project exactly.
+  Fifteen word-DATA rows/203 candidates remain in immutable original metadata.
+- Repeated projection is identical. All 191 native manifest pins and 33 historical
+  assemblies pass preservation/compatibility checks. No new full export, mapping,
+  OCR, HTML or browser work. The ledger remains 30 readable/one partial, five
+  groups/six unresolved. Tooling must be committed before separate full assembly;
+  whole May and issue closeout remain incomplete.
+- Evidence: `private/pdf-restoration/12-1984-05-happy-reference-adapter`.

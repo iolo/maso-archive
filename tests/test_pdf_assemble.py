@@ -1957,5 +1957,203 @@ class PDFAssemblyTests(unittest.TestCase):
             prompt[key] = old
 
 
+    def literal_reference_segments(self):
+        import re
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import START, END, block_ranges
+        segments = self.wrapped_segments()
+        self.recipe.update(index_mode='wrapped-literal-reference-v1', prose_joins=[])
+        for i, (source, c) in enumerate(segments):
+            code = source['blocks'][0]
+            rid = code['region_ids'][0]
+            scan = next(r['asset'] for r in source['region_assets'] if r['region_id'] == rid)
+            code['text'] = ('10 PRINT "한글⟦G-code⟧"\n20 END\n' if i == 0 else
+                            '*6000.600A\n6000- 00 AB CD EF 01 02 03 04\n6008- 05 06 07\n')
+            prose_id, prose_region = 'prose'+str(i), 'prose-region'+str(i)
+            prose = dict(id=prose_id, kind='prose',
+                         text='문장 ⟦G-prose⟧. CALL-151.\n' if i == 0 else '본문.\n',
+                         region_ids=[prose_region], correction_evidence=[], uncertainties=[])
+            source['blocks'].append(prose)
+            source['regions'].append(dict(source['regions'][0], id=prose_region, kind='prose'))
+            source['region_assets'].append(dict(region_id=prose_region, asset=scan))
+            source['verification']['reviewed_region_ids'].append(prose_region)
+            source['content_order'].insert(0, dict(type='block', id=prose_id))
+            c['records'].append(dict(id=prose_region, scan=scan, raw_ocr=None))
+            c['blocks'] = deepcopy(source['blocks'])
+            c['text_index'], c['regional_text_index'], c['regional_transcription'] = [], [], {}
+            c['unresolved_graphics'], c['unresolved_text'], c['text_review_items'] = [], [], []
+            c['table_index'], c['program_guide_index'], c['variable_definition_index'] = [], [], []
+            c['inline_example_index'], c['hex_row_index'], c['hex_token_index'], c['prompt_index'] = [], [], [], []
+            c['glyph_definitions'], c['data_statements'], c['prose_joins'] = [], [], []
+            ranges = block_ranges(source)
+            for block in source['blocks']:
+                region = block['region_ids'][0];start, end = ranges[block['id']]
+                row = dict(block_id=block['id'], region_id=region, scan=scan, download='article.txt',
+                           **{START: start, END: end})
+                c['text_index'].append(dict(row, region_ids=[region], scans=[scan]))
+                c['regional_text_index'].append(row)
+                c['regional_transcription'][region] = block['text']
+                for match in re.finditer(r'⟦G[^⟧]+⟧', block['text']):
+                    a = start+len(block['text'][:match.start()].encode())
+                    note = dict(row, **{START:a, END:a+len(match[0].encode())},
+                                transcription_excerpt=match[0], status='manual-correction-required',
+                                original_bytes=None, source_encoding_verified=False)
+                    c['unresolved_graphics'].append(deepcopy(note));c['unresolved_text'].append(note)
+                if i == 0 and block['kind'] == 'prose':
+                    a = start+len(block['text'][:block['text'].index('CALL-151')].encode())
+                    c['inline_example_index'].append(dict(row, **{START:a, END:a+8},
+                        transcription_excerpt='CALL-151', execute_verified=False, original_bytes=None))
+            listing = text_bytes(source)[1];group = 'program' if i == 0 else 'monitor'
+            c['listing_index'] = [dict(block_id=code['id'], region_id=rid, region_ids=[rid], scan=scan,
+                download='listing.txt', **{START:0, END:len(listing)})]
+            c['listing_groups'] = [dict(listing_id=group, block_ids=[code['id']], execute_verified=False)]
+            c['listing_line_index'], c['logical_listing_line_index'], c['listing_anomalies'] = [], [], []
+            cursor = 0
+            for ordinal, text in enumerate(code['text'].splitlines(True), 1):
+                end = cursor+len(text.encode());part=dict(region_id=rid, scan=scan, **{START:cursor, END:end})
+                row=dict(part, block_id=code['id'], listing_id=group, line_id=f'{rid}:{ordinal}',
+                         physical_line=ordinal, download='listing.txt', segments=[deepcopy(part)])
+                if i == 0:
+                    number=int(text.split()[0]);logical=f'{group}:{number}:1'
+                    row.update(row_kind='numbered', printed_line=number, printed_line_visible=True, logical_line_id=logical)
+                    c['logical_listing_line_index'].append(dict(listing_id=group, printed_line=number,
+                        occurrence=1, line_id=logical, download='listing.txt', **{START:cursor, END:end},
+                        source_parts=[row['line_id']], segments=[deepcopy(part)]))
+                else:
+                    row.update(row_kind='unnumbered', printed_line=None, printed_line_visible=False)
+                    if text.startswith('*'):
+                        c['prompt_index'].append(dict(deepcopy(row), transcription_excerpt=text, execute_verified=False))
+                    else:
+                        match=re.fullmatch(r'([0-9A-F]{4})- (.*)\n', text)
+                        values=list(re.finditer(r'[0-9A-F]{2}',match[2]))
+                        c['hex_row_index'].append(dict(deepcopy(row), printed_address=match[1],
+                            literal_token_candidates=[v[0] for v in values], value_count=len(values),
+                            transcription_excerpt=text, original_machine_bytes_verified=False, execution_verified=False))
+                        for value in values:
+                            a=cursor+match.start(2)+value.start()
+                            c['hex_token_index'].append(dict(block_id=code['id'], region_id=rid, scan=scan,
+                                download='listing.txt', **{START:a, END:a+2}, transcription_excerpt=value[0],
+                                listing_id=group, printed_address=match[1], physical_line_id=row['line_id'],
+                                original_machine_bytes_verified=False, execution_verified=False))
+                c['listing_line_index'].append(row);cursor=end
+        return segments
+
+    def test_literal_reference_projects_code_and_prose_markers_without_mutating_sources(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import span
+        segments=self.literal_reference_segments();untouched=deepcopy(segments)
+        p,c=project(self.recipe,segments);article,listing=text_bytes(p)
+        self.assertEqual(segments,untouched)
+        self.assertEqual(listing,b''.join(text_bytes(s)[1] for s,_ in segments))
+        self.assertEqual(len(c['unresolved_graphics']),2)
+        for row in c['unresolved_graphics']:
+            self.assertEqual(span(row,article),row['marker'])
+            self.assertEqual(row['source_marker_field'],'transcription_excerpt')
+            self.assertIsNone(row['original_bytes']);self.assertIs(row['source_encoding_verified'],False)
+        for spec,(_,original) in zip(self.recipe['segments'],segments):
+            saved=next(r for r in c['segments'] if r['name']==spec['name'])['original_metadata']
+            self.assertEqual(saved['unresolved_graphics'],original['unresolved_graphics'])
+            self.assertEqual(saved['hex_token_index'],original['hex_token_index'])
+
+    def test_literal_reference_projects_inline_hex_and_prompts_with_global_source_links(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import START, END, span
+        segments=self.literal_reference_segments();p,c=project(self.recipe,segments);article,listing=text_bytes(p)
+        self.assertEqual(len(c['inline_example_index']),1)
+        self.assertEqual(span(c['inline_example_index'][0],article),'CALL-151')
+        self.assertEqual([r['value_count'] for r in c['hex_row_index']],[8,3])
+        self.assertEqual(len(c['hex_token_index']),11)
+        self.assertEqual(span(c['prompt_index'][0],listing),'*6000.600A\n')
+        for row in c['hex_token_index']:
+            self.assertEqual(span(row,listing),row['transcription_excerpt'])
+            self.assertIs(row['original_machine_bytes_verified'],False)
+            self.assertIs(row['execution_verified'],False)
+            self.assertEqual(row[START],row['source_range'][START]+len(text_bytes(segments[0][0])[1]))
+            physical=next(r for r in c['listing_line_index'] if r['line_id']==row['physical_line_id'])
+            self.assertEqual(physical['source_line_id'],row['source_physical_line_id'])
+            self.assertLessEqual(physical[START],row[START]);self.assertLessEqual(row[END],physical[END])
+
+    def test_literal_markers_reject_missing_ranges_scans_and_byte_claims(self):
+        original=self.literal_reference_segments()
+        for change in ('missing','duplicate','excerpt','scan','region','range','utf8','bytes','encoded',
+                       'encoding','no-encoding','status','unresolved','unresolved-bytes',
+                       'unresolved-encoded','unresolved-execution','legacy-field'):
+            segments=deepcopy(original);c=segments[0][1];row=c['unresolved_graphics'][0]
+            if change=='missing':c['unresolved_graphics'].pop()
+            if change=='duplicate':c['unresolved_graphics'].append(deepcopy(row))
+            if change=='excerpt':row['transcription_excerpt']='⟦G-other⟧'
+            if change=='scan':row['scan']=dict(row['scan'],sha256='0'*64)
+            if change=='region':row['region_id']='figure0'
+            if change in ('range','utf8'):row['utf8_byte_start']+=1
+            if change=='bytes':row['original_bytes']=[128]
+            if change=='encoded':row['encoded_bytes']=[128]
+            if change=='encoding':row['source_encoding_verified']=True
+            if change=='no-encoding':row.pop('source_encoding_verified')
+            if change=='status':row['status']='verified'
+            if change=='unresolved':c['unresolved_text']=[]
+            if change=='unresolved-bytes':c['unresolved_text'][0]['original_bytes']=[128]
+            if change=='unresolved-encoded':c['unresolved_text'][0]['encoded_bytes']=[128]
+            if change=='unresolved-execution':c['unresolved_text'][0]['execution_verified']=True
+            if change=='legacy-field':row['marker']=row['transcription_excerpt']
+            with self.subTest(change=change),self.assertRaises(ValueError):project(self.recipe,segments)
+
+    def test_literal_hex_rejects_partial_reordered_or_falsely_verified_candidates(self):
+        original=self.literal_reference_segments()
+        for change in ('missing-row','row-order','row-address','row-values','row-count','row-scan',
+                       'row-verified','missing-token','token-order','token-text','token-address',
+                       'token-range','token-row','token-block','token-scan','token-verified',
+                       'token-zero-flag','token-encoded'):
+            segments=deepcopy(original);c=segments[1][1];row=c['hex_row_index'][0];token=c['hex_token_index'][0]
+            if change=='missing-row':c['hex_row_index'].pop()
+            if change=='row-order':c['hex_row_index'].reverse()
+            if change=='row-address':row['printed_address']='6001'
+            if change=='row-values':row['literal_token_candidates'][0]='FF'
+            if change=='row-count':row['value_count']=7
+            if change=='row-scan':row['scan']=dict(row['scan'],sha256='0'*64)
+            if change=='row-verified':row['original_machine_bytes_verified']=True
+            if change=='missing-token':c['hex_token_index'].pop()
+            if change=='token-order':c['hex_token_index'].reverse()
+            if change=='token-text':token['transcription_excerpt']='FF'
+            if change=='token-address':token['printed_address']='6001'
+            if change=='token-range':token['utf8_byte_start']-=1
+            if change=='token-row':token['physical_line_id']='other'
+            if change=='token-block':token['block_id']='prose1'
+            if change=='token-scan':token['scan']=dict(token['scan'],sha256='0'*64)
+            if change=='token-verified':token['execution_verified']=True
+            if change=='token-zero-flag':token['execution_verified']=0
+            if change=='token-encoded':token['encoded_bytes']=[0]
+            with self.subTest(change=change),self.assertRaises(ValueError):project(self.recipe,segments)
+
+    def test_literal_inline_rejects_unlinked_regions_and_execution_claims(self):
+        original=self.literal_reference_segments()
+        for change in ('scan','region','range','excerpt','duplicate','verified','no-flag','bytes',
+                       'encoded','execution'):
+            segments=deepcopy(original);c=segments[0][1];row=c['inline_example_index'][0]
+            if change=='scan':row['scan']=dict(row['scan'],sha256='0'*64)
+            if change=='region':row['region_id']='figure0'
+            if change=='range':row['utf8_byte_end_exclusive']+=1
+            if change=='excerpt':row['transcription_excerpt']='CALL 151'
+            if change=='duplicate':c['inline_example_index'].append(deepcopy(row))
+            if change=='verified':row['execute_verified']=True
+            if change=='no-flag':row.pop('execute_verified')
+            if change=='bytes':row['original_bytes']=[128]
+            if change=='encoded':row['encoded_bytes']=[128]
+            if change=='execution':row['execution_verified']=True
+            with self.subTest(change=change),self.assertRaises(ValueError):project(self.recipe,segments)
+
+    def test_literal_reference_requires_explicit_new_mode(self):
+        segments=self.literal_reference_segments()
+        with self.assertRaisesRegex(ValueError,'Graphics occurrence index'):
+            project(dict(self.recipe,index_mode='wrapped-reference-listing-v1'),segments)
+        # A source with existing reference metadata keeps exactly its old output.
+        segments=self.reference_listing_segments();recipe=deepcopy(self.recipe)
+        for _,c in segments:
+            for row in c.get('inline_example_index',[]):row['execute_verified']=False
+        old=project(recipe,segments)
+        new=project(dict(recipe,index_mode='wrapped-literal-reference-v1'),segments)
+        self.assertEqual(old[0],new[0])
+        self.assertNotIn('hex_token_index',old[1]);self.assertNotIn('inline_example_index',old[1])
+
+
 if __name__ == '__main__':
     unittest.main()
