@@ -32,12 +32,12 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–42 and sixteen assemblies are complete:** 35 articles are
-sample-reviewed: 34 readable, including the complete competition appendix 230–249,
-and one partial information radar covering 89–94 of verified 89–96.
+**May batches 01–43 and sixteen assemblies are complete:** 36 articles are
+sample-reviewed: 35 readable, including the complete competition appendix 230–249,
+and one partial information radar whose complete89–96 native coverage awaits assembly.
 All 42 canonical TOC identities remain;
-six non-owning groups are classified and one identity, advertising index 250,
-awaits restoration. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
+six non-owning groups are classified and no eligibility decisions remain unresolved.
+Advertising index250 is complete. Full HAPPY-WORDS pages208–215 use two immutable
 native segments. 메아리 on 216–217 is complete.
 Sixteen assemblies preserve 40 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
@@ -87,6 +87,24 @@ index250, excluding the upper publisher ad; then commit the ending and assemble
 the full radar89–96. Separate whole-issue closeout remains required.
 Export: `build/pdf-restoration/12-1984-05-batch-42/radar`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-42`.
+
+Native43 completes radar95–96 and lower advertisingindex250 after native42
+commit31355dd. Exact pinned15wholeviews/fullsourceextent were reused;95/96/250
+were actually reinspected before mapping. Two articles/three mapped pages/12
+outside-map lookups.28 regions retain23 blocks/two original images,26 regional
+spans/52 text reviews and32 Unicode candidates. Six ending news reports preserve
+three prose boundaries;30 advertiser entries retain60 cells in two source columns.
+Coverreferences표2/표3/표4 and source spelling/unit/model/price discrepancies remain
+literal candidates. Upper publisher ad250 excluded. All33 original panels/two
+images viewed;28 actual tasks,zero failures/retries/repairs. Independent indexes,
+projections and byte-identical rebuilds pass;198 prior native/35 assembly pins and
+all preserved evidence inventories unchanged. Unchanged115-test baseline reused.
+All42TOC identities now classified:36 articles/6groups;35readable/onepartialradar.
+Next: separate fullradar89–96assembly from exact native42/43 pins, resolving only
+extent/assembly scope notes; then wholeMay standaloneJSON/assets closeout and
+requirements audit. No new mapping/OCR is needed for those remaining checkpoints.
+Exports: `build/pdf-restoration/12-1984-05-batch-43/{radar,ads}`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-43`.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block

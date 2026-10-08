@@ -11252,3 +11252,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and full radar89–96assembly. Separate whole-issue closeout follows.
 - Export:`build/pdf-restoration/12-1984-05-batch-42/radar`.
   Evidence:`private/pdf-restoration/12-1984-05-batch-42`.
+
+### 2026-10-08 — May native 43, radar ending95–96 and advertising index250
+
+- Continued after committed/audited native42,31355dd. Exact pinned15whole source
+  views/fullradar89–96/index250extent proof reused;95/96/250 actually reinspected
+  before mapping. Two articles/three mapped pages/12outside-map lookup pages.
+  Independent97divider and251ad bound endings;upperpublisher advertisement250
+  excluded by source boundary evidence and all indexregiony>=.655.
+- Radarending95–96 retains24regions/20blocks/oneoriginalendmarker,23regional
+  ranges/43reviews/32Unicode candidates. Six foreign reports preserve three
+  prose joins:AMD이/다(empty),A/D8,4,2,/1(space),SRAM메모리/중심부(space).
+  No94/95prose or physicalrow join;95starts newMitsubishi report after94INMOS.
+- Literal Advanced Micro Device singular,노이만headline/비노이만body,μ/μm unit
+  variants,20μS/35μS,30μw,256KB/4KB,에블레이터/에뮬레이터,AIM16820 and historical
+  price/speed claims retained. SRAMreport ends2만엔 without invented copula.
+  Mostek final 준비중이다 paragraph and original endmarker preserve article end.
+- Advertising index250 retainsfourregions/threeblocks/oneoriginaltreegraphic,
+  three regional ranges/nine reviews.30advertiser entries16left/14right retain
+  60 searchable cells across two original column tables. Dottedleaders become
+  tabs;no inferred header. Printed표2/표3/표4 references remain strings and
+  comma spacing4, 5versus12,13retained. Source names remain unverified candidates.
+- All33original textpanels/twooriginalfigures actually viewed.28actualOCRtasks,
+  zero failures/retries/cropfailures/repairs. Initial/finalmaps andeveryOCRbundle
+  byte-identical;rawOCR/positions/settings/attempts andwholeOCR inventory retained.
+- Independent source/UTF-8/table/cell/advertiser/news indexes and regional/reference/
+  emptylisting projections pass. Both fresh rebuilds byte-identical.198prior
+  native/35assembly manifest pins,unpromoted exports,original inputs and40–43OCR
+  inventories unchanged.16May assemblies revalidated;unchanged115PDF-test baseline
+  reused frombdf0d8c. No tooling or frontend/browser changes.
+- All42canonical identities/titles/parents classified:36sample-reviewed articles
+  (35readable/onepartialradar) andsixnon-owninggroups;zero unresolvedeligibility.
+  Two radar natives cover all89–96;separate fullassembly still required.43native
+  checkpoints/16assemblies40immutableinputs complete. Fullproofreading/source
+  encoding/historicalclaims remain unverified;wholeMaycloseout incomplete.
+- Next: commit/auditending,thenfullradar89–96assembly fromexactnative42/43pins
+  with84regional spans/13table rows65cells7blanks/61Unicode candidates;no newOCR.
+  Preserve19newsitems inoriginalmetadata,8nativeprosegroups9boundaries. Then
+  wholeMay standaloneJSON/assets index/report,sourcecoverage/outcome/rebuild/audit.
+- Exports:`build/pdf-restoration/12-1984-05-batch-43/{radar,ads}`.
+  Evidence:`private/pdf-restoration/12-1984-05-batch-43`.

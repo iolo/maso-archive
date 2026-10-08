@@ -7,12 +7,12 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–42 and sixteen assemblies are complete:** 35 articles are
-sample-reviewed: 34 readable, including the complete competition appendix 230–249,
-and one partial information radar covering89–94 of verified89–96.
+**May batches 01–43 and sixteen assemblies are complete:** 36 articles are
+sample-reviewed: 35 readable, including the complete competition appendix230–249,
+and one partial radar with both89–96 segments restored and awaiting fullassembly.
 All 42 canonical TOC identities remain;
-six non-owning groups are classified and one identity, advertising index250,
-awaits restoration. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
+six non-owning groups are classified and zero eligibility decisions remain unresolved.
+Advertising index250 is complete. Full HAPPY-WORDS pages208–215 use two immutable
 native segments. 메아리 on 216–217 is complete.
 Sixteen assemblies preserve 40 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
@@ -341,10 +341,29 @@ group0034 as non-owning. May now34 readable/one partial/six groups/one unresolve
 Export: `build/pdf-restoration/12-1984-05-batch-42/radar`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-42`.
 
-Next: native43 radar95–96 plus lower advertisingindex250, using exact pinned
-native42 full extent evidence or fresh scans before mapping. Upper publisher ad250
-excluded. Commit the ending checkpoint before fullradar89–96assembly; then separate
-whole-May issue closeout. All42canonical identities retained;JSON/assets only.
+Native43 completes radar95–96 and lower advertisingindex250 after native42
+commit31355dd. All15pinned wholeviews/full sourceextent reused;95/96/250 actually
+reinspected before mapping. Two articles/three mapped pages/12outside-map lookups.
+28 regions retain23 blocks/two original images,26 regional ranges/52 reviews and
+32 Unicode candidates. Six ending foreign reports preserve three prose boundaries;
+Mostek final text/endmarker retained.30advertisers/60cells in16left/14right rows;
+printedcoverreferences표2/표3/표4 remain strings. Upperpublisher ad250 excluded.
+All33original panels/two images viewed;28actual tasks,zero failures/retries/repairs.
+Independent indexes/projections and identical rebuilds pass;198prior native/35
+assembly pins,unpromoted exports and40–43 OCR inventories preserved. Unchanged115
+PDF-test baseline reused. Source errors/claims/glyphs/fullproofreading unverified.
+All42canonical IDs/titles/parents retained:36articles/6groups;35readable/onepartial
+radar pendingfullassembly;zero unresolvedeligibility.43native checkpoints complete.
+Exports: `build/pdf-restoration/12-1984-05-batch-43/{radar,ads}`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-43`.
+
+Next: separate fullradar89–96assembly after named native43 ending commit/audit.
+Use exact native42/43manifest pins and preflight existing reference/listing mode:
+84regional spans,13table rows/65cells/seven blanks,61Unicode candidates;no94/95
+prose or physicalrowjoin. Preserve8native prose groups/9boundaries and19newsitems
+in original metadata. Resolve only assemblyscope gaps. Then wholeMay standalone
+JSON/assets index/report,source/outcome accounting,rebuild andrequirements audit.
+Do not rerun completed native43 finalizer/validator/closeout;JSON/assets only.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block
