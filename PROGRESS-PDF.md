@@ -10875,3 +10875,19 @@ history remains in [PROGRESS.md](PROGRESS.md).
   requires fresh full 리뷰쌀롱 extent proof before mapping.
 - Exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-batch-35`.
+
+### 2026-10-08 — HAPPY-WORDS assembly preflight
+
+- Native35 ending committed `1e763f6`; post-commit audit passes with a clean tracked
+  worktree, 191 native/33 assembly pins preserved and unchanged PDF tooling.
+- Read-only projection of immutable native34/35 reproduced `Graphics occurrence
+  index does not match combined listing`. Existing example projection clears
+  legacy glyph records before the legacy counter sees three retained code markers.
+  Four source marker records (three code/one prose) have exact regional excerpt
+  spans and matching unresolved text, without legacy marker/rendered-glyph fields.
+- Full export was not created. Next checkpoint must implement and test an explicit
+  opt-in adapter for those records and combined inline-example/hex-token/hex-row
+  indexes, preserve all historical modes and native bytes, and commit tooling
+  before full assembly. This is remaining implementation work, not a source gap.
+- Evidence: `private/pdf-restoration/12-1984-05-happy-reference-adapter`.
+  The issue ledger remains 30 readable/one partial, five groups/six unresolved.

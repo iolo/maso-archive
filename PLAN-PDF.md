@@ -328,10 +328,19 @@ Latest native exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-35`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next: separate full HAPPY-WORDS 208–215 assembly after native35 ending commit,
-using immutable native34/35 inputs and wrapped-reference-listing-v1. No physical
-row or prose join at 213/214. Then native36 needs fresh full 리뷰쌀롱 220 extent
-proof before mapping; 220/221 lookups establish only its opening.
+Native35 ending is committed as `1e763f6`; its post-commit audit passes. Full
+HAPPY-WORDS projection preflight reproduced a limitation of the existing adapter:
+its legacy listing-marker counter rejects three retained code markers, while
+the four immutable source marker records use exact regional excerpt ranges
+instead of legacy glyph fields. One marker is in prose. No full export was created.
+
+Next: separately implement, test and commit an opt-in adapter for these literal
+marker records and combined inline-example/hex-token/hex-row indexes. Preserve
+all existing modes and immutable native34/35 inputs. Preflight evidence:
+`private/pdf-restoration/12-1984-05-happy-reference-adapter`.
+Then assemble full HAPPY-WORDS 208–215; no physical row or prose join at 213/214.
+Native36 subsequently needs fresh full 리뷰쌀롱 220 extent proof before mapping;
+220/221 lookups establish only its opening.
 Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.

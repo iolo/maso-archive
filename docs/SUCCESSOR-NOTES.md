@@ -110,9 +110,16 @@ wrapped/reference/prompt projection and identical rebuilds pass; 189 prior nativ
 Exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-35`.
 
-Next: separate full HAPPY-WORDS 208–215 assembly after native35 ending commit;
-preserve native34/35 inputs using wrapped-reference-listing-v1. No 213/214 physical
-row or prose join. Then native36 needs fresh full 리뷰쌀롱 220 extent proof;
+Native35 ending committed `1e763f6`; post-commit audit passes. Full HAPPY projection
+preflight reproduced the existing adapter's legacy listing-marker counter failure.
+Three code markers and one prose marker have immutable regional excerpt records,
+without legacy glyph fields. No full export created or source input changed.
+Preflight evidence: `private/pdf-restoration/12-1984-05-happy-reference-adapter`.
+
+Next: separately implement, test and commit an opt-in marker-excerpt adapter with
+global inline-example/hex-token/hex-row projection; keep existing modes unchanged.
+Then full HAPPY-WORDS 208–215 assembly from preserved native34/35, with no 213/214
+physical row or prose join. Native36 then needs fresh full 리뷰쌀롱 220 extent proof;
 220/221 lookups establish only its opening. May still needs six unresolved TOC
 outcomes and a separate issue closeout.
 JSON/assets only;no rendering work is required.

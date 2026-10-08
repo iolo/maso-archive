@@ -113,8 +113,9 @@ PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
 May 1984 began on October 7. Thirty-one articles are sample-reviewed: 30 readable
 and one partial. Fourteen assemblies preserve 34 original segments.
-HAPPY-WORDS pages 208–215 are restored in two native segments; its separate full
-article assembly is next. Batch 35 also completes 메아리 on pages 216–217.
+HAPPY-WORDS pages 208–215 are restored in two native segments; an opt-in marker
+adapter is needed before full article assembly. Batch 35 also completes 메아리
+on pages 216–217.
 Five non-owning groups are classified; six TOC entries still await restoration
 or classification. Whole May and its issue closeout remain incomplete.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
