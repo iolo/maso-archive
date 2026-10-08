@@ -11001,3 +11001,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   scans prove opening only. Information radar89 andtwo classifications also remain.
 - Export:`build/pdf-restoration/12-1984-05-batch-37/qa`.
   Evidence:`private/pdf-restoration/12-1984-05-batch-37`.
+
+### 2026-10-08 — May native38, competition appendix opening230–235
+
+- Fresh continuous229–251 whole scans establish full appendix230–249 extent
+  before mapping. Final adult question40/answer key249 precede an independent
+  advertisement;250 contains an advertisement and advertising index. One article,
+  six mapped pages230–235 and17 outside-map lookups.
+- Delivered sample-reviewed partial JSON/assets:74 regions,51 ordered blocks,
+  22 original images,52 regional spans and111 text reviews. Introduction,all40
+  elementary questions/their40-answer key,middle1–11 and opening12 retained.
+  Remaining236–249 are deferred,not missing; full article assembly remains required.
+- Fifteen independent program groups retain111 physical/numbered rows in16 code
+  regions. Elementary question21 keeps10/20/30/40/40/30/50/99 and duplicate logical
+  occurrences; question30 spans233 columns40→50 on new rows. Middle12 has nine
+  rows10/15/20/25/30/35/40/45/50; new55/60 rows/choices236 remain outside this segment.
+- Seven numeric DATA statements retain20 literal candidates; string DATA and
+  multiple-choice alternatives remain indexed. Four physical answer-key rows have
+  52 searchable cells/11 blanks and40 separately indexed pairs. One prose join
+  preserves middle8 choice2 LEN/(Z$), alongside literal quoted-string wraps.
+  Twenty circled Hangul glyph candidates do not establish original encoding.
+- All60 text panels/22 original images reviewed;74 actual tasks,zero failures/
+  retries,no crop repairs. Initial/final maps and complete OCR bundles byte-identical.
+  Printed C=A-C,=<,=>,missingTHEN,technical claims and uncertain punctuation retained.
+  Full proofreading,source encoded bytes and execution remain unverified.
+- Corrected bookkeeping errors in provisional row arithmetic,recipe gap type and
+  Unicode-glyph metadata. Rejected recipes/corrections and the initial unpromoted
+  export are preserved. Exporter refused an overwrite; corrected output uses a
+  separate directory. No source/map/OCR/tooling changes or historical output edits.
+- Exact UTF-8/regional/table/cell/physical/logical/DATA/glyph indexes,regional/reference
+  and wrapped projection plus independent byte-identical rebuild pass.193 prior
+  native/34 assembly pins unchanged;15 May assemblies revalidated. Unchanged112-test
+  baseline reused;JSON/assets only.
+- Ledger retains42 canonical identities:33 readable/sample-reviewed articles,
+  one sample-reviewed partial appendix,five non-owning groups,three unresolved.
+  Fifteen May assemblies preserve36 immutable inputs;38 native checkpoints complete.
+  Whole May and separate issue closeout remain incomplete. Next native39 restores
+  appendix236–241; later242–249/full assembly,information radar89 and two classifications
+  remain.
+- Export:`build/pdf-restoration/12-1984-05-batch-38/appendix-reviewed`.
+  Evidence:`private/pdf-restoration/12-1984-05-batch-38`.

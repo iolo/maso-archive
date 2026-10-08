@@ -7,9 +7,10 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–37 and fifteen assemblies are complete:** 33 articles are
-readable and sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and four identities await restoration
+**May batches 01–38 and fifteen assemblies are complete:** 33 articles are
+readable and sample-reviewed; the competition appendix is sample-reviewed partial.
+All 42 canonical TOC identities remain;
+five non-owning groups are classified and three identities await restoration
 or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
 Fifteen assemblies preserve 36 immutable native segments. Whole May remains
@@ -177,11 +178,31 @@ Export:`build/pdf-restoration/12-1984-05-batch-37/qa`.
 Evidence:`private/pdf-restoration/12-1984-05-batch-37`.
 Do not rerun completed closeout or pre-promotion validation.
 
-Next: native38 requires fresh complete special-appendix extent proof from230
-before mapping. Earlier230 scans prove opening only. Review through its actual
-ending/independent neighbor within lookup ceilings,then restore first six pages.
-Information radar89 and two classification outcomes also remain. May now has
-33 readable/sample-reviewed articles,five groups,four unresolved TOC identities;
+Native38 restores the appendix's first230–235 segment. Fresh23 upright229–251
+scans prove full230–249 extent; six mapped pages/17 outside-map lookups.74 regions,
+51 blocks,22 original images,52 regional spans and111 text reviews. All60 panels/
+22 figures inspected;74 tasks,no failures/retries/repairs,unchanged maps/OCR bundles.
+Introduction,40 elementary questions/answer key,middle1–11 and question12 opening
+retained.111 physical/numbered rows in15 independent groups preserve duplicate30/40
+labels and question30's233 column continuation. Seven numeric DATA statements retain
+20 candidates; four key rows/52cells retain40 pairs/11 blanks. One prose join retains
+middle8 LEN/(Z$);20 circled Hangul glyphs and physical quoted-string wraps remain
+uncertain. Printed C=A-C,=<,=>,missingTHEN and provisional dot retained.
+236–249 deferred; middle12 resumes new55/60 rows and choices236. No invented END.
+Exact indexes,regional/reference/wrapped projection and identical rebuild pass;
+193 prior native/34 assembly pins unchanged,15 May assemblies revalidated. Unchanged
+112-test baseline reused. Initial incomplete-glyph-metadata export and rejected
+bookkeeping/refused-overwrite attempts preserved; only reviewed export is promoted.
+Export:`build/pdf-restoration/12-1984-05-batch-38/appendix-reviewed`.
+Evidence:`private/pdf-restoration/12-1984-05-batch-38`.
+Do not rerun completed closeout or pre-promotion validator/finalizer.
+
+Next: native39 maps appendix236–241 after fresh segment review, preserving pinned
+native38 full230–249 extent proof and immutable opening. Restore middle12's55/60
+rows/choices, middle ending/key239 and high-school opening239. High question28
+continues242; remaining242–249 and separate appendix assembly follow.
+Information radar89 and two classifications also remain. May has33 readable/
+sample-reviewed articles,one partial appendix,five groups,three unresolved identities;
 separate issue closeout is still required.
 JSON/assets only;no rendering work is required.
 
