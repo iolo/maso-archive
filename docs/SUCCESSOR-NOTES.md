@@ -7,13 +7,13 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–41 and fifteen assemblies are complete:** 33 articles are
-readable and sample-reviewed; the competition appendix is sample-reviewed partial.
+**May batches 01–41 and sixteen assemblies are complete:** 34 articles are
+readable and sample-reviewed, including the complete competition appendix 230–249.
 All 42 canonical TOC identities remain;
 five non-owning groups are classified and three identities await restoration
 or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
-Fifteen assemblies preserve 36 immutable native segments. Whole May remains
+Sixteen assemblies preserve 40 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
 
 Appendix source-candidate tooling is validated separately before assembly.
@@ -25,7 +25,7 @@ projection pass: 468 examples/160 answers, 58 groups, 436 physical/421 numbered 
 197 native/34 historical assembly pins and both unpromoted exports/40–41 OCR
 inventories remain unchanged. No full export or ledger promotion at this tooling step.
 Evidence: `private/pdf-restoration/12-1984-05-appendix-source-adapter`.
-Commit tooling, then build/rebuild/audit the separate full appendix before promotion.
+Tooling committed separately as `bdf0d8c`; full appendix assembly follows below.
 
 Native32 completes the cat ending196–197 and the function-key article198–201.
 It retains60 regions,43 ordered blocks,12 original images,48 regional spans,
@@ -302,17 +302,31 @@ Export: `build/pdf-restoration/12-1984-05-batch-41/appendix-reviewed`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-41`.
 Do not rerun completed native closeout or pre-promotion validation/finalizers.
 
-Next: assemble the full appendix 230–249 from exact pinned native 38 reviewed,
-39, 40 and 41 reviewed exports after native 41's commit/audit. Preserve all raw
-files and metadata, merge the middle 12 listing across 235/236 without a row join,
-and review the adult 30 prompt/choices boundary at 247/248. Validate complete
-coverage, source/index projection and an independent full rebuild before readable
-promotion. No new mapping/OCR is required. Information radar on 89, information-
-group/advertising-index classifications and separate issue closeout remain.
-May has33 readable/
-sample-reviewed articles,one partial appendix,five groups,three unresolved identities;
-separate issue closeout is still required.
-JSON/assets only;no rendering work is required.
+Full appendix230–249 assembly is complete after native41 `0db83cb` and separate
+tooling `bdf0d8c`. Four immutable original natives preserve313 regions/196 combined
+blocks/107 images,206 regional spans and456 text reviews. All four40-answer keys
+retain160 pairs. 468 inline examples,89 Unicode notation candidates and66 table
+rows/460cells/59blanks preserve uncertainty. Listing436physical rows retains421
+numbered entries,three wraps and12unnumbered rows in58groups;59 native group records
+remain unchanged. Middle12 joins only its group across235/236; adult30 prose joins
+with two newlines while both original blocks/ranges remain independently indexed.
+Nine native prose joins remain; no physical-row join or source program repair.
+
+All copied original files/metadata,197 native/34prior assembly pins,two unpromoted
+exports and40–41 OCR export inventories are preserved. Exact indexes and independent
+full rebuild pass;115-test baseline reused. One standalone source caption plus one
+embedded caption remain in their original forms. A validator's incorrect two-block
+caption assumption was corrected; the completed export and ledger stayed intact.
+Full proofreading,source bytes andexecution remain unverified. No new mapping/OCR.
+Export: `build/pdf-restoration/12-1984-05-appendix`.
+Evidence: `private/pdf-restoration/12-1984-05-appendix-assemble`.
+Do not rerun completed assembly closeout or pre-promotion validation.
+
+Next: native42 fresh full extent proof for information radar89 and advertising
+index250 before mapping; classify information group from canonical hierarchy/source
+proof. Exclude advertisement bodies. Whole-issue closeout follows all three remaining
+identities. May has34 readable/sample-reviewed articles,zero partials,five groups and
+three unresolved identities. JSON/assets only;no frontend/browser work required.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block

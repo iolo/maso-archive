@@ -32,13 +32,13 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–41 and fifteen assemblies are complete:** 33 articles are
-readable and sample-reviewed; the competition appendix is sample-reviewed partial.
+**May batches 01–41 and sixteen assemblies are complete:** 34 articles are
+readable and sample-reviewed, including the complete competition appendix 230–249.
 All 42 canonical TOC identities remain;
 five non-owning groups are classified and three identities await restoration
 or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
-Fifteen assemblies preserve 36 immutable native segments. Whole May remains
+Sixteen assemblies preserve 40 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
 
 The appendix source-candidate adapter is validated before full assembly. New opt-in
@@ -48,8 +48,24 @@ and explicit printed answer pairs without rewriting their verification fields.
 The real 20-page projection preserves 468 inline examples/160 answers, 58 listing
 groups and all original metadata. All 197 native/34 historical assembly pins and
 preserved unpromoted/OCR evidence inventories pass; the ledger is unchanged.
-Commit this tooling separately before the full appendix export.
+Tooling was committed separately as `bdf0d8c` before the full appendix export.
 Evidence: `private/pdf-restoration/12-1984-05-appendix-source-adapter`.
+
+Full appendix 230–249 assembly is complete after native41 `0db83cb` and separately
+tested tooling `bdf0d8c`. Four immutable natives retain 313 regions, 196 combined
+blocks, 107 original images, 206 regional spans and 456 text reviews. All four
+printed answer keys retain 160 pairs; 468 inline examples, 89 Unicode candidates
+and 66 table rows/460 cells/59 blanks are preserved. 436 physical listing rows
+retain 421 numbered entries, three wraps and 12 unnumbered rows in 58 groups.
+Middle12 merges its group across235/236 with fresh rows; adult30 prompt/choices
+join with an explicit paragraph boundary. Nine native prose joins and all original
+metadata remain unchanged. Independent full rebuild, exact indexes and197native/
+34priorassembly pins pass; two unpromoted exports and40–41 OCR inventories retained.
+115-test baseline reused. Full proofreading, source bytes and execution unverified.
+Remaining: information radar89, information-group/advertising-index classifications
+and separate issue closeout. No new mapping/OCR, HTML or browser work for assembly.
+Export: `build/pdf-restoration/12-1984-05-appendix`.
+Evidence: `private/pdf-restoration/12-1984-05-appendix-assemble`.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block
@@ -397,11 +413,11 @@ Export:`build/pdf-restoration/12-1984-05-batch-38/appendix-reviewed`.
 Evidence:`private/pdf-restoration/12-1984-05-batch-38`.
 
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01–41}`.
-Latest full export: `build/pdf-restoration/12-1984-05-happy`.
-Assembly evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
+Latest full export: `build/pdf-restoration/12-1984-05-appendix`.
+Assembly evidence: `private/pdf-restoration/12-1984-05-appendix-assemble`.
 Latest native export: `build/pdf-restoration/12-1984-05-batch-41/appendix-reviewed`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-41`.
-Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat,happy}`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat,happy,appendix}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
 Native35 ending is committed as `1e763f6`; its post-commit audit passes. Full
 HAPPY-WORDS projection preflight reproduced a limitation of the existing adapter:

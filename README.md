@@ -111,8 +111,8 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7. Thirty-three articles are readable and sample-reviewed.
-Fifteen assemblies preserve 36 original segments. Full HAPPY-WORDS pages 208–215
+May 1984 began on October 7. Thirty-four articles are readable and sample-reviewed.
+Sixteen assemblies preserve 40 original segments. Full HAPPY-WORDS pages 208–215
 are assembled with the separately committed, tested adapter. Batch 35 completes 메아리
 on pages 216–217. Batch 36 completes 리뷰 쌀롱 on pages 220–224, including all
 three product reviews and the TM-103 specifications table. Batch 37 completes
@@ -123,7 +123,7 @@ pages 236–241, including the middle-school ending/answer key and high-school
 opening. Batch 40 restores pages 242–247, including the high-school ending/answer
 key and adult opening. Batch 41 restores the ending on pages 248–249, including
 the ASCII table and adult answer key. Four immutable segments cover all appendix
-pages 230–249; full appendix assembly is next. A separate tested source-candidate
+pages 230–249; their full assembly is complete. The separately committed source-candidate
 adapter preserves the independent choices and all 160 printed answer pairs.
 Five non-owning groups are classified;
 three TOC entries await restoration or classification. Whole May and its issue closeout

@@ -11180,3 +11180,36 @@ history remains in [PROGRESS.md](PROGRESS.md).
   identities. Next: separately commit tooling, then build/rebuild/audit the full
   appendix; remaining identities and whole-issue closeout still required.
 - Evidence: `private/pdf-restoration/12-1984-05-appendix-source-adapter`.
+
+### 2026-10-08 — May full competition appendix assembly, pages 230–249
+
+- Separate full assembly follows committed native41 ending `0db83cb` and tested
+  source-candidate tooling `bdf0d8c`. Exact native38 reviewed/39/40/41 reviewed pins
+  cover all20 source pages. No new mapping, lookups, rendering, crop repairs or OCR.
+- Readable/sample-reviewed package retains313 regions,196 combined blocks,107 original
+  images,206 regional ranges and456 text reviews. Four answer keys preserve all160
+  printed pairs;468 independent inline examples and89 Unicode candidates remain.
+  Complete tables retain66 rows/460cells/59 blanks, including the ASCII omissions.
+- 436 physical listing rows retain421 numbered entries,three wraps and12 unnumbered
+  rows in58 groups;59 original group declarations remain unchanged. Middle12 joins
+  its group from235 line50 to new236 lines55/60 without joining physical rows.
+  Adult30 prompt247/choices248 join with an explicit two-newline paragraph boundary;
+  both original blocks/ranges remain indexed. Nine native prose joins preserved.
+- Printed errors, duplicate labels, blank operands, deliberate omissions, source
+  claims and uncertain glyphs remain literal or explicit. Original program/listing
+  bytes are concatenated unchanged; execution, source encoding and full proofreading
+  remain unverified. Original bitmaps retain authoritative geometry and punctuation.
+- Exact regional/table/cell/inline/glyph/physical/logical/source indexes and full
+  byte-identical rebuild pass. 967 original files copied unchanged with all metadata;
+  197 native/34prior assembly pins,two unpromoted exports and40–41 OCR evidence
+  inventories preserved. The separately passing115-test baseline is reused.
+- One validator assertion expected two standalone captions; actual native40 caption
+  is embedded in output prose and native41 caption is standalone. Corrected the
+  validator only; completed export stayed immutable and ledger was not yet promoted.
+- Ledger now34 readable/sample-reviewed articles,zero partials,five groups andthree
+  unresolved identities; all42 canonical IDs retained. 41native checkpoints and16
+  May assemblies preserve40 immutable inputs. Whole May/issue closeout incomplete.
+- Output:976files,137,800,921bytes. Export:`build/pdf-restoration/12-1984-05-appendix`.
+  Evidence:`private/pdf-restoration/12-1984-05-appendix-assemble`.
+- Next: native42 full source extent/classification for information radar89,
+  advertising index250 and information group; then separate issue closeout.
