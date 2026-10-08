@@ -32,13 +32,13 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–34 and fourteen assemblies are complete:** 30 articles are
-sample-reviewed,29 readable/one partial. All42 canonical TOC identities remain;
-five non-owning groups are classified andseven identities await restoration
-or classification. HAPPY-WORDS opening208–213 includes its complete BASIC listing.
-Ending214–215 andseparate fullassembly remain required. Fourteen assemblies
-preserve34 immutable native segments. Whole May remains incomplete;unprocessed
-content isnot missing.
+**May batches 01–35 and fourteen assemblies are complete:** 31 articles are
+sample-reviewed, 30 readable and one partial. All 42 canonical TOC identities remain;
+five non-owning groups are classified and six identities await restoration
+or classification. HAPPY-WORDS pages 208–215 are restored in two native segments;
+its separate full assembly remains required. 메아리 on 216–217 is complete.
+Fourteen assemblies preserve 34 immutable native segments. Whole May remains
+incomplete; unprocessed content is not missing.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block
@@ -299,17 +299,39 @@ Full proofreading,source glyphs/bytes andexecution unverified. JSON/assets only.
 Export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-34`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–34}`.
+Native35 completes HAPPY-WORDS ending 214–215 and 메아리 216–217: 22 regions,
+14 ordered blocks, seven original images, 15 regional spans and 24 text reviews.
+HAPPY LIST2/3 retain 128 unnumbered physical rows: two monitor prompts, 126 address
+rows and 1,000 hex-token candidates (19 monitor, 981 shape-table). The complete
+flowchart is preserved. 메아리's printed May patch retains 141 physical rows,
+78 numbered entries and 63 wraps; 1110 and 1180 REM cross columns. Eight DATA
+statements retain 228 integer candidates. The split headline retains both sources.
+The original April program is not supplied or invented.
+
+Nine fresh 213–221 scans established both extents before mapping; four mapped
+pages and five outside-map lookups. All 28 original/three revised text panels,
+seven images and one supplemental token inspection reviewed. One crop repaired
+once; 23 actual tasks, zero failures/retries. Enlarged first label 5, hex 61B8's
+final 52 and 63D0's 0D supersede preliminary readings; initial evidence retained.
+Printed FILL NAME, RECODER, colon-only rows 1194–1196 and punctuation candidates
+remain literal. Full proofreading, quoted spaces, source bytes and execution
+remain unverified. Exact indexes, wrapped/reference/prompt projection and identical
+rebuilds pass; all 189 prior native/33 assembly pins retained, 14 May assemblies
+revalidated. Unchanged 106-test baseline reused. No pipeline or rendering changes.
+Exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-35`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–35}`.
 Latest full export: `build/pdf-restoration/12-1984-05-cat`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-cat-assemble`.
-Latest native export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-34`.
+Latest native exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-35`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next native35: fresh HAPPY-WORDS214–215 ending/boundary review;restore LIST2
-monitor example,LIST3 shape hex andfull flowchart;exclude215lowerbookstoread.
-Optional 메아리216 onlyafterfreshfull extent proof andwithincombinedbatch limits.
-Existing216/217 lookups prove openingonly. Commitending beforeseparate assembly.
+Next: separate full HAPPY-WORDS 208–215 assembly after native35 ending commit,
+using immutable native34/35 inputs and wrapped-reference-listing-v1. No physical
+row or prose join at 213/214. Then native36 needs fresh full 리뷰쌀롱 220 extent
+proof before mapping; 220/221 lookups establish only its opening.
 Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.

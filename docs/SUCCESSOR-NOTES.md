@@ -7,13 +7,13 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–34 and fourteen assemblies are complete:** 30 articles are
-sample-reviewed,29 readable/one partial. All42 canonical TOC identities remain;
-five non-owning groups are classified andseven identities await restoration
-or classification. HAPPY-WORDS opening208–213 includes its complete BASIC listing.
-Ending214–215 andseparate fullassembly remain required. Fourteen assemblies
-preserve34 immutable native segments. Whole May remains incomplete;unprocessed
-content isnot missing.
+**May batches 01–35 and fourteen assemblies are complete:** 31 articles are
+sample-reviewed, 30 readable and one partial. All 42 canonical TOC identities remain;
+five non-owning groups are classified and six identities await restoration
+or classification. HAPPY-WORDS pages 208–215 are restored in two native segments;
+its separate full assembly remains required. 메아리 on 216–217 is complete.
+Fourteen assemblies preserve 34 immutable native segments. Whole May remains
+incomplete; unprocessed content is not missing.
 
 Native32 completes the cat ending196–197 and the function-key article198–201.
 It retains60 regions,43 ordered blocks,12 original images,48 regional spans,
@@ -90,12 +90,31 @@ wrapped/reference projection andbyte-identical rebuild pass. All188 priornative/
 Export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-34`.
 
-Next: native35,fresh HAPPY-WORDS214–215 ending/boundary review. Restore LIST2
-monitor example,LIST3 shape hex andcomplete flowchart;exclude215lowerbookstoread.
-Optional 메아리216 onlyafterfreshfull extent proof withinbatch limits;216/217
-lookups proveopeningonly. Ending nativecommit must precedeseparatefullassembly.
-May still needsseven unresolved TOC outcomes,partial HAPPY-WORDS completion
-andaseparate issue closeout.
+Native35 completes HAPPY-WORDS ending 214–215 and 메아리 216–217: 22 regions,
+14 blocks, seven images, 15 regional spans and 24 text reviews. HAPPY LIST2/3
+retain 128 unnumbered physical rows, two prompts, 126 address rows and 1,000
+hex-token candidates; the complete flowchart is preserved. 메아리's printed May
+patch has 141 physical rows/78 numbered entries/63 wraps, including 1110/1180
+REM column continuations; eight DATA statements retain 228 integer candidates.
+The headline joins its two printed parts. No April original program invented.
+
+Nine fresh 213–221 scans proved extents before mapping: four mapped pages/five
+outside-map lookups. All 28 original/three revised text panels, seven images and
+one supplemental token inspection reviewed. One crop repaired once; 23 tasks,
+zero failures/retries. Source first label 5, 61B8's final 52 and 63D0's 0D supersede
+preliminary readings; initial evidence retained. FILL NAME, RECODER, 1194–1196
+colon-only rows and punctuation candidates remain literal. Full proofreading,
+quoted spaces, source bytes and execution remain unverified. Exact indexes,
+wrapped/reference/prompt projection and identical rebuilds pass; 189 prior native/
+33 assembly pins unchanged, 14 May assemblies revalidated, 106-test baseline reused.
+Exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-35`.
+
+Next: separate full HAPPY-WORDS 208–215 assembly after native35 ending commit;
+preserve native34/35 inputs using wrapped-reference-listing-v1. No 213/214 physical
+row or prose join. Then native36 needs fresh full 리뷰쌀롱 220 extent proof;
+220/221 lookups establish only its opening. May still needs six unresolved TOC
+outcomes and a separate issue closeout.
 JSON/assets only;no rendering work is required.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,

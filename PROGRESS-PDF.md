@@ -10836,3 +10836,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Optional 메아리 onlyafterfreshfull extent proof withincombinedbatchlimits.
 - Export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-batch-34`.
+
+### 2026-10-08 — May native35, HAPPY-WORDS ending and complete 메아리
+
+- Nine fresh upright scans 213–221 established HAPPY-WORDS ending 214–215 and
+  complete 메아리 216–217 before mapping. Two articles/four mapped pages/five
+  outside-map lookups. Lower bookstore ad 215 and publisher ads 218/219 excluded;
+  independent 리뷰쌀롱 220 is deferred and its complete extent remains unverified.
+- Delivered JSON/assets: 22 regions, 14 ordered blocks, seven original images,
+  15 regional spans and 24 text reviews. HAPPY ending is partial pending assembly;
+  메아리 is readable/sample-reviewed. No separately printed figure captions.
+- HAPPY LIST2 monitor/LIST3 shape table retain 128 unnumbered physical rows,
+  two prompts, 126 address rows and 1,000 literal hex-token candidates: 19 monitor,
+  981 shape-table. Left shape column has 53 rows 6000–61A0, right has 70 rows
+  61A8–63D0; final five tokens are 18 24 0D 00 00. Complete flowchart preserved.
+- 메아리's May patch has 141 physical rows/78 numbered entries/63 wraps, starting
+  5 and ending 2000 END. Logical 1110 REM carries 216 to 217 left; 1180 REM carries
+  217 left to right. Eight DATA statements retain 228 integer candidates. The
+  split headline retains both regional sources. No April original program invented.
+- Enlarged source 5, 61B8's final 52 and 63D0's 0D supersede preliminary candidates;
+  original lookup/maps/OCR retained. Printed FILL NAME, RECODER, double-colon and
+  apostrophe-like marks, semicolon-colon combinations and colon-only 1194–1196
+  rows preserved. No 1165/1192 label invented. Full proofreading, quoted spaces,
+  source encoded bytes and execution remain unverified.
+- All 28 original/three revised text panels, seven figures and one supplemental
+  token inspection reviewed. One distinct code crop widened once; 23 actual tasks
+  (22 initial/one repair), zero failures/retries. A mapping schema guard rejected
+  a structured evidence item before OCR; corrected to the required string form.
+  Source settings/positions, attempts and immutable raw OCR preserved.
+- Exact UTF-8/regional/physical/logical/DATA/hex/prompt indexes, wrapped/reference/
+  prompt projection and byte-identical rebuilds pass. All 189 prior native and
+  33 assembly pins retained; 14 May assemblies revalidated. Unchanged 106-test
+  baseline reused. No pipeline, HTML, frontend or browser changes.
+- Ledger retains all 42 canonical identities: 31 sample-reviewed articles,
+  30 readable/one partial; five non-owning groups and six unresolved entries.
+  Whole May and issue closeout remain incomplete. Commit native35 before separate
+  full HAPPY-WORDS 208–215 assembly using immutable native34/35. Then native36
+  requires fresh full 리뷰쌀롱 extent proof before mapping.
+- Exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-35`.
