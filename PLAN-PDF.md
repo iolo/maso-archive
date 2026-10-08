@@ -2,15 +2,6 @@
 
 ## Scope and current next step
 
-Radar assembly preflight found that the immutable May news candidates use regional
-headline/body spans rather than the older complete-item ownership format. The
-separate radar news adapter projects those exact spans, preserves original metadata
-and unverified claims, and rejects mismatched scans/ranges, duplicate identities
-or numbers and cross-segment joins. The two native exports remain unchanged.
-117 PDF tests pass; real projection and prior-artifact checks are recorded in
-`private/pdf-restoration/12-1984-05-radar-news-adapter`. Commit this tooling
-checkpoint before full radar assembly and the separate May issue closeout.
-
 **Scope clarified 2026-10-02:** this plan converts eligible PDF content into
 structured JSON and extracted image assets. Deliver article/issue identities,
 ordered text/code/caption blocks, figures and covers, source/region provenance,
@@ -23,33 +14,40 @@ to a separate rendering task. They are not prerequisites at any checkpoint,
 including issue closeout and final campaign completion. PDF page rasterization
 and cropping for OCR, scan review, and image extraction remain in scope.
 
-November 1983, February 1984 and **March 1984 are complete**; 16 eligible issues
-remain. March accounts for all 44 TOC entries: 38 articles and six section headings.
-All 38 articles are sample-reviewed; 37 are readable. The word-processor article
-is partial because printed pages 250–251 are absent from the PDF. All available
-eligible content is restored, with no invented continuation.
+November 1983, February 1984, March 1984 and May 1984 are complete.
+April has no supplied PDF, as confirmed by the owner. March retains one terminal
+partial due to absent printed pages 250–251; all available content is restored.
+March's completed package and report remain unchanged.
 
-March's standalone JSON/assets package is
-`build/pdf-restoration/12-1984-03-reference/issue.json`; the completion report is
-`build/pdf-restoration/12-1984-03-closeout/report.json`. It covers 237 source pages,
-1,794 regions, 1,143 blocks, 314 figures and 7,078 physical listing rows. Checks of
-canonical identities, source geometry, all 6,957 copied article files and a
-byte-identical issue rebuild pass. The package has 6,963 files totaling
-1,752,191,791 bytes. Historical errors, uncertain glyphs and proofreading limits
-remain explicit. No pipeline change or rendering work was required; the 90-test
-tooling baseline remains current.
+**May 1984 is complete under the JSON/assets scope.** All 42 canonical TOC
+entries are accounted: 36 readable, sample-reviewed articles and six non-owning
+headings. There are no partial, failed, image-only or unresolved outcomes, no
+deferred source pages and no pending assemblies. Canonical IDs, titles and parents
+are unchanged. Full proofreading, source encoded bytes and historical program
+execution remain unverified; original errors and uncertain glyphs are preserved.
 
-May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
-The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–43 and seventeen assemblies are complete:** all 36 articles
-are readable and sample-reviewed; six non-owning headings account for the other
-TOC entries. All 42 canonical identities, titles and parents remain unchanged.
-The full information radar on pages 89–96 is assembled from two immutable natives,
-with 19 news items, 84 regional spans, 144 review ranges, seven images and the
-13-row award table retaining seven blank cells. Exact copies/indexes and an
-independent byte-identical rebuild pass. Seventeen May assemblies preserve 42
-immutable native inputs. The 117-test tooling baseline is unchanged after the
-separate news adapter commit `f8fa518`. Whole-May JSON/assets closeout remains.
+The standalone issue index is `build/pdf-restoration/12-1984-05-reference/issue.json`;
+the report is `build/pdf-restoration/12-1984-05-closeout/report.json`. They cover
+217 source pages, 1,964 regions, 1,353 blocks, 403 figures and 5,978 physical listing rows.
+All 7,334 original article files are copied exactly.
+The issue package has 7,340 files totaling 1,558,818,169 bytes. Canonical
+accounting, source/page geometry, package/assets, correction evidence and an
+independent byte-identical issue rebuild pass. The verified source cover and its
+provenance accompany the report; the canonical thumbnail is retained in the issue.
+
+Forty-three native checkpoints and seventeen assemblies preserve 42 immutable
+May inputs. All 200 native/36 assembly manifests and prior OCR/unpromoted evidence
+inventories remain unchanged. The separately committed radar news adapter `f8fa518`
+passes 117 PDF tests; the closeout reuses that unchanged baseline. No new OCR,
+HTML, frontend, browser or reader work was required. June 1984 is next and has
+not started. Fifteen supplied eligible issues remain after May.
+
+Evidence: `private/pdf-restoration/12-1984-05-closeout/validation.json` and
+`completion-audit.json`. The pre-export cover-root validation failure is retained;
+the corrected installed-cover path passes without changing any asset.
+
+The checkpoint records below are historical evidence; the completion above
+supersedes their earlier next-step and aggregate status statements.
 
 The appendix source-candidate adapter is validated before full assembly. New opt-in
 `wrapped-source-reference-v1` projects the natives' independent choice candidates

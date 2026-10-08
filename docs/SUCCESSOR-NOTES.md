@@ -1,27 +1,38 @@
 # Successor notes — 2026-09-26 implementation wrap-up
 
-May radar assembly preflight exposed a saved news-index format mismatch. The
-separate adapter supports the natives' regional candidates with exact scan/range
-validation and unchanged original metadata. 117 PDF tests pass. Evidence:
-`private/pdf-restoration/12-1984-05-radar-news-adapter`. Commit/audit tooling
-before radar assembly; no native export or issue ledger is changed by this step.
+Current PDF status, 2026-10-08: November 1983, February 1984, March 1984
+and May 1984 are complete under [PLAN-PDF.md](../PLAN-PDF.md)'s data-only scope.
+March's sole terminal partial remains explicit; no April PDF is supplied.
 
-**Current PDF status, 2026-10-08:** November 1983, February 1984 and March 1984
-are complete under [PLAN-PDF.md](../PLAN-PDF.md)'s data-only scope. March's 44 TOC
-entries comprise 38 articles and six section headings. All articles are
-sample-reviewed: 37 readable and one terminal partial due to a source gap.
-Printed pages 250–251 are absent; all available word-processor pages 244–249 are
-restored. No continuation was invented.
+**May 1984 is complete under the JSON/assets scope.** All 42 canonical TOC
+entries are accounted: 36 readable, sample-reviewed articles and six non-owning
+headings. There are no partial, failed, image-only or unresolved outcomes, no
+deferred source pages and no pending assemblies. Canonical IDs, titles and parents
+are unchanged. Full proofreading, source encoded bytes and historical program
+execution remain unverified; original errors and uncertain glyphs are preserved.
 
-**May batches 01–43 and seventeen assemblies are complete:** all 36 articles
-are readable and sample-reviewed; six non-owning headings account for the other
-TOC entries. All 42 canonical identities, titles and parents remain unchanged.
-The full information radar on pages 89–96 is assembled from two immutable natives,
-with 19 news items, 84 regional spans, 144 review ranges, seven images and the
-13-row award table retaining seven blank cells. Exact copies/indexes and an
-independent byte-identical rebuild pass. Seventeen May assemblies preserve 42
-immutable native inputs. The 117-test tooling baseline is unchanged after the
-separate news adapter commit `f8fa518`. Whole-May JSON/assets closeout remains.
+The standalone issue index is `build/pdf-restoration/12-1984-05-reference/issue.json`;
+the report is `build/pdf-restoration/12-1984-05-closeout/report.json`. They cover
+217 source pages, 1,964 regions, 1,353 blocks, 403 figures and 5,978 physical listing rows.
+All 7,334 original article files are copied exactly.
+The issue package has 7,340 files totaling 1,558,818,169 bytes. Canonical
+accounting, source/page geometry, package/assets, correction evidence and an
+independent byte-identical issue rebuild pass. The verified source cover and its
+provenance accompany the report; the canonical thumbnail is retained in the issue.
+
+Forty-three native checkpoints and seventeen assemblies preserve 42 immutable
+May inputs. All 200 native/36 assembly manifests and prior OCR/unpromoted evidence
+inventories remain unchanged. The separately committed radar news adapter `f8fa518`
+passes 117 PDF tests; the closeout reuses that unchanged baseline. No new OCR,
+HTML, frontend, browser or reader work was required. June 1984 is next and has
+not started. Fifteen supplied eligible issues remain after May.
+
+Evidence: `private/pdf-restoration/12-1984-05-closeout/validation.json` and
+`completion-audit.json`. The pre-export cover-root validation failure is retained;
+the corrected installed-cover path passes without changing any asset.
+
+The records below describe historical checkpoints; follow the completion above
+for current status. June restoration has not started.
 
 Appendix source-candidate tooling is validated separately before assembly.
 New opt-in `wrapped-source-reference-v1` accepts the immutable choice candidates'

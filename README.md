@@ -109,23 +109,16 @@ The completed implementation is a private reading/restoration reference. Origina
 ISOs, decoder probes, recovered bodies/assets, generated sites and browser
 artifacts are excluded from Git. No public deployment was performed.
 
-PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
-February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7. All 36 articles are readable and sample-reviewed;
-six non-owning headings complete the 42-entry TOC accounting. Seventeen assemblies
-preserve 42 immutable native inputs, including the full radar on pages 89–96 and
-competition appendix on pages 230–249. The radar retains all 19 news items,
-original figures, regional ranges and the award table's seven blank cells.
-Exact source indexes, unchanged native copies and a byte-identical full radar
-rebuild pass. Separate tooling commit `f8fa518` supports its regional news metadata;
-117 PDF tests pass. Whole-May JSON/assets issue closeout is next.
-Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
-pass. All 117 PDF tooling tests pass.
+PDF restoration is a separate JSON/assets campaign. November 1983, February
+1984, March 1984 and May 1984 are complete; 15 supplied eligible issues remain.
+May accounts for all 42 TOC entries: 36 readable/sample-reviewed articles and six
+non-owning headings, with no source gaps or pending assemblies. Its standalone
+issue index is `build/pdf-restoration/12-1984-05-reference/issue.json`; the report
+is `build/pdf-restoration/12-1984-05-closeout/report.json`. Exact original copies,
+source/correction indexes, asset integrity and a byte-identical issue rebuild pass.
+The separately committed tooling baseline passes 117 PDF tests. Full proofreading
+and historical code execution remain unverified. June is next and has not started.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
-
-The May radar assembly requires a separately tested news-candidate adapter.
-It preserves exact regional headline/body ranges and original metadata; 117 PDF
-tests pass. Native text/scans remain immutable. Assembly and issue closeout follow.
 
 ## Validation and handoff
 

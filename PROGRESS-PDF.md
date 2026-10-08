@@ -1,5 +1,42 @@
 # PDF restoration progress
 
+### 2026-10-08 — Complete May 1984 JSON/assets issue closeout
+
+**May 1984 is complete under the JSON/assets scope.** All 42 canonical TOC
+entries are accounted: 36 readable, sample-reviewed articles and six non-owning
+headings. There are no partial, failed, image-only or unresolved outcomes, no
+deferred source pages and no pending assemblies. Canonical IDs, titles and parents
+are unchanged. Full proofreading, source encoded bytes and historical program
+execution remain unverified; original errors and uncertain glyphs are preserved.
+
+The standalone issue index is `build/pdf-restoration/12-1984-05-reference/issue.json`;
+the report is `build/pdf-restoration/12-1984-05-closeout/report.json`. They cover
+217 source pages, 1,964 regions, 1,353 blocks, 403 figures and 5,978 physical listing rows.
+All 7,334 original article files are copied exactly.
+The issue package has 7,340 files totaling 1,558,818,169 bytes. Canonical
+accounting, source/page geometry, package/assets, correction evidence and an
+independent byte-identical issue rebuild pass. The verified source cover and its
+provenance accompany the report; the canonical thumbnail is retained in the issue.
+
+Forty-three native checkpoints and seventeen assemblies preserve 42 immutable
+May inputs. All 200 native/36 assembly manifests and prior OCR/unpromoted evidence
+inventories remain unchanged. The separately committed radar news adapter `f8fa518`
+passes 117 PDF tests; the closeout reuses that unchanged baseline. No new OCR,
+HTML, frontend, browser or reader work was required. June 1984 is next and has
+not started. Fifteen supplied eligible issues remain after May.
+
+Evidence: `private/pdf-restoration/12-1984-05-closeout/validation.json` and
+`completion-audit.json`. The pre-export cover-root validation failure is retained;
+the corrected installed-cover path passes without changing any asset.
+
+Requirement-by-requirement completion audit passes PLAN-PDF sections 11/12 and
+the data-only scope: full TOC accounting, explicit outcomes, complete available
+source coverage, segmented assembly, preserved raw evidence/corrections, validated
+standalone index/report/assets, reproducibility and previous-artifact preservation.
+Only ledger closeout metadata changed; all article entries remain exact. No next
+issue started. Documentation commit and postcommit audit finish this checkpoint.
+
+
 ### 2026-10-08 — Full May information radar assembly
 
 - After native43 `e4dbea9` and separately validated news adapter `f8fa518`,
