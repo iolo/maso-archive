@@ -10946,8 +10946,6 @@ history remains in [PROGRESS.md](PROGRESS.md).
   fresh complete Q&A225–229 proof before mapping; exclude lower recruitment ad229.
 - Export: `build/pdf-restoration/12-1984-05-batch-36/review`.
   Evidence: `private/pdf-restoration/12-1984-05-batch-36`.
-  The issue ledger remains 30 readable/one partial, five groups/six unresolved.
-
 ### 2026-10-08 — HAPPY-WORDS literal-reference adapter
 
 - Added explicit opt-in `wrapped-literal-reference-v1`. Marker excerpts must cover
@@ -10969,3 +10967,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
   groups/six unresolved. Tooling must be committed before separate full assembly;
   whole May and issue closeout remain incomplete.
 - Evidence: `private/pdf-restoration/12-1984-05-happy-reference-adapter`.
+
+### 2026-10-08 — May native37, complete Q&A225–229
+
+- Seven fresh upright224–230 scans establish complete extent before mapping.
+  One article/five mapped pages/two outside-map lookups. Final answer/end marker229
+  and all seven listings precede independent appendix230. Lower recruitment ad229
+  excluded by reviewed crop bounds.
+- Delivered readable/sample-reviewed JSON/assets:49 regions,30 ordered blocks,
+  12 original images,eight captions,37 regional spans and76 text reviews. Eight
+  question/answer sections retain six prose groups/seven region boundaries.
+- Seven printed listings retain nine literal groups,including separate list4
+  hex/disassembly representations and figure1 hex table.112 physical rows:
+  48 numbered/64 unnumbered;45 hex rows/166 candidates andsix inline examples.
+  List6 continues170→180 across229 columns;list7 ends250 without inferred terminator.
+- Literal CGINT/CGINIT,커서나,메모리 경영,서브루틴은,28바이트 and11H beside
+  11-byte prose retained. PATTERN caption retains provisional8-like reading with
+  explicit3/8 ambiguity. Full proofreading,glyphs,quoted spacing,source encoded
+  bytes and execution remain unverified. Original bitmaps authoritative.
+- All48 text panels/12 original images reviewed;49 actual tasks,zero failures/
+  retries,no crop repairs. Initial/final maps and complete OCR bundles are
+  byte-identical. Two rejected pre-export map-bookkeeping attempts are saved;
+  original provenance kept without OCR rerun or source change. A validation
+  assertion counting an unrelated 문 was corrected to count question block starts.
+- Exact UTF-8/regional/caption/physical/logical/hex indexes,regional/reference and
+  wrapped listing projection and independent byte-identical rebuild pass.
+  All192 prior native/34 assembly pins unchanged;15 May assemblies revalidated.
+  Unchanged112-test baseline reused. No pipeline,HTML,frontend or browser work.
+- Ledger retains42 canonical identities:33 readable/sample-reviewed articles,
+  five non-owning groups,four unresolved. Fifteen May assemblies retain36 immutable
+  inputs. Whole May and separate issue closeout remain incomplete. Next native38
+  requires fresh complete special-appendix extent/boundary proof from230;earlier
+  scans prove opening only. Information radar89 andtwo classifications also remain.
+- Export:`build/pdf-restoration/12-1984-05-batch-37/qa`.
+  Evidence:`private/pdf-restoration/12-1984-05-batch-37`.

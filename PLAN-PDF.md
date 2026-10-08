@@ -32,9 +32,9 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–36 and fifteen assemblies are complete:** 32 articles are
+**May batches 01–37 and fifteen assemblies are complete:** 33 articles are
 readable and sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and five identities await restoration
+five non-owning groups are classified and four identities await restoration
 or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
 Fifteen assemblies preserve 36 immutable native segments. Whole May remains
@@ -338,11 +338,34 @@ assemblies revalidated. Unchanged112-test baseline reused. JSON/assets only.
 Export: `build/pdf-restoration/12-1984-05-batch-36/review`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-36`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–36}`.
+Native37 completes Q&A225–229:49 regions,30 ordered blocks,12 original images,
+eight captions,37 regional spans and76 text reviews. All eight question/answer
+sections and seven printed listings remain. Separate list4 hex/disassembly
+representations and figure1 hex table form nine literal groups.112 physical rows
+retain48 numbered entries/64 unnumbered rows;45 hex rows retain166 candidates.
+List6 continues170→180 across229 columns on fresh rows. List7 ends250 without
+invented END/RETURN. Six prose groups retain seven native region boundaries.
+Printed CGINT/CGINIT,커서나,메모리 경영,서브루틴은,28바이트 and11H alongside
+11-byte prose retained. PATTERN caption has provisional8-like reading with explicit
+3/8 uncertainty. Full proofreading,quoted spacing,source bytes/execution unverified.
+Seven fresh224–230 scans proved complete extent before mapping:five mapped pages/
+two outside-map lookups. All48 text panels/12 original images reviewed;49 actual
+tasks,zero failures/retries,no crop repairs. Lower recruitment ad229 excluded by
+verified crop bounds. Initial/final maps and OCR bundles remain byte-identical.
+Two rejected pre-export map-bookkeeping attempts are retained in private evidence;
+original map provenance was kept without new OCR or source changes.
+Exact UTF-8/regional/caption/physical/logical/hex indexes,regional/reference and
+wrapped listing projection and independent identical rebuild pass.192 prior native/
+34 assembly pins retained;15 May assemblies revalidated. Unchanged112-test baseline
+reused. JSON/assets only;no pipeline or rendering changes.
+Export:`build/pdf-restoration/12-1984-05-batch-37/qa`.
+Evidence:`private/pdf-restoration/12-1984-05-batch-37`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–37}`.
 Latest full export: `build/pdf-restoration/12-1984-05-happy`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
-Latest native export: `build/pdf-restoration/12-1984-05-batch-36/review`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-36`.
+Latest native export: `build/pdf-restoration/12-1984-05-batch-37/qa`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-37`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat,happy}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
 Native35 ending is committed as `1e763f6`; its post-commit audit passes. Full
@@ -370,11 +393,12 @@ in original metadata. All original files/metadata and 191 native/33 prior assemb
 pins are preserved. Fresh full rebuild is byte-identical. No new OCR or mapping;
 112-test baseline reused. Source uncertainty and three native prose joins remain;
 no physical row or prose join at 213/214. Only HAPPY availability is promoted.
-Next: native37 needs fresh full Q&A225–229 extent proof before mapping.
-Native36 lookups show its complete extent but do not replace the fresh review.
-Seven listings/figure1, prose continuations225/226,227/228,228/229 and LIST6
-left-to-right229 need source-linked restoration. Exclude the independent lower
-recruitment ad229. Special appendix230 opening only; complete extent unverified.
+Next: native38 needs fresh complete special-appendix extent/boundary proof from230
+before mapping. Earlier230 scans establish only its opening. Verify every page
+through the actual ending and independent neighbor within lookup limits, then
+restore the first six pages. Information radar89 and the information-group/advertising
+index classification outcomes also remain. Four unresolved TOC identities and
+separate issue closeout remain;whole May is incomplete.
 Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.

@@ -7,9 +7,9 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–36 and fifteen assemblies are complete:** 32 articles are
+**May batches 01–37 and fifteen assemblies are complete:** 33 articles are
 readable and sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and five identities await restoration
+five non-owning groups are classified and four identities await restoration
 or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
 Fifteen assemblies preserve 36 immutable native segments. Whole May remains
@@ -157,12 +157,32 @@ Export: `build/pdf-restoration/12-1984-05-batch-36/review`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-36`.
 Do not rerun completed closeout or pre-promotion validation.
 
-Next: native37 needs fresh full Q&A225–229 extent/boundary proof. Native36 lookups
-show its full extent but fresh source review remains required. Restore seven
-listings/figure1, NEW answer225→226, graphics answer227→228, final answer228→229,
-and LIST6 left→right229. Exclude lower recruitment ad229. Appendix230 opening
-only; complete extent unverified. May still needs five unresolved TOC outcomes
-and a separate issue closeout.
+Native37 completes Q&A225–229:49 regions/30 blocks/12 original images,eight
+captions,37 regional spans/76 reviews. Eight question/answer sections and all seven
+listings retained. Nine literal groups include separate list4 hex/disassembly and
+figure1 hex table.112 physical rows retain48 numbered/64 unnumbered rows;45 hex
+rows retain166 candidates. List6 shares a group across229 columns;list7 ends250
+without an invented terminator. Six prose groups preserve seven region boundaries.
+Printed CGINT/CGINIT,커서나,메모리 경영,서브루틴은 and11H remain literal.
+PATTERN caption retains provisional8-like reading with3/8 uncertainty. Source
+glyphs/quoted spacing,encoded bytes/execution and full proofreading unverified.
+Seven fresh224–230 whole scans prove extent;five mapped pages/two outside-map
+lookups. All48 text panels/12 original images reviewed;49 tasks,zero failures/
+retries,no repairs. Lower ad229 excluded by crop bounds;initial/final maps and
+OCR bundles remain byte-identical. Rejected map-bookkeeping attempts preserved.
+Exact indexes,regional/reference/wrapped projection and identical rebuild pass;
+192 prior native/34 assembly pins retained,15 May assemblies revalidated.
+Unchanged112-test baseline reused;no pipeline or rendering changes.
+Export:`build/pdf-restoration/12-1984-05-batch-37/qa`.
+Evidence:`private/pdf-restoration/12-1984-05-batch-37`.
+Do not rerun completed closeout or pre-promotion validation.
+
+Next: native38 requires fresh complete special-appendix extent proof from230
+before mapping. Earlier230 scans prove opening only. Review through its actual
+ending/independent neighbor within lookup ceilings,then restore first six pages.
+Information radar89 and two classification outcomes also remain. May now has
+33 readable/sample-reviewed articles,five groups,four unresolved TOC identities;
+separate issue closeout is still required.
 JSON/assets only;no rendering work is required.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
