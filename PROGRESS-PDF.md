@@ -1,5 +1,19 @@
 # PDF restoration progress
 
+### 2026-10-08 — May radar regional news adapter
+
+- Full radar preflight failed before export: saved natives use regional news
+  candidate spans, while the existing projector requires complete-item ownership.
+  The original failure is retained; no native text, scans or ledger changed.
+- Added candidate projection with exact regional range/scan validation, namespaced
+  identities, unique ordered numbers and explicit unverified claims. Original
+  metadata remains exact; no complete-item ownership is inferred.
+- 117 PDF tests pass, including rejection of wrong scans, spans and verification
+  claims. Real 19-item projection, all 200 native/35 assembly pins and prior
+  assembly checks are recorded in the private adapter checkpoint. The validator's
+  initial stale tooling-pin failure is retained; updated tooling pins are explicit.
+- Commit/audit separately before dependent radar assembly, then May issue closeout.
+
 Progress for [PLAN-PDF.md](PLAN-PDF.md). Record every PDF restoration step here,
 including named batch checkpoints and issue closeouts during the bulk pass. Earlier CD and reading-room
 history remains in [PROGRESS.md](PROGRESS.md).

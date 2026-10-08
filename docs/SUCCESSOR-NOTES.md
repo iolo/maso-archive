@@ -1,5 +1,11 @@
 # Successor notes — 2026-09-26 implementation wrap-up
 
+May radar assembly preflight exposed a saved news-index format mismatch. The
+separate adapter supports the natives' regional candidates with exact scan/range
+validation and unchanged original metadata. 117 PDF tests pass. Evidence:
+`private/pdf-restoration/12-1984-05-radar-news-adapter`. Commit/audit tooling
+before radar assembly; no native export or issue ledger is changed by this step.
+
 **Current PDF status, 2026-10-08:** November 1983, February 1984 and March 1984
 are complete under [PLAN-PDF.md](../PLAN-PDF.md)'s data-only scope. March's 44 TOC
 entries comprise 38 articles and six section headings. All articles are

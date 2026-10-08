@@ -2,6 +2,15 @@
 
 ## Scope and current next step
 
+Radar assembly preflight found that the immutable May news candidates use regional
+headline/body spans rather than the older complete-item ownership format. The
+separate radar news adapter projects those exact spans, preserves original metadata
+and unverified claims, and rejects mismatched scans/ranges, duplicate identities
+or numbers and cross-segment joins. The two native exports remain unchanged.
+117 PDF tests pass; real projection and prior-artifact checks are recorded in
+`private/pdf-restoration/12-1984-05-radar-news-adapter`. Commit this tooling
+checkpoint before full radar assembly and the separate May issue closeout.
+
 **Scope clarified 2026-10-02:** this plan converts eligible PDF content into
 structured JSON and extracted image assets. Deliver article/issue identities,
 ordered text/code/caption blocks, figures and covers, source/region provenance,

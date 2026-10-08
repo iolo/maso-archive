@@ -6,6 +6,10 @@ def project_news(context, result, project_range, positions):
         return
     items = original.get('news_item_index')
     headers = original.get('section_header_region_ids')
+    if headers is None and isinstance(items, list) and items and all(
+            isinstance(row, dict) and 'news_item_id' in row for row in items):
+        project_news_candidates(context, result, project_range, positions, items)
+        return
     regions = {r['id']: r for r in source['regions']}
     blocks = {b['id']: b for b in source['blocks']}
     figures = {f['id']: f for f in source['figures']}
@@ -80,3 +84,50 @@ def project_news(context, result, project_range, positions):
         raise ValueError('News items and section headers must cover every included region')
     result.setdefault('news_item_index', []).extend(projected)
     result.setdefault('section_header_region_ids', []).extend(context.identity(id, regions) for id in headers)
+
+
+def project_news_candidates(context, result, project_range, positions, items):
+    """Preserve regional candidate indexes without inventing full item ownership."""
+    originals = context.correction['regional_text_index']
+    regions = {r['id']: r for r in context.source['regions']}
+    projected = []
+    ids, numbers, owned = set(), set(), set()
+    previous = 0
+    for row in items:
+        id, number = row.get('news_item_id'), row.get('number')
+        if (not isinstance(id, str) or not id.strip() or id in ids or
+                type(number) is not int or number <= previous or number in numbers or
+                row.get('section') not in ('domestic', 'foreign') or
+                row.get('source_claims_verified') is not False):
+            raise ValueError('News candidate requires ordered identity and unverified claims')
+        ids.add(id); numbers.add(number); previous = number
+        headline, spans, body = row.get('headline'), row.get('source_spans'), row.get('source_regions')
+        if (not isinstance(headline, dict) or not isinstance(spans, list) or not spans or
+                not isinstance(body, list) or body != [r.get('region_id') for r in spans] or
+                any(not isinstance(r, str) or r not in regions for r in body) or
+                len(set(body)) != len(body)):
+            raise ValueError('News candidate requires ordered mapped regional spans')
+        all_spans = [headline] + spans
+        local = {r.get('region_id') for r in all_spans}
+        if len(local) != len(all_spans) or owned & local:
+            raise ValueError('News candidate regions overlap another source item')
+        owned |= local
+        revised_spans = []
+        for span in all_spans:
+            if not any(all(span.get(k) == parent.get(k) for k in
+                    ('block_id', 'region_id', 'scan', 'download', 'utf8_byte_start',
+                     'utf8_byte_end_exclusive')) for parent in originals):
+                raise ValueError('News candidate differs from its complete regional source range')
+            block = span['block_id']
+            if positions[context.identity(block, context.blocks)] != (context.identity(block, context.blocks), 0):
+                raise ValueError('News candidates cannot use cross-segment prose joins')
+            revised_spans.append(project_range(span))
+        revised = dict(row, news_item_id=context.name+'-'+id, source_news_item_id=id,
+                       source_segment=context.name, headline=revised_spans[0],
+                       source_regions=[context.identity(id, regions) for id in body],
+                       source_spans=revised_spans[1:])
+        projected.append(revised)
+    prior = result.get('news_item_index', [])
+    if any(r.get('number') in numbers for r in prior):
+        raise ValueError('News candidate numbers overlap a previous segment')
+    result.setdefault('news_item_index', []).extend(projected)

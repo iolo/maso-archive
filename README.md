@@ -138,6 +138,10 @@ Source preservation, exact UTF-8/listing indexes and byte-identical rebuild chec
 pass. All 115 PDF tooling tests pass.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
+The May radar assembly requires a separately tested news-candidate adapter.
+It preserves exact regional headline/body ranges and original metadata; 117 PDF
+tests pass. Native text/scans remain immutable. Assembly and issue closeout follow.
+
 ## Validation and handoff
 
 ```sh

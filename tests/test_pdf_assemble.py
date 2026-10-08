@@ -1597,6 +1597,48 @@ class PDFAssemblyTests(unittest.TestCase):
                 complete_printed_news_item=True, historically_verified=False)]
         return segments
 
+    def candidate_news_segments(self):
+        segments = self.news_segments()
+        for i, (source, c) in enumerate(segments):
+            c.pop('section_header_region_ids')
+            def candidate(block):
+                r = deepcopy(next(r for r in c['regional_text_index'] if r['block_id']==block))
+                r['transcription_excerpt'] = next(b['text'] for b in source['blocks'] if b['id']==block)
+                return r
+            c['news_item_index'] = [dict(news_item_id='same-headline', number=i+1, section='foreign',
+                headline=candidate('block'+str(i)), source_regions=['prose'],
+                source_spans=[candidate('prose')], source_claims_verified=False)]
+        return segments
+
+    def test_candidate_news_preserves_regional_bytes_identity_and_original_metadata(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import span
+        segments=self.candidate_news_segments();before=deepcopy(segments)
+        p,c=project(self.recipe,segments);article,_=text_bytes(p)
+        self.assertEqual(segments,before)
+        self.assertEqual([r['number'] for r in c['news_item_index']],[1,2])
+        for i,row in enumerate(c['news_item_index']):
+            self.assertEqual(row['news_item_id'],self.recipe['segments'][i]['name']+'-same-headline')
+            self.assertIs(row['source_claims_verified'],False)
+            self.assertNotIn('complete_printed_news_item',row)
+            for r in [row['headline']]+row['source_spans']:
+                self.assertEqual(span(r,article),r['transcription_excerpt'])
+            self.assertEqual(c['segments'][i]['original_metadata']['news_item_index'],segments[i][1]['news_item_index'])
+
+    def test_candidate_news_rejects_unrelated_ranges_scans_and_verification_claims(self):
+        original=self.candidate_news_segments()
+        for change in ('claim','zero-claim','duplicate-number','body','scan','excerpt','range','duplicate-item'):
+            segments=deepcopy(original);row=segments[0][1]['news_item_index'][0]
+            if change=='claim':row['source_claims_verified']=True
+            if change=='zero-claim':row['source_claims_verified']=0
+            if change=='duplicate-number':segments[1][1]['news_item_index'][0]['number']=1
+            if change=='body':row['source_regions']=['code0']
+            if change=='scan':row['source_spans'][0]['scan']['sha256']='0'*64
+            if change=='excerpt':row['headline']['transcription_excerpt']='wrong'
+            if change=='range':row['source_spans'][0]['utf8_byte_end_exclusive']-=1
+            if change=='duplicate-item':segments[0][1]['news_item_index'].append(deepcopy(row))
+            with self.subTest(change=change),self.assertRaises(ValueError):project(self.recipe,segments)
+
     def test_news_items_project_independent_identities_images_headers_and_utf8_ranges(self):
         from tools.pdf_restore.assemble import text_bytes
         from tools.pdf_restore.assembly_indexes import span
