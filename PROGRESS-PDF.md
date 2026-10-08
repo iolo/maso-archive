@@ -10804,3 +10804,35 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Prior208/209 lookup establishes only opening;split into bounded segments if needed.
 - Export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
   Evidence/validation: `private/pdf-restoration/12-1984-05-batch-33`.
+
+### 2026-10-08 — May native34, HAPPY-WORDS opening208–213
+
+- Fresh eleven upright207–217 scans provedfull208–215 extent beforemapping.
+  One article/six mapped pages/five outside-map lookups. Ending214–215 deferred;
+  independent 메아리216 boundsending,butitsownextent remainsunverified.
+- Deliveredpartial/sample-reviewed JSON/assets:55 regions,40 ordered blocks,
+  12 images,three captions,43 regional spans and76 text reviews. Complete LIST1
+  has410 physical rows/284 numbered entries/126 wraps;1140 and2180 cross columns.
+  Five table rows/10 cells,54 guide fragments,19 variable fragments andfive
+  commands haveexact indexes. Four editorial markers retain sourceuncertainty.
+- Numeric DATA1900/1910 retains124 integer candidates. Printed1920 ends144 then28
+  without readable comma/leading1;1930 hasadamagedtoken. Neither is repaired from
+  prose. Fifteen wordDATA statements contain203 comma-separated candidates versus
+  printed200 claim. Guide2570end versus2610END,W$(10)/WO$(10),adjacentplus signs,
+  source 베에토벤/엉클/헝클 spellings andfaint punctuation candidates retained.
+  Full proofreading,quoted whitespace,source bytes andexecution remain unverified.
+- All70 original/41 revised text panels and12 original/one revised image reviewed.
+  Nineteen distinctcrops repairedonce;74 executions55initial/19repair,zero failures/
+  retries. Initialmaps/crops/rawOCR/positions/settings andattempts preserved.
+  Source guards caughtanumericwrap mistakenforalabel anda staleprosecandidate;
+  both corrected beforepassing export. Superseded unpromoted export retained.
+- Exact UTF-8/regional/table/cell/guide/variable/command/caption/physical/logical/
+  numericDATA indexes,wrapped/reference projection andbyte-identical rebuild pass.
+  All188 priornative/33 assembly pins unchanged;14 May assemblies revalidated.
+  Unchanged106-test baseline reused. No pipeline,HTML,frontend orbrowser changes.
+- Ledger retains42 canonical identities:30 sample-reviewed articles,29readable/
+  onepartial;five non-owning groups andseven unresolved entries. Whole May and
+  issuecloseout incomplete. Native35ending214–215 then separatefullassembly next.
+  Optional 메아리 onlyafterfreshfull extent proof withincombinedbatchlimits.
+- Export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
+  Evidence/validation: `private/pdf-restoration/12-1984-05-batch-34`.

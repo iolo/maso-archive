@@ -32,13 +32,13 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–33 and fourteen assemblies are complete:** all 29 restored
-articles are readable/sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and eight identities await restoration
-or classification. 너구리202–207 is complete, including its BASIC and hex listings.
-Fourteen assemblies preserve 34 immutable native segments. Next is fresh
-HAPPY-WORDS208 extent/boundary review. Whole May remains incomplete; unprocessed
-content is not missing.
+**May batches 01–34 and fourteen assemblies are complete:** 30 articles are
+sample-reviewed,29 readable/one partial. All42 canonical TOC identities remain;
+five non-owning groups are classified andseven identities await restoration
+or classification. HAPPY-WORDS opening208–213 includes its complete BASIC listing.
+Ending214–215 andseparate fullassembly remain required. Fourteen assemblies
+preserve34 immutable native segments. Whole May remains incomplete;unprocessed
+content isnot missing.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block
@@ -281,16 +281,35 @@ unchanged106-test baseline is reused. No pipeline or rendering changes.
 Export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-33`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–33}`.
+Native34 restores HAPPY-WORDS opening208–213 afterfresh full208–215 extent proof.
+It retains55 regions,40 blocks,12 images,three captions,43 regional spans and76
+text reviews. Complete LIST1 has410 physical rows/284 numbered entries/126 wraps;
+1140 and2180 cross columns. Five keyboard-table rows/10 cells,54 guide fragments,
+19 variable fragments andfive commands haveexact UTF-8 indexes. Music1900/1910
+retains124 integer candidates;damaged1920/1930 and203 word candidates versus
+printed200 claim remain explicit. Four editorial markers donot certify bytes.
+
+Eleven fresh207–217 scans reviewed beforemapping;six mapped pages/five lookups.
+All70 original/41 revised text panels and12 original/one revised image reviewed.
+Nineteen crops repaired once;74 actual tasks,zero failures/retries. Exact indexes,
+wrapped/reference projection andbyte-identical rebuild pass;188 priornative/33
+assembly pins unchanged;14 May assemblies revalidated. Unchanged106-test baseline
+reused. Native34 ispartial;ending214–215 andseparate assembly remain required.
+Full proofreading,source glyphs/bytes andexecution unverified. JSON/assets only.
+Export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-34`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–34}`.
 Latest full export: `build/pdf-restoration/12-1984-05-cat`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-cat-assemble`.
-Latest native export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-33`.
+Latest native export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-34`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
-Next native34 begins HAPPY-WORDS208 after fresh full extent/boundary proof;
-prior208/209 lookups establish only its opening. Split into bounded native
-segments if its verified extent exceeds six pages;do not infer its ending from TOC.
+Next native35: fresh HAPPY-WORDS214–215 ending/boundary review;restore LIST2
+monitor example,LIST3 shape hex andfull flowchart;exclude215lowerbookstoread.
+Optional 메아리216 onlyafterfreshfull extent proof andwithincombinedbatch limits.
+Existing216/217 lookups prove openingonly. Commitending beforeseparate assembly.
 Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.

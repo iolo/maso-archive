@@ -7,13 +7,13 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–33 and fourteen assemblies are complete:** all 29 restored
-articles are readable/sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and eight identities await restoration
-or classification. 너구리202–207 is complete, including its BASIC and hex listings.
-Fourteen assemblies preserve 34 immutable native segments. Next is fresh
-HAPPY-WORDS208 extent/boundary review. Whole May remains incomplete; unprocessed
-content is not missing.
+**May batches 01–34 and fourteen assemblies are complete:** 30 articles are
+sample-reviewed,29 readable/one partial. All42 canonical TOC identities remain;
+five non-owning groups are classified andseven identities await restoration
+or classification. HAPPY-WORDS opening208–213 includes its complete BASIC listing.
+Ending214–215 andseparate fullassembly remain required. Fourteen assemblies
+preserve34 immutable native segments. Whole May remains incomplete;unprocessed
+content isnot missing.
 
 Native32 completes the cat ending196–197 and the function-key article198–201.
 It retains60 regions,43 ordered blocks,12 original images,48 regional spans,
@@ -72,9 +72,30 @@ unchanged;14 May assemblies revalidated;106-test baseline reused.
 Export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-33`.
 
-Next: native34, fresh full extent/boundary review of HAPPY-WORDS208. Prior208/209
-lookups prove only the opening. Split into bounded native segments if needed.
-May still needs eight TOC outcomes and a separate issue closeout.
+Native34 restores HAPPY-WORDS opening208–213:55 regions,40 blocks,12 images,
+three captions,43 regional spans and76 text reviews. LIST1 iscomplete insegment:
+410 physical rows/284 numbered entries/126 wraps,including1140 and2180 crosscolumn
+continuations. Five table rows/10 cells,54 guide fragments,19 variable fragments
+andfive commands haveexact UTF-8 indexes. Music1900/1910 has124 integer candidates;
+damaged1920/1930 remain uncertain. Word DATA has203 comma-separated candidates
+versusprinted200. Four editorial markers donot infer original glyph bytes/counts.
+Literal guide2570end versus2610END,W$(10)/WO$(10),adjacent plus signs andfaint
+punctuation candidates retained. Full proofreading/source bytes/execution unverified.
+
+Eleven fresh207–217 scans establishedfull208–215 extent beforemapping.
+All70 original/41 revised text panels and12 original/one revised image reviewed.
+Nineteen crops repaired once;74 tasks,zero failures/retries. Exact indexes,
+wrapped/reference projection andbyte-identical rebuild pass. All188 priornative/
+33 assemblypins retained;14 May assemblies revalidated;106-test baseline reused.
+Export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-34`.
+
+Next: native35,fresh HAPPY-WORDS214–215 ending/boundary review. Restore LIST2
+monitor example,LIST3 shape hex andcomplete flowchart;exclude215lowerbookstoread.
+Optional 메아리216 onlyafterfreshfull extent proof withinbatch limits;216/217
+lookups proveopeningonly. Ending nativecommit must precedeseparatefullassembly.
+May still needsseven unresolved TOC outcomes,partial HAPPY-WORDS completion
+andaseparate issue closeout.
 JSON/assets only;no rendering work is required.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
