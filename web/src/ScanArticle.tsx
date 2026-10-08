@@ -16,7 +16,7 @@ export function ScanReview({ scan }: { scan: ScanData }) {
     {scan.availability === 'image-only' && <p>읽기 본문은 준비되지 않았습니다. 아래 스캔 영역을 열어 원문을 볼 수 있습니다.</p>}
     {scan.availability === 'failed' && <p>본문 복원 시도가 성공하지 못했습니다. 이 상태만으로 원문이 없다고 판단할 수 없습니다.</p>}
     {scan.availability === 'unresolved' && <p>본문 복원 상태를 아직 확인하지 못했습니다.</p>}
-    {scan.gaps.length > 0 && <div className="notice"><strong>남아 있는 불확실성</strong><ul>{scan.gaps.map((gap, i) => <li key={i}>{gap}</li>)}</ul></div>}
+    {scan.gaps.length > 0 && <details className="notice"><summary>남아 있는 불확실성 · {scan.gaps.length}건</summary><ul>{scan.gaps.map((gap, i) => <li key={i}>{gap}</li>)}</ul></details>}
     <details className="source-note"><summary>검토 범위와 교정 기록</summary>
       <p>검토한 스캔 영역: {scan.verification.reviewed_region_ids.join(', ') || '없음'}</p>
       {[...scan.verification.evidence, ...scan.verification.uncertainties].map((note, i) => <p key={i}>{note}</p>)}
@@ -72,7 +72,7 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
     {sectionId && !section && <p className="notice">요청한 절을 찾을 수 없습니다. 아래 본문과 차례를 확인하세요.</p>}
     <nav className="article-actions" aria-label="스캔 글 자료">
       {scan.downloads.map(pin => <a key={pin.path} href={sourceUrl(pin.path)} download>{downloadLabel(pin.path)}</a>)}
-      {article.path && <a href={sourceUrl(article.path)} target="_blank" rel="noreferrer">독립형 복원본</a>}
+      {scan.packagePath && <a href={sourceUrl(scan.packagePath)} target="_blank" rel="noreferrer">복원 기록</a>}
       <a href="#scan-regions" onClick={e => { e.preventDefault(); document.getElementById('scan-regions')?.scrollIntoView() }}>스캔 영역 목록</a>
     </nav>
     {readable && <div className="article-body">{doc.blocks.map(block => {

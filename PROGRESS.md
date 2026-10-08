@@ -1,5 +1,32 @@
 # Progress
 
+## 2026-10-08 — Review all completed PDF issues in the reading room
+
+- At the owner's request, staged March and May onto the validated November/
+  February reader. `build/reading-room-restored/` now includes 146 scan-derived
+  articles across four issues alongside the existing 3,386 CD candidates.
+  All 152 navigation groups and 5,299 canonical TOC entries remain.
+- November has 35 readable articles, February 37, March 37 readable and one
+  missing-source partial, and May 36 readable. All 146 are sample-reviewed.
+  March's absent printed pages 250–251 remain explicit. June has not started.
+- Both staged exports passed complete inventory, asset, projection and ownership
+  checks while preserving previous reader files and immutable article packages.
+  Source ledgers and the PDF tooling baseline are unchanged. No new OCR.
+- Replaced the scan article's unavailable standalone HTML link with its preserved
+  restoration record. Long uncertainty notes are expandable so article content
+  remains easy to reach; their complete original wording is retained.
+- Validation: 16 frontend tests, four PDF reader adapter tests, four issue adapter
+  tests and TypeScript/production build pass. Browser checks cover all four issue
+  pages/covers, article/code display, byte-identical listing download, source scan
+  images, March's partial state and mobile layout without horizontal overflow.
+  Final checks report no browser exceptions or failed HTTP responses. An initial
+  check retained the earlier bundle after rebuilding; restart/reload resolved it.
+- Preview left running at `http://127.0.0.1:4184/archive/`, with May open.
+  See `docs/READING-ROOM.md` for repeat commands. Private validation:
+  `private/reading-room-restored-review-2026-10-08/validation.json`; screenshots
+  and browser logs: `output/playwright/restored-issues/`. Generated/private data
+  are ignored by Git; this is a separate rendering/review task after PDF closeout.
+
 ## 2026-09-18 — Source inspection and scope
 
 - Read the shared project discussion and inspected `TOC.md` and all three ISOs.

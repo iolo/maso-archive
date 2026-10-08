@@ -1,5 +1,23 @@
 # Successor notes — 2026-09-26 implementation wrap-up
 
+**Reading-room review prepared 2026-10-08:** the owner requested inspection
+before June. `build/reading-room-restored/` includes all four completed PDF
+issues (146 scan articles) and the unchanged CD baseline. March retains one
+missing-source partial. The preview is left running at
+`http://127.0.0.1:4184/archive/`; May is open in the review browser. To restart:
+
+```sh
+cd web
+READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm run preview -- --port 4184 --strictPort
+```
+
+See [the reading-room guide](READING-ROOM.md). Complete data-export checks,
+16 frontend tests, eight reader/issue adapter tests, TypeScript/build and browser
+desktop/mobile/source/download checks pass. Restoration records replace missing
+HTML preview links, and long uncertainty notes are expandable. PDF packages and
+ledgers remain unchanged; June has not started. Evidence:
+`private/reading-room-restored-review-2026-10-08/validation.json`.
+
 Current PDF status, 2026-10-08: November 1983, February 1984, March 1984
 and May 1984 are complete under [PLAN-PDF.md](../PLAN-PDF.md)'s data-only scope.
 March's sole terminal partial remains explicit; no April PDF is supplied.

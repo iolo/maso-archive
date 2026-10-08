@@ -64,6 +64,16 @@ describe('scan reading and evidence states', () => {
     expect(html).not.toContain('download=')
     expect(html).not.toContain('<img') // Region scans wait for an explicit selection.
   })
+  it('opens preserved restoration records without requiring an HTML preview', () => {
+    vi.stubGlobal('document', { baseURI: 'http://localhost/archive/' })
+    const doc = scanFixture('readable')
+    doc.article.path = 'pdf/synthetic/index.html'
+    doc.scan!.packagePath = 'pdf/synthetic/article.json'
+    const html = renderToStaticMarkup(<MemoryRouter><ScanArticle doc={doc} /></MemoryRouter>)
+    expect(html).toContain('href="http://localhost/data/source/pdf/synthetic/article.json"')
+    expect(html).toContain('복원 기록')
+    expect(html).not.toContain('pdf/synthetic/index.html')
+  })
   it('shows failed and unresolved states without broken source or download links', () => {
     vi.stubGlobal('document', { baseURI: 'http://localhost/archive/' })
     for (const state of ['failed', 'unresolved'] as const) {

@@ -1,5 +1,43 @@
 # Reading room
 
+## Review completed PDF issues
+
+`build/reading-room-restored/` combines the original CD collection with all
+four completed PDF issues: November 1983 (35 articles), February 1984 (37),
+March 1984 (38) and May 1984 (36). The 146 scan-derived articles retain their
+original text, code, figures, region evidence and independent review states.
+March's word-processor article is partial because source pages 250–251 are
+absent. The other 145 scan-derived articles are readable; all are sample-reviewed.
+
+```sh
+cd web
+READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm run preview -- --port 4184 --strictPort
+```
+
+Open `http://127.0.0.1:4184/archive/`. Issue routes are
+`#/issues/maso-1983-11`, `#/issues/maso-1984-02`, `#/issues/maso-1984-03` and
+`#/issues/maso-1984-05`. Select an article from its TOC or reading list. Each
+article provides text/listing downloads and links to its original scan regions.
+“복원 기록” opens the preserved JSON record; data-only restorations do not
+require or advertise a separate HTML preview.
+
+To reproduce from the existing validated February reader and completed ledgers,
+use fresh output directories (the exporter refuses existing data outputs):
+
+```sh
+PYTHONPATH=.:src python3 -m tools.reading_room.scan_issue --base build/reading-room-pdf-february/data --ledger private/pdf-restoration/12-1984-03/issue-progress.json --output build/reading-room-restored-march/data
+PYTHONPATH=.:src python3 -m tools.reading_room.scan_issue --base build/reading-room-restored-march/data --ledger private/pdf-restoration/12-1984-05/issue-progress.json --output build/reading-room-restored/data
+cd web
+READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm run build
+```
+
+The exporter validates both complete datasets and preserves existing CD and
+previously staged issue bytes. Source packages, restoration ledgers and the older
+reader builds remain unchanged. These generated reader assets are private and
+ignored by Git. June restoration has not started.
+
+## CD baseline
+
 The static reading room combines the completed **CD1, CD2 and CD3** references.
 It contains **3,378 readable texts from 3,386 candidates**, with browsing,
 metadata search, figures, source downloads and explicit review states.

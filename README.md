@@ -10,6 +10,19 @@ against print.
 
 ## Read the archive
 
+To review all four completed PDF restorations (1983-11, 1984-02, 1984-03,
+1984-05) alongside the existing CD collection:
+
+```sh
+cd web
+READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm run preview -- --port 4184 --strictPort
+```
+
+Open [the restored-issue reading room](http://127.0.0.1:4184/archive/).
+Its article pages include text, code downloads, original figures, scan regions
+and review records. March's missing-source partial remains visible. This
+prepared private build is separate from the older CD-only baseline below.
+
 With the prepared private data, start the existing build:
 
 ```sh
