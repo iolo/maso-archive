@@ -123,11 +123,13 @@ pages 236–241, including the middle-school ending/answer key and high-school
 opening. Batch 40 restores pages 242–247, including the high-school ending/answer
 key and adult opening. Batch 41 restores the ending on pages 248–249, including
 the ASCII table and adult answer key. Four immutable segments cover all appendix
-pages 230–249; full appendix assembly is next. Five non-owning groups are classified;
+pages 230–249; full appendix assembly is next. A separate tested source-candidate
+adapter preserves the independent choices and all 160 printed answer pairs.
+Five non-owning groups are classified;
 three TOC entries await restoration or classification. Whole May and its issue closeout
 remain incomplete.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
-pass. All 112 PDF tooling tests pass.
+pass. All 115 PDF tooling tests pass.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 ## Validation and handoff

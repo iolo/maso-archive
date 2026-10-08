@@ -16,6 +16,17 @@ native segments. 메아리 on 216–217 is complete.
 Fifteen assemblies preserve 36 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
 
+Appendix source-candidate tooling is validated separately before assembly.
+New opt-in `wrapped-source-reference-v1` accepts the immutable choice candidates'
+explicit unverified machine/execution fields and answer pairs' explicit unverified
+encoding fields. It checks unique identities, source spans/scans and literal answer
+numbers; old modes retain their original behavior. 115 PDF tests and the real full
+projection pass: 468 examples/160 answers, 58 groups, 436 physical/421 numbered rows.
+197 native/34 historical assembly pins and both unpromoted exports/40–41 OCR
+inventories remain unchanged. No full export or ledger promotion at this tooling step.
+Evidence: `private/pdf-restoration/12-1984-05-appendix-source-adapter`.
+Commit tooling, then build/rebuild/audit the separate full appendix before promotion.
+
 Native32 completes the cat ending196–197 and the function-key article198–201.
 It retains60 regions,43 ordered blocks,12 original images,48 regional spans,
 107 text review ranges,four captions andfive native prose boundaries.

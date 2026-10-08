@@ -41,6 +41,16 @@ native segments. 메아리 on 216–217 is complete.
 Fifteen assemblies preserve 36 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
 
+The appendix source-candidate adapter is validated before full assembly. New opt-in
+`wrapped-source-reference-v1` projects the natives' independent choice candidates
+and explicit printed answer pairs without rewriting their verification fields.
+115 PDF tests pass, including source-range/prose-join and false verification checks.
+The real 20-page projection preserves 468 inline examples/160 answers, 58 listing
+groups and all original metadata. All 197 native/34 historical assembly pins and
+preserved unpromoted/OCR evidence inventories pass; the ledger is unchanged.
+Commit this tooling separately before the full appendix export.
+Evidence: `private/pdf-restoration/12-1984-05-appendix-source-adapter`.
+
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block
 ranges and123 text review ranges. SectionsA–Z form one continuous PET/CBM BASIC

@@ -2154,6 +2154,99 @@ class PDFAssemblyTests(unittest.TestCase):
         self.assertEqual(old[0],new[0])
         self.assertNotIn('hex_token_index',old[1]);self.assertNotIn('inline_example_index',old[1])
 
+    def source_reference_segments(self):
+        segments = self.literal_reference_segments()
+        self.recipe['index_mode'] = 'wrapped-source-reference-v1'
+        row = segments[0][1]['inline_example_index'][0]
+        row.pop('execute_verified')
+        row.update(example_id='independent-call', original_machine_bytes_verified=False,
+                   execution_verified=False)
+        return segments
+
+    def test_source_reference_preserves_explicit_candidates_and_old_mode_rejection(self):
+        from tools.pdf_restore.assembly_indexes import span
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.source_reference_segments(); before = deepcopy(segments)
+        p,c = project(self.recipe, segments)
+        row = c['inline_example_index'][0]
+        self.assertEqual(span(row,text_bytes(p)[0]), 'CALL-151')
+        self.assertEqual(row['example_id'], 'independent-call')
+        self.assertIs(row['original_machine_bytes_verified'], False)
+        self.assertNotIn('execute_verified', row)
+        self.assertEqual(segments,before)
+        self.assertEqual(c['segments'][0]['original_metadata']['inline_example_index'],
+                         segments[0][1]['inline_example_index'])
+        with self.assertRaisesRegex(ValueError,'Inline example requires'):
+            project(dict(self.recipe,index_mode='wrapped-literal-reference-v1'),segments)
+
+    def test_source_reference_answer_candidates_keep_source_ranges_across_prose_join(self):
+        from tools.pdf_restore.assembly_indexes import START, END, span
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.source_reference_segments()
+        source,c = segments[1]
+        prose = next(b for b in source['blocks'] if b['id']=='prose1')
+        prose['text'] = '1. (4)\n'
+        c['blocks'] = deepcopy(source['blocks'])
+        c['regional_transcription']['prose-region1'] = prose['text']
+        for field in ('text_index','regional_text_index'):
+            next(r for r in c[field] if r['block_id']=='prose1')[END] = len(prose['text'].encode())
+        parent = next(r for r in c['regional_text_index'] if r['block_id']=='prose1')
+        c['inline_example_index'] = [dict(parent, **{END:6}, transcription_excerpt='1. (4)',
+            example_id='answer-1',question_number=1,printed_answer_candidate=4,source_encoding_verified=False)]
+        from tools.pdf_restore.assembly_indexes import block_ranges
+        for field in ('text_index','regional_text_index'):
+            for row in c[field]:
+                row[START],row[END] = block_ranges(source)[row['block_id']]
+        opening,correction = segments[0]
+        old_ranges = block_ranges(opening)
+        opening['content_order'] = [r for r in opening['content_order'] if r['id']!='prose0']
+        opening['content_order'].append(dict(type='block',id='prose0'))
+        new_ranges = block_ranges(opening)
+        for field in ('text_index','regional_text_index','inline_example_index','unresolved_graphics','unresolved_text'):
+            for row in correction[field]:
+                delta = new_ranges[row['block_id']][0]-old_ranges[row['block_id']][0]
+                row[START] += delta;row[END] += delta
+        self.recipe['prose_joins'] = [dict(left=dict(segment='opening',block_id='prose0',ending='CALL-151.\n'),
+            right=dict(segment='continuation',block_id='prose1',opening='1. (4)'),separator='\n\n',intervening=[])]
+        p,projected = project(self.recipe,segments)
+        answer = projected['inline_example_index'][-1]
+        self.assertEqual(span(answer,text_bytes(p)[0]),'1. (4)')
+        self.assertEqual(answer['block_id'],'opening-prose0')
+        self.assertEqual(answer['source_block_id'],'prose1')
+        self.assertNotIn('execution_verified',answer)
+        self.assertEqual(projected['resolved_continuations'][0]['separator'],'\n\n')
+
+    def test_source_reference_rejects_uncertain_identity_ranges_and_verification_claims(self):
+        original = self.source_reference_segments()
+        for change in ('no-id','blank-id','duplicate-id','no-bytes-flag','no-execution-flag',
+                       'bytes-verified','execution-verified','zero-flag','encoded','scan','excerpt','duplicate',
+                       'execute-claim'):
+            segments=deepcopy(original);c=segments[0][1];row=c['inline_example_index'][0]
+            if change=='no-id':row.pop('example_id')
+            if change=='blank-id':row['example_id']=' '
+            if change=='duplicate-id':c['inline_example_index'].append(deepcopy(row))
+            if change=='no-bytes-flag':row.pop('original_machine_bytes_verified')
+            if change=='no-execution-flag':row.pop('execution_verified')
+            if change=='bytes-verified':row['original_machine_bytes_verified']=True
+            if change=='execution-verified':row['execution_verified']=True
+            if change=='zero-flag':row['execution_verified']=0
+            if change=='encoded':row['encoded_bytes']=[128]
+            if change=='scan':row['scan']=dict(row['scan'],sha256='0'*64)
+            if change=='excerpt':row['transcription_excerpt']='CALL 151'
+            if change=='duplicate':c['inline_example_index'].append(deepcopy(row))
+            if change=='execute-claim':row['execute_verified']=True
+            with self.subTest(change=change),self.assertRaises(ValueError):project(self.recipe,segments)
+        from tools.pdf_restore.assembly_literals import source_example_unverified
+        answer=dict(question_number=1,printed_answer_candidate=4,
+                    transcription_excerpt='1. (4)',source_encoding_verified=False)
+        self.assertTrue(source_example_unverified(answer))
+        for key,value in [('question_number',0),('question_number',41),('question_number',True),
+                          ('printed_answer_candidate',5),('printed_answer_candidate',True),
+                          ('source_encoding_verified',True),('source_encoding_verified',0),
+                          ('transcription_excerpt','1. (3)')]:
+            with self.subTest(key=key,value=value):
+                self.assertFalse(source_example_unverified(dict(answer,**{key:value})))
+
 
 if __name__ == '__main__':
     unittest.main()

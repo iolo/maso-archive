@@ -11157,3 +11157,26 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and issue closeout. No new mapping/OCR for assembly. JSON/assets only.
 - Export:`build/pdf-restoration/12-1984-05-batch-41/appendix-reviewed`.
   Evidence:`private/pdf-restoration/12-1984-05-batch-41`.
+
+### 2026-10-08 — May appendix source-candidate assembly adapter
+
+- Full appendix preflight rejected the natives' inline metadata under the existing
+  literal mode: choices declare unverified machine bytes/execution, while printed
+  answer pairs declare unverified encoding. The earlier mode requires a different
+  execute flag. Original native exports and ledger remain unchanged.
+- Added opt-in `wrapped-source-reference-v1`, preserving original verification
+  fields and requiring distinct identities, exact regional excerpts/scans, explicit
+  unverified evidence and literal question/answer pairs. Earlier modes retain their
+  behavior. No source corrections, mapping or OCR.
+- 115 PDF tests pass, including candidate/answer source ranges across a prose join,
+  old-mode rejection and invalid identity/range/verification/literal-answer checks.
+  Full real-source projection preserves 20 pages, 313 regions, 196 combined blocks,
+  107 images, 468 inline examples and all 160 printed answers. Middle12 merges only
+  its listing group; adult30 joins prose with an explicit paragraph boundary.
+- 197 native/34 prior assembly pins, two unpromoted exports and all 40–41 OCR export
+  inventories preserved; all historical assemblies revalidate. No full appendix
+  export or ledger promotion in this tooling checkpoint.
+- Counts remain 33 readable, one partial appendix, five groups and three unresolved
+  identities. Next: separately commit tooling, then build/rebuild/audit the full
+  appendix; remaining identities and whole-issue closeout still required.
+- Evidence: `private/pdf-restoration/12-1984-05-appendix-source-adapter`.

@@ -70,12 +70,34 @@ def validate_markers(context):
         raise ValueError('Literal marker records must cover every source G-marker once')
 
 
-def project_inline_examples(context, result, project_range):
-    seen = set()
+def source_example_unverified(row):
+    """Accept explicit scan candidates without recasting answer pairs as programs."""
+    if 'question_number' in row or 'printed_answer_candidate' in row:
+        number, answer = row.get('question_number'), row.get('printed_answer_candidate')
+        return (type(number) is int and 1 <= number <= 40 and
+                type(answer) is int and 1 <= answer <= 4 and
+                row.get('source_encoding_verified') is False and
+                row.get('transcription_excerpt') == f'{number}. ({answer})')
+    return unverified_hex(row)
+
+
+def project_inline_examples(context, result, project_range, *, source_candidates=False):
+    seen, example_ids = set(), set()
     for row in context.correction.get('inline_example_index', []):
         linked_region(context, row)
         identity = row['region_id'], row[START], row[END]
-        if (identity in seen or row.get('execute_verified') is not False or
+        if source_candidates:
+            id = row.get('example_id')
+            if (not isinstance(id, str) or not id.strip() or id in example_ids or
+                    ('original_machine_bytes_verified' in row and
+                     row['original_machine_bytes_verified'] is not False) or
+                    not source_example_unverified(row)):
+                raise ValueError('Source example requires distinct literal candidate evidence')
+            example_ids.add(id)
+            execution = 'execute_verified' not in row or row['execute_verified'] is False
+        else:
+            execution = row.get('execute_verified') is False
+        if (identity in seen or not execution or
                 row.get('original_bytes') is not None or row.get('encoded_bytes') is not None or
                 any(k in row and row[k] is not False for k in
                     ('source_encoding_verified', 'machine_byte_verified', 'execution_verified'))):
