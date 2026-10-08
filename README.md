@@ -111,31 +111,16 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7. Thirty-five articles are readable and sample-reviewed;
-information radar has both reviewed segments covering 89–96 and awaits full assembly.
-Sixteen assemblies preserve 40 original segments. Full HAPPY-WORDS pages 208–215
-are assembled with the separately committed, tested adapter. Batch 35 completes 메아리
-on pages 216–217. Batch 36 completes 리뷰 쌀롱 on pages 220–224, including all
-three product reviews and the TM-103 specifications table. Batch 37 completes
-Q&A on pages 225–229, including all seven listings and their original scan panels.
-Batch 38 restores the competition appendix's first segment, pages 230–235,
-including all 40 elementary questions and their answer key. Batch 39 restores
-pages 236–241, including the middle-school ending/answer key and high-school
-opening. Batch 40 restores pages 242–247, including the high-school ending/answer
-key and adult opening. Batch 41 restores the ending on pages 248–249, including
-the ASCII table and adult answer key. Four immutable segments cover all appendix
-pages 230–249; their full assembly is complete. The separately committed source-candidate
-adapter preserves the independent choices and all 160 printed answer pairs.
-Batch 42 restores the radar opening with six original images, 13 news items and
-the 12-submission award table, preserving seven blank cells. Full extent was
-verified before mapping; four crops were widened once. Six non-owning groups are
-classified, including the pageless information heading. Batch 43 completes radar
-pages 95–96 and the advertising index on lower page 250, preserving 30 advertiser
-entries and the original tree graphic. All 42 TOC identities are classified.
-Next are the full radar assembly and separate issue closeout. Whole May
-remains incomplete.
+May 1984 began on October 7. All 36 articles are readable and sample-reviewed;
+six non-owning headings complete the 42-entry TOC accounting. Seventeen assemblies
+preserve 42 immutable native inputs, including the full radar on pages 89–96 and
+competition appendix on pages 230–249. The radar retains all 19 news items,
+original figures, regional ranges and the award table's seven blank cells.
+Exact source indexes, unchanged native copies and a byte-identical full radar
+rebuild pass. Separate tooling commit `f8fa518` supports its regional news metadata;
+117 PDF tests pass. Whole-May JSON/assets issue closeout is next.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
-pass. All 115 PDF tooling tests pass.
+pass. All 117 PDF tooling tests pass.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
 
 The May radar assembly requires a separately tested news-candidate adapter.

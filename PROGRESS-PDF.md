@@ -1,5 +1,24 @@
 # PDF restoration progress
 
+### 2026-10-08 — Full May information radar assembly
+
+- After native43 `e4dbea9` and separately validated news adapter `f8fa518`,
+  assembled exact native42/43 manifest pins into full pages 89–96. No new
+  mapping, source rendering or OCR; no cross-segment prose/listing join.
+- Preserved 91 regions, 75 blocks, seven images, 84 regional spans, 144 review
+  ranges, 61 Unicode candidates, two captions and all 19 news items. The award
+  table retains 13 rows, 65 cells and seven blank continuations. Original metadata
+  and eight native prose groups/nine source boundaries remain exact.
+- Checked every source/text/table/news span and copied original file, independently
+  rebuilt byte-identically, and preserved all 200 native/35 prior assembly pins
+  and unpromoted/OCR inventories. The unchanged 117-test baseline is reused.
+- Promoted only radar availability. All 36 articles now readable/sample-reviewed;
+  six headings, zero unresolved identities. Seventeen May assemblies preserve
+  42 immutable native inputs. Full proofreading/encoded bytes remain unverified.
+- Export: `build/pdf-restoration/12-1984-05-radar`. Evidence:
+  `private/pdf-restoration/12-1984-05-radar-assemble`. Commit/audit before the
+  separate whole-May JSON/assets issue closeout.
+
 ### 2026-10-08 — May radar regional news adapter
 
 - Full radar preflight failed before export: saved natives use regional news

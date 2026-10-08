@@ -13,15 +13,15 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–43 and sixteen assemblies are complete:** 36 articles are
-sample-reviewed: 35 readable, including the complete competition appendix230–249,
-and one partial radar with both89–96 segments restored and awaiting fullassembly.
-All 42 canonical TOC identities remain;
-six non-owning groups are classified and zero eligibility decisions remain unresolved.
-Advertising index250 is complete. Full HAPPY-WORDS pages208–215 use two immutable
-native segments. 메아리 on 216–217 is complete.
-Sixteen assemblies preserve 40 immutable native segments. Whole May remains
-incomplete; unprocessed content is not missing.
+**May batches 01–43 and seventeen assemblies are complete:** all 36 articles
+are readable and sample-reviewed; six non-owning headings account for the other
+TOC entries. All 42 canonical identities, titles and parents remain unchanged.
+The full information radar on pages 89–96 is assembled from two immutable natives,
+with 19 news items, 84 regional spans, 144 review ranges, seven images and the
+13-row award table retaining seven blank cells. Exact copies/indexes and an
+independent byte-identical rebuild pass. Seventeen May assemblies preserve 42
+immutable native inputs. The 117-test tooling baseline is unchanged after the
+separate news adapter commit `f8fa518`. Whole-May JSON/assets closeout remains.
 
 Appendix source-candidate tooling is validated separately before assembly.
 New opt-in `wrapped-source-reference-v1` accepts the immutable choice candidates'
