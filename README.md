@@ -120,9 +120,10 @@ Q&A on pages 225–229, including all seven listings and their original scan pan
 Batch 38 restores the competition appendix's first segment, pages 230–235,
 including all 40 elementary questions and their answer key. Batch 39 restores
 pages 236–241, including the middle-school ending/answer key and high-school
-opening. Both immutable segments remain partial; verified pages 242–249 and
-full appendix assembly are next. Five non-owning groups are classified; three
-TOC entries await restoration or classification. Whole May and its issue closeout
+opening. Batch 40 restores pages 242–247, including the high-school ending/answer
+key and adult opening. Three immutable appendix segments cover pages 230–247;
+verified ending pages 248–249 and full appendix assembly are next. Five non-owning
+groups are classified; three TOC entries await restoration or classification. Whole May and its issue closeout
 remain incomplete.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
 pass. All 112 PDF tooling tests pass.

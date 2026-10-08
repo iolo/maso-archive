@@ -11078,3 +11078,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   information radar89 andtwo classifications remain. JSON/assets only.
 - Export:`build/pdf-restoration/12-1984-05-batch-39/appendix`.
   Evidence:`private/pdf-restoration/12-1984-05-batch-39`.
+
+### 2026-10-08 — May native 40, competition appendix 242–247
+
+- Full 230–249 extent proof established before mapping: eight fresh 241–248 scans
+  and 15 exact pinned native 38 reviews; one article, six mapped pages, 17 outside lookups.
+  Immutable native 38/39 segments 230–241 preserved.
+- Delivered sample-reviewed partial JSON/assets:89 regions, 54 ordered blocks,
+  31 original figures, 58 regional ranges and 131 text reviews. High-school 28 program/
+  choices through 40/key 243; adult 1–29 plus 30 prompt 247 included. Ending 248–249 deferred.
+- All 67 initial text panels/31 figures and 10 revised text crops/four revised figures
+  actually inspected. Fourteen distinct regions repaired once each in two preserved
+  generations; INPUT row, TO 20 endings, axes, right-edge text, question 9/10/11/21 labels
+  and complete caption recovered. 75 other final crops are byte-identical to originals.
+  89 initial+14 repair tasks, 164 cache hits, zero OCR failures/retries; all raw OCR,
+  positions, settings, maps, attempts and three evidence exports preserved/inventory-pinned.
+- 136 physical rows retain 122 numbered entries, 12 unnumbered rows and two wrapped
+  DATA rows across 15 independent groups/19 code regions. High 32 ordinals are explicit;
+  no BASIC numbering invented for INPUT/stack. Four continuations use fresh physical
+  rows; no cross-page physical-row join. High 31/adult 29 alternatives stay inline.
+- Four prose joins, 144 inline examples, 40 high-school answers and 18 Unicode notation
+  candidates retain uncertainty. Seven full tables preserve 31 rows/139 cells/16 blanks.
+  Original output, axis/table/structure geometry remains authoritative in bitmaps.
+- Source NEXT 1, duplicated 중중, 직접회로, blank condition boxes and unfilled(A)/(B)/(C)
+  retained; comparison marks and ASCII quote/spacing candidates remain uncertain.
+  Enlarged DATA 330 confirms comma after 97; earlier contrary note withdrawn.
+  Full proofreading, source encoded bytes and execution remain unverified.
+- Exact UTF-8/regional/table/cell/physical/logical/glyph indexes, regional/reference/
+  wrapped projection and independent byte-identical rebuild pass. 195 prior native/
+  34 assembly pins plus earlier unpromoted export unchanged; 15 May assemblies
+  revalidated. Unchanged 112-test baseline reused; no tooling/rendering changes.
+- Export-path refusal andcompleted-export diagnostic error preserved. A local
+  repair-generation metadata filename mix-up was caught during validation;
+  both exports stayed intact and metadata was restored from saved export outcomes.
+- Ledger preserves three immutable appendix segments 230–247; counts remain 33
+  readable/sample-reviewed articles, one partial appendix, five non-owning groups,
+  three unresolved identities. All 42 canonical IDs remain; 40 native checkpoints
+  complete and 15 assemblies preserve 36 inputs. Whole May/issue closeout incomplete.
+- Next native 41 ending 248–249, then separate full appendix assembly. Information
+  radar 89 and two classifications remain. JSON/assets only.
+- Output: 272 files, 25,612,436 bytes. Mapping took 281.3 seconds; actual tasks
+  took 57.1 seconds, including 35.2 seconds rendering/cropping and 17.1 seconds OCR.
+- Export:`build/pdf-restoration/12-1984-05-batch-40/appendix`.
+  Evidence:`private/pdf-restoration/12-1984-05-batch-40`.
