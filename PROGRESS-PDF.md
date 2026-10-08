@@ -11121,3 +11121,39 @@ history remains in [PROGRESS.md](PROGRESS.md).
   took 57.1 seconds, including 35.2 seconds rendering/cropping and 17.1 seconds OCR.
 - Export:`build/pdf-restoration/12-1984-05-batch-40/appendix`.
   Evidence:`private/pdf-restoration/12-1984-05-batch-40`.
+
+### 2026-10-08 — May native 41, competition appendix ending 248–249
+
+- Complete extent verified before mapping: four fresh 247–250 scans plus 18 exact
+  pinned native 38 reviews. Two mapped pages/20 outside proof pages; immutable
+  native 38/39/40 content 230–247 preserved. Lower 249 advertisement excluded.
+- Sample-reviewed partial JSON/assets retain 38 regions, 25 ordered blocks, 13 original
+  figures, one caption, 25 regional spans and 58 text reviews. All 25 text panels/13
+  figures actually viewed. 38 OCR tasks, zero failures/retries/crop repairs; initial
+  map/raw OCR/positions/settings/attempts preserved unchanged in final recipe.
+- 41 physical rows retain 40 numbered entries/one wrap in six groups/eight code
+  regions. Adult 33 column continuation and 37(1) page continuation use fresh rows;
+  numbered 40 physically wraps THEN GOTO 99. One numeric DATA row/four values retained.
+  No native prose joins or cross-page physical-row joins.
+- All 40 adult answers indexed; four complete source tables retain 22 rows/202 cells/
+  21 blanks. ASCII omitted cells stay blank. 73 inline examples and five Unicode
+  notation candidates retain uncertainty. Underlined operands, omission dots, choice
+  1000100 and literal wording preserved; source bytes/execution/proofreading unverified.
+- Projection rejected repeated table header metadata in the initial export.
+  Corrected metadata preserves all eight source rows and four explicit repeated
+  array-label roles; only first row is a schema header. No text/listing/map/scan/OCR
+  change. Initial unpromoted export remains immutable; appendix-reviewed is promoted.
+- Exact indexes, regional/reference/wrapped projection and independent identical
+  rebuild pass. 196 prior native/34 assembly manifest pins preserved; two unpromoted
+  native exports and 40/41 OCR evidence inventories retained. 15 May assemblies
+  revalidated; unchanged 112-test baseline reused. No tooling/rendering changes.
+- Output: 122 files, 7,658,487 bytes. Mapping 184.4 seconds; 38 actual tasks 15.7 seconds,
+  including 9.4 seconds rendering/cropping and 4.3 seconds OCR.
+- Ledger retains four immutable appendix segments 230–249; all source pages now
+  available. Counts remain 33 readable/sample-reviewed, one partial appendix, five
+  groups, three unresolved identities; all 42 canonical IDs retained. 41 native
+  checkpoints complete; 15 assemblies preserve 36 inputs. Whole May remains incomplete.
+- Next: separate full appendix assembly; then information radar 89, two classifications
+  and issue closeout. No new mapping/OCR for assembly. JSON/assets only.
+- Export:`build/pdf-restoration/12-1984-05-batch-41/appendix-reviewed`.
+  Evidence:`private/pdf-restoration/12-1984-05-batch-41`.

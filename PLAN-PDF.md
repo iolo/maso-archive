@@ -32,7 +32,7 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–40 and fifteen assemblies are complete:** 33 articles are
+**May batches 01–41 and fifteen assemblies are complete:** 33 articles are
 readable and sample-reviewed; the competition appendix is sample-reviewed partial.
 All 42 canonical TOC identities remain;
 five non-owning groups are classified and three identities await restoration
@@ -386,11 +386,11 @@ attempts and the refused overwrite are recorded. No source/map/OCR/tooling chang
 Export:`build/pdf-restoration/12-1984-05-batch-38/appendix-reviewed`.
 Evidence:`private/pdf-restoration/12-1984-05-batch-38`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–40}`.
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–41}`.
 Latest full export: `build/pdf-restoration/12-1984-05-happy`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
-Latest native export: `build/pdf-restoration/12-1984-05-batch-40/appendix`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-40`.
+Latest native export: `build/pdf-restoration/12-1984-05-batch-41/appendix-reviewed`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-41`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat,happy}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
 Native35 ending is committed as `1e763f6`; its post-commit audit passes. Full
@@ -479,12 +479,46 @@ Export:`build/pdf-restoration/12-1984-05-batch-40/appendix`.
 Evidence:`private/pdf-restoration/12-1984-05-batch-40`.
 Do not rerun completed closeout or pre-promotion validator/finalizer.
 
-Next: native 41 restores appendix ending 248–249 after fresh 247–250 continuation/
-boundary review, using exact pinned full extent proof and immutable 230–247 inputs.
-Adult 30 prompt 247 resumes with choices 248; adult 37's program continues 248/249.
-Verify final answers/end 249 before advertising index 250, then commit native 41 before
-separate full appendix assembly. Preserve all native 40 evidence inventory pins.
-Information radar 89 and information-group/advertising-index 250 classifications remain.
+Native 41 restores the appendix ending on pages 248–249. All source pages
+230–249 are now available across four immutable native segments; full assembly
+and readable promotion remain. Four fresh 247–250 scans and 18 exact pinned prior
+reviews establish complete extent before mapping: two mapped pages and 20 outside
+proof pages. The advertisement below the final answer key on 249 is excluded.
+
+This segment retains 38 regions, 25 blocks, 13 original figures, one caption,
+25 regional spans and 58 text reviews. All 25 text panels and 13 figure crops
+were actually reviewed. All 38 OCR tasks completed without failures, retries or
+crop repairs; final map and OCR evidence are unchanged copies of the originals.
+Its 41 physical program rows retain 40 numbered entries and one wrapped row across
+six independent groups/eight code regions. Adult 33 and program 37(1) continue
+with fresh physical rows; printed 40 wraps to THEN GOTO 99. One numeric DATA row
+retains four values. No native prose or physical-row joins are needed.
+
+The adult answer key preserves all 40 answers. Four source tables retain 22 rows,
+202 cells and 21 blanks, including the ASCII table's printed omissions. Repeated
+array-label rows retain explicit source roles in the corrected index. An initial
+export with unsupported repeated header metadata remains separately pinned;
+only `appendix-reviewed` is promoted. Text, listing bytes, maps and scans are
+identical between exports. There are 73 inline examples and five Unicode notation
+candidates. Blank operands, omission dots, binary choice 1000100 and historical
+wording remain literal; full proofreading, encoded bytes and execution are unverified.
+
+Exact regional/table/cell/physical/logical/DATA/glyph indexes, regional/reference/
+wrapped projection and independent byte-identical rebuild pass. All 196 prior
+native and 34 assembly manifest pins remain unchanged; two unpromoted native
+exports and native 40/41 OCR evidence inventories are preserved. Fifteen May
+assemblies were revalidated; the unchanged 112-test baseline is reused.
+Export: `build/pdf-restoration/12-1984-05-batch-41/appendix-reviewed`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-41`.
+Do not rerun completed native closeout or pre-promotion validation/finalizers.
+
+Next: assemble the full appendix 230–249 from exact pinned native 38 reviewed,
+39, 40 and 41 reviewed exports after native 41's commit/audit. Preserve all raw
+files and metadata, merge the middle 12 listing across 235/236 without a row join,
+and review the adult 30 prompt/choices boundary at 247/248. Validate complete
+coverage, source/index projection and an independent full rebuild before readable
+promotion. No new mapping/OCR is required. Information radar on 89, information-
+group/advertising-index classifications and separate issue closeout remain.
 Three unresolved TOC identities, one partial appendix and
 separate issue closeout remain;whole May is incomplete.
 Unlisted announcement189 remains excluded.
