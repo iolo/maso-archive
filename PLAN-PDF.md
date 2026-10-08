@@ -32,12 +32,12 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–35 and fourteen assemblies are complete:** 31 articles are
-sample-reviewed, 30 readable and one partial. All 42 canonical TOC identities remain;
+**May batches 01–35 and fifteen assemblies are complete:** 31 articles are
+readable and sample-reviewed. All 42 canonical TOC identities remain;
 five non-owning groups are classified and six identities await restoration
-or classification. HAPPY-WORDS pages 208–215 are restored in two native segments;
-its separate full assembly remains required. 메아리 on 216–217 is complete.
-Fourteen assemblies preserve 34 immutable native segments. Whole May remains
+or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
+native segments. 메아리 on 216–217 is complete.
+Fifteen assemblies preserve 36 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
@@ -322,11 +322,11 @@ Exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-35`.
 
 Native exports: `build/pdf-restoration/12-1984-05-batch-{01–35}`.
-Latest full export: `build/pdf-restoration/12-1984-05-cat`.
-Assembly evidence: `private/pdf-restoration/12-1984-05-cat-assemble`.
+Latest full export: `build/pdf-restoration/12-1984-05-happy`.
+Assembly evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
 Latest native exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
 Native evidence: `private/pdf-restoration/12-1984-05-batch-35`.
-Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat}`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat,happy}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
 Native35 ending is committed as `1e763f6`; its post-commit audit passes. Full
 HAPPY-WORDS projection preflight reproduced a limitation of the existing adapter:
@@ -342,10 +342,18 @@ metadata or historical modes. All 112 PDF tests pass. Real HAPPY projection reta
 identical. All 191 native manifest pins and 33 historical assemblies pass their
 preservation/compatibility checks. The issue ledger is unchanged. Evidence:
 `private/pdf-restoration/12-1984-05-happy-reference-adapter`.
-Next: commit this tested tooling checkpoint, then separately assemble full
-HAPPY-WORDS 208–215; no physical row or prose join at 213/214. Preserve the three
-prose joins already present in native34 and all source uncertainty.
-Native36 subsequently needs fresh full 리뷰쌀롱 220 extent proof before mapping;
+Tooling was committed separately as `89d5f4b` after native35 ending `1e763f6`.
+Full HAPPY-WORDS 208–215 assembly is complete: 66 regions, 47 blocks, 16 images,
+three captions, 50 regional spans and 85 text reviews. Its 538 physical rows retain
+284 numbered entries, 126 wraps and 128 unnumbered rows across three listing groups.
+Four markers, five inline examples, 126 hex rows/1,000 candidates, two prompts,
+five table rows/10 cells, 54 guide fragments and 19 variables project exactly.
+Two numeric DATA rows retain 124 candidates; 15 word-DATA rows/203 candidates remain
+in original metadata. All original files/metadata and 191 native/33 prior assembly
+pins are preserved. Fresh full rebuild is byte-identical. No new OCR or mapping;
+112-test baseline reused. Source uncertainty and three native prose joins remain;
+no physical row or prose join at 213/214. Only HAPPY availability is promoted.
+Next: native36 needs fresh full 리뷰쌀롱 220 extent proof before mapping;
 220/221 lookups establish only its opening.
 Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.

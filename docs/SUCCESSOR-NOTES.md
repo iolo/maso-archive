@@ -7,12 +7,12 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–35 and fourteen assemblies are complete:** 31 articles are
-sample-reviewed, 30 readable and one partial. All 42 canonical TOC identities remain;
+**May batches 01–35 and fifteen assemblies are complete:** 31 articles are
+readable and sample-reviewed. All 42 canonical TOC identities remain;
 five non-owning groups are classified and six identities await restoration
-or classification. HAPPY-WORDS pages 208–215 are restored in two native segments;
-its separate full assembly remains required. 메아리 on 216–217 is complete.
-Fourteen assemblies preserve 34 immutable native segments. Whole May remains
+or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
+native segments. 메아리 on 216–217 is complete.
+Fifteen assemblies preserve 36 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
 
 Native32 completes the cat ending196–197 and the function-key article198–201.
@@ -124,9 +124,22 @@ execution are certified. Projection has 538 physical rows, 1,000 hex candidates,
 four markers and five inline examples. Repeated projection is identical and the
 ledger remains unchanged. Three native34 prose joins are retained.
 
-Next: commit this separate tooling checkpoint before full HAPPY-WORDS 208–215
-assembly from preserved native34/35, with no 213/214 physical row or prose join.
-Native36 then needs fresh full 리뷰쌀롱 220 extent proof;
+Tooling committed separately `89d5f4b`, after ending native `1e763f6`. Full HAPPY
+208–215 assembly is complete: 66 regions/47 blocks/16 images/three captions,
+50 regional spans/85 text reviews and 538 physical rows (284 numbered/126 wraps/
+128 unnumbered). Three listing groups retain 124 numeric DATA candidates, 1,000
+hex candidates and two prompts. Five table rows/10 cells, 54 guide fragments,
+19 variables, five inline examples and four markers have exact combined spans.
+Fifteen word-DATA rows/203 candidates remain in immutable original metadata.
+All copied original files/metadata and 191 native/33 prior assembly pins are
+unchanged; full rebuild is byte-identical and 112-test baseline reused. Three
+native prose joins retained; no 213/214 join. Only HAPPY availability promoted.
+Full proofreading, glyphs/encoded bytes, quoted spacing and execution unverified.
+Export: `build/pdf-restoration/12-1984-05-happy`.
+Evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
+Do not rerun its completed closeout or pre-promotion checks.
+
+Next: native36 needs fresh full 리뷰쌀롱 220 extent proof;
 220/221 lookups establish only its opening. May still needs six unresolved TOC
 outcomes and a separate issue closeout.
 JSON/assets only;no rendering work is required.

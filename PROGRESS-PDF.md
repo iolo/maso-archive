@@ -10890,6 +10890,33 @@ history remains in [PROGRESS.md](PROGRESS.md).
   indexes, preserve all historical modes and native bytes, and commit tooling
   before full assembly. This is remaining implementation work, not a source gap.
 - Evidence: `private/pdf-restoration/12-1984-05-happy-reference-adapter`.
+
+### 2026-10-08 — Full HAPPY-WORDS assembly, pages 208–215
+
+- Ending native committed `1e763f6`; tested opt-in tooling committed separately
+  `89d5f4b` before this full assembly. Both post-commit audits pass.
+- Delivered readable/sample-reviewed JSON/assets from immutable native34/35:
+  66 regions, 47 ordered blocks, 16 original images, three captions, 50 regional
+  spans and 85 text reviews. Three listing groups retain 538 physical rows:
+  284 numbered entries, 126 wraps and 128 unnumbered rows. Three native prose joins
+  retained; no physical-row or prose join between pages 213 and 214.
+- Exact global indexes retain four marker excerpts, five inline examples, 126
+  hex rows/1,000 candidates, two prompts, five table rows/10 cells, 54 guide
+  fragments and 19 variables. Two numeric DATA rows retain 124 candidates;
+  15 word-DATA rows/203 candidates remain in immutable original metadata.
+  Printed 61B8 final 52 and final row 18 24 0D 00 00 remain literal.
+- Every copied native file and original metadata field remains unchanged. All
+  191 prior native/33 assembly pins retained; independent full rebuild is
+  byte-identical. Source/index/asset checks pass; 112-test baseline reused.
+  No new OCR, mapping, HTML or browser work. Full proofreading, glyph/encoded
+  bytes, quoted spaces and execution remain unverified.
+- Only HAPPY availability promoted. All 42 canonical identities retained:
+  31 readable/sample-reviewed articles, five non-owning groups, six unresolved.
+  Fifteen May assemblies preserve 36 immutable native segments. Whole May and
+  issue closeout remain incomplete. Native36 needs fresh full 리뷰쌀롱220 extent
+  proof before mapping; earlier 220/221 scans establish only the opening.
+- Export: `build/pdf-restoration/12-1984-05-happy`.
+  Evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
   The issue ledger remains 30 readable/one partial, five groups/six unresolved.
 
 ### 2026-10-08 — HAPPY-WORDS literal-reference adapter

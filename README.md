@@ -111,10 +111,9 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7. Thirty-one articles are sample-reviewed: 30 readable
-and one partial. Fourteen assemblies preserve 34 original segments.
-HAPPY-WORDS pages 208–215 are restored in two native segments; its separately
-tested assembly adapter is ready for full article assembly. Batch 35 completes 메아리
+May 1984 began on October 7. Thirty-one articles are readable and sample-reviewed.
+Fifteen assemblies preserve 36 original segments. Full HAPPY-WORDS pages 208–215
+are assembled with the separately committed, tested adapter. Batch 35 completes 메아리
 on pages 216–217.
 Five non-owning groups are classified; six TOC entries still await restoration
 or classification. Whole May and its issue closeout remain incomplete.
