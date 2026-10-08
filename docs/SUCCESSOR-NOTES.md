@@ -7,11 +7,12 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–41 and sixteen assemblies are complete:** 34 articles are
-readable and sample-reviewed, including the complete competition appendix 230–249.
+**May batches 01–42 and sixteen assemblies are complete:** 35 articles are
+sample-reviewed: 34 readable, including the complete competition appendix 230–249,
+and one partial information radar covering89–94 of verified89–96.
 All 42 canonical TOC identities remain;
-five non-owning groups are classified and three identities await restoration
-or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
+six non-owning groups are classified and one identity, advertising index250,
+awaits restoration. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
 Sixteen assemblies preserve 40 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
@@ -322,11 +323,28 @@ Export: `build/pdf-restoration/12-1984-05-appendix`.
 Evidence: `private/pdf-restoration/12-1984-05-appendix-assemble`.
 Do not rerun completed assembly closeout or pre-promotion validation.
 
-Next: native42 fresh full extent proof for information radar89 and advertising
-index250 before mapping; classify information group from canonical hierarchy/source
-proof. Exclude advertisement bodies. Whole-issue closeout follows all three remaining
-identities. May has34 readable/sample-reviewed articles,zero partials,five groups and
-three unresolved identities. JSON/assets only;no frontend/browser work required.
+Native42 restores radar89–94 of source-verified89–96. Fifteen fresh88–99/249–251
+whole scans and the source contents image were reviewed before mapping. One
+article/six mapped pages/nine outside-map lookups.67 regions retain55 blocks,
+six images,61 regional spans,101 reviews,29 Unicode candidates and13 news items.
+The award table retains13 rows/65 cells/seven blank merged-label continuations;
+two source captions and six prose boundaries remain exact. All73 original/seven
+revised panels and six original images were viewed. Four crops widened once;
+71 actual tasks,zero failures/retries. Printed errors/claims and faint glyphs
+remain candidates;full proofreading/source bytes unverified. The validator's
+two bookkeeping assumptions were corrected with attempts retained;no export
+mutation. Indexes/projections, original bytes and independent identical rebuild
+pass.197 prior native/35 assembly pins, two unpromoted exports and40–42 OCR
+inventories retained. Unchanged115-test baseline reused.
+Source contents and eight canonical children establish pageless information
+group0034 as non-owning. May now34 readable/one partial/six groups/one unresolved.
+Export: `build/pdf-restoration/12-1984-05-batch-42/radar`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-42`.
+
+Next: native43 radar95–96 plus lower advertisingindex250, using exact pinned
+native42 full extent evidence or fresh scans before mapping. Upper publisher ad250
+excluded. Commit the ending checkpoint before fullradar89–96assembly; then separate
+whole-May issue closeout. All42canonical identities retained;JSON/assets only.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block

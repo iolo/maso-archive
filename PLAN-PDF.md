@@ -32,11 +32,12 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–41 and sixteen assemblies are complete:** 34 articles are
-readable and sample-reviewed, including the complete competition appendix 230–249.
+**May batches 01–42 and sixteen assemblies are complete:** 35 articles are
+sample-reviewed: 34 readable, including the complete competition appendix 230–249,
+and one partial information radar covering 89–94 of verified 89–96.
 All 42 canonical TOC identities remain;
-five non-owning groups are classified and three identities await restoration
-or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
+six non-owning groups are classified and one identity, advertising index 250,
+awaits restoration. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
 Sixteen assemblies preserve 40 immutable native segments. Whole May remains
 incomplete; unprocessed content is not missing.
@@ -62,10 +63,30 @@ join with an explicit paragraph boundary. Nine native prose joins and all origin
 metadata remain unchanged. Independent full rebuild, exact indexes and197native/
 34priorassembly pins pass; two unpromoted exports and40–41 OCR inventories retained.
 115-test baseline reused. Full proofreading, source bytes and execution unverified.
-Remaining: information radar89, information-group/advertising-index classifications
-and separate issue closeout. No new mapping/OCR, HTML or browser work for assembly.
+Remaining after this assembly: radar restoration/classification and separate
+issue closeout, advanced by native42 below. No new mapping/OCR, HTML or browser
+work was required for the appendix assembly.
 Export: `build/pdf-restoration/12-1984-05-appendix`.
 Evidence: `private/pdf-restoration/12-1984-05-appendix-assemble`.
+
+Native42 restores information radar89–94 of full source-verified89–96. All15fresh
+88–99/249–251 scans and the contents image were reviewed before mapping; one
+article/six mapped pages/nine outside-map lookups. 67 regions retain55 blocks,
+six original images,61 regional spans,101 text reviews,29 Unicode candidates,
+13 news items, two captions and six native prose boundaries. The award table
+retains13 rows/65 cells/seven blank merged-label continuations. Printed DESING,
+Compaq5½-inch claims, Insructions/dottleneck/VSLI/Fourrier and model/body
+discrepancies remain literal candidates. All73 original/seven revised panels and
+six images were viewed; four distinct crops widened once.71 actual OCR tasks,
+zero failures/retries. Independent indexes/projections and byte-identical rebuild
+pass;197 prior native/35 assembly pins and preserved evidence inventories unchanged.
+Unchanged115-test baseline reused. Source bytes/full proofreading remain unverified.
+Pageless information group0034 is classified non-owning from the source contents
+and eight canonical children. Native43: restore radar95–96 and lower advertising
+index250, excluding the upper publisher ad; then commit the ending and assemble
+the full radar89–96. Separate whole-issue closeout remains required.
+Export: `build/pdf-restoration/12-1984-05-batch-42/radar`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-42`.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
 41 ordered blocks,seven original images,45 native regional spans,41 source block

@@ -11213,3 +11213,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Evidence:`private/pdf-restoration/12-1984-05-appendix-assemble`.
 - Next: native42 full source extent/classification for information radar89,
   advertising index250 and information group; then separate issue closeout.
+
+### 2026-10-08 — May native 42, information radar opening 89–94
+
+- Full radar extent89–96 and independent97divider/98ad/99course were verified
+  before mapping. Fifteen fresh88–99/249–251 whole scans and source contents image
+  were actually viewed. One article/six mapped pages/nine outside-map lookups.
+  Information heading0034 is pageless and non-owning above eight canonical children;
+  eligible advertising index is lower250, excluding the upper publisher ad.
+- Native opening89–94 retains67 regions,55 blocks,six original images,61 regional
+  spans,101 text reviews,29 Unicode candidates,13 news items,two source captions
+  and six prose boundaries in five groups. IMST42493–94 joins 구성/된다 and 수/있다;
+  original source coordinates remain exact.94report complete;95starts independent
+  Mitsubishi news, so no cross-segment prose or physical-row join is needed.
+- Award table retains13 rows/65 cells/12 submissions/seven original blank merged
+  award-label cells. Full table bitmap overlaps its searchable candidate by design.
+  Printed DESING,Compaq5½-inch claims,VT-1000,축척된,Insructions,dottleneck,VSLI,
+  Fourrier and IMSG213 graphic-heading/disk-controller-body discrepancy retained.
+  Faint company벨엘/벤엘 and caption서플 candidates remain explicit;no harmonization
+  or technical repair. Unicode/model/contact readings and source bytes unverified.
+- All73 original text panels,six original images and seven revised panels actually
+  viewed. Four distinct94cropsr59/r61/r63/r65 widened once each.71actual executions
+  67initial/fourrepair,zero failures/retries. Initial maps/crops/rawOCR/positions/
+  settings/attempts and both complete OCR evidence inventories retained. Revised
+  settings repin the final map; unchanged processing fields/images/text/positions
+  remain identical. Two validator bookkeeping assumptions were corrected with
+  failed attempts preserved;the export itself was unchanged.
+- Independent UTF-8/table/blank-cell/caption/news indexes,regional/reference and
+  empty-listing projections pass. Fresh rebuild is byte-identical.197 prior native/
+  35 assembly manifests and both unpromoted native exports,40–42 OCR inventories
+  and original inputs preserved. Sixteen May assemblies revalidated;unchanged115
+  PDF-test baseline reused from separately committedbdf0d8c. JSON/assets only.
+- Ledger now35 sample-reviewed articles:34readable/one partial radar; six non-owning
+  groups and one unresolved advertising index. All42canonical IDs/titles/parents
+  unchanged.42native checkpoints and16assemblies40immutableinputs complete.
+  Whole May and its issue closeout remain incomplete;full proofreading deferred.
+- Next native43:radar95–96 andloweradvertisingindex250, then named ending commit
+  and full radar89–96assembly. Separate whole-issue closeout follows.
+- Export:`build/pdf-restoration/12-1984-05-batch-42/radar`.
+  Evidence:`private/pdf-restoration/12-1984-05-batch-42`.

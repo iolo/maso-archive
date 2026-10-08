@@ -111,7 +111,8 @@ artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate ongoing JSON/assets campaign: November 1983,
 February 1984 and March 1984 are complete, with 16 eligible issues still to close.
-May 1984 began on October 7. Thirty-four articles are readable and sample-reviewed.
+May 1984 began on October 7. Thirty-four articles are readable and sample-reviewed;
+information radar is a sample-reviewed partial covering pages 89–94 of verified 89–96.
 Sixteen assemblies preserve 40 original segments. Full HAPPY-WORDS pages 208–215
 are assembled with the separately committed, tested adapter. Batch 35 completes 메아리
 on pages 216–217. Batch 36 completes 리뷰 쌀롱 on pages 220–224, including all
@@ -125,8 +126,12 @@ key and adult opening. Batch 41 restores the ending on pages 248–249, includin
 the ASCII table and adult answer key. Four immutable segments cover all appendix
 pages 230–249; their full assembly is complete. The separately committed source-candidate
 adapter preserves the independent choices and all 160 printed answer pairs.
-Five non-owning groups are classified;
-three TOC entries await restoration or classification. Whole May and its issue closeout
+Batch 42 restores the radar opening with six original images, 13 news items and
+the 12-submission award table, preserving seven blank cells. Full extent was
+verified before mapping; four crops were widened once. Six non-owning groups are
+classified, including the pageless information heading. The advertising index on
+lower page 250 awaits restoration. Next are radar pages 95–96 and the index,
+followed by the full radar assembly. Whole May and its issue closeout
 remain incomplete.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
 pass. All 115 PDF tooling tests pass.
