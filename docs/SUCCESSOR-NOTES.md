@@ -7,7 +7,7 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–38 and fifteen assemblies are complete:** 33 articles are
+**May batches 01–39 and fifteen assemblies are complete:** 33 articles are
 readable and sample-reviewed; the competition appendix is sample-reviewed partial.
 All 42 canonical TOC identities remain;
 five non-owning groups are classified and three identities await restoration
@@ -197,11 +197,38 @@ Export:`build/pdf-restoration/12-1984-05-batch-38/appendix-reviewed`.
 Evidence:`private/pdf-restoration/12-1984-05-batch-38`.
 Do not rerun completed closeout or pre-promotion validator/finalizer.
 
-Next: native39 maps appendix236–241 after fresh segment review, preserving pinned
-native38 full230–249 extent proof and immutable opening. Restore middle12's55/60
-rows/choices, middle ending/key239 and high-school opening239. High question28
-continues242; remaining242–249 and separate appendix assembly follow.
-Information radar89 and two classifications also remain. May has33 readable/
+Native39 restores appendix236–241, following immutable native38 opening230–235.
+The ledger preserves both segments and available pages230–241; no full assembly
+or readable promotion yet. Eight fresh235–242 scans and15 exact pinned native38
+reviews preserve complete230–249 extent proof; six mapped pages/17 outside lookups.
+All77 text panels/41 figures plus one repaired r105 crop actually reviewed.
+One right-edge repair recovered both complete question22 choices.112 initial tasks
+andone repair executed;111 cache hits,zero failures/retries. Initial maps/crops,
+raw OCR/positions/settings and attempts preserved;111 unchanged final crops verified.
+112 regions,67 blocks,71 regional spans and156 review ranges retain middle12 tail,
+middle ending/key239 and high-school questions1–27/question28 prompt.148 physical/
+numbered code rows form23 groups; q27,q36/37,q40 and high12 span fresh rows across
+columns/pages. Five numeric DATA statements retain15 values; mixed DATA separately
+indexed. Four prose joins and46 Unicode notation candidates retain uncertainty.
+Middle duplicate16 labels,DIN,NEXT1I,FOR,missingTHEN,blank20/40 operands and blank
+condition box stay literal. Middle forty-answer key plus truth table retain9 rows/
+67 cells,11 blanks and40 separately indexed answers. Full proofreading,source
+encoding and execution unverified; original bitmaps authoritative.
+Exact UTF-8/regional/table/physical/logical/DATA/glyph indexes,regional/reference/
+wrapped projections and independent byte-identical rebuild pass.194 prior native/
+34 assembly pins plus earlier unpromoted export preserved;15 May assemblies
+revalidated. Unchanged112-test baseline reused. No pipeline or rendering changes.
+Export:`build/pdf-restoration/12-1984-05-batch-39/appendix`.
+Evidence:`private/pdf-restoration/12-1984-05-batch-39`.
+Do not rerun completed closeout or pre-promotion validator/finalizer.
+
+Next: native40 restores appendix242–247 after fresh segment/continuation review,
+using exact pinned full extent proof and immutable230–241 inputs. High28 prompt241
+resumes with program/choices242. High ending/key243 and adult opening244 follow;
+verify outgoing247/248 boundary before mapping. Native41 ending248–249 and separate
+full appendix assembly remain. Information radar89 and information-group/
+advertising-index250 classifications also remain.
+May has33 readable/
 sample-reviewed articles,one partial appendix,five groups,three unresolved identities;
 separate issue closeout is still required.
 JSON/assets only;no rendering work is required.

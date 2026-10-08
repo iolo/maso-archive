@@ -11041,3 +11041,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
   remain.
 - Export:`build/pdf-restoration/12-1984-05-batch-38/appendix-reviewed`.
   Evidence:`private/pdf-restoration/12-1984-05-batch-38`.
+
+### 2026-10-08 — May native39, competition appendix middle236–241
+
+- Eight fresh235–242 scans plus15 exact pinned native38 reviews preserve verified
+  full appendix230–249 extent before mapping. One article/six mapped pages236–241,
+  17 outside-map lookups. Native38 opening230–235 stays immutable.
+- Delivered sample-reviewed partial JSON/assets:112 regions,67 ordered blocks,
+  41 original images,71 regional ranges and156 text reviews. Middle12 new55/60 rows,
+  middle ending/key239,high-school1–27 and question28 prompt241 retained.
+- All77 text panels/41 figures andone repaired crop actually inspected. One r105
+  right-edge repair recovers complete THEN60 endings.112initial+1repair actual tasks,
+  111cache hits,zero failures/retries;111 other final crops byte-identical. All
+  initial/final maps,rawOCR,positions,settings,attempts and provenance preserved.
+- 148 physical/numbered rows in23 independent program groups/27 code regions.
+  Middle27,middle36/37,middle40 andhigh12 continuations use fresh physical rows.
+  Incoming middle12 tails preserve previous235 line50 followed by236 line55/60,
+  without a row join. High28 program/choices242 are deferred,not invented.
+- Five numeric DATA statements retain15 values; mixed DATA separately indexed.
+  Four prose joins include high17 근본이/유는. Middle forty-answer key and truth
+  table retain9 rows/67cells,11 blanks and40 separately indexed answers;46 Unicode
+  notation candidates preserve encoding uncertainty. Output/precedence geometry
+  remains in original bitmaps.
+- Printed duplicate16/no15 labels,DIN,NEXT1I,FOR,missingTHEN,blank20/40 operands,
+  blank condition box and unbalanced formula choices retained. Middle29 +.5 is
+  confirmed by enlarged source. Full proofreading,source bytes/execution unverified.
+- Exact UTF-8/regional/table/cell/physical/logical/DATA/glyph indexes,regional/
+  reference/wrapped projection and independent byte-identical rebuild pass.
+  194 prior native/34 assembly pins plus earlier unpromoted export unchanged;
+  15 May assemblies revalidated. Unchanged112-test tooling baseline reused.
+- Ledger preserves two immutable appendix segments230–241. Counts remain33
+  readable/sample-reviewed articles,one partial appendix,five non-owning groups,
+  three unresolved identities;all42 canonical IDs retained.39 native checkpoints
+  complete;15 assemblies preserve36 inputs. Whole May and issue closeout incomplete.
+- Next native40 restores242–247; native41 ending248–249/full appendix assembly,
+  information radar89 andtwo classifications remain. JSON/assets only.
+- Export:`build/pdf-restoration/12-1984-05-batch-39/appendix`.
+  Evidence:`private/pdf-restoration/12-1984-05-batch-39`.

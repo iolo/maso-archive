@@ -118,10 +118,12 @@ on pages 216–217. Batch 36 completes 리뷰 쌀롱 on pages 220–224, includi
 three product reviews and the TM-103 specifications table. Batch 37 completes
 Q&A on pages 225–229, including all seven listings and their original scan panels.
 Batch 38 restores the competition appendix's first segment, pages 230–235,
-including all 40 elementary questions and their answer key. Its verified full
-extent is 230–249; the appendix remains partial pending the remaining segments
-and assembly. Five non-owning groups are classified; three TOC entries await restoration
-or classification. Whole May and its issue closeout remain incomplete.
+including all 40 elementary questions and their answer key. Batch 39 restores
+pages 236–241, including the middle-school ending/answer key and high-school
+opening. Both immutable segments remain partial; verified pages 242–249 and
+full appendix assembly are next. Five non-owning groups are classified; three
+TOC entries await restoration or classification. Whole May and its issue closeout
+remain incomplete.
 Source preservation, exact UTF-8/listing indexes and byte-identical rebuild checks
 pass. All 112 PDF tooling tests pass.
 See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
