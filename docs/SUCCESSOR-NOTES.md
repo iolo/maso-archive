@@ -7,9 +7,9 @@ sample-reviewed: 37 readable and one terminal partial due to a source gap.
 Printed pages 250–251 are absent; all available word-processor pages 244–249 are
 restored. No continuation was invented.
 
-**May batches 01–35 and fifteen assemblies are complete:** 31 articles are
+**May batches 01–36 and fifteen assemblies are complete:** 32 articles are
 readable and sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and six identities await restoration
+five non-owning groups are classified and five identities await restoration
 or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
 Fifteen assemblies preserve 36 immutable native segments. Whole May remains
@@ -139,9 +139,30 @@ Export: `build/pdf-restoration/12-1984-05-happy`.
 Evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
 Do not rerun its completed closeout or pre-promotion checks.
 
-Next: native36 needs fresh full 리뷰쌀롱 220 extent proof;
-220/221 lookups establish only its opening. May still needs six unresolved TOC
-outcomes and a separate issue closeout.
+Native36 completes 리뷰쌀롱220–224: 34 regions/17 blocks/five original images,
+one caption,29 regional spans/62 text reviews. One canonical article includes
+카나리아II, DCM12-SL and TM-103. Three continuous prose groups retain12 native
+column/page boundaries. Eight specification rows/16 cells retain one blank under
+the printed merged broadcast-frequency label. Printed local spellings/model
+variants, 여유자작한, 농촌도 가도 and C-/ATALOG wrap remain literal. Historical
+technical claims, full proofreading and source encoded bytes unverified.
+
+Twelve fresh219–230 scans established extent before mapping:five mapped pages/
+seven outside-map lookups. All38 original/six revised text panels andfive figures
+reviewed. Three crops repaired once each;37 actual tasks,zero failures/retries.
+Initial evidence retained. Exact indexes,regional/reference projection and identical
+rebuild pass;191 prior native/34 assembly pins retained,15 May assemblies revalidated.
+Unchanged112-test baseline reused;no pipeline,HTML or browser work.
+Export: `build/pdf-restoration/12-1984-05-batch-36/review`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-36`.
+Do not rerun completed closeout or pre-promotion validation.
+
+Next: native37 needs fresh full Q&A225–229 extent/boundary proof. Native36 lookups
+show its full extent but fresh source review remains required. Restore seven
+listings/figure1, NEW answer225→226, graphics answer227→228, final answer228→229,
+and LIST6 left→right229. Exclude lower recruitment ad229. Appendix230 opening
+only; complete extent unverified. May still needs five unresolved TOC outcomes
+and a separate issue closeout.
 JSON/assets only;no rendering work is required.
 
 Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,

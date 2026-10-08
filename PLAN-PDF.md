@@ -32,9 +32,9 @@ tooling baseline remains current.
 
 May 1984 is the next supplied eligible issue; restoration began 2026-10-07.
 The owner confirmed the queue correction: no April PDF is supplied.
-**May batches 01–35 and fifteen assemblies are complete:** 31 articles are
+**May batches 01–36 and fifteen assemblies are complete:** 32 articles are
 readable and sample-reviewed. All 42 canonical TOC identities remain;
-five non-owning groups are classified and six identities await restoration
+five non-owning groups are classified and five identities await restoration
 or classification. Full HAPPY-WORDS pages 208–215 are assembled from two immutable
 native segments. 메아리 on 216–217 is complete.
 Fifteen assemblies preserve 36 immutable native segments. Whole May remains
@@ -321,11 +321,28 @@ revalidated. Unchanged 106-test baseline reused. No pipeline or rendering change
 Exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
 Evidence: `private/pdf-restoration/12-1984-05-batch-35`.
 
-Native exports: `build/pdf-restoration/12-1984-05-batch-{01–35}`.
+Native36 completes canonical 리뷰쌀롱220–224, including 카나리아II, DCM12-SL
+and TM-103: 34 regions, 17 text blocks, five original images, one caption,
+29 regional spans and 62 text review ranges. Three continuous prose groups retain
+12 column/page boundaries. The specifications table has eight rows/16 cells,
+including the explicit blank under its merged broadcast-frequency label.
+Printed 알함브라/알함부라, 카나리아II/2, 칼러/컬러, model-name variants,
+여유자작한, 농촌도 가도 and C-/ATALOG wrap remain literal. Historical technical
+claims are not repaired; full proofreading and source encoded bytes unverified.
+Twelve fresh219–230 scans proved extent before mapping: five mapped pages/seven
+outside-map lookups. All38 original/six revised text panels and five images
+reviewed. Three crops repaired once each;37 actual tasks, zero failures/retries.
+Exact UTF-8/regional/table/cell/caption indexes, regional/reference projection and
+identical rebuild pass;191 prior native/34 assembly pins preserved,15 May
+assemblies revalidated. Unchanged112-test baseline reused. JSON/assets only.
+Export: `build/pdf-restoration/12-1984-05-batch-36/review`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-36`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–36}`.
 Latest full export: `build/pdf-restoration/12-1984-05-happy`.
 Assembly evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
-Latest native exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
-Native evidence: `private/pdf-restoration/12-1984-05-batch-35`.
+Latest native export: `build/pdf-restoration/12-1984-05-batch-36/review`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-36`.
 Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal,cat,happy}`.
 Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
 Native35 ending is committed as `1e763f6`; its post-commit audit passes. Full
@@ -353,8 +370,11 @@ in original metadata. All original files/metadata and 191 native/33 prior assemb
 pins are preserved. Fresh full rebuild is byte-identical. No new OCR or mapping;
 112-test baseline reused. Source uncertainty and three native prose joins remain;
 no physical row or prose join at 213/214. Only HAPPY availability is promoted.
-Next: native36 needs fresh full 리뷰쌀롱 220 extent proof before mapping;
-220/221 lookups establish only its opening.
+Next: native37 needs fresh full Q&A225–229 extent proof before mapping.
+Native36 lookups show its complete extent but do not replace the fresh review.
+Seven listings/figure1, prose continuations225/226,227/228,228/229 and LIST6
+left-to-right229 need source-linked restoration. Exclude the independent lower
+recruitment ad229. Special appendix230 opening only; complete extent unverified.
 Unlisted announcement189 remains excluded.
 May closeout follows all remaining articles/classifications.
 Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.

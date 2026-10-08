@@ -10917,6 +10917,35 @@ history remains in [PROGRESS.md](PROGRESS.md).
   proof before mapping; earlier 220/221 scans establish only the opening.
 - Export: `build/pdf-restoration/12-1984-05-happy`.
   Evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
+
+### 2026-10-08 — May native36, complete 리뷰쌀롱220–224
+
+- Twelve fresh upright219–230 scans established full extent before mapping.
+  One article/five mapped pages/seven outside-map lookups. Three product reviews
+  (카나리아II,DCM12-SL,TM-103) share one canonical TOC identity. Final contact/end
+  marker224 precedes independent Q&A225; Q&A225–229 and appendix230 deferred.
+- Delivered readable/sample-reviewed JSON/assets:34 regions,17 ordered blocks,
+  five original images,one caption,29 regional spans and62 text reviews. Three
+  continuous prose groups retain12 native column/page boundaries. Specifications
+  retain eight table rows/16 cells,one blank under a printed merged label.
+- Printed 알함브라/알함부라,카나리아II/2,칼러/컬러,DCM model variants,
+  여유자작한,농촌도 가도 and C-/ATALOG wrap retained. Historical baud/bps and
+  30-character claims are not repaired. Unicode phone/subscript/superscript readings
+  do not certify original encoded bytes. Full proofreading remains deferred.
+- All38 original/six revised text panels andfive original figures inspected.
+  Three distinct crops widened once:r12 leading glyphs,r17 clipped column,r19
+  punctuation margin.37 actual tasks34 initial/three repairs,zero failures/retries.
+  Initial maps/crops/raw OCR/positions/settings/attempts preserved.
+- Exact UTF-8/regional/table/cell/caption indexes, regional/reference projection
+  and independent byte-identical rebuild pass. All191 prior native/34 assembly
+  pins unchanged;15 May assemblies revalidated. Unchanged112-test baseline reused.
+  No pipeline,HTML,frontend or browser changes.
+- Ledger retains42 canonical identities:32 readable/sample-reviewed articles,
+  five non-owning groups,five unresolved. Fifteen assemblies preserve36 native
+  inputs. Whole May and separate issue closeout remain incomplete. Native37 needs
+  fresh complete Q&A225–229 proof before mapping; exclude lower recruitment ad229.
+- Export: `build/pdf-restoration/12-1984-05-batch-36/review`.
+  Evidence: `private/pdf-restoration/12-1984-05-batch-36`.
   The issue ledger remains 30 readable/one partial, five groups/six unresolved.
 
 ### 2026-10-08 — HAPPY-WORDS literal-reference adapter
