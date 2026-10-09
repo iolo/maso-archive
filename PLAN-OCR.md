@@ -386,3 +386,16 @@ commit code/documentation. Do not count a partial opening as a complete article.
   and rebuild identical, source/text/review/listing byte ranges verified.
 - June totals61 article source pages,12 complete articles,one non-owning heading,
   zero human accepted. Continue 한글 전화번호부와 주소록84 onward and remaining queue.
+
+### Reading room refresh through car race, 2026-10-09
+
+- Grouped staging adds four pinned packages to the prior eight-article preview;
+  twelve June articles now available at the existing port4187 review URL. Reload
+  an open tab to clear its in-memory collection. Original previews remain intact.
+- Fresh output `build/reading-room-qwen-june-through-car` passes complete dataset
+  inventory and projection checks, preservation of the prior collection and source
+  package pins, TypeScript/production build, and desktop browser navigation and
+  side-by-side car-code review. Human-pending state and graphic markers visible.
+- Next article extent checked: telephone/address84–93;94/95 advertisements excluded.
+  Batch15 mapped111 regions and completed88 raw calls; semantic checking underway.
+  Do not count this article as reviewed or include it in the current preview yet.
