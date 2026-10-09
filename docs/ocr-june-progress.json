@@ -1,6 +1,6 @@
 {
   "issue_id": "maso-1984-06",
-  "status": "in-progress",
+  "status": "all-eligible-articles-assistant-reviewed-human-pending",
   "counts": {
     "toc_entries": 45,
     "completed_articles": 38,
@@ -8,7 +8,7 @@
     "assistant_reviewed_complete_articles": 38,
     "assistant_reviewed_partial_articles": 0,
     "processed_source_pages": 216,
-    "non_owning_headings": 4
+    "non_owning_headings": 7
   },
   "processed_source_pages": [
     19,
@@ -2790,12 +2790,12 @@
       }
     }
   ],
-  "next": "Classify remaining headings and stage whole-issue reader.",
+  "next": "Human review in complete June reading room; source corrections and acceptance pending.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "a66e530d5dee44d3bbcb2417066aa1584fc925f1bc70bfca0ec86c7711775958",
-    "bytes": 33772
+    "sha256": "0b45fb8e4e7a7e17ee5ef9ccef709b24536b485bf8d838e65465bc00a80106ee",
+    "bytes": 35178
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",
@@ -2942,5 +2942,15 @@
       "all342_regions_human_pending": true
     },
     "human_acceptance": "pending"
+  },
+  "whole_issue_ledger": {
+    "path": "private/pdf-restoration/12-1984-06-qwen/whole-issue-ledger.json",
+    "sha256": "7208d16df645e59032f85e46b8f3e0e7b3efad15b66d6bb90dc630a93a62d5f9",
+    "bytes": 32930
+  },
+  "whole_issue_accounting": {
+    "path": "docs/ocr-june-accounting.json",
+    "sha256": "b422f43eea6159c5ad044e4dab277a25cfc440fdb9e281b6895652079fc836c1",
+    "bytes": 18023
   }
 }

@@ -882,3 +882,16 @@ commit code/documentation. Do not count a partial opening as a complete article.
 -128 cache hits,zero new calls; both native exports,rebuilds,coverage and UTF-8
   ranges passed. Totals216 source pages,38 complete articles,no partials,zero
   human accepted. Three remaining non-owning TOC headings and final preview next.
+
+### Whole-issue accounting, 2026-10-10
+
+- All45 canonical contents entries are accounted for:38 readable article bodies,
+  seven non-owning headings,no missing/partial/failed bodies. All38 remain
+  assistant sample-reviewed and human-pending; readable is not character-perfect.
+- Original contents PDF17 and source spreads confirm 공모입선작, 읽을 거리 and
+  정보모음 are group headings. Preserved canonical titles/parents and the known
+  복덕방 TOC188 versus actual186 discrepancy. Advertisements and unlisted notices
+  are outside the canonical-article restoration scope.
+- Private whole-issue-ledger.json pins every completed package. Public accounting
+  is docs/ocr-june-accounting.json. Final reader stages from the unchanged
+  pre-June collection into a fresh directory, preserving earlier previews.
