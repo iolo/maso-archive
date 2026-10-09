@@ -547,3 +547,24 @@ commit code/documentation. Do not count a partial opening as a complete article.
   scan articles and CD files preserved; integrity/build checks passed. Browser
   checked graphics article tables and side-by-side final code region123; screenshot
   retained privately. BASIC speed and Heat and Work await the next grouped refresh.
+
+### Information Radar checkpoint, 2026-10-10
+
+- Batch23 completes 정보레이다131–140:171 text regions,four photographs,two
+  transcribed tables and ten unresolved items. Source geography, IMB spelling,
+  reversed price range, inconsistent forecast and hardware units remain printed.
+- Full fee-table inference failed by repeating tabs to4096 output tokens. A row
+  retry also failed at4096 tokens. Both responses and preceding successful calls
+  remain private; final cell-level segmentation succeeded. The two failed runs
+  additionally used125 completed calls/111.98s inference plus the failed calls;
+  a padding adjustment stopped another attempt before any completed inference.
+  Final-run figures below exclude those costs and cannot represent total effort.
+- Final raw preparation238.47s; inference188.04s;102,320 local tokens; sampled
+  GPU7,838MiB/RSS10,502MiB. Two originally selected prose crops have compact
+  CER0%/1.75%, versus2.07%/11.40% Tesseract. Revised fee-header crop0% versus
+  74.36% is a post-failure diagnostic, not the originally selected full-table test.
+  All references remain assistant-derived, unblinded and whitespace-insensitive.
+-171 cache hits/zero new calls; export/rebuild and UTF-8 review ranges verified.
+  Totals114 source pages,21 complete assistant-reviewed articles,zero accepted.
+  Business divider141 classified as the third non-owning heading; four canonical
+  children retained. UNIX142–148 raw OCR complete; VISISUM149–154 running.
