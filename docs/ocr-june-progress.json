@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 45,
-    "completed_articles": 32,
+    "completed_articles": 33,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 32,
+    "assistant_reviewed_complete_articles": 33,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 177,
+    "processed_source_pages": 181,
     "non_owning_headings": 4
   },
   "processed_source_pages": [
@@ -187,7 +187,11 @@
     206,
     207,
     208,
-    209
+    209,
+    210,
+    211,
+    212,
+    213
   ],
   "checkpoints": [
     {
@@ -2353,14 +2357,69 @@
         "bytes": 7869
       },
       "manual_source_note": "Three source regions separately transcribed by assistant; graphical title literals remain explicit placeholders with scans. These are not Qwen OCR output."
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-35/horse-blocking/article.json",
+        "sha256": "3069219e2b5d147539c109c901d527833f0753389a9a66df34b9442b1f206b59",
+        "bytes": 149317
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-35/horse-blocking/manifest.json",
+        "sha256": "4346c25169ff0db664bf60c145d90ec713152485682446f1dce1f036c3780627",
+        "bytes": 63308
+      },
+      "source_pages": [
+        210,
+        211,
+        212,
+        213
+      ],
+      "regions": 95,
+      "text_regions": 92,
+      "figures": 3,
+      "physical_listing_rows": 339,
+      "logical_listing_rows": 211,
+      "unresolved_entries": 13,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 92
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-35",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 92,
+        "inference_wall_seconds": 78.37749547201383,
+        "local_prompt_tokens": 34072,
+        "local_output_tokens": 7236,
+        "peak_gpu_mib_sampled": 7760,
+        "peak_rss_mib_sampled": 7458.55078125,
+        "raw_run_elapsed_seconds": 98.24277294499916
+      },
+      "resume": {
+        "cache_hits": 92,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-35/tesseract-comparison/comparison.json",
+        "sha256": "8f135eb979e1f76845a98fa8d0ca271a434c7c9c4ac48e49f58060f514425ec2",
+        "bytes": 7763
+      }
     }
   ],
-  "next": "Horse-blocking game210–213, then letters214 onward and remaining departments.",
+  "next": "Readers letters214–216, then Q&A219–221 and US computer-industry history222 onward.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "1338e5b65ce53fa85ee6bc9eaa5a35e88343cbffc86e985037b27ef7ea9c673e",
-    "bytes": 30279
+    "sha256": "58d797f90644387016ed35c6c11336bbc0487f5c9636041a3a520302ada05d9e",
+    "bytes": 30619
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",

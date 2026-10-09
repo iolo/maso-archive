@@ -773,3 +773,20 @@ commit code/documentation. Do not count a partial opening as a complete article.
   source-row checks passed. Totals177 pages,32 assembled assistant-reviewed
   articles,four non-owning headings,zero human accepted. Reader remains30 articles.
 - Next: horse-blocking game210–213, already through raw OCR and scan inspection.
+
+### Horse-blocking game checkpoint, 2026-10-10
+
+- Batch35 completes 말 움직여 막기 게임210–213:92 text regions,three gameplay
+  images,one BASIC listing,339 physical rows/211 numbered rows,thirteen flags.
+  Restored missing DATA160 continuation, assignment710 tail, printed wraps,
+  I/1/O/0 and punctuation. Preserved source PLESE, CONGRATURTIONS, SHIF and
+  doubtful comma/dot marks. Literal padding remains uncertain; no execution.
+- Raw98.24s,inference78.38s,41,308 local tokens,GPU7,760MiB/RSS7,459MiB sampled.
+  No failed calls. Fixed prose/header/BASIC compact CER0%/2.47%/0.56% versus
+  Tesseract10.81%/62.96%/35.56%; unblinded assistant-reference diagnostics,
+  whitespace ignored and no claim of full-article or human-gold accuracy.
+-92 cache hits/zero new calls; export/rebuild, UTF-8 and explicit printed-row
+  coverage passed. Totals181 pages,33 complete assistant-reviewed articles,
+  four non-owning headings,zero human accepted. Reader remains30 articles.
+  Next: 메아리214–216 (two contributions), then Q&A219–221. Pages217–218
+  are advertisements; page221 continues Q&A, not a reading-section divider.
