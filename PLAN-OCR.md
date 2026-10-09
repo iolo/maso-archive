@@ -710,3 +710,24 @@ commit code/documentation. Do not count a partial opening as a complete article.
   resume28+40 cache hits,zero new calls. Totals159 source pages,29 complete
   assistant-reviewed articles,four non-owning headings,zero human accepted.
   Reader remains26 articles pending next grouped refresh. Next: graphic editor192–198.
+
+### Graphic editor checkpoint, 2026-10-10
+
+- Batch32 completes 그래픽 에디터192–198:163 text regions,four source images,
+  seven listing groups,152 physical listing rows,141 numbered rows,twelve review
+  flags. Five inline examples, eight-row hex routine and complete BASIC are kept
+  separate. Restored PRINT USING hash counts, O/0 candidates and physical wraps;
+  retained printed SHTFT and apparent original program anomalies. No execution.
+- Initial process ended with SIGTERM143 after140 completed stages. Cause unknown;
+  incomplete region request/server log retained. Recovery reused140 exact-image/
+  runtime stages and ran23 remaining calls. Recovery73.34s is **not total raw wall
+  time**; initial wall time is unavailable. Final-stage inference130.50s,75,353
+  local tokens plus231 tokens logged for the interrupted response,0.19s server
+  prompt+generation for that request. GPU7,802MiB/RSS9,115MiB sampled.
+- Fixed prose/hex/BASIC compact CER0%/5%/0.37% Qwen versus2.78%/47.50%/43.45%
+  Tesseract. Unblinded assistant-reference diagnostics; whitespace and original
+  encoding are not verified.163 cache hits/zero new calls; export,rebuild,source
+  row coverage and UTF-8 indexes passed. Totals166 source pages,30 complete
+  assistant-reviewed articles,four non-owning headings,zero human accepted.
+- Grouped reader refresh through graphic editor is building. Next article is
+  한글 소트199–204; figures and crop edges checked before inference.

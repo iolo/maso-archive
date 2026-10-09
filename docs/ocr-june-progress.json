@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 45,
-    "completed_articles": 29,
+    "completed_articles": 30,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 29,
+    "assistant_reviewed_complete_articles": 30,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 159,
+    "processed_source_pages": 166,
     "non_owning_headings": 4
   },
   "processed_source_pages": [
@@ -169,7 +169,14 @@
     185,
     186,
     190,
-    191
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198
   ],
   "checkpoints": [
     {
@@ -2146,14 +2153,82 @@
         "sha256": "bc43d0dbeccc24d53659d3a3dad36bb3b8927123bd07c05fda065f4866270463",
         "bytes": 7602
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-32/graphic-editor/article.json",
+        "sha256": "f0d673887692edb7e60fd12376981116b83a46381473fcc4fd1ab2065639a546",
+        "bytes": 263465
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-32/graphic-editor/manifest.json",
+        "sha256": "7301c84e9f126200a4e92dbbf930b6951d02b8049e72748bd94f33a3234728b3",
+        "bytes": 110869
+      },
+      "source_pages": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198
+      ],
+      "regions": 167,
+      "text_regions": 163,
+      "figures": 4,
+      "physical_listing_rows": 152,
+      "logical_listing_rows": 141,
+      "unresolved_entries": 12,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 163
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-32",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 163,
+        "inference_wall_seconds": 130.50058248209098,
+        "local_prompt_tokens": 64062,
+        "local_output_tokens": 11291,
+        "peak_gpu_mib_sampled": 7802,
+        "peak_rss_mib_sampled": 9115.375,
+        "raw_run_elapsed_seconds": 73.33698917199945,
+        "raw_run_elapsed_scope": "Recovery pass only; initial interrupted wall time unavailable.",
+        "interrupted_requests": 1,
+        "interrupted_server_total_tokens": 231,
+        "interrupted_server_prompt_and_eval_seconds": 0.19082,
+        "final_plus_interrupted_server_tokens": 75584
+      },
+      "resume": {
+        "cache_hits": 163,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-32/tesseract-comparison/comparison.json",
+        "sha256": "7395be660403cd9f0d10ab92d0c8741347aa687605b2e0c916a630c1fae30f7a",
+        "bytes": 7692
+      },
+      "interruption": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-32/interruption.json",
+        "sha256": "8898d136ed77dbd17ceb5ee6a5e6bca8cc55b4ce5fdc67ab0b7708381e7303cb",
+        "bytes": 613
+      }
     }
   ],
-  "next": "Graphic editor192–198, then remaining contest articles; refresh grouped reader.",
+  "next": "Hangul sort199–204 and remaining contest articles; refresh grouped reader through graphic editor.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "26d94ca4b7b6ad5f6651e3cd8243a6181c857c0ea72d081abcc8462ea4253abf",
-    "bytes": 29206
+    "sha256": "aab7270dc533a38022b8150fc63c4c79f713e4a828faf5e12993a22f46122203",
+    "bytes": 29595
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",
