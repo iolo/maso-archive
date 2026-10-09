@@ -347,3 +347,20 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - June totals53 article source pages,10 complete articles,one non-owning heading,
   zero human accepted. Reader currently covers the first eight; continue numbers
   game76–78 with distinct Korean/English listings, then the rest of the issue.
+
+### Bilingual numbers game checkpoint, 2026-10-09
+
+- Batch13 completes 숫자 따오기76–78:19 text regions,6 original images,
+  301 physical code rows/176 numbered statements across separate Korean and
+  English BASIC listings. Restored omitted banner strings and numbered English
+  statements1010/1020 and3002/3005 that raw OCR merged. Korean3021 spans columns;
+  prompt rows stay unnumbered. Printed variable inconsistencies remain unchanged.
+- Preparation67.66s; inference52.26s;20,706 local tokens; sampled GPU7,824MiB /
+  RSS4,758MiB. Fixed Korean ending compact CER2.08% versus36.98% Tesseract
+  kor+eng; English ending1.64% versus16.78% Tesseract eng. Both use identical
+  crop inputs and assistant references fixed before comparison, not human gold.
+- Eight unresolved glyph/spacing/source-code notes; mandatory human review and
+  execution remain pending.19 cache hits/zero calls; export and rebuild identical,
+  source/text/review/listing ranges and all raw stop reasons checked.
+- June totals56 article source pages,11 complete articles,one non-owning heading,
+  zero human accepted. Continue car race79–83 and remaining eligible articles.
