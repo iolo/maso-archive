@@ -1,0 +1,548 @@
+{
+  "hardware": {
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "cpu": "",
+    "logical_cpus": 24,
+    "gpu": "name, driver_version, memory.total [MiB]\nNVIDIA GeForce RTX 5080 Laptop GPU, 595.99.02, 16303 MiB",
+    "cpu_model_observed_from_proc_cpuinfo": "Intel(R) Core(TM) Ultra 9 275HX"
+  },
+  "reference_note": "Prior scan-reviewed, assistant-corrected Tesseract drafts, crosschecked in earlier trial. Not an independent human gold corpus. BASIC has unresolved bitmap/blank glyphs. Three purposive pages, no generalization claim.",
+  "startup": {
+    "wall_seconds": 1.2602640019999853,
+    "cpu_seconds_sampled": 1.1800000000000002,
+    "peak_rss_mib_sampled": 5366.734375,
+    "peak_gpu_mib_sampled": 7562,
+    "samples": 11,
+    "gpu_samples": 9,
+    "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+  },
+  "summary": [
+    {
+      "sample": "prose",
+      "engine": "tesseract-page",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 4.898046740000041,
+      "peak_rss_mib_sampled": 253.03515625,
+      "peak_gpu_mib_sampled": null,
+      "accuracy": [
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.27574102964118563,
+          "cer_edits": 707,
+          "cer_reference_chars": 2564,
+          "cer_no_whitespace": 0.04989495798319328,
+          "cer_no_whitespace_edits": 95,
+          "cer_no_whitespace_reference_chars": 1904,
+          "wer": 1.3373676248108926,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 0,
+            "mean_best_text_iou": 0.05538337733892951,
+            "figures": 0,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.27574102964118563,
+          "cer_edits": 707,
+          "cer_reference_chars": 2564,
+          "cer_no_whitespace": 0.04989495798319328,
+          "cer_no_whitespace_edits": 95,
+          "cer_no_whitespace_reference_chars": 1904,
+          "wer": 1.3373676248108926,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 0,
+            "mean_best_text_iou": 0.05538337733892951,
+            "figures": 0,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        4.901950937000038,
+        4.894142543000044
+      ],
+      "median_cpu_seconds_sampled": 4.92
+    },
+    {
+      "sample": "prose",
+      "engine": "tesseract-mapped",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 4.421523781500014,
+      "peak_rss_mib_sampled": 173.61328125,
+      "peak_gpu_mib_sampled": null,
+      "accuracy": [
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.0390015600624025,
+          "cer_edits": 100,
+          "cer_reference_chars": 2564,
+          "cer_no_whitespace": 0.04936974789915966,
+          "cer_no_whitespace_edits": 94,
+          "cer_no_whitespace_reference_chars": 1904,
+          "wer": 0.06505295007564296,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 5,
+            "mean_best_text_iou": 1.0,
+            "figures": 0,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.0390015600624025,
+          "cer_edits": 100,
+          "cer_reference_chars": 2564,
+          "cer_no_whitespace": 0.04936974789915966,
+          "cer_no_whitespace_edits": 94,
+          "cer_no_whitespace_reference_chars": 1904,
+          "wer": 0.06505295007564296,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 5,
+            "mean_best_text_iou": 1.0,
+            "figures": 0,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        4.444596872000147,
+        4.39845069099988
+      ],
+      "median_cpu_seconds_sampled": 4.05
+    },
+    {
+      "sample": "basic",
+      "engine": "tesseract-page",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 3.13348960899998,
+      "peak_rss_mib_sampled": 242.97265625,
+      "peak_gpu_mib_sampled": null,
+      "accuracy": [
+        {
+          "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+          "cer": 0.023638232271325797,
+          "cer_edits": 23,
+          "cer_reference_chars": 973,
+          "cer_no_whitespace": 0.020253164556962026,
+          "cer_no_whitespace_edits": 16,
+          "cer_no_whitespace_reference_chars": 790,
+          "wer": 0.125,
+          "reference_lines": 70,
+          "scored_lines": 29,
+          "excluded_uncertain_lines": 41,
+          "missing_line_numbers": [],
+          "extra_line_numbers": [],
+          "duplicate_line_numbers": [],
+          "exact_resolved_lines": 17,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 0,
+            "mean_best_text_iou": 0.05582796492972115,
+            "figures": 1,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+          "cer": 0.023638232271325797,
+          "cer_edits": 23,
+          "cer_reference_chars": 973,
+          "cer_no_whitespace": 0.020253164556962026,
+          "cer_no_whitespace_edits": 16,
+          "cer_no_whitespace_reference_chars": 790,
+          "wer": 0.125,
+          "reference_lines": 70,
+          "scored_lines": 29,
+          "excluded_uncertain_lines": 41,
+          "missing_line_numbers": [],
+          "extra_line_numbers": [],
+          "duplicate_line_numbers": [],
+          "exact_resolved_lines": 17,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 0,
+            "mean_best_text_iou": 0.05582796492972115,
+            "figures": 1,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        3.1343211010000687,
+        3.1326581169998917
+      ],
+      "median_cpu_seconds_sampled": 3.1700000000000004
+    },
+    {
+      "sample": "basic",
+      "engine": "tesseract-mapped",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 1.888283165999951,
+      "peak_rss_mib_sampled": 143.87109375,
+      "peak_gpu_mib_sampled": null,
+      "accuracy": [
+        {
+          "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+          "cer": 0.03597122302158273,
+          "cer_edits": 35,
+          "cer_reference_chars": 973,
+          "cer_no_whitespace": 0.024050632911392405,
+          "cer_no_whitespace_edits": 19,
+          "cer_no_whitespace_reference_chars": 790,
+          "wer": 0.16304347826086957,
+          "reference_lines": 70,
+          "scored_lines": 29,
+          "excluded_uncertain_lines": 41,
+          "missing_line_numbers": [],
+          "extra_line_numbers": [],
+          "duplicate_line_numbers": [
+            860
+          ],
+          "exact_resolved_lines": 12,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 5,
+            "mean_best_text_iou": 1.0,
+            "figures": 1,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+          "cer": 0.03597122302158273,
+          "cer_edits": 35,
+          "cer_reference_chars": 973,
+          "cer_no_whitespace": 0.024050632911392405,
+          "cer_no_whitespace_edits": 19,
+          "cer_no_whitespace_reference_chars": 790,
+          "wer": 0.16304347826086957,
+          "reference_lines": 70,
+          "scored_lines": 29,
+          "excluded_uncertain_lines": 41,
+          "missing_line_numbers": [],
+          "extra_line_numbers": [],
+          "duplicate_line_numbers": [
+            860
+          ],
+          "exact_resolved_lines": 12,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 5,
+            "mean_best_text_iou": 1.0,
+            "figures": 1,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        1.8960180009999021,
+        1.880548331
+      ],
+      "median_cpu_seconds_sampled": 1.5649999999999995
+    },
+    {
+      "sample": "figures",
+      "engine": "tesseract-page",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 2.8078515000000834,
+      "peak_rss_mib_sampled": 240.8671875,
+      "peak_gpu_mib_sampled": null,
+      "accuracy": [
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.38361266294227186,
+          "cer_edits": 618,
+          "cer_reference_chars": 1611,
+          "cer_no_whitespace": 0.10064935064935066,
+          "cer_no_whitespace_edits": 124,
+          "cer_no_whitespace_reference_chars": 1232,
+          "wer": 1.8263157894736841,
+          "layout": {
+            "text_regions": 10,
+            "text_regions_iou_50": 3,
+            "mean_best_text_iou": 0.35820811199152336,
+            "figures": 2,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.38361266294227186,
+          "cer_edits": 618,
+          "cer_reference_chars": 1611,
+          "cer_no_whitespace": 0.10064935064935066,
+          "cer_no_whitespace_edits": 124,
+          "cer_no_whitespace_reference_chars": 1232,
+          "wer": 1.8263157894736841,
+          "layout": {
+            "text_regions": 10,
+            "text_regions_iou_50": 3,
+            "mean_best_text_iou": 0.35820811199152336,
+            "figures": 2,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        2.8076756420000493,
+        2.8080273580001176
+      ],
+      "median_cpu_seconds_sampled": 2.775
+    },
+    {
+      "sample": "figures",
+      "engine": "tesseract-mapped",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 2.689607774500132,
+      "peak_rss_mib_sampled": 158.11328125,
+      "peak_gpu_mib_sampled": null,
+      "accuracy": [
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.06083178150217256,
+          "cer_edits": 98,
+          "cer_reference_chars": 1611,
+          "cer_no_whitespace": 0.07386363636363637,
+          "cer_no_whitespace_edits": 91,
+          "cer_no_whitespace_reference_chars": 1232,
+          "wer": 0.09210526315789473,
+          "layout": {
+            "text_regions": 10,
+            "text_regions_iou_50": 10,
+            "mean_best_text_iou": 1.0,
+            "figures": 2,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.06083178150217256,
+          "cer_edits": 98,
+          "cer_reference_chars": 1611,
+          "cer_no_whitespace": 0.07386363636363637,
+          "cer_no_whitespace_edits": 91,
+          "cer_no_whitespace_reference_chars": 1232,
+          "wer": 0.09210526315789473,
+          "layout": {
+            "text_regions": 10,
+            "text_regions_iou_50": 10,
+            "mean_best_text_iou": 1.0,
+            "figures": 2,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        2.6932884590000867,
+        2.6859270900001775
+      ],
+      "median_cpu_seconds_sampled": 2.1400000000000006
+    },
+    {
+      "sample": "prose",
+      "engine": "qwen",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 30.22189013600007,
+      "peak_rss_mib_sampled": 6355.41796875,
+      "peak_gpu_mib_sampled": 8248,
+      "accuracy": [
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.0249609984399376,
+          "cer_edits": 64,
+          "cer_reference_chars": 2564,
+          "cer_no_whitespace": 0.004726890756302521,
+          "cer_no_whitespace_edits": 9,
+          "cer_no_whitespace_reference_chars": 1904,
+          "wer": 0.17700453857791226,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 2,
+            "mean_best_text_iou": 0.5543674923241655,
+            "figures": 0,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.0249609984399376,
+          "cer_edits": 64,
+          "cer_reference_chars": 2564,
+          "cer_no_whitespace": 0.004726890756302521,
+          "cer_no_whitespace_edits": 9,
+          "cer_no_whitespace_reference_chars": 1904,
+          "wer": 0.17700453857791226,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 2,
+            "mean_best_text_iou": 0.5543674923241655,
+            "figures": 0,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        30.151296739000145,
+        30.292483532999995
+      ],
+      "median_cpu_seconds_sampled": 31.090000000000003
+    },
+    {
+      "sample": "basic",
+      "engine": "qwen",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 24.910021326000106,
+      "peak_rss_mib_sampled": 6492.71875,
+      "peak_gpu_mib_sampled": 8248,
+      "accuracy": [
+        {
+          "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+          "cer": 0.011305241521068859,
+          "cer_edits": 11,
+          "cer_reference_chars": 973,
+          "cer_no_whitespace": 0.012658227848101266,
+          "cer_no_whitespace_edits": 10,
+          "cer_no_whitespace_reference_chars": 790,
+          "wer": 0.016304347826086956,
+          "reference_lines": 70,
+          "scored_lines": 29,
+          "excluded_uncertain_lines": 41,
+          "missing_line_numbers": [],
+          "extra_line_numbers": [],
+          "duplicate_line_numbers": [],
+          "exact_resolved_lines": 27,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 0,
+            "mean_best_text_iou": 0.18176314164939555,
+            "figures": 1,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+          "cer": 0.011305241521068859,
+          "cer_edits": 11,
+          "cer_reference_chars": 973,
+          "cer_no_whitespace": 0.012658227848101266,
+          "cer_no_whitespace_edits": 10,
+          "cer_no_whitespace_reference_chars": 790,
+          "wer": 0.016304347826086956,
+          "reference_lines": 70,
+          "scored_lines": 29,
+          "excluded_uncertain_lines": 41,
+          "missing_line_numbers": [],
+          "extra_line_numbers": [],
+          "duplicate_line_numbers": [],
+          "exact_resolved_lines": 27,
+          "layout": {
+            "text_regions": 5,
+            "text_regions_iou_50": 0,
+            "mean_best_text_iou": 0.18176314164939555,
+            "figures": 1,
+            "figures_iou_50": 0,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        24.81053170700011,
+        25.009510945000102
+      ],
+      "median_cpu_seconds_sampled": 25.65
+    },
+    {
+      "sample": "figures",
+      "engine": "qwen",
+      "runs": 2,
+      "failures": 0,
+      "median_seconds": 22.322223097499887,
+      "peak_rss_mib_sampled": 6512.1328125,
+      "peak_gpu_mib_sampled": 8248,
+      "accuracy": [
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.2985723153320919,
+          "cer_edits": 481,
+          "cer_reference_chars": 1611,
+          "cer_no_whitespace": 0.288961038961039,
+          "cer_no_whitespace_edits": 356,
+          "cer_no_whitespace_reference_chars": 1232,
+          "wer": 0.42105263157894735,
+          "layout": {
+            "text_regions": 10,
+            "text_regions_iou_50": 8,
+            "mean_best_text_iou": 0.5511633640862407,
+            "figures": 2,
+            "figures_iou_50": 2,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        },
+        {
+          "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+          "cer": 0.2985723153320919,
+          "cer_edits": 481,
+          "cer_reference_chars": 1611,
+          "cer_no_whitespace": 0.288961038961039,
+          "cer_no_whitespace_edits": 356,
+          "cer_no_whitespace_reference_chars": 1232,
+          "wer": 0.42105263157894735,
+          "layout": {
+            "text_regions": 10,
+            "text_regions_iou_50": 8,
+            "mean_best_text_iou": 0.5511633640862407,
+            "figures": 2,
+            "figures_iou_50": 2,
+            "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+          }
+        }
+      ],
+      "wall_seconds_runs": [
+        22.338470402999974,
+        22.3059757919998
+      ],
+      "median_cpu_seconds_sampled": 22.974999999999994
+    }
+  ],
+  "limits": [
+    "Inference pipeline timing includes crop I/O and model HTTP requests; excludes common pre-rendered input and model startup.",
+    "All runs recompute OCR; Qwen cache_prompt=false. GPU allocator and OS file caches remain warm.",
+    "Tesseract mapped mode uses reviewed boxes; Qwen and Tesseract page modes do not receive reference boxes.",
+    "Sampled process-tree RSS is not PSS; summed shared mappings can overcount physical memory.",
+    "Greedy sampling with seed 42, no presence penalty; cross-hardware determinism is not guaranteed.",
+    "CER can exceed 100%; whitespace-free CER does not measure code indentation accuracy."
+  ],
+  "run": "2026-10-09 benchmark-02; three pages, two repeats per engine",
+  "evidence_directory": "private/ocr-qwen3-vl/benchmark-02",
+  "runtime": "version: 0.5.0-dev (build 11357, commit a8c9a4e7c)\nbuilt with GNU 15.2.0 for Linux x86_64",
+  "model": "unsloth/Qwen3-VL-8B-Instruct-GGUF:UD-Q4_K_XL",
+  "reference_manifest_sha256": "25387ae5d6e03255406b82c29d34c94685e6ee204c1831a5a0e64a6004e738f2"
+}

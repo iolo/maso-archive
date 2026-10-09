@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "run": "private/ocr-qwen3-vl/workflow-03",
+  "report_sha256": "4edc7eef266f1265ca5e0cc3be632f77ba377326ba047d4f1b0ffd6ece9e19a0",
+  "reference_note": "Prior scan-reviewed, assistant-corrected Tesseract drafts, crosschecked in earlier trial. Not an independent human gold corpus. BASIC has unresolved bitmap/blank glyphs. Three purposive pages, no generalization claim.",
+  "rows": [
+    {
+      "sample": "prose",
+      "arm": "A-tesseract",
+      "preparation_seconds": 4.044346893999318,
+      "incremental_stage_seconds": 4.044346893999318,
+      "local_tokens": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "calls": 0,
+        "calls_with_usage": 0
+      },
+      "sampled_peak_rss_mib": 114.2265625,
+      "sampled_peak_gpu_mib": null,
+      "accuracy_proxy": {
+        "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+        "cer": 0.0390015600624025,
+        "cer_edits": 100,
+        "cer_reference_chars": 2564,
+        "cer_no_whitespace": 0.04936974789915966,
+        "cer_no_whitespace_edits": 94,
+        "cer_no_whitespace_reference_chars": 1904,
+        "wer": 0.06505295007564296,
+        "layout": {
+          "text_regions": 5,
+          "text_regions_iou_50": 5,
+          "mean_best_text_iou": 1.0,
+          "figures": 0,
+          "figures_iou_50": 0,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 5,
+      "exact_draft_disagreement_regions": 5,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": null,
+      "correction_uncertainty_notes": null,
+      "correction_regressions_vs_B": null,
+      "correction_improvements_vs_B": null
+    },
+    {
+      "sample": "prose",
+      "arm": "B-qwen",
+      "preparation_seconds": 19.227314372000365,
+      "incremental_stage_seconds": 19.227314372000365,
+      "local_tokens": {
+        "prompt_tokens": 4825,
+        "completion_tokens": 1646,
+        "total_tokens": 6471,
+        "calls": 5,
+        "calls_with_usage": 5
+      },
+      "sampled_peak_rss_mib": 2903.83203125,
+      "sampled_peak_gpu_mib": 7816,
+      "accuracy_proxy": {
+        "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+        "cer": 0.028081123244929798,
+        "cer_edits": 72,
+        "cer_reference_chars": 2564,
+        "cer_no_whitespace": 0.007878151260504201,
+        "cer_no_whitespace_edits": 15,
+        "cer_no_whitespace_reference_chars": 1904,
+        "wer": 0.1875945537065053,
+        "layout": {
+          "text_regions": 5,
+          "text_regions_iou_50": 5,
+          "mean_best_text_iou": 1.0,
+          "figures": 0,
+          "figures_iou_50": 0,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 5,
+      "exact_draft_disagreement_regions": 5,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": null,
+      "correction_uncertainty_notes": null,
+      "correction_regressions_vs_B": null,
+      "correction_improvements_vs_B": null
+    },
+    {
+      "sample": "prose",
+      "arm": "C-local-correction",
+      "preparation_seconds": 53.78447294399939,
+      "incremental_stage_seconds": 30.512811677999707,
+      "local_tokens": {
+        "prompt_tokens": 13360,
+        "completion_tokens": 4437,
+        "total_tokens": 17797,
+        "calls": 10,
+        "calls_with_usage": 10
+      },
+      "sampled_peak_rss_mib": 2959.0703125,
+      "sampled_peak_gpu_mib": 7816,
+      "accuracy_proxy": {
+        "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+        "cer": 0.03081123244929797,
+        "cer_edits": 79,
+        "cer_reference_chars": 2564,
+        "cer_no_whitespace": 0.005252100840336135,
+        "cer_no_whitespace_edits": 10,
+        "cer_no_whitespace_reference_chars": 1904,
+        "wer": 0.21633888048411498,
+        "layout": {
+          "text_regions": 5,
+          "text_regions_iou_50": 5,
+          "mean_best_text_iou": 1.0,
+          "figures": 0,
+          "figures_iou_50": 0,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 5,
+      "exact_draft_disagreement_regions": 5,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": 4,
+      "correction_uncertainty_notes": 20,
+      "correction_regressions_vs_B": [
+        {
+          "region": "r08",
+          "extra_reference_edits": 1
+        }
+      ],
+      "correction_improvements_vs_B": [
+        {
+          "region": "r09",
+          "fewer_reference_edits": 1
+        },
+        {
+          "region": "r10",
+          "fewer_reference_edits": 2
+        },
+        {
+          "region": "r11",
+          "fewer_reference_edits": 3
+        }
+      ]
+    },
+    {
+      "sample": "basic",
+      "arm": "A-tesseract",
+      "preparation_seconds": 1.6293308059998708,
+      "incremental_stage_seconds": 1.6293308059998708,
+      "local_tokens": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "calls": 0,
+        "calls_with_usage": 0
+      },
+      "sampled_peak_rss_mib": 87.8671875,
+      "sampled_peak_gpu_mib": null,
+      "accuracy_proxy": {
+        "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+        "cer": 0.03597122302158273,
+        "cer_edits": 35,
+        "cer_reference_chars": 973,
+        "cer_no_whitespace": 0.024050632911392405,
+        "cer_no_whitespace_edits": 19,
+        "cer_no_whitespace_reference_chars": 790,
+        "wer": 0.16304347826086957,
+        "reference_lines": 70,
+        "scored_lines": 29,
+        "excluded_uncertain_lines": 41,
+        "missing_line_numbers": [],
+        "extra_line_numbers": [],
+        "duplicate_line_numbers": [
+          860
+        ],
+        "exact_resolved_lines": 12,
+        "layout": {
+          "text_regions": 5,
+          "text_regions_iou_50": 5,
+          "mean_best_text_iou": 1.0,
+          "figures": 1,
+          "figures_iou_50": 1,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 5,
+      "exact_draft_disagreement_regions": 5,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": null,
+      "correction_uncertainty_notes": null,
+      "correction_regressions_vs_B": null,
+      "correction_improvements_vs_B": null
+    },
+    {
+      "sample": "basic",
+      "arm": "B-qwen",
+      "preparation_seconds": 17.500329704999785,
+      "incremental_stage_seconds": 17.500329704999785,
+      "local_tokens": {
+        "prompt_tokens": 4355,
+        "completion_tokens": 1539,
+        "total_tokens": 5894,
+        "calls": 5,
+        "calls_with_usage": 5
+      },
+      "sampled_peak_rss_mib": 4713.3828125,
+      "sampled_peak_gpu_mib": 7816,
+      "accuracy_proxy": {
+        "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+        "cer": 0.0,
+        "cer_edits": 0,
+        "cer_reference_chars": 973,
+        "cer_no_whitespace": 0.0,
+        "cer_no_whitespace_edits": 0,
+        "cer_no_whitespace_reference_chars": 790,
+        "wer": 0.0,
+        "reference_lines": 70,
+        "scored_lines": 29,
+        "excluded_uncertain_lines": 41,
+        "missing_line_numbers": [],
+        "extra_line_numbers": [],
+        "duplicate_line_numbers": [
+          860,
+          1030,
+          1170
+        ],
+        "exact_resolved_lines": 29,
+        "layout": {
+          "text_regions": 5,
+          "text_regions_iou_50": 5,
+          "mean_best_text_iou": 1.0,
+          "figures": 1,
+          "figures_iou_50": 1,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 5,
+      "exact_draft_disagreement_regions": 5,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": null,
+      "correction_uncertainty_notes": null,
+      "correction_regressions_vs_B": null,
+      "correction_improvements_vs_B": null
+    },
+    {
+      "sample": "basic",
+      "arm": "C-local-correction",
+      "preparation_seconds": 42.07215038000004,
+      "incremental_stage_seconds": 22.942489869000383,
+      "local_tokens": {
+        "prompt_tokens": 12144,
+        "completion_tokens": 3589,
+        "total_tokens": 15733,
+        "calls": 10,
+        "calls_with_usage": 10
+      },
+      "sampled_peak_rss_mib": 4734.43359375,
+      "sampled_peak_gpu_mib": 7816,
+      "accuracy_proxy": {
+        "scope": "Resolved numbered BASIC lines only; first hypothesis per line number, unknown-glyph lines excluded; not whole-page CER",
+        "cer": 0.0020554984583761563,
+        "cer_edits": 2,
+        "cer_reference_chars": 973,
+        "cer_no_whitespace": 0.0012658227848101266,
+        "cer_no_whitespace_edits": 1,
+        "cer_no_whitespace_reference_chars": 790,
+        "wer": 0.005434782608695652,
+        "reference_lines": 70,
+        "scored_lines": 29,
+        "excluded_uncertain_lines": 41,
+        "missing_line_numbers": [],
+        "extra_line_numbers": [],
+        "duplicate_line_numbers": [
+          860
+        ],
+        "exact_resolved_lines": 28,
+        "layout": {
+          "text_regions": 5,
+          "text_regions_iou_50": 5,
+          "mean_best_text_iou": 1.0,
+          "figures": 1,
+          "figures_iou_50": 1,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 5,
+      "exact_draft_disagreement_regions": 5,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": 3,
+      "correction_uncertainty_notes": 10,
+      "correction_regressions_vs_B": [
+        {
+          "region": "r21",
+          "extra_reference_edits": 1
+        }
+      ],
+      "correction_improvements_vs_B": []
+    },
+    {
+      "sample": "figures",
+      "arm": "A-tesseract",
+      "preparation_seconds": 3.1865179269998407,
+      "incremental_stage_seconds": 3.1865179269998407,
+      "local_tokens": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "calls": 0,
+        "calls_with_usage": 0
+      },
+      "sampled_peak_rss_mib": 104.83984375,
+      "sampled_peak_gpu_mib": null,
+      "accuracy_proxy": {
+        "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+        "cer": 0.06083178150217256,
+        "cer_edits": 98,
+        "cer_reference_chars": 1611,
+        "cer_no_whitespace": 0.07386363636363637,
+        "cer_no_whitespace_edits": 91,
+        "cer_no_whitespace_reference_chars": 1232,
+        "wer": 0.09210526315789473,
+        "layout": {
+          "text_regions": 10,
+          "text_regions_iou_50": 10,
+          "mean_best_text_iou": 1.0,
+          "figures": 2,
+          "figures_iou_50": 2,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 10,
+      "exact_draft_disagreement_regions": 10,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": null,
+      "correction_uncertainty_notes": null,
+      "correction_regressions_vs_B": null,
+      "correction_improvements_vs_B": null
+    },
+    {
+      "sample": "figures",
+      "arm": "B-qwen",
+      "preparation_seconds": 12.662652053000329,
+      "incremental_stage_seconds": 12.662652053000329,
+      "local_tokens": {
+        "prompt_tokens": 3674,
+        "completion_tokens": 1099,
+        "total_tokens": 4773,
+        "calls": 10,
+        "calls_with_usage": 10
+      },
+      "sampled_peak_rss_mib": 6117.1796875,
+      "sampled_peak_gpu_mib": 7818,
+      "accuracy_proxy": {
+        "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+        "cer": 0.03227808814400993,
+        "cer_edits": 52,
+        "cer_reference_chars": 1611,
+        "cer_no_whitespace": 0.005681818181818182,
+        "cer_no_whitespace_edits": 7,
+        "cer_no_whitespace_reference_chars": 1232,
+        "wer": 0.24210526315789474,
+        "layout": {
+          "text_regions": 10,
+          "text_regions_iou_50": 10,
+          "mean_best_text_iou": 1.0,
+          "figures": 2,
+          "figures_iou_50": 2,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 10,
+      "exact_draft_disagreement_regions": 10,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": null,
+      "correction_uncertainty_notes": null,
+      "correction_regressions_vs_B": null,
+      "correction_improvements_vs_B": null
+    },
+    {
+      "sample": "figures",
+      "arm": "C-local-correction",
+      "preparation_seconds": 29.72172338100063,
+      "incremental_stage_seconds": 13.87255340100046,
+      "local_tokens": {
+        "prompt_tokens": 10234,
+        "completion_tokens": 2295,
+        "total_tokens": 12529,
+        "calls": 20,
+        "calls_with_usage": 20
+      },
+      "sampled_peak_rss_mib": 6144.20703125,
+      "sampled_peak_gpu_mib": 7818,
+      "accuracy_proxy": {
+        "scope": "Eligible page text in native engine order; NFC and whitespace-normalized; includes order/omission errors",
+        "cer": 0.03041589075108628,
+        "cer_edits": 49,
+        "cer_reference_chars": 1611,
+        "cer_no_whitespace": 0.003246753246753247,
+        "cer_no_whitespace_edits": 4,
+        "cer_no_whitespace_reference_chars": 1232,
+        "wer": 0.24210526315789474,
+        "layout": {
+          "text_regions": 10,
+          "text_regions_iou_50": 10,
+          "mean_best_text_iou": 1.0,
+          "figures": 2,
+          "figures_iou_50": 2,
+          "note": "Best-box IoU >= .5; sensitive to segmentation granularity. Tesseract page units are lines; mapped regions are supplied, not detected."
+        }
+      },
+      "text_regions": 10,
+      "exact_draft_disagreement_regions": 10,
+      "compact_draft_disagreement_regions": 5,
+      "correction_changed_regions": 2,
+      "correction_uncertainty_notes": 0,
+      "correction_regressions_vs_B": [
+        {
+          "region": "r24",
+          "extra_reference_edits": 1
+        }
+      ],
+      "correction_improvements_vs_B": [
+        {
+          "region": "r22",
+          "fewer_reference_edits": 4
+        }
+      ]
+    }
+  ],
+  "review_status": {
+    "pages": [
+      {
+        "sample": "prose",
+        "arm": "A-tesseract",
+        "accepted": false,
+        "pending_regions": 5,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      },
+      {
+        "sample": "prose",
+        "arm": "B-qwen",
+        "accepted": false,
+        "pending_regions": 5,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      },
+      {
+        "sample": "prose",
+        "arm": "C-local-correction",
+        "accepted": false,
+        "pending_regions": 5,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      },
+      {
+        "sample": "basic",
+        "arm": "A-tesseract",
+        "accepted": false,
+        "pending_regions": 6,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      },
+      {
+        "sample": "basic",
+        "arm": "B-qwen",
+        "accepted": false,
+        "pending_regions": 6,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      },
+      {
+        "sample": "basic",
+        "arm": "C-local-correction",
+        "accepted": false,
+        "pending_regions": 6,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      },
+      {
+        "sample": "figures",
+        "arm": "A-tesseract",
+        "accepted": false,
+        "pending_regions": 12,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      },
+      {
+        "sample": "figures",
+        "arm": "B-qwen",
+        "accepted": false,
+        "pending_regions": 12,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      },
+      {
+        "sample": "figures",
+        "arm": "C-local-correction",
+        "accepted": false,
+        "pending_regions": 12,
+        "active_review_seconds": null,
+        "capable_model_usage": null
+      }
+    ],
+    "accepted_pages": 0,
+    "savings_claim": null,
+    "reason": "Compare arms only after measured reviews; no token/time savings inferred from OCR or reference scores"
+  },
+  "limits": [
+    "A/B/C use identical reviewed geometry; no reference text enters inference.",
+    "C requires A+B preparation: its stage_seconds/tokens are incremental, not total workflow cost.",
+    "CER and residual edits are reference-based diagnostics, not measured review effort.",
+    "Human time and capable-model usage are unknown until recorded; local tokens are measured llama.cpp usage.",
+    "One preparation run per arm on three familiar development pages; no generalization or savings claim.",
+    "Preparation totals include dependencies: C=A+B+correction; B does not require A.",
+    "Times exclude model startup, common image preparation, scoring and human/capable-model correction.",
+    "Regression/improvement counts compare with existing references; they are not new human judgments.",
+    "Local Qwen token totals are local compute, not billed capable-model tokens."
+  ]
+}

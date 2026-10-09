@@ -1,5 +1,15 @@
 PYTHON ?= python3
 
+.PHONY: ocr-qwen3-vl benchmark-ocr-qwen3-vl test-ocr-qwen3-vl
+ocr-qwen3-vl:
+	PYTHONPATH=src $(PYTHON) -m tools.ocr_qwen page $(OCR_QWEN_ARGS)
+
+benchmark-ocr-qwen3-vl:
+	PYTHONPATH=src $(PYTHON) -m tools.ocr_qwen benchmark $(OCR_QWEN_ARGS)
+
+test-ocr-qwen3-vl:
+	PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -p 'test_ocr_*.py' -v
+
 .PHONY: inventory-tocs normalize-tocs ocr-tocs compare-tocs prepare-toc-images
 inventory-tocs:
 	PYTHONPATH=src $(PYTHON) -m tools.toc_restore inventory $(TOC_ARGS)

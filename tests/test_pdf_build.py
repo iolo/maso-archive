@@ -75,6 +75,34 @@ class PDFBuildTests(unittest.TestCase):
         write_json(base / 'recipe.json', recipe)
         return base / 'recipe.json'
 
+    def test_explicit_runtime_directory_is_pinned_and_portable(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            recipe_path = self.fixture(root)
+            recipe = json.loads(recipe_path.read_bytes())
+            directory = root / 'private/qwen-run'
+            write_json(directory / 'runtime-fingerprint.json', {'engine': 'qwen3-vl'})
+            recipe.update(runtime_directory='private/qwen-run',
+                          runtime=pin(directory, 'runtime-fingerprint.json'))
+            evidence_path = recipe_path.parent / 'ocr/evidence.json'
+            evidence = json.loads(evidence_path.read_bytes())
+            evidence['runtime'] = recipe['runtime']
+            write_json(evidence_path, evidence)
+            recipe['ocr_bundles'][0]['manifest'] = pin(recipe_path.parent, 'ocr/evidence.json')
+            write_json(recipe_path, recipe)
+            output = root / 'build/qwen'
+            built = build(recipe_path, output, root)
+            self.assertEqual(check_export(output), built)
+            self.assertEqual((output / 'runtime.json').read_bytes(),
+                             (directory / 'runtime-fingerprint.json').read_bytes())
+            (directory / 'runtime-fingerprint.json').write_text('changed')
+            with self.assertRaisesRegex(ValueError, 'hash/size'):
+                build(recipe_path, root / 'build/tampered', root)
+            recipe['runtime_directory'] = '../outside'
+            write_json(recipe_path, recipe)
+            with self.assertRaisesRegex(ValueError, 'Unsafe artifact path'):
+                build(recipe_path, root / 'build/unsafe', root)
+
     def test_data_export_does_not_call_renderer_and_still_checks_assets(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

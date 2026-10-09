@@ -8,6 +8,11 @@ article text, code downloads, figures, original attachments and metadata search.
 Paper magazines remain authoritative; CD transcription has not been verified
 against print.
 
+An opt-in [Qwen3-VL layout OCR pipeline and Tesseract benchmark](docs/OCR-QWEN3-VL.md)
+uses local llama.cpp/GGUF inference and preserves unreviewed evidence separately.
+The [sustainability plan](PLAN-OCR.md) and [mapped-crop workflow trial](docs/OCR-WORKFLOW.md)
+evaluate local drafts and correction proposals while retaining mandatory human review.
+
 ## Read the archive
 
 To review all four completed PDF restorations (1983-11, 1984-02, 1984-03,

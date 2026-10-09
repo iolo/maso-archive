@@ -211,7 +211,7 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                 raise ValueError('Reading block correction evidence is not tied to its scan regions')
         package['corrections'] = [copy_pin(base, stage, recipe['corrections'], 'corrections.json')]
         copy_pin(base, stage, recipe['map'], 'map.json')
-        runtime = root / 'private/pdf-restoration/ocr-runtime'
+        runtime = safe_path(root, recipe.get('runtime_directory', 'private/pdf-restoration/ocr-runtime'))
         runtime_pin = copy_pin(runtime, stage, recipe['runtime'], 'runtime.json')
         write_json(stage / 'provenance.json', dict(recipe=pin(base, recipe_path.name),
                    inventory=pin(inventory, 'sources.json'), queue=pin(inventory, 'queue.jsonl'),
