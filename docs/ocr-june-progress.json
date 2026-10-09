@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 45,
-    "completed_articles": 17,
+    "completed_articles": 18,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 17,
+    "assistant_reviewed_complete_articles": 18,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 91,
+    "processed_source_pages": 98,
     "non_owning_headings": 2
   },
   "processed_source_pages": [
@@ -101,7 +101,14 @@
     113,
     114,
     115,
-    116
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123
   ],
   "checkpoints": [
     {
@@ -1392,14 +1399,72 @@
         "sha256": "5d8a3e3bb1c992c8ba797cd68963d75b0b246db12310774dbee2a5f31d24db19",
         "bytes": 7722
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-20/computer-graphics/article.json",
+        "sha256": "e2902792a0d92c0eb6a1b062ffb5143cb0bc9dff034047f97d2963e81b3fbb8c",
+        "bytes": 142690
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-20/computer-graphics/manifest.json",
+        "sha256": "4bc31b8fd83898a0708f832b3971c76f9419bc99187a0f1dd2726b6234e09666",
+        "bytes": 56641
+      },
+      "source_pages": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123
+      ],
+      "regions": 88,
+      "text_regions": 81,
+      "figures": 7,
+      "physical_listing_rows": 172,
+      "logical_listing_rows": 139,
+      "unresolved_entries": 10,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 81
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-20",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 81,
+        "inference_wall_seconds": 87.34170928700041,
+        "local_prompt_tokens": 34926,
+        "local_output_tokens": 7880,
+        "peak_gpu_mib_sampled": 7802,
+        "peak_rss_mib_sampled": 7881.38671875,
+        "raw_run_elapsed_seconds": 141.85386787300376
+      },
+      "resume": {
+        "cache_hits": 81,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-20/tesseract-comparison/comparison.json",
+        "sha256": "158ece2663e9df58806a7b5aed117b4bf90fec8d9229448afdf689d39a4f7ca9",
+        "bytes": 7623
+      }
     }
   ],
-  "next": "Continue graphics117–123, then BASIC speed and remaining issue.",
+  "next": "Continue BASIC speed124–125, educational program126 onward and full remaining issue.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "c82b67a454bf0ab2a3181c67e4012a49e86a5df81e001ddf6a583bbc4f0b64c9",
-    "bytes": 24349
+    "sha256": "fdfdc60b3d0b553af31162516797c4ee638885eedc9af50e2e331b5038af10de",
+    "bytes": 24744
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",

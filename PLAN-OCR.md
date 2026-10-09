@@ -498,3 +498,20 @@ commit code/documentation. Do not count a partial opening as a complete article.
   verified, including duplicate numbered rows. Totals91 article source pages,
   17 complete assistant-reviewed articles,two non-owning headings,zero accepted.
   Continue graphics117–123 and all remaining issue entries.
+
+### Computer graphics checkpoint, 2026-10-09
+
+- Batch20 completes 컴퓨터 그래픽과 친구가 되자117–123:81 text regions,seven
+  images,two text tables,172 physical code rows,139 numbered statements and ten
+  unresolved items. Preserved differing table/DATA values and printed wording;
+  blank CTRL-G strings are visible transcription, not recovered control bytes.
+- Corrected clipped final code crop before the final run; retained aborted raw
+  evidence separately (32 completed calls,30.30s additional inference). Final run:
+  preparation141.85s,inference87.34s,42,806 local tokens,GPU7,802MiB/RSS7,881MiB.
+  Lookahead rendering overlapped; these are not total-work or controlled speed figures.
+- Fixed prose/table/game crop compact CER0% each, versus3.80%,13.42%,21.56%
+  Tesseract. Unblinded assistant-derived references; literal blanks unscored.
+-81 cache hits/zero new calls; native rebuild, article/review UTF-8 ranges and
+  physical/logical listing coverage verified. Totals98 article source pages,
+  18 complete assistant-reviewed articles,two non-owning headings,zero accepted.
+  Next BASIC speed124–125 and educational program126 onward; full issue ongoing.
