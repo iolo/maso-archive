@@ -421,3 +421,20 @@ commit code/documentation. Do not count a partial opening as a complete article.
   one non-owning heading,zero human accepted. Current reading room still includes
   twelve articles; address book is ready for the next grouped refresh.
 - Continue 별로 재미없는 프로그램 starting96 and the remaining issue queue.
+
+### Puzzle checkpoint and education divider, 2026-10-09
+
+- Batch16 completes 별로 재미없는 프로그램96–98:36 text regions,four original
+  images,168 physical code rows/147 statements across Apple and FC-100/SPC-1000
+  versions. Restored omitted1050 continuation and removed inferred closing quotes;
+  retained apparent source defects, physical wraps and six human-review notes.
+- Raw preparation53.15s; inference38.84s;21,261 local tokens; sampled GPU7,800MiB /
+  RSS4,763MiB. Fixed ending prose compact CER0.47% versus11.32% Tesseract;
+  FC/SPC sample1.08% versus24.55%. Same crops and reference fixed before Tesseract;
+  assistant-derived diagnostics, not independent human gold or total work speed.
+-36 cache hits/zero new calls; export/rebuild identical; all raw stages/stop reasons,
+  text/review/listing byte ranges and printed statement labels checked.
+-99 classified as non-owning 교육입문 divider with six existing child entries.
+  June totals74 article source pages,14 complete assistant-reviewed articles,
+  two non-owning headings,zero human accepted. Reading room still twelve articles;
+  address book and puzzle ready for next refresh. Continue Z80 tutorial100–107.

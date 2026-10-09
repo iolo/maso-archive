@@ -3,12 +3,12 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 44,
-    "completed_articles": 13,
+    "completed_articles": 14,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 13,
+    "assistant_reviewed_complete_articles": 14,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 71,
-    "non_owning_headings": 1
+    "processed_source_pages": 74,
+    "non_owning_headings": 2
   },
   "processed_source_pages": [
     19,
@@ -81,7 +81,10 @@
     90,
     91,
     92,
-    93
+    93,
+    96,
+    97,
+    98
   ],
   "checkpoints": [
     {
@@ -1148,14 +1151,68 @@
         "sha256": "085ddfa9ed0679f4dc56b477b2fb38d6d2e70b5ace567c61f7ef28cf1b325888",
         "bytes": 7783
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-16/not-fun-game/article.json",
+        "sha256": "0aed4f115fc73dfc99935827f855bf54e4976dc758c33796a5f931d39336a675",
+        "bytes": 64245
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-16/not-fun-game/manifest.json",
+        "sha256": "c6b49b139fa2191b2d352761fa4cd3d807a619c33acde5cd2ce2048424d68c8e",
+        "bytes": 25774
+      },
+      "source_pages": [
+        96,
+        97,
+        98
+      ],
+      "regions": 40,
+      "text_regions": 36,
+      "figures": 4,
+      "physical_listing_rows": 168,
+      "logical_listing_rows": 147,
+      "unresolved_entries": 6,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 36
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-16",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 36,
+        "inference_wall_seconds": 38.83833640098601,
+        "local_prompt_tokens": 17835,
+        "local_output_tokens": 3426,
+        "peak_gpu_mib_sampled": 7800,
+        "peak_rss_mib_sampled": 4763.11328125,
+        "raw_run_elapsed_seconds": 53.15382781199878
+      },
+      "resume": {
+        "cache_hits": 36,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-16/tesseract-comparison/comparison.json",
+        "sha256": "6036ea6a639dc581dbe60c49380903e06b97a5d721766b96cc792736d5155558",
+        "bytes": 5478
+      }
     }
   ],
-  "next": "Inspect and restore 별로 재미없는 프로그램 starting96, then continue remaining June articles; refresh grouped reading room for human review.",
+  "next": "Restore Z80 machine-language tutorial100–107; continue remaining June articles and grouped human-review preview.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "05e1b7378e3787ad9e640cc7d167e125eae6be0f2c4a9e857d0f1e0f136f5b21",
-    "bytes": 22287
+    "sha256": "c3361cbbd54d850b87edb78be266b3399974caefd1cb27f24fea49c852d5e634",
+    "bytes": 22830
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",
