@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 44,
-    "completed_articles": 11,
+    "completed_articles": 12,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 11,
+    "assistant_reviewed_complete_articles": 12,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 56,
+    "processed_source_pages": 61,
     "non_owning_headings": 1
   },
   "processed_source_pages": [
@@ -66,7 +66,12 @@
     75,
     76,
     77,
-    78
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
   ],
   "checkpoints": [
     {
@@ -1016,14 +1021,70 @@
         "sha256": "0155e3d4110b69e9d1452f15065b5519f52d82165db665e6f496c57651ada0c0",
         "bytes": 5482
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-14/car-race/article.json",
+        "sha256": "3ff532ece721a7fe8828b3d5f738c3956eedc00840c1df7fd3607bf628c50220",
+        "bytes": 96344
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-14/car-race/manifest.json",
+        "sha256": "5e48f21c21471eeca1b948c6495a6cc96f161dcea94144106cf7ce221d91bac5",
+        "bytes": 36111
+      },
+      "source_pages": [
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "regions": 61,
+      "text_regions": 50,
+      "figures": 11,
+      "physical_listing_rows": 243,
+      "logical_listing_rows": 106,
+      "unresolved_entries": 9,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 50
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-14",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 50,
+        "inference_wall_seconds": 65.80715316899295,
+        "local_prompt_tokens": 25770,
+        "local_output_tokens": 5937,
+        "peak_gpu_mib_sampled": 7804,
+        "peak_rss_mib_sampled": 6421.61328125,
+        "raw_run_elapsed_seconds": 88.26912819999416
+      },
+      "resume": {
+        "cache_hits": 50,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-14/tesseract-comparison/comparison.json",
+        "sha256": "5e7a75bff6d6f5e4a39d44120914b5bb8586a5ea03c9b736ed5a346675ed46b6",
+        "bytes": 5488
+      }
     }
   ],
-  "next": "Continue car race79–83, then remaining eligible June articles; refresh reader in groups.",
+  "next": "Continue Hangul telephone/address article84 onward, inspect full extent before OCR; remaining June campaign active.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "b64d4e1417d256318e74aeb02edca60a2388e90b30b0cb6fb686a6faadb1de23",
-    "bytes": 21496
+    "sha256": "c3b7970343dfb051421602086ca6d6bd50913f3b38ed47a35ab86d125bef179f",
+    "bytes": 21854
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",

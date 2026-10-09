@@ -364,3 +364,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   source/text/review/listing ranges and all raw stop reasons checked.
 - June totals56 article source pages,11 complete articles,one non-owning heading,
   zero human accepted. Continue car race79–83 and remaining eligible articles.
+
+### Car race checkpoint, 2026-10-09
+
+- Batch14 completes 자동차 레이스79–83:50 text regions,11 original images,
+  243 physical code rows/106 BASIC statements, three inline examples and two
+  disassemblies. Source83 bookstore advertisement excluded. Diagrams retain their
+  original geometry and embedded labels as images. Nine review items remain.
+- Restored omitted320 tail/330–360,850 continuation, repeated character-definition
+  terms and misread zeros/targets. All12 definitions now contain the12 printed
+  byte terms. Independently transcribed39-byte scroll and24-byte attribute DATA
+  exactly match printed disassemblies; zero terminators retained. No execution.
+- Custom screen characters inside literals use explicit editorial ⟦...⟧ markers;
+  their exact bytes/cell counts and some literal spacing require human review.
+  This complete article reading edition is not an executable reconstruction.
+- Preparation88.27s; inference65.81s;31,707 local tokens; sampled GPU7,804MiB /
+  RSS6,422MiB. Selected DATA compact CER2.15% versus39.27%; disassembly1.45%
+  versus47.69% Tesseract. Assistant reference fixed before comparison; not human
+  gold or an end-to-end speed claim. Repeated-byte omissions are a notable limit.
+-50 cache hits/zero calls; all raw stages and stop reasons checked, native export
+  and rebuild identical, source/text/review/listing byte ranges verified.
+- June totals61 article source pages,12 complete articles,one non-owning heading,
+  zero human accepted. Continue 한글 전화번호부와 주소록84 onward and remaining queue.
