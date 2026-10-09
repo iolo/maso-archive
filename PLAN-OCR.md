@@ -219,3 +219,28 @@ commit code/documentation. Do not count a partial opening as a complete article.
   No pipeline code changed, so the prior144-test result is not a new test run.
 - Issue total26 pages,3 complete/1 partial assistant-reviewed articles,0 human
   accepted. [Measurements](docs/ocr-june-batch05-comparison.json) retain limits.
+
+### Complete phoneme article and human-review preview, 2026-10-09
+
+- Finished batch06 pages45–47:11 text regions,3 retained images,109 main-program
+  rows and64 symbols. Corrected quoted literals, banner counts and $$$/Chinese
+  confusion against the scan; retained source-cut strings and blank error fields.
+  Three new candidate readings await human review.
+- Raw preparation68.42s; regional inference40.16s;19,254 local tokens; sampled
+  GPU7,940MiB/RSS4,720MiB. All11 stages reused on resume with zero new calls.
+- Two preselected code crops: compact CER0.98% Qwen versus41.76% Tesseract;
+  literal-sensitive row matches43/50 versus0/50. Raw recognition7.74s versus0.70s.
+  [Measurements](docs/ocr-june-batch06-comparison.json) preserve source uncertainty
+  and the unblinded assistant-reference limitation; downstream savings unmeasured.
+- Assembled33–47:74 text regions,22 images,403 numbered rows in two distinct
+  programs,156 native table rows including headers and19 unresolved entries.
+  Native and assembled rebuilds are byte-identical; all source/projected listing
+  and review ranges verified. Native table indexes and projected text are exact.
+- Built the requested [reading-room preview](docs/READING-ROOM.md): whole article,
+  side-by-side scan/correction, region navigation, zoom, raw OCR and review notes.
+  Preserved previous reader provenance while staging this one complete June article.
+  Validation:19 frontend tests,5 PDF-reader tests, production build, dataset
+  integrity, desktop/mobile/dark-mode browser checks. This is a read-only preview.
+- Issue total29 pages,4 assistant-reviewed complete articles,0 partial,0 human
+  accepted. All96 phoneme regions remain pending. Review this article before
+  continuing the next June TOC entries around51–52; keep selected evaluation.

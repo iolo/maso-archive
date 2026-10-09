@@ -333,3 +333,37 @@ local tokens and sampled peak GPU7,838MiB/RSS6,450MiB. Cache resume reused all23
 stages; the export rebuild is byte-identical. Human-time and paid-token savings
 remain unmeasured. Continue selected comparisons by content type over subsequent
 checkpoints without treating these diagnostics as automatic acceptance.
+
+## June ending45–47 and complete article review
+
+Batch06 completes the phoneme article with11 text regions,3 images,109 numbered
+program rows and64 symbols. The assembled33–47 package has74 text regions and
+22 images. Its39-row sample and364-row main program are distinct. Native table
+indexes retain156 rows including headers; their projected text is checked exact.
+Nineteen source readings remain unresolved and all96 regions await human review.
+
+Two code crops were selected before inference and their assistant source references
+fixed before Tesseract. [Measurements](ocr-june-batch06-comparison.json):
+
+| Diagnostic | Qwen | Tesseract |
+| --- | ---: | ---: |
+| Compact CER,716 reference characters | 0.98% | 41.76% |
+| Exact numbered rows,quoted spaces retained | 43/50 | 0/50 |
+| Two crops,raw engine seconds | 7.74 | 0.70 |
+
+The symbol table is not scored. FILENM punctuation remains a candidate reading.
+Outside these samples, Qwen substituted Chinese characters for $$$; source review
+also repaired quote marks, banner counts and literal indentation. Printed cut-off
+strings remain cut off, and blank error-summary fields remain blank. The reference
+is unblinded and Qwen-derived, not independent human gold. These small diagnostics
+support continued evaluation, not a whole-issue accuracy or downstream savings claim.
+
+Batch preparation took68.42s including rendering/startup/export; regional inference
+40.16s and19,254 local tokens, sampled GPU7,940MiB/RSS4,720MiB. Native and assembled
+rebuilds match byte-for-byte; resume used11 cached stages with no new inference.
+
+The [reading-room preview](READING-ROOM.md) now supports human review without
+reading JSON: whole article and tables, scan/correction comparison, region controls,
+zoom, raw OCR and source notes. It remains read-only and does not convert viewing
+into acceptance. Use the region URL when reporting a correction. Human review
+and paid-model effort remain unmeasured; continue the matched-crop protocol.

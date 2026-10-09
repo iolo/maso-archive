@@ -1,5 +1,42 @@
 # Reading room
 
+## June Qwen article review preview
+
+The complete **음소에 의한 음성 합성 장치**, pages33–47, is ready for
+[private review](http://127.0.0.1:4186/archive/#/articles/scan-maso-1984-06-toc-0003).
+It includes all96 regions, the39-row sample,364-row main program and original
+figures. All human acceptance remains pending;19 source readings are flagged.
+
+Choose **원문과 나란히 검토하기 →** from the article. **쪽 / 영역** and the
+previous/next links move between scans. The view shows corrected text beside the
+source, with zoom, correction notes, uncertainties and expandable original OCR.
+On mobile, the scan sits above the text. Article tables retain empty cells and
+scroll horizontally. Copy a region's URL when reporting a correction. The preview
+is read-only; browsing does not save an approval or edit.
+
+To restart the existing build:
+
+```sh
+cd web
+READING_ROOM_OUTPUT=build/reading-room-qwen-june READING_ROOM_BASE=/archive/ npm run preview -- --port 4186 --strictPort
+```
+
+To reproduce, use a fresh output directory; staging refuses an existing data tree:
+
+```sh
+PYTHONPATH=.:src python3 -m tools.reading_room.scan --base build/reading-room-restored/data --package build/pdf-restoration/12-1984-06-qwen-phoneme-complete --output build/reading-room-qwen-june/data
+cd web
+READING_ROOM_OUTPUT=build/reading-room-qwen-june READING_ROOM_BASE=/archive/ npm run build
+```
+
+This separate preview preserves the previous146 scan articles and CD collection,
+and adds this one June article. The other restored June articles are not staged
+here yet. June as a whole remains in progress. Data and screenshots remain ignored
+by Git. [Progress](ocr-june-progress.json) records package pins and validation:
+19 frontend tests,5 PDF-reader tests, production build, complete staging integrity,
+and desktop/mobile browser checks. The staging adapter now retains previous
+`scanInputs` provenance when another article is added.
+
 ## Review completed PDF issues
 
 `build/reading-room-restored/` combines the original CD collection with all
@@ -34,7 +71,7 @@ READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm 
 The exporter validates both complete datasets and preserves existing CD and
 previously staged issue bytes. Source packages, restoration ledgers and the older
 reader builds remain unchanged. These generated reader assets are private and
-ignored by Git. June restoration has not started.
+ignored by Git. June's separate ongoing trial is described above.
 
 ## CD baseline
 

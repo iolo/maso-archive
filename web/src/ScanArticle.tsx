@@ -1,11 +1,13 @@
-import { useEffect, useRef } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useEffect, useRef, useState } from 'react'
+import { Link, useSearchParams, useNavigate } from 'react-router-dom'
+import { ScanRegionReview, ScanText } from './ScanRegionReview'
 import { type ArticleDoc, type Availability, type Block, type ScanData, type VerificationStatus, articlePath, dateOf, issuePath, sourceUrl, tocPath } from './data'
 
 export const availabilityLabel = (state: Availability) => ({ readable: '읽기 가능', partial: '일부 복원', 'image-only': '스캔만 있음', failed: '복원 시도 실패', unresolved: '복원 상태 미확인' })[state]
 export const verificationLabel = (state: VerificationStatus) => ({ unreviewed: '미검토', 'sample-reviewed': '범위를 정해 검토', 'fully-reviewed': '전체 검토' })[state]
 export const regionPath = (articleId: string, regionId: string) => `${articlePath(articleId)}?region=${encodeURIComponent(regionId)}`
 export const sectionPath = (articleId: string, blockId: string) => `${articlePath(articleId)}?section=${encodeURIComponent(blockId)}`
+const regionKindLabel = (kind: string) => ({ prose: '본문', code: '코드', figure: '그림 · 표', caption: '설명', title: '제목', byline: '글쓴이', 'section-label': '절 제목', other: '표 · 기타' })[kind] || '영역'
 const downloadLabel = (path: string) => ({ 'article.txt': '전체 글 · UTF-8', 'listing.txt': '코드 목록 · UTF-8', 'raw-ocr.zip': '교정 전 OCR와 스캔' })[path.split('/').pop()!] || path.split('/').pop()!
 const blockText = (block: Block) => block.paragraphs.map(p => p.runs.map(r => r.type === 'text' ? r.text : '').join('') + (p.terminated ? '\n' : '')).join('')
 
@@ -31,13 +33,15 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
   const bylineBlock = doc.blocks.find(b => b.type === 'byline')
   const byline = bylineBlock ? blockText(bylineBlock) : article.byline
   const [params] = useSearchParams()
+  const navigate = useNavigate()
+  const [zoomed, setZoomed] = useState(false)
   const regionId = params.get('region')
   const sectionId = params.get('section')
   const section = doc.blocks.find(b => b.scanBlockId === sectionId && (b.type === 'title' || b.type === 'heading'))
   const region = scan.regions.find(r => r.id === regionId)
   const focus = useRef<HTMLElement>(null)
   useEffect(() => {
-    if (regionId) { focus.current?.focus(); window.scrollTo(0, 0) }
+    if (regionId) { setZoomed(false); focus.current?.focus(); window.scrollTo(0, 0) }
   }, [regionId])
   useEffect(() => {
     if (!regionId && section) {
@@ -55,11 +59,21 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
     const page = scan.pages.find(p => p.pdf_index === region?.pdf_index)
     return <section className="page-content scan-evidence" tabIndex={-1} ref={focus}>
       <Link to={articlePath(article.article_id)}>← {article.title} 본문</Link>
-      <h1>{region ? `원문 스캔 ${region.id}` : '스캔 영역을 찾을 수 없습니다'}</h1>
-      {region && <><p>PDF {page?.pdf_page}쪽 · 인쇄 {page?.printed_page || '미상'}쪽 · {verificationLabel(scan.verification.status)}</p>
-        {region.asset ? <><p><a href={sourceUrl(region.asset.path)} target="_blank" rel="noreferrer">원본 크기로 열기</a> · <a href={sourceUrl(region.asset.path)} download>스캔 내려받기</a></p>
-          <div className="scan-image-scroll"><img src={sourceUrl(region.asset.path)} alt={`${article.title} 원문 영역 ${region.id}`} /></div></> : <p className="notice">이 영역의 스캔 이미지는 준비되지 않았습니다.</p>}
+      <h1>{region ? `${page?.printed_page || page?.pdf_page || ''}쪽 원문 대조` : '스캔 영역을 찾을 수 없습니다'}</h1>
+      {region && <>
+        <nav className="region-navigation" aria-label="스캔 검토 이동">
+          {scan.regions.indexOf(region) > 0 && <Link to={regionPath(article.article_id, scan.regions[scan.regions.indexOf(region) - 1].id)}>← 이전 영역</Link>}
+          <label>쪽 / 영역 <select value={region.id} onChange={e => navigate(regionPath(article.article_id, e.target.value))}>{scan.regions.map((r, i) => <option key={r.id} value={r.id}>{scan.pages.find(p => p.pdf_index === r.pdf_index)?.printed_page || '?'}쪽 · {i + 1}/{scan.regions.length} · {regionKindLabel(r.kind)}</option>)}</select></label>
+          {scan.regions.indexOf(region) < scan.regions.length - 1 && <Link to={regionPath(article.article_id, scan.regions[scan.regions.indexOf(region) + 1].id)}>다음 영역 →</Link>}
+        </nav>
+        <p>PDF {page?.pdf_page}쪽 · 인쇄 {page?.printed_page || '미상'}쪽 · {verificationLabel(scan.verification.status)}</p>
+        <div className="region-comparison"><section aria-label="원문 스캔">
+          <h2>원문 스캔</h2>
+          {region.asset ? <><p className="region-image-actions"><button type="button" aria-pressed={zoomed} onClick={() => setZoomed(v => !v)}>{zoomed ? '화면에 맞추기' : '확대해서 보기'}</button> <a href={sourceUrl(region.asset.path)} target="_blank" rel="noreferrer">원본 크기로 열기</a> · <a href={sourceUrl(region.asset.path)} download>스캔 내려받기</a></p>
+            <div className={`scan-image-scroll review-image${zoomed ? ' zoomed' : ''}`}><img src={sourceUrl(region.asset.path)} alt={`${article.title} 원문 영역 ${region.id}`} /></div></> : <p className="notice">이 영역의 스캔 이미지는 준비되지 않았습니다.</p>}
+        </section><ScanRegionReview key={region.id} doc={doc} regionId={region.id} /></div>
       </>}
+
     </section>
   }
   const readable = scan.availability === 'readable' || scan.availability === 'partial'
@@ -69,6 +83,7 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
       {article.tocEntryId && <Link to={tocPath(article.issue_id, article.tocEntryId)}>차례 항목으로</Link>}
     </div>
     <ScanReview scan={scan} />
+    {scan.regions.length > 0 && <p className="review-start"><Link to={regionPath(article.article_id, scan.regions[0].id)}>원문과 나란히 검토하기 →</Link><span>쪽과 영역을 넘기며 교정문 · 원문 · 교정 전 OCR를 확인합니다.</span></p>}
     {sectionId && !section && <p className="notice">요청한 절을 찾을 수 없습니다. 아래 본문과 차례를 확인하세요.</p>}
     <nav className="article-actions" aria-label="스캔 글 자료">
       {scan.downloads.map(pin => <a key={pin.path} href={sourceUrl(pin.path)} download>{downloadLabel(pin.path)}</a>)}
@@ -88,7 +103,7 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
       }
       const text = blockText(block)
       return <section key={block.id} id={block.id} tabIndex={-1} className={block.preformatted ? 'code-section' : 'scan-text'} data-scan-block={block.scanBlockId}>
-        {block.preformatted ? <pre><code>{text}</code></pre> : block.type === 'heading' || block.type === 'title' ? <h2>{text}</h2> : text.split('\n\n').map((p, i) => <p key={i} className="article-paragraph">{p}</p>)}
+        {block.preformatted ? <pre><code>{text}</code></pre> : block.type === 'heading' || block.type === 'title' ? <h2>{text}</h2> : <ScanText text={text} />}
         {regionLinks(block.regionIds || [])}
       </section>
     })}</div>}

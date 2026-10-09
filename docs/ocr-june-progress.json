@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 44,
-    "completed_articles": 3,
+    "completed_articles": 4,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 3,
-    "assistant_reviewed_partial_articles": 1,
-    "processed_source_pages": 26
+    "assistant_reviewed_complete_articles": 4,
+    "assistant_reviewed_partial_articles": 0,
+    "processed_source_pages": 29
   },
   "processed_source_pages": [
     19,
@@ -35,7 +35,10 @@
     41,
     42,
     43,
-    44
+    44,
+    45,
+    46,
+    47
   ],
   "checkpoints": [
     {
@@ -503,13 +506,194 @@
         "elapsed_seconds": 471.394579,
         "scope": "Agent preparation through artifact verification: mapping, preflight, raw inference, source correction, comparison and validation. Includes waits and overlap; not active human review or matched end-to-end speed."
       }
+    },
+    {
+      "issue_id": "maso-1984-06",
+      "status": "checkpoint-complete-article-partial-issue-in-progress",
+      "source_pages": [
+        45,
+        46,
+        47
+      ],
+      "article_pdf_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "prior_opening_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "deferred_pdf_pages": [],
+      "text_regions": 11,
+      "figures": 3,
+      "symbol_rows": 64,
+      "symbol_table_rows_including_header": 65,
+      "physical_listing_rows": 109,
+      "listing_id": "phoneme-main",
+      "listing_note": "Printed0256–0364; source strings truncated in scan remain truncated. No execution or machine-byte verification.",
+      "complete_article": false,
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-06/phoneme-synthesis/article.json",
+        "sha256": "94ced3066f9511742daae075d2efc53585e33c842abf9fdcb53e703959e1869d",
+        "bytes": 27112
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-06/phoneme-synthesis/manifest.json",
+        "sha256": "560b1ed54a78ea7d21d58065052432ec3ce20f99e84062402e38083c11543490",
+        "bytes": 9120
+      },
+      "metrics": {
+        "calls": 11,
+        "inference_wall_seconds": 40.162616808003804,
+        "local_prompt_tokens": 16561,
+        "local_output_tokens": 2693,
+        "peak_gpu_mib_sampled": 7940,
+        "peak_rss_mib_sampled": 4720.04296875,
+        "raw_run_elapsed_seconds": 68.42249207699933
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-06/tesseract-comparison/comparison.json",
+        "sha256": "125828358effda48b322ebe15862cac1c71d1620f436ded998231bed74114c23",
+        "bytes": 5776
+      },
+      "checks": {
+        "raw_stages_verified": 11,
+        "byte_identical_rebuild": true,
+        "prior_files_unchanged": 1941,
+        "table_and_text_utf8_ranges": true,
+        "listing_sequence": true,
+        "matched_input_png_hashes": 2,
+        "reference_fixed_before_tesseract": true,
+        "cache_hits": 11,
+        "new_inferences_on_resume": 0,
+        "server_attempts_after_resume": 1
+      },
+      "human_acceptance": "pending",
+      "unmeasured": {
+        "human_active_review_seconds": null,
+        "capable_model_tokens": null
+      },
+      "next": "Full33–47 assembly and private reading-room preview for human review."
     }
   ],
-  "next": "Restore45–47, assemble complete phoneme article33–47, retain selected matched-crop evaluation.",
+  "next": "Human review of complete phoneme article33–47 in the reading room; then inspect the next June TOC entries beginning51–52. Continue selected matched-crop evaluation.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "7b250d7e6c4291fdde826b4bafa90cae93d8c83f8e9867a119b7edc9d9e1f93b",
-    "bytes": 17801
+    "sha256": "baef404dc91c90e5c83f517201e96a918c19acebb08eaa1efe177fb58eb72b30",
+    "bytes": 18731
+  },
+  "phoneme_assembly": {
+    "status": "article-complete-assistant-reviewed-human-pending",
+    "source_pages": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "package": {
+      "path": "build/pdf-restoration/12-1984-06-qwen-phoneme-complete/article.json",
+      "sha256": "58a633c6dfb018d0bb2a4559957155b65afe91b9896b0105a930c1c34035d9b1",
+      "bytes": 168079
+    },
+    "manifest": {
+      "path": "build/pdf-restoration/12-1984-06-qwen-phoneme-complete/manifest.json",
+      "sha256": "925706d978aff7456f9abfaae5e5fc81a1af84cdafe7131dab1ebd4ac0742b73",
+      "bytes": 63395
+    },
+    "text_regions": 74,
+    "figures": 22,
+    "listing_groups": {
+      "phoneme-example": 39,
+      "phoneme-main": 364
+    },
+    "symbol_rows": 64,
+    "source_table_rows_including_headers": 156,
+    "unresolved_entries": 19,
+    "checks": {
+      "byte_identical_rebuild": true,
+      "all_source_and_projected_listing_ranges": true,
+      "all_text_review_ranges": true,
+      "original_table_ranges_and_projected_text": true,
+      "all96_regions_human_pending": true
+    },
+    "human_acceptance": "pending"
+  },
+  "reading_room_preview": {
+    "status": "private-preview-ready-human-review-pending",
+    "url": "http://127.0.0.1:4186/archive/#/articles/scan-maso-1984-06-toc-0003",
+    "manifest": {
+      "path": "build/reading-room-qwen-june/data/manifest.json",
+      "sha256": "ed854dc1fa8dd16669a7056841196a00fae13958a989bf8ffb4d022a0adbfcec",
+      "bytes": 11502389
+    },
+    "counts": {
+      "issues": 152,
+      "tocEntries": 5299,
+      "articles": 3533,
+      "texts": 3525,
+      "listings": 3318,
+      "mediaRecords": 11143,
+      "covers": 149,
+      "coverAssets": 145
+    },
+    "scan_inputs": 147,
+    "base_manifest_sha256": "8d13d42f06f150117ce63a2db7aefbfb031e93977e058c8d7663899dc8c2ee01",
+    "checks": {
+      "staging_inventory_and_hashes": true,
+      "prior_reader_preserved": true,
+      "frontend_tests": 19,
+      "pdf_reader_tests": 5,
+      "typescript_and_production_build": true,
+      "browser_desktop": true,
+      "browser_mobile": true,
+      "browser_dark_mode": true,
+      "region_navigation_96": true,
+      "first_last_navigation": true,
+      "raw_and_corrected_readings": true,
+      "source_notes": true,
+      "scan_zoom": true,
+      "table_blocks": 9,
+      "blank_table_cells": 36,
+      "mobile_horizontal_overflow": false,
+      "browser_console_errors": 0
+    },
+    "screenshots": "output/playwright/ocr-june/",
+    "human_acceptance": "pending",
+    "note": "Read-only preview; no review dispositions are saved by browsing. Previous four completed issues and CD content retained; this adds one complete June article."
   }
 }

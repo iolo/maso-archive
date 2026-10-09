@@ -11586,3 +11586,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Issue totals26 pages,3 complete/1 partial assistant-reviewed articles,0 human
   accepted. Next45–47 and full article assembly. Continue selected evaluation,
   separating content categories and retaining mandatory human review.
+
+## 2026-10-09 — June phoneme completion and reading-room review
+
+- Restored45–47 in batch06:11 text regions,3 source images,109 listing rows and
+  64 symbols. All source-truncated strings and blank Errors/Range Count fields
+  remain literal. Three new glyph/punctuation candidates await human review.
+- Raw preparation68.42s, inference40.16s,16,561 prompt+2,693 output local tokens;
+  sampled GPU7,940MiB/RSS4,720MiB. All11 stages stop normally; cached resume adds
+  no inference. Native rebuild is byte-identical;1,941 prior files unchanged.
+- Two fixed code crops: Qwen compact CER7/716 (0.98%) versus299/716 (41.76%);
+  strict numbered-row match43/50 versus0/50, preserving quoted spaces. Raw engine
+  times7.74s/0.70s. Assistant references are unblinded; symbol table not scored;
+  no human-time or paid-token savings measured. See batch06 comparison record.
+- Complete33–47 assembly preserves96 regions,22 images,39 sample+364 main rows,
+  156 native table rows including headers and19 unresolved entries. Every listing
+  and review byte range checked; native tables and projected text verified exact;
+  fresh assembly rebuild byte-identical. Programs and machine bytes unverified.
+- Added private reading-room preview with readable article/tables and side-by-side
+  region scans, corrected text, expandable raw OCR, notes, uncertainties and zoom.
+  Fixed staging to retain previous scanInputs; regression covers adding a second
+  scan without losing original article/source bytes. Existing restored reader
+  remains unchanged; preview adds this one June article to its146 scan inputs.
+- Checks:19 frontend tests,5 PDF-reader tests, production build, full staged
+  inventory/hash check; browser desktop/mobile, dark mode, all96 navigation
+  options, endpoints, raw/corrected text, zoom and empty table cells. No browser
+  console errors. Private evidence: reading-room-preview-results.json and
+  output/playwright/ocr-june/ screenshots.
+- [Open review preview](http://127.0.0.1:4186/archive/#/articles/scan-maso-1984-06-toc-0003).
+  [Restart/build guide](docs/READING-ROOM.md). Complete export:
+  build/pdf-restoration/12-1984-06-qwen-phoneme-complete/.
+- June total29 pages,4 complete/0 partial assistant-reviewed articles,0 human
+  accepted. All human ledgers stay pending. Next: human review, then inspect
+  the next TOC entries beginning51–52 while continuing selected evaluation.
+  User's existing web/package.json edit remains excluded from the commit.

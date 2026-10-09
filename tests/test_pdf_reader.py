@@ -23,6 +23,42 @@ def refresh(root):
 
 
 class PDFReaderTests(unittest.TestCase):
+    def test_adding_another_scan_preserves_existing_scan_provenance(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            base, first, package = self.fixture(root)
+            second_root = root / 'second'
+            recipe = test_pdf_build.PDFBuildTests().fixture(second_root, toc_number='0002')
+            second = second_root / 'build/scan'
+            another = build_article(recipe, second, second_root)
+            issue = read(base / 'issues/1900-01.json')
+            toc = {**issue['toc'][0], 'id': another['toc_entry_id'], 'articleIds': []}
+            issue['toc'].append(toc)
+            issue['issue']['tocCount'] += 1
+            write(base, 'issues/1900-01.json', issue)
+            catalog = read(base / 'catalog.json')
+            catalog['issues'] = [issue['issue'] if i['id'] == issue['issue']['id'] else i
+                                 for i in catalog['issues']]
+            write(base, 'catalog.json', catalog)
+            search = read(base / 'search.json')
+            search['items'].append(dict(kind='toc', id=toc['id'], issueId=issue['issue']['id'],
+                title=toc['title'], byline=toc['byline'], articleIds=[], status='unmatched'))
+            write(base, 'search.json', search)
+            manifest = read(base / 'manifest.json')
+            manifest['counts']['tocEntries'] += 1
+            write(base, 'manifest.json', manifest)
+            refresh(base)
+            one, two = root / 'build/one', root / 'build/two'
+            first_manifest = stage(base, first, one)
+            before = {p.relative_to(one): p.read_bytes() for p in one.rglob('*') if p.is_file()}
+            second_manifest = stage(one, second, two)
+            self.assertEqual(second_manifest['scanInputs'][:-1], first_manifest['scanInputs'])
+            self.assertEqual(check(two)['articles'], 6)
+            self.assertEqual({p.relative_to(one): p.read_bytes() for p in one.rglob('*') if p.is_file()}, before)
+            for path, raw in before.items():
+                if str(path).startswith(('articles/', 'source/')):
+                    self.assertEqual((two / path).read_bytes(), raw)
+
     def test_optional_covers_reuse_existing_presentation_and_preserve_cd_sources(self):
         from PIL import Image
         with TemporaryDirectory() as tmp:

@@ -215,7 +215,8 @@ def stage(base, package_dir, output, covers=None, cover_checkpoint=None, thumbna
                     toc_changed.add(name)
             write(staged, 'catalog.json', catalog)
         manifest.update(schemaVersion=3, baseManifestSha256=base_manifest_sha,
-                        scanInputs=[dict(articleId=package['id'], manifestSha256=package_manifest_sha,
+                        scanInputs=[*manifest.get('scanInputs', []),
+                                    dict(articleId=package['id'], manifestSha256=package_manifest_sha,
                                          packagePath=doc['scan']['packagePath'])])
         for key, added in dict(articles=1, texts=1, listings=len(doc['listings']), mediaRecords=len(doc['media'])).items():
             manifest['counts'][key] += added
