@@ -515,3 +515,17 @@ commit code/documentation. Do not count a partial opening as a complete article.
   physical/logical listing coverage verified. Totals98 article source pages,
   18 complete assistant-reviewed articles,two non-owning headings,zero accepted.
   Next BASIC speed124–125 and educational program126 onward; full issue ongoing.
+
+### BASIC speed checkpoint, 2026-10-09
+
+- Batch21 completes 베이직 프로그램 처리속도 증진법124–125:40 text regions,
+  two images,52 physical annotated code/monitor rows in nine groups,five unresolved
+  items. Joined spread title and cross-column prose. Preserved damaged assignment,
+  printed comma syntax and historical claims; no executable repair or byte validation.
+- Raw preparation36.77s; inference24.00s;15,324 local tokens; sampled GPU7,808MiB /
+  RSS3,747MiB. Reader staging overlapped; not controlled speed. Fixed mixed dump
+  compact CER11.22% versus77.55% Tesseract; prose1.25% versus10.00%. Unblinded
+  scan-corrected reference, literal blanks unscored, human effort unknown.
+-40 cache hits/zero new calls; native rebuild and UTF-8 ranges/listing coverage
+  verified. Totals100 source pages,19 complete assistant-reviewed articles,
+  two non-owning headings,zero human accepted. Educational program126–129 next.
