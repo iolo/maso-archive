@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 44,
-    "completed_articles": 5,
+    "completed_articles": 6,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 5,
+    "assistant_reviewed_complete_articles": 6,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 34,
+    "processed_source_pages": 37,
     "non_owning_headings": 1
   },
   "processed_source_pages": [
@@ -44,7 +44,10 @@
     53,
     54,
     55,
-    56
+    56,
+    57,
+    58,
+    59
   ],
   "checkpoints": [
     {
@@ -606,13 +609,13 @@
     },
     {
       "package": {
-        "path": "build/pdf-restoration/12-1984-06-qwen-batch-07/clock-study/article.json",
-        "sha256": "9c6e9335f817f78152941dafda4175dd7e7ed3f635ebbc836f4202b833bfb273",
-        "bytes": 52603
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-07/clock-study-indexed/article.json",
+        "sha256": "f178e46c2dc1cdf0d52e06c517a350ff7a8d14abc4b67b2c13b2925c0d2ae35f",
+        "bytes": 52731
       },
       "manifest": {
-        "path": "build/pdf-restoration/12-1984-06-qwen-batch-07/clock-study/manifest.json",
-        "sha256": "904f276e7b1367457fa78f7a85ec3ed6fc9a98c46011d7a94837d80897233ce6",
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-07/clock-study-indexed/manifest.json",
+        "sha256": "9633ae82c9a62e545b1295ce6357f116bcdc89547fcc6e0eb80b3654ba909c10",
         "bytes": 16858
       },
       "source_pages": [
@@ -626,7 +629,7 @@
       "text_regions": 22,
       "figures": 6,
       "physical_listing_rows": 231,
-      "logical_listing_rows": 195,
+      "logical_listing_rows": 194,
       "unresolved_entries": 7,
       "complete_article": true,
       "checks": {
@@ -634,7 +637,7 @@
         "byte_identical_rebuild": true,
         "text_and_review_utf8_ranges": true,
         "listing_byte_coverage": true,
-        "raw_stages_and_stop_reasons": 22
+        "explicit_printed_line_numbers": true
       },
       "human_acceptance": "pending",
       "issue_id": "maso-1984-06",
@@ -657,15 +660,77 @@
         "path": "private/pdf-restoration/12-1984-06-qwen/batch-07/tesseract-comparison/comparison.json",
         "sha256": "3f447b5c802dfd480a0aa33b74d2be2c32a1c025ae066d947cd8aaf2d3fae5e5",
         "bytes": 5223
+      },
+      "index_revision": {
+        "note": "Explicit source line labels replace heuristic digit detection: wrapped5 belongs to1260, not a new line. Text/listing bytes unchanged; no new OCR.",
+        "previous_export": {
+          "path": "build/pdf-restoration/12-1984-06-qwen-batch-07/clock-study/manifest.json",
+          "sha256": "904f276e7b1367457fa78f7a85ec3ed6fc9a98c46011d7a94837d80897233ce6",
+          "bytes": 16858
+        }
+      }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-08/maze-game-indexed/article.json",
+        "sha256": "d7c5f3eed41d3d104992f3939fe1d835194c315b02a55edef5e8a680625db094",
+        "bytes": 43138
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-08/maze-game-indexed/manifest.json",
+        "sha256": "d586189801139fe16c8dd57b96a11b806876d59928c28de7949d805f3a0a5cc2",
+        "bytes": 14708
+      },
+      "source_pages": [
+        57,
+        58,
+        59
+      ],
+      "regions": 24,
+      "text_regions": 19,
+      "figures": 5,
+      "physical_listing_rows": 191,
+      "logical_listing_rows": 106,
+      "unresolved_entries": 5,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 19
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-08",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 19,
+        "inference_wall_seconds": 43.596877793988824,
+        "local_prompt_tokens": 15831,
+        "local_output_tokens": 3752,
+        "peak_gpu_mib_sampled": 7822,
+        "peak_rss_mib_sampled": 4572.2890625,
+        "raw_run_elapsed_seconds": 57.9015017970014
+      },
+      "resume": {
+        "cache_hits": 19,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-08/tesseract-comparison/comparison.json",
+        "sha256": "39e34469afef84bea7c5404a0b3b553f130fc3b1f4a71cef14b0366a8c7d2425",
+        "bytes": 5215
       }
     }
   ],
-  "next": "Inspect/map maze game57–59, then continue the remaining June articles; refresh the private reader after a group of completed articles.",
+  "next": "Restore space animation article60–63, then continue all remaining June entries; private reader refresh after grouped completion.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "ea2fb038ae9b9776edd714169e069c9ad51d4435725b5f4a830ae91ac3096292",
-    "bytes": 19583
+    "sha256": "c854888a2b2101248e3e237f8d53dc90767c81eb03659bf9d4d62873dfe6bb5e",
+    "bytes": 19903
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",

@@ -253,7 +253,7 @@ commit code/documentation. Do not count a partial opening as a complete article.
   acceptance. Commit completed checkpoints. Refresh the private reader after
   groups of articles to avoid copying the existing collection for every native.
 - Batch07 completes 시계공부52–56:22 text regions,6 original images,231 physical
-  BASIC rows /195 numbered statements. Explicit order follows55-left opening,
+  BASIC rows /194 numbered statements. Explicit order follows55-left opening,
   56-left,55-left ending,55-right and56-right; all original panels remain.
   Seven candidate readings remain. 취미생활51 is a non-owning section divider.
 - Dense BASIC has more raw errors than the previous assembly sample: selected
@@ -265,3 +265,20 @@ commit code/documentation. Do not count a partial opening as a complete article.
   text/review/listing byte ranges checked. No runtime code or new unit-test claim.
 - June now34 article source pages,5 complete articles,one classified group,0 human
   accepted. Next maze game57–59, then the remaining queue and whole-issue closeout.
+
+### Maze game checkpoint, 2026-10-09
+
+- Completed maze57–59:19 text regions,5 original images,191 physical rows and
+  106 numbered BASIC statements. The3100 continuation across59 columns is linked;
+  advertisement below59 is excluded. Five source candidates remain pending.
+- Qwen preparation57.90s; inference43.60s;19,583 local tokens; sampled GPU7,822MiB /
+  RSS4,572MiB.19 cached stages/zero calls. Selected prose compact CER0.69% versus
+  6.90%; code0% versus41.63%. Quoted spacing and unscored source anomalies still
+  need review; these assistant references are not independent human gold.
+- Replaced the private export helper's numeric-prefix heuristic with explicit
+  source line labels. Wrapped numeric operands are not new BASIC statements.
+  Clock's corrected count is194 statements (not195); original exports retained,
+  text/listing bytes unchanged, fresh indexed exports reproduce exactly. No OCR
+  rerun. Use clock-study-indexed and maze-game-indexed packages going forward.
+- June totals37 article source pages,6 complete articles,one non-owning heading,
+  zero human accepted. Continue space animation60–63, then remaining June queue.

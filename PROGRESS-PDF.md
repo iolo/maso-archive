@@ -11625,7 +11625,7 @@ history remains in [PROGRESS.md](PROGRESS.md).
 
 - User authorized all remaining June articles with continued evaluation and human
   review. Batch07 completes 시계공부:28 regions,22 transcriptions,6 original images,
-  231 physical BASIC rows and195 numbered statements. Nonsequential printed panel
+  231 physical BASIC rows and194 numbered statements. Nonsequential printed panel
   order is represented explicitly without changing source line labels or wraps.
 - Source checking restored omitted digits, quote/question marks, PI candidates,
   literal indentation and banner counts. Printed1840 comma,1960 H*,5 and
@@ -11638,7 +11638,7 @@ history remains in [PROGRESS.md](PROGRESS.md).
   versus210/632 (33.23%). Faint PI/# remains provisional. This is an unblinded,
   Qwen-derived assistant reference, not human gold. Whitespace is excluded by
   compact CER; no strict code-row metric or downstream savings claim this batch.
-- Export: build/pdf-restoration/12-1984-06-qwen-batch-07/clock-study/.
+- Export: build/pdf-restoration/12-1984-06-qwen-batch-07/clock-study-indexed/.
   Evidence: private/pdf-restoration/12-1984-06-qwen/batch-07/.
   Measurements: docs/ocr-june-batch07-comparison.json.
 - Visually classified 취미생활51 as a non-owning divider with ten child entries.
@@ -11646,3 +11646,25 @@ history remains in [PROGRESS.md](PROGRESS.md).
   zero human accepted. Whole issue remains in progress; next maze57–59.
   Existing preview remains the completed phoneme article until the next grouped
   reader refresh. Existing web/package.json user edit remains excluded.
+
+## 2026-10-09 — Maze game57–59; explicit BASIC line indexes
+
+- Completed 미로 게임:24 regions,19 transcriptions,5 original images,191 physical
+  rows /106 numbered BASIC statements. Source3100 crosses59 columns. Retained
+  source DIR/DI, CLR2/C2, HLIN A39 and1056 unclosed quote; five uncertainty entries.
+  Advertisement on lower59 remains outside extraction.
+- Preparation57.90s, inference43.60s,15,831prompt+3,752output local tokens; sampled
+  GPU7,822MiB/RSS4,572MiB. All19 stops valid; cached resume makes no new calls.
+  Selected prose compact CER3/435 (0.69%) versus30/435 (6.90%); selected code0/466
+  versus194/466 (41.63%). Unblinded assistant references; no downstream savings
+  claim. Source literal spaces and punctuation remain subject to human review.
+- Private helper now uses source-checked line labels: numeric wrapped operands
+  no longer become false statements;4040's printed dot remains in text. Clock's
+  one false line5 was actually a wrap of1260, so the corrected count is194.
+  Original exports retained. Fresh indexed exports and independent rebuilds
+  preserve all article/listing bytes, and explicitly check the printed labels.
+- Promoted paths: batch-07/clock-study-indexed and batch-08/maze-game-indexed
+  under build/pdf-restoration/12-1984-06-qwen-*. Both human ledgers unchanged.
+  No runtime pipeline or frontend changes; no new unit-suite claim.
+- June totals37 article source pages,6 complete articles,one classified group,
+  zero human accepted. Next space animation60–63, then remaining June queue.
