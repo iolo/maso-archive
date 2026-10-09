@@ -2,40 +2,40 @@
 
 ## June Qwen article review preview
 
-The complete **음소에 의한 음성 합성 장치**, pages33–47, is ready for
-[private review](http://127.0.0.1:4186/archive/#/articles/scan-maso-1984-06-toc-0003).
-It includes all96 regions, the39-row sample,364-row main program and original
-figures. All human acceptance remains pending;19 source readings are flagged.
+The [expanded private June reader](http://127.0.0.1:4187/archive/#/issues/maso-1984-06)
+contains eight complete articles: the editorial, three speech features, 시계공부,
+미로 게임, 우주 유영 and 과수원. Human acceptance remains pending. June as a
+whole is still being restored; later completed checkpoints await the next refresh.
 
-Choose **원문과 나란히 검토하기 →** from the article. **쪽 / 영역** and the
+Choose **원문과 나란히 검토하기 →** from an article. **쪽 / 영역** and the
 previous/next links move between scans. The view shows corrected text beside the
 source, with zoom, correction notes, uncertainties and expandable original OCR.
 On mobile, the scan sits above the text. Article tables retain empty cells and
 scroll horizontally. Copy a region's URL when reporting a correction. The preview
 is read-only; browsing does not save an approval or edit.
 
-To restart the existing build:
+To restart the expanded build:
 
 ```sh
 cd web
-READING_ROOM_OUTPUT=build/reading-room-qwen-june READING_ROOM_BASE=/archive/ npm run preview -- --port 4186 --strictPort
+READING_ROOM_OUTPUT=build/reading-room-qwen-june-expanded READING_ROOM_BASE=/archive/ npm run preview -- --port 4187 --strictPort
 ```
 
-To reproduce, use a fresh output directory; staging refuses an existing data tree:
+The grouped staging helper and its checked result are local under
+`private/pdf-restoration/12-1984-06-qwen/stage-group.py` and
+`reader-group-result.json`. It copies the preceding preview once, adds seven
+pinned packages, preserves prior `scanInputs`, validates every projection and
+checks that unrelated files remain byte-identical. Expanded data manifest SHA-256:
+`c3d896a0a9e0c736ad1f68a29999c3e1e0b69dc42dc8442ad652b629f9c61437`.
+Use a fresh output for any further staging; the helper's input checkpoint is fixed.
 
-```sh
-PYTHONPATH=.:src python3 -m tools.reading_room.scan --base build/reading-room-restored/data --package build/pdf-restoration/12-1984-06-qwen-phoneme-complete --output build/reading-room-qwen-june/data
-cd web
-READING_ROOM_OUTPUT=build/reading-room-qwen-june READING_ROOM_BASE=/archive/ npm run build
-```
-
-This separate preview preserves the previous146 scan articles and CD collection,
-and adds this one June article. The other restored June articles are not staged
-here yet. June as a whole remains in progress. Data and screenshots remain ignored
-by Git. [Progress](ocr-june-progress.json) records package pins and validation:
-19 frontend tests,5 PDF-reader tests, production build, complete staging integrity,
-and desktop/mobile browser checks. The staging adapter now retains previous
-`scanInputs` provenance when another article is added.
+This preview preserves the previous146 scan articles and CD collection. The
+original one-article phoneme preview at port4186 remains available unchanged.
+Data and screenshots remain ignored by Git. [Progress](ocr-june-progress.json)
+records native package pins and validation. This data refresh passed full dataset
+integrity and production build, plus browser checks of issue navigation, article
+reading and the side-by-side source/correction view. Existing UI tests were not
+rerun because no frontend code changed.
 
 ## Review completed PDF issues
 

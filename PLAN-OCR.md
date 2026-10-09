@@ -305,3 +305,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   unblinded assistant-reference diagnostics, not independent human gold.
 - June totals43 article source pages,8 complete articles,one non-owning heading,
   zero human accepted. Continue SPC-1000 automatic tape66–69 and remaining queue.
+
+### SPC tape article and grouped reader, 2026-10-09
+
+- Batch11 completes SPC-1000 자동실행 테이프66–69:47 text regions,8 original
+  figures,30 physical code rows/22 numbered statements across five separate
+  examples. Joined four cross-column/page prose continuations and restored source
+  punctuation. Five address-table pairs checked; custom character chart retained
+  as an image. Four original address/glyph candidates remain unresolved.
+- Preparation78.45s; inference59.62s;30,793 local tokens; sampled GPU7,826MiB /
+  RSS6,301MiB. Selected prose compact CER0.61% versus3.67%; reference fixed before
+  Tesseract, assistant-derived and unblinded.47 cached stages/zero calls. Native
+  export/rebuild identical; all text/review/listing ranges and raw stages checked.
+- Expanded reader now includes the eight complete articles through orchard,
+  preserving all previous146 scan articles and CDs. One grouped independent copy
+  avoids seven collection copies; complete inventory/projection checks passed.
+  Production build and desktop source/correction browser checks passed; no UI code
+  changed. See docs/READING-ROOM.md for port4187 and source-review links. SPC awaits
+  next grouped refresh; human acceptance remains pending for every June article.
+- June totals47 article source pages,9 complete articles,one non-owning heading.
+  Continue Apple automatic tape70–75, then all remaining eligible June articles.
