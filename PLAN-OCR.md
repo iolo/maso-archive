@@ -438,3 +438,28 @@ commit code/documentation. Do not count a partial opening as a complete article.
   June totals74 article source pages,14 complete assistant-reviewed articles,
   two non-owning headings,zero human accepted. Reading room still twelve articles;
   address book and puzzle ready for next refresh. Continue Z80 tutorial100–107.
+
+### Z80 tutorial checkpoint and reader refresh, 2026-10-09
+
+- Batch17 completes Z80 기계어 강좌100–107:100 text regions,17 original images,
+  78 physical assembly/inline code rows and eight unresolved source readings.
+  Opcode matrices104,exchange table105 and diagram labels remain image-only;
+  all article content is present for reading, but those cells are not text exports.
+- Reconstructed assembly address/byte/instruction row associations lost by Qwen,
+  corrected faint digits and Korean misreadings, joined cross-column prose.
+  Preserved apparent source defects and flagged0643/0843 discrepancy rather than
+  repairing code. No assembler execution or byte validation claimed.
+- Raw preparation162.93s; inference95.68s;49,749 local tokens; sampled GPU7,794MiB /
+  RSS8,818MiB. Reader staging overlapped this run: preparation time is not a
+  controlled speed comparison. Fixed prose compact CER0% versus12.22% Tesseract;
+  final assembly crop0% versus32.58%. On faint listing1 main crop Qwen lost row
+  order:65.27% versus45.42% Tesseract, an important counterexample. Both required
+  substantial correction; no independent human gold and literal blanks unscored.
+-100 cache hits/zero new calls; native export/rebuild identical; raw stop reasons,
+  article/review/listing byte coverage verified. June totals82 article source pages,
+  15 complete assistant-reviewed articles,two non-owning headings,zero human accepted.
+- Fresh grouped reader `build/reading-room-qwen-june-through-puzzle` adds address
+  book and puzzle to the prior12 articles.14 are now available at port4187; reload
+  the tab. Dataset/source pins, unchanged prior collection and production build
+  checked; browser source/correction view verified, screenshot inspected. Z80 is
+  ready for a later grouped refresh. Continue LOGO starting108 and remaining queue.
