@@ -750,3 +750,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Fresh staging preserved prior files and scanInputs; full integrity and production
   build passed. Browser issue count, BASIC scan/correction and contest table row
   checked, screenshots viewed. Hangul sort awaits the next grouped refresh.
+
+### Computer rebellion checkpoint, 2026-10-10
+
+- Batch34 assembles 당신은 컴퓨터 반란 진압대205–209:108 successful Qwen regions,
+  three explicitly assistant-manual regions and one illustration. Listing200
+  numbered rows/334 physical rows; fifteen review flags. The title literals
+ 7020–7120 remain editorial placeholders with scans, not character-transcribed
+  program text. Box glyphs and header rule counts are visual candidates only.
+- Two4096-token repetition failures (asterisk border, box rules) retained. Manual
+  source fallback is separately labeled, never fabricated as raw Qwen output.
+  Also repaired raw omissions after a normal stop, line-number errors, repeated
+  hex DATA and O/0 readings. Printed anomalies retained; no program execution.
+- Combined original+two recovery wall220.38s; final108-stage inference80.39s plus
+ 77.66s failed server prompt/generation.42,995 successful tokens +9,900 failed =
+ 52,895 local tokens. GPU7,794MiB/RSS4,526MiB sampled from successful stages;
+  these are not a measurement of manual work or failed-request resource peaks.
+- Fixed prose/BASIC/DATA compact CER0%/2.80%/1.18% versus9.21%/25.23%/28.24%.
+  BASIC crop narrowed after header failure. These three unblinded samples exclude
+  the graphical failures and manual fallback, so cannot represent whole-article
+  accuracy.108 cache hits/zero new calls; export/rebuild, UTF-8 and explicit
+  source-row checks passed. Totals177 pages,32 assembled assistant-reviewed
+  articles,four non-owning headings,zero human accepted. Reader remains30 articles.
+- Next: horse-blocking game210–213, already through raw OCR and scan inspection.
