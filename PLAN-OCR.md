@@ -244,3 +244,24 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Issue total29 pages,4 assistant-reviewed complete articles,0 partial,0 human
   accepted. All96 phoneme regions remain pending. Review this article before
   continuing the next June TOC entries around51–52; keep selected evaluation.
+
+### Remaining June issue authorized, 2026-10-09
+
+- User requested restoration of all remaining June articles. Continue bounded,
+  immediately inspected maps with Qwen raw OCR and assistant source correction;
+  retain selected matched-crop evaluation, immutable evidence and mandatory human
+  acceptance. Commit completed checkpoints. Refresh the private reader after
+  groups of articles to avoid copying the existing collection for every native.
+- Batch07 completes 시계공부52–56:22 text regions,6 original images,231 physical
+  BASIC rows /195 numbered statements. Explicit order follows55-left opening,
+  56-left,55-left ending,55-right and56-right; all original panels remain.
+  Seven candidate readings remain. 취미생활51 is a non-owning section divider.
+- Dense BASIC has more raw errors than the previous assembly sample: selected
+  code compact CER2.85% Qwen versus33.23% Tesseract; prose0% versus4.10%.
+  References remain unblinded assistant candidates, not human gold. No claim
+  of whole-article accuracy or correction-time savings. Both samples fixed first.
+- Preparation89.45s; regional inference70.66s;26,908 local tokens; sampled GPU
+  7,836MiB/RSS5,882MiB.22 cached stages,zero new calls; native rebuild byte-identical,
+  text/review/listing byte ranges checked. No runtime code or new unit-test claim.
+- June now34 article source pages,5 complete articles,one classified group,0 human
+  accepted. Next maze game57–59, then the remaining queue and whole-issue closeout.

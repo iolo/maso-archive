@@ -1,0 +1,124 @@
+{
+  "scope": "Preselected identical-region PNGs; one run per engine; no whole-issue or end-to-end speed claim.",
+  "reference_note": "Assistant scan-corrected Qwen-derived reference fixed before Tesseract; unblinded, not independent human gold. Faint code glyph candidates remain. Compact CER ignores all whitespace including literal spaces. BASIC physical wrapping retained; no strict numbered-row metric in this batch.",
+  "settings": {
+    "qwen": "Existing local8B UD-Q4_K_XL GPU99 ctx8192 imagecap4096 deterministic raw prompt",
+    "tesseract": "Pinned5.5 OEM1 PSM6 OMP_THREAD_LIMIT1; eng code, kor+eng prose"
+  },
+  "rows": [
+    {
+      "region_id": "p52r04",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-07/ocr/scan-maso-1984-06-toc-0005/ocr-page52/p52r04.png",
+        "sha256": "5c329918bca7089a878cc20558758b0fe7a148984e03a4a35a80013a38e57dba",
+        "bytes": 439055
+      },
+      "qwen_seconds": 2.4968579660016985,
+      "tesseract_seconds": 0.535322306001035,
+      "qwen_resources": {
+        "wall_seconds": 2.6123339629994007,
+        "cpu_seconds_sampled": 2.6499999999999995,
+        "peak_rss_mib_sampled": 1713.90234375,
+        "peak_gpu_mib_sampled": 7792,
+        "samples": 22,
+        "gpu_samples": 22,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.6266000010000425,
+        "cpu_seconds_sampled": 0.5399999999999999,
+        "peak_rss_mib_sampled": 104.28515625,
+        "peak_gpu_mib_sampled": null,
+        "samples": 6,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "ed1c128f0d6f0e37e7d1d4c4ac6eb25abaa511e7885bf5d42611e62c76c90792",
+        "bytes": 13209
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 322,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 244,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.06832298136645963,
+          "cer_edits": 22,
+          "cer_reference_chars": 322,
+          "cer_no_whitespace": 0.040983606557377046,
+          "cer_no_whitespace_edits": 10,
+          "cer_no_whitespace_reference_chars": 244,
+          "wer": 0.35443037974683544
+        }
+      }
+    },
+    {
+      "region_id": "p55r07",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-07/ocr/scan-maso-1984-06-toc-0005/ocr-page55/p55r07.png",
+        "sha256": "ff2176394713db51954ee52793e89a32d58470faf0e18d3962cdc355155c667d",
+        "bytes": 473782
+      },
+      "qwen_seconds": 5.267118753999966,
+      "tesseract_seconds": 0.36736426200150163,
+      "qwen_resources": {
+        "wall_seconds": 5.38596422000046,
+        "cpu_seconds_sampled": 5.520000000000001,
+        "peak_rss_mib_sampled": 3954.80078125,
+        "peak_gpu_mib_sampled": 7836,
+        "samples": 44,
+        "gpu_samples": 44,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.441083403002267,
+        "cpu_seconds_sampled": 0.25,
+        "peak_rss_mib_sampled": 92.05859375,
+        "peak_gpu_mib_sampled": null,
+        "samples": 4,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "ed1c128f0d6f0e37e7d1d4c4ac6eb25abaa511e7885bf5d42611e62c76c90792",
+        "bytes": 13209
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.027586206896551724,
+          "cer_edits": 20,
+          "cer_reference_chars": 725,
+          "cer_no_whitespace": 0.028481012658227847,
+          "cer_no_whitespace_edits": 18,
+          "cer_no_whitespace_reference_chars": 632,
+          "wer": 0.10638297872340426
+        },
+        "tesseract": {
+          "cer": 0.31448275862068964,
+          "cer_edits": 228,
+          "cer_reference_chars": 725,
+          "cer_no_whitespace": 0.3322784810126582,
+          "cer_no_whitespace_edits": 210,
+          "cer_no_whitespace_reference_chars": 632,
+          "wer": 0.9361702127659575
+        }
+      }
+    }
+  ],
+  "totals": {
+    "qwen_inference_seconds": 7.763976720001665,
+    "tesseract_engine_seconds": 0.9026865680025367,
+    "human_active_review_seconds": null,
+    "paid_model_tokens": null
+  }
+}

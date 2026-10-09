@@ -11620,3 +11620,29 @@ history remains in [PROGRESS.md](PROGRESS.md).
   accepted. All human ledgers stay pending. Next: human review, then inspect
   the next TOC entries beginning51–52 while continuing selected evaluation.
   User's existing web/package.json edit remains excluded from the commit.
+
+## 2026-10-09 — June whole-issue continuation; clock study52–56
+
+- User authorized all remaining June articles with continued evaluation and human
+  review. Batch07 completes 시계공부:28 regions,22 transcriptions,6 original images,
+  231 physical BASIC rows and195 numbered statements. Nonsequential printed panel
+  order is represented explicitly without changing source line labels or wraps.
+- Source checking restored omitted digits, quote/question marks, PI candidates,
+  literal indentation and banner counts. Printed1840 comma,1960 H*,5 and
+  CONGRATURATION remain unrepaired. Seven source candidates are pending.
+- Preflight adjusted two crop boundaries before inference.22 normal-stop calls;
+  preparation89.45s, inference70.66s,20,665prompt+6,243output local tokens; sampled
+  GPU7,836MiB/RSS5,882MiB. Cache resume22hits/zero calls. Export and rebuild match;
+  text/review/listing byte coverage checks pass. Pipeline code unchanged.
+- Fixed prose sample compact CER0/244 versus10/244 (4.10%); BASIC18/632 (2.85%)
+  versus210/632 (33.23%). Faint PI/# remains provisional. This is an unblinded,
+  Qwen-derived assistant reference, not human gold. Whitespace is excluded by
+  compact CER; no strict code-row metric or downstream savings claim this batch.
+- Export: build/pdf-restoration/12-1984-06-qwen-batch-07/clock-study/.
+  Evidence: private/pdf-restoration/12-1984-06-qwen/batch-07/.
+  Measurements: docs/ocr-june-batch07-comparison.json.
+- Visually classified 취미생활51 as a non-owning divider with ten child entries.
+  June totals34 article source pages,5 complete articles,one classified group,
+  zero human accepted. Whole issue remains in progress; next maze57–59.
+  Existing preview remains the completed phoneme article until the next grouped
+  reader refresh. Existing web/package.json user edit remains excluded.
