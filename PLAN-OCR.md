@@ -662,3 +662,31 @@ commit code/documentation. Do not count a partial opening as a complete article.
   152 source pages,26 complete assistant-reviewed articles,four non-owning headings,
   zero human accepted. Grouped preview refresh underway. Scan inspection establishes
   relocator182–185 and classifieds186; earlier estimated188 is not the actual body.
+
+### Reading-room refresh through design, 2026-10-10
+
+- Local preview4187 now contains26 June articles, adding VISISUM, medical insurance,
+  VISICALC and computer design to the previous22. Dataset integrity, package pins,
+  unchanged previous scan/CD files and production build passed. Browser reloaded;
+  checked26-article navigation, VISICALC Korean DATA side-by-side and design WR/RD
+  overbars/review flags. Both screenshots were visually inspected.
+- Fixed staging helper `stage-group28.py`; output `build/reading-room-qwen-june-through-design`.
+  Manifest `6f8b3c282125f98fe239072d5112dfdb616dc0d502c8d9c51cedfb4702e28ce6`.
+  Previous previews retained; no publication or human acceptance inferred.
+
+### Relocator checkpoint, 2026-10-10
+
+- Batch29 completes 리로케이터 프로그램182–185:54 text regions,two diagrams,
+  six listing groups,366 physical rows and297 numbered assembler source rows
+  (0000–0296). Repaired OCR column ordering and repeated hex-byte omissions;
+  retained printed addresses, D000, RELOCATER, STOP and historical assembler result.
+  Nine explicit review flags; no execution/reassembly or original-byte claim.
+- Raw preparation124.67s; inference105.58s;38,716 local tokens; sampled GPU7,988MiB /
+  RSS7,367MiB. No failed inference. Fixed prose/example/assembly compact CER all0%,
+  versus4.69%/1.67%/64.77% Tesseract. These are unblinded assistant-reference
+  diagnostics; table/column order and whitespace normalization limit interpretation.
+-54 cache hits/zero new calls; rebuild, explicit source-row coverage and UTF-8
+  indexes passed. Private export helper now accepts explicit block-ID overrides,
+  keeping raw maps immutable when informal region notes repeat across pages.
+  Totals156 source pages,27 complete assistant-reviewed articles,four non-owning
+  headings,zero human accepted. Reader has26 articles; relocator awaits next refresh.
