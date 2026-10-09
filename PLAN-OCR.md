@@ -690,3 +690,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   keeping raw maps immutable when informal region notes repeat across pages.
   Totals156 source pages,27 complete assistant-reviewed articles,four non-owning
   headings,zero human accepted. Reader has26 articles; relocator awaits next refresh.
+
+### Classifieds and contest review, 2026-10-10
+
+- Batch30 completes 복덕방 on actual page186 (TOC estimate188):28 text regions,
+  three review flags. Historical prices, contact details and printed BAGIC-G retained.
+  Moved a shared crop edge four normalized pixels to avoid touching 령; reran two
+  crops and reused26 after exact image/runtime checks. Original evidence retained.
+  Combined original+recovery wall36.21s; final-stage inference16.36s excludes the
+  superseded two crops.10,825 final local tokens; GPU7,758MiB/RSS3,023MiB.
+- Batch31 completes 공모총평190–191:40 text regions, six review flags. Rejoined
+  spread title and column continuations; six award rows plus header as TSV.
+  Retained printed machine-name discrepancies and unusual wording. Raw50.62s,
+  inference32.09s,18,962 local tokens,GPU7,792MiB/RSS4,313MiB. No failed calls.
+- Three fixed samples per article: compact CER all0% Qwen; Tesseract4.05%/6.94%/
+  18.67% for classifieds and3.62%/6.67%/37.50% for contest review. The table sample
+  is a single row; these unblinded assistant-reference results are not human gold.
+- Both exports and byte-identical rebuilds passed; UTF-8 source indexes verified;
+  resume28+40 cache hits,zero new calls. Totals159 source pages,29 complete
+  assistant-reviewed articles,four non-owning headings,zero human accepted.
+  Reader remains26 articles pending next grouped refresh. Next: graphic editor192–198.
