@@ -175,3 +175,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Issue total:14 source pages,3 assistant-reviewed complete articles,0 partial,
   0 human-accepted. Next: inspect/map the second technical child beginning33,
   then continue the remaining June queue. Whole-issue completion is still pending.
+
+### Further test checkpoint, 2026-10-09
+
+- Restored second technical child opening33–38 in `batch-04-corrected`; full
+  extent33–47 verified visually. Includes40 text regions,11 retained images,
+  64 phoneme rows,11 timing rows and39 source-code rows. Continuation39–47 pending.
+- Native table inspection caught a split through one row; retained the first
+  40-call attempt and reran corrected maps. Both attempts are included in costs.
+  Corrected preparation took89.95s including rendering/startup; inference69.03s,
+  32,258local tokens, sampled peak GPU7,858MiB/RSS6,654MiB.
+- Five identical-crop tests show cleaner Qwen drafts but faster Tesseract raw
+  recognition (18.65s versus2.27s). Prose compact CER0.16%/14.08%, faint listing
+  0.62%/42.68%; table cells311/312 versus260/312. Eight ambiguous cells excluded.
+  Eng-only Tesseract table sensitivity gives265/312. References are assistant
+  scan-corrected Qwen-derived readings, not blinded independent human gold.
+- Export integrity,77 table-row ranges covering397 cells,39 listing rows, byte-identical rebuild,
+  40 cache hits with no new inference, and682 unchanged prior files verified.
+  No runtime code changes; existing144-test result is not a new test run.
+- Review: `private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md`.
+  [Matched measurements](docs/ocr-june-batch04-comparison.json) record limits.
+  Issue total20pages,3 complete/1 partial assistant-reviewed articles; all human
+  acceptance pending. Next checkpoint39–44, then45–47 and full assembly.

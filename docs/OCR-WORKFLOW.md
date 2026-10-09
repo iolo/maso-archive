@@ -260,3 +260,40 @@ All human acceptance is pending. Qwen sometimes modernized historical endings,
 smoothed a printed duplicate or substituted more plausible wording; correction
 records preserve the scan reading. Those findings support retaining semantic
 review against the original image even when raw OCR reads fluently.
+
+### June33–38: more difficult tables and photographed code
+
+The next six-page checkpoint is assistant-reviewed and exported, with64 phoneme
+rows,11 timing rows,39 sample-code rows and11 retained images. Small glyphs still
+require human decisions. [Private review entry](../private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md)
+links source crops, raw drafts, corrections and the human ledger. Full article
+extent33–47 is verified;39–47 remain queued.
+
+Five identical PNG crops were tested with the existing pinned Tesseract setup
+(OEM1/PSM6, kor+eng for prose/tables and eng for code), following Qwen inference.
+The references are assistant scan-corrected Qwen-derived readings prepared before
+seeing Tesseract output. This is a selected, unblinded diagnostic, not independent
+human gold or representative whole-issue accuracy.
+
+| Diagnostic | Qwen | Tesseract |
+| --- | ---: | ---: |
+| Two prose crops: compact CER,611 reference characters | 0.16% | 14.08% |
+| Faint code crop: compact CER,321 reference characters | 0.62% | 42.68% |
+| Phoneme table cells,8 uncertain cells excluded | 311/312 | 260/312 |
+| Five crops, raw engine seconds | 18.65 | 2.27 |
+
+Compact CER removes whitespace after NFC normalization. Cell comparison retains
+row order and uses five cells per row without inferred code repair. Qwen's sole
+scored cell difference is dash typography (em dash versus reference minus), not
+an established substantive error. An additional
+eng-only Tesseract table run scores265/312; its Korean example cells still count.
+[Full measurements and limits](ocr-june-batch04-comparison.json) include per-crop
+results, settings, image pins and sampled resources.
+
+Tesseract is faster at recognition on these crops. Qwen's cleaner drafts suggest
+less downstream correction work, but that effort and paid-token savings remain
+unmeasured. Corrected six-page Qwen preparation took89.95s including render/startup;
+69.03s was regional inference. An initial table-boundary attempt adds90.19s and is
+retained in [checkpoint accounting](ocr-june-progress.json). New geometry requires
+native-size boundary inspection; readable model output alone is not proof of a
+complete crop. No automatic acceptance or publication occurred.

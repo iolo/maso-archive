@@ -1,0 +1,381 @@
+{
+  "scope": "Five purposive matched crops from June33–38; one run per engine; not representative whole-issue accuracy or end-to-end speed.",
+  "reference_note": "Assistant scan-corrected Qwen-derived reference, prepared before seeing Tesseract results; not blinded or independent human gold. Cell diagnostics omit8 documented ambiguous glyphs; all raw readings retained.",
+  "rows": [
+    {
+      "region_id": "p33r05",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04-corrected/ocr/scan-maso-1984-06-toc-0003/ocr-page33/p33r05.png",
+        "sha256": "474978d7bce47c3065e24cec7f0de99c35ca5eb476da5092b45e21c36c52cbe3",
+        "bytes": 596813
+      },
+      "qwen_seconds": 3.533208041000762,
+      "tesseract_seconds": 0.7189244630026224,
+      "qwen_resources": {
+        "wall_seconds": 3.6696631380000326,
+        "cpu_seconds_sampled": 3.75,
+        "peak_rss_mib_sampled": 2010.45703125,
+        "peak_gpu_mib_sampled": 7804,
+        "samples": 31,
+        "gpu_samples": 31,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.772964432999288,
+        "cpu_seconds_sampled": 0.6399999999999999,
+        "peak_rss_mib_sampled": 102.5546875,
+        "peak_gpu_mib_sampled": null,
+        "samples": 7,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "debdbfe32624a2feda55fd37cbbbacdac22cb7570df0546acff746a7ac2ff2e6",
+        "bytes": 15083
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.010683760683760684,
+          "cer_edits": 5,
+          "cer_reference_chars": 468,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 363,
+          "wer": 0.09433962264150944
+        },
+        "tesseract": {
+          "cer": 0.10897435897435898,
+          "cer_edits": 51,
+          "cer_reference_chars": 468,
+          "cer_no_whitespace": 0.10743801652892562,
+          "cer_no_whitespace_edits": 39,
+          "cer_no_whitespace_reference_chars": 363,
+          "wer": 0.36792452830188677
+        }
+      }
+    },
+    {
+      "region_id": "p38r02",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04-corrected/ocr/scan-maso-1984-06-toc-0003/ocr-page38/p38r02.png",
+        "sha256": "8e24d4c54b5e7e0fc3b10281e81c206aa041f0174aa501adb7c6cb1fc36ed2f7",
+        "bytes": 400093
+      },
+      "qwen_seconds": 2.5982538150019536,
+      "tesseract_seconds": 0.5109511789996759,
+      "qwen_resources": {
+        "wall_seconds": 2.7091151700005867,
+        "cpu_seconds_sampled": 2.76,
+        "peak_rss_mib_sampled": 5742.0390625,
+        "peak_gpu_mib_sampled": 7858,
+        "samples": 23,
+        "gpu_samples": 23,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.5612529919999361,
+        "cpu_seconds_sampled": 0.51,
+        "peak_rss_mib_sampled": 96.71484375,
+        "peak_gpu_mib_sampled": null,
+        "samples": 6,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "debdbfe32624a2feda55fd37cbbbacdac22cb7570df0546acff746a7ac2ff2e6",
+        "bytes": 15083
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.006153846153846154,
+          "cer_edits": 2,
+          "cer_reference_chars": 325,
+          "cer_no_whitespace": 0.004032258064516129,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 248,
+          "wer": 0.02564102564102564
+        },
+        "tesseract": {
+          "cer": 0.19692307692307692,
+          "cer_edits": 64,
+          "cer_reference_chars": 325,
+          "cer_no_whitespace": 0.18951612903225806,
+          "cer_no_whitespace_edits": 47,
+          "cer_no_whitespace_reference_chars": 248,
+          "wer": 0.5769230769230769
+        }
+      }
+    },
+    {
+      "region_id": "p37r08",
+      "category": "table",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04-corrected/ocr/scan-maso-1984-06-toc-0003/ocr-page37/p37r08.png",
+        "sha256": "3186144a4d21bd1595cec349789e75dcf788f650ce291dae996c8176e7b4efb2",
+        "bytes": 379833
+      },
+      "qwen_seconds": 4.612853300997813,
+      "tesseract_seconds": 0.3462820249987999,
+      "qwen_resources": {
+        "wall_seconds": 4.723676106001221,
+        "cpu_seconds_sampled": 4.85,
+        "peak_rss_mib_sampled": 4998.6484375,
+        "peak_gpu_mib_sampled": 7858,
+        "samples": 39,
+        "gpu_samples": 39,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.3984905049983354,
+        "cpu_seconds_sampled": 0.24000000000000002,
+        "peak_rss_mib_sampled": 103.8203125,
+        "peak_gpu_mib_sampled": null,
+        "samples": 4,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "debdbfe32624a2feda55fd37cbbbacdac22cb7570df0546acff746a7ac2ff2e6",
+        "bytes": 15083
+      },
+      "engines": {
+        "qwen": {
+          "observed_rows": 32,
+          "expected_rows": 32,
+          "matched_cells": 155,
+          "compared_cells": 155,
+          "cell_accuracy": 1.0,
+          "excluded_candidate_cells": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              27,
+              2
+            ],
+            [
+              29,
+              2
+            ]
+          ],
+          "rule": "Compare five whitespace-delimited cells per nonblank physical row in source order; maxsplit4 preserves Korean example phrases. No inferred hex repair or row realignment."
+        },
+        "tesseract": {
+          "observed_rows": 32,
+          "expected_rows": 32,
+          "matched_cells": 125,
+          "compared_cells": 155,
+          "cell_accuracy": 0.8064516129032258,
+          "excluded_candidate_cells": [
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              27,
+              2
+            ],
+            [
+              29,
+              2
+            ]
+          ],
+          "rule": "Compare five whitespace-delimited cells per nonblank physical row in source order; maxsplit4 preserves Korean example phrases. No inferred hex repair or row realignment."
+        }
+      }
+    },
+    {
+      "region_id": "p37r09",
+      "category": "table",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04-corrected/ocr/scan-maso-1984-06-toc-0003/ocr-page37/p37r09.png",
+        "sha256": "44292e29d758efaf62cf37ec00a180d377e10b31f17917066d21a48be37d97bb",
+        "bytes": 393274
+      },
+      "qwen_seconds": 4.965762572999665,
+      "tesseract_seconds": 0.3464133769994078,
+      "qwen_resources": {
+        "wall_seconds": 5.07778045699888,
+        "cpu_seconds_sampled": 5.209999999999994,
+        "peak_rss_mib_sampled": 5381.20703125,
+        "peak_gpu_mib_sampled": 7858,
+        "samples": 42,
+        "gpu_samples": 42,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.39595503300006385,
+        "cpu_seconds_sampled": 0.23,
+        "peak_rss_mib_sampled": 103.7421875,
+        "peak_gpu_mib_sampled": null,
+        "samples": 4,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "debdbfe32624a2feda55fd37cbbbacdac22cb7570df0546acff746a7ac2ff2e6",
+        "bytes": 15083
+      },
+      "engines": {
+        "qwen": {
+          "observed_rows": 32,
+          "expected_rows": 32,
+          "matched_cells": 156,
+          "compared_cells": 157,
+          "cell_accuracy": 0.9936305732484076,
+          "excluded_candidate_cells": [
+            [
+              7,
+              2
+            ],
+            [
+              12,
+              2
+            ],
+            [
+              20,
+              1
+            ]
+          ],
+          "rule": "Compare five whitespace-delimited cells per nonblank physical row in source order; maxsplit4 preserves Korean example phrases. No inferred hex repair or row realignment."
+        },
+        "tesseract": {
+          "observed_rows": 32,
+          "expected_rows": 32,
+          "matched_cells": 135,
+          "compared_cells": 157,
+          "cell_accuracy": 0.8598726114649682,
+          "excluded_candidate_cells": [
+            [
+              7,
+              2
+            ],
+            [
+              12,
+              2
+            ],
+            [
+              20,
+              1
+            ]
+          ],
+          "rule": "Compare five whitespace-delimited cells per nonblank physical row in source order; maxsplit4 preserves Korean example phrases. No inferred hex repair or row realignment."
+        }
+      }
+    },
+    {
+      "region_id": "p38r06",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04-corrected/ocr/scan-maso-1984-06-toc-0003/ocr-page38/p38r06.png",
+        "sha256": "d62147c3c41eb8f8a1e0f61cb7736229f2d68134d755d88996a503e9f2ab0681",
+        "bytes": 893011
+      },
+      "qwen_seconds": 2.94315269100116,
+      "tesseract_seconds": 0.3426387440013059,
+      "qwen_resources": {
+        "wall_seconds": 3.1406054840008437,
+        "cpu_seconds_sampled": 3.189999999999987,
+        "peak_rss_mib_sampled": 6654.2109375,
+        "peak_gpu_mib_sampled": 7858,
+        "samples": 27,
+        "gpu_samples": 27,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.3934911570031545,
+        "cpu_seconds_sampled": 0.2399999999999999,
+        "peak_rss_mib_sampled": 86.015625,
+        "peak_gpu_mib_sampled": null,
+        "samples": 4,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "debdbfe32624a2feda55fd37cbbbacdac22cb7570df0546acff746a7ac2ff2e6",
+        "bytes": 15083
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.005050505050505051,
+          "cer_edits": 2,
+          "cer_reference_chars": 396,
+          "cer_no_whitespace": 0.006230529595015576,
+          "cer_no_whitespace_edits": 2,
+          "cer_no_whitespace_reference_chars": 321,
+          "wer": 0.02631578947368421
+        },
+        "tesseract": {
+          "cer": 0.3787878787878788,
+          "cer_edits": 150,
+          "cer_reference_chars": 396,
+          "cer_no_whitespace": 0.42679127725856697,
+          "cer_no_whitespace_edits": 137,
+          "cer_no_whitespace_reference_chars": 321,
+          "wer": 0.881578947368421
+        }
+      }
+    }
+  ],
+  "totals": {
+    "qwen_inference_seconds": 18.653230421001354,
+    "tesseract_engine_seconds": 2.265209788001812,
+    "human_review_seconds": null,
+    "paid_model_token_savings": null
+  },
+  "table_language_sensitivity": [
+    {
+      "region_id": "p37r08",
+      "languages": "eng",
+      "matched_cells": 126,
+      "compared_cells": 155,
+      "observed_rows": 32,
+      "engine_seconds": 0.2606425859994488,
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04-corrected/ocr/scan-maso-1984-06-toc-0003/ocr-page37/p37r08.png",
+        "sha256": "3186144a4d21bd1595cec349789e75dcf788f650ce291dae996c8176e7b4efb2",
+        "bytes": 379833
+      },
+      "note": "Same cell rule/exclusions as primary comparison; Korean examples still count."
+    },
+    {
+      "region_id": "p37r09",
+      "languages": "eng",
+      "matched_cells": 139,
+      "compared_cells": 157,
+      "observed_rows": 32,
+      "engine_seconds": 0.26941095700021833,
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04-corrected/ocr/scan-maso-1984-06-toc-0003/ocr-page37/p37r09.png",
+        "sha256": "44292e29d758efaf62cf37ec00a180d377e10b31f17917066d21a48be37d97bb",
+        "bytes": 393274
+      },
+      "note": "Same cell rule/exclusions as primary comparison; Korean examples still count."
+    }
+  ],
+  "interpretation": "The sole scored Qwen table-cell difference is a dash representation (raw em dash versus reference minus), not an established substantive source error. Table cell matches are diagnostic agreement with a rendered transcription, not verified ASCII bytes."
+}

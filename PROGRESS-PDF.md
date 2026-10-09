@@ -11520,3 +11520,39 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Issue total:3 complete assistant-reviewed articles,14 pages,0 human accepted.
   Next: second technical child beginning33, then remaining June queue. Full issue,
   human acceptance and publication remain pending.
+
+## 2026-10-09 — June Qwen phoneme opening33–38 and matched-crop tests
+
+- Visually inspected33–52. Second technical article spans33–47: prose/references
+  close40, main listing and symbol index close47;48–50 are advertisements,51
+  section divider,52 next article. Mapped six-page opening33–38 separately.
+- Completed40 text regions and11 original image crops. Native table inspection
+  caught clipping at1F/20 boundary after the first run; retained batch-04 and
+  used batch-04-corrected with the repaired split. Both40-call costs retained.
+- Assistant source corrections cover headings/prose, formulas/subscripts, source
+  misspellings,11 timing rows with empty cells,64 phoneme rows and39 code rows.
+  Restored displaced comment/banner rows and binary-digit/asterisk omissions.
+  Ten small table-glyph candidates explicitly await human review. Original
+  address/object columns preserved in assembler image; machine bytes unverified.
+- Corrected run elapsed89.95s including rendering/startup/export; regional inference
+  69.03s,27,025prompt+5,233output local tokens. Initial attempt adds90.19s elapsed /
+  69.09s regional inference and32,258tokens. Peak GPU7,858MiB/RSS6,654MiB sampled.
+- Tested five identical PNG crops against pinned Tesseract: two prose, two table
+  halves, one faint code crop. Raw Tesseract2.27s versus Qwen18.65s; Qwen accuracy
+  diagnostic is better: weighted compact prose CER0.16% versus14.08%, code0.62%
+  versus42.68%, table311/312 versus260/312 cells. Eight ambiguous cells excluded.
+  Additional eng-only table test265/312, so language choice does not erase gap.
+- References were assistant scan-corrected Qwen-derived drafts, prepared before
+  Tesseract inspection, not blinded independent human gold. One run per crop,
+  different CPU/GPU resources, selected samples, no end-to-end speedup or actual
+  human-time/paid-token savings claim. Agent elapsed window recorded separately.
+- Verified80 stage manifests/stop reasons,77 row ranges covering397 cells,39 consecutive
+  source rows, matching input-image hashes, fresh byte-identical export rebuild,
+  40 cached stages/zero new inference/server, and682 unchanged prior files.
+  No pipeline code change or repeated unit suite in this checkpoint.
+- Review:`private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md`.
+  Export:`build/pdf-restoration/12-1984-06-qwen-batch-04-corrected/phoneme-synthesis/`.
+  Tracked sanitized comparison:`docs/ocr-june-batch04-comparison.json`.
+- Issue totals20source pages,3 complete+1 partial assistant-reviewed articles,
+  zero human accepted. Next39–44, then45–47 and complete-article assembly.
+  User's existing web/package.json edit remains excluded.
