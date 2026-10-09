@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 44,
-    "completed_articles": 9,
+    "completed_articles": 10,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 9,
+    "assistant_reviewed_complete_articles": 10,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 47,
+    "processed_source_pages": 53,
     "non_owning_headings": 1
   },
   "processed_source_pages": [
@@ -57,7 +57,13 @@
     66,
     67,
     68,
-    69
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
   ],
   "checkpoints": [
     {
@@ -896,14 +902,71 @@
         "sha256": "9390e94ce1fbe4310cda1cc9789080e967e9ae1291f426a2135e01e9a1691d7b",
         "bytes": 3042
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-12/apple-auto-tape-source-checked/article.json",
+        "sha256": "b16619468ce618a07dd1b099b0743d1178e8fc6606ed261cea41019a57265171",
+        "bytes": 127808
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-12/apple-auto-tape-source-checked/manifest.json",
+        "sha256": "77cfa78898cf18c5dec201d7adeb147fbc4fc815e6ae5fa852e12f13419cec59",
+        "bytes": 48294
+      },
+      "source_pages": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "regions": 81,
+      "text_regions": 68,
+      "figures": 13,
+      "physical_listing_rows": 71,
+      "logical_listing_rows": 3,
+      "unresolved_entries": 8,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 68
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-12",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 68,
+        "inference_wall_seconds": 84.6788466270009,
+        "local_prompt_tokens": 36677,
+        "local_output_tokens": 7072,
+        "peak_gpu_mib_sampled": 7844,
+        "peak_rss_mib_sampled": 8222.58984375,
+        "raw_run_elapsed_seconds": 109.6718005799994
+      },
+      "resume": {
+        "cache_hits": 68,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-12/tesseract-comparison/comparison.json",
+        "sha256": "465d0c5865784bdc0a3b6ae235be159d4eaecc4200c41c31ebcbf1544ffbea01",
+        "bytes": 3006
+      }
     }
   ],
-  "next": "Restore Apple automatic BASIC tape70–75, then remaining June queue; eight-article reader preview available.",
+  "next": "Restore numbers game76–78 with separate Hangul/English listings, then remaining June queue.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "968673a8ba106701b37386b83577dab6f0ca91908dc8057e80ee57370fc3537e",
-    "bytes": 20832
+    "sha256": "23ceae71f6160b730710c554441786529db77d555d036144c58483b016f9b580",
+    "bytes": 21186
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",

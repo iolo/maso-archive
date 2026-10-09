@@ -325,3 +325,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   next grouped refresh; human acceptance remains pending for every June article.
 - June totals47 article source pages,9 complete articles,one non-owning heading.
   Continue Apple automatic tape70–75, then all remaining eligible June articles.
+
+### Apple tape checkpoint, 2026-10-09
+
+- Batch12 completes 자동실행 베이직 프로그램 제작법70–75:68 text regions,
+  13 original images,71 physical code rows. Three BASIC statements are indexed as
+  numbered lines; disassembly addresses, monitor prompts and hex rows are separate
+  unnumbered source rows. Flowchart text follows source steps; original geometry
+  remains available. Eight source/glyph candidates remain pending human review.
+- All57 program bytes match independently between the printed64-byte memory dump
+  and28-instruction disassembly. Seven trailing zero bytes retained. Printed0307
+  operand$E0 contradicts byteB0; preserved rather than regenerated. Other printed
+  address, length and BSAVE discrepancies also remain explicit review items.
+- Preparation109.67s; inference84.68s;43,749 local tokens; sampled GPU7,844MiB /
+  RSS8,223MiB. Fixed hex-dump sample compact CER0% versus55.95% Tesseract against
+  assistant reference. This is one selected crop, not an execution/accuracy claim.
+  RSS was higher over this68-call batch; bounded process lifetimes remain useful.
+-68 cached stages/zero calls; native export and rebuild byte-identical, all source
+  ranges checked. Enlarged recheck preserved source typo 베이지 rather than an
+  inferred correction. Promote apple-auto-tape-source-checked; first export retained.
+- June totals53 article source pages,10 complete articles,one non-owning heading,
+  zero human accepted. Reader currently covers the first eight; continue numbers
+  game76–78 with distinct Korean/English listings, then the rest of the issue.
