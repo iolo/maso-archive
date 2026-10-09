@@ -805,3 +805,18 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Totals184 source pages,34 complete assistant-reviewed articles,four non-owning
   headings,zero human accepted. Grouped preview through letters is staging.
   Next: Q&A219–221; history222–244; appendix245–249; ad index250.
+
+### Q&A checkpoint, 2026-10-10
+
+- Batch37 completes Q&A219–221:61 text regions,one illustration,14 separate
+  listing groups,37 physical rows/18 numbered rows,eleven human-review flags.
+  Scan corrections include MERGE brackets, Korean words and superscript math;
+  printed TETS, 00A0H, hex-address gap, LIST letter O and a dubious leading dot
+  remain visible for review. Historical technical claims were not repaired.
+- Raw64.21s,inference46.70s,27,510 local tokens,GPU7,802MiB/RSS5,668MiB sampled.
+  No failed calls. Fixed prose/hex/BASIC compact CER0%/0%/0% versus Tesseract
+  7.45%/88.13%/26.67%. Unblinded assistant reference; not human-gold accuracy.
+-61 cache hits/zero new calls; export/rebuild, UTF-8 and explicit source-row checks
+  passed. Totals187 source pages,35 complete assistant-reviewed articles,four
+  non-owning headings,zero human accepted. History222–244 is next in two batches,
+  followed by appendix245–249,ad index250 and remaining heading classifications.

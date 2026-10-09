@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 45,
-    "completed_articles": 34,
+    "completed_articles": 35,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 34,
+    "assistant_reviewed_complete_articles": 35,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 184,
+    "processed_source_pages": 187,
     "non_owning_headings": 4
   },
   "processed_source_pages": [
@@ -194,7 +194,10 @@
     213,
     214,
     215,
-    216
+    216,
+    219,
+    220,
+    221
   ],
   "checkpoints": [
     {
@@ -2469,14 +2472,68 @@
         "sha256": "b262c86074b9954ed029ab84fd8589396d41f01996033e773324a3430a996f7a",
         "bytes": 7650
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-37/questions-answers/article.json",
+        "sha256": "b4ae3baa49eecbfa0170fc48a70c7ebe05acdc739fd9b62767d52c7cc317b29c",
+        "bytes": 102438
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-37/questions-answers/manifest.json",
+        "sha256": "360bc1f3e4a89bfca5749a66c409de3584b14f479d4b4654fb002311bb67415e",
+        "bytes": 42281
+      },
+      "source_pages": [
+        219,
+        220,
+        221
+      ],
+      "regions": 62,
+      "text_regions": 61,
+      "figures": 1,
+      "physical_listing_rows": 37,
+      "logical_listing_rows": 18,
+      "unresolved_entries": 11,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 61
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-37",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 61,
+        "inference_wall_seconds": 46.69922165202297,
+        "local_prompt_tokens": 23435,
+        "local_output_tokens": 4075,
+        "peak_gpu_mib_sampled": 7802,
+        "peak_rss_mib_sampled": 5667.625,
+        "raw_run_elapsed_seconds": 64.21285781900224
+      },
+      "resume": {
+        "cache_hits": 61,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-37/tesseract-comparison/comparison.json",
+        "sha256": "e73004e167a1d05863f4f068a81ccb97e7a2d53d5383258c5f33ad06c2e67da6",
+        "bytes": 7632
+      }
     }
   ],
-  "next": "Q&A219–221; then computer-industry history222–244, contest appendix245–249 and ad index250.",
+  "next": "History222–244 in two mapped batches, then appendix245–249, adindex250, remaining heading classifications and full-issue human-review reader.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "5e49f1a953590344e900f6b8f3d3d7e12f486862aa7a6832986213a3a7887bba",
-    "bytes": 30940
+    "sha256": "967fc78d516a3bfc5e4e8aadfa198b9377698591d361d54a00c7a83f5a011fa6",
+    "bytes": 31310
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",
