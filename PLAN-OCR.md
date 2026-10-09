@@ -463,3 +463,21 @@ commit code/documentation. Do not count a partial opening as a complete article.
   the tab. Dataset/source pins, unchanged prior collection and production build
   checked; browser source/correction view verified, screenshot inspected. Z80 is
   ready for a later grouped refresh. Continue LOGO starting108 and remaining queue.
+
+### LOGO checkpoint and TOC reconciliation, 2026-10-09
+
+- Batch18 completes LOGO108–112:75 text regions,11 original images,83 physical
+  code rows in16 groups,10 unresolved readings. Preserved source COUNTDOWOWN,
+  LEGNTH, missing END and prose spelling mistakes; no executable repair.
+- Raw preparation80.33s; inference40.06s;26,959 local tokens; sampled GPU7,788MiB /
+  RSS5,468MiB. Fixed definition compact CER1.28% versus12.82% Tesseract;
+  TREE0% versus3.13%; FLUFF0% versus3.70%. Assistant-derived unblinded reference,
+  not independent human gold; literal blanks unscored, total human effort unknown.
+-75 cache hits/zero new calls; export/rebuild and text/review/listing byte ranges
+  verified. June totals87 article source pages,16 complete assistant-reviewed
+  articles,two classified non-owning headings,zero human accepted.
+- Reconciled historical44-entry restoration queue with canonical45-entry TOC:
+  added pending 읽을거리 heading0045; corrected0035 title and parent projection.
+  Original queue retained, current queue and reconciliation evidence separately pinned.
+  Final closeout must account for all45 entries. Reader remains14 articles pending
+  next grouped refresh. Continue graphics animation113 onward.

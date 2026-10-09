@@ -1,0 +1,190 @@
+{
+  "scope": "Preselected identical-region PNGs; one run per engine; no whole-issue or end-to-end speed claim.",
+  "reference_note": "Assistant scan-corrected Qwen-derived reference fixed before Tesseract; unblinded, not independent human gold. Faint code glyph candidates remain. Compact CER ignores all whitespace including literal spaces. BASIC physical wrapping retained; no strict numbered-row metric in this batch.",
+  "settings": {
+    "qwen": "Existing local8B UD-Q4_K_XL GPU99 ctx8192 imagecap4096 deterministic raw prompt",
+    "tesseract": "Pinned5.5 OEM1 PSM6 OMP_THREAD_LIMIT1; per-row pinned language setting; defaults eng code, kor+eng prose"
+  },
+  "rows": [
+    {
+      "region_id": "p109r05",
+      "category": "prose",
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-18/ocr/scan-maso-1984-06-toc-0017/ocr-page109/p109r05.png",
+        "sha256": "33a5eca51673b42e8965777742809d6f887679922bb55bb3d758b6f3779926be",
+        "bytes": 187987
+      },
+      "qwen_seconds": 0.7447584670007927,
+      "tesseract_seconds": 0.21511761500005377,
+      "qwen_resources": {
+        "wall_seconds": 0.8261051640001824,
+        "cpu_seconds_sampled": 0.8200000000000012,
+        "peak_rss_mib_sampled": 1902.45703125,
+        "peak_gpu_mib_sampled": 7752,
+        "samples": 8,
+        "gpu_samples": 8,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.2689872600021772,
+        "cpu_seconds_sampled": 0.09,
+        "peak_rss_mib_sampled": 95.00390625,
+        "peak_gpu_mib_sampled": null,
+        "samples": 3,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "36f420945a679dc3b4a2c206ac6255473fbf3e229762be1637c17bbc9d218e61",
+        "bytes": 10090
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.010638297872340425,
+          "cer_edits": 1,
+          "cer_reference_chars": 94,
+          "cer_no_whitespace": 0.01282051282051282,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 78,
+          "wer": 0.11764705882352941
+        },
+        "tesseract": {
+          "cer": 0.1702127659574468,
+          "cer_edits": 16,
+          "cer_reference_chars": 94,
+          "cer_no_whitespace": 0.1282051282051282,
+          "cer_no_whitespace_edits": 10,
+          "cer_no_whitespace_reference_chars": 78,
+          "wer": 0.8823529411764706
+        }
+      }
+    },
+    {
+      "region_id": "p111r13",
+      "category": "code",
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-18/ocr/scan-maso-1984-06-toc-0017/ocr-page111/p111r13.png",
+        "sha256": "00568d483dc6034685a6f27291a5692355430d0d87f18bbc92f949ba173009cd",
+        "bytes": 339518
+      },
+      "qwen_seconds": 0.886939281001105,
+      "tesseract_seconds": 0.1368880590016488,
+      "qwen_resources": {
+        "wall_seconds": 1.0082149890004075,
+        "cpu_seconds_sampled": 0.9899999999999984,
+        "peak_rss_mib_sampled": 4936.9765625,
+        "peak_gpu_mib_sampled": 7788,
+        "samples": 9,
+        "gpu_samples": 9,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.18575475399848074,
+        "cpu_seconds_sampled": 0.1,
+        "peak_rss_mib_sampled": 82.3515625,
+        "peak_gpu_mib_sampled": null,
+        "samples": 3,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "36f420945a679dc3b4a2c206ac6255473fbf3e229762be1637c17bbc9d218e61",
+        "bytes": 10090
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 154,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 128,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.045454545454545456,
+          "cer_edits": 7,
+          "cer_reference_chars": 154,
+          "cer_no_whitespace": 0.03125,
+          "cer_no_whitespace_edits": 4,
+          "cer_no_whitespace_reference_chars": 128,
+          "wer": 0.2962962962962963
+        }
+      }
+    },
+    {
+      "region_id": "p112r12",
+      "category": "code",
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-18/ocr/scan-maso-1984-06-toc-0017/ocr-page112/p112r12.png",
+        "sha256": "44468366dcd63be7dd57197eada19fd00d75a5cea9c9434ff1a9b0673786c158",
+        "bytes": 69050
+      },
+      "qwen_seconds": 0.4596195069971145,
+      "tesseract_seconds": 0.0829532179996022,
+      "qwen_resources": {
+        "wall_seconds": 0.5354661840028712,
+        "cpu_seconds_sampled": 0.48999999999999666,
+        "peak_rss_mib_sampled": 5467.84765625,
+        "peak_gpu_mib_sampled": 7788,
+        "samples": 6,
+        "gpu_samples": 6,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.13638974800414871,
+        "cpu_seconds_sampled": 0,
+        "peak_rss_mib_sampled": 42.16015625,
+        "peak_gpu_mib_sampled": null,
+        "samples": 2,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "36f420945a679dc3b4a2c206ac6255473fbf3e229762be1637c17bbc9d218e61",
+        "bytes": 10090
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 67,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 54,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.029850746268656716,
+          "cer_edits": 2,
+          "cer_reference_chars": 67,
+          "cer_no_whitespace": 0.037037037037037035,
+          "cer_no_whitespace_edits": 2,
+          "cer_no_whitespace_reference_chars": 54,
+          "wer": 0.14285714285714285
+        }
+      }
+    }
+  ],
+  "totals": {
+    "qwen_inference_seconds": 2.091317254999012,
+    "tesseract_engine_seconds": 0.4349588920013048,
+    "human_active_review_seconds": null,
+    "paid_model_tokens": null
+  }
+}
