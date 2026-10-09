@@ -731,3 +731,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
   assistant-reviewed articles,four non-owning headings,zero human accepted.
 - Grouped reader refresh through graphic editor is building. Next article is
   한글 소트199–204; figures and crop edges checked before inference.
+
+### Hangul sort and reader refresh, 2026-10-10
+
+- Batch33 completes 한글 소트199–204:99 text regions,nine source images,
+  three listing groups,133 physical rows,127 numbered rows,eleven review flags.
+  Preserved printed DATA space marks as visible U+2423 candidates, jamo, physical
+  wraps and original inconsistencies. Counted rule lengths and checked literal
+  padding against scans; original encoding and executable correctness unverified.
+- Raw122.38s,inference94.58s,54,870 local tokens; GPU7,800MiB/RSS9,750MiB sampled.
+  No failed calls. Fixed prose/DATA/BASIC compact CER0%/5.90%/1.22% versus
+  Tesseract4.35%/16.24%/37.80%. Code baseline uses eng, including the Korean-literal
+  sample; this limits comparison. Unblinded assistant reference, not human gold.
+-99 cache hits/zero new calls; export,rebuild,source-row coverage and UTF-8 checks
+  passed. Totals172 source pages,31 complete assistant-reviewed articles,four
+  non-owning headings,zero human accepted. Next: computer rebellion205–209.
+- Grouped reader now contains30 complete articles through graphic editor at4187.
+  Fresh staging preserved prior files and scanInputs; full integrity and production
+  build passed. Browser issue count, BASIC scan/correction and contest table row
+  checked, screenshots viewed. Hangul sort awaits the next grouped refresh.
