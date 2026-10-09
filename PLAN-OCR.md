@@ -640,3 +640,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Totals142 source pages,25 complete assistant-reviewed articles,four non-owning
   headings,zero human accepted. Technical divider171 classified, children retained.
   Next: design tutorial172–181 and grouped reader refresh, then remaining issue.
+
+### Microcomputer design checkpoint, 2026-10-10
+
+- Batch28 completes 마이크로 컴퓨터 설계 강좌172–181:114 text regions,
+  sixteen images,eleven review flags. Schematics and main pin/parts tables remain
+  source images. Restored cross-column sentences, active-low overbars and the small
+  address/data table; retained printed SPEP/SETP and unusual technical wording.
+- One paragraph failed with4096 repeated U+2060 escape tokens. Its response is
+  preserved. Splitting it into three crops succeeded;103 completed stages reused
+  after exact image/runtime checks. The barred WR/RD line still required scan
+  correction. Final114-stage inference103.05s;55,976 successful local tokens plus
+  4,674 failed-call tokens. Failed server prompt+generation38.71s. Recovery wall
+  time36.85s is **only the recovery pass**; initial aborted wall time is unavailable.
+  Sampled successful-stage peaks GPU7,794MiB/RSS8,947MiB.
+- Fixed prose/prose/table compact CER0%/0%/59.68%, versus4.92%/30.67%/54.84%
+  Tesseract. Table score includes annotation reading-order differences and is not
+  a pure glyph metric. References remain unblinded assistant transcriptions;
+  no human accuracy or end-to-end productivity claim.
+-114 cache hits/zero new calls; export/rebuild and UTF-8 indexes verified. Totals
+  152 source pages,26 complete assistant-reviewed articles,four non-owning headings,
+  zero human accepted. Grouped preview refresh underway. Scan inspection establishes
+  relocator182–185 and classifieds186; earlier estimated188 is not the actual body.
