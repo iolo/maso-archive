@@ -620,3 +620,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
 -118 cache hits/zero new calls on final resume; export/rebuild, UTF-8 indexes and
   complete listing coverage verified. Totals134 source pages,24 complete assistant-
   reviewed articles,three non-owning headings,zero human accepted. VISICALC next.
+
+### VISICALC checkpoint, 2026-10-10
+
+- Batch27 completes VISICALC 활용162–169:130 text regions,three output images,
+  three BASIC listings,454 physical rows,346 numbered statements,14 review flags.
+  Restored keyboard symbols, physical wraps, WDTH and scan-counted asterisks.
+  Faint Korean dealer names remain candidates; printed RETUF, missing assignment,
+  inconsistent formula labels and RETURN-before-NEXT retained without repair.
+- Widened one prose crop that omitted wrapped-line 하. Initial130-call run plus
+  one corrected inference took174.52s;129 unchanged stages reused only after exact
+  image/runtime verification. Final-stage inference115.73s excludes superseded crop;
+  final65,892 local tokens,sampled GPU7,822MiB/RSS10,083MiB. No failed inference.
+- Fixed prose/BASIC/Hangul-DATA compact CER0%/5.52%/5.98%, versus13.85%/31.03%/
+  55.56% Tesseract. Korean DATA uses kor+eng, chosen before Tesseract output.
+  Unblinded assistant references; faint names and ignored literal whitespace limit
+  these diagnostics. No independent human or end-to-end productivity claim.
+-130 cache hits/zero new calls; rebuild, UTF-8 indexes and listing coverage passed.
+  Totals142 source pages,25 complete assistant-reviewed articles,four non-owning
+  headings,zero human accepted. Technical divider171 classified, children retained.
+  Next: design tutorial172–181 and grouped reader refresh, then remaining issue.
