@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 44,
-    "completed_articles": 6,
+    "completed_articles": 8,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 6,
+    "assistant_reviewed_complete_articles": 8,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 37,
+    "processed_source_pages": 43,
     "non_owning_headings": 1
   },
   "processed_source_pages": [
@@ -47,7 +47,13 @@
     56,
     57,
     58,
-    59
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
   ],
   "checkpoints": [
     {
@@ -723,14 +729,122 @@
         "sha256": "39e34469afef84bea7c5404a0b3b553f130fc3b1f4a71cef14b0366a8c7d2425",
         "bytes": 5215
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-09/space-animation/article.json",
+        "sha256": "9c75d786fb1fa156cffb6b888ee15fd9b9e71f805b16912a1e9d9bb230251250",
+        "bytes": 57672
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-09/space-animation/manifest.json",
+        "sha256": "0c18aa4fbc8e6f4a8d9962e45fd83630245350b1896f381cb6f4b4fdf018c012",
+        "bytes": 19963
+      },
+      "source_pages": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "regions": 35,
+      "text_regions": 26,
+      "figures": 9,
+      "physical_listing_rows": 109,
+      "logical_listing_rows": 106,
+      "unresolved_entries": 6,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 26
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-09",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 26,
+        "inference_wall_seconds": 57.126952045997314,
+        "local_prompt_tokens": 18946,
+        "local_output_tokens": 5068,
+        "peak_gpu_mib_sampled": 7820,
+        "peak_rss_mib_sampled": 5262.96484375,
+        "raw_run_elapsed_seconds": 75.62036207900019
+      },
+      "resume": {
+        "cache_hits": 26,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-09/tesseract-comparison/comparison.json",
+        "sha256": "6eda5ef48b0ad9d8566a62e77245bbbaa8a514c30e8439f673faf5623e8c6270",
+        "bytes": 3043
+      }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-10/orchard/article.json",
+        "sha256": "44ab0707c8b5646d962637dfe8379b9c88125b4739aa8b404e0d59abe1f9869c",
+        "bytes": 24355
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-10/orchard/manifest.json",
+        "sha256": "de1decf3bcaca2846515ead4829b39723d06f3b9bcaa06075e10da7c692a9c7b",
+        "bytes": 8450
+      },
+      "source_pages": [
+        64,
+        65
+      ],
+      "regions": 13,
+      "text_regions": 10,
+      "figures": 3,
+      "physical_listing_rows": 69,
+      "logical_listing_rows": 59,
+      "unresolved_entries": 3,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 10
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-10",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 10,
+        "inference_wall_seconds": 25.166897752995283,
+        "local_prompt_tokens": 10350,
+        "local_output_tokens": 2019,
+        "peak_gpu_mib_sampled": 7822,
+        "peak_rss_mib_sampled": 3427.71875,
+        "raw_run_elapsed_seconds": 37.11122612100007
+      },
+      "resume": {
+        "cache_hits": 10,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-10/tesseract-comparison/comparison.json",
+        "sha256": "3f1b5cd718164004a6a608f23357a298623c9baa7e548e0942c3829f51eb8765",
+        "bytes": 3054
+      }
     }
   ],
-  "next": "Restore space animation article60–63, then continue all remaining June entries; private reader refresh after grouped completion.",
+  "next": "Restore SPC-1000 automatic tape66–69, then remaining June queue; refresh grouped reading-room preview.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "c854888a2b2101248e3e237f8d53dc90767c81eb03659bf9d4d62873dfe6bb5e",
-    "bytes": 19903
+    "sha256": "45ef988e8447487fede840d02607e233484d849ab086d41c43a578bc8a8d4d3d",
+    "bytes": 20501
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",

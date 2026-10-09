@@ -282,3 +282,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   rerun. Use clock-study-indexed and maze-game-indexed packages going forward.
 - June totals37 article source pages,6 complete articles,one non-owning heading,
   zero human accepted. Continue space animation60–63, then remaining June queue.
+
+### Space and orchard checkpoints, 2026-10-09
+
+- Batch09 completes 우주 유영60–63:26 text regions,9 original images,109 physical
+  code rows/106 numbered statements in two separate listings. Restored a missing
+  repeated E0 in1820 and four nonzero bytes replaced by zeros in1920; preserved
+  source defects in the short example and marked six candidate readings.
+- Preparation75.62s; inference57.13s;24,014 local tokens; sampled GPU7,820MiB /
+  RSS5,263MiB. Selected DATA compact CER0.45% versus23.48% Tesseract.26 cached
+  stages/zero calls. Original diagrams retain their embedded cell labels as images.
+- Batch10 completes 과수원64–65:10 text regions,3 original images,69 physical
+  rows/59 statements. Restored a missing520 tail and all530 even though Qwen
+  returned a normal stop; corrected hex zero/O readings and physical wraps.
+  Three source candidates remain, including quoted spaces and a color glyph.
+- Preparation37.11s; inference25.17s;12,369 local tokens; sampled GPU7,822MiB /
+  RSS3,428MiB. Fixed PATTERN/ending sample compact CER7.94% versus34.71%; omissions
+  are included in this score.10 cached stages/zero calls. Normal completion is
+  not evidence of complete transcription; printed line labels are checked directly.
+- Both native exports reproduce byte-for-byte; integrity, text/review UTF-8 ranges,
+  listing byte coverage and all36 raw stop reasons checked. Comparisons remain
+  unblinded assistant-reference diagnostics, not independent human gold.
+- June totals43 article source pages,8 complete articles,one non-owning heading,
+  zero human accepted. Continue SPC-1000 automatic tape66–69 and remaining queue.
