@@ -833,3 +833,17 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - New manifest8d1f93b99103efc869d7c229b4b72e41c8d2a2341785d84ec627c7664a806aac.
   No frontend changes; the user's homepage edit remains untouched and uncommitted.
   Q&A is complete but awaits the next grouped/final reader; history OCR underway.
+
+### History opening checkpoint, 2026-10-10
+
+- Batch38 restores history222–233 as a partial package:167 text regions,eleven
+  original images (including the star-rating comparison),25 explicit prose/title
+  joins,eight review flags. Sidebars and interview continuations retain reading
+  order around images. Printed claims/names remain unmodernized.
+- Raw225.16s,inference160.33s,93,238 local tokens,GPU7,802MiB/RSS10,343MiB sampled.
+  No failed calls. Three fixed prose samples compact CER0%/0%/0% versus9.09%/
+  11.90%/12.26%; unblinded assistant reference, not human-gold evidence.
+-167 cache hits/zero new calls; export/rebuild and UTF-8 ranges passed.
+  Totals199 source pages,35 complete articles plus one partial,four non-owning
+  headings,zero human accepted. History ending234–244 is running; assembly will
+  join the preserved segments before staging. Reader remains34 articles.
