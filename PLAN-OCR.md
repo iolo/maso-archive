@@ -790,3 +790,18 @@ commit code/documentation. Do not count a partial opening as a complete article.
   four non-owning headings,zero human accepted. Reader remains30 articles.
   Next: 메아리214–216 (two contributions), then Q&A219–221. Pages217–218
   are advertisements; page221 continues Q&A, not a reading-section divider.
+
+### Readers letters checkpoint, 2026-10-10
+
+- Batch36 completes 메아리214–216, including SERPENT-alpha corrections and the
+  Apple lowercase technique:54 text regions,one memory diagram,four listing
+  groups,16 physical rows,nine numbered rows,eight review flags. Joined split
+  prose and CTRL-R across columns. Preserved historical advice, spellings and
+  repeated SCRN$ coordinates; filled-square literal is a Unicode visual candidate.
+- Raw53.24s,inference37.88s,24,348 local tokens,GPU7,806MiB/RSS5,161MiB sampled.
+  No failed calls. Fixed prose/condition/BASIC compact CER0%/2.53%/0% versus
+ 11.63%/11.39%/19.44%; unblinded assistant reference, no human-gold claim.
+-54 cache hits/zero new calls; export/rebuild, UTF-8 and listing row checks passed.
+  Totals184 source pages,34 complete assistant-reviewed articles,four non-owning
+  headings,zero human accepted. Grouped preview through letters is staging.
+  Next: Q&A219–221; history222–244; appendix245–249; ad index250.
