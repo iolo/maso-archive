@@ -601,3 +601,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
   integrity and production build passed. Browser checked Information Radar article
   and side-by-side fee-table region; screenshot viewed. Full browser reload needed
   to discard the previous in-memory catalog. VISISUM awaits next grouped refresh.
+
+### Medical-insurance program checkpoint, 2026-10-10
+
+- Batch26 completes 의료보험 수가계산155–161:118 text regions,two images,
+  five listing groups,223 physical rows,168 numbered statements and11 unresolved
+  items. Kept the four printed variations separate with their explicitly omitted
+  shared continuations. Boxed arrows transcribed as bracketed arrows; inconsistent
+  variable descriptions and printed identifiers preserved. No program execution.
+- Corrected one boundary crossing a Korean string. Two changed crops re-inferred;
+  116 other stages reused after exact image/runtime verification. Initial118-call
+  pass153.75s plus recovery27.28s gives181.03s raw preparation. Final-stage inference
+  122.49s excludes4.95s in the two superseded responses; no failed inference calls.
+  Final stages66,083 local tokens; sampled GPU7,798MiB/RSS10,339MiB.
+- Fixed prose/code/code compact CER0%/0.69%/0%, versus5.88%/22.76%/15.53%
+  Tesseract. Samples unchanged by boundary repair. Unblinded assistant references,
+  whitespace-insensitive metrics; no independent human accuracy or effort claim.
+-118 cache hits/zero new calls on final resume; export/rebuild, UTF-8 indexes and
+  complete listing coverage verified. Totals134 source pages,24 complete assistant-
+  reviewed articles,three non-owning headings,zero human accepted. VISICALC next.
