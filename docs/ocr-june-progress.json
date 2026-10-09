@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 44,
-    "completed_articles": 12,
+    "completed_articles": 13,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 12,
+    "assistant_reviewed_complete_articles": 13,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 61,
+    "processed_source_pages": 71,
     "non_owning_headings": 1
   },
   "processed_source_pages": [
@@ -71,7 +71,17 @@
     80,
     81,
     82,
-    83
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93
   ],
   "checkpoints": [
     {
@@ -1077,14 +1087,75 @@
         "sha256": "5e7a75bff6d6f5e4a39d44120914b5bb8586a5ea03c9b736ed5a346675ed46b6",
         "bytes": 5488
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-15/address-book/article.json",
+        "sha256": "1f7f72f4966ae3f7683d87836d81898745d22f20ebbf421f46402e71f24333b2",
+        "bytes": 176281
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-15/address-book/manifest.json",
+        "sha256": "b55a08bd24c4286742eeb2d42ef489ef898d8018b89562d2c1a80834183f6383",
+        "bytes": 63119
+      },
+      "source_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "regions": 111,
+      "text_regions": 88,
+      "figures": 23,
+      "physical_listing_rows": 416,
+      "logical_listing_rows": 180,
+      "unresolved_entries": 14,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 88
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-15",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 88,
+        "inference_wall_seconds": 135.60695551201206,
+        "local_prompt_tokens": 50691,
+        "local_output_tokens": 11564,
+        "peak_gpu_mib_sampled": 7828,
+        "peak_rss_mib_sampled": 9193.52734375,
+        "raw_run_elapsed_seconds": 172.81797155400272
+      },
+      "resume": {
+        "cache_hits": 88,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-15/tesseract-comparison/comparison.json",
+        "sha256": "085ddfa9ed0679f4dc56b477b2fb38d6d2e70b5ace567c61f7ef28cf1b325888",
+        "bytes": 7783
+      }
     }
   ],
-  "next": "Continue Hangul telephone/address article84 onward, inspect full extent before OCR; remaining June campaign active.",
+  "next": "Inspect and restore 별로 재미없는 프로그램 starting96, then continue remaining June articles; refresh grouped reading room for human review.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "c3b7970343dfb051421602086ca6d6bd50913f3b38ed47a35ab86d125bef179f",
-    "bytes": 21854
+    "sha256": "05e1b7378e3787ad9e640cc7d167e125eae6be0f2c4a9e857d0f1e0f136f5b21",
+    "bytes": 22287
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",

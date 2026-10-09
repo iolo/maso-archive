@@ -399,3 +399,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next article extent checked: telephone/address84–93;94/95 advertisements excluded.
   Batch15 mapped111 regions and completed88 raw calls; semantic checking underway.
   Do not count this article as reviewed or include it in the current preview yet.
+
+### Telephone/address book checkpoint, 2026-10-09
+
+- Batch15 completes 한글 전화번호부와 주소록84–93:88 text regions,23 original
+  images,416 physical listing rows/180 numbered statements across two listings.
+  Six table sections now preserve row associations as TSV. Flowcharts and screen
+  labels remain image-only;88 advertisement and94/95 advertisements excluded.
+- Corrected punctuation, duplicated wrap glyphs, digits, banner runs and Korean
+  misreadings against scans. Preserved printed Roman-keyboard Hangul strings and
+  source inconsistencies;14 explicit review notes remain. No execution or claim
+  of exact literal spacing. Human acceptance remains pending.
+- Raw preparation172.82s; inference135.61s;62,255 local tokens; sampled GPU7,828MiB /
+  RSS9,194MiB. Fixed table sample compact CER0.26% versus9.87% Tesseract; maker
+  listing1.80% versus15.27%; final listing3.08% versus56.92%. Same crops, assistant
+  reference fixed before Tesseract; unblinded, not human gold. Whitespace ignored
+  by these diagnostics, including literal blanks. Human effort/tokens unmeasured.
+-88 cache hits/zero new calls; all raw stages stopped normally. Export/rebuild
+  identical; source/text/review/listing byte ranges and printed line numbers checked.
+- June totals71 article source pages,13 complete assistant-reviewed articles,
+  one non-owning heading,zero human accepted. Current reading room still includes
+  twelve articles; address book is ready for the next grouped refresh.
+- Continue 별로 재미없는 프로그램 starting96 and the remaining issue queue.
