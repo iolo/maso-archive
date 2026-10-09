@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 45,
-    "completed_articles": 16,
+    "completed_articles": 17,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 16,
+    "assistant_reviewed_complete_articles": 17,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 87,
+    "processed_source_pages": 91,
     "non_owning_headings": 2
   },
   "processed_source_pages": [
@@ -97,7 +97,11 @@
     109,
     110,
     111,
-    112
+    112,
+    113,
+    114,
+    115,
+    116
   ],
   "checkpoints": [
     {
@@ -1333,14 +1337,69 @@
         "sha256": "30423c74fee9dd5aed7560d1fc96ff31a35b26fa89d39ca3271681f1d1e71baa",
         "bytes": 7640
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-19/graphics-animation/article.json",
+        "sha256": "52b71d66ec664c6dcb1ce9a972d6cd47a4f2941f43902f62d5d7e712e839f0d8",
+        "bytes": 81018
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-19/graphics-animation/manifest.json",
+        "sha256": "79936e3717bbfd035bccc3568b2f25899404431ad0cf5a07e95e3e2484b04df9",
+        "bytes": 32101
+      },
+      "source_pages": [
+        113,
+        114,
+        115,
+        116
+      ],
+      "regions": 46,
+      "text_regions": 46,
+      "figures": 0,
+      "physical_listing_rows": 120,
+      "logical_listing_rows": 92,
+      "unresolved_entries": 6,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 46
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-19",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 46,
+        "inference_wall_seconds": 57.98468374501681,
+        "local_prompt_tokens": 23553,
+        "local_output_tokens": 5043,
+        "peak_gpu_mib_sampled": 7808,
+        "peak_rss_mib_sampled": 5907.3671875,
+        "raw_run_elapsed_seconds": 82.71583914400253
+      },
+      "resume": {
+        "cache_hits": 46,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-19/tesseract-comparison/comparison.json",
+        "sha256": "5d8a3e3bb1c992c8ba797cd68963d75b0b246db12310774dbee2a5f31d24db19",
+        "bytes": 7722
+      }
     }
   ],
-  "next": "Continue graphics animation starting113 and remaining issue; refresh grouped reader.",
+  "next": "Continue graphics117–123, then BASIC speed and remaining issue.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "115aed250c4ac8cb3d72b1c8c3db04172bb7d764132f38fe916555a83802946a",
-    "bytes": 24033
+    "sha256": "c82b67a454bf0ab2a3181c67e4012a49e86a5df81e001ddf6a583bbc4f0b64c9",
+    "bytes": 24349
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",

@@ -481,3 +481,20 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Original queue retained, current queue and reconciliation evidence separately pinned.
   Final closeout must account for all45 entries. Reader remains14 articles pending
   next grouped refresh. Continue graphics animation113 onward.
+
+### Graphics animation checkpoint, 2026-10-09
+
+- Batch19 completes 기초 테크닉 코너113–116:46 text regions,120 physical code
+  rows,92 numbered statements across eight printed BASIC listings plus inline
+  examples. Commercial advertisement116 excluded. Six source issues flagged,
+  including inconsistent monitor direction, mismatched explanation numbers and
+  duplicated star program inside list4-1. No program repairs or execution.
+- Raw preparation82.72s; inference57.98s;28,596 local tokens; sampled GPU7,808MiB /
+  RSS5,907MiB. Lookahead rendering overlapped preparation; not controlled speed.
+  Fixed prose compact CER0% versus1.79% Tesseract; windmill0.95% versus12.38%;
+  final27-row listing0% versus7.01%. Assistant-derived diagnostics only, literal
+  blanks unscored and human effort unknown.
+-46 cache hits/zero new calls; export/rebuild and UTF-8 article/review/listing ranges
+  verified, including duplicate numbered rows. Totals91 article source pages,
+  17 complete assistant-reviewed articles,two non-owning headings,zero accepted.
+  Continue graphics117–123 and all remaining issue entries.
