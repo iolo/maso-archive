@@ -1,6 +1,6 @@
 # Sustainable OCR and correction workflow
 
-Updated: 2026-10-09. Owner: the archive maintainer; implementation and experiments
+Updated: 2026-10-10. Owner: the archive maintainer; implementation and experiments
 assisted by Codex. This is a hobby project's sustainability experiment, not a
 replacement mandate or an unattended restoration project.
 
@@ -895,3 +895,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Private whole-issue-ledger.json pins every completed package. Public accounting
   is docs/ocr-june-accounting.json. Final reader stages from the unchanged
   pre-June collection into a fresh directory, preserving earlier previews.
+
+### Complete June reading room, 2026-10-10
+
+- Fresh complete reader staged at build/reading-room-qwen-june-complete: all38
+  article bodies,216 source pages,seven group headings,all45 TOC entries resolved.
+  Native packages contain3,082 regions and325 explicit unresolved-text flags;
+  flags are review aids, not an exhaustive error count. Human acceptances remain0.
+- Full dataset integrity, package/projection pins, prior collection byte preservation,
+  complete TOC accounting and production build passed. Earlier preview folders
+  and the phoneme reader remain unchanged. Final data manifest:
+  551f16c995adf82bbd366e69167e022bf3363b98199e60e60439e3788fef8b7a.
+- Browser reload verified38 articles and coverage status. Checked the joined
+  history and its342-region source review, plus appendix tables and duplicated-P
+  source flag. Screenshots captured and viewed; human-pending notices preserved.
+  Local review URL: http://127.0.0.1:4187/archive/#/issues/maso-1984-06.
+- All requested article restoration and preview preparation are complete. Next is
+  mandatory human review/correction. Some graphic literals remain placeholders;
+  no claim of character-perfect text, executable code or measured paid-token/time
+  savings. No frontend change; user's homepage edit remains uncommitted.

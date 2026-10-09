@@ -367,3 +367,35 @@ reading JSON: whole article and tables, scan/correction comparison, region contr
 zoom, raw OCR and source notes. It remains read-only and does not convert viewing
 into acceptance. Use the region URL when reporting a correction. Human review
 and paid-model effort remain unmeasured; continue the matched-crop protocol.
+
+## Complete June issue experiment
+
+All 38 canonical article bodies are now assembled across 216 source pages, with
+seven non-owning headings accounting for all 45 contents entries. The
+[coverage ledger](ocr-june-accounting.json) separates availability from review:
+all 38 are readable and assistant sample-reviewed, with zero human acceptances.
+The packages contain 3,082 mapped regions and 325 explicit unresolved-text flags;
+these flags are review aids, not an exhaustive error count.
+
+The experiment supports Qwen as a useful raw-OCR option before semantic correction,
+particularly for Korean prose and ordinary printed source code. It does not yet
+establish savings in paid tokens or human review time. Region mapping, continuation
+assembly and scan comparison still require work; graphic characters and dense
+or faint tables remain difficult. Repetition loops, interrupted runs and manual
+fallbacks are recorded in their checkpoints. Some rebellion-game graphic literals
+remain explicit scan-linked placeholders. No program is certified executable.
+
+The final appendix comparison covers prose, a name/address table and editor
+commands: compact CER 0%/0%/6.11% for Qwen versus 4%/4.88%/54.15% for Tesseract.
+[Index scores](ocr-june-batch41-comparison.json) separately retain a post-hoc
+leader-normalized diagnostic because dotted leaders distort edit distance. All
+comparisons use assistant scan-corrected Qwen-derived references, fixed before
+Tesseract but unblinded; none is independent human gold or a whole-issue accuracy
+estimate. [Progress](ocr-june-progress.json) records individual timing, resources,
+failures, cached resumes and package hashes rather than extrapolating savings.
+
+The [complete reading-room preview](READING-ROOM.md) is the next stage: review
+whole articles and source-linked regions, return corrections with their region
+URLs, then record explicit human decisions. Merely opening a page does not accept
+it. Keep the current correction workflow and use this issue to measure the work
+remaining after local OCR.

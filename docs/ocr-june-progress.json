@@ -2790,12 +2790,12 @@
       }
     }
   ],
-  "next": "Human review in complete June reading room; source corrections and acceptance pending.",
+  "next": "Mandatory human review in complete June reader; source-linked corrections and explicit acceptance remain pending.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "0b45fb8e4e7a7e17ee5ef9ccef709b24536b485bf8d838e65465bc00a80106ee",
-    "bytes": 35178
+    "sha256": "e6cb23411e969d439f157fcf9c06e634e70627f5f182394ad780224d20167f75",
+    "bytes": 35422
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",
@@ -2952,5 +2952,63 @@
     "path": "docs/ocr-june-accounting.json",
     "sha256": "b422f43eea6159c5ad044e4dab277a25cfc440fdb9e281b6895652079fc836c1",
     "bytes": 18023
+  },
+  "reading_room_complete": {
+    "output": "build/reading-room-qwen-june-complete/data",
+    "manifest": {
+      "path": "build/reading-room-qwen-june-complete/data/manifest.json",
+      "sha256": "551f16c995adf82bbd366e69167e022bf3363b98199e60e60439e3788fef8b7a",
+      "bytes": 13512355
+    },
+    "base_manifest_sha256": "8d13d42f06f150117ce63a2db7aefbfb031e93977e058c8d7663899dc8c2ee01",
+    "ledger": {
+      "path": "private/pdf-restoration/12-1984-06-qwen/whole-issue-ledger.json",
+      "sha256": "7208d16df645e59032f85e46b8f3e0e7b3efad15b66d6bb90dc630a93a62d5f9",
+      "bytes": 32930
+    },
+    "june_articles": 38,
+    "toc_entries": 45,
+    "non_owning_headings": 7,
+    "source_pages": 216,
+    "human_acceptance": "pending",
+    "checks": [
+      "full dataset integrity",
+      "all38 package projections",
+      "unchanged previous collection",
+      "source package pins",
+      "prior scanInputs preserved",
+      "complete TOC accounting",
+      "production build"
+    ],
+    "browser_checks": [
+      "Full reload:45TOC entries,38 articles,7 headings,0 unresolved eligibility.",
+      "History222–244 reads as one article;233/234 dollar continuation joined;342 region selector entries.",
+      "History ending-p244r12: source image,corrected text,raw OCR and human-pending name flag.",
+      "Appendix body has four rectangular tables; duplicated P command retained.",
+      "Appendix p249r29: source image,corrected text,correction note,raw OCR and duplicated-P flag."
+    ],
+    "screenshots": [
+      {
+        "path": "output/playwright/ocr-june/complete-issue.png",
+        "sha256": "cda1a63bd43fa4022a2e60a198cf12b25ee899346c6964d5cd9247da5d867831",
+        "bytes": 274495
+      },
+      {
+        "path": "output/playwright/ocr-june/history-final-source.png",
+        "sha256": "ea4346a69d67dede134af41a36fd4bfa50857281caf4b5395727658c365b3486",
+        "bytes": 190874
+      },
+      {
+        "path": "output/playwright/ocr-june/appendix-command-table.png",
+        "sha256": "34c129027d394cf69554f9878d943f555789f7ac3a85ce557dbf5e36b63264db",
+        "bytes": 36142
+      },
+      {
+        "path": "output/playwright/ocr-june/appendix-command-source.png",
+        "sha256": "5e42581838585ce7d70c6533034a8a627ef2d87897584877bc653f647c3a7974",
+        "bytes": 214033
+      }
+    ],
+    "url": "http://127.0.0.1:4187/archive/#/issues/maso-1984-06"
   }
 }

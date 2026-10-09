@@ -1,12 +1,13 @@
 # Reading room
 
-## June Qwen article review preview
+## Complete June Qwen review preview
 
-The [expanded private June reader](http://127.0.0.1:4187/archive/#/issues/maso-1984-06)
-contains thirty-four complete articles through the readers’ letters (pages214–216),
-including Hangul sorting, computer rebellion and horse-blocking games. Human
-acceptance remains pending. June as a whole is still being restored.
-Refresh an already-open browser tab to load the latest staged collection.
+The [complete private June reader](http://127.0.0.1:4187/archive/#/issues/maso-1984-06)
+contains all 38 article bodies across 216 source pages, including the complete
+23-page computer-industry history, contest appendix and advertisement index.
+All 45 contents entries are accounted for: 38 articles and seven group headings.
+Human acceptance remains pending for every article. Refresh an already-open
+browser tab to load the complete collection.
 
 Choose **원문과 나란히 검토하기 →** from an article. **쪽 / 영역** and the
 previous/next links move between scans. The view shows corrected text beside the
@@ -15,28 +16,34 @@ On mobile, the scan sits above the text. Article tables retain empty cells and
 scroll horizontally. Copy a region's URL when reporting a correction. The preview
 is read-only; browsing does not save an approval or edit.
 
-To restart the expanded build:
+Graphic-character placeholders in the rebellion game, faint punctuation and
+printed technical errors remain flagged. Readable does not mean character-perfect
+or executable. The packages retain 325 explicit unresolved-text flags; that is a
+review aid, not an exhaustive count of errors.
+
+To restart the complete build:
 
 ```sh
 cd web
-READING_ROOM_OUTPUT=build/reading-room-qwen-june-through-letters READING_ROOM_BASE=/archive/ npm run preview -- --port 4187 --strictPort
+READING_ROOM_OUTPUT=build/reading-room-qwen-june-complete READING_ROOM_BASE=/archive/ npm run preview -- --port 4187 --strictPort
 ```
 
-The grouped staging helper and its checked result are local under
-`private/pdf-restoration/12-1984-06-qwen/stage-group36.py` and
-`reader-group36-result.json`. It copies the preceding preview once, adds four
-pinned packages, preserves prior `scanInputs`, validates every projection and
-checks that unrelated files remain byte-identical. Expanded data manifest SHA-256:
-`8d1f93b99103efc869d7c229b4b72e41c8d2a2341785d84ec627c7664a806aac`.
-Use a fresh output for any further staging; the helper's input checkpoint is fixed.
+The final staging uses `tools.reading_room.scan_issue` with the private
+`private/pdf-restoration/12-1984-06-qwen/whole-issue-ledger.json`, starting from
+`build/reading-room-restored/data` in a fresh output. The checked result is
+`private/pdf-restoration/12-1984-06-qwen/reader-complete-result.json`.
+Complete data manifest SHA-256:
+`551f16c995adf82bbd366e69167e022bf3363b98199e60e60439e3788fef8b7a`.
+Use a fresh output for any further staging; each package and ledger is pinned.
 
-This preview preserves the previous146 scan articles and CD collection. The
-original one-article phoneme preview at port4186 remains available unchanged.
-Data and screenshots remain ignored by Git. [Progress](ocr-june-progress.json)
-records native package pins and validation. This data refresh passed full dataset
-integrity and production build, plus browser checks of issue navigation, article
-reading and the side-by-side source/correction view. Existing UI tests were not
-rerun because no frontend code changed.
+This preview preserves the previous 146 scan articles and CD collection. Earlier
+June preview directories and the one-article phoneme preview at port4186 remain
+unchanged. Data and screenshots remain ignored by Git. [Progress](ocr-june-progress.json)
+and [whole-issue accounting](ocr-june-accounting.json) record package pins and
+validation. Full dataset integrity, prior-file preservation, complete TOC
+accounting and the production build passed. Browser checks cover the 38-article
+issue page, assembled history, appendix tables and source/correction views with
+human-pending notices and retained source ambiguities. No frontend code changed.
 
 ## Review completed PDF issues
 
