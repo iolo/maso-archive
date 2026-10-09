@@ -862,3 +862,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Totals210 source pages,36 complete assistant-reviewed articles,no partials,
   four non-owning headings,zero human accepted. Appendix and index raw OCR
   finished; final corrections, heading classification and whole reader remain.
+
+### Appendix and index checkpoint, 2026-10-10
+
+- Batch40 completes contest problems245–249:124 text regions,twelve diagrams,
+  three continuation joins,fifteen review flags. Four divisions, tables and
+  formulas retain source wording; printed duplicated editor P command is flagged.
+  Raw95.00s,inference71.00s,47,005 local tokens,GPU7,806MiB/RSS8,311MiB sampled.
+  Fixed prose/name-table/command-table compact CER0%/0%/6.11% versus Tesseract
+  4%/4.88%/54.15%; unblinded assistant-reference diagnostics, not human gold.
+- Batch41 completes advertisement index250:31 company/page pairs,four text
+  regions,one decorative image,four flags. Dotted leaders become TSV separators.
+  Raw12.20s,inference4.80s,2,380 local tokens,GPU7,788MiB/RSS1,747MiB sampled.
+  Primary character scores are dominated by decorative leaders. A separately
+  labeled post-hoc diagnostic strips the same four punctuation characters from
+  both outputs/reference: Qwen0%/1.85%/0% versus155.17%/164.81%/90.70%.
+  Tesseract hallucinated letters/digits and omitted rows remain penalized; this is
+  not a general OCR ranking or a human-gold/whole-index accuracy claim.
+-128 cache hits,zero new calls; both native exports,rebuilds,coverage and UTF-8
+  ranges passed. Totals216 source pages,38 complete articles,no partials,zero
+  human accepted. Three remaining non-owning TOC headings and final preview next.

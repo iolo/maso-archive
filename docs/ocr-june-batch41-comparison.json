@@ -1,0 +1,264 @@
+{
+  "scope": "Preselected identical-region PNGs; one run per engine; no whole-issue or end-to-end speed claim.",
+  "reference_note": "Assistant scan-corrected Qwen-derived reference fixed before Tesseract; unblinded, not independent human gold. Faint code glyph candidates remain. Compact CER ignores all whitespace including literal spaces. BASIC physical wrapping retained; no strict numbered-row metric in this batch.",
+  "settings": {
+    "qwen": "Existing local8B UD-Q4_K_XL GPU99 ctx8192 imagecap4096 deterministic raw prompt",
+    "tesseract": "Pinned5.5 OEM1 PSM6 OMP_THREAD_LIMIT1; per-row pinned language setting; defaults eng code, kor+eng prose"
+  },
+  "rows": [
+    {
+      "region_id": "p250r02",
+      "category": "other",
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-41/ocr/scan-maso-1984-06-toc-0044/ocr-page250/p250r02.png",
+        "sha256": "62e91721b557ead28210efae726efde88565657b7b7f4a87b1f96b50a0277fc4",
+        "bytes": 162406
+      },
+      "qwen_seconds": 1.0594781129984767,
+      "tesseract_seconds": 0.238359577000665,
+      "qwen_resources": {
+        "wall_seconds": 1.1355970139993588,
+        "cpu_seconds_sampled": 1.1399999999999997,
+        "peak_rss_mib_sampled": 1389.5546875,
+        "peak_gpu_mib_sampled": 7700,
+        "samples": 10,
+        "gpu_samples": 10,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.34312581599806435,
+        "cpu_seconds_sampled": 0.1,
+        "peak_rss_mib_sampled": 95.6640625,
+        "peak_gpu_mib_sampled": null,
+        "samples": 4,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "c1082e2bbd0bfabbda04fe9935dcc34dae47798d667f4f593c4187e8ebc1dbef",
+        "bytes": 762
+      },
+      "engines": {
+        "qwen": {
+          "cer": 1.0945945945945945,
+          "cer_edits": 81,
+          "cer_reference_chars": 74,
+          "cer_no_whitespace": 1.2758620689655173,
+          "cer_no_whitespace_edits": 74,
+          "cer_no_whitespace_reference_chars": 58,
+          "wer": 0.47058823529411764
+        },
+        "tesseract": {
+          "cer": 1.2972972972972974,
+          "cer_edits": 96,
+          "cer_reference_chars": 74,
+          "cer_no_whitespace": 1.603448275862069,
+          "cer_no_whitespace_edits": 93,
+          "cer_no_whitespace_reference_chars": 58,
+          "wer": 0.7058823529411765
+        }
+      }
+    },
+    {
+      "region_id": "p250r03",
+      "category": "other",
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-41/ocr/scan-maso-1984-06-toc-0044/ocr-page250/p250r03.png",
+        "sha256": "5eaced21d8a78453076d92dbdbefea7cb671d7fbf0f672e24604669372a29efa",
+        "bytes": 149762
+      },
+      "qwen_seconds": 1.1449918750004144,
+      "tesseract_seconds": 0.26079777200357057,
+      "qwen_resources": {
+        "wall_seconds": 1.219275600000401,
+        "cpu_seconds_sampled": 1.2200000000000002,
+        "peak_rss_mib_sampled": 1504.265625,
+        "peak_gpu_mib_sampled": 7700,
+        "samples": 11,
+        "gpu_samples": 11,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.33164583100005984,
+        "cpu_seconds_sampled": 0.22,
+        "peak_rss_mib_sampled": 97.82421875,
+        "peak_gpu_mib_sampled": null,
+        "samples": 4,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "c1082e2bbd0bfabbda04fe9935dcc34dae47798d667f4f593c4187e8ebc1dbef",
+        "bytes": 762
+      },
+      "engines": {
+        "qwen": {
+          "cer": 1.7971014492753623,
+          "cer_edits": 124,
+          "cer_reference_chars": 69,
+          "cer_no_whitespace": 2.1666666666666665,
+          "cer_no_whitespace_edits": 117,
+          "cer_no_whitespace_reference_chars": 54,
+          "wer": 0.5625
+        },
+        "tesseract": {
+          "cer": 1.4492753623188406,
+          "cer_edits": 100,
+          "cer_reference_chars": 69,
+          "cer_no_whitespace": 1.7777777777777777,
+          "cer_no_whitespace_edits": 96,
+          "cer_no_whitespace_reference_chars": 54,
+          "wer": 0.8125
+        }
+      }
+    },
+    {
+      "region_id": "p250r04",
+      "category": "other",
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "image": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-41/ocr/scan-maso-1984-06-toc-0044/ocr-page250/p250r04.png",
+        "sha256": "21fa1e7996d29f135200da8ab896fcab90df9cc704fb8a37549cdfc919c2a986",
+        "bytes": 311221
+      },
+      "qwen_seconds": 2.3621434590022545,
+      "tesseract_seconds": 0.3772730450000381,
+      "qwen_resources": {
+        "wall_seconds": 2.465898433998518,
+        "cpu_seconds_sampled": 2.51,
+        "peak_rss_mib_sampled": 1746.82421875,
+        "peak_gpu_mib_sampled": 7788,
+        "samples": 21,
+        "gpu_samples": 21,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "tesseract_resources": {
+        "wall_seconds": 0.47458267099864315,
+        "cpu_seconds_sampled": 0.25,
+        "peak_rss_mib_sampled": 101.6875,
+        "peak_gpu_mib_sampled": null,
+        "samples": 5,
+        "gpu_samples": 0,
+        "resource_scope": "PID plus descendants; 100ms target interval plus nvidia-smi overhead; RSS includes shared mappings; short-lived CPU/RSS peaks may be missed; GPU null means unavailable/no matching allocation"
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "c1082e2bbd0bfabbda04fe9935dcc34dae47798d667f4f593c4187e8ebc1dbef",
+        "bytes": 762
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.8198757763975155,
+          "cer_edits": 132,
+          "cer_reference_chars": 161,
+          "cer_no_whitespace": 0.9069767441860465,
+          "cer_no_whitespace_edits": 117,
+          "cer_no_whitespace_reference_chars": 129,
+          "wer": 0.45454545454545453
+        },
+        "tesseract": {
+          "cer": 0.9875776397515528,
+          "cer_edits": 159,
+          "cer_reference_chars": 161,
+          "cer_no_whitespace": 1.1705426356589148,
+          "cer_no_whitespace_edits": 151,
+          "cer_no_whitespace_reference_chars": 129,
+          "wer": 0.7878787878787878
+        }
+      }
+    }
+  ],
+  "totals": {
+    "qwen_inference_seconds": 4.566613447001146,
+    "tesseract_engine_seconds": 0.8764303940042737,
+    "human_active_review_seconds": null,
+    "paid_model_tokens": null
+  },
+  "supplemental_leader_normalized": {
+    "policy": "Post-hoc diagnostic, after seeing both outputs. Identical removal of ASCII period, middle dot, ellipsis and two-dot leader from reference and both engine outputs. Does not remove hallucinated letters/digits, repair names, or pair rows. Primary scores retained; decoration inflates those scores. Unblinded assistant reference, not independent gold.",
+    "rows": [
+      {
+        "region_id": "p250r02",
+        "engines": {
+          "qwen": {
+            "cer": 0.0,
+            "cer_edits": 0,
+            "cer_reference_chars": 74,
+            "cer_no_whitespace": 0.0,
+            "cer_no_whitespace_edits": 0,
+            "cer_no_whitespace_reference_chars": 58,
+            "wer": 0.0
+          },
+          "tesseract": {
+            "cer": 1.2702702702702702,
+            "cer_edits": 94,
+            "cer_reference_chars": 74,
+            "cer_no_whitespace": 1.5517241379310345,
+            "cer_no_whitespace_edits": 90,
+            "cer_no_whitespace_reference_chars": 58,
+            "wer": 0.7058823529411765
+          }
+        }
+      },
+      {
+        "region_id": "p250r03",
+        "engines": {
+          "qwen": {
+            "cer": 0.014492753623188406,
+            "cer_edits": 1,
+            "cer_reference_chars": 69,
+            "cer_no_whitespace": 0.018518518518518517,
+            "cer_no_whitespace_edits": 1,
+            "cer_no_whitespace_reference_chars": 54,
+            "wer": 0.0625
+          },
+          "tesseract": {
+            "cer": 1.3478260869565217,
+            "cer_edits": 93,
+            "cer_reference_chars": 69,
+            "cer_no_whitespace": 1.6481481481481481,
+            "cer_no_whitespace_edits": 89,
+            "cer_no_whitespace_reference_chars": 54,
+            "wer": 0.8125
+          }
+        }
+      },
+      {
+        "region_id": "p250r04",
+        "engines": {
+          "qwen": {
+            "cer": 0.0,
+            "cer_edits": 0,
+            "cer_reference_chars": 161,
+            "cer_no_whitespace": 0.0,
+            "cer_no_whitespace_edits": 0,
+            "cer_no_whitespace_reference_chars": 129,
+            "wer": 0.0
+          },
+          "tesseract": {
+            "cer": 0.7577639751552795,
+            "cer_edits": 122,
+            "cer_reference_chars": 161,
+            "cer_no_whitespace": 0.9069767441860465,
+            "cer_no_whitespace_edits": 117,
+            "cer_no_whitespace_reference_chars": 129,
+            "wer": 0.696969696969697
+          }
+        }
+      }
+    ]
+  }
+}
