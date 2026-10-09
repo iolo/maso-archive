@@ -582,3 +582,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
 -120 cache hits/zero new calls; export/rebuild and UTF-8 review ranges verified.
   Totals121 source pages,22 complete assistant-reviewed articles,three non-owning
   headings,zero human accepted. VISISUM raw OCR complete; semantic review next.
+
+### VISISUM checkpoint, 2026-10-10
+
+- Batch25 completes VISISUM149–154:72 text regions,12 original images,172
+  physical code rows,144 numbered statements and nine unresolved items. Restored
+  omitted dash strings and a wrapped arithmetic continuation; preserved printed
+  incorrect sum, ENVIROMENT and ERROR IN FILE FOT. Staffing table order manually
+  reconstructed with all empty cells; matrix examples remain images.
+- Raw preparation81.55s; inference59.38s;34,774 local tokens; sampled GPU7,834MiB /
+  RSS6,747MiB. Fixed prose/code/code compact CER0%/0%/2.65%, versus4.62%/56.67%/
+  26.49% Tesseract. Assistant-derived unblinded references; literal spaces ignored
+  by compact CER, faint0/O readings remain candidates. Not an end-to-end measure.
+-72 cache hits/zero new calls; native rebuild, UTF-8 ranges and complete listing
+  coverage verified. Totals127 source pages,23 complete assistant-reviewed articles,
+  three non-owning headings,zero human accepted. Medical-insurance155–161 next.
+- Grouped reader now22 articles through UNIX. Prior scan/CD files preserved;
+  integrity and production build passed. Browser checked Information Radar article
+  and side-by-side fee-table region; screenshot viewed. Full browser reload needed
+  to discard the previous in-memory catalog. VISISUM awaits next grouped refresh.

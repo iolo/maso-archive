@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 45,
-    "completed_articles": 22,
+    "completed_articles": 23,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 22,
+    "assistant_reviewed_complete_articles": 23,
     "assistant_reviewed_partial_articles": 0,
-    "processed_source_pages": 121,
+    "processed_source_pages": 127,
     "non_owning_headings": 3
   },
   "processed_source_pages": [
@@ -131,7 +131,13 @@
     145,
     146,
     147,
-    148
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
   ],
   "checkpoints": [
     {
@@ -1707,14 +1713,71 @@
         "sha256": "111f5aa15452ec64704550f52a38dd32323c448eea64fc2e3870b6eea2a2c20c",
         "bytes": 7750
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-25/visisum/article.json",
+        "sha256": "c3e323da779dd5c057a2734999b23bb21cdf4c92c27fede3987361e2f6f3282f",
+        "bytes": 127371
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-25/visisum/manifest.json",
+        "sha256": "43e0bbf914b67aef9c20ba2fe1dc2921c377297460a89e72b2f66eedd5403cf4",
+        "bytes": 51388
+      },
+      "source_pages": [
+        149,
+        150,
+        151,
+        152,
+        153,
+        154
+      ],
+      "regions": 84,
+      "text_regions": 72,
+      "figures": 12,
+      "physical_listing_rows": 172,
+      "logical_listing_rows": 144,
+      "unresolved_entries": 9,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 72
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-25",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 72,
+        "inference_wall_seconds": 59.37709201198595,
+        "local_prompt_tokens": 29880,
+        "local_output_tokens": 4894,
+        "peak_gpu_mib_sampled": 7834,
+        "peak_rss_mib_sampled": 6746.8203125,
+        "raw_run_elapsed_seconds": 81.55024681399664
+      },
+      "resume": {
+        "cache_hits": 72,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-25/tesseract-comparison/comparison.json",
+        "sha256": "a03c9620b616fc1007fad2355c6fb52ccb8d4dca70fe65aa662a8bb78bfdd49d",
+        "bytes": 7680
+      }
     }
   ],
-  "next": "Complete VISISUM149–154 and all remaining June entries; refresh grouped reader.",
+  "next": "Restore medical-insurance program155–161; continue remaining June articles and grouped human-review preview.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "a621846d1033d2d435a8600742fca17ca22cd045b48ad18eb3ace4426ae1724b",
-    "bytes": 26451
+    "sha256": "f9d5245afeda9b4def6186b3702e3208f6563f3db17073b1b324c681cbb38283",
+    "bytes": 26831
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",
