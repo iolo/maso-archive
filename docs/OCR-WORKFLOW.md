@@ -297,3 +297,39 @@ unmeasured. Corrected six-page Qwen preparation took89.95s including render/star
 retained in [checkpoint accounting](ocr-june-progress.json). New geometry requires
 native-size boundary inspection; readable model output alone is not proof of a
 complete crop. No automatic acceptance or publication occurred.
+
+## June continuation39–44: code-focused diagnostic
+
+Batch05 restores23 text regions and8 original images, including14 paired table
+rows and255 numbered main-program rows. The source program is separate from the
+short sample on38. Closing prose/references are covered;45–47 and full article
+assembly remain pending. The [review entry](../private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md)
+links both preserved packages and their human ledgers.
+
+Four crops were selected before inference: one prose and three code crops.
+Assistant source-corrected references were pinned before Tesseract inspection.
+The same PNG files and existing engine settings were used, with eng for code
+and kor+eng for prose. These are unblinded diagnostics, not independent human gold.
+
+| Diagnostic | Qwen | Tesseract |
+| --- | ---: | ---: |
+| Prose compact CER,161 reference characters | 1.86% | 11.80% |
+| Code compact CER,843 reference characters | 0.12% | 47.81% |
+| Exact numbered code rows,quoted spaces retained | 56/58 | 0/58 |
+| Four crops,raw engine seconds | 11.35 | 1.24 |
+
+Prose includes one provisional damaged-glyph reading. Compact CER ignores all
+whitespace, which can hide errors inside code literals. The additional row check
+preserves spaces inside single quotes while ignoring alignment elsewhere; it
+requires one exact printed line-number match. This strict score measures source
+transcription, not executable correctness. No assembly or execution was performed.
+[Measurements](ocr-june-batch05-comparison.json) retain sample hashes and resources.
+
+Source checking found an invented comment marker on ORG, an EOPEN misreading,
+quoted-character errors and shortened banners. Printed source misspellings and
+truncated comments were retained. Six unresolved readings remain for human review.
+Qwen preparation took99.38s, including57.06s of regional inference; it used29,727
+local tokens and sampled peak GPU7,838MiB/RSS6,450MiB. Cache resume reused all23
+stages; the export rebuild is byte-identical. Human-time and paid-token savings
+remain unmeasured. Continue selected comparisons by content type over subsequent
+checkpoints without treating these diagnostics as automatic acceptance.

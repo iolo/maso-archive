@@ -11556,3 +11556,33 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Issue totals20source pages,3 complete+1 partial assistant-reviewed articles,
   zero human accepted. Next39–44, then45–47 and complete-article assembly.
   User's existing web/package.json edit remains excluded.
+
+## 2026-10-09 — June phoneme continuation39–44 and continued evaluation
+
+- Completed six-page batch05:23 raw text regions,8 retained original images,
+  closing prose/references,14 paired word-table rows and255 main-listing rows.
+  The full circuit and photographed address/object columns remain available.
+  Main0001–0255 is distinct from the sample0001–0039 on38;45–47 remain pending.
+- Native preflight adjusted three code boundaries before inference. Source review
+  removed an invented ORG comment marker, restored EOPEN and quoted characters,
+  and corrected banner counts. Printed spelling, truncated comments and apparent
+  technical mistakes remain literal. Six candidate readings await human review.
+- Qwen preparation99.38s including render/startup/export; inference57.06s,
+  25,826prompt+3,901output local tokens. Sampled peak GPU7,838MiB/RSS6,450MiB.
+  Agent checkpoint window471.39s includes mapping, inspection, comparison and
+  validation; it is not active human review or a controlled speed comparison.
+- Four crops selected before inference, compared after fixing assistant references:
+  code compact CER1/843 (0.12%) versus403/843 (47.81%); prose3/161 (1.86%) versus
+  19/161 (11.80%). Prose includes a provisional damaged-glyph reading. Quoted-space
+  preserving code-row match56/58 versus0/58 includes printed line numbers.
+  Raw engine times11.35s Qwen/1.24s Tesseract; no downstream savings claim.
+- Verified23 stage manifests/stop reasons,255 physical/logical numbered rows,
+  text/table/review UTF-8 ranges, four identical input hashes, byte-identical
+  native rebuild,23 cache hits/zero new calls and1,722 unchanged prior files.
+  Pipeline code unchanged; no new unit-suite claim.
+- Review:`private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md`.
+  Export:`build/pdf-restoration/12-1984-06-qwen-batch-05/phoneme-synthesis/`.
+  Sanitized measurements:`docs/ocr-june-batch05-comparison.json`.
+- Issue totals26 pages,3 complete/1 partial assistant-reviewed articles,0 human
+  accepted. Next45–47 and full article assembly. Continue selected evaluation,
+  separating content categories and retaining mandatory human review.

@@ -197,3 +197,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   [Matched measurements](docs/ocr-june-batch04-comparison.json) record limits.
   Issue total20pages,3 complete/1 partial assistant-reviewed articles; all human
   acceptance pending. Next checkpoint39–44, then45–47 and full assembly.
+
+### Continued evaluation checkpoint, 2026-10-09
+
+- Restored39–44 in `batch-05`:23 text regions,8 original images,14 paired
+  word-table rows and255 numbered main-program rows. Main listing numbering is
+  separate from the sample on38. Remaining45–47 and full assembly are pending.
+- Preflight repaired three listing crop boundaries before inference. One raw run:
+  99.38s preparation,57.06s regional inference,29,727 local tokens, sampled peak
+  GPU7,838MiB/RSS6,450MiB. No inference failures, truncation or reruns.
+- Four preselected matched crops continue the diagnostic: code compact CER0.12%
+  versus47.81%; prose1.86% versus11.80%. References are assistant source readings,
+  not human gold; prose includes a provisional damaged-glyph reading. A separate
+  code-row check preserves quoted spaces, which compact CER would ignore.
+- Keep selected matched-crop evaluation through subsequent checkpoints. Report
+  prose, code and tables separately; retain the existing model/prompt/Tesseract
+  settings, fix sample selection and references before viewing Tesseract, and
+  record source uncertainty. Do not infer human-time or paid-token savings.
+- Native export rebuild is byte-identical;23 cache hits made zero new calls;
+  1,722 prior files, including existing exports and human ledgers, are unchanged.
+  No pipeline code changed, so the prior144-test result is not a new test run.
+- Issue total26 pages,3 complete/1 partial assistant-reviewed articles,0 human
+  accepted. [Measurements](docs/ocr-june-batch05-comparison.json) retain limits.
