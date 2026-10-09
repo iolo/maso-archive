@@ -861,6 +861,36 @@ class PDFAssemblyTests(unittest.TestCase):
                     execution_verified=False)]
         return segments
 
+    def test_wrapped_listing_preserves_zero_padded_numbers(self):
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.wrapped_segments()
+        source, correction = segments[0]
+        source['blocks'][0]['text'] = source['blocks'][0]['text'].replace('10 ', '01 ')
+        correction['blocks'] = deepcopy(source['blocks'])
+        correction['listing_anomalies'] = []
+        for row in correction['listing_line_index'] + correction['logical_listing_line_index']:
+            if row.get('printed_line') == 10:
+                row['printed_line'] = 1
+            if row.get('continues_printed_line') == 10:
+                row['continues_printed_line'] = 1
+        original = deepcopy(segments)
+        package, projected = project(self.recipe, segments)
+        self.assertEqual(segments, original)
+        self.assertTrue(text_bytes(package)[1].startswith(b'01 PRINT'))
+        self.assertEqual(projected['logical_listing_line_index'][0]['printed_line'], 1)
+        comment = deepcopy(original)
+        comment[0][0]['blocks'][0]['text'] = comment[0][0]['blocks'][0]['text'].replace('01 ', '01;')
+        comment[0][1]['blocks'] = deepcopy(comment[0][0]['blocks'])
+        package, projected = project(self.recipe, comment)
+        self.assertTrue(text_bytes(package)[1].startswith(b'01;PRINT'))
+        self.assertEqual(projected['logical_listing_line_index'][0]['printed_line'], 1)
+        for bad in ('02', '1X', '-1'):
+            invalid = deepcopy(original)
+            invalid[0][0]['blocks'][0]['text'] = invalid[0][0]['blocks'][0]['text'].replace('01 ', bad + ' ')
+            invalid[0][1]['blocks'] = deepcopy(invalid[0][0]['blocks'])
+            with self.subTest(prefix=bad), self.assertRaisesRegex(ValueError, 'Wrapped printed number'):
+                project(self.recipe, invalid)
+
     def test_wrapped_data_keyword_case_preserves_literal_bytes_and_value_checks(self):
         from tools.pdf_restore.assemble import text_bytes
         segments = self.wrapped_segments()

@@ -155,3 +155,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   in bounded checkpoints, preserving the opening22 package.
 - Whole June issue remains in progress. Existing Tesseract evidence, prior issues,
   canonical TOC and reader publication are unchanged.
+
+### Continuation checkpoint, 2026-10-09
+
+- Completed native `batch-02` (23–27) and `batch-03` (28–32): 55 raw text
+  regions and 19 original diagram crops, followed by assistant scan corrections.
+- Assembled the full first technical child22–32 with the immutable opening22.
+  It contains63 text regions,20 figures, and137 numbered Z80 rows plus `LIST`.
+  Omitted prose, circled-letter readings and displaced code operands/comments
+  were corrected from scans. Two sound-vowel readings remain human-review items.
+- All55 stages verified; cache resumes made zero new calls. Two native exports
+  and the assembly rebuild byte-identically;343 prior checkpoint files unchanged.
+  Validation:119 PDF tests and25 OCR tests pass.
+- Continuation inference:126.89s,44,367 prompt +9,807 output local tokens;
+  sampled GPU peak7,862MiB and process-tree RSS peak6,037MiB. Rendering,
+  startup and review are excluded. Human-time and paid-token savings unmeasured.
+- Private review entry: `private/pdf-restoration/12-1984-06-qwen/REVIEW-SPEECH.md`.
+  Complete export: `build/pdf-restoration/12-1984-06-qwen-speech-complete/`.
+- Issue total:14 source pages,3 assistant-reviewed complete articles,0 partial,
+  0 human-accepted. Next: inspect/map the second technical child beginning33,
+  then continue the remaining June queue. Whole-issue completion is still pending.

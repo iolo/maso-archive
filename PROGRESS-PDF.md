@@ -11486,3 +11486,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next: map and restore technical feature continuation23–32 in bounded checkpoints,
   then remaining June queue and issue reconciliation. Whole June, fullproofreading,
   human acceptance and reader publication remain incomplete/deferred.
+
+## 2026-10-09 — June Qwen continuation23–32 and full technical article
+
+- Resumed the authorized June trial after the maintainer's private review. No
+  explicit region dispositions were supplied; existing human ledger remains intact.
+- Inspected23–33 and prepared two bounded maps23–27/28–32. Preflight widened29
+  diagram/prose edges and moved30/31 listing splits between complete rows before
+  inference. Original figures and full schematic32 retained; next child starts33.
+- Completed55 Qwen raw text calls and19 figure crops. Initial batch02 rendering
+  process exited143 before any inference; resumed successfully with verified
+  existing renders. No inference retries/truncation; interruption time unmeasured.
+- Assistant corrections restore an omitted sentence, circled Latin letters,
+  mathematical notation, and code-row assignments. Apparent printed technical
+  errors remain literal. Two page30 vowel candidates explicitly await human review.
+- Native packages23–27 and28–32 assembled with preserved opening22. Full article
+  includes63 text regions,20 diagram crops,137 numbered listing rows0010–1370
+  and unnumbered LIST. Both cross-segment word joins retain intervening figures
+  and captions, original regional evidence and projected UTF-8 indexes.
+- Fixed wrapped-listing validation to accept source zero-padded numbers and
+  semicolon-adjacent comments without rewriting them; mismatched prefixes still
+  reject.119 PDF tests and25 OCR tests pass.
+- Verified55 stage manifests and stop reasons, complete listing number sequence,
+  source/projected byte ranges, two byte-identical native rebuilds and one
+  byte-identical assembly rebuild.343 prior checkpoint files remain unchanged.
+  Cache-only resumes reused32+23 stages, zero new calls/servers.
+- Continuation inference wall time126.89s,44,367 prompt+9,807 output local tokens;
+  maximum sampled GPU7,862MiB/RSS6,037MiB. Excludes render/startup/review; no CER,
+  human-time or paid-token savings claim. Measurements pinned in tracked JSON.
+- Review entry:`private/pdf-restoration/12-1984-06-qwen/REVIEW-SPEECH.md`.
+  Export:`build/pdf-restoration/12-1984-06-qwen-speech-complete/`.
+  Source/corrections/ledgers stay private. User's `web/package.json` edit excluded.
+- Issue total:3 complete assistant-reviewed articles,14 pages,0 human accepted.
+  Next: second technical child beginning33, then remaining June queue. Full issue,
+  human acceptance and publication remain pending.

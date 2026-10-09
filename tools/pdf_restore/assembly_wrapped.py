@@ -95,8 +95,9 @@ def project_listing(context, corrections, listing):
             current = None  # A subsequent wrap cannot jump across this independent row.
             continue
         if row.get('row_kind') == 'numbered':
+            number_token = re.match(r'([0-9]+)(?=\s|;)', text)
             if (type(number) is not int or row.get('printed_line_visible') is not True or
-                    not text.startswith(str(number) + ' ')):
+                    not number_token or int(number_token[1]) != number):
                 raise ValueError('Wrapped printed number differs from source text')
             key = row['listing_id'], number
             local_counts[key] += 1

@@ -1,112 +1,298 @@
 {
   "issue_id": "maso-1984-06",
-  "status": "checkpoint-complete-issue-in-progress",
-  "source_pages": [
+  "status": "in-progress",
+  "counts": {
+    "toc_entries": 44,
+    "completed_articles": 3,
+    "human_accepted_articles": 0,
+    "assistant_reviewed_complete_articles": 3,
+    "assistant_reviewed_partial_articles": 0,
+    "processed_source_pages": 14
+  },
+  "processed_source_pages": [
     19,
     20,
     21,
-    22
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
   ],
-  "articles": [
+  "checkpoints": [
     {
-      "toc_entry_id": "maso-1984-06-toc-0038",
-      "package": {
-        "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/editorial/article.json",
-        "sha256": "015a8c4a6eb47047f7d5c980130f93fe10e63789552107d7677d51871a087dad",
-        "bytes": 14205
-      },
-      "manifest": {
-        "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/editorial/manifest.json",
-        "sha256": "54b57c6f0864dd715553f8def6254e70d293702c7517bc41c868c38d6884a496",
-        "bytes": 3820
-      },
+      "issue_id": "maso-1984-06",
+      "status": "checkpoint-complete-issue-in-progress",
       "source_pages": [
-        19
-      ],
-      "regions": 4,
-      "text_regions": 4,
-      "figures": 0,
-      "complete_article": true,
-      "semantic_correction": "assistant-source-reviewed",
-      "human_acceptance": "pending"
-    },
-    {
-      "toc_entry_id": "maso-1984-06-toc-0001",
-      "package": {
-        "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/overview/article.json",
-        "sha256": "4336c213803a52acee9f936a2012ee22e829040835ebbcd6676ee0a26bc75263",
-        "bytes": 24079
-      },
-      "manifest": {
-        "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/overview/manifest.json",
-        "sha256": "f1ceeb527d7be1172d6fc3c0a010a90dfa4a9dc6e7b2f8ec6bcf1b6185d8c694",
-        "bytes": 8352
-      },
-      "source_pages": [
+        19,
         20,
-        21
-      ],
-      "regions": 11,
-      "text_regions": 11,
-      "figures": 0,
-      "complete_article": true,
-      "semantic_correction": "assistant-source-reviewed",
-      "human_acceptance": "pending"
-    },
-    {
-      "toc_entry_id": "maso-1984-06-toc-0002",
-      "package": {
-        "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/speech-input-output/article.json",
-        "sha256": "93bbdde47a61c4f096f107664195f2c0c364d7868b525f8453938106a3424228",
-        "bytes": 18603
-      },
-      "manifest": {
-        "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/speech-input-output/manifest.json",
-        "sha256": "921bd8a82da1ce8a288011ea5d7607e7b27ef2b780fcb81b9ca1d50af05999a3",
-        "bytes": 6558
-      },
-      "source_pages": [
+        21,
         22
       ],
-      "regions": 9,
-      "text_regions": 8,
-      "figures": 1,
-      "complete_article": false,
-      "semantic_correction": "assistant-source-reviewed",
-      "human_acceptance": "pending"
+      "articles": [
+        {
+          "toc_entry_id": "maso-1984-06-toc-0038",
+          "package": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/editorial/article.json",
+            "sha256": "015a8c4a6eb47047f7d5c980130f93fe10e63789552107d7677d51871a087dad",
+            "bytes": 14205
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/editorial/manifest.json",
+            "sha256": "54b57c6f0864dd715553f8def6254e70d293702c7517bc41c868c38d6884a496",
+            "bytes": 3820
+          },
+          "source_pages": [
+            19
+          ],
+          "regions": 4,
+          "text_regions": 4,
+          "figures": 0,
+          "complete_article": true,
+          "semantic_correction": "assistant-source-reviewed",
+          "human_acceptance": "pending"
+        },
+        {
+          "toc_entry_id": "maso-1984-06-toc-0001",
+          "package": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/overview/article.json",
+            "sha256": "4336c213803a52acee9f936a2012ee22e829040835ebbcd6676ee0a26bc75263",
+            "bytes": 24079
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/overview/manifest.json",
+            "sha256": "f1ceeb527d7be1172d6fc3c0a010a90dfa4a9dc6e7b2f8ec6bcf1b6185d8c694",
+            "bytes": 8352
+          },
+          "source_pages": [
+            20,
+            21
+          ],
+          "regions": 11,
+          "text_regions": 11,
+          "figures": 0,
+          "complete_article": true,
+          "semantic_correction": "assistant-source-reviewed",
+          "human_acceptance": "pending"
+        },
+        {
+          "toc_entry_id": "maso-1984-06-toc-0002",
+          "package": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/speech-input-output/article.json",
+            "sha256": "93bbdde47a61c4f096f107664195f2c0c364d7868b525f8453938106a3424228",
+            "bytes": 18603
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-01/speech-input-output/manifest.json",
+            "sha256": "921bd8a82da1ce8a288011ea5d7607e7b27ef2b780fcb81b9ca1d50af05999a3",
+            "bytes": 6558
+          },
+          "source_pages": [
+            22
+          ],
+          "regions": 9,
+          "text_regions": 8,
+          "figures": 1,
+          "complete_article": false,
+          "semantic_correction": "assistant-source-reviewed",
+          "human_acceptance": "pending"
+        }
+      ],
+      "successful_run": {
+        "calls": 23,
+        "preparation_seconds": 58.719463893000466,
+        "local_prompt_tokens": 23030,
+        "local_output_tokens": 4257,
+        "peak_gpu_mib_sampled": 7842,
+        "peak_rss_mib_sampled": 5887.046875
+      },
+      "retained_mapping_attempt": {
+        "calls": 23,
+        "preparation_seconds": 58.629134762000376,
+        "local_prompt_tokens": 23053,
+        "local_output_tokens": 4256,
+        "peak_gpu_mib_sampled": 7842,
+        "peak_rss_mib_sampled": 5889.34765625
+      },
+      "resume": {
+        "cache_hits": 23,
+        "new_inferences": 0,
+        "server_attempts": 1
+      },
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuilds": 3,
+        "text_byte_ranges": true,
+        "raw_stages_verified": 23
+      },
+      "human_accepted_articles": 0,
+      "unmeasured": {
+        "human_active_review_seconds": null,
+        "capable_model_tokens": null
+      },
+      "next": "Technical feature continuation23–32; map bounded checkpoint before OCR"
+    },
+    {
+      "issue_id": "maso-1984-06",
+      "status": "continuation-complete-issue-in-progress",
+      "source_pages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "segments": [
+        {
+          "batch": "batch-02",
+          "source_pages": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "text_regions": 32,
+          "figures": 12,
+          "physical_listing_rows": 0,
+          "package": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-02/speech-input-output/article.json",
+            "sha256": "43d5ffdbb9806616e480e2ace51771a5db29c424d0e4f34972729943cdeefac9",
+            "bytes": 74077
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-02/speech-input-output/manifest.json",
+            "sha256": "208c3998f1fa540be1bd42f113bceda794c17a9b1fb5c9a147233dd6958c286e",
+            "bytes": 24248
+          },
+          "metrics": {
+            "calls": 32,
+            "inference_wall_seconds": 66.02930333799668,
+            "local_prompt_tokens": 23428,
+            "local_output_tokens": 5207,
+            "peak_gpu_mib_sampled": 7828,
+            "peak_rss_mib_sampled": 6037.27734375
+          },
+          "resume": {
+            "cache_hits": 32,
+            "new_inferences": 0,
+            "total_server_attempts": 1
+          },
+          "human_review": "pending"
+        },
+        {
+          "batch": "batch-03",
+          "source_pages": [
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "text_regions": 23,
+          "figures": 7,
+          "physical_listing_rows": 138,
+          "package": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-03/speech-input-output/article.json",
+            "sha256": "cb53df731376ff59a3e97dddeff718a8d1d20e7424c6d3141adf8013bed3a15b",
+            "bytes": 54846
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-06-qwen-batch-03/speech-input-output/manifest.json",
+            "sha256": "22b125ac9b2ca3f8603815f7db19ae7154645a41488c9d622ebf54fc1d10ce0f",
+            "bytes": 17666
+          },
+          "metrics": {
+            "calls": 23,
+            "inference_wall_seconds": 60.8652370449945,
+            "local_prompt_tokens": 20939,
+            "local_output_tokens": 4600,
+            "peak_gpu_mib_sampled": 7862,
+            "peak_rss_mib_sampled": 5644.0078125
+          },
+          "resume": {
+            "cache_hits": 23,
+            "new_inferences": 0,
+            "total_server_attempts": 1
+          },
+          "human_review": "pending"
+        }
+      ],
+      "assembled": {
+        "toc_entry_id": "maso-1984-06-toc-0002",
+        "source_pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "package": {
+          "path": "build/pdf-restoration/12-1984-06-qwen-speech-complete/article.json",
+          "sha256": "e6d381bb10b7a5460ed1504811f601915fa888ef8f9baf41cc3ec8624db4eb25",
+          "bytes": 149046
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-06-qwen-speech-complete/manifest.json",
+          "sha256": "a36939529fb9c7d14af4cd26b9fe76c04fe26b57196d13c4bc3a84b4922830ae",
+          "bytes": 54484
+        },
+        "text_regions": 63,
+        "figures": 20,
+        "physical_listing_rows": 138,
+        "numbered_listing_rows": 137,
+        "complete_article": true,
+        "semantic_correction": "assistant-source-reviewed",
+        "human_acceptance": "pending"
+      },
+      "checks": {
+        "raw_stages_verified": 55,
+        "byte_identical_native_rebuilds": 2,
+        "byte_identical_assembly_rebuild": true,
+        "prior_checkpoint_files_unchanged": 343,
+        "source_projected_utf8_ranges": true,
+        "listing_number_sequence": true,
+        "pdf_tests": 119,
+        "ocr_tests": 25
+      },
+      "interruption": {
+        "batch": "batch-02",
+        "phase": "rendering-before-inference",
+        "initial_exit_code": 143,
+        "resumed_successfully": true,
+        "inference_calls_before_interruption": 0,
+        "rendering_wall_seconds": null
+      },
+      "unmeasured": {
+        "human_active_review_seconds": null,
+        "capable_model_tokens": null,
+        "character_error_rate": null
+      },
+      "next": "Inspect and map technical child2 beginning33; remaining June queue still pending."
     }
   ],
-  "successful_run": {
-    "calls": 23,
-    "preparation_seconds": 58.719463893000466,
-    "local_prompt_tokens": 23030,
-    "local_output_tokens": 4257,
-    "peak_gpu_mib_sampled": 7842,
-    "peak_rss_mib_sampled": 5887.046875
-  },
-  "retained_mapping_attempt": {
-    "calls": 23,
-    "preparation_seconds": 58.629134762000376,
-    "local_prompt_tokens": 23053,
-    "local_output_tokens": 4256,
-    "peak_gpu_mib_sampled": 7842,
-    "peak_rss_mib_sampled": 5889.34765625
-  },
-  "resume": {
-    "cache_hits": 23,
-    "new_inferences": 0,
-    "server_attempts": 1
-  },
-  "checks": {
-    "export_integrity": true,
-    "byte_identical_rebuilds": 3,
-    "text_byte_ranges": true,
-    "raw_stages_verified": 23
-  },
-  "human_accepted_articles": 0,
-  "unmeasured": {
-    "human_active_review_seconds": null,
-    "capable_model_tokens": null
-  },
-  "next": "Technical feature continuation23–32; map bounded checkpoint before OCR"
+  "next": "Inspect and map technical child2 beginning33; remaining June queue still pending.",
+  "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
+  "private_progress": {
+    "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
+    "sha256": "8afac4b03d2aca20a62bcb3a60047f96e1a4c57ba5c52886655e8b566be68bdb",
+    "bytes": 16520
+  }
 }
