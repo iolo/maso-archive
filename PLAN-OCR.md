@@ -568,3 +568,17 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Totals114 source pages,21 complete assistant-reviewed articles,zero accepted.
   Business divider141 classified as the third non-owning heading; four canonical
   children retained. UNIX142–148 raw OCR complete; VISISUM149–154 running.
+
+### UNIX checkpoint, 2026-10-10
+
+- Batch24 completes UNIX142–148:120 text regions,eight original diagrams and
+  illustrations,six unresolved readings. Cross-page prose joins restored; printed
+  CALENDER, 패워드 and historical technical descriptions retained. Annotated
+  command-screen diagrams remain images; no current-system commands executed.
+- Raw preparation111.62s; inference84.89s;50,200 local tokens; sampled GPU7,800MiB /
+  RSS8,971MiB. Fixed mail prose/list/MAKE prose compact CER0%/1.22%/0%, versus
+  1.67%/19.51%/4.55% Tesseract. Unblinded assistant-derived diagnostic references,
+  not independent human gold; human effort and paid-token usage unmeasured.
+-120 cache hits/zero new calls; export/rebuild and UTF-8 review ranges verified.
+  Totals121 source pages,22 complete assistant-reviewed articles,three non-owning
+  headings,zero human accepted. VISISUM raw OCR complete; semantic review next.
