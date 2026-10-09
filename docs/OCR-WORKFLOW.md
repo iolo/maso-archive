@@ -234,3 +234,29 @@ separately from the legacy `sample-reviewed` assistant review status.
 Rollback requires selecting the retained Tesseract path and generating fresh raw
 OCR/evidence for the same reviewed maps; previous OCR, maps and corrections are
 never overwritten. No public reader installation is part of raw OCR execution.
+
+### June checkpoint01 result
+
+Pages19–22 now have23Qwen text results, one preserved original figure, assistant
+scan-based correction records and three validated data packages. The editorial
+and parent overview have complete extents; the technical child includes only22.
+All three packages rebuild byte-identically. Cache-only resume reused23 stages
+with zero new calls or additional server starts. Whole June remains in progress.
+
+Successful recognition used58.72s and27,287local tokens, excluding rendering,
+startup and review; sampled peak GPU was7,842MiB. An initial crop-mapping attempt
+is retained and adds58.63s/27,309tokens. This is a practical checkpoint, not a
+controlled accuracy/savings measurement. Human time and capable-model usage are
+unmeasured. [Sanitized checkpoint/pins](ocr-june-progress.json) includes both runs.
+
+Private review packets include all regions, including agreements:
+
+- [Editorial19](../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0038/review.md)
+- [Feature overview20–21](../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0001/review.md)
+- [Technical opening22](../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0002/review.md)
+- [Human review ledger](../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/human-review-ledger.json)
+
+All human acceptance is pending. Qwen sometimes modernized historical endings,
+smoothed a printed duplicate or substituted more plausible wording; correction
+records preserve the scan reading. Those findings support retaining semantic
+review against the original image even when raw OCR reads fluently.

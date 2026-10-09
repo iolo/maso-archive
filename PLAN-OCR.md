@@ -144,5 +144,14 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - First checkpoint: editorial19, feature overview20–21, technical child opening22.
   Initial crop inspection found an erroneous blank-margin crop and clipped glyphs
   on21; retain that run and use separately corrected maps/evidence.
+- Completed checkpoint: `batch-01-corrected` has 23 raw text regions and one
+  original figure, assistant source corrections and three validated exports.
+  Editorial and overview have complete extents; the technical article is partial.
+  All three exports rebuild byte-identically. Resume reused23 stages with no
+  new inference/server. Human acceptance is pending for all three.
+- [June checkpoint record](docs/ocr-june-progress.json) pins the private packages
+  and records measured preparation resources, retained failed-map attempt costs
+  and unmeasured human/paid-token fields. Next map technical continuation23–32
+  in bounded checkpoints, preserving the opening22 package.
 - Whole June issue remains in progress. Existing Tesseract evidence, prior issues,
   canonical TOC and reader publication are unchanged.

@@ -11449,3 +11449,40 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next: finish corrected raw run, scan-linked semantic corrections and checked
   packages for19–22; then continue technical child23–32 in bounded checkpoints.
   All human acceptance remains pending. Existing `web/package.json` edit excluded.
+
+## 2026-10-09 — June Qwen checkpoint01 corrected, exported and verified
+
+- Completed `batch-01-corrected`:23Qwen text calls/one original figure across
+  editorial19, complete feature overview20–21, and technical child opening22.
+  Every text crop and figure inspected; assistant source corrections and full
+  side-by-side private review packets saved. No human acceptance claimed.
+- Editorial retains printed positive wording where Qwen substituted a plausible
+  negative, restores historical endings, joins three columns, removes OCR's
+  invented decorative-marker character. One quoted-title glyph remains an
+  explicitly recorded candidate for human verification; canonical TOC unchanged.
+- Overview corrected numeric/DC readings, retains source English spelling and
+  duplicated syllable, and joins formant/waveform column continuations. Corrected
+  map restores the missed formant opening and widens clipped waveform/right edges.
+  Initial23-call attempt is retained separately, not hidden from resource costs.
+- Technical opening22 retains three prose columns, original two-panel figure with
+  embedded subcaptions and separate main caption. Source-based reading corrected;
+  physical English hyphenation joined. Final word continues on23;23–32 remain
+  deferred and opening is explicitly partial, not counted as completed article.
+- Successful raw preparation:58.72s,23,030prompt+4,257output local tokens; peak
+  sampled GPU7,842MiB/process-tree RSS5,887MiB. Excludes rendering/startup/review.
+  Retained mapping attempt adds58.63s and27,309local tokens. No actual human-time,
+  paid-token savings or June CER claim; no reference gold transcription exists.
+- All23 raw stages/hash manifests checked. Unchanged resume reused23, zero new
+  inferences, one total server attempt. Three exports passed integrity checks,
+  independent text/review UTF-8 range checks, and byte-identical fresh rebuilds.
+  Implementation validation remains25OCR/workflow +118PDF passing tests.
+- Tracked `docs/ocr-june-progress.json` pins all three private package/manifests,
+  records costs/checks and keeps whole issue in progress. Private issue ledger:
+  two assistant-reviewed complete articles, one partial, four source pages,
+  zero human-accepted articles. Human ledger covers every region including figure.
+- Exports:`build/pdf-restoration/12-1984-06-qwen-batch-01/`.
+  Review/corrections:`private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/`.
+  First implementation/progress commit:`b796394`.
+- Next: map and restore technical feature continuation23–32 in bounded checkpoints,
+  then remaining June queue and issue reconciliation. Whole June, fullproofreading,
+  human acceptance and reader publication remain incomplete/deferred.
