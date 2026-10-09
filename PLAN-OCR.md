@@ -529,3 +529,21 @@ commit code/documentation. Do not count a partial opening as a complete article.
 -40 cache hits/zero new calls; native rebuild and UTF-8 ranges/listing coverage
   verified. Totals100 source pages,19 complete assistant-reviewed articles,
   two non-owning headings,zero human accepted. Educational program126–129 next.
+
+### Heat and Work checkpoint, 2026-10-09
+
+- Batch22 completes educational program126–129:55 text regions,five images,
+  154 physical code rows,56 numbered statements and eight unresolved items.
+  Preserved source title 열과 일 versus canonical TOC 열과 알, split Hangul
+  glyph candidate, formula and original DATA rows. Diagrams remain source images.
+- Raw preparation91.49s; inference55.55s;26,507 local tokens; sampled GPU7,800MiB /
+  RSS5,462MiB. Fixed prose compact CER0% versus1.67% Tesseract; Korean listing
+  1.46% versus19.90%; DATA/drawing block0% versus12.56%. Unblinded assistant
+  reference, literal blanks unscored; no end-to-end speed or human-effort claim.
+-55 cache hits/zero new calls; native rebuild and UTF-8 ranges/listing coverage
+  verified. Totals104 source pages,20 complete assistant-reviewed articles,
+  two non-owning headings,zero human accepted. Information radar131–140 next.
+- Grouped reader refreshed to18 articles through graphics117–123. All prior146
+  scan articles and CD files preserved; integrity/build checks passed. Browser
+  checked graphics article tables and side-by-side final code region123; screenshot
+  retained privately. BASIC speed and Heat and Work await the next grouped refresh.
