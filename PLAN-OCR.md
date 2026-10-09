@@ -847,3 +847,18 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Totals199 source pages,35 complete articles plus one partial,four non-owning
   headings,zero human accepted. History ending234–244 is running; assembly will
   join the preserved segments before staging. Reader remains34 articles.
+
+### Complete history checkpoint, 2026-10-10
+
+- Batch39 adds234–244:158 text regions,six images,22 explicit joins,ten flags.
+  Raw213.15s,inference164.17s,86,805 local tokens,GPU7,794MiB/RSS10,276MiB.
+  Three fixed prose compact CER0%/0.78%/0.51% versus Tesseract9.33%/35.94%/
+  15.15%; unblinded assistant-reference diagnostics, not human-gold accuracy.
+- Joined preserved opening/ending into complete history222–244:342 regions,
+  325 text regions,seventeen images,eighteen flags. Osborne prose and boxed
+  company profiles retain continuous reading order; cross-page 달/러 joined.
+  Full coverage,pins,UTF-8 ranges and byte-identical rebuild passed;158 cache
+  hits and zero new calls for batch39. Historical claims were not modernized.
+- Totals210 source pages,36 complete assistant-reviewed articles,no partials,
+  four non-owning headings,zero human accepted. Appendix and index raw OCR
+  finished; final corrections, heading classification and whole reader remain.

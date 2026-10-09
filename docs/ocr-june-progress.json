@@ -3,11 +3,11 @@
   "status": "in-progress",
   "counts": {
     "toc_entries": 45,
-    "completed_articles": 35,
+    "completed_articles": 36,
     "human_accepted_articles": 0,
-    "assistant_reviewed_complete_articles": 35,
-    "assistant_reviewed_partial_articles": 1,
-    "processed_source_pages": 199,
+    "assistant_reviewed_complete_articles": 36,
+    "assistant_reviewed_partial_articles": 0,
+    "processed_source_pages": 210,
     "non_owning_headings": 4
   },
   "processed_source_pages": [
@@ -209,7 +209,18 @@
     230,
     231,
     232,
-    233
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244
   ],
   "checkpoints": [
     {
@@ -2601,14 +2612,76 @@
         "sha256": "17738f7ca71c2bb3df76c252b3d4fb6365d72d7d4a57b8a25e16fe00390e01de",
         "bytes": 7698
       }
+    },
+    {
+      "package": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-39/computer-industry-history/article.json",
+        "sha256": "392561536579627b5fd8791f7214174bdef99ba4edff9b34580e09ab1d7b6f38",
+        "bytes": 275678
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-06-qwen-batch-39/computer-industry-history/manifest.json",
+        "sha256": "2f9eeadefe3cd352e4a0808be6b4aac588491e9842d058408fce3dd50ab08fad",
+        "bytes": 107806
+      },
+      "source_pages": [
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244
+      ],
+      "regions": 164,
+      "text_regions": 158,
+      "figures": 6,
+      "physical_listing_rows": 0,
+      "logical_listing_rows": 0,
+      "unresolved_entries": 10,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true,
+        "raw_stages_and_stop_reasons": 158
+      },
+      "human_acceptance": "pending",
+      "issue_id": "maso-1984-06",
+      "batch": "batch-39",
+      "status": "checkpoint-complete-issue-in-progress",
+      "metrics": {
+        "calls": 158,
+        "inference_wall_seconds": 164.17356451902742,
+        "local_prompt_tokens": 71964,
+        "local_output_tokens": 14841,
+        "peak_gpu_mib_sampled": 7794,
+        "peak_rss_mib_sampled": 10276.0234375,
+        "raw_run_elapsed_seconds": 213.14915601100074
+      },
+      "resume": {
+        "cache_hits": 158,
+        "new_inferences": 0
+      },
+      "comparison": {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-39/tesseract-comparison/comparison.json",
+        "sha256": "b155429e9816cbad74413136aaddb50ca21ee66d37edc77e385e93b4930c4494",
+        "bytes": 7723
+      }
     }
   ],
-  "next": "Finish history234–244 and assemble222–244; then appendix245–249,ad index250,remaining headings and full-issue review preview.",
+  "next": "Appendix245–249,ad index250,final heading ledger and whole-issue reader.",
   "human_review": "Mandatory; all records remain pending. Private review without explicit dispositions is not recorded as acceptance.",
   "private_progress": {
     "path": "private/pdf-restoration/12-1984-06-qwen/issue-progress.json",
-    "sha256": "2193ea73e71a5b3c6617fb4d9ace181d4ba75383d2dd436d4dc220d3a93d292c",
-    "bytes": 31741
+    "sha256": "21f14dbd1c4331d9e29d51603d49bc6b3e752258e8c20ad5ccea76f1b4735e3a",
+    "bytes": 33145
   },
   "phoneme_assembly": {
     "status": "article-complete-assistant-reviewed-human-pending",
@@ -2705,5 +2778,55 @@
     "path": "private/pdf-restoration/12-1984-06-qwen/toc-reconciliation.json",
     "sha256": "b60e072db593db8a1196d7ef0795f26c77a70f465339d3da62a0e81f27477704",
     "bytes": 2383
+  },
+  "history_assembly": {
+    "status": "article-complete-assistant-reviewed-human-pending",
+    "source_pages": [
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244
+    ],
+    "package": {
+      "path": "build/pdf-restoration/12-1984-06-qwen-history-complete/article.json",
+      "sha256": "4ca01928478e8b3d7b4f82958805a381663e877c54b00352f52bdbb8ba608f8a",
+      "bytes": 607468
+    },
+    "manifest": {
+      "path": "build/pdf-restoration/12-1984-06-qwen-history-complete/manifest.json",
+      "sha256": "ee29dd065650ca3fa7660daa07bb34279448279bc986a0a972aa93d27956f5e9",
+      "bytes": 245519
+    },
+    "text_regions": 325,
+    "regions": 342,
+    "figures": 17,
+    "unresolved_entries": 18,
+    "checks": {
+      "byte_identical_rebuild": true,
+      "source_coverage": true,
+      "cross_page_word_join": true,
+      "review_utf8_ranges": true,
+      "all342_regions_human_pending": true
+    },
+    "human_acceptance": "pending"
   }
 }
