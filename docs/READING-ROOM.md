@@ -3,8 +3,8 @@
 ## June Qwen article review preview
 
 The [expanded private June reader](http://127.0.0.1:4187/archive/#/issues/maso-1984-06)
-contains thirty complete articles through the graphic editor (pages192–198), including
-the relocator, classifieds and contest review. Human
+contains thirty-four complete articles through the readers’ letters (pages214–216),
+including Hangul sorting, computer rebellion and horse-blocking games. Human
 acceptance remains pending. June as a whole is still being restored.
 Refresh an already-open browser tab to load the latest staged collection.
 
@@ -19,15 +19,15 @@ To restart the expanded build:
 
 ```sh
 cd web
-READING_ROOM_OUTPUT=build/reading-room-qwen-june-through-graphic-editor READING_ROOM_BASE=/archive/ npm run preview -- --port 4187 --strictPort
+READING_ROOM_OUTPUT=build/reading-room-qwen-june-through-letters READING_ROOM_BASE=/archive/ npm run preview -- --port 4187 --strictPort
 ```
 
 The grouped staging helper and its checked result are local under
-`private/pdf-restoration/12-1984-06-qwen/stage-group32.py` and
-`reader-group32-result.json`. It copies the preceding preview once, adds four
+`private/pdf-restoration/12-1984-06-qwen/stage-group36.py` and
+`reader-group36-result.json`. It copies the preceding preview once, adds four
 pinned packages, preserves prior `scanInputs`, validates every projection and
 checks that unrelated files remain byte-identical. Expanded data manifest SHA-256:
-`84a4130ef5325c8cdb609f24179d63279ad44e7eb6d0c13d0acc0f599e565e33`.
+`8d1f93b99103efc869d7c229b4b72e41c8d2a2341785d84ec627c7664a806aac`.
 Use a fresh output for any further staging; the helper's input checkpoint is fixed.
 
 This preview preserves the previous146 scan articles and CD collection. The

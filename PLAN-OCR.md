@@ -820,3 +820,16 @@ commit code/documentation. Do not count a partial opening as a complete article.
   passed. Totals187 source pages,35 complete assistant-reviewed articles,four
   non-owning headings,zero human accepted. History222–244 is next in two batches,
   followed by appendix245–249,ad index250 and remaining heading classifications.
+
+### Grouped reading preview through letters, 2026-10-10
+
+- Staged four newly complete packages into a fresh grouped reader:34 June articles.
+  All prior146 scan articles, CD content and previous scanInputs preserved. Full
+  dataset integrity, projection/source pins and unchanged prior bytes passed.
+- Production build passed. A full browser reload confirmed34 articles; source
+  review checked the rebellion title-graphic placeholders and letters SCRN$ code,
+  including human-pending banners, scans and correction notes. Screenshots viewed.
+  Local preview remains at port4187; original phoneme preview4186 preserved.
+- New manifest8d1f93b99103efc869d7c229b4b72e41c8d2a2341785d84ec627c7664a806aac.
+  No frontend changes; the user's homepage edit remains untouched and uncommitted.
+  Q&A is complete but awaits the next grouped/final reader; history OCR underway.
