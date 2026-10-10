@@ -370,6 +370,8 @@ and paid-model effort remain unmeasured; continue the matched-crop protocol.
 
 ## Complete June issue experiment
 
+See the [consolidated decision report](OCR-JUNE-DECISION.md) for weighted accuracy, matched-crop runtime, local token/retry accounting, resource peaks and the remaining sustainability measurements.
+
 All 38 canonical article bodies are now assembled across 216 source pages, with
 seven non-owning headings accounting for all 45 contents entries. The
 [coverage ledger](ocr-june-accounting.json) separates availability from review:

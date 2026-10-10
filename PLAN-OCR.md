@@ -914,3 +914,31 @@ commit code/documentation. Do not count a partial opening as a complete article.
   mandatory human review/correction. Some graphic literals remain placeholders;
   no claim of character-perfect text, executable code or measured paid-token/time
   savings. No frontend change; user's homepage edit remains uncommitted.
+
+
+### Consolidated decision metrics, 2026-10-10
+
+- Added docs/OCR-JUNE-DECISION.md and reproducible docs/ocr-june-metrics.json.
+  Aggregated 38 comparison files: 102 matched crops, with 97 ordinary CER crops,
+  three decorative-index crops and two separately cell-scored tables. Weighted
+  compact CER on the 97 non-index crops is 2.22% Qwen versus 25.61% Tesseract;
+  including index, 3.78% versus 27.05%. References remain unblinded assistant drafts.
+- Matched engine time is 206.12s versus 28.75s: Qwen is 7.17 times slower in raw
+  recognition. Retained June inference totals 50.40 minutes, not full project time.
+  Summed raw-run segments cover 66.45 minutes but have explicit timing gaps.
+- Retained OCR used 1,585,546 local tokens. Auditing 3,041 distinct completion IDs,
+  ignoring 661 copied cached responses, plus one separately logged interrupted
+  request yields 1,755,701 observed tokens: 10.73% additional work. Five archived
+  failed responses hit the output limit; ordinary-stop omissions remain possible.
+- Recommended next trial: Qwen raw OCR with current semantic correction and
+  mandatory human review; Tesseract fallback/selective comparisons. Local Qwen
+  self-correction remains optional given extra compute and observed regressions.
+  No pipeline defaults changed. Paid assistant tokens, human active review time,
+  energy and cost per accepted page remain unmeasured; no savings claim.
+- Consolidator tests cover weighted rates, empty/mismatched denominators, true
+  reruns versus cache copies, and token reconciliation. Existing OCR evidence and
+  the user's homepage edit are preserved.
+- Validation: five focused aggregation tests passed; regenerated JSON and report
+  match byte-for-byte. Retained calls/tokens reconcile with all 41 checkpoints.
+  Early monitored-stage timing labels are explicitly distinguished from underlying
+  inference timers; original checkpoint evidence was not rewritten.

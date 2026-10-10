@@ -1,0 +1,1805 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-06",
+  "scope": {
+    "toc_entries": 45,
+    "completed_articles": 38,
+    "human_accepted_articles": 0,
+    "assistant_reviewed_complete_articles": 38,
+    "assistant_reviewed_partial_articles": 0,
+    "processed_source_pages": 216,
+    "non_owning_headings": 7
+  },
+  "inputs": [
+    {
+      "path": "docs/ocr-june-progress.json",
+      "sha256": "d057c3e2bdce2dc9775240ab4ee5a7305c47bef2e6695230c176b35c1d17945b",
+      "bytes": 94123
+    },
+    {
+      "path": "docs/ocr-workflow-measurements.json",
+      "sha256": "83982c6d778851bbdd6ea2e7a70e79d038e35e793d809ffcc38cbd6ea12038b2",
+      "bytes": 18258
+    },
+    {
+      "path": "docs/ocr-june-batch04-comparison.json",
+      "sha256": "901be81f16c7c564a4708145ffbc5040472c3c49cf2d72f4bc32b9f7e3d3afe6",
+      "bytes": 14621
+    },
+    {
+      "path": "docs/ocr-june-batch05-comparison.json",
+      "sha256": "3ab8f63710f20f4c545b4229c7dd9f4d0f8bb68ccc59a95122fb46cc80c41f21",
+      "bytes": 10448
+    },
+    {
+      "path": "docs/ocr-june-batch06-comparison.json",
+      "sha256": "125828358effda48b322ebe15862cac1c71d1620f436ded998231bed74114c23",
+      "bytes": 5776
+    },
+    {
+      "path": "docs/ocr-june-batch07-comparison.json",
+      "sha256": "3f447b5c802dfd480a0aa33b74d2be2c32a1c025ae066d947cd8aaf2d3fae5e5",
+      "bytes": 5223
+    },
+    {
+      "path": "docs/ocr-june-batch08-comparison.json",
+      "sha256": "39e34469afef84bea7c5404a0b3b553f130fc3b1f4a71cef14b0366a8c7d2425",
+      "bytes": 5215
+    },
+    {
+      "path": "docs/ocr-june-batch09-comparison.json",
+      "sha256": "6eda5ef48b0ad9d8566a62e77245bbbaa8a514c30e8439f673faf5623e8c6270",
+      "bytes": 3043
+    },
+    {
+      "path": "docs/ocr-june-batch10-comparison.json",
+      "sha256": "3f1b5cd718164004a6a608f23357a298623c9baa7e548e0942c3829f51eb8765",
+      "bytes": 3054
+    },
+    {
+      "path": "docs/ocr-june-batch11-comparison.json",
+      "sha256": "9390e94ce1fbe4310cda1cc9789080e967e9ae1291f426a2135e01e9a1691d7b",
+      "bytes": 3042
+    },
+    {
+      "path": "docs/ocr-june-batch12-comparison.json",
+      "sha256": "465d0c5865784bdc0a3b6ae235be159d4eaecc4200c41c31ebcbf1544ffbea01",
+      "bytes": 3006
+    },
+    {
+      "path": "docs/ocr-june-batch13-comparison.json",
+      "sha256": "0155e3d4110b69e9d1452f15065b5519f52d82165db665e6f496c57651ada0c0",
+      "bytes": 5482
+    },
+    {
+      "path": "docs/ocr-june-batch14-comparison.json",
+      "sha256": "5e7a75bff6d6f5e4a39d44120914b5bb8586a5ea03c9b736ed5a346675ed46b6",
+      "bytes": 5488
+    },
+    {
+      "path": "docs/ocr-june-batch15-comparison.json",
+      "sha256": "085ddfa9ed0679f4dc56b477b2fb38d6d2e70b5ace567c61f7ef28cf1b325888",
+      "bytes": 7783
+    },
+    {
+      "path": "docs/ocr-june-batch16-comparison.json",
+      "sha256": "6036ea6a639dc581dbe60c49380903e06b97a5d721766b96cc792736d5155558",
+      "bytes": 5478
+    },
+    {
+      "path": "docs/ocr-june-batch17-comparison.json",
+      "sha256": "25190c7f2529e7372f83e2ff042f125030357b302cbb681a98ee9180bacabfd2",
+      "bytes": 7701
+    },
+    {
+      "path": "docs/ocr-june-batch18-comparison.json",
+      "sha256": "30423c74fee9dd5aed7560d1fc96ff31a35b26fa89d39ca3271681f1d1e71baa",
+      "bytes": 7640
+    },
+    {
+      "path": "docs/ocr-june-batch19-comparison.json",
+      "sha256": "5d8a3e3bb1c992c8ba797cd68963d75b0b246db12310774dbee2a5f31d24db19",
+      "bytes": 7722
+    },
+    {
+      "path": "docs/ocr-june-batch20-comparison.json",
+      "sha256": "158ece2663e9df58806a7b5aed117b4bf90fec8d9229448afdf689d39a4f7ca9",
+      "bytes": 7623
+    },
+    {
+      "path": "docs/ocr-june-batch21-comparison.json",
+      "sha256": "3179337768f7c62f00b7573ab63e8c79c3640feba3f287644bc1718aa01ce029",
+      "bytes": 5456
+    },
+    {
+      "path": "docs/ocr-june-batch22-comparison.json",
+      "sha256": "08bafda8f626a3a07372d9ba2c9be17eafcdef7e8aa8d9075ce38d219bae048b",
+      "bytes": 7713
+    },
+    {
+      "path": "docs/ocr-june-batch23-comparison.json",
+      "sha256": "8a4abde89b9049d31aa9f9249ac4c5841fc3321e235339e8c18d7e7c6cae111b",
+      "bytes": 9221
+    },
+    {
+      "path": "docs/ocr-june-batch24-comparison.json",
+      "sha256": "111f5aa15452ec64704550f52a38dd32323c448eea64fc2e3870b6eea2a2c20c",
+      "bytes": 7750
+    },
+    {
+      "path": "docs/ocr-june-batch25-comparison.json",
+      "sha256": "a03c9620b616fc1007fad2355c6fb52ccb8d4dca70fe65aa662a8bb78bfdd49d",
+      "bytes": 7680
+    },
+    {
+      "path": "docs/ocr-june-batch26-comparison.json",
+      "sha256": "2614e84ff3bbe36085d11f09648994dd42e5de0d9916357b4ca9491cf2ef8fea",
+      "bytes": 8384
+    },
+    {
+      "path": "docs/ocr-june-batch27-comparison.json",
+      "sha256": "0cf4320e9fdff78c48bf3b81e8e3fadcddc16971957972504e583c986cd677d7",
+      "bytes": 7742
+    },
+    {
+      "path": "docs/ocr-june-batch28-comparison.json",
+      "sha256": "1c2613f90c5078feabda167b331466d36f3475f13fc8a3f7a76ad0e9ff87f491",
+      "bytes": 8832
+    },
+    {
+      "path": "docs/ocr-june-batch29-comparison.json",
+      "sha256": "88b09c4fe3989b32953e5606628a8a195f0fc7175dfe48d421124f323519b227",
+      "bytes": 7595
+    },
+    {
+      "path": "docs/ocr-june-batch30-comparison.json",
+      "sha256": "3a43506cae7082150f5b8be6d2318db8b17bb6544ce3bbf30009c3b3d630ec83",
+      "bytes": 7630
+    },
+    {
+      "path": "docs/ocr-june-batch31-comparison.json",
+      "sha256": "bc43d0dbeccc24d53659d3a3dad36bb3b8927123bd07c05fda065f4866270463",
+      "bytes": 7602
+    },
+    {
+      "path": "docs/ocr-june-batch32-comparison.json",
+      "sha256": "7395be660403cd9f0d10ab92d0c8741347aa687605b2e0c916a630c1fae30f7a",
+      "bytes": 7692
+    },
+    {
+      "path": "docs/ocr-june-batch33-comparison.json",
+      "sha256": "ba6f315813d09f178f50d77688f3c73268a669e8ebc7f1008d458f51aa4b78d5",
+      "bytes": 7751
+    },
+    {
+      "path": "docs/ocr-june-batch34-comparison.json",
+      "sha256": "e5855683913442c14e2b66d64072df177c6bf28e8ae8a72018516a80722f9ed7",
+      "bytes": 7869
+    },
+    {
+      "path": "docs/ocr-june-batch35-comparison.json",
+      "sha256": "8f135eb979e1f76845a98fa8d0ca271a434c7c9c4ac48e49f58060f514425ec2",
+      "bytes": 7763
+    },
+    {
+      "path": "docs/ocr-june-batch36-comparison.json",
+      "sha256": "b262c86074b9954ed029ab84fd8589396d41f01996033e773324a3430a996f7a",
+      "bytes": 7650
+    },
+    {
+      "path": "docs/ocr-june-batch37-comparison.json",
+      "sha256": "e73004e167a1d05863f4f068a81ccb97e7a2d53d5383258c5f33ad06c2e67da6",
+      "bytes": 7632
+    },
+    {
+      "path": "docs/ocr-june-batch38-comparison.json",
+      "sha256": "17738f7ca71c2bb3df76c252b3d4fb6365d72d7d4a57b8a25e16fe00390e01de",
+      "bytes": 7698
+    },
+    {
+      "path": "docs/ocr-june-batch39-comparison.json",
+      "sha256": "b155429e9816cbad74413136aaddb50ca21ee66d37edc77e385e93b4930c4494",
+      "bytes": 7723
+    },
+    {
+      "path": "docs/ocr-june-batch40-comparison.json",
+      "sha256": "12af161939730bf68b8a23f82f2f08ee59025fe21afd7ad1ff3f704404753ae4",
+      "bytes": 7658
+    },
+    {
+      "path": "docs/ocr-june-batch41-comparison.json",
+      "sha256": "6880b6de77487509136f1966729225f0ca68c5b90564b72c30f9d7df69272f6a",
+      "bytes": 10247
+    }
+  ],
+  "accuracy": {
+    "method": "Sum edits / sum reference characters (micro-average). NFC-normalized; standard CER collapses whitespace, compact CER removes it. Neither certifies executable code.",
+    "reference": "Purposive, single-run crops with unblinded assistant-corrected Qwen-derived references fixed before Tesseract. Not independent human gold or representative whole-issue accuracy.",
+    "body_text": {
+      "crops": 97,
+      "engines": {
+        "qwen": {
+          "cer": {
+            "edits": 549,
+            "reference_characters": 24191,
+            "rate": 0.022694390475796782
+          },
+          "cer_no_whitespace": {
+            "edits": 423,
+            "reference_characters": 19092,
+            "rate": 0.022155876807039596
+          }
+        },
+        "tesseract": {
+          "cer": {
+            "edits": 5745,
+            "reference_characters": 24191,
+            "rate": 0.23748501508825595
+          },
+          "cer_no_whitespace": {
+            "edits": 4890,
+            "reference_characters": 19092,
+            "rate": 0.2561282212445003
+          }
+        }
+      },
+      "compact_crop_outcomes": {
+        "qwen_lower": 95,
+        "tesseract_lower": 2
+      }
+    },
+    "by_category": {
+      "prose": {
+        "crops": 42,
+        "engines": {
+          "qwen": {
+            "cer": {
+              "edits": 66,
+              "reference_characters": 7330,
+              "rate": 0.009004092769440655
+            },
+            "cer_no_whitespace": {
+              "edits": 17,
+              "reference_characters": 5656,
+              "rate": 0.003005657708628006
+            }
+          },
+          "tesseract": {
+            "cer": {
+              "edits": 746,
+              "reference_characters": 7330,
+              "rate": 0.10177353342428376
+            },
+            "cer_no_whitespace": {
+              "edits": 523,
+              "reference_characters": 5656,
+              "rate": 0.09246817538896747
+            }
+          }
+        },
+        "compact_crop_outcomes": {
+          "qwen_lower": 42
+        }
+      },
+      "code": {
+        "crops": 48,
+        "engines": {
+          "qwen": {
+            "cer": {
+              "edits": 416,
+              "reference_characters": 15524,
+              "rate": 0.026797217212058747
+            },
+            "cer_no_whitespace": {
+              "edits": 354,
+              "reference_characters": 12384,
+              "rate": 0.028585271317829456
+            }
+          },
+          "tesseract": {
+            "cer": {
+              "edits": 4642,
+              "reference_characters": 15524,
+              "rate": 0.29902087090955937
+            },
+            "cer_no_whitespace": {
+              "edits": 4098,
+              "reference_characters": 12384,
+              "rate": 0.33091085271317827
+            }
+          }
+        },
+        "compact_crop_outcomes": {
+          "qwen_lower": 47,
+          "tesseract_lower": 1
+        }
+      },
+      "other": {
+        "crops": 7,
+        "engines": {
+          "qwen": {
+            "cer": {
+              "edits": 67,
+              "reference_characters": 1337,
+              "rate": 0.05011219147344802
+            },
+            "cer_no_whitespace": {
+              "edits": 52,
+              "reference_characters": 1052,
+              "rate": 0.049429657794676805
+            }
+          },
+          "tesseract": {
+            "cer": {
+              "edits": 357,
+              "reference_characters": 1337,
+              "rate": 0.2670157068062827
+            },
+            "cer_no_whitespace": {
+              "edits": 269,
+              "reference_characters": 1052,
+              "rate": 0.25570342205323193
+            }
+          }
+        },
+        "compact_crop_outcomes": {
+          "qwen_lower": 6,
+          "tesseract_lower": 1
+        }
+      }
+    },
+    "including_index_primary": {
+      "crops": 100,
+      "engines": {
+        "qwen": {
+          "cer": {
+            "edits": 886,
+            "reference_characters": 24495,
+            "rate": 0.03617064707083078
+          },
+          "cer_no_whitespace": {
+            "edits": 731,
+            "reference_characters": 19333,
+            "rate": 0.03781099674132313
+          }
+        },
+        "tesseract": {
+          "cer": {
+            "edits": 6100,
+            "reference_characters": 24495,
+            "rate": 0.24903041437027965
+          },
+          "cer_no_whitespace": {
+            "edits": 5230,
+            "reference_characters": 19333,
+            "rate": 0.2705219055500957
+          }
+        }
+      },
+      "compact_crop_outcomes": {
+        "qwen_lower": 97,
+        "tesseract_lower": 3
+      }
+    },
+    "index_primary": {
+      "crops": 3,
+      "engines": {
+        "qwen": {
+          "cer": {
+            "edits": 337,
+            "reference_characters": 304,
+            "rate": 1.1085526315789473
+          },
+          "cer_no_whitespace": {
+            "edits": 308,
+            "reference_characters": 241,
+            "rate": 1.2780082987551866
+          }
+        },
+        "tesseract": {
+          "cer": {
+            "edits": 355,
+            "reference_characters": 304,
+            "rate": 1.167763157894737
+          },
+          "cer_no_whitespace": {
+            "edits": 340,
+            "reference_characters": 241,
+            "rate": 1.4107883817427387
+          }
+        }
+      },
+      "compact_crop_outcomes": {
+        "qwen_lower": 2,
+        "tesseract_lower": 1
+      }
+    },
+    "index_supplemental": {
+      "crops": 3,
+      "engines": {
+        "qwen": {
+          "cer": {
+            "edits": 1,
+            "reference_characters": 304,
+            "rate": 0.003289473684210526
+          },
+          "cer_no_whitespace": {
+            "edits": 1,
+            "reference_characters": 241,
+            "rate": 0.004149377593360996
+          }
+        },
+        "tesseract": {
+          "cer": {
+            "edits": 309,
+            "reference_characters": 304,
+            "rate": 1.0164473684210527
+          },
+          "cer_no_whitespace": {
+            "edits": 296,
+            "reference_characters": 241,
+            "rate": 1.2282157676348548
+          }
+        }
+      },
+      "compact_crop_outcomes": {
+        "qwen_lower": 3
+      }
+    },
+    "index_policy": "Post-hoc diagnostic, after seeing both outputs. Identical removal of ASCII period, middle dot, ellipsis and two-dot leader from reference and both engine outputs. Does not remove hallucinated letters/digits, repair names, or pair rows. Primary scores retained; decoration inflates those scores. Unblinded assistant reference, not independent gold.",
+    "phoneme_table_cells": {
+      "crops": 2,
+      "excluded_ambiguous_cells": 8,
+      "engines": {
+        "qwen": {
+          "matched": 311,
+          "total": 312
+        },
+        "tesseract": {
+          "matched": 260,
+          "total": 312
+        }
+      },
+      "tesseract_english_sensitivity": {
+        "matched": 265,
+        "total": 312
+      }
+    },
+    "literal_sensitive_numbered_rows": {
+      "crops": 5,
+      "scope": "Only batch05–06 assembly samples; whitespace within single-quoted literals retained. Not all June code.",
+      "engines": {
+        "qwen": {
+          "exact": 99,
+          "total": 108
+        },
+        "tesseract": {
+          "exact": 0,
+          "total": 108
+        }
+      }
+    }
+  },
+  "paired_engine_comparison": {
+    "crops": 102,
+    "scope": "Primary matched crops, including two cell-scored tables and three index crops; no extra language reruns. Qwen inference versus Tesseract engine calls, excluding common layout/rendering, Qwen startup and later correction.",
+    "engines": {
+      "qwen": {
+        "seconds": 206.12347531801424,
+        "median_seconds": 1.6281634174993087,
+        "peak_rss_mib_sampled": 10451.75390625,
+        "peak_gpu_mib_sampled": 7858
+      },
+      "tesseract": {
+        "seconds": 28.74757072801731,
+        "median_seconds": 0.2360413634996803,
+        "peak_rss_mib_sampled": 118.81640625,
+        "peak_gpu_mib_sampled": null
+      }
+    },
+    "qwen_to_tesseract_time_ratio": 7.17011803425626
+  },
+  "local_compute": {
+    "retained_calls": 2811,
+    "retained_inference_seconds": 3023.7647097910726,
+    "retained_tokens": {
+      "prompt_tokens": 1323619,
+      "completion_tokens": 261927,
+      "total_tokens": 1585546
+    },
+    "unique_response_calls": 3041,
+    "duplicate_cached_response_files_ignored": 661,
+    "all_response_tokens": {
+      "prompt_tokens": 1450731,
+      "completion_tokens": 304739,
+      "total_tokens": 1755470
+    },
+    "additional_response_tokens": {
+      "prompt_tokens": 127112,
+      "completion_tokens": 42812,
+      "total_tokens": 169924
+    },
+    "additional_response_calls": 230,
+    "interrupted_request_tokens_without_response": 231,
+    "observed_tokens_including_interrupted_request": 1755701,
+    "token_completeness": "Observed June inference responses plus separately logged interrupted request; excludes earlier pilot experiments. Unlogged/uncaptured work, if any, is not estimated.",
+    "audit_sha256": "a9ca579a4b6e2a720ed5c283326a464efa0f1b256d26bcb7a380c1d666fded9b",
+    "retained_stage_evidence_sha256": "0c006509214ec173912ad965073bfd1bcdb793ecf654faf8bbc2a8103fd5e264",
+    "failed_response_count": 5,
+    "failures": [
+      {
+        "source": {
+          "path": "private/pdf-restoration/12-1984-06-qwen/batch-23/ocr-aborted-fee-row/stages/scan-maso-1984-06-toc-0039/p134r21/inference.response.json",
+          "sha256": "a6c9dfcc41bb39e2dd882078182d4b5a27029ea2c573a84cc1cf59208efc6dd8",
+          "bytes": 13270
+        },
+        "finish_reason": "length",
+        "tokens": 4330,
+        "server_seconds": 38.62278
+      },
+      {
+        "source": {
+          "path": "private/pdf-restoration/12-1984-06-qwen/batch-23/ocr-aborted-fee-table/stages/scan-maso-1984-06-toc-0039/p134r13/inference.response.json",
+          "sha256": "83c15aa9fe7703a3c91d06b0547031d37584b8348006d7c912737dd801ca31cc",
+          "bytes": 13272
+        },
+        "finish_reason": "length",
+        "tokens": 5077,
+        "server_seconds": 39.903923999999996
+      },
+      {
+        "source": {
+          "path": "private/pdf-restoration/12-1984-06-qwen/batch-28/ocr-before-repetition-fix/stages/scan-maso-1984-06-toc-0028/p181r14/inference.response.json",
+          "sha256": "31006525a22c264b5b29e0ffe05881c28f3a8f5f5a1c24409f39f43600b8f721",
+          "bytes": 6869
+        },
+        "finish_reason": "length",
+        "tokens": 4674,
+        "server_seconds": 38.71071799999999
+      },
+      {
+        "source": {
+          "path": "private/pdf-restoration/12-1984-06-qwen/batch-34/ocr-before-graphic-loop/stages/scan-maso-1984-06-toc-0033/p207r04/inference.response.json",
+          "sha256": "2185551de49ad5ca5a4a66dc6049dbe6c588d54875cfd9d31f8dbf2688fa2005",
+          "bytes": 9182
+        },
+        "finish_reason": "length",
+        "tokens": 4950,
+        "server_seconds": 38.707685
+      },
+      {
+        "source": {
+          "path": "private/pdf-restoration/12-1984-06-qwen/batch-34/ocr-before-star-loop/stages/scan-maso-1984-06-toc-0033/p207r01/inference.response.json",
+          "sha256": "d7c1c23cdf271a1bc4570e0e55c612e23a7b0dc41ffa91765d219a7ad1ea9ea3",
+          "bytes": 9177
+        },
+        "finish_reason": "length",
+        "tokens": 4950,
+        "server_seconds": 38.953202
+      }
+    ],
+    "peak_gpu_mib_sampled": 7988,
+    "peak_rss_mib_sampled": 10501.5546875,
+    "mean_retained_inference_seconds_per_source_page": 13.998910693477187,
+    "mean_retained_local_tokens_per_source_page": 7340.490740740741,
+    "recorded_run_segments_seconds": 3986.9922113239827,
+    "recorded_run_segments": [
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04-corrected/raw-run-timing.json",
+        "sha256": "1dd390f8b5066df1cc874bcf28fabac3b2035d024ed40d93fd7eae214f9873c6",
+        "bytes": 897
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-05/raw-run-timing.json",
+        "sha256": "013d633a753aadbf4c775f66d98a15a4cc341a03813f7400fa3dd9c90750b22b",
+        "bytes": 897
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-06/raw-run-timing.json",
+        "sha256": "262a28a8db767d2242ff783eb4c3296d426a04bb15caf696038bd6ee54650213",
+        "bytes": 855
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-07/raw-run-timing.json",
+        "sha256": "76c7aa2c0a8b17c6b458c5574c68e460f8aca64391f918370b5b2b8c2c696bba",
+        "bytes": 883
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-08/raw-run-timing.json",
+        "sha256": "2b77b3f6ce5a0dbcc6952f818d36dfb2971e74d4c9b80ad2c5c7a16d340ea4cc",
+        "bytes": 854
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-09/raw-run-timing.json",
+        "sha256": "b465a3d10b483280504a9b675cccb908645816df4eb4f2821c367cd4c7dbb7d5",
+        "bytes": 869
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-10/raw-run-timing.json",
+        "sha256": "14fc1dc2c173c5a82cba9af5d3648cb087ea9c590527150129ad27b83cffe100",
+        "bytes": 841
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-11/raw-run-timing.json",
+        "sha256": "7939c0a3b08c417549f3183df943ceeb29ad7ca2ce7ae92c1d383132eb3e1b5a",
+        "bytes": 869
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-12/raw-run-timing.json",
+        "sha256": "21bd50b515e933eb52a0ddb02e0d3b8fea3782a419b60fd86e5733b78f6beccb",
+        "bytes": 897
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-13/raw-run-timing.json",
+        "sha256": "ab2576d13f9788a184d08b1a386a7e22013f3989a1d5e3d5236e8c6e05355cc3",
+        "bytes": 855
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-14/raw-run-timing.json",
+        "sha256": "b58e80bf2352e20056ab6940783b279576eb773b43b2d3f65d420de791b92f7e",
+        "bytes": 883
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-15/raw-run-timing.json",
+        "sha256": "c95267a48876c445b8159239287bab95cb1b9f0d545888157e5baa56f6c52c2c",
+        "bytes": 955
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-16/raw-run-timing.json",
+        "sha256": "21aac7b4684176e032816db442d611b7157b068290773ffe687a98a4c7d7e692",
+        "bytes": 855
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-17/raw-run-timing.json",
+        "sha256": "2703361e0fd85d2892edd64e789a83d97a6fe2363032c4b2f0e412f42a1c29c2",
+        "bytes": 935
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-18/raw-run-timing.json",
+        "sha256": "5e04695e355bd8c10bb4c01a575f9dad2ba2bfff4077126651bebd0f85dc31c8",
+        "bytes": 888
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-19/raw-run-timing.json",
+        "sha256": "854cc218e5be313d2d69bdef0ca652ca8d46c0fc3a2aeb45509383c35d0fc9d4",
+        "bytes": 873
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-20/raw-run-timing.json",
+        "sha256": "be381f25271745cfded28d06ff5658297e87b8d261aba0ffdfed49080fb68b5c",
+        "bytes": 919
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-21/raw-run-timing.json",
+        "sha256": "a9457cbe463a9ffc4f352ec982a67f694c2baba8937b2373e0eb17faa3f869e0",
+        "bytes": 843
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-22/raw-run-timing.json",
+        "sha256": "6d8154648022274777694d3b27b6cb375ecdec0e311104b6802c267b9f9eff71",
+        "bytes": 873
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-23/raw-run-timing.json",
+        "sha256": "5bb830e6743bf5b402952f419eb4edbc3f6887dc5c3f83068fcdbb300253029c",
+        "bytes": 966
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-24/raw-run-timing.json",
+        "sha256": "386271f34b49cd06ee2bd2876a6ed79d69df712ae5ab428dc5f98f9a09d46751",
+        "bytes": 921
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-25/raw-run-timing.json",
+        "sha256": "7fa8213d3dce42e42fbfbdc1e33fd83d99a36a305e40682d484248126bbee780",
+        "bytes": 903
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-26/raw-run-timing.json",
+        "sha256": "1b470dca87b74ee2f534159cb6e62059d3fc59f6c05ff9f350097c22449d61a7",
+        "bytes": 998
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-27/raw-run-timing.json",
+        "sha256": "36e5a0696bdf2dee94049d4f1fb2537ca6e28a543bdb5d042d1b5ca8d89cae3b",
+        "bytes": 986
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-28/raw-run-timing.json",
+        "sha256": "4af25f36bae23336fef1503aa6493b4ac68c3532221c6685429970a27f29b476",
+        "bytes": 1046
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-29/raw-run-timing.json",
+        "sha256": "a86db8167b01a5665df222dd7d16ec735215ae51651571bd8de39538f7dcaa2d",
+        "bytes": 874
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-30/raw-run-timing.json",
+        "sha256": "6e70e0b247dd1834f388af7e79161380b0f25cf2e543b5bb4e74ac4a1ee29e98",
+        "bytes": 1236
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-31/raw-run-timing.json",
+        "sha256": "cfd4a7ad6e6b1ad7e647bcc70312849070fb404ec966e7f1cac777ac1ef4b5a0",
+        "bytes": 843
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-32/raw-run-timing.json",
+        "sha256": "bcc636aedbcfea157bbe10364ef7b152787a5cde5b333bbe32a9f11891e27ec1",
+        "bytes": 987
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-33/raw-run-timing.json",
+        "sha256": "728e4a0ce7fe295df64251ea540bc4b6fd5f775698bd6f43e7ebd654a1c7418c",
+        "bytes": 922
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-34/raw-run-timing.json",
+        "sha256": "c60f5650edba3afe4dd8751a53ed30a3f81dcd025a6031516df9365afd21f4f6",
+        "bytes": 980
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-35/raw-run-timing.json",
+        "sha256": "235b6d08059e02f77a9bcebe613b6980d00128771a5e3d5cc8ad66f35cd5a3aa",
+        "bytes": 890
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-36/raw-run-timing.json",
+        "sha256": "d0cfb33c1814f624c9514c20dc53c3ee7f1ab3b23370418943c54ec6ed35cb3c",
+        "bytes": 875
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-37/raw-run-timing.json",
+        "sha256": "b53a4437eb09fb72f152f495612bd0cd2a7c3ba52007e81753f102c33842f61e",
+        "bytes": 875
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-38/raw-run-timing.json",
+        "sha256": "31e24180d48013abe1089b04a25cc1669cd5387d0149487ba67ea8f391f3113c",
+        "bytes": 1013
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-39/raw-run-timing.json",
+        "sha256": "578a9e1a4581b61647e78d21112fbd2c9497080032f1bfac6675932d10cc42b2",
+        "bytes": 998
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-40/raw-run-timing.json",
+        "sha256": "b7377c2d7ab5de176503ccba1a285e7bea821c3ba6827042421919364cb11fc3",
+        "bytes": 907
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-41/raw-run-timing.json",
+        "sha256": "d4d76354ece6a2a0be953e46bce9ad3fa63633c85ee2a5dcad60e9f7a2b39843",
+        "bytes": 844
+      },
+      {
+        "path": "private/pdf-restoration/12-1984-06-qwen/batch-04/raw-run-timing.json",
+        "sha256": "7aec0e7fe49fc5b0b63df62cb4125b90a0aba7c1f77da13631cd76914072d33d",
+        "bytes": 897
+      }
+    ],
+    "full_preparation_seconds": null,
+    "timing_gaps": [
+      "Batches01–03 have no full-run timer; batch01 preparation_seconds in the old checkpoint is summed monitored stage time, not full preparation.",
+      "Superseded/aborted passes in batches20 and23 are not covered by the final-run timers.",
+      "Batches28 and32 timers cover recovery only; earlier pass wall time is unavailable.",
+      "Do not add retained inference time to run timers: they overlap. Layout mapping, semantic correction, assembly and human review are outside raw-run timers."
+    ],
+    "by_batch": [
+      {
+        "monitored_stage_seconds": 58.719463893000466,
+        "batch": "batch-01",
+        "retained_calls": 23,
+        "inference_seconds": 55.74464384199973,
+        "tokens": {
+          "prompt_tokens": 23030,
+          "completion_tokens": 4257,
+          "total_tokens": 27287
+        },
+        "peak_gpu_mib_sampled": 7842,
+        "peak_rss_mib_sampled": 5887.046875,
+        "recorded_run_seconds": null,
+        "checkpoint_reported_seconds": 58.719463893000466,
+        "checkpoint_timer_basis": "resources.wall_seconds labeled preparation_seconds; not full preparation",
+        "additional_response_calls": 23,
+        "additional_response_tokens": {
+          "prompt_tokens": 23053,
+          "completion_tokens": 4256,
+          "total_tokens": 27309
+        }
+      },
+      {
+        "monitored_stage_seconds": 66.02930333799668,
+        "batch": "batch-02",
+        "retained_calls": 32,
+        "inference_seconds": 62.915933256988865,
+        "tokens": {
+          "prompt_tokens": 23428,
+          "completion_tokens": 5207,
+          "total_tokens": 28635
+        },
+        "peak_gpu_mib_sampled": 7828,
+        "peak_rss_mib_sampled": 6037.27734375,
+        "recorded_run_seconds": null,
+        "checkpoint_reported_seconds": 66.02930333799668,
+        "checkpoint_timer_basis": "resources.wall_seconds mislabeled as inference_wall_seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 60.8652370449945,
+        "batch": "batch-03",
+        "retained_calls": 23,
+        "inference_seconds": 58.065451322001536,
+        "tokens": {
+          "prompt_tokens": 20939,
+          "completion_tokens": 4600,
+          "total_tokens": 25539
+        },
+        "peak_gpu_mib_sampled": 7862,
+        "peak_rss_mib_sampled": 5644.0078125,
+        "recorded_run_seconds": null,
+        "checkpoint_reported_seconds": 60.8652370449945,
+        "checkpoint_timer_basis": "resources.wall_seconds mislabeled as inference_wall_seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 69.03333644000668,
+        "batch": "batch-04",
+        "retained_calls": 40,
+        "inference_seconds": 65.41633359498519,
+        "tokens": {
+          "prompt_tokens": 27025,
+          "completion_tokens": 5233,
+          "total_tokens": 32258
+        },
+        "peak_gpu_mib_sampled": 7858,
+        "peak_rss_mib_sampled": 6654.2109375,
+        "recorded_run_seconds": 89.94749841800149,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 69.03333644000668,
+        "checkpoint_timer_basis": "resources.wall_seconds mislabeled as inference_wall_seconds",
+        "additional_response_calls": 40,
+        "additional_response_tokens": {
+          "prompt_tokens": 27025,
+          "completion_tokens": 5233,
+          "total_tokens": 32258
+        }
+      },
+      {
+        "monitored_stage_seconds": 57.05610554201121,
+        "batch": "batch-05",
+        "retained_calls": 23,
+        "inference_seconds": 53.43067698599407,
+        "tokens": {
+          "prompt_tokens": 25826,
+          "completion_tokens": 3901,
+          "total_tokens": 29727
+        },
+        "peak_gpu_mib_sampled": 7838,
+        "peak_rss_mib_sampled": 6450.28125,
+        "recorded_run_seconds": 99.37558945199999,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 57.05610554201121,
+        "checkpoint_timer_basis": "resources.wall_seconds mislabeled as inference_wall_seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 40.162616808003804,
+        "batch": "batch-06",
+        "retained_calls": 11,
+        "inference_seconds": 37.86716472199623,
+        "tokens": {
+          "prompt_tokens": 16561,
+          "completion_tokens": 2693,
+          "total_tokens": 19254
+        },
+        "peak_gpu_mib_sampled": 7940,
+        "peak_rss_mib_sampled": 4720.04296875,
+        "recorded_run_seconds": 68.42249207699933,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 40.162616808003804,
+        "checkpoint_timer_basis": "resources.wall_seconds mislabeled as inference_wall_seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 72.9684001889982,
+        "batch": "batch-07",
+        "retained_calls": 22,
+        "inference_seconds": 70.66365995499655,
+        "tokens": {
+          "prompt_tokens": 20665,
+          "completion_tokens": 6243,
+          "total_tokens": 26908
+        },
+        "peak_gpu_mib_sampled": 7836,
+        "peak_rss_mib_sampled": 5881.625,
+        "recorded_run_seconds": 89.45138353099901,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 70.66365995499655,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 45.49986048800929,
+        "batch": "batch-08",
+        "retained_calls": 19,
+        "inference_seconds": 43.596877793988824,
+        "tokens": {
+          "prompt_tokens": 15831,
+          "completion_tokens": 3752,
+          "total_tokens": 19583
+        },
+        "peak_gpu_mib_sampled": 7822,
+        "peak_rss_mib_sampled": 4572.2890625,
+        "recorded_run_seconds": 57.9015017970014,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 43.596877793988824,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 59.45256624699323,
+        "batch": "batch-09",
+        "retained_calls": 26,
+        "inference_seconds": 57.126952045997314,
+        "tokens": {
+          "prompt_tokens": 18946,
+          "completion_tokens": 5068,
+          "total_tokens": 24014
+        },
+        "peak_gpu_mib_sampled": 7820,
+        "peak_rss_mib_sampled": 5262.96484375,
+        "recorded_run_seconds": 75.62036207900019,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 57.126952045997314,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 26.312399144993833,
+        "batch": "batch-10",
+        "retained_calls": 10,
+        "inference_seconds": 25.166897752995283,
+        "tokens": {
+          "prompt_tokens": 10350,
+          "completion_tokens": 2019,
+          "total_tokens": 12369
+        },
+        "peak_gpu_mib_sampled": 7822,
+        "peak_rss_mib_sampled": 3427.71875,
+        "recorded_run_seconds": 37.11122612100007,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 25.166897752995283,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 63.43761810601791,
+        "batch": "batch-11",
+        "retained_calls": 47,
+        "inference_seconds": 59.62444014599532,
+        "tokens": {
+          "prompt_tokens": 25800,
+          "completion_tokens": 4993,
+          "total_tokens": 30793
+        },
+        "peak_gpu_mib_sampled": 7826,
+        "peak_rss_mib_sampled": 6300.609375,
+        "recorded_run_seconds": 78.45254760799799,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 59.62444014599532,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 90.13686704800057,
+        "batch": "batch-12",
+        "retained_calls": 68,
+        "inference_seconds": 84.6788466270009,
+        "tokens": {
+          "prompt_tokens": 36677,
+          "completion_tokens": 7072,
+          "total_tokens": 43749
+        },
+        "peak_gpu_mib_sampled": 7844,
+        "peak_rss_mib_sampled": 8222.58984375,
+        "recorded_run_seconds": 109.6718005799994,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 84.6788466270009,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 54.18631719000405,
+        "batch": "batch-13",
+        "retained_calls": 19,
+        "inference_seconds": 52.26112418698176,
+        "tokens": {
+          "prompt_tokens": 15937,
+          "completion_tokens": 4769,
+          "total_tokens": 20706
+        },
+        "peak_gpu_mib_sampled": 7824,
+        "peak_rss_mib_sampled": 4757.95703125,
+        "recorded_run_seconds": 67.66353864799748,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 52.26112418698176,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 69.75051040897233,
+        "batch": "batch-14",
+        "retained_calls": 50,
+        "inference_seconds": 65.80715316899295,
+        "tokens": {
+          "prompt_tokens": 25770,
+          "completion_tokens": 5937,
+          "total_tokens": 31707
+        },
+        "peak_gpu_mib_sampled": 7804,
+        "peak_rss_mib_sampled": 6421.61328125,
+        "recorded_run_seconds": 88.26912819999416,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 65.80715316899295,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 143.00975903798098,
+        "batch": "batch-15",
+        "retained_calls": 88,
+        "inference_seconds": 135.60695551201206,
+        "tokens": {
+          "prompt_tokens": 50691,
+          "completion_tokens": 11564,
+          "total_tokens": 62255
+        },
+        "peak_gpu_mib_sampled": 7828,
+        "peak_rss_mib_sampled": 9193.52734375,
+        "recorded_run_seconds": 172.81797155400272,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 135.60695551201206,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 41.607134797028266,
+        "batch": "batch-16",
+        "retained_calls": 36,
+        "inference_seconds": 38.83833640098601,
+        "tokens": {
+          "prompt_tokens": 17835,
+          "completion_tokens": 3426,
+          "total_tokens": 21261
+        },
+        "peak_gpu_mib_sampled": 7800,
+        "peak_rss_mib_sampled": 4763.11328125,
+        "recorded_run_seconds": 53.15382781199878,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 38.83833640098601,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 104.14805866297684,
+        "batch": "batch-17",
+        "retained_calls": 100,
+        "inference_seconds": 95.68009749201156,
+        "tokens": {
+          "prompt_tokens": 41142,
+          "completion_tokens": 8607,
+          "total_tokens": 49749
+        },
+        "peak_gpu_mib_sampled": 7794,
+        "peak_rss_mib_sampled": 8818.34765625,
+        "recorded_run_seconds": 162.9347864359952,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 95.68009749201156,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 45.663653416966554,
+        "batch": "batch-18",
+        "retained_calls": 75,
+        "inference_seconds": 40.06266726001195,
+        "tokens": {
+          "prompt_tokens": 23580,
+          "completion_tokens": 3379,
+          "total_tokens": 26959
+        },
+        "peak_gpu_mib_sampled": 7788,
+        "peak_rss_mib_sampled": 5467.84765625,
+        "recorded_run_seconds": 80.32659485100157,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 40.06266726001195,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 61.76509138097754,
+        "batch": "batch-19",
+        "retained_calls": 46,
+        "inference_seconds": 57.98468374501681,
+        "tokens": {
+          "prompt_tokens": 23553,
+          "completion_tokens": 5043,
+          "total_tokens": 28596
+        },
+        "peak_gpu_mib_sampled": 7808,
+        "peak_rss_mib_sampled": 5907.3671875,
+        "recorded_run_seconds": 82.71583914400253,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 57.98468374501681,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 94.32744891602488,
+        "batch": "batch-20",
+        "retained_calls": 81,
+        "inference_seconds": 87.34170928700041,
+        "tokens": {
+          "prompt_tokens": 34926,
+          "completion_tokens": 7880,
+          "total_tokens": 42806
+        },
+        "peak_gpu_mib_sampled": 7802,
+        "peak_rss_mib_sampled": 7881.38671875,
+        "recorded_run_seconds": 141.85386787300376,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 87.34170928700041,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 32,
+        "additional_response_tokens": {
+          "prompt_tokens": 13416,
+          "completion_tokens": 2655,
+          "total_tokens": 16071
+        }
+      },
+      {
+        "monitored_stage_seconds": 26.562886178020563,
+        "batch": "batch-21",
+        "retained_calls": 40,
+        "inference_seconds": 24.00194480598293,
+        "tokens": {
+          "prompt_tokens": 13292,
+          "completion_tokens": 2032,
+          "total_tokens": 15324
+        },
+        "peak_gpu_mib_sampled": 7808,
+        "peak_rss_mib_sampled": 3746.68359375,
+        "recorded_run_seconds": 36.77307870399818,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 24.00194480598293,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 59.88891438601422,
+        "batch": "batch-22",
+        "retained_calls": 55,
+        "inference_seconds": 55.54684867000469,
+        "tokens": {
+          "prompt_tokens": 21366,
+          "completion_tokens": 5141,
+          "total_tokens": 26507
+        },
+        "peak_gpu_mib_sampled": 7800,
+        "peak_rss_mib_sampled": 5461.63671875,
+        "recorded_run_seconds": 91.48638297399884,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 55.54684867000469,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 201.73150854196138,
+        "batch": "batch-23",
+        "retained_calls": 171,
+        "inference_seconds": 188.0395211700161,
+        "tokens": {
+          "prompt_tokens": 86219,
+          "completion_tokens": 16101,
+          "total_tokens": 102320
+        },
+        "peak_gpu_mib_sampled": 7838,
+        "peak_rss_mib_sampled": 10501.5546875,
+        "recorded_run_seconds": 238.46722136100288,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 188.0395211700161,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 127,
+        "additional_response_tokens": {
+          "prompt_tokens": 58137,
+          "completion_tokens": 17759,
+          "total_tokens": 75896
+        }
+      },
+      {
+        "monitored_stage_seconds": 92.8911168999839,
+        "batch": "batch-24",
+        "retained_calls": 120,
+        "inference_seconds": 84.89198352007224,
+        "tokens": {
+          "prompt_tokens": 42891,
+          "completion_tokens": 7309,
+          "total_tokens": 50200
+        },
+        "peak_gpu_mib_sampled": 7800,
+        "peak_rss_mib_sampled": 8970.890625,
+        "recorded_run_seconds": 111.62447138999414,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 84.89198352007224,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 64.31842375101405,
+        "batch": "batch-25",
+        "retained_calls": 72,
+        "inference_seconds": 59.37709201198595,
+        "tokens": {
+          "prompt_tokens": 29880,
+          "completion_tokens": 4894,
+          "total_tokens": 34774
+        },
+        "peak_gpu_mib_sampled": 7834,
+        "peak_rss_mib_sampled": 6746.8203125,
+        "recorded_run_seconds": 81.55024681399664,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 59.37709201198595,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 131.06937482397916,
+        "batch": "batch-26",
+        "retained_calls": 118,
+        "inference_seconds": 122.48791285503103,
+        "tokens": {
+          "prompt_tokens": 55468,
+          "completion_tokens": 10615,
+          "total_tokens": 66083
+        },
+        "peak_gpu_mib_sampled": 7798,
+        "peak_rss_mib_sampled": 10338.79296875,
+        "recorded_run_seconds": 181.0300348640012,
+        "run_timer_scope": "Sum of initial118-call raw pass and boundary-fix pass with116 verified identical-image cache reuses/two new calls. Includes both startup/render costs; no semantic review time.",
+        "checkpoint_reported_seconds": 122.48791285503103,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 2,
+        "additional_response_tokens": {
+          "prompt_tokens": 2024,
+          "completion_tokens": 419,
+          "total_tokens": 2443
+        }
+      },
+      {
+        "monitored_stage_seconds": 124.9846740789726,
+        "batch": "batch-27",
+        "retained_calls": 130,
+        "inference_seconds": 115.72605049899721,
+        "tokens": {
+          "prompt_tokens": 55878,
+          "completion_tokens": 10014,
+          "total_tokens": 65892
+        },
+        "peak_gpu_mib_sampled": 7822,
+        "peak_rss_mib_sampled": 10082.80078125,
+        "recorded_run_seconds": 174.52176654300274,
+        "run_timer_scope": "Combined initial raw pass and boundary repair, including superseded crop inference; final stage inference metrics exclude that superseded response.",
+        "checkpoint_reported_seconds": 115.72605049899721,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 1,
+        "additional_response_tokens": {
+          "prompt_tokens": 277,
+          "completion_tokens": 46,
+          "total_tokens": 323
+        }
+      },
+      {
+        "monitored_stage_seconds": 111.3019043359891,
+        "batch": "batch-28",
+        "retained_calls": 114,
+        "inference_seconds": 103.04760562199954,
+        "tokens": {
+          "prompt_tokens": 46763,
+          "completion_tokens": 9213,
+          "total_tokens": 55976
+        },
+        "peak_gpu_mib_sampled": 7794,
+        "peak_rss_mib_sampled": 8947.484375,
+        "recorded_run_seconds": 36.85053314700053,
+        "run_timer_scope": "Recovery pass only; original aborted pass not wall-clock timed. Includes rendering, runtime startup and remaining inferences; prior successful regions reused after exact checks.",
+        "checkpoint_reported_seconds": 103.04760562199954,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 1,
+        "additional_response_tokens": {
+          "prompt_tokens": 578,
+          "completion_tokens": 4096,
+          "total_tokens": 4674
+        }
+      },
+      {
+        "monitored_stage_seconds": 109.91077929501625,
+        "batch": "batch-29",
+        "retained_calls": 54,
+        "inference_seconds": 105.58143804100109,
+        "tokens": {
+          "prompt_tokens": 28640,
+          "completion_tokens": 10076,
+          "total_tokens": 38716
+        },
+        "peak_gpu_mib_sampled": 7988,
+        "peak_rss_mib_sampled": 7367.15234375,
+        "recorded_run_seconds": 124.67432997899596,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 105.58143804100109,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 18.135416412995255,
+        "batch": "batch-30",
+        "retained_calls": 28,
+        "inference_seconds": 16.364489820007293,
+        "tokens": {
+          "prompt_tokens": 9385,
+          "completion_tokens": 1440,
+          "total_tokens": 10825
+        },
+        "peak_gpu_mib_sampled": 7758,
+        "peak_rss_mib_sampled": 3023.28515625,
+        "recorded_run_seconds": 36.21073745800095,
+        "run_timer_scope": "Sum of original raw run and crop-boundary recovery pass; includes superseded two-crop inference. Final stage inference metrics exclude superseded crops.",
+        "checkpoint_reported_seconds": 16.364489820007293,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 2,
+        "additional_response_tokens": {
+          "prompt_tokens": 894,
+          "completion_tokens": 156,
+          "total_tokens": 1050
+        }
+      },
+      {
+        "monitored_stage_seconds": 35.031269023005734,
+        "batch": "batch-31",
+        "retained_calls": 40,
+        "inference_seconds": 32.09047509598895,
+        "tokens": {
+          "prompt_tokens": 16100,
+          "completion_tokens": 2862,
+          "total_tokens": 18962
+        },
+        "peak_gpu_mib_sampled": 7792,
+        "peak_rss_mib_sampled": 4312.6875,
+        "recorded_run_seconds": 50.62132849300542,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 32.09047509598895,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 141.6232871790271,
+        "batch": "batch-32",
+        "retained_calls": 163,
+        "inference_seconds": 130.50058248209098,
+        "tokens": {
+          "prompt_tokens": 64062,
+          "completion_tokens": 11291,
+          "total_tokens": 75353
+        },
+        "peak_gpu_mib_sampled": 7802,
+        "peak_rss_mib_sampled": 9115.375,
+        "recorded_run_seconds": 73.33698917199945,
+        "run_timer_scope": "Recovery pass only after SIGTERM;140 exact-image/runtime stages reused. Initial raw wall time unavailable; interrupted request server timings preserved separately.",
+        "checkpoint_reported_seconds": 130.50058248209098,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 101.83721957796661,
+        "batch": "batch-33",
+        "retained_calls": 99,
+        "inference_seconds": 94.57940215596318,
+        "tokens": {
+          "prompt_tokens": 46817,
+          "completion_tokens": 8053,
+          "total_tokens": 54870
+        },
+        "peak_gpu_mib_sampled": 7800,
+        "peak_rss_mib_sampled": 9750.4296875,
+        "recorded_run_seconds": 122.37628228299582,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 94.57940215596318,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 87.25958676901791,
+        "batch": "batch-34",
+        "retained_calls": 108,
+        "inference_seconds": 80.39422457098408,
+        "tokens": {
+          "prompt_tokens": 35541,
+          "completion_tokens": 7454,
+          "total_tokens": 42995
+        },
+        "peak_gpu_mib_sampled": 7794,
+        "peak_rss_mib_sampled": 4526.4296875,
+        "recorded_run_seconds": 220.3809509510029,
+        "run_timer_scope": "Combined initial aborted and two recovery passes, including both failed requests; manual transcription time separate and unmeasured.",
+        "checkpoint_reported_seconds": 80.39422457098408,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 2,
+        "additional_response_tokens": {
+          "prompt_tokens": 1708,
+          "completion_tokens": 8192,
+          "total_tokens": 9900
+        }
+      },
+      {
+        "monitored_stage_seconds": 84.1965652860672,
+        "batch": "batch-35",
+        "retained_calls": 92,
+        "inference_seconds": 78.37749547201383,
+        "tokens": {
+          "prompt_tokens": 34072,
+          "completion_tokens": 7236,
+          "total_tokens": 41308
+        },
+        "peak_gpu_mib_sampled": 7760,
+        "peak_rss_mib_sampled": 7458.55078125,
+        "recorded_run_seconds": 98.24277294499916,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 78.37749547201383,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 41.575230105998344,
+        "batch": "batch-36",
+        "retained_calls": 54,
+        "inference_seconds": 37.87857276798604,
+        "tokens": {
+          "prompt_tokens": 21137,
+          "completion_tokens": 3211,
+          "total_tokens": 24348
+        },
+        "peak_gpu_mib_sampled": 7806,
+        "peak_rss_mib_sampled": 5160.51953125,
+        "recorded_run_seconds": 53.24111952899693,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 37.87857276798604,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 51.021787955003674,
+        "batch": "batch-37",
+        "retained_calls": 61,
+        "inference_seconds": 46.69922165202297,
+        "tokens": {
+          "prompt_tokens": 23435,
+          "completion_tokens": 4075,
+          "total_tokens": 27510
+        },
+        "peak_gpu_mib_sampled": 7802,
+        "peak_rss_mib_sampled": 5667.625,
+        "recorded_run_seconds": 64.21285781900224,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 46.69922165202297,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 173.19735127298918,
+        "batch": "batch-38",
+        "retained_calls": 167,
+        "inference_seconds": 160.32700645396108,
+        "tokens": {
+          "prompt_tokens": 79384,
+          "completion_tokens": 13854,
+          "total_tokens": 93238
+        },
+        "peak_gpu_mib_sampled": 7802,
+        "peak_rss_mib_sampled": 10343.359375,
+        "recorded_run_seconds": 225.15959050999663,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 160.32700645396108,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 176.04986922200624,
+        "batch": "batch-39",
+        "retained_calls": 158,
+        "inference_seconds": 164.17356451902742,
+        "tokens": {
+          "prompt_tokens": 71964,
+          "completion_tokens": 14841,
+          "total_tokens": 86805
+        },
+        "peak_gpu_mib_sampled": 7794,
+        "peak_rss_mib_sampled": 10276.0234375,
+        "recorded_run_seconds": 213.14915601100074,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 164.17356451902742,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 78.9385010050537,
+        "batch": "batch-40",
+        "retained_calls": 124,
+        "inference_seconds": 71.00011528797768,
+        "tokens": {
+          "prompt_tokens": 40869,
+          "completion_tokens": 6136,
+          "total_tokens": 47005
+        },
+        "peak_gpu_mib_sampled": 7806,
+        "peak_rss_mib_sampled": 8311.26171875,
+        "recorded_run_seconds": 94.99554235299729,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 71.00011528797768,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      {
+        "monitored_stage_seconds": 5.110880081992946,
+        "batch": "batch-41",
+        "retained_calls": 4,
+        "inference_seconds": 4.798557220005023,
+        "tokens": {
+          "prompt_tokens": 1944,
+          "completion_tokens": 436,
+          "total_tokens": 2380
+        },
+        "peak_gpu_mib_sampled": 7788,
+        "peak_rss_mib_sampled": 1746.82421875,
+        "recorded_run_seconds": 12.203259253998112,
+        "run_timer_scope": "map verification, runtime hashes, rendering, server startup, inference and native evidence export",
+        "checkpoint_reported_seconds": 4.798557220005023,
+        "checkpoint_timer_basis": "inference.seconds",
+        "additional_response_calls": 0,
+        "additional_response_tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      }
+    ]
+  },
+  "earlier_three_page_pilot": {
+    "scope": "Earlier three-page A/B/C development test; separate corpus and scoring, not pooled with June.",
+    "arms": {
+      "A-tesseract": {
+        "preparation_seconds": 8.86019562699903,
+        "local_tokens": 0
+      },
+      "B-qwen": {
+        "preparation_seconds": 49.39029613000048,
+        "local_tokens": 17138
+      },
+      "C-local-correction": {
+        "preparation_seconds": 125.57834670500006,
+        "local_tokens": 46059
+      }
+    },
+    "samples": [
+      {
+        "sample": "prose",
+        "compact_cer": {
+          "A-tesseract": 0.04936974789915966,
+          "B-qwen": 0.007878151260504201,
+          "C-local-correction": 0.005252100840336135
+        }
+      },
+      {
+        "sample": "basic",
+        "compact_cer": {
+          "A-tesseract": 0.024050632911392405,
+          "B-qwen": 0.0,
+          "C-local-correction": 0.0012658227848101266
+        }
+      },
+      {
+        "sample": "figures",
+        "compact_cer": {
+          "A-tesseract": 0.07386363636363637,
+          "B-qwen": 0.005681818181818182,
+          "C-local-correction": 0.003246753246753247
+        }
+      }
+    ],
+    "limits": [
+      "A/B/C use identical reviewed geometry; no reference text enters inference.",
+      "C requires A+B preparation: its stage_seconds/tokens are incremental, not total workflow cost.",
+      "CER and residual edits are reference-based diagnostics, not measured review effort.",
+      "Human time and capable-model usage are unknown until recorded; local tokens are measured llama.cpp usage.",
+      "One preparation run per arm on three familiar development pages; no generalization or savings claim.",
+      "Preparation totals include dependencies: C=A+B+correction; B does not require A.",
+      "Times exclude model startup, common image preparation, scoring and human/capable-model correction.",
+      "Regression/improvement counts compare with existing references; they are not new human judgments.",
+      "Local Qwen token totals are local compute, not billed capable-model tokens."
+    ]
+  },
+  "unmeasured": {
+    "capable_model_input_tokens": null,
+    "capable_model_cached_input_tokens": null,
+    "capable_model_output_tokens": null,
+    "capable_model_cost": null,
+    "human_active_review_seconds": null,
+    "semantic_correction_seconds": null,
+    "full_workflow_elapsed_seconds": null,
+    "energy_kwh": null,
+    "whole_issue_tesseract_runtime": null,
+    "human_gold_accuracy": null
+  },
+  "notes": [
+    "Local Qwen tokens include image/prompt tokens and generated text, not paid assistant tokens. Tesseract itself consumes no LLM tokens; its downstream correction token use is unknown.",
+    "Sampled process-tree RSS includes shared mappings and is not a physical-RAM requirement. GPU peaks are sampled allocations, not energy measurements.",
+    "Crop selection and references are unblinded; failures, omissions and graphic placeholders outside scored crops prevent treating CER as final accuracy.",
+    "This report reads existing evidence only; no new inference, acceptance or pipeline-default change."
+  ]
+}
