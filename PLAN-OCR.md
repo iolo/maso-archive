@@ -996,3 +996,27 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next:inspect technical/table candidates SPC-1000 음악기능과 명령어 and PIA
   시리즈1 뮤직카드 before choosing their engines. Reading-room rebuild/staging
   remains prohibited until explicitly requested; none performed this checkpoint.
+
+### July technical article completed, 2026-10-10
+
+- Batch05 restores SPC-1000 음악기능과 명령어 with Qwen, printed47–51/PDF51–55:
+  87 regions,82 text crops,five original figures,43 numbered BASIC lines and18
+  source-linked review flags. Frequency table has13 TSV rows,nine columns and96
+  checked numeric cells; original image retained alongside searchable text.
+- Raw stage301.99s, including273.87s recognition and1.46s server startup/readiness.
+  Correction/recording232.83s;44,891 local tokens. Observed correction usage:
+  26,623 uncached input,532,992 cached input,10,485 output; zero cache-write tokens.
+  Shared mapping, monitoring, evaluation and between-window costs remain separate.
+- Four preselected identical-PNG comparisons again favor Qwen. Table compact CER
+  Qwen0.00%,Tesseract89.43% under the fixed whole-table PSM6 configuration; no
+  alternative row/cell segmentation tested. References remain assistant-derived.
+  Source formula/register inconsistencies preserved, not technically repaired.
+- Native integrity, UTF-8 ranges, explicit listing numbers, region coverage,
+  table shape and byte-identical rebuild checks passed. Five complete July bodies,
+  12 source pages,161 regions,207 logical BASIC lines,35 review flags;37 TOC entries
+  remain pending restoration/heading classification. Human acceptance pending.
+- Next: detailed mapping of PIA 시리즈1 뮤직카드, provisionally PDF184–194 after
+  contact-sheet boundary inspection. Eleven-page body includes embedded advertising
+  and long hexadecimal listings; engine/sample assignment remains pending mapping.
+- Reading room was not rebuilt or restaged. Preserve user's homepage edit.
+  Final reporting/commit tail is carried into the following cumulative usage audit.

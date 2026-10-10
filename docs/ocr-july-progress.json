@@ -4,8 +4,8 @@
   "status": "in-progress",
   "objective": "Choose OCR by content using paid-model usage and elapsed restoration work; local GPU cost excluded from the decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 4,
-  "remaining_toc_entries": 38,
+  "completed_article_bodies": 5,
+  "remaining_toc_entries": 37,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -328,6 +328,99 @@
         "correction-04",
         "export-04"
       ]
+    },
+    {
+      "batch": "05",
+      "toc_entry_id": "maso-1984-07-toc-0004",
+      "title": "SPC-1000 음악기능과 명령어",
+      "engine": "qwen",
+      "printed_pages": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "pdf_pages": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-05/map.json",
+        "sha256": "f686645e4528616675269127e7fd85f7c16a05f919ad1bd5747727842bd11b9a",
+        "bytes": 23538
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-05/spc1000-music/article.json",
+          "sha256": "8242b92a0d60164b85e9c531346bdaac7737cda680971a0e9674f9ded0c41931",
+          "bytes": 130401
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-05/spc1000-music/manifest.json",
+          "sha256": "d522f8d17e714a6e5255620c90f9328a05be6023d3879dfc10130c58265d7701",
+          "bytes": 56325
+        },
+        "source_pages": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "regions": 87,
+        "text_regions": 82,
+        "figures": 5,
+        "physical_listing_rows": 43,
+        "logical_listing_rows": 43,
+        "unresolved_entries": 18,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 301.98824418799995,
+      "recognition_seconds": 273.8675211830023,
+      "local_qwen_tokens": {
+        "prompt_tokens": 36586,
+        "completion_tokens": 8305,
+        "total_tokens": 44891
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-05/transcription-assistant.json",
+        "sha256": "af0a345402bd45c3204c857c0230a7ab9a31b6a1b0b485d4de61f2af20824dca",
+        "bytes": 22273
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-10T04:24:12.690484+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "af0a345402bd45c3204c857c0230a7ab9a31b6a1b0b485d4de61f2af20824dca",
+          "bytes": 22273
+        },
+        "method": "Assistant reading from Qwen draft; alternate Tesseract outputs not yet obtained."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 48,
+        "code": 533,
+        "other": 596,
+        "prose": 6969,
+        "title": 43
+      },
+      "work_window_ids": [
+        "raw-05",
+        "correction-05",
+        "export-05"
+      ]
     }
   ],
   "entries": [
@@ -472,9 +565,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 51,
-      "planned_primary_engine": "pending-inspection"
+      "batch": "05",
+      "engine": "qwen",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-05/spc1000-music/article.json",
+        "sha256": "8242b92a0d60164b85e9c531346bdaac7737cda680971a0e9674f9ded0c41931",
+        "bytes": 130401
+      }
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0005",
@@ -1917,12 +2016,17 @@
       "path": "docs/ocr-july-comparison-02.json",
       "sha256": "bde2320f2b60df2d1811d2e43c84070fb0a78e69ac686891af2178e7a5239e88",
       "bytes": 12277
+    },
+    {
+      "path": "docs/ocr-july-comparison-03.json",
+      "sha256": "f3af7a8a31b05a0d21786b9a792fd265334eaa46cbb2cfaae81f2314dec59f07",
+      "bytes": 8650
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "84ee14ba027180c9073ae9bd5afca3d216a43b7f73b53005d75a7168870906b2",
-    "bytes": 13465
+    "sha256": "3ea9b56249c4026bdfca1f576db203befdf8067f9197ecb4fff58386deedbfcd",
+    "bytes": 16312
   },
   "reading_room": {
     "action": "none",
@@ -1931,17 +2035,25 @@
   },
   "next_pair": [
     {
-      "title": "SPC-1000 음악기능과 명령어",
-      "engine": "pending-inspection",
-      "extent_status": "Needs complete boundary inspection"
-    },
-    {
       "title": "PIA 시리즈1 뮤직카드",
       "engine": "pending-inspection",
-      "extent_status": "Needs complete boundary inspection"
+      "extent_status": "Contact-sheet inspection places body on PDF184–194, between section opener183 and next article195; verify detailed regions, printed pages and embedded advertisement exclusion before final engine assignment.",
+      "candidate_pdf_pages": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ]
     }
   ],
-  "decision": "Both engine/content directions are now represented. Different article lengths, layout, and correction overhead prevent causal savings claims; extend to technical tables and mixed layouts before choosing a routing policy.",
+  "decision": "Technical table/formula evidence now joins both prose/code directions. Qwen handles this table well while the configured Tesseract whole-table PSM6 crop fails; different article lengths, layouts and correction overhead still prevent causal paid-cost savings claims. Continue with the music-card body.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",
