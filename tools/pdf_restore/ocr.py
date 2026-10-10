@@ -105,7 +105,9 @@ def run_region(image, destination, config, runtime=RUNTIME):
     return elapsed
 
 
-def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME):
+def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, scale_to=3000):
+    if type(scale_to) is not int or not 1000 <= scale_to <= 6000:
+        raise ValueError('scale_to must be an integer from 1000 to 6000')
     package = validate_package(json.loads(package_path.read_bytes()))
     source = package['source']
     if digest(ROOT / source['path']) != source['sha256']:
@@ -124,7 +126,7 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME):
     output.mkdir(parents=True)
     render = output / 'page.png'
     render_args = ['pdftoppm', '-f', str(pdf_page), '-l', str(pdf_page), '-singlefile',
-                   '-scale-to', '3000', '-png', str(ROOT / source['path']), str(render.with_suffix(''))]
+                   '-scale-to', str(scale_to), '-png', str(ROOT / source['path']), str(render.with_suffix(''))]
     subprocess.run(render_args, check=True, capture_output=True)
     with Image.open(render) as image:
         image.load()
@@ -163,7 +165,7 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME):
                   'positions': 'TSV pixels relative to OCR input; add crop_pixels origin for page positions',
                   'runtime': pin(runtime, 'runtime.json'), 'source_sha256': source['sha256'],
                   'package': {'sha256': digest(package_path)}, 'pdf_page': pdf_page,
-                  'pdf_index': page['pdf_index'], 'render_size': dimensions, 'render_scale_to': 3000}
+                  'pdf_index': page['pdf_index'], 'render_size': dimensions, 'render_scale_to': scale_to}
         if 'orientation_correction' in page:
             config['orientation_correction'] = page['orientation_correction']
         write_json(destination.with_suffix('.settings.json'), config)
@@ -190,11 +192,13 @@ def main():
     page.add_argument('--pdf-page', type=int, required=True)
     page.add_argument('--output', type=Path, required=True)
     page.add_argument('--mode', choices=['compare', 'regions'], default='compare')
+    page.add_argument('--scale-to', type=int, default=3000)
     args = parser.parse_args()
     if args.action == 'setup':
         print(setup()['version'])
     else:
-        print(json.dumps(page_ocr(args.package, args.pdf_page, args.output, args.mode), indent=2))
+        print(json.dumps(page_ocr(args.package, args.pdf_page, args.output, args.mode,
+                                  scale_to=args.scale_to), indent=2))
 
 
 if __name__ == '__main__':

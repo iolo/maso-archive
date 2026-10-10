@@ -942,3 +942,31 @@ commit code/documentation. Do not count a partial opening as a complete article.
   match byte-for-byte. Retained calls/tokens reconcile with all 41 checkpoints.
   Early monitored-stage timing labels are explicitly distinguished from underlying
   inference timers; original checkpoint evidence was not rewritten.
+
+### July content/cost trial started, 2026-10-10
+
+- Maintainer selected July1984 for a second issue trial focused on paid assistant
+  tokens versus elapsed work, with local GPU cost excluded from the decision.
+  [Trial plan and first measurements](docs/OCR-JULY-TRIAL.md) use opposite primary
+  assignments within content categories before drawing routing conclusions.
+- Restored editorial printed16/PDF20 with Qwen and 운전 연습 printed83/PDF87 with
+  Tesseract: two complete bodies,19 regions,57 numbered BASIC lines, six review
+  flags. Native integrity, source coverage, UTF-8 ranges and identical rebuilds
+  passed. Printed unclosed code strings retained; no execution or syntax repair.
+- Both trial engines use4,000-pixel renders. Existing Tesseract default remains
+  3,000. Four preselected matched-PNG diagnostics favor Qwen, including three
+  references fixed from Tesseract drafts before alternate Qwen inference.
+- Added response-deduplicated assistant usage accounting with separate cached,
+  uncached, cache-write and output categories, explicit work windows, unknowns,
+  and visible between-window overhead. First correction windows46.65s/70.89s are
+  observational; Tesseract's window includes one export-helper setup response.
+  No engine cost ranking follows from these different articles.
+- Current42-entry queue: two restored bodies,40 entries pending restoration or
+  heading classification. Next pair: 리뷰 살롱 with Tesseract; 합이15 with Qwen.
+  Inspect complete boundaries and content before their OCR assignments begin.
+- **User instruction: do not rebuild/restage the reading room until explicitly
+  requested.** No reading-room action performed. Continue native restoration,
+  evaluation, progress records and commits. User's homepage edit remains separate.
+- Validation:16 focused tests pass across usage, Tesseract crop/settings behavior,
+  native exports and the mapped Qwen adapter. Raw inference and full-stage timers
+  are separate; shared setup/evaluation costs remain in the trial audit.

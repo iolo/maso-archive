@@ -401,3 +401,13 @@ whole articles and source-linked regions, return corrections with their region
 URLs, then record explicit human decisions. Merely opening a page does not accept
 it. Keep the current correction workflow and use this issue to measure the work
 remaining after local OCR.
+
+
+## July content and cost trial
+
+The maintainer selected July1984 for the next trial. See [the trial plan and first
+checkpoint](OCR-JULY-TRIAL.md) for opposite engine assignments across content
+categories, actual assistant usage accounting, and matched raw-OCR samples. The
+first two complete native packages are the Qwen editorial and Tesseract driving
+game. No routing default has changed. Reading-room rebuilding and staging are
+deferred until the user explicitly requests them.

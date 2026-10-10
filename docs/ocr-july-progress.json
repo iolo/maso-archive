@@ -1,0 +1,1759 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-07",
+  "status": "in-progress",
+  "objective": "Choose OCR by content using paid-model usage and elapsed restoration work; local GPU cost excluded from the decision.",
+  "canonical_toc_entries": 42,
+  "completed_article_bodies": 2,
+  "remaining_toc_entries": 40,
+  "human_accepted_articles": 0,
+  "source": {
+    "id": "pdf-maso-8407",
+    "path": "maso-pdf/maso-8407.pdf",
+    "sha256": "f6aa069a8e85c693919479a334f5382d84ff5e98524fde53567dc049eeba572f",
+    "bytes": 102638465
+  },
+  "toc_pin": {
+    "path": "TOC.md",
+    "sha256": "725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+    "bytes": 252444
+  },
+  "page_mapping": "Printed page = PDF page -4 confirmed on inspected pages; queue offsets elsewhere are only candidates.",
+  "checkpoints": [
+    {
+      "batch": "01",
+      "toc_entry_id": "maso-1984-07-toc-0036",
+      "title": "편집자 노트",
+      "engine": "qwen",
+      "printed_pages": [
+        16
+      ],
+      "pdf_pages": [
+        20
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-01/map.json",
+        "sha256": "adac0edaf69a11bb0d3fbb227c58b2887efe72c4a7bfa1bd74c12538696eaada",
+        "bytes": 3806
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-01/editorial/article.json",
+          "sha256": "c04fcd8408177d48b126ca5dc80fdaa0dc5fff27e03640c996b39ed192a9a6a9",
+          "bytes": 19323
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-01/editorial/manifest.json",
+          "sha256": "9d6eb9f979c5afe53c1ebbafa42b9d07b9955f2ccaabdedabd4c785cd267370d",
+          "bytes": 7326
+        },
+        "source_pages": [
+          20
+        ],
+        "regions": 10,
+        "text_regions": 9,
+        "figures": 1,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 1,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 40.40293553100037,
+      "recognition_seconds": 27.1692011060004,
+      "local_qwen_tokens": {
+        "prompt_tokens": 5117,
+        "completion_tokens": 1024,
+        "total_tokens": 6141
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-01/transcription-assistant.json",
+        "sha256": "11a8185752d21682aa0ce162209dbf2e3bafbec0aeec504ed53a38ef4394fbd1",
+        "bytes": 3605
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-10T03:26:56.309049+00:00",
+        "method": "Assistant scan comparison from Qwen draft; alternate-engine text not seen."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "prose": 1113,
+        "title": 5
+      },
+      "work_window_ids": [
+        "raw-01",
+        "correction-01",
+        "export-01"
+      ]
+    },
+    {
+      "batch": "02",
+      "toc_entry_id": "maso-1984-07-toc-0013",
+      "title": "운전 연습",
+      "engine": "tesseract",
+      "printed_pages": [
+        83
+      ],
+      "pdf_pages": [
+        87
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-02/map.json",
+        "sha256": "79e9c4b9536a45e90652b5d16e74fc0a56796823e48891c7437e2ed116e2a91c",
+        "bytes": 3631
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-02/driving/article.json",
+          "sha256": "8e8b16b878b69869a333675d534234f09a9e400fd477f796fb79894864ae9d77",
+          "bytes": 17571
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-02/driving/manifest.json",
+          "sha256": "ea7f4294c3d878ca3e12808a7767028bcdc740313105ec5067123b827f152560",
+          "bytes": 6710
+        },
+        "source_pages": [
+          87
+        ],
+        "regions": 9,
+        "text_regions": 8,
+        "figures": 1,
+        "physical_listing_rows": 60,
+        "logical_listing_rows": 57,
+        "unresolved_entries": 5,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 5.362833729000158,
+      "recognition_seconds": 2.0665106480009854,
+      "local_qwen_tokens": null,
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-02/transcription-assistant.json",
+        "sha256": "c03f391dfe22ec2d4d6a99baadd33c4b5d0288e25b90143fb7746881d6c36de4",
+        "bytes": 2928
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-10T03:28:23.724766+00:00",
+        "method": "Assistant scan comparison from Tesseract draft; alternate-engine text not seen."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 6,
+        "code": 955,
+        "prose": 425,
+        "title": 4
+      },
+      "work_window_ids": [
+        "raw-02",
+        "correction-02",
+        "export-02"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "toc_entry_id": "maso-1984-07-toc-0001",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 376,
+        "sibling_order": 1,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "특집 : 알기쉽게 풀이한 마이크로 프로세서 Z-80 = 17",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 412,
+          "line_end": 412,
+          "raw_line": "- 특집 : 알기쉽게 풀이한 마이크로 프로세서 Z-80 = 17"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "특집 : 알기쉽게 풀이한 마이크로 프로세서 Z-80",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "17",
+        "page_candidates": [
+          17
+        ],
+        "start_page_candidate": 17,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0001",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 21
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0002",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 377,
+        "sibling_order": 2,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "취미생활",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 413,
+          "line_end": 413,
+          "raw_line": "- 취미생활"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "취미생활",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1984-07-toc-0002",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "status": "pending",
+      "pdf_page_candidate": null
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0003",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 378,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "애플음의 정복 = 38",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 414,
+          "line_end": 414,
+          "raw_line": "  - 애플음의 정복 = 38"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "애플음의 정복",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "38",
+        "page_candidates": [
+          38
+        ],
+        "start_page_candidate": 38,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0003",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 42
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0004",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 379,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "SPC-1000 음악기능과 명령어 = 47",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 415,
+          "line_end": 415,
+          "raw_line": "  - SPC-1000 음악기능과 명령어 = 47"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "SPC-1000 음악기능과 명령어",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "47",
+        "page_candidates": [
+          47
+        ],
+        "start_page_candidate": 47,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0004",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 51
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0005",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 380,
+        "sibling_order": 3,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "컴퓨터반란군 진압대 = 52",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 416,
+          "line_end": 416,
+          "raw_line": "  - 컴퓨터반란군 진압대 = 52"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "컴퓨터반란군 진압대",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "52",
+        "page_candidates": [
+          52
+        ],
+        "start_page_candidate": 52,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0005",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 56
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0006",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 381,
+        "sibling_order": 4,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "육감개발 2주 완성 = 55",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 417,
+          "line_end": 417,
+          "raw_line": "  - 육감개발 2주 완성 = 55"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "육감개발 2주 완성",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "55",
+        "page_candidates": [
+          55
+        ],
+        "start_page_candidate": 55,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0006",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 59
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0007",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 382,
+        "sibling_order": 5,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "디오디지이엠 = 58",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 418,
+          "line_end": 418,
+          "raw_line": "  - 디오디지이엠 = 58"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "디오디지이엠",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "58",
+        "page_candidates": [
+          58
+        ],
+        "start_page_candidate": 58,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0007",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 62
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0008",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 383,
+        "sibling_order": 6,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "합이 15 = 64",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 419,
+          "line_end": 419,
+          "raw_line": "  - 합이 15 = 64"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "합이 15",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "64",
+        "page_candidates": [
+          64
+        ],
+        "start_page_candidate": 64,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0008",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 68,
+      "planned_primary_engine": "qwen"
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0009",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 384,
+        "sibling_order": 7,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "위기일발 = 66",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 420,
+          "line_end": 420,
+          "raw_line": "  - 위기일발 = 66"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "위기일발",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "66",
+        "page_candidates": [
+          66
+        ],
+        "start_page_candidate": 66,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0009",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 70
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0010",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 385,
+        "sibling_order": 8,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "화성인 디거 = 69",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 421,
+          "line_end": 421,
+          "raw_line": "  - 화성인 디거 = 69"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "화성인 디거",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "69",
+        "page_candidates": [
+          69
+        ],
+        "start_page_candidate": 69,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0010",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 73
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0011",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 386,
+        "sibling_order": 9,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "보트 탐험 = 74",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 422,
+          "line_end": 422,
+          "raw_line": "  - 보트 탐험 = 74"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "보트 탐험",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "74",
+        "page_candidates": [
+          74
+        ],
+        "start_page_candidate": 74,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0011",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 78
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0012",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 387,
+        "sibling_order": 10,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "캥거루 = 77",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 423,
+          "line_end": 423,
+          "raw_line": "  - 캥거루 = 77"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "캥거루",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "77",
+        "page_candidates": [
+          77
+        ],
+        "start_page_candidate": 77,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0012",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 81
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0013",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 388,
+        "sibling_order": 11,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "운전 연습 = 83",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 424,
+          "line_end": 424,
+          "raw_line": "  - 운전 연습 = 83"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "운전 연습",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "83",
+        "page_candidates": [
+          83
+        ],
+        "start_page_candidate": 83,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0013",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "assistant-restored-human-pending",
+      "pdf_page_candidate": 87,
+      "batch": "02",
+      "engine": "tesseract",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-02/driving/article.json",
+        "sha256": "8e8b16b878b69869a333675d534234f09a9e400fd477f796fb79894864ae9d77",
+        "bytes": 17571
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0014",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 389,
+        "sibling_order": 12,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "SPC-1000 자동실행 테이프의 제작 = 84",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 425,
+          "line_end": 425,
+          "raw_line": "  - SPC-1000 자동실행 테이프의 제작 = 84"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "SPC-1000 자동실행 테이프의 제작",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "84",
+        "page_candidates": [
+          84
+        ],
+        "start_page_candidate": 84,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0014",
+        "parent_id": "maso-1984-07-toc-0002",
+        "section_path": [
+          "maso-1984-07-toc-0002"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 88
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0015",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 390,
+        "sibling_order": 3,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "교육입문",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 426,
+          "line_end": 426,
+          "raw_line": "- 교육입문"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "교육입문",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1984-07-toc-0015",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "status": "pending",
+      "pdf_page_candidate": null
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0016",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 391,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "로고강좌 = 90",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 427,
+          "line_end": 427,
+          "raw_line": "  - 로고강좌 = 90"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "로고강좌",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "90",
+        "page_candidates": [
+          90
+        ],
+        "start_page_candidate": 90,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0016",
+        "parent_id": "maso-1984-07-toc-0015",
+        "section_path": [
+          "maso-1984-07-toc-0015"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 94
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0017",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 392,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "샤를의 법칙 = 94",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 428,
+          "line_end": 428,
+          "raw_line": "  - 샤를의 법칙 = 94"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "샤를의 법칙",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "94",
+        "page_candidates": [
+          94
+        ],
+        "start_page_candidate": 94,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0017",
+        "parent_id": "maso-1984-07-toc-0015",
+        "section_path": [
+          "maso-1984-07-toc-0015"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 98
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0018",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 393,
+        "sibling_order": 3,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "CP/M 입문 = 97",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 429,
+          "line_end": 429,
+          "raw_line": "  - CP/M 입문 = 97"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "CP/M 입문",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "97",
+        "page_candidates": [
+          97
+        ],
+        "start_page_candidate": 97,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0018",
+        "parent_id": "maso-1984-07-toc-0015",
+        "section_path": [
+          "maso-1984-07-toc-0015"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 101
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0019",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 394,
+        "sibling_order": 4,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "기계어 강좌 = 115",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 430,
+          "line_end": 430,
+          "raw_line": "  - 기계어 강좌 = 115"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "기계어 강좌",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "115",
+        "page_candidates": [
+          115
+        ],
+        "start_page_candidate": 115,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0019",
+        "parent_id": "maso-1984-07-toc-0015",
+        "section_path": [
+          "maso-1984-07-toc-0015"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 119
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0020",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 395,
+        "sibling_order": 5,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "컴퓨터 그래픽과 친구가 되자 = 125",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 431,
+          "line_end": 431,
+          "raw_line": "  - 컴퓨터 그래픽과 친구가 되자 = 125"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "컴퓨터 그래픽과 친구가 되자",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "125",
+        "page_candidates": [
+          125
+        ],
+        "start_page_candidate": 125,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0020",
+        "parent_id": "maso-1984-07-toc-0015",
+        "section_path": [
+          "maso-1984-07-toc-0015"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 129
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0021",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 396,
+        "sibling_order": 6,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "애플 포트란 = 133",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 432,
+          "line_end": 432,
+          "raw_line": "  - 애플 포트란 = 133"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "애플 포트란",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "133",
+        "page_candidates": [
+          133
+        ],
+        "start_page_candidate": 133,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0021",
+        "parent_id": "maso-1984-07-toc-0015",
+        "section_path": [
+          "maso-1984-07-toc-0015"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 137
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0022",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 397,
+        "sibling_order": 4,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "비즈니스",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 433,
+          "line_end": 433,
+          "raw_line": "- 비즈니스"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "비즈니스",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1984-07-toc-0022",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "status": "pending",
+      "pdf_page_candidate": null
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0023",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 398,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "VISICALC = 160",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 434,
+          "line_end": 434,
+          "raw_line": "  - VISICALC = 160"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "VISICALC",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "160",
+        "page_candidates": [
+          160
+        ],
+        "start_page_candidate": 160,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0023",
+        "parent_id": "maso-1984-07-toc-0022",
+        "section_path": [
+          "maso-1984-07-toc-0022"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 164
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0024",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 399,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "자료구조 = 165",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 435,
+          "line_end": 435,
+          "raw_line": "  - 자료구조 = 165"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "자료구조",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "165",
+        "page_candidates": [
+          165
+        ],
+        "start_page_candidate": 165,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0024",
+        "parent_id": "maso-1984-07-toc-0022",
+        "section_path": [
+          "maso-1984-07-toc-0022"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 169
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0025",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 400,
+        "sibling_order": 3,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "UNIX = 171",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 436,
+          "line_end": 436,
+          "raw_line": "  - UNIX = 171"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "UNIX",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "171",
+        "page_candidates": [
+          171
+        ],
+        "start_page_candidate": 171,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0025",
+        "parent_id": "maso-1984-07-toc-0022",
+        "section_path": [
+          "maso-1984-07-toc-0022"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 175
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0026",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 401,
+        "sibling_order": 5,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "테크니컬",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 437,
+          "line_end": 437,
+          "raw_line": "- 테크니컬"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "테크니컬",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1984-07-toc-0026",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "status": "pending",
+      "pdf_page_candidate": null
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0027",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 402,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "PIA 시리즈1 뮤직카드 = 180",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 438,
+          "line_end": 438,
+          "raw_line": "  - PIA 시리즈1 뮤직카드 = 180"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "PIA 시리즈1 뮤직카드",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "180",
+        "page_candidates": [
+          180
+        ],
+        "start_page_candidate": 180,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0027",
+        "parent_id": "maso-1984-07-toc-0026",
+        "section_path": [
+          "maso-1984-07-toc-0026"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 184
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0028",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 403,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "마이크로 컴퓨터 설계강좌 = 191",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 439,
+          "line_end": 439,
+          "raw_line": "  - 마이크로 컴퓨터 설계강좌 = 191"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "마이크로 컴퓨터 설계강좌",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "191",
+        "page_candidates": [
+          191
+        ],
+        "start_page_candidate": 191,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0028",
+        "parent_id": "maso-1984-07-toc-0026",
+        "section_path": [
+          "maso-1984-07-toc-0026"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 195
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0029",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 404,
+        "sibling_order": 6,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "공모입선작",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 440,
+          "line_end": 440,
+          "raw_line": "- 공모입선작"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "공모입선작",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1984-07-toc-0029",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "status": "pending",
+      "pdf_page_candidate": null
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0030",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 405,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "윷놀이 = 205",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 441,
+          "line_end": 441,
+          "raw_line": "  - 윷놀이 = 205"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "윷놀이",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "205",
+        "page_candidates": [
+          205
+        ],
+        "start_page_candidate": 205,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0030",
+        "parent_id": "maso-1984-07-toc-0029",
+        "section_path": [
+          "maso-1984-07-toc-0029"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 209
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0031",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 406,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "사과도둑 = 211",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 442,
+          "line_end": 442,
+          "raw_line": "  - 사과도둑 = 211"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "사과도둑",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "211",
+        "page_candidates": [
+          211
+        ],
+        "start_page_candidate": 211,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0031",
+        "parent_id": "maso-1984-07-toc-0029",
+        "section_path": [
+          "maso-1984-07-toc-0029"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 215
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0032",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 407,
+        "sibling_order": 3,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "탁구 = 221",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 443,
+          "line_end": 443,
+          "raw_line": "  - 탁구 = 221"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "탁구",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "221",
+        "page_candidates": [
+          221
+        ],
+        "start_page_candidate": 221,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0032",
+        "parent_id": "maso-1984-07-toc-0029",
+        "section_path": [
+          "maso-1984-07-toc-0029"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 225
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0033",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 408,
+        "sibling_order": 4,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "금전출납부 = 225",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 444,
+          "line_end": 444,
+          "raw_line": "  - 금전출납부 = 225"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "금전출납부",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "225",
+        "page_candidates": [
+          225
+        ],
+        "start_page_candidate": 225,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0033",
+        "parent_id": "maso-1984-07-toc-0029",
+        "section_path": [
+          "maso-1984-07-toc-0029"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 229
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0034",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 409,
+        "sibling_order": 7,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "읽을거리 : 미국 컴퓨터 산업의 흥망성쇠 = 239",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 445,
+          "line_end": 445,
+          "raw_line": "- 읽을거리 : 미국 컴퓨터 산업의 흥망성쇠 = 239"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "읽을거리 : 미국 컴퓨터 산업의 흥망성쇠",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "239",
+        "page_candidates": [
+          239
+        ],
+        "start_page_candidate": 239,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0034",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 243
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0035",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 410,
+        "sibling_order": 8,
+        "indent": 0,
+        "depth": 0,
+        "raw_text": "정보모음",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 446,
+          "line_end": 446,
+          "raw_line": "- 정보모음"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "정보모음",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": null,
+        "page_candidates": [],
+        "start_page_candidate": null,
+        "end_page_candidate": null,
+        "flags": [
+          "missing_page_reference"
+        ],
+        "id": "maso-1984-07-toc-0035",
+        "parent_id": null,
+        "section_path": [],
+        "kind_candidate": "section"
+      },
+      "status": "pending",
+      "pdf_page_candidate": null
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0036",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 411,
+        "sibling_order": 1,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "편집자 노트 = 16",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 447,
+          "line_end": 447,
+          "raw_line": "  - 편집자 노트 = 16"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "편집자 노트",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "16",
+        "page_candidates": [
+          16
+        ],
+        "start_page_candidate": 16,
+        "end_page_candidate": null,
+        "flags": [
+          "page_order_decrease"
+        ],
+        "id": "maso-1984-07-toc-0036",
+        "parent_id": "maso-1984-07-toc-0035",
+        "section_path": [
+          "maso-1984-07-toc-0035"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "assistant-restored-human-pending",
+      "pdf_page_candidate": 20,
+      "batch": "01",
+      "engine": "qwen",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-01/editorial/article.json",
+        "sha256": "c04fcd8408177d48b126ca5dc80fdaa0dc5fff27e03640c996b39ed192a9a6a9",
+        "bytes": 19323
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0037",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 412,
+        "sibling_order": 2,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "정보 레이다 = 139",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 448,
+          "line_end": 448,
+          "raw_line": "  - 정보 레이다 = 139"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "정보 레이다",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "139",
+        "page_candidates": [
+          139
+        ],
+        "start_page_candidate": 139,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0037",
+        "parent_id": "maso-1984-07-toc-0035",
+        "section_path": [
+          "maso-1984-07-toc-0035"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 143
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0038",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 413,
+        "sibling_order": 3,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "리뷰 살롱 = 156",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 449,
+          "line_end": 449,
+          "raw_line": "  - 리뷰 살롱 = 156"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "리뷰 살롱",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "156",
+        "page_candidates": [
+          156
+        ],
+        "start_page_candidate": 156,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0038",
+        "parent_id": "maso-1984-07-toc-0035",
+        "section_path": [
+          "maso-1984-07-toc-0035"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 160,
+      "planned_primary_engine": "tesseract"
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0039",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 414,
+        "sibling_order": 4,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "공모 총평 = 203",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 450,
+          "line_end": 450,
+          "raw_line": "  - 공모 총평 = 203"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "공모 총평",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "203",
+        "page_candidates": [
+          203
+        ],
+        "start_page_candidate": 203,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0039",
+        "parent_id": "maso-1984-07-toc-0035",
+        "section_path": [
+          "maso-1984-07-toc-0035"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 207
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0040",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 415,
+        "sibling_order": 5,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "복덕방 = 234",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 451,
+          "line_end": 451,
+          "raw_line": "  - 복덕방 = 234"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "복덕방",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "234",
+        "page_candidates": [
+          234
+        ],
+        "start_page_candidate": 234,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0040",
+        "parent_id": "maso-1984-07-toc-0035",
+        "section_path": [
+          "maso-1984-07-toc-0035"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 238
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0041",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 416,
+        "sibling_order": 6,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "Q&A = 236",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 452,
+          "line_end": 452,
+          "raw_line": "  - Q&A = 236"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "Q&A",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "236",
+        "page_candidates": [
+          236
+        ],
+        "start_page_candidate": 236,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0041",
+        "parent_id": "maso-1984-07-toc-0035",
+        "section_path": [
+          "maso-1984-07-toc-0035"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 240
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0042",
+      "toc_entry": {
+        "schema_version": 1,
+        "issue_id": "maso-1984-07",
+        "order": 417,
+        "sibling_order": 7,
+        "indent": 2,
+        "depth": 1,
+        "raw_text": "광고색인 = 258",
+        "source": {
+          "id": "toc-sha256-725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+          "line_start": 453,
+          "line_end": 453,
+          "raw_line": "  - 광고색인 = 258"
+        },
+        "verification_status": "unreviewed",
+        "title_candidate": "광고색인",
+        "byline_candidate": null,
+        "contributor_candidates": [],
+        "page_reference_raw": "258",
+        "page_candidates": [
+          258
+        ],
+        "start_page_candidate": 258,
+        "end_page_candidate": null,
+        "flags": [],
+        "id": "maso-1984-07-toc-0042",
+        "parent_id": "maso-1984-07-toc-0035",
+        "section_path": [
+          "maso-1984-07-toc-0035"
+        ],
+        "kind_candidate": "article"
+      },
+      "status": "pending",
+      "pdf_page_candidate": 262
+    }
+  ],
+  "comparison": {
+    "path": "docs/ocr-july-comparison-01.json",
+    "sha256": "ff0bc2b433d82af33c5ba55cee74e4f91531092473fcf521c900505ea2681e47",
+    "bytes": 7514
+  },
+  "assistant_usage": {
+    "path": "docs/ocr-july-usage.json",
+    "sha256": "f934d7a0644eadd74a2c7028e05b4cf69ff4655dae87b3bca61b6303754f8967",
+    "bytes": 8588
+  },
+  "reading_room": {
+    "action": "none",
+    "rebuild_requires": "Explicit user request",
+    "instruction_date": "2026-10-10"
+  },
+  "next_pair": [
+    {
+      "title": "리뷰 살롱",
+      "engine": "tesseract",
+      "extent_status": "Needs complete boundary inspection"
+    },
+    {
+      "title": "합이 15",
+      "engine": "qwen",
+      "extent_status": "Needs complete boundary inspection"
+    }
+  ],
+  "decision": "No routing winner yet: first pair confounds article/content with engine. Complete reverse assignments and extend to tables/complex layouts before drawing cost conclusions.",
+  "accounting_notes": [
+    "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
+    "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",
+    "Alternate-engine evaluation is separate from ordinary restoration. No second paid correction on the same passage."
+  ]
+}

@@ -21,6 +21,7 @@ class PDFOCRTests(unittest.TestCase):
                 self.check_shared_page(degrees)
 
     def check_shared_page(self, degrees):
+        scale_to = 4000 if degrees == 90 else 3000
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             (root / 'source.pdf').write_bytes(b'synthetic source')
@@ -37,6 +38,7 @@ class PDFOCRTests(unittest.TestCase):
             package['excluded_regions'] = [dict(id='ad', pdf_index=0, kind='advertisement', bbox=[0, .5, 1, 1], notes='')]
             write_json(root / 'package.json', package)
             def render(args, **kwargs):
+                self.assertEqual(args[args.index('-scale-to') + 1], str(scale_to))
                 image = Image.new('RGB', (100, 101), 'blue')
                 image.paste('red', (0, 50, 100, 101))  # Excluded advertisement sentinel.
                 if degrees:
@@ -56,7 +58,8 @@ class PDFOCRTests(unittest.TestCase):
             with patch('tools.pdf_restore.ocr.ROOT', root), patch('tools.pdf_restore.ocr.verify_runtime'), \
                  patch('tools.pdf_restore.ocr.subprocess.run', side_effect=render), \
                  patch('tools.pdf_restore.ocr.run_region', side_effect=engine):
-                result = page_ocr(root / 'package.json', 1, output, runtime=root / 'runtime')
+                result = page_ocr(root / 'package.json', 1, output, runtime=root / 'runtime',
+                                  **({'scale_to': scale_to} if scale_to != 3000 else {}))
                 self.assertEqual(len(result), 2)
                 for row in result:
                     for field in ('text', 'positions', 'settings'):
@@ -65,11 +68,17 @@ class PDFOCRTests(unittest.TestCase):
                     page_ocr(root / 'package.json', 1, output, runtime=root / 'runtime')
                 self.assertEqual((output / 'body-psm6.txt').read_text(), 'unchanged raw\n')
                 settings = json.loads((output / 'body-psm6.settings.json').read_bytes())
+                self.assertEqual(settings['render_scale_to'], scale_to)
                 evidence = json.loads((output / 'evidence.json').read_bytes())
                 for record in (settings, evidence):
                     self.assertEqual(record.get('orientation_correction'), page.get('orientation_correction'))
                 self.assertEqual(settings['render_size'], [100, 101])
                 self.assertEqual(settings['crop_pixels'], [0, 0, 100, 51])
+
+    def test_invalid_scale_fails_before_touching_inputs(self):
+        for scale in (True, 999, 6001, 3000.5):
+            with self.subTest(scale=scale), self.assertRaisesRegex(ValueError, 'scale_to'):
+                page_ocr(Path('missing-map'), 1, Path('unused'), scale_to=scale)
 
 
 if __name__ == '__main__':

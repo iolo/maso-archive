@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "windows": [
+    {
+      "id": "shared-setup-01",
+      "stage": "setup-and-mapping",
+      "engine": "shared",
+      "start": "2026-10-10T03:17:17.014Z",
+      "end": "2026-10-10T03:25:00.364339+00:00",
+      "elapsed_seconds": 463.35033917427063,
+      "observed_responses": 22,
+      "tokens": {
+        "input_tokens": 1711520,
+        "cached_input_tokens": 1623808,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 15308,
+        "reasoning_output_tokens": 3620,
+        "total_tokens": 1726828,
+        "uncached_nonwrite_input_tokens": 87712
+      }
+    },
+    {
+      "id": "raw-01",
+      "stage": "raw-ocr",
+      "engine": "qwen",
+      "start": "2026-10-10T03:25:19.898881+00:00",
+      "end": "2026-10-10T03:26:09.656561+00:00",
+      "elapsed_seconds": 49.75767993927002,
+      "observed_responses": 5,
+      "tokens": {
+        "input_tokens": 492927,
+        "cached_input_tokens": 490496,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 620,
+        "reasoning_output_tokens": 235,
+        "total_tokens": 493547,
+        "uncached_nonwrite_input_tokens": 2431
+      }
+    },
+    {
+      "id": "correction-01",
+      "stage": "semantic-correction-and-recording",
+      "engine": "qwen",
+      "start": "2026-10-10T03:26:09.672129+00:00",
+      "end": "2026-10-10T03:26:56.324998+00:00",
+      "scope": "Scan inspection, assistant correction, notes, and writing the correction/spec artifacts; includes tool orchestration.",
+      "elapsed_seconds": 46.65286898612976,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 203398,
+        "cached_input_tokens": 199296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1515,
+        "reasoning_output_tokens": 444,
+        "total_tokens": 204913,
+        "uncached_nonwrite_input_tokens": 4102
+      }
+    },
+    {
+      "id": "raw-02",
+      "stage": "raw-ocr",
+      "engine": "tesseract",
+      "start": "2026-10-10T03:26:56.339915+00:00",
+      "end": "2026-10-10T03:27:12.841389+00:00",
+      "elapsed_seconds": 16.501473903656006,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 208817,
+        "cached_input_tokens": 207104,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 353,
+        "reasoning_output_tokens": 77,
+        "total_tokens": 209170,
+        "uncached_nonwrite_input_tokens": 1713
+      }
+    },
+    {
+      "id": "correction-02",
+      "stage": "semantic-correction-and-recording",
+      "engine": "tesseract",
+      "start": "2026-10-10T03:27:12.856914+00:00",
+      "end": "2026-10-10T03:28:23.741987+00:00",
+      "scope": "Scan inspection, assistant correction, notes, and writing the correction/spec artifacts; includes tool orchestration.",
+      "limitation": "The final response also prepared the first engine-neutral export-helper adaptation. Those tokens cannot be split reliably; this is not a pure correction-only cost.",
+      "elapsed_seconds": 70.88507294654846,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 220861,
+        "cached_input_tokens": 213504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2883,
+        "reasoning_output_tokens": 409,
+        "total_tokens": 223744,
+        "uncached_nonwrite_input_tokens": 7357
+      }
+    },
+    {
+      "id": "shared-export-setup-01",
+      "stage": "setup",
+      "engine": "shared",
+      "start": "2026-10-10T03:28:23.757271+00:00",
+      "end": "2026-10-10T03:28:23.787974+00:00",
+      "scope": "Local file adaptation command only; response authoring is within correction-02 and is not double-counted here.",
+      "elapsed_seconds": 0.030703067779541016,
+      "observed_responses": 0,
+      "tokens": null
+    },
+    {
+      "id": "export-01",
+      "stage": "export",
+      "engine": "qwen",
+      "start": "2026-10-10T03:28:23.803441+00:00",
+      "end": "2026-10-10T03:28:45.050560+00:00",
+      "elapsed_seconds": 21.247118949890137,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 231048,
+        "cached_input_tokens": 225152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 442,
+        "reasoning_output_tokens": 185,
+        "total_tokens": 231490,
+        "uncached_nonwrite_input_tokens": 5896
+      }
+    },
+    {
+      "id": "export-02",
+      "stage": "export",
+      "engine": "tesseract",
+      "start": "2026-10-10T03:28:45.065857+00:00",
+      "end": "2026-10-10T03:29:12.026558+00:00",
+      "elapsed_seconds": 26.96070098876953,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 117201,
+        "cached_input_tokens": 116864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 654,
+        "reasoning_output_tokens": 516,
+        "total_tokens": 117855,
+        "uncached_nonwrite_input_tokens": 337
+      }
+    },
+    {
+      "id": "evaluation-01",
+      "stage": "evaluation",
+      "engine": "shared",
+      "start": "2026-10-10T03:29:12.041647+00:00",
+      "end": "2026-10-10T03:30:48.199632+00:00",
+      "elapsed_seconds": 96.15798497200012,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 363811,
+        "cached_input_tokens": 358016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3137,
+        "reasoning_output_tokens": 1102,
+        "total_tokens": 366948,
+        "uncached_nonwrite_input_tokens": 5795
+      }
+    },
+    {
+      "id": "reporting-01",
+      "stage": "reporting",
+      "engine": "shared",
+      "start": "2026-10-10T03:30:48.214912+00:00",
+      "end": "2026-10-10T03:32:20.384016+00:00",
+      "elapsed_seconds": 92.16910409927368,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 249542,
+        "cached_input_tokens": 246272,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3161,
+        "reasoning_output_tokens": 963,
+        "total_tokens": 252703,
+        "uncached_nonwrite_input_tokens": 3270
+      }
+    },
+    {
+      "id": "reporting-02",
+      "stage": "reporting",
+      "engine": "shared",
+      "start": "2026-10-10T03:32:36.629178+00:00",
+      "end": "2026-10-10T03:35:20.344309+00:00",
+      "elapsed_seconds": 163.71513104438782,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 394824,
+        "cached_input_tokens": 388224,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5136,
+        "reasoning_output_tokens": 1915,
+        "total_tokens": 399960,
+        "uncached_nonwrite_input_tokens": 6600
+      }
+    }
+  ],
+  "money_cost": null,
+  "policy": "Observed usage by response completion timestamp in [start,end). A boundary-straddling response is attributed wholly to its completion window. Cached/write input and reasoning output are subsets; do not add them twice. No observed records means unknown, not free work. Missing or delayed usage may require a later audit. Elapsed windows include tool waits. These observations are not a bill or causal engine savings estimate.",
+  "observed_trial_span": {
+    "id": "observed-trial-span",
+    "start": "2026-10-10T03:17:17.014Z",
+    "end": "2026-10-10T03:35:20.344309+00:00",
+    "elapsed_seconds": 1083.3303091526031,
+    "observed_responses": 46,
+    "tokens": {
+      "input_tokens": 4418630,
+      "cached_input_tokens": 4286080,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 34266,
+      "reasoning_output_tokens": 9834,
+      "total_tokens": 4452896,
+      "uncached_nonwrite_input_tokens": 132550
+    }
+  },
+  "between_window_usage": {
+    "id": "observed-trial-span",
+    "start": "2026-10-10T03:17:17.014Z",
+    "end": "2026-10-10T03:35:20.344309+00:00",
+    "elapsed_seconds": 1083.3303091526031,
+    "observed_responses": 2,
+    "tokens": {
+      "input_tokens": 224681,
+      "cached_input_tokens": 217344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1057,
+      "reasoning_output_tokens": 368,
+      "total_tokens": 225738,
+      "uncached_nonwrite_input_tokens": 7337
+    }
+  },
+  "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
+  "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
+  "limitation": "Correction-02 includes first export-helper adaptation authored in the same response. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
+}
