@@ -4,8 +4,8 @@
   "status": "in-progress",
   "objective": "Choose OCR by content using paid-model usage and elapsed restoration work; local GPU cost excluded from the decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 2,
-  "remaining_toc_entries": 40,
+  "completed_article_bodies": 4,
+  "remaining_toc_entries": 38,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -163,6 +163,171 @@
         "correction-02",
         "export-02"
       ]
+    },
+    {
+      "batch": "03",
+      "toc_entry_id": "maso-1984-07-toc-0038",
+      "title": "리뷰 살롱",
+      "engine": "tesseract",
+      "printed_pages": [
+        156,
+        157,
+        158
+      ],
+      "pdf_pages": [
+        160,
+        161,
+        162
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-03/map.json",
+        "sha256": "5054ac4e1f082cb51cb0bac4dc079c1947fb35844b8fd862ebf3e5311af6ee27",
+        "bytes": 11347
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-03/review-salon/article.json",
+          "sha256": "8491e74a5d2401b3b29988079ac085c5a1f12556f1444f5612187f0995f948b7",
+          "bytes": 67113
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-03/review-salon/manifest.json",
+          "sha256": "ee19d25ebff819c39ab53a7716555d17c03cc7fc459d4a32a1c91f16fcb0c14b",
+          "bytes": 25149
+        },
+        "source_pages": [
+          160,
+          161,
+          162
+        ],
+        "regions": 38,
+        "text_regions": 36,
+        "figures": 2,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 6,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 19.741529746000197,
+      "recognition_seconds": 9.4035591009997,
+      "local_qwen_tokens": null,
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-03/transcription-assistant.json",
+        "sha256": "e640335e735cb9d4e6613fab080b0227d6eac9d5d8a45381d3cec94e7d368c13",
+        "bytes": 11863
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-10T03:46:57.005068+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "e640335e735cb9d4e6613fab080b0227d6eac9d5d8a45381d3cec94e7d368c13",
+          "bytes": 11863
+        },
+        "method": "Assistant scan comparison from Tesseract draft; alternate-engine text not seen."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 236,
+        "prose": 3303,
+        "title": 68
+      },
+      "work_window_ids": [
+        "raw-03",
+        "correction-03",
+        "export-03"
+      ]
+    },
+    {
+      "batch": "04",
+      "toc_entry_id": "maso-1984-07-toc-0008",
+      "title": "합이 15",
+      "engine": "qwen",
+      "printed_pages": [
+        64,
+        65
+      ],
+      "pdf_pages": [
+        68,
+        69
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-04/map.json",
+        "sha256": "b614f10a3b57f364d2991aee4c66fe8a1e52b8d706705ceb266f0cc1af66bcee",
+        "bytes": 5968
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-04/sum15/article.json",
+          "sha256": "c1ec66e069d042e08f17073940659cf0f563a29379183050aa5f558f5f233d14",
+          "bytes": 30703
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-04/sum15/manifest.json",
+          "sha256": "534c8fb64e7456719e9b6e14fbc1fcb824058dbf44bc9850c38b56cf76b27da4",
+          "bytes": 12594
+        },
+        "source_pages": [
+          68,
+          69
+        ],
+        "regions": 17,
+        "text_regions": 17,
+        "figures": 0,
+        "physical_listing_rows": 107,
+        "logical_listing_rows": 107,
+        "unresolved_entries": 5,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 73.36979075400086,
+      "recognition_seconds": 63.02982546799922,
+      "local_qwen_tokens": {
+        "prompt_tokens": 11944,
+        "completion_tokens": 1739,
+        "total_tokens": 13683
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-04/transcription-assistant.json",
+        "sha256": "1a30046b3aa53314d82a49e625efb94b97043c877a76292fe985cb2a99c6dacf",
+        "bytes": 3645
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-10T03:48:21.927889+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "1a30046b3aa53314d82a49e625efb94b97043c877a76292fe985cb2a99c6dacf",
+          "bytes": 3645
+        },
+        "method": "Assistant scan comparison from Qwen draft; alternate-engine text not seen."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 9,
+        "code": 1985,
+        "other": 27,
+        "prose": 219,
+        "title": 4
+      },
+      "work_window_ids": [
+        "raw-04",
+        "correction-04",
+        "export-04"
+      ]
     }
   ],
   "entries": [
@@ -308,7 +473,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 51
+      "pdf_page_candidate": 51,
+      "planned_primary_engine": "pending-inspection"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0005",
@@ -455,9 +621,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 68,
-      "planned_primary_engine": "qwen"
+      "batch": "04",
+      "engine": "qwen",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-04/sum15/article.json",
+        "sha256": "c1ec66e069d042e08f17073940659cf0f563a29379183050aa5f558f5f233d14",
+        "bytes": 30703
+      }
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0009",
@@ -1161,7 +1333,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 184
+      "pdf_page_candidate": 184,
+      "planned_primary_engine": "pending-inspection"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0028",
@@ -1570,9 +1743,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 160,
-      "planned_primary_engine": "tesseract"
+      "batch": "03",
+      "engine": "tesseract",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-03/review-salon/article.json",
+        "sha256": "8491e74a5d2401b3b29988079ac085c5a1f12556f1444f5612187f0995f948b7",
+        "bytes": 67113
+      }
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0039",
@@ -1728,10 +1907,22 @@
     "sha256": "ff0bc2b433d82af33c5ba55cee74e4f91531092473fcf521c900505ea2681e47",
     "bytes": 7514
   },
+  "comparisons": [
+    {
+      "path": "docs/ocr-july-comparison-01.json",
+      "sha256": "ff0bc2b433d82af33c5ba55cee74e4f91531092473fcf521c900505ea2681e47",
+      "bytes": 7514
+    },
+    {
+      "path": "docs/ocr-july-comparison-02.json",
+      "sha256": "bde2320f2b60df2d1811d2e43c84070fb0a78e69ac686891af2178e7a5239e88",
+      "bytes": 12277
+    }
+  ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "f934d7a0644eadd74a2c7028e05b4cf69ff4655dae87b3bca61b6303754f8967",
-    "bytes": 8588
+    "sha256": "84ee14ba027180c9073ae9bd5afca3d216a43b7f73b53005d75a7168870906b2",
+    "bytes": 13465
   },
   "reading_room": {
     "action": "none",
@@ -1740,17 +1931,17 @@
   },
   "next_pair": [
     {
-      "title": "리뷰 살롱",
-      "engine": "tesseract",
+      "title": "SPC-1000 음악기능과 명령어",
+      "engine": "pending-inspection",
       "extent_status": "Needs complete boundary inspection"
     },
     {
-      "title": "합이 15",
-      "engine": "qwen",
+      "title": "PIA 시리즈1 뮤직카드",
+      "engine": "pending-inspection",
       "extent_status": "Needs complete boundary inspection"
     }
   ],
-  "decision": "No routing winner yet: first pair confounds article/content with engine. Complete reverse assignments and extend to tables/complex layouts before drawing cost conclusions.",
+  "decision": "Both engine/content directions are now represented. Different article lengths, layout, and correction overhead prevent causal savings claims; extend to technical tables and mixed layouts before choosing a routing policy.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

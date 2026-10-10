@@ -408,6 +408,7 @@ remaining after local OCR.
 The maintainer selected July1984 for the next trial. See [the trial plan and first
 checkpoint](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples. The
-first two complete native packages are the Qwen editorial and Tesseract driving
-game. No routing default has changed. Reading-room rebuilding and staging are
+first four complete native packages cover the Qwen editorial and sum15 game,
+plus the Tesseract driving game and seven-book review article. The reverse
+assignments add five source pages and six matched-crop diagnostics. No routing default has changed. Reading-room rebuilding and staging are
 deferred until the user explicitly requests them.

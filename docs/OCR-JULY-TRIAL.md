@@ -17,8 +17,8 @@ tables, mixed layouts, and longer listings:
 | --- | --- | --- | --- |
 | 편집자 노트 | Qwen | Prose | Restored; printed16 / PDF20 |
 | 운전 연습 | Tesseract | BASIC with introductory prose | Restored; printed83 / PDF87 |
-| 리뷰 살롱 | Tesseract | Prose with possible mixed material | Next; inspect full extent |
-| 합이 15 | Qwen | BASIC with introductory prose | Next; inspect full extent |
+| 리뷰 살롱 | Tesseract | Seven book reviews | Restored; printed156–158 / PDF160–162 |
+| 합이 15 | Qwen | BASIC with introductory prose and grids | Restored; printed64–65 / PDF68–69 |
 
 Both engines use 4,000-pixel page renders in this trial. Tesseract retains its
 pinned runtime, OEM1/PSM6 and one thread, with English for code and Korean+English
@@ -31,7 +31,7 @@ before obtaining the alternate draft. Do not pay to correct the same passage
 twice: the second reading would benefit from remembering the first. Raw OCR
 comparisons can be paired; paid correction comparisons here are observational
 across different material, with content, length, context and setup confounders.
-These first two articles alone cannot rank engine cost.
+These four different articles alone cannot establish causal engine savings.
 
 Keep shared preparation, mapping, experiment development, alternate-engine
 evaluation, exports and reporting visible. Report correction work separately,
@@ -90,15 +90,74 @@ supporting diagnostics, not independent human-gold accuracy or execution tests.
 Qwen again gives cleaner drafts on this small sample; the paid-work decision
 awaits the reverse assignments and additional content categories.
 
+## Reverse assignments completed, 2026-10-10
+
+The second pair adds five source pages,55 regions, two original image strips and
+107 numbered BASIC lines. All seven book reviews retain their publishing details.
+The game retains its three grids, printed misspellings and the apparent logic
+error at line920. Qwen's invented wrap within line48 was restored to one printed
+row. Eleven review flags cover source wording and uncertain glyphs/literal spaces.
+Both packages pass full coverage, integrity, UTF-8 range and byte-identical rebuild
+checks. The listing has107 physical rows and107 distinct printed line numbers.
+
+July now has four complete article bodies over seven source pages:74 regions,
+70 text regions, four original images,164 logical BASIC lines and17 review flags.
+Thirty-eight TOC entries remain pending restoration or heading classification.
+The reading room has not been rebuilt or restaged.
+
+| Observation | Tesseract book reviews | Qwen sum15 game |
+| --- | ---: | ---: |
+| Source pages | 3 | 2 |
+| Raw stage, including render/startup/export | 19.74s | 73.37s |
+| Recognition calls, contained in raw stage | 9.40s | 63.03s |
+| Correction and recording window | 117.92s | 72.32s |
+| Corrected non-whitespace characters | 3,607 | 2,244 |
+| Observed uncached, non-write input tokens in correction window | 7,304 | 12,665 |
+| Observed cached input tokens in correction window | 345,472 | 182,144 |
+| Observed output tokens in correction window | 4,779 | 2,567 |
+
+Neither new correction window includes export-helper development. Both include
+scan inspection and writing correction/review records. Cache-write tokens were
+zero. Qwen's13,683 local tokens are separate from assistant usage.
+
+The Qwen game contains107 listing lines versus57 in the earlier Tesseract game,
+yet its correction window is similar in duration (72.32s versus70.89s) and uses
+slightly fewer output tokens (2,567 versus2,883). Its uncached input is higher
+(12,665 versus7,357), including the enlarged scans inspected in that response.
+This supports fewer transcription edits, but does not establish a paid-cost win.
+The games differ in listing length, prose proportion, layout and print quality;
+the earlier Tesseract window also included one setup response.
+
+Six further raw-OCR samples were fixed before primary inference. Transcriptions
+were sealed before alternate-engine inference; Tesseract-derived references
+supply the three book-review samples, Qwen-derived references the game samples.
+
+| Crop | Content | Qwen compact CER | Tesseract compact CER |
+| --- | --- | ---: | ---: |
+| p160r04 | Book-review prose | 0.00% | 5.92% |
+| p161r09 | Book-review prose | 0.34% | 4.42% |
+| p162r11 | Book-review prose | 0.51% | 9.14% |
+| p68r03 | Game instructions | 0.00% | 13.16% |
+| p68r09 | BASIC lines35–53 | 0.00% | 3.04% |
+| p69r03 | BASIC lines400–520 | 0.00% | 9.05% |
+
+These six samples again favor Qwen's raw text. Zero compact CER does not imply
+faithful line wrapping: it deliberately ignores the invented wrap in line48.
+The references remain unblinded assistant readings. Continue with technical
+tables and mixed layouts before adopting a routing rule.
+
 ## Evidence and continuation
 
 - [Issue progress and package pins](ocr-july-progress.json)
 - [Four matched crop comparisons](ocr-july-comparison-01.json)
+- [Six reverse-assignment crop comparisons](ocr-july-comparison-02.json)
 - [Assistant usage by work window, including shared overhead](ocr-july-usage.json)
 - Private queue, maps, raw evidence, corrections and scripts:
   `private/pdf-restoration/12-1984-07-comparison/`
 - Native packages: `build/pdf-restoration/12-1984-07-comparison-batch-01/editorial/`
   and `build/pdf-restoration/12-1984-07-comparison-batch-02/driving/`
+- New packages: `build/pdf-restoration/12-1984-07-comparison-batch-03/review-salon/`
+  and `build/pdf-restoration/12-1984-07-comparison-batch-04/sum15/`
 
 The usage audit reads only local `token_usage_record` rows, deduplicates response
 IDs, rejects overlapping windows, and preserves unknown fields as null. Cached
@@ -119,7 +178,10 @@ PYTHONPATH=src:. python3 -m tools.pdf_restore.usage \
   --output /tmp/july-usage.json
 ```
 
-Next: inspect and restore the Tesseract-prose/Qwen-code pair, then compare like
-content across the growing trial. Record mapping and shared export-helper work
-before opening each correction window. Preserve all earlier packages and commit
-each completed checkpoint. Reading-room work remains explicitly deferred.
+Next: inspect technical/table candidates such as SPC-1000 음악기능과 명령어 and
+PIA 시리즈1 뮤직카드, then assign engines before their inference. These candidates
+are not yet mapped or assigned. Keep mapping and setup outside correction windows.
+The cumulative usage audit now includes earlier reporting/commit responses through
+the new cutoff; gaps remain visible and calendar spans are not active work time.
+Preserve earlier packages and commit each checkpoint. Reading-room work remains
+explicitly deferred.

@@ -970,3 +970,29 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Validation:16 focused tests pass across usage, Tesseract crop/settings behavior,
   native exports and the mapped Qwen adapter. Raw inference and full-stage timers
   are separate; shared setup/evaluation costs remain in the trial audit.
+
+### July reverse assignments completed, 2026-10-10
+
+- Batch03 restores 리뷰 살롱, printed156–158/PDF160–162, with Tesseract:
+  seven book reviews,36 text regions,two original image strips,six review flags.
+  Printed159/PDF163 is the following business-section opener, outside this body.
+  Raw19.74s; recognition9.40s; correction/recording window117.92s.
+- Batch04 restores 합이15, printed64–65/PDF68–69, with Qwen:17 text regions,
+  three grids,107 numbered BASIC lines,five flags. Raw73.37s; recognition63.03s;
+  13,683 local tokens; correction/recording window72.32s. Restored an invented
+  wrap at48; retained printed ALTERNATLEY, UN FILLED and the<> operator at920.
+- Both native packages pass coverage, integrity, UTF-8 ranges, explicit listing
+  row accounting and byte-identical rebuild checks. No code execution or repair.
+  Totals:four complete bodies,seven source pages,74 regions,164 logical listing
+  lines,17 flags;38 TOC entries remain pending restoration/heading classification.
+- Six preselected identical-crop comparisons favor Qwen raw text. Three references
+  originate from Tesseract drafts and were sealed before alternate Qwen inference.
+  Counts and timing remain observational; zero compact CER hides whitespace/wrap
+  differences and is not a full-code fidelity claim.
+- Usage audit includes previous reporting/commit tail and current shared overhead.
+  New correction windows reuse the helper and contain no implementation work.
+  Qwen code required fewer edits, but increased uncached image/context input means
+  no paid-cost winner yet. See docs/OCR-JULY-TRIAL.md and cumulative JSON evidence.
+- Next:inspect technical/table candidates SPC-1000 음악기능과 명령어 and PIA
+  시리즈1 뮤직카드 before choosing their engines. Reading-room rebuild/staging
+  remains prohibited until explicitly requested; none performed this checkpoint.
