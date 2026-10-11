@@ -2894,3 +2894,69 @@ quality record. Export integrity, byte-identical rebuild, listing coverage and
 UTF-8 review ranges pass. July now has31 complete bodies and five untouched;
 human acceptance remains pending. Next is cashbook starting229, whose end must
 be verified before mapping. Issue-wide consolidation and reading room remain pending.
+
+## Batch45: Cashbook opening, PDF229–232
+
+The article extent is verified as229–237, ending above a separate advertisement;
+238 starts the classified section. This checkpoint restores the complete prose
+and program explanation plus the first two listing columns. It contains116 regions,
+114 text crops,two original images and27 review flags. Coverage includes30 variable
+entries,23 program ranges,two special notes,five error descriptions and five search
+formats. The listing starts at1 and ends at210:30 numbered lines over40 physical rows.
+
+The Tesseract prose probe substituted Latin fragments for readable Korean words,
+so it was rejected as primary. Titles and two repetitive asterisk REM headers use
+Tesseract; prose, structured explanations and plain BASIC use Qwen with a512-token
+cap. The fixed route is16T/98Q. The rejected probe is reused only as an evaluation
+alternate and its cost counted once as preparation.
+
+The original saved session returned terminal143; its log confirms cancellation
+and shutdown. Resume reused26 Qwen stages and all16 Tesseract calls. Source review
+also found a crop boundary cutting the first date-format row. Two completed crops
+were revised and repeated; original images/responses and their cost remain archived.
+The repaired row is fully visible. The other114 region definitions are unchanged.
+
+| Observation | Batch45 |
+| --- | ---: |
+| First worker lifespan, through terminal shutdown |94.230s|
+| Resumed worker lifespan |182.766s|
+| Raw total, excluding the recovery gap |276.996s|
+| Completed Qwen recognition, including superseded crops |243.678s|
+| Tesseract primary recognition, counted once |1.470s|
+| Completed local tokens, lower bound |43,215|
+| Assistant correction window |637.291s|
+| Correction/raw overlap |267.215s|
+| Paid uncached input / cached input |74,414 /3,771,392|
+| Paid output, including6,376 reasoning tokens |16,905|
+
+Interrupted p230r15 has no captured response or token usage; that cost is unknown,
+not zero. The local lower bound includes98 final Qwen responses and two superseded
+responses. The correction window includes full source inspection, explicit draft
+correction, joins, crop repair, terminal-status verification/recovery and helper
+preparation. Export and evaluation are separate. No causal paid-cost comparison
+can be inferred from these observations.
+
+[Comparison43](ocr-july-comparison-43.json) retains all four original samples,
+selected after the rejected prose probe and before primary batch OCR. References
+were source-reviewed and sealed before the remaining alternates/scores. They are
+unblinded assistant readings, not human gold. Neither revised crop is an evaluation
+sample. The code sample deliberately retains difficult printed split Hangul.
+
+| Crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| Ordinary Korean prose, p229r05 |0.00%|8.51%|
+| Variable definitions, p230r31 |0.00%|28.13%|
+| Program explanation, p231r20 |0.00%|2.56%|
+| BASIC with split Hangul, p232r28 |4.41%|47.06%|
+
+Qwen still substituted plausible Korean words elsewhere and damaged split Hangul
+in the listing. Source review repaired recognition errors while retaining original
+awkward wording, an anomalous printed range, O/zero uncertainty and a missing-looking
+listing delimiter. Three syllables split across printed rows remain visible jamo
+sequences with review flags; this is not a certification of historical source bytes.
+The program has not been executed.
+
+Export integrity, byte-identical rebuild, listing coverage and UTF-8 ranges pass.
+July now has31 complete bodies,one partial and four untouched. Next restore233–237
+and assemble the full cashbook article. Human acceptance, final issue-wide metrics
+and reading room remain pending.

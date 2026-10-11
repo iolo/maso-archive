@@ -679,3 +679,22 @@ that exception instead of treating every recognition measurement as nested.
 Keep initial assignments separate from fallback IDs: preassigned Tesseract crops
 are not failed Qwen crops. Record revisions to evaluation samples before sealing
 references and running alternates, including whether selection was post-primary.
+
+### July batch45: inspect boundaries between independently mapped groups
+
+Blank seams inside a column group do not prove that its outer boundaries are safe.
+In batch45, the boundary between search instructions and date examples cut through
+the first example. Move both adjacent crop boundaries to the same verified blank
+seam. Archive original images/responses and retain their cost; rerun only changed
+images. Confirm the original worker is terminal before modifying its evidence.
+
+For historical Hangul listings, retain visible jamo that split across printed rows
+and attach a source flag. A composed Unicode syllable can hide a printed boundary;
+a literal jamo transcription still does not establish original encoded bytes.
+Keep the full listing columns and require human review. Do not silently repair
+missing-looking delimiters or anomalous program-range references from code logic.
+
+A source-reviewed raw-derived draft with explicit edits can avoid retranscribing
+unchanged passages. It still requires inspection of every source crop, explicit
+joins, separate raw evidence and honest uncertainty. This workflow choice does
+not itself prove lower paid-token cost across different article types.

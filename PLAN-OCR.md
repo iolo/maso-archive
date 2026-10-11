@@ -1935,3 +1935,28 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Export integrity, byte-identical rebuild, listing coverage and UTF-8 review ranges
   pass. July31 complete, five untouched; human review pending. Next cashbook starts229;
   ending237 remains a candidate to verify. Final metrics and reading room pending.
+
+### July Cashbook opening restored, 2026-10-12
+
+- Verified full article PDF229–237;238 starts the classified section. Restored229–232:
+  116 regions,114 text crops,two original columns,27 flags. Complete instructions,
+  30 variable entries,23 program ranges,two special notes,five error cases and five
+  search formats. Opening listing has30 numbered lines1–210 across40 physical rows.
+- T prose probe produced Latin substitutions and was rejected. Fixed16T/98Q:
+  titles/two repetitive asterisk headers use T; prose,outlines and plain BASIC use Q.
+  Original session returned terminal143 before resume. Reused26 Q stages and16 T;
+  two date-format crops repaired and repeated with original evidence/cost retained.
+- Two measured worker lifespans276.996s,excluding recovery gap. Completed-response
+  local43,215-token lower bound includes two superseded crop responses; interrupted
+  p230r15 usage unknown. Probe counted once as preparation/reused only as alternate.
+- Correction637.291s overlaps raw by267.215s; includes source inspection, explicit
+  draft edits/joins,crop repair,recovery and helper preparation. Paid74,414 uncached
+  /3,771,392 cached input;16,905 output includes6,376 reasoning. No per-engine paid
+  savings claim. Export/evaluation separately measured.
+- Four unchanged comparison43 samples favor Qwen. Split-Hangul BASIC is4.41% versus
+  T47.06% compact CER; reference is unblinded assistant source reading, not human gold.
+  Printed jamo breaks,awkward source wording/ranges and missing-looking delimiter
+  remain flagged; no execution or historical encoding certification.
+- Export/rebuild/UTF-8/listing checks pass. July31 complete,one partial,four untouched.
+  Next233–237 listing,then assemble229–237. Final metrics and reading room pending;
+  all human acceptance remains pending and final reporting usage carries forward.
