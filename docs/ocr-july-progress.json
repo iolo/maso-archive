@@ -4,14 +4,14 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 12,
+  "completed_article_bodies": 13,
   "partial_article_bodies": 0,
-  "completed_checkpoints": 17,
+  "completed_checkpoints": 18,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 24,
-  "remaining_toc_entries": 24,
-  "untouched_toc_entries": 24,
+  "remaining_article_bodies": 23,
+  "remaining_toc_entries": 23,
+  "untouched_toc_entries": 23,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -3411,6 +3411,970 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Tesseract for clear prose/byline; Qwen for technical explanation, variables, titles and faint wrapped BASIC/DATA. Region assignments fixed before inference."
       }
+    },
+    {
+      "batch": "18",
+      "toc_entry_id": "maso-1984-07-toc-0010",
+      "title": "화성인 디거",
+      "engine": "mixed",
+      "printed_pages": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "pdf_pages": [
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-18/map.json",
+        "sha256": "02a71d9f5729c66e011006f1c5c6de22a721e7fb69cbe50ca47513297146ae66",
+        "bytes": 18579
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-18/digger-apple/article.json",
+          "sha256": "90d5451f7690866f98a414fd3aac66dc461e48afc5b5b3c64679f29619f7ed38",
+          "bytes": 100328
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-18/digger-apple/manifest.json",
+          "sha256": "13bc3db7697d788e01341f6cac2bc3284f414771d08d032459520810d7972270",
+          "bytes": 39115
+        },
+        "source_pages": [
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "regions": 58,
+        "text_regions": 57,
+        "figures": 1,
+        "physical_listing_rows": 421,
+        "logical_listing_rows": 141,
+        "unresolved_entries": 26,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": null,
+      "recognition_seconds": 254.4088529959954,
+      "local_qwen_tokens": {
+        "prompt_tokens": 26597,
+        "completion_tokens": 7536,
+        "total_tokens": 34133
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-18/transcription-assistant.json",
+        "sha256": "bb0f44d8abbbf276f24d7f2eb795aef9067b311d5cd59177645f29ef8cccc24e",
+        "bytes": 14831
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T10:30:24.543470+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "bb0f44d8abbbf276f24d7f2eb795aef9067b311d5cd59177645f29ef8cccc24e",
+          "bytes": 14831
+        },
+        "method": "Assistant source reading from preassigned mixed primary drafts; sealed before alternate samples, unblinded and not human gold."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 9,
+        "code": 7595,
+        "other": 311,
+        "prose": 724,
+        "title": 11
+      },
+      "work_window_ids": [
+        "raw-18",
+        "correction-18",
+        "export-18"
+      ],
+      "raw_run_seconds_lower_bound": 285.2192987053356,
+      "raw_run_seconds_upper_bound": 489.61588907099724,
+      "raw_timing_basis": "Lower bound sums original start to last first-attempt success, first resume ready-runtime mtime to last success, and measured final resume. Upper bound spans original start to final terminal observation plus final resume; includes observation/recovery gaps. Exact interrupted durations unknown.",
+      "raw_timing_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-18/raw-run-timing.json",
+        "sha256": "4750500663c660198452781ff13eaba21347b7c343c83d361825d6c8b216562a",
+        "bytes": 2414
+      },
+      "interruption": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-18/interruption.json",
+        "sha256": "2a7fa86726121dc167f7da1c6f45974aea10f05ef85364fca27af38c9a4a3869",
+        "bytes": 1400
+      },
+      "recognition_limitation": "Sum of completed inferences only; interrupted inference duration and local tokens unknown.",
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p73r03": "tesseract",
+        "p73r04": "tesseract",
+        "p73r05": "tesseract",
+        "p73r06": "tesseract",
+        "p73r07": "tesseract",
+        "p73r08": "tesseract",
+        "p74r01": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 252.72745275599664,
+        "tesseract_recognition_seconds": 1.6814002399987658,
+        "qwen_regions": {
+          "p73r02": 0.8405290369992144,
+          "p73r09": 4.3726785850012675,
+          "p74r02": 0.44684525599950575,
+          "p74r03": 4.167759809002746,
+          "p74r04": 4.719266604999575,
+          "p74r05": 4.020267717001843,
+          "p74r06": 4.801671932000318,
+          "p74r07": 5.360493514999689,
+          "p74r08": 3.8297295169977588,
+          "p74r09": 7.103870628998266,
+          "p74r10": 6.527906718001759,
+          "p74r11": 5.2660625530006655,
+          "p74r12": 5.956706794997444,
+          "p74r13": 6.4881366289992,
+          "p74r14": 5.888794220001728,
+          "p74r15": 6.235423866000929,
+          "p75r01": 6.062574985997344,
+          "p75r02": 4.959239258001617,
+          "p75r03": 4.806407494001178,
+          "p75r04": 5.964796071002638,
+          "p75r05": 4.897510678998515,
+          "p75r06": 5.373490893998678,
+          "p75r07": 6.3321224649989745,
+          "p75r08": 4.997065699000814,
+          "p75r09": 5.050733297000988,
+          "p75r10": 4.887478678996558,
+          "p75r11": 4.490147399999842,
+          "p75r12": 4.814872306000325,
+          "p75r13": 5.073452553002426,
+          "p75r14": 5.824864345999231,
+          "p76r01": 5.285932720002165,
+          "p76r02": 1.3149337119975826,
+          "p76r03": 4.732026129000587,
+          "p76r04": 5.218332224001642,
+          "p76r05": 5.541592614001274,
+          "p76r06": 4.95239398099875,
+          "p76r07": 5.072224953997647,
+          "p76r08": 5.3540490599989425,
+          "p76r09": 5.067570784001873,
+          "p76r10": 4.360326991001784,
+          "p76r11": 5.311506914000347,
+          "p76r12": 4.93119377399853,
+          "p76r13": 5.325757972001156,
+          "p76r14": 4.9546982559986645,
+          "p77r01": 1.358106546998897,
+          "p77r02": 7.7017467280020355,
+          "p77r03": 8.694195991996821,
+          "p77r04": 7.850766008999926,
+          "p77r05": 5.857890264996968,
+          "p77r06": 4.281307620000007
+        },
+        "tesseract_regions": {
+          "p73r03": 0.07589268099764013,
+          "p73r04": 0.24966153200148256,
+          "p73r05": 0.2724411700000928,
+          "p73r06": 0.3404300479996891,
+          "p73r07": 0.3575074769978528,
+          "p73r08": 0.22495984900160693,
+          "p74r01": 0.1605074830004014
+        },
+        "reason": "Planned content routing, not a failure fallback."
+      },
+      "qwen_recognition_seconds": 252.72745275599664,
+      "tesseract_recognition_seconds": 1.6814002399987658,
+      "assignment_reason": "Planned content routing, not a failure fallback.",
+      "listing_audit": {
+        "logical_basic_rows": 141,
+        "physical_basic_rows": 383,
+        "printed_basic_lines": {
+          "p74r06": [
+            10,
+            20,
+            30
+          ],
+          "p74r07": [
+            40,
+            50,
+            51,
+            52
+          ],
+          "p74r08": [
+            53,
+            54,
+            55,
+            60
+          ],
+          "p74r09": [
+            70,
+            80
+          ],
+          "p74r10": [
+            90,
+            100
+          ],
+          "p74r11": [
+            110,
+            120
+          ],
+          "p74r12": [
+            130,
+            140,
+            150
+          ],
+          "p74r13": [
+            160,
+            170,
+            180
+          ],
+          "p74r14": [
+            190,
+            200,
+            210
+          ],
+          "p74r15": [
+            220,
+            230,
+            240
+          ],
+          "p75r01": [
+            250,
+            260
+          ],
+          "p75r02": [
+            270,
+            280,
+            290
+          ],
+          "p75r03": [
+            300,
+            310,
+            320
+          ],
+          "p75r04": [
+            330,
+            340,
+            350
+          ],
+          "p75r05": [
+            360,
+            370,
+            380
+          ],
+          "p75r06": [
+            390,
+            400,
+            410
+          ],
+          "p75r07": [
+            420,
+            430,
+            440,
+            450
+          ],
+          "p75r08": [
+            460,
+            470
+          ],
+          "p75r09": [
+            480,
+            490,
+            500,
+            510,
+            520
+          ],
+          "p75r10": [
+            530,
+            540,
+            550
+          ],
+          "p75r11": [
+            560,
+            570
+          ],
+          "p75r12": [
+            580,
+            590,
+            600,
+            610
+          ],
+          "p75r13": [
+            620,
+            630,
+            640,
+            650,
+            660
+          ],
+          "p75r14": [
+            670,
+            680,
+            690,
+            700,
+            710
+          ],
+          "p76r01": [
+            720,
+            730,
+            740,
+            750
+          ],
+          "p76r02": [
+            760,
+            770,
+            780,
+            790,
+            800
+          ],
+          "p76r03": [
+            810,
+            820,
+            830,
+            840
+          ],
+          "p76r04": [
+            850,
+            860,
+            870,
+            880
+          ],
+          "p76r05": [
+            890,
+            900,
+            910,
+            920
+          ],
+          "p76r06": [
+            930,
+            940,
+            950,
+            960,
+            970
+          ],
+          "p76r07": [
+            980,
+            998,
+            1000,
+            1010,
+            1020,
+            1030
+          ],
+          "p76r08": [
+            1040,
+            1050,
+            1060,
+            1070,
+            1080
+          ],
+          "p76r09": [
+            1090,
+            1100,
+            1110,
+            1120
+          ],
+          "p76r10": [
+            1130,
+            1140,
+            1150,
+            1160,
+            1170,
+            1180
+          ],
+          "p76r11": [
+            1190,
+            1200,
+            1210,
+            1220
+          ],
+          "p76r12": [
+            1230,
+            1240,
+            1250,
+            1260,
+            1270,
+            1280
+          ],
+          "p76r13": [
+            1290,
+            1300,
+            1310,
+            1320,
+            1330
+          ],
+          "p76r14": [
+            1340,
+            1350,
+            1360
+          ]
+        },
+        "omitted_raw_rows": {
+          "p76r02": "Whole760–800 omitted; restored",
+          "p76r04": "Isolated0 completing940 omitted; restored"
+        },
+        "scope": "All141 logical line identities and declared physical rows source-compared, including cross-column/page wraps.700 contains an explicit unreadable span; source anomalies and padding remain flagged.; no execution or character-perfect certification."
+      },
+      "data_audit": {
+        "lines": {
+          "40": [
+            "173",
+            "48",
+            "192",
+            "136",
+            "208",
+            "5",
+            "206",
+            "1",
+            "3",
+            "240",
+            "9",
+            "202",
+            "208",
+            "245",
+            "174",
+            "0",
+            "3",
+            "76",
+            "2",
+            "3",
+            "96"
+          ]
+        },
+        "data_lines": 1,
+        "comma_delimited_fields": 21,
+        "melody_source_rows": {
+          "p74r08": "53 CALL 770\n54 FOR QJ = 1 TO VAL ( MID$ (ME\nLODY$,9 * JQ + 7,3))\n55 NEXT : NEXT : RETURN\n60 ME$ = \"15207002520303500020303\n5000181070000203075100161070",
+          "p74r09": "000152070000\": GOTO 50\n70 ME$ = \"181100000255150000\": GOTO\n50\n80 ME$ = \"19207000019207000014414\n0025192070000144070000114140\n0251920700001440700001140700\n0019207000014407000011407000\n0192070000144070000114140025\n1440700001140700000961400251",
+          "p74r10": "14070000144070000192140000\":\nGOSUB 50\n90 MELODY$ = \"1920700001920700001\n4414002514407000014407000014\n4140000\": GOTO 50\n100 HOME : HGR : HCOLOR= 3: FOR\nI = 0 TO 7: HPLOT I,I TO 279\n- I,I TO 279 - I,159 - I TO\nI,159 - I TO I,I: NEXT : FOR\nTX = 0 TO 11: FOR TY = 0 TO"
+        },
+        "scope": "One21-field decimal DATA line and melody strings source-compared; physical wraps retained, no execution."
+      },
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Tesseract for clear prose/byline; Qwen for titles, keyboard-symbol paragraph, explanations, wrapped BASIC and hex. Region assignments fixed before inference."
+      },
+      "hex_audit": {
+        "hex_rows": 36,
+        "byte_fields": 288,
+        "rows": [
+          {
+            "region": "p77r02",
+            "address": "4000",
+            "bytes": [
+              "00",
+              "3A",
+              "1A",
+              "1A",
+              "68",
+              "7A",
+              "3A",
+              "72"
+            ]
+          },
+          {
+            "region": "p77r02",
+            "address": "4008",
+            "bytes": [
+              "2A",
+              "54",
+              "74",
+              "1A",
+              "1A",
+              "7A",
+              "3A",
+              "3A"
+            ]
+          },
+          {
+            "region": "p77r02",
+            "address": "4010",
+            "bytes": [
+              "00",
+              "50",
+              "0A",
+              "08",
+              "08",
+              "0A",
+              "0A",
+              "0A"
+            ]
+          },
+          {
+            "region": "p77r02",
+            "address": "4018",
+            "bytes": [
+              "0A",
+              "08",
+              "0A",
+              "08",
+              "00",
+              "00",
+              "00",
+              "00"
+            ]
+          },
+          {
+            "region": "p77r02",
+            "address": "4020",
+            "bytes": [
+              "00",
+              "00",
+              "00",
+              "00",
+              "20",
+              "48",
+              "68",
+              "68"
+            ]
+          },
+          {
+            "region": "p77r02",
+            "address": "4028",
+            "bytes": [
+              "68",
+              "68",
+              "28",
+              "48",
+              "28",
+              "54",
+              "52",
+              "6C"
+            ]
+          },
+          {
+            "region": "p77r02",
+            "address": "4030",
+            "bytes": [
+              "00",
+              "2A",
+              "6E",
+              "6E",
+              "40",
+              "54",
+              "0A",
+              "26"
+            ]
+          },
+          {
+            "region": "p77r02",
+            "address": "4038",
+            "bytes": [
+              "28",
+              "2C",
+              "2E",
+              "2E",
+              "2A",
+              "26",
+              "2A",
+              "00"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4040",
+            "bytes": [
+              "00",
+              "00",
+              "00",
+              "00",
+              "00",
+              "08",
+              "08",
+              "08"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4048",
+            "bytes": [
+              "08",
+              "28",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20",
+              "20"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4050",
+            "bytes": [
+              "00",
+              "50",
+              "5E",
+              "32",
+              "20",
+              "3E",
+              "3E",
+              "3E"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4058",
+            "bytes": [
+              "5A",
+              "54",
+              "2A",
+              "1E",
+              "32",
+              "32",
+              "3E",
+              "3E"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4060",
+            "bytes": [
+              "00",
+              "1A",
+              "2A",
+              "00",
+              "00",
+              "00",
+              "00",
+              "00"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4068",
+            "bytes": [
+              "00",
+              "01",
+              "00",
+              "00",
+              "00",
+              "00",
+              "00",
+              "00"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4070",
+            "bytes": [
+              "00",
+              "00",
+              "00",
+              "00",
+              "00",
+              "5C",
+              "78",
+              "4C"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4078",
+            "bytes": [
+              "4E",
+              "7C",
+              "7C",
+              "7C",
+              "78",
+              "54",
+              "2A",
+              "7A"
+            ]
+          },
+          {
+            "region": "p77r03",
+            "address": "4080",
+            "bytes": [
+              "2D",
+              "4D",
+              "7D",
+              "7D",
+              "2D",
+              "7A",
+              "2A",
+              "01"
+            ]
+          },
+          {
+            "region": "p77r04",
+            "address": "4088",
+            "bytes": [
+              "04",
+              "05",
+              "05",
+              "05",
+              "05",
+              "05",
+              "04",
+              "05"
+            ]
+          },
+          {
+            "region": "p77r04",
+            "address": "4090",
+            "bytes": [
+              "75",
+              "64",
+              "35",
+              "34",
+              "64",
+              "75",
+              "75",
+              "64"
+            ]
+          },
+          {
+            "region": "p77r04",
+            "address": "4098",
+            "bytes": [
+              "5E",
+              "2A",
+              "6B",
+              "36",
+              "37",
+              "77",
+              "77",
+              "77"
+            ]
+          },
+          {
+            "region": "p77r04",
+            "address": "40A0",
+            "bytes": [
+              "08",
+              "2A",
+              "0D",
+              "1B",
+              "0E",
+              "1F",
+              "1F",
+              "1F"
+            ]
+          },
+          {
+            "region": "p77r04",
+            "address": "40A8",
+            "bytes": [
+              "17",
+              "13",
+              "15",
+              "00",
+              "00",
+              "00",
+              "00",
+              "00"
+            ]
+          },
+          {
+            "region": "p77r04",
+            "address": "40B0",
+            "bytes": [
+              "01",
+              "00",
+              "01",
+              "00",
+              "00",
+              "11",
+              "51",
+              "50"
+            ]
+          },
+          {
+            "region": "p77r04",
+            "address": "40B8",
+            "bytes": [
+              "51",
+              "58",
+              "5C",
+              "10",
+              "51",
+              "2A",
+              "2F",
+              "59"
+            ]
+          },
+          {
+            "region": "p77r04",
+            "address": "40C0",
+            "bytes": [
+              "39",
+              "5F",
+              "5F",
+              "5F",
+              "2F",
+              "3A",
+              "15",
+              "4F"
+            ]
+          },
+          {
+            "region": "p77r05",
+            "address": "40C8",
+            "bytes": [
+              "39",
+              "59",
+              "5F",
+              "5F",
+              "5F",
+              "4F",
+              "55",
+              "00"
+            ]
+          },
+          {
+            "region": "p77r05",
+            "address": "40D0",
+            "bytes": [
+              "05",
+              "00",
+              "05",
+              "00",
+              "00",
+              "05",
+              "04",
+              "00"
+            ]
+          },
+          {
+            "region": "p77r05",
+            "address": "40D8",
+            "bytes": [
+              "04",
+              "40",
+              "40",
+              "48",
+              "4D",
+              "48",
+              "40",
+              "40"
+            ]
+          },
+          {
+            "region": "p77r05",
+            "address": "40E0",
+            "bytes": [
+              "25",
+              "2A",
+              "3D",
+              "66",
+              "26",
+              "7F",
+              "7F",
+              "7E"
+            ]
+          },
+          {
+            "region": "p77r05",
+            "address": "40E8",
+            "bytes": [
+              "3D",
+              "2A",
+              "55",
+              "3D",
+              "67",
+              "66",
+              "7E",
+              "7E"
+            ]
+          },
+          {
+            "region": "p77r05",
+            "address": "40F0",
+            "bytes": [
+              "1F",
+              "3D",
+              "55",
+              "00",
+              "02",
+              "07",
+              "02",
+              "02"
+            ]
+          },
+          {
+            "region": "p77r06",
+            "address": "40F8",
+            "bytes": [
+              "03",
+              "02",
+              "02",
+              "C2",
+              "A1",
+              "B1",
+              "8D",
+              "DC"
+            ]
+          },
+          {
+            "region": "p77r06",
+            "address": "4100",
+            "bytes": [
+              "00",
+              "64",
+              "10",
+              "30",
+              "74",
+              "30",
+              "20",
+              "20"
+            ]
+          },
+          {
+            "region": "p77r06",
+            "address": "4108",
+            "bytes": [
+              "10",
+              "0A",
+              "98",
+              "EA",
+              "FE",
+              "BA",
+              "08",
+              "FA"
+            ]
+          },
+          {
+            "region": "p77r06",
+            "address": "4110",
+            "bytes": [
+              "08",
+              "FE",
+              "88",
+              "FA",
+              "FF",
+              "B8",
+              "C8",
+              "BA"
+            ]
+          },
+          {
+            "region": "p77r06",
+            "address": "4118",
+            "bytes": [
+              "88",
+              "B8",
+              "98",
+              "96",
+              "FE",
+              "B8",
+              "88",
+              "BA"
+            ]
+          }
+        ],
+        "scope": "All36 rows source-compared,8 bytes each. Source monitor header401F differs from final411F; retained. Faint bytes flagged; no binary execution/checksum."
+      }
     }
   ],
   "assemblies": [
@@ -4277,9 +5241,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 73,
-      "planned_primary_engine": "qwen"
+      "batch": "18",
+      "engine": "mixed",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-18/digger-apple/article.json",
+        "sha256": "90d5451f7690866f98a414fd3aac66dc461e48afc5b5b3c64679f29619f7ed38",
+        "bytes": 100328
+      }
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0011",
@@ -4316,7 +5286,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 78
+      "pdf_page_candidate": 78,
+      "planned_primary_engine": "qwen"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0012",
@@ -5755,12 +6726,17 @@
       "path": "docs/ocr-july-comparison-15.json",
       "sha256": "db365025ef4e7be32a6888af53410eb09a68426e500a36d1ba19e5a63a995e31",
       "bytes": 8570
+    },
+    {
+      "path": "docs/ocr-july-comparison-16.json",
+      "sha256": "5deeff92f4ad55e115c652873b33a3851fa7204201f634a4fe0b5cfb95a3ac24",
+      "bytes": 8572
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "7ce0d321a09d5ff2d0085a0c0b5e8cf1a84feadc5bece946fba751c02845d264",
-    "bytes": 64293
+    "sha256": "649c73775e94f87c64ddbc2d303e98fac4e4817d9ffd3f43c1db71a385d6f048",
+    "bytes": 68101
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -5769,29 +6745,25 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0010",
-      "title": "화성인 디거",
+      "toc_entry_id": "maso-1984-07-toc-0011",
+      "title": "보트 탐험",
       "candidate_pdf_pages": [
-        73,
-        74,
-        75,
-        76,
-        77
+        78,
+        79,
+        80
       ],
       "printed_pages": [
-        69,
-        70,
-        71,
-        72,
-        73
+        74,
+        75,
+        76
       ],
       "engine": "qwen",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Opening73 visually confirmed. Inspect remaining74–77 before map: Tesseract clear prose, Qwen code/technical notation, retain art as images.",
-      "extent_status": "73 start confirmed; next catalog title 보트 탐험 begins candidate78. Inspect through78 to verify body end."
+      "routing_reason": "Opening78 visually confirmed: SPC-1000 game with prose, technical definitions and image. Inspect79–81; Tesseract clear prose, Qwen technical/code crops, preserve original graphics.",
+      "extent_status": "78 start confirmed;81 next title 캥거루 is catalog candidate, verify end/boundary before mapping."
     }
   ],
-  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Batch14 FC-100 game uses Qwen with one Tesseract fallback and explicit graphic placeholders; a silent nine-line omission was source-corrected. Batch15 completes59–61 with planned Tesseract prose and Qwen definitions/code; two Qwen partial responses were source-corrected. Batch16 completes62–67 with planned5 Tesseract/34 Qwen crops; interrupted run resumed without repeating completed inference. Original Tesseract timers and interrupted inference cost unknown. Source review restored ten wholly omitted lines plus two partial tails. Batch17 completes70–72 with planned5 Tesseract/39 Qwen crops,127 logical BASIC rows and231 physical rows. A single-digit continuation omission was restored; faint punctuation and source anomalies remain flagged. No retry or fallback; per-crop timers persisted. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
+  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Batch14 FC-100 game uses Qwen with one Tesseract fallback and explicit graphic placeholders; a silent nine-line omission was source-corrected. Batch15 completes59–61 with planned Tesseract prose and Qwen definitions/code; two Qwen partial responses were source-corrected. Batch16 completes62–67 with planned5 Tesseract/34 Qwen crops; interrupted run resumed without repeating completed inference. Original Tesseract timers and interrupted inference cost unknown. Source review restored ten wholly omitted lines plus two partial tails. Batch17 completes70–72 with planned5 Tesseract/39 Qwen crops,127 logical BASIC rows and231 physical rows. A single-digit continuation omission was restored; faint punctuation and source anomalies remain flagged. No retry or fallback; per-crop timers persisted. Batch18 completes73–77 with141 BASIC lines and36 hex rows; source700 remains explicitly unreadable in part. Two143 interruptions retained with successful cache reuse and bounded raw elapsed; silent five-line omission restored. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

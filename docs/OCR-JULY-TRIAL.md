@@ -1097,3 +1097,81 @@ bodies and zero human acceptances. Cumulative coverage:64 source pages,876 regio
 818 text crops,58 images,1,005 BASIC lines,1,071 hex rows,84 assembly rows and224
 flags. Next inspect the remainder of 화성인 디거, candidate73–77, with78 checked
 for the boundary. Full restoration, consolidated metrics and reading room remain.
+
+
+## Digger BASIC and hexadecimal listing, 2026-10-11
+
+Batch18 completes 화성인 디거, PDF73–77/printed69–73. Its58 regions contain57
+text crops and1 retained opening artwork; the separate advertisement on77 is
+excluded. Page78 begins 보트 탐험. The listing has141 logical BASIC lines across
+383 physical BASIC rows,2 monitor-command rows and36 hex rows containing288 byte
+fields. Physical counts retain code continuations and an explicit blank literal
+wrap, while vertical gaps between separate BASIC lines are normalized. Decimal
+DATA40 has21 fields; long melody strings were compared with their printed rows.
+
+Assignments were recorded before OCR:7 clear prose/byline crops to Tesseract;
+50 titles, keyboard-symbol text, technical explanations, BASIC and hex crops to
+Qwen. Both engines retain native evidence. Boxed arrow keys are represented as
+[←]/[→] in searchable prose, with that editorial notation explicitly flagged.
+
+Two processes terminated with exit143. The cause remains unknown; llama-server
+logs show cancelled active requests, not a diagnosed model failure. After each
+terminal status was verified, completed stages were checked and reused:5 on the
+first resume,9 on the final resume. All7 Tesseract outputs and their immediately
+persisted timers survived. Two interrupted requests remain archived separately.
+The final attached-terminal run completed41 remaining Qwen calls. No completed
+inference was repeated, and the transport change alone does not establish a cause.
+
+| Observation | Planned mixed route |
+| --- | ---: |
+| Raw elapsed bounds across three attempts | 285.22–489.62s |
+| Measured final resume, including startup/export | 228.38s |
+| Completed Tesseract recognition,7 regions | 1.68s |
+| Completed Qwen recognition,50 regions | 252.73s |
+| Correction/recovery/source review/helper window | 855.57s |
+| Corrected non-whitespace characters | 8,650 |
+| Uncached, non-write correction input tokens | 59,909 |
+| Cached correction input tokens | 3,865,856 |
+| Correction output tokens | 21,970 |
+
+The lower raw bound sums the original start through its last completed crop,
+the first resume's ready-runtime timestamp through its last completed crop, and
+the measured final resume. The upper bound also includes observation/recovery
+gaps. Exact interrupted-call time and tokens are unknown. Completed local Qwen
+usage was34,133 tokens (26,597 prompt;7,536 completion), excluding those unknown
+interrupted costs and separate from paid assistant usage. Cache-write was zero.
+Raw work overlaps correction, whose window includes both recovery helpers and
+source review. These interruption-affected times cannot rank engine speed or
+isolate causal paid savings.
+
+A successful Qwen response returned only the opening continuation of p76r02,
+omitting all five BASIC lines760–800. Another omitted the wrapped0 completing940.
+Both were restored from the scan. Source line700 has a white damaged band: its
+unreadable span is explicitly marked [ILLEGIBLE], not reconstructed from neighboring
+logic. Original998 numbering, COMMING spelling, damaged punctuation and uncertain
+literal padding remain flagged. The printed monitor range ends401F while the dump
+continues through411F; both are retained. Hex review corrected addresses and bytes,
+including an extra raw byte in40B0; faint readings remain provisional. No executable
+or binary certification is claimed.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p73r04 — introductory prose, Tesseract | 0.00% | 10.20% |
+| p74r07 — BASIC decimal DATA/music routine, Qwen | 0.00% | 23.53% |
+| p75r09 — BASIC enemy movement, Qwen | 0.00% | 13.86% |
+| p77r05 — faint hexadecimal rows, Qwen | 3.17% | 93.65% |
+
+[Comparison16](ocr-july-comparison-16.json) uses identical PNGs, with references
+sealed before alternate OCR. The source readings are unblinded and include flagged
+ambiguities, not independent human gold. Fixed samples exclude damaged700 and the
+silent five-line omission. Compact CER ignores whitespace. The raw gap supports
+continued Qwen trials on faint technical listings, while these samples cannot
+establish whole-article accuracy or paid-token savings.
+
+Export integrity, all listing/review ranges, explicit row identities and
+byte-identical rebuild pass. July now has13 complete bodies and23 untouched,
+with no partial bodies and zero human acceptances. Cumulative coverage:69 source
+pages,934 regions,875 text crops,59 images,1,146 BASIC lines,1,107 hex rows,
+84 assembly rows and250 review flags. Next inspect79–81 to complete the extent
+check for 보트 탐험, whose opening78 is confirmed. Full issue restoration,
+consolidated metrics and the reading room remain outstanding.

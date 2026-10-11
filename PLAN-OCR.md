@@ -1311,3 +1311,29 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1,005 BASIC lines,1,071 hex rows,84 assembly rows,224 flags. Human review pending.
   Next inspect remaining 화성인 디거73–77 and boundary78. Full issue/metrics/
   reading room remain outstanding. Homepage edit preserved; final usage carries forward.
+
+
+### July 화성인 디거 restored, 2026-10-11
+
+- Batch18 completes PDF73–77:58 regions,57 text crops,1 opening artwork,
+  141 BASIC lines/383 physical BASIC rows,36 hex rows/288 byte fields,
+  2 monitor-command rows and26 review flags. Page77 advertisement excluded.
+  Planned7 Tesseract clear prose/byline and50 Qwen technical/code crops.
+- Two raw processes ended143, cause unknown. Preserved both incomplete requests;
+  reused5 then9 completed Qwen stages and all7 Tesseract outputs/timers.
+  Final resume completed41 remaining calls. No completed inference repeated.
+- Raw bounded285.22–489.62s; final resume228.38s. Completed recognition Qwen252.73s,
+  Tesseract1.68s. Local34,133 completed-call tokens; interrupted costs unknown.
+- Correction/recovery/source review/helper window855.57s;59,909 uncached input,
+  3,865,856 cached input,21,970 output tokens. Cache-write zero. Raw overlaps;
+  this interruption-affected observation does not isolate engine cost or savings.
+- Source700 has an explicit unreadable span, not inferred code. Qwen omitted760–800
+  and a wrapped0; source-restored. Hex digit/address errors corrected with faint-byte
+  flags. Source typos, monitor401F/end411F mismatch and padding uncertainty retained.
+- Four fixed crops favor Qwen, including hex3.17% vs93.65% compact CER. References
+  remain unblinded and omit the silent-omission/damaged700 cases. Export integrity,
+  listing/review ranges and byte-identical rebuild pass; no execution/human acceptance.
+- July:13 complete,23 untouched;69 pages,934 regions,875 text crops,59 images,
+  1,146 BASIC lines,1,107 hex rows,84 assembly rows,250 flags. Next inspect79–81
+  for 보트 탐험 (start78 confirmed). Full issue/metrics/reading room remain.
+  Homepage edit preserved; final report/commit usage carries forward.
