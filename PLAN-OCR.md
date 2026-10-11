@@ -1783,3 +1783,21 @@ commit code/documentation. Do not count a partial opening as a complete article.
   170 unique pages,3,430 regions,3,246 text crops,184 images,888 flags,zero human
   acceptance. Next contest commentary207–208candidate; ending still to inspect.
   Final full-issue metrics/reading room pending; reporting/commit usage carries.
+
+### July contest commentary complete, 2026-10-12
+
+- Full commentary207/printed203 restored.208 independent submission notice and
+  209 Yut article visually verified; excluded from commentary.36text crops13flags.
+- Fixed28T/8Q, single raw29.036s, no retry/fallback. Qwen15.027s/Tesseract3.827s
+  recognition nested in raw;2,957local tokens exact (2,569prompt/388completion).
+- Correction116.263s overlaps18.317s raw. Observed13,657uncached/266,624cached
+  input and3,501output incl354reasoning, zero cache-write; no per-engine savings
+  attribution. One-page prose complexity differs from prior monitor listings.
+- Comparison36 favorsQ on all4 fixed samples. T ordinary prose produced Latin
+  fragments; Q still misread2 윷 characters. Probe one representative T crop for
+  a new prose style rather than trusting appearance alone; route stays provisional.
+- Original 컬럼버스, 규면/규민 discrepancy and historical wording retained. Source
+  coverage, explicit three-column joins, UTF-8 ranges and byte-identical rebuild
+  pass. July28complete/8untouched/no partials,171pages3466regions3282text184images
+  901flags, zero human acceptance. Next Yut209–214candidate; ending unverified.
+  Full metrics/reading room pending; final reporting/commit usage carries forward.

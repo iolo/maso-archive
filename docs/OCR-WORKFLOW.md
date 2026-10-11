@@ -550,3 +550,17 @@ so editorial reordering does not inflate either engine's errors. Retain source
 A/V/U statuses, repeated zero fields and inconsistent addresses. Do not regenerate
 object bytes or append code where the original ends at a partial routine. The
 complete article and incomplete original program are distinct recorded facts.
+
+July batch38 restores the complete contest commentary207/printed203;208 is a
+separate submission notice and209 starts 윷놀이. Fixed28T/8Q routing completed
+without retries:36 text regions,13 review flags, no code/tables/images. Export,
+source coverage, UTF-8 review ranges and byte-identical rebuild pass. Human review
+is pending. Source 컬럼버스 and 규면/규민 name discrepancy remain explicit.
+
+Visually clear Korean prose can still produce Latin fragments in Tesseract.
+Comparison36 favors Qwen on all four fixed samples, but Qwen also misreads two
+윷 glyphs in its prose alternate. Use the bounded representative T probe before
+routing a new prose style from appearance alone; preserve/reuse the probe and
+count its cost. This is raw-quality counter-evidence, not proven paid savings.
+July28/36 bodies complete; next inspect 윷놀이209–214candidate. Reading room
+remains scheduled after all restoration and consolidated metrics.

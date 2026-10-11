@@ -75,7 +75,13 @@ such a preassigned mixed list; there is still no automatic content classifier.
 When uncertain, inspect one representative Tesseract crop before committing the
 rest of the segment. Switch if identifiers are repeatedly corrupted, table rows
 are lost, reading order is mixed, or substantial text becomes unreadable fragments.
-Ordinary spacing/wrapping problems alone do not justify switching. This bounded
+Ordinary spacing/wrapping problems alone do not justify switching.
+Batch38 adds counter-evidence for visually clear Korean body prose: Tesseract
+inserted Latin fragments into several crops, and its fixed prose sample scored
+20.93% compact CER versus Qwen4.65%. Qwen still misread two 윷 glyphs. Before
+assigning a new prose style by appearance alone, use the bounded representative
+Tesseract probe; retain its evidence and cost, and reuse it if selected. This does
+not establish Qwen as the cheaper corrected route. This bounded
 probe is optional: do not routinely run both engines over the entire article.
 Record all probes, fallbacks and retries, retain their raw evidence, and include
 their elapsed cost. Correct the selected draft only once. Check crop coverage against
@@ -2480,3 +2486,53 @@ byte-identical rebuild. July now has27 complete bodies,9 untouched,no partials a
 zero human acceptances. Cumulative coverage:170 unique pages,3,430 regions,3,246
 text crops,184 images and888 flags. Next inspect contest commentary207–208 and
 its ending. Final issue metrics and the reading-room build remain pending.
+
+## July contest commentary complete — batch38, 2026-10-12
+
+Restored the full commentary on PDF207/printed203. Source inspection confirms
+208 is an independent submission notice and209 starts 윷놀이; neither belongs to
+this article. All36 text regions are covered, with13 source-review flags and no
+code, tables or figures. Three-column continuations and paragraphs are explicitly
+joined. Export integrity, UTF-8 review ranges and byte-identical rebuild pass.
+Human acceptance remains pending.
+
+The route was fixed before OCR:28 Tesseract prose/headline/byline crops and8 Qwen
+stylized-title or identifier-bearing crops. One complete run took29.036s including
+startup/render/evidence work. Recognition was15.027s Qwen and3.827s Tesseract,
+nested within raw time. Qwen used2,957 local tokens (2,569 prompt/388 completion),
+fully accounted. No retry, fallback, crop change or retrospective route change.
+
+Correction took116.263s, overlapping raw by18.317s. Observed paid-model usage was
+13,657 uncached input,266,624 cached input and3,501 output tokens, including354
+reasoning tokens; zero cache-write tokens. These are source-review/transcription
+and helper-work observations, not engine-specific correction costs. Cached input
+and reasoning are subsets, not additional tokens. This one-page prose article is
+not comparable in difficulty to the previous monitor-listing batch.
+
+Four samples were chosen before inference, with source references sealed before
+alternate OCR. Compact CER ignores whitespace but counts punctuation; references
+are assistant-reviewed and unblinded, not human gold. Evaluation overhead is
+separate from ordinary restoration, with no second paid correction.
+
+| Sample | Qwen CER | Tesseract CER |
+| --- | ---: | ---: |
+| p207r03 stylized title | 0.00% | 14.29% |
+| p207r05 model/count prose | 0.00% | 13.51% |
+| p207r08 ordinary Korean prose | 4.65% | 20.93% |
+| p207r35 English game-name prose | 0.00% | 6.38% |
+
+Tesseract's visually ordinary prose sometimes turned Korean into Latin fragments.
+Qwen also read 윷놀이/윷판 as 웃놀이/옷판 in the fixed alternate. Source checking
+remains necessary. Keep the content rule provisional, and probe a representative
+T crop before assigning a new prose style solely by appearance. No paid-cost win
+is established by these four raw comparisons.
+
+Preserved source 컬럼버스, 그동안은, 메아리난, 데뷰 and 오락도 wording. The same
+cashbook author's printed name appears as 규면 then 규민; both readings remain
+flagged rather than silently reconciled. Historical DOS claims remain as printed.
+
+July now has28 complete bodies,0 partial and8 untouched, zero human accepted;
+171 unique pages,3,466 regions,3,282 text crops,184 images and901 review flags.
+Next is 윷놀이,209–214candidate;209 start verified, ending still to inspect.
+Full-issue consolidation and reading-room build remain pending. Reporting/commit
+usage after the audit cutoff carries into the next accounting pass.
