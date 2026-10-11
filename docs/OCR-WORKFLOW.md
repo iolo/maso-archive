@@ -481,7 +481,14 @@ numeric values but omitted coordinates and linearized the table, so numeric
 accuracy does not establish layout completeness. Restore circled keys/boxed
 cells against scans and preserve printed LIVE/SERLES5/MATN anomalies rather
 than repairing commands.116 physical command/annotation rows remain unexecuted.
-Next inspect data structures169–174 and verify its boundary. This is guidance for choosing new checkpoints;
+Data structures169–174 is complete in34, with38 Tesseract/110 Qwen crops,
+107 PL/I rows and22 source images. Preserve printed procedure names, duplicate
+prose and apparent code errors; faint DELETEQ and ADDQ punctuation need explicit
+human review flags. The four fixed samples favor Qwen on introductory prose and
+both code crops, but technical prose ties at0% compact CER. A failed recovery
+startup is included in raw time; archive incomplete requests before resuming,
+reuse successful stages and retain all attempt costs. Next inspect UNIX175–183
+and verify its boundary. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

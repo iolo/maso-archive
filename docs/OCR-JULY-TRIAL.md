@@ -2195,3 +2195,64 @@ images and729 flags. This batch adds116 VISICALC command/annotation rows; earlie
 BASIC, hex, assembly, Logo and FORTRAN counts remain unchanged. Next inspect
 자료구조 candidate169–174, including its exact final boundary. Full-issue metric
 consolidation and the authorized reading-room build remain pending.
+
+### Data structures complete — batch34, 2026-10-12
+
+Restored PDF169–174/printed165–170;175 starts UNIX. The complete article has
+170 regions,148 text crops,22 source images and36 review flags. Six original
+listing images accompany107 nonblank physical PL/I code/comment rows in ten
+procedures: CREAT, INSERT, DELETE, ADDS, DELETES, ADDQ, DELETEQ, INIT, GETNODE
+and RET. Sixteen memory/list diagrams retain their original addresses, arrows
+and labels; they were not reconstructed as tables.
+
+The route was fixed before inference:38 Tesseract crops for clear prose,
+headings and captions,110 Qwen crops for technical prose, notation and code.
+No route changed. One SIGTERM interrupted p172r30 after59 saved Qwen crops;
+all59 were reused unchanged. A first resume stopped before new inference because
+the interrupted stage still needed archival. Its4.793s startup cost and original
+request are retained. The subsequent resume completed; no successful crop was
+recognized twice. The measured worker lifespans147.223s,4.793s and114.089s sum
+to266.105s, excluding preparation gaps. Successful recognition220.986s Qwen and
+4.179s Tesseract is nested in raw elapsed. Completed local responses contain
+35,098 prompt and5,527 completion tokens,40,625 total, a lower bound because
+the interrupted request has no captured response usage.
+
+Correction/source review, recovery and helper work took501.76s and overlapped
+256.40s of the three raw worker lifespans. Paid observations:58,866 uncached
+input,1,321,856 cached input and14,301 output including1,482 reasoning; zero
+cache-write. Setup34 spans interrupted/status-only context and must not be read
+as uninterrupted active preparation. Export, evaluation and reporting remain
+separate. These mixed-content, unblinded observations do not isolate per-engine
+paid-token savings.
+
+Qwen's main code errors included punctuation, I/J, and a substantially corrupted
+faint DELETEQ ending. Source review preserves printed CREAT, ADDS/DELETES,
+missing declarations, R(I)=Y, PL/A and duplicated Korean prose. The faint
+LINK(R+I))=X; reading, its plus-like glyph/parenthesis count, and several DELETEQ
+glyphs remain explicitly provisional. Code was neither executed nor repaired.
+Typeset inequalities use Unicode≤, while code retains physical comment wraps.
+A large blank gap inside ADDQ is omitted from the text but preserved in its
+image. The pool-routines frame precedes the joined left/right-column explanation
+in reading order. Human review remains mandatory.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p169r07 — clear introductory prose | 0.00% | 1.23% |
+| p170r24 — linked-list technical prose | 0.00% | 0.00% |
+| p173r28 — PL/I ADDQ header/declaration | 1.59% | 44.44% |
+| p173r32 — faint DELETEQ ending | 22.22% | 73.02% |
+
+[Comparison32](ocr-july-comparison-32.json) uses preselected identical PNGs,
+with assistant references sealed before alternates. Tesseract uses kor+eng for
+prose and eng for code. The T-primary Qwen alternate completed within512 tokens.
+The faint ending's reference is provisional, so its CER measures agreement with
+that reading, not certified ground truth. This batch supports testing the content
+routing rule further; the technical-prose tie cautions against categorical claims.
+
+Export integrity, all170 regional records,107 listing rows in ten procedure
+groups, explicit page/column joins, UTF-8 review ranges and byte-identical rebuild
+pass. July now has25 complete bodies,11 untouched, no partials and zero human
+accepted. Cumulative151 unique pages,2,881 regions,2,729 text crops,152 images
+and765 flags. Earlier listing totals remain unchanged; this adds107 PL/I rows.
+Next inspect UNIX candidate175–183 and verify the final boundary. Full-issue
+metrics and the authorized reading-room build remain outstanding.

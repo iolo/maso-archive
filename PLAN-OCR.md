@@ -1672,3 +1672,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   2,711 regions,2,581 text,130 images,729 flags,zero human acceptance. Next data
   structures candidate169–174, final boundary still to inspect. Final metrics/
   reading room pending; homepage edit preserved and reporting usage tail carries.
+
+### July data structures complete, 2026-10-12
+
+- Full169–174/printed165–170 restored;175 starts UNIX.170regions148text22images,
+  107 physical PL/I code/comment rows in10 procedures,36 review flags.16 diagrams
+  and6 listing images preserve source geometry; code remains unexecuted.
+- Planned38 Tesseract/110 Qwen. SIGTERM after59 saved Qwen crops; all reused.
+  First resume stopped before new inference pending interrupted-stage archival;
+  its4.793s startup is included. Three worker lifespans total266.105s, with no
+  repeated successful inference or route change. Local40,625 completed tokens
+  are a lower bound; interrupted response usage unknown.
+- Correction501.76s overlaps256.40s of raw;58,866 uncached/1,321,856 cached input,
+  14,301 output. Setup spans interrupted/status-only context, not clean active
+  preparation. Four comparison32 samples: Qwen wins introduction and code;
+  technical prose tie0%. Faint code reference provisional; no causal cost claim.
+- Source CREAT, ADDS/DELETES, R(I)=Y, PL/A, missing declarations and duplicate
+  prose retained. Faint LINK(R+I)) and DELETEQ glyphs flagged for human review.
+- Full coverage,107 listing rows, UTF-8 review ranges and byte-identical rebuild
+  pass. July25 complete,11 untouched,no partials;151 unique pages,2,881 regions,
+  2,729 text,152 images,765 flags,zero human accepted. Next UNIX175–183 candidate,
+  final boundary still to inspect. Full metrics/reading room pending; preexisting
+  homepage edit preserved and final reporting/commit usage carries.
