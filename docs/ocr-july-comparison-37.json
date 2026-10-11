@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "scope": "Four preselected identical-PNG crops: representative prose, technical DOS prose, address/description pairs and six hex rows. Source-reviewed assistant references sealed before new alternates; unblinded and not human gold. The rejected Tesseract prose probe was already observed during routing and is reused here without new inference; cost counted once as preparation overhead. Compact CER excludes whitespace but counts O/0, punctuation and typography. Tesseract kor+eng prose/fields, eng hex. No repeated paid correction.",
+  "rows": [
+    {
+      "batch": "39",
+      "primary_engine": "qwen",
+      "region_id": "p209r08",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-39/ocr/scan-maso-1984-07-toc-0030/ocr-page209/p209r08.png",
+        "sha256": "e6ccd651d09ace33d9cda3e193f4bd576a1a3b64f319c4d070295750920e026b",
+        "bytes": 128417
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "36558003c416cd1bea9e635319c81767842d27cdb2f6ca60c5b1ad7273595baa",
+        "bytes": 8219
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T16:32:33.014224+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "36558003c416cd1bea9e635319c81767842d27cdb2f6ca60c5b1ad7273595baa",
+          "bytes": 8219
+        },
+        "method": "Source-reviewed assistant reference sealed before new alternate OCR; unblinded and not human gold. T prose preflight probe already observed and reused on identical PNG. Compact CER ignores whitespace but counts literal O/0 and punctuation."
+      },
+      "qwen_seconds": 2.459880169997632,
+      "tesseract_seconds": 0.23520937099965522,
+      "qwen_usage": {
+        "completion_tokens": 66,
+        "prompt_tokens": 393,
+        "total_tokens": 459,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.010638297872340425,
+          "cer_edits": 1,
+          "cer_reference_chars": 94,
+          "cer_no_whitespace": 0.014084507042253521,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 71,
+          "wer": 0.041666666666666664
+        },
+        "tesseract": {
+          "cer": 0.10638297872340426,
+          "cer_edits": 10,
+          "cer_reference_chars": 94,
+          "cer_no_whitespace": 0.1267605633802817,
+          "cer_no_whitespace_edits": 9,
+          "cer_no_whitespace_reference_chars": 71,
+          "wer": 0.125
+        }
+      },
+      "tesseract_reused_preflight_probe": true,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "39",
+      "primary_engine": "qwen",
+      "region_id": "p209r18",
+      "category": "other",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-39/ocr/scan-maso-1984-07-toc-0030/ocr-page209/p209r18.png",
+        "sha256": "1a1e14ad09eb51d9cbc5fdbc89184a1b87006543ff2d761f63fee7713d98edb4",
+        "bytes": 124379
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "36558003c416cd1bea9e635319c81767842d27cdb2f6ca60c5b1ad7273595baa",
+        "bytes": 8219
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T16:32:33.014224+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "36558003c416cd1bea9e635319c81767842d27cdb2f6ca60c5b1ad7273595baa",
+          "bytes": 8219
+        },
+        "method": "Source-reviewed assistant reference sealed before new alternate OCR; unblinded and not human gold. T prose preflight probe already observed and reused on identical PNG. Compact CER ignores whitespace but counts literal O/0 and punctuation."
+      },
+      "qwen_seconds": 2.4890605039981892,
+      "tesseract_seconds": 0.22616141100297682,
+      "qwen_usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 357,
+        "total_tokens": 420,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.010638297872340425,
+          "cer_edits": 1,
+          "cer_reference_chars": 94,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 71,
+          "wer": 0.08333333333333333
+        },
+        "tesseract": {
+          "cer": 0.05319148936170213,
+          "cer_edits": 5,
+          "cer_reference_chars": 94,
+          "cer_no_whitespace": 0.04225352112676056,
+          "cer_no_whitespace_edits": 3,
+          "cer_no_whitespace_reference_chars": 71,
+          "wer": 0.25
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "39",
+      "primary_engine": "qwen",
+      "region_id": "p211r03",
+      "category": "other",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-39/ocr/scan-maso-1984-07-toc-0030/ocr-page211/p211r03.png",
+        "sha256": "699c4e8dca0815e5cdd50e62b480914f84cffd8f6c38764209ffe1260b68e995",
+        "bytes": 56833
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "36558003c416cd1bea9e635319c81767842d27cdb2f6ca60c5b1ad7273595baa",
+        "bytes": 8219
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T16:32:33.014224+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "36558003c416cd1bea9e635319c81767842d27cdb2f6ca60c5b1ad7273595baa",
+          "bytes": 8219
+        },
+        "method": "Source-reviewed assistant reference sealed before new alternate OCR; unblinded and not human gold. T prose preflight probe already observed and reused on identical PNG. Compact CER ignores whitespace but counts literal O/0 and punctuation."
+      },
+      "qwen_seconds": 1.3095343239983777,
+      "tesseract_seconds": 0.11712442800489953,
+      "qwen_usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 257,
+        "total_tokens": 296,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.12195121951219512,
+          "cer_edits": 5,
+          "cer_reference_chars": 41,
+          "cer_no_whitespace": 0.06666666666666667,
+          "cer_no_whitespace_edits": 2,
+          "cer_no_whitespace_reference_chars": 30,
+          "wer": 0.5833333333333334
+        },
+        "tesseract": {
+          "cer": 0.17073170731707318,
+          "cer_edits": 7,
+          "cer_reference_chars": 41,
+          "cer_no_whitespace": 0.23333333333333334,
+          "cer_no_whitespace_edits": 7,
+          "cer_no_whitespace_reference_chars": 30,
+          "wer": 0.25
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "39",
+      "primary_engine": "qwen",
+      "region_id": "p211r28",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-39/ocr/scan-maso-1984-07-toc-0030/ocr-page211/p211r28.png",
+        "sha256": "ee8e1e891f1ff2070409f2a0c3c36551c9276d36b361dc4d82f30be1275681af",
+        "bytes": 98764
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "36558003c416cd1bea9e635319c81767842d27cdb2f6ca60c5b1ad7273595baa",
+        "bytes": 8219
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T16:32:33.014224+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "36558003c416cd1bea9e635319c81767842d27cdb2f6ca60c5b1ad7273595baa",
+          "bytes": 8219
+        },
+        "method": "Source-reviewed assistant reference sealed before new alternate OCR; unblinded and not human gold. T prose preflight probe already observed and reused on identical PNG. Compact CER ignores whitespace but counts literal O/0 and punctuation."
+      },
+      "qwen_seconds": 5.409420945994498,
+      "tesseract_seconds": 0.1253300370008219,
+      "qwen_usage": {
+        "completion_tokens": 172,
+        "prompt_tokens": 267,
+        "total_tokens": 439,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0446927374301676,
+          "cer_edits": 8,
+          "cer_reference_chars": 179,
+          "cer_no_whitespace": 0.06349206349206349,
+          "cer_no_whitespace_edits": 8,
+          "cer_no_whitespace_reference_chars": 126,
+          "wer": 0.14814814814814814
+        },
+        "tesseract": {
+          "cer": 0.25139664804469275,
+          "cer_edits": 45,
+          "cer_reference_chars": 179,
+          "cer_no_whitespace": 0.35714285714285715,
+          "cer_no_whitespace_edits": 45,
+          "cer_no_whitespace_reference_chars": 126,
+          "wer": 0.48148148148148145
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering and startup. Alternate OCR is evaluation overhead, not ordinary restoration work."
+}

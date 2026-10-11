@@ -2536,3 +2536,56 @@ July now has28 complete bodies,0 partial and8 untouched, zero human accepted;
 Next is 윷놀이,209–214candidate;209 start verified, ending still to inspect.
 Full-issue consolidation and reading-room build remain pending. Reporting/commit
 usage after the audit cutoff carries into the next accounting pass.
+
+## July 윷놀이 opening — batch39, 2026-10-12
+
+Source inspection verifies the full article209–214/printed205–210;215 starts
+사과도둑. This checkpoint restores209–211:65 regions,61 text crops,4 original
+images,29 flags,40 address-description rows/80 cells,82 hex rows/651 byte fields
+and one monitor command. Game screen, full flowchart and both original listing
+columns remain intact. Pages212–214 and final assembly remain pending.
+
+A bounded0.235s Tesseract kor+eng probe on ordinary prose produced Latin fragments
+for 윷가락 and 게임을. The fixed route therefore uses5 Tesseract short headings/
+byline crops and56 Qwen prose, address and hex crops. The rejected probe is retained
+as setup cost and reused on the identical PNG in comparison37; it is neither a
+primary result nor a second evaluation call.
+
+The first worker exited143 during p209r22 after16 saved Qwen crops and all5 T
+crops. Only after confirming terminal state, the interrupted request was archived
+and the worker resumed with every completed result reused unchanged. Both worker
+lifespans total172.563s, excluding the recovery gap; successful recognition is
+149.850s Qwen and0.374s Tesseract, nested in raw time. Completed local usage is
+20,544 tokens (16,325 prompt/4,219 completion), a lower bound because interrupted
+request usage is unknown. No successful inference was repeated or route changed.
+
+Correction took347.317s, overlapping the two raw lifespans by156.943s. Observed
+paid-model usage:33,996 uncached input,1,408,000 cached input and10,168 output,
+including1,258 reasoning tokens, zero cache-write. Source review, explicit joins,
+recovery and helper preparation are included; these are not per-engine savings.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p209r08 ordinary prose, reused T probe | 1.41% | 12.68% |
+| p209r18 DOS prose | 0.00% | 4.23% |
+| p211r03 address/description pairs | 6.67% | 23.33% |
+| p211r28 six hex rows | 6.35% | 35.71% |
+
+References were source-reviewed and sealed before new alternate OCR; the T probe
+had already informed routing, so this is unblinded evidence, not human gold.
+Tesseract uses kor+eng prose/fields and eng hex. Compact CER ignores whitespace
+but counts O/0 and punctuation. Evaluation time is separate from restoration;
+reused probe cost belongs to preparation only. No duplicate paid correction.
+
+Qwen preserved all82 hex rows but repeatedly emitted O for zero, confused B/8,
+and added a ninth byte field to0A30. Every visible field was source-compared;
+counts/addresses verify structure, not executable correctness. Small0988 8F and
+09D8 B9 readings remain provisional. It also changed 윷 to 윗/옷/육, 번지 to 변수,
+and inserted spaces into literal messages. Source $800~$100,$1000,1IS,TRYAGAIN,
+데이타 and historical technical claims remain unchanged. No program was executed.
+
+Export integrity, exact source coverage,83 physical listing rows,UTF-8 review
+ranges and byte-identical rebuild pass. July28 complete,1 partial,7 untouched,
+zero human accepted;174 unique pages,3,531 regions,3,343 text crops,188 images,
+930 flags. Next map and restore the remaining hex212–214, then assemble209–214.
+Full metrics/reading room remain pending; final report/commit usage carries.

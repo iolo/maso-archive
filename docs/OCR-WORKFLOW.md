@@ -564,3 +564,17 @@ routing a new prose style from appearance alone; preserve/reuse the probe and
 count its cost. This is raw-quality counter-evidence, not proven paid savings.
 July28/36 bodies complete; next inspect 윷놀이209–214candidate. Reading room
 remains scheduled after all restoration and consolidated metrics.
+
+July batch39 restores 윷놀이209–211 as a partial checkpoint of verified209–214;
+215 begins 사과도둑.65 regions,61 text crops,4 original images and29 flags cover
+all prose,40 address-description rows,82 hex rows/651byte fields and one monitor
+command. The complete flowchart remains an image. Source/export coverage,
+listing byte ranges and byte-identical rebuild pass; human acceptance pending.
+
+A0.235s Tesseract prose probe produced Latin fragments, informing fixed5T/56Q.
+The rejected probe is retained and reused only in comparison37, without another
+call. After one terminal143,16 Qwen successes and all5 Tesseract results were
+reused. Interrupted request usage is unknown, so completed local tokens are a
+lower bound. Four samples favorQwen, but repeated 윷 and O/0/B/8 errors plus one
+extra hex field still required source review. Field counts are audit checks, not
+permission to infer values or certify execution. Continue212–214, then assemble.

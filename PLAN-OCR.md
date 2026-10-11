@@ -1801,3 +1801,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
   pass. July28complete/8untouched/no partials,171pages3466regions3282text184images
   901flags, zero human acceptance. Next Yut209–214candidate; ending unverified.
   Full metrics/reading room pending; final reporting/commit usage carries forward.
+
+### July 윷놀이 opening restored, 2026-10-12
+
+- Full209–214/printed205–210 verified;215 starts 사과도둑. Partial209–211 now
+  restored:65regions61text4images29flags,40 address-description rows80cells,
+  82hex rows651byte fields plus one monitor command. Flowchart preserved intact.
+- Representative T prose probe0.235s produced Latin fragments; fixed5T/56Q before
+  main OCR. Rejected probe reused only for fixed comparison, counted once.
+- Terminal143 after16 savedQ crops; all5T and16Q reused unchanged. Interrupted
+  p209r22 request preserved, response usage unknown. Two worker lifespans172.563s;
+  successful recognition149.850sQ/0.374sT;local20,544tokens completed lower bound.
+- Correction347.317s overlaps156.943s raw;33,996uncached/1,408,000cached input and
+  10,168output incl1,258reasoning, zero cache-write. Includes recovery/helper work.
+- Comparison37 favorsQ on4fixed crops, but 윷/byte glyph errors and an extra0A30
+  byte field required source repair. Original $800~$100,$1000 and message spacing
+  retained. Coverage,83listing rows,UTF-8 ranges and byte-identical rebuild pass.
+- July28complete,1partial,7untouched;174pages3531regions3343text188images930flags,
+  zero human accepted. Next remaining hex212–214, then assemble209–214. Final
+  metrics/reading room pending; reporting/commit usage carries to next audit.
