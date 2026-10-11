@@ -1337,3 +1337,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1,146 BASIC lines,1,107 hex rows,84 assembly rows,250 flags. Next inspect79–81
   for 보트 탐험 (start78 confirmed). Full issue/metrics/reading room remain.
   Homepage edit preserved; final report/commit usage carries forward.
+
+
+### July 보트 탐험 restored, 2026-10-11
+
+- Batch19 completes78–80:43 regions,42 text crops,1 screen image,87 logical
+  BASIC lines/166 physical rows,7 DATA lines/84 hexadecimal fields and24 flags.
+- Planned17 Tesseract/25 Qwen crops; no retry. Graphic-heavy BASIC preassigned to
+  Tesseract to avoid prior symbol repetition, but adjacent code needed extensive
+  source repair. Exception remains unproven and is qualified in the routing rule.
+- Raw87.10s; recognition Qwen68.58s/Tesseract2.53s. Correction/helper window270.59s,
+  overlapping raw by74.23s.32,192 uncached input,570,624 cached input,8,876 output
+  tokens; cache-write zero. Local13,237 Qwen tokens separate; no causal savings claim.
+- Source graphic strings retain explicit scan-linked ⟦G⟧ markers; exact bytes and
+  literal padding unresolved. Faint2200 character marked unreadable. Qwen's omitted
+  numbered header and final-page number errors corrected; original typos retained.
+- Four fixed samples favor Qwen, but exclude graphic-marker regions and main
+  omission cases. Unblinded CER cannot rank whole-article accuracy or paid cost.
+  Export/review ranges and byte-identical rebuild pass; mandatory human review pending.
+- July:14 complete,22 untouched;72 pages,977 regions,917 text crops,60 images,
+  1,233 BASIC lines,1,107 hex rows,84 assembly rows,274 flags. Next inspect 캥거루
+  candidate81–86 and boundary87. Full issue/metrics/reading room remain outstanding.
+  Homepage edit preserved; final report/commit usage carries forward.

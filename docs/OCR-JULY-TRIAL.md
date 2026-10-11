@@ -83,6 +83,12 @@ visible source rows even when the engine reports success: batch14 returned just 
 continuation line while silently omitting nine numbered lines below it. For mixed
 code/graphics, keep explicit scan-linked graphic placeholders; a bounded Tesseract
 fallback can end a Qwen repetition loop without establishing glyph accuracy.
+Batch19 also tested preassigning glyph-heavy BASIC crops to Tesseract. It avoided
+retries in that run but badly corrupted adjacent code, requiring extensive manual
+repair. Treat that exception as unproven: prefer separating graphic bands from
+ordinary code where layout permits, and do not route code to Tesseract solely
+because it contains a few graphic characters. Keep the same scan-linked markers
+and bounded fallback policy for unresolved glyphs.
 Reuse successful evidence only with unchanged source/crops and verified hashes,
 and label mixed-engine provenance explicitly.
 
@@ -1175,3 +1181,70 @@ pages,934 regions,875 text crops,59 images,1,146 BASIC lines,1,107 hex rows,
 84 assembly rows and250 review flags. Next inspect79–81 to complete the extent
 check for 보트 탐험, whose opening78 is confirmed. Full issue restoration,
 consolidated metrics and the reading room remain outstanding.
+
+
+## Boat exploration and the graphic-code exception, 2026-10-11
+
+Batch19 completes 보트 탐험, PDF78–80/printed74–76:43 regions,42 text crops and
+one original screen image. The advertisement on80 is excluded;81 begins 캥거루.
+The listing contains87 logical BASIC lines across166 physical rows, including
+wrapped graphic strings. Seven hexadecimal DATA lines have84 fields in total.
+There are24 source-linked review flags; human acceptance remains pending.
+
+Before inference,17 crops were assigned to Tesseract (clear prose/byline plus
+14 graphic-heavy BASIC crops),25 to Qwen (titles, technical notes, ordinary code
+and DATA). Code Tesseract calls used eng; prose used kor+eng. This graphic-code
+exception was intended to avoid the repetition seen in earlier Qwen runs. It
+completed without retries, but Tesseract severely corrupted adjacent BASIC.
+Source correction repaired those statements. This does not establish an efficient
+exception, and the heuristic now records that counter-evidence.
+
+| Observation | Planned mixed route |
+| --- | ---: |
+| Raw elapsed, including rendering/startup/export | 87.10s |
+| Tesseract recognition,17 regions | 2.53s |
+| Qwen recognition,25 regions | 68.58s |
+| Correction/source review/helper window | 270.59s |
+| Raw overlap with correction | 74.23s |
+| Corrected non-whitespace characters | 4,707 |
+| Uncached, non-write correction input tokens | 32,192 |
+| Cached correction input tokens | 570,624 |
+| Correction output tokens | 8,876 |
+
+Cache-write was zero. Completed local Qwen usage was13,237 tokens (11,006 prompt;
+2,231 completion), separate from paid assistant usage. Elapsed windows include
+source checking, helper work and tool waits; overlapping raw time must not be
+added again. Mixed correction cannot attribute paid usage causally to either
+engine. Character counts include editorial markers and do not measure encoded
+program size.
+
+Qwen omitted the numbered comment framework0–4, flattened3110–3130 into a single
+row and misread1540/1550 as1548/1558,50 as58, and10 as18. These were restored from
+the source. Each ⟦G⟧ denotes a graphic glyph or run whose exact characters/bytes
+remain unresolved, with the original crop preserved. One faint character in the
+line2200 sound string is marked [ILLEGIBLE]. Source STAT and DANGAR spellings,
+faint3/8 readings, music punctuation and uncertain padding remain flagged. No
+execution or byte-faithful glyph reconstruction is claimed.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p78r04 — introductory prose, Tesseract | 0.00% | 7.69% |
+| p78r09 — variable definitions, Qwen | 0.00% | 9.89% |
+| p79r17 — hexadecimal DATA, Qwen | 0.00% | 34.09% |
+| p79r07 — ordinary BASIC, Qwen | 0.00% | 31.07% |
+
+[Comparison17](ocr-july-comparison-17.json) uses identical PNGs and references
+sealed before alternate OCR. References are unblinded assistant readings, not
+independent human gold. Samples deliberately exclude graphic markers and do not
+include the omitted header or faint final-page errors. Compact CER ignores
+whitespace; zero on these crops is not whole-article accuracy. The samples favor
+Qwen for ordinary code but do not test the graphic-heavy routing exception or
+prove paid-token savings.
+
+Export integrity, listing/review byte ranges, explicit row identities and a
+byte-identical rebuild pass. July now has14 complete bodies and22 untouched,
+with no partial bodies and zero human acceptances. Cumulative coverage:72 source
+pages,977 regions,917 text crops,60 images,1,233 BASIC lines,1,107 hex rows,
+84 assembly rows and274 review flags. Next inspect 캥거루, candidate81–86;
+87 is the previously restored 운전 연습. Full issue restoration, consolidated
+metrics and the reading room remain outstanding.

@@ -1902,6 +1902,116 @@
         "total_tokens": 229425,
         "uncached_nonwrite_input_tokens": 1181
       }
+    },
+    {
+      "id": "setup-19",
+      "stage": "mapping-and-preparation",
+      "engine": "shared",
+      "start": "2026-10-11T10:34:31.470169+00:00",
+      "end": "2026-10-11T10:39:47.000909+00:00",
+      "note": "Includes mapping/preflight, resumption/context and status-check overhead; not raw OCR or pure page-inspection time.",
+      "elapsed_seconds": 315.5307400226593,
+      "observed_responses": 15,
+      "tokens": {
+        "input_tokens": 1543962,
+        "cached_input_tokens": 1504128,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8357,
+        "reasoning_output_tokens": 967,
+        "total_tokens": 1552319,
+        "uncached_nonwrite_input_tokens": 39834
+      }
+    },
+    {
+      "id": "raw-19",
+      "stage": "raw-ocr",
+      "engine": "mixed",
+      "start": "2026-10-11T10:39:47.016586+00:00",
+      "end": "2026-10-11T10:39:59.951909+00:00",
+      "elapsed_seconds": 12.935322999954224,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 45632,
+        "cached_input_tokens": 44800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 210,
+        "reasoning_output_tokens": 19,
+        "total_tokens": 45842,
+        "uncached_nonwrite_input_tokens": 832
+      }
+    },
+    {
+      "id": "correction-19",
+      "stage": "semantic-correction",
+      "engine": "mixed",
+      "start": "2026-10-11T10:39:59.968629+00:00",
+      "end": "2026-10-11T10:44:30.555850+00:00",
+      "note": "Includes source review, extensive repair of preassigned Tesseract graphic-heavy BASIC, Qwen omission/number corrections, graphic-run markers and helper preparation. Raw overlaps by 74.234949s; do not add overlapping elapsed. Not pure proofreading or per-engine causal cost.",
+      "elapsed_seconds": 270.5872211456299,
+      "observed_responses": 10,
+      "tokens": {
+        "input_tokens": 602816,
+        "cached_input_tokens": 570624,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8876,
+        "reasoning_output_tokens": 1544,
+        "total_tokens": 611692,
+        "uncached_nonwrite_input_tokens": 32192
+      }
+    },
+    {
+      "id": "export-19",
+      "stage": "export-and-verification",
+      "engine": "mixed",
+      "start": "2026-10-11T10:44:30.573206+00:00",
+      "end": "2026-10-11T10:44:49.912713+00:00",
+      "elapsed_seconds": 19.33950710296631,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 156915,
+        "cached_input_tokens": 152448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 414,
+        "reasoning_output_tokens": 111,
+        "total_tokens": 157329,
+        "uncached_nonwrite_input_tokens": 4467
+      }
+    },
+    {
+      "id": "eval-19",
+      "stage": "alternate-engine-evaluation",
+      "engine": "shared",
+      "start": "2026-10-11T10:44:49.927915+00:00",
+      "end": "2026-10-11T10:45:07.685633+00:00",
+      "elapsed_seconds": 17.757717847824097,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 169889,
+        "cached_input_tokens": 164608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 362,
+        "reasoning_output_tokens": 34,
+        "total_tokens": 170251,
+        "uncached_nonwrite_input_tokens": 5281
+      }
+    },
+    {
+      "id": "reporting-19",
+      "stage": "reporting",
+      "engine": "mixed",
+      "start": "2026-10-11T10:45:07.701607+00:00",
+      "end": "2026-10-11T10:46:30.618558+00:00",
+      "elapsed_seconds": 82.91695094108582,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 177198,
+        "cached_input_tokens": 172800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3067,
+        "reasoning_output_tokens": 233,
+        "total_tokens": 180265,
+        "uncached_nonwrite_input_tokens": 4398
+      }
     }
   ],
   "money_cost": null,
@@ -1909,36 +2019,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T10:33:27.685436+00:00",
-    "elapsed_seconds": 112570.6714360714,
-    "observed_responses": 606,
+    "end": "2026-10-11T10:46:30.618558+00:00",
+    "elapsed_seconds": 113353.60455799103,
+    "observed_responses": 641,
     "tokens": {
-      "input_tokens": 79500072,
-      "cached_input_tokens": 77333120,
+      "input_tokens": 82888632,
+      "cached_input_tokens": 80629376,
       "cache_write_input_tokens": 0,
-      "output_tokens": 419016,
-      "reasoning_output_tokens": 122486,
-      "total_tokens": 79919088,
-      "uncached_nonwrite_input_tokens": 2166952
+      "output_tokens": 441710,
+      "reasoning_output_tokens": 125835,
+      "total_tokens": 83330342,
+      "uncached_nonwrite_input_tokens": 2259256
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T10:33:27.685436+00:00",
-    "elapsed_seconds": 112570.6714360714,
-    "observed_responses": 100,
+    "end": "2026-10-11T10:46:30.618558+00:00",
+    "elapsed_seconds": 113353.60455799103,
+    "observed_responses": 103,
     "tokens": {
-      "input_tokens": 12497017,
-      "cached_input_tokens": 12147328,
+      "input_tokens": 13189165,
+      "cached_input_tokens": 12834176,
       "cache_write_input_tokens": 0,
-      "output_tokens": 34487,
-      "reasoning_output_tokens": 6229,
-      "total_tokens": 12531504,
-      "uncached_nonwrite_input_tokens": 349689
+      "output_tokens": 35895,
+      "reasoning_output_tokens": 6670,
+      "total_tokens": 13225060,
+      "uncached_nonwrite_input_tokens": 354989
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction-02 includes first export-helper adaptation. Raw-08 assistant window includes shared assembler development/tests and next-article preflight; its raw engine run overlaps correction-08 by about183 seconds. Raw-09, raw-10 and raw-11 also overlap correction; see exact per-window notes. Raw-10 includes exact-edit helper development. Export-10 end uses completed export-results mtime after interruption, excluding the inactive gap. Correction-12 includes interruption recovery and source review; raw elapsed is bounded and incomplete inference tokens/time are unknown. Correction-13 includes musical-symbol fallback/rerun preparation; all raw-attempt costs are retained. Correction-14 includes mixed-recovery helper preparation and manual restoration of silently omitted rows; one Tesseract fallback crop is recorded separately. Correction-15 covers a preassigned mixed route and is not split causally by engine. Correction-16 includes interruption recovery/helper preparation and source review; raw time is bounded, interrupted Qwen usage and original Tesseract timers are unavailable. Correction-17 includes faint wrapped listing/source DATA review and helper adaptation; original ambiguities remain flagged. Correction-18 includes two interruption recoveries and explicit source-damage/hex review; successful timings retained, interrupted costs unknown. No per-engine paid attribution. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
+  "limitation": "Correction-02 includes first export-helper adaptation. Raw-08 assistant window includes shared assembler development/tests and next-article preflight; its raw engine run overlaps correction-08 by about183 seconds. Raw-09, raw-10 and raw-11 also overlap correction; see exact per-window notes. Raw-10 includes exact-edit helper development. Export-10 end uses completed export-results mtime after interruption, excluding the inactive gap. Correction-12 includes interruption recovery and source review; raw elapsed is bounded and incomplete inference tokens/time are unknown. Correction-13 includes musical-symbol fallback/rerun preparation; all raw-attempt costs are retained. Correction-14 includes mixed-recovery helper preparation and manual restoration of silently omitted rows; one Tesseract fallback crop is recorded separately. Correction-15 covers a preassigned mixed route and is not split causally by engine. Correction-16 includes interruption recovery/helper preparation and source review; raw time is bounded, interrupted Qwen usage and original Tesseract timers are unavailable. Correction-17 includes faint wrapped listing/source DATA review and helper adaptation; original ambiguities remain flagged. Correction-18 includes two interruption recoveries and explicit source-damage/hex review; successful timings retained, interrupted costs unknown. Correction-19 includes preassigned Tesseract graphic-heavy code reconstruction and explicit glyph-run markers; raw overlaps by74.234949 seconds. No per-engine paid attribution. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
 }
