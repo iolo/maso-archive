@@ -2326,3 +2326,24 @@ explicit joins, UTF-8 review ranges and byte-identical rebuild pass. July now ha
 Listing totals are unchanged. Next inspect the hardware-design tutorial candidate
 195–206 and verify its exact extent. Full-issue metrics and the authorized reading
 room remain pending.
+
+### July hardware OCR recovery, 2026-10-12
+
+- Verified tutorial extent: PDF195–206/printed191–202;207 starts the next article.
+  Batch36 covers195–200:155 regions,140 text crops and15 retained source images.
+- Kept the preassigned routing:32 Tesseract crops and108 Qwen crops. Initial
+  worker exited143 during model loading, after all32 Tesseract crops completed.
+  Resume reused those results; no completed inference repeated, no Qwen request
+  interrupted. Raw evidence and recovery accounting remain private.
+- Both measured worker lifespans total205.984s, excluding the recovery
+  gap. Successful recognition: Qwen169.118s,
+  Tesseract3.308s. Local Qwen usage:34,774 tokens
+  (29,885 prompt/4,889 completion). These are raw-stage observations only.
+- Hashes, request-image identity and exact140-text/15-image coverage pass. The
+  READ-table heading/right edge is cut in the printed source, confirmed against
+  its parent figure; no crop repair or inferred missing columns were introduced.
+- Semantic correction, fixed-reference comparison, export and human review remain
+  pending. Completed-body totals stay26/36; this raw checkpoint is not a restored
+  article. Next correct195–200, then restore201–206 and assemble the tutorial.
+  Paid usage carries into the next full audit; idle time is excluded from the
+  interrupted correction window. Reading-room build remains deferred.
