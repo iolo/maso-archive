@@ -701,3 +701,64 @@ Across11 checkpoints:41 distinct source pages,596 regions,547 text crops,49 figu
 is 애플음의 정복, PDF42–50/printed38–46; confirm the actual body/advertisement
 boundaries and content before mapping. Reading room follows full issue restoration
 and metric consolidation.
+
+
+## Apple sound opening and interruption recovery, 2026-10-11
+
+Source inspection establishes the article extent as PDF42–49/printed38–45;
+PDF50 is an advertisement. Batch12/Qwen restores42–45:49 regions,44 text crops,
+five original images, seven BASIC lines and58 addressed assembly rows in program
+tables1–5. Twelve source-linked flags preserve printed CALL-1511, an extra closing
+parenthesis, the S-like address prefix, uncertain punctuation and a margin mark.
+Circled two-digit flowchart steps are explicitly linearized as parenthesized numbers.
+The last paragraph continues onto46; full article assembly remains pending.
+
+| Observation | Qwen Apple sound opening |
+| --- | ---: |
+| Combined raw-stage elapsed | Exact value unknown;161.77–283.81s bounds |
+| Completed recognition calls | 132.66s; incomplete call excluded |
+| Correction, recovery and recording window | 351.17s |
+| Corrected non-whitespace characters | 3,601 |
+| Observed uncached, non-write correction input tokens | 21,392 |
+| Observed cached correction input tokens | 1,797,504 |
+| Observed correction output tokens | 8,913 |
+
+The first worker exited143 after30 completed crops and one incomplete request;
+no live worker remained. Cause and exact stop time are unknown. Its output is
+preserved separately. A fresh recovery directory reused only hash-verified complete
+stages and finished14 remaining crops in56.13s, with no completed inference rerun.
+The lower raw bound uses the last completed stage timestamp; the upper uses terminal
+observation, each plus measured resume duration. Observation delay is included in
+the upper bound, recovery preparation excluded. Public `raw_run_seconds` is null
+rather than presenting either bound as an exact measurement. Interrupted inference
+time and local tokens are unknown; the recorded22,498 local tokens (18,805 prompt,
+3,693 completion) cover successful calls only. Assistant cache-write tokens were zero.
+
+Correction time includes failure inspection, recovery, waits, source proofreading
+and artifact writing; raw work overlapped it, but the exact overlap is unknown.
+Comparison-helper preparation is separately visible in the raw assistant window.
+A code crop boundary was adjusted before inference to avoid splitting address031C.
+These measurements remain observations, not isolated engine correction costs.
+
+| Fixed crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p43r02 — introduction prose | 0.00% | 3.59% |
+| p43r13 — BASIC/ROM prose | 0.00% | 4.76% |
+| p43r18 — bell disassembly | 4.23% | 40.85% |
+| p45r07 — music disassembly | 8.04% | 25.00% |
+
+Qwen still required correction of hexadecimal0/O and operand $/# glyphs; its raw
+code was not perfect. The larger differences on code than prose support the
+provisional content rule without proving paid-token savings. References were sealed
+before alternate OCR, are Qwen-derived and unblinded, and are not human gold.
+Tesseract used identical PNGs, eng for code and kor+eng for prose, OEM1/PSM6,
+without font-specific tuning. No second paid correction was performed.
+
+Native export integrity, source-linked UTF-8 review ranges, printed BASIC line
+numbers,58 source-address identities and byte-identical rebuild pass. None of these
+checks certifies executable behavior. July has seven complete bodies, one partial
+and28 untouched (29 unfinished). Across12 checkpoints:45 source pages,645 regions,
+591 text crops,54 figures,214 logical BASIC lines,1,071 physical hex rows,
+58 assembly rows and133 flags. Next restore46–49, including the music-note table,
+then assemble the article. Full-issue metric consolidation and reading room follow
+completion of the remaining bodies; human review remains mandatory.

@@ -5,13 +5,13 @@
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
   "completed_article_bodies": 7,
-  "partial_article_bodies": 0,
-  "completed_checkpoints": 11,
+  "partial_article_bodies": 1,
+  "completed_checkpoints": 12,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
   "remaining_article_bodies": 29,
   "remaining_toc_entries": 29,
-  "untouched_toc_entries": 29,
+  "untouched_toc_entries": 28,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -1040,6 +1040,127 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Dense technical signals, timing and subscripts; Qwen primary and original circuit/timing diagrams retained. Paid savings remain unproven."
       }
+    },
+    {
+      "batch": "12",
+      "toc_entry_id": "maso-1984-07-toc-0003",
+      "title": "애플음의 정복",
+      "engine": "qwen",
+      "printed_pages": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "pdf_pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-12/map.json",
+        "sha256": "e2564634b0bf45f3854de93c6397696f2ed9690758eae421341c09b783e5f8be",
+        "bytes": 16041
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-12/apple-sound-opening/article.json",
+          "sha256": "9fa7c6aae772f028e6ffa83840492c41453dc0db07df27f1e5679dc088ce24bf",
+          "bytes": 79511
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-12/apple-sound-opening/manifest.json",
+          "sha256": "5b9cc79968f25c9d7579c613d9548966b8eede67582ddc0b4434a43245b2a823",
+          "bytes": 31198
+        },
+        "source_pages": [
+          42,
+          43,
+          44,
+          45
+        ],
+        "regions": 49,
+        "text_regions": 44,
+        "figures": 5,
+        "physical_listing_rows": 65,
+        "logical_listing_rows": 7,
+        "unresolved_entries": 12,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": null,
+      "recognition_seconds": 132.66391763702268,
+      "local_qwen_tokens": {
+        "prompt_tokens": 18805,
+        "completion_tokens": 3693,
+        "total_tokens": 22498
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-12/transcription-assistant.json",
+        "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+        "bytes": 9870
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T08:57:09.347501+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+          "bytes": 9870
+        },
+        "method": "Assistant source comparison from Qwen draft before alternate Tesseract; unblinded, not independent human gold."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 64,
+        "code": 959,
+        "other": 13,
+        "prose": 2500,
+        "title": 65
+      },
+      "work_window_ids": [
+        "raw-12",
+        "correction-12",
+        "export-12"
+      ],
+      "raw_run_seconds_lower_bound": 161.77061811500002,
+      "raw_run_seconds_upper_bound": 283.81373811500004,
+      "raw_timing_basis": "conservative upper bound: original start to terminal observation, plus measured resume duration; includes observation delay, excludes intervening recovery preparation",
+      "raw_timing_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-12/raw-run-timing.json",
+        "sha256": "98945ce0e4552ac2002471b23137e2ae0c99507b99afd7abd9117a04180b696e",
+        "bytes": 3563
+      },
+      "interruption": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-12/interruption.json",
+        "sha256": "187e4efa949f05a605eda76ffb9eea14af187c1bd4c00989471d14314ae84b09",
+        "bytes": 2232
+      },
+      "recognition_limitation": "Sum of completed inferences only; interrupted inference duration and local tokens unknown.",
+      "listing_audit": {
+        "physical_basic_rows": 7,
+        "logical_basic_rows": 7,
+        "physical_assembly_rows": 58,
+        "printed_addresses": {
+          "p43r18": "FBDD FBDF FBE2 FBE4 FBE6 FBE9 FBEC FBED FBEF",
+          "p44r13": "0300 0302 0304 0306 0308 030B 030D 030F 0311 0313 0315",
+          "p45r05": "0300 0303 0304 0306 0308 030A 030B 030D 030F 0311",
+          "p45r07": "0300 0302 0304 0306 0308 030A 030B 030D 030F 0311 0312 0314 0316 0318 031A",
+          "p45r08": "031C 031E 0320 0322 0324 0327 0329 032B 032C 032E 0330 0332 0334"
+        },
+        "scope": "Source row identity/count audit only, not executable or byte-perfect certification. Right-margin mark retained as uncertain annotation."
+      },
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Addressed assembly and BASIC listings plus technical notation; Qwen primary, original flowcharts retained. Paid-token savings unproven."
+      }
     }
   ],
   "assemblies": [
@@ -1449,8 +1570,53 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-partial-human-pending",
       "pdf_page_candidate": 42,
+      "batch": "12",
+      "engine": "qwen",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-12/apple-sound-opening/article.json",
+        "sha256": "9fa7c6aae772f028e6ffa83840492c41453dc0db07df27f1e5679dc088ce24bf",
+        "bytes": 79511
+      },
+      "restored_pdf_pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "covered_pdf_pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "partial_pdf_pages": [],
+      "deferred_pdf_pages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "assembly_required": true,
+      "segments": [
+        {
+          "batch": "12",
+          "engine": "qwen",
+          "package": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-12/apple-sound-opening/article.json",
+            "sha256": "9fa7c6aae772f028e6ffa83840492c41453dc0db07df27f1e5679dc088ce24bf",
+            "bytes": 79511
+          },
+          "pdf_pages": [
+            42,
+            43,
+            44,
+            45
+          ],
+          "partial_pdf_pages": []
+        }
+      ],
       "planned_primary_engine": "qwen"
     },
     {
@@ -3170,12 +3336,17 @@
       "path": "docs/ocr-july-comparison-09.json",
       "sha256": "8ba515168503baa860f9556b610c68657ae6852bdeb0702889c182bf6a5d0ae7",
       "bytes": 9059
+    },
+    {
+      "path": "docs/ocr-july-comparison-10.json",
+      "sha256": "fe1c03b109338ba58dd2c766522f6c75b89fa35e6cf25e285d241a8fbd5b48fd",
+      "bytes": 8812
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "489bb64373b827e67052098ce400a94cfe479eb5647c27ac55027d82f07b9d67",
-    "bytes": 40097
+    "sha256": "287bcbb240d0097c6cdb624a40032708167d1c72a9818b16bfce621e761b30e4",
+    "bytes": 44103
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -3185,8 +3356,23 @@
   "next_pair": [
     {
       "toc_entry_id": "maso-1984-07-toc-0003",
-      "title": "애플음의 정복",
+      "title": "애플음의 정복 — 음악 데이터·응용과 결론",
       "candidate_pdf_pages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "printed_pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "engine": "qwen",
+      "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+      "routing_reason": "Dense BASIC DATA, addressed assembly and music-note table. Qwen primary; preserve original music glyph/table image with explicit searchable representation limits.",
+      "article_pdf_pages": [
         42,
         43,
         44,
@@ -3194,27 +3380,15 @@
         46,
         47,
         48,
-        49,
-        50
+        49
       ],
-      "printed_pages": [
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
+      "existing_segments": [
+        "12"
       ],
-      "engine": "qwen",
-      "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Provisional technical music/programming article; confirm notation/listing density and actual body extent before choosing detailed checkpoint crops.",
-      "extent_status": "Candidate42–50 follows section opener41 and precedes SPC-1000 article51. Inspect actual page boundaries/advertisements before mapping and inference."
+      "extent_status": "Full42–49 inspected;50 is advertisement. Remaining46–49 starts with continuation of45 final sentence. Detailed crops/samples still to be fixed before inference."
     }
   ],
-  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Next restore Apple sound article using source-inspected content routing. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
+  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound opening12 restores42–45;46–49 and full assembly remain. Batch12 interrupted raw time is bounded, not exact. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

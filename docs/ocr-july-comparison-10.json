@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "scope": "Four preselected identical-PNG crops: Apple sound introduction, BASIC/ROM prose, bell disassembly and music routine disassembly. Qwen-derived references sealed before alternate Tesseract OCR; unblinded assistant readings, not independent human gold. No repeated paid correction. Compact CER ignores whitespace and table cell delimiters; not a layout or executable-code test.",
+  "rows": [
+    {
+      "batch": "12",
+      "primary_engine": "qwen",
+      "region_id": "p43r02",
+      "category": "prose",
+      "content_label": "applesound-p43-intro-left-1",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-12/ocr/scan-maso-1984-07-toc-0003/ocr-page43/p43r02.png",
+        "sha256": "4bbb45049298171755e6ce66cd3d5bce1ba085ca593f57455abc705116df100b",
+        "bytes": 280469
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+        "bytes": 9870
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T08:57:09.347501+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+          "bytes": 9870
+        },
+        "method": "Assistant source comparison from Qwen draft before alternate Tesseract; unblinded, not independent human gold."
+      },
+      "qwen_seconds": 4.791470510001091,
+      "tesseract_seconds": 0.3819976009981474,
+      "qwen_usage": {
+        "completion_tokens": 138,
+        "prompt_tokens": 666,
+        "total_tokens": 804,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 219,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 167,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.0547945205479452,
+          "cer_edits": 12,
+          "cer_reference_chars": 219,
+          "cer_no_whitespace": 0.03592814371257485,
+          "cer_no_whitespace_edits": 6,
+          "cer_no_whitespace_reference_chars": 167,
+          "wer": 0.2830188679245283
+        }
+      }
+    },
+    {
+      "batch": "12",
+      "primary_engine": "qwen",
+      "region_id": "p43r13",
+      "category": "prose",
+      "content_label": "applesound-p43-basic-right-2",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-12/ocr/scan-maso-1984-07-toc-0003/ocr-page43/p43r13.png",
+        "sha256": "f300467b9278463b44d37f0193255e365a6d074640744ca48f5be205c3e77eb5",
+        "bytes": 276984
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+        "bytes": 9870
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T08:57:09.347501+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+          "bytes": 9870
+        },
+        "method": "Assistant source comparison from Qwen draft before alternate Tesseract; unblinded, not independent human gold."
+      },
+      "qwen_seconds": 5.559198104998359,
+      "tesseract_seconds": 0.3859953340033826,
+      "qwen_usage": {
+        "completion_tokens": 163,
+        "prompt_tokens": 666,
+        "total_tokens": 829,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.02336448598130841,
+          "cer_edits": 5,
+          "cer_reference_chars": 214,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 168,
+          "wer": 0.2127659574468085
+        },
+        "tesseract": {
+          "cer": 0.08411214953271028,
+          "cer_edits": 18,
+          "cer_reference_chars": 214,
+          "cer_no_whitespace": 0.047619047619047616,
+          "cer_no_whitespace_edits": 8,
+          "cer_no_whitespace_reference_chars": 168,
+          "wer": 0.425531914893617
+        }
+      }
+    },
+    {
+      "batch": "12",
+      "primary_engine": "qwen",
+      "region_id": "p43r18",
+      "category": "code",
+      "content_label": "applesound-p43-table2-bell",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-12/ocr/scan-maso-1984-07-toc-0003/ocr-page43/p43r18.png",
+        "sha256": "179882f67f7509d7863ddb293100cd2d82762a02a67714973f75ccc3e30212cd",
+        "bytes": 342491
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+        "bytes": 9870
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T08:57:09.347501+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+          "bytes": 9870
+        },
+        "method": "Assistant source comparison from Qwen draft before alternate Tesseract; unblinded, not independent human gold."
+      },
+      "qwen_seconds": 4.362639586001023,
+      "tesseract_seconds": 0.15790546299831476,
+      "qwen_usage": {
+        "completion_tokens": 127,
+        "prompt_tokens": 561,
+        "total_tokens": 688,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.032432432432432434,
+          "cer_edits": 6,
+          "cer_reference_chars": 185,
+          "cer_no_whitespace": 0.04225352112676056,
+          "cer_no_whitespace_edits": 6,
+          "cer_no_whitespace_reference_chars": 142,
+          "wer": 0.13636363636363635
+        },
+        "tesseract": {
+          "cer": 0.35135135135135137,
+          "cer_edits": 65,
+          "cer_reference_chars": 185,
+          "cer_no_whitespace": 0.4084507042253521,
+          "cer_no_whitespace_edits": 58,
+          "cer_no_whitespace_reference_chars": 142,
+          "wer": 0.8863636363636364
+        }
+      }
+    },
+    {
+      "batch": "12",
+      "primary_engine": "qwen",
+      "region_id": "p45r07",
+      "category": "code",
+      "content_label": "applesound-p45-table5-music-1",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-12/ocr/scan-maso-1984-07-toc-0003/ocr-page45/p45r07.png",
+        "sha256": "ec5883a499de2550355c0528a2e2faf8717d5fc0b4f0059465ebd3a30a67251d",
+        "bytes": 451628
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+        "bytes": 9870
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T08:57:09.347501+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "09f6b55fc4126888890449e324d5b8476b49587cfe9086cb0c04e6d0647c29bd",
+          "bytes": 9870
+        },
+        "method": "Assistant source comparison from Qwen draft before alternate Tesseract; unblinded, not independent human gold."
+      },
+      "qwen_seconds": 7.515224266000587,
+      "tesseract_seconds": 0.20364468300249428,
+      "qwen_usage": {
+        "completion_tokens": 227,
+        "prompt_tokens": 757,
+        "total_tokens": 984,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.061224489795918366,
+          "cer_edits": 18,
+          "cer_reference_chars": 294,
+          "cer_no_whitespace": 0.08035714285714286,
+          "cer_no_whitespace_edits": 18,
+          "cer_no_whitespace_reference_chars": 224,
+          "wer": 0.2535211267605634
+        },
+        "tesseract": {
+          "cer": 0.19047619047619047,
+          "cer_edits": 56,
+          "cer_reference_chars": 294,
+          "cer_no_whitespace": 0.25,
+          "cer_no_whitespace_edits": 56,
+          "cer_no_whitespace_reference_chars": 224,
+          "wer": 0.5915492957746479
+        }
+      }
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering and startup. Alternate OCR and comparison-script preparation are evaluation overhead, separate from ordinary restoration."
+}

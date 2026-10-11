@@ -1182,3 +1182,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   49 figures,207 BASIC lines,1,071 hex rows,121 flags. Next inspect Apple sound
   article candidate42–50, then map with provisional routing. Reading room after
   full issue restoration/metrics. User homepage change left untouched.
+
+
+### July Apple sound opening restored, 2026-10-11
+
+- Source extent42–49 confirmed;50 is advertisement. Batch12/Qwen restores42–45:
+  49 regions,44 text crops,5 images,7 BASIC lines,58 assembly rows,12 flags.
+  Preserve source anomalies, explicit circled-step linearization and margin mark.
+- Worker exit143 after30 completed crops and one incomplete request; cause unknown.
+  Original output preserved, verified30 crops reused, remaining14 completed in56.13s.
+  Combined raw elapsed is bounded161.77–283.81s, exact value null. Successful
+  recognition132.66s and local22,498 tokens exclude incomplete inference cost.
+- Correction/recovery351.17s;21,392 uncached input,1,797,504 cached input,
+  8,913 output tokens, zero cache-write. No exact overlap or pure correction claim.
+- Four fixed comparisons favor Qwen, with larger gaps on assembly than prose;
+  $/# and0/O errors still require source review. No human-gold or causal savings claim.
+- Native integrity, UTF-8 review ranges, row/address audit and reproducible rebuild
+  pass. July:7 complete,1 partial,28 untouched;45 pages,645 regions,591 text,
+  54 figures,214 BASIC lines,1,071 hex rows,58 assembly rows,133 flags.
+- Next:46–49, then full Apple sound assembly. Full reading room remains scheduled
+  after issue restoration and metric consolidation. User homepage change preserved.

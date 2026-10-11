@@ -1115,6 +1115,116 @@
         "total_tokens": 122421,
         "uncached_nonwrite_input_tokens": 2656
       }
+    },
+    {
+      "id": "setup-12",
+      "stage": "mapping-and-preparation",
+      "engine": "shared",
+      "start": "2026-10-11T08:47:56.155540+00:00",
+      "end": "2026-10-11T08:50:30.935281+00:00",
+      "elapsed_seconds": 154.77974104881287,
+      "observed_responses": 8,
+      "tokens": {
+        "input_tokens": 1109323,
+        "cached_input_tokens": 1081856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3126,
+        "reasoning_output_tokens": 862,
+        "total_tokens": 1112449,
+        "uncached_nonwrite_input_tokens": 27467
+      }
+    },
+    {
+      "id": "raw-12",
+      "stage": "raw-ocr",
+      "engine": "qwen",
+      "start": "2026-10-11T08:50:30.950173+00:00",
+      "end": "2026-10-11T08:51:18.179300+00:00",
+      "limitation": "Includes comparison-helper preparation and preflight seam verification during raw monitoring. Raw engine continues into correction window.",
+      "elapsed_seconds": 47.229127168655396,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 458274,
+        "cached_input_tokens": 453632,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 807,
+        "reasoning_output_tokens": 200,
+        "total_tokens": 459081,
+        "uncached_nonwrite_input_tokens": 4642
+      }
+    },
+    {
+      "id": "correction-12",
+      "stage": "semantic-correction",
+      "engine": "qwen",
+      "start": "2026-10-11T08:51:18.196257+00:00",
+      "end": "2026-10-11T08:57:09.364419+00:00",
+      "limitation": "Includes source correction, code/address checking and recovery from raw-worker exit143. Original30 completed crops reused; incomplete request preserved,14 remaining inferred. Exact first-attempt end is unknown, so raw/correction overlap is not reported as exact. Recovery and waits are included; not pure correction time.",
+      "elapsed_seconds": 351.1681618690491,
+      "observed_responses": 11,
+      "tokens": {
+        "input_tokens": 1818896,
+        "cached_input_tokens": 1797504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8913,
+        "reasoning_output_tokens": 3714,
+        "total_tokens": 1827809,
+        "uncached_nonwrite_input_tokens": 21392
+      }
+    },
+    {
+      "id": "export-12",
+      "stage": "export",
+      "engine": "qwen",
+      "start": "2026-10-11T08:57:09.379056+00:00",
+      "end": "2026-10-11T08:57:28.807970+00:00",
+      "elapsed_seconds": 19.428914070129395,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 177121,
+        "cached_input_tokens": 174464,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 247,
+        "reasoning_output_tokens": 111,
+        "total_tokens": 177368,
+        "uncached_nonwrite_input_tokens": 2657
+      }
+    },
+    {
+      "id": "evaluation-12",
+      "stage": "evaluation",
+      "engine": "qwen",
+      "start": "2026-10-11T08:57:28.824327+00:00",
+      "end": "2026-10-11T08:58:21.776723+00:00",
+      "elapsed_seconds": 52.95239591598511,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 177817,
+        "cached_input_tokens": 176896,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1661,
+        "reasoning_output_tokens": 490,
+        "total_tokens": 179478,
+        "uncached_nonwrite_input_tokens": 921
+      }
+    },
+    {
+      "id": "reporting-12",
+      "stage": "validation-and-reporting",
+      "engine": "shared",
+      "start": "2026-10-11T08:58:21.792937+00:00",
+      "end": "2026-10-11T08:59:21.753646+00:00",
+      "elapsed_seconds": 59.96070885658264,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 180812,
+        "cached_input_tokens": 177664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2078,
+        "reasoning_output_tokens": 437,
+        "total_tokens": 182890,
+        "uncached_nonwrite_input_tokens": 3148
+      }
     }
   ],
   "money_cost": null,
@@ -1122,36 +1232,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T08:47:19.836874+00:00",
-    "elapsed_seconds": 106202.82287406921,
-    "observed_responses": 373,
+    "end": "2026-10-11T08:59:21.753646+00:00",
+    "elapsed_seconds": 106924.73964595795,
+    "observed_responses": 402,
     "tokens": {
-      "input_tokens": 45901240,
-      "cached_input_tokens": 44337152,
+      "input_tokens": 50318292,
+      "cached_input_tokens": 48688640,
       "cache_write_input_tokens": 0,
-      "output_tokens": 255999,
-      "reasoning_output_tokens": 71297,
-      "total_tokens": 46157239,
-      "uncached_nonwrite_input_tokens": 1564088
+      "output_tokens": 273524,
+      "reasoning_output_tokens": 77192,
+      "total_tokens": 50591816,
+      "uncached_nonwrite_input_tokens": 1629652
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T08:47:19.836874+00:00",
-    "elapsed_seconds": 106202.82287406921,
-    "observed_responses": 70,
+    "end": "2026-10-11T08:59:21.753646+00:00",
+    "elapsed_seconds": 106924.73964595795,
+    "observed_responses": 74,
     "tokens": {
-      "input_tokens": 8710230,
-      "cached_input_tokens": 8401792,
+      "input_tokens": 9205039,
+      "cached_input_tokens": 8891264,
       "cache_write_input_tokens": 0,
-      "output_tokens": 27408,
-      "reasoning_output_tokens": 4821,
-      "total_tokens": 8737638,
-      "uncached_nonwrite_input_tokens": 308438
+      "output_tokens": 28101,
+      "reasoning_output_tokens": 4902,
+      "total_tokens": 9233140,
+      "uncached_nonwrite_input_tokens": 313775
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction-02 includes first export-helper adaptation. Raw-08 assistant window includes shared assembler development/tests and next-article preflight; its raw engine run overlaps correction-08 by about183 seconds. Raw-09, raw-10 and raw-11 also overlap correction; see exact per-window notes. Raw-10 includes exact-edit helper development. Export-10 end uses completed export-results mtime after interruption, excluding the inactive gap. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
+  "limitation": "Correction-02 includes first export-helper adaptation. Raw-08 assistant window includes shared assembler development/tests and next-article preflight; its raw engine run overlaps correction-08 by about183 seconds. Raw-09, raw-10 and raw-11 also overlap correction; see exact per-window notes. Raw-10 includes exact-edit helper development. Export-10 end uses completed export-results mtime after interruption, excluding the inactive gap. Correction-12 includes interruption recovery and source review; raw elapsed is bounded and incomplete inference tokens/time are unknown. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
 }
