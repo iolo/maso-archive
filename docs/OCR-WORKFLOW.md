@@ -487,8 +487,14 @@ prose and apparent code errors; faint DELETEQ and ADDQ punctuation need explicit
 human review flags. The four fixed samples favor Qwen on introductory prose and
 both code crops, but technical prose ties at0% compact CER. A failed recovery
 startup is included in raw time; archive incomplete requests before resuming,
-reuse successful stages and retain all attempt costs. Next inspect UNIX175–183
-and verify its boundary. This is guidance for choosing new checkpoints;
+reuse successful stages and retain all attempt costs. UNIX175–181 is complete in35;182ad/183divider are outside the article. Its
+80T/98Q route completed, then five clipped page177 body crops were widened and
+rerun. Preserve original and revised maps/OCR and count all103 Q calls; reusing
+unchanged evidence avoids duplicate recognition. Qwen wins all four fixed samples
+(outline, plain prose, technical prose, memory rows), with all seven memory pairs
+matching assistant source reading. Preserve printed Entory/CEC/비전 and other
+source anomalies; retain original diagrams and small-glyph review flags. Next
+inspect hardware195–206 and verify its boundary. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

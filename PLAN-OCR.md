@@ -1694,3 +1694,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
   2,729 text,152 images,765 flags,zero human accepted. Next UNIX175–183 candidate,
   final boundary still to inspect. Full metrics/reading room pending; preexisting
   homepage edit preserved and final reporting/commit usage carries.
+
+### July UNIX complete, 2026-10-12
+
+- Final installment175–181/printed171–177 restored;182ad/183divider excluded.
+  187regions178text9images,76 outline entries in77rows,7model/memorypairs36flags.
+- Fixed80 Tesseract/98 Qwen. Initial pass completed; five page177 crops widened
+  after clipped leading Hangul discovered.93 unchanged Q/80T reused; original
+  maps/OCR and revised evidence retained. No failure or route change. Both raw
+  passes225.644s; all103 local Q calls32,334tokens fully accounted.
+- Correction496.41s overlaps189.18s raw;32,918 uncached/2,407,936 cached input,
+  13,224 output. Export includes archived pre-evaluation reading-order revision.
+  Four comparison33 samples favor Qwen; no causal paid-token savings claim.
+- Source Entory, CEC, 비전, 유동소숫정 and technical claims retained; glyph
+  ambiguities flagged. Table values/labels source-checked, no commands executed.
+- Coverage, outline/table rows, UTF-8 review ranges and byte-identical rebuild
+  pass. July26complete,10untouched,no partials;158unique pages,3,068regions,
+  2,907text161images801flags,zero human accepted. Next hardware195–206candidate,
+  exact extent unverified. Full metrics/reading room pending; preexisting homepage
+  edit preserved. Final reporting/commit usage carries into the next audit.

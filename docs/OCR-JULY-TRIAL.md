@@ -2256,3 +2256,73 @@ accepted. Cumulative151 unique pages,2,881 regions,2,729 text crops,152 images
 and765 flags. Earlier listing totals remain unchanged; this adds107 PL/I rows.
 Next inspect UNIX candidate175–183 and verify the final boundary. Full-issue
 metrics and the authorized reading-room build remain outstanding.
+
+### UNIX complete — batch35, 2026-10-12
+
+Restored the final installment, PDF175–181/printed171–177. Page182 is a publisher
+advertisement and183 a section divider;184 begins the already restored music-card
+article. This seven-page body has187 regions,178 text crops,9 images and36 review
+flags. The opening series outline contains four chapters,23 numbered sections and
+49 circled subitems:76 entries and77 physical text rows including a separate date
+row. Its image is retained beside the hierarchy transcription. The seven model/
+memory pairs have separate text and an original image. The remaining seven images are five illustrations, the SORT/UNIQ/TR flow diagram,
+and a duplex cartoon.
+There are no new code listings.
+
+Routing was fixed at80 Tesseract crops for clear prose/headings/byline and98 Qwen
+crops for the small outline, technical descriptions/notation and memory rows. The
+initial raw pass completed without failure. Native source inspection subsequently
+found left-edge Hangul clipping in five page177 body crops. Those were widened
+from526 to514/849 before the existing four-pixel padding and rerun with Qwen;
+93 unchanged Qwen and all80 Tesseract results were reused. Original complete
+OCR/maps and the revised evidence are both retained. No route changed, no fixed
+comparison crop changed, and no unchanged crop was recognized again.
+
+Measured raw worker times209.499s and16.145s total225.644s, excluding inspection
+and preparation between passes. Successful recognition, including all original98
+and revised5 Qwen calls, is182.980s Qwen plus9.113s Tesseract; it is nested in raw
+elapsed. All103 completed local Qwen responses total27,863 prompt and4,471
+completion tokens,32,334 total. There are no unknown interrupted-response costs
+in this batch.
+
+Correction/source review, crop repair and helper work took496.41s, overlapping
+189.18s of raw worker elapsed. Paid observations:32,918 uncached input,2,407,936
+cached input and13,224 output including3,182 reasoning; zero cache-write. Export
+work includes a pre-evaluation reading-order adjustment and rebuild, with the prior
+artifact archived. The duplex cartoon now follows its discussion rather than
+interrupting the later memory-table introduction. Evaluation's assistant window
+also includes initial accounting preparation; raw alternate-call timings remain
+separate. These observations do not isolate per-engine paid savings.
+
+Source review restored Tesseract's missing ED and damaged headings, and Qwen's
+modernized 파일, duplicated 을, 입출력 misreading and several small outline glyphs.
+Original 비전, Entory, CEC 8000, 타케트·머신, 유동소숫정, version claims and the
+superuser/encryption statement remain as printed. Faint 쉘/셸, 엑세스 and two dots
+before the TYPO paragraph remain flagged. English prose wrap hyphens and Korean
+midword wraps are joined explicitly, including cross-page/column continuations.
+All seven raw Qwen memory values/model labels agree with the assistant's source
+reading; wrapped unit labels were placed on the same text row. No technical
+fact, command or hardware specification was repaired or execution-verified.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p175r07 — small series outline | 0.00% | 25.00% |
+| p176r12 — ordinary SPELL prose | 1.54% | 6.15% |
+| p178r27 — technical AWK prose | 0.00% | 8.16% |
+| p181r05 — four model/memory rows | 0.00% | 10.81% |
+
+[Comparison33](ocr-july-comparison-33.json) uses preselected identical PNGs,
+unchanged by the page177 crop revision. References were sealed before alternates;
+they remain unblinded assistant readings, not human gold. Both engines used the
+same images; Tesseract kor+eng throughout. The T-primary Qwen alternate completed
+within512 tokens. Compact CER ignores whitespace but includes punctuation and
+typography. Qwen wins these four samples, supporting continued testing rather
+than a proven cost advantage.
+
+All187 source records,77 outline rows,seven table rows, nine source images,
+explicit joins, UTF-8 review ranges and byte-identical rebuild pass. July now has
+26 complete bodies,10 untouched,no partials and zero human acceptances. Cumulative
+158 unique source pages,3,068 regions,2,907 text crops,161 images and801 flags.
+Listing totals are unchanged. Next inspect the hardware-design tutorial candidate
+195–206 and verify its exact extent. Full-issue metrics and the authorized reading
+room remain pending.
