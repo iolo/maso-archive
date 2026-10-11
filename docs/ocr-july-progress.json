@@ -4,13 +4,13 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 31,
-  "partial_article_bodies": 1,
-  "completed_checkpoints": 45,
+  "completed_article_bodies": 32,
+  "partial_article_bodies": 0,
+  "completed_checkpoints": 46,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 5,
-  "remaining_toc_entries": 5,
+  "remaining_article_bodies": 4,
+  "remaining_toc_entries": 4,
   "untouched_toc_entries": 4,
   "human_accepted_articles": 0,
   "source": {
@@ -15677,6 +15677,388 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Ordinary-prose Tesseract probe produced Latin substitutions for legible Korean words; reject as primary for prose. Qwen512 for prose, variable/range lists and plain BASIC. Tesseract titles and two repetitive asterisk REM headers; preserve original columns. Mandatory source review."
       }
+    },
+    {
+      "batch": "46",
+      "toc_entry_id": "maso-1984-07-toc-0033",
+      "title": "금전출납부",
+      "engine": "mixed",
+      "printed_pages": [
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "pdf_pages": [
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-46/map.json",
+        "sha256": "259af7e4e87d5d1e26088becfed57676dd891fe302181888aba519d77b081ddb",
+        "bytes": 39043
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-46/cashbook-ending/article.json",
+          "sha256": "51374fa177be0600e02a4c7aad58d5cc8d51d3f5c014b9cb8c8acc913a4da3e4",
+          "bytes": 215964
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-46/cashbook-ending/manifest.json",
+          "sha256": "917cce69c071b1c417dbae41219489e0c21d44150660b9dc54ce10094721a38b",
+          "bytes": 87643
+        },
+        "source_pages": [
+          233,
+          234,
+          235,
+          236,
+          237
+        ],
+        "regions": 137,
+        "text_regions": 127,
+        "figures": 10,
+        "physical_listing_rows": 571,
+        "logical_listing_rows": 369,
+        "unresolved_entries": 48,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 341.4453786269951,
+      "recognition_seconds": 290.7306232539777,
+      "local_qwen_tokens": null,
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-46/transcription-assistant.json",
+        "sha256": "2a3132b0211e383f217c77b6ab39bd2ccea47331deb6e7adb88165c0f46c938d",
+        "bytes": 16508
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T18:55:36.060075+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "2a3132b0211e383f217c77b6ab39bd2ccea47331deb6e7adb88165c0f46c938d",
+          "bytes": 16508
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four preselected samples unchanged; references sealed before alternate OCR/scores."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "code": 9301
+      },
+      "work_window_ids": [
+        "raw-46",
+        "correction-46",
+        "export-46",
+        "assembly-46"
+      ],
+      "local_qwen_tokens_completed_responses_lower_bound": {
+        "prompt_tokens": 39750,
+        "completion_tokens": 8739,
+        "total_tokens": 48489
+      },
+      "failed_server_compute_seconds": 15.079663,
+      "recognition_limitation": "Lower bound includes116 final Qwen successes and1 failed512-token response. Interrupted p234r12 request has no captured response/timing/usage; unknown cost is not zero.34 Q and10 T successes reused. Final116Q11T; no source recrop or repeated success. Two measured worker lifespans exclude recovery gap. Recognition/failed compute nested in raw time.",
+      "raw_run_seconds_basis": "Sum of two measured worker lifespans, original terminal143 and resumed completion. Includes rendering/validation/model loading/interrupted request/export and one512-token failure/fallback. Recovery gap excluded; no crop revisions or duplicate successful calls.",
+      "recovery": {
+        "attempts": 2,
+        "reason": "Confirmed terminal143 before resume;34 Q stages and10 T crops reused. One512-token repetitive dot-string failure uses same-crop Tesseract fallback.",
+        "first_completed_crops": 44,
+        "final_completed_crops": 127,
+        "duplicated_successful_crops": 0,
+        "interrupted_crops": 1,
+        "failed_crops": 1,
+        "first_raw_seconds": 129.60298373399564,
+        "second_raw_seconds": 211.84239489299944,
+        "successful_recognition_seconds": 288.2475813279816,
+        "local_qwen_tokens_completed_responses": {
+          "prompt_tokens": 39750,
+          "completion_tokens": 8739,
+          "total_tokens": 48489
+        },
+        "failed_server_compute_seconds": 15.079663,
+        "failed_response_usage": [
+          {
+            "completion_tokens": 512,
+            "prompt_tokens": 327,
+            "total_tokens": 839,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          }
+        ],
+        "failed_responses": [
+          {
+            "path": "failed-attempt-01/p233r18/inference.response.json",
+            "sha256": "968a4c148b45e68ab1595d5c70d4709dd180e1a6bbc8609344ea979748bcae65",
+            "bytes": 1998
+          }
+        ],
+        "limitation": "Lower bound includes116 final Qwen successes and1 failed512-token response. Interrupted p234r12 request has no captured response/timing/usage; unknown cost is not zero.34 Q and10 T successes reused. Final116Q11T; no source recrop or repeated success. Two measured worker lifespans exclude recovery gap. Recognition/failed compute nested in raw time."
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-46/recovery-accounting.json",
+        "sha256": "4bb62793ada629f0b38fc79602dbbbfc6bad3f77c1ab5dd102e32ec282aa5372",
+        "bytes": 1434
+      },
+      "local_qwen_tokens_retained_successes": {
+        "prompt_tokens": 39423,
+        "completion_tokens": 8227,
+        "total_tokens": 47650
+      },
+      "recognition_seconds_retained_successes": 288.2475813279816,
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p234r07": "tesseract",
+        "p234r09": "tesseract",
+        "p234r10": "tesseract",
+        "p234r25": "tesseract",
+        "p234r26": "tesseract",
+        "p234r30": "tesseract",
+        "p235r07": "tesseract",
+        "p235r08": "tesseract",
+        "p235r11": "tesseract",
+        "p235r14": "tesseract",
+        "p233r18": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 288.2475813279816,
+        "tesseract_recognition_seconds": 2.4830419259960763,
+        "qwen_regions": {
+          "p233r02": 2.2522347190024448,
+          "p233r03": 1.9562411040024017,
+          "p233r04": 3.234039955001208,
+          "p233r05": 2.2959517229974153,
+          "p233r06": 3.3804675840001437,
+          "p233r07": 2.081613087997539,
+          "p233r08": 2.2835961610035156,
+          "p233r09": 2.304605511999398,
+          "p233r10": 2.1821095569976023,
+          "p233r11": 3.062735571002122,
+          "p233r12": 2.577327470993623,
+          "p233r13": 3.09669641200162,
+          "p233r14": 3.0171684119995916,
+          "p233r15": 1.913126088998979,
+          "p233r17": 2.353481712001667,
+          "p233r19": 2.9954752859994187,
+          "p233r20": 3.185798655002145,
+          "p233r21": 3.2528447849981603,
+          "p233r22": 2.469188896997366,
+          "p233r23": 2.787427553004818,
+          "p233r24": 3.2000679909979226,
+          "p233r25": 2.6981887340007233,
+          "p233r26": 2.0381203220022144,
+          "p233r27": 2.4307707459956873,
+          "p233r28": 2.465219588004402,
+          "p233r29": 1.9882567869935883,
+          "p233r30": 3.247688373994606,
+          "p234r02": 3.1279934030026197,
+          "p234r03": 2.291113112005405,
+          "p234r04": 2.688647408998804,
+          "p234r05": 2.238197721002507,
+          "p234r06": 3.4293226980007603,
+          "p234r08": 2.682046353002079,
+          "p234r11": 2.923723670995969,
+          "p234r12": 2.5925624089941266,
+          "p234r13": 3.0311925639980473,
+          "p234r14": 2.0809032629986177,
+          "p234r15": 1.1989201280011912,
+          "p234r17": 2.531950771997799,
+          "p234r18": 3.029152843002521,
+          "p234r19": 0.7729314390016953,
+          "p234r20": 0.6309027089955634,
+          "p234r21": 2.6974348459989415,
+          "p234r22": 2.2370148490008432,
+          "p234r23": 0.8783056129977922,
+          "p234r24": 0.9127941400001873,
+          "p234r27": 3.0398990040048375,
+          "p234r28": 2.2318197569984477,
+          "p234r29": 0.7911555569953634,
+          "p235r02": 0.632721385001787,
+          "p235r03": 3.4973499240004458,
+          "p235r04": 1.5715900950017385,
+          "p235r05": 0.8886812380005722,
+          "p235r06": 1.6294006730022375,
+          "p235r09": 2.3897964019997744,
+          "p235r10": 2.555120368000644,
+          "p235r12": 1.7120062419999158,
+          "p235r13": 3.1000791159967775,
+          "p235r15": 2.9411783840041608,
+          "p235r17": 2.9475048879976384,
+          "p235r18": 3.245347251999192,
+          "p235r19": 3.417663566993724,
+          "p235r20": 3.0020998529944336,
+          "p235r21": 2.5459576659995946,
+          "p235r22": 2.7942084850001265,
+          "p235r23": 2.9214466470002662,
+          "p235r24": 2.8144142610035487,
+          "p235r25": 2.718988476000959,
+          "p235r26": 3.3536023839988047,
+          "p235r27": 2.1655227380033466,
+          "p235r28": 2.8054000410047593,
+          "p235r29": 2.6573931599996286,
+          "p235r30": 2.6556225000022096,
+          "p236r02": 3.2317376579958363,
+          "p236r03": 2.7398939869963215,
+          "p236r04": 2.9187152059967048,
+          "p236r05": 2.3768756540011964,
+          "p236r06": 2.8955219609997584,
+          "p236r07": 2.9658847870014142,
+          "p236r08": 2.68468504500197,
+          "p236r09": 2.4876562240024214,
+          "p236r10": 2.177656357998785,
+          "p236r11": 2.5821647089978796,
+          "p236r12": 1.8769361650047358,
+          "p236r13": 2.167083961998287,
+          "p236r14": 2.9311219779992825,
+          "p236r15": 2.0842630449988064,
+          "p236r17": 2.114137174998177,
+          "p236r18": 3.025700728998345,
+          "p236r19": 2.5286443829972995,
+          "p236r20": 2.5992804130000877,
+          "p236r21": 2.639194494993717,
+          "p236r22": 2.71055098099896,
+          "p236r23": 2.329535203993146,
+          "p236r24": 2.351787916995818,
+          "p236r25": 3.3420586159991217,
+          "p236r26": 2.814632319001248,
+          "p236r27": 2.3685997120046522,
+          "p236r28": 2.511132653999084,
+          "p236r29": 3.0473972680047154,
+          "p236r30": 1.6578741789999185,
+          "p237r02": 2.4463731839932734,
+          "p237r03": 2.5837749159982195,
+          "p237r04": 2.1509747309974045,
+          "p237r05": 2.5990268050009036,
+          "p237r06": 2.2914996420004172,
+          "p237r07": 2.6952939960028743,
+          "p237r08": 2.0961752479997813,
+          "p237r09": 1.740299513003265,
+          "p237r11": 2.5742865960055497,
+          "p237r12": 3.1572510480036726,
+          "p237r13": 2.1782575550023466,
+          "p237r14": 2.9374741160063422,
+          "p237r15": 2.3617392649975955,
+          "p237r16": 1.599517285998445,
+          "p237r17": 2.9233918500030995
+        },
+        "tesseract_regions": {
+          "p234r07": 0.19595172699337127,
+          "p234r09": 0.20381066700065276,
+          "p234r10": 0.18343824899784522,
+          "p234r25": 0.2338730370029225,
+          "p234r26": 0.2521676479955204,
+          "p234r30": 0.25458457299828297,
+          "p235r07": 0.2468741710035829,
+          "p235r08": 0.2695112750006956,
+          "p235r11": 0.2449684770035674,
+          "p235r14": 0.1961061769980006,
+          "p233r18": 0.20175592500163475
+        },
+        "reason": "Qwen512-token bounded plain BASIC crops. Preassign ten repeated dash/equal/plus rule-string crops to Tesseract based on prior repetition failures; retain all ten original columns. Every source row, printed Hangul split and literal rule count needs source review. No prose probe in code-only continuation."
+      },
+      "qwen_recognition_seconds": 288.2475813279816,
+      "tesseract_recognition_seconds": 2.4830419259960763,
+      "assignment_reason": "Qwen512-token bounded plain BASIC crops. Preassign ten repeated dash/equal/plus rule-string crops to Tesseract based on prior repetition failures; retain all ten original columns. Every source row, printed Hangul split and literal rule count needs source review. No prose probe in code-only continuation.",
+      "listing_audit": {
+        "physical_rows": 571,
+        "numbered_rows": 369,
+        "numbered_spans": [
+          [
+            220,
+            930
+          ],
+          [
+            1000,
+            1060
+          ],
+          [
+            1100,
+            1260
+          ],
+          [
+            1300,
+            1670
+          ],
+          [
+            1700,
+            1720
+          ],
+          [
+            2000,
+            2580
+          ],
+          [
+            3000,
+            3750
+          ],
+          [
+            3800,
+            3840
+          ],
+          [
+            3900,
+            3930
+          ],
+          [
+            4000,
+            4150
+          ],
+          [
+            5000,
+            5140
+          ],
+          [
+            6000,
+            6200
+          ],
+          [
+            7000,
+            7300
+          ],
+          [
+            9000,
+            9040
+          ]
+        ],
+        "first_numbered_line": 220,
+        "last_numbered_line": 9040,
+        "unreadable_spans": 1,
+        "graphic_placeholders": 0,
+        "source_fields_private": true,
+        "scope": "Ten original columns retained. Printed wraps, split Hangul and unequal rule lengths retained. One uncertain partial glyph marked unreadable. Source encoding/monospacing and executable bytes not certified."
+      },
+      "correction_raw_overlap": {
+        "correction_seconds": 730.48139,
+        "raw_overlap_seconds": 313.26002500000004,
+        "scope": "127 source crops, physical BASIC wraps/split Hangul/rule counts, raw-derived draft correction, status/context recovery and helper/index preparation. Includes user status response. Export/evaluation/assembly separately measured. No per-engine paid attribution."
+      },
+      "post_failure_route_change": {
+        "reason": "Length-only same-crop fallback after512-token cap; no successful crop repeated.",
+        "failed_regions": [
+          "p233r18"
+        ]
+      },
+      "initial_assignment": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-46/checkpoint-plan-before-fallback.json",
+        "sha256": "e8728bbcb210c00f524e25f3d3cddb40054aeb43de2043438848c27e48e6bbbd",
+        "bytes": 2073
+      },
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Qwen512-token bounded plain BASIC crops. Preassign ten repeated dash/equal/plus rule-string crops to Tesseract based on prior repetition failures; retain all ten original columns. Every source row, printed Hangul split and literal rule count needs source review. No prose probe in code-only continuation."
+      }
     }
   ],
   "assemblies": [
@@ -16314,6 +16696,69 @@
         "listing_bytes_unchanged": true,
         "all_logical_rows_partition_physical_evidence": true,
         "cross_segment_boundaries_linked": true,
+        "source_segments_immutable": true
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0033",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/12-1984-07-comparison/cashbook/article.json",
+        "sha256": "c799ce083d2f59f9d13a76adbec4bc9a5e273d5677ceabcd21922e475257808d",
+        "bytes": 437464
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-07-comparison/cashbook/manifest.json",
+        "sha256": "a9f9959fcb8b577ed222da7e3304cf78d546b00f1436e22239ae2bfe3a39175d",
+        "bytes": 191869
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/cashbook-assembly-recipe.json",
+        "sha256": "e9220c3317d312985c37868c7c5f0dd5d0fae995de674499ec10e87da65adb33",
+        "bytes": 2373
+      },
+      "pdf_pages": [
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "segments": [
+        {
+          "name": "cashbook-opening",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-45/cashbook-opening/manifest.json",
+            "sha256": "8af35a1de5978d28574676fb08407ea64f9dbdbb96e4ddc9952881b6d7c96a8d",
+            "bytes": 77658
+          }
+        },
+        {
+          "name": "cashbook-ending",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-46/cashbook-ending/manifest.json",
+            "sha256": "917cce69c071b1c417dbae41219489e0c21d44150660b9dc54ce10094721a38b",
+            "bytes": 87643
+          }
+        }
+      ],
+      "regions": 253,
+      "figures": 12,
+      "unresolved_entries": 75,
+      "listing_representation_rows": 611,
+      "numbered_basic_lines": 399,
+      "unreadable_spans": 1,
+      "human_acceptance": "pending",
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "listing_bytes_unchanged": true,
+        "all_logical_rows_partition_physical_evidence": true,
         "source_segments_immutable": true
       }
     }
@@ -18601,55 +19046,103 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 229,
-      "batch": "45",
+      "batch": "46",
       "engine": "mixed",
       "restoration": {
-        "path": "build/pdf-restoration/12-1984-07-comparison-batch-45/cashbook-opening/article.json",
-        "sha256": "abfae3e9782b1ee619c0678840bfa6183c4bc6b4d2e66137303cab2bd542430e",
-        "bytes": 168378
+        "path": "build/pdf-restoration/12-1984-07-comparison/cashbook/article.json",
+        "sha256": "c799ce083d2f59f9d13a76adbec4bc9a5e273d5677ceabcd21922e475257808d",
+        "bytes": 437464
       },
+      "assembly": {
+        "toc_entry_id": "maso-1984-07-toc-0033",
+        "engine": "mixed",
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison/cashbook/article.json",
+          "sha256": "c799ce083d2f59f9d13a76adbec4bc9a5e273d5677ceabcd21922e475257808d",
+          "bytes": 437464
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison/cashbook/manifest.json",
+          "sha256": "a9f9959fcb8b577ed222da7e3304cf78d546b00f1436e22239ae2bfe3a39175d",
+          "bytes": 191869
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/12-1984-07-comparison/cashbook-assembly-recipe.json",
+          "sha256": "e9220c3317d312985c37868c7c5f0dd5d0fae995de674499ec10e87da65adb33",
+          "bytes": 2373
+        },
+        "pdf_pages": [
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237
+        ],
+        "segments": [
+          {
+            "name": "cashbook-opening",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-45/cashbook-opening/manifest.json",
+              "sha256": "8af35a1de5978d28574676fb08407ea64f9dbdbb96e4ddc9952881b6d7c96a8d",
+              "bytes": 77658
+            }
+          },
+          {
+            "name": "cashbook-ending",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-46/cashbook-ending/manifest.json",
+              "sha256": "917cce69c071b1c417dbae41219489e0c21d44150660b9dc54ce10094721a38b",
+              "bytes": 87643
+            }
+          }
+        ],
+        "regions": 253,
+        "figures": 12,
+        "unresolved_entries": 75,
+        "listing_representation_rows": 611,
+        "numbered_basic_lines": 399,
+        "unreadable_spans": 1,
+        "human_acceptance": "pending",
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "listing_bytes_unchanged": true,
+          "all_logical_rows_partition_physical_evidence": true,
+          "source_segments_immutable": true
+        }
+      },
+      "assembly_required": false,
       "restored_pdf_pages": [
         229,
         230,
         231,
-        232
-      ],
-      "covered_pdf_pages": [
-        229,
-        230,
-        231,
-        232
-      ],
-      "partial_pdf_pages": [],
-      "deferred_pdf_pages": [
+        232,
         233,
         234,
         235,
         236,
         237
       ],
-      "assembly_required": true,
-      "segments": [
-        {
-          "batch": "45",
-          "engine": "mixed",
-          "package": {
-            "path": "build/pdf-restoration/12-1984-07-comparison-batch-45/cashbook-opening/article.json",
-            "sha256": "abfae3e9782b1ee619c0678840bfa6183c4bc6b4d2e66137303cab2bd542430e",
-            "bytes": 168378
-          },
-          "pdf_pages": [
-            229,
-            230,
-            231,
-            232
-          ],
-          "partial_pdf_pages": []
-        }
+      "covered_pdf_pages": [
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
       ],
-      "planned_primary_engine": "mixed"
+      "partial_pdf_pages": [],
+      "deferred_pdf_pages": []
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0034",
@@ -19069,7 +19562,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 238
+      "pdf_page_candidate": 238,
+      "planned_primary_engine": "mixed"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0041",
@@ -19366,12 +19860,17 @@
       "path": "docs/ocr-july-comparison-43.json",
       "sha256": "5d60d2383e15845434e47c04018f452210ff4fdabbbaababbf32b6381eecc3e4",
       "bytes": 12190
+    },
+    {
+      "path": "docs/ocr-july-comparison-44.json",
+      "sha256": "067323e0bc5164e4f7c29a65496410bbf977176b2eaa1da1245f9c705ed9bbdd",
+      "bytes": 11788
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "cef771cb99b4134b2ef5888849065ea4205539b695b65a06758b12442afc33d4",
-    "bytes": 171498
+    "sha256": "5c36b21be17f7769087fa62dc57f3255157bc47f1cc6677d18879aea46671495",
+    "bytes": 163841
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -19380,22 +19879,19 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0033",
-      "title": "금전출납부 — remaining listing",
+      "toc_entry_id": "maso-1984-07-toc-0040",
+      "title": "복덕방",
       "candidate_pdf_pages": [
-        233,
-        234,
-        235,
-        236,
-        237
+        238,
+        239
       ],
       "engine": "mixed",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Qwen bounded plain BASIC; Tesseract repetitive graphic/rule literals only where inspection warrants. Retain every original column and human flags for split Hangul.",
-      "extent_status": "Verified full229–237; opening229–232 complete.233 starts220,237 ends9040 above separate advertisement;238 starts classified section."
+      "routing_reason": "Inspect multi-column classified layout and contact/numeric fields. Probe ordinary prose; route dense/tiny mixed fields to Qwen and clean headings/repetitive rules to Tesseract. Keep original source blocks.",
+      "extent_status": "238 opening verified. Confirm239 end and240 Q&A boundary before mapping."
     }
   ],
-  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Batch14 FC-100 game uses Qwen with one Tesseract fallback and explicit graphic placeholders; a silent nine-line omission was source-corrected. Batch15 completes59–61 with planned Tesseract prose and Qwen definitions/code; two Qwen partial responses were source-corrected. Batch16 completes62–67 with planned5 Tesseract/34 Qwen crops; interrupted run resumed without repeating completed inference. Original Tesseract timers and interrupted inference cost unknown. Source review restored ten wholly omitted lines plus two partial tails. Batch17 completes70–72 with planned5 Tesseract/39 Qwen crops,127 logical BASIC rows and231 physical rows. A single-digit continuation omission was restored; faint punctuation and source anomalies remain flagged. No retry or fallback; per-crop timers persisted. Batch18 completes73–77 with141 BASIC lines and36 hex rows; source700 remains explicitly unreadable in part. Two143 interruptions retained with successful cache reuse and bounded raw elapsed; silent five-line omission restored. Batch19 completes78–80 with87 BASIC lines and84 hexadecimal DATA fields. Planned17 Tesseract/25 Qwen crops completed without retry; Tesseract graphic-heavy code needed extensive repair. Glyph runs remain scan-linked markers, one faint2200 character unreadable. This preassigned exception is not established as efficient. Batch20 completes81–86 with246 BASIC lines,90 numeric DATA fields and420 CHR$ hex fields. Planned4 Tesseract/74 Qwen selected crops; seven changed page83 crops rerun after widened boundaries, original74+new7 Qwen costs retained. Sparse graphic literals did not loop, but multiple lines/repeated CHR$ terms were silently omitted and source-restored. Graphic encoding remains unresolved. Batch21 completes88–92 with20 Tesseract/79 Qwen crops,5 BASIC rows,13 hex rows,13 assembly rows and2 patch rows. Source contradictions retained; Qwen normalized1482 heading, confused circled tape labels and split assembly columns. Four fixed samples split: Tesseract wins prose/assembly order, Qwen wins numeric table/hex. No retry; no causal paid savings claim. Batch22 completes94–97 with9 Tesseract/68 Qwen crops,29 Logo procedure rows,5 console rows and3 graphics. One exit143 resumed after46 successes; all Tesseract timers retained, raw bounded and interrupted usage unknown. Prefix quotes and historical wording source-restored; original Logo spelling/value discrepancies retained. Four fixed samples favor Qwen, but ordinary procedure Tesseract scores are also low. Batch23 completes98–100 with7 Tesseract/39 Qwen crops,57 BASIC lines/107 physical rows and3 diagrams. No retry or missing numbered rows observed. HPLOT, colon and Hangul errors source-corrected; source references/legend discrepancies and faint4040 mark retained. Four comparison21 samples favor Qwen; Tesseract eng code configuration limits interpretation of the Hangul-bearing sample. Batch24 restores the CP/M opening101–106 with14 Tesseract/125 Qwen crops,47 console/comment/assembly rows and3 figures. Batch25 completes107–113 with13 Tesseract/186 Qwen crops,102 physical console rows including9 assembly statements,4 figures and38 flags. The full101–113 CP/M article is assembled with149 listing rows and7 figures. No retry in25; source TEMP.$$$, comment markers and original technical anomalies restored/retained. Four comparison23 samples favor Qwen; fixed references are unblinded and typography-sensitive. All four comparison22 samples favor Qwen; Tesseract gray-background prose failed despite ordinary content. Qwen reversed power-off to power-on and modernized source wording, repaired against scans. Exclude contaminated raw wall time after erroneous recovery and evidence repair; clean recognition-speed claims also unsupported. Batch26 restores Z80 lesson119–123 as a partial segment with2 Tesseract/98 Qwen crops,50 assembly/example rows and4 figures. No retry. Qwen merged ORG/addressed rows and lost LD B,26D; source row associations restored. Original arithmetic contradictions and blank final853D mnemonic retained. Comparison24 favors Qwen prose/assembly but Tesseract arithmetic layout; graphic-divider transcription affects CER. Full extent119–127 verified,128 next article title. Batch27 completes124–127 with122 regions,3 original images including both opcode tables,32 opcode rows,37 listing rows and32 flags. Two Qwen length-limit failures led to same-crop Tesseract fallbacks and17 remaining unattempted opcode rows rerouted; final25 Tesseract/94 Qwen. Raw wall span includes recovery preparation and is not a clean speed sample; all failed usage retained. Full119–127 lesson assembled with226 regions,7 figures and87 assembly/example rows; source bytes/review ranges verified. Damaged table expression and listing address digit unresolved. Batch28 restores full graphics128–134 with167 regions,9 images,135 BASIC lines/154 physical rows,45 DATA records and37 flags. Color-table Qwen tab repetition hit4096 tokens; one Tesseract fallback plus two remaining unattempted ruled tables switched, final13 Tesseract/145 Qwen. Both attempt lifespans measured, no completed inference repeated. Source DATA row alignment, scores/names and isolated I/0 continuations restored; original duplicate17/missing11 and prose/code inconsistencies retained. Batch29 completes Apple FORTRAN137–142 with123 regions,14 images,73 FORTRAN source rows,115 physical listing rows,80 numeric-output cells and31 flags. Two bounded Tesseract probes led to94Qwen/15Tesseract crops; explicit eng override on numeric output. One exit143 interrupted p140r16;70 Qwen successes reused unchanged, no route change. Raw232.60–355.95s bounded, interrupted response usage incomplete, completed-response local38558-token lower bound. Compiler row associations, handwritten glyphs and COLUMMN restored; source mistakes/faint screen3 retained for human review. Batch30 restores Information Radar domestic section143–148:152 regions,145 text,7 images,16 news items plus1 notice,21 table cells,31 flags. Preassigned108Tesseract/37Qwen; same-crop table probe reused without duplicate call. Raw worker128.97s, successful recognition87.35s Qwen/15.28s Tesseract includes0.205s reused probe incurred during setup. No retry/fallback. Source anomalies and duplicate notice bullet retained; internal news continuations joined. Batch31 restores foreign149–153 with156text regions,13 complete items plus partial GaAs SISFET and37flags.39T/117Q, separate rejected headline probe0.119s. One SIGTERM after78 Qwen successes, all reused unchanged, no route change. Both raw attempts measured300.408s; interrupted response usage unknown, completed local47950-token lower bound. Printed identifiers, count contradictions and decimal uncertainty retained. Batch32 restores final154–157 with118regions,117text,one diagram and32flags.52T/65Q; oneSIGTERM after48 successes, reused unchanged; raw181.764s measured, completed local26183-token lower bound. Full Information Radar143–157 assembled:426regions,418text,8images,36news+1notice,21tablecells,100flags. Explicit153/154 continuation and all source review ranges verified. Batch33 completes VISICALC/VISIPLOT164–168 with135regions122text13images,116physical command/annotation rows,63table numeric cells and35flags.29T/93Q after rejected0.333s English T table probe; same probe reused only as fixed alternate, no duplicate T inference. Q table63 values match source; row/column coordinates and layout restored. OneSIGTERM after41 saved successes, all reused, no route change; raw209.267s measured, completed local35535-token lower bound. Original VISIPOLT/MATN/LIVE/SERLES5 and circled/boxed typography retained. Batch34 completes data structures169–174 with170regions148text22images,107PL/I rows10procedures36flags.38T/110Q; oneSIGTERM after59savedQ crops reused, plus4.793s startup-only failed recovery before interrupted-request archival. Three raw worker lifespans266.105s, no completed inference repeated; interrupted p172r30 usage unknown. Original CREAT/ADDS/DELETES, R(I)=Y, PL/A, duplicated prose and faint LINK(R+I)) / DELETEQ glyphs preserved or flagged. Four comparison32 samples: Q wins introductory prose and both code crops; technical prose tie0%. Batch35 completes UNIX175–181;182ad/183divider excluded.187regions178text9images,77outline rows76numbered entries,7model/memorypairs36flags.80T/98Q fixed; first pass complete, then5 page177 crops widened and rerun,93Q/80T unchanged reused. All103 Q calls and both raw lifespans225.644s retained. Original Entory, CEC and 유동소숫정 preserved. Batch36 restores hardware opening195–200, full195–206 verified;201–206 deferred.155regions140text15images,5KEY rows,3tables20rows200cells37flags.32T/108Q fixed, startup-only SIGTERM then all32T reused; no Q interrupted, raw205.984s and exact34774local tokens. Comparison34 Qwen wins four CER samples but truth-table alternate silently returns8/10rows13/14columns and wrong headers; neither engine provides a reliable table. Printed keyboand/keyboud,6진 and repeated captions retained; original READ table clipped. Batch37 completes201–206 with207regions199text8images50flags,286 numbered monitor rows plus2 LOOP rows and37 table rows74cells(one blank). Fixed29T170Q; single raw458.051s, no retries/fallbacks. Source field omissions and tiny code labels/addresses restored, original CTINT/CASETTE/CHARACTER0BIT and incomplete PROM64 ending retained or flagged. Full195–206 hardware tutorial assembled:362regions339text23images87flags,293 listing rows and274 table cells. Comparison35 Qwins memory rows and both code crops, ordinary introductory prose tie0%; native-column references avoid export layout penalties. Batch38 restores complete contest commentary207,208 separate submission notice excluded,209 Yut start verified.36text crops28T8Q13flags. Single raw29.036s, exact2957local tokens, no retries/fallbacks. Ordinary T Korean prose produced Latin fragments; source 컬럼버스 and 규면/규민 difference preserved. Comparison36Qwinsall4, but two 윷 glyph errors remain in its prose sample. Correction116.263s with18.317s raw overlap; no causal paid savings claim. Batch39 restores Yut209–211 as partial of verified full209–214;215 begins Apple Thief.65regions61text4images29flags,40address-description rows80cells,82hexrows651byte fields plusmonitor command. Rejected0.235s T prose probe leads fixed5T56Q; same probe reused only as alternate. One terminal143 after16Q successes, all5T reused; interrupted p209r22 usage unknown, rawtwo lifespans172.563s and completedlocal20544-token lower bound. Qwinsall4 comparison37 samples but 윷/O/0/B/8 and duplicated0A30 byte field source-corrected. Source address-range and message discrepancies retained. Batch40 restores212–214 dense hex136regions127text9images49flags;750visible rows5993fieldslots5991transcribed2ILLEGIBLE. Source lacks1CC0/1F60 rows(16bytes);1CB8 clipped, no missing-byte invention. Single raw666.379s, exact53547local tokens,no interruption/retry. Corrected O/0/B/8, omitted/shifted/extra fields, duplicate addresses and assistant draft readings through source inspection. Full Yut209–214 assembled201regions188text13images78flags,833listing rows including832hexrows6644slots6642transcribed2unreadable. Complete source article, incomplete printed program. Comparison38Qwins4fixed hex samples, no causal paid savings claim. Batch41 restores Apple Thief215–217 opening of verified215–224,225nexttitle.96regions92text4images32flags,33variable rows40outline rows146cells,27BASIC lines60physicalrows10–270;270continues218. Original YB/YB,US,933/930,Aplle and provisionalSohool/PLAY150 preserved; graphic literals are scan-linked editorial markers. Initial7T85Q after rejected0.270s prose probe;SIGTERM after61Q+7T, all reused. Decorativeheader p217r23 then repeatsasterisks to4096limit;oneTfallback andtwo adjacent unattempted headersT. Final10T82Q, remaining short code512cap clean. Three measuredrawlifespans325.483s, failedcompute125.955s, local34263lowerbound includes4435failed;interruptedrequestusageunknown. Correction582.581s overlaps315.663s, includes source review/recovery/draft rechecks. Comparison39Qwinsall4 but failedheader excluded fromaccuracy samples and included incost. Batch42 restores218–220 with92regions86text6images70flags,386physicalrows132numbered280–1590 plus2initial270continuations,63graphicmarkers and1unreadable source span. One raw297.048s;85Q1T after512-token graphic-repeat failure,failedcompute15.226s, exact38778localtokensincludes891failed. Four successful responses silently omit statement text neargraphics; restored fromsource. Source370 assistantdraftrepair, originalR.1/IF-ELSE anomalies andproseJ/codeL retained. Correction740.656s overlaps256.709s. Comparison40Qwins4ordinarycode samples;two sampleIDs revisedbefore sealing/alternates toexcludeglyphs,notfullypreselected. Batch43 restores221–224:117regions109text8images63flags,199numbered1600–3580,494representationrows67glyphmarkers and96DATArows1152fields/3unreadable digits. Two graphic failures yield105Q4T; raw409.224s, failedcompute30.172s, exact50111local tokens. No restart/interruption; original live session confirmed. FullAppleThief215–224 assembled305regions287text18images165flags,358numbered lines940representationrows, explicit270/1590 boundarylinks and byte-identical listing concatenation. All76assembly tests pass. Batch44 completes Table Tennis225–228:100regions94text6images38flags,143 numbered lines302representationrows,51DATA statements552commafields553numeric tokens with one missing source comma retained. Final69Q25T after one512failure; raw235.598s exact30460localtokens, failedcompute15.170s. Two successful plain IF crops silently omit suffixes; source-restored. Four exploratory comparison42 samples favorQwen. Correction868.011s overlaps222.939s raw; accepted0.245s Tproseprobe reused once outside rawworker. Batch45 restores Cashbook229–232 opening of verified229–237:116regions114text2images27flags,30variable entries23program ranges and30numbered BASIC lines40physicalrows. Initial and final16T98Q; rejected Tproseprobe reused only as alternate. Original SIGTERMconfirmed then26Q/16T reused; two clipped date-format crops revised with old costs retained. Two rawlifespans276.996s,43215completed-local-token lowerbound, interrupted p230r15 usage unknown. Correction637.291s overlaps267.215s. Comparison43Qwinsall4 fixed samples including splitHangul code, Q4.41vsT47.06percent. Source wording/range2141 and missing-looking listingdelimiter retained. July31complete1partial4untouched; next233–237listing then full229–237assembly. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
+  "decision": "July32 complete article bodies,0partial,4untouched; all human acceptance pending. Cashbook229–237 fully assembled from immutable45/46 segments:253regions241text12images75flags,399numbered BASIC lines611physical rows, one unreadable partial Hangul glyph. Batch46 initial117Q10T ends116Q11T after one512-token repetitive-dot fallback; SIGTERM recovery reused34Q/10T successes. Raw341.445s; completedlocal48489-token lower bound includes839failed, interruptedrequestusageunknown. Correction730.481s overlaps313.260s. Qwen wins all four preselected comparison44 samples but source review corrected omissions, punctuation and a reversed negative sentence. Next verify/restore classified section238–239, Q&A240, computer-industry history243 and advertising index262. Continue provisional routing; repeated punctuation can also fail at512 cap. Final issue metrics and reading room follow complete article restoration. Per-checkpoint measurements, source pins and historical limitations remain in checkpoints/assemblies; cleaner raw OCR does not establish causal paid-token savings.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition is normally nested and must not be added again. Batch44 includes one0.244653s preflight prose probe in recognition outside its raw-worker lifespan. Batch30 includes one0.205s preflight table probe in its recognition sum but outside its measured raw-worker lifespan; count that reused inference once.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

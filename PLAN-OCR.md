@@ -1960,3 +1960,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Export/rebuild/UTF-8/listing checks pass. July31 complete,one partial,four untouched.
   Next233–237 listing,then assemble229–237. Final metrics and reading room pending;
   all human acceptance remains pending and final reporting usage carries forward.
+
+### July Cashbook complete, 2026-10-12
+
+- Restored remaining233–237 and assembled full229–237:253 regions,241 text crops,
+  12 original columns,75 flags;399 numbered BASIC lines across611 physical rows.
+  Both immutable segments and literal physical wraps are preserved. One partial
+  Hangul glyph remains unreadable; human proofreading and encoding review pending.
+- Batch46 initially117Q/10T; a dotted prompt hit512 tokens and used Tesseract,
+  final116Q/11T. Terminal143 confirmed before resume;34 Q stages and10 T crops
+  reused. Raw two-lifespan341.445s;48,489 captured local tokens is a lower bound,
+  including839 failed tokens. Interrupted request usage unknown.
+- Correction730.481s overlaps313.260s raw. Paid107,664 uncached/3,206,400 cached
+  input and23,864 output (including5,528 reasoning). Source inspection, draft
+  edits, status recovery and helper preparation included; export/evaluation/
+  assembly separate. No causal paid-token saving claim.
+- Qwen wins four preselected comparison44 samples, but source review corrected
+  omissions, punctuation and a reversed negative sentence. Add dotted prompt
+  runs to repetition-risk routing; retain bounded fallback and source review.
+- Export/rebuild/UTF-8/listing concatenation/source-pin checks pass. July32 complete,
+  zero partial,four untouched. Next classified238–239 boundary verification, then
+  Q&A,industry history and advertising index. Final metrics/reading room pending.
+  Reporting/commit usage after the audit cutoff carries forward.

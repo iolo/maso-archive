@@ -698,3 +698,20 @@ A source-reviewed raw-derived draft with explicit edits can avoid retranscribing
 unchanged passages. It still requires inspection of every source crop, explicit
 joins, separate raw evidence and honest uncertainty. This workflow choice does
 not itself prove lower paid-token cost across different article types.
+
+### July batch46: repeated punctuation and successful-output omissions
+
+Treat dotted prompt runs as repetition risks alongside decorative dash/equal/
+plus/asterisk borders. A512-token cap bounded one dotted-string failure, followed
+by a same-crop Tesseract fallback. Preserve its native response, usage and compute
+measurement. Preassigned Tesseract regions remain distinct from fallback regions.
+
+A successful Qwen response can omit a wrapped variable or change the polarity
+of a Korean sentence. Source-review every crop, including ordinary BASIC, and
+retain the original columns. Count literal rule lengths from source; similar
+borders need not have identical counts. Printed Hangul jamo spanning rows require
+explicit flags, and an uncertain partial glyph should remain unreadable.
+
+For comparison crops, choose Tesseract language from visible content: Latin-only
+code can use English, while code containing Korean REM/text needs Korean+English.
+Record this setting and avoid treating a few code crops as article-wide accuracy.

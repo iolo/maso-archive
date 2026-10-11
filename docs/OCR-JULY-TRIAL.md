@@ -2960,3 +2960,78 @@ Export integrity, byte-identical rebuild, listing coverage and UTF-8 ranges pass
 July now has31 complete bodies,one partial and four untouched. Next restore233–237
 and assemble the full cashbook article. Human acceptance, final issue-wide metrics
 and reading room remain pending.
+
+## Batch46: Cashbook completed and assembled, PDF229–237
+
+The final five listing pages233–237 are source-reviewed and joined with the
+immutable opening segment45. The full article has253 regions,241 text crops,
+12 original code columns and75 review flags. It includes399 numbered BASIC lines
+across611 physical rows. All usage instructions,30 variable entries,23 primary
+program ranges,two special notes,five error cases and five search formats are
+retained. Page238 begins the next section; the advertisement below the final
+listing is excluded.
+
+Batch46 alone contains137 regions,127 text crops,ten columns and48 flags.
+The original printed numbering runs220–9040 across369 numbered lines and571
+physical rows. The210/220 segment boundary needs no wrapped-line join.
+Source inspection repaired missing continuation text, a missing PRINT variable,
+O/zero errors, misplaced punctuation and a negative Korean sentence that Qwen
+had changed to a positive statement. Printed split Hangul remains represented
+with visible jamo. One partial glyph remains explicitly unreadable. Literal
+rule strings have unequal lengths; their private source-count audit retains
+both totals and physical row counts. No execution or encoded-byte claim is made.
+
+Initial routing was117Q/10T: Qwen for ordinary bounded BASIC and Tesseract for
+repeated dash/equal/plus strings. A dotted prompt string still reached the512-token
+cap and fell back to Tesseract, giving116Q/11T. The first worker returned terminal143;
+34 completed Qwen stages and all ten initial Tesseract crops were reused. No crop
+was revised and no successful inference was repeated. The interrupted request
+has no captured usage; the failed capped response remains in the lower bound.
+
+| Observation | Batch46 |
+| --- | ---: |
+| Sum of two raw worker lifespans, recovery gap excluded |341.445s|
+| Successful Qwen recognition, nested in raw time |288.248s|
+| Tesseract recognition, nested in raw time |2.483s|
+| Failed response server compute, nested in raw time |15.080s|
+| Completed local tokens, lower bound |48,489|
+| Included failed-response tokens |839|
+| Correction window |730.481s|
+| Correction/raw overlap |313.260s|
+| Paid uncached input in correction window |107,664|
+| Paid cached input in correction window |3,206,400|
+| Paid output, including reasoning |23,864|
+| Included reasoning output |5,528|
+
+Correction includes source inspection, draft edits, rule counts, status/context
+recovery, the user status response and helper/index preparation. Export,
+evaluation and assembly are separately timed. Raw and correction durations
+must not simply be added. These measurements do not establish causal paid-token
+savings from either engine.
+
+Four samples were selected before primary OCR, with source references sealed
+before alternate OCR. Compact CER in [comparison44](ocr-july-comparison-44.json):
+
+| Sample | Qwen | Tesseract |
+| --- | ---: | ---: |
+| p233r07 |3.64%|30.91%|
+| p234r03 |1.43%|17.14%|
+| p236r27 |0.00%|23.21%|
+| p237r12 |0.00%|23.86%|
+
+Tesseract uses English for the three Latin-only samples and Korean+English for
+the final sample containing a Korean REM. These unblinded assistant references
+are not human gold; the four crops do not measure the whole article's accuracy.
+Qwen wins all four, while the failed decorative crop remains in the cost record.
+
+Export integrity, byte-identical rebuilds, all review UTF-8 spans, immutable
+segment pins and complete physical/logical listing coverage pass. The assembled
+listing equals the exact concatenation of both segment listings. Assembly pins:
+article`c799ce083d2f59f9d13a76adbec4bc9a5e273d5677ceabcd21922e475257808d`,
+manifest`a9f9959fcb8b577ed222da7e3304cf78d546b00f1436e22239ae2bfe3a39175d`.
+
+July now has32 complete article bodies,zero partial and four untouched; human
+acceptance remains zero. Next: verify and restore the classified section238–239,
+then Q&A,computer-industry history and the advertising index. Issue-wide metrics
+and the authorized reading room follow restoration. The usage audit ends at
+2026-10-11T18:56:43.406010+00:00; subsequent reporting/commit usage carries forward.
