@@ -1020,3 +1020,30 @@ commit code/documentation. Do not count a partial opening as a complete article.
   and long hexadecimal listings; engine/sample assignment remains pending mapping.
 - Reading room was not rebuilt or restaged. Preserve user's homepage edit.
   Final reporting/commit tail is carried into the following cumulative usage audit.
+
+### July music-card hardware segment completed, 2026-10-11
+
+- Batch06 restores PIA 시리즈1 뮤직카드 hardware/construction section with
+  Tesseract: printed180–183/PDF184–187,49 regions,41 text crops,eight original
+  diagrams/photos and seven review flags. Boxed advertisement on185 excluded.
+- This is a partial body: software instructions, references and hexadecimal
+  listings PDF188–194 remain deferred. Full article assembly is still required.
+  Accounting distinguishes five complete articles,one partial article and six
+  checkpoints; partial segments do not increase completed-article counts.
+- Raw22.16s; recognition8.06s; correction/recording128.80s for2,803 non-whitespace
+  characters. Correction usage:10,395 uncached input,481,152 cached input,4,874
+  output tokens; zero cache-write. Setup/helper adaptations remain outside the
+  correction window. No raw inference retries; preparation schema error corrected
+  before the pinned OCR map was run.
+- Four preselected identical-PNG prose samples favor Qwen, using references sealed
+  from Tesseract-based correction before alternate Qwen inference. Evaluation cost
+  remains separate; no causal article-level paid-cost ranking follows.
+- Native integrity, included-region coverage, UTF-8 ranges, advertisement mask,
+  deferred-page metadata and byte-identical rebuild checks passed. Totals across
+  restored segments:16 source pages,210 regions,193 text regions,17 original
+  images,207 logical BASIC lines,42 review flags.37 TOC entries unfinished,
+  including the partial body;36 untouched. Human acceptance remains pending.
+- Next:map PDF188–194,assign engine/samples,restore remaining music-card content
+  and assemble with batch06. Reading room unchanged; user's homepage edit retained.
+  Reporting elapsed includes a brief interruption/resume, explicitly labelled;
+  raw/correction timers were already closed. Carry final commit tail into next audit.

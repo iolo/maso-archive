@@ -20,6 +20,7 @@ tables, mixed layouts, and longer listings:
 | 리뷰 살롱 | Tesseract | Seven book reviews | Restored; printed156–158 / PDF160–162 |
 | 합이 15 | Qwen | BASIC with introductory prose and grids | Restored; printed64–65 / PDF68–69 |
 | SPC-1000 음악기능과 명령어 | Qwen | Technical prose, table, formulas, BASIC and diagrams | Restored; printed47–51 / PDF51–55 |
+| PIA 시리즈1 뮤직카드 — hardware segment | Tesseract | Hardware prose, circuit/pinout diagrams and construction photos | Partial; printed180–183 / PDF184–187; PDF188–194 deferred |
 
 Both engines use 4,000-pixel page renders in this trial. Tesseract retains its
 pinned runtime, OEM1/PSM6 and one thread, with English for code and Korean+English
@@ -218,12 +219,77 @@ bodies across12 source pages:161 regions,152 text regions,nine original images,
 207 logical BASIC lines and35 review flags. Thirty-seven TOC entries remain pending
 restoration or heading classification. No reading-room rebuild or staging occurred.
 
+## Music-card hardware segment completed, 2026-10-11
+
+Batch06 restores the first four pages of PIA 시리즈1 뮤직카드 with Tesseract:
+printed180–183/PDF184–187. The49 regions contain41 text crops and eight original
+diagrams/photos. The boxed kit-sales advertisement on PDF185 is explicitly
+excluded and masked before OCR. Diagram labels remain in source images; they are
+not claimed as searchable transcriptions or included in accuracy samples.
+
+This is a **partial article**, ending after the hardware construction instructions.
+The software instructions, references and hexadecimal listings on PDF188–194
+remain deferred. The package records all11 article pages, the four included pages,
+the seven deferred pages and the need for full assembly. No listing lines are
+claimed by this segment. Progress accounting now distinguishes complete articles
+from partial bodies and checkpoint counts.
+
+| Observation | Tesseract music-card hardware |
+| --- | ---: |
+| Source pages | 4 |
+| Raw stage, including render/validation/export | 22.16s |
+| Recognition calls, contained in raw stage | 8.06s |
+| Correction and recording window | 128.80s |
+| Corrected non-whitespace characters | 2,803 |
+| Observed uncached, non-write input tokens in correction window | 10,395 |
+| Observed cached input tokens in correction window | 481,152 |
+| Observed output tokens in correction window | 4,874 |
+
+Correction includes scan inspection, regional text, joins and review records;
+the export helper was reused. Its date handling and partial-progress accounting
+were adapted during setup, outside correction. Cache-write tokens were zero.
+Tesseract's raw draft repeatedly confused IC with10 and replaced Korean words
+with Latin fragments. Those errors were corrected against the scans. Printed
+씨리즈, 실예 and schematic inconsistencies are retained, with seven review flags.
+
+The four samples were selected before OCR and their Tesseract-derived references
+sealed before alternate Qwen inference. Both engines received identical PNGs.
+
+| Crop | Content | Qwen compact CER | Tesseract compact CER |
+| --- | --- | ---: | ---: |
+| p184r04 | Music-card capabilities | 0.00% | 4.92% |
+| p186r05 | PSG explanation | 0.00% | 14.40% |
+| p186r11 | Sound-control explanation | 0.55% | 2.76% |
+| p187r05 | PIA pin-range explanation | 2.72% | 4.08% |
+
+All four favor Qwen raw text, including references prepared from Tesseract drafts.
+They remain unblinded assistant readings rather than independent human gold.
+Alternate Qwen startup/inference is evaluation overhead, not part of the22.16s
+Tesseract raw stage. This four-page illustrated segment contains much less text
+than the five-page SPC article, so its lower correction totals do not establish
+an engine cost advantage. Different content, crop sizes, context and retained
+figures still confound article-level comparisons.
+
+Native integrity, complete coverage of the included regions, UTF-8 ranges and
+byte-identical rebuild checks passed. The exclusion mask and partial/deferred
+coverage metadata were also checked. Across six checkpoints, July now has five
+complete bodies and one partial body over16 source pages:210 regions,193 text
+regions,17 original images,207 logical BASIC lines and42 review flags. Thirty-seven
+TOC entries remain unfinished, including this partial body;36 are untouched.
+
+The cumulative audit carries forward prior reporting/commit responses. Overnight
+calendar gaps are not active work. The reporting window for this checkpoint also
+spans a brief user interruption/resume and is labelled accordingly; raw OCR and
+correction timings had already been closed and are unaffected. No reading-room
+rebuild or staging occurred.
+
 ## Evidence and continuation
 
 - [Issue progress and package pins](ocr-july-progress.json)
 - [Four matched crop comparisons](ocr-july-comparison-01.json)
 - [Six reverse-assignment crop comparisons](ocr-july-comparison-02.json)
 - [Four technical/table crop comparisons](ocr-july-comparison-03.json)
+- [Four hardware-prose crop comparisons](ocr-july-comparison-04.json)
 - [Assistant usage by work window, including shared overhead](ocr-july-usage.json)
 - Private queue, maps, raw evidence, corrections and scripts:
   `private/pdf-restoration/12-1984-07-comparison/`
@@ -232,6 +298,7 @@ restoration or heading classification. No reading-room rebuild or staging occurr
 - New packages: `build/pdf-restoration/12-1984-07-comparison-batch-03/review-salon/`
   and `build/pdf-restoration/12-1984-07-comparison-batch-04/sum15/`
 - Technical article: `build/pdf-restoration/12-1984-07-comparison-batch-05/spc1000-music/`
+- Partial hardware segment: `build/pdf-restoration/12-1984-07-comparison-batch-06/music-card-hardware/`
 
 The usage audit reads only local `token_usage_record` rows, deduplicates response
 IDs, rejects overlapping windows, and preserves unknown fields as null. Cached
@@ -252,10 +319,10 @@ PYTHONPATH=src:. python3 -m tools.pdf_restore.usage \
   --output /tmp/july-usage.json
 ```
 
-Next: map PIA 시리즈1 뮤직카드, then fix its engine and samples before inference.
-Initial contact-sheet inspection places it on PDF184–194, with an embedded
-advertisement and several pages of hexadecimal data. Detailed boundaries, printed
-page labels and crop maps still need inspection. Keep setup outside correction windows.
+Next: map the remaining PIA 시리즈1 뮤직카드 software instructions, references
+and listings on PDF188–194, then fix the next segment’s engine and samples before
+inference. Preserve the completed hardware segment and assemble the full article
+after all pages are restored. Keep setup outside correction windows.
 The cumulative usage audit now includes earlier reporting/commit responses through
 the new cutoff; gaps remain visible and calendar spans are not active work time.
 Preserve earlier packages and commit each checkpoint. Reading-room work remains

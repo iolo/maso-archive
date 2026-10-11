@@ -5,7 +5,10 @@
   "objective": "Choose OCR by content using paid-model usage and elapsed restoration work; local GPU cost excluded from the decision.",
   "canonical_toc_entries": 42,
   "completed_article_bodies": 5,
+  "partial_article_bodies": 1,
+  "completed_checkpoints": 6,
   "remaining_toc_entries": 37,
+  "untouched_toc_entries": 36,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -420,6 +423,90 @@
         "raw-05",
         "correction-05",
         "export-05"
+      ]
+    },
+    {
+      "batch": "06",
+      "toc_entry_id": "maso-1984-07-toc-0027",
+      "title": "PIA 시리즈1 뮤직카드",
+      "engine": "tesseract",
+      "printed_pages": [
+        180,
+        181,
+        182,
+        183
+      ],
+      "pdf_pages": [
+        184,
+        185,
+        186,
+        187
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-06/map.json",
+        "sha256": "2bc560aa923554e5a296d87b235d7367b8d5cbac62e0c08df530cfbdecf62033",
+        "bytes": 14974
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-06/music-card-hardware/article.json",
+          "sha256": "e922ca066cafc89ae492146028112936edfd9911a30f697ab1861d95e83dc35a",
+          "bytes": 73186
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-06/music-card-hardware/manifest.json",
+          "sha256": "d426bad977aec20c393d9375a632691dc60b48ff6f244769eee0720285162246",
+          "bytes": 29382
+        },
+        "source_pages": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "regions": 49,
+        "text_regions": 41,
+        "figures": 8,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 7,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 22.157032499000024,
+      "recognition_seconds": 8.056980138999961,
+      "local_qwen_tokens": null,
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-06/transcription-assistant.json",
+        "sha256": "eed7f170e51a3e2f3c78571c60418f0afd27d3de40faf33f7d0d993d54aae0b4",
+        "bytes": 9084
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T02:29:52.474523+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "eed7f170e51a3e2f3c78571c60418f0afd27d3de40faf33f7d0d993d54aae0b4",
+          "bytes": 9084
+        },
+        "method": "Assistant scan comparison from Tesseract draft; alternate Qwen text not seen."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 63,
+        "prose": 2647,
+        "title": 93
+      },
+      "work_window_ids": [
+        "raw-06",
+        "correction-06",
+        "export-06"
       ]
     }
   ],
@@ -1431,9 +1518,31 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-partial-human-pending",
       "pdf_page_candidate": 184,
-      "planned_primary_engine": "pending-inspection"
+      "batch": "06",
+      "engine": "tesseract",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-06/music-card-hardware/article.json",
+        "sha256": "e922ca066cafc89ae492146028112936edfd9911a30f697ab1861d95e83dc35a",
+        "bytes": 73186
+      },
+      "restored_pdf_pages": [
+        184,
+        185,
+        186,
+        187
+      ],
+      "deferred_pdf_pages": [
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "assembly_required": true
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0028",
@@ -2021,12 +2130,17 @@
       "path": "docs/ocr-july-comparison-03.json",
       "sha256": "f3af7a8a31b05a0d21786b9a792fd265334eaa46cbb2cfaae81f2314dec59f07",
       "bytes": 8650
+    },
+    {
+      "path": "docs/ocr-july-comparison-04.json",
+      "sha256": "e970238092e6ff3469c95e72487e4685645e2e6bdfc6513370d4c7fb578930a3",
+      "bytes": 8675
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "3ea9b56249c4026bdfca1f576db203befdf8067f9197ecb4fff58386deedbfcd",
-    "bytes": 16312
+    "sha256": "dbc621dc406d20e072819d970401a779fdcb62f00470252d3816640614af8f8c",
+    "bytes": 19603
   },
   "reading_room": {
     "action": "none",
@@ -2035,14 +2149,11 @@
   },
   "next_pair": [
     {
-      "title": "PIA 시리즈1 뮤직카드",
+      "title": "PIA 시리즈1 뮤직카드 — 프로그램과 목록",
       "engine": "pending-inspection",
-      "extent_status": "Contact-sheet inspection places body on PDF184–194, between section opener183 and next article195; verify detailed regions, printed pages and embedded advertisement exclusion before final engine assignment.",
+      "toc_entry_id": "maso-1984-07-toc-0027",
+      "extent_status": "Hardware segment PDF184–187 restored as batch06; map and inspect remaining PDF188–194 before assigning engine/samples. Full article assembly requires both segments.",
       "candidate_pdf_pages": [
-        184,
-        185,
-        186,
-        187,
         188,
         189,
         190,
@@ -2050,10 +2161,13 @@
         192,
         193,
         194
+      ],
+      "existing_segments": [
+        "06"
       ]
     }
   ],
-  "decision": "Technical table/formula evidence now joins both prose/code directions. Qwen handles this table well while the configured Tesseract whole-table PSM6 crop fails; different article lengths, layouts and correction overhead still prevent causal paid-cost savings claims. Continue with the music-card body.",
+  "decision": "Tesseract hardware prose now complements Qwen technical table/formula evidence. Four new fixed crops favor Qwen raw text; different contents, lengths and correction overhead still prevent causal paid-cost savings claims. Finish the partial music-card software/listing segment and assemble the complete body.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",
