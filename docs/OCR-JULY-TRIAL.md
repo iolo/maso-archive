@@ -2589,3 +2589,61 @@ ranges and byte-identical rebuild pass. July28 complete,1 partial,7 untouched,
 zero human accepted;174 unique pages,3,531 regions,3,343 text crops,188 images,
 930 flags. Next map and restore the remaining hex212–214, then assemble209–214.
 Full metrics/reading room remain pending; final report/commit usage carries.
+
+## July 윷놀이 complete — batch40 and assembly, 2026-10-12
+
+Restored remaining212–214 and assembled all209–214/printed205–210. Batch40 has
+136 regions,127 text crops,9 original column images and49 review flags. It contains
+750 visible hex rows with5,993 field slots:5,991 transcribed values and2 explicitly
+`[ILLEGIBLE]` fields. The last left-column row1CB8 is physically clipped. There
+are no printed1CC0 or1F60 rows before the following columns, so their16 bytes are
+absent source material, not OCR omissions to fill in.
+
+The complete article has201 regions,188 text crops,13 images,78 flags,40 address/
+description rows80cells and833 physical listing rows:one monitor command plus832
+hex rows. Its6,644 field slots contain6,642 provisional transcribed values and2
+unreadable fields, with the16 absent source bytes separately recorded. Source
+restoration covers the whole article; the printed program remains incomplete.
+No missing rows were invented, and no program was executed or technically repaired.
+
+All127 bounded strips were assigned to Qwen before inference. One uninterrupted
+raw run took666.379s, including rendering/startup/evidence export. Recognition was
+640.520s, nested within raw. Local usage is exact:53,547 tokens, comprising33,431
+prompt and20,116 completion. There were no retries, fallbacks or interrupted calls.
+
+Correction took1,062.358s, overlapping raw by640.973s. Observed paid-model usage:
+72,635 uncached input,6,249,088 cached input and30,162 output, including4,690
+reasoning tokens; zero cache-write. This includes literal field transcription,
+doubtful-glyph enlargement, correction of assistant first-draft misreadings and
+helper preparation. Assembly has its own window; the evaluation assistant window
+also includes assembly-helper preparation. These timings/tokens are observations,
+not an isolated engine-specific correction bill or causal savings estimate.
+
+| Fixed hex sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p212r02 data/glyph fields | 1.59% | 27.78% |
+| p212r18 mixed numeric fields | 5.56% | 52.38% |
+| p213r02 regular machine-code fields | 3.17% | 33.33% |
+| p214r32 final-page code | 3.97% | 26.98% |
+
+All four samples were fixed before OCR and use identical PNGs. Source-reviewed
+assistant references were sealed before Tesseract eng/PSM6 alternates; they are
+unblinded and not human gold. Compact CER ignores whitespace but counts O/0,
+addresses and field content. The physically clipped row is outside these samples.
+Alternate timing is evaluation overhead, with no second paid correction.
+
+Qwen preserves most structure but successful responses still shift fields, omit
+repeated values and add ninth fields. Examples include the shifted27/12 and lost23
+in the0DA0–0DC0 group, a missing0E field at0FD0, and extraC0 values at1500/1508/1518.
+Duplicated/misread addresses and O/0/B/8 substitutions also needed source review.
+Explicit source row/field counts caught these problems; patterns were not used to
+regenerate values. Several faint B/8 or0/C readings remain provisional, and the
+clipped1CB8 first six fields need human confirmation in addition to its two unknowns.
+
+All visible source rows are covered exactly once in the assembled listing. Source
+gaps, immutable segment pins, UTF-8 review ranges, export integrity and a
+byte-identical assembly rebuild pass. July now has29 complete bodies,0 partial,
+7 untouched and zero human acceptance;177 unique pages,3,667 regions,3,470 text
+crops,197 images and979 review flags. Next is 사과도둑215–224candidate;215 start
+verified, ending still to inspect. Full-issue metrics and reading room remain
+pending; final report/commit usage after the audit cutoff carries forward.

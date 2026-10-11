@@ -578,3 +578,21 @@ reused. Interrupted request usage is unknown, so completed local tokens are a
 lower bound. Four samples favorQwen, but repeated 윷 and O/0/B/8 errors plus one
 extra hex field still required source review. Field counts are audit checks, not
 permission to infer values or certify execution. Continue212–214, then assemble.
+
+July batch40 completes 윷놀이212–214 and assembles full209–214. All127 hex crops
+used Qwen without interruption/retry. Nine original columns contain750 visible
+rows; source lacks1CC0/1F60 and clips1CB8. Preserve two unreadable byte markers,
+six provisional clipped fields and16 absent source bytes. Do not infer missing
+rows from the address sequence. The full article has832 hex rows plus one command,
+13images78flags, with40 address-description rows. Human acceptance remains pending.
+
+Successful model responses can omit/shift repeated fields or add ninth fields
+without losing row count. Audit every visible field against the source, including
+addresses and B/8/O/0; keep uncertain readings explicit. Four fixed comparison38
+samples favorQwen, but substantial source review remains. Raw666.379s and correction
+1062.358s overlap640.973s; they are not additive or a causal paid-cost comparison.
+
+Full export/assembly integrity, source gaps, review/listing ranges, immutable
+segments and byte-identical rebuild pass. July29/36 bodies complete, no partials;
+next inspect 사과도둑215–224candidate. Consolidated metrics and reading room follow
+completion of the remaining seven bodies.

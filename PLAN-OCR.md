@@ -1820,3 +1820,24 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - July28complete,1partial,7untouched;174pages3531regions3343text188images930flags,
   zero human accepted. Next remaining hex212–214, then assemble209–214. Final
   metrics/reading room pending; reporting/commit usage carries to next audit.
+
+### July 윷놀이 complete, 2026-10-12
+
+- Restored remaining212–214 and assembled full209–214/printed205–210. Batch40:
+  136regions127text9images49flags,750 visible hex rows5993fieldslots;5991values
+  transcribed,2[ILLEGIBLE]. Original1CC0/1F60 rows absent,1CB8 physically clipped.
+- Full article201regions188text13images78flags,40address rows80cells,
+  833listing rows(1command+832hex),6644fieldslots6642transcribed2unreadable;
+  16absent source bytes never invented. Complete source restoration does not mean
+  complete executable program. Small ambiguous readings remain provisional.
+- All127crops Qwen, one uninterrupted raw666.379s;recognition640.520s nested;
+  exact53,547local tokens(33,431prompt/20,116completion), no retries/fallbacks.
+- Correction1062.358s overlaps640.973s raw.72,635uncached/6,249,088cached input,
+  30,162output incl4,690reasoning, zero cache-write; includes literal source
+  transcription, doubtful-field/assistant-draft rechecks and helper preparation.
+- Comparison38 Qwins4hex samples, but successful raw responses contain omitted,
+  shifted and extra fields plus address/glyph errors. No causal paid-savings claim.
+  Coverage, source gaps, listing/review ranges and byte-identical assembly pass.
+- July29complete,7untouched,no partials;177pages3667regions3470text197images979flags,
+  zero human accepted. Next 사과도둑215–224candidate;215startverified,ending not yet.
+  Final metrics/reading room pending; final reporting/commit usage carries forward.
