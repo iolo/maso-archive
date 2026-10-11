@@ -535,6 +535,116 @@
         "total_tokens": 895062,
         "uncached_nonwrite_input_tokens": 169044
       }
+    },
+    {
+      "id": "setup-07",
+      "stage": "mapping-and-preparation",
+      "engine": "shared",
+      "start": "2026-10-11T03:12:26.309163+00:00",
+      "end": "2026-10-11T03:18:04.036529+00:00",
+      "scope_note": "Includes map/preflight/seam preparation, partial-page metadata helpers and context recovery; not semantic correction.",
+      "elapsed_seconds": 337.7273659706116,
+      "observed_responses": 8,
+      "tokens": {
+        "input_tokens": 1133655,
+        "cached_input_tokens": 1095552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10393,
+        "reasoning_output_tokens": 1411,
+        "total_tokens": 1144048,
+        "uncached_nonwrite_input_tokens": 38103
+      }
+    },
+    {
+      "id": "raw-07",
+      "stage": "raw-ocr",
+      "engine": "qwen",
+      "start": "2026-10-11T03:18:05.099063+00:00",
+      "end": "2026-10-11T03:21:37.916707+00:00",
+      "scope_note": "Assistant monitoring also includes helper/document reads, comparison-script preparation and next-checkpoint planning; token counts are shared orchestration, not pure raw recognition or correction. Engine raw time is separately measured.",
+      "elapsed_seconds": 212.8176441192627,
+      "observed_responses": 11,
+      "tokens": {
+        "input_tokens": 501116,
+        "cached_input_tokens": 477824,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1626,
+        "reasoning_output_tokens": 163,
+        "total_tokens": 502742,
+        "uncached_nonwrite_input_tokens": 23292
+      }
+    },
+    {
+      "id": "correction-07",
+      "stage": "semantic-correction",
+      "engine": "qwen",
+      "start": "2026-10-11T03:21:38.962566+00:00",
+      "end": "2026-10-11T03:24:37.283109+00:00",
+      "elapsed_seconds": 178.320543050766,
+      "observed_responses": 5,
+      "tokens": {
+        "input_tokens": 345204,
+        "cached_input_tokens": 316160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6422,
+        "reasoning_output_tokens": 598,
+        "total_tokens": 351626,
+        "uncached_nonwrite_input_tokens": 29044
+      }
+    },
+    {
+      "id": "export-07",
+      "stage": "native-export",
+      "engine": "qwen",
+      "start": "2026-10-11T03:24:38.328653+00:00",
+      "end": "2026-10-11T03:24:55.660317+00:00",
+      "elapsed_seconds": 17.331663846969604,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 159974,
+        "cached_input_tokens": 158720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 288,
+        "reasoning_output_tokens": 44,
+        "total_tokens": 160262,
+        "uncached_nonwrite_input_tokens": 1254
+      }
+    },
+    {
+      "id": "evaluation-07",
+      "stage": "paired-diagnostics",
+      "engine": "shared",
+      "start": "2026-10-11T03:24:56.713648+00:00",
+      "end": "2026-10-11T03:25:33.302417+00:00",
+      "elapsed_seconds": 36.58876895904541,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 162169,
+        "cached_input_tokens": 160512,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 600,
+        "reasoning_output_tokens": 289,
+        "total_tokens": 162769,
+        "uncached_nonwrite_input_tokens": 1657
+      }
+    },
+    {
+      "id": "reporting-07",
+      "stage": "validation-and-reporting",
+      "engine": "shared",
+      "start": "2026-10-11T03:25:34.351067+00:00",
+      "end": "2026-10-11T03:28:29.379456+00:00",
+      "elapsed_seconds": 175.02838897705078,
+      "observed_responses": 7,
+      "tokens": {
+        "input_tokens": 616412,
+        "cached_input_tokens": 603776,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5170,
+        "reasoning_output_tokens": 547,
+        "total_tokens": 621582,
+        "uncached_nonwrite_input_tokens": 12636
+      }
     }
   ],
   "money_cost": null,
@@ -542,33 +652,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T02:35:14.832238+00:00",
-    "elapsed_seconds": 83877.81823801994,
-    "observed_responses": 154,
+    "end": "2026-10-11T03:28:29.379456+00:00",
+    "elapsed_seconds": 87072.36545610428,
+    "observed_responses": 198,
     "tokens": {
-      "input_tokens": 18735541,
-      "cached_input_tokens": 18014208,
+      "input_tokens": 23335278,
+      "cached_input_tokens": 22490496,
       "cache_write_input_tokens": 0,
-      "output_tokens": 106558,
-      "reasoning_output_tokens": 28908,
-      "total_tokens": 18842099,
-      "uncached_nonwrite_input_tokens": 721333
+      "output_tokens": 135185,
+      "reasoning_output_tokens": 33518,
+      "total_tokens": 23470463,
+      "uncached_nonwrite_input_tokens": 844782
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T02:35:14.832238+00:00",
-    "elapsed_seconds": 83877.81823801994,
-    "observed_responses": 35,
+    "end": "2026-10-11T03:28:29.379456+00:00",
+    "elapsed_seconds": 87072.36545610428,
+    "observed_responses": 44,
     "tokens": {
-      "input_tokens": 4494141,
-      "cached_input_tokens": 4267776,
+      "input_tokens": 6175348,
+      "cached_input_tokens": 5931520,
       "cache_write_input_tokens": 0,
-      "output_tokens": 13713,
-      "reasoning_output_tokens": 2576,
-      "total_tokens": 4507854,
-      "uncached_nonwrite_input_tokens": 226365
+      "output_tokens": 17841,
+      "reasoning_output_tokens": 4134,
+      "total_tokens": 6193189,
+      "uncached_nonwrite_input_tokens": 243828
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",

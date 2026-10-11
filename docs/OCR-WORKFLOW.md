@@ -408,8 +408,9 @@ remaining after local OCR.
 The maintainer selected July1984 for the next trial. See [the trial plan and
 measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
-Five complete native article packages and the partial music-card hardware segment
-are recorded in [July progress](ocr-july-progress.json).
+Five complete native article packages and the music-card hardware/software segments
+are recorded in [July progress](ocr-july-progress.json). The music-card article
+remains partial: lower PDF191 and PDF192–194 hex listings and final assembly are pending.
 
 The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
 starts with Tesseract for clear prose, Qwen for tables/technical notation/listings,

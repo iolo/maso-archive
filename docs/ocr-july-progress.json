@@ -6,7 +6,7 @@
   "canonical_toc_entries": 42,
   "completed_article_bodies": 5,
   "partial_article_bodies": 1,
-  "completed_checkpoints": 6,
+  "completed_checkpoints": 7,
   "remaining_toc_entries": 37,
   "untouched_toc_entries": 36,
   "human_accepted_articles": 0,
@@ -508,6 +508,113 @@
         "correction-06",
         "export-06"
       ]
+    },
+    {
+      "batch": "07",
+      "toc_entry_id": "maso-1984-07-toc-0027",
+      "title": "PIA 시리즈1 뮤직카드",
+      "engine": "qwen",
+      "printed_pages": [
+        184,
+        185,
+        186,
+        187
+      ],
+      "pdf_pages": [
+        188,
+        189,
+        190,
+        191
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-07/map.json",
+        "sha256": "dd22023cd680273f900993c2601de6766674ec814f7e8c5118415812186ca321",
+        "bytes": 21844
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-07/music-card-software/article.json",
+          "sha256": "83182c2911a2886a4ce35fa9f834fb976b0b59bc5221a6b3aa3da5a648b7361d",
+          "bytes": 117087
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-07/music-card-software/manifest.json",
+          "sha256": "25633c564db4d1d898b23bd1d94f77e96101b75f062f6d4f1cb3230331e5225c",
+          "bytes": 48285
+        },
+        "source_pages": [
+          188,
+          189,
+          190,
+          191
+        ],
+        "regions": 75,
+        "text_regions": 69,
+        "figures": 6,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 17,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 203.29454491600018,
+      "recognition_seconds": 181.0543673080001,
+      "local_qwen_tokens": {
+        "prompt_tokens": 27897,
+        "completion_tokens": 4789,
+        "total_tokens": 32686
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-07/transcription-assistant.json",
+        "sha256": "21effdcb93d8194f4393c2430d4d9652e5939d9134562fd6e182b6fc0b1933d0",
+        "bytes": 14726
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T03:24:24.639321+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "21effdcb93d8194f4393c2430d4d9652e5939d9134562fd6e182b6fc0b1933d0",
+          "bytes": 14726
+        },
+        "method": "Assistant scan comparison from Qwen draft; alternate Tesseract text not seen."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "other": 234,
+        "prose": 4243,
+        "title": 245
+      },
+      "work_window_ids": [
+        "raw-07",
+        "correction-07",
+        "export-07"
+      ],
+      "partial_pdf_pages": [
+        191
+      ],
+      "deferred_areas": [
+        {
+          "pdf_page": 191,
+          "bbox": [
+            0.04946996466431095,
+            0.491875,
+            0.8780918727915195,
+            0.93125
+          ],
+          "description": "All three columns of hexadecimal dump below references."
+        }
+      ],
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Memory addresses, command names, key combinations and music notation make individual glyph/structure errors costly. Preserve figures; use Qwen for this coherent instruction section. No claim of proven cost optimality."
+      }
     }
   ],
   "entries": [
@@ -1520,29 +1627,78 @@
       },
       "status": "assistant-partial-human-pending",
       "pdf_page_candidate": 184,
-      "batch": "06",
-      "engine": "tesseract",
+      "batch": "07",
+      "engine": "mixed",
       "restoration": {
-        "path": "build/pdf-restoration/12-1984-07-comparison-batch-06/music-card-hardware/article.json",
-        "sha256": "e922ca066cafc89ae492146028112936edfd9911a30f697ab1861d95e83dc35a",
-        "bytes": 73186
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-07/music-card-software/article.json",
+        "sha256": "83182c2911a2886a4ce35fa9f834fb976b0b59bc5221a6b3aa3da5a648b7361d",
+        "bytes": 117087
       },
       "restored_pdf_pages": [
         184,
         185,
         186,
-        187
+        187,
+        188,
+        189,
+        190
       ],
-      "deferred_pdf_pages": [
+      "covered_pdf_pages": [
+        184,
+        185,
+        186,
+        187,
         188,
         189,
         190,
+        191
+      ],
+      "partial_pdf_pages": [
+        191
+      ],
+      "deferred_pdf_pages": [
         191,
         192,
         193,
         194
       ],
-      "assembly_required": true
+      "assembly_required": true,
+      "segments": [
+        {
+          "batch": "06",
+          "engine": "tesseract",
+          "package": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-06/music-card-hardware/article.json",
+            "sha256": "e922ca066cafc89ae492146028112936edfd9911a30f697ab1861d95e83dc35a",
+            "bytes": 73186
+          },
+          "pdf_pages": [
+            184,
+            185,
+            186,
+            187
+          ],
+          "partial_pdf_pages": []
+        },
+        {
+          "batch": "07",
+          "engine": "qwen",
+          "package": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-07/music-card-software/article.json",
+            "sha256": "83182c2911a2886a4ce35fa9f834fb976b0b59bc5221a6b3aa3da5a648b7361d",
+            "bytes": 117087
+          },
+          "pdf_pages": [
+            188,
+            189,
+            190,
+            191
+          ],
+          "partial_pdf_pages": [
+            191
+          ]
+        }
+      ]
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0028",
@@ -2135,12 +2291,17 @@
       "path": "docs/ocr-july-comparison-04.json",
       "sha256": "e970238092e6ff3469c95e72487e4685645e2e6bdfc6513370d4c7fb578930a3",
       "bytes": 8675
+    },
+    {
+      "path": "docs/ocr-july-comparison-05.json",
+      "sha256": "539ace3985def81b6b4a5272992bba727a640be5f5928a8b6788f9fcccbf4422",
+      "bytes": 9146
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "dbc621dc406d20e072819d970401a779fdcb62f00470252d3816640614af8f8c",
-    "bytes": 19603
+    "sha256": "0b73d814482f2dff1223c0151fed77c97df5484c3cf295d97ef81f63b221ad07",
+    "bytes": 23381
   },
   "reading_room": {
     "action": "none",
@@ -2149,25 +2310,25 @@
   },
   "next_pair": [
     {
-      "title": "PIA 시리즈1 뮤직카드 — 프로그램과 목록",
-      "engine": "pending-inspection",
+      "title": "PIA 시리즈1 뮤직카드 — 16진 목록",
+      "engine": "qwen",
       "toc_entry_id": "maso-1984-07-toc-0027",
-      "extent_status": "Hardware segment PDF184–187 restored as batch06; map and inspect remaining PDF188–194 before assigning engine/samples. Full article assembly requires both segments.",
+      "extent_status": "Hardware184–187 and software188–190 plus upper191 restored as batches06/07. Next: lower191 and192–194 hex listing; map and fix samples before inference. Full article assembly pending.",
       "candidate_pdf_pages": [
-        188,
-        189,
-        190,
         191,
         192,
         193,
         194
       ],
       "existing_segments": [
-        "06"
-      ]
+        "06",
+        "07"
+      ],
+      "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+      "routing_reason": "Provisional Qwen choice for dense hexadecimal characters; long hex remains untested."
     }
   ],
-  "decision": "Tesseract hardware prose now complements Qwen technical table/formula evidence. Four new fixed crops favor Qwen raw text; different contents, lengths and correction overhead still prevent causal paid-cost savings claims. Finish the partial music-card software/listing segment and assemble the complete body.",
+  "decision": "Routing applied within one article: Tesseract hardware06, Qwen software07. Four software crops favor Qwen raw text under fixed settings, but observational paid correction costs still do not establish a causal savings claim. Restore the lower191 and192–194 hex listing next, then assemble all segments.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

@@ -1057,3 +1057,30 @@ commit code/documentation. Do not count a partial opening as a complete article.
   costs and one semantic correction per passage. BASIC evidence is promising;
   long hexadecimal listings remain untested. No causal paid-cost winner claimed.
 - Documentation only; no automatic routing, pipeline default or reading-room change.
+
+### July software instructions restored with routing rule, 2026-10-11
+
+- Batch07 selects Qwen before inference for commands, addresses and notation,
+  following Tesseract hardware06 in the same article. Restored PDF188–190 and upper
+  PDF191:75 regions,69 text crops,six original images and17 review flags.
+- PDF191 remains partial. Lower191 and192–194 hex listings are next; Qwen is the
+  provisional choice, with detailed mapping/samples still required. Preserve both
+  existing segments and assemble only after the listing is restored.
+- Raw203.29s including181.05s recognition and1.26s startup; correction178.32s for
+  4,722 non-whitespace characters. Correction usage:29,044 uncached input,
+  316,160 cached input,6,422 output tokens; zero cache-write. Local Qwen32,686
+  tokens separately recorded. Shared setup337.73s and monitoring/evaluation/report
+  work remain visible; raw-window helper preparation is not correction cost.
+- Four fixed samples favor Qwen; menu compact CER0.00% versus58.87% for fixed
+  whole-crop Tesseract PSM6. Disk-load Qwen1.65% reflects two editorial bracket
+  differences. References sealed before alternate OCR; no repeated paid correction.
+  Paid-cost evidence remains observational and mixed, not a proven routing win.
+- Retained source anomalies; explicitly marked triplet-notation substitutes and
+  boxed placeholder, with scan links. No program repair or execution claims.
+- Integrity, UTF-8 ranges, coverage,14-row menu, partial-page accounting, deferred
+  hex exclusion and byte-identical rebuild checks passed. All seven exports valid.
+  Five complete bodies,one partial;20 represented pages (19 complete for selected
+  article bodies),285 regions,262 text regions,23 images,207 logical BASIC lines,
+  59 review flags.37 entries unfinished,36 untouched; human acceptance pending.
+- Reading room unchanged; user homepage edit retained. Carry this reporting/commit
+  tail into the next cumulative token audit.

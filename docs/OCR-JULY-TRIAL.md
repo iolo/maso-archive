@@ -20,7 +20,8 @@ tables, mixed layouts, and longer listings:
 | 리뷰 살롱 | Tesseract | Seven book reviews | Restored; printed156–158 / PDF160–162 |
 | 합이 15 | Qwen | BASIC with introductory prose and grids | Restored; printed64–65 / PDF68–69 |
 | SPC-1000 음악기능과 명령어 | Qwen | Technical prose, table, formulas, BASIC and diagrams | Restored; printed47–51 / PDF51–55 |
-| PIA 시리즈1 뮤직카드 — hardware segment | Tesseract | Hardware prose, circuit/pinout diagrams and construction photos | Partial; printed180–183 / PDF184–187; PDF188–194 deferred |
+| PIA 시리즈1 뮤직카드 — hardware segment | Tesseract | Hardware prose, circuit/pinout diagrams and construction photos | Hardware segment restored; printed180–183 / PDF184–187 |
+| PIA 시리즈1 뮤직카드 — software instructions | Qwen | Commands, addresses, joystick controls and musical notation | Segment restored; PDF188–190 and upper191; hex listing deferred |
 
 Both engines use 4,000-pixel page renders in this trial. Tesseract retains its
 pinned runtime, OEM1/PSM6 and one thread, with English for code and Korean+English
@@ -322,6 +323,85 @@ spans a brief user interruption/resume and is labelled accordingly; raw OCR and
 correction timings had already been closed and are unaffected. No reading-room
 rebuild or staging occurred.
 
+## Routing applied to software instructions, 2026-10-11
+
+Batch07 applies the documented rule within the same music-card article: Qwen for
+command-heavy software instructions after Tesseract for the hardware section.
+The choice and four diagnostic samples were recorded before inference. It restores
+printed184–186/PDF188–190 and the upper part of printed187/PDF191, including the
+references. Its75 regions contain69 text crops and six original images. The menu
+also has a searchable14-row, two-column transcription. Commands in prose are not
+counted as executable listing rows.
+
+**PDF191 is only partially restored.** The three hex columns below its references,
+and PDF192–194, remain deferred. The article now covers PDF184–191, with184–190
+fully restored for the article body. Both segments retain separate packages and
+require assembly after the listing is restored. They still count as one partial
+article, not two completed articles.
+
+| Observation | Qwen software instructions |
+| --- | ---: |
+| Raw stage, including render/startup/export | 203.29s |
+| Recognition calls, contained in raw stage | 181.05s |
+| Server startup/readiness, also contained in raw stage | 1.26s |
+| Correction and recording window | 178.32s |
+| Corrected non-whitespace characters | 4,722 |
+| Observed uncached, non-write input tokens in correction window | 29,044 |
+| Observed cached input tokens in correction window | 316,160 |
+| Observed output tokens in correction window | 6,422 |
+| Local Qwen tokens, separate from assistant usage | 32,686 |
+
+Correction includes scan inspection, transcription, explicit joins and review
+records. Partial-page accounting/export helpers were adapted during setup, outside
+correction. Cache-write tokens were zero; no raw inference retries occurred.
+Shared preparation took337.73s, including mapping, seam checks, helper changes and
+context recovery. The raw-monitoring window also contains helper/document reads
+and preparation of the comparison script and continuation plan. Its assistant
+usage is shared orchestration, not pure OCR or semantic correction. All these
+costs remain visible in the usage audit.
+
+Seventeen review flags preserve source anomalies and transcription limitations.
+Qwen read the insertion key I as T and lost musical notation and some Korean
+words. The corrected text retains the source's repeated SW(1), figure3 reference,
+DEBUG heading 수립, RHYTH heading and Programm spelling. Complex triplet notation
+uses explicitly marked editorial text substitutes linked to scans; boxed 이름 is
+also marked as a placeholder, not literal command syntax. Japanese references and
+faint beep spelling remain flagged. No musical program or hex bytes were tested.
+
+The Qwen-based reference was sealed before alternate Tesseract inference on the
+same four PNGs. No paid correction was repeated.
+
+| Crop | Content | Qwen compact CER | Tesseract compact CER |
+| --- | --- | ---: | ---: |
+| p188r05 | Program memory addresses | 0.00% | 3.54% |
+| p188r09 | Command menu | 0.00% | 58.87% |
+| p190r07 | Volume instructions | 0.00% | 17.59% |
+| p191r09 | Disk-load instructions | 1.65% | 16.53% |
+
+The two Qwen differences in the final row are ASCII brackets versus the editorial
+double brackets representing a printed box; they are not misrecognized Korean
+letters. Scores retain the sealed reference without retrospective normalization.
+Menu results use the fixed whole-crop Tesseract PSM6 configuration; separately
+segmented rows/cells were not tested. References remain unblinded assistant
+readings, not independent human gold.
+
+These results support Qwen for this menu/notation category, while leaving the
+paid-cost decision open. Software has4,722 corrected characters versus2,803 in the
+hardware segment, and required more enlarged-image inspection. Lower output per
+character but higher uncached input per character is a mixed observation; content,
+context and transcription choices prevent a causal engine-cost comparison.
+Long hex listings remain the next untested case. Keep the routing rule provisional.
+
+Native integrity, UTF-8 ranges, complete included-region coverage, menu shape and
+byte-identical rebuild checks passed. Checks also confirmed partial-page progress,
+no overlap with deferred hex crops, reproducible masked crops and distinct block
+IDs for later assembly. All seven package pins/exports remain valid. Totals are
+five complete bodies and one partial body over20 represented source pages (19
+fully restored for their selected article bodies):285 regions,262 text regions,
+23 original images,207 logical BASIC lines and59 review flags.37 TOC entries remain
+unfinished, including the partial music-card body;36 are untouched. Human review
+and reading-room rebuilding remain pending; no reading-room build/staging occurred.
+
 ## Evidence and continuation
 
 - [Issue progress and package pins](ocr-july-progress.json)
@@ -329,6 +409,7 @@ rebuild or staging occurred.
 - [Six reverse-assignment crop comparisons](ocr-july-comparison-02.json)
 - [Four technical/table crop comparisons](ocr-july-comparison-03.json)
 - [Four hardware-prose crop comparisons](ocr-july-comparison-04.json)
+- [Four software-instruction crop comparisons](ocr-july-comparison-05.json)
 - [Assistant usage by work window, including shared overhead](ocr-july-usage.json)
 - Private queue, maps, raw evidence, corrections and scripts:
   `private/pdf-restoration/12-1984-07-comparison/`
@@ -338,6 +419,8 @@ rebuild or staging occurred.
   and `build/pdf-restoration/12-1984-07-comparison-batch-04/sum15/`
 - Technical article: `build/pdf-restoration/12-1984-07-comparison-batch-05/spc1000-music/`
 - Partial hardware segment: `build/pdf-restoration/12-1984-07-comparison-batch-06/music-card-hardware/`
+
+- Partial software segment: `build/pdf-restoration/12-1984-07-comparison-batch-07/music-card-software/`
 
 The usage audit reads only local `token_usage_record` rows, deduplicates response
 IDs, rejects overlapping windows, and preserves unknown fields as null. Cached
@@ -358,10 +441,10 @@ PYTHONPATH=src:. python3 -m tools.pdf_restore.usage \
   --output /tmp/july-usage.json
 ```
 
-Next: map the remaining PIA 시리즈1 뮤직카드 software instructions, references
-and listings on PDF188–194, then fix the next segment’s engine and samples before
-inference. Preserve the completed hardware segment and assemble the full article
-after all pages are restored. Keep setup outside correction windows.
+Next: map the hexadecimal listing on lower PDF191 and PDF192–194. Qwen is the
+provisional choice under the routing rule; fix detailed crops and samples before
+inference. Preserve hardware06 and software07, then assemble the full article
+after the listing is restored. Keep setup outside correction windows.
 The cumulative usage audit now includes earlier reporting/commit responses through
 the new cutoff; gaps remain visible and calendar spans are not active work time.
 Preserve earlier packages and commit each checkpoint. Reading-room work remains
