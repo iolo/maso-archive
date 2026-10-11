@@ -45,6 +45,45 @@ categories. Do not infer dollar savings from a simple token subtotal.
 **Reading room: do not rebuild or restage until the user explicitly requests it.**
 Native restoration packages and progress records can continue independently.
 
+## Provisional engine-selection heuristic
+
+Recorded2026-10-11. Use Tesseract when its mistakes leave an easy-to-correct draft;
+use Qwen when mistakes destroy structure or make individual characters expensive
+to verify. This is a working hypothesis from the trial, not a demonstrated
+paid-cost ranking or an automatic routing implementation.
+
+| Content | Starting choice | Reason and evidence limit |
+| --- | --- | --- |
+| Clear, ordinary prose | Tesseract | Fast draft; context often makes errors easy to resolve. Qwen also reads prose better in our samples, so Tesseract is not a proven cost winner. |
+| Numeric tables, formulas, dense technical notation | Qwen | Values, symbols and relationships are costly to reconstruct. The July frequency table supports this choice under the tested settings; other table layouts remain untested. |
+| BASIC, assembly, hexadecimal listings | Qwen | Individual characters need careful checking. BASIC results are promising; long hexadecimal listings and this broader category still need testing. |
+| Faint, degraded or unusually styled text | Qwen candidate | Try when Tesseract produces substantial garbage. This is a plausible fallback heuristic, not a settled July finding. |
+| Diagrams and photographs | Preserve original image | Transcribe surrounding prose/captions separately. Diagram reconstruction is a distinct task. |
+
+Choose by content, not page count. Mixed articles may use different engines for
+homogeneous groups of mapped regions or coherent assembly segments, such as
+Tesseract for an introduction and Qwen for a listing. Record the chosen primary
+engine and scope before inference; current runs still use an explicitly selected
+engine per checkpoint rather than automatic per-region routing.
+
+When uncertain, inspect one representative Tesseract crop before committing the
+rest of the segment. Switch if identifiers are repeatedly corrupted, table rows
+are lost, reading order is mixed, or substantial text becomes unreadable fragments.
+Ordinary spacing/wrapping problems alone do not justify switching. This bounded
+probe is optional: do not routinely run both engines over the entire article.
+Record all probes, fallbacks and retries, retain their raw evidence, and include
+their elapsed cost. Correct the selected draft only once.
+
+For planned comparisons, keep preselected assignments and samples fixed unless a
+fallback is explicitly recorded. Seal the source-checked reference before alternate
+OCR; do not retroactively choose the cleaner engine and call it the original
+assignment. Keep diagnostic/evaluation costs separate from ordinary restoration.
+
+Semantic correction and human review continue whichever engine is chosen. Judge
+this heuristic by paid correction usage and total elapsed work across comparable
+content categories, not raw CER alone. Revise it as the remaining music-card
+program instructions and hexadecimal listings provide more evidence.
+
 ## First checkpoint, 2026-10-10
 
 Two complete article packages contain19 regions:17 text regions and two original

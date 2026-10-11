@@ -405,10 +405,15 @@ remaining after local OCR.
 
 ## July content and cost trial
 
-The maintainer selected July1984 for the next trial. See [the trial plan and first
-checkpoint](OCR-JULY-TRIAL.md) for opposite engine assignments across content
-categories, actual assistant usage accounting, and matched raw-OCR samples. The
-first four complete native packages cover the Qwen editorial and sum15 game,
-plus the Tesseract driving game and seven-book review article. The reverse
-assignments add five source pages and six matched-crop diagnostics. No routing default has changed. Reading-room rebuilding and staging are
-deferred until the user explicitly requests them.
+The maintainer selected July1984 for the next trial. See [the trial plan and
+measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
+categories, actual assistant usage accounting, and matched raw-OCR samples.
+Five complete native article packages and the partial music-card hardware segment
+are recorded in [July progress](ocr-july-progress.json).
+
+The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
+starts with Tesseract for clear prose, Qwen for tables/technical notation/listings,
+and original images for diagrams. It includes bounded probes, explicit fallback
+accounting and evidence limitations. It is guidance for choosing new checkpoints;
+no automatic routing or pipeline default has changed. Reading-room rebuilding and
+staging remain deferred until the user explicitly requests them.

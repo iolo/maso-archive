@@ -1047,3 +1047,13 @@ commit code/documentation. Do not count a partial opening as a complete article.
   and assemble with batch06. Reading room unchanged; user's homepage edit retained.
   Reporting elapsed includes a brief interruption/resume, explicitly labelled;
   raw/correction timers were already closed. Carry final commit tail into next audit.
+
+### Provisional content routing documented, 2026-10-11
+
+- Added [engine-selection guidance](docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
+  and linked it from the OCR workflow: Tesseract for clear prose, Qwen for costly
+  character/structure errors, and original images for diagrams/photos.
+- Recorded bounded probes, explicit primary/fallback assignments, retained attempt
+  costs and one semantic correction per passage. BASIC evidence is promising;
+  long hexadecimal listings remain untested. No causal paid-cost winner claimed.
+- Documentation only; no automatic routing, pipeline default or reading-room change.
