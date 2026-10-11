@@ -2060,3 +2060,19 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - History243–255 restored;256–261 remain,then adindex262 and assembly. July remains
   34 complete,one partial,one untouched across51 checkpoints. Metrics and authorized
   reading room follow restoration; reporting/commit usage carries forward.
+
+### July Coleco-history section restored, 2026-10-12
+
+- Restored256–258:69 text crops,three images,25 flags,five narrative joins.
+  Full history243–258 restored;259–261 and assembly remain.
+- Fixed65Q/4T after rejected0.199s name/prose probe. Widened margins during
+  preflight; primary completed normally without retries/fallbacks/crop repairs.
+  Two T headings were blank and transcribed directly from source.
+- Raw179.174s;exact26,827 localtokens. Correction213.797s overlaps179.174s raw.
+  Paid10,703 uncached/872,192 cached input;7,448 output includes1,154 reasoning.
+  Source reading also occurred in preparation and final glyph rechecking in export;
+  correction alone is not total effort. Original spelling variants preserved.
+- Comparison50:four Qwen wins; unblinded assistant references,not human gold.
+  Final export/rebuild/UTF-8/15 targeted checks pass. Human review remains pending.
+- July34 complete,one partial,one untouched across52 checkpoints. Next Microsoft
+  ending259–261,adindex262,assembly,full metrics and authorized reading room.

@@ -3284,3 +3284,49 @@ Export integrity, byte-identical rebuild, UTF-8 review ranges and12 targeted
 continuation/anomaly/chart assertions pass. July remains34 complete bodies,one
 partial,one untouched across51 checkpoints. Next:history256–261,adindex262,
 assembly,consolidated metrics and the authorized reading-room preview.
+
+## Batch52: industry-history Coleco section, PDF256–258
+
+This section adds69 text crops,three original images,25 source-linked review flags
+and five narrative joins. It retains historical spellings, technical specifications,
+fractional prices and printed anomalies. Human acceptance remains pending.
+History243–258 is restored; Microsoft259–261 and full assembly remain.
+
+The representative Tesseract probe badly corrupted an English name and adjacent
+Korean. Routing was fixed at65Q/4T. Preflight visual checks caught clipped left
+margins missed by simple edge-ink checks; these were widened before primary OCR.
+The worker completed normally without retries, fallbacks or duplicated primary
+responses. Tesseract returned blank text for two short headings, including the
+photographic title; both were transcribed from the scan during correction. This
+reinforces the existing requirement to check heading presence even after a
+successful OCR process. No second engine was run on those headings.
+
+| Measurement | Batch52 |
+| --- | ---: |
+| Raw worker, including startup/render/export | 179.174s |
+| Qwen recognition | 157.173s |
+| Tesseract primary recognition | 0.291s |
+| Exact local Qwen tokens | 26,827 |
+| Correction window | 213.797s |
+| Raw/correction overlap | 179.174s |
+| Paid uncached input in correction window | 10,703 |
+| Paid cached input in correction window | 872,192 |
+| Paid output, including reasoning | 7,448 |
+| Reasoning, already included in output | 1,154 |
+
+Substantial source reading occurred in preparation; a final enlarged glyph check
+and regenerated export occurred in the export window. The earlier generated
+export is privately archived. Correction alone is not total source-review effort;
+retain preparation/export work and subtract overlap when consolidating costs.
+The rejected0.199s probe is preparation cost and reused once in evaluation.
+
+Comparison50 compact CER is Qwen0%/Tesseract25.37%,0%/13.56%,1.09%/8.70%,and
+4.55%/22.73%:four Qwen wins. The fixed samples cover a name, processor prose,
+graphics specifications and fractional price/product typography. References are
+unblinded assistant source readings sealed before alternates, not human gold.
+These results do not establish causal paid-token savings.
+
+Final export integrity, byte-identical rebuild, UTF-8 review ranges and15 targeted
+continuation/specification/fraction/source-spelling checks pass. July remains34
+complete bodies,one partial,one untouched across52 checkpoints. Next:259–261,
+advertising index262,assembly,consolidated metrics and authorized reading room.
