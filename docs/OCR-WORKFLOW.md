@@ -460,8 +460,14 @@ reused as primary after matching the exact crop hash; count that recognition onc
 Visually clear ruled headlines sometimes returned blank/fragmented Tesseract text;
 check heading coverage separately and restore isolated failures from the source.
 All four fixed samples favor Qwen, including ordinary news and the selected table.
-That does not establish causal paid savings for either engine. Foreign news149–157
-and full article assembly remain. This is guidance for choosing new checkpoints;
+That does not establish causal paid savings for either engine. Batch31 restores
+foreign149–153 with39 Tesseract/117 Qwen crops. A rejected bounded Tesseract
+headline probe informed Qwen routing; its distinct crop is extra preparation cost,
+not reused primary evidence. Qwen still misread two headline words, although it
+won all four fixed samples. Preserve conflicting chip numbers, source totals and
+faint decimal uncertainty without technical repair. A SIGTERM after78 Qwen
+successes resumed with exact evidence reuse; both worker lifespans are measured,
+but interrupted response tokens remain unknown. Final154–157 and assembly remain. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

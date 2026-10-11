@@ -1992,3 +1992,63 @@ human acceptance. Cumulative:131 unique source pages,2,302 regions,2,186 text cr
 116 images and625 review flags. Code/hex/Logo/FORTRAN totals are unchanged.
 Next inspect149–153 as a foreign-news batch, then the remainder through157 and
 full Information Radar assembly. Final issue metrics/reading room remain pending.
+
+### Information Radar foreign opening — batch31, 2026-10-11
+
+Restored PDF149–153/printed145–149:156 text regions, no figures or tables,
+13 complete news items and the opening of a GaAs SISFET item. Information Radar
+remains partial: domestic143–148 is in batch30, and154–157 plus assembly remain.
+The final153 fragment ends 순; preserve its mid-word join to154.
+
+The planned39 Tesseract/117 Qwen route assigns ordinary collaboration, robot
+standardization, export-control and UNIX news prose plus short labels to Tesseract;
+technical specifications and boxed headlines go to Qwen. A bounded Tesseract
+headline probe took0.119s and lost the1칩모뎀 wording. It was rejected before primary
+recognition. Its crop differs slightly from the primary headline crop: it is
+separate preparation evidence, not reused primary inference or a fifth fixed sample.
+
+One worker exited143 after78 successful Qwen crops. All78 were hash-checked and
+reused, with no routing change or successful crop repeated. The interrupted
+p152r02 request is archived; its response/token usage was not captured. The
+SIGTERM handler measured the first worker206.485s; the successful resumed worker
+measured93.923s. Their sum300.408s includes render, startup and evidence handling,
+but excludes recovery preparation between attempts. The cause of SIGTERM is
+unknown. Successful recognition was Qwen259.357s/Tesseract5.069s; those calls
+are nested within raw time. Local completed responses contain40,690 prompt and
+7,260 completion tokens,47,950 total: a lower bound, not zero interrupted cost.
+
+Correction/source review, recovery and helper work took692.44s and overlapped
+232.21s of the measured raw attempts. Paid observations:70,124 uncached input,
+2,768,128 cached input and20,299 output including2,370 reasoning; zero cache-write.
+Preparation, export, evaluation and reporting are separate. The longer correction
+window includes recovery and technical/source ambiguity checking; it cannot be
+attributed causally to one engine or compared as a clean per-engine cost.
+
+Qwen misread the boxed 핸드쉐이크 시퀀스 headline, several Korean syllables and
+company names. Tesseract prose/labels needed source restoration of technical names
+and ordinary words. Source review preserved original10계획,28ns초, repeated
+프린터, TM 50C40, MES FDT/HEAT and contradictory component totals. No device
+numbers or scientific statements were repaired from external knowledge. Faint
+11 2 ms, the widely spaced11 mW digits,28편, PO-23A and printed 특정 remain
+explicitly provisional. There are37 review flags; human proofreading is mandatory.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p149r03 — ordinary news prose | 0.00% | 10.29% |
+| p150r26 — boxed modem headline | 10.53% | 21.05% |
+| p151r28 — CMOS identifiers | 0.00% | 17.02% |
+| p153r26 — GaAs technical prose | 0.00% | 16.85% |
+
+[Comparison29](ocr-july-comparison-29.json) uses preselected identical PNGs and
+assistant references sealed before alternates, unblinded and not human gold.
+Tesseract uses kor+eng throughout. The single Tesseract-primary sample's Qwen
+alternate completed within its512-token cap. Compact CER ignores whitespace;
+source ambiguities and prose joins require separate review. Qwen wins these raw
+samples, but this does not establish a paid-token advantage for the mixed route.
+
+Export integrity, all156 regional records, explicit news joins, UTF-8 review
+ranges and byte-identical rebuild pass. July remains22 complete bodies,1 partial
+and13 untouched, zero human accepted. Cumulative136 unique source pages,2,458
+regions,2,342 text crops,116 images and662 review flags; code totals unchanged.
+Next restore154–157 and assemble the full143–157 article. Final issue metrics
+and the authorized post-restoration reading-room build remain outstanding.

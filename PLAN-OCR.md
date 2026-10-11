@@ -1609,3 +1609,24 @@ commit code/documentation. Do not count a partial opening as a complete article.
   2,186 text,116 images,625 flags,zero human acceptances. Next foreign news149–157,
   candidate149–153 first, then full article assembly. Issue metrics/reading room
   remain outstanding. Homepage edit preserved; final report/commit usage carries.
+
+### July Information Radar foreign opening restored, 2026-10-11
+
+- Batch31 restores149–153/printed145–149:156 text regions,13 complete news items
+  and one partial GaAs SISFET item,37 review flags. No figures or tables. Restore
+ 154–157 next, then assemble143–157; source153 ends mid-word at 순.
+- Planned39 Tesseract/117 Qwen. Rejected Tesseract headline probe0.119s is extra
+  preparation cost. SIGTERM after78 saved Qwen crops; all reused unchanged, no
+  duplicated successful inference or route change. Both worker lifespans measured:
+  raw300.41s; successful recognition259.36s Qwen/5.07s Tesseract. Local47,950
+  completed-response tokens are a lower bound; interrupted request usage unknown.
+- Correction/source/recovery/helper work692.44s overlaps232.21s of raw. Paid
+  observations70,124 uncached/2,768,128 cached input and20,299 output; no causal
+  per-engine attribution. Four comparison29 crops favor Qwen; boxed headline
+  still required two source corrections. Faint decimal points and original
+  chip-number/quantity contradictions remain flagged, without factual repair.
+- Export integrity, full regional coverage, explicit joins, UTF-8 review ranges
+  and byte-identical rebuild pass. July22 complete,1 partial,13 untouched;
+  136 unique pages,2,458 regions,2,342 text,116 images,662 flags. Human acceptance
+  remains pending. Reading-room build awaits full restoration and metrics;
+  preexisting homepage edit preserved. Final reporting/commit usage carries.
