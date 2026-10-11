@@ -1382,3 +1382,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1,479 BASIC lines,1,107 hex rows,84 assembly rows,329 flags. Next inspect automatic
   SPC-1000 tape article88–93/boundary94. Full issue/metrics/reading room remain.
   Homepage edit preserved; final report/commit usage carries forward.
+
+
+### July SPC-1000 automatic tape article restored, 2026-10-11
+
+- Batch21 completes88–92:104 regions,99 text crops,5 diagrams/screens,5 BASIC
+  rows,13 hex rows/104 fields,13 assembly rows,2 patch rows and21 review flags.
+  Page93 is a section divider;94 starts 로고강좌.
+- Planned20 Tesseract/79 Qwen crops; no retry, fallback or crop change. Raw234.73s;
+  recognition Qwen205.35s/Tesseract2.51s. Local37,874 tokens counted separately.
+- Correction/helper window446.36s overlaps raw198.12s.64,113 uncached input,
+  1,009,920 cached input and15,089 output tokens; zero cache-write. No causal
+  per-engine paid savings estimate.
+- Restored assembly row association and circled tape labels; original1482 heading,
+  C1 mode, figure metadata, repeated step9 and G0024 load instruction retained.
+  Source anomalies and exact literals remain human-review items; no execution.
+- Fixed samples split: Tesseract better on prose/assembly order; Qwen better on
+  numeric table/hex. Routing guidance now calls out assembly column checks and
+  plausible normalization. Unblinded sample CER does not rank whole articles.
+- Export integrity, review/listing byte ranges and byte-identical rebuild pass.
+  July:16 complete,20 untouched;83 pages,1,160 regions,1,094 text crops,66 images,
+  1,484 BASIC lines,1,120 hex rows,97 assembly rows,350 flags. Next inspect94–98.
+  Full issue restoration, final decision metrics and reading room remain outstanding.
+  Homepage edit preserved; final report/commit usage carries forward.

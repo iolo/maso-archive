@@ -93,6 +93,12 @@ For repeated numeric/CHR$ expressions, check every printed term as well as row
 coverage: batch20 Qwen shortened many repetitions while returning successful
 responses. Use field counts as an audit, never as permission to invent missing
 values. Preserve source anomalies and unresolved glyph encoding.
+For aligned address/opcode/mnemonic columns, check row association explicitly.
+Batch21 Qwen separated the columns into successive text blocks, while the fixed
+Tesseract alternate preserved row order better. Consider the existing bounded
+Tesseract probe for this layout; one crop does not establish a universal assembly
+route. Also compare technical headings and circled labels literally: plausible
+normalization can conceal source errors (batch21 changed printed1482 to1462).
 Reuse successful evidence only with unchanged source/crops and verified hashes,
 and label mixed-engine provenance explicitly.
 
@@ -1332,3 +1338,71 @@ no partial bodies and zero human acceptances. Cumulative coverage:78 source page
 84 assembly rows and329 review flags. Next inspect SPC-1000 자동실행 테이프의 제작,
 candidate88–93, and boundary94. Full issue restoration, consolidated decision
 metrics and the reading room remain outstanding.
+
+
+## SPC-1000 automatic tape article, 2026-10-11
+
+Batch21 completes SPC-1000 자동실행 테이프의 제작, PDF88–92/printed84–88.
+Page93 is the next section divider;94 starts 로고강좌. The104 mapped regions
+contain99 text crops and five original diagrams/screens. Four small tables use
+tab-separated cells. Listings contain5 numbered BASIC rows,13 hex rows with104
+byte fields,13 assembly rows and2 before/after patch rows. These are source
+transcriptions, not executed or certified binaries;21 flags await human review.
+
+The preassigned route used20 Tesseract prose/caption crops and79 Qwen technical,
+title and code crops. All completed without retry, fallback or changed crops.
+
+| Observation | Planned mixed route |
+| --- | ---: |
+| Raw worker elapsed, including setup/render/export | 234.73s |
+| Tesseract recognition,20 calls | 2.51s |
+| Qwen recognition,79 calls | 205.35s |
+| Correction/source review/helper window | 446.36s |
+| Raw overlap with correction | 198.12s |
+| Corrected non-whitespace characters | 6,062 |
+| Uncached, non-write correction input tokens | 64,113 |
+| Cached correction input tokens | 1,009,920 |
+| Correction output tokens | 15,089 |
+
+Cache-write was zero. Local Qwen usage was37,874 tokens (32,066 prompt;5,808
+completion), separate from paid assistant usage and alternate evaluation. Correction
+includes table/label review, assembly-column reconstruction, context recovery and
+helper work. Recognition is nested within raw time, and raw overlaps correction;
+do not sum these elapsed columns. This mixed run cannot isolate paid savings by
+engine or establish a speed ranking across different article types.
+
+Source comparison caught plausible normalization as well as ordinary errors.
+The source heading prints `$1482`, while the body uses `$1462`; Qwen changed the
+heading to1462. The printed `C1` mode value, figure7 metadata differing from the
+procedure, `$H15C3`, repeated step9 and the `G0024` load instruction remain in the
+restoration. In the latter case the diagram/summary instead use `G002A`. These
+are source review issues, not permission to repair the historical instructions.
+
+Qwen confused circled A/B/C/D with numbers and changed the intended A/B/D tape
+selection. It split assembly address/opcode and mnemonic columns into separate
+runs and misplaced annotation labels. The corrected draft restores row association
+and labels; bracket geometry remains in the original crops. Hex139E zeros and
+A8 were source-restored. Music O/0 and literal spacing remain reviewable.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p88r04 — clear prose, Tesseract | 1.28% | 0.00% |
+| p89r05 — numeric table, Qwen | 0.00% | 38.89% |
+| p91r08 — hex dump, Qwen | 0.63% | 11.25% |
+| p91r10 — assembly columns, Qwen | 65.52% | 13.79% |
+
+[Comparison19](ocr-july-comparison-19.json) keeps the four preselected identical
+PNGs and seals references before alternate OCR. References remain unblinded
+assistant readings. The assembly score is dominated by reading order, with
+editorially linearized bracket labels also affecting comparison. Compact CER
+ignores whitespace; it is neither layout fidelity nor executable-code validation.
+This is useful counterevidence to a blanket Qwen-for-code assumption, while still
+supporting its numeric-table/hex trial. No routing choice is retroactively changed.
+
+Export integrity, text/review/listing UTF-8 ranges, source row identities and a
+byte-identical rebuild pass. July now has16 complete bodies and20 untouched,
+no partial bodies and zero human acceptances. Cumulative coverage:83 source pages,
+1,160 regions,1,094 text crops,66 images,1,484 BASIC lines,1,120 hex rows,
+97 assembly rows and350 review flags. Next inspect 로고강좌, candidate94–97,
+and boundary98. Full issue restoration, consolidated decision metrics and the
+reading room remain outstanding.
