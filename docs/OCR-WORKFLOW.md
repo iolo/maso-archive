@@ -410,7 +410,7 @@ measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
 Twenty-two complete July article bodies are recorded in
 [July progress](ocr-july-progress.json), including the fully assembled CP/M and
-Z80 lessons, computer graphics and Apple FORTRAN. Fourteen bodies remain;
+Z80 lessons, computer graphics and Apple FORTRAN. Fourteen bodies remain incomplete, including the partly restored Information Radar;
 six unpaginated TOC parent headings are tracked separately. All human acceptances
 remain pending.
 
@@ -454,7 +454,14 @@ numeric tables, with every cell source-checked. Qwen still won the fixed numeric
 sample, so usable row structure is not evidence of better accuracy or paid cost.
 Check compiler line counters/offsets against statements, and retain misspellings
 such as source COLUMMN even when Qwen silently normalizes them. Full Apple
-FORTRAN137–142 is restored with73 source rows; no program execution. This is guidance for choosing new checkpoints;
+FORTRAN137–142 is restored with73 source rows; no program execution. Batch30
+restores Information Radar domestic news143–148. Its Tesseract table probe was
+reused as primary after matching the exact crop hash; count that recognition once.
+Visually clear ruled headlines sometimes returned blank/fragmented Tesseract text;
+check heading coverage separately and restore isolated failures from the source.
+All four fixed samples favor Qwen, including ordinary news and the selected table.
+That does not establish causal paid savings for either engine. Foreign news149–157
+and full article assembly remain. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

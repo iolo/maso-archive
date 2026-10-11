@@ -1589,3 +1589,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   125 unique pages,2,150 regions,2,041 text,109 images,594 flags. Final issue
   metrics/reading room outstanding; homepage edit preserved. Final report/commit
   usage carries forward.
+
+
+### July Information Radar domestic section restored, 2026-10-11
+
+- Batch30 restores143–148/printed139–144 of verified143–157:152 regions,
+  145 text,7 images,16 news items plus1 notice,21 table cells and31 flags.
+  Internal column/page continuations joined; duplicate notice bullet retained.
+- Planned108 Tesseract/37 Qwen crops; table probe reused as primary after hash
+  check, no duplicate inference/retry/fallback. Raw worker128.97s; recognition
+  87.35s/15.28s, latter includes0.205s probe incurred during setup.14,901 local
+  Qwen tokens. Probe cost counted once, not added again to primary recognition.
+- Correction418.06s overlaps109.52s;24,299 uncached/1,505,792 cached input and
+  13,093 output. Content and helper work confound per-engine paid-cost claims.
+  All four comparison28 samples favor Qwen; Tesseract clear-news/table routes
+  remain cost experiments. Blank/fragmented ruled headings were source-restored.
+- Export/review ranges, table counts, domestic coverage and byte-identical rebuild
+  pass. July22 complete,1 partial,13 untouched;131 unique pages,2,302 regions,
+  2,186 text,116 images,625 flags,zero human acceptances. Next foreign news149–157,
+  candidate149–153 first, then full article assembly. Issue metrics/reading room
+  remain outstanding. Homepage edit preserved; final report/commit usage carries.

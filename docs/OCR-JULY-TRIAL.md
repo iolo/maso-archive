@@ -107,6 +107,13 @@ tables used English Tesseract after a usable probe. Check every number regardles
 of engine. Qwen won the fixed numeric sample too, so this route remains a cost
 hypothesis, not an accuracy win. Compiler line counters, offsets and statements
 need explicit row association; Qwen separated them despite legible characters.
+Batch30 also shows that visually clear ruled headlines may yield blank or fragmented
+Tesseract output while nearby body text remains usable. Check headline presence
+as well as body coverage; never accept an empty headline as an empty source.
+Source-read a short isolated failure, or use a bounded Qwen probe before routing
+a new group with that style. The four fixed batch30 samples favor Qwen, including
+ordinary news and the reused Tesseract table probe; usability remains a paid-cost
+hypothesis rather than an accuracy ranking.
 For repeated numeric/CHR$ expressions, check every printed term as well as row
 coverage: batch20 Qwen shortened many repetitions while returning successful
 responses. Use field counts as an audit, never as permission to invent missing
@@ -1919,3 +1926,69 @@ acceptances. Cumulative:125 unique source pages,2,150 regions,2,041 text crops,
 73 FORTRAN source rows and594 review flags. Next inspect Information Radar143–147
 as an opening batch of its143–157 extent. Final issue metrics and reading-room
 build remain outstanding.
+
+
+### Information Radar domestic section — batch30, 2026-10-11
+
+Restored PDF143–148/printed139–144, the complete domestic-news section of the
+verified143–157 Information Radar article. It contains16 news items and one
+additional robot-contest notice:152 regions,145 text crops,7 original images,
+one six-row system-specification table with21 cells, and31 review flags.
+Foreign news149–157 and full article assembly remain outstanding.
+
+The preassigned route used108 Tesseract crops for clear news/headlines/notices and
+37 Qwen crops for dense hardware/gate-array/course specifications plus the reversed
+section heading. A bounded Tesseract probe preserved the specification table's
+six row associations, though it lost column headings and damaged some labels.
+The same unchanged PNG and its hash-checked result were reused as the primary
+Tesseract evidence; no second call was made. No retries or fallbacks occurred.
+The probe took0.205s during setup. It is included once in primary recognition,
+excluded from raw-worker elapsed, and must not be added again as extra OCR cost.
+
+Raw-worker time was128.97s. Recognition was Qwen87.35s/Tesseract15.28s, including
+the reused0.205s table probe in the latter. Local Qwen usage14,901 tokens consists
+of12,627 prompt and2,274 completion tokens. Correction/source/helper work418.06s
+overlaps the raw worker109.52s. Paid correction observations:24,299 uncached input,
+1,505,792 cached input and13,093 output including2,388 reasoning; zero cache-write.
+Mapping, alternate evaluation, export and reporting remain separate. These are
+mixed-content observations, not causal savings relative to FORTRAN or a second
+correction of the same source.
+
+Tesseract returned an empty organization heading and badly fragmented several
+ruled headlines, Latin names and event labels. The selected table still needed
+header/label restoration. Qwen corrupted a few Korean words and omitted a syllable
+from a company name. All included passages were source-compared; internal column/
+page continuations were explicitly joined, and the gate-array diagram was placed
+with its text before the next news item. The table's12 specification cells,
+6 row labels and3 headers were checked individually. The poster's duplicate
+inquiry bullet is preserved twice, as printed.
+
+Original8077, IIL/CDI, SAN/370, SNA/3780, 요성 and the isolated 사프로 spelling
+remain. Unusual 컴퓨터을보급 and 부속 전구로 are provisional source readings
+with human-review flags. Historical names, dates and telephone numbers were not
+modernized or factually corrected. Graph/diagram/photo lettering remains in the
+original images; the table and robot notice also have separate transcriptions.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p143r08 — ordinary news prose | 0.00% | 14.63% |
+| p144r16 — APC specifications | 0.00% | 20.99% |
+| p146r09 — CMOS process parameters | 0.00% | 9.88% |
+| p147r21 — ruled system table | 2.63% | 30.70% |
+
+[Comparison28](ocr-july-comparison-28.json) uses preselected identical PNGs and
+unblinded assistant references sealed before alternate recognition. Tesseract
+uses kor+eng throughout; the two Tesseract-primary Qwen alternates have512-token
+caps and completed normally. Compact CER ignores whitespace and reflects table
+dash/column typography; it is not a pure numeric-cell score or proof of reading
+order. The blank-headline failures are outside these fixed samples. Qwen wins
+all four raw comparisons; the Tesseract choices remain experiments in total
+restoration cost, not claims of better accuracy.
+
+Export integrity, complete domestic coverage, explicit joins, all UTF-8 review
+ranges, table-cell counts and byte-identical rebuild pass. July now has22 complete
+bodies,1 partial body and13 untouched;14 bodies remain incomplete and none has
+human acceptance. Cumulative:131 unique source pages,2,302 regions,2,186 text crops,
+116 images and625 review flags. Code/hex/Logo/FORTRAN totals are unchanged.
+Next inspect149–153 as a foreign-news batch, then the remainder through157 and
+full Information Radar assembly. Final issue metrics/reading room remain pending.
