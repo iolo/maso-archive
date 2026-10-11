@@ -1265,3 +1265,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   571 BASIC lines,1,071 hex rows,84 assembly rows,185 flags. Human review pending.
   Next inspect62–67. Full restoration/metrics/reading room remain outstanding.
   Homepage edit untouched; final reporting/commit usage carries into next audit.
+
+
+### July Dodgem game restored after interruption, 2026-10-11
+
+- Batch16 completes PDF62–67/printed58–63:39 text regions,307 BASIC rows,
+  19 review flags. Planned5 Tesseract prose/byline and34 Qwen headline/code crops;
+  PDF63 advertisement excluded. Original spelling/program anomalies retained.
+- Raw process ended143 after29 Qwen crops; preserved interrupted request and reused
+  all completed Qwen and5 Tesseract results. Five remaining Qwen calls completed.
+  Raw elapsed bounded196.14–405.53s; resume31.23s; completed Qwen recognition167.84s.
+  Original Tesseract timers and interrupted Qwen duration/tokens unavailable, not zero.
+- Correction/recovery window458.21s includes helper work and interruption delay;
+  not pure proofreading time.80,418 uncached input,1,922,560 cached input,12,735
+  output tokens. Local31,824 completed-call tokens separate; no causal savings claim.
+- Source check restored ten whole omitted lines and two partial tails from successful
+  Qwen responses. All307 source line identities checked. Four fixed comparison crops
+  favor Qwen but exclude those omissions; no whole-article accuracy claim.
+- Export integrity, review ranges and byte-identical rebuild pass. July:11 complete,
+  25 untouched;61 pages,831 regions,774 text crops,57 images,878 BASIC rows,
+  1,071 hex rows,84 assembly rows,204 flags. Human review pending.
+- Next inspect 위기일발, candidate70–72. Persist recognition timers per crop in
+  subsequent mixed runs. Full issue/metrics/reading room remain; homepage edit
+  untouched. Final report/commit usage carries into the next audit.

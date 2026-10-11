@@ -965,3 +965,72 @@ with no partial bodies and zero human acceptances. Cumulative coverage:55 source
 pages,792 regions,735 text crops,57 images,571 BASIC lines,1,071 hex rows,
 84 assembly rows and185 flags. Next inspect 디오디지이엠, candidate PDF62–67.
 Full restoration, consolidated metrics and the reading room remain outstanding.
+
+
+## Dodgem game with interruption recovery, 2026-10-11
+
+Batch16 completes 디오디지이엠, PDF62–67/printed58–63:39 text regions,
+307 logical/physical BASIC rows and19 source-linked review flags. The boxed
+advertisement on63 is excluded; PDF68 begins the already-restored 합이15 article.
+Assignments were fixed before OCR:5 clear prose/byline crops to Tesseract,
+34 headline/code crops to Qwen. Both engines retain native evidence.
+
+The raw process terminated with exit143 after29 completed Qwen calls; its cause
+is unknown. All29 stages passed their hash checks and were reused, as were all5
+Tesseract outputs. The interrupted p67r03 request remains preserved separately;
+five remaining Qwen calls completed in the resumed run. No completed inference
+was repeated. The original Tesseract timers existed only in process memory and
+were lost; they remain null. Future mixed runs should persist each timer as soon
+as its crop finishes.
+
+| Observation | Planned mixed route |
+| --- | ---: |
+| Raw elapsed bounds, original attempt plus resume | 196.14–405.53s |
+| Measured resume, including startup/evidence export | 31.23s |
+| Completed Qwen recognition,34 regions | 167.84s |
+| Tesseract recognition,5 reused regions | Unknown |
+| Correction/recovery window | 458.21s |
+| Corrected non-whitespace characters | 6,593 |
+| Uncached, non-write correction input tokens | 80,418 |
+| Cached correction input tokens | 1,922,560 |
+| Correction output tokens | 12,735 |
+
+The raw bounds use original start to last completed stage / terminal observation,
+plus measured resume. The upper bound includes observation delay; exact interrupted
+inference time and tokens are unavailable. The correction window also includes
+recovery/helper preparation and possible interruption delay, so it is not pure
+proofreading time or a clean speed comparison. Raw execution overlaps correction;
+do not add those windows as sequential time. Paid usage covers the mixed workflow
+jointly. Cache-write tokens were zero. Completed Qwen calls used31,824 local tokens
+(27,262 prompt;4,562 completion); this excludes unknown interrupted-call usage and
+is separate from paid assistant usage. No per-engine paid savings are established.
+
+Two successful Qwen responses silently omitted content: p62r07 lost the end of1060
+and all1070; p66r03 lost the end of2950 and all2960–3040. All ten whole rows and two
+partial tails were restored from the scan. Every printed row was checked against
+source, including the printed absence of3950. Source F$/F, P(J,1), missing closing
+quotes, PICES/DIGITA/AVOBE/OBLECT/NOR THERN/FORFET/RESOGN remain unchanged.
+Ambiguous L0/LO and BO/B0 glyphs and literal padding carry review flags; the
+listing has not been executed or repaired for runtime behavior.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p62r03 — introductory prose, Tesseract | 0.00% | 8.40% |
+| p64r03 — BASIC neighbor checks, Qwen | 0.00% | 3.16% |
+| p65r05 — BASIC movement logic, Qwen | 0.00% | 3.41% |
+| p67r02 — BASIC compass instructions, Qwen | 0.00% | 10.27% |
+
+[Comparison14](ocr-july-comparison-14.json) uses identical PNGs and references
+sealed before alternate OCR. References are unblinded assistant source readings,
+not independent human gold. Compact CER ignores whitespace, including code
+literal padding. These samples exclude the omitted crops and cannot establish
+whole-article accuracy. Their favorable Qwen scores support continued testing of
+the provisional rule alongside explicit coverage checks.
+
+Export integrity, source-linked review ranges, all307 line identities and
+byte-identical rebuild pass. July now has11 complete bodies, no partial bodies,
+and25 untouched; all human acceptances remain pending. Cumulative coverage:
+61 source pages,831 regions,774 text crops,57 images,878 BASIC lines,
+1,071 hex rows,84 assembly rows and204 flags. Next inspect 위기일발,
+candidate PDF70–72, with page73 checked for the boundary. Full issue restoration,
+metric consolidation and the reading room remain outstanding.
