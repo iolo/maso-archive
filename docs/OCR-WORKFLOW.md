@@ -410,7 +410,7 @@ measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
 Six complete article bodies, including the assembled music-card hardware/software/hex
 article, are recorded in [July progress](ocr-july-progress.json). Thirty paginated
-bodies remain, including the partial Z-80 feature (opening21–26 restored;27–38
+bodies remain, including the partial Z-80 feature (PDF21–32 restored;33–38
 deferred). Six unpaginated TOC parent headings are tracked separately.
 
 The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)

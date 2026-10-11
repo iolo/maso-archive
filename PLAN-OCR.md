@@ -1144,3 +1144,21 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next: map Z-80 CPU control/interrupt material27–32, then33–38 and assemble.
   Reading room after full restoration/metrics. Homepage edit remains untouched;
   carry final reporting/commit tail into next cumulative usage audit.
+
+
+### July Z-80 CPU control and interrupts restored, 2026-10-11
+
+- Batch10/Qwen restores PDF27–32:82 regions,75 text crops,7 figures,16 flags.
+  Source inconsistencies and uncertain small glyphs remain explicit for review.
+  The final summary point continues on33; full article assembly is still pending.
+- Raw313.01s, recognition281.76s; correction491.75s for8,731 characters.
+  Correction tokens:208,143 uncached input,2,287,744 cached input,13,186 output;
+  zero cache-write. Local46,025 tokens separate. Raw/correction overlap223.32s.
+  Exact-edit helper preparation and interruption timing limits are documented.
+- Four fixed raw comparisons favor Qwen; first two Qwen errors are entirely
+  missing overbars. No independent human gold, duplicate paid correction or
+  causal paid-savings claim. Integrity, review ranges and rebuild checks pass.
+- July:6 complete bodies,1 partial,29 untouched;35 source pages,519 regions,
+  480 text crops,39 figures,207 BASIC lines,1,071 hex rows,105 flags. Human review
+  pending. Next:33–38, then assemble Z-80. Reading room after full issue/metrics.
+  User homepage edit preserved; final reporting/commit usage carries forward.

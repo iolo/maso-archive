@@ -591,3 +591,54 @@ July now has six complete bodies, one partial body and29 untouched bodies
 and89 review flags. Human acceptance remains pending. Next: map Z-80 PDF27–32,
 then33–38 and full assembly. The reading room remains deferred until full issue
 restoration and metric consolidation.
+
+
+## Z-80 CPU control and interrupts, 2026-10-11
+
+Batch10 restores PDF27–32/printed23–28 with Qwen:82 regions,75 text crops,
+seven original diagrams and16 source-linked review flags. Sections4–5 include
+RESET/WAIT/HALT timing, interrupt modes, vector bytes and daisy-chain priority.
+The last summary point continues on33; the article remains partial pending33–38
+and full assembly. Printed “25 MHz” beside “400 ns,” “M1” in a mode1 description,
+“원쪽,” and a faint candidate “Retum” remain visible in the review record rather
+than being silently repaired. Human acceptance is pending.
+
+| Observation | Qwen CPU control / interrupts |
+| --- | ---: |
+| Raw stage including render/startup/export | 313.01s |
+| Recognition calls, contained in raw stage | 281.76s |
+| Correction and recording window | 491.75s |
+| Corrected non-whitespace characters | 8,731 |
+| Observed uncached, non-write correction input tokens | 208,143 |
+| Observed cached correction input tokens | 2,287,744 |
+| Observed correction output tokens | 13,186 |
+
+Cache-write tokens were zero. Local Qwen46,025 tokens (38,192 prompt/7,833
+completion) are separate. All75 inferences were fresh; no retries. Correction
+includes exact source edits, joins and flags and overlaps raw inference by223.32s.
+The raw-monitoring assistant window also includes development of the exact-edit
+helper. These observed token counts include session/context overhead; they are
+not a normalized OCR correction cost or evidence of paid-token savings. Export
+completed before an interruption; its end is reconstructed from the completed
+export-results file timestamp. The inactive gap is excluded from active windows.
+
+| Fixed crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p27r02 — CPU control signals | 15.31% | 23.47% |
+| p29r08 — interrupt introduction | 4.38% | 12.41% |
+| p31r01 — IM2 peripheral/vector prose | 0.00% | 13.79% |
+| p32r06 — EI/DI control prose | 0.56% | 11.86% |
+
+Qwen's15 and6 edits in the first two samples are entirely missing U+0305 overbar
+codepoints; the base text matches. Primary CER retains those meaningful notation
+errors. The fourth crop has one corrected Korean character. References were sealed
+before alternate OCR and are unblinded assistant readings, not independent human
+gold. Tesseract used identical PNGs, kor+eng/OEM1/PSM6; no font tuning or second
+paid correction. This favors Qwen raw accuracy in these samples while leaving the
+paid-token/time tradeoff unresolved.
+
+Native export integrity, UTF-8 review ranges and byte-identical rebuild pass.
+Across ten checkpoints:35 source pages,519 regions,480 text crops,39 figures,
+207 logical BASIC lines,1,071 physical hex rows and105 flags. Six bodies are
+complete, one partial and29 untouched (30 unfinished). Next: Z-80 PDF33–38 and
+full assembly. Reading room follows full issue restoration and metric consolidation.
