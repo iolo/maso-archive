@@ -1427,3 +1427,24 @@ commit code/documentation. Do not count a partial opening as a complete article.
   crops,69 images,1,484 BASIC lines,1,120 hex rows,97 assembly rows,29 Logo rows,
   371 flags. Next inspect98–101. Full issue/metrics/reading room remain outstanding.
   Homepage edit preserved; final report/commit usage carries forward.
+
+
+### July 샤를의 법칙 restored, 2026-10-11
+
+- Batch23 completes98–100:49 regions,46 text crops,3 diagrams,57 BASIC lines/
+  107 physical rows and23 review flags.101 begins CP/M 입문.
+- Planned7 Tesseract/39 Qwen crops; no retry, fallback, crop change or missing
+  numbered rows observed. Raw136.66s; recognition Qwen120.44s/Tesseract0.90s.
+  Local19,780 tokens separate from paid assistant usage.
+- Correction/source/helper window292.59s overlaps raw89.35s.19,588 uncached input,
+  1,296,128 cached input and8,777 output tokens; zero cache-write. No causal savings.
+- Source HPLOT/colons/Hangul restored. Printed prose/legend inconsistencies retained;
+  faint4040 mark, historical prompt spelling, zero/O and exact padding remain flagged.
+  No executable or byte-perfect claim; mandatory human review pending.
+- Four fixed samples favor Qwen. Tesseract uses eng on code, limiting interpretation
+  of the Korean-string sample. Unblinded CER is not a whole-article accuracy score.
+- Export integrity, explicit line identities, review/listing byte ranges and
+  byte-identical rebuild pass. July:18 complete,18 untouched;90 pages,1,289 regions,
+  1,217 text crops,72 images,1,541 BASIC lines,1,120 hex rows,97 assembly rows,
+  29 Logo rows,394 flags. Next inspect CP/M101–119. Full goal remains unfinished.
+  Homepage edit preserved; final report/commit usage carries forward.

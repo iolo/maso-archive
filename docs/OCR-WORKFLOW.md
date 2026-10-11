@@ -408,9 +408,9 @@ remaining after local OCR.
 The maintainer selected July1984 for the next trial. See [the trial plan and
 measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
-Seventeen complete article bodies, including the assembled music-card hardware/software/hex
-article,18-page Z-80 feature,8-page Apple sound article, three FC-100 games, the Apple 위기일발/화성인 디거 games and SPC-1000 보트 탐험/캥거루, automatic tape article and 로고강좌, are recorded in
-[July progress](ocr-july-progress.json). Nineteen paginated bodies remain;
+Eighteen complete article bodies, including the assembled music-card hardware/software/hex
+article,18-page Z-80 feature,8-page Apple sound article, three FC-100 games, the Apple 위기일발/화성인 디거 games and SPC-1000 보트 탐험/캥거루, automatic tape article, 로고강좌 and 샤를의 법칙, are recorded in
+[July progress](ocr-july-progress.json). Eighteen paginated bodies remain;
 six unpaginated TOC parent headings are tracked separately.
 
 The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
@@ -423,7 +423,9 @@ adds mixed evidence: Tesseract wins the sampled clear prose and assembly row ord
 Qwen wins the numeric table and hex dump. Check column association and plausible
 source normalization before trusting technical output. Batch22 retained all short Logo
 procedure rows, but prefix quotes and historical wording still required source checks.
-It is guidance for choosing new checkpoints;
+Batch23 retained57 BASIC lines but needed HPLOT, punctuation and bitmap Hangul
+corrections. Its English-only Tesseract code alternate limits conclusions about
+Korean strings. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

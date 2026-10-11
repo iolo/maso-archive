@@ -1473,3 +1473,66 @@ no partial bodies and zero human acceptances. Cumulative coverage:87 source page
 97 assembly rows,29 Logo procedure rows and371 review flags. Next inspect 샤를의 법칙,
 candidate98–100, and boundary101. Full restoration, final metric consolidation
 and the reading room remain outstanding.
+
+
+## Charles's law and Hangul-bearing BASIC, 2026-10-11
+
+Batch23 completes 샤를의 법칙, PDF98–100/printed94–96;101 begins CP/M 입문.
+Its49 regions contain46 text crops and three preserved images: the flowchart,
+line-number diagram and window diagram. The complete two-column BASIC listing
+contains57 logical numbered lines and107 physical text rows. Every printed line
+and wrapped continuation was checked;23 flags remain for mandatory human review.
+
+The preassigned route used7 Tesseract ordinary-prose/byline/caption crops and39
+Qwen scientific/technical prose, variable, heading and code crops. All completed
+without interruption, retry, fallback or crop change. No omitted numbered BASIC
+rows were observed in this run.
+
+| Observation | Planned mixed route |
+| --- | ---: |
+| Raw worker elapsed, including setup/render/export | 136.66s |
+| Tesseract recognition,7 calls | 0.90s |
+| Qwen recognition,39 calls | 120.44s |
+| Correction/source review/helper window | 292.59s |
+| Raw overlap with correction | 89.35s |
+| Corrected non-whitespace characters | 3,765 |
+| Uncached, non-write correction input tokens | 19,588 |
+| Cached correction input tokens | 1,296,128 |
+| Correction output tokens | 8,777 |
+
+Cache-write was zero. Local Qwen usage was19,780 tokens (16,416 prompt;3,364
+completion), separate from paid assistant work and alternate evaluation. Recognition
+is nested within raw time, which overlaps correction. The correction window
+includes literal/row review and helper preparation; it cannot isolate a causal
+engine cost or support a speed ranking against different content.
+
+Qwen repeatedly changed HPLOT to HPLLOT/HPL0T, confused colons and semicolons,
+and misread bitmap Hangul in display strings. Those readings were source-corrected.
+The source's prose references to9010 and100, variable-legend XI/YI, 사용도 and
+가로안 remain rather than being reconciled with the listing. A tiny visible mark
+before the4040 comparison is retained as a period and flagged as possibly damaged
+ink. Historical 읍 in two faint prompts, zero/O, and exact PRINT padding still need
+human confirmation. No syntax repair, execution or byte-perfect claim is made.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p98r04 — introduction, Tesseract | 0.00% | 5.48% |
+| p100r02 — variable definitions, Qwen | 2.30% | 5.75% |
+| p100r06 — BASIC with Korean strings, Qwen | 3.51% | 32.46% |
+| p100r13 — repeated graphics commands, Qwen | 5.76% | 21.58% |
+
+[Comparison21](ocr-july-comparison-21.json) uses fixed identical PNGs and references
+sealed before alternate OCR. References are unblinded assistant readings, not human
+gold or whole-article error rates. The established Tesseract alternate configuration
+uses `eng` for code and `kor+eng` for other text. Consequently the Korean-string
+sample compares those configurations, not the best possible multilingual Tesseract
+setup. Compact CER ignores whitespace and does not validate execution. The samples
+support continued technical-text trials without establishing paid-token savings.
+
+Export integrity, text/review/listing UTF-8 ranges, explicit line identities and a
+byte-identical rebuild pass. July now has18 complete article bodies and18 untouched,
+no partial bodies and zero human acceptances. Cumulative coverage:90 source pages,
+1,289 regions,1,217 text crops,72 images,1,541 BASIC lines,1,120 hex rows,
+97 assembly rows,29 Logo procedure rows and394 review flags. Next inspect CP/M 입문,
+candidate101–118 and boundary119. Full restoration, final metric consolidation
+and the reading room remain outstanding.
