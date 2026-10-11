@@ -4934,6 +4934,80 @@
       "elapsed_seconds": 5.989346027374268,
       "observed_responses": 0,
       "tokens": null
+    },
+    {
+      "id": "preflight-47",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-11T18:59:48.598398+00:00",
+      "end": "2026-10-11T19:01:23.065358+00:00",
+      "elapsed_seconds": 94.4669599533081,
+      "observed_responses": 5,
+      "tokens": {
+        "input_tokens": 584447,
+        "cached_input_tokens": 572288,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3048,
+        "reasoning_output_tokens": 791,
+        "total_tokens": 587495,
+        "uncached_nonwrite_input_tokens": 12159
+      }
+    },
+    {
+      "id": "raw-47",
+      "stage": "raw-ocr",
+      "engine": "mixed",
+      "start": "2026-10-11T19:01:23.081042+00:00",
+      "end": "2026-10-11T19:01:32.030010+00:00",
+      "elapsed_seconds": 8.948967933654785,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 124408,
+        "cached_input_tokens": 123136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 187,
+        "reasoning_output_tokens": 16,
+        "total_tokens": 124595,
+        "uncached_nonwrite_input_tokens": 1272
+      }
+    },
+    {
+      "id": "correction-47",
+      "stage": "semantic-correction",
+      "engine": "mixed",
+      "start": "2026-10-11T19:01:32.047548+00:00",
+      "end": "2026-10-11T19:07:40.626285+00:00",
+      "elapsed_seconds": 368.57873702049255,
+      "observed_responses": 16,
+      "tokens": {
+        "input_tokens": 2405619,
+        "cached_input_tokens": 2361600,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10061,
+        "reasoning_output_tokens": 2998,
+        "total_tokens": 2415680,
+        "uncached_nonwrite_input_tokens": 44019
+      }
+    },
+    {
+      "id": "export-47",
+      "stage": "export",
+      "engine": "mixed",
+      "start": "2026-10-11T19:07:40.644026+00:00",
+      "end": "2026-10-11T19:07:41.316740+00:00",
+      "elapsed_seconds": 0.6727139949798584,
+      "observed_responses": 0,
+      "tokens": null
+    },
+    {
+      "id": "evaluation-47",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-11T19:07:41.332848+00:00",
+      "end": "2026-10-11T19:07:42.263394+00:00",
+      "elapsed_seconds": 0.9305460453033447,
+      "observed_responses": 0,
+      "tokens": null
     }
   ],
   "money_cost": null,
@@ -4941,36 +5015,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T18:56:43.406010+00:00",
-    "elapsed_seconds": 142766.39200997353,
-    "observed_responses": 1701,
+    "end": "2026-10-11T19:07:42.263394+00:00",
+    "elapsed_seconds": 143425.2493941784,
+    "observed_responses": 1734,
     "tokens": {
-      "input_tokens": 228926489,
-      "cached_input_tokens": 223762944,
+      "input_tokens": 233155777,
+      "cached_input_tokens": 227908608,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1244879,
-      "reasoning_output_tokens": 297320,
-      "total_tokens": 230171368,
-      "uncached_nonwrite_input_tokens": 5163545
+      "output_tokens": 1263970,
+      "reasoning_output_tokens": 301656,
+      "total_tokens": 234419747,
+      "uncached_nonwrite_input_tokens": 5247169
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T18:56:43.406010+00:00",
-    "elapsed_seconds": 142766.39200997353,
-    "observed_responses": 255,
+    "end": "2026-10-11T19:07:42.263394+00:00",
+    "elapsed_seconds": 143425.2493941784,
+    "observed_responses": 266,
     "tokens": {
-      "input_tokens": 32994835,
-      "cached_input_tokens": 32366592,
+      "input_tokens": 34109649,
+      "cached_input_tokens": 33455232,
       "cache_write_input_tokens": 0,
-      "output_tokens": 103450,
-      "reasoning_output_tokens": 17604,
-      "total_tokens": 33098285,
-      "uncached_nonwrite_input_tokens": 628243
+      "output_tokens": 109245,
+      "reasoning_output_tokens": 18135,
+      "total_tokens": 34218894,
+      "uncached_nonwrite_input_tokens": 654417
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction46 covers127 source text crops and369 numbered BASIC lines across571 physical rows;730.481s overlaps313.260s raw. Includes source inspection, raw-derived correction, rule-string counting, status/context recovery, user status response and helper/index preparation. Export/evaluation/assembly are separate. Original terminal143 confirmed before resume;34Q/10T successes reused, no source recrop. Initial117Q10T becomes116Q11T after one512-token repetitive-dot failure. Two worker lifespans341.445s exclude recovery gap. Completed local48489-token lower bound includes839failed tokens; interrupted p234r12 usage unknown. Four samples preselected before primary OCR; reference sealed before alternates. T language eng on Latin-only samples, kor+eng on Korean REM sample. Full Cashbook229–237 assembled:399 numbered lines611physical rows12columns75flags. One unreadable partial Hangul glyph; source encoding/monospacing provisional. No causal paid-token saving claim. All earlier checkpoint recovery, overlap, probe, sample-selection and measurement limitations remain in docs/ocr-july-progress.json and private per-batch evidence. Usage windows include tool waits/helper work and must not be treated as pure correction compute; between-window usage retained. Raw and correction overlap must be subtracted for a combined elapsed estimate. Human review time and final acceptance are still unknown."
+  "limitation": "Correction47 covers50 source text crops/46 classified advertisements/44phone and2postal contacts;368.579s overlaps140.661s raw. Includes source inspection, raw-derived edits, field checks,14 boundary repairs affecting19crops, terminal recovery and helper preparation. Export/evaluation separate. Original terminal143 confirmed;12 unchanged Q and3T results reused,2 completed changed crops repeated and retained. Fixed47Q3T, no fallback. Two worker lifespans149.538s exclude recovery gap. Completedlocal21539-token lower bound includes2superseded responses; interruptedp238r18 unknown. Rejected0.326s Tprobe is preparation-only; final sample image changed so alternate rerun. Four preselected IDs unchanged, two sample images repaired before sealing/alternates. No causal paid-token savings claim. Earlier recovery, overlap, probe and sample limitations remain per-checkpoint in docs/ocr-july-progress.json and private evidence. Windows include tool waits/helper work and are not pure correction compute; between-window usage retained. Human review time and final acceptance unknown."
 }

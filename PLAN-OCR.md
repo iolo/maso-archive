@@ -1982,3 +1982,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
   zero partial,four untouched. Next classified238–239 boundary verification, then
   Q&A,industry history and advertising index. Final metrics/reading room pending.
   Reporting/commit usage after the audit cutoff carries forward.
+
+### July classified section restored, 2026-10-12
+
+- Complete238–239:51 regions,50 text crops,one photo,19 flags;46 advertisements,
+  35sale/11exchange,44phone/two postal contacts. Cross-page listing explicitly
+  joined; four prices remain with their source advertisement.240 starts Q&A.
+- Fixed47Q/3T after rejected0.326s T probe. Terminal143 confirmed;12Q/3T reused.
+  Fourteen shared boundaries repaired across19 crops; only two completed crops
+  repeated, original evidence/cost retained. No fallback; interrupted usage unknown.
+- Raw149.538s; local21,539-token lower bound includes two superseded responses.
+  Correction368.579s overlaps140.661s. Paid44,019 uncached/2,361,600 cached input;
+  10,061 output includes2,998 reasoning. Source checks/repair/recovery/helper work
+  included; export/evaluation separate. No causal paid-token saving claim.
+- Qwen wins four comparison45 samples. IDs preselected; two images changed during
+  source repair before seal/alternates. Names/model spelling/source anomalies
+  still need human review. All phone strings and two postal contacts source-checked.
+- Export/rebuild/UTF-8/cross-page checks pass. July33 complete,zero partial,three
+  untouched. Next Q&A240 onward,industry history and advertising index; full metrics
+  and reading room afterward. Final reporting/commit usage carries forward.

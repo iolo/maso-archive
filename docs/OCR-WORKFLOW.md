@@ -715,3 +715,19 @@ explicit flags, and an uncertain partial glyph should remain unreadable.
 For comparison crops, choose Tesseract language from visible content: Latin-only
 code can use English, while code containing Korean REM/text needs Korean+English.
 Record this setting and avoid treating a few code crops as article-wide accuracy.
+
+### July batch47: classified listings and repaired comparison images
+
+Keep each product/price/contact group as one advertisement, including multiple
+prices under a shared contact. Join explicit page continuations without merging
+adjacent ads. Check short phone prefixes and repeated contacts against source;
+do not infer missing digits or reconcile differently printed personal names.
+
+Audit shared crop boundaries before OCR. A manually estimated seam can touch the
+first row of the next entry even when most text is intact. If discovered later,
+retain original evidence/cost and rerun only completed crops whose images change.
+Wait for authoritative terminal status before changing worker-owned evidence.
+
+When a comparison image changes after a routing probe, retain the probe as
+preparation overhead and run the alternate on the final image. Do not reuse
+mismatched PNGs or describe the final sample image as fully preselected.

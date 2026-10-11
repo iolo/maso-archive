@@ -3035,3 +3035,58 @@ acceptance remains zero. Next: verify and restore the classified section238–23
 then Q&A,computer-industry history and the advertising index. Issue-wide metrics
 and the authorized reading room follow restoration. The usage audit ends at
 2026-10-11T18:56:43.406010+00:00; subsequent reporting/commit usage carries forward.
+
+## Batch47: classified section, PDF238–239
+
+Restored the complete section:51 regions,50 text crops,one opening photograph
+and19 review flags. There are46 advertisements (35 sale,11 exchange),44 telephone
+contacts and two postal contacts. A sale listing crosses the page boundary;
+the split word is explicitly joined. One advertisement retains four separately
+priced items under its single contact. Page240 begins Q&A.
+
+A0.326s Tesseract probe on a dense mixed-field listing mangled Korean words and
+a model label. Routing stayed47Q/3T: Qwen listing bodies, Tesseract short headings.
+One worker returned terminal143;12 unchanged Q stages and three T crops were
+reused. Source review found14 shared boundaries touching ink;19 crops moved into
+blank seams. Only two changed crops had completed OCR and were repeated. Their
+original images/responses/costs remain retained. No token-limit fallback occurred.
+
+| Observation | Batch47 |
+| --- | ---: |
+| Two raw worker lifespans, recovery gap excluded |149.538s|
+| Successful Qwen recognition, including superseded crops |120.988s|
+| Tesseract primary recognition |0.293s|
+| Completed local tokens, lower bound |21,539|
+| Correction window |368.579s|
+| Correction/raw overlap |140.661s|
+| Paid uncached/cached input in correction window |44,019 /2,361,600|
+| Paid output, including2,998 reasoning |10,061|
+
+The local lower bound includes47 final and two superseded Qwen responses;
+interrupted-request usage is unknown. The rejected probe is preparation overhead.
+The correction window includes source review, field checks, crop repair, recovery
+and helper preparation. Export and evaluation are separate; no causal paid-token
+savings claim follows from comparing different material.
+
+[Comparison45](ocr-july-comparison-45.json) favors Qwen on all four samples:
+compact CER Q/T is0.00/9.38%,0.00/8.08%,0.57/10.92%,and0.00/15.56%.
+The four IDs were selected before primary OCR, but two sample boundaries changed
+before references were sealed and alternates run. The obsolete probe image was
+not reused as a final alternate. Both engines use the same final PNG for each
+comparison; Tesseract uses Korean+English. References are unblinded assistant
+source readings, not human gold or whole-article accuracy estimates.
+
+Source review corrected a product vowel, personal-name vowels and a silently
+normalized English source anomaly. Historical phone grouping, differing names
+sharing one phone, an unusual model spelling and a missing-looking parenthesis
+are retained or flagged. No modern identity/contact inference was made. The
+private field audit independently checks every printed phone string and both
+postal contacts; all source text remains private.
+
+Export integrity, byte-identical rebuild, the cross-page join and all UTF-8 review
+ranges pass. Article pin`30b3543fe07dae185bae50202fff4bd24341b1346dbc96d6838e2f69cc744412`;
+manifest`5e266554cc39a7bcbceae443c2d2050b8f4cc9fdfcf10fa9f0f9ce77b844a666`.
+July has33 complete bodies,zero partial and three untouched; human acceptance is
+still pending. Next verify the Q&A extent from240 onward. Final metrics/reading
+room remain after restoration. Audit cutoff2026-10-11T19:07:42.263394+00:00;
+reporting and commit usage after this point carries forward.
