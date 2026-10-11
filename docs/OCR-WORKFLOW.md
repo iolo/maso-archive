@@ -533,3 +533,20 @@ split correction windows separate and disclose any approximate interruption
 boundary. The five-row KEY routine remains literal and unexecuted; printed syntax
 errors, duplicated captions and source spelling are review items, not automatic
 repair targets.
+
+### Printed listing order and diagnostic fields
+
+July hardware37 supplies another routing comparison: clear introductory prose ties
+at0% compact CER, while Qwen wins the memory-map and two code samples. Its small
+206 listing still loses fields and confuses labels outside the selected sample.
+Keep every printed row number, address, object field, diagnostic status and comment
+in the source audit; an apparently complete OCR response or favorable sample score
+does not establish complete listing fidelity.
+
+For the assembled195–206 tutorial, preserve the physical source provenance while
+ordering monitor rows1–286 across205,206,203,204. The indexed export moves STAT
+numbers first; use a separately sealed native-column reference for OCR comparison
+so editorial reordering does not inflate either engine's errors. Retain source
+A/V/U statuses, repeated zero fields and inconsistent addresses. Do not regenerate
+object bytes or append code where the original ends at a partial routine. The
+complete article and incomplete original program are distinct recorded facts.

@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "scope": "Four preselected identical-PNG crops: introductory monitor prose, address/routine rows, regular-size code and tiny code. Assistant source references sealed before alternates; unblinded, not human gold. Code references retain printed address/object/STAT order, while canonical export moves STAT first. Compact CER ignores whitespace but includes punctuation; faint source glyph references provisional. Tesseract kor+eng on prose and eng on code/table. English table alternate setting selected from source content after primary but before alternate inference, no T probe. One T-primary Q alternate capped512; incomplete response gets no CER. No repeated paid correction.",
+  "rows": [
+    {
+      "batch": "37",
+      "primary_engine": "tesseract",
+      "region_id": "p201r07",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-37/ocr/scan-maso-1984-07-toc-0028/ocr-page201/p201r07.png",
+        "sha256": "6b45af67fa64894c08d98095892f3e3baa48bb5c6985a5d6bd5a6f70360cb11b",
+        "bytes": 86845
+      },
+      "reference": {
+        "path": "comparison-reference.json",
+        "sha256": "d2c24b3a433db808977de1521bd0212c1e10a409c5b6b059831a197e06aaf2f8",
+        "bytes": 807
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T16:08:32.138355+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "b41e05c59621db01a0ec3f163246765d15ff000e3526e9ff6538bc2d085163c1",
+          "bytes": 26797
+        },
+        "comparison_reference": {
+          "path": "comparison-reference.json",
+          "sha256": "d2c24b3a433db808977de1521bd0212c1e10a409c5b6b059831a197e06aaf2f8",
+          "bytes": 807
+        },
+        "method": "Assistant source reading, sealed before alternates, unblinded not human gold. Comparison code retains printed address/object/STAT column order; canonical reading export moves STAT first for indexed navigation. No comparison penalty for that editorial reorder."
+      },
+      "qwen_seconds": 1.9297430739970878,
+      "tesseract_seconds": 0.1252931039998657,
+      "qwen_usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 285,
+        "total_tokens": 338,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.034482758620689655,
+          "cer_edits": 2,
+          "cer_reference_chars": 58,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 47,
+          "wer": 0.3333333333333333
+        },
+        "tesseract": {
+          "cer": 0.034482758620689655,
+          "cer_edits": 2,
+          "cer_reference_chars": 58,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 47,
+          "wer": 0.3333333333333333
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "37",
+      "primary_engine": "qwen",
+      "region_id": "p202r20",
+      "category": "other",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-37/ocr/scan-maso-1984-07-toc-0028/ocr-page202/p202r20.png",
+        "sha256": "ffd3accdfe917e9f9b10970c58d08acc04a12465b2859b0e6e284ccd3c8eb752",
+        "bytes": 80358
+      },
+      "reference": {
+        "path": "comparison-reference.json",
+        "sha256": "d2c24b3a433db808977de1521bd0212c1e10a409c5b6b059831a197e06aaf2f8",
+        "bytes": 807
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T16:08:32.138355+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "b41e05c59621db01a0ec3f163246765d15ff000e3526e9ff6538bc2d085163c1",
+          "bytes": 26797
+        },
+        "comparison_reference": {
+          "path": "comparison-reference.json",
+          "sha256": "d2c24b3a433db808977de1521bd0212c1e10a409c5b6b059831a197e06aaf2f8",
+          "bytes": 807
+        },
+        "method": "Assistant source reading, sealed before alternates, unblinded not human gold. Comparison code retains printed address/object/STAT column order; canonical reading export moves STAT first for indexed navigation. No comparison penalty for that editorial reorder."
+      },
+      "qwen_seconds": 1.0128563809994375,
+      "tesseract_seconds": 0.0644380169978831,
+      "qwen_usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 316,
+        "total_tokens": 346,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 42,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 34,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.5,
+          "cer_edits": 21,
+          "cer_reference_chars": 42,
+          "cer_no_whitespace": 0.47058823529411764,
+          "cer_no_whitespace_edits": 16,
+          "cer_no_whitespace_reference_chars": 34,
+          "wer": 0.5555555555555556
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "37",
+      "primary_engine": "qwen",
+      "region_id": "p205r23",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-37/ocr/scan-maso-1984-07-toc-0028/ocr-page205/p205r23.png",
+        "sha256": "6c40e0e686b2b0f1449cad7fe4263cbede646e99f983067774ab6f582e28ed2c",
+        "bytes": 132626
+      },
+      "reference": {
+        "path": "comparison-reference.json",
+        "sha256": "d2c24b3a433db808977de1521bd0212c1e10a409c5b6b059831a197e06aaf2f8",
+        "bytes": 807
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T16:08:32.138355+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "b41e05c59621db01a0ec3f163246765d15ff000e3526e9ff6538bc2d085163c1",
+          "bytes": 26797
+        },
+        "comparison_reference": {
+          "path": "comparison-reference.json",
+          "sha256": "d2c24b3a433db808977de1521bd0212c1e10a409c5b6b059831a197e06aaf2f8",
+          "bytes": 807
+        },
+        "method": "Assistant source reading, sealed before alternates, unblinded not human gold. Comparison code retains printed address/object/STAT column order; canonical reading export moves STAT first for indexed navigation. No comparison penalty for that editorial reorder."
+      },
+      "qwen_seconds": 5.341529327000899,
+      "tesseract_seconds": 0.12375953899754677,
+      "qwen_usage": {
+        "completion_tokens": 162,
+        "prompt_tokens": 456,
+        "total_tokens": 618,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.00784313725490196,
+          "cer_edits": 2,
+          "cer_reference_chars": 255,
+          "cer_no_whitespace": 0.004975124378109453,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 201,
+          "wer": 0.01818181818181818
+        },
+        "tesseract": {
+          "cer": 0.09019607843137255,
+          "cer_edits": 23,
+          "cer_reference_chars": 255,
+          "cer_no_whitespace": 0.1044776119402985,
+          "cer_no_whitespace_edits": 21,
+          "cer_no_whitespace_reference_chars": 201,
+          "wer": 0.3090909090909091
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "37",
+      "primary_engine": "qwen",
+      "region_id": "p206r23",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-37/ocr/scan-maso-1984-07-toc-0028/ocr-page206/p206r23.png",
+        "sha256": "e7f5d2dd867afa08ab43f4efb91071b2f734926e558b3535285417bd77e9be51",
+        "bytes": 76378
+      },
+      "reference": {
+        "path": "comparison-reference.json",
+        "sha256": "d2c24b3a433db808977de1521bd0212c1e10a409c5b6b059831a197e06aaf2f8",
+        "bytes": 807
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T16:08:32.138355+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "b41e05c59621db01a0ec3f163246765d15ff000e3526e9ff6538bc2d085163c1",
+          "bytes": 26797
+        },
+        "comparison_reference": {
+          "path": "comparison-reference.json",
+          "sha256": "d2c24b3a433db808977de1521bd0212c1e10a409c5b6b059831a197e06aaf2f8",
+          "bytes": 807
+        },
+        "method": "Assistant source reading, sealed before alternates, unblinded not human gold. Comparison code retains printed address/object/STAT column order; canonical reading export moves STAT first for indexed navigation. No comparison penalty for that editorial reorder."
+      },
+      "qwen_seconds": 5.471067341000889,
+      "tesseract_seconds": 0.11770171600073809,
+      "qwen_usage": {
+        "completion_tokens": 173,
+        "prompt_tokens": 301,
+        "total_tokens": 474,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.014492753623188406,
+          "cer_edits": 4,
+          "cer_reference_chars": 276,
+          "cer_no_whitespace": 0.01818181818181818,
+          "cer_no_whitespace_edits": 4,
+          "cer_no_whitespace_reference_chars": 220,
+          "wer": 0.05263157894736842
+        },
+        "tesseract": {
+          "cer": 0.2246376811594203,
+          "cer_edits": 62,
+          "cer_reference_chars": 276,
+          "cer_no_whitespace": 0.2681818181818182,
+          "cer_no_whitespace_edits": 59,
+          "cer_no_whitespace_reference_chars": 220,
+          "wer": 0.6491228070175439
+        }
+      },
+      "qwen_status": "complete"
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering and startup. Alternate OCR is evaluation overhead, not ordinary restoration work."
+}

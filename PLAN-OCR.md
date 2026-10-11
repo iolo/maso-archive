@@ -1757,3 +1757,29 @@ commit code/documentation. Do not count a partial opening as a complete article.
   3,047 text crops,176 images,838 flags,zero human acceptance. Next restore the
   monitor/listing pages201–206 and assemble the full tutorial. Full-issue metrics
   and reading room remain pending; final reporting/commit usage carries forward.
+
+### July hardware tutorial complete, 2026-10-12
+
+- Restored201–206 and assembled full195–206/printed191–202. Batch37 adds207
+  regions,199 text crops,8 images,286 numbered monitor rows,2 LOOP rows,
+  37 table rows/74 cells including one blank, and50 review flags.
+- Full tutorial:362 regions,339 text crops,23 original images,293 physical listing
+  rows (5 KEY +2 LOOP +286 monitor),57 table rows/274 cells and87 flags. Monitor
+  pages appear in logical order205,206,203,204 with original provenance retained.
+- Fixed29T/170Q, one complete raw run458.051s; Qwen422.771s/Tesseract2.731s
+  recognition. Local64,169 tokens exact; no interruption, retry or fallback.
+- Correction861.88s overlaps428.26s raw. Observed66,986 uncached/4,095,488 cached
+  input and21,482 output tokens, including9,421 reasoning; zero cache-write.
+  Source field/row reconstruction and helper work included; assembly separate.
+- Comparison35: ordinary prose ties at0%; Qwen wins memory rows and both code
+  samples. Native-column references avoid penalizing the export's STAT-first
+  layout. Tiny206 code needed address/label/comment restoration despite low CER
+  on its selected crop; printed/source uncertainties remain review items.
+- Original program ends at the first PROM64 statement286. All printed rows are
+  restored, but no executable or complete-program claim is made. CTINT, CASETTE,
+  memory-map differences and provisional CHARACTER0BIT/row118 readings retained.
+- Coverage, all1–286 numbers,293 listing rows, review ranges, immutable segments
+  and byte-identical assembly rebuild pass. July27 complete,9 untouched,no partials;
+  170 unique pages,3,430 regions,3,246 text crops,184 images,888 flags,zero human
+  acceptance. Next contest commentary207–208candidate; ending still to inspect.
+  Final full-issue metrics/reading room pending; reporting/commit usage carries.

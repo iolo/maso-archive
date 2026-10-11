@@ -2411,3 +2411,72 @@ coverage is164 unique pages,3,223 regions,3,047 text crops,176 images and838 fla
 Next restore monitor pages201–206, including the listing printed out of logical
 order, then assemble the full tutorial. Full-issue metrics and reading room remain
 pending.
+
+### Hardware monitor restored and full tutorial assembled
+
+Batch37 restores PDF201–206/printed197–202:207 regions,199 text crops,8 original
+images,286 numbered monitor-listing rows plus a two-line LOOP example,37 table
+rows/74 cells including one blank, and50 review flags. The opening and monitor
+segments now form the complete195–206 tutorial. Its362 regions include339 text
+crops,23 images,293 physical listing rows,57 table rows/274 cells and87 flags.
+
+The printed monitor rows appear as143–214 on203,215–286 on204,1–70 on205 and
+71–142 on206. The reading export places the listing in numerical order while
+retaining every source page/image and field. STAT numbers move to the first field
+for navigation; a separate source transcript retains the printed address/object/
+STAT order. Original listing header and column geometry remain in the images.
+All286 printed numbers occur once. The original program ends at the first PROM64
+statement, so restored article completeness does not mean an executable or complete
+monitor program. No continuation was invented and no code was run.
+
+The fixed29T/170Q route completed without interruption, retry or fallback. Raw
+elapsed458.051s includes source verification, rendering, model loading, inference
+and evidence export. Successful recognition is422.771s Qwen and2.731s Tesseract,
+nested within raw elapsed. Exact local usage is64,169 tokens:52,339 prompt and
+11,830 completion. This batch has49 code crops, compared with three in36, as well
+as more total crops; the longer raw duration is not a matched engine-speed test.
+
+Correction elapsed861.88s overlaps raw by428.26s. Observed correction usage:
+66,986 uncached input,4,095,488 cached input and21,482 output tokens including9,421
+reasoning, with zero cache-write. Source review, row/column reconstruction,
+explicit joins/order and helper preparation are included; full assembly has a
+separate window. These observations do not isolate per-engine paid savings.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p201r07 — ordinary introductory prose | 0.00% | 0.00% |
+| p202r20 — four address/routine rows | 0.00% | 47.06% |
+| p205r23 — monitor rows7–12 | 0.50% | 10.45% |
+| p206r23 — small monitor rows94–99 | 1.82% | 26.82% |
+
+[Comparison35](ocr-july-comparison-35.json) uses preselected identical PNGs.
+Assistant references were sealed before alternates and remain unblinded, not human
+gold. Code references retain printed column order, avoiding a CER penalty for the
+canonical export's editorial STAT-first layout. Tesseract uses kor+eng prose and
+eng code/table. The table's English setting was selected from source content after
+primary inference but before its alternate, without a Tesseract probe. The sole
+T-primary Qwen alternate completed within512 tokens. Compact CER ignores whitespace
+but includes punctuation and uncertain tiny glyphs; it is not full-listing accuracy.
+
+Qwen omitted the numbered comment row213, lost several address/object fields on205,
+confused small MONIT labels and01D* addresses, duplicated119/120, omitted comments,
+and shortened zero fields on206. These were restored from the source, including
+parent listing images where narrow crop edges contain faint tips or adjacent-line
+fragments. Tesseract damaged headings and card rack wording. Memory-map rows and
+LED test values match the assistant's source reading; different07C*/7FC* maps and
+the blank0326 routine cell remain as printed. One overprinted header glyph is
+explicitly unreadable.
+
+Printed CTINT, CASETTE, PC→HL, 단단히, 검점, source address discrepancies and
+unfinished PROM64 remain. CHARACTER0BIT, the last digit of printed row118, small
+status/label shapes, punctuation and zero counts remain flagged. Two decorative
+dash rules use explicit editorial markers rather than invented byte counts. These
+are source-fidelity review items; no machine-code regeneration or circuit repair
+was attempted.
+
+Export and assembly checks verify all362 region records,23 images,293 listing
+rows, the full1–286 number sequence, source-segment hashes, review byte ranges and
+byte-identical rebuild. July now has27 complete bodies,9 untouched,no partials and
+zero human acceptances. Cumulative coverage:170 unique pages,3,430 regions,3,246
+text crops,184 images and888 flags. Next inspect contest commentary207–208 and
+its ending. Final issue metrics and the reading-room build remain pending.
