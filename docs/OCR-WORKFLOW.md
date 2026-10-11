@@ -473,8 +473,15 @@ Check repeated syllables at crop line breaks and keep printed errors such as
 onrmal and Compag. Unicode superscripts/Roman numerals affect compact CER; the
 four fixed samples favor Qwen, with Tesseract close on Lisp specs. Full Information
 Radar143–157 is assembled with426 regions and8 images. Source153/154 wraps and
-all review anchors are preserved;158 is a publisher advertisement. Next inspect
-VISICALC candidate164–168 before committing its route. This is guidance for choosing new checkpoints;
+all review anchors are preserved;158 is a publisher advertisement.
+VISICALC164–168 is now complete in33. Its English Tesseract dot-matrix table
+probe was badly corrupted, so Qwen was selected; the unchanged probe was reused
+only as an alternate comparison, counted once as setup cost. Qwen got all63
+numeric values but omitted coordinates and linearized the table, so numeric
+accuracy does not establish layout completeness. Restore circled keys/boxed
+cells against scans and preserve printed LIVE/SERLES5/MATN anomalies rather
+than repairing commands.116 physical command/annotation rows remain unexecuted.
+Next inspect data structures169–174 and verify its boundary. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

@@ -2118,3 +2118,80 @@ accepted. Cumulative140 unique source pages,2,576 regions,2,459 text crops,
 117 images and694 review flags. Listing totals are unchanged. Next inspect
 VISICALC candidate164–168; its exact extent is not yet verified. Final full-issue
 metrics and the authorized reading-room build remain outstanding.
+
+### VISICALC/VISIPLOT complete — batch33, 2026-10-11
+
+Restored PDF164–168/printed160–164. The next page169 visibly starts 자료구조.
+The five-page tutorial contains135 regions,122 text crops,13 source images,
+116 physical command/annotation rows and35 review flags. Ten charts, the original
+budget spreadsheet, a stacked equation and cursor-key diagram remain images;
+commands, equation and budget values have separate source-linked transcription.
+
+The planned route used29 Tesseract crops for introductory prose, titles/captions
+and93 Qwen crops for commands, technical instructions, reversed installment title
+and the dot-matrix table. A bounded English Tesseract table probe took0.333s and
+badly corrupted labels and numeric values. It was rejected for primary OCR, but
+the identical PNG/result was retained as its fixed comparison alternate after
+hash verification. No second Tesseract table call was made. The probe is extra
+setup recognition, excluded from primary recognition and raw-worker elapsed;
+its reuse adds no evaluation inference cost.
+
+Qwen transcribed all63 numeric values in the nine budget rows correctly against
+the assistant's source reading. It returned them as a vertical list and omitted
+spreadsheet coordinates, so correction restored row/column layout, row indices,
+column letters and headers. Printed TOTAL, AVE and ENGEL figures were not
+recalculated. A repeated-equals decoration is normalized to12 equals signs and
+the title is presented textually; the screenshot remains the glyph/position source.
+This is a63-cell observation from one unblinded assistant-reviewed table, not
+human-certified accuracy or a general table benchmark.
+
+One SIGTERM interrupted p166r11 after41 saved Qwen crops. All41 were reused
+unchanged; no successful inference was repeated and no routing changed. The
+measured worker attempts114.826s and94.441s total209.267s, excluding recovery
+preparation. Successful recognition176.489s Qwen/3.141s Tesseract is nested in
+raw elapsed. Local completed responses contain31,352 prompt plus4,183 completion
+tokens,35,535 total; interrupted response usage is unknown, so this is a lower
+bound. The rejected0.333s probe remains separate.
+
+Correction/source review, recovery and helper work456.13s overlaps197.43s of raw.
+Paid observations:23,657 uncached input,1,964,672 cached input and12,556 output
+including2,764 reasoning; zero cache-write. Setup, export, evaluation and reporting
+remain separate. Counts include mixed content and recovery work, so they do not
+establish causal per-engine savings.
+
+Qwen frequently confused circled R/S with circled digits or registered marks,
+inserted zero into VISIPLOT, and changed 저장시키자 to 저장시켜라. These were
+restored from source. Circled letters use Unicode enclosed forms; boxed cells
+and arrows use editorial square brackets. The circled a/@-like glyph remainsⓐ
+with an explicit identity flag. Physical command/annotation line breaks and
+wrapping hyphens remain; this is not an executable command script.
+
+Printed VISIPOLT, MATN/FOOD, the final I after its annotation, LIVE, SERLES5,
+Scale0, the missing7 afterG and the Y/N question followed by1 remain uncorrected.
+The faint sound word 뺑빼 and a formula-description digit remain provisional.
+All ten charts retain original labels, colors as scanned, geometry and data;
+none was reconstructed from computed values. Human review is mandatory.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p164r08 — ordinary introductory prose | 0.00% | 5.00% |
+| p164r23 — formula commands | 9.23% | 26.15% |
+| p165r06 — complete dot-matrix table | 13.80% | 68.40% |
+| p168r06 — mixed-language title commands | 5.26% | 15.79% |
+
+[Comparison31](ocr-july-comparison-31.json) uses preselected identical PNGs.
+Assistant references were sealed before new alternates; the earlier table probe
+had already informed routing. Tesseract uses English for the table and kor+eng
+for other samples, including commands. The one Tesseract-primary Qwen alternate
+completed within512 tokens. Compact CER ignores whitespace but counts restored
+coordinates and circled/boxed typography: the table's13.80% is not its numeric-
+cell error rate. All four samples favor Qwen, without proving paid-token savings.
+
+Export integrity, all135 regions,116 physical rows,63 source-checked numeric
+cells, explicit column continuations, UTF-8 review ranges and byte-identical
+rebuild pass. July now has24 complete bodies,12 untouched and no partials, zero
+human accepted. Cumulative145 unique pages,2,711 regions,2,581 text crops,130
+images and729 flags. This batch adds116 VISICALC command/annotation rows; earlier
+BASIC, hex, assembly, Logo and FORTRAN counts remain unchanged. Next inspect
+자료구조 candidate169–174, including its exact final boundary. Full-issue metric
+consolidation and the authorized reading-room build remain pending.

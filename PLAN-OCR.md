@@ -1650,3 +1650,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   2,576 regions,2,459 text,117 images,694 flags,zero human acceptances. Next
   VISICALC candidate164–168, extent still to verify. Final issue metrics and
   reading-room build remain pending; homepage edit preserved. Usage tail carries.
+
+### July VISICALC/VISIPLOT complete, 2026-10-11
+
+- Full164–168 restored;169 starts data structures.135 regions,122 text,13 images,
+  116 physical command/annotation rows,63 numeric table cells and35 review flags.
+  Ten charts, spreadsheet, equation and cursor-key diagram preserved as images.
+- Planned29 Tesseract/93 Qwen. English T table probe0.333s badly corrupted dot-
+  matrix text and values, so Q selected. Probe reused only as the fixed alternate,
+  with no second table T call. Q table values all63 match the source, but row/
+  column coordinates and reading layout needed restoration.
+- One SIGTERM after41 saved Qwen crops; all reused, no route change or successful
+  crop repeated. Measured raw209.27s; successful recognition176.49s Q/3.14s T.
+  Local35,535 completed-response tokens are a lower bound; interrupted cost unknown.
+- Correction456.13s overlaps197.43s;23,657 uncached/1,964,672 cached input and
+  12,556 output. Four comparison31 samples favor Qwen, with typography/coordinates
+  affecting CER. No causal paid-cost claim. Commands remain unexecuted; original
+  VISIPOLT, MATN/FOOD, LIVE and SERLES5 retained beside glyph/word review flags.
+- Export,116 row counts,63 cells, complete coverage, UTF-8 ranges and byte-identical
+  rebuild pass. July24 complete,12 untouched,no partials;145 unique source pages,
+  2,711 regions,2,581 text,130 images,729 flags,zero human acceptance. Next data
+  structures candidate169–174, final boundary still to inspect. Final metrics/
+  reading room pending; homepage edit preserved and reporting usage tail carries.

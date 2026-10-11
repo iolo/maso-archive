@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "scope": "Four preselected identical-PNG crops: ordinary introduction, formula commands, full dot-matrix budget table, mixed-language title commands. Assistant source reference sealed before NEW alternates, unblinded and not human gold; earlier table T probe informed routing and is reused as its fixed alternate after crop-hash match. Table T eng, all other T kor+eng including commands. One T-primary Q alternate capped512. Compact CER includes editorial boxed/enclosed symbols and restored coordinate labels; not a pure numeric-cell score. Q table63 numeric values separately source-checked. No repeated paid correction or table T inference.",
+  "rows": [
+    {
+      "batch": "33",
+      "primary_engine": "tesseract",
+      "region_id": "p164r08",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-33/ocr/scan-maso-1984-07-toc-0023/ocr-page164/p164r08.png",
+        "sha256": "337ee0cc68edd7307dca957e3075389faa0c261a37dcd6e7f87f6645e1e98c7a",
+        "bytes": 105811
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "9381ee7ec3190f164afad67ff793e638abf8ed00dd444b79b51da26ab6bb54c8",
+        "bytes": 14851
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T14:42:00.811625+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "9381ee7ec3190f164afad67ff793e638abf8ed00dd444b79b51da26ab6bb54c8",
+          "bytes": 14851
+        },
+        "method": "Assistant source reference sealed before new alternates; unblinded and not human gold. Table T probe already seen for routing. Circled/boxed notation, row coordinates and table layout affect CER."
+      },
+      "qwen_seconds": 1.9577453840029193,
+      "tesseract_seconds": 0.15060759100015275,
+      "qwen_usage": {
+        "completion_tokens": 51,
+        "prompt_tokens": 357,
+        "total_tokens": 408,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.01282051282051282,
+          "cer_edits": 1,
+          "cer_reference_chars": 78,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 60,
+          "wer": 0.10526315789473684
+        },
+        "tesseract": {
+          "cer": 0.05128205128205128,
+          "cer_edits": 4,
+          "cer_reference_chars": 78,
+          "cer_no_whitespace": 0.05,
+          "cer_no_whitespace_edits": 3,
+          "cer_no_whitespace_reference_chars": 60,
+          "wer": 0.21052631578947367
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "33",
+      "primary_engine": "qwen",
+      "region_id": "p164r23",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-33/ocr/scan-maso-1984-07-toc-0023/ocr-page164/p164r23.png",
+        "sha256": "f708dd98fad7d512ea374ad448ac07be17d855c551a3c3d7a6b7fb9d6a355708",
+        "bytes": 99069
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "9381ee7ec3190f164afad67ff793e638abf8ed00dd444b79b51da26ab6bb54c8",
+        "bytes": 14851
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T14:42:00.811625+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "9381ee7ec3190f164afad67ff793e638abf8ed00dd444b79b51da26ab6bb54c8",
+          "bytes": 14851
+        },
+        "method": "Assistant source reference sealed before new alternates; unblinded and not human gold. Table T probe already seen for routing. Circled/boxed notation, row coordinates and table layout affect CER."
+      },
+      "qwen_seconds": 2.474049616001139,
+      "tesseract_seconds": 0.16184952099865768,
+      "qwen_usage": {
+        "completion_tokens": 68,
+        "prompt_tokens": 351,
+        "total_tokens": 419,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0975609756097561,
+          "cer_edits": 8,
+          "cer_reference_chars": 82,
+          "cer_no_whitespace": 0.09230769230769231,
+          "cer_no_whitespace_edits": 6,
+          "cer_no_whitespace_reference_chars": 65,
+          "wer": 0.4444444444444444
+        },
+        "tesseract": {
+          "cer": 0.2804878048780488,
+          "cer_edits": 23,
+          "cer_reference_chars": 82,
+          "cer_no_whitespace": 0.26153846153846155,
+          "cer_no_whitespace_edits": 17,
+          "cer_no_whitespace_reference_chars": 65,
+          "wer": 0.7777777777777778
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "33",
+      "primary_engine": "qwen",
+      "region_id": "p165r06",
+      "category": "other",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-33/ocr/scan-maso-1984-07-toc-0023/ocr-page165/p165r06.png",
+        "sha256": "22e242b98a52bad8de01bf1a8cebe2cf3b3b50c32abb55fafefb1563e4042fcd",
+        "bytes": 474157
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "9381ee7ec3190f164afad67ff793e638abf8ed00dd444b79b51da26ab6bb54c8",
+        "bytes": 14851
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T14:42:00.811625+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "9381ee7ec3190f164afad67ff793e638abf8ed00dd444b79b51da26ab6bb54c8",
+          "bytes": 14851
+        },
+        "method": "Assistant source reference sealed before new alternates; unblinded and not human gold. Table T probe already seen for routing. Circled/boxed notation, row coordinates and table layout affect CER."
+      },
+      "qwen_seconds": 13.55773305099865,
+      "tesseract_seconds": 0.33296825300203636,
+      "qwen_usage": {
+        "completion_tokens": 322,
+        "prompt_tokens": 2157,
+        "total_tokens": 2479,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.16435185185185186,
+          "cer_edits": 71,
+          "cer_reference_chars": 432,
+          "cer_no_whitespace": 0.13803680981595093,
+          "cer_no_whitespace_edits": 45,
+          "cer_no_whitespace_reference_chars": 326,
+          "wer": 0.24299065420560748
+        },
+        "tesseract": {
+          "cer": 0.5856481481481481,
+          "cer_edits": 253,
+          "cer_reference_chars": 432,
+          "cer_no_whitespace": 0.6840490797546013,
+          "cer_no_whitespace_edits": 223,
+          "cer_no_whitespace_reference_chars": 326,
+          "wer": 0.9813084112149533
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "33",
+      "primary_engine": "qwen",
+      "region_id": "p168r06",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-33/ocr/scan-maso-1984-07-toc-0023/ocr-page168/p168r06.png",
+        "sha256": "eb5ada0d6f4f6a1ef6a41995b9724a03f731ab2ff14ee4c993f3e4a51f7e9546",
+        "bytes": 60921
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "9381ee7ec3190f164afad67ff793e638abf8ed00dd444b79b51da26ab6bb54c8",
+        "bytes": 14851
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T14:42:00.811625+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "9381ee7ec3190f164afad67ff793e638abf8ed00dd444b79b51da26ab6bb54c8",
+          "bytes": 14851
+        },
+        "method": "Assistant source reference sealed before new alternates; unblinded and not human gold. Table T probe already seen for routing. Circled/boxed notation, row coordinates and table layout affect CER."
+      },
+      "qwen_seconds": 1.9346046010032296,
+      "tesseract_seconds": 0.12823793300049147,
+      "qwen_usage": {
+        "completion_tokens": 42,
+        "prompt_tokens": 393,
+        "total_tokens": 435,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.04081632653061224,
+          "cer_edits": 2,
+          "cer_reference_chars": 49,
+          "cer_no_whitespace": 0.05263157894736842,
+          "cer_no_whitespace_edits": 2,
+          "cer_no_whitespace_reference_chars": 38,
+          "wer": 0.16666666666666666
+        },
+        "tesseract": {
+          "cer": 0.12244897959183673,
+          "cer_edits": 6,
+          "cer_reference_chars": 49,
+          "cer_no_whitespace": 0.15789473684210525,
+          "cer_no_whitespace_edits": 6,
+          "cer_no_whitespace_reference_chars": 38,
+          "wer": 0.3333333333333333
+        }
+      },
+      "qwen_status": "complete"
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering and startup. Alternate OCR is evaluation overhead, not ordinary restoration work."
+}
