@@ -772,3 +772,16 @@ archive original evidence, revise only affected crops and reuse unchanged result
 with verified hashes. Batch50 repeated eight changed Qwen crops and preserved their
 original costs. None of its four fixed comparison images changed. Shape/content
 checks and human review remain necessary for either OCR engine.
+
+### July batch51: preserve preparation work in cost comparisons
+
+Source reading during crop-boundary inspection can reduce the later correction
+window without reducing total work. Batch51 performed substantial reading in
+preparation, then transcribed and compared raw OCR during correction. Compare
+complete measured workflows, retaining preparation, export and evaluation costs
+separately and subtracting raw/correction overlap. Resumption/status overhead is
+not pure review time. Shorter correction windows alone do not prove token savings.
+
+Printed typesetting errors and body/chart disagreements must remain source-linked
+review items. Preserve the original image and transcription; do not silently turn
+OCR correction into editorial or historical correction.

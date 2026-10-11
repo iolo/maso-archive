@@ -2045,3 +2045,18 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Export/rebuild/UTF-8/joins pass.34complete,onepartial,oneuntouched,50checkpoints.
 - Continue253–261/adindex262,assemble history,consolidate metrics,build reading room.
   Check both side edges against sloping source columns before further raw runs.
+
+### July Commodore-history section restored, 2026-10-12
+
+- Restored253–255:66 text crops,three original images,21 flags,three narrative
+  joins; both profit charts retained with labels and ten numeric entries.
+- Fixed64Q/2T after rejected0.177s prose probe; normal completion without retries,
+  fallbacks or crop repairs. Raw166.579s;exact25,264 local Qwen tokens.
+- Correction196.734s overlaps166.579s raw. Paid22,062 uncached/619,136 cached input;
+  6,796 output includes777 reasoning. Substantial source reading was in preparation,
+  so this shorter correction window alone does not demonstrate reduced effort.
+- Comparison49:three Qwen wins,one tie. Original typesetting anomaly and financial
+  discrepancy preserved for human review. Export/rebuild/UTF-8/12 targeted checks pass.
+- History243–255 restored;256–261 remain,then adindex262 and assembly. July remains
+  34 complete,one partial,one untouched across51 checkpoints. Metrics and authorized
+  reading room follow restoration; reporting/commit usage carries forward.

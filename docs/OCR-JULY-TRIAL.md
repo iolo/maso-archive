@@ -3241,3 +3241,46 @@ Export integrity, byte-identical rebuild, UTF-8 review ranges and explicit joins
 pass. July remains34 complete bodies,one partial and one untouched,now across50
 checkpoints. Next: history253–261,advertising index262,assembly,consolidated metrics,
 and the authorized reading-room preview. Reporting/commit usage carries forward.
+
+## Batch51: industry-history Commodore section, PDF253–255
+
+This segment contains66 text crops,three original images,21 source-linked flags
+and three narrative joins. Both profit charts retain their original images plus
+labels and all ten numeric values. Historical spellings, a body/chart financial
+mismatch and an apparent typesetting-order error remain as printed and flagged.
+Human acceptance is pending. History243–255 is restored;256–261 remains.
+
+Routing was fixed at64Q/2T after a rejected0.177s ordinary-prose Tesseract probe.
+All crop boundaries were checked before OCR. The worker completed normally with
+no retries, fallbacks, duplicated primary responses or crop repairs.
+
+| Measurement | Batch51 |
+| --- | ---: |
+| Raw worker, including startup/render/export | 166.579s |
+| Qwen recognition | 145.440s |
+| Tesseract primary recognition | 0.243s |
+| Exact local Qwen tokens | 25,264 |
+| Correction window | 196.734s |
+| Raw/correction overlap | 166.579s |
+| Paid uncached input in correction window | 22,062 |
+| Paid cached input in correction window | 619,136 |
+| Paid output, including reasoning | 6,796 |
+| Reasoning, already included in output | 777 |
+
+Substantial source reading occurred during preparation while checking boundaries.
+The correction window covers transcription, raw comparison, selected rechecks,
+joins and helper work; it is not total source-review effort. Preparation includes
+resumed-context/status overhead and is not pure review time either. Export and
+alternate evaluation are separate. Preserve all windows and subtract raw overlap
+when consolidating; do not infer causal paid-token savings from this batch.
+
+Comparison49 compact CER is Qwen0%/Tesseract6.90%,3.03%/12.12%,1.32%/1.32%,and
+0%/14.71%:three Qwen wins and one tie. Samples were selected before primary OCR;
+references were sealed before alternates. The rejected same-image probe is reused
+once. References are unblinded assistant source readings, not human gold; bracket
+and discretionary-hyphen normalization contributes to these scores.
+
+Export integrity, byte-identical rebuild, UTF-8 review ranges and12 targeted
+continuation/anomaly/chart assertions pass. July remains34 complete bodies,one
+partial,one untouched across51 checkpoints. Next:history256–261,adindex262,
+assembly,consolidated metrics and the authorized reading-room preview.

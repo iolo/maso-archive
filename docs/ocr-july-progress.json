@@ -6,7 +6,7 @@
   "canonical_toc_entries": 42,
   "completed_article_bodies": 34,
   "partial_article_bodies": 1,
-  "completed_checkpoints": 50,
+  "completed_checkpoints": 51,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
   "remaining_article_bodies": 2,
@@ -17174,6 +17174,233 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Same-style prose probe corrupted a name and Korean title into Latin fragments. Qwen body and pull quotes; Tesseract short headings, including reversed Atari title. Four originals preserved. Fixed before primary inference."
       }
+    },
+    {
+      "batch": "51",
+      "toc_entry_id": "maso-1984-07-toc-0034",
+      "title": "읽을거리 : 미국 컴퓨터 산업의 흥망성쇠",
+      "engine": "mixed",
+      "printed_pages": [
+        249,
+        250,
+        251
+      ],
+      "pdf_pages": [
+        253,
+        254,
+        255
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-51/map.json",
+        "sha256": "983f223ee6a172a80227611a4befa20432395961f1ef57ad01ea2607fb148d00",
+        "bytes": 21006
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-51/industry-history-commodore/article.json",
+          "sha256": "8b044c81d22aef4ce2663b6ea7aaa24fbcb53a704790f31dae3ecb697eb9cf47",
+          "bytes": 100128
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-51/industry-history-commodore/manifest.json",
+          "sha256": "3e234040c0a2120b4afbca31ea2c4a822b214e905c54e5cb6d7cd3ab6db9d8ad",
+          "bytes": 45763
+        },
+        "source_pages": [
+          253,
+          254,
+          255
+        ],
+        "regions": 69,
+        "text_regions": 66,
+        "figures": 3,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 21,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 166.57901611400302,
+      "recognition_seconds": 145.68249577599636,
+      "local_qwen_tokens": {
+        "prompt_tokens": 21427,
+        "completion_tokens": 3837,
+        "total_tokens": 25264
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-51/transcription-assistant.json",
+        "sha256": "2991ae4eb0c692202273641e256c85b7183fcc23935059443e3791c9f31f508a",
+        "bytes": 11870
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T19:57:59.849691+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "2991ae4eb0c692202273641e256c85b7183fcc23935059443e3791c9f31f508a",
+          "bytes": 11870
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four sample images selected before primary OCR; alternates after seal; identical-image rejected probe reused once."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 26,
+        "prose": 3506,
+        "title": 5
+      },
+      "work_window_ids": [
+        "correction-51",
+        "export-51"
+      ],
+      "failed_server_compute_seconds": null,
+      "recognition_limitation": "Exact captured local usage from64 Qwen responses;2 Tesseract primary calls. Rejected0.177s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution.",
+      "raw_run_seconds_basis": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+      "recovery": {
+        "attempts": 1,
+        "reason": "Saved worker73177 completed exit0; no interruption, fallback, crop revision or duplicate primary.",
+        "final_completed_crops": 66,
+        "duplicated_successful_crops": 0,
+        "interrupted_crops": 0,
+        "failed_crops": 0,
+        "successful_recognition_seconds": 145.43964845799928,
+        "local_qwen_tokens_all_attempts": {
+          "prompt_tokens": 21427,
+          "completion_tokens": 3837,
+          "total_tokens": 25264
+        },
+        "limitation": "Exact captured local usage from64 Qwen responses;2 Tesseract primary calls. Rejected0.177s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-51/recovery-accounting.json",
+        "sha256": "7baa6db151b099f29c2870825e76d03003ae46ca4662540cfaf70a76bc73b89d",
+        "bytes": 652
+      },
+      "local_qwen_tokens_retained_successes": {
+        "prompt_tokens": 21427,
+        "completion_tokens": 3837,
+        "total_tokens": 25264
+      },
+      "recognition_seconds_retained_successes": 145.43964845799928,
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p253r02": "tesseract",
+        "p255r30": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 145.43964845799928,
+        "tesseract_recognition_seconds": 0.24284731799707515,
+        "qwen_regions": {
+          "p253r03": 2.299704864999512,
+          "p253r04": 2.30273214099725,
+          "p253r05": 2.0823216419958044,
+          "p253r06": 2.4836978500024998,
+          "p253r07": 2.457963462002226,
+          "p253r08": 2.19452319300035,
+          "p253r09": 2.1264864779950585,
+          "p253r10": 2.5069537649978884,
+          "p253r11": 2.3262588340003276,
+          "p253r12": 2.430613368997001,
+          "p253r13": 2.6449137039962807,
+          "p253r14": 1.6554877050002688,
+          "p254r01": 2.3274203200053307,
+          "p254r02": 2.4995381130065653,
+          "p254r03": 2.610868024006777,
+          "p254r04": 2.7155223470035708,
+          "p254r05": 2.586462717001268,
+          "p254r06": 2.4195212370032095,
+          "p254r07": 2.3398058689999743,
+          "p254r08": 2.106843775996822,
+          "p254r09": 1.697533790997113,
+          "p254r10": 2.4550217549985973,
+          "p254r11": 2.325300772994524,
+          "p254r12": 2.199646095003118,
+          "p254r13": 2.3502986199964653,
+          "p254r14": 1.631572475998837,
+          "p254r15": 2.3189459050045116,
+          "p254r16": 2.4069749580012285,
+          "p254r17": 1.0265659049982787,
+          "p254r18": 2.151916358998278,
+          "p254r19": 2.589626377004606,
+          "p254r20": 2.769389435998164,
+          "p254r21": 2.290979076002259,
+          "p254r22": 2.7312873660048353,
+          "p254r23": 2.5729074819973903,
+          "p254r24": 0.9995498240023153,
+          "p255r01": 2.06291754799895,
+          "p255r02": 2.578220882998721,
+          "p255r03": 2.500828931995784,
+          "p255r04": 2.494512912002392,
+          "p255r05": 2.3621093750043656,
+          "p255r06": 1.946471584997198,
+          "p255r07": 2.510646964998159,
+          "p255r08": 2.7487901259955834,
+          "p255r09": 2.2586174230018514,
+          "p255r10": 2.380683053001121,
+          "p255r11": 3.2497767800014117,
+          "p255r12": 1.5752518689987483,
+          "p255r13": 2.547978452996176,
+          "p255r14": 2.55104750800092,
+          "p255r15": 2.138765071002126,
+          "p255r16": 2.6373195279957145,
+          "p255r17": 2.1503239599987864,
+          "p255r18": 2.563309061995824,
+          "p255r19": 2.788969975001237,
+          "p255r20": 2.285540837001463,
+          "p255r21": 2.3152582830007304,
+          "p255r22": 2.801354989001993,
+          "p255r23": 2.3805993529967964,
+          "p255r24": 2.0675894460000563,
+          "p255r26": 0.8884542070009047,
+          "p255r27": 2.010255456996674,
+          "p255r28": 0.9546239610062912,
+          "p255r29": 2.054275308000797
+        },
+        "tesseract_regions": {
+          "p253r02": 0.12557591299992055,
+          "p255r30": 0.1172714049971546
+        },
+        "reason": "Rejected representative prose probe: Korean glyphs became Latin fragments or wrong words. Qwen prose, pullquotes and numeric chart entries; Tesseract short heading and caption. All crop boundaries visually checked before inference."
+      },
+      "qwen_recognition_seconds": 145.43964845799928,
+      "tesseract_recognition_seconds": 0.24284731799707515,
+      "assignment_reason": "Rejected representative prose probe: Korean glyphs became Latin fragments or wrong words. Qwen prose, pullquotes and numeric chart entries; Tesseract short heading and caption. All crop boundaries visually checked before inference.",
+      "correction_raw_overlap": {
+        "correction_seconds": 196.733783,
+        "raw_overlap_seconds": 166.579005,
+        "scope": "66 source crop transcriptions, raw comparison, selected glyph rechecks, chart values, historical names/typesetting anomalies, explicit joins and helper work. Substantial source reading occurred earlier in preparation while checking crop boundaries; correction-window timing alone understates total source-reading effort. Export/evaluation separate; no per-engine paid attribution."
+      },
+      "preflight_probes": [
+        {
+          "region_id": "p253r03",
+          "image": {
+            "path": "preflight/p253r03.png",
+            "sha256": "88e2845cda2986199d6c6533cc90a58cc1acf880819887f8899a84f56d1edb17",
+            "bytes": 93708
+          },
+          "seconds": 0.1773852180049289,
+          "config": {
+            "languages": "kor+eng",
+            "psm": 6
+          }
+        }
+      ],
+      "preflight_probe_seconds": 0.1773852180049289,
+      "region_language_overrides": {
+        "p253r02": "kor+eng",
+        "p255r30": "kor+eng"
+      },
+      "preflight_probe_accounting": "Rejected probe preparation-only, reuse once for identical-image alternate.",
+      "primary_probe_reuse": {},
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Rejected representative prose probe: Korean glyphs became Latin fragments or wrong words. Qwen prose, pullquotes and numeric chart entries; Tesseract short heading and caption. All crop boundaries visually checked before inference."
+      }
     }
   ],
   "assemblies": [
@@ -20293,12 +20520,12 @@
       },
       "status": "assistant-partial-human-pending",
       "pdf_page_candidate": 243,
-      "batch": "50",
+      "batch": "51",
       "engine": "mixed",
       "restoration": {
-        "path": "build/pdf-restoration/12-1984-07-comparison-batch-50/industry-history-atari/article.json",
-        "sha256": "042aa54f13e06312efe70e7250cf2e0ed13eb993d9fe309c4d3da8f1a1d7cddf",
-        "bytes": 153130
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-51/industry-history-commodore/article.json",
+        "sha256": "8b044c81d22aef4ce2663b6ea7aaa24fbcb53a704790f31dae3ecb697eb9cf47",
+        "bytes": 100128
       },
       "restored_pdf_pages": [
         243,
@@ -20310,7 +20537,10 @@
         249,
         250,
         251,
-        252
+        252,
+        253,
+        254,
+        255
       ],
       "covered_pdf_pages": [
         243,
@@ -20322,13 +20552,13 @@
         249,
         250,
         251,
-        252
+        252,
+        253,
+        254,
+        255
       ],
       "partial_pdf_pages": [],
       "deferred_pdf_pages": [
-        253,
-        254,
-        255,
         256,
         257,
         258,
@@ -20369,6 +20599,21 @@
             250,
             251,
             252
+          ],
+          "partial_pdf_pages": []
+        },
+        {
+          "batch": "51",
+          "engine": "mixed",
+          "package": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-51/industry-history-commodore/article.json",
+            "sha256": "8b044c81d22aef4ce2663b6ea7aaa24fbcb53a704790f31dae3ecb697eb9cf47",
+            "bytes": 100128
+          },
+          "pdf_pages": [
+            253,
+            254,
+            255
           ],
           "partial_pdf_pages": []
         }
@@ -21094,12 +21339,17 @@
       "path": "docs/ocr-july-comparison-48.json",
       "sha256": "b36d9eb1738c7a8a927bb992fc8cfeb7c4773fe002989ff7eda1bec332c94023",
       "bytes": 12125
+    },
+    {
+      "path": "docs/ocr-july-comparison-49.json",
+      "sha256": "f7492a57c4bce08a749a8c94eb7de6f6acaab6fd1e6f059dbc9b0ddf31fc3f3c",
+      "bytes": 11885
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "c12a3da5d0166c9a469b2778e51664f129ab467df70fd1ce74fc5c7bb0f6e9dc",
-    "bytes": 172189
+    "sha256": "2ccb023e2ffa64c3e7fc66f868c49ac1245c0bc0b6a66f31ba09f16936b521f1",
+    "bytes": 174325
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -21111,17 +21361,17 @@
       "toc_entry_id": "maso-1984-07-toc-0034",
       "title": "미국 컴퓨터산업의 흥망성쇠",
       "candidate_pdf_pages": [
-        253,
-        254,
-        255
+        256,
+        257,
+        258
       ],
       "engine": "mixed",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Continue Commodore section253 onward; inspect section ending before choosing batch. Check sloping column side edges at full resolution before raw OCR, not only horizontal seams.",
-      "extent_status": "Full243–261 visually verified, ending261,adindex262.243–252 restored;253–261 deferred; assembly required."
+      "routing_reason": "Continue Coleco section256 onward; verify ending and crop side edges before primary OCR. Use documented content routing and a bounded probe where useful.",
+      "extent_status": "Full243–261 source verified.243–255 restored across49–51;256–261 deferred; assembly required."
     }
   ],
-  "decision": "July34 complete bodies,1partial,1untouched,50checkpoints; human acceptance pending. History243–252 restored across49/50, full243–261 verified. Atari249–252 has103text4figures29flags and7joins. Fixed97Q6T, eight left-clipped Q crops widened after original completion;89Q6T reused and both workers exit0. Raw283.277s exact41193localtokens includes superseded results. Correction432.584s overlaps283.277s. Comparison48 Qwins3/ties1. Continue history253–261, adindex262, assemble history, consolidate metrics and build reading room. No causal paid savings claim.",
+  "decision": "July34 complete bodies,1partial,1untouched,51checkpoints; human acceptance pending. History243–255 restored across49–51, full243–261 verified. Commodore253–255:66text3fig21flags3joins; fixed64Q2T with no recovery. Raw166.579s exact25264localtokens. Correction196.734s overlaps166.579s, with significant earlier source reading in preparation. Comparison49 Qwins3ties1. Continue history256–261/adindex262, assemble history, consolidate metrics, build reading room. No causal paid savings claim.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition is normally nested and must not be added again. Batch44 includes one0.244653s preflight prose probe in recognition outside its raw-worker lifespan. Batch30 includes one0.205s preflight table probe in its recognition sum but outside its measured raw-worker lifespan; count that reused inference once.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",
