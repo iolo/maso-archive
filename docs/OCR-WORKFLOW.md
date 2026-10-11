@@ -645,3 +645,18 @@ of270 and ends inside1590. Its boundary audit pins the opening segment. Full
 assembly must verify and explicitly link those boundaries while preserving all
 physical rows, source pins and review ranges; independent exports alone do not
 prove complete article assembly.
+
+### Explicit wrapped listing boundaries
+
+`wrapped-listing-v1` assembly recipes may declare `wrapped_listing_joins` with a
+left segment/local logical-line ID/exact ending and a right segment/ordered
+local physical-line IDs/exact opening. The join must cover every leading
+unnumbered row of the immediately next segment, be byte-adjacent, and stay in
+the same listing. Partial, reordered, mismatched or nonadjacent evidence fails.
+Only combined indexes gain continuation links; text bytes, source ranges, scan
+pins and immutable segment corrections remain unchanged. Cross-segment DATA
+numeric indexes are rejected pending a dedicated literal-value review.
+
+Keep wall-art band representation counts distinct from printed row counts.
+For process recovery, poll the saved tool session: sandbox-only `ps` may hide a
+live host worker. Do not start a replacement based on that limited view.

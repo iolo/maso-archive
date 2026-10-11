@@ -1891,3 +1891,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   July29 complete,1 partial,6 untouched;183 pages,3855 regions,3648 text crops,
   207 images,1081 flags. Next221–224, then full215–224 assembly with explicit
  270/1590 continuation links. Final metrics/reading room remain pending.
+
+### July 사과도둑 complete, 2026-10-12
+
+- Restored221–224 and assembled full215–224:305 regions,287 text crops,18 images,
+  165 flags,358 numbered BASIC lines and940 representation rows. Four continuous
+  wall bands are whole-band markers, not a claim of exact printed graphic rows.
+- DATA2620–3570:96 rows,1,152 fields,three partial unreadable digits retained.
+  Source anomalies and uncertain music/whitespace/glyph encoding remain flagged.
+- Batch43 raw409.224s,105Q/4T, including two512-token graphic failures and same-crop
+  fallbacks. Failed compute30.172s; exact50,111 local tokens. Original saved session
+  remained live; no interruption/restart despite misleading sandbox-only ps.
+- Correction920.636s overlaps392.234s raw and includes helper/export/comparison
+  work. Paid140,700 uncached /3,864,448 cached input;28,213 output including3,076
+  reasoning. Four exploratory comparison41 crops favor Qwen; no paid-savings claim.
+- Added explicit, validated cross-segment wrapped-line joins for270/1590.
+  All segment pins and listing bytes preserved. Export/rebuild/UTF-8 checks and
+  76 assembly tests pass. Assembly163.401s measured separately.
+- July30 complete,0 partial,6 untouched;187 pages,3972 regions,3757 text crops,
+  215 images,1144 flags. Next Table Tennis225: verify end before mapping.
+  Final metrics and reading room still follow restoration. Human review pending.

@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "scope": "Four identical-PNG exploratory plain samples: branch logic, repeated music, sprite DATA and character DATA. Selected after primary OCR and source correction but before alternate OCR/scores. Unblinded assistant source references, not human gold. Qwen512 cap; Tesseract eng psm6. Graphics failures and source uncertainty elsewhere are outside sample CERs and retained in restoration accounting. No causal paid-token saving estimate",
+  "rows": [
+    {
+      "batch": "43",
+      "primary_engine": "qwen",
+      "region_id": "p221r08",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-43/ocr/scan-maso-1984-07-toc-0031/ocr-page221/p221r08.png",
+        "sha256": "d43f8b7c19a5aaf8356b9cf9a766b6d86fb6e0c4dfc948c41177a93fc554f66c",
+        "bytes": 130301
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "ddcbae1474b752b48466716c8607621ccb5f956e5738883dea6084ee5ba179ca",
+        "bytes": 16514
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T17:54:55.575144+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "ddcbae1474b752b48466716c8607621ccb5f956e5738883dea6084ee5ba179ca",
+          "bytes": 16514
+        },
+        "method": "Unblinded assistant source reference, not human gold. Samples chosen after primary/source review, before alternate OCR and scores."
+      },
+      "qwen_seconds": 3.315024783994886,
+      "tesseract_seconds": 0.14153751199773978,
+      "qwen_usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 379,
+        "total_tokens": 479,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 145,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 128,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.1724137931034483,
+          "cer_edits": 25,
+          "cer_reference_chars": 145,
+          "cer_no_whitespace": 0.1484375,
+          "cer_no_whitespace_edits": 19,
+          "cer_no_whitespace_reference_chars": 128,
+          "wer": 0.8888888888888888
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "43",
+      "primary_engine": "qwen",
+      "region_id": "p222r20",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-43/ocr/scan-maso-1984-07-toc-0031/ocr-page222/p222r20.png",
+        "sha256": "05a30f72a9afe8f9e6b15ea5e6cca6ff51c38e9ffd4deb48cc65bc769c64a271",
+        "bytes": 140490
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "ddcbae1474b752b48466716c8607621ccb5f956e5738883dea6084ee5ba179ca",
+        "bytes": 16514
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T17:54:55.575144+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "ddcbae1474b752b48466716c8607621ccb5f956e5738883dea6084ee5ba179ca",
+          "bytes": 16514
+        },
+        "method": "Unblinded assistant source reference, not human gold. Samples chosen after primary/source review, before alternate OCR and scores."
+      },
+      "qwen_seconds": 3.9888150410042726,
+      "tesseract_seconds": 0.1324632890027715,
+      "qwen_usage": {
+        "completion_tokens": 120,
+        "prompt_tokens": 333,
+        "total_tokens": 453,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.01694915254237288,
+          "cer_edits": 2,
+          "cer_reference_chars": 118,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 114,
+          "wer": 0.8
+        },
+        "tesseract": {
+          "cer": 0.4491525423728814,
+          "cer_edits": 53,
+          "cer_reference_chars": 118,
+          "cer_no_whitespace": 0.43859649122807015,
+          "cer_no_whitespace_edits": 50,
+          "cer_no_whitespace_reference_chars": 114,
+          "wer": 1.4
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "43",
+      "primary_engine": "qwen",
+      "region_id": "p223r20",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-43/ocr/scan-maso-1984-07-toc-0031/ocr-page223/p223r20.png",
+        "sha256": "f12e3e5c4efbe1e1e687038347f563c7f6004b3b49ad1266a49aefa0924676e8",
+        "bytes": 90332
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "ddcbae1474b752b48466716c8607621ccb5f956e5738883dea6084ee5ba179ca",
+        "bytes": 16514
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T17:54:55.575144+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "ddcbae1474b752b48466716c8607621ccb5f956e5738883dea6084ee5ba179ca",
+          "bytes": 16514
+        },
+        "method": "Unblinded assistant source reference, not human gold. Samples chosen after primary/source review, before alternate OCR and scores."
+      },
+      "qwen_seconds": 3.044107943002018,
+      "tesseract_seconds": 0.10042979100398952,
+      "qwen_usage": {
+        "completion_tokens": 86,
+        "prompt_tokens": 339,
+        "total_tokens": 425,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.011764705882352941,
+          "cer_edits": 1,
+          "cer_reference_chars": 85,
+          "cer_no_whitespace": 0.01282051282051282,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 78,
+          "wer": 0.125
+        },
+        "tesseract": {
+          "cer": 0.36470588235294116,
+          "cer_edits": 31,
+          "cer_reference_chars": 85,
+          "cer_no_whitespace": 0.3974358974358974,
+          "cer_no_whitespace_edits": 31,
+          "cer_no_whitespace_reference_chars": 78,
+          "wer": 0.5
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "43",
+      "primary_engine": "qwen",
+      "region_id": "p224r23",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-43/ocr/scan-maso-1984-07-toc-0031/ocr-page224/p224r23.png",
+        "sha256": "8f6e58776829f720d1163d4950587aba74e9193e9cee1e91392d809a2b299c95",
+        "bytes": 115463
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "ddcbae1474b752b48466716c8607621ccb5f956e5738883dea6084ee5ba179ca",
+        "bytes": 16514
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T17:54:55.575144+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "ddcbae1474b752b48466716c8607621ccb5f956e5738883dea6084ee5ba179ca",
+          "bytes": 16514
+        },
+        "method": "Unblinded assistant source reference, not human gold. Samples chosen after primary/source review, before alternate OCR and scores."
+      },
+      "qwen_seconds": 4.010974803997669,
+      "tesseract_seconds": 0.14352995900117094,
+      "qwen_usage": {
+        "completion_tokens": 118,
+        "prompt_tokens": 372,
+        "total_tokens": 490,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.04132231404958678,
+          "cer_edits": 5,
+          "cer_reference_chars": 121,
+          "cer_no_whitespace": 0.043859649122807015,
+          "cer_no_whitespace_edits": 5,
+          "cer_no_whitespace_reference_chars": 114,
+          "wer": 0.25
+        },
+        "tesseract": {
+          "cer": 0.4793388429752066,
+          "cer_edits": 58,
+          "cer_reference_chars": 121,
+          "cer_no_whitespace": 0.42105263157894735,
+          "cer_no_whitespace_edits": 48,
+          "cer_no_whitespace_reference_chars": 114,
+          "wer": 2.25
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering/startup; alternate OCR is separate evaluation overhead."
+}

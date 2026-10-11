@@ -5,9 +5,86 @@ cross code panels; cross-segment carried fragments use the historical namespaced
 Source logical indexes are checked against physical rows before offsets change.
 """
 from collections import Counter
+from copy import deepcopy
 import re
 
 from .assembly_indexes import END, START, span
+
+
+def validate_boundary_joins(recipe):
+    """Require explicit source identities and scan-reviewed boundary text."""
+    joins = recipe.get('wrapped_listing_joins', [])
+    if not isinstance(joins, list):
+        raise ValueError('Wrapped boundary joins must be a list')
+    names = [s['name'] for s in recipe['segments']]
+    seen = set()
+    for join in joins:
+        if not isinstance(join, dict) or set(join) != {'left', 'right'}:
+            raise ValueError('Wrapped boundary requires left and right evidence')
+        left, right = join['left'], join['right']
+        if (not isinstance(left, dict) or not isinstance(right, dict) or
+                set(left) != {'segment', 'logical_line_id', 'ending'} or
+                set(right) != {'segment', 'physical_line_ids', 'opening'} or
+                any(not isinstance(left[k], str) or not left[k] for k in left) or
+                any(not isinstance(right[k], str) or not right[k] for k in ('segment', 'opening')) or
+                not isinstance(right['physical_line_ids'], list) or not right['physical_line_ids'] or
+                any(not isinstance(v, str) or not v for v in right['physical_line_ids']) or
+                len(set(right['physical_line_ids'])) != len(right['physical_line_ids']) or
+                left['segment'] not in names or right['segment'] not in names or
+                names.index(right['segment']) != names.index(left['segment']) + 1 or
+                right['segment'] in seen):
+            raise ValueError('Wrapped boundary identities must name adjacent unique segments')
+        seen.add(right['segment'])
+
+
+def join_boundaries(recipe, corrections, listing):
+    """Link declared leading physical rows without changing source bytes or pins.
+
+    Segment-local prefix rows remain unnumbered in their immutable corrections.
+    Only the combined indexes receive the reviewed logical continuation links.
+    """
+    validate_boundary_joins(recipe)
+    for join in recipe['wrapped_listing_joins']:
+        left, right = join['left'], join['right']
+        left_rows = [r for r in corrections['listing_line_index'] if r['source_segment'] == left['segment']]
+        right_rows = [r for r in corrections['listing_line_index'] if r['source_segment'] == right['segment']]
+        targets = [r for r in corrections['logical_listing_line_index']
+                   if r['source_segment'] == left['segment'] and r['source_line_id'] == left['logical_line_id']]
+        if len(targets) != 1 or not left_rows or not right_rows:
+            raise ValueError('Wrapped boundary has no unique source logical line')
+        target = targets[0]
+        prefix = []
+        for row in right_rows:
+            if row['row_kind'] != 'unnumbered':
+                break
+            prefix.append(row)
+        if (not prefix or [r['source_line_id'] for r in prefix] != right['physical_line_ids'] or
+                left_rows[-1].get('logical_line_id') != target['line_id'] or
+                target[END] != left_rows[-1][END] or target[END] != prefix[0][START] or
+                prefix[0]['source_range'][START] != 0 or
+                not span(target, listing).endswith(left['ending']) or
+                not span(prefix[0], listing).startswith(right['opening']) or
+                any(r['listing_id'] != target['listing_id'] for r in prefix) or
+                any(a[END] != b[START] for a, b in zip(prefix, prefix[1:]))):
+            raise ValueError('Wrapped boundary does not match all adjacent source prefix rows')
+        # Numeric DATA indexes cannot silently keep a pre-join subset of a line.
+        if any(r['line_id'] == target['line_id'] for r in corrections['data_statements']):
+            raise ValueError('Cross-segment DATA requires a separate literal-value review')
+        before = {START: target[START], END: target[END]}
+        for row in prefix:
+            row.update(source_row_kind='unnumbered', row_kind='wrapped-continuation',
+                       logical_line_id=target['line_id'], continues_printed_line=target['printed_line'])
+            target['source_parts'].append(row['line_id'])
+            target['segments'].extend(deepcopy(row['segments']))
+        target[END] = prefix[-1][END]
+        target['cross_segment_continuation'] = True
+        group = next(g for g in corrections['listing_groups'] if g['listing_id'] == target['listing_id'])
+        group['unnumbered_rows'] -= len(prefix)
+        corrections['resolved_continuations'].append(dict(
+            kind='code', status='linked-physical-wraps', line_id=target['line_id'],
+            evidence=deepcopy(join), original_logical_range=before,
+            **{START: target[START], END: target[END]},
+            source_parts=[r['line_id'] for r in prefix], bytes_changed=False))
 
 
 def project_listing(context, corrections, listing):

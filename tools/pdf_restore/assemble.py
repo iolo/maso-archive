@@ -31,6 +31,8 @@ def text_bytes(package):
 def validate_recipe(recipe):
     examples = recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1')
     optional = ({'index_mode', 'prose_joins'} if examples else {'index_mode'}) | {'shared_pdf_pages', 'resolved_exclusions'}
+    if recipe.get('index_mode') == 'wrapped-listing-v1':
+        optional.add('wrapped_listing_joins')
     if (set(recipe) - optional != {'segments', 'expected_pdf_pages', 'evidence', 'uncertainties', 'resolved_notes'} or
         ('index_mode' in recipe and recipe['index_mode'] not in
          ('namespaced-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1'))):
@@ -48,6 +50,8 @@ def validate_recipe(recipe):
         names.append(row['name'])
     if len(set(names)) != len(names):
         raise ValueError('Duplicate segment name')
+    from .assembly_wrapped import validate_boundary_joins
+    validate_boundary_joins(recipe)
     pages = recipe['expected_pdf_pages']
     if not pages or any(type(n) is not int or n < 1 for n in pages) or len(set(pages)) != len(pages):
         raise ValueError('Expected page coverage must be explicit and unique')

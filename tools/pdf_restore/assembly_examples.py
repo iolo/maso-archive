@@ -329,6 +329,9 @@ def project_examples(recipe, originals):
             corrections['listing_line_index'].append(revised)
         for row in original.get('listing_anomalies', []):
             corrections['listing_anomalies'].append(listing_range(row))
+    if recipe.get('wrapped_listing_joins'):
+        from .assembly_wrapped import join_boundaries
+        join_boundaries(recipe, corrections, listing)
     # One index per combined block, plus the individually traceable original ranges.
     assets = {r['region_id']: r['asset'] for r in package['region_assets']}
     for block in package['blocks']:

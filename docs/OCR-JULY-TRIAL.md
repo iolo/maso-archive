@@ -2770,3 +2770,65 @@ preserving original graphics. Human acceptance remains pending.
 Exports pass integrity, byte-identical rebuild, listing-byte coverage and UTF-8
 review-range checks. July remains29 complete,1 partial and6 untouched. The
 remaining Apple Thief pages221–224 precede full assembly and its boundary checks.
+
+## Apple Thief ending and full article assembly
+
+Batch43 restores PDF221–224:117 regions,109 text crops,8 original column images
+and63 review flags. It adds199 numbered BASIC lines1600–3580 and494 representation
+rows. Four continuous wall drawings use one marker per whole band, so494 is not
+an exact count of printed graphic rows. All source columns remain available.
+The96 DATA statements contain1,152 fields;1,149 are fully transcribed and three
+have an explicitly unreadable digit. Faded readings still require human review.
+
+Initial routing assigned107 short code/music/DATA strips to Qwen and two large
+wall-art strips to Tesseract. Two more apple-lettering strips hit Qwen's512-token
+limit and fell back to Tesseract on the same PNG, yielding105Q/4T. The original
+worker completed uninterrupted. A sandbox-only process check misleadingly
+suggested it had stopped; polling its saved session confirmed it was alive.
+No second worker or duplicate successful inference was started.
+
+| Observation | Batch43 |
+| --- | ---: |
+| Raw wall time, including both failures and fallbacks |409.224s|
+| Successful Qwen recognition, nested in raw time |349.724s|
+| All four Tesseract calls, nested in raw time |0.961s|
+| Failed model compute, nested in raw time |30.172s|
+| Exact local tokens, successful and failed responses |50,111|
+| Assistant correction window |920.636s|
+| Correction/raw overlap |392.234s|
+| Paid uncached input / cached input |140,700 /3,864,448|
+| Paid output, including3,076 reasoning tokens |28,213|
+
+The correction window includes source transcription, status verification,
+helper preparation, export checks and the alternate comparison. Alternate
+recognition time is separately recorded. It also includes correction of assistant
+first-draft3/8 readings. This is not a causal comparison of paid correction costs.
+Qwen omitted two initial continuation digits, inserted a DATA value and repeated
+a music unit elsewhere. Source review repaired those transcription errors;
+original RESTORE2520 and dangling-looking quotes were retained without repair.
+
+[Comparison41](ocr-july-comparison-41.json) uses four plain crops selected after
+primary OCR/source review, before alternate scores. References are unblinded
+assistant readings, not human gold. The samples are exploratory and exclude
+custom graphics and unreadable digits.
+
+| Crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| Branch logic, p221r08 |0.00%|14.84%|
+| Repeated music, p222r20 |0.00%|43.86%|
+| Sprite DATA, p223r20 |1.28%|39.74%|
+| Character DATA, p224r23 |4.39%|42.11%|
+
+Full Apple Thief215–224 is now assembled:305 regions,287 text crops,18 images,
+165 flags,358 numbered BASIC lines and940 representation rows. Explicit links
+attach the two leading rows of each next segment to270 and1590. Listing bytes
+are exactly the concatenation of the three immutable segment exports; original
+corrections and scan pins remain intact. Export integrity, byte-identical rebuild,
+all review ranges and logical-row coverage pass. The76 assembly tests pass,
+including rejection of partial, reordered and nonadjacent boundary declarations.
+Assembly work is separately measured at163.401s, with12,745 uncached input,
+891,776 cached input and5,918 output tokens (including463 reasoning).
+
+July now has30 complete article bodies and six untouched bodies, with no human
+acceptance inferred. Next is Table Tennis starting225; its ending remains to be
+verified. Final issue-wide metrics and reading-room build remain pending.
