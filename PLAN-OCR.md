@@ -1630,3 +1630,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   136 unique pages,2,458 regions,2,342 text,116 images,662 flags. Human acceptance
   remains pending. Reading-room build awaits full restoration and metrics;
   preexisting homepage edit preserved. Final reporting/commit usage carries.
+
+### July Information Radar complete, 2026-10-11
+
+- Batch32 restores154–157:118 regions,117 text,one diagram,32 flags; six new news
+  items and the GaAs conclusion. Full143–157 assembled from30–32:426 regions,
+  418 text,8 images,36 news items plus one notice,21 table cells and100 flags.
+- Planned52 Tesseract/65 Qwen. SIGTERM after48 saved Qwen crops; all reused,
+  no successful crop repeated or route changed. Measured raw attempts181.76s,
+  Qwen recognition142.28s/Tesseract8.93s. Local26,183 completed-response tokens
+  are a lower bound; interrupted request usage remains unknown.
+- Correction295.86s overlaps98.56s of raw;27,734 uncached/1,015,040 cached input
+  and8,494 output. Assembly75.92s separately recorded. Four comparison30 samples
+  favor Qwen, with Lisp specs close; typography affects CER. No causal cost claim.
+- Original onrmal, Compag, inconsistent product names, source duplication and
+  technical claims retained. Export/review ranges, full coverage,153/154 join
+  and byte-identical assembly rebuild pass.158 is a publisher book advertisement.
+- July23 complete,13 untouched,no partial bodies;140 unique source pages,
+  2,576 regions,2,459 text,117 images,694 flags,zero human acceptances. Next
+  VISICALC candidate164–168, extent still to verify. Final issue metrics and
+  reading-room build remain pending; homepage edit preserved. Usage tail carries.

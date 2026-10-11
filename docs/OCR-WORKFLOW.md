@@ -467,7 +467,14 @@ not reused primary evidence. Qwen still misread two headline words, although it
 won all four fixed samples. Preserve conflicting chip numbers, source totals and
 faint decimal uncertainty without technical repair. A SIGTERM after78 Qwen
 successes resumed with exact evidence reuse; both worker lifespans are measured,
-but interrupted response tokens remain unknown. Final154–157 and assembly remain. This is guidance for choosing new checkpoints;
+but interrupted response tokens remain unknown. Batch32 completes154–157 with
+52 Tesseract/65 Qwen crops and another48-success cache reuse after SIGTERM.
+Check repeated syllables at crop line breaks and keep printed errors such as
+onrmal and Compag. Unicode superscripts/Roman numerals affect compact CER; the
+four fixed samples favor Qwen, with Tesseract close on Lisp specs. Full Information
+Radar143–157 is assembled with426 regions and8 images. Source153/154 wraps and
+all review anchors are preserved;158 is a publisher advertisement. Next inspect
+VISICALC candidate164–168 before committing its route. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

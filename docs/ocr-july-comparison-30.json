@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "scope": "Four preselected identical-PNG crops: GaAs technical prose, ordinary Pascal prose, Apple hardware specs and Lisp specs. Assistant source reference sealed before alternates, unblinded and not human gold. Compact CER ignores whitespace but counts Unicode superscript/Roman-numeral normalization. Tesseract kor+eng for all; one Tesseract-primary Qwen alternate capped512 tokens, failed output gets no CER. No repeated paid correction.",
+  "rows": [
+    {
+      "batch": "32",
+      "primary_engine": "qwen",
+      "region_id": "p154r03",
+      "category": "other",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-32/ocr/scan-maso-1984-07-toc-0037/ocr-page154/p154r03.png",
+        "sha256": "dcf963ae5c452e38fd19ef0865c86c12541a32a82422abc33100210280afc493",
+        "bytes": 124393
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "70e8fcbae134df8a3fcadad3b9060c97e8a3c63d261f45f8369e0fa56cdfed9d",
+        "bytes": 21894
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T14:24:55.162758+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "70e8fcbae134df8a3fcadad3b9060c97e8a3c63d261f45f8369e0fa56cdfed9d",
+          "bytes": 21894
+        },
+        "method": "Assistant source reference sealed before alternates; unblinded and not human gold. Superscript/Roman/fraction and wrapping normalization affect CER."
+      },
+      "qwen_seconds": 2.5335812229968724,
+      "tesseract_seconds": 0.22135850499762455,
+      "qwen_usage": {
+        "completion_tokens": 74,
+        "prompt_tokens": 351,
+        "total_tokens": 425,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.031914893617021274,
+          "cer_edits": 3,
+          "cer_reference_chars": 94,
+          "cer_no_whitespace": 0.013513513513513514,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 74,
+          "wer": 0.23809523809523808
+        },
+        "tesseract": {
+          "cer": 0.14893617021276595,
+          "cer_edits": 14,
+          "cer_reference_chars": 94,
+          "cer_no_whitespace": 0.16216216216216217,
+          "cer_no_whitespace_edits": 12,
+          "cer_no_whitespace_reference_chars": 74,
+          "wer": 0.3333333333333333
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "32",
+      "primary_engine": "tesseract",
+      "region_id": "p154r16",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-32/ocr/scan-maso-1984-07-toc-0037/ocr-page154/p154r16.png",
+        "sha256": "1120b1212e39a0aa4188965441d933daf0bf835960cacaa1098cebcbdeb9e665",
+        "bytes": 114823
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "70e8fcbae134df8a3fcadad3b9060c97e8a3c63d261f45f8369e0fa56cdfed9d",
+        "bytes": 21894
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T14:24:55.162758+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "70e8fcbae134df8a3fcadad3b9060c97e8a3c63d261f45f8369e0fa56cdfed9d",
+          "bytes": 21894
+        },
+        "method": "Assistant source reference sealed before alternates; unblinded and not human gold. Superscript/Roman/fraction and wrapping normalization affect CER."
+      },
+      "qwen_seconds": 2.43605556699913,
+      "tesseract_seconds": 0.20169851299579022,
+      "qwen_usage": {
+        "completion_tokens": 67,
+        "prompt_tokens": 357,
+        "total_tokens": 424,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.045454545454545456,
+          "cer_edits": 4,
+          "cer_reference_chars": 88,
+          "cer_no_whitespace": 0.04285714285714286,
+          "cer_no_whitespace_edits": 3,
+          "cer_no_whitespace_reference_chars": 70,
+          "wer": 0.2631578947368421
+        },
+        "tesseract": {
+          "cer": 0.10227272727272728,
+          "cer_edits": 9,
+          "cer_reference_chars": 88,
+          "cer_no_whitespace": 0.1,
+          "cer_no_whitespace_edits": 7,
+          "cer_no_whitespace_reference_chars": 70,
+          "wer": 0.3684210526315789
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "32",
+      "primary_engine": "qwen",
+      "region_id": "p155r14",
+      "category": "other",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-32/ocr/scan-maso-1984-07-toc-0037/ocr-page155/p155r14.png",
+        "sha256": "5c1d3787d94ed46fa3a90fec2cdd46c421cbddbb2f0ecb63d45778438e3bc0c7",
+        "bytes": 102760
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "70e8fcbae134df8a3fcadad3b9060c97e8a3c63d261f45f8369e0fa56cdfed9d",
+        "bytes": 21894
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T14:24:55.162758+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "70e8fcbae134df8a3fcadad3b9060c97e8a3c63d261f45f8369e0fa56cdfed9d",
+          "bytes": 21894
+        },
+        "method": "Assistant source reference sealed before alternates; unblinded and not human gold. Superscript/Roman/fraction and wrapping normalization affect CER."
+      },
+      "qwen_seconds": 2.7764666359944385,
+      "tesseract_seconds": 0.18032782500085887,
+      "qwen_usage": {
+        "completion_tokens": 77,
+        "prompt_tokens": 357,
+        "total_tokens": 434,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0379746835443038,
+          "cer_edits": 3,
+          "cer_reference_chars": 79,
+          "cer_no_whitespace": 0.016129032258064516,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 62,
+          "wer": 0.2222222222222222
+        },
+        "tesseract": {
+          "cer": 0.16455696202531644,
+          "cer_edits": 13,
+          "cer_reference_chars": 79,
+          "cer_no_whitespace": 0.1935483870967742,
+          "cer_no_whitespace_edits": 12,
+          "cer_no_whitespace_reference_chars": 62,
+          "wer": 0.3888888888888889
+        }
+      },
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "32",
+      "primary_engine": "qwen",
+      "region_id": "p157r24",
+      "category": "other",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-32/ocr/scan-maso-1984-07-toc-0037/ocr-page157/p157r24.png",
+        "sha256": "14635dedc1dacb7ea6a1fc4d1b33e9f9ca352baae71d2188316a11ed21e379be",
+        "bytes": 129016
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "70e8fcbae134df8a3fcadad3b9060c97e8a3c63d261f45f8369e0fa56cdfed9d",
+        "bytes": 21894
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T14:24:55.162758+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "70e8fcbae134df8a3fcadad3b9060c97e8a3c63d261f45f8369e0fa56cdfed9d",
+          "bytes": 21894
+        },
+        "method": "Assistant source reference sealed before alternates; unblinded and not human gold. Superscript/Roman/fraction and wrapping normalization affect CER."
+      },
+      "qwen_seconds": 2.7545798840001225,
+      "tesseract_seconds": 0.17995512199559016,
+      "qwen_usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 357,
+        "total_tokens": 437,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 4096,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.010752688172043012,
+          "cer_edits": 1,
+          "cer_reference_chars": 93,
+          "cer_no_whitespace": 0.012987012987012988,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 77,
+          "wer": 0.058823529411764705
+        },
+        "tesseract": {
+          "cer": 0.03225806451612903,
+          "cer_edits": 3,
+          "cer_reference_chars": 93,
+          "cer_no_whitespace": 0.025974025974025976,
+          "cer_no_whitespace_edits": 2,
+          "cer_no_whitespace_reference_chars": 77,
+          "wer": 0.17647058823529413
+        }
+      },
+      "qwen_status": "complete"
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering and startup. Alternate OCR is evaluation overhead, not ordinary restoration work."
+}

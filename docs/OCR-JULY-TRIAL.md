@@ -2052,3 +2052,69 @@ and13 untouched, zero human accepted. Cumulative136 unique source pages,2,458
 regions,2,342 text crops,116 images and662 review flags; code totals unchanged.
 Next restore154–157 and assemble the full143–157 article. Final issue metrics
 and the authorized post-restoration reading-room build remain outstanding.
+
+### Information Radar completed — batch32 and assembly, 2026-10-11
+
+Restored final PDF154–157/printed150–153:118 regions,117 text crops,one original
+GaAs diagram and32 review flags. This completes the GaAs news from batch31 and
+adds six complete items: Pascal, Apple IIc, HP laser printer, program generators,
+microcomputer terminology and a Lisp machine. The full143–157 article is now
+assembled from30–32:426 regions,418 text,8 original images,36 news items plus one
+robot-contest notice,21 specification-table cells and100 review flags.
+
+The preassigned route used52 Tesseract crops for ordinary Pascal/program-generator
+prose, short headings and the diagram caption;65 Qwen crops for technical details,
+product terminology and boxed headlines. No new preparation probes were needed.
+One SIGTERM interrupted p157r14 after48 saved Qwen results. All48 were reused
+unchanged; no successful inference was repeated, and routing did not change.
+The two measured worker lifespans139.410s and42.354s total181.764s, excluding
+recovery preparation. Successful recognition was Qwen142.279s/Tesseract8.934s,
+nested within raw time. Local completed usage22,349 prompt plus3,834 completion
+is26,183 tokens: a lower bound because the interrupted response is unavailable.
+
+Correction/source checking, recovery and helper work took295.86s, overlapping
+98.56s of raw attempts. Paid observations:27,734 uncached input,1,015,040 cached
+input and8,494 output including1,110 reasoning; zero cache-write. The raw32 assistant window also contains initial source-reading and transcription
+preparation before the correction window opened; include it when comparing total
+restoration cost. Full assembly
+was a separate75.92s window with9,232 uncached/723,328 cached input and1,612 output
+including187 reasoning. These mixed-content observations do not measure causal
+per-engine savings; the assembly window includes choosing the supported existing
+assembly-index mode after an initial recipe validation rejection.
+
+Qwen duplicated Korean syllables at two line breaks and confused the Apple IIc
+heading, 응용, 워드스타 and several company/show-name spellings. Source reads
+restore these while retaining printed onrmal off, Compag, 렘, the different
+일렉트리/일렉트릭 spellings and the Pascal article's apparent 프로프로그램
+repetition. Faint 휼레트/컴덱스/존속 readings remain provisional. Original claims
+about Pascal read, ANSI's expansion and hardware capacities are transcribed,
+not factually repaired. RomanⅡ, raised⁺ and the stacked½ are explicit typography
+representations; no code was executed or inferred.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p154r03 — GaAs technical prose | 1.35% | 16.22% |
+| p154r16 — ordinary Pascal prose | 4.29% | 10.00% |
+| p155r14 — Apple hardware specifications | 1.61% | 19.35% |
+| p157r24 — Lisp hardware specifications | 1.30% | 2.60% |
+
+[Comparison30](ocr-july-comparison-30.json) uses preselected identical PNGs with
+unblinded assistant references sealed before alternates. Tesseract uses kor+eng;
+the one Tesseract-primary Qwen alternate completed within512 tokens. Compact CER
+ignores whitespace but counts superscript and Roman-numeral representation.
+Qwen wins these four samples, while Tesseract is close on the Lisp passage.
+This still does not establish which route minimizes paid correction cost.
+
+The assembly preserves all three segment exports and their source bytes. Its
+explicit153/154 join places 순 and 도가 높은 in one reading block, retaining
+the immutable source newline. All review ranges,426 regional records,15-page
+coverage and byte-identical rebuild pass. PDF157 has a complete final sentence
+and article-end mark;158 is a publisher book advertisement, clarifying the
+batch32 map's earlier generic phrase “another article.” Human acceptance remains
+pending; no reading-room build was run at this checkpoint.
+
+July now has23 complete bodies,13 untouched and no partial bodies, zero human
+accepted. Cumulative140 unique source pages,2,576 regions,2,459 text crops,
+117 images and694 review flags. Listing totals are unchanged. Next inspect
+VISICALC candidate164–168; its exact extent is not yet verified. Final full-issue
+metrics and the authorized reading-room build remain outstanding.
