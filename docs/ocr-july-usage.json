@@ -5460,6 +5460,78 @@
         "total_tokens": 376634,
         "uncached_nonwrite_input_tokens": 3371
       }
+    },
+    {
+      "id": "preparation-54",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-11T20:20:25.804345+00:00",
+      "end": "2026-10-11T20:22:29.691824+00:00",
+      "elapsed_seconds": 123.88747906684875,
+      "observed_responses": 5,
+      "tokens": {
+        "input_tokens": 988795,
+        "cached_input_tokens": 979968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3151,
+        "reasoning_output_tokens": 1374,
+        "total_tokens": 991946,
+        "uncached_nonwrite_input_tokens": 8827
+      }
+    },
+    {
+      "id": "correction-54",
+      "stage": "correction",
+      "engine": "mixed",
+      "start": "2026-10-11T20:22:30.829450+00:00",
+      "end": "2026-10-11T20:23:59.986524+00:00",
+      "elapsed_seconds": 89.15707421302795,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 610391,
+        "cached_input_tokens": 605312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2783,
+        "reasoning_output_tokens": 425,
+        "total_tokens": 613174,
+        "uncached_nonwrite_input_tokens": 5079
+      }
+    },
+    {
+      "id": "export-54",
+      "stage": "export",
+      "engine": "mixed",
+      "start": "2026-10-11T20:24:01.076479+00:00",
+      "end": "2026-10-11T20:24:19.698497+00:00",
+      "elapsed_seconds": 18.622018098831177,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 205316,
+        "cached_input_tokens": 204800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 495,
+        "reasoning_output_tokens": 30,
+        "total_tokens": 205811,
+        "uncached_nonwrite_input_tokens": 516
+      }
+    },
+    {
+      "id": "evaluation-54",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-11T20:24:20.836116+00:00",
+      "end": "2026-10-11T20:24:41.847056+00:00",
+      "elapsed_seconds": 21.010939836502075,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 206360,
+        "cached_input_tokens": 205184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 278,
+        "reasoning_output_tokens": 162,
+        "total_tokens": 206638,
+        "uncached_nonwrite_input_tokens": 1176
+      }
     }
   ],
   "money_cost": null,
@@ -5467,36 +5539,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T20:19:27.408520+00:00",
-    "elapsed_seconds": 147730.39452004433,
-    "observed_responses": 1904,
+    "end": "2026-10-11T20:24:41.847056+00:00",
+    "elapsed_seconds": 148044.83305597305,
+    "observed_responses": 1917,
     "tokens": {
-      "input_tokens": 256732035,
-      "cached_input_tokens": 250991232,
+      "input_tokens": 259316937,
+      "cached_input_tokens": 253555328,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1392445,
-      "reasoning_output_tokens": 324813,
-      "total_tokens": 258124480,
-      "uncached_nonwrite_input_tokens": 5740803
+      "output_tokens": 1400029,
+      "reasoning_output_tokens": 326855,
+      "total_tokens": 260716966,
+      "uncached_nonwrite_input_tokens": 5761609
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T20:19:27.408520+00:00",
-    "elapsed_seconds": 147730.39452004433,
-    "observed_responses": 305,
+    "end": "2026-10-11T20:24:41.847056+00:00",
+    "elapsed_seconds": 148044.83305597305,
+    "observed_responses": 308,
     "tokens": {
-      "input_tokens": 39487542,
-      "cached_input_tokens": 38744704,
+      "input_tokens": 40061582,
+      "cached_input_tokens": 39313536,
       "cache_write_input_tokens": 0,
-      "output_tokens": 140016,
-      "reasoning_output_tokens": 20946,
-      "total_tokens": 39627558,
-      "uncached_nonwrite_input_tokens": 742838
+      "output_tokens": 140893,
+      "reasoning_output_tokens": 20997,
+      "total_tokens": 40202475,
+      "uncached_nonwrite_input_tokens": 748046
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction53:71 Microsoft text crops, nine interview pairs, enlarged historical spelling checks, names and joins;283.016s overlaps172.544s raw. Substantial source reading in preparation; correction alone is not total effort. Fixed70Q1T; successful worker without retries/fallback/primary crop repair. T title blank and directly source-transcribed. Eight historical endings retained; Qwen normalized some. Exact27200localtokens. Four preselected samples:Qwen wins3,ties1. Full history assembled separately with all source costs retained. Unblinded assistant references, not human gold. No causal paid-token attribution. Older limitations retained per checkpoint, between-window usage retained, human review cost unknown."
+  "limitation": "Correction54:26 text crops,25 advertiser/reference associations;89.157s overlaps28.709s raw. Source reading also in preparation; correction alone is not total effort. Fixed25Q1T, successful worker without retries/fallback/repair. Exact5148localtokens. Four preselected index rows:Qwen wins4, Tesseract blank3 under tested settings. Decorative leaders normalized consistently before index CER; comparison52 not directly pooled with prior literal CER. Unblinded assistant references, not human gold. All36 July bodies restored; consolidated metrics and reading room pending. No causal paid-token attribution. Older limitations retained, between-window usage retained, human review cost unknown."
 }

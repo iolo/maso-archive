@@ -2093,3 +2093,19 @@ commit code/documentation. Do not count a partial opening as a complete article.
   byte-identical rebuild verified; no new OCR or source corrections in assembly.
 - July35 complete,zero partial,one untouched across53 checkpoints. Only advertising
   index262 remains before consolidated metrics and the authorized reading room.
+
+### July restoration complete, 2026-10-12
+
+- Final advertising index262 restored:25 advertisers,27 associated page/cover
+  references including three cover references;26 text crops,two original images,
+  ten flags. Upper publisher advertisement excluded as a separate source item.
+- Fixed25Q/1T after rejected0.103s row probe; normal completion,no retries/fallbacks.
+  Raw28.709s;exact5,148 localtokens. Correction89.157s overlaps28.709s raw.
+  Paid5,079 uncached/605,312 cached input;2,783 output includes425 reasoning.
+- Comparison52:four Qwen wins;Tesseract blank on three rows under tested settings.
+  Decorative leaders removed consistently before field-oriented CER; do not pool
+  those scores with prior literal CER. Source reading also occurred in preparation.
+- Export/rebuild/UTF-8/all25 row associations/27 references/three covers pass.
+  All36 July bodies restored across54 checkpoints;zero partial or untouched.
+  Human review remains pending. Full metrics consolidation and authorized reading
+  room are the remaining goal deliverables; reporting/commit usage carries forward.

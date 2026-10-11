@@ -3377,3 +3377,48 @@ were made during assembly.
 July now has35 complete bodies,zero partial and one untouched across53 checkpoints.
 The advertising index262 is the only remaining body. Consolidated metrics and the
 authorized reading-room preview follow. Human acceptance remains pending throughout.
+
+## Batch54: final advertising index, PDF262
+
+The one-page index is complete:25 advertiser rows,27 associated page/cover
+references including three cover references,26 text crops,two original images
+and ten source-linked review flags. The upper publisher advertisement is a separate
+item and explicitly excluded. The next page is another unrelated advertisement.
+All advertiser names and reference values were checked against the source; original
+spelling and mixed-script anomalies remain for human review. Decorative leaders
+are retained in the full original image and omitted from readable transcription.
+
+Routing was fixed at25Q/1T after a0.103s row probe turned a page number into letters.
+Primary OCR completed normally with no retries,fallbacks or crop revisions. Qwen
+preserved all page references; three advertiser-name readings needed correction.
+
+| Measurement | Batch54 |
+| --- | ---: |
+| Raw worker, including startup/render/export | 28.709s |
+| Qwen recognition | 19.276s |
+| Tesseract primary recognition | 0.069s |
+| Exact local Qwen tokens | 5,148 |
+| Correction window | 89.157s |
+| Raw/correction overlap | 28.709s |
+| Paid uncached input in correction window | 5,079 |
+| Paid cached input in correction window | 605,312 |
+| Paid output, including reasoning | 2,783 |
+| Reasoning, already included in output | 425 |
+
+Source reading also occurred in preparation. Correction includes transcription,
+raw comparison,field associations and helper work; export/evaluation are separate.
+Retain all workflow costs and subtract overlap; no causal paid-token saving claim.
+
+Comparison52 removes decorative dot-leader runs consistently from both engines and
+reference before calculating CER. These field-oriented scores must not be pooled
+directly with earlier literal compact CER. Qwen scored0% on all four fixed samples;
+Tesseract scored100%,26.67%,100%,100%,including three blank rows under tested
+settings. This is evidence about these crops/settings,not every Tesseract layout
+mode. References are unblinded assistant readings sealed before alternates,not
+human gold. All raw evidence and the reused probe are retained privately.
+
+Export integrity,byte-identical rebuild,UTF-8 ranges,all25 row associations,27
+reference values and three cover markers pass. July restoration now covers all36
+article bodies across54 checkpoints,with zero partial or untouched bodies. Human
+acceptance remains pending. Consolidated metrics and the authorized reading-room
+preview are still required to complete the goal.

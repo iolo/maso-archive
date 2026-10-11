@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "normalization": "Decorative dot-leader runs removed consistently from both engine outputs and source reference before CER; whitespace-free CER still includes name/reference punctuation. These layout-normalized scores are not directly pooled with literal OCR CER.",
+  "scope": "Four preselected advertising-index name/reference samples. Unblinded assistant source reference, not human gold. Rejected same-image prose probe reused once as alternate. Fixed25Q1T. No causal paid-token savings claim",
+  "rows": [
+    {
+      "batch": "54",
+      "primary_engine": "qwen",
+      "region_id": "p262r06",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-54/ocr/scan-maso-1984-07-toc-0042/ocr-page262/p262r06.png",
+        "sha256": "4c59bb536dbd45dc73390d7cffee981a71ffa38ea45aad453316ecd663a2f2c1",
+        "bytes": 18410
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+        "bytes": 901
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T20:23:43.080913+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+          "bytes": 901
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four rows selected before primary OCR; alternates after seal; identical-image rejected probe reused once. Dot leaders treated as layout, not literal character targets."
+      },
+      "qwen_seconds": 0.8975131719998899,
+      "tesseract_seconds": 0.06639069800439756,
+      "qwen_usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 189,
+        "total_tokens": 205,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.1111111111111111,
+          "cer_edits": 1,
+          "cer_reference_chars": 9,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 7,
+          "wer": 0.6666666666666666
+        },
+        "tesseract": {
+          "cer": 1.0,
+          "cer_edits": 9,
+          "cer_reference_chars": 9,
+          "cer_no_whitespace": 1.0,
+          "cer_no_whitespace_edits": 7,
+          "cer_no_whitespace_reference_chars": 7,
+          "wer": 1.0
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "54",
+      "primary_engine": "qwen",
+      "region_id": "p262r18",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-54/ocr/scan-maso-1984-07-toc-0042/ocr-page262/p262r18.png",
+        "sha256": "1127724dda96d5dd8b5b812bbd3541a0375126fae03eac36d144167b28d100cf",
+        "bytes": 24921
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+        "bytes": 901
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T20:23:43.080913+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+          "bytes": 901
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four rows selected before primary OCR; alternates after seal; identical-image rejected probe reused once. Dot leaders treated as layout, not literal character targets."
+      },
+      "qwen_seconds": 1.0979677889990853,
+      "tesseract_seconds": 0.10313090799900237,
+      "qwen_usage": {
+        "completion_tokens": 20,
+        "prompt_tokens": 189,
+        "total_tokens": 209,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 18,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 15,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.2222222222222222,
+          "cer_edits": 4,
+          "cer_reference_chars": 18,
+          "cer_no_whitespace": 0.26666666666666666,
+          "cer_no_whitespace_edits": 4,
+          "cer_no_whitespace_reference_chars": 15,
+          "wer": 0.25
+        }
+      },
+      "tesseract_reused_preflight_probe": true,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "54",
+      "primary_engine": "qwen",
+      "region_id": "p262r21",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-54/ocr/scan-maso-1984-07-toc-0042/ocr-page262/p262r21.png",
+        "sha256": "6aab85924222f8d69c726c4c92b5346279ef50daac23d0fae7a41689714015d1",
+        "bytes": 20534
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+        "bytes": 901
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T20:23:43.080913+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+          "bytes": 901
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four rows selected before primary OCR; alternates after seal; identical-image rejected probe reused once. Dot leaders treated as layout, not literal character targets."
+      },
+      "qwen_seconds": 0.6836618950037519,
+      "tesseract_seconds": 0.06543239599704975,
+      "qwen_usage": {
+        "completion_tokens": 20,
+        "prompt_tokens": 189,
+        "total_tokens": 209,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 12,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 11,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 1.0,
+          "cer_edits": 12,
+          "cer_reference_chars": 12,
+          "cer_no_whitespace": 1.0,
+          "cer_no_whitespace_edits": 11,
+          "cer_no_whitespace_reference_chars": 11,
+          "wer": 1.0
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    },
+    {
+      "batch": "54",
+      "primary_engine": "qwen",
+      "region_id": "p262r24",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-54/ocr/scan-maso-1984-07-toc-0042/ocr-page262/p262r24.png",
+        "sha256": "e2842df4268f9ea3c06f2ae0af8511f4e57844b96ce3d6ef36eba24edc12791a",
+        "bytes": 16962
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+        "bytes": 901
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T20:23:43.080913+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+          "bytes": 901
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four rows selected before primary OCR; alternates after seal; identical-image rejected probe reused once. Dot leaders treated as layout, not literal character targets."
+      },
+      "qwen_seconds": 0.46239885999966646,
+      "tesseract_seconds": 0.07707438099896535,
+      "qwen_usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 189,
+        "total_tokens": 201,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "qwen_settings": {
+        "model": "local-qwen3-vl",
+        "temperature": 0,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0,
+        "presence_penalty": 0,
+        "seed": 42,
+        "max_tokens": 512,
+        "cache_prompt": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "ocr",
+            "strict": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 6,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 5,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 1.0,
+          "cer_edits": 6,
+          "cer_reference_chars": 6,
+          "cer_no_whitespace": 1.0,
+          "cer_no_whitespace_edits": 5,
+          "cer_no_whitespace_reference_chars": 5,
+          "wer": 1.0
+        }
+      },
+      "tesseract_reused_preflight_probe": false,
+      "qwen_status": "complete"
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering/startup; alternate OCR is separate evaluation overhead."
+}

@@ -4,14 +4,14 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 35,
+  "completed_article_bodies": 36,
   "partial_article_bodies": 0,
-  "completed_checkpoints": 53,
+  "completed_checkpoints": 54,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 1,
-  "remaining_toc_entries": 1,
-  "untouched_toc_entries": 1,
+  "remaining_article_bodies": 0,
+  "remaining_toc_entries": 0,
+  "untouched_toc_entries": 0,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -17863,6 +17863,192 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Representative opening probe corrupted Bill and an opening parenthesis into digits and inserted stray punctuation. Qwen introduction, interview and pullquotes; Tesseract single large title with mandatory source presence check. Boundaries visually verified before primary inference."
       }
+    },
+    {
+      "batch": "54",
+      "toc_entry_id": "maso-1984-07-toc-0042",
+      "title": "광고색인",
+      "engine": "mixed",
+      "printed_pages": [
+        258
+      ],
+      "pdf_pages": [
+        262
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-54/map.json",
+        "sha256": "1834648b0771f8d904d298abe7530ed4610cc36b5cf1bbe9fd831fd06048684e",
+        "bytes": 9469
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-54/advertising-index/article.json",
+          "sha256": "54a683fff1eb8e088833ad7092e06e0714dcc78b6b79d77d38ec00f085893f3f",
+          "bytes": 38043
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-54/advertising-index/manifest.json",
+          "sha256": "c8ee398dee8bcfc8f36e13d115c14a6337373844c768567ba5075d7c7a4b4b41",
+          "bytes": 18869
+        },
+        "source_pages": [
+          262
+        ],
+        "regions": 28,
+        "text_regions": 26,
+        "figures": 2,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 10,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 28.70876366700395,
+      "recognition_seconds": 19.345086532994173,
+      "local_qwen_tokens": {
+        "prompt_tokens": 4749,
+        "completion_tokens": 399,
+        "total_tokens": 5148
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-54/transcription-assistant.json",
+        "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+        "bytes": 901
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T20:23:43.080913+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "4c55c381f29e27fa885a103bba77013d876504a336e3624ef7e30f3347bd2885",
+          "bytes": 901
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four rows selected before primary OCR; alternates after seal; identical-image rejected probe reused once. Dot leaders treated as layout, not literal character targets."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "prose": 176,
+        "title": 4
+      },
+      "work_window_ids": [
+        "correction-54",
+        "export-54"
+      ],
+      "failed_server_compute_seconds": null,
+      "recognition_limitation": "Exact captured local usage from25 Qwen responses;1 Tesseract primary calls. Rejected0.103s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution.",
+      "raw_run_seconds_basis": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+      "recovery": {
+        "attempts": 1,
+        "reason": "Saved worker60951 completed exit0; no interruption, fallback, crop revision or duplicate primary.",
+        "final_completed_crops": 26,
+        "duplicated_successful_crops": 0,
+        "interrupted_crops": 0,
+        "failed_crops": 0,
+        "successful_recognition_seconds": 19.27623357099219,
+        "local_qwen_tokens_all_attempts": {
+          "prompt_tokens": 4749,
+          "completion_tokens": 399,
+          "total_tokens": 5148
+        },
+        "limitation": "Exact captured local usage from25 Qwen responses;1 Tesseract primary calls. Rejected0.103s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-54/recovery-accounting.json",
+        "sha256": "f90780dca34d0d8562ba885ec5f4f00194ded6a485ed9c2597a8e1455c5a1693",
+        "bytes": 648
+      },
+      "local_qwen_tokens_retained_successes": {
+        "prompt_tokens": 4749,
+        "completion_tokens": 399,
+        "total_tokens": 5148
+      },
+      "recognition_seconds_retained_successes": 19.27623357099219,
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p262r01": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 19.27623357099219,
+        "tesseract_recognition_seconds": 0.06885296200198354,
+        "qwen_regions": {
+          "p262r04": 0.5751237619988387,
+          "p262r05": 0.721541384999,
+          "p262r06": 0.8975131719998899,
+          "p262r07": 1.0834503910009516,
+          "p262r08": 0.8229104420024669,
+          "p262r09": 0.948910851002438,
+          "p262r10": 0.49616122999577783,
+          "p262r11": 0.9555442749988288,
+          "p262r12": 0.9550553119988763,
+          "p262r13": 0.7183213960015564,
+          "p262r14": 0.8991515369998524,
+          "p262r15": 0.5527187699990463,
+          "p262r16": 1.0424411420026445,
+          "p262r17": 0.7954400410017115,
+          "p262r18": 1.0979677889990853,
+          "p262r19": 0.5652583160044742,
+          "p262r20": 0.7034015169992927,
+          "p262r21": 0.6836618950037519,
+          "p262r22": 0.9934283099937602,
+          "p262r23": 0.5502119890006725,
+          "p262r24": 0.46239885999966646,
+          "p262r25": 0.989973606003332,
+          "p262r26": 0.4417205899953842,
+          "p262r27": 0.5128758529972401,
+          "p262r28": 0.8110511399936513
+        },
+        "tesseract_regions": {
+          "p262r01": 0.06885296200198354
+        },
+        "reason": "Rejected bounded index-row Tesseract probe: page111 became Latin DDL. Qwen25 advertiser/page rows; Tesseract short heading. Dotted leaders are layout, retained in original index image and normalized for readable transcription/field evaluation."
+      },
+      "qwen_recognition_seconds": 19.27623357099219,
+      "tesseract_recognition_seconds": 0.06885296200198354,
+      "assignment_reason": "Rejected bounded index-row Tesseract probe: page111 became Latin DDL. Qwen25 advertiser/page rows; Tesseract short heading. Dotted leaders are layout, retained in original index image and normalized for readable transcription/field evaluation.",
+      "correction_raw_overlap": {
+        "correction_seconds": 89.157074,
+        "raw_overlap_seconds": 28.708752,
+        "scope": "26 source crop transcriptions, raw comparison, selected glyph rechecks, 25 advertiser/reference associations, historical names/typesetting anomalies, explicit joins and helper work. Substantial source reading occurred earlier in preparation while checking crop boundaries; correction-window timing alone understates total source-reading effort. Export/evaluation separate. No per-engine paid attribution."
+      },
+      "advertising_index_audit": {
+        "advertisers": 25,
+        "reference_values": 27,
+        "cover_references": 3,
+        "source_checked": true,
+        "human_acceptance": "pending",
+        "normalization": "Leader dots omitted from readable text; original full index retained."
+      },
+      "preflight_probes": [
+        {
+          "region_id": "p262r18",
+          "image": {
+            "path": "preflight/p262r18.png",
+            "sha256": "1127724dda96d5dd8b5b812bbd3541a0375126fae03eac36d144167b28d100cf",
+            "bytes": 24921
+          },
+          "seconds": 0.10313090799900237,
+          "config": {
+            "languages": "kor+eng",
+            "psm": 6
+          }
+        }
+      ],
+      "preflight_probe_seconds": 0.10313090799900237,
+      "region_language_overrides": {
+        "p262r01": "kor+eng"
+      },
+      "preflight_probe_accounting": "Rejected probe preparation-only, reuse once for identical-image alternate.",
+      "primary_probe_reuse": {},
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Rejected bounded index-row Tesseract probe: page111 became Latin DDL. Qwen25 advertiser/page rows; Tesseract short heading. Dotted leaders are layout, retained in original index image and normalized for readable transcription/field evaluation."
+      }
     }
   ],
   "assemblies": [
@@ -21697,9 +21883,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 262,
-      "planned_primary_engine": "mixed"
+      "batch": "54",
+      "engine": "mixed",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-54/advertising-index/article.json",
+        "sha256": "54a683fff1eb8e088833ad7092e06e0714dcc78b6b79d77d38ec00f085893f3f",
+        "bytes": 38043
+      }
     }
   ],
   "comparison": {
@@ -21962,32 +22154,25 @@
       "path": "docs/ocr-july-comparison-51.json",
       "sha256": "8cf9eb642363700c7b1fd13580178c809cae520ad6d853757c9bc1b8e975d2aa",
       "bytes": 11866
+    },
+    {
+      "path": "docs/ocr-july-comparison-52.json",
+      "sha256": "dbf7e6715b7e64d2e4d20cdfee51c71d6d825a51bcf29dd85a66158353fc7e18",
+      "bytes": 12120
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "e2dac23ce55c9bd2bdd1d294d223ea63f425bbae8dfcfa56e0305ebd2e56b243",
-    "bytes": 179368
+    "sha256": "9c9297cc66e3b183541429ba03dda24b97a2aa37cbfd0b0cdf1e1aafb5ba924d",
+    "bytes": 181563
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
     "authorized_by": "Active user goal: restore remaining July articles, consolidate metrics, then build reading room for human review.",
     "instruction_date": "2026-10-11"
   },
-  "next_pair": [
-    {
-      "toc_entry_id": "maso-1984-07-toc-0042",
-      "title": "광고색인",
-      "candidate_pdf_pages": [
-        262
-      ],
-      "engine": "mixed",
-      "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Restore final advertising index: inspect columns, row associations and telephone/page values; bounded probe before fixing engine assignments.",
-      "extent_status": "Candidate262/printed258; verify whole-page extent and adjacent263."
-    }
-  ],
-  "decision": "July35 complete bodies,0partial,1untouched,53checkpoints; human acceptance pending. Full history243–261 assembled across49–53:458regions441text17fig123flags. Microsoft ending71text3fig24flags5joins,nineQA pairs,eight historical spellings retained. Fixed70Q1T,no primary recovery. Raw172.544s exact27200localtokens; correction283.016s overlaps172.544s, earlier source reading in preparation. Comparison51 Qwins3ties1. Continue sole remaining advertising index262, consolidate metrics, build reading room. No causal paid savings claim.",
+  "next_pair": [],
+  "decision": "July36 complete bodies,0partial,0untouched,54checkpoints; all human acceptance pending. Final advertising index262 has25advertisers27references including3covers, all source-checked. Fixed25Q1T, no retries/fallback/repair; raw28.709s exact5148localtokens. Correction89.157s overlaps28.709s; earlier source reading in preparation. Comparison52 Qwins4 with explicit dot-leader normalization, excluded from pooling with literal CER. All restoration and fullhistoryassembly done. Next consolidate metrics and build authorized reading room; no causal paid savings claim.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition is normally nested and must not be added again. Batch44 includes one0.244653s preflight prose probe in recognition outside its raw-worker lifespan. Batch30 includes one0.205s preflight table probe in its recognition sum but outside its measured raw-worker lifespan; count that reused inference once.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",
