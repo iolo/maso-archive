@@ -1224,3 +1224,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   56 images,304 BASIC lines,1,071 hex rows,84 assembly rows,153 flags.
   Next inspect candidate56–58. Reading room after full restoration/metrics.
   User homepage edit remains untouched; final reporting/commit usage carries forward.
+
+
+### July FC-100 rebellion game restored, 2026-10-11
+
+- Batch14 restores complete PDF56–58:50 regions,49 text crops,1 image,
+  170 numbered BASIC lines/195 physical rows,112 hex DATA values and21 flags.
+  Source spelling/errors retained; graphics use explicit scan-linked ⟦G⟧ markers.
+- Qwen bracket repetition reached4,096 tokens after44 completed crops. Preserved
+  failed evidence; reused44 verified stages, inferred4 remaining, used Tesseract
+  for1 crop. No repeated successful inference or duplicate paid correction.
+- Raw328.45s; successful Qwen182.24s; fallback0.15s. Failed server compute125.43s
+  is a separate basis. Local33,544 tokens include failure. A successful Qwen crop
+  silently omitted9 numbered rows; all restored by source review and flagged.
+- Correction/recovery/helper work490.10s;56,553 uncached input,2,055,424 cached
+  input,14,224 output tokens, zero cache-write. Raw overlap292.12s.
+- Four fixed samples favor Qwen; they exclude graphic placeholders and the omitted
+  crop. No human-gold, whole-article accuracy or paid-savings claim. Coverage-check
+  guidance added to routing rule. Export/review ranges/reproducible rebuild pass.
+- July:9 complete,27 untouched;52 source pages,762 regions,705 text crops,
+  57 images,474 BASIC lines,1,071 hex rows,84 assembly rows,174 flags.
+  Next inspect59–61. Full restoration, metric consolidation and reading room remain.
+  Homepage edit untouched; final reporting/commit usage carries into next audit.

@@ -4,14 +4,14 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 8,
+  "completed_article_bodies": 9,
   "partial_article_bodies": 0,
-  "completed_checkpoints": 13,
+  "completed_checkpoints": 14,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 28,
-  "remaining_toc_entries": 28,
-  "untouched_toc_entries": 28,
+  "remaining_article_bodies": 27,
+  "remaining_toc_entries": 27,
+  "untouched_toc_entries": 27,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -1430,6 +1430,366 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Dense BASIC DATA, assembly bytes and music/numeric table; Qwen primary with original table preserved and glyph-description limits explicit. Paid savings unproven."
       }
+    },
+    {
+      "batch": "14",
+      "toc_entry_id": "maso-1984-07-toc-0005",
+      "title": "컴퓨터반란군 진압대",
+      "engine": "mixed",
+      "printed_pages": [
+        52,
+        53,
+        54
+      ],
+      "pdf_pages": [
+        56,
+        57,
+        58
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-14/map.json",
+        "sha256": "5bf056aec8f4218981947adb94eea76f9071b643a447c56db6035fbd30a0e4ad",
+        "bytes": 15535
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-14/rebellion-fc100/article.json",
+          "sha256": "6fa2f2b1d632deb0cb2808e3250adaae3ae708228e89588dbc4292fdc86b116d",
+          "bytes": 81139
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-14/rebellion-fc100/manifest.json",
+          "sha256": "0aa9244ad930a7172add3a45238cc6c48bd5c7ce9b1e90faa9edc06bc90fd408",
+          "bytes": 33879
+        },
+        "source_pages": [
+          56,
+          57,
+          58
+        ],
+        "regions": 50,
+        "text_regions": 49,
+        "figures": 1,
+        "physical_listing_rows": 195,
+        "logical_listing_rows": 170,
+        "unresolved_entries": 21,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 328.4493504980019,
+      "recognition_seconds": 182.23922912998387,
+      "local_qwen_tokens": {
+        "prompt_tokens": 24269,
+        "completion_tokens": 9275,
+        "total_tokens": 33544
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-14/transcription-assistant.json",
+        "sha256": "8c30ba4693cac7d3de6229e774daac93447e2323b6d76380de6fc181af4025ae",
+        "bytes": 10500
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T09:36:40.696709+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "8c30ba4693cac7d3de6229e774daac93447e2323b6d76380de6fc181af4025ae",
+          "bytes": 10500
+        },
+        "method": "Assistant source reading from Qwen primary and one Tesseract fallback; comparison references sealed before alternate OCR; unblinded, not human gold."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 9,
+        "code": 4136,
+        "other": 1350,
+        "prose": 474,
+        "title": 24
+      },
+      "work_window_ids": [
+        "raw-14",
+        "correction-14",
+        "export-14"
+      ],
+      "failed_server_compute_seconds": 125.432788,
+      "recognition_limitation": "Recognition sum covers successful unique Qwen calls. Tesseract fallback and failed server compute are separate. Raw sum includes both attempts, but not intervening fallback-helper preparation. Cache copies are not duplicate inference. No repeated paid correction.",
+      "raw_run_seconds_basis": "Sum of measured first attempt plus mixed recovery; failed call included, between-attempt preparation excluded.",
+      "recovery": {
+        "attempts": 2,
+        "reason": "Original Qwen response reached4096-token length limit on graphic-heavy title code. Source/map unchanged; successful stages verified and copied byte-for-byte.",
+        "first_completed_crops": 44,
+        "final_completed_crops": 49,
+        "duplicated_successful_crops": 0,
+        "failed_crops": 1,
+        "failed_response": {
+          "path": "ocr-attempt-01/stages/scan-maso-1984-07-toc-0005/p58r08/inference.response.json",
+          "sha256": "8a1972289e80ef55caaee1ce173736f1620782d75da7681475da7bef1a20f0ef",
+          "bytes": 9184
+        },
+        "first_raw_seconds": 298.75713704900045,
+        "second_raw_seconds": 29.69221344900143,
+        "successful_recognition_seconds": 182.23922912998387,
+        "tesseract_fallback_seconds": 0.15350816400314216,
+        "failed_server_compute_seconds": 125.432788,
+        "local_qwen_tokens_all_attempts": {
+          "prompt_tokens": 24269,
+          "completion_tokens": 9275,
+          "total_tokens": 33544
+        },
+        "limitation": "Recognition sum covers successful unique Qwen calls. Tesseract fallback and failed server compute are separate. Raw sum includes both attempts, but not intervening fallback-helper preparation. Cache copies are not duplicate inference. No repeated paid correction."
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-14/recovery-accounting.json",
+        "sha256": "b92c1b33df19ada24bd52c6bfac3b71d3425824cd5230aea3e7d1d2c1126e8ae",
+        "bytes": 1188
+      },
+      "local_qwen_tokens_retained_successes": {
+        "prompt_tokens": 23584,
+        "completion_tokens": 5179,
+        "total_tokens": 28763
+      },
+      "recognition_seconds_retained_successes": 182.23922912998387,
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p58r08": "tesseract"
+      },
+      "fallback_reason": "Qwen length-limited bracket repetition on graphic-heavy title code; one Tesseract crop plus source correction, no repeated Qwen successes.",
+      "tesseract_fallback_seconds": 0.15350816400314216,
+      "listing_audit": {
+        "logical_basic_rows": 170,
+        "physical_basic_rows": 195,
+        "printed_basic_lines": {
+          "p57r11": [
+            10,
+            20,
+            30,
+            98,
+            99,
+            100,
+            110,
+            120,
+            130,
+            198,
+            199
+          ],
+          "p57r12": [
+            200,
+            210,
+            220,
+            230,
+            240,
+            250,
+            255,
+            260,
+            270,
+            280
+          ],
+          "p57r13": [
+            290,
+            300,
+            310,
+            320,
+            330,
+            340,
+            350,
+            360,
+            370
+          ],
+          "p57r14": [
+            380,
+            390,
+            998,
+            999,
+            1000,
+            1010,
+            1020,
+            1030,
+            1040,
+            1050
+          ],
+          "p57r15": [
+            1060,
+            1070,
+            1998,
+            1999,
+            2000,
+            2010,
+            2020,
+            2030,
+            2040,
+            2050,
+            2060
+          ],
+          "p57r16": [
+            2070,
+            2080,
+            2090,
+            2100,
+            2110,
+            2120,
+            2130,
+            2140,
+            2150,
+            2160
+          ],
+          "p58r01": [
+            2170,
+            2180,
+            2190,
+            2200,
+            2210,
+            2998,
+            2999,
+            3000,
+            3010
+          ],
+          "p58r02": [
+            3020,
+            3030,
+            3040,
+            3050,
+            3998,
+            3999,
+            4000
+          ],
+          "p58r03": [
+            4010,
+            4020,
+            4030,
+            4040,
+            4050,
+            4060,
+            4070,
+            4080,
+            4090,
+            4498
+          ],
+          "p58r04": [
+            4499,
+            4500,
+            4510,
+            4520,
+            4530,
+            4540,
+            4550,
+            4560,
+            4570,
+            4580,
+            4998
+          ],
+          "p58r05": [
+            4999,
+            5000,
+            5010,
+            5020,
+            5998,
+            5999,
+            6000
+          ],
+          "p58r06": [
+            6020,
+            6030,
+            6040,
+            6050,
+            6060,
+            6070,
+            6080,
+            6090,
+            6998
+          ],
+          "p58r07": [
+            6999,
+            7000,
+            7010,
+            7020,
+            7030,
+            7040,
+            7050,
+            7060,
+            7070,
+            7080
+          ],
+          "p58r08": [
+            7090,
+            7100,
+            7110,
+            7120,
+            7130,
+            7140,
+            7998
+          ],
+          "p58r09": [
+            7999,
+            8000,
+            8010,
+            8020,
+            8030,
+            8040,
+            8050,
+            8060
+          ],
+          "p58r10": [
+            8070,
+            8080,
+            8090,
+            8100,
+            8110,
+            8120,
+            8130,
+            8140,
+            8150,
+            8160,
+            9000
+          ],
+          "p58r11": [
+            9010,
+            9020,
+            9998,
+            9999,
+            10000,
+            10010,
+            10020,
+            10030,
+            10040
+          ],
+          "p58r12": [
+            10050,
+            10060,
+            10070,
+            10080,
+            10090,
+            10100,
+            10110,
+            10120,
+            10130,
+            10140,
+            10150
+          ]
+        },
+        "hex_data_values": 112,
+        "graphic_placeholder": "⟦G⟧",
+        "graphic_regions": [
+          "p57r12",
+          "p57r13",
+          "p57r14",
+          "p58r06",
+          "p58r07",
+          "p58r08",
+          "p58r10",
+          "p58r11"
+        ],
+        "scope": "Printed line IDs and physical wrap provenance checked; graphic placeholders are editorial, no original encoded-byte recovery or execution verified."
+      },
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Dense BASIC, DATA and PLAY literals dominate this three-page article. Qwen primary; graphics remain explicitly unverified, paid savings unproven."
+      }
     }
   ],
   "assemblies": [
@@ -2076,9 +2436,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 56,
-      "planned_primary_engine": "qwen"
+      "batch": "14",
+      "engine": "mixed",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-14/rebellion-fc100/article.json",
+        "sha256": "6fa2f2b1d632deb0cb2808e3250adaae3ae708228e89588dbc4292fdc86b116d",
+        "bytes": 81139
+      }
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0006",
@@ -2115,7 +2481,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 59
+      "pdf_page_candidate": 59,
+      "planned_primary_engine": "qwen"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0007",
@@ -3726,12 +4093,17 @@
       "path": "docs/ocr-july-comparison-11.json",
       "sha256": "6d0012e97a61f7c51b29769b0737276bdfe9375084cc25b7a51334a1a1bbeefd",
       "bytes": 8880
+    },
+    {
+      "path": "docs/ocr-july-comparison-12.json",
+      "sha256": "290492bde671648195f766d82c09d6c044ab871591e0bde4fa8ebaf265e8c1c6",
+      "bytes": 8951
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "ecaf98ca7ce804254a34d6c1fb393b1bbf4548aa39cfdfa224e60fc6868d0231",
-    "bytes": 48955
+    "sha256": "bd80f59a63d6344a98270662ea113324c1c76cb40fc909f7118c8e0fd27c06ff",
+    "bytes": 52892
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -3740,25 +4112,25 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0005",
-      "title": "컴퓨터반란군 진압대",
+      "toc_entry_id": "maso-1984-07-toc-0006",
+      "title": "육감개발 2주 완성",
       "candidate_pdf_pages": [
-        56,
-        57,
-        58
+        59,
+        60,
+        61
       ],
       "printed_pages": [
-        52,
-        53,
-        54
+        55,
+        56,
+        57
       ],
       "engine": "qwen",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Provisional game/program listing category. Inspect actual layout before detailed checkpoint assignment; clear prose may use Tesseract.",
-      "extent_status": "Candidate starts56 after restored SPC-1000 article51–55; next catalog body starts59. Actual extent/advertisements require source inspection."
+      "routing_reason": "Candidate FC-100 program article. Page59 prose inspected, remaining layout must be inspected; choose Tesseract for clear prose segment if coherent, Qwen for listings.",
+      "extent_status": "Starts59 confirmed visually; next TOC body starts62. Inspect60–62 to confirm complete body and any advertisements."
     }
   ],
-  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
+  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Batch14 FC-100 game uses Qwen with one Tesseract fallback and explicit graphic placeholders; a silent nine-line omission was source-corrected. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

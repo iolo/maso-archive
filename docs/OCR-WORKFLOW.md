@@ -408,9 +408,9 @@ remaining after local OCR.
 The maintainer selected July1984 for the next trial. See [the trial plan and
 measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
-Eight complete article bodies, including the assembled music-card hardware/software/hex
-article,18-page Z-80 feature and8-page Apple sound article, are recorded in
-[July progress](ocr-july-progress.json). Twenty-eight paginated bodies remain;
+Nine complete article bodies, including the assembled music-card hardware/software/hex
+article,18-page Z-80 feature,8-page Apple sound article and FC-100 rebellion game, are recorded in
+[July progress](ocr-july-progress.json). Twenty-seven paginated bodies remain;
 six unpaginated TOC parent headings are tracked separately.
 
 The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)

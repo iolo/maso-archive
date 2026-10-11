@@ -77,7 +77,13 @@ are lost, reading order is mixed, or substantial text becomes unreadable fragmen
 Ordinary spacing/wrapping problems alone do not justify switching. This bounded
 probe is optional: do not routinely run both engines over the entire article.
 Record all probes, fallbacks and retries, retain their raw evidence, and include
-their elapsed cost. Correct the selected draft only once.
+their elapsed cost. Correct the selected draft only once. Check crop coverage against
+visible source rows even when the engine reports success: batch14 returned just a
+continuation line while silently omitting nine numbered lines below it. For mixed
+code/graphics, keep explicit scan-linked graphic placeholders; a bounded Tesseract
+fallback can end a Qwen repetition loop without establishing glyph accuracy.
+Reuse successful evidence only with unchanged source/crops and verified hashes,
+and label mixed-engine provenance explicitly.
 
 For planned comparisons, keep preselected assignments and samples fixed unless a
 fallback is explicitly recorded. Seal the source-checked reference before alternate
@@ -825,3 +831,75 @@ checkpoints:49 source pages,712 regions,656 text crops,56 images,304 logical BAS
 lines,1,071 hex rows,84 assembly rows and153 flags. Six unpaginated headings remain
 separate. Next inspect 컴퓨터반란군 진압대, candidate PDF56–58, before confirming
 its route. Full-issue metric consolidation and reading room follow restoration.
+
+
+## FC-100 rebellion game and mixed fallback, 2026-10-11
+
+Batch14 restores the complete 컴퓨터반란군 진압대 article, PDF56–58/printed52–54.
+It has50 mapped regions,49 text crops, one original screen image,170 numbered BASIC
+lines across195 physical listing rows,112 hexadecimal DATA values and21 review
+flags. Source59 starts the next article. Introduction, variables, explanation and
+listing follow their actual cross-column reading order.
+
+Qwen was assigned before inference because code dominates the article. After44
+successful crops, p58r08 repeated graphic brackets until the4,096-token limit.
+The failed request/response remain intact. Recovery copied44 verified Qwen stages
+without repeating inference, completed four remaining Qwen crops, and used
+Tesseract eng/OEM1/PSM6 on the failed crop. The mixed evidence retains each engine's
+native response/settings and original scan. No second paid correction occurred.
+The Tesseract fallback ended the loop; it did not reliably decode graphic literals.
+
+`⟦G⟧` explicitly marks an unresolved FC-100 graphic run in eight source-linked
+regions. It is editorial notation, not a program token or a promise of exact glyph
+count/byte encoding. Readable numeric labels, English strings and the printed
+credit “Programer : Jang Chang Soo.” are preserved. Line4010's missing T, several
+absent closing quotes, the missing separator before NEXT in2190, and ambiguous
+quote punctuation in8070 remain flagged. Wider source-column checks distinguish
+printed omissions from crop clipping. Programs have not been executed or repaired.
+
+A separate successful Qwen response for p58r11 contained only the first physical
+continuation line, omitting all nine numbered lines9010–10040. Source proofreading
+restored those rows. Thus completion status and fast inference do not establish
+coverage. This omission was outside the four preselected comparison crops and is
+reported separately rather than concealed by their favorable scores.
+
+| Observation | Qwen primary, one Tesseract fallback |
+| --- | ---: |
+| Raw elapsed, first attempt plus recovery | 328.45s |
+| Successful unique Qwen recognition | 182.24s |
+| Failed Qwen server compute, separate timer basis | 125.43s |
+| Tesseract fallback recognition | 0.15s |
+| Correction/recovery/helper/recording window | 490.10s |
+| Corrected non-whitespace characters, including editorial markers | 5,993 |
+| Uncached, non-write correction input tokens | 56,553 |
+| Cached correction input tokens | 2,055,424 |
+| Correction output tokens | 14,224 |
+
+Local Qwen usage33,544 tokens includes the failed response (24,269 prompt;
+9,275 completion). Cache copies are counted once. The raw sum covers startup,
+inference/failure and evidence export, excluding preparation between attempts.
+Recognition and raw timers overlap and must not be added. Failed server compute
+has a different measurement basis. Raw/correction overlap is292.12s. The correction
+window includes mixed-recovery helper implementation and source coverage repair;
+it is not isolated engine correction cost. Assistant cache-write tokens were zero.
+
+| Fixed crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p56r04 — introduction | 0.00% | 10.34% |
+| p57r16 — coordinate-check BASIC | 0.37% | 24.34% |
+| p58r03 — key-check BASIC | 1.58% | 35.57% |
+| p58r12 — hexadecimal DATA | 0.00% | 20.69% |
+
+All four crops used identical PNGs and source-checked references sealed before
+alternate inference. They exclude graphic placeholders and the omitted-row crop.
+References remain unblinded assistant readings, not independent human gold;
+compact CER is not a whole-article, layout, executable-code or paid-savings score.
+
+Native export integrity, source-linked review byte ranges, explicit printed line
+identities, listing byte coverage and byte-identical rebuild pass. July now has
+nine complete bodies and27 untouched, with no partial bodies and zero human
+acceptances. Cumulative checkpoints cover52 source pages,762 regions,705 text
+crops,57 images,474 BASIC lines,1,071 hex rows,84 assembly rows and174 flags.
+Next inspect 육감개발 2주 완성, candidate PDF59–61; choose its route after checking
+remaining pages. Full issue restoration, consolidated metrics and the reading-room
+preview remain outstanding.
