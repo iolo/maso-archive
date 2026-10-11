@@ -1121,3 +1121,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next: Z-80 feature, candidatePDF21–38, Qwen for dense technical notation;
   detailed mapping and preselected samples still required. User homepage edit
   retained. Carry reporting/commit tail into the next cumulative usage audit.
+
+### July Z-80 opening restored, 2026-10-11
+
+- Batch09/Qwen restores PDF21–26/printed17–22, opening and sections1–3:
+  77 regions,68 text crops,nine original diagrams,14 source-linked flags.
+  Remaining27–38 and full Z-80 assembly are still pending.
+- Restored visible overbars, subscripts and cross-column/page prose joins. Retained
+  printed S-RAM/5비트/16비트 inconsistencies and caption 비퍼; faint last subscript
+  in A₀~A₆ remains a candidate for human confirmation. No technical repair/testing.
+- Raw247.89s, recognition218.75s,startup1.26s; correction295.99s for6,340 characters.
+  Correction tokens:25,450 uncached input,1,552,256 cached input,10,118 output;
+  zero cache-write. Local Qwen38,645 tokens separate. Raw/correction overlap181.49s;
+  preserve separate engine and assistant clocks. No inference retries.
+- Four fixed crops favor Qwen raw text, with small margins on ordinary prose.
+  Memory-signal Qwen13.25% CER comprises20 dropped overbars and two quote-style
+  differences; base letters match. References sealed before alternate Tesseract;
+  no repeated paid correction, human-gold or paid-savings claim.
+- Integrity, correction byte ranges and byte-identical rebuild passed. July totals:
+  6 complete bodies,1 partial,29 untouched;29 source pages,437 regions,405 text,
+  32 figures,207 BASIC lines,1,071 hex rows,89 flags. Human review pending.
+- Next: map Z-80 CPU control/interrupt material27–32, then33–38 and assemble.
+  Reading room after full restoration/metrics. Homepage edit remains untouched;
+  carry final reporting/commit tail into next cumulative usage audit.

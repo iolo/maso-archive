@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "scope": "Four preselected identical-PNG crops: low-contrast opening, address/subscript prose, memory control signals, input/output prose. Qwen-derived references sealed before alternate Tesseract OCR; unblinded assistant readings, not independent human gold. No repeated paid correction. Compact CER ignores whitespace and table cell delimiters; not a layout or executable-code test.",
+  "rows": [
+    {
+      "batch": "09",
+      "primary_engine": "qwen",
+      "region_id": "p21r04",
+      "category": "prose",
+      "content_label": "z80-opening-1",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-09/ocr/scan-maso-1984-07-toc-0001/ocr-page21/p21r04.png",
+        "sha256": "1778160b8472f0a9de492603c4f132067a2a9dc1e31b8f1a1a3936063789ef3b",
+        "bytes": 318710
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "0df6b9895cf56e3878b5ced33bfcf5c220482232cd76fe9fe52897aaa271ca56",
+        "bytes": 19829
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T05:32:44.409343+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "0df6b9895cf56e3878b5ced33bfcf5c220482232cd76fe9fe52897aaa271ca56",
+          "bytes": 19829
+        },
+        "method": "Assistant source comparison from Qwen draft; alternate Tesseract not seen. Unblinded, not human gold."
+      },
+      "qwen_seconds": 5.127610499001094,
+      "tesseract_seconds": 0.38088267800048925,
+      "qwen_usage": {
+        "completion_tokens": 120,
+        "prompt_tokens": 987,
+        "total_tokens": 1107,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.02564102564102564,
+          "cer_edits": 4,
+          "cer_reference_chars": 156,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 122,
+          "wer": 0.22857142857142856
+        },
+        "tesseract": {
+          "cer": 0.04487179487179487,
+          "cer_edits": 7,
+          "cer_reference_chars": 156,
+          "cer_no_whitespace": 0.01639344262295082,
+          "cer_no_whitespace_edits": 2,
+          "cer_no_whitespace_reference_chars": 122,
+          "wer": 0.2857142857142857
+        }
+      }
+    },
+    {
+      "batch": "09",
+      "primary_engine": "qwen",
+      "region_id": "p22r11",
+      "category": "prose",
+      "content_label": "z80-address-data-left-1",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-09/ocr/scan-maso-1984-07-toc-0001/ocr-page22/p22r11.png",
+        "sha256": "b5fadbfcf78d5a377e934f251dc23d1ccfaaa1a0090a883c78c2bed6f4b12665",
+        "bytes": 164516
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "0df6b9895cf56e3878b5ced33bfcf5c220482232cd76fe9fe52897aaa271ca56",
+        "bytes": 19829
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T05:32:44.409343+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "0df6b9895cf56e3878b5ced33bfcf5c220482232cd76fe9fe52897aaa271ca56",
+          "bytes": 19829
+        },
+        "method": "Assistant source comparison from Qwen draft; alternate Tesseract not seen. Unblinded, not human gold."
+      },
+      "qwen_seconds": 3.497253678000561,
+      "tesseract_seconds": 0.23875029600094422,
+      "qwen_usage": {
+        "completion_tokens": 98,
+        "prompt_tokens": 440,
+        "total_tokens": 538,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.008264462809917356,
+          "cer_edits": 1,
+          "cer_reference_chars": 121,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 95,
+          "wer": 0.07407407407407407
+        },
+        "tesseract": {
+          "cer": 0.12396694214876033,
+          "cer_edits": 15,
+          "cer_reference_chars": 121,
+          "cer_no_whitespace": 0.14736842105263157,
+          "cer_no_whitespace_edits": 14,
+          "cer_no_whitespace_reference_chars": 95,
+          "wer": 0.25925925925925924
+        }
+      }
+    },
+    {
+      "batch": "09",
+      "primary_engine": "qwen",
+      "region_id": "p24r02",
+      "category": "prose",
+      "content_label": "z80-memory-left-1",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-09/ocr/scan-maso-1984-07-toc-0001/ocr-page24/p24r02.png",
+        "sha256": "b35f4c4d4112e2a6cbef70f38c08c2f0926a229a2ff4485e8b00a3ad5e974bc4",
+        "bytes": 227594
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "0df6b9895cf56e3878b5ced33bfcf5c220482232cd76fe9fe52897aaa271ca56",
+        "bytes": 19829
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T05:32:44.409343+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "0df6b9895cf56e3878b5ced33bfcf5c220482232cd76fe9fe52897aaa271ca56",
+          "bytes": 19829
+        },
+        "method": "Assistant source comparison from Qwen draft; alternate Tesseract not seen. Unblinded, not human gold."
+      },
+      "qwen_seconds": 4.564269335000063,
+      "tesseract_seconds": 0.3200927660000161,
+      "qwen_usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 578,
+        "total_tokens": 706,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.11650485436893204,
+          "cer_edits": 24,
+          "cer_reference_chars": 206,
+          "cer_no_whitespace": 0.13253012048192772,
+          "cer_no_whitespace_edits": 22,
+          "cer_no_whitespace_reference_chars": 166,
+          "wer": 0.2926829268292683
+        },
+        "tesseract": {
+          "cer": 0.1796116504854369,
+          "cer_edits": 37,
+          "cer_reference_chars": 206,
+          "cer_no_whitespace": 0.19879518072289157,
+          "cer_no_whitespace_edits": 33,
+          "cer_no_whitespace_reference_chars": 166,
+          "wer": 0.4634146341463415
+        }
+      }
+    },
+    {
+      "batch": "09",
+      "primary_engine": "qwen",
+      "region_id": "p25r14",
+      "category": "prose",
+      "content_label": "z80-io-middle-2",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-09/ocr/scan-maso-1984-07-toc-0001/ocr-page25/p25r14.png",
+        "sha256": "e5db140f5673607b40cee8ff135ac63b1e4755c923394b0153addb1351be0817",
+        "bytes": 137501
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "0df6b9895cf56e3878b5ced33bfcf5c220482232cd76fe9fe52897aaa271ca56",
+        "bytes": 19829
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T05:32:44.409343+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "0df6b9895cf56e3878b5ced33bfcf5c220482232cd76fe9fe52897aaa271ca56",
+          "bytes": 19829
+        },
+        "method": "Assistant source comparison from Qwen draft; alternate Tesseract not seen. Unblinded, not human gold."
+      },
+      "qwen_seconds": 2.3997761999999057,
+      "tesseract_seconds": 0.1706819009996252,
+      "qwen_usage": {
+        "completion_tokens": 62,
+        "prompt_tokens": 394,
+        "total_tokens": 456,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 101,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 76,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.019801980198019802,
+          "cer_edits": 2,
+          "cer_reference_chars": 101,
+          "cer_no_whitespace": 0.013157894736842105,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 76,
+          "wer": 0.11538461538461539
+        }
+      }
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering and startup. Alternate OCR and comparison-script preparation are evaluation overhead, separate from ordinary restoration.",
+  "limitations": [
+    "Memory-signal crop p24r02: all22 Qwen compact edits are20 omitted combining overbars plus2 straight-versus-curly quote differences. Base letters match after ignoring these features; overbar omission is meaningful for signal notation. Primary CER is unchanged.",
+    "References retain Unicode superscript/subscript and visible overbar readings. Compact CER counts these codepoints and quote choices, so it is not a grapheme-error rate or a human-gold measure. Fixed Tesseract OEM1/PSM6, kor+eng; no font-specific tuning or repeated paid correction."
+  ]
+}

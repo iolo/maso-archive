@@ -23,6 +23,7 @@ tables, mixed layouts, and longer listings:
 | PIA 시리즈1 뮤직카드 — hardware segment | Tesseract | Hardware prose, circuit/pinout diagrams and construction photos | Hardware segment restored; printed180–183 / PDF184–187 |
 | PIA 시리즈1 뮤직카드 — software instructions | Qwen | Commands, addresses, joystick controls and musical notation | Restored and assembled; PDF188–190 and upper191 |
 | PIA 시리즈1 뮤직카드 — hex listing | Qwen | Dense addressed hexadecimal dump | Restored and assembled; lower PDF191 and PDF192–194 |
+| Z-80 feature — opening and sections1–3 | Qwen | Low-contrast opening, signals/subscripts and diagrams | Segment restored; PDF21–26;27–38 deferred |
 
 Both engines use 4,000-pixel page renders in this trial. Tesseract retains its
 pinned runtime, OEM1/PSM6 and one thread, with English for code and Korean+English
@@ -527,3 +528,66 @@ Next is the Z-80 feature, candidate PDF21–38/printed17–34, routed provisiona
 Qwen for dense technical notation; detailed mapping and fixed samples precede OCR.
 Reading-room construction follows full restoration and metric consolidation under
 the active goal. No reading-room build was performed at this checkpoint.
+
+## Z-80 opening and sections1–3, 2026-10-11
+
+Batch09 uses Qwen for PDF21–26/printed17–22: title/introduction, address/data
+buses, memory signals and input/output signals. The full feature extends through
+PDF38; sections beginning with CPU control on27 remain deferred. The77 mapped
+regions contain68 text crops and nine original diagrams with separate searchable
+captions. Fourteen review flags retain source wording, small glyph ambiguity and
+technical inconsistencies. No executable code or circuit behavior is certified.
+
+Corrections include 핀 접속도 misread as 편집속도, 번지 misread as 변수,
+입출력 misread as 입력력, dropped active-low bars and small numeric glyphs.
+Visible overbars use combining U+0305 per letter; subscripts and superscripts use
+Unicode. Bars are not inferred merely because a signal should be active-low.
+For example, the source puts bars over RD, READ and WRITE but leaves WR unbarred
+in one occurrence; that variation is retained. Printed S-RAM in a D-RAM density
+argument,5비트,16비트 and the caption 비퍼 also remain, with review flags.
+
+| Observation | Qwen Z-80 opening |
+| --- | ---: |
+| Raw stage, including render/startup/export | 247.89s |
+| Recognition calls, contained in raw stage | 218.75s |
+| Server startup, contained in raw stage | 1.26s |
+| Correction and recording window | 295.99s |
+| Corrected non-whitespace characters | 6,340 |
+| Observed uncached, non-write correction input tokens | 25,450 |
+| Observed cached correction input tokens | 1,552,256 |
+| Observed correction output tokens | 10,118 |
+
+Cache-write tokens were zero. Local Qwen38,645 tokens (32,763 prompt and5,882
+completion) are separate from assistant usage. There were68 fresh inferences,
+no cache hits and no retries. A prose seam with residual ink was moved into clear
+whitespace before inference. Correction overlapped the raw engine run by181.49s;
+do not add those durations as serial elapsed. Mapping/preflight, export19.43s,
+evaluation50.05s and reporting are separately recorded. The assistant raw window
+includes comparison-helper preparation; it is not identical to the raw-engine timer.
+
+| Fixed crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p21r04 — low-contrast opening | 0.00% | 1.64% |
+| p22r11 — address/subscript prose | 0.00% | 14.74% |
+| p24r02 — memory control signals | 13.25% | 19.88% |
+| p25r14 — input/output prose | 0.00% | 1.32% |
+
+All22 Qwen compact edits in the memory-signal sample are20 missing overbar
+codepoints plus two straight/curly quote differences. The base letters match when
+those features are ignored; overbar omission still matters for this notation.
+The primary scores retain all these features. CER is a codepoint measure, not a
+grapheme-error rate. The fixed references are unblinded assistant readings sealed
+before alternate OCR, not human gold. Tesseract used the same crops, kor+eng,
+OEM1/PSM6 without font-specific tuning. No second paid correction was performed.
+
+These samples support Qwen for the notation-heavy material, while the two ordinary
+prose crops show a much smaller raw-quality difference. That is consistent with
+content routing, but still does not demonstrate paid-token savings. Native export,
+source-linked review byte ranges and byte-identical rebuild checks pass.
+
+July now has six complete bodies, one partial body and29 untouched bodies
+(30 bodies still unfinished). Across nine checkpoints:29 source pages,437 regions,
+405 text crops,32 original figures,207 logical BASIC lines,1,071 physical hex rows
+and89 review flags. Human acceptance remains pending. Next: map Z-80 PDF27–32,
+then33–38 and full assembly. The reading room remains deferred until full issue
+restoration and metric consolidation.
