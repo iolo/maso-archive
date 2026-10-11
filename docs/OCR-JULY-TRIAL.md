@@ -1406,3 +1406,70 @@ no partial bodies and zero human acceptances. Cumulative coverage:83 source page
 97 assembly rows and350 review flags. Next inspect 로고강좌, candidate94–97,
 and boundary98. Full issue restoration, consolidated decision metrics and the
 reading room remain outstanding.
+
+
+## Logo workspace, files and debugging, 2026-10-11
+
+Batch22 completes 로고강좌, PDF94–97/printed90–93;98 begins 샤를의 법칙.
+The80 regions contain77 text crops and three original graphic outputs. Five
+unnumbered Logo procedures contain29 physical rows; three console/example blocks
+add5 rows. Inline commands in explanatory prose are not included in these listing
+counts. All source regions were compared;21 flags remain for mandatory human review.
+
+The preassigned route used9 Tesseract ordinary-prose/byline/caption crops and68
+Qwen technical prose, heading and code crops. The original worker exited143 after
+46 Qwen successes. The process was confirmed terminal before recovery; all46
+successful stages and all9 Tesseract texts/TSV/timers were reused. The unfinished
+p96r11 request was archived and22 remaining crops completed. No crop or engine
+assignment changed. The interruption cause and unfinished inference cost are unknown.
+
+| Observation | Planned mixed route with recovery |
+| --- | ---: |
+| Raw elapsed, lower–upper bound | 181.71–245.05s |
+| Completed Tesseract recognition,9 calls | 1.41s |
+| Completed Qwen recognition,68 calls | 154.38s |
+| Correction/source review/recovery/helper window | 308.71s |
+| Raw overlap with correction, bounded | 149.38–212.72s |
+| Corrected non-whitespace characters | 4,873 |
+| Uncached, non-write correction input tokens | 32,045 |
+| Cached correction input tokens | 1,545,088 |
+| Correction output tokens | 8,641 |
+
+Cache-write was zero. Completed local Qwen usage was31,357 tokens (27,388 prompt;
+3,969 completion); unfinished-request usage is unknown, not zero. The lower raw
+bound combines original start through last completed stage with the measured
+resume; the upper bound includes the terminal-observation/recovery delay. Do not
+add raw, recognition and correction columns. Export verification also includes a
+final prose-wrap correction and a separate rebuild after the immutable-output
+guard rejected overwriting the first draft; that draft remains archived. These
+observations do not isolate an engine's paid correction cost.
+
+The short procedures retained every printed row, including repeated SHAPE calls
+and repeated forward/turn commands. Qwen added a closing quote to a Logo prefix
+quote, split SPLITSCREEN, paraphrased 묶어서, and modernized several printed 화일
+occurrences to 파일. Source review restored the literal wording. Printed PAKAGE,
+ERAZE/ERASE, TRIANGE, GRAPICS/GRAHICS, PROGARM, HELCHT/HEICHT and U=138 remain
+visible, with review notes rather than technical repair. Solid dots before some
+printer commands remain scan-linked symbols; their executable meaning is unresolved.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p94r06 — ordinary prose, Tesseract | 0.00% | 14.29% |
+| p95r04 — EDIT explanation, Qwen | 0.00% | 10.19% |
+| p96r18 — dot-matrix SHAPE procedure, Qwen | 0.00% | 5.71% |
+| p97r09 — typeset RECTANGLE procedure, Qwen | 0.00% | 0.85% |
+
+[Comparison20](ocr-july-comparison-20.json) uses the fixed identical PNGs and
+references sealed before alternate OCR. These are unblinded assistant readings,
+not human gold or whole-article error rates. Tesseract is close on the typeset
+procedure; the four samples do not cover the quote/paraphrase cases. Compact CER
+ignores whitespace and does not certify Logo execution. Continue provisional
+content routing while collecting paid-token/time observations.
+
+Final export integrity, review/listing UTF-8 ranges, physical row counts and a
+byte-identical rebuild pass. July now has17 complete article bodies and19 untouched,
+no partial bodies and zero human acceptances. Cumulative coverage:87 source pages,
+1,240 regions,1,171 text crops,69 images,1,484 BASIC lines,1,120 hex rows,
+97 assembly rows,29 Logo procedure rows and371 review flags. Next inspect 샤를의 법칙,
+candidate98–100, and boundary101. Full restoration, final metric consolidation
+and the reading room remain outstanding.

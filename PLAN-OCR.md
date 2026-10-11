@@ -1405,3 +1405,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1,484 BASIC lines,1,120 hex rows,97 assembly rows,350 flags. Next inspect94–98.
   Full issue restoration, final decision metrics and reading room remain outstanding.
   Homepage edit preserved; final report/commit usage carries forward.
+
+
+### July 로고강좌 restored, 2026-10-11
+
+- Batch22 completes94–97:80 regions,77 text crops,3 original graphics,29 Logo
+  procedure rows plus5 console/command rows and21 review flags.98 is next article.
+- Planned9 Tesseract/68 Qwen crops. Exit143 after46 Qwen successes; verified terminal
+  before resuming22 crops. All9 Tesseract outputs/timers and completed Qwen stages
+  reused. Interrupted request archived; unfinished duration/tokens remain unknown.
+- Raw bounded181.71–245.05s; completed recognition Qwen154.38s/Tesseract1.41s.
+  Local31,357 completed tokens. Correction/recovery/helper window308.71s overlaps
+  raw149.38–212.72s.32,045 uncached input,1,545,088 cached input,8,641 output;
+  zero cache-write. Final wrap correction/export rebuild recorded separately.
+- Original Logo spellings/values retained; Qwen's added closing quote, identifier
+  splitting, paraphrase and modernized Korean wording source-corrected. No execution.
+- Four fixed samples favor Qwen, with Tesseract close on typeset code. Unblinded
+  samples cannot establish whole-article accuracy or causal paid-token savings.
+- Final export integrity, source row counts, review/listing ranges and byte-identical
+  rebuild pass. July:17 complete,19 untouched;87 pages,1,240 regions,1,171 text
+  crops,69 images,1,484 BASIC lines,1,120 hex rows,97 assembly rows,29 Logo rows,
+  371 flags. Next inspect98–101. Full issue/metrics/reading room remain outstanding.
+  Homepage edit preserved; final report/commit usage carries forward.
