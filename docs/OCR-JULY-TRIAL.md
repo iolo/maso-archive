@@ -3090,3 +3090,59 @@ July has33 complete bodies,zero partial and three untouched; human acceptance is
 still pending. Next verify the Q&A extent from240 onward. Final metrics/reading
 room remain after restoration. Audit cutoff2026-10-11T19:07:42.263394+00:00;
 reporting and commit usage after this point carries forward.
+
+## Batch48: Q&A, PDF240–242
+
+Restored the complete three-page section:78 regions,69 text crops,nine original
+images and31 review flags. Five question/answer pairs include seven BASIC panels
+with72 numbered lines,one three-row WHILE template,a bit-pattern diagram and an
+opening illustration. Explicit joins reconnect column/page continuations.243
+begins the computer-industry history article.
+
+A0.206s Tesseract prose probe produced Latin substitutions. Fixed routing56Q/13T
+used Qwen for technical prose,reverse-text introduction and plain BASIC; Tesseract
+for short title/captions/template and three repeated/pattern-string code panels.
+The tilted reverse introduction was made a single crop before primary OCR.
+Both workers completed normally without fallback or interruption. Source review
+widened one T code crop and one Q code crop after the first full pass.55 Q and12 T
+results were reused; both replaced results and their costs remain retained.
+
+| Observation | Batch48 |
+| --- | ---: |
+| Two completed raw worker lifespans, review gap excluded |164.828s|
+| Successful Qwen recognition, including superseded crop |137.708s|
+| Tesseract primary recognition, including superseded crop |1.431s|
+| Exact local Qwen tokens |24,665|
+| Correction window |496.203s|
+| Correction/raw overlap |155.260s|
+| Paid uncached/cached input in correction window |42,504 /2,421,504|
+| Paid output, including5,136 reasoning |13,845|
+
+Local usage includes56 final plus one superseded Q response. Tesseract recognition
+includes13 final plus one superseded call. The rejected probe is preparation-only
+and reused as an alternate. Correction includes source rechecks,DATA/literal/
+formula checks,joins,crop repair and helper preparation; export/evaluation are
+separate. Different material and workflow prevent a causal paid-token claim.
+
+[Comparison46](ocr-july-comparison-46.json) compact CER Q/T:
+reverse introduction1.23/7.41%,plain BASIC0.00/5.51%,memory explanation2.44/7.32%,
+printer prose1.49/13.43%. All four original sample images stayed unchanged and
+references were sealed before the remaining alternates. References are unblinded
+assistant readings,not human gold or whole-article accuracy estimates.
+
+Source checking removed an extra DATA value introduced by Qwen: the two rows
+contain7+5=12values. Printed list1/Test Program2 and list2/Test Program1 mismatch,
+questionable technical statements,awkward wording and formulas remain unchanged
+or flagged. Three pattern strings have15 repeated G glyphs and two ASCII-like
+literals of nine/eight visible positions; historical encoding remains unverified.
+A blank crop edge had concealed an entirely omitted code suffix. The final widened
+crop now includes it; edge-ink tests alone cannot prove source completeness.
+
+Export integrity,byte-identical rebuild,all UTF-8 review ranges,explicit prose
+joins and full listing byte coverage pass. Article pin:
+`7c8d71ea3675d555fe81d5b6299a4cc1ba5dd2d909c1253ddb209d990dd85f39`;
+manifest`4c9fea560ceb4aeb2046fc68379f457829023d2b1db452132ed0042a756b0afc`.
+July has34 complete bodies,zero partial and two untouched; human acceptance
+remains pending. Next verify history243 onward,then the advertising index.
+Final issue metrics and reading room follow restoration. Audit ends
+2026-10-11T19:21:58.298857+00:00; reporting/commit usage carries forward.

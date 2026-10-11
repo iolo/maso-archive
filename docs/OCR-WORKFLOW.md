@@ -731,3 +731,16 @@ Wait for authoritative terminal status before changing worker-owned evidence.
 When a comparison image changes after a routing probe, retain the probe as
 preparation overhead and run the alternate on the final image. Do not reuse
 mismatched PNGs or describe the final sample image as fully preselected.
+
+### July batch48: blank edges do not prove complete content
+
+Compare text crop extent with the whole source panel. A narrow crop can end in
+blank space between words while omitting an entire suffix; an edge-ink check
+will pass. Widen only affected crops and retain original successful results/costs.
+
+White text on dark,tilted backgrounds may have no safe horizontal split across
+the full line width. Keep the small panel whole when it fits the token cap.
+
+Count source DATA fields independently of OCR,even on successful plain-code
+responses. Preserve source caption/header mismatches and questionable formulas;
+semantic correction must not silently repair the original article's claims.

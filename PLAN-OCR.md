@@ -2001,3 +2001,21 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Export/rebuild/UTF-8/cross-page checks pass. July33 complete,zero partial,three
   untouched. Next Q&A240 onward,industry history and advertising index; full metrics
   and reading room afterward. Final reporting/commit usage carries forward.
+
+### July Q&A restored, 2026-10-12
+
+- Complete240–242:78 regions,69 text crops,nine images,31 flags;five Q&A pairs,
+  seven BASIC panels/72 numbered lines plus three template rows. Column/page
+  continuations joined;243 starts industry history.
+- Fixed56Q/13T after rejected0.206s Tprose probe. Both workers completed normally.
+  One code crop per engine widened after first pass;55Q/12T reused and original
+  costs retained. Raw164.828s;exact24,665 local Q tokens includes one superseded crop.
+- Correction496.203s overlaps155.260s raw;42,504 uncached/2,421,504 cached paid input,
+  13,845 output including5,136 reasoning. Source checks/repair/helper work included;
+  export/evaluation separate. No causal paid-token savings claim.
+- Qwins four unchanged preselected comparison46 samples. Corrected an extra DATA
+  value and command names; kept printed label mismatch,technical claims/formulas,
+  source anomalies and provisional literal glyphs. No code execution claim.
+- Export/rebuild/UTF-8/joins/listing checks pass. July34 complete,zero partial,two
+  untouched. Next history243 extent verification,then advertising index; final
+  metrics/reading room afterward. Reporting/commit usage carries forward.

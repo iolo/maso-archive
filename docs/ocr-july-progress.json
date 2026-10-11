@@ -4,14 +4,14 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 33,
+  "completed_article_bodies": 34,
   "partial_article_bodies": 0,
-  "completed_checkpoints": 47,
+  "completed_checkpoints": 48,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 3,
-  "remaining_toc_entries": 3,
-  "untouched_toc_entries": 3,
+  "remaining_article_bodies": 2,
+  "remaining_toc_entries": 2,
+  "untouched_toc_entries": 2,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -16295,6 +16295,290 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Dense mixed product/model/price/contact fields use Qwen after bounded same-crop T probe produced Latin substitutions in Korean and a wrong model label. Three short headings use Tesseract. Source-review all names/numbers and cross-page listing continuation."
       }
+    },
+    {
+      "batch": "48",
+      "toc_entry_id": "maso-1984-07-toc-0041",
+      "title": "Q&A",
+      "engine": "mixed",
+      "printed_pages": [
+        236,
+        237,
+        238
+      ],
+      "pdf_pages": [
+        240,
+        241,
+        242
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-48/map.json",
+        "sha256": "ed4416777f677605d93721cae25af59700f96a87439b2963e617025c7613655b",
+        "bytes": 22858
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-48/qa/article.json",
+          "sha256": "7c8d71ea3675d555fe81d5b6299a4cc1ba5dd2d909c1253ddb209d990dd85f39",
+          "bytes": 113467
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-48/qa/manifest.json",
+          "sha256": "4c9fea560ceb4aeb2046fc68379f457829023d2b1db452132ed0042a756b0afc",
+          "bytes": 48754
+        },
+        "source_pages": [
+          240,
+          241,
+          242
+        ],
+        "regions": 78,
+        "text_regions": 69,
+        "figures": 9,
+        "physical_listing_rows": 75,
+        "logical_listing_rows": 72,
+        "unresolved_entries": 31,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 164.82764416399732,
+      "recognition_seconds": 139.1383670910509,
+      "local_qwen_tokens": {
+        "prompt_tokens": 21060,
+        "completion_tokens": 3605,
+        "total_tokens": 24665
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-48/transcription-assistant.json",
+        "sha256": "10e984d2c6d6d33d2d78e296bc450cb443ea2d13e8b6714e7789545346c70df4",
+        "bytes": 11780
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T19:21:35.101226+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "10e984d2c6d6d33d2d78e296bc450cb443ea2d13e8b6714e7789545346c70df4",
+          "bytes": 11780
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four original preselected sample images unchanged. Rejected prose probe reused only as same-image T alternate; other alternates after seal."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 42,
+        "code": 1147,
+        "prose": 3205,
+        "title": 3
+      },
+      "work_window_ids": [
+        "raw-48",
+        "correction-48",
+        "export-48"
+      ],
+      "failed_server_compute_seconds": null,
+      "recognition_limitation": "Exact captured usage includes56 final plus1 superseded Qwen response. T recognition includes13 final plus1 superseded T call. Both raw lifespans complete; no interrupted request or failed cap. Rejected0.206s T prose probe outside raw/primary recognition, reused once as same-image alternate. Worker lifespans exclude review gap. No causal paid attribution.",
+      "raw_run_seconds_basis": "Two completed worker lifespans: original full pass and targeted1Q1T source-crop revision. Includes rendering/runtime validation/model loading/inference/export. Inter-worker review gap excluded. No interruption/fallback. Rejected T prose probe is separate preparation reused only as alternate.",
+      "recovery": {
+        "attempts": 2,
+        "reason": "Original saved session51203 exit0; source-review enlarged code5/code7. Second saved session12040 exit0.55 unchanged Q stages and12 T crops reused. One successful crop per engine repeated with originals retained.",
+        "first_completed_crops": 69,
+        "final_completed_crops": 69,
+        "duplicated_successful_crops": 0,
+        "repeated_changed_crops": 2,
+        "interrupted_crops": 0,
+        "failed_crops": 0,
+        "first_raw_seconds": 154.22189611999784,
+        "second_raw_seconds": 10.605748043999483,
+        "successful_recognition_seconds": 137.70760039604647,
+        "local_qwen_tokens_all_attempts": {
+          "prompt_tokens": 21060,
+          "completion_tokens": 3605,
+          "total_tokens": 24665
+        },
+        "superseded_successful_qwen_crops": 1,
+        "superseded_successful_tesseract_crops": 1,
+        "limitation": "Exact captured usage includes56 final plus1 superseded Qwen response. T recognition includes13 final plus1 superseded T call. Both raw lifespans complete; no interrupted request or failed cap. Rejected0.206s T prose probe outside raw/primary recognition, reused once as same-image alternate. Worker lifespans exclude review gap. No causal paid attribution."
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-48/recovery-accounting.json",
+        "sha256": "3b401a11fc4c851a74c5828bdd13162a457130b912a1bcf5a577e509c7f7c731",
+        "bytes": 1157
+      },
+      "local_qwen_tokens_retained_successes": {
+        "prompt_tokens": 20633,
+        "completion_tokens": 3504,
+        "total_tokens": 24137
+      },
+      "recognition_seconds_retained_successes": 134.17228260804404,
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p240r01": "tesseract",
+        "p240r07": "tesseract",
+        "p240r16": "tesseract",
+        "p240r19": "tesseract",
+        "p241r11": "tesseract",
+        "p241r17": "tesseract",
+        "p241r27": "tesseract",
+        "p241r28": "tesseract",
+        "p242r03": "tesseract",
+        "p242r04": "tesseract",
+        "p242r06": "tesseract",
+        "p242r07": "tesseract",
+        "p242r19": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 137.70760039604647,
+        "tesseract_recognition_seconds": 1.4307666950044222,
+        "qwen_regions": {
+          "p240r03": 3.791295913004433,
+          "p240r04": 1.817259119998198,
+          "p240r05": 2.5100974419983686,
+          "p240r06": 1.4379133690017625,
+          "p240r08": 2.318870524999511,
+          "p240r09": 2.072531653000624,
+          "p240r10": 2.5485256030005985,
+          "p240r11": 2.6020883260061964,
+          "p240r12": 1.6170895600007498,
+          "p240r13": 2.0205531530009466,
+          "p240r15": 3.6898212599990075,
+          "p240r18": 2.625808908996987,
+          "p240r20": 2.331140577996848,
+          "p241r01": 2.7711676280014217,
+          "p241r02": 2.4778673900000285,
+          "p241r03": 0.47295250299794134,
+          "p241r04": 2.0076737180061173,
+          "p241r05": 1.4842125180002768,
+          "p241r06": 2.6222572100014077,
+          "p241r07": 2.9206016280004405,
+          "p241r08": 2.2312638989969855,
+          "p241r10": 6.177336325003125,
+          "p241r12": 2.452946718003659,
+          "p241r13": 1.770081966998987,
+          "p241r14": 2.5124148379982216,
+          "p241r15": 2.6474220159943798,
+          "p241r18": 2.664150137003162,
+          "p241r19": 2.6905539460058208,
+          "p241r20": 2.598545427994395,
+          "p241r21": 2.296078198000032,
+          "p241r22": 2.524228659000073,
+          "p241r23": 3.210392398003023,
+          "p241r24": 2.6357348910023575,
+          "p241r25": 2.7115459909982746,
+          "p242r01": 1.518321615003515,
+          "p242r08": 2.311399877005897,
+          "p242r09": 1.2801606390057714,
+          "p242r10": 2.461826899998414,
+          "p242r11": 2.6002740480034845,
+          "p242r12": 2.5580491820001043,
+          "p242r13": 1.838093154001399,
+          "p242r14": 2.607458295999095,
+          "p242r15": 1.832001526003296,
+          "p242r16": 1.3116134380034055,
+          "p242r18": 3.5566962609955226,
+          "p242r20": 2.468276170999161,
+          "p242r21": 2.6481940550002037,
+          "p242r22": 1.8491129679969163,
+          "p242r23": 2.278233591001481,
+          "p242r24": 2.3594171939985245,
+          "p242r25": 1.7636391620035283,
+          "p242r26": 1.8666172820012434,
+          "p242r27": 2.783605171003728,
+          "p242r28": 1.6020349910031655,
+          "p242r29": 2.386872251998284,
+          "p242r30": 3.0279614180035423
+        },
+        "tesseract_regions": {
+          "p240r01": 0.10823708499810891,
+          "p240r07": 0.0688854519976303,
+          "p240r16": 0.0613223959953757,
+          "p240r19": 0.07066468300035922,
+          "p241r11": 0.0626003520010272,
+          "p241r17": 0.07939750399964396,
+          "p241r27": 0.16420984899741597,
+          "p241r28": 0.06364131400187034,
+          "p242r04": 0.06585271500080125,
+          "p242r06": 0.15213177000259748,
+          "p242r07": 0.07201362700288882,
+          "p242r19": 0.0673001950053731,
+          "p242r03": 0.16331654800160322
+        },
+        "reason": "Rejected ordinary prose probe had Latin substitutions. Qwen technical prose/reverse introduction and plain BASIC; Tesseract short title/captions/template and three code panels containing repeated/graphic strings. All original panels/diagram retained; bounded512 Qwen fallback.",
+        "qwen_final_crops_recognition_seconds": 134.17228260804404,
+        "tesseract_final_crops_recognition_seconds": 1.1995734900046955,
+        "superseded_qwen_recognition_seconds": 3.5353177880024305,
+        "superseded_tesseract_recognition_seconds": 0.23119320499972673
+      },
+      "qwen_recognition_seconds": 137.70760039604647,
+      "tesseract_recognition_seconds": 1.4307666950044222,
+      "assignment_reason": "Rejected ordinary prose probe had Latin substitutions. Qwen technical prose/reverse introduction and plain BASIC; Tesseract short title/captions/template and three code panels containing repeated/graphic strings. All original panels/diagram retained; bounded512 Qwen fallback.",
+      "listing_audit": {
+        "numbered_listings": 7,
+        "numbered_rows": 72,
+        "physical_rows": 75,
+        "unnumbered_template_rows": 3,
+        "data_rows": 2,
+        "data_fields": 12,
+        "data_fields_per_row": [
+          7,
+          5
+        ],
+        "repeated_G_count": 15,
+        "visible_literal_lengths": [
+          9,
+          8
+        ],
+        "graphic_placeholders": 0,
+        "source_fields_private": true,
+        "scope": "All7 source panels retained. Visible literal glyphs provisionally ASCII-transcribed, no encoded-byte/execute certification. Printed list1/Test2 and list2/Test1 mismatch retained. Source DATA12fields differs from prose16byte explanation."
+      },
+      "correction_raw_overlap": {
+        "correction_seconds": 496.20292,
+        "raw_overlap_seconds": 155.259507,
+        "scope": "69 text crops,5 Q&A pairs,7 code panels/72numbered rows plus3template rows, source rechecks, DATA/literal/formula checks, explicit prose joins, two-crop repair and helper preparation. Export/evaluation separate. No per-engine paid attribution."
+      },
+      "preflight_probes": [
+        {
+          "region_id": "p242r10",
+          "image": {
+            "path": "preflight/p242r10.png",
+            "sha256": "5cca8d29f1166971885d64d713d6c0a39cd61ea0cc109df6db551f6494389667",
+            "bytes": 117889
+          },
+          "seconds": 0.20622883200121578,
+          "config": {
+            "languages": "kor+eng",
+            "psm": 6
+          }
+        }
+      ],
+      "preflight_probe_seconds": 0.20622883200121578,
+      "region_language_overrides": {
+        "p240r01": "kor+eng",
+        "p240r07": "eng",
+        "p240r16": "kor+eng",
+        "p240r19": "kor+eng",
+        "p241r11": "kor+eng",
+        "p241r17": "kor+eng",
+        "p241r27": "eng",
+        "p241r28": "kor+eng",
+        "p242r03": "eng",
+        "p242r04": "kor+eng",
+        "p242r06": "eng",
+        "p242r07": "kor+eng",
+        "p242r19": "kor+eng"
+      },
+      "preflight_probe_accounting": "Rejected prose probe is preparation-only; reuse as T alternate on identical PNG, not primary recognition.",
+      "primary_probe_reuse": {},
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Rejected ordinary prose probe had Latin substitutions. Qwen technical prose/reverse introduction and plain BASIC; Tesseract short title/captions/template and three code panels containing repeated/graphic strings. All original panels/diagram retained; bounded512 Qwen fallback."
+      }
     }
   ],
   "assemblies": [
@@ -19413,7 +19697,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 243
+      "pdf_page_candidate": 243,
+      "planned_primary_engine": "mixed"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0035",
@@ -19841,9 +20126,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 240,
-      "planned_primary_engine": "mixed"
+      "batch": "48",
+      "engine": "mixed",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-48/qa/article.json",
+        "sha256": "7c8d71ea3675d555fe81d5b6299a4cc1ba5dd2d909c1253ddb209d990dd85f39",
+        "bytes": 113467
+      }
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0042",
@@ -20113,12 +20404,17 @@
       "path": "docs/ocr-july-comparison-45.json",
       "sha256": "1c12cf541dda3573834c9cb861b22942939665d52236224b64b4b814966cf2d9",
       "bytes": 12206
+    },
+    {
+      "path": "docs/ocr-july-comparison-46.json",
+      "sha256": "e95ce769c6708ca015219c0f2ca852ad889c2261ce10420bfd4d5c6f251fd2aa",
+      "bytes": 12252
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "2382d9476be05929cbf92c28f4073dddea4382582103d70923a876bd5c616391",
-    "bytes": 165772
+    "sha256": "99fa45fcdb354e079aa3c5da86686f74876a11865b39428d89550de0bfb9cbda",
+    "bytes": 167975
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -20127,20 +20423,18 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0041",
-      "title": "Q&A",
+      "toc_entry_id": "maso-1984-07-toc-0034",
+      "title": "미국 컴퓨터산업의 흥망성쇠",
       "candidate_pdf_pages": [
-        240,
-        241,
-        242
+        243
       ],
       "engine": "mixed",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Inspect technical prose, short BASIC examples, pattern diagrams and reverse-text introduction. Probe ordinary prose; use Qwen for difficult technical text/code, retain diagrams as original figures.",
-      "extent_status": "240 opening and241 continuation visually verified. Inspect242/243 to verify complete extent before mapping."
+      "routing_reason": "Verify full article extent beyond illustrated opener; probe ordinary prose before choosing Tesseract or Qwen, retain illustrations/captions and difficult headings.",
+      "extent_status": "243 opener visually verified. Remaining extent unknown; inspect subsequent pages until definite ending before mapping. Advertising index candidate262 is not assumed article boundary."
     }
   ],
-  "decision": "July33 complete article bodies,0partial,3untouched; all human acceptance pending. Classified238–239 complete:51regions50text1photo19flags,46advertisements35sale11exchange,44phone2postal contacts, one cross-page word joined. Fixed47Q3T after rejected T mixed-field probe. Original SIGTERM then12Q3T reused;19crops repaired across14blank seams, only2completed crops repeated. Raw149.538s; local21539token lower bound, interruptedrequestunknown. Correction368.579s overlaps140.661s. Qwen wins all4 comparison45 samples, but names, product spelling and silently normalized source anomaly required correction. Next Q&A240 onward, computer-industry history243 onward and advertising index262. Complete restoration before final issue metrics and reading room. Historical checkpoint evidence retained; raw accuracy does not establish causal paid savings.",
+  "decision": "July34 complete article bodies,0partial,2untouched; human acceptance pending. Q&A240–242 complete:78regions69text9images31flags,5questions,7BASIC panels72numbered lines plus3template rows. Fixed56Q13T after rejected prose probe. Both workers completed normally; one crop per engine widened,55Q12T reused. Raw164.828s exact24665localtokens includes superseded Q result. Correction496.203s overlaps155.260s. Qwins4 preselected unchanged comparison46 samples. Source list1/Test2 mismatch, printed formulas/technical claims and anomalous text retained. Source DATA corrected to12fields after extra165 in raw. Next verify and restore computer-industry history243 onward and advertising index262. Final issue metrics and reading room after restoration; no causal paid-token savings claim.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition is normally nested and must not be added again. Batch44 includes one0.244653s preflight prose probe in recognition outside its raw-worker lifespan. Batch30 includes one0.205s preflight table probe in its recognition sum but outside its measured raw-worker lifespan; count that reused inference once.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",
