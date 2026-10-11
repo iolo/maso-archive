@@ -4,13 +4,13 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 6,
-  "partial_article_bodies": 1,
-  "completed_checkpoints": 10,
+  "completed_article_bodies": 7,
+  "partial_article_bodies": 0,
+  "completed_checkpoints": 11,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 30,
-  "remaining_toc_entries": 30,
+  "remaining_article_bodies": 29,
+  "remaining_toc_entries": 29,
   "untouched_toc_entries": 29,
   "human_accepted_articles": 0,
   "source": {
@@ -942,6 +942,104 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Dense signal/timing and interrupt-vector notation; Qwen primary, original diagrams retained. Prior raw gains do not prove paid savings."
       }
+    },
+    {
+      "batch": "11",
+      "toc_entry_id": "maso-1984-07-toc-0001",
+      "title": "특집 : 알기쉽게 풀이한 마이크로 프로세서 Z-80",
+      "engine": "qwen",
+      "printed_pages": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-11/map.json",
+        "sha256": "f77dd6ea9e108fd4c8e8ffdd61fa6a7f26fd763d47ddbc9ab0d7a4e3b91a2a79",
+        "bytes": 23475
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-11/z80-conclusion/article.json",
+          "sha256": "12753ca5b7372a047b5be9350211882ae31096fc50c95b84f21e62ef335fff45",
+          "bytes": 117690
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-11/z80-conclusion/manifest.json",
+          "sha256": "31b0ac53fa0d41a7f51ecf8b123e8b0ec543cf934b5fb695d48d76962feab6bf",
+          "bytes": 47052
+        },
+        "source_pages": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "regions": 77,
+        "text_regions": 67,
+        "figures": 10,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 16,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 160.06784137700015,
+      "recognition_seconds": 132.76031844399404,
+      "local_qwen_tokens": {
+        "prompt_tokens": 28612,
+        "completion_tokens": 5481,
+        "total_tokens": 34093
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-11/transcription-assistant.json",
+        "sha256": "c46e13912063ec5c8ac41dc014926c098058aed6937cdf90fbc2b7c731f8bcfb",
+        "bytes": 18242
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T08:44:13.794253+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "c46e13912063ec5c8ac41dc014926c098058aed6937cdf90fbc2b7c731f8bcfb",
+          "bytes": 18242
+        },
+        "method": "Assistant source comparison from Qwen draft; alternate Tesseract not seen. Unblinded, not human gold."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 135,
+        "prose": 5704,
+        "title": 23
+      },
+      "work_window_ids": [
+        "raw-11",
+        "correction-11",
+        "export-11"
+      ],
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Dense technical signals, timing and subscripts; Qwen primary and original circuit/timing diagrams retained. Paid savings remain unproven."
+      }
     }
   ],
   "assemblies": [
@@ -1014,6 +1112,83 @@
         "shared_page_disjoint": true,
         "source_segments_immutable": true
       }
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0001",
+      "engine": "qwen",
+      "package": {
+        "path": "build/pdf-restoration/12-1984-07-comparison/z80/article.json",
+        "sha256": "94db0182de01b8dd1ff3354c771b42dd3973015bc9aa5e20fb217b9ac65a2895",
+        "bytes": 386140
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-07-comparison/z80/manifest.json",
+        "sha256": "b97102cbada05a521401024951eb64ecbfe978257f6fd2b543caacfb2550c2a9",
+        "bytes": 163558
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/z80-assembly-recipe.json",
+        "sha256": "6250bccc8d1f6276374491c7ab79f55156d4b284029be7bc6df5bb809147df40",
+        "bytes": 4172
+      },
+      "pdf_pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "segments": [
+        {
+          "name": "opening",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-09/z80-opening/manifest.json",
+            "sha256": "182f393c3d6a33fcb9eb273880ad29610568a1d597c514dede669ba6f4b4ba9d",
+            "bytes": 47560
+          }
+        },
+        {
+          "name": "control",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-10/z80-control-interrupts/manifest.json",
+            "sha256": "742de4369783c507bc944e8f926c261fcb65c785928d8ebd8001926ad31eb8f7",
+            "bytes": 51886
+          }
+        },
+        {
+          "name": "conclusion",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-11/z80-conclusion/manifest.json",
+            "sha256": "31b0ac53fa0d41a7f51ecf8b123e8b0ec543cf934b5fb695d48d76962feab6bf",
+            "bytes": 47052
+          }
+        }
+      ],
+      "regions": 236,
+      "figures": 26,
+      "unresolved_entries": 46,
+      "human_acceptance": "pending",
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "interrupt_summary_join": true,
+        "all_numbered_diagrams_and_illustration_preserved": true,
+        "source_segments_immutable": true
+      }
     }
   ],
   "entries": [
@@ -1049,15 +1224,93 @@
         "section_path": [],
         "kind_candidate": "article"
       },
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 21,
-      "batch": "10",
+      "batch": "11",
       "engine": "qwen",
       "restoration": {
-        "path": "build/pdf-restoration/12-1984-07-comparison-batch-10/z80-control-interrupts/article.json",
-        "sha256": "8f79d070e691b9efd6c89ee20179c6b71c56df18a6b5251af39ed758dc654c2d",
-        "bytes": 127995
+        "path": "build/pdf-restoration/12-1984-07-comparison/z80/article.json",
+        "sha256": "94db0182de01b8dd1ff3354c771b42dd3973015bc9aa5e20fb217b9ac65a2895",
+        "bytes": 386140
       },
+      "assembly": {
+        "toc_entry_id": "maso-1984-07-toc-0001",
+        "engine": "qwen",
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison/z80/article.json",
+          "sha256": "94db0182de01b8dd1ff3354c771b42dd3973015bc9aa5e20fb217b9ac65a2895",
+          "bytes": 386140
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison/z80/manifest.json",
+          "sha256": "b97102cbada05a521401024951eb64ecbfe978257f6fd2b543caacfb2550c2a9",
+          "bytes": 163558
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/12-1984-07-comparison/z80-assembly-recipe.json",
+          "sha256": "6250bccc8d1f6276374491c7ab79f55156d4b284029be7bc6df5bb809147df40",
+          "bytes": 4172
+        },
+        "pdf_pages": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "segments": [
+          {
+            "name": "opening",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-09/z80-opening/manifest.json",
+              "sha256": "182f393c3d6a33fcb9eb273880ad29610568a1d597c514dede669ba6f4b4ba9d",
+              "bytes": 47560
+            }
+          },
+          {
+            "name": "control",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-10/z80-control-interrupts/manifest.json",
+              "sha256": "742de4369783c507bc944e8f926c261fcb65c785928d8ebd8001926ad31eb8f7",
+              "bytes": 51886
+            }
+          },
+          {
+            "name": "conclusion",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-11/z80-conclusion/manifest.json",
+              "sha256": "31b0ac53fa0d41a7f51ecf8b123e8b0ec543cf934b5fb695d48d76962feab6bf",
+              "bytes": 47052
+            }
+          }
+        ],
+        "regions": 236,
+        "figures": 26,
+        "unresolved_entries": 46,
+        "human_acceptance": "pending",
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "interrupt_summary_join": true,
+          "all_numbered_diagrams_and_illustration_preserved": true,
+          "source_segments_immutable": true
+        }
+      },
+      "assembly_required": false,
       "restored_pdf_pages": [
         21,
         22,
@@ -1070,7 +1323,13 @@
         29,
         30,
         31,
-        32
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
       ],
       "covered_pdf_pages": [
         21,
@@ -1084,10 +1343,7 @@
         29,
         30,
         31,
-        32
-      ],
-      "partial_pdf_pages": [],
-      "deferred_pdf_pages": [
+        32,
         33,
         34,
         35,
@@ -1095,46 +1351,8 @@
         37,
         38
       ],
-      "assembly_required": true,
-      "segments": [
-        {
-          "batch": "09",
-          "engine": "qwen",
-          "package": {
-            "path": "build/pdf-restoration/12-1984-07-comparison-batch-09/z80-opening/article.json",
-            "sha256": "c77de1d805a48201d3e189ffe4a51aa64905912c4ff150c28e801c79c27662e3",
-            "bytes": 116929
-          },
-          "pdf_pages": [
-            21,
-            22,
-            23,
-            24,
-            25,
-            26
-          ],
-          "partial_pdf_pages": []
-        },
-        {
-          "batch": "10",
-          "engine": "qwen",
-          "package": {
-            "path": "build/pdf-restoration/12-1984-07-comparison-batch-10/z80-control-interrupts/article.json",
-            "sha256": "8f79d070e691b9efd6c89ee20179c6b71c56df18a6b5251af39ed758dc654c2d",
-            "bytes": 127995
-          },
-          "pdf_pages": [
-            27,
-            28,
-            29,
-            30,
-            31,
-            32
-          ],
-          "partial_pdf_pages": []
-        }
-      ],
-      "planned_primary_engine": "qwen"
+      "partial_pdf_pages": [],
+      "deferred_pdf_pages": []
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0002",
@@ -1232,7 +1450,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 42
+      "pdf_page_candidate": 42,
+      "planned_primary_engine": "qwen"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0004",
@@ -2946,12 +3165,17 @@
       "path": "docs/ocr-july-comparison-08.json",
       "sha256": "2a85575bb76800813df2f7aefd90c336e9c005e53bc7d85c8e5f7fa2a0f9aba2",
       "bytes": 9337
+    },
+    {
+      "path": "docs/ocr-july-comparison-09.json",
+      "sha256": "8ba515168503baa860f9556b610c68657ae6852bdeb0702889c182bf6a5d0ae7",
+      "bytes": 9059
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "b04b0bc25967a0de87822c1cd16b9c6abfb823a9f470b7392234413137327d2c",
-    "bytes": 35647
+    "sha256": "489bb64373b827e67052098ce400a94cfe479eb5647c27ac55027d82f07b9d67",
+    "bytes": 40097
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -2960,73 +3184,37 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0001",
-      "title": "특집 : 알기쉽게 풀이한 마이크로 프로세서 Z-80 — 버스 제어 및 결론",
+      "toc_entry_id": "maso-1984-07-toc-0003",
+      "title": "애플음의 정복",
       "candidate_pdf_pages": [
-        33,
-        34,
-        35,
-        36,
-        37,
-        38
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "printed_pages": [
-        29,
-        30,
-        31,
-        32,
-        33,
-        34
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
       ],
       "engine": "qwen",
-      "routing_reason": "Remaining technical signal notation and timing diagrams; provisional Qwen primary, original diagrams retained. Detailed map and diagnostic crops must be fixed before OCR.",
-      "neighbor_pages": [
-        {
-          "pdf_page": 39,
-          "classification": "program tape/disk advertisement"
-        },
-        {
-          "pdf_page": 40,
-          "classification": "Fantasia advertisement"
-        },
-        {
-          "pdf_page": 41,
-          "classification": "취미생활 section opener, not part of Z80 body"
-        },
-        {
-          "pdf_page": 42,
-          "classification": "애플음의 정복 begins"
-        }
-      ],
-      "extent_status": "PDF21–32 restored in batches09–10. Final interrupt-summary continuation starts33 before bus-control section; map33–38, then full assembly21–38.",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "article_pdf_pages": [
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38
-      ],
-      "existing_segments": [
-        "09",
-        "10"
-      ]
+      "routing_reason": "Provisional technical music/programming article; confirm notation/listing density and actual body extent before choosing detailed checkpoint crops.",
+      "extent_status": "Candidate42–50 follows section opener41 and precedes SPC-1000 article51. Inspect actual page boundaries/advertisements before mapping and inference."
     }
   ],
-  "decision": "Z80 Qwen segments09–10 restore PDF21–32 with signal/timing/vector correction; PDF33–38 and full assembly remain. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
+  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Next restore Apple sound article using source-inspected content routing. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

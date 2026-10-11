@@ -642,3 +642,62 @@ Across ten checkpoints:35 source pages,519 regions,480 text crops,39 figures,
 207 logical BASIC lines,1,071 physical hex rows and105 flags. Six bodies are
 complete, one partial and29 untouched (30 unfinished). Next: Z-80 PDF33–38 and
 full assembly. Reading room follows full issue restoration and metric consolidation.
+
+
+## Z-80 final segment and complete assembly, 2026-10-11
+
+Batch11/Qwen restores PDF33–38/printed29–34:67 text crops, nine numbered diagrams
+and one editorial illustration across77 regions, with16 source-linked flags.
+The text completes the interrupt summary, bus control, power/clock specifications,
+example circuits and conclusion. Exact source corrections include 인터넷→인터럽트,
+생각하겠다→생략하겠다, omitted signal overbars and wrapping. Printed 그림G/그림H,
+CPM, OP 코드 패치 and historical electrical claims remain as printed. A small
+repeated 핀/편 vowel candidate is explicitly flagged for human confirmation.
+
+| Observation | Qwen final Z-80 segment |
+| --- | ---: |
+| Raw stage including render/startup/export | 160.07s |
+| Recognition calls, contained in raw stage | 132.76s |
+| Correction and recording window | 225.33s |
+| Corrected non-whitespace characters | 5,862 |
+| Observed uncached, non-write correction input tokens | 19,574 |
+| Observed cached correction input tokens | 748,544 |
+| Observed correction output tokens | 6,660 |
+
+Cache-write tokens were zero. Local Qwen34,093 tokens (28,612 prompt/5,481
+completion) remain separate. All67 inferences were fresh, with no retries. One
+crop seam was rejected and moved to clear whitespace before inference. Correction
+overlapped raw inference by100.93s. The raw-monitoring window includes comparison
+helper preparation/API inspection; evaluation includes assembly-helper preparation.
+Native export21.05s and assembly44.95s are separately recorded assistant windows.
+These windows include tool waits and verification, not just computation.
+
+| Fixed crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p33r09 — bus-control signals | 10.56% | 24.65% |
+| p34r02 — power/clock specification prose | 0.00% | 24.14% |
+| p36r01 — memory/address subscripts | 0.00% | 12.96% |
+| p38r05 — refresh-register prose | 0.00% | 8.09% |
+
+All15 Qwen edits in p33r09 are omitted U+0305 overbar codepoints; base text matches.
+The other three match the assistant reference after whitespace removal. Source
+errors such as CPM are preserved, so these scores measure transcription fidelity,
+not technical correctness. References were sealed before Tesseract and remain
+unblinded assistant readings, not human gold. Identical crops, kor+eng/OEM1/PSM6,
+no font-specific tuning or repeated paid correction. The samples continue to favor
+Qwen raw accuracy, without establishing a causal paid-token advantage.
+
+The full Z-80 article is assembled from immutable09–11 across all18 pages21–38:
+236 regions,26 original images (diagrams1–25 plus an illustration),46 review flags.
+An explicit source-checked join completes the PDF32/33 summary sentence across
+intervening diagrams14–16/captions. Original segment-level coverage flags remain
+historical evidence; assembly coverage is complete. Native and assembled export
+integrity, every projected review byte range and byte-identical rebuilds pass.
+No source program or circuit is certified correct; human acceptance remains pending.
+
+July now has seven complete bodies and29 untouched bodies, with no partial body.
+Across11 checkpoints:41 distinct source pages,596 regions,547 text crops,49 figures,
+207 logical BASIC lines,1,071 physical hex rows and121 flags. The next candidate
+is 애플음의 정복, PDF42–50/printed38–46; confirm the actual body/advertisement
+boundaries and content before mapping. Reading room follows full issue restoration
+and metric consolidation.

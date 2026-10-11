@@ -408,10 +408,9 @@ remaining after local OCR.
 The maintainer selected July1984 for the next trial. See [the trial plan and
 measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
-Six complete article bodies, including the assembled music-card hardware/software/hex
-article, are recorded in [July progress](ocr-july-progress.json). Thirty paginated
-bodies remain, including the partial Z-80 feature (PDF21–32 restored;33–38
-deferred). Six unpaginated TOC parent headings are tracked separately.
+Seven complete article bodies, including the assembled music-card hardware/software/hex
+article and18-page Z-80 feature, are recorded in [July progress](ocr-july-progress.json). Twenty-nine paginated
+bodies remain; no restored body is currently partial. Six unpaginated TOC parent headings are tracked separately.
 
 The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
 starts with Tesseract for clear prose, Qwen for tables/technical notation/listings,

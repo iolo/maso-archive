@@ -986,6 +986,135 @@
         "total_tokens": 144480,
         "uncached_nonwrite_input_tokens": 6346
       }
+    },
+    {
+      "id": "setup-11",
+      "stage": "mapping-and-preparation",
+      "engine": "shared",
+      "start": "2026-10-11T08:37:53.490555+00:00",
+      "end": "2026-10-11T08:39:44.199293+00:00",
+      "elapsed_seconds": 110.70873785018921,
+      "observed_responses": 7,
+      "tokens": {
+        "input_tokens": 461340,
+        "cached_input_tokens": 433024,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2644,
+        "reasoning_output_tokens": 440,
+        "total_tokens": 463984,
+        "uncached_nonwrite_input_tokens": 28316
+      }
+    },
+    {
+      "id": "raw-11",
+      "stage": "raw-ocr",
+      "engine": "qwen",
+      "start": "2026-10-11T08:39:44.214806+00:00",
+      "end": "2026-10-11T08:40:43.432502+00:00",
+      "limitation": "Includes fixed-sample comparison-helper preparation and assembly API inspection during raw monitoring. Raw engine timer independently overlaps correction.",
+      "elapsed_seconds": 59.21769595146179,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 332858,
+        "cached_input_tokens": 326784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 872,
+        "reasoning_output_tokens": 94,
+        "total_tokens": 333730,
+        "uncached_nonwrite_input_tokens": 6074
+      }
+    },
+    {
+      "id": "correction-11",
+      "stage": "semantic-correction",
+      "engine": "qwen",
+      "start": "2026-10-11T08:40:43.448745+00:00",
+      "end": "2026-10-11T08:44:28.782286+00:00",
+      "limitation": "Source checking overlapped remaining raw inference by 100.93 seconds. Includes exact edits, wrapping/paragraph joins, flags and record preparation. Do not add raw and correction as serial elapsed.",
+      "elapsed_seconds": 225.33354091644287,
+      "observed_responses": 8,
+      "tokens": {
+        "input_tokens": 768118,
+        "cached_input_tokens": 748544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6660,
+        "reasoning_output_tokens": 2723,
+        "total_tokens": 774778,
+        "uncached_nonwrite_input_tokens": 19574
+      }
+    },
+    {
+      "id": "export-11",
+      "stage": "export",
+      "engine": "qwen",
+      "start": "2026-10-11T08:44:28.797531+00:00",
+      "end": "2026-10-11T08:44:49.850446+00:00",
+      "elapsed_seconds": 21.05291509628296,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 214703,
+        "cached_input_tokens": 208512,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 463,
+        "reasoning_output_tokens": 116,
+        "total_tokens": 215166,
+        "uncached_nonwrite_input_tokens": 6191
+      }
+    },
+    {
+      "id": "evaluation-11",
+      "stage": "evaluation",
+      "engine": "qwen",
+      "start": "2026-10-11T08:44:49.865661+00:00",
+      "end": "2026-10-11T08:45:38.306955+00:00",
+      "limitation": "Includes preparation of full Z80 assembly helper; separate from ordinary correction and alternate OCR call time.",
+      "elapsed_seconds": 48.44129419326782,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 222178,
+        "cached_input_tokens": 219904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1553,
+        "reasoning_output_tokens": 212,
+        "total_tokens": 223731,
+        "uncached_nonwrite_input_tokens": 2274
+      }
+    },
+    {
+      "id": "assembly-z80",
+      "stage": "assembly",
+      "engine": "qwen",
+      "start": "2026-10-11T08:45:38.322580+00:00",
+      "end": "2026-10-11T08:46:23.275393+00:00",
+      "elapsed_seconds": 44.952812910079956,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 229974,
+        "cached_input_tokens": 223744,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1430,
+        "reasoning_output_tokens": 195,
+        "total_tokens": 231404,
+        "uncached_nonwrite_input_tokens": 6230
+      }
+    },
+    {
+      "id": "reporting-11",
+      "stage": "validation-and-reporting",
+      "engine": "shared",
+      "start": "2026-10-11T08:46:23.291815+00:00",
+      "end": "2026-10-11T08:47:19.836874+00:00",
+      "elapsed_seconds": 56.54505896568298,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 120288,
+        "cached_input_tokens": 117632,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2133,
+        "reasoning_output_tokens": 360,
+        "total_tokens": 122421,
+        "uncached_nonwrite_input_tokens": 2656
+      }
     }
   ],
   "money_cost": null,
@@ -993,36 +1122,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T08:37:26.700262+00:00",
-    "elapsed_seconds": 105609.68626213074,
-    "observed_responses": 344,
+    "end": "2026-10-11T08:47:19.836874+00:00",
+    "elapsed_seconds": 106202.82287406921,
+    "observed_responses": 373,
     "tokens": {
-      "input_tokens": 43392049,
-      "cached_input_tokens": 41904640,
+      "input_tokens": 45901240,
+      "cached_input_tokens": 44337152,
       "cache_write_input_tokens": 0,
-      "output_tokens": 239587,
-      "reasoning_output_tokens": 67044,
-      "total_tokens": 43631636,
-      "uncached_nonwrite_input_tokens": 1487409
+      "output_tokens": 255999,
+      "reasoning_output_tokens": 71297,
+      "total_tokens": 46157239,
+      "uncached_nonwrite_input_tokens": 1564088
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T08:37:26.700262+00:00",
-    "elapsed_seconds": 105609.68626213074,
-    "observed_responses": 67,
+    "end": "2026-10-11T08:47:19.836874+00:00",
+    "elapsed_seconds": 106202.82287406921,
+    "observed_responses": 70,
     "tokens": {
-      "input_tokens": 8550498,
-      "cached_input_tokens": 8247424,
+      "input_tokens": 8710230,
+      "cached_input_tokens": 8401792,
       "cache_write_input_tokens": 0,
-      "output_tokens": 26751,
-      "reasoning_output_tokens": 4708,
-      "total_tokens": 8577249,
-      "uncached_nonwrite_input_tokens": 303074
+      "output_tokens": 27408,
+      "reasoning_output_tokens": 4821,
+      "total_tokens": 8737638,
+      "uncached_nonwrite_input_tokens": 308438
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction-02 includes first export-helper adaptation. Raw-08 assistant window includes shared assembler development/tests and next-article preflight; its raw engine run overlaps correction-08 by about183 seconds. Raw-09 and raw-10 also overlap correction; see exact per-window notes. Raw-10 includes exact-edit helper development. Export-10 end uses completed export-results mtime after interruption, excluding the inactive gap. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
+  "limitation": "Correction-02 includes first export-helper adaptation. Raw-08 assistant window includes shared assembler development/tests and next-article preflight; its raw engine run overlaps correction-08 by about183 seconds. Raw-09, raw-10 and raw-11 also overlap correction; see exact per-window notes. Raw-10 includes exact-edit helper development. Export-10 end uses completed export-results mtime after interruption, excluding the inactive gap. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
 }

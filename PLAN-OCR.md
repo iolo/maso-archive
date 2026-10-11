@@ -1162,3 +1162,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   480 text crops,39 figures,207 BASIC lines,1,071 hex rows,105 flags. Human review
   pending. Next:33–38, then assemble Z-80. Reading room after full issue/metrics.
   User homepage edit preserved; final reporting/commit usage carries forward.
+
+
+### July Z-80 complete article assembled, 2026-10-11
+
+- Batch11/Qwen restores final33–38:77 regions,67 text crops,10 original images,
+  16 flags. Historical printed anomalies retained with source-linked review notes.
+- Raw160.07s, recognition132.76s; correction225.33s for5,862 characters.
+  Correction usage19,574 uncached input,748,544 cached input,6,660 output;
+  zero cache-write. Local34,093 tokens separate. Raw/correction overlap100.93s.
+  One crop seam adjusted before inference;67 fresh inferences, no retries.
+- Fixed four-sample comparison favors Qwen; its only errors are15 omitted overbars
+  in one crop. Human-gold and causal paid-savings claims remain unsupported.
+- Full Z-80 assembly combines09–11 across21–38:236 regions,26 images,46 flags.
+  Explicit interrupted prose join completes the32/33 summary. Native and assembled
+  export integrity, all source-linked UTF-8 review ranges and reproducible rebuilds
+  pass. Original segments unchanged; mandatory human review remains pending.
+- July:7 complete bodies,29 untouched;41 pages,596 regions,547 text crops,
+  49 figures,207 BASIC lines,1,071 hex rows,121 flags. Next inspect Apple sound
+  article candidate42–50, then map with provisional routing. Reading room after
+  full issue restoration/metrics. User homepage change left untouched.
