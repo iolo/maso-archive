@@ -1665,3 +1665,48 @@ crops,79 images,1,541 BASIC lines,1,120 hex rows,109 assembly rows,29 Logo rows
 and465 flags. Next inspect 기계어 강좌, candidate119–128 and boundary129.
 Full-issue restoration, final metric consolidation and the reading room remain
 outstanding. Batch24 timing exclusions remain in force.
+
+
+### Z80 lesson opening — batch26, 2026-10-11
+
+Restored PDF119–123/printed115–119 of the verified119–127 article.128 begins
+the next article's title page, while its catalog reference points to body129.
+This segment has104 regions:100 text crops,4 original images,50 assembly/example
+rows and29 review flags. The50 rows comprise8 ADD/ADC examples,2 ORG directives
+and40 addressed listing rows; the final853D row has no visible mnemonic.
+
+Preassigned2 Tesseract byline/caption and98 Qwen technical crops completed without
+retry or fallback. Raw262.40s includes setup/render/export; recognition sums
+Qwen220.34s/Tesseract0.13s are nested. Local38,948 tokens comprise33,257 prompt
+and5,691 completion. Correction/source/helper time329.46s overlaps raw183.76s;
+18,826 uncached input,2,038,784 cached input and9,783 output tokens (including
+1,981 reasoning), zero cache-write. Mixed-route observations do not isolate causal
+engine correction costs; evaluation/reporting are separate.
+
+Qwen merged ORG with the first addressed row, shifted LD A,41H and omitted
+LD B,26D. All five source rows and column associations were restored. Every row
+of both listings was checked, including all eight BIT operands. Original −95,
+255/225,137/127 and +128/−128 contradictions remain, alongside source spellings,
+missing parenthesis and blank853D mnemonic. No technical correction, execution or
+byte-perfect claim is made. The arithmetic figures are linearized text with source
+crops retained; drawn rules are omitted and arrow positioning is approximate.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p120r01 — technical introduction | 1.23% | 12.35% |
+| p120r17 — arithmetic layout | 33.33% | 3.33% |
+| p122r19 — ADD operand examples | 0.00% | 5.56% |
+| p123r19 — addressed assembly rows | 0.00% | 13.25% |
+
+[Comparison24](ocr-july-comparison-24.json) uses identical PNGs and references
+sealed before alternate OCR. The arithmetic score includes Qwen's added dashed
+divider and arrow/label placement; it is not a pure digit-accuracy result. Samples
+are unblinded assistant references, not human gold or whole-article accuracy. The
+ORG/LD row failure occurred outside these fixed samples and remains material.
+
+Export integrity, source-linked UTF-8 review/listing ranges and byte-identical
+rebuild pass. July:19 complete bodies,1 partial,16 untouched; zero human acceptances.
+Cumulative:108 source pages,1,738 regions,1,655 text crops,83 images,1,541 BASIC
+lines,1,120 hex rows,159 assembly/example rows,29 Logo rows and494 flags. Next
+124–127 and full lesson assembly; the123→124 prose join must account for intervening
+listings. Full restoration, final metrics and reading room remain outstanding.

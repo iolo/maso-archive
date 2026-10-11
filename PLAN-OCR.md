@@ -1505,3 +1505,20 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1,634 regions,1,555 text crops,79 images and465 flags. Next inspect119–129.
   Full restoration/metrics/reading room remain outstanding; homepage edit preserved.
   Batch24 timing exclusions persist; final reporting/commit usage carries forward.
+
+
+### July Z80 lesson opening restored, 2026-10-11
+
+- Batch26 covers119–123 of verified119–127;128 next article title,129 body.
+  104 regions,100 text,4 figures,50 assembly/example rows,29 flags.
+- Planned2 Tesseract/98 Qwen crops, no retry. Raw262.40s; recognition220.34s/0.13s;
+  38,948 local tokens. Correction329.46s overlaps183.76s;18,826 uncached input,
+  2,038,784 cached input and9,783 output tokens. No causal paid savings claim.
+- Qwen ORG/address alignment failure and lost LD B,26D source-corrected. Printed
+  arithmetic contradictions, missing parenthesis and blank final mnemonic retained.
+  Comparison24 split: Qwen prose/assembly, Tesseract arithmetic layout; divider/arrow
+  representation affects CER. Mandatory human review pending.
+- Export/review/listing ranges and byte-identical rebuild pass. July19 complete,
+  1 partial,16 untouched;108 pages,1,738 regions,1,655 text,83 images,494 flags.
+  Next124–127 and full lesson assembly. Full goal unfinished; homepage edit preserved.
+  Final report/commit usage carries forward.

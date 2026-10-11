@@ -432,7 +432,10 @@ Its raw run was contaminated by erroneous recovery and competing model startup;
 exclude its elapsed time from clean speed comparisons. Batch25 completed without
 retry and again favored Qwen in four samples, but needed TEMP.$$$ and comment-row
 repairs. Source comparison must check file extensions, row boundaries and original
-command punctuation. CP/M101–113 is fully assembled. This is guidance for choosing new checkpoints;
+command punctuation. Batch26 adds an ORG/address-row merge that lost an LD operand
+row; count directives separately from addressed rows. Its fixed arithmetic-layout
+sample favored Tesseract, but divider/arrow representation affects CER. CP/M101–113
+is fully assembled; Z80 lesson119–123 is partial pending124–127. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.
