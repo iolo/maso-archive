@@ -1246,3 +1246,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
   57 images,474 BASIC lines,1,071 hex rows,84 assembly rows,174 flags.
   Next inspect59–61. Full restoration, metric consolidation and reading room remain.
   Homepage edit untouched; final reporting/commit usage carries into next audit.
+
+
+### July sixth-sense game restored with planned mixed routing, 2026-10-11
+
+- Batch15 completes PDF59–61:30 text regions,97 BASIC lines,11 review flags.
+  Preassigned10 Tesseract prose/byline crops and20 Qwen title/definitions/code crops;
+  native evidence for both engines retained. No retries or fallback.
+- Raw72.36s; recognition Tesseract2.96s/Qwen57.03s. Correction/coverage checks176.10s,
+  overlap37.87s. Usage17,475 uncached input,681,472 cached input,5,479 output,
+  zero cache-write. Local Qwen11,623 tokens separate; no per-engine paid attribution.
+- Two Qwen responses silently omitted tails of150/710 and full720–800 rows;
+  restored from source. PROGARM and printed wording retained. All97 rows checked.
+- Four fixed comparisons favor Qwen; clean-code gaps smaller than prior graphic
+  game. No independent gold, whole-article score or causal savings claim.
+  Export integrity, review ranges and byte-identical rebuild pass.
+- July:10 complete,26 untouched;55 pages,792 regions,735 text crops,57 images,
+  571 BASIC lines,1,071 hex rows,84 assembly rows,185 flags. Human review pending.
+  Next inspect62–67. Full restoration/metrics/reading room remain outstanding.
+  Homepage edit untouched; final reporting/commit usage carries into next audit.

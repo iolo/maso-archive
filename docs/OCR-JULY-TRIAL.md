@@ -69,7 +69,8 @@ Choose by content, not page count. Mixed articles may use different engines for
 homogeneous groups of mapped regions or coherent assembly segments, such as
 Tesseract for an introduction and Qwen for a listing. Record the chosen primary
 engine and scope before inference; current runs still use an explicitly selected
-engine per checkpoint rather than automatic per-region routing.
+engine per checkpoint or a recorded per-region assignment list. Batch15 uses
+such a preassigned mixed list; there is still no automatic content classifier.
 
 When uncertain, inspect one representative Tesseract crop before committing the
 rest of the segment. Switch if identifiers are repeatedly corrupted, table rows
@@ -903,3 +904,64 @@ crops,57 images,474 BASIC lines,1,071 hex rows,84 assembly rows and174 flags.
 Next inspect 육감개발 2주 완성, candidate PDF59–61; choose its route after checking
 remaining pages. Full issue restoration, consolidated metrics and the reading-room
 preview remain outstanding.
+
+
+## Sixth-sense game with planned content routing, 2026-10-11
+
+Batch15 restores complete 육감개발 2주 완성, PDF59–61/printed55–57. The article
+has30 text regions,97 logical/physical BASIC rows and11 source-linked review flags.
+PDF62 begins the next article. Prose continues59 left/right into60; variables and
+explanation precede the listing on60–61. One code-crop seam was moved before OCR
+to avoid cutting line360; all final physical rows were inspected.
+
+Assignments were fixed before inference:10 clear prose/byline regions to Tesseract,
+20 title/variable/explanation/code regions to Qwen. This is a planned mixed route,
+not an opportunistic choice of the cleaner draft. Both engines retain native
+settings and responses with identical source-map provenance. No retry or fallback
+was needed. Source PROGARM spelling, historical Korean wording, probability claims
+and algorithm statements remain unchanged; no program execution is claimed.
+
+Two successful Qwen responses were incomplete: p60r12 omitted the tail of150,
+and p61r04 omitted the tail of710 plus all nine rows720–800. Those were restored
+from source. The complete97-row count checks physical content, not just returned
+status or apparently well-formed text. The omissions are outside the four fixed
+comparison crops and remain explicitly reported.
+
+| Observation | Planned mixed route |
+| --- | ---: |
+| Raw elapsed, including render/startup/export | 72.36s |
+| Tesseract recognition,10 regions | 2.96s |
+| Qwen recognition,20 regions | 57.03s |
+| Correction/coverage checking/recording window | 176.10s |
+| Corrected non-whitespace characters | 3,028 |
+| Uncached, non-write correction input tokens | 17,475 |
+| Cached correction input tokens | 681,472 |
+| Correction output tokens | 5,479 |
+
+Qwen raw usage11,623 tokens (10,155 prompt;1,468 completion) is separate from paid
+assistant usage. Cache-write tokens were zero. Raw work overlaps correction by
+37.87s; do not add these windows as sequential elapsed. Preparation includes the
+private mixed-run helper; comparison-helper preparation is in the raw assistant
+window. Correction usage covers both engines together and cannot establish their
+individual causal cost or a saving versus running this article with one engine.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p59r03 — introductory prose, Tesseract | 0.60% | 6.55% |
+| p59r07 — strategy prose, Tesseract | 1.40% | 2.10% |
+| p60r14 — BASIC instructions, Qwen | 0.00% | 2.86% |
+| p61r03 — BASIC prediction logic, Qwen | 0.00% | 6.11% |
+
+Each alternate ran only after the primary draft's source-checked reference was
+sealed. References are unblinded assistant readings, not human gold. Tesseract
+used kor+eng for prose and eng for code, OEM1/PSM6; identical PNGs were compared.
+These clean code samples show a smaller gap than the preceding graphic-heavy game.
+They support continued content-specific testing, not a blanket paid-cost ranking.
+Compact CER excludes whitespace and is not a whole-article accuracy estimate.
+
+Export integrity, review UTF-8 ranges, explicit printed row identities and
+byte-identical rebuild pass. July now has10 complete bodies and26 untouched,
+with no partial bodies and zero human acceptances. Cumulative coverage:55 source
+pages,792 regions,735 text crops,57 images,571 BASIC lines,1,071 hex rows,
+84 assembly rows and185 flags. Next inspect 디오디지이엠, candidate PDF62–67.
+Full restoration, consolidated metrics and the reading room remain outstanding.

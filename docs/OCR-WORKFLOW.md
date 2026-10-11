@@ -408,16 +408,17 @@ remaining after local OCR.
 The maintainer selected July1984 for the next trial. See [the trial plan and
 measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
-Nine complete article bodies, including the assembled music-card hardware/software/hex
-article,18-page Z-80 feature,8-page Apple sound article and FC-100 rebellion game, are recorded in
-[July progress](ocr-july-progress.json). Twenty-seven paginated bodies remain;
+Ten complete article bodies, including the assembled music-card hardware/software/hex
+article,18-page Z-80 feature,8-page Apple sound article and two FC-100 games, are recorded in
+[July progress](ocr-july-progress.json). Twenty-six paginated bodies remain;
 six unpaginated TOC parent headings are tracked separately.
 
 The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
 starts with Tesseract for clear prose, Qwen for tables/technical notation/listings,
 and original images for diagrams and musical-symbol bands. It includes bounded probes, explicit fallback
 accounting and evidence limitations. It is guidance for choosing new checkpoints;
-no automatic routing or pipeline default has changed. The2026-10-11 full-issue
+explicit mixed-region assignments are recorded, while no automatic classifier or
+pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.
 
 ### Assembly across a shared source page

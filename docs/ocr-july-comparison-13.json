@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "scope": "Four preselected identical-PNG crops; references sealed after primary-engine correction and before alternate OCR. References are unblinded assistant readings, not independent human gold. No paid semantic correction is repeated on the same passage. Compact CER ignores whitespace, including literal spaces; not executable-code validation.",
+  "rows": [
+    {
+      "batch": "15",
+      "primary_engine": "tesseract",
+      "region_id": "p59r03",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-15/ocr/scan-maso-1984-07-toc-0006/ocr-page59/p59r03.png",
+        "sha256": "e74b8f74958bf52b6015eb0a7c5a3c881be0b72dbb8bca77a42f00d2a0aa767e",
+        "bytes": 278589
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "7e21a42be5e89bd44066d3141d81de35f2dd9a3ea930a7c0a3905eadf2d6ee37",
+        "bytes": 6935
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T09:45:50.353495+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "7e21a42be5e89bd44066d3141d81de35f2dd9a3ea930a7c0a3905eadf2d6ee37",
+          "bytes": 6935
+        },
+        "method": "Assistant source reading from preassigned mixed primary drafts; sealed before alternate samples, unblinded and not human gold."
+      },
+      "qwen_seconds": 5.4565125509980135,
+      "tesseract_seconds": 0.4349783079996996,
+      "qwen_usage": {
+        "completion_tokens": 164,
+        "prompt_tokens": 666,
+        "total_tokens": 830,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0045045045045045045,
+          "cer_edits": 1,
+          "cer_reference_chars": 222,
+          "cer_no_whitespace": 0.005952380952380952,
+          "cer_no_whitespace_edits": 1,
+          "cer_no_whitespace_reference_chars": 168,
+          "wer": 0.01818181818181818
+        },
+        "tesseract": {
+          "cer": 0.06756756756756757,
+          "cer_edits": 15,
+          "cer_reference_chars": 222,
+          "cer_no_whitespace": 0.06547619047619048,
+          "cer_no_whitespace_edits": 11,
+          "cer_no_whitespace_reference_chars": 168,
+          "wer": 0.2727272727272727
+        }
+      }
+    },
+    {
+      "batch": "15",
+      "primary_engine": "tesseract",
+      "region_id": "p59r07",
+      "category": "prose",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-15/ocr/scan-maso-1984-07-toc-0006/ocr-page59/p59r07.png",
+        "sha256": "586f52d191d460823acf583884b119bcb61e3ba62c49c6374fab2921bba046b0",
+        "bytes": 236329
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "7e21a42be5e89bd44066d3141d81de35f2dd9a3ea930a7c0a3905eadf2d6ee37",
+        "bytes": 6935
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T09:45:50.353495+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "7e21a42be5e89bd44066d3141d81de35f2dd9a3ea930a7c0a3905eadf2d6ee37",
+          "bytes": 6935
+        },
+        "method": "Assistant source reading from preassigned mixed primary drafts; sealed before alternate samples, unblinded and not human gold."
+      },
+      "qwen_seconds": 4.392380246001267,
+      "tesseract_seconds": 0.35715081799935433,
+      "qwen_usage": {
+        "completion_tokens": 127,
+        "prompt_tokens": 561,
+        "total_tokens": 688,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "kor+eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.026455026455026454,
+          "cer_edits": 5,
+          "cer_reference_chars": 189,
+          "cer_no_whitespace": 0.013986013986013986,
+          "cer_no_whitespace_edits": 2,
+          "cer_no_whitespace_reference_chars": 143,
+          "wer": 0.1702127659574468
+        },
+        "tesseract": {
+          "cer": 0.037037037037037035,
+          "cer_edits": 7,
+          "cer_reference_chars": 189,
+          "cer_no_whitespace": 0.02097902097902098,
+          "cer_no_whitespace_edits": 3,
+          "cer_no_whitespace_reference_chars": 143,
+          "wer": 0.2127659574468085
+        }
+      }
+    },
+    {
+      "batch": "15",
+      "primary_engine": "qwen",
+      "region_id": "p60r14",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-15/ocr/scan-maso-1984-07-toc-0006/ocr-page60/p60r14.png",
+        "sha256": "e32f47c35de283f1f1d454117055a8658fdff805314a9023371e845f633a31d4",
+        "bytes": 208878
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "7e21a42be5e89bd44066d3141d81de35f2dd9a3ea930a7c0a3905eadf2d6ee37",
+        "bytes": 6935
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T09:45:50.353495+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "7e21a42be5e89bd44066d3141d81de35f2dd9a3ea930a7c0a3905eadf2d6ee37",
+          "bytes": 6935
+        },
+        "method": "Assistant source reading from preassigned mixed primary drafts; sealed before alternate samples, unblinded and not human gold."
+      },
+      "qwen_seconds": 4.2007269540008565,
+      "tesseract_seconds": 0.15712660799908917,
+      "qwen_usage": {
+        "completion_tokens": 114,
+        "prompt_tokens": 687,
+        "total_tokens": 801,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 212,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 175,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.0330188679245283,
+          "cer_edits": 7,
+          "cer_reference_chars": 212,
+          "cer_no_whitespace": 0.02857142857142857,
+          "cer_no_whitespace_edits": 5,
+          "cer_no_whitespace_reference_chars": 175,
+          "wer": 0.23684210526315788
+        }
+      }
+    },
+    {
+      "batch": "15",
+      "primary_engine": "qwen",
+      "region_id": "p61r03",
+      "category": "code",
+      "image": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-15/ocr/scan-maso-1984-07-toc-0006/ocr-page61/p61r03.png",
+        "sha256": "c96050f47d972efa8c1142cbc5e5e3392f457f547dae329e58ddcb97cd6063ec",
+        "bytes": 165803
+      },
+      "reference": {
+        "path": "transcription-assistant.json",
+        "sha256": "7e21a42be5e89bd44066d3141d81de35f2dd9a3ea930a7c0a3905eadf2d6ee37",
+        "bytes": 6935
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T09:45:50.353495+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "7e21a42be5e89bd44066d3141d81de35f2dd9a3ea930a7c0a3905eadf2d6ee37",
+          "bytes": 6935
+        },
+        "method": "Assistant source reading from preassigned mixed primary drafts; sealed before alternate samples, unblinded and not human gold."
+      },
+      "qwen_seconds": 4.713456779998523,
+      "tesseract_seconds": 0.13336383899877546,
+      "qwen_usage": {
+        "completion_tokens": 129,
+        "prompt_tokens": 673,
+        "total_tokens": 802,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "tesseract_config": {
+        "languages": "eng",
+        "psm": 6
+      },
+      "engines": {
+        "qwen": {
+          "cer": 0.0,
+          "cer_edits": 0,
+          "cer_reference_chars": 160,
+          "cer_no_whitespace": 0.0,
+          "cer_no_whitespace_edits": 0,
+          "cer_no_whitespace_reference_chars": 131,
+          "wer": 0.0
+        },
+        "tesseract": {
+          "cer": 0.05,
+          "cer_edits": 8,
+          "cer_reference_chars": 160,
+          "cer_no_whitespace": 0.061068702290076333,
+          "cer_no_whitespace_edits": 8,
+          "cer_no_whitespace_reference_chars": 131,
+          "wer": 0.2
+        }
+      }
+    }
+  ],
+  "raw_timing_scope": "Per-crop calls exclude rendering and startup. Alternate OCR is evaluation overhead, not ordinary restoration work."
+}
