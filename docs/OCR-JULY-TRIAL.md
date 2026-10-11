@@ -89,6 +89,10 @@ repair. Treat that exception as unproven: prefer separating graphic bands from
 ordinary code where layout permits, and do not route code to Tesseract solely
 because it contains a few graphic characters. Keep the same scan-linked markers
 and bounded fallback policy for unresolved glyphs.
+For repeated numeric/CHR$ expressions, check every printed term as well as row
+coverage: batch20 Qwen shortened many repetitions while returning successful
+responses. Use field counts as an audit, never as permission to invent missing
+values. Preserve source anomalies and unresolved glyph encoding.
 Reuse successful evidence only with unchanged source/crops and verified hashes,
 and label mixed-engine provenance explicitly.
 
@@ -1247,4 +1251,84 @@ with no partial bodies and zero human acceptances. Cumulative coverage:72 source
 pages,977 regions,917 text crops,60 images,1,233 BASIC lines,1,107 hex rows,
 84 assembly rows and274 review flags. Next inspect 캥거루, candidate81–86;
 87 is the previously restored 운전 연습. Full issue restoration, consolidated
+metrics and the reading room remain outstanding.
+
+
+## Kangaroo graphics and repeated character definitions, 2026-10-11
+
+Batch20 completes 캥거루, PDF81–86/printed77–82. Its79 regions contain78 text
+crops and one original screen; the advertisement on82 is excluded, and87 starts
+the previously restored 운전 연습. The listing contains246 logical BASIC lines
+and556 physical text/glyph rows. Two numeric DATA lines contain45 fields each;
+35 character definitions contain12 hexadecimal fields each,420 in total. These
+counts were checked after source transcription; no missing values were generated
+from expected counts. Large sprite/title drawings use approximate printed-grid
+rows with scan-linked markers, not exact byte or cell-spacing reconstruction.
+
+Assignments were fixed before inference:4 Tesseract prose/byline crops and74
+Qwen title/technical/code crops. Unlike batch19, graphic-bearing code remained
+with Qwen. No repetition loop or process interruption occurred. Inspection found
+that the left edge of the page83 right-column crops trimmed some leading numerals.
+All seven were widened from427 to420/849 and rerun;67 unchanged Qwen results and
+all4 Tesseract results were reused. The complete original OCR and original map
+remain archived. Fixed evaluation crops were unchanged, and all81 completed Qwen
+calls are included in accounting. This deliberate crop repair is not free reuse.
+
+| Observation | Planned mixed route, including crop repair |
+| --- | ---: |
+| Original raw worker elapsed | 349.27s |
+| Changed-crop rerun worker elapsed | 43.30s |
+| Total measured raw worker elapsed | 392.56s |
+| Tesseract recognition,4 calls | 1.02s |
+| Qwen recognition,81 calls | 354.51s |
+| Correction/source review/crop-repair/helper window | 739.79s |
+| Raw overlap with correction | 371.43s |
+| Corrected non-whitespace characters | 14,071 |
+| Uncached, non-write correction input tokens | 76,443 |
+| Cached correction input tokens | 2,871,936 |
+| Correction output tokens | 22,452 |
+
+Cache-write was zero. Local Qwen usage across both crop versions was53,453 tokens
+(42,274 prompt;11,179 completion), separate from paid assistant usage and alternate
+OCR. Raw elapsed is the sum of two measured worker runs, excluding the intervening
+inspection/preparation gap. Correction includes that work and overlaps both raw
+runs; do not add the elapsed columns. This mixed observation does not isolate a
+causal engine cost. Its substantially larger listing and repeated-field review
+also prevent a direct speed ranking against the shorter preceding article.
+
+Successful Qwen responses omitted the430 tail and440–490, the960 tail and
+970/1000/1010 even after widening, and the11012 tail plus11013. Source review
+restored them. Many long CHR$ expressions lost repeated terms; source checks also
+corrected numeric substitutions, format hashes and music-string truncation.
+The raw model sometimes rendered printed sprites as emoji or invented ASCII
+shapes. Those are replaced with explicit ⟦G⟧ markers linked to the original scan.
+
+Source anomalies remain visible: the explanatory range870–1111 differs from
+listing1110;100 lacks a visible comment token; some strings appear unclosed;
+10210 contains a dot after HE0); and SRART remains printed in11009. Faint3/8,
+O/0, music punctuation, graphic encoding and literal padding remain among55
+review flags. No program execution, reconstructed sprite bytes, or human
+acceptance is claimed.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p81r03 — introductory prose, Tesseract | 0.82% | 18.85% |
+| p81r07 — variable definitions, Qwen | 0.00% | 36.47% |
+| p82r07 — numeric DATA, Qwen | 0.42% | 35.42% |
+| p85r09 — hexadecimal CHR$ expressions, Qwen | 0.00% | 42.61% |
+
+[Comparison18](ocr-july-comparison-18.json) uses identical PNGs, with source-checked
+references sealed before alternate OCR. References remain unblinded assistant
+readings. The fixed sample set excludes graphic-marker crops and the main
+omission cases; it cannot establish whole-article accuracy or paid savings.
+Compact CER ignores whitespace and is not executable-code validation. The raw
+quality gap supports continued Qwen trials on technical text, alongside explicit
+checks for omitted repeated terms.
+
+Export integrity, review/listing UTF-8 ranges, source line identities and a
+byte-identical rebuild pass. July now has15 complete bodies and21 untouched,
+no partial bodies and zero human acceptances. Cumulative coverage:78 source pages,
+1,056 regions,995 text crops,61 images,1,479 BASIC lines,1,107 hex rows,
+84 assembly rows and329 review flags. Next inspect SPC-1000 자동실행 테이프의 제작,
+candidate88–93, and boundary94. Full issue restoration, consolidated decision
 metrics and the reading room remain outstanding.

@@ -4,14 +4,14 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 14,
+  "completed_article_bodies": 15,
   "partial_article_bodies": 0,
-  "completed_checkpoints": 19,
+  "completed_checkpoints": 20,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 22,
-  "remaining_toc_entries": 22,
-  "untouched_toc_entries": 22,
+  "remaining_article_bodies": 21,
+  "remaining_toc_entries": 21,
+  "untouched_toc_entries": 21,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -4793,6 +4793,1363 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Tesseract clear prose/byline and graphic-heavy BASIC crops; Qwen technical notes, ordinary BASIC and hex DATA. Preassigned graphic exception avoids known repetition-prone glyph bands; this is an extension to test, not a proven cost advantage. Native crops and explicit glyph markers retained."
       }
+    },
+    {
+      "batch": "20",
+      "toc_entry_id": "maso-1984-07-toc-0012",
+      "title": "캥거루",
+      "engine": "mixed",
+      "printed_pages": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "pdf_pages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-20/map.json",
+        "sha256": "0ec05ff88894945970c4f7d95f101dd6f97fcc09567d9c87b6a0750d17f8ffef",
+        "bytes": 24518
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-20/kangaroo-spc1000/article.json",
+          "sha256": "82ae07fb7022300a63daeb83e03c7bd57db28e3254c5dd979f112b79b8f87e82",
+          "bytes": 135901
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-20/kangaroo-spc1000/manifest.json",
+          "sha256": "968a97d5d69826b35b5b502a38b1da2884bdd7d988179600bde3a675e6ff4808",
+          "bytes": 53028
+        },
+        "source_pages": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "regions": 79,
+        "text_regions": 78,
+        "figures": 1,
+        "physical_listing_rows": 556,
+        "logical_listing_rows": 246,
+        "unresolved_entries": 55,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 392.56131329000345,
+      "recognition_seconds": 355.5388901430051,
+      "local_qwen_tokens": {
+        "prompt_tokens": 42274,
+        "completion_tokens": 11179,
+        "total_tokens": 53453
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-20/transcription-assistant.json",
+        "sha256": "29b082063d15d7d2bb216098d844262b1ed81d30cee13bb044ed3004fa0e1eb2",
+        "bytes": 20126
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T11:01:41.888925+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "29b082063d15d7d2bb216098d844262b1ed81d30cee13bb044ed3004fa0e1eb2",
+          "bytes": 20126
+        },
+        "method": "Assistant source reading from preassigned mixed primary drafts; sealed before alternate samples, unblinded and not human gold. Changed page83 crops rerun before sealing; fixed sample crops unchanged."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 15,
+        "code": 12945,
+        "other": 742,
+        "prose": 354,
+        "title": 15
+      },
+      "work_window_ids": [
+        "raw-20",
+        "correction-20",
+        "export-20"
+      ],
+      "failed_server_compute_seconds": 0,
+      "recognition_limitation": "Includes original74 and revised7 Qwen calls, Tesseract four calls added separately. Sum of measured worker elapsed excludes between-run inspection/preparation gap; raw runs overlap correction. No causal paid-cost comparison.",
+      "raw_run_seconds_basis": "Sum of measured original and changed-crop rerun worker elapsed, including source/render/runtime and evidence work; excludes between-run preparation gap. Original74+new7 Qwen calls;4 original Tesseract calls reused.",
+      "recovery": {
+        "local_qwen_tokens_all_attempts": {
+          "prompt_tokens": 42274,
+          "completion_tokens": 11179,
+          "total_tokens": 53453
+        },
+        "successful_recognition_seconds": 354.51406199401026,
+        "failed_server_compute_seconds": 0,
+        "reason": "Seven page83 crops widened to restore clipped leading numerals; completed original OCR retained.67 unchanged Qwen and4 Tesseract results reused. Seven deliberate changed-image reruns, no timeout/repetition failure.",
+        "limitation": "Includes original74 and revised7 Qwen calls, Tesseract four calls added separately. Sum of measured worker elapsed excludes between-run inspection/preparation gap; raw runs overlap correction. No causal paid-cost comparison.",
+        "original_run": {
+          "path": "original-crops/raw-run-timing.json",
+          "sha256": "164e1d054065475aad920be735ff5b7b72ebbfb6e15583259bfbd0ae6a372e4d",
+          "bytes": 485
+        },
+        "recrop_run": {
+          "path": "recrop-run-timing.json",
+          "sha256": "1fba432c014e16e0f33354db42f483ef9ac6f97cbaee2420dffffb7734aae99b",
+          "bytes": 518
+        },
+        "changed_regions": [
+          "p83r08",
+          "p83r09",
+          "p83r10",
+          "p83r11",
+          "p83r12",
+          "p83r13",
+          "p83r14"
+        ]
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-20/recovery-accounting.json",
+        "sha256": "b78aca71553b9f795adbeed13643fa5ac8728b50b6e83e75a43b74cfb93c1c36",
+        "bytes": 1159
+      },
+      "local_qwen_tokens_retained_successes": {
+        "prompt_tokens": 38435,
+        "completion_tokens": 10197,
+        "total_tokens": 48632
+      },
+      "recognition_seconds_retained_successes": 327.9363677760048,
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p81r02": "tesseract",
+        "p81r03": "tesseract",
+        "p81r04": "tesseract",
+        "p81r05": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 327.9363677760048,
+        "tesseract_recognition_seconds": 1.0248281489948567,
+        "qwen_regions": {
+          "p81r01": 0.6550911079975776,
+          "p81r06": 0.6555839879983978,
+          "p81r07": 3.820508463002625,
+          "p81r08": 3.2381561809997947,
+          "p81r10": 2.0545242219996,
+          "p81r11": 2.524974915999337,
+          "p81r12": 0.5219848929991713,
+          "p81r13": 2.4067253720022563,
+          "p81r14": 3.2227304990010452,
+          "p82r01": 3.506961142000364,
+          "p82r02": 4.065846568002598,
+          "p82r03": 3.3034148910010117,
+          "p82r04": 3.9215307339982246,
+          "p82r05": 3.180912422001711,
+          "p82r06": 3.698585053996794,
+          "p82r07": 5.470929946000979,
+          "p82r08": 1.9492997229972389,
+          "p83r01": 4.273081693001586,
+          "p83r02": 4.675410662999639,
+          "p83r03": 5.580000007998024,
+          "p83r04": 1.4495223250014533,
+          "p83r05": 5.116201585999079,
+          "p83r06": 2.6349642790009966,
+          "p83r07": 2.5944576619986037,
+          "p83r08": 4.842807394001284,
+          "p83r09": 5.442165315998864,
+          "p83r10": 5.463850673000707,
+          "p83r11": 4.782114474000991,
+          "p83r12": 5.83719787100199,
+          "p83r13": 6.191067464002117,
+          "p83r14": 2.8631977519980865,
+          "p84r01": 5.745304998999927,
+          "p84r02": 5.419717642998876,
+          "p84r03": 5.141340779999155,
+          "p84r04": 5.401012417998572,
+          "p84r05": 4.189357827002823,
+          "p84r06": 4.610498556001403,
+          "p84r07": 4.221644499000831,
+          "p84r08": 5.386092811000708,
+          "p84r09": 5.56917161200181,
+          "p84r10": 5.235231342998304,
+          "p84r11": 2.808858754000539,
+          "p84r12": 5.142302414002188,
+          "p84r13": 4.454332192999573,
+          "p84r14": 4.997422429001745,
+          "p85r01": 4.384024330000102,
+          "p85r02": 5.00058855899988,
+          "p85r03": 6.251248688000487,
+          "p85r04": 4.687224019999121,
+          "p85r05": 6.4075728799980425,
+          "p85r06": 4.233882218999497,
+          "p85r07": 5.685988309000095,
+          "p85r08": 5.363111812002899,
+          "p85r09": 4.0181575099995825,
+          "p85r10": 3.3811301169989747,
+          "p85r11": 5.466966421998222,
+          "p85r12": 7.17153138499998,
+          "p85r13": 6.3734709979980835,
+          "p85r14": 5.345948762002081,
+          "p86r01": 4.868029737997858,
+          "p86r02": 6.156632969999919,
+          "p86r03": 6.885148866000236,
+          "p86r04": 5.525728564000019,
+          "p86r05": 5.658447393998358,
+          "p86r06": 5.582927030001883,
+          "p86r07": 5.253898039998603,
+          "p86r08": 5.967425419999927,
+          "p86r09": 6.943927112999518,
+          "p86r10": 5.184556326999882,
+          "p86r11": 2.7423328010008845,
+          "p86r12": 1.631848937999166,
+          "p86r13": 3.3413678690012603,
+          "p86r14": 5.743838016001973,
+          "p86r15": 4.413325118999637
+        },
+        "tesseract_regions": {
+          "p81r02": 0.09868348699819762,
+          "p81r03": 0.3241859529989597,
+          "p81r04": 0.2804889399994863,
+          "p81r05": 0.3214697689982131
+        },
+        "reason": "Planned content routing fixed before inference; no preassigned graphic-code Tesseract exception."
+      },
+      "qwen_recognition_seconds": 354.51406199401026,
+      "tesseract_recognition_seconds": 1.0248281489948567,
+      "assignment_reason": "Planned content routing fixed before inference; no preassigned graphic-code Tesseract exception.",
+      "listing_audit": {
+        "logical_basic_rows": 246,
+        "physical_basic_rows": 556,
+        "printed_basic_lines": {
+          "p82r05": [
+            100,
+            110,
+            120,
+            130,
+            140,
+            150,
+            160
+          ],
+          "p82r06": [
+            170,
+            180,
+            190,
+            200,
+            210,
+            220
+          ],
+          "p82r07": [
+            240,
+            250
+          ],
+          "p82r08": [
+            260,
+            270,
+            280,
+            290,
+            300,
+            310
+          ],
+          "p83r01": [
+            320,
+            330,
+            340,
+            350,
+            360
+          ],
+          "p83r02": [
+            370,
+            380,
+            385
+          ],
+          "p83r03": [
+            386,
+            390,
+            400,
+            410,
+            420
+          ],
+          "p83r04": [
+            430,
+            440,
+            450,
+            460,
+            470,
+            480,
+            490
+          ],
+          "p83r05": [
+            500,
+            510,
+            520,
+            530,
+            540
+          ],
+          "p83r06": [
+            550,
+            560,
+            570,
+            580,
+            590,
+            600
+          ],
+          "p83r07": [
+            610,
+            620,
+            630,
+            635,
+            640
+          ],
+          "p83r08": [
+            650,
+            660,
+            670,
+            675,
+            680,
+            690
+          ],
+          "p83r09": [
+            700,
+            710,
+            715,
+            720,
+            730,
+            740,
+            750
+          ],
+          "p83r10": [
+            755,
+            760,
+            770,
+            780,
+            790,
+            820,
+            830
+          ],
+          "p83r11": [
+            840,
+            850,
+            855,
+            860,
+            870,
+            880
+          ],
+          "p83r12": [
+            890,
+            900,
+            910
+          ],
+          "p83r13": [
+            920,
+            930,
+            940
+          ],
+          "p83r14": [
+            950,
+            960,
+            970,
+            1000,
+            1010
+          ],
+          "p84r01": [
+            1020,
+            1030,
+            1040
+          ],
+          "p84r02": [
+            1050,
+            1060,
+            1070
+          ],
+          "p84r03": [
+            1080,
+            1090,
+            1100,
+            1110
+          ],
+          "p84r04": [
+            1200,
+            1210,
+            1220,
+            1230,
+            1240,
+            1250
+          ],
+          "p84r05": [
+            1260,
+            1270,
+            1280,
+            1290
+          ],
+          "p84r06": [
+            1300,
+            1310,
+            1400,
+            1405,
+            1410,
+            1420,
+            1430
+          ],
+          "p84r07": [
+            1440,
+            1450,
+            1460
+          ],
+          "p84r08": [
+            1470,
+            1480,
+            1490,
+            1500,
+            1510
+          ],
+          "p84r09": [
+            1520,
+            1530,
+            1540,
+            1550,
+            1560
+          ],
+          "p84r10": [
+            1570,
+            1580,
+            1590,
+            1595,
+            1600,
+            1610,
+            1700
+          ],
+          "p84r11": [
+            1710,
+            1720,
+            1725,
+            1730,
+            1740
+          ],
+          "p84r12": [
+            1750,
+            1760,
+            1770,
+            1780,
+            1790
+          ],
+          "p84r13": [
+            1800,
+            1810,
+            1820,
+            1830
+          ],
+          "p84r14": [
+            1840,
+            1850,
+            1860,
+            1870,
+            1880,
+            1890
+          ],
+          "p85r01": [
+            1900,
+            1910,
+            1920,
+            1930,
+            1940,
+            1950,
+            1960
+          ],
+          "p85r02": [
+            1970,
+            1980,
+            1990,
+            2000
+          ],
+          "p85r03": [
+            2010,
+            2020,
+            2030,
+            2040,
+            2050,
+            2060
+          ],
+          "p85r04": [
+            2070,
+            2080,
+            2090,
+            2100
+          ],
+          "p85r05": [
+            2150,
+            2200,
+            2210,
+            2215,
+            2216,
+            2217,
+            2218,
+            2220
+          ],
+          "p85r06": [
+            2230,
+            2240,
+            2250,
+            2255,
+            10000,
+            10010
+          ],
+          "p85r07": [
+            10020
+          ],
+          "p85r08": [
+            10030,
+            10040
+          ],
+          "p85r09": [
+            10050,
+            10060
+          ],
+          "p85r10": [
+            10070,
+            10080
+          ],
+          "p85r11": [
+            10090,
+            10100
+          ],
+          "p85r12": [
+            10110,
+            10120
+          ],
+          "p85r13": [
+            10130,
+            10140
+          ],
+          "p85r14": [
+            10150,
+            10160
+          ],
+          "p86r01": [
+            10170,
+            10180
+          ],
+          "p86r02": [
+            10190,
+            10200
+          ],
+          "p86r03": [
+            10210,
+            10220
+          ],
+          "p86r04": [
+            10230
+          ],
+          "p86r05": [
+            10240,
+            10250
+          ],
+          "p86r06": [
+            10260,
+            10270
+          ],
+          "p86r07": [
+            10280,
+            10290
+          ],
+          "p86r08": [
+            10300,
+            10310
+          ],
+          "p86r09": [
+            10320,
+            10330
+          ],
+          "p86r10": [
+            10340,
+            10350
+          ],
+          "p86r11": [
+            10360,
+            10999
+          ],
+          "p86r12": [
+            11000,
+            11001
+          ],
+          "p86r13": [
+            11002,
+            11003,
+            11004
+          ],
+          "p86r14": [
+            11005,
+            11006,
+            11007,
+            11008
+          ],
+          "p86r15": [
+            11009,
+            11010,
+            11011,
+            11012,
+            11013
+          ]
+        },
+        "omitted_raw_rows": {
+          "p83r04": "430tail and440–490 omitted",
+          "p83r14": "Revised raw960tail and970/1000/1010 omitted",
+          "p86r15": "11012tail and11013 omitted"
+        },
+        "scope": "All numbered line identities and physical text/glyph rows source-compared; sprite literals retained as scan-linked markers, not byte transcription. Large11000–11005 drawings approximated by printed grid rows, exact spacing unknown. No execution or character-perfect certification."
+      },
+      "data_audit": {
+        "lines": {
+          "240": [
+            "4",
+            "5",
+            "0",
+            "10",
+            "5",
+            "1",
+            "22",
+            "5",
+            "1",
+            "28",
+            "5",
+            "1",
+            "4",
+            "8",
+            "0",
+            "10",
+            "8",
+            "1",
+            "22",
+            "8",
+            "0",
+            "28",
+            "8",
+            "1",
+            "4",
+            "11",
+            "1",
+            "10",
+            "11",
+            "3",
+            "16",
+            "11",
+            "0",
+            "22",
+            "11",
+            "1",
+            "10",
+            "14",
+            "1",
+            "16",
+            "14",
+            "2",
+            "28",
+            "14",
+            "0"
+          ],
+          "250": [
+            "10",
+            "5",
+            "1",
+            "16",
+            "5",
+            "2",
+            "22",
+            "5",
+            "1",
+            "4",
+            "8",
+            "1",
+            "10",
+            "8",
+            "0",
+            "16",
+            "8",
+            "1",
+            "22",
+            "8",
+            "1",
+            "10",
+            "11",
+            "0",
+            "16",
+            "11",
+            "0",
+            "22",
+            "11",
+            "0",
+            "28",
+            "11",
+            "3",
+            "4",
+            "14",
+            "1",
+            "10",
+            "14",
+            "1",
+            "22",
+            "14",
+            "1",
+            "28",
+            "14",
+            "0"
+          ]
+        },
+        "data_lines": 2,
+        "comma_delimited_fields": 90,
+        "graphic_data_line": 170,
+        "character_definitions": {
+          "10010": {
+            "code": "80",
+            "hex_fields": [
+              "1",
+              "2",
+              "3C",
+              "48",
+              "81",
+              "7D",
+              "5",
+              "5",
+              "5",
+              "4",
+              "4",
+              "4"
+            ],
+            "source_expression": "CHR$(&H1)+CHR$(&H2)+CHR$(&H3C)+CHR$(&H48)+CHR$(&H81)+CHR$(&H7D)+CHR$(&H5)+CHR$(&H5)+CHR$(&H5)+CHR$(&H4)+CHR$(&H4)+CHR$(&H4)"
+          },
+          "10020": {
+            "code": "81",
+            "hex_fields": [
+              "C0",
+              "20",
+              "A0",
+              "20",
+              "C0",
+              "0",
+              "0",
+              "0",
+              "C0",
+              "70",
+              "8",
+              "C"
+            ],
+            "source_expression": "CHR$(&HC0)+CHR$(&H20)+CHR$(&HA0)+CHR$(&H20)+CHR$(&HC0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&HC0)+CHR$(&H70)+CHR$(&H8)+CHR$(&HC)"
+          },
+          "10030": {
+            "code": "82",
+            "hex_fields": [
+              "E4",
+              "FF",
+              "FF",
+              "E2",
+              "1",
+              "1",
+              "2",
+              "2",
+              "2",
+              "2",
+              "1E",
+              "3F"
+            ],
+            "source_expression": "CHR$(&HE4)+CHR$(&HFF)+CHR$(&HFF)+CHR$(&HE2)+CHR$(&H1)+CHR$(&H1)+CHR$(&H2)+CHR$(&H2)+CHR$(&H2)+CHR$(&H2)+CHR$(&H1E)+CHR$(&H3F)"
+          },
+          "10040": {
+            "code": "83",
+            "hex_fields": [
+              "4",
+              "C2",
+              "C2",
+              "1",
+              "61",
+              "91",
+              "1",
+              "1",
+              "41",
+              "B1",
+              "8C",
+              "3"
+            ],
+            "source_expression": "CHR$(&H4)+CHR$(&HC2)+CHR$(&HC2)+CHR$(&H1)+CHR$(&H61)+CHR$(&H91)+CHR$(&H1)+CHR$(&H1)+CHR$(&H41)+CHR$(&HB1)+CHR$(&H8C)+CHR$(&H3)"
+          },
+          "10050": {
+            "code": "84",
+            "hex_fields": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "FC",
+              "FF"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&HFC)+CHR$(&HFF)"
+          },
+          "10060": {
+            "code": "85",
+            "hex_fields": [
+              "3",
+              "4",
+              "5",
+              "4",
+              "3",
+              "0",
+              "0",
+              "0",
+              "3",
+              "E",
+              "10",
+              "30"
+            ],
+            "source_expression": "CHR$(&H3)+CHR$(&H4)+CHR$(&H5)+CHR$(&H4)+CHR$(&H3)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H3)+CHR$(&HE)+CHR$(&H10)+CHR$(&H30)"
+          },
+          "10070": {
+            "code": "86",
+            "hex_fields": [
+              "80",
+              "40",
+              "3C",
+              "12",
+              "81",
+              "BE",
+              "A0",
+              "A0",
+              "A0",
+              "20",
+              "20",
+              "20"
+            ],
+            "source_expression": "CHR$(&H80)+CHR$(&H40)+CHR$(&H3C)+CHR$(&H12)+CHR$(&H81)+CHR$(&HBE)+CHR$(&HA0)+CHR$(&HA0)+CHR$(&HA0)+CHR$(&H20)+CHR$(&H20)+CHR$(&H20)"
+          },
+          "10080": {
+            "code": "87",
+            "hex_fields": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "3F",
+              "FF"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H3F)+CHR$(&HFF)"
+          },
+          "10090": {
+            "code": "88",
+            "hex_fields": [
+              "20",
+              "43",
+              "43",
+              "80",
+              "86",
+              "89",
+              "80",
+              "80",
+              "82",
+              "8D",
+              "31",
+              "C0"
+            ],
+            "source_expression": "CHR$(&H20)+CHR$(&H43)+CHR$(&H43)+CHR$(&H80)+CHR$(&H86)+CHR$(&H89)+CHR$(&H80)+CHR$(&H80)+CHR$(&H82)+CHR$(&H8D)+CHR$(&H31)+CHR$(&HC0)"
+          },
+          "10100": {
+            "code": "89",
+            "hex_fields": [
+              "27",
+              "FF",
+              "FF",
+              "47",
+              "80",
+              "80",
+              "40",
+              "40",
+              "40",
+              "40",
+              "78",
+              "FC"
+            ],
+            "source_expression": "CHR$(&H27)+CHR$(&HFF)+CHR$(&HFF)+CHR$(&H47)+CHR$(&H80)+CHR$(&H80)+CHR$(&H40)+CHR$(&H40)+CHR$(&H40)+CHR$(&H40)+CHR$(&H78)+CHR$(&HFC)"
+          },
+          "10110": {
+            "code": "8A",
+            "hex_fields": [
+              "F",
+              "3F",
+              "FF",
+              "FF",
+              "0",
+              "EE",
+              "3B",
+              "0",
+              "FF",
+              "FF",
+              "3F",
+              "F"
+            ],
+            "source_expression": "CHR$(&HF)+CHR$(&H3F)+CHR$(&HFF)+CHR$(&HFF)+CHR$(&H0)+CHR$(&HEE)+CHR$(&H3B)+CHR$(&H0)+CHR$(&HFF)+CHR$(&HFF)+CHR$(&H3F)+CHR$(&HF)"
+          },
+          "10120": {
+            "code": "8B",
+            "hex_fields": [
+              "F0",
+              "FC",
+              "FF",
+              "FF",
+              "0",
+              "EE",
+              "BB",
+              "0",
+              "FF",
+              "FF",
+              "FC",
+              "F0"
+            ],
+            "source_expression": "CHR$(&HF0)+CHR$(&HFC)+CHR$(&HFF)+CHR$(&HFF)+CHR$(&H0)+CHR$(&HEE)+CHR$(&HBB)+CHR$(&H0)+CHR$(&HFF)+CHR$(&HFF)+CHR$(&HFC)+CHR$(&HF0)"
+          },
+          "10130": {
+            "code": "8C",
+            "hex_fields": [
+              "0",
+              "0",
+              "0",
+              "3F",
+              "21",
+              "21",
+              "1F",
+              "13",
+              "16",
+              "E",
+              "8",
+              "F"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H3F)+CHR$(&H21)+CHR$(&H21)+CHR$(&H1F)+CHR$(&H13)+CHR$(&H16)+CHR$(&HE)+CHR$(&H8)+CHR$(&HF)"
+          },
+          "10140": {
+            "code": "8D",
+            "hex_fields": [
+              "60",
+              "60",
+              "C0",
+              "F8",
+              "88",
+              "88",
+              "F0",
+              "10",
+              "10",
+              "20",
+              "20",
+              "E0"
+            ],
+            "source_expression": "CHR$(&H60)+CHR$(&H60)+CHR$(&HC0)+CHR$(&HF8)+CHR$(&H88)+CHR$(&H88)+CHR$(&HF0)+CHR$(&H10)+CHR$(&H10)+CHR$(&H20)+CHR$(&H20)+CHR$(&HE0)"
+          },
+          "10150": {
+            "code": "8E",
+            "hex_fields": [
+              "4",
+              "2",
+              "2",
+              "7",
+              "F",
+              "18",
+              "30",
+              "20",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&H4)+CHR$(&H2)+CHR$(&H2)+CHR$(&H7)+CHR$(&HF)+CHR$(&H18)+CHR$(&H30)+CHR$(&H20)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10160": {
+            "code": "8F",
+            "hex_fields": [
+              "4",
+              "2",
+              "1",
+              "C0",
+              "C0",
+              "80",
+              "40",
+              "21",
+              "12",
+              "A",
+              "4",
+              "4"
+            ],
+            "source_expression": "CHR$(&H4)+CHR$(&H2)+CHR$(&H1)+CHR$(&HC0)+CHR$(&HC0)+CHR$(&H80)+CHR$(&H40)+CHR$(&H21)+CHR$(&H12)+CHR$(&HA)+CHR$(&H4)+CHR$(&H4)"
+          },
+          "10170": {
+            "code": "90",
+            "hex_fields": [
+              "0",
+              "0",
+              "0",
+              "80",
+              "40",
+              "20",
+              "10",
+              "8",
+              "8",
+              "4",
+              "2",
+              "81"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H80)+CHR$(&H40)+CHR$(&H20)+CHR$(&H10)+CHR$(&H8)+CHR$(&H8)+CHR$(&H4)+CHR$(&H2)+CHR$(&H81)"
+          },
+          "10180": {
+            "code": "91",
+            "hex_fields": [
+              "8",
+              "8",
+              "4",
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&H8)+CHR$(&H8)+CHR$(&H4)+CHR$(&H2)+CHR$(&H1)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10190": {
+            "code": "92",
+            "hex_fields": [
+              "9C",
+              "92",
+              "91",
+              "48",
+              "A4",
+              "52",
+              "3A",
+              "35",
+              "33",
+              "33",
+              "33",
+              "83"
+            ],
+            "source_expression": "CHR$(&H9C)+CHR$(&H92)+CHR$(&H91)+CHR$(&H48)+CHR$(&HA4)+CHR$(&H52)+CHR$(&H3A)+CHR$(&H35)+CHR$(&H33)+CHR$(&H33)+CHR$(&H33)+CHR$(&H83)"
+          },
+          "10200": {
+            "code": "93",
+            "hex_fields": [
+              "C0",
+              "20",
+              "98",
+              "66",
+              "1F",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&HC0)+CHR$(&H20)+CHR$(&H98)+CHR$(&H66)+CHR$(&H1F)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10210": {
+            "code": "94",
+            "hex_fields": [
+              "20",
+              "40",
+              "40",
+              "E0",
+              "F0",
+              "18",
+              "C",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&H20)+CHR$(&H40)+CHR$(&H40)+CHR$(&HE0).+CHR$(&HF0)+CHR$(&H18)+CHR$(&HC)+CHR$(&H4)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10220": {
+            "code": "95",
+            "hex_fields": [
+              "20",
+              "40",
+              "80",
+              "3",
+              "3",
+              "1",
+              "2",
+              "84",
+              "48",
+              "50",
+              "20",
+              "20"
+            ],
+            "source_expression": "CHR$(&H20)+CHR$(&H40)+CHR$(&H80)+CHR$(&H3)+CHR$(&H3)+CHR$(&H1)+CHR$(&H2)+CHR$(&H84)+CHR$(&H48)+CHR$(&H50)+CHR$(&H20)+CHR$(&H20)"
+          },
+          "10230": {
+            "code": "96",
+            "hex_fields": [
+              "0",
+              "0",
+              "0",
+              "1",
+              "2",
+              "4",
+              "8",
+              "10",
+              "10",
+              "20",
+              "40",
+              "81"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H1)+CHR$(&H2)+CHR$(&H4)+CHR$(&H8)+CHR$(&H10)+CHR$(&H10)+CHR$(&H20)+CHR$(&H40)+CHR$(&H81)"
+          },
+          "10240": {
+            "code": "97",
+            "hex_fields": [
+              "10",
+              "10",
+              "20",
+              "40",
+              "80",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&H10)+CHR$(&H10)+CHR$(&H20)+CHR$(&H40)+CHR$(&H80)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10250": {
+            "code": "98",
+            "hex_fields": [
+              "39",
+              "49",
+              "89",
+              "12",
+              "25",
+              "4A",
+              "5C",
+              "AC",
+              "CC",
+              "CC",
+              "CC",
+              "CC"
+            ],
+            "source_expression": "CHR$(&H39)+CHR$(&H49)+CHR$(&H89)+CHR$(&H12)+CHR$(&H25)+CHR$(&H4A)+CHR$(&H5C)+CHR$(&HAC)+CHR$(&HCC)+CHR$(&HCC)+CHR$(&HCC)+CHR$(&HCC)"
+          },
+          "10260": {
+            "code": "99",
+            "hex_fields": [
+              "3",
+              "4",
+              "19",
+              "66",
+              "F8",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&H3)+CHR$(&H4)+CHR$(&H19)+CHR$(&H66)+CHR$(&HF8)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10270": {
+            "code": "9A",
+            "hex_fields": [
+              "0",
+              "1",
+              "2",
+              "4",
+              "5",
+              "3",
+              "0",
+              "0",
+              "1",
+              "3",
+              "7",
+              "3"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H1)+CHR$(&H2)+CHR$(&H4)+CHR$(&H5)+CHR$(&H3)+CHR$(&H0)+CHR$(&H0)+CHR$(&H1)+CHR$(&H3)+CHR$(&H7)+CHR$(&H3)"
+          },
+          "10280": {
+            "code": "9B",
+            "hex_fields": [
+              "E0",
+              "50",
+              "88",
+              "28",
+              "48",
+              "F0",
+              "C0",
+              "C0",
+              "C0",
+              "80",
+              "80",
+              "0"
+            ],
+            "source_expression": "CHR$(&HE0)+CHR$(&H50)+CHR$(&H88)+CHR$(&H28)+CHR$(&H48)+CHR$(&HF0)+CHR$(&HC0)+CHR$(&HC0)+CHR$(&HC0)+CHR$(&H80)+CHR$(&H80)+CHR$(&H0)"
+          },
+          "10290": {
+            "code": "9C",
+            "hex_fields": [
+              "0",
+              "0",
+              "0",
+              "1",
+              "2",
+              "4",
+              "8",
+              "10",
+              "20",
+              "40",
+              "80",
+              "FF"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H1)+CHR$(&H2)+CHR$(&H4)+CHR$(&H8)+CHR$(&H10)+CHR$(&H20)+CHR$(&H40)+CHR$(&H80)+CHR$(&HFF)"
+          },
+          "10300": {
+            "code": "9D",
+            "hex_fields": [
+              "FF",
+              "80",
+              "40",
+              "20",
+              "10",
+              "8",
+              "4",
+              "2",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&HFF)+CHR$(&H80)+CHR$(&H40)+CHR$(&H20)+CHR$(&H10)+CHR$(&H8)+CHR$(&H4)+CHR$(&H2)+CHR$(&H1)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10310": {
+            "code": "9E",
+            "hex_fields": [
+              "40",
+              "80",
+              "80",
+              "80",
+              "80",
+              "40",
+              "40",
+              "20",
+              "20",
+              "14",
+              "16",
+              "FF"
+            ],
+            "source_expression": "CHR$(&H40)+CHR$(&H80)+CHR$(&H80)+CHR$(&H80)+CHR$(&H80)+CHR$(&H40)+CHR$(&H40)+CHR$(&H20)+CHR$(&H20)+CHR$(&H14)+CHR$(&H16)+CHR$(&HFF)"
+          },
+          "10320": {
+            "code": "9F",
+            "hex_fields": [
+              "FE",
+              "14",
+              "10",
+              "20",
+              "20",
+              "40",
+              "40",
+              "80",
+              "80",
+              "80",
+              "80",
+              "40"
+            ],
+            "source_expression": "CHR$(&HFE)+CHR$(&H14)+CHR$(&H10)+CHR$(&H20)+CHR$(&H20)+CHR$(&H40)+CHR$(&H40)+CHR$(&H80)+CHR$(&H80)+CHR$(&H80)+CHR$(&H80)+CHR$(&H40)"
+          },
+          "10330": {
+            "code": "A0",
+            "hex_fields": [
+              "FF",
+              "55",
+              "AA",
+              "55",
+              "FF",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&HFF)+CHR$(&H55)+CHR$(&HAA)+CHR$(&H55)+CHR$(&HFF)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10340": {
+            "code": "A1",
+            "hex_fields": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "FF",
+              "0",
+              "0"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&HFF)+CHR$(&H0)+CHR$(&H0)"
+          },
+          "10350": {
+            "code": "A2",
+            "hex_fields": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "4",
+              "6",
+              "FF",
+              "6",
+              "4"
+            ],
+            "source_expression": "CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H0)+CHR$(&H4)+CHR$(&H6)+CHR$(&HFF)+CHR$(&H6)+CHR$(&H4)"
+          }
+        },
+        "character_definition_lines": 35,
+        "hex_character_fields": 420,
+        "scope": "Two source-compared45-field numeric DATA rows plus35 definitions with12 literal hex fields each. Graphic DATA170 is preserved as markers and text, not counted as numeric fields. Counts do not certify bytes or execution; original punctuation anomalies retained."
+      },
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Tesseract clear prose/byline; Qwen definitions, program notes and all BASIC. Graphic code defaults to Qwen with bounded fallback if repetition occurs: batch19 Tesseract graphic exception required extensive surrounding-code reconstruction. Preserve source images and unresolved glyph markers."
+      }
     }
   ],
   "assemblies": [
@@ -5747,9 +7104,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 81,
-      "planned_primary_engine": "qwen"
+      "batch": "20",
+      "engine": "mixed",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-20/kangaroo-spc1000/article.json",
+        "sha256": "82ae07fb7022300a63daeb83e03c7bd57db28e3254c5dd979f112b79b8f87e82",
+        "bytes": 135901
+      }
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0013",
@@ -5830,7 +7193,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 88
+      "pdf_page_candidate": 88,
+      "planned_primary_engine": "qwen"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0015",
@@ -7161,12 +8525,17 @@
       "path": "docs/ocr-july-comparison-17.json",
       "sha256": "67208f87e2c3a84e0530b7db50ae76818febcb7cfbcda7bf719746d222565a6b",
       "bytes": 8568
+    },
+    {
+      "path": "docs/ocr-july-comparison-18.json",
+      "sha256": "498c128212ea37123e11b38b885d6e6a27040eabb39c1f0a66c37eec9f5ded68",
+      "bytes": 8937
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "63a78ba00f7054ed8d79c1df0a21478b5bdcfbc84ef096d1ab24a0bf218b0090",
-    "bytes": 72042
+    "sha256": "3bf4430fe843fe0dbbecfd9d608e9ba52ee4b2453d5e04a6d643ecc5c40567ad",
+    "bytes": 75573
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -7175,31 +8544,31 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0012",
-      "title": "캥거루",
+      "toc_entry_id": "maso-1984-07-toc-0014",
+      "title": "SPC-1000 자동실행 테이프의 제작",
       "candidate_pdf_pages": [
-        81,
-        82,
-        83,
-        84,
-        85,
-        86
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
       ],
       "printed_pages": [
-        77,
-        78,
-        79,
-        80,
-        81,
-        82
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
       ],
       "engine": "qwen",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Opening81 visually confirmed: SPC-1000 game with clear prose, definitions and screen image. Inspect82–87; Tesseract clear prose, Qwen technical/code crops, preserve graphics. Reassess glyph-heavy exception because batch19 Tesseract severely corrupted adjacent BASIC.",
-      "extent_status": "81 start confirmed;87 is previously restored 운전 연습. Verify intervening pages and boundary before mapping."
+      "routing_reason": "Inspect88–94. Tentative Tesseract for ordinary explanatory prose, Qwen for technical notation/code/tables; preserve diagrams. Assign exact crops after full extent/layout inspection.",
+      "extent_status": "Catalog candidates only;87 restored 운전 연습 and94 next titled article candidate."
     }
   ],
-  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Batch14 FC-100 game uses Qwen with one Tesseract fallback and explicit graphic placeholders; a silent nine-line omission was source-corrected. Batch15 completes59–61 with planned Tesseract prose and Qwen definitions/code; two Qwen partial responses were source-corrected. Batch16 completes62–67 with planned5 Tesseract/34 Qwen crops; interrupted run resumed without repeating completed inference. Original Tesseract timers and interrupted inference cost unknown. Source review restored ten wholly omitted lines plus two partial tails. Batch17 completes70–72 with planned5 Tesseract/39 Qwen crops,127 logical BASIC rows and231 physical rows. A single-digit continuation omission was restored; faint punctuation and source anomalies remain flagged. No retry or fallback; per-crop timers persisted. Batch18 completes73–77 with141 BASIC lines and36 hex rows; source700 remains explicitly unreadable in part. Two143 interruptions retained with successful cache reuse and bounded raw elapsed; silent five-line omission restored. Batch19 completes78–80 with87 BASIC lines and84 hexadecimal DATA fields. Planned17 Tesseract/25 Qwen crops completed without retry; Tesseract graphic-heavy code needed extensive repair. Glyph runs remain scan-linked markers, one faint2200 character unreadable. This preassigned exception is not established as efficient. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
+  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Batch14 FC-100 game uses Qwen with one Tesseract fallback and explicit graphic placeholders; a silent nine-line omission was source-corrected. Batch15 completes59–61 with planned Tesseract prose and Qwen definitions/code; two Qwen partial responses were source-corrected. Batch16 completes62–67 with planned5 Tesseract/34 Qwen crops; interrupted run resumed without repeating completed inference. Original Tesseract timers and interrupted inference cost unknown. Source review restored ten wholly omitted lines plus two partial tails. Batch17 completes70–72 with planned5 Tesseract/39 Qwen crops,127 logical BASIC rows and231 physical rows. A single-digit continuation omission was restored; faint punctuation and source anomalies remain flagged. No retry or fallback; per-crop timers persisted. Batch18 completes73–77 with141 BASIC lines and36 hex rows; source700 remains explicitly unreadable in part. Two143 interruptions retained with successful cache reuse and bounded raw elapsed; silent five-line omission restored. Batch19 completes78–80 with87 BASIC lines and84 hexadecimal DATA fields. Planned17 Tesseract/25 Qwen crops completed without retry; Tesseract graphic-heavy code needed extensive repair. Glyph runs remain scan-linked markers, one faint2200 character unreadable. This preassigned exception is not established as efficient. Batch20 completes81–86 with246 BASIC lines,90 numeric DATA fields and420 CHR$ hex fields. Planned4 Tesseract/74 Qwen selected crops; seven changed page83 crops rerun after widened boundaries, original74+new7 Qwen costs retained. Sparse graphic literals did not loop, but multiple lines/repeated CHR$ terms were silently omitted and source-restored. Graphic encoding remains unresolved. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

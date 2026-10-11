@@ -1359,3 +1359,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1,233 BASIC lines,1,107 hex rows,84 assembly rows,274 flags. Next inspect 캥거루
   candidate81–86 and boundary87. Full issue/metrics/reading room remain outstanding.
   Homepage edit preserved; final report/commit usage carries forward.
+
+
+### July 캥거루 restored, 2026-10-11
+
+- Batch20 completes81–86:79 regions,78 text crops,1 screen,246 BASIC lines/556
+  physical text/glyph rows,90 numeric DATA fields,420 CHR$ hex fields,55 flags.
+- Planned4 Tesseract/74 Qwen crops. Seven page83 right-column crops widened after
+  detecting trimmed numerals; original evidence archived and only those7 rerun.
+  Reused67 Qwen/4 Tesseract results; no repetition loop or process interruption.
+- Worker elapsed349.27s+43.30s=392.56s; all81 Qwen calls354.51s and4 Tesseract
+  calls1.02s. Local53,453 tokens across both crop versions. No discarded attempt cost.
+- Correction/source/crop-repair/helper window739.79s overlaps raw371.43s.76,443
+  uncached input,2,871,936 cached input,22,452 output tokens; zero cache-write.
+  Mixed observation and larger listing cannot establish causal engine savings.
+- Source checks restored omitted BASIC lines and repeated CHR$ terms. Graphic
+  literals remain scan-linked markers; original spelling, apparent syntax defects,
+  faint numeric readings and exact padding require human review. No execution.
+- Four fixed samples favor Qwen, but exclude major omissions/graphic cases.
+  Export integrity, listing/review byte ranges and byte-identical rebuild pass.
+- July:15 complete,21 untouched;78 pages,1,056 regions,995 text crops,61 images,
+  1,479 BASIC lines,1,107 hex rows,84 assembly rows,329 flags. Next inspect automatic
+  SPC-1000 tape article88–93/boundary94. Full issue/metrics/reading room remain.
+  Homepage edit preserved; final report/commit usage carries forward.
