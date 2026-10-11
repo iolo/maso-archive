@@ -2031,3 +2031,17 @@ commit code/documentation. Do not count a partial opening as a complete article.
   paid-token claim. Export/rebuild/UTF-8/continuation checks pass,human review pending.
 - July34complete,onepartial,oneuntouched. Continue history249–261 and adindex262;
   assemble history,consolidate metrics,then build the authorized reading room.
+
+### July Atari-history section restored, 2026-10-12
+
+- Restored249–252:103text/four images,29flags,seven joins.253 starts Commodore.
+  History243–252 now restored;253–261 and final assembly remain.
+- Fixed97Q/6T after rejected0.177s prose probe. Original completed normally;
+  eight left-clipped Q crops widened,89Q/6T reused. Revised run also exit0.
+- Raw283.277s,exact41,193localtokens includes eight superseded responses.
+  Correction432.584s overlaps283.277s. Paid58,480uncached/2,328,192cached input;
+  13,154output includes2,867reasoning. No causal paid-token saving claim.
+- Comparison48: three Qwen wins,one tie; four original sample images unchanged.
+  Export/rebuild/UTF-8/joins pass.34complete,onepartial,oneuntouched,50checkpoints.
+- Continue253–261/adindex262,assemble history,consolidate metrics,build reading room.
+  Check both side edges against sloping source columns before further raw runs.

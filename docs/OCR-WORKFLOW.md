@@ -758,3 +758,17 @@ main narrative,246/247 sidebar and248 sidebar were joined separately, with the
 sidebars placed after the complete section for reading. Preserve historical
 spellings and claims; semantic correction repairs OCR without silently rewriting
 the source. All original illustrations remain linked for human review.
+
+### July batch50: inspect sloping column edges before inference
+
+Blank horizontal seams do not ensure complete crops. On PDF252 the text columns
+sloped left, clipping lower prose while upper lines fit; two pull quotes also
+extended beyond their mapped left edges. Before launching OCR, inspect both side
+edges across each column at full resolution and check edge ink as a warning.
+Include the entire glyph rather than trusting successful OCR or plausible prose.
+
+If found during a live run, keep its map immutable. After confirmed completion,
+archive original evidence, revise only affected crops and reuse unchanged results
+with verified hashes. Batch50 repeated eight changed Qwen crops and preserved their
+original costs. None of its four fixed comparison images changed. Shape/content
+checks and human review remain necessary for either OCR engine.

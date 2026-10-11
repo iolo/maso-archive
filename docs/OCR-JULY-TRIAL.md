@@ -3196,3 +3196,48 @@ Export integrity, byte-identical rebuild, UTF-8 review ranges and cross-column/p
 joins pass. July now has34 complete bodies,one partial and one untouched across
 49 checkpoints. Next: remaining history249–261,advertising index262,full metrics,
 then the authorized reading-room preview. Reporting/commit usage carries forward.
+
+## Batch50: industry-history Atari section, PDF249–252
+
+This segment adds four pages to the history article:107 regions,103 text crops,
+four original illustrations and29 source-linked review flags. Seven explicit joins
+repair column/page continuations while keeping three pull quotes separate.
+PDF253 starts Commodore. History243–252 is now restored across batches49/50;
+253–261 remains, followed by full article assembly. Human acceptance is pending.
+
+Routing was fixed at97Q/6T after a rejected0.177s ordinary-prose Tesseract probe.
+The original worker completed normally. Enlarged review found left-edge clipping
+in two pull quotes and six lower prose crops where page skew moved text outside
+the mapped rectangle. Eight Qwen crops were widened after confirmed completion;
+89Q/6T unchanged results were reused. The second worker also completed normally.
+Both original and revised results/costs are retained. No fallback or interrupted
+request occurred, and all four preselected comparison images remained unchanged.
+
+| Measurement | Batch50 |
+| --- | ---: |
+| Raw worker lifespans, including startup/render/export | 283.277s |
+| Qwen recognition, including eight superseded responses | 243.347s |
+| Tesseract primary recognition | 0.477s |
+| Exact local Qwen tokens | 41,193 |
+| Correction window | 432.584s |
+| Raw/correction overlap | 283.277s |
+| Paid uncached input in correction window | 58,480 |
+| Paid cached input in correction window | 2,328,192 |
+| Paid output, including reasoning | 13,154 |
+| Reasoning, already included in output | 2,867 |
+
+Raw time excludes the inter-worker source-review gap. Correction includes all103
+source crops,21 source groups, eight repairs/rechecks, names/quantities, joins and
+helper preparation; export/evaluation are separate. The rejected probe is counted
+as preparation and reused once as an identical-image alternate. Do not double-add
+overlap or infer per-engine paid savings from this mixed correction window.
+
+Comparison48 compact CER is Qwen1.54%/Tesseract12.31%,0%/1.67%,0%/0%,and
+0%/10.45%: three Qwen wins and one tie. References were sealed before alternates
+and are unblinded assistant source readings, not human gold. Printed historical
+names, dates, software spellings and anomalous wording remain for human review.
+
+Export integrity, byte-identical rebuild, UTF-8 review ranges and explicit joins
+pass. July remains34 complete bodies,one partial and one untouched,now across50
+checkpoints. Next: history253–261,advertising index262,assembly,consolidated metrics,
+and the authorized reading-room preview. Reporting/commit usage carries forward.

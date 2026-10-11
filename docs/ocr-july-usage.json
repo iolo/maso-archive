@@ -5154,6 +5154,78 @@
         "total_tokens": 142162,
         "uncached_nonwrite_input_tokens": 1237
       }
+    },
+    {
+      "id": "preparation-50",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-11T19:39:03.949601+00:00",
+      "end": "2026-10-11T19:40:08.804871+00:00",
+      "elapsed_seconds": 64.85527014732361,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 482894,
+        "cached_input_tokens": 478720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1307,
+        "reasoning_output_tokens": 164,
+        "total_tokens": 484201,
+        "uncached_nonwrite_input_tokens": 4174
+      }
+    },
+    {
+      "id": "correction-50",
+      "stage": "correction",
+      "engine": "mixed",
+      "start": "2026-10-11T19:40:08.820510+00:00",
+      "end": "2026-10-11T19:47:21.404345+00:00",
+      "elapsed_seconds": 432.5838351249695,
+      "observed_responses": 12,
+      "tokens": {
+        "input_tokens": 2386672,
+        "cached_input_tokens": 2328192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13154,
+        "reasoning_output_tokens": 2867,
+        "total_tokens": 2399826,
+        "uncached_nonwrite_input_tokens": 58480
+      }
+    },
+    {
+      "id": "export-50",
+      "stage": "export",
+      "engine": "mixed",
+      "start": "2026-10-11T19:47:21.421473+00:00",
+      "end": "2026-10-11T19:47:53.923062+00:00",
+      "elapsed_seconds": 32.50158905982971,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 218158,
+        "cached_input_tokens": 217472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1205,
+        "reasoning_output_tokens": 88,
+        "total_tokens": 219363,
+        "uncached_nonwrite_input_tokens": 686
+      }
+    },
+    {
+      "id": "evaluation-50",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-11T19:47:53.940192+00:00",
+      "end": "2026-10-11T19:48:08.554144+00:00",
+      "elapsed_seconds": 14.613951921463013,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 219493,
+        "cached_input_tokens": 217984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 346,
+        "reasoning_output_tokens": 19,
+        "total_tokens": 219839,
+        "uncached_nonwrite_input_tokens": 1509
+      }
     }
   ],
   "money_cost": null,
@@ -5161,36 +5233,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T19:36:17.244365+00:00",
-    "elapsed_seconds": 145140.23036503792,
-    "observed_responses": 1792,
+    "end": "2026-10-11T19:48:08.554144+00:00",
+    "elapsed_seconds": 145851.54014396667,
+    "observed_responses": 1815,
     "tokens": {
-      "input_tokens": 241225522,
-      "cached_input_tokens": 235771264,
+      "input_tokens": 245429039,
+      "cached_input_tokens": 239891840,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1317490,
-      "reasoning_output_tokens": 313014,
-      "total_tokens": 242543012,
-      "uncached_nonwrite_input_tokens": 5454258
+      "output_tokens": 1338242,
+      "reasoning_output_tokens": 316653,
+      "total_tokens": 246767281,
+      "uncached_nonwrite_input_tokens": 5537199
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T19:36:17.244365+00:00",
-    "elapsed_seconds": 145140.23036503792,
-    "observed_responses": 282,
+    "end": "2026-10-11T19:48:08.554144+00:00",
+    "elapsed_seconds": 145851.54014396667,
+    "observed_responses": 288,
     "tokens": {
-      "input_tokens": 36065692,
-      "cached_input_tokens": 35373824,
+      "input_tokens": 36961992,
+      "cached_input_tokens": 36252032,
       "cache_write_input_tokens": 0,
-      "output_tokens": 123442,
-      "reasoning_output_tokens": 19204,
-      "total_tokens": 36189134,
-      "uncached_nonwrite_input_tokens": 691868
+      "output_tokens": 128182,
+      "reasoning_output_tokens": 19705,
+      "total_tokens": 37090174,
+      "uncached_nonwrite_input_tokens": 709960
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction49 covers132 source crops and27 source groups across243–248, two boxed sidebars, four illustrations, historical names/quantities and explicit column/page joins;398.599s overlaps332.609s raw. Source checks and helper preparation included; export/evaluation separate. Fixed124Q8T after rejected0.162s prose probe. Worker86853 completed exit0, no retry/fallback/interruption or crop change. Raw332.609s; exact50,999local Qwen tokens. Rejected probe preparation-only reused once as identical-image T alternate. Comparison47: Qwen wins3 samples, Tesseract1; unblinded assistant references, not human gold. No causal paid-token attribution. Older accounting limitations remain per-checkpoint; between-window usage retained and human review cost unknown."
+  "limitation": "Correction50 covers103 source text crops,21 source groups, four-page Atari section249–252, eight source-crop repairs/rechecks, names/quantities and explicit prose joins;432.584s overlaps283.277s raw. Includes helper work, export/evaluation separate. Fixed97Q6T after rejected0.177s prose probe. Both workers completed normally; eight Qwen crops widened,89Q6T unchanged results reused, original costs retained. Raw283.277s excludes inter-worker review gap. Exact41193localtokens includes8supersededQresponses. Four original comparison PNGs unchanged, Qwen wins3/ties1. References are unblinded assistant source readings, not human gold. No causal paid-token attribution. Older accounting limitations remain per-checkpoint; between-window usage retained and human review cost unknown."
 }
