@@ -1566,3 +1566,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1,932 text,95 images,563 flags, zero human acceptances. Next Apple FORTRAN137.
   Final issue metrics/reading room outstanding; homepage edit preserved. Final
   reporting/commit usage carries forward.
+
+
+### July Apple FORTRAN complete, 2026-10-11
+
+- Full137–142 restored:123 regions,109 text crops,14 images,73 FORTRAN source
+  rows/115 physical listing rows,80 numeric cells and31 flags. Next Information
+  Radar143–157; inspect opening143–147. Review Salon160–162 already restored.
+- Two bounded Tesseract probes0.629s informed unchanged94Qwen/15Tesseract route:
+  Qwen handwritten/compiler code, English Tesseract numeric output. All numbers
+  source-checked; no inferred sorting/execution. Source COLUMMN and original
+  technical/typographical errors retained; faint screen3 explicitly unresolved.
+- Exit143 interrupted one request after70 complete Qwen crops; reused all70,
+  no completed inference repeated. Raw232.60–355.95s broad bound, not a clean
+  speed sample. Recognition200.65s/1.51s;38,558 local completed-response tokens
+  are a lower bound because interrupted response usage was not captured.
+- Correction515.16s overlaps215.62–338.97s of bounded raw time;53,873 uncached/
+  1,621,888 cached input and14,764 output. Recovery/helper/content confounding
+  remains. Four comparison27 crops favor Qwen; no causal paid-cost conclusion.
+- Export/review/listing integrity, explicit row/cell counts and byte-identical
+  rebuild pass. July22 complete,14 untouched,no partials,zero human acceptances;
+  125 unique pages,2,150 regions,2,041 text,109 images,594 flags. Final issue
+  metrics/reading room outstanding; homepage edit preserved. Final report/commit
+  usage carries forward.

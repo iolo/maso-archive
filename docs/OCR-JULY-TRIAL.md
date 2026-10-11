@@ -101,6 +101,12 @@ a group of ruled tables to Qwen, even when the values are simple. Preserve faile
 responses and record any route change; the observed failure does not identify its
 cause or prove Tesseract more economical after correction. Non-ruled BASIC DATA
 and formula samples still favor Qwen in this checkpoint.
+Batch29 exercised that probe rule: compiler identifiers/punctuation were badly
+corrupted by Tesseract, so the compiler group used Qwen; two ruled numeric-output
+tables used English Tesseract after a usable probe. Check every number regardless
+of engine. Qwen won the fixed numeric sample too, so this route remains a cost
+hypothesis, not an accuracy win. Compiler line counters, offsets and statements
+need explicit row association; Qwen separated them despite legible characters.
 For repeated numeric/CHR$ expressions, check every printed term as well as row
 coverage: batch20 Qwen shortened many repetitions while returning successful
 responses. Use field counts as an audit, never as permission to invent missing
@@ -1845,3 +1851,71 @@ Cumulative:119 source pages,2,027 regions,1,932 text crops,95 images,1,676 BASIC
 lines,1,120 hex rows,196 assembly/example rows,29 Logo rows and563 flags.
 Next inspect Apple FORTRAN137 onward; its ending is unverified. Full-issue
 restoration, final metrics and reading-room build remain outstanding.
+
+
+### Apple FORTRAN — batch29, 2026-10-11
+
+Restored PDF137–142/printed133–138 completely:123 regions,109 text crops,
+14 original images,73 FORTRAN source rows and115 physical listing/menu/compiler
+rows across13 groups. The two output tables contain80 numeric cells;31 review
+flags remain.143 starts Information Radar, which continues through157.
+158–159 are advertisements;160–162 Review Salon was already restored.
+
+Two bounded English Tesseract preparation probes took0.629s total. The compiler
+probe corrupted identifiers, digits and punctuation, so handwritten and compiler
+listings used Qwen. The numeric-output probe retained usable row structure, so
+those two tables used Tesseract with an explicit English override. Clear intro/
+conclusion and captions also used Tesseract: final94Qwen/15Tesseract crops.
+Probe crops differ from primary crops; their evidence and extra preparation cost
+are retained separately. No engine assignment changed after primary inference.
+
+The first worker exited143 (SIGTERM), with no recorded cause, after70 completed
+Qwen crops. Those immutable stages were reused; one interrupted request was
+archived and retried. No completed inference was repeated. Raw elapsed is bounded
+232.60–355.95s, with a broad upper bound that includes interruption investigation;
+exclude it from clean speed comparisons. Successful recognition was
+Qwen200.65s/Tesseract1.51s. Completed Qwen responses account for38,558 local tokens
+(33,510 prompt/5,048 completion), a lower bound: the interrupted response was not
+captured. Its server log reports0.450s compute,207 evaluated prompt tokens and
+8 generated tokens; this is not complete API prompt/cache accounting.
+
+Correction/source/helper work took515.16s and includes interruption recovery.
+Bounded raw overlap is215.62–338.97s; do not add overlapping stages. Observed paid
+correction usage:53,873 uncached input,1,621,888 cached input and14,764 output
+including1,819 reasoning; zero cache-write input. Mapping, probes, alternate
+comparison, export and reporting remain separate. The compiler/handwriting work
+and interruption prevent a causal claim about per-engine paid cost.
+
+Qwen detached compiler line counters/offsets from statements and normalized
+printed COLUMMN to COLUMN. Source checks restored both, along with handwritten
+slashed-zero/I/slash readings. The source SYSIEM, CTRA-A, EXCUTE, SW=9 and the
+intentional missing continuation marker in the error example remain unchanged.
+Faint screen3 has an explicit unreadable fragment; its caption and several screen
+glyphs remain provisional. Compiler source counters are indexed as unnumbered
+printout evidence, not BASIC line numbers. All80 numeric cells were read from
+the scan; output values were not reconstructed by executing or sorting the code.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p137r06 — ordinary introductory prose | 0.00% | 2.65% |
+| p140r04 — handwritten FORTRAN | 0.00% | 36.11% |
+| p142r03 — compiler source/offsets | 11.60% | 23.70% |
+| p142r09 — sorted numeric output | 2.53% | 10.13% |
+
+[Comparison27](ocr-july-comparison-27.json) uses preselected identical crops and
+unblinded assistant references sealed before alternates. Both Tesseract-primary
+samples received bounded512-token Qwen alternates and completed normally.
+Whitespace, handwritten glyph conventions and printed divider representation
+limit CER interpretation. Qwen's compiler score also reflects character errors;
+compact CER does not validate row associations or executable code. These samples
+support better Qwen raw accuracy, not a demonstrated paid-cost advantage for the
+chosen routing or either engine.
+
+Complete coverage, source-linked UTF-8 review/listing ranges,73 source-row counts,
+80 numeric-cell counts, export integrity and byte-identical rebuild all pass.
+July now has22 complete bodies, no partial bodies,14 untouched and zero human
+acceptances. Cumulative:125 unique source pages,2,150 regions,2,041 text crops,
+109 images,1,676 BASIC lines,1,120 hex rows,196 assembly/example rows,29 Logo rows,
+73 FORTRAN source rows and594 review flags. Next inspect Information Radar143–147
+as an opening batch of its143–157 extent. Final issue metrics and reading-room
+build remain outstanding.

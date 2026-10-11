@@ -408,10 +408,11 @@ remaining after local OCR.
 The maintainer selected July1984 for the next trial. See [the trial plan and
 measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
-Eighteen complete article bodies, including the assembled music-card hardware/software/hex
-article,18-page Z-80 feature,8-page Apple sound article, three FC-100 games, the Apple 위기일발/화성인 디거 games and SPC-1000 보트 탐험/캥거루, automatic tape article, 로고강좌 and 샤를의 법칙, are recorded in
-[July progress](ocr-july-progress.json). Eighteen paginated bodies remain;
-six unpaginated TOC parent headings are tracked separately.
+Twenty-two complete July article bodies are recorded in
+[July progress](ocr-july-progress.json), including the fully assembled CP/M and
+Z80 lessons, computer graphics and Apple FORTRAN. Fourteen bodies remain;
+six unpaginated TOC parent headings are tracked separately. All human acceptances
+remain pending.
 
 The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
 starts with Tesseract for clear prose, Qwen for tables/technical notation/listings,
@@ -446,7 +447,14 @@ before committing other ruled-table groups to Qwen. Preserve all failed costs.
 For BASIC, check isolated continuation characters: batch28 omitted one I and six
 0 rows, and separated a DATA listing into label/value columns while changing
 scores. Audit every row/field; do not reconstruct source anomalies from expected
-program behavior. Full graphics128–134 is restored with135 BASIC lines. This is guidance for choosing new checkpoints;
+program behavior. Full graphics128–134 is restored with135 BASIC lines.
+Batch29 uses bounded Tesseract probes to distinguish compiler printouts from
+numeric-output tables: Qwen for compiler/handwriting, English Tesseract for two
+numeric tables, with every cell source-checked. Qwen still won the fixed numeric
+sample, so usable row structure is not evidence of better accuracy or paid cost.
+Check compiler line counters/offsets against statements, and retain misspellings
+such as source COLUMMN even when Qwen silently normalizes them. Full Apple
+FORTRAN137–142 is restored with73 source rows; no program execution. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.
