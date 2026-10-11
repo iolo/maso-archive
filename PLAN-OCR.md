@@ -1841,3 +1841,29 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - July29complete,7untouched,no partials;177pages3667regions3470text197images979flags,
   zero human accepted. Next 사과도둑215–224candidate;215startverified,ending not yet.
   Final metrics/reading room pending; final reporting/commit usage carries forward.
+
+### July 사과도둑 opening restored, 2026-10-12
+
+- Verified the full article at PDF215–224, printed211–220;225 starts 탁구.
+  Restored215–217:96 regions,92 text crops,4 source images,32 review flags.
+  Includes33 variable entries,40 program-range entries and27 BASIC lines across
+  60 physical rows. Line270 continues on218; the full article remains partial.
+- Source YB/YB,US,933/930 and Aplle retained. Faint PLAY150/Sohool and literal
+  spacing remain provisional. Custom graphics use explicit scan-linked markers;
+  character encoding and execution are unverified. Human review remains pending.
+- Initial7T/85Q after a rejected0.270s prose probe. After a confirmed SIGTERM,
+  reused61Q and7T successes. Qwen then repeated header asterisks to4096 tokens;
+  one Tesseract fallback plus two unattempted header strips routed to Tesseract.
+  Final10T/82Q; remaining short-code crops completed with512-token caps.
+- Three raw worker lifespans325.483s, including125.955s failed model compute.
+  Local34,263-token lower bound includes4,435 failed tokens; interrupted response
+  usage is unknown. No completed inference was repeated.
+- Correction582.581s overlaps315.663s raw, includes recovery/helper work and
+  assistant draft rechecks. Paid48,143 uncached /2,385,408 cached input,
+  17,236 output including2,996 reasoning; no per-engine paid-savings claim.
+- Four comparison39 samples favor Qwen, but exclude the failed decorative header
+  from accuracy scoring. Its cost remains included. Export, byte-identical
+  rebuild, listing coverage and UTF-8 review ranges pass.
+- July29 complete,1 partial,6 untouched;180 pages,3763 regions,3562 text crops,
+  201 images,1011 flags. Next218–224, then assemble215–224. Final metrics and
+  reading room remain pending; final report/commit usage carries to next audit.

@@ -596,3 +596,26 @@ Full export/assembly integrity, source gaps, review/listing ranges, immutable
 segments and byte-identical rebuild pass. July29/36 bodies complete, no partials;
 next inspect 사과도둑215–224candidate. Consolidated metrics and reading room follow
 completion of the remaining seven bodies.
+
+### July batch41: decorative headers are a separate routing case
+
+Apple Thief215–217 demonstrates another repeated-symbol failure: a short BASIC
+comment header made Qwen repeat asterisks to4096 tokens. Preserve the failed
+response and its cost. Use a bounded Tesseract fallback for that strip, and
+record any reassignment of adjacent unattempted decorative strips. Keep the
+original header image for exact geometry. This does not justify routing ordinary
+BASIC to Tesseract: all four fixed batch41 samples favored Qwen.
+
+After the failure, the remaining short code crops completed under512-token caps;
+this is one observed successful bound for those small crops, not a general limit
+for longer listings. Preserve successful native requests with their original
+4096 setting when resuming; do not overwrite cached evidence or repeat completed
+calls. A prior SIGTERM and the header length failure are separate terminal events.
+Three worker lifespans, all failed tokens, and unknown interrupted usage are
+recorded independently from assistant correction and its raw-stage overlap.
+
+Source graphics remain images with explicit editorial placeholders. Literal
+YB/YB,US,933/930 and Aplle discrepancies are preserved. Line270 ends mid-token at
+this checkpoint and continues on218; complete assembly must retain that boundary.
+All human acceptance remains pending. Reading-room generation waits for the full
+issue restoration and consolidated metrics.

@@ -76,6 +76,11 @@ When uncertain, inspect one representative Tesseract crop before committing the
 rest of the segment. Switch if identifiers are repeatedly corrupted, table rows
 are lost, reading order is mixed, or substantial text becomes unreadable fragments.
 Ordinary spacing/wrapping problems alone do not justify switching.
+Batch41 adds a decorative-header exception: repeated asterisk rows can loop even
+inside a BASIC listing. Keep original geometry, use a bounded Tesseract fallback
+when this occurs, and consider adjacent unattempted decorative strips separately
+from ordinary code. A512-token cap worked for its remaining short code crops;
+choose limits by crop size and retain every failure cost.
 Batch38 adds counter-evidence for visually clear Korean body prose: Tesseract
 inserted Latin fragments into several crops, and its fixed prose sample scored
 20.93% compact CER versus Qwen4.65%. Qwen still misread two 윷 glyphs. Before
@@ -2647,3 +2652,64 @@ byte-identical assembly rebuild pass. July now has29 complete bodies,0 partial,
 crops,197 images and979 review flags. Next is 사과도둑215–224candidate;215 start
 verified, ending still to inspect. Full-issue metrics and reading room remain
 pending; final report/commit usage after the audit cutoff carries forward.
+
+## Apple Thief opening: prose, variables and graphic-bearing BASIC
+
+Batch41 restores PDF215–217 of the verified full215–224 article;225 starts
+Table Tennis. It contains96 regions:92 text crops and4 original images, with
+32 review flags. The source-reviewed export includes33 variable descriptions,
+40 program-range descriptions and27 numbered BASIC lines over60 physical rows.
+Line270 continues on218. Source inconsistencies, including YB/YB,US,933/930 and
+Aplle, are retained. Faint PLAY150/Sohool, blank-string widths and custom glyph
+encoding remain unresolved. Editorial graphic markers link to original scans.
+
+A representative0.270s Tesseract Korean prose probe produced Latin fragments.
+The initial route was7 Tesseract headings and85 Qwen crops. A confirmed SIGTERM
+interrupted p217r19 after61 Qwen and7 Tesseract successes, all reused. On resume,
+Qwen repeated decorative header asterisks until the4096-token limit. That strip
+fell back to Tesseract; two unattempted adjacent headers were also assigned to
+Tesseract. The remaining short code strips used a512-token cap and completed
+without another failure. Final primary route:10 Tesseract and82 Qwen crops.
+
+| Observation | Batch41 |
+| --- | ---: |
+| Raw wall time, sum of three worker lifespans |325.483s|
+| Successful Qwen recognition, nested in raw wall time |168.066s|
+| Tesseract recognition, nested in raw wall time |1.086s|
+| Captured failed Qwen server compute, nested in raw wall time |125.955s|
+| Local tokens, including captured failed response |≥34,263|
+| Of these, captured failed-response tokens |4,435|
+| Assistant correction window |582.581s|
+| Correction/raw overlap |315.663s|
+| Paid uncached input / cached input |48,143 /2,385,408|
+| Paid output, including2,996 reasoning tokens |17,236|
+
+Raw time includes rendering, loading, verification, failed work and export;
+recovery gaps between worker lifespans are excluded. Interrupted-request usage
+is unknown, not zero. The correction window includes source review, helper and
+recovery preparation, and enlarged rechecks that corrected assistant draft
+readings. Cached input and reasoning output are subsets, not additional totals.
+No second paid correction was performed, so these observations cannot establish
+causal paid-token savings for either engine.
+
+[Comparison39](ocr-july-comparison-39.json) uses four preselected identical PNGs,
+with unblinded assistant references sealed before new alternates. The already-seen
+prose probe is reused without another call; its cost belongs to preparation.
+
+| Crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| Korean introduction, p215r05 |2.00%|13.00%|
+| Variable descriptions, p216r21 |1.75%|14.04%|
+| Program ranges, p217r08 |0.00%|10.53%|
+| BASIC thresholds, p217r28 |0.00%|26.14%|
+
+The failed decorative header is outside these accuracy samples, but its time
+and tokens remain included above. Qwen still confused 어렵기, 사과/사파, variable
+names and numeric/statement fields elsewhere. Cleaner samples do not remove
+source checking. The practical refinement is to separate decorative repeated
+symbols from ordinary code and use bounded output for short strips; it is not
+an established cost ranking.
+
+Export integrity, byte-identical rebuilding, all listing bytes and UTF-8 review
+ranges pass. July now has29 complete bodies,1 partial and6 untouched, with zero
+human acceptance inferred. Continue218–224, then assemble the full article.
