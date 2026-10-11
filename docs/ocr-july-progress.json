@@ -4,13 +4,13 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 7,
-  "partial_article_bodies": 1,
-  "completed_checkpoints": 12,
+  "completed_article_bodies": 8,
+  "partial_article_bodies": 0,
+  "completed_checkpoints": 13,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 29,
-  "remaining_toc_entries": 29,
+  "remaining_article_bodies": 28,
+  "remaining_toc_entries": 28,
   "untouched_toc_entries": 28,
   "human_accepted_articles": 0,
   "source": {
@@ -1161,6 +1161,275 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Addressed assembly and BASIC listings plus technical notation; Qwen primary, original flowcharts retained. Paid-token savings unproven."
       }
+    },
+    {
+      "batch": "13",
+      "toc_entry_id": "maso-1984-07-toc-0003",
+      "title": "애플음의 정복",
+      "engine": "qwen",
+      "printed_pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "pdf_pages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-13/map.json",
+        "sha256": "766702a50b3520e007c32dcd36b1662256819299c6fb6540c48bce7f730fd722",
+        "bytes": 20858
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-13/apple-sound-conclusion/article.json",
+          "sha256": "2f96706c737bd01c405ea0eb62b989b797ff0106ad0ff0fc76d076f7e8b1fd75",
+          "bytes": 114337
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-13/apple-sound-conclusion/manifest.json",
+          "sha256": "3d475e1e9ce2f13143fc03189eef8eef490b608f7a8d377e2a95a069eb9cda02",
+          "bytes": 44598
+        },
+        "source_pages": [
+          46,
+          47,
+          48,
+          49
+        ],
+        "regions": 67,
+        "text_regions": 65,
+        "figures": 2,
+        "physical_listing_rows": 157,
+        "logical_listing_rows": 90,
+        "unresolved_entries": 20,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 487.29250474199944,
+      "recognition_seconds": 309.5212200309943,
+      "local_qwen_tokens": {
+        "prompt_tokens": 40658,
+        "completion_tokens": 12718,
+        "total_tokens": 53376
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-13/transcription-assistant.json",
+        "sha256": "4ec65e8a98a141b7bff21362fd631a76a7b686feef606134042666448825a04f",
+        "bytes": 17206
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T09:17:15.755779+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "4ec65e8a98a141b7bff21362fd631a76a7b686feef606134042666448825a04f",
+          "bytes": 17206
+        },
+        "method": "Assistant source reading from Qwen draft, sealed before alternate Tesseract; unblinded, not human gold."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 138,
+        "code": 2281,
+        "other": 166,
+        "prose": 4093,
+        "title": 64
+      },
+      "work_window_ids": [
+        "raw-13",
+        "correction-13",
+        "export-13"
+      ],
+      "local_qwen_tokens_final_attempt": {
+        "prompt_tokens": 31458,
+        "completion_tokens": 6899,
+        "total_tokens": 38357
+      },
+      "recognition_seconds_final_attempt": 246.99895809699956,
+      "failed_server_compute_seconds": 123.19733199999999,
+      "recognition_limitation": "Failed server compute time differs from client wall time; do not combine as an exact recognition timer. Raw stage sum includes failed inference and both model startups. No completed stage imported under changed map fingerprint. No duplicate paid correction.",
+      "raw_run_seconds_basis": "Sum of two measured raw attempts including failed glyph inference and duplicated raw crops; excludes rerouting work between attempts.",
+      "recovery": {
+        "attempts": 2,
+        "reason": "First music-symbol text crop reached4096-token response limit. Revised map retains that crop as an original detail image with editorial description; other text crops freshly inferred.",
+        "first_completed_crops": 22,
+        "final_completed_crops": 65,
+        "duplicated_successful_crops": 22,
+        "failed_crops": 1,
+        "failed_response": {
+          "path": "ocr-attempt-01/stages/scan-maso-1984-07-toc-0003/p47r03/inference.response.json",
+          "sha256": "c250e3f86305fca32cd21aee2067d0baee37f56d01a1f9977d7fa3cc94d40d03",
+          "bytes": 9190
+        },
+        "first_raw_seconds": 211.00281260799966,
+        "second_raw_seconds": 276.2896921339998,
+        "successful_recognition_seconds": 309.5212200309943,
+        "failed_server_compute_seconds": 123.19733199999999,
+        "local_qwen_tokens_all_attempts": {
+          "prompt_tokens": 40658,
+          "completion_tokens": 12718,
+          "total_tokens": 53376
+        },
+        "limitation": "Failed server compute time differs from client wall time; do not combine as an exact recognition timer. Raw stage sum includes failed inference and both model startups. No completed stage imported under changed map fingerprint. No duplicate paid correction."
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-13/recovery-accounting.json",
+        "sha256": "625e8783c42a7bfa7f6f4ff28bbba69749b4288e6b1e7dcc3beb085a1ff0c522",
+        "bytes": 1164
+      },
+      "listing_audit": {
+        "logical_basic_rows": 90,
+        "physical_basic_rows": 131,
+        "physical_assembly_rows": 26,
+        "printed_addresses": {
+          "p47r11": "0300 0302 0304 0306 0308 030A 030C 030E 0310",
+          "p47r12": "0312 0314 0316 0318 031A 031D 0320 0321 0324 0325 0327 0329 032B 032C 032E 0330 0332"
+        },
+        "printed_basic_lines": {
+          "p46r03": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "p46r06": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "p46r08": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+          ],
+          "p46r10": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "p46r20": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+          ],
+          "p47r09": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            100
+          ],
+          "p48r07": [
+            10,
+            20,
+            30
+          ],
+          "p48r09": [
+            10,
+            15,
+            20,
+            30
+          ],
+          "p48r11": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            50
+          ],
+          "p48r13": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "p48r14": [
+            100,
+            110,
+            120,
+            130,
+            140,
+            150,
+            160,
+            170
+          ],
+          "p48r15": [
+            180,
+            190,
+            500,
+            510
+          ],
+          "p48r17": [
+            500,
+            510,
+            520,
+            530
+          ],
+          "p49r04": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+          ]
+        },
+        "table_numeric_values": 72,
+        "table_shape": {
+          "pitch_rows": 3,
+          "pitch_columns": 25,
+          "duration_rows": 2,
+          "duration_columns": 13
+        },
+        "symbol_policy": "24 musical glyphs retained as original detail image and editorial note/rest names in its caption; not searchable literal musical transcription.",
+        "scope": "Source row identities, DATA digits and table-cell counts checked; no program execution or human acceptance."
+      },
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Dense BASIC DATA, assembly bytes and music/numeric table; Qwen primary with original table preserved and glyph-description limits explicit. Paid savings unproven."
+      }
     }
   ],
   "assemblies": [
@@ -1308,6 +1577,69 @@
         "all_review_ranges": true,
         "interrupt_summary_join": true,
         "all_numbered_diagrams_and_illustration_preserved": true,
+        "source_segments_immutable": true
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0003",
+      "engine": "qwen",
+      "package": {
+        "path": "build/pdf-restoration/12-1984-07-comparison/apple-sound/article.json",
+        "sha256": "7425f7310375ea39ed6033ca62a9443492b17bcb49a99542a2160a6a353d1c8d",
+        "bytes": 207193
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-07-comparison/apple-sound/manifest.json",
+        "sha256": "6fa8264b3437a35e79a864d29b3f38562cf31284730fdb9716827b8b98114dd9",
+        "bytes": 85700
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/apple-sound-assembly-recipe.json",
+        "sha256": "ff4f3867dd4137a51ebee5398f0f755cd287099f00eaebb20b44fbb48268b6c9",
+        "bytes": 2767
+      },
+      "pdf_pages": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "segments": [
+        {
+          "name": "opening",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-12/apple-sound-opening/manifest.json",
+            "sha256": "5b9cc79968f25c9d7579c613d9548966b8eede67582ddc0b4434a43245b2a823",
+            "bytes": 31198
+          }
+        },
+        {
+          "name": "conclusion",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-13/apple-sound-conclusion/manifest.json",
+            "sha256": "3d475e1e9ce2f13143fc03189eef8eef490b608f7a8d377e2a95a069eb9cda02",
+            "bytes": 44598
+          }
+        }
+      ],
+      "regions": 116,
+      "figures": 7,
+      "unresolved_entries": 32,
+      "logical_basic_rows": 97,
+      "physical_assembly_rows": 84,
+      "physical_listing_rows": 222,
+      "table_numeric_values": 72,
+      "human_acceptance": "pending",
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "prose_continuation_join": true,
+        "source_listing_bytes_preserved": true,
         "source_segments_immutable": true
       }
     }
@@ -1570,54 +1902,101 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 42,
-      "batch": "12",
+      "batch": "13",
       "engine": "qwen",
       "restoration": {
-        "path": "build/pdf-restoration/12-1984-07-comparison-batch-12/apple-sound-opening/article.json",
-        "sha256": "9fa7c6aae772f028e6ffa83840492c41453dc0db07df27f1e5679dc088ce24bf",
-        "bytes": 79511
+        "path": "build/pdf-restoration/12-1984-07-comparison/apple-sound/article.json",
+        "sha256": "7425f7310375ea39ed6033ca62a9443492b17bcb49a99542a2160a6a353d1c8d",
+        "bytes": 207193
       },
+      "assembly": {
+        "toc_entry_id": "maso-1984-07-toc-0003",
+        "engine": "qwen",
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison/apple-sound/article.json",
+          "sha256": "7425f7310375ea39ed6033ca62a9443492b17bcb49a99542a2160a6a353d1c8d",
+          "bytes": 207193
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison/apple-sound/manifest.json",
+          "sha256": "6fa8264b3437a35e79a864d29b3f38562cf31284730fdb9716827b8b98114dd9",
+          "bytes": 85700
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/12-1984-07-comparison/apple-sound-assembly-recipe.json",
+          "sha256": "ff4f3867dd4137a51ebee5398f0f755cd287099f00eaebb20b44fbb48268b6c9",
+          "bytes": 2767
+        },
+        "pdf_pages": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "segments": [
+          {
+            "name": "opening",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-12/apple-sound-opening/manifest.json",
+              "sha256": "5b9cc79968f25c9d7579c613d9548966b8eede67582ddc0b4434a43245b2a823",
+              "bytes": 31198
+            }
+          },
+          {
+            "name": "conclusion",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-13/apple-sound-conclusion/manifest.json",
+              "sha256": "3d475e1e9ce2f13143fc03189eef8eef490b608f7a8d377e2a95a069eb9cda02",
+              "bytes": 44598
+            }
+          }
+        ],
+        "regions": 116,
+        "figures": 7,
+        "unresolved_entries": 32,
+        "logical_basic_rows": 97,
+        "physical_assembly_rows": 84,
+        "physical_listing_rows": 222,
+        "table_numeric_values": 72,
+        "human_acceptance": "pending",
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "prose_continuation_join": true,
+          "source_listing_bytes_preserved": true,
+          "source_segments_immutable": true
+        }
+      },
+      "assembly_required": false,
       "restored_pdf_pages": [
         42,
         43,
         44,
-        45
-      ],
-      "covered_pdf_pages": [
-        42,
-        43,
-        44,
-        45
-      ],
-      "partial_pdf_pages": [],
-      "deferred_pdf_pages": [
+        45,
         46,
         47,
         48,
         49
       ],
-      "assembly_required": true,
-      "segments": [
-        {
-          "batch": "12",
-          "engine": "qwen",
-          "package": {
-            "path": "build/pdf-restoration/12-1984-07-comparison-batch-12/apple-sound-opening/article.json",
-            "sha256": "9fa7c6aae772f028e6ffa83840492c41453dc0db07df27f1e5679dc088ce24bf",
-            "bytes": 79511
-          },
-          "pdf_pages": [
-            42,
-            43,
-            44,
-            45
-          ],
-          "partial_pdf_pages": []
-        }
+      "covered_pdf_pages": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
       ],
-      "planned_primary_engine": "qwen"
+      "partial_pdf_pages": [],
+      "deferred_pdf_pages": []
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0004",
@@ -1698,7 +2077,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 56
+      "pdf_page_candidate": 56,
+      "planned_primary_engine": "qwen"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0006",
@@ -3341,12 +3721,17 @@
       "path": "docs/ocr-july-comparison-10.json",
       "sha256": "fe1c03b109338ba58dd2c766522f6c75b89fa35e6cf25e285d241a8fbd5b48fd",
       "bytes": 8812
+    },
+    {
+      "path": "docs/ocr-july-comparison-11.json",
+      "sha256": "6d0012e97a61f7c51b29769b0737276bdfe9375084cc25b7a51334a1a1bbeefd",
+      "bytes": 8880
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "287bcbb240d0097c6cdb624a40032708167d1c72a9818b16bfce621e761b30e4",
-    "bytes": 44103
+    "sha256": "ecaf98ca7ce804254a34d6c1fb393b1bbf4548aa39cfdfa224e60fc6868d0231",
+    "bytes": 48955
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -3355,40 +3740,25 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0003",
-      "title": "애플음의 정복 — 음악 데이터·응용과 결론",
+      "toc_entry_id": "maso-1984-07-toc-0005",
+      "title": "컴퓨터반란군 진압대",
       "candidate_pdf_pages": [
-        46,
-        47,
-        48,
-        49
+        56,
+        57,
+        58
       ],
       "printed_pages": [
-        42,
-        43,
-        44,
-        45
+        52,
+        53,
+        54
       ],
       "engine": "qwen",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Dense BASIC DATA, addressed assembly and music-note table. Qwen primary; preserve original music glyph/table image with explicit searchable representation limits.",
-      "article_pdf_pages": [
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49
-      ],
-      "existing_segments": [
-        "12"
-      ],
-      "extent_status": "Full42–49 inspected;50 is advertisement. Remaining46–49 starts with continuation of45 final sentence. Detailed crops/samples still to be fixed before inference."
+      "routing_reason": "Provisional game/program listing category. Inspect actual layout before detailed checkpoint assignment; clear prose may use Tesseract.",
+      "extent_status": "Candidate starts56 after restored SPC-1000 article51–55; next catalog body starts59. Actual extent/advertisements require source inspection."
     }
   ],
-  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound opening12 restores42–45;46–49 and full assembly remain. Batch12 interrupted raw time is bounded, not exact. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
+  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

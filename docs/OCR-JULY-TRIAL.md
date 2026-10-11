@@ -63,6 +63,7 @@ paid-cost ranking or an automatic routing implementation.
 | BASIC, assembly, hexadecimal listings | Qwen | Individual characters need careful checking. BASIC and four long-hex sample crops favor Qwen raw text; the full hex listing still required substantial byte checking. Paid savings and other assembly formats remain unproven. |
 | Faint, degraded or unusually styled text | Qwen candidate | Try when Tesseract produces substantial garbage. This is a plausible fallback heuristic, not a settled July finding. |
 | Diagrams and photographs | Preserve original image | Transcribe surrounding prose/captions separately. Diagram reconstruction is a distinct task. |
+| Musical note/rest glyph bands | Preserve original image with labeled editorial description | Batch13 Qwen repeated symbols until the response limit. Separate numeric rows for OCR; symbol names are descriptions, not a literal transcription or a tested Tesseract result. |
 
 Choose by content, not page count. Mixed articles may use different engines for
 homogeneous groups of mapped regions or coherent assembly segments, such as
@@ -762,3 +763,65 @@ and28 untouched (29 unfinished). Across12 checkpoints:45 source pages,645 region
 58 assembly rows and133 flags. Next restore46–49, including the music-note table,
 then assemble the article. Full-issue metric consolidation and reading room follow
 completion of the remaining bodies; human review remains mandatory.
+
+
+## Apple sound conclusion and complete assembly, 2026-10-11
+
+Batch13 restores PDF46–49:67 regions,65 text crops, two original images,
+90 logical BASIC lines,26 assembly rows and20 review flags. The music table
+contains72 checked numeric values. Its24 note/rest symbols remain in a source
+image; names in the caption are explicitly editorial descriptions. Printed
+anomalies such as duplicate line50, `POKE 6.K`, `MI PA SOL` and `SVAE` remain
+flagged rather than repaired. Uncertain `94.RR` and `100 DATA 0.0` retain scan links.
+
+| Observation | Qwen Apple sound conclusion |
+| --- | ---: |
+| Raw elapsed, both attempts | 487.29s |
+| Successful recognition, including repeated crops | 309.52s |
+| Failed call server compute, separate timer basis | 123.20s |
+| Correction/recovery/recording window | 738.71s |
+| Corrected non-whitespace characters | 6,742 |
+| Uncached, non-write correction input tokens | 34,096 |
+| Cached correction input tokens | 4,158,848 |
+| Correction output tokens | 17,370 |
+
+The first attempt completed22 crops, then the music-symbol band repeated until
+its4,096-token response limit. All failure evidence is retained. That band was
+rerouted to an original image. The changed map required a fresh65-crop run;
+22 successful raw crops were therefore repeated, with no duplicate paid correction.
+Combined local usage is53,376 tokens (40,658 prompt;12,718 completion), including
+the failed response. Final-attempt-only usage is38,357 tokens and recognition247.00s.
+The raw sum includes both startups and failure, but excludes rerouting between
+attempts. Failed server compute is not added to the client recognition timer.
+Raw work overlaps the correction window by419.66s; those times must not be summed
+as sequential elapsed. Correction includes recovery work; cache-write tokens zero.
+
+| Fixed crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p46r06 — BASIC bird-sound DATA | 1.15% | 2.87% |
+| p47r02 — numeric pitch table | 0.00% | 80.00% |
+| p47r12 — assembly | 1.16% | 29.07% |
+| p49r08 — pointer prose | 0.99% | 12.32% |
+
+References were sealed before alternate inference, remain Qwen-derived/unblinded,
+and are not human gold. Identical PNGs used Tesseract OEM1/PSM6, eng for code and
+kor+eng otherwise. Row-specific segmentation could improve the table baseline;
+80% is not a general table estimate. Compact CER ignores whitespace/delimiters
+and excludes editorial glyph descriptions. These samples support the provisional
+raw-quality rule but establish neither paid savings nor whole-article accuracy.
+
+Full Apple sound assembly now covers42–49:116 regions, seven image assets,
+18 listing groups,97 logical BASIC lines,84 assembly rows,222 physical listing
+rows and32 review flags. The45/46 sentence is explicitly joined. Assembly exposed
+a private export-helper metadata mismatch for wrapped rows; corrected metadata
+and rebuilt batch13 preserve the exact article/listing text. The original
+pre-fix output remains available locally. Final segment and assembly integrity,
+UTF-8 review ranges, source listing bytes and byte-identical rebuilds pass.
+Assembly diagnosis/re-export is in reporting overhead, not correction usage.
+No program execution or human acceptance is claimed.
+
+July now has eight complete bodies, zero partial and28 untouched. Across13
+checkpoints:49 source pages,712 regions,656 text crops,56 images,304 logical BASIC
+lines,1,071 hex rows,84 assembly rows and153 flags. Six unpaginated headings remain
+separate. Next inspect 컴퓨터반란군 진압대, candidate PDF56–58, before confirming
+its route. Full-issue metric consolidation and reading room follow restoration.

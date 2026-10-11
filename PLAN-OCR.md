@@ -1202,3 +1202,25 @@ commit code/documentation. Do not count a partial opening as a complete article.
   54 figures,214 BASIC lines,1,071 hex rows,58 assembly rows,133 flags.
 - Next:46–49, then full Apple sound assembly. Full reading room remains scheduled
   after issue restoration and metric consolidation. User homepage change preserved.
+
+
+### July Apple sound complete, 2026-10-11
+
+- Batch13 restores46–49:67 regions,65 text crops,2 images,90 BASIC lines,
+  26 assembly rows,72 numeric table values and20 flags. Original musical symbols
+  retained with labeled editorial descriptions; routing guidance updated.
+- Qwen symbol repetition hit4,096 tokens. Failure and both raw attempts retained;
+  changed map caused22 repeated crops. Raw487.29s; successful recognition309.52s;
+  failed server compute123.20s has a separate timer basis. Local53,376 tokens
+  include failure/repetition. No duplicate paid semantic correction.
+- Correction/recovery738.71s;34,096 uncached input,4,158,848 cached input,
+  17,370 output tokens. Raw overlap419.66s. Four fixed comparisons favor Qwen,
+  but references are unblinded and paid savings remain unproven.
+- Full42–49 assembly passes integrity, review ranges, exact source listing bytes
+  and byte-identical rebuild. Private wrapped-row metadata fixed during reporting;
+  article/listing bytes preserved. Full article:116 regions,7 images,32 flags,
+  97 logical BASIC lines and84 assembly rows. Human review pending.
+- July:8 complete bodies,28 untouched;49 pages,712 regions,656 text crops,
+  56 images,304 BASIC lines,1,071 hex rows,84 assembly rows,153 flags.
+  Next inspect candidate56–58. Reading room after full restoration/metrics.
+  User homepage edit remains untouched; final reporting/commit usage carries forward.
