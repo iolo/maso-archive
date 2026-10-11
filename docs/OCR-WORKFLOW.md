@@ -660,3 +660,22 @@ numeric indexes are rejected pending a dedicated literal-value review.
 Keep wall-art band representation counts distinct from printed row counts.
 For process recovery, poll the saved tool session: sandbox-only `ps` may hide a
 live host worker. Do not start a replacement based on that limited view.
+
+### July batch44: successful plain-code responses can omit suffixes
+
+Check full row coverage even on ordinary IF statements without graphic literals.
+Two Qwen responses returned `stop` after a comparison operator while omitting
+remaining conditions and, in one case, the following numbered line. A successful
+status and plausible prefix do not establish complete transcription.
+
+Preserve a source's missing DATA separator rather than repairing it to fit an
+expected field count. Report visible numeric tokens separately from actual
+comma-delimited fields. Batch44 has553 tokens but552 fields because one printed
+comma is absent; values and execution remain subject to human review.
+
+An accepted preflight probe reused as primary OCR is counted exactly once. Its
+recognition duration can lie outside the later raw-worker lifespan; identify
+that exception instead of treating every recognition measurement as nested.
+Keep initial assignments separate from fallback IDs: preassigned Tesseract crops
+are not failed Qwen crops. Record revisions to evaluation samples before sealing
+references and running alternates, including whether selection was post-primary.

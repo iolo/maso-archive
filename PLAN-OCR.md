@@ -1911,3 +1911,27 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - July30 complete,0 partial,6 untouched;187 pages,3972 regions,3757 text crops,
   215 images,1144 flags. Next Table Tennis225: verify end before mapping.
   Final metrics and reading room still follow restoration. Human review pending.
+
+### July Table Tennis complete, 2026-10-12
+
+- Restored the complete article on PDF225–228: 100 regions, 94 text crops,
+  six original images, 38 review flags, 20 variable entries and 27 outline entries.
+  Listing has 143 numbered BASIC lines and 302 representation rows; 72 graphic
+  placeholders preserve source links without claiming executable glyph encoding.
+- Initial 24T/70Q became 25T/69Q after one 512-token graphic repetition failure.
+  Raw worker 235.598s, including failed compute 15.170s; exact 30,460 local tokens
+  include 963 failed tokens. Accepted 0.245s prose probe reused once in T recognition,
+  outside raw worker lifespan. No interrupted requests or successful reruns.
+- Two successful Qwen responses silently omitted plain IF suffixes; source-restored.
+  Source DATA has 553 visible numeric tokens but 552 comma fields: one missing comma
+  retained. Provisional faded values, original syntax and music strings remain flagged.
+- Correction 868.011s overlaps raw by 222.939s and includes source rechecks, a cleared
+  margin concern, status/context recovery and helper preparation. Paid 91,868 uncached
+  /6,104,704 cached input; 24,181 output includes 3,716 reasoning. Export and evaluation
+  separately measured. No causal paid-cost saving claim.
+- Comparison42 favors Qwen on four samples. Three were preselected; one code sample
+  was changed after source review to exclude graphic placeholders, before reference
+  sealing/alternates. Unblinded assistant references are not human gold.
+- Export integrity, byte-identical rebuild, listing coverage and UTF-8 review ranges
+  pass. July31 complete, five untouched; human review pending. Next cashbook starts229;
+  ending237 remains a candidate to verify. Final metrics and reading room pending.

@@ -2832,3 +2832,65 @@ Assembly work is separately measured at163.401s, with12,745 uncached input,
 July now has30 complete article bodies and six untouched bodies, with no human
 acceptance inferred. Next is Table Tennis starting225; its ending remains to be
 verified. Final issue-wide metrics and reading-room build remain pending.
+
+## Batch44: Table Tennis, PDF225–228
+
+The complete article is restored: 94 text crops, six original images and 38 review
+flags. Its code has 143 numbered BASIC lines across 302 representation rows.
+Seventy-two editorial graphic markers retain scan links; these are not executable
+characters or a certified count of physical graphic rows. The lower-page226
+bookstore advertisement is excluded; page229 begins the next article.
+
+A usable Tesseract prose probe led to six prose strips and five titles using
+Tesseract. Thirteen code strips were also preassigned to Tesseract: twelve with
+repetitive graphics and one adjacent plain-code strip. Remaining structured
+outlines, plain code, music and DATA used Qwen with a512-token cap. One additional
+graphic crop repeated digits to the cap and fell back on the same PNG. Initial
+24T/70Q thus became25T/69Q; no successful crop was repeated.
+
+| Observation | Batch44 |
+| --- | ---: |
+| Raw worker, including failed request and fallback |235.598s|
+| Successful Qwen recognition, nested in raw time |192.008s|
+| Tesseract recognition, including reused preflight probe |4.484s|
+| Reused probe outside raw worker lifespan |0.245s|
+| Failed model compute, nested in raw time |15.170s|
+| Exact local tokens, including963 failed tokens |30,460|
+| Assistant correction window |868.011s|
+| Correction/raw overlap |222.939s|
+| Paid uncached input / cached input |91,868 /6,104,704|
+| Paid output, including3,716 reasoning tokens |24,181|
+
+The correction window includes source transcription, discrepancy checks, helper
+preparation and status/context recovery. A suspected missing final zero was
+cleared by inspecting the original crop and wider scan: only thin column borders
+lay outside the crop. No recropping or rerun was needed. Export and evaluation
+windows are separate; evaluation also includes initial accounting preparation.
+Per-crop recognition excludes startup, while raw worker time includes it. The
+accepted preflight probe is counted once, not nested in that worker's lifespan.
+
+Two ordinary IF-code crops, p227r10 and p227r28, returned `finish_reason: stop`
+yet omitted substantial suffixes. Source review restored them. Other strips had
+extra repeated DATA values. The printed DATA contains one missing comma:
+553 visible numeric tokens but552 comma-delimited fields across51 statements.
+That original omission, unusual IF forms and provisional faded values remain
+unchanged and flagged. The program has not been executed.
+
+[Comparison42](ocr-july-comparison-42.json) uses identical PNGs and assistant
+source references sealed before alternate OCR. Three samples were preselected;
+p227r18 was replaced by p227r20 after source review to exclude editorial glyph
+markers. The set is exploratory, unblinded, and not entirely preselected or human gold.
+
+| Crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| Ordinary Korean prose, p225r04 |0.00%|3.06%|
+| Variable outline, p225r18 |0.00%|2.94%|
+| Plain BASIC conditionals, p227r20 |0.00%|18.68%|
+| DATA, p228r23 |0.00%|32.38%|
+
+These samples support the provisional content route but do not measure paid
+correction savings. Silent omissions elsewhere remain part of this checkpoint's
+quality record. Export integrity, byte-identical rebuild, listing coverage and
+UTF-8 review ranges pass. July now has31 complete bodies and five untouched;
+human acceptance remains pending. Next is cashbook starting229, whose end must
+be verified before mapping. Issue-wide consolidation and reading room remain pending.
