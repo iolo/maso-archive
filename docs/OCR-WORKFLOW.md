@@ -425,7 +425,11 @@ source normalization before trusting technical output. Batch22 retained all shor
 procedure rows, but prefix quotes and historical wording still required source checks.
 Batch23 retained57 BASIC lines but needed HPLOT, punctuation and bitmap Hangul
 corrections. Its English-only Tesseract code alternate limits conclusions about
-Korean strings. This is guidance for choosing new checkpoints;
+Korean strings. Batch24 adds scan-quality evidence: mottled-background ordinary
+prose needed substantial Tesseract repair, while all four fixed samples favored
+Qwen. Qwen still reversed a power-off instruction and modernized historical wording.
+Its raw run was contaminated by erroneous recovery and competing model startup;
+exclude its elapsed time from clean speed comparisons. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

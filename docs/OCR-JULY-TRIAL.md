@@ -61,7 +61,7 @@ paid-cost ranking or an automatic routing implementation.
 | Clear, ordinary prose | Tesseract | Fast draft; context often makes errors easy to resolve. Qwen also reads prose better in our samples, so Tesseract is not a proven cost winner. |
 | Numeric tables, formulas, dense technical notation | Qwen | Values, symbols and relationships are costly to reconstruct. The July frequency table supports this choice under the tested settings; other table layouts remain untested. |
 | BASIC, assembly, hexadecimal listings | Qwen | Individual characters need careful checking. BASIC and four long-hex sample crops favor Qwen raw text; the full hex listing still required substantial byte checking. Paid savings and other assembly formats remain unproven. |
-| Faint, degraded or unusually styled text | Qwen candidate | Try when Tesseract produces substantial garbage. This is a plausible fallback heuristic, not a settled July finding. |
+| Faint, degraded, mottled-background or unusually styled text | Qwen candidate | Consider scan quality as well as content. Batch24 gray-background prose needed substantial Tesseract repair; its fixed prose sample scored Qwen0% versus Tesseract10% compact CER. One sample supports a trial, not a universal rule or paid-cost claim. |
 | Diagrams and photographs | Preserve original image | Transcribe surrounding prose/captions separately. Diagram reconstruction is a distinct task. |
 | Musical note/rest glyph bands | Preserve original image with labeled editorial description | Batch13 Qwen repeated symbols until the response limit. Separate numeric rows for OCR; symbol names are descriptions, not a literal transcription or a tested Tesseract result. |
 
@@ -1556,3 +1556,56 @@ and the reading room remain outstanding.
   Raw evidence-bundle manifest SHA-256: `a5da489e2352715ac82e8283effc65944a825b1bb969fbebd4400bf537f0da9a`.
 - Next: source-based correction of101–106, then107–113 and full CP/M assembly.
   Final issue metrics and reading-room work remain outstanding.
+
+
+### CP/M opening source-corrected — batch24, 2026-10-11
+
+PDF101–106/printed97–102 is exported as the first segment of CP/M 입문.
+The article continues through113;114–118 are advertisements. All142 mapped
+regions are accounted for:139 text crops and3 original figures, including the
+apparently blank startup screen. Three directory screens total36 physical rows;
+the DUMP excerpt adds1 command,7 comment rows and3 assembly statements.
+All47 rows were source-compared.33 review flags retain original inconsistencies,
+command typography and the unfinished106→107 prose join.
+
+Planned14 Tesseract/125 Qwen crops completed. Successful recognition sums are
+Qwen234.81s and Tesseract1.87s; local Qwen usage46,426 tokens (40,514 prompt,
+5,912 completion). The322.39s raw wall time is **excluded from clean performance
+comparisons** because the process-monitoring mistake, competing model startup
+and evidence repair contaminated it. Recognition timings are observations from
+that same affected run, not clean speed measurements. The recovery server log
+contains no completed recognition; all125 original responses were retained.
+
+The correction/source/helper window is233.71s, with no raw overlap:35,291
+uncached input,620,800 cached input and8,369 output tokens (including285
+reasoning), zero cache-write tokens. This is observed mixed-route work, not
+a causal estimate of either engine's correction cost. Reporting/evaluation are
+separate, and the current report/commit tail carries into the next usage audit.
+
+Tesseract failed the byline and several words in the mottled-background prose.
+Qwen changed source 끄고 to 켜고, 화일 to 파일, 생략 to 생각, and inserted an
+extra blank assembly-comment row; source comparison restored them. Printed
+ATP/Tronstent/Progrom,64KK,$D606,Operaping,Loggin,Extention,AREN and FILF
+remain flagged rather than technically repaired. RAM addresses are boundaries;
+the linearized table preserves their band relationships. Commands have not been
+executed, and exact typeset dots, spacing and return-marker bytes are not certified.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p102r03 — gray-background OS prose | 0.00% | 10.00% |
+| p102r26 — logical/physical device table | 0.00% | 82.56% |
+| p105r10 — directory screen | 0.00% | 5.00% |
+| p106r18 — assembly excerpt | 0.00% | 18.52% |
+
+[Comparison22](ocr-july-comparison-22.json) uses identical PNGs and assistant
+references sealed before alternate OCR. These are unblinded samples, not human
+gold or whole-article accuracy. Compact CER ignores whitespace and cannot
+certify command syntax or literal spacing. The routing heuristic now considers
+mottled backgrounds even for ordinary prose; no automatic default has changed.
+
+Export integrity, UTF-8 review/listing ranges and a byte-identical rebuild pass.
+July has18 complete bodies,1 partial and17 untouched; human acceptance remains
+zero. Cumulative coverage:96 source pages,1,431 regions,1,356 text crops,75
+images,1,541 BASIC lines,1,120 hex rows,100 assembly rows,29 Logo rows and427
+flags. Next restore107–113 and assemble all13 CP/M pages. Full-issue restoration,
+final metrics and the reading room remain outstanding.

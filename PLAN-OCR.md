@@ -1468,3 +1468,21 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Raw evidence-bundle manifest SHA-256: `a5da489e2352715ac82e8283effc65944a825b1bb969fbebd4400bf537f0da9a`.
 - Next: source-based correction of101–106, then107–113 and full CP/M assembly.
   Final issue metrics and reading-room work remain outstanding.
+
+
+### July CP/M opening corrected, 2026-10-11
+
+- Batch24 exports101–106 of the verified101–113 article:142 regions,139 text,
+  3 figures,47 console/comment/assembly rows including3 assembly statements,33 flags.
+- Fixed14 Tesseract/125 Qwen route; all four comparison22 samples favor Qwen.
+  Mottled-background prose is now an explicit routing consideration. Source
+  power-off wording, historical vocabulary and physical comment rows restored.
+  Original technical anomalies retained, mandatory human review pending.
+- Raw wall time excluded after mistaken recovery and evidence repair. Recognition
+  Qwen234.81s/Tesseract1.87s and46,426 local tokens retained as affected-run
+  observations. Correction233.71s;35,291 uncached/620,800 cached input and8,369
+  output tokens. No causal paid savings or clean speed claim.
+- Export/review/listing integrity and byte-identical rebuild pass. July18 complete,
+  1 partial,17 untouched;96 pages,1,431 regions,1,356 text,75 figures,427 flags.
+  Next107–113 and CP/M assembly; full restoration/metrics/reading room outstanding.
+  Homepage edit preserved; final report/commit usage carries forward.
