@@ -2019,3 +2019,15 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Export/rebuild/UTF-8/joins/listing checks pass. July34 complete,zero partial,two
   untouched. Next history243 extent verification,then advertising index; final
   metrics/reading room afterward. Reporting/commit usage carries forward.
+
+### July industry-history opening restored, 2026-10-12
+
+- Verified full article243–261,ending mark261;262advertising index. Restored243–248:
+  132text/four images,24flags,eight joins and two separate boxed sidebars.
+- Fixed124Q/8T after rejected0.162s prose probe; normal completion,no retries.
+  Raw332.609s;exact50,999localtokens. Correction398.599s overlaps332.609s.
+  Paid70,982uncached/1,474,304cached input;13,383output includes2,502reasoning.
+- Comparison47: Qwen wins three,Tesseract one. Keep the counterexample; no causal
+  paid-token claim. Export/rebuild/UTF-8/continuation checks pass,human review pending.
+- July34complete,onepartial,oneuntouched. Continue history249–261 and adindex262;
+  assemble history,consolidate metrics,then build the authorized reading room.

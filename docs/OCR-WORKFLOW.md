@@ -744,3 +744,17 @@ the full line width. Keep the small panel whole when it fits the token cap.
 Count source DATA fields independently of OCR,even on successful plain-code
 responses. Preserve source caption/header mismatches and questionable formulas;
 semantic correction must not silently repair the original article's claims.
+
+### July batch49: prose routing still has counterexamples
+
+A rejected ordinary-prose probe justified Qwen for the Apple-history body, but
+Tesseract won one of four fixed same-image samples: Qwen damaged a book title
+in the copyright sidebar. Keep such counterexamples instead of retuning the
+assignment after seeing scores. Two Tesseract headings were blank despite visible
+source text; check heading presence independently of successful OCR exit status.
+
+Boxed sidebars spanning pages require their own continuation chain. For243–248,
+main narrative,246/247 sidebar and248 sidebar were joined separately, with the
+sidebars placed after the complete section for reading. Preserve historical
+spellings and claims; semantic correction repairs OCR without silently rewriting
+the source. All original illustrations remain linked for human review.

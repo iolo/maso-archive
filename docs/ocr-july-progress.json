@@ -5,13 +5,13 @@
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
   "completed_article_bodies": 34,
-  "partial_article_bodies": 0,
-  "completed_checkpoints": 48,
+  "partial_article_bodies": 1,
+  "completed_checkpoints": 49,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
   "remaining_article_bodies": 2,
   "remaining_toc_entries": 2,
-  "untouched_toc_entries": 2,
+  "untouched_toc_entries": 1,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -16579,6 +16579,320 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Rejected ordinary prose probe had Latin substitutions. Qwen technical prose/reverse introduction and plain BASIC; Tesseract short title/captions/template and three code panels containing repeated/graphic strings. All original panels/diagram retained; bounded512 Qwen fallback."
       }
+    },
+    {
+      "batch": "49",
+      "toc_entry_id": "maso-1984-07-toc-0034",
+      "title": "읽을거리 : 미국 컴퓨터 산업의 흥망성쇠",
+      "engine": "mixed",
+      "printed_pages": [
+        239,
+        240,
+        241,
+        242,
+        243,
+        244
+      ],
+      "pdf_pages": [
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-49/map.json",
+        "sha256": "0bae4453a0df98e8ad17bf27d275b454574bcb92c8462889f09711a25e3b0f75",
+        "bytes": 39677
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-49/industry-history-opening/article.json",
+          "sha256": "fa6f658f450e498f4e2181dfa9638c18a663de0dc7910907d5051d3b3a0f1a75",
+          "bytes": 193306
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-49/industry-history-opening/manifest.json",
+          "sha256": "bc4e2f7815c0ac273d1470147cadac240d7d1619f338aa763aebc1a793302763",
+          "bytes": 89975
+        },
+        "source_pages": [
+          243,
+          244,
+          245,
+          246,
+          247,
+          248
+        ],
+        "regions": 136,
+        "text_regions": 132,
+        "figures": 4,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 24,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 332.6087637179953,
+      "recognition_seconds": 296.42533655998704,
+      "local_qwen_tokens": {
+        "prompt_tokens": 43492,
+        "completion_tokens": 7507,
+        "total_tokens": 50999
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-49/transcription-assistant.json",
+        "sha256": "a8c2954fb425bab69dce3208617cb60b3e78b2fce83b920855394353d8bb116c",
+        "bytes": 23571
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T19:35:18.034804+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "a8c2954fb425bab69dce3208617cb60b3e78b2fce83b920855394353d8bb116c",
+          "bytes": 23571
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four source-selected sample PNGs unchanged; alternatives run only after this seal. Rejected same-image prose probe reused as T alternate only."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 5,
+        "prose": 6804,
+        "title": 77
+      },
+      "work_window_ids": [
+        "correction-49",
+        "export-49"
+      ],
+      "failed_server_compute_seconds": null,
+      "recognition_limitation": "Exact captured local usage from124 Qwen responses;8 Tesseract primary calls. Rejected0.162s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution.",
+      "raw_run_seconds_basis": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+      "recovery": {
+        "attempts": 1,
+        "reason": "Saved worker86853 completed exit0; no interruption, fallback, crop revision or duplicate primary.",
+        "final_completed_crops": 132,
+        "duplicated_successful_crops": 0,
+        "interrupted_crops": 0,
+        "failed_crops": 0,
+        "successful_recognition_seconds": 295.770580496981,
+        "local_qwen_tokens_all_attempts": {
+          "prompt_tokens": 43492,
+          "completion_tokens": 7507,
+          "total_tokens": 50999
+        },
+        "limitation": "Exact captured local usage from124 Qwen responses;8 Tesseract primary calls. Rejected0.162s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-49/recovery-accounting.json",
+        "sha256": "1f1528bbac592af4b94003110804a4d7930b2cdd995e6561739d5f31df8108e3",
+        "bytes": 652
+      },
+      "local_qwen_tokens_retained_successes": {
+        "prompt_tokens": 43492,
+        "completion_tokens": 7507,
+        "total_tokens": 50999
+      },
+      "recognition_seconds_retained_successes": 295.770580496981,
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p243r02": "tesseract",
+        "p244r02": "tesseract",
+        "p244r09": "tesseract",
+        "p245r25": "tesseract",
+        "p246r07": "tesseract",
+        "p246r12": "tesseract",
+        "p248r14": "tesseract",
+        "p248r19": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 295.770580496981,
+        "tesseract_recognition_seconds": 0.6547560630060616,
+        "qwen_regions": {
+          "p243r01": 9.63027796499955,
+          "p244r03": 2.5088136379999924,
+          "p244r04": 2.5182161560005625,
+          "p244r05": 2.421101161999104,
+          "p244r06": 2.4426081929996144,
+          "p244r07": 3.077762849003193,
+          "p244r08": 2.652896439001779,
+          "p244r10": 2.5895169300056295,
+          "p244r11": 2.3971790590003366,
+          "p244r12": 2.464923261999502,
+          "p244r13": 2.2832492149973405,
+          "p244r14": 1.979358921002131,
+          "p245r01": 2.6190055910046794,
+          "p245r02": 2.489192553999601,
+          "p245r03": 2.3648045169975376,
+          "p245r04": 2.305291185999522,
+          "p245r05": 2.378732500001206,
+          "p245r06": 2.5970541360002244,
+          "p245r07": 2.2859686920055537,
+          "p245r08": 2.7137805270031095,
+          "p245r09": 1.8282336599950213,
+          "p245r10": 2.058326856997155,
+          "p245r11": 2.0735389219989884,
+          "p245r12": 2.2322084639963578,
+          "p245r13": 2.54012876899651,
+          "p245r14": 2.589826321003784,
+          "p245r15": 2.315294868996716,
+          "p245r16": 2.3454285910047474,
+          "p245r17": 2.6123321970007964,
+          "p245r18": 2.1209830939988024,
+          "p245r19": 2.4349604499948327,
+          "p245r20": 2.493932979996316,
+          "p245r21": 2.3150761500000954,
+          "p245r22": 2.4083105149984476,
+          "p245r23": 1.8301328859961359,
+          "p245r24": 2.320968318002997,
+          "p245r26": 2.577454331003537,
+          "p245r27": 2.433230545000697,
+          "p245r28": 2.657589184003882,
+          "p245r29": 2.2801215369981946,
+          "p245r30": 2.4148818160028895,
+          "p245r31": 2.6615251789989998,
+          "p245r32": 2.1980065389943775,
+          "p245r33": 2.144380365003599,
+          "p245r34": 2.356949490997067,
+          "p245r35": 1.2432403539933148,
+          "p246r01": 2.3420668600010686,
+          "p246r02": 2.1515510859971982,
+          "p246r03": 2.2611616349968244,
+          "p246r04": 1.7916726440016646,
+          "p246r06": 2.615079675000743,
+          "p246r08": 2.4712990800035186,
+          "p246r09": 2.8076822599978186,
+          "p246r10": 2.5585375349983224,
+          "p246r11": 2.753201112995157,
+          "p246r13": 2.141235046001384,
+          "p246r14": 2.2925895289954497,
+          "p246r15": 2.1374153750002733,
+          "p246r16": 2.2371014230011497,
+          "p246r17": 1.906008104000648,
+          "p246r18": 2.5332062050001696,
+          "p246r19": 2.313805865996983,
+          "p246r20": 2.52050629400037,
+          "p246r21": 2.101029205005034,
+          "p246r22": 1.9372186120017432,
+          "p246r23": 2.329243330997997,
+          "p246r24": 2.3380581169985817,
+          "p246r25": 2.2353190740032005,
+          "p246r26": 2.1718826220021583,
+          "p246r27": 1.661806295000133,
+          "p247r01": 2.63807807899866,
+          "p247r02": 2.3086459810001543,
+          "p247r03": 2.909242339002958,
+          "p247r04": 2.637929055003042,
+          "p247r05": 2.352226964001602,
+          "p247r07": 2.1851925010050763,
+          "p247r08": 2.154719000995101,
+          "p247r09": 2.3209718899961445,
+          "p247r10": 2.1818654729941045,
+          "p247r11": 1.9428754660038976,
+          "p247r12": 2.401082235999638,
+          "p247r13": 2.2222896570019657,
+          "p247r14": 1.880638482994982,
+          "p247r15": 2.173338970998884,
+          "p247r16": 2.22383199500473,
+          "p247r17": 2.104753471998265,
+          "p247r18": 2.2188275859953137,
+          "p247r19": 2.386358963995008,
+          "p247r20": 2.2101262920041336,
+          "p247r21": 2.2168644779958413,
+          "p247r22": 2.0742164109979058,
+          "p247r23": 2.111746343005507,
+          "p247r24": 1.5689654740053811,
+          "p248r01": 2.659560649000923,
+          "p248r02": 2.211273432003509,
+          "p248r03": 2.449431562999962,
+          "p248r04": 2.380165428003238,
+          "p248r05": 2.4505253339957562,
+          "p248r06": 2.8332950600015465,
+          "p248r07": 2.6795764960043016,
+          "p248r08": 2.290331978998438,
+          "p248r09": 3.1354160089977086,
+          "p248r10": 2.8115739109998685,
+          "p248r11": 2.76349414899596,
+          "p248r12": 1.4881389049987774,
+          "p248r13": 1.6843817820044933,
+          "p248r15": 3.128788196001551,
+          "p248r16": 2.1599264279939234,
+          "p248r17": 2.499159671002417,
+          "p248r18": 2.4358867299961275,
+          "p248r20": 2.3447362819933915,
+          "p248r21": 2.0562689440048416,
+          "p248r22": 2.184130380002898,
+          "p248r23": 2.388565152003139,
+          "p248r24": 2.31873081199592,
+          "p248r25": 2.3170658230010304,
+          "p248r26": 1.983156643997063,
+          "p248r27": 2.2844588899970404,
+          "p248r28": 2.3930220359980012,
+          "p248r29": 2.4543223319997196,
+          "p248r30": 2.3642288199989707,
+          "p248r31": 2.3409449600003427,
+          "p248r32": 2.25647322399891,
+          "p248r33": 1.7832905030008988
+        },
+        "tesseract_regions": {
+          "p243r02": 0.0692201709971414,
+          "p244r02": 0.10013658100069733,
+          "p244r09": 0.0612589780066628,
+          "p245r25": 0.07641987299575703,
+          "p246r07": 0.06161885800247546,
+          "p246r12": 0.10083319499972276,
+          "p248r14": 0.08376569700340042,
+          "p248r19": 0.10150271000020439
+        },
+        "reason": "Representative prose probe corrupted Korean product wording into Latin fragments and Roman numerals. Qwen body prose/angled opener/pull quotes; Tesseract short clear headings, byline and caption; four original illustrations retained. Fixed before raw OCR."
+      },
+      "qwen_recognition_seconds": 295.770580496981,
+      "tesseract_recognition_seconds": 0.6547560630060616,
+      "assignment_reason": "Representative prose probe corrupted Korean product wording into Latin fragments and Roman numerals. Qwen body prose/angled opener/pull quotes; Tesseract short clear headings, byline and caption; four original illustrations retained. Fixed before raw OCR.",
+      "correction_raw_overlap": {
+        "correction_seconds": 398.599135,
+        "raw_overlap_seconds": 332.608748,
+        "scope": "132 source crops,27 source groups, full six-page reading, historical names/quantities/anomalies, sidebar ordering, explicit wraps/column/page joins and helper preparation. Export/evaluation separate; no per-engine paid attribution."
+      },
+      "preflight_probes": [
+        {
+          "region_id": "p245r01",
+          "image": {
+            "path": "preflight/p245r01.png",
+            "sha256": "8c11cda9ed2de24bc4cc1a1490d6268c5bc17caa4998dc0e4cc0deb5b9f0956e",
+            "bytes": 102806
+          },
+          "seconds": 0.16192576200410258,
+          "config": {
+            "languages": "kor+eng",
+            "psm": 6
+          }
+        }
+      ],
+      "preflight_probe_seconds": 0.16192576200410258,
+      "region_language_overrides": {
+        "p243r02": "kor+eng",
+        "p244r02": "kor+eng",
+        "p244r09": "kor+eng",
+        "p245r25": "kor+eng",
+        "p246r07": "kor+eng",
+        "p246r12": "kor+eng",
+        "p248r14": "kor+eng",
+        "p248r19": "kor+eng"
+      },
+      "preflight_probe_accounting": "Rejected probe preparation-only, reuse once for identical-image alternate.",
+      "primary_probe_reuse": {},
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Representative prose probe corrupted Korean product wording into Latin fragments and Roman numerals. Qwen body prose/angled opener/pull quotes; Tesseract short clear headings, byline and caption; four original illustrations retained. Fixed before raw OCR."
+      }
     }
   ],
   "assemblies": [
@@ -19696,8 +20010,68 @@
         "section_path": [],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-partial-human-pending",
       "pdf_page_candidate": 243,
+      "batch": "49",
+      "engine": "mixed",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-49/industry-history-opening/article.json",
+        "sha256": "fa6f658f450e498f4e2181dfa9638c18a663de0dc7910907d5051d3b3a0f1a75",
+        "bytes": 193306
+      },
+      "restored_pdf_pages": [
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
+      ],
+      "covered_pdf_pages": [
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
+      ],
+      "partial_pdf_pages": [],
+      "deferred_pdf_pages": [
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
+      ],
+      "assembly_required": true,
+      "segments": [
+        {
+          "batch": "49",
+          "engine": "mixed",
+          "package": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-49/industry-history-opening/article.json",
+            "sha256": "fa6f658f450e498f4e2181dfa9638c18a663de0dc7910907d5051d3b3a0f1a75",
+            "bytes": 193306
+          },
+          "pdf_pages": [
+            243,
+            244,
+            245,
+            246,
+            247,
+            248
+          ],
+          "partial_pdf_pages": []
+        }
+      ],
       "planned_primary_engine": "mixed"
     },
     {
@@ -20409,12 +20783,17 @@
       "path": "docs/ocr-july-comparison-46.json",
       "sha256": "e95ce769c6708ca015219c0f2ca852ad889c2261ce10420bfd4d5c6f251fd2aa",
       "bytes": 12252
+    },
+    {
+      "path": "docs/ocr-july-comparison-47.json",
+      "sha256": "2e3e3387400800606f318bf57594490b6232e6a3e08a4d08ce66bd26c7e72673",
+      "bytes": 12071
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "99fa45fcdb354e079aa3c5da86686f74876a11865b39428d89550de0bfb9cbda",
-    "bytes": 167975
+    "sha256": "4e14af52dafc258fdf9aa18a3a142b1d66eed6a242c08e886f3a2571087e8dc6",
+    "bytes": 169938
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -20426,15 +20805,19 @@
       "toc_entry_id": "maso-1984-07-toc-0034",
       "title": "미국 컴퓨터산업의 흥망성쇠",
       "candidate_pdf_pages": [
-        243
+        249,
+        250,
+        251,
+        252,
+        253
       ],
       "engine": "mixed",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Verify full article extent beyond illustrated opener; probe ordinary prose before choosing Tesseract or Qwen, retain illustrations/captions and difficult headings.",
-      "extent_status": "243 opener visually verified. Remaining extent unknown; inspect subsequent pages until definite ending before mapping. Advertising index candidate262 is not assumed article boundary."
+      "routing_reason": "Continue source-verified full article243–261; next Atari coverage249–252 and Commodore opener253. Inspect section boundary before choosing next batch; probe prose as needed.",
+      "extent_status": "Full243–261 visually verified, end marker261, advertising index262.243–248 restored,249–261 deferred; assembly required."
     }
   ],
-  "decision": "July34 complete article bodies,0partial,2untouched; human acceptance pending. Q&A240–242 complete:78regions69text9images31flags,5questions,7BASIC panels72numbered lines plus3template rows. Fixed56Q13T after rejected prose probe. Both workers completed normally; one crop per engine widened,55Q12T reused. Raw164.828s exact24665localtokens includes superseded Q result. Correction496.203s overlaps155.260s. Qwins4 preselected unchanged comparison46 samples. Source list1/Test2 mismatch, printed formulas/technical claims and anomalous text retained. Source DATA corrected to12fields after extra165 in raw. Next verify and restore computer-industry history243 onward and advertising index262. Final issue metrics and reading room after restoration; no causal paid-token savings claim.",
+  "decision": "July34 complete bodies,1partial,1untouched,49checkpoints; human acceptance pending. Industry history full extent243–261 verified; opening243–248 restored with132text4figures24flags, eight explicit joins and two separate sidebars. Fixed124Q8T after rejected prose probe, normal completion no retries. Raw332.609s;exact50999localtokens. Correction398.599s overlaps332.609s. Comparison47 Qwins3/Twins1. Continue history249–261 then advertising index262, consolidate metrics and build reading room. No causal paid savings claim.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition is normally nested and must not be added again. Batch44 includes one0.244653s preflight prose probe in recognition outside its raw-worker lifespan. Batch30 includes one0.205s preflight table probe in its recognition sum but outside its measured raw-worker lifespan; count that reused inference once.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

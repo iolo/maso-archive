@@ -3146,3 +3146,53 @@ July has34 complete bodies,zero partial and two untouched; human acceptance
 remains pending. Next verify history243 onward,then the advertising index.
 Final issue metrics and reading room follow restoration. Audit ends
 2026-10-11T19:21:58.298857+00:00; reporting/commit usage carries forward.
+
+## Batch49: industry-history opening, PDF243–248
+
+The full article extent is visually verified as PDF243–261 (printed239–257),
+with an ending mark on261 and the advertising index on262. This checkpoint
+restores its opening and Apple coverage,243–248. The remaining249–261 require
+restoration and assembly; this is not a complete article.
+
+The package contains136 regions:132 text crops and four original illustrations,
+with24 source-linked review flags. Eight explicit joins repair column/page
+continuations. Two boxed sidebars follow the complete Apple narrative in reading
+order; the246/247 sidebar continuation stays separate from the main text.
+Historical product names, money, technical/legal claims and source anomalies
+remain as printed. Human acceptance is pending.
+
+Routing was fixed at124 Qwen and eight Tesseract crops before primary inference.
+A0.162s representative prose probe corrupted Korean product wording into Latin
+fragments; it was rejected for primary prose and reused once as the identical-image
+comparison alternate. Tesseract handled short headings/byline/caption, but returned
+two blank headings, restored directly from their scans. The saved worker completed
+normally with no retries, fallback, interruption or changed crops.
+
+| Measurement | Batch49 |
+| --- | ---: |
+| Raw worker, including render/startup/export | 332.609s |
+| Qwen recognition, contained in raw | 295.771s |
+| Tesseract recognition, contained in raw | 0.655s |
+| Exact local Qwen tokens | 50,999 |
+| Correction window | 398.599s |
+| Raw/correction overlap | 332.609s |
+| Paid uncached input in correction window | 70,982 |
+| Paid cached input in correction window | 1,474,304 |
+| Paid output, including reasoning | 13,383 |
+| Reasoning, already included in output | 2,502 |
+
+The correction window includes source reading/rechecks, historical names and
+quantities, wrap/column/page joins, sidebar ordering and helper preparation.
+Export and alternate evaluation are separate; do not add overlapping raw time
+twice or assign these mixed correction tokens causally to either OCR engine.
+
+Comparison47 uses four preselected unchanged crops and references sealed before
+alternate OCR. Compact CER is Qwen0%/Tesseract16.95%,0%/22.92%,9.26%/7.41%,
+and0%/14.00%. Qwen wins three; Tesseract wins the copyright-sidebar sample,
+where Qwen corrupted words in a book title. These are unblinded assistant source
+references, not human gold. This counterexample is retained in the evaluation.
+
+Export integrity, byte-identical rebuild, UTF-8 review ranges and cross-column/page
+joins pass. July now has34 complete bodies,one partial and one untouched across
+49 checkpoints. Next: remaining history249–261,advertising index262,full metrics,
+then the authorized reading-room preview. Reporting/commit usage carries forward.
