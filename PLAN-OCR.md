@@ -1288,3 +1288,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next inspect 위기일발, candidate70–72. Persist recognition timers per crop in
   subsequent mixed runs. Full issue/metrics/reading room remain; homepage edit
   untouched. Final report/commit usage carries into the next audit.
+
+
+### July 위기일발 restored, 2026-10-11
+
+- Batch17 completes PDF70–72/printed66–68:45 regions,44 text crops,1 opening
+  image,127 logical BASIC lines/231 physical rows and20 review flags.
+  Planned5 Tesseract prose/byline and39 Qwen technical/title/code crops.
+- Raw190.48s; recognition Qwen168.12s/Tesseract1.33s. Per-crop timers now
+  persisted immediately; no retry or fallback. Local23,275 completed-call tokens.
+- Correction/source DATA audit/helper window396.10s;32,098 uncached input,
+  1,465,600 cached input,10,149 output tokens. Raw overlap176.30s; shared paid
+  window cannot attribute causal cost to either engine. Cache-write zero.
+- All127 line identities and231 physical rows checked, including cross-page660.
+  Qwen omitted a one-character1130 continuation; restored.24 DATA lines contain
+  379 literal comma-separated fields; source21- and1.2 retained with flags.
+  Faint punctuation/source anomalies remain reviewable; no execution.
+- Four fixed crops favor Qwen, most strongly on faint BASIC (0% vs67.38% compact
+  CER). Unblinded references and fixed sample selection do not prove whole-article
+  accuracy or paid savings. Export/review ranges/byte-identical rebuild pass.
+- July:12 complete,24 untouched;64 pages,876 regions,818 text crops,58 images,
+  1,005 BASIC lines,1,071 hex rows,84 assembly rows,224 flags. Human review pending.
+  Next inspect remaining 화성인 디거73–77 and boundary78. Full issue/metrics/
+  reading room remain outstanding. Homepage edit preserved; final usage carries forward.

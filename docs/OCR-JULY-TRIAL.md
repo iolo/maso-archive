@@ -1034,3 +1034,66 @@ and25 untouched; all human acceptances remain pending. Cumulative coverage:
 1,071 hex rows,84 assembly rows and204 flags. Next inspect 위기일발,
 candidate PDF70–72, with page73 checked for the boundary. Full issue restoration,
 metric consolidation and the reading room remain outstanding.
+
+
+## Faint Apple listing and decimal DATA, 2026-10-11
+
+Batch17 completes 위기일발, PDF70–72/printed66–68. The article contains45 regions:
+44 text crops and1 retained opening image. Its listing has127 logical BASIC lines
+across231 physical rows, including line660 continuing from71 to72. Page73 starts
+화성인 디거. All line identities and physical continuations were checked against
+the source; the exported listing retains the printed wraps.
+
+The route was fixed before OCR:5 clear introductory prose/byline crops to Tesseract;
+39 title, technical explanation, variable-definition and faint code/DATA crops to
+Qwen. Recognition timers are now saved immediately after each crop, so a later
+interruption will not erase completed timings. This run needed no retries or
+fallback. The two engines retain their native evidence, settings and source map.
+
+| Observation | Planned mixed route |
+| --- | ---: |
+| Raw elapsed, including render/startup/export | 190.48s |
+| Tesseract recognition,5 regions | 1.33s |
+| Qwen recognition,39 regions | 168.12s |
+| Correction/source review/helper window | 396.10s |
+| Corrected non-whitespace characters | 5,633 |
+| Uncached, non-write correction input tokens | 32,098 |
+| Cached correction input tokens | 1,465,600 |
+| Correction output tokens | 10,149 |
+
+Raw execution overlaps correction by176.30s; these times must not be added as
+sequential elapsed. Correction includes source DATA inspection, wrapped-row
+tracking, prose/list joining and helper adaptation, not just proofreading.
+Cache-write tokens were zero. Local Qwen usage was23,275 tokens (18,341 prompt;
+4,934 completion), separate from paid assistant usage. The shared correction
+window cannot establish which engine caused a given paid cost or a saving.
+
+Qwen omitted a single-character continuation completing the final11 in DATA1130;
+source review restored it. It also inserted a duplicate parenthesis around a wrap
+and read the printed31779 address as31979. Those OCR errors were corrected.
+Apparent source anomalies remain: the explanation says DATA starts1230 although
+the listing starts1130; the variable list includes KT/V.M; faint separators and
+GOTC require human review. The24 DATA lines retain379 literal comma-separated
+fields, including trailing21- in1140 and decimal-like1.2 in1360. This is a
+transcription audit, not a validated executable or reconstructed binary.
+
+| Preselected crop and primary | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p70r04 — clear opening prose, Tesseract | 0.00% | 2.06% |
+| p71r05 — variable definitions, Qwen | 0.00% | 21.43% |
+| p71r12 — faint wrapped BASIC, Qwen | 0.00% | 67.38% |
+| p72r13 — decimal DATA, Qwen | 0.00% | 14.41% |
+
+[Comparison15](ocr-july-comparison-15.json) uses identical PNGs and references
+sealed before alternate OCR. The faint BASIC sample shows a much larger raw gap
+than the clear prose, consistent with continuing this content route. References
+remain unblinded assistant readings, including flagged source ambiguities. The
+sample excludes the omitted1130 continuation. Compact CER ignores whitespace,
+so these scores are neither whole-article accuracy nor proof of paid-token savings.
+
+Export integrity, UTF-8 review ranges, continuation coverage and byte-identical
+rebuild pass. July now has12 complete bodies and24 untouched, with no partial
+bodies and zero human acceptances. Cumulative coverage:64 source pages,876 regions,
+818 text crops,58 images,1,005 BASIC lines,1,071 hex rows,84 assembly rows and224
+flags. Next inspect the remainder of 화성인 디거, candidate73–77, with78 checked
+for the boundary. Full restoration, consolidated metrics and reading room remain.

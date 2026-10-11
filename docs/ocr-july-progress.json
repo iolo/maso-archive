@@ -4,14 +4,14 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 11,
+  "completed_article_bodies": 12,
   "partial_article_bodies": 0,
-  "completed_checkpoints": 16,
+  "completed_checkpoints": 17,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 25,
-  "remaining_toc_entries": 25,
-  "untouched_toc_entries": 25,
+  "remaining_article_bodies": 24,
+  "remaining_toc_entries": 24,
+  "untouched_toc_entries": 24,
   "human_accepted_articles": 0,
   "source": {
     "id": "pdf-maso-8407",
@@ -2623,6 +2623,794 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Tesseract for clear prose/byline; Qwen for headline and BASIC listing. Region assignments fixed before inference."
       }
+    },
+    {
+      "batch": "17",
+      "toc_entry_id": "maso-1984-07-toc-0009",
+      "title": "위기일발",
+      "engine": "mixed",
+      "printed_pages": [
+        66,
+        67,
+        68
+      ],
+      "pdf_pages": [
+        70,
+        71,
+        72
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-17/map.json",
+        "sha256": "4fac947965e50a6d8959a6ccfcbddd29b6afaa0f628de7ceffa2c45568c60356",
+        "bytes": 14156
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-17/hostage-apple/article.json",
+          "sha256": "450cd4e5bff3d17d19a1325196d32cd433197ef70c634623725a26cb2d72c6db",
+          "bytes": 74791
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-17/hostage-apple/manifest.json",
+          "sha256": "48fcf8cf65ab5dd153d1d321713d9fbb8579f0aec749f95a415e1c7ba5d16168",
+          "bytes": 30535
+        },
+        "source_pages": [
+          70,
+          71,
+          72
+        ],
+        "regions": 45,
+        "text_regions": 44,
+        "figures": 1,
+        "physical_listing_rows": 231,
+        "logical_listing_rows": 127,
+        "unresolved_entries": 20,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 190.47572451199812,
+      "recognition_seconds": 169.44362991799426,
+      "local_qwen_tokens": {
+        "prompt_tokens": 18341,
+        "completion_tokens": 4934,
+        "total_tokens": 23275
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-17/transcription-assistant.json",
+        "sha256": "4a14e5ee3fd6b05629b88a3b4f52815f26f6a863ea3f8eb6504fd3f845ab0618",
+        "bytes": 9932
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T10:10:39.335444+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "4a14e5ee3fd6b05629b88a3b4f52815f26f6a863ea3f8eb6504fd3f845ab0618",
+          "bytes": 9932
+        },
+        "method": "Assistant source reading from preassigned mixed primary drafts; sealed before alternate samples, unblinded and not human gold."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "caption": 15,
+        "code": 4408,
+        "other": 729,
+        "prose": 465,
+        "title": 16
+      },
+      "work_window_ids": [
+        "raw-17",
+        "correction-17",
+        "export-17"
+      ],
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p70r03": "tesseract",
+        "p70r04": "tesseract",
+        "p70r05": "tesseract",
+        "p70r06": "tesseract",
+        "p70r07": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 168.1163042469998,
+        "tesseract_recognition_seconds": 1.327325670994469,
+        "qwen_regions": {
+          "p70r02": 0.6388661250020959,
+          "p70r08": 0.5921586440017563,
+          "p70r09": 3.1387617610016605,
+          "p70r10": 3.5536359179968713,
+          "p71r01": 3.9377975140014314,
+          "p71r02": 2.729241818000446,
+          "p71r03": 2.375296114001685,
+          "p71r04": 0.5659428619983373,
+          "p71r05": 2.484905061999598,
+          "p71r06": 2.313924689999112,
+          "p71r07": 2.193829621999612,
+          "p71r08": 1.7879756599977554,
+          "p71r09": 2.2874936740008707,
+          "p71r10": 2.2183770529991307,
+          "p71r11": 5.052713209002832,
+          "p71r12": 4.655276505000074,
+          "p71r13": 5.0334953169985965,
+          "p71r14": 3.953331005999644,
+          "p71r15": 2.634183900001517,
+          "p71r16": 4.247513687001629,
+          "p71r17": 4.459499897999194,
+          "p71r18": 3.79250677500022,
+          "p71r19": 5.612957705998269,
+          "p71r20": 4.724067944000126,
+          "p72r01": 4.513872828996682,
+          "p72r02": 6.163217714001803,
+          "p72r03": 5.148770615000103,
+          "p72r04": 5.153834228000051,
+          "p72r05": 6.18468779199975,
+          "p72r06": 5.233765600001789,
+          "p72r07": 3.7550403519999236,
+          "p72r08": 2.6504065830013133,
+          "p72r09": 4.492786635000812,
+          "p72r10": 5.981493686998874,
+          "p72r11": 6.665590781998617,
+          "p72r12": 10.936424823998095,
+          "p72r13": 7.386823105000076,
+          "p72r14": 9.100485708000633,
+          "p72r15": 9.765351328998804
+        },
+        "tesseract_regions": {
+          "p70r03": 0.09237298199877841,
+          "p70r04": 0.2315659229971061,
+          "p70r05": 0.3408354259991029,
+          "p70r06": 0.35346435599785764,
+          "p70r07": 0.30908698400162393
+        },
+        "reason": "Planned content routing, not a failure fallback."
+      },
+      "qwen_recognition_seconds": 168.1163042469998,
+      "tesseract_recognition_seconds": 1.327325670994469,
+      "assignment_reason": "Planned content routing, not a failure fallback.",
+      "listing_audit": {
+        "logical_basic_rows": 127,
+        "physical_basic_rows": 231,
+        "printed_basic_lines": {
+          "p71r11": [
+            100,
+            110,
+            120,
+            130,
+            140,
+            150
+          ],
+          "p71r12": [
+            160,
+            170,
+            180,
+            190,
+            200
+          ],
+          "p71r13": [
+            210,
+            220,
+            230,
+            240,
+            250
+          ],
+          "p71r14": [
+            260,
+            270,
+            280,
+            290
+          ],
+          "p71r15": [
+            300,
+            310,
+            320,
+            330,
+            340
+          ],
+          "p71r16": [
+            350,
+            360,
+            370,
+            380,
+            390,
+            400,
+            410
+          ],
+          "p71r17": [
+            420,
+            430,
+            440,
+            450,
+            460,
+            470
+          ],
+          "p71r18": [
+            480,
+            490,
+            500,
+            510,
+            520
+          ],
+          "p71r19": [
+            530,
+            540,
+            550,
+            560,
+            570,
+            580,
+            590,
+            600,
+            610
+          ],
+          "p71r20": [
+            620,
+            630,
+            640,
+            650,
+            660
+          ],
+          "p72r01": [
+            670,
+            680,
+            690,
+            700,
+            710,
+            720
+          ],
+          "p72r02": [
+            730,
+            740,
+            750,
+            760,
+            770,
+            780,
+            790
+          ],
+          "p72r03": [
+            800,
+            810,
+            830,
+            840,
+            850
+          ],
+          "p72r04": [
+            860,
+            870,
+            880
+          ],
+          "p72r05": [
+            890,
+            900,
+            910,
+            920
+          ],
+          "p72r06": [
+            930,
+            940,
+            950,
+            960,
+            970
+          ],
+          "p72r07": [
+            980,
+            990,
+            1000,
+            1010
+          ],
+          "p72r08": [
+            1020,
+            1030,
+            1040
+          ],
+          "p72r09": [
+            1050,
+            1060,
+            1070,
+            1075
+          ],
+          "p72r10": [
+            1080,
+            1090,
+            1100,
+            1110,
+            1120
+          ],
+          "p72r11": [
+            1130,
+            1140,
+            1150,
+            1160
+          ],
+          "p72r12": [
+            1170,
+            1180,
+            1190,
+            1200,
+            1210
+          ],
+          "p72r13": [
+            1220,
+            1230,
+            1240,
+            1250
+          ],
+          "p72r14": [
+            1260,
+            1270,
+            1280,
+            1290,
+            1300
+          ],
+          "p72r15": [
+            1310,
+            1320,
+            1330,
+            1340,
+            1350,
+            1360
+          ]
+        },
+        "omitted_raw_rows": {
+          "p72r11": "Single-character continuation completing1130 omitted; restored"
+        },
+        "scope": "All127 logical line numbers and231 physical rows compared with source; physical continuation tracking includes column/page wraps; no execution or character-perfect certification."
+      },
+      "data_audit": {
+        "lines": {
+          "1130": [
+            "20",
+            "2",
+            "19",
+            "3",
+            "18",
+            "4",
+            "17",
+            "5",
+            "16",
+            "6",
+            "15",
+            "7",
+            "14",
+            "8",
+            "13",
+            "9",
+            "12",
+            "10",
+            "11",
+            "11"
+          ],
+          "1140": [
+            "10",
+            "12",
+            "9",
+            "13",
+            "8",
+            "14",
+            "7",
+            "15",
+            "6",
+            "16",
+            "5",
+            "17",
+            "4",
+            "18",
+            "3",
+            "19",
+            "2",
+            "20",
+            "3",
+            "21-"
+          ],
+          "1150": [
+            "4",
+            "22",
+            "5",
+            "23",
+            "6",
+            "24",
+            "7",
+            "25",
+            "8",
+            "26",
+            "9",
+            "27",
+            "10",
+            "28",
+            "11",
+            "29"
+          ],
+          "1160": [
+            "12",
+            "30",
+            "13",
+            "31",
+            "14",
+            "32",
+            "15",
+            "33",
+            "16",
+            "34",
+            "17",
+            "35",
+            "18",
+            "36"
+          ],
+          "1170": [
+            "19",
+            "37",
+            "20",
+            "38",
+            "21",
+            "37",
+            "22",
+            "36",
+            "23",
+            "35",
+            "24",
+            "34",
+            "25",
+            "33",
+            "26",
+            "32"
+          ],
+          "1180": [
+            "27",
+            "31",
+            "28",
+            "30",
+            "29",
+            "29",
+            "30",
+            "28",
+            "31",
+            "27",
+            "32",
+            "26"
+          ],
+          "1190": [
+            "33",
+            "25",
+            "34",
+            "24",
+            "35",
+            "23",
+            "36",
+            "22",
+            "37",
+            "21",
+            "38",
+            "20",
+            "37",
+            "19",
+            "36",
+            "18"
+          ],
+          "1200": [
+            "35",
+            "17",
+            "34",
+            "16",
+            "33",
+            "15",
+            "32",
+            "14",
+            "31",
+            "13",
+            "30",
+            "12",
+            "29",
+            "11",
+            "28",
+            "10"
+          ],
+          "1210": [
+            "27",
+            "9",
+            "26",
+            "8",
+            "25",
+            "7",
+            "24",
+            "6",
+            "23",
+            "5",
+            "22",
+            "4",
+            "21",
+            "3"
+          ],
+          "1220": [
+            "2",
+            "29",
+            "3",
+            "26",
+            "3",
+            "24",
+            "4",
+            "23",
+            "4",
+            "21",
+            "4",
+            "19",
+            "5",
+            "16",
+            "5",
+            "14",
+            "6",
+            "11"
+          ],
+          "1230": [
+            "6",
+            "9",
+            "7",
+            "6",
+            "7",
+            "4",
+            "8",
+            "2",
+            "9",
+            "5",
+            "10",
+            "8",
+            "10",
+            "10",
+            "11",
+            "13",
+            "11",
+            "15",
+            "12",
+            "18"
+          ],
+          "1240": [
+            "13",
+            "21",
+            "13",
+            "23",
+            "14",
+            "26",
+            "14",
+            "28",
+            "15",
+            "30",
+            "16",
+            "33",
+            "17",
+            "35",
+            "18",
+            "32",
+            "19",
+            "29"
+          ],
+          "1250": [
+            "20",
+            "26",
+            "21",
+            "23",
+            "22",
+            "20",
+            "23",
+            "17",
+            "24",
+            "14",
+            "25",
+            "11",
+            "26",
+            "8",
+            "27",
+            "6"
+          ],
+          "1260": [
+            "27",
+            "5",
+            "28",
+            "2",
+            "29",
+            "4",
+            "30",
+            "7",
+            "31",
+            "10",
+            "32",
+            "13",
+            "33",
+            "16",
+            "34",
+            "19",
+            "35",
+            "22"
+          ],
+          "1270": [
+            "36",
+            "25",
+            "35",
+            "26",
+            "34",
+            "27",
+            "33",
+            "28",
+            "32",
+            "29",
+            "31",
+            "30",
+            "30",
+            "31",
+            "29",
+            "32"
+          ],
+          "1280": [
+            "28",
+            "33",
+            "27",
+            "34",
+            "26",
+            "35",
+            "25",
+            "32",
+            "24",
+            "29",
+            "23",
+            "26",
+            "22",
+            "23",
+            "21",
+            "20"
+          ],
+          "1290": [
+            "20",
+            "17",
+            "19",
+            "14",
+            "18",
+            "11",
+            "17",
+            "8",
+            "16",
+            "5",
+            "15",
+            "2",
+            "14",
+            "5",
+            "13",
+            "8",
+            "12",
+            "11"
+          ],
+          "1300": [
+            "11",
+            "14",
+            "10",
+            "17",
+            "9",
+            "20",
+            "8",
+            "23",
+            "7",
+            "26",
+            "6",
+            "29",
+            "5",
+            "32",
+            "4",
+            "35",
+            "3",
+            "32"
+          ],
+          "1310": [
+            "201",
+            "84",
+            "206",
+            "15",
+            "32",
+            "177",
+            "0",
+            "32",
+            "248",
+            "230",
+            "138",
+            "72",
+            "32",
+            "183"
+          ],
+          "1320": [
+            "0",
+            "201",
+            "44",
+            "240",
+            "3",
+            "76",
+            "201",
+            "222",
+            "32",
+            "177",
+            "0",
+            "32",
+            "248",
+            "230"
+          ],
+          "1330": [
+            "104",
+            "134",
+            "3",
+            "134",
+            "1",
+            "133",
+            "0",
+            "170",
+            "160",
+            "1",
+            "132",
+            "2",
+            "173",
+            "48"
+          ],
+          "1340": [
+            "192",
+            "136",
+            "208",
+            "4",
+            "198",
+            "1",
+            "240",
+            "7",
+            "202",
+            "208",
+            "246",
+            "166",
+            "0",
+            "208"
+          ],
+          "1350": [
+            "239",
+            "165",
+            "3",
+            "133",
+            "1",
+            "198",
+            "2",
+            "208",
+            "241",
+            "96"
+          ],
+          "1360": [
+            "1.2",
+            "200",
+            "204",
+            "206",
+            "49152",
+            "7",
+            "22",
+            "0",
+            "2",
+            "39",
+            "1"
+          ]
+        },
+        "data_lines": 24,
+        "comma_delimited_fields": 379,
+        "non_integer_fields": [
+          {
+            "line": "1140",
+            "index": 20,
+            "text": "21-"
+          },
+          {
+            "line": "1360",
+            "index": 1,
+            "text": "1.2"
+          }
+        ],
+        "scope": "All24 printed DATA rows source-compared; fields are transcription strings, not validated machine bytes. 1140 trailing hyphen and1360 decimal-like delimiter retained. No execution."
+      },
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Tesseract for clear prose/byline; Qwen for technical explanation, variables, titles and faint wrapped BASIC/DATA. Region assignments fixed before inference."
+      }
     }
   ],
   "assemblies": [
@@ -3445,9 +4233,15 @@
         ],
         "kind_candidate": "article"
       },
-      "status": "pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 70,
-      "planned_primary_engine": "qwen"
+      "batch": "17",
+      "engine": "mixed",
+      "restoration": {
+        "path": "build/pdf-restoration/12-1984-07-comparison-batch-17/hostage-apple/article.json",
+        "sha256": "450cd4e5bff3d17d19a1325196d32cd433197ef70c634623725a26cb2d72c6db",
+        "bytes": 74791
+      }
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0010",
@@ -3484,7 +4278,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 73
+      "pdf_page_candidate": 73,
+      "planned_primary_engine": "qwen"
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0011",
@@ -4955,12 +5750,17 @@
       "path": "docs/ocr-july-comparison-14.json",
       "sha256": "fa8b1dad91e6a92d43eeaff6883395d6d90a6af45d7ef383fda75d48c6e2fb90",
       "bytes": 8581
+    },
+    {
+      "path": "docs/ocr-july-comparison-15.json",
+      "sha256": "db365025ef4e7be32a6888af53410eb09a68426e500a36d1ba19e5a63a995e31",
+      "bytes": 8570
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "88e807a0e883acdcdd7aeed0e8b0840715792d3ddf05f3d7a310a054aa3d4ffe",
-    "bytes": 60545
+    "sha256": "7ce0d321a09d5ff2d0085a0c0b5e8cf1a84feadc5bece946fba751c02845d264",
+    "bytes": 64293
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -4969,25 +5769,29 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0009",
-      "title": "위기일발",
+      "toc_entry_id": "maso-1984-07-toc-0010",
+      "title": "화성인 디거",
       "candidate_pdf_pages": [
-        70,
-        71,
-        72
+        73,
+        74,
+        75,
+        76,
+        77
       ],
       "printed_pages": [
-        66,
-        67,
-        68
+        69,
+        70,
+        71,
+        72,
+        73
       ],
       "engine": "qwen",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Inspect candidate FC-100 game before choosing crops: Tesseract clear prose/byline, Qwen code/technical notation, original images for graphics.",
-      "extent_status": "Catalog candidates only; inspect70–73 to verify boundaries and advertisements."
+      "routing_reason": "Opening73 visually confirmed. Inspect remaining74–77 before map: Tesseract clear prose, Qwen code/technical notation, retain art as images.",
+      "extent_status": "73 start confirmed; next catalog title 보트 탐험 begins candidate78. Inspect through78 to verify body end."
     }
   ],
-  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Batch14 FC-100 game uses Qwen with one Tesseract fallback and explicit graphic placeholders; a silent nine-line omission was source-corrected. Batch15 completes59–61 with planned Tesseract prose and Qwen definitions/code; two Qwen partial responses were source-corrected. Batch16 completes62–67 with planned5 Tesseract/34 Qwen crops; interrupted run resumed without repeating completed inference. Original Tesseract timers and interrupted inference cost unknown. Source review restored ten wholly omitted lines plus two partial tails. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
+  "decision": "Z80 Qwen segments09–11 are fully assembled across PDF21–38. Apple sound segments12–13 are fully assembled42–49. Batch12 interrupted raw time is bounded;13 includes a failed symbolic-row inference and fresh rerun. Preserve musical symbols as images with editorial descriptions, continuing provisional routing. Batch14 FC-100 game uses Qwen with one Tesseract fallback and explicit graphic placeholders; a silent nine-line omission was source-corrected. Batch15 completes59–61 with planned Tesseract prose and Qwen definitions/code; two Qwen partial responses were source-corrected. Batch16 completes62–67 with planned5 Tesseract/34 Qwen crops; interrupted run resumed without repeating completed inference. Original Tesseract timers and interrupted inference cost unknown. Source review restored ten wholly omitted lines plus two partial tails. Batch17 completes70–72 with planned5 Tesseract/39 Qwen crops,127 logical BASIC rows and231 physical rows. A single-digit continuation omission was restored; faint punctuation and source anomalies remain flagged. No retry or fallback; per-crop timers persisted. Continue provisional routing; cleaner raw text alone does not prove paid-token savings. Music-card article remains fully assembled.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition time is nested within it and must not be added again.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",
