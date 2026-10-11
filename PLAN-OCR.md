@@ -1,6 +1,6 @@
 # Sustainable OCR and correction workflow
 
-Updated: 2026-10-10. Owner: the archive maintainer; implementation and experiments
+Updated: 2026-10-11. Owner: the archive maintainer; implementation and experiments
 assisted by Codex. This is a hobby project's sustainability experiment, not a
 replacement mandate or an unattended restoration project.
 
@@ -1543,3 +1543,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   86 images,526 flags, zero human acceptances. Next inspect graphics128 onward.
   Full restoration/final metrics/reading room outstanding; homepage edit preserved.
   Final reporting/commit usage carries forward.
+
+
+### July computer graphics complete, 2026-10-11
+
+- Full128–134 restored;135–136 advertisements,137 Apple FORTRAN.167 regions,
+  9 images,135 BASIC lines/154 physical rows,45 DATA records and37 flags.
+- Color-table Qwen escaped-tab loop reached4096 tokens. One fallback plus two
+  unattempted ruled tables rerouted: final13 Tesseract/145 Qwen.24 completed Qwen
+  stages reused; no completed inference repeated. Ruled tables now merit a bounded
+  Tesseract probe before committing the group to Qwen.
+- Raw505.01s includes both measured attempts; successful recognition311.72s/1.40s,
+  failed server compute123.76s,58,306 local tokens including failure. Correction
+  611.12s overlaps448.63s;33,307 uncached/2,410,496 cached input and18,964 output.
+  Helper/recovery and content differences confound causal paid-cost comparisons.
+- Seven isolated I/0 continuations, DATA column associations/values, HPLOT and
+  decimal errors source-corrected. Original numbering, prose/code discrepancies
+  and provisional punctuation retained. Four comparison26 samples favor Qwen;
+  their unblinded CER excludes the primary table failure and omitted continuations.
+- Complete export, review/listing ranges,135 numbered-line counts and byte-identical
+  rebuild pass. July21 complete,15 untouched, no partials;119 pages,2,027 regions,
+  1,932 text,95 images,563 flags, zero human acceptances. Next Apple FORTRAN137.
+  Final issue metrics/reading room outstanding; homepage edit preserved. Final
+  reporting/commit usage carries forward.

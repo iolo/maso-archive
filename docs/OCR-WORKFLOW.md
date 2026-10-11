@@ -440,7 +440,13 @@ loops on thin stacked opcode rows. Preserve original table images and use a
 recorded bounded Tesseract fallback for affected/remaining homogeneous rows;
 check every cell, since Tesseract also corrupts flag/opcode symbols. Both failed
 costs and changed assignments remain in the audit. Table CER is typography-sensitive;
-this exception does not establish a paid-cost advantage. This is guidance for choosing new checkpoints;
+this exception does not establish a paid-cost advantage. Batch28 color-table
+output also repeated escaped tabs to the cap, so use a bounded Tesseract probe
+before committing other ruled-table groups to Qwen. Preserve all failed costs.
+For BASIC, check isolated continuation characters: batch28 omitted one I and six
+0 rows, and separated a DATA listing into label/value columns while changing
+scores. Audit every row/field; do not reconstruct source anomalies from expected
+program behavior. Full graphics128–134 is restored with135 BASIC lines. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.

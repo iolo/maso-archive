@@ -95,6 +95,12 @@ stop repeating failed calls, and use a recorded Tesseract fallback for the affec
 row or remaining homogeneous rows. Check every flag and opcode cell against the
 scan; Tesseract also corrupts these symbols. This is a provisional exception, not
 a reversal of the numeric-table starting choice or evidence of paid savings.
+Batch28 extends the caution to a small ruled color table: Qwen repeated escaped
+tabs until the output limit. Use the bounded Tesseract probe before committing
+a group of ruled tables to Qwen, even when the values are simple. Preserve failed
+responses and record any route change; the observed failure does not identify its
+cause or prove Tesseract more economical after correction. Non-ruled BASIC DATA
+and formula samples still favor Qwen in this checkpoint.
 For repeated numeric/CHR$ expressions, check every printed term as well as row
 coverage: batch20 Qwen shortened many repetitions while returning successful
 responses. Use field counts as an audit, never as permission to invent missing
@@ -1775,3 +1781,67 @@ human acceptances. Cumulative:112 source pages,1,860 regions,1,774 text crops,
 86 images,1,541 BASIC lines,1,120 hex rows,196 assembly/example rows,29 Logo rows
 and526 flags. Next inspect graphics title128/body129 and boundary137. Full issue
 restoration, final metric consolidation and the reading room remain outstanding.
+
+
+### Computer graphics — batch28, 2026-10-11
+
+Restored the complete article PDF128–134/printed124–130.128 is the title page;
+129 is the catalog's body reference.135–136 are advertisements and137 begins
+Apple FORTRAN. The package has167 regions:158 text crops,9 original photographs/
+illustrations/graphs,135 numbered BASIC lines in154 physical rows across8 listing
+groups,45 DATA records containing270 printed fields, and37 review flags.
+
+The initial route assigned10 clear captions/byline crops to Tesseract and148
+technical/mottled-background crops to Qwen. Color-table p129r23 repeated escaped
+tabs until4096 tokens. One same-crop Tesseract fallback and two remaining unattempted
+ruled tables then switched the retained output to13 Tesseract/145 Qwen crops.
+All24 completed first-attempt Qwen stages were reused without rerunning recognition.
+This extends the ruled-table caution beyond batch27's opcode/flag rows. The failed
+response, original route and changed assignments remain separately auditable.
+
+Both worker lifespans were measured: raw505.01s is229.16s first attempt plus275.85s
+resume, including failure/startup/render/export and excluding between-attempt
+recovery preparation. Successful recognition is Qwen311.72s/Tesseract1.40s;
+failed Qwen server compute123.76s is separate and nested within raw time.
+Local58,306 tokens include the failed call:46,294 prompt and12,012 completion.
+Correction/source/helper work611.12s overlaps measured raw attempts448.63s; do not
+add the overlapping windows. Correction observations:33,307 uncached input,
+2,410,496 cached input and18,964 output including4,007 reasoning; zero cache-write.
+Mapping, alternate evaluation, export and reporting remain separate. These are
+content/recovery-confounded observations, not causal per-engine correction costs.
+
+Qwen silently omitted seven isolated continuation characters: I completing the
+cube's line100 and six0 rows completing scores in the two DATA listings. Source
+row checks restored them. In one dense DATA crop, Qwen separated line-number/DATA
+labels from values and corrupted several scores and names. All45 records were
+compared against their respective source pages. HPLOT/HPLLOT/HPL0T,1.5/15 and
+Korean graph terms were also corrected. The larger dense-listing crops were fixed
+during preflight before inference; no source crop was changed after recognition.
+
+Source duplicate student17 and missing11,150/160 prose reference,220 versus200
+bar-graph constant, abbreviated HPLOT replacement and missing closing quotation
+remain as printed. Tiny apostrophe/period-like marks are retained provisionally
+and flagged; no program execution, syntax repair or byte-perfect claim is made.
+The second DATA listing ends after390 and jumps to450 END; absent400–440 rows
+were not copied from the earlier program.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p129r01 — introductory prose | 0.00% | 2.82% |
+| p130r07 — frame BASIC | 1.72% | 13.79% |
+| p131r15 — DATA rows310–350 | 4.51% | 58.65% |
+| p134r10 — wrapped sine formula | 0.00% | 47.62% |
+
+[Comparison26](ocr-july-comparison-26.json) uses preselected identical PNGs and
+assistant references sealed before alternates. Compact CER ignores whitespace;
+it does not certify physical-wrap preservation, whole-article accuracy or human
+acceptance. The primary table failure and seven omitted characters occurred
+outside these fixed samples and remain part of the evaluation and cost evidence.
+
+All export, source-linked UTF-8 review/listing ranges, explicit printed-line counts,
+complete coverage and byte-identical rebuild checks pass. July now has21 complete
+article bodies, no partial bodies,15 untouched and zero human acceptances.
+Cumulative:119 source pages,2,027 regions,1,932 text crops,95 images,1,676 BASIC
+lines,1,120 hex rows,196 assembly/example rows,29 Logo rows and563 flags.
+Next inspect Apple FORTRAN137 onward; its ending is unverified. Full-issue
+restoration, final metrics and reading-room build remain outstanding.
