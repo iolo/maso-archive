@@ -1486,3 +1486,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1 partial,17 untouched;96 pages,1,431 regions,1,356 text,75 figures,427 flags.
   Next107–113 and CP/M assembly; full restoration/metrics/reading room outstanding.
   Homepage edit preserved; final report/commit usage carries forward.
+
+
+### July CP/M fully assembled, 2026-10-11
+
+- Batch25 completes107–113:203 regions,199 text crops,4 images,102 console rows
+  including9 assembly statements and38 flags.13 Tesseract/186 Qwen crops; no retry.
+- Raw407.91s; recognition Qwen343.68s/Tesseract0.86s;68,540 local tokens.
+  Correction362.22s overlaps292.09s;20,537 uncached/1,570,688 cached input and
+  11,104 output tokens. Separate assembly/evaluation/reporting; no causal savings.
+- Qwen TEMP.COM restored to source TEMP.$$$; extra/omitted comment rows/markers
+  corrected. Damaged source fragments explicitly marked, original command anomalies
+  retained. Four comparison23 samples favor Qwen; unblinded references remain limited.
+- Full101–113 CP/M assembly:345 regions,7 figures,149 physical listing rows,
+  12 assembly statements,71 flags. Immutable source bytes/review ranges and
+  byte-identical rebuild pass.106/107 joins in one block with original newline retained.
+- July19 complete,17 untouched, no partial bodies, zero human acceptances;103 pages,
+  1,634 regions,1,555 text crops,79 images and465 flags. Next inspect119–129.
+  Full restoration/metrics/reading room remain outstanding; homepage edit preserved.
+  Batch24 timing exclusions persist; final reporting/commit usage carries forward.

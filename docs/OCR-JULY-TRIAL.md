@@ -1609,3 +1609,59 @@ zero. Cumulative coverage:96 source pages,1,431 regions,1,356 text crops,75
 images,1,541 BASIC lines,1,120 hex rows,100 assembly rows,29 Logo rows and427
 flags. Next restore107–113 and assemble all13 CP/M pages. Full-issue restoration,
 final metrics and the reading room remain outstanding.
+
+
+### CP/M conclusion and full article assembly — batch25, 2026-10-11
+
+PDF107–113/printed103–109 completes CP/M 입문. Its203 mapped regions contain
+199 text crops and4 preserved images: page-count formula, SAVE diagram, decorative
+image and tab-stop diagram. The102 nonblank console rows include9 assembly
+statements; inline typeset commands remain in prose.38 source-review flags cover
+damaged characters, original technical anomalies and uncertain punctuation.
+
+Preassigned13 Tesseract captions and186 Qwen technical/mottled-background crops
+completed without retry or fallback. Raw407.91s includes rendering, verification,
+startup and evidence export; recognition sums Qwen343.68s/Tesseract0.86s are nested
+within it. Local Qwen usage68,540 tokens (60,273 prompt,8,267 completion) is separate
+from paid assistant work and alternate evaluation. Correction/source/helper time
+362.22s overlaps raw292.09s. Observed correction usage:20,537 uncached input,
+1,570,688 cached input and11,104 output tokens (including1,482 reasoning), zero
+cache-write. These mixed-content measurements do not isolate causal engine costs.
+
+Qwen changed the CAT directory entry TEMP.$$$ to TEMP.COM, added a blank comment
+row and dropped comment semicolons from the short PIP display. Source comparison
+restored the extension and physical rows. Source108 has damaged character fragments
+even outside our crop; these are explicitly marked rather than inferred as LOAD or
+grammatical endings. Original bare ORG, unlabeled EQU15/20, unusual >A:PIP STAT
+prompt, single-bar typeset command separators, leading AUTORUN stroke and DATCH
+heading remain. The comma-like mark after DUMP in the CAT table remains provisional.
+No command execution, syntax repair or exact-spacing certification is claimed.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p108r12 — STAT console | 0.00% | 7.69% |
+| p109r20 — gray-background PIP prose | 3.39% | 6.78% |
+| p111r03 — assembly rows/comments | 0.00% | 4.46% |
+| p113r02 — CAT directory rows | 3.05% | 16.79% |
+
+[Comparison23](ocr-july-comparison-23.json) uses identical PNGs and references
+sealed before alternate OCR. References are unblinded assistant readings, not human
+gold. Typeset punctuation and the provisional comma-like mark affect these scores;
+compact CER ignores whitespace and is not whole-article or executable-code accuracy.
+The results support continued trials, not a proven paid-token saving.
+
+The full101–113 article is assembled from immutable24/25 packages:345 regions,
+338 text crops,7 figures,149 physical console/listing rows,12 assembly statements
+and71 flags. The106→107 continuation is one reading block; its original terminal
+newline remains between 이 and 름으로 to preserve segment bytes. Listing bytes are
+exactly the concatenated source listings. All source/review UTF-8 ranges, complete
+coverage, export integrity and byte-identical rebuild checks pass. Human acceptance
+is pending. The assembler rejected an initial join assertion that omitted that
+terminal newline; correcting the recipe required no source-package changes.
+
+July now has19 complete article bodies, no partial bodies and17 untouched; zero
+human acceptances. Cumulative coverage:103 source pages,1,634 regions,1,555 text
+crops,79 images,1,541 BASIC lines,1,120 hex rows,109 assembly rows,29 Logo rows
+and465 flags. Next inspect 기계어 강좌, candidate119–128 and boundary129.
+Full-issue restoration, final metric consolidation and the reading room remain
+outstanding. Batch24 timing exclusions remain in force.
