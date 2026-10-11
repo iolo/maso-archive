@@ -5370,6 +5370,96 @@
         "total_tokens": 133479,
         "uncached_nonwrite_input_tokens": 1238
       }
+    },
+    {
+      "id": "preparation-53",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-11T20:09:37.639231+00:00",
+      "end": "2026-10-11T20:12:21.837550+00:00",
+      "elapsed_seconds": 164.19831895828247,
+      "observed_responses": 11,
+      "tokens": {
+        "input_tokens": 1700031,
+        "cached_input_tokens": 1671552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3359,
+        "reasoning_output_tokens": 1061,
+        "total_tokens": 1703390,
+        "uncached_nonwrite_input_tokens": 28479
+      }
+    },
+    {
+      "id": "correction-53",
+      "stage": "correction",
+      "engine": "mixed",
+      "start": "2026-10-11T20:12:22.957236+00:00",
+      "end": "2026-10-11T20:17:05.972775+00:00",
+      "elapsed_seconds": 283.01553893089294,
+      "observed_responses": 9,
+      "tokens": {
+        "input_tokens": 1569728,
+        "cached_input_tokens": 1555072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8569,
+        "reasoning_output_tokens": 1909,
+        "total_tokens": 1578297,
+        "uncached_nonwrite_input_tokens": 14656
+      }
+    },
+    {
+      "id": "export-53",
+      "stage": "export",
+      "engine": "mixed",
+      "start": "2026-10-11T20:17:07.111271+00:00",
+      "end": "2026-10-11T20:17:29.362878+00:00",
+      "elapsed_seconds": 22.251607179641724,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 181993,
+        "cached_input_tokens": 180096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 419,
+        "reasoning_output_tokens": 14,
+        "total_tokens": 182412,
+        "uncached_nonwrite_input_tokens": 1897
+      }
+    },
+    {
+      "id": "evaluation-53",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-11T20:17:30.518012+00:00",
+      "end": "2026-10-11T20:17:43.906779+00:00",
+      "elapsed_seconds": 13.388767004013062,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 182975,
+        "cached_input_tokens": 181760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 183,
+        "reasoning_output_tokens": 31,
+        "total_tokens": 183158,
+        "uncached_nonwrite_input_tokens": 1215
+      }
+    },
+    {
+      "id": "assembly-history",
+      "stage": "assembly",
+      "engine": "mixed",
+      "start": "2026-10-11T20:18:18.347905+00:00",
+      "end": "2026-10-11T20:19:27.408520+00:00",
+      "elapsed_seconds": 69.06061506271362,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 374315,
+        "cached_input_tokens": 370944,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2319,
+        "reasoning_output_tokens": 279,
+        "total_tokens": 376634,
+        "uncached_nonwrite_input_tokens": 3371
+      }
     }
   ],
   "money_cost": null,
@@ -5377,36 +5467,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T20:07:54.461063+00:00",
-    "elapsed_seconds": 147037.4470629692,
-    "observed_responses": 1874,
+    "end": "2026-10-11T20:19:27.408520+00:00",
+    "elapsed_seconds": 147730.39452004433,
+    "observed_responses": 1904,
     "tokens": {
-      "input_tokens": 251851395,
-      "cached_input_tokens": 246170112,
+      "input_tokens": 256732035,
+      "cached_input_tokens": 250991232,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1373414,
-      "reasoning_output_tokens": 321179,
-      "total_tokens": 253224809,
-      "uncached_nonwrite_input_tokens": 5681283
+      "output_tokens": 1392445,
+      "reasoning_output_tokens": 324813,
+      "total_tokens": 258124480,
+      "uncached_nonwrite_input_tokens": 5740803
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T20:07:54.461063+00:00",
-    "elapsed_seconds": 147037.4470629692,
-    "observed_responses": 299,
+    "end": "2026-10-11T20:19:27.408520+00:00",
+    "elapsed_seconds": 147730.39452004433,
+    "observed_responses": 305,
     "tokens": {
-      "input_tokens": 38615944,
-      "cached_input_tokens": 37883008,
+      "input_tokens": 39487542,
+      "cached_input_tokens": 38744704,
       "cache_write_input_tokens": 0,
-      "output_tokens": 135834,
-      "reasoning_output_tokens": 20606,
-      "total_tokens": 38751778,
-      "uncached_nonwrite_input_tokens": 732936
+      "output_tokens": 140016,
+      "reasoning_output_tokens": 20946,
+      "total_tokens": 39627558,
+      "uncached_nonwrite_input_tokens": 742838
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction52:69 Coleco text crops, technical specifications/prices, names and joins;213.797s overlaps179.174s raw. Substantial source reading in preparation; final glyph recheck and regenerated export in export window. Correction alone is not total effort. Fixed65Q4T; successful worker without retries/fallback/primary crop repair. Two T headings were blank and manually source-transcribed. Exact26827localtokens. Four preselected samples:Qwen wins4. Unblinded assistant references, not human gold. No causal paid-token attribution. Older limitations retained per checkpoint, between-window usage retained, human review cost unknown."
+  "limitation": "Correction53:71 Microsoft text crops, nine interview pairs, enlarged historical spelling checks, names and joins;283.016s overlaps172.544s raw. Substantial source reading in preparation; correction alone is not total effort. Fixed70Q1T; successful worker without retries/fallback/primary crop repair. T title blank and directly source-transcribed. Eight historical endings retained; Qwen normalized some. Exact27200localtokens. Four preselected samples:Qwen wins3,ties1. Full history assembled separately with all source costs retained. Unblinded assistant references, not human gold. No causal paid-token attribution. Older limitations retained per checkpoint, between-window usage retained, human review cost unknown."
 }

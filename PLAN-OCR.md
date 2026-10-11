@@ -2076,3 +2076,20 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Final export/rebuild/UTF-8/15 targeted checks pass. Human review remains pending.
 - July34 complete,one partial,one untouched across52 checkpoints. Next Microsoft
   ending259–261,adindex262,assembly,full metrics and authorized reading room.
+
+### July industry history completed and assembled, 2026-10-12
+
+- Restored Microsoft ending259–261:71 text crops,three images,24 flags,five
+  joins,nine Q&A pairs. Eight historical Korean endings preserved after enlarged
+  source checks; Qwen had normalized some. Tesseract title blank,source-transcribed.
+- Fixed70Q/1T after rejected0.186s probe; normal completion,no retries/fallbacks.
+  Raw172.544s;exact27,200 localtokens. Correction283.016s overlaps172.544s raw.
+  Paid14,656 uncached/1,555,072 cached input;8,569 output includes1,909 reasoning.
+  Significant source reading also occurred in preparation; no causal savings claim.
+- Comparison51:three Qwen wins,one tie. Export/rebuild/UTF-8/nine-pair/eight-ending
+  and13 continuation/name checks pass; human review remains pending.
+- Assembled full243–261 from five immutable segments:458 regions,441 text crops,
+  17 original images,123 review flags. Complete extent,all review ranges and
+  byte-identical rebuild verified; no new OCR or source corrections in assembly.
+- July35 complete,zero partial,one untouched across53 checkpoints. Only advertising
+  index262 remains before consolidated metrics and the authorized reading room.

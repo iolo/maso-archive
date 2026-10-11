@@ -3330,3 +3330,50 @@ Final export integrity, byte-identical rebuild, UTF-8 review ranges and15 target
 continuation/specification/fraction/source-spelling checks pass. July remains34
 complete bodies,one partial,one untouched across52 checkpoints. Next:259–261,
 advertising index262,assembly,consolidated metrics and authorized reading room.
+
+## Batch53 and assembly: industry-history ending, PDF259–261
+
+Microsoft ending259–261 contains71 text crops,three images,24 source-linked flags,
+five narrative joins and nine interview question/answer pairs. Four pullquotes
+remain distinct. Enlarged source checks restored eight historical Korean endings,
+including several Qwen had normalized. The printed historical claims and forecasts
+remain unchanged. Human acceptance is pending.
+
+Routing was fixed at70Q/1T after a0.186s opening probe corrupted part of an English
+name. Primary OCR completed normally with no retries, fallback or crop revision.
+Tesseract returned blank text for the large title; it was transcribed from the
+source without a second primary OCR attempt.
+
+| Measurement | Batch53 |
+| --- | ---: |
+| Raw worker, including startup/render/export | 172.544s |
+| Qwen recognition | 150.294s |
+| Tesseract primary recognition | 0.078s |
+| Exact local Qwen tokens | 27,200 |
+| Correction window | 283.016s |
+| Raw/correction overlap | 172.544s |
+| Paid uncached input in correction window | 14,656 |
+| Paid cached input in correction window | 1,555,072 |
+| Paid output, including reasoning | 8,569 |
+| Reasoning, already included in output | 1,909 |
+
+Substantial source reading occurred in preparation. Correction includes enlarged
+glyph checks,transcription,raw comparison,interview joins and helper work. Export,
+evaluation and full-article assembly are separate. Retain all workflow costs and
+subtract overlap; correction alone is not total review effort.
+
+Comparison51 compact CER is Qwen0%/Tesseract8.33%,1.69%/1.69%,0%/12.77%,and
+0%/2.50%:three Qwen wins and one tie. The fixed samples cover names,interview prose
+and historical AI/automation statements. References were sealed before alternates
+and remain unblinded assistant readings,not human gold. No causal paid-cost claim.
+
+The full article243–261 is now assembled from five immutable segments:458 regions,
+441 text crops,17 original images and123 source-linked flags. Each company section
+starts independently,so no inter-segment sentence joins were needed. Existing
+segment joins and source evidence remain intact. Complete extent,all review ranges,
+nine interview pairs and byte-identical rebuild pass; no new OCR or source changes
+were made during assembly.
+
+July now has35 complete bodies,zero partial and one untouched across53 checkpoints.
+The advertising index262 is the only remaining body. Consolidated metrics and the
+authorized reading-room preview follow. Human acceptance remains pending throughout.

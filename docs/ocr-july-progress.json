@@ -4,13 +4,13 @@
   "status": "in-progress",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
-  "completed_article_bodies": 34,
-  "partial_article_bodies": 1,
-  "completed_checkpoints": 52,
+  "completed_article_bodies": 35,
+  "partial_article_bodies": 0,
+  "completed_checkpoints": 53,
   "section_heading_entries": 6,
   "article_bodies_total": 36,
-  "remaining_article_bodies": 2,
-  "remaining_toc_entries": 2,
+  "remaining_article_bodies": 1,
+  "remaining_toc_entries": 1,
   "untouched_toc_entries": 1,
   "human_accepted_articles": 0,
   "source": {
@@ -17634,6 +17634,235 @@
         "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
         "reason": "Representative prose probe corrupted the English name and adjacent Korean into symbols. Qwen prose/pullquotes; Tesseract four short headings. Left crop margins widened during preflight before any primary inference; original illustration backgrounds explain title-edge ink."
       }
+    },
+    {
+      "batch": "53",
+      "toc_entry_id": "maso-1984-07-toc-0034",
+      "title": "읽을거리 : 미국 컴퓨터 산업의 흥망성쇠",
+      "engine": "mixed",
+      "printed_pages": [
+        255,
+        256,
+        257
+      ],
+      "pdf_pages": [
+        259,
+        260,
+        261
+      ],
+      "scale_to": 4000,
+      "map": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-53/map.json",
+        "sha256": "407baa9800df6abd8aefe9a7ec4fdd8f3dfbaf87be830c2b7ee35c182d28bdfc",
+        "bytes": 22453
+      },
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-53/industry-history-microsoft/article.json",
+          "sha256": "f59efc2895873ee06c3d140e355bbae8bf6b1c0635d146753236503129256e5a",
+          "bytes": 106657
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison-batch-53/industry-history-microsoft/manifest.json",
+          "sha256": "72cc5c2e1bb19d50ce33956165e7e521b5c62105bb9ec60389ead468f2b92a8d",
+          "bytes": 49119
+        },
+        "source_pages": [
+          259,
+          260,
+          261
+        ],
+        "regions": 74,
+        "text_regions": 71,
+        "figures": 3,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 24,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "raw_run_seconds": 172.54420401399693,
+      "recognition_seconds": 150.37186520397518,
+      "local_qwen_tokens": {
+        "prompt_tokens": 23429,
+        "completion_tokens": 3771,
+        "total_tokens": 27200
+      },
+      "reference": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-53/transcription-assistant.json",
+        "sha256": "f0ed7c06f2ec133e16aab2b5bc7117499ec1c5bad54f6af83fe0236149b700cf",
+        "bytes": 12769
+      },
+      "reference_fixed": {
+        "fixed_at": "2026-10-11T20:17:04.871942+00:00",
+        "reference": {
+          "path": "transcription-assistant.json",
+          "sha256": "f0ed7c06f2ec133e16aab2b5bc7117499ec1c5bad54f6af83fe0236149b700cf",
+          "bytes": 12769
+        },
+        "method": "Unblinded assistant source reference, not human gold. Four sample images selected before primary OCR; alternates after seal; identical-image rejected probe reused once."
+      },
+      "corrected_nonwhitespace_characters_by_kind": {
+        "prose": 3714,
+        "title": 8
+      },
+      "work_window_ids": [
+        "correction-53",
+        "export-53"
+      ],
+      "failed_server_compute_seconds": null,
+      "recognition_limitation": "Exact captured local usage from70 Qwen responses;1 Tesseract primary calls. Rejected0.186s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution.",
+      "raw_run_seconds_basis": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+      "recovery": {
+        "attempts": 1,
+        "reason": "Saved worker15272 completed exit0; no interruption, fallback, crop revision or duplicate primary.",
+        "final_completed_crops": 71,
+        "duplicated_successful_crops": 0,
+        "interrupted_crops": 0,
+        "failed_crops": 0,
+        "successful_recognition_seconds": 150.29372451797826,
+        "local_qwen_tokens_all_attempts": {
+          "prompt_tokens": 23429,
+          "completion_tokens": 3771,
+          "total_tokens": 27200
+        },
+        "limitation": "Exact captured local usage from70 Qwen responses;1 Tesseract primary calls. Rejected0.186s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      },
+      "recovery_evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/batch-53/recovery-accounting.json",
+        "sha256": "0ef2dc42af18e06dc80919085ae0f93a4eae9f844335f85564bf1d36722efb40",
+        "bytes": 652
+      },
+      "local_qwen_tokens_retained_successes": {
+        "prompt_tokens": 23429,
+        "completion_tokens": 3771,
+        "total_tokens": 27200
+      },
+      "recognition_seconds_retained_successes": 150.29372451797826,
+      "primary_engine": "qwen",
+      "region_engine_overrides": {
+        "p259r02": "tesseract"
+      },
+      "mixed_accounting": {
+        "qwen_successful_recognition_seconds": 150.29372451797826,
+        "tesseract_recognition_seconds": 0.07814068599691382,
+        "qwen_regions": {
+          "p259r03": 2.5025637119979365,
+          "p259r04": 2.4436894339960418,
+          "p259r05": 2.04733366399887,
+          "p259r06": 1.5128568000000087,
+          "p259r07": 2.1086636159961927,
+          "p259r08": 2.054900096998608,
+          "p259r09": 2.341907052999886,
+          "p259r10": 0.5410201929989853,
+          "p259r11": 2.0240392470004736,
+          "p259r12": 1.909440010000253,
+          "p259r13": 2.7859088080003858,
+          "p260r01": 2.362990007000917,
+          "p260r02": 1.691459217996453,
+          "p260r03": 2.393481409002561,
+          "p260r04": 1.4481052990013268,
+          "p260r06": 2.532740462003858,
+          "p260r07": 2.4714460040049744,
+          "p260r08": 2.394166780002706,
+          "p260r09": 2.409961169003509,
+          "p260r10": 1.2863102109986357,
+          "p260r11": 1.8930384140039678,
+          "p260r12": 1.2963323049989413,
+          "p260r13": 2.235082124003384,
+          "p260r14": 0.8622445959990728,
+          "p260r15": 2.3293361549949623,
+          "p260r16": 2.189434121006343,
+          "p260r17": 2.2936814589993446,
+          "p260r18": 2.4820592510004644,
+          "p260r19": 1.5038220360002015,
+          "p260r20": 2.3143194379954366,
+          "p260r21": 2.3570006789959734,
+          "p260r22": 2.3743773060050444,
+          "p260r23": 1.874174494005274,
+          "p260r24": 2.520119969994994,
+          "p260r25": 2.095542149996618,
+          "p260r26": 2.4839410109998425,
+          "p260r27": 2.1724785900005372,
+          "p260r28": 2.3363859339951887,
+          "p260r29": 2.394534108003427,
+          "p260r30": 2.4020909809987643,
+          "p260r31": 1.8607000579941086,
+          "p261r01": 2.2744365120015573,
+          "p261r02": 2.0280209479969926,
+          "p261r03": 2.369771530997241,
+          "p261r04": 2.2782146360041224,
+          "p261r05": 2.5866476989976945,
+          "p261r06": 2.1735581169996294,
+          "p261r07": 2.1771746489976067,
+          "p261r08": 2.3063747319974937,
+          "p261r09": 1.805623068001296,
+          "p261r10": 2.5365800880026654,
+          "p261r11": 2.1585958159994334,
+          "p261r12": 2.024308389998623,
+          "p261r13": 2.2499196529970504,
+          "p261r14": 2.458006615001068,
+          "p261r15": 2.097320380002202,
+          "p261r16": 1.9427770379988942,
+          "p261r17": 2.558217166995746,
+          "p261r18": 2.2933200650004437,
+          "p261r20": 2.4209253450026154,
+          "p261r21": 2.2002649389978615,
+          "p261r22": 2.491621629000292,
+          "p261r23": 2.28414852500282,
+          "p261r24": 1.5925660990033066,
+          "p261r25": 1.7236246629981906,
+          "p261r26": 2.279347465002502,
+          "p261r27": 2.387809085994377,
+          "p261r28": 2.291602655997849,
+          "p261r29": 2.263508896998246,
+          "p261r30": 2.5057597369959694
+        },
+        "tesseract_regions": {
+          "p259r02": 0.07814068599691382
+        },
+        "reason": "Representative opening probe corrupted Bill and an opening parenthesis into digits and inserted stray punctuation. Qwen introduction, interview and pullquotes; Tesseract single large title with mandatory source presence check. Boundaries visually verified before primary inference."
+      },
+      "qwen_recognition_seconds": 150.29372451797826,
+      "tesseract_recognition_seconds": 0.07814068599691382,
+      "assignment_reason": "Representative opening probe corrupted Bill and an opening parenthesis into digits and inserted stray punctuation. Qwen introduction, interview and pullquotes; Tesseract single large title with mandatory source presence check. Boundaries visually verified before primary inference.",
+      "correction_raw_overlap": {
+        "correction_seconds": 283.015539,
+        "raw_overlap_seconds": 172.544192,
+        "scope": "71 source crop transcriptions, raw comparison, selected glyph rechecks, interview boundaries and historical forecasts, historical names/typesetting anomalies, explicit joins and helper work. Substantial source reading occurred earlier in preparation while checking crop boundaries; correction-window timing alone understates total source-reading effort. Export/evaluation separate. No per-engine paid attribution."
+      },
+      "preflight_probes": [
+        {
+          "region_id": "p259r03",
+          "image": {
+            "path": "preflight/p259r03.png",
+            "sha256": "b3d7174eaf2348090999c082d8f63aa93d6c5e392cacbc37cc5433ad4b1c18d8",
+            "bytes": 90044
+          },
+          "seconds": 0.18647871800203575,
+          "config": {
+            "languages": "kor+eng",
+            "psm": 6
+          }
+        }
+      ],
+      "preflight_probe_seconds": 0.18647871800203575,
+      "region_language_overrides": {
+        "p259r02": "kor+eng"
+      },
+      "preflight_probe_accounting": "Rejected probe preparation-only, reuse once for identical-image alternate.",
+      "primary_probe_reuse": {},
+      "routing": {
+        "rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+        "reason": "Representative opening probe corrupted Bill and an opening parenthesis into digits and inserted stray punctuation. Qwen introduction, interview and pullquotes; Tesseract single large title with mandatory source presence check. Boundaries visually verified before primary inference."
+      }
     }
   ],
   "assemblies": [
@@ -18334,6 +18563,102 @@
         "all_review_ranges": true,
         "listing_bytes_unchanged": true,
         "all_logical_rows_partition_physical_evidence": true,
+        "source_segments_immutable": true
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-07-toc-0034",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/12-1984-07-comparison/industry-history/article.json",
+        "sha256": "5d959bdb55bf5ca0e30ce290690d4d8565fbf6c7d0a27ab5d97be16ca9d53c14",
+        "bytes": 706977
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/12-1984-07-comparison/industry-history/manifest.json",
+        "sha256": "042f19d12fa22dc0381a289456493ae19cb4c6a36eabf18b94fadeb84131b404",
+        "bytes": 338401
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/history-assembly-recipe.json",
+        "sha256": "af229591995b9556ce99f745189422ce73881016d058c26312e3d2db6c0fbf5f",
+        "bytes": 4202
+      },
+      "pdf_pages": [
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
+      ],
+      "segments": [
+        {
+          "name": "opening-apple",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-49/industry-history-opening/manifest.json",
+            "sha256": "bc4e2f7815c0ac273d1470147cadac240d7d1619f338aa763aebc1a793302763",
+            "bytes": 89975
+          }
+        },
+        {
+          "name": "atari",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-50/industry-history-atari/manifest.json",
+            "sha256": "a9fc258d6b4633c4c7b0e7249dd2b879caf5496b326550fd196eedf985255f0c",
+            "bytes": 70594
+          }
+        },
+        {
+          "name": "commodore",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-51/industry-history-commodore/manifest.json",
+            "sha256": "3e234040c0a2120b4afbca31ea2c4a822b214e905c54e5cb6d7cd3ab6db9d8ad",
+            "bytes": 45763
+          }
+        },
+        {
+          "name": "coleco",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-52/industry-history-coleco/manifest.json",
+            "sha256": "3800f6edd297df23b251c2092a75fd31c864f10c841c002a691f9c51da0d9e87",
+            "bytes": 47751
+          }
+        },
+        {
+          "name": "microsoft",
+          "manifest": {
+            "path": "build/pdf-restoration/12-1984-07-comparison-batch-53/industry-history-microsoft/manifest.json",
+            "sha256": "72cc5c2e1bb19d50ce33956165e7e521b5c62105bb9ec60389ead468f2b92a8d",
+            "bytes": 49119
+          }
+        }
+      ],
+      "regions": 458,
+      "text_regions": 441,
+      "figures": 17,
+      "unresolved_entries": 123,
+      "interview_pairs": 9,
+      "physical_listing_rows": 0,
+      "human_acceptance": "pending",
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "complete_source_extent": true,
         "source_segments_immutable": true
       }
     }
@@ -20751,15 +21076,112 @@
         "section_path": [],
         "kind_candidate": "article"
       },
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "pdf_page_candidate": 243,
-      "batch": "52",
+      "batch": "53",
       "engine": "mixed",
       "restoration": {
-        "path": "build/pdf-restoration/12-1984-07-comparison-batch-52/industry-history-coleco/article.json",
-        "sha256": "6476c73b5988d67c26401c5e4bdfa4b3398fbc3681e85016bb7668318a993e7b",
-        "bytes": 104208
+        "path": "build/pdf-restoration/12-1984-07-comparison/industry-history/article.json",
+        "sha256": "5d959bdb55bf5ca0e30ce290690d4d8565fbf6c7d0a27ab5d97be16ca9d53c14",
+        "bytes": 706977
       },
+      "assembly": {
+        "toc_entry_id": "maso-1984-07-toc-0034",
+        "engine": "mixed",
+        "package": {
+          "path": "build/pdf-restoration/12-1984-07-comparison/industry-history/article.json",
+          "sha256": "5d959bdb55bf5ca0e30ce290690d4d8565fbf6c7d0a27ab5d97be16ca9d53c14",
+          "bytes": 706977
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/12-1984-07-comparison/industry-history/manifest.json",
+          "sha256": "042f19d12fa22dc0381a289456493ae19cb4c6a36eabf18b94fadeb84131b404",
+          "bytes": 338401
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/12-1984-07-comparison/history-assembly-recipe.json",
+          "sha256": "af229591995b9556ce99f745189422ce73881016d058c26312e3d2db6c0fbf5f",
+          "bytes": 4202
+        },
+        "pdf_pages": [
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261
+        ],
+        "segments": [
+          {
+            "name": "opening-apple",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-49/industry-history-opening/manifest.json",
+              "sha256": "bc4e2f7815c0ac273d1470147cadac240d7d1619f338aa763aebc1a793302763",
+              "bytes": 89975
+            }
+          },
+          {
+            "name": "atari",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-50/industry-history-atari/manifest.json",
+              "sha256": "a9fc258d6b4633c4c7b0e7249dd2b879caf5496b326550fd196eedf985255f0c",
+              "bytes": 70594
+            }
+          },
+          {
+            "name": "commodore",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-51/industry-history-commodore/manifest.json",
+              "sha256": "3e234040c0a2120b4afbca31ea2c4a822b214e905c54e5cb6d7cd3ab6db9d8ad",
+              "bytes": 45763
+            }
+          },
+          {
+            "name": "coleco",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-52/industry-history-coleco/manifest.json",
+              "sha256": "3800f6edd297df23b251c2092a75fd31c864f10c841c002a691f9c51da0d9e87",
+              "bytes": 47751
+            }
+          },
+          {
+            "name": "microsoft",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-07-comparison-batch-53/industry-history-microsoft/manifest.json",
+              "sha256": "72cc5c2e1bb19d50ce33956165e7e521b5c62105bb9ec60389ead468f2b92a8d",
+              "bytes": 49119
+            }
+          }
+        ],
+        "regions": 458,
+        "text_regions": 441,
+        "figures": 17,
+        "unresolved_entries": 123,
+        "interview_pairs": 9,
+        "physical_listing_rows": 0,
+        "human_acceptance": "pending",
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "complete_source_extent": true,
+          "source_segments_immutable": true
+        }
+      },
+      "assembly_required": false,
       "restored_pdf_pages": [
         243,
         244,
@@ -20776,7 +21198,10 @@
         255,
         256,
         257,
-        258
+        258,
+        259,
+        260,
+        261
       ],
       "covered_pdf_pages": [
         243,
@@ -20794,82 +21219,13 @@
         255,
         256,
         257,
-        258
-      ],
-      "partial_pdf_pages": [],
-      "deferred_pdf_pages": [
+        258,
         259,
         260,
         261
       ],
-      "assembly_required": true,
-      "segments": [
-        {
-          "batch": "49",
-          "engine": "mixed",
-          "package": {
-            "path": "build/pdf-restoration/12-1984-07-comparison-batch-49/industry-history-opening/article.json",
-            "sha256": "fa6f658f450e498f4e2181dfa9638c18a663de0dc7910907d5051d3b3a0f1a75",
-            "bytes": 193306
-          },
-          "pdf_pages": [
-            243,
-            244,
-            245,
-            246,
-            247,
-            248
-          ],
-          "partial_pdf_pages": []
-        },
-        {
-          "batch": "50",
-          "engine": "mixed",
-          "package": {
-            "path": "build/pdf-restoration/12-1984-07-comparison-batch-50/industry-history-atari/article.json",
-            "sha256": "042aa54f13e06312efe70e7250cf2e0ed13eb993d9fe309c4d3da8f1a1d7cddf",
-            "bytes": 153130
-          },
-          "pdf_pages": [
-            249,
-            250,
-            251,
-            252
-          ],
-          "partial_pdf_pages": []
-        },
-        {
-          "batch": "51",
-          "engine": "mixed",
-          "package": {
-            "path": "build/pdf-restoration/12-1984-07-comparison-batch-51/industry-history-commodore/article.json",
-            "sha256": "8b044c81d22aef4ce2663b6ea7aaa24fbcb53a704790f31dae3ecb697eb9cf47",
-            "bytes": 100128
-          },
-          "pdf_pages": [
-            253,
-            254,
-            255
-          ],
-          "partial_pdf_pages": []
-        },
-        {
-          "batch": "52",
-          "engine": "mixed",
-          "package": {
-            "path": "build/pdf-restoration/12-1984-07-comparison-batch-52/industry-history-coleco/article.json",
-            "sha256": "6476c73b5988d67c26401c5e4bdfa4b3398fbc3681e85016bb7668318a993e7b",
-            "bytes": 104208
-          },
-          "pdf_pages": [
-            256,
-            257,
-            258
-          ],
-          "partial_pdf_pages": []
-        }
-      ],
-      "planned_primary_engine": "mixed"
+      "partial_pdf_pages": [],
+      "deferred_pdf_pages": []
     },
     {
       "toc_entry_id": "maso-1984-07-toc-0035",
@@ -21342,7 +21698,8 @@
         "kind_candidate": "article"
       },
       "status": "pending",
-      "pdf_page_candidate": 262
+      "pdf_page_candidate": 262,
+      "planned_primary_engine": "mixed"
     }
   ],
   "comparison": {
@@ -21600,12 +21957,17 @@
       "path": "docs/ocr-july-comparison-50.json",
       "sha256": "90e912fdb78ef298cd170225d4c8f04ddbd2880e9dca41d1ec5d34ae6ea295b7",
       "bytes": 11876
+    },
+    {
+      "path": "docs/ocr-july-comparison-51.json",
+      "sha256": "8cf9eb642363700c7b1fd13580178c809cae520ad6d853757c9bc1b8e975d2aa",
+      "bytes": 11866
     }
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "a83ec009eebaf63ed5761e64013ec16145baa639a6e358775f8e73c9bb73f055",
-    "bytes": 176490
+    "sha256": "e2dac23ce55c9bd2bdd1d294d223ea63f425bbae8dfcfa56e0305ebd2e56b243",
+    "bytes": 179368
   },
   "reading_room": {
     "action": "build-after-restoration-and-metrics",
@@ -21614,20 +21976,18 @@
   },
   "next_pair": [
     {
-      "toc_entry_id": "maso-1984-07-toc-0034",
-      "title": "미국 컴퓨터산업의 흥망성쇠",
+      "toc_entry_id": "maso-1984-07-toc-0042",
+      "title": "광고색인",
       "candidate_pdf_pages": [
-        259,
-        260,
-        261
+        262
       ],
       "engine": "mixed",
       "routing_rule": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
-      "routing_reason": "Continue Microsoft ending259–261; inspect boundaries before primary OCR and apply documented content routing.",
-      "extent_status": "Full243–261 source verified.243–258 restored across49–52;259–261 deferred; assembly required."
+      "routing_reason": "Restore final advertising index: inspect columns, row associations and telephone/page values; bounded probe before fixing engine assignments.",
+      "extent_status": "Candidate262/printed258; verify whole-page extent and adjacent263."
     }
   ],
-  "decision": "July34 complete bodies,1partial,1untouched,52checkpoints; human acceptance pending. History243–258 restored across49–52, full243–261 verified. Coleco256–258:69text3fig25flags5joins; fixed65Q4T, no primary recovery. Two T headings blank and manually transcribed. Raw179.174s exact26827localtokens. Correction213.797s overlaps179.174s, significant earlier source reading in preparation and final glyph checks in export. Comparison50 Qwins4. Continue history259–261/adindex262, assemble history, consolidate metrics, build reading room. No causal paid savings claim.",
+  "decision": "July35 complete bodies,0partial,1untouched,53checkpoints; human acceptance pending. Full history243–261 assembled across49–53:458regions441text17fig123flags. Microsoft ending71text3fig24flags5joins,nineQA pairs,eight historical spellings retained. Fixed70Q1T,no primary recovery. Raw172.544s exact27200localtokens; correction283.016s overlaps172.544s, earlier source reading in preparation. Comparison51 Qwins3ties1. Continue sole remaining advertising index262, consolidate metrics, build reading room. No causal paid savings claim.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition is normally nested and must not be added again. Batch44 includes one0.244653s preflight prose probe in recognition outside its raw-worker lifespan. Batch30 includes one0.205s preflight table probe in its recognition sum but outside its measured raw-worker lifespan; count that reused inference once.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",
