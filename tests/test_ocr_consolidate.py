@@ -5,6 +5,7 @@ import tempfile
 import unittest
 
 from tools.ocr_qwen.consolidate import pooled, unique_responses, usage
+from tools.ocr_qwen.consolidate_july import paired_times, window_totals
 
 
 def row(errors, chars):
@@ -17,6 +18,19 @@ def row(errors, chars):
 
 
 class ConsolidationTests(unittest.TestCase):
+    def test_missing_timer_excludes_both_sides(self):
+        rows = [dict(batch='01', region_id='a', qwen_seconds=10, tesseract_seconds=2),
+                dict(batch='02', region_id='b', qwen_seconds=100, tesseract_seconds=None)]
+        result = paired_times(rows)
+        self.assertEqual(result['crops'], 1)
+        self.assertEqual(result['qwen_to_tesseract_time_ratio'], 5)
+        self.assertEqual(result['omitted'], [dict(batch='02', region_id='b')])
+
+    def test_unobserved_window_retained_as_unknown(self):
+        result = window_totals([dict(id='empty', elapsed_seconds=3, observed_responses=0, tokens=None)])
+        self.assertEqual(result['elapsed_seconds'], 3)
+        self.assertEqual(result['windows_without_observed_usage'], ['empty'])
+
     def test_pool_weights_characters_not_crop_percentages(self):
         result = pooled([row(1, 1), row(0, 99)])
         self.assertEqual(result['engines']['qwen']['cer']['rate'], .01)

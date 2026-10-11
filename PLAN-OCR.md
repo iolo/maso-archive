@@ -2109,3 +2109,27 @@ commit code/documentation. Do not count a partial opening as a complete article.
   All36 July bodies restored across54 checkpoints;zero partial or untouched.
   Human review remains pending. Full metrics consolidation and authorized reading
   room are the remaining goal deliverables; reporting/commit usage carries forward.
+
+### July metrics and human-review preview completed, 2026-10-12
+
+- All36 article bodies cover225 source pages;42 TOC entries reconcile as36 bodies
+  and six group headings. All human acceptance remains pending.
+- Consolidated206 ordinary crops: Qwen2.35% versus Tesseract22.56% compact CER;
+  197 Qwen wins,four Tesseract wins,five ties. Four leader-normalized index crops
+  stay separate.209 matched timed crops:805.51s versus41.42s (19.45× raw time).
+- Native audit reconciles1,776,981 captured primary local tokens including failures
+  and superseded work,plus24,246 alternate-evaluation tokens separately. Interrupted
+  uncaptured generation remains unknown. Paid usage includes preparation,export,
+  assembly,evaluation,reporting and between-window work; no causal savings claim.
+- Decision and reproducible aggregator:docs/OCR-JULY-DECISION.md,
+  docs/ocr-july-metrics.json,tools/ocr_qwen/consolidate_july.py. Continue the documented
+  provisional routing rule; local GPU cost remains excluded from the decision.
+- Complete preview:http://127.0.0.1:4188/archive/#/issues/maso-1984-07.
+  Fresh output preserves all184 earlier scan articles and CD data. Full integrity,
+  preservation,TOC accounting,production build,19 frontend and seven metric tests
+  passed. Browser checked code,desktop/mobile source review,original OCR and final
+  assembled-history region. Private screenshots and evidence retained.
+- The interrupted delivery wait is excluded from active review windows using the
+  last confirmed browser action; uninstrumented tail stays in between-window usage.
+  Final audit has an explicit cutoff; the subsequent commit/report tail is excluded.
+  Restoration,metrics and preview goal complete; next work awaits human review.

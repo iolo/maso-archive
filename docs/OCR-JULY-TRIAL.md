@@ -3422,3 +3422,23 @@ reference values and three cover markers pass. July restoration now covers all36
 article bodies across54 checkpoints,with zero partial or untouched bodies. Human
 acceptance remains pending. Consolidated metrics and the authorized reading-room
 preview are still required to complete the goal.
+
+## Whole-issue consolidation and preview complete
+
+All36 articles across225 source pages are restored and available in the
+[July reading-room preview](http://127.0.0.1:4188/archive/#/issues/maso-1984-07).
+Human acceptance remains pending. [Accounting](ocr-july-accounting.json) reconciles
+42 TOC entries as36 bodies and six headings.
+
+The [decision report](OCR-JULY-DECISION.md) and [reproducible metrics](ocr-july-metrics.json)
+retain raw accuracy,timing bounds,retries,paid cached/uncached/output usage,
+evaluation and workflow overhead.206 ordinary crops score2.35% Qwen versus22.56%
+Tesseract compact CER;209 matched timed crops take805.51s versus41.42s. Index52
+remains separate. This supports the raw-accuracy advantage and continued provisional
+routing,without establishing causal paid-token savings or a final corrected error rate.
+
+The fresh reader preserves prior June/scan/CD data. Full integrity,preservation,
+production build and browser review checks passed; see [reading-room instructions](READING-ROOM.md).
+The restoration-only usage snapshot is frozen before consolidation and preview;
+the final cumulative audit separately includes those delivery stages,with an explicit
+cutoff and no idle-pause-as-active-work claim. Final commit/report tail is outside that cutoff.

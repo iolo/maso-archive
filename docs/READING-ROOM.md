@@ -1,5 +1,42 @@
 # Reading room
 
+## Complete July routed-OCR review preview
+
+The [July review preview](http://127.0.0.1:4188/archive/#/issues/maso-1984-07)
+contains all **36 articles across 225 source pages**, including complete code
+listings, the 19-page industry history and advertising index. All 42 contents
+entries are accounted for: 36 readable articles and six group headings. Every
+article remains pending human acceptance.
+
+Choose **원문과 나란히 검토하기 →**, then **쪽 / 영역** to compare a corrected
+region with its scan. Original OCR, correction notes and uncertainties remain
+available. Copy a region URL when reporting a correction. This is a read-only
+preview; opening an article does not approve it.
+
+The fresh output is `build/reading-room-routed-july-complete`, staged with
+`tools.reading_room.scan_issue` from `build/reading-room-qwen-june-complete/data`
+and `private/pdf-restoration/12-1984-07-comparison/whole-issue-ledger.json`.
+It preserves all 184 earlier scan articles and the CD collection, for 220 scan
+articles total. The data manifest SHA-256 is
+`b5b05a2968da1bc75b6c88622d284d55a7bd49b4e3ffce2d295d4e341c05357c`.
+
+```sh
+cd web
+READING_ROOM_OUTPUT=build/reading-room-routed-july-complete READING_ROOM_BASE=/archive/ npm run preview -- --port 4188 --strictPort
+```
+
+Full dataset integrity, prior-file preservation, TOC accounting and production
+build passed. All 19 frontend tests and seven metric tests passed. Browser checks
+covered the 36-article contents page, code article, region navigation, original
+OCR disclosure, loaded scans, mobile layout without page overflow, and the final
+region of the assembled history. No browser errors were observed in the resumed
+review session. Private results and screenshots remain ignored by Git.
+
+See [July accounting](ocr-july-accounting.json), [progress](ocr-july-progress.json)
+and the [OCR decision report](OCR-JULY-DECISION.md). June's separate preview remains
+unchanged. Human review, uncertain glyph resolution and code execution validation
+remain distinct from this completed restoration-and-preview delivery.
+
 ## Complete June Qwen review preview
 
 The [complete private June reader](http://127.0.0.1:4187/archive/#/issues/maso-1984-06)

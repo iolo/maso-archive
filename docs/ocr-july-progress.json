@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1984-07",
-  "status": "in-progress",
+  "status": "restored-and-preview-ready-human-pending",
   "objective": "Restore remaining July article bodies with provisional content routing, consolidate paid-token/time metrics, then build the reading room for mandatory human review. Local GPU cost excluded from the routing decision.",
   "canonical_toc_entries": 42,
   "completed_article_bodies": 36,
@@ -22163,16 +22163,34 @@
   ],
   "assistant_usage": {
     "path": "docs/ocr-july-usage.json",
-    "sha256": "9c9297cc66e3b183541429ba03dda24b97a2aa37cbfd0b0cdf1e1aafb5ba924d",
-    "bytes": 181563
+    "sha256": "2c6be7ca67cd39f2afe73cfd2a271915eac3b38516b11ed84fe3b168da6b59f3",
+    "bytes": 184271
   },
   "reading_room": {
-    "action": "build-after-restoration-and-metrics",
+    "action": "built-and-verified",
     "authorized_by": "Active user goal: restore remaining July articles, consolidate metrics, then build reading room for human review.",
-    "instruction_date": "2026-10-11"
+    "instruction_date": "2026-10-11",
+    "status": "ready-for-human-review",
+    "url": "http://127.0.0.1:4188/archive/#/issues/maso-1984-07",
+    "output": "build/reading-room-routed-july-complete",
+    "manifest": {
+      "path": "build/reading-room-routed-july-complete/data/manifest.json",
+      "sha256": "b5b05a2968da1bc75b6c88622d284d55a7bd49b4e3ffce2d295d4e341c05357c",
+      "bytes": 17105234
+    },
+    "result": {
+      "path": "private/pdf-restoration/12-1984-07-comparison/reader-complete-result.json",
+      "sha256": "5025c2ed849fda8f7a1ca65f5b6c0e189696325f2140875c07b298cf0f0e624e",
+      "bytes": 2514
+    },
+    "accounting": {
+      "path": "docs/ocr-july-accounting.json",
+      "sha256": "38ee0097136a70bcea9b8f8e067720c1c31bdf3e4cf7866ac5ffb6d58d60de65",
+      "bytes": 16474
+    }
   },
   "next_pair": [],
-  "decision": "July36 complete bodies,0partial,0untouched,54checkpoints; all human acceptance pending. Final advertising index262 has25advertisers27references including3covers, all source-checked. Fixed25Q1T, no retries/fallback/repair; raw28.709s exact5148localtokens. Correction89.157s overlaps28.709s; earlier source reading in preparation. Comparison52 Qwins4 with explicit dot-leader normalization, excluded from pooling with literal CER. All restoration and fullhistoryassembly done. Next consolidate metrics and build authorized reading room; no causal paid savings claim.",
+  "decision": "All36 July bodies restored across225 source pages; metrics consolidated and complete reader validated. Provisional routing retained. Raw accuracy supports Qwen, but causal paid-token savings remain unmeasured. All human acceptance pending; restoration/metrics/preview delivery complete.",
   "accounting_notes": [
     "Raw run time includes startup/render/validation/export; recognition is normally nested and must not be added again. Batch44 includes one0.244653s preflight prose probe in recognition outside its raw-worker lifespan. Batch30 includes one0.205s preflight table probe in its recognition sum but outside its measured raw-worker lifespan; count that reused inference once.",
     "Usage windows include tool waits and artifact writing; see per-window limitations. Unallocated usage between windows is retained.",

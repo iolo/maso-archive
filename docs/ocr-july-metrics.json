@@ -1,0 +1,2140 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-07",
+  "counts": {
+    "articles": 36,
+    "checkpoints": 54,
+    "toc_entries": 42,
+    "group_headings": 6,
+    "human_accepted": 0,
+    "unique_source_pages": 225,
+    "regions": 4940,
+    "figures": 262,
+    "engine_checkpoints": {
+      "qwen": 11,
+      "tesseract": 3,
+      "mixed": 40
+    }
+  },
+  "accuracy": {
+    "body_text": {
+      "crops": 206,
+      "engines": {
+        "qwen": {
+          "cer": {
+            "edits": 940,
+            "reference_characters": 30290,
+            "rate": 0.03103334433806537
+          },
+          "cer_no_whitespace": {
+            "edits": 560,
+            "reference_characters": 23853,
+            "rate": 0.02347713075923364
+          }
+        },
+        "tesseract": {
+          "cer": {
+            "edits": 6401,
+            "reference_characters": 30290,
+            "rate": 0.21132386926378344
+          },
+          "cer_no_whitespace": {
+            "edits": 5382,
+            "reference_characters": 23853,
+            "rate": 0.22563199597534903
+          }
+        }
+      },
+      "compact_crop_outcomes": {
+        "qwen_lower": 197,
+        "tesseract_lower": 4,
+        "tie": 5
+      }
+    },
+    "by_category": {
+      "code": {
+        "crops": 78,
+        "engines": {
+          "qwen": {
+            "cer": {
+              "edits": 359,
+              "reference_characters": 14268,
+              "rate": 0.025161199887860947
+            },
+            "cer_no_whitespace": {
+              "edits": 289,
+              "reference_characters": 11437,
+              "rate": 0.025268864212643176
+            }
+          },
+          "tesseract": {
+            "cer": {
+              "edits": 3363,
+              "reference_characters": 14268,
+              "rate": 0.2357022708158116
+            },
+            "cer_no_whitespace": {
+              "edits": 2996,
+              "reference_characters": 11437,
+              "rate": 0.2619568068549445
+            }
+          }
+        },
+        "compact_crop_outcomes": {
+          "qwen_lower": 77,
+          "tesseract_lower": 1
+        }
+      },
+      "other": {
+        "crops": 42,
+        "engines": {
+          "qwen": {
+            "cer": {
+              "edits": 308,
+              "reference_characters": 4906,
+              "rate": 0.06278026905829596
+            },
+            "cer_no_whitespace": {
+              "edits": 164,
+              "reference_characters": 3745,
+              "rate": 0.04379172229639519
+            }
+          },
+          "tesseract": {
+            "cer": {
+              "edits": 1854,
+              "reference_characters": 4906,
+              "rate": 0.3779046066041582
+            },
+            "cer_no_whitespace": {
+              "edits": 1533,
+              "reference_characters": 3745,
+              "rate": 0.4093457943925234
+            }
+          }
+        },
+        "compact_crop_outcomes": {
+          "qwen_lower": 40,
+          "tesseract_lower": 1,
+          "tie": 1
+        }
+      },
+      "prose": {
+        "crops": 85,
+        "engines": {
+          "qwen": {
+            "cer": {
+              "edits": 273,
+              "reference_characters": 11108,
+              "rate": 0.02457688152682751
+            },
+            "cer_no_whitespace": {
+              "edits": 107,
+              "reference_characters": 8664,
+              "rate": 0.012349953831948292
+            }
+          },
+          "tesseract": {
+            "cer": {
+              "edits": 1183,
+              "reference_characters": 11108,
+              "rate": 0.10649981994958588
+            },
+            "cer_no_whitespace": {
+              "edits": 852,
+              "reference_characters": 8664,
+              "rate": 0.09833795013850416
+            }
+          }
+        },
+        "compact_crop_outcomes": {
+          "qwen_lower": 79,
+          "tesseract_lower": 2,
+          "tie": 4
+        }
+      },
+      "title": {
+        "crops": 1,
+        "engines": {
+          "qwen": {
+            "cer": {
+              "edits": 0,
+              "reference_characters": 8,
+              "rate": 0.0
+            },
+            "cer_no_whitespace": {
+              "edits": 0,
+              "reference_characters": 7,
+              "rate": 0.0
+            }
+          },
+          "tesseract": {
+            "cer": {
+              "edits": 1,
+              "reference_characters": 8,
+              "rate": 0.125
+            },
+            "cer_no_whitespace": {
+              "edits": 1,
+              "reference_characters": 7,
+              "rate": 0.14285714285714285
+            }
+          }
+        },
+        "compact_crop_outcomes": {
+          "qwen_lower": 1
+        }
+      }
+    },
+    "index_leader_normalized": {
+      "crops": 4,
+      "engines": {
+        "qwen": {
+          "cer": {
+            "edits": 1,
+            "reference_characters": 45,
+            "rate": 0.022222222222222223
+          },
+          "cer_no_whitespace": {
+            "edits": 0,
+            "reference_characters": 38,
+            "rate": 0.0
+          }
+        },
+        "tesseract": {
+          "cer": {
+            "edits": 31,
+            "reference_characters": 45,
+            "rate": 0.6888888888888889
+          },
+          "cer_no_whitespace": {
+            "edits": 27,
+            "reference_characters": 38,
+            "rate": 0.7105263157894737
+          }
+        }
+      },
+      "compact_crop_outcomes": {
+        "qwen_lower": 4
+      }
+    },
+    "tesseract_lower_crops": [
+      {
+        "batch": "21",
+        "region_id": "p88r04",
+        "category": "prose"
+      },
+      {
+        "batch": "21",
+        "region_id": "p91r10",
+        "category": "code"
+      },
+      {
+        "batch": "26",
+        "region_id": "p120r17",
+        "category": "other"
+      },
+      {
+        "batch": "49",
+        "region_id": "p247r08",
+        "category": "prose"
+      }
+    ],
+    "method": "Micro-average: summed edits / summed reference characters. Compact CER removes whitespace. Index52 normalizes decorative leaders and is separate.",
+    "limitation": "Purposive single-run crops; unblinded assistant source references, not independent human gold or whole-issue accuracy. No post-correction error-rate or executable-code claim."
+  },
+  "paired_raw_timing": {
+    "crops": 209,
+    "omitted": [
+      {
+        "batch": "16",
+        "region_id": "p62r03"
+      }
+    ],
+    "engines": {
+      "qwen": {
+        "seconds": 805.5123098499636,
+        "median_seconds": 3.2363396620021376
+      },
+      "tesseract": {
+        "seconds": 41.42346545999567,
+        "median_seconds": 0.17863553799907095
+      }
+    },
+    "qwen_to_tesseract_time_ratio": 19.44579722881659,
+    "scope": "Matched crop calls, excluding startup, rendering, preparation and correction. Missing either timer excludes both engines from the pair."
+  },
+  "local_primary": {
+    "unique_response_calls": 3939,
+    "copied_response_files_ignored": 275,
+    "captured_tokens_lower_bound": {
+      "prompt_tokens": 1442640,
+      "completion_tokens": 334341,
+      "total_tokens": 1776981
+    },
+    "finish_reasons": {
+      "stop": 3928,
+      "length": 11
+    },
+    "by_batch": [
+      {
+        "batch": "01",
+        "engine": "qwen",
+        "captured_calls": 9,
+        "tokens": {
+          "prompt_tokens": 5117,
+          "completion_tokens": 1024,
+          "total_tokens": 6141
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 40.40293553100037,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "02",
+        "engine": "tesseract",
+        "captured_calls": 0,
+        "tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 5.362833729000158,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "03",
+        "engine": "tesseract",
+        "captured_calls": 0,
+        "tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 19.741529746000197,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "04",
+        "engine": "qwen",
+        "captured_calls": 17,
+        "tokens": {
+          "prompt_tokens": 11944,
+          "completion_tokens": 1739,
+          "total_tokens": 13683
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 73.36979075400086,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "05",
+        "engine": "qwen",
+        "captured_calls": 82,
+        "tokens": {
+          "prompt_tokens": 36586,
+          "completion_tokens": 8305,
+          "total_tokens": 44891
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 301.98824418799995,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "06",
+        "engine": "tesseract",
+        "captured_calls": 0,
+        "tokens": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 22.157032499000024,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "07",
+        "engine": "qwen",
+        "captured_calls": 69,
+        "tokens": {
+          "prompt_tokens": 27897,
+          "completion_tokens": 4789,
+          "total_tokens": 32686
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 203.29454491600018,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "08",
+        "engine": "qwen",
+        "captured_calls": 75,
+        "tokens": {
+          "prompt_tokens": 31128,
+          "completion_tokens": 28599,
+          "total_tokens": 59727
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 833.1400988750011,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "09",
+        "engine": "qwen",
+        "captured_calls": 68,
+        "tokens": {
+          "prompt_tokens": 32763,
+          "completion_tokens": 5882,
+          "total_tokens": 38645
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 247.89279609699952,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "10",
+        "engine": "qwen",
+        "captured_calls": 75,
+        "tokens": {
+          "prompt_tokens": 38192,
+          "completion_tokens": 7833,
+          "total_tokens": 46025
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 313.0055759570005,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "11",
+        "engine": "qwen",
+        "captured_calls": 67,
+        "tokens": {
+          "prompt_tokens": 28612,
+          "completion_tokens": 5481,
+          "total_tokens": 34093
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 160.06784137700015,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "12",
+        "engine": "qwen",
+        "captured_calls": 44,
+        "tokens": {
+          "prompt_tokens": 18805,
+          "completion_tokens": 3693,
+          "total_tokens": 22498
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": null,
+        "raw_lower_bound": 161.77061811500002,
+        "raw_upper_bound": 283.81373811500004,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Sum of completed inferences only; interrupted inference duration and local tokens unknown."
+      },
+      {
+        "batch": "13",
+        "engine": "qwen",
+        "captured_calls": 88,
+        "tokens": {
+          "prompt_tokens": 40658,
+          "completion_tokens": 12718,
+          "total_tokens": 53376
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 487.29250474199944,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Failed server compute time differs from client wall time; do not combine as an exact recognition timer. Raw stage sum includes failed inference and both model startups. No completed stage imported under changed map fingerprint. No duplicate paid correction."
+      },
+      {
+        "batch": "14",
+        "engine": "mixed",
+        "captured_calls": 49,
+        "tokens": {
+          "prompt_tokens": 24269,
+          "completion_tokens": 9275,
+          "total_tokens": 33544
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 328.4493504980019,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Recognition sum covers successful unique Qwen calls. Tesseract fallback and failed server compute are separate. Raw sum includes both attempts, but not intervening fallback-helper preparation. Cache copies are not duplicate inference. No repeated paid correction."
+      },
+      {
+        "batch": "15",
+        "engine": "mixed",
+        "captured_calls": 20,
+        "tokens": {
+          "prompt_tokens": 10155,
+          "completion_tokens": 1468,
+          "total_tokens": 11623
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 72.36300176399891,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "16",
+        "engine": "mixed",
+        "captured_calls": 34,
+        "tokens": {
+          "prompt_tokens": 27262,
+          "completion_tokens": 4562,
+          "total_tokens": 31824
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": null,
+        "raw_lower_bound": 196.13805151738416,
+        "raw_upper_bound": 405.52919324300063,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Qwen completed-call sum available separately; original Tesseract timers and interrupted Qwen duration/tokens unavailable. Null totals are not zero."
+      },
+      {
+        "batch": "17",
+        "engine": "mixed",
+        "captured_calls": 39,
+        "tokens": {
+          "prompt_tokens": 18341,
+          "completion_tokens": 4934,
+          "total_tokens": 23275
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 190.47572451199812,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "18",
+        "engine": "mixed",
+        "captured_calls": 50,
+        "tokens": {
+          "prompt_tokens": 26597,
+          "completion_tokens": 7536,
+          "total_tokens": 34133
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": null,
+        "raw_lower_bound": 285.2192987053356,
+        "raw_upper_bound": 489.61588907099724,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Sum of completed inferences only; interrupted inference duration and local tokens unknown."
+      },
+      {
+        "batch": "19",
+        "engine": "mixed",
+        "captured_calls": 25,
+        "tokens": {
+          "prompt_tokens": 11006,
+          "completion_tokens": 2231,
+          "total_tokens": 13237
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 87.10230282299744,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "20",
+        "engine": "mixed",
+        "captured_calls": 81,
+        "tokens": {
+          "prompt_tokens": 42274,
+          "completion_tokens": 11179,
+          "total_tokens": 53453
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 392.56131329000345,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Includes original74 and revised7 Qwen calls, Tesseract four calls added separately. Sum of measured worker elapsed excludes between-run inspection/preparation gap; raw runs overlap correction. No causal paid-cost comparison."
+      },
+      {
+        "batch": "21",
+        "engine": "mixed",
+        "captured_calls": 79,
+        "tokens": {
+          "prompt_tokens": 32066,
+          "completion_tokens": 5808,
+          "total_tokens": 37874
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 234.7349676269987,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "22",
+        "engine": "mixed",
+        "captured_calls": 68,
+        "tokens": {
+          "prompt_tokens": 27388,
+          "completion_tokens": 3969,
+          "total_tokens": 31357
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": null,
+        "raw_lower_bound": 181.71339631287992,
+        "raw_upper_bound": 245.0517060760025,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Sum of completed inferences only; interrupted inference duration and local tokens unknown."
+      },
+      {
+        "batch": "23",
+        "engine": "mixed",
+        "captured_calls": 39,
+        "tokens": {
+          "prompt_tokens": 16416,
+          "completion_tokens": 3364,
+          "total_tokens": 19780
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 136.66417643900058,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "24",
+        "engine": "mixed",
+        "captured_calls": 125,
+        "tokens": {
+          "prompt_tokens": 40514,
+          "completion_tokens": 5912,
+          "total_tokens": 46426
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": null,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": 322.386289,
+        "limitation": "All125 completed original Qwen responses retained; no additional completed recognition in recovery server log. Successful timings observed during a run contaminated by competing model startup; not a clean performance sample."
+      },
+      {
+        "batch": "25",
+        "engine": "mixed",
+        "captured_calls": 186,
+        "tokens": {
+          "prompt_tokens": 60273,
+          "completion_tokens": 8267,
+          "total_tokens": 68540
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 407.90802154699486,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "26",
+        "engine": "mixed",
+        "captured_calls": 98,
+        "tokens": {
+          "prompt_tokens": 33257,
+          "completion_tokens": 5691,
+          "total_tokens": 38948
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 262.398865176001,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "27",
+        "engine": "mixed",
+        "captured_calls": 96,
+        "tokens": {
+          "prompt_tokens": 29802,
+          "completion_tokens": 12866,
+          "total_tokens": 42668
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": null,
+        "raw_lower_bound": 434.72127581100597,
+        "raw_upper_bound": 572.21914,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "All successful and failed Qwen usage retained. Recognition sum excludes failed calls, separately measured by server compute. Raw total is broadly bounded because wall span includes recovery preparation. No completed inference repeated. Remaining17 unattempted opcode rows rerouted after second failure."
+      },
+      {
+        "batch": "28",
+        "engine": "mixed",
+        "captured_calls": 146,
+        "tokens": {
+          "prompt_tokens": 46294,
+          "completion_tokens": 12012,
+          "total_tokens": 58306
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 505.0072702489997,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "All successful and failed Qwen usage retained. Recognition sum excludes failed call, separately measured by server compute. Raw total sums measured attempt lifespans; recovery preparation gap excluded. Two unattempted ruled tables rerouted after color-table failure. No completed inference repeated."
+      },
+      {
+        "batch": "29",
+        "engine": "mixed",
+        "captured_calls": 94,
+        "tokens": {
+          "prompt_tokens": 33510,
+          "completion_tokens": 5048,
+          "total_tokens": 38558
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": null,
+        "raw_lower_bound": 232.60313749299812,
+        "raw_upper_bound": 355.95006249299814,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Interrupted p140r16 has request but no captured response; server log reports207 evaluated prompt and8 generated tokens, not full API usage/cache accounting. Completed-response usage is a lower bound, not complete local tokens. No successful crop rerun. Original routing unchanged."
+      },
+      {
+        "batch": "30",
+        "engine": "mixed",
+        "captured_calls": 37,
+        "tokens": {
+          "prompt_tokens": 12627,
+          "completion_tokens": 2274,
+          "total_tokens": 14901
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 128.97247528700245,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "31",
+        "engine": "mixed",
+        "captured_calls": 117,
+        "tokens": {
+          "prompt_tokens": 40690,
+          "completion_tokens": 7260,
+          "total_tokens": 47950
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 300.4078338949985,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Completed-response token sum is a lower bound: interrupted p152r02 has request but no captured response/timing/usage; cost unknown, not zero. Both attempt lifespans measured, recovery gap excluded. No successful crop rerun. Routing unchanged."
+      },
+      {
+        "batch": "32",
+        "engine": "mixed",
+        "captured_calls": 65,
+        "tokens": {
+          "prompt_tokens": 22349,
+          "completion_tokens": 3834,
+          "total_tokens": 26183
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 181.76385496900184,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Completed-response token sum is a lower bound: interrupted p157r14 has request but no captured response/timing/usage; cost unknown, not zero. Both attempt lifespans measured, recovery gap excluded. No successful crop rerun. Routing unchanged."
+      },
+      {
+        "batch": "33",
+        "engine": "mixed",
+        "captured_calls": 93,
+        "tokens": {
+          "prompt_tokens": 31352,
+          "completion_tokens": 4183,
+          "total_tokens": 35535
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 209.26728187900153,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Completed-response token sum is a lower bound: interrupted p166r11 has request but no captured response/timing/usage; cost unknown, not zero. Both attempt lifespans measured, recovery gap excluded. No successful crop rerun. Routing unchanged."
+      },
+      {
+        "batch": "34",
+        "engine": "mixed",
+        "captured_calls": 110,
+        "tokens": {
+          "prompt_tokens": 35098,
+          "completion_tokens": 5527,
+          "total_tokens": 40625
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 266.10474209999666,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Completed-response token sum is a lower bound: interrupted p172r30 has request but no captured response/timing/usage; cost unknown, not zero. All three worker lifespans measured; second attempt stopped before new inference because interrupted stage needed archival, recovery gap excluded. No successful crop rerun. Routing unchanged."
+      },
+      {
+        "batch": "35",
+        "engine": "mixed",
+        "captured_calls": 103,
+        "tokens": {
+          "prompt_tokens": 27863,
+          "completion_tokens": 4471,
+          "total_tokens": 32334
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 225.64444953299972,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Includes original98 and revised5 Qwen calls, Tesseract eighty calls added separately. Sum of measured worker elapsed excludes between-run inspection/preparation gap; raw runs overlap correction. No causal paid-cost comparison."
+      },
+      {
+        "batch": "36",
+        "engine": "mixed",
+        "captured_calls": 108,
+        "tokens": {
+          "prompt_tokens": 29885,
+          "completion_tokens": 4889,
+          "total_tokens": 34774
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 205.98441257400555,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "First worker stopped during model startup, before any Qwen request. All32 completed Tesseract regions reused. Both worker lifespans measured, intervening idle/recovery gap excluded. Routing unchanged."
+      },
+      {
+        "batch": "37",
+        "engine": "mixed",
+        "captured_calls": 170,
+        "tokens": {
+          "prompt_tokens": 52339,
+          "completion_tokens": 11830,
+          "total_tokens": 64169
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 458.0512557930051,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "38",
+        "engine": "mixed",
+        "captured_calls": 8,
+        "tokens": {
+          "prompt_tokens": 2569,
+          "completion_tokens": 388,
+          "total_tokens": 2957
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 29.036429366002267,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "39",
+        "engine": "mixed",
+        "captured_calls": 56,
+        "tokens": {
+          "prompt_tokens": 16325,
+          "completion_tokens": 4219,
+          "total_tokens": 20544
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 172.56345700500242,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Completed-response token sum is a lower bound: interrupted p209r22 has request but no captured response/timing/usage; cost unknown, not zero. Both attempt lifespans measured, recovery gap excluded. No successful crop rerun. Routing unchanged."
+      },
+      {
+        "batch": "40",
+        "engine": "qwen",
+        "captured_calls": 127,
+        "tokens": {
+          "prompt_tokens": 33431,
+          "completion_tokens": 20116,
+          "total_tokens": 53547
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 666.378989280005,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": null
+      },
+      {
+        "batch": "41",
+        "engine": "mixed",
+        "captured_calls": 83,
+        "tokens": {
+          "prompt_tokens": 25920,
+          "completion_tokens": 8343,
+          "total_tokens": 34263
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 325.483180737996,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Token sum includes every successful and captured failed response, lower bound because interrupted p217r19 response usage is unknown. Three measured worker lifespans include failed compute. All61 originalQ/7T then3 resumedQ reused; no completed call repeated."
+      },
+      {
+        "batch": "42",
+        "engine": "mixed",
+        "captured_calls": 86,
+        "tokens": {
+          "prompt_tokens": 31074,
+          "completion_tokens": 7704,
+          "total_tokens": 38778
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 297.04779079199943,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured local usage includes all85 successful Qwen calls and failed512-token response. Tesseract fallback separate. No interrupted or unknown inference usage. Failed compute and successful recognition are nested in measured raw wall time."
+      },
+      {
+        "batch": "43",
+        "engine": "mixed",
+        "captured_calls": 107,
+        "tokens": {
+          "prompt_tokens": 39077,
+          "completion_tokens": 11034,
+          "total_tokens": 50111
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 409.2241994360011,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured usage includes105successful Qwen calls and2failed512-token responses. Four Tesseract calls include2preassigned graphic strips and2fallbacks. All recognition/failed compute nested in measured raw wall time. Sandbox-only process listing was misleading; saved session confirmed live and original worker allowed to finish, without restarting."
+      },
+      {
+        "batch": "44",
+        "engine": "mixed",
+        "captured_calls": 70,
+        "tokens": {
+          "prompt_tokens": 24272,
+          "completion_tokens": 6188,
+          "total_tokens": 30460
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 235.59801059099846,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured usage includes69 successful Qwen calls and one failed512-token response.25 Tesseract primaries include24 preassigned and1 fallback. One0.244653s accepted T probe is reused and counted once in recognition but lies outside raw worker lifespan. Other recognition and failed compute are nested in raw wall time. No interruption/restart."
+      },
+      {
+        "batch": "45",
+        "engine": "mixed",
+        "captured_calls": 100,
+        "tokens": {
+          "prompt_tokens": 36797,
+          "completion_tokens": 6418,
+          "total_tokens": 43215
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 276.9961842299963,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Lower bound includes98 final Qwen responses plus2 superseded source-crop responses. Interrupted p230r15 request has no captured response/timing/usage; unknown cost is not zero. Two measured lifespans exclude recovery gap. All16 Tesseract calls reused. Rejected prose probe separately counted once as preparation and reused as alternate, not primary recognition."
+      },
+      {
+        "batch": "46",
+        "engine": "mixed",
+        "captured_calls": 117,
+        "tokens": {
+          "prompt_tokens": 39750,
+          "completion_tokens": 8739,
+          "total_tokens": 48489
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 341.4453786269951,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Lower bound includes116 final Qwen successes and1 failed512-token response. Interrupted p234r12 request has no captured response/timing/usage; unknown cost is not zero.34 Q and10 T successes reused. Final116Q11T; no source recrop or repeated success. Two measured worker lifespans exclude recovery gap. Recognition/failed compute nested in raw time."
+      },
+      {
+        "batch": "47",
+        "engine": "mixed",
+        "captured_calls": 49,
+        "tokens": {
+          "prompt_tokens": 18331,
+          "completion_tokens": 3208,
+          "total_tokens": 21539
+        },
+        "completeness": "lower-bound-interrupted-work",
+        "raw_run_seconds": 149.53795996600093,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Lower bound includes47 final Qwen responses plus2 superseded source-crop responses. Interrupted p238r18 request has no captured response/timing/usage; unknown cost is not zero. Two measured lifespans exclude recovery gap. All3 Tesseract calls reused. Rejected mixed-listing probe separately counted once as preparation; image changed during repair so fresh final-image T alternate used. No fallback or failed capped response."
+      },
+      {
+        "batch": "48",
+        "engine": "mixed",
+        "captured_calls": 57,
+        "tokens": {
+          "prompt_tokens": 21060,
+          "completion_tokens": 3605,
+          "total_tokens": 24665
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 164.82764416399732,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured usage includes56 final plus1 superseded Qwen response. T recognition includes13 final plus1 superseded T call. Both raw lifespans complete; no interrupted request or failed cap. Rejected0.206s T prose probe outside raw/primary recognition, reused once as same-image alternate. Worker lifespans exclude review gap. No causal paid attribution."
+      },
+      {
+        "batch": "49",
+        "engine": "mixed",
+        "captured_calls": 124,
+        "tokens": {
+          "prompt_tokens": 43492,
+          "completion_tokens": 7507,
+          "total_tokens": 50999
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 332.6087637179953,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured local usage from124 Qwen responses;8 Tesseract primary calls. Rejected0.162s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      },
+      {
+        "batch": "50",
+        "engine": "mixed",
+        "captured_calls": 105,
+        "tokens": {
+          "prompt_tokens": 34893,
+          "completion_tokens": 6300,
+          "total_tokens": 41193
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 283.27710917199147,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact local usage includes97final+8supersededQ responses,6Tprimary calls. Both measured worker lifespans complete, inter-worker review gap excluded. Rejected0.177s Tprobe preparation-only reused once as same-image alternate. Four comparison PNGs unchanged. No causal paid attribution."
+      },
+      {
+        "batch": "51",
+        "engine": "mixed",
+        "captured_calls": 64,
+        "tokens": {
+          "prompt_tokens": 21427,
+          "completion_tokens": 3837,
+          "total_tokens": 25264
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 166.57901611400302,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured local usage from64 Qwen responses;2 Tesseract primary calls. Rejected0.177s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      },
+      {
+        "batch": "52",
+        "engine": "mixed",
+        "captured_calls": 65,
+        "tokens": {
+          "prompt_tokens": 22715,
+          "completion_tokens": 4112,
+          "total_tokens": 26827
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 179.17427458499878,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured local usage from65 Qwen responses;4 Tesseract primary calls. Rejected0.199s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      },
+      {
+        "batch": "53",
+        "engine": "mixed",
+        "captured_calls": 70,
+        "tokens": {
+          "prompt_tokens": 23429,
+          "completion_tokens": 3771,
+          "total_tokens": 27200
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 172.54420401399693,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured local usage from70 Qwen responses;1 Tesseract primary calls. Rejected0.186s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      },
+      {
+        "batch": "54",
+        "engine": "mixed",
+        "captured_calls": 25,
+        "tokens": {
+          "prompt_tokens": 4749,
+          "completion_tokens": 399,
+          "total_tokens": 5148
+        },
+        "completeness": "exact-recorded-attempts",
+        "raw_run_seconds": 28.70876366700395,
+        "raw_lower_bound": null,
+        "raw_upper_bound": null,
+        "contaminated_raw_wall_seconds": null,
+        "limitation": "Exact captured local usage from25 Qwen responses;1 Tesseract primary calls. Rejected0.103s T prose probe preparation-only and reused once as identical-image alternate. No causal paid-token attribution."
+      }
+    ],
+    "scope": "Primary batch responses, including failed and superseded attempts; copied completion IDs counted once. Alternate-engine evaluation excluded. Uncaptured interrupted generation is unknown, so aggregate is a lower bound.",
+    "alternate_evaluation": {
+      "captured_calls": 36,
+      "copied_files_ignored": 0,
+      "tokens": {
+        "prompt_tokens": 19900,
+        "completion_tokens": 4346,
+        "total_tokens": 24246
+      },
+      "finish_reasons": {
+        "stop": 36
+      },
+      "scope": "Separately captured alternate Qwen calls; not part of primary restoration tokens."
+    }
+  },
+  "raw_timing": {
+    "exact_recorded_batches": 47,
+    "exact_recorded_seconds": 11532.608383830991,
+    "bounded_batches": 6,
+    "bounded_seconds_lower": 1492.1657779546038,
+    "bounded_seconds_upper": 2352.1797289979986,
+    "contaminated_batches": [
+      {
+        "batch": "24",
+        "seconds": 322.386289
+      }
+    ],
+    "known_raw_correction_overlap_seconds": 3226.83348879657,
+    "scope": "Worker timers include startup/rendering/validation/export; recognition is nested. Bounds include recovery uncertainty. Batch24 competing-model contamination excluded from clean timing. Raw and work windows overlap; never add these totals."
+  },
+  "paid_work": {
+    "observed_span": {
+      "id": "observed-trial-span",
+      "start": "2026-10-10T03:17:17.014Z",
+      "end": "2026-10-11T22:15:23.834863+00:00",
+      "elapsed_seconds": 154686.8208630085,
+      "observed_responses": 1975,
+      "tokens": {
+        "input_tokens": 264915571,
+        "cached_input_tokens": 259030400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1430979,
+        "reasoning_output_tokens": 330911,
+        "total_tokens": 266346550,
+        "uncached_nonwrite_input_tokens": 5885171
+      }
+    },
+    "between_windows": {
+      "id": "observed-trial-span",
+      "start": "2026-10-10T03:17:17.014Z",
+      "end": "2026-10-11T22:15:23.834863+00:00",
+      "elapsed_seconds": 154686.8208630085,
+      "observed_responses": 317,
+      "tokens": {
+        "input_tokens": 41586571,
+        "cached_input_tokens": 40815232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 145504,
+        "reasoning_output_tokens": 21628,
+        "total_tokens": 41732075,
+        "uncached_nonwrite_input_tokens": 771339
+      }
+    },
+    "all_named_windows": {
+      "windows": 318,
+      "elapsed_seconds": 46498.35008978844,
+      "observed_responses": 1658,
+      "windows_without_observed_usage": [
+        "shared-export-setup-01",
+        "export-03",
+        "export-04",
+        "export-05",
+        "evaluation-03",
+        "export-06",
+        "export-10",
+        "reporting-20",
+        "export-24",
+        "export-25",
+        "export-26",
+        "reporting-30",
+        "reporting-35",
+        "accounting-37",
+        "evaluation-46",
+        "assembly-46",
+        "export-47",
+        "evaluation-47",
+        "export-48",
+        "evaluation-48"
+      ],
+      "observed_tokens": {
+        "input_tokens": 223329000,
+        "cached_input_tokens": 218215168,
+        "cache_write_input_tokens": 0,
+        "uncached_nonwrite_input_tokens": 5113832,
+        "output_tokens": 1285475,
+        "reasoning_output_tokens": 309283,
+        "total_tokens": 224614475
+      }
+    },
+    "by_stage": {
+      "setup-and-mapping": {
+        "windows": 8,
+        "elapsed_seconds": 2361.818110704422,
+        "observed_responses": 85,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 11371242,
+          "cached_input_tokens": 11013760,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 357482,
+          "output_tokens": 59712,
+          "reasoning_output_tokens": 16410,
+          "total_tokens": 11430954
+        }
+      },
+      "raw-ocr": {
+        "windows": 46,
+        "elapsed_seconds": 2551.4828295707703,
+        "observed_responses": 127,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 13792046,
+          "cached_input_tokens": 13618688,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 173358,
+          "output_tokens": 49379,
+          "reasoning_output_tokens": 12602,
+          "total_tokens": 13841425
+        }
+      },
+      "semantic-correction-and-recording": {
+        "windows": 6,
+        "elapsed_seconds": 669.4075000286102,
+        "observed_responses": 15,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 2023006,
+          "cached_input_tokens": 1954560,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 68446,
+          "output_tokens": 27103,
+          "reasoning_output_tokens": 5859,
+          "total_tokens": 2050109
+        }
+      },
+      "setup": {
+        "windows": 1,
+        "elapsed_seconds": 0.030703067779541016,
+        "observed_responses": 0,
+        "windows_without_observed_usage": [
+          "shared-export-setup-01"
+        ],
+        "observed_tokens": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 0,
+          "output_tokens": 0,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "export": {
+        "windows": 38,
+        "elapsed_seconds": 854.156572341919,
+        "observed_responses": 46,
+        "windows_without_observed_usage": [
+          "export-03",
+          "export-04",
+          "export-05",
+          "export-06",
+          "export-10",
+          "export-47",
+          "export-48"
+        ],
+        "observed_tokens": {
+          "input_tokens": 6151124,
+          "cached_input_tokens": 6068992,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 82132,
+          "output_tokens": 20701,
+          "reasoning_output_tokens": 4980,
+          "total_tokens": 6171825
+        }
+      },
+      "evaluation": {
+        "windows": 31,
+        "elapsed_seconds": 1096.1806235313416,
+        "observed_responses": 45,
+        "windows_without_observed_usage": [
+          "evaluation-03",
+          "evaluation-46",
+          "evaluation-47",
+          "evaluation-48"
+        ],
+        "observed_tokens": {
+          "input_tokens": 6597349,
+          "cached_input_tokens": 6505344,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 92005,
+          "output_tokens": 30273,
+          "reasoning_output_tokens": 6618,
+          "total_tokens": 6627622
+        }
+      },
+      "reporting": {
+        "windows": 23,
+        "elapsed_seconds": 1762.1881470680237,
+        "observed_responses": 44,
+        "windows_without_observed_usage": [
+          "reporting-20",
+          "reporting-30"
+        ],
+        "observed_tokens": {
+          "input_tokens": 6341812,
+          "cached_input_tokens": 6105600,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 236212,
+          "output_tokens": 56173,
+          "reasoning_output_tokens": 11279,
+          "total_tokens": 6397985
+        }
+      },
+      "mapping-and-preparation": {
+        "windows": 27,
+        "elapsed_seconds": 6039.817722320557,
+        "observed_responses": 217,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 30090260,
+          "cached_input_tokens": 29280384,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 809876,
+          "output_tokens": 154804,
+          "reasoning_output_tokens": 46778,
+          "total_tokens": 30245064
+        }
+      },
+      "semantic-correction": {
+        "windows": 43,
+        "elapsed_seconds": 21453.154831409454,
+        "observed_responses": 682,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 96932425,
+          "cached_input_tokens": 94633472,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 2298953,
+          "output_tokens": 615694,
+          "reasoning_output_tokens": 150856,
+          "total_tokens": 97548119
+        }
+      },
+      "native-export": {
+        "windows": 1,
+        "elapsed_seconds": 17.331663846969604,
+        "observed_responses": 2,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 159974,
+          "cached_input_tokens": 158720,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 1254,
+          "output_tokens": 288,
+          "reasoning_output_tokens": 44,
+          "total_tokens": 160262
+        }
+      },
+      "paired-diagnostics": {
+        "windows": 1,
+        "elapsed_seconds": 36.58876895904541,
+        "observed_responses": 2,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 162169,
+          "cached_input_tokens": 160512,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 1657,
+          "output_tokens": 600,
+          "reasoning_output_tokens": 289,
+          "total_tokens": 162769
+        }
+      },
+      "validation-and-reporting": {
+        "windows": 9,
+        "elapsed_seconds": 1048.1300530433655,
+        "observed_responses": 41,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 3733895,
+          "cached_input_tokens": 3625344,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 108551,
+          "output_tokens": 32604,
+          "reasoning_output_tokens": 3199,
+          "total_tokens": 3766499
+        }
+      },
+      "raw-monitoring-and-assembly-development": {
+        "windows": 1,
+        "elapsed_seconds": 650.5674271583557,
+        "observed_responses": 21,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 3154713,
+          "cached_input_tokens": 3110912,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 43801,
+          "output_tokens": 13888,
+          "reasoning_output_tokens": 5746,
+          "total_tokens": 3168601
+        }
+      },
+      "assembly": {
+        "windows": 9,
+        "elapsed_seconds": 624.9567773342133,
+        "observed_responses": 28,
+        "windows_without_observed_usage": [
+          "assembly-46"
+        ],
+        "observed_tokens": {
+          "input_tokens": 3992532,
+          "cached_input_tokens": 3934080,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 58452,
+          "output_tokens": 18950,
+          "reasoning_output_tokens": 2702,
+          "total_tokens": 4011482
+        }
+      },
+      "alternate-engine-evaluation": {
+        "windows": 13,
+        "elapsed_seconds": 767.5850026607513,
+        "observed_responses": 29,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 4238624,
+          "cached_input_tokens": 4187904,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 50720,
+          "output_tokens": 21884,
+          "reasoning_output_tokens": 4337,
+          "total_tokens": 4260508
+        }
+      },
+      "export-and-verification": {
+        "windows": 9,
+        "elapsed_seconds": 228.63269591331482,
+        "observed_responses": 11,
+        "windows_without_observed_usage": [
+          "export-24",
+          "export-25",
+          "export-26"
+        ],
+        "observed_tokens": {
+          "input_tokens": 1496334,
+          "cached_input_tokens": 1472896,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 23438,
+          "output_tokens": 5228,
+          "reasoning_output_tokens": 1631,
+          "total_tokens": 1501562
+        }
+      },
+      "article-assembly": {
+        "windows": 1,
+        "elapsed_seconds": 134.6328890323639,
+        "observed_responses": 8,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 1413027,
+          "cached_input_tokens": 1400576,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 12451,
+          "output_tokens": 2719,
+          "reasoning_output_tokens": 727,
+          "total_tokens": 1415746
+        }
+      },
+      "raw-preparation": {
+        "windows": 2,
+        "elapsed_seconds": 83.3587601184845,
+        "observed_responses": 3,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 293485,
+          "cached_input_tokens": 282112,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 11373,
+          "output_tokens": 2039,
+          "reasoning_output_tokens": 1364,
+          "total_tokens": 295524
+        }
+      },
+      "export-and-validation": {
+        "windows": 4,
+        "elapsed_seconds": 165.64611196517944,
+        "observed_responses": 9,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 1269046,
+          "cached_input_tokens": 1250688,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 18358,
+          "output_tokens": 3236,
+          "reasoning_output_tokens": 936,
+          "total_tokens": 1272282
+        }
+      },
+      "full-article-assembly": {
+        "windows": 1,
+        "elapsed_seconds": 17.8939049243927,
+        "observed_responses": 2,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 229980,
+          "cached_input_tokens": 228736,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 1244,
+          "output_tokens": 197,
+          "reasoning_output_tokens": 49,
+          "total_tokens": 230177
+        }
+      },
+      "alternate-raw-evaluation": {
+        "windows": 2,
+        "elapsed_seconds": 176.24908781051636,
+        "observed_responses": 5,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 732897,
+          "cached_input_tokens": 722688,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 10209,
+          "output_tokens": 4698,
+          "reasoning_output_tokens": 979,
+          "total_tokens": 737595
+        }
+      },
+      "validation-and-export": {
+        "windows": 2,
+        "elapsed_seconds": 155.64233803749084,
+        "observed_responses": 7,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 1157699,
+          "cached_input_tokens": 1150720,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 6979,
+          "output_tokens": 3151,
+          "reasoning_output_tokens": 1534,
+          "total_tokens": 1160850
+        }
+      },
+      "fixed-crop-comparison": {
+        "windows": 2,
+        "elapsed_seconds": 171.80781984329224,
+        "observed_responses": 4,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 599361,
+          "cached_input_tokens": 591104,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 8257,
+          "output_tokens": 5123,
+          "reasoning_output_tokens": 527,
+          "total_tokens": 604484
+        }
+      },
+      "documentation-and-accounting": {
+        "windows": 2,
+        "elapsed_seconds": 63.00381922721863,
+        "observed_responses": 1,
+        "windows_without_observed_usage": [
+          "reporting-35"
+        ],
+        "observed_tokens": {
+          "input_tokens": 107604,
+          "cached_input_tokens": 105728,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 1876,
+          "output_tokens": 2047,
+          "reasoning_output_tokens": 163,
+          "total_tokens": 109651
+        }
+      },
+      "accounting": {
+        "windows": 7,
+        "elapsed_seconds": 404.7049241065979,
+        "observed_responses": 7,
+        "windows_without_observed_usage": [
+          "accounting-37"
+        ],
+        "observed_tokens": {
+          "input_tokens": 1070487,
+          "cached_input_tokens": 1054464,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 16023,
+          "output_tokens": 12595,
+          "reasoning_output_tokens": 1472,
+          "total_tokens": 1083082
+        }
+      },
+      "preparation": {
+        "windows": 14,
+        "elapsed_seconds": 1970.9369530677795,
+        "observed_responses": 95,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 12431274,
+          "cached_input_tokens": 12152960,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 278314,
+          "output_tokens": 51960,
+          "reasoning_output_tokens": 12127,
+          "total_tokens": 12483234
+        }
+      },
+      "layout": {
+        "windows": 3,
+        "elapsed_seconds": 402.4664378166199,
+        "observed_responses": 16,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 1775206,
+          "cached_input_tokens": 1719808,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 55398,
+          "output_tokens": 10406,
+          "reasoning_output_tokens": 2748,
+          "total_tokens": 1785612
+        }
+      },
+      "paired-evaluation": {
+        "windows": 2,
+        "elapsed_seconds": 55.6725811958313,
+        "observed_responses": 3,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 301614,
+          "cached_input_tokens": 296832,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 4782,
+          "output_tokens": 1551,
+          "reasoning_output_tokens": 268,
+          "total_tokens": 303165
+        }
+      },
+      "correction": {
+        "windows": 6,
+        "elapsed_seconds": 1613.8858904838562,
+        "observed_responses": 54,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 7636170,
+          "cached_input_tokens": 7454208,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 181962,
+          "output_tokens": 52133,
+          "reasoning_output_tokens": 9634,
+          "total_tokens": 7688303
+        }
+      },
+      "metrics": {
+        "windows": 1,
+        "elapsed_seconds": 387.101665019989,
+        "observed_responses": 14,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 1225816,
+          "cached_input_tokens": 1168640,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 57176,
+          "output_tokens": 14292,
+          "reasoning_output_tokens": 772,
+          "total_tokens": 1240108
+        }
+      },
+      "reading-room": {
+        "windows": 2,
+        "elapsed_seconds": 505.26093316078186,
+        "observed_responses": 33,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 2648467,
+          "cached_input_tokens": 2607616,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 40851,
+          "output_tokens": 11439,
+          "reasoning_output_tokens": 2539,
+          "total_tokens": 2659906
+        }
+      },
+      "final-accounting": {
+        "windows": 1,
+        "elapsed_seconds": 28.05654501914978,
+        "observed_responses": 2,
+        "windows_without_observed_usage": [],
+        "observed_tokens": {
+          "input_tokens": 199362,
+          "cached_input_tokens": 197120,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 2242,
+          "output_tokens": 608,
+          "reasoning_output_tokens": 114,
+          "total_tokens": 199970
+        }
+      }
+    },
+    "correction_labeled_windows": {
+      "windows": 55,
+      "elapsed_seconds": 23736.44822192192,
+      "observed_responses": 751,
+      "windows_without_observed_usage": [],
+      "observed_tokens": {
+        "input_tokens": 106591601,
+        "cached_input_tokens": 104042240,
+        "cache_write_input_tokens": 0,
+        "uncached_nonwrite_input_tokens": 2549361,
+        "output_tokens": 694930,
+        "reasoning_output_tokens": 166349,
+        "total_tokens": 107286531
+      }
+    },
+    "evaluation_labeled_windows": {
+      "windows": 51,
+      "elapsed_seconds": 2304.083884000778,
+      "observed_responses": 88,
+      "windows_without_observed_usage": [
+        "evaluation-03",
+        "evaluation-46",
+        "evaluation-47",
+        "evaluation-48"
+      ],
+      "observed_tokens": {
+        "input_tokens": 12632014,
+        "cached_input_tokens": 12464384,
+        "cache_write_input_tokens": 0,
+        "uncached_nonwrite_input_tokens": 167630,
+        "output_tokens": 64129,
+        "reasoning_output_tokens": 13018,
+        "total_tokens": 12696143
+      }
+    },
+    "limitation": "Response-completion timestamps allocate whole responses to nonoverlapping work windows. Elapsed windows include tool waits, transcription and helper work; source reading also occurs in preparation. No-observation windows are unknown, not free. Reasoning is a subset of output. Span and gaps include idle time. Not a bill, or a causal engine comparison; June paid usage and human review time are unknown.",
+    "restoration_cutoff_snapshot": {
+      "evidence": {
+        "path": "private/pdf-restoration/12-1984-07-comparison/restoration-usage-snapshot.json",
+        "sha256": "9c9297cc66e3b183541429ba03dda24b97a2aa37cbfd0b0cdf1e1aafb5ba924d",
+        "bytes": 181563
+      },
+      "observed_span": {
+        "id": "observed-trial-span",
+        "start": "2026-10-10T03:17:17.014Z",
+        "end": "2026-10-11T20:24:41.847056+00:00",
+        "elapsed_seconds": 148044.83305597305,
+        "observed_responses": 1917,
+        "tokens": {
+          "input_tokens": 259316937,
+          "cached_input_tokens": 253555328,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1400029,
+          "reasoning_output_tokens": 326855,
+          "total_tokens": 260716966,
+          "uncached_nonwrite_input_tokens": 5761609
+        }
+      },
+      "between_windows": {
+        "id": "observed-trial-span",
+        "start": "2026-10-10T03:17:17.014Z",
+        "end": "2026-10-11T20:24:41.847056+00:00",
+        "elapsed_seconds": 148044.83305597305,
+        "observed_responses": 308,
+        "tokens": {
+          "input_tokens": 40061582,
+          "cached_input_tokens": 39313536,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 140893,
+          "reasoning_output_tokens": 20997,
+          "total_tokens": 40202475,
+          "uncached_nonwrite_input_tokens": 748046
+        }
+      },
+      "all_named_windows": {
+        "windows": 314,
+        "elapsed_seconds": 45577.930946588516,
+        "observed_responses": 1609,
+        "windows_without_observed_usage": [
+          "shared-export-setup-01",
+          "export-03",
+          "export-04",
+          "export-05",
+          "evaluation-03",
+          "export-06",
+          "export-10",
+          "reporting-20",
+          "export-24",
+          "export-25",
+          "export-26",
+          "reporting-30",
+          "reporting-35",
+          "accounting-37",
+          "evaluation-46",
+          "assembly-46",
+          "export-47",
+          "evaluation-47",
+          "export-48",
+          "evaluation-48"
+        ],
+        "observed_tokens": {
+          "input_tokens": 219255355,
+          "cached_input_tokens": 214241792,
+          "cache_write_input_tokens": 0,
+          "uncached_nonwrite_input_tokens": 5013563,
+          "output_tokens": 1259136,
+          "reasoning_output_tokens": 305858,
+          "total_tokens": 220514491
+        }
+      },
+      "scope": "Frozen restoration cutoff before consolidation and reading-room delivery; decision document quotes this scope."
+    }
+  },
+  "evidence": [
+    {
+      "path": "docs/ocr-july-progress.json",
+      "sha256": "4a986a22c93365fc84a811b0e517c6d2091442b36b6207a855248b68e426c2e0",
+      "bytes": 751152
+    },
+    {
+      "path": "docs/ocr-july-usage.json",
+      "sha256": "2c6be7ca67cd39f2afe73cfd2a271915eac3b38516b11ed84fe3b168da6b59f3",
+      "bytes": 184271
+    },
+    {
+      "path": "docs/ocr-july-comparison-01.json",
+      "sha256": "ff0bc2b433d82af33c5ba55cee74e4f91531092473fcf521c900505ea2681e47",
+      "bytes": 7514
+    },
+    {
+      "path": "docs/ocr-july-comparison-02.json",
+      "sha256": "bde2320f2b60df2d1811d2e43c84070fb0a78e69ac686891af2178e7a5239e88",
+      "bytes": 12277
+    },
+    {
+      "path": "docs/ocr-july-comparison-03.json",
+      "sha256": "f3af7a8a31b05a0d21786b9a792fd265334eaa46cbb2cfaae81f2314dec59f07",
+      "bytes": 8650
+    },
+    {
+      "path": "docs/ocr-july-comparison-04.json",
+      "sha256": "e970238092e6ff3469c95e72487e4685645e2e6bdfc6513370d4c7fb578930a3",
+      "bytes": 8675
+    },
+    {
+      "path": "docs/ocr-july-comparison-05.json",
+      "sha256": "539ace3985def81b6b4a5272992bba727a640be5f5928a8b6788f9fcccbf4422",
+      "bytes": 9146
+    },
+    {
+      "path": "docs/ocr-july-comparison-06.json",
+      "sha256": "a32985e40038c02eda7630d011955c4105ad73823217a6f0e0deeb50b7f4dece",
+      "bytes": 8924
+    },
+    {
+      "path": "docs/ocr-july-comparison-07.json",
+      "sha256": "2ab771c15da21acaf13ad0867ad44e16c6e580ff720d94382bfcdebeee8e0ae4",
+      "bytes": 9329
+    },
+    {
+      "path": "docs/ocr-july-comparison-08.json",
+      "sha256": "2a85575bb76800813df2f7aefd90c336e9c005e53bc7d85c8e5f7fa2a0f9aba2",
+      "bytes": 9337
+    },
+    {
+      "path": "docs/ocr-july-comparison-09.json",
+      "sha256": "8ba515168503baa860f9556b610c68657ae6852bdeb0702889c182bf6a5d0ae7",
+      "bytes": 9059
+    },
+    {
+      "path": "docs/ocr-july-comparison-10.json",
+      "sha256": "fe1c03b109338ba58dd2c766522f6c75b89fa35e6cf25e285d241a8fbd5b48fd",
+      "bytes": 8812
+    },
+    {
+      "path": "docs/ocr-july-comparison-11.json",
+      "sha256": "6d0012e97a61f7c51b29769b0737276bdfe9375084cc25b7a51334a1a1bbeefd",
+      "bytes": 8880
+    },
+    {
+      "path": "docs/ocr-july-comparison-12.json",
+      "sha256": "290492bde671648195f766d82c09d6c044ab871591e0bde4fa8ebaf265e8c1c6",
+      "bytes": 8951
+    },
+    {
+      "path": "docs/ocr-july-comparison-13.json",
+      "sha256": "1d2f8486a2f39fc47dd5d3cbad92927b13232b88d5c0602eb96ef412ffa36208",
+      "bytes": 8549
+    },
+    {
+      "path": "docs/ocr-july-comparison-14.json",
+      "sha256": "fa8b1dad91e6a92d43eeaff6883395d6d90a6af45d7ef383fda75d48c6e2fb90",
+      "bytes": 8581
+    },
+    {
+      "path": "docs/ocr-july-comparison-15.json",
+      "sha256": "db365025ef4e7be32a6888af53410eb09a68426e500a36d1ba19e5a63a995e31",
+      "bytes": 8570
+    },
+    {
+      "path": "docs/ocr-july-comparison-16.json",
+      "sha256": "5deeff92f4ad55e115c652873b33a3851fa7204201f634a4fe0b5cfb95a3ac24",
+      "bytes": 8572
+    },
+    {
+      "path": "docs/ocr-july-comparison-17.json",
+      "sha256": "67208f87e2c3a84e0530b7db50ae76818febcb7cfbcda7bf719746d222565a6b",
+      "bytes": 8568
+    },
+    {
+      "path": "docs/ocr-july-comparison-18.json",
+      "sha256": "498c128212ea37123e11b38b885d6e6a27040eabb39c1f0a66c37eec9f5ded68",
+      "bytes": 8937
+    },
+    {
+      "path": "docs/ocr-july-comparison-19.json",
+      "sha256": "ad3c6675aa3da462e2558a9db20e2dc33931f3340f94694189d06191c5dd5861",
+      "bytes": 9057
+    },
+    {
+      "path": "docs/ocr-july-comparison-20.json",
+      "sha256": "5f743936c5b529dcf2ce4958235ca8e3cfefb7b06d3bc317d00a9a0729329a69",
+      "bytes": 8846
+    },
+    {
+      "path": "docs/ocr-july-comparison-21.json",
+      "sha256": "466a8dfa7be2cbbeee47cb6a3db581ba2ac7c90ee941e15c5e5167e966642bc7",
+      "bytes": 8902
+    },
+    {
+      "path": "docs/ocr-july-comparison-22.json",
+      "sha256": "54a2eea61981162b5958db8ae84d653ccc396f4d945700cf18ea0197961cbd89",
+      "bytes": 8604
+    },
+    {
+      "path": "docs/ocr-july-comparison-23.json",
+      "sha256": "400108ecec8568f733630a7662204f60d34deb93b0d64e3e1ff09111c2d9f519",
+      "bytes": 8552
+    },
+    {
+      "path": "docs/ocr-july-comparison-24.json",
+      "sha256": "4919b86878b4b2f8cf51bb1b70fc471619d2bfa764fe65c30ffbc4840513b029",
+      "bytes": 8886
+    },
+    {
+      "path": "docs/ocr-july-comparison-25.json",
+      "sha256": "bf57ebff0009804702bcb22340f87b28545f836afc00d5aa9a9d238db6b80d1d",
+      "bytes": 12051
+    },
+    {
+      "path": "docs/ocr-july-comparison-26.json",
+      "sha256": "04cd4f79f9633406c65fd8bc07e622b2cf0a51590fe8551ec48995824c27e696",
+      "bytes": 8854
+    },
+    {
+      "path": "docs/ocr-july-comparison-27.json",
+      "sha256": "073043ef163912a06a84c28c1af9f0739091880b5e0ae24610062f6007e4b2f0",
+      "bytes": 12208
+    },
+    {
+      "path": "docs/ocr-july-comparison-28.json",
+      "sha256": "7945b9817461a33b41535a2a5081c15534dd1b823bd041361098089dbf28390f",
+      "bytes": 12048
+    },
+    {
+      "path": "docs/ocr-july-comparison-29.json",
+      "sha256": "72af6e3ac82ac8d3219f90e5ea883b915eb7a183756d56dd94d3582c724a5c97",
+      "bytes": 11809
+    },
+    {
+      "path": "docs/ocr-july-comparison-30.json",
+      "sha256": "845302944dd257fc2c5328a2fcfa24038ae124203d6c85efc1aaea7805470a2e",
+      "bytes": 11947
+    },
+    {
+      "path": "docs/ocr-july-comparison-31.json",
+      "sha256": "13a1719020a26228dcebe20b4e3d30dd3d976f981636d13609c9ec9ee42fed32",
+      "bytes": 12317
+    },
+    {
+      "path": "docs/ocr-july-comparison-32.json",
+      "sha256": "818e3471f04240a18c75ad4df4e8ee10326527c13f8cd235563c3bf5cf149b07",
+      "bytes": 12000
+    },
+    {
+      "path": "docs/ocr-july-comparison-33.json",
+      "sha256": "fe991cb07d75f43fa39bb3efcda66bf5f4bb681e5a59565d5f755fda39bf9dd0",
+      "bytes": 12134
+    },
+    {
+      "path": "docs/ocr-july-comparison-34.json",
+      "sha256": "bf63687181cd32aad9990f64c8cce83e19f9fde60094bafd9e870488d04902d4",
+      "bytes": 12600
+    },
+    {
+      "path": "docs/ocr-july-comparison-35.json",
+      "sha256": "280b49d4fb31f932a1d1b3e711b8f99001b401bcf63bcb4df9e0aabd88f9ca2c",
+      "bytes": 13328
+    },
+    {
+      "path": "docs/ocr-july-comparison-36.json",
+      "sha256": "807da1353540f850204bf1696f37ce48cd46f576dc0f0e677dbc34fce32fc0ab",
+      "bytes": 11766
+    },
+    {
+      "path": "docs/ocr-july-comparison-37.json",
+      "sha256": "4c0d8989eb425cfe51052d15f94014cdf0346d9be6938736c0cf43fee20a6aae",
+      "bytes": 12538
+    },
+    {
+      "path": "docs/ocr-july-comparison-38.json",
+      "sha256": "e0c72dfebeed7d94a847bae38b9b322aa6e36307d71d778bca66043bdf0783ef",
+      "bytes": 12553
+    },
+    {
+      "path": "docs/ocr-july-comparison-39.json",
+      "sha256": "e3b29a33a5820ce086893b9f8b044e71278c5774636c0cd82faee8251b16bf66",
+      "bytes": 12211
+    },
+    {
+      "path": "docs/ocr-july-comparison-40.json",
+      "sha256": "25789c283ee0ff8d023332844c32790e5c948ca31f501cccf24f20e9dfb6f335",
+      "bytes": 12460
+    },
+    {
+      "path": "docs/ocr-july-comparison-41.json",
+      "sha256": "426adad4bbb70d688b317af0a5c4b06610d505cee3bf895df250271374972d6b",
+      "bytes": 11877
+    },
+    {
+      "path": "docs/ocr-july-comparison-42.json",
+      "sha256": "5dcbc11adffa08e8ad81e042412644d78ac67effb8f0ebe35a6c0f038a6f41b2",
+      "bytes": 11619
+    },
+    {
+      "path": "docs/ocr-july-comparison-43.json",
+      "sha256": "5d60d2383e15845434e47c04018f452210ff4fdabbbaababbf32b6381eecc3e4",
+      "bytes": 12190
+    },
+    {
+      "path": "docs/ocr-july-comparison-44.json",
+      "sha256": "067323e0bc5164e4f7c29a65496410bbf977176b2eaa1da1245f9c705ed9bbdd",
+      "bytes": 11788
+    },
+    {
+      "path": "docs/ocr-july-comparison-45.json",
+      "sha256": "1c12cf541dda3573834c9cb861b22942939665d52236224b64b4b814966cf2d9",
+      "bytes": 12206
+    },
+    {
+      "path": "docs/ocr-july-comparison-46.json",
+      "sha256": "e95ce769c6708ca015219c0f2ca852ad889c2261ce10420bfd4d5c6f251fd2aa",
+      "bytes": 12252
+    },
+    {
+      "path": "docs/ocr-july-comparison-47.json",
+      "sha256": "2e3e3387400800606f318bf57594490b6232e6a3e08a4d08ce66bd26c7e72673",
+      "bytes": 12071
+    },
+    {
+      "path": "docs/ocr-july-comparison-48.json",
+      "sha256": "b36d9eb1738c7a8a927bb992fc8cfeb7c4773fe002989ff7eda1bec332c94023",
+      "bytes": 12125
+    },
+    {
+      "path": "docs/ocr-july-comparison-49.json",
+      "sha256": "f7492a57c4bce08a749a8c94eb7de6f6acaab6fd1e6f059dbc9b0ddf31fc3f3c",
+      "bytes": 11885
+    },
+    {
+      "path": "docs/ocr-july-comparison-50.json",
+      "sha256": "90e912fdb78ef298cd170225d4c8f04ddbd2880e9dca41d1ec5d34ae6ea295b7",
+      "bytes": 11876
+    },
+    {
+      "path": "docs/ocr-july-comparison-51.json",
+      "sha256": "8cf9eb642363700c7b1fd13580178c809cae520ad6d853757c9bc1b8e975d2aa",
+      "bytes": 11866
+    },
+    {
+      "path": "docs/ocr-july-comparison-52.json",
+      "sha256": "dbf7e6715b7e64d2e4d20cdfee51c71d6d825a51bcf29dd85a66158353fc7e18",
+      "bytes": 12120
+    }
+  ],
+  "decision": "Continue provisional content routing, source correction and human review. Favor Qwen for dense Korean, code and structured content; retain cheap Tesseract probes for simple text and judge observed failures. Raw accuracy advantage is supported; reduced paid correction cost is not causally established."
+}

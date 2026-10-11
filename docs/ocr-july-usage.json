@@ -5532,6 +5532,79 @@
         "total_tokens": 206638,
         "uncached_nonwrite_input_tokens": 1176
       }
+    },
+    {
+      "id": "consolidation-july",
+      "stage": "metrics",
+      "engine": "mixed",
+      "start": "2026-10-11T20:27:05.901640+00:00",
+      "end": "2026-10-11T20:33:33.003305+00:00",
+      "elapsed_seconds": 387.101665019989,
+      "observed_responses": 14,
+      "tokens": {
+        "input_tokens": 1225816,
+        "cached_input_tokens": 1168640,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14292,
+        "reasoning_output_tokens": 772,
+        "total_tokens": 1240108,
+        "uncached_nonwrite_input_tokens": 57176
+      }
+    },
+    {
+      "id": "reading-room-july",
+      "stage": "reading-room",
+      "engine": "mixed",
+      "start": "2026-10-11T20:33:33.021546+00:00",
+      "end": "2026-10-11T20:37:44.808+00:00",
+      "limitation": "Ended at last confirmed completed browser action before interrupted tool wait. Uninstrumented tail remains between windows; pause is not active review time.",
+      "elapsed_seconds": 251.78645420074463,
+      "observed_responses": 17,
+      "tokens": {
+        "input_tokens": 1212203,
+        "cached_input_tokens": 1188864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5719,
+        "reasoning_output_tokens": 1816,
+        "total_tokens": 1217922,
+        "uncached_nonwrite_input_tokens": 23339
+      }
+    },
+    {
+      "id": "reading-room-july-resumed",
+      "stage": "reading-room",
+      "engine": "mixed",
+      "start": "2026-10-11T22:10:42.265456+00:00",
+      "end": "2026-10-11T22:14:55.739935+00:00",
+      "elapsed_seconds": 253.47447896003723,
+      "observed_responses": 16,
+      "tokens": {
+        "input_tokens": 1436264,
+        "cached_input_tokens": 1418752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5720,
+        "reasoning_output_tokens": 723,
+        "total_tokens": 1441984,
+        "uncached_nonwrite_input_tokens": 17512
+      }
+    },
+    {
+      "id": "final-july-recording",
+      "stage": "final-accounting",
+      "engine": "mixed",
+      "start": "2026-10-11T22:14:55.778318+00:00",
+      "end": "2026-10-11T22:15:23.834863+00:00",
+      "elapsed_seconds": 28.05654501914978,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 199362,
+        "cached_input_tokens": 197120,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 608,
+        "reasoning_output_tokens": 114,
+        "total_tokens": 199970,
+        "uncached_nonwrite_input_tokens": 2242
+      }
     }
   ],
   "money_cost": null,
@@ -5539,36 +5612,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T20:24:41.847056+00:00",
-    "elapsed_seconds": 148044.83305597305,
-    "observed_responses": 1917,
+    "end": "2026-10-11T22:15:23.834863+00:00",
+    "elapsed_seconds": 154686.8208630085,
+    "observed_responses": 1975,
     "tokens": {
-      "input_tokens": 259316937,
-      "cached_input_tokens": 253555328,
+      "input_tokens": 264915571,
+      "cached_input_tokens": 259030400,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1400029,
-      "reasoning_output_tokens": 326855,
-      "total_tokens": 260716966,
-      "uncached_nonwrite_input_tokens": 5761609
+      "output_tokens": 1430979,
+      "reasoning_output_tokens": 330911,
+      "total_tokens": 266346550,
+      "uncached_nonwrite_input_tokens": 5885171
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T20:24:41.847056+00:00",
-    "elapsed_seconds": 148044.83305597305,
-    "observed_responses": 308,
+    "end": "2026-10-11T22:15:23.834863+00:00",
+    "elapsed_seconds": 154686.8208630085,
+    "observed_responses": 317,
     "tokens": {
-      "input_tokens": 40061582,
-      "cached_input_tokens": 39313536,
+      "input_tokens": 41586571,
+      "cached_input_tokens": 40815232,
       "cache_write_input_tokens": 0,
-      "output_tokens": 140893,
-      "reasoning_output_tokens": 20997,
-      "total_tokens": 40202475,
-      "uncached_nonwrite_input_tokens": 748046
+      "output_tokens": 145504,
+      "reasoning_output_tokens": 21628,
+      "total_tokens": 41732075,
+      "uncached_nonwrite_input_tokens": 771339
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction54:26 text crops,25 advertiser/reference associations;89.157s overlaps28.709s raw. Source reading also in preparation; correction alone is not total effort. Fixed25Q1T, successful worker without retries/fallback/repair. Exact5148localtokens. Four preselected index rows:Qwen wins4, Tesseract blank3 under tested settings. Decorative leaders normalized consistently before index CER; comparison52 not directly pooled with prior literal CER. Unblinded assistant references, not human gold. All36 July bodies restored; consolidated metrics and reading room pending. No causal paid-token attribution. Older limitations retained, between-window usage retained, human review cost unknown."
+  "limitation": "Correction54:26 text crops,25 advertiser/reference associations;89.157s overlaps28.709s raw. Source reading also in preparation; correction alone is not total effort. Fixed25Q1T, successful worker without retries/fallback/repair. Exact5148localtokens. Four preselected index rows:Qwen wins4, Tesseract blank3 under tested settings. Decorative leaders normalized consistently before index CER; comparison52 not directly pooled with prior literal CER. Unblinded assistant references, not human gold. All36 July bodies restored; consolidated metrics and reading room complete. Final audit includes delivery stages; restoration snapshot frozen separately. Interrupted delivery window ends at last confirmed browser action, with uninstrumented tail between windows. Subsequent final commit/report tail excluded by explicit cutoff. No causal paid-token attribution. Older limitations retained, between-window usage retained, human review cost unknown."
 }
