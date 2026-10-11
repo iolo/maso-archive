@@ -89,6 +89,12 @@ repair. Treat that exception as unproven: prefer separating graphic bands from
 ordinary code where layout permits, and do not route code to Tesseract solely
 because it contains a few graphic characters. Keep the same scan-linked markers
 and bounded fallback policy for unresolved glyphs.
+Thin opcode/flag-table rows need particular caution: batch27 produced two Qwen
+length-limit loops on stacked opcode rows. Preserve the complete table image,
+stop repeating failed calls, and use a recorded Tesseract fallback for the affected
+row or remaining homogeneous rows. Check every flag and opcode cell against the
+scan; Tesseract also corrupts these symbols. This is a provisional exception, not
+a reversal of the numeric-table starting choice or evidence of paid savings.
 For repeated numeric/CHR$ expressions, check every printed term as well as row
 coverage: batch20 Qwen shortened many repetitions while returning successful
 responses. Use field counts as an audit, never as permission to invent missing
@@ -1710,3 +1716,62 @@ Cumulative:108 source pages,1,738 regions,1,655 text crops,83 images,1,541 BASIC
 lines,1,120 hex rows,159 assembly/example rows,29 Logo rows and494 flags. Next
 124–127 and full lesson assembly; the123→124 prose join must account for intervening
 listings. Full restoration, final metrics and reading room remain outstanding.
+
+
+### Z80 lesson fully assembled — batch27, 2026-10-11
+
+PDF124–127 completes the lesson begun in26:122 regions,119 text crops,3 images,
+32 opcode rows with192 flag cells,12 truth-table data rows,4 logic-operation rows,
+37 assembly/comment/directive rows and32 review flags. Both full opcode tables
+remain as images beside their row transcriptions. Two damaged readings—the
+INC(HL) result expression and one listing address digit—remain explicitly unresolved.
+Original NFG,0011 register code, unusual operators, flag values and apparent opcode
+mistakes are retained. Qwen separated the opening listing's mnemonic/address columns;
+source review restored their association. No execution or byte-perfect claim.
+
+Originally6 captions were assigned to Tesseract and113 text crops to Qwen.
+Qwen p125r15 and p125r28 each repeated to the4096-token limit. After the second
+failure, both failed crops and17 remaining unattempted opcode rows used Tesseract;
+final25 Tesseract/94 Qwen crops.38 successes survived the first failure and50 were
+reused on the final resume; no completed inference was rerun. Original routing,
+failed responses, fallback changes and all local usage remain recorded separately.
+Tesseract still required substantial table correction; the fallback bounded further
+looping rather than establishing better table accuracy or lower paid cost.
+
+Successful recognition: Qwen181.82s and Tesseract3.12s. Failed Qwen server compute
+adds249.79s. Local42,668 tokens include both failed calls:29,802 prompt and12,866
+completion. Exact raw process exit times were not instrumented;434.72–572.22s is
+a broad bound, from measured recognition/failed compute to the full wall span,
+whose upper bound includes recovery preparation. It is not a clean raw-speed sample.
+Correction/source/helper work580.19s includes recovery preparation and overlaps that
+wall span545.37s; do not add them. Paid correction observations:51,734 uncached input,
+1,870,720 cached input,17,558 output including2,547 reasoning; zero cache-write.
+Preparation, assembly, alternate evaluation and reporting are separate. Content,
+source damage and recovery confound any causal engine-cost comparison.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p124r01 — technical prose | 1.67% | 10.00% |
+| p125r14 — ADD opcode row | 34.62% | 92.31% |
+| p126r23 — ADC HL opcode row | 23.91% | 71.74% |
+| p127r15 — OR assembly sample | 0.00% | 9.62% |
+
+[Comparison25](ocr-july-comparison-25.json) uses the four preselected identical
+PNGs and references sealed before alternate OCR. The rerouted ADC HL sample has
+a bounded512-token Qwen alternate (completed normally); the different cap is
+recorded. Table scores include flag/arrow typography and editorial slash separators
+for stacked opcode lines, so they are not pure cell-value accuracy. References are
+unblinded assistant readings, not human gold; none of these samples captures the
+two primary length-limit failures. All failures remain part of the cost evidence.
+
+Full119–127 assembly:226 regions,219 text crops,7 images,87 assembly/example rows
+and61 flags. The123→124 prose join explicitly declares11 intervening listing blocks.
+Source listing bytes, all review ranges, complete coverage, export integrity and
+byte-identical rebuild pass. An initial export invocation lacked the src import
+path; rerunning with the project path succeeded without changing source evidence.
+
+July now has20 complete article bodies, no partial bodies and16 untouched; zero
+human acceptances. Cumulative:112 source pages,1,860 regions,1,774 text crops,
+86 images,1,541 BASIC lines,1,120 hex rows,196 assembly/example rows,29 Logo rows
+and526 flags. Next inspect graphics title128/body129 and boundary137. Full issue
+restoration, final metric consolidation and the reading room remain outstanding.

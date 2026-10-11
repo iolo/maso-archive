@@ -1522,3 +1522,24 @@ commit code/documentation. Do not count a partial opening as a complete article.
   1 partial,16 untouched;108 pages,1,738 regions,1,655 text,83 images,494 flags.
   Next124–127 and full lesson assembly. Full goal unfinished; homepage edit preserved.
   Final report/commit usage carries forward.
+
+
+### July Z80 lesson fully assembled, 2026-10-11
+
+- Batch27 completes124–127:122 regions,3 images,32 opcode rows,37 listing rows,
+  32 flags. Both complete opcode tables retained beside transcriptions; damaged
+  result expression/address digit unresolved, original errors preserved.
+- Two Qwen4096-token loops led to two Tesseract fallbacks and17 unattempted opcode
+  rows rerouted. Final25 Tesseract/94 Qwen; no completed inference repeated.
+  Recognition181.82s/3.12s plus249.79s failed server compute;42,668 local tokens
+  include failures. Raw434.72–572.22s broad bound includes recovery preparation
+  in its upper bound; exclude from clean speed comparisons.
+- Correction580.19s with545.37s raw-wall overlap;51,734 uncached/1,870,720 cached
+  input and17,558 output tokens. Four comparison25 samples favor Qwen; table CER
+  is typography-sensitive, ADC HL alternate has512-token cap. No causal savings.
+- Full119–127 assembly226 regions,7 images,87 assembly/example rows and61 flags.
+  Immutable source listing bytes, review ranges and byte-identical rebuild pass.
+- July20 complete,16 untouched, no partials;112 pages,1,860 regions,1,774 text,
+  86 images,526 flags, zero human acceptances. Next inspect graphics128 onward.
+  Full restoration/final metrics/reading room outstanding; homepage edit preserved.
+  Final reporting/commit usage carries forward.

@@ -2777,6 +2777,132 @@
         "total_tokens": 241499,
         "uncached_nonwrite_input_tokens": 1392
       }
+    },
+    {
+      "id": "setup-27",
+      "stage": "mapping-and-preparation",
+      "engine": "shared",
+      "start": "2026-10-11T12:35:26.445850+00:00",
+      "end": "2026-10-11T12:40:11.409207+00:00",
+      "elapsed_seconds": 284.9633572101593,
+      "observed_responses": 9,
+      "tokens": {
+        "input_tokens": 555931,
+        "cached_input_tokens": 511872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9021,
+        "reasoning_output_tokens": 460,
+        "total_tokens": 564952,
+        "uncached_nonwrite_input_tokens": 44059
+      }
+    },
+    {
+      "id": "raw-27",
+      "stage": "raw-preparation",
+      "engine": "mixed",
+      "start": "2026-10-11T12:40:11.424399+00:00",
+      "end": "2026-10-11T12:40:38.335915+00:00",
+      "elapsed_seconds": 26.911516189575195,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 122294,
+        "cached_input_tokens": 114688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 454,
+        "reasoning_output_tokens": 79,
+        "total_tokens": 122748,
+        "uncached_nonwrite_input_tokens": 7606
+      }
+    },
+    {
+      "id": "correction-27",
+      "stage": "semantic-correction",
+      "engine": "mixed",
+      "start": "2026-10-11T12:40:38.352496+00:00",
+      "end": "2026-10-11T12:50:18.537542+00:00",
+      "elapsed_seconds": 580.1850461959839,
+      "observed_responses": 21,
+      "tokens": {
+        "input_tokens": 1922454,
+        "cached_input_tokens": 1870720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 17558,
+        "reasoning_output_tokens": 2547,
+        "total_tokens": 1940012,
+        "uncached_nonwrite_input_tokens": 51734
+      }
+    },
+    {
+      "id": "export-27",
+      "stage": "export-and-validation",
+      "engine": "mixed",
+      "start": "2026-10-11T12:50:18.552993+00:00",
+      "end": "2026-10-11T12:50:56.805921+00:00",
+      "elapsed_seconds": 38.252928018569946,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 452898,
+        "cached_input_tokens": 448128,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 407,
+        "reasoning_output_tokens": 105,
+        "total_tokens": 453305,
+        "uncached_nonwrite_input_tokens": 4770
+      }
+    },
+    {
+      "id": "assembly-27",
+      "stage": "full-article-assembly",
+      "engine": "mixed",
+      "start": "2026-10-11T12:50:56.822766+00:00",
+      "end": "2026-10-11T12:51:14.716671+00:00",
+      "elapsed_seconds": 17.8939049243927,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 229980,
+        "cached_input_tokens": 228736,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 197,
+        "reasoning_output_tokens": 49,
+        "total_tokens": 230177,
+        "uncached_nonwrite_input_tokens": 1244
+      }
+    },
+    {
+      "id": "evaluation-27",
+      "stage": "alternate-engine-evaluation",
+      "engine": "mixed",
+      "start": "2026-10-11T12:51:14.732870+00:00",
+      "end": "2026-10-11T12:53:05.326354+00:00",
+      "elapsed_seconds": 110.59348392486572,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 353534,
+        "cached_input_tokens": 348800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3502,
+        "reasoning_output_tokens": 628,
+        "total_tokens": 357036,
+        "uncached_nonwrite_input_tokens": 4734
+      }
+    },
+    {
+      "id": "reporting-27",
+      "stage": "reporting",
+      "engine": "mixed",
+      "start": "2026-10-11T12:53:05.342178+00:00",
+      "end": "2026-10-11T12:53:38.442245+00:00",
+      "elapsed_seconds": 33.100066900253296,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 121932,
+        "cached_input_tokens": 119680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 896,
+        "reasoning_output_tokens": 356,
+        "total_tokens": 122828,
+        "uncached_nonwrite_input_tokens": 2252
+      }
     }
   ],
   "money_cost": null,
@@ -2784,36 +2910,36 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T12:34:30.099878+00:00",
-    "elapsed_seconds": 119833.08587813377,
-    "observed_responses": 877,
+    "end": "2026-10-11T12:53:38.442245+00:00",
+    "elapsed_seconds": 120981.4282450676,
+    "observed_responses": 922,
     "tokens": {
-      "input_tokens": 116424780,
-      "cached_input_tokens": 113529728,
+      "input_tokens": 120910247,
+      "cached_input_tokens": 117895168,
       "cache_write_input_tokens": 0,
-      "output_tokens": 622425,
-      "reasoning_output_tokens": 167442,
-      "total_tokens": 117047205,
-      "uncached_nonwrite_input_tokens": 2895052
+      "output_tokens": 655417,
+      "reasoning_output_tokens": 172216,
+      "total_tokens": 121565664,
+      "uncached_nonwrite_input_tokens": 3015079
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-10T03:17:17.014Z",
-    "end": "2026-10-11T12:34:30.099878+00:00",
-    "elapsed_seconds": 119833.08587813377,
-    "observed_responses": 134,
+    "end": "2026-10-11T12:53:38.442245+00:00",
+    "elapsed_seconds": 120981.4282450676,
+    "observed_responses": 137,
     "tokens": {
-      "input_tokens": 17303303,
-      "cached_input_tokens": 16899200,
+      "input_tokens": 18029747,
+      "cached_input_tokens": 17622016,
       "cache_write_input_tokens": 0,
-      "output_tokens": 44386,
-      "reasoning_output_tokens": 8328,
-      "total_tokens": 17347689,
-      "uncached_nonwrite_input_tokens": 404103
+      "output_tokens": 45343,
+      "reasoning_output_tokens": 8878,
+      "total_tokens": 18075090,
+      "uncached_nonwrite_input_tokens": 407731
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
   "start_basis": "First observed usage record in this trial turn; initial response duration predates start.",
-  "limitation": "Correction-02 includes first export-helper adaptation. Raw-08 assistant window includes shared assembler development/tests and next-article preflight; its raw engine run overlaps correction-08 by about183 seconds. Raw-09, raw-10 and raw-11 also overlap correction; see exact per-window notes. Raw-10 includes exact-edit helper development. Export-10 end uses completed export-results mtime after interruption, excluding the inactive gap. Correction-12 includes interruption recovery and source review; raw elapsed is bounded and incomplete inference tokens/time are unknown. Correction-13 includes musical-symbol fallback/rerun preparation; all raw-attempt costs are retained. Correction-14 includes mixed-recovery helper preparation and manual restoration of silently omitted rows; one Tesseract fallback crop is recorded separately. Correction-15 covers a preassigned mixed route and is not split causally by engine. Correction-16 includes interruption recovery/helper preparation and source review; raw time is bounded, interrupted Qwen usage and original Tesseract timers are unavailable. Correction-17 includes faint wrapped listing/source DATA review and helper adaptation; original ambiguities remain flagged. Correction-18 includes two interruption recoveries and explicit source-damage/hex review; successful timings retained, interrupted costs unknown. Correction-19 includes preassigned Tesseract graphic-heavy code reconstruction and explicit glyph-run markers; raw overlaps by74.234949 seconds. Correction-20 includes graphic listing/CHR$ review and seven-crop expansion recovery; raw overlaps by371.431432 seconds. Correction-21 includes table/circled-label and assembly-column review plus helper preparation; raw overlaps by198.121405 seconds. Correction-22 includes Logo/source wording review, interruption recovery and helper preparation; raw overlap bounded149.377339–212.715649 seconds. Export-repair-22 rebuilds after a final pre-evaluation prose-wrap correction; original draft archived. Correction-23 includes57 BASIC lines, faint Hangul/punctuation and source review; raw overlaps by89.350625 seconds. Correction-24 includes gray-background prose, tables, console/assembly row review and helper preparation. Raw-24 includes an erroneous recovery and evidence repair; exclude its wall time from clean speed comparisons. No raw/correction overlap in24. Correction-25 includes command typography, damaged-source and console-row review plus helper preparation; raw overlaps by292.089827 seconds. Full CP/M assembly25 is separate. Correction-26 includes arithmetic/source contradictions, assembly alignment review and helper preparation; raw overlaps by183.763713 seconds. No per-engine paid attribution. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
+  "limitation": "Correction-02 includes first export-helper adaptation. Raw-08 assistant window includes shared assembler development/tests and next-article preflight; its raw engine run overlaps correction-08 by about183 seconds. Raw-09, raw-10 and raw-11 also overlap correction; see exact per-window notes. Raw-10 includes exact-edit helper development. Export-10 end uses completed export-results mtime after interruption, excluding the inactive gap. Correction-12 includes interruption recovery and source review; raw elapsed is bounded and incomplete inference tokens/time are unknown. Correction-13 includes musical-symbol fallback/rerun preparation; all raw-attempt costs are retained. Correction-14 includes mixed-recovery helper preparation and manual restoration of silently omitted rows; one Tesseract fallback crop is recorded separately. Correction-15 covers a preassigned mixed route and is not split causally by engine. Correction-16 includes interruption recovery/helper preparation and source review; raw time is bounded, interrupted Qwen usage and original Tesseract timers are unavailable. Correction-17 includes faint wrapped listing/source DATA review and helper adaptation; original ambiguities remain flagged. Correction-18 includes two interruption recoveries and explicit source-damage/hex review; successful timings retained, interrupted costs unknown. Correction-19 includes preassigned Tesseract graphic-heavy code reconstruction and explicit glyph-run markers; raw overlaps by74.234949 seconds. Correction-20 includes graphic listing/CHR$ review and seven-crop expansion recovery; raw overlaps by371.431432 seconds. Correction-21 includes table/circled-label and assembly-column review plus helper preparation; raw overlaps by198.121405 seconds. Correction-22 includes Logo/source wording review, interruption recovery and helper preparation; raw overlap bounded149.377339–212.715649 seconds. Export-repair-22 rebuilds after a final pre-evaluation prose-wrap correction; original draft archived. Correction-23 includes57 BASIC lines, faint Hangul/punctuation and source review; raw overlaps by89.350625 seconds. Correction-24 includes gray-background prose, tables, console/assembly row review and helper preparation. Raw-24 includes an erroneous recovery and evidence repair; exclude its wall time from clean speed comparisons. No raw/correction overlap in24. Correction-25 includes command typography, damaged-source and console-row review plus helper preparation; raw overlaps by292.089827 seconds. Full CP/M assembly25 is separate. Correction-26 includes arithmetic/source contradictions, assembly alignment review and helper preparation; raw overlaps by183.763713 seconds. Correction-27 includes two output-limit recovery preparations,32 opcode rows/192 flag cells,37 listing rows and damaged-source review. Raw wall span overlaps correction by545.371342 seconds and includes recovery preparation; clean raw timing unavailable, failed server compute and all local usage retained. No per-engine paid attribution. Counts are observations, not pure engine costs. Current final reporting/commit tail lies after cutoff and must be carried into the next audit."
 }

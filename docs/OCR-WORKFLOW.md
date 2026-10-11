@@ -435,7 +435,12 @@ repairs. Source comparison must check file extensions, row boundaries and origin
 command punctuation. Batch26 adds an ORG/address-row merge that lost an LD operand
 row; count directives separately from addressed rows. Its fixed arithmetic-layout
 sample favored Tesseract, but divider/arrow representation affects CER. CP/M101–113
-is fully assembled; Z80 lesson119–123 is partial pending124–127. This is guidance for choosing new checkpoints;
+and Z80 lesson119–127 are fully assembled. Batch27 produced two Qwen length-limit
+loops on thin stacked opcode rows. Preserve original table images and use a
+recorded bounded Tesseract fallback for affected/remaining homogeneous rows;
+check every cell, since Tesseract also corrupts flag/opcode symbols. Both failed
+costs and changed assignments remain in the audit. Table CER is typography-sensitive;
+this exception does not establish a paid-cost advantage. This is guidance for choosing new checkpoints;
 explicit mixed-region assignments are recorded, while no automatic classifier or
 pipeline default has changed. The2026-10-11 full-issue
 goal now authorizes a reading-room build after restoration and metric consolidation.
