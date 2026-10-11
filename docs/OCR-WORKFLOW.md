@@ -408,13 +408,29 @@ remaining after local OCR.
 The maintainer selected July1984 for the next trial. See [the trial plan and
 measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
-Five complete native article packages and the music-card hardware/software segments
-are recorded in [July progress](ocr-july-progress.json). The music-card article
-remains partial: lower PDF191 and PDF192–194 hex listings and final assembly are pending.
+Six complete article bodies, including the assembled music-card hardware/software/hex
+article, are recorded in [July progress](ocr-july-progress.json). Thirty paginated
+bodies remain; six unpaginated TOC parent headings are tracked separately.
 
 The [provisional engine-selection heuristic](OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
 starts with Tesseract for clear prose, Qwen for tables/technical notation/listings,
 and original images for diagrams. It includes bounded probes, explicit fallback
 accounting and evidence limitations. It is guidance for choosing new checkpoints;
-no automatic routing or pipeline default has changed. Reading-room rebuilding and
-staging remain deferred until the user explicitly requests them.
+no automatic routing or pipeline default has changed. The2026-10-11 full-issue
+goal now authorizes a reading-room build after restoration and metric consolidation.
+
+### Assembly across a shared source page
+
+When an article segment ends halfway down a page, a later segment may restore the
+remaining regions. Declare that page in the assembly recipe's `shared_pdf_pages`
+and supply `resolved_exclusions` (an empty list when no exclusion is resolved).
+Page metadata and orientation must match; included regions from different segments
+must not overlap. Undeclared shared pages continue to be rejected.
+
+A deferred exclusion may be removed from the combined map only through an explicit
+record with `segment`, `region_id`, `restored_by` and `reason`. The restoring
+segment's regions on that page must lie inside the original exclusion. This checks
+geometry and provenance; the recipe's source-inspection evidence must still justify
+complete content coverage. Original segment maps, exclusions, OCR and corrections
+remain immutable in the assembly. Shared-page checks run again during export
+verification, including when the assembled artifacts have been rehashed.

@@ -30,7 +30,7 @@ def text_bytes(package):
 
 def validate_recipe(recipe):
     examples = recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1')
-    optional = {'index_mode', 'prose_joins'} if examples else {'index_mode'}
+    optional = ({'index_mode', 'prose_joins'} if examples else {'index_mode'}) | {'shared_pdf_pages', 'resolved_exclusions'}
     if (set(recipe) - optional != {'segments', 'expected_pdf_pages', 'evidence', 'uncertainties', 'resolved_notes'} or
         ('index_mode' in recipe and recipe['index_mode'] not in
          ('namespaced-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1'))):
@@ -56,6 +56,8 @@ def validate_recipe(recipe):
             raise ValueError('Assembly review notes must be nonblank strings')
     if not recipe['evidence']:
         raise ValueError('Assembly requires coverage review evidence')
+    from .assembly_shared import validate_options
+    validate_options(recipe)
     seen = set()
     for row in recipe['resolved_notes']:
         if (set(row) != {'segment', 'note', 'reason'} or row['segment'] not in names or
@@ -128,6 +130,8 @@ def read_segment(folder, manifest):
 def project(recipe, segments):
     """Derive combined content and correction indexes; never modify original evidence."""
     validate_recipe(recipe)
+    from .assembly_shared import validate_shared_pages
+    validate_shared_pages(recipe, segments)
     if recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1'):
         from .assembly_examples import project_examples
         return project_examples(recipe, segments)
@@ -161,7 +165,15 @@ def project_legacy(recipe, segments, *, check_listing_markers=True):
         retained_notes.extend(keep(notes))
         all_pages.extend(p['pdf_page'] for p in source['pages'])
         for key in ('pages', 'regions', 'excluded_regions', 'content_order'):
-            package[key].extend(deepcopy(source[key]))
+            rows = deepcopy(source[key])
+            if 'shared_pdf_pages' in recipe:
+                if key == 'pages':
+                    seen_pages = {p['pdf_page'] for p in package['pages']}
+                    rows = [p for p in rows if p['pdf_page'] not in seen_pages]
+                elif key == 'excluded_regions':
+                    from .assembly_shared import exclusion_is_resolved
+                    rows = [r for r in rows if not exclusion_is_resolved(recipe, name, r['id'])]
+            package[key].extend(rows)
         for block in source['blocks']:
             package['blocks'].append({**deepcopy(block), 'uncertainties': keep(block['uncertainties'])})
         package['figures'].extend({**deepcopy(f), 'asset': rebase(f['asset'], prefix)} for f in source['figures'])
@@ -211,6 +223,8 @@ def project_legacy(recipe, segments, *, check_listing_markers=True):
         segment_records.append(dict(name=name, directory=prefix, original_coverage=correction.get('coverage'),
                                     manual_postproduction=correction.get('manual_postproduction')))
         offset += len(source_listing)
+    if 'shared_pdf_pages' in recipe:
+        all_pages = [p['pdf_page'] for p in package['pages']]
     if all_pages != recipe['expected_pdf_pages'] or len(set(all_pages)) != len(all_pages):
         raise ValueError('Segments overlap or differ from expected ordered page coverage')
     if len({r['id'] for r in records}) != len(records):
@@ -230,6 +244,10 @@ def project_legacy(recipe, segments, *, check_listing_markers=True):
                        glyph_definitions=definitions, coverage=dict(article_pdf_pages=all_pages, included_pdf_pages=all_pages,
                        included_printed_pages=[p['printed_page'] for p in package['pages']], deferred_pdf_pages=[],
                        complete_article=True, assembly_pending=False, source_pages_missing=False), character_perfect_code=False)
+    if 'shared_pdf_pages' in recipe:
+        corrections['shared_page_coverage'] = dict(shared_pdf_pages=recipe['shared_pdf_pages'],
+            resolved_exclusions=recipe['resolved_exclusions'],
+            evidence='Original page metadata agree; included cross-segment regions are disjoint. Resolved exclusions retain their original maps in immutable segments.')
     return package, corrections
 
 

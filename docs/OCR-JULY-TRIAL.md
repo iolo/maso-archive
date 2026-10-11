@@ -21,7 +21,8 @@ tables, mixed layouts, and longer listings:
 | 합이 15 | Qwen | BASIC with introductory prose and grids | Restored; printed64–65 / PDF68–69 |
 | SPC-1000 음악기능과 명령어 | Qwen | Technical prose, table, formulas, BASIC and diagrams | Restored; printed47–51 / PDF51–55 |
 | PIA 시리즈1 뮤직카드 — hardware segment | Tesseract | Hardware prose, circuit/pinout diagrams and construction photos | Hardware segment restored; printed180–183 / PDF184–187 |
-| PIA 시리즈1 뮤직카드 — software instructions | Qwen | Commands, addresses, joystick controls and musical notation | Segment restored; PDF188–190 and upper191; hex listing deferred |
+| PIA 시리즈1 뮤직카드 — software instructions | Qwen | Commands, addresses, joystick controls and musical notation | Restored and assembled; PDF188–190 and upper191 |
+| PIA 시리즈1 뮤직카드 — hex listing | Qwen | Dense addressed hexadecimal dump | Restored and assembled; lower PDF191 and PDF192–194 |
 
 Both engines use 4,000-pixel page renders in this trial. Tesseract retains its
 pinned runtime, OEM1/PSM6 and one thread, with English for code and Korean+English
@@ -43,8 +44,9 @@ Compare input, cached input, cache-write input and output separately; normalize
 by corrected characters, pages and listing lines only alongside their content
 categories. Do not infer dollar savings from a simple token subtotal.
 
-**Reading room: do not rebuild or restage until the user explicitly requests it.**
-Native restoration packages and progress records can continue independently.
+**Current goal,2026-10-11:** restore all remaining July article bodies, consolidate
+metrics, then build the reading room for human review. This explicit request
+supersedes the earlier reading-room hold; build it after the issue restoration.
 
 ## Provisional engine-selection heuristic
 
@@ -57,7 +59,7 @@ paid-cost ranking or an automatic routing implementation.
 | --- | --- | --- |
 | Clear, ordinary prose | Tesseract | Fast draft; context often makes errors easy to resolve. Qwen also reads prose better in our samples, so Tesseract is not a proven cost winner. |
 | Numeric tables, formulas, dense technical notation | Qwen | Values, symbols and relationships are costly to reconstruct. The July frequency table supports this choice under the tested settings; other table layouts remain untested. |
-| BASIC, assembly, hexadecimal listings | Qwen | Individual characters need careful checking. BASIC results are promising; long hexadecimal listings and this broader category still need testing. |
+| BASIC, assembly, hexadecimal listings | Qwen | Individual characters need careful checking. BASIC and four long-hex sample crops favor Qwen raw text; the full hex listing still required substantial byte checking. Paid savings and other assembly formats remain unproven. |
 | Faint, degraded or unusually styled text | Qwen candidate | Try when Tesseract produces substantial garbage. This is a plausible fallback heuristic, not a settled July finding. |
 | Diagrams and photographs | Preserve original image | Transcribe surrounding prose/captions separately. Diagram reconstruction is a distinct task. |
 
@@ -82,8 +84,8 @@ assignment. Keep diagnostic/evaluation costs separate from ordinary restoration.
 
 Semantic correction and human review continue whichever engine is chosen. Judge
 this heuristic by paid correction usage and total elapsed work across comparable
-content categories, not raw CER alone. Revise it as the remaining music-card
-program instructions and hexadecimal listings provide more evidence.
+content categories, not raw CER alone. The music-card hex checkpoint supports the
+raw-quality choice but also demonstrates its substantial remaining review cost.
 
 ## First checkpoint, 2026-10-10
 
@@ -449,3 +451,79 @@ The cumulative usage audit now includes earlier reporting/commit responses throu
 the new cutoff; gaps remain visible and calendar spans are not active work time.
 Preserve earlier packages and commit each checkpoint. Reading-room work remains
 explicitly deferred.
+
+## Long hex listing and full music-card assembly, 2026-10-11
+
+Batch08 restores lower PDF191 and PDF192–194 with Qwen, selected before inference.
+The75 code crops contain1,071 addressed rows and8,568 transcribed bytes. The
+printed ranges4000–5727 and6000–6A4F remain separate; no bytes were invented for
+the gap5728–5FFF. Two rows omitted by Qwen,47E8 and6590, were restored from scans.
+Corrections also address8/B substitutions, erroneous zero cells and a row-boundary
+error. Sixteen specific flags retain uncertain readings and source overprinting.
+Every row was compared with its crop, but byte-perfect accuracy and execution are
+unverified. Valid-looking byte substitutions can pass structural checks.
+
+| Observation | Qwen hex segment |
+| --- | ---: |
+| Raw stage, including render/startup/export | 833.14s |
+| Recognition calls, contained in raw stage | 807.55s |
+| Server startup, contained in raw stage | 1.26s |
+| Correction and recording window | 913.35s |
+| Corrected non-whitespace characters | 22,491 |
+| Observed uncached, non-write correction input tokens | 134,999 |
+| Observed cached correction input tokens | 3,691,648 |
+| Observed correction output tokens | 24,424 |
+
+Cache-write tokens were zero. Qwen's59,727 local tokens (31,128 prompt and28,599
+completion) are separate from assistant usage. There were75 fresh inferences,
+no cache hits and no inference retries. The first row-detection map was rejected
+and repaired before inference; its preparation cost is retained.
+
+Correction began on completed pages while the final raw page was still running:
+the windows overlap by about183 seconds. Do not add raw and correction durations
+as serial elapsed. The650.57-second assistant raw-monitoring window also includes
+shared-page assembler development/tests, queue classification and next-article
+preflight; it is labelled shared work, not ordinary OCR or semantic correction.
+Setup256.84s, export26.71s, evaluation22.48s and assembly104.57s remain separately
+recorded, along with reporting and between-window usage. Assembly includes a
+verification-call signature error corrected without repeating OCR or modifying
+the exported source segments.
+
+Four15-row crops, one from each page's second column, were fixed before inference.
+The reference was sealed before alternate Tesseract OCR on identical PNGs.
+
+| Crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p191r25 | 4.44% | 45.08% |
+| p192r28 | 0.63% | 43.81% |
+| p193r28 | 2.86% | 48.57% |
+| p194r28 | 1.59% | 48.57% |
+| Pooled60 rows /1,260 reference characters | 2.38% | 46.51% |
+
+This supports Qwen as the starting choice for this kind of dense hex under the
+fixed settings. It does not show that hex correction is cheap: scan comparison
+still took over15 minutes. References are unblinded assistant readings from Qwen,
+not independent human gold. CER ignores whitespace and is not a byte-error rate.
+Tesseract used English OEM1/PSM6 without font-specific tuning or per-cell crops.
+No second paid correction was performed, so paid savings remain unmeasured.
+
+The full music-card article is now assembled from hardware06/Tesseract,
+software07/Qwen and hex08/Qwen: PDF184–194,199 regions,14 original figures and40
+source-linked review flags. Shared PDF191 is represented once, with disjoint
+software and hex regions; the original deferred exclusion remains in the retained
+software segment. The boxed advertisement on185 remains excluded. All original
+segments and OCR provenance are retained. Assembly and native export integrity,
+all review byte ranges,1,071-row listing identity and byte-identical rebuilds pass.
+The shared-page implementation passed90 assembly/build/package tests.
+
+July now has six complete bodies and30 remaining paginated body candidates,
+covering23 distinct restored source pages:360 regions,337 text crops,23 figures,
+207 logical BASIC lines and1,071 physical hex rows, with75 review flags. Six
+unpaginated TOC parent headings are classified separately; all42 TOC entries remain
+accounted for. Section-opener images remain source material, not separate article
+bodies. Human acceptance is pending for every restored article.
+
+Next is the Z-80 feature, candidate PDF21–38/printed17–34, routed provisionally to
+Qwen for dense technical notation; detailed mapping and fixed samples precede OCR.
+Reading-room construction follows full restoration and metric consolidation under
+the active goal. No reading-room build was performed at this checkpoint.

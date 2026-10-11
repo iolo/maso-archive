@@ -2320,5 +2320,67 @@ class PDFAssemblyTests(unittest.TestCase):
                 self.assertFalse(source_example_unverified(dict(answer,**{key:value})))
 
 
+    def shared_page_segments(self):
+        segments = self.rich_segments()
+        page = deepcopy(segments[0][0]['pages'][0])
+        for i, (source, _) in enumerate(segments):
+            source['pages'] = [deepcopy(page)]
+            for r in source['regions']:
+                r['pdf_index'] = 0
+                r['bbox'][1] = i * .5 + r['bbox'][1] * .5
+                r['bbox'][3] = i * .5 + r['bbox'][3] * .5
+        self.recipe.update(expected_pdf_pages=[1], shared_pdf_pages=[1], resolved_exclusions=[])
+        return segments
+
+    def test_shared_page_projection_keeps_disjoint_regions_and_original_evidence(self):
+        segments = self.shared_page_segments()
+        before = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, before)
+        self.assertEqual(len(package['pages']), 1)
+        self.assertEqual(len(package['regions']), 4)
+        self.assertEqual(correction['coverage']['article_pdf_pages'], [1])
+        self.assertEqual(correction['shared_page_coverage']['shared_pdf_pages'], [1])
+        self.assertEqual(len(correction['listing_line_index']), 3)
+
+    def test_shared_page_projection_requires_explicit_matching_disjoint_geometry(self):
+        original = self.shared_page_segments()
+        for change in ('undeclared', 'different-page', 'orientation', 'overlap', 'unexpected-page', 'duplicate-option'):
+            segments, recipe = deepcopy(original), deepcopy(self.recipe)
+            if change == 'undeclared':
+                recipe.pop('shared_pdf_pages'); recipe.pop('resolved_exclusions')
+            if change == 'different-page':
+                segments[1][0]['pages'][0]['printed_page'] = 'different'
+            if change == 'orientation':
+                segments[1][0]['pages'][0]['orientation_correction'] = {'clockwise_degrees': 180, 'evidence': 'Different'}
+            if change == 'overlap':
+                segments[1][0]['regions'][0]['bbox'][1] = .49
+            if change == 'unexpected-page': recipe['shared_pdf_pages'] = [2]
+            if change == 'duplicate-option': recipe['shared_pdf_pages'] = [1,1]
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(recipe, segments)
+
+    def test_shared_page_exclusion_resolution_requires_retained_restoring_evidence(self):
+        segments = self.shared_page_segments()
+        excluded = dict(id='deferred', pdf_index=0, kind='code', bbox=[0,.5,1,1], notes='Deferred continuation')
+        segments[0][0]['excluded_regions'] = [excluded]
+        with self.assertRaisesRegex(ValueError, 'unresolved exclusion'):
+            project(self.recipe, segments)
+        resolution = dict(segment='opening', region_id='deferred', restored_by='continuation', reason='Lower half now restored')
+        self.recipe['resolved_exclusions'] = [resolution]
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(package['excluded_regions'], [])
+        self.assertEqual(segments[0][0]['excluded_regions'], [excluded])
+        self.assertEqual(correction['shared_page_coverage']['resolved_exclusions'], [resolution])
+        for change in ('missing', 'self', 'outside', 'duplicate'):
+            recipe, copies = deepcopy(self.recipe), deepcopy(segments)
+            if change == 'missing': recipe['resolved_exclusions'][0]['region_id'] = 'missing'
+            if change == 'self': recipe['resolved_exclusions'][0]['restored_by'] = 'opening'
+            if change == 'outside': copies[0][0]['excluded_regions'][0]['bbox'][3] = .9
+            if change == 'duplicate': recipe['resolved_exclusions'].append(deepcopy(resolution))
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                project(recipe, copies)
+
+
 if __name__ == '__main__':
     unittest.main()

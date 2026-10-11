@@ -1084,3 +1084,40 @@ commit code/documentation. Do not count a partial opening as a complete article.
   59 review flags.37 entries unfinished,36 untouched; human acceptance pending.
 - Reading room unchanged; user homepage edit retained. Carry this reporting/commit
   tail into the next cumulative token audit.
+
+### Full July restoration goal activated, 2026-10-11
+
+- Restore every remaining article body, consolidate time/paid-token metrics, then
+  build and verify a reading-room preview for mandatory human review. The explicit
+  goal authorizes that final build after restoration; earlier hold is superseded.
+- Keep the routing rule provisional, immutable raw evidence and source-linked
+  correction records. Classify six unpaginated TOC parent headings separately;
+  all42 catalog entries remain accounted for, with36 paginated body candidates.
+- Current work: music-card hex listing and full assembly. Then continue through
+  remaining bodies in source order, inspecting actual boundaries and advertisements.
+
+### July hex listing and music-card assembly completed, 2026-10-11
+
+- Batch08/Qwen restores lower191 and192–194:75 crops,1,071 addressed hex rows,
+  8,568 bytes,16 source-linked flags. Two omitted rows restored from source;
+  printed5728–5FFF gap retained. Byte accuracy and execution remain unverified.
+- Raw833.14s, recognition807.55s, startup1.26s; correction/recording913.35s.
+  Correction usage:134,999 uncached input,3,691,648 cached input,24,424 output;
+  zero cache-write. Local Qwen59,727 tokens separately recorded. Raw and correction
+  overlap by about183s; shared assembler development during raw monitoring is
+  explicitly labelled. Preparation rejection and assembly verification-call error
+  retained in costs; no inference retries or duplicate paid correction.
+- Four preselected identical-PNG hex samples: pooled compact CER2.38% Qwen versus
+  46.51% Tesseract. Supports provisional raw-quality routing, not paid-cost savings
+  or human-gold/byte-perfect accuracy; substantial source-checking work remains.
+- Full music-card assembly combines immutable batches06–08 across PDF184–194:
+  199 regions,14 figures,40 flags. Explicit shared-page geometry/exclusion handling
+  preserves both parts of191 and original source exclusions. Ninety targeted tests
+  passed; export integrity, all review byte ranges and byte-identical rebuilds pass.
+- July:6 complete bodies,30 remaining;6 unpaginated parent headings separately
+  classified, all42 TOC entries accounted for.23 source pages,360 regions,
+  337 text crops,23 figures,207 BASIC lines,1,071 hex rows,75 flags. Human review
+  pending. Reading room awaits full restoration and metric consolidation.
+- Next: Z-80 feature, candidatePDF21–38, Qwen for dense technical notation;
+  detailed mapping and preselected samples still required. User homepage edit
+  retained. Carry reporting/commit tail into the next cumulative usage audit.
