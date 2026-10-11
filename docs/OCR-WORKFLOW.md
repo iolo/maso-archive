@@ -514,3 +514,22 @@ geometry and provenance; the recipe's source-inspection evidence must still just
 complete content coverage. Original segment maps, exclusions, OCR and corrections
 remain immutable in the assembly. Shared-page checks run again during export
 verification, including when the assembled artifacts have been rehashed.
+
+### Repetitive logic-table evidence from July hardware
+
+Hardware checkpoint36 restores195–200 with the fixed32T/108Q route;201–206 and
+full assembly remain pending. Comparison34's4532 truth table is a counterexample
+to treating either successful OCR completion or lower CER as structural accuracy.
+Qwen stopped normally with only8/10 data rows and13/14 columns; Tesseract also
+badly corrupted the grid. Check source row/column counts, headers and each cell,
+retain the original image, and flag unclear or clipped source material. Do not
+infer missing values from electrical logic. This evidence does not establish
+which engine minimizes total correction cost for such tables.
+
+The initial worker stopped during model loading after32 completed Tesseract crops.
+Reuse those outputs; count both startup lifespans, exclude the recovery gap, and
+record exact local token totals when no inference request was interrupted. Keep
+split correction windows separate and disclose any approximate interruption
+boundary. The five-row KEY routine remains literal and unexecuted; printed syntax
+errors, duplicated captions and source spelling are review items, not automatic
+repair targets.

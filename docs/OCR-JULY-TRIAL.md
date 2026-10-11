@@ -2347,3 +2347,67 @@ room remain pending.
   article. Next correct195–200, then restore201–206 and assemble the tutorial.
   Paid usage carries into the next full audit; idle time is excluded from the
   interrupted correction window. Reading-room build remains deferred.
+
+### Hardware opening: source correction and comparison34
+
+PDF195–200/printed191–196 now has a private source-reviewed export. The full
+hardware tutorial spans195–206; pages201–206 and full assembly remain pending.
+This checkpoint contains155 regions,140 text crops,15 original images, five KEY
+routine rows, three tables with20 data rows/200 cells and37 review flags. Images
+retain circuit geometry, pin labels, timing charts and the source table grids.
+
+The fixed32T/108Q route was unchanged. Raw elapsed is205.984s across both worker
+lifespans, including the interrupted initial model startup and resumed startup.
+All32 completed Tesseract crops were reused; no Qwen request was interrupted and
+no completed inference repeated. Successful recognition totals169.118s Qwen and
+3.308s Tesseract, nested within raw elapsed. Local Qwen usage is exactly34,774
+tokens:29,885 prompt and4,889 completion. Recovery preparation/idle gaps are
+excluded from raw elapsed.
+
+The two correction windows total599.63s and overlap raw by10.28s. The interrupted
+first window ends at its last observed session event; this timing boundary is
+explicitly approximate and excludes the later idle gap. Observed correction
+usage totals94,080 uncached input,1,570,944 cached input and17,228 output tokens,
+including2,724 reasoning tokens, with zero cache-write. Source comparison,
+transcription, table reconstruction, joins and helper preparation are included.
+The raw-resume assistant window also includes recovery/status/evidence-validation
+work. These measurements do not establish causal paid-token savings by engine.
+
+| Fixed sample | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| p196r02 — boxed introductory prose | 0.00% | 2.22% |
+| p196r19 — parallel-transfer prose | 0.00% | 14.81% |
+| p198r23 — 4532 truth table | 31.58% | 88.95% |
+| p199r17 — first two KEY rows | 0.00% | 31.58% |
+
+[Comparison34](ocr-july-comparison-34.json) uses identical preselected PNGs and
+assistant source references sealed before alternates. References are unblinded,
+not human gold. Tesseract uses kor+eng on prose and eng on table/code. Both
+T-primary Qwen alternates completed below the512-token limit. Compact CER ignores
+whitespace but counts table separators and subscript typography; it is not cell
+accuracy.
+
+The Qwen table alternate returned only eight of ten data rows, with13 columns
+instead of14, omitted D0, misread Q2/Q1/Q0 as Q7/Q6/Q5, and inserted a D among
+logic symbols. Its finish reason was `stop`, so a successful model response did
+not establish complete extraction. Tesseract also severely corrupted the grid.
+The restored table was checked against the source cell by cell, with the original
+image retained. This case supports structural review, not a blanket Qwen table
+recommendation. No additional primary inference or route change was made.
+
+Source correction repaired LED/hexadecimal Tesseract errors, Qwen subscript and
+번지 readings, duplicated word fragments at crop/line boundaries and modernized
+keyboard spelling. Original keyboand/keyboud, 입력출장치,6진, repeated figure10,
+figure12/13 captions and missing JR operand punctuation remain as printed. The
+READ table is clipped in the original figure; only its visible two output columns
+are transcribed. The damaged WRITE cell, small D6 reading, 오폰 vowel and code
+O/0/comma shapes remain flagged for human review. No circuitry or code was tested
+or repaired.
+
+All155 records,200 table cells, five listing rows, explicit joins, source-image
+hashes, UTF-8 review ranges and byte-identical rebuild pass. July now has26 complete
+bodies, one partial and nine untouched, with zero human acceptances. Cumulative
+coverage is164 unique pages,3,223 regions,3,047 text crops,176 images and838 flags.
+Next restore monitor pages201–206, including the listing printed out of logical
+order, then assemble the full tutorial. Full-issue metrics and reading room remain
+pending.

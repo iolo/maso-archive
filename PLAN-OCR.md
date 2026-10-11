@@ -1734,3 +1734,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   article. Next correct195–200, then restore201–206 and assemble the tutorial.
   Paid usage carries into the next full audit; idle time is excluded from the
   interrupted correction window. Reading-room build remains deferred.
+
+### July hardware opening reviewed, 2026-10-12
+
+- Restored PDF195–200/printed191–196 as a partial checkpoint: 155 regions,
+  140 text crops, 15 images, five KEY routine rows, three tables with 20 data
+  rows/200 cells and 37 review flags. Full195–206 extent verified;201–206 remains.
+- Fixed32T/108Q routing retained. Both raw workers total205.984s; Qwen169.118s
+  and Tesseract3.308s successful recognition. All32T reused after startup-only
+  interruption, no completed inference repeated. Local34,774 tokens are exact.
+- Two correction windows total599.63s, overlapping raw by10.28s; interrupted
+  window closes at last observed prior-session event and excludes the idle gap.
+  Observed94,080 uncached/1,570,944 cached input and17,228 output tokens. These
+  include source review/helper work and do not isolate engine-specific savings.
+- Comparison34 favors Qwen on four compact-CER samples, but its table alternate
+  silently returns8/10 rows and13/14 columns. Tesseract also badly damages that
+  grid. Neither table output is safe without source structure/cell review.
+- Retained printed keyboand/keyboud,6진, repeated captions, missing assembler
+  punctuation and clipped READ-table edge; uncertain subscripts/cells flagged.
+  Export coverage, UTF-8 ranges, five listing rows and byte-identical rebuild pass.
+- July:26 complete,1 partial,9 untouched;164 unique pages,3,223 regions,
+  3,047 text crops,176 images,838 flags,zero human acceptance. Next restore the
+  monitor/listing pages201–206 and assemble the full tutorial. Full-issue metrics
+  and reading room remain pending; final reporting/commit usage carries forward.
