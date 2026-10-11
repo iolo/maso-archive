@@ -1536,3 +1536,23 @@ no partial bodies and zero human acceptances. Cumulative coverage:90 source page
 97 assembly rows,29 Logo procedure rows and394 review flags. Next inspect CP/M 입문,
 candidate101–118 and boundary119. Full restoration, final metric consolidation
 and the reading room remain outstanding.
+
+
+### July CP/M opening raw checkpoint, 2026-10-11
+
+- Confirmed CP/M 입문 spans PDF101–113;114–118 are advertisements.
+  First segment101–106 has142 mapped regions:139 text crops and3 preserved figures.
+- Raw OCR complete using the preassigned routing rule:125 Qwen and14 Tesseract
+  regions. Semantic correction, fixed-reference comparison and article export remain
+  pending; the issue stays at18 complete article bodies and zero human acceptances.
+- A process-name check missed the live original worker. A premature recovery
+  archived one in-flight request; the original worker completed all recognition but
+  export then lacked that request. Reconstructed its evidence from the preserved
+  original request and response, retained both prior stage versions, and verified
+  all125 stage hashes before re-export. No completed OCR inference was rerun.
+- Exclude this batch's elapsed wall time from clean speed comparisons: the mistaken
+  recovery, second server startup and evidence repair contaminated it. Private
+  `batch-24/recovery-correction.json` supersedes the initial interruption diagnosis.
+  Raw evidence-bundle manifest SHA-256: `a5da489e2352715ac82e8283effc65944a825b1bb969fbebd4400bf537f0da9a`.
+- Next: source-based correction of101–106, then107–113 and full CP/M assembly.
+  Final issue metrics and reading-room work remain outstanding.
