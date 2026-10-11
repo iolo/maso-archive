@@ -619,3 +619,29 @@ YB/YB,US,933/930 and Aplle discrepancies are preserved. Line270 ends mid-token a
 this checkpoint and continues on218; complete assembly must retain that boundary.
 All human acceptance remains pending. Reading-room generation waits for the full
 issue restoration and consolidated metrics.
+
+### July batch42: graphic literals can silently truncate successful code OCR
+
+Keep the bounded-output rule, but do not equate a successful response with full
+coverage. In batch42, four successful Qwen strips omitted statement text after
+or near graphic literals. One other graphic strip reached512 tokens while
+repeating spade symbols and used a same-crop Tesseract fallback. Its15.226s failed
+compute and891 tokens remain included in the297.048s raw run and38,778-token total.
+
+Compare every printed physical row with the draft, including graphics-only rows,
+quote-only continuations and isolated source fragments. Use explicit scan-linked
+markers for custom characters, retain full original columns, and leave physically
+damaged text unreadable instead of borrowing from similar routines. Original
+IF/ELSE anomalies and R.1 are source content, not invitations to repair code.
+
+For evaluation, exclude editorial marker spellings from literal CER comparisons.
+If sample selection changes after primary OCR because a crop contains such
+markers, record the original and revised IDs and the timing of that decision.
+Batch42 replaced two IDs before sealing references and running alternate OCR;
+it must not be described as a wholly preselected four-sample experiment.
+
+The standalone middle segment begins with two unnumbered physical continuations
+of270 and ends inside1590. Its boundary audit pins the opening segment. Full
+assembly must verify and explicitly link those boundaries while preserving all
+physical rows, source pins and review ranges; independent exports alone do not
+prove complete article assembly.

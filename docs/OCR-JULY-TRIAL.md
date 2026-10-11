@@ -2713,3 +2713,60 @@ an established cost ranking.
 Export integrity, byte-identical rebuilding, all listing bytes and UTF-8 review
 ranges pass. July now has29 complete bodies,1 partial and6 untouched, with zero
 human acceptance inferred. Continue218–224, then assemble the full article.
+
+## Apple Thief middle: successful OCR can still omit code
+
+Batch42 restores PDF218–220, with92 regions,86 text crops and6 complete column
+images. Its386 physical rows include132 numbered lines280–1590 and two opening
+continuations of270. The next page continues1590. All rows were source-checked;
+63 explicit graphic markers preserve the original visual evidence without
+claiming the custom character encodings. One physically faded source span
+remains unreadable. Original IF/ELSE forms,R.1 and proseJ versus codeL remain.
+
+All86 strips initially used Qwen with a512-token cap. One apple-art strip,
+p219r11, repeated spade symbols to that limit and fell back to Tesseract on the
+same PNG. The worker remained uninterrupted. More seriously, successful responses
+p218r07,p218r18,p219r10 andp219r18 omitted statement text after or near graphic
+literals. Source review restored it. Finish status alone did not establish coverage.
+
+| Observation | Batch42 |
+| --- | ---: |
+| Raw wall time, one worker including failed work and fallback |297.048s|
+| Successful Qwen recognition, nested in raw wall time |257.467s|
+| Tesseract fallback recognition, nested in raw wall time |0.220s|
+| Failed model compute, nested in raw wall time |15.226s|
+| Exact local tokens, all successful and failed responses |38,778|
+| Included failed-response tokens |891|
+| Assistant correction window |740.656s|
+| Correction/raw overlap |256.709s|
+| Paid uncached input / cached input |73,589 /3,973,760|
+| Paid output, including6,604 reasoning tokens |20,854|
+
+Correction includes literal source transcription, graphic markers, enlarged
+rechecks that corrected an assistant draft reading, and helper/index preparation.
+This is not a paired paid-correction experiment. Do not infer per-engine paid
+savings, or add nested recognition/failed compute again to raw time.
+
+[Comparison40](ocr-july-comparison-40.json) uses source-reviewed, unblinded
+assistant references sealed before alternate OCR. Two initially named crops
+contained custom graphics and were replaced with adjacent ordinary-code crops
+during source inspection, before references and alternate scores. Consequently,
+this set is not wholly preselected before primary OCR. Tesseract uses eng/PSM6;
+all sampled Qwen calls use the512-token cap.
+
+| Crop | Qwen compact CER | Tesseract compact CER |
+| --- | ---: | ---: |
+| Music/coordinate continuation, p218r05 |2.38%|19.84%|
+| Z$ concatenation, p218r22 |0.00%|62.50%|
+| Variable/branch logic, p219r23 |0.90%|18.02%|
+| Bonus handling, p220r24 |0.83%|16.67%|
+
+These ordinary-code samples favor Qwen. They exclude graphic repetition and
+silent omissions elsewhere; those failures and their source-review burden remain
+part of the restoration result. The smaller cap bounded this failure, but did
+not prevent successful truncated drafts. Continue checking every source row and
+preserving original graphics. Human acceptance remains pending.
+
+Exports pass integrity, byte-identical rebuild, listing-byte coverage and UTF-8
+review-range checks. July remains29 complete,1 partial and6 untouched. The
+remaining Apple Thief pages221–224 precede full assembly and its boundary checks.

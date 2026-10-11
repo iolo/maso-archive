@@ -1867,3 +1867,27 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - July29 complete,1 partial,6 untouched;180 pages,3763 regions,3562 text crops,
   201 images,1011 flags. Next218–224, then assemble215–224. Final metrics and
   reading room remain pending; final report/commit usage carries to next audit.
+
+### July 사과도둑 middle listing restored, 2026-10-12
+
+- Restored PDF218–220:92 regions,86 text crops,6 full column images,70 flags.
+  All386 physical rows checked:132 numbered rows280–1590 plus two initial
+  continuations of270.63 editorial graphic markers preserve source-row links;
+  one faded source span remains [ILLEGIBLE]. No inferred glyph bytes or repair.
+- One uninterrupted raw worker297.048s, final85Q/1T. An apple-art crop repeated
+  spade symbols until the512-token cap; same-crop T fallback cost retained.
+  Failed model compute15.226s; exact38,778 local tokens include891 failed tokens.
+- Four successful Qwen responses silently omitted statement text near graphic
+  literals. Restored against source. Original IF/ELSE anomalies,R.1 and codeL
+  versus proseJ retained. Assistant first-draft370/870 confusion was source-rechecked.
+- Correction740.656s overlaps256.709s raw; includes literal source transcription,
+  graphical placeholders, enlarged rechecks and helper/index preparation.
+  Paid73,589 uncached /3,973,760 cached input;20,854 output includes6,604 reasoning.
+  No causal per-engine paid savings claim.
+- Comparison40 favors Qwen on four plain-code samples. Two sample IDs were revised
+  during source review to exclude graphic markers, before reference sealing and
+  alternate scores; this set was not wholly preselected before primary OCR.
+- Export integrity, byte-identical rebuild, listing coverage and UTF-8 ranges pass.
+  July29 complete,1 partial,6 untouched;183 pages,3855 regions,3648 text crops,
+  207 images,1081 flags. Next221–224, then full215–224 assembly with explicit
+ 270/1590 continuation links. Final metrics/reading room remain pending.
