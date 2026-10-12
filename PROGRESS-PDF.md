@@ -11696,3 +11696,21 @@ history remains in [PROGRESS.md](PROGRESS.md).
  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-01/`.
  Tracked progress/cost:`docs/ocr-august-progress.json`,`docs/ocr-august-usage.json`.
  Next:27–29,full feature assembly,then remaining August queue. Whole issue incomplete.
+
+## 2026-10-12 — August logic IC feature21–29 complete
+
+- Ending27–29 exported with84 regions,65 text crops,19 original images,six tables
+ and17 source-review flags. Fixed41Q24T recognition completed without retries.
+- Full nine-page feature assembled from two immutable exports:223 regions,179 text
+ crops,44 original images,129 blocks,15 tables/60 rows/210 cells. Printed errors and
+ uncertain bars,clock symbols and heading digits remain explicitly recorded.
+- Crop/source/request hashes, stop outcomes, every regional character, text/review
+ ranges,native segment bytes and independent identical rebuild pass. All32 flags
+ verified in original metadata and a combined-byte index. Initial audit field mismatch
+ and recovery retained; all16,790 pilot files unchanged. Human acceptance pending.
+- Export:`build/pdf-restoration/13-1984-08-adaptive/logic-ic/`.
+ Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-02/`,plus assembly audit.
+ Tracked progress/usage updated. One production body complete,28 untouched bodies,
+ eight sealed pilot bodies pending production selection,five heading classifications
+ remaining. Whole August in progress;next 청소32–36 after source-boundary verification.
+- JSON/assets only; no reading-room rebuild. User web change remains outside commits.

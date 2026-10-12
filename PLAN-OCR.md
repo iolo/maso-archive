@@ -2334,3 +2334,32 @@ commit code/documentation. Do not count a partial opening as a complete article.
   one classified heading,five unclassified headings,zero human accepted.
 - Next:ending27–29 and separate full logic IC assembly,then 청소32 onward.
   Preserve the user's unrelated `web/package.json` change outside commits.
+
+### August logic IC feature complete, 2026-10-12
+
+- Batch02 restores ending27–29:84 regions,65 text crops,19 original images,
+  six searchable tables/26 rows/110 cells,50 ordered blocks and17 review flags.
+  Fixed41Q24T assignments reuse the opening probe; no retries or repeated successful
+  inference. Pre-OCR crop-margin revisions remain recorded.
+- Original EX-OR values, table heading1, absent complement bars, final J-K row,
+  malformed arithmetic and provisional heading6/8 retained. Clock arrows and
+  Unicode bars/subscripts are reading aids; original pixels remain authoritative.
+  Source29 T subsection precedes the counter, followed by7.7 caution prose.
+- Separate full21–29 assembly preserves both native exports byte-for-byte:
+  223 regions,179 text crops,44 original images,129 blocks,15 tables/60 rows/210 cells.
+  All32 flags remain in original segment metadata; an explicit combined-byte audit
+  indexes them without rewriting native corrections. First validation expected a
+  nonexistent top-level flag field; that failed check and its recovery are recorded.
+- Export integrity, all crop/source/request hashes, stop outcomes, regional character
+  coverage, review ranges, native metadata and independent byte-identical rebuild
+  pass. All16,790 sealed pilot files unchanged. Human acceptance remains pending.
+- Batch02 Q capture:21,205 local tokens/41.129s across41 calls;T2.057s.
+  Paid setup/correction/assembly/reporting windows remain separate and non-causal;
+  local money weight zero, output pricing and human review time unknown.
+- Full export:`build/pdf-restoration/13-1984-08-adaptive/logic-ic/`.
+  Native ending:`build/pdf-restoration/13-1984-08-adaptive-batch-02/logic-ic-ending/`.
+  Audit:`private/pdf-restoration/13-1984-08-adaptive/logic-ic-assembly-validation.json`.
+  One production article complete,28 untouched bodies,eight sealed pilot bodies,
+  one classified heading,five unclassified headings;zero human accepted.
+- Whole August remains in progress. Next:verify and restore 청소32–36 and boundary37.
+  JSON/assets only; no reading-room rebuild or runtime/frontend changes.

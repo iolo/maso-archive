@@ -15,15 +15,15 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-partial-human-pending": 1,
+    "assistant-restored-human-pending": 1,
     "sealed-pilot-review-pending": 8,
     "section-heading-no-body": 1,
     "unclassified-heading": 5,
     "untouched": 28
   },
   "sealed_pilot_articles": 8,
-  "production_complete_articles": 0,
-  "production_partial_articles": 1,
+  "production_complete_articles": 1,
+  "production_partial_articles": 0,
   "untouched_articles": 28,
   "unclassified_heading_entries": 5,
   "classified_heading_entries": 1,
@@ -491,9 +491,219 @@
         }
       ],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-02",
+      "toc_entry_id": "maso-1984-08-toc-0001",
+      "title": "특집 : 논리 IC의 이용",
+      "source_pages": [
+        27,
+        28,
+        29
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p27r02": "tesseract",
+        "p27r09": "tesseract",
+        "p27r12": "tesseract",
+        "p27r14": "tesseract",
+        "p27r20": "tesseract",
+        "p27r24": "tesseract",
+        "p27r27": "tesseract",
+        "p28r02": "tesseract",
+        "p28r05": "tesseract",
+        "p28r06": "tesseract",
+        "p28r09": "tesseract",
+        "p28r13": "tesseract",
+        "p28r17": "tesseract",
+        "p28r20": "tesseract",
+        "p28r25": "tesseract",
+        "p28r28": "tesseract",
+        "p29r02": "tesseract",
+        "p29r04": "tesseract",
+        "p29r07": "tesseract",
+        "p29r10": "tesseract",
+        "p29r14": "tesseract",
+        "p29r18": "tesseract",
+        "p29r19": "tesseract",
+        "p29r21": "tesseract"
+      },
+      "assignment_reason": "Reuse failed representative T prose identifier probe and source review from opening. Same faint prose and structured tables use Qwen; short headings/captions use Tesseract.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-02/logic-ic-ending/article.json",
+          "sha256": "9f4d46928b90bfa400e2771749aa1eaedc220011b959a48f3ebf02440ec008a1",
+          "bytes": 122016
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-02/logic-ic-ending/manifest.json",
+          "sha256": "78b7c6147ebc8886612606922473cd848b912c0a67cf7be299a751be44bd5439",
+          "bytes": 46788
+        },
+        "source_pages": [
+          27,
+          28,
+          29
+        ],
+        "regions": 84,
+        "text_regions": 65,
+        "figures": 19,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 17,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-02/map.json",
+        "sha256": "f1725887065e4b783135c35373cceed2a7f0bafc0f0f8ca966b0d069de0794d0",
+        "bytes": 23526
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-02/source-review-ledger.json",
+        "sha256": "12d0faecebf5732e07fe6d18103599bd6bdc25461833a744fa60a13f45a99a2b",
+        "bytes": 11448
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 17695,
+        "completion_tokens": 3510,
+        "total_tokens": 21205
+      },
+      "qwen_completed_calls": 41,
+      "qwen_recognition_seconds": 41.12939546004054,
+      "tesseract_recognition_seconds": 2.057293406018289,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T04:37:03.746354+00:00",
+        "finished_at": "2026-10-12T04:37:56.637926+00:00",
+        "elapsed_seconds": 52.891585125995334,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 41,
+          "tesseract_inferences": 24,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p27r19",
+          "data_rows": 2,
+          "data_cells": 4
+        },
+        {
+          "region_id": "p27r26",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p28r04",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p28r12",
+          "data_rows": 4,
+          "data_cells": 16
+        },
+        {
+          "region_id": "p28r19",
+          "data_rows": 6,
+          "data_cells": 36
+        },
+        {
+          "region_id": "p29r06",
+          "data_rows": 6,
+          "data_cells": 30
+        }
+      ],
+      "human_acceptance": "pending"
     }
   ],
-  "assemblies": [],
+  "assemblies": [
+    {
+      "toc_entry_id": "maso-1984-08-toc-0001",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/logic-ic/article.json",
+        "sha256": "bab5e6a0bca2c84d7dfc12caf8853c8eb549b3a1322b93e942b76a96f3f0416e",
+        "bytes": 371719
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/logic-ic/manifest.json",
+        "sha256": "292e23a7090ea2f375d40a96f8d29f82ba36ef98f269bf45b7f17831acf5f625",
+        "bytes": 147670
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/logic-ic-assembly-recipe.json",
+        "sha256": "101dc5620584fbdb6b36f6746631b7859115b68216665a94b23575f5cf02c926",
+        "bytes": 2352
+      },
+      "pdf_pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "segments": [
+        {
+          "name": "logic-ic-opening",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-01/logic-ic/manifest.json",
+            "sha256": "92f836505aec138c38e705f290cbe6001b65c86134d246a7262522f5966112d2",
+            "bytes": 79888
+          }
+        },
+        {
+          "name": "logic-ic-ending",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-02/logic-ic-ending/manifest.json",
+            "sha256": "78b7c6147ebc8886612606922473cd848b912c0a67cf7be299a751be44bd5439",
+            "bytes": 46788
+          }
+        }
+      ],
+      "regions": 223,
+      "text_regions": 179,
+      "figures": 44,
+      "ordered_blocks": 129,
+      "tables": 15,
+      "table_rows": 60,
+      "table_cells": 210,
+      "unresolved_entries": 32,
+      "source_flag_index": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/logic-ic-source-flag-index.json",
+        "sha256": "d57c00148748bf512fc6f65f8b7f06c1275262d9b420de6cfc20df2ebcdec72b",
+        "bytes": 24078
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "native_tables_and_custom_projections_unchanged": true,
+        "preserved_pilot_files": 16790
+      }
+    }
+  ],
   "entries": [
     {
       "id": "maso-1984-08-toc-0001",
@@ -504,7 +714,7 @@
       "page": 21,
       "kind": "article",
       "articleIds": [],
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
       "pilot_pair": null,
       "segments": [
@@ -523,6 +733,19 @@
             "sha256": "126d5ff9192c243aad4a695774b19fee8f8128a0d373f4f9e6f355a043ab3268",
             "bytes": 203813
           }
+        },
+        {
+          "batch": "batch-02",
+          "source_pages": [
+            27,
+            28,
+            29
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-02/logic-ic-ending/article.json",
+            "sha256": "9f4d46928b90bfa400e2771749aa1eaedc220011b959a48f3ebf02440ec008a1",
+            "bytes": 122016
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -531,14 +754,88 @@
         23,
         24,
         25,
-        26
-      ],
-      "deferred_pdf_pages": [
+        26,
         27,
         28,
         29
       ],
-      "assembly_required": true
+      "deferred_pdf_pages": [],
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/logic-ic/article.json",
+        "sha256": "bab5e6a0bca2c84d7dfc12caf8853c8eb549b3a1322b93e942b76a96f3f0416e",
+        "bytes": 371719
+      },
+      "assembly": {
+        "toc_entry_id": "maso-1984-08-toc-0001",
+        "engine": "mixed",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/logic-ic/article.json",
+          "sha256": "bab5e6a0bca2c84d7dfc12caf8853c8eb549b3a1322b93e942b76a96f3f0416e",
+          "bytes": 371719
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/logic-ic/manifest.json",
+          "sha256": "292e23a7090ea2f375d40a96f8d29f82ba36ef98f269bf45b7f17831acf5f625",
+          "bytes": 147670
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/logic-ic-assembly-recipe.json",
+          "sha256": "101dc5620584fbdb6b36f6746631b7859115b68216665a94b23575f5cf02c926",
+          "bytes": 2352
+        },
+        "pdf_pages": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "segments": [
+          {
+            "name": "logic-ic-opening",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-01/logic-ic/manifest.json",
+              "sha256": "92f836505aec138c38e705f290cbe6001b65c86134d246a7262522f5966112d2",
+              "bytes": 79888
+            }
+          },
+          {
+            "name": "logic-ic-ending",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-02/logic-ic-ending/manifest.json",
+              "sha256": "78b7c6147ebc8886612606922473cd848b912c0a67cf7be299a751be44bd5439",
+              "bytes": 46788
+            }
+          }
+        ],
+        "regions": 223,
+        "text_regions": 179,
+        "figures": 44,
+        "ordered_blocks": 129,
+        "tables": 15,
+        "table_rows": 60,
+        "table_cells": 210,
+        "unresolved_entries": 32,
+        "source_flag_index": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/logic-ic-source-flag-index.json",
+          "sha256": "d57c00148748bf512fc6f65f8b7f06c1275262d9b420de6cfc20df2ebcdec72b",
+          "bytes": 24078
+        },
+        "human_acceptance": "pending",
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "source_segments_immutable": true,
+          "native_tables_and_custom_projections_unchanged": true,
+          "preserved_pilot_files": 16790
+        }
+      }
     },
     {
       "id": "maso-1984-08-toc-0002",
@@ -1104,25 +1401,16 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-02",
-    "toc_entry_id": "maso-1984-08-toc-0001",
+    "batch": "batch-03",
+    "toc_entry_id": "maso-1984-08-toc-0003",
     "source_pages": [
-      27,
-      28,
-      29
+      32,
+      33,
+      34,
+      35,
+      36
     ],
-    "article_extent": [
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29
-    ],
-    "action": "Restore ending27–29; then separate complete logic IC assembly. Preserve source printed numbering and circuit/flip-flop table fields.",
+    "action": "Verify 청소 ending and next title37; restore source prose, original screen and byte dump without inferred repairs. Extent32–36 provisional until inspection.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }
