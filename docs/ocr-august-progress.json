@@ -15,16 +15,16 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 3,
+    "assistant-restored-human-pending": 4,
     "sealed-pilot-review-pending": 7,
     "section-heading-no-body": 1,
     "unclassified-heading": 5,
-    "untouched": 27
+    "untouched": 26
   },
   "sealed_pilot_articles": 7,
-  "production_complete_articles": 3,
+  "production_complete_articles": 4,
   "production_partial_articles": 0,
-  "untouched_articles": 27,
+  "untouched_articles": 26,
   "unclassified_heading_entries": 5,
   "classified_heading_entries": 1,
   "human_accepted_articles": 0,
@@ -816,6 +816,121 @@
       },
       "tables": [],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-05",
+      "toc_entry_id": "maso-1984-08-toc-0005",
+      "title": "이열치열",
+      "source_pages": [
+        39,
+        40
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p39r01": "tesseract",
+        "p39r02": "tesseract",
+        "p39r03": "tesseract",
+        "p39r04": "tesseract",
+        "p39r05": "tesseract",
+        "p39r06": "tesseract",
+        "p39r07": "tesseract"
+      },
+      "assignment_reason": "Clear prose T draft retains all sentences; single bounded probe loses 바캉스 and punctuation, readily source-corrected. Dense FC-100 code/values Q; physical wraps and missing closing quotes source preserved. No dual whole correction.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-05/heat/article.json",
+          "sha256": "52edd7f1107365786de820796ed8cf5dada914b1634b43871ed4cafa40c0d3a0",
+          "bytes": 44720
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-05/heat/manifest.json",
+          "sha256": "26ff2c9c9957af3b845625f197005448831bc69b187461a7374d0940f43caa5e",
+          "bytes": 17782
+        },
+        "source_pages": [
+          39,
+          40
+        ],
+        "regions": 25,
+        "text_regions": 25,
+        "figures": 0,
+        "physical_listing_rows": 97,
+        "logical_listing_rows": 73,
+        "unresolved_entries": 11,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-05/map.json",
+        "sha256": "86b020f152b034fb08a4262db7d3b72ba122a9dc5865db77067d69137da73a93",
+        "bytes": 8746
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-05/source-review-ledger.json",
+        "sha256": "aac72d00b83fcd56fa479d71c735cf3d07c10802923a7468db810918b5e48ddd",
+        "bytes": 3007
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 6216,
+        "completion_tokens": 1367,
+        "total_tokens": 7583
+      },
+      "qwen_completed_calls": 18,
+      "qwen_recognition_seconds": 15.631059524050215,
+      "tesseract_recognition_seconds": 2.0528503249806818,
+      "preparation_probe_seconds": 0.3571533429931151,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T06:41:10.247049+00:00",
+        "finished_at": "2026-10-12T06:41:32.563744+00:00",
+        "elapsed_seconds": 22.316707101999782,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 18,
+          "tesseract_inferences": 7,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "startup_recovery": {
+        "failed_worker": {
+          "started_at": "2026-10-12T05:20:35.719801+00:00",
+          "finished_at": "2026-10-12T05:20:41.692791+00:00",
+          "elapsed_seconds": 5.972997705990565,
+          "scope": "Measured worker lifespan including verification/render/model loading/inference/evidence export or terminal Python failure; successful final timing remains authoritative."
+        },
+        "failure": {
+          "error": "PermissionError Operation not permitted at local socket.socket before Q server startup.",
+          "recovery": "Resume existing completed T OCR; no Q stage ran. Request approved unsandboxed worker for local socket binding.",
+          "new_t_calls_on_resume": 0
+        },
+        "retained_timing": {
+          "regions": {
+            "p39r01": 0.08869833299831953,
+            "p39r02": 0.08068343799095601,
+            "p39r03": 0.0,
+            "p39r04": 0.43023729500418995,
+            "p39r05": 0.4661650039925007,
+            "p39r06": 0.6239034429891035,
+            "p39r07": 0.36316281200561207
+          },
+          "recorded_at": "2026-10-12T05:20:38.423668+00:00"
+        },
+        "limitation": "Successful worker reused all completed T results; total recognition counts include originals, not duplicated. Initial failed worker and successful resume durations are separate diagnostic costs."
+      }
     }
   ],
   "assemblies": [
@@ -1387,9 +1502,29 @@
       "page": 39,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-05",
+          "source_pages": [
+            39,
+            40
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-05/heat/article.json",
+            "sha256": "52edd7f1107365786de820796ed8cf5dada914b1634b43871ed4cafa40c0d3a0",
+            "bytes": 44720
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        39,
+        40
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0006",
@@ -1889,12 +2024,13 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-05",
-    "toc_entry_id": "maso-1984-08-toc-0005",
+    "batch": "batch-06",
+    "toc_entry_id": "maso-1984-08-toc-0006",
     "source_pages": [
-      39
+      41,
+      42
     ],
-    "action": "Verify 이열치열39 extent against40–41; map clear prose and FC-100 BASIC listing, route regions separately using existing settings.",
+    "action": "Verify 지능검사(IQ TEST)41 extent against42–43; inspect prose and FC-100 BASIC physical listing, then restore with adaptive routing.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }

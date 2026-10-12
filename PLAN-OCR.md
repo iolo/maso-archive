@@ -2457,3 +2457,30 @@ commit code/documentation. Do not count a partial opening as a complete article.
   preserved. Human acceptance remains pending;whole August in progress.
 - Next:verify 이열치열39 against40–41,then restore prose and FC-100 BASIC separately.
   No reading-room rebuild;unrelated web change remains outside commits.
+
+### August 이열치열39–40 complete, 2026-10-12
+
+- Source40 confirms continuation390–820 and final820 END;41 starts 지능검사.
+  Lower40 academy ad excluded.25 regions/22 blocks retain complete prose and97
+  physical BASIC rows/73 printed labels100–820. All seven crop panels inspected.
+- Mixed route:18Q dense code,sevenT prose/title crops including reused0.357s probe.
+  Actual new T calls6. Probe mostly readable;neighbors had scattered Latin garbage,
+  all corrected in one selected source pass. Q physical wraps repaired in two crops;
+  literal message strings,missing closing quotes,code errors and8/B candidate retained.
+  Eleven source flags;character-perfect/source-byte/execution verification pending.
+- Initial worker failed sandbox local-socket creation after T recognition. Approved
+  resume reused all seven T results and ran18Q;no successful inference repeated.
+  Failed worker and recognition times retained separately. Export suffix/runtime-root
+  configuration failures happened before output creation;recorded recovery changes
+  export configuration only. Runtime pipeline unchanged.
+- Source/crop/request hashes,18 stop outcomes,all regional characters,prose joins,
+  text/review/flag ranges,97 physical/73 logical byte partitions and exact printed
+  labels pass. Independent rebuild identical;16,790 sealed pilot files unchanged.
+- Q7,583 local tokens/15.631s;T2.053s plus reused probe0.357s. Paid preparation,
+  recovery,correction,export and reporting windows recorded;local money weight zero.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-05/heat/`.
+  Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-05/validation.json`.
+  Four complete production articles,26 untouched,seven pilots pending selection,
+  five heading classifications remaining;zero human accepted. Whole August in progress.
+- Next:verify 지능검사(IQ TEST)41–42 against43,then restore prose/FC-100 listing.
+  JSON/assets only;no reading-room rebuild. Unrelated web edit remains outside commits.
