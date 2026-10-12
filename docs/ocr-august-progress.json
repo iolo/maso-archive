@@ -15,16 +15,16 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 5,
+    "assistant-restored-human-pending": 6,
     "sealed-pilot-review-pending": 7,
     "section-heading-no-body": 1,
     "unclassified-heading": 5,
-    "untouched": 25
+    "untouched": 24
   },
   "sealed_pilot_articles": 7,
-  "production_complete_articles": 5,
+  "production_complete_articles": 6,
   "production_partial_articles": 0,
-  "untouched_articles": 25,
+  "untouched_articles": 24,
   "unclassified_heading_entries": 5,
   "classified_heading_entries": 1,
   "human_accepted_articles": 0,
@@ -1015,6 +1015,92 @@
       },
       "tables": [],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-07",
+      "toc_entry_id": "maso-1984-08-toc-0007",
+      "title": "위험천만한 달표면 착륙",
+      "source_pages": [
+        43,
+        44,
+        45
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p43r02": "tesseract",
+        "p43r03": "tesseract"
+      },
+      "assignment_reason": "Dense MSX graphics/formulas/hex DATA/music strings Q with original source images retained. Faint body prose Q from neighboring established T substitutions; T short title/byline. No full dual correction.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-07/lunar-lander/article.json",
+          "sha256": "5b89b398273f95c4deb025711cb1f05eac87449e8e1aa5632111166954c49980",
+          "bytes": 56155
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-07/lunar-lander/manifest.json",
+          "sha256": "840d520650be1544e0457461c40526839fc8d7920bbeb55268557ab02c981fc9",
+          "bytes": 20980
+        },
+        "source_pages": [
+          43,
+          44,
+          45
+        ],
+        "regions": 32,
+        "text_regions": 29,
+        "figures": 3,
+        "physical_listing_rows": 140,
+        "logical_listing_rows": 136,
+        "unresolved_entries": 32,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-07/map.json",
+        "sha256": "6b86d28b62d92ceeb031ff849607cdf964ed1500c42edd0d51334216ce73277c",
+        "bytes": 10820
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-07/source-review-ledger.json",
+        "sha256": "c398608c73de692e8a2cadd80f72cbf40d561a8fe8e4625f4289a2bd5ad50878",
+        "bytes": 3830
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 19055,
+        "completion_tokens": 3833,
+        "total_tokens": 22888
+      },
+      "qwen_completed_calls": 27,
+      "qwen_recognition_seconds": 47.99560664403543,
+      "tesseract_recognition_seconds": 0.2496132030064473,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T07:10:57.138641+00:00",
+        "finished_at": "2026-10-12T07:11:54.405477+00:00",
+        "elapsed_seconds": 57.26684879900131,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 27,
+          "tesseract_inferences": 2,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -1652,9 +1738,31 @@
       "page": 43,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-07",
+          "source_pages": [
+            43,
+            44,
+            45
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-07/lunar-lander/article.json",
+            "sha256": "5b89b398273f95c4deb025711cb1f05eac87449e8e1aa5632111166954c49980",
+            "bytes": 56155
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        43,
+        44,
+        45
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0008",
@@ -2128,15 +2236,18 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-07",
-    "toc_entry_id": "maso-1984-08-toc-0007",
+    "batch": "batch-08",
+    "toc_entry_id": "maso-1984-08-toc-0008",
     "source_pages": [
-      43,
-      44,
-      45
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
     ],
-    "article_extent_verified": true,
-    "action": "Restore 위험천만한 달표면 착륙43–45;46 begins next title. Preserve illustration,MSX graphic strings,physical BASIC wraps and source errors; no program repair.",
+    "article_extent_verified": false,
+    "action": "Inspect full graphics subroutine article from46 through following section/next title before mapping opening46–51; verify terminal extent. Preserve literal code/figures and source uncertainty.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }

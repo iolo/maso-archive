@@ -2509,3 +2509,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
  five heading classifications remaining;whole August in progress. No reading-room rebuild.
 - Next:위험천만한 달표면 착륙43–45.46 boundary verified;preserve MSX graphics as source
  images/unverified glyph candidates and printed physical listing without program repair.
+
+### August 위험천만한 달표면 착륙43–45 complete, 2026-10-12
+
+- Complete three-page article ends20040 DATA;46 begins 그래픽용 서브루틴.
+ 32 regions retain29 text crops,26 ordered blocks,three original images and140
+ physical BASIC rows/136 numbered statements. All nine enlarged panels inspected.
+- Mixed route27Q prose/code,2T title/byline;all29 calls completed without retries.
+ One selected correction restores P from Q F and printed SOUDN from normalized
+ SOUND. Printed =<,Scrool,missing second A$,address expressions and final100 remain.
+- Thirty-two source flags and35 image-backed editorial markers preserve unresolved
+ overprinted operators,repeated glyph counts,blank widths and MSX graphic strings.
+ Original definition/title images are authoritative;markers are not literal code.
+ Actual140 physical rows replace projection's missed short/graphic bands;initial
+ maps/crops and repaired figure-edge evidence retained. No program repair.
+- Source/crop/request hashes,27 stop outcomes,all source-character/text/flag ranges,
+ physical/logical byte partitions and exact printed labels pass. Independent rebuild
+ identical;nine prior production packages and16,790 sealed pilot files verified.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-07/lunar-lander/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-07/validation.json`.
+ Six complete production articles,24 untouched,seven pilots pending production
+ selection,five heading classifications remaining;zero human accepted.
+- Next:inspect full 그래픽용 서브루틴 extent from46 before bounded opening46–51.
+ Whole August remains in progress. JSON/assets only;reading room unchanged.

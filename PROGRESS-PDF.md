@@ -11849,3 +11849,25 @@ history remains in [PROGRESS.md](PROGRESS.md).
  five heading classifications remaining;whole August in progress. No reading-room rebuild.
 - Next:위험천만한 달표면 착륙43–45.46 boundary verified;preserve MSX graphics as source
  images/unverified glyph candidates and printed physical listing without program repair.
+
+## 2026-10-12 — August 위험천만한 달표면 착륙43–45 complete
+
+- Complete three-page article ends20040 DATA;46 begins 그래픽용 서브루틴.
+ 32 regions retain29 text crops,26 blocks,three original images and140 physical
+ BASIC rows/136 numbered statements. All nine enlarged panels inspected.
+- Mixed27Q prose/code plus2T title/byline completed without retries. Source P
+ restored from OCR F;printed SOUDN restored from normalized SOUND. Source =<,
+ Scrool,missing second A$,address expressions and final100 retained without repair.
+- Thirty-two source flags/35 editorial markers preserve MSX graphic strings,
+ repeated glyph counts,blank widths and unresolved overprinted operators. Original
+ definition/title images authoritative;markers are not literal executable strings.
+ Initial projection's missed rows and repaired figure edges remain documented.
+- Source/crop/request hashes,all stop outcomes,characters/prose seams/UTF-8 ranges,
+ exact physical/logical byte partitions and source labels pass. Independent rebuild
+ identical;nine prior production packages and16,790 sealed pilot files verified.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-07/lunar-lander/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-07/validation.json`.
+ Six production articles complete,24 untouched,seven pilots awaiting selection,
+ five heading classifications remaining;human acceptance pending. August incomplete.
+- Next:inspect full 그래픽용 서브루틴 extent from46,then bounded opening46–51.
+ JSON/assets only;no reading-room rebuild or unrelated web change committed.
