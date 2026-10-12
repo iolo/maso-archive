@@ -11871,3 +11871,32 @@ history remains in [PROGRESS.md](PROGRESS.md).
  five heading classifications remaining;human acceptance pending. August incomplete.
 - Next:inspect full 그래픽용 서브루틴 extent from46,then bounded opening46–51.
  JSON/assets only;no reading-room rebuild or unrelated web change committed.
+
+## 2026-10-12 — August 그래픽용 서브루틴46–50 complete
+
+- Full46–56 inspected:article ends50;51–54 ads,55 education divider,56 math.
+ Lower46 ad excluded.90 regions/86 text crops,74 blocks,four images and277 listing
+ rows:213 assembly,42 hex including prompt,22 BASIC. Three independent BASIC tests
+ retain20 numbered statements;41 hex-data rows preserve328 candidate values.
+- All25 original/nine revised panels inspected;15 boundaries moved off faint
+ character/semicolon fragments before inference. Original schema-failure crops,
+ initial maps/projection counts and revised evidence retained. Runtime unchanged.
+- 69 successfulQ plus three preserved length-loop attempts;17T including three
+ bounded fallbacks. One selected source correction;no successful inference repeated.
+ F00H,F011H,1FFFH,SCREEN X,X,Y,source byte/mnemonic discrepancies,Test Program1
+ and physical50 continuation44,1,18,738 retained.29 flags;tabs identify columns.
+- Q40,179 local tokens includes2,710 failed tokens;successful client85.975s,
+ failed server15.747s separately measured,T1.805s plus0.316s prose probe. Local
+ monetary weight zero;paid preparation/correction/recovery/reporting retained.
+- Pre-export duplicate block IDs fixed with unique region-based overrides. First
+ label audit missed final O/0 conversion;initial export retained,only F0C0/F0D0
+ labels repaired,all candidate bytes unchanged. Source/crop/request/UTF-8/prose,
+ physical/logical/hex indexes and independent rebuild pass. Ten prior production
+ packages and16,790 sealed pilot files unchanged. Human/byte/execution pending.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-08/graphics-subroutines/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-08/validation.json`.
+ Education55 classified non-owning with ten canonical children;IDs unchanged.
+ Seven production articles complete,23 untouched,seven pilots awaiting selection,
+ four heading classifications remaining;August incomplete,zero human accepted.
+- Next:verify 수학을 통한 논리학습56–59 against logo60,then full restoration.
+ JSON/assets only;reading room and unrelated web change remain untouched.

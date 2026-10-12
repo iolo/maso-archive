@@ -2532,3 +2532,37 @@ commit code/documentation. Do not count a partial opening as a complete article.
  selection,five heading classifications remaining;zero human accepted.
 - Next:inspect full 그래픽용 서브루틴 extent from46 before bounded opening46–51.
  Whole August remains in progress. JSON/assets only;reading room unchanged.
+
+### August 그래픽용 서브루틴46–50 complete, 2026-10-12
+
+- Full46–56 inspected:article ends50;51–54 advertisements,55 education divider,
+ 56 next math article. Lower46 bookstore ad excluded. Complete five-page package
+ retains90 regions/86 text crops,74 blocks,four original images and277 physical
+ listing rows:213 assembly,42 hex including prompt,22 BASIC. Three independent
+ BASIC tests retain20 numbered statements;41 hex rows retain328 candidate values.
+- All25 original/nine revised panels inspected. Fifteen crop boundaries moved
+ off faint character tails/semicolon fragments before inference. Initial schema
+ failure/maps/crops retained;source counts replace projection misses/touching rows.
+- Mixed route69 successfulQ,three length-loop failures and17T calls including
+ three bounded fallbacks. Failed raw responses/request hashes/tokens preserved;
+ successful crops never repeated. Clear46 prose probe produced Latin substitutions,
+ so Q retained for body. One selected correction pairs flattened address/object/
+ mnemonic columns and restores source lettering/values. Tabs are reading separators.
+- Preserve printed F00H,F011H,1FFFH,duplicate SCREEN X,X,Y,byte/mnemonic differences,
+ Test Program1 under list2,and50's physical44,1,18,738 continuation.29 source flags;
+ no code execution,original encoded bytes or character-perfect proofreading claim.
+- SuccessfulQ37,469 local tokens/85.975s;allQ40,179 including2,710 failed tokens.
+ Failed server compute15.747s separate from unmeasured failed client wall duration.
+ T1.805s plus0.316s probe;local monetary weight zero. All paid work windows retained.
+- Export block-ID collision caught before output;unique region-based overrides fix
+ configuration without modifying raw evidence. First address audit found two final
+ O/0 label conversions;unpromoted export preserved,only F0C0/F0D0 labels repaired.
+ Data values unchanged. All source/crop/request/UTF-8/prose/row indexes and exact
+ rebuild pass;ten prior production packages/16,790 sealed pilot files unchanged.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-08/graphics-subroutines/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-08/validation.json`.
+ Source55 education divider classified non-owning with ten canonical children.
+ Seven production articles complete,23 untouched,seven pilots pending selection,
+ four heading classifications remaining;zero human accepted. August incomplete.
+- Next:verify 수학을 통한 논리학습56–59 against next logo60,then restore full
+ prose/math/listing. JSON/assets only;reading room and unrelated web edit unchanged.

@@ -15,18 +15,18 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 6,
+    "assistant-restored-human-pending": 7,
     "sealed-pilot-review-pending": 7,
-    "section-heading-no-body": 1,
-    "unclassified-heading": 5,
-    "untouched": 24
+    "section-heading-no-body": 2,
+    "unclassified-heading": 4,
+    "untouched": 23
   },
   "sealed_pilot_articles": 7,
-  "production_complete_articles": 6,
+  "production_complete_articles": 7,
   "production_partial_articles": 0,
-  "untouched_articles": 24,
-  "unclassified_heading_entries": 5,
-  "classified_heading_entries": 1,
+  "untouched_articles": 23,
+  "unclassified_heading_entries": 4,
+  "classified_heading_entries": 2,
   "human_accepted_articles": 0,
   "checkpoints": [
     {
@@ -1101,6 +1101,193 @@
       },
       "tables": [],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-08",
+      "toc_entry_id": "maso-1984-08-toc-0008",
+      "title": "그래픽용 서브루틴",
+      "source_pages": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p46r01": "tesseract",
+        "p46r02": "tesseract",
+        "p47r02": "tesseract",
+        "p47r06": "tesseract",
+        "p47r07": "tesseract",
+        "p47r11": "tesseract",
+        "p47r15": "tesseract",
+        "p48r04": "tesseract",
+        "p48r06": "tesseract",
+        "p48r10": "tesseract",
+        "p48r13": "tesseract",
+        "p50r17": "tesseract",
+        "p50r19": "tesseract",
+        "p50r21": "tesseract",
+        "p48r17": "tesseract",
+        "p49r10": "tesseract",
+        "p49r24": "tesseract"
+      },
+      "assignment_reason": "Tesseract short titles/captions; Qwen faint Z80 address/byte/mnemonic columns, hex rows, BASIC and technical prose. Bounded clear46 prose probe produced AVE/Ach/Bare substitutions beyond spacing; Q body route includes neighboring introduction. Keep failed probe, no dual correction.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-08/graphics-subroutines/article.json",
+          "sha256": "1cdfc056cf86066d9b8d6cadc1d80ba285a1c66f9b6471404addb58f0d53d646",
+          "bytes": 144156
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-08/graphics-subroutines/manifest.json",
+          "sha256": "08513f0355d04251f613abc70c5aba6f162f13191975f3d23be1577b9452b20d",
+          "bytes": 58531
+        },
+        "source_pages": [
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "regions": 90,
+        "text_regions": 86,
+        "figures": 4,
+        "physical_listing_rows": 277,
+        "logical_listing_rows": 20,
+        "unresolved_entries": 29,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-08/map.json",
+        "sha256": "e88fee32b7920aefba4a66eb817d5cdb0ee4b74152fdef82892011365091c454",
+        "bytes": 26192
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-08/source-review-ledger.json",
+        "sha256": "631e7197c8d7a24b87d9e2c539310ecae94ce4d87aa0b30de4d96f6170bc392b",
+        "bytes": 10325
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 31570,
+        "completion_tokens": 8609,
+        "total_tokens": 40179
+      },
+      "qwen_completed_calls": 69,
+      "qwen_recognition_seconds": 85.97499550797511,
+      "tesseract_recognition_seconds": 1.8048680940119084,
+      "preparation_probe_seconds": 0.3163423679943662,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T07:39:03.640421+00:00",
+        "finished_at": "2026-10-12T07:40:59.824931+00:00",
+        "elapsed_seconds": 116.18452297800104,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 69,
+          "tesseract_inferences": 17,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "successful_local_qwen_tokens": {
+        "prompt_tokens": 30396,
+        "completion_tokens": 7073,
+        "total_tokens": 37469
+      },
+      "failed_qwen_attempts": [
+        {
+          "region_id": "p48r17",
+          "response": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-08/failed-attempt-01/p48r17/inference.response.json",
+            "sha256": "4132adb9d00adb135e2109fc41309a957dfede87f3a54dbaa93fb2e3953120b8",
+            "bytes": 2476
+          },
+          "failure": {
+            "type": "ValueError",
+            "error": "Incomplete model response (length); raw response retained"
+          },
+          "usage": {
+            "completion_tokens": 512,
+            "prompt_tokens": 420,
+            "total_tokens": 932,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "server_compute_seconds": 5.2732339999999995,
+          "client_wall_seconds": null,
+          "finish_reason": "length",
+          "fallback_engine": "tesseract"
+        },
+        {
+          "region_id": "p49r10",
+          "response": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-08/failed-attempt-01/p49r10/inference.response.json",
+            "sha256": "a42d3724c88fbc688bb36315fe7d81f4283f30703fc27aded9bce8a754830f6f",
+            "bytes": 2499
+          },
+          "failure": {
+            "type": "ValueError",
+            "error": "Incomplete model response (length); raw response retained"
+          },
+          "usage": {
+            "completion_tokens": 512,
+            "prompt_tokens": 365,
+            "total_tokens": 877,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "server_compute_seconds": 5.219345000000001,
+          "client_wall_seconds": null,
+          "finish_reason": "length",
+          "fallback_engine": "tesseract"
+        },
+        {
+          "region_id": "p49r24",
+          "response": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-08/failed-attempt-01/p49r24/inference.response.json",
+            "sha256": "f0d731207a88bbf1148ecaf69490401cbf2da1cd0245491717a0c5a077319a63",
+            "bytes": 2496
+          },
+          "failure": {
+            "type": "ValueError",
+            "error": "Incomplete model response (length); raw response retained"
+          },
+          "usage": {
+            "completion_tokens": 512,
+            "prompt_tokens": 389,
+            "total_tokens": 901,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "server_compute_seconds": 5.2541210000000005,
+          "client_wall_seconds": null,
+          "finish_reason": "length",
+          "fallback_engine": "tesseract"
+        }
+      ],
+      "qwen_failed_calls": 3,
+      "failed_qwen_server_compute_seconds": 15.7467,
+      "failure_cost_limitation": "All failed model tokens included. Failed server prompt/generation time is separate from successful client recognition time; failed client wall duration unmeasured, not inferred."
     }
   ],
   "assemblies": [
@@ -1773,9 +1960,35 @@
       "page": 46,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-08",
+          "source_pages": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-08/graphics-subroutines/article.json",
+            "sha256": "1cdfc056cf86066d9b8d6cadc1d80ba285a1c66f9b6471404addb58f0d53d646",
+            "bytes": 144156
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0009",
@@ -1786,9 +1999,33 @@
       "page": null,
       "kind": "section",
       "articleIds": [],
-      "status": "unclassified-heading",
+      "status": "section-heading-no-body",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "classification": {
+        "toc_entry_id": "maso-1984-08-toc-0009",
+        "classification": "non-owning-section-heading",
+        "pdf_page": 55,
+        "evidence": "Full source55 actually inspected: education divider/photo plus ten-child page list56–128; no independent article body. Source56 begins math. Canonical parent/child IDs and titles unchanged.",
+        "child_ids": [
+          "maso-1984-08-toc-0010",
+          "maso-1984-08-toc-0011",
+          "maso-1984-08-toc-0012",
+          "maso-1984-08-toc-0013",
+          "maso-1984-08-toc-0014",
+          "maso-1984-08-toc-0015",
+          "maso-1984-08-toc-0016",
+          "maso-1984-08-toc-0017",
+          "maso-1984-08-toc-0018",
+          "maso-1984-08-toc-0019"
+        ],
+        "source_image": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/preflight/page-055.png",
+          "sha256": "2eb31b73aca907056aa2bbc8a69415685c49031d6caaa1e25cb8b41d33ab7024",
+          "bytes": 1843501
+        },
+        "human_acceptance": "pending"
+      }
     },
     {
       "id": "maso-1984-08-toc-0010",
@@ -2236,18 +2473,16 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-08",
-    "toc_entry_id": "maso-1984-08-toc-0008",
+    "batch": "batch-09",
+    "toc_entry_id": "maso-1984-08-toc-0010",
     "source_pages": [
-      46,
-      47,
-      48,
-      49,
-      50,
-      51
+      56,
+      57,
+      58,
+      59
     ],
     "article_extent_verified": false,
-    "action": "Inspect full graphics subroutine article from46 through following section/next title before mapping opening46–51; verify terminal extent. Preserve literal code/figures and source uncertainty.",
+    "action": "Inspect complete 수학을 통한 논리학습56 onward through next logo article60 before mapping; restore prose/math/FC100-MSX code with source figures and uncertainty.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }
