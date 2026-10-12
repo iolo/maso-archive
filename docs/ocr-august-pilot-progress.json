@@ -6,7 +6,7 @@
   "selected_source_pages": 28,
   "planned_restorations": 16,
   "completed_raw_arms": 8,
-  "completed_corrected_arms": 6,
+  "completed_corrected_arms": 8,
   "human_accepted_articles": 0,
   "first_two_instrumentation_gate": "passed",
   "delegation_authorization": "explicit-user-reply: Yes—authorize independent correction agents",
@@ -17,18 +17,18 @@
   },
   "protocol": {
     "path": "docs/OCR-AUGUST-PILOT.md",
-    "sha256": "70113c8dd95571b8a12c512f71a1a071fbfb1cb8eee4bde9a8df9a72941be9ab",
-    "bytes": 19578
+    "sha256": "d072dacc190a42bb3ed1c1974c2a1585fb1743987cbbd3a25f27ccc4b79b72b0",
+    "bytes": 21775
   },
   "case_registry": {
     "path": "private/pdf-restoration/13-1984-08-cost-pilot/correction-case-registry.json",
-    "sha256": "19d0ac71fa73ed6b39a65736e06600ef2d9891dce3bebe8919b6b3d16c15a827",
-    "bytes": 7204
+    "sha256": "dc8d6049c1c59afc8d2c1dc3621f385dabcee4484c3de3183409f15abb86cf94",
+    "bytes": 11172
   },
   "paid_coordinator_usage": {
     "path": "docs/ocr-august-pilot-usage.json",
-    "sha256": "24d3652dfa7f80daa02091b56f68d6da03e4f3d42f36cca52731d00adc8598df",
-    "bytes": 13011
+    "sha256": "ce8e109abb62604695d6582f07e5e80719792e396ac7c1d6a936d8b2c0bd3beb",
+    "bytes": 15419
   },
   "articles": [
     {
@@ -342,7 +342,7 @@
           "exact_input_crop_equality": true
         }
       },
-      "semantic_correction": "in-progress",
+      "semantic_correction": "both-arms-sealed",
       "human_acceptance": "pending",
       "frozen_inputs": {
         "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-04/shared/frozen-inputs.json",
@@ -360,15 +360,20 @@
         {
           "case_id": "aug-04-A",
           "engine": "qwen",
-          "status": "running"
+          "status": "sealed"
         },
         {
           "case_id": "aug-04-B",
           "engine": "tesseract",
-          "status": "prepared-not-started"
+          "status": "sealed"
         }
       ],
-      "status": "raw-pair-correction-in-progress"
+      "paired_quality_review": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-04/quality-review.json",
+        "sha256": "c06389ebafa8b52e80be960230a1dcf1c9c004bc90b057b7fc191919e569568c",
+        "bytes": 3335
+      },
+      "status": "corrected-pair-source-comparison-recorded"
     },
     {
       "pair_id": "aug-05",
@@ -383,10 +388,38 @@
       ],
       "first_engine": "qwen",
       "raw": {},
-      "semantic_correction": "not-started",
+      "semantic_correction": "in-progress",
       "human_acceptance": "pending",
-      "correction_cases": [],
-      "status": "selected-not-started"
+      "frozen_inputs": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/shared/frozen-inputs.json",
+        "sha256": "a233eec4de380d169e2c4f2c4a629d00309db7dd27c7ea569e229f9ddf0116ab",
+        "bytes": 18811
+      },
+      "regions": 96,
+      "text_regions": 91,
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/shared/map.json",
+        "sha256": "c64422c8aece2ea31b30ac7d1cee1aae8c6db74331cb4f73a811fa0258454519",
+        "bytes": 29438
+      },
+      "correction_cases": [
+        {
+          "case_id": "aug-05-A",
+          "engine": "qwen",
+          "status": "aborted-source-coverage"
+        },
+        {
+          "case_id": "aug-05-B",
+          "engine": "tesseract",
+          "status": "superseded-not-started"
+        }
+      ],
+      "protocol_deviation": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/protocol-deviation.json",
+        "sha256": "6a92cf3668e6fbf97dd97dcfd64d8a82d79042c95844df35a1d7fea16d88e846",
+        "bytes": 1571
+      },
+      "status": "raw-pair-correction-in-progress"
     },
     {
       "pair_id": "aug-06",
@@ -454,8 +487,8 @@
   "cost_interpretation": "Local CPU/GPU/runtime/model tokens priced at zero. Raw timings are diagnostics, not the paid-cost answer. Article-level independent usage is recorded separately; no overall cost winner declared before the first-two gate and full cohort.",
   "paid_independent_correction_usage": {
     "path": "docs/ocr-august-pilot-correction-usage.json",
-    "sha256": "465ab773ba0d608613d94e852894b920af582da0009b945fd93ad43f0784e00c",
-    "bytes": 19573
+    "sha256": "cad082cc741725222b67ee0d47684623602f7b7905aba737205caf64bb7d61e8",
+    "bytes": 29862
   },
   "gate_evidence": {
     "path": "private/pdf-restoration/13-1984-08-cost-pilot/first-two-gate.json",

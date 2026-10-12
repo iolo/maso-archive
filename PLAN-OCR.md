@@ -2222,3 +2222,15 @@ commit code/documentation. Do not count a partial opening as a complete article.
   without failures (Q 59.93s, T 14.46s); first independent correction is running.
 - Three paired comparisons complete, fourth in progress, four articles not started.
   All human acceptance remains pending; no reading-room rebuild.
+
+### August fourth pair complete; VISICALC coverage recovery, 2026-10-12
+
+- Eight independent corrections sealed; fourth pair source comparison complete.
+  Both routes retain one confirmed fidelity error and an uncertain literal spacing.
+- Fourth-pair token vectors and price break-even condition recorded in the pilot.
+- VISICALC agent detected a missing shared crop line before export. Preserve its
+  paid attempt, amend both input maps identically, rerun both raw arms, and restart
+  both corrections with fresh contexts. Original artifacts stay immutable.
+- Recovery overhead remains explicit; no zero-cost substitution for the unstarted
+  arm and no reuse of paired corrections. Remaining three article pairs continue.
+- Human acceptance pending throughout; reading room not rebuilt.

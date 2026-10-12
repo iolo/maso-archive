@@ -1,9 +1,9 @@
 # August 1984 paired restoration cost pilot
 
-Status: eight articles selected and source boundaries checked; the first three
-pairs are sealed and compared. The first-two instrumentation gate passed. Both
-raw arms of the fourth article are complete and its independent correction is
-running; articles five through eight have not started.
+Status: eight articles selected and source boundaries checked; the first four
+pairs are sealed and compared. The first-two instrumentation gate passed.
+VISICALC is restarting under the documented shared-coverage amendment below;
+three remaining articles are in preparation or not started.
 Selection and order were frozen before viewing either engine's output.
 This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
@@ -310,3 +310,39 @@ separate structural groups, preserving listing boundaries and wrapped rows. Both
 raw arms completed without failures: Qwen 59.93s, Tesseract 14.46s worker time.
 Correction packets use the unchanged common instructions; the first is running.
 Its results and costs remain unknown until sealed. No reading-room rebuild.
+
+## Fourth pair and VISICALC coverage amendment, 2026-10-12
+
+BASIC technique has 73 text regions, six original figures and ten separate code
+examples. Both exports passed integrity checks and byte-identical rebuilds. All
+10 differing regions and the fixed sample (including every code example) were
+source-checked. One source-fidelity error per route remains: the Qwen correction
+normalized a printed prose typo; the Tesseract correction normalized a printed
+code-string spelling. One literal-space count is unresolved. Human review remains
+pending, and sealed outputs have not been repaired using paired findings.
+
+| BASIC technique correction | Uncached input | Cached input | Output |
+| --- | ---: | ---: | ---: |
+| Qwen | 103,249 | 1,194,240 | 8,614 |
+| Tesseract | 78,521 | 1,546,496 | 11,931 |
+
+Qwen costs less for this pair iff `352256*c + 3317*o > 24728*u`, where
+`u`, `c`, and `o` are common per-token uncached-input, cached-input and output rates.
+No billing rates or currency totals are assumed.
+
+**Protocol amendment for aug-05 only:** the first independent VISICALC agent
+found an omitted physical line above region p185r15. Its original shared crop
+started at y=1112; version 2 starts at y=1080 (1132×1600 reference coordinates).
+All other crop bytes are unchanged. All five page overlays were checked again.
+Original raw artifacts and the aborted correction are preserved. The other
+original correction had not started. Both complete raw arms are rerun with the
+same settings and engine order, followed by two new fresh-context corrections.
+No corrected text is reused. This amendment changes coverage, not review standards.
+
+The initial Qwen raw pass also reached its output limit at p182r21; its failed
+response and 2,701 local tokens remain recorded. The initial aborted correction
+used 47,297 uncached / 301,056 cached input and 1,686 output tokens. These are real
+paid recovery costs, reported separately from matched version-2 correction and
+included in a recovery-cost sensitivity view. An unstarted arm is not a completed
+zero-cost restoration. Local rerun resources remain priced at zero. The private
+`aug-05-v2/protocol-deviation.json` pins the defect and recovery policy.
