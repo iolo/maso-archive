@@ -3591,6 +3591,191 @@
       "qwen_failed_calls": 2,
       "failed_qwen_server_compute_seconds": 29.849596,
       "failure_cost_limitation": "All failed model tokens included. Failed server prompt/generation time is separate from successful client recognition time; failed client wall duration unmeasured, not inferred."
+    },
+    {
+      "batch": "batch-20",
+      "toc_entry_id": "maso-1984-08-toc-0016",
+      "title": "애플 포트란",
+      "source_pages": [
+        111,
+        112
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p111r01": "tesseract",
+        "p111r02": "tesseract",
+        "p111r03": "tesseract",
+        "p111r04": "tesseract",
+        "p111r06": "qwen",
+        "p111r07": "tesseract",
+        "p111r09": "qwen",
+        "p111r10": "tesseract",
+        "p111r11": "tesseract",
+        "p111r13": "qwen",
+        "p111r14": "tesseract",
+        "p111r16": "qwen",
+        "p111r17": "tesseract",
+        "p111r19": "qwen",
+        "p111r20": "tesseract",
+        "p111r22": "qwen",
+        "p111r23": "tesseract",
+        "p111r25": "qwen",
+        "p111r26": "tesseract",
+        "p111r27": "tesseract",
+        "p111r28": "tesseract",
+        "p111r29": "tesseract",
+        "p111r30": "qwen",
+        "p112r01": "tesseract",
+        "p112r02": "tesseract",
+        "p112r03": "tesseract",
+        "p112r05": "qwen",
+        "p112r06": "tesseract",
+        "p112r07": "tesseract",
+        "p112r08": "tesseract",
+        "p112r09": "tesseract",
+        "p112r10": "tesseract",
+        "p112r12": "tesseract",
+        "p112r14": "tesseract",
+        "p112r15": "tesseract",
+        "p112r17": "qwen"
+      },
+      "assignment_reason": "Tclearprose/headings/captions;Qstructuredcolumnrules,fileidentifiers/screens,keyword andinput-output/slotcells. Originalscreens/tablesretained;slotmergedcells/ditto candidatesneedsourcecorrection. Establishedroutesreused;no newprobe.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/article.json",
+          "sha256": "f1251c19b8475227fb13676e0fecfcead3aebe19d855e9d9b6af4292fc010705",
+          "bytes": 73108
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/manifest.json",
+          "sha256": "4d10ee25d925d7631dd0698cc4fbe6db4403e9f57b92c0677061dec22a6d3c2c",
+          "bytes": 26828
+        },
+        "source_pages": [
+          111,
+          112
+        ],
+        "regions": 47,
+        "text_regions": 36,
+        "figures": 11,
+        "physical_listing_rows": 10,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 25,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-20/source-index.json",
+          "sha256": "6ad82d2e2d05c2cda1ea4bc6297a9c26d1ea1f6d3499d41ede50f6a999822741",
+          "bytes": 117112
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/validation.json",
+          "sha256": "529d00873120f28df01f9e0c3172848ad1ca1fcb276a3a9d33ebb56afcc8e8dc",
+          "bytes": 1725
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/map.json",
+        "sha256": "3fee50dea9ae7c398d101c90cbd70e0195a3eb83638c2745bf7f4bdeb9565168",
+        "bytes": 14663
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/source-review-ledger.json",
+        "sha256": "1a56525535ae84d16a0bf790c6620d527f7931851adbf229fae1bdf61267cc42",
+        "bytes": 9208
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 6036,
+        "completion_tokens": 874,
+        "total_tokens": 6910
+      },
+      "qwen_completed_calls": 11,
+      "qwen_recognition_seconds": 34.5174758300127,
+      "tesseract_recognition_seconds": 4.071954000042751,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T18:34:39.019637+00:00",
+        "finished_at": "2026-10-12T18:35:24.347008+00:00",
+        "elapsed_seconds": 45.32738401298411,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 11,
+          "tesseract_inferences": 25,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p112r05",
+          "data_rows": 12,
+          "data_cells": 36
+        },
+        {
+          "region_id": "p112r14",
+          "data_rows": 10,
+          "data_cells": 30
+        },
+        {
+          "region_id": "p112r17",
+          "data_rows": 13,
+          "data_cells": 52
+        }
+      ],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "completed",
+        "region_id": "p112r14",
+        "attempts": 1,
+        "engine": "tesseract",
+        "crop": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/ocr-selected/scan-maso-1984-08-toc-0016/ocr-page112/p112r14.png",
+          "sha256": "b11e701f8756863aebb0523cabbe8c28b0df8432e532168412804a6c049d4e74",
+          "bytes": 373358
+        },
+        "original_qwen_text": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/ocr/scan-maso-1984-08-toc-0016/ocr-page112/p112r14-qwen.txt",
+          "sha256": "b7ed6f299afabcaa051d8422d4fc221da933bdf95bd70318f25aba6ba5710a07",
+          "bytes": 430
+        },
+        "selected_text": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/ocr-selected/scan-maso-1984-08-toc-0016/ocr-page112/p112r14-psm6.txt",
+          "sha256": "10a63c478ff777b233563809a1c069f695e891d7b16170daf446b48cc1277f4e",
+          "bytes": 558
+        },
+        "seconds": 0.372481674014125,
+        "local_monetary_weight": 0,
+        "additional_qwen_calls": 0,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 11,
+      "total_tesseract_calls": 26,
+      "selected_qwen_regions": 10,
+      "selected_tesseract_regions": 26,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-preservation.json",
+        "sha256": "b1d095c4dbcea5b2c90e36cfe115351100a70893dfb8382d60af9392242fdce8",
+        "bytes": 48430
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/selected-raw-preservation.json",
+        "sha256": "c75aaa184208ca0617aeb4ee7aae43323c8affdd07a43ca886f39ccf81435738",
+        "bytes": 35036
+      },
+      "usage_limitation": "All11 original Q calls,including unselected I/O draft,andall26T calls,including one bounded fallback,are counted. Successful worker andfallback duration are separate diagnostic observations. No dual correction."
     }
   ],
   "assemblies": [
@@ -5492,6 +5677,18 @@
             "sha256": "b62d0dc430694206a25369652cbdf0b67f56b6ffa48a06b7febb5b1137b64ca2",
             "bytes": 258205
           }
+        },
+        {
+          "batch": "batch-20",
+          "source_pages": [
+            111,
+            112
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/article.json",
+            "sha256": "f1251c19b8475227fb13676e0fecfcead3aebe19d855e9d9b6af4292fc010705",
+            "bytes": 73108
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -5500,12 +5697,11 @@
         107,
         108,
         109,
-        110
-      ],
-      "deferred_pdf_pages": [
+        110,
         111,
         112
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -5863,8 +6059,8 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-20",
-    "status": "fortran-111-112-raw-audited-source-correction-pending",
+    "batch": "full-fortran-assembly",
+    "status": "fortran-105-112-all-natives-validated-assembly-pending",
     "toc_entry_id": "maso-1984-08-toc-0016",
     "canonical_title": "애플 포트란",
     "canonical_first_page": 105,
@@ -5880,106 +6076,147 @@
       111,
       112
     ],
-    "planned_source_pages": [
-      111,
-      112
-    ],
     "remaining_source_pages": [],
-    "prior_fortran_opening": {
-      "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/article.json",
-        "sha256": "b62d0dc430694206a25369652cbdf0b67f56b6ffa48a06b7febb5b1137b64ca2",
-        "bytes": 258205
+    "native_inputs": [
+      {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/article.json",
+          "sha256": "b62d0dc430694206a25369652cbdf0b67f56b6ffa48a06b7febb5b1137b64ca2",
+          "bytes": 258205
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/manifest.json",
+          "sha256": "f3e35f457f262f3d7130fd5c981fc205b9175719d6cdafe4c760b39823c4aa73",
+          "bytes": 97384
+        },
+        "source_pages": [
+          105,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "regions": 178,
+        "text_regions": 135,
+        "figures": 43,
+        "physical_listing_rows": 121,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 56,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-19/source-index.json",
+          "sha256": "baeb6178907a3d42cb8f7567f7fc688961e4e8a0a987abe0d8548e4e41024bb2",
+          "bytes": 359172
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/validation.json",
+          "sha256": "36f064b052fbae437724c944d75d51159264efa8b8d0b3f9f5e96ccc39a6e46f",
+          "bytes": 1666
+        }
       },
-      "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/manifest.json",
-        "sha256": "f3e35f457f262f3d7130fd5c981fc205b9175719d6cdafe4c760b39823c4aa73",
-        "bytes": 97384
-      },
-      "source_pages": [
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
-      ],
-      "regions": 178,
-      "text_regions": 135,
-      "figures": 43,
-      "physical_listing_rows": 121,
-      "logical_listing_rows": 0,
-      "unresolved_entries": 56,
-      "complete_article": false,
-      "checks": {
-        "export_integrity": true,
-        "byte_identical_rebuild": true,
-        "text_and_review_utf8_ranges": true,
-        "listing_byte_coverage": true,
-        "explicit_printed_line_numbers": true
-      },
-      "human_acceptance": "pending",
-      "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-19/source-index.json",
-        "sha256": "baeb6178907a3d42cb8f7567f7fc688961e4e8a0a987abe0d8548e4e41024bb2",
-        "bytes": 359172
-      },
-      "source_validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/validation.json",
-        "sha256": "36f064b052fbae437724c944d75d51159264efa8b8d0b3f9f5e96ccc39a6e46f",
-        "bytes": 1666
+      {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/article.json",
+          "sha256": "f1251c19b8475227fb13676e0fecfcead3aebe19d855e9d9b6af4292fc010705",
+          "bytes": 73108
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/manifest.json",
+          "sha256": "4d10ee25d925d7631dd0698cc4fbe6db4403e9f57b92c0677061dec22a6d3c2c",
+          "bytes": 26828
+        },
+        "source_pages": [
+          111,
+          112
+        ],
+        "regions": 47,
+        "text_regions": 36,
+        "figures": 11,
+        "physical_listing_rows": 10,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 25,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-20/source-index.json",
+          "sha256": "6ad82d2e2d05c2cda1ea4bc6297a9c26d1ea1f6d3499d41ede50f6a999822741",
+          "bytes": 117112
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/validation.json",
+          "sha256": "529d00873120f28df01f9e0c3172848ad1ca1fcb276a3a9d33ebb56afcc8e8dc",
+          "bytes": 1725
+        }
       }
-    },
-    "opening_source_checks": {
+    ],
+    "ending_source_checks": {
       "status": "passed",
-      "regions": 178,
-      "text_regions": 135,
-      "ordered_blocks": 135,
-      "figures": 43,
-      "source_prose_joins": 0,
-      "native_prose_boundaries": 0,
-      "interrupted_prose_continuations": 17,
-      "physical_listing_rows": 121,
+      "regions": 47,
+      "text_regions": 36,
+      "ordered_blocks": 35,
+      "figures": 11,
+      "source_prose_joins": 1,
+      "native_prose_boundaries": 1,
+      "interrupted_prose_continuations": 7,
+      "physical_listing_rows": 10,
       "printed_basic_labels": 0,
-      "fortran_statement_labels": 1,
-      "fortran_continuations": 1,
-      "compiler_rows": 10,
-      "compiler_field_cells": 50,
-      "compiler_blank_cells": 18,
-      "compiler_symbol_rows": 4,
-      "compiler_symbol_cells": 12,
-      "compiler_symbol_blank_cells": 1,
-      "unnumbered_physical_rows": 121,
-      "unnumbered_source_lines": 120,
-      "listing_groups": 47,
-      "numbered_program_groups": 0,
-      "tables": 2,
-      "table_rows": 9,
-      "table_cells": 28,
-      "blank_cells": 0,
-      "printed_blank_header_cells": 1,
-      "source_flags": 56,
-      "figure_associations": 43,
-      "diagrams": 3,
-      "diagram_arrow_relations": 11,
-      "all_selected_transcriptions_exactly_once": true,
-      "listing_table_review_utf8_ranges": true,
-      "independent_source_rows_and_labels": true,
+      "unnumbered_physical_rows": 10,
+      "unnumbered_source_lines": 10,
+      "listing_groups": 7,
+      "tables": 3,
+      "table_rows": 35,
+      "table_cells": 118,
+      "blank_cells": 7,
+      "printed_blank_header_cells": 0,
+      "keyword_source_columns": 3,
+      "slot_groups": 8,
+      "slot_blank_continuations": 5,
+      "column_rules": 4,
+      "column_rule_physical_rows": 8,
+      "source_flags": 25,
+      "figure_associations": 10,
+      "source_corrected_once": true,
       "source_crop_pixels_and_raw_hashes": true,
+      "original_and_selected_raw_preserved": true,
       "all_stop_reasons_valid": true,
-      "raw_preserved_files": 1433,
-      "prior_production_packages_verified": 25,
+      "original_raw_preserved_files": 387,
+      "selected_raw_preserved_files": 240,
+      "total_qwen_calls": 11,
+      "total_tesseract_calls": 26,
+      "bounded_fallbacks": 1,
+      "fallback": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/fallback-20-accounting.json",
+        "sha256": "8d599086b9a1330794b0290c0cc292f1f71fc819026f4e352b2eceddc6d98496",
+        "bytes": 1026
+      },
+      "prior_production_packages_verified": 26,
       "preserved_pilot_files": 16790,
-      "all_prior_cpm_and_graphics_raw_inventories_unchanged": true,
+      "all_prior_raw_inventories_unchanged": true,
       "byte_identical_rebuild": true,
       "canonical_identity_preserved": true,
       "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-19/source-index.json",
-        "sha256": "baeb6178907a3d42cb8f7567f7fc688961e4e8a0a987abe0d8548e4e41024bb2",
-        "bytes": 359172
+        "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-20/source-index.json",
+        "sha256": "6ad82d2e2d05c2cda1ea4bc6297a9c26d1ea1f6d3499d41ede50f6a999822741",
+        "bytes": 117112
       },
       "human_acceptance": "pending",
-      "scope": "Fortran105–110 opening;ending111–112/fullassembly and wholeAugust remain."
+      "scope": "Ending111–112; full105–112 assembly/wholeAugust remain."
     },
     "full_extent": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent-inspection.json",
@@ -6045,137 +6282,10 @@
       "actual_title_page": 113,
       "canonical_first_page": 113
     },
-    "previous_goal_turn_classification": "progress: 711118d source-corrected Fortran105–110 opening;this continuation completed ending111–112 preparation/recognition/raw audit. No ending production export yet.",
+    "previous_goal_turn_classification": "progress:2d0f64a completed ending20 preparation/recognition/raw audit;this continuation completed bounded fallback,source correction andvalidation of ending111–112.",
     "full_assembly_required": true,
     "human_acceptance": "pending",
-    "action": "Preserve sealed native20 raw/preflight evidence; complete one bounded same-crop fallback for p112r14 row associations, then source-correct36 selected drafts, export/validate ending111–112 and commit. Preserve comment-rule left/right continuation,three tables/source blank merged cells,seven independent screen fragments and literal FORTMATTER/TEST.CODE. Separately assemble full105–112 from immutable opening19 and ending20,then inspect full extent of following 자유 낙하운동113. WholeAugust JSON/assets closeout remains;no reading-room rebuild.",
-    "mapped_source_pages": [
-      111,
-      112
-    ],
-    "production_ending_exported": false,
-    "raw_ending_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-ocr-audit.json",
-      "sha256": "82087dedf3c180236636c8607c50afdd5964901c73e76458794c4779be519465",
-      "bytes": 3175
-    },
-    "raw_ending_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-preservation.json",
-      "sha256": "b1d095c4dbcea5b2c90e36cfe115351100a70893dfb8382d60af9392242fdce8",
-      "bytes": 48430
-    },
-    "ending_crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/preflight-acceptance.json",
-      "sha256": "fcc1f0a55ef506795f5fa9eeec05e646c2143fb4a9f9a43147e860a9160dd894",
-      "bytes": 3234
-    },
-    "ending_raw_checks": {
-      "status": "passed",
-      "mapped_pages": [
-        111,
-        112
-      ],
-      "article_pages": [
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112
-      ],
-      "outside_map_lookups": 1,
-      "regions": 47,
-      "text_regions": 36,
-      "figures": 11,
-      "qwen_calls": 11,
-      "qwen_successful_calls": 11,
-      "tesseract_calls": 25,
-      "failed_calls": 0,
-      "bounded_fallbacks": 0,
-      "failed_attempts": [],
-      "cache_hits": 0,
-      "retries": 0,
-      "crop_pixels_and_map_request_hashes": true,
-      "all_stop_reasons_valid": true,
-      "raw_bundle_and_runtime_pins": true,
-      "full_extent_pins": true,
-      "glyph_boundary_crossings": 0,
-      "reviewed_nontext_boundary_crossings": 1,
-      "original_and_intermediate_geometry_preserved": true,
-      "local_qwen_successful_tokens": {
-        "prompt_tokens": 6036,
-        "completion_tokens": 874,
-        "total_tokens": 6910
-      },
-      "local_qwen_failed_tokens": {},
-      "local_qwen_tokens": {
-        "prompt_tokens": 6036,
-        "completion_tokens": 874,
-        "total_tokens": 6910
-      },
-      "local_timing": {
-        "qwen_successful_recognition_seconds": 34.5174758300127,
-        "tesseract_recognition_seconds": 3.6994723260286264,
-        "qwen_regions": {
-          "p111r06": 0.5742803250032011,
-          "p111r09": 1.3630034800153226,
-          "p111r13": 0.5238641600008123,
-          "p111r16": 0.5847773360146675,
-          "p111r19": 0.31899847800377756,
-          "p111r22": 0.965682542999275,
-          "p111r25": 1.304406419978477,
-          "p111r30": 4.503993090998847,
-          "p112r05": 3.9671909640019294,
-          "p112r14": 7.79816427998594,
-          "p112r17": 12.61311475301045
-        },
-        "tesseract_regions": {
-          "p111r01": 0.1244058690208476,
-          "p111r02": 0.10265492301550694,
-          "p111r03": 0.41453072702279314,
-          "p111r04": 0.09664573599002324,
-          "p111r07": 0.133699002006324,
-          "p111r10": 0.11807791100000031,
-          "p111r11": 0.11645389001932926,
-          "p111r14": 0.1923766149848234,
-          "p111r17": 0.13811443201848306,
-          "p111r20": 0.09838920398033224,
-          "p111r23": 0.10883405199274421,
-          "p111r26": 0.3779834720189683,
-          "p111r27": 0.08731979699223302,
-          "p111r28": 0.08038106499589048,
-          "p111r29": 0.1587758449895773,
-          "p112r01": 0.2593858589825686,
-          "p112r02": 0.06768748999456875,
-          "p112r03": 0.08025501502561383,
-          "p112r06": 0.07223108998732641,
-          "p112r07": 0.28135624597780406,
-          "p112r08": 0.10853183100698516,
-          "p112r09": 0.1912237649958115,
-          "p112r10": 0.1444128449948039,
-          "p112r12": 0.070162835996598,
-          "p112r15": 0.07558280901866965
-        },
-        "reason": "Tclearprose/headings/captions;Qstructuredcolumnrules,fileidentifiers/screens,keyword andinput-output/slotcells. Originalscreens/tablesretained;slotmergedcells/ditto candidatesneedsourcecorrection. Establishedroutesreused;no newprobe."
-      },
-      "prior_production_packages_verified": 26,
-      "preserved_pilot_files": 16790,
-      "physical_listing_rows": "pending independent source correction count",
-      "table_cell_counts": "pending independent source correction",
-      "structured_tables": 3,
-      "source_correction": "pending",
-      "export": "not-created",
-      "human_acceptance": "pending",
-      "all_prior_cpm_and_graphics_raw_inventories_unchanged": true
-    },
-    "bounded_fallback_required": {
-      "region_id": "p112r14",
-      "reason": "Q draft shifted I/O row associations by inserting an extra blank-number row. Original ruled source has ten rows. Preserve immutable Q attempt and its cost; run at most one same-crop T fallback and correct only selected draft from source.",
-      "engine": "tesseract",
-      "executed": false
-    }
+    "action": "Commit validated ending20,then separately assemble fullFortran105–112 from exact immutable natives19/20. Preserve compiler/Fortran columns,diagrams,130 source examples,five tables andallsource flags. No cross-native text orphysical-row join needed. Afterassembly inspect full extent offollowing 자유 낙하운동113 beforeboundedmapping. WholeAugust JSON/assets closeout remains;no reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
