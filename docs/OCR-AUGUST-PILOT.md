@@ -1,8 +1,9 @@
 # August 1984 paired restoration cost pilot
 
-Status: eight articles selected and source boundaries checked; both raw OCR arms
-and independent corrections are complete for the first two articles. Both pairs
-are sealed and compared; the instrumentation gate passed for the remaining six.
+Status: eight articles selected and source boundaries checked; the first three
+pairs are sealed and compared. The first-two instrumentation gate passed. Both
+raw arms of the fourth article are complete and its independent correction is
+running; articles five through eight have not started.
 Selection and order were frozen before viewing either engine's output.
 This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
@@ -279,3 +280,33 @@ The private gate record and paired source-review records are pinned in the publi
 progress manifest. Human acceptance remains pending for both articles. Passing
 this gate establishes usable instrumentation and comparable reviewable coverage;
 it does not declare an accuracy or cost winner.
+
+## Contest review pair completed; BASIC article underway, 2026-10-12
+
+The contest review has 17 text regions and one figure in each verified export.
+Both routes preserve all six table columns, four data rows and the printed empty
+cell. TSV and Markdown formats differ, but 23 of 24 data cells agree after ignoring
+whitespace. The remaining cell contains a blurred personal name: both readings are
+retained for human confirmation. The Qwen arm explicitly flagged it; the Tesseract
+arm did not. Source inspection also found one wording error in the Tesseract arm.
+All five differing regions and the fixed source sample were inspected. Neither
+sealed output was changed after comparison.
+
+| Contest-review route | Uncached input | Cached input | Output | Worker-declared seconds |
+| --- | ---: | ---: | ---: | ---: |
+| Tesseract | 33,297 | 492,928 | 4,785 | 147.78 |
+| Qwen | 34,322 | 461,952 | 6,532 | 197.06 |
+
+Cache-write input is zero; output includes 533 and 1,282 reasoning tokens
+respectively. Qwen costs less for this pair only when
+`30,976 * rate_cached > 1,025 * rate_uncached + 1,747 * rate_output`.
+This is another single-run observation with disclosed residual quality differences,
+not a general cost conclusion. Raw worker time was 7.59s for Tesseract and 26.13s
+for Qwen; it has zero monetary weight.
+
+The next article, BASIC technique / PASSWORD & LOGIN (pp.65–68), has 79 shared
+regions: 73 text crops and six source figures. Its ten code/monitor examples have
+separate structural groups, preserving listing boundaries and wrapped rows. Both
+raw arms completed without failures: Qwen 59.93s, Tesseract 14.46s worker time.
+Correction packets use the unchanged common instructions; the first is running.
+Its results and costs remain unknown until sealed. No reading-room rebuild.

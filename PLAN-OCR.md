@@ -2207,3 +2207,18 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - First-two gate passed with equal reviewable coverage and disclosed remaining
   errors. Continue the six frozen pairs with unchanged correction instructions.
   Cost depends on the rate vector; no overall winner or full-cohort conclusion.
+
+### August contest pair complete; BASIC technique correction started, 2026-10-12
+
+- Third pair sealed and compared: 17 text regions and one figure per arm, verified
+  exports/rebuilds and immutable inputs. Six table columns, four rows and one empty
+  cell preserved; 23/24 data cells agree ignoring whitespace. A blurred name remains
+  unresolved. One Tesseract-route wording error recorded for human correction.
+- Contest T: 33,297 uncached / 492,928 cached input, 4,785 output tokens, 147.78s
+  worker-declared correction time. Q: 34,322 / 461,952 / 6,532 tokens, 197.06s.
+  Common pricing condition documented; no general cost or accuracy winner.
+- Fourth article pp.65–68 mapped into 79 regions, including 73 text crops, six
+  source figures and ten separate listing/monitor groups. Both pure raw arms passed
+  without failures (Q 59.93s, T 14.46s); first independent correction is running.
+- Three paired comparisons complete, fourth in progress, four articles not started.
+  All human acceptance remains pending; no reading-room rebuild.
