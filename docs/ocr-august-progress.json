@@ -15,16 +15,17 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
+    "assistant-partial-human-pending": 1,
     "assistant-restored-human-pending": 12,
     "sealed-pilot-review-pending": 6,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
-    "untouched": 19
+    "untouched": 18
   },
   "sealed_pilot_articles": 6,
   "production_complete_articles": 12,
-  "production_partial_articles": 0,
-  "untouched_articles": 19,
+  "production_partial_articles": 1,
+  "untouched_articles": 18,
   "unclassified_heading_entries": 4,
   "classified_heading_entries": 2,
   "human_accepted_articles": 0,
@@ -2983,6 +2984,198 @@
       },
       "tables": [],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-17",
+      "toc_entry_id": "maso-1984-08-toc-0015",
+      "title": "컴퓨터 그래픽과 친구가 되자",
+      "source_pages": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p98r02": "tesseract",
+        "p98r04": "tesseract",
+        "p98r05": "tesseract",
+        "p98r06": "tesseract",
+        "p99r01": "tesseract",
+        "p99r02": "tesseract",
+        "p99r03": "tesseract",
+        "p99r04": "tesseract",
+        "p99r05": "tesseract",
+        "p99r06": "tesseract",
+        "p99r08": "qwen",
+        "p99r09": "qwen",
+        "p99r10": "tesseract",
+        "p99r11": "tesseract",
+        "p99r12": "tesseract",
+        "p99r13": "tesseract",
+        "p99r14": "tesseract",
+        "p99r16": "tesseract",
+        "p99r17": "tesseract",
+        "p99r18": "tesseract",
+        "p99r19": "tesseract",
+        "p99r20": "tesseract",
+        "p99r22": "qwen",
+        "p100r01": "tesseract",
+        "p100r02": "tesseract",
+        "p100r04": "tesseract",
+        "p100r05": "tesseract",
+        "p100r06": "tesseract",
+        "p100r07": "tesseract",
+        "p100r08": "tesseract",
+        "p100r09": "tesseract",
+        "p100r10": "tesseract",
+        "p100r11": "tesseract",
+        "p100r12": "tesseract",
+        "p100r13": "tesseract",
+        "p100r14": "tesseract",
+        "p100r16": "qwen",
+        "p100r17": "tesseract",
+        "p100r19": "qwen",
+        "p100r20": "qwen",
+        "p100r21": "qwen",
+        "p100r22": "qwen",
+        "p101r02": "qwen",
+        "p101r03": "tesseract",
+        "p101r05": "tesseract",
+        "p101r06": "tesseract",
+        "p101r07": "tesseract",
+        "p101r08": "tesseract",
+        "p101r09": "tesseract",
+        "p101r10": "tesseract",
+        "p101r12": "qwen",
+        "p101r13": "tesseract",
+        "p101r14": "tesseract",
+        "p101r16": "qwen",
+        "p101r17": "qwen",
+        "p101r18": "tesseract",
+        "p101r20": "tesseract",
+        "p102r02": "tesseract",
+        "p102r04": "qwen",
+        "p102r05": "qwen",
+        "p102r06": "qwen",
+        "p102r07": "tesseract",
+        "p102r08": "tesseract",
+        "p102r09": "tesseract",
+        "p102r10": "tesseract",
+        "p102r12": "tesseract",
+        "p102r13": "tesseract",
+        "p102r14": "tesseract",
+        "p102r15": "tesseract",
+        "p102r17": "qwen",
+        "p102r18": "qwen",
+        "p103r02": "tesseract",
+        "p103r03": "tesseract",
+        "p103r04": "tesseract",
+        "p103r05": "tesseract",
+        "p103r07": "qwen",
+        "p103r08": "qwen",
+        "p103r09": "qwen",
+        "p103r10": "qwen",
+        "p103r11": "tesseract",
+        "p103r12": "tesseract",
+        "p103r14": "qwen",
+        "p103r15": "qwen",
+        "p103r16": "tesseract",
+        "p103r18": "tesseract",
+        "p103r19": "tesseract"
+      },
+      "assignment_reason": "T clearprose/headings/captions;Q denseBASIC/formulas/structuredtablecells. Mainpieprogram100/101continuesonegroup;othercompleteprograms/numberedpatchesremainindependent. Sourcecodeandallfigures retained. Establishedtypography routesreused;no newprobe canchange startingchoices.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-17/graphics/article.json",
+          "sha256": "8bbcf7f60e328172d07ce805e91d57935f4122ec70363dfdd631c92dbe6eed28",
+          "bytes": 166869
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-17/graphics/manifest.json",
+          "sha256": "8ba9d8ce7d42c43869cdb976b9d70e5319bc3a4d501f270473074512f66225a1",
+          "bytes": 61232
+        },
+        "source_pages": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103
+        ],
+        "regions": 107,
+        "text_regions": 86,
+        "figures": 21,
+        "physical_listing_rows": 178,
+        "logical_listing_rows": 125,
+        "unresolved_entries": 35,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-graphics-source-index-17/source-index.json",
+          "sha256": "1544e17aea6b9b83b95d43cef6713c989f2b34b9f63cd0c6debc6e8c9c03ba9f",
+          "bytes": 312738
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/validation.json",
+          "sha256": "3c33f3d944fc582f5583fa1525ff825d8a45a589eae0d3963413e3863a027cc4",
+          "bytes": 1322
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/map.json",
+        "sha256": "8926257b818c353410fd2aa9cdfcc47d36d34d5a159554f30caa0c2fa20c3db8",
+        "bytes": 32228
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/source-review-ledger.json",
+        "sha256": "bb7d18b04223528b48d816d2db7312143d2ea08c0dc69181242ed514952b1eaf",
+        "bytes": 12742
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 11791,
+        "completion_tokens": 2792,
+        "total_tokens": 14583
+      },
+      "qwen_completed_calls": 23,
+      "qwen_recognition_seconds": 95.10282596095931,
+      "tesseract_recognition_seconds": 10.879748746781843,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T17:10:35.109633+00:00",
+        "finished_at": "2026-10-12T17:12:31.533852+00:00",
+        "elapsed_seconds": 116.42423350800527,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 23,
+          "tesseract_inferences": 63,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p100r16",
+          "data_rows": 7,
+          "data_cells": 28
+        }
+      ],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -4599,9 +4792,39 @@
       "page": 99,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-partial-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-17",
+          "source_pages": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-17/graphics/article.json",
+            "sha256": "8bbcf7f60e328172d07ce805e91d57935f4122ec70363dfdd631c92dbe6eed28",
+            "bytes": 166869
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "deferred_pdf_pages": [
+        104
+      ],
+      "assembly_required": true
     },
     {
       "id": "maso-1984-08-toc-0016",
@@ -4971,8 +5194,8 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-17",
-    "status": "graphics98-103-raw-audited-source-correction-pending",
+    "batch": "batch-18",
+    "status": "graphics98-103-production-opening-complete-ending104-pending",
     "toc_entry_id": "maso-1984-08-toc-0015",
     "canonical_title": "컴퓨터 그래픽과 친구가 되자",
     "canonical_first_page": 99,
@@ -5080,17 +5303,12 @@
     },
     "article_extent_verified": true,
     "planned_source_pages": [
-      98,
-      99,
-      100,
-      101,
-      102,
-      103
+      104
     ],
     "remaining_source_pages": [
       104
     ],
-    "action": "Correct all86 selecteddrafts againstsource98–103;independently countactualprogramphysicalrows/labels andtablecells. Preserve100/101pieprogram asonegroup,other8programs/patches separately,21originalfigures andliteral printederrors. Export/validate/commit opening17,thenrestore104 innative18 andseparatelyassemble full98–104. AllremainingAugust bodies/pilotselections/headings andwholeissueJSON/assetscloseout remain;no reading-roombuild.",
+    "action": "Restoregraphicsending104 innative18 usingpinnedfull98–104extent. Reinspect104 andnextFortrantitle105 beforemapping;retainallprogramphysicalrows/codebitmaps andfinalthanks. AdaptiveOCR/sourcecorrection/export/validate/commit,then separatefull98–104assemblyfromimmutable17/18. AllAugustremainingbodies/pilotselections/headings andissuecloseout remain;JSON/assets only.",
     "article_pdf_pages": [
       98,
       99,
@@ -5162,6 +5380,52 @@
       "source_correction": "pending",
       "production_export": "not-created",
       "human_acceptance": "pending"
+    },
+    "opening_checkpoint": {
+      "batch": "batch-17",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-17/graphics/article.json",
+        "sha256": "8bbcf7f60e328172d07ce805e91d57935f4122ec70363dfdd631c92dbe6eed28",
+        "bytes": 166869
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-17/graphics/manifest.json",
+        "sha256": "8ba9d8ce7d42c43869cdb976b9d70e5319bc3a4d501f270473074512f66225a1",
+        "bytes": 61232
+      },
+      "source_pages": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "regions": 107,
+      "text_regions": 86,
+      "figures": 21,
+      "physical_listing_rows": 178,
+      "logical_listing_rows": 125,
+      "unresolved_entries": 35,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-graphics-source-index-17/source-index.json",
+        "sha256": "1544e17aea6b9b83b95d43cef6713c989f2b34b9f63cd0c6debc6e8c9c03ba9f",
+        "bytes": 312738
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/validation.json",
+        "sha256": "3c33f3d944fc582f5583fa1525ff825d8a45a589eae0d3963413e3863a027cc4",
+        "bytes": 1322
+      }
     }
   }
 }
