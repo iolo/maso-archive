@@ -1763,6 +1763,24 @@
         "total_tokens": 335545,
         "uncached_nonwrite_input_tokens": 2483
       }
+    },
+    {
+      "id": "preparation-17",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-12T16:50:46.732742+00:00",
+      "end": "2026-10-12T16:54:50.286144+00:00",
+      "elapsed_seconds": 243.55340194702148,
+      "observed_responses": 6,
+      "tokens": {
+        "input_tokens": 1115102,
+        "cached_input_tokens": 1086720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5804,
+        "reasoning_output_tokens": 2645,
+        "total_tokens": 1120906,
+        "uncached_nonwrite_input_tokens": 28382
+      }
     }
   ],
   "money_cost": null,
@@ -1770,33 +1788,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T16:50:22.857313+00:00",
-    "elapsed_seconds": 45956.85731291771,
-    "observed_responses": 750,
+    "end": "2026-10-12T16:54:50.286144+00:00",
+    "elapsed_seconds": 46224.28614401817,
+    "observed_responses": 757,
     "tokens": {
-      "input_tokens": 104317542,
-      "cached_input_tokens": 101266432,
+      "input_tokens": 105602042,
+      "cached_input_tokens": 102520960,
       "cache_write_input_tokens": 0,
-      "output_tokens": 595305,
-      "reasoning_output_tokens": 155063,
-      "total_tokens": 104912847,
-      "uncached_nonwrite_input_tokens": 3051110
+      "output_tokens": 601583,
+      "reasoning_output_tokens": 157733,
+      "total_tokens": 106203625,
+      "uncached_nonwrite_input_tokens": 3081082
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T16:50:22.857313+00:00",
-    "elapsed_seconds": 45956.85731291771,
-    "observed_responses": 80,
+    "end": "2026-10-12T16:54:50.286144+00:00",
+    "elapsed_seconds": 46224.28614401817,
+    "observed_responses": 81,
     "tokens": {
-      "input_tokens": 12875359,
-      "cached_input_tokens": 12647808,
+      "input_tokens": 13044757,
+      "cached_input_tokens": 12815616,
       "cache_write_input_tokens": 0,
-      "output_tokens": 27291,
-      "reasoning_output_tokens": 8722,
-      "total_tokens": 12902650,
-      "uncached_nonwrite_input_tokens": 227551
+      "output_tokens": 27765,
+      "reasoning_output_tokens": 8747,
+      "total_tokens": 13072522,
+      "uncached_nonwrite_input_tokens": 229141
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
