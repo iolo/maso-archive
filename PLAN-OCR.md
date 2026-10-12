@@ -2234,3 +2234,17 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Recovery overhead remains explicit; no zero-cost substitution for the unstarted
   arm and no reuse of paired corrections. Remaining three article pairs continue.
 - Human acceptance pending throughout; reading room not rebuilt.
+
+### August first six pairs compared; final two in correction, 2026-10-12
+
+- All 16 matched raw arms are complete; 12 independent corrections are sealed.
+  VISICALC recovery is complete, with its original abort and both raw reruns retained.
+- VISICALC source review found eight wording/number errors and one punctuation
+  omission in the Qwen-route correction; no confirmed T-route error in the checked
+  regions. Hardware code agrees; one Q-route prose error remains for human review.
+- Native token vectors and rate-dependent break-even conditions are documented.
+  No raw-accuracy shortcut, full CER claim, or actual-currency total is inferred.
+- Editor geometry v2 moves one shared crop seam before either raw arm ran;
+  original frozen geometry is preserved and no correction attempt was discarded.
+- Editor correction is running; Q&A packets are ready. Continue the frozen order
+  and identical fresh-context instructions. Human acceptance pending; no reading room.

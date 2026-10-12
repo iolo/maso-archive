@@ -1,9 +1,9 @@
 # August 1984 paired restoration cost pilot
 
-Status: eight articles selected and source boundaries checked; the first four
+Status: all eight raw pairs are complete; the first six independently corrected
 pairs are sealed and compared. The first-two instrumentation gate passed.
-VISICALC is restarting under the documented shared-coverage amendment below;
-three remaining articles are in preparation or not started.
+VISICALC's paired coverage recovery is complete. The long BASIC editor article
+is in correction; Q&A has frozen correction packets ready.
 Selection and order were frozen before viewing either engine's output.
 This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
@@ -346,3 +346,46 @@ paid recovery costs, reported separately from matched version-2 correction and
 included in a recovery-cost sensitivity view. An unstarted arm is not a completed
 zero-cost restoration. Local rerun resources remain priced at zero. The private
 `aug-05-v2/protocol-deviation.json` pins the defect and recovery policy.
+
+## Fifth and sixth pairs completed, 2026-10-12
+
+VISICALC version 2 has 91 text regions and five source figures per arm. Both
+exports include the recovered first line and passed integrity/rebuild checks.
+All 47 differing regions and the fixed sample were source-checked: 52 regions
+in total, including all ten worksheet/table companions. The Qwen-based correction
+retains eight confirmed wording/number errors and one punctuation omission in
+those regions; the Tesseract-based correction has none confirmed there. Several
+Qwen-route errors normalize printed spellings, and one changes a worksheet ZIP
+code. These are sampled fidelity findings, not full CER or a raw-OCR ranking.
+Original worksheet images and unresolved punctuation remain available for human
+review. Both sealed corrections remain unchanged.
+
+The hardware article has 56 text regions, seven original figures and three BASIC
+listings. Both versions preserve all 40 physical / 29 numbered listing rows,
+including wrapped numbers and addresses. All 15 differing regions and the fixed
+sample were checked (21 regions total). One Korean wording error was confirmed
+in the Qwen-based correction. Other differences concern table markup, whitespace
+and explicit approximations of circuit symbols. Source diagrams and tables remain
+available; human acceptance is pending.
+
+| Article / route | Uncached input | Cached input | Output | Correction worker seconds |
+| --- | ---: | ---: | ---: | ---: |
+| VISICALC / Qwen | 113,749 | 882,048 | 10,183 | 404.04 |
+| VISICALC / Tesseract | 101,602 | 994,048 | 10,666 | 300.46 |
+| Hardware / Qwen | 73,471 | 739,072 | 8,513 | 241.64 |
+| Hardware / Tesseract | 67,797 | 753,280 | 8,948 | 248.01 |
+
+Output includes reasoning; cache-write input is zero. Under common per-token
+rates `u,c,o`, Qwen's matched correction costs less for VISICALC exactly when
+`112000*c + 483*o > 12147*u`, and for hardware when
+`14208*c + 435*o > 5674*u`. The VISICALC aborted correction remains additional
+recovery cost, separate from these matched version-2 numbers.
+
+All eight matched raw pairs are now complete. A second geometry amendment affects
+only the long editor article: additional source inspection after its first map
+freeze, before any inference, moved the shared boundary between p218r18/r19 from
+1001.2 to 1003.2 reference pixels to a verified blank raster row. The original map
+is preserved and was never used for raw or corrected output. Both actual routes
+use `aug-07-v2`; region count, content and correction standards are unchanged.
+This pre-inference amendment incurred no aborted correction. The private
+`aug-07-v2/protocol-deviation.json` records it.

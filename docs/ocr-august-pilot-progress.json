@@ -5,8 +5,8 @@
   "selected_articles": 8,
   "selected_source_pages": 28,
   "planned_restorations": 16,
-  "completed_raw_arms": 8,
-  "completed_corrected_arms": 8,
+  "completed_raw_arms": 16,
+  "completed_corrected_arms": 12,
   "human_accepted_articles": 0,
   "first_two_instrumentation_gate": "passed",
   "delegation_authorization": "explicit-user-reply: Yes—authorize independent correction agents",
@@ -17,18 +17,18 @@
   },
   "protocol": {
     "path": "docs/OCR-AUGUST-PILOT.md",
-    "sha256": "d072dacc190a42bb3ed1c1974c2a1585fb1743987cbbd3a25f27ccc4b79b72b0",
-    "bytes": 21775
+    "sha256": "1d3de84ff60267f02b2796cde81cdbaf95443d040405c325bbfdd81205f44b97",
+    "bytes": 24427
   },
   "case_registry": {
     "path": "private/pdf-restoration/13-1984-08-cost-pilot/correction-case-registry.json",
-    "sha256": "dc8d6049c1c59afc8d2c1dc3621f385dabcee4484c3de3183409f15abb86cf94",
-    "bytes": 11172
+    "sha256": "54d95de99bd6bb36f18f90a417115c044fead96c70d8ae2d0f0e72ec3223ba77",
+    "bytes": 17014
   },
   "paid_coordinator_usage": {
     "path": "docs/ocr-august-pilot-usage.json",
-    "sha256": "ce8e109abb62604695d6582f07e5e80719792e396ac7c1d6a936d8b2c0bd3beb",
-    "bytes": 15419
+    "sha256": "fb8c51b8d8e489c8120ad227b1f230ab981da5ef164a45e43293292a87e486f3",
+    "bytes": 16662
   },
   "articles": [
     {
@@ -387,8 +387,53 @@
         185
       ],
       "first_engine": "qwen",
-      "raw": {},
-      "semantic_correction": "in-progress",
+      "raw": {
+        "qwen": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/qwen/ocr/report.json",
+            "sha256": "dd1cef02c281b447b4dcc48dc23d0fa9fde30e7a351ba40f4e6fc724e36de61a",
+            "bytes": 383
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/qwen/ocr/attempts.json",
+            "sha256": "4ec35cc5710bdc72cb09613523576a8f80a08484987b73c2fd0620557d410d3b",
+            "bytes": 47926
+          },
+          "status": "raw-complete-with-failures",
+          "worker_seconds": 94.13860699400539,
+          "recognition_seconds": 85.4766739030747,
+          "text_regions": 91,
+          "failed_regions": [
+            "p182r21"
+          ],
+          "captured_local_qwen_tokens": {
+            "prompt_tokens": 37445,
+            "completion_tokens": 6877,
+            "total_tokens": 44322
+          },
+          "exact_input_crop_equality": true
+        },
+        "tesseract": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/tesseract/ocr/report.json",
+            "sha256": "1ad9169504ab428f91d873ac3e1341525bdaa24e0e16f015cc000153768f3594",
+            "bytes": 359
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/tesseract/ocr/attempts.json",
+            "sha256": "79c7633c8fc6abe72af2ff3e634a4e2838c354d7507294196da37c41fb3971a1",
+            "bytes": 31886
+          },
+          "status": "raw-complete",
+          "worker_seconds": 19.42624554199574,
+          "recognition_seconds": 15.886933934991248,
+          "text_regions": 91,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": null,
+          "exact_input_crop_equality": true
+        }
+      },
+      "semantic_correction": "both-arms-sealed",
       "human_acceptance": "pending",
       "frozen_inputs": {
         "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/shared/frozen-inputs.json",
@@ -412,6 +457,16 @@
           "case_id": "aug-05-B",
           "engine": "tesseract",
           "status": "superseded-not-started"
+        },
+        {
+          "case_id": "aug-05-v2-A",
+          "engine": "qwen",
+          "status": "sealed"
+        },
+        {
+          "case_id": "aug-05-v2-B",
+          "engine": "tesseract",
+          "status": "sealed"
         }
       ],
       "protocol_deviation": {
@@ -419,7 +474,12 @@
         "sha256": "6a92cf3668e6fbf97dd97dcfd64d8a82d79042c95844df35a1d7fea16d88e846",
         "bytes": 1571
       },
-      "status": "raw-pair-correction-in-progress"
+      "paired_quality_review": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/quality-review.json",
+        "sha256": "b6888b38a487cf4eadf9dac69f63b55b20296d4f4a848b0e253321410f640e74",
+        "bytes": 7420
+      },
+      "status": "corrected-pair-source-comparison-recorded"
     },
     {
       "pair_id": "aug-06",
@@ -432,11 +492,82 @@
         199
       ],
       "first_engine": "tesseract",
-      "raw": {},
-      "semantic_correction": "not-started",
+      "raw": {
+        "qwen": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-06/qwen/ocr/report.json",
+            "sha256": "60dac8558ed7c0c8f04158c0cbc16cf0656001cb8c39916585642310c98f3cb2",
+            "bytes": 353
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-06/qwen/ocr/attempts.json",
+            "sha256": "c161b497462ca9de0bb5556eee48e95643db9846cd1f8f90fd4e4818869e5cfd",
+            "bytes": 29428
+          },
+          "status": "raw-complete",
+          "worker_seconds": 50.99509267498797,
+          "recognition_seconds": 42.94690403097775,
+          "text_regions": 56,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": {
+            "prompt_tokens": 19228,
+            "completion_tokens": 3614,
+            "total_tokens": 22842
+          },
+          "exact_input_crop_equality": true
+        },
+        "tesseract": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-06/tesseract/ocr/report.json",
+            "sha256": "bce538cbd2427d57ce466821ed1ed0e9469045eef1f7e8f5edfe0980cc65402b",
+            "bytes": 358
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-06/tesseract/ocr/attempts.json",
+            "sha256": "9417507653159b8b04a459aeec27239da4010adeb82bbd17909186b90ae2fcff",
+            "bytes": 19629
+          },
+          "status": "raw-complete",
+          "worker_seconds": 12.43428179298644,
+          "recognition_seconds": 8.945051146030892,
+          "text_regions": 56,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": null,
+          "exact_input_crop_equality": true
+        }
+      },
+      "semantic_correction": "both-arms-sealed",
       "human_acceptance": "pending",
-      "correction_cases": [],
-      "status": "selected-not-started"
+      "frozen_inputs": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-06/shared/frozen-inputs.json",
+        "sha256": "76d9db057895e87fdd7c66b66ff8bde10f29eea5e533079c08f66647d46de1e5",
+        "bytes": 13586
+      },
+      "regions": 63,
+      "text_regions": 56,
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-06/shared/map.json",
+        "sha256": "024d2a25cfaaf12e7d21a58b3d325455227e3600581b03bee35276f1a8273541",
+        "bytes": 19850
+      },
+      "correction_cases": [
+        {
+          "case_id": "aug-06-A",
+          "engine": "tesseract",
+          "status": "sealed"
+        },
+        {
+          "case_id": "aug-06-B",
+          "engine": "qwen",
+          "status": "sealed"
+        }
+      ],
+      "paired_quality_review": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-06/quality-review.json",
+        "sha256": "20b8b946589c7ede280d8da05df31996da67adc576714a3b34a54c3a7a6c2d7e",
+        "bytes": 3843
+      },
+      "status": "corrected-pair-source-comparison-recorded"
     },
     {
       "pair_id": "aug-07",
@@ -452,11 +583,82 @@
         220
       ],
       "first_engine": "tesseract",
-      "raw": {},
-      "semantic_correction": "not-started",
+      "raw": {
+        "qwen": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/qwen/ocr/report.json",
+            "sha256": "32d0eab0107e15cd1891bacf27dd5f230a0be7184af29feb4a51c4758041d1f4",
+            "bytes": 356
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/qwen/ocr/attempts.json",
+            "sha256": "28ec1ac70cfa0dff33f85c021d13d33a8397f38a630cb61997816212a706ac35",
+            "bytes": 79291
+          },
+          "status": "raw-complete",
+          "worker_seconds": 129.53102259800653,
+          "recognition_seconds": 118.99539220503357,
+          "text_regions": 151,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": {
+            "prompt_tokens": 54208,
+            "completion_tokens": 9984,
+            "total_tokens": 64192
+          },
+          "exact_input_crop_equality": true
+        },
+        "tesseract": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/tesseract/ocr/report.json",
+            "sha256": "c5242cca23fce4618cb81fd5bacfd000011d0a334c19a46ee0bb09e6f5f4f248",
+            "bytes": 361
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/tesseract/ocr/attempts.json",
+            "sha256": "32370c52c4fecee128484fc7e5e1cc6748c667ca2f143bf76446d4a3074f4986",
+            "bytes": 52921
+          },
+          "status": "raw-complete",
+          "worker_seconds": 27.042743600002723,
+          "recognition_seconds": 23.344848945896956,
+          "text_regions": 151,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": null,
+          "exact_input_crop_equality": true
+        }
+      },
+      "semantic_correction": "in-progress",
       "human_acceptance": "pending",
-      "correction_cases": [],
-      "status": "selected-not-started"
+      "frozen_inputs": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/shared/frozen-inputs.json",
+        "sha256": "c7146575b30cd8d9abf2ca1aab8dd29872f5841982b212b7b92175e64f98252e",
+        "bytes": 28481
+      },
+      "regions": 157,
+      "text_regions": 151,
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/shared/map.json",
+        "sha256": "2f30106a082731c76c6872d092753856afcbd340c134c6b50b21a89a376722ca",
+        "bytes": 45690
+      },
+      "correction_cases": [
+        {
+          "case_id": "aug-07-v2-A",
+          "engine": "tesseract",
+          "status": "running"
+        },
+        {
+          "case_id": "aug-07-v2-B",
+          "engine": "qwen",
+          "status": "prepared-not-started"
+        }
+      ],
+      "protocol_deviation": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/protocol-deviation.json",
+        "sha256": "081a532e187c71e38aa904372d2b279736bfbbf1edd8672f61bfa9136d9463d7",
+        "bytes": 560
+      },
+      "status": "raw-pair-correction-in-progress"
     },
     {
       "pair_id": "aug-08",
@@ -469,11 +671,66 @@
         265
       ],
       "first_engine": "tesseract",
-      "raw": {},
+      "raw": {
+        "qwen": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-08/qwen/ocr/report.json",
+            "sha256": "87e708a3c7d3fba6cca63499c594900506486ca0db03a489a4e01310a0fe6404",
+            "bytes": 353
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-08/qwen/ocr/attempts.json",
+            "sha256": "373b77246f683b57be9332f2c975eb2116b615ef03de211fc2ca40089946941f",
+            "bytes": 58825
+          },
+          "status": "raw-complete",
+          "worker_seconds": 75.86647570499917,
+          "recognition_seconds": 66.6620269370469,
+          "text_regions": 112,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": {
+            "prompt_tokens": 33296,
+            "completion_tokens": 5418,
+            "total_tokens": 38714
+          },
+          "exact_input_crop_equality": true
+        },
+        "tesseract": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-08/tesseract/ocr/report.json",
+            "sha256": "16c273c3866990be5036eda011ca9b7cd589e83d083511baac8f39c21d1b9b81",
+            "bytes": 361
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-08/tesseract/ocr/attempts.json",
+            "sha256": "3763267b8791c248fc65ed48c334a5ff8785562d6162cba1fd803d0e29eccb44",
+            "bytes": 39267
+          },
+          "status": "raw-complete",
+          "worker_seconds": 19.356454503998975,
+          "recognition_seconds": 15.791721886038431,
+          "text_regions": 112,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": null,
+          "exact_input_crop_equality": true
+        }
+      },
       "semantic_correction": "not-started",
       "human_acceptance": "pending",
+      "frozen_inputs": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-08/shared/frozen-inputs.json",
+        "sha256": "49d52010e45d2151813c849d3a11653765bd209d65d2e133e0f532e2be2d5f0b",
+        "bytes": 21499
+      },
+      "regions": 113,
+      "text_regions": 112,
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-08/shared/map.json",
+        "sha256": "ca0e084c18a8b4b5b1c150fb78171d255bfd143e078e7829b29b3c912ebe76f4",
+        "bytes": 31224
+      },
       "correction_cases": [],
-      "status": "selected-not-started"
+      "status": "raw-pair-ready-correction-pending"
     }
   ],
   "reading_room": "not-rebuilt",
@@ -487,8 +744,8 @@
   "cost_interpretation": "Local CPU/GPU/runtime/model tokens priced at zero. Raw timings are diagnostics, not the paid-cost answer. Article-level independent usage is recorded separately; no overall cost winner declared before the first-two gate and full cohort.",
   "paid_independent_correction_usage": {
     "path": "docs/ocr-august-pilot-correction-usage.json",
-    "sha256": "cad082cc741725222b67ee0d47684623602f7b7905aba737205caf64bb7d61e8",
-    "bytes": 29862
+    "sha256": "05724380ef23a8eacfde049d362d3b384eabd2b30a77ea68ca0c93550438fc9a",
+    "bytes": 43905
   },
   "gate_evidence": {
     "path": "private/pdf-restoration/13-1984-08-cost-pilot/first-two-gate.json",
