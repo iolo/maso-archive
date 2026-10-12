@@ -6304,7 +6304,7 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": "batch-21",
-    "status": "freefall-113-115-source-verified-mapping-pending",
+    "status": "freefall-113-115-raw-audited-source-correction-pending",
     "toc_entry_id": "maso-1984-08-toc-0017",
     "canonical_title": "자유 낙하운동",
     "canonical_byline": "탁연상",
@@ -6449,9 +6449,9 @@
       "sha256": "78992a83903de37bfca48a28d04e28e8c168ee9fb672e2db08624a8359f57090",
       "bytes": 3820
     },
-    "previous_goal_turn_classification": "progress:2d0f64a completed ending20 raw audit;this continuation validated/committed ending20(a6159b8) andfullFortran assembly(c980574),then inspected the fullnextarticleextent.",
+    "previous_goal_turn_classification": "progress:5702519 verified complete freefall113–115 extent. This continuation maps,repairs/reviews crops,recognizes andvalidates native21 raw evidence.",
     "human_acceptance": "pending",
-    "action": "Map/source-correct/export complete自由fallarticle canonical자유 낙하운동113–115,using unchanged pinned fullviews and verified next Z80title116. Firstprepare4000 rasters/crops,review allregions/edges beforeOCR. T clearprose/headings/captions;Qphysics formulas,diagram/screenlabels anddense BASICrows. Preserveone sourceprogram across115columns withprintedlabels/wraps,three original diagrams/screens,variable explanations andliteral source errors/glyph candidates. No additionalextentlookup needed unless genuinecoverageuncertainty. Boundonearticle/threemappedpages/oneoutside-maplookup;humanacceptance pending. WholeAugust JSON/assets closeout remains;no reading-room rebuild.",
+    "action": "Run one same-crop Tfallback on p113r19 foromitted diagram labels,retaining original29Q/47T costs andsealedraws. Correct only selected drafts directly againstsource forfull113–115 article;preserveoneBASICprogram across16codechunks,twoexplicitprosejoins,formulas/screens/diagram labels,printed mistakes andglyph candidates. Count physical rows/printed labels/wraps independently;actualfinal9910isPOKE34,17:RETURN. ExportandvalidatefullJSON/assets before production promotion/commit. Canonical identity unchanged;wholeAugust incomplete;humanacceptance/fullproofreading/sourcebytes/execution pending. No reading-room rebuild.",
     "actual_first_page": 113,
     "article_pdf_pages": [
       113,
@@ -6492,7 +6492,40 @@
         "sha256": "ef436fc8e5f0957c66e58baafab149fd13c8748fe90539e3d5cee57c214a1336",
         "bytes": 791438
       }
-    ]
+    ],
+    "mapped_source_pages": [
+      113,
+      114,
+      115
+    ],
+    "raw_audit": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-ocr-audit.json",
+      "sha256": "dff5449dbee105e4cf59e34859ce649f5e30152d2f4d73be38b633fed41b0547",
+      "bytes": 4677
+    },
+    "raw_preservation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-preservation.json",
+      "sha256": "6c5d09055779a809f47ceca09bdf26c9f55712cd0e9c264c0eb7b5bfbbeabf47",
+      "bytes": 96423
+    },
+    "crop_gate": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/preflight-acceptance.json",
+      "sha256": "2bc493d5f24b7dec66868f456969d71f911db330ca7a0d4b039265e611a2651b",
+      "bytes": 20680
+    },
+    "draft_inspection": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/draft-inspection.json",
+      "sha256": "ef38ba8ea043a0cfe8bb0ccff5e6280055d21858494a30fc795e27dd00d1e739",
+      "bytes": 953
+    },
+    "bounded_fallback": {
+      "region_id": "p113r19",
+      "engine": "tesseract",
+      "reason": "Selected Q draft contains only H andT;source diagram also has two zero labels,g andV candidates plusdownward arrow. Record one bounded same-crop Tfallback before source correction;preserve Qdraft/cost andcorrect only finalselecteddraft.",
+      "executed": false,
+      "same_crop_required": true,
+      "max_additional_calls": 1
+    }
   },
   "raw_preparation_checkpoints": [
     {
@@ -6546,6 +6579,68 @@
         "reason": "Q draft shifted I/O row associations by inserting an extra blank-number row. Original ruled source has ten rows. Preserve immutable Q attempt and its cost; run at most one same-crop T fallback and correct only selected draft from source.",
         "engine": "tesseract",
         "executed": false
+      },
+      "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-21",
+      "toc_entry_id": "maso-1984-08-toc-0017",
+      "source_pages": [
+        113,
+        114,
+        115
+      ],
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-ocr-audit.json",
+        "sha256": "dff5449dbee105e4cf59e34859ce649f5e30152d2f4d73be38b633fed41b0547",
+        "bytes": 4677
+      },
+      "preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-preservation.json",
+        "sha256": "6c5d09055779a809f47ceca09bdf26c9f55712cd0e9c264c0eb7b5bfbbeabf47",
+        "bytes": 96423
+      },
+      "crop_gate": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/preflight-acceptance.json",
+        "sha256": "2bc493d5f24b7dec66868f456969d71f911db330ca7a0d4b039265e611a2651b",
+        "bytes": 20680
+      },
+      "draft_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/draft-inspection.json",
+        "sha256": "ef38ba8ea043a0cfe8bb0ccff5e6280055d21858494a30fc795e27dd00d1e739",
+        "bytes": 953
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 10279,
+        "completion_tokens": 2571,
+        "total_tokens": 12850
+      },
+      "qwen_calls": 29,
+      "tesseract_calls": 47,
+      "raw_worker": {
+        "started_at": "2026-10-12T19:13:44.133956+00:00",
+        "finished_at": "2026-10-12T19:15:27.818198+00:00",
+        "elapsed_seconds": 103.68425521999598,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 29,
+          "tesseract_inferences": 47,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "source_correction": "pending",
+      "production_export": false,
+      "bounded_fallback": {
+        "region_id": "p113r19",
+        "engine": "tesseract",
+        "reason": "Selected Q draft contains only H andT;source diagram also has two zero labels,g andV candidates plusdownward arrow. Record one bounded same-crop Tfallback before source correction;preserve Qdraft/cost andcorrect only finalselecteddraft.",
+        "executed": false,
+        "same_crop_required": true,
+        "max_additional_calls": 1
       },
       "human_acceptance": "pending"
     }
