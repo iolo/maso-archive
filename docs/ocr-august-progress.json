@@ -15,16 +15,17 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
+    "assistant-partial-human-pending": 1,
     "assistant-restored-human-pending": 1,
     "sealed-pilot-review-pending": 8,
     "section-heading-no-body": 1,
     "unclassified-heading": 5,
-    "untouched": 28
+    "untouched": 27
   },
   "sealed_pilot_articles": 8,
   "production_complete_articles": 1,
-  "production_partial_articles": 0,
-  "untouched_articles": 28,
+  "production_partial_articles": 1,
+  "untouched_articles": 27,
   "unclassified_heading_entries": 5,
   "classified_heading_entries": 1,
   "human_accepted_articles": 0,
@@ -630,6 +631,109 @@
         }
       ],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-03",
+      "toc_entry_id": "maso-1984-08-toc-0003",
+      "title": "청소",
+      "source_pages": [
+        32,
+        33
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p32r01": "tesseract",
+        "p32r02": "tesseract",
+        "p32r03": "tesseract",
+        "p32r04": "tesseract",
+        "p32r05": "tesseract",
+        "p32r06": "tesseract",
+        "p32r07": "tesseract",
+        "p32r08": "tesseract",
+        "p32r09": "tesseract",
+        "p32r10": "tesseract",
+        "p32r11": "tesseract",
+        "p32r13": "tesseract",
+        "p32r15": "tesseract",
+        "p32r17": "tesseract",
+        "p32r18": "tesseract",
+        "p32r19": "tesseract",
+        "p33r01": "tesseract",
+        "p33r02": "tesseract",
+        "p33r03": "tesseract",
+        "p33r04": "tesseract",
+        "p33r23": "tesseract"
+      },
+      "assignment_reason": "Representative p32r03 T draft preserves sentence content except one readily source-corrected proper noun 백결→Wa and punctuation. Clear prose uses T; structured monitor commands and dense hex rows use Q. Probe crop reused, not inferred twice.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-03/sweeping-opening/article.json",
+          "sha256": "96e850378f1033153ea530e7ec8deb20983940e49a9c748f30dca437c5a7519d",
+          "bytes": 73289
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-03/sweeping-opening/manifest.json",
+          "sha256": "ce22a4c6029d04c15989f57d7edd20845fb9a9d4f61176821992c6a2a2a2f43c",
+          "bytes": 28348
+        },
+        "source_pages": [
+          32,
+          33
+        ],
+        "regions": 42,
+        "text_regions": 41,
+        "figures": 1,
+        "physical_listing_rows": 211,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 13,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-03/map.json",
+        "sha256": "8a68c20ad05b79922b12cc807daeb8e2e6a517947dce51a3db00fc6e57dbb642",
+        "bytes": 12813
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-03/source-review-ledger.json",
+        "sha256": "0ac007a8039471b25a2cfd119ef32ba6c23cfd8387224858d23521453d7e01e6",
+        "bytes": 6152
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 6373,
+        "completion_tokens": 6382,
+        "total_tokens": 12755
+      },
+      "qwen_completed_calls": 20,
+      "qwen_recognition_seconds": 62.59908366999298,
+      "tesseract_recognition_seconds": 4.144290485986858,
+      "preparation_probe_seconds": 0.20561249599268194,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T04:48:52.615840+00:00",
+        "finished_at": "2026-10-12T04:50:06.710214+00:00",
+        "elapsed_seconds": 74.09438572199724,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 20,
+          "tesseract_inferences": 21,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -873,9 +977,33 @@
       "page": 32,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-partial-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-03",
+          "source_pages": [
+            32,
+            33
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-03/sweeping-opening/article.json",
+            "sha256": "96e850378f1033153ea530e7ec8deb20983940e49a9c748f30dca437c5a7519d",
+            "bytes": 73289
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        32,
+        33
+      ],
+      "deferred_pdf_pages": [
+        34,
+        35,
+        36
+      ],
+      "assembly_required": true
     },
     {
       "id": "maso-1984-08-toc-0004",
@@ -1401,16 +1529,21 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-03",
+    "batch": "batch-04",
     "toc_entry_id": "maso-1984-08-toc-0003",
     "source_pages": [
+      34,
+      35,
+      36
+    ],
+    "article_extent": [
       32,
       33,
       34,
       35,
       36
     ],
-    "action": "Verify 청소 ending and next title37; restore source prose, original screen and byte dump without inferred repairs. Extent32–36 provisional until inspection.",
+    "action": "Restore BASIC physical listing10–910 upper36. Preserve source literals/wraps and exclude lower36 advertisement; then separate assembly with opening32–33.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }

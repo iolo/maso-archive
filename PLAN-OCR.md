@@ -2363,3 +2363,32 @@ commit code/documentation. Do not count a partial opening as a complete article.
   one classified heading,five unclassified headings;zero human accepted.
 - Whole August remains in progress. Next:verify and restore 청소32–36 and boundary37.
   JSON/assets only; no reading-room rebuild or runtime/frontend changes.
+
+### August 청소 opening and hex dump, 2026-10-12
+
+- Verified full32–36; BASIC ends910 in upper36, advertisement below excluded,
+  and37 starts the next pilot title. Batch03 restores32–33:42 regions,41 text,
+  one original screen,33 ordered blocks,208 hex rows/1664 bytes and13 review flags.
+- T probe0.206s lost one proper noun/punctuation; later neighboring T prose has
+  substantial Latin garbage. The successful probe is reused, all failed routing
+  evidence retained, and the selected draft corrected directly from inspected scans.
+  Do not extrapolate this initial sample to noticeably fainter neighboring crops.
+  Actual new calls20T20Q,plus the one reused probe; no alternate full restoration.
+- All18 Q hex crops source-compared.25 row corrections restore omitted/repeated
+  cells and address glyphs. Initial final-column count67 was wrong:source ends6678
+  with68 rows. Existing whitespace seams already contain every complete row;
+  revised coverage records13/12/7 rows in the final three crops. No crop rerun.
+- Printed 장진,패들값을기,CALL-151를 and prose4-shapes/12-shapes discrepancy
+  retained. Structural address/byte counts validate coverage, never supply byte values;
+  byte-perfect proofreading/execution remain unverified.211 unnumbered listing rows
+  include two commands and the trailing monitor prompt.
+- All42 crop/source/request hashes,20 Q stop outcomes,regional characters,text and
+  listing byte ranges,source corrections,independent identical rebuild and16,790
+  sealed pilot files pass. Human acceptance pending;JSON/assets only.
+- Q12,755 local tokens/62.599s;T4.144s plus probe0.206s. Paid preparation/routing
+  mistakes/correction/export/reporting windows separately recorded;no causal savings.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-03/sweeping-opening/`.
+  Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-03/validation.json`.
+  One complete production article,one partial,27 untouched,eight sealed pilot bodies,
+  five unclassified headings;zero human accepted. Whole August remains in progress.
+- Next:batch04 BASIC34–36,then separate full 청소 assembly.

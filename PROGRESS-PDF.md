@@ -11714,3 +11714,21 @@ history remains in [PROGRESS.md](PROGRESS.md).
  eight sealed pilot bodies pending production selection,five heading classifications
  remaining. Whole August in progress;next 청소32–36 after source-boundary verification.
 - JSON/assets only; no reading-room rebuild. User web change remains outside commits.
+
+## 2026-10-12 — August 청소32–33 native opening checkpoint
+
+- Full32–36 boundary verified:listing ends910 upper36,lower advertisement excluded,
+ and37 is next title. Opening export preserves42 regions,41 text,one original screen,
+ 33 ordered blocks,208 hex rows/1664 bytes and13 source-linked review flags.
+- T prose route degraded outside initial probe;all raw retained and selected draft
+ corrected from already inspected scans. Probe reused;20 new T and20 Q calls.
+ All18 hex crops reviewed;25 explicit source row corrections. Initial67-row final
+ column expectation revised to source68 without changing crops or repeating inference.
+- Export,crop/source/request hashes,stop outcomes,regional characters,211 listing
+ rows/byte coverage,review ranges and independent rebuild pass. All16,790 pilot files
+ unchanged. Printed errors and valid-looking uncertain hex bytes remain flagged.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-03/sweeping-opening/`.
+ Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-03/validation.json`.
+ One complete production body,one partial,27 untouched,eight sealed pilot bodies,
+ five heading classifications remaining. Human acceptance pending;whole August incomplete.
+- Next:BASIC34–36,then full 청소 assembly. No reading-room/runtime/frontend changes.
