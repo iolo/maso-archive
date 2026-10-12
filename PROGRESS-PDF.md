@@ -11927,3 +11927,19 @@ history remains in [PROGRESS.md](PROGRESS.md).
  four heading classifications remaining;zero human accepted. August incomplete.
 - Next:inspect complete 로고에로의 초대60 onward through BASIC65 boundary,then
  restore LOGO text/listings/figures. JSON/assets only;reading room unchanged.
+
+## 2026-10-12 — August LOGO60–64 raw OCR checkpoint
+
+- Full60–65 inspected;article ends64,next PASSWORD & LOGIN begins65.101 text
+ regions/35 command-output crops mapped;182 source physical rows are unnumbered.
+ All28 original/ten revised panels inspected.16 crop geometries repaired before
+ inference;initial evidence and two failed whitespace searches preserved.
+- Bounded clear-prose probe supports Tesseract for prose/headings;Qwen handles
+ code/formulas/inverse heading.43Q/58T results include one unchanged reused probe;
+ no OCR failures/retries. Q22,753 local tokens/62.346s,T9.572s including0.200s probe.
+ No duplicate recognition cost;local monetary weight zero. Paid work windows kept.
+- Raw crop/request hashes and43 stop outcomes pass. Audit:
+ `private/pdf-restoration/13-1984-08-adaptive/batch-10/raw-ocr-audit.json`.
+ Source correction/export remain pending;LOGO is not counted restored. Next:one
+ selected source pass,independent command/output indexes,export/rebuild validation.
+ August remains eight restored articles with mandatory human review pending.

@@ -2610,9 +2610,12 @@
       63,
       64
     ],
-    "article_extent_verified": false,
-    "action": "Inspect full 로고에로의 초대 source60 onward through BASIC65 boundary before mapping; restore LOGO commands/listings and original diagrams.",
+    "article_extent_verified": true,
+    "action": "Source-correct completed LOGO60–64 mixed draft.101 regions,182 source physical example/output rows;43 Qwen and58 Tesseract results including one reused probe. Raw audit passed; production export not created.",
     "reading_room_rebuild": false,
-    "human_acceptance": "pending"
+    "human_acceptance": "pending",
+    "raw_ocr_status": "complete",
+    "source_correction_status": "pending",
+    "raw_audit": "private/pdf-restoration/13-1984-08-adaptive/batch-10/raw-ocr-audit.json"
   }
 }

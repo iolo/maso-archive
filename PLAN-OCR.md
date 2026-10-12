@@ -2596,3 +2596,22 @@ commit code/documentation. Do not count a partial opening as a complete article.
  four heading classifications remaining;zero human accepted. August incomplete.
 - Next:inspect complete 로고에로의 초대60 onward through BASIC65 boundary before
  mapping. JSON/assets only;reading room and unrelated web edit unchanged.
+
+### August LOGO60–64 raw preparation complete, 2026-10-12
+
+- Full60–65 inspected:printed 로고 강좌/연재4회 ends64 with references;
+ canonical 로고에로의 초대 identity unchanged.101 text regions mapped across
+ five pages,with35 command/output crops and182 unnumbered physical source rows.
+- All28 original/ten revised panels inspected.16 crop geometries repaired before
+ OCR;initial maps/crops and two failed whitespace-search attempts retained. One
+ tightly typeset END/prose boundary has only a one-pixel gap,manually inspected.
+- Cleaner prose warranted one bounded Tesseract probe:p63r02 retained every word
+ with two punctuation errors.58T results include that unchanged reused probe;
+ 43Q crops cover code/formulas/inverse heading. No OCR failures or retries.
+ Q22,753 local tokens/62.346s;T9.572s includes0.200s probe. Probe is not repeated
+ or added twice to total recognition time. Local monetary weight zero.
+- Raw crop/request hashes and43 stop outcomes pass. Evidence:
+ `private/pdf-restoration/13-1984-08-adaptive/batch-10/raw-ocr-audit.json`.
+ Source correction and production export remain pending;aggregate stays eight
+ restored articles,22 untouched/seven pilots pending selection. Next:correct LOGO
+ prose,commands,displayed results and source anomalies,then export/validate/commit.
