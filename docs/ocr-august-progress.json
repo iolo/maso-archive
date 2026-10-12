@@ -6304,18 +6304,25 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": "batch-21",
-    "status": "freefall-113-full-extent-inspection-pending",
+    "status": "freefall-113-115-source-verified-mapping-pending",
     "toc_entry_id": "maso-1984-08-toc-0017",
     "canonical_title": "자유 낙하운동",
     "canonical_byline": "탁연상",
     "canonical_first_page": 113,
-    "article_extent_verified": false,
-    "planned_source_pages": [],
+    "article_extent_verified": true,
+    "planned_source_pages": [
+      113,
+      114,
+      115
+    ],
     "following_canonical_entry": {
       "toc_entry_id": "maso-1984-08-toc-0018",
       "title": "기계어 강좌",
       "byline": "이세형",
-      "canonical_first_page": 116
+      "canonical_first_page": 116,
+      "actual_title_page": 116,
+      "source_title": "Z80 기계어 강좌",
+      "canonical_identity_unchanged": true
     },
     "prior_fortran_assembly": {
       "toc_entry_id": "maso-1984-08-toc-0016",
@@ -6442,9 +6449,50 @@
       "sha256": "78992a83903de37bfca48a28d04e28e8c168ee9fb672e2db08624a8359f57090",
       "bytes": 3820
     },
-    "previous_goal_turn_classification": "progress:a6159b8 validated ending20,then thiscontinuation assembled andvalidated fullFortran105–112 with exactnative/source-index projection.",
+    "previous_goal_turn_classification": "progress:2d0f64a completed ending20 raw audit;this continuation validated/committed ending20(a6159b8) andfullFortran assembly(c980574),then inspected the fullnextarticleextent.",
     "human_acceptance": "pending",
-    "action": "Commit fullFortran105–112 assembly,then inspect complete 자유 낙하운동 extentstarting113 andfollowing titlebefore bounded mapping. Reuse unchanged113/114 scans fromnative19extent;inspect fresh115/116 asneeded. Adaptive OCR/source correction/export/validation/commit within twoarticles/sixpages/twentyoutside-lookups. WholeAugust standaloneJSON/assets closeout,17untouched bodies,sixpilot selections/fourheading classifications remain;no reading-room rebuild."
+    "action": "Map/source-correct/export complete自由fallarticle canonical자유 낙하운동113–115,using unchanged pinned fullviews and verified next Z80title116. Firstprepare4000 rasters/crops,review allregions/edges beforeOCR. T clearprose/headings/captions;Qphysics formulas,diagram/screenlabels anddense BASICrows. Preserveone sourceprogram across115columns withprintedlabels/wraps,three original diagrams/screens,variable explanations andliteral source errors/glyph candidates. No additionalextentlookup needed unless genuinecoverageuncertainty. Boundonearticle/threemappedpages/oneoutside-maplookup;humanacceptance pending. WholeAugust JSON/assets closeout remains;no reading-room rebuild.",
+    "actual_first_page": 113,
+    "article_pdf_pages": [
+      113,
+      114,
+      115
+    ],
+    "remaining_source_pages": [
+      113,
+      114,
+      115
+    ],
+    "outside_map_lookup_pages": [
+      116
+    ],
+    "full_extent": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/extent-inspection.json",
+      "sha256": "7fed2e403fae1e82adeb6b6de64987176aad4d1c27bf2c5073c8bb40014fa840",
+      "bytes": 3128
+    },
+    "pinned_source_views": [
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-113.png",
+        "sha256": "daca729a4698dcf37a2d788220e91b6413652d310d854b1a2dc401a87088d59a",
+        "bytes": 500571
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-114.png",
+        "sha256": "f5f1314e48be2edd4e1ca521973b5510af5630b830ce01ba0799a99774d0015c",
+        "bytes": 794535
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/extent/page-115.png",
+        "sha256": "381ad2c9aa8ddaa252da1eb45b405fb61f6dcb1496ebdefce28f1ac993692173",
+        "bytes": 675497
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/extent/page-116.png",
+        "sha256": "ef436fc8e5f0957c66e58baafab149fd13c8748fe90539e3d5cee57c214a1336",
+        "bytes": 791438
+      }
+    ]
   },
   "raw_preparation_checkpoints": [
     {
