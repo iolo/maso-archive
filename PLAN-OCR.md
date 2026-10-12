@@ -2291,3 +2291,11 @@ commit code/documentation. Do not count a partial opening as a complete article.
   explicit checks against normalization of printed spelling and code literals.
 - Record future weighted usage and recovery during ordinary restoration. This
   update changes guidance only; the completed paired evidence remains sealed.
+
+### Routing guide made discoverable for future sessions, 2026-10-12
+
+- The current operational guide is now at the top of [PLAN-PDF.md](PLAN-PDF.md):
+  engine choices, region-level routing, bounded probes/fallbacks, mandatory review,
+  10:1 input-price weighting, evidence links and the reading-room hold.
+- Historical May status and initial Tesseract setup are labeled explicitly so
+  later sessions use current progress and routing instead of restarting old work.

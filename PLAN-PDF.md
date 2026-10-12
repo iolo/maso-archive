@@ -1,6 +1,52 @@
 # Step-by-step PDF restoration plan
 
-## Scope and current next step
+## Current OCR routing guide
+
+**User decision, 2026-10-12: keep and improve adaptive routing.** Read this guide before
+starting a restoration batch in a future session. It supersedes
+historical single-engine assumptions in the checkpoints below. For later issue
+progress and the next restoration checkpoint, consult [PLAN-OCR.md](PLAN-OCR.md);
+the May closeout below is historical.
+
+| Content or draft condition | Starting choice |
+| --- | --- |
+| Clear prose with an easily corrected draft | Tesseract |
+| Dense source code, formulas, structured values, or difficult text reading order | Qwen3-VL |
+| Mixed article | Route coherent regions separately; an article title or page count is insufficient |
+| Diagrams, screenshots and photographs | Preserve source images; route surrounding text, labels and captions separately |
+
+These are starting choices, not proven cost winners. Apply the documented
+[exceptions and bounded-fallback rules](docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
+for aligned assembly columns, ruled tables, decorative/repeated glyphs and
+unusual prose styles. Both engines and the tested llama.cpp/GGUF setup already
+exist; reuse the verified configurations and preserve their provenance.
+
+1. Inspect source coverage and record the primary engine, region scope and reason
+   before inference. When uncertain, use one bounded representative probe only
+   if its result can change the route. Reuse successful evidence on unchanged crops.
+2. Switch or use a recorded bounded fallback when identifiers, values, row
+   associations or reading order break down, or generation loops/truncates.
+   Ordinary spacing/wrapping differences alone do not justify switching. Preserve
+   every failed attempt, crop revision and fallback with its cost and provenance.
+3. Correct the selected draft once in ordinary restoration. Routine whole-article
+   dual correction belongs to an explicitly scoped experiment. Semantic correction
+   and human review remain mandatory for either engine. Preserve historical
+   spelling, printed mistakes, code literals and source-linked uncertainties.
+4. Measure uncached input, cached input and output separately. Use the user's
+   working **10:1 uncached/cached input-price ratio**: normalized cost is
+   `uncached + 0.1*cached + r*output`, with output rate `r` explicit until known.
+   Local CPU/GPU/runtime/model tokens have zero monetary weight; record time as
+   a separate diagnostic. Keep preparation, evaluation and recovery costs visible.
+5. Refine routing through comparable observations during normal restoration.
+   Fewer total tokens do not necessarily mean lower cost, and one article per
+   content type does not establish a universal rule. Record progress and commit.
+
+Evidence: [August paired cost results](docs/OCR-AUGUST-PILOT-RESULTS.md) and
+[July routing evidence](docs/OCR-JULY-DECISION.md). **Do not rebuild the reading
+room until the user explicitly requests it.** Older preview/build instructions
+are historical and do not authorize a new rebuild.
+
+## Scope and historical May 1984 closeout
 
 **Scope clarified 2026-10-02:** this plan converts eligible PDF content into
 structured JSON and extracted image assets. Deliver article/issue identities,
@@ -39,8 +85,9 @@ Forty-three native checkpoints and seventeen assemblies preserve 42 immutable
 May inputs. All 200 native/36 assembly manifests and prior OCR/unpromoted evidence
 inventories remain unchanged. The separately committed radar news adapter `f8fa518`
 passes 117 PDF tests; the closeout reuses that unchanged baseline. No new OCR,
-HTML, frontend, browser or reader work was required. June 1984 is next and has
-not started. Fifteen supplied eligible issues remain after May.
+HTML, frontend, browser or reader work was required. At that closeout, June 1984
+was next and fifteen supplied eligible issues remained after May. These are
+historical counts; use [PLAN-OCR.md](PLAN-OCR.md) for subsequent progress.
 
 Evidence: `private/pdf-restoration/12-1984-05-closeout/validation.json` and
 `completion-audit.json`. The pre-export cover-root validation failure is retained;
@@ -1145,6 +1192,10 @@ and noncontiguous ordering with focused fixtures. If the pilot cannot be mapped,
 record the blocker and select one named replacement before OCR work.
 
 ## 4. Establish local OCR on one pilot page
+
+This original setup milestone is historical. For a new restoration batch, apply
+the [current routing guide](#current-ocr-routing-guide)
+above using the already installed, verified engines.
 
 **Goal:** produce repeatable local OCR with positional evidence.
 **Input and limit:** one mapped pilot page/region and the step 3 schema; one
