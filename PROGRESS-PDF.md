@@ -12348,3 +12348,38 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Completeextentretainsstack/jump/call/returnprose,originalphotos/diagrams,condition/opcode tables andindependentSPC-1000examples/hex dumps. LIST3continues120→121;SPC-1000sortingLIST4spans125columns. CP/MsupportLIST5continues126left→righttop;separateCP/MversionsLIST1/2/3follow,withLIST3continuing126→127beforefullCP/MLIST4on127. Addresses/opcodes/labels/apostrophemarkers/dumpsarenotBASICnumbering;sourcecolumns/blankfields andliteral source mistakes require independent correction.
 - Opening/endingnativeboundary121→122 splits프로/그램 withinoneword. Otherphysicalprose continuations117→118,118→119,119→120,120→121 and122→123 areexplicitlyrecorded. Printerphoto118/119 remains twooriginalpageassets;no image stitching ornew contentinferred. Final127DATA/DEFS declaration precedes128title,confirmingthefullendingbeforemapping.
 - Extent:`private/pdf-restoration/13-1984-08-adaptive/batch-22/extent-inspection.json`. No native22mapping/OCR/exportyet. Next:4000rasters,coherentTprose/Qassembly-and-structuredregions,fullcrop review,thenOCR/sourcecorrection/export/validation. Fifteenproductionarticlescomplete,16untouchedbodies,sixpilot selections/fourheadingclassificationsandwholeAugustJSON/assetscloseoutremain. Humanacceptance/fullproofreading/sourcebytes/executionpending;no reading-room rebuild.
+
+## 2026-10-13 — August Z80 opening116–121 raw preparation complete
+
+- Pages 116–121 now have 120 mapped regions: 108 text drafts, 12 source
+  images, 34 code regions and one condition table. The full article extent remains
+  116–127. Three SPC-1000 programs and their separate byte dumps retain assembly
+  address/opcode/label/operand fields; physical row and cell counts await correction.
+- Reviewed all 32 original panels, 22 revised panels, 12 images and six original
+  and final overlays. Repaired 45 distinct crops before OCR; one leading glyph
+  needed a second extension. All 432 final edges have zero glyph crossings.
+  The remaining 24 ink crossings are inspected backgrounds or figure borders.
+  Original and intermediate geometry, crops and diagnostics remain preserved.
+- Two bounded Tesseract probes guided routing. The condition table retained all
+  eight row associations and was reused. The assembly probe corrupted identifiers,
+  so its initial route stayed Qwen. Qwen then shifted address/instruction pairs in
+  p119r19; one bounded fallback reused the existing Tesseract probe without another
+  inference. Correct only the selected draft once against the source.
+- Actual calls: 38 Qwen and 71 Tesseract, including both probes and the unselected
+  Qwen draft. Selected regions: 37 Qwen and 71 Tesseract. The worker made 69 new
+  Tesseract calls; there were no length failures, retries or cache hits. Qwen used
+  17,410 local tokens (15,178 prompt / 2,232 output). Local monetary weight is zero.
+  Worker duration 111.591s, probe duration 0.319s and selection verification/copy
+  duration are separate diagnostics; they establish no causal paid-cost winner.
+- Source, crop, map, raw bundle, runtime/model and stop checks pass. All 29 prior
+  production packages, native15–21 original raw inventories, native20–21 selected
+  raw inventories and 16,790 pilot files remain unchanged. Original and selected
+  native22 raw evidence are separately sealed. No production export exists yet.
+- Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-22/raw-ocr-audit.json`,
+  `selected-raw-preservation.json` and `raw-draft-inspection.json`. Next: source-correct
+  the 108 selected drafts, count every assembly row and table cell, export/validate
+  the opening, then restore 122–127 and assemble the article. Preserve the explicit
+  121프로/122그램 word join. August remains 15 complete, zero partial, 16 untouched
+  bodies, six pilot selections pending and four headings unclassified. Human
+  acceptance, full proofreading, source bytes and execution remain unverified.
+  Whole-issue JSON/assets closeout remains required; no reading-room rebuild.
