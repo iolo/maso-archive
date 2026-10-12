@@ -2125,6 +2125,274 @@
       "qwen_failed_calls": 2,
       "failed_qwen_server_compute_seconds": 26.07945,
       "failure_cost_limitation": "All failed model tokens included. Failed server prompt/generation time is separate from successful client recognition time; failed client wall duration unmeasured, not inferred."
+    },
+    {
+      "batch": "batch-13",
+      "toc_entry_id": "maso-1984-08-toc-0013",
+      "title": "영어 교육용 시스템",
+      "source_pages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p81r01": "qwen",
+        "p81r02": "qwen",
+        "p81r03": "qwen",
+        "p81r04": "qwen",
+        "p81r05": "qwen",
+        "p81r06": "qwen",
+        "p81r07": "qwen",
+        "p81r08": "qwen",
+        "p81r09": "qwen",
+        "p81r10": "qwen",
+        "p81r11": "qwen",
+        "p81r12": "qwen",
+        "p81r13": "qwen",
+        "p81r14": "qwen",
+        "p81r15": "qwen",
+        "p81r16": "qwen",
+        "p81r17": "tesseract",
+        "p81r18": "qwen",
+        "p81r19": "qwen",
+        "p81r20": "qwen",
+        "p81r21": "qwen",
+        "p81r22": "qwen",
+        "p81r23": "qwen",
+        "p81r24": "qwen",
+        "p81r25": "qwen",
+        "p82r01": "qwen",
+        "p82r02": "qwen",
+        "p82r03": "qwen",
+        "p82r04": "qwen",
+        "p82r05": "qwen",
+        "p82r06": "qwen",
+        "p82r07": "qwen",
+        "p82r08": "qwen",
+        "p82r09": "qwen",
+        "p82r10": "qwen",
+        "p82r11": "qwen",
+        "p82r12": "qwen",
+        "p82r13": "qwen",
+        "p82r14": "qwen",
+        "p82r15": "qwen",
+        "p82r16": "qwen",
+        "p82r17": "qwen",
+        "p82r18": "qwen",
+        "p82r19": "qwen",
+        "p82r20": "qwen",
+        "p82r21": "tesseract",
+        "p82r22": "qwen",
+        "p82r23": "qwen",
+        "p82r24": "qwen",
+        "p83r01": "qwen",
+        "p83r02": "qwen",
+        "p83r03": "qwen",
+        "p83r04": "qwen",
+        "p83r05": "qwen",
+        "p83r06": "qwen",
+        "p83r07": "qwen",
+        "p83r08": "qwen",
+        "p83r09": "qwen",
+        "p83r10": "qwen",
+        "p83r11": "qwen",
+        "p83r12": "qwen",
+        "p83r13": "qwen",
+        "p83r14": "qwen",
+        "p83r15": "qwen",
+        "p83r16": "qwen",
+        "p83r17": "qwen",
+        "p83r18": "qwen",
+        "p83r19": "qwen",
+        "p83r20": "qwen",
+        "p83r21": "qwen",
+        "p83r22": "qwen",
+        "p83r23": "qwen",
+        "p84r01": "qwen",
+        "p84r02": "qwen",
+        "p84r03": "qwen",
+        "p84r04": "qwen",
+        "p84r05": "qwen",
+        "p84r06": "qwen",
+        "p84r07": "qwen",
+        "p84r08": "qwen",
+        "p84r09": "tesseract",
+        "p84r10": "qwen",
+        "p84r11": "qwen",
+        "p84r12": "qwen",
+        "p84r13": "qwen",
+        "p84r14": "qwen",
+        "p84r15": "qwen",
+        "p84r16": "qwen",
+        "p84r17": "qwen",
+        "p84r18": "qwen",
+        "p84r19": "qwen",
+        "p84r20": "tesseract",
+        "p84r21": "tesseract",
+        "p84r22": "qwen",
+        "p84r23": "qwen",
+        "p84r24": "qwen",
+        "p85r01": "qwen",
+        "p85r02": "qwen",
+        "p85r03": "qwen",
+        "p85r04": "qwen",
+        "p85r05": "qwen",
+        "p85r06": "qwen",
+        "p85r07": "qwen",
+        "p85r08": "qwen",
+        "p85r09": "qwen",
+        "p85r10": "qwen",
+        "p85r11": "qwen",
+        "p85r12": "qwen",
+        "p85r13": "qwen",
+        "p85r14": "qwen",
+        "p85r15": "qwen",
+        "p85r16": "qwen",
+        "p85r17": "qwen",
+        "p85r18": "qwen",
+        "p85r19": "qwen",
+        "p85r20": "qwen",
+        "p85r21": "qwen",
+        "p85r22": "qwen",
+        "p85r23": "qwen",
+        "p85r24": "qwen",
+        "p86r01": "qwen",
+        "p86r02": "qwen",
+        "p86r03": "qwen",
+        "p86r04": "qwen",
+        "p86r05": "qwen",
+        "p86r06": "qwen",
+        "p86r07": "qwen",
+        "p86r08": "qwen",
+        "p86r09": "qwen",
+        "p86r10": "qwen",
+        "p86r11": "qwen",
+        "p86r12": "qwen",
+        "p86r13": "qwen",
+        "p86r14": "qwen",
+        "p86r15": "qwen",
+        "p86r16": "qwen",
+        "p86r17": "qwen",
+        "p86r18": "qwen",
+        "p86r19": "qwen",
+        "p86r20": "qwen",
+        "p86r21": "qwen",
+        "p86r22": "qwen",
+        "p86r23": "qwen",
+        "p86r24": "qwen"
+      },
+      "assignment_reason": "Qwen dense BASIC and bitmap Hangul;Tesseract clear LIST2/LIST3 labels and documented repeated-glyph exception after source panel review. No new probe can change established typography routes.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-13/english-education/article.json",
+          "sha256": "d55bf091663fb562d335036272ec89944c543128942a523e7f5f574b38dfd269",
+          "bytes": 245513
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-13/english-education/manifest.json",
+          "sha256": "e41ba3e0aac586fc5653b12099e6ff6ae220d31123c3fb7a30897b8d3c12e395",
+          "bytes": 96419
+        },
+        "source_pages": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "regions": 144,
+        "text_regions": 144,
+        "figures": 0,
+        "physical_listing_rows": 827,
+        "logical_listing_rows": 493,
+        "unresolved_entries": 118,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/map.json",
+        "sha256": "748beba753c2d1b17cd1305e483961a5838c44711ac59ff012b9684c8a7c80c1",
+        "bytes": 42732
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/source-review-ledger.json",
+        "sha256": "db1ee73407e87461adc7468e1e488de5d4e0f572c7d5489b2da66f1b8dc40b4d",
+        "bytes": 16292
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 53521,
+        "completion_tokens": 12768,
+        "total_tokens": 66289
+      },
+      "qwen_completed_calls": 139,
+      "qwen_recognition_seconds": 391.4655970570748,
+      "tesseract_recognition_seconds": 1.0983590200194158,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T13:50:13.907780+00:00",
+        "finished_at": "2026-10-12T13:57:19.600923+00:00",
+        "elapsed_seconds": 425.69315332500264,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 139,
+          "tesseract_inferences": 5,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "successful_local_qwen_tokens": {
+        "prompt_tokens": 53101,
+        "completion_tokens": 12256,
+        "total_tokens": 65357
+      },
+      "failed_qwen_attempts": [
+        {
+          "region_id": "p82r21",
+          "response": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/failed-attempt-01/p82r21/inference.response.json",
+            "sha256": "35a9db07ec8da182bf913fcca30bcacff421c7268496b26f1f6b298d267aaa8c",
+            "bytes": 1712
+          },
+          "failure": {
+            "type": "ValueError",
+            "error": "Incomplete model response (length); raw response retained"
+          },
+          "usage": {
+            "completion_tokens": 512,
+            "prompt_tokens": 420,
+            "total_tokens": 932,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "server_compute_seconds": 15.645380999999999,
+          "client_wall_seconds": null,
+          "finish_reason": "length",
+          "fallback_engine": "tesseract"
+        }
+      ],
+      "qwen_failed_calls": 1,
+      "failed_qwen_server_compute_seconds": 15.645380999999999,
+      "failure_cost_limitation": "All failed model tokens included. Failed server prompt/generation time is separate from successful client recognition time; failed client wall duration unmeasured, not inferred."
     }
   ],
   "assemblies": [
@@ -3134,6 +3402,22 @@
             "sha256": "1909a13ca6bcef2520e7cae0d4580393b2d46d91997ac83892a24114c8ec3c08",
             "bytes": 215410
           }
+        },
+        {
+          "batch": "batch-13",
+          "source_pages": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-13/english-education/article.json",
+            "sha256": "d55bf091663fb562d335036272ec89944c543128942a523e7f5f574b38dfd269",
+            "bytes": 245513
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -3148,15 +3432,15 @@
         77,
         78,
         79,
-        80
-      ],
-      "deferred_pdf_pages": [
+        80,
         81,
         82,
         83,
         84,
         85,
-        86,
+        86
+      ],
+      "deferred_pdf_pages": [
         87
       ],
       "assembly_required": true
@@ -3555,7 +3839,7 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-13",
+    "batch": "batch-14",
     "toc_entry_id": "maso-1984-08-toc-0013",
     "article_extent_verified": true,
     "article_pdf_pages": [
@@ -3580,20 +3864,9 @@
       87
     ],
     "planned_source_pages": [
-      81,
-      82,
-      83,
-      84,
-      85,
-      86
+      87
     ],
     "remaining_source_pages": [
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
       87
     ],
     "covered_source_pages": [
@@ -3608,7 +3881,13 @@
       77,
       78,
       79,
-      80
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
     ],
     "immutable_extent": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/extent-inspection.json",
@@ -3630,34 +3909,41 @@
       "sha256": "13a836bfab16d631148a01e7596c1debb1214401fb1aff898d9ac952799ac52e",
       "bytes": 1007
     },
-    "action": "Source-correct selected81–86 drafts and independently count ink-bearing physical rows/printed labels for separate english-list1,list2,list3 groups. Preserve bitmap Hangul and original errors;source32 continues81/82,5020 continues83/84,130 continues84left/right. Export/validate/commit this native;then restore87 and assemble full69–87 from immutable natives. Production coverage remains69–80 until correction/export validation;all20 untouched bodies,six pilot selections,four headings and whole-issue closeout still remain. JSON/assets only;no reading-room rebuild.",
+    "action": "Restore source page87 from pinned full69–87 extent,within one mapped page. Preserve LIST3 ending6127–10040RETURN and historical errors/bitmap glyph uncertainty. Export/validate/commit native14;then assemble full69–87 from exact native11–14 pins,join74다음 문/75제로 and merge LIST1 and LIST3 indexes across segments. All20 untouched bodies,six pilot selections,four headings and wholeAugust JSON/assets closeout remain. No reading-room rebuild.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending",
-    "status": "raw-ocr-complete-source-correction-pending",
-    "raw_mapped_pages": [
-      81,
-      82,
-      83,
-      84,
-      85,
-      86
-    ],
-    "raw_audit": {
+    "status": "native81-86-validated-ending87-pending",
+    "third_native": {
+      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-13/english-education/article.json",
+      "sha256": "d55bf091663fb562d335036272ec89944c543128942a523e7f5f574b38dfd269",
+      "bytes": 245513
+    },
+    "third_native_validation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/validation.json",
+      "sha256": "7a68c78b1760345b2309e82624343b5eb317a807d3466ac5468cbfe9f4ed002d",
+      "bytes": 1048
+    },
+    "previous_native_raw_audit": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/raw-ocr-audit.json",
       "sha256": "bda16d7b8788720fe1de4f5d5d535c059e176f0f03fa3d92e88ac5957f5d9ea7",
       "bytes": 7633
     },
-    "map": {
+    "previous_native_map": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/map.json",
       "sha256": "748beba753c2d1b17cd1305e483961a5838c44711ac59ff012b9684c8a7c80c1",
       "bytes": 42732
     },
-    "preservation": {
+    "previous_native_preservation": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/raw-preservation.json",
       "sha256": "f37a272e6e781cbc8b4076daa6feec9b27017e3b3a1ebf5ae4063963ebb24106",
       "bytes": 220669
     },
-    "recognition_accounting": {
+    "previous_native_selected_drafts": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/raw-review.json",
+      "sha256": "61b48803379b867e72c3ddab8a98a697946a39a2600e4d30eff098b2a1506e47",
+      "bytes": 23327
+    },
+    "previous_native_recognition_accounting": {
       "qwen_attempts": 140,
       "qwen_successful": 139,
       "tesseract_calls": 5,
@@ -3671,11 +3957,6 @@
       "tesseract_seconds": 1.0983590200194158,
       "failed_server_compute_seconds": 15.645380999999999,
       "local_monetary_weight": 0
-    },
-    "raw_selected_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/raw-review.json",
-      "sha256": "61b48803379b867e72c3ddab8a98a697946a39a2600e4d30eff098b2a1506e47",
-      "bytes": 23327
     }
   }
 }

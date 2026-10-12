@@ -2819,3 +2819,15 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next:correct/export/validate81–86,then restore87 and assemble69–87. Preserve
  physical continuations32 across81/82,5020 across83/84 and130 across84 columns.
  Hidden control bytes,full proofreading and execution unverified;JSON/assets only.
+
+### August English education81–86 production segment complete, 2026-10-12
+
+- Corrected/exported144 selected drafts across81–86 of full69–87.144 regions retain144 ordered blocks,two listing titles and144 text review ranges;no figures.
+- Three groups preserve827 ink-bearing physical rows,493 printed labels and334 wraps:LIST1 ending88/59/29,complete LIST2 370/200/170 andLIST3 opening369/234/135. All37 final panels source-reviewed;projection bands were not substituted for physical row counts.
+- Source32 crosses81/82 with four parts,5020 crosses83/84 with four and130 crosses84 columns with two. Short0),3:,000,190 and2: fragments remain continuations,not fabricated labels. LIST3 ends this native at6126;87 begins6127.
+- Historical spellings,HTA/PRI/PRIN/GOT truncations,580,L-25,265GOTO250,620GOTO3820 and uncertain punctuation retained.118 source flags preserve bitmap reading aids and uncertain glyphs. Clearer LIST3 text does not replace faint independent LIST1 source readings.
+- No new recognition during correction/export.139 successful Q calls/five T calls plus one preserved capped Q attempt;66,289 local Q tokens include the failure. Local monetary weight zero;timings remain separate,noncausal diagnostics.
+- Source/crop/model request hashes,stop/fallback outcomes,exact regional character/UTF-8 ranges,independent physical/logical partitions and byte-identical rebuild pass. All1,739 sealed raw files,16 prior production packages and16,790 pilot files unchanged.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-13/english-education/`. Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-13/validation.json`. Human acceptance,full proofreading,encoded bytes and execution remain unverified.
+- Ten production articles complete,one partial English now69–86,20 untouched,six pilots pending selection,two headings classified/four remaining;zero human accepted. August incomplete.
+- Next:restore87 and validate the ending,then separately assemble full69–87 from immutable native11–14. Join74다음 문/75제로;merge LIST1/LIST3 program indexes. JSON/assets only;no reading-room rebuild.
