@@ -6537,14 +6537,14 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": "batch-22",
-    "status": "freefall-complete-z80-extent-inspection-next",
+    "status": "z80-116-127-source-verified-mapping-pending",
     "toc_entry_id": "maso-1984-08-toc-0018",
     "canonical_title": "기계어 강좌",
     "canonical_byline": "이세형",
     "canonical_first_page": 116,
     "actual_first_page": 116,
     "source_title": "Z80 기계어 강좌",
-    "article_extent_verified": false,
+    "article_extent_verified": true,
     "prior_freefall": {
       "package": {
         "path": "build/pdf-restoration/13-1984-08-adaptive-batch-21/freefall/article.json",
@@ -6604,8 +6604,135 @@
       "canonical_first_page": 128
     },
     "previous_goal_turn_classification": "progress:a4da0e0 mapped/reviewed/recognized/audited allfreefall113–115 raw evidence. This continuation executesoneboundeddiagramfallback,source-corrects all76drafts andvalidatescompletefullarticle.",
-    "action": "Commitcompletefreefall113–115,theninspect completeZ80articleextent andfollowingactualtitle beforemapping. Reuse unchanged116titleview;canonical128islookupaide,not sourceextentproof. Nextnativeboundedtomax6mappedpages/20outside-maplookups. Tclearprose,Qdenseassembly/code/formulas/structured/difficultreadings. Preserveindependentprograms,sourcecolumns/addresses/opcodes andphysicalrows,originalimages andliteralerrors/glyphuncertainties. WholeAugust JSON/assets remainsincomplete;no reading-room rebuild.",
-    "human_acceptance": "pending"
+    "action": "Prepare native22opening116–121ofverifiedfullZ80article116–127. Onearticle/sixmappedpages/sevenoutside-maplookups122–128. Complete13extentviewsactuallyinspectedbeforemapping;reuseunchanged116. Tclearprose/headings/captions;Qdifficultdiagonalserialheading,denseassembly/formulas/diagramlabels/structuredvalues. PreserveindependentSPC-1000LIST1/2/3andhex dumps,address/opcode/label/instructioncolumnswithblankfields,notBASICnumbering. Retainoriginalphotos,stack/flowdiagrams,conditiontableandexplicitcrosscolumn/pageproseboundaries. Native23ending122–127andfullassemblyremain;sourceword프로/그램crosses121/122nativeboundary. RevieweverycropbeforeOCR,preserveallraw/fallbackcosts/sourceerrors/uncertainties. WholeAugustJSON/assets incomplete;no reading-room rebuild.",
+    "human_acceptance": "pending",
+    "actual_article_pages": [
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "planned_source_pages": [
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "article_pdf_pages": [
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "remaining_source_pages": [
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "outside_map_lookup_pages": [
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
+    ],
+    "full_extent": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent-inspection.json",
+      "sha256": "c83b0c3406c04c5f663bc7acd75a514e10c83a7f24b9190bb7d0fe9f1809ed17",
+      "bytes": 7545
+    },
+    "pinned_source_views": [
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/extent/page-116.png",
+        "sha256": "ef436fc8e5f0957c66e58baafab149fd13c8748fe90539e3d5cee57c214a1336",
+        "bytes": 791438
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-117.png",
+        "sha256": "26d5a786c1c4fc1573429a99073a585198b3a2c1f7fbcb6d07fe592c582a319a",
+        "bytes": 824130
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-118.png",
+        "sha256": "b4f3b51564b151140184b340c81cb4013f6a8f8d6f82405ab310151521b5ff1c",
+        "bytes": 895978
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-119.png",
+        "sha256": "acda895a611430487c7b7705c951f70a88f8b15e2fe18187c1e894c534a539b3",
+        "bytes": 819599
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-120.png",
+        "sha256": "47d312581985119b653b07b66f5c94c5793a60496a06878e086d13673dbf522f",
+        "bytes": 717541
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-121.png",
+        "sha256": "9354523e251577cec085a9c5cf353179c0eca41436344090da00fd0c1bc882d0",
+        "bytes": 659583
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-122.png",
+        "sha256": "a967d3498e500df0b63ce9d44f4c77186431cf06eb8ab3fb95d9c42820d45f12",
+        "bytes": 745508
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-123.png",
+        "sha256": "4223a6be64d8a5f414894cf80b7281d0a59adf674ef9f18c11e91b55a4cd687b",
+        "bytes": 749482
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-124.png",
+        "sha256": "fab6c0cff347f0b5ca281298ac5d1fd44bac729d2d80b60358b13d99ec45077e",
+        "bytes": 793178
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-125.png",
+        "sha256": "ea002737c58f368c607ca67f487ceaf549e2b99ebe7038d933c70bdb311f3ade",
+        "bytes": 457108
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-126.png",
+        "sha256": "b98d9d9ec47297f84be17d1cae7c72b1c58abea453ce2b5f13a17a338f1ee1d8",
+        "bytes": 626687
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-127.png",
+        "sha256": "5048225f5bd263f07ddbf19d81093a58c1d1d6d7935a05823bac2c2b6b97a2ba",
+        "bytes": 549102
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/extent/page-128.png",
+        "sha256": "123225c6799fef3327fc54f307067ac3253e68dca33b2f2ab5be04f4d145fc04",
+        "bytes": 430484
+      }
+    ],
+    "prior_freefall_commit": "4c83500",
+    "full_assembly_required": true
   },
   "raw_preparation_checkpoints": [
     {
