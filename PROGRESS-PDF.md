@@ -11774,3 +11774,26 @@ history remains in [PROGRESS.md](PROGRESS.md).
   five heading classifications remaining. Whole August remains in progress.
 - Next:죽음의 스키37–38 production selection/source repairs from sealed pilot evidence.
   JSON/assets only;reading room not rebuilt. Unrelated web edit remains outside commits.
+
+## 2026-10-12 — August 죽음의 스키 production reuse complete
+
+- Selected existing Qwen pilot aug-02-A for dense MSX BASIC,then rechecked all26
+  source crops,full37–38 and boundary39. Repaired one source wording normalization:
+  수림→printed 수렵. Printed 올리면,SOUDN,Puah and loop-variable anomalies retained.
+- Separate production export has26 regions,23 text crops,three original images,
+  18 blocks,80 physical rows/68 numbered entries and11 source flags. Graphic title
+  and borders remain image-backed editorial placeholders,not literal runnable strings.
+  Both pilot arms and their residual-error comparison remain sealed and unchanged.
+- No new OCR or local tokens. Source/crop/request hashes,reused raw text/settings/
+  positions,all stop outcomes,text/review/flag ranges,exact physical/logical indexes
+  and independent byte-identical rebuild pass. Listing bytes unchanged from selected
+  pilot;22 other regional transcriptions identical.16,790 original pilot files intact.
+- Export:`build/pdf-restoration/13-1984-08-adaptive/death-ski/`.
+  Audit:`private/pdf-restoration/13-1984-08-adaptive/pilot-aug-02/validation.json`.
+  Copied bundle's missing full-page path caused a retained validator lookup failure;
+  audit now uses original separate source-pages files. No runtime code changes.
+- Three complete production articles,27 untouched,seven pilot bodies still pending
+  production selection,five heading classifications remaining. All eight pilot pairs
+  preserved. Human acceptance remains pending;whole August in progress.
+- Next:verify 이열치열39 against40–41,then restore prose and FC-100 BASIC separately.
+  No reading-room rebuild;unrelated web change remains outside commits.

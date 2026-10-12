@@ -15,14 +15,14 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 2,
-    "sealed-pilot-review-pending": 8,
+    "assistant-restored-human-pending": 3,
+    "sealed-pilot-review-pending": 7,
     "section-heading-no-body": 1,
     "unclassified-heading": 5,
     "untouched": 27
   },
-  "sealed_pilot_articles": 8,
-  "production_complete_articles": 2,
+  "sealed_pilot_articles": 7,
+  "production_complete_articles": 3,
   "production_partial_articles": 0,
   "untouched_articles": 27,
   "unclassified_heading_entries": 5,
@@ -960,6 +960,62 @@
       }
     }
   ],
+  "production_selections": [
+    {
+      "toc_entry_id": "maso-1984-08-toc-0004",
+      "title": "죽음의 스키",
+      "engine": "qwen",
+      "selected_pilot": "aug-02-A",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/death-ski/article.json",
+        "sha256": "7606d37722348b9a6002c3f9040f1d636e9299662a1168d580d98dcdfaf643bc",
+        "bytes": 46027
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/death-ski/manifest.json",
+        "sha256": "51bbbf15a54f334a9b0dfe1c0498bb8be3b787bd4521e4ea8e4d852371cedf5b",
+        "bytes": 17039
+      },
+      "source_pages": [
+        37,
+        38
+      ],
+      "regions": 26,
+      "text_regions": 23,
+      "figures": 3,
+      "ordered_blocks": 18,
+      "physical_listing_rows": 80,
+      "logical_listing_rows": 68,
+      "unresolved_entries": 11,
+      "complete_article": true,
+      "new_ocr_calls": 0,
+      "new_local_tokens": 0,
+      "checks": {
+        "status": "passed",
+        "regions": 26,
+        "text_regions": 23,
+        "figures": 3,
+        "ordered_blocks": 18,
+        "physical_listing_rows": 80,
+        "logical_listing_rows": 68,
+        "source_hash": true,
+        "crop_pixels": true,
+        "reused_raw_text_settings_positions_exact": true,
+        "reused_qwen_image_hashes_stop_outcomes": true,
+        "one_source_confirmed_region_change": true,
+        "listing_bytes_unchanged": true,
+        "physical_logical_partition": true,
+        "all_review_ranges": true,
+        "all_regional_characters_once": true,
+        "byte_identical_rebuild": true,
+        "preserved_pilot_files": 16790,
+        "new_ocr_calls": 0,
+        "human_acceptance": "pending"
+      },
+      "human_acceptance": "pending",
+      "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-02/selection-and-repairs.json"
+    }
+  ],
   "entries": [
     {
       "id": "maso-1984-08-toc-0001",
@@ -1253,9 +1309,74 @@
       "page": 37,
       "kind": "article",
       "articleIds": [],
-      "status": "sealed-pilot-review-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": "aug-02"
+      "pilot_pair": "aug-02",
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/death-ski/article.json",
+        "sha256": "7606d37722348b9a6002c3f9040f1d636e9299662a1168d580d98dcdfaf643bc",
+        "bytes": 46027
+      },
+      "deferred_pdf_pages": [],
+      "covered_pdf_pages": [
+        37,
+        38
+      ],
+      "production_selection": {
+        "toc_entry_id": "maso-1984-08-toc-0004",
+        "title": "죽음의 스키",
+        "engine": "qwen",
+        "selected_pilot": "aug-02-A",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/death-ski/article.json",
+          "sha256": "7606d37722348b9a6002c3f9040f1d636e9299662a1168d580d98dcdfaf643bc",
+          "bytes": 46027
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/death-ski/manifest.json",
+          "sha256": "51bbbf15a54f334a9b0dfe1c0498bb8be3b787bd4521e4ea8e4d852371cedf5b",
+          "bytes": 17039
+        },
+        "source_pages": [
+          37,
+          38
+        ],
+        "regions": 26,
+        "text_regions": 23,
+        "figures": 3,
+        "ordered_blocks": 18,
+        "physical_listing_rows": 80,
+        "logical_listing_rows": 68,
+        "unresolved_entries": 11,
+        "complete_article": true,
+        "new_ocr_calls": 0,
+        "new_local_tokens": 0,
+        "checks": {
+          "status": "passed",
+          "regions": 26,
+          "text_regions": 23,
+          "figures": 3,
+          "ordered_blocks": 18,
+          "physical_listing_rows": 80,
+          "logical_listing_rows": 68,
+          "source_hash": true,
+          "crop_pixels": true,
+          "reused_raw_text_settings_positions_exact": true,
+          "reused_qwen_image_hashes_stop_outcomes": true,
+          "one_source_confirmed_region_change": true,
+          "listing_bytes_unchanged": true,
+          "physical_logical_partition": true,
+          "all_review_ranges": true,
+          "all_regional_characters_once": true,
+          "byte_identical_rebuild": true,
+          "preserved_pilot_files": 16790,
+          "new_ocr_calls": 0,
+          "human_acceptance": "pending"
+        },
+        "human_acceptance": "pending",
+        "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-02/selection-and-repairs.json"
+      }
     },
     {
       "id": "maso-1984-08-toc-0005",
@@ -1768,12 +1889,12 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "toc_entry_id": "maso-1984-08-toc-0004",
+    "batch": "batch-05",
+    "toc_entry_id": "maso-1984-08-toc-0005",
     "source_pages": [
-      37,
-      38
+      39
     ],
-    "action": "Inspect sealed death-ski pilot source-fidelity evidence; select one production route and make source-linked residual repairs in a separately named export, preserving both pilots.",
+    "action": "Verify 이열치열39 extent against40–41; map clear prose and FC-100 BASIC listing, route regions separately using existing settings.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }

@@ -451,6 +451,60 @@
         "total_tokens": 78235,
         "uncached_nonwrite_input_tokens": 6678
       }
+    },
+    {
+      "id": "pilot-ski-selection",
+      "stage": "preparation",
+      "engine": "qwen",
+      "start": "2026-10-12T05:12:44.584988+00:00",
+      "end": "2026-10-12T05:14:43.326271+00:00",
+      "elapsed_seconds": 118.74128293991089,
+      "observed_responses": 6,
+      "tokens": {
+        "input_tokens": 606210,
+        "cached_input_tokens": 579456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2777,
+        "reasoning_output_tokens": 647,
+        "total_tokens": 608987,
+        "uncached_nonwrite_input_tokens": 26754
+      }
+    },
+    {
+      "id": "pilot-ski-export",
+      "stage": "export",
+      "engine": "qwen",
+      "start": "2026-10-12T05:14:44.344583+00:00",
+      "end": "2026-10-12T05:16:34.622067+00:00",
+      "elapsed_seconds": 110.27748394012451,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 455472,
+        "cached_input_tokens": 449408,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3043,
+        "reasoning_output_tokens": 333,
+        "total_tokens": 458515,
+        "uncached_nonwrite_input_tokens": 6064
+      }
+    },
+    {
+      "id": "reporting-ski",
+      "stage": "reporting",
+      "engine": "qwen",
+      "start": "2026-10-12T05:16:35.641874+00:00",
+      "end": "2026-10-12T05:17:08.505239+00:00",
+      "elapsed_seconds": 32.863364934921265,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 116583,
+        "cached_input_tokens": 115456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 870,
+        "reasoning_output_tokens": 148,
+        "total_tokens": 117453,
+        "uncached_nonwrite_input_tokens": 1127
+      }
     }
   ],
   "money_cost": null,
@@ -458,33 +512,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T05:12:17.853604+00:00",
-    "elapsed_seconds": 4071.853604078293,
-    "observed_responses": 111,
+    "end": "2026-10-12T05:17:08.505239+00:00",
+    "elapsed_seconds": 4362.505239009857,
+    "observed_responses": 124,
     "tokens": {
-      "input_tokens": 14357295,
-      "cached_input_tokens": 13773312,
+      "input_tokens": 15701197,
+      "cached_input_tokens": 15075456,
       "cache_write_input_tokens": 0,
-      "output_tokens": 99305,
-      "reasoning_output_tokens": 23158,
-      "total_tokens": 14456600,
-      "uncached_nonwrite_input_tokens": 583983
+      "output_tokens": 106582,
+      "reasoning_output_tokens": 24388,
+      "total_tokens": 15807779,
+      "uncached_nonwrite_input_tokens": 625741
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T05:12:17.853604+00:00",
-    "elapsed_seconds": 4071.853604078293,
-    "observed_responses": 4,
+    "end": "2026-10-12T05:17:08.505239+00:00",
+    "elapsed_seconds": 4362.505239009857,
+    "observed_responses": 6,
     "tokens": {
-      "input_tokens": 631289,
-      "cached_input_tokens": 623872,
+      "input_tokens": 796926,
+      "cached_input_tokens": 781696,
       "cache_write_input_tokens": 0,
-      "output_tokens": 4196,
-      "reasoning_output_tokens": 625,
-      "total_tokens": 635485,
-      "uncached_nonwrite_input_tokens": 7417
+      "output_tokens": 4783,
+      "reasoning_output_tokens": 727,
+      "total_tokens": 801709,
+      "uncached_nonwrite_input_tokens": 15230
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
