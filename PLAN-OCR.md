@@ -2722,3 +2722,32 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next:reuse verified extent/views and map75–80 within six-page limit. Preserve
  prose ending/screens and LIST1 opening;81–87 follow in later natives. Outgoing
  74다음 문 fragment awaits source-confirmed75 join. JSON/assets only.
+
+### August English education75–80 raw preparation complete, 2026-10-12
+
+- Full69–87 extent reused from the pinned opening;75–81 full views reinspected.
+ Six mapped75–80 pages and one outside-map lookup81. Prose ends76;LIST1 ends81,
+ LIST2/3 continue81–87. Full69–87 assembly remains required.
+- All32 original panels/six overlays and five original figures reviewed. No crop
+ geometry repairs or probe. Screen13 has no visible printed caption;source prose
+ identifies it without inventing caption text. Original map/crops retained.
+- 123 text regions:28 initial Tesseract prose/headings/captions and95 Qwen code
+ attempts. 93Q/30T final drafts;2 capped Qwen attempts preserved with
+ same-crop bounded Tesseract fallbacks,zero successful-crop repeats/cache reuse.
+ Q46,329 local tokens includes failures;successful recognition
+ 225.609s,failed server compute
+ 26.079s andT4.998s remain separate diagnostics.
+ Local monetary weight zero;failed client wall duration remains unmeasured.
+- Both capped generations looped on repeated bitmap divider glyphs. Later
+ same-pattern crops should use the documented repeated-glyph Tesseract exception,
+ retaining source images and correction-stage counts;no general cost winner inferred.
+- Source/crop/map/request hashes,raw bundles,runtime pins,stop/fallback outcomes
+ and continuous column coverage pass. 15 prior production packages and16,790
+ sealed pilot files unchanged.542 projected ink bands are segmentation evidence,
+ not a verified physical listing-row count;independent source count is pending.
+- Raw audit:`private/pdf-restoration/13-1984-08-adaptive/batch-12/raw-ocr-audit.json`.
+ No production export yet. Totals remain ten complete,one partial,20 untouched,
+ six pilots pending selection,two headings classified/four remaining;zero human
+ accepted. Human proofreading,source bytes and historical execution unverified.
+- Next:correct75–80 prose and LIST1 physical rows,export/validate/commit the middle.
+ Then restore81–87 and assemble all69–87. August incomplete;JSON/assets only.

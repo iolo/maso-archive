@@ -3201,8 +3201,63 @@
       "sha256": "e1143ffa775f1d4c861ca9472b47f355a8800b55f04def34f4ff20d9ed4279e2",
       "bytes": 162399
     },
-    "action": "Reuse source-verified English69–87 extent and inspect preserved75–80 full views at mapping resolution. Restore bounded75–80 middle with prose/screens through76 and LIST1 opening76–80,retaining physical rows,bitmap Hangul and invisible controls. LIST1 ending81,LIST2 81–84 andLIST3 84–87 remain for later natives;full69–87 immutable assembly required. Preserve outgoing74다음 문 /75boundary until source-confirmed join. Do not remap/reinfer successful69–74 crops.",
+    "action": "Source-correct mixed drafts75–80 against all source crops before exporting a middle segment. Count physical LIST1 rows and printed statement labels independently;preserve bitmap Hangul,hidden controls,wrapped statements and repeated decoration uncertainties. Preserve both failed Qwen attempts and same-crop fallbacks. No raw draft is production coverage. Remaining81–87 natives and full69–87 assembly still required;join74다음 문/75제로 and75원하/76는 only with source-confirmed partitions. Reuse successful raw evidence without new OCR.",
     "reading_room_rebuild": false,
-    "human_acceptance": "pending"
+    "human_acceptance": "pending",
+    "status": "raw-ocr-complete-source-correction-pending",
+    "routing_observation": "Both capped generations looped on repeated bitmap divider glyphs. For later same-pattern crops apply the documented repeated-glyph Tesseract exception,while preserving source images and counting glyphs during correction. This observation does not establish a general code/prose cost winner.",
+    "raw_middle": {
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/map.json",
+        "sha256": "55d9c1dc30767bf4b57de854f93d52590d4bdac56a424ac5fdd452d46a970964",
+        "bytes": 37829
+      },
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/raw-ocr-audit.json",
+        "sha256": "31e14bb27ee18f062afe81f48a69cb8816f72c690ae3cfb531757a9319d67fa3",
+        "bytes": 7636
+      },
+      "evidence_inventory": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/raw-preservation.json",
+        "sha256": "d3d1509459cd69ba80df9c579db056f91ce23b054df6dd31eff048cfcb9800fe",
+        "bytes": 172955
+      },
+      "mapped_pages": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "raw_text_regions": 123,
+      "figures": 5,
+      "qwen_calls": 95,
+      "successful_qwen_calls": 93,
+      "tesseract_calls": 30,
+      "failed_calls": 2,
+      "bounded_fallbacks": 2,
+      "local_qwen_tokens": {
+        "prompt_tokens": 36926,
+        "completion_tokens": 9403,
+        "total_tokens": 46329
+      },
+      "local_qwen_successful_tokens": {
+        "prompt_tokens": 36196,
+        "completion_tokens": 8379,
+        "total_tokens": 44575
+      },
+      "local_qwen_failed_tokens": {
+        "prompt_tokens": 730,
+        "completion_tokens": 1024,
+        "total_tokens": 1754
+      },
+      "qwen_successful_recognition_seconds": 225.6088838160358,
+      "tesseract_recognition_seconds": 4.998218230961356,
+      "failed_qwen_server_compute_seconds": 26.07945,
+      "count_limitation": "pending independent source correction count",
+      "source_correction": "pending",
+      "export": "not-created"
+    }
   }
 }
