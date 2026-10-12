@@ -1,0 +1,1284 @@
+{
+  "schema_version": 1,
+  "status": "paired-pilot-complete-human-review-pending",
+  "issue_id": "maso-1984-08",
+  "articles": [
+    {
+      "pair_id": "aug-01",
+      "title": "편집자 노트",
+      "category": "clean-prose",
+      "pages": 1,
+      "first_engine": "tesseract",
+      "correction_tokens": {
+        "tesseract": {
+          "uncached_input": 36080,
+          "cached_input": 346240,
+          "cache_write_input": 0,
+          "output": 4513
+        },
+        "qwen": {
+          "uncached_input": 32005,
+          "cached_input": 390656,
+          "cache_write_input": 0,
+          "output": 4228
+        }
+      },
+      "qwen_minus_tesseract": {
+        "uncached_input": -4075,
+        "cached_input": 44416,
+        "cache_write_input": 0,
+        "output": -285
+      },
+      "correction_worker_seconds": {
+        "tesseract": 129.94898104667664,
+        "qwen": 125.68969297409058
+      },
+      "raw_worker_seconds": {
+        "tesseract": 6.852829847004614,
+        "qwen": 22.90174623900384
+      },
+      "raw_recognition_seconds": {
+        "tesseract": 3.3384597059775842,
+        "qwen": 15.211561149990303
+      },
+      "raw_failed_regions": {
+        "tesseract": [],
+        "qwen": []
+      },
+      "quality": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-01/quality-review.json",
+        "sha256": "ea01f8c6f4bbee7a332ddb2e1996470e1c7f20ed403e21159a7fe2f226beb9a8",
+        "bytes": 2074
+      },
+      "quality_checked_regions": 7,
+      "confirmed_wording_number_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 0
+      },
+      "confirmed_punctuation_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 0
+      },
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-02",
+      "title": "죽음의 스키",
+      "category": "short-basic-with-graphics",
+      "pages": 2,
+      "first_engine": "qwen",
+      "correction_tokens": {
+        "qwen": {
+          "uncached_input": 64062,
+          "cached_input": 693504,
+          "cache_write_input": 0,
+          "output": 7538
+        },
+        "tesseract": {
+          "uncached_input": 48875,
+          "cached_input": 750336,
+          "cache_write_input": 0,
+          "output": 8177
+        }
+      },
+      "qwen_minus_tesseract": {
+        "uncached_input": 15187,
+        "cached_input": -56832,
+        "cache_write_input": 0,
+        "output": -639
+      },
+      "correction_worker_seconds": {
+        "qwen": 243.7235357761383,
+        "tesseract": 243.90733909606934
+      },
+      "raw_worker_seconds": {
+        "qwen": 43.27362416300457,
+        "tesseract": 8.248499100998743
+      },
+      "raw_recognition_seconds": {
+        "qwen": 35.27588203003688,
+        "tesseract": 4.739834718959173
+      },
+      "raw_failed_regions": {
+        "qwen": [],
+        "tesseract": []
+      },
+      "quality": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/quality-review.json",
+        "sha256": "7a72c7d510bff4d62bad57cf756e5bb6362b237775fef964682ebef32dbdcbbf",
+        "bytes": 3111
+      },
+      "quality_checked_regions": 9,
+      "confirmed_wording_number_errors_in_checked_regions": {
+        "qwen": 1,
+        "tesseract": 1
+      },
+      "confirmed_punctuation_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 0
+      },
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-03",
+      "title": "공모총평",
+      "category": "prose-with-small-table",
+      "pages": 1,
+      "first_engine": "qwen",
+      "correction_tokens": {
+        "qwen": {
+          "uncached_input": 34322,
+          "cached_input": 461952,
+          "cache_write_input": 0,
+          "output": 6532
+        },
+        "tesseract": {
+          "uncached_input": 33297,
+          "cached_input": 492928,
+          "cache_write_input": 0,
+          "output": 4785
+        }
+      },
+      "qwen_minus_tesseract": {
+        "uncached_input": 1025,
+        "cached_input": -30976,
+        "cache_write_input": 0,
+        "output": 1747
+      },
+      "correction_worker_seconds": {
+        "qwen": 197.0591118335724,
+        "tesseract": 147.7779049873352
+      },
+      "raw_worker_seconds": {
+        "qwen": 26.131531952007208,
+        "tesseract": 7.588023902004352
+      },
+      "raw_recognition_seconds": {
+        "qwen": 19.042679296981078,
+        "tesseract": 4.1049732790124835
+      },
+      "raw_failed_regions": {
+        "qwen": [],
+        "tesseract": []
+      },
+      "quality": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-03/quality-review.json",
+        "sha256": "3a4acc2cebe0ef2913f544cb9f2c862f4ad4a267633da900d884b8c877f0b9e9",
+        "bytes": 2926
+      },
+      "quality_checked_regions": 8,
+      "confirmed_wording_number_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 1
+      },
+      "confirmed_punctuation_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 0
+      },
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-04",
+      "title": "기초 테크닉 코너",
+      "category": "mixed-basic-and-flowcharts",
+      "pages": 4,
+      "first_engine": "qwen",
+      "correction_tokens": {
+        "qwen": {
+          "uncached_input": 103249,
+          "cached_input": 1194240,
+          "cache_write_input": 0,
+          "output": 8614
+        },
+        "tesseract": {
+          "uncached_input": 78521,
+          "cached_input": 1546496,
+          "cache_write_input": 0,
+          "output": 11931
+        }
+      },
+      "qwen_minus_tesseract": {
+        "uncached_input": 24728,
+        "cached_input": -352256,
+        "cache_write_input": 0,
+        "output": -3317
+      },
+      "correction_worker_seconds": {
+        "qwen": 379.97979402542114,
+        "tesseract": 386.270898103714
+      },
+      "raw_worker_seconds": {
+        "qwen": 59.93283623000025,
+        "tesseract": 14.46490594399802
+      },
+      "raw_recognition_seconds": {
+        "qwen": 51.50873151597625,
+        "tesseract": 10.965414760052226
+      },
+      "raw_failed_regions": {
+        "qwen": [],
+        "tesseract": []
+      },
+      "quality": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-04/quality-review.json",
+        "sha256": "c06389ebafa8b52e80be960230a1dcf1c9c004bc90b057b7fc191919e569568c",
+        "bytes": 3335
+      },
+      "quality_checked_regions": 20,
+      "confirmed_wording_number_errors_in_checked_regions": {
+        "qwen": 1,
+        "tesseract": 1
+      },
+      "confirmed_punctuation_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 0
+      },
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-05",
+      "title": "VISICALC 활용",
+      "category": "formulas-tables-and-screens",
+      "pages": 5,
+      "first_engine": "qwen",
+      "correction_tokens": {
+        "qwen": {
+          "uncached_input": 113749,
+          "cached_input": 882048,
+          "cache_write_input": 0,
+          "output": 10183
+        },
+        "tesseract": {
+          "uncached_input": 101602,
+          "cached_input": 994048,
+          "cache_write_input": 0,
+          "output": 10666
+        }
+      },
+      "qwen_minus_tesseract": {
+        "uncached_input": 12147,
+        "cached_input": -112000,
+        "cache_write_input": 0,
+        "output": -483
+      },
+      "correction_worker_seconds": {
+        "qwen": 404.0370771884918,
+        "tesseract": 300.4571330547333
+      },
+      "raw_worker_seconds": {
+        "qwen": 94.13860699400539,
+        "tesseract": 19.42624554199574
+      },
+      "raw_recognition_seconds": {
+        "qwen": 85.4766739030747,
+        "tesseract": 15.886933934991248
+      },
+      "raw_failed_regions": {
+        "qwen": [
+          "p182r21"
+        ],
+        "tesseract": []
+      },
+      "quality": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-05-v2/quality-review.json",
+        "sha256": "b6888b38a487cf4eadf9dac69f63b55b20296d4f4a848b0e253321410f640e74",
+        "bytes": 7420
+      },
+      "quality_checked_regions": 52,
+      "confirmed_wording_number_errors_in_checked_regions": {
+        "qwen": 8,
+        "tesseract": 0
+      },
+      "confirmed_punctuation_errors_in_checked_regions": {
+        "qwen": 1,
+        "tesseract": 0
+      },
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-06",
+      "title": "PIA 시리즈2 미니네온사인의 제작",
+      "category": "hardware-diagrams-and-registers",
+      "pages": 4,
+      "first_engine": "tesseract",
+      "correction_tokens": {
+        "tesseract": {
+          "uncached_input": 67797,
+          "cached_input": 753280,
+          "cache_write_input": 0,
+          "output": 8948
+        },
+        "qwen": {
+          "uncached_input": 73471,
+          "cached_input": 739072,
+          "cache_write_input": 0,
+          "output": 8513
+        }
+      },
+      "qwen_minus_tesseract": {
+        "uncached_input": 5674,
+        "cached_input": -14208,
+        "cache_write_input": 0,
+        "output": -435
+      },
+      "correction_worker_seconds": {
+        "tesseract": 248.01146006584167,
+        "qwen": 241.6444571018219
+      },
+      "raw_worker_seconds": {
+        "tesseract": 12.43428179298644,
+        "qwen": 50.99509267498797
+      },
+      "raw_recognition_seconds": {
+        "tesseract": 8.945051146030892,
+        "qwen": 42.94690403097775
+      },
+      "raw_failed_regions": {
+        "tesseract": [],
+        "qwen": []
+      },
+      "quality": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-06/quality-review.json",
+        "sha256": "20b8b946589c7ede280d8da05df31996da67adc576714a3b34a54c3a7a6c2d7e",
+        "bytes": 3843
+      },
+      "quality_checked_regions": 21,
+      "confirmed_wording_number_errors_in_checked_regions": {
+        "qwen": 1,
+        "tesseract": 0
+      },
+      "confirmed_punctuation_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 0
+      },
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-07",
+      "title": "베이직 코맨드 에디터",
+      "category": "longer-basic-assembly-and-hex",
+      "pages": 7,
+      "first_engine": "tesseract",
+      "correction_tokens": {
+        "tesseract": {
+          "uncached_input": 127514,
+          "cached_input": 2528896,
+          "cache_write_input": 0,
+          "output": 19640
+        },
+        "qwen": {
+          "uncached_input": 220265,
+          "cached_input": 1897728,
+          "cache_write_input": 0,
+          "output": 15403
+        }
+      },
+      "qwen_minus_tesseract": {
+        "uncached_input": 92751,
+        "cached_input": -631168,
+        "cache_write_input": 0,
+        "output": -4237
+      },
+      "correction_worker_seconds": {
+        "tesseract": 561.0305860042572,
+        "qwen": 533.7248530387878
+      },
+      "raw_worker_seconds": {
+        "tesseract": 27.042743600002723,
+        "qwen": 129.53102259800653
+      },
+      "raw_recognition_seconds": {
+        "tesseract": 23.344848945896956,
+        "qwen": 118.99539220503357
+      },
+      "raw_failed_regions": {
+        "tesseract": [],
+        "qwen": []
+      },
+      "quality": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/quality-review.json",
+        "sha256": "d58007e314d82468d900966ac1af9f81cecf169d0c7632673d1d6452f0c4e22a",
+        "bytes": 8646
+      },
+      "quality_checked_regions": 81,
+      "confirmed_wording_number_errors_in_checked_regions": {
+        "qwen": 2,
+        "tesseract": 4
+      },
+      "confirmed_punctuation_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 2
+      },
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-08",
+      "title": "Q&A",
+      "category": "mixed-technical-qa",
+      "pages": 4,
+      "first_engine": "tesseract",
+      "correction_tokens": {
+        "tesseract": {
+          "uncached_input": 94089,
+          "cached_input": 1124352,
+          "cache_write_input": 0,
+          "output": 12619
+        },
+        "qwen": {
+          "uncached_input": 89871,
+          "cached_input": 1098368,
+          "cache_write_input": 0,
+          "output": 11303
+        }
+      },
+      "qwen_minus_tesseract": {
+        "uncached_input": -4218,
+        "cached_input": -25984,
+        "cache_write_input": 0,
+        "output": -1316
+      },
+      "correction_worker_seconds": {
+        "tesseract": 375.941232919693,
+        "qwen": 333.6589970588684
+      },
+      "raw_worker_seconds": {
+        "tesseract": 19.356454503998975,
+        "qwen": 75.86647570499917
+      },
+      "raw_recognition_seconds": {
+        "tesseract": 15.791721886038431,
+        "qwen": 66.6620269370469
+      },
+      "raw_failed_regions": {
+        "tesseract": [],
+        "qwen": []
+      },
+      "quality": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-08/quality-review.json",
+        "sha256": "ee4c36d0f4d9390a68928fae6944eaf29ec2434978d9bb3ed98f711a5abd0025",
+        "bytes": 8952
+      },
+      "quality_checked_regions": 46,
+      "confirmed_wording_number_errors_in_checked_regions": {
+        "qwen": 10,
+        "tesseract": 3
+      },
+      "confirmed_punctuation_errors_in_checked_regions": {
+        "qwen": 0,
+        "tesseract": 2
+      },
+      "human_acceptance": "pending"
+    }
+  ],
+  "completed_paired_articles": 8,
+  "correction_totals": {
+    "qwen": {
+      "uncached_input": 730994,
+      "cached_input": 7357568,
+      "cache_write_input": 0,
+      "output": 72314
+    },
+    "tesseract": {
+      "uncached_input": 587775,
+      "cached_input": 8536576,
+      "cache_write_input": 0,
+      "output": 81279
+    }
+  },
+  "total_qwen_minus_tesseract": {
+    "uncached_input": 143219,
+    "cached_input": -1179008,
+    "cache_write_input": 0,
+    "output": -8965
+  },
+  "recovery_correction_tokens": {
+    "qwen": {
+      "uncached_input": 47297,
+      "cached_input": 301056,
+      "cache_write_input": 0,
+      "output": 1686
+    },
+    "tesseract": {
+      "uncached_input": 0,
+      "cached_input": 0,
+      "cache_write_input": 0,
+      "output": 0
+    }
+  },
+  "shared_coordinator_tokens": {
+    "uncached_input": 758031,
+    "cached_input": 36371328,
+    "cache_write_input": 0,
+    "output": 187664
+  },
+  "observed_experiment_tokens": {
+    "uncached_input": 2124097,
+    "cached_input": 52566528,
+    "cache_write_input": 0,
+    "output": 342943
+  },
+  "observed_experiment_usage_cutoff": "2026-10-12T03:34:25.927848+00:00",
+  "observed_experiment_accounting": "Sum coordinator + 16 sealed corrections + one aborted correction. Setup audit is nested in coordinator, not additive. Local Qwen tokens excluded. No missing/unstarted case treated as zero completed restoration. Final commit/report tail after explicit coordinator cutoff excluded.",
+  "price_scenarios": [
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 0,
+        "cache_write_input": null,
+        "output": 1
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 803308,
+      "total_tesseract": 669054,
+      "qwen_to_tesseract": 1.200662427845884,
+      "qwen_minus_tesseract": 134254,
+      "median_paired_difference": 8451.5,
+      "median_paired_ratio": 1.088342273832379,
+      "qwen_cheaper_pairs": 2,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 36233,
+          "tesseract": 40593,
+          "qwen_minus_tesseract": -4360,
+          "qwen_to_tesseract": 0.8925923188727121
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 71600,
+          "tesseract": 57052,
+          "qwen_minus_tesseract": 14548,
+          "qwen_to_tesseract": 1.254995442753979
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 40854,
+          "tesseract": 38082,
+          "qwen_minus_tesseract": 2772,
+          "qwen_to_tesseract": 1.072790294627383
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 111863,
+          "tesseract": 90452,
+          "qwen_minus_tesseract": 21411,
+          "qwen_to_tesseract": 1.2367111838323088
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 123932,
+          "tesseract": 112268,
+          "qwen_minus_tesseract": 11664,
+          "qwen_to_tesseract": 1.1038942530373748
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 81984,
+          "tesseract": 76745,
+          "qwen_minus_tesseract": 5239,
+          "qwen_to_tesseract": 1.0682650335526744
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 235668,
+          "tesseract": 147154,
+          "qwen_minus_tesseract": 88514,
+          "qwen_to_tesseract": 1.6015059053780394
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 101174,
+          "tesseract": 106708,
+          "qwen_minus_tesseract": -5534,
+          "qwen_to_tesseract": 0.9481388461970987
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 852291,
+        "tesseract": 669054
+      }
+    },
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 0,
+        "cache_write_input": null,
+        "output": 4
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 1020250,
+      "total_tesseract": 912891,
+      "qwen_to_tesseract": 1.1176033064188386,
+      "qwen_minus_tesseract": 107359,
+      "median_paired_difference": 9114.0,
+      "median_paired_ratio": 1.080791288297071,
+      "qwen_cheaper_pairs": 2,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 48917,
+          "tesseract": 54132,
+          "qwen_minus_tesseract": -5215,
+          "qwen_to_tesseract": 0.9036614202320254
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 94214,
+          "tesseract": 81583,
+          "qwen_minus_tesseract": 12631,
+          "qwen_to_tesseract": 1.1548239216503438
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 60450,
+          "tesseract": 52437,
+          "qwen_minus_tesseract": 8013,
+          "qwen_to_tesseract": 1.1528119457634876
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 137705,
+          "tesseract": 126245,
+          "qwen_minus_tesseract": 11460,
+          "qwen_to_tesseract": 1.0907758723117746
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 154481,
+          "tesseract": 144266,
+          "qwen_minus_tesseract": 10215,
+          "qwen_to_tesseract": 1.0708067042823672
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 107523,
+          "tesseract": 103589,
+          "qwen_minus_tesseract": 3934,
+          "qwen_to_tesseract": 1.0379770052804835
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 281877,
+          "tesseract": 206074,
+          "qwen_minus_tesseract": 75803,
+          "qwen_to_tesseract": 1.3678435901666393
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 135083,
+          "tesseract": 144565,
+          "qwen_minus_tesseract": -9482,
+          "qwen_to_tesseract": 0.9344101269325217
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 1074291,
+        "tesseract": 912891
+      }
+    },
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 0,
+        "cache_write_input": null,
+        "output": 8
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 1309506,
+      "total_tesseract": 1238007,
+      "qwen_to_tesseract": 1.0577533083415522,
+      "qwen_minus_tesseract": 71499,
+      "median_paired_difference": 5238.5,
+      "median_paired_ratio": 1.0300258654685417,
+      "qwen_cheaper_pairs": 3,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 65829,
+          "tesseract": 72184,
+          "qwen_minus_tesseract": -6355,
+          "qwen_to_tesseract": 0.9119610994126122
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 124366,
+          "tesseract": 114291,
+          "qwen_minus_tesseract": 10075,
+          "qwen_to_tesseract": 1.0881521729620005
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 86578,
+          "tesseract": 71577,
+          "qwen_minus_tesseract": 15001,
+          "qwen_to_tesseract": 1.2095784958855498
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 172161,
+          "tesseract": 173969,
+          "qwen_minus_tesseract": -1808,
+          "qwen_to_tesseract": 0.9896073438371205
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 195213,
+          "tesseract": 186930,
+          "qwen_minus_tesseract": 8283,
+          "qwen_to_tesseract": 1.0443107045418072
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 141575,
+          "tesseract": 139381,
+          "qwen_minus_tesseract": 2194,
+          "qwen_to_tesseract": 1.0157410263952762
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 343489,
+          "tesseract": 284634,
+          "qwen_minus_tesseract": 58855,
+          "qwen_to_tesseract": 1.2067743136800242
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 180295,
+          "tesseract": 195041,
+          "qwen_minus_tesseract": -14746,
+          "qwen_to_tesseract": 0.9243953835347439
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 1370291,
+        "tesseract": 1238007
+      }
+    },
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 0.1,
+        "cache_write_input": null,
+        "output": 1
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 1539064.8,
+      "total_tesseract": 1522711.6,
+      "qwen_to_tesseract": 1.0107395254623397,
+      "qwen_minus_tesseract": 16353.199999999953,
+      "median_paired_difference": 272.8000000000029,
+      "median_paired_ratio": 1.0016384618006686,
+      "qwen_cheaper_pairs": 3,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 75298.6,
+          "tesseract": 75217.0,
+          "qwen_minus_tesseract": 81.60000000000582,
+          "qwen_to_tesseract": 1.0010848611351157
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 140950.40000000002,
+          "tesseract": 132085.6,
+          "qwen_minus_tesseract": 8864.800000000017,
+          "qwen_to_tesseract": 1.0671140533108834
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 87049.20000000001,
+          "tesseract": 87374.8,
+          "qwen_minus_tesseract": -325.59999999999127,
+          "qwen_to_tesseract": 0.9962735250896141
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 231287.0,
+          "tesseract": 245101.6,
+          "qwen_minus_tesseract": -13814.600000000006,
+          "qwen_to_tesseract": 0.9436372508380197
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 212136.8,
+          "tesseract": 211672.8,
+          "qwen_minus_tesseract": 464.0,
+          "qwen_to_tesseract": 1.0021920624662215
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 155891.2,
+          "tesseract": 152073.0,
+          "qwen_minus_tesseract": 3818.2000000000116,
+          "qwen_to_tesseract": 1.025107678549118
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 425440.80000000005,
+          "tesseract": 400043.6,
+          "qwen_minus_tesseract": 25397.20000000007,
+          "qwen_to_tesseract": 1.0634860800172783
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 211010.8,
+          "tesseract": 219143.2,
+          "qwen_minus_tesseract": -8132.400000000023,
+          "qwen_to_tesseract": 0.9628900189465153
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 1618153.4000000001,
+        "tesseract": 1522711.6
+      }
+    },
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 0.1,
+        "cache_write_input": null,
+        "output": 4
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 1756006.8,
+      "total_tesseract": 1766548.6,
+      "qwen_to_tesseract": 0.9940325445900554,
+      "qwen_minus_tesseract": -10541.800000000047,
+      "median_paired_difference": 869.9000000000087,
+      "median_paired_ratio": 1.0050021988323754,
+      "qwen_cheaper_pairs": 4,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 87982.6,
+          "tesseract": 88756.0,
+          "qwen_minus_tesseract": -773.3999999999942,
+          "qwen_to_tesseract": 0.9912862229032404
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 163564.40000000002,
+          "tesseract": 156616.6,
+          "qwen_minus_tesseract": 6947.8000000000175,
+          "qwen_to_tesseract": 1.044361836484766
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 106645.20000000001,
+          "tesseract": 101729.8,
+          "qwen_minus_tesseract": 4915.400000000009,
+          "qwen_to_tesseract": 1.048318191916233
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 257129.0,
+          "tesseract": 280894.6,
+          "qwen_minus_tesseract": -23765.599999999977,
+          "qwen_to_tesseract": 0.9153931759457107
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 242685.8,
+          "tesseract": 243670.8,
+          "qwen_minus_tesseract": -985.0,
+          "qwen_to_tesseract": 0.9959576609097192
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 181430.2,
+          "tesseract": 178917.0,
+          "qwen_minus_tesseract": 2513.2000000000116,
+          "qwen_to_tesseract": 1.0140467367550317
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 471649.80000000005,
+          "tesseract": 458963.6,
+          "qwen_minus_tesseract": 12686.20000000007,
+          "qwen_to_tesseract": 1.0276409719637898
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 244919.8,
+          "tesseract": 257000.2,
+          "qwen_minus_tesseract": -12080.400000000023,
+          "qwen_to_tesseract": 0.952994589109269
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 1840153.4000000001,
+        "tesseract": 1766548.6
+      }
+    },
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 0.1,
+        "cache_write_input": null,
+        "output": 8
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 2045262.8,
+      "total_tesseract": 2091664.6,
+      "qwen_to_tesseract": 0.9778158505909599,
+      "qwen_minus_tesseract": -46401.80000000005,
+      "median_paired_difference": -2415.199999999997,
+      "median_paired_ratio": 0.9909420214143326,
+      "qwen_cheaper_pairs": 5,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 104894.6,
+          "tesseract": 106808.0,
+          "qwen_minus_tesseract": -1913.3999999999942,
+          "qwen_to_tesseract": 0.9820856115646769
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 193716.40000000002,
+          "tesseract": 189324.6,
+          "qwen_minus_tesseract": 4391.8000000000175,
+          "qwen_to_tesseract": 1.0231971967721047
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 132773.2,
+          "tesseract": 120869.8,
+          "qwen_minus_tesseract": 11903.400000000009,
+          "qwen_to_tesseract": 1.098481175612105
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 291585.0,
+          "tesseract": 328618.6,
+          "qwen_minus_tesseract": -37033.59999999998,
+          "qwen_to_tesseract": 0.8873052225284875
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 283417.8,
+          "tesseract": 286334.8,
+          "qwen_minus_tesseract": -2917.0,
+          "qwen_to_tesseract": 0.9898126249411529
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 215482.2,
+          "tesseract": 214709.0,
+          "qwen_minus_tesseract": 773.2000000000116,
+          "qwen_to_tesseract": 1.0036011531887346
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 533261.8,
+          "tesseract": 537523.6,
+          "qwen_minus_tesseract": -4261.79999999993,
+          "qwen_to_tesseract": 0.9920714178875124
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 290131.8,
+          "tesseract": 307476.2,
+          "qwen_minus_tesseract": -17344.400000000023,
+          "qwen_to_tesseract": 0.9435910811958779
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 2136153.4,
+        "tesseract": 2091664.6
+      }
+    },
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 1,
+        "cache_write_input": null,
+        "output": 1
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 8160876,
+      "total_tesseract": 9205630,
+      "qwen_to_tesseract": 0.8865092340230923,
+      "qwen_minus_tesseract": -1044754,
+      "median_paired_difference": -36901.0,
+      "median_paired_ratio": 0.947257386047236,
+      "qwen_cheaper_pairs": 7,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 426889,
+          "tesseract": 386833,
+          "qwen_minus_tesseract": 40056,
+          "qwen_to_tesseract": 1.1035485597143988
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 765104,
+          "tesseract": 807388,
+          "qwen_minus_tesseract": -42284,
+          "qwen_to_tesseract": 0.9476286494225824
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 502806,
+          "tesseract": 531010,
+          "qwen_minus_tesseract": -28204,
+          "qwen_to_tesseract": 0.9468861226718894
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 1306103,
+          "tesseract": 1636948,
+          "qwen_minus_tesseract": -330845,
+          "qwen_to_tesseract": 0.7978891204851957
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 1005980,
+          "tesseract": 1106316,
+          "qwen_minus_tesseract": -100336,
+          "qwen_to_tesseract": 0.9093062018446809
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 821056,
+          "tesseract": 830025,
+          "qwen_minus_tesseract": -8969,
+          "qwen_to_tesseract": 0.9891943013764646
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 2133396,
+          "tesseract": 2676050,
+          "qwen_minus_tesseract": -542654,
+          "qwen_to_tesseract": 0.7972182881485772
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 1199542,
+          "tesseract": 1231060,
+          "qwen_minus_tesseract": -31518,
+          "qwen_to_tesseract": 0.9743976735496239
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 8510915,
+        "tesseract": 9205630
+      }
+    },
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 1,
+        "cache_write_input": null,
+        "output": 4
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 8377818,
+      "total_tesseract": 9449467,
+      "qwen_to_tesseract": 0.8865915929438136,
+      "qwen_minus_tesseract": -1071649,
+      "median_paired_difference": -39833.5,
+      "median_paired_ratio": 0.9523814398689152,
+      "qwen_cheaper_pairs": 7,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 439573,
+          "tesseract": 400372,
+          "qwen_minus_tesseract": 39201,
+          "qwen_to_tesseract": 1.0979114423586065
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 787718,
+          "tesseract": 831919,
+          "qwen_minus_tesseract": -44201,
+          "qwen_to_tesseract": 0.9468686254310816
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 522402,
+          "tesseract": 545365,
+          "qwen_minus_tesseract": -22963,
+          "qwen_to_tesseract": 0.9578942543067487
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 1331945,
+          "tesseract": 1672741,
+          "qwen_minus_tesseract": -340796,
+          "qwen_to_tesseract": 0.796264932825823
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 1036529,
+          "tesseract": 1138314,
+          "qwen_minus_tesseract": -101785,
+          "qwen_to_tesseract": 0.9105826687539642
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 846595,
+          "tesseract": 856869,
+          "qwen_minus_tesseract": -10274,
+          "qwen_to_tesseract": 0.9880098358092078
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 2179605,
+          "tesseract": 2734970,
+          "qwen_minus_tesseract": -555365,
+          "qwen_to_tesseract": 0.7969392717287576
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 1233451,
+          "tesseract": 1268917,
+          "qwen_minus_tesseract": -35466,
+          "qwen_to_tesseract": 0.9720501813751412
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 8732915,
+        "tesseract": 9449467
+      }
+    },
+    {
+      "rates": {
+        "uncached_input": 1,
+        "cached_input": 1,
+        "cache_write_input": null,
+        "output": 8
+      },
+      "unit": "hypothetical cost units, not currency or model pricing",
+      "total_qwen": 8667074,
+      "total_tesseract": 9774583,
+      "qwen_to_tesseract": 0.886695012973955,
+      "qwen_minus_tesseract": -1107509,
+      "median_paired_difference": -43743.5,
+      "median_paired_ratio": 0.9575260447292598,
+      "qwen_cheaper_pairs": 7,
+      "per_article": [
+        {
+          "pair_id": "aug-01",
+          "qwen": 456485,
+          "tesseract": 418424,
+          "qwen_minus_tesseract": 38061,
+          "qwen_to_tesseract": 1.090962755482477
+        },
+        {
+          "pair_id": "aug-02",
+          "qwen": 817870,
+          "tesseract": 864627,
+          "qwen_minus_tesseract": -46757,
+          "qwen_to_tesseract": 0.9459223457051422
+        },
+        {
+          "pair_id": "aug-03",
+          "qwen": 548530,
+          "tesseract": 564505,
+          "qwen_minus_tesseract": -15975,
+          "qwen_to_tesseract": 0.9717008706743075
+        },
+        {
+          "pair_id": "aug-04",
+          "qwen": 1366401,
+          "tesseract": 1720465,
+          "qwen_minus_tesseract": -354064,
+          "qwen_to_tesseract": 0.794204473790516
+        },
+        {
+          "pair_id": "aug-05",
+          "qwen": 1077261,
+          "tesseract": 1180978,
+          "qwen_minus_tesseract": -103717,
+          "qwen_to_tesseract": 0.9121770261596744
+        },
+        {
+          "pair_id": "aug-06",
+          "qwen": 880647,
+          "tesseract": 892661,
+          "qwen_minus_tesseract": -12014,
+          "qwen_to_tesseract": 0.9865413634067132
+        },
+        {
+          "pair_id": "aug-07",
+          "qwen": 2241217,
+          "tesseract": 2813530,
+          "qwen_minus_tesseract": -572313,
+          "qwen_to_tesseract": 0.7965854282698247
+        },
+        {
+          "pair_id": "aug-08",
+          "qwen": 1278663,
+          "tesseract": 1319393,
+          "qwen_minus_tesseract": -40730,
+          "qwen_to_tesseract": 0.9691297437533775
+        }
+      ],
+      "including_attributable_aborted_correction": {
+        "qwen": 9028915,
+        "tesseract": 9774583
+      }
+    }
+  ],
+  "actual_currency_cost": null,
+  "pricing_policy": "Same explicit rate vector for both arms; rates not supplied, so no currency totals or actual billing claim. Scenario c=1 also standardizes all captured input as uncached. Reasoning is already included in output; never add it twice.",
+  "single_route_scenario": "C_Q = shared preparation charge S + measured Q correction cost; C_T = S + measured T correction cost. An equal S cancels in the absolute difference but changes percentages. Shared preparation is mixed with experimental comparison/orchestration; no measured production-only S or causal per-engine OCR-control charge is claimed.",
+  "matched_time_totals": {
+    "qwen": {
+      "raw_worker_seconds": 502.77093655601493,
+      "raw_recognition_seconds": 435.11985106911743,
+      "correction_worker_seconds": 2459.5175189971924,
+      "raw_plus_correction_worker_seconds": 2962.2884555532073
+    },
+    "tesseract": {
+      "raw_worker_seconds": 115.4139842329896,
+      "raw_recognition_seconds": 87.117238376959,
+      "correction_worker_seconds": 2393.3455352783203,
+      "raw_plus_correction_worker_seconds": 2508.75951951131
+    }
+  },
+  "extra_recovery_raw": {
+    "arms": 2,
+    "worker_seconds": {
+      "qwen": 94.65626670200436,
+      "tesseract": 19.304761831997894
+    },
+    "recognition_seconds": {
+      "qwen": 84.74031026498415,
+      "tesseract": 15.790428429914755
+    },
+    "failed_regions": {
+      "qwen": [
+        "p182r21"
+      ],
+      "tesseract": []
+    }
+  },
+  "raw_executed_arms": 18,
+  "raw_matched_arms": 16,
+  "aborted_correction_worker_seconds": 60.41310691833496,
+  "time_scope": "Raw worker includes runtime verification/model startup/crop copy/recognition/export. Recognition is nested, not additive. Correction worker intervals exclude initial instructions and final replies; native usage covers whole session. Raw and correction for each matched arm are sequential; shared coordinator work overlaps and is not added as if independent. Sum of worker seconds is workload duration, not observed calendar completion time.",
+  "local_resource_price": 0,
+  "quality_scope": "All paired disagreements and fixed source samples checked. Observed residual errors are not full CER. Sealed outputs unchanged; human proofreading, repair time and acceptance pending. Equal coverage does not imply equal residual quality. These costs reach reviewable independent drafts, not identically error-free or human-accepted final text.",
+  "experimental_overhead": "Shared source mapping, automation/orchestration, comparison and reporting in separate root usage audit. Do not add coordinator tokens to both routes or treat full experimental spend as steady-state production cost. Paid OCR-control work is captured but mixed with shared work, so only independent correction has clean per-engine attribution.",
+  "statistical_limits": "Purposive eight-article sample, one run per route, inherited model/effort held constant. Balanced engine-first order; caching, response variability and serialization differ. No causal population claim or out-of-sample validated router. Per-article retrospective winners are not a deployment rule.",
+  "selection": {
+    "path": "docs/ocr-august-pilot-selection.json",
+    "sha256": "9e07cab7449277d96214132c821fd11fcdac94319497e48f46c6606db53fc742",
+    "bytes": 7589
+  },
+  "correction_usage": {
+    "path": "docs/ocr-august-pilot-correction-usage.json",
+    "sha256": "999a0b554cda860e01bff8f06b63618be35cf5688341ee78e6aa8a048310d77c",
+    "bytes": 56940
+  },
+  "coordinator_usage": {
+    "path": "docs/ocr-august-pilot-usage.json",
+    "sha256": "e090a783526318f95a5746aebe8f080176e291512f7fafec5df2a91c30ab09e8",
+    "bytes": 17865
+  },
+  "reading_room": "not-rebuilt"
+}

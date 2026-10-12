@@ -2258,3 +2258,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Lower Qwen total tokens coexist with more uncached input; pricing remains conditional.
 - Q&A is the final planned pair. Consolidated reports are prepared with completion
   guards; human acceptance remains pending and no reading room has been rebuilt.
+
+### August paired cost pilot complete, 2026-10-12
+
+- Eight selected whole articles, 28 pages, 16 independent restorations complete;
+  every export passed integrity and byte-identical rebuild checks. Both routes
+  preserve 537 text regions and 30 original figures across the cohort.
+- All paired disagreements and frozen source samples reviewed. Source-fidelity
+  findings and uncertain glyphs remain recorded without altering sealed outputs.
+  Human acceptance and later repair costs remain pending.
+- Qwen matched totals: 730,994 uncached / 7,357,568 cached input / 72,314 output.
+  Tesseract: 587,775 / 8,536,576 / 81,279. Reasoning is included in output.
+- At hypothetical rates 1:0.1:4, Qwen correction is only 0.60% cheaper, with four
+  articles favoring each route. The observed coverage-abort-inclusive Q route is
+  4.17% higher. Actual rates are unknown; no currency bill or general savings claim.
+- Matched raw worker time: Q 502.77s / T 115.41s. Correction worker time:
+  Q 2,459.52s / T 2,393.35s. Local resources priced at zero; timing is diagnostic.
+- docs/OCR-AUGUST-PILOT-RESULTS.md and the results JSON consolidate article-level
+  metrics, rate sensitivity, recovery and shared experiment overhead. Keep the
+  current selective-use policy provisional; no further double restoration begun.
+- Reading room not rebuilt. Progress, usage and evidence pins recorded and committed.

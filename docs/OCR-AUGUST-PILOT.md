@@ -1,9 +1,9 @@
 # August 1984 paired restoration cost pilot
 
-Status: all eight raw pairs are complete; the first seven independently corrected
-pairs are sealed and compared. The first-two instrumentation gate passed.
-VISICALC's paired coverage recovery and the editor comparison are complete.
-Q&A is the final pair in correction.
+Status: complete for the eight selected article pairs: 16 independent restorations
+sealed, source-compared and export/rebuild verified. Human acceptance is pending.
+The [consolidated cost report](OCR-AUGUST-PILOT-RESULTS.md) contains the decision,
+article-level token/time tables, price sensitivity, quality findings and overhead.
 Selection and order were frozen before viewing either engine's output.
 This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
@@ -411,3 +411,38 @@ Qwen's matched correction is cheaper only when
 settle monetary cost, because it consumed more uncached input. The native audit
 includes the full sessions, including metadata-only progress communication.
 Fourteen independent restorations are sealed; the final Q&A pair is underway.
+
+## Pilot complete: all eight pairs compared, 2026-10-12
+
+Q&A exports contain 112 text regions, one figure and 72 physical listing rows each.
+All 33 disagreements and the frozen sample were checked against source, 46 regions
+in total, including all eight assembly examples and the BASIC groups. Ten wording
+errors were confirmed in the Qwen correction (nine historical spelling changes
+and one verb error); the Tesseract correction has three wording errors and two
+omitted punctuation marks in checked regions. Uncertain punctuation/handwriting
+remains flagged. Printed assembly inconsistencies are preserved by both versions.
+
+| Q&A correction | Uncached input | Cached input | Output | Worker seconds |
+| --- | ---: | ---: | ---: | ---: |
+| Tesseract | 94,089 | 1,124,352 | 12,619 | 375.94 |
+| Qwen | 89,871 | 1,098,368 | 11,303 | 333.66 |
+
+This Qwen correction uses fewer tokens in every captured category, but unequal
+residual quality prevents treating that as a measured saving to identical accepted
+text. Human review and any paid repair pass are still pending for all eight pairs.
+
+Across the matched cohort Qwen uses 143,219 more uncached input, 1,179,008 fewer
+cached input and 8,965 fewer output tokens. Its cost is lower when
+`1179008*c + 8965*o > 143219*u`. At illustrative rates `u:c:o = 1:0.1:4`, the
+matched total is only 0.60% lower for Qwen; four articles favor each route, and the
+median article ratio is 1.005. Adding the observed coverage-abort cost makes the
+Qwen route 4.17% higher under that same hypothetical rate vector. Neither figure
+is an actual bill or an estimate of inherent engine recovery risk.
+
+The [results report](OCR-AUGUST-PILOT-RESULTS.md) and
+[machine-readable results](ocr-august-pilot-results.json) consolidate all eight
+articles, matched/recovery cost, raw/correction time, source fidelity and shared
+experimental overhead. Sixteen matched raw arms plus two original coverage-recovery
+arms were executed. No automatic whole-issue expansion or reading-room build was
+performed. The existing content-routing heuristic remains provisional; this trial
+does not establish a generally cheaper engine or a validated cost router.

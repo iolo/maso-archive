@@ -1100,21 +1100,151 @@
       "pair_id": "aug-08",
       "engine": "tesseract",
       "order": 17,
-      "status": "running",
-      "paid_usage": null,
-      "limitation": "Independent correction not sealed; final usage unknown."
+      "status": "sealed",
+      "worker_declared_seconds": 375.941232919693,
+      "comparison_eligible": true,
+      "timing_scope": "Worker-declared interval excludes initial instruction loading and final reply; paid usage spans the whole session through coordinator-observed completion, including observation delay.",
+      "paid_usage": {
+        "id": "aug-08-A",
+        "start": "2026-10-12T03:16:21.631Z",
+        "end": "2026-10-12T03:23:38.455534+00:00",
+        "elapsed_seconds": 436.8245339393616,
+        "observed_responses": 18,
+        "tokens": {
+          "input_tokens": 1218441,
+          "cached_input_tokens": 1124352,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 12619,
+          "reasoning_output_tokens": 1678,
+          "total_tokens": 1231060,
+          "uncached_nonwrite_input_tokens": 94089
+        }
+      },
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "coordinator_duplicate_response_count": 0,
+      "input_integrity_verified": true,
+      "session_log_sha256": "fca8d15acea41e6b1f8ba8e2a615e88ef6af406287ffee0a77c9c3f07a24f11c",
+      "session_id": "01a12e1c-7dfb-71b0-9a9f-a1ceed17cdb9",
+      "sealed_artifacts": {
+        "work-start.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-A/work-start.json",
+          "sha256": "0f3e9a2bf5136a1fc72bcf8b2c736e4de7b73a00e1341c333bd016d0c3bf8a8a",
+          "bytes": 247
+        },
+        "work-finished.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-A/work-finished.json",
+          "sha256": "8a8ccf992b33f76ab9a962487a9c305e2c9007e53d162775d3445a16377e958d",
+          "bytes": 2461
+        },
+        "reference-fixed.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-A/reference-fixed.json",
+          "sha256": "f64296a84f6523c9cec648d689fae4b4c8578f6006869c516562b91baf72e8cc",
+          "bytes": 553
+        },
+        "transcription-assistant.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-A/transcription-assistant.json",
+          "sha256": "5d0d46324ce5ee11e3770f53136ec6c7071fa85156df4881411dec38a509ed82",
+          "bytes": 16310
+        },
+        "review-notes.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-A/review-notes.json",
+          "sha256": "e71fc0d8bb9f586c93a8cda9bbb88d9160c96dc705d8d1a5a8dfc133e5854485",
+          "bytes": 6200
+        },
+        "review-spec.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-A/review-spec.json",
+          "sha256": "638991721e7eca7050b21b3103aa9bec72d206a45c9f508ec0d52f113638a48f",
+          "bytes": 10211
+        },
+        "export-results.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-A/export-results.json",
+          "sha256": "37e2a69624b7b43080c2bbd1a4f0059bac8fc17d2f1e1d18dc82ca862570a5b9",
+          "bytes": 879
+        }
+      },
+      "private_usage_audit": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-A/paid-usage.json",
+        "sha256": "5e3117cc45561f5af709fa80a20be969f7b6502cdba2ba197f6b1db560a2ef66",
+        "bytes": 886
+      }
     },
     {
       "case_id": "aug-08-B",
       "pair_id": "aug-08",
       "engine": "qwen",
       "order": 18,
-      "status": "prepared-not-started",
-      "paid_usage": null,
-      "limitation": "Independent correction not sealed; final usage unknown."
+      "status": "sealed",
+      "worker_declared_seconds": 333.6589970588684,
+      "comparison_eligible": true,
+      "timing_scope": "Worker-declared interval excludes initial instruction loading and final reply; paid usage spans the whole session through coordinator-observed completion, including observation delay.",
+      "paid_usage": {
+        "id": "aug-08-B",
+        "start": "2026-10-12T03:23:51.413Z",
+        "end": "2026-10-12T03:30:03.768567+00:00",
+        "elapsed_seconds": 372.3555669784546,
+        "observed_responses": 17,
+        "tokens": {
+          "input_tokens": 1188239,
+          "cached_input_tokens": 1098368,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 11303,
+          "reasoning_output_tokens": 1530,
+          "total_tokens": 1199542,
+          "uncached_nonwrite_input_tokens": 89871
+        }
+      },
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "coordinator_duplicate_response_count": 0,
+      "input_integrity_verified": true,
+      "session_log_sha256": "df7e239d0d8ed665fb997750046a738d3d9e9c0cb7f08a68359ec3c9ee46e049",
+      "session_id": "01a12e23-5af0-7243-be57-91754604b405",
+      "sealed_artifacts": {
+        "work-start.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-B/work-start.json",
+          "sha256": "f7c72fa96fa181de06e9cdcddbb936c7f6a7689bcbdefa79de9625ce585cd976",
+          "bytes": 272
+        },
+        "work-finished.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-B/work-finished.json",
+          "sha256": "126ee47c0414d6b1c9aea413dc0d6878cee96a394e90a6433174e0798b69064a",
+          "bytes": 2250
+        },
+        "reference-fixed.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-B/reference-fixed.json",
+          "sha256": "2ab85e79ec284cceb7ed6c8569fe30eb1cf049190cd1cb4843c482957b5c8a0e",
+          "bytes": 569
+        },
+        "transcription-assistant.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-B/transcription-assistant.json",
+          "sha256": "614187a8f5e8f124fa4401e6d3b34b38206802aad588637d47c57107a671f5fc",
+          "bytes": 16303
+        },
+        "review-notes.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-B/review-notes.json",
+          "sha256": "0bdc5726583a2d9768cbd6ef69c50fc8cd5a3c5ebfbc8790bd5c700ead6d2b9a",
+          "bytes": 5731
+        },
+        "review-spec.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-B/review-spec.json",
+          "sha256": "9a826379bf563b55569b64f7aa0c496167a932048f5a5300f3098732ea45e17d",
+          "bytes": 9733
+        },
+        "export-results.json": {
+          "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-B/export-results.json",
+          "sha256": "74af8d414f5c38cfe699aa62f5353c1949fb6d7dd9dd857f9cbd2461be87f665",
+          "bytes": 879
+        }
+      },
+      "private_usage_audit": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/cases/aug-08-B/paid-usage.json",
+        "sha256": "df7b384091af8cafd54878d950331d38ae63c3aeaef3077c52f03ba81a8bf55f",
+        "bytes": 887
+      }
     }
   ],
-  "sealed_cases": 14,
+  "sealed_cases": 16,
   "aborted_cases": 1,
   "planned_cases": 16,
   "quality_comparison": "pending; no cost winner declared",
