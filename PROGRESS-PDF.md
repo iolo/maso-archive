@@ -12114,3 +12114,36 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next:map81–86 within six-page limit,then87 and full69–87 assembly. Reuse full
  extent and successful evidence;catch short glyph rows before OCR and use documented
  repeated-glyph exception. Whole August incomplete;JSON/assets only.
+
+## 2026-10-12 — August English education81–86 raw preparation complete
+
+- Source-verified full69–87 extent reused;81–87 whole views reinspected. One article,
+ six mapped81–86 pages and one outside-map lookup87. LIST1 ends81,LIST2 ends84,
+ LIST3 continues through87;full69–87 assembly remains required.
+- All37 original/nine revised panels,six original/three revised overlays and two
+ wider source details inspected. Sensitive segmentation moved two cuts before OCR.
+ 24 distinct crops widened;12 narrowed again to exclude a listing frame. Original
+ and intermediate maps/crops plus failed preflight diagnostic retained. Final
+ eight-neighbor ink check passes156 boundaries;zero crossing components.
+- 144 text regions:140 initial Qwen code attempts and four Tesseract calls(two
+ clear labels/two repeated-bitmap-divider exceptions). Final139Q/5T drafts;
+ One capped Qwen attempt retained with a bounded same-crop T fallback.
+ No successful-crop repeats,probe or cache reuse. All recognition evidence sealed.
+- Q66,289 local tokens includes failures;successful Q client recognition391.466s,
+ T1.098s and failed Q server compute15.645s are separate diagnostics. Local
+ monetary weight zero;failed client duration remains unmeasured. A capped crop
+ repeated escaped spaces for a Hangul output label;no universal routing winner.
+- Source/crop/map/request hashes,raw bundles,runtime pins,all stop/fallback outcomes
+ and continuous column coverage pass.16 prior production packages and16,790
+ sealed pilot files unchanged.821 projection bands are segmentation evidence,
+ not certified physical-row counts;independent source correction remains pending.
+- Preflight recovery excludes the frame without OCR. A relative-path pin helper
+ failed after geometry update;resumed request/panel generation with absolute path.
+ An empty raw work window contains bookkeeping only;no duplicate inference.
+- Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-13/raw-ocr-audit.json`.
+ No production export yet. English production coverage stays69–80. Totals remain
+ ten complete,one partial,20 untouched,six pilots awaiting selection,two headings
+ classified/four remaining;zero human accepted. August incomplete.
+- Next:correct/export/validate81–86,then restore87 and assemble69–87. Preserve
+ physical continuations32 across81/82,5020 across83/84 and130 across84 columns.
+ Hidden control bytes,full proofreading and execution unverified;JSON/assets only.
