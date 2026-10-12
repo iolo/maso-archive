@@ -1385,6 +1385,132 @@
         "total_tokens": 360748,
         "uncached_nonwrite_input_tokens": 18792
       }
+    },
+    {
+      "id": "preparation-14",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-12T14:31:37.282704+00:00",
+      "end": "2026-10-12T14:34:30.009989+00:00",
+      "elapsed_seconds": 172.72728490829468,
+      "observed_responses": 6,
+      "tokens": {
+        "input_tokens": 544223,
+        "cached_input_tokens": 519552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4107,
+        "reasoning_output_tokens": 1270,
+        "total_tokens": 548330,
+        "uncached_nonwrite_input_tokens": 24671
+      }
+    },
+    {
+      "id": "recognition-14",
+      "stage": "raw",
+      "engine": "mixed",
+      "start": "2026-10-12T14:34:31.070928+00:00",
+      "end": "2026-10-12T14:54:48.845417+00:00",
+      "elapsed_seconds": 1217.7744889259338,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 311675,
+        "cached_input_tokens": 307712,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1148,
+        "reasoning_output_tokens": 392,
+        "total_tokens": 312823,
+        "uncached_nonwrite_input_tokens": 3963
+      }
+    },
+    {
+      "id": "preparation-recovery-14",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-12T14:54:49.922193+00:00",
+      "end": "2026-10-12T14:57:01.606996+00:00",
+      "elapsed_seconds": 131.6848030090332,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 435991,
+        "cached_input_tokens": 425856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3128,
+        "reasoning_output_tokens": 995,
+        "total_tokens": 439119,
+        "uncached_nonwrite_input_tokens": 10135
+      }
+    },
+    {
+      "id": "recognition-resume-14",
+      "stage": "raw",
+      "engine": "mixed",
+      "start": "2026-10-12T14:57:02.692435+00:00",
+      "end": "2026-10-12T14:58:33.381661+00:00",
+      "elapsed_seconds": 90.68922591209412,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 360525,
+        "cached_input_tokens": 349184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2323,
+        "reasoning_output_tokens": 494,
+        "total_tokens": 362848,
+        "uncached_nonwrite_input_tokens": 11341
+      }
+    },
+    {
+      "id": "evaluation-14",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-12T14:58:34.481360+00:00",
+      "end": "2026-10-12T15:01:25.065191+00:00",
+      "elapsed_seconds": 170.58383107185364,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 258516,
+        "cached_input_tokens": 252416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4994,
+        "reasoning_output_tokens": 1032,
+        "total_tokens": 263510,
+        "uncached_nonwrite_input_tokens": 6100
+      }
+    },
+    {
+      "id": "correction-14",
+      "stage": "correction",
+      "engine": "mixed",
+      "start": "2026-10-12T15:01:26.166157+00:00",
+      "end": "2026-10-12T15:01:54.860218+00:00",
+      "elapsed_seconds": 28.694061040878296,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 135681,
+        "cached_input_tokens": 130816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 540,
+        "reasoning_output_tokens": 235,
+        "total_tokens": 136221,
+        "uncached_nonwrite_input_tokens": 4865
+      }
+    },
+    {
+      "id": "export-14",
+      "stage": "export",
+      "engine": "mixed",
+      "start": "2026-10-12T15:01:55.971859+00:00",
+      "end": "2026-10-12T15:03:58.861171+00:00",
+      "elapsed_seconds": 122.88931202888489,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 427711,
+        "cached_input_tokens": 417536,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3495,
+        "reasoning_output_tokens": 730,
+        "total_tokens": 431206,
+        "uncached_nonwrite_input_tokens": 10175
+      }
     }
   ],
   "money_cost": null,
@@ -1392,33 +1518,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T14:31:17.458199+00:00",
-    "elapsed_seconds": 37611.4581990242,
-    "observed_responses": 560,
+    "end": "2026-10-12T15:03:58.861171+00:00",
+    "elapsed_seconds": 39572.86117100716,
+    "observed_responses": 583,
     "tokens": {
-      "input_tokens": 77089598,
-      "cached_input_tokens": 74772224,
+      "input_tokens": 79642298,
+      "cached_input_tokens": 77252096,
       "cache_write_input_tokens": 0,
-      "output_tokens": 456878,
-      "reasoning_output_tokens": 117612,
-      "total_tokens": 77546476,
-      "uncached_nonwrite_input_tokens": 2317374
+      "output_tokens": 476819,
+      "reasoning_output_tokens": 122760,
+      "total_tokens": 80119117,
+      "uncached_nonwrite_input_tokens": 2390202
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T14:31:17.458199+00:00",
-    "elapsed_seconds": 37611.4581990242,
-    "observed_responses": 56,
+    "end": "2026-10-12T15:03:58.861171+00:00",
+    "elapsed_seconds": 39572.86117100716,
+    "observed_responses": 57,
     "tokens": {
-      "input_tokens": 8431759,
-      "cached_input_tokens": 8226048,
+      "input_tokens": 8510137,
+      "cached_input_tokens": 8302848,
       "cache_write_input_tokens": 0,
-      "output_tokens": 21162,
+      "output_tokens": 21368,
       "reasoning_output_tokens": 7323,
-      "total_tokens": 8452921,
-      "uncached_nonwrite_input_tokens": 205711
+      "total_tokens": 8531505,
+      "uncached_nonwrite_input_tokens": 207289
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
