@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1984-08",
-  "status": "first-two-independent-corrections-in-progress",
+  "status": "first-two-complete-remaining-cohort-in-progress",
   "selected_articles": 8,
   "selected_source_pages": 28,
   "planned_restorations": 16,
   "completed_raw_arms": 4,
-  "completed_corrected_arms": 2,
+  "completed_corrected_arms": 4,
   "human_accepted_articles": 0,
-  "first_two_instrumentation_gate": "not-passed: all four independent corrections and both paired quality checks must finish",
+  "first_two_instrumentation_gate": "passed",
   "delegation_authorization": "explicit-user-reply: Yes—authorize independent correction agents",
   "selection": {
     "path": "docs/ocr-august-pilot-selection.json",
@@ -17,18 +17,18 @@
   },
   "protocol": {
     "path": "docs/OCR-AUGUST-PILOT.md",
-    "sha256": "7f1dbabc10d7c31fc281b239ed9dad8b7a8705618e0c0ad614523581cba1781f",
-    "bytes": 15544
+    "sha256": "cc94683d3e43146c37200b4bf1ff7ee2c4939235db7e74d83c0e321f762eb9d1",
+    "bytes": 17733
   },
   "case_registry": {
     "path": "private/pdf-restoration/13-1984-08-cost-pilot/correction-case-registry.json",
-    "sha256": "c94e35fc1c8fba30f41035a65df640b8cfd5ed2dc8c9d1356d3a44d091d01ad9",
-    "bytes": 3562
+    "sha256": "469e1ab40da8784a455d3665163a0adf74c0fcc6d68720ff35ac61240070aed7",
+    "bytes": 4063
   },
   "paid_coordinator_usage": {
     "path": "docs/ocr-august-pilot-usage.json",
-    "sha256": "00e5b44367cc5ff8fdb1136a2f287fe7385bf582329c279d27d204d29162f445",
-    "bytes": 7700
+    "sha256": "3fa997f55adb93bdddb19ecb32dc6cf62e7079124b5db0dda150c040263eedb0",
+    "bytes": 8299
   },
   "articles": [
     {
@@ -169,7 +169,7 @@
           "exact_input_crop_equality": true
         }
       },
-      "semantic_correction": "in-progress",
+      "semantic_correction": "both-arms-sealed",
       "human_acceptance": "pending",
       "frozen_inputs": {
         "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/shared/frozen-inputs.json",
@@ -187,15 +187,20 @@
         {
           "case_id": "aug-02-A",
           "engine": "qwen",
-          "status": "running"
+          "status": "sealed"
         },
         {
           "case_id": "aug-02-B",
           "engine": "tesseract",
-          "status": "prepared-not-started"
+          "status": "sealed"
         }
       ],
-      "status": "raw-pair-correction-in-progress"
+      "paired_quality_review": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/quality-review.json",
+        "sha256": "7a72c7d510bff4d62bad57cf756e5bb6362b237775fef964682ebef32dbdcbbf",
+        "bytes": 3111
+      },
+      "status": "corrected-pair-source-comparison-recorded"
     },
     {
       "pair_id": "aug-03",
@@ -312,7 +317,12 @@
   "cost_interpretation": "Local CPU/GPU/runtime/model tokens priced at zero. Raw timings are diagnostics, not the paid-cost answer. Article-level independent usage is recorded separately; no overall cost winner declared before the first-two gate and full cohort.",
   "paid_independent_correction_usage": {
     "path": "docs/ocr-august-pilot-correction-usage.json",
-    "sha256": "9ab983152d9dbe482fb9fb6f451e791c8a2a4b5c767a7506c2744d08afe04967",
-    "bytes": 7223
+    "sha256": "5e631cb32302b5f1958290cd020b2db0e3f280626cf9054c53484dce262dc33f",
+    "bytes": 12897
+  },
+  "gate_evidence": {
+    "path": "private/pdf-restoration/13-1984-08-cost-pilot/first-two-gate.json",
+    "sha256": "a96481937eccdf6d73fb6aa5bdb49157b0a0158aa4d6c8530d95773bd6831855",
+    "bytes": 1369
   }
 }

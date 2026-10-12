@@ -1,8 +1,8 @@
 # August 1984 paired restoration cost pilot
 
 Status: eight articles selected and source boundaries checked; both raw OCR arms
-are complete for the first two articles. Both independent editorial corrections
-are sealed and compared; the game article's corrections are in progress.
+and independent corrections are complete for the first two articles. Both pairs
+are sealed and compared; the instrumentation gate passed for the remaining six.
 Selection and order were frozen before viewing either engine's output.
 This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
@@ -194,8 +194,8 @@ passes, including continued processing and refusal to overwrite an existing run.
 Four separate correction packets were prepared in the frozen execution order,
 with common instructions, source images, structural templates and one assigned
 draft each. All were initially unstarted; following explicit authorization, the
-independent correction stage below began. The first-two instrumentation gate
-remains unpassed; the other six articles have not started. No reading-room rebuild
+independent correction stage below began. The first-two instrumentation gate has
+now passed; the other six articles follow next. No reading-room rebuild
 was performed.
 
 The [progress manifest](ocr-august-pilot-progress.json) records artifact pins and
@@ -241,4 +241,41 @@ input and 285 fewer output tokens, but 44,416 more cached input tokens. Under th
 common rate vector above, its correction cost is lower exactly when
 `44,416 * rate_cached < 4,075 * rate_uncached + 285 * rate_output`.
 No billing rates or currency total are assumed. Shared preparation and comparison
-remain separate overhead; the game pair and remaining cohort are still required.
+remain separate overhead; the remaining cohort is still required.
+
+## First-two measurement gate passed, 2026-10-12
+
+The game pair also has complete, independently verified exports: 23 text regions,
+three original figures, 80 physical and 68 logical listing rows in each version.
+All four correction sessions used the same model/effort, have separate reconciled
+usage and unchanged assigned inputs, and passed export/rebuild checks. Every
+corrected-text disagreement and the fixed source samples were inspected. The
+remaining six pairs may proceed under the unchanged protocol.
+
+| Game route | Uncached input | Cached input | Output | Worker-declared seconds |
+| --- | ---: | ---: | ---: | ---: |
+| Tesseract | 48,875 | 750,336 | 8,177 | 243.91 |
+| Qwen | 64,062 | 693,504 | 7,538 | 243.72 |
+
+Cache-write input remains zero. Output includes 1,285 Tesseract-route and 1,703
+Qwen-route reasoning tokens. Qwen's game correction uses 15,187 more uncached
+input, 56,832 fewer cached input and 639 fewer output tokens. It costs less only
+when `56,832 * rate_cached + 639 * rate_output > 15,187 * rate_uncached`.
+Across both articles together, the corresponding condition is
+`12,416 * rate_cached + 924 * rate_output > 11,112 * rate_uncached`.
+No actual billing rates have been supplied, and two single runs cannot establish
+a general routing rule.
+
+The game versions agree exactly in 18 of 23 text regions. Of the five differences,
+two are wording disagreements: source inspection confirms one retained wording
+error in each arm. The other three concern explicitly flagged Unicode graphic
+approximations or nonliteral placeholders whose original images are preserved.
+These placeholder differences are not counted as ordinary OCR character errors.
+The fixed sample found no additional confirmed character errors. The sealed
+independent outputs remain unchanged; source-linked findings are available for
+human correction. Neither version is claimed to be runnable or character-perfect.
+
+The private gate record and paired source-review records are pinned in the public
+progress manifest. Human acceptance remains pending for both articles. Passing
+this gate establishes usable instrumentation and comparable reviewable coverage;
+it does not declare an accuracy or cost winner.

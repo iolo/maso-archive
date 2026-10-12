@@ -2192,3 +2192,18 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Counts and break-even expression documented in docs/OCR-AUGUST-PILOT.md and
   docs/ocr-august-pilot-correction-usage.json. First-two gate still pending; no
   overall cost verdict, no six-pair expansion yet and no reading-room rebuild.
+
+### August first-two measurement gate passed, 2026-10-12
+
+- All four independent corrections sealed; native usage, common model/effort,
+  immutable inputs, export integrity and byte-identical rebuilds verified.
+- Game pair: 23 text regions, three figures, 80 physical / 68 logical code rows
+  per arm. Five differing regions: two wording disagreements (one confirmed error
+  per arm), one graphic approximation and two nonliteral placeholder differences.
+  All disagreements and fixed source samples checked; human review still pending.
+- Game T: 48,875 uncached / 750,336 cached input, 8,177 output tokens.
+  Game Q: 64,062 uncached / 693,504 cached input, 7,538 output tokens.
+  Worker-declared correction time was about 244s for each; timings are diagnostic.
+- First-two gate passed with equal reviewable coverage and disclosed remaining
+  errors. Continue the six frozen pairs with unchanged correction instructions.
+  Cost depends on the rate vector; no overall winner or full-cohort conclusion.
