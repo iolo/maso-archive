@@ -4310,9 +4310,16 @@
   "next_checkpoint": {
     "batch": "batch-15",
     "toc_entry_id": "maso-1984-08-toc-0014",
-    "article_extent_verified": false,
+    "article_extent_verified": true,
     "first_canonical_page": 90,
-    "planned_source_pages": null,
+    "planned_source_pages": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
     "prior_english_complete": {
       "path": "build/pdf-restoration/13-1984-08-adaptive/english-education/article.json",
       "sha256": "8f15a47da954f4f836cab94f6364f7f521fa37e68984924e820d0cc47b5e4a12",
@@ -4323,9 +4330,69 @@
       "sha256": "4d1de7944c60ab1d775f4ff39964c64f2c792cab015c8a2c919dd5de3803d130",
       "bytes": 4408
     },
-    "action": "Inspect entireCP/M article extent starting90 through its actual ending and followinggraphics title(canonical99) before mapping. Use fresh whole views and source contents/canonical identities;one/two articles,six mapped pages maximum and20 outside-map lookups maximum. Route clear proseT,densecode/formulas/structured valuesQ,retain original figures and bounded repeated-glyph exceptions. Correct/export/validate/commit bounded natives andassemble if needed. All20 untouched bodies,six pilot selections,four headings andwholeAugust JSON/assets closeout remain.",
+    "action": "Correct selected154drafts andfive structured tables against complete90–95 source crops;retain separate program/console groups,physical wraps,source mistakes,format glyphs andoriginal fullRESUME/ERASE example images/omission marks. Export/validate/commit opening;then restore96–97 andseparately assemblefull90–97. Canonical nextgraphics page99 hasactualtitle98;inspect full extent before mapping. All20 untouched bodies,six pilotselections,four headings andwholeAugust JSON/assets closeout remain;no reading-room build.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending",
-    "status": "english-full-assembly-complete-cpm-extent-pending"
+    "status": "cpm-90-95-raw-audited-correction-pending",
+    "article_pdf_pages": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "remaining_source_pages": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "extent": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/extent-inspection.json",
+      "sha256": "ee23429b6b1e037f51c604bc9406f18e2ecf8837abd3f0585eeb0a3a0b8bec14",
+      "bytes": 3440
+    },
+    "raw_audit": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/raw-ocr-audit.json",
+      "sha256": "e8658b30af60b698e5e05aa065dcbc5ebbe866b1682323f8ab636953602e736c",
+      "bytes": 7449
+    },
+    "raw_preservation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/raw-preservation.json",
+      "sha256": "24e07dd1be62fec6198a33fa91b7313feee66c9b9b890d13113c5b4ed6b0cd5a",
+      "bytes": 207919
+    },
+    "preflight_acceptance": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/preflight-acceptance.json",
+      "sha256": "4433dc8bd3f5a1e5830736cc5dec9b7fb66bffb189a031232fffa2388a1cbfbe",
+      "bytes": 10978
+    },
+    "mapped_pages": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "uncorrected_native_pages": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "unmapped_ending_pages": [
+      96,
+      97
+    ]
   }
 }
