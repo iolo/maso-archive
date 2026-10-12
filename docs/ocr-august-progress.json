@@ -15,16 +15,16 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 14,
+    "assistant-restored-human-pending": 15,
     "sealed-pilot-review-pending": 6,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
-    "untouched": 17
+    "untouched": 16
   },
   "sealed_pilot_articles": 6,
-  "production_complete_articles": 14,
+  "production_complete_articles": 15,
   "production_partial_articles": 0,
-  "untouched_articles": 17,
+  "untouched_articles": 16,
   "unclassified_heading_entries": 4,
   "classified_heading_entries": 2,
   "human_accepted_articles": 0,
@@ -3775,6 +3775,217 @@
         "bytes": 35036
       },
       "usage_limitation": "All11 original Q calls,including unselected I/O draft,andall26T calls,including one bounded fallback,are counted. Successful worker andfallback duration are separate diagnostic observations. No dual correction."
+    },
+    {
+      "batch": "batch-21",
+      "toc_entry_id": "maso-1984-08-toc-0017",
+      "title": "자유 낙하운동",
+      "source_pages": [
+        113,
+        114,
+        115
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p113r01": "tesseract",
+        "p113r02": "tesseract",
+        "p113r03": "tesseract",
+        "p113r04": "tesseract",
+        "p113r05": "tesseract",
+        "p113r06": "tesseract",
+        "p113r07": "tesseract",
+        "p113r08": "tesseract",
+        "p113r09": "tesseract",
+        "p113r10": "tesseract",
+        "p113r11": "qwen",
+        "p113r12": "qwen",
+        "p113r13": "tesseract",
+        "p113r14": "tesseract",
+        "p113r16": "qwen",
+        "p113r17": "qwen",
+        "p113r18": "qwen",
+        "p113r19": "tesseract",
+        "p113r20": "qwen",
+        "p113r21": "tesseract",
+        "p113r22": "tesseract",
+        "p113r23": "tesseract",
+        "p114r02": "qwen",
+        "p114r03": "tesseract",
+        "p114r05": "qwen",
+        "p114r06": "qwen",
+        "p114r07": "qwen",
+        "p114r08": "qwen",
+        "p114r09": "tesseract",
+        "p114r10": "tesseract",
+        "p114r11": "tesseract",
+        "p114r12": "tesseract",
+        "p114r13": "tesseract",
+        "p114r14": "tesseract",
+        "p114r15": "tesseract",
+        "p114r16": "tesseract",
+        "p114r17": "tesseract",
+        "p114r18": "tesseract",
+        "p114r19": "tesseract",
+        "p114r20": "tesseract",
+        "p114r21": "tesseract",
+        "p114r22": "tesseract",
+        "p114r23": "tesseract",
+        "p114r24": "tesseract",
+        "p114r25": "tesseract",
+        "p114r26": "tesseract",
+        "p114r27": "tesseract",
+        "p114r28": "tesseract",
+        "p114r29": "tesseract",
+        "p114r30": "tesseract",
+        "p114r31": "tesseract",
+        "p114r32": "tesseract",
+        "p114r33": "tesseract",
+        "p114r34": "tesseract",
+        "p114r35": "tesseract",
+        "p115r01": "tesseract",
+        "p115r02": "tesseract",
+        "p115r03": "tesseract",
+        "p115r04": "qwen",
+        "p115r05": "tesseract",
+        "p115r08": "qwen",
+        "p115r09": "qwen",
+        "p115r10": "qwen",
+        "p115r11": "qwen",
+        "p115r12": "qwen",
+        "p115r13": "qwen",
+        "p115r14": "qwen",
+        "p115r16": "qwen",
+        "p115r17": "qwen",
+        "p115r18": "qwen",
+        "p115r19": "qwen",
+        "p115r20": "qwen",
+        "p115r21": "qwen",
+        "p115r22": "qwen",
+        "p115r23": "qwen",
+        "p115r24": "qwen"
+      },
+      "assignment_reason": "Tclearprose/headings/captions;Qphysics formulas,diagram/screenlabels andone dense BASICprogram split bycoherent statements. Originalimages/listing columns retained;no newprobe.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-21/freefall/article.json",
+          "sha256": "79c9bcb81d2e0afc20c34a6f5e3169da3d7a4d5665a510f63fb0001d895ef454",
+          "bytes": 132223
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-21/freefall/manifest.json",
+          "sha256": "b55e36c504fa54537ae7a5dd83e898ec626222acc2518cc8902a16a7e59ded26",
+          "bytes": 52498
+        },
+        "source_pages": [
+          113,
+          114,
+          115
+        ],
+        "regions": 82,
+        "text_regions": 76,
+        "figures": 6,
+        "physical_listing_rows": 117,
+        "logical_listing_rows": 56,
+        "unresolved_entries": 51,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-freefall-source-index-21/source-index.json",
+          "sha256": "4bb5349d26391f94684d22e48eb45eae918a91eb491a649de4a017b9399ffed6",
+          "bytes": 244125
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/validation.json",
+          "sha256": "acd91c569f99a42fe2a3ddc016fbd97feaf391c0c0d305adb2d12d6755c0fc16",
+          "bytes": 1596
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/map.json",
+        "sha256": "cc0dbc8c0d521bcdc6ce05f597e238cf3775ad02547c7ce1be9720efdd6ee851",
+        "bytes": 23757
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/source-review-ledger.json",
+        "sha256": "f094c1584b39cd1dcbe9ca71a2af3dcbc3d6b5ac24088df56f8c1bfdbca6f116",
+        "bytes": 9989
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 10279,
+        "completion_tokens": 2571,
+        "total_tokens": 12850
+      },
+      "qwen_completed_calls": 29,
+      "qwen_recognition_seconds": 87.87056319104158,
+      "tesseract_recognition_seconds": 7.050662232883042,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T19:13:44.133956+00:00",
+        "finished_at": "2026-10-12T19:15:27.818198+00:00",
+        "elapsed_seconds": 103.68425521999598,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 29,
+          "tesseract_inferences": 47,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "completed",
+        "region_id": "p113r19",
+        "attempts": 1,
+        "engine": "tesseract",
+        "crop": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/ocr-selected/scan-maso-1984-08-toc-0017/ocr-page113/p113r19.png",
+          "sha256": "e19e608ac8871b06cccbbedbbe86ae8b65d63df26aebc5c72b5ef76bd15543f0",
+          "bytes": 19743
+        },
+        "original_qwen_text": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/ocr/scan-maso-1984-08-toc-0017/ocr-page113/p113r19-qwen.txt",
+          "sha256": "82d0ef5abfa6356fbb6afd3e87b0a6811567b610c257313efe97363262b4a497",
+          "bytes": 4
+        },
+        "selected_text": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/ocr-selected/scan-maso-1984-08-toc-0017/ocr-page113/p113r19-psm6.txt",
+          "sha256": "839105c0b93ff801a8828386844632b8b4369e97d0099411d906c10c2dcf3356",
+          "bytes": 17
+        },
+        "seconds": 0.09117751501617022,
+        "local_monetary_weight": 0,
+        "additional_qwen_calls": 0,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 29,
+      "total_tesseract_calls": 48,
+      "selected_qwen_regions": 28,
+      "selected_tesseract_regions": 48,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-preservation.json",
+        "sha256": "6c5d09055779a809f47ceca09bdf26c9f55712cd0e9c264c0eb7b5bfbbeabf47",
+        "bytes": 96423
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/selected-raw-preservation.json",
+        "sha256": "43981035d4e759a2f284aa2a1db6a27a05bf3d07b70aee644b17c40c4c53b449",
+        "bytes": 71980
+      },
+      "usage_limitation": "All29 original Q calls,including unselected diagram draft,andall48T calls,including one bounded fallback,are counted. Successful worker andfallback duration are separate diagnostic observations. No dual correction."
     }
   ],
   "assemblies": [
@@ -5957,9 +6168,31 @@
       "page": 113,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-21",
+          "source_pages": [
+            113,
+            114,
+            115
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-21/freefall/article.json",
+            "sha256": "79c9bcb81d2e0afc20c34a6f5e3169da3d7a4d5665a510f63fb0001d895ef454",
+            "bytes": 132223
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        113,
+        114,
+        115
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0018",
@@ -6303,229 +6536,76 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-21",
-    "status": "freefall-113-115-raw-audited-source-correction-pending",
-    "toc_entry_id": "maso-1984-08-toc-0017",
-    "canonical_title": "자유 낙하운동",
-    "canonical_byline": "탁연상",
-    "canonical_first_page": 113,
-    "article_extent_verified": true,
-    "planned_source_pages": [
-      113,
-      114,
-      115
-    ],
-    "following_canonical_entry": {
-      "toc_entry_id": "maso-1984-08-toc-0018",
-      "title": "기계어 강좌",
-      "byline": "이세형",
-      "canonical_first_page": 116,
-      "actual_title_page": 116,
-      "source_title": "Z80 기계어 강좌",
-      "canonical_identity_unchanged": true
-    },
-    "prior_fortran_assembly": {
-      "toc_entry_id": "maso-1984-08-toc-0016",
-      "engine": "mixed",
+    "batch": "batch-22",
+    "status": "freefall-complete-z80-extent-inspection-next",
+    "toc_entry_id": "maso-1984-08-toc-0018",
+    "canonical_title": "기계어 강좌",
+    "canonical_byline": "이세형",
+    "canonical_first_page": 116,
+    "actual_first_page": 116,
+    "source_title": "Z80 기계어 강좌",
+    "article_extent_verified": false,
+    "prior_freefall": {
       "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/article.json",
-        "sha256": "3457645755886b51a983d2d34f0107b68cb4dc6b62827e4c9da27c5274adf559",
-        "bytes": 356092
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-21/freefall/article.json",
+        "sha256": "79c9bcb81d2e0afc20c34a6f5e3169da3d7a4d5665a510f63fb0001d895ef454",
+        "bytes": 132223
       },
       "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/manifest.json",
-        "sha256": "c2a297703206c9dc6096facac0619a6957ebc841d7a75c4ac06859f2129bd3f9",
-        "bytes": 138152
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-21/freefall/manifest.json",
+        "sha256": "b55e36c504fa54537ae7a5dd83e898ec626222acc2518cc8902a16a7e59ded26",
+        "bytes": 52498
       },
-      "recipe": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/fortran-assembly-recipe.json",
-        "sha256": "7dac27944f652c6dd4f2b5cddfc04e2eaba9e5469eeec1e5d3d320db2534f106",
-        "bytes": 3046
-      },
-      "pdf_pages": [
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112
+      "source_pages": [
+        113,
+        114,
+        115
       ],
-      "segments": [
-        {
-          "name": "opening",
-          "manifest": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/manifest.json",
-            "sha256": "f3e35f457f262f3d7130fd5c981fc205b9175719d6cdafe4c760b39823c4aa73",
-            "bytes": 97384
-          }
-        },
-        {
-          "name": "ending",
-          "manifest": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/manifest.json",
-            "sha256": "4d10ee25d925d7631dd0698cc4fbe6db4403e9f57b92c0677061dec22a6d3c2c",
-            "bytes": 26828
-          }
-        }
-      ],
-      "native_validations": [
-        {
-          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/validation.json",
-          "sha256": "36f064b052fbae437724c944d75d51159264efa8b8d0b3f9f5e96ccc39a6e46f",
-          "bytes": 1666
-        },
-        {
-          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/validation.json",
-          "sha256": "529d00873120f28df01f9e0c3172848ad1ca1fcb276a3a9d33ebb56afcc8e8dc",
-          "bytes": 1725
-        }
-      ],
-      "regions": 225,
-      "text_regions": 171,
-      "figures": 54,
-      "ordered_blocks": 170,
-      "text_review_items": 171,
-      "tables": 5,
-      "table_rows": 44,
-      "table_cells": 146,
-      "table_blank_cells": 7,
-      "printed_blank_header_cells": 1,
-      "physical_listing_rows": 131,
-      "logical_listing_rows": 0,
-      "unnumbered_physical_rows": 131,
-      "unnumbered_source_lines": 130,
-      "listing_groups": 54,
-      "numbered_program_groups": 0,
-      "fortran_statement_labels": 1,
-      "fortran_continuations": 1,
-      "compiler_rows": 10,
-      "compiler_field_cells": 50,
-      "compiler_blank_fields": 18,
-      "compiler_symbol_rows": 4,
-      "compiler_symbol_fields": 12,
-      "compiler_symbol_blanks": 1,
-      "keyword_source_columns": 3,
-      "slot_groups": 8,
-      "column_rules": 4,
-      "column_rule_physical_rows": 8,
-      "unresolved_entries": 81,
-      "source_prose_joins": 1,
-      "native_prose_boundaries": 1,
-      "interrupted_prose_continuations": 24,
-      "figure_associations": 53,
-      "diagrams": 3,
-      "diagram_arrow_relations": 11,
-      "projected_exact_ranges": 515,
-      "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index/source-index.json",
-        "sha256": "be1bc903bb0ef0003e4759a6478b11f96ba806c5a48391f5412fe026365c8257",
-        "bytes": 975493
-      },
-      "human_acceptance": "pending",
+      "regions": 82,
+      "text_regions": 76,
+      "figures": 6,
+      "physical_listing_rows": 117,
+      "logical_listing_rows": 56,
+      "unresolved_entries": 51,
+      "complete_article": true,
       "checks": {
-        "status": "passed",
-        "full_source_coverage": true,
-        "canonical_identity": true,
         "export_integrity": true,
         "byte_identical_rebuild": true,
-        "all_review_ranges": true,
-        "source_segments_immutable": true,
-        "all_original_metadata_unchanged": true,
-        "listing_bytes_native_concatenation": true,
-        "physical_source_example_partition": true,
-        "table_header_cells_and_blanks": true,
-        "prose_frames_source_order": true,
-        "compiler_fortran_columns_and_diagram_ranges": true,
-        "prior_production_packages_verified": 27,
-        "preserved_pilot_files": 16790,
-        "all_raw_inventories_unchanged": true
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
       },
-      "scope": "FullFortran105–112 complete underJSON/assets scope. WholeAugust incomplete;humanacceptance/fullproofreading/sourcebytes/execution unverified."
-    },
-    "prior_fortran_validation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/fortran-assembly-validation.json",
-      "sha256": "78992a83903de37bfca48a28d04e28e8c168ee9fb672e2db08624a8359f57090",
-      "bytes": 3820
-    },
-    "previous_goal_turn_classification": "progress:5702519 verified complete freefall113–115 extent. This continuation maps,repairs/reviews crops,recognizes andvalidates native21 raw evidence.",
-    "human_acceptance": "pending",
-    "action": "Run one same-crop Tfallback on p113r19 foromitted diagram labels,retaining original29Q/47T costs andsealedraws. Correct only selected drafts directly againstsource forfull113–115 article;preserveoneBASICprogram across16codechunks,twoexplicitprosejoins,formulas/screens/diagram labels,printed mistakes andglyph candidates. Count physical rows/printed labels/wraps independently;actualfinal9910isPOKE34,17:RETURN. ExportandvalidatefullJSON/assets before production promotion/commit. Canonical identity unchanged;wholeAugust incomplete;humanacceptance/fullproofreading/sourcebytes/execution pending. No reading-room rebuild.",
-    "actual_first_page": 113,
-    "article_pdf_pages": [
-      113,
-      114,
-      115
-    ],
-    "remaining_source_pages": [
-      113,
-      114,
-      115
-    ],
-    "outside_map_lookup_pages": [
-      116
-    ],
-    "full_extent": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/extent-inspection.json",
-      "sha256": "7fed2e403fae1e82adeb6b6de64987176aad4d1c27bf2c5073c8bb40014fa840",
-      "bytes": 3128
-    },
-    "pinned_source_views": [
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-113.png",
-        "sha256": "daca729a4698dcf37a2d788220e91b6413652d310d854b1a2dc401a87088d59a",
-        "bytes": 500571
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-freefall-source-index-21/source-index.json",
+        "sha256": "4bb5349d26391f94684d22e48eb45eae918a91eb491a649de4a017b9399ffed6",
+        "bytes": 244125
       },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-114.png",
-        "sha256": "f5f1314e48be2edd4e1ca521973b5510af5630b830ce01ba0799a99774d0015c",
-        "bytes": 794535
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/extent/page-115.png",
-        "sha256": "381ad2c9aa8ddaa252da1eb45b405fb61f6dcb1496ebdefce28f1ac993692173",
-        "bytes": 675497
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/extent/page-116.png",
-        "sha256": "ef436fc8e5f0957c66e58baafab149fd13c8748fe90539e3d5cee57c214a1336",
-        "bytes": 791438
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/validation.json",
+        "sha256": "acd91c569f99a42fe2a3ddc016fbd97feaf391c0c0d305adb2d12d6755c0fc16",
+        "bytes": 1596
       }
-    ],
-    "mapped_source_pages": [
-      113,
-      114,
-      115
-    ],
-    "raw_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-ocr-audit.json",
-      "sha256": "dff5449dbee105e4cf59e34859ce649f5e30152d2f4d73be38b633fed41b0547",
-      "bytes": 4677
     },
-    "raw_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-preservation.json",
-      "sha256": "6c5d09055779a809f47ceca09bdf26c9f55712cd0e9c264c0eb7b5bfbbeabf47",
-      "bytes": 96423
+    "prior_freefall_validation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/validation.json",
+      "sha256": "acd91c569f99a42fe2a3ddc016fbd97feaf391c0c0d305adb2d12d6755c0fc16",
+      "bytes": 1596
     },
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/preflight-acceptance.json",
-      "sha256": "2bc493d5f24b7dec66868f456969d71f911db330ca7a0d4b039265e611a2651b",
-      "bytes": 20680
+    "reuse_unchanged_title_view": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/extent/page-116.png",
+      "sha256": "ef436fc8e5f0957c66e58baafab149fd13c8748fe90539e3d5cee57c214a1336",
+      "bytes": 791438
     },
-    "draft_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/draft-inspection.json",
-      "sha256": "ef38ba8ea043a0cfe8bb0ccff5e6280055d21858494a30fc795e27dd00d1e739",
-      "bytes": 953
+    "following_canonical_entry": {
+      "toc_entry_id": "maso-1984-08-toc-0019",
+      "title": "도형정의표의 정복",
+      "byline": "김선호",
+      "canonical_first_page": 128
     },
-    "bounded_fallback": {
-      "region_id": "p113r19",
-      "engine": "tesseract",
-      "reason": "Selected Q draft contains only H andT;source diagram also has two zero labels,g andV candidates plusdownward arrow. Record one bounded same-crop Tfallback before source correction;preserve Qdraft/cost andcorrect only finalselecteddraft.",
-      "executed": false,
-      "same_crop_required": true,
-      "max_additional_calls": 1
-    }
+    "previous_goal_turn_classification": "progress:a4da0e0 mapped/reviewed/recognized/audited allfreefall113–115 raw evidence. This continuation executesoneboundeddiagramfallback,source-corrects all76drafts andvalidatescompletefullarticle.",
+    "action": "Commitcompletefreefall113–115,theninspect completeZ80articleextent andfollowingactualtitle beforemapping. Reuse unchanged116titleview;canonical128islookupaide,not sourceextentproof. Nextnativeboundedtomax6mappedpages/20outside-maplookups. Tclearprose,Qdenseassembly/code/formulas/structured/difficultreadings. Preserveindependentprograms,sourcecolumns/addresses/opcodes andphysicalrows,originalimages andliteralerrors/glyphuncertainties. WholeAugust JSON/assets remainsincomplete;no reading-room rebuild.",
+    "human_acceptance": "pending"
   },
   "raw_preparation_checkpoints": [
     {

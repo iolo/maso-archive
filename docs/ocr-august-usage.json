@@ -2379,6 +2379,96 @@
         "total_tokens": 106391,
         "uncached_nonwrite_input_tokens": 1514
       }
+    },
+    {
+      "id": "recovery-21-diagram",
+      "stage": "recovery",
+      "engine": "tesseract",
+      "start": "2026-10-12T19:18:53.741094+00:00",
+      "end": "2026-10-12T19:19:17.305327+00:00",
+      "elapsed_seconds": 23.56423282623291,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 127784,
+        "cached_input_tokens": 124800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 484,
+        "reasoning_output_tokens": 214,
+        "total_tokens": 128268,
+        "uncached_nonwrite_input_tokens": 2984
+      }
+    },
+    {
+      "id": "correction-21-source",
+      "stage": "correction",
+      "engine": "mixed",
+      "start": "2026-10-12T19:19:18.408736+00:00",
+      "end": "2026-10-12T19:26:15.568101+00:00",
+      "elapsed_seconds": 417.15936493873596,
+      "observed_responses": 11,
+      "tokens": {
+        "input_tokens": 1543578,
+        "cached_input_tokens": 1514368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14323,
+        "reasoning_output_tokens": 4152,
+        "total_tokens": 1557901,
+        "uncached_nonwrite_input_tokens": 29210
+      }
+    },
+    {
+      "id": "export-21-production",
+      "stage": "export",
+      "engine": "mixed",
+      "start": "2026-10-12T19:26:16.686034+00:00",
+      "end": "2026-10-12T19:28:40.712195+00:00",
+      "elapsed_seconds": 144.02616095542908,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 317705,
+        "cached_input_tokens": 310400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5880,
+        "reasoning_output_tokens": 827,
+        "total_tokens": 323585,
+        "uncached_nonwrite_input_tokens": 7305
+      }
+    },
+    {
+      "id": "evaluation-21-production",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-12T19:28:41.809624+00:00",
+      "end": "2026-10-12T19:29:50.824589+00:00",
+      "elapsed_seconds": 69.01496505737305,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 327137,
+        "cached_input_tokens": 324096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1856,
+        "reasoning_output_tokens": 827,
+        "total_tokens": 328993,
+        "uncached_nonwrite_input_tokens": 3041
+      }
+    },
+    {
+      "id": "reporting-21-production",
+      "stage": "reporting",
+      "engine": "mixed",
+      "start": "2026-10-12T19:29:51.939206+00:00",
+      "end": "2026-10-12T19:30:27.579997+00:00",
+      "elapsed_seconds": 35.640791177749634,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 165932,
+        "cached_input_tokens": 164224,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1081,
+        "reasoning_output_tokens": 88,
+        "total_tokens": 167013,
+        "uncached_nonwrite_input_tokens": 1708
+      }
     }
   ],
   "money_cost": null,
@@ -2386,33 +2476,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T19:17:20.232198+00:00",
-    "elapsed_seconds": 54774.232197999954,
-    "observed_responses": 1053,
+    "end": "2026-10-12T19:30:27.579997+00:00",
+    "elapsed_seconds": 55561.57999706268,
+    "observed_responses": 1077,
     "tokens": {
-      "input_tokens": 144776140,
-      "cached_input_tokens": 140338304,
+      "input_tokens": 148034252,
+      "cached_input_tokens": 143532288,
       "cache_write_input_tokens": 0,
-      "output_tokens": 822384,
-      "reasoning_output_tokens": 207855,
-      "total_tokens": 145598524,
-      "uncached_nonwrite_input_tokens": 4437836
+      "output_tokens": 847830,
+      "reasoning_output_tokens": 214439,
+      "total_tokens": 148882082,
+      "uncached_nonwrite_input_tokens": 4501964
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T19:17:20.232198+00:00",
-    "elapsed_seconds": 54774.232197999954,
-    "observed_responses": 120,
+    "end": "2026-10-12T19:30:27.579997+00:00",
+    "elapsed_seconds": 55561.57999706268,
+    "observed_responses": 127,
     "tokens": {
-      "input_tokens": 18760699,
-      "cached_input_tokens": 18458752,
+      "input_tokens": 19536675,
+      "cached_input_tokens": 19214848,
       "cache_write_input_tokens": 0,
-      "output_tokens": 45305,
-      "reasoning_output_tokens": 13664,
-      "total_tokens": 18806004,
-      "uncached_nonwrite_input_tokens": 301947
+      "output_tokens": 47127,
+      "reasoning_output_tokens": 14140,
+      "total_tokens": 19583802,
+      "uncached_nonwrite_input_tokens": 321827
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
