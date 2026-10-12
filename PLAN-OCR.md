@@ -3172,3 +3172,45 @@ commit code/documentation. Do not count a partial opening as a complete article.
   selections pending,two classified/four unclassified headings andzero human
   accepted. Next: separate full116–127 assembly,then next source title128 after
   extent inspection. Whole-issue JSON/assets closeout remains; no reading-room rebuild.
+
+
+## 2026-10-13 — Full August Z80 article116–127 assembled
+
+- Assembled the exact validated opening22 andending23 after ending commit e83d753.
+  Full116–127 coverage is readable under the JSON/assets scope:308 regions,283
+  selected readings,265 ordered blocks,25 original images and283 review ranges.
+  Canonical 기계어 강좌/이세형/parent0009/page116 remains unchanged.
+- The single cross-native121프로/122그램 join uses an empty separator. Its exact
+  interruptions remain: original flowchart,source-associated diagram labels,caption
+  and122 runningheading. A private pinned adapter validates the two native package/
+  source-index pins,diagram ownership andliteral same-article runningheading before
+  accepting these interruption types. Wrong order andan unrelated heading are
+  rejected. Shared pipeline files remain unchanged.
+- All522 unnumbered physical code/output/monitor rows and44 source groups remain
+  in native listing-byte order; no BASIC logical numbers orcross-native code merge
+  are invented. Source indexes preserve2,802 structured fields/499 blanks.
+  Four tables retain29 main rows/289 cells,20 key rows/40 key cells,56 header
+  cells and18 blank main cells. Three unprinted CALLcc timing values remain absent.
+  JR NZ andRETcc companion cells,physical dump interruptions andwrapped string
+  fragments retain exact native/global ranges.
+- Twenty figure associations andthree diagrams preserve original source assets
+  andconnections. All103 native flags remain unchanged. Twelve native joins
+  retain17 boundaries,includingtwo table companion joins;one cross-native boundary
+  is added.8,312 exact source ranges project into combined downloads while retaining
+  native coordinates. Human acceptance/full proofreading,encoded bytes andexecution
+  remain unverified.
+- Private validation initially treated the opening diagram's integer node count
+  as the ending's node-object list. The failed helper anddiagnostic are preserved
+  in z80-assembly-validation-recovery-01;schema-aware iteration passes without
+  changing source/native/assembled bytes orrepeating OCR.
+- Exact source coverage,review/table/header/key/diagram/field ranges andindependent
+  byte-identical rebuild pass. Both native package trees/all original metadata,
+  all31 prior production packages,priorraw/selected seals and16,790 pilot files
+  remain unchanged. No new mapping,OCR,pipeline,frontend/browser orreader work.
+- Export:`build/pdf-restoration/13-1984-08-adaptive/z80/`;source index:
+  `build/pdf-restoration/13-1984-08-adaptive-z80-source-index/source-index.json`;
+  audit:`private/pdf-restoration/13-1984-08-adaptive/z80-assembly-validation.json`.
+  August now has16 complete articles,zero partial,15 untouched bodies,six pilot
+  selections pending,two classified/four unclassified headings andzero human
+  accepted. Next:source-verify fullactualextent of도형정의표의 정복/김선호
+  beginning128 before mapping its opening. Whole-issue JSON/assets closeout remains.
