@@ -1730,6 +1730,401 @@
         }
       ],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-12",
+      "toc_entry_id": "maso-1984-08-toc-0013",
+      "title": "영어 교육용 시스템",
+      "source_pages": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p75r01": "tesseract",
+        "p75r02": "tesseract",
+        "p75r03": "tesseract",
+        "p75r04": "tesseract",
+        "p75r06": "tesseract",
+        "p75r07": "tesseract",
+        "p75r08": "tesseract",
+        "p75r09": "tesseract",
+        "p75r10": "tesseract",
+        "p75r11": "tesseract",
+        "p75r12": "tesseract",
+        "p75r14": "tesseract",
+        "p75r15": "tesseract",
+        "p75r16": "tesseract",
+        "p75r18": "tesseract",
+        "p75r19": "tesseract",
+        "p75r20": "tesseract",
+        "p76r01": "tesseract",
+        "p76r02": "tesseract",
+        "p76r03": "tesseract",
+        "p76r05": "tesseract",
+        "p76r06": "tesseract",
+        "p76r07": "tesseract",
+        "p76r08": "tesseract",
+        "p76r09": "tesseract",
+        "p76r10": "tesseract",
+        "p76r11": "tesseract",
+        "p76r12": "tesseract",
+        "p76r13": "qwen",
+        "p76r14": "qwen",
+        "p76r15": "qwen",
+        "p76r16": "qwen",
+        "p76r17": "qwen",
+        "p76r18": "qwen",
+        "p76r19": "qwen",
+        "p76r20": "qwen",
+        "p76r21": "qwen",
+        "p76r22": "qwen",
+        "p76r23": "qwen",
+        "p76r24": "tesseract",
+        "p77r01": "qwen",
+        "p77r02": "qwen",
+        "p77r03": "qwen",
+        "p77r04": "qwen",
+        "p77r05": "qwen",
+        "p77r06": "qwen",
+        "p77r07": "qwen",
+        "p77r08": "qwen",
+        "p77r09": "qwen",
+        "p77r10": "qwen",
+        "p77r11": "qwen",
+        "p77r12": "qwen",
+        "p77r13": "qwen",
+        "p77r14": "qwen",
+        "p77r15": "qwen",
+        "p77r16": "qwen",
+        "p77r17": "qwen",
+        "p77r18": "qwen",
+        "p77r19": "qwen",
+        "p77r20": "qwen",
+        "p77r21": "qwen",
+        "p77r22": "qwen",
+        "p77r23": "qwen",
+        "p77r24": "qwen",
+        "p78r01": "qwen",
+        "p78r02": "qwen",
+        "p78r03": "qwen",
+        "p78r04": "qwen",
+        "p78r05": "qwen",
+        "p78r06": "qwen",
+        "p78r07": "qwen",
+        "p78r08": "qwen",
+        "p78r09": "qwen",
+        "p78r10": "qwen",
+        "p78r11": "qwen",
+        "p78r12": "qwen",
+        "p78r13": "qwen",
+        "p78r14": "qwen",
+        "p78r15": "qwen",
+        "p78r16": "qwen",
+        "p78r17": "qwen",
+        "p78r18": "qwen",
+        "p78r19": "qwen",
+        "p78r20": "qwen",
+        "p78r21": "qwen",
+        "p78r22": "qwen",
+        "p78r23": "qwen",
+        "p78r24": "qwen",
+        "p79r01": "qwen",
+        "p79r02": "qwen",
+        "p79r03": "qwen",
+        "p79r04": "qwen",
+        "p79r05": "qwen",
+        "p79r06": "qwen",
+        "p79r07": "qwen",
+        "p79r08": "qwen",
+        "p79r09": "qwen",
+        "p79r10": "qwen",
+        "p79r11": "qwen",
+        "p79r12": "qwen",
+        "p79r13": "qwen",
+        "p79r14": "qwen",
+        "p79r15": "qwen",
+        "p79r16": "qwen",
+        "p79r17": "qwen",
+        "p79r18": "qwen",
+        "p79r19": "qwen",
+        "p79r20": "qwen",
+        "p79r21": "qwen",
+        "p79r22": "qwen",
+        "p79r23": "qwen",
+        "p79r24": "qwen",
+        "p80r01": "qwen",
+        "p80r02": "qwen",
+        "p80r03": "qwen",
+        "p80r04": "qwen",
+        "p80r05": "qwen",
+        "p80r06": "tesseract",
+        "p80r07": "qwen",
+        "p80r08": "qwen",
+        "p80r09": "qwen",
+        "p80r10": "qwen",
+        "p80r11": "qwen"
+      },
+      "assignment_reason": "Reuse clear same-magazine prose/headings/captions Tesseract route;Qwen all dense six-physical-row BASIC crops including bitmap Hangul and cross-column continuations. Original screens/photo preserved without recognition. No new representative probe can change established routes.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-12/english-education/article.json",
+          "sha256": "1909a13ca6bcef2520e7cae0d4580393b2d46d91997ac83892a24114c8ec3c08",
+          "bytes": 215410
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-12/english-education/manifest.json",
+          "sha256": "9623156c176ffa6311d111b97a2a5e2e235446e5fe2330f136d1850c38244138",
+          "bytes": 83011
+        },
+        "source_pages": [
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "regions": 128,
+        "text_regions": 123,
+        "figures": 5,
+        "physical_listing_rows": 553,
+        "logical_listing_rows": 331,
+        "unresolved_entries": 112,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/map.json",
+        "sha256": "176524b7da5cef69c4120cdccebc81d6cef0a2b96468b55eb23887d50ff356be",
+        "bytes": 37825
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/source-review-ledger.json",
+        "sha256": "fa52438aacf7325df388ebc8ab7c223db2cf75d34ff448d8aabfa5aaabe5dda6",
+        "bytes": 14657
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 38593,
+        "completion_tokens": 9799,
+        "total_tokens": 48392
+      },
+      "qwen_completed_calls": 97,
+      "qwen_recognition_seconds": 236.34100517501065,
+      "tesseract_recognition_seconds": 4.998218230961356,
+      "preparation_probe_seconds": 0,
+      "repair": {
+        "original_run_preserved": "ocr-original",
+        "records": [
+          {
+            "region_id": "p77r09",
+            "kind": "code",
+            "old_bbox": [
+              0.08024036762106751,
+              0.6525,
+              0.4301873453517144,
+              0.7185
+            ],
+            "new_bbox": [
+              0.08024036762106751,
+              0.6525,
+              0.4301873453517144,
+              0.7145
+            ],
+            "original_image": {
+              "path": "ocr-page77/p77r09.png",
+              "sha256": "2d791fa0c6f7eee6bed0fcfd231439a29c97f825ef2c9f71329ba6677bbbfe2c",
+              "bytes": 100261
+            },
+            "revised_image": {
+              "path": "ocr-page77/p77r09.png",
+              "sha256": "4e82cc07f4bdceaaa1fadee0a07e42886972b3ec471635fc556c80c3cbf64796",
+              "bytes": 97844
+            },
+            "reason": "Source correction identified a lone closing parenthesis and final digit2 crossing initial segmentation cuts. Move two paired boundaries into source whitespace;preserve all original OCR and infer only four changed crops."
+          },
+          {
+            "region_id": "p77r10",
+            "kind": "code",
+            "old_bbox": [
+              0.08024036762106751,
+              0.7185,
+              0.4301873453517144,
+              0.7855
+            ],
+            "new_bbox": [
+              0.08024036762106751,
+              0.7145,
+              0.4301873453517144,
+              0.7855
+            ],
+            "original_image": {
+              "path": "ocr-page77/p77r10.png",
+              "sha256": "b81d90e7a02947783b04ed592f0c693fa9f0769e69fb1b4036f7da060703f6fc",
+              "bytes": 86456
+            },
+            "revised_image": {
+              "path": "ocr-page77/p77r10.png",
+              "sha256": "b5b2706e3273d72e823d7066017b2c4bf07aca9482ff517bc0f370a349cbbe4b",
+              "bytes": 89047
+            },
+            "reason": "Source correction identified a lone closing parenthesis and final digit2 crossing initial segmentation cuts. Move two paired boundaries into source whitespace;preserve all original OCR and infer only four changed crops."
+          },
+          {
+            "region_id": "p80r08",
+            "kind": "code",
+            "old_bbox": [
+              0.5846588900671615,
+              0.28425,
+              0.944503358077059,
+              0.35025
+            ],
+            "new_bbox": [
+              0.5846588900671615,
+              0.28425,
+              0.944503358077059,
+              0.345
+            ],
+            "original_image": {
+              "path": "ocr-page80/p80r08.png",
+              "sha256": "0446dd46e5ea5c907aaab3b3aea882839971f26f08c70fb35181046957a26e6f",
+              "bytes": 114627
+            },
+            "revised_image": {
+              "path": "ocr-page80/p80r08.png",
+              "sha256": "d3598368036cc1a881be97274b0784acac310d5892bc756c44a06f241c6a0331",
+              "bytes": 110372
+            },
+            "reason": "Source correction identified a lone closing parenthesis and final digit2 crossing initial segmentation cuts. Move two paired boundaries into source whitespace;preserve all original OCR and infer only four changed crops."
+          },
+          {
+            "region_id": "p80r09",
+            "kind": "code",
+            "old_bbox": [
+              0.5846588900671615,
+              0.35025,
+              0.944503358077059,
+              0.42725
+            ],
+            "new_bbox": [
+              0.5846588900671615,
+              0.345,
+              0.944503358077059,
+              0.42725
+            ],
+            "original_image": {
+              "path": "ocr-page80/p80r09.png",
+              "sha256": "590729ac6951191a10371091fb4792195eeb2d5fca7c6763b90924c63f4102ba",
+              "bytes": 122437
+            },
+            "revised_image": {
+              "path": "ocr-page80/p80r09.png",
+              "sha256": "2ed9352845d864a3869b950ae1a6c383f051a2cd28f6f86abf007cf5dac89458",
+              "bytes": 126815
+            },
+            "reason": "Source correction identified a lone closing parenthesis and final digit2 crossing initial segmentation cuts. Move two paired boundaries into source whitespace;preserve all original OCR and infer only four changed crops."
+          }
+        ],
+        "additional_inferences": 4,
+        "tesseract_regions": 0,
+        "qwen_regions": 4,
+        "figures_recropped": 0,
+        "timing_seconds": {
+          "p77r09": 1.387649871991016,
+          "p77r10": 2.657005307992222,
+          "p80r08": 3.336091310993652,
+          "p80r09": 3.351374867997947
+        },
+        "elapsed_seconds": 24.538380031997804,
+        "policy": "Four changed code crops repaired once;all123 initial selected drafts plus two failed Qwen attempts preserved. All unchanged crops reused without inference. Original raw-preservation inventory resolves original ocr paths through ocr-original."
+      },
+      "raw_worker": {
+        "started_at": "2026-10-12T12:10:36.012748+00:00",
+        "finished_at": "2026-10-12T12:15:07.108392+00:00",
+        "elapsed_seconds": 271.0956540340121,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 93,
+          "tesseract_inferences": 30,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "successful_local_qwen_tokens": {
+        "prompt_tokens": 37863,
+        "completion_tokens": 8775,
+        "total_tokens": 46638
+      },
+      "failed_qwen_attempts": [
+        {
+          "region_id": "p76r24",
+          "response": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/failed-attempt-01/p76r24/inference.response.json",
+            "sha256": "3a93f14c7bdbb9351f453c0f6cbe99ab793ff0e5e6409069bd5e26893471a8a7",
+            "bytes": 2221
+          },
+          "failure": {
+            "type": "ValueError",
+            "error": "Incomplete model response (length); raw response retained"
+          },
+          "usage": {
+            "completion_tokens": 512,
+            "prompt_tokens": 333,
+            "total_tokens": 845,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "server_compute_seconds": 11.149594,
+          "client_wall_seconds": null,
+          "finish_reason": "length",
+          "fallback_engine": "tesseract"
+        },
+        {
+          "region_id": "p80r06",
+          "response": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/failed-attempt-01/p80r06/inference.response.json",
+            "sha256": "262c3eb47257f68988da4cdc0bed5afddac45bf53d325c7b15ec089e45a40b80",
+            "bytes": 2483
+          },
+          "failure": {
+            "type": "ValueError",
+            "error": "Incomplete model response (length); raw response retained"
+          },
+          "usage": {
+            "completion_tokens": 512,
+            "prompt_tokens": 397,
+            "total_tokens": 909,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "server_compute_seconds": 14.929856,
+          "client_wall_seconds": null,
+          "finish_reason": "length",
+          "fallback_engine": "tesseract"
+        }
+      ],
+      "qwen_failed_calls": 2,
+      "failed_qwen_server_compute_seconds": 26.07945,
+      "failure_cost_limitation": "All failed model tokens included. Failed server prompt/generation time is separate from successful client recognition time; failed client wall duration unmeasured, not inferred."
     }
   ],
   "assemblies": [
@@ -2723,6 +3118,22 @@
             "sha256": "e1143ffa775f1d4c861ca9472b47f355a8800b55f04def34f4ff20d9ed4279e2",
             "bytes": 162399
           }
+        },
+        {
+          "batch": "batch-12",
+          "source_pages": [
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-12/english-education/article.json",
+            "sha256": "1909a13ca6bcef2520e7cae0d4580393b2d46d91997ac83892a24114c8ec3c08",
+            "bytes": 215410
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -2731,15 +3142,15 @@
         71,
         72,
         73,
-        74
-      ],
-      "deferred_pdf_pages": [
+        74,
         75,
         76,
         77,
         78,
         79,
-        80,
+        80
+      ],
+      "deferred_pdf_pages": [
         81,
         82,
         83,
@@ -3144,7 +3555,7 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-12",
+    "batch": "batch-13",
     "toc_entry_id": "maso-1984-08-toc-0013",
     "article_extent_verified": true,
     "article_pdf_pages": [
@@ -3169,20 +3580,14 @@
       87
     ],
     "planned_source_pages": [
-      75,
-      76,
-      77,
-      78,
-      79,
-      80
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
     ],
     "remaining_source_pages": [
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
       81,
       82,
       83,
@@ -3190,6 +3595,20 @@
       85,
       86,
       87
+    ],
+    "covered_source_pages": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
     ],
     "immutable_extent": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/extent-inspection.json",
@@ -3201,63 +3620,18 @@
       "sha256": "e1143ffa775f1d4c861ca9472b47f355a8800b55f04def34f4ff20d9ed4279e2",
       "bytes": 162399
     },
-    "action": "Source-correct mixed drafts75–80 against all source crops before exporting a middle segment. Count physical LIST1 rows and printed statement labels independently;preserve bitmap Hangul,hidden controls,wrapped statements and repeated decoration uncertainties. Preserve both failed Qwen attempts and same-crop fallbacks. No raw draft is production coverage. Remaining81–87 natives and full69–87 assembly still required;join74다음 문/75제로 and75원하/76는 only with source-confirmed partitions. Reuse successful raw evidence without new OCR.",
+    "middle": {
+      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-12/english-education/article.json",
+      "sha256": "1909a13ca6bcef2520e7cae0d4580393b2d46d91997ac83892a24114c8ec3c08",
+      "bytes": 215410
+    },
+    "middle_validation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/validation.json",
+      "sha256": "13a836bfab16d631148a01e7596c1debb1214401fb1aff898d9ac952799ac52e",
+      "bytes": 1007
+    },
+    "action": "Reuse full source-verified69–87 extent and inspect preserved81–86 views at mapping resolution. Restore a bounded six-page ending segment:LIST1 ending81,LIST2 81–84 andLIST3 opening84–86. Remaining87 and full immutable69–87 assembly required. Preserve physical rows,bitmap Hangul,hidden controls and separate LIST1/LIST2/LIST3 groups;do not infer encoded bytes. Before OCR catch standalone closing quote/parenthesis and wrapped numeric rows when choosing whitespace crop boundaries. Apply documented repeated-glyph Tesseract exception to same-pattern divider crops. Unchanged69–80 evidence remains sealed;last3290 on80 is followed by3300 on81 without a physical-row join.",
     "reading_room_rebuild": false,
-    "human_acceptance": "pending",
-    "status": "raw-ocr-complete-source-correction-pending",
-    "routing_observation": "Both capped generations looped on repeated bitmap divider glyphs. For later same-pattern crops apply the documented repeated-glyph Tesseract exception,while preserving source images and counting glyphs during correction. This observation does not establish a general code/prose cost winner.",
-    "raw_middle": {
-      "map": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/map.json",
-        "sha256": "55d9c1dc30767bf4b57de854f93d52590d4bdac56a424ac5fdd452d46a970964",
-        "bytes": 37829
-      },
-      "audit": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/raw-ocr-audit.json",
-        "sha256": "31e14bb27ee18f062afe81f48a69cb8816f72c690ae3cfb531757a9319d67fa3",
-        "bytes": 7636
-      },
-      "evidence_inventory": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/raw-preservation.json",
-        "sha256": "d3d1509459cd69ba80df9c579db056f91ce23b054df6dd31eff048cfcb9800fe",
-        "bytes": 172955
-      },
-      "mapped_pages": [
-        75,
-        76,
-        77,
-        78,
-        79,
-        80
-      ],
-      "raw_text_regions": 123,
-      "figures": 5,
-      "qwen_calls": 95,
-      "successful_qwen_calls": 93,
-      "tesseract_calls": 30,
-      "failed_calls": 2,
-      "bounded_fallbacks": 2,
-      "local_qwen_tokens": {
-        "prompt_tokens": 36926,
-        "completion_tokens": 9403,
-        "total_tokens": 46329
-      },
-      "local_qwen_successful_tokens": {
-        "prompt_tokens": 36196,
-        "completion_tokens": 8379,
-        "total_tokens": 44575
-      },
-      "local_qwen_failed_tokens": {
-        "prompt_tokens": 730,
-        "completion_tokens": 1024,
-        "total_tokens": 1754
-      },
-      "qwen_successful_recognition_seconds": 225.6088838160358,
-      "tesseract_recognition_seconds": 4.998218230961356,
-      "failed_qwen_server_compute_seconds": 26.07945,
-      "count_limitation": "pending independent source correction count",
-      "source_correction": "pending",
-      "export": "not-created"
-    }
+    "human_acceptance": "pending"
   }
 }

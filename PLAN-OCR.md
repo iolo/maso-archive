@@ -2751,3 +2751,38 @@ commit code/documentation. Do not count a partial opening as a complete article.
  accepted. Human proofreading,source bytes and historical execution unverified.
 - Next:correct75–80 prose and LIST1 physical rows,export/validate/commit the middle.
  Then restore81–87 and assemble all69–87. August incomplete;JSON/assets only.
+
+### August English education75–80 production segment complete, 2026-10-12
+
+- Corrected/exported123 selected mixed drafts across75–80 of full69–87.128 regions
+ retain122 ordered blocks,five original images and123 text review ranges. Prose
+ 75원하/76는 joins;incoming75제로 awaits74다음 문 in full assembly.
+- LIST1 retains553 ink-bearing physical rows,331 numbered statements and222 wraps
+ in one program group. Source1463/2370 cross columns with four parts each.
+ Indented2850/3003 targets and final argument digit2 remain continuations,not labels.
+- Source correction caught two initial cuts bisecting a lone parenthesis/digit2.
+ Four crops repaired/re-inferred once;all original raw evidence/maps and two capped
+ Qwen attempts preserved. All32 original panels/four revised crops reviewed.
+ Final direct ink-component check passes;542 projection bands were not row counts.
+- Original93Q/30T selected results plus four Q crop repairs:97 successful Q
+ inferences,2 failed Q attempts and30T calls. Q48,392 local tokens includes all
+ failures;successful Q client recognition236.341s,T4.998s and failed Q server
+ compute26.079s remain separate diagnostics. Local monetary weight zero.
+- Source580,L-25,DR-shaped operator,incomplete RUN TEST.D,PERFECT filename and
+ historical spellings retained.112 source flags include marked bitmap/glyph aids;
+ hidden controls,exact source bytes,full proofreading and execution unverified.
+ Screens12–15/photo retained;screen13 has no invented printed caption.
+- Original optional component diagnostic lacked scipy;direct pixel method recovered
+ without dependency installation. Validator figure-field lookup corrected with
+ initial script retained;no source/export change. Stale worker console count6 is
+ retained;four actual repair stages and authoritative JSON count4 verified.
+- Source/crop/model request hashes,stop/fallback outcomes,exact character/UTF-8
+ review ranges,independent physical/logical partitions and byte-identical rebuild
+ pass.15 prior production packages and16,790 sealed pilot files unchanged.
+ Export:`build/pdf-restoration/13-1984-08-adaptive-batch-12/english-education/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-12/validation.json`.
+- Totals remain ten complete,one partial English now69–80,20 untouched,six pilots
+ pending selection,two headings classified/four remaining;zero human accepted.
+- Next:map81–86 within six-page limit,then87 and full69–87 assembly. Reuse full
+ extent and successful evidence;catch short glyph rows before OCR and use documented
+ repeated-glyph exception. Whole August incomplete;JSON/assets only.
