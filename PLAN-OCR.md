@@ -2641,3 +2641,31 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next:source-check 기초 테크닉 코너/PASSWORD & LOGIN65–68 against English69,
  then reuse selected immutable aug-04 pilot in a separate production revision.
  JSON/assets only;reading room and unrelated web change remain untouched.
+
+### August PASSWORD & LOGIN65–68 production selection complete, 2026-10-12
+
+- Full65–69 boundary and all79 pilot regions rechecked:73 text crops and six
+ original images retain71 ordered blocks. Source69 begins 영어 교육용 시스템.
+ Canonical 기초 테크닉 코너 identity/byline/parent unchanged.
+- Reuse immutable Qwen aug-04-A draft/raw/maps/runtime;one source-confirmed
+ residual repair restores first PASWORD in p68r13. Other72 regional transcriptions
+ and all listing bytes unchanged. No new OCR/local tokens,crop repairs or dual
+ correction. Original paired pilot remains sealed with its known quality findings.
+- Ten independent code groups retain119 physical rows/103 numbered statements,
+ eight nonblank continuations,five blank rows,]LIST prompt and two monitor commands.
+ Original incomplete PRINT"LOGIN,WELLCOME,PASS WORD,target220 and INKEY$(1)
+ preserved.14 source flags retain literal/space uncertainties;no execution or
+ encoded-byte certification. Mandatory human review remains pending.
+- Source/crop/request/stop outcomes,exact reused raw/stage files,complete regional
+ character coverage,UTF-8 review ranges,independent source-label counts and physical/
+ logical/unnumbered partitions pass. Exact rebuild,13 prior production packages
+ and16,790 sealed pilot files unchanged. Two validator assumptions corrected with
+ initial scripts retained:pilot stages lack result.json;Counter requires row keys.
+ No source or export changed during validator recovery.
+- Export:`build/pdf-restoration/13-1984-08-adaptive/password-login/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/pilot-aug-04/validation.json`.
+ Ten production articles complete,21 untouched,six pilots awaiting selection,
+ two headings classified/four remaining;zero human accepted. August incomplete.
+- Next:inspect full English education article69 onward against CP/M90,then
+ restore a bounded opening segment and retain remaining source scope for assembly.
+ JSON/assets only;reading room and unrelated web edit remain untouched.

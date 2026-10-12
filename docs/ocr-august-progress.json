@@ -15,14 +15,14 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 9,
-    "sealed-pilot-review-pending": 7,
+    "assistant-restored-human-pending": 10,
+    "sealed-pilot-review-pending": 6,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
     "untouched": 21
   },
-  "sealed_pilot_articles": 7,
-  "production_complete_articles": 9,
+  "sealed_pilot_articles": 6,
+  "production_complete_articles": 10,
   "production_partial_articles": 0,
   "untouched_articles": 21,
   "unclassified_heading_entries": 4,
@@ -1736,6 +1736,68 @@
       },
       "human_acceptance": "pending",
       "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-02/selection-and-repairs.json"
+    },
+    {
+      "toc_entry_id": "maso-1984-08-toc-0012",
+      "title": "기초 테크닉 코너",
+      "engine": "qwen",
+      "selected_pilot": "aug-04-A",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/password-login/article.json",
+        "sha256": "cbeb9c88778601636556415fe5678f19878a9cafc7170977f39a8e3a130b0bc3",
+        "bytes": 127013
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/password-login/manifest.json",
+        "sha256": "e24e984b706762afc913c2f676ddf9134cac9c5b13aec9050c9d351d594f46e6",
+        "bytes": 50487
+      },
+      "source_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "regions": 79,
+      "text_regions": 73,
+      "figures": 6,
+      "physical_listing_rows": 119,
+      "logical_listing_rows": 103,
+      "unresolved_entries": 14,
+      "complete_article": true,
+      "ordered_blocks": 71,
+      "new_ocr_calls": 0,
+      "new_local_tokens": 0,
+      "checks": {
+        "status": "passed",
+        "regions": 79,
+        "text_regions": 73,
+        "figures": 6,
+        "ordered_blocks": 71,
+        "physical_listing_rows": 119,
+        "logical_listing_rows": 103,
+        "independent_listing_groups": 10,
+        "physical_blank_rows": 5,
+        "numbered_nonblank_continuations": 8,
+        "source_hash": true,
+        "crop_pixels": true,
+        "reused_raw_text_settings_positions_exact": true,
+        "reused_qwen_image_hashes_stop_outcomes": true,
+        "one_source_confirmed_region_change": true,
+        "listing_bytes_unchanged": true,
+        "physical_logical_and_unnumbered_partition": true,
+        "all_review_ranges": true,
+        "all_regional_characters_once": true,
+        "byte_identical_rebuild": true,
+        "preserved_pilot_files": 16790,
+        "prior_production_packages_verified": 13,
+        "unresolved_entries": 14,
+        "new_ocr_calls": 0,
+        "human_acceptance": "pending",
+        "scope": "Complete PASSWORD & LOGIN65–68; remaining August articles still required."
+      },
+      "human_acceptance": "pending",
+      "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-04/selection-and-repairs.json"
     }
   ],
   "entries": [
@@ -2362,9 +2424,84 @@
       "page": 65,
       "kind": "article",
       "articleIds": [],
-      "status": "sealed-pilot-review-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": "aug-04"
+      "pilot_pair": "aug-04",
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/password-login/article.json",
+        "sha256": "cbeb9c88778601636556415fe5678f19878a9cafc7170977f39a8e3a130b0bc3",
+        "bytes": 127013
+      },
+      "deferred_pdf_pages": [],
+      "covered_pdf_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "production_selection": {
+        "toc_entry_id": "maso-1984-08-toc-0012",
+        "title": "기초 테크닉 코너",
+        "engine": "qwen",
+        "selected_pilot": "aug-04-A",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/password-login/article.json",
+          "sha256": "cbeb9c88778601636556415fe5678f19878a9cafc7170977f39a8e3a130b0bc3",
+          "bytes": 127013
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/password-login/manifest.json",
+          "sha256": "e24e984b706762afc913c2f676ddf9134cac9c5b13aec9050c9d351d594f46e6",
+          "bytes": 50487
+        },
+        "source_pages": [
+          65,
+          66,
+          67,
+          68
+        ],
+        "regions": 79,
+        "text_regions": 73,
+        "figures": 6,
+        "physical_listing_rows": 119,
+        "logical_listing_rows": 103,
+        "unresolved_entries": 14,
+        "complete_article": true,
+        "ordered_blocks": 71,
+        "new_ocr_calls": 0,
+        "new_local_tokens": 0,
+        "checks": {
+          "status": "passed",
+          "regions": 79,
+          "text_regions": 73,
+          "figures": 6,
+          "ordered_blocks": 71,
+          "physical_listing_rows": 119,
+          "logical_listing_rows": 103,
+          "independent_listing_groups": 10,
+          "physical_blank_rows": 5,
+          "numbered_nonblank_continuations": 8,
+          "source_hash": true,
+          "crop_pixels": true,
+          "reused_raw_text_settings_positions_exact": true,
+          "reused_qwen_image_hashes_stop_outcomes": true,
+          "one_source_confirmed_region_change": true,
+          "listing_bytes_unchanged": true,
+          "physical_logical_and_unnumbered_partition": true,
+          "all_review_ranges": true,
+          "all_regional_characters_once": true,
+          "byte_identical_rebuild": true,
+          "preserved_pilot_files": 16790,
+          "prior_production_packages_verified": 13,
+          "unresolved_entries": 14,
+          "new_ocr_calls": 0,
+          "human_acceptance": "pending",
+          "scope": "Complete PASSWORD & LOGIN65–68; remaining August articles still required."
+        },
+        "human_acceptance": "pending",
+        "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-04/selection-and-repairs.json"
+      }
     },
     {
       "id": "maso-1984-08-toc-0013",
@@ -2773,16 +2910,10 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "production-pilot-aug-04",
-    "toc_entry_id": "maso-1984-08-toc-0012",
-    "source_pages": [
-      65,
-      66,
-      67,
-      68
-    ],
+    "batch": "batch-11",
+    "toc_entry_id": "maso-1984-08-toc-0013",
     "article_extent_verified": false,
-    "action": "Reinspect full65–69 boundary and all existing aug-04 pilot crops; select a preserved draft into a separate production revision, repair source-confirmed residuals and validate independent listing groups. No new OCR on unchanged crops.",
+    "action": "Inspect complete English education article from69 through CP/M90 boundary. Choose a bounded opening segment; preserve long listing continuation for later natives and full assembly. Reuse successful evidence and route prose/code separately.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }
