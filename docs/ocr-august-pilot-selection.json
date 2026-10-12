@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-08",
+  "status": "selected-protocol-frozen-before-ocr",
+  "source": {
+    "path": "maso-pdf/maso-8408.pdf",
+    "sha256": "501c231e723a0cbc909b2be8cdbb0ea03ab75594913146d9b0d49b07ebb23972",
+    "bytes": 96490443
+  },
+  "canonical_toc": {
+    "path": "build/reading-room-routed-july-complete/data/issues/1984-08.json",
+    "sha256": "538855fa3ddaa036bf4e19a7839b136678ceecc4b6630bfd7649c3415d55237e",
+    "bytes": 7877
+  },
+  "scope": {
+    "articles": 8,
+    "unique_source_pages": 28,
+    "planned_restorations": 16,
+    "planned_source_page_passes": 56
+  },
+  "selection_basis": "Purposive layout-stratified pilot chosen before either OCR output; not a representative random issue sample. Whole selected articles, excluding unrelated ads. Boundaries checked on sources and adjacent pages.",
+  "page_mapping": "For selected pages, 1-based PDF page equals printed page. July +4 offset does not apply.",
+  "order": {
+    "seed": 198408,
+    "method": "Python random.Random(198408): shuffle [qwen,tesseract] for the first two instrumentation pairs, then shuffle three qwen and three tesseract first assignments for the remaining six. Four first assignments per engine overall.",
+    "frozen": true
+  },
+  "cost": {
+    "local_compute": 0,
+    "local_tokens": 0,
+    "local_runtime": 0,
+    "paid_assistant": "Observed uncached/cached/cache-write input and output; reasoning is already part of output.",
+    "currency_rates": null,
+    "human_review": "Mandatory; record separately, no assumed monetary rate."
+  },
+  "execution": {
+    "independent_contexts_required": true,
+    "paired_semantic_correction_started": false,
+    "reading_room_rebuild": false
+  },
+  "articles": [
+    {
+      "pair_id": "aug-01",
+      "slug": "editorial",
+      "toc_entry_id": "maso-1984-08-toc-0037",
+      "title": "편집자 노트",
+      "printed_pages": [
+        20
+      ],
+      "pdf_pages": [
+        20
+      ],
+      "page_count": 1,
+      "category": "clean-prose",
+      "selection_reason": "Narrow, ordinary Korean columns; one-page low-cost baseline.",
+      "article_boundary_status": "source-visually-checked",
+      "first_engine": "tesseract",
+      "second_engine": "qwen",
+      "phase": "instrumentation-pair",
+      "status": "selected-not-started",
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-02",
+      "slug": "short-basic",
+      "toc_entry_id": "maso-1984-08-toc-0004",
+      "title": "죽음의 스키",
+      "printed_pages": [
+        37,
+        38
+      ],
+      "pdf_pages": [
+        37,
+        38
+      ],
+      "page_count": 2,
+      "category": "short-basic-with-graphics",
+      "selection_reason": "Short BASIC game with prose, photographic header and literal graphic/symbol rows.",
+      "article_boundary_status": "source-visually-checked",
+      "first_engine": "qwen",
+      "second_engine": "tesseract",
+      "phase": "instrumentation-pair",
+      "status": "selected-not-started",
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-03",
+      "slug": "contest",
+      "toc_entry_id": "maso-1984-08-toc-0042",
+      "title": "공모총평",
+      "printed_pages": [
+        237
+      ],
+      "pdf_pages": [
+        237
+      ],
+      "page_count": 1,
+      "category": "prose-with-small-table",
+      "selection_reason": "Editorial-style Korean prose plus a small results table; page238 is a separate call for submissions.",
+      "article_boundary_status": "source-visually-checked",
+      "first_engine": "qwen",
+      "second_engine": "tesseract",
+      "phase": "remaining-pilot",
+      "status": "selected-not-started",
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-04",
+      "slug": "basic-technique",
+      "toc_entry_id": "maso-1984-08-toc-0012",
+      "title": "기초 테크닉 코너",
+      "printed_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "pdf_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "page_count": 4,
+      "category": "mixed-basic-and-flowcharts",
+      "selection_reason": "Several short listings interspersed with explanations, flowcharts and images.",
+      "article_boundary_status": "source-visually-checked",
+      "first_engine": "qwen",
+      "second_engine": "tesseract",
+      "phase": "remaining-pilot",
+      "status": "selected-not-started",
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-05",
+      "slug": "visicalc",
+      "toc_entry_id": "maso-1984-08-toc-0024",
+      "title": "VISICALC 활용",
+      "printed_pages": [
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "pdf_pages": [
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "page_count": 5,
+      "category": "formulas-tables-and-screens",
+      "selection_reason": "Spreadsheet formulas, financial examples, tabular values and screen images; left-side ad on181 excluded.",
+      "article_boundary_status": "source-visually-checked",
+      "first_engine": "qwen",
+      "second_engine": "tesseract",
+      "phase": "remaining-pilot",
+      "status": "selected-not-started",
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-06",
+      "slug": "hardware",
+      "toc_entry_id": "maso-1984-08-toc-0026",
+      "title": "PIA 시리즈2 미니네온사인의 제작",
+      "printed_pages": [
+        196,
+        197,
+        198,
+        199
+      ],
+      "pdf_pages": [
+        196,
+        197,
+        198,
+        199
+      ],
+      "page_count": 4,
+      "category": "hardware-diagrams-and-registers",
+      "selection_reason": "Circuit/pinout diagrams, register/bit tables and short BASIC examples; unrelated ads197–198 excluded.",
+      "article_boundary_status": "source-visually-checked",
+      "first_engine": "tesseract",
+      "second_engine": "qwen",
+      "phase": "remaining-pilot",
+      "status": "selected-not-started",
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-07",
+      "slug": "editor-code",
+      "toc_entry_id": "maso-1984-08-toc-0029",
+      "title": "베이직 코맨드 에디터",
+      "printed_pages": [
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "pdf_pages": [
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "page_count": 7,
+      "category": "longer-basic-assembly-and-hex",
+      "selection_reason": "Longer BASIC listing plus assembly/hex examples, command strings and terminal figures; lower220 ad excluded.",
+      "article_boundary_status": "source-visually-checked",
+      "first_engine": "tesseract",
+      "second_engine": "qwen",
+      "phase": "remaining-pilot",
+      "status": "selected-not-started",
+      "human_acceptance": "pending"
+    },
+    {
+      "pair_id": "aug-08",
+      "slug": "qa",
+      "toc_entry_id": "maso-1984-08-toc-0043",
+      "title": "Q&A",
+      "printed_pages": [
+        262,
+        263,
+        264,
+        265
+      ],
+      "pdf_pages": [
+        262,
+        263,
+        264,
+        265
+      ],
+      "page_count": 4,
+      "category": "mixed-technical-qa",
+      "selection_reason": "Question/answer prose, commands, small assembly listings and addressed byte tables;266 is separate ad/index.",
+      "article_boundary_status": "source-visually-checked",
+      "first_engine": "tesseract",
+      "second_engine": "qwen",
+      "phase": "remaining-pilot",
+      "status": "selected-not-started",
+      "human_acceptance": "pending"
+    }
+  ]
+}

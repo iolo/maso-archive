@@ -2133,3 +2133,24 @@ commit code/documentation. Do not count a partial opening as a complete article.
   last confirmed browser action; uninstrumented tail stays in between-window usage.
   Final audit has an explicit cutoff; the subsequent commit/report tail is excluded.
   Restoration,metrics and preview goal complete; next work awaits human review.
+
+### August paired-cost pilot selected, 2026-10-12
+
+- User approved choosing varied August articles for the proposed paired-cost pilot.
+  Selected eight complete articles totaling28 source pages (16 planned restorations,
+  56 page passes):editorial20,death-ski37–38,contest review237,basic technique65–68,
+  VISICALC181–185,PIA196–199,BASIC command editor214–220,Q&A262–265.
+- All selected layouts and adjacent boundaries visually checked before OCR. August
+  selected PDF/printed pages match;do not reuse July's+4 offset. Contest review is
+  one page;238 solicitation and239 RECALC are separate. Unrelated ads excluded.
+- Frozen protocol:docs/OCR-AUGUST-PILOT.md; source/TOC/category/order pins:
+  docs/ocr-august-pilot-selection.json. Balanced engine-first order,seed198408;
+  first two pairs verify instrumentation before the remaining six.
+- Local resources/time priced at zero. Paid usage split by uncached/cached/output,
+  with shared preparation and experimental overhead separate. Source correction,
+  human review,failed attempts and equal coverage remain required. No OCR or paid
+  paired correction yet;no reading-room rebuild authorized for this pilot.
+- Valid paired correction requires fresh contexts with no cross-arm answer reuse.
+  Session rules require explicit authorization before subagent delegation; otherwise
+  use separate fresh user-started correction sessions. Do not compare two sequential
+  corrections in the existing conversation as independent measurements.

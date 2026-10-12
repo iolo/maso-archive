@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "windows": [
+    {
+      "id": "august-selection-protocol",
+      "stage": "shared-selection-and-protocol",
+      "engine": "shared",
+      "start": "2026-10-12T00:34:55.352Z",
+      "end": "2026-10-12T00:40:48.408105+00:00",
+      "elapsed_seconds": 353.05610489845276,
+      "observed_responses": 15,
+      "tokens": {
+        "input_tokens": 1887781,
+        "cached_input_tokens": 1848320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10510,
+        "reasoning_output_tokens": 3350,
+        "total_tokens": 1898291,
+        "uncached_nonwrite_input_tokens": 39461
+      }
+    }
+  ],
+  "money_cost": null,
+  "policy": "Observed usage by response completion timestamp in [start,end). A boundary-straddling response is attributed wholly to its completion window. Cached/write input and reasoning output are subsets; do not add them twice. No observed records means unknown, not free work. Missing or delayed usage may require a later audit. Elapsed windows include tool waits. These observations are not a bill or causal engine savings estimate.",
+  "observed_trial_span": {
+    "id": "observed-trial-span",
+    "start": "2026-10-12T00:34:55.352Z",
+    "end": "2026-10-12T00:40:48.408105+00:00",
+    "elapsed_seconds": 353.05610489845276,
+    "observed_responses": 15,
+    "tokens": {
+      "input_tokens": 1887781,
+      "cached_input_tokens": 1848320,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 10510,
+      "reasoning_output_tokens": 3350,
+      "total_tokens": 1898291,
+      "uncached_nonwrite_input_tokens": 39461
+    }
+  },
+  "between_window_usage": {
+    "id": "observed-trial-span",
+    "start": "2026-10-12T00:34:55.352Z",
+    "end": "2026-10-12T00:40:48.408105+00:00",
+    "elapsed_seconds": 353.05610489845276,
+    "observed_responses": 0,
+    "tokens": null
+  },
+  "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
+  "scope": "Article selection, source-only page/layout inspection and protocol design. Neither OCR arm nor semantic correction started. Final validation/commit/report tail after cutoff excluded. Shared experiment preparation, not charged exclusively to either engine."
+}
