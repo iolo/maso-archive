@@ -2615,3 +2615,29 @@ commit code/documentation. Do not count a partial opening as a complete article.
  Source correction and production export remain pending;aggregate stays eight
  restored articles,22 untouched/seven pilots pending selection. Next:correct LOGO
  prose,commands,displayed results and source anomalies,then export/validate/commit.
+
+### August LOGO60–64 production checkpoint complete, 2026-10-12
+
+- Source correction/export is complete after the sealed raw checkpoint.101 text
+ regions retain98 ordered blocks and35 command/output crops.182 unnumbered
+ physical rows form34 independent groups and176 source lines;six printed wraps
+ retain explicit physical parts without inventing executable joined code.
+- Canonical TOC identity is 로고 강좌,maso-1984-08-toc-0011;unchanged. Source
+ OTUPUT,BUTFIST,result5,단점,Programing and the open-parenthesis-shaped candidate
+ in the PRINT example remain literal.30 unresolved entries retain source evidence.
+ Human proofreading,source encoded bytes and program execution remain unverified.
+- The bounded Tesseract probe retained words,but other prose crops required many
+ Latin-letter substitutions to be corrected against the source. One source pass
+ corrected the selected drafts;no whole-article second-engine correction or OCR
+ rerun.43Q/58T results include one reused probe;recognition time unchanged.
+- Source/crop/request/stop outcomes,complete regional character coverage,UTF-8
+ review ranges,182 physical/176 source-line partitions and all six continuations
+ pass. Native and independent rebuild are byte-identical.12 prior production
+ packages and16,790 sealed pilot files unchanged. Human acceptance pending.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-10/logo-invitation/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-10/validation.json`.
+ Nine production articles complete,21 untouched,seven pilots awaiting selection,
+ two headings classified/four remaining;zero human accepted. August incomplete.
+- Next:source-check 기초 테크닉 코너/PASSWORD & LOGIN65–68 against English69,
+ then reuse selected immutable aug-04 pilot in a separate production revision.
+ JSON/assets only;reading room and unrelated web change remain untouched.

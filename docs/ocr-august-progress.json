@@ -15,16 +15,16 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 8,
+    "assistant-restored-human-pending": 9,
     "sealed-pilot-review-pending": 7,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
-    "untouched": 22
+    "untouched": 21
   },
   "sealed_pilot_articles": 7,
-  "production_complete_articles": 8,
+  "production_complete_articles": 9,
   "production_partial_articles": 0,
-  "untouched_articles": 22,
+  "untouched_articles": 21,
   "unclassified_heading_entries": 4,
   "classified_heading_entries": 2,
   "human_accepted_articles": 0,
@@ -1392,6 +1392,152 @@
       },
       "tables": [],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-10",
+      "toc_entry_id": "maso-1984-08-toc-0011",
+      "title": "로고에로의 초대",
+      "source_pages": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p60r01": "tesseract",
+        "p60r03": "tesseract",
+        "p60r04": "tesseract",
+        "p60r05": "tesseract",
+        "p60r06": "tesseract",
+        "p60r07": "tesseract",
+        "p60r10": "tesseract",
+        "p60r12": "tesseract",
+        "p60r15": "tesseract",
+        "p60r17": "tesseract",
+        "p60r18": "tesseract",
+        "p60r19": "tesseract",
+        "p60r21": "tesseract",
+        "p61r02": "tesseract",
+        "p61r03": "tesseract",
+        "p61r05": "tesseract",
+        "p61r06": "tesseract",
+        "p61r07": "tesseract",
+        "p61r09": "tesseract",
+        "p61r11": "tesseract",
+        "p61r12": "tesseract",
+        "p61r14": "tesseract",
+        "p61r16": "tesseract",
+        "p61r18": "tesseract",
+        "p61r19": "tesseract",
+        "p61r20": "tesseract",
+        "p61r22": "tesseract",
+        "p62r01": "tesseract",
+        "p62r03": "tesseract",
+        "p62r05": "tesseract",
+        "p62r07": "tesseract",
+        "p62r10": "tesseract",
+        "p62r11": "tesseract",
+        "p62r15": "tesseract",
+        "p62r17": "tesseract",
+        "p63r02": "tesseract",
+        "p63r03": "tesseract",
+        "p63r04": "tesseract",
+        "p63r06": "tesseract",
+        "p63r08": "tesseract",
+        "p63r09": "tesseract",
+        "p63r10": "tesseract",
+        "p63r12": "tesseract",
+        "p63r14": "tesseract",
+        "p63r15": "tesseract",
+        "p64r02": "tesseract",
+        "p64r04": "tesseract",
+        "p64r05": "tesseract",
+        "p64r07": "tesseract",
+        "p64r09": "tesseract",
+        "p64r11": "tesseract",
+        "p64r12": "tesseract",
+        "p64r13": "tesseract",
+        "p64r15": "tesseract",
+        "p64r17": "tesseract",
+        "p64r19": "tesseract",
+        "p64r20": "tesseract",
+        "p64r21": "tesseract"
+      },
+      "assignment_reason": "Different cleaner LOGO typography warranted one bounded prose probe p63r02. Tesseract preserves all words with two routine punctuation errors; use T clear prose/headings. Q code/output, dense exponent/rounding/quote/template formulas and inverse serial heading. Reuse successful probe crop/files without reinference.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-10/logo-invitation/article.json",
+          "sha256": "766242409342105b30e43238b12f5bf4e1cb63aed211ae3018f5cc4d03101483",
+          "bytes": 163055
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-10/logo-invitation/manifest.json",
+          "sha256": "380e485eca193007588a2ce85fd4e622ea97aa33ac2544004180011923ae98d5",
+          "bytes": 67292
+        },
+        "source_pages": [
+          60,
+          61,
+          62,
+          63,
+          64
+        ],
+        "regions": 101,
+        "text_regions": 101,
+        "figures": 0,
+        "physical_listing_rows": 182,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 30,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-10/map.json",
+        "sha256": "d43ae4103119753362f1361ded07540a60ce8f80010b644d8951313ca5335db8",
+        "bytes": 28565
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-10/source-review-ledger.json",
+        "sha256": "5e8dba59611696624640213af5e0c5248cff48e21f3be9ca0fd714ad2adf79c4",
+        "bytes": 11476
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 20616,
+        "completion_tokens": 2137,
+        "total_tokens": 22753
+      },
+      "qwen_completed_calls": 43,
+      "qwen_recognition_seconds": 62.345533326937584,
+      "tesseract_recognition_seconds": 9.57214922500134,
+      "preparation_probe_seconds": 0.20043602200166788,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T09:43:24.128689+00:00",
+        "finished_at": "2026-10-12T09:44:45.743520+00:00",
+        "elapsed_seconds": 81.61484385399672,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 43,
+          "tesseract_inferences": 58,
+          "cache_hits": 1,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -2177,9 +2323,35 @@
       "page": 60,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-10",
+          "source_pages": [
+            60,
+            61,
+            62,
+            63,
+            64
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-10/logo-invitation/article.json",
+            "sha256": "766242409342105b30e43238b12f5bf4e1cb63aed211ae3018f5cc4d03101483",
+            "bytes": 163055
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0012",
@@ -2601,21 +2773,17 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-10",
-    "toc_entry_id": "maso-1984-08-toc-0011",
+    "batch": "production-pilot-aug-04",
+    "toc_entry_id": "maso-1984-08-toc-0012",
     "source_pages": [
-      60,
-      61,
-      62,
-      63,
-      64
+      65,
+      66,
+      67,
+      68
     ],
-    "article_extent_verified": true,
-    "action": "Source-correct completed LOGO60–64 mixed draft.101 regions,182 source physical example/output rows;43 Qwen and58 Tesseract results including one reused probe. Raw audit passed; production export not created.",
+    "article_extent_verified": false,
+    "action": "Reinspect full65–69 boundary and all existing aug-04 pilot crops; select a preserved draft into a separate production revision, repair source-confirmed residuals and validate independent listing groups. No new OCR on unchanged crops.",
     "reading_room_rebuild": false,
-    "human_acceptance": "pending",
-    "raw_ocr_status": "complete",
-    "source_correction_status": "pending",
-    "raw_audit": "private/pdf-restoration/13-1984-08-adaptive/batch-10/raw-ocr-audit.json"
+    "human_acceptance": "pending"
   }
 }
