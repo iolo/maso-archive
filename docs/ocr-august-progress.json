@@ -15,16 +15,17 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
+    "assistant-partial-human-pending": 1,
     "assistant-restored-human-pending": 10,
     "sealed-pilot-review-pending": 6,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
-    "untouched": 21
+    "untouched": 20
   },
   "sealed_pilot_articles": 6,
   "production_complete_articles": 10,
-  "production_partial_articles": 0,
-  "untouched_articles": 21,
+  "production_partial_articles": 1,
+  "untouched_articles": 20,
   "unclassified_heading_entries": 4,
   "classified_heading_entries": 2,
   "human_accepted_articles": 0,
@@ -1538,6 +1539,197 @@
       },
       "tables": [],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-11",
+      "toc_entry_id": "maso-1984-08-toc-0013",
+      "title": "영어 교육용 시스템",
+      "source_pages": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p69r01": "qwen",
+        "p69r02": "tesseract",
+        "p69r03": "tesseract",
+        "p69r04": "qwen",
+        "p70r01": "tesseract",
+        "p70r02": "tesseract",
+        "p70r03": "tesseract",
+        "p70r04": "tesseract",
+        "p70r05": "tesseract",
+        "p70r06": "tesseract",
+        "p70r07": "tesseract",
+        "p70r08": "tesseract",
+        "p70r09": "tesseract",
+        "p70r10": "tesseract",
+        "p70r11": "tesseract",
+        "p70r12": "tesseract",
+        "p70r13": "tesseract",
+        "p70r14": "tesseract",
+        "p70r15": "tesseract",
+        "p70r16": "tesseract",
+        "p70r17": "tesseract",
+        "p70r18": "tesseract",
+        "p70r19": "tesseract",
+        "p70r20": "tesseract",
+        "p70r21": "tesseract",
+        "p70r22": "tesseract",
+        "p70r23": "tesseract",
+        "p70r24": "tesseract",
+        "p70r25": "qwen",
+        "p70r26": "tesseract",
+        "p70r27": "tesseract",
+        "p71r01": "qwen",
+        "p71r02": "tesseract",
+        "p71r03": "tesseract",
+        "p71r04": "qwen",
+        "p71r05": "tesseract",
+        "p71r06": "qwen",
+        "p71r07": "qwen",
+        "p71r08": "tesseract",
+        "p71r09": "qwen",
+        "p71r10": "qwen",
+        "p71r11": "qwen",
+        "p71r12": "tesseract",
+        "p71r13": "tesseract",
+        "p71r14": "tesseract",
+        "p71r15": "tesseract",
+        "p71r17": "tesseract",
+        "p71r18": "tesseract",
+        "p71r19": "tesseract",
+        "p71r20": "tesseract",
+        "p72r01": "tesseract",
+        "p72r02": "tesseract",
+        "p72r03": "tesseract",
+        "p72r04": "tesseract",
+        "p72r05": "tesseract",
+        "p72r06": "tesseract",
+        "p72r08": "tesseract",
+        "p72r09": "tesseract",
+        "p72r10": "tesseract",
+        "p72r11": "tesseract",
+        "p72r12": "tesseract",
+        "p72r14": "tesseract",
+        "p72r15": "qwen",
+        "p72r16": "tesseract",
+        "p73r01": "tesseract",
+        "p73r03": "tesseract",
+        "p73r04": "tesseract",
+        "p73r05": "tesseract",
+        "p73r07": "tesseract",
+        "p73r08": "tesseract",
+        "p73r09": "tesseract",
+        "p73r11": "tesseract",
+        "p73r12": "tesseract",
+        "p73r13": "tesseract",
+        "p73r14": "tesseract",
+        "p73r16": "tesseract",
+        "p73r17": "tesseract",
+        "p73r18": "tesseract",
+        "p74r02": "tesseract",
+        "p74r04": "tesseract",
+        "p74r05": "qwen",
+        "p74r06": "tesseract",
+        "p74r07": "tesseract",
+        "p74r08": "tesseract",
+        "p74r09": "tesseract",
+        "p74r10": "tesseract",
+        "p74r12": "tesseract",
+        "p74r13": "tesseract",
+        "p74r14": "tesseract",
+        "p74r16": "tesseract"
+      },
+      "assignment_reason": "Reuse successful same-magazine clear-prose/short-heading Tesseract route. Qwen handles bitmap Korean BASIC examples,ruled control-character table,inverse/overlaid titles and dense control-key passages. Source screenshots/photo preserved without recognition. No new probe warranted by unchanged typography.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-11/english-education/article.json",
+          "sha256": "e1143ffa775f1d4c861ca9472b47f355a8800b55f04def34f4ff20d9ed4279e2",
+          "bytes": 162399
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-11/english-education/manifest.json",
+          "sha256": "d1745a51fbc343115fea27e71accf08be1a15af43d72f486e4ad075b863bcca2",
+          "bytes": 61693
+        },
+        "source_pages": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "regions": 102,
+        "text_regions": 90,
+        "figures": 12,
+        "physical_listing_rows": 8,
+        "logical_listing_rows": 3,
+        "unresolved_entries": 27,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/validation.json",
+          "sha256": "54dab3ebc631619f95aec215a4ed2458a7c9b7523d6f52d26261ae304e1c5fb0",
+          "bytes": 1008
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/map.json",
+        "sha256": "c4b5a9d7d594f5c85887e59fd5841889b86f606bc52a7e299034902a653b53dc",
+        "bytes": 29633
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/source-review-ledger.json",
+        "sha256": "644ba6f3661170c3fb5773d1d56ba1ff3509162e2940960469e749a304d5ffd8",
+        "bytes": 12046
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 7033,
+        "completion_tokens": 1334,
+        "total_tokens": 8367
+      },
+      "qwen_completed_calls": 12,
+      "qwen_recognition_seconds": 49.76095060995431,
+      "tesseract_recognition_seconds": 13.622897445995477,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T10:43:31.704063+00:00",
+        "finished_at": "2026-10-12T10:44:44.246393+00:00",
+        "elapsed_seconds": 72.54234135399747,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 12,
+          "tesseract_inferences": 78,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p71r09",
+          "data_rows": 15,
+          "data_cells": 90
+        }
+      ],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -2512,9 +2704,51 @@
       "page": 69,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-partial-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-11",
+          "source_pages": [
+            69,
+            70,
+            71,
+            72,
+            73,
+            74
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-11/english-education/article.json",
+            "sha256": "e1143ffa775f1d4c861ca9472b47f355a8800b55f04def34f4ff20d9ed4279e2",
+            "bytes": 162399
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "deferred_pdf_pages": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "assembly_required": true
     },
     {
       "id": "maso-1984-08-toc-0014",
@@ -2910,7 +3144,7 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-11",
+    "batch": "batch-12",
     "toc_entry_id": "maso-1984-08-toc-0013",
     "article_extent_verified": true,
     "article_pdf_pages": [
@@ -2934,15 +3168,15 @@
       86,
       87
     ],
-    "mapped_pdf_pages": [
-      69,
-      70,
-      71,
-      72,
-      73,
-      74
+    "planned_source_pages": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
     ],
-    "remaining_pdf_pages": [
+    "remaining_source_pages": [
       75,
       76,
       77,
@@ -2957,45 +3191,17 @@
       86,
       87
     ],
-    "status": "raw-ocr-complete-source-correction-pending",
-    "raw_ocr": {
-      "audit": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/raw-ocr-audit.json",
-        "sha256": "26771099309b5596bc63ada62304b83b00b6460e2c726f9350dabf294f133e9f",
-        "bytes": 4711
-      },
-      "map": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/map.json",
-        "sha256": "c4b5a9d7d594f5c85887e59fd5841889b86f606bc52a7e299034902a653b53dc",
-        "bytes": 29633
-      },
-      "extent": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/extent-inspection.json",
-        "sha256": "814fc39ecb4c96dfd004cb26f5a50535c308dc23def9d5ca30b6fcd28e54d11d",
-        "bytes": 6200
-      },
-      "crop_review": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/preflight-edge-review.json",
-        "sha256": "92092c0613a928f9514e5b35995a8125a7f4c3a5893dcee78363c76ad6dbf63c",
-        "bytes": 25467
-      },
-      "text_regions": 90,
-      "figures": 12,
-      "qwen_calls": 12,
-      "tesseract_calls": 78,
-      "local_qwen_tokens": {
-        "prompt_tokens": 7033,
-        "completion_tokens": 1334,
-        "total_tokens": 8367
-      },
-      "qwen_recognition_seconds": 49.76095060995431,
-      "tesseract_recognition_seconds": 13.622897445995477,
-      "failed_calls": 0,
-      "retries": 0,
-      "cache_hits": 0,
-      "local_tokens_monetary_weight": 0
+    "immutable_extent": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/extent-inspection.json",
+      "sha256": "814fc39ecb4c96dfd004cb26f5a50535c308dc23def9d5ca30b6fcd28e54d11d",
+      "bytes": 6200
     },
-    "action": "Correct the selected mixed drafts against source69–74 once, retaining control-key caption discrepancies,ruled table row associations,physical BASIC wraps and image-backed Korean/control glyph uncertainties. Export and validate the opening before recording partial availability. Then restore75–87 in bounded natives and assemble full69–87;88/89 advertisements excluded,CP/M begins90.",
+    "opening": {
+      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-11/english-education/article.json",
+      "sha256": "e1143ffa775f1d4c861ca9472b47f355a8800b55f04def34f4ff20d9ed4279e2",
+      "bytes": 162399
+    },
+    "action": "Reuse source-verified English69–87 extent and inspect preserved75–80 full views at mapping resolution. Restore bounded75–80 middle with prose/screens through76 and LIST1 opening76–80,retaining physical rows,bitmap Hangul and invisible controls. LIST1 ending81,LIST2 81–84 andLIST3 84–87 remain for later natives;full69–87 immutable assembly required. Preserve outgoing74다음 문 /75boundary until source-confirmed join. Do not remap/reinfer successful69–74 crops.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }

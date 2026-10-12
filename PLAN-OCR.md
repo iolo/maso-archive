@@ -2693,3 +2693,32 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Next:source-correct69–74,especially the control-character table,Korean bitmap
  fragments and independent BASIC examples;then export/validate the opening.
  Restore remaining75–87 and assemble all69–87 separately. August incomplete.
+
+### August English education69–74 production segment complete, 2026-10-12
+
+- Corrected/exported90 selected mixed drafts across69–74 of verified full69–87.
+ 102 regions retain86 ordered blocks,12 original images and91 review ranges.
+ Four regular joins and a split projection preserve five source boundaries;
+ screen10's following paragraph remains after its original figure/caption.
+- Three independent BASIC examples retain eight physical rows,three printed
+ labels650/300/197 and five wraps. Broken Hangul fragments are explicit image-
+ backed reading aids;hidden control characters and exact source bytes unverified.
+ The ruled table retains15 rows/90 cells/16 blanks and three column groups.
+- Printed PERFEDT/PERFECT,CIRL-A/CTRL-A,captionCTRL-K/headerCTRL-N,raised31,
+ round mark beforeCALL and historical spellings retained.27 source uncertainties;
+ original screens retain SYNTAX ERROR and overlapping Hangul/English output.
+- Initial export omitted a review range crossing two projected blocks. Both
+ unpromoted exports and original notes/validator/script retained;split only that
+ note into two ranges. All regional transcription,raw OCR,crops and maps unchanged.
+ No new inference or dual correction;12Q/78T recognition costs unchanged.
+- Source/crop/request/stop checks,exact regional character coverage,UTF-8 review
+ ranges,independent table/listing counts and source row associations pass. Exact
+ rebuild,14 prior production packages and16,790 sealed pilot files unchanged.
+ Export:`build/pdf-restoration/13-1984-08-adaptive-batch-11/english-education/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-11/validation.json`.
+- Ten production articles complete,one partial,20 untouched,six pilots awaiting
+ selection,two headings classified/four remaining;zero human accepted. August
+ incomplete. Source75–87 and full69–87 assembly remain mandatory.
+- Next:reuse verified extent/views and map75–80 within six-page limit. Preserve
+ prose ending/screens and LIST1 opening;81–87 follow in later natives. Outgoing
+ 74다음 문 fragment awaits source-confirmed75 join. JSON/assets only.
