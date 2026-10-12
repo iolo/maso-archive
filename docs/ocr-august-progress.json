@@ -15,16 +15,17 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
+    "assistant-partial-human-pending": 1,
     "assistant-restored-human-pending": 11,
     "sealed-pilot-review-pending": 6,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
-    "untouched": 20
+    "untouched": 19
   },
   "sealed_pilot_articles": 6,
   "production_complete_articles": 11,
-  "production_partial_articles": 0,
-  "untouched_articles": 20,
+  "production_partial_articles": 1,
+  "untouched_articles": 19,
   "unclassified_heading_entries": 4,
   "classified_heading_entries": 2,
   "human_accepted_articles": 0,
@@ -2569,6 +2570,286 @@
       "discarded_original_tesseract_seconds": 0.5452421100053471,
       "selected_tesseract_recognition_seconds": 0.5359698829997797,
       "usage_limitation": "Known Q tokens count each completed inference once;interrupted submitted request has no response or usage counters and remains unknown. Original two T calls and revised two T calls both included;three completed unchanged Q stages reused without inference."
+    },
+    {
+      "batch": "batch-15",
+      "toc_entry_id": "maso-1984-08-toc-0014",
+      "title": "CP/M 입문",
+      "source_pages": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p90r02": "qwen",
+        "p90r03": "tesseract",
+        "p90r04": "tesseract",
+        "p90r05": "tesseract",
+        "p90r06": "tesseract",
+        "p90r07": "tesseract",
+        "p90r08": "tesseract",
+        "p90r09": "tesseract",
+        "p90r10": "tesseract",
+        "p90r11": "tesseract",
+        "p90r12": "tesseract",
+        "p90r13": "tesseract",
+        "p90r14": "tesseract",
+        "p90r15": "tesseract",
+        "p90r16": "tesseract",
+        "p91r01": "tesseract",
+        "p91r03": "qwen",
+        "p91r04": "tesseract",
+        "p91r05": "tesseract",
+        "p91r06": "tesseract",
+        "p91r07": "qwen",
+        "p91r08": "tesseract",
+        "p91r09": "tesseract",
+        "p91r10": "tesseract",
+        "p91r11": "tesseract",
+        "p91r12": "tesseract",
+        "p91r13": "qwen",
+        "p91r14": "tesseract",
+        "p91r15": "qwen",
+        "p91r16": "tesseract",
+        "p91r17": "qwen",
+        "p91r18": "tesseract",
+        "p91r19": "qwen",
+        "p91r20": "tesseract",
+        "p91r21": "tesseract",
+        "p91r22": "tesseract",
+        "p91r23": "tesseract",
+        "p91r24": "qwen",
+        "p91r25": "tesseract",
+        "p91r26": "qwen",
+        "p91r27": "qwen",
+        "p91r28": "tesseract",
+        "p91r29": "qwen",
+        "p91r30": "tesseract",
+        "p91r31": "qwen",
+        "p92r01": "qwen",
+        "p92r02": "tesseract",
+        "p92r03": "qwen",
+        "p92r04": "tesseract",
+        "p92r05": "qwen",
+        "p92r06": "tesseract",
+        "p92r07": "qwen",
+        "p92r08": "tesseract",
+        "p92r09": "tesseract",
+        "p92r10": "qwen",
+        "p92r11": "qwen",
+        "p92r12": "tesseract",
+        "p92r13": "tesseract",
+        "p92r14": "tesseract",
+        "p92r15": "tesseract",
+        "p92r17": "qwen",
+        "p92r18": "tesseract",
+        "p92r19": "qwen",
+        "p92r20": "tesseract",
+        "p92r21": "tesseract",
+        "p92r22": "qwen",
+        "p92r23": "tesseract",
+        "p92r24": "tesseract",
+        "p92r25": "qwen",
+        "p92r26": "tesseract",
+        "p92r27": "tesseract",
+        "p92r28": "tesseract",
+        "p92r29": "tesseract",
+        "p92r30": "tesseract",
+        "p92r31": "qwen",
+        "p93r01": "tesseract",
+        "p93r03": "qwen",
+        "p93r04": "tesseract",
+        "p93r05": "tesseract",
+        "p93r06": "qwen",
+        "p93r07": "tesseract",
+        "p93r08": "qwen",
+        "p93r09": "qwen",
+        "p93r10": "tesseract",
+        "p93r11": "qwen",
+        "p93r12": "qwen",
+        "p93r13": "tesseract",
+        "p93r14": "qwen",
+        "p93r15": "tesseract",
+        "p93r16": "tesseract",
+        "p93r17": "qwen",
+        "p93r18": "tesseract",
+        "p93r19": "qwen",
+        "p93r20": "tesseract",
+        "p93r21": "qwen",
+        "p93r22": "qwen",
+        "p93r23": "tesseract",
+        "p93r24": "qwen",
+        "p93r25": "qwen",
+        "p93r26": "qwen",
+        "p93r27": "qwen",
+        "p93r28": "tesseract",
+        "p93r29": "qwen",
+        "p93r30": "tesseract",
+        "p93r31": "tesseract",
+        "p93r32": "qwen",
+        "p93r33": "qwen",
+        "p94r01": "tesseract",
+        "p94r02": "tesseract",
+        "p94r03": "qwen",
+        "p94r04": "qwen",
+        "p94r05": "qwen",
+        "p94r06": "tesseract",
+        "p94r07": "tesseract",
+        "p94r08": "qwen",
+        "p94r09": "tesseract",
+        "p94r10": "qwen",
+        "p94r11": "qwen",
+        "p94r12": "qwen",
+        "p94r13": "tesseract",
+        "p94r14": "tesseract",
+        "p94r15": "qwen",
+        "p94r16": "tesseract",
+        "p94r17": "qwen",
+        "p94r18": "qwen",
+        "p94r19": "tesseract",
+        "p94r20": "tesseract",
+        "p94r21": "tesseract",
+        "p94r22": "qwen",
+        "p94r23": "tesseract",
+        "p94r24": "qwen",
+        "p94r25": "tesseract",
+        "p95r01": "qwen",
+        "p95r02": "tesseract",
+        "p95r03": "qwen",
+        "p95r04": "tesseract",
+        "p95r05": "tesseract",
+        "p95r06": "tesseract",
+        "p95r07": "qwen",
+        "p95r08": "tesseract",
+        "p95r10": "qwen",
+        "p95r11": "tesseract",
+        "p95r12": "qwen",
+        "p95r13": "qwen",
+        "p95r14": "tesseract",
+        "p95r15": "tesseract",
+        "p95r16": "qwen",
+        "p95r18": "qwen",
+        "p95r19": "tesseract",
+        "p95r20": "tesseract",
+        "p95r22": "qwen",
+        "p95r23": "tesseract",
+        "p95r24": "qwen",
+        "p93r35": "tesseract"
+      },
+      "assignment_reason": "T clear Korean prose/headings/captions;Q dense BASIC,syntax/command lists andstructured table values. Original startup screen andfive tables have separate text overlays;outputs andnumbered programs remain independent. Reuse established typography routes,no new probe can change starting choices.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-15/cpm-reviewed/article.json",
+          "sha256": "5d16c664ce83bd91ccfc1830917e71f6ae7ebb7d71117ff283e71d1cfe723454",
+          "bytes": 249230
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-15/cpm-reviewed/manifest.json",
+          "sha256": "54b65acc2b1e060901ff8ba7a54d4087cb84f3759e6a984503731b77b0a7e041",
+          "bytes": 103200
+        },
+        "source_pages": [
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ],
+        "regions": 163,
+        "text_regions": 154,
+        "figures": 9,
+        "physical_listing_rows": 61,
+        "logical_listing_rows": 19,
+        "unresolved_entries": 40,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-cpm-source-index-15/source-index.json",
+          "sha256": "4ecbfc7e75b365d2e954e0a5186ba7bd5a6d05ea62ba509691c468ea56ed2e64",
+          "bytes": 151275
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/validation.json",
+          "sha256": "5867b1e5ed4ad76e1530eb0d62c089d949a25ad1e8876c9af56b4f8f260975a2",
+          "bytes": 1299
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/map.json",
+        "sha256": "0858e877097d19ac811d0ea31189e0b059898d40de0f3c04b77a9f975f9b0fc2",
+        "bytes": 44918
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/source-review-ledger.json",
+        "sha256": "9afde49ec53a4d432ff1c7ab9bf8512e927f27938975efc85a58c6f551866f8b",
+        "bytes": 18693
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 25316,
+        "completion_tokens": 3672,
+        "total_tokens": 28988
+      },
+      "qwen_completed_calls": 63,
+      "qwen_recognition_seconds": 103.40344460614142,
+      "tesseract_recognition_seconds": 10.855053335049888,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T15:54:35.884286+00:00",
+        "finished_at": "2026-10-12T15:56:41.989224+00:00",
+        "elapsed_seconds": 126.10494902700884,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 63,
+          "tesseract_inferences": 91,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p92r17",
+          "data_rows": 4,
+          "data_cells": 20
+        },
+        {
+          "region_id": "p93r03",
+          "data_rows": 5,
+          "data_cells": 10
+        },
+        {
+          "region_id": "p95r10",
+          "data_rows": 8,
+          "data_cells": 32
+        },
+        {
+          "region_id": "p95r18",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p95r22",
+          "data_rows": 5,
+          "data_cells": 30
+        }
+      ],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -3923,9 +4204,40 @@
       "page": 90,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-partial-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-15",
+          "source_pages": [
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-15/cpm-reviewed/article.json",
+            "sha256": "5d16c664ce83bd91ccfc1830917e71f6ae7ebb7d71117ff283e71d1cfe723454",
+            "bytes": 249230
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "deferred_pdf_pages": [
+        96,
+        97
+      ],
+      "assembly_required": true
     },
     {
       "id": "maso-1984-08-toc-0015",
@@ -4308,17 +4620,13 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-15",
+    "batch": "batch-16",
     "toc_entry_id": "maso-1984-08-toc-0014",
     "article_extent_verified": true,
     "first_canonical_page": 90,
     "planned_source_pages": [
-      90,
-      91,
-      92,
-      93,
-      94,
-      95
+      96,
+      97
     ],
     "prior_english_complete": {
       "path": "build/pdf-restoration/13-1984-08-adaptive/english-education/article.json",
@@ -4330,10 +4638,10 @@
       "sha256": "4d1de7944c60ab1d775f4ff39964c64f2c792cab015c8a2c919dd5de3803d130",
       "bytes": 4408
     },
-    "action": "Correct selected154drafts andfive structured tables against complete90–95 source crops;retain separate program/console groups,physical wraps,source mistakes,format glyphs andoriginal fullRESUME/ERASE example images/omission marks. Export/validate/commit opening;then restore96–97 andseparately assemblefull90–97. Canonical nextgraphics page99 hasactualtitle98;inspect full extent before mapping. All20 untouched bodies,six pilotselections,four headings andwholeAugust JSON/assets closeout remain;no reading-room build.",
+    "action": "Restore source-confirmed CP/M ending96–97 using pinned full90–100 extent evidence;reinspect96/97 andactualnexttitle98 before boundedmapping. Route clearproseT,dense code/formulas/structuredvaluesQ;retain original tables/images and source errors. Correct/export/validate/commit ending,then separatelyassemble full90–97 fromimmutable natives15/16 andmergeexacttable/listing/sourceindexes. All19untouched bodies,six pilotselections,four headings andwholeAugustJSON/assetscloseoutremain;no reading-roombuild.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending",
-    "status": "cpm-90-95-raw-audited-correction-pending",
+    "status": "cpm-ending96-97-extent-verified-mapping-pending",
     "article_pdf_pages": [
       90,
       91,
@@ -4345,12 +4653,6 @@
       97
     ],
     "remaining_source_pages": [
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
       96,
       97
     ],
@@ -4374,25 +4676,56 @@
       "sha256": "4433dc8bd3f5a1e5830736cc5dec9b7fb66bffb189a031232fffa2388a1cbfbe",
       "bytes": 10978
     },
-    "mapped_pages": [
-      90,
-      91,
-      92,
-      93,
-      94,
-      95
-    ],
-    "uncorrected_native_pages": [
-      90,
-      91,
-      92,
-      93,
-      94,
-      95
-    ],
+    "mapped_pages": null,
+    "uncorrected_native_pages": [],
     "unmapped_ending_pages": [
       96,
       97
-    ]
+    ],
+    "prior_opening": {
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-15/cpm-reviewed/article.json",
+        "sha256": "5d16c664ce83bd91ccfc1830917e71f6ae7ebb7d71117ff283e71d1cfe723454",
+        "bytes": 249230
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-15/cpm-reviewed/manifest.json",
+        "sha256": "54b65acc2b1e060901ff8ba7a54d4087cb84f3759e6a984503731b77b0a7e041",
+        "bytes": 103200
+      },
+      "source_pages": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "regions": 163,
+      "text_regions": 154,
+      "figures": 9,
+      "physical_listing_rows": 61,
+      "logical_listing_rows": 19,
+      "unresolved_entries": 40,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-cpm-source-index-15/source-index.json",
+        "sha256": "4ecbfc7e75b365d2e954e0a5186ba7bd5a6d05ea62ba509691c468ea56ed2e64",
+        "bytes": 151275
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/validation.json",
+        "sha256": "5867b1e5ed4ad76e1530eb0d62c089d949a25ad1e8876c9af56b4f8f260975a2",
+        "bytes": 1299
+      }
+    }
   }
 }
