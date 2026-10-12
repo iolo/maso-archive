@@ -11755,3 +11755,22 @@ history remains in [PROGRESS.md](PROGRESS.md).
   One complete production article,one partial,27 untouched,eight sealed pilot bodies,
   five heading classifications remaining. Whole August remains in progress.
 - Next:separate full 청소32–36 assembly from immutable batch03/batch04 exports.
+
+## 2026-10-12 — August full 청소32–36 complete
+
+- Separate full assembly preserves both native exports exactly:100 regions,99 text
+  crops,one original screenshot,91 blocks,543 physical listing rows and90 numbered
+  BASIC entries. All208 hex rows/1664 candidate bytes and33 source flags retained.
+- Existing wrapped-listing-v1 projects native within-segment wraps and unnumbered
+  monitor/hex rows correctly. Initial namespaced mode rejected those native wraps
+  before creating output;failure and mode recovery retained. No runtime code changes.
+- All original metadata,native files,text/review/flag ranges,physical listing byte
+  partition and logical label sequence pass. Listing equals exact native byte
+  concatenation; independent assembly rebuild identical.16,790 pilot files unchanged.
+- Export:`build/pdf-restoration/13-1984-08-adaptive/sweeping/`.
+  Audit:`private/pdf-restoration/13-1984-08-adaptive/sweeping-assembly-validation.json`.
+  Human acceptance,character-perfect proofreading,source bytes and execution pending.
+- Two complete production articles,no partials,27 untouched,eight sealed pilot bodies,
+  five heading classifications remaining. Whole August remains in progress.
+- Next:죽음의 스키37–38 production selection/source repairs from sealed pilot evidence.
+  JSON/assets only;reading room not rebuilt. Unrelated web edit remains outside commits.
