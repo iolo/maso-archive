@@ -11997,3 +11997,27 @@ history remains in [PROGRESS.md](PROGRESS.md).
 - Next:inspect full English education article69 onward against CP/M90,then
  restore a bounded opening segment and retain remaining source scope for assembly.
  JSON/assets only;reading room and unrelated web edit remain untouched.
+
+## 2026-10-12 — August English education69–74 raw preparation complete
+
+- Verified full English education article69–87 against22 source views69–90.
+ Prose extends through76;LIST1 spans76–81,LIST2 spans81–84 andLIST3 spans84–87.
+ Advertisements88/89 excluded;CP/M begins90. Opening69–74 maps six pages with
+ 16 outside-map lookups,within the bounded checkpoint limits.
+- All27 original/14 revised panels inspected.24 distinct crop geometries repaired
+ before recognition;initial maps/crops retained. A pre-export schema error used
+ unsupported table kind;existing other-region table convention restored without OCR.
+- 90 text crops routed78T/12Q;12 original images preserve the photograph and
+ screens1–11. No probe,cache reuse,recognition failure or retry. Q8,367 local tokens
+ and49.761s;T13.623s. Local monetary weight zero;timing is diagnostic only.
+- Source/crop/map/request hashes,raw bundles,runtime pins and all12 stop outcomes
+ pass;14 prior production package pins and16,790 sealed pilot files unchanged.
+ One validator recovery restricts usage sums to scalar token counters;initial
+ script retained. No source text or OCR changed during that recovery.
+- Raw audit:`private/pdf-restoration/13-1984-08-adaptive/batch-11/raw-ocr-audit.json`.
+ Source correction/export pending. Totals remain ten complete,zero partial,
+ 21 untouched,six pilots pending selection,two headings classified/four remaining;
+ zero human accepted. English is not counted as restored from raw drafts.
+- Next:source-correct69–74,especially the control-character table,Korean bitmap
+ fragments and independent BASIC examples;then export/validate the opening.
+ Restore remaining75–87 and assemble all69–87 separately. August incomplete.

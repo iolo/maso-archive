@@ -2912,8 +2912,90 @@
   "next_checkpoint": {
     "batch": "batch-11",
     "toc_entry_id": "maso-1984-08-toc-0013",
-    "article_extent_verified": false,
-    "action": "Inspect complete English education article from69 through CP/M90 boundary. Choose a bounded opening segment; preserve long listing continuation for later natives and full assembly. Reuse successful evidence and route prose/code separately.",
+    "article_extent_verified": true,
+    "article_pdf_pages": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "mapped_pdf_pages": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "remaining_pdf_pages": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "status": "raw-ocr-complete-source-correction-pending",
+    "raw_ocr": {
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/raw-ocr-audit.json",
+        "sha256": "26771099309b5596bc63ada62304b83b00b6460e2c726f9350dabf294f133e9f",
+        "bytes": 4711
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/map.json",
+        "sha256": "c4b5a9d7d594f5c85887e59fd5841889b86f606bc52a7e299034902a653b53dc",
+        "bytes": 29633
+      },
+      "extent": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/extent-inspection.json",
+        "sha256": "814fc39ecb4c96dfd004cb26f5a50535c308dc23def9d5ca30b6fcd28e54d11d",
+        "bytes": 6200
+      },
+      "crop_review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/preflight-edge-review.json",
+        "sha256": "92092c0613a928f9514e5b35995a8125a7f4c3a5893dcee78363c76ad6dbf63c",
+        "bytes": 25467
+      },
+      "text_regions": 90,
+      "figures": 12,
+      "qwen_calls": 12,
+      "tesseract_calls": 78,
+      "local_qwen_tokens": {
+        "prompt_tokens": 7033,
+        "completion_tokens": 1334,
+        "total_tokens": 8367
+      },
+      "qwen_recognition_seconds": 49.76095060995431,
+      "tesseract_recognition_seconds": 13.622897445995477,
+      "failed_calls": 0,
+      "retries": 0,
+      "cache_hits": 0,
+      "local_tokens_monetary_weight": 0
+    },
+    "action": "Correct the selected mixed drafts against source69–74 once, retaining control-key caption discrepancies,ruled table row associations,physical BASIC wraps and image-backed Korean/control glyph uncertainties. Export and validate the opening before recording partial availability. Then restore75–87 in bounded natives and assemble full69–87;88/89 advertisements excluded,CP/M begins90.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }
