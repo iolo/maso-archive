@@ -3176,6 +3176,117 @@
         }
       ],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-18",
+      "toc_entry_id": "maso-1984-08-toc-0015",
+      "title": "컴퓨터 그래픽과 친구가 되자",
+      "source_pages": [
+        104
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p104r02": "tesseract",
+        "p104r03": "tesseract",
+        "p104r05": "qwen",
+        "p104r06": "qwen",
+        "p104r07": "qwen",
+        "p104r08": "tesseract",
+        "p104r10": "qwen",
+        "p104r11": "tesseract",
+        "p104r13": "qwen",
+        "p104r14": "tesseract",
+        "p104r15": "tesseract",
+        "p104r17": "tesseract",
+        "p104r18": "tesseract",
+        "p104r19": "tesseract",
+        "p104r21": "qwen",
+        "p104r22": "tesseract",
+        "p104r24": "qwen",
+        "p104r25": "tesseract",
+        "p104r26": "tesseract",
+        "p104r27": "tesseract",
+        "p104r28": "tesseract"
+      },
+      "assignment_reason": "T clearprose/headings/captions;Q denseBASIC/program/session. Fourindependent numberedprograms/patches andoneunnumberedsession remainseparate. Originalcode/sessionbitmaps andfigures retained. Establishedtypography routesreused;no newprobe canchange startingchoices.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-18/graphics/article.json",
+          "sha256": "a6117285ecc75b6c7a1d4db10fa3934ea5b4a5e72889e070e46e824b0913f658",
+          "bytes": 45058
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-18/graphics/manifest.json",
+          "sha256": "a2cf911d60e296cadc41897384ad0057fa40113d19abca3af9307c3ab2270e11",
+          "bytes": 16487
+        },
+        "source_pages": [
+          104
+        ],
+        "regions": 29,
+        "text_regions": 21,
+        "figures": 8,
+        "physical_listing_rows": 26,
+        "logical_listing_rows": 19,
+        "unresolved_entries": 16,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-graphics-source-index-18/source-index.json",
+          "sha256": "050248fcb83fffd8569e53db0ca8c93bb5e4b6cd27ff52ae45b79ce93743b84b",
+          "bytes": 55548
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-18/validation.json",
+          "sha256": "86726bbf222cc4a8d18c6e425df5e4d0a0ddc3002f127cd3909ef662f4f44410",
+          "bytes": 1317
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-18/map.json",
+        "sha256": "fd0d8ab3a4f48ea37ca62aedb551c4e8e39096f115bc49d0bfb22e11026fb467",
+        "bytes": 9762
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-18/source-review-ledger.json",
+        "sha256": "cdd018efe3cf4a9e2674311a47c13b0bcb340d08c7c2f5c233a1de188d6bc6f1",
+        "bytes": 4842
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 2115,
+        "completion_tokens": 367,
+        "total_tokens": 2482
+      },
+      "qwen_completed_calls": 7,
+      "qwen_recognition_seconds": 14.085004959983053,
+      "tesseract_recognition_seconds": 1.9966895189718343,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T17:33:29.357112+00:00",
+        "finished_at": "2026-10-12T17:33:51.424385+00:00",
+        "elapsed_seconds": 22.06728252299945,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 7,
+          "tesseract_inferences": 14,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -4811,6 +4922,17 @@
             "sha256": "8bbcf7f60e328172d07ce805e91d57935f4122ec70363dfdd631c92dbe6eed28",
             "bytes": 166869
           }
+        },
+        {
+          "batch": "batch-18",
+          "source_pages": [
+            104
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-18/graphics/article.json",
+            "sha256": "a6117285ecc75b6c7a1d4db10fa3934ea5b4a5e72889e070e46e824b0913f658",
+            "bytes": 45058
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -4819,11 +4941,10 @@
         100,
         101,
         102,
-        103
-      ],
-      "deferred_pdf_pages": [
+        103,
         104
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -5194,8 +5315,8 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-18",
-    "status": "graphics98-103-production-opening-complete-ending104-pending",
+    "batch": "graphics-assembly",
+    "status": "graphics-ending104-production-complete-fullassembly-pending",
     "toc_entry_id": "maso-1984-08-toc-0015",
     "canonical_title": "컴퓨터 그래픽과 친구가 되자",
     "canonical_first_page": 99,
@@ -5302,13 +5423,9 @@
       "scope": "FullCP/M90–97 complete underJSON/assets scope. WholeAugust incomplete;humanacceptance/fullproofreading/sourcebytes/executionunverified."
     },
     "article_extent_verified": true,
-    "planned_source_pages": [
-      104
-    ],
-    "remaining_source_pages": [
-      104
-    ],
-    "action": "Restoregraphicsending104 innative18 usingpinnedfull98–104extent. Reinspect104 andnextFortrantitle105 beforemapping;retainallprogramphysicalrows/codebitmaps andfinalthanks. AdaptiveOCR/sourcecorrection/export/validate/commit,then separatefull98–104assemblyfromimmutable17/18. AllAugustremainingbodies/pilotselections/headings andissuecloseout remain;JSON/assets only.",
+    "planned_source_pages": null,
+    "remaining_source_pages": [],
+    "action": "Separately assemble fullgraphics98–104 from exact validated native17/18 pins afterendingcommit. Preserve allnative metadata,physicalrows,tablecells,sourceflags andfourproseframes aroundinterveningobjects;no newOCRrequired. Then Fortran begins105;inspect completeextentbeforemapping. AllAugustremainingbodies,pilotselections,headings andstandaloneJSON/assetscloseoutremain;no reading-roombuild.",
     "article_pdf_pages": [
       98,
       99,
@@ -5425,6 +5542,47 @@
         "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/validation.json",
         "sha256": "3c33f3d944fc582f5583fa1525ff825d8a45a589eae0d3963413e3863a027cc4",
         "bytes": 1322
+      }
+    },
+    "ending_checkpoint": {
+      "batch": "batch-18",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-18/graphics/article.json",
+        "sha256": "a6117285ecc75b6c7a1d4db10fa3934ea5b4a5e72889e070e46e824b0913f658",
+        "bytes": 45058
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-18/graphics/manifest.json",
+        "sha256": "a2cf911d60e296cadc41897384ad0057fa40113d19abca3af9307c3ab2270e11",
+        "bytes": 16487
+      },
+      "source_pages": [
+        104
+      ],
+      "regions": 29,
+      "text_regions": 21,
+      "figures": 8,
+      "physical_listing_rows": 26,
+      "logical_listing_rows": 19,
+      "unresolved_entries": 16,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-graphics-source-index-18/source-index.json",
+        "sha256": "050248fcb83fffd8569e53db0ca8c93bb5e4b6cd27ff52ae45b79ce93743b84b",
+        "bytes": 55548
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-18/validation.json",
+        "sha256": "86726bbf222cc4a8d18c6e425df5e4d0a0ddc3002f127cd3909ef662f4f44410",
+        "bytes": 1317
       }
     }
   }
