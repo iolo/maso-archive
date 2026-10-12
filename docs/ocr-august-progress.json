@@ -15,16 +15,15 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-partial-human-pending": 1,
-    "assistant-restored-human-pending": 13,
+    "assistant-restored-human-pending": 14,
     "sealed-pilot-review-pending": 6,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
     "untouched": 17
   },
   "sealed_pilot_articles": 6,
-  "production_complete_articles": 13,
-  "production_partial_articles": 1,
+  "production_complete_articles": 14,
+  "production_partial_articles": 0,
   "untouched_articles": 17,
   "unclassified_heading_entries": 4,
   "classified_heading_entries": 2,
@@ -4262,6 +4261,126 @@
         "both_raw_inventories_unchanged": true
       },
       "scope": "Fullgraphics98–104 complete underJSON/assets scope. WholeAugust incomplete;humanacceptance/fullproofreading/sourcebytes/executionunverified."
+    },
+    {
+      "toc_entry_id": "maso-1984-08-toc-0016",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/article.json",
+        "sha256": "3457645755886b51a983d2d34f0107b68cb4dc6b62827e4c9da27c5274adf559",
+        "bytes": 356092
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/manifest.json",
+        "sha256": "c2a297703206c9dc6096facac0619a6957ebc841d7a75c4ac06859f2129bd3f9",
+        "bytes": 138152
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/fortran-assembly-recipe.json",
+        "sha256": "7dac27944f652c6dd4f2b5cddfc04e2eaba9e5469eeec1e5d3d320db2534f106",
+        "bytes": 3046
+      },
+      "pdf_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "segments": [
+        {
+          "name": "opening",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/manifest.json",
+            "sha256": "f3e35f457f262f3d7130fd5c981fc205b9175719d6cdafe4c760b39823c4aa73",
+            "bytes": 97384
+          }
+        },
+        {
+          "name": "ending",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/manifest.json",
+            "sha256": "4d10ee25d925d7631dd0698cc4fbe6db4403e9f57b92c0677061dec22a6d3c2c",
+            "bytes": 26828
+          }
+        }
+      ],
+      "native_validations": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/validation.json",
+          "sha256": "36f064b052fbae437724c944d75d51159264efa8b8d0b3f9f5e96ccc39a6e46f",
+          "bytes": 1666
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/validation.json",
+          "sha256": "529d00873120f28df01f9e0c3172848ad1ca1fcb276a3a9d33ebb56afcc8e8dc",
+          "bytes": 1725
+        }
+      ],
+      "regions": 225,
+      "text_regions": 171,
+      "figures": 54,
+      "ordered_blocks": 170,
+      "text_review_items": 171,
+      "tables": 5,
+      "table_rows": 44,
+      "table_cells": 146,
+      "table_blank_cells": 7,
+      "printed_blank_header_cells": 1,
+      "physical_listing_rows": 131,
+      "logical_listing_rows": 0,
+      "unnumbered_physical_rows": 131,
+      "unnumbered_source_lines": 130,
+      "listing_groups": 54,
+      "numbered_program_groups": 0,
+      "fortran_statement_labels": 1,
+      "fortran_continuations": 1,
+      "compiler_rows": 10,
+      "compiler_field_cells": 50,
+      "compiler_blank_fields": 18,
+      "compiler_symbol_rows": 4,
+      "compiler_symbol_fields": 12,
+      "compiler_symbol_blanks": 1,
+      "keyword_source_columns": 3,
+      "slot_groups": 8,
+      "column_rules": 4,
+      "column_rule_physical_rows": 8,
+      "unresolved_entries": 81,
+      "source_prose_joins": 1,
+      "native_prose_boundaries": 1,
+      "interrupted_prose_continuations": 24,
+      "figure_associations": 53,
+      "diagrams": 3,
+      "diagram_arrow_relations": 11,
+      "projected_exact_ranges": 515,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index/source-index.json",
+        "sha256": "be1bc903bb0ef0003e4759a6478b11f96ba806c5a48391f5412fe026365c8257",
+        "bytes": 975493
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "physical_source_example_partition": true,
+        "table_header_cells_and_blanks": true,
+        "prose_frames_source_order": true,
+        "compiler_fortran_columns_and_diagram_ranges": true,
+        "prior_production_packages_verified": 27,
+        "preserved_pilot_files": 16790,
+        "all_raw_inventories_unchanged": true
+      },
+      "scope": "FullFortran105–112 complete underJSON/assets scope. WholeAugust incomplete;humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "production_selections": [
@@ -5658,7 +5777,7 @@
       "page": 105,
       "kind": "article",
       "articleIds": [],
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
       "pilot_pair": null,
       "segments": [
@@ -5702,7 +5821,132 @@
         112
       ],
       "deferred_pdf_pages": [],
-      "assembly_required": true
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/article.json",
+        "sha256": "3457645755886b51a983d2d34f0107b68cb4dc6b62827e4c9da27c5274adf559",
+        "bytes": 356092
+      },
+      "assembly": {
+        "toc_entry_id": "maso-1984-08-toc-0016",
+        "engine": "mixed",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/article.json",
+          "sha256": "3457645755886b51a983d2d34f0107b68cb4dc6b62827e4c9da27c5274adf559",
+          "bytes": 356092
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/manifest.json",
+          "sha256": "c2a297703206c9dc6096facac0619a6957ebc841d7a75c4ac06859f2129bd3f9",
+          "bytes": 138152
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/fortran-assembly-recipe.json",
+          "sha256": "7dac27944f652c6dd4f2b5cddfc04e2eaba9e5469eeec1e5d3d320db2534f106",
+          "bytes": 3046
+        },
+        "pdf_pages": [
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112
+        ],
+        "segments": [
+          {
+            "name": "opening",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/manifest.json",
+              "sha256": "f3e35f457f262f3d7130fd5c981fc205b9175719d6cdafe4c760b39823c4aa73",
+              "bytes": 97384
+            }
+          },
+          {
+            "name": "ending",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/manifest.json",
+              "sha256": "4d10ee25d925d7631dd0698cc4fbe6db4403e9f57b92c0677061dec22a6d3c2c",
+              "bytes": 26828
+            }
+          }
+        ],
+        "native_validations": [
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/validation.json",
+            "sha256": "36f064b052fbae437724c944d75d51159264efa8b8d0b3f9f5e96ccc39a6e46f",
+            "bytes": 1666
+          },
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/validation.json",
+            "sha256": "529d00873120f28df01f9e0c3172848ad1ca1fcb276a3a9d33ebb56afcc8e8dc",
+            "bytes": 1725
+          }
+        ],
+        "regions": 225,
+        "text_regions": 171,
+        "figures": 54,
+        "ordered_blocks": 170,
+        "text_review_items": 171,
+        "tables": 5,
+        "table_rows": 44,
+        "table_cells": 146,
+        "table_blank_cells": 7,
+        "printed_blank_header_cells": 1,
+        "physical_listing_rows": 131,
+        "logical_listing_rows": 0,
+        "unnumbered_physical_rows": 131,
+        "unnumbered_source_lines": 130,
+        "listing_groups": 54,
+        "numbered_program_groups": 0,
+        "fortran_statement_labels": 1,
+        "fortran_continuations": 1,
+        "compiler_rows": 10,
+        "compiler_field_cells": 50,
+        "compiler_blank_fields": 18,
+        "compiler_symbol_rows": 4,
+        "compiler_symbol_fields": 12,
+        "compiler_symbol_blanks": 1,
+        "keyword_source_columns": 3,
+        "slot_groups": 8,
+        "column_rules": 4,
+        "column_rule_physical_rows": 8,
+        "unresolved_entries": 81,
+        "source_prose_joins": 1,
+        "native_prose_boundaries": 1,
+        "interrupted_prose_continuations": 24,
+        "figure_associations": 53,
+        "diagrams": 3,
+        "diagram_arrow_relations": 11,
+        "projected_exact_ranges": 515,
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index/source-index.json",
+          "sha256": "be1bc903bb0ef0003e4759a6478b11f96ba806c5a48391f5412fe026365c8257",
+          "bytes": 975493
+        },
+        "human_acceptance": "pending",
+        "checks": {
+          "status": "passed",
+          "full_source_coverage": true,
+          "canonical_identity": true,
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "source_segments_immutable": true,
+          "all_original_metadata_unchanged": true,
+          "listing_bytes_native_concatenation": true,
+          "physical_source_example_partition": true,
+          "table_header_cells_and_blanks": true,
+          "prose_frames_source_order": true,
+          "compiler_fortran_columns_and_diagram_ranges": true,
+          "prior_production_packages_verified": 27,
+          "preserved_pilot_files": 16790,
+          "all_raw_inventories_unchanged": true
+        },
+        "scope": "FullFortran105–112 complete underJSON/assets scope. WholeAugust incomplete;humanacceptance/fullproofreading/sourcebytes/execution unverified."
+      }
     },
     {
       "id": "maso-1984-08-toc-0017",
@@ -6059,233 +6303,148 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "full-fortran-assembly",
-    "status": "fortran-105-112-all-natives-validated-assembly-pending",
-    "toc_entry_id": "maso-1984-08-toc-0016",
-    "canonical_title": "애플 포트란",
-    "canonical_first_page": 105,
-    "actual_first_page": 105,
-    "article_extent_verified": true,
-    "article_pdf_pages": [
-      105,
-      106,
-      107,
-      108,
-      109,
-      110,
-      111,
-      112
-    ],
-    "remaining_source_pages": [],
-    "native_inputs": [
-      {
-        "package": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/article.json",
-          "sha256": "b62d0dc430694206a25369652cbdf0b67f56b6ffa48a06b7febb5b1137b64ca2",
-          "bytes": 258205
+    "batch": "batch-21",
+    "status": "freefall-113-full-extent-inspection-pending",
+    "toc_entry_id": "maso-1984-08-toc-0017",
+    "canonical_title": "자유 낙하운동",
+    "canonical_byline": "탁연상",
+    "canonical_first_page": 113,
+    "article_extent_verified": false,
+    "planned_source_pages": [],
+    "following_canonical_entry": {
+      "toc_entry_id": "maso-1984-08-toc-0018",
+      "title": "기계어 강좌",
+      "byline": "이세형",
+      "canonical_first_page": 116
+    },
+    "prior_fortran_assembly": {
+      "toc_entry_id": "maso-1984-08-toc-0016",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/article.json",
+        "sha256": "3457645755886b51a983d2d34f0107b68cb4dc6b62827e4c9da27c5274adf559",
+        "bytes": 356092
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/fortran/manifest.json",
+        "sha256": "c2a297703206c9dc6096facac0619a6957ebc841d7a75c4ac06859f2129bd3f9",
+        "bytes": 138152
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/fortran-assembly-recipe.json",
+        "sha256": "7dac27944f652c6dd4f2b5cddfc04e2eaba9e5469eeec1e5d3d320db2534f106",
+        "bytes": 3046
+      },
+      "pdf_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "segments": [
+        {
+          "name": "opening",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/manifest.json",
+            "sha256": "f3e35f457f262f3d7130fd5c981fc205b9175719d6cdafe4c760b39823c4aa73",
+            "bytes": 97384
+          }
         },
-        "manifest": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/manifest.json",
-          "sha256": "f3e35f457f262f3d7130fd5c981fc205b9175719d6cdafe4c760b39823c4aa73",
-          "bytes": 97384
-        },
-        "source_pages": [
-          105,
-          106,
-          107,
-          108,
-          109,
-          110
-        ],
-        "regions": 178,
-        "text_regions": 135,
-        "figures": 43,
-        "physical_listing_rows": 121,
-        "logical_listing_rows": 0,
-        "unresolved_entries": 56,
-        "complete_article": false,
-        "checks": {
-          "export_integrity": true,
-          "byte_identical_rebuild": true,
-          "text_and_review_utf8_ranges": true,
-          "listing_byte_coverage": true,
-          "explicit_printed_line_numbers": true
-        },
-        "human_acceptance": "pending",
-        "source_index": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-19/source-index.json",
-          "sha256": "baeb6178907a3d42cb8f7567f7fc688961e4e8a0a987abe0d8548e4e41024bb2",
-          "bytes": 359172
-        },
-        "source_validation": {
+        {
+          "name": "ending",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/manifest.json",
+            "sha256": "4d10ee25d925d7631dd0698cc4fbe6db4403e9f57b92c0677061dec22a6d3c2c",
+            "bytes": 26828
+          }
+        }
+      ],
+      "native_validations": [
+        {
           "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/validation.json",
           "sha256": "36f064b052fbae437724c944d75d51159264efa8b8d0b3f9f5e96ccc39a6e46f",
           "bytes": 1666
-        }
-      },
-      {
-        "package": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/article.json",
-          "sha256": "f1251c19b8475227fb13676e0fecfcead3aebe19d855e9d9b6af4292fc010705",
-          "bytes": 73108
         },
-        "manifest": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-20/fortran/manifest.json",
-          "sha256": "4d10ee25d925d7631dd0698cc4fbe6db4403e9f57b92c0677061dec22a6d3c2c",
-          "bytes": 26828
-        },
-        "source_pages": [
-          111,
-          112
-        ],
-        "regions": 47,
-        "text_regions": 36,
-        "figures": 11,
-        "physical_listing_rows": 10,
-        "logical_listing_rows": 0,
-        "unresolved_entries": 25,
-        "complete_article": false,
-        "checks": {
-          "export_integrity": true,
-          "byte_identical_rebuild": true,
-          "text_and_review_utf8_ranges": true,
-          "listing_byte_coverage": true,
-          "explicit_printed_line_numbers": true
-        },
-        "human_acceptance": "pending",
-        "source_index": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-20/source-index.json",
-          "sha256": "6ad82d2e2d05c2cda1ea4bc6297a9c26d1ea1f6d3499d41ede50f6a999822741",
-          "bytes": 117112
-        },
-        "source_validation": {
+        {
           "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/validation.json",
           "sha256": "529d00873120f28df01f9e0c3172848ad1ca1fcb276a3a9d33ebb56afcc8e8dc",
           "bytes": 1725
         }
-      }
-    ],
-    "ending_source_checks": {
-      "status": "passed",
-      "regions": 47,
-      "text_regions": 36,
-      "ordered_blocks": 35,
-      "figures": 11,
-      "source_prose_joins": 1,
-      "native_prose_boundaries": 1,
-      "interrupted_prose_continuations": 7,
-      "physical_listing_rows": 10,
-      "printed_basic_labels": 0,
-      "unnumbered_physical_rows": 10,
-      "unnumbered_source_lines": 10,
-      "listing_groups": 7,
-      "tables": 3,
-      "table_rows": 35,
-      "table_cells": 118,
-      "blank_cells": 7,
-      "printed_blank_header_cells": 0,
+      ],
+      "regions": 225,
+      "text_regions": 171,
+      "figures": 54,
+      "ordered_blocks": 170,
+      "text_review_items": 171,
+      "tables": 5,
+      "table_rows": 44,
+      "table_cells": 146,
+      "table_blank_cells": 7,
+      "printed_blank_header_cells": 1,
+      "physical_listing_rows": 131,
+      "logical_listing_rows": 0,
+      "unnumbered_physical_rows": 131,
+      "unnumbered_source_lines": 130,
+      "listing_groups": 54,
+      "numbered_program_groups": 0,
+      "fortran_statement_labels": 1,
+      "fortran_continuations": 1,
+      "compiler_rows": 10,
+      "compiler_field_cells": 50,
+      "compiler_blank_fields": 18,
+      "compiler_symbol_rows": 4,
+      "compiler_symbol_fields": 12,
+      "compiler_symbol_blanks": 1,
       "keyword_source_columns": 3,
       "slot_groups": 8,
-      "slot_blank_continuations": 5,
       "column_rules": 4,
       "column_rule_physical_rows": 8,
-      "source_flags": 25,
-      "figure_associations": 10,
-      "source_corrected_once": true,
-      "source_crop_pixels_and_raw_hashes": true,
-      "original_and_selected_raw_preserved": true,
-      "all_stop_reasons_valid": true,
-      "original_raw_preserved_files": 387,
-      "selected_raw_preserved_files": 240,
-      "total_qwen_calls": 11,
-      "total_tesseract_calls": 26,
-      "bounded_fallbacks": 1,
-      "fallback": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/fallback-20-accounting.json",
-        "sha256": "8d599086b9a1330794b0290c0cc292f1f71fc819026f4e352b2eceddc6d98496",
-        "bytes": 1026
-      },
-      "prior_production_packages_verified": 26,
-      "preserved_pilot_files": 16790,
-      "all_prior_raw_inventories_unchanged": true,
-      "byte_identical_rebuild": true,
-      "canonical_identity_preserved": true,
+      "unresolved_entries": 81,
+      "source_prose_joins": 1,
+      "native_prose_boundaries": 1,
+      "interrupted_prose_continuations": 24,
+      "figure_associations": 53,
+      "diagrams": 3,
+      "diagram_arrow_relations": 11,
+      "projected_exact_ranges": 515,
       "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-20/source-index.json",
-        "sha256": "6ad82d2e2d05c2cda1ea4bc6297a9c26d1ea1f6d3499d41ede50f6a999822741",
-        "bytes": 117112
+        "path": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index/source-index.json",
+        "sha256": "be1bc903bb0ef0003e4759a6478b11f96ba806c5a48391f5412fe026365c8257",
+        "bytes": 975493
       },
       "human_acceptance": "pending",
-      "scope": "Ending111–112; full105–112 assembly/wholeAugust remain."
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "physical_source_example_partition": true,
+        "table_header_cells_and_blanks": true,
+        "prose_frames_source_order": true,
+        "compiler_fortran_columns_and_diagram_ranges": true,
+        "prior_production_packages_verified": 27,
+        "preserved_pilot_files": 16790,
+        "all_raw_inventories_unchanged": true
+      },
+      "scope": "FullFortran105–112 complete underJSON/assets scope. WholeAugust incomplete;humanacceptance/fullproofreading/sourcebytes/execution unverified."
     },
-    "full_extent": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent-inspection.json",
-      "sha256": "948d2053ad0bd507f2e47e4562a751817b130892d17f8cd4ca1c8a898518e89b",
-      "bytes": 4140
+    "prior_fortran_validation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/fortran-assembly-validation.json",
+      "sha256": "78992a83903de37bfca48a28d04e28e8c168ee9fb672e2db08624a8359f57090",
+      "bytes": 3820
     },
-    "pinned_source_views": [
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-105.png",
-        "sha256": "f77996efc098d3704ef79abe14e1505e505bab2570269815b046a659772ed3a6",
-        "bytes": 351830
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-106.png",
-        "sha256": "a7e4174c1e7fae1e5222b88fe0c90b181331f237446253a7afbcecafe0773b6f",
-        "bytes": 614533
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-107.png",
-        "sha256": "ade8909c931ea3af2efdb5488ccd6d5742edb24aeee9d8ef67dcae89fc399622",
-        "bytes": 571127
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-108.png",
-        "sha256": "dc82c7f04de75ebcee4183e1511dcd01ad546d1636b5441f71766a1b16bf1696",
-        "bytes": 724990
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-109.png",
-        "sha256": "af2a88346bd898393219b2eb7f3cae212b93f53a45f081d103f35f80ea8247e8",
-        "bytes": 562131
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-110.png",
-        "sha256": "51f75680cc18568062b21160fc85d58ffe087474cfb79b2d80a37f27fd930119",
-        "bytes": 636630
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-111.png",
-        "sha256": "b808d32ae6c4a585fceddd68fd92a44ceda8604415e122321f92d72b1e61f238",
-        "bytes": 640838
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-112.png",
-        "sha256": "28d08cf55a3566ededea25196986ceeb9a55b5de9d3052f453fdee0d2e50bf78",
-        "bytes": 709241
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-113.png",
-        "sha256": "daca729a4698dcf37a2d788220e91b6413652d310d854b1a2dc401a87088d59a",
-        "bytes": 500571
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/extent/page-114.png",
-        "sha256": "f5f1314e48be2edd4e1ca521973b5510af5630b830ce01ba0799a99774d0015c",
-        "bytes": 794535
-      }
-    ],
-    "next_article": {
-      "toc_entry_id": "maso-1984-08-toc-0017",
-      "title": "자유 낙하운동",
-      "byline": "탁연상",
-      "actual_title_page": 113,
-      "canonical_first_page": 113
-    },
-    "previous_goal_turn_classification": "progress:2d0f64a completed ending20 preparation/recognition/raw audit;this continuation completed bounded fallback,source correction andvalidation of ending111–112.",
-    "full_assembly_required": true,
+    "previous_goal_turn_classification": "progress:a6159b8 validated ending20,then thiscontinuation assembled andvalidated fullFortran105–112 with exactnative/source-index projection.",
     "human_acceptance": "pending",
-    "action": "Commit validated ending20,then separately assemble fullFortran105–112 from exact immutable natives19/20. Preserve compiler/Fortran columns,diagrams,130 source examples,five tables andallsource flags. No cross-native text orphysical-row join needed. Afterassembly inspect full extent offollowing 자유 낙하운동113 beforeboundedmapping. WholeAugust JSON/assets closeout remains;no reading-room rebuild."
+    "action": "Commit fullFortran105–112 assembly,then inspect complete 자유 낙하운동 extentstarting113 andfollowing titlebefore bounded mapping. Reuse unchanged113/114 scans fromnative19extent;inspect fresh115/116 asneeded. Adaptive OCR/source correction/export/validation/commit within twoarticles/sixpages/twentyoutside-lookups. WholeAugust standaloneJSON/assets closeout,17untouched bodies,sixpilot selections/fourheading classifications remain;no reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
