@@ -2154,3 +2154,21 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Session rules require explicit authorization before subagent delegation; otherwise
   use separate fresh user-started correction sessions. Do not compare two sequential
   corrections in the existing conversation as independent measurements.
+
+### August first-two raw pairs prepared, 2026-10-12
+
+- Editorial p.20 and Death Ski pp.37–38 completed through both pure engines:
+  four raw arms, 37 text crops per engine, no failed crops or retries. Both arms
+  received identical crop bytes; 41 shared regions include four original figures.
+- Added frozen-input paired runner and a passing failure-preservation test.
+  Runtime/model pins match July. Raw worker times: editorial T 6.85s/Q 22.90s;
+  game Q 43.27s/T 8.25s. Captured 24,770 local Qwen tokens have zero monetary cost.
+- Prepared four separate correction packets with common instructions, source
+  images, one assigned draft and immutable input manifests. No semantic correction
+  or corrected export yet. Explicit delegation authorization remains pending;
+  independent-session usage capture and equal-quality checks are still required.
+- Progress and coordinator-only usage: docs/ocr-august-pilot-progress.json and
+  docs/ocr-august-pilot-usage.json. Shared helper work overlapped local OCR and is
+  not assigned causally to either engine. Audit cutoff excludes the later tail.
+- First-two instrumentation gate remains unpassed; remaining six pairs not started.
+  No paid-cost or accuracy verdict and no reading-room rebuild at this checkpoint.

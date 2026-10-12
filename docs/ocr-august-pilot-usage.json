@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "windows": [
+    {
+      "id": "august-selection-protocol",
+      "stage": "shared-selection-and-protocol",
+      "engine": "shared",
+      "start": "2026-10-12T00:34:55.352Z",
+      "end": "2026-10-12T00:40:48.408105+00:00",
+      "elapsed_seconds": 353.05610489845276,
+      "observed_responses": 15,
+      "tokens": {
+        "input_tokens": 1887781,
+        "cached_input_tokens": 1848320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10510,
+        "reasoning_output_tokens": 3350,
+        "total_tokens": 1898291,
+        "uncached_nonwrite_input_tokens": 39461
+      }
+    },
+    {
+      "id": "prepare-instrumentation-pairs",
+      "stage": "shared-preparation-and-runtime",
+      "engine": "shared",
+      "start": "2026-10-12T00:49:03+00:00",
+      "end": "2026-10-12T00:58:12.723072+00:00",
+      "elapsed_seconds": 549.723072052002,
+      "observed_responses": 17,
+      "tokens": {
+        "input_tokens": 3122757,
+        "cached_input_tokens": 3061120,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16438,
+        "reasoning_output_tokens": 7063,
+        "total_tokens": 3139195,
+        "uncached_nonwrite_input_tokens": 61637
+      }
+    },
+    {
+      "id": "raw-aug-01-tesseract",
+      "stage": "raw-orchestration",
+      "engine": "shared",
+      "start": "2026-10-12T00:58:12.738808+00:00",
+      "end": "2026-10-12T00:58:43.883625+00:00",
+      "observed_raw_engine": "tesseract",
+      "limitation": "Coordinator bookkeeping and overlapping shared helper preparation; not clean per-arm paid attribution. Raw worker time recorded independently.",
+      "elapsed_seconds": 31.144817113876343,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 411815,
+        "cached_input_tokens": 409472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 682,
+        "reasoning_output_tokens": 339,
+        "total_tokens": 412497,
+        "uncached_nonwrite_input_tokens": 2343
+      }
+    },
+    {
+      "id": "raw-aug-01-qwen",
+      "stage": "raw-orchestration",
+      "engine": "shared",
+      "start": "2026-10-12T00:58:43.899289+00:00",
+      "end": "2026-10-12T00:59:32.755580+00:00",
+      "observed_raw_engine": "qwen",
+      "limitation": "Coordinator bookkeeping and overlapping shared helper preparation; not clean per-arm paid attribution. Raw worker time recorded independently.",
+      "elapsed_seconds": 48.85629105567932,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 417432,
+        "cached_input_tokens": 412672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 839,
+        "reasoning_output_tokens": 542,
+        "total_tokens": 418271,
+        "uncached_nonwrite_input_tokens": 4760
+      }
+    },
+    {
+      "id": "raw-aug-02-qwen",
+      "stage": "raw-orchestration",
+      "engine": "shared",
+      "start": "2026-10-12T00:59:32.771100+00:00",
+      "end": "2026-10-12T01:00:44.554519+00:00",
+      "observed_raw_engine": "qwen",
+      "limitation": "Coordinator bookkeeping and overlapping shared helper preparation; not clean per-arm paid attribution. Raw worker time recorded independently.",
+      "elapsed_seconds": 71.78341889381409,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 423838,
+        "cached_input_tokens": 421376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1638,
+        "reasoning_output_tokens": 1254,
+        "total_tokens": 425476,
+        "uncached_nonwrite_input_tokens": 2462
+      }
+    },
+    {
+      "id": "raw-aug-02-tesseract",
+      "stage": "raw-orchestration",
+      "engine": "shared",
+      "start": "2026-10-12T01:00:44.569706+00:00",
+      "end": "2026-10-12T01:02:13.324075+00:00",
+      "observed_raw_engine": "tesseract",
+      "limitation": "Coordinator bookkeeping and overlapping shared helper preparation; not clean per-arm paid attribution. Raw worker time recorded independently.",
+      "elapsed_seconds": 88.75436902046204,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 428472,
+        "cached_input_tokens": 425600,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2189,
+        "reasoning_output_tokens": 1373,
+        "total_tokens": 430661,
+        "uncached_nonwrite_input_tokens": 2872
+      }
+    },
+    {
+      "id": "prepare-correction-packets",
+      "stage": "shared-packet-and-validation",
+      "engine": "shared",
+      "start": "2026-10-12T01:02:13.339434+00:00",
+      "end": "2026-10-12T01:10:52.130905+00:00",
+      "elapsed_seconds": 518.7914710044861,
+      "observed_responses": 10,
+      "tokens": {
+        "input_tokens": 1278692,
+        "cached_input_tokens": 1239168,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16406,
+        "reasoning_output_tokens": 4176,
+        "total_tokens": 1295098,
+        "uncached_nonwrite_input_tokens": 39524
+      }
+    }
+  ],
+  "money_cost": null,
+  "policy": "Observed usage by response completion timestamp in [start,end). A boundary-straddling response is attributed wholly to its completion window. Cached/write input and reasoning output are subsets; do not add them twice. No observed records means unknown, not free work. Missing or delayed usage may require a later audit. Elapsed windows include tool waits. These observations are not a bill or causal engine savings estimate.",
+  "observed_trial_span": {
+    "id": "observed-trial-span",
+    "start": "2026-10-12T00:34:55.352Z",
+    "end": "2026-10-12T01:10:52.130905+00:00",
+    "elapsed_seconds": 2156.778904914856,
+    "observed_responses": 54,
+    "tokens": {
+      "input_tokens": 8552154,
+      "cached_input_tokens": 8396032,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 50165,
+      "reasoning_output_tokens": 18802,
+      "total_tokens": 8602319,
+      "uncached_nonwrite_input_tokens": 156122
+    }
+  },
+  "between_window_usage": {
+    "id": "observed-trial-span",
+    "start": "2026-10-12T00:34:55.352Z",
+    "end": "2026-10-12T01:10:52.130905+00:00",
+    "elapsed_seconds": 2156.778904914856,
+    "observed_responses": 4,
+    "tokens": {
+      "input_tokens": 581367,
+      "cached_input_tokens": 578304,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1463,
+      "reasoning_output_tokens": 705,
+      "total_tokens": 582830,
+      "uncached_nonwrite_input_tokens": 3063
+    }
+  },
+  "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
+  "scope": "Coordinator-only shared preparation, raw orchestration, packet creation and reporting. No independent correction sessions yet; per-arm paid correction costs unknown. Raw orchestration overlaps shared helper development and is not assigned causally to its active OCR engine. Includes between-window overhead through explicit cutoff; subsequent commit/report tail excluded."
+}

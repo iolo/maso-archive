@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-08",
+  "status": "first-two-raw-pairs-ready-independent-correction-pending",
+  "selected_articles": 8,
+  "selected_source_pages": 28,
+  "planned_restorations": 16,
+  "completed_raw_arms": 4,
+  "completed_corrected_arms": 0,
+  "human_accepted_articles": 0,
+  "first_two_instrumentation_gate": "not-passed: independent corrections, child session usage and matched quality checks remain unperformed",
+  "delegation_authorization": "pending-explicit-user-reply",
+  "selection": {
+    "path": "docs/ocr-august-pilot-selection.json",
+    "sha256": "9e07cab7449277d96214132c821fd11fcdac94319497e48f46c6606db53fc742",
+    "bytes": 7589
+  },
+  "protocol": {
+    "path": "docs/OCR-AUGUST-PILOT.md",
+    "sha256": "b39c3ca9f91ead2bf9ebecd3510e043289ed32ee3e7058407006c12b7e8dc73f",
+    "bytes": 13148
+  },
+  "case_registry": {
+    "path": "private/pdf-restoration/13-1984-08-cost-pilot/correction-case-registry.json",
+    "sha256": "5aabd491ebd2fb56ac2a953b9563f8f65e1f150bfded20905bd4e267300fcf94",
+    "bytes": 2254
+  },
+  "paid_coordinator_usage": {
+    "path": "docs/ocr-august-pilot-usage.json",
+    "sha256": "2a25b18125811e92280aa0cdd687366414de0fb40d72aa3bbed3486965886b82",
+    "bytes": 7010
+  },
+  "articles": [
+    {
+      "pair_id": "aug-01",
+      "toc_entry_id": "maso-1984-08-toc-0037",
+      "title": "편집자 노트",
+      "pdf_pages": [
+        20
+      ],
+      "first_engine": "tesseract",
+      "raw": {
+        "qwen": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-01/qwen/ocr/report.json",
+            "sha256": "39c0e16cb3387512ca3d1b56e49eed246d83c6c17181ef3f246ce1ea6bdf8ee0",
+            "bytes": 354
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-01/qwen/ocr/attempts.json",
+            "sha256": "200e82c7413381957c4ed5465197dce16d2ab188ef439dc19436645889c16716",
+            "bytes": 7337
+          },
+          "status": "raw-complete",
+          "worker_seconds": 22.90174623900384,
+          "recognition_seconds": 15.211561149990303,
+          "text_regions": 14,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": {
+            "prompt_tokens": 6936,
+            "completion_tokens": 1256,
+            "total_tokens": 8192
+          },
+          "exact_input_crop_equality": true
+        },
+        "tesseract": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-01/tesseract/ocr/report.json",
+            "sha256": "0274b031587f80282f293b92a367daf2e331dfa25c3497e498c0d9f62c686d25",
+            "bytes": 359
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-01/tesseract/ocr/attempts.json",
+            "sha256": "b4bb8ee6e54cd8b7df46c83623b1326b938d2e098e29a434eaa3bb07e83b9145",
+            "bytes": 4888
+          },
+          "status": "raw-complete",
+          "worker_seconds": 6.852829847004614,
+          "recognition_seconds": 3.3384597059775842,
+          "text_regions": 14,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": null,
+          "exact_input_crop_equality": true
+        }
+      },
+      "semantic_correction": "not-started",
+      "human_acceptance": "pending",
+      "frozen_inputs": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-01/shared/frozen-inputs.json",
+        "sha256": "60f7c24ed02e54eaa8cdf0007634ca02a2166216761d0be79d0d1e8bed4723d9",
+        "bytes": 5959
+      },
+      "regions": 15,
+      "text_regions": 14,
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-01/shared/map.json",
+        "sha256": "e4263a693b54c64da5654627c2aeccdc0c3dc07f9a0c634968f679adb7d87700",
+        "bytes": 5259
+      },
+      "status": "raw-pair-ready-correction-pending"
+    },
+    {
+      "pair_id": "aug-02",
+      "toc_entry_id": "maso-1984-08-toc-0004",
+      "title": "죽음의 스키",
+      "pdf_pages": [
+        37,
+        38
+      ],
+      "first_engine": "qwen",
+      "raw": {
+        "qwen": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/qwen/ocr/report.json",
+            "sha256": "32162f10659befe7bb10996b4663e28f800bc23a877c168d76ca89dde1668ca8",
+            "bytes": 353
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/qwen/ocr/attempts.json",
+            "sha256": "3bd9afa134949f8fdf5f5097e9c792afa83def369d4f3cdfaf62aac62056ef95",
+            "bytes": 12055
+          },
+          "status": "raw-complete",
+          "worker_seconds": 43.27362416300457,
+          "recognition_seconds": 35.27588203003688,
+          "text_regions": 23,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": {
+            "prompt_tokens": 13691,
+            "completion_tokens": 2887,
+            "total_tokens": 16578
+          },
+          "exact_input_crop_equality": true
+        },
+        "tesseract": {
+          "report": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/tesseract/ocr/report.json",
+            "sha256": "66932601c98ff6f8a8a52657647bcffd2105282ca459045dc2e10e008c59c033",
+            "bytes": 358
+          },
+          "attempts": {
+            "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/tesseract/ocr/attempts.json",
+            "sha256": "b3c6b28c6743da5e2da5f6a1c839019ad6a77fa3e568a6f5ef271ebe5f78c493",
+            "bytes": 8034
+          },
+          "status": "raw-complete",
+          "worker_seconds": 8.248499100998743,
+          "recognition_seconds": 4.739834718959173,
+          "text_regions": 23,
+          "failed_regions": [],
+          "captured_local_qwen_tokens": null,
+          "exact_input_crop_equality": true
+        }
+      },
+      "semantic_correction": "not-started",
+      "human_acceptance": "pending",
+      "frozen_inputs": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/shared/frozen-inputs.json",
+        "sha256": "1a427bf28908310fe222c056a0e8e2ce1bb413925dec4a43f72012c340639fe5",
+        "bytes": 7713
+      },
+      "regions": 26,
+      "text_regions": 23,
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-02/shared/map.json",
+        "sha256": "e2d16c5cd1c8fc994524ab9d3e4a080eb2bd37d6d9d9ba545f17344daa27dc45",
+        "bytes": 8459
+      },
+      "status": "raw-pair-ready-correction-pending"
+    },
+    {
+      "pair_id": "aug-03",
+      "toc_entry_id": "maso-1984-08-toc-0042",
+      "title": "공모총평",
+      "pdf_pages": [
+        237
+      ],
+      "first_engine": "qwen",
+      "raw": {},
+      "semantic_correction": "not-started",
+      "human_acceptance": "pending",
+      "status": "selected-not-started"
+    },
+    {
+      "pair_id": "aug-04",
+      "toc_entry_id": "maso-1984-08-toc-0012",
+      "title": "기초 테크닉 코너",
+      "pdf_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "first_engine": "qwen",
+      "raw": {},
+      "semantic_correction": "not-started",
+      "human_acceptance": "pending",
+      "status": "selected-not-started"
+    },
+    {
+      "pair_id": "aug-05",
+      "toc_entry_id": "maso-1984-08-toc-0024",
+      "title": "VISICALC 활용",
+      "pdf_pages": [
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "first_engine": "qwen",
+      "raw": {},
+      "semantic_correction": "not-started",
+      "human_acceptance": "pending",
+      "status": "selected-not-started"
+    },
+    {
+      "pair_id": "aug-06",
+      "toc_entry_id": "maso-1984-08-toc-0026",
+      "title": "PIA 시리즈2 미니네온사인의 제작",
+      "pdf_pages": [
+        196,
+        197,
+        198,
+        199
+      ],
+      "first_engine": "tesseract",
+      "raw": {},
+      "semantic_correction": "not-started",
+      "human_acceptance": "pending",
+      "status": "selected-not-started"
+    },
+    {
+      "pair_id": "aug-07",
+      "toc_entry_id": "maso-1984-08-toc-0029",
+      "title": "베이직 코맨드 에디터",
+      "pdf_pages": [
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "first_engine": "tesseract",
+      "raw": {},
+      "semantic_correction": "not-started",
+      "human_acceptance": "pending",
+      "status": "selected-not-started"
+    },
+    {
+      "pair_id": "aug-08",
+      "toc_entry_id": "maso-1984-08-toc-0043",
+      "title": "Q&A",
+      "pdf_pages": [
+        262,
+        263,
+        264,
+        265
+      ],
+      "first_engine": "tesseract",
+      "raw": {},
+      "semantic_correction": "not-started",
+      "human_acceptance": "pending",
+      "status": "selected-not-started"
+    }
+  ],
+  "reading_room": "not-rebuilt",
+  "checks": {
+    "source_geometry_inspected_before_ocr": true,
+    "identical_crop_bytes_verified": true,
+    "raw_evidence_pins_verified": true,
+    "case_input_files_verified": true,
+    "failed_response_preservation_test": true
+  },
+  "cost_interpretation": "Local CPU/GPU/runtime/model tokens priced at zero. Raw timings are diagnostics, not the paid-cost answer. No semantic correction or paired accuracy/cost result exists yet."
+}

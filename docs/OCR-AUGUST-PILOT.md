@@ -1,8 +1,9 @@
 # August 1984 paired restoration cost pilot
 
-Status: eight articles selected and source boundaries checked; OCR and paired
-semantic correction have not started. Selection and order are frozen before
-viewing either engine's output. This pilot follows the user's October12 request
+Status: eight articles selected and source boundaries checked; both raw OCR arms
+are complete for the first two articles. Independent semantic correction has not
+started. Selection and order were frozen before viewing either engine's output.
+This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
 
 The [setup usage audit](ocr-august-pilot-setup-usage.json) records selection and
@@ -158,3 +159,48 @@ provisional until that quality comparison is completed.
 
 Expansion to the whole August issue is a later decision. The pilot commits to eight
 selected article pairs, not an automatic full-issue double restoration.
+
+## First-two raw checkpoint, 2026-10-12
+
+The editorial and game article now have four completed raw arms, with no failed
+crops or retries. Their shared maps contain 41 regions: 37 text crops and four
+source figures. Both engines received byte-identical PNG crops; Qwen's serialized
+request image hashes also match. Source-only seam adjustments were completed
+before inference and are recorded as shared preparation.
+
+| Article | Engine | Worker seconds | Recognition seconds | Local model tokens |
+| --- | --- | ---: | ---: | ---: |
+| Editorial, p.20 | Tesseract | 6.85 | 3.34 | — |
+| Editorial, p.20 | Qwen | 22.90 | 15.21 | 8,192 |
+| Death Ski, pp.37–38 | Qwen | 43.27 | 35.28 | 16,578 |
+| Death Ski, pp.37–38 | Tesseract | 8.25 | 4.74 | — |
+
+Worker time includes runtime verification, crop copying and evidence export, plus
+model startup for Qwen. Recognition time is a subset, not additional elapsed time.
+Shared rendering/mapping is excluded. These are raw-stage diagnostics: all local
+resources and 24,770 local model tokens have zero monetary weight in this study.
+They do not yet answer the paid-cost question.
+
+The frozen Qwen binary/model/projector hashes match the July-tested runtime.
+Requests use temperature 0, seed 42, an 8,192-token context and 4,096 image tokens;
+the ordinary output limit is 2,048 tokens, with a predeclared 512-token limit for
+the graphic-character band on p.38. Tesseract uses OEM 1, PSM 6, one thread,
+`eng` for code and `kor+eng` otherwise. Full configuration and input pins remain
+with the private raw evidence. Each crop receives one bounded primary attempt;
+failed native output is retained without fallback. The failure-preservation test
+passes, including continued processing and refusal to overwrite an existing run.
+
+Four separate correction packets are prepared in the frozen execution order,
+with common instructions, source images, structural templates and one assigned
+draft each. No packet has been corrected or exported. Explicit delegation
+authorization is still pending under this session's rule above. The first-two
+instrumentation gate remains unpassed; the other six articles have not started.
+No reading-room rebuild was performed.
+
+The [progress manifest](ocr-august-pilot-progress.json) records artifact pins and
+completion state. The [coordinator usage audit](ocr-august-pilot-usage.json) records
+shared setup, preparation and orchestration through its explicit cutoff, including
+between-window overhead. It contains no independent correction-session usage.
+Coordinator helper work overlapped raw runs, so those paid tokens are shared
+experimental overhead, not attributed to whichever local engine was running.
+The subsequent validation, commit and delivery tail remains outside that cutoff.
