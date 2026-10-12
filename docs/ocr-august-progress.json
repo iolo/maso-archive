@@ -1,0 +1,1129 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-08",
+  "status": "in-progress",
+  "objective": "Restore all remaining August1984 articles with adaptive routing; JSON/assets, immutable raw evidence, source corrections and explicit review outcomes.",
+  "source": {
+    "path": "maso-pdf/maso-8408.pdf",
+    "sha256": "501c231e723a0cbc909b2be8cdbb0ea03ab75594913146d9b0d49b07ebb23972",
+    "bytes": 96490443
+  },
+  "canonical_toc": {
+    "path": "build/reading-room-routed-july-complete/data/issues/1984-08.json",
+    "sha256": "538855fa3ddaa036bf4e19a7839b136678ceecc4b6630bfd7649c3415d55237e",
+    "bytes": 7877
+  },
+  "canonical_toc_entries": 43,
+  "counts_by_status": {
+    "assistant-partial-human-pending": 1,
+    "sealed-pilot-review-pending": 8,
+    "section-heading-no-body": 1,
+    "unclassified-heading": 5,
+    "untouched": 28
+  },
+  "sealed_pilot_articles": 8,
+  "production_complete_articles": 0,
+  "production_partial_articles": 1,
+  "untouched_articles": 28,
+  "unclassified_heading_entries": 5,
+  "classified_heading_entries": 1,
+  "human_accepted_articles": 0,
+  "checkpoints": [
+    {
+      "batch": "batch-01",
+      "toc_entry_id": "maso-1984-08-toc-0001",
+      "title": "특집 : 논리 IC의 이용",
+      "source_pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p21r01": "tesseract",
+        "p21r04": "tesseract",
+        "p22r01": "tesseract",
+        "p22r08": "tesseract",
+        "p22r14": "tesseract",
+        "p22r15": "tesseract",
+        "p22r17": "tesseract",
+        "p22r21": "tesseract",
+        "p23r06": "tesseract",
+        "p23r10": "tesseract",
+        "p23r13": "tesseract",
+        "p23r14": "tesseract",
+        "p23r17": "tesseract",
+        "p23r19": "tesseract",
+        "p23r22": "tesseract",
+        "p23r25": "tesseract",
+        "p23r29": "tesseract",
+        "p23r30": "tesseract",
+        "p23r36": "tesseract",
+        "p23r37": "tesseract",
+        "p24r06": "tesseract",
+        "p24r10": "tesseract",
+        "p24r14": "tesseract",
+        "p24r18": "tesseract",
+        "p24r21": "tesseract",
+        "p24r26": "tesseract",
+        "p25r05": "tesseract",
+        "p25r08": "tesseract",
+        "p25r09": "tesseract",
+        "p25r17": "tesseract",
+        "p25r18": "tesseract",
+        "p25r22": "tesseract",
+        "p25r24": "tesseract",
+        "p26r02": "tesseract",
+        "p26r04": "tesseract",
+        "p26r07": "tesseract",
+        "p26r09": "tesseract",
+        "p26r12": "tesseract",
+        "p26r17": "tesseract"
+      },
+      "assignment_reason": "Tesseract on short isolated headings/captions; Qwen on faint prose, formulas and tables. Bounded representative T prose probe lost 회전각/연속적인 and analog/digital identifiers; source reading shows identifier failures beyond spacing. Reuse this routing evidence on unchanged neighboring prose; no full dual correction.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-01/logic-ic/article.json",
+          "sha256": "126d5ff9192c243aad4a695774b19fee8f8128a0d373f4f9e6f355a043ab3268",
+          "bytes": 203813
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-01/logic-ic/manifest.json",
+          "sha256": "92f836505aec138c38e705f290cbe6001b65c86134d246a7262522f5966112d2",
+          "bytes": 79888
+        },
+        "source_pages": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "regions": 139,
+        "text_regions": 114,
+        "figures": 25,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 15,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-01/map.json",
+        "sha256": "762661704dd0b03e86cd6e57029a85a62fc18b4997d5b0da6bc07f115c2a4fb6",
+        "bytes": 38386
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-01/source-review-ledger.json",
+        "sha256": "424ee638e67af70607502cb0f572d547edfa29f5e34b7b196d617640cfc1d24d",
+        "bytes": 19248
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 33163,
+        "completion_tokens": 6629,
+        "total_tokens": 39792
+      },
+      "qwen_completed_calls": 76,
+      "qwen_recognition_seconds": 81.57234934103326,
+      "tesseract_recognition_seconds": 3.893575043970486,
+      "preparation_probe_seconds": 0.32337284499953967,
+      "repair": {
+        "original_run_preserved": "ocr-original",
+        "records": [
+          {
+            "region_id": "p22r16",
+            "kind": "figure",
+            "old_bbox": [
+              0.7031802120141343,
+              0.629375,
+              0.941696113074205,
+              0.72375
+            ],
+            "new_bbox": [
+              0.6863957597173145,
+              0.629375,
+              0.9496466431095406,
+              0.72375
+            ],
+            "original_image": {
+              "path": "ocr-page22/p22r16.png",
+              "sha256": "b57d2b734cdfbb6627356817bd601a47a1fd15e35c968e57221e446eb5667108",
+              "bytes": 51670
+            },
+            "revised_image": {
+              "path": "ocr-page22/p22r16.png",
+              "sha256": "85f00a4fb70dac37e8d96370f38091093416f8665f3b3465ff0e415a1605530f",
+              "bytes": 54742
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p22r21",
+            "kind": "caption",
+            "old_bbox": [
+              0.726148409893993,
+              0.916875,
+              0.9443462897526502,
+              0.934375
+            ],
+            "new_bbox": [
+              0.6978798586572438,
+              0.914375,
+              0.9514134275618374,
+              0.936875
+            ],
+            "original_image": {
+              "path": "ocr-page22/p22r21.png",
+              "sha256": "71be95d78224a4e7c3183c5816e49768e7bfe47ccff819fe2e508ba5cf0b3a4d",
+              "bytes": 16335
+            },
+            "revised_image": {
+              "path": "ocr-page22/p22r21.png",
+              "sha256": "2481eaac06d46041c31af6e3dbbb5cc2efd23d7aa141641381540c44b063918b",
+              "bytes": 23368
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p23r16",
+            "kind": "figure",
+            "old_bbox": [
+              0.3710247349823322,
+              0.438125,
+              0.6104240282685512,
+              0.549375
+            ],
+            "new_bbox": [
+              0.3374558303886926,
+              0.438125,
+              0.6183745583038869,
+              0.55125
+            ],
+            "original_image": {
+              "path": "ocr-page23/p23r16.png",
+              "sha256": "0d6584c3911d6756d236e41b18db5e67087d04a755cd89c94c0039e70ca84aa5",
+              "bytes": 53213
+            },
+            "revised_image": {
+              "path": "ocr-page23/p23r16.png",
+              "sha256": "e33eeb10293a0ead5c7d7b01b3ed24fdd0754b7b9e229f9d45eeeb33390a599d",
+              "bytes": 59951
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p23r22",
+            "kind": "caption",
+            "old_bbox": [
+              0.38074204946996465,
+              0.72375,
+              0.48939929328621906,
+              0.739375
+            ],
+            "new_bbox": [
+              0.35159010600706714,
+              0.721875,
+              0.49823321554770317,
+              0.739375
+            ],
+            "original_image": {
+              "path": "ocr-page23/p23r22.png",
+              "sha256": "7e42612534d8dcdf59e2134397a170459cf54c0e96efc6d36af4744e471c7b33",
+              "bytes": 6986
+            },
+            "revised_image": {
+              "path": "ocr-page23/p23r22.png",
+              "sha256": "605693cfa49039ace8d25725a66b559d49c1d0c5156bb4f520ad208283370f13",
+              "bytes": 10856
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p23r25",
+            "kind": "caption",
+            "old_bbox": [
+              0.37720848056537104,
+              0.804375,
+              0.6007067137809188,
+              0.819375
+            ],
+            "new_bbox": [
+              0.35159010600706714,
+              0.804375,
+              0.6157243816254417,
+              0.820625
+            ],
+            "original_image": {
+              "path": "ocr-page23/p23r25.png",
+              "sha256": "4f3b1f5ef982b0a6e69fc1d713b2413fea5ab538f13e73ad794b199f34a4ae6b",
+              "bytes": 17328
+            },
+            "revised_image": {
+              "path": "ocr-page23/p23r25.png",
+              "sha256": "cfb061a9c39bc57941d50ac4d1a12d8523cd5b67aa27a890a9b3e56e86468263",
+              "bytes": 20361
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p23r29",
+            "kind": "caption",
+            "old_bbox": [
+              0.6625441696113075,
+              0.22,
+              0.9054770318021201,
+              0.238125
+            ],
+            "new_bbox": [
+              0.6351590106007067,
+              0.22,
+              0.916077738515901,
+              0.240625
+            ],
+            "original_image": {
+              "path": "ocr-page23/p23r29.png",
+              "sha256": "354fc7ff2f294b44f36753d4775d383c82de24e2b3af90df2f0f0de2b4988b5a",
+              "bytes": 21652
+            },
+            "revised_image": {
+              "path": "ocr-page23/p23r29.png",
+              "sha256": "f250d652008bd916be93ea99e13249aad98a7b16fbd21c78fc451c940527e8be",
+              "bytes": 22976
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p25r17",
+            "kind": "title",
+            "old_bbox": [
+              0.6581272084805654,
+              0.145,
+              0.8259717314487632,
+              0.18
+            ],
+            "new_bbox": [
+              0.6325088339222615,
+              0.145,
+              0.8401060070671378,
+              0.181875
+            ],
+            "original_image": {
+              "path": "ocr-page25/p25r17.png",
+              "sha256": "39064de60fc4dd3c31721e3c379e7ad120d03c27c72822ad356eb39a295d9f1c",
+              "bytes": 15949
+            },
+            "revised_image": {
+              "path": "ocr-page25/p25r17.png",
+              "sha256": "c3560afe8945225be8cbc7fd2a42bbf2c10ffa6b7775e4312bd03c688ec7aacb",
+              "bytes": 18745
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p26r06",
+            "kind": "figure",
+            "old_bbox": [
+              0.13780918727915195,
+              0.676875,
+              0.3754416961130742,
+              0.8625
+            ],
+            "new_bbox": [
+              0.11042402826855123,
+              0.676875,
+              0.38869257950530034,
+              0.865
+            ],
+            "original_image": {
+              "path": "ocr-page26/p26r06.png",
+              "sha256": "2e35fc776026e6bb3d906f266e70f4bdfc4e0e66dc113cb70863eb96287e31a8",
+              "bytes": 79045
+            },
+            "revised_image": {
+              "path": "ocr-page26/p26r06.png",
+              "sha256": "0417aa90025b02f157056ca9a0276d9ece3e779d9b088c21fe3ddd08fdfb8d24",
+              "bytes": 85471
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p26r16",
+            "kind": "figure",
+            "old_bbox": [
+              0.4107773851590106,
+              0.715625,
+              0.6669611307420494,
+              0.9
+            ],
+            "new_bbox": [
+              0.3869257950530035,
+              0.715625,
+              0.6881625441696113,
+              0.9
+            ],
+            "original_image": {
+              "path": "ocr-page26/p26r16.png",
+              "sha256": "6af8a71dbc3c742930ebef44b040b8028f52ddd09c3105a6f801ba00e32025da",
+              "bytes": 132587
+            },
+            "revised_image": {
+              "path": "ocr-page26/p26r16.png",
+              "sha256": "1e2d8bf98c7b67342789a28a9d0037cf30e4991dbad7ad11048566bcce4c9b34",
+              "bytes": 139050
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          },
+          {
+            "region_id": "p26r23",
+            "kind": "prose",
+            "old_bbox": [
+              0.6952296819787986,
+              0.66925,
+              0.9469964664310954,
+              0.7482500000000001
+            ],
+            "new_bbox": [
+              0.6908127208480566,
+              0.671875,
+              0.9575971731448764,
+              0.74375
+            ],
+            "original_image": {
+              "path": "ocr-page26/p26r23.png",
+              "sha256": "9cd0ec52d45bad59c1250c1b3859ef4d2668c3b31ec7eb40a435d70546a2699f",
+              "bytes": 126806
+            },
+            "revised_image": {
+              "path": "ocr-page26/p26r23.png",
+              "sha256": "47c3f15346f6326b7043ba546741281a54ade0ac9eeef9b4e53de2277de470b8",
+              "bytes": 116059
+            },
+            "reason": "Source inspection found clipped caption label, heading number, diagram labels/wire edges, plot axis labels or closing quote."
+          }
+        ],
+        "additional_inferences": 6,
+        "tesseract_regions": 5,
+        "qwen_regions": 1,
+        "figures_recropped": 4,
+        "timing_seconds": {
+          "p22r21": 0.08207097300328314,
+          "p23r22": 0.07178675998875406,
+          "p23r25": 0.0838167030015029,
+          "p23r29": 0.08962622200488113,
+          "p25r17": 0.07887469099659938,
+          "p26r23": 1.0678480789938476
+        },
+        "elapsed_seconds": 5.6342739029933,
+        "policy": "Every changed crop repaired once; all114 initial text calls and original25 figure crops retained. Unchanged crops reused without inference."
+      },
+      "raw_worker": {
+        "started_at": "2026-10-12T04:10:59.171193+00:00",
+        "finished_at": "2026-10-12T04:12:37.271781+00:00",
+        "elapsed_seconds": 98.1005999439949,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 75,
+          "tesseract_inferences": 39,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p22r20",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p23r05",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p23r21",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p23r24",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p23r35",
+          "data_rows": 2,
+          "data_cells": 4
+        },
+        {
+          "region_id": "p24r05",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p24r09",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p24r13",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p25r04",
+          "data_rows": 4,
+          "data_cells": 12
+        }
+      ],
+      "human_acceptance": "pending"
+    }
+  ],
+  "assemblies": [],
+  "entries": [
+    {
+      "id": "maso-1984-08-toc-0001",
+      "parentId": null,
+      "depth": 0,
+      "title": "특집 : 논리 IC의 이용",
+      "byline": "김경환",
+      "page": 21,
+      "kind": "article",
+      "articleIds": [],
+      "status": "assistant-partial-human-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-01",
+          "source_pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-01/logic-ic/article.json",
+            "sha256": "126d5ff9192c243aad4a695774b19fee8f8128a0d373f4f9e6f355a043ab3268",
+            "bytes": 203813
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "deferred_pdf_pages": [
+        27,
+        28,
+        29
+      ],
+      "assembly_required": true
+    },
+    {
+      "id": "maso-1984-08-toc-0002",
+      "parentId": null,
+      "depth": 0,
+      "title": "취미생활",
+      "byline": null,
+      "page": null,
+      "kind": "section",
+      "articleIds": [],
+      "status": "section-heading-no-body",
+      "human_acceptance": "pending",
+      "pilot_pair": null,
+      "classification": {
+        "toc_entry_id": "maso-1984-08-toc-0002",
+        "classification": "non-owning-section-heading",
+        "pdf_page": 31,
+        "evidence": "Source31 contains hobby divider and six-child page list; no own article body.",
+        "child_ids": [
+          "maso-1984-08-toc-0003",
+          "maso-1984-08-toc-0004",
+          "maso-1984-08-toc-0005",
+          "maso-1984-08-toc-0006",
+          "maso-1984-08-toc-0007",
+          "maso-1984-08-toc-0008"
+        ]
+      }
+    },
+    {
+      "id": "maso-1984-08-toc-0003",
+      "parentId": "maso-1984-08-toc-0002",
+      "depth": 1,
+      "title": "청소",
+      "byline": "삼보컴퓨터 교육부",
+      "page": 32,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0004",
+      "parentId": "maso-1984-08-toc-0002",
+      "depth": 1,
+      "title": "죽음의 스키",
+      "byline": "편집부",
+      "page": 37,
+      "kind": "article",
+      "articleIds": [],
+      "status": "sealed-pilot-review-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": "aug-02"
+    },
+    {
+      "id": "maso-1984-08-toc-0005",
+      "parentId": "maso-1984-08-toc-0002",
+      "depth": 1,
+      "title": "이열치열",
+      "byline": "편집부",
+      "page": 39,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0006",
+      "parentId": "maso-1984-08-toc-0002",
+      "depth": 1,
+      "title": "지능검사",
+      "byline": "편집부",
+      "page": 41,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0007",
+      "parentId": "maso-1984-08-toc-0002",
+      "depth": 1,
+      "title": "위험천만한 달표면 착륙",
+      "byline": "편집부",
+      "page": 43,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0008",
+      "parentId": "maso-1984-08-toc-0002",
+      "depth": 1,
+      "title": "환상적인 그래픽용 서브루틴",
+      "byline": "황건순",
+      "page": 46,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0009",
+      "parentId": null,
+      "depth": 0,
+      "title": "교육입문",
+      "byline": null,
+      "page": null,
+      "kind": "section",
+      "articleIds": [],
+      "status": "unclassified-heading",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0010",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "수학을 통한 논리학습",
+      "byline": "편집부",
+      "page": 56,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0011",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "로고 강좌",
+      "byline": "정태충",
+      "page": 60,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0012",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "기초 테크닉 코너",
+      "byline": "박현철",
+      "page": 65,
+      "kind": "article",
+      "articleIds": [],
+      "status": "sealed-pilot-review-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": "aug-04"
+    },
+    {
+      "id": "maso-1984-08-toc-0013",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "영어 교육용 시스템",
+      "byline": "임헌만",
+      "page": 69,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0014",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "CP/M 입문",
+      "byline": "신동완",
+      "page": 90,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0015",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "컴퓨터 그래픽과 친구가 되자",
+      "byline": "김홍진",
+      "page": 99,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0016",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "애플 포트란",
+      "byline": "이준구",
+      "page": 105,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0017",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "자유 낙하운동",
+      "byline": "탁연상",
+      "page": 113,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0018",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "기계어 강좌",
+      "byline": "이세형",
+      "page": 116,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0019",
+      "parentId": "maso-1984-08-toc-0009",
+      "depth": 1,
+      "title": "도형정의표의 정복",
+      "byline": "김선호",
+      "page": 128,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0020",
+      "parentId": null,
+      "depth": 0,
+      "title": "읽을 거리 : 일본 마이크로 컴퓨터의 현황",
+      "byline": "이홍철",
+      "page": 141,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0021",
+      "parentId": null,
+      "depth": 0,
+      "title": "비즈니스",
+      "byline": null,
+      "page": null,
+      "kind": "section",
+      "articleIds": [],
+      "status": "unclassified-heading",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0022",
+      "parentId": "maso-1984-08-toc-0021",
+      "depth": 1,
+      "title": "자료구조",
+      "byline": "이근배",
+      "page": 168,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0023",
+      "parentId": "maso-1984-08-toc-0021",
+      "depth": 1,
+      "title": "의료보험수가계산",
+      "byline": "컴퓨텍",
+      "page": 172,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0024",
+      "parentId": "maso-1984-08-toc-0021",
+      "depth": 1,
+      "title": "VISICALC 활용",
+      "byline": "삼보컴퓨터 교육부",
+      "page": 181,
+      "kind": "article",
+      "articleIds": [],
+      "status": "sealed-pilot-review-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": "aug-05"
+    },
+    {
+      "id": "maso-1984-08-toc-0025",
+      "parentId": null,
+      "depth": 0,
+      "title": "테크니컬",
+      "byline": null,
+      "page": null,
+      "kind": "section",
+      "articleIds": [],
+      "status": "unclassified-heading",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0026",
+      "parentId": "maso-1984-08-toc-0025",
+      "depth": 1,
+      "title": "PIA 시리즈2 미니네온사인의 제작",
+      "byline": "편집부",
+      "page": 196,
+      "kind": "article",
+      "articleIds": [],
+      "status": "sealed-pilot-review-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": "aug-06"
+    },
+    {
+      "id": "maso-1984-08-toc-0027",
+      "parentId": "maso-1984-08-toc-0025",
+      "depth": 1,
+      "title": "SPC-1000용 주변기기의 제작",
+      "byline": "차정환",
+      "page": 200,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0028",
+      "parentId": "maso-1984-08-toc-0025",
+      "depth": 1,
+      "title": "메타어셈블러",
+      "byline": "한상기",
+      "page": 207,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0029",
+      "parentId": "maso-1984-08-toc-0025",
+      "depth": 1,
+      "title": "베이직 코맨드 에디터",
+      "byline": "김용우",
+      "page": 214,
+      "kind": "article",
+      "articleIds": [],
+      "status": "sealed-pilot-review-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": "aug-07"
+    },
+    {
+      "id": "maso-1984-08-toc-0030",
+      "parentId": "maso-1984-08-toc-0025",
+      "depth": 1,
+      "title": "마이크로 컴퓨터 설계강좌",
+      "byline": "김덕우",
+      "page": 221,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0031",
+      "parentId": null,
+      "depth": 0,
+      "title": "공모입선작",
+      "byline": null,
+      "page": null,
+      "kind": "section",
+      "articleIds": [],
+      "status": "unclassified-heading",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0032",
+      "parentId": "maso-1984-08-toc-0031",
+      "depth": 1,
+      "title": "RECALC",
+      "byline": "심명섭",
+      "page": 240,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0033",
+      "parentId": "maso-1984-08-toc-0031",
+      "depth": 1,
+      "title": "신판 UFO",
+      "byline": "지정근",
+      "page": 246,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0034",
+      "parentId": "maso-1984-08-toc-0031",
+      "depth": 1,
+      "title": "우주괴물 소탕작전",
+      "byline": "이재성",
+      "page": 252,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0035",
+      "parentId": "maso-1984-08-toc-0031",
+      "depth": 1,
+      "title": "사과 귀신",
+      "byline": "윤성민",
+      "page": 257,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0036",
+      "parentId": null,
+      "depth": 0,
+      "title": "정보모음",
+      "byline": null,
+      "page": null,
+      "kind": "section",
+      "articleIds": [],
+      "status": "unclassified-heading",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0037",
+      "parentId": "maso-1984-08-toc-0036",
+      "depth": 1,
+      "title": "편집자 노트",
+      "byline": null,
+      "page": 20,
+      "kind": "article",
+      "articleIds": [],
+      "status": "sealed-pilot-review-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": "aug-01"
+    },
+    {
+      "id": "maso-1984-08-toc-0038",
+      "parentId": "maso-1984-08-toc-0036",
+      "depth": 1,
+      "title": "디버깅룸",
+      "byline": null,
+      "page": 138,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0039",
+      "parentId": "maso-1984-08-toc-0036",
+      "depth": 1,
+      "title": "복덕방",
+      "byline": null,
+      "page": 139,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0040",
+      "parentId": "maso-1984-08-toc-0036",
+      "depth": 1,
+      "title": "정보 레이다",
+      "byline": null,
+      "page": 155,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0041",
+      "parentId": "maso-1984-08-toc-0036",
+      "depth": 1,
+      "title": "메아리",
+      "byline": null,
+      "page": 186,
+      "kind": "article",
+      "articleIds": [],
+      "status": "untouched",
+      "human_acceptance": "pending",
+      "pilot_pair": null
+    },
+    {
+      "id": "maso-1984-08-toc-0042",
+      "parentId": "maso-1984-08-toc-0036",
+      "depth": 1,
+      "title": "공모총평",
+      "byline": null,
+      "page": 237,
+      "kind": "article",
+      "articleIds": [],
+      "status": "sealed-pilot-review-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": "aug-03"
+    },
+    {
+      "id": "maso-1984-08-toc-0043",
+      "parentId": "maso-1984-08-toc-0036",
+      "depth": 1,
+      "title": "Q&A",
+      "byline": null,
+      "page": 262,
+      "kind": "article",
+      "articleIds": [],
+      "status": "sealed-pilot-review-pending",
+      "human_acceptance": "pending",
+      "pilot_pair": "aug-08"
+    }
+  ],
+  "reading_room_rebuild": false,
+  "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
+  "next_checkpoint": {
+    "batch": "batch-02",
+    "toc_entry_id": "maso-1984-08-toc-0001",
+    "source_pages": [
+      27,
+      28,
+      29
+    ],
+    "article_extent": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "action": "Restore ending27–29; then separate complete logic IC assembly. Preserve source printed numbering and circuit/flip-flop table fields.",
+    "reading_room_rebuild": false,
+    "human_acceptance": "pending"
+  }
+}

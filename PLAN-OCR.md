@@ -1,6 +1,6 @@
 # Sustainable OCR and correction workflow
 
-Updated: 2026-10-11. Owner: the archive maintainer; implementation and experiments
+Updated: 2026-10-12. Owner: the archive maintainer; implementation and experiments
 assisted by Codex. This is a hobby project's sustainability experiment, not a
 replacement mandate or an unattended restoration project.
 
@@ -2299,3 +2299,38 @@ commit code/documentation. Do not count a partial opening as a complete article.
   10:1 input-price weighting, evidence links and the reading-room hold.
 - Historical May status and initial Tesseract setup are labeled explicitly so
   later sessions use current progress and routing instead of restarting old work.
+
+### August ordinary restoration started, 2026-10-12
+
+- User goal: restore all remaining August1984 articles. Separate production campaign
+  `private/pdf-restoration/13-1984-08-adaptive/` accounts for43 canonical entries.
+  Eight sealed pilot articles remain available for later production selection/repair;
+  their residual errors and human acceptance are not silently cleared.
+- Source inspection verifies logic IC feature21–29;30 is advertising,31 the
+  non-owning hobby divider,32 begins 청소. First bounded batch restores21–26:
+  139 regions,114 text crops,25 original figures and79 ordered blocks.
+- Fixed39T75Q routing follows one0.323s representative T prose probe: technical
+  identifiers failed beyond ordinary spacing. T handles short headings/captions;
+  Q handles faint prose, formulas and tables. No full dual correction/evaluation.
+- Ten crop edges repaired after enlarged source review: five T text crops,one Q
+  text crop andfour figure crops. Initial run and all superseded outputs retained;
+  unchanged crops reused. Original inverted-summary seam was fixed before inference.
+- Nine searchable tables preserve34 data rows/100 cells. Two exact source subranges
+  project the displaced page24 paragraph without dropping or repeating characters.
+  Printed Booleen,reley,Direct Couple,23/24 repeated introduction,logic contradictions
+  and missing/faint overbars remain literal or explicitly provisional.15 review flags.
+- All139 crop geometries,76 Q request-image hashes/stop outcomes,regional/text/review
+  byte ranges,table cells,source digest and independent byte-identical export rebuild
+  pass. All16,790 prior pilot files unchanged. No runtime pipeline or frontend edits;
+  no new unit-suite claim. JSON/assets only; reading room not rebuilt.
+- Captured76 Q calls total39,792 local tokens and81.572s recognition,including the
+  one replacement. T recognition3.894s plus rejected probe0.323s. Local money weight
+  remains zero. Prospective paid windows include setup,recovery and export; no
+  causal savings or human-time claim. See `docs/ocr-august-usage.json`.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-01/logic-ic/`.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-01/validation.json`.
+  Progress:`docs/ocr-august-progress.json`. Whole August and this article remain
+  incomplete:one production partial,28 untouched bodies,eight sealed pilot bodies,
+  one classified heading,five unclassified headings,zero human accepted.
+- Next:ending27–29 and separate full logic IC assembly,then 청소32 onward.
+  Preserve the user's unrelated `web/package.json` change outside commits.

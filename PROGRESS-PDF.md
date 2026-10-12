@@ -11668,3 +11668,31 @@ history remains in [PROGRESS.md](PROGRESS.md).
   No runtime pipeline or frontend changes; no new unit-suite claim.
 - June totals37 article source pages,6 complete articles,one classified group,
   zero human accepted. Next space animation60–63, then remaining June queue.
+
+## 2026-10-12 — August adaptive restoration batch01, logic IC opening
+
+- Latest OCR/restoration execution is in PLAN-OCR.md; June next-step statements
+  above are historical. July restoration and August eight-pair experiment completed.
+- Started the user-authorized remaining-August campaign under JSON/assets scope.
+ 43 canonical entries reconciled in a private queue:eight sealed pilot bodies,
+ one production partial,28 untouched bodies,one classified heading,five remaining
+ heading classifications. Human acceptance pending throughout.
+- Verified logic IC extent21–29 and adjacent ad30/divider31/next article32.
+ Restored21–26 with139 regions,114 text crops,25 original figures,79 ordered blocks,
+ nine searchable tables/34 data rows/100 cells,and15 source-linked review flags.
+- One representative T prose probe rejected for technical identifiers;fixed39T75Q.
+ Ten source-inspected crop-edge repairs retain the original run;only six revised
+ text crops inferred again,four original figures widened. All local costs retained.
+ Exact page24 regional subranges repair reading order while retaining every character.
+- Source spelling,English expansions,missing bars,table order and logic discrepancies
+ remain literal/candidates. Full proofreading and source technical correctness unverified.
+- Export integrity,crop/source/Q request hashes,stop outcomes,source projection,
+ UTF-8/table ranges,independent byte-identical rebuild and16,790 prior pilot files pass.
+ No renderer,reader rebuild or runtime pipeline change. No repeated unit-suite claim.
+- Local Q capture39,792 tokens/81.572s includes76 calls;T3.894s plus0.323s probe.
+ Paid usage and preparation/recovery/export windows recorded separately;human time,
+ actual output pricing and causal savings unmeasured. Reporting tail carries forward.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-01/logic-ic/`.
+ Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-01/`.
+ Tracked progress/cost:`docs/ocr-august-progress.json`,`docs/ocr-august-usage.json`.
+ Next:27–29,full feature assembly,then remaining August queue. Whole issue incomplete.
