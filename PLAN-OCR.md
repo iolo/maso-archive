@@ -2278,3 +2278,16 @@ commit code/documentation. Do not count a partial opening as a complete article.
   metrics, rate sensitivity, recovery and shared experiment overhead. Keep the
   current selective-use policy provisional; no further double restoration begun.
 - Reading room not rebuilt. Progress, usage and evidence pins recorded and committed.
+
+### August user review: retain and improve adaptive routing, 2026-10-12
+
+- User's tentative interpretation: Qwen's token-volume benefit is more useful for
+  complex layouts/structured material/code; simpler articles show no practically
+  decisive difference. Continue adaptive routing as the working policy.
+- Use the user-supplied 10:1 uncached/cached input-price ratio. Output pricing is
+  still unspecified; preserve the token vector and label output-rate assumptions.
+- Documented region-level decisions, separate handling of diagram images and
+  surrounding text, reuse of bounded probes, one selected correction pass, and
+  explicit checks against normalization of printed spelling and code literals.
+- Record future weighted usage and recovery during ordinary restoration. This
+  update changes guidance only; the completed paired evidence remains sealed.

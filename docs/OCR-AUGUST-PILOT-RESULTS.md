@@ -8,6 +8,28 @@ If cached input is priced the same as uncached input, Qwen is about 11.3% cheape
 
 **Decision:** continue selective use of Qwen where its raw draft is useful. The current content-routing rule remains provisional; this trial establishes no general paid-token saving. A repeat should target a specific close decision after the actual rate vector is known; this pilot does not justify doubling the rest of August automatically.
 
+**User review, 2026-10-12:** keep and improve adaptive routing. The user's tentative
+interpretation is that complex layouts, structured material and source code benefit
+more from Qwen, while the differences for simpler material are not practically
+decisive. Use the user-supplied **10:1 uncached-to-cached input price ratio** as the
+working cost assumption. The output price is still unspecified; the `1:0.1:4`
+example below remains illustrative, not a confirmed complete billing rate.
+
+The token-volume observation is supported by the two cited examples: Qwen used
+9.1% fewer total correction tokens for VISICALC and 20.3% fewer for the editor.
+However, with the illustrative output rate of 4, their weighted cost changes are
+respectively −0.40% and +2.76%. Thus complexity is a useful routing hypothesis,
+while uncached/cached/output usage must remain separate when evaluating savings.
+For the whole matched cohort with `u=1,c=0.1`, Qwen is cheaper when the output
+rate exceeds approximately `2.824` times the uncached-input rate, before recovery
+or later repair costs. These observations do not validate a universal content rule.
+
+Apply the [updated routing guidance](OCR-JULY-TRIAL.md#august-review-refinement-2026-10-12)
+to future ordinary restoration: route coherent regions by draft usability, correct
+the selected draft once, and collect weighted usage without routinely doubling
+articles. This decision does not change the sealed pilot results or mark human
+acceptance complete.
+
 Eight articles (28 distinct pages) were restored independently through both routes: 16 verified exports. Local CPU/GPU/runtime and local model tokens have zero monetary weight. All human acceptance remains pending. No reading room was rebuilt.
 
 This measures cost to reach independently source-checked, reviewable drafts. Residual errors differ, and a later human repair pass has not been priced. It does not establish equal-cost production of identically error-free text.

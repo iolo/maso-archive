@@ -148,6 +148,40 @@ this heuristic by paid correction usage and total elapsed work across comparable
 content categories, not raw CER alone. The music-card hex checkpoint supports the
 raw-quality choice but also demonstrates its substantial remaining review cost.
 
+### August review refinement, 2026-10-12
+
+After reviewing the [eight-article paired pilot](OCR-AUGUST-PILOT-RESULTS.md), the
+user chose to **keep and improve adaptive routing**. Treat the apparent benefit
+for complex content as a useful hypothesis to refine through ordinary restoration.
+The starting choices above remain applicable, with these operational refinements:
+
+- Route coherent regions rather than assigning an entire article from its title.
+  Prefer Tesseract for clear prose with an easily corrected draft; prefer Qwen for
+  dense code, formulas, structured values and text whose layout damages reading
+  order. A mixed Q&A article can contain both kinds of region.
+- Keep diagrams and screenshots as source images. Their presence alone does not
+  require Qwen for surrounding prose. Route labels, captions and associated tables
+  according to their own transcription difficulty.
+- Use the existing bounded probe only when it can change the route. Reuse its
+  evidence, retain failures and fallbacks, and perform semantic correction once on
+  the selected draft. Avoid routine whole-article dual correction outside a named
+  experiment. Keep successful routes unless a concrete draft defect warrants change.
+- Record the route, scope, reason, paid token categories and any recovery work.
+  Use the user's working input-price ratio of 10:1: with uncached input normalized
+  to 1, compare `uncached + 0.1*cached + r*output`. Keep `r` explicit until the
+  output price is known. Local resources retain zero monetary weight; report time
+  separately. Fewer total tokens alone do not establish a cheaper route.
+- During semantic correction, check historical spellings, printed mistakes, code
+  literals and table associations explicitly. The pilot found plausible spelling
+  normalization in both routes. Record source ambiguities for human review.
+
+VISICALC and the editor used fewer total correction tokens with Qwen, but their
+weighted cost rankings differ under the illustrative output rate of 4. Refine
+the heuristic using comparable content and weighted cost observations; one article
+per content type cannot establish an automatic classifier or a cost optimum.
+This is an update to the documented manual routing policy. Semantic correction
+and human review remain mandatory.
+
 ## First checkpoint, 2026-10-10
 
 Two complete article packages contain19 regions:17 text regions and two original
