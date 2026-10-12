@@ -2107,6 +2107,70 @@
         "total_tokens": 965028,
         "uncached_nonwrite_input_tokens": 9023
       }
+    },
+    {
+      "id": "preparation-20",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-12T18:23:44.072948+00:00",
+      "end": "2026-10-12T18:34:36.776827+00:00",
+      "elapsed_seconds": 652.7038791179657,
+      "observed_responses": 20,
+      "tokens": {
+        "input_tokens": 2711215,
+        "cached_input_tokens": 2604544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 17213,
+        "reasoning_output_tokens": 3626,
+        "total_tokens": 2728428,
+        "uncached_nonwrite_input_tokens": 106671
+      }
+    },
+    {
+      "id": "recognition-20",
+      "stage": "recognition",
+      "engine": "mixed",
+      "start": "2026-10-12T18:34:37.880431+00:00",
+      "end": "2026-10-12T18:35:45.067133+00:00",
+      "elapsed_seconds": 67.18670201301575,
+      "observed_responses": 5,
+      "tokens": {
+        "input_tokens": 419819,
+        "cached_input_tokens": 393984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1446,
+        "reasoning_output_tokens": 79,
+        "total_tokens": 421265,
+        "uncached_nonwrite_input_tokens": 25835
+      }
+    },
+    {
+      "id": "evaluation-20",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-12T18:35:46.158147+00:00",
+      "end": "2026-10-12T18:37:52.964965+00:00",
+      "elapsed_seconds": 126.80681800842285,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 405511,
+        "cached_input_tokens": 391040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3609,
+        "reasoning_output_tokens": 1249,
+        "total_tokens": 409120,
+        "uncached_nonwrite_input_tokens": 14471
+      }
+    },
+    {
+      "id": "reporting-20",
+      "stage": "reporting",
+      "engine": "mixed",
+      "start": "2026-10-12T18:37:54.071717+00:00",
+      "end": "2026-10-12T18:37:56.297341+00:00",
+      "elapsed_seconds": 2.2256240844726562,
+      "observed_responses": 0,
+      "tokens": null
     }
   ],
   "money_cost": null,
@@ -2114,33 +2178,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T18:21:34.475858+00:00",
-    "elapsed_seconds": 51428.4758579731,
-    "observed_responses": 936,
+    "end": "2026-10-12T18:37:56.297341+00:00",
+    "elapsed_seconds": 52410.29734110832,
+    "observed_responses": 969,
     "tokens": {
-      "input_tokens": 129793746,
-      "cached_input_tokens": 125806208,
+      "input_tokens": 134122035,
+      "cached_input_tokens": 129982336,
       "cache_write_input_tokens": 0,
-      "output_tokens": 732818,
-      "reasoning_output_tokens": 184951,
-      "total_tokens": 130526564,
-      "uncached_nonwrite_input_tokens": 3987538
+      "output_tokens": 756576,
+      "reasoning_output_tokens": 190481,
+      "total_tokens": 134878611,
+      "uncached_nonwrite_input_tokens": 4139699
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T18:21:34.475858+00:00",
-    "elapsed_seconds": 51428.4758579731,
-    "observed_responses": 104,
+    "end": "2026-10-12T18:37:56.297341+00:00",
+    "elapsed_seconds": 52410.29734110832,
+    "observed_responses": 108,
     "tokens": {
-      "input_tokens": 16269395,
-      "cached_input_tokens": 15998464,
+      "input_tokens": 17061139,
+      "cached_input_tokens": 16785024,
       "cache_write_input_tokens": 0,
-      "output_tokens": 37213,
-      "reasoning_output_tokens": 10859,
-      "total_tokens": 16306608,
-      "uncached_nonwrite_input_tokens": 270931
+      "output_tokens": 38703,
+      "reasoning_output_tokens": 11435,
+      "total_tokens": 17099842,
+      "uncached_nonwrite_input_tokens": 276115
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
@@ -2152,5 +2216,5 @@
   },
   "output_rate": null,
   "human_active_review_seconds": null,
-  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison."
+  "limitation": "Prospective assistant windows include preparation,source inspection,OCR/tool waits,correction,export/recovery andreporting. Finalresponse/commit tail is unmeasured overhead,not a causal enginecomparison. Ending20 raw only;I/O row-association fallback/sourcecorrection pending."
 }

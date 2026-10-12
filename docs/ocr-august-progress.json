@@ -5864,7 +5864,7 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": "batch-20",
-    "status": "fortran-111-112-source-verified-ending-mapping-pending",
+    "status": "fortran-111-112-raw-audited-source-correction-pending",
     "toc_entry_id": "maso-1984-08-toc-0016",
     "canonical_title": "애플 포트란",
     "canonical_first_page": 105,
@@ -5884,10 +5884,7 @@
       111,
       112
     ],
-    "remaining_source_pages": [
-      111,
-      112
-    ],
+    "remaining_source_pages": [],
     "prior_fortran_opening": {
       "package": {
         "path": "build/pdf-restoration/13-1984-08-adaptive-batch-19/fortran/article.json",
@@ -6048,9 +6045,192 @@
       "actual_title_page": 113,
       "canonical_first_page": 113
     },
-    "previous_goal_turn_classification": "progress: 8c53e33 completed Fortran105–110 recognition/preflight/raw audit; this continuation source-corrected and validated the complete six-page opening.",
+    "previous_goal_turn_classification": "progress: 711118d source-corrected Fortran105–110 opening;this continuation completed ending111–112 preparation/recognition/raw audit. No ending production export yet.",
     "full_assembly_required": true,
     "human_acceptance": "pending",
-    "action": "Commit validated opening19,then restore Fortran111–112. Reinspect unchanged pinned111/112 and following113 before mapping. Preserve keyword,input-output anddevice-slot tables,comment continuation across112columns,allprograms/images andliteral source claims. Adaptive OCR/source correction/export/validation/commit;then separate full105–112 assembly from immutable natives19/20. Seventeen untouched bodies,six pilot selections,four heading classifications andwholeAugust standalone JSON/assets closeout remain. No reading-room rebuild."
-  }
+    "action": "Preserve sealed native20 raw/preflight evidence; complete one bounded same-crop fallback for p112r14 row associations, then source-correct36 selected drafts, export/validate ending111–112 and commit. Preserve comment-rule left/right continuation,three tables/source blank merged cells,seven independent screen fragments and literal FORTMATTER/TEST.CODE. Separately assemble full105–112 from immutable opening19 and ending20,then inspect full extent of following 자유 낙하운동113. WholeAugust JSON/assets closeout remains;no reading-room rebuild.",
+    "mapped_source_pages": [
+      111,
+      112
+    ],
+    "production_ending_exported": false,
+    "raw_ending_audit": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-ocr-audit.json",
+      "sha256": "82087dedf3c180236636c8607c50afdd5964901c73e76458794c4779be519465",
+      "bytes": 3175
+    },
+    "raw_ending_preservation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-preservation.json",
+      "sha256": "b1d095c4dbcea5b2c90e36cfe115351100a70893dfb8382d60af9392242fdce8",
+      "bytes": 48430
+    },
+    "ending_crop_gate": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/preflight-acceptance.json",
+      "sha256": "fcc1f0a55ef506795f5fa9eeec05e646c2143fb4a9f9a43147e860a9160dd894",
+      "bytes": 3234
+    },
+    "ending_raw_checks": {
+      "status": "passed",
+      "mapped_pages": [
+        111,
+        112
+      ],
+      "article_pages": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "outside_map_lookups": 1,
+      "regions": 47,
+      "text_regions": 36,
+      "figures": 11,
+      "qwen_calls": 11,
+      "qwen_successful_calls": 11,
+      "tesseract_calls": 25,
+      "failed_calls": 0,
+      "bounded_fallbacks": 0,
+      "failed_attempts": [],
+      "cache_hits": 0,
+      "retries": 0,
+      "crop_pixels_and_map_request_hashes": true,
+      "all_stop_reasons_valid": true,
+      "raw_bundle_and_runtime_pins": true,
+      "full_extent_pins": true,
+      "glyph_boundary_crossings": 0,
+      "reviewed_nontext_boundary_crossings": 1,
+      "original_and_intermediate_geometry_preserved": true,
+      "local_qwen_successful_tokens": {
+        "prompt_tokens": 6036,
+        "completion_tokens": 874,
+        "total_tokens": 6910
+      },
+      "local_qwen_failed_tokens": {},
+      "local_qwen_tokens": {
+        "prompt_tokens": 6036,
+        "completion_tokens": 874,
+        "total_tokens": 6910
+      },
+      "local_timing": {
+        "qwen_successful_recognition_seconds": 34.5174758300127,
+        "tesseract_recognition_seconds": 3.6994723260286264,
+        "qwen_regions": {
+          "p111r06": 0.5742803250032011,
+          "p111r09": 1.3630034800153226,
+          "p111r13": 0.5238641600008123,
+          "p111r16": 0.5847773360146675,
+          "p111r19": 0.31899847800377756,
+          "p111r22": 0.965682542999275,
+          "p111r25": 1.304406419978477,
+          "p111r30": 4.503993090998847,
+          "p112r05": 3.9671909640019294,
+          "p112r14": 7.79816427998594,
+          "p112r17": 12.61311475301045
+        },
+        "tesseract_regions": {
+          "p111r01": 0.1244058690208476,
+          "p111r02": 0.10265492301550694,
+          "p111r03": 0.41453072702279314,
+          "p111r04": 0.09664573599002324,
+          "p111r07": 0.133699002006324,
+          "p111r10": 0.11807791100000031,
+          "p111r11": 0.11645389001932926,
+          "p111r14": 0.1923766149848234,
+          "p111r17": 0.13811443201848306,
+          "p111r20": 0.09838920398033224,
+          "p111r23": 0.10883405199274421,
+          "p111r26": 0.3779834720189683,
+          "p111r27": 0.08731979699223302,
+          "p111r28": 0.08038106499589048,
+          "p111r29": 0.1587758449895773,
+          "p112r01": 0.2593858589825686,
+          "p112r02": 0.06768748999456875,
+          "p112r03": 0.08025501502561383,
+          "p112r06": 0.07223108998732641,
+          "p112r07": 0.28135624597780406,
+          "p112r08": 0.10853183100698516,
+          "p112r09": 0.1912237649958115,
+          "p112r10": 0.1444128449948039,
+          "p112r12": 0.070162835996598,
+          "p112r15": 0.07558280901866965
+        },
+        "reason": "Tclearprose/headings/captions;Qstructuredcolumnrules,fileidentifiers/screens,keyword andinput-output/slotcells. Originalscreens/tablesretained;slotmergedcells/ditto candidatesneedsourcecorrection. Establishedroutesreused;no newprobe."
+      },
+      "prior_production_packages_verified": 26,
+      "preserved_pilot_files": 16790,
+      "physical_listing_rows": "pending independent source correction count",
+      "table_cell_counts": "pending independent source correction",
+      "structured_tables": 3,
+      "source_correction": "pending",
+      "export": "not-created",
+      "human_acceptance": "pending",
+      "all_prior_cpm_and_graphics_raw_inventories_unchanged": true
+    },
+    "bounded_fallback_required": {
+      "region_id": "p112r14",
+      "reason": "Q draft shifted I/O row associations by inserting an extra blank-number row. Original ruled source has ten rows. Preserve immutable Q attempt and its cost; run at most one same-crop T fallback and correct only selected draft from source.",
+      "engine": "tesseract",
+      "executed": false
+    }
+  },
+  "raw_preparation_checkpoints": [
+    {
+      "batch": "batch-20",
+      "toc_entry_id": "maso-1984-08-toc-0016",
+      "source_pages": [
+        111,
+        112
+      ],
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-ocr-audit.json",
+        "sha256": "82087dedf3c180236636c8607c50afdd5964901c73e76458794c4779be519465",
+        "bytes": 3175
+      },
+      "preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-preservation.json",
+        "sha256": "b1d095c4dbcea5b2c90e36cfe115351100a70893dfb8382d60af9392242fdce8",
+        "bytes": 48430
+      },
+      "crop_gate": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/preflight-acceptance.json",
+        "sha256": "fcc1f0a55ef506795f5fa9eeec05e646c2143fb4a9f9a43147e860a9160dd894",
+        "bytes": 3234
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 6036,
+        "completion_tokens": 874,
+        "total_tokens": 6910
+      },
+      "qwen_calls": 11,
+      "tesseract_calls": 25,
+      "raw_worker": {
+        "started_at": "2026-10-12T18:34:39.019637+00:00",
+        "finished_at": "2026-10-12T18:35:24.347008+00:00",
+        "elapsed_seconds": 45.32738401298411,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 11,
+          "tesseract_inferences": 25,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "source_correction": "pending",
+      "production_export": false,
+      "bounded_fallback": {
+        "region_id": "p112r14",
+        "reason": "Q draft shifted I/O row associations by inserting an extra blank-number row. Original ruled source has ten rows. Preserve immutable Q attempt and its cost; run at most one same-crop T fallback and correct only selected draft from source.",
+        "engine": "tesseract",
+        "executed": false
+      },
+      "human_acceptance": "pending"
+    }
+  ]
 }
