@@ -15,16 +15,16 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 7,
+    "assistant-restored-human-pending": 8,
     "sealed-pilot-review-pending": 7,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
-    "untouched": 23
+    "untouched": 22
   },
   "sealed_pilot_articles": 7,
-  "production_complete_articles": 7,
+  "production_complete_articles": 8,
   "production_partial_articles": 0,
-  "untouched_articles": 23,
+  "untouched_articles": 22,
   "unclassified_heading_entries": 4,
   "classified_heading_entries": 2,
   "human_accepted_articles": 0,
@@ -1288,6 +1288,110 @@
       "qwen_failed_calls": 3,
       "failed_qwen_server_compute_seconds": 15.7467,
       "failure_cost_limitation": "All failed model tokens included. Failed server prompt/generation time is separate from successful client recognition time; failed client wall duration unmeasured, not inferred."
+    },
+    {
+      "batch": "batch-09",
+      "toc_entry_id": "maso-1984-08-toc-0010",
+      "title": "수학을 통한 논리학습",
+      "source_pages": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p56r01": "tesseract",
+        "p56r02": "tesseract",
+        "p56r06": "tesseract",
+        "p56r08": "tesseract",
+        "p56r11": "tesseract",
+        "p56r14": "tesseract",
+        "p57r06": "tesseract",
+        "p57r14": "tesseract",
+        "p57r16": "tesseract",
+        "p57r20": "tesseract",
+        "p58r02": "tesseract",
+        "p58r05": "tesseract",
+        "p58r12": "tesseract",
+        "p58r14": "tesseract",
+        "p59r04": "tesseract",
+        "p59r06": "tesseract",
+        "p59r13": "tesseract",
+        "p59r18": "tesseract"
+      },
+      "assignment_reason": "Tesseract short titles/captions; Qwen formulas, BASIC and faint technical prose. Reuse prior same-font prose probe showing non-spacing substitutions; no additional probe or dual correction.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-09/math-logic/article.json",
+          "sha256": "137348e3d93a86b7023353e895b593dfb88b6402747cc5d3af8ee58b69eb5255",
+          "bytes": 129759
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-09/math-logic/manifest.json",
+          "sha256": "47161b81137cafa179f14e612f3840b3c39c25a9b49a7c2835e75416da33b879",
+          "bytes": 53884
+        },
+        "source_pages": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "regions": 83,
+        "text_regions": 79,
+        "figures": 4,
+        "physical_listing_rows": 140,
+        "logical_listing_rows": 138,
+        "unresolved_entries": 31,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-09/map.json",
+        "sha256": "63a6db14103d68aada2aa1107e142da2e59b112f9cf113b31a9f18da1a77d6fb",
+        "bytes": 23812
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-09/source-review-ledger.json",
+        "sha256": "364ec4cc87cae105d231560508b215cb09ad26488a0b628e9308777b2db8ec6f",
+        "bytes": 9429
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 25432,
+        "completion_tokens": 4876,
+        "total_tokens": 30308
+      },
+      "qwen_completed_calls": 61,
+      "qwen_recognition_seconds": 59.23408663900045,
+      "tesseract_recognition_seconds": 1.3399922190146754,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T08:09:54.294806+00:00",
+        "finished_at": "2026-10-12T08:11:05.923763+00:00",
+        "elapsed_seconds": 71.62897087199963,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 61,
+          "tesseract_inferences": 18,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -2036,9 +2140,33 @@
       "page": 56,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-09",
+          "source_pages": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-09/math-logic/article.json",
+            "sha256": "137348e3d93a86b7023353e895b593dfb88b6402747cc5d3af8ee58b69eb5255",
+            "bytes": 129759
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0011",
@@ -2473,16 +2601,17 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-09",
-    "toc_entry_id": "maso-1984-08-toc-0010",
+    "batch": "batch-10",
+    "toc_entry_id": "maso-1984-08-toc-0011",
     "source_pages": [
-      56,
-      57,
-      58,
-      59
+      60,
+      61,
+      62,
+      63,
+      64
     ],
     "article_extent_verified": false,
-    "action": "Inspect complete 수학을 통한 논리학습56 onward through next logo article60 before mapping; restore prose/math/FC100-MSX code with source figures and uncertainty.",
+    "action": "Inspect full 로고에로의 초대 source60 onward through BASIC65 boundary before mapping; restore LOGO commands/listings and original diagrams.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }

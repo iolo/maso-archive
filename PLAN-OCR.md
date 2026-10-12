@@ -2566,3 +2566,33 @@ commit code/documentation. Do not count a partial opening as a complete article.
  four heading classifications remaining;zero human accepted. August incomplete.
 - Next:verify 수학을 통한 논리학습56–59 against next logo60,then restore full
  prose/math/listing. JSON/assets only;reading room and unrelated web edit unchanged.
+
+### August 수학을 통한 논리학습56–59 complete, 2026-10-12
+
+- Complete source56–59 inspected through logo60–61 boundary.83 regions retain
+ 79 text crops,61 ordered blocks and four original figures:prime sieve,two division
+ diagrams and SWAP example. Five independent BASIC groups preserve140 physical
+ rows/138 numbered statements;list2 line1210 spans three physical rows.
+- All22 original crop panels and revised panel15 inspected. Two shared prose
+ seams moved into white gaps before OCR;initial maps/crops retained. Source list3
+ final crop has three code rows plus a nontext horizontal band,not four code rows.
+- 61 successfulQ/18T tasks,no failures,retries or new probes. Prior same-font prose
+ evidence informed routing. Q30,308 local tokens/59.234s;T1.340s. Local monetary
+ weight zero;preparation,correction,export/recovery and reporting windows retained.
+- Printed 솟수,3534,2767,G.C.M./Greatest Common Measure,PRINT dot and two faint
+ comma candidates retained. Fractions/exponents are image-backed reading aids;
+ eleven comment-dash markers defer exact glyph counts.29 DATA values retained.
+ 31 source flags;human proofreading,encoded source bytes and execution unverified.
+- Two local correction-script syntax failures retained. Initial identical exports
+ preserved before joining the sentence across figure3;regional readings unchanged.
+ First validator overcounted dash markers13;source audit confirms11 and corrected
+ only the validator expectation. No OCR repeated or raw evidence overwritten.
+- Source/crop/request/stop checks,complete character coverage,UTF-8 review ranges,
+ independent five-group label/physical/logical indexes and exact rebuild pass.
+ Eleven prior production packages and16,790 sealed pilot files unchanged.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-09/math-logic/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-09/validation.json`.
+ Eight production articles complete,22 untouched,seven pilots awaiting selection,
+ four heading classifications remaining;zero human accepted. August incomplete.
+- Next:inspect complete 로고에로의 초대60 onward through BASIC65 boundary before
+ mapping. JSON/assets only;reading room and unrelated web edit unchanged.

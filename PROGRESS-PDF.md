@@ -11900,3 +11900,30 @@ history remains in [PROGRESS.md](PROGRESS.md).
  four heading classifications remaining;August incomplete,zero human accepted.
 - Next:verify 수학을 통한 논리학습56–59 against logo60,then full restoration.
  JSON/assets only;reading room and unrelated web change remain untouched.
+
+## 2026-10-12 — August 수학을 통한 논리학습56–59 complete
+
+- Full56–59 and logo60–61 boundary inspected.83 regions/79 text crops retain61
+ blocks and four original figures. Five independent BASIC examples preserve140
+ physical rows/138 numbered statements;list2 line1210 has two continuations.
+ All22 original panels/revised15 inspected;two prose seams repaired before OCR.
+ Initial evidence retained;list3 extra projection band is a nontext horizontal rule.
+- 61Q/18T successful tasks,no OCR failures/retries/new probe. Q30,308 local tokens
+ and59.234s,T1.340s;local monetary weight zero. Work windows retain preparation,
+ correction,export/recovery/reporting,with unmeasured human review still pending.
+- Printed 솟수,3534,2767,G.C.M./Measure,PRINT dot and comma-like ink candidates
+ remain literal. Fractions/exponents are reading aids;eleven unresolved comment
+ dash markers preserve image authority.29 DATA values and31 source flags indexed.
+ No encoded-byte/execution or character-perfect proofreading certification.
+- Local script syntax failures retained. Initial exports preserved before a prose
+ join across figure3;regional text unchanged. Validator marker expectation13
+ corrected to source-backed11;no transcription change or OCR repeated.
+- Source/crop/request/stop outcomes,character coverage,UTF-8 ranges,independent
+ five-group source labels and physical/logical partitions pass. Exact rebuild
+ matches;eleven prior production packages/16,790 sealed pilot files unchanged.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-09/math-logic/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-09/validation.json`.
+ Eight production articles complete,22 untouched,seven pilots awaiting selection,
+ four heading classifications remaining;zero human accepted. August incomplete.
+- Next:inspect complete 로고에로의 초대60 onward through BASIC65 boundary,then
+ restore LOGO text/listings/figures. JSON/assets only;reading room unchanged.
