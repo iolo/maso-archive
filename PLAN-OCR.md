@@ -3068,3 +3068,54 @@ commit code/documentation. Do not count a partial opening as a complete article.
 - Source/crop/raw/runtime/model pins,all UTF-8 review/table/diagram/field ranges,canonical partial coverage andindependent byte-identical rebuild pass. Original1,085-file andselected691-file raw seals,29 priorproductionpackages,all priornative15–21 raw/selected inventories and16,790 pilot files unchanged. Human acceptance/full proofreading,sourcebytes andhistorical execution pending.
 - Export:`build/pdf-restoration/13-1984-08-adaptive-batch-22/z80/`;source index:`build/pdf-restoration/13-1984-08-adaptive-z80-source-index-22/source-index.json`;audit:`private/pdf-restoration/13-1984-08-adaptive/batch-22/validation.json`.
 - August now has15 complete articles,one partial Z80,15 untouched bodies,six pilot selections pending,two headings classified/four unclassified andzero human accepted. Next:native23 ending122–127 from the pinned full extent,then full116–127 assembly. Whole-issue JSON/assets closeout remains required;no reading-room rebuild.
+
+### August Z80 ending122–127 raw preparation complete, 2026-10-13
+
+- Prepared the Z80 ending, pages 122–127 of the verified full article 116–127:
+  188 regions, 175 raw text drafts, 13 original images, 107 code regions and three
+  opcode tables across 29 text regions. All six ending views, the page 121 boundary
+  and the following title on 128 were reinspected before mapping. Scope: one
+  article, six mapped pages and two outside-map lookups.
+- Inspected all 49 original panels, 13 images and six overlays. Changed 34 distinct
+  regions before OCR. RETcc remarks became separate region p124r24; skewed source
+  rows in p127r07/08 became one coherent 11-row crop. Four geometry revisions remain
+  preserved. Several tiny edges needed follow-up. The final 700-edge diagnostic
+  has zero source-reviewed glyph crossings and 217 inspected nontext crossings in
+  backgrounds, rules, frames, connectors or scan artifacts. Final table checks
+  include 44 distinct native edge strips across six panels. Original inventories
+  and supplemental diagnostic/helper pins remain unchanged.
+- Two audit setup recoveries are recorded. Inventory verification initially assumed
+  a list instead of the actual path/hash mapping. The first successful audit then
+  sealed its unfinished stdout log, whose hash changed after printing. The initial
+  audit, seal and terminal log remain preserved; the final seal excludes audit
+  stdout logs and passes fresh verification. Neither recovery changed source,
+  crops or OCR output, and neither repeated inference.
+- Two bounded Tesseract probes corrupted opcode flags/conditions and assembly
+  identifiers, so both retained the Qwen route. Actual calls: 139 Qwen and 40
+  Tesseract, including both unselected probes. Selected drafts: 137 Qwen and 38
+  Tesseract. Two capped Qwen failures received bounded worker fallbacks; zero
+  retries or cache hits. The CALLcc row repeated escaped newlines, and the dump
+  ending repeated zero bytes. Both failed responses remain preserved.
+- Qwen used 51,574 local tokens: 40,615 prompt and 10,959 output, including the two
+  failures. Local monetary weight is zero. Worker duration 368.817s and probe
+  duration 0.472s are separate, noncausal diagnostics. Paid uncached/cached input
+  retains the 10:1 ratio; output rate remains unknown.
+- Draft inspection found Qwen attaches LP1 to 9528 instead of printed 952B in
+  p125r10. One bounded same-crop Tesseract fallback is required before selected
+  correction and has not executed. Other values, duplicated flags, column order
+  and blank byte-continuation fields need correction. The merged page 127 opening
+  retains 11 visible instruction rows; final physical row and cell counts await
+  independent source review. No draft is corrected and no ending export exists.
+- Source/crop/map/request/runtime/model hashes, raw bundle pixels, stop outcomes,
+  probes and preserved geometry pass. All 30 prior production packages, native
+  15–22 original/selected raw inventories and 16,790 pilot files remain unchanged.
+  The raw/preflight seal retains 1,975 files. Audit:
+  `private/pdf-restoration/13-1984-08-adaptive/batch-23/raw-ocr-audit.json`.
+  Pending selection: `raw-draft-inspection.json` in the same directory.
+- August remains 15 complete articles, one partial Z80, 15 untouched bodies, six
+  pilot selections pending, two headings classified/four unclassified and zero
+  human accepted. Next: bounded fallback, source correction, ending export and
+  validation, then commit and assemble full 116–127. Preserve the 121프로/122그램
+  and 122위/123한 joins, uncertain opcode/subscript glyphs, printed errors and
+  physical dump interruptions. Full proofreading, source bytes/execution and
+  whole-issue JSON/assets closeout remain pending. No reading-room rebuild.
