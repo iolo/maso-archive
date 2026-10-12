@@ -15,16 +15,15 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-partial-human-pending": 1,
-    "assistant-restored-human-pending": 10,
+    "assistant-restored-human-pending": 11,
     "sealed-pilot-review-pending": 6,
     "section-heading-no-body": 2,
     "unclassified-heading": 4,
     "untouched": 20
   },
   "sealed_pilot_articles": 6,
-  "production_complete_articles": 10,
-  "production_partial_articles": 1,
+  "production_complete_articles": 11,
+  "production_partial_articles": 0,
   "untouched_articles": 20,
   "unclassified_heading_entries": 4,
   "classified_heading_entries": 2,
@@ -2712,6 +2711,145 @@
         "physical_listing_partition": true,
         "preserved_pilot_files": 16790
       }
+    },
+    {
+      "toc_entry_id": "maso-1984-08-toc-0013",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/english-education/article.json",
+        "sha256": "8f15a47da954f4f836cab94f6364f7f521fa37e68984924e820d0cc47b5e4a12",
+        "bytes": 709400
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/english-education/manifest.json",
+        "sha256": "811807fe0e04f212e17732e9c09e36ba5acd7a2e0621b4e67e60334ed89669ad",
+        "bytes": 286287
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/english-assembly-recipe.json",
+        "sha256": "88a37bf0721c0f765f0fc5fc71fa79501fa1cbecc455ac0ae5d102136745555a",
+        "bytes": 6141
+      },
+      "pdf_pages": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "segments": [
+        {
+          "name": "opening",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-11/english-education/manifest.json",
+            "sha256": "d1745a51fbc343115fea27e71accf08be1a15af43d72f486e4ad075b863bcca2",
+            "bytes": 61693
+          }
+        },
+        {
+          "name": "middle",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-12/english-education/manifest.json",
+            "sha256": "9623156c176ffa6311d111b97a2a5e2e235446e5fe2330f136d1850c38244138",
+            "bytes": 83011
+          }
+        },
+        {
+          "name": "listings",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-13/english-education/manifest.json",
+            "sha256": "e41ba3e0aac586fc5653b12099e6ff6ae220d31123c3fb7a30897b8d3c12e395",
+            "bytes": 96419
+          }
+        },
+        {
+          "name": "ending",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-14/english-education/manifest.json",
+            "sha256": "2ef006c378aa11e3e61cd41f8e295dba5c555e3c734c01c22af8f1dfc449fccd",
+            "bytes": 17203
+          }
+        }
+      ],
+      "native_validations": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/validation.json",
+          "sha256": "54dab3ebc631619f95aec215a4ed2458a7c9b7523d6f52d26261ae304e1c5fb0",
+          "bytes": 1008
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/validation.json",
+          "sha256": "13a836bfab16d631148a01e7596c1debb1214401fb1aff898d9ac952799ac52e",
+          "bytes": 1007
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/validation.json",
+          "sha256": "7a68c78b1760345b2309e82624343b5eb317a807d3466ac5468cbfe9f4ed002d",
+          "bytes": 1048
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-14/validation.json",
+          "sha256": "94a9713f95332b6ece5124abe870129d21b43eaaab697e9a29ee012a00ea3b14",
+          "bytes": 980
+        }
+      ],
+      "regions": 398,
+      "text_regions": 381,
+      "figures": 17,
+      "ordered_blocks": 375,
+      "text_review_items": 382,
+      "tables": 1,
+      "table_rows": 15,
+      "table_cells": 90,
+      "table_blank_cells": 16,
+      "table_column_groups": 3,
+      "physical_listing_rows": 1532,
+      "logical_listing_rows": 907,
+      "physical_continuations": 625,
+      "listing_groups": 6,
+      "unresolved_entries": 278,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-english-source-index/source-index.json",
+        "sha256": "3e7feb137a3f00a196bfeae28b3133d8ad73f54826df977a0ab93eddd8070de9",
+        "bytes": 283674
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "physical_logical_partition": true,
+        "table_cells_and_blanks": true,
+        "prior_production_packages_verified": 18,
+        "preserved_pilot_files": 16790,
+        "all_four_raw_inventories_unchanged": true
+      },
+      "scope": "FullEnglish69–87 complete under JSON/assets scope. August issue remains incomplete;human acceptance/fullproofreading/source bytes/execution unverified.",
+      "canonical_identity_audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/english-canonical-identity-audit.json",
+        "sha256": "846fd97d85196ea80bafe8496fffc4a3c24435511b6a99db3d20e670bea685b6",
+        "bytes": 813
+      }
     }
   ],
   "production_selections": [
@@ -3544,7 +3682,7 @@
       "page": 69,
       "kind": "article",
       "articleIds": [],
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
       "pilot_pair": null,
       "segments": [
@@ -3630,7 +3768,151 @@
         87
       ],
       "deferred_pdf_pages": [],
-      "assembly_required": true
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/english-education/article.json",
+        "sha256": "8f15a47da954f4f836cab94f6364f7f521fa37e68984924e820d0cc47b5e4a12",
+        "bytes": 709400
+      },
+      "assembly": {
+        "toc_entry_id": "maso-1984-08-toc-0013",
+        "engine": "mixed",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/english-education/article.json",
+          "sha256": "8f15a47da954f4f836cab94f6364f7f521fa37e68984924e820d0cc47b5e4a12",
+          "bytes": 709400
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/english-education/manifest.json",
+          "sha256": "811807fe0e04f212e17732e9c09e36ba5acd7a2e0621b4e67e60334ed89669ad",
+          "bytes": 286287
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/english-assembly-recipe.json",
+          "sha256": "88a37bf0721c0f765f0fc5fc71fa79501fa1cbecc455ac0ae5d102136745555a",
+          "bytes": 6141
+        },
+        "pdf_pages": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "segments": [
+          {
+            "name": "opening",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-11/english-education/manifest.json",
+              "sha256": "d1745a51fbc343115fea27e71accf08be1a15af43d72f486e4ad075b863bcca2",
+              "bytes": 61693
+            }
+          },
+          {
+            "name": "middle",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-12/english-education/manifest.json",
+              "sha256": "9623156c176ffa6311d111b97a2a5e2e235446e5fe2330f136d1850c38244138",
+              "bytes": 83011
+            }
+          },
+          {
+            "name": "listings",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-13/english-education/manifest.json",
+              "sha256": "e41ba3e0aac586fc5653b12099e6ff6ae220d31123c3fb7a30897b8d3c12e395",
+              "bytes": 96419
+            }
+          },
+          {
+            "name": "ending",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-14/english-education/manifest.json",
+              "sha256": "2ef006c378aa11e3e61cd41f8e295dba5c555e3c734c01c22af8f1dfc449fccd",
+              "bytes": 17203
+            }
+          }
+        ],
+        "native_validations": [
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/validation.json",
+            "sha256": "54dab3ebc631619f95aec215a4ed2458a7c9b7523d6f52d26261ae304e1c5fb0",
+            "bytes": 1008
+          },
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/validation.json",
+            "sha256": "13a836bfab16d631148a01e7596c1debb1214401fb1aff898d9ac952799ac52e",
+            "bytes": 1007
+          },
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/validation.json",
+            "sha256": "7a68c78b1760345b2309e82624343b5eb317a807d3466ac5468cbfe9f4ed002d",
+            "bytes": 1048
+          },
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-14/validation.json",
+            "sha256": "94a9713f95332b6ece5124abe870129d21b43eaaab697e9a29ee012a00ea3b14",
+            "bytes": 980
+          }
+        ],
+        "regions": 398,
+        "text_regions": 381,
+        "figures": 17,
+        "ordered_blocks": 375,
+        "text_review_items": 382,
+        "tables": 1,
+        "table_rows": 15,
+        "table_cells": 90,
+        "table_blank_cells": 16,
+        "table_column_groups": 3,
+        "physical_listing_rows": 1532,
+        "logical_listing_rows": 907,
+        "physical_continuations": 625,
+        "listing_groups": 6,
+        "unresolved_entries": 278,
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-english-source-index/source-index.json",
+          "sha256": "3e7feb137a3f00a196bfeae28b3133d8ad73f54826df977a0ab93eddd8070de9",
+          "bytes": 283674
+        },
+        "human_acceptance": "pending",
+        "checks": {
+          "status": "passed",
+          "full_source_coverage": true,
+          "canonical_identity": true,
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "source_segments_immutable": true,
+          "all_original_metadata_unchanged": true,
+          "listing_bytes_native_concatenation": true,
+          "physical_logical_partition": true,
+          "table_cells_and_blanks": true,
+          "prior_production_packages_verified": 18,
+          "preserved_pilot_files": 16790,
+          "all_four_raw_inventories_unchanged": true
+        },
+        "scope": "FullEnglish69–87 complete under JSON/assets scope. August issue remains incomplete;human acceptance/fullproofreading/source bytes/execution unverified.",
+        "canonical_identity_audit": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/english-canonical-identity-audit.json",
+          "sha256": "846fd97d85196ea80bafe8496fffc4a3c24435511b6a99db3d20e670bea685b6",
+          "bytes": 813
+        }
+      }
     },
     {
       "id": "maso-1984-08-toc-0014",
@@ -4026,131 +4308,24 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "english-assembly",
-    "toc_entry_id": "maso-1984-08-toc-0013",
-    "article_extent_verified": true,
-    "article_pdf_pages": [
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87
-    ],
-    "planned_source_pages": [],
-    "remaining_source_pages": [],
-    "covered_source_pages": [
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87
-    ],
-    "immutable_extent": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-11/extent-inspection.json",
-      "sha256": "814fc39ecb4c96dfd004cb26f5a50535c308dc23def9d5ca30b6fcd28e54d11d",
-      "bytes": 6200
+    "batch": "batch-15",
+    "toc_entry_id": "maso-1984-08-toc-0014",
+    "article_extent_verified": false,
+    "first_canonical_page": 90,
+    "planned_source_pages": null,
+    "prior_english_complete": {
+      "path": "build/pdf-restoration/13-1984-08-adaptive/english-education/article.json",
+      "sha256": "8f15a47da954f4f836cab94f6364f7f521fa37e68984924e820d0cc47b5e4a12",
+      "bytes": 709400
     },
-    "opening": {
-      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-11/english-education/article.json",
-      "sha256": "e1143ffa775f1d4c861ca9472b47f355a8800b55f04def34f4ff20d9ed4279e2",
-      "bytes": 162399
+    "prior_english_validation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/english-assembly-validation.json",
+      "sha256": "4d1de7944c60ab1d775f4ff39964c64f2c792cab015c8a2c919dd5de3803d130",
+      "bytes": 4408
     },
-    "middle": {
-      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-12/english-education/article.json",
-      "sha256": "1909a13ca6bcef2520e7cae0d4580393b2d46d91997ac83892a24114c8ec3c08",
-      "bytes": 215410
-    },
-    "middle_validation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-12/validation.json",
-      "sha256": "13a836bfab16d631148a01e7596c1debb1214401fb1aff898d9ac952799ac52e",
-      "bytes": 1007
-    },
-    "action": "Assemble fullEnglish69–87 from exact native11–14 manifest pins. Join74다음 문/75제로;merge LIST1 andLIST3 listing groups and preserve independent examples,control table,17original images andallsource flags. Page87 firstlabel6129 supersedes earlier provisional6127 without modifying immutable prior natives. Then inspect completeCP/M extent beginning90 before bounded mapping. All20 untouched bodies,six pilot selections,four headings and wholeAugust JSON/assets closeout remain. No reading-room rebuild.",
+    "action": "Inspect entireCP/M article extent starting90 through its actual ending and followinggraphics title(canonical99) before mapping. Use fresh whole views and source contents/canonical identities;one/two articles,six mapped pages maximum and20 outside-map lookups maximum. Route clear proseT,densecode/formulas/structured valuesQ,retain original figures and bounded repeated-glyph exceptions. Correct/export/validate/commit bounded natives andassemble if needed. All20 untouched bodies,six pilot selections,four headings andwholeAugust JSON/assets closeout remain.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending",
-    "status": "all-four-natives-validated-full-assembly-required",
-    "third_native": {
-      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-13/english-education/article.json",
-      "sha256": "d55bf091663fb562d335036272ec89944c543128942a523e7f5f574b38dfd269",
-      "bytes": 245513
-    },
-    "third_native_validation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/validation.json",
-      "sha256": "7a68c78b1760345b2309e82624343b5eb317a807d3466ac5468cbfe9f4ed002d",
-      "bytes": 1048
-    },
-    "previous_native_raw_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/raw-ocr-audit.json",
-      "sha256": "bda16d7b8788720fe1de4f5d5d535c059e176f0f03fa3d92e88ac5957f5d9ea7",
-      "bytes": 7633
-    },
-    "previous_native_map": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/map.json",
-      "sha256": "748beba753c2d1b17cd1305e483961a5838c44711ac59ff012b9684c8a7c80c1",
-      "bytes": 42732
-    },
-    "previous_native_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/raw-preservation.json",
-      "sha256": "f37a272e6e781cbc8b4076daa6feec9b27017e3b3a1ebf5ae4063963ebb24106",
-      "bytes": 220669
-    },
-    "previous_native_selected_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-13/raw-review.json",
-      "sha256": "61b48803379b867e72c3ddab8a98a697946a39a2600e4d30eff098b2a1506e47",
-      "bytes": 23327
-    },
-    "previous_native_recognition_accounting": {
-      "qwen_attempts": 140,
-      "qwen_successful": 139,
-      "tesseract_calls": 5,
-      "failed_qwen": 1,
-      "local_qwen_tokens": {
-        "prompt_tokens": 53521,
-        "completion_tokens": 12768,
-        "total_tokens": 66289
-      },
-      "successful_qwen_client_seconds": 391.4655970570748,
-      "tesseract_seconds": 1.0983590200194158,
-      "failed_server_compute_seconds": 15.645380999999999,
-      "local_monetary_weight": 0
-    },
-    "ending": {
-      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-14/english-education/article.json",
-      "sha256": "8417fc34729bdf41f2bd6cdfb3533ef4b9895152f51345d792d27988f3acafd1",
-      "bytes": 44719
-    },
-    "ending_validation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-14/validation.json",
-      "sha256": "94a9713f95332b6ece5124abe870129d21b43eaaab697e9a29ee012a00ea3b14",
-      "bytes": 980
-    }
+    "status": "english-full-assembly-complete-cpm-extent-pending"
   }
 }
