@@ -2172,3 +2172,23 @@ commit code/documentation. Do not count a partial opening as a complete article.
   not assigned causally to either engine. Audit cutoff excludes the later tail.
 - First-two instrumentation gate remains unpassed; remaining six pairs not started.
   No paid-cost or accuracy verdict and no reading-room rebuild at this checkpoint.
+
+### August independent corrections authorized; editorial pair sealed, 2026-10-12
+
+- User explicitly authorized independent correction agents. Each case starts with
+  a fresh context, the same instructions, inherited gpt-6-astra/high settings and
+  one assigned draft. The second article's first correction is now running.
+- Both editorial arms are sealed: 14 text regions and one figure each, unchanged
+  assigned inputs, independently checked exports and byte-identical rebuilds.
+  Native child-session usage is captured separately; no response-ID overlap with
+  each other or the coordinator log was observed.
+- Editorial T: 36,080 uncached / 346,240 cached input, 4,513 output tokens.
+  Editorial Q: 32,005 uncached / 390,656 cached input, 4,228 output tokens.
+  Reasoning is included in output; local resources still have zero monetary weight.
+- All corrected text agrees ignoring whitespace; three spacing differences.
+  Disagreements and the frozen source sample checked. One shared blurred-syllable
+  reading remains for human review; only one independent arm originally flagged it.
+  Original independent outputs remain unchanged; no character-perfect claim.
+- Counts and break-even expression documented in docs/OCR-AUGUST-PILOT.md and
+  docs/ocr-august-pilot-correction-usage.json. First-two gate still pending; no
+  overall cost verdict, no six-pair expansion yet and no reading-room rebuild.

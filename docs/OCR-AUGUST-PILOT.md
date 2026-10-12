@@ -1,8 +1,9 @@
 # August 1984 paired restoration cost pilot
 
 Status: eight articles selected and source boundaries checked; both raw OCR arms
-are complete for the first two articles. Independent semantic correction has not
-started. Selection and order were frozen before viewing either engine's output.
+are complete for the first two articles. Both independent editorial corrections
+are sealed and compared; the game article's corrections are in progress.
+Selection and order were frozen before viewing either engine's output.
 This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
 
@@ -83,11 +84,11 @@ identical cache state, stochastic behavior or true engine blinding. Avoid explic
 engine labels in correction instructions where practical, but do not claim that
 draft style cannot reveal the engine.
 
-This session prohibits subagent delegation without explicit user instruction.
-Selecting and documenting the pilot does not require delegation. Independent
-agent execution must be explicitly authorized before using that implementation;
-otherwise the correction packets must run in separate fresh user-started sessions.
-Do not substitute two sequential corrections in this shared conversation.
+The user explicitly authorized independent correction agents on October 12,
+after this session's delegation rule initially blocked that step. Each agent uses
+`fork_turns=none`, common instructions and inherited model/settings. Native session
+metadata confirms `gpt-6-astra` with `high` effort for the launched cases. Do not
+substitute two sequential corrections in the coordinator's shared conversation.
 
 ## Frozen OCR and review policy
 
@@ -190,17 +191,54 @@ with the private raw evidence. Each crop receives one bounded primary attempt;
 failed native output is retained without fallback. The failure-preservation test
 passes, including continued processing and refusal to overwrite an existing run.
 
-Four separate correction packets are prepared in the frozen execution order,
+Four separate correction packets were prepared in the frozen execution order,
 with common instructions, source images, structural templates and one assigned
-draft each. No packet has been corrected or exported. Explicit delegation
-authorization is still pending under this session's rule above. The first-two
-instrumentation gate remains unpassed; the other six articles have not started.
-No reading-room rebuild was performed.
+draft each. All were initially unstarted; following explicit authorization, the
+independent correction stage below began. The first-two instrumentation gate
+remains unpassed; the other six articles have not started. No reading-room rebuild
+was performed.
 
 The [progress manifest](ocr-august-pilot-progress.json) records artifact pins and
 completion state. The [coordinator usage audit](ocr-august-pilot-usage.json) records
 shared setup, preparation and orchestration through its explicit cutoff, including
-between-window overhead. It contains no independent correction-session usage.
+between-window overhead. Independent correction-session usage is reported separately.
 Coordinator helper work overlapped raw runs, so those paid tokens are shared
 experimental overhead, not attributed to whichever local engine was running.
 The subsequent validation, commit and delivery tail remains outside that cutoff.
+
+## First independent pair, 2026-10-12
+
+Both editorial restorations are sealed. Their exports contain all 14 text regions
+and one original figure; export integrity and byte-identical rebuild were checked
+independently by the coordinator. Input manifests confirm that neither correction
+changed its assigned draft, source images, map or common instructions.
+
+| Editorial route | Uncached input | Cached input | Output | Worker-declared seconds |
+| --- | ---: | ---: | ---: | ---: |
+| Tesseract | 36,080 | 346,240 | 4,513 | 129.95 |
+| Qwen | 32,005 | 390,656 | 4,228 | 125.69 |
+
+Cache-write input is zero in these observed records. Output already includes 391
+and 656 reasoning tokens respectively. Usage covers each fresh session from its
+creation through the coordinator observing completion, including instructions,
+source inspection, correction, export checks and final reply. Worker-declared
+time excludes initial instruction loading and final reply; the longer audit window
+also includes observation delay and is not active correction time. The native
+response IDs are distinct across the two sessions and absent from the coordinator
+log. The [independent usage audit](ocr-august-pilot-correction-usage.json) retains
+counts, model/settings, artifact pins and timing scopes without conversation text.
+
+All 14 corrected regions agree after removing whitespace. Three differ in spacing.
+The coordinator checked those disagreements plus the predeclared title/opening/
+middle/ending sample against source, finding no confirmed character error in the
+checked regions. One additional blurred syllable has the same reading in both
+versions; only the Tesseract arm flagged it. A shared human-review flag records
+that ambiguity without modifying either sealed result. This check establishes
+comparable reviewable coverage, not character-perfect text or human acceptance.
+
+This single prose pair is not an engine decision. Qwen used 4,075 fewer uncached
+input and 285 fewer output tokens, but 44,416 more cached input tokens. Under the
+common rate vector above, its correction cost is lower exactly when
+`44,416 * rate_cached < 4,075 * rate_uncached + 285 * rate_output`.
+No billing rates or currency total are assumed. Shared preparation and comparison
+remain separate overhead; the game pair and remaining cohort are still required.

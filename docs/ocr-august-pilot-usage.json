@@ -134,6 +134,24 @@
         "total_tokens": 1295098,
         "uncached_nonwrite_input_tokens": 39524
       }
+    },
+    {
+      "id": "independent-correction-coordination",
+      "stage": "shared-coordination",
+      "engine": "shared",
+      "start": "2026-10-12T01:35:47.613377+00:00",
+      "end": "2026-10-12T01:44:30.459941+00:00",
+      "elapsed_seconds": 522.8465638160706,
+      "observed_responses": 28,
+      "tokens": {
+        "input_tokens": 1720422,
+        "cached_input_tokens": 1686784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11923,
+        "reasoning_output_tokens": 3311,
+        "total_tokens": 1732345,
+        "uncached_nonwrite_input_tokens": 33638
+      }
     }
   ],
   "money_cost": null,
@@ -141,35 +159,35 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T00:34:55.352Z",
-    "end": "2026-10-12T01:10:52.130905+00:00",
-    "elapsed_seconds": 2156.778904914856,
-    "observed_responses": 54,
+    "end": "2026-10-12T01:44:30.459941+00:00",
+    "elapsed_seconds": 4175.107940912247,
+    "observed_responses": 96,
     "tokens": {
-      "input_tokens": 8552154,
-      "cached_input_tokens": 8396032,
+      "input_tokens": 10878139,
+      "cached_input_tokens": 10674560,
       "cache_write_input_tokens": 0,
-      "output_tokens": 50165,
-      "reasoning_output_tokens": 18802,
-      "total_tokens": 8602319,
-      "uncached_nonwrite_input_tokens": 156122
+      "output_tokens": 64625,
+      "reasoning_output_tokens": 22690,
+      "total_tokens": 10942764,
+      "uncached_nonwrite_input_tokens": 203579
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T00:34:55.352Z",
-    "end": "2026-10-12T01:10:52.130905+00:00",
-    "elapsed_seconds": 2156.778904914856,
-    "observed_responses": 4,
+    "end": "2026-10-12T01:44:30.459941+00:00",
+    "elapsed_seconds": 4175.107940912247,
+    "observed_responses": 18,
     "tokens": {
-      "input_tokens": 581367,
-      "cached_input_tokens": 578304,
+      "input_tokens": 1186930,
+      "cached_input_tokens": 1170048,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1463,
-      "reasoning_output_tokens": 705,
-      "total_tokens": 582830,
-      "uncached_nonwrite_input_tokens": 3063
+      "output_tokens": 4000,
+      "reasoning_output_tokens": 1282,
+      "total_tokens": 1190930,
+      "uncached_nonwrite_input_tokens": 16882
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
-  "scope": "Coordinator-only shared preparation, raw orchestration, packet creation and reporting. No independent correction sessions yet; per-arm paid correction costs unknown. Raw orchestration overlaps shared helper development and is not assigned causally to its active OCR engine. Includes between-window overhead through explicit cutoff; subsequent commit/report tail excluded."
+  "scope": "Coordinator-only shared preparation, raw orchestration, packet creation and reporting. Independent correction-session usage is reported separately in ocr-august-pilot-correction-usage.json; coordinator log is not a substitute for child-session usage. Raw orchestration overlaps shared helper development and is not assigned causally to its active OCR engine. Includes between-window overhead through explicit cutoff; subsequent commit/report tail excluded."
 }
