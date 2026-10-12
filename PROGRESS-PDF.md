@@ -12542,3 +12542,21 @@ history remains in [PROGRESS.md](PROGRESS.md).
   selections pending,two classified/four unclassified headings andzero human
   accepted. Next:source-verify fullactualextent of도형정의표의 정복/김선호
   beginning128 before mapping its opening. Whole-issue JSON/assets closeout remains.
+
+
+## 2026-10-13 — August shape-table article extent verified
+
+- Inspected all15 pinned whole-page views127–141 before mapping. 김선호’s
+  도형정의표의 정복 occupies128–137, ending with section8 맺음말 and an
+  article end mark. Separate 디버깅 룸 errata138, 복덕방 classifieds139–140
+  and the lower advertisement140 are excluded. The next listed article’s actual
+  title 일본 마이크로 컴퓨터의 현황 begins141. TOC spacing was not used as
+  article extent proof.
+- Next: map opening128–133 (six pages, nine outside-map lookups), inspect native
+  crops, then recognize coherent prose and structured/code regions with adaptive
+  routing and a bounded representative table probe. Ending134–137 and full
+  assembly remain. No mapping, OCR or production export was added by this check.
+- Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-24/extent-inspection.json`.
+  August remains16 complete, zero partial,15 untouched bodies, six pilot selections
+  pending, two classified/four unclassified headings and zero human accepted.
+  Whole-issue JSON/assets closeout and full proofreading remain pending.

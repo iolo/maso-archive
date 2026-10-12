@@ -7515,13 +7515,13 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": "batch-24",
-    "status": "next-article-full-source-extent-inspection-pending",
+    "status": "source-extent-verified-opening-mapping-pending",
     "toc_entry_id": "maso-1984-08-toc-0019",
     "canonical_title": "도형정의표의 정복",
     "canonical_byline": "김선호",
     "canonical_first_page": 128,
     "next_canonical_article_page": 141,
-    "article_extent_verified": false,
+    "article_extent_verified": true,
     "last_completed_article": {
       "toc_entry_id": "maso-1984-08-toc-0018",
       "engine": "mixed",
@@ -7647,11 +7647,42 @@
       },
       "scope": "FullZ80 article116–127 complete underJSON/assets scope. WholeAugust remains incomplete;humanacceptance/fullproofreading/sourcebytes/execution unverified."
     },
-    "action": "Inspect actual full source extent of 도형정의표의 정복 beginning128 through next actual title; do not infer extent fromTOC. Then map at mostsix opening pages with adaptive coherent-region routing andbounded probes ifneeded. Preserve newsource/raw/correction evidence;continue remainingAugustarticles,pilot selections/heading classification andwholeissueJSON/assetscloseout. No reading-room rebuild.",
+    "action": "Map opening128–133 of source-verified article128–137 using coherent adaptive routing. Clear prose/headings/captions startT; structured values, dense code and difficult labels startQ. Probe a representative ruled table before choosing its route. Preserve source images separately; inspect native crops before OCR. Restore ending134–137 and assemble fullarticle afterward. Exclude separate errata138,classifieds139–140 andadvertisement140. Continue remainingAugust articles, pilot selections, heading classifications andwholeissue JSON/assetscloseout. No reading-room rebuild.",
     "previous_goal_turn_classification": "progress: e83d753 completed andvalidated Z80 ending122–127; thisturnfull116–127 assembly verified.",
     "human_acceptance": "pending",
     "source_bytes_verified": false,
-    "execute_verified": false
+    "execute_verified": false,
+    "article_pdf_pages": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "source_pages": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133
+    ],
+    "deferred_pdf_pages": [
+      134,
+      135,
+      136,
+      137
+    ],
+    "extent_inspection": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/extent-inspection.json",
+      "sha256": "51d25df45b93deb8abb5a637d10d3637378743c8d5cb1125c15dc1c9d7f154d4",
+      "bytes": 7811
+    }
   },
   "raw_preparation_checkpoints": [
     {
