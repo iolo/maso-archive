@@ -12447,3 +12447,56 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and 122위/123한 joins, uncertain opcode/subscript glyphs, printed errors and
   physical dump interruptions. Full proofreading, source bytes/execution and
   whole-issue JSON/assets closeout remain pending. No reading-room rebuild.
+
+
+## 2026-10-13 — August Z80 ending122–127 production restored
+
+- Restored the ending122–127 of Z80 기계어 강좌/이세형, canonical article0018
+  beginning116. All188 regions retain175 once-corrected selected drafts,168 ordered
+  blocks,13 original images and175 source-review ranges. Twelve incremental source
+  correction parts preserve progress separately from immutable OCR. Full116–127
+  assembly with opening22 remains required; the native ending is explicitly partial.
+- The bounded same-crop Tesseract fallback for p125r10 preserves LP1 at printed952B,
+  correcting the original Q draft's9528 association. Actual139Q/41T include two
+  unselected T probes, two capped Q failures with worker fallbacks and this one new
+  association fallback. Selected136Q/39T corrected once. No Q retry or dual correction.
+  All51,574 local Q tokens include40,615 prompt/10,959 output and both failures.
+  Local monetary weight zero; paid input retains1:0.1 uncached/cached ratio, output
+  rate unknown. Worker368.817s, probes0.472s and selection0.220s are separate
+  noncausal diagnostics. T recognition total8.320s includes probes/fallback once.
+- 107 code regions retain405 unnumbered physical rows in17 source groups:
+  345 aligned assembly rows,33 independent16-byte dump rows,21 displayed-output
+  rows,two inline instructions andfour monitor commands. Structured indexes retain
+  2,286 fields/432 blanks. Blank-address ORG, EQU, DEFM byte continuations andfour
+  physically wrapped string fragments remain explicit. No BASIC logical numbering.
+  Dumps remain at their original interruptions, independently of instruction bytes.
+- Three opcode tables retain21 logical instruction rows/273 main cells,20 key
+  rows/40 key cells,54 header cells and18 blank main remarks cells. Three unprinted
+  CALLcc second timing fields remain absent. JR NZ operation/timing continuation
+  p123r37 andRETcc remarks p124r24 remain associated with their owning rows.
+  Literal POPqq opcode bullet,JP(HL) P←HL,CALLnn T-state7 andCALLcc trailing
+  comma/no nn remain source candidates without instruction-semantic repair.
+- Eleven figure associations andone sorting diagram retain15 boxed/terminal
+  nodes,one JMP junction and18 directed connections. Physical arrowhead count is
+  not certified. The diagram's B←5 andA↔H(HL), repeated sorted7/no8, prose
+  figure4/caption5 andfaint code/dump glyphs remain literal or explicitly uncertain.
+  Seventy-two flags retain source errors, string terminator candidates andprinted
+  hyphens. Two prose joins retainfive boundaries, including122위/123한; two table
+  companion joins retaintwo more. Deferred121프로/122그램 awaits fullassembly.
+- The private validator initially used older preflight crop paths for revised
+  regions. Failed validator anddiagnostic are preserved at export-validation-
+  recovery-01. The corrected check uses sealed final selected crops/current map;
+  all188 exported crop hashes andsource pixels match. No source/export mutation,
+  inference repetition orpipeline change was needed for this recovery.
+- Exact listing/field/table/header/diagram/review UTF-8 ranges,source coverage,
+  canonical identity andindependent byte-identical rebuild pass. Original1,975-file
+  andselected1,324-file raw seals,all30 prior production packages,priornative15–22
+  raw inventories and16,790 pilot files remain unchanged. Human acceptance/full
+  proofreading,source encoded bytes andhistorical execution remain unverified.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-23/z80/`; source index:
+  `build/pdf-restoration/13-1984-08-adaptive-z80-source-index-23/source-index.json`;
+  audit: `private/pdf-restoration/13-1984-08-adaptive/batch-23/validation.json`.
+  August remains15 complete,one partial Z80,15 untouched bodies,six pilot
+  selections pending,two classified/four unclassified headings andzero human
+  accepted. Next: separate full116–127 assembly,then next source title128 after
+  extent inspection. Whole-issue JSON/assets closeout remains; no reading-room rebuild.
