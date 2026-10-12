@@ -6,7 +6,7 @@
   "selected_source_pages": 28,
   "planned_restorations": 16,
   "completed_raw_arms": 16,
-  "completed_corrected_arms": 12,
+  "completed_corrected_arms": 14,
   "human_accepted_articles": 0,
   "first_two_instrumentation_gate": "passed",
   "delegation_authorization": "explicit-user-reply: Yes—authorize independent correction agents",
@@ -17,18 +17,18 @@
   },
   "protocol": {
     "path": "docs/OCR-AUGUST-PILOT.md",
-    "sha256": "1d3de84ff60267f02b2796cde81cdbaf95443d040405c325bbfdd81205f44b97",
-    "bytes": 24427
+    "sha256": "0c1c0a85615ac098375dc86207ec261a9c874dfd1165c8bdac60a17e4739d6f4",
+    "bytes": 25682
   },
   "case_registry": {
     "path": "private/pdf-restoration/13-1984-08-cost-pilot/correction-case-registry.json",
-    "sha256": "54d95de99bd6bb36f18f90a417115c044fead96c70d8ae2d0f0e72ec3223ba77",
-    "bytes": 17014
+    "sha256": "e6859d537265bdb531f8dae1c17a240fcddc63c07fbe6646dabce0069a2c0b64",
+    "bytes": 19264
   },
   "paid_coordinator_usage": {
     "path": "docs/ocr-august-pilot-usage.json",
-    "sha256": "fb8c51b8d8e489c8120ad227b1f230ab981da5ef164a45e43293292a87e486f3",
-    "bytes": 16662
+    "sha256": "95cc5a7d6e8cbbe9e6022473d0383acbd98623929831d1025c8e272eb8ed887d",
+    "bytes": 17277
   },
   "articles": [
     {
@@ -627,7 +627,7 @@
           "exact_input_crop_equality": true
         }
       },
-      "semantic_correction": "in-progress",
+      "semantic_correction": "both-arms-sealed",
       "human_acceptance": "pending",
       "frozen_inputs": {
         "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/shared/frozen-inputs.json",
@@ -645,12 +645,12 @@
         {
           "case_id": "aug-07-v2-A",
           "engine": "tesseract",
-          "status": "running"
+          "status": "sealed"
         },
         {
           "case_id": "aug-07-v2-B",
           "engine": "qwen",
-          "status": "prepared-not-started"
+          "status": "sealed"
         }
       ],
       "protocol_deviation": {
@@ -658,7 +658,12 @@
         "sha256": "081a532e187c71e38aa904372d2b279736bfbbf1edd8672f61bfa9136d9463d7",
         "bytes": 560
       },
-      "status": "raw-pair-correction-in-progress"
+      "paired_quality_review": {
+        "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-07-v2/quality-review.json",
+        "sha256": "d58007e314d82468d900966ac1af9f81cecf169d0c7632673d1d6452f0c4e22a",
+        "bytes": 8646
+      },
+      "status": "corrected-pair-source-comparison-recorded"
     },
     {
       "pair_id": "aug-08",
@@ -715,7 +720,7 @@
           "exact_input_crop_equality": true
         }
       },
-      "semantic_correction": "not-started",
+      "semantic_correction": "in-progress",
       "human_acceptance": "pending",
       "frozen_inputs": {
         "path": "private/pdf-restoration/13-1984-08-cost-pilot/aug-08/shared/frozen-inputs.json",
@@ -729,8 +734,19 @@
         "sha256": "ca0e084c18a8b4b5b1c150fb78171d255bfd143e078e7829b29b3c912ebe76f4",
         "bytes": 31224
       },
-      "correction_cases": [],
-      "status": "raw-pair-ready-correction-pending"
+      "correction_cases": [
+        {
+          "case_id": "aug-08-A",
+          "engine": "tesseract",
+          "status": "running"
+        },
+        {
+          "case_id": "aug-08-B",
+          "engine": "qwen",
+          "status": "prepared-not-started"
+        }
+      ],
+      "status": "raw-pair-correction-in-progress"
     }
   ],
   "reading_room": "not-rebuilt",
@@ -744,8 +760,8 @@
   "cost_interpretation": "Local CPU/GPU/runtime/model tokens priced at zero. Raw timings are diagnostics, not the paid-cost answer. Article-level independent usage is recorded separately; no overall cost winner declared before the first-two gate and full cohort.",
   "paid_independent_correction_usage": {
     "path": "docs/ocr-august-pilot-correction-usage.json",
-    "sha256": "05724380ef23a8eacfde049d362d3b384eabd2b30a77ea68ca0c93550438fc9a",
-    "bytes": 43905
+    "sha256": "964211a0ef8815e2156396ef275b19e76a15c78573d5646ce27478f580508350",
+    "bytes": 50703
   },
   "gate_evidence": {
     "path": "private/pdf-restoration/13-1984-08-cost-pilot/first-two-gate.json",

@@ -2248,3 +2248,13 @@ commit code/documentation. Do not count a partial opening as a complete article.
   original frozen geometry is preserved and no correction attempt was discarded.
 - Editor correction is running; Q&A packets are ready. Continue the frozen order
   and identical fresh-context instructions. Human acceptance pending; no reading room.
+
+### August editor comparison complete; final Q&A pair underway, 2026-10-12
+
+- Fourteen independent restorations sealed. Editor exports retain 151 text regions,
+  six figures and 106 logical listing rows; one blank row explains the physical
+  count difference. All disagreements and fixed samples source-checked.
+- Both editor routes retain code/prose errors and unresolved faint glyphs/spaces.
+  Lower Qwen total tokens coexist with more uncached input; pricing remains conditional.
+- Q&A is the final planned pair. Consolidated reports are prepared with completion
+  guards; human acceptance remains pending and no reading room has been rebuilt.

@@ -1,9 +1,9 @@
 # August 1984 paired restoration cost pilot
 
-Status: all eight raw pairs are complete; the first six independently corrected
+Status: all eight raw pairs are complete; the first seven independently corrected
 pairs are sealed and compared. The first-two instrumentation gate passed.
-VISICALC's paired coverage recovery is complete. The long BASIC editor article
-is in correction; Q&A has frozen correction packets ready.
+VISICALC's paired coverage recovery and the editor comparison are complete.
+Q&A is the final pair in correction.
 Selection and order were frozen before viewing either engine's output.
 This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
@@ -389,3 +389,25 @@ is preserved and was never used for raw or corrected output. Both actual routes
 use `aug-07-v2`; region count, content and correction standards are unchanged.
 This pre-inference amendment incurred no aborted correction. The private
 `aug-07-v2/protocol-deviation.json` records it.
+
+## Seventh pair completed; Q&A underway, 2026-10-12
+
+The editor has 151 text regions, six figures and 106 logical listing rows per
+verified export. Its 292 versus 293 physical-row count differs by one blank row;
+a continuation assigned to adjacent crop IDs differently appears exactly once in
+both assembled listings. All 76 differing regions plus the fixed sample were
+source-checked, 81 regions total. Checks found four wording/number/code-token
+errors and two punctuation errors in the Tesseract correction, and two code-token
+errors in the Qwen correction. Faint glyphs and literal spaces remain uncertain.
+These are checked-region observations, not full CER or runnable-code certification.
+
+| Editor correction | Uncached input | Cached input | Output | Worker seconds |
+| --- | ---: | ---: | ---: | ---: |
+| Tesseract | 127,514 | 2,528,896 | 19,640 | 561.03 |
+| Qwen | 220,265 | 1,897,728 | 15,403 | 533.72 |
+
+Qwen's matched correction is cheaper only when
+`631168*c + 4237*o > 92751*u`. Its lower total-token count is not sufficient to
+settle monetary cost, because it consumed more uncached input. The native audit
+includes the full sessions, including metadata-only progress communication.
+Fourteen independent restorations are sealed; the final Q&A pair is underway.
