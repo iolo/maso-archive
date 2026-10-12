@@ -734,6 +734,89 @@
       },
       "tables": [],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-04",
+      "toc_entry_id": "maso-1984-08-toc-0003",
+      "title": "청소",
+      "source_pages": [
+        34,
+        35,
+        36
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {},
+      "assignment_reason": "Dense faint BASIC with split physical rows and quoted strings uses Qwen. Prior neighboring T prose deteriorated badly; no repeated engine comparison. Six physical rows per crop bound output length; every crop enlarged-source inspected before inference.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-04/sweeping-basic/article.json",
+          "sha256": "d534c67e2340a7f68ede961687e6ce8c6da1f5b573d06dfdfa60d389d2d3aaef",
+          "bytes": 98453
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-04/sweeping-basic/manifest.json",
+          "sha256": "50dbaa1f514c939d44ae63c8def646055370f9378830f264eaa9c5069832f083",
+          "bytes": 39676
+        },
+        "source_pages": [
+          34,
+          35,
+          36
+        ],
+        "regions": 58,
+        "text_regions": 58,
+        "figures": 0,
+        "physical_listing_rows": 332,
+        "logical_listing_rows": 90,
+        "unresolved_entries": 20,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-04/map.json",
+        "sha256": "7c68415fa47064757efaa4395ea4a82d29fcc03a85f0d3bd9efc094087def0fe",
+        "bytes": 17449
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-04/source-review-ledger.json",
+        "sha256": "5f2a628498a102c675d8eb2460c3883c7d04121cf78b61ee9b7452727328d0cc",
+        "bytes": 7860
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 20648,
+        "completion_tokens": 6024,
+        "total_tokens": 26672
+      },
+      "qwen_completed_calls": 58,
+      "qwen_recognition_seconds": 65.23322455398738,
+      "tesseract_recognition_seconds": 0,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T04:59:41.642430+00:00",
+        "finished_at": "2026-10-12T05:00:56.697101+00:00",
+        "elapsed_seconds": 75.0546839759918,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 58,
+          "tesseract_inferences": 0,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -992,17 +1075,29 @@
             "sha256": "96e850378f1033153ea530e7ec8deb20983940e49a9c748f30dca437c5a7519d",
             "bytes": 73289
           }
+        },
+        {
+          "batch": "batch-04",
+          "source_pages": [
+            34,
+            35,
+            36
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-04/sweeping-basic/article.json",
+            "sha256": "d534c67e2340a7f68ede961687e6ce8c6da1f5b573d06dfdfa60d389d2d3aaef",
+            "bytes": 98453
+          }
         }
       ],
       "covered_pdf_pages": [
         32,
-        33
-      ],
-      "deferred_pdf_pages": [
+        33,
         34,
         35,
         36
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -1529,21 +1624,15 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-04",
     "toc_entry_id": "maso-1984-08-toc-0003",
     "source_pages": [
-      34,
-      35,
-      36
-    ],
-    "article_extent": [
       32,
       33,
       34,
       35,
       36
     ],
-    "action": "Restore BASIC physical listing10–910 upper36. Preserve source literals/wraps and exclude lower36 advertisement; then separate assembly with opening32–33.",
+    "action": "Separate full 청소 assembly from immutable batch03 opening32–33 and batch04 BASIC34–36; no new OCR required.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }

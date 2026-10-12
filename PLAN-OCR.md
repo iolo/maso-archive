@@ -2392,3 +2392,26 @@ commit code/documentation. Do not count a partial opening as a complete article.
   One complete production article,one partial,27 untouched,eight sealed pilot bodies,
   five unclassified headings;zero human accepted. Whole August remains in progress.
 - Next:batch04 BASIC34–36,then separate full 청소 assembly.
+
+### August 청소 BASIC34–36 native checkpoint, 2026-10-12
+
+- Batch04 restores58 code crops,58 ordered blocks,332 physical rows and90 printed
+  BASIC labels10–910. All six source columns and15 crop panels inspected. Lower36
+  academy advertisement excluded; pre-OCR right margin widened before inference.
+- Qwen alone handles faint structured code:58 completed calls,26,672 local tokens,
+  65.233s recognition;no retries or alternate whole correction. Collapsed physical
+  rows and mangled labels corrected from scans. Source wraps inside strings,
+  identifiers and numeric DATA retained;no inferred executable reconstruction.
+- Twenty source flags retain faint0/O,1/I,apostrophes/spaces,PLYER typo,concatenated
+  BLOAD name,repeated FN F and faint dot after X. Character-perfect proofreading,
+  source bytes and execution remain unverified;human acceptance pending.
+- Crop/source/request hashes,all stop outcomes,regional character coverage,text and
+  review UTF-8 ranges,332 physical/90 logical listing partitions and exact printed
+  label indexes pass. Independent rebuild identical;16,790 pilot files unchanged.
+  Validator row-kind schema mismatch and correction patch recovery retained;outputs
+  unchanged during validation. No runtime/frontend/reading-room work.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-04/sweeping-basic/`.
+  Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-04/validation.json`.
+  One complete production article,one partial,27 untouched,eight sealed pilot bodies,
+  five heading classifications remaining. Whole August remains in progress.
+- Next:separate full 청소32–36 assembly from immutable batch03/batch04 exports.
