@@ -11824,3 +11824,28 @@ history remains in [PROGRESS.md](PROGRESS.md).
   five heading classifications remaining;zero human accepted. Whole August in progress.
 - Next:verify 지능검사(IQ TEST)41–42 against43,then restore prose/FC-100 listing.
   JSON/assets only;no reading-room rebuild. Unrelated web edit remains outside commits.
+
+## 2026-10-12 — August 지능검사41–42 complete
+
+- Full41–42 inspected;2250 CLS ends listing above bookstore ad;43 begins next title.
+ 32 regions/28 blocks preserve133 physical code rows:two independent level1 examples
+ in4 rows,plus main1000–2250 in129 rows/126 visible numbered statements.128 numbered
+ entries total. Canonical TOC title/byline unchanged;printed IQ TEST/김선일 retained.
+- Fixed30Q body/formula/code and2T short title/byline;existing neighboring T degradation
+ determines body route without another probe. Q15,235 local tokens/33.584s;T0.240s.
+ No retries or duplicate successful inference. All eight source panels inspected.
+- Pre-OCR42 margins widened to restore leading digits. Projection missed faint1970/
+ 2070 and split1980;source-inspected32-row right column and whitespace seams recorded.
+ Initial/revised maps and crops preserved. No source characters inferred from numbering.
+- Eleven flags retain glyph boxes,faint Hangul,source =<,branch1920,repeated2060 A=1,
+ main2090 +X versus independent example-X,punctuation and literal prompt uncertainties.
+ Q /69 restored to source +60;logical contradictions not repaired. No execution/byte claim.
+- Source/crop/request hashes,30 stop outcomes,regional characters,all text/review ranges,
+ explicit prose seams,133 physical/128 logical byte partitions and printed labels pass.
+ Independent rebuild identical;16,790 sealed pilot files unchanged. Human pending.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-06/iq-test/`.
+ Audit:`private/pdf-restoration/13-1984-08-adaptive/batch-06/validation.json`.
+ Five complete production articles,25 untouched,seven pilots pending production selection,
+ five heading classifications remaining;whole August in progress. No reading-room rebuild.
+- Next:위험천만한 달표면 착륙43–45.46 boundary verified;preserve MSX graphics as source
+ images/unverified glyph candidates and printed physical listing without program repair.

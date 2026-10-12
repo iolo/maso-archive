@@ -15,16 +15,16 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 4,
+    "assistant-restored-human-pending": 5,
     "sealed-pilot-review-pending": 7,
     "section-heading-no-body": 1,
     "unclassified-heading": 5,
-    "untouched": 26
+    "untouched": 25
   },
   "sealed_pilot_articles": 7,
-  "production_complete_articles": 4,
+  "production_complete_articles": 5,
   "production_partial_articles": 0,
-  "untouched_articles": 26,
+  "untouched_articles": 25,
   "unclassified_heading_entries": 5,
   "classified_heading_entries": 1,
   "human_accepted_articles": 0,
@@ -931,6 +931,90 @@
         },
         "limitation": "Successful worker reused all completed T results; total recognition counts include originals, not duplicated. Initial failed worker and successful resume durations are separate diagnostic costs."
       }
+    },
+    {
+      "batch": "batch-06",
+      "toc_entry_id": "maso-1984-08-toc-0006",
+      "title": "지능검사(IQ TEST)",
+      "source_pages": [
+        41,
+        42
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p41r01": "tesseract",
+        "p41r02": "tesseract"
+      },
+      "assignment_reason": "Faint Korean prose retains formulas/numbered examples. Prior neighboring T route has Latin substitutions;Q chosen for body and dense FC-100 code. T short heading/byline. No extra probe when existing observations already determine route.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-06/iq-test/article.json",
+          "sha256": "78550e36980762844f7a49d17ea0c2068aa9608cb67897ca17ca13abcd5ecd06",
+          "bytes": 55092
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-06/iq-test/manifest.json",
+          "sha256": "1035fb648d35442819ab7503ad2ecdc7ab51787ddb64ff364fbb6987c1162a90",
+          "bytes": 22462
+        },
+        "source_pages": [
+          41,
+          42
+        ],
+        "regions": 32,
+        "text_regions": 32,
+        "figures": 0,
+        "physical_listing_rows": 133,
+        "logical_listing_rows": 128,
+        "unresolved_entries": 11,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending"
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-06/map.json",
+        "sha256": "6341057f91b158f3aa103e0a2c1961b56a9c55ab679372f080a7212fa9579239",
+        "bytes": 10461
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-06/source-review-ledger.json",
+        "sha256": "0d8143f9a2f545d52df1a59f2618bc0d87121b436203fb719a2ee30db466e83c",
+        "bytes": 3850
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 12337,
+        "completion_tokens": 2898,
+        "total_tokens": 15235
+      },
+      "qwen_completed_calls": 30,
+      "qwen_recognition_seconds": 33.58434595497965,
+      "tesseract_recognition_seconds": 0.24025534201064147,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T06:55:29.062091+00:00",
+        "finished_at": "2026-10-12T06:56:10.855842+00:00",
+        "elapsed_seconds": 41.79376271901128,
+        "scope": "Mixed route source/runtime verification, rendering, sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 30,
+          "tesseract_inferences": 2,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete"
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -1535,9 +1619,29 @@
       "page": 41,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-06",
+          "source_pages": [
+            41,
+            42
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-06/iq-test/article.json",
+            "sha256": "78550e36980762844f7a49d17ea0c2068aa9608cb67897ca17ca13abcd5ecd06",
+            "bytes": 55092
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        41,
+        42
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0007",
@@ -2024,13 +2128,15 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-06",
-    "toc_entry_id": "maso-1984-08-toc-0006",
+    "batch": "batch-07",
+    "toc_entry_id": "maso-1984-08-toc-0007",
     "source_pages": [
-      41,
-      42
+      43,
+      44,
+      45
     ],
-    "action": "Verify 지능검사(IQ TEST)41 extent against42–43; inspect prose and FC-100 BASIC physical listing, then restore with adaptive routing.",
+    "article_extent_verified": true,
+    "action": "Restore 위험천만한 달표면 착륙43–45;46 begins next title. Preserve illustration,MSX graphic strings,physical BASIC wraps and source errors; no program repair.",
     "reading_room_rebuild": false,
     "human_acceptance": "pending"
   }
