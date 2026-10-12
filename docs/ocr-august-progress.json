@@ -4972,7 +4972,7 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": "batch-17",
-    "status": "graphics-full98-104-extent-verified-mapping-pending",
+    "status": "graphics98-103-raw-audited-source-correction-pending",
     "toc_entry_id": "maso-1984-08-toc-0015",
     "canonical_title": "컴퓨터 그래픽과 친구가 되자",
     "canonical_first_page": 99,
@@ -5090,7 +5090,7 @@
     "remaining_source_pages": [
       104
     ],
-    "action": "Map source-confirmedgraphicsopening98–103 coherently afterfull98–104extent inspection. Preserve title/photo,all sourcecharts andoriginal code/table bitmaps;Tclearprose/headings/captions,QdenseBASIC/formulas/structuredtablevalues. Keep100/101pieprogram continuation andotherindependent examples distinct. Inspectallpanels/edges andfixgeometry beforeOCR. Correct/export/validate/commit opening,then104 andseparatefull98–104assembly. All19untouchedbodies,sixpilotselections,fourheadings/wholeAugustcloseoutremain;JSON/assets only.",
+    "action": "Correct all86 selecteddrafts againstsource98–103;independently countactualprogramphysicalrows/labels andtablecells. Preserve100/101pieprogram asonegroup,other8programs/patches separately,21originalfigures andliteral printederrors. Export/validate/commit opening17,thenrestore104 innative18 andseparatelyassemble full98–104. AllremainingAugust bodies/pilotselections/headings andwholeissueJSON/assetscloseout remain;no reading-roombuild.",
     "article_pdf_pages": [
       98,
       99,
@@ -5114,6 +5114,54 @@
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/source-raster-preparation.json",
       "sha256": "6a002be7d14bf13aa9f564c8bef1246b0a47b4b39d7dc48ae528d303ea5148fc",
       "bytes": 1863
+    },
+    "mapped_pages": [
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+    ],
+    "raw_checkpoint": {
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/raw-ocr-audit.json",
+        "sha256": "35eb28308d3104cbf005ad3cd4b2810b2045674e2e352ad5d0505188a6c2395c",
+        "bytes": 5072
+      },
+      "preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/raw-preservation.json",
+        "sha256": "f73ee0fb09775be3a9357360ec09dd3bc7bcf67f64564c41c7f74f8723ca192c",
+        "bytes": 107007
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/map.json",
+        "sha256": "8926257b818c353410fd2aa9cdfcc47d36d34d5a159554f30caa0c2fa20c3db8",
+        "bytes": 32228
+      },
+      "preflight": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/preflight-acceptance.json",
+        "sha256": "47db6797270be1acaa68acf8b8d6d7b92dc910946c8ac25c92c465e6c10cfcb5",
+        "bytes": 9225
+      },
+      "regions": 107,
+      "text_regions": 86,
+      "figures": 21,
+      "code_regions": 22,
+      "listing_groups": 9,
+      "tables": 1,
+      "qwen_calls": 23,
+      "tesseract_calls": 63,
+      "failed_calls": 0,
+      "retries": 0,
+      "local_qwen_tokens": {
+        "prompt_tokens": 11791,
+        "completion_tokens": 2792,
+        "total_tokens": 14583
+      },
+      "source_correction": "pending",
+      "production_export": "not-created",
+      "human_acceptance": "pending"
     }
   }
 }

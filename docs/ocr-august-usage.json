@@ -1781,6 +1781,70 @@
         "total_tokens": 1120906,
         "uncached_nonwrite_input_tokens": 28382
       }
+    },
+    {
+      "id": "preparation-17-map",
+      "stage": "preparation",
+      "engine": "mixed",
+      "start": "2026-10-12T16:56:43.119201+00:00",
+      "end": "2026-10-12T17:10:32.818104+00:00",
+      "elapsed_seconds": 829.6989030838013,
+      "observed_responses": 42,
+      "tokens": {
+        "input_tokens": 4659616,
+        "cached_input_tokens": 4472448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 21551,
+        "reasoning_output_tokens": 3247,
+        "total_tokens": 4681167,
+        "uncached_nonwrite_input_tokens": 187168
+      }
+    },
+    {
+      "id": "recognition-17",
+      "stage": "mixed-recognition",
+      "engine": "mixed",
+      "start": "2026-10-12T17:10:33.928476+00:00",
+      "end": "2026-10-12T17:13:32.540593+00:00",
+      "elapsed_seconds": 178.61211681365967,
+      "observed_responses": 7,
+      "tokens": {
+        "input_tokens": 1098897,
+        "cached_input_tokens": 1082880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1851,
+        "reasoning_output_tokens": 287,
+        "total_tokens": 1100748,
+        "uncached_nonwrite_input_tokens": 16017
+      }
+    },
+    {
+      "id": "evaluation-17-raw",
+      "stage": "raw-evidence-audit",
+      "engine": "mixed",
+      "start": "2026-10-12T17:13:33.629359+00:00",
+      "end": "2026-10-12T17:14:40.660814+00:00",
+      "elapsed_seconds": 67.03145503997803,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 325822,
+        "cached_input_tokens": 324352,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1637,
+        "reasoning_output_tokens": 301,
+        "total_tokens": 327459,
+        "uncached_nonwrite_input_tokens": 1470
+      }
+    },
+    {
+      "id": "reporting-17-raw",
+      "stage": "raw-checkpoint-recording",
+      "engine": "mixed",
+      "start": "2026-10-12T17:14:41.752196+00:00",
+      "end": "2026-10-12T17:14:43.921568+00:00",
+      "elapsed_seconds": 2.1693718433380127,
+      "observed_responses": 0,
+      "tokens": null
     }
   ],
   "money_cost": null,
@@ -1788,33 +1852,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T16:54:50.286144+00:00",
-    "elapsed_seconds": 46224.28614401817,
-    "observed_responses": 757,
+    "end": "2026-10-12T17:14:43.921568+00:00",
+    "elapsed_seconds": 47417.92156791687,
+    "observed_responses": 812,
     "tokens": {
-      "input_tokens": 105602042,
-      "cached_input_tokens": 102520960,
+      "input_tokens": 112486570,
+      "cached_input_tokens": 109191680,
       "cache_write_input_tokens": 0,
-      "output_tokens": 601583,
-      "reasoning_output_tokens": 157733,
-      "total_tokens": 106203625,
-      "uncached_nonwrite_input_tokens": 3081082
+      "output_tokens": 629077,
+      "reasoning_output_tokens": 162380,
+      "total_tokens": 113115647,
+      "uncached_nonwrite_input_tokens": 3294890
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-12T16:54:50.286144+00:00",
-    "elapsed_seconds": 46224.28614401817,
-    "observed_responses": 81,
+    "end": "2026-10-12T17:14:43.921568+00:00",
+    "elapsed_seconds": 47417.92156791687,
+    "observed_responses": 85,
     "tokens": {
-      "input_tokens": 13044757,
-      "cached_input_tokens": 12815616,
+      "input_tokens": 13844950,
+      "cached_input_tokens": 13606656,
       "cache_write_input_tokens": 0,
-      "output_tokens": 27765,
-      "reasoning_output_tokens": 8747,
-      "total_tokens": 13072522,
-      "uncached_nonwrite_input_tokens": 229141
+      "output_tokens": 30220,
+      "reasoning_output_tokens": 9559,
+      "total_tokens": 13875170,
+      "uncached_nonwrite_input_tokens": 238294
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
