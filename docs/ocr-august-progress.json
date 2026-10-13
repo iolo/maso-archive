@@ -15,16 +15,17 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
+    "assistant-partial-human-pending": 1,
     "assistant-restored-human-pending": 18,
     "sealed-pilot-review-pending": 6,
     "section-heading-no-body": 3,
     "unclassified-heading": 3,
-    "untouched": 13
+    "untouched": 12
   },
   "sealed_pilot_articles": 6,
   "production_complete_articles": 18,
-  "production_partial_articles": 0,
-  "untouched_articles": 13,
+  "production_partial_articles": 1,
+  "untouched_articles": 12,
   "unclassified_heading_entries": 3,
   "classified_heading_entries": 3,
   "human_accepted_articles": 0,
@@ -5543,6 +5544,976 @@
       },
       "tables": [],
       "human_acceptance": "pending"
+    },
+    {
+      "batch": "batch-27",
+      "toc_entry_id": "maso-1984-08-toc-0040",
+      "title": "정보 레이다",
+      "source_pages": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p155r01": "tesseract",
+        "p155r02": "tesseract",
+        "p155r04": "tesseract",
+        "p155r05": "qwen",
+        "p155r06": "tesseract",
+        "p155r07": "qwen",
+        "p155r08": "tesseract",
+        "p155r09": "tesseract",
+        "p155r11": "tesseract",
+        "p156r01": "tesseract",
+        "p156r02": "tesseract",
+        "p156r03": "tesseract",
+        "p156r04": "tesseract",
+        "p156r05": "tesseract",
+        "p156r06": "tesseract",
+        "p156r07": "tesseract",
+        "p157r01": "tesseract",
+        "p157r02": "tesseract",
+        "p157r03": "tesseract",
+        "p157r04": "tesseract",
+        "p157r07": "qwen",
+        "p157r08": "tesseract",
+        "p157r09": "tesseract",
+        "p157r10": "tesseract",
+        "p157r11": "tesseract",
+        "p158r01": "qwen",
+        "p158r02": "tesseract",
+        "p158r03": "tesseract",
+        "p158r05": "qwen",
+        "p158r06": "tesseract",
+        "p158r08": "qwen",
+        "p158r09": "tesseract",
+        "p158r11": "qwen",
+        "p158r12": "tesseract",
+        "p158r13": "tesseract",
+        "p158r14": "qwen",
+        "p158r15": "tesseract",
+        "p158r16": "tesseract",
+        "p158r17": "tesseract",
+        "p158r18": "qwen",
+        "p159r01": "qwen",
+        "p159r02": "tesseract",
+        "p159r03": "tesseract",
+        "p159r04": "tesseract",
+        "p159r06": "tesseract",
+        "p159r07": "tesseract",
+        "p159r08": "tesseract",
+        "p159r09": "tesseract",
+        "p159r10": "tesseract",
+        "p160r01": "tesseract",
+        "p160r02": "tesseract",
+        "p160r03": "tesseract",
+        "p160r04": "tesseract",
+        "p160r05": "tesseract",
+        "p160r06": "tesseract",
+        "p160r07": "tesseract",
+        "p160r08": "tesseract",
+        "p160r09": "tesseract",
+        "p160r10": "tesseract"
+      },
+      "assignment_reason": "T54clearprose/coherent news headings/section labels/tablecaptions. RepresentativeTruledtableprobe corrupts headers/models/values/row associations andomits finalFUNCTION KEYrow, soQfourtables plusstructuredcontactlist. Preserveprobeandnineoriginalfigures. Selecteddraft correctedonce; no wholearticledualcorrection.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-27/radar/article.json",
+          "sha256": "798497978a13880b703f0a4cdab351c7e08b8fcd4a3869df1d52a5d6237dae23",
+          "bytes": 121139
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-27/radar/manifest.json",
+          "sha256": "4e9415134a8cb1e70c4e31014094be64df3f34f749389bad83101ba91ca3cc8e",
+          "bytes": 41508
+        },
+        "source_pages": [
+          155,
+          156,
+          157,
+          158,
+          159,
+          160
+        ],
+        "regions": 68,
+        "text_regions": 59,
+        "figures": 9,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 74,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index-27/source-index.json",
+          "sha256": "ccb6d1a65467d155cfcfbcfddb0846ea94c88a3a4f57f215ba23273df94bb8cb",
+          "bytes": 424727
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/validation.json",
+          "sha256": "0a3ae71536b1ddef21ecb29360134dcf72c19b860f8451fc129dab2dc7fa0982",
+          "bytes": 1528
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/map.json",
+        "sha256": "79c6bda74ace4736e84261da102196be9817511ea6e8380218cf183d97063656",
+        "bytes": 21926
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/source-review-ledger.json",
+        "sha256": "8e5afbba2c25d3454693256a3afc8c86c530bfebfc67bef4c7c38e9f29a9cd74",
+        "bytes": 19296
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 7080,
+        "completion_tokens": 1072,
+        "total_tokens": 8152
+      },
+      "qwen_completed_calls": 10,
+      "qwen_recognition_seconds": 14.02956963100587,
+      "tesseract_recognition_seconds": 18.57828620498185,
+      "preparation_probe_seconds": 0.525085889006732,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T01:59:59.991269+00:00",
+        "finished_at": "2026-10-13T02:00:37.625695+00:00",
+        "elapsed_seconds": 37.634439931978704,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 5,
+          "tesseract_inferences": 54,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 1,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 54,
+          "unselected_preparation_probe_calls": 1,
+          "total_tesseract_calls": 55,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p157r07",
+          "data_rows": 10,
+          "data_cells": 30
+        },
+        {
+          "region_id": "p158r05",
+          "data_rows": 12,
+          "data_cells": 24
+        },
+        {
+          "region_id": "p158r08",
+          "data_rows": 5,
+          "data_cells": 20
+        },
+        {
+          "region_id": "p158r11",
+          "data_rows": 11,
+          "data_cells": 33
+        }
+      ],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 10,
+        "selected_tesseract_regions": 49,
+        "total_qwen_calls": 10,
+        "total_tesseract_calls": 55,
+        "worker_tesseract_calls": 54,
+        "preparation_probe_calls": 1,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 5,
+        "additional_tesseract_calls": 0,
+        "additional_qwen_calls": 5,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 3225,
+          "completion_tokens": 161,
+          "total_tokens": 3386
+        },
+        "decisions": [
+          {
+            "region_id": "p155r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p155r05",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p158r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p158r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p159r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          }
+        ],
+        "elapsed_selection_seconds": 0.08943995498702861,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 10,
+      "total_tesseract_calls": 55,
+      "selected_qwen_regions": 10,
+      "selected_tesseract_regions": 49,
+      "worker_qwen_calls": 5,
+      "worker_tesseract_calls": 54,
+      "preparation_probe_calls": 1,
+      "selected_probe_reuses": 0,
+      "representative_heading_probe_calls": 1,
+      "selected_heading_probe_reuses_without_inference": 1,
+      "additional_qwen_calls": 5,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/raw-preservation.json",
+        "sha256": "fbfa55ea889c43b42edebb9b5a590fc9d2af7079b07c88a4d14d24d67f73c5ca",
+        "bytes": 81385
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-preservation.json",
+        "sha256": "b29620f1b16601a72f8865c4245679c2780ec3b64848220e0892de5ba657f68d",
+        "bytes": 59801
+      },
+      "source_tables": {
+        "tables": [
+          {
+            "table_id": "radar-hyosung-comparison",
+            "region_id": "p157r07",
+            "figure_region_id": "p157r06",
+            "purpose": "Same source crop deliberately retained as authoritative bitmap and separate structured-cell reading; physical rows/merged labels/blanks to be source-audited during correction.",
+            "columns": 3,
+            "header_rows": 1,
+            "physical_rows": [
+              [
+                "기종/항목",
+                "효성 PC-8000",
+                "효성 PC-8000E"
+              ],
+              [
+                "용도",
+                "업무용",
+                "교육용, 가정용"
+              ],
+              [
+                "O/S",
+                "CP/M, APPLE DOS",
+                "APPLE DOS"
+              ],
+              [
+                "CPU",
+                "Z-80 A & 6502",
+                "6502"
+              ],
+              [
+                "RAM",
+                "64KB (최대192KB)",
+                "64KB (192KB)"
+              ],
+              [
+                "ROM",
+                "24KB",
+                "24KB"
+              ],
+              [
+                "DISPLAY 영문",
+                "40자×24줄 (최대80자×24줄)",
+                "40자×24줄 (80자×24줄)"
+              ],
+              [
+                "표시 한글",
+                "20자×12줄 (최대40자×12줄)",
+                "20자×12줄 (최대40자×24줄)"
+              ],
+              [
+                "FDD",
+                "163KB / 대×8대",
+                "163KB·대×8대"
+              ],
+              [
+                "HDD",
+                "5MB, 10MB, 20MB",
+                "5MB, 10MB, 20MB"
+              ],
+              [
+                "FUNCTION KEY",
+                "20개",
+                "-"
+              ]
+            ],
+            "logical_ruled_rows": [
+              {
+                "source_ruled_row": 1,
+                "physical_value_line_numbers": [
+                  1
+                ],
+                "cells": [
+                  "기종/항목",
+                  "효성 PC-8000",
+                  "효성 PC-8000E"
+                ]
+              },
+              {
+                "source_ruled_row": 2,
+                "physical_value_line_numbers": [
+                  2
+                ],
+                "cells": [
+                  "용도",
+                  "업무용",
+                  "교육용, 가정용"
+                ]
+              },
+              {
+                "source_ruled_row": 3,
+                "physical_value_line_numbers": [
+                  3
+                ],
+                "cells": [
+                  "O/S",
+                  "CP/M, APPLE DOS",
+                  "APPLE DOS"
+                ]
+              },
+              {
+                "source_ruled_row": 4,
+                "physical_value_line_numbers": [
+                  4
+                ],
+                "cells": [
+                  "CPU",
+                  "Z-80 A & 6502",
+                  "6502"
+                ]
+              },
+              {
+                "source_ruled_row": 5,
+                "physical_value_line_numbers": [
+                  5
+                ],
+                "cells": [
+                  "RAM",
+                  "64KB (최대192KB)",
+                  "64KB (192KB)"
+                ]
+              },
+              {
+                "source_ruled_row": 6,
+                "physical_value_line_numbers": [
+                  6
+                ],
+                "cells": [
+                  "ROM",
+                  "24KB",
+                  "24KB"
+                ]
+              },
+              {
+                "source_ruled_row": 7,
+                "physical_value_line_numbers": [
+                  7
+                ],
+                "cells": [
+                  "DISPLAY 영문",
+                  "40자×24줄 (최대80자×24줄)",
+                  "40자×24줄 (80자×24줄)"
+                ]
+              },
+              {
+                "source_ruled_row": 8,
+                "physical_value_line_numbers": [
+                  8
+                ],
+                "cells": [
+                  "표시 한글",
+                  "20자×12줄 (최대40자×12줄)",
+                  "20자×12줄 (최대40자×24줄)"
+                ]
+              },
+              {
+                "source_ruled_row": 9,
+                "physical_value_line_numbers": [
+                  9
+                ],
+                "cells": [
+                  "FDD",
+                  "163KB / 대×8대",
+                  "163KB·대×8대"
+                ]
+              },
+              {
+                "source_ruled_row": 10,
+                "physical_value_line_numbers": [
+                  10
+                ],
+                "cells": [
+                  "HDD",
+                  "5MB, 10MB, 20MB",
+                  "5MB, 10MB, 20MB"
+                ]
+              },
+              {
+                "source_ruled_row": 11,
+                "physical_value_line_numbers": [
+                  11
+                ],
+                "cells": [
+                  "FUNCTION KEY",
+                  "20개",
+                  "-"
+                ]
+              }
+            ],
+            "physical_row_count": 11,
+            "logical_ruled_row_count": 11,
+            "physical_field_slots": 33,
+            "logical_field_slots": 33,
+            "physical_blank_slots": 0,
+            "logical_blank_slots": 0,
+            "source_bitmap_authoritative": true,
+            "human_acceptance": "pending"
+          },
+          {
+            "table_id": "radar-typesetter-specifications",
+            "region_id": "p158r05",
+            "figure_region_id": "p158r04",
+            "purpose": "Same source crop deliberately retained as authoritative bitmap and separate structured-cell reading; physical rows/merged labels/blanks to be source-audited during correction.",
+            "columns": 2,
+            "header_rows": 0,
+            "physical_rows": [
+              [
+                "표시색",
+                "17인치 CRT 크기"
+              ],
+              [
+                "표시색",
+                "백색(전면 반전 표시)"
+              ],
+              [
+                "DOT 수",
+                "960×1248 DOT"
+              ],
+              [
+                "서체",
+                "일어: 명조체, 고딕"
+              ],
+              [
+                "",
+                "로마어: 센튜리, 고딕"
+              ],
+              [
+                "문자크기",
+                "6~16 Point"
+              ],
+              [
+                "문자표시 기능",
+                "Revise기능, Blink기능, 고휘도표시기능"
+              ],
+              [
+                "그래픽 기능",
+                "Vector, 원호, 타원, 채색"
+              ],
+              [
+                "Image 처리기능",
+                "편집 축소 확장"
+              ],
+              [
+                "플로피 디스크",
+                "1덱 표준"
+              ],
+              [
+                "키보드",
+                "엄지 Shift 형"
+              ],
+              [
+                "옵션",
+                "Tablet"
+              ]
+            ],
+            "logical_ruled_rows": [
+              {
+                "source_ruled_row": 1,
+                "physical_value_line_numbers": [
+                  1
+                ],
+                "cells": [
+                  "표시색",
+                  "17인치 CRT 크기"
+                ]
+              },
+              {
+                "source_ruled_row": 2,
+                "physical_value_line_numbers": [
+                  2
+                ],
+                "cells": [
+                  "표시색",
+                  "백색(전면 반전 표시)"
+                ]
+              },
+              {
+                "source_ruled_row": 3,
+                "physical_value_line_numbers": [
+                  3
+                ],
+                "cells": [
+                  "DOT 수",
+                  "960×1248 DOT"
+                ]
+              },
+              {
+                "source_ruled_row": 4,
+                "physical_value_line_numbers": [
+                  4
+                ],
+                "cells": [
+                  "서체",
+                  "일어: 명조체, 고딕"
+                ]
+              },
+              {
+                "source_ruled_row": 5,
+                "physical_value_line_numbers": [
+                  5
+                ],
+                "cells": [
+                  "",
+                  "로마어: 센튜리, 고딕"
+                ]
+              },
+              {
+                "source_ruled_row": 6,
+                "physical_value_line_numbers": [
+                  6
+                ],
+                "cells": [
+                  "문자크기",
+                  "6~16 Point"
+                ]
+              },
+              {
+                "source_ruled_row": 7,
+                "physical_value_line_numbers": [
+                  7
+                ],
+                "cells": [
+                  "문자표시 기능",
+                  "Revise기능, Blink기능, 고휘도표시기능"
+                ]
+              },
+              {
+                "source_ruled_row": 8,
+                "physical_value_line_numbers": [
+                  8
+                ],
+                "cells": [
+                  "그래픽 기능",
+                  "Vector, 원호, 타원, 채색"
+                ]
+              },
+              {
+                "source_ruled_row": 9,
+                "physical_value_line_numbers": [
+                  9
+                ],
+                "cells": [
+                  "Image 처리기능",
+                  "편집 축소 확장"
+                ]
+              },
+              {
+                "source_ruled_row": 10,
+                "physical_value_line_numbers": [
+                  10
+                ],
+                "cells": [
+                  "플로피 디스크",
+                  "1덱 표준"
+                ]
+              },
+              {
+                "source_ruled_row": 11,
+                "physical_value_line_numbers": [
+                  11
+                ],
+                "cells": [
+                  "키보드",
+                  "엄지 Shift 형"
+                ]
+              },
+              {
+                "source_ruled_row": 12,
+                "physical_value_line_numbers": [
+                  12
+                ],
+                "cells": [
+                  "옵션",
+                  "Tablet"
+                ]
+              }
+            ],
+            "physical_row_count": 12,
+            "logical_ruled_row_count": 12,
+            "physical_field_slots": 24,
+            "logical_field_slots": 24,
+            "physical_blank_slots": 1,
+            "logical_blank_slots": 1,
+            "source_bitmap_authoritative": true,
+            "human_acceptance": "pending"
+          },
+          {
+            "table_id": "radar-image-reader-specifications",
+            "region_id": "p158r08",
+            "figure_region_id": "p158r07",
+            "purpose": "Same source crop deliberately retained as authoritative bitmap and separate structured-cell reading; physical rows/merged labels/blanks to be source-audited during correction.",
+            "columns": 4,
+            "header_rows": 1,
+            "physical_rows": [
+              [
+                "",
+                "",
+                "FACOM 2555B",
+                "FACOM2554A에내장"
+              ],
+              [
+                "독해",
+                "독해속도",
+                "약12초/매(A4판)",
+                "약10초/매(A4판)"
+              ],
+              [
+                "",
+                "사선밀도",
+                "480 Dot/Inch",
+                "240 Dot/Inch"
+              ],
+              [
+                "",
+                "입력화상",
+                "흑백",
+                "흑백"
+              ],
+              [
+                "입력용지",
+                "용지크기",
+                "최대 A4판",
+                "최대 A4판"
+              ],
+              [
+                "입력방법",
+                "",
+                "Flat Bed법",
+                "원고대 이동방법"
+              ]
+            ],
+            "logical_ruled_rows": [
+              {
+                "source_ruled_row": 1,
+                "physical_value_line_numbers": [
+                  1
+                ],
+                "cells": [
+                  "",
+                  "",
+                  "FACOM 2555B",
+                  "FACOM2554A에내장"
+                ]
+              },
+              {
+                "source_ruled_row": 2,
+                "physical_value_line_numbers": [
+                  2
+                ],
+                "cells": [
+                  "독해",
+                  "독해속도",
+                  "약12초/매(A4판)",
+                  "약10초/매(A4판)"
+                ]
+              },
+              {
+                "source_ruled_row": 3,
+                "physical_value_line_numbers": [
+                  3
+                ],
+                "cells": [
+                  "",
+                  "사선밀도",
+                  "480 Dot/Inch",
+                  "240 Dot/Inch"
+                ]
+              },
+              {
+                "source_ruled_row": 4,
+                "physical_value_line_numbers": [
+                  4
+                ],
+                "cells": [
+                  "",
+                  "입력화상",
+                  "흑백",
+                  "흑백"
+                ]
+              },
+              {
+                "source_ruled_row": 5,
+                "physical_value_line_numbers": [
+                  5
+                ],
+                "cells": [
+                  "입력용지",
+                  "용지크기",
+                  "최대 A4판",
+                  "최대 A4판"
+                ]
+              },
+              {
+                "source_ruled_row": 6,
+                "physical_value_line_numbers": [
+                  6
+                ],
+                "cells": [
+                  "입력방법",
+                  "",
+                  "Flat Bed법",
+                  "원고대 이동방법"
+                ]
+              }
+            ],
+            "physical_row_count": 6,
+            "logical_ruled_row_count": 6,
+            "physical_field_slots": 24,
+            "logical_field_slots": 24,
+            "physical_blank_slots": 5,
+            "logical_blank_slots": 5,
+            "source_bitmap_authoritative": true,
+            "human_acceptance": "pending"
+          },
+          {
+            "table_id": "radar-printer-specifications",
+            "region_id": "p158r11",
+            "figure_region_id": "p158r10",
+            "purpose": "Same source crop deliberately retained as authoritative bitmap and separate structured-cell reading; physical rows/merged labels/blanks to be source-audited during correction.",
+            "columns": 3,
+            "header_rows": 0,
+            "physical_rows": [
+              [
+                "인자방식",
+                "",
+                "반도체 레이저 비임 기입의 건식 전자사진 방식"
+              ],
+              [
+                "인쇄밀도",
+                "",
+                "240 Dot/Inch (FACOM 2554A)"
+              ],
+              [
+                "",
+                "",
+                "480 Dot/Inch (FACOM 2554B)"
+              ],
+              [
+                "인쇄속도",
+                "",
+                "최대 20매/분 (A4판) (FACOM 2554A)"
+              ],
+              [
+                "",
+                "",
+                "최대 8매/분 (A4판) (FACOM 2554B)"
+              ],
+              [
+                "서체",
+                "",
+                "일어: 명조체 고딕"
+              ],
+              [
+                "",
+                "",
+                "로마어: 센튜리, 고딕"
+              ],
+              [
+                "문자크기",
+                "",
+                "6~32 Point"
+              ],
+              [
+                "용지",
+                "용지종류",
+                "지정지 (연량 60kg)"
+              ],
+              [
+                "",
+                "용지크기",
+                "A4, B4, A5, B5 판"
+              ],
+              [
+                "",
+                "합지",
+                "2단 카세트 합지 방식"
+              ]
+            ],
+            "logical_ruled_rows": [
+              {
+                "source_ruled_row": 1,
+                "physical_value_line_numbers": [
+                  1
+                ],
+                "cells": [
+                  "인자방식",
+                  "",
+                  "반도체 레이저 비임 기입의 건식 전자사진 방식"
+                ]
+              },
+              {
+                "source_ruled_row": 2,
+                "physical_value_line_numbers": [
+                  2,
+                  3
+                ],
+                "cells": [
+                  "인쇄밀도",
+                  "",
+                  "240 Dot/Inch (FACOM 2554A)\n480 Dot/Inch (FACOM 2554B)"
+                ]
+              },
+              {
+                "source_ruled_row": 3,
+                "physical_value_line_numbers": [
+                  4
+                ],
+                "cells": [
+                  "인쇄속도",
+                  "",
+                  "최대 20매/분 (A4판) (FACOM 2554A)"
+                ]
+              },
+              {
+                "source_ruled_row": 4,
+                "physical_value_line_numbers": [
+                  5
+                ],
+                "cells": [
+                  "",
+                  "",
+                  "최대 8매/분 (A4판) (FACOM 2554B)"
+                ]
+              },
+              {
+                "source_ruled_row": 5,
+                "physical_value_line_numbers": [
+                  6,
+                  7
+                ],
+                "cells": [
+                  "서체",
+                  "",
+                  "일어: 명조체 고딕\n로마어: 센튜리, 고딕"
+                ]
+              },
+              {
+                "source_ruled_row": 6,
+                "physical_value_line_numbers": [
+                  8
+                ],
+                "cells": [
+                  "문자크기",
+                  "",
+                  "6~32 Point"
+                ]
+              },
+              {
+                "source_ruled_row": 7,
+                "physical_value_line_numbers": [
+                  9
+                ],
+                "cells": [
+                  "용지",
+                  "용지종류",
+                  "지정지 (연량 60kg)"
+                ]
+              },
+              {
+                "source_ruled_row": 8,
+                "physical_value_line_numbers": [
+                  10
+                ],
+                "cells": [
+                  "",
+                  "용지크기",
+                  "A4, B4, A5, B5 판"
+                ]
+              },
+              {
+                "source_ruled_row": 9,
+                "physical_value_line_numbers": [
+                  11
+                ],
+                "cells": [
+                  "",
+                  "합지",
+                  "2단 카세트 합지 방식"
+                ]
+              }
+            ],
+            "physical_row_count": 11,
+            "logical_ruled_row_count": 9,
+            "physical_field_slots": 33,
+            "logical_field_slots": 27,
+            "physical_blank_slots": 13,
+            "logical_blank_slots": 9,
+            "source_bitmap_authoritative": true,
+            "human_acceptance": "pending"
+          }
+        ],
+        "physical_rows": 40,
+        "logical_ruled_rows": 38,
+        "header_rows": 2,
+        "physical_field_slots": 114,
+        "logical_field_slots": 108,
+        "physical_blank_slots": 19,
+        "logical_blank_slots": 15,
+        "human_acceptance": "pending"
+      },
+      "source_news_items": 15,
+      "source_contact_fields": 7,
+      "correction_recovery": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-recovery.json",
+        "sha256": "ac07c07ceb7f284f5ce14589a1e0ddf7a8aeed7d06625ee824983ab007d93006",
+        "bytes": 1126
+      },
+      "usage_limitation": "All10Q calls include5 worker and5 bounded heading alternates; first heading probe reused without new inference. All55T calls include54 worker calls andone unselected table probe. Selected49T/10Q source-corrected once; one unsupported assistant duplication retracted with its original proposal preserved. All attempts counted once; runtime/model tokens have zero monetary weight. Human acceptance, full proofreading, source bytes and historical claims unverified."
     }
   ],
   "assemblies": [
@@ -9017,9 +9988,43 @@
       "page": 155,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-partial-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-27",
+          "source_pages": [
+            155,
+            156,
+            157,
+            158,
+            159,
+            160
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-27/radar/article.json",
+            "sha256": "798497978a13880b703f0a4cdab351c7e08b8fcd4a3869df1d52a5d6237dae23",
+            "bytes": 121139
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "deferred_pdf_pages": [
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "assembly_required": true
     },
     {
       "id": "maso-1984-08-toc-0041",
@@ -9064,8 +10069,8 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 27,
-    "status": "information-radar155-160-source-correction-in-progress",
+    "batch": 28,
+    "status": "information-radar161-165-source-inspection-pending",
     "toc_entry_id": "maso-1984-08-toc-0040",
     "canonical_title": "정보 레이다",
     "canonical_byline": null,
@@ -9085,49 +10090,57 @@
       164,
       165
     ],
-    "provisional_opening_map_pages": [
-      155,
-      156,
-      157,
-      158,
-      159,
-      160
+    "source_pages": [
+      161,
+      162,
+      163,
+      164,
+      165
     ],
-    "last_completed_article": {
-      "batch": 26,
-      "toc_entry_id": "maso-1984-08-toc-0020",
+    "deferred_pdf_pages": [
+      161,
+      162,
+      163,
+      164,
+      165
+    ],
+    "previous_goal_turn_classification": "progress: batch27 corrected all59 selected drafts from19 individually inspected panels; exported/independently validated opening155–160 with15 news candidates,4 tables/114 physical cell slots,9 images and15 prose boundaries. Original/selected inventories,36 prior production packages and16,790 pilot files unchanged.",
+    "opening_native": {
+      "batch": 27,
       "source_pages": [
-        141,
-        142,
-        143,
-        144,
-        145
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
       ],
       "export": {
         "package": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-26/japan-microcomputers/article.json",
-          "sha256": "0594424c42dc01e889d72e178ac0962ce7be2bf46e2ebc3f9d045e2f98000349",
-          "bytes": 92705
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-27/radar/article.json",
+          "sha256": "798497978a13880b703f0a4cdab351c7e08b8fcd4a3869df1d52a5d6237dae23",
+          "bytes": 121139
         },
         "manifest": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-26/japan-microcomputers/manifest.json",
-          "sha256": "72a0e475a21255b18632a24b7af8c9f506ba2b073a093b09d99591d875e285cf",
-          "bytes": 31367
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-27/radar/manifest.json",
+          "sha256": "4e9415134a8cb1e70c4e31014094be64df3f34f749389bad83101ba91ca3cc8e",
+          "bytes": 41508
         },
         "source_pages": [
-          141,
-          142,
-          143,
-          144,
-          145
+          155,
+          156,
+          157,
+          158,
+          159,
+          160
         ],
-        "regions": 52,
-        "text_regions": 44,
-        "figures": 8,
+        "regions": 68,
+        "text_regions": 59,
+        "figures": 9,
         "physical_listing_rows": 0,
         "logical_listing_rows": 0,
-        "unresolved_entries": 38,
-        "complete_article": true,
+        "unresolved_entries": 74,
+        "complete_article": false,
         "checks": {
           "export_integrity": true,
           "byte_identical_rebuild": true,
@@ -9137,95 +10150,133 @@
         },
         "human_acceptance": "pending",
         "source_index": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-japan-microcomputers-source-index-26/source-index.json",
-          "sha256": "5579dadc017817bbc5ffe79ea21656ce4063fce4b63ef24ec17b44f0f730db5c",
-          "bytes": 119048
+          "path": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index-27/source-index.json",
+          "sha256": "ccb6d1a65467d155cfcfbcfddb0846ea94c88a3a4f57f215ba23273df94bb8cb",
+          "bytes": 424727
         },
         "source_validation": {
-          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/validation.json",
-          "sha256": "4c6bac5d5c98068f323e94b51ff2e1bb7b533fdc5d204b1843c4412b550a412b",
-          "bytes": 1070
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/validation.json",
+          "sha256": "0a3ae71536b1ddef21ecb29360134dcf72c19b860f8451fc129dab2dc7fa0982",
+          "bytes": 1528
         }
       },
-      "validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/validation.json",
-        "sha256": "4c6bac5d5c98068f323e94b51ff2e1bb7b533fdc5d204b1843c4412b550a412b",
-        "bytes": 1070
+      "review_spec": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/review-spec.json",
+        "sha256": "725a7c5c0a97c00306e55a4b04094022bbbe16511ad064b683a83560f0f50652",
+        "bytes": 41877
+      },
+      "news_ownership": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/source-news-ownership.json",
+        "sha256": "eb59d33b4be5175069073e33dacdfd7ce05096bdfe53529306c1d0be1b17099c",
+        "bytes": 8254
+      },
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/raw-preservation.json",
+        "sha256": "fbfa55ea889c43b42edebb9b5a590fc9d2af7079b07c88a4d14d24d67f73c5ca",
+        "bytes": 81385
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-preservation.json",
+        "sha256": "b29620f1b16601a72f8865c4245679c2780ec3b64848220e0892de5ba657f68d",
+        "bytes": 59801
       }
     },
-    "previous_goal_turn_classification": "progress: verified immutable original675/selected416 raw files; individually inspected correction panels01–05 and corrected16 selected drafts once against source with22 source-linked uncertainty records. No new OCR or export.",
-    "human_acceptance": "pending",
-    "reading_room_rebuild": false,
-    "action": "Resume source correction at panel06/page157; reuse correction-part-01.json and do not repeat its sixteen completed regions. Correct remaining43 selected drafts against panels06–19 once, including empty p160r05 visible 나라밖 소식 label. Then prepare source table/news/continuation indexes and independently validate opening155–160 JSON/assets export. Restore ending161–165 and assemble full radar155–165 afterward; continue remaining August articles/pilots/headings/issue closeout. No reading-room rebuild.",
-    "source_pages": [
-      155,
-      156,
-      157,
-      158,
-      159,
-      160
-    ],
-    "deferred_pdf_pages": [
-      161,
-      162,
-      163,
-      164,
-      165
-    ],
     "extent_inspection": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent-inspection.json",
       "sha256": "19b9b1354a2f1ad90f6e7d94690a495308b1709568ee46ed33b3eddb90383f51",
       "bytes": 10676
     },
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/preflight-acceptance.json",
-      "sha256": "804891d7e67d2d34524de3081dd0f148549b0930e5332d8a5aa41fd033506385",
-      "bytes": 644
-    },
-    "raw_selected_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-audit.json",
-      "sha256": "2977b6f084bcbdbcaadacc9e90dfa584ca815156d81716123dca066d5014a903",
-      "bytes": 1879
-    },
-    "raw_original_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/raw-preservation.json",
-      "sha256": "fbfa55ea889c43b42edebb9b5a590fc9d2af7079b07c88a4d14d24d67f73c5ca",
-      "bytes": 81385
-    },
-    "raw_selected_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-preservation.json",
-      "sha256": "b29620f1b16601a72f8865c4245679c2780ec3b64848220e0892de5ba657f68d",
-      "bytes": 59801
-    },
-    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-27/ocr-selected",
-    "regions": 68,
-    "text_regions": 59,
-    "figures": 9,
-    "selected_tesseract_regions": 49,
-    "selected_qwen_regions": 10,
-    "actual_tesseract_calls": 55,
-    "actual_qwen_calls": 10,
-    "correction": "in-progress",
-    "production_export_created": false,
-    "corrected_text_regions": 16,
-    "remaining_text_regions": 43,
-    "panels_corrected": [
-      1,
-      2,
-      3,
-      4,
-      5
+    "existing_whole_views": [
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-154.png",
+        "sha256": "4a2fe928c106ea1e5ee6a06c376a8c660134955c2cb8834c7743d206aec70567",
+        "bytes": 1466244
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-155.png",
+        "sha256": "6c517ec87b700ddf816ee89cad81712e4188b41b8a03baf9d5ad08d89034ffc7",
+        "bytes": 859306
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-156.png",
+        "sha256": "123bcafc64f9da1d4d703e857e7b6cacd4e657b342c49ef844acd926077bb24d",
+        "bytes": 927633
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-157.png",
+        "sha256": "d076e31e128f7dcff22c63056319e491e2e446d8288a4b90ba2c5aacd0677819",
+        "bytes": 905273
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-158.png",
+        "sha256": "84162ab95260cd5ce3374fb7c59c24611e3c47caf12ff795ed8b2f10a097a3ec",
+        "bytes": 763990
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-159.png",
+        "sha256": "b1eebbaae217114df97e1dfa6e29b5efe014d66f0ac587e6d2e18975f26460c1",
+        "bytes": 819246
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-160.png",
+        "sha256": "9846bd9190b6f21969895e7a20ceb6a232b53e8e401b9bcdcaddeaaff510c691",
+        "bytes": 865854
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-161.png",
+        "sha256": "e93dc5595bdc40d67eec7af8a997360a113c0a2cdaf1d6cbe432011b41efedf0",
+        "bytes": 856796
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-162.png",
+        "sha256": "a4c26cd3b312c479f392881c214a77b9ff57b69f5bf6c9d341227d766842e10b",
+        "bytes": 898374
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-163.png",
+        "sha256": "f7a93d94fb5792f28972c55dd2852e84282e3687416c4f6525daf2a6bac4119b",
+        "bytes": 864578
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-164.png",
+        "sha256": "17892ff1b42a64f92a1a09a085177da102a5440c88bf5988fc662472447a960a",
+        "bytes": 861726
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-165.png",
+        "sha256": "1eca78e432541df9f38fc82e45b54808e6df531b8add35c4b6fce2e62f54c806",
+        "bytes": 931116
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-166.png",
+        "sha256": "d6544c8a6f44b894831b897f9f60e6a2137480b793d6020b1aae5a7cfe439ee0",
+        "bytes": 757881
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-167.png",
+        "sha256": "2cd908eb90d244caf5f7d4289b3bdabed52c4233fc97fa933a9dc23f3aa13aeb",
+        "bytes": 458915
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-168.png",
+        "sha256": "772173f63c7004b59086a0d131e0a0b6cb1c242bac2ba60cdf24a5b326bb7ef4",
+        "bytes": 555022
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-169.png",
+        "sha256": "7927ead3cc3a15c8745191efccbdc896a386b51dd609de485949d0d54f4b83a8",
+        "bytes": 765847
+      },
+      {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-170.png",
+        "sha256": "b9ee1295b20a15c3e90ee6d1be3ea58ce354bb0cf7abf63e6346c9506cdbfa73",
+        "bytes": 661136
+      }
     ],
-    "correction_work": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-work.json",
-      "sha256": "011445561b16dfe64f2632e6622a660fe320cdd5fa2b5019a6ad6591044f7be4",
-      "bytes": 20351
-    },
-    "correction_validation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part01-validation.json",
-      "sha256": "fc0c10eed965e2631933e7065c70b1853bfca7b3bade6e0e0d1cffa1310fad85",
-      "bytes": 1020
-    }
+    "action": "Reuse exact full155–165 extent and17 existing154–170 whole-page scans; reinspect161–165 and166 boundary before mapping native28. Restore nine new foreign news items16–24 plus natural-language news15 continuation163, keeping independent items161–162 between160 and163. Preserve23 continuation164/165 and finalUSA/endmark165. Inspect/reroute coherent regions adaptively, preserving original images, source values/glyphs and all raw attempts; selected drafts corrected once. Export/index/independently validate ending161–165, commit, then separately assemble full155–165 from exact opening27/ending28 pins. Continue remaining August articles/pilots/headings and standalone JSON/assets closeout. No reading-room rebuild.",
+    "full_radar_assembly_required": true,
+    "human_acceptance": "pending",
+    "reading_room_rebuild": false
   },
   "raw_preparation_checkpoints": [
     {
@@ -9834,7 +10885,7 @@
     {
       "batch": "batch-27",
       "toc_entry_id": "maso-1984-08-toc-0040",
-      "status": "selected-raw-complete-source-correction-in-progress",
+      "status": "selected-source-corrected-export-validated",
       "source_pages": [
         155,
         156,
@@ -9954,8 +11005,12 @@
       },
       "additional_heading_worker_seconds": 13.350007695989916,
       "selection_seconds": 0.08943995498702861,
-      "source_correction": "in-progress",
-      "production_export": null,
+      "source_correction": "complete-once",
+      "production_export": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-27/radar/article.json",
+        "sha256": "798497978a13880b703f0a4cdab351c7e08b8fcd4a3869df1d52a5d6237dae23",
+        "bytes": 121139
+      },
       "full_assembly_required": true,
       "human_acceptance": "pending",
       "local_monetary_weight": 0,
@@ -9964,18 +11019,55 @@
         "cached": 0.1
       },
       "output_rate": null,
-      "scope": "Selected drafts preserved; first sixteen text regions/pages155–156 corrected once against five source panels. Forty-three selected drafts remain. No production export or restoration-count change; human acceptance pending.",
-      "source_corrected_text_regions": 16,
-      "remaining_source_correction_regions": 43,
+      "scope": "Opening155–160 source-corrected and independently validated; forty-four blocks, nine original images, fifteen news candidates, four source tables and seven contact fields retained. Ending161–165 and full radar assembly required. Human acceptance remains pending.",
+      "source_corrected_text_regions": 59,
+      "remaining_source_correction_regions": 0,
       "source_correction_validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part01-validation.json",
-        "sha256": "fc0c10eed965e2631933e7065c70b1853bfca7b3bade6e0e0d1cffa1310fad85",
-        "bytes": 1020
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/validation.json",
+        "sha256": "0a3ae71536b1ddef21ecb29360134dcf72c19b860f8451fc129dab2dc7fa0982",
+        "bytes": 1528
       },
       "source_correction_part": {
         "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part-01.json",
         "sha256": "7b8a1acaaf0db88257bab1d55c1cb6b078c182ea41a860b88654b5364f14e7ba",
         "bytes": 12796
+      },
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index-27/source-index.json",
+        "sha256": "ccb6d1a65467d155cfcfbcfddb0846ea94c88a3a4f57f215ba23273df94bb8cb",
+        "bytes": 424727
+      },
+      "correction_recovery": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-recovery.json",
+        "sha256": "ac07c07ceb7f284f5ce14589a1e0ddf7a8aeed7d06625ee824983ab007d93006",
+        "bytes": 1126
+      },
+      "source_correction_parts": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part-01.json",
+          "sha256": "7b8a1acaaf0db88257bab1d55c1cb6b078c182ea41a860b88654b5364f14e7ba",
+          "bytes": 12796
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part-02.json",
+          "sha256": "449c8523c7e5506a334bea7e0c1383468e32303abbd226c0c5ba031fbc59824c",
+          "bytes": 7646
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part-03.json",
+          "sha256": "07f5ec3f4acf52f5e08f61acb50466b04f351dafadf1a2e72d207632acbc3e6d",
+          "bytes": 8582
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part-04.json",
+          "sha256": "4237404207211de586a52260b8e835c809a8c2a2e840b3e6a617fa105abe2357",
+          "bytes": 13395
+        }
+      ],
+      "source_correction_work": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-work.json",
+        "sha256": "bed5703e4c33cbcdf262f7fc9ca3d5b3c7e75cf90a738eb020d8ddb700f51034",
+        "bytes": 69565
       }
     }
   ]

@@ -3630,3 +3630,38 @@ commit code/documentation. Do not count a partial opening as a complete article.
   the full radar. No new OCR or production export; restoration counts remain
   unchanged and human acceptance is pending. Reporting/commit usage carries
   into the next audit. No reading-room rebuild.
+
+### August radar opening155–160 validated, 2026-10-13
+
+- Completed all59 selected source corrections after nineteen individually viewed
+  panels. The JSON/assets opening contains44 ordered text blocks, nine original
+  images, three source captions and74 source-linked uncertainty records. Nine
+  prose joins preserve fifteen adjacent boundaries. Human acceptance remains
+  pending; this is a partial opening of verified full155–165.
+- Fifteen news candidates retain fourteen complete domestic items and the first
+  foreign item opening. Its natural-language discussion continues163 around five
+  independent items161–162, without an invented cross-page word join. Four
+  specification tables retain40 printed candidate rows/114 field slots/19 blanks;
+  source geometry has38 ruled rows/108 logical slots/15 blanks, including two
+  headers. Printer density/font multiline cells remain distinct from the ruled
+  speed rows. Seven contact fields span eight printed lines. Original table
+  bitmaps, spellings, apparent mistakes and historical claims remain authoritative.
+- Recovered emptyOCR 나라밖 소식 directly from its scan. Native source confirms
+  키콤 and 화콤코리아, superseding earlier extent shorthand without changing that
+  evidence. One unsupported assistant duplication of 불구하고 was retracted;
+  its initial proposal and recovery remain preserved. No new recognition calls.
+- Complete regional/review/news/table/contact UTF-8 ranges, source crop pixels,
+  coverage/ownership and existing news/reference projections pass. Independent
+  rebuild is byte-identical. All36 prior packages, native15–27 raw/selected seals
+  and16,790 pilot files remain unchanged. Production accounting includes all
+  original55T/tenQ calls and8,152 local Q tokens once; local monetary weight zero.
+  Paid uncached/cached input remains1:0.1, output rate and human effort unknown.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-27/radar`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-radar-source-index-27`.
+  Validation: `private/pdf-restoration/13-1984-08-adaptive/batch-27/validation.json`.
+- August now18 complete, one partial,12 untouched bodies, six pilot selections
+  pending and three classified/three unclassified headings; human accepted zero.
+  Native28 restores161–165 from the pinned extent, then a separate full radar
+  assembly follows exact native27/28 pins. Remaining articles/pilots/headings and
+  whole-issue JSON/assets closeout remain. No reading-room rebuild; reporting and
+  commit usage after the audit cutoff carries into the next audit.
