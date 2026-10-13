@@ -13588,3 +13588,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   All186–194 source pages now covered in two immutable segments; fulldepartment
   assembly is next. Other bodies,pilots,headings and standaloneissueJSON/assets
   closeout remain required. No reading-room rebuild. Goal remains active.
+
+
+## 2026-10-13 — August full 메아리186–194 assembled
+
+- Assembled full 메아리186–194 from exact native32 disassembler186–188 and
+  native33 equation/keyboard-cat189–194 exports after ending commitfa701cd.
+  All341 native files are copied byte-identically,including original corrections
+  and all source metadata. Three distinct contribution titles/bylines remain
+  source content; canonical0041/title/nullbyline/parent0036/page186 unchanged.
+  Only two segment-scope gaps are resolved; no cross-native prose or listing join.
+- Full JSON/assets export retains92 regions,77 regional readings/review ranges,
+  74 ordered text blocks and15 original images. Three native prose joins and four
+  source continuations interrupted by displays remain. Program prose endmark189
+  remains separate from program ending193; keyboard-cat194 retains terminal mark.
+  Five dump panels/five BASIC panels/patch/keytable/three endmarks preserved.
+- Seven independent listing groups retain574 physical rows:288 unnumbered
+  examples/dump rows,280 numbered rows and six wraps. Equation program272numbered
+  rows1000–3710 and patch eightlabels/14physicalrows remain literal. Listing bytes
+  exactly equal native concatenation; printed openquotes,U9/U8,3105 and -16/368
+  wraps retained without executable joining,arithmetic/checksum or syntax repair.
+- Full source index projects277 dump rows and2,770 cells into combinedarticle
+  andlisting:276data rows/2,760datacells plus oneheader/tenheadercells. Exact figure,
+  region,row andphysical-line associations remain. Key table preserves four data
+  rows/eightdata cells,oneheader/twoheadercells,zero blanks and Unicode arrow
+  reading candidates. All77 regional ranges,20 inline examples and73 sourceflags
+  project exactly; original native metadata remains unchanged and inspectable.
+- Independent fullcoverage/canonical/range/physical-logical partition checks and
+  byte-identical full rebuild pass. All46 prior production packages,native15–33
+  raw/selected seals and16,790pilot files remain unchanged. No new OCR,mapping,
+  rasterization or sharedpipeline work during assembly; native recognition costs
+  remain counted once. Unchanged132-test PDF baseline reused. Localcompute/tokens
+  monetaryweight0; paidinput1:0.1,output rate and activehuman effort unknown.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/echo`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-echo-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/echo-assembly-validation.json`.
+  August now has23 complete assistant restorations,zero partials,nine untouched
+  bodies,five pending pilots,three classified/three unclassified headings and
+  zero human accepted. Forty-seven packages comprise33natives/11assemblies/three
+  production selections. Next verify PIAseries2 sourceextent from196 and promote
+  sealedaug-06 into a separate production revision;200 is only a boundary hint.
+  Remaining bodies,pilots,headings and standaloneissueJSON/assetscloseout required.
+  Full proofreading/sourceencodedbytes/execution remain unverified. No reading-room
+  rebuild. Goal remains active.

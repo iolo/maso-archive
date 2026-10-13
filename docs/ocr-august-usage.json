@@ -4341,6 +4341,70 @@
         "total_tokens": 327085,
         "uncached_nonwrite_input_tokens": 4564
       }
+    },
+    {
+      "id": "echo-assembly-preparation",
+      "stage": "preparation",
+      "engine": "adaptive",
+      "start": "2026-10-13T09:30:04.298146+00:00",
+      "end": "2026-10-13T09:30:06.691158+00:00",
+      "elapsed_seconds": 2.393012046813965,
+      "observed_responses": 0,
+      "tokens": null
+    },
+    {
+      "id": "echo-assembly-export",
+      "stage": "export",
+      "engine": "adaptive",
+      "start": "2026-10-13T09:30:06.729111+00:00",
+      "end": "2026-10-13T09:30:59.094763+00:00",
+      "elapsed_seconds": 52.365652084350586,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 357276,
+        "cached_input_tokens": 353152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 895,
+        "reasoning_output_tokens": 413,
+        "total_tokens": 358171,
+        "uncached_nonwrite_input_tokens": 4124
+      }
+    },
+    {
+      "id": "echo-assembly-validation",
+      "stage": "validation",
+      "engine": "adaptive",
+      "start": "2026-10-13T09:30:59.131500+00:00",
+      "end": "2026-10-13T09:34:32.255164+00:00",
+      "elapsed_seconds": 213.12366390228271,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 553507,
+        "cached_input_tokens": 546432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6744,
+        "reasoning_output_tokens": 932,
+        "total_tokens": 560251,
+        "uncached_nonwrite_input_tokens": 7075
+      }
+    },
+    {
+      "id": "echo-assembly-reporting",
+      "stage": "reporting",
+      "engine": "adaptive",
+      "start": "2026-10-13T09:34:32.295000+00:00",
+      "end": "2026-10-13T09:35:30.044289+00:00",
+      "elapsed_seconds": 57.74928903579712,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 188521,
+        "cached_input_tokens": 186240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1530,
+        "reasoning_output_tokens": 283,
+        "total_tokens": 190051,
+        "uncached_nonwrite_input_tokens": 2281
+      }
     }
   ],
   "money_cost": null,
@@ -4348,33 +4412,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T09:27:56.174660+00:00",
-    "elapsed_seconds": 105810.17465996742,
-    "observed_responses": 2887,
+    "end": "2026-10-13T09:35:30.044289+00:00",
+    "elapsed_seconds": 106264.04428911209,
+    "observed_responses": 2897,
     "tokens": {
-      "input_tokens": 397226895,
-      "cached_input_tokens": 386813440,
+      "input_tokens": 399002163,
+      "cached_input_tokens": 388562304,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1909027,
-      "reasoning_output_tokens": 465928,
-      "total_tokens": 399135922,
-      "uncached_nonwrite_input_tokens": 10413455
+      "output_tokens": 1920619,
+      "reasoning_output_tokens": 468235,
+      "total_tokens": 400922782,
+      "uncached_nonwrite_input_tokens": 10439859
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T09:27:56.174660+00:00",
-    "elapsed_seconds": 105810.17465996742,
-    "observed_responses": 309,
+    "end": "2026-10-13T09:35:30.044289+00:00",
+    "elapsed_seconds": 106264.04428911209,
+    "observed_responses": 313,
     "tokens": {
-      "input_tokens": 46411893,
-      "cached_input_tokens": 45543808,
+      "input_tokens": 47087857,
+      "cached_input_tokens": 46206848,
       "cache_write_input_tokens": 0,
-      "output_tokens": 123056,
-      "reasoning_output_tokens": 29615,
-      "total_tokens": 46534949,
-      "uncached_nonwrite_input_tokens": 868085
+      "output_tokens": 125479,
+      "reasoning_output_tokens": 30294,
+      "total_tokens": 47213336,
+      "uncached_nonwrite_input_tokens": 881009
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
@@ -4386,5 +4450,5 @@
   },
   "output_rate": null,
   "human_active_review_seconds": null,
-  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison. The medical assembly export window includes an intervening status turn and is not active human effort. VISICALC production selection reuses sealed pilot recognition/corrections without counting inference or correction again. preparation32 and correction32 remained open through unfinished turns and subsequent user status/continuation handoffs; elapsed durations include those gaps and are not active preparation/correction or human effort. Native32 records21original/eightboundedalternateQcalls plus14originalTcalls once; selected6T/29Q correctedonce, exported and independentlyvalidated without newOCR. Reporting/commit after cutoff carries into the next audit. Native33 counts21originalQ/21originalT plus3boundedQ/2boundedT alternates once; selected24Q/18T remain source-correction pending. Two preparation failures and one audit-template recovery caused no repeated recognition. reporting33-raw includes the intervening compaction/status handoff and is not active human effort. Commit/response after this cutoff carries forward. Native33 source correction now completed once against42 text crops/nine source images, exported189–194 and independently validated with no newOCR; all24Q/23T actual calls remain countedonce. Initial visual2410 candidate rejected against complete190panel before finalization, reconciliation retained. Ending reporting/commit tail after cutoff carries forward."
+  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison. The medical assembly export window includes an intervening status turn and is not active human effort. VISICALC production selection reuses sealed pilot recognition/corrections without counting inference or correction again. preparation32 and correction32 remained open through unfinished turns and subsequent user status/continuation handoffs; elapsed durations include those gaps and are not active preparation/correction or human effort. Native32 records21original/eightboundedalternateQcalls plus14originalTcalls once; selected6T/29Q correctedonce, exported and independentlyvalidated without newOCR. Reporting/commit after cutoff carries into the next audit. Native33 counts21originalQ/21originalT plus3boundedQ/2boundedT alternates once; selected24Q/18T remain source-correction pending. Two preparation failures and one audit-template recovery caused no repeated recognition. reporting33-raw includes the intervening compaction/status handoff and is not active human effort. Commit/response after this cutoff carries forward. Native33 source correction now completed once against42 text crops/nine source images, exported189–194 and independently validated with no newOCR; all24Q/23T actual calls remain countedonce. Initial visual2410 candidate rejected against complete190panel before finalization, reconciliation retained. Ending reporting/commit tail after cutoff carries forward. Fullメ아리186–194 assembly reuses exactnative32/33 exports and allrecognition/sourcecorrection without counting them again; independent projection/rebuild/record checks recorded separately. No newOCR,mapping,rasterization or sharedpipeline change. Assembly reporting/commit/response aftercutoff carries forward."
 }
