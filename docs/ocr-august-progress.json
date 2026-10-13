@@ -15,16 +15,17 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
+    "assistant-partial-human-pending": 1,
     "assistant-restored-human-pending": 22,
     "sealed-pilot-review-pending": 5,
     "section-heading-no-body": 3,
     "unclassified-heading": 3,
-    "untouched": 10
+    "untouched": 9
   },
   "sealed_pilot_articles": 5,
   "production_complete_articles": 22,
-  "production_partial_articles": 0,
-  "untouched_articles": 10,
+  "production_partial_articles": 1,
+  "untouched_articles": 9,
   "unclassified_heading_entries": 3,
   "classified_heading_entries": 3,
   "human_accepted_articles": 0,
@@ -8006,6 +8007,407 @@
       },
       "category_DATA_values": 26,
       "usage_limitation": "All14Q and15T original calls counted once; zero probes,alternates,failures,retries or correction/export OCR. Selected29 drafts correctedonce; three programs preserved as printed differences only. Localcompute/tokens monetaryweight zero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-32",
+      "toc_entry_id": "maso-1984-08-toc-0041",
+      "title": "메아리",
+      "source_pages": [
+        186,
+        187,
+        188
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p186r01": "tesseract",
+        "p186r02": "tesseract",
+        "p186r03": "tesseract",
+        "p186r04": "qwen",
+        "p186r05": "qwen",
+        "p186r06": "qwen",
+        "p186r07": "qwen",
+        "p186r08": "qwen",
+        "p186r09": "qwen",
+        "p186r10": "qwen",
+        "p186r11": "qwen",
+        "p186r12": "qwen",
+        "p186r13": "tesseract",
+        "p186r14": "qwen",
+        "p186r15": "qwen",
+        "p186r16": "qwen",
+        "p187r01": "tesseract",
+        "p188r01": "tesseract",
+        "p186r19": "qwen",
+        "p187r04": "qwen",
+        "p187r05": "qwen",
+        "p187r06": "qwen",
+        "p187r07": "qwen",
+        "p187r08": "qwen",
+        "p187r09": "qwen",
+        "p187r10": "qwen",
+        "p187r11": "qwen",
+        "p188r04": "qwen",
+        "p188r05": "qwen",
+        "p188r06": "qwen",
+        "p188r07": "qwen",
+        "p188r08": "qwen",
+        "p188r09": "qwen",
+        "p188r10": "qwen",
+        "p188r11": "qwen"
+      },
+      "assignment_reason": "Clear prose/title/byline T; coherent unnumbered assembly/monitor examples and dense address/byte/checksum rows Q. Five full dump panels retained. No probes or whole article dual correction.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-32/echo/article.json",
+          "sha256": "37819c97d3027dedae101b49f83268523385148b9f0be576a6c322b459e09f2b",
+          "bytes": 75377
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-32/echo/manifest.json",
+          "sha256": "1e5c5115406cb5518885f98d580b3a3706a2470c75e07f7a9de4166471202de9",
+          "bytes": 25649
+        },
+        "source_pages": [
+          186,
+          187,
+          188
+        ],
+        "regions": 41,
+        "text_regions": 35,
+        "figures": 6,
+        "physical_listing_rows": 288,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 40,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-echo-source-index-32/source-index.json",
+          "sha256": "4d8fe66976cbbe554e22ab696fb7e576b6dccc7b996d6f1b86da9cac93c261a4",
+          "bytes": 5240913
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/validation.json",
+          "sha256": "81ebd45cd95c1d36d39384e9d60b6dcb2d1b22a21879f3e7803b1bae7884561e",
+          "bytes": 1568
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/map.json",
+        "sha256": "3f3b242d0f30a9180664807a5afa5b99cf5cbd2f611bb568307960ce0edb5348",
+        "bytes": 13531
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/source-review-ledger.json",
+        "sha256": "c005b30f6c48ff84567f55445794a6967d678c2f2d7a983b2dcea7befdec0fb0",
+        "bytes": 15654
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 18514,
+        "completion_tokens": 9094,
+        "total_tokens": 27608
+      },
+      "qwen_completed_calls": 29,
+      "qwen_recognition_seconds": 286.56967640500045,
+      "tesseract_recognition_seconds": 3.3404369629998882,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T08:14:09.456956+00:00",
+        "finished_at": "2026-10-13T08:18:35.948884+00:00",
+        "elapsed_seconds": 266.49194063799996,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 21,
+          "tesseract_inferences": 14,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 14,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 14,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 29,
+        "selected_tesseract_regions": 6,
+        "total_qwen_calls": 29,
+        "total_tesseract_calls": 14,
+        "worker_tesseract_calls": 14,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 8,
+        "additional_tesseract_calls": 0,
+        "additional_qwen_calls": 8,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 4698,
+          "completion_tokens": 1049,
+          "total_tokens": 5747
+        },
+        "decisions": [
+          {
+            "region_id": "p186r04",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restoresembedded address/command/choice identifiers lost in Tdraft; literal source correction remains pending."
+          },
+          {
+            "region_id": "p186r06",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restoresembedded address/command/choice identifiers lost in Tdraft; literal source correction remains pending."
+          },
+          {
+            "region_id": "p186r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restoresembedded address/command/choice identifiers lost in Tdraft; literal source correction remains pending."
+          },
+          {
+            "region_id": "p186r09",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restoresembedded address/command/choice identifiers lost in Tdraft; literal source correction remains pending."
+          },
+          {
+            "region_id": "p186r10",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restoresembedded address/command/choice identifiers lost in Tdraft; literal source correction remains pending."
+          },
+          {
+            "region_id": "p186r11",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restoresembedded address/command/choice identifiers lost in Tdraft; literal source correction remains pending."
+          },
+          {
+            "region_id": "p186r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restoresembedded address/command/choice identifiers lost in Tdraft; literal source correction remains pending."
+          },
+          {
+            "region_id": "p186r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restoresembedded address/command/choice identifiers lost in Tdraft; literal source correction remains pending."
+          }
+        ],
+        "elapsed_selection_seconds": 0.06798091499990733,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 29,
+      "total_tesseract_calls": 14,
+      "selected_qwen_regions": 29,
+      "selected_tesseract_regions": 6,
+      "worker_qwen_calls": 21,
+      "worker_tesseract_calls": 14,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 8,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/raw-preservation.json",
+        "sha256": "32414202e7652be43491c105c347f7012318f395c4da17a82d13d2c67dda4fd1",
+        "bytes": 60108
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/selected-raw-preservation.json",
+        "sha256": "b8d60193dfa8026368af3bde5128d34f01cdaec11f47e1a76062be252ad3e7a7",
+        "bytes": 52808
+      },
+      "source_tables": {
+        "tables": [],
+        "data_rows": 0,
+        "data_cells": 0,
+        "header_rows": 0,
+        "header_cells": 0,
+        "blank_cells": 0,
+        "hex_dump_data_rows": 276,
+        "hex_dump_data_cells": 2760,
+        "hex_dump_header_cells": 10,
+        "human_acceptance": "pending"
+      },
+      "source_listing_counts": {
+        "regions": {
+          "p186r05": {
+            "physical_rows": 4,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 0,
+            "source_form": "assembly-or-monitor-example"
+          },
+          "p186r08": {
+            "physical_rows": 1,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 0,
+            "source_form": "assembly-or-monitor-example"
+          },
+          "p186r12": {
+            "physical_rows": 4,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 0,
+            "source_form": "assembly-or-monitor-example"
+          },
+          "p186r14": {
+            "physical_rows": 2,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 0,
+            "source_form": "assembly-or-monitor-example"
+          },
+          "p186r19": {
+            "physical_rows": 21,
+            "numbered_rows": 0,
+            "header_rows": 1,
+            "data_rows": 20,
+            "source_form": "hex-dump"
+          },
+          "p187r04": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p187r05": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p187r06": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p187r07": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p187r08": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p187r09": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p187r10": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p187r11": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p188r04": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p188r05": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p188r06": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p188r07": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p188r08": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p188r09": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p188r10": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          },
+          "p188r11": {
+            "physical_rows": 16,
+            "numbered_rows": 0,
+            "header_rows": 0,
+            "data_rows": 16,
+            "source_form": "hex-dump"
+          }
+        },
+        "physical_rows": 288,
+        "numbered_rows": 0,
+        "logical_numbered_rows": 0,
+        "listing_groups": 5,
+        "dump_chunks": 17,
+        "dump_data_rows": 276,
+        "dump_header_rows": 1,
+        "example_physical_rows": 11,
+        "source_byte_encoding_verified": false,
+        "human_acceptance": "pending"
+      },
+      "usage_limitation": "All29Q calls include21original andeightbounded identifier/command alternates on unchangedprosecrops. All14originalT calls retained,countedonce; selected6T/29Q correctedonce. No probes,failures,retries or correction/export OCR. 276dump data rows preserve2760candidatecells with printedADRS/header/colon/SUM; no address-continuity/checksum/program repair. Localcompute/tokens monetaryweight zero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "assemblies": [
@@ -13721,9 +14123,38 @@
       "page": 186,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-partial-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-32",
+          "source_pages": [
+            186,
+            187,
+            188
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-32/echo/article.json",
+            "sha256": "37819c97d3027dedae101b49f83268523385148b9f0be576a6c322b459e09f2b",
+            "bytes": 75377
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        186,
+        187,
+        188
+      ],
+      "deferred_pdf_pages": [
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "assembly_required": true
     },
     {
       "id": "maso-1984-08-toc-0042",
@@ -13755,378 +14186,15 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 32,
-    "checkpoint": "echo-source-extent-and-restoration",
-    "kind": "native-restoration",
-    "status": "echo186-188-selected-raw-complete-correction-pending",
+    "status": "echo-189-194-native33-preparation-pending",
+    "kind": "native",
+    "batch": 33,
     "toc_entry_id": "maso-1984-08-toc-0041",
     "canonical_title": "메아리",
     "canonical_byline": null,
     "canonical_parent_id": "maso-1984-08-toc-0036",
-    "canonical_first_page": 186,
+    "canonical_page": 186,
     "article_extent_verified": true,
-    "reusable_whole_page_view": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-05/page-186-view.png",
-      "sha256": "dcb72550eeedf69cd8e1c837acc0ac4b9c8907ad8bf74625c459ea273770159d",
-      "bytes": 798867
-    },
-    "previous_goal_turn_classification": "Progress: prior checkpoint committed fullVISICALC181–185. This turn individually inspected186–197, proved full department186–194 and three contributions, mapped/native-rendered186–188, repaired source ink cuts before inference, completed14T/21Q original calls, eightboundedQalternates, readall35original/eightalternate drafts andselected6T/29Q; raw/selected audits and immutable seal pass with44previousproductionpackages and all native15–31/pilot evidence preserved.",
-    "last_completed_article": {
-      "toc_entry_id": "maso-1984-08-toc-0024",
-      "title": "VISICALC 활용",
-      "engine": "tesseract",
-      "selected_pilot": "aug-05-v2-B",
-      "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive/visicalc/article.json",
-        "sha256": "ea5394d798adeb73fda973145f80efd11bebcef423fccd3bff0ae8a5fd7070ba",
-        "bytes": 158175
-      },
-      "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive/visicalc/manifest.json",
-        "sha256": "2bd31801efa738b1bd642217fd0af338c983602042e0cde5938cd19b030d0b31",
-        "bytes": 61661
-      },
-      "source_pages": [
-        181,
-        182,
-        183,
-        184,
-        185
-      ],
-      "regions": 96,
-      "text_regions": 91,
-      "figures": 5,
-      "physical_listing_rows": 0,
-      "logical_listing_rows": 0,
-      "unresolved_entries": 25,
-      "complete_article": true,
-      "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-visicalc-source-index/source-index.json",
-        "sha256": "c72efb74c0004d68aad3be72dcb464fe342d11a74c48263112645a0973142727",
-        "bytes": 1121912
-      },
-      "source_validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-05/validation.json",
-        "sha256": "e8b4a1f6a55680f29a8ebf5a10c5832aedba9c428ec514945a90428b9d988566",
-        "bytes": 9194
-      },
-      "ordered_blocks": 85,
-      "source_tables": 4,
-      "table_chunks": 10,
-      "table_rows": 124,
-      "table_candidate_slots": 896,
-      "table_candidate_blank_slots": 435,
-      "inline_examples": 34,
-      "definition_ranges": 6,
-      "unicode_candidates": 40,
-      "prose_joins": 5,
-      "prose_boundaries": 6,
-      "source_captions": 3,
-      "changed_transcription_regions": 0,
-      "new_ocr_calls": 0,
-      "new_local_tokens": 0,
-      "checks": {
-        "status": "passed",
-        "toc_entry_id": "maso-1984-08-toc-0024",
-        "regions": 96,
-        "text_regions": 91,
-        "figures": 5,
-        "ordered_blocks": 85,
-        "physical_listing_rows": 0,
-        "logical_listing_rows": 0,
-        "source_tables": 4,
-        "table_chunks": 10,
-        "table_rows": 124,
-        "table_candidate_slots": 896,
-        "table_candidate_blank_slots": 435,
-        "editorial_header_rows": 9,
-        "printed_header_rows": 1,
-        "inline_examples": 34,
-        "definition_ranges": 6,
-        "unicode_candidates": 40,
-        "prose_joins": 5,
-        "prose_boundaries": 6,
-        "source_captions": 3,
-        "unresolved_entries": 25,
-        "new_ocr_calls": 0,
-        "changed_transcription_regions": 0,
-        "source_hash": true,
-        "crop_pixels": true,
-        "reused_raw_text_settings_positions_exact": true,
-        "all_original_pilot_metadata_unchanged": true,
-        "article_text_bytes_unchanged": true,
-        "all_table_cell_byte_ranges": true,
-        "all_review_ranges": true,
-        "all_regional_characters_once": true,
-        "byte_identical_rebuild": true,
-        "preserved_pilot_files": 16790,
-        "selected_immutable_evidence_files": 472,
-        "prior_production_packages_verified": 43,
-        "all_native_raw_seals_unchanged": true,
-        "raw_preservation_seals": [
-          {
-            "batch": 15,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/raw-preservation.json",
-              "sha256": "24e07dd1be62fec6198a33fa91b7313feee66c9b9b890d13113c5b4ed6b0cd5a",
-              "bytes": 207919
-            },
-            "files": 1657
-          },
-          {
-            "batch": 16,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-16/raw-preservation.json",
-              "sha256": "58dea4a5c6bccf96ea42cd11f439eb251cf1a8ac2950886831320ffc87d2af67",
-              "bytes": 53625
-            },
-            "files": 422
-          },
-          {
-            "batch": 17,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/raw-preservation.json",
-              "sha256": "f73ee0fb09775be3a9357360ec09dd3bc7bcf67f64564c41c7f74f8723ca192c",
-              "bytes": 107007
-            },
-            "files": 852
-          },
-          {
-            "batch": 18,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-18/raw-preservation.json",
-              "sha256": "537ffd27bc556ff723e2ba885ad383622fb9bdf5519a6f58d103aabc9d2862b3",
-              "bytes": 30691
-            },
-            "files": 248
-          },
-          {
-            "batch": 19,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/raw-preservation.json",
-              "sha256": "45d6ba345ac625a9976f44fa66ce6d988b070969353ba254cedbe79ec5017733",
-              "bytes": 181270
-            },
-            "files": 1433
-          },
-          {
-            "batch": 20,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-preservation.json",
-              "sha256": "b1d095c4dbcea5b2c90e36cfe115351100a70893dfb8382d60af9392242fdce8",
-              "bytes": 48430
-            },
-            "files": 387
-          },
-          {
-            "batch": 20,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/selected-raw-preservation.json",
-              "sha256": "c75aaa184208ca0617aeb4ee7aae43323c8affdd07a43ca886f39ccf81435738",
-              "bytes": 35036
-            },
-            "files": 240
-          },
-          {
-            "batch": 21,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-preservation.json",
-              "sha256": "6c5d09055779a809f47ceca09bdf26c9f55712cd0e9c264c0eb7b5bfbbeabf47",
-              "bytes": 96423
-            },
-            "files": 757
-          },
-          {
-            "batch": 21,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/selected-raw-preservation.json",
-              "sha256": "43981035d4e759a2f284aa2a1db6a27a05bf3d07b70aee644b17c40c4c53b449",
-              "bytes": 71980
-            },
-            "files": 491
-          },
-          {
-            "batch": 22,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/raw-preservation.json",
-              "sha256": "694cfb9c2be501dbaea044c3a769eb4d86d0fee2fda7d94f7cae12944fbe808e",
-              "bytes": 137064
-            },
-            "files": 1085
-          },
-          {
-            "batch": 22,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/selected-raw-preservation.json",
-              "sha256": "99a343c61e793f54f59dc8bd718d7600d05586563b0d6cb35b6c93d73ad5e8de",
-              "bytes": 101285
-            },
-            "files": 691
-          },
-          {
-            "batch": 23,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-23/raw-preservation.json",
-              "sha256": "d9be25a3840fa9597d992b53090974ef88230a3f7ea63c5150f6b1696fedef42",
-              "bytes": 252976
-            },
-            "files": 1975
-          },
-          {
-            "batch": 23,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-23/selected-raw-preservation.json",
-              "sha256": "02007277e1ece6254bf2a2cb41a9ae646e8a0268373d759b4b7516f413455509",
-              "bytes": 194890
-            },
-            "files": 1324
-          },
-          {
-            "batch": 24,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/raw-preservation.json",
-              "sha256": "4398e2aee64dc58f361bc4c471f3121a48f6d4007032a43d8ea050d230277e93",
-              "bytes": 143066
-            },
-            "files": 1154
-          },
-          {
-            "batch": 24,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/selected-raw-preservation.json",
-              "sha256": "186f1591520bf625d3d9e22963278fffecc04647caf6c855cbaf58da6c213d82",
-              "bytes": 118617
-            },
-            "files": 823
-          },
-          {
-            "batch": 25,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/raw-preservation.json",
-              "sha256": "7ec315c0d03cc1b481b181f09d794e6db037ef13940fa64a9d4a660ac90c3d50",
-              "bytes": 126740
-            },
-            "files": 1014
-          },
-          {
-            "batch": 25,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/selected-raw-preservation.json",
-              "sha256": "a549b9fce604d085fb73bc9e482dcb17e6ce5532b45ae5b320a50dabb9d8e211",
-              "bytes": 123008
-            },
-            "files": 857
-          },
-          {
-            "batch": 26,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/raw-preservation.json",
-              "sha256": "4ba05180065235f2ef03f58885eedfa4324d0f15168edb93ef5cbfe59d5943e5",
-              "bytes": 53036
-            },
-            "files": 437
-          },
-          {
-            "batch": 27,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/raw-preservation.json",
-              "sha256": "fbfa55ea889c43b42edebb9b5a590fc9d2af7079b07c88a4d14d24d67f73c5ca",
-              "bytes": 81385
-            },
-            "files": 675
-          },
-          {
-            "batch": 27,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-preservation.json",
-              "sha256": "b29620f1b16601a72f8865c4245679c2780ec3b64848220e0892de5ba657f68d",
-              "bytes": 59801
-            },
-            "files": 416
-          },
-          {
-            "batch": 28,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-preservation.json",
-              "sha256": "9d6cf80feaea772f93c7cbe5ae0121ddeca502c23bc703c50d424f324631f154",
-              "bytes": 68393
-            },
-            "files": 557
-          },
-          {
-            "batch": 29,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-29/raw-preservation.json",
-              "sha256": "5872cbdb5cb7769bac4afbc13e65eb8f759e277385dcceb9b2420eb0054f4743",
-              "bytes": 81578
-            },
-            "files": 678
-          },
-          {
-            "batch": 29,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-29/selected-raw-preservation.json",
-              "sha256": "4fe223662ed8cf2968f75bf2b457114d47dbfd3e5ad6bfaf1a7384b3424a8de2",
-              "bytes": 45926
-            },
-            "files": 317
-          },
-          {
-            "batch": 30,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/raw-preservation.json",
-              "sha256": "7e8b206e837fac900c83cd5b4632e8d3e6b46dda898bf677bcaf5f6aefd28dbf",
-              "bytes": 81111
-            },
-            "files": 663
-          },
-          {
-            "batch": 30,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/selected-raw-preservation.json",
-              "sha256": "56aac8e518c24742b22c92b8ffba3670b8420c2cdf72610d6bfef4df8797aa85",
-              "bytes": 58972
-            },
-            "files": 407
-          },
-          {
-            "batch": 31,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/raw-preservation.json",
-              "sha256": "54eb301934b9d121df8d722774f79da4a66c71f9223efdadf5cb975b7a3dc4f3",
-              "bytes": 50467
-            },
-            "files": 417
-          },
-          {
-            "batch": 31,
-            "seal": {
-              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/selected-raw-preservation.json",
-              "sha256": "d18550c1b42ceaf6959dc999a7d2e78a99642b42359e7abb4b5bc6e2cdc2f4ba",
-              "bytes": 29906
-            },
-            "files": 204
-          }
-        ],
-        "source_index": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-visicalc-source-index/source-index.json",
-          "sha256": "c72efb74c0004d68aad3be72dcb464fe342d11a74c48263112645a0973142727",
-          "bytes": 1121912
-        },
-        "human_acceptance": "pending",
-        "scope": "Complete VISICALC181–185; remaining August bodies/pilots/headings and wholeissue JSON/assets closeout still required."
-      },
-      "human_acceptance": "pending",
-      "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-05/selection-and-repairs.json",
-      "implementation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/validate-pilot-visicalc.py",
-        "sha256": "e0cc054d3d7e97e068e4575034c8672d59e72fcd39afa6ac79a266f333101ec4",
-        "bytes": 14209
-      }
-    },
-    "action": "Reuse all35 pinned selected raw readings and source crops; do not repeat successful recognition. Source-correct first contribution186–188 once, retaining printed prose, unnumbered assembly/monitor examples, historical spellings and literal errors. Index all276 address/byte/checksum rows with exact row/cell associations and five original whole dump panels. Correct OCR O/0 andB/8 confusions only from source; no global normalizer, arithmetic/checksum-based repairs, executable reconstruction or verified-byte claims. Keep canonical0041 메아리, null byline and parent0036; 이정우 is a contribution byline. Export/index/independently validate JSON/assets and commit. Then restore second contribution1차 방정식189–193, third키보드판 길 잃은 고양이194, excluding lower advertisement, and assemble full186–194. Continue all remaining August bodies, five pending pilots, three unresolved headings and standalone issue JSON/assets closeout/requirements audit. Page195 technical divider may support heading classification separately; page196–197 belong PIA. No reading-room rebuild.",
-    "human_acceptance": "pending",
-    "reading_room_rebuild": false,
     "article_pdf_pages": [
       186,
       187,
@@ -14138,10 +14206,18 @@
       193,
       194
     ],
-    "source_pages": [
+    "completed_source_pages": [
       186,
       187,
       188
+    ],
+    "source_pages": [
+      189,
+      190,
+      191,
+      192,
+      193,
+      194
     ],
     "deferred_article_pages": [
       189,
@@ -14151,58 +14227,63 @@
       193,
       194
     ],
+    "native_segments": [
+      {
+        "batch": 32,
+        "export": {
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-32/echo/article.json",
+            "sha256": "37819c97d3027dedae101b49f83268523385148b9f0be576a6c322b459e09f2b",
+            "bytes": 75377
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-32/echo/manifest.json",
+            "sha256": "1e5c5115406cb5518885f98d580b3a3706a2470c75e07f7a9de4166471202de9",
+            "bytes": 25649
+          },
+          "source_pages": [
+            186,
+            187,
+            188
+          ],
+          "regions": 41,
+          "text_regions": 35,
+          "figures": 6,
+          "physical_listing_rows": 288,
+          "logical_listing_rows": 0,
+          "unresolved_entries": 40,
+          "complete_article": false,
+          "checks": {
+            "export_integrity": true,
+            "byte_identical_rebuild": true,
+            "text_and_review_utf8_ranges": true,
+            "listing_byte_coverage": true,
+            "explicit_printed_line_numbers": true
+          },
+          "human_acceptance": "pending",
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-echo-source-index-32/source-index.json",
+            "sha256": "4d8fe66976cbbe554e22ab696fb7e576b6dccc7b996d6f1b86da9cac93c261a4",
+            "bytes": 5240913
+          },
+          "source_validation": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/validation.json",
+            "sha256": "81ebd45cd95c1d36d39384e9d60b6dcb2d1b22a21879f3e7803b1bae7884561e",
+            "bytes": 1568
+          }
+        }
+      }
+    ],
     "extent_inspection": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/extent-inspection.json",
       "sha256": "1470dd54e175d3a153bcac682753a6f4c9cd9de399297740118190d63fada6bb",
       "bytes": 6978
     },
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/preflight-acceptance.json",
-      "sha256": "8c421e2249cca923ede1cb753456f868fbff52645bdcb1ca5cdf764397d489f7",
-      "bytes": 644
-    },
-    "raw_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/raw-ocr-audit.json",
-      "sha256": "d9e340c11a8b4bdf747a3062707d174eafdf39edd558c83a7564c4f0526fd762",
-      "bytes": 2019
-    },
-    "raw_selected_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/selected-raw-audit.json",
-      "sha256": "7f0bdfdb37c4b2bbedcad75d5154adf5efecfb3c5c100eaeeb4393a528605619",
-      "bytes": 1768
-    },
-    "raw_original_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/raw-preservation.json",
-      "sha256": "32414202e7652be43491c105c347f7012318f395c4da17a82d13d2c67dda4fd1",
-      "bytes": 60108
-    },
-    "raw_selected_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/selected-raw-preservation.json",
-      "sha256": "b8d60193dfa8026368af3bde5128d34f01cdaec11f47e1a76062be252ad3e7a7",
-      "bytes": 52808
-    },
-    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-32/ocr-selected",
-    "selected_raw_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/raw-selected-drafts.json",
-      "sha256": "5a171d6495f5e90f8eeb2622095527ca5b60d99b6d5798626ee47a20074b27b5",
-      "bytes": 24848
-    },
-    "draft_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/selected-draft-inspection.json",
-      "sha256": "b6e562fd118793655be21ba535824b2d54c303940946d58fb7ca08eaa31229be",
-      "bytes": 10952
-    },
-    "regions": 41,
-    "text_regions": 35,
-    "figures": 6,
-    "dump_panels": 5,
-    "dump_data_rows": 276,
-    "actual_tesseract_calls": 14,
-    "actual_qwen_calls": 29,
-    "selected_tesseract_regions": 6,
-    "selected_qwen_regions": 29,
-    "correction": "pending",
-    "production_export_created": false
+    "previous_goal_turn_classification": "Previous turn read plan/private checkpoint and restated status; no progress. Revalidated saved35 once-corrected readings, finalized metadata without transcription changes, exported186–188 and independently verified all ranges/literal associations/crops/raw pins/rebuild and44priorpackages/16,790pilotfiles. This turn completes the first contribution checkpoint; remainingAugust goal stays active.",
+    "human_acceptance": "pending",
+    "reading_room_rebuild": false,
+    "full_assembly_required": true,
+    "action": "Commit native32. Reinspect pinned wholeviews189–194 and boundary195, reuse exact full186–194 extent proof, then map/restore second contribution1차방정식189–193 and third키보드판길잃은고양이194. Route coherent prose/examples/BASIC/keytable separately, retain source errors/glyph uncertainty and194endmark, exclude lowerad194. Correct selected drafts once; independently validate/export ending and commit. Then separately assemblefull186–194 from exactnativepins preserving all276dump rows/2760cells/fivepanels and fullBASIC/patch/keytable evidence. Complete nineother untouchedbodies,fivependingpilots,threeheadingclassifications and standaloneissueJSON/assetscloseout/requirementsaudit. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
@@ -15602,7 +15683,7 @@
     {
       "batch": "batch-32",
       "toc_entry_id": "maso-1984-08-toc-0041",
-      "status": "selected-raw-complete-source-correction-pending",
+      "status": "selected-raw-source-corrected-opening-export-validated",
       "source_pages": [
         186,
         187,
@@ -15717,8 +15798,12 @@
         "error": null
       },
       "empty_raw_regions": [],
-      "source_correction": "pending",
-      "production_export": null,
+      "source_correction": "complete-once",
+      "production_export": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-32/echo/article.json",
+        "sha256": "37819c97d3027dedae101b49f83268523385148b9f0be576a6c322b459e09f2b",
+        "bytes": 75377
+      },
       "full_assembly_required": true,
       "human_acceptance": "pending",
       "local_monetary_weight": 0,
@@ -15727,7 +15812,32 @@
         "cached": 0.1
       },
       "output_rate": null,
-      "scope": "Full department186–194 verified, three contributions. First contribution186–188 raw OCR only; correction/export/index still required. Remaining189–194 and full department assembly remain required. Whole August incomplete."
+      "scope": "First contribution186–188 exported and independently validated. Full department186–194 verified;189–194 and fullassembly required. Raw milestone and all prior evidence retained. WholeAugust incomplete.",
+      "source_review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/source-review-ledger.json",
+        "sha256": "c005b30f6c48ff84567f55445794a6967d678c2f2d7a983b2dcea7befdec0fb0",
+        "bytes": 15654
+      },
+      "validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/validation.json",
+        "sha256": "81ebd45cd95c1d36d39384e9d60b6dcb2d1b22a21879f3e7803b1bae7884561e",
+        "bytes": 1568
+      },
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-echo-source-index-32/source-index.json",
+        "sha256": "4d8fe66976cbbe554e22ab696fb7e576b6dccc7b996d6f1b86da9cac93c261a4",
+        "bytes": 5240913
+      },
+      "physical_listing_rows": 288,
+      "numbered_listing_rows": 0,
+      "logical_numbered_rows": 0,
+      "dump_header_rows": 1,
+      "dump_data_cells": 2760,
+      "dump_header_cells": 10,
+      "listing_groups": 5,
+      "source_prose_joins": 1,
+      "interrupted_prose_continuations": 4,
+      "source_flags": 40
     }
   ]
 }

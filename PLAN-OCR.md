@@ -4124,3 +4124,47 @@ commit code/documentation. Do not count a partial opening as a complete article.
   human accepted. Next: correct/export186–188, restore189–194, then assemble the
   full department. All other bodies,pilots,headings and standalone issue JSON/assets
   closeout remain required. No reading-room rebuild.
+
+
+### August 메아리 disassembler186–188 restored, 2026-10-13
+
+- Restored 메아리 first contribution SPC-1000용 디스어셈블러186–188 from
+  the saved selected29Q/6T readings, corrected once against source. Canonical0041
+  title/null byline/parent0036 remain unchanged; 이정우 is contribution content.
+  Full department186–194 extent proof and nine outside-map lookups reused by hash.
+  Second/third contributions189–194 and separate full assembly remain required.
+- Forty-one regions retain34 ordered text blocks,35 exact regional/review ranges
+  and six original images: five dump panels and the prose endmark. One column
+  join preserves 된다.먼저; four prose continuations remain interrupted by their
+  printed displays. Left dump panel/chunks precede right panel/chunks on187/188.
+- Seventeen dump chunks preserve276 data rows and one ADRS/+0..+7/SUM header.
+  Exact article/listing ranges retain2,760 candidate data cells and ten header cells,
+  original colons/spaces and panel/row associations. Four assembly/monitor displays
+  add11 physical rows:288 total unnumbered listing rows in five source groups.
+  No numbered program or runnable loader inferred; source images authoritative.
+- Forty source flags and12 indexed examples preserve A262H versus AA8EH, CR1/CRI,
+  A2AB/A2A8, D8/DB, BE/FE, 68/6B, 88/BB and other dot-font0/O,B/8 candidates.
+  Printed A262H is not repaired from dump extent; checksum E9 is read from source,
+  not calculated. Raw 생각 is corrected to visible 생략. Historical 키이/체크섬
+  and printed command/prompt punctuation retained. Full proofreading, original
+  encoded bytes, execution and human acceptance remain unverified.
+- All29Q/14T actual calls (21originalQ/eight boundedQ alternates/14originalT)
+  remain counted once; selected6T/29Q corrected once. No new OCR during correction,
+  metadata finalization, export or validation. Local Q tokens18,514input/9,094output,
+  27,608total; recognition286.570sQ/3.340sT. Local monetary weight zero; worker,
+  selection and assistant wall-time windows remain separate noncausal diagnostics.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-32/echo`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-echo-source-index-32/source-index.json`.
+  Independent coverage, exact row/cell/listing/text/review ranges, original crop
+  pixels/raw settings, canonical identity and byte-identical rebuild pass.
+  All44 prior production packages,native15–32 original/selected seals and16,790
+  pilot files remain unchanged; native32 retains495original/369selected files.
+  No shared pipeline change; unchanged132-test PDF baseline reused.
+- August now has22 complete assistant restorations,one partial 메아리,nine untouched
+  bodies,five pending pilot selections,three classified/three unclassified headings
+  and zero human accepted. Forty-five packages comprise32 natives,ten assemblies
+  and three production selections. Native33 next:189–194, then full186–194 assembly.
+  Other bodies,pilots,headings and standalone issueJSON/assets closeout remain.
+  No reading-room rebuild. Paid input ratio1:0.1; output rate/human effort unknown.
+  correction32 includes the intervening status/continuation handoff; elapsed window
+  time is not active human effort. Reporting/commit after cutoff carries forward.
