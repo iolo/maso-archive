@@ -14172,3 +14172,47 @@ history remains in [PROGRESS.md](PROGRESS.md).
   historical raw milestones remain exact. Next: restore 233–236, then assemble
   the full 221–236 article. Remaining August content and standalone issue JSON/assets
   closeout/requirements audit remain required. No reading-room rebuild.
+
+
+## 2026-10-14 — August microcomputer-design233–236 raw checkpoint validated
+
+- Ending checkpoint 40 covers pages 233–236 of verified article 221–236.
+  Native openings 221–226 and 227–232 remain immutable; full assembly is required.
+  The four ending pages were reinspected from the nineteen pinned extent views.
+- Four fresh upright renders retain 101 regions: 92 text readings and nine source
+  images, including four numbered figures, two listings, table 3, the terminal
+  illustration and printed ending mark. All 46 original panels/four overlays,
+  changed final panels/new panel 47, final overlays and four edge boards were viewed.
+  Three pre-OCR revision records preserve 64 repaired original regions, four
+  removed split circuit crops and one added ending mark. All 101 crop pixels
+  match source; 368 text edges have zero glyph cuts. Fifty-two nontext crossings
+  were inspected in 95 component tiles. No orientation correction is required.
+- All 92 original drafts, 21 bounded alternates and 92 selected drafts were read.
+  Nineteen Qwen alternates recover identifier/value failures in primary Tesseract;
+  two Tesseract alternates preserve aligned assembly row associations. Actual
+  calls: 71 Qwen / 44 Tesseract; selected readings: 67 Qwen / 25 Tesseract.
+  Two primary Qwen responses reached their caps (keyboard wiring and lower
+  interface circuit); both are preserved with same-crop Tesseract fallbacks.
+  Neither capped crop received another Qwen call. Zero retries or probes.
+- Local Qwen tokens include failed outputs: 29,031 input /
+  14,438 output / 43,469 total. Successful Qwen wall
+  time is 253.706s; Tesseract wall time
+  12.779s. Failed Qwen server timings total
+  126.249s; actual failed wall time is unknown.
+  Local compute/tokens have zero monetary weight; paid input ratio is 1:0.1.
+  Output price and human active effort remain unknown. Elapsed work windows
+  include status/continuation gaps and are separate diagnostics.
+- Independent raw and selected audits pass: 1,482 original
+  and 906 selected/alternate files sealed. All 56 prior packages,
+  native 15–39 seals and 16,790 pilot files remain unchanged. The first selected
+  audit assumed upright orientation meant an empty map; the preserved attempt
+  was resolved by checking four explicit null values. No evidence or OCR changed.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-40/selected-raw-audit.json`.
+- This is historical raw milestone 20. Production remains 26 complete / one
+  partial / six untouched / four pending pilots, five classified headings /
+  one unclassified heading / zero human acceptances, with 56 packages.
+  These drafts are not corrected exports. Next: once-only correction and native
+  ending export, full 221–236 assembly, remaining August content and standalone
+  issue JSON/assets closeout/requirements audit. Full proofreading, source bytes
+  and historical execution remain unverified. No reading-room rebuild.
+  Reporting/commit tail enters the next usage audit.
