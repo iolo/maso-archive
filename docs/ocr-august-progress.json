@@ -15,16 +15,15 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-partial-human-pending": 1,
-    "assistant-restored-human-pending": 27,
+    "assistant-restored-human-pending": 28,
     "sealed-pilot-review-pending": 4,
     "section-heading-no-body": 5,
     "unclassified-heading": 1,
     "untouched": 5
   },
   "sealed_pilot_articles": 4,
-  "production_complete_articles": 27,
-  "production_partial_articles": 1,
+  "production_complete_articles": 28,
+  "production_partial_articles": 0,
   "untouched_articles": 5,
   "unclassified_heading_entries": 1,
   "classified_heading_entries": 5,
@@ -19481,6 +19480,123 @@
         "all_raw_and_selected_inventories_unchanged": true
       },
       "scope": "Full221–236 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/electricaltopology/execution unverified."
+    },
+    {
+      "toc_entry_id": "maso-1984-08-toc-0032",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/recalc/article.json",
+        "sha256": "06ced9139333b3d7789a090cce90ae37a1a6b60cb607907ec5870dd83a4495fc",
+        "bytes": 216334
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/recalc/manifest.json",
+        "sha256": "0b4d914c0306a642f749aef7558f6a7023557a35d916cac4bdd8338125461c24",
+        "bytes": 83960
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/recalc-assembly-recipe.json",
+        "sha256": "29d84ee52e6ec282c4ae8071a9bce3869fe0002b81da4176bb667b7e946425d5",
+        "bytes": 2433
+      },
+      "pdf_pages": [
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "segments": [
+        {
+          "name": "opening",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-41/recalc-opening/manifest.json",
+            "sha256": "3e2a9001d750fbe545824e033f2841c156f5478cc4f5ceea40d278709c9d8705",
+            "bytes": 66666
+          }
+        },
+        {
+          "name": "ending",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-42/recalc-ending/manifest.json",
+            "sha256": "c7b73324c5610834a54b7383c9f2a6cb3eaf13509b0691006503e5511fa5737c",
+            "bytes": 8375
+          }
+        }
+      ],
+      "native_validations": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-41/validation.json",
+          "sha256": "7f43bb11c1c9f0d2ec497ff15a1b3a34a412f12dc85c95f6c0ec79ca3eb346e7",
+          "bytes": 1325
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-42/validation.json",
+          "sha256": "759256f90928be0d842fb96abec46ac52345759360c100b33fde3586da0e7a85",
+          "bytes": 1192
+        }
+      ],
+      "native_indexes": [
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-41/source-index.json",
+          "sha256": "421586e369f90a4a1f83e350f23e6c5087b6344e23e623fd5fa1e1178408500d",
+          "bytes": 1267465
+        },
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-42/source-index.json",
+          "sha256": "d004573af584a3c9b9a5c415ff3e9dff8e4b76c3e1b641f22ce350fb1749339a",
+          "bytes": 222078
+        }
+      ],
+      "regions": 118,
+      "text_regions": 106,
+      "figures": 12,
+      "ordered_blocks": 104,
+      "text_review_items": 106,
+      "native_prose_joins": 2,
+      "native_prose_boundaries": 2,
+      "cross_segment_prose_joins": 0,
+      "physical_listing_rows": 709,
+      "logical_listing_rows": 345,
+      "wrapped_listing_rows": 293,
+      "unnumbered_listing_rows": 71,
+      "listing_groups": 2,
+      "definitions": 28,
+      "inline_examples": 29,
+      "numeric_data_values": 232,
+      "unquoted_string_data_values": 2,
+      "data_fragment_ranges": 237,
+      "unresolved_entries": 53,
+      "copied_native_files": 454,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index/source-index.json",
+        "sha256": "3ac6eb720fa75567706bd11fa8594bbbb15d4b6d926fff4b5326471b2093ff42",
+        "bytes": 2367034
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "article_blocks_and_reading_order_preserved": true,
+        "physical_logical_wrap_ownership": true,
+        "wrong_wrap_owners_rejected": true,
+        "rich_source_global_ranges": true,
+        "data_statement_and_split_fragment_ranges": true,
+        "prior_production_packages_verified": 60,
+        "preserved_pilot_files": 16790,
+        "sealed_raw_and_selected_files_verified": 35849,
+        "all_raw_and_selected_inventories_unchanged": true
+      },
+      "scope": "Full239–245 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "production_selections": [
@@ -24456,7 +24572,7 @@
       "page": 240,
       "kind": "article",
       "articleIds": [],
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
       "pilot_pair": null,
       "segments": [
@@ -24498,7 +24614,129 @@
         245
       ],
       "deferred_pdf_pages": [],
-      "assembly_required": true
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/recalc/article.json",
+        "sha256": "06ced9139333b3d7789a090cce90ae37a1a6b60cb607907ec5870dd83a4495fc",
+        "bytes": 216334
+      },
+      "assembly": {
+        "toc_entry_id": "maso-1984-08-toc-0032",
+        "engine": "mixed",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/recalc/article.json",
+          "sha256": "06ced9139333b3d7789a090cce90ae37a1a6b60cb607907ec5870dd83a4495fc",
+          "bytes": 216334
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/recalc/manifest.json",
+          "sha256": "0b4d914c0306a642f749aef7558f6a7023557a35d916cac4bdd8338125461c24",
+          "bytes": 83960
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/recalc-assembly-recipe.json",
+          "sha256": "29d84ee52e6ec282c4ae8071a9bce3869fe0002b81da4176bb667b7e946425d5",
+          "bytes": 2433
+        },
+        "pdf_pages": [
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245
+        ],
+        "segments": [
+          {
+            "name": "opening",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-41/recalc-opening/manifest.json",
+              "sha256": "3e2a9001d750fbe545824e033f2841c156f5478cc4f5ceea40d278709c9d8705",
+              "bytes": 66666
+            }
+          },
+          {
+            "name": "ending",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-42/recalc-ending/manifest.json",
+              "sha256": "c7b73324c5610834a54b7383c9f2a6cb3eaf13509b0691006503e5511fa5737c",
+              "bytes": 8375
+            }
+          }
+        ],
+        "native_validations": [
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-41/validation.json",
+            "sha256": "7f43bb11c1c9f0d2ec497ff15a1b3a34a412f12dc85c95f6c0ec79ca3eb346e7",
+            "bytes": 1325
+          },
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-42/validation.json",
+            "sha256": "759256f90928be0d842fb96abec46ac52345759360c100b33fde3586da0e7a85",
+            "bytes": 1192
+          }
+        ],
+        "native_indexes": [
+          {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-41/source-index.json",
+            "sha256": "421586e369f90a4a1f83e350f23e6c5087b6344e23e623fd5fa1e1178408500d",
+            "bytes": 1267465
+          },
+          {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-42/source-index.json",
+            "sha256": "d004573af584a3c9b9a5c415ff3e9dff8e4b76c3e1b641f22ce350fb1749339a",
+            "bytes": 222078
+          }
+        ],
+        "regions": 118,
+        "text_regions": 106,
+        "figures": 12,
+        "ordered_blocks": 104,
+        "text_review_items": 106,
+        "native_prose_joins": 2,
+        "native_prose_boundaries": 2,
+        "cross_segment_prose_joins": 0,
+        "physical_listing_rows": 709,
+        "logical_listing_rows": 345,
+        "wrapped_listing_rows": 293,
+        "unnumbered_listing_rows": 71,
+        "listing_groups": 2,
+        "definitions": 28,
+        "inline_examples": 29,
+        "numeric_data_values": 232,
+        "unquoted_string_data_values": 2,
+        "data_fragment_ranges": 237,
+        "unresolved_entries": 53,
+        "copied_native_files": 454,
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index/source-index.json",
+          "sha256": "3ac6eb720fa75567706bd11fa8594bbbb15d4b6d926fff4b5326471b2093ff42",
+          "bytes": 2367034
+        },
+        "human_acceptance": "pending",
+        "checks": {
+          "status": "passed",
+          "full_source_coverage": true,
+          "canonical_identity": true,
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "source_segments_immutable": true,
+          "all_original_metadata_unchanged": true,
+          "listing_bytes_native_concatenation": true,
+          "article_blocks_and_reading_order_preserved": true,
+          "physical_logical_wrap_ownership": true,
+          "wrong_wrap_owners_rejected": true,
+          "rich_source_global_ranges": true,
+          "data_statement_and_split_fragment_ranges": true,
+          "prior_production_packages_verified": 60,
+          "preserved_pilot_files": 16790,
+          "sealed_raw_and_selected_files_verified": 35849,
+          "all_raw_and_selected_inventories_unchanged": true
+        },
+        "scope": "Full239–245 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+      }
     },
     {
       "id": "maso-1984-08-toc-0033",
@@ -25187,131 +25425,135 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "status": "full-RECALC-assembly-required",
-    "kind": "segment-assembly",
-    "toc_entry_id": "maso-1984-08-toc-0032",
-    "canonical_title": "RECALC",
-    "canonical_first_page": 240,
-    "actual_first_pdf_page": 239,
-    "canonical_unchanged": true,
-    "article_extent_verified": true,
-    "source_pages": [
-      239,
-      240,
-      241,
-      242,
-      243,
-      244,
-      245
-    ],
-    "deferred_pages": [],
-    "native_inputs": [
-      {
-        "batch": "batch-41",
-        "source_pages": [
-          239,
-          240,
-          241,
-          242,
-          243,
-          244
-        ],
-        "export": {
-          "package": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-41/recalc-opening/article.json",
-            "sha256": "1534a52e6312ada4daa1ef2ea4554a4add51426cc1624e2df4e783c558772552",
-            "bytes": 179253
-          },
+    "batch": 43,
+    "status": "UFO-source-extent-inspection-pending",
+    "kind": "native-restoration",
+    "toc_entry_id": "maso-1984-08-toc-0033",
+    "canonical_title": "신판 UFO",
+    "canonical_byline": "지정근",
+    "canonical_parent_id": "maso-1984-08-toc-0031",
+    "canonical_first_page": 246,
+    "article_extent_verified": false,
+    "last_completed_article": {
+      "toc_entry_id": "maso-1984-08-toc-0032",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/recalc/article.json",
+        "sha256": "06ced9139333b3d7789a090cce90ae37a1a6b60cb607907ec5870dd83a4495fc",
+        "bytes": 216334
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/recalc/manifest.json",
+        "sha256": "0b4d914c0306a642f749aef7558f6a7023557a35d916cac4bdd8338125461c24",
+        "bytes": 83960
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/recalc-assembly-recipe.json",
+        "sha256": "29d84ee52e6ec282c4ae8071a9bce3869fe0002b81da4176bb667b7e946425d5",
+        "bytes": 2433
+      },
+      "pdf_pages": [
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "segments": [
+        {
+          "name": "opening",
           "manifest": {
             "path": "build/pdf-restoration/13-1984-08-adaptive-batch-41/recalc-opening/manifest.json",
             "sha256": "3e2a9001d750fbe545824e033f2841c156f5478cc4f5ceea40d278709c9d8705",
             "bytes": 66666
-          },
-          "source_pages": [
-            239,
-            240,
-            241,
-            242,
-            243,
-            244
-          ],
-          "regions": 106,
-          "text_regions": 96,
-          "figures": 10,
-          "physical_listing_rows": 568,
-          "logical_listing_rows": 286,
-          "unresolved_entries": 39,
-          "complete_article": false,
-          "checks": {
-            "export_integrity": true,
-            "byte_identical_rebuild": true,
-            "text_and_review_utf8_ranges": true,
-            "listing_byte_coverage": true,
-            "explicit_printed_line_numbers": true
-          },
-          "human_acceptance": "pending",
-          "source_index": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-41/source-index.json",
-            "sha256": "421586e369f90a4a1f83e350f23e6c5087b6344e23e623fd5fa1e1178408500d",
-            "bytes": 1267465
-          },
-          "source_validation": {
-            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-41/validation.json",
-            "sha256": "7f43bb11c1c9f0d2ec497ff15a1b3a34a412f12dc85c95f6c0ec79ca3eb346e7",
-            "bytes": 1325
           }
-        }
-      },
-      {
-        "batch": "batch-42",
-        "source_pages": [
-          245
-        ],
-        "export": {
-          "package": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-42/recalc-ending/article.json",
-            "sha256": "e90f0992358b09456967b3676eacd4ee3f8995653109275a87bf9b0643da97ea",
-            "bytes": 23872
-          },
+        },
+        {
+          "name": "ending",
           "manifest": {
             "path": "build/pdf-restoration/13-1984-08-adaptive-batch-42/recalc-ending/manifest.json",
             "sha256": "c7b73324c5610834a54b7383c9f2a6cb3eaf13509b0691006503e5511fa5737c",
             "bytes": 8375
-          },
-          "source_pages": [
-            245
-          ],
-          "regions": 12,
-          "text_regions": 10,
-          "figures": 2,
-          "physical_listing_rows": 141,
-          "logical_listing_rows": 59,
-          "unresolved_entries": 14,
-          "complete_article": false,
-          "checks": {
-            "export_integrity": true,
-            "byte_identical_rebuild": true,
-            "text_and_review_utf8_ranges": true,
-            "listing_byte_coverage": true,
-            "explicit_printed_line_numbers": true
-          },
-          "human_acceptance": "pending",
-          "source_index": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-42/source-index.json",
-            "sha256": "d004573af584a3c9b9a5c415ff3e9dff8e4b76c3e1b641f22ce350fb1749339a",
-            "bytes": 222078
-          },
-          "source_validation": {
-            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-42/validation.json",
-            "sha256": "759256f90928be0d842fb96abec46ac52345759360c100b33fde3586da0e7a85",
-            "bytes": 1192
           }
         }
-      }
-    ],
+      ],
+      "native_validations": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-41/validation.json",
+          "sha256": "7f43bb11c1c9f0d2ec497ff15a1b3a34a412f12dc85c95f6c0ec79ca3eb346e7",
+          "bytes": 1325
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-42/validation.json",
+          "sha256": "759256f90928be0d842fb96abec46ac52345759360c100b33fde3586da0e7a85",
+          "bytes": 1192
+        }
+      ],
+      "native_indexes": [
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-41/source-index.json",
+          "sha256": "421586e369f90a4a1f83e350f23e6c5087b6344e23e623fd5fa1e1178408500d",
+          "bytes": 1267465
+        },
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-42/source-index.json",
+          "sha256": "d004573af584a3c9b9a5c415ff3e9dff8e4b76c3e1b641f22ce350fb1749339a",
+          "bytes": 222078
+        }
+      ],
+      "regions": 118,
+      "text_regions": 106,
+      "figures": 12,
+      "ordered_blocks": 104,
+      "text_review_items": 106,
+      "native_prose_joins": 2,
+      "native_prose_boundaries": 2,
+      "cross_segment_prose_joins": 0,
+      "physical_listing_rows": 709,
+      "logical_listing_rows": 345,
+      "wrapped_listing_rows": 293,
+      "unnumbered_listing_rows": 71,
+      "listing_groups": 2,
+      "definitions": 28,
+      "inline_examples": 29,
+      "numeric_data_values": 232,
+      "unquoted_string_data_values": 2,
+      "data_fragment_ranges": 237,
+      "unresolved_entries": 53,
+      "copied_native_files": 454,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index/source-index.json",
+        "sha256": "3ac6eb720fa75567706bd11fa8594bbbb15d4b6d926fff4b5326471b2093ff42",
+        "bytes": 2367034
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "article_blocks_and_reading_order_preserved": true,
+        "physical_logical_wrap_ownership": true,
+        "wrong_wrap_owners_rejected": true,
+        "rich_source_global_ranges": true,
+        "data_statement_and_split_fragment_ranges": true,
+        "prior_production_packages_verified": 60,
+        "preserved_pilot_files": 16790,
+        "sealed_raw_and_selected_files_verified": 35849,
+        "all_raw_and_selected_inventories_unchanged": true
+      },
+      "scope": "Full239–245 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "action": "Assemble full239–245 from exact committedimmutable41/42. Existingwrapped listingprojection passes onboth natives: 568+141physical/286+59logical rows; keep independentPASSWORD/list1 andcontinuedRECALC/list2, standalone labels andnative physical wraps.244 ends1860 then245starts1870 onnewphysicalrow; no physicalrowjoin orcrosssegmentprosejoin required. Preserve twoopening proseboundaries, allnative metadata, 28variabledefinitions/29guideentries/232numericDATAvalues/twostringvalues withsplitfragments,12sourceimages and53flags. Independentlyvalidate allsourceindexes andbyte-identical fullrebuild beforefullpromotion; if globalrangeprojection needs compatiblemetadata adapter, validate separatelywithout rewritingnatives. Thenfiveuntouched bodies/fourpilots/informationheading andstandaloneAugustJSON/assetscloseout/requirementsaudit. No newOCR orreading-room rebuild forassembly."
+    "action": "Source-verify 신판UFO actual extent beginning246 beforemapping. Nextcanonical 우주괴물소탕작전252 is onlyboundaryhint; inspect neighboringpages/title/listingterminal/sourcecontinuity. Reuse verified source246/247 evidence whenunchanged, inspect remainingpages andboundaries. Route clearproseT/densecodeQ withboundedfallbacks. Preserve originalmaps/crops/raw attempts, source literals/uncertainties, selecteddraft correction andcost provenance. Validate geometry/sourceindexes/byte-identical rebuild andcommit. Fiveuntouched bodies/foursealedpilots/informationheading andstandaloneAugustJSON/assetscloseout/requirementsaudit remain. Humanacceptance/fullproofreading/sourcebytes/execution unverified. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {

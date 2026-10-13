@@ -5134,3 +5134,48 @@ commit code/documentation. Do not count a partial opening as a complete article.
   remainrequired. Localcompute/tokens monetaryweight0,paidinput1:0.1,outputprice/
   humanactiveeffort unknown. Correctionwindow includes selectedaudit schemafix;
   elapseddiagnostic only. Reporting/commit tail entersnextaudit. No reading-room rebuild.
+
+
+### August full RECALC239–245 assembled, 2026-10-14
+
+- RECALC is complete for the JSON/assets scope on actual source pages239–245,
+  assembled from committed opening41 (`fef0cd8`) and ending42 (`8e2cfd7`).
+  Canonical0032/title/심명섭/parent0031/firstpage240 remain unchanged; the actual
+  opening239 conflict is explicit. All454 original native files are copied exactly.
+- The package preserves118 regions,106 regional readings/reviews,104 text blocks
+  and12 original images. The two native prose joins and two source boundaries
+  remain unchanged. No crosssegment prose or physical-row join is needed:
+  printed1860 ends244 and1870 begins245; main/list2 ends7000RETURN.
+- PASSWORD/list1 remains an independent complete program on241. Main RECALC/list2
+  spans241–245. Together they retain709 physical rows:345 numbered entries,
+  293 wrapped continuations and71 independent label/blank rows. Physical bytes,
+  logical ownership and group membership pass; altered958/6000 wrap owners fail.
+- The independently projected source index preserves28 variable definitions,
+  29 guide entries,232 numeric DATA values and two unquoted string values ]/[.
+  All237 physical DATA fragment ranges reconstruct the234 values exactly,
+  including split22/14 digits. Captions, original metadata and53 source flags
+  remain intact. The absent referenced menufigure1 is flagged, not fabricated.
+- Export integrity, canonical identity, full source coverage, all global UTF-8
+  ranges, independent row reconstruction and a byte-identical fresh rebuild pass.
+  All60 prior packages,16,790 pilot files and35,849 sealed raw/selected files remain
+  unchanged. Existing135-test baseline reused; shared pipeline unchanged.
+- Initial validation wrongly expected article.txt to equal concatenated native
+  downloads. Assembly namespaces the figure-reference markers and emits one
+  final separator. The failed script/diagnostic are preserved; validation now
+  independently derives ordered source block text and namespaced figure markers.
+  Listing.txt is the exact native concatenation. No source/export/OCR change.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/recalc`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-recalc-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/recalc-assembly-validation.json`.
+  August now28 complete/zero partial/five untouched/four pending pilots,
+  five classified headings/one unclassified heading/zero human accepted.
+  The61 packages comprise42 natives/15 assemblies/four selections; all21
+  historical raw milestones remain unchanged.
+- Next: source-verify 신판 UFO beginning246. The next canonical252 entry is only
+  a boundary hint. Five bodies/four pilots/informationheading and standalone
+  whole-issue JSON/assets closeout/requirements audit remain. No new OCR, mapping,
+  rasterization, frontend, browser or reading-room work for this assembly.
+  Human acceptance/full proofreading/source encoded bytes/historical execution
+  remain unverified. Local compute/tokens have monetary weight0; paid input ratio
+  1:0.1, output price and active human effort remain unknown. Assembly/evaluation/
+  reporting elapsed times are diagnostics, not causal engine costs. Goal active.
