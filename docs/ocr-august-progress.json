@@ -15,16 +15,17 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
+    "assistant-partial-human-pending": 1,
     "assistant-restored-human-pending": 26,
     "sealed-pilot-review-pending": 4,
     "section-heading-no-body": 5,
     "unclassified-heading": 1,
-    "untouched": 7
+    "untouched": 6
   },
   "sealed_pilot_articles": 4,
   "production_complete_articles": 26,
-  "production_partial_articles": 0,
-  "untouched_articles": 7,
+  "production_partial_articles": 1,
+  "untouched_articles": 6,
   "unclassified_heading_entries": 1,
   "classified_heading_entries": 5,
   "human_accepted_articles": 0,
@@ -11703,6 +11704,805 @@
         "human_acceptance": "pending"
       },
       "usage_limitation": "All13Q include7original/sixboundedalternates; all15originalT countedonce. Selected13Q/9T source-correctedonce; originalterminalmark,22readings,13directives/threephysical-wrapreferences retained. Printed AISM/GEN I is source discrepancy, superseding sealed initial OCR-defect rationale without rewriting history. Health/GENTRATING/colon-dot-colon/1–80행 retained. Zero correction/export OCR. Localcompute/tokens monetaryweightzero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-38",
+      "toc_entry_id": "maso-1984-08-toc-0030",
+      "title": "마이크로 컴퓨터 설계강좌",
+      "source_pages": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p221r01": "qwen",
+        "p221r02": "tesseract",
+        "p221r03": "tesseract",
+        "p221r05": "qwen",
+        "p221r06": "tesseract",
+        "p222r02": "qwen",
+        "p222r03": "tesseract",
+        "p222r04": "tesseract",
+        "p222r05": "qwen",
+        "p222r06": "qwen",
+        "p222r07": "qwen",
+        "p222r08": "qwen",
+        "p222r09": "qwen",
+        "p222r10": "qwen",
+        "p222r11": "qwen",
+        "p222r12": "qwen",
+        "p222r13": "qwen",
+        "p222r14": "qwen",
+        "p222r16": "qwen",
+        "p222r17": "qwen",
+        "p223r01": "qwen",
+        "p223r02": "qwen",
+        "p223r03": "qwen",
+        "p223r04": "qwen",
+        "p223r05": "qwen",
+        "p223r06": "qwen",
+        "p223r08": "qwen",
+        "p223r09": "qwen",
+        "p223r11": "qwen",
+        "p223r12": "qwen",
+        "p223r13": "qwen",
+        "p223r14": "tesseract",
+        "p223r15": "qwen",
+        "p223r16": "qwen",
+        "p223r18": "qwen",
+        "p223r19": "tesseract",
+        "p224r01": "tesseract",
+        "p224r02": "qwen",
+        "p224r03": "tesseract",
+        "p224r04": "tesseract",
+        "p224r05": "qwen",
+        "p224r06": "tesseract",
+        "p224r08": "qwen",
+        "p224r09": "tesseract",
+        "p224r11": "qwen",
+        "p224r12": "qwen",
+        "p224r14": "qwen",
+        "p224r15": "qwen",
+        "p224r16": "qwen",
+        "p224r17": "tesseract",
+        "p224r18": "qwen",
+        "p225r01": "tesseract",
+        "p225r03": "qwen",
+        "p225r04": "tesseract",
+        "p225r05": "tesseract",
+        "p225r06": "tesseract",
+        "p225r07": "qwen",
+        "p225r09": "qwen",
+        "p225r10": "tesseract",
+        "p226r01": "tesseract",
+        "p226r03": "qwen",
+        "p226r04": "qwen",
+        "p226r06": "qwen",
+        "p226r07": "qwen",
+        "p226r08": "qwen",
+        "p226r09": "qwen",
+        "p226r10": "qwen",
+        "p226r11": "tesseract",
+        "p226r12": "qwen",
+        "p226r13": "qwen",
+        "p226r14": "qwen",
+        "p226r15": "qwen",
+        "p226r16": "qwen"
+      },
+      "assignment_reason": "Clearprose/titles/byline/captions Tesseract. Diagramlabels/voltage,timing/formulas/registerrows/hexvalues/numberedassociations Qwen. Originaldotgrid retained; Qcompanion only A/B data to avoid repeated decorative dots. Thirteen sourceimages including elevennumberedfigures/openingillustration/chapterstrip. No probe/dualcorrection. Native38 covers221–226;227–236/fullassembly required.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/article.json",
+          "sha256": "6c2425f2c2c63c87a4aad690b6ac17c9e584cf699521199eef9f27f1120aeeff",
+          "bytes": 140701
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/manifest.json",
+          "sha256": "fb3db421ce1bf9175e59e88cade5b84168bf1b46451c19b26d496135a672088f",
+          "bytes": 51818
+        },
+        "source_pages": [
+          221,
+          222,
+          223,
+          224,
+          225,
+          226
+        ],
+        "regions": 86,
+        "text_regions": 73,
+        "figures": 13,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 24,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json",
+          "sha256": "93472ea69c6c3cbb2fc01cdb4f2069a48b88cb24e6554c443bbe98c0459c4c53",
+          "bytes": 245310
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json",
+          "sha256": "0bbe51567d359a9bfc8128aa38f4c18392dfaf6b7cd1a8367815306445f96a4d",
+          "bytes": 1828
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/map.json",
+        "sha256": "ebfa5e63bc2b84ce58f1bdacf2e6bdd934bae5092451139b3165c4e8ac6afa11",
+        "bytes": 28401
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/source-review-ledger.json",
+        "sha256": "6aa3a1ecf951e96da5443c88483074869742219aebe64e641d24473ea474c5ae",
+        "bytes": 30721
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 38693,
+        "completion_tokens": 4573,
+        "total_tokens": 43266
+      },
+      "qwen_completed_calls": 53,
+      "qwen_recognition_seconds": 155.11953741498291,
+      "tesseract_recognition_seconds": 23.628079180994973,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T13:33:09.467950+00:00",
+        "finished_at": "2026-10-13T13:34:52.027135+00:00",
+        "elapsed_seconds": 102.55921297700115,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 14,
+          "tesseract_inferences": 59,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 59,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 59,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p225r09",
+          "data_rows": 8,
+          "data_cells": 16
+        }
+      ],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 53,
+        "selected_tesseract_regions": 20,
+        "total_qwen_calls": 53,
+        "total_tesseract_calls": 59,
+        "worker_tesseract_calls": 59,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 39,
+        "additional_tesseract_calls": 0,
+        "additional_qwen_calls": 39,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 18023,
+          "completion_tokens": 3417,
+          "total_tokens": 21440
+        },
+        "decisions": [
+          {
+            "region_id": "p221r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r05",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r06",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r08",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r09",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r10",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r11",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r12",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r13",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p222r17",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r02",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r03",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r04",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r05",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r06",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r09",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r12",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p223r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p224r02",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p224r05",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p224r12",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p224r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p224r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p224r18",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p225r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r04",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r08",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r09",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r10",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r12",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r13",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p226r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          }
+        ],
+        "elapsed_selection_seconds": 0.19167139699857216,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 53,
+      "total_tesseract_calls": 59,
+      "selected_qwen_regions": 53,
+      "selected_tesseract_regions": 20,
+      "worker_qwen_calls": 14,
+      "worker_tesseract_calls": 59,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 39,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/raw-preservation.json",
+        "sha256": "99f94eab1c22d93a217ce1447faf172747e2a62dd45f906f64bf3d70a797a72f",
+        "bytes": 102909
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/selected-raw-preservation.json",
+        "sha256": "5743152f1695adfc5a713b4c772d06bd6c2312fceefb7c939908ad15cb10867d",
+        "bytes": 134172
+      },
+      "source_listing_counts": {
+        "regions": {},
+        "physical_rows": 0,
+        "numbered_rows": 0,
+        "logical_numbered_rows": 0,
+        "listing_groups": 0,
+        "wrapped_continuations": 0,
+        "source_complete_program": false,
+        "source_byte_encoding_verified": false,
+        "human_acceptance": "pending",
+        "note": "Opening has diagrams, formulas and hex table; no program listing."
+      },
+      "source_structured_fields": {
+        "definitions": [
+          {
+            "id": "micro-register-definition-R0",
+            "region_id": "p226r12",
+            "transcription_excerpt": "① R0 : 수평 총문자수 레지스터\n(수평문자수－1)의 값을 써넣는다.",
+            "register": "R0",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-definition-R1",
+            "region_id": "p226r13",
+            "transcription_excerpt": "② R1 : 수평표시문자수 레지스터\n1행의 표시문자수를 지정한다. R0값의 약 2/3정도가 적당하다.",
+            "register": "R1",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-definition-R2",
+            "region_id": "p226r14",
+            "transcription_excerpt": "③ R2 : 수평동기위치 레지스터\n수평동기신호의 출력위치를 지정한다. (수평동기위치－1)의 값을 써넣는다. 이 값을 크게하면 CRT화면상의 표시위치는 왼쪽으로 옮아가게 된다.",
+            "register": "R2",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-definition-R3",
+            "region_id": "p226r15",
+            "transcription_excerpt": "④ R3 : 동기펄스폭 레지스터\n상위 4비트로 수직동기신호, 하위 4비트로 수평동기 신호의 펄스폭을 지정한다. 수평동기펄스폭은 문자클럭(CRTC의 입력클럭)으로 5µs폭을갖도록 한다. 수직동기 펄스폭은 3라스터정도가 표준이다.",
+            "register": "R3",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-definition-R4",
+            "region_id": "p226r16",
+            "transcription_excerpt": "⑤ R4 : 수직총문자수 레지스터\n(수직총문자수－1)의 값을 설정한다.",
+            "register": "R4",
+            "source_bytes_verified": false
+          }
+        ],
+        "tables": [
+          {
+            "table_id": "figure9-hex-values",
+            "region_id": "p225r09",
+            "header_rows": 1,
+            "data_rows": 8,
+            "columns": 2,
+            "data_cells": 16,
+            "header_cells": 2,
+            "nonblank_data_cells": 16,
+            "blank_cells": 0,
+            "source_companion_scope": "Only A/B hexadecimal values; dot grids remain original bitmap."
+          }
+        ],
+        "component_pin_pairs": [],
+        "led_bit_states": [],
+        "port_pin_pairs": [],
+        "formulas": [
+          {
+            "id": "micro-formula-1",
+            "region_id": "p226r03",
+            "transcription_excerpt": "f_c = f_h × (N_ht + 1) ———————————— ①",
+            "source_type": "printed-formula",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-formula-2",
+            "region_id": "p226r03",
+            "transcription_excerpt": "f_dc = f_o × D_c ———————————— ②",
+            "source_type": "printed-formula",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-formula-3",
+            "region_id": "p226r03",
+            "transcription_excerpt": "f_u = f_h / R_t ———————————— ③",
+            "source_type": "printed-formula",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-formula-4",
+            "region_id": "p226r03",
+            "transcription_excerpt": "R_t = (N_vt + 1) (N_r + 1) + N_adj ———————————— ④",
+            "source_type": "printed-formula",
+            "source_bytes_verified": false
+          }
+        ],
+        "formula_definitions": [
+          {
+            "id": "micro-formula-definition-1",
+            "region_id": "p226r03",
+            "transcription_excerpt": "N_ht : 수평총문자수 레지스터 (R_0) 의 설정치",
+            "source_type": "formula-variable-definition",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-formula-definition-2",
+            "region_id": "p226r03",
+            "transcription_excerpt": "D_c : 문자도트수 (= 8)",
+            "source_type": "formula-variable-definition",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-formula-definition-3",
+            "region_id": "p226r03",
+            "transcription_excerpt": "R_t : 1 화면의 총라스터수",
+            "source_type": "formula-variable-definition",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-formula-definition-4",
+            "region_id": "p226r03",
+            "transcription_excerpt": "N_vt : 수직총문자수레지스터 (R_4) 의 설정치",
+            "source_type": "formula-variable-definition",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-formula-definition-5",
+            "region_id": "p226r03",
+            "transcription_excerpt": "N_r : 최대라스터어드레스 레지스터 (R_9) 의 설정치",
+            "source_type": "formula-variable-definition",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-formula-definition-6",
+            "region_id": "p226r03",
+            "transcription_excerpt": "N_adj : 총라스터 · 조정 레지스터 (R_5) 의 설정치",
+            "source_type": "formula-variable-definition",
+            "source_bytes_verified": false
+          }
+        ],
+        "parameter_register_rows": [
+          {
+            "id": "micro-register-row-0",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R0",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-1",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R1",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-2",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R2",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-3",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R3",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-4",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R4",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-5",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R5",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-6",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R6",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-7",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R7",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-8",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R8",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-9",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R9",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-10",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R10",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-11",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R11",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-12",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R12",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-13",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R13",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-14",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R14",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-register-row-15",
+            "region_id": "p226r06",
+            "transcription_excerpt": "R15",
+            "source_type": "parameter-register-label",
+            "source_bytes_verified": false
+          }
+        ],
+        "CRTC_features": [
+          {
+            "id": "micro-feature-1",
+            "region_id": "p225r07",
+            "transcription_excerpt": "① 한 화면의 표시문자수, 한 문자의 도트 구성(세로방향), 수평·수직 동기신호 및 표시신호의 프로그램이 가능하다.",
+            "source_type": "CRTC-feature",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-feature-2",
+            "region_id": "p225r07",
+            "transcription_excerpt": "② 최대 16킬로바이트의 리프레쉬 메모리를 제어할 수 있다.",
+            "source_type": "CRTC-feature",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-feature-3",
+            "region_id": "p225r07",
+            "transcription_excerpt": "③ 인터레이스트(interlaced)와 넌 인터레이스트(non-interlaced) 주사 모우드를 프로그램으로 지정할 수 있다.",
+            "source_type": "CRTC-feature",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-feature-4",
+            "region_id": "p225r07",
+            "transcription_excerpt": "④ 커서형태, 블링크의 제어가 가능하다.",
+            "source_type": "CRTC-feature",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-feature-5",
+            "region_id": "p225r07",
+            "transcription_excerpt": "⑤ 페이징(paging), 스크롤링(scrolling)이 가능하다.",
+            "source_type": "CRTC-feature",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-feature-6",
+            "region_id": "p225r07",
+            "transcription_excerpt": "⑥ 라이트 펜(write pen)의 검출기능을 갖고 있다.",
+            "source_type": "CRTC-feature",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-feature-7",
+            "region_id": "p226r08",
+            "transcription_excerpt": "⑦ 출력은 TTL과 호환성을 가지며 5V단일 전원을 사용한다.",
+            "source_type": "CRTC-feature",
+            "source_bytes_verified": false
+          }
+        ],
+        "current_chapter": 3,
+        "chapter_strip_region_id": "p222r01",
+        "chapter_reading_region_id": "p222r02",
+        "source_bitmap_authoritative": true,
+        "human_acceptance": "pending"
+      },
+      "source_tables": {
+        "tables": [
+          {
+            "table_id": "figure9-hex-values",
+            "region_id": "p225r09",
+            "header_rows": 1,
+            "data_rows": 8,
+            "columns": 2,
+            "data_cells": 16,
+            "header_cells": 2,
+            "nonblank_data_cells": 16,
+            "blank_cells": 0,
+            "source_companion_scope": "Only A/B hexadecimal values; dot grids remain original bitmap."
+          }
+        ],
+        "data_rows": 8,
+        "data_cells": 16,
+        "nonblank_data_cells": 16,
+        "header_rows": 1,
+        "header_cells": 2,
+        "blank_cells": 0,
+        "human_acceptance": "pending"
+      },
+      "usage_limitation": "Actual53Q/59T countedonce including39boundedQalternates; selected53Q/20T correctedonce. No correction/export OCR. Original13images/11captions,4formulas/6variabledefinitions,16registerlabels,8hexrows/16datacells,7features and24flags retained. Sourceclock o/c/u/v andoverbars remain explicit candidates. Localcompute/tokens monetaryweight0; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "assemblies": [
@@ -18484,9 +19284,48 @@
       "page": 221,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-partial-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-38",
+          "source_pages": [
+            221,
+            222,
+            223,
+            224,
+            225,
+            226
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/article.json",
+            "sha256": "6c2425f2c2c63c87a4aad690b6ac17c9e584cf699521199eef9f27f1120aeeff",
+            "bytes": 140701
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "deferred_pdf_pages": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
+      ],
+      "assembly_required": true
     },
     {
       "id": "maso-1984-08-toc-0031",
@@ -19219,19 +20058,12 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 38,
-    "checkpoint": "microcomputer-design-source-correction-and-opening-export",
+    "batch": "batch-39",
+    "status": "source-map-preflight-next",
     "kind": "native-restoration",
-    "status": "microcomputer-design-221-226-selected-raw-complete-correction-pending",
     "toc_entry_id": "maso-1984-08-toc-0030",
-    "canonical_title": "마이크로 컴퓨터 설계강좌",
-    "canonical_byline": "김덕우",
-    "canonical_parent_id": "maso-1984-08-toc-0025",
-    "canonical_first_page": 221,
-    "source_displayed_title": "마이크로 컴퓨터 설계 강좌",
-    "source_byline_candidate": "김덕우/서울대 제어계측공학과 4",
     "article_extent_verified": true,
-    "article_pages": [
+    "article_pdf_pages": [
       221,
       222,
       223,
@@ -19250,79 +20082,67 @@
       236
     ],
     "source_pages": [
-      221,
-      222,
-      223,
-      224,
-      225,
-      226
-    ],
-    "deferred_article_pages": [
       227,
       228,
       229,
       230,
       231,
-      232,
+      232
+    ],
+    "remaining_after_checkpoint": [
       233,
       234,
       235,
       236
     ],
-    "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/extent-inspection.json",
-      "sha256": "bd72c167907ca0962f395fb87cab9eda0e7661c421c3487869ddf8b12565b119",
-      "bytes": 6511
+    "source_opening": {
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/article.json",
+        "sha256": "6c2425f2c2c63c87a4aad690b6ac17c9e584cf699521199eef9f27f1120aeeff",
+        "bytes": 140701
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/manifest.json",
+        "sha256": "fb3db421ce1bf9175e59e88cade5b84168bf1b46451c19b26d496135a672088f",
+        "bytes": 51818
+      },
+      "source_pages": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "regions": 86,
+      "text_regions": 73,
+      "figures": 13,
+      "physical_listing_rows": 0,
+      "logical_listing_rows": 0,
+      "unresolved_entries": 24,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json",
+        "sha256": "93472ea69c6c3cbb2fc01cdb4f2069a48b88cb24e6554c443bbe98c0459c4c53",
+        "bytes": 245310
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json",
+        "sha256": "0bbe51567d359a9bfc8128aa38f4c18392dfaf6b7cd1a8367815306445f96a4d",
+        "bytes": 1828
+      }
     },
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/preflight-acceptance.json",
-      "sha256": "76eb91ba02e44cce80deddf878373be304590aaf246eeaee9938676a1a3af1e2",
-      "bytes": 676
-    },
-    "raw_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/raw-ocr-audit.json",
-      "sha256": "dcd6d9c3c632a3cf7f8532dbe57f0b7115e67ba218dfae33d1cc4012cc008366",
-      "bytes": 587
-    },
-    "raw_selected_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/selected-raw-audit.json",
-      "sha256": "6e1363e29bf5f399cffe675e4176bb5075b03a8df7fd006ab61d7821f0e21d22",
-      "bytes": 1654
-    },
-    "raw_original_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/raw-preservation.json",
-      "sha256": "99f94eab1c22d93a217ce1447faf172747e2a62dd45f906f64bf3d70a797a72f",
-      "bytes": 102909
-    },
-    "raw_selected_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/selected-raw-preservation.json",
-      "sha256": "5743152f1695adfc5a713b4c772d06bd6c2312fceefb7c939908ad15cb10867d",
-      "bytes": 134172
-    },
-    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-38/ocr-selected",
-    "selected_raw_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/raw-selected-drafts.json",
-      "sha256": "38f7589f66b554251df4662b62f139b9b969cbb13b6658714e6d8f56d7fddfd4",
-      "bytes": 38372
-    },
-    "draft_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/selected-draft-inspection.json",
-      "sha256": "16aa322686e0fd268cb79903f62176f4ea75124a654d7f80b08d423114d2ab78",
-      "bytes": 27499
-    },
-    "regions": 86,
-    "text_regions": 73,
-    "figures": 13,
-    "actual_tesseract_calls": 59,
-    "actual_qwen_calls": 53,
-    "selected_tesseract_regions": 20,
-    "selected_qwen_regions": 53,
-    "correction": "pending",
-    "production_export_created": false,
-    "previous_goal_turn_classification": "No progress: previous turn only read plans and restated status. This turn completes crop repair and acceptance,73 original readings/39 bounded alternates, independent raw and selection audits, seals and public draft checkpoint.",
-    "action": "Reuse all73 selected readings and86 source crops. Correct221–226 once against original scans; index11 numbered figures plus illustration/chapter strip,8-row/16-cell hexadecimal table,four numbered formulas,16 register labels,five register definitions,diagram associations andsource flags. Preserve printedHD45505,터미날/억세스/동등/넌 andsource cursor/CRTC/subscript/overbar candidates. Join222음향중→간주파수,222제한을→223주게된다,223그림→2246에,224CRTCHD46505→는,224총문자→수 and224MC→2256845 only with exact source boundaries and explicit intervening objects. CorrectQ regressions주제된다/동기필스/등등/년/액세스/R6/R8 once. Export/index/independently validate andcommit opening. Then restore227–232 and233–236, separately assemble221–236. Finish remaining bodies/four pilots/heading andstandalone wholeAugust JSON/assets closeout andrequirements audit. No reading-room rebuild.",
     "human_acceptance": "pending",
-    "reading_room_rebuild": false
+    "reading_room_rebuild": false,
+    "action": "Reuse pinned extent scans; inspect227–232 and map at mostsixpages. Route clearprose Tesseract, structuredformulas/tables/listings Qwen; retain originalfigures and review allcrops before inference. Correct selecteddraft once, preserve literals/uncertainties, independently validate/commit. Then233–236 andfull221–236assembly. RemainingAugust bodies/pilots/heading andstandaloneissueJSON/assets closeout/requirementsaudit required."
   },
   "raw_preparation_checkpoints": [
     {

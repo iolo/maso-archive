@@ -4713,3 +4713,44 @@ commit code/documentation. Do not count a partial opening as a complete article.
   indexes and opening export221–226, then227–236/full assembly. Remaining August
   and standalone issue JSON/assets closeout/requirements audit are required.
   Full proofreading, source bytes and execution remain unverified. No reader rebuild.
+
+
+### August microcomputer-design opening221–226 source-corrected, 2026-10-13
+
+- Source-corrected the73 selected readings once for opening221–226 of the full
+  마이크로 컴퓨터 설계강좌 (canonical 마이크로 컴퓨터 설계강좌0030/김덕우/parent0025).
+  All86 regions retain66orderedblocks and13originalimages, including11numbered
+  figures/captions, the opening illustration and chapter3strip. Six prosejoins
+  preserve seven column/page boundaries and all intervening objects exactlyonce.
+- Searchable source indexes retain124diagramlabels, four printedformulas, six
+  formula-variable definitions, sixteen R0–R15 registerlabels, five register
+  definitions and seven CRTCfeatures. Figure9 retains eight A/B hexadecimal
+  data rows/16cells plus one header/twocells/zeroblanks; originaldotgrids remain
+  authoritative and no glyphbytes are inferred. No programlisting in this opening.
+- Printed집합/촛점/터미날/HD45505/write pen/억세스 and repeatedwording retained.
+  Formula R9/R5 replace OCR R6/R8 against sourcezoom; clock o/c/u/v, dotclock
+  subscripts/case, overbars, isolatedzero and timing discrepancies remain24explicit
+  sourceflags. Originalbitmaps authoritative; fullproofreading/humanacceptance/
+  sourceencodedbytes/historicalexecution remain unverified.
+- Existingactual53Q/59T countedonce; selected53Q/20T. No correction/export OCR,
+  failures/retries/probes or repeatedsuccessful Qdrafts. All852original and954
+  selected/alternate sealedfiles unchanged. Metadata-finalization pair-loop and
+  literal-unit mistakes plus validator figure-schema/title-spacing mismatches retained; fixed
+  without source/export changes or inference. Sharedpipeline unchanged.
+- Independent sourcepixels/raw/settings, alltext/review/formula/register/table/
+  label ranges, captionassociations and byte-identicalrebuild pass. All54prior
+  productionpackages,native15–38raw/selectedseals and16,790pilotfiles unchanged.
+  Localcompute/tokens monetaryweight0; paidinput1:0.1,outputrate/humanactiveeffort
+  unknown. Elapsedcorrectionwindow includes status/continuationgaps; diagnostic
+  only. Newproduction report-window ID repaired after usageaudit detected its
+  collision with the historicalraw report38; originalaudit andallpriorwindows
+  retained. Reporting/commit tail carriesinto nextusageaudit. JSON/assets only.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design`.
+  Index:`build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json`.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json`.
+  August now26complete/onepartial/sixuntouched/fourpendingpilots/fiveclassified/
+  oneunclassifiedheading/zerohumanaccepted.55packages comprise38natives/13assemblies/
+  fourselections;18historicalraw milestones unchanged. Next227–232,then233–236
+  andfull221–236assembly. RemainingAugust bodies/pilots/heading andstandalone
+  wholeissueJSON/assets closeout/requirementsaudit remain required. Goalactive;
+  no reading-room rebuild.
