@@ -5583,3 +5583,43 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Local computation/tokens have zero monetary weight. Paid input ratio1:0.1;
   output price and active human effort unknown. Elapsed windows are diagnostics;
   commit/response costs enter the next audit. No reading-room rebuild.
+
+
+### August 편집자 노트20 pilot promoted, 2026-10-14
+
+- Promoted the complete 편집자 노트 on source page 20 from sealed Tesseract
+  pilot aug-01-A into a separate production revision. Canonical entry0037, null
+  byline, parent0036 and first page20 remain unchanged. Actual source19 is the
+  issue title page;20 has the distinct editorial title and ending mark;21 begins
+  the logic-IC feature. No continuation, deferred area or assembly remains.
+- Reinspected all14 corrected text crops in seven panels, the original ending
+  mark and three whole-page views. All14 selected transcriptions and complete
+  article.txt bytes remain identical to the sealed Tesseract pilot. Both independent
+  arms remain unchanged. The earlier paired check found three spacing differences
+  and no nonwhitespace disagreements; this is neither a universal engine ranking
+  nor a causal cost comparison. Clear prose follows the Tesseract starting route.
+- The revision retains15 regions,14 ordered blocks,14 regional/review ranges,
+  one original image and two internal paragraph breaks. No cross-region join,
+  table or program listing is invented. The original blurred 될 syllable/adjacent
+  speck flag remains, alongside explicit preservation notes for printed 있다,
+  논성, 가르키기 and 오오사까. Existing operational dehyphenation and historical
+  Korean spellings remain unchanged. Human acceptance/full proofreading pending.
+- Independent canonical/extent/source-pixel/raw/settings checks, exact text/review
+  ranges and a fresh byte-identical rebuild pass. All79 copied immutable evidence
+  files,66 prior production packages, native15–47 raw/selected seals and16,790
+  pilot files remain unchanged. Original pilot metadata/review notes are embedded
+  separately. No new OCR, local tokens, crop repairs or shared pipeline change;
+  the pinned passing135-test baseline is reused. Source encoding remains unverified.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/editorial`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-editorial-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/pilot-aug-01/validation.json`.
+  August now has34 complete articles, zero partials or untouched bodies, three
+  pending pilots, five classified headings, one unclassified heading and zero
+  human acceptances. Its67 packages comprise47 natives,15 assemblies and five
+  selections; all24 historical raw milestones remain unchanged. Next: source-verify
+  and select the sealed 공모총평 aug-03 pilot, resolve aug-07/aug-08 and 정보모음,
+  then complete standalone issue JSON/assets closeout and requirements audit.
+  Old pilot recognition/correction costs are not counted again. Local compute/
+  tokens have zero monetary weight; paid input ratio1:0.1, output price and active
+  human effort unknown. Elapsed windows are diagnostics; commit/response costs
+  enter the next audit. No reading-room rebuild.
