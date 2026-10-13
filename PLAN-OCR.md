@@ -4799,3 +4799,48 @@ commit code/documentation. Do not count a partial opening as a complete article.
   content, standalone issue JSON/assets and the requirements audit are required.
   Full proofreading, source bytes and historical execution remain unverified.
   No reading-room rebuild. The reporting/commit tail enters the next usage audit.
+
+
+### August microcomputer-design middle227–232 restored, 2026-10-14
+
+- Checkpoint 39 restores PDF pages 227–232 of the microcomputer-design article.
+  Its 96 readings were corrected once against source crops, preserving 94 ordered
+  blocks and 12 original images: figures 12–21 and printed tables 1–2. Two prose
+  joins retain the R8 definition and the split word 되+고 across the page 231 header.
+- Four searchable tables retain 36 data rows / 178 cells / 13 blank cells, plus
+  four header rows / 20 cells / eight blank header cells. The two-row register
+  header and diagonal decimal blanks remain explicit. Printed register-row shifts,
+  missing units and discrepancies with nearby prose were preserved.
+- Indexes retain 522 diagram label ranges, 183 pin fields (including all 40 CRTC
+  pins), 16 register rows, nine definitions, three formula occurrences and all
+  64 keyboard positions. Duplicate/irregular key numbers are source candidates;
+  duplicate values have distinct positional byte ranges. Overlapping crop labels
+  have explicit shared-context aliases. Character patterns remain original bitmaps;
+  no encoded glyph bytes or electrical correctness are inferred.
+- Seventy-four source flags preserve faint pin/subscript candidates, 60KHz,
+  140ms/140ns, DE/OE, D7/D1, VSNC/HSNC, component-model and figure-reference
+  differences. Human acceptance, full proofreading, source bytes and historical
+  execution remain unverified.
+- Actual recognition remains 77 Qwen / 49 Tesseract, including three capped Qwen
+  responses and their Tesseract fallbacks. Selected readings are 74 Qwen / 22
+  Tesseract. No OCR was run during correction/export. All 1,744 original and
+  1,011 selected/alternate sealed files remain unchanged. The failed export check
+  is retained: the sealed page 229 bundle omitted its orientation field, while
+  settings and pixels were correct. A separately pinned export manifest adds only
+  the verified field; raw text, settings, positions, crops and runtime stay exact.
+- Independent checks pass for all source pixels, page 229 orientation, raw hashes,
+  text/review/table/pin/key/formula/label ranges, caption associations and a
+  byte-identical reconstruction. All 55 prior production packages, native 15–39
+  evidence seals and 16,790 pilot files remain unchanged. Shared pipeline unchanged;
+  the private export helper supports two table header rows and explicit offsets
+  for repeated key values. Local compute/tokens have zero monetary weight; paid
+  input ratio is 1:0.1, output price and human active effort remain unknown.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-39/validation.json`.
+  August remains 26 complete / one partial / six untouched / four pending pilots,
+  five classified headings / one unclassified heading / zero human acceptances.
+  There are 56 packages: 39 natives, 13 assemblies and four selections. All 19
+  historical raw milestones remain exact. Next: restore 233–236, then assemble
+  the full 221–236 article. Remaining August content and standalone issue JSON/assets
+  closeout/requirements audit remain required. No reading-room rebuild.

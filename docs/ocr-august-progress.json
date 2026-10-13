@@ -12503,6 +12503,3371 @@
         "human_acceptance": "pending"
       },
       "usage_limitation": "Actual53Q/59T countedonce including39boundedQalternates; selected53Q/20T correctedonce. No correction/export OCR. Original13images/11captions,4formulas/6variabledefinitions,16registerlabels,8hexrows/16datacells,7features and24flags retained. Sourceclock o/c/u/v andoverbars remain explicit candidates. Localcompute/tokens monetaryweight0; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-39",
+      "toc_entry_id": "maso-1984-08-toc-0030",
+      "title": "마이크로 컴퓨터 설계강좌",
+      "source_pages": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p227r01": "tesseract",
+        "p227r03": "qwen",
+        "p227r04": "qwen",
+        "p227r06": "qwen",
+        "p227r07": "qwen",
+        "p227r08": "qwen",
+        "p227r09": "qwen",
+        "p227r10": "qwen",
+        "p227r11": "qwen",
+        "p227r12": "qwen",
+        "p227r13": "qwen",
+        "p227r14": "qwen",
+        "p227r15": "qwen",
+        "p227r16": "qwen",
+        "p227r17": "qwen",
+        "p227r18": "qwen",
+        "p227r19": "qwen",
+        "p227r20": "qwen",
+        "p227r21": "qwen",
+        "p227r22": "qwen",
+        "p227r23": "qwen",
+        "p228r01": "tesseract",
+        "p228r03": "qwen",
+        "p228r04": "tesseract",
+        "p228r06": "qwen",
+        "p228r07": "qwen",
+        "p228r08": "tesseract",
+        "p228r09": "tesseract",
+        "p228r10": "qwen",
+        "p228r11": "qwen",
+        "p228r12": "qwen",
+        "p228r13": "tesseract",
+        "p228r14": "qwen",
+        "p229r01": "qwen",
+        "p229r03": "qwen",
+        "p229r04": "qwen",
+        "p229r05": "qwen",
+        "p229r06": "qwen",
+        "p229r07": "qwen",
+        "p229r08": "qwen",
+        "p229r09": "qwen",
+        "p229r10": "qwen",
+        "p229r11": "qwen",
+        "p229r12": "qwen",
+        "p229r13": "tesseract",
+        "p229r14": "qwen",
+        "p230r01": "tesseract",
+        "p230r03": "qwen",
+        "p230r04": "qwen",
+        "p230r06": "qwen",
+        "p230r07": "tesseract",
+        "p230r09": "qwen",
+        "p230r10": "qwen",
+        "p230r11": "qwen",
+        "p230r12": "qwen",
+        "p230r13": "tesseract",
+        "p230r14": "qwen",
+        "p230r15": "qwen",
+        "p230r16": "tesseract",
+        "p230r17": "qwen",
+        "p231r01": "tesseract",
+        "p231r02": "qwen",
+        "p231r03": "tesseract",
+        "p231r04": "qwen",
+        "p231r05": "tesseract",
+        "p231r06": "qwen",
+        "p231r07": "qwen",
+        "p231r09": "qwen",
+        "p231r10": "qwen",
+        "p231r11": "tesseract",
+        "p231r13": "qwen",
+        "p231r14": "qwen",
+        "p231r15": "qwen",
+        "p231r16": "qwen",
+        "p231r17": "qwen",
+        "p231r18": "qwen",
+        "p231r19": "tesseract",
+        "p232r01": "tesseract",
+        "p232r03": "qwen",
+        "p232r04": "qwen",
+        "p232r05": "qwen",
+        "p232r06": "tesseract",
+        "p232r08": "qwen",
+        "p232r09": "qwen",
+        "p232r10": "tesseract",
+        "p232r11": "tesseract",
+        "p232r12": "tesseract",
+        "p232r13": "qwen",
+        "p232r14": "qwen",
+        "p232r15": "qwen",
+        "p232r16": "qwen",
+        "p232r17": "tesseract",
+        "p232r18": "qwen",
+        "p229r15": "qwen",
+        "p229r16": "qwen",
+        "p232r19": "qwen"
+      },
+      "assignment_reason": "Clearprose/headings/captions Tesseract. Dense registerdefinitions, model/portidentifiers, tablevalues, pinlabels/circuitparts/waveformlabels/keypositions Qwen. Twelve originalimages (ten numberedfigures/two tables) retained. Charactergrid companion only axislabels/userdefinitionnote, no glyphbyte inference. Explicit sourcepage229 clockwise90orientation, originalnative preserved. No probes ordualcorrection. Native39 covers227–232;233–236/fullassembly required.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/article.json",
+          "sha256": "13f0efbcc7c7269066061d06e326a1979fe233602d378987dc8372645ac1ad02",
+          "bytes": 183633
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/manifest.json",
+          "sha256": "039dd85b4df8b2c6822e5aa99bf774d6043cad454c2e3cd71533d409004957ca",
+          "bytes": 66990
+        },
+        "source_pages": [
+          227,
+          228,
+          229,
+          230,
+          231,
+          232
+        ],
+        "regions": 108,
+        "text_regions": 96,
+        "figures": 12,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 74,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39/source-index.json",
+          "sha256": "b6dddce93d4a6470a6973875656148f6df5a9c713222240c64534b1ec79beb0f",
+          "bytes": 1121888
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/validation.json",
+          "sha256": "ba945dd4cc275531d8e863e541cf1d5bafe2cf26e3fc455d7ed8f78b5952f888",
+          "bytes": 1614
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/map.json",
+        "sha256": "6b49b931c76d26e6336de23115d7466d942aa6ce1a339a26c5ded656bc33e0a5",
+        "bytes": 35615
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/source-review-ledger.json",
+        "sha256": "bd19532ea74d143b976b61a47c36aa56b0a390592fb53b8debb51fc9a5dfa910",
+        "bytes": 37650
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 45496,
+        "completion_tokens": 13284,
+        "total_tokens": 58780
+      },
+      "qwen_completed_calls": 74,
+      "qwen_failed_calls": 3,
+      "qwen_recognition_seconds": 274.8549721820127,
+      "qwen_recognition_timing_scope": "Successful calls only; failed actual wall times unavailable.",
+      "failed_qwen_server_reported_seconds": 208.941316,
+      "failed_qwen_wall_seconds": null,
+      "all_qwen_recognition_seconds": null,
+      "tesseract_recognition_seconds": 21.471287867989304,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T15:12:03.331405+00:00",
+        "finished_at": "2026-10-13T15:19:09.694379+00:00",
+        "elapsed_seconds": 426.36299469200094,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 47,
+          "tesseract_inferences": 49,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 49,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 49,
+          "qwen_failed_calls": 3
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p227r03",
+          "data_rows": 10,
+          "data_cells": 30
+        },
+        {
+          "region_id": "p227r06",
+          "data_rows": 16,
+          "data_cells": 112
+        },
+        {
+          "region_id": "p231r10",
+          "data_rows": 4,
+          "data_cells": 12
+        },
+        {
+          "region_id": "p231r15",
+          "data_rows": 6,
+          "data_cells": 24
+        }
+      ],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 74,
+        "selected_tesseract_regions": 22,
+        "total_qwen_calls": 77,
+        "total_tesseract_calls": 49,
+        "worker_tesseract_calls": 49,
+        "primary_qwen_failed_calls": 3,
+        "primary_qwen_failed_regions": [
+          "p229r13",
+          "p232r10",
+          "p232r11"
+        ],
+        "alternate_qwen_failed_calls": 0,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 27,
+        "additional_tesseract_calls": 0,
+        "additional_qwen_calls": 27,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 13229,
+          "completion_tokens": 2747,
+          "total_tokens": 15976
+        },
+        "decisions": [
+          {
+            "region_id": "p227r04",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p227r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p227r20",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p227r21",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p227r22",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p227r23",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p228r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p228r10",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p228r11",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p228r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p229r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p230r04",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p230r10",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p230r11",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p230r12",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p230r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p230r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p230r17",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p231r02",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p231r04",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p231r06",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p231r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p232r13",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p232r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p232r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p232r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p232r18",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          }
+        ],
+        "elapsed_selection_seconds": 0.3261923480022233,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 77,
+      "total_tesseract_calls": 49,
+      "selected_qwen_regions": 74,
+      "selected_tesseract_regions": 22,
+      "worker_qwen_calls": 50,
+      "worker_tesseract_calls": 49,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 27,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/raw-preservation.json",
+        "sha256": "d9bf39bc9f2af1e7bab31cbf0acf3d3fbeec84c59e89f5f3616cc8c1266f4a24",
+        "bytes": 207173
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/selected-raw-preservation.json",
+        "sha256": "bd4ecb7fee3a1b216e36eedd191600c6acfa76c6a5e7232eefb7c9c722f73a06",
+        "bytes": 144520
+      },
+      "export_evidence_derivation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/export-evidence-derivation.json",
+        "sha256": "9054b5a9d28af61e5c828cc20cf8e277db5208dee72baaba18b5e5b95e30a407",
+        "bytes": 114765
+      },
+      "source_listing_counts": {
+        "regions": {},
+        "physical_rows": 0,
+        "numbered_rows": 0,
+        "logical_numbered_rows": 0,
+        "listing_groups": 0,
+        "wrapped_continuations": 0,
+        "source_complete_program": false,
+        "source_byte_encoding_verified": false,
+        "human_acceptance": "pending",
+        "note": "No program listing on227–232; prose announces later listing1."
+      },
+      "source_structured_fields": {
+        "definitions": [
+          {
+            "id": "micro-middle-definition-p227r09",
+            "region_id": "p227r09",
+            "transcription_excerpt": "⑥ R5 : 총 라스터 조정 레지스터\n수평, 수직동기가 모니터 TV의 규격에 일치하도록 라스터 조정을 한다. (0~31)",
+            "source_bytes_verified": false,
+            "continuation_region_ids": []
+          },
+          {
+            "id": "micro-middle-definition-p227r10",
+            "region_id": "p227r10",
+            "transcription_excerpt": "⑦ R6 : 수직표시문자수 레지스터\n화면에 표시되는 문자의 행수를 지정한다. 수직총문자수의 약 2/3 정도로 한다.",
+            "source_bytes_verified": false,
+            "continuation_region_ids": []
+          },
+          {
+            "id": "micro-middle-definition-p227r11",
+            "region_id": "p227r11",
+            "transcription_excerpt": "⑧ R7 : 수직동기위치 레지스터\n(수직동기위치−1)의 값을 설정한다. 이 값을 크게 하면 화면상의 표시위치는 위로, 작게하면 아래로 이동한다.",
+            "source_bytes_verified": false,
+            "continuation_region_ids": []
+          },
+          {
+            "id": "micro-middle-definition-p227r12",
+            "region_id": "p227r12",
+            "transcription_excerpt": "⑨ R8 : 인터레이스 및 스큐 레지스터\n라스터 주사 모드를 지정한다. 이",
+            "source_bytes_verified": false,
+            "continuation_region_ids": [
+              "p227r13"
+            ]
+          },
+          {
+            "id": "micro-middle-definition-p227r14",
+            "region_id": "p227r14",
+            "transcription_excerpt": "⑩ R9 : 최대 라스터 어드레스 레지스터\n행사이를 포함한 1행의 최대 라스터 번지를 결정한다.",
+            "source_bytes_verified": false,
+            "continuation_region_ids": []
+          },
+          {
+            "id": "micro-middle-definition-p227r15",
+            "region_id": "p227r15",
+            "transcription_excerpt": "⑪ R10 : 커서 스타트 라스터 레지스터\n하위 5비트에 커서표시의 시작번지를, D₆과 D₅의 2비트에 커서 표시 모드를 설정한다.",
+            "source_bytes_verified": false,
+            "continuation_region_ids": []
+          },
+          {
+            "id": "micro-middle-definition-p227r16",
+            "region_id": "p227r16",
+            "transcription_excerpt": "⑫ R11 : 커서 종료 라스터레지스터\n커서표시의 종료 라스터 번지를 지정한다.\nR10과 R11에 의해 커서의 모양을 지정 할 수 있다.",
+            "source_bytes_verified": false,
+            "continuation_region_ids": []
+          },
+          {
+            "id": "micro-middle-definition-p227r17",
+            "region_id": "p227r17",
+            "transcription_excerpt": "⑬ R12, R13 : 시작번지 지정레지스터\n비데오램의 내용을 읽어낼 때의 선두번지를 지정한다. 상위의 비트는 무시되지만, 알기쉽도록 리프레쉬 메모리의 시작번지 (F800H)를 그대로 설정한다.",
+            "source_bytes_verified": false,
+            "continuation_region_ids": []
+          },
+          {
+            "id": "micro-middle-definition-p227r18",
+            "region_id": "p227r18",
+            "transcription_excerpt": "⑭ R14, R15 : 커서 레지스터\n커서의 표시 번지를 지정한다. 이 레지스터는 CPU로부터 R/W 모두 가능하며, R14를 읽어보면 상위 2비트는 모두 0으로 되어있다.",
+            "source_bytes_verified": false,
+            "continuation_region_ids": []
+          }
+        ],
+        "tables": [
+          {
+            "table_id": "display-specifications",
+            "region_id": "p227r03",
+            "header_rows": 1,
+            "data_rows": 10,
+            "columns": 3,
+            "data_cells": 30,
+            "header_cells": 3,
+            "nonblank_data_cells": 30,
+            "blank_cells": 0,
+            "header_blank_cells": 1,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "register-settings",
+            "region_id": "p227r06",
+            "header_rows": 2,
+            "data_rows": 16,
+            "columns": 7,
+            "data_cells": 112,
+            "header_cells": 14,
+            "nonblank_data_cells": 99,
+            "blank_cells": 13,
+            "header_blank_cells": 7,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "memory-truth-table",
+            "region_id": "p231r10",
+            "header_rows": 1,
+            "data_rows": 4,
+            "columns": 3,
+            "data_cells": 12,
+            "header_cells": 3,
+            "nonblank_data_cells": 12,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "mixer-resistors-signals",
+            "region_id": "p231r15",
+            "header_rows": 0,
+            "data_rows": 6,
+            "columns": 4,
+            "data_cells": 24,
+            "header_cells": 0,
+            "nonblank_data_cells": 24,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          }
+        ],
+        "component_pin_pairs": [
+          {
+            "id": "micro-middle-pin-1",
+            "region_id": "p228r06",
+            "transcription_excerpt": "1\tVss",
+            "character_start": 0,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-2",
+            "region_id": "p228r06",
+            "transcription_excerpt": "2\tR̅E̅S̅\t리세트",
+            "character_start": 6,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-3",
+            "region_id": "p228r06",
+            "transcription_excerpt": "3\tLPSTB\t라이트펜 스트로브신호",
+            "character_start": 19,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-4",
+            "region_id": "p228r06",
+            "transcription_excerpt": "4\tMA₀",
+            "character_start": 39,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-5",
+            "region_id": "p228r06",
+            "transcription_excerpt": "5\tMA₁",
+            "character_start": 45,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-6",
+            "region_id": "p228r06",
+            "transcription_excerpt": "6\tMA₂",
+            "character_start": 51,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-7",
+            "region_id": "p228r06",
+            "transcription_excerpt": "7\tMA₃",
+            "character_start": 57,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-8",
+            "region_id": "p228r06",
+            "transcription_excerpt": "8\tMA₄",
+            "character_start": 63,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-9",
+            "region_id": "p228r06",
+            "transcription_excerpt": "9\tMA₅",
+            "character_start": 69,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-10",
+            "region_id": "p228r06",
+            "transcription_excerpt": "10\tMA₆",
+            "character_start": 75,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-11",
+            "region_id": "p228r06",
+            "transcription_excerpt": "11\tMA₇",
+            "character_start": 82,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-12",
+            "region_id": "p228r06",
+            "transcription_excerpt": "12\tMA₈",
+            "character_start": 89,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-13",
+            "region_id": "p228r06",
+            "transcription_excerpt": "13\tMA₉",
+            "character_start": 96,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-14",
+            "region_id": "p228r06",
+            "transcription_excerpt": "14\tMA₁₀",
+            "character_start": 103,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-15",
+            "region_id": "p228r06",
+            "transcription_excerpt": "15\tMA₁₁",
+            "character_start": 111,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-16",
+            "region_id": "p228r06",
+            "transcription_excerpt": "16\tMA₁₂",
+            "character_start": 119,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-17",
+            "region_id": "p228r06",
+            "transcription_excerpt": "17\tMA₁₃",
+            "character_start": 127,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-18",
+            "region_id": "p228r06",
+            "transcription_excerpt": "18\tDISP TMG\t표시타이밍신호",
+            "character_start": 135,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-19",
+            "region_id": "p228r06",
+            "transcription_excerpt": "19\tCUDISP\t커서표시신호",
+            "character_start": 155,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-20",
+            "region_id": "p228r06",
+            "transcription_excerpt": "20\tVcc",
+            "character_start": 172,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-21",
+            "region_id": "p228r06",
+            "transcription_excerpt": "40\tVSYNC\t수직동기신호",
+            "character_start": 179,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-22",
+            "region_id": "p228r06",
+            "transcription_excerpt": "39\tHSYNC\t수평동기신호",
+            "character_start": 195,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-23",
+            "region_id": "p228r06",
+            "transcription_excerpt": "38\tRA₀",
+            "character_start": 211,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-24",
+            "region_id": "p228r06",
+            "transcription_excerpt": "37\tRA₁",
+            "character_start": 218,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-25",
+            "region_id": "p228r06",
+            "transcription_excerpt": "36\tRA₂",
+            "character_start": 225,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-26",
+            "region_id": "p228r06",
+            "transcription_excerpt": "35\tRA₃",
+            "character_start": 232,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-27",
+            "region_id": "p228r06",
+            "transcription_excerpt": "34\tRA₄",
+            "character_start": 239,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-28",
+            "region_id": "p228r06",
+            "transcription_excerpt": "33\tD₀",
+            "character_start": 246,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-29",
+            "region_id": "p228r06",
+            "transcription_excerpt": "32\tD₁",
+            "character_start": 252,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-30",
+            "region_id": "p228r06",
+            "transcription_excerpt": "31\tD₂",
+            "character_start": 258,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-31",
+            "region_id": "p228r06",
+            "transcription_excerpt": "30\tD₃",
+            "character_start": 264,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-32",
+            "region_id": "p228r06",
+            "transcription_excerpt": "29\tD₄",
+            "character_start": 270,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-33",
+            "region_id": "p228r06",
+            "transcription_excerpt": "28\tD₅",
+            "character_start": 276,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-34",
+            "region_id": "p228r06",
+            "transcription_excerpt": "27\tD₆",
+            "character_start": 282,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-35",
+            "region_id": "p228r06",
+            "transcription_excerpt": "26\tD₇",
+            "character_start": 288,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-36",
+            "region_id": "p228r06",
+            "transcription_excerpt": "25\tC̅S̅\t칩선택신호",
+            "character_start": 294,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-37",
+            "region_id": "p228r06",
+            "transcription_excerpt": "24\tRS\t레지스터선택신호",
+            "character_start": 308,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-38",
+            "region_id": "p228r06",
+            "transcription_excerpt": "23\tE\t인에이블신호",
+            "character_start": 323,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-39",
+            "region_id": "p228r06",
+            "transcription_excerpt": "22\tR/W̅",
+            "character_start": 335,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-40",
+            "region_id": "p228r06",
+            "transcription_excerpt": "21\tCLK\t문자클럭신호",
+            "character_start": 343,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-41",
+            "region_id": "p229r03",
+            "transcription_excerpt": "5 G₂B",
+            "character_start": 55,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-42",
+            "region_id": "p229r03",
+            "transcription_excerpt": "4 G₂A",
+            "character_start": 61,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-43",
+            "region_id": "p229r03",
+            "transcription_excerpt": "6 G₁",
+            "character_start": 67,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-44",
+            "region_id": "p229r03",
+            "transcription_excerpt": "3 C",
+            "character_start": 72,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-45",
+            "region_id": "p229r03",
+            "transcription_excerpt": "2 B",
+            "character_start": 76,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-46",
+            "region_id": "p229r03",
+            "transcription_excerpt": "1 A",
+            "character_start": 80,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-47",
+            "region_id": "p229r03",
+            "transcription_excerpt": "7 Y₇",
+            "character_start": 84,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-48",
+            "region_id": "p229r05",
+            "transcription_excerpt": "8 A₀",
+            "character_start": 20,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-49",
+            "region_id": "p229r05",
+            "transcription_excerpt": "7 A₁",
+            "character_start": 25,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-50",
+            "region_id": "p229r05",
+            "transcription_excerpt": "6 A₂",
+            "character_start": 30,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-51",
+            "region_id": "p229r05",
+            "transcription_excerpt": "5 A₃",
+            "character_start": 35,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-52",
+            "region_id": "p229r05",
+            "transcription_excerpt": "4 A₄",
+            "character_start": 40,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-53",
+            "region_id": "p229r05",
+            "transcription_excerpt": "3 A₅",
+            "character_start": 45,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-54",
+            "region_id": "p229r05",
+            "transcription_excerpt": "2 A₆",
+            "character_start": 50,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-55",
+            "region_id": "p229r05",
+            "transcription_excerpt": "1 A₇",
+            "character_start": 55,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-56",
+            "region_id": "p229r05",
+            "transcription_excerpt": "23 A₈",
+            "character_start": 60,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-57",
+            "region_id": "p229r05",
+            "transcription_excerpt": "22 A₉",
+            "character_start": 66,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-58",
+            "region_id": "p229r05",
+            "transcription_excerpt": "19 A₁₀",
+            "character_start": 72,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-59",
+            "region_id": "p229r05",
+            "transcription_excerpt": "20 O̅E̅",
+            "character_start": 82,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-60",
+            "region_id": "p229r05",
+            "transcription_excerpt": "18 C̅S̅",
+            "character_start": 90,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-61",
+            "region_id": "p229r06",
+            "transcription_excerpt": "23 E",
+            "character_start": 6,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-62",
+            "region_id": "p229r06",
+            "transcription_excerpt": "4 A₀",
+            "character_start": 11,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-63",
+            "region_id": "p229r06",
+            "transcription_excerpt": "5 A₁",
+            "character_start": 16,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-64",
+            "region_id": "p229r06",
+            "transcription_excerpt": "6 A₂",
+            "character_start": 21,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-65",
+            "region_id": "p229r06",
+            "transcription_excerpt": "7 A₃",
+            "character_start": 26,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-66",
+            "region_id": "p229r06",
+            "transcription_excerpt": "8 A₄",
+            "character_start": 31,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-67",
+            "region_id": "p229r06",
+            "transcription_excerpt": "9 A₅",
+            "character_start": 36,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-68",
+            "region_id": "p229r06",
+            "transcription_excerpt": "10 A₆",
+            "character_start": 41,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-69",
+            "region_id": "p229r06",
+            "transcription_excerpt": "11 A₇",
+            "character_start": 47,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-70",
+            "region_id": "p229r06",
+            "transcription_excerpt": "12 A₈",
+            "character_start": 53,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-71",
+            "region_id": "p229r06",
+            "transcription_excerpt": "13 A₉",
+            "character_start": 59,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-72",
+            "region_id": "p229r06",
+            "transcription_excerpt": "14 A₁₀",
+            "character_start": 65,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-73",
+            "region_id": "p229r06",
+            "transcription_excerpt": "24 RS",
+            "character_start": 72,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-74",
+            "region_id": "p229r06",
+            "transcription_excerpt": "2 RESET",
+            "character_start": 78,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-75",
+            "region_id": "p229r06",
+            "transcription_excerpt": "21 CLK",
+            "character_start": 86,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-76",
+            "region_id": "p229r06",
+            "transcription_excerpt": "19 CUDISP",
+            "character_start": 93,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-77",
+            "region_id": "p229r06",
+            "transcription_excerpt": "18 DISP TMG",
+            "character_start": 103,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-78",
+            "region_id": "p229r06",
+            "transcription_excerpt": "22 R/W̅",
+            "character_start": 115,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-79",
+            "region_id": "p229r06",
+            "transcription_excerpt": "25 CS",
+            "character_start": 123,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-80",
+            "region_id": "p229r06",
+            "transcription_excerpt": "40 VSNC",
+            "character_start": 129,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-81",
+            "region_id": "p229r06",
+            "transcription_excerpt": "39 HSNC",
+            "character_start": 137,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-82",
+            "region_id": "p229r06",
+            "transcription_excerpt": "38 RA₀",
+            "character_start": 177,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-83",
+            "region_id": "p229r06",
+            "transcription_excerpt": "37 RA₁",
+            "character_start": 184,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-84",
+            "region_id": "p229r06",
+            "transcription_excerpt": "36 RA₂",
+            "character_start": 191,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-85",
+            "region_id": "p229r08",
+            "transcription_excerpt": "1 CLR",
+            "character_start": 29,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-86",
+            "region_id": "p229r08",
+            "transcription_excerpt": "7 EP",
+            "character_start": 35,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-87",
+            "region_id": "p229r08",
+            "transcription_excerpt": "9 LD",
+            "character_start": 40,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-88",
+            "region_id": "p229r08",
+            "transcription_excerpt": "10 ET",
+            "character_start": 45,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-89",
+            "region_id": "p229r08",
+            "transcription_excerpt": "3 A",
+            "character_start": 51,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-90",
+            "region_id": "p229r08",
+            "transcription_excerpt": "4 B",
+            "character_start": 55,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-91",
+            "region_id": "p229r08",
+            "transcription_excerpt": "5 C",
+            "character_start": 59,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-92",
+            "region_id": "p229r08",
+            "transcription_excerpt": "6 D",
+            "character_start": 63,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-93",
+            "region_id": "p229r08",
+            "transcription_excerpt": "2 CK",
+            "character_start": 67,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-94",
+            "region_id": "p229r08",
+            "transcription_excerpt": "12 Q꜀",
+            "character_start": 72,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-95",
+            "region_id": "p229r08",
+            "transcription_excerpt": "13 Qᵦ",
+            "character_start": 78,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-96",
+            "region_id": "p229r08",
+            "transcription_excerpt": "14 Qₐ",
+            "character_start": 84,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-97",
+            "region_id": "p229r09",
+            "transcription_excerpt": "1 DIR",
+            "character_start": 37,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-98",
+            "region_id": "p229r09",
+            "transcription_excerpt": "19 G",
+            "character_start": 43,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-99",
+            "region_id": "p229r11",
+            "transcription_excerpt": "6 A₂",
+            "character_start": 33,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-100",
+            "region_id": "p229r11",
+            "transcription_excerpt": "7 A₁",
+            "character_start": 38,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-101",
+            "region_id": "p229r11",
+            "transcription_excerpt": "8 A₀",
+            "character_start": 43,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-102",
+            "region_id": "p229r11",
+            "transcription_excerpt": "18 PD/PGM",
+            "character_start": 48,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-103",
+            "region_id": "p229r11",
+            "transcription_excerpt": "20 C̅S̅",
+            "character_start": 58,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-104",
+            "region_id": "p229r11",
+            "transcription_excerpt": "9 CLR",
+            "character_start": 129,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-105",
+            "region_id": "p229r11",
+            "transcription_excerpt": "1 SI",
+            "character_start": 139,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-106",
+            "region_id": "p229r11",
+            "transcription_excerpt": "15 S/L",
+            "character_start": 144,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-107",
+            "region_id": "p229r11",
+            "transcription_excerpt": "7 CK",
+            "character_start": 151,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-108",
+            "region_id": "p229r11",
+            "transcription_excerpt": "6 CK IH",
+            "character_start": 156,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-109",
+            "region_id": "p229r12",
+            "transcription_excerpt": "2 D",
+            "character_start": 7,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-110",
+            "region_id": "p229r12",
+            "transcription_excerpt": "3 CK",
+            "character_start": 11,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-111",
+            "region_id": "p229r12",
+            "transcription_excerpt": "5 Q",
+            "character_start": 16,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-112",
+            "region_id": "p229r12",
+            "transcription_excerpt": "12 D",
+            "character_start": 25,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-113",
+            "region_id": "p229r12",
+            "transcription_excerpt": "11 CK",
+            "character_start": 30,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-114",
+            "region_id": "p229r12",
+            "transcription_excerpt": "8 Q̅",
+            "character_start": 36,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-115",
+            "region_id": "p229r16",
+            "transcription_excerpt": "4 G₂A",
+            "character_start": 58,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-116",
+            "region_id": "p229r16",
+            "transcription_excerpt": "5 G₂B",
+            "character_start": 64,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-117",
+            "region_id": "p229r16",
+            "transcription_excerpt": "6 G₁",
+            "character_start": 70,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-118",
+            "region_id": "p229r16",
+            "transcription_excerpt": "3 C",
+            "character_start": 75,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-119",
+            "region_id": "p229r16",
+            "transcription_excerpt": "2 B",
+            "character_start": 79,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-120",
+            "region_id": "p229r16",
+            "transcription_excerpt": "1 A",
+            "character_start": 83,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-121",
+            "region_id": "p229r16",
+            "transcription_excerpt": "7 Y₇",
+            "character_start": 87,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-122",
+            "region_id": "p232r10",
+            "transcription_excerpt": "5 Eᵢₙ",
+            "character_start": 31,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-123",
+            "region_id": "p232r10",
+            "transcription_excerpt": "4 D₇",
+            "character_start": 37,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-124",
+            "region_id": "p232r10",
+            "transcription_excerpt": "3 D₆",
+            "character_start": 42,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-125",
+            "region_id": "p232r10",
+            "transcription_excerpt": "2 D₅",
+            "character_start": 47,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-126",
+            "region_id": "p232r10",
+            "transcription_excerpt": "1 D₄",
+            "character_start": 52,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-127",
+            "region_id": "p232r10",
+            "transcription_excerpt": "13 D₃",
+            "character_start": 57,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-128",
+            "region_id": "p232r10",
+            "transcription_excerpt": "12 D₂",
+            "character_start": 63,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-129",
+            "region_id": "p232r10",
+            "transcription_excerpt": "11 D₁",
+            "character_start": 69,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-130",
+            "region_id": "p232r10",
+            "transcription_excerpt": "10 D₀",
+            "character_start": 75,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-131",
+            "region_id": "p232r10",
+            "transcription_excerpt": "14 GS",
+            "character_start": 81,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-132",
+            "region_id": "p232r10",
+            "transcription_excerpt": "15 Eₒᵤₜ",
+            "character_start": 87,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-133",
+            "region_id": "p232r10",
+            "transcription_excerpt": "6 Q₂",
+            "character_start": 95,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-134",
+            "region_id": "p232r10",
+            "transcription_excerpt": "7 Q₁",
+            "character_start": 100,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-135",
+            "region_id": "p232r10",
+            "transcription_excerpt": "9 Q₀",
+            "character_start": 105,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-136",
+            "region_id": "p232r10",
+            "transcription_excerpt": "10 Cₑₓₜ",
+            "character_start": 143,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-137",
+            "region_id": "p232r10",
+            "transcription_excerpt": "11 Rₑₓₜ",
+            "character_start": 151,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-138",
+            "region_id": "p232r10",
+            "transcription_excerpt": "5 B",
+            "character_start": 159,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-139",
+            "region_id": "p232r10",
+            "transcription_excerpt": "3 A₁",
+            "character_start": 163,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-140",
+            "region_id": "p232r10",
+            "transcription_excerpt": "4 A₂",
+            "character_start": 168,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-141",
+            "region_id": "p232r10",
+            "transcription_excerpt": "1 Q̅",
+            "character_start": 173,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-142",
+            "region_id": "p232r10",
+            "transcription_excerpt": "4 PR",
+            "character_start": 189,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-143",
+            "region_id": "p232r10",
+            "transcription_excerpt": "2 D",
+            "character_start": 194,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-144",
+            "region_id": "p232r10",
+            "transcription_excerpt": "3 CK",
+            "character_start": 198,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-145",
+            "region_id": "p232r10",
+            "transcription_excerpt": "6 Q̅",
+            "character_start": 203,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-146",
+            "region_id": "p232r10",
+            "transcription_excerpt": "5 Q",
+            "character_start": 208,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-147",
+            "region_id": "p232r10",
+            "transcription_excerpt": "1 CLR",
+            "character_start": 212,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-148",
+            "region_id": "p232r10",
+            "transcription_excerpt": "14 STB",
+            "character_start": 241,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-149",
+            "region_id": "p232r10",
+            "transcription_excerpt": "15 C̅L̅R̅",
+            "character_start": 248,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-150",
+            "region_id": "p232r11",
+            "transcription_excerpt": "5 Eᵢₙ",
+            "character_start": 13,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-151",
+            "region_id": "p232r11",
+            "transcription_excerpt": "10 D₀",
+            "character_start": 19,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-152",
+            "region_id": "p232r11",
+            "transcription_excerpt": "11 D₁",
+            "character_start": 25,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-153",
+            "region_id": "p232r11",
+            "transcription_excerpt": "12 D₂",
+            "character_start": 31,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-154",
+            "region_id": "p232r11",
+            "transcription_excerpt": "13 D₃",
+            "character_start": 37,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-155",
+            "region_id": "p232r11",
+            "transcription_excerpt": "1 D₄",
+            "character_start": 43,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-156",
+            "region_id": "p232r11",
+            "transcription_excerpt": "2 D₅",
+            "character_start": 48,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-157",
+            "region_id": "p232r11",
+            "transcription_excerpt": "3 D₆",
+            "character_start": 53,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-158",
+            "region_id": "p232r11",
+            "transcription_excerpt": "4 D₇",
+            "character_start": 58,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-159",
+            "region_id": "p232r11",
+            "transcription_excerpt": "6 Q₂",
+            "character_start": 63,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-160",
+            "region_id": "p232r11",
+            "transcription_excerpt": "7 Q₁",
+            "character_start": 68,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-161",
+            "region_id": "p232r11",
+            "transcription_excerpt": "9 Q₀",
+            "character_start": 73,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-162",
+            "region_id": "p232r11",
+            "transcription_excerpt": "20 CS",
+            "character_start": 83,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-163",
+            "region_id": "p232r11",
+            "transcription_excerpt": "18 CE",
+            "character_start": 89,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-164",
+            "region_id": "p232r11",
+            "transcription_excerpt": "21 Vpp",
+            "character_start": 95,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-165",
+            "region_id": "p232r11",
+            "transcription_excerpt": "6 A₂",
+            "character_start": 106,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-166",
+            "region_id": "p232r11",
+            "transcription_excerpt": "7 A₁",
+            "character_start": 111,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-167",
+            "region_id": "p232r11",
+            "transcription_excerpt": "8 A₀",
+            "character_start": 116,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-168",
+            "region_id": "p232r11",
+            "transcription_excerpt": "3 A₅",
+            "character_start": 121,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-169",
+            "region_id": "p232r11",
+            "transcription_excerpt": "4 A₄",
+            "character_start": 126,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-170",
+            "region_id": "p232r11",
+            "transcription_excerpt": "5 A₃",
+            "character_start": 131,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-171",
+            "region_id": "p232r11",
+            "transcription_excerpt": "2 A₆",
+            "character_start": 136,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-172",
+            "region_id": "p232r11",
+            "transcription_excerpt": "1 A₇",
+            "character_start": 141,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-173",
+            "region_id": "p232r11",
+            "transcription_excerpt": "23 A₉",
+            "character_start": 146,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-174",
+            "region_id": "p232r11",
+            "transcription_excerpt": "22 A₈",
+            "character_start": 152,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-175",
+            "region_id": "p232r11",
+            "transcription_excerpt": "19 A₁₀",
+            "character_start": 158,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-176",
+            "region_id": "p232r11",
+            "transcription_excerpt": "9 D₀",
+            "character_start": 165,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-177",
+            "region_id": "p232r11",
+            "transcription_excerpt": "10 D₁",
+            "character_start": 170,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-178",
+            "region_id": "p232r11",
+            "transcription_excerpt": "11 D₂",
+            "character_start": 176,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-179",
+            "region_id": "p232r11",
+            "transcription_excerpt": "12 D₃",
+            "character_start": 182,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-180",
+            "region_id": "p232r11",
+            "transcription_excerpt": "14 D₄",
+            "character_start": 188,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-181",
+            "region_id": "p232r11",
+            "transcription_excerpt": "15 D₅",
+            "character_start": 194,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-182",
+            "region_id": "p232r11",
+            "transcription_excerpt": "16 D₆",
+            "character_start": 200,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-183",
+            "region_id": "p232r11",
+            "transcription_excerpt": "17 D₇",
+            "character_start": 206,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          }
+        ],
+        "led_bit_states": [],
+        "port_pin_pairs": [],
+        "formulas": [
+          {
+            "id": "micro-middle-example-17",
+            "region_id": "p230r06",
+            "transcription_excerpt": "Qₐ×Qᵦ×Q꜀",
+            "character_start": 20,
+            "source_type": "printed-counter-product",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-example-18",
+            "region_id": "p230r06",
+            "transcription_excerpt": "Q̅ₐ̅×̅Q̅ᵦ̅×̅Q̅꜀̅",
+            "character_start": 29,
+            "source_type": "printed-complemented-counter-product",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-example-19",
+            "region_id": "p231r02",
+            "transcription_excerpt": "Q̅ₐ̅×̅Q̅ᵦ̅×̅Q̅꜀̅",
+            "character_start": 29,
+            "source_type": "printed-prose-counter-product",
+            "source_bytes_verified": false
+          }
+        ],
+        "register_rows": [
+          {
+            "id": "micro-middle-register-0",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₀\t00\t수평총문자수*\t63\t3F\t127\t7F",
+            "character_start": 46,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-1",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₁\t01\t수평표시 문자수\t40\t28\t80\t50",
+            "character_start": 73,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-2",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₂\t02\t수평동기 위치*\t48\t30\t100\t64",
+            "character_start": 100,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-3",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₃\t03\t동기펄스폭\t\t35\t\t3A",
+            "character_start": 128,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-4",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₄\t04\t수직총문자수*\t31\t1F\t31\t1F",
+            "character_start": 148,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-5",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₅\t05\t총라스터 조정\t4\t04\t4\t04",
+            "character_start": 174,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-6",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₆\t06\t수직표시 문자수\t25\t19\t25\t19",
+            "character_start": 198,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-7",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₇\t07\t수직동기 위치*\t28\t1C\t28\t1C",
+            "character_start": 225,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-8",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₈\t08\t인터레이스 및 스큐\t00\t00\t00\t00",
+            "character_start": 252,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-9",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₉\t09\t최대 라스터 어드레스\t7\t07\t7\t07",
+            "character_start": 281,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-10",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₁₀\t0A\t커서 종료 라스터\t\t67\t\t67",
+            "character_start": 309,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-11",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₁₁\t0B\t시작 어드레스(H)\t7\t07\t7\t07",
+            "character_start": 334,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-12",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₁₂\t0C\t시작 어드레스(L)\t\tF8\t\tF8",
+            "character_start": 362,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-13",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₁₃\t0D\t커서(H)\t\t00\t\t00",
+            "character_start": 388,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-14",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₁₄\t0E\t커서(L)\t\tF8\t\tF8",
+            "character_start": 409,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "micro-middle-register-15",
+            "region_id": "p227r06",
+            "transcription_excerpt": "R₁₅\t0F\t\t\t00\t\t00",
+            "character_start": 430,
+            "source_type": "printed-register-row",
+            "source_bytes_verified": false
+          }
+        ],
+        "CRTC_pin_pairs": [
+          {
+            "id": "micro-middle-pin-1",
+            "region_id": "p228r06",
+            "transcription_excerpt": "1\tVss",
+            "character_start": 0,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-2",
+            "region_id": "p228r06",
+            "transcription_excerpt": "2\tR̅E̅S̅\t리세트",
+            "character_start": 6,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-3",
+            "region_id": "p228r06",
+            "transcription_excerpt": "3\tLPSTB\t라이트펜 스트로브신호",
+            "character_start": 19,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-4",
+            "region_id": "p228r06",
+            "transcription_excerpt": "4\tMA₀",
+            "character_start": 39,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-5",
+            "region_id": "p228r06",
+            "transcription_excerpt": "5\tMA₁",
+            "character_start": 45,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-6",
+            "region_id": "p228r06",
+            "transcription_excerpt": "6\tMA₂",
+            "character_start": 51,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-7",
+            "region_id": "p228r06",
+            "transcription_excerpt": "7\tMA₃",
+            "character_start": 57,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-8",
+            "region_id": "p228r06",
+            "transcription_excerpt": "8\tMA₄",
+            "character_start": 63,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-9",
+            "region_id": "p228r06",
+            "transcription_excerpt": "9\tMA₅",
+            "character_start": 69,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-10",
+            "region_id": "p228r06",
+            "transcription_excerpt": "10\tMA₆",
+            "character_start": 75,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-11",
+            "region_id": "p228r06",
+            "transcription_excerpt": "11\tMA₇",
+            "character_start": 82,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-12",
+            "region_id": "p228r06",
+            "transcription_excerpt": "12\tMA₈",
+            "character_start": 89,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-13",
+            "region_id": "p228r06",
+            "transcription_excerpt": "13\tMA₉",
+            "character_start": 96,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-14",
+            "region_id": "p228r06",
+            "transcription_excerpt": "14\tMA₁₀",
+            "character_start": 103,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-15",
+            "region_id": "p228r06",
+            "transcription_excerpt": "15\tMA₁₁",
+            "character_start": 111,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-16",
+            "region_id": "p228r06",
+            "transcription_excerpt": "16\tMA₁₂",
+            "character_start": 119,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-17",
+            "region_id": "p228r06",
+            "transcription_excerpt": "17\tMA₁₃",
+            "character_start": 127,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-18",
+            "region_id": "p228r06",
+            "transcription_excerpt": "18\tDISP TMG\t표시타이밍신호",
+            "character_start": 135,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-19",
+            "region_id": "p228r06",
+            "transcription_excerpt": "19\tCUDISP\t커서표시신호",
+            "character_start": 155,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-20",
+            "region_id": "p228r06",
+            "transcription_excerpt": "20\tVcc",
+            "character_start": 172,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-21",
+            "region_id": "p228r06",
+            "transcription_excerpt": "40\tVSYNC\t수직동기신호",
+            "character_start": 179,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-22",
+            "region_id": "p228r06",
+            "transcription_excerpt": "39\tHSYNC\t수평동기신호",
+            "character_start": 195,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-23",
+            "region_id": "p228r06",
+            "transcription_excerpt": "38\tRA₀",
+            "character_start": 211,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-24",
+            "region_id": "p228r06",
+            "transcription_excerpt": "37\tRA₁",
+            "character_start": 218,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-25",
+            "region_id": "p228r06",
+            "transcription_excerpt": "36\tRA₂",
+            "character_start": 225,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-26",
+            "region_id": "p228r06",
+            "transcription_excerpt": "35\tRA₃",
+            "character_start": 232,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-27",
+            "region_id": "p228r06",
+            "transcription_excerpt": "34\tRA₄",
+            "character_start": 239,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-28",
+            "region_id": "p228r06",
+            "transcription_excerpt": "33\tD₀",
+            "character_start": 246,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-29",
+            "region_id": "p228r06",
+            "transcription_excerpt": "32\tD₁",
+            "character_start": 252,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-30",
+            "region_id": "p228r06",
+            "transcription_excerpt": "31\tD₂",
+            "character_start": 258,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-31",
+            "region_id": "p228r06",
+            "transcription_excerpt": "30\tD₃",
+            "character_start": 264,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-32",
+            "region_id": "p228r06",
+            "transcription_excerpt": "29\tD₄",
+            "character_start": 270,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-33",
+            "region_id": "p228r06",
+            "transcription_excerpt": "28\tD₅",
+            "character_start": 276,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-34",
+            "region_id": "p228r06",
+            "transcription_excerpt": "27\tD₆",
+            "character_start": 282,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-35",
+            "region_id": "p228r06",
+            "transcription_excerpt": "26\tD₇",
+            "character_start": 288,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-36",
+            "region_id": "p228r06",
+            "transcription_excerpt": "25\tC̅S̅\t칩선택신호",
+            "character_start": 294,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-37",
+            "region_id": "p228r06",
+            "transcription_excerpt": "24\tRS\t레지스터선택신호",
+            "character_start": 308,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-38",
+            "region_id": "p228r06",
+            "transcription_excerpt": "23\tE\t인에이블신호",
+            "character_start": 323,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-39",
+            "region_id": "p228r06",
+            "transcription_excerpt": "22\tR/W̅",
+            "character_start": 335,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          },
+          {
+            "id": "micro-middle-pin-40",
+            "region_id": "p228r06",
+            "transcription_excerpt": "21\tCLK\t문자클럭신호",
+            "character_start": 343,
+            "source_bytes_verified": false,
+            "topology_verified": false
+          }
+        ],
+        "keyboard_positions": [
+          {
+            "id": "micro-key-position-1-1",
+            "region_id": "p232r09",
+            "transcription_excerpt": "1",
+            "character_start": 0,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 1,
+            "column": 1,
+            "printed_value": "1",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-1-2",
+            "region_id": "p232r09",
+            "transcription_excerpt": "2",
+            "character_start": 2,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 1,
+            "column": 2,
+            "printed_value": "2",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-1-3",
+            "region_id": "p232r09",
+            "transcription_excerpt": "3",
+            "character_start": 4,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 1,
+            "column": 3,
+            "printed_value": "3",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-1-4",
+            "region_id": "p232r09",
+            "transcription_excerpt": "4",
+            "character_start": 6,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 1,
+            "column": 4,
+            "printed_value": "4",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-1-5",
+            "region_id": "p232r09",
+            "transcription_excerpt": "5",
+            "character_start": 8,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 1,
+            "column": 5,
+            "printed_value": "5",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-1-6",
+            "region_id": "p232r09",
+            "transcription_excerpt": "6",
+            "character_start": 10,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 1,
+            "column": 6,
+            "printed_value": "6",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-1-7",
+            "region_id": "p232r09",
+            "transcription_excerpt": "7",
+            "character_start": 12,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 1,
+            "column": 7,
+            "printed_value": "7",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-1-8",
+            "region_id": "p232r09",
+            "transcription_excerpt": "8",
+            "character_start": 14,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 1,
+            "column": 8,
+            "printed_value": "8",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-2-1",
+            "region_id": "p232r09",
+            "transcription_excerpt": "9",
+            "character_start": 16,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 2,
+            "column": 1,
+            "printed_value": "9",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-2-2",
+            "region_id": "p232r09",
+            "transcription_excerpt": "10",
+            "character_start": 18,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 2,
+            "column": 2,
+            "printed_value": "10",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-2-3",
+            "region_id": "p232r09",
+            "transcription_excerpt": "11",
+            "character_start": 21,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 2,
+            "column": 3,
+            "printed_value": "11",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-2-4",
+            "region_id": "p232r09",
+            "transcription_excerpt": "12",
+            "character_start": 24,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 2,
+            "column": 4,
+            "printed_value": "12",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-2-5",
+            "region_id": "p232r09",
+            "transcription_excerpt": "13",
+            "character_start": 27,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 2,
+            "column": 5,
+            "printed_value": "13",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-2-6",
+            "region_id": "p232r09",
+            "transcription_excerpt": "14",
+            "character_start": 30,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 2,
+            "column": 6,
+            "printed_value": "14",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-2-7",
+            "region_id": "p232r09",
+            "transcription_excerpt": "15",
+            "character_start": 33,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 2,
+            "column": 7,
+            "printed_value": "15",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-2-8",
+            "region_id": "p232r09",
+            "transcription_excerpt": "16",
+            "character_start": 36,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 2,
+            "column": 8,
+            "printed_value": "16",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-3-1",
+            "region_id": "p232r09",
+            "transcription_excerpt": "17",
+            "character_start": 39,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 3,
+            "column": 1,
+            "printed_value": "17",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-3-2",
+            "region_id": "p232r09",
+            "transcription_excerpt": "18",
+            "character_start": 42,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 3,
+            "column": 2,
+            "printed_value": "18",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-3-3",
+            "region_id": "p232r09",
+            "transcription_excerpt": "19",
+            "character_start": 45,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 3,
+            "column": 3,
+            "printed_value": "19",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-3-4",
+            "region_id": "p232r09",
+            "transcription_excerpt": "20",
+            "character_start": 48,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 3,
+            "column": 4,
+            "printed_value": "20",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-3-5",
+            "region_id": "p232r09",
+            "transcription_excerpt": "21",
+            "character_start": 51,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 3,
+            "column": 5,
+            "printed_value": "21",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-3-6",
+            "region_id": "p232r09",
+            "transcription_excerpt": "22",
+            "character_start": 54,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 3,
+            "column": 6,
+            "printed_value": "22",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-3-7",
+            "region_id": "p232r09",
+            "transcription_excerpt": "23",
+            "character_start": 57,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 3,
+            "column": 7,
+            "printed_value": "23",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-3-8",
+            "region_id": "p232r09",
+            "transcription_excerpt": "24",
+            "character_start": 60,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 3,
+            "column": 8,
+            "printed_value": "24",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-4-1",
+            "region_id": "p232r09",
+            "transcription_excerpt": "25",
+            "character_start": 63,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 4,
+            "column": 1,
+            "printed_value": "25",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-4-2",
+            "region_id": "p232r09",
+            "transcription_excerpt": "26",
+            "character_start": 66,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 4,
+            "column": 2,
+            "printed_value": "26",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-4-3",
+            "region_id": "p232r09",
+            "transcription_excerpt": "27",
+            "character_start": 69,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 4,
+            "column": 3,
+            "printed_value": "27",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-4-4",
+            "region_id": "p232r09",
+            "transcription_excerpt": "28",
+            "character_start": 72,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 4,
+            "column": 4,
+            "printed_value": "28",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-4-5",
+            "region_id": "p232r09",
+            "transcription_excerpt": "29",
+            "character_start": 75,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 4,
+            "column": 5,
+            "printed_value": "29",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-4-6",
+            "region_id": "p232r09",
+            "transcription_excerpt": "30",
+            "character_start": 78,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 4,
+            "column": 6,
+            "printed_value": "30",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-4-7",
+            "region_id": "p232r09",
+            "transcription_excerpt": "31",
+            "character_start": 81,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 4,
+            "column": 7,
+            "printed_value": "31",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-4-8",
+            "region_id": "p232r09",
+            "transcription_excerpt": "32",
+            "character_start": 84,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 4,
+            "column": 8,
+            "printed_value": "32",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-5-1",
+            "region_id": "p232r09",
+            "transcription_excerpt": "4",
+            "character_start": 87,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 5,
+            "column": 1,
+            "printed_value": "4",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-5-2",
+            "region_id": "p232r09",
+            "transcription_excerpt": "34",
+            "character_start": 89,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 5,
+            "column": 2,
+            "printed_value": "34",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-5-3",
+            "region_id": "p232r09",
+            "transcription_excerpt": "35",
+            "character_start": 92,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 5,
+            "column": 3,
+            "printed_value": "35",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-5-4",
+            "region_id": "p232r09",
+            "transcription_excerpt": "36",
+            "character_start": 95,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 5,
+            "column": 4,
+            "printed_value": "36",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-5-5",
+            "region_id": "p232r09",
+            "transcription_excerpt": "37",
+            "character_start": 98,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 5,
+            "column": 5,
+            "printed_value": "37",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-5-6",
+            "region_id": "p232r09",
+            "transcription_excerpt": "38",
+            "character_start": 101,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 5,
+            "column": 6,
+            "printed_value": "38",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-5-7",
+            "region_id": "p232r09",
+            "transcription_excerpt": "39",
+            "character_start": 104,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 5,
+            "column": 7,
+            "printed_value": "39",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-5-8",
+            "region_id": "p232r09",
+            "transcription_excerpt": "40",
+            "character_start": 107,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 5,
+            "column": 8,
+            "printed_value": "40",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-6-1",
+            "region_id": "p232r09",
+            "transcription_excerpt": "41",
+            "character_start": 110,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 6,
+            "column": 1,
+            "printed_value": "41",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-6-2",
+            "region_id": "p232r09",
+            "transcription_excerpt": "11",
+            "character_start": 113,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 6,
+            "column": 2,
+            "printed_value": "11",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-6-3",
+            "region_id": "p232r09",
+            "transcription_excerpt": "43",
+            "character_start": 116,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 6,
+            "column": 3,
+            "printed_value": "43",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-6-4",
+            "region_id": "p232r09",
+            "transcription_excerpt": "44",
+            "character_start": 119,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 6,
+            "column": 4,
+            "printed_value": "44",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-6-5",
+            "region_id": "p232r09",
+            "transcription_excerpt": "45",
+            "character_start": 122,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 6,
+            "column": 5,
+            "printed_value": "45",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-6-6",
+            "region_id": "p232r09",
+            "transcription_excerpt": "46",
+            "character_start": 125,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 6,
+            "column": 6,
+            "printed_value": "46",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-6-7",
+            "region_id": "p232r09",
+            "transcription_excerpt": "47",
+            "character_start": 128,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 6,
+            "column": 7,
+            "printed_value": "47",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-6-8",
+            "region_id": "p232r09",
+            "transcription_excerpt": "48",
+            "character_start": 131,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 6,
+            "column": 8,
+            "printed_value": "48",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-7-1",
+            "region_id": "p232r09",
+            "transcription_excerpt": "49",
+            "character_start": 134,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 7,
+            "column": 1,
+            "printed_value": "49",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-7-2",
+            "region_id": "p232r09",
+            "transcription_excerpt": "50",
+            "character_start": 137,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 7,
+            "column": 2,
+            "printed_value": "50",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-7-3",
+            "region_id": "p232r09",
+            "transcription_excerpt": "51",
+            "character_start": 140,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 7,
+            "column": 3,
+            "printed_value": "51",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-7-4",
+            "region_id": "p232r09",
+            "transcription_excerpt": "52",
+            "character_start": 143,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 7,
+            "column": 4,
+            "printed_value": "52",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-7-5",
+            "region_id": "p232r09",
+            "transcription_excerpt": "53",
+            "character_start": 146,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 7,
+            "column": 5,
+            "printed_value": "53",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-7-6",
+            "region_id": "p232r09",
+            "transcription_excerpt": "54",
+            "character_start": 149,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 7,
+            "column": 6,
+            "printed_value": "54",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-7-7",
+            "region_id": "p232r09",
+            "transcription_excerpt": "55",
+            "character_start": 152,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 7,
+            "column": 7,
+            "printed_value": "55",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-7-8",
+            "region_id": "p232r09",
+            "transcription_excerpt": "56",
+            "character_start": 155,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 7,
+            "column": 8,
+            "printed_value": "56",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-8-1",
+            "region_id": "p232r09",
+            "transcription_excerpt": "1",
+            "character_start": 158,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 8,
+            "column": 1,
+            "printed_value": "1",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-8-2",
+            "region_id": "p232r09",
+            "transcription_excerpt": "58",
+            "character_start": 160,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 8,
+            "column": 2,
+            "printed_value": "58",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-8-3",
+            "region_id": "p232r09",
+            "transcription_excerpt": "59",
+            "character_start": 163,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 8,
+            "column": 3,
+            "printed_value": "59",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-8-4",
+            "region_id": "p232r09",
+            "transcription_excerpt": "60",
+            "character_start": 166,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 8,
+            "column": 4,
+            "printed_value": "60",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-8-5",
+            "region_id": "p232r09",
+            "transcription_excerpt": "61",
+            "character_start": 169,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 8,
+            "column": 5,
+            "printed_value": "61",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-8-6",
+            "region_id": "p232r09",
+            "transcription_excerpt": "62",
+            "character_start": 172,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 8,
+            "column": 6,
+            "printed_value": "62",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-8-7",
+            "region_id": "p232r09",
+            "transcription_excerpt": "63",
+            "character_start": 175,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 8,
+            "column": 7,
+            "printed_value": "63",
+            "circle_bitmap_authoritative": true
+          },
+          {
+            "id": "micro-key-position-8-8",
+            "region_id": "p232r09",
+            "transcription_excerpt": "64",
+            "character_start": 178,
+            "source_type": "printed-key-position",
+            "source_bytes_verified": false,
+            "row": 8,
+            "column": 8,
+            "printed_value": "64",
+            "circle_bitmap_authoritative": true
+          }
+        ],
+        "encoded_glyph_bytes_verified": false,
+        "source_bitmap_authoritative": true,
+        "human_acceptance": "pending"
+      },
+      "source_tables": {
+        "tables": [
+          {
+            "table_id": "display-specifications",
+            "region_id": "p227r03",
+            "header_rows": 1,
+            "data_rows": 10,
+            "columns": 3,
+            "data_cells": 30,
+            "header_cells": 3,
+            "nonblank_data_cells": 30,
+            "blank_cells": 0,
+            "header_blank_cells": 1,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "register-settings",
+            "region_id": "p227r06",
+            "header_rows": 2,
+            "data_rows": 16,
+            "columns": 7,
+            "data_cells": 112,
+            "header_cells": 14,
+            "nonblank_data_cells": 99,
+            "blank_cells": 13,
+            "header_blank_cells": 7,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "memory-truth-table",
+            "region_id": "p231r10",
+            "header_rows": 1,
+            "data_rows": 4,
+            "columns": 3,
+            "data_cells": 12,
+            "header_cells": 3,
+            "nonblank_data_cells": 12,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "mixer-resistors-signals",
+            "region_id": "p231r15",
+            "header_rows": 0,
+            "data_rows": 6,
+            "columns": 4,
+            "data_cells": 24,
+            "header_cells": 0,
+            "nonblank_data_cells": 24,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          }
+        ],
+        "data_rows": 36,
+        "data_cells": 178,
+        "nonblank_data_cells": 165,
+        "header_rows": 4,
+        "header_cells": 20,
+        "blank_cells": 13,
+        "header_blank_cells": 8,
+        "human_acceptance": "pending"
+      },
+      "usage_limitation": "Actual77Q/49T includes three cappedprimaryQ responses and27boundedQalternates; selected74Q/22T correctedonce. No correction/export recognition. Original12images/12captions,4tables/36datarows/178cells/13datablanks,40CRTCpins,64literalkeypositions and74flags preserved. Fullfigure wiring/encodedglyph bytes/electricalexecution unverified; source candidates explicit. Page229 bundleorientation absent in sealedmanifest; separatelypinnedexport derivative adds verifiedorientationfield without changing raw/settings/crops/runtime. Localcompute/tokens monetaryweight0; humanacceptance/fullproofreading pending."
     }
   ],
   "assemblies": [
@@ -19303,6 +22668,22 @@
             "sha256": "6c2425f2c2c63c87a4aad690b6ac17c9e584cf699521199eef9f27f1120aeeff",
             "bytes": 140701
           }
+        },
+        {
+          "batch": "batch-39",
+          "source_pages": [
+            227,
+            228,
+            229,
+            230,
+            231,
+            232
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/article.json",
+            "sha256": "13f0efbcc7c7269066061d06e326a1979fe233602d378987dc8372645ac1ad02",
+            "bytes": 183633
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -19311,15 +22692,15 @@
         223,
         224,
         225,
-        226
-      ],
-      "deferred_pdf_pages": [
+        226,
         227,
         228,
         229,
         230,
         231,
-        232,
+        232
+      ],
+      "deferred_pdf_pages": [
         233,
         234,
         235,
@@ -20058,17 +23439,12 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 39,
-    "checkpoint": "microcomputer-design-middle-source-correction-and-export",
+    "batch": "batch-40",
+    "status": "source-map-preflight-next",
     "kind": "native-restoration",
-    "status": "microcomputer-design-227-232-selected-raw-complete-correction-pending",
     "toc_entry_id": "maso-1984-08-toc-0030",
-    "canonical_title": "마이크로 컴퓨터 설계강좌",
-    "canonical_byline": "김덕우",
-    "canonical_parent_id": "maso-1984-08-toc-0025",
-    "canonical_first_page": 221,
     "article_extent_verified": true,
-    "article_pages": [
+    "article_pdf_pages": [
       221,
       222,
       223,
@@ -20087,73 +23463,105 @@
       236
     ],
     "source_pages": [
-      227,
-      228,
-      229,
-      230,
-      231,
-      232
-    ],
-    "deferred_article_pages": [
       233,
       234,
       235,
       236
     ],
-    "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/extent-inspection.json",
-      "sha256": "9db47a24039039c1aff50c8e4c2e3682ab8769c87d2272a840e2e7453b30807e",
-      "bytes": 7891
+    "remaining_after_checkpoint": [],
+    "source_opening": {
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/article.json",
+        "sha256": "6c2425f2c2c63c87a4aad690b6ac17c9e584cf699521199eef9f27f1120aeeff",
+        "bytes": 140701
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/manifest.json",
+        "sha256": "fb3db421ce1bf9175e59e88cade5b84168bf1b46451c19b26d496135a672088f",
+        "bytes": 51818
+      },
+      "source_pages": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "regions": 86,
+      "text_regions": 73,
+      "figures": 13,
+      "physical_listing_rows": 0,
+      "logical_listing_rows": 0,
+      "unresolved_entries": 24,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json",
+        "sha256": "93472ea69c6c3cbb2fc01cdb4f2069a48b88cb24e6554c443bbe98c0459c4c53",
+        "bytes": 245310
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json",
+        "sha256": "0bbe51567d359a9bfc8128aa38f4c18392dfaf6b7cd1a8367815306445f96a4d",
+        "bytes": 1828
+      }
     },
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/preflight-acceptance.json",
-      "sha256": "05149a11252f2a9323e8fbd02f98030563afc7548ff37dd16989d11ed7c12a47",
-      "bytes": 846
+    "source_middle": {
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/article.json",
+        "sha256": "13f0efbcc7c7269066061d06e326a1979fe233602d378987dc8372645ac1ad02",
+        "bytes": 183633
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/manifest.json",
+        "sha256": "039dd85b4df8b2c6822e5aa99bf774d6043cad454c2e3cd71533d409004957ca",
+        "bytes": 66990
+      },
+      "source_pages": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "regions": 108,
+      "text_regions": 96,
+      "figures": 12,
+      "physical_listing_rows": 0,
+      "logical_listing_rows": 0,
+      "unresolved_entries": 74,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39/source-index.json",
+        "sha256": "b6dddce93d4a6470a6973875656148f6df5a9c713222240c64534b1ec79beb0f",
+        "bytes": 1121888
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/validation.json",
+        "sha256": "ba945dd4cc275531d8e863e541cf1d5bafe2cf26e3fc455d7ed8f78b5952f888",
+        "bytes": 1614
+      }
     },
-    "raw_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/raw-ocr-audit.json",
-      "sha256": "4f189b9d1746ee3fe84940b634d48648c159902cfed0eca4c34cc1708d08fa0b",
-      "bytes": 1885
-    },
-    "raw_selected_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/selected-raw-audit.json",
-      "sha256": "6d46e253f96ea2b1d790de07a0f9d6ab850e1e278e7471c56a56f8d689d8169d",
-      "bytes": 1928
-    },
-    "raw_original_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/raw-preservation.json",
-      "sha256": "d9bf39bc9f2af1e7bab31cbf0acf3d3fbeec84c59e89f5f3616cc8c1266f4a24",
-      "bytes": 207173
-    },
-    "raw_selected_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/selected-raw-preservation.json",
-      "sha256": "bd4ecb7fee3a1b216e36eedd191600c6acfa76c6a5e7232eefb7c9c722f73a06",
-      "bytes": 144520
-    },
-    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-39/ocr-selected",
-    "selected_raw_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/raw-selected-drafts.json",
-      "sha256": "7b136772d21ef7dbbbe0f611372c9674de2e4d7598cae527acb607c39df28dd9",
-      "bytes": 52011
-    },
-    "draft_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/selected-draft-inspection.json",
-      "sha256": "9923d86b70cbe96909cd44463f2862b76b0961a99f2d557d65ffa8965a0ffdbd",
-      "bytes": 2125
-    },
-    "regions": 108,
-    "text_regions": 96,
-    "figures": 12,
-    "actual_tesseract_calls": 49,
-    "actual_qwen_calls": 77,
-    "selected_tesseract_regions": 22,
-    "selected_qwen_regions": 74,
-    "correction": "pending",
-    "production_export_created": false,
-    "previous_goal_turn_classification": "No progress: previous turn was a status check. Current turn completes bounded alternates, selection, inspection, seals and independent audits.",
-    "action": "Reuse selected96readings and108source crops. Correct227–232 once against scans; index register rows,40CRTC pins,complete circuit labels,signal bars/formula,timing values,truth/resistor tables,64literal keyboard positions andfigure companions. Preserve printed discrepancies and glyph uncertainties. Join227R8 fragments and230→231dot-generator prose with explicit intervening header. Export/independently validate/commit. Then233–236 andfull221–236assembly; remainingAugust bodies/fourpilots/heading andstandaloneissueJSON/assets closeout/requirementsaudit. No reading-room rebuild.",
     "human_acceptance": "pending",
-    "reading_room_rebuild": false
+    "reading_room_rebuild": false,
+    "action": "Reuse exact pinned extent views220–238; reinspect233–236 before mapping these four endingpages. Preserve listing1 andkeyboard continuation,route coherently,inspect allcrops beforeOCR. Include verified orientation in bothregion settings andbundle manifests before sealing. Correct selecteddraft once,retain printedmistakes/uncertainties,export/index/independentlyvalidate/commit ending. Then assemblefull221–236 from immutable38/39/40packages. Finish remainingAugust bodies/fourpilots/heading andstandaloneissueJSON/assets closeout/requirementsaudit. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
