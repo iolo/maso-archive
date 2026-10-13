@@ -13694,3 +13694,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Localcompute/tokens monetaryweight0; paidinput1:0.1,outputrate/activehuman effort
   unknown. Preparation window includes status/continuation gaps; elapsed time is
   not activehuman effort. Reporting/commit tail carries into the next audit.
+
+
+## 2026-10-13 — August SPC-1000 peripherals200–205 raw checkpoint validated
+
+- Source extent for SPC-1000용 주변기기의 제작 is verified200–206 from ten
+  individually inspected wholeviews199–208. Native34 covers200–205; ending206 and
+  fullassembly remain required. Distinct207메타어셈블러 opens next article; no printed
+  endmark detected206. Four outside-map lookups; left200MICRO-ROBOT ad excluded.
+- Fresh4000-pixel renders support81 selected regions:69text/12original diagrams
+  and table images. Twelve label/value companions and one address-bit example
+  route Q; clear prose/titles/captions initially T. Canonical0027/title/차정환/parent0025
+  retained. Displaytitle미니네온사인의제작 and printed차경환/EME연구실 recorded;
+  enlarged source corrects historicalFME candidate without rewriting sealedPIA history.
+- All41final crop panels/six final overlays inspected. Two pre-inference revisions
+  preserve original84regions/42panels, merge three coherent prose splits and widen
+  frames/edges; last shared202edge moved to blank native row658. All81crop pixels
+  match native scans.276textedges have zero glyph crossings; five header-rule
+  crossings explicitly classified nontext. Superseded original panels are preserved;
+  no claim that all discarded panels were viewed. Zero OCR used for crop revisions.
+- Original56T/13Q calls completed; all69drafts read. Damaged openingtitle/byline,
+  Addressheading, CPU/address/port/bit associations receive one boundedQalternate
+  each on13unchanged crops. All13read/selected; no failures,retries,empty drafts or
+  probes. Selected43T/26Q from actual56T/26Q, countedonce. Original drafts retained.
+  Q still regresses four번지 words to변수 and oneD5bit toD6; source correction pending.
+- Tables retain raw scaffolds for4/16data rows,34pinpairs,eightoperationrows and
+  threecontrolword groups; mergedconditions,active-lowbars,D3bitheader,EXT1labels,
+  callout/circuit associations and printed technical contradictions need source
+  correction/indexing. No semantic corrections or production export yet.
+- LocalQ28,334input/4,809output/33,143total;
+  recognition143.097sQ/26.949sT.
+  Originalworker121.862s; fallback and selection durations
+  remain separate diagnostics. Local compute/tokens monetaryweight0; paid input
+  ratio1:0.1,outputrate/humanactiveeffort unmeasured. Preparation/review/recovery visible.
+- Raw/selected audits pass; seals preserve987original/593selected/alternate
+  files. All48prior production packages,native15–33raw/selected seals and16,790pilot
+  files unchanged. Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-34/selected-raw-audit.json`.
+- Production unchanged:24complete,zero partial,nine untouched bodies,four pending
+  pilots,five classified/one unclassifiedheading and zerohumanaccepted. Next source
+  correction/index/export200–205,206ending/fullassembly; remaining bodies/pilots/heading
+  and standalonewholeissueJSON/assetscloseout required. No reading-room rebuild.

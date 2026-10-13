@@ -4459,6 +4459,114 @@
         "total_tokens": 426155,
         "uncached_nonwrite_input_tokens": 7089
       }
+    },
+    {
+      "id": "preparation34",
+      "stage": "preparation",
+      "engine": "adaptive",
+      "start": "2026-10-13T10:01:25.410759+00:00",
+      "end": "2026-10-13T10:23:11.912264+00:00",
+      "elapsed_seconds": 1306.5015051364899,
+      "observed_responses": 52,
+      "tokens": {
+        "input_tokens": 6682339,
+        "cached_input_tokens": 6474624,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 26297,
+        "reasoning_output_tokens": 7434,
+        "total_tokens": 6708636,
+        "uncached_nonwrite_input_tokens": 207715
+      }
+    },
+    {
+      "id": "raw34",
+      "stage": "raw-ocr",
+      "engine": "mixed",
+      "start": "2026-10-13T10:23:11.948814+00:00",
+      "end": "2026-10-13T10:25:36.159037+00:00",
+      "elapsed_seconds": 144.210223197937,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 537455,
+        "cached_input_tokens": 527488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3433,
+        "reasoning_output_tokens": 211,
+        "total_tokens": 540888,
+        "uncached_nonwrite_input_tokens": 9967
+      }
+    },
+    {
+      "id": "evaluation34",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-13T10:25:36.196516+00:00",
+      "end": "2026-10-13T10:28:32.359116+00:00",
+      "elapsed_seconds": 176.1626000404358,
+      "observed_responses": 5,
+      "tokens": {
+        "input_tokens": 718961,
+        "cached_input_tokens": 708096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2424,
+        "reasoning_output_tokens": 478,
+        "total_tokens": 721385,
+        "uncached_nonwrite_input_tokens": 10865
+      }
+    },
+    {
+      "id": "recovery34",
+      "stage": "recovery",
+      "engine": "qwen",
+      "start": "2026-10-13T10:28:32.395095+00:00",
+      "end": "2026-10-13T10:30:25.442481+00:00",
+      "elapsed_seconds": 113.04738593101501,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 624617,
+        "cached_input_tokens": 616832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1870,
+        "reasoning_output_tokens": 732,
+        "total_tokens": 626487,
+        "uncached_nonwrite_input_tokens": 7785
+      }
+    },
+    {
+      "id": "selection34",
+      "stage": "evaluation",
+      "engine": "mixed",
+      "start": "2026-10-13T10:30:25.479718+00:00",
+      "end": "2026-10-13T10:34:35.474141+00:00",
+      "elapsed_seconds": 249.99442291259766,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 647665,
+        "cached_input_tokens": 641152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6934,
+        "reasoning_output_tokens": 1300,
+        "total_tokens": 654599,
+        "uncached_nonwrite_input_tokens": 6513
+      }
+    },
+    {
+      "id": "reporting34-raw",
+      "stage": "reporting",
+      "engine": "mixed",
+      "start": "2026-10-13T10:34:35.511765+00:00",
+      "end": "2026-10-13T10:35:34.306548+00:00",
+      "elapsed_seconds": 58.79478311538696,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 334937,
+        "cached_input_tokens": 331904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1075,
+        "reasoning_output_tokens": 346,
+        "total_tokens": 336012,
+        "uncached_nonwrite_input_tokens": 3033
+      }
     }
   ],
   "money_cost": null,
@@ -4466,33 +4574,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T09:59:47.065018+00:00",
-    "elapsed_seconds": 107721.06501793861,
-    "observed_responses": 2943,
+    "end": "2026-10-13T10:35:34.306548+00:00",
+    "elapsed_seconds": 109868.30654811859,
+    "observed_responses": 3019,
     "tokens": {
-      "input_tokens": 404615289,
-      "cached_input_tokens": 393951744,
+      "input_tokens": 414904419,
+      "cached_input_tokens": 403980416,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1956682,
-      "reasoning_output_tokens": 474264,
-      "total_tokens": 406571971,
-      "uncached_nonwrite_input_tokens": 10663545
+      "output_tokens": 2000340,
+      "reasoning_output_tokens": 485382,
+      "total_tokens": 416904759,
+      "uncached_nonwrite_input_tokens": 10924003
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T09:59:47.065018+00:00",
-    "elapsed_seconds": 107721.06501793861,
-    "observed_responses": 318,
+    "end": "2026-10-13T10:35:34.306548+00:00",
+    "elapsed_seconds": 109868.30654811859,
+    "observed_responses": 323,
     "tokens": {
-      "input_tokens": 48049282,
-      "cached_input_tokens": 47158656,
+      "input_tokens": 48792438,
+      "cached_input_tokens": 47887232,
       "cache_write_input_tokens": 0,
-      "output_tokens": 126587,
-      "reasoning_output_tokens": 30616,
-      "total_tokens": 48175869,
-      "uncached_nonwrite_input_tokens": 890626
+      "output_tokens": 128212,
+      "reasoning_output_tokens": 31233,
+      "total_tokens": 48920650,
+      "uncached_nonwrite_input_tokens": 905206
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
@@ -4504,5 +4612,5 @@
   },
   "output_rate": null,
   "human_active_review_seconds": null,
-  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison. The medical assembly export window includes an intervening status turn and is not active human effort. VISICALC production selection reuses sealed pilot recognition/corrections without counting inference or correction again. preparation32 and correction32 remained open through unfinished turns and subsequent user status/continuation handoffs; elapsed durations include those gaps and are not active preparation/correction or human effort. Native32 records21original/eightboundedalternateQcalls plus14originalTcalls once; selected6T/29Q correctedonce, exported and independentlyvalidated without newOCR. Reporting/commit after cutoff carries into the next audit. Native33 counts21originalQ/21originalT plus3boundedQ/2boundedT alternates once; selected24Q/18T remain source-correction pending. Two preparation failures and one audit-template recovery caused no repeated recognition. reporting33-raw includes the intervening compaction/status handoff and is not active human effort. Commit/response after this cutoff carries forward. Native33 source correction now completed once against42 text crops/nine source images, exported189–194 and independently validated with no newOCR; all24Q/23T actual calls remain countedonce. Initial visual2410 candidate rejected against complete190panel before finalization, reconciliation retained. Ending reporting/commit tail after cutoff carries forward. Fullメ아리186–194 assembly reuses exactnative32/33 exports and allrecognition/sourcecorrection without counting them again; independent projection/rebuild/record checks recorded separately. No newOCR,mapping,rasterization or sharedpipeline change. Assembly reporting/commit/response aftercutoff carries forward. PIA196–199 production composes49T/7Q immutable regional pilot readings after complete63crop reinspection without newinference/recognition or duplicate original correction costs. preparation-pia-pilot remained open through unfinished preparation and intervening status/continuation handoffs; elapsed includes gaps, not activehuman effort. Sparse-original-note metadata recovery, dictionary-Counter audit recovery and diagram editorial-label repair retained; all56 regional text readings unchanged and zero newOCR.480 unpromoted export/rebuild files preserved. Technical0025/contest0031 classified non-owning from actual195source. Reporting/commit/response after currentcutoff carries forward."
+  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison. The medical assembly export window includes an intervening status turn and is not active human effort. VISICALC production selection reuses sealed pilot recognition/corrections without counting inference or correction again. preparation32 and correction32 remained open through unfinished turns and subsequent user status/continuation handoffs; elapsed durations include those gaps and are not active preparation/correction or human effort. Native32 records21original/eightboundedalternateQcalls plus14originalTcalls once; selected6T/29Q correctedonce, exported and independentlyvalidated without newOCR. Reporting/commit after cutoff carries into the next audit. Native33 counts21originalQ/21originalT plus3boundedQ/2boundedT alternates once; selected24Q/18T remain source-correction pending. Two preparation failures and one audit-template recovery caused no repeated recognition. reporting33-raw includes the intervening compaction/status handoff and is not active human effort. Commit/response after this cutoff carries forward. Native33 source correction now completed once against42 text crops/nine source images, exported189–194 and independently validated with no newOCR; all24Q/23T actual calls remain countedonce. Initial visual2410 candidate rejected against complete190panel before finalization, reconciliation retained. Ending reporting/commit tail after cutoff carries forward. Fullメ아리186–194 assembly reuses exactnative32/33 exports and allrecognition/sourcecorrection without counting them again; independent projection/rebuild/record checks recorded separately. No newOCR,mapping,rasterization or sharedpipeline change. Assembly reporting/commit/response aftercutoff carries forward. PIA196–199 production composes49T/7Q immutable regional pilot readings after complete63crop reinspection without newinference/recognition or duplicate original correction costs. preparation-pia-pilot remained open through unfinished preparation and intervening status/continuation handoffs; elapsed includes gaps, not activehuman effort. Sparse-original-note metadata recovery, dictionary-Counter audit recovery and diagram editorial-label repair retained; all56 regional text readings unchanged and zero newOCR.480 unpromoted export/rebuild files preserved. Technical0025/contest0031 classified non-owning from actual195source. Reporting/commit/response after currentcutoff carries forward. Native34 preparation34 remained open through compaction/status/continuation handoffs; elapsed includes gaps and is not active preparation or human effort. Two pre-inference geometry revisions and enlarged EME byline erratum consumed no OCR; all original/preflight evidence retained. Native34 counts56originalT/13originalQ and13boundedQ alternates once; selected43T/26Q fromactual56T/26Q. All69originals/13alternates source-inspected; source correction/export/206ending/fullassembly pending. Original worker, alternate recognition, selection, preparation/evaluation/reporting remain separate noncausal diagnostics. BothQregressions recorded for once-only correction. Raw/selected/current-public-record audits pass;48priorpackages and allpilot/native15–33seals unchanged. Reporting/commit/response after this cutoff carries into the next audit."
 }
