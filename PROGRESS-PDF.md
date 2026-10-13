@@ -13734,3 +13734,42 @@ history remains in [PROGRESS.md](PROGRESS.md).
   pilots,five classified/one unclassifiedheading and zerohumanaccepted. Next source
   correction/index/export200–205,206ending/fullassembly; remaining bodies/pilots/heading
   and standalonewholeissueJSON/assetscloseout required. No reading-room rebuild.
+
+
+## 2026-10-13 — August SPC-1000 peripherals opening200–205 restored
+
+- Restored SPC-1000 peripherals opening200–205 from69 selected adaptive drafts,
+  corrected once against source scans.81 regions retain61 ordered text blocks,
+  twelve original images and69 exact regional/review ranges. Canonical0027/title/
+  차정환/technical parent0025 remain unchanged; printed미니 네온사인의 제작 and
+  차경환/EME연구실 remain source content. Seven prose joins preserve eight seams.
+- Four tables preserve45 data rows/220 data cells,three header rows/16 header cells
+  and seven merged blank followers. All34 external-bus pin/signal pairs,24 port-pin
+  pairs,15 control-word states/eight bit positions, eight diagrams and their source
+  labels are searchable with exact UTF-8 ranges. Twelve captions,18 literal examples,
+  two definitions and31 flags retain original images as authoritative evidence.
+- Restore sourceD3,D5 and four번지 readings from selectedQ regressions. Preserve
+  printedMRIQ/SYS CLK/BUSAK,IPLK,4000~4FFF,9C00~DFFF,9000H~DFFFH,C003H,
+  0~4/5addresses,34RESET andCS0/CS1/D6/D0 contradictions. Overbars/subscripts are
+  editorial Unicode candidates; no hardware repair or source-byte certification.
+- Actual56T/26Q calls and localQ28,334input/4,809output/33,143total remain counted
+  once. Selected43T/26Q corrected once; no new OCR during correction/export. Local
+  compute/tokens monetaryweight0; paidinput1:0.1,outputrate/humanactiveeffort unknown.
+- Independent source/canonical/coverage/crop/raw/settings/range/table/circuit checks
+  and byte-identical rebuild pass. A duplicate phrase initially attached one flag
+  to an earlier joined region; fixed by its explicit regional position.592 files
+  preserve both unpromoted exports and the before-fix metadata; all69 source readings
+  unchanged. Audit-count assertions were reconciled to five total번지 occurrences
+  (four repaired,one already correct); failed audit templates retained.987 original/
+  593 selected evidence files,48 prior production packages,
+  native15–34 seals and16,790 pilot files remain unchanged. Shared pipeline unchanged.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json`.
+  August now24 complete/one partial/eight untouched bodies/four pending pilots/
+  five classified and one unclassified heading/zero human accepted.49 packages:
+  34 natives/11 assemblies/four selections. Ending206 and full200–206 assembly are
+  next; other bodies/pilots/heading and standaloneissueJSON/assets closeout remain.
+  Human acceptance/full proofreading/source bytes/execution pending. No reading-room
+  rebuild. Correction window includes earlier compaction/status/continuation gaps;
+  elapsed is not active human effort. Reporting/commit tail enters the next audit.

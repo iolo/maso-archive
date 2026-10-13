@@ -15,16 +15,17 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
+    "assistant-partial-human-pending": 1,
     "assistant-restored-human-pending": 24,
     "sealed-pilot-review-pending": 4,
     "section-heading-no-body": 5,
     "unclassified-heading": 1,
-    "untouched": 9
+    "untouched": 8
   },
   "sealed_pilot_articles": 4,
   "production_complete_articles": 24,
-  "production_partial_articles": 0,
-  "untouched_articles": 9,
+  "production_partial_articles": 1,
+  "untouched_articles": 8,
   "unclassified_heading_entries": 1,
   "classified_heading_entries": 5,
   "human_accepted_articles": 0,
@@ -8764,6 +8765,1277 @@
         "human_acceptance": "pending"
       },
       "usage_limitation": "All24Q calls include21original/three bounded prose/byline alternates; all23T calls include21original/two unselected code/table alternates. Selected24Q/18T correctedonce; all272program rows,14physical patch rows/eightlabels andfour key/directionpairs retained. Rawmissing2790/2810 association/2950expression/SPC-1000/3420semicolon/1170wrap repaired from source. No repeated inference or wholearticle dual correction. Two preparation andoneaudit-template failures preserved. Localcompute/tokens monetaryweight zero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-34",
+      "toc_entry_id": "maso-1984-08-toc-0027",
+      "title": "SPC-1000용 주변기기의 제작",
+      "source_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p200r01": "qwen",
+        "p200r02": "qwen",
+        "p200r03": "qwen",
+        "p200r04": "tesseract",
+        "p200r05": "tesseract",
+        "p201r01": "tesseract",
+        "p201r02": "tesseract",
+        "p201r03": "tesseract",
+        "p201r05": "qwen",
+        "p201r06": "tesseract",
+        "p201r07": "qwen",
+        "p201r08": "qwen",
+        "p201r09": "tesseract",
+        "p201r11": "qwen",
+        "p201r12": "tesseract",
+        "p201r13": "qwen",
+        "p201r16": "qwen",
+        "p201r17": "tesseract",
+        "p202r01": "tesseract",
+        "p202r02": "qwen",
+        "p202r03": "tesseract",
+        "p202r04": "tesseract",
+        "p202r06": "qwen",
+        "p202r07": "tesseract",
+        "p202r08": "tesseract",
+        "p202r10": "tesseract",
+        "p202r12": "qwen",
+        "p202r13": "tesseract",
+        "p202r14": "qwen",
+        "p202r16": "qwen",
+        "p202r17": "tesseract",
+        "p203r01": "tesseract",
+        "p203r02": "tesseract",
+        "p203r03": "tesseract",
+        "p203r04": "tesseract",
+        "p203r05": "tesseract",
+        "p203r06": "tesseract",
+        "p203r07": "tesseract",
+        "p203r08": "tesseract",
+        "p203r10": "qwen",
+        "p203r11": "tesseract",
+        "p203r13": "qwen",
+        "p203r14": "tesseract",
+        "p203r15": "tesseract",
+        "p203r17": "qwen",
+        "p203r18": "tesseract",
+        "p204r01": "tesseract",
+        "p204r02": "tesseract",
+        "p204r03": "tesseract",
+        "p204r04": "tesseract",
+        "p204r05": "qwen",
+        "p204r07": "qwen",
+        "p204r08": "tesseract",
+        "p204r09": "tesseract",
+        "p204r11": "qwen",
+        "p204r12": "tesseract",
+        "p205r01": "tesseract",
+        "p205r03": "qwen",
+        "p205r04": "tesseract",
+        "p205r05": "tesseract",
+        "p205r06": "tesseract",
+        "p205r07": "qwen",
+        "p205r08": "qwen",
+        "p205r09": "qwen",
+        "p205r10": "tesseract",
+        "p205r12": "qwen",
+        "p205r13": "tesseract",
+        "p205r14": "tesseract",
+        "p205r15": "qwen"
+      },
+      "assignment_reason": "Clear prose/titles/byline/captions Tesseract; coherent address-bit example and diagram/table label/value companions Qwen. Preserve twelve full original source diagrams/table bitmaps. No preparation probes or routine paired correction. Deferred206contains ending and two BASIC listings; separate native35/fullassembly required.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/article.json",
+          "sha256": "2783ecd8bdf90029bc80be6885d19df82dd5f74f46c7f460fa7bf88f51d16681",
+          "bytes": 139152
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/manifest.json",
+          "sha256": "5491cff239f6badc1f584668d74a3e3063280ec6edcb245af2d05f30db6fe712",
+          "bytes": 48717
+        },
+        "source_pages": [
+          200,
+          201,
+          202,
+          203,
+          204,
+          205
+        ],
+        "regions": 81,
+        "text_regions": 69,
+        "figures": 12,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 31,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
+          "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
+          "bytes": 599567
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
+          "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
+          "bytes": 1649
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/map.json",
+        "sha256": "9ad93ec9b4fb10fe1395debe34d8c2a1f7b730e6350d02b86f0f5ef664bdec24",
+        "bytes": 27304
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/source-review-ledger.json",
+        "sha256": "e849578828870e1458b3c52cb936f5d144364729dfdb6d4cbb7fdb4b9c300c65",
+        "bytes": 29214
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 28334,
+        "completion_tokens": 4809,
+        "total_tokens": 33143
+      },
+      "qwen_completed_calls": 26,
+      "qwen_recognition_seconds": 143.0970985469994,
+      "tesseract_recognition_seconds": 26.949129629001618,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T10:23:12.139259+00:00",
+        "finished_at": "2026-10-13T10:25:14.001215+00:00",
+        "elapsed_seconds": 121.86198048500046,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 13,
+          "tesseract_inferences": 56,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 56,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 56,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p201r16",
+          "data_rows": 4,
+          "data_cells": 16
+        },
+        {
+          "region_id": "p202r12",
+          "data_rows": 16,
+          "data_cells": 80
+        },
+        {
+          "region_id": "p203r10",
+          "data_rows": 17,
+          "data_cells": 68
+        },
+        {
+          "region_id": "p205r03",
+          "data_rows": 8,
+          "data_cells": 56
+        }
+      ],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 26,
+        "selected_tesseract_regions": 43,
+        "total_qwen_calls": 26,
+        "total_tesseract_calls": 56,
+        "worker_tesseract_calls": 56,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 13,
+        "additional_tesseract_calls": 0,
+        "additional_qwen_calls": 13,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 11064,
+          "completion_tokens": 2502,
+          "total_tokens": 13566
+        },
+        "decisions": [
+          {
+            "region_id": "p200r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p200r02",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p200r03",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p201r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p201r08",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p201r13",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p202r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p204r05",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p204r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q restores Y-selector/address identifiers, but regresses four source번지 readings to변수. Select identifier scaffold and source-correct these regressions once."
+          },
+          {
+            "region_id": "p205r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p205r08",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          },
+          {
+            "region_id": "p205r09",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q restores most bit assignments, but reads source D5 as secondD6; preserve printed laterD6/D0 inconsistency and source-correct wrong D5 once."
+          },
+          {
+            "region_id": "p205r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Qalternate restores source identifiers/value associations damaged in originalT; small printed spelling/overbar/spacing corrections remain pending."
+          }
+        ],
+        "elapsed_selection_seconds": 0.212905046000742,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 26,
+      "total_tesseract_calls": 56,
+      "selected_qwen_regions": 26,
+      "selected_tesseract_regions": 43,
+      "worker_qwen_calls": 13,
+      "worker_tesseract_calls": 56,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 13,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/raw-preservation.json",
+        "sha256": "2fbb7074535b86c1f34e8ef3264f77287e27e4d584c015ca6722289679f9581a",
+        "bytes": 122043
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/selected-raw-preservation.json",
+        "sha256": "ff28d03c9cbd30ed4f3abb4a0c67f35fd04a244a9a9814bff75642dfff7b7282",
+        "bytes": 84742
+      },
+      "source_tables": {
+        "tables": [
+          {
+            "table_id": "spc-table-1",
+            "region_id": "p201r16",
+            "figure_region_id": "p201r15",
+            "header_rows": 1,
+            "data_rows": 4,
+            "columns": 4,
+            "data_cells": 16,
+            "header_cells": 4,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-2",
+            "region_id": "p202r12",
+            "figure_region_id": "p202r11",
+            "header_rows": 1,
+            "data_rows": 16,
+            "columns": 5,
+            "data_cells": 80,
+            "header_cells": 5,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-3",
+            "region_id": "p203r10",
+            "figure_region_id": "p203r09",
+            "header_rows": 0,
+            "data_rows": 17,
+            "columns": 4,
+            "data_cells": 68,
+            "header_cells": 0,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-4",
+            "region_id": "p205r03",
+            "figure_region_id": "p205r02",
+            "header_rows": 1,
+            "data_rows": 8,
+            "columns": 7,
+            "data_cells": 56,
+            "header_cells": 7,
+            "blank_cells": 7,
+            "source_bytes_verified": false,
+            "merged_cells": [
+              {
+                "row": 0,
+                "column": 6,
+                "column_span": 2
+              },
+              {
+                "row": 1,
+                "column": 7,
+                "row_span": 3
+              },
+              {
+                "row": 4,
+                "column": 7,
+                "row_span": 3
+              },
+              {
+                "row": 7,
+                "column": 6,
+                "column_span": 2
+              },
+              {
+                "row": 8,
+                "column": 6,
+                "column_span": 2
+              }
+            ],
+            "geometry_note": "Zero-based rows, one-based columns. Empty followers remain explicit; long final condition is one source cell despite its printed line wraps."
+          }
+        ],
+        "data_rows": 45,
+        "data_cells": 220,
+        "header_rows": 3,
+        "header_cells": 16,
+        "blank_cells": 7,
+        "human_acceptance": "pending"
+      },
+      "source_structured_fields": {
+        "definitions": [
+          {
+            "id": "spc-address-decode",
+            "region_id": "p201r08"
+          },
+          {
+            "id": "spc-chip-enable",
+            "region_id": "p202r03"
+          }
+        ],
+        "tables": [
+          {
+            "table_id": "spc-table-1",
+            "region_id": "p201r16",
+            "figure_region_id": "p201r15",
+            "header_rows": 1,
+            "data_rows": 4,
+            "columns": 4,
+            "data_cells": 16,
+            "header_cells": 4,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-2",
+            "region_id": "p202r12",
+            "figure_region_id": "p202r11",
+            "header_rows": 1,
+            "data_rows": 16,
+            "columns": 5,
+            "data_cells": 80,
+            "header_cells": 5,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-3",
+            "region_id": "p203r10",
+            "figure_region_id": "p203r09",
+            "header_rows": 0,
+            "data_rows": 17,
+            "columns": 4,
+            "data_cells": 68,
+            "header_cells": 0,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-4",
+            "region_id": "p205r03",
+            "figure_region_id": "p205r02",
+            "header_rows": 1,
+            "data_rows": 8,
+            "columns": 7,
+            "data_cells": 56,
+            "header_cells": 7,
+            "blank_cells": 7,
+            "source_bytes_verified": false,
+            "merged_cells": [
+              {
+                "row": 0,
+                "column": 6,
+                "column_span": 2
+              },
+              {
+                "row": 1,
+                "column": 7,
+                "row_span": 3
+              },
+              {
+                "row": 4,
+                "column": 7,
+                "row_span": 3
+              },
+              {
+                "row": 7,
+                "column": 6,
+                "column_span": 2
+              },
+              {
+                "row": 8,
+                "column": 6,
+                "column_span": 2
+              }
+            ],
+            "geometry_note": "Zero-based rows, one-based columns. Empty followers remain explicit; long final condition is one source cell despite its printed line wraps."
+          }
+        ],
+        "external_bus_pin_pairs": [
+          {
+            "pin": 1,
+            "printed_signal": "A₆",
+            "signal_ascii": "A6",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "1\tA₆",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 2,
+            "printed_signal": "A₁₂",
+            "signal_ascii": "A12",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "2\tA₁₂",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 3,
+            "printed_signal": "A₅",
+            "signal_ascii": "A5",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "3\tA₅",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 4,
+            "printed_signal": "A₇",
+            "signal_ascii": "A7",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "4\tA₇",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 5,
+            "printed_signal": "A₄",
+            "signal_ascii": "A4",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "5\tA₄",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 6,
+            "printed_signal": "A₈",
+            "signal_ascii": "A8",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "6\tA₈",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 7,
+            "printed_signal": "A₃",
+            "signal_ascii": "A3",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "7\tA₃",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 8,
+            "printed_signal": "A₉",
+            "signal_ascii": "A9",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "8\tA₉",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 9,
+            "printed_signal": "A₂",
+            "signal_ascii": "A2",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "9\tA₂",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 10,
+            "printed_signal": "A₁₁",
+            "signal_ascii": "A11",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "10\tA₁₁",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 11,
+            "printed_signal": "A₁",
+            "signal_ascii": "A1",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "11\tA₁",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 12,
+            "printed_signal": "A₁₀",
+            "signal_ascii": "A10",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "12\tA₁₀",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 13,
+            "printed_signal": "A₀",
+            "signal_ascii": "A0",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "13\tA₀",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 14,
+            "printed_signal": "D₇",
+            "signal_ascii": "D7",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "14\tD₇",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 15,
+            "printed_signal": "D₀",
+            "signal_ascii": "D0",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "15\tD₀",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 16,
+            "printed_signal": "D₆",
+            "signal_ascii": "D6",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "16\tD₆",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 17,
+            "printed_signal": "D₁",
+            "signal_ascii": "D1",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "17\tD₁",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 18,
+            "printed_signal": "D₅",
+            "signal_ascii": "D5",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "18\tD₅",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 19,
+            "printed_signal": "D₂",
+            "signal_ascii": "D2",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "19\tD₂",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 20,
+            "printed_signal": "D₄",
+            "signal_ascii": "D4",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "20\tD₄",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 21,
+            "printed_signal": "D₃",
+            "signal_ascii": "D3",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "21\tD₃",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 22,
+            "printed_signal": "INT",
+            "signal_ascii": "INT",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "22\tINT",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 23,
+            "printed_signal": "RESET",
+            "signal_ascii": "RESET",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "23\tRESET",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 24,
+            "printed_signal": "I̅O̅R̅Q̅",
+            "signal_ascii": "IORQ",
+            "active_low_bar": true,
+            "region_id": "p203r10",
+            "transcription_excerpt": "24\tI̅O̅R̅Q̅",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 25,
+            "printed_signal": "M̅R̅I̅Q̅",
+            "signal_ascii": "MRIQ",
+            "active_low_bar": true,
+            "region_id": "p203r10",
+            "transcription_excerpt": "25\tM̅R̅I̅Q̅",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 26,
+            "printed_signal": "EXT 1",
+            "signal_ascii": "EXT 1",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "26\tEXT 1",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 27,
+            "printed_signal": "SYS CLK",
+            "signal_ascii": "SYS CLK",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "27\tSYS CLK",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 28,
+            "printed_signal": "B̅U̅S̅R̅Q̅",
+            "signal_ascii": "BUSRQ",
+            "active_low_bar": true,
+            "region_id": "p203r10",
+            "transcription_excerpt": "28\tB̅U̅S̅R̅Q̅",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 29,
+            "printed_signal": "B̅U̅S̅A̅K̅",
+            "signal_ascii": "BUSAK",
+            "active_low_bar": true,
+            "region_id": "p203r10",
+            "transcription_excerpt": "29\tB̅U̅S̅A̅K̅",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 30,
+            "printed_signal": "R̅D̅",
+            "signal_ascii": "RD",
+            "active_low_bar": true,
+            "region_id": "p203r10",
+            "transcription_excerpt": "30\tR̅D̅",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 31,
+            "printed_signal": "W̅R̅",
+            "signal_ascii": "WR",
+            "active_low_bar": true,
+            "region_id": "p203r10",
+            "transcription_excerpt": "31\tW̅R̅",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 32,
+            "printed_signal": "5V",
+            "signal_ascii": "5V",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "32\t5V",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 33,
+            "printed_signal": "5V",
+            "signal_ascii": "5V",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "33\t5V",
+            "source_bytes_verified": false
+          },
+          {
+            "pin": 34,
+            "printed_signal": "GND",
+            "signal_ascii": "GND",
+            "active_low_bar": false,
+            "region_id": "p203r10",
+            "transcription_excerpt": "34\tGND",
+            "source_bytes_verified": false
+          }
+        ],
+        "control_word_states": [
+          {
+            "id": "spc-control-state-1",
+            "region_id": "p205r12",
+            "group": "그룹 B제어",
+            "control": "포트 C하위",
+            "printed_label": "포트 C하위",
+            "bits": "0",
+            "result": "출력",
+            "transcription_excerpt": "포트 C하위\t0\t출력",
+            "character_start": 32,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-2",
+            "region_id": "p205r12",
+            "group": "그룹 B제어",
+            "control": "포트 C하위",
+            "printed_label": "",
+            "bits": "1",
+            "result": "입력",
+            "transcription_excerpt": "\t1\t입력",
+            "character_start": 44,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-3",
+            "region_id": "p205r12",
+            "group": "그룹 B제어",
+            "control": "포트 B",
+            "printed_label": "포트 B",
+            "bits": "0",
+            "result": "출력",
+            "transcription_excerpt": "포트 B\t0\t출력",
+            "character_start": 50,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-4",
+            "region_id": "p205r12",
+            "group": "그룹 B제어",
+            "control": "포트 B",
+            "printed_label": "",
+            "bits": "1",
+            "result": "입력",
+            "transcription_excerpt": "\t1\t입력",
+            "character_start": 60,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-5",
+            "region_id": "p205r12",
+            "group": "그룹 B제어",
+            "control": "모드 선택",
+            "printed_label": "모드 선택",
+            "bits": "0",
+            "result": "모드 0",
+            "transcription_excerpt": "모드 선택\t0\t모드 0",
+            "character_start": 66,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-6",
+            "region_id": "p205r12",
+            "group": "그룹 B제어",
+            "control": "모드 선택",
+            "printed_label": "",
+            "bits": "1",
+            "result": "모드 1",
+            "transcription_excerpt": "\t1\t모드 1",
+            "character_start": 79,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-7",
+            "region_id": "p205r12",
+            "group": "그룹 A제어",
+            "control": "포트 C상위",
+            "printed_label": "포트 C상위",
+            "bits": "0",
+            "result": "출력",
+            "transcription_excerpt": "포트 C상위\t0\t출력",
+            "character_start": 95,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-8",
+            "region_id": "p205r12",
+            "group": "그룹 A제어",
+            "control": "포트 C상위",
+            "printed_label": "",
+            "bits": "1",
+            "result": "입력",
+            "transcription_excerpt": "\t1\t입력",
+            "character_start": 107,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-9",
+            "region_id": "p205r12",
+            "group": "그룹 A제어",
+            "control": "포트 A",
+            "printed_label": "포트 A",
+            "bits": "0",
+            "result": "출력",
+            "transcription_excerpt": "포트 A\t0\t출력",
+            "character_start": 113,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-10",
+            "region_id": "p205r12",
+            "group": "그룹 A제어",
+            "control": "포트 A",
+            "printed_label": "",
+            "bits": "1",
+            "result": "입력",
+            "transcription_excerpt": "\t1\t입력",
+            "character_start": 123,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-11",
+            "region_id": "p205r12",
+            "group": "그룹 A제어",
+            "control": "모드 선택",
+            "printed_label": "모드 선택",
+            "bits": "00",
+            "result": "모드 0",
+            "transcription_excerpt": "모드 선택\t00\t모드 0",
+            "character_start": 129,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-12",
+            "region_id": "p205r12",
+            "group": "그룹 A제어",
+            "control": "모드 선택",
+            "printed_label": "",
+            "bits": "01",
+            "result": "모드 1",
+            "transcription_excerpt": "\t01\t모드 1",
+            "character_start": 143,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-13",
+            "region_id": "p205r12",
+            "group": "그룹 A제어",
+            "control": "모드 선택",
+            "printed_label": "",
+            "bits": "1X",
+            "result": "모드 2",
+            "transcription_excerpt": "\t1X\t모드 2",
+            "character_start": 152,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-14",
+            "region_id": "p205r12",
+            "group": "기능제어",
+            "control": "기능제어",
+            "printed_label": "기능제어",
+            "bits": "0",
+            "result": "비트세트/RESET",
+            "transcription_excerpt": "기능제어\t0\t비트세트/RESET",
+            "character_start": 162,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-control-state-15",
+            "region_id": "p205r12",
+            "group": "기능제어",
+            "control": "기능제어",
+            "printed_label": "",
+            "bits": "1",
+            "result": "모드 선택",
+            "transcription_excerpt": "\t1\t모드 선택",
+            "character_start": 180,
+            "source_bytes_verified": false
+          }
+        ],
+        "control_word_bit_associations": [
+          {
+            "control": "포트 C하위",
+            "bits": [
+              "D₀"
+            ],
+            "region_id": "p205r12",
+            "figure_region_id": "p205r11",
+            "source_bytes_verified": false
+          },
+          {
+            "control": "포트 B",
+            "bits": [
+              "D₁"
+            ],
+            "region_id": "p205r12",
+            "figure_region_id": "p205r11",
+            "source_bytes_verified": false
+          },
+          {
+            "control": "그룹 B 모드 선택",
+            "bits": [
+              "D₂"
+            ],
+            "region_id": "p205r12",
+            "figure_region_id": "p205r11",
+            "source_bytes_verified": false
+          },
+          {
+            "control": "포트 C상위",
+            "bits": [
+              "D₃"
+            ],
+            "region_id": "p205r12",
+            "figure_region_id": "p205r11",
+            "source_bytes_verified": false
+          },
+          {
+            "control": "포트 A",
+            "bits": [
+              "D₄"
+            ],
+            "region_id": "p205r12",
+            "figure_region_id": "p205r11",
+            "source_bytes_verified": false
+          },
+          {
+            "control": "그룹 A 모드 선택",
+            "bits": [
+              "D₅",
+              "D₆"
+            ],
+            "region_id": "p205r12",
+            "figure_region_id": "p205r11",
+            "source_bytes_verified": false
+          },
+          {
+            "control": "기능제어",
+            "bits": [
+              "D₇"
+            ],
+            "region_id": "p205r12",
+            "figure_region_id": "p205r11",
+            "source_bytes_verified": false
+          }
+        ],
+        "port_pin_pairs": [
+          {
+            "id": "spc-port-pin-1",
+            "region_id": "p204r11",
+            "port_bit": "PC₇",
+            "pin": 10,
+            "transcription_excerpt": "PC₇\t10",
+            "character_start": 254,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-2",
+            "region_id": "p204r11",
+            "port_bit": "PC₆",
+            "pin": 11,
+            "transcription_excerpt": "PC₆\t11",
+            "character_start": 261,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-3",
+            "region_id": "p204r11",
+            "port_bit": "PC₅",
+            "pin": 12,
+            "transcription_excerpt": "PC₅\t12",
+            "character_start": 268,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-4",
+            "region_id": "p204r11",
+            "port_bit": "PC₄",
+            "pin": 13,
+            "transcription_excerpt": "PC₄\t13",
+            "character_start": 275,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-5",
+            "region_id": "p204r11",
+            "port_bit": "PC₃",
+            "pin": 17,
+            "transcription_excerpt": "PC₃\t17",
+            "character_start": 282,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-6",
+            "region_id": "p204r11",
+            "port_bit": "PC₂",
+            "pin": 16,
+            "transcription_excerpt": "PC₂\t16",
+            "character_start": 289,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-7",
+            "region_id": "p204r11",
+            "port_bit": "PC₁",
+            "pin": 15,
+            "transcription_excerpt": "PC₁\t15",
+            "character_start": 296,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-8",
+            "region_id": "p204r11",
+            "port_bit": "PC₀",
+            "pin": 14,
+            "transcription_excerpt": "PC₀\t14",
+            "character_start": 303,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-9",
+            "region_id": "p204r11",
+            "port_bit": "PB₇",
+            "pin": 25,
+            "transcription_excerpt": "PB₇\t25",
+            "character_start": 314,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-10",
+            "region_id": "p204r11",
+            "port_bit": "PB₆",
+            "pin": 24,
+            "transcription_excerpt": "PB₆\t24",
+            "character_start": 321,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-11",
+            "region_id": "p204r11",
+            "port_bit": "PB₅",
+            "pin": 23,
+            "transcription_excerpt": "PB₅\t23",
+            "character_start": 328,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-12",
+            "region_id": "p204r11",
+            "port_bit": "PB₄",
+            "pin": 22,
+            "transcription_excerpt": "PB₄\t22",
+            "character_start": 335,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-13",
+            "region_id": "p204r11",
+            "port_bit": "PB₃",
+            "pin": 21,
+            "transcription_excerpt": "PB₃\t21",
+            "character_start": 342,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-14",
+            "region_id": "p204r11",
+            "port_bit": "PB₂",
+            "pin": 20,
+            "transcription_excerpt": "PB₂\t20",
+            "character_start": 349,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-15",
+            "region_id": "p204r11",
+            "port_bit": "PB₁",
+            "pin": 19,
+            "transcription_excerpt": "PB₁\t19",
+            "character_start": 356,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-16",
+            "region_id": "p204r11",
+            "port_bit": "PB₀",
+            "pin": 18,
+            "transcription_excerpt": "PB₀\t18",
+            "character_start": 363,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-17",
+            "region_id": "p204r11",
+            "port_bit": "PA₇",
+            "pin": 37,
+            "transcription_excerpt": "PA₇\t37",
+            "character_start": 374,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-18",
+            "region_id": "p204r11",
+            "port_bit": "PA₆",
+            "pin": 38,
+            "transcription_excerpt": "PA₆\t38",
+            "character_start": 381,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-19",
+            "region_id": "p204r11",
+            "port_bit": "PA₅",
+            "pin": 39,
+            "transcription_excerpt": "PA₅\t39",
+            "character_start": 388,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-20",
+            "region_id": "p204r11",
+            "port_bit": "PA₄",
+            "pin": 40,
+            "transcription_excerpt": "PA₄\t40",
+            "character_start": 395,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-21",
+            "region_id": "p204r11",
+            "port_bit": "PA₃",
+            "pin": 1,
+            "transcription_excerpt": "PA₃\t1",
+            "character_start": 402,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-22",
+            "region_id": "p204r11",
+            "port_bit": "PA₂",
+            "pin": 2,
+            "transcription_excerpt": "PA₂\t2",
+            "character_start": 408,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-23",
+            "region_id": "p204r11",
+            "port_bit": "PA₁",
+            "pin": 3,
+            "transcription_excerpt": "PA₁\t3",
+            "character_start": 414,
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-port-pin-24",
+            "region_id": "p204r11",
+            "port_bit": "PA₀",
+            "pin": 4,
+            "transcription_excerpt": "PA₀\t4",
+            "character_start": 420,
+            "source_bytes_verified": false
+          }
+        ],
+        "source_bitmap_authoritative": true,
+        "human_acceptance": "pending"
+      },
+      "usage_limitation": "All26Q calls include13original and13bounded alternates on unchanged crops; all56originalT calls counted once. Selected43T/26Q source-corrected once. Zero correction/export OCR; sourceD3/D5/four번지 readings restored. Printed address/signal/count contradictions retained; Unicode bars/subscripts editorial. Localcompute/tokens monetaryweight zero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "assemblies": [
@@ -14894,9 +16166,39 @@
       "page": 200,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-partial-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "segments": [
+        {
+          "batch": "batch-34",
+          "source_pages": [
+            200,
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/article.json",
+            "sha256": "2783ecd8bdf90029bc80be6885d19df82dd5f74f46c7f460fa7bf88f51d16681",
+            "bytes": 139152
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "deferred_pdf_pages": [
+        206
+      ],
+      "assembly_required": true
     },
     {
       "id": "maso-1984-08-toc-0028",
@@ -15668,10 +16970,10 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 34,
-    "checkpoint": "spc1000-peripheral-source-correction-and-opening-export",
+    "batch": 35,
+    "checkpoint": "spc1000-peripheral-ending206",
     "kind": "native-restoration",
-    "status": "spc1000-200-205-selected-raw-complete-correction-pending",
+    "status": "spc1000-206-ending-and-fullassembly-pending",
     "toc_entry_id": "maso-1984-08-toc-0027",
     "canonical_title": "SPC-1000용 주변기기의 제작",
     "canonical_byline": "차정환",
@@ -15679,7 +16981,6 @@
     "canonical_first_page": 200,
     "source_displayed_title": "미니 네온사인의 제작",
     "source_byline_candidate": "차경환/EME연구실",
-    "canonical_byline_discrepancy": "Canonical 차정환 preserved; printed차경환/EME rechecked at native crop. Earlier FME observation preserved as historical erratum.",
     "article_extent_verified": true,
     "article_pages": [
       200,
@@ -15691,6 +16992,9 @@
       206
     ],
     "source_pages": [
+      206
+    ],
+    "completed_source_pages": [
       200,
       201,
       202,
@@ -15701,60 +17005,61 @@
     "deferred_article_pages": [
       206
     ],
+    "opening_export": {
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/article.json",
+        "sha256": "2783ecd8bdf90029bc80be6885d19df82dd5f74f46c7f460fa7bf88f51d16681",
+        "bytes": 139152
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/manifest.json",
+        "sha256": "5491cff239f6badc1f584668d74a3e3063280ec6edcb245af2d05f30db6fe712",
+        "bytes": 48717
+      },
+      "source_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "regions": 81,
+      "text_regions": 69,
+      "figures": 12,
+      "physical_listing_rows": 0,
+      "logical_listing_rows": 0,
+      "unresolved_entries": 31,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
+        "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
+        "bytes": 599567
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
+        "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
+        "bytes": 1649
+      }
+    },
     "extent_inspection": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/extent-inspection.json",
       "sha256": "766e361ff2a4ceef02b9728e814f2cf8f36fde7b7f6d9474f2fcb663663bb688",
       "bytes": 5084
     },
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/preflight-acceptance.json",
-      "sha256": "e9047d11c0c129d5093516219955575c69b7c0262cf9e4a08bfc938e4318d9ba",
-      "bytes": 677
-    },
-    "raw_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/raw-ocr-audit.json",
-      "sha256": "c6a0f25c0931fe133d24cf581f67884c33c23f8647e404339e4681d83aaf86d8",
-      "bytes": 2074
-    },
-    "raw_selected_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/selected-raw-audit.json",
-      "sha256": "c172aefc16dca3a3fec94d801285bd4936ecff2107f2d7c51f67ae9ec8c32d1e",
-      "bytes": 1772
-    },
-    "raw_original_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/raw-preservation.json",
-      "sha256": "2fbb7074535b86c1f34e8ef3264f77287e27e4d584c015ca6722289679f9581a",
-      "bytes": 122043
-    },
-    "raw_selected_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/selected-raw-preservation.json",
-      "sha256": "ff28d03c9cbd30ed4f3abb4a0c67f35fd04a244a9a9814bff75642dfff7b7282",
-      "bytes": 84742
-    },
-    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-34/ocr-selected",
-    "selected_raw_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/raw-selected-drafts.json",
-      "sha256": "763a627d536d39a28a74b817b55a9e683462caf80584c17403766a1985bc2064",
-      "bytes": 42132
-    },
-    "draft_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/selected-draft-inspection.json",
-      "sha256": "ed54e356531edf73f7fd6c0a5d798cddce709adad9246feb23b822ba249b5a01",
-      "bytes": 3013
-    },
-    "regions": 81,
-    "text_regions": 69,
-    "figures": 12,
-    "actual_tesseract_calls": 56,
-    "actual_qwen_calls": 26,
-    "selected_tesseract_regions": 43,
-    "selected_qwen_regions": 26,
-    "correction": "pending",
-    "production_export_created": false,
-    "previous_goal_turn_classification": "No progress: preceding status-only turn restated current checkpoint. Revalidated source/map, completed all41selectedcrop panels/sixoverlays; repaired lasttwo crossingedges toblanknative658, preserved originals/tworevisions/bylineerratum;69rawcalls plus13boundedQalternates completed and allraw/selectedtext/evidence inspected. No production status increase.",
-    "action": "Reuse all69 selected raw drafts and81 exact native sourcecrops; no successful recognition rerun. Source-correct SPC opening200–205 once, preserving displaytitle/byline discrepancy and sourceoverbars/literals. Index12originaldiagrams/tableimages and searchablecompanions, table1fourrows/fourcolumns, table2sixteenrows/fivecolumns, table3all34pin/signalpairs, table4eightoperationrows withmergedread/writeconditions andprintedCS0/CS1 discrepancy, table5bit/port/modeassociations. Recover sourceD3 in Qbitheader, D5 in80Hexample, fourQ번지→변수 regressions, EXT1/calloutcharacters; retain printed0~4/5addresses,9C00~DFFF/9000H~DFFF/C003H andlaterD6/D0 inconsistency. Export/sourceindex/independentlyvalidateopening200–205 andcommit. Native35 must restore ending206 including twoBASICprograms andfull8255pinout/LEDexample, thenfull200–206assembly fromimmutablepins; closing205컨트롤 joins206포트에 on source. Continue nineuntouchedbodies/fourotherpendingpilots/정보모음classification andstandalonewholeAugustJSON/assetscloseout/requirementsaudit. Humanacceptance pending; no reading-room rebuild.",
+    "previous_goal_turn_classification": "No progress: preceding turn read plan/ledger and reported status only. This continuation finalizes69 saved source readings, builds61blocks/12figures, indexes tables/circuits and independently validates opening200–205; one duplicate-phrase flag-range failure recovered with592 unpromoted files preserved. No recognition repeated.",
     "human_acceptance": "pending",
-    "reading_room_rebuild": false
+    "reading_room_rebuild": false,
+    "full_assembly_required": true,
+    "action": "Commit native34 opening. Reuse exact source-verified200–206 extent/boundary207/208 pins; inspect206 ending afresh and map/render only that page. Route two BASIC programs and dense8255pinout/LEDlabels toQwen, clearprose/captions toTesseract as source layout warrants. Preserve both complete programs, physical rows, literal DATA/address values, figure8/9/10 associations and all original bitmaps. Correct selected drafts once and independently validate/commit native35 ending; then separately assemble full200–206 from immutable native34/35 pins, joining205콘트롤 with206포트에 from source. Restore remaining eightuntouched bodies/promote fourpendingpilots/classify정보모음 and complete standaloneAugustJSON/assetscloseout/requirementsaudit. Humanacceptance/fullproofreading/sourcebytes/execution pending. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
@@ -17511,7 +18816,7 @@
     {
       "batch": "batch-34",
       "toc_entry_id": "maso-1984-08-toc-0027",
-      "status": "selected-raw-complete-source-correction-pending",
+      "status": "selected-raw-source-corrected-opening-export-validated",
       "source_pages": [
         200,
         201,
@@ -17642,8 +18947,12 @@
       "empty_raw_regions": [],
       "source_byline_candidate": "차경환/EME연구실",
       "canonical_byline": "차정환",
-      "source_correction": "pending",
-      "production_export": null,
+      "source_correction": "complete-once",
+      "production_export": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/article.json",
+        "sha256": "2783ecd8bdf90029bc80be6885d19df82dd5f74f46c7f460fa7bf88f51d16681",
+        "bytes": 139152
+      },
       "full_assembly_required": true,
       "human_acceptance": "pending",
       "local_monetary_weight": 0,
@@ -17652,7 +18961,114 @@
         "cached": 0.1
       },
       "output_rate": null,
-      "scope": "Source-verifiedfull200–206. Raw native opening200–205 only; source correction/index/export pending, then206ending and fullassembly. RemainingAugust and separate issueJSON/assets closeout required."
+      "scope": "Opening200–205 exported and independently validated. Ending206 and separate full200–206 assembly required. Original/selected OCR milestone retained; wholeAugust incomplete.",
+      "source_review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/source-review-ledger.json",
+        "sha256": "e849578828870e1458b3c52cb936f5d144364729dfdb6d4cbb7fdb4b9c300c65",
+        "bytes": 29214
+      },
+      "validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
+        "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
+        "bytes": 1649
+      },
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
+        "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
+        "bytes": 599567
+      },
+      "source_tables": {
+        "tables": [
+          {
+            "table_id": "spc-table-1",
+            "region_id": "p201r16",
+            "figure_region_id": "p201r15",
+            "header_rows": 1,
+            "data_rows": 4,
+            "columns": 4,
+            "data_cells": 16,
+            "header_cells": 4,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-2",
+            "region_id": "p202r12",
+            "figure_region_id": "p202r11",
+            "header_rows": 1,
+            "data_rows": 16,
+            "columns": 5,
+            "data_cells": 80,
+            "header_cells": 5,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-3",
+            "region_id": "p203r10",
+            "figure_region_id": "p203r09",
+            "header_rows": 0,
+            "data_rows": 17,
+            "columns": 4,
+            "data_cells": 68,
+            "header_cells": 0,
+            "blank_cells": 0,
+            "source_bytes_verified": false
+          },
+          {
+            "table_id": "spc-table-4",
+            "region_id": "p205r03",
+            "figure_region_id": "p205r02",
+            "header_rows": 1,
+            "data_rows": 8,
+            "columns": 7,
+            "data_cells": 56,
+            "header_cells": 7,
+            "blank_cells": 7,
+            "source_bytes_verified": false,
+            "merged_cells": [
+              {
+                "row": 0,
+                "column": 6,
+                "column_span": 2
+              },
+              {
+                "row": 1,
+                "column": 7,
+                "row_span": 3
+              },
+              {
+                "row": 4,
+                "column": 7,
+                "row_span": 3
+              },
+              {
+                "row": 7,
+                "column": 6,
+                "column_span": 2
+              },
+              {
+                "row": 8,
+                "column": 6,
+                "column_span": 2
+              }
+            ],
+            "geometry_note": "Zero-based rows, one-based columns. Empty followers remain explicit; long final condition is one source cell despite its printed line wraps."
+          }
+        ],
+        "data_rows": 45,
+        "data_cells": 220,
+        "header_rows": 3,
+        "header_cells": 16,
+        "blank_cells": 7,
+        "human_acceptance": "pending"
+      },
+      "external_bus_pin_pairs": 34,
+      "port_pin_pairs": 24,
+      "control_word_states": 15,
+      "source_prose_joins": 7,
+      "source_prose_boundaries": 8,
+      "source_flags": 31
     }
   ]
 }
