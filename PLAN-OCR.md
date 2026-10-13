@@ -4754,3 +4754,48 @@ commit code/documentation. Do not count a partial opening as a complete article.
   andfull221–236assembly. RemainingAugust bodies/pilots/heading andstandalone
   wholeissueJSON/assets closeout/requirementsaudit remain required. Goalactive;
   no reading-room rebuild.
+
+
+### August microcomputer-design227–232 raw checkpoint validated, 2026-10-14
+
+- Checkpoint 39 covers PDF pages 227–232 of the verified article extent 221–236.
+  The opening package for 221–226 remains immutable. Pages 233–236 and a separate
+  full article assembly are still required. Nineteen pinned source views were
+  reused; the six current pages were reinspected.
+- Six fresh renders retain 108 regions: 96 text readings and 12 source images
+  (ten numbered figures and two printed tables). Page 229 is sideways in the PDF.
+  Its unrotated render is retained; every crop uses exactly one clockwise 90°
+  correction, independently checked against source pixels.
+- All 50 original inspection groups and six overlays were viewed. Thirty-seven
+  original regions were repaired and three added before inference. Five revision
+  records preserve crop/map history; revision 4 records a no-op regeneration.
+  All 27 changed final groups and six final overlays were viewed. All 108 crops
+  match the source. The 384 text boundaries have zero glyph cuts; 56 intersections
+  with rules, wires or frames were inspected on five edge boards.
+- All 96 original drafts and 27 bounded Qwen alternates were read. Identifier or
+  value failures justified one alternate per affected Tesseract crop. Successful
+  primary Qwen crops were not repeated. Actual calls: 49 Tesseract / 77 Qwen;
+  selected readings: 22 Tesseract / 74 Qwen. Three primary Qwen responses reached
+  their caps and are retained with Tesseract fallbacks. Those three crops received
+  no further Qwen call. There were no retries or probes.
+- Local Qwen tokens, including failed outputs: 45,496 input / 13,284 output /
+  58,780 total. Successful Qwen wall time was 274.855 seconds; Tesseract wall time
+  was 21.471 seconds. Failed Qwen server timings total 208.941 seconds; their
+  actual wall timings are unavailable and are not replaced with server timings.
+  Local monetary weight is zero; paid input ratio is 1:0.1. Output price and
+  human active review time remain unknown. Preparation, recognition, evaluation,
+  recovery and reporting windows remain separate elapsed diagnostics.
+- Selection attempt 1 is preserved: a text comparison normalized CRLF line
+  endings. Comparing native UTF-8 bytes resolved the check without repeating OCR.
+- Independent raw and selected audits pass. Seals preserve 1,744 original files
+  and 1,011 selected/alternate files. All 55 prior production packages, native
+  15–38 seals and 16,790 pilot files remain unchanged.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-39/selected-raw-audit.json`.
+- This is the 19th historical raw milestone. Production remains 26 complete,
+  one partial, six untouched, four pending pilots, five classified headings and
+  one unclassified heading, with zero human acceptances. These are uncorrected
+  drafts. Next: source correction, circuit/table/pin/timing indexes and the
+  227–232 export, followed by 233–236 and the full assembly. Remaining August
+  content, standalone issue JSON/assets and the requirements audit are required.
+  Full proofreading, source bytes and historical execution remain unverified.
+  No reading-room rebuild. The reporting/commit tail enters the next usage audit.
