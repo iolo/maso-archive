@@ -14372,3 +14372,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   August content and standaloneissueJSON/assets closeout/requirementsaudit.
   Full proofreading,encoded bytes and historical execution remain unverified.
   No reading-room rebuild. Reporting/commit tail enters the next usage audit.
+
+
+## 2026-10-14 — August RECALC opening239–244 source-corrected
+
+- Source-corrected all96 selected readings once for RECALC239–244 of actual
+  full239–245. Canonical0032/title/심명섭/parent0031/page240 unchanged; source
+  opening239 conflict retained.106regions retain94orderedblocks and10original
+  images: nine full listing panels plus prose endingmark. Two explicit prose
+  boundaries join 새겨+진다 and THE+ABSENTS across sourcecolumn/page.
+- PASSWORD/list1 and RECALC/list2 remain independent.568physical listingrows
+  retain286 numberedlogicalentries,242physicalwraps and40independent label/blank
+  rows. Wrapped000 belongs to1000; PLS row across243columns belongs to958;
+  quoted1810 spans two regions. Existing sharedwrapped projection passes and
+  rejects an altered958 owner; no sharedpipeline change. Mainlisting ends1860;
+  ending245/fullassembly required, without a physicalrowjoin across244→245.
+- Exact searchable ranges retain28variabledefinitions,29programguide entries,
+  eight numericDATA statements/232values and one unquotedstringDATA statement
+  with ],[. Split22/14 tokens retain their physicalfragments. Source30540's
+  thirteenpairs remain despite its twelvepair loop; no intended data repair.
+- Thirty-nine flags preserve literal WORKIKG/SELCET, PEEK(--16384), ST,AB,M,
+  STROVE, missing PRINT separators/THEN/operator, SK/SR and quotedalignment/
+  decorative/glyph candidates. Printed태능중3년 and absent referenced menufigure1
+  remain explicit. Three targeted amendments retain originalinput readings:
+  메시지, enlarged21asterisks and23hyphens. Humanacceptance/fullproofreading/
+  sourceencodedbytes/historicalexecution remainunverified.
+- Export, sourcecrop pixels/raw/settings, all text/review/definition/guide/DATA
+  fragment ranges, caption associations, listingownership and an independent
+  byte-identical fullrebuild pass. All58priorproductionpackages, native15–41
+  raw/selectedseals and16,790pilotfiles unchanged. A validator initially used
+  historical extent keys; failedscript/error retained and corrected to current
+  article_pdf_pages/whole_views schema. Source andexport bytes unchanged.
+- Actual OCR remains62Qwen/53Tesseract, selected61Qwen/35Tesseract. No newOCR,
+  retries, sourcecrop changes or recognition cost during correction/export.
+  All1,191original/869selected sealedfiles remainexact. Unchanged135PDF-test
+  baseline reused; sourcewrapped projection additionally verified onrealopening.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-41/recalc-opening`.
+  Index:`build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-41/source-index.json`.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-41/validation.json`.
+  August now27complete/onepartial/fiveuntouched/fourpendingpilots/fiveclassified
+  headings/oneunclassifiedheading/zerohumanaccepted.59packages comprise41natives/
+  14assemblies/fourselections;all21historicalrawmilestones unchanged. Next245,
+  full239–245assembly, remainingAugust andstandaloneissuecloseout/requirementsaudit.
+  Localcompute/tokens monetaryweight0; paidinput1:0.1,outputprice/humanactiveeffort
+  unknown. Correctionelapsed includes status/continuationgaps andinitial export
+  checks; reporting/commit tail entersnextusageaudit. No reading-room rebuild.
