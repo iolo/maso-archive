@@ -14752,3 +14752,61 @@ history remains in [PROGRESS.md](PROGRESS.md).
   standalone issue JSON/assets closeout/requirements audit. Source encoded bytes,
   execution and full proofreading remain unverified. Commit/response costs enter
   the next usage audit. No reading-room rebuild.
+
+
+## 2026-10-14 — August 사과귀신257–261 source-corrected
+
+- Restored the complete 사과 귀신 article on source pages 257–261. Canonical
+  entry 0035, 윤성민, parent 0031 and first page 257 remain unchanged. The printed
+  display title 사과귀신 and byline candidate 윤 석 민 remain separate from their
+  canonical forms. The MSX FRONTIER SOFT(C) listing retains by Y.S.M./by H.J.P.
+  credits, starts at 10 and ends at 2790 GOTO 1580.
+- The package preserves 59 regions, 48 ordered text blocks and ten original
+  images, including seven full listing panels, title illustration, screenshot and
+  ending mark. One explicit no-separator prose join retains 해충/을 across columns
+  below the screenshot. Fifteen variable definitions and 29 guide entries have
+  exact searchable ranges. All 49 selected readings were source-corrected once,
+  followed by one separately recorded literal amendment: a source zoom confirms
+  line 590's fourth consecutive 3C after 3E. The first correction and rejected
+  finalization check are preserved; no value was inferred from sprite dimensions.
+- The single BASIC listing retains 446 physical rows: 284 numbered statements
+  and 162 wraps, with no unnumbered rows. Bare targets 740, 1990, 1930, 1970,
+  2270 and 2760 retain their owning statements. Cross-page 1020 and cross-column
+  2350 SJ continuations remain explicit. Missing 2750 comparison, empty quoted
+  value and target are restored directly from source. Wrong ownership is rejected.
+- Seventy DATA statements preserve 56 decimal fields, 416 valid hexadecimal
+  reading candidates, the uncertain apostrophe at 330 DATA ', 39 quoted fields
+  and unquoted END. These 513 logical fields retain 556 physical fragments.
+  Commas inside quoted DRAW strings remain part of one field. All 69 quoted
+  BASIC literals retain 122 physical fragments. Source 1650's opening parenthesis,
+  1700's extra closing parenthesis, 1880's comma-like mark, 2400's double comma,
+  NEXT N and malformed DRAW sequences remain literal. Visible operators, music
+  glyphs, split Korean/jamo status strings, star/blank runs and historical spellings
+  retain 69 source flags. Original bitmaps remain authoritative; source encoded
+  bytes and historical execution are not certified.
+- No new OCR was required. Raw milestone 24 remains at actual 39 Qwen/15
+  Tesseract calls, selected 39 Qwen/10 Tesseract readings, three selected Qwen
+  prose alternatives and two retained inferior Tesseract alternatives. Recognition
+  had no failures, retries or probes. Local Qwen tokens remain 29,792 input,
+  9,372 output and 39,164 total. All 835 original and 441 selected/alternate files
+  remain sealed. Ten original image inspections are reused only after exact
+  source-pixel verification; earlier preparation/audit-log recoveries remain pinned.
+- Independent source-pixel/raw/settings checks, text/review/value ranges,
+  DATA quoted-field parsing, all literal fragments, physical/logical ownership,
+  explicit amendment replay, source-zoom pixels and a fresh byte-identical rebuild
+  pass. All 63 prior packages, batches 15–45 raw/selected inventories and 16,790
+  pilot files remain unchanged. The shared pipeline is unchanged; its pinned
+  passing 135-test baseline is reused. Human acceptance and full proofreading
+  remain pending.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-45/apple-ghost`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-apple-ghost-source-index-45/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-45/validation.json`.
+  August now has 31 complete articles, zero partials, two untouched bodies,
+  four pending pilots, five classified headings, one unclassified heading and
+  zero human acceptances. Its 64 packages comprise 45 natives, 15 assemblies and
+  four selections; all 24 historical raw milestones are unchanged. Next: verify
+  디버깅룸 beginning on 138, then restore remaining content and complete standalone
+  issue JSON/assets closeout and the requirements audit. Local computation/tokens
+  have zero monetary weight; paid input ratio remains 1:0.1, with output price and
+  active human effort unknown. Elapsed windows include the correction recovery
+  as a diagnostic. Commit/response costs enter the next audit. No reading-room rebuild.
