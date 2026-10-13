@@ -13224,3 +13224,48 @@ history remains in [PROGRESS.md](PROGRESS.md).
   differences only; do not invent complete runnable listings. Remaining bodies,
   pilots,headings and standalone issue JSON/assets closeout remain. No reading-room
   rebuild. Reporting/commit usage after the audit cutoff carries into the next audit.
+
+
+## 2026-10-13 — August medical-insurance opening172–177 restored
+
+- Restored opening172–177 of source-verified full172–180 의료보험수가계산,
+  canonical0023/byline컴퓨텍/business parent0021. All56 mapped regions retain
+  48 ordered text blocks,50 regional readings and six original images: flowchart1,
+  complete report2 and four complete listing-page bitmaps. Ending178–180 and
+  separate full assembly remain; the article is explicitly partial.
+- All50 selected drafts (20T/30Q) were corrected once against21 pinned source
+  panels in five saved parts. No new recognition during correction/export. Actual
+  recognition remains24T/30Q, including three selectedQ control-key/value alternates
+  and one unselectedT code alternate. The5022 continuation omitted by originalQ
+  was transcribed directly from its scan. All663 original/407 selected evidence
+  files and every alternative remain unchanged.
+- The complete first BASIC listing174–177 retains24 text chunks and234 physical
+  rows:169 numbered source candidates,61 nonblank wraps and four layout blanks.
+  Two overlapping printed5120/5122 rows remain distinct flagged candidates; faint
+  source7030 retains its overexposure warning. Final1756700 and1766520 are trailing
+  operands of5175/6600, not additional numbered statements. Printed duplicate
+  INPUTWA$, openquote15040, CALL868 versus-868, PRINTGOSUB and doublecolon remain.
+  Quoted spaces/punctuation/Hangul and historical source bytes/execution unverified.
+- Two six-row control-key tables retain30 exact field cells without invented
+  headers. Two source prose joins preserve OFF(CTRL+R across full report173 and
+  서브루/틴 across174 columns, with all interrupted headers/caption/image recorded.
+  One searchable flowchart retains seven nodes/ten edges beside its authoritative
+  bitmap. Four inline/contact/key examples and four Unicode glyph ranges are
+  indexed. Forty-seven source flags retain printed spelling, code errors and
+  ambiguous readings. Report tiny cells/ruled layout/footnote/dimensions remain
+  preserved in the complete image; its caption also has an explicit text association.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-30/medical`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-medical-source-index-30/source-index.json`.
+  Independent canonical identity, coverage, source pixels/raw hashes, exact text/
+  review/table/flag/listing ranges, wrap classification and byte-identical rebuild
+  pass. All40 prior production packages,native15–30 raw/selected seals and16,790
+  pilot files remain unchanged. No shared pipeline change or new OCR required.
+- August now has20 complete assistant restorations,one partial medical article,
+  ten untouched bodies,six pending pilot selections,three classified/three
+  unclassified headings and zero human accepted. Forty-one production packages
+  comprise30 natives,nine assemblies andtwo selections. Next: re-inspect/map/
+  restore178–180, preserving printed difference-only programs2–4, then assemble
+  full172–180. Remaining bodies/pilots/headings and standalone issue closeout
+  remain. No reading-room rebuild. Local compute/token monetary weight is zero;
+  paid input ratio1:0.1,output rate/human effort unmeasured. Reporting/commit usage
+  after the audit cutoff carries into the next audit.
