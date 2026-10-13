@@ -5042,6 +5042,360 @@
         "bytes": 118617
       },
       "usage_limitation": "All 41 Q calls include 35 original and six bounded alternates, including the unselected original table draft. All 85 T calls include 77 worker calls, one unselected preparation probe and seven bounded alternates. Selected 40 Q/72 T corrected once. T recognition includes every attempt once; worker/probe/fallback/selection durations are separate noncausal diagnostics. Local monetary weight zero; human acceptance, source bytes and execution unverified."
+    },
+    {
+      "batch": "batch-25",
+      "toc_entry_id": "maso-1984-08-toc-0019",
+      "title": "도형정의표의 정복",
+      "source_pages": [
+        134,
+        135,
+        136,
+        137
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p134r01": "tesseract",
+        "p134r03": "qwen",
+        "p134r04": "qwen",
+        "p134r05": "qwen",
+        "p134r06": "tesseract",
+        "p134r07": "tesseract",
+        "p134r08": "qwen",
+        "p134r09": "tesseract",
+        "p134r11": "qwen",
+        "p134r12": "qwen",
+        "p134r13": "qwen",
+        "p134r14": "tesseract",
+        "p134r15": "tesseract",
+        "p134r16": "tesseract",
+        "p134r18": "qwen",
+        "p134r19": "qwen",
+        "p134r20": "tesseract",
+        "p134r22": "qwen",
+        "p134r23": "qwen",
+        "p134r24": "qwen",
+        "p134r25": "tesseract",
+        "p134r26": "qwen",
+        "p134r27": "tesseract",
+        "p134r28": "qwen",
+        "p134r29": "qwen",
+        "p134r30": "tesseract",
+        "p135r01": "qwen",
+        "p135r03": "qwen",
+        "p135r04": "qwen",
+        "p135r05": "qwen",
+        "p135r06": "tesseract",
+        "p135r08": "qwen",
+        "p135r09": "qwen",
+        "p135r10": "qwen",
+        "p135r11": "qwen",
+        "p135r12": "qwen",
+        "p135r13": "tesseract",
+        "p135r14": "qwen",
+        "p135r15": "qwen",
+        "p135r16": "qwen",
+        "p135r17": "tesseract",
+        "p135r18": "qwen",
+        "p135r19": "tesseract",
+        "p135r21": "qwen",
+        "p135r22": "qwen",
+        "p135r23": "qwen",
+        "p135r24": "tesseract",
+        "p135r26": "qwen",
+        "p135r27": "tesseract",
+        "p136r01": "qwen",
+        "p136r03": "tesseract",
+        "p136r04": "tesseract",
+        "p136r06": "tesseract",
+        "p136r07": "tesseract",
+        "p136r09": "tesseract",
+        "p136r10": "tesseract",
+        "p136r12": "qwen",
+        "p136r13": "qwen",
+        "p136r14": "qwen",
+        "p136r15": "qwen",
+        "p136r16": "qwen",
+        "p136r17": "qwen",
+        "p136r18": "qwen",
+        "p136r19": "qwen",
+        "p136r20": "tesseract",
+        "p136r21": "tesseract",
+        "p136r22": "tesseract",
+        "p136r23": "tesseract",
+        "p136r24": "tesseract",
+        "p136r25": "tesseract",
+        "p136r27": "qwen",
+        "p136r28": "qwen",
+        "p136r29": "tesseract",
+        "p136r30": "qwen",
+        "p136r31": "qwen",
+        "p137r01": "tesseract",
+        "p137r02": "tesseract",
+        "p137r03": "tesseract",
+        "p137r04": "qwen",
+        "p137r05": "tesseract",
+        "p137r06": "tesseract",
+        "p137r07": "tesseract",
+        "p137r08": "tesseract",
+        "p137r09": "tesseract",
+        "p137r10": "tesseract",
+        "p137r11": "tesseract",
+        "p137r12": "tesseract",
+        "p137r14": "qwen",
+        "p137r15": "qwen",
+        "p137r16": "tesseract",
+        "p137r17": "qwen",
+        "p137r18": "qwen",
+        "p137r19": "qwen",
+        "p137r20": "qwen",
+        "p137r21": "qwen",
+        "p137r22": "tesseract",
+        "p137r23": "tesseract",
+        "p137r24": "qwen",
+        "p137r25": "tesseract"
+      },
+      "assignment_reason": "T clear prose/headings/captions/three terminal grid labels; Q dense BASIC/monitor listings,inline code commands,color table andanimation flow labels. One bounded representative T color-table probe before final assignment; preserve any alternate and reuse successful unchanged probe when selected,no dual correction. Ruled-table probe lost values/names/row associations; retain Q for both table regions.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-25/shape-table/article.json",
+          "sha256": "45be59c6e4dd742eabf468f9c72f2598fd979e1da6d155dee30b0f7eece15296",
+          "bytes": 178694
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-25/shape-table/manifest.json",
+          "sha256": "df6769c31557e1a6d8e88c748a8081a407b38562a8e026719c069a3b515d93d2",
+          "bytes": 69116
+        },
+        "source_pages": [
+          134,
+          135,
+          136,
+          137
+        ],
+        "regions": 113,
+        "text_regions": 99,
+        "figures": 14,
+        "physical_listing_rows": 144,
+        "logical_listing_rows": 123,
+        "unresolved_entries": 23,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-shape-table-source-index-25/source-index.json",
+          "sha256": "59c9260106d96b4c797c253be30903ad0da31e914b6d1ea7df0d2cd154b303af",
+          "bytes": 519335
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/validation.json",
+          "sha256": "a1ede42452e3974ce79c70f69feb2e61c482b88d6ca51a2c04cc281a18e28dfe",
+          "bytes": 1739
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/map.json",
+        "sha256": "6e337bd2fd1f57bc580b1f961472683aad3ab30227fbb4360a19df1dcf330eb2",
+        "bytes": 33559
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/source-review-ledger.json",
+        "sha256": "6a2666d2a4ce1efbbadebc71570116a99a96ac8fe587ec7d2215db7513016dff",
+        "bytes": 29464
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 20367,
+        "completion_tokens": 3766,
+        "total_tokens": 24133
+      },
+      "qwen_completed_calls": 56,
+      "qwen_recognition_seconds": 105.05016614400665,
+      "tesseract_recognition_seconds": 10.503164217981976,
+      "preparation_probe_seconds": 0.15111707299365662,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-12T23:58:57.429174+00:00",
+        "finished_at": "2026-10-13T00:00:17.477749+00:00",
+        "elapsed_seconds": 80.04858779298957,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 39,
+          "tesseract_inferences": 60,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 1,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 60,
+          "unselected_preparation_probe_calls": 1,
+          "total_tesseract_calls": 61,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p134r18",
+          "data_rows": 3,
+          "data_cells": 12
+        }
+      ],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 54,
+        "selected_tesseract_regions": 45,
+        "total_qwen_calls": 56,
+        "total_tesseract_calls": 61,
+        "worker_tesseract_calls": 60,
+        "preparation_probe_calls": 1,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 17,
+        "additional_tesseract_calls": 0,
+        "additional_qwen_calls": 17,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 6753,
+          "completion_tokens": 1281,
+          "total_tokens": 8034
+        },
+        "decisions": [
+          {
+            "region_id": "p134r29",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p135r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p135r18",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p136r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p137r24",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p136r03",
+            "alternate_engine": "qwen",
+            "selected_alternate": false,
+            "reason": "Q alternate returns ILLEGIBLE for tiny terminal word; retain original draft and correct once from the preserved scan."
+          },
+          {
+            "region_id": "p136r06",
+            "alternate_engine": "qwen",
+            "selected_alternate": false,
+            "reason": "Q alternate returns ILLEGIBLE for tiny terminal word; retain original draft and correct once from the preserved scan."
+          },
+          {
+            "region_id": "p134r08",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p134r26",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p134r28",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p135r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p135r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p136r30",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p137r04",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p137r17",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p137r19",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          },
+          {
+            "region_id": "p137r21",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Q alternate restores missing heading, command or address fields; exact source spelling still requires correction."
+          }
+        ],
+        "elapsed_selection_seconds": 0.08174891798989847,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 56,
+      "total_tesseract_calls": 61,
+      "selected_qwen_regions": 54,
+      "selected_tesseract_regions": 45,
+      "worker_qwen_calls": 39,
+      "worker_tesseract_calls": 60,
+      "preparation_probe_calls": 1,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 17,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/raw-preservation.json",
+        "sha256": "7ec315c0d03cc1b481b181f09d794e6db037ef13940fa64a9d4a660ac90c3d50",
+        "bytes": 126740
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/selected-raw-preservation.json",
+        "sha256": "a549b9fce604d085fb73bc9e482dcb17e6ce5532b45ae5b320a50dabb9d8e211",
+        "bytes": 123008
+      },
+      "usage_limitation": "All56Q calls include39 original and17 bounded alternates, including two unselected ILLEGIBLE label readings. All61T calls include60 worker calls andone unselected preparation probe. Selected54Q/45T corrected once. Recognition includes every attempt once; worker/probe/alternate/selection durations are separate noncausal diagnostics. Local monetary weight zero; human acceptance, source bytes and execution unverified."
     }
   ],
   "assemblies": [
@@ -7596,6 +7950,20 @@
             "sha256": "73f2f70220734ba6da60a4f6ee8f3b1aa7ca2498ed230a17e98752725a09f339",
             "bytes": 209066
           }
+        },
+        {
+          "batch": "batch-25",
+          "source_pages": [
+            134,
+            135,
+            136,
+            137
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-25/shape-table/article.json",
+            "sha256": "45be59c6e4dd742eabf468f9c72f2598fd979e1da6d155dee30b0f7eece15296",
+            "bytes": 178694
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -7604,14 +7972,13 @@
         130,
         131,
         132,
-        133
-      ],
-      "deferred_pdf_pages": [
+        133,
         134,
         135,
         136,
         137
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -7930,8 +8297,8 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": "batch-25",
-    "status": "shape-table-ending134-137-selected-raw-source-correction-pending",
+    "batch": "shape-table-assembly",
+    "status": "shape-table-full128-137-assembly-pending",
     "toc_entry_id": "maso-1984-08-toc-0019",
     "canonical_title": "도형정의표의 정복",
     "canonical_byline": "김선호",
@@ -8063,8 +8430,8 @@
       },
       "scope": "FullZ80 article116–127 complete underJSON/assets scope. WholeAugust remains incomplete;humanacceptance/fullproofreading/sourcebytes/execution unverified."
     },
-    "action": "Correct only99 final selected drafts once against source134–137. Independently count eight BASIC programs3–10 and one unnumbered monitor group, preserving physical DATA/statement wraps, absent source labels110/130 in program7, and printed malformed commands. Index color-table header/data fields, animation-flow labels/edges, three grid geometries, monitor pointer/byte fields, source captions and prose boundaries across interrupted figures. Read tiny terminal labels directly from preserved source without further OCR; both Q alternates were ILLEGIBLE. Preserve address contradictions and uncertain glyphs without semantic repair or historical execution. Export/validate/commit ending134–137, then assemble full128–137 from immutable opening24 and ending25 with incoming/existing prose joins and source indexes intact. Exclude errata138, classifieds139–140 and advertisement140. Continue remaining August articles, pilot selections, heading classifications and whole-issue JSON/assets closeout. No reading-room rebuild.",
-    "previous_goal_turn_classification": "no-progress: prior status-only reply. This continuation verified source coverage and crop boundaries, completed all99 raw drafts and17 bounded alternate readings, selected one draft per region and sealed evidence.",
+    "action": "Assemble full128–137 from exact immutable opening24 and ending25. Source133 final ROT paragraph ends completely;134 starts table3 and section3DRAW, so verify original whole133/134 views and retain ordering without inventing a cross-native prose join. Preserve all12 native prose joins/16boundaries, independent listing groups, physical wraps, all9 tables/header/merged/blank fields, figure/diagram/grid associations and source indexes. Project exact native ranges into combined article/listing bytes, retain original metadata and every source asset byte-identically; independently rebuild/validate fullpackage before committing. Resolve only native scope/assembly notes, retaining human acceptance, glyph candidates, source encoded bytes and execution limitations. Then continue remaining August articles, pilot selections, heading classifications and whole-issue JSON/assets closeout. No reading-room rebuild.",
+    "previous_goal_turn_classification": "progress: prior turn completed source/crop gate, OCR, bounded alternates, selection and evidence seals. This turn corrected99 drafts once, indexed and independently validated ending134–137.",
     "human_acceptance": "pending",
     "source_bytes_verified": false,
     "execute_verified": false,
@@ -8369,6 +8736,49 @@
       "production_export": "not-created",
       "full_assembly_required": true,
       "human_acceptance": "pending"
+    },
+    "ending_production": {
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-25/shape-table/article.json",
+        "sha256": "45be59c6e4dd742eabf468f9c72f2598fd979e1da6d155dee30b0f7eece15296",
+        "bytes": 178694
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-25/shape-table/manifest.json",
+        "sha256": "df6769c31557e1a6d8e88c748a8081a407b38562a8e026719c069a3b515d93d2",
+        "bytes": 69116
+      },
+      "source_pages": [
+        134,
+        135,
+        136,
+        137
+      ],
+      "regions": 113,
+      "text_regions": 99,
+      "figures": 14,
+      "physical_listing_rows": 144,
+      "logical_listing_rows": 123,
+      "unresolved_entries": 23,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-shape-table-source-index-25/source-index.json",
+        "sha256": "59c9260106d96b4c797c253be30903ad0da31e914b6d1ea7df0d2cd154b303af",
+        "bytes": 519335
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/validation.json",
+        "sha256": "a1ede42452e3974ce79c70f69feb2e61c482b88d6ca51a2c04cc281a18e28dfe",
+        "bytes": 1739
+      }
     }
   },
   "raw_preparation_checkpoints": [

@@ -3377,3 +3377,53 @@ commit code/documentation. Do not count a partial opening as a complete article.
   pending, two classified/four unclassified headings and zero human accepted.
   Next: correct/index/export/validate ending 134–137, then assemble full 128–137.
   Whole-issue JSON/assets closeout remains; no reading-room rebuild.
+
+
+### August shape-table ending134–137 production restored, 2026-10-13
+
+- Restored ending 134–137 of 김선호’s 도형정의표의 정복. All 99 selected
+  drafts were corrected once against source, with all 30 final source panels
+  inspected. The JSON/assets export retains 113 regions, 93 ordered blocks,
+  14 original images, 99 review ranges and 23 source uncertainty flags.
+  Opening 128–133 remains immutable; separate full 128–137 assembly is next.
+- Eight independent BASIC programs and one monitor group retain 144 physical
+  rows: 123 printed BASIC labels, 20 continuations and one unnumbered row.
+  Program 7’s absent labels 110/130 remain absent; program 8 is independent.
+  DATA wraps, repeated PEEK calls, split SCALE value and XC row remain physical
+  source rows. Printed 240.149, DATA separator ambiguity, XDARW diagram spelling,
+  third flow heading’s left arrow, BLOAD comma and unmatched closing parenthesis
+  remain literal. Faint O/0, I/1, 3/5 and monitor period/comma candidates are flagged.
+- The color table retains three rows/twelve data fields and four header slots,
+  including one blank merged continuation. It has three printed header boxes
+  and twelve data boxes. Exact ranges index 34 structured fields/labels,
+  18 inline command examples and 37 printed address fields. Ten displayed monitor
+  values retain their original widths and the $600 A pointer label.
+- All fourteen figure associations retain original assets. Three animation
+  flows preserve eleven boxes and eleven directed connections; the monitor
+  pointer adds one connection. Three grids preserve 18/5/8 patterned points
+  and one separate filled reference point. Grid 20 retains three points in
+  one cell rather than invented integer positions. The closing article mark
+  remains a bitmap. Four prose joins preserve six boundaries and every original
+  interrupted image, listing, caption and heading.
+- Exact UTF-8/text/review/field/header/caption/listing ranges, source crop pixels
+  and an independent byte-identical rebuild pass. All 33 prior production packages,
+  original 1,014-file and selected 857-file seals, native 15–24 raw/selected
+  inventories and 16,790 pilot files remain unchanged. An initialization helper
+  failed before any correction because it mixed relative paths with absolute ROOT;
+  its diagnostic is preserved. Resolving the path reused all thirty rendered
+  panels without new OCR or a second correction. Shared pipeline is unchanged.
+- No new OCR was required for correction/export. Accounting retains all 56 Qwen
+  and 61 Tesseract calls from preparation, including the unselected table probe
+  and two ILLEGIBLE grid-label alternates. Selected 54 Qwen/45 Tesseract drafts
+  were corrected once. All 24,133 local Qwen tokens (20,367 prompt/3,766 output)
+  and 10.503s of Tesseract recognition are counted once. Local monetary weight
+  is zero; paid uncached/cached input remains 1:0.1, output rate unknown.
+  Worker, probe, alternate, selection and correction time observations are noncausal.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-25/shape-table/`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-shape-table-source-index-25/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-25/validation.json`.
+  August remains 16 complete articles, one partial awaiting shape-table assembly,
+  14 untouched bodies, six pilot selections pending, two classified/four unclassified
+  headings and zero human accepted. Next: full 128–137 assembly, then remaining
+  articles and whole-issue JSON/assets closeout. Full proofreading, source encoded
+  bytes and historical execution remain unverified. No reading-room rebuild.

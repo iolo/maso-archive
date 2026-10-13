@@ -2955,6 +2955,42 @@
         "total_tokens": 265798,
         "uncached_nonwrite_input_tokens": 4914
       }
+    },
+    {
+      "id": "correction-25",
+      "stage": "correction",
+      "engine": "mixed",
+      "start": "2026-10-13T00:13:34.576391+00:00",
+      "end": "2026-10-13T00:32:15.186244+00:00",
+      "elapsed_seconds": 1120.609853029251,
+      "observed_responses": 41,
+      "tokens": {
+        "input_tokens": 8055630,
+        "cached_input_tokens": 7960064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 35060,
+        "reasoning_output_tokens": 13190,
+        "total_tokens": 8090690,
+        "uncached_nonwrite_input_tokens": 95566
+      }
+    },
+    {
+      "id": "record-25-production",
+      "stage": "reporting",
+      "engine": "mixed",
+      "start": "2026-10-13T00:32:15.203075+00:00",
+      "end": "2026-10-13T00:33:10.100267+00:00",
+      "elapsed_seconds": 54.89719200134277,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 486824,
+        "cached_input_tokens": 482944,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1629,
+        "reasoning_output_tokens": 722,
+        "total_tokens": 488453,
+        "uncached_nonwrite_input_tokens": 3880
+      }
     }
   ],
   "money_cost": null,
@@ -2962,33 +2998,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T00:11:50.544201+00:00",
-    "elapsed_seconds": 72444.54420089722,
-    "observed_responses": 1923,
+    "end": "2026-10-13T00:33:10.100267+00:00",
+    "elapsed_seconds": 73724.10026693344,
+    "observed_responses": 1973,
     "tokens": {
-      "input_tokens": 261703204,
-      "cached_input_tokens": 255196416,
+      "input_tokens": 271240314,
+      "cached_input_tokens": 264610560,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1259261,
-      "reasoning_output_tokens": 327167,
-      "total_tokens": 262962465,
-      "uncached_nonwrite_input_tokens": 6506788
+      "output_tokens": 1298435,
+      "reasoning_output_tokens": 342289,
+      "total_tokens": 272538749,
+      "uncached_nonwrite_input_tokens": 6629754
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T00:11:50.544201+00:00",
-    "elapsed_seconds": 72444.54420089722,
-    "observed_responses": 182,
+    "end": "2026-10-13T00:33:10.100267+00:00",
+    "elapsed_seconds": 73724.10026693344,
+    "observed_responses": 189,
     "tokens": {
-      "input_tokens": 29266116,
-      "cached_input_tokens": 28808192,
+      "input_tokens": 30260772,
+      "cached_input_tokens": 29779328,
       "cache_write_input_tokens": 0,
-      "output_tokens": 69775,
-      "reasoning_output_tokens": 20873,
-      "total_tokens": 29335891,
-      "uncached_nonwrite_input_tokens": 457924
+      "output_tokens": 72260,
+      "reasoning_output_tokens": 22083,
+      "total_tokens": 30333032,
+      "uncached_nonwrite_input_tokens": 481444
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
