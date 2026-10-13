@@ -12850,3 +12850,45 @@ history remains in [PROGRESS.md](PROGRESS.md).
   two classified/four unclassified headings and zero human accepted.
 - Next:44 Tesseract drafts, one source-based correction pass, complete141–145
   JSON/assets export and independent validation. No reading-room rebuild.
+
+
+## 2026-10-13 — August Japanese exhibition report141–145 restored
+
+- Restored the complete141–145 Japanese microcomputer exhibition report,
+  canonical0020, 이홍철. Its52 regions retain35 ordered text blocks, eight
+  original photographs,44 regional text ranges and two independent pull quotes.
+  Canonical title/byline/parent/page remain unchanged; the actual printed title
+  is retained inside the body. No deferred article pages or separate assembly.
+- All44 selected Tesseract drafts were read and corrected once against all15
+  pinned source panels. Actual calls:44 Tesseract, zero Qwen, zero probes,
+  failures, retries or alternates. No Qwen server/model startup. Recognition
+  took12.160s and the raw worker took
+  15.532s; these are separate local diagnostics,
+  not measured human-time or monetary savings. Local monetary weight is zero;
+  paid uncached/cached input retains1:0.1 weighting and output rate remains unknown.
+- Six prose joins preserve nine adjacent column/page/paragraph boundaries.
+  The141/142 terminal-word continuation remains explicitly linked around its
+  independent pull quote and photograph, preserving the original object order.
+  All eight unlabelled photographs remain exact source pixels with no invented
+  captions. There are no listings, structured tables or diagrams in this report.
+- Thirty-eight source-linked flags preserve historical wording/model names,
+  printed specifications and glyph candidates. Sony’s overprinted model digit
+  remains HB[4/7]5; brackets denote editorial alternatives, not printed characters.
+  Native ending reads 건장한 소년들이었지만…; the earlier extent shorthand 착한
+  is retained unchanged with an attached correction note. The verified141–145
+  extent and complete concluding paragraph are unchanged by that clarification.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-26/japan-microcomputers`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-japan-microcomputers-source-index-26/source-index.json`.
+  Independent regional/review/flag byte ranges, source continuations, canonical
+  identity, original crop pixels and byte-identical rebuild pass. All35 prior
+  production packages, native15–25 raw/selected inventories,437 batch26 sealed
+  files and16,790 pilot files remain unchanged. One raw-audit counter assertion
+  was corrected in the validator; its original script/failure is preserved,
+  and no recognition was repeated. Evidence: batch26 `validation.json`.
+- August now has18 restored articles, zero partials,13 untouched bodies,
+  six pilot selections pending, two classified/four unclassified headings and
+  zero human accepted. Human review, full proofreading and source encoded bytes
+  remain unverified. Next: source-verify the actual extent of 정보 레이다155,
+  then bounded native restoration; do not infer extent from TOC spacing.
+  Remaining bodies/pilots/headings and whole-issue JSON/assets closeout remain.
+  No HTML/frontend/browser or reading-room rebuild.
