@@ -4445,3 +4445,40 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Human acceptance/full proofreading/source bytes/execution pending. No reading-room
   rebuild. Correction window includes earlier compaction/status/continuation gaps;
   elapsed is not active human effort. Reporting/commit tail enters the next audit.
+
+
+### August SPC peripherals ending206 restored, 2026-10-13
+
+- Restored SPC peripherals ending206 after immutable native34opening200–205.
+  Fresh206wholeview/native render,all13crop panels/overlay and24regions inspected.
+  Twenty selected source readings retain19 ordered blocks,four original images,
+  twenty regional/review ranges andone column prose join. Full200–206 extent reused
+  from ten pinned199–208 wholeviews; only206 freshly reinspected at this checkpoint.
+- Two complete independent BASIC programs retain17 physical/numbered logical rows:
+  eightlist1 rows10/15/20/25/30/35/40/45,ninelist2 rows10–90. Literal2↑A,missingTHEN
+  in70IF andpossibleperiod after128 retained with source-linked glyph candidates.
+  No program normalization or encoded-byte/execution certification.
+- Figure8 retains40 componentpin/signal pairs,including35RESET versus printed205
+  prose34RESET. Eight LEDpositions preservePA7–PA0,circle/circledcross states and
+  binary00010101 example; original images authoritative. Seventeen literal examples,
+ 23 diagramlabel ranges and13flags retainC000/C001/C002/C003,0003/1003/2003aliases,
+  5V,0~255/00..FF andprinted포트한/코볼 candidates without hardware or spelling repair.
+- Initial4Q/16T plusseven boundedQalternates produce selected11Q/9T fromactual
+  11Q/16T,all countedonce. LocalQ5,244input/1,182output/6,426total. Qalternate
+  해당하나는데 regression correctedonce to source해당하는데; no correction/export OCR.
+  Raw-audit nestedusage Counter failure retained andfixed by summing three scalar
+  fields.231original/224selected evidence files remain sealed; no crop repairs,
+  probes,recognition failures/retries or successfulQcrop reruns.
+- Independent source/canonical/coverage,crop/raw/settings,text/review/program/pin/
+  LEDranges andbyte-identical rebuild pass.49priorproductionpackages,native15–35
+  seals and16,790pilot files unchanged. Sharedpipeline unchanged; JSON/assets only.
+  Humanacceptance/fullproofreading/sourcebytes/execution pending. Localcompute/tokens
+  monetaryweight0; paidinput1:0.1,outputrate/humanactiveeffort unknown.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-35/validation.json`.
+  August remains24complete/onepartial/eightuntouched/fourpendingpilots/fiveclassified
+  andoneunclassifiedheading/zerohumanaccepted.50packages comprise35natives/
+  11assemblies/fourselections. All200–206sourcepages now covered; separatefullassembly
+  is next. Otherbodies/pilots/heading andstandaloneissueJSON/assetscloseout required.
+  No reading-room rebuild. Reporting/commit/response tail carriesinto nextusageaudit.

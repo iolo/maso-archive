@@ -10036,6 +10036,727 @@
         "human_acceptance": "pending"
       },
       "usage_limitation": "All26Q calls include13original and13bounded alternates on unchanged crops; all56originalT calls counted once. Selected43T/26Q source-corrected once. Zero correction/export OCR; sourceD3/D5/four번지 readings restored. Printed address/signal/count contradictions retained; Unicode bars/subscripts editorial. Localcompute/tokens monetaryweight zero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-35",
+      "toc_entry_id": "maso-1984-08-toc-0027",
+      "title": "SPC-1000용 주변기기의 제작",
+      "source_pages": [
+        206
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p206r01": "tesseract",
+        "p206r03": "qwen",
+        "p206r04": "tesseract",
+        "p206r05": "qwen",
+        "p206r06": "qwen",
+        "p206r08": "qwen",
+        "p206r09": "tesseract",
+        "p206r10": "qwen",
+        "p206r11": "tesseract",
+        "p206r13": "qwen",
+        "p206r14": "qwen",
+        "p206r15": "qwen",
+        "p206r16": "qwen",
+        "p206r17": "tesseract",
+        "p206r18": "tesseract",
+        "p206r20": "qwen",
+        "p206r21": "tesseract",
+        "p206r22": "tesseract",
+        "p206r23": "qwen",
+        "p206r24": "tesseract"
+      },
+      "assignment_reason": "Clearprose/header/captions Tesseract; two complete BASIC programs, forty-pin diagram and LED bit/mark associations Qwen. Preserve four full original images. Successful prior recognition not rerun, no probe or routine paired correction. Native35 ends206; separate full200–206 assembly required",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/article.json",
+          "sha256": "0c7f9dc23f9ebbc6d9f8c4f054bfe4ae874c4827d0c4cd10a1978b44be5d20f4",
+          "bytes": 41077
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/manifest.json",
+          "sha256": "9ea6566507eeb62a8016419224615e6038b6a37c4d499c6897834ed02a5483be",
+          "bytes": 15251
+        },
+        "source_pages": [
+          206
+        ],
+        "regions": 24,
+        "text_regions": 20,
+        "figures": 4,
+        "physical_listing_rows": 17,
+        "logical_listing_rows": 17,
+        "unresolved_entries": 13,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35/source-index.json",
+          "sha256": "f17b22a768e51c4cf1cc946ee6c593ae69c7bc62077d3ddd5efe749742f9f191",
+          "bytes": 152420
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/validation.json",
+          "sha256": "7d2adfc9e7e1dea598cc0ec986bdde934c0655c73595904aecdc39d6de8dadaf",
+          "bytes": 1675
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/map.json",
+        "sha256": "b1289f47dbcf732f3668ffd4fc3c755aaffb86a3e019e095d39156e256f68cc0",
+        "bytes": 8513
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/source-review-ledger.json",
+        "sha256": "131af5623b58ec02cfb301c9502559a2e57df7d5c67d8f60ea11ac40480a3494",
+        "bytes": 9019
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 5244,
+        "completion_tokens": 1182,
+        "total_tokens": 6426
+      },
+      "qwen_completed_calls": 11,
+      "qwen_recognition_seconds": 30.288040280000132,
+      "tesseract_recognition_seconds": 5.797925174996635,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T11:14:15.342119+00:00",
+        "finished_at": "2026-10-13T11:14:43.627954+00:00",
+        "elapsed_seconds": 28.28585938499964,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 4,
+          "tesseract_inferences": 16,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 16,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 16,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 11,
+        "selected_tesseract_regions": 9,
+        "total_qwen_calls": 11,
+        "total_tesseract_calls": 16,
+        "worker_tesseract_calls": 16,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 7,
+        "additional_tesseract_calls": 0,
+        "additional_qwen_calls": 7,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 3186,
+          "completion_tokens": 718,
+          "total_tokens": 3904
+        },
+        "decisions": [
+          {
+            "region_id": "p206r05",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p206r06",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p206r10",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p206r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p206r15",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p206r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p206r23",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          }
+        ],
+        "elapsed_selection_seconds": 0.04297099700124818,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 11,
+      "total_tesseract_calls": 16,
+      "selected_qwen_regions": 11,
+      "selected_tesseract_regions": 9,
+      "worker_qwen_calls": 4,
+      "worker_tesseract_calls": 16,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 7,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/raw-preservation.json",
+        "sha256": "699137f54550dbb0db2a8012e87406143ca65031c44250e7aad43658c38c48d4",
+        "bytes": 28040
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/selected-raw-preservation.json",
+        "sha256": "018b612802fa04d90dae8f632bdcc383c56d1a11751aef18acadbe086f7583be",
+        "bytes": 31611
+      },
+      "source_listing_counts": {
+        "regions": {
+          "p206r08": {
+            "physical_rows": 8,
+            "numbered_rows": 8
+          },
+          "p206r20": {
+            "physical_rows": 9,
+            "numbered_rows": 9
+          }
+        },
+        "physical_rows": 17,
+        "numbered_rows": 17,
+        "logical_numbered_rows": 17,
+        "listing_groups": 2,
+        "wrapped_continuations": 0,
+        "source_byte_encoding_verified": false,
+        "human_acceptance": "pending"
+      },
+      "source_structured_fields": {
+        "definitions": [],
+        "tables": [],
+        "component_pin_pairs": [
+          {
+            "id": "spc-8255A-pin-1",
+            "pin": 1,
+            "printed_signal": "PA₃",
+            "signal_ascii": "PA3",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PA₃\t1",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-40",
+            "pin": 40,
+            "printed_signal": "PA₄",
+            "signal_ascii": "PA4",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "40\tPA₄",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-2",
+            "pin": 2,
+            "printed_signal": "PA₂",
+            "signal_ascii": "PA2",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PA₂\t2",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-39",
+            "pin": 39,
+            "printed_signal": "PA₅",
+            "signal_ascii": "PA5",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "39\tPA₅",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-3",
+            "pin": 3,
+            "printed_signal": "PA₁",
+            "signal_ascii": "PA1",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PA₁\t3",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-38",
+            "pin": 38,
+            "printed_signal": "PA₆",
+            "signal_ascii": "PA6",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "38\tPA₆",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-4",
+            "pin": 4,
+            "printed_signal": "PA₀",
+            "signal_ascii": "PA0",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PA₀\t4",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-37",
+            "pin": 37,
+            "printed_signal": "PA₇",
+            "signal_ascii": "PA7",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "37\tPA₇",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-5",
+            "pin": 5,
+            "printed_signal": "R̅D̅",
+            "signal_ascii": "RD",
+            "active_low_bar": true,
+            "region_id": "p206r03",
+            "transcription_excerpt": "R̅D̅\t5",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-36",
+            "pin": 36,
+            "printed_signal": "W̅R̅",
+            "signal_ascii": "WR",
+            "active_low_bar": true,
+            "region_id": "p206r03",
+            "transcription_excerpt": "36\tW̅R̅",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-6",
+            "pin": 6,
+            "printed_signal": "C̅S̅",
+            "signal_ascii": "CS",
+            "active_low_bar": true,
+            "region_id": "p206r03",
+            "transcription_excerpt": "C̅S̅\t6",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-35",
+            "pin": 35,
+            "printed_signal": "RESET",
+            "signal_ascii": "RESET",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "35\tRESET",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-7",
+            "pin": 7,
+            "printed_signal": "GND",
+            "signal_ascii": "GND",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "GND\t7",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-34",
+            "pin": 34,
+            "printed_signal": "D₀",
+            "signal_ascii": "D0",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "34\tD₀",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-8",
+            "pin": 8,
+            "printed_signal": "A₁",
+            "signal_ascii": "A1",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "A₁\t8",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-33",
+            "pin": 33,
+            "printed_signal": "D₁",
+            "signal_ascii": "D1",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "33\tD₁",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-9",
+            "pin": 9,
+            "printed_signal": "A₀",
+            "signal_ascii": "A0",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "A₀\t9",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-32",
+            "pin": 32,
+            "printed_signal": "D₂",
+            "signal_ascii": "D2",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "32\tD₂",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-10",
+            "pin": 10,
+            "printed_signal": "PC₇",
+            "signal_ascii": "PC7",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PC₇\t10",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-31",
+            "pin": 31,
+            "printed_signal": "D₃",
+            "signal_ascii": "D3",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "31\tD₃",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-11",
+            "pin": 11,
+            "printed_signal": "PC₆",
+            "signal_ascii": "PC6",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PC₆\t11",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-30",
+            "pin": 30,
+            "printed_signal": "D₄",
+            "signal_ascii": "D4",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "30\tD₄",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-12",
+            "pin": 12,
+            "printed_signal": "PC₅",
+            "signal_ascii": "PC5",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PC₅\t12",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-29",
+            "pin": 29,
+            "printed_signal": "D₅",
+            "signal_ascii": "D5",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "29\tD₅",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-13",
+            "pin": 13,
+            "printed_signal": "PC₄",
+            "signal_ascii": "PC4",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PC₄\t13",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-28",
+            "pin": 28,
+            "printed_signal": "D₆",
+            "signal_ascii": "D6",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "28\tD₆",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-14",
+            "pin": 14,
+            "printed_signal": "PC₀",
+            "signal_ascii": "PC0",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PC₀\t14",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-27",
+            "pin": 27,
+            "printed_signal": "D₇",
+            "signal_ascii": "D7",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "27\tD₇",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-15",
+            "pin": 15,
+            "printed_signal": "PC₁",
+            "signal_ascii": "PC1",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PC₁\t15",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-26",
+            "pin": 26,
+            "printed_signal": "Vcc",
+            "signal_ascii": "Vcc",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "26\tVcc",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-16",
+            "pin": 16,
+            "printed_signal": "PC₂",
+            "signal_ascii": "PC2",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PC₂\t16",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-25",
+            "pin": 25,
+            "printed_signal": "PB₇",
+            "signal_ascii": "PB7",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "25\tPB₇",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-17",
+            "pin": 17,
+            "printed_signal": "PC₃",
+            "signal_ascii": "PC3",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PC₃\t17",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-24",
+            "pin": 24,
+            "printed_signal": "PB₆",
+            "signal_ascii": "PB6",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "24\tPB₆",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-18",
+            "pin": 18,
+            "printed_signal": "PB₀",
+            "signal_ascii": "PB0",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PB₀\t18",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-23",
+            "pin": 23,
+            "printed_signal": "PB₅",
+            "signal_ascii": "PB5",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "23\tPB₅",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-19",
+            "pin": 19,
+            "printed_signal": "PB₁",
+            "signal_ascii": "PB1",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PB₁\t19",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-22",
+            "pin": 22,
+            "printed_signal": "PB₄",
+            "signal_ascii": "PB4",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "22\tPB₄",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-20",
+            "pin": 20,
+            "printed_signal": "PB₂",
+            "signal_ascii": "PB2",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "PB₂\t20",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-8255A-pin-21",
+            "pin": 21,
+            "printed_signal": "PB₃",
+            "signal_ascii": "PB3",
+            "active_low_bar": false,
+            "region_id": "p206r03",
+            "transcription_excerpt": "21\tPB₃",
+            "source_bytes_verified": false
+          }
+        ],
+        "led_bit_states": [
+          {
+            "id": "spc-LED-bit-7",
+            "region_id": "p206r13",
+            "port_bit": "PA₇",
+            "source_mark": "○",
+            "source_example_bit": "0",
+            "state": "소등",
+            "character_start": 32,
+            "transcription_excerpt": "○",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-LED-bit-6",
+            "region_id": "p206r13",
+            "port_bit": "PA₆",
+            "source_mark": "○",
+            "source_example_bit": "0",
+            "state": "소등",
+            "character_start": 34,
+            "transcription_excerpt": "○",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-LED-bit-5",
+            "region_id": "p206r13",
+            "port_bit": "PA₅",
+            "source_mark": "○",
+            "source_example_bit": "0",
+            "state": "소등",
+            "character_start": 36,
+            "transcription_excerpt": "○",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-LED-bit-4",
+            "region_id": "p206r13",
+            "port_bit": "PA₄",
+            "source_mark": "⊗",
+            "source_example_bit": "1",
+            "state": "점등",
+            "character_start": 38,
+            "transcription_excerpt": "⊗",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-LED-bit-3",
+            "region_id": "p206r13",
+            "port_bit": "PA₃",
+            "source_mark": "○",
+            "source_example_bit": "0",
+            "state": "소등",
+            "character_start": 40,
+            "transcription_excerpt": "○",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-LED-bit-2",
+            "region_id": "p206r13",
+            "port_bit": "PA₂",
+            "source_mark": "⊗",
+            "source_example_bit": "1",
+            "state": "점등",
+            "character_start": 42,
+            "transcription_excerpt": "⊗",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-LED-bit-1",
+            "region_id": "p206r13",
+            "port_bit": "PA₁",
+            "source_mark": "○",
+            "source_example_bit": "0",
+            "state": "소등",
+            "character_start": 44,
+            "transcription_excerpt": "○",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "spc-LED-bit-0",
+            "region_id": "p206r13",
+            "port_bit": "PA₀",
+            "source_mark": "⊗",
+            "source_example_bit": "1",
+            "state": "점등",
+            "character_start": 46,
+            "transcription_excerpt": "⊗",
+            "source_bytes_verified": false
+          }
+        ],
+        "port_pin_pairs": [],
+        "source_bitmap_authoritative": true,
+        "human_acceptance": "pending"
+      },
+      "usage_limitation": "All11Q calls include4original/sevenbounded alternates; all16originalT calls countedonce. Selected11Q/9T source-correctedonce; originalpinout/LED/listingimages retained.17printedphysical/numberedrows,twoindependentprograms,40componentpins/eightLEDpositions. Sourceup-arrow/possibleperiod/missingTHEN/포트한 retained without repair. No correction/export OCR. Raw-audit Counter nestedusage failure preserved andfixed without inference. Localcompute/tokens monetaryweightzero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "assemblies": [
@@ -16185,6 +16906,17 @@
             "sha256": "2783ecd8bdf90029bc80be6885d19df82dd5f74f46c7f460fa7bf88f51d16681",
             "bytes": 139152
           }
+        },
+        {
+          "batch": "batch-35",
+          "source_pages": [
+            206
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/article.json",
+            "sha256": "0c7f9dc23f9ebbc6d9f8c4f054bfe4ae874c4827d0c4cd10a1978b44be5d20f4",
+            "bytes": 41077
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -16193,11 +16925,10 @@
         202,
         203,
         204,
-        205
-      ],
-      "deferred_pdf_pages": [
+        205,
         206
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -16970,17 +17701,13 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 35,
-    "checkpoint": "spc1000-peripheral-ending206",
-    "kind": "native-restoration",
-    "status": "spc1000-206-ending-and-fullassembly-pending",
+    "status": "spc1000-full200-206-assembly-pending",
+    "kind": "assembly",
     "toc_entry_id": "maso-1984-08-toc-0027",
     "canonical_title": "SPC-1000용 주변기기의 제작",
     "canonical_byline": "차정환",
     "canonical_parent_id": "maso-1984-08-toc-0025",
     "canonical_first_page": 200,
-    "source_displayed_title": "미니 네온사인의 제작",
-    "source_byline_candidate": "차경환/EME연구실",
     "article_extent_verified": true,
     "article_pages": [
       200,
@@ -16991,75 +17718,119 @@
       205,
       206
     ],
-    "source_pages": [
-      206
-    ],
     "completed_source_pages": [
       200,
       201,
       202,
       203,
       204,
-      205
-    ],
-    "deferred_article_pages": [
+      205,
       206
     ],
-    "opening_export": {
-      "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/article.json",
-        "sha256": "2783ecd8bdf90029bc80be6885d19df82dd5f74f46c7f460fa7bf88f51d16681",
-        "bytes": 139152
+    "deferred_article_pages": [],
+    "native_segments": [
+      {
+        "batch": 34,
+        "export": {
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/article.json",
+            "sha256": "2783ecd8bdf90029bc80be6885d19df82dd5f74f46c7f460fa7bf88f51d16681",
+            "bytes": 139152
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/manifest.json",
+            "sha256": "5491cff239f6badc1f584668d74a3e3063280ec6edcb245af2d05f30db6fe712",
+            "bytes": 48717
+          },
+          "source_pages": [
+            200,
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "regions": 81,
+          "text_regions": 69,
+          "figures": 12,
+          "physical_listing_rows": 0,
+          "logical_listing_rows": 0,
+          "unresolved_entries": 31,
+          "complete_article": false,
+          "checks": {
+            "export_integrity": true,
+            "byte_identical_rebuild": true,
+            "text_and_review_utf8_ranges": true,
+            "listing_byte_coverage": true,
+            "explicit_printed_line_numbers": true
+          },
+          "human_acceptance": "pending",
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
+            "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
+            "bytes": 599567
+          },
+          "source_validation": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
+            "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
+            "bytes": 1649
+          }
+        }
       },
-      "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/manifest.json",
-        "sha256": "5491cff239f6badc1f584668d74a3e3063280ec6edcb245af2d05f30db6fe712",
-        "bytes": 48717
-      },
-      "source_pages": [
-        200,
-        201,
-        202,
-        203,
-        204,
-        205
-      ],
-      "regions": 81,
-      "text_regions": 69,
-      "figures": 12,
-      "physical_listing_rows": 0,
-      "logical_listing_rows": 0,
-      "unresolved_entries": 31,
-      "complete_article": false,
-      "checks": {
-        "export_integrity": true,
-        "byte_identical_rebuild": true,
-        "text_and_review_utf8_ranges": true,
-        "listing_byte_coverage": true,
-        "explicit_printed_line_numbers": true
-      },
-      "human_acceptance": "pending",
-      "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
-        "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
-        "bytes": 599567
-      },
-      "source_validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
-        "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
-        "bytes": 1649
+      {
+        "batch": 35,
+        "export": {
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/article.json",
+            "sha256": "0c7f9dc23f9ebbc6d9f8c4f054bfe4ae874c4827d0c4cd10a1978b44be5d20f4",
+            "bytes": 41077
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/manifest.json",
+            "sha256": "9ea6566507eeb62a8016419224615e6038b6a37c4d499c6897834ed02a5483be",
+            "bytes": 15251
+          },
+          "source_pages": [
+            206
+          ],
+          "regions": 24,
+          "text_regions": 20,
+          "figures": 4,
+          "physical_listing_rows": 17,
+          "logical_listing_rows": 17,
+          "unresolved_entries": 13,
+          "complete_article": false,
+          "checks": {
+            "export_integrity": true,
+            "byte_identical_rebuild": true,
+            "text_and_review_utf8_ranges": true,
+            "listing_byte_coverage": true,
+            "explicit_printed_line_numbers": true
+          },
+          "human_acceptance": "pending",
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35/source-index.json",
+            "sha256": "f17b22a768e51c4cf1cc946ee6c593ae69c7bc62077d3ddd5efe749742f9f191",
+            "bytes": 152420
+          },
+          "source_validation": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/validation.json",
+            "sha256": "7d2adfc9e7e1dea598cc0ec986bdde934c0655c73595904aecdc39d6de8dadaf",
+            "bytes": 1675
+          }
+        }
       }
-    },
+    ],
     "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/extent-inspection.json",
-      "sha256": "766e361ff2a4ceef02b9728e814f2cf8f36fde7b7f6d9474f2fcb663663bb688",
-      "bytes": 5084
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/extent-inspection.json",
+      "sha256": "a5a0b53c8993c75cac1cf12249c40ebeb46000971c85d4ba675e76d90c9c319f",
+      "bytes": 5356
     },
-    "previous_goal_turn_classification": "No progress: preceding turn read plan/ledger and reported status only. This continuation finalizes69 saved source readings, builds61blocks/12figures, indexes tables/circuits and independently validates opening200–205; one duplicate-phrase flag-range failure recovered with592 unpromoted files preserved. No recognition repeated.",
+    "previous_goal_turn_classification": "Progress: this turn finalized/validated/committednative34b68248e, then inspected/mapped/OCRed/source-corrected/validatednative35ending206. Bothnatives coverall200–206, fullassembly stillrequired.",
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
     "full_assembly_required": true,
-    "action": "Commit native34 opening. Reuse exact source-verified200–206 extent/boundary207/208 pins; inspect206 ending afresh and map/render only that page. Route two BASIC programs and dense8255pinout/LEDlabels toQwen, clearprose/captions toTesseract as source layout warrants. Preserve both complete programs, physical rows, literal DATA/address values, figure8/9/10 associations and all original bitmaps. Correct selected drafts once and independently validate/commit native35 ending; then separately assemble full200–206 from immutable native34/35 pins, joining205콘트롤 with206포트에 from source. Restore remaining eightuntouched bodies/promote fourpendingpilots/classify정보모음 and complete standaloneAugustJSON/assetscloseout/requirementsaudit. Humanacceptance/fullproofreading/sourcebytes/execution pending. No reading-room rebuild."
+    "action": "Commitnative35ending. SeparatelyassemblefullSPCperipherals200–206 fromexactnative34/35 package/manifestpins. Preserve105regions/89regionaltexts/16originalfigures,twoBASICgroups17physical/numberedrows,45tabledata rows220cells16headercells7mergedblanks,34externalbuspins/40componentpins/24portpairs/15controlstates/eightLEDpositions andallsourceflags/spellings. Join205콘트롤 directlyto206포트에; preserve allnativeprosejoins andexactcustomranges, carryoriginalmetadata without falsebyte/execute/humanacceptance claims. Independentlyvalidate fullcoverage/combinedindexes/assets/rebuild,commit. Thenremainingeightuntouchedbodies/fourpendingpilots/정보모음classification andstandalonewholeAugustJSON/assetscloseout/requirementsaudit; no reading-roomrebuild."
   },
   "raw_preparation_checkpoints": [
     {
@@ -19069,6 +19840,134 @@
       "source_prose_joins": 7,
       "source_prose_boundaries": 8,
       "source_flags": 31
+    },
+    {
+      "batch": "batch-35",
+      "toc_entry_id": "maso-1984-08-toc-0027",
+      "status": "selected-raw-source-corrected-ending-export-validated",
+      "source_pages": [
+        206
+      ],
+      "article_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "deferred_article_pages": [],
+      "extent": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/extent-inspection.json",
+        "sha256": "a5a0b53c8993c75cac1cf12249c40ebeb46000971c85d4ba675e76d90c9c319f",
+        "bytes": 5356
+      },
+      "crop_gate": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/preflight-acceptance.json",
+        "sha256": "ecdcc04c40c45e1614a7c8cee0a1dec53626d5b3725a1c3fde79bb9fab7c539f",
+        "bytes": 674
+      },
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/raw-ocr-audit.json",
+        "sha256": "f4f2180b33b74f61721ee6d3534ec4d8ed834899f8128e7b18ac7a9ed3558211",
+        "bytes": 582
+      },
+      "selected_audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/selected-raw-audit.json",
+        "sha256": "8c6408e39ed673d5aef5275e437f5ec784500fa568c96738941a060bae2854d0",
+        "bytes": 1753
+      },
+      "preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/raw-preservation.json",
+        "sha256": "699137f54550dbb0db2a8012e87406143ca65031c44250e7aad43658c38c48d4",
+        "bytes": 28040
+      },
+      "selected_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/selected-raw-preservation.json",
+        "sha256": "018b612802fa04d90dae8f632bdcc383c56d1a11751aef18acadbe086f7583be",
+        "bytes": 31611
+      },
+      "draft_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/raw-draft-inspection.json",
+        "sha256": "a5aea5661b01193bacea833cb2e2c87a70bfa6e19a06271b2ef4b152bab01e14",
+        "bytes": 991
+      },
+      "regions": 24,
+      "text_regions": 20,
+      "figures": 4,
+      "qwen_calls": 11,
+      "tesseract_calls": 16,
+      "worker_qwen_calls": 4,
+      "worker_tesseract_calls": 16,
+      "selected_qwen_regions": 11,
+      "selected_tesseract_regions": 9,
+      "additional_qwen_calls": 7,
+      "additional_tesseract_calls": 0,
+      "bounded_alternate_calls": 7,
+      "preparation_probe_calls": 0,
+      "failed_recognition_calls": 0,
+      "retries": 0,
+      "local_qwen_tokens": {
+        "prompt_tokens": 5244,
+        "completion_tokens": 1182,
+        "total_tokens": 6426
+      },
+      "all_qwen_recognition_seconds": 30.288040280000132,
+      "all_tesseract_recognition_seconds": 5.797925174996635,
+      "raw_worker": {
+        "started_at": "2026-10-13T11:14:15.342119+00:00",
+        "finished_at": "2026-10-13T11:14:43.627954+00:00",
+        "elapsed_seconds": 28.28585938499964,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 4,
+          "tesseract_inferences": 16,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 16,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 16,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "source_correction": "complete-once",
+      "production_export": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/article.json",
+        "sha256": "0c7f9dc23f9ebbc6d9f8c4f054bfe4ae874c4827d0c4cd10a1978b44be5d20f4",
+        "bytes": 41077
+      },
+      "source_review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/source-review-ledger.json",
+        "sha256": "131af5623b58ec02cfb301c9502559a2e57df7d5c67d8f60ea11ac40480a3494",
+        "bytes": 9019
+      },
+      "validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/validation.json",
+        "sha256": "7d2adfc9e7e1dea598cc0ec986bdde934c0655c73595904aecdc39d6de8dadaf",
+        "bytes": 1675
+      },
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35/source-index.json",
+        "sha256": "f17b22a768e51c4cf1cc946ee6c593ae69c7bc62077d3ddd5efe749742f9f191",
+        "bytes": 152420
+      },
+      "physical_listing_rows": 17,
+      "numbered_listing_rows": 17,
+      "logical_numbered_rows": 17,
+      "listing_groups": 2,
+      "component_pin_pairs": 40,
+      "led_bit_states": 8,
+      "source_prose_joins": 1,
+      "source_flags": 13,
+      "full_assembly_required": true,
+      "human_acceptance": "pending",
+      "scope": "Ending206 exported and independently validated. Native34/35 now cover all200–206, separate fullarticle assembly required. Original4Q/16T andseven boundedQalternates preserved/countedonce; raw-audit nestedusage Counter failure retained andfixed without inference. WholeAugust incomplete."
     }
   ]
 }
