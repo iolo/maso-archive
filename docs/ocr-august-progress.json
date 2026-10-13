@@ -15,18 +15,18 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 23,
-    "sealed-pilot-review-pending": 5,
-    "section-heading-no-body": 3,
-    "unclassified-heading": 3,
+    "assistant-restored-human-pending": 24,
+    "sealed-pilot-review-pending": 4,
+    "section-heading-no-body": 5,
+    "unclassified-heading": 1,
     "untouched": 9
   },
-  "sealed_pilot_articles": 5,
-  "production_complete_articles": 23,
+  "sealed_pilot_articles": 4,
+  "production_complete_articles": 24,
   "production_partial_articles": 0,
   "untouched_articles": 9,
-  "unclassified_heading_entries": 3,
-  "classified_heading_entries": 3,
+  "unclassified_heading_entries": 1,
+  "classified_heading_entries": 5,
   "human_accepted_articles": 0,
   "checkpoints": [
     {
@@ -11060,6 +11060,417 @@
         "sha256": "e0cc054d3d7e97e068e4575034c8672d59e72fcd39afa6ac79a266f333101ec4",
         "bytes": 14209
       }
+    },
+    {
+      "toc_entry_id": "maso-1984-08-toc-0026",
+      "title": "PIA 시리즈2 미니네온사인의 제작",
+      "engine": "mixed",
+      "selected_pilots": [
+        "aug-06-A",
+        "aug-06-B"
+      ],
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/pia/article.json",
+        "sha256": "46ce6c053ad161f7772d202690653eeca68af6a0c4ef44c6ab1c34f4a8ec2346",
+        "bytes": 99775
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/pia/manifest.json",
+        "sha256": "62d2f9fffe9434092e7aec2c9f7fdb29d1cd17ccaa024520d516dd551e42515b",
+        "bytes": 39274
+      },
+      "source_pages": [
+        196,
+        197,
+        198,
+        199
+      ],
+      "regions": 63,
+      "text_regions": 56,
+      "figures": 7,
+      "physical_listing_rows": 40,
+      "logical_listing_rows": 29,
+      "unresolved_entries": 12,
+      "complete_article": true,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-pia-source-index/source-index.json",
+        "sha256": "e49133c3c67ecae160915142c2da1c0c4ca90186c2172ab15bf8450adf46d7b7",
+        "bytes": 932357
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/validation.json",
+        "sha256": "afc3f6b8b82d1f83dd7d9ea504730474fc96517c787b4afbbe9c477860eaba18",
+        "bytes": 10957
+      },
+      "ordered_blocks": 47,
+      "listing_groups": 3,
+      "physical_continuations": 11,
+      "source_tables": 3,
+      "table_chunks": 3,
+      "table_rows": 10,
+      "table_candidate_slots": 52,
+      "table_candidate_blank_slots": 3,
+      "merged_blank_followers": 3,
+      "inline_examples": 8,
+      "definition_ranges": 2,
+      "unicode_candidates": 32,
+      "prose_joins": 8,
+      "prose_boundaries": 9,
+      "source_captions": 11,
+      "embedded_image_captions": 1,
+      "selected_tesseract_regions": 49,
+      "selected_qwen_regions": 7,
+      "changed_transcription_regions": 0,
+      "new_ocr_calls": 0,
+      "new_local_tokens": 0,
+      "checks": {
+        "status": "passed",
+        "toc_entry_id": "maso-1984-08-toc-0026",
+        "regions": 63,
+        "text_regions": 56,
+        "figures": 7,
+        "ordered_blocks": 47,
+        "physical_listing_rows": 40,
+        "logical_listing_rows": 29,
+        "physical_continuations": 11,
+        "listing_groups": 3,
+        "source_tables": 3,
+        "table_rows": 10,
+        "table_candidate_slots": 52,
+        "table_candidate_blank_slots": 3,
+        "printed_header_rows": 2,
+        "inline_examples": 8,
+        "definition_ranges": 2,
+        "unicode_candidates": 32,
+        "prose_joins": 8,
+        "prose_boundaries": 9,
+        "source_captions": 11,
+        "embedded_image_captions": 1,
+        "unresolved_entries": 12,
+        "new_ocr_calls": 0,
+        "changed_transcription_regions": 0,
+        "selected_tesseract_regions": 49,
+        "selected_qwen_regions": 7,
+        "source_hash": true,
+        "crop_pixels": true,
+        "reused_raw_text_settings_positions_exact": true,
+        "all_original_pilot_metadata_unchanged": true,
+        "all_table_cell_byte_ranges": true,
+        "all_review_ranges": true,
+        "all_regional_characters_once": true,
+        "byte_identical_rebuild": true,
+        "preserved_pilot_files": 16790,
+        "selected_immutable_evidence_files": 321,
+        "prior_production_packages_verified": 47,
+        "all_native_raw_seals_unchanged": true,
+        "raw_preservation_seals": [
+          {
+            "batch": 15,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/raw-preservation.json",
+              "sha256": "24e07dd1be62fec6198a33fa91b7313feee66c9b9b890d13113c5b4ed6b0cd5a",
+              "bytes": 207919
+            },
+            "files": 1657
+          },
+          {
+            "batch": 16,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-16/raw-preservation.json",
+              "sha256": "58dea4a5c6bccf96ea42cd11f439eb251cf1a8ac2950886831320ffc87d2af67",
+              "bytes": 53625
+            },
+            "files": 422
+          },
+          {
+            "batch": 17,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/raw-preservation.json",
+              "sha256": "f73ee0fb09775be3a9357360ec09dd3bc7bcf67f64564c41c7f74f8723ca192c",
+              "bytes": 107007
+            },
+            "files": 852
+          },
+          {
+            "batch": 18,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-18/raw-preservation.json",
+              "sha256": "537ffd27bc556ff723e2ba885ad383622fb9bdf5519a6f58d103aabc9d2862b3",
+              "bytes": 30691
+            },
+            "files": 248
+          },
+          {
+            "batch": 19,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/raw-preservation.json",
+              "sha256": "45d6ba345ac625a9976f44fa66ce6d988b070969353ba254cedbe79ec5017733",
+              "bytes": 181270
+            },
+            "files": 1433
+          },
+          {
+            "batch": 20,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-preservation.json",
+              "sha256": "b1d095c4dbcea5b2c90e36cfe115351100a70893dfb8382d60af9392242fdce8",
+              "bytes": 48430
+            },
+            "files": 387
+          },
+          {
+            "batch": 20,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/selected-raw-preservation.json",
+              "sha256": "c75aaa184208ca0617aeb4ee7aae43323c8affdd07a43ca886f39ccf81435738",
+              "bytes": 35036
+            },
+            "files": 240
+          },
+          {
+            "batch": 21,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-preservation.json",
+              "sha256": "6c5d09055779a809f47ceca09bdf26c9f55712cd0e9c264c0eb7b5bfbbeabf47",
+              "bytes": 96423
+            },
+            "files": 757
+          },
+          {
+            "batch": 21,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/selected-raw-preservation.json",
+              "sha256": "43981035d4e759a2f284aa2a1db6a27a05bf3d07b70aee644b17c40c4c53b449",
+              "bytes": 71980
+            },
+            "files": 491
+          },
+          {
+            "batch": 22,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/raw-preservation.json",
+              "sha256": "694cfb9c2be501dbaea044c3a769eb4d86d0fee2fda7d94f7cae12944fbe808e",
+              "bytes": 137064
+            },
+            "files": 1085
+          },
+          {
+            "batch": 22,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/selected-raw-preservation.json",
+              "sha256": "99a343c61e793f54f59dc8bd718d7600d05586563b0d6cb35b6c93d73ad5e8de",
+              "bytes": 101285
+            },
+            "files": 691
+          },
+          {
+            "batch": 23,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-23/raw-preservation.json",
+              "sha256": "d9be25a3840fa9597d992b53090974ef88230a3f7ea63c5150f6b1696fedef42",
+              "bytes": 252976
+            },
+            "files": 1975
+          },
+          {
+            "batch": 23,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-23/selected-raw-preservation.json",
+              "sha256": "02007277e1ece6254bf2a2cb41a9ae646e8a0268373d759b4b7516f413455509",
+              "bytes": 194890
+            },
+            "files": 1324
+          },
+          {
+            "batch": 24,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/raw-preservation.json",
+              "sha256": "4398e2aee64dc58f361bc4c471f3121a48f6d4007032a43d8ea050d230277e93",
+              "bytes": 143066
+            },
+            "files": 1154
+          },
+          {
+            "batch": 24,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/selected-raw-preservation.json",
+              "sha256": "186f1591520bf625d3d9e22963278fffecc04647caf6c855cbaf58da6c213d82",
+              "bytes": 118617
+            },
+            "files": 823
+          },
+          {
+            "batch": 25,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/raw-preservation.json",
+              "sha256": "7ec315c0d03cc1b481b181f09d794e6db037ef13940fa64a9d4a660ac90c3d50",
+              "bytes": 126740
+            },
+            "files": 1014
+          },
+          {
+            "batch": 25,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/selected-raw-preservation.json",
+              "sha256": "a549b9fce604d085fb73bc9e482dcb17e6ce5532b45ae5b320a50dabb9d8e211",
+              "bytes": 123008
+            },
+            "files": 857
+          },
+          {
+            "batch": 26,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/raw-preservation.json",
+              "sha256": "4ba05180065235f2ef03f58885eedfa4324d0f15168edb93ef5cbfe59d5943e5",
+              "bytes": 53036
+            },
+            "files": 437
+          },
+          {
+            "batch": 27,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/raw-preservation.json",
+              "sha256": "fbfa55ea889c43b42edebb9b5a590fc9d2af7079b07c88a4d14d24d67f73c5ca",
+              "bytes": 81385
+            },
+            "files": 675
+          },
+          {
+            "batch": 27,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-preservation.json",
+              "sha256": "b29620f1b16601a72f8865c4245679c2780ec3b64848220e0892de5ba657f68d",
+              "bytes": 59801
+            },
+            "files": 416
+          },
+          {
+            "batch": 28,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-preservation.json",
+              "sha256": "9d6cf80feaea772f93c7cbe5ae0121ddeca502c23bc703c50d424f324631f154",
+              "bytes": 68393
+            },
+            "files": 557
+          },
+          {
+            "batch": 29,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-29/raw-preservation.json",
+              "sha256": "5872cbdb5cb7769bac4afbc13e65eb8f759e277385dcceb9b2420eb0054f4743",
+              "bytes": 81578
+            },
+            "files": 678
+          },
+          {
+            "batch": 29,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-29/selected-raw-preservation.json",
+              "sha256": "4fe223662ed8cf2968f75bf2b457114d47dbfd3e5ad6bfaf1a7384b3424a8de2",
+              "bytes": 45926
+            },
+            "files": 317
+          },
+          {
+            "batch": 30,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/raw-preservation.json",
+              "sha256": "7e8b206e837fac900c83cd5b4632e8d3e6b46dda898bf677bcaf5f6aefd28dbf",
+              "bytes": 81111
+            },
+            "files": 663
+          },
+          {
+            "batch": 30,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/selected-raw-preservation.json",
+              "sha256": "56aac8e518c24742b22c92b8ffba3670b8420c2cdf72610d6bfef4df8797aa85",
+              "bytes": 58972
+            },
+            "files": 407
+          },
+          {
+            "batch": 31,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/raw-preservation.json",
+              "sha256": "54eb301934b9d121df8d722774f79da4a66c71f9223efdadf5cb975b7a3dc4f3",
+              "bytes": 50467
+            },
+            "files": 417
+          },
+          {
+            "batch": 31,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/selected-raw-preservation.json",
+              "sha256": "d18550c1b42ceaf6959dc999a7d2e78a99642b42359e7abb4b5bc6e2cdc2f4ba",
+              "bytes": 29906
+            },
+            "files": 204
+          },
+          {
+            "batch": 32,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/raw-preservation.json",
+              "sha256": "32414202e7652be43491c105c347f7012318f395c4da17a82d13d2c67dda4fd1",
+              "bytes": 60108
+            },
+            "files": 495
+          },
+          {
+            "batch": 32,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/selected-raw-preservation.json",
+              "sha256": "b8d60193dfa8026368af3bde5128d34f01cdaec11f47e1a76062be252ad3e7a7",
+              "bytes": 52808
+            },
+            "files": 369
+          },
+          {
+            "batch": 33,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-33/raw-preservation.json",
+              "sha256": "802bd06cbaab9694d97d654d0a7604db38daf61ba016c026106dd4bfbf19334f",
+              "bytes": 85930
+            },
+            "files": 713
+          },
+          {
+            "batch": 33,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-33/selected-raw-preservation.json",
+              "sha256": "58e4a525f94f24b0e35cacaa1abaeae5e9df3a373ee891eadaa66d1b8a3b3799",
+              "bytes": 51319
+            },
+            "files": 356
+          }
+        ],
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-pia-source-index/source-index.json",
+          "sha256": "e49133c3c67ecae160915142c2da1c0c4ca90186c2172ab15bf8450adf46d7b7",
+          "bytes": 932357
+        },
+        "human_acceptance": "pending",
+        "scope": "Complete PIA196–199; remaining August bodies/pilots/headings and wholeissueJSON/assets closeout required.",
+        "unpromoted_exports_preserved": 480,
+        "unpromoted_export_seal": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/unpromoted-export-preservation.json",
+          "sha256": "3abc56fce3faf04994948bdffd4cc829024cd7d876908aa0f069e008fcf0a9bc",
+          "bytes": 81194
+        },
+        "heading_classification_evidence": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/heading-classification-evidence.json",
+          "sha256": "a284aefa53692fbfd99c93190b3f12320b7d77b3f7fe9b904dacaf104298ddfa",
+          "bytes": 2783
+        },
+        "technical_and_contest_heading_non_owning": true
+      },
+      "human_acceptance": "pending",
+      "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/selection-and-repairs.json",
+      "implementation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/validate-pilot-pia.py",
+        "sha256": "3620015bfdc50cdd0ae34a4df7580330a21a1698c15c87bdb2e4a59f816e26c3",
+        "bytes": 15862
+      }
     }
   ],
   "entries": [
@@ -14014,9 +14425,28 @@
       "page": null,
       "kind": "section",
       "articleIds": [],
-      "status": "unclassified-heading",
+      "status": "section-heading-no-body",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "classification": {
+        "toc_entry_id": "maso-1984-08-toc-0025",
+        "classification": "non-owning-section-heading",
+        "pdf_page": 195,
+        "evidence": "Actually inspected complete divider195: photograph/테크니컬 heading and five technical page listings196/200/207/214/221; lower 공모 입선작 heading lists240/246/252/257. These are non-owning groups with no own article body. Canonical titles, parent/child IDs/pages unchanged; source 공모 spacing preserved in evidence. 공모총평237 remains separate canonical 정보모음 child0042.",
+        "child_ids": [
+          "maso-1984-08-toc-0026",
+          "maso-1984-08-toc-0027",
+          "maso-1984-08-toc-0028",
+          "maso-1984-08-toc-0029",
+          "maso-1984-08-toc-0030"
+        ],
+        "source_image": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/extent/page-195-view.png",
+          "sha256": "563ff2ef15c7a438c8a7b85826ad5afa195b96400d807522c401ee85cc397596",
+          "bytes": 424285
+        },
+        "human_acceptance": "pending"
+      }
     },
     {
       "id": "maso-1984-08-toc-0026",
@@ -14027,9 +14457,433 @@
       "page": 196,
       "kind": "article",
       "articleIds": [],
-      "status": "sealed-pilot-review-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": "aug-06"
+      "pilot_pair": "aug-06",
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/pia/article.json",
+        "sha256": "46ce6c053ad161f7772d202690653eeca68af6a0c4ef44c6ab1c34f4a8ec2346",
+        "bytes": 99775
+      },
+      "deferred_pdf_pages": [],
+      "covered_pdf_pages": [
+        196,
+        197,
+        198,
+        199
+      ],
+      "production_selection": {
+        "toc_entry_id": "maso-1984-08-toc-0026",
+        "title": "PIA 시리즈2 미니네온사인의 제작",
+        "engine": "mixed",
+        "selected_pilots": [
+          "aug-06-A",
+          "aug-06-B"
+        ],
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/pia/article.json",
+          "sha256": "46ce6c053ad161f7772d202690653eeca68af6a0c4ef44c6ab1c34f4a8ec2346",
+          "bytes": 99775
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/pia/manifest.json",
+          "sha256": "62d2f9fffe9434092e7aec2c9f7fdb29d1cd17ccaa024520d516dd551e42515b",
+          "bytes": 39274
+        },
+        "source_pages": [
+          196,
+          197,
+          198,
+          199
+        ],
+        "regions": 63,
+        "text_regions": 56,
+        "figures": 7,
+        "physical_listing_rows": 40,
+        "logical_listing_rows": 29,
+        "unresolved_entries": 12,
+        "complete_article": true,
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-pia-source-index/source-index.json",
+          "sha256": "e49133c3c67ecae160915142c2da1c0c4ca90186c2172ab15bf8450adf46d7b7",
+          "bytes": 932357
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/validation.json",
+          "sha256": "afc3f6b8b82d1f83dd7d9ea504730474fc96517c787b4afbbe9c477860eaba18",
+          "bytes": 10957
+        },
+        "ordered_blocks": 47,
+        "listing_groups": 3,
+        "physical_continuations": 11,
+        "source_tables": 3,
+        "table_chunks": 3,
+        "table_rows": 10,
+        "table_candidate_slots": 52,
+        "table_candidate_blank_slots": 3,
+        "merged_blank_followers": 3,
+        "inline_examples": 8,
+        "definition_ranges": 2,
+        "unicode_candidates": 32,
+        "prose_joins": 8,
+        "prose_boundaries": 9,
+        "source_captions": 11,
+        "embedded_image_captions": 1,
+        "selected_tesseract_regions": 49,
+        "selected_qwen_regions": 7,
+        "changed_transcription_regions": 0,
+        "new_ocr_calls": 0,
+        "new_local_tokens": 0,
+        "checks": {
+          "status": "passed",
+          "toc_entry_id": "maso-1984-08-toc-0026",
+          "regions": 63,
+          "text_regions": 56,
+          "figures": 7,
+          "ordered_blocks": 47,
+          "physical_listing_rows": 40,
+          "logical_listing_rows": 29,
+          "physical_continuations": 11,
+          "listing_groups": 3,
+          "source_tables": 3,
+          "table_rows": 10,
+          "table_candidate_slots": 52,
+          "table_candidate_blank_slots": 3,
+          "printed_header_rows": 2,
+          "inline_examples": 8,
+          "definition_ranges": 2,
+          "unicode_candidates": 32,
+          "prose_joins": 8,
+          "prose_boundaries": 9,
+          "source_captions": 11,
+          "embedded_image_captions": 1,
+          "unresolved_entries": 12,
+          "new_ocr_calls": 0,
+          "changed_transcription_regions": 0,
+          "selected_tesseract_regions": 49,
+          "selected_qwen_regions": 7,
+          "source_hash": true,
+          "crop_pixels": true,
+          "reused_raw_text_settings_positions_exact": true,
+          "all_original_pilot_metadata_unchanged": true,
+          "all_table_cell_byte_ranges": true,
+          "all_review_ranges": true,
+          "all_regional_characters_once": true,
+          "byte_identical_rebuild": true,
+          "preserved_pilot_files": 16790,
+          "selected_immutable_evidence_files": 321,
+          "prior_production_packages_verified": 47,
+          "all_native_raw_seals_unchanged": true,
+          "raw_preservation_seals": [
+            {
+              "batch": 15,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/raw-preservation.json",
+                "sha256": "24e07dd1be62fec6198a33fa91b7313feee66c9b9b890d13113c5b4ed6b0cd5a",
+                "bytes": 207919
+              },
+              "files": 1657
+            },
+            {
+              "batch": 16,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-16/raw-preservation.json",
+                "sha256": "58dea4a5c6bccf96ea42cd11f439eb251cf1a8ac2950886831320ffc87d2af67",
+                "bytes": 53625
+              },
+              "files": 422
+            },
+            {
+              "batch": 17,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/raw-preservation.json",
+                "sha256": "f73ee0fb09775be3a9357360ec09dd3bc7bcf67f64564c41c7f74f8723ca192c",
+                "bytes": 107007
+              },
+              "files": 852
+            },
+            {
+              "batch": 18,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-18/raw-preservation.json",
+                "sha256": "537ffd27bc556ff723e2ba885ad383622fb9bdf5519a6f58d103aabc9d2862b3",
+                "bytes": 30691
+              },
+              "files": 248
+            },
+            {
+              "batch": 19,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/raw-preservation.json",
+                "sha256": "45d6ba345ac625a9976f44fa66ce6d988b070969353ba254cedbe79ec5017733",
+                "bytes": 181270
+              },
+              "files": 1433
+            },
+            {
+              "batch": 20,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-preservation.json",
+                "sha256": "b1d095c4dbcea5b2c90e36cfe115351100a70893dfb8382d60af9392242fdce8",
+                "bytes": 48430
+              },
+              "files": 387
+            },
+            {
+              "batch": 20,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/selected-raw-preservation.json",
+                "sha256": "c75aaa184208ca0617aeb4ee7aae43323c8affdd07a43ca886f39ccf81435738",
+                "bytes": 35036
+              },
+              "files": 240
+            },
+            {
+              "batch": 21,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-preservation.json",
+                "sha256": "6c5d09055779a809f47ceca09bdf26c9f55712cd0e9c264c0eb7b5bfbbeabf47",
+                "bytes": 96423
+              },
+              "files": 757
+            },
+            {
+              "batch": 21,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/selected-raw-preservation.json",
+                "sha256": "43981035d4e759a2f284aa2a1db6a27a05bf3d07b70aee644b17c40c4c53b449",
+                "bytes": 71980
+              },
+              "files": 491
+            },
+            {
+              "batch": 22,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/raw-preservation.json",
+                "sha256": "694cfb9c2be501dbaea044c3a769eb4d86d0fee2fda7d94f7cae12944fbe808e",
+                "bytes": 137064
+              },
+              "files": 1085
+            },
+            {
+              "batch": 22,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/selected-raw-preservation.json",
+                "sha256": "99a343c61e793f54f59dc8bd718d7600d05586563b0d6cb35b6c93d73ad5e8de",
+                "bytes": 101285
+              },
+              "files": 691
+            },
+            {
+              "batch": 23,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-23/raw-preservation.json",
+                "sha256": "d9be25a3840fa9597d992b53090974ef88230a3f7ea63c5150f6b1696fedef42",
+                "bytes": 252976
+              },
+              "files": 1975
+            },
+            {
+              "batch": 23,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-23/selected-raw-preservation.json",
+                "sha256": "02007277e1ece6254bf2a2cb41a9ae646e8a0268373d759b4b7516f413455509",
+                "bytes": 194890
+              },
+              "files": 1324
+            },
+            {
+              "batch": 24,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/raw-preservation.json",
+                "sha256": "4398e2aee64dc58f361bc4c471f3121a48f6d4007032a43d8ea050d230277e93",
+                "bytes": 143066
+              },
+              "files": 1154
+            },
+            {
+              "batch": 24,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/selected-raw-preservation.json",
+                "sha256": "186f1591520bf625d3d9e22963278fffecc04647caf6c855cbaf58da6c213d82",
+                "bytes": 118617
+              },
+              "files": 823
+            },
+            {
+              "batch": 25,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/raw-preservation.json",
+                "sha256": "7ec315c0d03cc1b481b181f09d794e6db037ef13940fa64a9d4a660ac90c3d50",
+                "bytes": 126740
+              },
+              "files": 1014
+            },
+            {
+              "batch": 25,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/selected-raw-preservation.json",
+                "sha256": "a549b9fce604d085fb73bc9e482dcb17e6ce5532b45ae5b320a50dabb9d8e211",
+                "bytes": 123008
+              },
+              "files": 857
+            },
+            {
+              "batch": 26,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/raw-preservation.json",
+                "sha256": "4ba05180065235f2ef03f58885eedfa4324d0f15168edb93ef5cbfe59d5943e5",
+                "bytes": 53036
+              },
+              "files": 437
+            },
+            {
+              "batch": 27,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/raw-preservation.json",
+                "sha256": "fbfa55ea889c43b42edebb9b5a590fc9d2af7079b07c88a4d14d24d67f73c5ca",
+                "bytes": 81385
+              },
+              "files": 675
+            },
+            {
+              "batch": 27,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-preservation.json",
+                "sha256": "b29620f1b16601a72f8865c4245679c2780ec3b64848220e0892de5ba657f68d",
+                "bytes": 59801
+              },
+              "files": 416
+            },
+            {
+              "batch": 28,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-preservation.json",
+                "sha256": "9d6cf80feaea772f93c7cbe5ae0121ddeca502c23bc703c50d424f324631f154",
+                "bytes": 68393
+              },
+              "files": 557
+            },
+            {
+              "batch": 29,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-29/raw-preservation.json",
+                "sha256": "5872cbdb5cb7769bac4afbc13e65eb8f759e277385dcceb9b2420eb0054f4743",
+                "bytes": 81578
+              },
+              "files": 678
+            },
+            {
+              "batch": 29,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-29/selected-raw-preservation.json",
+                "sha256": "4fe223662ed8cf2968f75bf2b457114d47dbfd3e5ad6bfaf1a7384b3424a8de2",
+                "bytes": 45926
+              },
+              "files": 317
+            },
+            {
+              "batch": 30,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/raw-preservation.json",
+                "sha256": "7e8b206e837fac900c83cd5b4632e8d3e6b46dda898bf677bcaf5f6aefd28dbf",
+                "bytes": 81111
+              },
+              "files": 663
+            },
+            {
+              "batch": 30,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/selected-raw-preservation.json",
+                "sha256": "56aac8e518c24742b22c92b8ffba3670b8420c2cdf72610d6bfef4df8797aa85",
+                "bytes": 58972
+              },
+              "files": 407
+            },
+            {
+              "batch": 31,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/raw-preservation.json",
+                "sha256": "54eb301934b9d121df8d722774f79da4a66c71f9223efdadf5cb975b7a3dc4f3",
+                "bytes": 50467
+              },
+              "files": 417
+            },
+            {
+              "batch": 31,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/selected-raw-preservation.json",
+                "sha256": "d18550c1b42ceaf6959dc999a7d2e78a99642b42359e7abb4b5bc6e2cdc2f4ba",
+                "bytes": 29906
+              },
+              "files": 204
+            },
+            {
+              "batch": 32,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/raw-preservation.json",
+                "sha256": "32414202e7652be43491c105c347f7012318f395c4da17a82d13d2c67dda4fd1",
+                "bytes": 60108
+              },
+              "files": 495
+            },
+            {
+              "batch": 32,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/selected-raw-preservation.json",
+                "sha256": "b8d60193dfa8026368af3bde5128d34f01cdaec11f47e1a76062be252ad3e7a7",
+                "bytes": 52808
+              },
+              "files": 369
+            },
+            {
+              "batch": 33,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-33/raw-preservation.json",
+                "sha256": "802bd06cbaab9694d97d654d0a7604db38daf61ba016c026106dd4bfbf19334f",
+                "bytes": 85930
+              },
+              "files": 713
+            },
+            {
+              "batch": 33,
+              "seal": {
+                "path": "private/pdf-restoration/13-1984-08-adaptive/batch-33/selected-raw-preservation.json",
+                "sha256": "58e4a525f94f24b0e35cacaa1abaeae5e9df3a373ee891eadaa66d1b8a3b3799",
+                "bytes": 51319
+              },
+              "files": 356
+            }
+          ],
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-pia-source-index/source-index.json",
+            "sha256": "e49133c3c67ecae160915142c2da1c0c4ca90186c2172ab15bf8450adf46d7b7",
+            "bytes": 932357
+          },
+          "human_acceptance": "pending",
+          "scope": "Complete PIA196–199; remaining August bodies/pilots/headings and wholeissueJSON/assets closeout required.",
+          "unpromoted_exports_preserved": 480,
+          "unpromoted_export_seal": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/unpromoted-export-preservation.json",
+            "sha256": "3abc56fce3faf04994948bdffd4cc829024cd7d876908aa0f069e008fcf0a9bc",
+            "bytes": 81194
+          },
+          "heading_classification_evidence": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/heading-classification-evidence.json",
+            "sha256": "a284aefa53692fbfd99c93190b3f12320b7d77b3f7fe9b904dacaf104298ddfa",
+            "bytes": 2783
+          },
+          "technical_and_contest_heading_non_owning": true
+        },
+        "human_acceptance": "pending",
+        "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/selection-and-repairs.json",
+        "implementation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/validate-pilot-pia.py",
+          "sha256": "3620015bfdc50cdd0ae34a4df7580330a21a1698c15c87bdb2e4a59f816e26c3",
+          "bytes": 15862
+        }
+      }
     },
     {
       "id": "maso-1984-08-toc-0027",
@@ -14092,9 +14946,27 @@
       "page": null,
       "kind": "section",
       "articleIds": [],
-      "status": "unclassified-heading",
+      "status": "section-heading-no-body",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "classification": {
+        "toc_entry_id": "maso-1984-08-toc-0031",
+        "classification": "non-owning-section-heading",
+        "pdf_page": 195,
+        "evidence": "Actually inspected complete divider195: photograph/테크니컬 heading and five technical page listings196/200/207/214/221; lower 공모 입선작 heading lists240/246/252/257. These are non-owning groups with no own article body. Canonical titles, parent/child IDs/pages unchanged; source 공모 spacing preserved in evidence. 공모총평237 remains separate canonical 정보모음 child0042.",
+        "child_ids": [
+          "maso-1984-08-toc-0032",
+          "maso-1984-08-toc-0033",
+          "maso-1984-08-toc-0034",
+          "maso-1984-08-toc-0035"
+        ],
+        "source_image": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/extent/page-195-view.png",
+          "sha256": "563ff2ef15c7a438c8a7b85826ad5afa195b96400d807522c401ee85cc397596",
+          "bytes": 424285
+        },
+        "human_acceptance": "pending"
+      }
     },
     {
       "id": "maso-1984-08-toc-0032",
@@ -14796,137 +15668,439 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "status": "pia-series2-pilot-source-extent-and-production-selection-pending",
-    "kind": "pilot-production-selection",
-    "toc_entry_id": "maso-1984-08-toc-0026",
-    "canonical_title": "PIA 시리즈2 미니네온사인의 제작",
-    "canonical_byline": "편집부",
+    "batch": 34,
+    "checkpoint": "spc1000-peripheral-source-extent-and-restoration",
+    "kind": "native-restoration",
+    "status": "spc1000-200-source-extent-inspection-pending",
+    "toc_entry_id": "maso-1984-08-toc-0027",
+    "canonical_title": "SPC-1000용 주변기기의 제작",
+    "canonical_byline": "차정환",
     "canonical_parent_id": "maso-1984-08-toc-0025",
-    "canonical_first_page": 196,
-    "pilot_pair": "aug-06",
+    "canonical_first_page": 200,
     "article_extent_verified": false,
-    "next_listed_article_page_provisional": 200,
+    "next_listed_article_page_provisional": 207,
+    "reusable_whole_page_view": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/extent-200.png",
+      "sha256": "1dee97a8127de0994f82a45dce6adfe050c783c0b66bdb2841f28a07b7ccc9a7",
+      "bytes": 621826
+    },
+    "source_byline_candidate": "차경환/FME연구실",
+    "canonical_byline_discrepancy": "Canonical 차정환 remains unchanged; printed200 byline candidate 차경환 differs and must remain explicit in source evidence.",
     "last_completed_article": {
-      "toc_entry_id": "maso-1984-08-toc-0041",
+      "toc_entry_id": "maso-1984-08-toc-0026",
+      "title": "PIA 시리즈2 미니네온사인의 제작",
       "engine": "mixed",
+      "selected_pilots": [
+        "aug-06-A",
+        "aug-06-B"
+      ],
       "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive/echo/article.json",
-        "sha256": "feb5e554bb93c94a68dc90695943090c521d94b5d1901d135135563fc485bc52",
-        "bytes": 179362
+        "path": "build/pdf-restoration/13-1984-08-adaptive/pia/article.json",
+        "sha256": "46ce6c053ad161f7772d202690653eeca68af6a0c4ef44c6ab1c34f4a8ec2346",
+        "bytes": 99775
       },
       "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive/echo/manifest.json",
-        "sha256": "72d4083d0b9742d665eeb798f0a1c19a1eeb0e200e0f6592b1438e9a4f0d6946",
-        "bytes": 65791
+        "path": "build/pdf-restoration/13-1984-08-adaptive/pia/manifest.json",
+        "sha256": "62d2f9fffe9434092e7aec2c9f7fdb29d1cd17ccaa024520d516dd551e42515b",
+        "bytes": 39274
       },
-      "recipe": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/echo-assembly-recipe.json",
-        "sha256": "6cf8983342960d6613dc4b6116ab4a5ec3e2227fef86e286518ff04470e168e9",
-        "bytes": 3131
-      },
-      "pdf_pages": [
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-        194
+      "source_pages": [
+        196,
+        197,
+        198,
+        199
       ],
-      "segments": [
-        {
-          "name": "disassembler",
-          "manifest": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-32/echo/manifest.json",
-            "sha256": "1e5c5115406cb5518885f98d580b3a3706a2470c75e07f7a9de4166471202de9",
-            "bytes": 25649
-          }
-        },
-        {
-          "name": "equation-and-cat",
-          "manifest": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-33/echo-ending/manifest.json",
-            "sha256": "ba641ab9804bab3f7469e3bbcedd4e6a535a37ffa3f53c97234de03f6da4309f",
-            "bytes": 30641
-          }
-        }
-      ],
-      "native_validations": [
-        {
-          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/validation.json",
-          "sha256": "81ebd45cd95c1d36d39384e9d60b6dcb2d1b22a21879f3e7803b1bae7884561e",
-          "bytes": 1568
-        },
-        {
-          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-33/validation.json",
-          "sha256": "41f5b631c01590c732809036d32dbe9a5c7cfbea3f65b45728a38784dc2314da",
-          "bytes": 1668
-        }
-      ],
-      "boundary_inspection": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/echo-assembly-boundary-inspection.json",
-        "sha256": "058e3e3072266e9f6e013a7a9a5ab115a148dbc906071464b5f5e67f8e6ac095",
-        "bytes": 1795
-      },
-      "regions": 92,
-      "text_regions": 77,
-      "figures": 15,
-      "ordered_blocks": 74,
-      "text_review_items": 77,
-      "source_prose_joins": 3,
-      "interrupted_prose_continuations": 4,
-      "physical_listing_rows": 574,
-      "logical_listing_rows": 280,
-      "unnumbered_listing_rows": 288,
-      "physical_continuations": 6,
-      "listing_groups": 7,
-      "dump_data_rows": 276,
-      "dump_data_cells": 2760,
-      "dump_header_rows": 1,
-      "dump_header_cells": 10,
-      "program_rows": 272,
-      "patch_physical_rows": 14,
-      "patch_numbered_rows": 8,
-      "tables": 1,
-      "table_rows": 4,
-      "table_cells": 8,
-      "table_header_cells": 2,
-      "table_blank_cells": 0,
-      "inline_examples": 20,
-      "unresolved_entries": 73,
-      "copied_native_files": 341,
+      "regions": 63,
+      "text_regions": 56,
+      "figures": 7,
+      "physical_listing_rows": 40,
+      "logical_listing_rows": 29,
+      "unresolved_entries": 12,
+      "complete_article": true,
       "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-echo-source-index/source-index.json",
-        "sha256": "849275f4f175c249c7a2df1e1a29a24091cc2d2569cefbf37c56db9635c22843",
-        "bytes": 8563178
+        "path": "build/pdf-restoration/13-1984-08-adaptive-pia-source-index/source-index.json",
+        "sha256": "e49133c3c67ecae160915142c2da1c0c4ca90186c2172ab15bf8450adf46d7b7",
+        "bytes": 932357
       },
-      "human_acceptance": "pending",
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/validation.json",
+        "sha256": "afc3f6b8b82d1f83dd7d9ea504730474fc96517c787b4afbbe9c477860eaba18",
+        "bytes": 10957
+      },
+      "ordered_blocks": 47,
+      "listing_groups": 3,
+      "physical_continuations": 11,
+      "source_tables": 3,
+      "table_chunks": 3,
+      "table_rows": 10,
+      "table_candidate_slots": 52,
+      "table_candidate_blank_slots": 3,
+      "merged_blank_followers": 3,
+      "inline_examples": 8,
+      "definition_ranges": 2,
+      "unicode_candidates": 32,
+      "prose_joins": 8,
+      "prose_boundaries": 9,
+      "source_captions": 11,
+      "embedded_image_captions": 1,
+      "selected_tesseract_regions": 49,
+      "selected_qwen_regions": 7,
+      "changed_transcription_regions": 0,
+      "new_ocr_calls": 0,
+      "new_local_tokens": 0,
       "checks": {
         "status": "passed",
-        "full_source_coverage": true,
-        "canonical_identity": true,
-        "export_integrity": true,
-        "byte_identical_rebuild": true,
+        "toc_entry_id": "maso-1984-08-toc-0026",
+        "regions": 63,
+        "text_regions": 56,
+        "figures": 7,
+        "ordered_blocks": 47,
+        "physical_listing_rows": 40,
+        "logical_listing_rows": 29,
+        "physical_continuations": 11,
+        "listing_groups": 3,
+        "source_tables": 3,
+        "table_rows": 10,
+        "table_candidate_slots": 52,
+        "table_candidate_blank_slots": 3,
+        "printed_header_rows": 2,
+        "inline_examples": 8,
+        "definition_ranges": 2,
+        "unicode_candidates": 32,
+        "prose_joins": 8,
+        "prose_boundaries": 9,
+        "source_captions": 11,
+        "embedded_image_captions": 1,
+        "unresolved_entries": 12,
+        "new_ocr_calls": 0,
+        "changed_transcription_regions": 0,
+        "selected_tesseract_regions": 49,
+        "selected_qwen_regions": 7,
+        "source_hash": true,
+        "crop_pixels": true,
+        "reused_raw_text_settings_positions_exact": true,
+        "all_original_pilot_metadata_unchanged": true,
+        "all_table_cell_byte_ranges": true,
         "all_review_ranges": true,
-        "source_segments_immutable": true,
-        "all_original_metadata_unchanged": true,
-        "listing_bytes_native_concatenation": true,
-        "physical_logical_partition": true,
-        "hex_dump_global_article_listing_rows_and_cells": true,
-        "table_global_rows_and_cells": true,
-        "regional_source_ranges": true,
-        "prior_production_packages_verified": 46,
+        "all_regional_characters_once": true,
+        "byte_identical_rebuild": true,
         "preserved_pilot_files": 16790,
-        "all_raw_and_selected_inventories_unchanged": true
+        "selected_immutable_evidence_files": 321,
+        "prior_production_packages_verified": 47,
+        "all_native_raw_seals_unchanged": true,
+        "raw_preservation_seals": [
+          {
+            "batch": 15,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-15/raw-preservation.json",
+              "sha256": "24e07dd1be62fec6198a33fa91b7313feee66c9b9b890d13113c5b4ed6b0cd5a",
+              "bytes": 207919
+            },
+            "files": 1657
+          },
+          {
+            "batch": 16,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-16/raw-preservation.json",
+              "sha256": "58dea4a5c6bccf96ea42cd11f439eb251cf1a8ac2950886831320ffc87d2af67",
+              "bytes": 53625
+            },
+            "files": 422
+          },
+          {
+            "batch": 17,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-17/raw-preservation.json",
+              "sha256": "f73ee0fb09775be3a9357360ec09dd3bc7bcf67f64564c41c7f74f8723ca192c",
+              "bytes": 107007
+            },
+            "files": 852
+          },
+          {
+            "batch": 18,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-18/raw-preservation.json",
+              "sha256": "537ffd27bc556ff723e2ba885ad383622fb9bdf5519a6f58d103aabc9d2862b3",
+              "bytes": 30691
+            },
+            "files": 248
+          },
+          {
+            "batch": 19,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-19/raw-preservation.json",
+              "sha256": "45d6ba345ac625a9976f44fa66ce6d988b070969353ba254cedbe79ec5017733",
+              "bytes": 181270
+            },
+            "files": 1433
+          },
+          {
+            "batch": 20,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/raw-preservation.json",
+              "sha256": "b1d095c4dbcea5b2c90e36cfe115351100a70893dfb8382d60af9392242fdce8",
+              "bytes": 48430
+            },
+            "files": 387
+          },
+          {
+            "batch": 20,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-20/selected-raw-preservation.json",
+              "sha256": "c75aaa184208ca0617aeb4ee7aae43323c8affdd07a43ca886f39ccf81435738",
+              "bytes": 35036
+            },
+            "files": 240
+          },
+          {
+            "batch": 21,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/raw-preservation.json",
+              "sha256": "6c5d09055779a809f47ceca09bdf26c9f55712cd0e9c264c0eb7b5bfbbeabf47",
+              "bytes": 96423
+            },
+            "files": 757
+          },
+          {
+            "batch": 21,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-21/selected-raw-preservation.json",
+              "sha256": "43981035d4e759a2f284aa2a1db6a27a05bf3d07b70aee644b17c40c4c53b449",
+              "bytes": 71980
+            },
+            "files": 491
+          },
+          {
+            "batch": 22,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/raw-preservation.json",
+              "sha256": "694cfb9c2be501dbaea044c3a769eb4d86d0fee2fda7d94f7cae12944fbe808e",
+              "bytes": 137064
+            },
+            "files": 1085
+          },
+          {
+            "batch": 22,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-22/selected-raw-preservation.json",
+              "sha256": "99a343c61e793f54f59dc8bd718d7600d05586563b0d6cb35b6c93d73ad5e8de",
+              "bytes": 101285
+            },
+            "files": 691
+          },
+          {
+            "batch": 23,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-23/raw-preservation.json",
+              "sha256": "d9be25a3840fa9597d992b53090974ef88230a3f7ea63c5150f6b1696fedef42",
+              "bytes": 252976
+            },
+            "files": 1975
+          },
+          {
+            "batch": 23,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-23/selected-raw-preservation.json",
+              "sha256": "02007277e1ece6254bf2a2cb41a9ae646e8a0268373d759b4b7516f413455509",
+              "bytes": 194890
+            },
+            "files": 1324
+          },
+          {
+            "batch": 24,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/raw-preservation.json",
+              "sha256": "4398e2aee64dc58f361bc4c471f3121a48f6d4007032a43d8ea050d230277e93",
+              "bytes": 143066
+            },
+            "files": 1154
+          },
+          {
+            "batch": 24,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-24/selected-raw-preservation.json",
+              "sha256": "186f1591520bf625d3d9e22963278fffecc04647caf6c855cbaf58da6c213d82",
+              "bytes": 118617
+            },
+            "files": 823
+          },
+          {
+            "batch": 25,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/raw-preservation.json",
+              "sha256": "7ec315c0d03cc1b481b181f09d794e6db037ef13940fa64a9d4a660ac90c3d50",
+              "bytes": 126740
+            },
+            "files": 1014
+          },
+          {
+            "batch": 25,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-25/selected-raw-preservation.json",
+              "sha256": "a549b9fce604d085fb73bc9e482dcb17e6ce5532b45ae5b320a50dabb9d8e211",
+              "bytes": 123008
+            },
+            "files": 857
+          },
+          {
+            "batch": 26,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/raw-preservation.json",
+              "sha256": "4ba05180065235f2ef03f58885eedfa4324d0f15168edb93ef5cbfe59d5943e5",
+              "bytes": 53036
+            },
+            "files": 437
+          },
+          {
+            "batch": 27,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/raw-preservation.json",
+              "sha256": "fbfa55ea889c43b42edebb9b5a590fc9d2af7079b07c88a4d14d24d67f73c5ca",
+              "bytes": 81385
+            },
+            "files": 675
+          },
+          {
+            "batch": 27,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-preservation.json",
+              "sha256": "b29620f1b16601a72f8865c4245679c2780ec3b64848220e0892de5ba657f68d",
+              "bytes": 59801
+            },
+            "files": 416
+          },
+          {
+            "batch": 28,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-preservation.json",
+              "sha256": "9d6cf80feaea772f93c7cbe5ae0121ddeca502c23bc703c50d424f324631f154",
+              "bytes": 68393
+            },
+            "files": 557
+          },
+          {
+            "batch": 29,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-29/raw-preservation.json",
+              "sha256": "5872cbdb5cb7769bac4afbc13e65eb8f759e277385dcceb9b2420eb0054f4743",
+              "bytes": 81578
+            },
+            "files": 678
+          },
+          {
+            "batch": 29,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-29/selected-raw-preservation.json",
+              "sha256": "4fe223662ed8cf2968f75bf2b457114d47dbfd3e5ad6bfaf1a7384b3424a8de2",
+              "bytes": 45926
+            },
+            "files": 317
+          },
+          {
+            "batch": 30,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/raw-preservation.json",
+              "sha256": "7e8b206e837fac900c83cd5b4632e8d3e6b46dda898bf677bcaf5f6aefd28dbf",
+              "bytes": 81111
+            },
+            "files": 663
+          },
+          {
+            "batch": 30,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/selected-raw-preservation.json",
+              "sha256": "56aac8e518c24742b22c92b8ffba3670b8420c2cdf72610d6bfef4df8797aa85",
+              "bytes": 58972
+            },
+            "files": 407
+          },
+          {
+            "batch": 31,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/raw-preservation.json",
+              "sha256": "54eb301934b9d121df8d722774f79da4a66c71f9223efdadf5cb975b7a3dc4f3",
+              "bytes": 50467
+            },
+            "files": 417
+          },
+          {
+            "batch": 31,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/selected-raw-preservation.json",
+              "sha256": "d18550c1b42ceaf6959dc999a7d2e78a99642b42359e7abb4b5bc6e2cdc2f4ba",
+              "bytes": 29906
+            },
+            "files": 204
+          },
+          {
+            "batch": 32,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/raw-preservation.json",
+              "sha256": "32414202e7652be43491c105c347f7012318f395c4da17a82d13d2c67dda4fd1",
+              "bytes": 60108
+            },
+            "files": 495
+          },
+          {
+            "batch": 32,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-32/selected-raw-preservation.json",
+              "sha256": "b8d60193dfa8026368af3bde5128d34f01cdaec11f47e1a76062be252ad3e7a7",
+              "bytes": 52808
+            },
+            "files": 369
+          },
+          {
+            "batch": 33,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-33/raw-preservation.json",
+              "sha256": "802bd06cbaab9694d97d654d0a7604db38daf61ba016c026106dd4bfbf19334f",
+              "bytes": 85930
+            },
+            "files": 713
+          },
+          {
+            "batch": 33,
+            "seal": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/batch-33/selected-raw-preservation.json",
+              "sha256": "58e4a525f94f24b0e35cacaa1abaeae5e9df3a373ee891eadaa66d1b8a3b3799",
+              "bytes": 51319
+            },
+            "files": 356
+          }
+        ],
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-pia-source-index/source-index.json",
+          "sha256": "e49133c3c67ecae160915142c2da1c0c4ca90186c2172ab15bf8450adf46d7b7",
+          "bytes": 932357
+        },
+        "human_acceptance": "pending",
+        "scope": "Complete PIA196–199; remaining August bodies/pilots/headings and wholeissueJSON/assets closeout required.",
+        "unpromoted_exports_preserved": 480,
+        "unpromoted_export_seal": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/unpromoted-export-preservation.json",
+          "sha256": "3abc56fce3faf04994948bdffd4cc829024cd7d876908aa0f069e008fcf0a9bc",
+          "bytes": 81194
+        },
+        "heading_classification_evidence": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/heading-classification-evidence.json",
+          "sha256": "a284aefa53692fbfd99c93190b3f12320b7d77b3f7fe9b904dacaf104298ddfa",
+          "bytes": 2783
+        },
+        "technical_and_contest_heading_non_owning": true
       },
-      "scope": "Fullメ아리186–194 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+      "human_acceptance": "pending",
+      "evidence": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/selection-and-repairs.json",
+      "implementation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/validate-pilot-pia.py",
+        "sha256": "3620015bfdc50cdd0ae34a4df7580330a21a1698c15c87bdb2e4a59f816e26c3",
+        "bytes": 15862
+      }
     },
-    "previous_goal_turn_classification": "Progress: raw33 publiccheckpoint independentlyverified andcommitted ec87a32; currentturn corrected/exported ending189–194, committed fa701cd, thenassembled andindependentlyverified fullメ아리186–194. August goal remains active.",
+    "previous_goal_turn_classification": "No progress: preceding status-only turn restated existing authoritative checkpoint. Revalidated currentstate and resumed safe authorized work: selected/source-reviewed PIA196–199 production revision from sealed pilots, validated all63 source regions/crops/raws/physical rows/tables and exact rebuild; classified two non-owning195 groups. Goal remains active.",
+    "action": "Verify actual SPC-1000용 주변기기의 제작 extent beginning200 against complete source views, including its 미니네온사인의제작 displayed title/byline discrepancy and all continuation/endmark pages. Reuse exact pinned200wholeview, inspect201 onward and boundary207 as needed before mapping native34;207 is only a TOC boundary hint. Exclude unrelated ads, preserve circuits/photos/labels and physical code rows. Follow adaptive routing, record route before inference, reuse successful evidence, bounded fallbacks only for actual content failures, correct selected draft once. Continue nineuntouched bodies/four otherpendingpilots/remaining정보모음 heading and standalonewholeAugustJSON/assets closeout/requirementsaudit. Keep sealedpilots/history/costs unchanged; no reading-room rebuild.",
     "human_acceptance": "pending",
-    "reading_room_rebuild": false,
-    "action": "Verify actual PIA시리즈2미니네온사인의제작 extent from196 against source and sealed aug-06 pilot coverage; nextlisted SPC peripherals200 is a boundary hint only. Reuse exact pinned196/197 wholeviews where applicable and preserve both sealed pilot packages/costs. Inspect corrected pilot readings against source, select coherent production route under currentadaptiveguide and repair residual sourceerrors into a separately named production revision without routine dualcorrection or repeated recognition on unchangedcrops. If missing sourcepages remain, restore boundednative segments before fullassembly. Validate all source/raw/index/assets/coverage and byteidenticalrebuild, commit. Continue nineuntouched bodies/four otherpendingpilots/threeheadingclassifications and standalonewholeAugustissueJSON/assetscloseout/requirementsaudit. No reading-room rebuild."
+    "reading_room_rebuild": false
   },
   "raw_preparation_checkpoints": [
     {

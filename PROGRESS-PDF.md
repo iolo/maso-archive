@@ -13631,3 +13631,66 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Remaining bodies,pilots,headings and standaloneissueJSON/assetscloseout required.
   Full proofreading/sourceencodedbytes/execution remain unverified. No reading-room
   rebuild. Goal remains active.
+
+
+## 2026-10-13 — August PIA196–199 promoted; technical/contest groups classified
+
+- Promoted full PIA 시리즈2 미니네온사인의 제작196–199 into a separate
+  mixed production revision from sealed aug-06-A Tesseract/aug-06-B Qwen pilots.
+  Canonical0026/title/byline편집부/technical parent0025/page196 unchanged.
+  Actual195–200 wholeviews verify opening196, three complete programs/references/
+  terminal mark199 and distinct SPC-1000 article200. Lower197music-card kit ad,
+  lower198design-school ad/photo and195divider excluded from the article body.
+- All15 contact panels/63 original crops reviewed:56 selected text readings and
+  seven source images.49 Tesseract prose/title/caption regions plus seven Qwen
+  table/code/reference regions retain their original corrected transcriptions
+  exactly. Confirmed unselectedQ p196r11거처 avoided using source-correctT거쳐.
+  Both complete original correction histories, review notes and runtime
+  fingerprints remain in production metadata. No new OCR, crop repair or routine
+  wholearticle paired correction; original pilot recognition/correction costs
+  remain counted once. Human acceptance/full proofreading pending.
+- JSON/assets retains47 ordered blocks,56 exact regional/review ranges and seven
+  original figures. Eight source prose joins preserve nine boundaries, including
+  출력,3×6,2번째,다이오드,포트A and8개의. Eleven separate figure/table/program
+  captions have source ranges; 그림2배선도 remains embedded in its source image.
+  Two diagram records/ten node fields retain register boxes/LED arrangement;
+  editorial A/B identifiers are separate from printed 주변기기 labels.
+- Three independent complete BASIC groups retain40 physical rows/29 numbered
+  logical entries/11 wraps:fig10 13physical/9labels,fig11 9/7,fig12 18/13.
+  DATA digit splits25/4 and19/2, POKE address wraps -16/190 and -161/90, literal
+  SOKDO prompts and program numbering remain unchanged without runnable joining,
+  arithmetic, syntax repair, source-byte or execution certification.
+- Three source tables retain10 candidate rows/52 exact cell slots/three merged
+  blank followers. Two headers are printed; five bit groups cover7/6/5–3/2/1–0.
+  C0C1/C0C3 control cells span both data columns; LED caption spans two rows.
+  LED pattern10011010, circle/cross candidates and PA7–PA0 associations retained.
+  Eight inline examples/two definitions/32 Unicode candidates and12 source flags
+  retain NOT graphic approximations, printedpositive16192 versusnegative table/
+  code addresses, 인용한 caption spelling, unmatched quotation and duplicate
+  reference1/1. Original images remain authoritative for glyphs/spacing.
+- Independent source/canonical/coverage/pixel/raw/settings/range/table/listing
+  checks and byte-identical rebuild pass. All321 sealed copied evidence files,
+  47 prior production packages,native15–33 raw/selected seals and16,790pilot files
+  unchanged. Metadata preparation recovered from sparse original note logs;
+  independent audit recovered from dictionary-Counter assertion. Both failures
+  retained with zero repeated recognition.480 unpromoted export/rebuild files
+  retain before-repair editorial diagram label metadata and remain separate.
+  No shared pipeline change; unchanged132-test PDF baseline reused.
+- Source195 divider also verifies canonical 테크니컬0025 and 공모입선작0031 as
+  non-owning section headings with five technical/four contest children, no
+  independent body. Canonical identities/pages/parents unchanged; 공모총평237
+  remains canonical 정보모음 child0042. Source photograph/full divider retained
+  in pinned classification evidence, without inventing an article package.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/pia`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-pia-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/pilot-aug-06/validation.json`.
+  August now has24 complete assistant restorations,zero partials,nine untouched
+  bodies,four pending pilots,five classified/one unclassified heading and zero
+  human accepted.48 packages comprise33natives/11assemblies/four selections.
+  Next native34: verify SPC-1000 peripherals200 sourceextent before mapping;207
+  is only a boundary hint. Printed200차경환 differs from canonical차정환; preserve
+  both. Remaining bodies/pilots/정보모음 classification and standalonewholeissue
+  JSON/assets closeout/requirementsaudit remain. No reading-room rebuild.
+  Localcompute/tokens monetaryweight0; paidinput1:0.1,outputrate/activehuman effort
+  unknown. Preparation window includes status/continuation gaps; elapsed time is
+  not activehuman effort. Reporting/commit tail carries into the next audit.
