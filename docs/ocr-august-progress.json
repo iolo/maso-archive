@@ -15,16 +15,15 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-partial-human-pending": 1,
-    "assistant-restored-human-pending": 24,
+    "assistant-restored-human-pending": 25,
     "sealed-pilot-review-pending": 4,
     "section-heading-no-body": 5,
     "unclassified-heading": 1,
     "untouched": 8
   },
   "sealed_pilot_articles": 4,
-  "production_complete_articles": 24,
-  "production_partial_articles": 1,
+  "production_complete_articles": 25,
+  "production_partial_articles": 0,
   "untouched_articles": 8,
   "unclassified_heading_entries": 1,
   "classified_heading_entries": 5,
@@ -12582,6 +12581,139 @@
         "all_raw_and_selected_inventories_unchanged": true
       },
       "scope": "Fullメ아리186–194 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "toc_entry_id": "maso-1984-08-toc-0027",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/spc-peripherals/article.json",
+        "sha256": "830ec6f52ba9f103eef49fd9ac12298273e25bbe558a8b096986f8c22366c420",
+        "bytes": 192254
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/spc-peripherals/manifest.json",
+        "sha256": "23b63dc6bbf85c3f6ad2d339429d677770846ae1d0572488770302bc66ef3271",
+        "bytes": 71741
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/spc-assembly-recipe.json",
+        "sha256": "78d679a78496ac6996f89ebffece17f6848c662a7d9300a99cb781507a41d917",
+        "bytes": 4310
+      },
+      "pdf_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "segments": [
+        {
+          "name": "opening",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/manifest.json",
+            "sha256": "5491cff239f6badc1f584668d74a3e3063280ec6edcb245af2d05f30db6fe712",
+            "bytes": 48717
+          }
+        },
+        {
+          "name": "ending",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/manifest.json",
+            "sha256": "9ea6566507eeb62a8016419224615e6038b6a37c4d499c6897834ed02a5483be",
+            "bytes": 15251
+          }
+        }
+      ],
+      "native_validations": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
+          "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
+          "bytes": 1649
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/validation.json",
+          "sha256": "7d2adfc9e7e1dea598cc0ec986bdde934c0655c73595904aecdc39d6de8dadaf",
+          "bytes": 1675
+        }
+      ],
+      "native_indexes": [
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
+          "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
+          "bytes": 599567
+        },
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35/source-index.json",
+          "sha256": "f17b22a768e51c4cf1cc946ee6c593ae69c7bc62077d3ddd5efe749742f9f191",
+          "bytes": 152420
+        }
+      ],
+      "boundary_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/spc-assembly-boundary-inspection.json",
+        "sha256": "c1fc55b14e527bb71dc0cdcd8a13ebb98ba9fbccdb9b5751e94e9a5412c8c16b",
+        "bytes": 2109
+      },
+      "boundary_adapter": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/spc-boundary-adapter.py",
+        "sha256": "a696de884830e78a60fd8bb7f0179dfbe0d4dbbfd1278b53f97db48eb1370d96",
+        "bytes": 3073
+      },
+      "regions": 105,
+      "text_regions": 89,
+      "figures": 16,
+      "ordered_blocks": 79,
+      "text_review_items": 89,
+      "native_prose_joins": 8,
+      "native_prose_boundaries": 9,
+      "cross_segment_prose_joins": 1,
+      "physical_listing_rows": 17,
+      "logical_listing_rows": 17,
+      "listing_groups": 2,
+      "table_data_rows": 45,
+      "table_data_cells": 220,
+      "table_header_rows": 3,
+      "table_header_cells": 16,
+      "table_blank_cells": 7,
+      "external_bus_pin_pairs": 34,
+      "component_pin_pairs": 40,
+      "port_pin_pairs": 24,
+      "control_word_states": 15,
+      "led_bit_states": 8,
+      "source_diagrams": 10,
+      "diagram_label_ranges": 158,
+      "inline_examples": 35,
+      "definitions": 2,
+      "unresolved_entries": 44,
+      "copied_native_files": 389,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index/source-index.json",
+        "sha256": "e3228a036d85c6356f2824f42395b105a832921f4b3aec56b617287353ebd063",
+        "bytes": 1240586
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "physical_logical_partition": true,
+        "table_global_rows_and_cells": true,
+        "circuit_control_LED_global_ranges": true,
+        "regional_source_ranges": true,
+        "exact_boundary_order_and_source_pins": true,
+        "prior_production_packages_verified": 50,
+        "preserved_pilot_files": 16790,
+        "all_raw_and_selected_inventories_unchanged": true
+      },
+      "scope": "FullSPCperipherals200–206 complete underJSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "production_selections": [
@@ -16887,7 +17019,7 @@
       "page": 200,
       "kind": "article",
       "articleIds": [],
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
       "pilot_pair": null,
       "segments": [
@@ -16929,7 +17061,145 @@
         206
       ],
       "deferred_pdf_pages": [],
-      "assembly_required": true
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/spc-peripherals/article.json",
+        "sha256": "830ec6f52ba9f103eef49fd9ac12298273e25bbe558a8b096986f8c22366c420",
+        "bytes": 192254
+      },
+      "assembly": {
+        "toc_entry_id": "maso-1984-08-toc-0027",
+        "engine": "mixed",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/spc-peripherals/article.json",
+          "sha256": "830ec6f52ba9f103eef49fd9ac12298273e25bbe558a8b096986f8c22366c420",
+          "bytes": 192254
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/spc-peripherals/manifest.json",
+          "sha256": "23b63dc6bbf85c3f6ad2d339429d677770846ae1d0572488770302bc66ef3271",
+          "bytes": 71741
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/spc-assembly-recipe.json",
+          "sha256": "78d679a78496ac6996f89ebffece17f6848c662a7d9300a99cb781507a41d917",
+          "bytes": 4310
+        },
+        "pdf_pages": [
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206
+        ],
+        "segments": [
+          {
+            "name": "opening",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/manifest.json",
+              "sha256": "5491cff239f6badc1f584668d74a3e3063280ec6edcb245af2d05f30db6fe712",
+              "bytes": 48717
+            }
+          },
+          {
+            "name": "ending",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/manifest.json",
+              "sha256": "9ea6566507eeb62a8016419224615e6038b6a37c4d499c6897834ed02a5483be",
+              "bytes": 15251
+            }
+          }
+        ],
+        "native_validations": [
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
+            "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
+            "bytes": 1649
+          },
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/validation.json",
+            "sha256": "7d2adfc9e7e1dea598cc0ec986bdde934c0655c73595904aecdc39d6de8dadaf",
+            "bytes": 1675
+          }
+        ],
+        "native_indexes": [
+          {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
+            "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
+            "bytes": 599567
+          },
+          {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35/source-index.json",
+            "sha256": "f17b22a768e51c4cf1cc946ee6c593ae69c7bc62077d3ddd5efe749742f9f191",
+            "bytes": 152420
+          }
+        ],
+        "boundary_inspection": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/spc-assembly-boundary-inspection.json",
+          "sha256": "c1fc55b14e527bb71dc0cdcd8a13ebb98ba9fbccdb9b5751e94e9a5412c8c16b",
+          "bytes": 2109
+        },
+        "boundary_adapter": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/spc-boundary-adapter.py",
+          "sha256": "a696de884830e78a60fd8bb7f0179dfbe0d4dbbfd1278b53f97db48eb1370d96",
+          "bytes": 3073
+        },
+        "regions": 105,
+        "text_regions": 89,
+        "figures": 16,
+        "ordered_blocks": 79,
+        "text_review_items": 89,
+        "native_prose_joins": 8,
+        "native_prose_boundaries": 9,
+        "cross_segment_prose_joins": 1,
+        "physical_listing_rows": 17,
+        "logical_listing_rows": 17,
+        "listing_groups": 2,
+        "table_data_rows": 45,
+        "table_data_cells": 220,
+        "table_header_rows": 3,
+        "table_header_cells": 16,
+        "table_blank_cells": 7,
+        "external_bus_pin_pairs": 34,
+        "component_pin_pairs": 40,
+        "port_pin_pairs": 24,
+        "control_word_states": 15,
+        "led_bit_states": 8,
+        "source_diagrams": 10,
+        "diagram_label_ranges": 158,
+        "inline_examples": 35,
+        "definitions": 2,
+        "unresolved_entries": 44,
+        "copied_native_files": 389,
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index/source-index.json",
+          "sha256": "e3228a036d85c6356f2824f42395b105a832921f4b3aec56b617287353ebd063",
+          "bytes": 1240586
+        },
+        "human_acceptance": "pending",
+        "checks": {
+          "status": "passed",
+          "full_source_coverage": true,
+          "canonical_identity": true,
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "source_segments_immutable": true,
+          "all_original_metadata_unchanged": true,
+          "listing_bytes_native_concatenation": true,
+          "physical_logical_partition": true,
+          "table_global_rows_and_cells": true,
+          "circuit_control_LED_global_ranges": true,
+          "regional_source_ranges": true,
+          "exact_boundary_order_and_source_pins": true,
+          "prior_production_packages_verified": 50,
+          "preserved_pilot_files": 16790,
+          "all_raw_and_selected_inventories_unchanged": true
+        },
+        "scope": "FullSPCperipherals200–206 complete underJSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+      }
     },
     {
       "id": "maso-1984-08-toc-0028",
@@ -17701,136 +17971,153 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "status": "spc1000-full200-206-assembly-pending",
-    "kind": "assembly",
-    "toc_entry_id": "maso-1984-08-toc-0027",
-    "canonical_title": "SPC-1000용 주변기기의 제작",
-    "canonical_byline": "차정환",
+    "batch": 36,
+    "status": "meta-assembler-source-extent-inspection-pending",
+    "kind": "native-restoration",
+    "toc_entry_id": "maso-1984-08-toc-0028",
+    "canonical_title": "메타어셈블러",
+    "canonical_byline": "한상기",
     "canonical_parent_id": "maso-1984-08-toc-0025",
-    "canonical_first_page": 200,
-    "article_extent_verified": true,
-    "article_pages": [
-      200,
-      201,
-      202,
-      203,
-      204,
-      205,
-      206
-    ],
-    "completed_source_pages": [
-      200,
-      201,
-      202,
-      203,
-      204,
-      205,
-      206
-    ],
-    "deferred_article_pages": [],
-    "native_segments": [
-      {
-        "batch": 34,
-        "export": {
-          "package": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/article.json",
-            "sha256": "2783ecd8bdf90029bc80be6885d19df82dd5f74f46c7f460fa7bf88f51d16681",
-            "bytes": 139152
-          },
+    "canonical_first_page": 207,
+    "article_extent_verified": false,
+    "next_listed_article_page_provisional": 214,
+    "last_completed_article": {
+      "toc_entry_id": "maso-1984-08-toc-0027",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/spc-peripherals/article.json",
+        "sha256": "830ec6f52ba9f103eef49fd9ac12298273e25bbe558a8b096986f8c22366c420",
+        "bytes": 192254
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/spc-peripherals/manifest.json",
+        "sha256": "23b63dc6bbf85c3f6ad2d339429d677770846ae1d0572488770302bc66ef3271",
+        "bytes": 71741
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/spc-assembly-recipe.json",
+        "sha256": "78d679a78496ac6996f89ebffece17f6848c662a7d9300a99cb781507a41d917",
+        "bytes": 4310
+      },
+      "pdf_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "segments": [
+        {
+          "name": "opening",
           "manifest": {
             "path": "build/pdf-restoration/13-1984-08-adaptive-batch-34/spc-peripherals/manifest.json",
             "sha256": "5491cff239f6badc1f584668d74a3e3063280ec6edcb245af2d05f30db6fe712",
             "bytes": 48717
-          },
-          "source_pages": [
-            200,
-            201,
-            202,
-            203,
-            204,
-            205
-          ],
-          "regions": 81,
-          "text_regions": 69,
-          "figures": 12,
-          "physical_listing_rows": 0,
-          "logical_listing_rows": 0,
-          "unresolved_entries": 31,
-          "complete_article": false,
-          "checks": {
-            "export_integrity": true,
-            "byte_identical_rebuild": true,
-            "text_and_review_utf8_ranges": true,
-            "listing_byte_coverage": true,
-            "explicit_printed_line_numbers": true
-          },
-          "human_acceptance": "pending",
-          "source_index": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
-            "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
-            "bytes": 599567
-          },
-          "source_validation": {
-            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
-            "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
-            "bytes": 1649
           }
-        }
-      },
-      {
-        "batch": 35,
-        "export": {
-          "package": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/article.json",
-            "sha256": "0c7f9dc23f9ebbc6d9f8c4f054bfe4ae874c4827d0c4cd10a1978b44be5d20f4",
-            "bytes": 41077
-          },
+        },
+        {
+          "name": "ending",
           "manifest": {
             "path": "build/pdf-restoration/13-1984-08-adaptive-batch-35/spc-ending/manifest.json",
             "sha256": "9ea6566507eeb62a8016419224615e6038b6a37c4d499c6897834ed02a5483be",
             "bytes": 15251
-          },
-          "source_pages": [
-            206
-          ],
-          "regions": 24,
-          "text_regions": 20,
-          "figures": 4,
-          "physical_listing_rows": 17,
-          "logical_listing_rows": 17,
-          "unresolved_entries": 13,
-          "complete_article": false,
-          "checks": {
-            "export_integrity": true,
-            "byte_identical_rebuild": true,
-            "text_and_review_utf8_ranges": true,
-            "listing_byte_coverage": true,
-            "explicit_printed_line_numbers": true
-          },
-          "human_acceptance": "pending",
-          "source_index": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35/source-index.json",
-            "sha256": "f17b22a768e51c4cf1cc946ee6c593ae69c7bc62077d3ddd5efe749742f9f191",
-            "bytes": 152420
-          },
-          "source_validation": {
-            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/validation.json",
-            "sha256": "7d2adfc9e7e1dea598cc0ec986bdde934c0655c73595904aecdc39d6de8dadaf",
-            "bytes": 1675
           }
         }
-      }
-    ],
-    "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/extent-inspection.json",
-      "sha256": "a5a0b53c8993c75cac1cf12249c40ebeb46000971c85d4ba675e76d90c9c319f",
-      "bytes": 5356
+      ],
+      "native_validations": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-34/validation.json",
+          "sha256": "d6f1d13fc2eb8070a6ef70ac8e6999174bc8a8d7c90c3dbcbd68a1517e2a3b83",
+          "bytes": 1649
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-35/validation.json",
+          "sha256": "7d2adfc9e7e1dea598cc0ec986bdde934c0655c73595904aecdc39d6de8dadaf",
+          "bytes": 1675
+        }
+      ],
+      "native_indexes": [
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34/source-index.json",
+          "sha256": "87ce5738d86c87cfb7d5f3f9b44488d2e03cdd397777fb90387c3a6d58878cfc",
+          "bytes": 599567
+        },
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35/source-index.json",
+          "sha256": "f17b22a768e51c4cf1cc946ee6c593ae69c7bc62077d3ddd5efe749742f9f191",
+          "bytes": 152420
+        }
+      ],
+      "boundary_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/spc-assembly-boundary-inspection.json",
+        "sha256": "c1fc55b14e527bb71dc0cdcd8a13ebb98ba9fbccdb9b5751e94e9a5412c8c16b",
+        "bytes": 2109
+      },
+      "boundary_adapter": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/spc-boundary-adapter.py",
+        "sha256": "a696de884830e78a60fd8bb7f0179dfbe0d4dbbfd1278b53f97db48eb1370d96",
+        "bytes": 3073
+      },
+      "regions": 105,
+      "text_regions": 89,
+      "figures": 16,
+      "ordered_blocks": 79,
+      "text_review_items": 89,
+      "native_prose_joins": 8,
+      "native_prose_boundaries": 9,
+      "cross_segment_prose_joins": 1,
+      "physical_listing_rows": 17,
+      "logical_listing_rows": 17,
+      "listing_groups": 2,
+      "table_data_rows": 45,
+      "table_data_cells": 220,
+      "table_header_rows": 3,
+      "table_header_cells": 16,
+      "table_blank_cells": 7,
+      "external_bus_pin_pairs": 34,
+      "component_pin_pairs": 40,
+      "port_pin_pairs": 24,
+      "control_word_states": 15,
+      "led_bit_states": 8,
+      "source_diagrams": 10,
+      "diagram_label_ranges": 158,
+      "inline_examples": 35,
+      "definitions": 2,
+      "unresolved_entries": 44,
+      "copied_native_files": 389,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index/source-index.json",
+        "sha256": "e3228a036d85c6356f2824f42395b105a832921f4b3aec56b617287353ebd063",
+        "bytes": 1240586
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "physical_logical_partition": true,
+        "table_global_rows_and_cells": true,
+        "circuit_control_LED_global_ranges": true,
+        "regional_source_ranges": true,
+        "exact_boundary_order_and_source_pins": true,
+        "prior_production_packages_verified": 50,
+        "preserved_pilot_files": 16790,
+        "all_raw_and_selected_inventories_unchanged": true
+      },
+      "scope": "FullSPCperipherals200–206 complete underJSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     },
-    "previous_goal_turn_classification": "Progress: this turn finalized/validated/committednative34b68248e, then inspected/mapped/OCRed/source-corrected/validatednative35ending206. Bothnatives coverall200–206, fullassembly stillrequired.",
+    "previous_goal_turn_classification": "Progress: previous turn restored/sourcecorrected/independentlyvalidated/committed SPCnative34b68248e/native35c5c37c2. This turn assembles full200–206, validates copiednatives/projectedglobalranges/rebuild andexactproseboundary. August remainsincomplete.",
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "full_assembly_required": true,
-    "action": "Commitnative35ending. SeparatelyassemblefullSPCperipherals200–206 fromexactnative34/35 package/manifestpins. Preserve105regions/89regionaltexts/16originalfigures,twoBASICgroups17physical/numberedrows,45tabledata rows220cells16headercells7mergedblanks,34externalbuspins/40componentpins/24portpairs/15controlstates/eightLEDpositions andallsourceflags/spellings. Join205콘트롤 directlyto206포트에; preserve allnativeprosejoins andexactcustomranges, carryoriginalmetadata without falsebyte/execute/humanacceptance claims. Independentlyvalidate fullcoverage/combinedindexes/assets/rebuild,commit. Thenremainingeightuntouchedbodies/fourpendingpilots/정보모음classification andstandalonewholeAugustJSON/assetscloseout/requirementsaudit; no reading-roomrebuild."
+    "action": "Commit fullSPC200–206 assembly. Inspect actual메타어셈블러 sourceextent beginning207; canonicalBASICeditor214 is onlya boundaryhint. Reuse exact unchanged207/208 wholeviews as extent evidence andinspectfollowingpages toverify terminalboundary beforemapping. Keepcanonical0028/title메타어셈블러/byline한상기/technicalparent0025 unchanged. Map coherentprose/code/formulas/diagrams underadaptiveguide and6sourcepage/2article/20outsidemaplimits. Qwen densecode/structuredvalues,difficultreadingorder; Tesseractclearprose; sourceimages retained. Correctselecteddraftsonce, preserve all attempts/costs/spelling/literals/uncertainties, independentlyvalidate JSON/assets/sourceindexes/rebuild andcommit. Native/assembly audits mustinstall exactpinned spc-boundary-adapter.py plus existingZ80adapter beforecheckingpriorSPCassembly; sharedpipelineunchanged. Eightuntouchedbodies/fourpendingpilots/정보모음classification andstandalonewholeAugustJSON/assetscloseout/requirementsaudit remain. Humanacceptance/fullproofreading/sourcebytes/execution pending. No reading-roomrebuild."
   },
   "raw_preparation_checkpoints": [
     {

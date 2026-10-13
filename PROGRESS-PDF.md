@@ -13810,3 +13810,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   11assemblies/fourselections. All200–206sourcepages now covered; separatefullassembly
   is next. Otherbodies/pilots/heading andstandaloneissueJSON/assetscloseout required.
   No reading-room rebuild. Reporting/commit/response tail carriesinto nextusageaudit.
+
+
+## 2026-10-13 — August full SPC peripherals200–206 assembled
+
+- Assembled full SPC-1000용 주변기기의 제작200–206 from immutable native34
+  opening200–205/native35ending206 after endingcommitc5c37c2. All389 native files
+  copied byte-identically, including raw evidence, corrections and original source
+  metadata. Canonical0027/title/차정환/parent0025/page200 unchanged; printed
+  미니 네온사인의 제작/차경환/EME연구실 remain original article content.
+- Full JSON/assets retains105regions,89 exact regional/review ranges,79 ordered
+  textblocks and16images. Eight native prose joins/nine native boundaries remain;
+  source205콘트롤 joins206포트에 directly across the explicit runningheader,
+  pinout,labels andcaption. Private exact-pin adapter verifies their sourceownership
+  andorder; ordinary figure/caption checks still apply. Negative source/order checks
+  reject forged headings or reversed interruptions. Sharedpipeline unchanged.
+- Combined sourceindex retains45 tabledata rows/220datacells,threeheader rows/
+  16headercells andsevenmergedblankfollowers;34externalbuspins/40componentpins,
+  24portpairs,15controlwordstates,eightLEDstates,ten diagrams/158labelranges,
+  35inlineexamples,two definitions and44 sourceflags. Every global UTF-8 range
+  matches its original native bytes,including joined rightregion andblankcells.
+- Two complete independent BASIC groups preserve17physical/numberedlogicalrows
+  (eight/nine). Listingbytes exactly equal native concatenation. Source2↑A,
+  possibleperiodafter128,missingTHEN,printedaddress/pin/bit/count contradictions,
+  MRIQ/SYS CLK/BUSAK,포트한 andeditorialbars/subscripts remain unaltered candidates.
+  Fullproofreading/humanacceptance/sourceencodedbytes/historicalexecution unverified.
+- Independent fullcoverage/canonical/ranges/assets andbyte-identical assembly
+  rebuild pass; all50priorproductionpackages,native15–35raw/selectedseals and
+  16,790pilotfiles unchanged. Independent sourceindex projector initially omitted
+  namespacing bare region_id; failedvalidator retained andfixed without changing
+  the assembled export or any source reading. No new OCR,mapping,rasterization,
+  frontend/browser/reading-room work. Recognitioncosts remain countedonce;
+  localcompute/tokens monetaryweight0,paidinput1:0.1,outputrate/humanactiveeffort unknown.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/spc-peripherals`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-spc-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/spc-assembly-validation.json`.
+  August now25complete/zeropartial/eightuntouched/fourpendingpilots/fiveclassified
+  andoneunclassifiedheading/zerohumanaccepted.51packages comprise35natives/
+  12assemblies/fourselections. Next verify 메타어셈블러207 sourceextent;214is only
+  a boundaryhint. Remaining articles/pilots/heading andstandalonewholeissueJSON/
+  assetscloseout/requirementsaudit remain. No reading-roomrebuild. Reporting/commit
+  tail carriesinto nextusageaudit. Goal remainsactive.
