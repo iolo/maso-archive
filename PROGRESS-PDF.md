@@ -13132,3 +13132,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and complete168–171 JSON/assets export. Remaining articles/pilots/headings and
   issue closeout remain. No reading-room rebuild. Reporting/commit usage after
   the audit cutoff carries into the next audit.
+
+
+## 2026-10-13 — August complete tree article168–171 restored
+
+- Restored the complete168–171 자료구조 article by 이근배, canonical0022.
+  Source series4/subtitle트리구조 and canonical title/byline/business-parent/page
+  remain intact. Its63 regions yield46 ordered text blocks,50 regional readings,
+  twelve original figure parts covering eleven numbered figures and a terminal
+  endmark. No deferred article pages or separate assembly.
+- All50 selected drafts (43T/sevenQ) were corrected once against18 pinned source
+  panels, with four persisted correction parts. No new recognition during correction
+  or export. Actual recognition remains44T/sevenQ, including one bounded unchanged-
+  crop genealogy alternate; the scrambled originalT draft and all raw evidence remain.
+- Two15-row memory arrays retain30 data rows/60 field slots and eleven empty
+  memory fields, plus two2-cell headers. Independent row/cell UTF-8 ranges preserve
+  blank fields. Eleven searchable diagram graphs retain nodes, edges, binary link
+  positions, level/subtree annotations and complete-tree indices. Variable-length
+  and binary-node field layouts, ten figure9 null slots and five figure11 null slots
+  remain source candidates beside authoritative bitmaps; no encoded bytes inferred.
+- Three prose joins retain four column boundaries, including 디그/리 and 된/다.
+  The displayed maximum-node formula stays independent with explicit incoming and
+  outgoing prose. Both recursive definitions, eight formula/position examples and
+  nineteen Unicode glyph ranges are indexed. Forty-six source flags retain literal
+  geneological, seqen-tial, the omitted 빈 in the(c) clause, level1/l candidates,
+  exponent/subscript typography and body0 versus diagram open-circle null readings.
+  Source mathematical claims, encoded bytes and full proofreading remain unverified.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-29/tree`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-tree-source-index-29/source-index.json`.
+  Independent coverage, source pixels/raw hashes, exact regional/review/cell/flag
+  ranges, figure associations, graph/null fields, canonical identity and byte-identical
+  rebuild pass. All39 prior production packages, native15–29 raw/selected seals
+  (including678 original/317 selectedbatch29 files) and16,790 pilot files remain
+  unchanged. A validator-only qwen/qwen3-vl naming assertion was corrected; its
+  failed script and recovery record remain. No source/export changes or OCR retries.
+- August now has20 complete assistant restorations,zero partials,eleven untouched
+  bodies,six pilot selections pending,three classified/three unclassified headings
+  and zero human accepted. Forty production packages comprise29 natives,nine
+  assemblies andtwo production selections. Next: source-verify actual full extent
+  of 의료보험수가계산172 before mapping; then remaining bodies/pilots/headings
+  and whole-issue standaloneJSON/assets closeout. No reading-room rebuild.
+  Local compute/token monetary weight is zero; paid input ratio1:0.1,output rate
+  and human effort remain unmeasured. Reporting/commit usage after the audit cutoff
+  carries into the next audit.
