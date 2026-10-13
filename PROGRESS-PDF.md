@@ -13541,3 +13541,50 @@ history remains in [PROGRESS.md](PROGRESS.md).
   unclassified headings and zero human accepted;45 packages unchanged. All other
   bodies,pilots,headings and standalone issueJSON/assets closeout remain required.
   Full proofreading/source bytes/execution unverified. No reading-room rebuild.
+
+
+## 2026-10-13 — August 메아리 ending189–194 restored
+
+- Restored remaining 메아리 contributions 1차 방정식189–193 and 키보드판 길
+  잃은 고양이194 from selected24Q/18T drafts, compared once with all42 source
+  text crops and nine original images. Canonical0041/title/nullbyline/parent0036
+  unchanged; 백성아/강남구도곡동 and 구평모/면목중 remain contribution content.
+  Full186–194 extent proof reused; lower194book ad and195technical divider excluded.
+- Fifty-one regions retain40 ordered text blocks,42 exact regional/review ranges,
+  five BASIC page panels,one patch,one key table and two endmarks. Two native prose
+  joins preserve 많은 신경 and 만들어 보기. The189 prose endmark does not terminate
+  the program, which continues through1933710RETURN. Full186–194 assembly remains.
+- Seventeen program chunks preserve272 printed numbered/physical rows1000–3710.
+  Restore source blank2780/2800PRINT and2790/2810label/string associations, omitted
+  2950expression and3420semicolon. Artificial quoted newlines/tabs removed against
+  source physical rows. Initial visual2410candidate rejected against full190panel;
+  original2510 retained, with reconciliation saved before finalization.
+- Patch retains eight printed labels1170/1190/3040/3105/3110/3120/3130/3140 in14
+  physical rows,including1170quoted wrap and four -16/368 address wraps. Combined
+  listing286physical rows/280numbered logical entries/two independent groups.
+  Key table preserves one header/four data rows,ten cells total:eight data/two
+  header,zero blanks; A→up,Z→down,right→right,left→left represented as explicit
+  Unicode source candidates beside original bitmap,with exact row/cell ranges.
+- Thirty-three source flags/eight indexed examples preserve open quotes,U9/U8,
+  USE T TERMINATE,PRINT/quote adjacency,0/O,final2030INTERCEP/T/quote uncertainty,
+  quoted padding,physical wraps and historical 키이. Source SPC-1000 finalzero
+  restored while the raw selected alternate SPC-100 regression remains immutable.
+  Full proofreading,human acceptance,original encoded bytes and execution unverified.
+- Actual24Q/23T calls (21Q/21T original plus threeQ/twoT bounded alternates) remain
+  counted once; selected24Q/18T corrected once. No new OCR during correction/export.
+  Q local30,820input/4,735output/35,555total; recognition199.021sQ/6.143sT.
+  Preparation failures/two unselected corrupt alternates/audit recovery retained.
+  Local compute/tokens monetaryweight0; paidinput1:0.1,output rate/human effort unknown.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-33/echo-ending`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-echo-source-index-33/source-index.json`.
+  Independent canonical/coverage,exact text/review/table/physical/logical row ranges,
+  crop pixels/raw settings/stop outcomes and byte-identical rebuild pass. All45
+  prior production packages,native15–33 original/selected seals and16,790pilot files
+  remain unchanged; native33 retains713original/356selected/alternate files.
+  No shared pipeline change; unchanged132-test PDF baseline reused.
+- August remains22 complete assistant restorations/one partial 메아리/nine untouched
+  bodies/five pending pilots/three classified and three unclassified headings/zero
+  human accepted. Forty-six packages comprise33 natives/ten assemblies/three selections.
+  All186–194 source pages now covered in two immutable segments; fulldepartment
+  assembly is next. Other bodies,pilots,headings and standaloneissueJSON/assets
+  closeout remain required. No reading-room rebuild. Goal remains active.
