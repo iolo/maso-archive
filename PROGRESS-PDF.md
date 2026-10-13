@@ -12892,3 +12892,51 @@ history remains in [PROGRESS.md](PROGRESS.md).
   then bounded native restoration; do not infer extent from TOC spacing.
   Remaining bodies/pilots/headings and whole-issue JSON/assets closeout remain.
   No HTML/frontend/browser or reading-room rebuild.
+
+
+## 2026-10-13 — August radar155–160 raw selection ready
+
+- Source-verified information radar155–165 from seventeen individually viewed
+  whole-page scans154–170. Its final item ends165 before advertisement166;
+  business divider167 and distinct 자료구조168–170 are excluded. Opening155–160
+  uses six mapped pages/eleven outside-map lookups; ending161–165 and full
+  assembly remain. Canonical0040 title/byline/parent/page are unchanged.
+- Classified pageless 비즈니스0021 as a non-owning heading from divider167 and
+  its three source child listings168/172/181. Printed 비지니스 spelling is retained
+  as source evidence; canonical spelling/child identities remain unchanged.
+  Separate 읽을거리141 listing does not change canonical0020 ownership.
+- Opening68 regions retain59 selected text drafts, five original photographs
+  and four original table images. All six original overlays, nineteen first
+  revised panels, second revised panel18 and five changed final overlays were
+  individually inspected; unchanged157 overlay is an exact reuse. Six distinct
+  regions changed before inference; one received a second adjustment. Original
+  and intermediate failed crop diagnostics remain preserved. Final236 boundary
+  checks report zero crossings and all68 crops match native source pixels.
+- One bounded Tesseract table probe lost headers/models/rows/value association,
+  so four ruled specification tables and one contact list used Qwen. Clear text
+  started with Tesseract. Five heading drafts lost whole lines/identifiers;
+  one bounded Qwen heading probe preserved the missing lines and was reused,
+  followed by one alternate for each of the other four affected headings.
+  Selected49T/10Q drafts await source correction. Empty 나라밖 소식 section
+  labelp160r05 will be source-read directly once; it is not an empty-source claim.
+- Actual recognition:55T calls (54 worker plus one unselected table probe),
+  tenQ calls (five worker plus five heading alternates, including the selected
+  heading probe), zero inference failures/retries. All59 original/five alternate
+  drafts were inspected. AllQ calls total7,080 input/1,072 output local tokens.
+  T recognition took18.578s and Q recognition
+  14.030s; worker/extra-startup/selection durations
+  remain separate noncausal diagnostics. Local compute/token monetary weight
+  is zero; paid uncached/cached input is1:0.1 with output rate unknown.
+- Original675-file and selected416-file seals pass. All36 prior production
+  packages, native15–26 raw/selected seals and16,790 pilot files are unchanged.
+  A validator generator's overbroad numeric-substring assertion was corrected
+  before audit; its failure is recorded and no inference repeated. Evidence:
+  `private/pdf-restoration/13-1984-08-adaptive/batch-27/selected-raw-audit.json`.
+- No source correction or production export is claimed. August remains18
+  restored, zero partials,13 untouched bodies andsix pilot selections pending;
+  headings nowthree classified/three unclassified, human accepted zero. Next:
+  once-only selected-draft correction, source table/news/continuation indexes,
+  validated opening155–160 JSON/assets export, then ending161–165/full assembly.
+  Natural-language item160 continues163 around other news161–162; retain that
+  ownership explicitly. Remaining articles/pilots/headings and issue closeout
+  remain. No HTML/frontend/browser or reading-room rebuild.
