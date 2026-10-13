@@ -3729,6 +3729,132 @@
         "total_tokens": 465493,
         "uncached_nonwrite_input_tokens": 5033
       }
+    },
+    {
+      "id": "preparation-31",
+      "stage": "preparation",
+      "engine": "adaptive",
+      "start": "2026-10-13T05:37:43.071863+00:00",
+      "end": "2026-10-13T05:45:03.575450+00:00",
+      "elapsed_seconds": 440.5035870075226,
+      "observed_responses": 21,
+      "tokens": {
+        "input_tokens": 1854505,
+        "cached_input_tokens": 1716864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9016,
+        "reasoning_output_tokens": 1844,
+        "total_tokens": 1863521,
+        "uncached_nonwrite_input_tokens": 137641
+      }
+    },
+    {
+      "id": "raw-31",
+      "stage": "extraction",
+      "engine": "adaptive",
+      "start": "2026-10-13T05:45:03.591243+00:00",
+      "end": "2026-10-13T05:46:24.090392+00:00",
+      "elapsed_seconds": 80.49914908409119,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 408324,
+        "cached_input_tokens": 397696,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1419,
+        "reasoning_output_tokens": 196,
+        "total_tokens": 409743,
+        "uncached_nonwrite_input_tokens": 10628
+      }
+    },
+    {
+      "id": "raw-audit-31",
+      "stage": "evaluation",
+      "engine": "adaptive",
+      "start": "2026-10-13T05:46:24.106154+00:00",
+      "end": "2026-10-13T05:48:04.908405+00:00",
+      "elapsed_seconds": 100.80225110054016,
+      "observed_responses": 3,
+      "tokens": {
+        "input_tokens": 430690,
+        "cached_input_tokens": 421888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1756,
+        "reasoning_output_tokens": 568,
+        "total_tokens": 432446,
+        "uncached_nonwrite_input_tokens": 8802
+      }
+    },
+    {
+      "id": "correction-31",
+      "stage": "correction",
+      "engine": "adaptive",
+      "start": "2026-10-13T05:48:04.924219+00:00",
+      "end": "2026-10-13T05:54:48.383527+00:00",
+      "elapsed_seconds": 403.4593081474304,
+      "observed_responses": 9,
+      "tokens": {
+        "input_tokens": 1541537,
+        "cached_input_tokens": 1496192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10207,
+        "reasoning_output_tokens": 1339,
+        "total_tokens": 1551744,
+        "uncached_nonwrite_input_tokens": 45345
+      }
+    },
+    {
+      "id": "export-31",
+      "stage": "export",
+      "engine": "adaptive",
+      "start": "2026-10-13T05:54:48.398723+00:00",
+      "end": "2026-10-13T05:57:12.069192+00:00",
+      "elapsed_seconds": 143.67046904563904,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 397766,
+        "cached_input_tokens": 386432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4346,
+        "reasoning_output_tokens": 317,
+        "total_tokens": 402112,
+        "uncached_nonwrite_input_tokens": 11334
+      }
+    },
+    {
+      "id": "validation-31",
+      "stage": "evaluation",
+      "engine": "adaptive",
+      "start": "2026-10-13T05:57:12.084368+00:00",
+      "end": "2026-10-13T05:59:18.428646+00:00",
+      "elapsed_seconds": 126.34427809715271,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 418154,
+        "cached_input_tokens": 408832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3275,
+        "reasoning_output_tokens": 364,
+        "total_tokens": 421429,
+        "uncached_nonwrite_input_tokens": 9322
+      }
+    },
+    {
+      "id": "reporting-31",
+      "stage": "reporting",
+      "engine": "adaptive",
+      "start": "2026-10-13T05:59:18.444013+00:00",
+      "end": "2026-10-13T06:00:13.730946+00:00",
+      "elapsed_seconds": 55.286932945251465,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 214633,
+        "cached_input_tokens": 211328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1338,
+        "reasoning_output_tokens": 82,
+        "total_tokens": 215971,
+        "uncached_nonwrite_input_tokens": 3305
+      }
     }
   ],
   "money_cost": null,
@@ -3736,33 +3862,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T05:32:33.762166+00:00",
-    "elapsed_seconds": 91687.76216602325,
-    "observed_responses": 2614,
+    "end": "2026-10-13T06:00:13.730946+00:00",
+    "elapsed_seconds": 93347.730946064,
+    "observed_responses": 2665,
     "tokens": {
-      "input_tokens": 360762995,
-      "cached_input_tokens": 351776896,
+      "input_tokens": 367193794,
+      "cached_input_tokens": 357912832,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1692275,
-      "reasoning_output_tokens": 424973,
-      "total_tokens": 362455270,
-      "uncached_nonwrite_input_tokens": 8986099
+      "output_tokens": 1730633,
+      "reasoning_output_tokens": 430336,
+      "total_tokens": 368924427,
+      "uncached_nonwrite_input_tokens": 9280962
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T05:32:33.762166+00:00",
-    "elapsed_seconds": 91687.76216602325,
-    "observed_responses": 269,
+    "end": "2026-10-13T06:00:13.730946+00:00",
+    "elapsed_seconds": 93347.730946064,
+    "observed_responses": 279,
     "tokens": {
-      "input_tokens": 40610757,
-      "cached_input_tokens": 39904640,
+      "input_tokens": 41775947,
+      "cached_input_tokens": 41001344,
       "cache_write_input_tokens": 0,
-      "output_tokens": 109358,
-      "reasoning_output_tokens": 27370,
-      "total_tokens": 40720115,
-      "uncached_nonwrite_input_tokens": 706117
+      "output_tokens": 116359,
+      "reasoning_output_tokens": 28023,
+      "total_tokens": 41892306,
+      "uncached_nonwrite_input_tokens": 774603
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",

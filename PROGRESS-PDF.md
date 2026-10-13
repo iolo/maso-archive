@@ -13269,3 +13269,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   remain. No reading-room rebuild. Local compute/token monetary weight is zero;
   paid input ratio1:0.1,output rate/human effort unmeasured. Reporting/commit usage
   after the audit cutoff carries into the next audit.
+
+
+## 2026-10-13 — August medical-insurance ending178–180 restored
+
+- Restored ending178–180 of 의료보험수가계산, canonical0023/byline컴퓨텍,
+  from five re-inspected pinned whole views177–181. Full172–180 extent proof from
+  native30 is reused by exact hash. Three mapped pages/two outside-map lookups.
+  Opening172–177 and ending178–180 now cover all source pages; separate assembly
+  remains required, so the article is explicitly partial in production accounting.
+- All34 regions retain26 ordered blocks,29 regional readings and five source
+  images: four complete listing parts for programs2–4 and a terminal endmark.
+  Three prose joins preserve 부/분,표/준 and명칭/을. Listing2's upper ending179
+  precedes section3-3/listing3. Four caption associations include the shared label178.
+- All17 original panels/eight changed final panels/three overlays were inspected;
+  nine unchanged panels match original bytes. Two code pairs were merged and other
+  cuts moved before OCR, preserving original/revised crops. All116 final boundary
+  checks have zero glyph or non-text crossings. No preparation probes or failures.
+- Ran15T/14Q original calls; all29 authoritative drafts read and selected without
+  alternates, failures or retries. Corrected once against17 pinned source panels
+  in three saved parts. No new OCR during correction/export. Q used17,074 input/
+  3,776 output local tokens,20,850 total; recognition took
+  52.221s Q/1.526s T.
+  Worker/startup time remains separate; local monetary weight zero.
+- Three complete-as-printed difference listings retain157 physical rows:114 numbered
+  candidates,42 nonblank wraps and one layout blank. No full runnable replacements
+  inferred. Twenty-six category DATA values retain explicit statement/value byte
+  ranges and the printed KB=24/READ0..24 (25 iterations) discrepancy. Thirty-eight
+  flags retain duplicate INPUT,179minusVAL, unclosed15040 quotes178/179 versus
+  closed180, CTRL^C comments and period180, slash placement and0/O candidates.
+  Quoted blank runs, source bytes/execution and full proofreading remain unverified.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-31/medical`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-medical-source-index-31/source-index.json`.
+  Independent coverage, source pixels/raw hashes, exact regional/review/flag/category/
+  physical/logical ranges, canonical identity and byte-identical rebuild pass.
+  All41 prior packages,native15–31 original/selected seals (417/204 files in31),
+  and16,790 pilot files remain unchanged. No shared pipeline change.
+- August remains20 complete articles,one partial medical,ten untouched bodies,six
+  pending pilots,three classified/three unclassified headings and zero human accepted.
+  Forty-two production packages comprise31 natives,nine assemblies andtwo selections.
+  Next: separately assemble fullmedical172–180, then remaining bodies/pilots/headings
+  and standalone issueJSON/assets closeout. No reading-room rebuild. Paid input
+  ratio1:0.1; output rate/human effort unmeasured. Reporting/commit usage after
+  the audit cutoff carries into the next audit.

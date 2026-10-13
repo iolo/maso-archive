@@ -7623,6 +7623,390 @@
         "note": "Overlapping5120/5122 are separate source-reading candidates; blank separator rows retain printed spacing. Indentation and quoted blank-run lengths remain editorial candidates."
       },
       "usage_limitation": "All30Q calls include27original andthreebounded numeric/control-key/action alternates on unchangedcrops. All24T calls include23original andoneunselected codealternate. Selected20T/30Q correctedonce;5022 omittedcontinuation transcribedfromsource. Everyoriginal/alternate retained andcountedonce; no newOCRduringcorrection/export. Localcompute/tokens havezero monetaryweight; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-31",
+      "toc_entry_id": "maso-1984-08-toc-0023",
+      "title": "의료보험수가계산",
+      "source_pages": [
+        178,
+        179,
+        180
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p178r01": "tesseract",
+        "p178r02": "tesseract",
+        "p178r03": "tesseract",
+        "p178r04": "tesseract",
+        "p178r05": "tesseract",
+        "p179r01": "tesseract",
+        "p179r03": "tesseract",
+        "p179r04": "tesseract",
+        "p179r05": "tesseract",
+        "p179r06": "tesseract",
+        "p180r01": "tesseract",
+        "p180r02": "tesseract",
+        "p180r03": "tesseract",
+        "p180r04": "tesseract",
+        "p180r06": "tesseract",
+        "p178r07": "qwen",
+        "p178r09": "qwen",
+        "p178r10": "qwen",
+        "p178r11": "qwen",
+        "p178r12": "qwen",
+        "p179r08": "qwen",
+        "p179r09": "qwen",
+        "p179r11": "qwen",
+        "p179r12": "qwen",
+        "p180r08": "qwen",
+        "p180r09": "qwen",
+        "p180r10": "qwen",
+        "p180r11": "qwen",
+        "p180r12": "qwen"
+      },
+      "assignment_reason": "Clear prose/headings/captions T; coherent numbered BASIC differences Q. Four source listing parts and terminal endmark retained. No whole article dual correction.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-31/medical/article.json",
+          "sha256": "9fb6508e40147ceead6d6ddb565ccb7e93dbae2d02ddc3bcad6467ec5f35fec2",
+          "bytes": 60598
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-31/medical/manifest.json",
+          "sha256": "206dff66aa12e5f2f9411d859524096602b9c4c745cfc724a603fb4f80a4e781",
+          "bytes": 21351
+        },
+        "source_pages": [
+          178,
+          179,
+          180
+        ],
+        "regions": 34,
+        "text_regions": 29,
+        "figures": 5,
+        "physical_listing_rows": 157,
+        "logical_listing_rows": 114,
+        "unresolved_entries": 38,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-medical-source-index-31/source-index.json",
+          "sha256": "a30f98a5a93d06f87e0321e5e5d957622a9a10ec9af768c009e0986ceb290540",
+          "bytes": 357788
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/validation.json",
+          "sha256": "d647d268b8581ce715aaa56bf7e381c963a2b5809d180a412f6aac037d4a781c",
+          "bytes": 1432
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/map.json",
+        "sha256": "ae857878f15fc9cbf4ebea6d108cfa7510edb23587e0f880473f72a4991d3f87",
+        "bytes": 12151
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/source-review-ledger.json",
+        "sha256": "35b8f8c775046690bb23118f9e3d60493b69bd475f401b544968c47054a97a91",
+        "bytes": 10997
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 17074,
+        "completion_tokens": 3776,
+        "total_tokens": 20850
+      },
+      "qwen_completed_calls": 14,
+      "qwen_recognition_seconds": 52.221063166012755,
+      "tesseract_recognition_seconds": 1.5256190259824507,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T05:45:03.687952+00:00",
+        "finished_at": "2026-10-13T05:46:06.286181+00:00",
+        "elapsed_seconds": 62.598240910010645,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 14,
+          "tesseract_inferences": 15,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 15,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 15,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "total_qwen_calls": 14,
+      "total_tesseract_calls": 15,
+      "selected_qwen_regions": 14,
+      "selected_tesseract_regions": 15,
+      "worker_qwen_calls": 14,
+      "worker_tesseract_calls": 15,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 0,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/raw-preservation.json",
+        "sha256": "54eb301934b9d121df8d722774f79da4a66c71f9223efdadf5cb975b7a3dc4f3",
+        "bytes": 50467
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/selected-raw-preservation.json",
+        "sha256": "d18550c1b42ceaf6959dc999a7d2e78a99642b42359e7abb4b5bc6e2cdc2f4ba",
+        "bytes": 29906
+      },
+      "source_tables": {
+        "tables": [],
+        "data_rows": 0,
+        "data_cells": 0,
+        "header_rows": 0,
+        "header_cells": 0,
+        "blank_cells": 0,
+        "category_data_values": 26,
+        "human_acceptance": "pending"
+      },
+      "source_listing_counts": {
+        "regions": {
+          "p178r07": {
+            "physical_rows": 16,
+            "numbered_rows": 11,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              0,
+              30,
+              35,
+              40,
+              49,
+              50,
+              110,
+              15000,
+              15005,
+              15010,
+              15040
+            ]
+          },
+          "p178r09": {
+            "physical_rows": 7,
+            "numbered_rows": 6,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15050,
+              15060,
+              15070,
+              15080,
+              15100,
+              15105
+            ]
+          },
+          "p178r10": {
+            "physical_rows": 10,
+            "numbered_rows": 5,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15107,
+              15110,
+              15115,
+              15117,
+              15120
+            ]
+          },
+          "p178r11": {
+            "physical_rows": 10,
+            "numbered_rows": 10,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15200,
+              15210,
+              15220,
+              15230,
+              15240,
+              15250,
+              15260,
+              15270,
+              15280,
+              15290
+            ]
+          },
+          "p178r12": {
+            "physical_rows": 12,
+            "numbered_rows": 12,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15300,
+              15310,
+              15320,
+              15330,
+              15340,
+              15350,
+              15360,
+              15370,
+              15380,
+              15390,
+              15400,
+              15410
+            ]
+          },
+          "p179r08": {
+            "physical_rows": 14,
+            "numbered_rows": 12,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15420,
+              15430,
+              15440,
+              15450,
+              15460,
+              15470,
+              15480,
+              16000,
+              16010,
+              16020,
+              16030,
+              16040
+            ]
+          },
+          "p179r09": {
+            "physical_rows": 18,
+            "numbered_rows": 11,
+            "blank_separator_rows": 1,
+            "printed_lines": [
+              0,
+              30,
+              35,
+              40,
+              49,
+              50,
+              110,
+              7020,
+              15000,
+              15005,
+              15010
+            ]
+          },
+          "p179r11": {
+            "physical_rows": 14,
+            "numbered_rows": 11,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15040,
+              15050,
+              15060,
+              15070,
+              15080,
+              15100,
+              15105,
+              15107,
+              15110,
+              15115,
+              15117
+            ]
+          },
+          "p179r12": {
+            "physical_rows": 7,
+            "numbered_rows": 4,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15120,
+              15180,
+              21000,
+              21010
+            ]
+          },
+          "p180r08": {
+            "physical_rows": 12,
+            "numbered_rows": 10,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              0,
+              30,
+              35,
+              38,
+              40,
+              49,
+              50,
+              60,
+              70,
+              80
+            ]
+          },
+          "p180r09": {
+            "physical_rows": 8,
+            "numbered_rows": 4,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              110,
+              120,
+              122,
+              7020
+            ]
+          },
+          "p180r10": {
+            "physical_rows": 9,
+            "numbered_rows": 4,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15000,
+              15005,
+              15010,
+              15040
+            ]
+          },
+          "p180r11": {
+            "physical_rows": 12,
+            "numbered_rows": 9,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15050,
+              15060,
+              15070,
+              15080,
+              15100,
+              15105,
+              15107,
+              15110,
+              15115
+            ]
+          },
+          "p180r12": {
+            "physical_rows": 8,
+            "numbered_rows": 5,
+            "blank_separator_rows": 0,
+            "printed_lines": [
+              15117,
+              15120,
+              15180,
+              21000,
+              21010
+            ]
+          }
+        },
+        "physical_rows": 157,
+        "numbered_rows": 114,
+        "listing_groups": 3,
+        "blank_separator_rows": 1,
+        "source_byte_encoding_verified": false,
+        "human_acceptance": "pending",
+        "note": "Programs2–4 are complete as printed differences only. Original wraps, one layout blank, label spacing and quoted blank runs retained as candidates."
+      },
+      "category_DATA_values": 26,
+      "usage_limitation": "All14Q and15T original calls counted once; zero probes,alternates,failures,retries or correction/export OCR. Selected29 drafts correctedonce; three programs preserved as printed differences only. Localcompute/tokens monetaryweight zero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "assemblies": [
@@ -11240,6 +11624,19 @@
             "sha256": "a596f953866b4aac9f0bfd333637d319ac4a9426a8ba9c33f1b22f00d395c6f6",
             "bytes": 103420
           }
+        },
+        {
+          "batch": "batch-31",
+          "source_pages": [
+            178,
+            179,
+            180
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-31/medical/article.json",
+            "sha256": "9fb6508e40147ceead6d6ddb565ccb7e93dbae2d02ddc3bcad6467ec5f35fec2",
+            "bytes": 60598
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -11248,13 +11645,12 @@
         174,
         175,
         176,
-        177
-      ],
-      "deferred_pdf_pages": [
+        177,
         178,
         179,
         180
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -11895,8 +12291,8 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 31,
-    "status": "medical-insurance-ending178-180-source-mapping-pending",
+    "status": "medical-insurance-full172-180-assembly-pending",
+    "kind": "assembly",
     "toc_entry_id": "maso-1984-08-toc-0023",
     "canonical_title": "의료보험수가계산",
     "canonical_byline": "컴퓨텍",
@@ -11914,90 +12310,123 @@
       179,
       180
     ],
-    "source_pages": [
-      178,
-      179,
-      180
-    ],
     "completed_source_pages": [
       172,
       173,
       174,
       175,
       176,
-      177
+      177,
+      178,
+      179,
+      180
     ],
-    "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/extent-inspection.json",
-      "sha256": "42963a22564e91d9f60a1aec55b5b9d3ec45b541158d1b65d31c427387913860",
-      "bytes": 8045
-    },
-    "last_completed_native": {
-      "batch": 30,
-      "source_pages": [
-        172,
-        173,
-        174,
-        175,
-        176,
-        177
-      ],
-      "export": {
-        "package": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-30/medical/article.json",
-          "sha256": "a596f953866b4aac9f0bfd333637d319ac4a9426a8ba9c33f1b22f00d395c6f6",
-          "bytes": 103420
-        },
-        "manifest": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-30/medical/manifest.json",
-          "sha256": "061f6cb55b5aa883c2de5363fa9c9e9dbf2595c9093923699d5882531f154e96",
-          "bytes": 35507
-        },
-        "source_pages": [
-          172,
-          173,
-          174,
-          175,
-          176,
-          177
-        ],
-        "regions": 56,
-        "text_regions": 50,
-        "figures": 6,
-        "physical_listing_rows": 234,
-        "logical_listing_rows": 169,
-        "unresolved_entries": 47,
-        "complete_article": false,
-        "checks": {
-          "export_integrity": true,
-          "byte_identical_rebuild": true,
-          "text_and_review_utf8_ranges": true,
-          "listing_byte_coverage": true,
-          "explicit_printed_line_numbers": true
-        },
-        "human_acceptance": "pending",
-        "source_index": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-medical-source-index-30/source-index.json",
-          "sha256": "f2a8227ebde5773e07cc6ae516d743561e00eb67a4ec45aab0c2c1464666cdf8",
-          "bytes": 498541
-        },
-        "source_validation": {
-          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/validation.json",
-          "sha256": "34c6e1a140afd2df4681926f8680e29c2a9930a326cd522c1c2366be56b24db0",
-          "bytes": 1525
+    "deferred_article_pages": [],
+    "native_segments": [
+      {
+        "batch": 30,
+        "export": {
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-30/medical/article.json",
+            "sha256": "a596f953866b4aac9f0bfd333637d319ac4a9426a8ba9c33f1b22f00d395c6f6",
+            "bytes": 103420
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-30/medical/manifest.json",
+            "sha256": "061f6cb55b5aa883c2de5363fa9c9e9dbf2595c9093923699d5882531f154e96",
+            "bytes": 35507
+          },
+          "source_pages": [
+            172,
+            173,
+            174,
+            175,
+            176,
+            177
+          ],
+          "regions": 56,
+          "text_regions": 50,
+          "figures": 6,
+          "physical_listing_rows": 234,
+          "logical_listing_rows": 169,
+          "unresolved_entries": 47,
+          "complete_article": false,
+          "checks": {
+            "export_integrity": true,
+            "byte_identical_rebuild": true,
+            "text_and_review_utf8_ranges": true,
+            "listing_byte_coverage": true,
+            "explicit_printed_line_numbers": true
+          },
+          "human_acceptance": "pending",
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-medical-source-index-30/source-index.json",
+            "sha256": "f2a8227ebde5773e07cc6ae516d743561e00eb67a4ec45aab0c2c1464666cdf8",
+            "bytes": 498541
+          },
+          "source_validation": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/validation.json",
+            "sha256": "34c6e1a140afd2df4681926f8680e29c2a9930a326cd522c1c2366be56b24db0",
+            "bytes": 1525
+          }
         }
       },
-      "validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-30/validation.json",
-        "sha256": "34c6e1a140afd2df4681926f8680e29c2a9930a326cd522c1c2366be56b24db0",
-        "bytes": 1525
+      {
+        "batch": 31,
+        "export": {
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-31/medical/article.json",
+            "sha256": "9fb6508e40147ceead6d6ddb565ccb7e93dbae2d02ddc3bcad6467ec5f35fec2",
+            "bytes": 60598
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-31/medical/manifest.json",
+            "sha256": "206dff66aa12e5f2f9411d859524096602b9c4c745cfc724a603fb4f80a4e781",
+            "bytes": 21351
+          },
+          "source_pages": [
+            178,
+            179,
+            180
+          ],
+          "regions": 34,
+          "text_regions": 29,
+          "figures": 5,
+          "physical_listing_rows": 157,
+          "logical_listing_rows": 114,
+          "unresolved_entries": 38,
+          "complete_article": false,
+          "checks": {
+            "export_integrity": true,
+            "byte_identical_rebuild": true,
+            "text_and_review_utf8_ranges": true,
+            "listing_byte_coverage": true,
+            "explicit_printed_line_numbers": true
+          },
+          "human_acceptance": "pending",
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-medical-source-index-31/source-index.json",
+            "sha256": "a30f98a5a93d06f87e0321e5e5d957622a9a10ec9af768c009e0986ceb290540",
+            "bytes": 357788
+          },
+          "source_validation": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/validation.json",
+            "sha256": "d647d268b8581ce715aaa56bf7e381c963a2b5809d180a412f6aac037d4a781c",
+            "bytes": 1432
+          }
+        }
       }
+    ],
+    "extent_inspection": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/extent-inspection.json",
+      "sha256": "dfa9a6221d1f84d8bc9bdc038650abce533aa04d23258ad066cc5a2b974fbecc",
+      "bytes": 5075
     },
-    "previous_goal_turn_classification": "Progress: priorgoalturn committed validatedselectedraw checkpoint607e7e9. This turn corrected50distinctselectedtexts against21pinnedpanels, indexedtables/flowchart/physicalBASICrows andprosejoins, exportedopening172–177, independentlyvalidatedallranges/sourcepixels andbyte-identicalrebuild. All40priorpackages/rawseals and16,790pilotfiles preserved.",
+    "previous_goal_turn_classification": "Previous goal turn only restated status: no progress. This turn reinspectedfive pinned wholeviews, rendered/mappedthree endingpages, correctedpreflightcroppedglyphcuts beforeinference, ran15T/14Q successfulcalls, readallrawdrafts, corrected29distinctselectedtexts once against17panels, indexedthreeprograms/26DATAvalues/threeprosejoins, exportedandindependentlyvalidatedending. All41priorpackages,native15–31seals and16,790pilotfiles preserved.",
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
     "full_assembly_required": true,
-    "action": "Reuse pinnedfull172–180 extent andwholeviews frombatch30; actuallyreinspect178–180 andneighbor177/181 beforemapping. Restoreending178–180 underadaptive routing, preservingsections3-2/3-3/3-4 andindependentdifference-onlyBASIClistings2–4; no inferredfullrunnableprograms. Correctselecteddraftsonce, indexphysicalrows/structuredfields/joins anduncertainties, export/validate/commitending. Then separatelyassemblefull172–180 fromimmutable natives30/31, preservingfirstprogramandoriginalbitmaps/correctionevidence. Continue remainingAugust bodies,sixpilotselections,threeunclassifiedheadings andstandaloneissueJSON/assetsindex/report/requirementsaudit. No reading-room rebuild."
+    "action": "Commit native31 ending before separately assembling fullmedical172–180 from exact native30/31 pins. Preserve90source regions/74combinedblocks/11originalimages, all5nativeprosejoins, firstcompleteprogram andthreeprinted difference-only programs, original metadata/correctionevidence/physicalrows and26categoryDATAvalues. No inferred fullrunnableprograms, sourcebyte orhumanacceptance claims. Independently validatefullbyte-identicalrebuild and all sourceindexes/coverage; commitfullassembly. Then restore remaining10Augustbodies,promote6pendingpilots,classify3headings andcomplete standalone issueJSON/assetscloseout/requirementsaudit. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
@@ -13254,6 +13683,145 @@
       "physical_nonblank_wraps": 61,
       "table_data_cells_source_corrected": 30,
       "source_prose_joins": 2
+    },
+    {
+      "batch": "batch-31",
+      "toc_entry_id": "maso-1984-08-toc-0023",
+      "status": "raw-complete-source-corrected-ending-export-validated",
+      "source_pages": [
+        178,
+        179,
+        180
+      ],
+      "article_pages": [
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "deferred_article_pages": [],
+      "regions": 34,
+      "text_regions": 29,
+      "figures": 5,
+      "listing_page_images": 4,
+      "terminal_endmarks": 1,
+      "listing_groups": 3,
+      "listing_text_chunks": 14,
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/raw-ocr-audit.json",
+        "sha256": "b5d26905159f2ec4849f1dcba7ac5be2d2d31d68e029a9117a43a87f0a6aa2ad",
+        "bytes": 1957
+      },
+      "selected_audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/selected-raw-audit.json",
+        "sha256": "65ead19233a6ffc9a460f3998c9b13b5d5207807c341f2513f9c1b6703d4627a",
+        "bytes": 1027
+      },
+      "preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/raw-preservation.json",
+        "sha256": "54eb301934b9d121df8d722774f79da4a66c71f9223efdadf5cb975b7a3dc4f3",
+        "bytes": 50467
+      },
+      "selected_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/selected-raw-preservation.json",
+        "sha256": "d18550c1b42ceaf6959dc999a7d2e78a99642b42359e7abb4b5bc6e2cdc2f4ba",
+        "bytes": 29906
+      },
+      "crop_gate": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/preflight-acceptance.json",
+        "sha256": "75f0f48f48a49b189c2e14443593690062a437727687c74912f4df781eb44c41",
+        "bytes": 644
+      },
+      "draft_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/raw-draft-inspection.json",
+        "sha256": "c0b2f6560c8cb6c988d7807d69b43a2ed3e5ce8122e4b229d6cc8b2b01c51483",
+        "bytes": 8639
+      },
+      "extent": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/extent-inspection.json",
+        "sha256": "dfa9a6221d1f84d8bc9bdc038650abce533aa04d23258ad066cc5a2b974fbecc",
+        "bytes": 5075
+      },
+      "qwen_calls": 14,
+      "tesseract_calls": 15,
+      "worker_qwen_calls": 14,
+      "worker_tesseract_calls": 15,
+      "selected_tesseract_regions": 15,
+      "selected_qwen_regions": 14,
+      "failed_recognition_calls": 0,
+      "retries": 0,
+      "bounded_alternate_calls": 0,
+      "preparation_probe_calls": 0,
+      "local_qwen_tokens": {
+        "prompt_tokens": 17074,
+        "completion_tokens": 3776,
+        "total_tokens": 20850
+      },
+      "all_tesseract_recognition_seconds": 1.5256190259824507,
+      "all_qwen_recognition_seconds": 52.221063166012755,
+      "raw_worker": {
+        "started_at": "2026-10-13T05:45:03.687952+00:00",
+        "finished_at": "2026-10-13T05:46:06.286181+00:00",
+        "elapsed_seconds": 62.598240910010645,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 14,
+          "tesseract_inferences": 15,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 15,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 15,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "empty_raw_regions": [],
+      "source_correction": "complete-once",
+      "production_export": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-31/medical/article.json",
+        "sha256": "9fb6508e40147ceead6d6ddb565ccb7e93dbae2d02ddc3bcad6467ec5f35fec2",
+        "bytes": 60598
+      },
+      "source_review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/source-review-ledger.json",
+        "sha256": "35b8f8c775046690bb23118f9e3d60493b69bd475f401b544968c47054a97a91",
+        "bytes": 10997
+      },
+      "validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-31/validation.json",
+        "sha256": "d647d268b8581ce715aaa56bf7e381c963a2b5809d180a412f6aac037d4a781c",
+        "bytes": 1432
+      },
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-medical-source-index-31/source-index.json",
+        "sha256": "a30f98a5a93d06f87e0321e5e5d957622a9a10ec9af768c009e0986ceb290540",
+        "bytes": 357788
+      },
+      "physical_listing_rows": 157,
+      "numbered_listing_rows": 114,
+      "blank_layout_rows": 1,
+      "physical_nonblank_wraps": 42,
+      "category_DATA_values": 26,
+      "source_prose_joins": 3,
+      "full_assembly_required": true,
+      "human_acceptance": "pending",
+      "local_monetary_weight": 0,
+      "input_price_ratio": {
+        "uncached": 1,
+        "cached": 0.1
+      },
+      "output_rate": null,
+      "scope": "Ending178–180 exported and validated; fullsource172–180 restored in native30/31. Separate fullassembly and remainingAugust work required."
     }
   ]
 }
