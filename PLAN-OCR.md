@@ -3847,3 +3847,52 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Local compute/token monetary weight is zero; paid input ratio1:0.1,output rate
   and human effort remain unmeasured. Reporting/commit usage after the audit cutoff
   carries into the next audit.
+
+
+### August medical-insurance opening172–177 selected raw drafts validated, 2026-10-13
+
+- Verified the complete 의료보험수가계산 article by 컴퓨텍, canonical0023,
+  occupies172–180. All twelve whole-page views171–182 were inspected: previous
+  tree ending171 and new VISICALC181–182 are excluded. Two views reused by exact
+  hash, ten fresh whole views and six native4000-pixel renders retained. Opening
+  checkpoint172–177 has six outside-map lookups; ending178–180 remains deferred.
+- Final mapping preserves56 regions:50 text crops and six original images,
+  comprising flowchart1, complete report2 and four complete listing-page bitmaps.
+  Twenty-four searchable BASIC chunks cover the complete first program174–177;
+  two six-row control-key tables await exact cell indexes. Report caption173r02
+  also appears inside authoritative bitmap173r03; retain that explicit association.
+- All21 original panels, ten changed final panels and six final overlays were
+  individually inspected; eleven unchanged panels match original bytes. Nineteen
+  distinct original region IDs were affected before recognition; one superseded
+  chunk176r07 was merged into176r06, retaining all original/intermediate crops.
+  All56 final crops match native pixels. The200-edge diagnostic has zero glyph
+  cuts and five non-text crossings: four shaded-series edges and one header rule.
+- Two boundary-selector failures made no map/crop changes. A diagnostic inventory
+  accidentally included its preceding inventory hash during retry setup; both
+  preceding versions were reconstructed and hash-verified, and the current original
+  inventory/source diagnostic remain intact. Recovery evidence is preserved.
+- Ran23Tesseract/27Qwen original calls, then four bounded unchanged-crop alternates
+  after all50 authoritative drafts were read. ThreeQ alternates recover lost
+  numeric/control-key/action fields. OneT alternate retains a5022 continuation
+  scaffold but damages identifiers/numbers and is unselected; correct that omitted
+  row from the scan once. All four alternates were read. Selected20T/30Q drafts
+  await correction. No empty drafts, runtime failures, retries or preparation probes.
+  A preliminary file-glob check read auxiliary Tesseract files; the independent
+  audit disproved its empty-draft finding before any dependent recognition.
+- Actual recognition is24T/30Q, all counted once. All30Q calls used30,259 input
+  and6,742 output local tokens,37,001 total. Q recognition took
+  85.491s andTesseract
+  5.274s; worker/startup/fallback/selection
+  durations remain separate. Local monetary weight is zero; paid input ratio1:0.1,
+  output rate and human effort remain unmeasured.
+- Independent raw/runtime/bundle/selected-provenance checks pass. Seals preserve
+  663 original and407 selected/alternate files. All40 prior production packages,
+  native15–29 raw/selected inventories and16,790 pilot files remain unchanged.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-30/selected-raw-audit.json`.
+- August remains20 complete assistant restorations,zero partials,eleven untouched
+  bodies,six pending pilot selections,three classified/three unclassified headings
+  and zero human accepted. Next: source-correct/export/index opening172–177,
+  restore ending178–180 and assemble full172–180. Programs2–4 are printed
+  differences only; do not invent complete runnable listings. Remaining bodies,
+  pilots,headings and standalone issue JSON/assets closeout remain. No reading-room
+  rebuild. Reporting/commit usage after the audit cutoff carries into the next audit.
