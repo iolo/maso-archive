@@ -5089,3 +5089,48 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Localcompute/tokens monetaryweight0; paidinput1:0.1,outputprice/humanactiveeffort
   unknown. Correctionelapsed includes status/continuationgaps andinitial export
   checks; reporting/commit tail entersnextusageaudit. No reading-room rebuild.
+
+
+### August RECALC ending245 source-corrected, 2026-10-14
+
+- Restored RECALC ending245 from exact source-verified239–245 extent evidence,
+  reinspection245 and one fresh4000pixel render. Twelve regions retain10ordered
+  blocks/two complete framed main/list2 sourceimages. Canonical0032/title/심명섭/
+  parent0031/page240 unchanged versus actualopening239.
+- All10selectedreadings correctedonce.141physical listingrows retain59numbered
+  entries,51wraps and31independent label/blankrows, including eight source labels.
+  Main/list2 starts1870 afterprior1860 onnewphysicalrow; no crosspage rowjoin.
+  Source6000 continues across two crops; 7000 endsRETURN. Sharedwrapped projection
+  passes and rejects altered6000ownership. Both nativepackages remainimmutable.
+- Fourteen flags preserve MAXFILES3 versus earlier MAXFILES 3,2270target680,
+  missing printedPRINT separators, July7,1984literaldate, sourceblot beside2510,
+  quotedblank/rule widths and ER+FOR / QQ glyph candidates. No inferred runnable
+  code, date repair or encodedbytes. Humanacceptance/fullproofreading/sourcebytes/
+  historicalexecution remainunverified.
+- Seven distinct crops repairedbeforeOCR; two adjoining crops required a second
+  boundaryplacement adjustment after the first entered2470topglyph. Alloriginal/
+  intermediate evidence retained; actual blanklines3434–3435 establish finalcut.
+  All12sourcecrops and40boundaries pass withzerocrossings. Original/finaloverlay,
+  all10original/sevenfinaltextcrops, twofullpanelimages and15original/36intermediate
+  edgecomponent tiles inspected. No inference occurred until finalcrop gate passed.
+- Actual10Qwen/oneTesseract: nineprimarycodeQ plus one128token headerQ alternate
+  afterzero-byteTheader. Selected10Q/zeroT; alloriginals/alternate retained. No
+  capped generation, retry, preparationprobe or correctionOCR. LocalQtokens7,892input/
+  1,618output/9,510total. All179original/110selected sealedfiles exact. Initial
+  rawaudit flaggedemptyheader; selectedaudit incorrectly expectednewline in empty
+  original. Failedscripts/errors retained; corrected checks preservezerobyteinput.
+- Independent sourcepixels/raw/settings, alltext/review/row ranges, wrapownership,
+  canonicalidentity, native41endpoint andbyte-identicalfreshrebuild pass. All59
+  priorproductionpackages/native15–42seals and16,790pilotfiles unchanged. Shared
+  pipeline unchanged; passing135-testbaseline reused. Sourceprojection checked
+  independently ontheactualending, including wrong6000owner rejection.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-42/recalc-ending`.
+  Index:`build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-42/source-index.json`.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-42/validation.json`.
+  August remains27complete/onepartial/fiveuntouched/fourpendingpilots/fiveclassified
+  headings/oneunclassifiedheading/zerohumanaccepted.60packages comprise42natives/
+  14assemblies/fourselections;all21historicalrawmilestones unchanged. Full239–245
+  assembly isnext; remainingAugust andstandaloneissueJSON/assetscloseout/audit
+  remainrequired. Localcompute/tokens monetaryweight0,paidinput1:0.1,outputprice/
+  humanactiveeffort unknown. Correctionwindow includes selectedaudit schemafix;
+  elapseddiagnostic only. Reporting/commit tail entersnextaudit. No reading-room rebuild.
