@@ -4561,3 +4561,43 @@ commit code/documentation. Do not count a partial opening as a complete article.
   classified/oneunclassifiedheading/zerohumanaccepted;51packages unchanged.
   Remainingbodies/pilots/heading andstandaloneissueJSON/assetscloseout required.
   Fullproofreading/sourcebytes/execution unverified. No reading-room rebuild.
+
+
+### August meta-assembler207–212 restored, 2026-10-13
+
+- Restored 메타어셈블러 opening207–212 after raw checkpoint8b12edc.
+  All98selected source readings correctedonce;108regions retain92orderedblocks,
+  tenoriginalimages and98regional/reviewranges. Fiveprosejoins/sixboundaries
+  preserve listcontinuations andsource적→응/어셈블→러이지/마이크→로 acrossheaders.
+  Canonical0028/title/한상기/parent0025/page207 unchanged; printedbyline retained.
+- Nine numberedfigures andoneuncaptioned16-bit diagram retain81labelranges,
+  sevenclassificationedges,16bit/fieldpositions,ninedefinitions and28literalexamples.
+  Headerexamplefigure8 retains3rows/9cells,sevenvalues/twoemptythirdcells.
+  Figure6/7 completebitmaps includeincidentalcaptions withseparatecaptionrecords.
+- Figure9 retains17schematictranscriptionrows/fourverticalthree-dotstacks,
+  unnumbered andnot acomplete runnableprogram. Thirdheaderperiod retained as
+  header./header candidate. Formula superscripts/subscripts, widthi/widthsubscripts,
+  uppercaseM/lowercasem, VAX/11-780 versusVAX-11/780 and7/8 versus6/2/2 examples
+  remain source-linked candidates. Enlarged211reading retains추어진 with주어진
+  alternative; earlier sealed주어진 inspection remains an explicit historicalerratum.
+- SelectedQ끌격/명명어/목적으로/리스트инг anddiagram적용형 correctedonce fromsource.
+  Actual73T/40Q (25originalQ plus15boundedalternates) countedonce; selected58T/40Q.
+  LocalQ19,672input/2,941output/22,613total. No correction/export OCR or successfulQ
+  rerun. Raw1139/selected797sealedfiles remain unchanged. Allattempts/crop/schema/
+  dependency/rounding recoveries retained; elapsed includes status/compaction gaps.
+- Independent source/canonical/coverage,crop/raw/settings,text/review/formula/table/
+  diagram/listingranges andbyte-identicalrebuild pass. Two shortsourceflag excerpts
+  initially anchored earlier repeatedwords; unique-tail phrases repaired before
+  promotion, preserving priorunpromotedexport/rebuild andall98source readings.
+  All51priorproductionpackages,native15–36seals and16,790pilotfiles unchanged.
+  Sharedpipeline unchanged; JSON/assets only. Humanacceptance/fullproofreading/
+  sourceencodedbytes/historicalexecution unverified;29explicit sourceflags retained.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-36/meta-assembler`.
+  Index:`build/pdf-restoration/13-1984-08-adaptive-meta-source-index-36/source-index.json`.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-36/validation.json`.
+  August now25complete/onepartial/sevenuntouched/fourpendingpilots/fiveclassified/
+  oneunclassifiedheading/zerohumanaccepted.52packages comprise36natives/
+  12assemblies/fourselections;all17historicalrawmilestones unchanged. Nextrestore
+  ending213,then separatelyassemblefull207–213. Remainingbodies/pilots/heading and
+  standalonewholeissueJSON/assetscloseout/requirementsaudit remain required.
+  No reading-room rebuild. Reporting/commit/response tail carriesinto nextusageaudit.
