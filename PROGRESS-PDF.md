@@ -14810,3 +14810,54 @@ history remains in [PROGRESS.md](PROGRESS.md).
   have zero monetary weight; paid input ratio remains 1:0.1, with output price and
   active human effort unknown. Elapsed windows include the correction recovery
   as a diagnostic. Commit/response costs enter the next audit. No reading-room rebuild.
+
+
+## 2026-10-14 — August 디버깅룸138 source-corrected
+
+- Restored the complete 디버깅룸 on source page 138. Canonical entry 0038,
+  null byline, parent 0036 and first page 138 remain unchanged. Source pages
+  137–141 establish its ending and the next 복덕방 article on 139–upper140;
+  the lower ELI-TECT advertisement on 140 remains outside article scope.
+- The package retains 30 regions, 24 ordered text blocks and six original images.
+  All 24 selected readings were source-corrected once. Five separate listing
+  fragments preserve 47 physical rows: two numbered statements, five wraps and
+  40 unnumbered rows. The bare 80 belongs to printed 460; the division expression
+  belongs to 50. Dump addresses are source labels, not invented BASIC numbers.
+- Thirty-six main dump rows and two missing-byte rows retain 38 address fields
+  and 304 byte readings with exact searchable ranges. Source 4088/4108, 40A0's
+  second byte 18, 40D8's fifth byte 44 and 4110's first byte 2C are restored from
+  visible glyphs. Faint 85/65, 8D/BD, BB and JQ/J0/JO remain explicit candidates;
+  no opcode knowledge or program execution resolves them.
+- The Logo table retains two headers and three before/after pairs, six data cells
+  associated with source lines 3, 9 and 20 on page 92. Its third before-cell has
+  no bullet; the after-cell retains one. Five historical errata notices preserve
+  their page/line/address relationships, SPC command change, BSAVE prompt/return,
+  eight-plus-eight missing-byte statement and isolated U example. Historical
+  읍 spellings and printed 실행시키기 않은 remain literal. Earlier July packages
+  are not modified; source encoded bytes and execution are unverified.
+- Primary OCR used ten Qwen and 14 Tesseract calls. Eight bounded alternatives
+  add five Qwen and three Tesseract calls; five Qwen readings and one Tesseract
+  BSAVE reading are selected, with two inferior Tesseract alternatives retained.
+  Actual calls total 15 Qwen/17 Tesseract; selected readings are 14 Qwen/10
+  Tesseract. No recognition failures, retries, probes or correction OCR.
+  Local Qwen tokens: 5,105 input, 1,485 output, 6,590 total, including alternatives.
+  All original and selected/alternate seals remain exact. The pre-OCR extent
+  helper filename/schema recovery and all original/intermediate crops are preserved.
+- Independent source-pixel/raw/settings checks, text/review/field ranges, all
+  table cells and correction pairs, physical/logical ownership and a negative
+  bare-80 ownership check pass. A fresh independent export rebuilds identically.
+  All 64 prior production packages, batches 15–46 raw/selected seals and 16,790
+  pilot files remain unchanged. The shared pipeline is unchanged; its pinned
+  passing 135-test baseline is reused. Human acceptance/full proofreading pending.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-debugging-room-source-index-46/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-46/validation.json`.
+  August now has 32 complete articles, zero partials, one untouched body, four
+  pending pilots, five classified headings, one unclassified heading and zero
+  human acceptances. Its 65 packages comprise 46 natives, 15 assemblies and four
+  selections; all 24 historical raw milestones are unchanged. Next: 복덕방139–upper140,
+  remaining pilots/heading and standalone issue JSON/assets closeout/requirements
+  audit. Local computation/tokens have zero monetary weight. Paid input ratio
+  remains 1:0.1, with output price and active human effort unknown. Elapsed windows
+  include source inspection, recoveries and interruptions as diagnostics; commit/
+  response costs enter the next audit. No reading-room rebuild.

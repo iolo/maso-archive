@@ -15,16 +15,16 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 31,
+    "assistant-restored-human-pending": 32,
     "section-heading-no-body": 5,
     "sealed-pilot-review-pending": 4,
     "unclassified-heading": 1,
-    "untouched": 2
+    "untouched": 1
   },
   "sealed_pilot_articles": 4,
-  "production_complete_articles": 31,
+  "production_complete_articles": 32,
   "production_partial_articles": 0,
-  "untouched_articles": 2,
+  "untouched_articles": 1,
   "unclassified_heading_entries": 1,
   "classified_heading_entries": 5,
   "human_accepted_articles": 0,
@@ -19353,6 +19353,462 @@
         "bytes": 19710
       },
       "usage_limitation": "Raw milestone24 actual39Q/15T counted once; selected39Q/10T. ThreeQ prose alternates selected and two inferiorT guide/code alternatives retained. No recognition failures/retries/probes/correctionOCR. All49 readings source-corrected once, followed by one explicit literal amendment590 after fresh source zoom; first correction/input/rejected finalization check preserved. Ten exact unchanged image inspections reused. Full257–261 has48blocks/one prose wordjoin,446physical/284numbered/162wrapped/zero unnumbered rows;15definitions/29guide entries;70DATAstatements with56decimal/416validhex/one uncertain apostrophe/39quoted-string/oneunquotedEND fields and556physicalfragments;69quoted literals/122fragments;69sourceflags. Source330 DATAapostrophe,1650openingparen,1700extra closeparen,1880comma,2400doublecomma andNEXTN retained literally. Sourcebyline candidate 윤 석 민 differs from canonical윤성민; both preserved. DATA commas insidequotes never split fields; crosspage1020 andbarebranch/SJcolumn ownership independently validated withnegative wrongowner check. Freshbyteidentical rebuild and63priorpackages/15–45seals/16790pilots pass. Sharedpipeline unchanged,135testbaseline reused. Localcompute/tokensweight0; paidinput1:0.1,outputprice/humanactive effort unknown. Humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-46",
+      "toc_entry_id": "maso-1984-08-toc-0038",
+      "title": "디버깅룸",
+      "source_pages": [
+        138
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p138r01": "qwen",
+        "p138r02": "tesseract",
+        "p138r03": "tesseract",
+        "p138r04": "tesseract",
+        "p138r06": "qwen",
+        "p138r07": "tesseract",
+        "p138r09": "qwen",
+        "p138r10": "qwen",
+        "p138r11": "qwen",
+        "p138r12": "qwen",
+        "p138r14": "qwen",
+        "p138r15": "tesseract",
+        "p138r16": "qwen",
+        "p138r17": "tesseract",
+        "p138r18": "tesseract",
+        "p138r20": "qwen",
+        "p138r21": "qwen",
+        "p138r22": "qwen",
+        "p138r23": "tesseract",
+        "p138r24": "qwen",
+        "p138r26": "qwen",
+        "p138r27": "tesseract",
+        "p138r28": "tesseract",
+        "p138r29": "qwen"
+      },
+      "assignment_reason": "Clear title/headings anderrata prose Tesseract. Faint dotmatrix BASIC/hex values, exactsave/inline commands andpaired Logo before/after table Qwen. Originalpanels/table/endingmark preserved. Mainhex split atblank gaps in8-row chunks; no probe justified by established routes.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room/article.json",
+          "sha256": "147783b206d40cc17e53c9c830a1a62c0223ddfaa440bf134ec8e556bff7e4bb",
+          "bytes": 47870
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room/manifest.json",
+          "sha256": "648dc7c26ae880b6abdfa121e072edc1ac3d6dfc49c435c8f0d7804723160a55",
+          "bytes": 18229
+        },
+        "source_pages": [
+          138
+        ],
+        "regions": 30,
+        "text_regions": 24,
+        "figures": 6,
+        "physical_listing_rows": 47,
+        "logical_listing_rows": 2,
+        "unresolved_entries": 23,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-debugging-room-source-index-46/source-index.json",
+          "sha256": "e3cef57f7e91b986c68afe66fea082f62062d9544fd60a51bdecbe5102a1ddc0",
+          "bytes": 483641
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/validation.json",
+          "sha256": "293f3242449e60ac6c0672d2dd757463ccb9f2c9f2567a522e401b9fbc48d4ac",
+          "bytes": 1760
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/map.json",
+        "sha256": "cb95b6f9b34ccb6da6dec066af7dfc896a8847a90aa1bd00a0f009aa7ee9e228",
+        "bytes": 9772
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/source-review-ledger.json",
+        "sha256": "ce00747c64db22d4dfde6b50b335dacdc378b8c428f4e56a642e0c3411d854cb",
+        "bytes": 11211
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 5105,
+        "completion_tokens": 1485,
+        "total_tokens": 6590
+      },
+      "qwen_completed_calls": 15,
+      "qwen_failed_calls": 0,
+      "qwen_recognition_seconds": 36.970307713017974,
+      "tesseract_recognition_seconds": 3.9874493350071134,
+      "preparation_probe_seconds": 0,
+      "repair": {
+        "status": "pre-recognition-source-crop-revision",
+        "operations": [
+          {
+            "region_id": "p138r04",
+            "before": [
+              0.12897526501766785,
+              0.349375,
+              0.43374558303886923,
+              0.3725
+            ],
+            "after": [
+              0.12897526501766785,
+              0.3525,
+              0.43374558303886923,
+              0.3725
+            ],
+            "reason": "Exclude isolated speck above complete50/460notice."
+          },
+          {
+            "region_id": "p138r07",
+            "before": [
+              0.12985865724381626,
+              0.505,
+              0.5114840989399293,
+              0.54
+            ],
+            "after": [
+              0.1166077738515901,
+              0.505,
+              0.5114840989399293,
+              0.54
+            ],
+            "reason": "Recover leftmost 다 insecondnotice row."
+          },
+          {
+            "region_id": "p138r18",
+            "before": [
+              0.5450530035335689,
+              0.45,
+              0.9425795053003534,
+              0.485625
+            ],
+            "after": [
+              0.5450530035335689,
+              0.45,
+              0.9540636042402827,
+              0.485625
+            ],
+            "reason": "Recover rightmost 줄 glyph."
+          },
+          {
+            "region_id": "p138r20",
+            "before": [
+              0.5706713780918727,
+              0.494375,
+              0.9249116607773852,
+              0.5575
+            ],
+            "after": [
+              0.568904593639576,
+              0.4925,
+              0.926678445229682,
+              0.560625
+            ],
+            "reason": "Add blank margins around complete pairedtable glyphs; sourcegrayfill/rules retained."
+          },
+          {
+            "region_id": "p138r23",
+            "before": [
+              0.5706713780918727,
+              0.685625,
+              0.9204946996466431,
+              0.705
+            ],
+            "after": [
+              0.5706713780918727,
+              0.685625,
+              0.9204946996466431,
+              0.701875
+            ],
+            "reason": "End BSAVEcommand crop atblank gap1118–1127, excluding nextnotice glyphs."
+          },
+          {
+            "region_id": "p138r24",
+            "before": [
+              0.5485865724381626,
+              0.705625,
+              0.9434628975265018,
+              0.75375
+            ],
+            "after": [
+              0.5485865724381626,
+              0.701875,
+              0.9434628975265018,
+              0.75375
+            ],
+            "reason": "Begin missingbytes notice atsameblank gap, recover firstrow glyph tops."
+          },
+          {
+            "region_id": "p138r28",
+            "before": [
+              0.5609540636042403,
+              0.875625,
+              0.9390459363957597,
+              0.91
+            ],
+            "after": [
+              0.5432862190812721,
+              0.875625,
+              0.9567137809187279,
+              0.908125
+            ],
+            "reason": "Recover left/rightparagraph glyphs; end after1451text andbeforeendingmark/code."
+          },
+          {
+            "region_id": "p138r29",
+            "before": [
+              0.5697879858657244,
+              0.910625,
+              0.7676678445229682,
+              0.93
+            ],
+            "after": [
+              0.5609540636042403,
+              0.90875,
+              0.7676678445229682,
+              0.93
+            ],
+            "reason": "Recover leftstroke ofinline U; preserve full example belowparagraph."
+          }
+        ],
+        "distinct_revised_regions": 8,
+        "original_regions": 30,
+        "final_regions": 30,
+        "original_text_regions": 24,
+        "final_text_regions": 24,
+        "original_images": 6,
+        "merges": [],
+        "splits": [],
+        "ocr_calls": 0,
+        "human_acceptance": "pending"
+      },
+      "crop_revisions": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/crop-repairs.json",
+          "sha256": "2ccf4ddbdd85e44730dc6bad9a4f3f2468f881e8a363f8a885949d31630d8e5f",
+          "bytes": 3148
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/second-crop-adjustment.json",
+          "sha256": "e66aefa21285e19d21a9361c99d92c6ee7e7f0535aef084f96d3ea5d5823c55b",
+          "bytes": 488
+        }
+      ],
+      "raw_worker": {
+        "started_at": "2026-10-13T23:08:07.144294+00:00",
+        "finished_at": "2026-10-13T23:08:52.654845+00:00",
+        "elapsed_seconds": 45.51057357699756,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 10,
+          "tesseract_inferences": 14,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 14,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 14,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "table_id": "logo-before-after",
+          "region_id": "p138r20",
+          "header_rows": 1,
+          "data_rows": 3,
+          "columns": 2,
+          "source_encoding_verified": false
+        }
+      ],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 14,
+        "selected_tesseract_regions": 10,
+        "total_qwen_calls": 15,
+        "total_tesseract_calls": 17,
+        "worker_tesseract_calls": 14,
+        "primary_qwen_failed_calls": 0,
+        "primary_qwen_failed_regions": [],
+        "alternate_qwen_failed_calls": 0,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 8,
+        "additional_tesseract_calls": 3,
+        "additional_qwen_calls": 5,
+        "selected_qwen_alternates": 5,
+        "selected_tesseract_alternates": 1,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 1718,
+          "completion_tokens": 213,
+          "total_tokens": 1931
+        },
+        "decisions": [
+          {
+            "region_id": "p138r06",
+            "alternate_engine": "tesseract",
+            "selected_alternate": false,
+            "reason": "Actually read alternate damages more source identifiers, values or physical row associations; retain original Qwen with explicit source ownership/field correction pending."
+          },
+          {
+            "region_id": "p138r23",
+            "alternate_engine": "tesseract",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p138r26",
+            "alternate_engine": "tesseract",
+            "selected_alternate": false,
+            "reason": "Actually read alternate damages more source identifiers, values or physical row associations; retain original Qwen with explicit source ownership/field correction pending."
+          },
+          {
+            "region_id": "p138r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p138r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p138r21",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p138r22",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p138r24",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          }
+        ],
+        "elapsed_selection_seconds": 0.05318068599444814,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 15,
+      "total_tesseract_calls": 17,
+      "selected_qwen_regions": 14,
+      "selected_tesseract_regions": 10,
+      "worker_qwen_calls": 10,
+      "worker_tesseract_calls": 14,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 5,
+      "additional_tesseract_calls": 3,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/raw-preservation.json",
+        "sha256": "b07241bf7afae5229de501fde706ab61a7b192d043c86860b6f7f02a13c15818",
+        "bytes": 48625
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/selected-raw-preservation.json",
+        "sha256": "f648eb5f895fb711aaecc6a1830a48aaaa348d899bcadd837459558bc1993b93",
+        "bytes": 36121
+      },
+      "export_evidence_derivation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/export-evidence-derivation.json",
+        "sha256": "a06a871a3c92c50fce0df1b4f4b0d7e3c2ba30fc443a00a5b793a28e5ea6967c",
+        "bytes": 27282
+      },
+      "source_correction_audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/source-correction-audit.json",
+        "sha256": "ccc28c12da86fd0409812eae6ec3a1cb4e3b243b912077f88cefb8172a8347f2",
+        "bytes": 1421
+      },
+      "source_listing_counts": {
+        "regions": {
+          "p138r06": 7,
+          "p138r09": 8,
+          "p138r10": 8,
+          "p138r11": 8,
+          "p138r12": 8,
+          "p138r14": 4,
+          "p138r23": 1,
+          "p138r26": 2,
+          "p138r29": 1
+        },
+        "text_regions": 24,
+        "original_images": 6,
+        "physical_listing_rows": 47,
+        "numbered_rows": 2,
+        "logical_numbered_rows": 2,
+        "wrapped_continuations": 5,
+        "unnumbered_rows": 40,
+        "listing_groups": 5,
+        "dump_rows": 38,
+        "dump_address_fields": 38,
+        "dump_byte_fields": 304,
+        "dump_fields": 342,
+        "table_data_rows": 3,
+        "table_data_cells": 6,
+        "table_header_rows": 1,
+        "table_header_cells": 2,
+        "paired_logo_corrections": 3,
+        "errata_notices": 5,
+        "inline_examples": 3,
+        "source_flags": 23,
+        "source_complete_program": false,
+        "human_acceptance": "pending",
+        "source_bytes_verified": false,
+        "execute_verified": false
+      },
+      "source_field_counts": {
+        "dump_rows": 38,
+        "dump_address_fields": 38,
+        "dump_byte_fields": 304,
+        "dump_fields": 342,
+        "table_data_rows": 3,
+        "table_data_cells": 6,
+        "table_header_rows": 1,
+        "table_header_cells": 2,
+        "paired_logo_corrections": 3,
+        "errata_notices": 5,
+        "inline_examples": 3,
+        "source_flags": 23
+      },
+      "canonical_page_conflict": null,
+      "export_validation_failures": 0,
+      "source_finalization_failures": 0,
+      "preparation_recovery": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/extent-reuse-helper-recovery.json",
+        "sha256": "0d7774d1701a04c1d8baaa0712eea553ccb81208df63ff50c7383c10e617ddb8",
+        "bytes": 498
+      },
+      "private_exporter": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/build-reviewed-46.py",
+        "sha256": "c285fe29c20b7b04bdc3b6d3f6594859dcedcf8cce5e87c83c9795ce828cb32b",
+        "bytes": 19893
+      },
+      "usage_limitation": "Native46 full errata138 has30regions/24blocks/6images; all24 selected readings source-corrected once. Five separate listing fragments retain47physical rows,2numbered/5wrapped/40unnumbered, with bare80 owned by460. Main36 plus music2 dump rows retain38addresses/304byte readings; no BASIC labels invented for dumps. Logo3 before/after pairs retain6data cells/2headers and source3/9/20 targets, including asymmetric bullet. Five historical notices remain content; no earlier July package changed. Actual15Q/17T calls, selected14Q/10T; fiveQ andoneT alternatives selected, two inferiorT attempts retained. Zero recognition failures/retries/probes/correctionOCR. Source85/65,8D/BD,JQ/J0/JO,O/0, prompt/return andbullet glyphs remain explicit reading candidates. Source grammatical error and historical spellings retained. Independent field/cell indexes, negative bare80 ownership, source pixels, raw/settings, rebuild and64priorpackages/15–46seals/16790pilots pass. Sharedpipeline unchanged;135testbaseline reused. Localcompute/tokens weight0; paidinput1:0.1, outputprice/humanactiveeffort unknown. Humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "assemblies": [
@@ -27029,9 +27485,32 @@
       "page": 138,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room/article.json",
+        "sha256": "147783b206d40cc17e53c9c830a1a62c0223ddfaa440bf134ec8e556bff7e4bb",
+        "bytes": 47870
+      },
+      "segments": [
+        {
+          "batch": "batch-46",
+          "source_pages": [
+            138
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room/article.json",
+            "sha256": "147783b206d40cc17e53c9c830a1a62c0223ddfaa440bf134ec8e556bff7e4bb",
+            "bytes": 47870
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        138
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0039",
@@ -27642,39 +28121,44 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 46,
-    "status": "debugging-room-source-extent-inspection-pending",
+    "batch": 47,
+    "status": "classifieds-source-extent-verified-mapping-pending",
     "kind": "native-restoration",
-    "toc_entry_id": "maso-1984-08-toc-0038",
-    "canonical_title": "디버깅룸",
+    "toc_entry_id": "maso-1984-08-toc-0039",
+    "canonical_title": "복덕방",
     "canonical_byline": null,
     "canonical_parent_id": "maso-1984-08-toc-0036",
-    "canonical_first_page": 138,
-    "article_extent_verified": false,
+    "canonical_first_page": 139,
+    "article_extent_verified": true,
+    "article_pdf_pages": [
+      139,
+      140
+    ],
+    "source_extent_evidence": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/extent-inspection.json",
+      "sha256": "f55b4c8ec6f2e06ebe4e33dfb6a47c892672d52bc214c794250135944ba4ae7a",
+      "bytes": 5117
+    },
     "last_completed_article": {
       "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-45/apple-ghost/article.json",
-        "sha256": "1d98e584d4f8cfbb84f1c2198b872a9f406f7c8fe890c6642f8d1d0595014094",
-        "bytes": 104054
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room/article.json",
+        "sha256": "147783b206d40cc17e53c9c830a1a62c0223ddfaa440bf134ec8e556bff7e4bb",
+        "bytes": 47870
       },
       "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-45/apple-ghost/manifest.json",
-        "sha256": "ca9c572029235e1678a18b5ca5ec6faa152d78744cc73b50135e1d71fbca40a3",
-        "bytes": 35606
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room/manifest.json",
+        "sha256": "648dc7c26ae880b6abdfa121e072edc1ac3d6dfc49c435c8f0d7804723160a55",
+        "bytes": 18229
       },
       "source_pages": [
-        257,
-        258,
-        259,
-        260,
-        261
+        138
       ],
-      "regions": 59,
-      "text_regions": 49,
-      "figures": 10,
-      "physical_listing_rows": 446,
-      "logical_listing_rows": 284,
-      "unresolved_entries": 69,
+      "regions": 30,
+      "text_regions": 24,
+      "figures": 6,
+      "physical_listing_rows": 47,
+      "logical_listing_rows": 2,
+      "unresolved_entries": 23,
       "complete_article": true,
       "checks": {
         "export_integrity": true,
@@ -27685,19 +28169,19 @@
       },
       "human_acceptance": "pending",
       "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-apple-ghost-source-index-45/source-index.json",
-        "sha256": "748990b4fa44208fac863c299286adf6fc6c8cfce3fa14ba6ee790f5f483310b",
-        "bytes": 1327142
+        "path": "build/pdf-restoration/13-1984-08-adaptive-debugging-room-source-index-46/source-index.json",
+        "sha256": "e3cef57f7e91b986c68afe66fea082f62062d9544fd60a51bdecbe5102a1ddc0",
+        "bytes": 483641
       },
       "source_validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-45/validation.json",
-        "sha256": "644d5102f5dfb296419c1d007f9dada02714e192e88fcf0b61caa690c397f70e",
-        "bytes": 1704
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/validation.json",
+        "sha256": "293f3242449e60ac6c0672d2dd757463ccb9f2c9f2567a522e401b9fbc48d4ac",
+        "bytes": 1760
       }
     },
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "action": "Source-verify 디버깅룸 actual extent beginning138 before mapping. Canonical139 복덕방 is a boundary hint only. Inspect adjacent source and actual correction/listing/figure layout; preserve source literals, errata relationships and uncertain glyphs without executing/repairing historical programs. Route clearproseT/densecodeQ with recorded bounded fallbacks, correct selected readings once, export/independentlyvalidate/commit. Two untouched bodies, four sealedpilots, informationheading and standaloneAugustJSON/assets closeout/requirementsaudit remain. Humanacceptance/fullproofreading/sourcebytes/execution unverified; no reading-room rebuild."
+    "action": "Restore 복덕방139 andupper140. Source boundary already verified against137–141 wholeviews: page140 endingmark precedes separator and lower ELI-TECT COPY방어 advertisement. Reinspect139/140 before mapping, preserve complete classifieds item/contact/value associations and source glyph uncertainties. Route coherent regions adaptively, correct selected readings once, export/independentlyvalidate/commit. One untouched body, four sealedpilots, informationheading and standaloneAugustJSON/assets closeout/requirementsaudit remain. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
