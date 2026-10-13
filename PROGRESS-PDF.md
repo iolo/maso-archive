@@ -14001,3 +14001,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   extent of 마이크로 컴퓨터 설계강좌221 before mapping. Remainingbodies/pilots/heading
   andstandalonewholeissueJSON/assetscloseout/requirementsaudit remain required.
   Goal remainsactive; no reading-room rebuild.
+
+
+## 2026-10-13 — August microcomputer-design221–226 raw checkpoint validated
+
+- Verified the full 마이크로 컴퓨터 설계강좌 extent221–236 from nineteen
+  source views220–238. Opening checkpoint38 covers221–226;227–236 and the
+  separate full article assembly remain required. Canonical0030/김덕우/parent0025
+  remain unchanged; source affiliation 서울대 제어계측공학과4 is retained.
+- Six native4000-pixel renders contain86 regions:73 text readings and13 original
+  images (eleven numbered figures, opening illustration and chapter strip).
+  Original dot grid is authoritative; its OCR companion covers only eight rows
+  of A/B hexadecimal values. No code listings occur in this opening checkpoint.
+- All43 original panels and six overlays were inspected. Thirty-seven distinct
+  regions were repaired before OCR in two retained revisions; all21 changed
+  final panels and six final overlays were inspected. Complete TV and register
+  diagrams now retain their lower/right components. All86 crops match source
+  pixels;292 text boundaries have zero glyph crossings and four decorative-rule
+  intersections. Original maps/crops, revision maps/crops and diagnostics retained.
+- All73 original drafts and39 bounded Qwen alternates were read. Tesseract lost
+  technical identifiers, units and value associations; each affected region received
+  one unchanged-crop alternate. Successful Qwen drafts were not repeated. Actual
+  calls59T/53Q; selected20T/53Q. Zero failures, retries, empty readings or probes.
+  Source spelling, printed model discrepancies, subscripts and overbars require
+  once-only correction. Drafts are not a corrected or human-accepted export.
+- Local Qwen tokens: 38,693 input/4,573 output/
+  43,266 total. Recognition155.120sQ/
+  23.628sT; worker102.559s.
+  Preparation, evaluation, alternate/selection and reporting durations remain
+  separate elapsed diagnostics. Local compute/tokens monetary weight0; paid
+  input ratio1:0.1; output rate and human active review effort remain unknown.
+- Independent raw/selected audits pass. Seals preserve852
+  original and954 selected/alternate files. All54 prior
+  production packages, native15–37 seals and16,790 pilot files remain unchanged.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-38/selected-raw-audit.json`.
+- Production remains26 complete/zero partial/seven untouched/four pending pilots/
+  five classified headings/one unclassified heading/zero human accepted;54 packages
+  unchanged. This is the18th historical raw milestone. Next: source correction,
+  indexes and opening export221–226, then227–236/full assembly. Remaining August
+  and standalone issue JSON/assets closeout/requirements audit are required.
+  Full proofreading, source bytes and execution remain unverified. No reader rebuild.
