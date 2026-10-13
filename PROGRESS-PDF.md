@@ -12656,3 +12656,52 @@ history remains in [PROGRESS.md](PROGRESS.md).
   and zero human accepted. Next: ending 134–137, then full 128–137 assembly.
   Whole-issue JSON/assets closeout, human acceptance/full proofreading, source
   encoded bytes and historical execution remain pending. No reading-room rebuild.
+
+
+## 2026-10-13 — August shape-table ending134–137 raw selection complete
+
+- Prepared ending 134–137 of 김선호’s 도형정의표의 정복, whose full
+  source-verified extent is 128–137. Four whole ending pages were reinspected;
+  the original fifteen-page extent and eleven outside-map lookups were reused
+  from exact pinned evidence. The batch preserves 113 regions, 99 selected text
+  drafts and 14 original figure assets. Twenty-nine code regions cover eight
+  independent BASIC programs and one monitor group; the color table occupies
+  two text regions. Physical row/cell/diagram counts await source correction.
+- All 30 original panels and four original overlays were inspected, followed
+  by all 27 first-revision panels, two second-revision panels, four final overlays
+  and three native boundary panels. Sixty-one distinct crops changed before OCR.
+  Skewed program rows were regrouped without clipping; terminal words remain
+  complete, and program 10’s source image retains its full frame and caption.
+  All 396 text edges pass: 14 residual crossings are inspected rules, borders,
+  an adjacent diagram circle/arrow or a pointer stem; none crosses a glyph.
+- One bounded Tesseract color-table probe lost values, color names and row
+  associations, so both structured regions retained Qwen. Original OCR completed
+  39 Qwen and 60 Tesseract drafts, plus the unselected Tesseract probe. All 99
+  drafts were read. Five empty headings and damaged command/address/method
+  identifiers triggered 17 bounded Qwen alternates, one per unchanged crop.
+  Fifteen were selected; two tiny grid-label alternates returned ILLEGIBLE and
+  remain unselected. Their original drafts need direct correction from the scan.
+  All calls stopped normally; no inference failures, retries or cache hits.
+- Actual calls: 56 Qwen / 61 Tesseract; selected regions: 54 Qwen / 45 Tesseract.
+  All 24,133 local Qwen tokens include 20,367 prompt and 3,766 output tokens,
+  including both unselected label readings. Tesseract recognition totals
+  10.503s, counting the probe once. Worker
+  80.049s, alternate worker 51.828s
+  and selection 0.082s are separate noncausal diagnostics.
+  Local monetary weight is zero; paid uncached/cached input retains 1:0.1
+  weighting and the output rate remains unknown.
+- Exact source/crop/map/request/runtime/model/bundle pins and stop outcomes pass.
+  Original 1,014-file and selected 857-file seals remain unchanged, alongside
+  all 33 prior production packages, native 15–24 raw/selected inventories and
+  16,790 pilot files. All 99 selected drafts are nonempty, but none is corrected
+  yet. Printed BASIC mistakes, cassette/disk command punctuation and address
+  contradictions still require source-linked literal review; no execution or
+  source encoded-byte certification. The earlier opening address-context
+  clarification remains unchanged.
+- Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-25/selected-raw-audit.json`,
+  `raw-ocr-audit.json` and `checkpoint-plan-selected.json` in that directory.
+  No ending production export exists. August remains 16 complete articles,
+  one partial shape-table article, 14 untouched bodies, six pilot selections
+  pending, two classified/four unclassified headings and zero human accepted.
+  Next: correct/index/export/validate ending 134–137, then assemble full 128–137.
+  Whole-issue JSON/assets closeout remains; no reading-room rebuild.
