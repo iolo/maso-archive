@@ -4635,3 +4635,41 @@ commit code/documentation. Do not count a partial opening as a complete article.
   restored; separate full207–213assembly remains required before articlecompletion.
   Remainingbodies/pilots/heading and standalonewholeissueJSON/assets closeout/
   requirementsaudit remain required. No reading-room rebuild; goal remainsactive.
+
+
+### August full meta-assembler207–213 assembled, 2026-10-13
+
+- Assembled full 메타어셈블러207–213 from immutable native36 opening207–212
+  andnative37 ending213 after endingcommit53b1159. All508 originalnative files
+  copiedexactly, including rawOCR/corrections/source metadata/images. Canonical0028/
+  title/한상기/parent0025/page207 unchanged; printedbyline/displaytitle retained.
+- FullJSON/assets retains131regions,120 exact regional/review ranges,113ordered
+  textblocks and11originalimages. Sixnativeprosejoins/sevenboundaries unchanged.
+  Source212ends inputtemplate/caption;213starts newoutputparagraph. No crossnative
+  prose orlistingjoin needed. Allnative metadata remains unchanged in segments.
+- Combinedsourceindex retains81diagramlabelranges/ten source diagrams,16bitpositions,
+  sevenclassificationedges,13definitions/56inlineexamples and39source flags. Header
+  example retains3rows/9cells/twoblanks. Figure9 retains17schematicrows/fourvertical
+  dotstacks; native group metadata explicitly retains incomplete/nonrunnable status.
+  All13asterisk directives andthree references retain global UTF-8 ranges with
+  printedAISM/GEN/Health/GENTRATING,colon-dot-colon/행 andphysical word/range wraps.
+- Independent fullcoverage/canonical/source ranges, copiednativefiles andbyte-identical
+  fullrebuild pass;53priorproductionpackages,native15–37raw/selectedseals and16,790
+  pilotfiles unchanged. Independent validator initially expected source_complete in
+  standardized assemblygroup; failedvalidator retained, now checks originalnative
+  metadata andretains fullsourcegroups in combinedindex. No export/source changes
+  or newOCR/mapping/rasterization/sharedpipeline/frontend/browser/reading-room work.
+- Fullproofreading/humanacceptance/sourceencodedbytes/historicalexecution remain
+  unverified. Original bitmaps remain authoritative for faintglyphs/formula/subscripts/
+  headerperiod/historicalerrors. Recognition costs countedonce; assembly/evaluation/
+  reporting separate elapsed diagnostics. Localcompute/tokens monetaryweight0;
+  paidinput1:0.1,outputrate/humanactiveeffort unknown; reportingtail nextaudit.
+- Export:`build/pdf-restoration/13-1984-08-adaptive/meta-assembler`.
+  Index:`build/pdf-restoration/13-1984-08-adaptive-meta-source-index/source-index.json`.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/meta-assembly-validation.json`.
+  August now26complete/zeropartial/sevenuntouched/fourpendingpilots/fiveclassified/
+  oneunclassifiedheading/zerohumanaccepted.54packages comprise37natives/13assemblies/
+  fourselections;all17historicalrawmilestones unchanged. Next source-verify actual
+  extent of 마이크로 컴퓨터 설계강좌221 before mapping. Remainingbodies/pilots/heading
+  andstandalonewholeissueJSON/assetscloseout/requirementsaudit remain required.
+  Goal remainsactive; no reading-room rebuild.
