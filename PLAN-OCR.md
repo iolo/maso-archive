@@ -4168,3 +4168,48 @@ commit code/documentation. Do not count a partial opening as a complete article.
   No reading-room rebuild. Paid input ratio1:0.1; output rate/human effort unknown.
   correction32 includes the intervening status/continuation handoff; elapsed window
   time is not active human effort. Reporting/commit after cutoff carries forward.
+
+
+### August 메아리189–194 raw checkpoint validated, 2026-10-13
+
+- Prepared remaining 메아리 contributions 1차 방정식189–193 and 키보드판 길
+  잃은 고양이194. Seven pinned wholeviews189–195 were individually reinspected;
+  exact full186–194 extent evidence from native32 reused. Earlier186–188 production
+  export5071990 remains unchanged. One outside-map lookup195. Lower194book ad and
+  separate195technical divider excluded; canonical0041/title/nullbyline/parent intact.
+- Six fresh4000-pixel renders support51 regions:42 text and nine source images,
+  comprising five BASIC page panels, one patch, one key table and two endmarks.
+  Seventeen program chunks cover272 printed BASIC rows; the patch retains eight
+  labels including3105 and physical address wraps. Table has four key/direction pairs.
+  The prose endmark189 does not terminate the continued program through1933710RETURN.
+- Reviewed all32 original panels,13 revised panels and both final header crops.
+  Twenty-one distinct regions adjusted before inference; two header cuts adjusted
+  a second time to exclude decorative rules. One tilted16-row pair190 merged into
+  a32-row chunk. All51 crop pixels and168 final text edges pass with zero crossings.
+  Two bootstrap/schema preparation failures and one raw-audit template failure are
+  preserved with original/unpromoted crops/scripts. No inference restarted for recovery.
+- Original21T/21Q calls completed without recognition failures,retries,empty drafts
+  or probes. All42 authoritative drafts read. T189prose/194byline lose words/name;
+  Q192r04 drops2790/2810 labels and shifts their strings; Q194table omits movement
+  column. One alternate each: threeQprose/byline readings selected, two corruptT
+  code/table alternates unselected. All five read and retained. Selected18T/24Q;
+  actual23T/24Q counted once. Q189alternate introduces SPC-100 versus visible
+  SPC-1000; source correction must retain this raw regression and restore the zero.
+  Ordinary artificial tabs/wraps, openquotes, U8/U9 and patch -16/368 need source
+  correction; no repeatedQ or whole-article dual correction performed.
+- Local Q usage30,820input/4,735output,
+  35,555total; recognition199.021sQ/
+  6.143sT. Worker216.333s,
+  alternate/selection durations remain separate noncausal diagnostics. Local compute
+  and model tokens have monetary weight0; paid input ratio1:0.1, output rate and
+  human active effort unmeasured. Recovery/preparation/review costs remain visible.
+- Original/selected audits pass and seals retain713 original/356 selected and
+  alternate files. All45 prior production packages,native15–32 raw/selected seals
+  and16,790 pilot files unchanged. Evidence:
+  `private/pdf-restoration/13-1984-08-adaptive/batch-33/selected-raw-audit.json`.
+- Raw checkpoint only: once-only source correction, indexes and189–194 export
+  pending, followed by full186–194 assembly. August production remains22 complete,
+  one partial,nine untouched bodies,five pending pilots,three classified/three
+  unclassified headings and zero human accepted;45 packages unchanged. All other
+  bodies,pilots,headings and standalone issueJSON/assets closeout remain required.
+  Full proofreading/source bytes/execution unverified. No reading-room rebuild.
