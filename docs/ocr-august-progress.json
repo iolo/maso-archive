@@ -15,16 +15,15 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-partial-human-pending": 1,
-    "assistant-restored-human-pending": 26,
+    "assistant-restored-human-pending": 27,
     "sealed-pilot-review-pending": 4,
     "section-heading-no-body": 5,
     "unclassified-heading": 1,
     "untouched": 6
   },
   "sealed_pilot_articles": 4,
-  "production_complete_articles": 26,
-  "production_partial_articles": 1,
+  "production_complete_articles": 27,
+  "production_partial_articles": 0,
   "untouched_articles": 6,
   "unclassified_heading_entries": 1,
   "classified_heading_entries": 5,
@@ -18502,6 +18501,169 @@
         "all_raw_and_selected_inventories_unchanged": true
       },
       "scope": "Fullmeta207–213 complete underJSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "toc_entry_id": "maso-1984-08-toc-0030",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/microcomputer-design/article.json",
+        "sha256": "1aca3a9d4a60323688ac9e3701cc4a8856c20865a02c05b176b02539fef0e86b",
+        "bytes": 519562
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/microcomputer-design/manifest.json",
+        "sha256": "f657631e9d2a8fb11d5241108e3da8ade4575565540770be4feeec0d57762149",
+        "bytes": 201929
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-assembly-recipe.json",
+        "sha256": "2cd95a65edf74c283fd0ac5f2956c441d0845329983c19f1e037c1864c4406d6",
+        "bytes": 5462
+      },
+      "pdf_pages": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
+      ],
+      "segments": [
+        {
+          "name": "opening",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/manifest.json",
+            "sha256": "fb3db421ce1bf9175e59e88cade5b84168bf1b46451c19b26d496135a672088f",
+            "bytes": 51818
+          }
+        },
+        {
+          "name": "middle",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/manifest.json",
+            "sha256": "039dd85b4df8b2c6822e5aa99bf774d6043cad454c2e3cd71533d409004957ca",
+            "bytes": 66990
+          }
+        },
+        {
+          "name": "ending",
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/manifest.json",
+            "sha256": "e23234c65c593236cf89898643c8f7164882d3c386a49d24ce141dd15d2e90c7",
+            "bytes": 63945
+          }
+        }
+      ],
+      "native_validations": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json",
+          "sha256": "0bbe51567d359a9bfc8128aa38f4c18392dfaf6b7cd1a8367815306445f96a4d",
+          "bytes": 1828
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/validation.json",
+          "sha256": "ba945dd4cc275531d8e863e541cf1d5bafe2cf26e3fc455d7ed8f78b5952f888",
+          "bytes": 1614
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/validation.json",
+          "sha256": "af590f20e3242913c88c1f3bd372bb20dcce6daa32080dbeb0702d549ce875f4",
+          "bytes": 1650
+        }
+      ],
+      "native_indexes": [
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json",
+          "sha256": "93472ea69c6c3cbb2fc01cdb4f2069a48b88cb24e6554c443bbe98c0459c4c53",
+          "bytes": 245310
+        },
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39/source-index.json",
+          "sha256": "b6dddce93d4a6470a6973875656148f6df5a9c713222240c64534b1ec79beb0f",
+          "bytes": 1121888
+        },
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-40/source-index.json",
+          "sha256": "78393a7f78a739bffcb35ca39f76757ddad4069a5ef8dbd41fbb2bba25e2ad05",
+          "bytes": 3241724
+        }
+      ],
+      "boundary_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-assembly-boundary-inspection.json",
+        "sha256": "9811185cc9aa7fd328ab0e1cadd5c23954fcd6b45b835e9be602c827f66d15b3",
+        "bytes": 4729
+      },
+      "boundary_adapter": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-boundary-adapter.py",
+        "sha256": "75626f57bb395580ba793eade81d86266786b03c25a832a6797339d127d35fdc",
+        "bytes": 3523
+      },
+      "regions": 295,
+      "text_regions": 261,
+      "figures": 34,
+      "ordered_blocks": 239,
+      "text_review_items": 261,
+      "native_prose_joins": 15,
+      "native_prose_boundaries": 21,
+      "cross_segment_prose_joins": 1,
+      "intervening_objects": 13,
+      "physical_listing_rows": 172,
+      "logical_listing_rows": 35,
+      "wrapped_listing_rows": 4,
+      "listing_groups": 3,
+      "table_data_rows": 108,
+      "table_data_cells": 450,
+      "table_header_rows": 7,
+      "table_header_cells": 30,
+      "table_blank_cells": 14,
+      "table_header_blank_cells": 8,
+      "diagram_label_ranges": 752,
+      "component_pin_ranges": 261,
+      "inline_examples": 2411,
+      "definitions": 14,
+      "hex_dump_values": 1584,
+      "keyboard_code_values": 320,
+      "keyboard_cap_fields": 72,
+      "bibliographic_references": 4,
+      "unresolved_entries": 140,
+      "copied_native_files": 1103,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index/source-index.json",
+        "sha256": "361b006b5c230f858c4ad5b4f3eb0abf532a851df1f3379c504c5dc54f8d9f6e",
+        "bytes": 8039152
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "aligned_number_column_and_wrap_ownership": true,
+        "table_global_rows_and_cells": true,
+        "rich_source_global_ranges": true,
+        "source_interruption_order": true,
+        "pinned_boundary_negative_checks": true,
+        "prior_production_packages_verified": 57,
+        "preserved_pilot_files": 16790,
+        "sealed_raw_and_selected_files_verified": 33500,
+        "all_raw_and_selected_inventories_unchanged": true
+      },
+      "scope": "Full221–236 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/electricaltopology/execution unverified."
     }
   ],
   "production_selections": [
@@ -23197,7 +23359,7 @@
       "page": 221,
       "kind": "article",
       "articleIds": [],
-      "status": "assistant-partial-human-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
       "pilot_pair": null,
       "segments": [
@@ -23267,7 +23429,175 @@
         236
       ],
       "deferred_pdf_pages": [],
-      "assembly_required": true
+      "assembly_required": false,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/microcomputer-design/article.json",
+        "sha256": "1aca3a9d4a60323688ac9e3701cc4a8856c20865a02c05b176b02539fef0e86b",
+        "bytes": 519562
+      },
+      "assembly": {
+        "toc_entry_id": "maso-1984-08-toc-0030",
+        "engine": "mixed",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/microcomputer-design/article.json",
+          "sha256": "1aca3a9d4a60323688ac9e3701cc4a8856c20865a02c05b176b02539fef0e86b",
+          "bytes": 519562
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/microcomputer-design/manifest.json",
+          "sha256": "f657631e9d2a8fb11d5241108e3da8ade4575565540770be4feeec0d57762149",
+          "bytes": 201929
+        },
+        "recipe": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-assembly-recipe.json",
+          "sha256": "2cd95a65edf74c283fd0ac5f2956c441d0845329983c19f1e037c1864c4406d6",
+          "bytes": 5462
+        },
+        "pdf_pages": [
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236
+        ],
+        "segments": [
+          {
+            "name": "opening",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/manifest.json",
+              "sha256": "fb3db421ce1bf9175e59e88cade5b84168bf1b46451c19b26d496135a672088f",
+              "bytes": 51818
+            }
+          },
+          {
+            "name": "middle",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/manifest.json",
+              "sha256": "039dd85b4df8b2c6822e5aa99bf774d6043cad454c2e3cd71533d409004957ca",
+              "bytes": 66990
+            }
+          },
+          {
+            "name": "ending",
+            "manifest": {
+              "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/manifest.json",
+              "sha256": "e23234c65c593236cf89898643c8f7164882d3c386a49d24ce141dd15d2e90c7",
+              "bytes": 63945
+            }
+          }
+        ],
+        "native_validations": [
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json",
+            "sha256": "0bbe51567d359a9bfc8128aa38f4c18392dfaf6b7cd1a8367815306445f96a4d",
+            "bytes": 1828
+          },
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/validation.json",
+            "sha256": "ba945dd4cc275531d8e863e541cf1d5bafe2cf26e3fc455d7ed8f78b5952f888",
+            "bytes": 1614
+          },
+          {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/validation.json",
+            "sha256": "af590f20e3242913c88c1f3bd372bb20dcce6daa32080dbeb0702d549ce875f4",
+            "bytes": 1650
+          }
+        ],
+        "native_indexes": [
+          {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json",
+            "sha256": "93472ea69c6c3cbb2fc01cdb4f2069a48b88cb24e6554c443bbe98c0459c4c53",
+            "bytes": 245310
+          },
+          {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39/source-index.json",
+            "sha256": "b6dddce93d4a6470a6973875656148f6df5a9c713222240c64534b1ec79beb0f",
+            "bytes": 1121888
+          },
+          {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-40/source-index.json",
+            "sha256": "78393a7f78a739bffcb35ca39f76757ddad4069a5ef8dbd41fbb2bba25e2ad05",
+            "bytes": 3241724
+          }
+        ],
+        "boundary_inspection": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-assembly-boundary-inspection.json",
+          "sha256": "9811185cc9aa7fd328ab0e1cadd5c23954fcd6b45b835e9be602c827f66d15b3",
+          "bytes": 4729
+        },
+        "boundary_adapter": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-boundary-adapter.py",
+          "sha256": "75626f57bb395580ba793eade81d86266786b03c25a832a6797339d127d35fdc",
+          "bytes": 3523
+        },
+        "regions": 295,
+        "text_regions": 261,
+        "figures": 34,
+        "ordered_blocks": 239,
+        "text_review_items": 261,
+        "native_prose_joins": 15,
+        "native_prose_boundaries": 21,
+        "cross_segment_prose_joins": 1,
+        "intervening_objects": 13,
+        "physical_listing_rows": 172,
+        "logical_listing_rows": 35,
+        "wrapped_listing_rows": 4,
+        "listing_groups": 3,
+        "table_data_rows": 108,
+        "table_data_cells": 450,
+        "table_header_rows": 7,
+        "table_header_cells": 30,
+        "table_blank_cells": 14,
+        "table_header_blank_cells": 8,
+        "diagram_label_ranges": 752,
+        "component_pin_ranges": 261,
+        "inline_examples": 2411,
+        "definitions": 14,
+        "hex_dump_values": 1584,
+        "keyboard_code_values": 320,
+        "keyboard_cap_fields": 72,
+        "bibliographic_references": 4,
+        "unresolved_entries": 140,
+        "copied_native_files": 1103,
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index/source-index.json",
+          "sha256": "361b006b5c230f858c4ad5b4f3eb0abf532a851df1f3379c504c5dc54f8d9f6e",
+          "bytes": 8039152
+        },
+        "human_acceptance": "pending",
+        "checks": {
+          "status": "passed",
+          "full_source_coverage": true,
+          "canonical_identity": true,
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "all_review_ranges": true,
+          "source_segments_immutable": true,
+          "all_original_metadata_unchanged": true,
+          "listing_bytes_native_concatenation": true,
+          "aligned_number_column_and_wrap_ownership": true,
+          "table_global_rows_and_cells": true,
+          "rich_source_global_ranges": true,
+          "source_interruption_order": true,
+          "pinned_boundary_negative_checks": true,
+          "prior_production_packages_verified": 57,
+          "preserved_pilot_files": 16790,
+          "sealed_raw_and_selected_files_verified": 33500,
+          "all_raw_and_selected_inventories_unchanged": true
+        },
+        "scope": "Full221–236 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/electricaltopology/execution unverified."
+      }
     },
     {
       "id": "maso-1984-08-toc-0031",
@@ -24000,217 +24330,181 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "status": "full-microcomputer-design-assembly-required",
-    "kind": "segment-assembly",
-    "toc_entry_id": "maso-1984-08-toc-0030",
-    "article_extent_verified": true,
-    "source_pages": [
-      221,
-      222,
-      223,
-      224,
-      225,
-      226,
-      227,
-      228,
-      229,
-      230,
-      231,
-      232,
-      233,
-      234,
-      235,
-      236
-    ],
-    "deferred_pages": [],
-    "native_inputs": [
-      {
-        "batch": "batch-38",
-        "source_pages": [
-          221,
-          222,
-          223,
-          224,
-          225,
-          226
-        ],
-        "export": {
-          "package": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/article.json",
-            "sha256": "6c2425f2c2c63c87a4aad690b6ac17c9e584cf699521199eef9f27f1120aeeff",
-            "bytes": 140701
-          },
+    "batch": 41,
+    "status": "RECALC-source-extent-inspection-pending",
+    "kind": "native-restoration",
+    "toc_entry_id": "maso-1984-08-toc-0032",
+    "canonical_title": "RECALC",
+    "canonical_byline": "심명섭",
+    "canonical_parent_id": "maso-1984-08-toc-0031",
+    "canonical_first_page": 240,
+    "article_extent_verified": false,
+    "last_completed_article": {
+      "toc_entry_id": "maso-1984-08-toc-0030",
+      "engine": "mixed",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/microcomputer-design/article.json",
+        "sha256": "1aca3a9d4a60323688ac9e3701cc4a8856c20865a02c05b176b02539fef0e86b",
+        "bytes": 519562
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/microcomputer-design/manifest.json",
+        "sha256": "f657631e9d2a8fb11d5241108e3da8ade4575565540770be4feeec0d57762149",
+        "bytes": 201929
+      },
+      "recipe": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-assembly-recipe.json",
+        "sha256": "2cd95a65edf74c283fd0ac5f2956c441d0845329983c19f1e037c1864c4406d6",
+        "bytes": 5462
+      },
+      "pdf_pages": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
+      ],
+      "segments": [
+        {
+          "name": "opening",
           "manifest": {
             "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/manifest.json",
             "sha256": "fb3db421ce1bf9175e59e88cade5b84168bf1b46451c19b26d496135a672088f",
             "bytes": 51818
-          },
-          "source_pages": [
-            221,
-            222,
-            223,
-            224,
-            225,
-            226
-          ],
-          "regions": 86,
-          "text_regions": 73,
-          "figures": 13,
-          "physical_listing_rows": 0,
-          "logical_listing_rows": 0,
-          "unresolved_entries": 24,
-          "complete_article": false,
-          "checks": {
-            "export_integrity": true,
-            "byte_identical_rebuild": true,
-            "text_and_review_utf8_ranges": true,
-            "listing_byte_coverage": true,
-            "explicit_printed_line_numbers": true
-          },
-          "human_acceptance": "pending",
-          "source_index": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json",
-            "sha256": "93472ea69c6c3cbb2fc01cdb4f2069a48b88cb24e6554c443bbe98c0459c4c53",
-            "bytes": 245310
-          },
-          "source_validation": {
-            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json",
-            "sha256": "0bbe51567d359a9bfc8128aa38f4c18392dfaf6b7cd1a8367815306445f96a4d",
-            "bytes": 1828
           }
-        }
-      },
-      {
-        "batch": "batch-39",
-        "source_pages": [
-          227,
-          228,
-          229,
-          230,
-          231,
-          232
-        ],
-        "export": {
-          "package": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/article.json",
-            "sha256": "13f0efbcc7c7269066061d06e326a1979fe233602d378987dc8372645ac1ad02",
-            "bytes": 183633
-          },
+        },
+        {
+          "name": "middle",
           "manifest": {
             "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/manifest.json",
             "sha256": "039dd85b4df8b2c6822e5aa99bf774d6043cad454c2e3cd71533d409004957ca",
             "bytes": 66990
-          },
-          "source_pages": [
-            227,
-            228,
-            229,
-            230,
-            231,
-            232
-          ],
-          "regions": 108,
-          "text_regions": 96,
-          "figures": 12,
-          "physical_listing_rows": 0,
-          "logical_listing_rows": 0,
-          "unresolved_entries": 74,
-          "complete_article": false,
-          "checks": {
-            "export_integrity": true,
-            "byte_identical_rebuild": true,
-            "text_and_review_utf8_ranges": true,
-            "listing_byte_coverage": true,
-            "explicit_printed_line_numbers": true
-          },
-          "human_acceptance": "pending",
-          "source_index": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39/source-index.json",
-            "sha256": "b6dddce93d4a6470a6973875656148f6df5a9c713222240c64534b1ec79beb0f",
-            "bytes": 1121888
-          },
-          "source_validation": {
-            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/validation.json",
-            "sha256": "ba945dd4cc275531d8e863e541cf1d5bafe2cf26e3fc455d7ed8f78b5952f888",
-            "bytes": 1614
           }
-        }
-      },
-      {
-        "batch": "batch-40",
-        "source_pages": [
-          233,
-          234,
-          235,
-          236
-        ],
-        "export": {
-          "package": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/article.json",
-            "sha256": "362930be9bd4cde4886fcf9e791db613de6bcd0a6c8f52837662d71aeda8e697",
-            "bytes": 166522
-          },
+        },
+        {
+          "name": "ending",
           "manifest": {
             "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/manifest.json",
             "sha256": "e23234c65c593236cf89898643c8f7164882d3c386a49d24ce141dd15d2e90c7",
             "bytes": 63945
-          },
-          "source_pages": [
-            233,
-            234,
-            235,
-            236
-          ],
-          "regions": 101,
-          "text_regions": 92,
-          "figures": 9,
-          "physical_listing_rows": 172,
-          "logical_listing_rows": 35,
-          "unresolved_entries": 42,
-          "complete_article": false,
-          "checks": {
-            "export_integrity": true,
-            "byte_identical_rebuild": true,
-            "text_and_review_utf8_ranges": true,
-            "listing_byte_coverage": true,
-            "explicit_printed_line_numbers": true
-          },
-          "human_acceptance": "pending",
-          "source_index": {
-            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-40/source-index.json",
-            "sha256": "78393a7f78a739bffcb35ca39f76757ddad4069a5ef8dbd41fbb2bba25e2ad05",
-            "bytes": 3241724
-          },
-          "source_validation": {
-            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/validation.json",
-            "sha256": "af590f20e3242913c88c1f3bd372bb20dcce6daa32080dbeb0702d549ce875f4",
-            "bytes": 1650
           }
         }
-      }
-    ],
+      ],
+      "native_validations": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json",
+          "sha256": "0bbe51567d359a9bfc8128aa38f4c18392dfaf6b7cd1a8367815306445f96a4d",
+          "bytes": 1828
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/validation.json",
+          "sha256": "ba945dd4cc275531d8e863e541cf1d5bafe2cf26e3fc455d7ed8f78b5952f888",
+          "bytes": 1614
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/validation.json",
+          "sha256": "af590f20e3242913c88c1f3bd372bb20dcce6daa32080dbeb0702d549ce875f4",
+          "bytes": 1650
+        }
+      ],
+      "native_indexes": [
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json",
+          "sha256": "93472ea69c6c3cbb2fc01cdb4f2069a48b88cb24e6554c443bbe98c0459c4c53",
+          "bytes": 245310
+        },
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39/source-index.json",
+          "sha256": "b6dddce93d4a6470a6973875656148f6df5a9c713222240c64534b1ec79beb0f",
+          "bytes": 1121888
+        },
+        {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-40/source-index.json",
+          "sha256": "78393a7f78a739bffcb35ca39f76757ddad4069a5ef8dbd41fbb2bba25e2ad05",
+          "bytes": 3241724
+        }
+      ],
+      "boundary_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-assembly-boundary-inspection.json",
+        "sha256": "9811185cc9aa7fd328ab0e1cadd5c23954fcd6b45b835e9be602c827f66d15b3",
+        "bytes": 4729
+      },
+      "boundary_adapter": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-boundary-adapter.py",
+        "sha256": "75626f57bb395580ba793eade81d86266786b03c25a832a6797339d127d35fdc",
+        "bytes": 3523
+      },
+      "regions": 295,
+      "text_regions": 261,
+      "figures": 34,
+      "ordered_blocks": 239,
+      "text_review_items": 261,
+      "native_prose_joins": 15,
+      "native_prose_boundaries": 21,
+      "cross_segment_prose_joins": 1,
+      "intervening_objects": 13,
+      "physical_listing_rows": 172,
+      "logical_listing_rows": 35,
+      "wrapped_listing_rows": 4,
+      "listing_groups": 3,
+      "table_data_rows": 108,
+      "table_data_cells": 450,
+      "table_header_rows": 7,
+      "table_header_cells": 30,
+      "table_blank_cells": 14,
+      "table_header_blank_cells": 8,
+      "diagram_label_ranges": 752,
+      "component_pin_ranges": 261,
+      "inline_examples": 2411,
+      "definitions": 14,
+      "hex_dump_values": 1584,
+      "keyboard_code_values": 320,
+      "keyboard_cap_fields": 72,
+      "bibliographic_references": 4,
+      "unresolved_entries": 140,
+      "copied_native_files": 1103,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index/source-index.json",
+        "sha256": "361b006b5c230f858c4ad5b4f3eb0abf532a851df1f3379c504c5dc54f8d9f6e",
+        "bytes": 8039152
+      },
+      "human_acceptance": "pending",
+      "checks": {
+        "status": "passed",
+        "full_source_coverage": true,
+        "canonical_identity": true,
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "all_review_ranges": true,
+        "source_segments_immutable": true,
+        "all_original_metadata_unchanged": true,
+        "listing_bytes_native_concatenation": true,
+        "aligned_number_column_and_wrap_ownership": true,
+        "table_global_rows_and_cells": true,
+        "rich_source_global_ranges": true,
+        "source_interruption_order": true,
+        "pinned_boundary_negative_checks": true,
+        "prior_production_packages_verified": 57,
+        "preserved_pilot_files": 16790,
+        "sealed_raw_and_selected_files_verified": 33500,
+        "all_raw_and_selected_inventories_unchanged": true
+      },
+      "scope": "Full221–236 complete under JSON/assets scope. RemainingAugust incomplete; humanacceptance/fullproofreading/sourcebytes/electricaltopology/execution unverified."
+    },
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "action": "Aligned assembly projection is validated against exact native38–40: 172physical/35logical/four machine-byte wraps, all57priorpackages and allsealed evidence unchanged. Reuse aligned-assembly-listing-v1 for full221–236assembly. Source226→227 register entries are separate paragraphs; reinspect exact boundarycrops. Verify232→233 CRT+C and explicitly retain runningheader, dumpimage, nine codeblocks, user-defined companion note andcaption between source endpoints. Preserve allnative metadata andindependentlyproject completeglobal indexes; verifyfullrebuild beforepromotion. Then restore sixuntouched articles, correct/export foursealedpilots, classify informationheading andcomplete AuguststandaloneJSON/assets closeout/requirementsaudit. No newOCR orreading-room rebuild forassembly.",
-    "aligned_listing_adapter": {
-      "status": "validated",
-      "index_mode": "aligned-assembly-listing-v1",
-      "validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-aligned-adapter/validation.json",
-        "sha256": "b0f7a5d294d6b4aa8feadca32c3a40c37f4431f70d544ceb7e8ca3a4e8a968ba",
-        "bytes": 5575
-      },
-      "pdf_tests": 135,
-      "physical_rows": 172,
-      "logical_rows": 35,
-      "wrap_rows": 4,
-      "wrap_owners": [
-        27,
-        28,
-        31,
-        32
-      ]
-    }
+    "action": "Commit fullmicrocomputer221–236 then source-verify RECALC actualextent beginning240. NextcanonicalUFO246 is onlyboundaryhint; inspect neighboring pages/title/terminalmark and sourcecontinuity beforemapping. Use adaptiveTclearprose/Qdensecode/formulas/structuredvalues and boundedfallback rules, preserving successful evidence, allraw attempts/crops, once-only correction/literals/uncertainties andcost provenance. Independentlyvalidate sourceindexes/byte-identical rebuild andcommit. Sixuntouched bodies/fourpendingsealedpilots/oneheading andAuguststandaloneJSON/assetscloseout/requirementsaudit remain. Humanacceptance/fullproofreading/sourcebytes/execution pending. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {

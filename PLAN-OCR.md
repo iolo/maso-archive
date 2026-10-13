@@ -4961,3 +4961,43 @@ commit code/documentation. Do not count a partial opening as a complete article.
   fullproofreading, sourceencodedbytes andhistoricalexecution remain unverified.
   Local compute/tokens monetaryweight0; input ratio1:0.1, outputrate/human active
   effort unknown. Elapsed tooling/reporting includes waits; tail enters nextaudit.
+
+
+### August full microcomputer-design221–236 assembled, 2026-10-14
+
+- Assembled full 마이크로 컴퓨터 설계강좌221–236 from immutable natives38–40,
+  after endingcommit2207a70 andlisting-adaptercommitda21960. All1,103 original
+  package files copiedexactly; canonical0030/title/김덕우/parent0025/page221 unchanged.
+- FullJSON/assets retains295regions,261 regional/review ranges,239 ordered blocks
+  and34 originalimages. Fifteen nativeprosejoins/twenty-one boundaries remain.
+  Source R4/R5 entries226→227 are separate paragraphs. Source232CRT+233C joins
+  without addedspace across13 explicit runningheader/dump/code/note/caption objects.
+- Listing bytes remainexact:128 dumpaddress rows/1,584 printedvalues/29 blankrows;
+  alignedassembly35 logical/39 physical rows with four bytewraps27/28/31/32;
+  independentreadbackfive rows. Total172 physicalrows/threegroups. The opt-in
+  third-column projection preserves native rows andall original listing metadata.
+- Independent globalindexes retain108 tabledata rows/450cells/14 blanks,seven
+  headerrows/30cells/eight headerblanks,752diagramlabels/261pin ranges,40CRTCpins,
+  64keyboardpositions,320keyboardcodes/72capfields,fourreferences,14definitions,
+  2,411inlineexamples,582Unicode candidates and140source flags. All native metadata
+  remains inspectable; blank/unreadable/graphic candidates andprinted errors retained.
+- Sourcecoverage/canonical identity/exact UTF-8/caption/table/code/pin/key/reference
+  indexes andbyte-identical freshfullrebuild pass. All57 prior productionpackages,
+  16,790pilotfiles and33,500sealedraw/selectedfiles unchanged. Passing135-test
+  baseline reused. Pinnedboundary negativechecks reject order/omission/sourcechanges.
+  Initial pre-export adapterassertion expected the companion-note regionalreading
+  to include the block's terminalnewline; failedadapter/inspection/attempt retained,
+  assertion corrected to the exact native convention. No source/export/OCR repair.
+- Export:`build/pdf-restoration/13-1984-08-adaptive/microcomputer-design`.
+  Index:`build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index/source-index.json`.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/microcomputer-assembly-validation.json`.
+  August now27complete/zeropartial/sixuntouched/fourpendingpilots/fiveclassified
+  headings/oneunclassifiedheading/zerohumanaccepted.58 packages comprise40natives/
+  14assemblies/fourselections;all20 historicalrawmilestones unchanged.
+- Next source-verify RECALC240 actualextent beforemapping;246 is onlyboundaryhint.
+  Remaining sixbodies/fourpilots/heading andstandalonewholeissueJSON/assetscloseout/
+  requirementsaudit remain. No newOCR/mapping/rasterization/sharedpipeline/frontend/
+  browser/reading-room work. Humanacceptance/fullproofreading/encodedbytes/electrical
+  topology/historicalexecution remainunverified. Localcompute/tokens monetaryweight0;
+  paidinput1:0.1,outputrate/humanactiveeffort unknown;elapsed includeswaits andtail
+  reporting/commit/response entersnextaudit. Goal remainsactive.
