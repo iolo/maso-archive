@@ -12827,3 +12827,26 @@ history remains in [PROGRESS.md](PROGRESS.md).
   six pilot selections pending, two classified/four unclassified headings and
   zero human accepted. Next: map/native-crop-check/recognize the complete141–145
   report. Whole-issue JSON/assets closeout remains; no reading-room rebuild.
+
+
+## 2026-10-13 — August Japanese exhibition report141–145 crop gate passed
+
+- The complete141–145 Japanese microcomputer exhibition report now has52
+  reviewed source regions:44 clear-text regions and eight preserved photographs,
+  including two independent pull quotes. Tesseract is assigned to all44 text
+  regions; no preparation probe or Qwen call was required.
+- Five original overlays, all15 first revised panels, second-revision panel10,
+  and all five final overlays were individually inspected. The original15
+  panels are preserved without a claim of individual review. Twenty-one distinct
+  regions were revised before OCR; the OFFICE PAK crop received a second edge
+  adjustment. Both revision records and original crops remain preserved.
+- All52 final crops match the pinned native source pixels. The176 text-edge
+  checks report zero crossings. Canonical identity, three-column order, Epson
+  and Oki continuations, original model spellings and the concluding ellipsis
+  remain source-linked. Eight photograph assets will retain their source content.
+- Crop gate: `private/pdf-restoration/13-1984-08-adaptive/batch-26/preflight-acceptance.json`.
+  Recognition, source correction and export remain pending. August remains17
+  restored, zero partials,14 untouched bodies, six pilot selections pending,
+  two classified/four unclassified headings and zero human accepted.
+- Next:44 Tesseract drafts, one source-based correction pass, complete141–145
+  JSON/assets export and independent validation. No reading-room rebuild.

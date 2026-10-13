@@ -8874,7 +8874,7 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": 26,
-    "status": "japan-microcomputers-source-extent-verified-mapping-pending",
+    "status": "japan-microcomputers-141-145-crop-gate-passed-recognition-pending",
     "toc_entry_id": "maso-1984-08-toc-0020",
     "canonical_title": "읽을 거리 : 일본 마이크로 컴퓨터의 현황",
     "canonical_byline": "이홍철",
@@ -9167,7 +9167,7 @@
       "scope": "Full shape-table article128–137 complete under JSON/assets scope. Whole August remains incomplete; human acceptance/full proofreading/source bytes/execution unverified."
     },
     "next_listed_article_page_provisional": 155,
-    "action": "Map the complete verified141–145 report as one five-page batch. Preserve canonical0020 title/byline/parent, eight original photographs and two pull quotes. Keep three-column reading order and vendor subsections coherent, including143/144 Epson and144 Oki column continuations. UseT for clear prose/headings/editorial introduction/pull quotes; reassess genuinely difficult crops before inference and use only bounded fallback on identifier/reading-order failures. Render native crops and inspect every panel/overlay/edge before recognition. Preserve all raw calls/probes/crop revisions/costs, correct selected drafts once, then export/index/independently validate before recording a restored article. Next distinct listed article information-radar155 extent remains to be verified for its own batch. Continue remaining August bodies, pilots, heading classifications and whole-issue JSON/assets closeout. No reading-room rebuild.",
+    "action": "Recognize all44 clear-text regions with Tesseract and preserve eight original photographs. Start no Qwen server for the all-T route. Retain immutable raw drafts/settings/timings; inspect identifier and reading-order failures and use only justified bounded fallback. Correct selected drafts once against scans, retain two pull quotes and source continuations, export/index/independently validate the complete141–145 article, then record restoration. Continue remaining August bodies, pilots, heading classifications and whole-issue JSON/assets closeout. No reading-room rebuild.",
     "previous_goal_turn_classification": "progress: previous turn completed and committed full shape-table128–137 assembly. This turn individually inspected17source views and verified a five-page Japanese exhibition report141–145, excluding all intervening advertisements.",
     "human_acceptance": "pending",
     "source_bytes_verified": false,
@@ -9192,7 +9192,23 @@
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/extent-inspection.json",
       "sha256": "91c90e59c9fa8ff8b0e717fbd1ae567a767ddd5af178da760aafea24a8deec54",
       "bytes": 11357
-    }
+    },
+    "crop_gate": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/preflight-acceptance.json",
+      "sha256": "989e01eb346ee208491df366f5a78033415088f1c452308144d31373a9f28d1f",
+      "bytes": 644
+    },
+    "preflight_source_review": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/preflight-source-review.json",
+      "sha256": "72ebd0d4fa207f6d9871ce32d3988052477518788a6177263d2a7223072ccf7a",
+      "bytes": 15057
+    },
+    "regions": 52,
+    "text_regions": 44,
+    "figures": 8,
+    "planned_tesseract_regions": 44,
+    "planned_qwen_regions": 0,
+    "actual_ocr_calls": 0
   },
   "raw_preparation_checkpoints": [
     {
