@@ -14951,3 +14951,51 @@ history remains in [PROGRESS.md](PROGRESS.md).
   tokens have zero monetary weight; paid input ratio1:0.1, output price and active
   human effort unknown. Elapsed windows are diagnostics; commit/response costs
   enter the next audit. No reading-room rebuild.
+
+
+## 2026-10-14 — August 공모총평237 pilot promoted
+
+- Promoted complete 공모총평 on source237 from sealed Qwen pilot aug-03-A
+  into a separate production revision. Canonical entry0042, null byline, parent0036
+  and first page237 remain unchanged. Printed 편집부 credit, source label and long
+  display title remain content, separate from canonical identity. Source236 ends
+  the prior microcomputer article;238 is a separate framed publisher solicitation.
+  The results caption/table below the prose ending mark are included in237.
+- Reinspected all17 corrected text crops in nine panels, the original ending mark
+  and three whole-page views. All17 selected transcriptions and full article.txt
+  bytes remain identical to the sealed Qwen pilot. Both independent arms remain
+  unchanged. Source reinspection confirms printed 운석해 rather than Tesseract's
+  윤석해. The table's 회/희 name remains uncertain; model agreement is not human
+  acceptance. No routine paired correction, new OCR or crop repair was performed.
+- Eighteen regions retain17 ordered blocks,17 regional/review ranges and one
+  original image. The six-column results table preserves six headers and four
+  data rows/24 cells, including the empty third-row occupation cell. Every cell
+  and the table caption have exact byte ranges. Five printed submission-count
+  spans preserve4/6/2/1 and total13 without inferring or repairing values.
+- Printed PASS-WORD로 포함 and 운석해, source 윤 석민 beside the 사과 귀신
+  reference and the DCG July correction remain literal. Canonical article/byline
+  identities and earlier July packages are not rewritten. Seven source flags
+  retain the original name/wording uncertainties and explicit preservation notes.
+  Source encoded bytes and full human proofreading remain unverified.
+- Independent source-pixel/raw/settings/native-Qwen checks, all text/table/caption/
+  count ranges and a fresh byte-identical rebuild pass. All113 copied immutable
+  evidence files,67 prior production packages, native15–47 raw/selected seals and
+  16,790 pilot files remain unchanged. Original pilot metadata/review notes remain
+  embedded separately. A private validator assertion assumed no terminal newline
+  on the table block; the helper also needed the older pilot request/response
+  layout. Its failed version/diagnostic are preserved. No source, raw, correction
+  or export bytes changed during recovery. Shared pipeline unchanged; its pinned
+  passing135-test baseline is reused.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/contest-review`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-contest-review-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation.json`.
+  August now has35 complete articles, zero partials or untouched bodies, two
+  pending pilots, five classified headings, one unclassified heading and zero
+  human acceptances. Its68 packages comprise47 natives,15 assemblies and six
+  selections; all24 historical raw milestones remain unchanged. Next: inspect
+  the Q&A aug-08 pilot, resolve aug-07 and 정보모음, then standalone issue JSON/
+  assets closeout and requirements audit. Old pilot recognition/correction costs
+  are not counted again. Local compute/tokens have zero monetary weight; paid
+  input ratio1:0.1, output price and active human effort unknown. Elapsed windows
+  include helper recovery as a diagnostic; commit/response costs enter the next
+  audit. No reading-room rebuild.

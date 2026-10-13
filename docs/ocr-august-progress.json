@@ -15,13 +15,13 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 34,
+    "assistant-restored-human-pending": 35,
     "section-heading-no-body": 5,
-    "sealed-pilot-review-pending": 3,
+    "sealed-pilot-review-pending": 2,
     "unclassified-heading": 1
   },
-  "sealed_pilot_articles": 3,
-  "production_complete_articles": 34,
+  "sealed_pilot_articles": 2,
+  "production_complete_articles": 35,
   "production_partial_articles": 0,
   "untouched_articles": 0,
   "unclassified_heading_entries": 1,
@@ -23442,6 +23442,146 @@
         "bytes": 9927
       },
       "usage_limitation": "All14 selected Tesseract readings and article.txt bytes retained after full source reinspection. No new OCR, crop repair or routine paired correction. Old pilot recognition/correction costs are not counted again. Five new work windows record preparation, selection, export, evaluation and reporting; elapsed time is diagnostic. Local compute/tokens have zero monetary weight; paid input1:0.1, output price and active human effort unknown. Human acceptance/full proofreading/source encoding pending."
+    },
+    {
+      "toc_entry_id": "maso-1984-08-toc-0042",
+      "title": "공모총평",
+      "engine": "qwen",
+      "selected_pilot": "aug-03-A",
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/contest-review/article.json",
+        "sha256": "e33f36b5296c41b4330fb081f339a91f0efd19330570691aaa81b72dd8642411",
+        "bytes": 34479
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/contest-review/manifest.json",
+        "sha256": "7d669acb516db782f14f9992fab7e45b483c4c747243241cec34d5525be51411",
+        "bytes": 12742
+      },
+      "source_pages": [
+        237
+      ],
+      "regions": 18,
+      "text_regions": 17,
+      "figures": 1,
+      "physical_listing_rows": 0,
+      "logical_listing_rows": 0,
+      "unresolved_entries": 7,
+      "complete_article": true,
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-contest-review-source-index/source-index.json",
+        "sha256": "0f61dedcc2846bca889c28606416da7a88d0b76cf8df13e83e610c74d9b6d440",
+        "bytes": 138633
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation.json",
+        "sha256": "71246632d4ff6614c5d8d1c85fb640648a6375210a606c91fa4ff3cc88b366a7",
+        "bytes": 1792
+      },
+      "ordered_blocks": 17,
+      "prose_joins": 0,
+      "source_tables": 1,
+      "table_header_rows": 1,
+      "table_header_cells": 6,
+      "table_data_rows": 4,
+      "table_data_cells": 24,
+      "table_blank_cells": 1,
+      "table_captions": 1,
+      "submission_counts": 5,
+      "changed_transcription_regions": 0,
+      "new_ocr_calls": 0,
+      "new_local_tokens": 0,
+      "selected_immutable_evidence_files": 113,
+      "checks": {
+        "status": "passed",
+        "toc_entry_id": "maso-1984-08-toc-0042",
+        "regions": 18,
+        "text_regions": 17,
+        "figures": 1,
+        "ordered_blocks": 17,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "prose_joins": 0,
+        "source_tables": 1,
+        "header_rows": 1,
+        "header_cells": 6,
+        "data_rows": 4,
+        "data_cells": 24,
+        "blank_cells": 1,
+        "table_captions": 1,
+        "submission_counts": 5,
+        "unresolved_entries": 7,
+        "new_ocr_calls": 0,
+        "new_local_tokens": 0,
+        "changed_transcription_regions": 0,
+        "source_hash": true,
+        "crop_pixels": true,
+        "reused_raw_text_settings_positions_exact": true,
+        "reused_qwen_image_hashes_stop_outcomes": true,
+        "all_original_pilot_metadata_unchanged": true,
+        "article_text_bytes_unchanged": true,
+        "all_table_cell_byte_ranges": true,
+        "all_review_ranges": true,
+        "all_regional_characters_once": true,
+        "byte_identical_rebuild": true,
+        "independent_byte_identical_rebuild": true,
+        "preserved_pilot_files": 16790,
+        "selected_immutable_evidence_files": 113,
+        "prior_production_packages_verified": 67,
+        "all_native_raw_seals_unchanged": true,
+        "canonical_identity_preserved": true,
+        "pinned_test_baseline": {
+          "status": "passed",
+          "count": 135,
+          "log": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-aligned-adapter/pdf-tests.log",
+            "sha256": "c3e9682c920fdc96b74169d756972accd88662d3ccdcde411cfa22ee030bcf07",
+            "bytes": 235
+          }
+        },
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-contest-review-source-index/source-index.json",
+          "sha256": "0f61dedcc2846bca889c28606416da7a88d0b76cf8df13e83e610c74d9b6d440",
+          "bytes": 138633
+        },
+        "human_acceptance": "pending",
+        "source_bytes_verified": false,
+        "execute_verified": false,
+        "complete_article": true
+      },
+      "human_acceptance": "pending",
+      "evidence": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/selection-and-repairs.json",
+        "sha256": "096c84bc88ace57077331cdd07fa40b1dba2261ba727c7d3891dc79c9691ac5e",
+        "bytes": 2704
+      },
+      "raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/selected-raw-preservation.json",
+        "sha256": "c88ba484a5d06de782e3c5a290db4df2667fc1e931a3bea016dbe52ccef016fc",
+        "bytes": 14778
+      },
+      "source_identity": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/source-identity-readings.json",
+        "sha256": "2aee575aabc292449a9e570f992441895c1c4800d9e04d9e17828860a2e93c96",
+        "bytes": 362
+      },
+      "implementation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/validate-pilot-contest-review.py",
+        "sha256": "c7ba422cb95f074e05a66dae96a5d50d5014de390768432977e4b48732ba1209",
+        "bytes": 13043
+      },
+      "validation_helper_recoveries": 1,
+      "validation_helper_recovery": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation-helper-recovery-01/diagnostic.json",
+        "sha256": "65750b1954c0b7f5b62ccc65c53b0416eb8e7b7e930b216c965c7fee6982d132",
+        "bytes": 536
+      },
+      "validation_helper_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation-helper-recovery-01/inventory.json",
+        "sha256": "9e116e9c67c521ef055db350857883bc567e1a9f21e13ff7732a1c6a31440803",
+        "bytes": 206
+      },
+      "usage_limitation": "All17 selected Qwen readings and article.txt bytes retained after complete source reinspection. No new OCR, crop repair or routine paired correction. Source table preserves fourrows/sixcolumns/oneblank/name uncertainty; source counts and credit remain literal. The private validation helper first assumed no terminal newline on a table block and a newer stage-wrapper layout. Its failed version/diagnostic are preserved; source, raw, corrections and exports did not change. Old pilot recognition/correction costs are not counted again. Five new work windows include preparation, selection, export, evaluation/recovery and reporting; elapsed time is diagnostic. Local compute/tokens have zero monetary weight; paid input1:0.1, output price and active human effort unknown. Human acceptance/full proofreading/source encoding pending."
     }
   ],
   "entries": [
@@ -28628,9 +28768,159 @@
       "page": 237,
       "kind": "article",
       "articleIds": [],
-      "status": "sealed-pilot-review-pending",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": "aug-03"
+      "pilot_pair": "aug-03",
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive/contest-review/article.json",
+        "sha256": "e33f36b5296c41b4330fb081f339a91f0efd19330570691aaa81b72dd8642411",
+        "bytes": 34479
+      },
+      "production_selection": {
+        "toc_entry_id": "maso-1984-08-toc-0042",
+        "title": "공모총평",
+        "engine": "qwen",
+        "selected_pilot": "aug-03-A",
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/contest-review/article.json",
+          "sha256": "e33f36b5296c41b4330fb081f339a91f0efd19330570691aaa81b72dd8642411",
+          "bytes": 34479
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive/contest-review/manifest.json",
+          "sha256": "7d669acb516db782f14f9992fab7e45b483c4c747243241cec34d5525be51411",
+          "bytes": 12742
+        },
+        "source_pages": [
+          237
+        ],
+        "regions": 18,
+        "text_regions": 17,
+        "figures": 1,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 7,
+        "complete_article": true,
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-contest-review-source-index/source-index.json",
+          "sha256": "0f61dedcc2846bca889c28606416da7a88d0b76cf8df13e83e610c74d9b6d440",
+          "bytes": 138633
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation.json",
+          "sha256": "71246632d4ff6614c5d8d1c85fb640648a6375210a606c91fa4ff3cc88b366a7",
+          "bytes": 1792
+        },
+        "ordered_blocks": 17,
+        "prose_joins": 0,
+        "source_tables": 1,
+        "table_header_rows": 1,
+        "table_header_cells": 6,
+        "table_data_rows": 4,
+        "table_data_cells": 24,
+        "table_blank_cells": 1,
+        "table_captions": 1,
+        "submission_counts": 5,
+        "changed_transcription_regions": 0,
+        "new_ocr_calls": 0,
+        "new_local_tokens": 0,
+        "selected_immutable_evidence_files": 113,
+        "checks": {
+          "status": "passed",
+          "toc_entry_id": "maso-1984-08-toc-0042",
+          "regions": 18,
+          "text_regions": 17,
+          "figures": 1,
+          "ordered_blocks": 17,
+          "physical_listing_rows": 0,
+          "logical_listing_rows": 0,
+          "prose_joins": 0,
+          "source_tables": 1,
+          "header_rows": 1,
+          "header_cells": 6,
+          "data_rows": 4,
+          "data_cells": 24,
+          "blank_cells": 1,
+          "table_captions": 1,
+          "submission_counts": 5,
+          "unresolved_entries": 7,
+          "new_ocr_calls": 0,
+          "new_local_tokens": 0,
+          "changed_transcription_regions": 0,
+          "source_hash": true,
+          "crop_pixels": true,
+          "reused_raw_text_settings_positions_exact": true,
+          "reused_qwen_image_hashes_stop_outcomes": true,
+          "all_original_pilot_metadata_unchanged": true,
+          "article_text_bytes_unchanged": true,
+          "all_table_cell_byte_ranges": true,
+          "all_review_ranges": true,
+          "all_regional_characters_once": true,
+          "byte_identical_rebuild": true,
+          "independent_byte_identical_rebuild": true,
+          "preserved_pilot_files": 16790,
+          "selected_immutable_evidence_files": 113,
+          "prior_production_packages_verified": 67,
+          "all_native_raw_seals_unchanged": true,
+          "canonical_identity_preserved": true,
+          "pinned_test_baseline": {
+            "status": "passed",
+            "count": 135,
+            "log": {
+              "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-aligned-adapter/pdf-tests.log",
+              "sha256": "c3e9682c920fdc96b74169d756972accd88662d3ccdcde411cfa22ee030bcf07",
+              "bytes": 235
+            }
+          },
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-contest-review-source-index/source-index.json",
+            "sha256": "0f61dedcc2846bca889c28606416da7a88d0b76cf8df13e83e610c74d9b6d440",
+            "bytes": 138633
+          },
+          "human_acceptance": "pending",
+          "source_bytes_verified": false,
+          "execute_verified": false,
+          "complete_article": true
+        },
+        "human_acceptance": "pending",
+        "evidence": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/selection-and-repairs.json",
+          "sha256": "096c84bc88ace57077331cdd07fa40b1dba2261ba727c7d3891dc79c9691ac5e",
+          "bytes": 2704
+        },
+        "raw_preservation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/selected-raw-preservation.json",
+          "sha256": "c88ba484a5d06de782e3c5a290db4df2667fc1e931a3bea016dbe52ccef016fc",
+          "bytes": 14778
+        },
+        "source_identity": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/source-identity-readings.json",
+          "sha256": "2aee575aabc292449a9e570f992441895c1c4800d9e04d9e17828860a2e93c96",
+          "bytes": 362
+        },
+        "implementation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/validate-pilot-contest-review.py",
+          "sha256": "c7ba422cb95f074e05a66dae96a5d50d5014de390768432977e4b48732ba1209",
+          "bytes": 13043
+        },
+        "validation_helper_recoveries": 1,
+        "validation_helper_recovery": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation-helper-recovery-01/diagnostic.json",
+          "sha256": "65750b1954c0b7f5b62ccc65c53b0416eb8e7b7e930b216c965c7fee6982d132",
+          "bytes": 536
+        },
+        "validation_helper_preservation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation-helper-recovery-01/inventory.json",
+          "sha256": "9e116e9c67c521ef055db350857883bc567e1a9f21e13ff7732a1c6a31440803",
+          "bytes": 206
+        },
+        "usage_limitation": "All17 selected Qwen readings and article.txt bytes retained after complete source reinspection. No new OCR, crop repair or routine paired correction. Source table preserves fourrows/sixcolumns/oneblank/name uncertainty; source counts and credit remain literal. The private validation helper first assumed no terminal newline on a table block and a newer stage-wrapper layout. Its failed version/diagnostic are preserved; source, raw, corrections and exports did not change. Old pilot recognition/correction costs are not counted again. Five new work windows include preparation, selection, export, evaluation/recovery and reporting; elapsed time is diagnostic. Local compute/tokens have zero monetary weight; paid input1:0.1, output price and active human effort unknown. Human acceptance/full proofreading/source encoding pending."
+      },
+      "covered_pdf_pages": [
+        237
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0043",
@@ -28651,82 +28941,98 @@
   "next_checkpoint": {
     "status": "sealed-pilot-production-selection-inspection-pending",
     "kind": "production-selection",
-    "pilot_pair": "aug-03",
-    "toc_entry_id": "maso-1984-08-toc-0042",
-    "canonical_title": "공모총평",
+    "pilot_pair": "aug-08",
+    "toc_entry_id": "maso-1984-08-toc-0043",
+    "canonical_title": "Q&A",
     "canonical_byline": null,
     "canonical_parent_id": "maso-1984-08-toc-0036",
-    "canonical_first_page": 237,
+    "canonical_first_page": 262,
     "article_extent_verified": false,
     "last_completed_article": {
-      "toc_entry_id": "maso-1984-08-toc-0037",
-      "title": "편집자 노트",
-      "engine": "tesseract",
-      "selected_pilot": "aug-01-A",
+      "toc_entry_id": "maso-1984-08-toc-0042",
+      "title": "공모총평",
+      "engine": "qwen",
+      "selected_pilot": "aug-03-A",
       "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive/editorial/article.json",
-        "sha256": "3202d82c485baa22bb8d447612694f61cbe69bf90194e48c87173bcb5eb7bfd9",
-        "bytes": 28595
+        "path": "build/pdf-restoration/13-1984-08-adaptive/contest-review/article.json",
+        "sha256": "e33f36b5296c41b4330fb081f339a91f0efd19330570691aaa81b72dd8642411",
+        "bytes": 34479
       },
       "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive/editorial/manifest.json",
-        "sha256": "7e722b525dccb72e9003ea208adaf9ea0b4c9977cbbaebec2600fe01aff6d9df",
-        "bytes": 10458
+        "path": "build/pdf-restoration/13-1984-08-adaptive/contest-review/manifest.json",
+        "sha256": "7d669acb516db782f14f9992fab7e45b483c4c747243241cec34d5525be51411",
+        "bytes": 12742
       },
       "source_pages": [
-        20
+        237
       ],
-      "regions": 15,
-      "text_regions": 14,
+      "regions": 18,
+      "text_regions": 17,
       "figures": 1,
       "physical_listing_rows": 0,
       "logical_listing_rows": 0,
-      "unresolved_entries": 5,
+      "unresolved_entries": 7,
       "complete_article": true,
       "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-editorial-source-index/source-index.json",
-        "sha256": "1a1f1a8b8768a55854057a8bbabf0e82540700a498d4d77b6c4d5c3a6d469abe",
-        "bytes": 90270
+        "path": "build/pdf-restoration/13-1984-08-adaptive-contest-review-source-index/source-index.json",
+        "sha256": "0f61dedcc2846bca889c28606416da7a88d0b76cf8df13e83e610c74d9b6d440",
+        "bytes": 138633
       },
       "source_validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-01/validation.json",
-        "sha256": "0030100f1574f90fd5c17ad919714a2d561983922468831f6a79c6942fa0446a",
-        "bytes": 1561
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation.json",
+        "sha256": "71246632d4ff6614c5d8d1c85fb640648a6375210a606c91fa4ff3cc88b366a7",
+        "bytes": 1792
       },
-      "ordered_blocks": 14,
+      "ordered_blocks": 17,
       "prose_joins": 0,
-      "internal_paragraph_breaks": 2,
+      "source_tables": 1,
+      "table_header_rows": 1,
+      "table_header_cells": 6,
+      "table_data_rows": 4,
+      "table_data_cells": 24,
+      "table_blank_cells": 1,
+      "table_captions": 1,
+      "submission_counts": 5,
       "changed_transcription_regions": 0,
       "new_ocr_calls": 0,
       "new_local_tokens": 0,
-      "selected_immutable_evidence_files": 79,
+      "selected_immutable_evidence_files": 113,
       "checks": {
         "status": "passed",
-        "toc_entry_id": "maso-1984-08-toc-0037",
-        "regions": 15,
-        "text_regions": 14,
+        "toc_entry_id": "maso-1984-08-toc-0042",
+        "regions": 18,
+        "text_regions": 17,
         "figures": 1,
-        "ordered_blocks": 14,
+        "ordered_blocks": 17,
         "physical_listing_rows": 0,
         "logical_listing_rows": 0,
         "prose_joins": 0,
-        "internal_paragraph_breaks": 2,
-        "unresolved_entries": 5,
+        "source_tables": 1,
+        "header_rows": 1,
+        "header_cells": 6,
+        "data_rows": 4,
+        "data_cells": 24,
+        "blank_cells": 1,
+        "table_captions": 1,
+        "submission_counts": 5,
+        "unresolved_entries": 7,
         "new_ocr_calls": 0,
         "new_local_tokens": 0,
         "changed_transcription_regions": 0,
         "source_hash": true,
         "crop_pixels": true,
         "reused_raw_text_settings_positions_exact": true,
+        "reused_qwen_image_hashes_stop_outcomes": true,
         "all_original_pilot_metadata_unchanged": true,
         "article_text_bytes_unchanged": true,
+        "all_table_cell_byte_ranges": true,
         "all_review_ranges": true,
         "all_regional_characters_once": true,
         "byte_identical_rebuild": true,
         "independent_byte_identical_rebuild": true,
         "preserved_pilot_files": 16790,
-        "selected_immutable_evidence_files": 79,
-        "prior_production_packages_verified": 66,
+        "selected_immutable_evidence_files": 113,
+        "prior_production_packages_verified": 67,
         "all_native_raw_seals_unchanged": true,
         "canonical_identity_preserved": true,
         "pinned_test_baseline": {
@@ -28739,9 +29045,9 @@
           }
         },
         "source_index": {
-          "path": "build/pdf-restoration/13-1984-08-adaptive-editorial-source-index/source-index.json",
-          "sha256": "1a1f1a8b8768a55854057a8bbabf0e82540700a498d4d77b6c4d5c3a6d469abe",
-          "bytes": 90270
+          "path": "build/pdf-restoration/13-1984-08-adaptive-contest-review-source-index/source-index.json",
+          "sha256": "0f61dedcc2846bca889c28606416da7a88d0b76cf8df13e83e610c74d9b6d440",
+          "bytes": 138633
         },
         "human_acceptance": "pending",
         "source_bytes_verified": false,
@@ -28750,25 +29056,41 @@
       },
       "human_acceptance": "pending",
       "evidence": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-01/selection-and-repairs.json",
-        "sha256": "dc5c6b2a5746d68d647b8efa2b28017a173714ff7dd2af6bce2b484b8fee903a",
-        "bytes": 2714
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/selection-and-repairs.json",
+        "sha256": "096c84bc88ace57077331cdd07fa40b1dba2261ba727c7d3891dc79c9691ac5e",
+        "bytes": 2704
       },
       "raw_preservation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-01/selected-raw-preservation.json",
-        "sha256": "1b9f36bae5e33681317de5c4c5498a0d953ec53e07974d4e2c9b406a4b5fbba1",
-        "bytes": 10598
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/selected-raw-preservation.json",
+        "sha256": "c88ba484a5d06de782e3c5a290db4df2667fc1e931a3bea016dbe52ccef016fc",
+        "bytes": 14778
+      },
+      "source_identity": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/source-identity-readings.json",
+        "sha256": "2aee575aabc292449a9e570f992441895c1c4800d9e04d9e17828860a2e93c96",
+        "bytes": 362
       },
       "implementation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/validate-pilot-editor.py",
-        "sha256": "3007b3a929e8d62d79f4888c9c2254b702670c61c1ae1ecf97ba3bbc3e5f7be8",
-        "bytes": 9927
+        "path": "private/pdf-restoration/13-1984-08-adaptive/validate-pilot-contest-review.py",
+        "sha256": "c7ba422cb95f074e05a66dae96a5d50d5014de390768432977e4b48732ba1209",
+        "bytes": 13043
       },
-      "usage_limitation": "All14 selected Tesseract readings and article.txt bytes retained after full source reinspection. No new OCR, crop repair or routine paired correction. Old pilot recognition/correction costs are not counted again. Five new work windows record preparation, selection, export, evaluation and reporting; elapsed time is diagnostic. Local compute/tokens have zero monetary weight; paid input1:0.1, output price and active human effort unknown. Human acceptance/full proofreading/source encoding pending."
+      "validation_helper_recoveries": 1,
+      "validation_helper_recovery": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation-helper-recovery-01/diagnostic.json",
+        "sha256": "65750b1954c0b7f5b62ccc65c53b0416eb8e7b7e930b216c965c7fee6982d132",
+        "bytes": 536
+      },
+      "validation_helper_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/pilot-aug-03/validation-helper-recovery-01/inventory.json",
+        "sha256": "9e116e9c67c521ef055db350857883bc567e1a9f21e13ff7732a1c6a31440803",
+        "bytes": 206
+      },
+      "usage_limitation": "All17 selected Qwen readings and article.txt bytes retained after complete source reinspection. No new OCR, crop repair or routine paired correction. Source table preserves fourrows/sixcolumns/oneblank/name uncertainty; source counts and credit remain literal. The private validation helper first assumed no terminal newline on a table block and a newer stage-wrapper layout. Its failed version/diagnostic are preserved; source, raw, corrections and exports did not change. Old pilot recognition/correction costs are not counted again. Five new work windows include preparation, selection, export, evaluation/recovery and reporting; elapsed time is diagnostic. Local compute/tokens have zero monetary weight; paid input1:0.1, output price and active human effort unknown. Human acceptance/full proofreading/source encoding pending."
     },
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "action": "Inspect sealed aug-03 pilot and adjacent source to verify complete 공모총평 extent beginning237 before production selection. Reuse immutable valid OCR/correction evidence; preserve both pilot arms and all source uncertainties. Three pending pilots remain: 베이직 코맨드 에디터 aug-07, 공모총평 aug-03 and Q&A aug-08. Classify 정보모음 and complete standalone August JSON/assets index, report and requirements audit. No reading-room rebuild."
+    "action": "Inspect sealed aug-08 pilot and adjacent source to verify complete Q&A extent beginning262 before production selection. Reuse immutable valid OCR/correction evidence and preserve both pilot arms, historical questions/answers, code/value associations and uncertainties. Two pending pilots remain: 베이직 코맨드 에디터 aug-07 and Q&A aug-08. Classify 정보모음 and complete standalone August JSON/assets index, report and requirements audit. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
