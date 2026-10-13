@@ -3731,3 +3731,36 @@ commit code/documentation. Do not count a partial opening as a complete article.
   native 27/28 pins, followed by remaining August bodies/pilots/headings and whole-issue
   JSON/assets closeout. No reading-room rebuild; reporting/commit usage after the
   audit cutoff carries into the next audit.
+
+
+### August full radar155–165 assembled, 2026-10-13
+
+- Assembled full information radar155–165 from the exact native27/28
+  packages. All24 news items have complete, disjoint source ownership:14 domestic
+  and ten foreign. Item15 continues from160 to163 around five independent reports
+  on161–162. Its full ownership is resolved in the assembled source index while
+  the opening native's partial metadata remains unchanged.
+- JSON/assets retains121 regions,111 regional readings/review ranges,70 ordered
+  text blocks,ten original images,three source captions and144 source-linked
+  uncertainty records. All19 native prose joins and41 boundaries remain intact,
+  including the164/165 word continuation around its non-owning running header.
+  Four tables preserve40 candidate rows/114 slots/19 blanks and38 ruled rows/
+  108 logical slots/15 blanks, including two headers. Seven contact fields retain
+  eight source lines. Human acceptance and full proofreading remain pending.
+- All470 original segment files are copied exactly. The full source index
+  preserves every native metadata key and projects788 exact UTF-8 ranges and801
+  asset references. Independent coverage, ownership, table/contact/range checks
+  and a byte-identical rebuild pass. All38 prior production packages, native15–28
+  raw/selected seals and16,790 pilot files remain unchanged. No new OCR or mapping;
+  native recognition costs are not counted again.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/radar`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-radar-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/radar-assembly-validation.json`.
+- August now has19 complete assistant restorations,zero partials,12 untouched
+  bodies,six pilot selections pending,three classified/three unclassified headings
+  and zero human accepted. Next: verify the source extent of 이근배's 자료구조,
+  starting168, then restore it under adaptive routing. Remaining articles/pilots/
+  headings and whole-issue JSON/assets closeout remain. No reading-room rebuild.
+  Local compute/token monetary weight remains zero; paid input ratio is1:0.1,
+  output rate/human effort unmeasured. Reporting/commit usage after the audit
+  cutoff carries into the next audit.
