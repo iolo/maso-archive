@@ -13092,3 +13092,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Local compute/token monetary weight remains zero; paid input ratio is1:0.1,
   output rate/human effort unmeasured. Reporting/commit usage after the audit
   cutoff carries into the next audit.
+
+
+## 2026-10-13 — August tree article168–171 selected raw drafts validated
+
+- Individually inspected six whole-page views167–172. 이근배's 자료구조
+  occupies exactly168–171; the source has series4 and subtitle트리구조. Its final
+  paragraph/figure11 and printed endmark close171. Business divider167 and new
+  의료보험수가계산172 are excluded. Four views reused by exact hash; two fresh
+  whole views and four native4000-pixel renders retained. Two outside-map lookups.
+- Mapped63 regions:50 text crops and13 original image crops preserving eleven
+  numbered figures in twelve parts plus the endmark. Figure5's lower(a)/(b) and
+  upper(c)/(d) remain distinct source parts. Figure8's two15-row address/memory
+  arrays retain original bitmaps; explicit structured correction of30 rows/60
+  slots/eleven blank memory fields remains pending. No source code listing.
+- Revised seven distinct crops before recognition, preserving original/intermediate
+  geometry and diagnostics. All18 original panels, six changed final panels and
+  four final overlays were individually inspected; twelve unchanged panels match
+  original bytes. All63 crops match native pixels. The200-edge diagnostic has zero
+  glyph crossings and eight classified non-text shaded-heading background cuts.
+- Ran44Tesseract and six initialQwen calls; one bounded unchanged-cropQ alternate
+  recovered the scrambled two-line genealogy sentence. All50 original drafts and
+  the alternate were read. Selected43T/sevenQ drafts await once-only correction.
+  No empty drafts, failures, retries or preparation probes; original failed-order
+  T draft retained. Printed geneological, inline values and historical claims are
+  source candidates, not silently modernized or mathematically certified.
+- AllsevenQ calls used3,857 input/762 output local tokens,4,619 total, counted
+  once. Q recognition took9.460s andTesseract
+  10.008s; worker/startup/selection durations
+  remain separate. Local monetary weight is zero; paid input ratio1:0.1 and
+  output rate/human effort remain unmeasured.
+- Independent runtime/raw-bundle/selected-provenance checks pass. Seals preserve
+  678 original and317 selected/alternate files. All39 prior production packages,
+  native15–28 raw/selected inventories and16,790 pilot files remain unchanged.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-29/selected-raw-audit.json`.
+- August remains19 complete assistant restorations,zero partials,12 untouched
+  bodies,six pending pilot selections,three classified/three unclassified headings
+  and zero human accepted. Next: source correction, diagram/formula/array indexes
+  and complete168–171 JSON/assets export. Remaining articles/pilots/headings and
+  issue closeout remain. No reading-room rebuild. Reporting/commit usage after
+  the audit cutoff carries into the next audit.
