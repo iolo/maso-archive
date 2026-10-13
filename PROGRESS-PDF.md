@@ -14329,3 +14329,46 @@ history remains in [PROGRESS.md](PROGRESS.md).
   topology/historicalexecution remainunverified. Localcompute/tokens monetaryweight0;
   paidinput1:0.1,outputrate/humanactiveeffort unknown;elapsed includeswaits andtail
   reporting/commit/response entersnextaudit. Goal remainsactive.
+
+
+## 2026-10-14 — August RECALC239–244 raw checkpoint validated
+
+- RECALC actually occupies printed/PDF pages 239–245. The canonical TOC's
+  first page 240, title, byline and parent remain unchanged; the source conflict
+  is explicit. Ten fresh wholeviews 238–247 establish both boundaries. Native41
+  maps 239–244; ending245 and full assembly remain required.
+- Six native renders retain106 regions:96 text/code readings and10 source images,
+  including nine full listing panels and the prose ending mark. PASSWORD/list1
+  is independent of RECALC/list2. All48 original panels,22 revised panels,six
+  original/final overlays and three final edge component tiles were viewed.
+  Thirty-three regions were repaired once; the bisected byline/affiliation was
+  merged with its removed original retained. All106 crop pixels match source.
+  Of384 text edges,two upper-margin texture/speck crossings are explicitly
+  nontext; no glyph cuts remain. No rotation or preparation probe was needed.
+- All96 original drafts and18 bounded alternates were read. Sixteen Qwen
+  alternates recover damaged command/program identifiers and headers. Two
+  English Tesseract alternates damaged line numbers/identifiers and were retained
+  without selection. Actual calls:62 Qwen/53 Tesseract; selected:61 Qwen/35
+  Tesseract. One primary Qwen crop244r08 reached2048 tokens; its failed output
+  and same-crop English Tesseract fallback are preserved. No Q retry occurred.
+  Ordinary spacing/wrap differences await once-only correction.
+- Local Qwen tokens,including failure and unselected attempts:42,115
+  input/10,854 output/52,969 total. Failed primary wall
+  stage time is 46.252s,recorded separately from server
+  timing. Local computation/tokens have zero monetary weight; paid input ratio
+  remains1:0.1,output price and active human effort unknown. Preparation includes
+  status/continuation gaps;elapsed windows are separate diagnostics.
+- Independent raw/selected audits pass;1,191 original and869 selected/alternate
+  files are sealed. All58 prior production packages,15–40 seals and16,790 pilot
+  files remain unchanged. Source correction must preserve logical ownership of
+  1000's wrapped000 and958's continuation across243 columns, standalone section
+  labels,printed errors and DATA fields. The absent referenced menufigure1 is
+  flagged; no substitute image is fabricated. Printed school태능중3년 stays literal.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-41/selected-raw-audit.json`.
+- Historical raw milestone21 is uncorrected and creates no production export.
+  August stays27complete/zero partial/six untouched/four pending pilots/five
+  classified headings/one unclassified heading/zero human acceptances,58packages.
+  Next:once-only correction/export239–244,ending245/full239–245 assembly,remaining
+  August content and standaloneissueJSON/assets closeout/requirementsaudit.
+  Full proofreading,encoded bytes and historical execution remain unverified.
+  No reading-room rebuild. Reporting/commit tail enters the next usage audit.
