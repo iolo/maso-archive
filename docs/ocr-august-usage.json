@@ -3855,6 +3855,78 @@
         "total_tokens": 215971,
         "uncached_nonwrite_input_tokens": 3305
       }
+    },
+    {
+      "id": "assembly-medical-preparation",
+      "stage": "preparation",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:14:29.862158+00:00",
+      "end": "2026-10-13T06:15:47.522644+00:00",
+      "elapsed_seconds": 77.6604859828949,
+      "observed_responses": 1,
+      "tokens": {
+        "input_tokens": 240718,
+        "cached_input_tokens": 235392,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 311,
+        "reasoning_output_tokens": 211,
+        "total_tokens": 241029,
+        "uncached_nonwrite_input_tokens": 5326
+      }
+    },
+    {
+      "id": "assembly-medical-export",
+      "stage": "export",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:15:47.538041+00:00",
+      "end": "2026-10-13T06:22:47.813786+00:00",
+      "elapsed_seconds": 420.27574491500854,
+      "observed_responses": 21,
+      "tokens": {
+        "input_tokens": 1493769,
+        "cached_input_tokens": 1430656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11520,
+        "reasoning_output_tokens": 943,
+        "total_tokens": 1505289,
+        "uncached_nonwrite_input_tokens": 63113
+      }
+    },
+    {
+      "id": "assembly-medical-validation",
+      "stage": "validation",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:22:48.835885+00:00",
+      "end": "2026-10-13T06:30:00.582046+00:00",
+      "elapsed_seconds": 431.7461609840393,
+      "observed_responses": 12,
+      "tokens": {
+        "input_tokens": 1044570,
+        "cached_input_tokens": 1017984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10091,
+        "reasoning_output_tokens": 995,
+        "total_tokens": 1054661,
+        "uncached_nonwrite_input_tokens": 26586
+      }
+    },
+    {
+      "id": "assembly-medical-reporting",
+      "stage": "reporting",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:30:01.597430+00:00",
+      "end": "2026-10-13T06:31:14.196965+00:00",
+      "elapsed_seconds": 72.59953498840332,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 198410,
+        "cached_input_tokens": 194944,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1731,
+        "reasoning_output_tokens": 404,
+        "total_tokens": 200141,
+        "uncached_nonwrite_input_tokens": 3466
+      }
     }
   ],
   "money_cost": null,
@@ -3862,33 +3934,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T06:00:13.730946+00:00",
-    "elapsed_seconds": 93347.730946064,
-    "observed_responses": 2665,
+    "end": "2026-10-13T06:31:14.196965+00:00",
+    "elapsed_seconds": 95208.19696497917,
+    "observed_responses": 2709,
     "tokens": {
-      "input_tokens": 367193794,
-      "cached_input_tokens": 357912832,
+      "input_tokens": 371966354,
+      "cached_input_tokens": 362564736,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1730633,
-      "reasoning_output_tokens": 430336,
-      "total_tokens": 368924427,
-      "uncached_nonwrite_input_tokens": 9280962
+      "output_tokens": 1755368,
+      "reasoning_output_tokens": 433166,
+      "total_tokens": 373721722,
+      "uncached_nonwrite_input_tokens": 9401618
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T06:00:13.730946+00:00",
-    "elapsed_seconds": 93347.730946064,
-    "observed_responses": 279,
+    "end": "2026-10-13T06:31:14.196965+00:00",
+    "elapsed_seconds": 95208.19696497917,
+    "observed_responses": 287,
     "tokens": {
-      "input_tokens": 41775947,
-      "cached_input_tokens": 41001344,
+      "input_tokens": 43571040,
+      "cached_input_tokens": 42774272,
       "cache_write_input_tokens": 0,
-      "output_tokens": 116359,
-      "reasoning_output_tokens": 28023,
-      "total_tokens": 41892306,
-      "uncached_nonwrite_input_tokens": 774603
+      "output_tokens": 117441,
+      "reasoning_output_tokens": 28300,
+      "total_tokens": 43688481,
+      "uncached_nonwrite_input_tokens": 796768
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
@@ -3900,5 +3972,5 @@
   },
   "output_rate": null,
   "human_active_review_seconds": null,
-  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison."
+  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison. The medical assembly export window remained open through the intervening status turn; its elapsed duration is a recorded wall-time window, not active human effort."
 }

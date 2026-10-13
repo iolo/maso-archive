@@ -3984,3 +3984,46 @@ commit code/documentation. Do not count a partial opening as a complete article.
   and standalone issueJSON/assets closeout. No reading-room rebuild. Paid input
   ratio1:0.1; output rate/human effort unmeasured. Reporting/commit usage after
   the audit cutoff carries into the next audit.
+
+
+### August full medical-insurance172–180 assembled, 2026-10-13
+
+- Assembled full 의료보험수가계산172–180 from exact native30/31 packages.
+  Canonical0023, byline컴퓨텍, business parent0021 and page172 are unchanged.
+  All90 source regions retain74 ordered blocks,79 regional readings/review ranges,
+  11 original images and85 source-linked uncertainty records. Five native prose
+  joins remain intact; no cross-native prose or listing-row join was required.
+- Four independent listings preserve391 physical rows:283 numbered candidates,
+  103 nonblank wraps and five layout blanks. The first program is complete as
+  printed; programs2–4 remain printed differences only. No runnable replacements
+  are inferred. Both key tables retain12 rows/30 cells without invented headers;
+  the flowchart retains seven nodes/ten edges beside its authoritative bitmap.
+- The full source index preserves every native key and projects1,758 exact UTF-8
+  ranges, including26 DATA value ranges, and1,461 source asset references. All26
+  category values and the printed KB=24/25-read discrepancy remain explicit.
+  Thirty inline examples/four Unicode candidates, all captions, terminal endmark,
+  printed errors, quoted blank runs and source ambiguities are preserved.
+- All345 original native files are copied byte-identically. Independent coverage,
+  canonical identity, text/table/category/listing ranges and a byte-identical full
+  rebuild pass. All42 prior production packages, native15–31 raw/selected seals
+  and16,790 sealed pilot files remain unchanged. Human acceptance/full proofreading,
+  original source encoding and historical execution remain unverified.
+- Assembly initially stopped at the source-example guard. Separately committed
+  adapter77f537a accepts explicitly unverified printed excerpts only in the opt-in
+  source-reference mode; source ranges/scans remain checked and verification claims
+  rejected. All132 PDF tests and42 prior-package preservation checks pass. Earlier
+  recipes, rejected extra metadata field, unpromoted output and audit assumptions
+  remain preserved. No new OCR, mapping or source rendering was required.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/medical`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-medical-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/medical-assembly-validation.json`.
+- August now has21 complete assistant restorations,zero partials,ten untouched
+  bodies,six pending pilot selections,three classified/three unclassified headings
+  and zero human accepted. Forty-three production packages comprise31 natives,
+  ten assemblies andtwo selections. Next: audit VISICALC 활용181 sealedpilot aug-05
+  coverage/residuals, verify its complete source extent, then create a separately
+  validated production revision and restore any uncovered pages. All remaining
+  bodies/pilots/headings and whole-issue JSON/assets closeout remain required.
+  No reading-room rebuild. Local compute/token monetary weight zero; paid input
+  ratio1:0.1,output rate/human effort unmeasured. Reporting/commit usage after the
+  audit cutoff carries into the next audit.
