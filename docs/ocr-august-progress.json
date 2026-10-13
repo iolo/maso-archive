@@ -15,16 +15,16 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 28,
-    "sealed-pilot-review-pending": 4,
+    "assistant-restored-human-pending": 29,
     "section-heading-no-body": 5,
-    "unclassified-heading": 1,
-    "untouched": 5
+    "sealed-pilot-review-pending": 4,
+    "untouched": 4,
+    "unclassified-heading": 1
   },
   "sealed_pilot_articles": 4,
-  "production_complete_articles": 28,
+  "production_complete_articles": 29,
   "production_partial_articles": 0,
-  "untouched_articles": 5,
+  "untouched_articles": 4,
   "unclassified_heading_entries": 1,
   "classified_heading_entries": 5,
   "human_accepted_articles": 0,
@@ -17231,6 +17231,762 @@
         "resolution": "Keep canonical page240; actual sourceextent239–245 andfolio239 are separately explicit. Do not omit opening239 or alterTOC."
       },
       "usage_limitation": "Ending245: actual10Q/1T countedonce, nineprimaryQ plus oneboundedheaderQ afterzero-byteTresult; selected10Q/0T. No failures/retries/probes/correctionOCR.10selectedreadings/twofullpanelimages correctedonce;14flags preserve sourceerrors/quotedblank/rule/glyph candidates. Seven distinct crops repairedbeforeOCR, two adjoining crops needed a second boundaryplacement adjustment; allversions retained. Independent geometry/bytes/ownership/rebuild/preservation pass. Canonical240 versusactual239 preserved; fullassembly stillrequired. Localcompute/tokens monetaryweight0,paidinput1:0.1,outputprice/humanactiveeffort unknown. Humanacceptance/fullproofreading/sourceencodedbytes/execution unverified."
+    },
+    {
+      "batch": "batch-43",
+      "toc_entry_id": "maso-1984-08-toc-0033",
+      "title": "신판 UFO",
+      "source_pages": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        251
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p246r01": "tesseract",
+        "p246r03": "qwen",
+        "p246r04": "tesseract",
+        "p246r05": "qwen",
+        "p246r06": "qwen",
+        "p246r13": "tesseract",
+        "p246r14": "qwen",
+        "p246r15": "tesseract",
+        "p246r16": "qwen",
+        "p246r18": "qwen",
+        "p246r19": "tesseract",
+        "p246r20": "qwen",
+        "p247r01": "tesseract",
+        "p247r02": "tesseract",
+        "p247r03": "qwen",
+        "p247r04": "qwen",
+        "p247r07": "qwen",
+        "p247r08": "qwen",
+        "p247r10": "qwen",
+        "p247r11": "qwen",
+        "p247r12": "qwen",
+        "p248r01": "qwen",
+        "p248r03": "qwen",
+        "p248r04": "qwen",
+        "p248r06": "qwen",
+        "p248r07": "qwen",
+        "p249r01": "tesseract",
+        "p249r03": "qwen",
+        "p249r04": "qwen",
+        "p249r05": "qwen",
+        "p249r06": "qwen",
+        "p249r08": "qwen",
+        "p249r09": "qwen",
+        "p249r10": "qwen",
+        "p250r01": "qwen",
+        "p250r03": "qwen",
+        "p250r04": "qwen",
+        "p250r06": "qwen",
+        "p250r07": "qwen",
+        "p250r08": "qwen",
+        "p251r01": "tesseract",
+        "p251r03": "qwen",
+        "p251r04": "qwen",
+        "p251r05": "qwen",
+        "p251r06": "qwen",
+        "p251r08": "qwen",
+        "p251r09": "qwen",
+        "p251r10": "qwen",
+        "p251r11": "qwen",
+        "p251r12": "qwen",
+        "p248r08": "qwen",
+        "p248r09": "qwen"
+      },
+      "assignment_reason": "Clearprose/byline/platform/runningheaders Tesseract. White stylized title onillustration, structureddefinitions/programguide anddense BASIC/physicalwraps/numericandhexDATA/graphicstrings Qwen. Tenfullsourcepanels/hero/screenshot/proseendingmark retained. No decision-changing probe needed. Full246–251single native.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo/article.json",
+          "sha256": "d1ddfc2c1da545f4fe0f31caefb075cbc3e627a49377960800d8dc9cc1dd403f",
+          "bytes": 113501
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo/manifest.json",
+          "sha256": "600c81f4c645dc580670dd190165274ae6c6ffcc8e861a8b1df3ac8ba1ba3891",
+          "bytes": 38101
+        },
+        "source_pages": [
+          246,
+          247,
+          248,
+          249,
+          250,
+          251
+        ],
+        "regions": 65,
+        "text_regions": 52,
+        "figures": 13,
+        "physical_listing_rows": 548,
+        "logical_listing_rows": 308,
+        "unresolved_entries": 59,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-ufo-source-index-43/source-index.json",
+          "sha256": "b0a1dca270db91998be048cd20870196e059da968b3a14cfad98e6a5b042d9c0",
+          "bytes": 1693217
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/validation.json",
+          "sha256": "54e029a2b4a2434f431e97b60bb67cf7d1ffeb9cbc16d79d645e932d1584efe1",
+          "bytes": 1421
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/map.json",
+        "sha256": "6cfd31c7dc37c95418cb1f171b1427298bcf05764f0b5d53bc66c53a197c846d",
+        "bytes": 21733
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/source-review-ledger.json",
+        "sha256": "d01409ef7ced1130437feddaa121564c36177f17a6c9fb6986eff6ef04e0d9b1",
+        "bytes": 23222
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 35541,
+        "completion_tokens": 11098,
+        "total_tokens": 46639
+      },
+      "qwen_completed_calls": 43,
+      "qwen_failed_calls": 0,
+      "qwen_recognition_seconds": 274.8689249139934,
+      "tesseract_recognition_seconds": 6.040135004019248,
+      "preparation_probe_seconds": 0,
+      "repair": {
+        "revisions": [
+          {
+            "region_id": "p246r01",
+            "before": [
+              0.09897879025923016,
+              0.07944444444444444,
+              0.3605655930871956,
+              0.115
+            ],
+            "after": [
+              0.09819324430479183,
+              0.08,
+              0.3644933228593873,
+              0.10777777777777778
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r04",
+            "before": [
+              0.7376276512175962,
+              0.37333333333333335,
+              0.8593872741555381,
+              0.3988888888888889
+            ],
+            "after": [
+              0.7439120188531029,
+              0.375,
+              0.8562450903377847,
+              0.39444444444444443
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r05",
+            "before": [
+              0.7101335428122545,
+              0.3983333333333333,
+              0.8986645718774549,
+              0.42444444444444446
+            ],
+            "after": [
+              0.7085624509033779,
+              0.4011111111111111,
+              0.9010212097407698,
+              0.4211111111111111
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r06",
+            "before": [
+              0.11626080125687353,
+              0.3972222222222222,
+              0.5153181461115475,
+              0.4688888888888889
+            ],
+            "after": [
+              0.10526315789473684,
+              0.3972222222222222,
+              0.5255302435192458,
+              0.4675
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r07",
+            "before": [
+              0.11626080125687353,
+              0.4683333333333333,
+              0.5153181461115475,
+              0.505
+            ],
+            "after": [
+              0.10526315789473684,
+              0.4675,
+              0.5255302435192458,
+              0.50075
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r08",
+            "before": [
+              0.11626080125687353,
+              0.5038888888888889,
+              0.5153181461115475,
+              0.5522222222222222
+            ],
+            "after": [
+              0.10526315789473684,
+              0.50075,
+              0.5255302435192458,
+              0.5515
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r09",
+            "before": [
+              0.11626080125687353,
+              0.5505555555555556,
+              0.5153181461115475,
+              0.5866666666666667
+            ],
+            "after": [
+              0.10526315789473684,
+              0.5515,
+              0.5255302435192458,
+              0.57375
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r10",
+            "before": [
+              0.11626080125687353,
+              0.5838888888888889,
+              0.5176747839748626,
+              0.6527777777777778
+            ],
+            "after": [
+              0.10526315789473684,
+              0.57375,
+              0.5255302435192458,
+              0.65175
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r11",
+            "before": [
+              0.11861743912018853,
+              0.6505555555555556,
+              0.5176747839748626,
+              0.7033333333333334
+            ],
+            "after": [
+              0.10526315789473684,
+              0.65175,
+              0.5255302435192458,
+              0.7015
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p246r12",
+            "before": [
+              0.1178318931657502,
+              0.7011111111111111,
+              0.5168892380204242,
+              0.7383333333333333
+            ],
+            "after": [
+              0.10526315789473684,
+              0.7015,
+              0.5255302435192458,
+              0.7383333333333333
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p247r10",
+            "before": [
+              0.5247446975648076,
+              0.19649999999999998,
+              0.8853102906520032,
+              0.37150000000000005
+            ],
+            "after": [
+              0.5098193244304792,
+              0.19649999999999998,
+              0.8727415553809897,
+              0.37150000000000005
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p247r11",
+            "before": [
+              0.5247446975648076,
+              0.37150000000000005,
+              0.8853102906520032,
+              0.5635
+            ],
+            "after": [
+              0.5098193244304792,
+              0.37150000000000005,
+              0.8727415553809897,
+              0.5635
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p247r12",
+            "before": [
+              0.5247446975648076,
+              0.5635,
+              0.8853102906520032,
+              0.80725
+            ],
+            "after": [
+              0.5098193244304792,
+              0.5635,
+              0.8727415553809897,
+              0.80725
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p248r03",
+            "before": [
+              0.1311861743912019,
+              0.18324999999999997,
+              0.4964650432050275,
+              0.6275
+            ],
+            "after": [
+              0.1311861743912019,
+              0.18324999999999997,
+              0.4964650432050275,
+              0.40175
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p248r06",
+            "before": [
+              0.558523173605656,
+              0.17275,
+              0.9347996857816182,
+              0.75625
+            ],
+            "after": [
+              0.558523173605656,
+              0.17275,
+              0.9230164964650432,
+              0.46625
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p249r03",
+            "before": [
+              0.08483896307934014,
+              0.17275,
+              0.4516889238020424,
+              0.37025
+            ],
+            "after": [
+              0.08483896307934014,
+              0.17275,
+              0.4516889238020424,
+              0.37
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p249r04",
+            "before": [
+              0.08483896307934014,
+              0.37025,
+              0.4516889238020424,
+              0.52025
+            ],
+            "after": [
+              0.08483896307934014,
+              0.37,
+              0.4516889238020424,
+              0.52025
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p249r05",
+            "before": [
+              0.08483896307934014,
+              0.52025,
+              0.4516889238020424,
+              0.7005
+            ],
+            "after": [
+              0.08483896307934014,
+              0.52025,
+              0.4391201885310291,
+              0.7005
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p249r06",
+            "before": [
+              0.08483896307934014,
+              0.7005,
+              0.4516889238020424,
+              0.784
+            ],
+            "after": [
+              0.08483896307934014,
+              0.7005,
+              0.4391201885310291,
+              0.784
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p249r10",
+            "before": [
+              0.5137470542026709,
+              0.71475,
+              0.8790259230164965,
+              0.788
+            ],
+            "after": [
+              0.5137470542026709,
+              0.71475,
+              0.8664571877454831,
+              0.788
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p250r01",
+            "before": [
+              0.05734485467399843,
+              0.07888888888888888,
+              0.950510604870385,
+              0.12055555555555555
+            ],
+            "after": [
+              0.05734485467399843,
+              0.085,
+              0.950510604870385,
+              0.12055555555555555
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p250r03",
+            "before": [
+              0.13197172034564023,
+              0.18875,
+              0.5066771406127258,
+              0.61875
+            ],
+            "after": [
+              0.13197172034564023,
+              0.18875,
+              0.4956794972505892,
+              0.38475
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p250r06",
+            "before": [
+              0.5624509033778476,
+              0.1855,
+              0.9340141398271798,
+              0.55475
+            ],
+            "after": [
+              0.5624509033778476,
+              0.1855,
+              0.9230164964650432,
+              0.55475
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          },
+          {
+            "region_id": "p251r06",
+            "before": [
+              0.08248232521602514,
+              0.65825,
+              0.4461901021209741,
+              0.7935
+            ],
+            "after": [
+              0.08248232521602514,
+              0.65825,
+              0.4351924587588374,
+              0.7935
+            ],
+            "reason": "Pre-OCR source/crop/component review: whole paragraph glyphs, leading listingnumbers, frame removal orboundedcode split."
+          }
+        ],
+        "splits": [
+          {
+            "original_region": "p248r03",
+            "new_region": "p248r08",
+            "source_pixel_cut": 1607,
+            "reason": "Split reviewed oversized crop at source blank scanline beforeOCR; fullregionunion preserved."
+          },
+          {
+            "original_region": "p248r06",
+            "new_region": "p248r09",
+            "source_pixel_cut": 1865,
+            "reason": "Split reviewed oversized crop at source blank scanline beforeOCR; fullregionunion preserved."
+          },
+          {
+            "original_region": "p250r03",
+            "new_region": "p250r09",
+            "source_pixel_cut": 1539,
+            "reason": "Split reviewed oversized crop at source blank scanline beforeOCR; fullregionunion preserved."
+          }
+        ],
+        "recognition_calls": 0
+      },
+      "crop_revisions": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/crop-repairs.json",
+          "sha256": "5f40c21d6531eeddeead0af9d52bb0a5f4bfcb2f13f2a8c1a57e003a6d902107",
+          "bytes": 11031
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/second-crop-adjustments.json",
+          "sha256": "115b030dadcf7f75957a0d43961b9097aae6c0d443f2cdd843fa16b45a4ac312",
+          "bytes": 2251
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/introduction-merge.json",
+          "sha256": "a7a8ebc588196ee991aa03e20c5eeacf949f83904954c65a89ede9bcd2610c35",
+          "bytes": 613
+        }
+      ],
+      "raw_worker": {
+        "started_at": "2026-10-13T19:42:16.553104+00:00",
+        "finished_at": "2026-10-13T19:47:09.000251+00:00",
+        "elapsed_seconds": 292.44717422199756,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 39,
+          "tesseract_inferences": 13,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 13,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 13,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 43,
+        "selected_tesseract_regions": 9,
+        "total_qwen_calls": 43,
+        "total_tesseract_calls": 16,
+        "worker_tesseract_calls": 13,
+        "primary_qwen_failed_calls": 0,
+        "primary_qwen_failed_regions": [],
+        "alternate_qwen_failed_calls": 0,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 7,
+        "additional_tesseract_calls": 3,
+        "additional_qwen_calls": 4,
+        "selected_qwen_alternates": 4,
+        "selected_tesseract_alternates": 0,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 2917,
+          "completion_tokens": 449,
+          "total_tokens": 3366
+        },
+        "decisions": [
+          {
+            "region_id": "p248r08",
+            "alternate_engine": "tesseract",
+            "selected_alternate": false,
+            "reason": "Actually read English alternate corrupts printed logical numbers/identifiers and decorative fields; retain original Qwen with explicit source ownership/field correction pending."
+          },
+          {
+            "region_id": "p250r03",
+            "alternate_engine": "tesseract",
+            "selected_alternate": false,
+            "reason": "Actually read English alternate corrupts printed logical numbers/identifiers and decorative fields; retain original Qwen with explicit source ownership/field correction pending."
+          },
+          {
+            "region_id": "p251r12",
+            "alternate_engine": "tesseract",
+            "selected_alternate": false,
+            "reason": "Actually read English alternate corrupts printed logical numbers/identifiers and decorative fields; retain original Qwen with explicit source ownership/field correction pending."
+          },
+          {
+            "region_id": "p246r05",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p246r06",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p248r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p250r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          }
+        ],
+        "elapsed_selection_seconds": 0.2322464509998099,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 43,
+      "total_tesseract_calls": 16,
+      "selected_qwen_regions": 43,
+      "selected_tesseract_regions": 9,
+      "worker_qwen_calls": 39,
+      "worker_tesseract_calls": 13,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 4,
+      "additional_tesseract_calls": 3,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/raw-preservation.json",
+        "sha256": "26d8c02eb583f226054f20f2a2e1e74548aa28fd079d54ef556f58d6f3ea26c5",
+        "bytes": 117189
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/selected-raw-preservation.json",
+        "sha256": "0cf91381bb892758ccc43c3011631e49c65e6828c7b12a742cdd294c7ed27460",
+        "bytes": 69622
+      },
+      "export_evidence_derivation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/export-evidence-derivation.json",
+        "sha256": "b214240c24bd4f6c24b606c8e819511f1ff8b829ce7f2077ff2220fb5531eac7",
+        "bytes": 58493
+      },
+      "source_correction_audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/source-correction-audit.json",
+        "sha256": "20c10ee3c33d16482a0c7e858cdb49b252456a1177a58880d17c23578bcf0583",
+        "bytes": 1434
+      },
+      "source_listing_counts": {
+        "regions": {
+          "p247r07": 15,
+          "p247r08": 18,
+          "p247r10": 16,
+          "p247r11": 18,
+          "p247r12": 22,
+          "p248r03": 20,
+          "p248r08": 21,
+          "p248r04": 14,
+          "p248r06": 27,
+          "p248r09": 27,
+          "p248r07": 2,
+          "p249r03": 18,
+          "p249r04": 14,
+          "p249r05": 17,
+          "p249r06": 7,
+          "p249r08": 29,
+          "p249r09": 20,
+          "p249r10": 6,
+          "p250r03": 40,
+          "p250r04": 16,
+          "p250r06": 33,
+          "p250r07": 21,
+          "p250r08": 1,
+          "p251r03": 16,
+          "p251r04": 14,
+          "p251r05": 14,
+          "p251r06": 12,
+          "p251r08": 14,
+          "p251r09": 14,
+          "p251r10": 14,
+          "p251r11": 21,
+          "p251r12": 7
+        },
+        "text_regions": 52,
+        "original_images": 13,
+        "physical_listing_rows": 548,
+        "numbered_rows": 308,
+        "logical_numbered_rows": 308,
+        "wrapped_continuations": 238,
+        "unnumbered_rows": 2,
+        "listing_groups": 1,
+        "variable_definitions": 15,
+        "program_guide_entries": 20,
+        "decimal_DATA_statements": 71,
+        "decimal_DATA_fields": 852,
+        "hexadecimal_DATA_statements": 26,
+        "hexadecimal_DATA_fields": 182,
+        "uncertain_DATA_fields": 1,
+        "DATA_physical_fragments": 1073,
+        "source_flags": 59,
+        "literal_amendments": 0,
+        "source_complete_program": true,
+        "human_acceptance": "pending",
+        "source_bytes_verified": false,
+        "execute_verified": false
+      },
+      "source_field_counts": {
+        "variable_definitions": 15,
+        "program_guide_entries": 20,
+        "decimal_DATA_statements": 71,
+        "decimal_DATA_fields": 852,
+        "hexadecimal_DATA_statements": 26,
+        "hexadecimal_DATA_fields": 182,
+        "uncertain_DATA_fields": 1,
+        "DATA_physical_fragments": 1073,
+        "source_flags": 59
+      },
+      "canonical_page_conflict": null,
+      "usage_limitation": "Raw milestone22 actual43Q/16T counted once; selected43Q/9T. FourQ alternatives selected and three inferiorT alternatives retained. No failures/retries/probes/correctionOCR. All52 readings source-corrected once;13 exact unchanged images reuse prior actual inspection. Full246–251 export preserves548physical/308numbered/238wrapped/twoblank rows,15definitions/20guide entries,852decimal/182hexadecimal DATAfields/1073fragments and59flags. Source apostrophe-like mark before255 is uncertain; no byte inference. Original literals/operators/number gaps/custom graphics preserved. Independent geometry/ranges/ownership/DATAfragment/rebuild/preservation checks pass. Localcompute/tokens monetaryweight0; paidinput1:0.1, outputprice/humanactive effort unknown. Humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "assemblies": [
@@ -24747,9 +25503,42 @@
       "page": 246,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo/article.json",
+        "sha256": "d1ddfc2c1da545f4fe0f31caefb075cbc3e627a49377960800d8dc9cc1dd403f",
+        "bytes": 113501
+      },
+      "segments": [
+        {
+          "batch": "batch-43",
+          "source_pages": [
+            246,
+            247,
+            248,
+            249,
+            250,
+            251
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo/article.json",
+            "sha256": "d1ddfc2c1da545f4fe0f31caefb075cbc3e627a49377960800d8dc9cc1dd403f",
+            "bytes": 113501
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        251
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0034",
@@ -25425,89 +26214,63 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 43,
-    "checkpoint": "UFO-source-correction-and-export",
+    "batch": 44,
+    "status": "space-monster-source-extent-inspection-pending",
     "kind": "native-restoration",
-    "status": "UFO-246-251-selected-raw-complete-correction-pending",
-    "toc_entry_id": "maso-1984-08-toc-0033",
-    "canonical_title": "신판 UFO",
-    "canonical_byline": "지정근",
+    "toc_entry_id": "maso-1984-08-toc-0034",
+    "canonical_title": "우주괴물 소탕작전",
+    "canonical_byline": "이재성",
     "canonical_parent_id": "maso-1984-08-toc-0031",
-    "canonical_first_page": 246,
-    "actual_first_pdf_page": 246,
-    "canonical_unchanged": true,
-    "article_extent_verified": true,
-    "article_pages": [
-      246,
-      247,
-      248,
-      249,
-      250,
-      251
-    ],
-    "source_pages": [
-      246,
-      247,
-      248,
-      249,
-      250,
-      251
-    ],
-    "deferred_article_pages": [],
-    "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/extent-inspection.json",
-      "sha256": "7a4af3ff7c63f71d1b22ac88b351b781b68841d2e67c1c0e8d560a6f1c320b75",
-      "bytes": 4111
+    "canonical_first_page": 252,
+    "article_extent_verified": false,
+    "last_completed_article": {
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo/article.json",
+        "sha256": "d1ddfc2c1da545f4fe0f31caefb075cbc3e627a49377960800d8dc9cc1dd403f",
+        "bytes": 113501
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo/manifest.json",
+        "sha256": "600c81f4c645dc580670dd190165274ae6c6ffcc8e861a8b1df3ac8ba1ba3891",
+        "bytes": 38101
+      },
+      "source_pages": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        251
+      ],
+      "regions": 65,
+      "text_regions": 52,
+      "figures": 13,
+      "physical_listing_rows": 548,
+      "logical_listing_rows": 308,
+      "unresolved_entries": 59,
+      "complete_article": true,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-ufo-source-index-43/source-index.json",
+        "sha256": "b0a1dca270db91998be048cd20870196e059da968b3a14cfad98e6a5b042d9c0",
+        "bytes": 1693217
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/validation.json",
+        "sha256": "54e029a2b4a2434f431e97b60bb67cf7d1ffeb9cbc16d79d645e932d1584efe1",
+        "bytes": 1421
+      }
     },
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/preflight-acceptance.json",
-      "sha256": "a43f34179287134defd37560dcb4183baba8fbd760955113cc8f1b1796dfa485",
-      "bytes": 842
-    },
-    "raw_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/raw-ocr-audit.json",
-      "sha256": "ff691a989e85f5ed2a6dec3a9d91eee211be95a78e4bd5907933b05992f49f0b",
-      "bytes": 4567
-    },
-    "raw_selected_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/selected-raw-audit.json",
-      "sha256": "88a89147d2493c8c2a0d3054982b94f94fc17f2c1e5e003a18b137598099346e",
-      "bytes": 670
-    },
-    "raw_original_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/raw-preservation.json",
-      "sha256": "26d8c02eb583f226054f20f2a2e1e74548aa28fd079d54ef556f58d6f3ea26c5",
-      "bytes": 117189
-    },
-    "raw_selected_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/selected-raw-preservation.json",
-      "sha256": "0cf91381bb892758ccc43c3011631e49c65e6828c7b12a742cdd294c7ed27460",
-      "bytes": 69622
-    },
-    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-43/ocr-selected",
-    "selected_raw_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/raw-selected-drafts.json",
-      "sha256": "2360558f51d500a749f4fca2b945ae8b3f7b3c5e74fede2cca7c40389cdc86e0",
-      "bytes": 34030
-    },
-    "draft_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/selected-draft-inspection.json",
-      "sha256": "4c22017a693684497933a88ed2037029057671661136ca3ba393a599e538c5b3",
-      "bytes": 2039
-    },
-    "regions": 65,
-    "text_regions": 52,
-    "figures": 13,
-    "actual_tesseract_calls": 16,
-    "actual_qwen_calls": 43,
-    "selected_tesseract_regions": 9,
-    "selected_qwen_regions": 43,
-    "correction": "pending",
-    "production_export_created": false,
-    "full_assembly_required": false,
-    "action": "Correct52 selected readings once against source246–251. Preserve singleSPACE PROTECTOR listing, physical continuations340/1002/2110/2370/4000/10001/10058/10148, quoted bitmaps, literal operators/printed mistakes and numeric/hexDATA. Restore omitted branch targets1540/1380 and printed30220–30280 labels from source; do not infer these from inferiorT alternatives. Index variables/programguide andoriginal figures, flag ambiguousglyphs/sourcebytes/execution. Export/independently validate/commit native43. RemainingAugust bodies/fourpilots/informationheading andstandaloneissueJSON/assetscloseout/requirementsaudit remain. No reading-room rebuild.",
     "human_acceptance": "pending",
-    "reading_room_rebuild": false
+    "reading_room_rebuild": false,
+    "action": "Source-verify 우주괴물 소탕작전 actual extent beginning252 before mapping. Canonicalnext257 is a boundary hint only. Reuse exact unchanged252/253 wholeviews when applicable; inspect further pages, title/byline/listing terminals and nextarticle boundary. Preserve source literals and custom graphics, route clearproseT/densecodeQ with recorded bounded fallbacks, correct selected readings once, export/independently validate/commit. Four untouched bodies, four sealedpilots, informationheading and standaloneAugustJSON/assets closeout/requirementsaudit remain. Humanacceptance/fullproofreading/sourcebytes/execution unverified; no reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {

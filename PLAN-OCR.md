@@ -5224,3 +5224,50 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Next: correct and export all pages 246–251, then restore the remaining August
   content and complete the standalone issue JSON/assets closeout and requirements
   audit. No reading-room rebuild. Commit/response costs enter the next usage audit.
+
+
+### August 신판 UFO246–251 source-corrected, 2026-10-14
+
+- Restored the complete 신판 UFO article on source pages 246–251. Canonical
+  entry 0033, 지정근, parent 0031 and first page 246 remain unchanged. The package
+  retains 65 regions, 52 ordered text blocks and 13 original images, including
+  ten full listing panels, the title illustration, screenshot and prose ending mark.
+- All 52 selected readings were source-corrected once. The single SPACE PROTECTOR
+  listing retains 548 physical rows: 308 numbered entries, 238 wrapped rows and
+  two blank rows. Cross-column/page continuations include 340, 570, 1002, 1805,
+  2100, 2110, 2260, 2350, 2370, 3110, 4000, 10001, 10058 and 10148. Branch targets
+  1540 and 1380 remain unnumbered continuations of 1340 and 1350. Wrong ownership
+  is rejected. The listing ends with the printed 30280 hexadecimal DATA row.
+- Searchable source ranges retain 15 variable definitions, 20 guide entries,
+  71 decimal DATA statements with 852 fields, 26 hexadecimal DATA statements with
+  182 fields, and 1,073 physical field fragments. An apostrophe-like mark before
+  a 255 field remains uncertain. Repeated values are counted from the scan;
+  omitted branch targets, SOUND8 identifiers and 30220–30280 labels are restored
+  from OCR errors. Literal operators, numbering gaps, 1984.2.21., 30080's final
+  7C, quoted graphics and printed errors remain unchanged. Fifty-nine flags retain
+  source uncertainties. Graphic markers and Unicode/letter readings are editorial
+  aids; original bitmaps are authoritative, with no invented source byte values.
+- No new OCR was required for correction/export. Raw milestone 22 retains the
+  actual 43 Qwen/16 Tesseract calls, selected 43 Qwen/9 Tesseract readings, four
+  selected Qwen alternates and three unselected Tesseract alternatives. No failures,
+  retries or probes. Local Qwen tokens: 35,541 input/11,098 output/46,639 total.
+  The 949 original and 482 selected/alternate files remain sealed. All 13 original
+  image inspections are reused only after exact source-pixel verification.
+- Independent source-pixel/raw/settings checks, text/review/value ranges, physical
+  and logical listing ownership, DATA fragments and fresh byte-identical rebuilds
+  pass. All 61 prior production packages, raw/selected inventories for batches
+  15–43 and 16,790 pilot files remain unchanged. The shared pipeline is unchanged;
+  the previously passing 135-test baseline is reused. Human acceptance, full
+  proofreading, source encoded bytes and historical execution remain unverified.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-ufo-source-index-43/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-43/validation.json`.
+  August now has 29 complete articles, zero partials, four untouched bodies,
+  four pending pilots, five classified headings, one unclassified heading and
+  zero human acceptances. Its 62 packages comprise 43 natives, 15 assemblies and
+  four selections; all 22 historical raw milestones are unchanged. Next: verify
+  the extent of 우주괴물 소탕작전 beginning on 252, then restore remaining content
+  and complete the standalone issue JSON/assets closeout and requirements audit.
+  Local computation/tokens have zero monetary weight; paid input ratio remains
+  1:0.1, with output price and active human effort unknown. Elapsed windows are
+  diagnostics. Commit/response costs enter the next audit. No reading-room rebuild.
