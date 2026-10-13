@@ -3699,3 +3699,35 @@ commit code/documentation. Do not count a partial opening as a complete article.
   export and commit, then separate full radar155–165 assembly. Remaining August
   bodies/pilots/headings and issue closeout remain. No reading-room rebuild. Reporting and commit usage after the audit
   cutoff carries into the next audit.
+
+
+### August radar ending161–165 validated, 2026-10-13
+
+- Corrected all 52 selected ending drafts once from fourteen individually viewed
+  source panels and an additional native crop. Four empty running headers were
+  transcribed directly from their scans. Seventy source-linked uncertainty records
+  preserve printed spellings, model discrepancies, Hanja and historical claims;
+  human acceptance remains pending. No new recognition calls.
+- Ending 161–165 JSON/assets contains 26 ordered text blocks and one original
+  terminal ornament. Ten prose joins preserve 26 native boundaries, including
+  the no-space 있었/는데 join across 164/165 around its explicit non-owning running header.
+  That header remains separate; its physical position and interruption are pinned.
+- Nine new foreign news entries 16–24 retain source ownership. The seven regions
+  continuing natural-language item 15 on 163 are separately indexed, preserving
+  its opening on 160 and intervening five reports on 161–162 without a fabricated headline
+  or cross-segment word join. Final USA address and source endmark remain distinct.
+- Independent regional/review/news/continuation UTF-8 ranges, source crop pixels,
+  raw settings/hashes and existing news/reference projections pass. A separate
+  rebuild is byte-identical. All 37 prior production packages, native 15–28 raw/
+  selected seals and 16,790 pilot files remain unchanged. Actual 42T/tenQ calls and
+  6,414 local Q tokens remain counted once; local monetary weight zero. Paid input
+  ratio remains 1:0.1; output rate/human review effort unmeasured.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-28/radar`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-radar-source-index-28`.
+  Validation: `private/pdf-restoration/13-1984-08-adaptive/batch-28/validation.json`.
+- August remains 18 complete, one partial, 12 untouched bodies, six pilot selections
+  pending and three classified/three unclassified headings; human accepted zero.
+  Both radar natives now cover 155–165. Next is a separate full assembly from exact
+  native 27/28 pins, followed by remaining August bodies/pilots/headings and whole-issue
+  JSON/assets closeout. No reading-room rebuild; reporting/commit usage after the
+  audit cutoff carries into the next audit.

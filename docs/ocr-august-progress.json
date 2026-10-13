@@ -6514,6 +6514,162 @@
         "bytes": 1126
       },
       "usage_limitation": "All10Q calls include5 worker and5 bounded heading alternates; first heading probe reused without new inference. All55T calls include54 worker calls andone unselected table probe. Selected49T/10Q source-corrected once; one unsupported assistant duplication retracted with its original proposal preserved. All attempts counted once; runtime/model tokens have zero monetary weight. Human acceptance, full proofreading, source bytes and historical claims unverified."
+    },
+    {
+      "batch": "batch-28",
+      "toc_entry_id": "maso-1984-08-toc-0040",
+      "title": "정보 레이다",
+      "source_pages": [
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p161r01": "tesseract",
+        "p161r02": "qwen",
+        "p161r03": "tesseract",
+        "p161r04": "tesseract",
+        "p161r05": "tesseract",
+        "p161r06": "tesseract",
+        "p161r07": "qwen",
+        "p161r08": "tesseract",
+        "p161r09": "tesseract",
+        "p161r10": "tesseract",
+        "p161r11": "tesseract",
+        "p162r01": "tesseract",
+        "p162r02": "qwen",
+        "p162r03": "tesseract",
+        "p162r04": "tesseract",
+        "p162r05": "qwen",
+        "p162r06": "tesseract",
+        "p162r07": "tesseract",
+        "p162r08": "tesseract",
+        "p162r09": "tesseract",
+        "p162r10": "qwen",
+        "p162r11": "tesseract",
+        "p162r12": "tesseract",
+        "p163r01": "tesseract",
+        "p163r02": "tesseract",
+        "p163r03": "tesseract",
+        "p163r04": "tesseract",
+        "p163r05": "qwen",
+        "p163r06": "tesseract",
+        "p163r07": "tesseract",
+        "p163r08": "tesseract",
+        "p164r01": "tesseract",
+        "p164r02": "qwen",
+        "p164r03": "tesseract",
+        "p164r04": "tesseract",
+        "p164r05": "tesseract",
+        "p164r06": "qwen",
+        "p164r07": "tesseract",
+        "p164r08": "tesseract",
+        "p164r09": "qwen",
+        "p164r10": "tesseract",
+        "p165r01": "tesseract",
+        "p165r02": "tesseract",
+        "p165r03": "qwen",
+        "p165r04": "tesseract",
+        "p165r05": "tesseract",
+        "p165r06": "tesseract",
+        "p165r07": "tesseract",
+        "p165r08": "tesseract",
+        "p165r09": "tesseract",
+        "p165r10": "tesseract",
+        "p165r11": "tesseract"
+      },
+      "assignment_reason": "Clear prose/repeated running headers/subheadingT. Nine boxed multilevel news headingsQ based on batch27 missing whole lines/identifiers on related headings. Hanja poetry exampleQ for mixed-script literal identifiers. Preserve terminal ornament. Item15 continuation163 and item23 continuation164/165 retained. No wholearticledualcorrection.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-28/radar/article.json",
+          "sha256": "ec09106250617732f5092222695a94e260ab104e6db89a3346cb879acee696ba",
+          "bytes": 102890
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-28/radar/manifest.json",
+          "sha256": "3744400455ea8f737c3ff9ef7b6ffb8c4d4df1bd60c56909ea5c06a902296390",
+          "bytes": 35648
+        },
+        "source_pages": [
+          161,
+          162,
+          163,
+          164,
+          165
+        ],
+        "regions": 53,
+        "text_regions": 52,
+        "figures": 1,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 70,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index-28/source-index.json",
+          "sha256": "c11f8aaa94990e1971e93cffa06bbffebcb05d2102dd65b0df0b67e6c2d99c69",
+          "bytes": 271206
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/validation.json",
+          "sha256": "5c2c7e5ae77356843219e0f40a41bcd57f9d7e0b651a878b12da7d35b14d68e6",
+          "bytes": 1272
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/map.json",
+        "sha256": "d6a7872128111fbc398c5a4ecdf962960595cb4644ccdb77a76d5b685c0efa8c",
+        "bytes": 17727
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/source-review-ledger.json",
+        "sha256": "66c1ddcfb9456a8d1a58871fdaf8b34a6d78e6998bfd395f6eabcd1d293b31af",
+        "bytes": 16391
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 6011,
+        "completion_tokens": 403,
+        "total_tokens": 6414
+      },
+      "qwen_completed_calls": 10,
+      "qwen_recognition_seconds": 6.963313484040555,
+      "tesseract_recognition_seconds": 19.52780373999849,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T03:09:41.960320+00:00",
+        "finished_at": "2026-10-13T03:10:17.189209+00:00",
+        "elapsed_seconds": 35.228901284979656,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 10,
+          "tesseract_inferences": 42,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 42,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 42,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending"
     }
   ],
   "assemblies": [
@@ -10007,6 +10163,21 @@
             "sha256": "798497978a13880b703f0a4cdab351c7e08b8fcd4a3869df1d52a5d6237dae23",
             "bytes": 121139
           }
+        },
+        {
+          "batch": "batch-28",
+          "source_pages": [
+            161,
+            162,
+            163,
+            164,
+            165
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-28/radar/article.json",
+            "sha256": "ec09106250617732f5092222695a94e260ab104e6db89a3346cb879acee696ba",
+            "bytes": 102890
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -10015,15 +10186,14 @@
         157,
         158,
         159,
-        160
-      ],
-      "deferred_pdf_pages": [
+        160,
         161,
         162,
         163,
         164,
         165
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -10069,8 +10239,9 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 28,
-    "status": "information-radar161-165-selected-raw-complete-correction-pending",
+    "batch": 29,
+    "checkpoint": "information-radar-full-assembly",
+    "status": "information-radar155-165-full-assembly-pending",
     "toc_entry_id": "maso-1984-08-toc-0040",
     "canonical_title": "정보 레이다",
     "canonical_byline": null,
@@ -10091,20 +10262,20 @@
       165
     ],
     "source_pages": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
       161,
       162,
       163,
       164,
       165
     ],
-    "deferred_pdf_pages": [
-      161,
-      162,
-      163,
-      164,
-      165
-    ],
-    "previous_goal_turn_classification": "progress: revalidated preceding status-only no-progress turn; repaired and source-reviewed53crops/14panels/5overlays, ran42T+10Q withzero failures/retries, inspectedall52drafts and independentlysealed557files;37priorpackages and16,790pilotfiles preserved.",
+    "new_ocr_required": false,
+    "new_mapping_required": false,
     "opening_native": {
       "batch": 27,
       "source_pages": [
@@ -10181,132 +10352,98 @@
         "bytes": 59801
       }
     },
+    "ending_native": {
+      "batch": 28,
+      "source_pages": [
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-28/radar/article.json",
+          "sha256": "ec09106250617732f5092222695a94e260ab104e6db89a3346cb879acee696ba",
+          "bytes": 102890
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-28/radar/manifest.json",
+          "sha256": "3744400455ea8f737c3ff9ef7b6ffb8c4d4df1bd60c56909ea5c06a902296390",
+          "bytes": 35648
+        },
+        "source_pages": [
+          161,
+          162,
+          163,
+          164,
+          165
+        ],
+        "regions": 53,
+        "text_regions": 52,
+        "figures": 1,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 70,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index-28/source-index.json",
+          "sha256": "c11f8aaa94990e1971e93cffa06bbffebcb05d2102dd65b0df0b67e6c2d99c69",
+          "bytes": 271206
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/validation.json",
+          "sha256": "5c2c7e5ae77356843219e0f40a41bcd57f9d7e0b651a878b12da7d35b14d68e6",
+          "bytes": 1272
+        }
+      },
+      "review_spec": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/review-spec.json",
+        "sha256": "e205eccc03ad9886380b52acccadde70f88e5dc39c848d99729de0c0c23ef459",
+        "bytes": 20937
+      },
+      "news_ownership": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/source-news-ownership.json",
+        "sha256": "4b48ec677ce2ce5eb075c6c3e1c25f71db1f848f76697daff6ba787b0d4f3475",
+        "bytes": 6635
+      },
+      "raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-preservation.json",
+        "sha256": "9d6cf80feaea772f93c7cbe5ae0121ddeca502c23bc703c50d424f324631f154",
+        "bytes": 68393
+      }
+    },
     "extent_inspection": {
       "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/extent-inspection.json",
       "sha256": "43f6a85d3c297dcf1f642b991d9cb0c152d810ca553f0d92ecf69c0211ca16f8",
       "bytes": 11971
     },
-    "existing_whole_views": [
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-154.png",
-        "sha256": "4a2fe928c106ea1e5ee6a06c376a8c660134955c2cb8834c7743d206aec70567",
-        "bytes": 1466244
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-155.png",
-        "sha256": "6c517ec87b700ddf816ee89cad81712e4188b41b8a03baf9d5ad08d89034ffc7",
-        "bytes": 859306
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-156.png",
-        "sha256": "123bcafc64f9da1d4d703e857e7b6cacd4e657b342c49ef844acd926077bb24d",
-        "bytes": 927633
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-157.png",
-        "sha256": "d076e31e128f7dcff22c63056319e491e2e446d8288a4b90ba2c5aacd0677819",
-        "bytes": 905273
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-158.png",
-        "sha256": "84162ab95260cd5ce3374fb7c59c24611e3c47caf12ff795ed8b2f10a097a3ec",
-        "bytes": 763990
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-159.png",
-        "sha256": "b1eebbaae217114df97e1dfa6e29b5efe014d66f0ac587e6d2e18975f26460c1",
-        "bytes": 819246
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-160.png",
-        "sha256": "9846bd9190b6f21969895e7a20ceb6a232b53e8e401b9bcdcaddeaaff510c691",
-        "bytes": 865854
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-161.png",
-        "sha256": "e93dc5595bdc40d67eec7af8a997360a113c0a2cdaf1d6cbe432011b41efedf0",
-        "bytes": 856796
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-162.png",
-        "sha256": "a4c26cd3b312c479f392881c214a77b9ff57b69f5bf6c9d341227d766842e10b",
-        "bytes": 898374
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-163.png",
-        "sha256": "f7a93d94fb5792f28972c55dd2852e84282e3687416c4f6525daf2a6bac4119b",
-        "bytes": 864578
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-164.png",
-        "sha256": "17892ff1b42a64f92a1a09a085177da102a5440c88bf5988fc662472447a960a",
-        "bytes": 861726
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-165.png",
-        "sha256": "1eca78e432541df9f38fc82e45b54808e6df531b8add35c4b6fce2e62f54c806",
-        "bytes": 931116
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-166.png",
-        "sha256": "d6544c8a6f44b894831b897f9f60e6a2137480b793d6020b1aae5a7cfe439ee0",
-        "bytes": 757881
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-167.png",
-        "sha256": "2cd908eb90d244caf5f7d4289b3bdabed52c4233fc97fa933a9dc23f3aa13aeb",
-        "bytes": 458915
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-168.png",
-        "sha256": "772173f63c7004b59086a0d131e0a0b6cb1c242bac2ba60cdf24a5b326bb7ef4",
-        "bytes": 555022
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-169.png",
-        "sha256": "7927ead3cc3a15c8745191efccbdc896a386b51dd609de485949d0d54f4b83a8",
-        "bytes": 765847
-      },
-      {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent/page-170.png",
-        "sha256": "b9ee1295b20a15c3e90ee6d1be3ea58ce354bb0cf7abf63e6346c9506cdbfa73",
-        "bytes": 661136
-      }
-    ],
-    "action": "Reuse pinned52rawdrafts and14sourcepanels; do not repeat successfulOCR. Correct once, transcribe4emptyrunningheaders directly fromsource, preserveHanja andprintedvalues/spelling, indexnine newforeignnews16–24 separatelyfromcontinuation15 on163, preserve23 있었/는데 join164/165, preservefinalUSA address andterminalornament. Export/index/independentlyvalidateending161–165 andcommit. Then separatelyassemblefull155–165 usingexactnative27/28pins; continue remainingAugust articles/pilots/headings andstandaloneJSON/assets issuecloseout. No reading-room rebuild.",
+    "natural_language_continuation": {
+      "news_item_id": "radar-news-15",
+      "opening_page": 160,
+      "ending_page": 163,
+      "intervening_news_numbers": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "prose_word_join_required": false
+    },
+    "previous_goal_turn_classification": "progress: all52 selected drafts corrected once from14 sourcepanels,52 regional ranges/26 textblocks/oneornament/9 newnews/7 continuationregions/26 nativeboundaries independentlyverified; byteidentical endingrebuild and37priorpackages/16,790pilotfiles preservation pass.",
+    "action": "After committing ending28, separately assemble full155–165 from exact native27/28package andmanifest pins. Preserve every original segment file, native prose joins/table/contact/figure/raw/correction evidence,24 news candidates and fullownership ofnatural-language15 continuation160/163 aroundfive independentnews. Retain source values/glyph uncertainties and historical claims; project exact complete source indexes, independently rebuild/check allfiles andprior packages, then commit fullassembly. No newOCR/mapping or reading-room rebuild. Continue remainingAugust articles/pilots/headings andstandaloneJSON/assets issuecloseout.",
     "full_radar_assembly_required": true,
     "human_acceptance": "pending",
-    "reading_room_rebuild": false,
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/preflight-acceptance.json",
-      "sha256": "e2ef0ac9d368cf174de825f9c33b31d799eb56a2964a47054b428bd5791e14e8",
-      "bytes": 644
-    },
-    "raw_selected_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-ocr-audit.json",
-      "sha256": "7ce2b88a0f9f6e90a728d2c79755012d68445f27b911f6f4e584a3c0332fae86",
-      "bytes": 2273
-    },
-    "raw_original_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-preservation.json",
-      "sha256": "9d6cf80feaea772f93c7cbe5ae0121ddeca502c23bc703c50d424f324631f154",
-      "bytes": 68393
-    },
-    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-28/ocr",
-    "selected_raw_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-drafts.json",
-      "sha256": "34e6dd1c72cb614539b18b0009ed822e123376f77c5db50a3d92e36125ac5e24",
-      "bytes": 43719
-    },
-    "regions": 53,
-    "text_regions": 52,
-    "figures": 1,
-    "selected_tesseract_regions": 42,
-    "selected_qwen_regions": 10,
-    "actual_tesseract_calls": 42,
-    "actual_qwen_calls": 10,
-    "correction": "pending",
-    "production_export_created": false
+    "reading_room_rebuild": false
   },
   "raw_preparation_checkpoints": [
     {
@@ -11103,7 +11240,7 @@
     {
       "batch": "batch-28",
       "toc_entry_id": "maso-1984-08-toc-0040",
-      "status": "selected-raw-complete-source-correction-pending",
+      "status": "source-corrected-validated-ending-exported",
       "source_pages": [
         161,
         162,
@@ -11200,8 +11337,51 @@
         "p164r01",
         "p165r01"
       ],
-      "source_correction": "pending",
-      "production_export": null,
+      "source_correction": "completed-assistant-human-pending",
+      "production_export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-28/radar/article.json",
+          "sha256": "ec09106250617732f5092222695a94e260ab104e6db89a3346cb879acee696ba",
+          "bytes": 102890
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-28/radar/manifest.json",
+          "sha256": "3744400455ea8f737c3ff9ef7b6ffb8c4d4df1bd60c56909ea5c06a902296390",
+          "bytes": 35648
+        },
+        "source_pages": [
+          161,
+          162,
+          163,
+          164,
+          165
+        ],
+        "regions": 53,
+        "text_regions": 52,
+        "figures": 1,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 70,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index-28/source-index.json",
+          "sha256": "c11f8aaa94990e1971e93cffa06bbffebcb05d2102dd65b0df0b67e6c2d99c69",
+          "bytes": 271206
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/validation.json",
+          "sha256": "5c2c7e5ae77356843219e0f40a41bcd57f9d7e0b651a878b12da7d35b14d68e6",
+          "bytes": 1272
+        }
+      },
       "full_assembly_required": true,
       "human_acceptance": "pending",
       "local_monetary_weight": 0,
@@ -11210,7 +11390,15 @@
         "cached": 0.1
       },
       "output_rate": null,
-      "scope": "RawOCR milestone only;52 selected texts require once-only source correction. Four repeated header omissions recovered directly during correction. Fullradar assembly and August closeout remain."
+      "scope": "Validated ending161–165;52 once-corrected drafts and one original ornament. Fullradar assembly and August closeout remain; human acceptance pending.",
+      "source_flags": 70,
+      "ordered_blocks": 26,
+      "news_continuation_index_exact": true,
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/validation.json",
+        "sha256": "5c2c7e5ae77356843219e0f40a41bcd57f9d7e0b651a878b12da7d35b14d68e6",
+        "bytes": 1272
+      }
     }
   ]
 }
