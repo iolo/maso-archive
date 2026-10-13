@@ -5533,3 +5533,53 @@ commit code/documentation. Do not count a partial opening as a complete article.
   remains 1:0.1, with output price and active human effort unknown. Elapsed windows
   include source inspection, recoveries and interruptions as diagnostics; commit/
   response costs enter the next audit. No reading-room rebuild.
+
+
+### August 복덕방139–upper140 source-corrected, 2026-10-14
+
+- Restored complete 복덕방139–upper140. Canonical entry 0039, null byline,
+  parent 0036 and first page 139 remain unchanged. The ending mark and separator
+  establish the lower ELI-TECT advertisement as outside article scope.
+- Thirty-four regions retain 32 ordered text blocks and two original images:
+  title photograph and ending mark. All 32 selected readings were source-corrected
+  once. Twenty-nine printed notices retain source reading order and membership:
+  21 under 양도 and eight under 교환. No listing or table is fabricated.
+- Structured ranges preserve 34 equipment offers, 31 printed prices, three
+  unpriced offers, 29 contact-name candidates and 29 telephone strings across
+  28 notices. One notice retains its postal address without an invented telephone.
+  The 124 fields preserve four shared-contact offer groups: prices16/55,26/9/5,
+  25/33 and25/22 stay associated with their printed equipment and one contact.
+  Two telephone numbers remain under one name; nonmodern0331-6-6472 stays literal.
+- Printed model/platform claims, differing 슈거트/슈가트 spellings, unmatched
+  parenthesis and 양도시 under 교환 remain unchanged. Faint brand, key-name,
+  postal-place and personal-name glyphs remain explicit source candidates.
+  The visibly printed two-syllable 심 수 gains no inferred middle syllable.
+  RomanII, telephone/bullet markers and spacing are editorial readings; original
+  bitmaps remain authoritative. Human acceptance/full proofreading pending.
+- All 19 original review sheets and two overlays were inspected. No crop repair
+  was needed. All 128 text boundaries pass; 12 detections concern photograph/
+  shaded-banner backgrounds around three white-on-dark headings. Separate white
+  foreground checks confirm zero glyph pixels in their three-pixel edge strips.
+  Primary OCR completed29Qwen/3Tesseract calls. Three bounded Qwen alternatives
+  recover the headings; two Tesseract notice alternatives damage identifiers and
+  remain unselected. Actual calls:32Qwen/5Tesseract; selected32Qwen/0Tesseract.
+  No recognition failures, retries, probes or correction OCR. Local Qwen tokens:
+  11,514 input,2,161 output,13,675 total. All385original/316selected files stay sealed.
+- Independent source-pixel/raw/settings and exact text/field ranges pass. Equipment,
+  price and contact ownership passes, including rejection of a price assigned to
+  another notice. Lower-ad exclusion and a fresh byte-identical rebuild pass.
+  All65prior production packages, batches15–47raw/selected seals and16,790pilot
+  files remain unchanged. Shared pipeline unchanged; pinned passing135-test
+  baseline reused. Source encoded bytes and complete proofreading unverified.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-47/classifieds`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-classifieds-source-index-47/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-47/validation.json`.
+  August now has33complete articles, zero partials or untouched bodies, four
+  pending pilots, five classified headings, one unclassified heading and zero
+  human acceptances. Its66packages comprise47natives,15assemblies and4selections;
+  all24historical raw milestones remain unchanged. Next: inspect/promote the
+  sealed 편집자 노트 aug-01 pilot, resolve the other three pilots and information
+  heading, then standalone issue JSON/assets closeout/requirements audit.
+  Local computation/tokens have zero monetary weight. Paid input ratio1:0.1;
+  output price and active human effort unknown. Elapsed windows are diagnostics;
+  commit/response costs enter the next audit. No reading-room rebuild.

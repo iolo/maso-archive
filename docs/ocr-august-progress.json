@@ -15,16 +15,15 @@
   },
   "canonical_toc_entries": 43,
   "counts_by_status": {
-    "assistant-restored-human-pending": 32,
+    "assistant-restored-human-pending": 33,
     "section-heading-no-body": 5,
     "sealed-pilot-review-pending": 4,
-    "unclassified-heading": 1,
-    "untouched": 1
+    "unclassified-heading": 1
   },
   "sealed_pilot_articles": 4,
-  "production_complete_articles": 32,
+  "production_complete_articles": 33,
   "production_partial_articles": 0,
-  "untouched_articles": 1,
+  "untouched_articles": 0,
   "unclassified_heading_entries": 1,
   "classified_heading_entries": 5,
   "human_accepted_articles": 0,
@@ -19809,6 +19808,284 @@
         "bytes": 19893
       },
       "usage_limitation": "Native46 full errata138 has30regions/24blocks/6images; all24 selected readings source-corrected once. Five separate listing fragments retain47physical rows,2numbered/5wrapped/40unnumbered, with bare80 owned by460. Main36 plus music2 dump rows retain38addresses/304byte readings; no BASIC labels invented for dumps. Logo3 before/after pairs retain6data cells/2headers and source3/9/20 targets, including asymmetric bullet. Five historical notices remain content; no earlier July package changed. Actual15Q/17T calls, selected14Q/10T; fiveQ andoneT alternatives selected, two inferiorT attempts retained. Zero recognition failures/retries/probes/correctionOCR. Source85/65,8D/BD,JQ/J0/JO,O/0, prompt/return andbullet glyphs remain explicit reading candidates. Source grammatical error and historical spellings retained. Independent field/cell indexes, negative bare80 ownership, source pixels, raw/settings, rebuild and64priorpackages/15–46seals/16790pilots pass. Sharedpipeline unchanged;135testbaseline reused. Localcompute/tokens weight0; paidinput1:0.1, outputprice/humanactiveeffort unknown. Humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-47",
+      "toc_entry_id": "maso-1984-08-toc-0039",
+      "title": "복덕방",
+      "source_pages": [
+        139,
+        140
+      ],
+      "complete_article": true,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p139r02": "qwen",
+        "p139r03": "qwen",
+        "p139r04": "qwen",
+        "p139r05": "qwen",
+        "p139r06": "qwen",
+        "p139r07": "qwen",
+        "p139r08": "qwen",
+        "p139r09": "qwen",
+        "p139r10": "qwen",
+        "p139r11": "qwen",
+        "p139r12": "qwen",
+        "p139r13": "qwen",
+        "p139r14": "qwen",
+        "p139r15": "qwen",
+        "p139r16": "qwen",
+        "p139r17": "qwen",
+        "p139r18": "qwen",
+        "p140r01": "qwen",
+        "p140r02": "qwen",
+        "p140r03": "qwen",
+        "p140r04": "qwen",
+        "p140r05": "qwen",
+        "p140r06": "qwen",
+        "p140r07": "qwen",
+        "p140r08": "qwen",
+        "p140r09": "qwen",
+        "p140r10": "qwen",
+        "p140r11": "qwen",
+        "p140r12": "qwen",
+        "p140r13": "qwen",
+        "p140r14": "qwen",
+        "p140r15": "qwen"
+      },
+      "assignment_reason": "Three clear display/section headings Tesseract. Twenty-nine coherent classifieds notices Qwen because modelnames, equipment bundles, prices andcontact associations form dense structured values; preserve original photograph andendingmark. No preparation probe justified by established content routing.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-47/classifieds/article.json",
+          "sha256": "a639f9a193de3e82e1a96a39d07fac4815fef9f8ccb8ae8987d75b7ae5b0e8ca",
+          "bytes": 56756
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-47/classifieds/manifest.json",
+          "sha256": "12bb14e37f808041fc0a41f71aa298e461f4c1c75fcf1ce963c1c5fb76bc9904",
+          "bytes": 22916
+        },
+        "source_pages": [
+          139,
+          140
+        ],
+        "regions": 34,
+        "text_regions": 32,
+        "figures": 2,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 24,
+        "complete_article": true,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-classifieds-source-index-47/source-index.json",
+          "sha256": "880509016d632c904788997a372764970fb2c2a65f0a0cf91530e6dcc39adccd",
+          "bytes": 269084
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/validation.json",
+          "sha256": "aae9d45f6e2cf70f432a5faa7e4895f5a6442f96979f82bf0e22e727a193b265",
+          "bytes": 1776
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/map.json",
+        "sha256": "80a1da981c55e20b1484c73ae0b09fa0a9d5e5e1910553dfc564a14674da0b05",
+        "bytes": 10960
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/source-review-ledger.json",
+        "sha256": "369662ed5680f08b5bf8bd9d009d40dad60a4b7f8f5d2edb44856bd3b028b2cf",
+        "bytes": 12841
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 11514,
+        "completion_tokens": 2161,
+        "total_tokens": 13675
+      },
+      "qwen_completed_calls": 32,
+      "qwen_failed_calls": 0,
+      "qwen_recognition_seconds": 55.715968040021835,
+      "tesseract_recognition_seconds": 1.2893668209944735,
+      "preparation_probe_seconds": 0,
+      "repair": {
+        "repairs": [],
+        "reason": "All34 original crops individually reviewed in19 sheets plus two overlays. All notice glyphs/contact/value rows andboth originalimages complete; no crop repair required."
+      },
+      "crop_revisions": [],
+      "raw_worker": {
+        "started_at": "2026-10-13T23:25:31.265818+00:00",
+        "finished_at": "2026-10-13T23:26:42.252524+00:00",
+        "elapsed_seconds": 70.98673021099967,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 29,
+          "tesseract_inferences": 3,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 3,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 3,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 32,
+        "selected_tesseract_regions": 0,
+        "total_qwen_calls": 32,
+        "total_tesseract_calls": 5,
+        "worker_tesseract_calls": 3,
+        "primary_qwen_failed_calls": 0,
+        "primary_qwen_failed_regions": [],
+        "alternate_qwen_failed_calls": 0,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 5,
+        "additional_tesseract_calls": 2,
+        "additional_qwen_calls": 3,
+        "selected_qwen_alternates": 3,
+        "selected_tesseract_alternates": 0,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 621,
+          "completion_tokens": 22,
+          "total_tokens": 643
+        },
+        "decisions": [
+          {
+            "region_id": "p139r10",
+            "alternate_engine": "tesseract",
+            "selected_alternate": false,
+            "reason": "Actually read alternate damages more source identifiers, values or physical row associations; retain original Qwen with explicit source ownership/field correction pending."
+          },
+          {
+            "region_id": "p140r15",
+            "alternate_engine": "tesseract",
+            "selected_alternate": false,
+            "reason": "Actually read alternate damages more source identifiers, values or physical row associations; retain original Qwen with explicit source ownership/field correction pending."
+          },
+          {
+            "region_id": "p139r02",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p139r03",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p140r07",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          }
+        ],
+        "elapsed_selection_seconds": 0.05670381599338725,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 32,
+      "total_tesseract_calls": 5,
+      "selected_qwen_regions": 32,
+      "selected_tesseract_regions": 0,
+      "worker_qwen_calls": 29,
+      "worker_tesseract_calls": 3,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 3,
+      "additional_tesseract_calls": 2,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/raw-preservation.json",
+        "sha256": "f3a75a5102b8f02246415d0ee039de07fa2e0c497d116b9b7daf3bc607a5a2b7",
+        "bytes": 49098
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/selected-raw-preservation.json",
+        "sha256": "189ef728b4803929a857dfe2eb5d668a578cdd057427b98d687e3119c5418c82",
+        "bytes": 45595
+      },
+      "export_evidence_derivation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/export-evidence-derivation.json",
+        "sha256": "3f05e9082aba8c06d433afe9e816f1ae7693f2873222ce1c321ba3bea6475421",
+        "bytes": 37712
+      },
+      "source_correction_audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/source-correction-audit.json",
+        "sha256": "fc626f66ec9af693f7786613ccfa85016b6f34b38a7ee61dc8f0b8f7683009c9",
+        "bytes": 1431
+      },
+      "source_listing_counts": {
+        "regions": {},
+        "text_regions": 32,
+        "original_images": 2,
+        "physical_listing_rows": 0,
+        "numbered_rows": 0,
+        "logical_numbered_rows": 0,
+        "wrapped_continuations": 0,
+        "unnumbered_rows": 0,
+        "listing_groups": 0,
+        "classified_notices": 29,
+        "sale_notices": 21,
+        "exchange_notices": 8,
+        "equipment_offers": 34,
+        "priced_offers": 31,
+        "unpriced_offers": 3,
+        "contact_names": 29,
+        "telephone_numbers": 29,
+        "telephone_contact_notices": 28,
+        "address_only_notices": 1,
+        "classified_fields": 124,
+        "source_flags": 24,
+        "human_acceptance": "pending",
+        "source_bytes_verified": false,
+        "execute_verified": false
+      },
+      "source_field_counts": {
+        "classified_notices": 29,
+        "sale_notices": 21,
+        "exchange_notices": 8,
+        "equipment_offers": 34,
+        "priced_offers": 31,
+        "unpriced_offers": 3,
+        "contact_names": 29,
+        "telephone_numbers": 29,
+        "telephone_contact_notices": 28,
+        "address_only_notices": 1,
+        "classified_fields": 124,
+        "source_flags": 24
+      },
+      "canonical_page_conflict": null,
+      "export_validation_failures": 0,
+      "source_finalization_failures": 0,
+      "white_glyph_preflight": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/white-glyph-edge-check.json",
+        "sha256": "90b8fe6130b88878368dcb00819b16b43a2dc6f2b274e892be96883cf3c1b3f6",
+        "bytes": 1064
+      },
+      "private_exporter": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/build-reviewed-47.py",
+        "sha256": "adb850d719c98a716151279bc9b0064e51f190516a8a8b796600d6a455653deb",
+        "bytes": 20240
+      },
+      "usage_limitation": "Native47 completes classified article139–upper140 with34regions/32blocks/2originalimages. All32 selected readings source-corrected once. Twenty-nine notices preserve21sale/8exchange source sections,34equipment offers,31prices,3unpriced offers,29contactname candidates,29telephone strings across28notices andone postal-only contact;124 exactfield ranges. Four sharedcontact offergroups retainseparate prices andone owner. Lower140commercialadvertisement excluded afterendingmark/separator. Printed unmatchedparenthesis, model/platformclaims,양도시 under교환 andspelling/name/place/brand candidates retained literally. Actual32Q/5T calls, selected32Q/0T; threeQwhite-on-dark headings selected, twoinferiorT noticealternatives retained. Zero recognition failures/retries/probes/correctionOCR/croprepairs. Original385 andselected316 files remain sealed. Independent text/field/price/contact ownership, negative crossedprice check, sourcepixels/raw/settings, rebuild and65priorpackages/15–47seals/16790pilots pass. Sharedpipeline unchanged;135testbaseline reused. Localcompute/tokens weight0; paidinput1:0.1, outputprice/humanactive effort unknown. Humanacceptance/fullproofreading/sourcebytes unverified."
     }
   ],
   "assemblies": [
@@ -27521,9 +27798,34 @@
       "page": 139,
       "kind": "article",
       "articleIds": [],
-      "status": "untouched",
+      "status": "assistant-restored-human-pending",
       "human_acceptance": "pending",
-      "pilot_pair": null
+      "pilot_pair": null,
+      "restoration": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-47/classifieds/article.json",
+        "sha256": "a639f9a193de3e82e1a96a39d07fac4815fef9f8ccb8ae8987d75b7ae5b0e8ca",
+        "bytes": 56756
+      },
+      "segments": [
+        {
+          "batch": "batch-47",
+          "source_pages": [
+            139,
+            140
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-47/classifieds/article.json",
+            "sha256": "a639f9a193de3e82e1a96a39d07fac4815fef9f8ccb8ae8987d75b7ae5b0e8ca",
+            "bytes": 56756
+          }
+        }
+      ],
+      "covered_pdf_pages": [
+        139,
+        140
+      ],
+      "deferred_pdf_pages": [],
+      "assembly_required": false
     },
     {
       "id": "maso-1984-08-toc-0040",
@@ -28121,44 +28423,36 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 47,
-    "status": "classifieds-source-extent-verified-mapping-pending",
-    "kind": "native-restoration",
-    "toc_entry_id": "maso-1984-08-toc-0039",
-    "canonical_title": "복덕방",
+    "status": "sealed-pilot-production-selection-inspection-pending",
+    "kind": "production-selection",
+    "pilot_pair": "aug-01",
+    "toc_entry_id": "maso-1984-08-toc-0037",
+    "canonical_title": "편집자 노트",
     "canonical_byline": null,
     "canonical_parent_id": "maso-1984-08-toc-0036",
-    "canonical_first_page": 139,
-    "article_extent_verified": true,
-    "article_pdf_pages": [
-      139,
-      140
-    ],
-    "source_extent_evidence": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/extent-inspection.json",
-      "sha256": "f55b4c8ec6f2e06ebe4e33dfb6a47c892672d52bc214c794250135944ba4ae7a",
-      "bytes": 5117
-    },
+    "canonical_first_page": 20,
+    "article_extent_verified": false,
     "last_completed_article": {
       "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room/article.json",
-        "sha256": "147783b206d40cc17e53c9c830a1a62c0223ddfaa440bf134ec8e556bff7e4bb",
-        "bytes": 47870
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-47/classifieds/article.json",
+        "sha256": "a639f9a193de3e82e1a96a39d07fac4815fef9f8ccb8ae8987d75b7ae5b0e8ca",
+        "bytes": 56756
       },
       "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-46/debugging-room/manifest.json",
-        "sha256": "648dc7c26ae880b6abdfa121e072edc1ac3d6dfc49c435c8f0d7804723160a55",
-        "bytes": 18229
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-47/classifieds/manifest.json",
+        "sha256": "12bb14e37f808041fc0a41f71aa298e461f4c1c75fcf1ce963c1c5fb76bc9904",
+        "bytes": 22916
       },
       "source_pages": [
-        138
+        139,
+        140
       ],
-      "regions": 30,
-      "text_regions": 24,
-      "figures": 6,
-      "physical_listing_rows": 47,
-      "logical_listing_rows": 2,
-      "unresolved_entries": 23,
+      "regions": 34,
+      "text_regions": 32,
+      "figures": 2,
+      "physical_listing_rows": 0,
+      "logical_listing_rows": 0,
+      "unresolved_entries": 24,
       "complete_article": true,
       "checks": {
         "export_integrity": true,
@@ -28169,19 +28463,19 @@
       },
       "human_acceptance": "pending",
       "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-debugging-room-source-index-46/source-index.json",
-        "sha256": "e3cef57f7e91b986c68afe66fea082f62062d9544fd60a51bdecbe5102a1ddc0",
-        "bytes": 483641
+        "path": "build/pdf-restoration/13-1984-08-adaptive-classifieds-source-index-47/source-index.json",
+        "sha256": "880509016d632c904788997a372764970fb2c2a65f0a0cf91530e6dcc39adccd",
+        "bytes": 269084
       },
       "source_validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-46/validation.json",
-        "sha256": "293f3242449e60ac6c0672d2dd757463ccb9f2c9f2567a522e401b9fbc48d4ac",
-        "bytes": 1760
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-47/validation.json",
+        "sha256": "aae9d45f6e2cf70f432a5faa7e4895f5a6442f96979f82bf0e22e727a193b265",
+        "bytes": 1776
       }
     },
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "action": "Restore 복덕방139 andupper140. Source boundary already verified against137–141 wholeviews: page140 endingmark precedes separator and lower ELI-TECT COPY방어 advertisement. Reinspect139/140 before mapping, preserve complete classifieds item/contact/value associations and source glyph uncertainties. Route coherent regions adaptively, correct selected readings once, export/independentlyvalidate/commit. One untouched body, four sealedpilots, informationheading and standaloneAugustJSON/assets closeout/requirementsaudit remain. No reading-room rebuild."
+    "action": "Inspect sealed aug-01 pilot andadjacent source toverify complete 편집자 노트20 extent before productionselection. Reuse immutable raw/corrected pilot evidence withsource/range/provenance checks; do not re-OCR alreadyvalidcrops or silently recorrectseparate arms. Resolve selection/extent gaps explicitly andpreserveeverypilot file. Fourpendingpilots(0029aug07,0037aug01,0042aug03,0043aug08), informationheading andstandaloneAugustJSON/assets closeout/requirementsaudit remain. No untouchedarticles orpartialproductionarticles remain. Humanacceptance/fullproofreading pending; no reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
