@@ -4523,3 +4523,41 @@ commit code/documentation. Do not count a partial opening as a complete article.
   a boundaryhint. Remaining articles/pilots/heading andstandalonewholeissueJSON/
   assetscloseout/requirementsaudit remain. No reading-roomrebuild. Reporting/commit
   tail carriesinto nextusageaudit. Goal remainsactive.
+
+
+### August meta-assembler207–212 raw checkpoint validated, 2026-10-13
+
+- Verified 메타어셈블러 extent207–213 from ten pinned206–215 wholeviews.
+  Native36 covers207–212; ending213 and separate fullassembly remain required.
+  Canonical0028/title/한상기/parent0025 retained; printed한상기/한국과학기술원
+  anddisplaytitle메타어셈블러 preserved. Left207KoreaSCADA recruitment ad excluded.
+- Six4000-pixel renders support108regions:98text and10original images, nine
+  numberedfigures andoneuncaptioned16-bit diagram. Diagram/formula/field scopes
+  initially25Q; prose/titles/captions73T. Figure9 is a17-row input-data template,
+  not a complete program. Formula subscripts, bitpositions and blank headercells
+  need source-linked correction/indexes; sourcebitmaps remain authoritative.
+- All47original panels/sixoverlays and33revised panels/finaloverlays inspected.
+  Forty-four distinct regions revised before inference; finalfigure6/caption
+  boundaries repaired andthree crop floor/ceil rounding differences recovered.
+  All108final crops match nativepixels;392textedges have zero glyphcrossings and
+  seven classified nontext intersections. Original/revised/rounded crops retained.
+  Schema/dependency/rounding preparation failures used zero OCR. Figure6/7 preserve
+  captions within complete bitmaps andalso have separate captionreading records.
+- All98original drafts read; fifteen T identifier/value failures receive one
+  boundedQalternate each on unchanged crops. All15read/selected; actual73T/40Q,
+  selected58T/40Q, countedonce. No recognitionfailures/retries/emptydrafts/probes.
+  SelectedQ 끌격/명명어/목적으로/리스트инг regressions retained for once-only source
+  correction. Ordinary prose spacing/wrapping and successfulQdrafts not rerun.
+- LocalQ19,672input/2,941output/22,613total;
+  recognition87.120sQ/33.249sT.
+  Worker96.211s; alternate/selection andpreparation/
+  evaluation/reporting durations separate noncausal diagnostics. Localcompute/tokens
+  monetaryweight0; paidinputratio1:0.1,outputrate/humanactiveeffort unknown.
+- Raw/selected audits pass; seals preserve1139original/797selected/
+  alternatefiles. All51priorproductionpackages,native15–35seals and16,790pilotfiles
+  unchanged. Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-36/selected-raw-audit.json`.
+- Raw checkpoint only: correction/index/export207–212 pending, then213/fullassembly.
+  Production remains25complete/zeropartial/eightuntouched/fourpendingpilots/five
+  classified/oneunclassifiedheading/zerohumanaccepted;51packages unchanged.
+  Remainingbodies/pilots/heading andstandaloneissueJSON/assetscloseout required.
+  Fullproofreading/sourcebytes/execution unverified. No reading-room rebuild.
