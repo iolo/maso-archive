@@ -10070,7 +10070,7 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": 28,
-    "status": "information-radar161-165-source-inspection-pending",
+    "status": "information-radar161-165-selected-raw-complete-correction-pending",
     "toc_entry_id": "maso-1984-08-toc-0040",
     "canonical_title": "정보 레이다",
     "canonical_byline": null,
@@ -10104,7 +10104,7 @@
       164,
       165
     ],
-    "previous_goal_turn_classification": "progress: batch27 corrected all59 selected drafts from19 individually inspected panels; exported/independently validated opening155–160 with15 news candidates,4 tables/114 physical cell slots,9 images and15 prose boundaries. Original/selected inventories,36 prior production packages and16,790 pilot files unchanged.",
+    "previous_goal_turn_classification": "progress: revalidated preceding status-only no-progress turn; repaired and source-reviewed53crops/14panels/5overlays, ran42T+10Q withzero failures/retries, inspectedall52drafts and independentlysealed557files;37priorpackages and16,790pilotfiles preserved.",
     "opening_native": {
       "batch": 27,
       "source_pages": [
@@ -10182,9 +10182,9 @@
       }
     },
     "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/extent-inspection.json",
-      "sha256": "19b9b1354a2f1ad90f6e7d94690a495308b1709568ee46ed33b3eddb90383f51",
-      "bytes": 10676
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/extent-inspection.json",
+      "sha256": "43f6a85d3c297dcf1f642b991d9cb0c152d810ca553f0d92ecf69c0211ca16f8",
+      "bytes": 11971
     },
     "existing_whole_views": [
       {
@@ -10273,10 +10273,40 @@
         "bytes": 661136
       }
     ],
-    "action": "Reuse exact full155–165 extent and17 existing154–170 whole-page scans; reinspect161–165 and166 boundary before mapping native28. Restore nine new foreign news items16–24 plus natural-language news15 continuation163, keeping independent items161–162 between160 and163. Preserve23 continuation164/165 and finalUSA/endmark165. Inspect/reroute coherent regions adaptively, preserving original images, source values/glyphs and all raw attempts; selected drafts corrected once. Export/index/independently validate ending161–165, commit, then separately assemble full155–165 from exact opening27/ending28 pins. Continue remaining August articles/pilots/headings and standalone JSON/assets closeout. No reading-room rebuild.",
+    "action": "Reuse pinned52rawdrafts and14sourcepanels; do not repeat successfulOCR. Correct once, transcribe4emptyrunningheaders directly fromsource, preserveHanja andprintedvalues/spelling, indexnine newforeignnews16–24 separatelyfromcontinuation15 on163, preserve23 있었/는데 join164/165, preservefinalUSA address andterminalornament. Export/index/independentlyvalidateending161–165 andcommit. Then separatelyassemblefull155–165 usingexactnative27/28pins; continue remainingAugust articles/pilots/headings andstandaloneJSON/assets issuecloseout. No reading-room rebuild.",
     "full_radar_assembly_required": true,
     "human_acceptance": "pending",
-    "reading_room_rebuild": false
+    "reading_room_rebuild": false,
+    "crop_gate": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/preflight-acceptance.json",
+      "sha256": "e2ef0ac9d368cf174de825f9c33b31d799eb56a2964a47054b428bd5791e14e8",
+      "bytes": 644
+    },
+    "raw_selected_audit": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-ocr-audit.json",
+      "sha256": "7ce2b88a0f9f6e90a728d2c79755012d68445f27b911f6f4e584a3c0332fae86",
+      "bytes": 2273
+    },
+    "raw_original_preservation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-preservation.json",
+      "sha256": "9d6cf80feaea772f93c7cbe5ae0121ddeca502c23bc703c50d424f324631f154",
+      "bytes": 68393
+    },
+    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-28/ocr",
+    "selected_raw_drafts": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-drafts.json",
+      "sha256": "34e6dd1c72cb614539b18b0009ed822e123376f77c5db50a3d92e36125ac5e24",
+      "bytes": 43719
+    },
+    "regions": 53,
+    "text_regions": 52,
+    "figures": 1,
+    "selected_tesseract_regions": 42,
+    "selected_qwen_regions": 10,
+    "actual_tesseract_calls": 42,
+    "actual_qwen_calls": 10,
+    "correction": "pending",
+    "production_export_created": false
   },
   "raw_preparation_checkpoints": [
     {
@@ -11069,6 +11099,118 @@
         "sha256": "bed5703e4c33cbcdf262f7fc9ca3d5b3c7e75cf90a738eb020d8ddb700f51034",
         "bytes": 69565
       }
+    },
+    {
+      "batch": "batch-28",
+      "toc_entry_id": "maso-1984-08-toc-0040",
+      "status": "selected-raw-complete-source-correction-pending",
+      "source_pages": [
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "article_pages": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "regions": 53,
+      "text_regions": 52,
+      "figures": 1,
+      "terminal_ornaments": 1,
+      "new_foreign_news_items": 9,
+      "continued_news_items": [
+        15,
+        23
+      ],
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-ocr-audit.json",
+        "sha256": "7ce2b88a0f9f6e90a728d2c79755012d68445f27b911f6f4e584a3c0332fae86",
+        "bytes": 2273
+      },
+      "preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-preservation.json",
+        "sha256": "9d6cf80feaea772f93c7cbe5ae0121ddeca502c23bc703c50d424f324631f154",
+        "bytes": 68393
+      },
+      "crop_gate": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/preflight-acceptance.json",
+        "sha256": "e2ef0ac9d368cf174de825f9c33b31d799eb56a2964a47054b428bd5791e14e8",
+        "bytes": 644
+      },
+      "draft_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-draft-inspection.json",
+        "sha256": "c8d66580bd8c34ee878b5196bbc7fbe1a7847b67815030b0c67fe8d7ca0c8a19",
+        "bytes": 14941
+      },
+      "extent": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-28/extent-inspection.json",
+        "sha256": "43f6a85d3c297dcf1f642b991d9cb0c152d810ca553f0d92ecf69c0211ca16f8",
+        "bytes": 11971
+      },
+      "qwen_calls": 10,
+      "tesseract_calls": 42,
+      "selected_tesseract_regions": 42,
+      "selected_qwen_regions": 10,
+      "failed_recognition_calls": 0,
+      "retries": 0,
+      "bounded_alternate_calls": 0,
+      "preparation_probe_calls": 0,
+      "local_qwen_tokens": {
+        "prompt_tokens": 6011,
+        "completion_tokens": 403,
+        "total_tokens": 6414
+      },
+      "all_tesseract_recognition_seconds": 19.52780373999849,
+      "all_qwen_recognition_seconds": 6.963313484040555,
+      "raw_worker": {
+        "started_at": "2026-10-13T03:09:41.960320+00:00",
+        "finished_at": "2026-10-13T03:10:17.189209+00:00",
+        "elapsed_seconds": 35.228901284979656,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 10,
+          "tesseract_inferences": 42,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 42,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 42,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "empty_raw_regions": [
+        "p162r01",
+        "p163r01",
+        "p164r01",
+        "p165r01"
+      ],
+      "source_correction": "pending",
+      "production_export": null,
+      "full_assembly_required": true,
+      "human_acceptance": "pending",
+      "local_monetary_weight": 0,
+      "input_price_ratio": {
+        "uncached": 1,
+        "cached": 0.1
+      },
+      "output_rate": null,
+      "scope": "RawOCR milestone only;52 selected texts require once-only source correction. Four repeated header omissions recovered directly during correction. Fullradar assembly and August closeout remain."
     }
   ]
 }

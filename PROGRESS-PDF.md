@@ -12993,3 +12993,37 @@ history remains in [PROGRESS.md](PROGRESS.md).
   assembly follows exact native27/28 pins. Remaining articles/pilots/headings and
   whole-issue JSON/assets closeout remain. No reading-room rebuild; reporting and
   commit usage after the audit cutoff carries into the next audit.
+
+
+## 2026-10-13 — August radar ending161–165 raw drafts validated
+
+- Reused the pinned full 155–165 extent and seventeen whole-page scans;
+  actually reinspected 161–166 before mapping. Ending161–165 has 53 regions:
+  52 text regions and one original terminal ornament, nine new foreign reports
+  numbered 16–24, natural-language item 15 continuation on 163 and item 23 across 164/165.
+- Revised 32 distinct crops before inference; six received a second adjustment.
+  Original/intermediate diagnostics and all source crops remain preserved.
+  Fourteen final panels and five final overlays were individually inspected,
+  with unchanged panels01/02 reused by exact hash. All 53 crops match native pixels.
+  The 208-edge diagnostic has zero glyph crossings and two explicitly classified
+  non-text scanner-band crossings near the top of 162, far above the heading.
+- Reused batch 27 heading evidence: 42 clear-text Tesseract calls and ten Qwen
+  calls for nine multilevel headings and one Hanja paragraph. Zero preparation
+  probes, failures, retries or alternate calls. All 52 drafts read. Four repeated
+  running headers have empty OCR and require direct source correction; no empty
+  source is claimed. Technical values, spellings and paragraph joins remain pending.
+- Qwen used 6,011 input/403 output local tokens; recognition took
+  6.963s, Tesseract 19.528s.
+  Worker/model-startup duration remains separate. Local monetary weight is zero;
+  paid input ratio remains 1:0.1 and output rate/human effort remain unknown.
+- Independent source/runtime/raw-bundle checks pass. The 557-file seal preserves
+  all attempts and geometry. All 37 prior production packages, native 15–27 raw/
+  selected seals and 16,790 pilot files remain unchanged. Evidence:
+  `private/pdf-restoration/13-1984-08-adaptive/batch-28/raw-ocr-audit.json`.
+- No new production export or completed article is claimed. August remains 18
+  complete, one partial, 12 untouched bodies, six pilot selections pending and
+  three classified/three unclassified headings; human accepted zero. Next:
+  once-only correction of 52 selected texts, validated ending161–165 JSON/assets
+  export and commit, then separate full radar155–165 assembly. Remaining August
+  bodies/pilots/headings and issue closeout remain. No reading-room rebuild. Reporting and commit usage after the audit
+  cutoff carries into the next audit.
