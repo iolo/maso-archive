@@ -4076,3 +4076,51 @@ commit code/documentation. Do not count a partial opening as a complete article.
   No reading-room rebuild. Local compute/token monetary weight zero; paid input
   ratio1:0.1,output rate/human effort unmeasured. Old pilot recognition/correction
   costs are not counted again. Reporting/commit after cutoff carries into next audit.
+
+
+### August 메아리186–188 raw checkpoint validated, 2026-10-13
+
+- Verified canonical0041 **메아리** occupies186–194, with three contributions:
+  SPC-1000용 디스어셈블러186–188, 1차 방정식189–193, and 키보드판 길 잃은
+  고양이194. Twelve whole pages186–197 were individually inspected. The first
+  prose endmark186 does not terminate continued machine-code panels187–188.
+  Page194's lower advertisement, the separate technical divider195 and PIA196–197
+  are excluded. Canonical title/null byline/parent0036 remain intact; contribution
+  bylines are source content. Nine outside-map lookups are recorded for native32.
+- Fresh4000-pixel renders186–188 support41 regions:35 text crops and six images,
+  including five whole dump panels and the prose endmark. Seventeen coherent
+  searchable dump chunks cover276 printed address/byte/checksum rows; four other
+  regions contain unnumbered assembly/monitor examples. Original images remain
+  authoritative; source bytes and historical execution are unverified.
+- Inspected17 original panels and six revised panels. Seven crop boundaries were
+  adjusted; the first dump's two10-row crops were merged into one20-row crop
+  because source tilt overlaps their rectangular vertical bounds. All original
+  maps/crops/diagnostics remain. Every final crop matches native pixels and all140
+  text boundaries pass with zero glyph or non-text crossings. All crop repairs preceded inference.
+- Completed14Tesseract and21Qwen original calls without failed recognition,
+  empty drafts,retries or preparation probes. All35 authoritative drafts were read.
+  All276 addressed rows retain eight value slots and their printed checksum slot.
+  Eight Tprose crops lost embedded addresses/commands/choice identifiers; one
+  unchanged-crop Qalternate each recovers those fields. All eight alternate drafts
+  were read and selected, preserving every original Tdraft. Selected6T/29Q
+  readings await source correction. Actual calls14T/29Q, all counted once.
+  Q still reads생각 for source생략 in186r15; ordinary wording and sparse hexO/0,
+  B/8 candidates require source correction. Do not derive bytes from arithmetic,
+  checksum or address continuity. No source text has yet been corrected.
+- Local Qwen usage: 18,514 input + 9,094 output
+  = 27,608 tokens. Q recognition took
+  286.570s; Tesseract took
+  3.340s. Worker startup/elapsed and
+  preparation/review/reporting windows remain separate. Local monetary weight0,
+  paid uncached:cached input ratio1:0.1; output rate and human active effort unknown.
+- Original/selected raw bundle/runtime/source/crop audits and immutable seals pass.
+  Seals preserve495 original and369 selected/alternate files. All44 existing
+  production packages, native15–31 original/selected seals and16,790 pilot files
+  remain unchanged. Evidence:
+  `private/pdf-restoration/13-1984-08-adaptive/batch-32/selected-raw-audit.json`.
+- This is a raw milestone: source correction, export and indexes are pending.
+  August production remains22 complete,zero partial,ten untouched bodies,five
+  pending pilot selections,three classified/three unclassified headings and zero
+  human accepted. Next: correct/export186–188, restore189–194, then assemble the
+  full department. All other bodies,pilots,headings and standalone issue JSON/assets
+  closeout remain required. No reading-room rebuild.
