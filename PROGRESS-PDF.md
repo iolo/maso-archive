@@ -14700,3 +14700,55 @@ history remains in [PROGRESS.md](PROGRESS.md).
   remains 1:0.1, with output price and active human effort unknown. Elapsed windows
   are diagnostics; recovery is included. Commit/response costs enter the next
   audit. No reading-room rebuild.
+
+
+## 2026-10-14 — August 사과귀신257–261 raw checkpoint validated
+
+- Source inspection establishes the complete 사과 귀신 article on pages 257–261.
+  Eight whole-page views of 256–263 exclude FLYBOAT and the following Q&A.
+  Three unchanged renders are reused; five are new. Canonical entry 0035,
+  윤성민, parent 0031 and first page 257 remain unchanged. Direct byline crop
+  inspection refines the rough whole-page reading to source candidate 윤 석 민;
+  that printed/canonical discrepancy is retained. The MSX FRONTIER SOFT(C)
+  listing starts at 10 and ends at 2790 GOTO 1580, with by Y.S.M./by H.J.P. comments.
+- Five upright native scans retain 59 regions: 49 text readings, including
+  29 code chunks and seven structured companions, plus ten original images with
+  seven complete listing panels. All 31 original review sheets, eleven final
+  changed/new regions, ten images and five final overlays were inspected. All
+  196 text boundaries pass with zero glyph cuts. Source-pixel comparisons pass.
+  Original and two intermediate stages are preserved. Slanted text/digits and
+  guide right margins are recovered; a shared guide boundary moves to a blank
+  gap, rules/specks are excluded, three tiny trailing code crops are merged,
+  and the final guide is split to preserve full text while excluding its ending mark.
+- All 49 primary drafts and five bounded alternatives were read. Primary calls:
+  36 Qwen/13 Tesseract, without recognition failures, retries or probes. All four
+  running headers are readable. Three Qwen prose alternatives restore garbled
+  words and clauses. One Korean Tesseract guide alternate restores 사과 names but
+  loses Y identifiers and damages sprite clauses. One English code alternate
+  restores 2750 but invents 27350 and corrupts K$ and a coordinate. Both are
+  retained without selection. Actual calls: 39 Qwen/15 Tesseract; selected
+  readings: 39 Qwen/10 Tesseract. No successful Qwen crop is repeated with Qwen.
+  Full source correction must preserve physical wraps, DATA values/strings,
+  Korean status glyphs and complete the omitted 2750 condition directly from scans.
+- Local Qwen tokens, including unselected attempts: 29,792 input,
+  9,372 output, 39,164 total. Local computation/tokens have zero
+  monetary weight. Paid input ratio remains 1:0.1; output price and active human
+  effort remain unknown. Preparation, evaluation and elapsed times are diagnostics.
+- Independent raw and selected audits pass. The 835 original and 441 selected/
+  alternate files are sealed. All 63 production packages, batches 15–44 seals and
+  16,790 pilot files remain unchanged. Exact bytes permit reuse of 46 inspected
+  primary readings and selection of three inspected Qwen alternatives.
+  Extent-render, review-sheet and provenance helpers needed recovery before OCR;
+  partial outputs and diagnostics are retained. The raw audit log was hashed
+  empty before its final stdout print. A seal check stopped the alternate helper
+  before any alternate OCR; emitted output and failure are preserved, the original
+  empty log bytes are restored, and all 835 original seals pass without changing
+  raw OCR or its seal. Recovery costs remain in the corresponding work windows.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-45`.
+- Historical raw milestone 24 creates no production export. August remains at
+  30 complete articles, zero partials, three untouched bodies, four pending pilots,
+  five classified headings, one unclassified heading and zero human acceptances.
+  Next: once-only source correction/export for 257–261, remaining articles and
+  standalone issue JSON/assets closeout/requirements audit. Source encoded bytes,
+  execution and full proofreading remain unverified. Commit/response costs enter
+  the next usage audit. No reading-room rebuild.
