@@ -5316,3 +5316,59 @@ commit code/documentation. Do not count a partial opening as a complete article.
   and complete standalone issue JSON/assets closeout and the requirements audit.
   Source encoded bytes, execution and full proofreading remain unverified.
   Commit/response costs enter the next audit. No reading-room rebuild.
+
+
+### August FLYBOAT252–256 source-corrected, 2026-10-14
+
+- Restored the complete 우주괴물 소탕작전 article on source pages 252–256.
+  Canonical entry 0034, 이재성, parent 0031 and first page 252 remain unchanged.
+  Printed title spacing and 신림중 affiliation are preserved in the source reading.
+  The package retains 56 regions, 45 ordered text blocks and 11 original images,
+  including eight complete listing panels, title illustration, screenshot and
+  prose ending mark. All 45 selected readings were source-corrected once.
+- The SPC-1000/HUBASIC FLYBOAT listing retains 494 physical rows: 253 numbered
+  entries, 235 wrapped continuations and six blank rows. It begins at 10 and ends
+  at 2630 RETURN. The guide ending at 2570 does not define the article extent.
+  Physical continuations across columns, pages and crops remain source-linked;
+  bare 450, 880 and 1050 operands do not become printed statement labels.
+- Searchable ranges retain 16 variable definitions, 21 guide entries, three
+  hexadecimal DATA statements with 99 fields and 102 physical fragments, plus
+  50 CHR$ pattern assignments with 400 operands and 416 physical fragments.
+  Values are derived from source characters, including split hex digits.
+  The printed loop through &H60 and all visible DATA fields remain literal.
+  Line 1750's omitted sixth operand is &H66; detailed source correction refines
+  the historical generalized missing-&H0 diagnosis without rewriting raw evidence.
+  T$ has eight visible operands. Source SOUND identifiers, 1984 / 6 / 6, numbering
+  gaps, repeated patterns and printed anomalies remain unchanged. Fifty-one
+  flags retain uncertain glyphs, operators, custom frames, quoted spacing and music.
+  Original bitmaps remain authoritative; no source encoded bytes are fabricated.
+- No new OCR was required. Raw milestone 23 retains actual 37 Qwen/13 Tesseract
+  calls and selected 37 Qwen/8 Tesseract readings. One Qwen alternate is selected;
+  four inferior Tesseract alternatives remain preserved. Recognition had no
+  failures, retries or probes. Local Qwen tokens: 30,899 input/9,170 output/40,069
+  total. The 779 original and 399 selected/alternate files remain sealed. Original
+  image inspection is reused only after exact source-pixel verification.
+- Independent validation rejected the first export's ownership of the bare 1050
+  target after 1040 ELSE. That failed export, rebuild and scripts are preserved.
+  The private batch exporter now requires numbered labels at column zero, keeping
+  the standalone target owned by 1040 and the following numbered 1050 independent.
+  Recovery leaves source text, downloads, scans and raw OCR unchanged. Exact
+  source-pixel/raw/settings checks, all text and literal ranges, physical/logical
+  ownership, DATA/CHR fragments, negative ownership checks and an independent
+  byte-identical rebuild pass. All 62 prior packages, batches 15–44 raw/selected
+  inventories and 16,790 pilot files remain unchanged. The shared pipeline is
+  unchanged; its pinned passing 135-test baseline is reused.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-44/flyboat`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-flyboat-source-index-44/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-44/validation.json`.
+  August now has 30 complete articles, zero partials, three untouched bodies,
+  four pending pilots, five classified headings, one unclassified heading and
+  zero human acceptances. Its 63 packages comprise 44 natives, 15 assemblies and
+  four selections; all 23 historical raw milestones are unchanged. Next: verify
+  사과 귀신 beginning on 257, then restore remaining content and complete the
+  standalone issue JSON/assets closeout and requirements audit. Human acceptance,
+  full proofreading, source encoded bytes and historical execution remain
+  unverified. Local computation/tokens have zero monetary weight; paid input ratio
+  remains 1:0.1, with output price and active human effort unknown. Elapsed windows
+  are diagnostics; recovery is included. Commit/response costs enter the next
+  audit. No reading-room rebuild.
