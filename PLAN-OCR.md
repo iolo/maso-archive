@@ -5179,3 +5179,48 @@ commit code/documentation. Do not count a partial opening as a complete article.
   remain unverified. Local compute/tokens have monetary weight0; paid input ratio
   1:0.1, output price and active human effort remain unknown. Assembly/evaluation/
   reporting elapsed times are diagnostics, not causal engine costs. Goal active.
+
+
+### August 신판 UFO246–251 raw checkpoint validated, 2026-10-14
+
+- Source inspection verifies the full 신판 UFO article on pages 246–251. Prior
+  RECALC page 245 and the next article, 우주괴물 소탕 작전 on 252, are excluded.
+  Nine whole-page views of 245–253 establish the boundaries. Canonical entry
+  0033, its title, byline, parent and first page 246 remain unchanged. All six
+  native scans are upright; no extra rotation or later assembly is needed.
+- The final map retains 65 regions: 52 text readings, including 32 code chunks
+  and six structured companions, plus 13 images with ten complete listing panels.
+  Original and revised crops and all final overlays were inspected. Exact crop
+  pixels pass. Eight of 208 text boundaries cross underline rules or illustration
+  background; none cuts glyphs. Original maps, crops, two failed blank-gap
+  selection attempts and three revision stages are preserved. The introduction
+  uses one coherent region. A proposed page 250 code split was removed before OCR
+  because skewed rows overlap that boundary. Its first-call cap was 3,072 tokens;
+  no cap retry occurred.
+- All 52 primary drafts and seven bounded alternates were read. The primary
+  39 Qwen and 13 Tesseract calls completed without failures, retries or probes.
+  Four Qwen alternates recover the affiliation digit 1, prose identifiers and two
+  running titles. Three English Tesseract code alternates worsen identifiers,
+  operands and commands; they are retained without selection. Actual calls:
+  43 Qwen/16 Tesseract. Selected readings: 43 Qwen/9 Tesseract. No successful Qwen
+  crop was repeated with Qwen. Missing branch targets 1540/1380, invented SOUNDS8
+  identifiers and misread 38220–38280 labels await correction against the scan.
+- Local Qwen tokens, including unselected attempts: 35,541 input, 11,098 output,
+  46,639 total. Local computation and tokens have zero monetary weight. Paid input
+  ratio remains 1:0.1; output rate and active human effort are unknown. Preparation
+  includes continuation/status gaps and failed crop selection. Elapsed windows
+  remain separate diagnostics.
+- Independent raw and selected audits pass. The 949 original and 482 selected/
+  alternate files are sealed. All 61 production packages, prior seals for batches
+  15–42 and 16,790 pilot files remain unchanged. Exact bytes permit reuse of 48
+  inspected primary readings and selection of four inspected alternates. Source
+  correction must preserve the single SPACE PROTECTOR listing, physical wraps,
+  printed operators and number gaps. Original bitmaps remain authoritative for
+  graphics. Source encoded bytes, execution and full proofreading are unverified.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-43`.
+- Historical raw milestone 22 creates no production export. August remains at
+  28 complete articles, zero partials, five untouched bodies, four pending pilots,
+  five classified headings, one unclassified heading and zero human acceptances.
+  Next: correct and export all pages 246–251, then restore the remaining August
+  content and complete the standalone issue JSON/assets closeout and requirements
+  audit. No reading-room rebuild. Commit/response costs enter the next usage audit.
