@@ -3927,6 +3927,96 @@
         "total_tokens": 200141,
         "uncached_nonwrite_input_tokens": 3466
       }
+    },
+    {
+      "id": "pilot-visicalc-preparation",
+      "stage": "preparation",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:32:15.265869+00:00",
+      "end": "2026-10-13T06:34:06.737156+00:00",
+      "elapsed_seconds": 111.47128701210022,
+      "observed_responses": 6,
+      "tokens": {
+        "input_tokens": 800638,
+        "cached_input_tokens": 755328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1832,
+        "reasoning_output_tokens": 400,
+        "total_tokens": 802470,
+        "uncached_nonwrite_input_tokens": 45310
+      }
+    },
+    {
+      "id": "pilot-visicalc-source-review",
+      "stage": "source-review",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:34:07.766553+00:00",
+      "end": "2026-10-13T06:41:30.724517+00:00",
+      "elapsed_seconds": 442.9579641819,
+      "observed_responses": 10,
+      "tokens": {
+        "input_tokens": 1921200,
+        "cached_input_tokens": 1860608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9619,
+        "reasoning_output_tokens": 3417,
+        "total_tokens": 1930819,
+        "uncached_nonwrite_input_tokens": 60592
+      }
+    },
+    {
+      "id": "pilot-visicalc-export",
+      "stage": "export",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:41:31.761346+00:00",
+      "end": "2026-10-13T06:45:08.266678+00:00",
+      "elapsed_seconds": 216.50533199310303,
+      "observed_responses": 4,
+      "tokens": {
+        "input_tokens": 875408,
+        "cached_input_tokens": 859776,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4152,
+        "reasoning_output_tokens": 2863,
+        "total_tokens": 879560,
+        "uncached_nonwrite_input_tokens": 15632
+      }
+    },
+    {
+      "id": "pilot-visicalc-validation",
+      "stage": "validation",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:45:09.293048+00:00",
+      "end": "2026-10-13T06:50:30.338917+00:00",
+      "elapsed_seconds": 321.04586911201477,
+      "observed_responses": 5,
+      "tokens": {
+        "input_tokens": 1161243,
+        "cached_input_tokens": 1151616,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8351,
+        "reasoning_output_tokens": 1706,
+        "total_tokens": 1169594,
+        "uncached_nonwrite_input_tokens": 9627
+      }
+    },
+    {
+      "id": "pilot-visicalc-reporting",
+      "stage": "reporting",
+      "engine": "adaptive",
+      "start": "2026-10-13T06:50:31.380919+00:00",
+      "end": "2026-10-13T06:52:06.516936+00:00",
+      "elapsed_seconds": 95.1360170841217,
+      "observed_responses": 2,
+      "tokens": {
+        "input_tokens": 476160,
+        "cached_input_tokens": 472064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1979,
+        "reasoning_output_tokens": 579,
+        "total_tokens": 478139,
+        "uncached_nonwrite_input_tokens": 4096
+      }
     }
   ],
   "money_cost": null,
@@ -3934,33 +4024,33 @@
   "observed_trial_span": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T06:31:14.196965+00:00",
-    "elapsed_seconds": 95208.19696497917,
-    "observed_responses": 2709,
+    "end": "2026-10-13T06:52:06.516936+00:00",
+    "elapsed_seconds": 96460.51693606377,
+    "observed_responses": 2740,
     "tokens": {
-      "input_tokens": 371966354,
-      "cached_input_tokens": 362564736,
+      "input_tokens": 377615471,
+      "cached_input_tokens": 368068096,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1755368,
-      "reasoning_output_tokens": 433166,
-      "total_tokens": 373721722,
-      "uncached_nonwrite_input_tokens": 9401618
+      "output_tokens": 1782343,
+      "reasoning_output_tokens": 442398,
+      "total_tokens": 379397814,
+      "uncached_nonwrite_input_tokens": 9547375
     }
   },
   "between_window_usage": {
     "id": "observed-trial-span",
     "start": "2026-10-12T04:04:26+00:00",
-    "end": "2026-10-13T06:31:14.196965+00:00",
-    "elapsed_seconds": 95208.19696497917,
-    "observed_responses": 287,
+    "end": "2026-10-13T06:52:06.516936+00:00",
+    "elapsed_seconds": 96460.51693606377,
+    "observed_responses": 291,
     "tokens": {
-      "input_tokens": 43571040,
-      "cached_input_tokens": 42774272,
+      "input_tokens": 43985508,
+      "cached_input_tokens": 43178240,
       "cache_write_input_tokens": 0,
-      "output_tokens": 117441,
-      "reasoning_output_tokens": 28300,
-      "total_tokens": 43688481,
-      "uncached_nonwrite_input_tokens": 796768
+      "output_tokens": 118483,
+      "reasoning_output_tokens": 28567,
+      "total_tokens": 44103991,
+      "uncached_nonwrite_input_tokens": 807268
     }
   },
   "coverage_note": "Between-window records remain visible as unattributed overhead. Span elapsed includes gaps and is not active correction time. Records outside the span are excluded. The last report/commit response may need the next audit.",
@@ -3972,5 +4062,5 @@
   },
   "output_rate": null,
   "human_active_review_seconds": null,
-  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison. The medical assembly export window remained open through the intervening status turn; its elapsed duration is a recorded wall-time window, not active human effort."
+  "limitation": "Prospective assistant windows include preparation, source inspection, OCR/tool waits, correction, export/recovery and reporting. Initial goal/setup before preparation01 and later response tail require explicit overhead accounting; this is no causal engine comparison. The medical assembly export window remained open through the intervening status turn; its elapsed duration is a recorded wall-time window, not active human effort. VISICALC production selection reuses sealed pilot recognition/corrections without counting that inference or correction cost again."
 }

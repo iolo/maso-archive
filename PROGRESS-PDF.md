@@ -13355,3 +13355,52 @@ history remains in [PROGRESS.md](PROGRESS.md).
   No reading-room rebuild. Local compute/token monetary weight zero; paid input
   ratio1:0.1,output rate/human effort unmeasured. Reporting/commit usage after the
   audit cutoff carries into the next audit.
+
+
+## 2026-10-13 — August VISICALC181–185 pilot promoted
+
+- Promoted full VISICALC 활용181–185 from sealed Tesseract pilot aug-05-v2-B
+  into a separate production revision. Canonical0024/title/byline삼보컴퓨터교육부,
+  business parent0021 and page181 are unchanged. Opening181, terminal endmark185
+  and next 메아리186 establish full extent. Unrelated bookstore ad181 excluded.
+- Rechecked all91 corrected text regions in18 source panels, five original images,
+  six whole-page views and nine supplementary views. Both pilot arms, the original
+  crop-defect/recovery evidence and failed Qwen attempt remain sealed. All91
+  selected transcriptions and full article.txt bytes are unchanged; no new OCR,
+  crop repair or routine paired correction. The sampled pilot comparison's eight
+  Qwen wording/number errors and one punctuation omission informed selection;
+  it is not an exhaustive error-rate or engine-level accuracy claim.
+- JSON/assets retains96 regions,85 ordered blocks,91 exact regional/review ranges,
+  five original images and25 source flags. Five retained joins preserve six native
+  boundaries, including split VISICALC and the physically wrapped commission
+  example. Three worksheet captions,34 inline examples,six definition ranges and
+  40 Unicode candidates have exact indexes. No numbered program listings inferred.
+- Four physical tables have ten companion chunks and124 indexed candidate rows,
+  896 grid slots and435 blanks. One header is printed; nine repeated axis headers
+  are editorial and explicitly identified. Pipes, repeated rule strings, formula
+  grouping and glyphs remain editorial source-reading projections. Source images
+  are authoritative; blank values are not filled by arithmetic. Display-only
+  +1.1degree rotations clarify worksheet row tilt; exported crops remain unchanged.
+- Printed Discont Rate, FORTH, QUANITY, FRIGHT, COMMISION and VISCALC remain literal.
+  The prose cashflow table and worksheet reverse second-year100/70 values; both
+  remain. Printed0.01 NPV argument versus10% claim, E11 SUM target, two /F$ colons,
+  malformed commission formula/raisedprime and invoice77523/378.58/42.88 retained.
+  Original source encoding, exact glyphs/spacing and historical execution unverified;
+  human acceptance/full proofreading remain pending.
+- Independent canonical/coverage/pixel/raw/settings/index/caption/table checks and
+  byte-identical rebuild pass. All472 copied immutable evidence files,43 prior
+  production packages,native15–31 raw/selected seals and16,790 pilot files remain
+  unchanged. Original pilot metadata/review notes are retained in the revision.
+  No shared pipeline change; unchanged132-test PDF baseline reused.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/visicalc`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-visicalc-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/pilot-aug-05/validation.json`.
+- August now has22 complete assistant restorations,zero partials,ten untouched
+  bodies,five pending pilot selections,three classified/three unclassified headings
+  and zero human accepted. Forty-four production packages comprise31 natives,
+  ten assemblies andthree selections. Next native32: verify 메아리186 source extent,
+  then restore its disassembler prose/examples/machine-code checksum table. All
+  remaining bodies/pilots/headings and standalone issue JSON/assets closeout remain.
+  No reading-room rebuild. Local compute/token monetary weight zero; paid input
+  ratio1:0.1,output rate/human effort unmeasured. Old pilot recognition/correction
+  costs are not counted again. Reporting/commit after cutoff carries into next audit.
