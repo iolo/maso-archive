@@ -78,6 +78,10 @@ def source_example_unverified(row):
                 type(answer) is int and 1 <= answer <= 4 and
                 row.get('source_encoding_verified') is False and
                 row.get('transcription_excerpt') == f'{number}. ({answer})')
+    if 'source_bytes_verified' in row:
+        # Ordinary printed literals need no machine-byte or execution fields.
+        # Their exact excerpt, region and scan are checked by linked_region.
+        return row['source_bytes_verified'] is False
     return unverified_hex(row)
 
 
@@ -100,7 +104,8 @@ def project_inline_examples(context, result, project_range, *, source_candidates
         if (identity in seen or not execution or
                 row.get('original_bytes') is not None or row.get('encoded_bytes') is not None or
                 any(k in row and row[k] is not False for k in
-                    ('source_encoding_verified', 'machine_byte_verified', 'execution_verified'))):
+                    ('source_encoding_verified', 'source_bytes_verified',
+                     'machine_byte_verified', 'execution_verified'))):
             raise ValueError('Inline example requires distinct unverified source evidence')
         seen.add(identity)
         result.setdefault('inline_example_index', []).append(project_range(row))

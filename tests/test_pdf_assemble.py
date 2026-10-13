@@ -2320,6 +2320,33 @@ class PDFAssemblyTests(unittest.TestCase):
                 self.assertFalse(source_example_unverified(dict(answer,**{key:value})))
 
 
+    def test_source_reference_printed_literals_preserve_explicit_unverified_evidence(self):
+        from tools.pdf_restore.assembly_indexes import span
+        from tools.pdf_restore.assemble import text_bytes
+        segments = self.source_reference_segments()
+        row = segments[0][1]['inline_example_index'][0]
+        row.pop('original_machine_bytes_verified')
+        row.pop('execution_verified')
+        row['source_bytes_verified'] = False
+        before = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        projected = correction['inline_example_index'][0]
+        self.assertEqual(span(projected, text_bytes(package)[0]), 'CALL-151')
+        self.assertIs(projected['source_bytes_verified'], False)
+        self.assertNotIn('execution_verified', projected)
+        self.assertEqual(segments, before)
+        self.assertEqual(correction['segments'][0]['original_metadata']['inline_example_index'],
+                         before[0][1]['inline_example_index'])
+        for key in ('source_bytes_verified', 'source_encoding_verified', 'machine_byte_verified',
+                    'original_machine_bytes_verified', 'execution_verified', 'execute_verified'):
+            for value in (True, 0):
+                invalid = deepcopy(before)
+                invalid[0][1]['inline_example_index'][0][key] = value
+                with self.subTest(key=key, value=value), self.assertRaises(ValueError):
+                    project(self.recipe, invalid)
+        with self.assertRaises(ValueError):
+            project(dict(self.recipe, index_mode='wrapped-literal-reference-v1'), before)
+
     def shared_page_segments(self):
         segments = self.rich_segments()
         page = deepcopy(segments[0][0]['pages'][0])
