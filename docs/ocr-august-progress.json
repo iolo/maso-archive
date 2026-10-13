@@ -9065,7 +9065,7 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": 27,
-    "status": "information-radar155-160-selected-raw-complete-correction-pending",
+    "status": "information-radar155-160-source-correction-in-progress",
     "toc_entry_id": "maso-1984-08-toc-0040",
     "canonical_title": "정보 레이다",
     "canonical_byline": null,
@@ -9153,10 +9153,10 @@
         "bytes": 1070
       }
     },
-    "previous_goal_turn_classification": "progress: previous status-only turn was no progress and was revalidated. Currentturn recordedfull155–165extent/businessheading,prepared/reviewednativeopening68regions with236clearboundaries,ran54T+5Q/oneTtableprobe/fiveQheadingalternates,selected59drafts andverifiedoriginal/selectedseals plus36priorpackages/16,790pilotfiles.",
+    "previous_goal_turn_classification": "progress: verified immutable original675/selected416 raw files; individually inspected correction panels01–05 and corrected16 selected drafts once against source with22 source-linked uncertainty records. No new OCR or export.",
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "action": "Reuseimmutableocr-selected/raw-selected-drafts59regions andpinned19sourcepanels; do not rerun successfulOCR. Correct selecteddrafts onceagainstsource, explicitlyrecoveremptytwo-wordforeignsectionlabelp160r05, preserve4tableimages andsourcecells/mergedlabels/blanks,5photos,news01–15 ownership,sourceparagraphs/technicalclaims. PrepareJSON/assets opening155–160 withexactsourceindexes andindependentrebuild; keep161–165deferred. Thenrestoreending161–165 andassemblefull155–165,retaining natural-language item160/163 aroundindependentnews. Continue remainingAugust bodies/pilots/headings andstandaloneJSON/assets issuecloseout. No reading-room rebuild.",
+    "action": "Resume source correction at panel06/page157; reuse correction-part-01.json and do not repeat its sixteen completed regions. Correct remaining43 selected drafts against panels06–19 once, including empty p160r05 visible 나라밖 소식 label. Then prepare source table/news/continuation indexes and independently validate opening155–160 JSON/assets export. Restore ending161–165 and assemble full radar155–165 afterward; continue remaining August articles/pilots/headings/issue closeout. No reading-room rebuild.",
     "source_pages": [
       155,
       156,
@@ -9205,8 +9205,27 @@
     "selected_qwen_regions": 10,
     "actual_tesseract_calls": 55,
     "actual_qwen_calls": 10,
-    "correction": "pending",
-    "production_export_created": false
+    "correction": "in-progress",
+    "production_export_created": false,
+    "corrected_text_regions": 16,
+    "remaining_text_regions": 43,
+    "panels_corrected": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "correction_work": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-work.json",
+      "sha256": "011445561b16dfe64f2632e6622a660fe320cdd5fa2b5019a6ad6591044f7be4",
+      "bytes": 20351
+    },
+    "correction_validation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part01-validation.json",
+      "sha256": "fc0c10eed965e2631933e7065c70b1853bfca7b3bade6e0e0d1cffa1310fad85",
+      "bytes": 1020
+    }
   },
   "raw_preparation_checkpoints": [
     {
@@ -9815,7 +9834,7 @@
     {
       "batch": "batch-27",
       "toc_entry_id": "maso-1984-08-toc-0040",
-      "status": "selected-raw-complete-source-correction-pending",
+      "status": "selected-raw-complete-source-correction-in-progress",
       "source_pages": [
         155,
         156,
@@ -9935,7 +9954,7 @@
       },
       "additional_heading_worker_seconds": 13.350007695989916,
       "selection_seconds": 0.08943995498702861,
-      "source_correction": "pending",
+      "source_correction": "in-progress",
       "production_export": null,
       "full_assembly_required": true,
       "human_acceptance": "pending",
@@ -9945,7 +9964,19 @@
         "cached": 0.1
       },
       "output_rate": null,
-      "scope": "RawOCR/crop/selection milestone only. Empty selectedsourcep160r05 requires direct once-only correction of visible나라밖 소식 label. Table row/cell joins andnewsprovenance require source correction; not a restoredarticle orhumanacceptance claim."
+      "scope": "Selected drafts preserved; first sixteen text regions/pages155–156 corrected once against five source panels. Forty-three selected drafts remain. No production export or restoration-count change; human acceptance pending.",
+      "source_corrected_text_regions": 16,
+      "remaining_source_correction_regions": 43,
+      "source_correction_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part01-validation.json",
+        "sha256": "fc0c10eed965e2631933e7065c70b1853bfca7b3bade6e0e0d1cffa1310fad85",
+        "bytes": 1020
+      },
+      "source_correction_part": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part-01.json",
+        "sha256": "7b8a1acaaf0db88257bab1d55c1cb6b078c182ea41a860b88654b5364f14e7ba",
+        "bytes": 12796
+      }
     }
   ]
 }

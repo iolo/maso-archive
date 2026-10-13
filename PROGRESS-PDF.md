@@ -12940,3 +12940,21 @@ history remains in [PROGRESS.md](PROGRESS.md).
   Natural-language item160 continues163 around other news161–162; retain that
   ownership explicitly. Remaining articles/pilots/headings and issue closeout
   remain. No HTML/frontend/browser or reading-room rebuild.
+
+### August radar correction resumed, 2026-10-13
+
+- Individually inspected source-correction panels01–05 and corrected sixteen
+  selected text drafts covering155–156 exactly once. The printed 금상사의,
+  heading/body word order, historical spellings, technical claims and paragraph
+  boundaries remain literal; twenty-two source-linked uncertainty records await
+  human review. Photographs retain their source images without invented captions.
+- Both raw inventories remain unchanged:675 original and416 selected files.
+  Correction-region coverage, selected-draft provenance and all five panel pins
+  pass. Evidence:
+  `private/pdf-restoration/13-1984-08-adaptive/batch-27/correction-part01-validation.json`.
+- Forty-three text regions remain. Resume at panel06/page157, reusing the saved
+  first part. Complete correction, source table/news/continuation indexes and
+  validated opening155–160 JSON/assets export; then restore161–165 and assemble
+  the full radar. No new OCR or production export; restoration counts remain
+  unchanged and human acceptance is pending. Reporting/commit usage carries
+  into the next audit. No reading-room rebuild.
