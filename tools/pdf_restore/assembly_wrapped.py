@@ -87,17 +87,24 @@ def join_boundaries(recipe, corrections, listing):
             source_parts=[r['line_id'] for r in prefix], bytes_changed=False))
 
 
-def project_listing(context, corrections, listing):
+def project_listing(context, corrections, listing, *, allow_aligned_assembly=False):
     original = context.correction
     code = {b['id']: b for b in context.source['blocks'] if b['kind'] == 'code'}
     groups = original.get('listing_groups', [])
-    membership, group_ids = {}, set()
+    membership, group_ids, aligned = {}, set(), set()
     for group in groups:
         id = group.get('listing_id')
         if (not isinstance(id, str) or not id or id in group_ids or not group.get('block_ids') or
                 group.get('execute_verified') is not False):
             raise ValueError('Wrapped listing requires explicit unverified groups')
         group_ids.add(id)
+        if allow_aligned_assembly and 'printed_number_column' in group:
+            # Source layout: address, machine bytes, printed number, source,
+            # comment. This opt-in path never moves or repairs those columns.
+            if (type(group['printed_number_column']) is not int or
+                    group['printed_number_column'] != 2 or group.get('line_kind') != 'numbered'):
+                raise ValueError('Aligned assembly requires its declared third number column')
+            aligned.add(id)
         for block in group['block_ids']:
             if block not in code or block in membership:
                 raise ValueError('Wrapped listing group has unknown or repeated blocks')
@@ -164,6 +171,14 @@ def project_listing(context, corrections, listing):
             raise ValueError('Wrapped physical row must retain its exact scan span')
         project_range(row)  # Validate region/scan/download even before constructing indexes.
         number = row.get('printed_line')
+        columns = None
+        if row['listing_id'] in aligned:
+            columns = text[:-1].split('\t')
+            if len(columns) != 5 or row.get('row_kind') not in ('numbered', 'wrapped-continuation'):
+                raise ValueError('Aligned assembly row requires five indexed columns')
+            if row.get('row_kind') == 'wrapped-continuation' and (
+                    not columns[1].strip() or any(columns[i] for i in (0, 2, 3, 4))):
+                raise ValueError('Aligned assembly wrap must contain only machine bytes')
         if row.get('row_kind') == 'unnumbered':
             if ('printed_line' not in row or number is not None or row.get('printed_line_visible') is not False or
                     any(k in row for k in ('logical_line_id', 'continues_printed_line'))):
@@ -172,7 +187,8 @@ def project_listing(context, corrections, listing):
             current = None  # A subsequent wrap cannot jump across this independent row.
             continue
         if row.get('row_kind') == 'numbered':
-            number_token = re.match(r'([0-9]+)(?=\s|;)', text)
+            number_token = (re.fullmatch(r'([0-9]+)', columns[2]) if columns is not None
+                            else re.match(r'([0-9]+)(?=\s|;)', text))
             if (type(number) is not int or row.get('printed_line_visible') is not True or
                     not number_token or int(number_token[1]) != number):
                 raise ValueError('Wrapped printed number differs from source text')

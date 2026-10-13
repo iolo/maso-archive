@@ -2535,6 +2535,17 @@ index. Native packages need no added regional indexes and remain immutable.
 This supports May's page33–34 sentence continuation across tables and captions.
 Historical modes retain their original adjacency and index requirements.
 
+Use `aligned-assembly-listing-v1` when immutable native listing groups declare
+`line_kind: "numbered"` and `printed_number_column: 2`. It inherits interrupted
+wrapped-listing joins and validates five tab-separated columns: address, machine
+bytes, printed line number, source, and comment. The third column must match the
+indexed printed number, including zero padding. A physical wrap must have machine
+bytes alone, with the other four columns empty, and retain its adjacent logical
+row and scan spans. Ordinary groups retain the existing listing checks. No source
+text, columns, native indexes or verification claims are rewritten; group
+declarations remain in `source_listing_groups` and original segment metadata.
+The mode does not permit cross-segment listing joins or arbitrary column layouts.
+
 ```sh
 # Rebuild into a fresh output directory; preserve the accepted package.
 make assemble-pdf-article \

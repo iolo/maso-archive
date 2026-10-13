@@ -861,6 +861,111 @@ class PDFAssemblyTests(unittest.TestCase):
                     execution_verified=False)]
         return segments
 
+    def aligned_assembly_segments(self, split_panel=False):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import START, END, block_ranges
+        segments = self.wrapped_segments(split_panel=split_panel)
+        self.recipe['index_mode'] = 'aligned-assembly-listing-v1'
+        source, correction = segments[0]
+        before = text_bytes(source)[1]
+        texts = ['0C00\tA900\t0010\tLDA #0\t한글\n',
+                 '\t0011\t\t\t\n', '0C02\t60\t0010\tRTS\t\n']
+        cursor, boundary, n = 0, {0: 0}, 0
+        for block in source['blocks']:
+            if block['kind'] != 'code':
+                continue
+            lines = block['text'].splitlines(True)
+            block['text'] = ''.join(texts[n:n + len(lines)])
+            for line in lines:
+                cursor += len(line.encode())
+                n += 1
+                boundary[cursor] = len(''.join(texts[:n]).encode())
+        self.assertEqual(cursor, len(before))
+        correction['blocks'] = deepcopy(source['blocks'])
+        for field in ('listing_index', 'listing_line_index', 'logical_listing_line_index'):
+            for row in correction[field]:
+                row[START], row[END] = boundary[row[START]], boundary[row[END]]
+                for part in row.get('segments', []):
+                    part[START], part[END] = boundary[part[START]], boundary[part[END]]
+        correction['listing_groups'][0].update(printed_number_column=2, line_kind='numbered')
+        correction['listing_anomalies'] = []
+        correction['text_review_items'] = []
+        ranges = block_ranges(source)
+        for row in correction['text_index']:
+            row[START], row[END] = ranges[row['block_id']]
+        correction['regional_transcription'] = {b['region_ids'][0]: b['text'] for b in source['blocks']}
+        return segments
+
+    def test_aligned_assembly_preserves_third_column_wraps_and_source_ranges(self):
+        from tools.pdf_restore.assemble import text_bytes
+        from tools.pdf_restore.assembly_indexes import span
+        segments = self.aligned_assembly_segments(split_panel=True)
+        before = deepcopy(segments)
+        package, correction = project(self.recipe, segments)
+        self.assertEqual(segments, before)
+        self.assertEqual(text_bytes(package)[1], b''.join(text_bytes(s)[1] for s, _ in segments))
+        self.assertEqual(len(correction['listing_line_index']), 6)
+        self.assertEqual(len(correction['logical_listing_line_index']), 4)
+        logical = correction['logical_listing_line_index'][0]
+        self.assertEqual(logical['printed_line'], 10)
+        self.assertEqual(len(logical['source_parts']), 2)
+        self.assertIn('\t0010\tLDA #0\t한글\n\t0011\t\t\t\n', span(logical, text_bytes(package)[1]))
+        self.assertEqual(correction['source_listing_groups'][0]['printed_number_column'], 2)
+        for mode in ('wrapped-listing-v1', 'interrupted-wrapped-listing-v1'):
+            with self.subTest(mode=mode), self.assertRaisesRegex(ValueError, 'Wrapped printed number'):
+                project(dict(self.recipe, index_mode=mode), segments)
+
+    def test_aligned_assembly_rejects_wrong_columns_wraps_and_number_evidence(self):
+        original = self.aligned_assembly_segments()
+        for change in ('number', 'column', 'boolean', 'missing-column', 'wrap-number',
+                       'wrap-source', 'wrap-empty', 'scan', 'logical'):
+            segments = deepcopy(original)
+            source, c = segments[0]
+            if change == 'column': c['listing_groups'][0]['printed_number_column'] = 0
+            if change == 'boolean': c['listing_groups'][0]['printed_number_column'] = True
+            if change == 'number': c['listing_line_index'][0]['printed_line'] = 11
+            if change == 'scan': c['listing_line_index'][0]['scan']['sha256'] = '0' * 64
+            if change == 'logical': c['logical_listing_line_index'][0]['source_parts'].pop()
+            replacements = {'missing-column': ('RTS\t\n', 'RTS \n'),
+                            'wrap-number': ('\t0011\t\t\t\n', '\t\t0011\t\t\n'),
+                            'wrap-source': ('\t0011\t\t\t\n', '\t001\t\tX\t\n'),
+                            'wrap-empty': ('\t0011\t\t\t\n', '\t    \t\t\t\n')}
+            if change in replacements:
+                source['blocks'][0]['text'] = source['blocks'][0]['text'].replace(*replacements[change])
+                c['blocks'] = deepcopy(source['blocks'])
+            message = ('Wrapped printed number' if change == 'number' else
+                       'Aligned assembly' if change in replacements or change in ('column', 'boolean') else
+                       'Wrapped logical index' if change == 'logical' else 'scan')
+            with self.subTest(change=change), self.assertRaisesRegex(ValueError, message):
+                project(self.recipe, segments)
+
+    def test_aligned_assembly_export_rebuild_and_rehashed_number_tamper(self):
+        segments = self.aligned_assembly_segments()
+        for spec, (source, correction) in zip(self.recipe['segments'], segments):
+            base = self.root / 'private' / spec['name']
+            write_json(base / 'corrections.json', correction)
+            recipe = json.loads((base / 'recipe.json').read_bytes())
+            recipe['corrections'] = pin(base, 'corrections.json')
+            write_json(base / 'recipe.json', recipe)
+            output = self.root / 'build' / ('aligned-' + spec['name'])
+            build(base / 'recipe.json', output, self.root)
+            spec['manifest'] = pin(self.root, output.relative_to(self.root).as_posix() + '/manifest.json')
+        with patch('tools.pdf_restore.ocr.page_ocr', side_effect=AssertionError('No OCR')):
+            self.run_assembly()
+            repeat = self.root / 'build' / 'repeat'
+            self.run_assembly(repeat)
+        files = lambda d: {p.relative_to(d).as_posix(): p.read_bytes() for p in d.rglob('*') if p.is_file()}
+        self.assertEqual(files(self.output), files(repeat))
+        c = json.loads((self.output / 'corrections.json').read_bytes())
+        c['listing_line_index'][0]['printed_line'] = 11
+        write_json(self.output / 'corrections.json', c)
+        package = json.loads((self.output / 'article.json').read_bytes())
+        package['corrections'] = [pin(self.output, 'corrections.json')]
+        write_json(self.output / 'article.json', package)
+        self.rehash(self.output)
+        with self.assertRaisesRegex(ValueError, 'correction projection'):
+            check_export(self.output)
+
     def test_wrapped_listing_preserves_zero_padded_numbers(self):
         from tools.pdf_restore.assemble import text_bytes
         segments = self.wrapped_segments()

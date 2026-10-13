@@ -24191,7 +24191,26 @@
     ],
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "action": "Reuse exact immutable natives38–40 covering221–236. Validate an explicit aligned-assembly column projection before fullassembly: native40 printed logical numbers are in the third tab-separated field, andfour machine-byte wrap rows belong to27/28/31/32. Retain all native indexes and original candidate fields. Resolve source232→233 CRT+C with explicit intervening listing objects; verify endpoints, all prose joins/listing groups/table/code/pin/reference indexes and byte-identical fullassembly. Commit the full article, then restore six untouched articles, correct/export four sealed pilots, classify information heading and complete standalone August issue JSON/assets closeout/requirements audit. No new OCR or reading-room rebuild needed for assembly."
+    "action": "Aligned assembly projection is validated against exact native38–40: 172physical/35logical/four machine-byte wraps, all57priorpackages and allsealed evidence unchanged. Reuse aligned-assembly-listing-v1 for full221–236assembly. Source226→227 register entries are separate paragraphs; reinspect exact boundarycrops. Verify232→233 CRT+C and explicitly retain runningheader, dumpimage, nine codeblocks, user-defined companion note andcaption between source endpoints. Preserve allnative metadata andindependentlyproject completeglobal indexes; verifyfullrebuild beforepromotion. Then restore sixuntouched articles, correct/export foursealedpilots, classify informationheading andcomplete AuguststandaloneJSON/assets closeout/requirementsaudit. No newOCR orreading-room rebuild forassembly.",
+    "aligned_listing_adapter": {
+      "status": "validated",
+      "index_mode": "aligned-assembly-listing-v1",
+      "validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/microcomputer-aligned-adapter/validation.json",
+        "sha256": "b0f7a5d294d6b4aa8feadca32c3a40c37f4431f70d544ceb7e8ca3a4e8a968ba",
+        "bytes": 5575
+      },
+      "pdf_tests": 135,
+      "physical_rows": 172,
+      "logical_rows": 35,
+      "wrap_rows": 4,
+      "wrap_owners": [
+        27,
+        28,
+        31,
+        32
+      ]
+    }
   },
   "raw_preparation_checkpoints": [
     {

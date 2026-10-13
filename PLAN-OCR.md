@@ -4934,3 +4934,30 @@ commit code/documentation. Do not count a partial opening as a complete article.
   requirements audit remain required. Local monetary weight is zero; paid input
   ratio is 1:0.1, output price and human active effort unknown. Work-window elapsed
   includes status/continuation gaps. No reading-room rebuild.
+
+
+### August aligned-assembly listing projection validated, 2026-10-14
+
+- Added opt-in `aligned-assembly-listing-v1` for source listing groups declaring
+  the printed number in the third of five tab-separated columns. Number fields
+  must match source logical indexes; byte-wrap rows must retain four blank fields,
+  adjacent logical ownership and original scans/ranges. Historical modes unchanged.
+- All135 PDF tests pass, including zero-padded/duplicate numbers, wraps across
+  panels, Hangul byte ranges, wrong columns/numbers/wrap fields/scan/logical evidence,
+  byte-identical synthetic rebuild and rehashed-index tamper rejection. An initial
+  scripted mode insertion caused a syntax error; corrected before passing tests.
+- Real immutable natives38–40 project295 regions,240 blocks before boundary joins,
+  34 images and172 physical/35 logical rows. Four byte wraps belong to27/28/31/32.
+  Listing bytes and all native metadata remain exact. All57 prior packages,
+  16,790 pilot files and33,500 sealed raw/selected files pass preservation checks.
+- This tooling checkpoint does not promote a full article. August totals remain
+  26complete/onepartial/sixuntouched/fourpendingpilots/fiveclassified headings/
+  oneunclassified heading/zerohumanaccepted;40 natives/13 assemblies/four selections
+  and20 historical raw milestones remain unchanged. Full221–236 assembly is next.
+  Its source232→233 CRT+C continuation and explicit intervening objects require
+  boundary review; all source indexes and an independent full rebuild must pass.
+- Evidence:`private/pdf-restoration/13-1984-08-adaptive/microcomputer-aligned-adapter/validation.json`.
+  No newOCR/source edits/frontend/browser/reading-room rebuild. Humanacceptance,
+  fullproofreading, sourceencodedbytes andhistoricalexecution remain unverified.
+  Local compute/tokens monetaryweight0; input ratio1:0.1, outputrate/human active
+  effort unknown. Elapsed tooling/reporting includes waits; tail enters nextaudit.
