@@ -8874,12 +8874,12 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": 26,
-    "status": "japan-microcomputers-source-extent-inspection-pending",
+    "status": "japan-microcomputers-source-extent-verified-mapping-pending",
     "toc_entry_id": "maso-1984-08-toc-0020",
     "canonical_title": "읽을 거리 : 일본 마이크로 컴퓨터의 현황",
     "canonical_byline": "이홍철",
     "canonical_first_page": 141,
-    "article_extent_verified": false,
+    "article_extent_verified": true,
     "last_completed_article": {
       "toc_entry_id": "maso-1984-08-toc-0019",
       "engine": "mixed",
@@ -9167,11 +9167,32 @@
       "scope": "Full shape-table article128–137 complete under JSON/assets scope. Whole August remains incomplete; human acceptance/full proofreading/source bytes/execution unverified."
     },
     "next_listed_article_page_provisional": 155,
-    "action": "Verify actual opening141 and ending/continuations of 일본 마이크로 컴퓨터의 현황 before mapping; listed information-radar155 is only a boundary hint. At most2articles/6mappedpages/20outside-map lookups. Reuse pinned whole141 from batch24 extent, verify canonical/source pins, inspect source and route coherent regions under the current adaptive guide. No fixed article length assumption. Restore bounded segments if needed, preserve all attempts/probes/fallbacks and costs; correct the selected draft once. Continue remaining August articles, six pending pilot selections, heading classifications and whole-issue JSON/assets closeout. No reading-room rebuild.",
-    "previous_goal_turn_classification": "no progress: previous response verified committed native25 and restated the next step. This turn assembled and independently validated full128–137 with exact projected native source indexes.",
+    "action": "Map the complete verified141–145 report as one five-page batch. Preserve canonical0020 title/byline/parent, eight original photographs and two pull quotes. Keep three-column reading order and vendor subsections coherent, including143/144 Epson and144 Oki column continuations. UseT for clear prose/headings/editorial introduction/pull quotes; reassess genuinely difficult crops before inference and use only bounded fallback on identifier/reading-order failures. Render native crops and inspect every panel/overlay/edge before recognition. Preserve all raw calls/probes/crop revisions/costs, correct selected drafts once, then export/index/independently validate before recording a restored article. Next distinct listed article information-radar155 extent remains to be verified for its own batch. Continue remaining August bodies, pilots, heading classifications and whole-issue JSON/assets closeout. No reading-room rebuild.",
+    "previous_goal_turn_classification": "progress: previous turn completed and committed full shape-table128–137 assembly. This turn individually inspected17source views and verified a five-page Japanese exhibition report141–145, excluding all intervening advertisements.",
     "human_acceptance": "pending",
     "source_bytes_verified": false,
-    "execute_verified": false
+    "execute_verified": false,
+    "article_pdf_pages": [
+      141,
+      142,
+      143,
+      144,
+      145
+    ],
+    "source_pages": [
+      141,
+      142,
+      143,
+      144,
+      145
+    ],
+    "deferred_pdf_pages": [],
+    "next_listed_article_page_verified": 155,
+    "extent_inspection": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-26/extent-inspection.json",
+      "sha256": "91c90e59c9fa8ff8b0e717fbd1ae567a767ddd5af178da760aafea24a8deec54",
+      "bytes": 11357
+    }
   },
   "raw_preparation_checkpoints": [
     {

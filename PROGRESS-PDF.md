@@ -12795,3 +12795,35 @@ history remains in [PROGRESS.md](PROGRESS.md).
   마이크로 컴퓨터의 현황, starting141, then restore bounded segments. Whole-issue
   JSON/assets closeout remains. No reading-room rebuild; full proofreading,
   source encoded bytes and historical execution remain unverified.
+
+
+## 2026-10-13 — August Japanese exhibition report141–145 extent verified
+
+- Individually inspected all seventeen pinned whole-page views140–156.
+  읽을 거리 : 일본 마이크로 컴퓨터의 현황 (canonical0020, 이홍철) occupies
+  exactly141–145. The printed title omits the canonical 읽을 거리 prefix;
+  canonical title/byline/parent are preserved. The editorial introduction names
+  the Osaka exhibition and reporter. Page145 closes with an exhibition overview
+  and complete final paragraph ending in ellipsis; no separate end mark or
+  continuation instruction is visible.
+- All intervening146–154 pages are separate advertisements, individually checked.
+  Actual 정보 레이다 opens155 and continues156. Classified/ad140 is excluded.
+  TOC spacing was not treated as extent proof. The revised batch covers five
+  article pages with twelve outside-map lookups, within the six-page/twenty-lookup
+  limits; the initial provisional141–146 mapping plan is superseded.
+- The report has eight exhibition photographs (one each141/142/143, two144,
+  three145), two separate pull quotes and vendor subsections. There are no code
+  listings, structured tables or diagrams. Clear prose/headings/introduction/
+  quotes start with Tesseract; crop-level failures may justify bounded fallback.
+  Three-column order, the143/144 Epson continuation and144 Oki column continuation
+  must be source-mapped explicitly. Preserve all original model names/spellings.
+- Fifteen new whole-page renders and two unchanged reused views are retained.
+  Initial rendering preceded the prospective preparation window and remains
+  visible as between-window overhead. No mapping, native crop gate, recognition,
+  correction or production export is claimed by this checkpoint.
+- Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-26/extent-inspection.json`.
+  Canonical/source/render pins pass. All existing production/raw/pilot records
+  remain unchanged. August remains17 restored, zero partials,14 untouched bodies,
+  six pilot selections pending, two classified/four unclassified headings and
+  zero human accepted. Next: map/native-crop-check/recognize the complete141–145
+  report. Whole-issue JSON/assets closeout remains; no reading-room rebuild.
