@@ -4888,3 +4888,49 @@ commit code/documentation. Do not count a partial opening as a complete article.
   issue JSON/assets closeout/requirements audit. Full proofreading, source bytes
   and historical execution remain unverified. No reading-room rebuild.
   Reporting/commit tail enters the next usage audit.
+
+
+### August microcomputer-design ending233–236 restored, 2026-10-14
+
+- Checkpoint 40 restores ending pages 233–236 of the microcomputer-design
+  article. Its 92 selected readings retain 80 ordered blocks and nine original
+  images, including figures 22–25, listings 1–2, table 3 and the printed ending mark.
+  Seven prose joins preserve twelve explicit column/page boundaries.
+- The dump retains 128 address rows: 99 with sixteen printed fields each (1,584
+  total) and 29 blank data rows. The aligned assembly listing retains 35 logical
+  rows / 39 physical rows, including four machine-byte wraps. A separate readback
+  example retains five rows. All three groups total 172 physical listing rows.
+- Keyboard table 3 retains 64 data rows / 256 logical cells / 320 code values,
+  two header rows / eight cells and one blank key cell. A blotted key number is
+  explicit. Original glyphs, continuous graphics and unreadable wiring remain
+  bitmap-authoritative. No key numbers, intermediate pin labels or bytes inferred.
+  Searchable ranges retain 106 diagram labels, 78 pin/value rows and four references.
+- Forty-two source flags preserve faint hex/handwritten/subscript candidates,
+  LS05×4/6, figure 24's zero-based versus figure 25's endpoint labels, port-value
+  differences, BRAKE/BNQ/DLB/BOT/Motolola/Techniqes and printed 입력포드.
+  Three literal amendments retain their initial readings. The initial unpromoted
+  export and validation are retained: a continuation note incorrectly named I;
+  source CRT+C was verified and the note corrected without transcription changes. Human acceptance,
+  full proofreading, encoded bytes and electrical/program execution are unverified.
+- Actual OCR remains 71 Qwen / 44 Tesseract, including two capped Qwen outputs;
+  selected readings are 67 Qwen / 25 Tesseract. No correction/export OCR. All
+  1,482 original and 906 selected/alternate sealed files remain exact. A correction
+  audit caught a newer ledger snapshot copied over a sealed earlier snapshot;
+  the exact original bytes were restored, and the newer copy and failed audit
+  are retained separately. No raw OCR changed.
+- Independent checks pass for all source pixels, raw hashes, text/review/table/
+  dump/assembly/pin/key/reference ranges, caption associations and an independent
+  byte-identical rebuild. All 56 prior production packages, native 15–40 seals
+  and 16,790 pilot files remain unchanged. Shared pipeline unchanged; the private
+  exporter reads assembly logical numbers from their printed third column.
+- Export: `build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-40/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-40/validation.json`.
+  August remains 26 complete / one partial / six untouched / four pending pilots,
+  five classified headings / one unclassified heading / zero human acceptances.
+  There are 57 packages: 40 natives, 13 assemblies and four selections. All 20
+  historical raw milestones remain exact. Natives now cover the full 221–236;
+  separate full assembly, remaining August content and standalone issue closeout/
+  requirements audit remain required. Local monetary weight is zero; paid input
+  ratio is 1:0.1, output price and human active effort unknown. Work-window elapsed
+  includes status/continuation gaps. No reading-room rebuild.

@@ -15868,6 +15868,554 @@
         "human_acceptance": "pending"
       },
       "usage_limitation": "Actual77Q/49T includes three cappedprimaryQ responses and27boundedQalternates; selected74Q/22T correctedonce. No correction/export recognition. Original12images/12captions,4tables/36datarows/178cells/13datablanks,40CRTCpins,64literalkeypositions and74flags preserved. Fullfigure wiring/encodedglyph bytes/electricalexecution unverified; source candidates explicit. Page229 bundleorientation absent in sealedmanifest; separatelypinnedexport derivative adds verifiedorientationfield without changing raw/settings/crops/runtime. Localcompute/tokens monetaryweight0; humanacceptance/fullproofreading pending."
+    },
+    {
+      "batch": "batch-40",
+      "toc_entry_id": "maso-1984-08-toc-0030",
+      "title": "마이크로 컴퓨터 설계강좌",
+      "source_pages": [
+        233,
+        234,
+        235,
+        236
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p233r01": "tesseract",
+        "p233r03": "qwen",
+        "p233r04": "qwen",
+        "p233r05": "qwen",
+        "p233r06": "qwen",
+        "p233r07": "qwen",
+        "p233r08": "qwen",
+        "p233r09": "qwen",
+        "p233r10": "qwen",
+        "p233r11": "qwen",
+        "p233r12": "qwen",
+        "p233r13": "qwen",
+        "p233r14": "qwen",
+        "p233r15": "tesseract",
+        "p233r16": "qwen",
+        "p233r17": "qwen",
+        "p233r18": "qwen",
+        "p233r19": "qwen",
+        "p233r20": "qwen",
+        "p233r21": "qwen",
+        "p233r22": "tesseract",
+        "p233r23": "tesseract",
+        "p233r24": "tesseract",
+        "p233r25": "qwen",
+        "p233r26": "qwen",
+        "p234r01": "tesseract",
+        "p234r03": "tesseract",
+        "p234r04": "tesseract",
+        "p234r05": "qwen",
+        "p234r06": "tesseract",
+        "p234r08": "qwen",
+        "p234r09": "qwen",
+        "p234r10": "qwen",
+        "p234r11": "qwen",
+        "p234r12": "qwen",
+        "p234r13": "tesseract",
+        "p234r15": "qwen",
+        "p234r16": "tesseract",
+        "p234r17": "qwen",
+        "p234r18": "tesseract",
+        "p234r19": "qwen",
+        "p234r20": "qwen",
+        "p234r21": "qwen",
+        "p234r22": "qwen",
+        "p234r23": "qwen",
+        "p234r24": "qwen",
+        "p234r25": "qwen",
+        "p234r26": "qwen",
+        "p234r27": "tesseract",
+        "p234r28": "qwen",
+        "p234r29": "qwen",
+        "p234r30": "qwen",
+        "p235r01": "tesseract",
+        "p235r03": "qwen",
+        "p235r04": "qwen",
+        "p235r05": "qwen",
+        "p235r06": "qwen",
+        "p235r07": "qwen",
+        "p235r08": "qwen",
+        "p235r09": "qwen",
+        "p235r10": "tesseract",
+        "p235r11": "qwen",
+        "p235r12": "tesseract",
+        "p235r13": "qwen",
+        "p235r14": "tesseract",
+        "p235r15": "qwen",
+        "p235r16": "tesseract",
+        "p235r17": "qwen",
+        "p235r18": "tesseract",
+        "p235r19": "qwen",
+        "p235r20": "qwen",
+        "p235r21": "qwen",
+        "p235r22": "tesseract",
+        "p235r23": "qwen",
+        "p236r01": "tesseract",
+        "p236r03": "qwen",
+        "p236r06": "tesseract",
+        "p236r09": "tesseract",
+        "p236r11": "qwen",
+        "p236r12": "qwen",
+        "p236r13": "qwen",
+        "p236r14": "qwen",
+        "p236r16": "tesseract",
+        "p236r17": "qwen",
+        "p236r18": "qwen",
+        "p236r19": "qwen",
+        "p236r20": "qwen",
+        "p236r21": "tesseract",
+        "p236r22": "qwen",
+        "p236r23": "qwen",
+        "p236r24": "qwen",
+        "p236r25": "qwen"
+      },
+      "assignment_reason": "Clear prose/headings/captions Tesseract; bounded hex/listing rows, keyboard codes, technical identifiers, circuit labels and references Qwen. Eight sourceimages retain all ink; graphic key/glyph cells stay bitmap-authoritative. No probes or routine dual correction. Ending233–236; immutable38/39/40 fullassembly still required.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/article.json",
+          "sha256": "362930be9bd4cde4886fcf9e791db613de6bcd0a6c8f52837662d71aeda8e697",
+          "bytes": 166522
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/manifest.json",
+          "sha256": "e23234c65c593236cf89898643c8f7164882d3c386a49d24ce141dd15d2e90c7",
+          "bytes": 63945
+        },
+        "source_pages": [
+          233,
+          234,
+          235,
+          236
+        ],
+        "regions": 101,
+        "text_regions": 92,
+        "figures": 9,
+        "physical_listing_rows": 172,
+        "logical_listing_rows": 35,
+        "unresolved_entries": 42,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-40/source-index.json",
+          "sha256": "78393a7f78a739bffcb35ca39f76757ddad4069a5ef8dbd41fbb2bba25e2ad05",
+          "bytes": 3241724
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/validation.json",
+          "sha256": "af590f20e3242913c88c1f3bd372bb20dcce6daa32080dbeb0702d549ce875f4",
+          "bytes": 1650
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/map.json",
+        "sha256": "8297dd6b746b634269f5fa5daf9c4c903d2d123e9c77479ccd31126fb186b2d2",
+        "bytes": 30493
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/source-review-ledger.json",
+        "sha256": "aa02a76fda48ab9386ebee6ff3422727f07331642748a67013d462d7097e6e03",
+        "bytes": 35998
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 29031,
+        "completion_tokens": 14438,
+        "total_tokens": 43469
+      },
+      "qwen_completed_calls": 69,
+      "qwen_failed_calls": 2,
+      "qwen_recognition_seconds": 253.70631269700243,
+      "qwen_recognition_timing_scope": "Successful calls only; failed actual wall time unavailable.",
+      "failed_qwen_server_reported_seconds": 126.24850799999999,
+      "failed_qwen_wall_seconds": null,
+      "all_qwen_recognition_seconds": null,
+      "tesseract_recognition_seconds": 12.779172158014262,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T16:24:41.220608+00:00",
+        "finished_at": "2026-10-13T16:30:58.035465+00:00",
+        "elapsed_seconds": 376.81488008299857,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 50,
+          "tesseract_inferences": 42,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 42,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 42,
+          "qwen_failed_calls": 2
+        },
+        "error": null
+      },
+      "tables": [
+        {
+          "region_id": "p235r03",
+          "data_rows": 0,
+          "data_cells": 0
+        },
+        {
+          "region_id": "p235r04",
+          "data_rows": 0,
+          "data_cells": 0
+        },
+        {
+          "region_id": "p235r05",
+          "data_rows": 16,
+          "data_cells": 64
+        },
+        {
+          "region_id": "p235r06",
+          "data_rows": 16,
+          "data_cells": 64
+        },
+        {
+          "region_id": "p235r07",
+          "data_rows": 16,
+          "data_cells": 64
+        },
+        {
+          "region_id": "p235r08",
+          "data_rows": 16,
+          "data_cells": 64
+        }
+      ],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 67,
+        "selected_tesseract_regions": 25,
+        "total_qwen_calls": 71,
+        "total_tesseract_calls": 44,
+        "worker_tesseract_calls": 42,
+        "primary_qwen_failed_calls": 2,
+        "primary_qwen_failed_regions": [
+          "p234r16",
+          "p236r06"
+        ],
+        "alternate_qwen_failed_calls": 0,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 21,
+        "additional_tesseract_calls": 2,
+        "additional_qwen_calls": 19,
+        "selected_qwen_alternates": 19,
+        "selected_tesseract_alternates": 2,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 5892,
+          "completion_tokens": 930,
+          "total_tokens": 6822
+        },
+        "decisions": [
+          {
+            "region_id": "p234r03",
+            "alternate_engine": "tesseract",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p234r04",
+            "alternate_engine": "tesseract",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p233r13",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p233r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p233r21",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p233r25",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p234r17",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p234r22",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p234r23",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p234r24",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p234r25",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p234r26",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p234r30",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p235r09",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p235r11",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p235r13",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p235r20",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p235r21",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p235r23",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p236r14",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          },
+          {
+            "region_id": "p236r20",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "Bounded alternate preserves damaged identifiers/values or restores physical aligned row associations; correct selected reading once from source."
+          }
+        ],
+        "elapsed_selection_seconds": 0.255386542998167,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 71,
+      "total_tesseract_calls": 44,
+      "selected_qwen_regions": 67,
+      "selected_tesseract_regions": 25,
+      "worker_qwen_calls": 52,
+      "worker_tesseract_calls": 42,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 19,
+      "additional_tesseract_calls": 2,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/raw-preservation.json",
+        "sha256": "06427d623caf49b6a7c40b6e52fad63ede182794cf18fa11056aeb98ba5bf440",
+        "bytes": 182706
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/selected-raw-preservation.json",
+        "sha256": "6fa7cc0d7011508912d83067814042585a87060c8e400a307d90086337c7f191",
+        "bytes": 130036
+      },
+      "export_evidence_derivation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/export-evidence-derivation.json",
+        "sha256": "56c2eaf6d7db3ad2777b68a916b9f32141b205cc99d25bad0865ff09af0ccc1c",
+        "bytes": 104344
+      },
+      "source_correction_audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/source-correction-audit.json",
+        "sha256": "1aed04a3f8bb030a9be361dc118d08ede912d274828f2b90e4a224c8739fcfb4",
+        "bytes": 12663
+      },
+      "source_listing_counts": {
+        "physical_rows": 172,
+        "numbered_rows": 35,
+        "logical_numbered_rows": 35,
+        "listing_groups": 3,
+        "wrapped_continuations": 4,
+        "unnumbered_rows": 133,
+        "source_complete_program": false,
+        "source_byte_encoding_verified": false,
+        "human_acceptance": "pending",
+        "regions": {
+          "p233r03": 16,
+          "p233r04": 16,
+          "p233r05": 16,
+          "p233r06": 16,
+          "p233r07": 16,
+          "p233r08": 3,
+          "p233r09": 15,
+          "p233r10": 14,
+          "p233r11": 16,
+          "p234r03": 15,
+          "p234r04": 11,
+          "p234r05": 13,
+          "p234r19": 5
+        }
+      },
+      "source_tables": {
+        "tables": [
+          {
+            "table_id": "keyboard-ROM-table3-p235r03",
+            "region_id": "p235r03",
+            "header_rows": 1,
+            "data_rows": 0,
+            "columns": 4,
+            "data_cells": 0,
+            "header_cells": 4,
+            "nonblank_data_cells": 0,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "keyboard-ROM-table3-p235r04",
+            "region_id": "p235r04",
+            "header_rows": 1,
+            "data_rows": 0,
+            "columns": 4,
+            "data_cells": 0,
+            "header_cells": 4,
+            "nonblank_data_cells": 0,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "keyboard-ROM-table3-p235r05",
+            "region_id": "p235r05",
+            "header_rows": 0,
+            "data_rows": 16,
+            "columns": 4,
+            "data_cells": 64,
+            "header_cells": 0,
+            "nonblank_data_cells": 64,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "keyboard-ROM-table3-p235r06",
+            "region_id": "p235r06",
+            "header_rows": 0,
+            "data_rows": 16,
+            "columns": 4,
+            "data_cells": 64,
+            "header_cells": 0,
+            "nonblank_data_cells": 64,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "keyboard-ROM-table3-p235r07",
+            "region_id": "p235r07",
+            "header_rows": 0,
+            "data_rows": 16,
+            "columns": 4,
+            "data_cells": 64,
+            "header_cells": 0,
+            "nonblank_data_cells": 64,
+            "blank_cells": 0,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          },
+          {
+            "table_id": "keyboard-ROM-table3-p235r08",
+            "region_id": "p235r08",
+            "header_rows": 0,
+            "data_rows": 16,
+            "columns": 4,
+            "data_cells": 64,
+            "header_cells": 0,
+            "nonblank_data_cells": 63,
+            "blank_cells": 1,
+            "header_blank_cells": 0,
+            "source_bitmap_authoritative": true
+          }
+        ],
+        "data_rows": 64,
+        "data_cells": 256,
+        "nonblank_data_cells": 255,
+        "header_rows": 2,
+        "header_cells": 8,
+        "blank_cells": 1,
+        "header_blank_cells": 0,
+        "code_subfields": 320,
+        "human_acceptance": "pending"
+      },
+      "source_field_counts": {
+        "dump_address_rows": 128,
+        "dump_blank_rows": 29,
+        "dump_byte_fields": 1584,
+        "keyboard_code_fields": 320,
+        "keyboard_cap_fields": 72,
+        "bibliographic_references": 4,
+        "component_pin_fields": 78,
+        "diagram_labels": 106,
+        "source_flags": 42,
+        "source_prose_boundaries": 12
+      },
+      "usage_limitation": "Actual71Q/44T includes two capped primaryQ failures, nineteen Qalternates andtwo aligned-column Tesseract alternatives;69successful Qcalls but67selected Qreadings. No correction/export OCR. Original nineimages authoritative;42source flags retain faint/readable candidates andprinted errors. Original1482/selected906sealedfiles exact. Sharedpipeline unchanged; private native export indexes the printed logical assembly number in column3. Fullassembly needs a separately verified compatible index projection. Humanacceptance/fullproofreading/encodedbytes/execution unverified; localmonetaryweight0."
     }
   ],
   "assemblies": [
@@ -22684,6 +23232,20 @@
             "sha256": "13f0efbcc7c7269066061d06e326a1979fe233602d378987dc8372645ac1ad02",
             "bytes": 183633
           }
+        },
+        {
+          "batch": "batch-40",
+          "source_pages": [
+            233,
+            234,
+            235,
+            236
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/article.json",
+            "sha256": "362930be9bd4cde4886fcf9e791db613de6bcd0a6c8f52837662d71aeda8e697",
+            "bytes": 166522
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -22698,14 +23260,13 @@
         229,
         230,
         231,
-        232
-      ],
-      "deferred_pdf_pages": [
+        232,
         233,
         234,
         235,
         236
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -23439,17 +24000,11 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 40,
-    "checkpoint": "microcomputer-design-ending-source-correction-and-export",
-    "kind": "native-restoration",
-    "status": "microcomputer-design-233-236-selected-raw-complete-correction-pending",
+    "status": "full-microcomputer-design-assembly-required",
+    "kind": "segment-assembly",
     "toc_entry_id": "maso-1984-08-toc-0030",
-    "canonical_title": "마이크로 컴퓨터 설계강좌",
-    "canonical_byline": "김덕우",
-    "canonical_parent_id": "maso-1984-08-toc-0025",
-    "canonical_first_page": 221,
     "article_extent_verified": true,
-    "article_pages": [
+    "source_pages": [
       221,
       222,
       223,
@@ -23467,67 +24022,176 @@
       235,
       236
     ],
-    "source_pages": [
-      233,
-      234,
-      235,
-      236
+    "deferred_pages": [],
+    "native_inputs": [
+      {
+        "batch": "batch-38",
+        "source_pages": [
+          221,
+          222,
+          223,
+          224,
+          225,
+          226
+        ],
+        "export": {
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/article.json",
+            "sha256": "6c2425f2c2c63c87a4aad690b6ac17c9e584cf699521199eef9f27f1120aeeff",
+            "bytes": 140701
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-38/microcomputer-design/manifest.json",
+            "sha256": "fb3db421ce1bf9175e59e88cade5b84168bf1b46451c19b26d496135a672088f",
+            "bytes": 51818
+          },
+          "source_pages": [
+            221,
+            222,
+            223,
+            224,
+            225,
+            226
+          ],
+          "regions": 86,
+          "text_regions": 73,
+          "figures": 13,
+          "physical_listing_rows": 0,
+          "logical_listing_rows": 0,
+          "unresolved_entries": 24,
+          "complete_article": false,
+          "checks": {
+            "export_integrity": true,
+            "byte_identical_rebuild": true,
+            "text_and_review_utf8_ranges": true,
+            "listing_byte_coverage": true,
+            "explicit_printed_line_numbers": true
+          },
+          "human_acceptance": "pending",
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38/source-index.json",
+            "sha256": "93472ea69c6c3cbb2fc01cdb4f2069a48b88cb24e6554c443bbe98c0459c4c53",
+            "bytes": 245310
+          },
+          "source_validation": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-38/validation.json",
+            "sha256": "0bbe51567d359a9bfc8128aa38f4c18392dfaf6b7cd1a8367815306445f96a4d",
+            "bytes": 1828
+          }
+        }
+      },
+      {
+        "batch": "batch-39",
+        "source_pages": [
+          227,
+          228,
+          229,
+          230,
+          231,
+          232
+        ],
+        "export": {
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/article.json",
+            "sha256": "13f0efbcc7c7269066061d06e326a1979fe233602d378987dc8372645ac1ad02",
+            "bytes": 183633
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-39/microcomputer-design-middle/manifest.json",
+            "sha256": "039dd85b4df8b2c6822e5aa99bf774d6043cad454c2e3cd71533d409004957ca",
+            "bytes": 66990
+          },
+          "source_pages": [
+            227,
+            228,
+            229,
+            230,
+            231,
+            232
+          ],
+          "regions": 108,
+          "text_regions": 96,
+          "figures": 12,
+          "physical_listing_rows": 0,
+          "logical_listing_rows": 0,
+          "unresolved_entries": 74,
+          "complete_article": false,
+          "checks": {
+            "export_integrity": true,
+            "byte_identical_rebuild": true,
+            "text_and_review_utf8_ranges": true,
+            "listing_byte_coverage": true,
+            "explicit_printed_line_numbers": true
+          },
+          "human_acceptance": "pending",
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39/source-index.json",
+            "sha256": "b6dddce93d4a6470a6973875656148f6df5a9c713222240c64534b1ec79beb0f",
+            "bytes": 1121888
+          },
+          "source_validation": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-39/validation.json",
+            "sha256": "ba945dd4cc275531d8e863e541cf1d5bafe2cf26e3fc455d7ed8f78b5952f888",
+            "bytes": 1614
+          }
+        }
+      },
+      {
+        "batch": "batch-40",
+        "source_pages": [
+          233,
+          234,
+          235,
+          236
+        ],
+        "export": {
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/article.json",
+            "sha256": "362930be9bd4cde4886fcf9e791db613de6bcd0a6c8f52837662d71aeda8e697",
+            "bytes": 166522
+          },
+          "manifest": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-40/microcomputer-design-ending/manifest.json",
+            "sha256": "e23234c65c593236cf89898643c8f7164882d3c386a49d24ce141dd15d2e90c7",
+            "bytes": 63945
+          },
+          "source_pages": [
+            233,
+            234,
+            235,
+            236
+          ],
+          "regions": 101,
+          "text_regions": 92,
+          "figures": 9,
+          "physical_listing_rows": 172,
+          "logical_listing_rows": 35,
+          "unresolved_entries": 42,
+          "complete_article": false,
+          "checks": {
+            "export_integrity": true,
+            "byte_identical_rebuild": true,
+            "text_and_review_utf8_ranges": true,
+            "listing_byte_coverage": true,
+            "explicit_printed_line_numbers": true
+          },
+          "human_acceptance": "pending",
+          "source_index": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-40/source-index.json",
+            "sha256": "78393a7f78a739bffcb35ca39f76757ddad4069a5ef8dbd41fbb2bba25e2ad05",
+            "bytes": 3241724
+          },
+          "source_validation": {
+            "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/validation.json",
+            "sha256": "af590f20e3242913c88c1f3bd372bb20dcce6daa32080dbeb0702d549ce875f4",
+            "bytes": 1650
+          }
+        }
+      }
     ],
-    "deferred_article_pages": [],
-    "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/extent-inspection.json",
-      "sha256": "9171c0328e2bc95af5b369f0ec56fa1068f85e8a09c3698dccdc25ac36fbf037",
-      "bytes": 7924
-    },
-    "crop_gate": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/preflight-acceptance.json",
-      "sha256": "b93f2b3ec2f2e2658ff7f1430d5a5eb6efe61c5272145e6f62010191ce2e483e",
-      "bytes": 845
-    },
-    "raw_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/raw-ocr-audit.json",
-      "sha256": "de37ff39846f26cb456d1226a0330028d9155672b4a397b728018bb0b1b3c4e4",
-      "bytes": 1662
-    },
-    "raw_selected_audit": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/selected-raw-audit.json",
-      "sha256": "5320e73b4fbc25fa062eac4a09d65a9e3fd0e76e03420078ef91036d6e10809d",
-      "bytes": 1924
-    },
-    "raw_original_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/raw-preservation.json",
-      "sha256": "06427d623caf49b6a7c40b6e52fad63ede182794cf18fa11056aeb98ba5bf440",
-      "bytes": 182706
-    },
-    "raw_selected_preservation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/selected-raw-preservation.json",
-      "sha256": "6fa7cc0d7011508912d83067814042585a87060c8e400a307d90086337c7f191",
-      "bytes": 130036
-    },
-    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-40/ocr-selected",
-    "selected_raw_drafts": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/raw-selected-drafts.json",
-      "sha256": "a8a6f8188c8321a68d10c67959416069db7d2990be750a7f1cfb615bea2b3973",
-      "bytes": 48389
-    },
-    "draft_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-40/selected-draft-inspection.json",
-      "sha256": "8d7dc487c00c7ffe03d08b47abdff57b2e9c37b5608eb8a30d1cf909c3e318e8",
-      "bytes": 2126
-    },
-    "regions": 101,
-    "text_regions": 92,
-    "figures": 9,
-    "actual_tesseract_calls": 44,
-    "actual_qwen_calls": 71,
-    "selected_tesseract_regions": 25,
-    "selected_qwen_regions": 67,
-    "correction": "pending",
-    "production_export_created": false,
-    "previous_goal_turn_classification": "No progress: previous turn answered status. Current turn completes alternate inspection, selected drafts, seals and independent audit.",
-    "action": "Correct the 92 selected readings once against preserved scans. Index all 128 printed dump addresses including 29 blank data rows, aligned assembly rows/machine bytes/source/comments, five-line readback example, 64 keyboard ROM rows and five literal code values per row, original key graphics, circuit pin and label associations, prose boundaries and four references. Preserve printed discrepancies and source-linked uncertainties. Export and independently validate/commit ending233–236, then assemble full221–236 from exact natives38–40. Restore six untouched articles, correct/export four sealed pilots, classify information heading and close out whole August standalone issue JSON/assets with requirements audit. No reading-room rebuild.",
     "human_acceptance": "pending",
-    "reading_room_rebuild": false
+    "reading_room_rebuild": false,
+    "action": "Reuse exact immutable natives38–40 covering221–236. Validate an explicit aligned-assembly column projection before fullassembly: native40 printed logical numbers are in the third tab-separated field, andfour machine-byte wrap rows belong to27/28/31/32. Retain all native indexes and original candidate fields. Resolve source232→233 CRT+C with explicit intervening listing objects; verify endpoints, all prose joins/listing groups/table/code/pin/reference indexes and byte-identical fullassembly. Commit the full article, then restore six untouched articles, correct/export four sealed pilots, classify information heading and complete standalone August issue JSON/assets closeout/requirements audit. No new OCR or reading-room rebuild needed for assembly."
   },
   "raw_preparation_checkpoints": [
     {
