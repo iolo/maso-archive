@@ -4601,3 +4601,37 @@ commit code/documentation. Do not count a partial opening as a complete article.
   ending213,then separatelyassemblefull207–213. Remainingbodies/pilots/heading and
   standalonewholeissueJSON/assetscloseout/requirementsaudit remain required.
   No reading-room rebuild. Reporting/commit/response tail carriesinto nextusageaudit.
+
+
+### August meta-assembler ending213 restored, 2026-10-13
+
+- Restored 메타어셈블러 ending213 from22 selected readings, corrected once against
+  all23 individual source crops.23regions retain21orderedblocks andone original
+  terminalmark. One native column continuation preserves all13asterisk directives;
+  three references retain literal numbers, names, dates and physical word wraps.
+- Actual15T/13Q includes7originalQ andsixboundedidentifier/value alternates;
+  selected9T/13Q. All239original/227selectedsealed files unchanged. Qtokens
+  5,542input/1,026output/6,568total; zero recognitionfailures/retries/probes and
+  zero correction/export OCR. Two crop edges revised before inference; final88
+  textedges have zero glyphcrossings/one nontext runningheaderrule intersection.
+  Preparation syntax/dependency failures retained with zero inference cost.
+- Enlarged source prints AISM/GEN in conclusion; extra I retained literally,
+  superseding earlier sealed OCR-defect rationale without rewriting raw history.
+  Health/GENTRATING,1–80행,colon-dot-colon syntax, smeared운용되는 and physical
+  C-/ROSS,MICROCO-/MPUTERS,Uni-/versal and45/-66 wraps retain ten source flags.
+  No external bibliographic normalization. Fullproofreading/humanacceptance/
+  sourceencodedbytes/historicalexecution remain unverified.
+- Independent sourcepixels/raw/settings,canonical/coverage,text/review/directive/
+  reference ranges and byte-identical rebuild pass. All52prior productionpackages,
+  native15–37raw/selected seals and16,790pilot files unchanged. Sharedpipeline
+  unchanged; JSON/assets only. Localcompute/tokens monetaryweight0,paidinput1:0.1;
+  outputrate andhumanactive effort unknown; reportingtail carriesinto nextaudit.
+- Export:`build/pdf-restoration/13-1984-08-adaptive-batch-37/meta-ending`.
+  Index:`build/pdf-restoration/13-1984-08-adaptive-meta-source-index-37/source-index.json`.
+  Evidence:`private/pdf-restoration/13-1984-08-adaptive/batch-37/validation.json`.
+  August remains25complete/onepartial/sevenuntouched/fourpendingpilots/fiveclassified/
+  oneunclassifiedheading/zerohumanaccepted.53packages comprise37natives/12assemblies/
+  fourselections;17historicalraw milestones unchanged. All207–213source pages now
+  restored; separate full207–213assembly remains required before articlecompletion.
+  Remainingbodies/pilots/heading and standalonewholeissueJSON/assets closeout/
+  requirementsaudit remain required. No reading-room rebuild; goal remainsactive.

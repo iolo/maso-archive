@@ -11346,6 +11346,364 @@
         "note": "Sourcefigure8 has threecolumn positions; second/third rows leave thirdcell empty. No fabricated headers."
       },
       "usage_limitation": "All40Q include25original/15boundedalternates; all73originalT countedonce. Selected40Q/58T source-correctedonce;10sourceimages,98readings,17schematic-template rows/fourverticaldotstacks,3headerrows/9cells/2blanks,16bitpositions retained. Not acompleteprogram. Sourceglyph/spelling/formula/headerperiod candidates retained; two sourceflag anchors repaired withoutchanging anysource reading. No correction/export OCR. Localcompute/tokens monetaryweightzero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
+    },
+    {
+      "batch": "batch-37",
+      "toc_entry_id": "maso-1984-08-toc-0028",
+      "title": "메타어셈블러",
+      "source_pages": [
+        213
+      ],
+      "complete_article": false,
+      "primary_route": "mixed",
+      "region_engine_overrides": {
+        "p213r01": "qwen",
+        "p213r02": "tesseract",
+        "p213r03": "tesseract",
+        "p213r04": "tesseract",
+        "p213r05": "tesseract",
+        "p213r06": "tesseract",
+        "p213r07": "qwen",
+        "p213r08": "qwen",
+        "p213r09": "qwen",
+        "p213r10": "tesseract",
+        "p213r11": "qwen",
+        "p213r12": "qwen",
+        "p213r13": "qwen",
+        "p213r14": "tesseract",
+        "p213r15": "tesseract",
+        "p213r16": "qwen",
+        "p213r17": "qwen",
+        "p213r18": "qwen",
+        "p213r19": "tesseract",
+        "p213r20": "qwen",
+        "p213r21": "qwen",
+        "p213r22": "qwen"
+      },
+      "assignment_reason": "Clearprose/headings Tesseract; two syntaxexamples,13directives andthreebibliographicreferences Qwen. Preserve sourceendingmark. Native37ending213 only; separatefull207–213assembly required. No probe orsuccessfulcrop rerun.",
+      "export": {
+        "package": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-37/meta-ending/article.json",
+          "sha256": "7240ec2ba1143c8db16af600e60f442900049bbccebcddf90d73b198f8c5a6cc",
+          "bytes": 41144
+        },
+        "manifest": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-batch-37/meta-ending/manifest.json",
+          "sha256": "a3655a93696c09237fcca5590486cf211cac9a5bedbe123486b4f83be8270fcf",
+          "bytes": 15963
+        },
+        "source_pages": [
+          213
+        ],
+        "regions": 23,
+        "text_regions": 22,
+        "figures": 1,
+        "physical_listing_rows": 0,
+        "logical_listing_rows": 0,
+        "unresolved_entries": 10,
+        "complete_article": false,
+        "checks": {
+          "export_integrity": true,
+          "byte_identical_rebuild": true,
+          "text_and_review_utf8_ranges": true,
+          "listing_byte_coverage": true,
+          "explicit_printed_line_numbers": true
+        },
+        "human_acceptance": "pending",
+        "source_index": {
+          "path": "build/pdf-restoration/13-1984-08-adaptive-meta-source-index-37/source-index.json",
+          "sha256": "7c28dea3f12f387ddde4ca489de072b8746ff4f713a310b8dbe4ccf2165978ec",
+          "bytes": 53793
+        },
+        "source_validation": {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-37/validation.json",
+          "sha256": "5b99e6e53f8c8fcc121fde3f27fae6b02f9605b55c7a01aee59f3f2c979cf2d0",
+          "bytes": 1713
+        }
+      },
+      "map": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-37/map.json",
+        "sha256": "f20457ae02d2a61eadc101656b6d912d74a408921c70b6ff95469ff6b21d4bc0",
+        "bytes": 7922
+      },
+      "review": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-37/source-review-ledger.json",
+        "sha256": "fdcb0af83f40604e6d99450ef2e936de6ccf8f943c8b8287d37df659392ea4ff",
+        "bytes": 8568
+      },
+      "local_qwen_tokens": {
+        "prompt_tokens": 5542,
+        "completion_tokens": 1026,
+        "total_tokens": 6568
+      },
+      "qwen_completed_calls": 13,
+      "qwen_recognition_seconds": 26.51166776199898,
+      "tesseract_recognition_seconds": 6.904644088997884,
+      "preparation_probe_seconds": 0,
+      "repair": null,
+      "raw_worker": {
+        "started_at": "2026-10-13T12:52:33.581782+00:00",
+        "finished_at": "2026-10-13T12:52:59.155656+00:00",
+        "elapsed_seconds": 25.573903497002902,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 7,
+          "tesseract_inferences": 15,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 15,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 15,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "tables": [],
+      "human_acceptance": "pending",
+      "post_recognition_fallback": {
+        "status": "selected-raw-awaiting-source-correction",
+        "selected_qwen_regions": 13,
+        "selected_tesseract_regions": 9,
+        "total_qwen_calls": 13,
+        "total_tesseract_calls": 15,
+        "worker_tesseract_calls": 15,
+        "preparation_probe_calls": 0,
+        "selected_probe_reuses": 0,
+        "additional_inference_calls": 6,
+        "additional_tesseract_calls": 0,
+        "additional_qwen_calls": 6,
+        "alternate_qwen_tokens": {
+          "prompt_tokens": 3644,
+          "completion_tokens": 727,
+          "total_tokens": 4371
+        },
+        "decisions": [
+          {
+            "region_id": "p213r01",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p213r08",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p213r11",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p213r16",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p213r17",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          },
+          {
+            "region_id": "p213r18",
+            "alternate_engine": "qwen",
+            "selected_alternate": true,
+            "reason": "BoundedQalternate preserves damaged source identifier/value associations; remaining literal/bar/glyph corrections made once from scans."
+          }
+        ],
+        "elapsed_selection_seconds": 0.04009587100154022,
+        "all_original_raw_unchanged": true,
+        "source_correction": "pending",
+        "human_acceptance": "pending"
+      },
+      "total_qwen_calls": 13,
+      "total_tesseract_calls": 15,
+      "selected_qwen_regions": 13,
+      "selected_tesseract_regions": 9,
+      "worker_qwen_calls": 7,
+      "worker_tesseract_calls": 15,
+      "preparation_probe_calls": 0,
+      "selected_probe_reuses": 0,
+      "additional_qwen_calls": 6,
+      "additional_tesseract_calls": 0,
+      "original_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-37/raw-preservation.json",
+        "sha256": "8c66b01987d42a5c25a461f2b43e3d61591c7f0647661226cb77523ab2a7810e",
+        "bytes": 29490
+      },
+      "selected_raw_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-37/selected-raw-preservation.json",
+        "sha256": "83849c9228da9092e64d803e236b09822860fa437426a01a2919498b0212af45",
+        "bytes": 32233
+      },
+      "source_listing_counts": {
+        "regions": {},
+        "physical_rows": 0,
+        "numbered_rows": 0,
+        "logical_numbered_rows": 0,
+        "listing_groups": 0,
+        "wrapped_continuations": 0,
+        "source_complete_program": false,
+        "source_byte_encoding_verified": false,
+        "human_acceptance": "pending",
+        "note": "Thirteen directive names and two syntax formats are searchable prose examples, not a program."
+      },
+      "source_structured_fields": {
+        "definitions": [
+          {
+            "id": "meta-ending-definition-1",
+            "region_id": "p213r05",
+            "transcription_excerpt": "각 어셈블러 입력은 1행에서 80행까지의 어느 위치에 있어도 되지만, 오직 한 문장만이 입력될 수 있다. 하나의 어셈블리 문장은 3개의 필드로 이루어지는데 이를 각각 표지(label) 필드, 값 필드, 그리고 코멘트 필드라고 한다.",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "meta-ending-definition-2",
+            "region_id": "p213r06",
+            "transcription_excerpt": "표지 필드는 없을 수도 있지만, 있다면 항상 어셈블리 문장의 첫번째 필드에 있어야 한다. 표지는 어떤 행에서 시작해도 되며, 식별자의 끝에 콜론이 붙는 것으로 되어있다. 또한 여러개의 식별자가 각기 콜론이 뒤에 붙어서 나오도록 하여 표지 필드에 쓰여질 수 있다. 즉 아래와 같은 형태가 가능하다.",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "meta-ending-definition-3",
+            "region_id": "p213r08",
+            "transcription_excerpt": "값 필드는 PC에 의해 현재 지정된 메모리 단어에 값을 주거나, 어셈블러에 의한 어떤 행동을 요구하는 의사 지시어에 의해 값을 주는 어셈블리 명령어나 수식이 나타나는 부분이다. 따라서, 일반적인 어셈블리 문장을 보면 아래와 같다.",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "meta-ending-definition-4",
+            "region_id": "p213r11",
+            "transcription_excerpt": "ASM/GEN으로 생성된 어셈블러는 어셈블리 프로그래밍 과정에 편리함을 주기 위한 의사 지시어들이 있다. 이러한 의사 지시어들은 모두 별표로 그 이름이 시작한다. 그런 의사 지시어 다음에 나오는 필드의 어떠한 식별자도 앞에서 그 값이 정해져 있어야 한다. 이때 마크로 정의만은 예외로 한다. 의사 지시어에는 아래에 나열한 것들이 있는데, 각각의 기능은 매뉴얼을 참고하도록 한다.",
+            "source_bytes_verified": false
+          }
+        ],
+        "tables": [],
+        "component_pin_pairs": [],
+        "led_bit_states": [],
+        "port_pin_pairs": [],
+        "directives": [
+          {
+            "id": "ASMGEN-directive-1",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*BEGIN",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-2",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*CREF",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-3",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*DEFA",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-4",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*DS",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-5",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*END",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-6",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*EQU",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-7",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*MACRO",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-8",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*MEND",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-9",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*PRG",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-10",
+            "region_id": "p213r12",
+            "transcription_excerpt": "*SETA",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-11",
+            "region_id": "p213r13",
+            "transcription_excerpt": "*TITLE",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-12",
+            "region_id": "p213r13",
+            "transcription_excerpt": "*TRACE",
+            "source_bytes_verified": false
+          },
+          {
+            "id": "ASMGEN-directive-13",
+            "region_id": "p213r13",
+            "transcription_excerpt": "*TXT",
+            "source_bytes_verified": false
+          }
+        ],
+        "bibliographic_references": [
+          {
+            "id": "meta-reference-1",
+            "region_id": "p213r20",
+            "transcription_excerpt": "1. E. Skordalakis, \"Meta-assemblers\", IEEE MICRO, Vol. 3, No. 2,\npp. 6-16, April 1983.",
+            "source_bytes_verified": false,
+            "printed_number": 1
+          },
+          {
+            "id": "meta-reference-2",
+            "region_id": "p213r21",
+            "transcription_excerpt": "2. J. Robert Health and Shailesh M. Patel, \"How to Write a Uni-\nversal Cross-Assembler\", IEEE MICRO, Vol. 1, No. 3, pp. 45\n-66, August 1981.",
+            "source_bytes_verified": false,
+            "printed_number": 2
+          },
+          {
+            "id": "meta-reference-3",
+            "region_id": "p213r22",
+            "transcription_excerpt": "3. Robert A. Mueller and Gearold R. Johnson, \"ASM/GEN: A C-\nROSS-ASSEMBLER GENTRATING SYSTEM FOR MICROCO-\nMPUTERS\", USER'S MANUAL VERSION 5.1, Colorado State\nUniversity, UCC-76-2, July 1976.",
+            "source_bytes_verified": false,
+            "printed_number": 3
+          }
+        ],
+        "source_bitmap_authoritative": true,
+        "human_acceptance": "pending"
+      },
+      "source_tables": {
+        "tables": [],
+        "data_rows": 0,
+        "data_cells": 0,
+        "nonblank_data_cells": 0,
+        "header_rows": 0,
+        "header_cells": 0,
+        "blank_cells": 0,
+        "human_acceptance": "pending"
+      },
+      "usage_limitation": "All13Q include7original/sixboundedalternates; all15originalT countedonce. Selected13Q/9T source-correctedonce; originalterminalmark,22readings,13directives/threephysical-wrapreferences retained. Printed AISM/GEN I is source discrepancy, superseding sealed initial OCR-defect rationale without rewriting history. Health/GENTRATING/colon-dot-colon/1–80행 retained. Zero correction/export OCR. Localcompute/tokens monetaryweightzero; humanacceptance/fullproofreading/sourcebytes/execution unverified."
     }
   ],
   "assemblies": [
@@ -17819,6 +18177,17 @@
             "sha256": "45d4c9279491e0ce5408149581d69b0269ae663630b8c8548049a3ae0c13ce80",
             "bytes": 185106
           }
+        },
+        {
+          "batch": "batch-37",
+          "source_pages": [
+            213
+          ],
+          "package": {
+            "path": "build/pdf-restoration/13-1984-08-adaptive-batch-37/meta-ending/article.json",
+            "sha256": "7240ec2ba1143c8db16af600e60f442900049bbccebcddf90d73b198f8c5a6cc",
+            "bytes": 41144
+          }
         }
       ],
       "covered_pdf_pages": [
@@ -17827,11 +18196,10 @@
         209,
         210,
         211,
-        212
-      ],
-      "deferred_pdf_pages": [
+        212,
         213
       ],
+      "deferred_pdf_pages": [],
       "assembly_required": true
     },
     {
@@ -18591,17 +18959,12 @@
   "reading_room_rebuild": false,
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
-    "batch": 37,
-    "checkpoint": "meta-assembler-ending213",
-    "kind": "native-restoration",
-    "status": "source-extent-verified-ending-unmapped",
+    "batch": null,
+    "status": "meta-full-assembly-pending",
+    "kind": "article-assembly",
     "toc_entry_id": "maso-1984-08-toc-0028",
-    "canonical_title": "메타어셈블러",
-    "canonical_byline": "한상기",
-    "canonical_parent_id": "maso-1984-08-toc-0025",
-    "canonical_first_page": 207,
     "article_extent_verified": true,
-    "article_pages": [
+    "article_pdf_pages": [
       207,
       208,
       209,
@@ -18610,49 +18973,53 @@
       212,
       213
     ],
-    "source_pages": [
-      213
+    "native_batches": [
+      36,
+      37
     ],
-    "already_restored_article_pages": [
-      207,
-      208,
-      209,
-      210,
-      211,
-      212
-    ],
-    "deferred_article_pages": [
-      213
-    ],
-    "opening_export": {
-      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-36/meta-assembler/article.json",
-      "sha256": "45d4c9279491e0ce5408149581d69b0269ae663630b8c8548049a3ae0c13ce80",
-      "bytes": 185106
+    "source_endings": {
+      "package": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-37/meta-ending/article.json",
+        "sha256": "7240ec2ba1143c8db16af600e60f442900049bbccebcddf90d73b198f8c5a6cc",
+        "bytes": 41144
+      },
+      "manifest": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-37/meta-ending/manifest.json",
+        "sha256": "a3655a93696c09237fcca5590486cf211cac9a5bedbe123486b4f83be8270fcf",
+        "bytes": 15963
+      },
+      "source_pages": [
+        213
+      ],
+      "regions": 23,
+      "text_regions": 22,
+      "figures": 1,
+      "physical_listing_rows": 0,
+      "logical_listing_rows": 0,
+      "unresolved_entries": 10,
+      "complete_article": false,
+      "checks": {
+        "export_integrity": true,
+        "byte_identical_rebuild": true,
+        "text_and_review_utf8_ranges": true,
+        "listing_byte_coverage": true,
+        "explicit_printed_line_numbers": true
+      },
+      "human_acceptance": "pending",
+      "source_index": {
+        "path": "build/pdf-restoration/13-1984-08-adaptive-meta-source-index-37/source-index.json",
+        "sha256": "7c28dea3f12f387ddde4ca489de072b8746ff4f713a310b8dbe4ccf2165978ec",
+        "bytes": 53793
+      },
+      "source_validation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-37/validation.json",
+        "sha256": "5b99e6e53f8c8fcc121fde3f27fae6b02f9605b55c7a01aee59f3f2c979cf2d0",
+        "bytes": 1713
+      }
     },
-    "opening_manifest": {
-      "path": "build/pdf-restoration/13-1984-08-adaptive-batch-36/meta-assembler/manifest.json",
-      "sha256": "5048ce892318127ac6b485d66ca74d0001a3f916373da8c54b94819f7dc04f4e",
-      "bytes": 67713
-    },
-    "opening_source_index": {
-      "path": "build/pdf-restoration/13-1984-08-adaptive-meta-source-index-36/source-index.json",
-      "sha256": "4f8381facb96aa39286035b734ba743f58dc0522feea9807e02b63899ca56732",
-      "bytes": 250581
-    },
-    "opening_validation": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-36/validation.json",
-      "sha256": "68fa75c32bce3678cf78610e353b285521757a404472ca5fda0a9e47cda33204",
-      "bytes": 2007
-    },
-    "extent_inspection": {
-      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-36/extent-inspection.json",
-      "sha256": "c9d7543b38c0d426733f50dbea5d0dd3b399b4a7f5f05eabba1be5a5579153eb",
-      "bytes": 4352
-    },
-    "previous_goal_turn_classification": "Progress: all98selected source readings correctedonce,10figures preserved;207–212 JSON/assets/index andbyte-identicalrebuild independentlyvalidated.15boundedalternates retained andcountedonce. Two duplicate-shortflaganchors recovered beforepromotion withall98readingsunchanged. Rawandselectedsealedfiles/prior51packages/pilots preserved.",
-    "action": "Reuse pinned207–213 extent andexact213wholeview; source-inspect ending213 beforemapping/native-render. Restoresections7.4/7.5,VIIIconclusion,allprinted directives andthree references/terminalmark. Source-correct selecteddraftsonce withbounded identifier/value fallbackonly; index literaldirectives/references. Export/index/independentlyvalidate ending andcommit. Then separatelyassemblefull207–213 fromimmutable native36/37 pins,preserving all98opening readings,10images,5joins/6boundaries,17schematicrows andsourceindexes/metadata. Continue sevenotheruntouchedbodies/fourpendingpilots/oneheadingclassification andstandalonewholeissueJSON/assetscloseout/requirementsaudit. No reading-room rebuild.",
     "human_acceptance": "pending",
-    "reading_room_rebuild": false
+    "reading_room_rebuild": false,
+    "action": "Commit ending213 then separately assemble full207–213 from exact immutable native36/37 pins. No crossnative prosejoin needed: opening212 ends input template/caption, ending213 begins output explanation. Preserve allraw,metadata,images and literal/source uncertainties; independently project allglobalranges and rebuild. Remaining7untouched articles,4pendingpilots,1heading plus standaloneAugustJSON/assets closeout/requirementsaudit required."
   },
   "raw_preparation_checkpoints": [
     {
