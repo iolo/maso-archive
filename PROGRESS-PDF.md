@@ -12755,3 +12755,43 @@ history remains in [PROGRESS.md](PROGRESS.md).
   headings and zero human accepted. Next: full 128–137 assembly, then remaining
   articles and whole-issue JSON/assets closeout. Full proofreading, source encoded
   bytes and historical execution remain unverified. No reading-room rebuild.
+
+
+## 2026-10-13 — August full shape-table128–137 assembled
+
+- Assembled 김선호’s 도형정의표의 정복, full pages 128–137, from the
+  exact validated native 24/25 packages. Separate whole-page 133/134 inspection
+  confirms ROT prose ends completely before the next program/DRAW subsection;
+  no cross-native prose or listing join is added. Only the two segment-scope
+  notes are resolved. Human review and all source uncertainties remain pending.
+- Full JSON/assets export retains 245 regions, 211 source readings/review ranges,
+  195 ordered blocks, 34 original images and 58 native source flags. Twelve
+  independent listing groups preserve 156 physical rows, 133 numbered logical
+  rows, 21 continuations and two unnumbered monitor rows. Listing bytes equal
+  the native concatenation; printed mistakes, missing labels and glyph candidates
+  are unchanged. All twelve native prose joins and sixteen boundaries remain.
+- Nine tables retain 88 logical data rows, 323 data fields, 25 data blanks and
+  42 header slots, including the color header’s blank merged continuation.
+  The full source index preserves all 475 structured slots: 473 main fields
+  and two side labels. All 2,146 exact native ranges are projected into the
+  combined text/listing; original native index metadata remains inspectable.
+- Thirty-two figure associations and two unlabelled photos retain their source
+  assets. Nine diagrams preserve 31 directed relations; five grids preserve
+  45 patterned points and one separate reference point. Distinct graph node
+  identities prevent the repeated numeric labels from colliding. Eighteen
+  ending inline examples, 37 address fields and the bitmap article-end mark
+  retain exact source readings without invented geometry or Unicode substitutes.
+- Independent full export/coverage/canonical/range checks and a byte-identical
+  rebuild pass. All 34 prior production packages, native 15–25 raw/selected seals
+  and 16,790 pilot files remain unchanged. No new OCR, mapping or rasterization;
+  native inference costs are not counted again. Local compute/token monetary
+  weight remains zero; paid uncached/cached input is 1:0.1, output rate unknown.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/shape-table/`.
+  Source index: `build/pdf-restoration/13-1984-08-adaptive-shape-table-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/shape-table-assembly-validation.json`.
+  August now has 17 restored articles, zero partials, 14 untouched bodies,
+  six pilot selections pending, two classified/four unclassified headings and
+  zero human accepted. Next: verify the source extent of 읽을 거리 : 일본
+  마이크로 컴퓨터의 현황, starting141, then restore bounded segments. Whole-issue
+  JSON/assets closeout remains. No reading-room rebuild; full proofreading,
+  source encoded bytes and historical execution remain unverified.
