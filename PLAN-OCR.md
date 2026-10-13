@@ -5271,3 +5271,48 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Local computation/tokens have zero monetary weight; paid input ratio remains
   1:0.1, with output price and active human effort unknown. Elapsed windows are
   diagnostics. Commit/response costs enter the next audit. No reading-room rebuild.
+
+
+### August FLYBOAT252–256 raw checkpoint validated, 2026-10-14
+
+- Actual source inspection establishes the complete 우주괴물 소탕작전 article
+  on pages 252–256. Eight whole-page views of 251–258 exclude the prior UFO and
+  next MSX 사과귀신 articles. Three unchanged renders are reused; five are new.
+  Canonical entry 0034, 이재성, parent 0031 and first page 252 remain unchanged.
+  The printed title has spaces and the affiliation is 신림중. Its FLYBOAT listing
+  ends at 2630 RETURN; the guide ending at 2570 does not define the article extent.
+- Five upright native scans retain 56 regions: 45 text readings, including 29
+  code chunks and five structured companions, plus 11 images with eight complete
+  listing panels. All 28 original review sheets, 20 changed/new final regions,
+  11 original images and five final overlays were inspected. Exact source crop
+  pixels pass. Eight of 180 text boundaries cross only illustration background
+  around inverse white titles; no glyph cuts remain. Original and two intermediate
+  stages are preserved. The final guide row and closing parenthesis are recovered;
+  running titles are isolated from rules, code margins exclude panel borders,
+  two tall crops are split at blank rows, and the quoted menu is merged coherently.
+  Header 255 received a further rule removal before OCR. The menu's first-call
+  cap was 3,072 tokens; no cap retry or preparation probe occurred.
+- All 45 primary drafts and five bounded alternates were read. Primary calls:
+  36 Qwen/9 Tesseract, without failures or retries. All four running-title drafts
+  are readable. One Qwen introduction alternate restores I/M/J/K and km. Four
+  English Tesseract code alternatives damage more identifiers, operands and values
+  and are retained without selection. Actual calls: 37 Qwen/13 Tesseract; selected
+  readings: 37 Qwen/8 Tesseract. No successful Qwen crop is repeated with Qwen.
+  Source correction must restore the relocated banner and missing DIM continuation,
+  quoted menu rows/values, a standalone 1050 target and omitted CHR$ operands.
+- Local Qwen tokens, including unselected attempts: 30,899 input, 9,170 output,
+  40,069 total. Local computation/tokens have zero monetary weight. Paid input
+  ratio remains 1:0.1; output rate and active human effort remain unknown.
+  Preparation, evaluation and elapsed times are retained separately as diagnostics.
+- Independent raw and selected audits pass. The 779 original and 399 selected/
+  alternate files are sealed. All 62 production packages, prior seals for batches
+  15–43 and 16,790 pilot files remain unchanged. Exact bytes permit reuse of
+  44 inspected primary readings and selection of one inspected alternate.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/batch-44`.
+- Historical raw milestone 23 creates no production export. August remains at
+  29 complete articles, zero partials, four untouched bodies, four pending pilots,
+  five classified headings, one unclassified heading and zero human acceptances.
+  Next: correct and export all pages 252–256, then restore the remaining articles
+  and complete standalone issue JSON/assets closeout and the requirements audit.
+  Source encoded bytes, execution and full proofreading remain unverified.
+  Commit/response costs enter the next audit. No reading-room rebuild.

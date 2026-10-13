@@ -26215,62 +26215,86 @@
   "pilot_reuse_policy": "Sealed eight matched pairs remain immutable; selection/repair into separately named production revisions is pending. Pilot residual errors and human acceptance are not silently cleared.",
   "next_checkpoint": {
     "batch": 44,
-    "status": "space-monster-source-extent-inspection-pending",
+    "checkpoint": "FLYBOAT-source-correction-and-export",
     "kind": "native-restoration",
+    "status": "FLYBOAT-252-256-selected-raw-complete-correction-pending",
     "toc_entry_id": "maso-1984-08-toc-0034",
     "canonical_title": "우주괴물 소탕작전",
     "canonical_byline": "이재성",
     "canonical_parent_id": "maso-1984-08-toc-0031",
     "canonical_first_page": 252,
-    "article_extent_verified": false,
-    "last_completed_article": {
-      "package": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo/article.json",
-        "sha256": "d1ddfc2c1da545f4fe0f31caefb075cbc3e627a49377960800d8dc9cc1dd403f",
-        "bytes": 113501
-      },
-      "manifest": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-batch-43/ufo/manifest.json",
-        "sha256": "600c81f4c645dc580670dd190165274ae6c6ffcc8e861a8b1df3ac8ba1ba3891",
-        "bytes": 38101
-      },
-      "source_pages": [
-        246,
-        247,
-        248,
-        249,
-        250,
-        251
-      ],
-      "regions": 65,
-      "text_regions": 52,
-      "figures": 13,
-      "physical_listing_rows": 548,
-      "logical_listing_rows": 308,
-      "unresolved_entries": 59,
-      "complete_article": true,
-      "checks": {
-        "export_integrity": true,
-        "byte_identical_rebuild": true,
-        "text_and_review_utf8_ranges": true,
-        "listing_byte_coverage": true,
-        "explicit_printed_line_numbers": true
-      },
-      "human_acceptance": "pending",
-      "source_index": {
-        "path": "build/pdf-restoration/13-1984-08-adaptive-ufo-source-index-43/source-index.json",
-        "sha256": "b0a1dca270db91998be048cd20870196e059da968b3a14cfad98e6a5b042d9c0",
-        "bytes": 1693217
-      },
-      "source_validation": {
-        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-43/validation.json",
-        "sha256": "54e029a2b4a2434f431e97b60bb67cf7d1ffeb9cbc16d79d645e932d1584efe1",
-        "bytes": 1421
-      }
+    "actual_first_pdf_page": 252,
+    "canonical_unchanged": true,
+    "article_extent_verified": true,
+    "article_pages": [
+      252,
+      253,
+      254,
+      255,
+      256
+    ],
+    "source_pages": [
+      252,
+      253,
+      254,
+      255,
+      256
+    ],
+    "deferred_article_pages": [],
+    "extent_inspection": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/extent-inspection.json",
+      "sha256": "9b99cf0244b13d13734662e38ca5578ea935dc4d546f243f57fd9aaec57df1f3",
+      "bytes": 6695
     },
+    "crop_gate": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/preflight-acceptance.json",
+      "sha256": "be30161024cdbea064556e9896c4634292b69350a86e85c400c89f06a1c00544",
+      "bytes": 842
+    },
+    "raw_audit": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/raw-ocr-audit.json",
+      "sha256": "def63743ed3098f006632ba7d0fc1cd6307a5a4860729a4f3d26567bb28257bf",
+      "bytes": 4287
+    },
+    "raw_selected_audit": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/selected-raw-audit.json",
+      "sha256": "0b1d9720c5033542b2a1a8defcb28bf5706e432882af6064449089129860603b",
+      "bytes": 669
+    },
+    "raw_original_preservation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/raw-preservation.json",
+      "sha256": "912d1a06f3c771b61eea46b2ec110fe6ca7ff75ebebbd99e246f1ef7091235e1",
+      "bytes": 97783
+    },
+    "raw_selected_preservation": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/selected-raw-preservation.json",
+      "sha256": "ef330f8dff71be5dc2dee686c8bfd528a5420484bb54e96167d398a6d15edcca",
+      "bytes": 57758
+    },
+    "selected_ocr_directory": "private/pdf-restoration/13-1984-08-adaptive/batch-44/ocr-selected",
+    "selected_raw_drafts": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/raw-selected-drafts.json",
+      "sha256": "75c9dc7e1c98462faa2f67da1aa55405ce9ba26438e359075128fa818460077e",
+      "bytes": 29627
+    },
+    "draft_inspection": {
+      "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/selected-draft-inspection.json",
+      "sha256": "fe7de815823f17f4e8f66091f1135b93e746e582a92d925f48ceeae6a0285b7f",
+      "bytes": 1826
+    },
+    "regions": 56,
+    "text_regions": 45,
+    "figures": 11,
+    "actual_tesseract_calls": 13,
+    "actual_qwen_calls": 37,
+    "selected_tesseract_regions": 8,
+    "selected_qwen_regions": 37,
+    "correction": "pending",
+    "production_export_created": false,
+    "full_assembly_required": false,
     "human_acceptance": "pending",
     "reading_room_rebuild": false,
-    "action": "Source-verify 우주괴물 소탕작전 actual extent beginning252 before mapping. Canonicalnext257 is a boundary hint only. Reuse exact unchanged252/253 wholeviews when applicable; inspect further pages, title/byline/listing terminals and nextarticle boundary. Preserve source literals and custom graphics, route clearproseT/densecodeQ with recorded bounded fallbacks, correct selected readings once, export/independently validate/commit. Four untouched bodies, four sealedpilots, informationheading and standaloneAugustJSON/assets closeout/requirementsaudit remain. Humanacceptance/fullproofreading/sourcebytes/execution unverified; no reading-room rebuild."
+    "action": "Correct45selected readings once against source252–256. Preserve oneFLYBOAT listing10–2630, source title spaces/신림중/byline/1984/6/6/SPC-1000/HUBASIC/LEE JAE SUNG, joystick hexDATA and48monster-patternCHR$ definitions. Restore omitted100DIM continuation, framedmenu240–370 physicalrows/values,1040 standalone1050branch target andR$(2–5) omittedhexoperands directlyfromsource; inferiorT alternatives remainunselected. Keep standalone450/880/050/1050 andcrosscolumn970/1360/1760 ownership, literalprinted errors andquotedgraphics/byteuncertainties. Index definitions/programguide/hexDATA/CHR$ operand fragments; export/independentlyvalidate/commit fullnative44. Fouruntouched bodies/foursealedpilots/informationheading andstandaloneAugustJSON/assets closeout/audit remain. No reading-room rebuild."
   },
   "raw_preparation_checkpoints": [
     {
@@ -29366,6 +29390,145 @@
       },
       "output_rate": null,
       "scope": "Complete source extent246–251 mapped and recognized; selected readings uncorrected. All physical continuations, source images, printed errors and uncertainty require once-only source correction/export. WholeAugust remains incomplete."
+    },
+    {
+      "batch": "batch-44",
+      "toc_entry_id": "maso-1984-08-toc-0034",
+      "status": "selected-raw-complete-source-correction-pending",
+      "source_pages": [
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "article_pages": [
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "deferred_article_pages": [],
+      "canonical_first_page": 252,
+      "actual_first_pdf_page": 252,
+      "canonical_unchanged": true,
+      "regions": 56,
+      "text_regions": 45,
+      "figures": 11,
+      "code_chunks": 29,
+      "listing_groups": 1,
+      "full_listing_panels": 8,
+      "structured_companions": 5,
+      "audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/raw-ocr-audit.json",
+        "sha256": "def63743ed3098f006632ba7d0fc1cd6307a5a4860729a4f3d26567bb28257bf",
+        "bytes": 4287
+      },
+      "selected_audit": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/selected-raw-audit.json",
+        "sha256": "0b1d9720c5033542b2a1a8defcb28bf5706e432882af6064449089129860603b",
+        "bytes": 669
+      },
+      "preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/raw-preservation.json",
+        "sha256": "912d1a06f3c771b61eea46b2ec110fe6ca7ff75ebebbd99e246f1ef7091235e1",
+        "bytes": 97783
+      },
+      "selected_preservation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/selected-raw-preservation.json",
+        "sha256": "ef330f8dff71be5dc2dee686c8bfd528a5420484bb54e96167d398a6d15edcca",
+        "bytes": 57758
+      },
+      "crop_gate": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/preflight-acceptance.json",
+        "sha256": "be30161024cdbea064556e9896c4634292b69350a86e85c400c89f06a1c00544",
+        "bytes": 842
+      },
+      "draft_inspection": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/selected-draft-inspection.json",
+        "sha256": "fe7de815823f17f4e8f66091f1135b93e746e582a92d925f48ceeae6a0285b7f",
+        "bytes": 1826
+      },
+      "extent": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/extent-inspection.json",
+        "sha256": "9b99cf0244b13d13734662e38ca5578ea935dc4d546f243f57fd9aaec57df1f3",
+        "bytes": 6695
+      },
+      "orientation": {
+        "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/orientation-provenance.json",
+        "sha256": "1addb06ac1bb80b66989b6d67509505d1a76e0a22642a48d5e5cbcf5852edd8e",
+        "bytes": 376
+      },
+      "crop_revisions": [
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/crop-repairs.json",
+          "sha256": "198289f6acb7427da11b6ee1461f55bd51978ede630f22897624e104d3935fed",
+          "bytes": 11115
+        },
+        {
+          "path": "private/pdf-restoration/13-1984-08-adaptive/batch-44/second-crop-adjustment.json",
+          "sha256": "25b7f85e93d0a1795be24900222798a0b8337a20c9f4181fbd5f194d72620092",
+          "bytes": 415
+        }
+      ],
+      "qwen_calls": 37,
+      "tesseract_calls": 13,
+      "worker_qwen_calls": 36,
+      "worker_tesseract_calls": 9,
+      "selected_tesseract_regions": 8,
+      "selected_qwen_regions": 37,
+      "failed_recognition_calls": 0,
+      "retries": 0,
+      "bounded_alternate_calls": 5,
+      "additional_qwen_calls": 1,
+      "additional_tesseract_calls": 4,
+      "selected_qwen_alternates": 1,
+      "selected_tesseract_alternates": 0,
+      "inferior_tesseract_alternates_retained": 4,
+      "preparation_probe_calls": 0,
+      "local_qwen_tokens": {
+        "prompt_tokens": 30899,
+        "completion_tokens": 9170,
+        "total_tokens": 40069
+      },
+      "all_tesseract_recognition_seconds": 4.984636672001216,
+      "successful_qwen_recognition_seconds": 232.21710780998546,
+      "all_qwen_stage_wall_seconds": 240.48386916898744,
+      "raw_worker": {
+        "started_at": "2026-10-13T20:51:39.874885+00:00",
+        "finished_at": "2026-10-13T20:55:50.173785+00:00",
+        "elapsed_seconds": 250.29892682500213,
+        "scope": "Mixed route source/runtime verification,render copy,sequential Tesseract then Qwen startup/inference and evidence export.",
+        "report": {
+          "engine": "mixed-preassigned",
+          "qwen_inferences": 36,
+          "tesseract_inferences": 9,
+          "cache_hits": 0,
+          "retries": 0,
+          "status": "raw-ocr-complete",
+          "preparation_probe_calls": 0,
+          "selected_probe_reuses": 0,
+          "worker_tesseract_calls": 9,
+          "unselected_preparation_probe_calls": 0,
+          "total_tesseract_calls": 9,
+          "qwen_failed_calls": 0
+        },
+        "error": null
+      },
+      "empty_primary_regions": [],
+      "empty_selected_regions": [],
+      "source_correction": "pending",
+      "production_export": null,
+      "full_assembly_required": false,
+      "human_acceptance": "pending",
+      "local_monetary_weight": 0,
+      "input_price_ratio": {
+        "uncached": 1,
+        "cached": 0.1
+      },
+      "output_rate": null,
+      "scope": "Full source252–256 mapped/recognized; oneFLYBOAT listing withjoystickmachinecodeDATA/CHR$hexpatterns/quoteddisplay. Selected readings remain uncorrected; original literals/physicalrows/uncertainties require once-onlysource correction/export. WholeAugust incomplete."
     }
   ]
 }
