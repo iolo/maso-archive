@@ -15060,3 +15060,44 @@ history remains in [PROGRESS.md](PROGRESS.md).
   paid input ratio1:0.1, output price and active human effort unknown. Elapsed
   windows include recovery as diagnostics; commit/response costs enter the next
   audit. No reading-room rebuild.
+
+
+## 2026-10-14 — August final BASIC editor pilot promoted
+
+- Completed the final article, 베이직 코맨드 에디터214–220, in a separate
+  production revision from sealed aug-07-v2-A/B. Canonical0029, 김용우, parent0025
+  and first page214 remain unchanged. Source213–221 confirms the title opening
+  and final upper220 listings; lower220 advertising and next221 article excluded.
+- Inspected all157 crops in41 panels, six original figures and nine wholeviews.
+  Reused90 Tesseract/61 Qwen corrected readings, all151 unchanged. T code crops
+  retain visible650 REM and NEXT I; Q preserves PEEK(M), POKE33,31, HTAB3 and
+  printed 이쨌든. Both original pilot histories and all raw evidence remain exact.
+  No new OCR, local tokens, crop repair or repeated paired correction.
+- Export retains119 ordered blocks,151 regional/review ranges and six figures.
+  Nineteen joins preserve32 boundaries, including twelve structured row boundaries.
+  Four listing groups retain293 physical rows:106 numbered,153 continuations and
+  34 unnumbered rows. The extra Q blank before400 REM is visibly present;
+  wrapped50 completes650 in350 and is not an invented line label.
+- Searchable tables/definitions/line guide retain45 rows and132 cells. Assembly
+  retains32 addressed rows,53 literal byte readings and138 field ranges. DATA150
+  retains46 decimal candidates in48 physical fragments;84 string and19 CHR$
+  fragments remain source candidates, without executable or encoded-byte claims.
+  Printed list2/list3 contradictions, M$() beside numeric M(), decimal/hex claims,
+  soft-switch claims and0330 byte00. remain literal. Thirty-two source flags
+  preserve faint rules, key graphics, punctuation, GET T$/Y$ and literal spaces.
+- Independent source-pixel/raw/settings/native-Qwen checks, complete regional bounds,
+  physical/logical listing projection, machine-address rejection, all table cells,
+  literal fragments and a third byte-identical rebuild pass. All960 selected
+  evidence files,69 previous packages, native15–47 seals and16,790 pilot files
+  remain unchanged. Shared pipeline unchanged; passing135-test baseline reused.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/basic-editor`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-basic-editor-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/pilot-aug-07/validation.json`.
+  August now has37 complete articles, zero partials, untouched bodies or pending
+  pilots; five classified headings and one unclassified heading. All70 packages
+  comprise47 natives,15 assemblies and eight selections;24 raw milestones remain
+  unchanged. Human acceptance/full proofreading remain pending. Next classify
+  정보모음, then standalone issue JSON/assets/cover/report and requirements audit.
+  Five work windows include interrupted preparation; elapsed time is diagnostic,
+  not human effort or causal engine cost. Paid input ratio1:0.1, output price and
+  human active time unknown; local compute/tokens monetary0. No reading-room rebuild.
