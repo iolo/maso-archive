@@ -1,5 +1,11 @@
 # August 1984 paired OCR cost results
 
+> Historical experiment report/protocol. Measurements and original conclusions
+> below are retained. For future restoration, follow the owner's 2026-10-14
+> [OCR policy](../PLAN-OCR.md): mapped Tesseract by default, Qwen as explicit
+> assistance with layout/coverage review. This report does not queue a new trial.
+
+
 **Finding: this pilot does not show a convincing paid-cost advantage for either OCR route.** Qwen reduced cached input and output, but increased uncached input. Which route costs less depends on the applicable rates.
 
 At the hypothetical rate ratio uncached:cached:output = 1:0.1:4, Qwen is **0.60% cheaper** across the eight matched corrections, wins four articles out of eight, and has a median article ratio of 1.005. Including the observed aborted correction makes its route **4.17% more expensive**. The abort arose from a shared crop defect, so that recovery result is an operational accounting fact, not proof that Qwen intrinsically causes more recovery.

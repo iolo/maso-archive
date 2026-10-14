@@ -1,5 +1,10 @@
 # Local PDF restoration
 
+For current OCR policy and where to resume, read the short
+[OCR handoff](../PLAN-OCR.md). This document is a tooling reference; numbered pilot
+steps and old checkpoint records do not require repeating completed experiments.
+
+
 Follow [PLAN-PDF.md](../PLAN-PDF.md) in checkpoint order and record each outcome
 in [PROGRESS-PDF.md](../PROGRESS-PDF.md). The tools here do not authorize bulk OCR
 before the pilot, contrasting samples, and JSON/asset validation pass their gates.

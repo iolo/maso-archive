@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "scope": "Documentation snapshots only. Machine-readable measurements, private evidence, source artifacts and completed packages are unchanged.",
+  "snapshots": [
+    {
+      "original_path": "PLAN-OCR.md",
+      "source_git_commit": "7ffeb5635db409ef82286b0c3da44359267cc073",
+      "original_sha256": "eb77b8871d6181139f60bd7cf2c9f4e7445926d2ce7d46b6faf59f5333940d7f",
+      "archive_path": "docs/history/OCR-PLAN-2026-10-14.md",
+      "archive_sha256": "a8b958bba89a9089d221250bc596a01c30145c33eeaca08056e06008ae6e6441",
+      "original_lines": 5838,
+      "relative_link_rewrites": [
+        {
+          "before": "docs/OCR-QWEN3-VL.md#what-the-scans-show",
+          "after": "../OCR-QWEN3-VL.md#what-the-scans-show"
+        },
+        {
+          "before": "PLAN-PDF.md#current-ocr-routing-guide",
+          "after": "../../PLAN-PDF.md#current-ocr-routing-guide"
+        },
+        {
+          "before": "docs/OCR-WORKFLOW.md",
+          "after": "../OCR-WORKFLOW.md"
+        },
+        {
+          "before": "docs/ocr-workflow-measurements.json",
+          "after": "../ocr-workflow-measurements.json"
+        },
+        {
+          "before": "docs/ocr-june-progress.json",
+          "after": "../ocr-june-progress.json"
+        },
+        {
+          "before": "docs/ocr-june-batch04-comparison.json",
+          "after": "../ocr-june-batch04-comparison.json"
+        },
+        {
+          "before": "docs/ocr-june-batch05-comparison.json",
+          "after": "../ocr-june-batch05-comparison.json"
+        },
+        {
+          "before": "docs/ocr-june-batch06-comparison.json",
+          "after": "../ocr-june-batch06-comparison.json"
+        },
+        {
+          "before": "docs/READING-ROOM.md",
+          "after": "../READING-ROOM.md"
+        },
+        {
+          "before": "docs/OCR-JULY-TRIAL.md",
+          "after": "../OCR-JULY-TRIAL.md"
+        },
+        {
+          "before": "docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+          "after": "../OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic"
+        },
+        {
+          "before": "PLAN-PDF.md",
+          "after": "../../PLAN-PDF.md"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/OCR-JULY-TRIAL.md",
+      "source_git_commit": "7ffeb5635db409ef82286b0c3da44359267cc073",
+      "original_sha256": "b8f33d0db4f4490ca0c4f8fe7c810d68ffe105012b161c5e65787758af77b56a",
+      "archive_path": "docs/history/OCR-JULY-TRIAL-2026-10-14.md",
+      "archive_sha256": "773b2d6e6b36e25b8e2a565d72ce4b44c71669ceb1c6b3f718866c1d1453c76b",
+      "original_lines": 3478,
+      "relative_link_rewrites": [
+        {
+          "before": "OCR-JUNE-DECISION.md",
+          "after": "../OCR-JUNE-DECISION.md"
+        },
+        {
+          "before": "OCR-AUGUST-PILOT-RESULTS.md",
+          "after": "../OCR-AUGUST-PILOT-RESULTS.md"
+        },
+        {
+          "before": "ocr-july-progress.json",
+          "after": "../ocr-july-progress.json"
+        },
+        {
+          "before": "ocr-july-comparison-01.json",
+          "after": "../ocr-july-comparison-01.json"
+        },
+        {
+          "before": "ocr-july-comparison-02.json",
+          "after": "../ocr-july-comparison-02.json"
+        },
+        {
+          "before": "ocr-july-comparison-03.json",
+          "after": "../ocr-july-comparison-03.json"
+        },
+        {
+          "before": "ocr-july-comparison-04.json",
+          "after": "../ocr-july-comparison-04.json"
+        },
+        {
+          "before": "ocr-july-comparison-05.json",
+          "after": "../ocr-july-comparison-05.json"
+        },
+        {
+          "before": "ocr-july-usage.json",
+          "after": "../ocr-july-usage.json"
+        },
+        {
+          "before": "ocr-july-comparison-14.json",
+          "after": "../ocr-july-comparison-14.json"
+        },
+        {
+          "before": "ocr-july-comparison-15.json",
+          "after": "../ocr-july-comparison-15.json"
+        },
+        {
+          "before": "ocr-july-comparison-16.json",
+          "after": "../ocr-july-comparison-16.json"
+        },
+        {
+          "before": "ocr-july-comparison-17.json",
+          "after": "../ocr-july-comparison-17.json"
+        },
+        {
+          "before": "ocr-july-comparison-18.json",
+          "after": "../ocr-july-comparison-18.json"
+        },
+        {
+          "before": "ocr-july-comparison-19.json",
+          "after": "../ocr-july-comparison-19.json"
+        },
+        {
+          "before": "ocr-july-comparison-20.json",
+          "after": "../ocr-july-comparison-20.json"
+        },
+        {
+          "before": "ocr-july-comparison-21.json",
+          "after": "../ocr-july-comparison-21.json"
+        },
+        {
+          "before": "ocr-july-comparison-22.json",
+          "after": "../ocr-july-comparison-22.json"
+        },
+        {
+          "before": "ocr-july-comparison-23.json",
+          "after": "../ocr-july-comparison-23.json"
+        },
+        {
+          "before": "ocr-july-comparison-24.json",
+          "after": "../ocr-july-comparison-24.json"
+        },
+        {
+          "before": "ocr-july-comparison-25.json",
+          "after": "../ocr-july-comparison-25.json"
+        },
+        {
+          "before": "ocr-july-comparison-26.json",
+          "after": "../ocr-july-comparison-26.json"
+        },
+        {
+          "before": "ocr-july-comparison-27.json",
+          "after": "../ocr-july-comparison-27.json"
+        },
+        {
+          "before": "ocr-july-comparison-28.json",
+          "after": "../ocr-july-comparison-28.json"
+        },
+        {
+          "before": "ocr-july-comparison-29.json",
+          "after": "../ocr-july-comparison-29.json"
+        },
+        {
+          "before": "ocr-july-comparison-30.json",
+          "after": "../ocr-july-comparison-30.json"
+        },
+        {
+          "before": "ocr-july-comparison-31.json",
+          "after": "../ocr-july-comparison-31.json"
+        },
+        {
+          "before": "ocr-july-comparison-32.json",
+          "after": "../ocr-july-comparison-32.json"
+        },
+        {
+          "before": "ocr-july-comparison-33.json",
+          "after": "../ocr-july-comparison-33.json"
+        },
+        {
+          "before": "ocr-july-comparison-34.json",
+          "after": "../ocr-july-comparison-34.json"
+        },
+        {
+          "before": "ocr-july-comparison-35.json",
+          "after": "../ocr-july-comparison-35.json"
+        },
+        {
+          "before": "ocr-july-comparison-39.json",
+          "after": "../ocr-july-comparison-39.json"
+        },
+        {
+          "before": "ocr-july-comparison-40.json",
+          "after": "../ocr-july-comparison-40.json"
+        },
+        {
+          "before": "ocr-july-comparison-41.json",
+          "after": "../ocr-july-comparison-41.json"
+        },
+        {
+          "before": "ocr-july-comparison-42.json",
+          "after": "../ocr-july-comparison-42.json"
+        },
+        {
+          "before": "ocr-july-comparison-43.json",
+          "after": "../ocr-july-comparison-43.json"
+        },
+        {
+          "before": "ocr-july-comparison-44.json",
+          "after": "../ocr-july-comparison-44.json"
+        },
+        {
+          "before": "ocr-july-comparison-45.json",
+          "after": "../ocr-july-comparison-45.json"
+        },
+        {
+          "before": "ocr-july-comparison-46.json",
+          "after": "../ocr-july-comparison-46.json"
+        },
+        {
+          "before": "ocr-july-accounting.json",
+          "after": "../ocr-july-accounting.json"
+        },
+        {
+          "before": "OCR-JULY-DECISION.md",
+          "after": "../OCR-JULY-DECISION.md"
+        },
+        {
+          "before": "ocr-july-metrics.json",
+          "after": "../ocr-july-metrics.json"
+        },
+        {
+          "before": "READING-ROOM.md",
+          "after": "../READING-ROOM.md"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/OCR-WORKFLOW.md",
+      "source_git_commit": "7ffeb5635db409ef82286b0c3da44359267cc073",
+      "original_sha256": "d1a7829ff7bc61e496d037067af03f44e1f7ebda226a29b8c517e7101516a101",
+      "archive_path": "docs/history/OCR-WORKFLOW-2026-10-14.md",
+      "archive_sha256": "6edec110cd4586289cb6824aaaedf98435e5551a830585fc19cdff5fa4e5fc54",
+      "original_lines": 787,
+      "relative_link_rewrites": [
+        {
+          "before": "../PLAN-OCR.md",
+          "after": "../../PLAN-OCR.md"
+        },
+        {
+          "before": "OCR-QWEN3-VL.md",
+          "after": "../OCR-QWEN3-VL.md"
+        },
+        {
+          "before": "ocr-workflow-measurements.json",
+          "after": "../ocr-workflow-measurements.json"
+        },
+        {
+          "before": "../private/ocr-qwen3-vl/workflow-03/prose-review.md",
+          "after": "../../private/ocr-qwen3-vl/workflow-03/prose-review.md"
+        },
+        {
+          "before": "../private/ocr-qwen3-vl/workflow-03/basic-review.md",
+          "after": "../../private/ocr-qwen3-vl/workflow-03/basic-review.md"
+        },
+        {
+          "before": "../private/ocr-qwen3-vl/workflow-03/figures-review.md",
+          "after": "../../private/ocr-qwen3-vl/workflow-03/figures-review.md"
+        },
+        {
+          "before": "../private/ocr-qwen3-vl/workflow-03/review-ledger.json",
+          "after": "../../private/ocr-qwen3-vl/workflow-03/review-ledger.json"
+        },
+        {
+          "before": "ocr-june-progress.json",
+          "after": "../ocr-june-progress.json"
+        },
+        {
+          "before": "../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0038/review.md",
+          "after": "../../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0038/review.md"
+        },
+        {
+          "before": "../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0001/review.md",
+          "after": "../../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0001/review.md"
+        },
+        {
+          "before": "../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0002/review.md",
+          "after": "../../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/ocr/scan-maso-1984-06-toc-0002/review.md"
+        },
+        {
+          "before": "../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/human-review-ledger.json",
+          "after": "../../private/pdf-restoration/12-1984-06-qwen/batch-01-corrected/human-review-ledger.json"
+        },
+        {
+          "before": "../private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md",
+          "after": "../../private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md"
+        },
+        {
+          "before": "ocr-june-batch04-comparison.json",
+          "after": "../ocr-june-batch04-comparison.json"
+        },
+        {
+          "before": "ocr-june-progress.json",
+          "after": "../ocr-june-progress.json"
+        },
+        {
+          "before": "../private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md",
+          "after": "../../private/pdf-restoration/12-1984-06-qwen/REVIEW-PHONEME.md"
+        },
+        {
+          "before": "ocr-june-batch05-comparison.json",
+          "after": "../ocr-june-batch05-comparison.json"
+        },
+        {
+          "before": "ocr-june-batch06-comparison.json",
+          "after": "../ocr-june-batch06-comparison.json"
+        },
+        {
+          "before": "READING-ROOM.md",
+          "after": "../READING-ROOM.md"
+        },
+        {
+          "before": "OCR-JUNE-DECISION.md",
+          "after": "../OCR-JUNE-DECISION.md"
+        },
+        {
+          "before": "ocr-june-accounting.json",
+          "after": "../ocr-june-accounting.json"
+        },
+        {
+          "before": "ocr-june-batch41-comparison.json",
+          "after": "../ocr-june-batch41-comparison.json"
+        },
+        {
+          "before": "ocr-june-progress.json",
+          "after": "../ocr-june-progress.json"
+        },
+        {
+          "before": "READING-ROOM.md",
+          "after": "../READING-ROOM.md"
+        },
+        {
+          "before": "ocr-july-progress.json",
+          "after": "../ocr-july-progress.json"
+        },
+        {
+          "before": "OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic",
+          "after": "../OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/SUCCESSOR-NOTES.md",
+      "source_git_commit": "7ffeb5635db409ef82286b0c3da44359267cc073",
+      "original_sha256": "c3a599135cdef6e1ee460db353b1255edf506cda673e66501549d4112b3fc4fb",
+      "archive_path": "docs/history/SUCCESSOR-NOTES-2026-10-14.md",
+      "archive_sha256": "8bf95050b967d8067e8f8b38288be58f5620130ba0b4b2ccb790489dbfa78f3d",
+      "original_lines": 1273,
+      "relative_link_rewrites": [
+        {
+          "before": "READING-ROOM.md",
+          "after": "../READING-ROOM.md"
+        },
+        {
+          "before": "../PLAN-PDF.md",
+          "after": "../../PLAN-PDF.md"
+        },
+        {
+          "before": "READING-ROOM.md",
+          "after": "../READING-ROOM.md"
+        },
+        {
+          "before": "CD1-READABLE-REFERENCE.md",
+          "after": "../CD1-READABLE-REFERENCE.md"
+        },
+        {
+          "before": "CD2-READABLE-REFERENCE.md",
+          "after": "../CD2-READABLE-REFERENCE.md"
+        },
+        {
+          "before": "CD3-READABLE-REFERENCE.md",
+          "after": "../CD3-READABLE-REFERENCE.md"
+        },
+        {
+          "before": "../PLAN-CD1.md",
+          "after": "../../PLAN-CD1.md"
+        },
+        {
+          "before": "../PLAN-CD2.md",
+          "after": "../../PLAN-CD2.md"
+        },
+        {
+          "before": "../PLAN-CD3.md",
+          "after": "../../PLAN-CD3.md"
+        },
+        {
+          "before": "../PLAN-reading-room.md",
+          "after": "../../PLAN-reading-room.md"
+        },
+        {
+          "before": "../PROGRESS.md",
+          "after": "../../PROGRESS.md"
+        },
+        {
+          "before": "../PRD-reading-room.md",
+          "after": "../../PRD-reading-room.md"
+        },
+        {
+          "before": "CD3-HELPDECO-UNDERLINE-BUG.md",
+          "after": "../CD3-HELPDECO-UNDERLINE-BUG.md"
+        },
+        {
+          "before": "READING-ROOM.md#add-or-replace-cover-images",
+          "after": "../READING-ROOM.md#add-or-replace-cover-images"
+        }
+      ]
+    }
+  ]
+}

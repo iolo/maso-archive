@@ -1,5 +1,11 @@
 # July OCR routing decision
 
+> Historical experiment report/protocol. Measurements and original conclusions
+> below are retained. For future restoration, follow the owner's 2026-10-14
+> [OCR policy](../PLAN-OCR.md): mapped Tesseract by default, Qwen as explicit
+> assistance with layout/coverage review. This report does not queue a new trial.
+
+
 Continue the provisional content-routing rule. July supports Qwen's raw accuracy
 advantage, but does **not** establish that it saves paid correction tokens or total
 time. Tesseract remains useful for cheap drafts and bounded probes; Qwen is a

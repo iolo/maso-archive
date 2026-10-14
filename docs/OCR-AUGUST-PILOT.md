@@ -1,5 +1,11 @@
 # August 1984 paired restoration cost pilot
 
+> Historical experiment report/protocol. Measurements and original conclusions
+> below are retained. For future restoration, follow the owner's 2026-10-14
+> [OCR policy](../PLAN-OCR.md): mapped Tesseract by default, Qwen as explicit
+> assistance with layout/coverage review. This report does not queue a new trial.
+
+
 Status: complete for the eight selected article pairs: 16 independent restorations
 sealed, source-compared and export/rebuild verified. Human acceptance is pending.
 The [consolidated cost report](OCR-AUGUST-PILOT-RESULTS.md) contains the decision,

@@ -1,0 +1,1278 @@
+> Historical snapshot through 2026-10-14 of `docs/SUCCESSOR-NOTES.md` at commit `7ffeb56`.
+> Preserved for evidence and targeted lookup. Earlier next steps, defaults and
+> counts are historical; use [the current OCR handoff](../../PLAN-OCR.md).
+> Relative Markdown links were rebased for this location; all other content is retained.
+
+# Successor notes — 2026-09-26 implementation wrap-up
+
+**Reading-room review prepared 2026-10-08:** the owner requested inspection
+before June. `build/reading-room-restored/` includes all four completed PDF
+issues (146 scan articles) and the unchanged CD baseline. March retains one
+missing-source partial. The preview is left running at
+`http://127.0.0.1:4184/archive/`; May is open in the review browser. To restart:
+
+```sh
+cd web
+READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm run preview -- --port 4184 --strictPort
+```
+
+See [the reading-room guide](../READING-ROOM.md). Complete data-export checks,
+16 frontend tests, eight reader/issue adapter tests, TypeScript/build and browser
+desktop/mobile/source/download checks pass. Restoration records replace missing
+HTML preview links, and long uncertainty notes are expandable. PDF packages and
+ledgers remain unchanged; June has not started. Evidence:
+`private/reading-room-restored-review-2026-10-08/validation.json`.
+
+Current PDF status, 2026-10-08: November 1983, February 1984, March 1984
+and May 1984 are complete under [PLAN-PDF.md](../../PLAN-PDF.md)'s data-only scope.
+March's sole terminal partial remains explicit; no April PDF is supplied.
+
+**May 1984 is complete under the JSON/assets scope.** All 42 canonical TOC
+entries are accounted: 36 readable, sample-reviewed articles and six non-owning
+headings. There are no partial, failed, image-only or unresolved outcomes, no
+deferred source pages and no pending assemblies. Canonical IDs, titles and parents
+are unchanged. Full proofreading, source encoded bytes and historical program
+execution remain unverified; original errors and uncertain glyphs are preserved.
+
+The standalone issue index is `build/pdf-restoration/12-1984-05-reference/issue.json`;
+the report is `build/pdf-restoration/12-1984-05-closeout/report.json`. They cover
+217 source pages, 1,964 regions, 1,353 blocks, 403 figures and 5,978 physical listing rows.
+All 7,334 original article files are copied exactly.
+The issue package has 7,340 files totaling 1,558,818,169 bytes. Canonical
+accounting, source/page geometry, package/assets, correction evidence and an
+independent byte-identical issue rebuild pass. The verified source cover and its
+provenance accompany the report; the canonical thumbnail is retained in the issue.
+
+Forty-three native checkpoints and seventeen assemblies preserve 42 immutable
+May inputs. All 200 native/36 assembly manifests and prior OCR/unpromoted evidence
+inventories remain unchanged. The separately committed radar news adapter `f8fa518`
+passes 117 PDF tests; the closeout reuses that unchanged baseline. No new OCR,
+HTML, frontend, browser or reader work was required. June 1984 is next and has
+not started. Fifteen supplied eligible issues remain after May.
+
+Evidence: `private/pdf-restoration/12-1984-05-closeout/validation.json` and
+`completion-audit.json`. The pre-export cover-root validation failure is retained;
+the corrected installed-cover path passes without changing any asset.
+
+The records below describe historical checkpoints; follow the completion above
+for current status. June restoration has not started.
+
+Appendix source-candidate tooling is validated separately before assembly.
+New opt-in `wrapped-source-reference-v1` accepts the immutable choice candidates'
+explicit unverified machine/execution fields and answer pairs' explicit unverified
+encoding fields. It checks unique identities, source spans/scans and literal answer
+numbers; old modes retain their original behavior. 115 PDF tests and the real full
+projection pass: 468 examples/160 answers, 58 groups, 436 physical/421 numbered rows.
+197 native/34 historical assembly pins and both unpromoted exports/40–41 OCR
+inventories remain unchanged. No full export or ledger promotion at this tooling step.
+Evidence: `private/pdf-restoration/12-1984-05-appendix-source-adapter`.
+Tooling committed separately as `bdf0d8c`; full appendix assembly follows below.
+
+Native32 completes the cat ending196–197 and the function-key article198–201.
+It retains60 regions,43 ordered blocks,12 original images,48 regional spans,
+107 text review ranges,four captions andfive native prose boundaries.
+Cat:286 physical rows,146 numbered entries,140 wraps;59 DATA statements retain
+881 literal values. Line3080 crosses columns on196;197starts5130. These fresh
+source readings supersede the native31 resume note's5080/5150 candidates;
+historical native31 maps,metadata and saved notes remain unchanged.
+Functionkeys:four independent groups,173 physical rows,three numbered entries,
+170 unnumbered rows;1,308 hex-token candidates include1,280monitor readings.
+Its default table has10rows/20cells includingblankKEY08;programguide has eight
+address descriptions. LiteralFUNTION,FB69,0번/키이1 andsourcefigure references
+remain unchanged; Unicode control/arrow markers do not certify source bytes.
+
+Thirteen fresh191–203 scans were reviewed beforemapping,withsixmappedpages/seven
+outside-maplookups. All72 original/50 revised text panels and12 original/seven
+revised figures reviewed. Thirty-eight crops widened once;98tasks60initial/38repair,
+zero failures/retries. Exactindexes,wrappedprojection and byte-identical rebuilds
+pass;185 priornative/32assemblypins preserved and13Mayassemblies revalidated.
+The unchanged103-test baseline is reused. Fullproofreading andcodeexecution remain
+deferred. No pipeline,HTML,frontend orbrowser changes.
+Evidence: `private/pdf-restoration/12-1984-05-batch-32`.
+
+Native32ending committed d15789d. Referenceindex tooling committed648e28b;
+all106tests,realprojection/rebuild and32historicalassemblychecks pass.
+The full cat article on pages 192–197 is now readable/sample-reviewed. Its two
+immutable segments retain 41 regions, 30 ordered blocks, 11 images, four captions,
+30 regional spans and 47 text reviews. One AppleSoft program retains 415 physical
+rows: 231 numbered entries, 183 wraps and one ]LIST prompt. Fifty-nine DATA
+statements retain 881 literal values. Four direction-table rows/12 cells,
+23 program-guide explanations and 13 variables have exact combined UTF-8 indexes.
+No prose or physical-row join is needed between segments; 1090→1100 and 5120→5130
+remain separate rows. Line 3080's column wrap on page 196 is retained.
+Original files/metadata and 187 prior native/32 assembly pins are preserved;
+the byte-identical rebuild and 106-test baseline pass. No new mapping, OCR, HTML
+or browser work. Full proofreading, quoted artwork, source bytes and execution
+remain unverified.
+Full export: `build/pdf-restoration/12-1984-05-cat`.
+Evidence: `private/pdf-restoration/12-1984-05-cat-assemble`.
+
+Native33 completes 너구리202–207:47 regions,33 ordered blocks,11 images,
+three captions,36 regional spans and156 text reviews. CGBASIC retains261
+physical rows/172 numbered entries/89 wraps,including880 across205/206.
+Independent hex data retains124 rows/1,488 byte-value candidates;16 save-example
+tokens are separate. Five direction rows plus header/12 cells,12 guide rows,
+10 variables andseven commands have exact UTF-8 indexes. Ninety-nine editorial
+graphic markers reference scans without certifying original bytes/counts.
+Literal $13A9 versus13A6,2000-byte prose claim,duplicate flowchart A-key,
+RUSH andGOSUB1190 remain unchanged. Full proofreading/execution unverified.
+
+Nine fresh201–209 scans reviewed before mapping;six mapped pages/three lookups.
+All54 original/five repaired text panels and11 images reviewed. Three crop
+repairs once each;50 actual tasks,zero failures/retries. Exact indexes,wrapped
+projection andbyte-identical rebuild pass. 187 priornative/33 assembly pins
+unchanged;14 May assemblies revalidated;106-test baseline reused.
+Export: `build/pdf-restoration/12-1984-05-batch-33/raccoon`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-33`.
+
+Native34 restores HAPPY-WORDS opening208–213:55 regions,40 blocks,12 images,
+three captions,43 regional spans and76 text reviews. LIST1 iscomplete insegment:
+410 physical rows/284 numbered entries/126 wraps,including1140 and2180 crosscolumn
+continuations. Five table rows/10 cells,54 guide fragments,19 variable fragments
+andfive commands haveexact UTF-8 indexes. Music1900/1910 has124 integer candidates;
+damaged1920/1930 remain uncertain. Word DATA has203 comma-separated candidates
+versusprinted200. Four editorial markers donot infer original glyph bytes/counts.
+Literal guide2570end versus2610END,W$(10)/WO$(10),adjacent plus signs andfaint
+punctuation candidates retained. Full proofreading/source bytes/execution unverified.
+
+Eleven fresh207–217 scans establishedfull208–215 extent beforemapping.
+All70 original/41 revised text panels and12 original/one revised image reviewed.
+Nineteen crops repaired once;74 tasks,zero failures/retries. Exact indexes,
+wrapped/reference projection andbyte-identical rebuild pass. All188 priornative/
+33 assemblypins retained;14 May assemblies revalidated;106-test baseline reused.
+Export: `build/pdf-restoration/12-1984-05-batch-34/happy`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-34`.
+
+Native35 completes HAPPY-WORDS ending 214–215 and 메아리 216–217: 22 regions,
+14 blocks, seven images, 15 regional spans and 24 text reviews. HAPPY LIST2/3
+retain 128 unnumbered physical rows, two prompts, 126 address rows and 1,000
+hex-token candidates; the complete flowchart is preserved. 메아리's printed May
+patch has 141 physical rows/78 numbered entries/63 wraps, including 1110/1180
+REM column continuations; eight DATA statements retain 228 integer candidates.
+The headline joins its two printed parts. No April original program invented.
+
+Nine fresh 213–221 scans proved extents before mapping: four mapped pages/five
+outside-map lookups. All 28 original/three revised text panels, seven images and
+one supplemental token inspection reviewed. One crop repaired once; 23 tasks,
+zero failures/retries. Source first label 5, 61B8's final 52 and 63D0's 0D supersede
+preliminary readings; initial evidence retained. FILL NAME, RECODER, 1194–1196
+colon-only rows and punctuation candidates remain literal. Full proofreading,
+quoted spaces, source bytes and execution remain unverified. Exact indexes,
+wrapped/reference/prompt projection and identical rebuilds pass; 189 prior native/
+33 assembly pins unchanged, 14 May assemblies revalidated, 106-test baseline reused.
+Exports: `build/pdf-restoration/12-1984-05-batch-35/{happy,echo}`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-35`.
+
+Native35 ending committed `1e763f6`; post-commit audit passes. Full HAPPY projection
+preflight reproduced the existing adapter's legacy listing-marker counter failure.
+Three code markers and one prose marker have immutable regional excerpt records,
+without legacy glyph fields. No full export created or source input changed.
+Preflight evidence: `private/pdf-restoration/12-1984-05-happy-reference-adapter`.
+
+The opt-in `wrapped-literal-reference-v1` adapter is tested: all 112 PDF tests,
+real HAPPY projection and 33 historical assembly compatibility checks pass.
+All 191 native manifest pins remain unchanged. Strict marker/regional links and
+unverified inline/hex indexes retain literal candidates; no original bytes or
+execution are certified. Projection has 538 physical rows, 1,000 hex candidates,
+four markers and five inline examples. Repeated projection is identical and the
+ledger remains unchanged. Three native34 prose joins are retained.
+
+Tooling committed separately `89d5f4b`, after ending native `1e763f6`. Full HAPPY
+208–215 assembly is complete: 66 regions/47 blocks/16 images/three captions,
+50 regional spans/85 text reviews and 538 physical rows (284 numbered/126 wraps/
+128 unnumbered). Three listing groups retain 124 numeric DATA candidates, 1,000
+hex candidates and two prompts. Five table rows/10 cells, 54 guide fragments,
+19 variables, five inline examples and four markers have exact combined spans.
+Fifteen word-DATA rows/203 candidates remain in immutable original metadata.
+All copied original files/metadata and 191 native/33 prior assembly pins are
+unchanged; full rebuild is byte-identical and 112-test baseline reused. Three
+native prose joins retained; no 213/214 join. Only HAPPY availability promoted.
+Full proofreading, glyphs/encoded bytes, quoted spacing and execution unverified.
+Export: `build/pdf-restoration/12-1984-05-happy`.
+Evidence: `private/pdf-restoration/12-1984-05-happy-assemble`.
+Do not rerun its completed closeout or pre-promotion checks.
+
+Native36 completes 리뷰쌀롱220–224: 34 regions/17 blocks/five original images,
+one caption,29 regional spans/62 text reviews. One canonical article includes
+카나리아II, DCM12-SL and TM-103. Three continuous prose groups retain12 native
+column/page boundaries. Eight specification rows/16 cells retain one blank under
+the printed merged broadcast-frequency label. Printed local spellings/model
+variants, 여유자작한, 농촌도 가도 and C-/ATALOG wrap remain literal. Historical
+technical claims, full proofreading and source encoded bytes unverified.
+
+Twelve fresh219–230 scans established extent before mapping:five mapped pages/
+seven outside-map lookups. All38 original/six revised text panels andfive figures
+reviewed. Three crops repaired once each;37 actual tasks,zero failures/retries.
+Initial evidence retained. Exact indexes,regional/reference projection and identical
+rebuild pass;191 prior native/34 assembly pins retained,15 May assemblies revalidated.
+Unchanged112-test baseline reused;no pipeline,HTML or browser work.
+Export: `build/pdf-restoration/12-1984-05-batch-36/review`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-36`.
+Do not rerun completed closeout or pre-promotion validation.
+
+Native37 completes Q&A225–229:49 regions/30 blocks/12 original images,eight
+captions,37 regional spans/76 reviews. Eight question/answer sections and all seven
+listings retained. Nine literal groups include separate list4 hex/disassembly and
+figure1 hex table.112 physical rows retain48 numbered/64 unnumbered rows;45 hex
+rows retain166 candidates. List6 shares a group across229 columns;list7 ends250
+without an invented terminator. Six prose groups preserve seven region boundaries.
+Printed CGINT/CGINIT,커서나,메모리 경영,서브루틴은 and11H remain literal.
+PATTERN caption retains provisional8-like reading with3/8 uncertainty. Source
+glyphs/quoted spacing,encoded bytes/execution and full proofreading unverified.
+Seven fresh224–230 whole scans prove extent;five mapped pages/two outside-map
+lookups. All48 text panels/12 original images reviewed;49 tasks,zero failures/
+retries,no repairs. Lower ad229 excluded by crop bounds;initial/final maps and
+OCR bundles remain byte-identical. Rejected map-bookkeeping attempts preserved.
+Exact indexes,regional/reference/wrapped projection and identical rebuild pass;
+192 prior native/34 assembly pins retained,15 May assemblies revalidated.
+Unchanged112-test baseline reused;no pipeline or rendering changes.
+Export:`build/pdf-restoration/12-1984-05-batch-37/qa`.
+Evidence:`private/pdf-restoration/12-1984-05-batch-37`.
+Do not rerun completed closeout or pre-promotion validation.
+
+Native38 restores the appendix's first230–235 segment. Fresh23 upright229–251
+scans prove full230–249 extent; six mapped pages/17 outside-map lookups.74 regions,
+51 blocks,22 original images,52 regional spans and111 text reviews. All60 panels/
+22 figures inspected;74 tasks,no failures/retries/repairs,unchanged maps/OCR bundles.
+Introduction,40 elementary questions/answer key,middle1–11 and question12 opening
+retained.111 physical/numbered rows in15 independent groups preserve duplicate30/40
+labels and question30's233 column continuation. Seven numeric DATA statements retain
+20 candidates; four key rows/52cells retain40 pairs/11 blanks. One prose join retains
+middle8 LEN/(Z$);20 circled Hangul glyphs and physical quoted-string wraps remain
+uncertain. Printed C=A-C,=<,=>,missingTHEN and provisional dot retained.
+236–249 deferred; middle12 resumes new55/60 rows and choices236. No invented END.
+Exact indexes,regional/reference/wrapped projection and identical rebuild pass;
+193 prior native/34 assembly pins unchanged,15 May assemblies revalidated. Unchanged
+112-test baseline reused. Initial incomplete-glyph-metadata export and rejected
+bookkeeping/refused-overwrite attempts preserved; only reviewed export is promoted.
+Export:`build/pdf-restoration/12-1984-05-batch-38/appendix-reviewed`.
+Evidence:`private/pdf-restoration/12-1984-05-batch-38`.
+Do not rerun completed closeout or pre-promotion validator/finalizer.
+
+Native39 restores appendix236–241, following immutable native38 opening230–235.
+The ledger preserves both segments and available pages230–241; no full assembly
+or readable promotion yet. Eight fresh235–242 scans and15 exact pinned native38
+reviews preserve complete230–249 extent proof; six mapped pages/17 outside lookups.
+All77 text panels/41 figures plus one repaired r105 crop actually reviewed.
+One right-edge repair recovered both complete question22 choices.112 initial tasks
+andone repair executed;111 cache hits,zero failures/retries. Initial maps/crops,
+raw OCR/positions/settings and attempts preserved;111 unchanged final crops verified.
+112 regions,67 blocks,71 regional spans and156 review ranges retain middle12 tail,
+middle ending/key239 and high-school questions1–27/question28 prompt.148 physical/
+numbered code rows form23 groups; q27,q36/37,q40 and high12 span fresh rows across
+columns/pages. Five numeric DATA statements retain15 values; mixed DATA separately
+indexed. Four prose joins and46 Unicode notation candidates retain uncertainty.
+Middle duplicate16 labels,DIN,NEXT1I,FOR,missingTHEN,blank20/40 operands and blank
+condition box stay literal. Middle forty-answer key plus truth table retain9 rows/
+67 cells,11 blanks and40 separately indexed answers. Full proofreading,source
+encoding and execution unverified; original bitmaps authoritative.
+Exact UTF-8/regional/table/physical/logical/DATA/glyph indexes,regional/reference/
+wrapped projections and independent byte-identical rebuild pass.194 prior native/
+34 assembly pins plus earlier unpromoted export preserved;15 May assemblies
+revalidated. Unchanged112-test baseline reused. No pipeline or rendering changes.
+Export:`build/pdf-restoration/12-1984-05-batch-39/appendix`.
+Evidence:`private/pdf-restoration/12-1984-05-batch-39`.
+Do not rerun completed closeout or pre-promotion validator/finalizer.
+
+Native 40 restores appendix pages 242–247, covering the high-school ending/answer
+key and adult questions 1–29 plus question 30's prompt. The ledger preserves three
+immutable segments covering 230–247; full assembly and readable promotion await
+pages 248–249. Eight fresh 241–248 scans and 15 exact pinned native 38 reviews establish
+complete 230–249 extent before mapping: one article, six mapped pages, 17 outside lookups.
+
+The checkpoint retains 89 regions, 54 blocks, 31 original figures, 58 regional ranges
+and 131 text reviews. All 67 initial text panels/31 figures and 10 revised text crops/
+four revised figure crops were actually reviewed. Fourteen distinct regions were
+repaired once each to recover INPUT A$, TO 20 endings, axis labels, clipped text,
+question labels and the complete source caption. Initial evidence and both repair
+generations remain separate; 75 unchanged final crops are byte-identical. There
+were 103 actual tasks(89 initial/14 repaired), 164 cache hits and zero OCR failures/retries.
+
+Its 136 physical program rows retain 122 numbered entries, 12 unnumbered rows and two
+wrapped DATA rows across 15 independent groups. High 32's boxed 1–6 are ordinal labels,
+not certified BASIC line numbers; INPUT A$ and eleven stack rows remain unnumbered.
+Four prose joins, 144 inline examples, 40 printed high-school answers and 18 Unicode
+notation candidates retain uncertainty. Seven tables preserve 31 rows/139 cells and
+16 blanks. Source NEXT 1, duplicated 중중, 직접회로, blank operands and historical claims
+remain literal; comparison-glyph, quote/spacing and geometry candidates stay uncertain.
+Closer review confirms the comma after 97 in high 39 DATA; the earlier contrary
+review note was withdrawn. Full proofreading, source bytes and execution are unverified.
+
+Exact UTF-8/regional/table/cell/physical/logical/glyph indexes, regional/reference/
+wrapped projections and an independent byte-identical rebuild pass. 195 prior native/
+34 assembly pins plus the earlier unpromoted export are unchanged; 15 May assemblies
+were revalidated. All three native 40 OCR evidence exports are inventory-pinned.
+A rejected reused output path, completed-export diagnostic error and local generation-
+metadata filename mix-up are recorded; authoritative exports were preserved and
+metadata was recovered from their saved outcomes. The unchanged 112-test baseline
+is reused; no pipeline or rendering changes.
+Export:`build/pdf-restoration/12-1984-05-batch-40/appendix`.
+Evidence:`private/pdf-restoration/12-1984-05-batch-40`.
+Do not rerun completed closeout or pre-promotion validator/finalizer.
+
+Native 41 restores the appendix ending on pages 248–249. All source pages
+230–249 are now available across four immutable native segments; full assembly
+and readable promotion remain. Four fresh 247–250 scans and 18 exact pinned prior
+reviews establish complete extent before mapping: two mapped pages and 20 outside
+proof pages. The advertisement below the final answer key on 249 is excluded.
+
+This segment retains 38 regions, 25 blocks, 13 original figures, one caption,
+25 regional spans and 58 text reviews. All 25 text panels and 13 figure crops
+were actually reviewed. All 38 OCR tasks completed without failures, retries or
+crop repairs; final map and OCR evidence are unchanged copies of the originals.
+Its 41 physical program rows retain 40 numbered entries and one wrapped row across
+six independent groups/eight code regions. Adult 33 and program 37(1) continue
+with fresh physical rows; printed 40 wraps to THEN GOTO 99. One numeric DATA row
+retains four values. No native prose or physical-row joins are needed.
+
+The adult answer key preserves all 40 answers. Four source tables retain 22 rows,
+202 cells and 21 blanks, including the ASCII table's printed omissions. Repeated
+array-label rows retain explicit source roles in the corrected index. An initial
+export with unsupported repeated header metadata remains separately pinned;
+only `appendix-reviewed` is promoted. Text, listing bytes, maps and scans are
+identical between exports. There are 73 inline examples and five Unicode notation
+candidates. Blank operands, omission dots, binary choice 1000100 and historical
+wording remain literal; full proofreading, encoded bytes and execution are unverified.
+
+Exact regional/table/cell/physical/logical/DATA/glyph indexes, regional/reference/
+wrapped projection and independent byte-identical rebuild pass. All 196 prior
+native and 34 assembly manifest pins remain unchanged; two unpromoted native
+exports and native 40/41 OCR evidence inventories are preserved. Fifteen May
+assemblies were revalidated; the unchanged 112-test baseline is reused.
+Export: `build/pdf-restoration/12-1984-05-batch-41/appendix-reviewed`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-41`.
+Do not rerun completed native closeout or pre-promotion validation/finalizers.
+
+Full appendix230–249 assembly is complete after native41 `0db83cb` and separate
+tooling `bdf0d8c`. Four immutable original natives preserve313 regions/196 combined
+blocks/107 images,206 regional spans and456 text reviews. All four40-answer keys
+retain160 pairs. 468 inline examples,89 Unicode notation candidates and66 table
+rows/460cells/59blanks preserve uncertainty. Listing436physical rows retains421
+numbered entries,three wraps and12unnumbered rows in58groups;59 native group records
+remain unchanged. Middle12 joins only its group across235/236; adult30 prose joins
+with two newlines while both original blocks/ranges remain independently indexed.
+Nine native prose joins remain; no physical-row join or source program repair.
+
+All copied original files/metadata,197 native/34prior assembly pins,two unpromoted
+exports and40–41 OCR export inventories are preserved. Exact indexes and independent
+full rebuild pass;115-test baseline reused. One standalone source caption plus one
+embedded caption remain in their original forms. A validator's incorrect two-block
+caption assumption was corrected; the completed export and ledger stayed intact.
+Full proofreading,source bytes andexecution remain unverified. No new mapping/OCR.
+Export: `build/pdf-restoration/12-1984-05-appendix`.
+Evidence: `private/pdf-restoration/12-1984-05-appendix-assemble`.
+Do not rerun completed assembly closeout or pre-promotion validation.
+
+Native42 restores radar89–94 of source-verified89–96. Fifteen fresh88–99/249–251
+whole scans and the source contents image were reviewed before mapping. One
+article/six mapped pages/nine outside-map lookups.67 regions retain55 blocks,
+six images,61 regional spans,101 reviews,29 Unicode candidates and13 news items.
+The award table retains13 rows/65 cells/seven blank merged-label continuations;
+two source captions and six prose boundaries remain exact. All73 original/seven
+revised panels and six original images were viewed. Four crops widened once;
+71 actual tasks,zero failures/retries. Printed errors/claims and faint glyphs
+remain candidates;full proofreading/source bytes unverified. The validator's
+two bookkeeping assumptions were corrected with attempts retained;no export
+mutation. Indexes/projections, original bytes and independent identical rebuild
+pass.197 prior native/35 assembly pins, two unpromoted exports and40–42 OCR
+inventories retained. Unchanged115-test baseline reused.
+Source contents and eight canonical children establish pageless information
+group0034 as non-owning. May now34 readable/one partial/six groups/one unresolved.
+Export: `build/pdf-restoration/12-1984-05-batch-42/radar`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-42`.
+
+Native43 completes radar95–96 and lower advertisingindex250 after native42
+commit31355dd. All15pinned wholeviews/full sourceextent reused;95/96/250 actually
+reinspected before mapping. Two articles/three mapped pages/12outside-map lookups.
+28 regions retain23 blocks/two original images,26 regional ranges/52 reviews and
+32 Unicode candidates. Six ending foreign reports preserve three prose boundaries;
+Mostek final text/endmarker retained.30advertisers/60cells in16left/14right rows;
+printedcoverreferences표2/표3/표4 remain strings. Upperpublisher ad250 excluded.
+All33original panels/two images viewed;28actual tasks,zero failures/retries/repairs.
+Independent indexes/projections and identical rebuilds pass;198prior native/35
+assembly pins,unpromoted exports and40–43 OCR inventories preserved. Unchanged115
+PDF-test baseline reused. Source errors/claims/glyphs/fullproofreading unverified.
+All42canonical IDs/titles/parents retained:36articles/6groups;35readable/onepartial
+radar pendingfullassembly;zero unresolvedeligibility.43native checkpoints complete.
+Exports: `build/pdf-restoration/12-1984-05-batch-43/{radar,ads}`.
+Evidence: `private/pdf-restoration/12-1984-05-batch-43`.
+
+Next: separate fullradar89–96assembly after named native43 ending commit/audit.
+Use exact native42/43manifest pins and preflight existing reference/listing mode:
+84regional spans,13table rows/65cells/seven blanks,61Unicode candidates;no94/95
+prose or physicalrowjoin. Preserve8native prose groups/9boundaries and19newsitems
+in original metadata. Resolve only assemblyscope gaps. Then wholeMay standalone
+JSON/assets index/report,source/outcome accounting,rebuild andrequirements audit.
+Do not rerun completed native43 finalizer/validator/closeout;JSON/assets only.
+
+Accounting opening148–153 (native22) and ending154 (native23) retain52 regions,
+41 ordered blocks,seven original images,45 native regional spans,41 source block
+ranges and123 text review ranges. SectionsA–Z form one continuous PET/CBM BASIC
+program:293 physical/numbered rows in29 codeblocks. Four native prose boundaries
+retain 다음으로, 만일 누계까지, 대변합계 and 계정을. No crosssegment prose or
+physical-row join is needed;1720 is followed by1730. Final2540RETURN andREADY154
+precede non-owningdivider155 and next terminal article156.
+
+Faint digits/variables/operators, PET graphics/run lengths, quoted spacing and
+Hangul glyph sequences remain explicitly uncertain. Composed Korean candidates
+inside markers are editorial reading aids;original bitmaps are authoritative.
+Literal syntax/nonmonotonic2040/2030 and2541/2542/2530 labels,duplicate2582,
+GOSIB2080,PRINT(Y1/100),THEN2229 and earlier malformed statements remain unchanged.
+Row30B70/IFDC,row119D1/C1 andI5/I6 candidates need manual proofreading. No source
+encoded-byte or execution certification;full proofreading remains deferred.
+
+Native22 reviewednine148–156 lookups/six mapped pages;native23 reviewedfour
+153–156 lookups/one mapped page. Both use three outside-map lookups. Native22
+had54 executedtasks43 initial/11 repairs;native23 had13tasks9 initial/four repairs.
+Each distinct region repaired once,zero failures/no OCR retry. All initial/revised
+inspection panels,seven original images and supplementary source zooms reviewed.
+Original maps/crops/raw OCR,positions/settings and attempts preserved.
+
+Full assembly follows named native ending checkpoint0ef490d. All205 original
+files are byte-identical;exact full rebuild, UTF-8 ranges and physical/logical
+listing indexes pass. All175 prior native/30 assembly pins unchanged. Passing
+unchanged100-test baseline reused. No new mapping,rendering,OCR,pipeline change,
+HTML,frontend or browser work.
+
+Terminal native24 opening156–161 and native25 middle162–167 are complete.
+Native25 retains51 regions,31 blocks,15 images,83 table rows/396 cells and68
+unnumbered assembly rows. All text panels/images reviewed; three distinct crops
+repaired once,54 tasks with zero failures/retries. Five native prose boundaries,
+15 captions, source-file preservation and identical rebuild pass. All176 prior
+native/31 assembly pins remain; unchanged100-test baseline reused. Literal source
+errors and uncertain glyphs remain explicit; full proofreading deferred. Both
+terminal natives are immutable and await remaining168–180 and full assembly.
+
+Terminal native26 middle168–173 is complete:59 regions,40 blocks,17 images,
+45 table rows/100 cells,132 unnumbered assembly rows and16 caption spans.
+Two prose boundaries preserve 루틴에서/에러가. All52 initial/nine revised text
+panels,17 original images and three revised images reviewed. Ten distinct crops
+repaired once;69 tasks, zero failures/retries. Exact rebuild and all indexes pass;
+177 prior native/31 assembly pins unchanged,100-test baseline reused. Duplicate
+figure14/16 numbering and literal errors retained; source bytes/execution and full
+proofreading unverified. Three immutable terminal natives cover156–173;174–180
+and separate assembly remain.
+
+Terminal native27 pages174–179 is complete:20 regions,12 ordered blocks,
+8 original images,12 regional spans,19 text review ranges,4 source captions,
+2 command examples and1 figure note. Three unnumbered listing groups retain
+241 physical rows:20 editor-screen rows,133 complete transmit-program rows and
+88 receive-program rows continuing180. All29 original/5 revised text panels and
+8 original images reviewed. One crop repaired once;21 tasks with zero failures
+or OCR retries. Source COBY, figure20 reference, OR E, 8H+1H(129)BYTES and SEND R
+comment beside G operand retained. Figure18 includes a narrow incidental screen
+strip; complete flowchart and screen preserved separately. A first validation
+attempt exposed per-group physical ordinals; its export remains saved, and
+per-block ordinals now pass wrapped-index projection. No pipeline change.
+Exact rebuild and all UTF-8/caption/row indexes pass;178 prior native/31 assembly
+pins unchanged,100-test baseline reused. Four immutable terminal natives cover
+156–179; native180 and separate full156–180 assembly remain. Full proofreading,
+source encoding and execution remain unverified.
+Evidence: `private/pdf-restoration/12-1984-05-batch-27`.
+
+Terminal native28 ending180 is complete:3 regions,2 blocks,1 listing image,
+2 regional spans,3 text review ranges,50 unnumbered physical rows and1 source
+caption. All5 text panels and original image reviewed;3 tasks, zero failures,
+no crop repairs or OCR retries. END RECEIVE and printed caption period retained.
+Prior179/180 listing continues on a fresh physical row; no row join required.
+Exact rebuild and all UTF-8/row/caption indexes pass;179 prior native/31 assembly
+pins unchanged,100-test baseline reused. Five immutable segments now cover all
+156–180; separate full assembly remains. Source bytes/execution and full
+proofreading unverified. Evidence:`private/pdf-restoration/12-1984-05-batch-28`.
+
+Terminal table adapter is validated separately before full assembly. New opt-in
+`regional-table-listing-v1` permits explicitly indexed tab-separated table blocks
+between continued prose. Exact row bytes, source scan identities, consecutive
+row numbering, blank cells and complete table coverage are checked; prior modes
+remain unchanged. The actual five-segment sample preserves191 regions,118 final
+blocks,52 images,139 regional spans,241 review ranges and543 physical rows.
+Two joins cross exactly11 reviewed objects. Original table indexes remain in
+native metadata. All180 native/31 assembly pins and12 prior May assemblies pass;
+103 PDF tests pass. No full assembly or new extraction in this tooling checkpoint.
+Evidence: `private/pdf-restoration/12-1984-05-terminal-table-adapter`.
+
+Terminal full156–180 assembly is complete after native ending17c02f2 and
+separate table-adapterba2a2fc. It retains191 regions,118 ordered blocks,52 original
+images,139 regional spans,120 source block ranges,241 review ranges,46 captions
+and543 unnumbered physical listing rows. Fourteen assembly listings plus editor
+screen form15 groups;receive listing14 spans178–180 with138 rows. Nineteen native
+prose boundaries and two crosssegment joins across11 explicit objects preserved.
+Searchable tables retain167 data rows/652 cells;native indexes are unchanged.
+All653 original files are byte-identical, exact UTF-8/row indexes and independent
+full rebuild pass. All180 prior native/31 assembly pins remain;103-test baseline
+reused. A validation assertion initially expected one space in END RECEIVE;
+it now checks the original five-space alignment. No output/source change.
+Five scope gaps resolved;literal errors,glyph/encoding/execution uncertainty and
+full-proofreading deferral remain explicit. No new mapping/rendering/OCR,HTML,
+frontend or browser work. Evidence:`private/pdf-restoration/12-1984-05-terminal-assemble`.
+
+Workshop native29 restores the complete lightpen article181–183:34 regions,
+20 ordered blocks,seven construction diagrams/two listing panels,25 regional
+spans,41 text review ranges,eight captions andseven indexed materials. Two
+independent BASIC programs retain16 numbered physical/logical rows (4/12).
+Five native prose boundaries preserve 응용기기,연결의 의미,연결부가 and+5V 전원이.
+Quotedspacecounts,I/1/PBO/OV glyphs,sourceclaims andexecution remain unverified;
+sourcePRINT juxtaposition andliteral 트라이겜/뚫려진 wording retained.
+All26 original/one revised text panels,nine original/one revised images reviewed.
+Two distinct crops repaired once;36tasks34initial/2repair,zero failures/retries.
+Exact UTF-8/caption/material/listing indexes,wrapped projection andindependent
+rebuild pass. All180 prior native/32 assembly pins preserved;13 May assemblies
+revalidated. Passing103-test baseline reused. No pipeline/HTML/frontend/browser
+changes. Source maps/crops/rawOCR/positions/settings/attempts remain pinned.
+Evidence:`private/pdf-restoration/12-1984-05-batch-29`.
+
+Native30 restores complete Apple 쾌속 DOS184–187 and 복덕방188:61 regions,
+45 ordered blocks, four original images,57 regional spans,101 text review ranges
+and two source captions. Seven prose groups preserve12 native boundaries.
+Two independent unnumbered listings retain18 physical rows (16/2), with252
+hex-token candidates. Sector table retains16 data rows/32 cells; classifieds
+retain15 notices (two exchange, twelve sale, one wanted). Printed D9/I mismatch,
+BAGIC-G,15만원 and the reinitialization instruction remain literal. Hex glyphs,
+annotation alignment, prices/contacts, source bytes and execution remain unverified.
+All71 original/37 revised text panels and four original images reviewed. Twenty-four
+crops widened once;85 tasks61initial/24repair, zero failures or OCR retries.
+Exact UTF-8/table/notice/hex/listing/caption indexes, wrapped projection and
+independent rebuilds pass. All181 prior native/32 assembly pins preserved;
+13 May assemblies revalidated and unchanged103-test baseline reused. Original
+maps/crops/raw OCR/positions/settings/attempts retained. Full proofreading deferred.
+Evidence: `private/pdf-restoration/12-1984-05-batch-30`.
+
+Native31 completes 공모 총평 on pages 190–191 and restores the opening of
+길 잃은 고양이 on pages 192–195, within its verified 192–197 extent. The two
+packages retain 44 regions, 32 ordered blocks, eight original images, 36 regional
+spans, 62 text review ranges and five captions. Four prose boundaries preserve
+PONPOKO and 다양한; the printed wrapping hyphen before NPOKO is explicitly removed.
+The winners table has eight data rows/48 cells; the direction table has four
+rows/12 cells. The cat article has 23 program-guide rows and 13 variable definitions.
+Its one continuous AppleSoft listing retains 129 physical rows: 85 numbered entries,
+43 wraps and one ]LIST prompt. Line120 repeats destination170; only one line170
+label is present. Quoted artwork, small glyphs and source bytes remain provisional;
+printed wording and duplicate flowchart3240 are preserved. No code execution.
+
+Fifteen fresh whole scans189–203 establish boundaries before mapping: six mapped
+pages and nine outside-map lookups. All50 original/seven revised text panels and
+eight original images reviewed. Three crops widened once;47 tasks44initial/3repair,
+zero failures/retries. Exact UTF-8/table/cell/guide/variable/caption/listing indexes,
+wrapped projection and independent byte-identical rebuilds pass. All183 prior
+native/32 assembly pins unchanged;13 May assemblies revalidated. Passing unchanged
+103-test baseline reused. Original maps/crops/raw OCR and provenance retained.
+Full proofreading deferred. Cat196–197 is deferred, not missing; an ending native
+checkpoint and separate assembly are required. Evidence:
+`private/pdf-restoration/12-1984-05-batch-31`.
+
+Native exports: `build/pdf-restoration/12-1984-05-batch-{01–31}`.
+Latest full export: `build/pdf-restoration/12-1984-05-terminal`.
+Assembly evidence: `private/pdf-restoration/12-1984-05-terminal-assemble`.
+Latest native exports: `build/pdf-restoration/12-1984-05-batch-31/{review,cat}`.
+Native evidence: `private/pdf-restoration/12-1984-05-batch-31`.
+Assemblies: `build/pdf-restoration/12-1984-05-{feature,ai,fugitive,fishing,machine,logo,basictech,unix,medical,visicalc,database,accounting,terminal}`.
+Ledger: `private/pdf-restoration/12-1984-05/issue-progress.json`.
+Next: native32 restores the cat ending196–197 after fresh extent/boundary proof.
+Page195 ends complete1090 before1100; preserve the page196 left5080 continuation
+at right-column top before3090. Optional function keys198–201 fits the remaining
+four mapped pages/second article after fresh proof. Assemble the full cat192–197
+separately after the native ending commit. Unlisted announcement189 remains excluded.
+May closeout follows all remaining articles/classifications.
+Stay within two-article/six-mapped-page/twenty-outside-map-lookup limits.
+
+Completed March standalone output: `build/pdf-restoration/12-1984-03-reference/issue.json`.
+Report: `build/pdf-restoration/12-1984-03-closeout/report.json`.
+Ledger: `private/pdf-restoration/12-1984-03/issue-progress.json`.
+The issue contains 237 source pages, 1,794 regions, 1,143 blocks, 314 figures and
+7,078 physical listing rows. Its 6,963 files total 1,752,191,791 bytes. All 6,957
+original package files, canonical identities, source geometry and a byte-identical
+issue rebuild pass verification. The 139 prior native and 19 assembly manifest
+pins remain intact. Source errors, uncertain readings and deferred manual bitmap
+correction remain explicit. No pipeline changes; the 90-test baseline was reused.
+HTML, browser checks and reader integration are outside this task's scope.
+
+The March objective is complete. May 1984 is the next supplied eligible issue;
+restoration began 2026-10-07. The owner confirmed that the earlier April label
+was incorrect: no April PDF is supplied. Sixteen eligible issues remain to close.
+March batches 01–44 and nineteen article assemblies
+are complete. The checkpoint record below preserves detailed provenance; older
+pending notes are superseded by this closeout and its completion audit.
+Editorial13 and full feature14–37 are readable/sample-reviewed. The assembled
+feature is `build/pdf-restoration/12-1984-03-feature`:24 pages,149 regions,
+77 blocks,22 image panels and2,033 physical listing rows; all five original
+packages remain unchanged under segments. Rebuild and85 PDF tests pass.
+The full 추리력 테스트 게임40–46 is assembled at
+`build/pdf-restoration/12-1984-03-reasoning`: 24 regions, 17 blocks, two images,
+535 physical rows and 42 unresolved PET graphics markers. Both native segments
+(batch06/reasoning/revised-final and batch07/reasoning) remain unchanged.
+Batch07/hourglass restores complete 모래시계47–50: 18 regions, 13 blocks,
+one image and 376 rows across five implementations. Batch08 completes paddle
+construction51–53 (29 regions,18 blocks,eight numbered diagrams) and apple-counting
+54–55 (11 regions,nine blocks,one photograph,80 BASIC rows). Both packages rebuild
+identically; all text/listing/figure indexes and three prose joins pass.
+Batch09/golf completes canonical 올 인원 (printed 홀 인 원)56–60:18 regions,
+12 blocks,two images and360 physical BASIC rows (113 numbered,247 continuations).
+Native review recipe is under `batch-09/golf/revised-final`; originals and two
+once-repaired crops remain preserved. Code860 crosses59/60;1040 crosses columns.
+Source table1770,PRINT CS,AP and uncertain650 period/1150 F/P remain literal.
+Rebuild is byte-identical and85 earlier packages pass read-only preservation checks.
+Batch10/dreidel completes 팽이 놀이61–63:11 regions,eight blocks,one image,
+117 physical rows (116 numbered,one wrap). Decorative quote-like prefixes/star
+counts remain uncertain; source DRIEDEL,A$ and number gaps remain literal.
+Batch10/hunting restores64–66 of verified64–69:37 regions,33 blocks,two images,
+four code examples/six rows,and two source-backed prose joins. Repeated SCALE=1
+is deliberately retained. Batch11 completes explanation/listing67–69 and assembles
+hunting64–69 at `build/pdf-restoration/12-1984-03-hunting`:45 regions,38 blocks,
+two images,195 physical rows across five code groups,and three prose joins.
+The native ending preserves61 byte-indexed annotated example rows inside its prose,
+including differences from the main program. Both native segments remain unchanged.
+Program450 wraps across68/69; no inferred repair or inserted CTRL-G. Full assembly
+and new native packages rebuild identically;88 earlier packages pass preservation.
+Batch11/puzzle restores70–72 of verified70–73:12 regions,nine blocks,two images,
+67 numbered program rows through3325. Literal guide3340/code3400 discrepancy and
+missing3185 remain explicit. Page73 starts3330 and ends9580 P=1:RETURN;74 begins
+매직 스퀘어. No crop repair or OCR retry in this batch.
+Batch12 completes puzzle73 and assembles70–73 at
+`build/pdf-restoration/12-1984-03-puzzle`:13 regions,10 blocks,two images,133
+program rows and one prose join. Both native segments are preserved unchanged.
+Batch12/magic completes 매직 스퀘어74–76:12 regions,six blocks,one original
+illustration and182 physical rows (86 numbered,96 continuations). Its final native
+recipe is `private/pdf-restoration/12-1984-03-batch-12/magic/revised-final`.
+Original and intermediate evidence remain under magic/ and magic/revised/;
+r09/r10/r12 right edges were each widened once. Program3015 crosses76 columns;
+duplicated plus signs,DI/DIR,SCRAMLED and repeated prose particle remain literal.
+Decorative star counts and small punctuation remain uncertain. Native/assembly
+rebuilds match and90 earlier packages pass preservation checks.
+Batch13 completes 당신도 암산왕77–78 (14 regions,11 blocks,one illustration,
+64 physical listing rows:63 numbered plus541 continuation) and 불꽃 놀이79
+(seven regions,five blocks,two photographs,33 physical rows:21 numbered plus12
+unnumbered heading/wrap rows). No crop repair or retry. Arithmetic plus-like glyphs,
+missing-looking540 quote and560 timer formula are retained with explicit uncertainty;
+no inferred executable repair. Both exports rebuild identically;92 prior packages
+and all four earlier assemblies pass preservation checks.
+Batch14 completes 베이직 강좌82–87 at
+`build/pdf-restoration/12-1984-03-batch-14/basic`:41 regions,24 blocks,five images,
+40 physical listing rows (23 numbered,17 wraps),67 indexed annotated code rows
+and one indexed output row. Number-base table has17 searchable rows including
+header; eleven prose boundaries and four diagram captions are checked. Original
+artwork includes the separately searchable opening quotation by design. Final
+recipe is `private/pdf-restoration/12-1984-03-batch-14/basic/revised`; initial
+evidence remains under basic/. Figure2 left border and caption right edge were
+each widened once. Literal source discrepancies include16 binary ones versusFFF,
+nine81 terms in the twelve-byte definition,11264($2000),14366,DEF STR$ and FC DATA
+punctuation. Code wraps,uncertain spaces and printed YOU- hyphen remain explicit.
+Exact rebuild and94 prior native package/four assembly preservation checks pass.
+Batch15 completes 소프트웨어 복사 방지 기술88–91 at
+`build/pdf-restoration/12-1984-03-batch-15/protection`:42 regions,27 blocks,six
+images,five indexed monitor commands,seven indexed bit rows,nine prose joins and
+four references. Original field-marker size discrepancy,BB00/BC56/BB56 wording,
+VTOC35/23 notation,FF EF map update and DOS3,3 remain literal. No execution claim.
+Batch15/numbers restores 컴퓨터와 수92–93 of verified92–99:18 regions,11 blocks,
+two images,six indexed arithmetic rows and five prose joins. Opening artwork
+intentionally retains the separately searchable editor note. Diagram2048 label
+under8⁴,prose4096,deliberate invalid71834 example and conversion-direction wording
+remain source forms. Exponents/base labels/bit indices use Unicode superscripts
+and subscripts. No full code listing appears in either package.
+All60 tasks completed without repair/retry. Both native exports rebuild identically;
+95 prior native packages and four assemblies pass preservation checks.
+Batch16 completes 컴퓨터와 수94–99 and assembles92–99 at
+`build/pdf-restoration/12-1984-03-numbers`:107 regions,55 blocks,36 images and49
+indexed example/table rows in the unchanged native corrections. Ending has89
+regions,44 blocks,34 images,43 indexed rows and eleven prose boundaries. The exact
+openingr18/endingr01 continuation is linked with no separator. All89 tasks completed
+once without repair. Native/assembly rebuilds match;97 prior natives and four prior
+assemblies pass preservation. Source conversion-table errors,unmatched formula,
+operand/sign contradictions and seven-bit diagram row remain literal. Figure numbers
+1,3,4,5 remain source numbering; uncaptioned table is not given an invented caption.
+Batch17 restores 마이크로 컴퓨터 시스템 입문100–105 of verified100–108 at
+`build/pdf-restoration/12-1984-03-batch-17/systems`:59 regions,39 blocks,15 images,
+five indexed assembly examples,five prose boundaries,nine numbered captions.
+Final recipe is `private/pdf-restoration/12-1984-03-batch-17/systems/revised`.
+Opening photo widened once to retain entire series banner; initial evidence retained.
+Figure6 spans103–104 in three ordered parts. Source figure5 RD,BCD diagram60/11,
+JP/JR bytes,flag claims and editorial note remain literal. No standalone listing in
+this opening. Exact rebuild and98 prior native/five assembly preservation checks pass.
+Batch18 completes systems106–108 and assembles100–108 at
+`build/pdf-restoration/12-1984-03-systems`:100 regions,65 blocks,21 images,
+29 physical source/assembler-output rows,17 indexed native examples and15 prose
+boundaries. Captions1–15 retain source numbering. Both native segments are copied
+unchanged. Assembler internal source numbers0001–0014 are separate metadata;
+leading addresses are not BASIC line numbers. Printed Errors0 is not an execution
+claim. Literal two path and uncertain desuription c/u remain documented.
+Batch18/tape restores109–111 of verified109–112:49 regions,44 blocks,four images,
+13 physical dump/command/output rows,six listing groups and10 indexed examples.
+Boxed address placeholders,screen return glyphs and keyboard/screen table remain
+original images. Single-nibble1 and uncertain colon-like punctuation remain literal.
+Final recipes are under private batch18/{systems,tape}/revised. Five systems and
+two tape boundaries repaired once each; initial evidence preserved. OCR engine and
+configuration unchanged. Native/assembly rebuilds match;99 prior native packages
+and five prior assemblies pass preservation checks.
+Batch19 completes tape112 and assembles109–112 at
+`build/pdf-restoration/12-1984-03-tape`:67 regions,58 blocks,seven original images,
+22 physical listing rows,20 indexed native examples and three prose boundaries.
+Ending112 has18 regions,14 blocks,three images,nine byte-dump rows and10 indexed
+commands. Four unnumbered captions retained;one belongs to the byte dump. Incoming
+111/112 prose is linked with one space in correction metadata;native blocks and
+article.txt paragraph separators stay unchanged by design. Both segments copied
+byte-for-byte into assembly.
+Batch19/data completes 자료 구조113–117:43 regions,30 blocks,four images,137
+physical rows in six program/schematic groups,13 indexed examples,six prose joins
+and three code-column joins. Complete flowchart,opening photo and two artworks
+retained. Final recipe under private batch19/data/revised;one r10prose crop widened
+once,initial evidence kept. Tape recipe remains under batch19/tape with no repair.
+Literal BINSRCH LOW/ER wrap,A(MID),undeclaredJ,missing-looking comment terminator;
+FACT procedure/smallo;PADD POLINOMIAL,splitcomment opener and¬= remain source forms.
+Vertical omission dots use⋮and parameter dot·;printed stars useASCII*. Mathematical
+superscripts/subscripts useUnicode and compoundexponents use^(eₘ). Smallo/0 and
+precise math typography remain explicitly uncertain. Native/assembly rebuilds match;
+101 earlier natives and six earlier assemblies pass preservation checks.
+Batch20 completes 기계어 강좌118–123 at
+`build/pdf-restoration/12-1984-03-batch-20/z80`:41 regions,23 blocks,six original
+images,23 physical listing rows in three groups,11 indexed prose examples and
+12 column/page boundaries. Fifteen assembly/source rows,three byte-dump rows and
+five BASIC rows remain literal;four BASIC line numbers and one PRINT wrap.
+CA8015/table versus C515/dump,uncertain0011/8011 address and BASIC20 apostrophe
+are retained. Original hardware claims,adressing,그리고인가 and4-before-five-item
+operand list remain source forms. Figure1/2 right edges widened once each;initial
+images preserved. Final recipe is private batch20/z80/revised. Exact rebuild and
+103 prior native/seven assembly preservation checks pass. No engine change.
+Batch21 restores 심층적 회귀분석134–139 of verified134–154 at
+`build/pdf-restoration/12-1984-03-batch-21/regression`:65 regions,61 blocks,two
+original images,101 physical rows in eight groups and71 indexed prose table/example
+rows. BASIC DATA has12 physical rows(five numbered and seven wraps);seven source
+screen groups have89 rows. Two column prose boundaries joined. Opening artwork
+includes separately searchable introduction; office photo has no invented caption.
+Blank ninth Y cell,small table139 versus130,uncertain apostrophe90/190,coefficient
+6/5 and screenF/R remain explicit. Printed9000 parameters differ across examples;
+NF,TRNSGENERATED,TRANSGENETED,CORELATION and공산분 are literal. No statistical
+or executable repairs. Mathematical notation normalized for search; regional scans
+remain authoritative. Decorative dot/colon/rule counts and column spacing approximate.
+Final recipe is private batch21/regression/revised. r34/r36 prose right edges widened
+once each; initial evidence retained. Fresh rebuild matches;104 prior natives and
+seven assemblies pass preservation checks. Page133 비지니스 is the third non-owning
+group heading,after39 취미생활 and81 교육입문. Unlisted news124–131 and notice132
+are excluded. Classification and lookup evidence are pinned under private batch21.
+Batch22 restores regression140–145 at
+`build/pdf-restoration/12-1984-03-batch-22/regression`:67 regions,51 blocks,eight
+original images,170 physical rows in eleven code/screen groups and31 indexed
+prose/caption example rows. Six scatter plots retain searchable axis captions;
+computer/robot artwork and insurance graph remain original. Artwork rectangle
+includes separately searchable T-matrix prose/screen fragments. Eight prose
+boundaries joined,including142제거/한 and143예측/에. Ten screen groups contain
+164rows;insuranceDATA has six rows(five numbered,one115numeric wrap).
+Source rightmost-column wording,variable/correlation reversals,COV(X1,Y1),missingB2
+in MEAN,S′S=T′T,abbreviatedDATA5.7,logepsilon minus and10exponent1,502comma are
+literal. Narrower99%intervals and extra fitted-value digits not recalculated.
+Screen quote-like mark,repeated9count and small punctuation remain uncertain.
+Final recipe is private batch22/regression/revised. r13right and r35left/right
+edges widened once;originals kept. Exact rebuild and105 prior native/seven assembly
+preservation checks pass. No OCR configuration change or historical program execution.
+Batch23 restores regression 146–151 at
+`build/pdf-restoration/12-1984-03-batch-23/regression`: 24 regions, 13 blocks,
+two original flowchart panels, 558 physical listing rows and 73 byte-indexed
+example/reference rows. Two DATA groups contain 21 rows (15 numbered, six wraps);
+main BASIC 10–4215 contains 537 rows (315 numbered, 222 wraps/blank rows).
+Two prose joins reunite line descriptions and variable reference; seven listing
+joins retain physical rows. Main listing continues with 4220 on page 152.
+Printed equation/prose/DATA disagreements, data count 0, range 119000, duplicate
+variable 22, L*3=H, flowchart D(I,0)=0 and branch 6000 remain literal. Code J TN,
+TRNSGENERATED, TRANSGENETED, SG, RQ, missing THEN on759, malformed831, D(I,J)
+on1140 and B(NV-J) on4080 are not repaired. Damaged IF NF > on758, F denominator,
+ND/NO and O/0 glyphs remain uncertain. No execution verification.
+Final recipe is private batch23/regression/revised. r24 right edge widened once
+for complete HOME on3400; original evidence retained. Exact rebuild and106 prior
+native/seven assembly preservation checks pass. No OCR configuration change.
+Batch24 restores regression152–154 at
+`build/pdf-restoration/12-1984-03-batch-24/regression`: seven regions, two blocks,
+427 physical rows (298 numbered,129 wraps/blank rows) and one indexed DATA label.
+Five source boundaries joined with newline;12125 wraps across153columns and15040
+across153/154. One r06 left-edge repair recovers lower154line-number digits.
+Literal GOSUB1200,missing operator10100,K/Z11400,SG,doublecolon,INDEPENT,
+VARINCE,FITED and T1reuse remain. Small punctuation12090/13190 remains uncertain.
+Printed program ends19420 without19430/RETURN; missing18000routine not supplied.
+Complete regression assembly `build/pdf-restoration/12-1984-03-regression` contains
+21 pages134–154,163 regions,127 blocks,12 images and1,256 physical listing rows.
+All four native packages retained byte-for-byte. Native/assembly exact rebuilds,
+107 prior packages and seven prior assemblies pass. Full88 PDF tests pass.
+The namespaced adapter validates the untyped outgoing listing-block record saved
+in batch23 against batch24 incoming `kind: listing-block`. It links separate
+4215/4220 reading blocks without changing rows or asserting execution validity.
+Historical `kind: code` fragment declarations remain handled by existing checks.
+All source uncertainties remain; only eight superseded extent/assembly notes resolved.
+Batch25 restores VisiCalc155–160 at
+`build/pdf-restoration/12-1984-03-batch-25/visicalc`:69 regions,39 blocks,23 images,
+18 source captions,47 byte-indexed command/key examples and seven prose boundaries.
+Screens/cell values/highlights remain original images,following FebruaryVISICALC;
+commands,key symbols and explanatory prose are searchable. No executable listing.
+Boxed keys/cells use brackets,circledR/S useⓇ/Ⓢ;arrow-label associations recorded.
+Source VISICAL,Expendar,PRINTNG,FIrounding/FDreturn claims and capacities remain.
+FORMAT menu S/$andFX-8Q/0glyphs are explicit uncertainties. Source5060000total in
+10-2and displacedORT/SALES REP in11-2are not repaired. The column-insertion-after
+screen has no printed caption; no9-4caption invented.
+Final recipe is private batch25/visicalc/final. Two repair rounds affect six distinct
+regions once each: r14left,r18left,r33bottom,r07leftframe,r26/r31captionleft.
+Initial and intermediate evidence preserved. Exact rebuild and108 prior packages/
+eight assemblies pass; no tooling changes or repeat88-testbaseline required.
+Batch26 completes VisiCalc161–164 and assembles155–164 at
+`build/pdf-restoration/12-1984-03-visicalc`:10 pages,99 regions,57 reading blocks,
+31 images,25 source captions and69 indexed examples preserved in native metadata.
+Ending package `build/pdf-restoration/12-1984-03-batch-26/visicalc` has30 regions,
+18 blocks,eight images,seven captions,22 indexed examples and four prose boundaries.
+Final recipe is private batch26/visicalc/revised. Only r30 was widened once to
+recover leftmost command-chart labels. Page164 uses recorded lossless clockwise90
+orientation correction; original PDF geometry retained. Chart title is searchable,
+inner labels/branches remain an original image. No full chart transcript claimed.
+161/162입/력 joins without separator;162LOADcolumnswithspace;162/163DIFwithnewline;
+163WINDOWcolumnswithspace. No carried fragment at160/161. Printed STORAGEinitialization,
+SAVEformula claim,missing quote neararrow162 and WINDOWsemicolon163 retained.
+Printer setup ^CO O/0 is uncertain; no expected printer command substituted.
+Exact native/assembly rebuilds and109 prior package/eight prior assembly checks pass.
+Both native segments remain byte-identical. No tooling changes or repeat88-testbaseline.
+Batch27 restores 서북편란법165–170 at
+`build/pdf-restoration/12-1984-03-batch-27/northwest`:44 regions,28 blocks,10 images,
+eight captions,five searchable tables,70 byte-indexed examples/reference rows,
+69 physical BASIC rows10000–10680 and six prose boundaries. Full extent165–173
+verified;next 데이터 베이스 패키지174. Finalrecipe private batch27/northwest/revised.
+Five table/image overlaps preserve cell geometry while providing searchable values;
+table4-2arrows recorded separately. Blankcells remain blank;table4-1cost/variable
+pairs use slashnotation. Original screens,flowchart and drawn listinggrid retained.
+Eleven rows10180–10280contain unresolvedgraphicsmarkers,each source-linked to both
+listingcrop and gridimage. No inferred byte values or run lengths. Header3/8uncertain.
+Sourceprose/flowchart line numbers differ fromlisting;duplicate3/6variable numbers,
+MODI1,현대,unclosedREADbracket,apparentC2costrow andTruck/Factoryreversal retained.
+SmallA/Bsubscript-like marks,MODI1glyph,prosepunctuation andlastC2digit uncertain.
+Six prose boundaries:165전/부 and165/166프로/그램 no separator;166/167variables newline;
+167공장/으로부터 and167/168공급/능력 no separator;168equations newline.
+r14/r17rightedges widened once each; original evidence preserved. Exact rebuild
+and110 earlier native/nine assembly checks pass; no tooling or OCR configuration change.
+Batch28 completes northwest171–173:three regions,one listing block,206 physical
+rows (187 numbered10690–12550,19 wraps). Final native recipe is private
+batch28/northwest (no revised directory). SourceK0=N1,repeatedK3condition,
+K7amongK6conditions,TOTATION,CONECTED,ONE THOUSAND ONE and2030guide retained;
+O/0glyphs and decorative counts remain uncertain. Printednumbers increase normally;
+no inferred renumbering. Incoming listing-block metadata links170/171complete rows.
+Full `build/pdf-restoration/12-1984-03-northwest` has47 regions,29 blocks,10 images
+and275 physical rows,with both source segments immutable. Eleven unresolvedgraphic
+markers remain with original source links; four obsolete scope notes resolved.
+Batch28/database restores174–176 of verified174–177:26 regions,16 blocks,five images,
+67 indexed example rows,five prose boundaries. Finalrecipe private
+batch28/database/revised. Original schema/form/table images also have searchable
+text with intentional overlaps;table tabs preserve blankETCcells. PrintedResearch-er
+hyphen,NumYoung,addresscase,15000Researcher,colonclaim andnumericJOBversuswordexample
+remain literal. One r25rightedge repair recovers LIST closingbracket andquotation.
+Five prose joins:174한/다,175입/력,175/176끝마/치기,176명령/문,no separator;
+176함께 출력된다 with space.176endsLIST STRUCTURE introduction;177begins result
+screen,not a physicalrowfragment. Next medicalarticle begins178.
+Both natives and northwestassembly rebuild byte-identically;111 prior natives and
+nine earlier assemblies pass unchanged. No tooling or OCR configuration change.
+Private initial-package-attempt preserves an export whose incoming listing link had
+an extra direction field; corrected final metadata validates. Transcription unchanged.
+Batch29 completes database177:five regions,two blocks,one image,26 indexed example
+rows and two prose boundaries. Finalrecipe private batch29/database/revised.
+Literal00040recordcount,NEME,00077total,DISPAY,DELETEexpressions missingclosingangle
+and DISPLAYclosingquote beforeRecord/Next retained. r04rightedge widened once to
+recoverINSERTclosingquote; originalevidence retained. Table uses tabs/blankDECcells.
+Full `build/pdf-restoration/12-1984-03-database` hasfour pages,31 regions,18 blocks,
+six images and93 native indexed examples. Both segments immutable;four obsolete
+scope notes resolved.176/177has no physicaltextfragment;screen follows introduction.
+Batch29/medical restores178–182 of verified178–185:46 regions,27 blocks,15 images,
+eleven linked diagram/form headings and four prose boundaries. Finalrecipe private
+batch29/medical (no revised). Twoartworks,fivesystem/workflowcharts,eightforms/menus;
+inner labels and dashedblankruns remain originalimages. No programlisting inopening.
+Printed하청(?),규정(?),시어비스,학사관리,재래환자,축출and발생주의법 retained.
+Small부딪쳐consonant,trailingapostrophe after화면,and damaged182listlabel(apparentㄷ
+before뇌파,not inferredㅍ) explicitly uncertain. Historicalclaims remain archivaltext.
+Fourjoins:178부/딪쳐 noseparator;178/179이에 따른 space;181/182outpatientlist newline;
+182inpatientoutline acrosscolumns newline.182ends(C)discharge②효과;183starts
+ㄱ. 보험 수가의 자동계산. Outgoingtypedprosecontinuation onr46requires incoming
+prior_segmentopening,prior_regionr46,prior_text_end② 효과,nexttextasabove,newline.
+Both natives and databaseassembly rebuild byte-identically;113 prior natives and
+ten earlier assemblies pass unchanged. No tooling or OCR configuration change.
+Batch30/medical completes183–185:29 regions,12 blocks,16 images,seven linked
+headings and one acrosscolumn statisticslist join. Finalrecipe private batch30/medical
+(no revised). Printed서어비스,자동축출,finalㅇafterㅎ and historicalclaims retained.
+Full `build/pdf-restoration/12-1984-03-medical` has178–185,eight pages,75 regions,
+39 blocks,31 images and18 linked headings. Both segments remain immutable;four
+obsolete scope notes resolved. Five native prose boundaries plus182②효과/183
+ㄱ. 보험 수가의 자동계산 linked withnewline metadata;nativeblocks stay separate.
+Batch30/update restores186–188 of verified186–189:28 regions,21 blocks,five
+images,32 indexed table rows and two prose boundaries. Finalrecipe private
+batch30/update/revised;one r20uppercrop repair recovers firstconditionline187.
+Three searchable tables preserve10master,7transaction and12resultrecords plus
+headers. Printed송재만grade3/result5 and shifted resultemployee numbers from8
+retained. Conditiondeleteinput0, 0 0 and captionup to date remain literal.
+Flowchartlabels are image-authoritative;standardflow boundingbox includesmastertable
+and small neighboring resulttableedge intentionally. All original diagrams retained.
+Both natives and medicalassembly rebuild byte-identically;115 prior natives and
+11 earlier assemblies validate unchanged. No tooling or OCR configuration change.
+Batch31/update completes listing189: two regions, one block and52 physical
+BASIC rows (51 numbered10–2050 plus the190wrap). Finalrecipe private batch31/update,
+no revised directory. Literal UP TO DATE, NONE UPDATING,1098 and semicolon-separated
+PRINT# fields retained. Decorative asterisk counts/comment alignment uncertain.
+Full `build/pdf-restoration/12-1984-03-update` covers186–189:30 regions,22 blocks,
+five images,32 native indexed table rows and52 physical listing rows. Both source
+segments immutable;four obsolete scope notes resolved. No188/189physical carry.
+Batch31/sewoon restores190–194 of verified190–204:29 regions,15 blocks,four
+original images. Finalrecipe private batch31/sewoon,no revised. Introartwork overlaps
+searchable intro by design;192/193buildingphoto retained as two nativepanels;
+194marketphoto retained.190세운/191상가 joined without separator.
+Nine prose joins:등/이,꺼/도,SP/C-1000,R/OM,FD-/525,용/도,업/체,프로/그램
+without separators;상표중에/「Ⅱ」 withspace. Headline살아서숨쉬는현장 differs
+fromcanonical/runningtitle살아서움직이는현장;deck아끼하바라/body아끼야바라,
+FC-50,SUPUR-7,SDKLCDclaim and historical prices/claims retained.
+194ends4. 디지쎅터 카드;195beginsCCTV. Outgoingtypedprose link requires incoming
+prior_segmentopening,prior_regionr28,prior_text_end4. 디지쎅터 카드,text_startCCTV,
+joinnewline.195–196finish survey;196table;197–204supplierdirectory.204loweradvertising
+index excluded;205technicaldivider,nextarticle206. Lookup195–208reviewed.
+Both natives/full UPDATEassembly rebuild byte-identically;117 prior packages and
+12 earlier assemblies unchanged. No OCR repairs/settings or tooling changes.
+March has26 readable articles,one partial article,three group headings and14
+unclassified entries;all44 canonical identities preserved;whole issue closeout pending.
+Batch32/sewoon restores195–200:45 regions,34 blocks,four images,ten indexed
+hardware-table rows and seven prose boundaries. Finalrecipe private
+batch32/sewoon/revised;initial evidence preserved. r17right recovers clipped내;
+r45top recoversACE전자heading. Each repaired once; OCR settings unchanged.
+Hardwaretable original and searchable transcription intentionally overlap; 기타cell
+펑션 키 부착 spansFC-30/100/150,transcribed once atFC-30 with explicit mergedcell
+metadata. Source70K,10K,DELEXE,DESK CALANDER,프로그램용액 retained.
+24 vendor entries include partialACE. Distinct부광전자addresses preserved;
+두리 repeated본체 and 선경 empty본체 unchanged. 아산Koreanmodelname uncertain.
+아산/전자 and 워드/프로세서 join without separators;five vendor joins use newline.
+Middle incoming194/195link is recorded. Middle200r45ends펑션키이;201begins
+• 드라이브. Ending incoming must use prior_segmentmiddle,prior_regionr45,
+prior_text_end펑션키이,text_start• 드라이브,joinnewline. Futureassembly segment
+names opening,middle,ending; preserve native bytes. No listing in middle.
+Exact rebuild/index/settings checks pass;119 earlier natives and13 assemblies
+unchanged.47 tasks(45initial,two repairs),zero failures;73.251s tasktime,
+38.724s render/crop,30.656s OCR;712.667s review interval includes waits.
+Issue ledger now records both segments,aggregate190–200;counts unchanged.
+Batch33/sewoon completes201–204:27 regions,20 blocks,two photographs andfive
+vendor continuation joins. Nineteen new vendor entries plus ACEcontinuation;
+ROM64–128KB/ROMBASIC,LIDEX,METTIC,CP/M MUSIC,unmatchedparenthesis andmissing
+TIMEphone remain literal. Vendorname한국측기 explicitly uncertain.
+Full `build/pdf-restoration/12-1984-03-sewoon` covers190–204:101 regions,69 blocks,
+ten images andten indexed native table rows. Three natives remain unchanged;
+21 native prose boundaries,two crosssegment links andsix obsolete scope notes
+resolved. Nativebody bytes preserved;reading links do not concatenate text.
+Batch33/machine restores206–207ofverified206–209:17 regions,13 blocks,one original
+title artwork,five assembly rows and33 indexed prose examples. Finalrecipes private
+batch33/sewoon and batch33/machine;no revised directory. Title/series intentionally
+searchable over originaltitleart. Listing1bytecolumn08/28notBASIClinenumbers;
+allfive rows unnumbered. Captionprogramlist1linked. SourceIOCSmissingparenthesis,
+833B,FA62G,CALL0012Hcomma andROMsize/performanceclaim retained.
+Threeprosejoins:206있으므로/F800space,206/207프로그램을/작성해야space,
+207entrycolumnsnewline.207endscompleteORGparagraph;208beginslisting2,nocarry.
+205technicaldivider classifiednon-owning;209references/endmarker,nextinterface210.
+Exactnative/assemblyrebuilds pass;120 earlier natives/13assemblies unchanged.
+44 tasks,zero failures,no repairs:67.991s tasktime,35.899s render/crop,28.274s OCR;
+393.845s reviewinterval includes waits. No toolingchanges or baseline-test rerun.
+Batch34/machine completes208–209:15 regions,11 blocks,two diagrams,35 physical
+assembly rows andtwo prose boundaries. Listing2has17 unnumbered declaration/address
+rows;listing3has18 printed01–18 rows. ORGwithoutoperand,BNEFB,PEA,ORA,address
+and prosebyteorder discrepancies remain literal. Referenceauthor조신휘uncertain.
+Complete `build/pdf-restoration/12-1984-03-machine` covers206–209:32 regions,
+24 blocks,three images and40 listing rows. Two native packages unchanged;five native
+prose boundaries,no crosssegment fragmentcarry,four obsolete scope notes resolved.
+Batch34/interface restores210–213ofverified210–217:28 regions,13 blocks,seven
+images,eight prose boundaries. Title/subtitle overlap artwork intentionally;parallel
+road illustration remains two original panels with shared caption context. Active-low
+signal bars use combiningU+0305;plain occurrences stay plain. Carrage Return,
+개안,repeatedACKlow transition and historical electricalclaims remain source forms.
+Finalrecipes private batch34/machine andbatch34/interface;no reviseddirectories.
+Initial package attempt retained for corrected listing-anomaly row references.
+Assembler accepts zero-padded printednumbers indexed as integers while retaining
+legacy string-valued numbers unchanged.89 PDFtests pass. Exactnative/assembly
+rebuilds and122 earlier native/fourteen assembly preservation checks pass.
+43 tasks,zero failures,no repairs:85.798s tasktime,49.812s render/crop,31.744s OCR;
+928.171s reviewinterval includes tool/context waits.
+Batch35/interface completes214–217:30 regions,14 blocks,five diagrams with
+captions2–6,eleven prose boundaries. SourceXONASCII16/XOFFASCII18,CTS/RTScondition,
+repeated송신clause,CD20pin andgroundingclaims remain literal;꺾자로consonantuncertain.
+Full `build/pdf-restoration/12-1984-03-interface` covers210–217:58 regions,
+27 blocks,12 images,eight linkedcaptions,19nativeproseboundaries andonecrosssegment
+readinglink수도. Nativeblocks stayseparate;four obsolete scope notes resolved.
+Batch34outgoingnoteomittednext_source_text. Acheckedadapterusestheunique reviewed
+incominglink,page/folio/separatorandactualtextvalidation;originalnote/packageunchanged.
+Adaptationstoredinassemblycorrections.outgoing_prose_adaptations.90PDFtests pass.
+Batch35/shape opens218–219ofverified218–227:18 regions,11 blocks,four images,
+six searchable vector-table rows andthree prose boundaries.○/●preserved;table
+andtitleart intentionallyoverlap transcripts. Originaldiagramreferencedasfigure1
+hasnoseparateprintedcaption;noneinvented. Sourcebinaryvalues/claimsretained.
+Finalrecipes private batch35/interface andbatch35/shape;no revised directories.
+No crop repairs or OCRsettingschanges. Nativeandassemblyexactrebuilds and124earlier
+native/fifteenassemblypreservationchecks pass.
+48 tasks,zero failures:59.955s tasktime,31.167s render/crop,25.022s OCR;
+696.210s reviewinterval includes tool/context waits.
+March now29 readable,onepartial,fourgroups,10unclassified;all44 identities intact.
+Batch36/shape restores220–225: 56 regions,30 blocks,nine figures,153 physical
+BASIC rows (82 numbered,71 wraps/blank rows),55 indexed examples and16 prose
+boundaries. Main listing has150 rows; separate error patch hasthree rows.
+Tables2/3 have searchable transcripts; captions preserve their table/figure namespace.
+Page222 variable list joinsr25→r27; main prose joinsr28→r29→r34→r26→r35→r36→r37→r38.
+The top-middle prompt fragment belongs after bottom-leftDO-, retaining DO-NE.
+Source000000111,38400,1952-byte length,25kilobytes/22kilobytes claims,FINISH,
+NOW-MAX,missing division glyphs in130/1270,ASV260 andBY920 remain literal.
+Final recipe is private batch36/shape (no revised directory). Initial package attempt
+is preserved after correcting a nine-bit transcription and outgoing metadata fields.
+No crops or OCR settings changed. Exact rebuild and126 prior native/sixteen assembly
+preservation checks pass.56 tasks,zero failures:61.041s tasktime,28.238s render/crop,
+27.100s OCR;1049.494s review interval includes tool/context waits.
+Batch37/shape completes226–227: nine regions,four blocks,two original plots,
+236 physical listing rows (80 numbered,156 wraps/blank rows),34 indexed output rows.
+Internal code carries21065ASV/E,26010across226/227,and48020number77/4 retained.
+PrintedCRAET,NAME without dollar20020,S*MAX21050,ASV26010,doublecolon27050,
+N+1>NOWMAX27060 andAN<=ASVE+BS31000 remain literal; no program repair/execution.
+Full shape218–227 assembly at`build/pdf-restoration/12-1984-03-shape`:10 pages,
+83 regions,45 blocks,15 figures,389 physical listing rows,110 native examples,
+19 native prose boundaries andone1300→1310listing-block link. Three native
+segments remain exact; six obsolete scope notes resolved. Article figure placeholders
+use namespaced IDs; source prose/code blocks andlisting concatenation stay exact.
+Batch37/ad opens228–231ofverified228–241:27 regions,14 blocks,seven images,
+four figure captions,19 examples andsix prose boundaries. Source narrative order
+228→231→230→232 differs from printed folios. Joinr10→r20 forbasic paragraph;
+counter flowr21→r24→r25→r16→r17. Source page/region IDs remain unchanged.
+Figure12–15innerlabels remainimages;title/photo text overlap explicitly recorded.
+Subscripts useunderscore notation andUnicode exponentⁿ. Printed위 경우는 온도,
+comparator polarity discrepancy andtiming claims preserved. Dropcap아 restored.
+Finalrecipes private batch37/shape/revised andad/revised. Shape r08right andad r22
+edges widened once each; original evidence retained. OCR settings unchanged.
+Exact native/assembly rebuilds and127 prior native/sixteen assembly checks pass.
+No tooling changes;90-test baseline retained. Metrics are in private batch37/metrics.json.
+Batch38/ad restores232–237: 50 regions,27 blocks,13 source images and captions,
+38 indexed examples and ten native prose boundaries. Final recipe is
+`private/pdf-restoration/12-1984-03-batch-38/ad/revised`; native export is
+`build/pdf-restoration/12-1984-03-batch-38/ad`. No standalone listing in this segment.
+Figures16–27 and table3 retain original geometry; table/inner labels are not certified
+character transcripts. Figure22 and24 intentionally include searchable captions.
+Printed derivative b, V_FS·/2ⁿ dot, caption20 denominator R_c versus prose RC,
+0.5V range and16Hz SAC claim remain literal. Plain Unicode math notation is explicit.
+English line-end hyphens are removed only when rejoining split DAC/ADC or sinusodal.
+Incoming opening230r18단계적으로→middle232r03로 변한다. retains duplicated 로.
+Source231 text already precedes230 in opening reading order; source IDs unchanged.
+Two crop repairs: r26 bottom retains ground and adjacent caption; r49 right/bottom
+retains output label and ground. Initial evidence preserved; OCR settings unchanged.
+Native rebuild and129 prior native/seventeen assembly checks pass. No tooling change;
+90-test baseline retained. Metrics:52 tasks,zero failures,48.8275s task elapsed,
+26.5150s rendering,19.4303s OCR,492.7759s review interval including tool waits.
+Batch39/ad completes238–241: 36 regions,20 blocks,nine source images,eight
+captions,24 physical unnumbered listing rows,38 indexed examples and five native
+prose boundaries. Recipe is private batch39/ad (no revised subdirectory).
+Figure28 consists of original flowchart,searchable port legend and assembly code;
+its caption is linked to the diagram and code. Timing header,total104 and original
+comments are retained. No missing instruction,comment delimiter or execution claim.
+Source유통도,48,000bytes,CMR=−20logλ,prose충진형/caption증진형,N-channel polarity
+andC_S10μF/C_F3.6μF remain literal or explicitly uncertain.241 ends conclusion/asterisk.
+Full assembly `build/pdf-restoration/12-1984-03-ad`:14 pages,113 regions,61 blocks,
+29 original images,25 linked captions,24 physical listing rows,95 native examples,
+21 native prose boundaries and two cross-segment links. Six scope notes resolved.
+All original packages and source block/listing bytes remain exact. Assembled figure
+sequence lives at corrections.figure_sequence,not segments[].original_metadata.
+Batch39/contest completes canonical0044공모결과 발표 on243: six regions,four
+blocks,two column joins,13 indexed examples,no image/listing. Printed banner and
+headline retained alongside canonical identity. Recipe is private batch39/contest/revised;
+revision fixes only canonical title spacing,with all six cached OCR payloads reused.
+Printed실증,지난1월호,names/schools,19entries and500points remain source forms.
+No crop repair or OCR retry.42 initial tasks complete; native and assembly rebuilds
+match and130 prior natives/seventeen assemblies validate unchanged. No tooling change;
+90-test baseline remains current. Metrics and validation are under private batch39.
+Batch40/word restores all available244–249 of canonical0035한글 워드 프로세서 프로그램:
+23 regions,14 blocks,two images,453 physical listing rows (220 numbered1000–3190),
+55 indexed examples,one prose join and six listing boundaries. Recipe is private
+batch40/word; export `build/pdf-restoration/12-1984-03-batch-40/word`.
+Printed250–251 are absent:PDF249 bears249,nextPDF250 bears252/tunnelgame.
+All remainingPDF251–266 checked for misplaced continuation; none found. Code ends
+within3190 afterHPLOT;245guide continues through4150. Outcome remainspartial,
+source_pages_missing=true,missing_printed_pages=[250,251],assembly_required=false,
+available_source_restoration_complete=true. Do not queue a nonexistent continuation.
+Physical1890 and2610 page wraps,source3160duplicateX,1310emptyvisiblequotes,
+CUSOR,= <,guide/code inconsistencies and historical terminology remain literal.
+Title-string padding/asterisk count and fine glyphs remain uncertain; no execution.
+Full flowchart rectangle includes separately transcribed1000–1070 intentionally.
+First index attempt mislabeled numeric wrap fragments as line numbers; preserved
+under privatebatch40/index-attempt. Corrected private reviewer regex recognizes
+four-digit labels followed by statements; transcription/OCR/scans remain exact.
+No crop repair or OCR retry. Native byte-identical rebuild,all indexes and132 prior
+native/eighteen assembly checks pass. No tooling change;90-test baseline current.
+Canonical0034공모입선작 classified non-owning from canonical children plus244
+최우수상/printed252우수상 banners; no independent body or divider invented.
+Batch41 completes tunnelgamePDF250–252/printed252–254:13 regions,seven blocks,
+two images,198 physical listing rows/97 numbered labels,34 indexed examples,
+two prose boundaries and two listing boundaries. Source5140RETURN closes article.
+Guide126less-than0/133 versuscode>=0/135,guide5130 versusGOSUB5000,SB0(O/0uncertain),
+HOME::,TM=VV,repeatedLO=PEEK expression andsourceEnglish remain literal.
+DebugPDF253/printed255 completes canonical0041:12 regions,nine blocks,two images,
+25 physical rows/7 numbered labels in three independent correction groups,eight
+indexed examples and one listing-column boundary. Four errata references remain
+separate from older native packages. Paper-tape art andcorrectedaccountingflowchart
+retained. Subway870 PRINTglyph is⟦G870⟧,with encodedbytes/count null andscanlink;
+LOCATEN,R andMicrotextLN/LIN,C7,ZO(O/0uncertain) retained. Endingasterisk recorded
+separately fromcode. These are correctionfragments,not complete programs.
+Recipes privatebatch41/{tunnel,debug}/revised;exports build/pdf-restoration/
+12-1984-03-batch-41/{tunnel,debug}. One-timecrop repairs:tunnelr05/r11/r12right,
+debugr11left;initialevidence retained.29 executedtasks,zeroOCRfailures,42.1343s task,
+25.9985s rendering,12.7598s OCR,826.1070s reviewinterval includingtool/contextwaits.
+Indexvalidation caught two numericwraprows(0 TO20,00 PTS);explicitphysicalrow
+overrides keep themunnumbered. Initialindex exports saved inprivatebatch41/index-attempt;
+article/listing bytes remain identical. Exact rebuilds,all indexes and133 prior
+native/eighteen assemblychecks pass. No toolingchange;90-test baseline current.
+Batch42 completes Q&A PDF254–257/printed256–259 and lower204 광고색인.
+Recipes private/pdf-restoration/12-1984-03-batch-42/{qa/revised,ads}; exports
+build/pdf-restoration/12-1984-03-batch-42/{qa,ads}. Forty regions,31 blocks,four
+images,seven standalone BASIC rows,78 indexed examples,five prose boundaries.
+Sixteen one-time QA crop repairs preserve originals; unchanged Tesseract settings.
+Q&A token tables remain source images with captions. Inline100/200 example and
+same-line Korean tail remain prose, separate from standalone10–70 listing.
+Printed character128/129,addresses,duplicated$302 text and historical claims stay
+literal; 년자 and 맬럼 readings marked uncertain. Advertising index has22 entries.
+56 executed tasks,zero failures,73.2636s task,36.1102s rendering,31.5397s OCR;
+724.1073s review interval includes tool/context waits. Exact rebuilds,byte indexes
+and135 prior native/eighteen assembly checks pass. No tooling change.
+Batch43 reconciles canonical0040 정보 레이다 with TOC/source124–131. Earlier
+batch21 unlisted exclusion is superseded only for this listed body; evidence retained.
+Opening124–129:50 regions,33 blocks,ten images (including three specification
+tables),78 indexed examples,seven prose boundaries. No crop repair. Native recipe
+private/pdf-restoration/12-1984-03-batch-43/news; export corresponding build path.
+Printed Proocessing,SCULTTURE,CHRACTER,RAN,IBN versusIBM,운운체계,2류종가 and
+incompleteCTR sequence remain literal; 당살의 reading uncertain. No table-cell
+transcript claim. Outgoing129r50 ends유일하게 마쓰시타가;next130startsPC와 호환성이
+있는 컴퓨터를 발표하였다.;space join.50 tasks,zero failures,60.2416s task,
+30.6694s rendering,22.5070s OCR,339.4123s review interval including waits.
+Exact rebuild,all indexes and137 prior native/eighteen assembly checks pass.
+Batch44 completes news130–131:18 regions,15 blocks,61 indexed examples,three
+prose boundaries,no images/listings/repairs.18 tasks,zero failures,23.4354s task,
+10.7436s rendering,11.4743s OCR,275.3758s review interval including waits.
+Printed쓰쓰끼(鈴木則久),IRM×/XENI×,초전도로,스톱 위치,호완성이 and의도작이다
+retained. Sourceforecasts andprices notindependentlyverified. Native recipe/export
+batch44/news. Fullassembly build/pdf-restoration/12-1984-03-news preserves both
+segments:8pages,68regions,48blocks,tenimages,139nativeexamples,tennativeprosejoins,
+one cross-segment Panasonic link andfour resolved scope notes. Exact rebuilds and
+138 prior native/eighteen assembly checks pass. Group0038정보모음 classifies as
+non-owning parent of six separate bodies;no separate body/divider invented.
+March closeout verifies all 44 entries, 38 article outcomes and six groups,
+including the word-processor source gap. Stale root counts were recomputed from
+the authoritative entries without changing their identities, parents or content.
+The standalone JSON/assets export and rebuild match; source provenance and all
+native copies are preserved. See the private closeout validation and completion
+audit. One pre-export audit comparison needed numeric normalization because five
+older ledgers store printed page numbers as strings. Original metadata was kept.
+The initial script and plan remain in `initial-audit-attempt`; that failure occurred
+before any export or ledger write. No March extraction, assembly or export work
+remains. April has not been started.
+Folios diverge after249;never assume PDF numbers equal printed numbers.
+Keep the directory within canonicaltoc0037;physical order differs from TOCorder.
+Continue unchanged Tesseract plus scan-based semantic review within existing
+six-source-page/two-article/20lookup-page limits. Unlisted bodies remain out of scope.
+Preserve PET line99/98 uncertainty, duplicate590, graphics markers and uncertain
+small punctuation marks; do not repair historical code. The namespaced assembler
+validates the legacy prose boundary and regional listing ranges without rewriting originals; see the assembly recipe
+and validation evidence. Preserve all literal leading zeros, wraps, dump rows,
+uncertainties and source/correction records. No new OCR engine/configuration.
+The active owner goal is to complete all remaining March1984 content.
+Earlier CD handoff details below are historical; they do not cancel this work.
+No reviewer-model comparison has been performed. If the owner changes models,
+record the selection and check a bounded prose/code/figure batch before making
+claims about equivalent review quality or savings.
+
+CD1, CD2, CD3 reference extraction and the combined reading room are complete.
+The owner requested a documentation handoff and retention of the HELPDECO bug
+record. No decoder migration, new recovery pass or public deployment is in
+progress. Future work should follow a concrete owner request.
+
+## Start here
+
+- Main deliverable: `build/reading-room/`, served over HTTP. Run `cd web && npm run preview`
+  and open the printed address. Read the [build/use guide](../READING-ROOM.md).
+- The combined catalog contains 3,386 candidates, 3,378 readable texts, 3,212
+  UTF-8 listings, 5,497 library TOC entries and 9,990 group/media records.
+  It exposes 122 library issues, 12 CD2 date groups and 18 CD3 native groups.
+  Native date groups are not independently verified printed issues.
+- The separate [CD1](../CD1-READABLE-REFERENCE.md), [CD2](../CD2-READABLE-REFERENCE.md)
+  and [CD3](../CD3-READABLE-REFERENCE.md) references remain under `build/`.
+  CD2/CD3 reference shelves preserve supplemental texts and unassigned media;
+  their 1,837 original attachment links are included in the reader.
+- All four plans are implemented: [CD1](../../PLAN-CD1.md), [CD2](../../PLAN-CD2.md),
+  [CD3](../../PLAN-CD3.md), [reading room](../../PLAN-reading-room.md).
+  Original scope sections and [PROGRESS](../../PROGRESS.md) retain checkpoint
+  history; older statements about future UI/disc work are not current tasks.
+- The original [reading-room PRD](../../PRD-reading-room.md) predates the owner's
+  explicit all-disc aggregation request. `PRD-local-web.md` is absent from this
+  checkout. Do not infer requirements from the old handoff's mention of that file.
+
+## Known decoder defect
+
+Read [the HELPDECO underline bug record](../CD3-HELPDECO-UNDERLINE-BUG.md) before
+changing CD3 formatting. The pinned decoder mistakes a font character-set byte
+for `DoubleUnderline`: Hangul `0x81` becomes RTF `\uldb`, even with the actual
+underline flag off. The owner confirms normal, non-underlined rendering in the
+Windows viewer. The record contains the font-stream hash, descriptor offsets,
+counts, code references and reproduction command.
+
+The implemented mitigation is **display-only** in `tools/cd3_display.py`, shared
+by the CD3 HTML exporter and reading-room adapter. The decoder is unpatched,
+no upstream issue was filed, and stored RTF/source flags retain its error.
+Suppression also hides genuine underline; it does not alter literal text,
+source evidence, bold/italic, code spacing or attachment bytes. Correcting the
+font decoder and migrating the pinned probe is explicitly deferred.
+
+## Owner priorities and retained exceptions
+
+Paper magazines are authoritative. CD and library TOC data are separate
+transcriptions. Preserve readable text, literal code, useful structure, images,
+source provenance and visible uncertainty. Keep paper-supported corrections
+separate. Do not guess uncertain characters or printed-issue associations.
+
+CD1 has 1,080 texts across 72 body-bearing issues, including 33 with localized
+gaps, plus eight unresolved article-boundary candidates. It retains 1,111
+unviewable distinct images with original links. The historical 995 strict
+packages/19b outcomes remain unchanged; the readable reference adds useful
+text from all 85 earlier failures.
+
+CD2 accounts for 1,330 candidates (220 success, 1,110 partial), and CD3 for 968
+(792 success, 176 partial). Partial outcomes retain useful bodies with local
+exceptions. CD3's anomalous date labels, missing images/CAB and unresolved figure
+aliases remain explicit. Neither extraction completeness nor normal Windows
+rendering establishes agreement with paper magazines.
+
+The goal is useful reading and paper restoration with a clear stopping point.
+Do not restart speculative recovery or cosmetic-formatting campaigns to clear
+every exception. Existing viewer observations can diagnose concrete extraction
+bugs; routine Windows setup or screenshot collection is not a prerequisite.
+
+## Rebuild and verification
+
+`make export-reading-room` validates the prepared references, builds static
+version 2 data in a staging tree and replaces the existing data only after the
+aggregate checker passes. CD1/demo version 1 documents and CD1 URLs remain
+supported. See the guide for required private inputs; a Git checkout alone
+cannot reproduce publisher content. `make demo-reading-room` supports UI work
+without those inputs.
+
+`make test-reading-room` runs the focused Python adapter tests, six Vitest
+tests, TypeScript checks and a production build. `make check-reading-room`
+verifies the prepared inventory, hashes, article memberships, literal text,
+listings, attachments, media, search coverage and source manifests. The current
+aggregate inventories 44,672 reference data files, about 3.43 GB before its root
+manifest, plus optional covers (eight supplied samples bring it to 44,680).
+Add covers as `covers/masoYYMM.jpg/png/webp`, then re-export/build; see
+[the cover guide](../READING-ROOM.md#add-or-replace-cover-images).
+Use per-disc checks from the reference guides when changing those exporters;
+avoid rerunning the whole historical suite for documentation-only changes.
+
+Browser validation covered representative articles from each disc, linked CD3
+figures and supplements, downloads, missing originals, undated navigation,
+search, refresh and a 360px dark-mode layout. The underline follow-up checked
+all current CD3 article/supplement pages and three rendered reader articles.
+See PROGRESS for concrete cases and preserved-file checks.
+
+## Future work, when requested
+
+- Correct HELPDECO's font mapping, validate it against raw records and the viewer,
+  version the new decoder/probe, regenerate dependent evidence and remove the
+  blanket display workaround. Do not relabel the existing probe as corrected.
+- Resolve a specific text, image, boundary or association problem when it helps
+  actual paper/OCR comparison. Gary Kildall's interview (`8802030`) remains a
+  useful starting example.
+- Collect missing scans/covers and verified later TOCs. The library TOC currently
+  ends at 1993-12; CD2/CD3 navigation does not manufacture later TOCs.
+- Make and verify an independent backup of all disc sources, probes and private
+  outputs. Earlier CD1 transfer archives are historical snapshots and do not
+  include the completed CD2/CD3/SPA work. No independent backup is recorded.
+- Decide publication/access policy separately. No content has been deployed.
+
+Keep source media and generated publisher content out of Git. Log substantive
+work in PROGRESS and commit scoped changes; preserve unrelated owner edits.

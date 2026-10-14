@@ -8,15 +8,15 @@ article text, code downloads, figures, original attachments and metadata search.
 Paper magazines remain authoritative; CD transcription has not been verified
 against print.
 
-An opt-in [Qwen3-VL layout OCR pipeline and Tesseract benchmark](docs/OCR-QWEN3-VL.md)
-uses local llama.cpp/GGUF inference and preserves unreviewed evidence separately.
-The [sustainability plan](PLAN-OCR.md) and [mapped-crop workflow trial](docs/OCR-WORKFLOW.md)
-evaluate local drafts and correction proposals while retaining mandatory human review.
+For PDF restoration, start with the short [OCR handoff](PLAN-OCR.md).
+Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose or
+code, with explicit layout and coverage review. The handoff links consolidated
+findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
 ## Read the archive
 
-To review all four completed PDF restorations (1983-11, 1984-02, 1984-03,
-1984-05) alongside the existing CD collection:
+To review the four PDF issues already integrated into the prepared reader
+(1983-11, 1984-02, 1984-03, 1984-05) alongside the existing CD collection:
 
 ```sh
 cd web
@@ -127,16 +127,17 @@ The completed implementation is a private reading/restoration reference. Origina
 ISOs, decoder probes, recovered bodies/assets, generated sites and browser
 artifacts are excluded from Git. No public deployment was performed.
 
-PDF restoration is a separate JSON/assets campaign. November 1983, February
-1984, March 1984 and May 1984 are complete; 15 supplied eligible issues remain.
-May accounts for all 42 TOC entries: 36 readable/sample-reviewed articles and six
-non-owning headings, with no source gaps or pending assemblies. Its standalone
-issue index is `build/pdf-restoration/12-1984-05-reference/issue.json`; the report
-is `build/pdf-restoration/12-1984-05-closeout/report.json`. Exact original copies,
-source/correction indexes, asset integrity and a byte-identical issue rebuild pass.
-The separately committed tooling baseline passes 117 PDF tests. Full proofreading
-and historical code execution remain unverified. June is next and has not started.
-See the [current PDF plan](PLAN-PDF.md) and [PDF progress](PROGRESS-PDF.md).
+PDF restoration is a separate JSON/assets campaign. November 1983 and February,
+March, May, June, July and August 1984 are complete; twelve supplied eligible
+issues remain. March retains one missing-source terminal partial; no April PDF
+was supplied. August accounts for all 43 TOC entries: 37 readable, assistant
+sample-reviewed articles and six non-owning headings. Its standalone index is
+`build/pdf-restoration/13-1984-08-reference/issue.json`; the report is
+`build/pdf-restoration/13-1984-08-closeout/report.json`. Source/correction ranges,
+asset integrity and a byte-identical issue rebuild pass. Human acceptance/full
+proofreading and historical code execution remain unverified. September 1984 is
+next and has not started. Reader integration is separate; no rebuild is queued.
+See the [PDF plan](PLAN-PDF.md) and the short [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 ## Validation and handoff
 

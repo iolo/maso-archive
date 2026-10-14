@@ -1,5 +1,24 @@
 # PDF restoration progress
 
+## Current handoff — 2026-10-14
+
+August JSON/assets restoration is complete: 37 readable, assistant sample-reviewed
+articles and six non-owning headings account for all 43 canonical TOC entries.
+September 1984 is next and has not started. Human acceptance/full proofreading
+remain pending. No reading-room rebuild is queued.
+
+Start with [the short OCR handoff](PLAN-OCR.md) and
+[successor notes](docs/SUCCESSOR-NOTES.md). The accepted policy is mapped Tesseract
+by default, with opt-in Qwen assistance and explicit layout/coverage review.
+[August progress](docs/ocr-august-progress.json) and
+`build/pdf-restoration/13-1984-08-closeout/report.json` hold the completed outcome.
+
+The detailed records below are historical evidence. Read a specific checkpoint
+when needed; earlier engine recommendations, test counts and “next” statements
+are not current operating instructions. OCR experiment narratives are indexed
+in [history](docs/history/README.md).
+
+
 ### 2026-10-08 — Complete May 1984 JSON/assets issue closeout
 
 **May 1984 is complete under the JSON/assets scope.** All 42 canonical TOC

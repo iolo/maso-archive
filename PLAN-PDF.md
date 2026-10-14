@@ -2,53 +2,19 @@
 
 ## Current OCR routing guide
 
-**User decision, 2026-10-14: retain mapped Tesseract as the default restoration
-pipeline.** Use Qwen as an opt-in draft or second reading for difficult prose or
-code, with explicit layout and coverage review. This supersedes the 2026-10-12
-adaptive starting assignments and historical engine-selection guidance below.
-Read this guide before starting a restoration batch in a future session. For issue
-progress and the next restoration checkpoint, consult [PLAN-OCR.md](PLAN-OCR.md);
-the May closeout below is historical.
+**User decision, 2026-10-14:** retain mapped Tesseract as the default restoration
+pipeline. Use Qwen as an opt-in draft or second reading for difficult prose or
+code, with explicit layout and coverage review.
 
-| Content or draft condition | Starting choice |
-| --- | --- |
-| Ordinary restoration, including prose, code, formulas and structured values | Mapped Tesseract |
-| Difficult prose or code warranting another draft or reading | Opt in to Qwen for an explicitly recorded region scope and reason; review layout and coverage |
-| Mixed article | Start with mapped Tesseract; keep any Qwen assistance bounded to the selected regions |
-| Diagrams, screenshots and photographs | Preserve source images; route surrounding text, labels and captions separately |
+Read the short [OCR handoff](PLAN-OCR.md) before a future batch. It consolidates
+source review, bounded assistance, evidence preservation, commands, metrics and
+accounting limits. It supersedes earlier Qwen-first/adaptive trial assignments.
+The [experiment history index](docs/history/README.md) is for targeted lookup;
+old checkpoint “next” statements are not a queue to resume.
 
-The default is the user's operating policy, not a claim of a universal cost win.
-Apply the documented
-[exceptions and bounded-fallback rules](docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
-for aligned assembly columns, ruled tables, decorative/repeated glyphs and
-unusual prose styles. Both engines and the tested llama.cpp/GGUF setup already
-exist; reuse the verified configurations and preserve their provenance.
-
-1. Inspect source coverage and record the primary engine, region scope and reason
-   before inference. When uncertain, use one bounded representative probe only
-   if its result can change the route. Reuse successful evidence on unchanged crops.
-2. Switch or use a recorded bounded fallback when identifiers, values, row
-   associations or reading order break down, or generation loops/truncates.
-   Ordinary spacing/wrapping differences alone do not justify switching. Preserve
-   every failed attempt, crop revision and fallback with its cost and provenance.
-3. Correct the selected draft once in ordinary restoration. Routine whole-article
-   dual correction belongs to an explicitly scoped experiment. Semantic correction
-   and human review remain mandatory for either engine. Preserve historical
-   spelling, printed mistakes, code literals and source-linked uncertainties.
-4. Measure uncached input, cached input and output separately. Use the user's
-   working **10:1 uncached/cached input-price ratio**: normalized cost is
-   `uncached + 0.1*cached + r*output`, with output rate `r` explicit until known.
-   Local CPU/GPU/runtime/model tokens have zero monetary weight; record time as
-   a separate diagnostic. Keep preparation, evaluation and recovery costs visible.
-5. Collect comparable observations during normal restoration under this default.
-   Fewer total tokens do not necessarily mean lower cost, and one article per
-   content type does not establish a universal rule. Record progress and commit.
-
-Decision accepted from the [OCR benchmark conclusion](docs/OCR-QWEN3-VL.md#what-the-scans-show).
-Evidence: [August paired cost results](docs/OCR-AUGUST-PILOT-RESULTS.md) and
-[July routing evidence](docs/OCR-JULY-DECISION.md). **Do not rebuild the reading
-room until the user explicitly requests it.** Older preview/build instructions
-are historical and do not authorize a new rebuild.
+**Do not rebuild the reading room until the user explicitly requests it.** PDF
+restoration delivers JSON/assets. Existing rendering instructions and acceptance
+records below are historical and do not authorize a new rebuild.
 
 ## August 1984 closeout, 2026-10-14
 

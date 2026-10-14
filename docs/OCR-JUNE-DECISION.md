@@ -1,5 +1,11 @@
 # June 1984 OCR decision report
 
+> Historical experiment report/protocol. Measurements and original conclusions
+> below are retained. For future restoration, follow the owner's 2026-10-14
+> [OCR policy](../PLAN-OCR.md): mapped Tesseract by default, Qwen as explicit
+> assistance with layout/coverage review. This report does not queue a new trial.
+
+
 **Recommendation: use Qwen3-VL as the preferred raw-OCR option for the next issue, retain the existing semantic correction and mandatory human review, and keep Tesseract available for fallback and selective comparisons.** The June evidence supports better raw transcription, especially code. It does not yet establish lower total project cost.
 
 Configuration: local Qwen3-VL-8B-Instruct UD-Q4_K_XL through llama.cpp, 8,192-token context and deterministic OCR decoding; Tesseract comparisons use pinned OEM1/PSM6, one thread, usually `eng` for code and `kor+eng` for prose. Settings and exact source crops remain pinned in each comparison.
