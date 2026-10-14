@@ -14999,3 +14999,64 @@ history remains in [PROGRESS.md](PROGRESS.md).
   input ratio1:0.1, output price and active human effort unknown. Elapsed windows
   include helper recovery as a diagnostic; commit/response costs enter the next
   audit. No reading-room rebuild.
+
+
+## 2026-10-14 — August Q&A262–265 pilot promoted
+
+- Promoted the complete Q&A262–265 from sealed aug-08-A/B pilots into a
+  separate mixed production revision. Canonical entry0043, null byline, parent0036
+  and first page262 remain unchanged. Full261–266 inspection establishes distinct
+  Q.A opening262 after the prior game's ending261, and final addressing-mode prose
+  on265 before the separate266 magazine promotion/advertising index. No deferred
+  area or assembly remains.
+- All113 source crops were rechecked in16 original contact panels, the title image
+  and six whole-page views. Reused108 Tesseract/four Qwen corrected readings.
+  Q regions retain the date comma, 깜빡, diagram 케리 and apostrophe before X.
+  One explicit source-confirmed amendment changes 씌어 to printed 씌여 while
+  retaining historical 있읍니다;111 other selected readings remain exact. Both
+  sealed arms and their full correction histories remain unchanged. No new OCR,
+  local tokens, crop repair or routine paired correction was performed.
+- The package retains113 regions,71 ordered text blocks,112 regional/review ranges
+  and one original title image. Twenty-one prose joins preserve41 boundaries,
+  including cross-page/column words and prose interrupted by code. Three question/
+  answer groups and senders, five displayed message examples, eight printed
+  listing captions and the carry diagram retain exact source associations.
+- Nineteen independent listing groups retain72 physical rows:11 numbered BASIC
+  rows and61 unnumbered rows, with zero inferred BASIC numbers for machine
+  addresses. Eight addressed assembly examples retain51 rows,110 byte readings
+  and255 exact address/byte/mnemonic/operand ranges. The addressing-mode table
+  retains eight rows/16 fields, including three literal Absolute labels without
+  added X/Y suffixes. All listing.txt bytes remain identical to the Tesseract pilot.
+- Printed verg, prose/list3/list4 contradictions, A2 20 beside #$10, 8D 10 1C
+  beside $0C10, 000C and printed 지정됩니다. remain literal. Prose 캐리 differs
+  from diagram 케리 as printed. Twenty source flags retain faint punctuation,
+  the explicitly editorial handwriting placeholder and the open-quote/control-code
+  area; no unseen characters, source bytes or runnable program are invented.
+  Original bitmaps remain authoritative; human acceptance/full proofreading pending.
+- Independent canonical/extent/pixel/raw/settings checks, amendment replay, listing
+  projection, rejection of machine addresses as BASIC labels and all text/value/
+  caption/question ranges pass. A fresh independent export rebuilds identically.
+  All586 sealed evidence files,68 prior production packages, native15–47 raw/
+  selected seals and16,790 pilot files remain unchanged. The shared pipeline is
+  unchanged; the pinned passing135-test baseline is reused.
+- Preparation recovered a17-versus16 contact-panel assumption after rendering;
+  the six completed views were reused. The private exporter needed exact positions
+  for five unchanged carry-diagram labels. Independent validation then rejected
+  two reviews of repeated 다./입니다. assigned to earlier occurrences in joined
+  paragraphs. The first export/rebuild, helper versions and diagnostics are fully
+  preserved. The private exporter now anchors reviews within each source region;
+  only those two review ranges change between exports. Text/listing/raw values
+  are unchanged during these recoveries, and their costs remain visible.
+- Export: `build/pdf-restoration/13-1984-08-adaptive/qa`.
+  Index: `build/pdf-restoration/13-1984-08-adaptive-qa-source-index/source-index.json`.
+  Evidence: `private/pdf-restoration/13-1984-08-adaptive/pilot-aug-08/validation.json`.
+  August now has36 complete articles, zero partials or untouched bodies, one
+  pending pilot, five classified headings, one unclassified heading and zero
+  human acceptances. Its69 packages comprise47 natives,15 assemblies and seven
+  selections; all24 historical raw milestones remain unchanged. Next: verify and
+  select BASIC editor214–220 from aug-07-v2, classify 정보모음, then standalone
+  issue JSON/assets closeout and requirements audit. Old pilot recognition/
+  correction costs are not counted again. Local compute/tokens monetary weight0;
+  paid input ratio1:0.1, output price and active human effort unknown. Elapsed
+  windows include recovery as diagnostics; commit/response costs enter the next
+  audit. No reading-room rebuild.
