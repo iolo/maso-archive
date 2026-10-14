@@ -5773,3 +5773,52 @@ commit code/documentation. Do not count a partial opening as a complete article.
   Five work windows include interrupted preparation; elapsed time is diagnostic,
   not human effort or causal engine cost. Paid input ratio1:0.1, output price and
   human active time unknown; local compute/tokens monetary0. No reading-room rebuild.
+
+
+### August standalone JSON/assets closeout complete, 2026-10-14
+
+- August JSON/assets restoration is complete: all43 canonical TOC entries
+  reconcile to37 readable, assistant sample-reviewed articles and six non-owning
+  headings. 정보모음 groups seven source contents entries at20/138/139/155/186/
+  237/262; no additional pageless body or divider was invented. Zero partial,
+  failed, image-only, unresolved-eligibility or pending-assembly outcomes remain.
+- Standalone index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
+  Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
+  The issue covers224 distinct source pages,4163 regions,3375 blocks,
+  432 figures and8289 physical listing rows. All37 selected packages are copied
+  exactly; the entire issue independently rebuilds byte for byte. The verified
+  full source cover and provenance accompany the report; canonical thumbnail and
+  all original canonical identities/parents remain unchanged.
+- Whole-issue review found seven repeated-text range links outside their named
+  source regions: one in 로고 강좌, two in 기계어 강좌 and four in 정보 레이다.
+  Separate metadata revisions reanchor those exact excerpts. All article/listing,
+  raw OCR, image and transcription bytes remain unchanged; original packages and
+  their historical coordinates remain preserved. A private opt-in adapter rejects
+  unrelated recipe changes. Existing source boundary adapters remain required.
+  Two intentional split-region projections preserve every source character once.
+- Every active text/review range, region association, physical listing row, source
+  identity/page geometry and complete coverage passes. All70 historical production
+  packages,16,790 pilot files, native15–47 seals and5,095 declared raw/crop/settings
+  files across66 original/revised early bundles remain valid. Three metadata
+  revisions bring the preserved package history to73;47 native/15 assembly/eight
+  selection records and24 raw milestones remain unchanged. The shared pipeline
+  is unchanged; its passing135-test baseline is reused.
+- The audit helper initially assumed package display titles equal canonical TOC
+  labels; three historical title differences are now recorded explicitly. The
+  range-revision helper recovered an ambiguity/partial-resume assumption; LA7110M
+  is anchored beside the15V claim named in its original note. Cover validation
+  dropped unsupported display dimensions from a strict file-pin comparison and
+  checked dimensions separately. Final validation also corrected the progress
+  record’s source-cover path to the repository root. Failed helpers and partial
+  inputs remain sealed. No original article text or source evidence changed.
+- Requirement evidence: `private/pdf-restoration/13-1984-08-closeout/completion-audit.json`.
+  Source/range audit: `private/pdf-restoration/13-1984-08-closeout/final-article-audit.json`.
+  All37 articles still require human acceptance/full proofreading; source encoded
+  bytes, uncertain bitmap glyphs and historical program execution remain unverified.
+  Printed mistakes and source-linked uncertainties remain literal. No new OCR,
+  HTML, frontend, browser or reading-room rebuild. Paid input ratio1:0.1; output
+  price and active human effort unknown. Elapsed windows include recovery and
+  interruption as diagnostics; local compute/tokens monetary0.
+- Next supplied eligible issue: September1984, not started. Twelve supplied eligible
+  issues remain after August. Human proofreading and downstream reader integration
+  remain separate work.

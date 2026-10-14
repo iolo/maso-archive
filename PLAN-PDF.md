@@ -46,6 +46,19 @@ Evidence: [August paired cost results](docs/OCR-AUGUST-PILOT-RESULTS.md) and
 room until the user explicitly requests it.** Older preview/build instructions
 are historical and do not authorize a new rebuild.
 
+## August 1984 closeout, 2026-10-14
+
+August is complete under the JSON/assets scope:37 readable, assistant
+sample-reviewed articles and six non-owning headings account for all43 canonical
+TOC entries. No partial bodies or unresolved eligibility remain. The standalone
+index is `build/pdf-restoration/13-1984-08-reference/issue.json`; the report is
+`build/pdf-restoration/13-1984-08-closeout/report.json`. All selected packages and
+the complete issue reproduce exactly. Seven review-range links are corrected in
+separate metadata revisions; original source readings, OCR, assets and packages
+remain unchanged. Human acceptance/full proofreading, source bytes and program
+execution remain unverified. September1984 is next; no reading-room rebuild.
+See the current [progress record](PROGRESS-PDF.md) and [OCR plan](PLAN-OCR.md).
+
 ## Scope and historical May 1984 closeout
 
 **Scope clarified 2026-10-02:** this plan converts eligible PDF content into
