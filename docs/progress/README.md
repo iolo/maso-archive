@@ -1,0 +1,45 @@
+# PDF progress directory
+
+[Current status and next issue](../../PROGRESS-PDF.md) · [OCR handoff](../../PLAN-OCR.md)
+
+Files use the magazine's `YYMM` issue code. Dates within each file identify when
+restoration work occurred. Read the current outcome first; use old checkpoint
+notes for targeted investigation, not as instructions to restart completed work.
+
+| Issue | Records |
+| --- | --- |
+| November 1983 | [8311.md](8311.md) |
+| February 1984 | [8402.md](8402.md) |
+| March 1984 | [8403.md](8403.md) — absent-source partial remains explicit |
+| May 1984 | [8405.md](8405.md) |
+| June 1984 | [8406.md](8406.md) — early records plus links to later OCR history |
+| July 1984 | [8407.md](8407.md) — completed ledger and existing detailed history |
+| August 1984 | [8408.md](8408.md) |
+
+| Shared scope | Records |
+| --- | --- |
+| Inventory, covers, pilots, contracts and batch qualification | [foundation.md](foundation.md) |
+| Catalog reconciliation, scope/tooling decisions and cost accounting | [campaign.md](campaign.md) |
+| OCR benchmark/workflow setup | [ocr-experiments.md](ocr-experiments.md) |
+
+September 1984 has not started; no empty restoration log is created for it.
+Earlier January 1988/August 1991 samples are in foundations and do not establish
+whole-issue completion. Raw scans, OCR, correction files and generated packages
+remain in their existing private locations.
+
+## Maintenance
+
+For new work, add brief dated checkpoints to the appropriate issue file and
+maintain its current-outcome summary. Keep the root progress file as an index.
+Use public/private machine-readable ledgers for complete metrics and pins;
+avoid copying full ledgers into narrative logs. Current OCR policy, review
+standards and JSON/assets scope remain in the linked handoff and PDF plan.
+Artifact paths in backticks are repository-relative even in moved records.
+
+[Migration map](migration.json) records the original Git revision/hash and every
+moved section's source range, destination anchor, content hash and link rewrites.
+The old log can be reconstructed exactly from that revision; the migrated record
+bodies preserve all content except recorded heading-level/link adjustments.
+Byte offsets describe the initial migration; use destination anchors for lookup
+after updating summaries or appending new checkpoints. Keep migrated record
+bodies and anchors intact; a later reorganization must update their locations.

@@ -6,7 +6,8 @@ steps and old checkpoint records do not require repeating completed experiments.
 
 
 Follow [PLAN-PDF.md](../PLAN-PDF.md) in checkpoint order and record each outcome
-in [PROGRESS-PDF.md](../PROGRESS-PDF.md). The tools here do not authorize bulk OCR
+in the relevant [issue progress file](progress/README.md). Keep
+[PROGRESS-PDF.md](../PROGRESS-PDF.md) as the status index. The tools here do not authorize bulk OCR
 before the pilot, contrasting samples, and JSON/asset validation pass their gates.
 
 **Scope clarified 2026-10-02:** PDF restoration delivers JSON and extracted

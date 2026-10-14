@@ -137,7 +137,8 @@ sample-reviewed articles and six non-owning headings. Its standalone index is
 asset integrity and a byte-identical issue rebuild pass. Human acceptance/full
 proofreading and historical code execution remain unverified. September 1984 is
 next and has not started. Reader integration is separate; no rebuild is queued.
-See the [PDF plan](PLAN-PDF.md) and the short [successor handoff](docs/SUCCESSOR-NOTES.md).
+See the [PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md)
+and the short [successor handoff](docs/SUCCESSOR-NOTES.md).
 
 ## Validation and handoff
 

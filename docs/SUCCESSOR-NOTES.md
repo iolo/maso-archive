@@ -43,7 +43,7 @@ issue before starting another. Earlier checkpoint “next” statements are hist
 | Engine accuracy, cost and limits | [OCR handoff evidence index](../PLAN-OCR.md#metrics-and-accounting) |
 | Mapped-Qwen and optional A/B/C commands | [Workflow reference](OCR-WORKFLOW.md) |
 | Article/assembly/batch/issue tooling | [PDF commands](PDF-RESTORATION.md#current-data-only-commands) |
-| A specific old checkpoint or failure | [History index](history/README.md), [PDF log](../PROGRESS-PDF.md) |
+| A specific old checkpoint or failure | [PDF issue logs](progress/README.md), [experiment history](history/README.md) |
 | CD reader inputs, routes and private preview | [Reading-room guide](READING-ROOM.md), [README](../README.md) |
 
 The [previous successor snapshot](history/SUCCESSOR-NOTES-2026-10-14.md) retains

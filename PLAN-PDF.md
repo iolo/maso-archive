@@ -984,11 +984,13 @@ under [PLAN-reading-room.md](PLAN-reading-room.md), when requested.
 ## Working rules
 
 - Work step by step. After every numbered checkpoint and named batch, append a dated entry to
-  [PROGRESS-PDF.md](PROGRESS-PDF.md) recording inputs, completed work, outputs,
+  the relevant [issue progress file](docs/progress/README.md), recording inputs, completed work, outputs,
   validation, unresolved issues, and the next step. Record partial or blocked
   outcomes honestly before moving on. Also record each issue closeout. Steps
   11 and 12 are campaign milestones, not single execution checkpoints. Commit
-  changes after each completed step or named checkpoint.
+  changes after each completed step or named checkpoint. Keep
+  [PROGRESS-PDF.md](PROGRESS-PDF.md) as the current status index; update it at
+  issue milestones rather than appending batch histories there.
 - Each executable checkpoint has one goal, fixed inputs, a work limit, a saved
   artifact, and an acceptance check. Split a checkpoint before expanding its
   scope. Mapping proceeds with the current article/batch, not across the archive
