@@ -237,6 +237,12 @@ Qwen as an opt-in draft/second reading for difficult prose or code, with explici
 layout and coverage review. This sample supports its recognition value but does
 not support replacing reviewed region maps with its automatic layout output.
 
+**User acceptance, 2026-10-14:** the maintainer accepted this conclusion as the
+operating policy for future restoration. Mapped Tesseract remains the default;
+Qwen assistance requires an explicit opt-in scope and layout/coverage review.
+See the [current restoration guide](../PLAN-PDF.md#current-ocr-routing-guide).
+The benchmark measurements and later trial results remain unchanged.
+
 ### Validation and preliminary attempts
 
 Ten offline tests cover schema enforcement, truncation, raw evidence retention,

@@ -1,8 +1,22 @@
 # Sustainable OCR and correction workflow
 
-Updated: 2026-10-12. Owner: the archive maintainer; implementation and experiments
+Updated: 2026-10-14. Owner: the archive maintainer; implementation and experiments
 assisted by Codex. This is a hobby project's sustainability experiment, not a
 replacement mandate or an unattended restoration project.
+
+## Current operating policy
+
+**User decision, 2026-10-14:** retain mapped Tesseract as the default restoration
+pipeline. Use Qwen as an opt-in draft or second reading for difficult prose or
+code, with explicit layout and coverage review. Record the selected region scope
+and reason, reuse valid evidence, and retain semantic correction and human review.
+Dense code or a content category alone does not automatically select Qwen.
+
+This accepts the [benchmark conclusion](docs/OCR-QWEN3-VL.md#what-the-scans-show)
+and supersedes the 2026-10-12 adaptive starting assignments for future work.
+Earlier trials, measurements, routing decisions and completed packages remain
+historical evidence. The current batch instructions are in
+[PLAN-PDF.md](PLAN-PDF.md#current-ocr-routing-guide).
 
 ## Objective
 

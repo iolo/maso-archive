@@ -2,20 +2,23 @@
 
 ## Current OCR routing guide
 
-**User decision, 2026-10-12: keep and improve adaptive routing.** Read this guide before
-starting a restoration batch in a future session. It supersedes
-historical single-engine assumptions in the checkpoints below. For later issue
+**User decision, 2026-10-14: retain mapped Tesseract as the default restoration
+pipeline.** Use Qwen as an opt-in draft or second reading for difficult prose or
+code, with explicit layout and coverage review. This supersedes the 2026-10-12
+adaptive starting assignments and historical engine-selection guidance below.
+Read this guide before starting a restoration batch in a future session. For issue
 progress and the next restoration checkpoint, consult [PLAN-OCR.md](PLAN-OCR.md);
 the May closeout below is historical.
 
 | Content or draft condition | Starting choice |
 | --- | --- |
-| Clear prose with an easily corrected draft | Tesseract |
-| Dense source code, formulas, structured values, or difficult text reading order | Qwen3-VL |
-| Mixed article | Route coherent regions separately; an article title or page count is insufficient |
+| Ordinary restoration, including prose, code, formulas and structured values | Mapped Tesseract |
+| Difficult prose or code warranting another draft or reading | Opt in to Qwen for an explicitly recorded region scope and reason; review layout and coverage |
+| Mixed article | Start with mapped Tesseract; keep any Qwen assistance bounded to the selected regions |
 | Diagrams, screenshots and photographs | Preserve source images; route surrounding text, labels and captions separately |
 
-These are starting choices, not proven cost winners. Apply the documented
+The default is the user's operating policy, not a claim of a universal cost win.
+Apply the documented
 [exceptions and bounded-fallback rules](docs/OCR-JULY-TRIAL.md#provisional-engine-selection-heuristic)
 for aligned assembly columns, ruled tables, decorative/repeated glyphs and
 unusual prose styles. Both engines and the tested llama.cpp/GGUF setup already
@@ -37,10 +40,11 @@ exist; reuse the verified configurations and preserve their provenance.
    `uncached + 0.1*cached + r*output`, with output rate `r` explicit until known.
    Local CPU/GPU/runtime/model tokens have zero monetary weight; record time as
    a separate diagnostic. Keep preparation, evaluation and recovery costs visible.
-5. Refine routing through comparable observations during normal restoration.
+5. Collect comparable observations during normal restoration under this default.
    Fewer total tokens do not necessarily mean lower cost, and one article per
    content type does not establish a universal rule. Record progress and commit.
 
+Decision accepted from the [OCR benchmark conclusion](docs/OCR-QWEN3-VL.md#what-the-scans-show).
 Evidence: [August paired cost results](docs/OCR-AUGUST-PILOT-RESULTS.md) and
 [July routing evidence](docs/OCR-JULY-DECISION.md). **Do not rebuild the reading
 room until the user explicitly requests it.** Older preview/build instructions
