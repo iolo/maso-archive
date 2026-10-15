@@ -19,7 +19,7 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; twenty-nine
+  Human acceptance remains pending. September 1984 is in progress; thirty
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
@@ -79,8 +79,11 @@ paired OCR or a new engine comparison.
   `build/pdf-restoration/14-batch-40/contest-review-v1/`; its results table
   remains an original image. **애플 한글** is assembled from three checked
   partials at `build/pdf-restoration/14-batch-43/apple-hangul-complete-v1/`:
-  printed 222–231, including 21 ordered source-image hex columns. Continue
-  **로미티이** and later TOC entries before closing September issue accounting.
+  printed 222–231, including 21 ordered source-image hex columns.
+  **로미티이** on printed 232–235 is checked at
+  `build/pdf-restoration/14-batch-44/romitio-v1/`, with a source-image
+  gameplay screen and six BASIC columns. Continue **한글 베이직 프로그램** and
+  later TOC entries before closing September issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
