@@ -1,11 +1,11 @@
-# Successor handoff — 2026-10-14
+# Successor handoff — 2026-10-15
 
 ## Read first
 
 1. [OCR handoff](../PLAN-OCR.md): accepted engine policy, essential findings,
    source/review rules, metrics and commands. Do not read all trial logs to resume.
 2. [PDF plan](../PLAN-PDF.md): JSON/assets scope and remaining campaign gates.
-   August is complete; September 1984 is in progress. Its first two articles are
+   August is complete; September 1984 is in progress. Its first four articles are
    recorded in [the September log](progress/8409.md). No reading-room rebuild is authorized by
    restoration alone.
 3. [August ledger](ocr-august-progress.json) and the latest completion report:
@@ -130,7 +130,8 @@ See PROGRESS for concrete cases and preserved-file checks.
 - Make and verify an independent backup of all disc sources, probes and private
   outputs. Earlier CD1 transfer archives are historical snapshots and do not
   include the completed CD2/CD3/SPA work. No independent backup is recorded.
-- Decide publication/access policy separately. No content has been deployed.
+- The owner reports that the volunteer reading-room deployment works; its
+  access and future updates are separate from PDF restoration.
 
 Keep source media and generated publisher content out of Git. Log substantive
 work in PROGRESS and commit scoped changes; preserve unrelated owner edits.
