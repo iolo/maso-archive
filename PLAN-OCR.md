@@ -19,12 +19,12 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; fifteen
+  Human acceptance remains pending. September 1984 is in progress; sixteen
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
-  complete Logo lesson. The next article, **기초 테크닉 코너: 메뉴 선택 프로그램**,
-  spans printed 93–96/PDF 95–98; mapping and restoration are next.
+  complete Logo lesson and menu-selection technique article. The next article,
+  **기계어 강좌**, spans printed 97–109/PDF 99–111 and needs bounded segments.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
