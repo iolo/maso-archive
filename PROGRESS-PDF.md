@@ -33,9 +33,9 @@ and sample-reviewed; its two hexadecimal tables remain original source images
 with byte-level review pending. The separate unlisted **SPC-1000과 조이스틱**
 occupies printed 186–189; the next listed design lesson opens printed 190.
 That **마이크로 컴퓨터 설계 강좌** chapter spans printed 190–218. Its first
-three six-page segments, printed 190–207, are exported as checked partial,
-sample-reviewed packages with source-read prose and 36 original diagram,
-table, illustration and listing-panel crops. Printed 208–218 and assembly
+four six-page segments, printed 190–213, are exported as checked partial,
+sample-reviewed packages with source-read prose and 48 original diagram,
+table, illustration and listing-panel crops. Printed 214–218 and assembly
 remain.
 Issue accounting remains open.
 Twelve eligible issues remain,
