@@ -19,7 +19,7 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; twenty-six
+  Human acceptance remains pending. September 1984 is in progress; twenty-seven
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
@@ -70,8 +70,12 @@ paired OCR or a new engine comparison.
   figure/table/illustration/listing panels. The fourth segment is checked at
   `build/pdf-restoration/14-batch-38/microcomputer-design-segment-d-v1/`:
   twelve ordered original listing columns across printed 208–213, with no
-  accepted byte text. Continue printed 214–218, then assembly and issue
-  accounting.
+  accepted byte text. The final printed 214–218 listing segment is checked at
+  `build/pdf-restoration/14-batch-39/microcomputer-design-segment-e-v1/`;
+  all five are assembled as a checked `readable` / `sample-reviewed` chapter
+  at `build/pdf-restoration/14-batch-39/microcomputer-design-complete-v1/`.
+  Continue the printed-219 notice classification, **공모 총평** and later TOC
+  entries before closing September issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
