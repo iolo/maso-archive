@@ -46,8 +46,10 @@ paired OCR or a new engine comparison.
   `private/pdf-restoration/14-1984-09/batch-32/basic-recovery/`. Its checked
   three-page readable package is
   `build/pdf-restoration/14-batch-32/basic-recovery-v1/`, with five indexed
-  best-read code/data panels and original crops. Continue with **모니터를 이용한
-  작표 도구** and issue accounting.
+  best-read code/data panels and original crops. **모니터를 이용한 작표 도구**
+  covers printed 180–183/PDF 182–185. Its map and regional OCR provenance
+  pass under `private/pdf-restoration/14-1984-09/batch-33/monitor-plotter/`;
+  source-read and export it next, then continue issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.

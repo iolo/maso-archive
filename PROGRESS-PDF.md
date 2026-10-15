@@ -25,7 +25,8 @@ Its 39 SAM/RECITER hexadecimal columns remain original scan images with byte
 transcription pending; the SAYIT BASIC example is best-read text.
 **베이직 프로그램 복구 방법** on printed 177–179 is also readable and
 sample-reviewed, with five source-linked best-read code/data panels.
-**모니터를 이용한 작표 도구** begins printed 180 and is next.
+**모니터를 이용한 작표 도구** on printed 180–183 is mapped with checked regional
+OCR; source reading and export are next.
 Issue accounting remains open.
 Twelve eligible issues remain,
 including September.
