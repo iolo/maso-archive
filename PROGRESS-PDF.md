@@ -1,6 +1,6 @@
 # PDF restoration progress
 
-Updated 2026-10-15. This file is the status index; detailed records live under
+Updated 2026-10-16. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
@@ -9,9 +9,13 @@ by the calendar month in which restoration work happened.
 August 1984 JSON/assets restoration is complete. September 1984 is in progress:
 the printed-page-17 editorial, printed-pages-18–19 feature introduction, and
 the first three child articles on printed pages 20–37, the first six
-hobby games on printed pages 40–59, and the first educational article on
-printed pages 64–65 are readable and assistant sample-reviewed;
-issue accounting remains open. Twelve eligible issues remain,
+hobby games on printed pages 40–59, the first educational article on
+printed pages 64–65, the complete typing article on printed pages 66–77,
+the math article on printed pages 78–84, and the Logo lesson on printed pages
+85–92 are readable and assistant sample-reviewed. The next article,
+**기초 테크닉 코너: 메뉴 선택 프로그램**, spans printed pages 93–96; issue
+accounting remains open.
+Twelve eligible issues remain,
 including September.
 Human acceptance/full proofreading remain pending; no reading-room rebuild is
 queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
@@ -26,7 +30,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | twelve readable, one six-page partial; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | fifteen readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
