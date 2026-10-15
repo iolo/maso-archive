@@ -58,11 +58,11 @@ paired OCR or a new engine comparison.
   images with byte-level review pending. The separate unlisted
   **SPC-1000과 조이스틱** article occupies printed 186–189/PDF 188–191.
   The next canonical **마이크로 컴퓨터 설계 강좌** entry spans printed
-  190–218/PDF 192–220. Its first six pages are mapped as 31 source regions
-  under `private/pdf-restoration/14-1984-09/batch-35/microcomputer-design/`,
-  with source-linked draft OCR and twelve original diagram crops. Source-read
-  and export this first partial segment, then continue the remaining bounded
-  segments and issue accounting.
+  190–218/PDF 192–220. Its first six pages are source-read and exported as
+  `build/pdf-restoration/14-batch-35/microcomputer-design-segment-a-v2/`, a
+  checked `partial` / `sample-reviewed` package with 31 regions and twelve
+  original diagram crops. Continue printed 196–201 as the second bounded
+  segment, then the remaining segments, assembly and issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
