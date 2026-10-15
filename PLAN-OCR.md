@@ -24,7 +24,8 @@ paired OCR or a new engine comparison.
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
   complete Logo lesson and menu-selection technique article. The next article,
-  **기계어 강좌**, spans printed 97–109/PDF 99–111 and needs bounded segments.
+  **기계어 강좌**, spans printed 97–109/PDF 99–111. Its reviewed partial packages
+  cover printed 97–108; printed 109 and final assembly remain.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
