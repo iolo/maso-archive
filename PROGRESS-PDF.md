@@ -39,7 +39,10 @@ Its 58 figure/table/illustration/listing crops include 24 long assembly
 columns with byte transcription pending. A separate advertisement below the
 final `END` is excluded. The printed-219 software-contest notice is classified
 separately, and printed 220–221 **공모 총평** is a checked readable article at
-`build/pdf-restoration/14-batch-40/contest-review-v1/`. September now has 28
+`build/pdf-restoration/14-batch-40/contest-review-v1/`. The ten-page
+**애플 한글** prizewinner article is checked at
+`build/pdf-restoration/14-batch-43/apple-hangul-complete-v1/`, with 21 long
+hex-listing columns preserved as original images. September now has 29
 readable whole articles; later TOC entries still need accounting.
 Issue accounting remains open.
 Twelve eligible issues remain,
@@ -57,7 +60,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | twenty-eight readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | twenty-nine readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
