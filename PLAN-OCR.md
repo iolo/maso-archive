@@ -19,9 +19,9 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; six articles
-  are readable, assistant sample-reviewed packages, including its editorial,
-  IBM-PC feature introduction and first hobby game.
+  Human acceptance remains pending. September 1984 is in progress; seven
+  articles are readable, assistant sample-reviewed packages, including its
+  editorial, IBM-PC feature introduction and first two hobby games.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
