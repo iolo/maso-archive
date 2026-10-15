@@ -16,6 +16,23 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
+## September 1984 closeout, 2026-10-16
+
+September is complete under the canonical-TOC JSON/assets scope: all 43 TOC
+entries are accounted as 37 readable, assistant sample-reviewed articles and
+six non-owning headings. The standalone index is
+`build/pdf-restoration/14-1984-09-reference/issue.json`; the report is
+`build/pdf-restoration/14-1984-09-closeout/report.json`. All 268 PDF pages are
+classified in `private/pdf-restoration/14-1984-09-closeout/source-page-ledger.json`:
+226 have selected article bodies and 42 are other material, including the
+separate unlisted four-page SPC-1000 joystick article. One source page is shared
+by two disjoint articles. The 37 selected packages, verified cover, complete
+issue and independent byte-identical rebuild pass. Information-radar story
+headings are searchable, with complete news bodies in original images awaiting
+volunteer transcription. Human acceptance/full proofreading, source bytes and
+program execution remain unverified. October 1984 is next. No reading-room
+rebuild occurred.
+
 ## August 1984 closeout, 2026-10-14
 
 August is complete under the JSON/assets scope:37 readable, assistant

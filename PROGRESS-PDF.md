@@ -6,68 +6,24 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1984 JSON/assets restoration is complete. September 1984 is in progress:
-the printed-page-17 editorial, printed-pages-18–19 feature introduction, and
-the first three child articles on printed pages 20–37, the first six
-hobby games on printed pages 40–59, the first educational article on
-printed pages 64–65, the complete typing article on printed pages 66–77,
-the math article on printed pages 78–84, the Logo lesson on printed pages
-85–92, the menu-selection technique article on printed pages 93–96, the
-Z80 machine-language lesson on printed pages 97–109, **애플 포트란** on
-printed pages 110–114, **CP/M 입문** on printed pages 115–121, **자료 구조**
-on printed pages 124–129, **전산개발시스템 연구** on printed pages 131–135,
-and **의료보험수가계산** on printed pages 136–143 are readable and assistant
-sample-reviewed. The **비지니스** divider is non-owning. Unlisted radar,
-advertising and book-notice pages through printed 156 are classified; the
-**테크니컬** divider on printed 157 is non-owning. **PIA 시리즈 SAM** on printed
-158–176 is now a checked readable assembly of four source-reviewed segments.
-Its 39 SAM/RECITER hexadecimal columns remain original scan images with byte
-transcription pending; the SAYIT BASIC example is best-read text.
-**베이직 프로그램 복구 방법** on printed 177–179 is also readable and
-sample-reviewed, with five source-linked best-read code/data panels.
-**모니터를 이용한 작표 도구** on printed 180–183 is also readable and
-sample-reviewed. Its prose and two short BASIC examples are best-read text;
-the long listing remains three original code-panel images awaiting row review.
-**SPC-1000 기계어 입력과 세이브 방법** on printed 184–185 is also readable
-and sample-reviewed; its two hexadecimal tables remain original source images
-with byte-level review pending. The separate unlisted **SPC-1000과 조이스틱**
-occupies printed 186–189; the next listed design lesson opens printed 190.
-That **마이크로 컴퓨터 설계 강좌** chapter spans printed 190–218 and is now a
-checked readable, sample-reviewed assembly of five source segments at
-`build/pdf-restoration/14-batch-39/microcomputer-design-complete-v1/`.
-Its 58 figure/table/illustration/listing crops include 24 long assembly
-columns with byte transcription pending. A separate advertisement below the
-final `END` is excluded. The printed-219 software-contest notice is classified
-separately, and printed 220–221 **공모 총평** is a checked readable article at
-`build/pdf-restoration/14-batch-40/contest-review-v1/`. The ten-page
-**애플 한글** prizewinner article is checked at
-`build/pdf-restoration/14-batch-43/apple-hangul-complete-v1/`, with 21 long
-hex-listing columns preserved as original images. **로미티이** on printed
-232–235 is also checked at
-`build/pdf-restoration/14-batch-44/romitio-v1/`; its gameplay screen and six
-BASIC columns remain original images. The eleven-page **한글 베이직
-프로그램** is checked at
-`build/pdf-restoration/14-batch-46/korean-basic-complete-v1/`, assembled from
-two source-reviewed partials with 24 original diagram/table/code images.
-The **메아리** automatic-telephone article occupies printed 247–251 despite
-its printed-248 TOC reference; its checked package is
-`build/pdf-restoration/14-batch-47/meari-v1/`, with the parts table, three
-circuits and seven BASIC panels retained as original images. The one-page
-**디버깅룸** errata column is
-checked at `build/pdf-restoration/14-batch-48/debugging-room-v1/`, with six
-original correction panels. **복덕방** covers printed 253–255 at
-`build/pdf-restoration/14-batch-49/classifieds-v1/` with seven original
-images. **Q&A** covers printed 257–260 at
-`build/pdf-restoration/14-batch-50/qa-v2/` with searchable questions and
-answers and six original technical panels. **신간안내** on printed 156 is
-checked at `build/pdf-restoration/14-batch-52/books-v1/`, with two searchable
-reviews and their original covers. September now has 36 readable whole
-articles; **정보 레이다** and issue accounting remain open.
-Twelve eligible issues remain,
-including September.
-Human acceptance/full proofreading remain pending; no reading-room rebuild is
-queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
-[successor notes](docs/SUCCESSOR-NOTES.md).
+September 1984 canonical-TOC JSON/assets restoration is complete. All 43
+contents records resolve to 37 readable, assistant sample-reviewed articles and
+six non-owning headings. The portable [issue index](build/pdf-restoration/14-1984-09-reference/issue.json)
+and [closeout report](build/pdf-restoration/14-1984-09-closeout/report.json)
+pass package, source-page, cover and independent byte-identical rebuild checks.
+All 268 PDF pages are classified: 226 have selected article bodies and 42 are
+cover, contents, dividers, advertising, publisher backmatter or unlisted content.
+The unlisted four-page **SPC-1000과 조이스틱** feature is identified separately
+outside the canonical TOC selection.
+
+The ten-page **정보 레이다** package retains all news columns and illustrations in
+original images with searchable printed story headings; its body prose awaits
+volunteer transcription. Many code, numeric and classified panels elsewhere
+also remain source images. Human acceptance, complete proofreading, source-byte
+verification and program execution remain pending. The reading room has not
+been rebuilt. October 1984 is the next supplied eligible issue; eleven remain.
+See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
+[PDF plan](PLAN-PDF.md) and [successor notes](docs/SUCCESSOR-NOTES.md).
 
 | Issue | Body articles | Availability | Detailed progress |
 | --- | ---: | --- | --- |
@@ -78,7 +34,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | thirty-six readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

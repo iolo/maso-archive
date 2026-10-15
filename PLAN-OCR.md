@@ -17,98 +17,23 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
-  37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; thirty-six
-  articles are readable, assistant sample-reviewed packages, including its
-  editorial, IBM-PC feature introduction, first six hobby games, first
-  educational article, complete typing article, complete math article and
-  complete Logo lesson, menu-selection technique article and Z80 machine-language
-  lesson, Apple Fortran article, CP/M installment, graph-structure lesson and
-  system-development article and the complete eight-page **의료보험수가계산**
-  article and the full nineteen-page **PIA 시리즈 SAM** article. The **비지니스**
-  divider is non-owning. Medical-calculator segments are at
-  `build/pdf-restoration/14-batch-26/medical-segment-a-v2/` and
-  `build/pdf-restoration/14-batch-27/medical-segment-b-v2/`; their readable
-  assembly is `build/pdf-restoration/14-batch-27/medical-complete-v2/`.
-  Printed line 1230 has source damage, explicitly marked in the listing.
-  The unlisted radar, advertising and book-notice pages through printed 156
-  are classified separately; printed 157 is the non-owning **테크니컬** divider.
-  **PIA 시리즈 SAM** is assembled at
-  `build/pdf-restoration/14-batch-31/pia-complete-v1/` as `readable` /
-  `sample-reviewed`, covering printed 158–176/PDF 160–178. Its four partial
-  source packages retain the prose, short BASIC examples, and 39 original
-  SAM/RECITER hex-panel images. Those image crops were checked for complete
-  source coverage; their byte rows are not accepted as transcribed code.
-  The next article visibly opens on printed 177/PDF 179 although its canonical
-  TOC label says 176. Its three-page map and regional OCR now pass source and
-  crop-provenance checks under
-  `private/pdf-restoration/14-1984-09/batch-32/basic-recovery/`. Its checked
-  three-page readable package is
-  `build/pdf-restoration/14-batch-32/basic-recovery-v1/`, with five indexed
-  best-read code/data panels and original crops. **모니터를 이용한 작표 도구**
-  covers printed 180–183/PDF 182–185. Its checked readable package is
-  `build/pdf-restoration/14-batch-33/monitor-plotter-v2/`; source-reviewed
-  prose and two short BASIC examples are text, while the long BASIC listing
-  remains three original code-panel images with row transcription pending.
-  **SPC-1000 기계어 입력과 세이브 방법** occupies printed 184–185/PDF
-  186–187. Its checked readable package is
-  `build/pdf-restoration/14-batch-34/spc-machine-entry-v1/`; source-read
-  prose and commands are text, while both hexadecimal tables remain original
-  images with byte-level review pending. The separate unlisted
-  **SPC-1000과 조이스틱** article occupies printed 186–189/PDF 188–191.
-  The next canonical **마이크로 컴퓨터 설계 강좌** entry spans printed
-  190–218/PDF 192–220. Its first six pages are source-read and exported as
-  `build/pdf-restoration/14-batch-35/microcomputer-design-segment-a-v2/`, a
-  checked `partial` / `sample-reviewed` package with 31 regions and twelve
-  original diagram crops. The second six-page segment is also checked at
-  `build/pdf-restoration/14-batch-36/microcomputer-design-segment-b-v1/`,
-  with 33 regions, source-read prose and thirteen original figure/table
-  crops. The third segment is checked at
-  `build/pdf-restoration/14-batch-37/microcomputer-design-segment-c-v2/`,
-  with 22 regions, source-read assembler explanation and eleven original
-  figure/table/illustration/listing panels. The fourth segment is checked at
-  `build/pdf-restoration/14-batch-38/microcomputer-design-segment-d-v1/`:
-  twelve ordered original listing columns across printed 208–213, with no
-  accepted byte text. The final printed 214–218 listing segment is checked at
-  `build/pdf-restoration/14-batch-39/microcomputer-design-segment-e-v1/`;
-  all five are assembled as a checked `readable` / `sample-reviewed` chapter
-  at `build/pdf-restoration/14-batch-39/microcomputer-design-complete-v1/`.
-  The printed-219 publisher software-contest notice is classified separately.
-  **공모 총평** on printed 220–221 is a checked readable package at
-  `build/pdf-restoration/14-batch-40/contest-review-v1/`; its results table
-  remains an original image. **애플 한글** is assembled from three checked
-  partials at `build/pdf-restoration/14-batch-43/apple-hangul-complete-v1/`:
-  printed 222–231, including 21 ordered source-image hex columns.
-  **로미티이** on printed 232–235 is checked at
-  `build/pdf-restoration/14-batch-44/romitio-v1/`, with a source-image
-  gameplay screen and six BASIC columns. **한글 베이직 프로그램** is assembled
-  from two checked partials at
-  `build/pdf-restoration/14-batch-46/korean-basic-complete-v1/`, covering
-  printed 236–246 with 24 original diagram/table/code images. The **메아리**
-  automatic-telephone article is checked at
-  `build/pdf-restoration/14-batch-47/meari-v1/`, covering printed 247–251
-  (its canonical TOC reference says 248) with original parts, circuit and
-  BASIC-listing images. **디버깅룸** is checked at
-  `build/pdf-restoration/14-batch-48/debugging-room-v1/`, covering printed
-  252 with six original correction panels. **복덕방** is checked at
-  `build/pdf-restoration/14-batch-49/classifieds-v1/`, covering printed
-  253–255 with original classified-column images. **Q&A** is checked at
-  `build/pdf-restoration/14-batch-50/qa-v2/`, covering printed 257–260;
-  technical listings remain original images. **신간안내** is checked at
-  `build/pdf-restoration/14-batch-52/books-v1/`, with both book reviews and
-  original covers. Restore **정보 레이다** before closing September accounting.
-- Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
-  Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
-  [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
-- Existing August assemblies use pinned private boundary/review-range adapters.
-  Validation/rebuild instructions and pins are in
+- August 1984 is complete at `build/pdf-restoration/13-1984-08-reference/issue.json`;
+  its report is `build/pdf-restoration/13-1984-08-closeout/report.json` and its
+  machine-readable [ledger](docs/ocr-august-progress.json) remains preserved.
+- September 1984 is complete under the canonical-TOC JSON/assets scope: 37
+  readable, assistant sample-reviewed articles and six non-owning headings.
+  The [issue index](build/pdf-restoration/14-1984-09-reference/issue.json),
+  [closeout report](build/pdf-restoration/14-1984-09-closeout/report.json) and
+  source-page ledger classify all 268 PDF pages. The information-radar body
+  prose, many code panels and classifieds remain readable original images with
+  volunteer transcription pending. The separate unlisted SPC-1000 joystick
+  article is classified outside the canonical article set. October 1984 is the
+  next supplied eligible issue; eleven remain after September.
+- Existing August assemblies use pinned private boundary/review adapters.
+  Instructions and pins are in
   `private/pdf-restoration/13-1984-08-closeout/reproduction.json`.
-  Seven review-range links were fixed in separate metadata revisions; all original
-  packages, source readings, raw OCR and images remain preserved.
-- Follow [PLAN-PDF.md](PLAN-PDF.md) for restoration scope and issue gates.
-  Deliver JSON/assets; rebuild the reading room only when explicitly requested.
-  Do not rerun completed trials or closeouts to begin a later issue.
+  Follow [PLAN-PDF.md](PLAN-PDF.md) for restoration scope. Deliver JSON/assets;
+  rebuild the reading room only when explicitly requested.
 
 ## Source review and bounded assistance
 
