@@ -19,7 +19,7 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; thirty-four
+  Human acceptance remains pending. September 1984 is in progress; thirty-five
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
@@ -93,8 +93,10 @@ paired OCR or a new engine comparison.
   `build/pdf-restoration/14-batch-48/debugging-room-v1/`, covering printed
   252 with six original correction panels. **복덕방** is checked at
   `build/pdf-restoration/14-batch-49/classifieds-v1/`, covering printed
-  253–255 with original classified-column images. Continue **Q&A** and the
-  earlier information-section entries before closing September accounting.
+  253–255 with original classified-column images. **Q&A** is checked at
+  `build/pdf-restoration/14-batch-50/qa-v2/`, covering printed 257–260;
+  technical listings remain original images. Restore **정보 레이다** and
+  **신간 안내** before closing September accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
