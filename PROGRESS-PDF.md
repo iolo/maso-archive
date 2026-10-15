@@ -19,11 +19,10 @@ on printed pages 124–129, **전산개발시스템 연구** on printed pages 13
 and **의료보험수가계산** on printed pages 136–143 are readable and assistant
 sample-reviewed. The **비지니스** divider is non-owning. Unlisted radar,
 advertising and book-notice pages through printed 156 are classified; the
-**테크니컬** divider on printed 157 is non-owning. The first six pages of
-**PIA 시리즈 SAM** (printed 158–163) are a checked, source-reviewed partial
-segment. Its next six pages (164–169) are also a checked partial segment:
-the SAYIT program is source-read, while 18 SAM hex columns remain original
-image panels awaiting byte review. Printed 170–176 and assembly are next.
+**테크니컬** divider on printed 157 is non-owning. **PIA 시리즈 SAM** on printed
+158–176 is now a checked readable assembly of four source-reviewed segments.
+Its 39 SAM/RECITER hexadecimal columns remain original scan images with byte
+transcription pending; the SAYIT BASIC example is best-read text.
 Issue accounting remains open.
 Twelve eligible issues remain,
 including September.
@@ -40,7 +39,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | twenty-two readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | twenty-three readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

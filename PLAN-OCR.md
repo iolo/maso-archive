@@ -19,14 +19,14 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; twenty-two
+  Human acceptance remains pending. September 1984 is in progress; twenty-three
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
   complete Logo lesson, menu-selection technique article and Z80 machine-language
   lesson, Apple Fortran article, CP/M installment, graph-structure lesson and
   system-development article and the complete eight-page **의료보험수가계산**
-  article. The **비지니스**
+  article and the full nineteen-page **PIA 시리즈 SAM** article. The **비지니스**
   divider is non-owning. Medical-calculator segments are at
   `build/pdf-restoration/14-batch-26/medical-segment-a-v2/` and
   `build/pdf-restoration/14-batch-27/medical-segment-b-v2/`; their readable
@@ -34,16 +34,14 @@ paired OCR or a new engine comparison.
   Printed line 1230 has source damage, explicitly marked in the listing.
   The unlisted radar, advertising and book-notice pages through printed 156
   are classified separately; printed 157 is the non-owning **테크니컬** divider.
-  The first six pages of **PIA 시리즈 SAM** from printed 158/PDF 160 are a
-  checked `partial` / `sample-reviewed` segment at
-  `build/pdf-restoration/14-batch-28/pia-segment-a-v1/`. Printed 164–169 are
-  another checked partial segment at
-  `build/pdf-restoration/14-batch-29/pia-segment-b-v1/`: its SAYIT program is
-  source-read, while 18 SAM hex panels remain original images with OCR draft
-  evidence and no accepted byte transcription. Restore printed 170–175 next,
-  then printed 176 and full assembly. The
-  nineteen-page extent and the one-page TOC discrepancy at the successor's
-  visible opening are pinned in the batch-28 scope.
+  **PIA 시리즈 SAM** is assembled at
+  `build/pdf-restoration/14-batch-31/pia-complete-v1/` as `readable` /
+  `sample-reviewed`, covering printed 158–176/PDF 160–178. Its four partial
+  source packages retain the prose, short BASIC examples, and 39 original
+  SAM/RECITER hex-panel images. Those image crops were checked for complete
+  source coverage; their byte rows are not accepted as transcribed code.
+  The next article visibly opens on printed 177/PDF 179 although its canonical
+  TOC label says 176. Continue with that article and issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
