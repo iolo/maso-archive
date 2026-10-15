@@ -12,9 +12,10 @@ the first three child articles on printed pages 20–37, the first six
 hobby games on printed pages 40–59, the first educational article on
 printed pages 64–65, the complete typing article on printed pages 66–77,
 the math article on printed pages 78–84, the Logo lesson on printed pages
-85–92, and the menu-selection technique article on printed pages 93–96 are
-readable and assistant sample-reviewed. The next article, **기계어 강좌**,
-spans printed pages 97–109; issue accounting remains open.
+85–92, the menu-selection technique article on printed pages 93–96, and the
+Z80 machine-language lesson on printed pages 97–109 are readable and assistant
+sample-reviewed. The next article, **애플 포트란**, starts printed page 110;
+issue accounting remains open.
 Twelve eligible issues remain,
 including September.
 Human acceptance/full proofreading remain pending; no reading-room rebuild is
@@ -30,7 +31,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | sixteen readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | seventeen readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
