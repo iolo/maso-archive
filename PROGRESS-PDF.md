@@ -23,8 +23,9 @@ advertising and book-notice pages through printed 156 are classified; the
 158–176 is now a checked readable assembly of four source-reviewed segments.
 Its 39 SAM/RECITER hexadecimal columns remain original scan images with byte
 transcription pending; the SAYIT BASIC example is best-read text.
-The following **베이직 프로그램 복구 방법** is scoped and mapped on printed
-177–179; source reading and export are next.
+**베이직 프로그램 복구 방법** on printed 177–179 is also readable and
+sample-reviewed, with five source-linked best-read code/data panels.
+**모니터를 이용한 작표 도구** begins printed 180 and is next.
 Issue accounting remains open.
 Twelve eligible issues remain,
 including September.
@@ -41,7 +42,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | twenty-three readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | twenty-four readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
