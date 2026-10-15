@@ -28,7 +28,10 @@ sample-reviewed, with five source-linked best-read code/data panels.
 **모니터를 이용한 작표 도구** on printed 180–183 is also readable and
 sample-reviewed. Its prose and two short BASIC examples are best-read text;
 the long listing remains three original code-panel images awaiting row review.
-**SPC-1000 기계어 입력과 세이브 방법** begins printed 184 and is next.
+**SPC-1000 기계어 입력과 세이브 방법** on printed 184–185 is also readable
+and sample-reviewed; its two hexadecimal tables remain original source images
+with byte-level review pending. The separate unlisted **SPC-1000과 조이스틱**
+occupies printed 186–189; the next listed design lesson opens printed 190.
 Issue accounting remains open.
 Twelve eligible issues remain,
 including September.
@@ -45,7 +48,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | twenty-five readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | twenty-six readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

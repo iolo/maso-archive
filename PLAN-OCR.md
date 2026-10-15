@@ -19,7 +19,7 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; twenty-five
+  Human acceptance remains pending. September 1984 is in progress; twenty-six
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
@@ -51,7 +51,14 @@ paired OCR or a new engine comparison.
   `build/pdf-restoration/14-batch-33/monitor-plotter-v2/`; source-reviewed
   prose and two short BASIC examples are text, while the long BASIC listing
   remains three original code-panel images with row transcription pending.
-  Continue with **SPC-1000 기계어 입력과 세이브 방법** and issue accounting.
+  **SPC-1000 기계어 입력과 세이브 방법** occupies printed 184–185/PDF
+  186–187. Its checked readable package is
+  `build/pdf-restoration/14-batch-34/spc-machine-entry-v1/`; source-read
+  prose and commands are text, while both hexadecimal tables remain original
+  images with byte-level review pending. The separate unlisted
+  **SPC-1000과 조이스틱** article occupies printed 186–189/PDF 188–191.
+  Continue with the next canonical design lesson at printed 190/PDF 192 and
+  issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
