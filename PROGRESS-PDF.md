@@ -15,8 +15,8 @@ the math article on printed pages 78–84, the Logo lesson on printed pages
 85–92, the menu-selection technique article on printed pages 93–96, the
 Z80 machine-language lesson on printed pages 97–109, **애플 포트란** on
 printed pages 110–114, and **CP/M 입문** on printed pages 115–121 are readable
-and assistant sample-reviewed. Next classify the **비지니스** divider and scope
-**자료 구조** from printed page 124;
+and assistant sample-reviewed. The **비지니스** divider is non-owning; next
+restore **자료 구조** from printed page 124;
 issue accounting remains open.
 Twelve eligible issues remain,
 including September.

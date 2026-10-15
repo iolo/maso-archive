@@ -25,8 +25,9 @@ paired OCR or a new engine comparison.
   educational article, complete typing article, complete math article and
   complete Logo lesson, menu-selection technique article and Z80 machine-language
   lesson, Apple Fortran article and CP/M installment. The Z80 article's 13 pages,
-  Apple Fortran's five pages and CP/M's seven pages are readable. Next classify
-  the **비지니스** divider and scope **자료 구조** from printed 124/PDF 126.
+  Apple Fortran's five pages and CP/M's seven pages are readable. The
+  **비지니스** divider is non-owning; next restore **자료 구조** on printed
+  124–129/PDF 126–131.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
