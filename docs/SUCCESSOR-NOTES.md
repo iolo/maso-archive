@@ -5,8 +5,9 @@
 1. [OCR handoff](../PLAN-OCR.md): accepted engine policy, essential findings,
    source/review rules, metrics and commands. Do not read all trial logs to resume.
 2. [PDF plan](../PLAN-PDF.md): JSON/assets scope and remaining campaign gates.
-   August is complete; September 1984 is the next supplied eligible issue and
-   has not started. No reading-room rebuild is authorized by restoration alone.
+   August is complete; September 1984 is in progress. Its first two articles are
+   recorded in [the September log](progress/8409.md). No reading-room rebuild is authorized by
+   restoration alone.
 3. [August ledger](ocr-august-progress.json) and the latest completion report:
    `build/pdf-restoration/13-1984-08-closeout/report.json`.
    For an existing August assembly check, use its pinned adapters from

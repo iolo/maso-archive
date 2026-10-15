@@ -1,13 +1,15 @@
 # PDF restoration progress
 
-Updated 2026-10-14. This file is the status index; detailed records live under
+Updated 2026-10-15. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
 
-August 1984 JSON/assets restoration is complete. September 1984 is the next
-supplied eligible issue and has not started. Twelve eligible issues remain.
+August 1984 JSON/assets restoration is complete. September 1984 is in progress:
+the printed-page-17 editorial and printed-pages-18–19 feature introduction are
+readable and assistant sample-reviewed; issue
+accounting remains open. Twelve eligible issues remain, including September.
 Human acceptance/full proofreading remain pending; no reading-room rebuild is
 queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 [successor notes](docs/SUCCESSOR-NOTES.md).
@@ -21,6 +23,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
+| 1984-09 | classification pending | two readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

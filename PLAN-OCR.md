@@ -1,6 +1,6 @@
 # OCR handoff
 
-Updated 2026-10-14. Read this before future PDF restoration. This is the current
+Updated 2026-10-15. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -19,7 +19,8 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is next and has not started.
+  Human acceptance remains pending. September 1984 is in progress; its editorial
+  and IBM-PC feature introduction are readable, assistant sample-reviewed packages.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.

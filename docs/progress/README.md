@@ -15,6 +15,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | June 1984 | [8406.md](8406.md) — early records plus links to later OCR history |
 | July 1984 | [8407.md](8407.md) — completed ledger and existing detailed history |
 | August 1984 | [8408.md](8408.md) |
+| September 1984 | [8409.md](8409.md) — restoration in progress |
 
 | Shared scope | Records |
 | --- | --- |
@@ -22,7 +23,6 @@ notes for targeted investigation, not as instructions to restart completed work.
 | Catalog reconciliation, scope/tooling decisions and cost accounting | [campaign.md](campaign.md) |
 | OCR benchmark/workflow setup | [ocr-experiments.md](ocr-experiments.md) |
 
-September 1984 has not started; no empty restoration log is created for it.
 Earlier January 1988/August 1991 samples are in foundations and do not establish
 whole-issue completion. Raw scans, OCR, correction files and generated packages
 remain in their existing private locations.

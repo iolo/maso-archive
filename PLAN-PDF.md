@@ -26,7 +26,8 @@ index is `build/pdf-restoration/13-1984-08-reference/issue.json`; the report is
 the complete issue reproduce exactly. Seven review-range links are corrected in
 separate metadata revisions; original source readings, OCR, assets and packages
 remain unchanged. Human acceptance/full proofreading, source bytes and program
-execution remain unverified. September1984 is next; no reading-room rebuild.
+execution remain unverified. September 1984 is now in progress; see
+[its checkpoint log](docs/progress/8409.md). No reading-room rebuild.
 See the current [progress record](PROGRESS-PDF.md) and [OCR plan](PLAN-OCR.md).
 
 ## Scope and historical May 1984 closeout
