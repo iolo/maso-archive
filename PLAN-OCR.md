@@ -64,8 +64,11 @@ paired OCR or a new engine comparison.
   original diagram crops. The second six-page segment is also checked at
   `build/pdf-restoration/14-batch-36/microcomputer-design-segment-b-v1/`,
   with 33 regions, source-read prose and thirteen original figure/table
-  crops. Continue printed 202–207 as the third bounded segment, then the
-  remaining segments, assembly and issue accounting.
+  crops. The third segment is checked at
+  `build/pdf-restoration/14-batch-37/microcomputer-design-segment-c-v2/`,
+  with 22 regions, source-read assembler explanation and eleven original
+  figure/table/illustration/listing panels. Continue printed 208–213 as the
+  fourth bounded segment, then printed 214–218, assembly and issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
