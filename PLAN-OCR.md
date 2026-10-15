@@ -78,7 +78,10 @@ paired OCR or a new engine comparison.
   **공모 총평** on printed 220–221 is a checked readable package at
   `build/pdf-restoration/14-batch-40/contest-review-v1/`; its results table
   remains an original image. Continue **애플 한글** and later TOC entries before
-  closing September issue accounting.
+  closing September issue accounting. The first **애플 한글** partial covers
+  printed 222–224 at
+  `build/pdf-restoration/14-batch-41/apple-hangul-segment-a-v1/`; the remaining
+  hex-listing pages still need source-image packages and assembly.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
