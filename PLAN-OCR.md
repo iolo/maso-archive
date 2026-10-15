@@ -34,9 +34,12 @@ paired OCR or a new engine comparison.
   Printed line 1230 has source damage, explicitly marked in the listing.
   The unlisted radar, advertising and book-notice pages through printed 156
   are classified separately; printed 157 is the non-owning **테크니컬** divider.
-  Next restore the first six pages of **PIA 시리즈 SAM** from printed 158/PDF
-  160. Its nineteen-page extent is pinned in the batch-28 scope, including a
-  one-page TOC discrepancy at the successor's visible opening.
+  The first six pages of **PIA 시리즈 SAM** from printed 158/PDF 160 are a
+  checked `partial` / `sample-reviewed` segment at
+  `build/pdf-restoration/14-batch-28/pia-segment-a-v1/`. Restore printed
+  164–169 next, then the remaining seven pages and full assembly. The
+  nineteen-page extent and the one-page TOC discrepancy at the successor's
+  visible opening are pinned in the batch-28 scope.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.

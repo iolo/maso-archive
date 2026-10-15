@@ -19,8 +19,10 @@ on printed pages 124–129, **전산개발시스템 연구** on printed pages 13
 and **의료보험수가계산** on printed pages 136–143 are readable and assistant
 sample-reviewed. The **비지니스** divider is non-owning. Unlisted radar,
 advertising and book-notice pages through printed 156 are classified; the
-**테크니컬** divider on printed 157 is non-owning. **PIA 시리즈 SAM** starts on
-printed 158 and is the next scoped article; issue accounting remains open.
+**테크니컬** divider on printed 157 is non-owning. The first six pages of
+**PIA 시리즈 SAM** (printed 158–163) are a checked, source-reviewed partial
+segment; the remaining thirteen pages and assembly are next. Issue accounting
+remains open.
 Twelve eligible issues remain,
 including September.
 Human acceptance/full proofreading remain pending; no reading-room rebuild is
