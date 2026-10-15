@@ -36,8 +36,12 @@ paired OCR or a new engine comparison.
   are classified separately; printed 157 is the non-owning **테크니컬** divider.
   The first six pages of **PIA 시리즈 SAM** from printed 158/PDF 160 are a
   checked `partial` / `sample-reviewed` segment at
-  `build/pdf-restoration/14-batch-28/pia-segment-a-v1/`. Restore printed
-  164–169 next, then the remaining seven pages and full assembly. The
+  `build/pdf-restoration/14-batch-28/pia-segment-a-v1/`. Printed 164–169 are
+  another checked partial segment at
+  `build/pdf-restoration/14-batch-29/pia-segment-b-v1/`: its SAYIT program is
+  source-read, while 18 SAM hex panels remain original images with OCR draft
+  evidence and no accepted byte transcription. Restore printed 170–175 next,
+  then printed 176 and full assembly. The
   nineteen-page extent and the one-page TOC discrepancy at the successor's
   visible opening are pinned in the batch-28 scope.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.

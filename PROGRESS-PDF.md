@@ -21,8 +21,10 @@ sample-reviewed. The **비지니스** divider is non-owning. Unlisted radar,
 advertising and book-notice pages through printed 156 are classified; the
 **테크니컬** divider on printed 157 is non-owning. The first six pages of
 **PIA 시리즈 SAM** (printed 158–163) are a checked, source-reviewed partial
-segment; the remaining thirteen pages and assembly are next. Issue accounting
-remains open.
+segment. Its next six pages (164–169) are also a checked partial segment:
+the SAYIT program is source-read, while 18 SAM hex columns remain original
+image panels awaiting byte review. Printed 170–176 and assembly are next.
+Issue accounting remains open.
 Twelve eligible issues remain,
 including September.
 Human acceptance/full proofreading remain pending; no reading-room rebuild is
