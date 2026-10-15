@@ -22,7 +22,8 @@ paired OCR or a new engine comparison.
   Human acceptance remains pending. September 1984 is in progress; twelve
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games and first
-  educational article.
+  educational article. The next typing article has a validated six-page partial
+  package; its remaining pages and assembly are pending.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
