@@ -32,6 +32,9 @@ the long listing remains three original code-panel images awaiting row review.
 and sample-reviewed; its two hexadecimal tables remain original source images
 with byte-level review pending. The separate unlisted **SPC-1000과 조이스틱**
 occupies printed 186–189; the next listed design lesson opens printed 190.
+That **마이크로 컴퓨터 설계 강좌** chapter spans printed 190–218. Its first
+six pages are mapped and have source-linked OCR; source correction and partial
+export are next.
 Issue accounting remains open.
 Twelve eligible issues remain,
 including September.
