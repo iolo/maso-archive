@@ -82,7 +82,10 @@ paired OCR or a new engine comparison.
   printed 222–231, including 21 ordered source-image hex columns.
   **로미티이** on printed 232–235 is checked at
   `build/pdf-restoration/14-batch-44/romitio-v1/`, with a source-image
-  gameplay screen and six BASIC columns. Continue **한글 베이직 프로그램** and
+  gameplay screen and six BASIC columns. **한글 베이직 프로그램** has a checked
+  opening partial at
+  `build/pdf-restoration/14-batch-45/korean-basic-segment-a-v1/`, printed
+  236–241; finish its printed 242–246 listing and assemble it, then continue
   later TOC entries before closing September issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.

@@ -46,7 +46,10 @@ hex-listing columns preserved as original images. **로미티이** on printed
 232–235 is also checked at
 `build/pdf-restoration/14-batch-44/romitio-v1/`; its gameplay screen and six
 BASIC columns remain original images. September now has 30 readable whole
-articles; later TOC entries still need accounting.
+articles. The first six pages of **한글 베이직 프로그램** are checked as a
+partial package at
+`build/pdf-restoration/14-batch-45/korean-basic-segment-a-v1/`; its final
+five pages and later TOC entries still need accounting.
 Issue accounting remains open.
 Twelve eligible issues remain,
 including September.
