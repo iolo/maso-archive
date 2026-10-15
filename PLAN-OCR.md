@@ -19,18 +19,24 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; twenty-one
+  Human acceptance remains pending. September 1984 is in progress; twenty-two
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
   complete Logo lesson, menu-selection technique article and Z80 machine-language
   lesson, Apple Fortran article, CP/M installment, graph-structure lesson and
-  system-development article. The **비지니스** divider is non-owning.
-  **의료보험수가계산** spans eight printed pages; its first six-page segment,
-  printed 136–141/PDF 138–143, is exported `partial` / `sample-reviewed` at
-  `build/pdf-restoration/14-batch-26/medical-segment-a/`. Next restore printed
-  142–143/PDF 144–145 and assemble the full article. Its printed line 1230
-  has source damage, explicitly marked in the partial listing.
+  system-development article and the complete eight-page **의료보험수가계산**
+  article. The **비지니스**
+  divider is non-owning. Medical-calculator segments are at
+  `build/pdf-restoration/14-batch-26/medical-segment-a-v2/` and
+  `build/pdf-restoration/14-batch-27/medical-segment-b-v2/`; their readable
+  assembly is `build/pdf-restoration/14-batch-27/medical-complete-v2/`.
+  Printed line 1230 has source damage, explicitly marked in the listing.
+  The unlisted radar, advertising and book-notice pages through printed 156
+  are classified separately; printed 157 is the non-owning **테크니컬** divider.
+  Next restore the first six pages of **PIA 시리즈 SAM** from printed 158/PDF
+  160. Its nineteen-page extent is pinned in the batch-28 scope, including a
+  one-page TOC discrepancy at the successor's visible opening.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.

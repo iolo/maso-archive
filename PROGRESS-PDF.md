@@ -15,11 +15,12 @@ the math article on printed pages 78–84, the Logo lesson on printed pages
 85–92, the menu-selection technique article on printed pages 93–96, the
 Z80 machine-language lesson on printed pages 97–109, **애플 포트란** on
 printed pages 110–114, **CP/M 입문** on printed pages 115–121, **자료 구조**
-on printed pages 124–129, and **전산개발시스템 연구** on printed pages 131–135
-are readable and assistant sample-reviewed. The **비지니스** divider is
-non-owning; **의료보험수가계산** is scoped on printed pages 136–143, with the
-first six-page segment next;
-issue accounting remains open.
+on printed pages 124–129, **전산개발시스템 연구** on printed pages 131–135,
+and **의료보험수가계산** on printed pages 136–143 are readable and assistant
+sample-reviewed. The **비지니스** divider is non-owning. Unlisted radar,
+advertising and book-notice pages through printed 156 are classified; the
+**테크니컬** divider on printed 157 is non-owning. **PIA 시리즈 SAM** starts on
+printed 158 and is the next scoped article; issue accounting remains open.
 Twelve eligible issues remain,
 including September.
 Human acceptance/full proofreading remain pending; no reading-room rebuild is
@@ -35,7 +36,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | twenty-one readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | twenty-two readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
