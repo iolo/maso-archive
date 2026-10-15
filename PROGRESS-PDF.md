@@ -59,9 +59,10 @@ original correction panels. **복덕방** covers printed 253–255 at
 `build/pdf-restoration/14-batch-49/classifieds-v1/` with seven original
 images. **Q&A** covers printed 257–260 at
 `build/pdf-restoration/14-batch-50/qa-v2/` with searchable questions and
-answers and six original technical panels. September now has 35 readable
-whole articles; the earlier **정보 레이다** and **신간 안내** entries and issue
-accounting remain open.
+answers and six original technical panels. **신간안내** on printed 156 is
+checked at `build/pdf-restoration/14-batch-52/books-v1/`, with two searchable
+reviews and their original covers. September now has 36 readable whole
+articles; **정보 레이다** and issue accounting remain open.
 Twelve eligible issues remain,
 including September.
 Human acceptance/full proofreading remain pending; no reading-room rebuild is
@@ -77,7 +78,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | thirty-five readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | thirty-six readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
