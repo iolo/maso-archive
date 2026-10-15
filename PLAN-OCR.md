@@ -25,9 +25,12 @@ paired OCR or a new engine comparison.
   educational article, complete typing article, complete math article and
   complete Logo lesson, menu-selection technique article and Z80 machine-language
   lesson, Apple Fortran article, CP/M installment, graph-structure lesson and
-  system-development article. The **비지니스** divider is non-owning; next scope
-  **의료보험수가계산** from printed 136/PDF 138. It spans eight printed pages;
-  the pinned first segment is printed 136–141/PDF 138–143.
+  system-development article. The **비지니스** divider is non-owning.
+  **의료보험수가계산** spans eight printed pages; its first six-page segment,
+  printed 136–141/PDF 138–143, is exported `partial` / `sample-reviewed` at
+  `build/pdf-restoration/14-batch-26/medical-segment-a/`. Next restore printed
+  142–143/PDF 144–145 and assemble the full article. Its printed line 1230
+  has source damage, explicitly marked in the partial listing.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
