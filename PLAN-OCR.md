@@ -19,7 +19,7 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; thirty-one
+  Human acceptance remains pending. September 1984 is in progress; thirty-two
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
@@ -85,9 +85,12 @@ paired OCR or a new engine comparison.
   gameplay screen and six BASIC columns. **한글 베이직 프로그램** is assembled
   from two checked partials at
   `build/pdf-restoration/14-batch-46/korean-basic-complete-v1/`, covering
-  printed 236–246 with 24 original diagram/table/code images. Continue the
-  **메아리** article opening on printed 247 (canonical TOC says 248) and
-  later information-section entries before closing September accounting.
+  printed 236–246 with 24 original diagram/table/code images. The **메아리**
+  automatic-telephone article is checked at
+  `build/pdf-restoration/14-batch-47/meari-v1/`, covering printed 247–251
+  (its canonical TOC reference says 248) with original parts, circuit and
+  BASIC-listing images. Continue **디버깅 룸** on printed 252 and the later
+  information-section entries before closing September accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.

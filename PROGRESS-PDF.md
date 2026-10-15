@@ -49,8 +49,11 @@ BASIC columns remain original images. The eleven-page **한글 베이직
 프로그램** is checked at
 `build/pdf-restoration/14-batch-46/korean-basic-complete-v1/`, assembled from
 two source-reviewed partials with 24 original diagram/table/code images.
-September now has 31 readable whole articles; later TOC entries still need
-accounting.
+The **메아리** automatic-telephone article occupies printed 247–251 despite
+its printed-248 TOC reference; its checked package is
+`build/pdf-restoration/14-batch-47/meari-v1/`, with the parts table, three
+circuits and seven BASIC panels retained as original images. September now
+has 32 readable whole articles; later TOC entries still need accounting.
 Issue accounting remains open.
 Twelve eligible issues remain,
 including September.
@@ -67,7 +70,7 @@ queued. Follow the [OCR handoff](PLAN-OCR.md), [PDF plan](PLAN-PDF.md) and
 | 1984-06 | 38 | 38 readable | [8406](docs/progress/8406.md) |
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
-| 1984-09 | classification pending | thirty-one readable; issue in progress | [8409](docs/progress/8409.md) |
+| 1984-09 | classification pending | thirty-two readable; issue in progress | [8409](docs/progress/8409.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
