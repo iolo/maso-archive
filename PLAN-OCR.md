@@ -19,15 +19,14 @@ paired OCR or a new engine comparison.
 
 - August 1984 JSON/assets restoration is complete: 43 canonical TOC entries,
   37 readable, assistant sample-reviewed articles and six non-owning headings.
-  Human acceptance remains pending. September 1984 is in progress; nineteen
+  Human acceptance remains pending. September 1984 is in progress; twenty
   articles are readable, assistant sample-reviewed packages, including its
   editorial, IBM-PC feature introduction, first six hobby games, first
   educational article, complete typing article, complete math article and
   complete Logo lesson, menu-selection technique article and Z80 machine-language
-  lesson, Apple Fortran article and CP/M installment. The Z80 article's 13 pages,
-  Apple Fortran's five pages and CP/M's seven pages are readable. The
-  **비지니스** divider is non-owning; next restore **자료 구조** on printed
-  124–129/PDF 126–131.
+  lesson, Apple Fortran article, CP/M installment and graph-structure lesson.
+  The **비지니스** divider is non-owning; next scope **전산개발시스템 연구** from
+  printed 131/PDF 133.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
