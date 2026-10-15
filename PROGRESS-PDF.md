@@ -17,7 +17,8 @@ Z80 machine-language lesson on printed pages 97–109, **애플 포트란** on
 printed pages 110–114, **CP/M 입문** on printed pages 115–121, **자료 구조**
 on printed pages 124–129, and **전산개발시스템 연구** on printed pages 131–135
 are readable and assistant sample-reviewed. The **비지니스** divider is
-non-owning; next scope **의료보험 수가계산** from printed page 136;
+non-owning; **의료보험수가계산** is scoped on printed pages 136–143, with the
+first six-page segment next;
 issue accounting remains open.
 Twelve eligible issues remain,
 including September.
