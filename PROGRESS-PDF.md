@@ -23,6 +23,8 @@ advertising and book-notice pages through printed 156 are classified; the
 158–176 is now a checked readable assembly of four source-reviewed segments.
 Its 39 SAM/RECITER hexadecimal columns remain original scan images with byte
 transcription pending; the SAYIT BASIC example is best-read text.
+The following **베이직 프로그램 복구 방법** is scoped and mapped on printed
+177–179; source reading and export are next.
 Issue accounting remains open.
 Twelve eligible issues remain,
 including September.

@@ -41,7 +41,10 @@ paired OCR or a new engine comparison.
   SAM/RECITER hex-panel images. Those image crops were checked for complete
   source coverage; their byte rows are not accepted as transcribed code.
   The next article visibly opens on printed 177/PDF 179 although its canonical
-  TOC label says 176. Continue with that article and issue accounting.
+  TOC label says 176. Its three-page map and regional OCR now pass source and
+  crop-provenance checks under
+  `private/pdf-restoration/14-1984-09/batch-32/basic-recovery/`; source-read
+  and export it next, then continue issue accounting.
 - Issue index: `build/pdf-restoration/13-1984-08-reference/issue.json`.
   Report: `build/pdf-restoration/13-1984-08-closeout/report.json`.
   [August ledger](docs/ocr-august-progress.json) is the machine-readable record.
