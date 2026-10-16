@@ -41,6 +41,15 @@ source hashes, canonical IDs/parents, original evidence and user edits. Verify a
 process is live before waiting/resuming; reuse successful stages. Close out an
 issue before starting another. Earlier checkpoint “next” statements are historical.
 
+## Reader integration — 2026-10-16
+
+At the owner's explicit request, `dist/reading-room/` now includes September's
+37 restored articles: eight PDF issues (294 records) plus 3,386 CD records,
+3,680 total. The original September package and closeout remain preserved.
+See the [reading-room guide](READING-ROOM.md) for the two recorded canonical-title
+mappings, repeatable export inputs and named release recovery. This local build
+was not deployed and does not authorize the next issue's reader integration.
+
 ## Where to look when needed
 
 | Need | Reference |

@@ -30,9 +30,9 @@ for the issue layout, retention rules and reader restore command.
 
 ## Read the archive
 
-The unified volunteer reader includes **all seven restored PDF issues**
-(November 1983; February, March, May, June, July and August 1984) and **all
-three CDs**: 257 PDF article records plus 3,386 CD records. March's
+The unified volunteer reader includes **all eight restored PDF issues**
+(November 1983; February, March, May, June, July, August and September 1984) and **all
+three CDs**: 294 PDF article records plus 3,386 CD records. March's
 missing-source partial and the eight unresolved CD1 records remain visible.
 
 ```sh
@@ -166,9 +166,9 @@ sample-reviewed articles and six non-owning headings. Its standalone index is
 asset integrity and a byte-identical issue rebuild pass. Human acceptance/full
 proofreading and historical code execution remain unverified. September is also
 complete at `archive/pdf/1984-09/reference/issue.json` (37 readable articles and
-six headings); October 1984 is next. The volunteer reader includes the seven
-completed issues through August. September remains a standalone JSON/assets
-package; reader integration requires a separate request.
+six headings); October 1984 is next. The volunteer reader now includes all eight
+completed issues through September, integrated at the owner's request. The
+standalone JSON/assets package and original restoration evidence are preserved.
 See the [PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md)
 and the short [successor handoff](docs/SUCCESSOR-NOTES.md).
 

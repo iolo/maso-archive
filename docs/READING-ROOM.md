@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
-## Unified volunteer reading room — October 14, 2026
+## Unified volunteer reading room — October 16, 2026
 
 The current combined release is `dist/reading-room/`.
 For inexpensive hosting through a secret share URL, see
@@ -18,10 +18,11 @@ It contains every completed PDF restoration and the CD1/CD2/CD3 collection:
 | 1984-06 | 38 |
 | 1984-07 | 36 |
 | 1984-08 | 37 |
-| PDF total | 257 |
+| 1984-09 | 37 |
+| PDF total | 294 |
 | CD1 / CD2 / CD3 total | 3,386 |
 
-There are 3,643 article records and 3,635 text downloads across 152 navigation
+There are 3,680 article records and 3,672 text downloads across 152 navigation
 records. These are not 152 distinct printed issues: empty library TOCs and
 native CD date groups retain their original identities. All known partial and
 unavailable states remain visible. No new PDF restoration or human acceptance
@@ -63,25 +64,21 @@ To recover the prepared reader after removing `dist/reading-room`, run
 every file hash. An existing destination is refused; use
 `VOLUNTEER_OUTPUT=dist/reading-room-restored` to restore alongside it.
 
-The historical export below requires the prepared July combined reader and final
-August closeout inputs. The July intermediate was already absent at the storage
-migration; the preserved release provides recovery without that intermediate.
-The export uses the original staging checker and preserves all prior reader
-files except the catalog/search/manifest and newly integrated issue indexes.
-August requires the same four private validation adapters used in its standalone
-closeout. `tools.reading_room.volunteer` verifies their exact SHA-256 hashes
-before installing them, then runs the standard exporter/checker. Missing or
-changed adapters fail closed; no restoration records are edited.
+The September build uses the preserved August reader at
+`archive/releases/reading-room-2026-10-16/data/` and the derived integration ledger
+`archive/pdf/1984-09/evidence/reader-integration-2026-10-16/export-ledger-r02.json`.
+Its 37 inputs come from the self-contained September standalone package.
+The new export preserves all prior files except the catalog/search/manifest and
+September's issue/media indexes. August's four pinned validation adapters are
+still required to check the combined collection; they are verified before use.
 
-```sh
-# Export once to a FRESH data output (existing data is intentionally refused).
-make export-volunteer-reading-room
-make check-volunteer-reading-room
-make build-volunteer-reading-room
-make preview-volunteer-reading-room
-```
+Two old titles in September's closeout ledger differed from the canonical TOC:
+`바라케이드` → `바리케이드` and `리뷰 살롱` → `신간 안내`. The separate integration
+ledger records those mappings against `TOC.md`, the current catalog, the saved
+reader and September's progress notes. The original closeout, source articles,
+raw OCR and corrections remain unchanged.
 
-To reproduce while preserving an existing release, use a fresh output consistently:
+Use a fresh output consistently to reproduce the September reader:
 
 ```sh
 make export-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild
@@ -89,6 +86,12 @@ make check-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-r
 make build-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild
 make preview-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild VOLUNTEER_PORT=4190
 ```
+
+The saved September release is
+`archive/releases/reading-room-2026-10-16-september/`, with its sibling SHA-256
+receipt. `make restore-volunteer-reading-room` selects this release by default.
+To select August explicitly, set `VOLUNTEER_RELEASE=reading-room-2026-10-16`.
+The missing July intermediate is no longer needed by the current export recipe.
 
 `VOLUNTEER_BASE` defaults to `./`, so the generated asset and data URLs resolve
 relative to `index.html`. Serve the entire output directory with any static
@@ -110,27 +113,24 @@ or mount. Rebuild with `make build-volunteer-reading-room` to remove that
 requirement. If intentionally using an absolute `VOLUNTEER_BASE`, the static
 host must serve the output at that URL prefix.
 
-The relative-path build was browser-checked on both Python `http.server` and
-the npm `serve` package, plus a subdirectory on Python's server. Each loaded
-the 3,643-record catalog, review queue, August PDF and CD3 article routes, and
-article reloads without HTTP failures or browser errors. The data manifest
-remained unchanged.
+The September build passed the full data checker, prior-file preservation
+checks, six focused Python tests, 24 frontend tests, TypeScript and production
+compilation. Browser checks covered September's contents, a prose article,
+a code article, scan/region views, downloads and mobile layout. The original
+37 packages and all earlier reader article files remain unchanged.
 
-Use an access-controlled static host when sharing the collection. Source PDFs, private
-restoration inputs and originals are not deployment inputs; the generated
-reader already includes its allowed derivatives and article packages. This
-release is local and private; no public deployment has been performed.
+The combined reader has 3,680 articles, 3,672 text downloads and
+3,417 code listings. September accounts for 43 TOC entries: 37 restored
+articles and six non-owning headings. All 37 retain `sample-reviewed` status;
+this integration adds no human acceptance or new OCR result.
 
-Validation completed for this release: 58 focused Python tests, 24 frontend
-tests, TypeScript and the production build, the full data checker (including
-cover derivatives), and the exporter's prior-file preservation checks. Browser
-checks covered August scan images/corrections, note persistence after reload,
-separate article/region notes, individual and full JSON exports, all three CD
-source filters, empty search, pagination, CD text downloads, dark mode, and
-320px/390px mobile layouts. Temporary QA notes were removed from the test browser.
-Private screenshots and the inventory summary are in `archive/evidence/playwright/`.
-Data manifest SHA-256:
-`67519c29b0b31108510677374314728fcd777e775190b5c1991b871dacb6e60b`.
+Integration inputs, exact implementation sources, logs, browser evidence and
+validation are preserved under
+`archive/pdf/1984-09/evidence/reader-integration-2026-10-16/`.
+Data manifest SHA-256: `fe33b9e537357f801301549f3d65cdacc50738e1ecb4166db4ed8d6a6b310e9a`.
+
+The reader is prepared locally. No deployment was performed for this update.
+Use the existing access-controlled hosting workflow if separately requested.
 
 The historical previews below describe earlier datasets and remain intact.
 

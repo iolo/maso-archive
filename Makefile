@@ -304,8 +304,9 @@ check-cd3-reference:
 VOLUNTEER_OUTPUT ?= dist/reading-room
 VOLUNTEER_BASE ?= ./
 VOLUNTEER_PORT ?= 4189
-VOLUNTEER_INPUT ?= dist/reading-room-routed-july-complete/data
-VOLUNTEER_LEDGER ?= archive/pdf/1984-08/restoration/13-1984-08-closeout/export-ledger.json
+VOLUNTEER_INPUT ?= archive/releases/reading-room-2026-10-16/data
+VOLUNTEER_LEDGER ?= archive/pdf/1984-09/evidence/reader-integration-2026-10-16/export-ledger-r02.json
+VOLUNTEER_RELEASE ?= reading-room-2026-10-16-september
 .PHONY: export-volunteer-reading-room build-volunteer-reading-room check-volunteer-reading-room preview-volunteer-reading-room
 export-volunteer-reading-room:
 	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.volunteer export --base $(VOLUNTEER_INPUT) --ledger $(VOLUNTEER_LEDGER) --data $(VOLUNTEER_OUTPUT)/data
@@ -328,4 +329,4 @@ check-storage:
 	$(PYTHON) -m tools.storage_layout verify
 
 restore-volunteer-reading-room:
-	$(PYTHON) -m tools.storage_layout restore-reader $(VOLUNTEER_OUTPUT)
+	$(PYTHON) -m tools.storage_layout restore-reader $(VOLUNTEER_OUTPUT) --release $(VOLUNTEER_RELEASE)

@@ -166,6 +166,14 @@ the volunteer reader first if a retired snapshot depends on it.
 
 ## Restore the reading room
 
+After the owner's September integration request, the current reader release is
+`archive/releases/reading-room-2026-10-16-september/` (eight PDF issues plus all
+three CDs). `make restore-volunteer-reading-room` now selects that release;
+set `VOLUNTEER_RELEASE=reading-room-2026-10-16` to select the older August reader.
+The current export also uses the saved August release as its base, so it does
+not need the missing July intermediate. See [the current recipe](READING-ROOM.md).
+
+
 The pre-migration volunteer reader is retained independently at
 `archive/releases/reading-room-2026-10-16/`. Its sibling JSON file lists every
 file's size and SHA-256. The release contains the existing seven PDF issues and
@@ -202,11 +210,9 @@ Preserve each release's sibling JSON receipt. The restore command without
 `--release` deliberately selects the original `reading-room-2026-10-16` release,
 not whichever directory happens to be newest.
 
-The old July integration input is absent, so the default volunteer **export**
-cannot currently reconstruct the assembled reader from that intermediate.
-Restore the saved release for recovery. Its data can be an explicitly selected
-base for future integration after that task's review; do not silently substitute
-it into the old August-only export recipe.
+The old July integration input is absent. Replaying the historical August-only
+export still requires that base. The current September recipe explicitly uses
+the saved August release instead; both earlier releases remain preserved.
 
 The retained release and migration journal are on this same disk. They protect
 against accidental rebuilding, not disk failure. Preserve `archive/` and

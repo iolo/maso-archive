@@ -1,5 +1,10 @@
 # Storage sustainability review — 2026-10-16
 
+Subsequent update: the owner requested September reader integration after this
+review. The [current recipe](READING-ROOM.md) now uses the saved August release
+and a derived September ledger; its default export no longer needs the missing
+July intermediate. The audit below records the state before that integration.
+
 The retention rule is unchanged: **preserve unfinished restoration and its
 supporting evidence after completion too**. The directory name alone neither
 makes a file disposable nor supplies a backup. Follow the

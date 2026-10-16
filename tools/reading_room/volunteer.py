@@ -1,4 +1,4 @@
-"""Build/check the private all-restored volunteer reader with August's pinned adapters.
+"""Build/check the private volunteer reader through September with pinned adapters.
 
 August's standalone closeout used four narrowly scoped validation extensions.
 Install those exact scripts before running the ordinary reader exporter/checker;
@@ -36,8 +36,8 @@ def install_adapters(root=ROOT):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=('export', 'check'))
-    parser.add_argument('--base', type=Path, default=ROOT / 'dist/reading-room-routed-july-complete/data')
-    parser.add_argument('--ledger', type=Path, default=ROOT / 'archive/pdf/1984-08/restoration/13-1984-08-closeout/export-ledger.json')
+    parser.add_argument('--base', type=Path, default=ROOT / 'archive/releases/reading-room-2026-10-16/data')
+    parser.add_argument('--ledger', type=Path, default=ROOT / 'archive/pdf/1984-09/evidence/reader-integration-2026-10-16/export-ledger-r02.json')
     parser.add_argument('--data', type=Path, default=ROOT / 'dist/reading-room/data')
     args = parser.parse_args()
     install_adapters()
