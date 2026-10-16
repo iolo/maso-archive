@@ -52,7 +52,7 @@ class FontPolicyTests(unittest.TestCase):
                 with self.assertRaises(ValueError):retry_fonts.safe_output(path)
         for path in (ROOT/'build',ROOT,Path('/tmp/font-output')):
             with self.assertRaises(ValueError):retry_fonts.safe_output(path)
-        self.assertEqual(retry_fonts.safe_output(ROOT/'build/cd1-font-sample'),ROOT/'build/cd1-font-sample')
+        self.assertEqual(retry_fonts.safe_output(ROOT/'build/cd1-font-sample'),(ROOT/'build/cd1-font-sample').resolve())
 
 
 class FontArtifactTests(unittest.TestCase):

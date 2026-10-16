@@ -1,4 +1,5 @@
 """Assemble disjoint reviewed page segments without regenerating OCR or its provenance."""
+from tools.storage_layout import is_local_output
 import argparse
 from collections import Counter
 from copy import deepcopy
@@ -315,8 +316,8 @@ def check_assembly(folder, package, *, preview=False):
 
 def assemble(recipe_path, output, root=ROOT, *, preview=False):
     root, recipe_path, output = (Path(p).resolve() for p in (root, recipe_path, output))
-    if not any(output.is_relative_to(root / d) for d in ('build', 'private')) or output.exists():
-        raise ValueError('Use a fresh assembly output under build/ or private/')
+    if not is_local_output(output, root) or output.exists():
+        raise ValueError('Use a fresh assembly output under archive/, work/ or dist/')
     recipe_pin = pin(recipe_path.parent, recipe_path.name)
     recipe = json.loads(checked(recipe_path.parent, recipe_pin))
     validate_recipe(recipe)

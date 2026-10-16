@@ -36,9 +36,9 @@ def install_adapters(root=ROOT):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=('export', 'check'))
-    parser.add_argument('--base', type=Path, default=ROOT / 'build/reading-room-routed-july-complete/data')
-    parser.add_argument('--ledger', type=Path, default=ROOT / 'private/pdf-restoration/13-1984-08-closeout/export-ledger.json')
-    parser.add_argument('--data', type=Path, default=ROOT / 'build/reading-room-volunteer/data')
+    parser.add_argument('--base', type=Path, default=ROOT / 'dist/reading-room-routed-july-complete/data')
+    parser.add_argument('--ledger', type=Path, default=ROOT / 'archive/pdf/1984-08/restoration/13-1984-08-closeout/export-ledger.json')
+    parser.add_argument('--data', type=Path, default=ROOT / 'dist/reading-room/data')
     args = parser.parse_args()
     install_adapters()
     if args.action == 'export':

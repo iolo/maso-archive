@@ -1,5 +1,12 @@
 # TOC restoration plan
 
+Storage update, 2026-10-16: retain restoration/review evidence in
+`archive/toc/restoration/`, image derivatives in `archive/toc/images/`, and the
+current catalog in `archive/toc/current/`. Stable catalog metadata is in
+`metadata/`. Earlier “rebuildable” labels do not authorize discarding these copies.
+Only verified Git-derived TOC snapshots belong in `work/cache/toc-snapshots/`.
+Historical paths remain compatible; see [STORAGE.md](docs/STORAGE.md).
+
 Status: complete. Catalog records remain unchanged. See the implementation
 checkpoint and final completion audit below for verified results and limitations.
 

@@ -8,9 +8,9 @@ import io
 import json
 from pathlib import Path
 import re
-import shutil
 import subprocess
 import tempfile
+from tools.preserved_output import prepare_output, publish_tree
 
 from PIL import Image
 from tools.build_cd2_pilot import CSS, digest, marked_html, parse, put
@@ -19,7 +19,7 @@ from tools.map_cd1_topic import require
 from tools.map_cd2_candidates import SUMMARY as QUEUE_RECORD
 from tools.recover_cd1_text import json_bytes
 
-OUTPUT = ROOT / "build/cd2-reference"
+OUTPUT = ROOT / "archive/cd2/reference"
 ISSUES = tuple(f"94{month:02d}" for month in range(1, 13))
 
 
@@ -119,13 +119,15 @@ def check_html_links(stage):
                     f"Broken HTML link: {page.relative_to(stage)} -> {target}")
 
 
-def build_issue(issue, queue, probe_files, disc_files, rtf, resume=False, verify_existing=False):
+def build_issue(issue, queue, probe_files, disc_files, rtf, resume=False, verify_existing=False, output=None):
     require(issue in ISSUES, "Unknown CD-native group")
-    target = OUTPUT / "issues" / issue
+    require(not (resume and verify_existing), "Choose resume or verify-existing")
+    target = Path(output or OUTPUT).resolve() / "issues" / issue
     if resume and target.exists():
         manifest = verify_package(target)
         require(manifest["issue_group"] == issue, "Wrong resumable issue package")
         return manifest
+    target = prepare_output(target, verify_existing=verify_existing)
     candidates = [row for row in queue["candidates"] if row["issue_group"] == issue]
     candidates += [row for row in queue["additional_article_candidates"] if row["issue_group"] == issue]
     candidates.sort(key=lambda row: row["topic_ordinal"])
@@ -269,15 +271,11 @@ def build_issue(issue, queue, probe_files, disc_files, rtf, resume=False, verify
                     "media_occurrences": sum(row["media_occurrences"] for row in rows),
                     "files": file_manifest(stage)}
         put(stage, "manifest.json", json_bytes(manifest))
-        if target.exists():
-            if verify_existing:
-                require(verify_package(target) == manifest, f"Issue {issue} rebuild differs")
-            shutil.rmtree(target)
-        shutil.copytree(stage, target)
+        publish_tree(stage, target, verify_existing=verify_existing)
     return manifest
 
 
-def classify_supplements(queue, rtf, stage):
+def classify_supplements(queue, rtf, stage, *, write=put):
     records = []
     for topic in queue["unindexed_topics"]:
         if topic["title_footnotes"]:
@@ -299,15 +297,15 @@ def classify_supplements(queue, rtf, stage):
                 kind = "navigation_link_list"
             else:
                 kind = "untitled_topic"
-        put(stage, f"supplements/{ordinal}.txt", text)
+        write(stage, f"supplements/{ordinal}.txt", text)
         records.append({"ordinal": ordinal, "kind": kind, "context_aliases": aliases,
                         "source": span, "text_sha256": digest(text.encode()), "issues": issues})
     require(len(records) == 58, "Untitled topic classification incomplete")
-    put(stage, "supplements.json", json_bytes({"schema_version": 1, "topics": records}))
+    write(stage, "supplements.json", json_bytes({"schema_version": 1, "topics": records}))
     return records
 
 
-def export_unassigned_media(queue, probe_files, stage):
+def export_unassigned_media(queue, probe_files, stage, *, write=put):
     referenced = {item["name"] for row in queue["candidates"] + queue["additional_article_candidates"]
                   for item in row["media"]}
     all_media = {name for name in probe_files if name.lower().endswith((".dib", ".wmf", ".bmp"))}
@@ -316,10 +314,10 @@ def export_unassigned_media(queue, probe_files, stage):
     gallery = []
     for name in sorted(all_media - referenced):
         source = checked(PROBE / name, probe_files[name])
-        put(stage, f"unassigned-media/{name}", source)
+        write(stage, f"unassigned-media/{name}", source)
         preview, status, note = convert_media(source, name)
         if preview is not None:
-            put(stage, f"unassigned-media/{name}.png", preview)
+            write(stage, f"unassigned-media/{name}.png", preview)
             picture = f'<img src="{name}.png" alt="{name}" loading="lazy">'
         else:
             picture = '[preview unavailable]'
@@ -327,19 +325,22 @@ def export_unassigned_media(queue, probe_files, stage):
         records.append({"name": name, "status": status, "note": note,
                         "original_sha256": digest(source),
                         "preview_sha256": digest(preview) if preview is not None else None})
-    put(stage, "unassigned-media/index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD2 unassigned media</title><link rel="stylesheet" href="../style.css"><body><nav><a href="../index.html">CD2 reference</a></nav><h1>Unassigned decoder media</h1><p>These files have no article RTF image marker. Their original source identity is retained; article placement is unknown.</p><ol>' + "".join(gallery) + '</ol></body></html>\n')
-    put(stage, "unassigned-media.json", json_bytes({"schema_version": 1, "resources": records}))
+    write(stage, "unassigned-media/index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD2 unassigned media</title><link rel="stylesheet" href="../style.css"><body><nav><a href="../index.html">CD2 reference</a></nav><h1>Unassigned decoder media</h1><p>These files have no article RTF image marker. Their original source identity is retained; article placement is unknown.</p><ol>' + "".join(gallery) + '</ol></body></html>\n')
+    write(stage, "unassigned-media.json", json_bytes({"schema_version": 1, "resources": records}))
     return records
 
 
-def finalize(queue, rtf, probe_files):
+def finalize(queue, rtf, probe_files, *, output=None, verify_existing=False):
+    output = Path(output or OUTPUT).resolve()
+    def write(root, name, data):
+        put(root, name, data, verify_existing=verify_existing)
     reports = []
     all_articles = []
     media_statuses = Counter()
     media_records_total = 0
     media_occurrences_total = 0
     for issue in ISSUES:
-        package = OUTPUT / "issues" / issue
+        package = output / "issues" / issue
         manifest = verify_package(package)
         require(manifest["issue_group"] == issue, "Issue manifest group mismatch")
         articles = json.loads((package / "articles.json").read_bytes())["articles"]
@@ -366,9 +367,9 @@ def finalize(queue, rtf, probe_files):
     require(media_occurrences_total == sum(len(row["media"]) for row in queue["candidates"] +
                                            queue["additional_article_candidates"]),
             "CD2 media occurrence inventory differs")
-    stage = OUTPUT
-    supplements = classify_supplements(queue, rtf, stage)
-    unassigned_media = export_unassigned_media(queue, probe_files, stage)
+    stage = output
+    supplements = classify_supplements(queue, rtf, stage, write=write)
+    unassigned_media = export_unassigned_media(queue, probe_files, stage, write=write)
     outcomes = Counter(row["status"] for row in all_articles)
     coverage = {"schema_version": 1, "disc_id": "cd2", "scope": "private_cd2_reference",
                 "candidate_basis": queue["candidate_basis"], "candidate_count": len(expected),
@@ -380,11 +381,11 @@ def finalize(queue, rtf, probe_files):
                 "articles": all_articles, "untitled_topics": len(supplements),
                 "supplement_classes": dict(sorted(Counter(row["kind"] for row in supplements).items())),
                 "paper_review": "pending for all CD-derived text and media"}
-    put(stage, "coverage.json", json_bytes(coverage))
+    write(stage, "coverage.json", json_bytes(coverage))
     groups = [f'<li><a href="issues/{row["issue_group"]}/index.html">{row["issue_group"]}</a> · {row["candidates"]} candidates · {html.escape(str(row["outcomes"]))}</li>' for row in reports]
     page = '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD2 private reference</title><link rel="stylesheet" href="style.css"><body><h1>CD2 private reference</h1><p>CD-native groups and secondary transcription for paper review. Issue identities and text remain unverified against print.</p><p><a href="coverage.json">Coverage and remaining gaps</a> · <a href="supplements.json">Untitled topic classifications</a> · <a href="unassigned-media/index.html">Unassigned media</a></p><ol>' + "".join(groups) + '</ol></body></html>\n'
-    put(stage, "index.html", page)
-    put(stage, "style.css", CSS + "\n")
+    write(stage, "index.html", page)
+    write(stage, "style.css", CSS + "\n")
     check_html_links(stage)
     root_files = (["index.html", "style.css", "coverage.json", "supplements.json",
                    "unassigned-media.json", "unassigned-media/index.html"] +
@@ -395,7 +396,7 @@ def finalize(queue, rtf, probe_files):
                 "coverage_sha256": digest((stage / "coverage.json").read_bytes()),
                 "files": [{"path": name, "bytes": (stage / name).stat().st_size,
                            "sha256": digest((stage / name).read_bytes())} for name in root_files]}
-    put(stage, "manifest.json", json_bytes(manifest))
+    write(stage, "manifest.json", json_bytes(manifest))
     return coverage, manifest
 
 
@@ -405,20 +406,21 @@ def main():
     group.add_argument("--issue", choices=ISSUES)
     group.add_argument("--all", action="store_true")
     parser.add_argument("--resume", action="store_true")
-    parser.add_argument("--verify-existing", action="store_true")
+    parser.add_argument("--output", type=Path, default=OUTPUT, help="Choose a fresh retained destination for a new revision")
+    parser.add_argument("--verify-existing", action="store_true", help="Compare an existing result without modifying it")
     args = parser.parse_args()
     require(not (args.resume and args.verify_existing), "Choose resume or verify-existing")
     queue, probe_files, disc_files, rtf = load()
     if args.issue:
         manifest = build_issue(args.issue, queue, probe_files, disc_files, rtf,
-                               resume=args.resume, verify_existing=args.verify_existing)
+                               resume=args.resume, verify_existing=args.verify_existing, output=args.output)
         print(args.issue, manifest["candidates"], manifest["outcomes"], manifest["media_resources"])
     else:
         for issue in ISSUES:
             manifest = build_issue(issue, queue, probe_files, disc_files, rtf,
-                                   resume=args.resume, verify_existing=args.verify_existing)
+                                   resume=args.resume, verify_existing=args.verify_existing, output=args.output)
             print(issue, manifest["candidates"], manifest["outcomes"], manifest["media_resources"], flush=True)
-        coverage, _ = finalize(queue, rtf, probe_files)
+        coverage, _ = finalize(queue, rtf, probe_files, output=args.output, verify_existing=args.verify_existing)
         print("CD2 coverage", coverage["candidate_count"], coverage["outcomes"], coverage["supplement_classes"])
 
 

@@ -237,9 +237,9 @@ def stage(base, package_dir, output, covers=None, cover_checkpoint=None, thumbna
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--base', type=Path, default=Path('build/reading-room/data'))
-    parser.add_argument('--package', type=Path, default=Path('build/pdf-restoration/pilot'))
-    parser.add_argument('--output', type=Path, default=Path('build/reading-room-pdf-pilot/data'))
+    parser.add_argument('--base', type=Path, default=Path('dist/reading-room-cd/data'))
+    parser.add_argument('--package', type=Path, default=Path('archive/pdf/shared/packages/pilot'))
+    parser.add_argument('--output', type=Path, default=Path('dist/reading-room-pdf-pilot/data'))
     parser.add_argument('--covers', type=Path, help='Refresh using donated YYMM.jpg images')
     from .covers import DEFAULT_CHECKPOINT, DEFAULT_OUTPUT
     parser.add_argument('--pdf-cover-checkpoint', type=Path, help='Verified PDF checkpoint; defaults to the private checkpoint with --covers')

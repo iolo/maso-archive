@@ -1,16 +1,28 @@
 # CD3 private readable reference
 
-The private output is `build/cd3-reference/index.html`, a portable static
+The private output is `archive/cd3/reference/index.html`, a portable static
 HTML/text/image reference built from the supplied CD3 ISO and checksummed M14
 decoder probes. It is about 1.3 GB of files. Original media and recovered bodies
-remain under ignored `private/` and `build/` paths; the tracked
-`data/catalog/preservation/cd3-readable-reference.json` contains hashes and
+remain under ignored `archive/` paths; the tracked
+`metadata/catalog/preservation/cd3-readable-reference.json` contains hashes and
 counts, not article text. Serve it locally with
-`python3 -m http.server 4179 --directory build/cd3-reference` and open
+`python3 -m http.server 4179 --directory archive/cd3/reference` and open
 `http://127.0.0.1:4179/`. The pages use relative links and need no runtime
 extractor, application server, or database.
 
 ## Reproduce and verify
+
+Storage review, 2026-10-16: the completed reference remains preserved. The builder
+now refuses existing groups by default; use `--resume` to reuse verified groups,
+`--verify-existing` for comparison, or a fresh `--output` for a new revision.
+Verification never repairs or overwrites the preserved result.
+
+The extracted `masocd-3/` source directory is currently absent. Source checks
+and rebuilds require restoring it from its hash-verified ISO first; the assembled
+reference is still readable. The [storage review](STORAGE-REVIEW.md) verified all
+extraction hashes and the complete reference using temporary restored sources.
+Frozen inventory reruns may also require their original code revision; preserve
+their reviewed records and source pins.
 
 1. Prepare the two decoder probes using the pinned HELPDECO revision and commands
    in [the source map](CD3-SOURCE-MAP.md). The owner reports that disc setup
@@ -21,7 +33,8 @@ extractor, application server, or database.
 3. Run `make build-cd3-reference`. Its 18 CD-native groups build independently.
    `make build-cd3-reference CD3_ARGS=--resume` verifies and reuses completed
    group packages. `CD3_ARGS=--verify-existing` rebuilds all groups and requires
-   identical manifests; the completed pass met this check.
+   identical file bytes without replacing existing files; the completed pass met
+   the earlier reproducibility check.
 4. Run `make check-cd3-reference`. It checks 11,346 output files, all candidate
    identities and outcomes, source topic spans, text and code whitespace against
    ordered blocks, media and CAB bytes, auxiliary topics, unassigned media, and

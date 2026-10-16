@@ -1,5 +1,7 @@
 # OCR handoff
 
+Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
+
 Updated 2026-10-16. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
@@ -17,13 +19,13 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- August 1984 is complete at `build/pdf-restoration/13-1984-08-reference/issue.json`;
-  its report is `build/pdf-restoration/13-1984-08-closeout/report.json` and its
+- August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
+  its report is `archive/pdf/1984-08/evidence/13-1984-08-closeout/report.json` and its
   machine-readable [ledger](docs/ocr-experiments/ocr-august-progress.json) remains preserved.
 - September 1984 is complete under the canonical-TOC JSON/assets scope: 37
   readable, assistant sample-reviewed articles and six non-owning headings.
-  The [issue index](build/pdf-restoration/14-1984-09-reference/issue.json),
-  [closeout report](build/pdf-restoration/14-1984-09-closeout/report.json) and
+  The [issue index](archive/pdf/1984-09/reference/issue.json),
+  [closeout report](archive/pdf/1984-09/evidence/14-1984-09-closeout/report.json) and
   source-page ledger classify all 268 PDF pages. The information-radar body
   prose, many code panels and classifieds remain readable original images with
   volunteer transcription pending. The separate unlisted SPC-1000 joystick
@@ -31,7 +33,7 @@ paired OCR or a new engine comparison.
   next supplied eligible issue; eleven remain after September.
 - Existing August assemblies use pinned private boundary/review adapters.
   Instructions and pins are in
-  `private/pdf-restoration/13-1984-08-closeout/reproduction.json`.
+  `archive/pdf/1984-08/restoration/13-1984-08-closeout/reproduction.json`.
   Follow [PLAN-PDF.md](PLAN-PDF.md) for restoration scope. Deliver JSON/assets;
   rebuild the reading room only when explicitly requested.
 
@@ -115,6 +117,9 @@ specific unresolved decision and a bounded design; preserve the existing results
 
 Run from the repository root with `PYTHONPATH=.:src`. Use fresh destinations;
 private inputs and existing runtime/model fingerprints are required.
+Follow the [successive-issue workflow](docs/STORAGE.md#successive-restoration):
+new batch/revision directories are retained immediately, including unsuccessful
+attempts; do not derive new issue paths from the historical migration lookup.
 
 Reuse the pinned Tesseract runtime (OEM1/PSM6, one thread; `eng` for code and
 `kor+eng` for other text). Default rendering is 3000 pixels on the long edge;
@@ -126,12 +131,12 @@ part of an ordinary restoration checkpoint.
 ```sh
 # Normal mapped Tesseract OCR; the plan and page must already be reviewed.
 PYTHONPATH=.:src python3 -m tools.pdf_restore.ocr page \
-  --package private/path/map.json --pdf-page 30 \
-  --output private/path/new-ocr-page30 --mode regions
+  --package archive/pdf/YYYY-MM/restoration/batch-NN/map.json --pdf-page 30 \
+  --output archive/pdf/YYYY-MM/restoration/batch-NN/new-ocr-page30 --mode regions
 
 # Explicit Qwen assistance on reviewed maps; no automatic layout pass.
 PYTHONPATH=.:src python3 -m tools.ocr_qwen.mapped \
-  --request private/path/request.json --output private/path/new-qwen-ocr
+  --request archive/pdf/YYYY-MM/restoration/batch-NN/request.json --output archive/pdf/YYYY-MM/restoration/batch-NN/new-qwen-ocr
 # Add --resume only for unchanged inputs/settings/implementation.
 ```
 

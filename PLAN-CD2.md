@@ -1,5 +1,12 @@
 # CD2 extraction and private reference plan
 
+Storage update, 2026-10-16: retain `archive/cd2/reference/`,
+`archive/cd2/extraction/`, and the packages/evidence under `archive/cd2/`.
+Historical paths below remain compatible. Builders refuse existing results by
+default; use `--resume` for verified completed groups, `--verify-existing` for a
+comparison that leaves files unchanged, or a fresh `--output` for a revision.
+See [STORAGE.md](docs/STORAGE.md); completion never authorizes evidence cleanup.
+
 Aggregation follow-up (2026-09-26): the owner subsequently requested combining
 all completed disc plans in the reading room. CD2 is now included through the
 [version 2 adapter](docs/READING-ROOM.md), with native identities and date groups

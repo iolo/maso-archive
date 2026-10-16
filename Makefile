@@ -26,10 +26,10 @@ compare-tocs:
 prepare-toc-images:
 	PYTHONPATH=src $(PYTHON) -m tools.toc_restore prepare $(TOC_ARGS)
 
-PDF_RECIPE ?= private/pdf-restoration/pilot/package-recipe.json
-PDF_OUTPUT ?= build/pdf-restoration/pilot
-PDF_COMPARISON_RECIPE ?= private/pdf-restoration/7-cd-comparison/comparison-recipe.json
-PDF_COMPARISON_OUTPUT ?= build/pdf-restoration/7-cd-comparison
+PDF_RECIPE ?= archive/pdf/shared/restoration/pilot/package-recipe.json
+PDF_OUTPUT ?= archive/pdf/shared/packages/pilot
+PDF_COMPARISON_RECIPE ?= archive/pdf/shared/restoration/7-cd-comparison/comparison-recipe.json
+PDF_COMPARISON_OUTPUT ?= archive/pdf/shared/packages/7-cd-comparison
 
 .PHONY: inventory-pdf prepare-pdf-covers install-pdf-covers build-pdf-article check-pdf-article test-pdf
 inventory-pdf:
@@ -72,9 +72,9 @@ export-pdf-issue:
 export-pdf-issue-reader:
 	PYTHONPATH=src $(PYTHON) -m tools.reading_room.scan_issue $(PDF_ISSUE_ARGS)
 
-PDF_BATCH_STATE ?= private/pdf-restoration/10-batch/state
-PDF_BATCH_REQUEST ?= private/pdf-restoration/10-batch/request.json
-PDF_BATCH_OUTPUT ?= build/pdf-restoration/10-batch
+PDF_BATCH_STATE ?= archive/pdf/shared/restoration/10-batch/state
+PDF_BATCH_REQUEST ?= archive/pdf/shared/restoration/10-batch/request.json
+PDF_BATCH_OUTPUT ?= archive/pdf/shared/packages/10-batch
 .PHONY: prepare-pdf-batch resume-pdf-batch export-pdf-batch check-pdf-batch
 prepare-pdf-batch:
 	PYTHONPATH=src $(PYTHON) -m tools.pdf_restore.batch prepare --request $(PDF_BATCH_REQUEST) --state $(PDF_BATCH_STATE) $(PDF_BATCH_ARGS)
@@ -103,8 +103,9 @@ import-cd1-index:
 reading-room-example:
 	PYTHONPATH=src $(PYTHON) -m tools.build_reading_room_example
 
+# Adapt output locations without changing these historical, hash-pinned tools.
 reading-room-package:
-	PYTHONPATH=src $(PYTHON) -m tools.build_reading_room_package
+	PYTHONPATH=src $(PYTHON) -c 'from tools import build_reading_room_package as tool; from maso_archive.storage import canonical_path; tool.OUTPUT = canonical_path(tool.OUTPUT); raise SystemExit(tool.main())'
 
 check-second-article:
 	PYTHONPATH=src $(PYTHON) -m tools.check_cd1_second_article
@@ -152,7 +153,7 @@ batch-cd1:
 	PYTHONPATH=src $(PYTHON) -m tools.run_cd1_batch $(BATCH_ARGS)
 
 inventory-cd1-processing:
-	PYTHONPATH=src $(PYTHON) -m tools.inventory_cd1_processing
+	PYTHONPATH=src $(PYTHON) -c 'from tools import inventory_cd1_processing as tool; from maso_archive.storage import canonical_path; tool.OUTPUT = canonical_path(tool.OUTPUT); raise SystemExit(tool.main())'
 
 inventory-cd1-sources:
 	$(PYTHON) -m tools.inventory_cd1_sources
@@ -261,7 +262,7 @@ export-reading-room:
 
 demo-reading-room:
 	PYTHONPATH=src $(PYTHON) -m tools.reading_room.export --demo
-	cd web && READING_ROOM_OUTPUT=build/reading-room-demo npm run build
+	cd web && READING_ROOM_OUTPUT=dist/reading-room-demo npm run build
 
 build-reading-room:
 	cd web && npm run build
@@ -271,7 +272,7 @@ check-reading-room:
 
 test-reading-room:
 	PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -p 'test_reading_room*.py' -v
-	cd web && npm test && npm run build
+	cd web && npm test && npm run build -- --outDir ../work/validation/reading-room-ui
 
 .PHONY: inventory-cd2-sources map-cd2-candidates build-cd2-reference check-cd2-reference
 inventory-cd2-sources:
@@ -299,12 +300,12 @@ build-cd3-reference:
 check-cd3-reference:
 	$(PYTHON) -m tools.verify_cd3_reference
 
-# Unified, private volunteer release. Earlier reference builds remain untouched.
-VOLUNTEER_OUTPUT ?= build/reading-room-volunteer
+# Unified volunteer reader. Preserve release snapshots under archive/releases/.
+VOLUNTEER_OUTPUT ?= dist/reading-room
 VOLUNTEER_BASE ?= ./
 VOLUNTEER_PORT ?= 4189
-VOLUNTEER_INPUT ?= build/reading-room-routed-july-complete/data
-VOLUNTEER_LEDGER ?= private/pdf-restoration/13-1984-08-closeout/export-ledger.json
+VOLUNTEER_INPUT ?= dist/reading-room-routed-july-complete/data
+VOLUNTEER_LEDGER ?= archive/pdf/1984-08/restoration/13-1984-08-closeout/export-ledger.json
 .PHONY: export-volunteer-reading-room build-volunteer-reading-room check-volunteer-reading-room preview-volunteer-reading-room
 export-volunteer-reading-room:
 	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.volunteer export --base $(VOLUNTEER_INPUT) --ledger $(VOLUNTEER_LEDGER) --data $(VOLUNTEER_OUTPUT)/data
@@ -317,3 +318,14 @@ check-volunteer-reading-room:
 
 preview-volunteer-reading-room:
 	cd web && READING_ROOM_OUTPUT=$(VOLUNTEER_OUTPUT) READING_ROOM_BASE=$(VOLUNTEER_BASE) npm run preview -- --port $(VOLUNTEER_PORT) --strictPort
+
+# Keep historical recipe paths usable after restoring the local archive.
+.PHONY: init-storage check-storage restore-volunteer-reading-room
+init-storage:
+	$(PYTHON) -m tools.storage_layout compat
+
+check-storage:
+	$(PYTHON) -m tools.storage_layout verify
+
+restore-volunteer-reading-room:
+	$(PYTHON) -m tools.storage_layout restore-reader $(VOLUNTEER_OUTPUT)

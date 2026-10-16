@@ -5,6 +5,7 @@ import tempfile
 
 from .export import copy, digest, export, read, safe, text_for, write
 from tools.cd3_display import reading_run
+from maso_archive.storage import canonical_path
 
 
 def checked_reference(root, disc):
@@ -167,7 +168,7 @@ def add_disc(root, disc, output, catalog, search):
 
 def aggregate(cd1, toc, cd2, cd3, output, covers=None, cover_checkpoint=None, thumbnails=None,
               tocs=None, toc_images=None, toc_reviews=None):
-    output = Path(output)
+    output = canonical_path(output)
     from .covers import DEFAULT_OUTPUT, POLICY, separate
     separate(output, cover_checkpoint, thumbnails or DEFAULT_OUTPUT)
     roots = [Path(p).resolve() for p in (cd1, toc, cd2, cd3)]

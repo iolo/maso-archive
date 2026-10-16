@@ -7,16 +7,17 @@ import io
 import json
 from pathlib import Path
 import re
-import shutil
 import tempfile
+from tools.preserved_output import prepare_output, publish_tree
 
 from PIL import Image
 from tools.inventory_cd1_rtf import tokenize
 from tools.inventory_cd2_sources import PROBE, ROOT, RECORD, TREE
 from tools.map_cd1_topic import require
 from tools.recover_cd1_text import json_bytes
+from tools.preserved_output import put
 
-OUTPUT = ROOT / "build/cd2-reference-pilot"
+OUTPUT = ROOT / "archive/cd2/evidence/cd2-reference-pilot"
 TOPIC = "940116300"
 CSS = """body{font:17px/1.65 system-ui,sans-serif;max-width:72rem;margin:2rem auto;padding:0 1rem;color:#222}a{color:#1455a0}.note{color:#555}.gap{border-left:4px solid #a60;padding-left:1rem}p{white-space:pre-wrap;tab-size:8;overflow-wrap:anywhere}img{max-width:100%;height:auto}figure{margin:1.5rem 0}figcaption{color:#555}.small-caps{font-variant:small-caps}"""
 OBJECT = re.compile(rb"\\\{(?:bmc|ewl) ([^}]+)\\\}")
@@ -170,13 +171,9 @@ def parse(raw, base, *, skip=SKIP, cosmetic=COSMETIC,
     return paragraphs, issues, len(tokens)
 
 
-def put(root, name, data):
-    target = root / name
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_bytes(data.encode("utf-8") if isinstance(data, str) else data)
-
-
-def build(destination=OUTPUT, verify_existing=False):
+def build(destination=None, verify_existing=False):
+    destination = prepare_output(destination or OUTPUT, verify_existing=verify_existing)
+    destination.parent.mkdir(parents=True, exist_ok=True)
     record = json.loads(RECORD.read_bytes())
     detail_path = ROOT / record["private_detail"]["path"]
     detail_raw = detail_path.read_bytes()
@@ -249,22 +246,17 @@ def build(destination=OUTPUT, verify_existing=False):
                                                  "title": title, "paragraphs": len(paragraphs),
                                                  "issues": len(issues), "media_occurrences": len(resources),
                                                  "files": files}))
-        if destination.exists():
-            if verify_existing:
-                existing = json.loads((destination / "manifest.json").read_bytes())
-                require(existing == json.loads((stage / "manifest.json").read_bytes()), "Pilot rebuild differs")
-            shutil.rmtree(destination)
-        shutil.copytree(stage, destination)
+        publish_tree(stage, destination, verify_existing=verify_existing)
     return {"paragraphs": len(paragraphs), "issues": len(issues), "media": len(resources),
             "text_characters": len(text), "text_sha256": digest(text.encode())}
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--verify-existing", action="store_true")
+    parser.add_argument("--output", type=Path, default=OUTPUT, help="Choose a fresh retained destination for a new revision")
+    parser.add_argument("--verify-existing", action="store_true", help="Compare an existing result without modifying it")
     args = parser.parse_args()
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    print(build(verify_existing=args.verify_existing))
+    print(build(destination=args.output, verify_existing=args.verify_existing))
 
 
 if __name__ == "__main__":

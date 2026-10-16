@@ -22,7 +22,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[2]
 NAME = 'maso-archive-reading-room-volunteer'
 ORIGIN = f'https://{NAME}.iolo.workers.dev'
-TOKEN_FILE = ROOT / 'private/reading-room-deploy/share-token'
+TOKEN_FILE = ROOT / 'archive/operations/reading-room-deploy/share-token'
 WORKER_FILE = Path(__file__).with_name('cloudflare-worker.mjs')
 CACHE = 'private, no-store'
 
@@ -278,7 +278,7 @@ def verify_site(token, files):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', type=Path, default=ROOT / 'build/reading-room-volunteer')
+    parser.add_argument('--output', type=Path, default=ROOT / 'dist/reading-room')
     parser.add_argument('--apply', action='store_true', help='upload and publish; otherwise validate locally only')
     parser.add_argument('--worker-only', action='store_true', help='publish Worker only; require matching remote index and manifest')
     parser.add_argument('--rotate-link', action='store_true', help='generate a new share token; requires --apply')

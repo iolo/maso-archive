@@ -1,5 +1,12 @@
 # Cover restoration implementation plan
 
+Storage update, 2026-10-16: the completed operations below are historical.
+Retain `archive/covers/inventory/`, `archive/covers/derivatives/`, and
+`archive/covers/evidence/`, including transform records and cleanup evidence.
+Earlier “rebuildable” labels do not make these retained copies disposable.
+Keep donated originals in `covers/`; assembled readers belong in `dist/`.
+Follow [STORAGE.md](docs/STORAGE.md) before considering any future cleanup.
+
 Prepared 2026-09-30 from [PRD-covers.md](PRD-covers.md) and inspection of the
 existing reading-room exporter. Status: **implemented and validated 2026-09-30**.
 Includes the subsequent requirement that donated covers take priority over

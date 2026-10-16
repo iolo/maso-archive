@@ -11,7 +11,7 @@ from PIL import Image
 from tools.reading_room.export import ROOT, digest, read, safe
 from tools.reading_room.covers import date_label, separate
 
-PRIVATE = ROOT / 'private/toc-restoration'
+PRIVATE = ROOT / 'archive/toc/restoration'
 SOURCES = ROOT / 'tocs'
 NORMAL = re.compile(r'(\d{4})-(\d{2})\.jpg')
 

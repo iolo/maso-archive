@@ -15,7 +15,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     sub=parser.add_subparsers(dest='action',required=True)
     prep=sub.add_parser('prepare-trial',help='Adapt existing private three-page reviewed comparison')
-    prep.add_argument('--trial',type=Path,default=Path('private/pdf-restoration/ocr-comparison'))
+    prep.add_argument('--trial',type=Path,default=Path('archive/pdf/shared/restoration/ocr-comparison'))
     prep.add_argument('--output',type=Path,required=True)
     page=sub.add_parser('page',help='Detect layout and transcribe an upright/eligible raster image')
     source=page.add_mutually_exclusive_group(required=True)

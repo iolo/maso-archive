@@ -1,13 +1,26 @@
 # CD2 private readable reference
 
-The private output is `build/cd2-reference/index.html`. It is a portable static
+The private output is `archive/cd2/reference/index.html`. It is a portable static
 HTML/text/code/image reference built from the supplied CD2 ISO, extracted tree,
 and the checksummed M12 decoder probe. All recovered bodies and media remain
-under ignored `build/` and `private/` paths. The tracked metadata record is
-`data/catalog/preservation/cd2-readable-reference.json`; it contains hashes and
+under ignored `archive/` paths. The tracked metadata record is
+`metadata/catalog/preservation/cd2-readable-reference.json`; it contains hashes and
 counts, not article text.
 
 ## Reproduce and check
+
+Storage review, 2026-10-16: the completed reference remains preserved. The builder
+now refuses existing groups by default; use `--resume` to reuse verified groups,
+`--verify-existing` for comparison, or a fresh `--output` for a new revision.
+Verification never repairs or overwrites the preserved result.
+
+The extracted `masocd-2/` source directory is currently absent. Source checks
+and rebuilds require restoring it from its hash-verified ISO first; the
+assembled reference is still readable. The [storage review](STORAGE-REVIEW.md)
+verified all extraction hashes and the complete reference using temporary
+restored sources. Frozen inventory reruns may also require their original code
+revision; preserve their reviewed records and source pins.
+
 
 1. Prepare the private M12 decoder probe as described in
    [the source map](CD2-SOURCE-MAP.md). The pinned HELPDECO revision and command
@@ -17,7 +30,7 @@ counts, not article text.
 3. Run `make build-cd2-reference`. Each CD-native group is an independent
    resumable batch. Use `make build-cd2-reference CD2_ARGS=--resume` to verify
    and reuse completed groups, or `CD2_ARGS=--verify-existing` to rebuild all
-   groups and require byte-identical manifests.
+   groups and compare all file bytes without replacing existing files.
 4. Run `make check-cd2-reference`. It checks source and output hashes, all
    1,330 candidate identities and outcomes, article/media relationships, code
    listing bytes and whitespace, attachments, 58 supplemental topics, and every
@@ -26,7 +39,7 @@ counts, not article text.
 The reference is about 856 MiB on disk. It can be served by any local static
 server; the pages use relative links and need no runtime extraction, database,
 or application server. For local browsing, run
-`python3 -m http.server 4178 --directory build/cd2-reference`. The completed source references remain separate; the
+`python3 -m http.server 4178 --directory archive/cd2/reference`. The completed source references remain separate; the
 [reading room](READING-ROOM.md) now aggregates all three discs for browsing and search.
 
 ## Coverage
@@ -37,7 +50,7 @@ candidates. The 12 provisional CD-native groups contain all 1,330 candidates.
 Each has a readable article page, source-backed blocks, UTF-8 text where
 recovery succeeded, ordered media positions, attachment links, and an explicit
 outcome. The complete source queue, including both native index and RTF titles
-where they differ, is in the private `build/cd2-preservation/candidates.json`.
+where they differ, is in the private `archive/cd2/evidence/cd2-preservation/candidates.json`.
 
 | Result | Count | Meaning |
 | --- | ---: | --- |

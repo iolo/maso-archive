@@ -1,5 +1,7 @@
 # Deploy the volunteer reading room to Cloudflare
 
+Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
+
 This deploys the existing static export to the resources you prepared:
 
 - R2 bucket: `maso-archive-reading-room-volunteer`
@@ -51,10 +53,10 @@ See [R2 authentication](https://developers.cloudflare.com/r2/api/tokens/) and th
 Keep credentials outside tracked files. For example, create a local file:
 
 ```sh
-mkdir -p private/reading-room-deploy
-chmod 700 private/reading-room-deploy
-touch private/reading-room-deploy/credentials.env
-chmod 600 private/reading-room-deploy/credentials.env
+mkdir -p archive/operations/reading-room-deploy
+chmod 700 archive/operations/reading-room-deploy
+touch archive/operations/reading-room-deploy/credentials.env
+chmod 600 archive/operations/reading-room-deploy/credentials.env
 ```
 
 Edit that file in your editor, replacing these placeholders:
@@ -69,10 +71,10 @@ export R2_SECRET_ACCESS_KEY='your-r2-secret-access-key'
 Load it into the current terminal:
 
 ```sh
-. private/reading-room-deploy/credentials.env
+. archive/operations/reading-room-deploy/credentials.env
 ```
 
-`private/` is already Git-ignored. Credentials are never sent to visitors,
+`archive/` is Git-ignored. Credentials are never sent to visitors,
 embedded in the frontend, or stored as Worker bindings. Only the independently
 generated **share token** is installed as a Worker secret. Do not paste API keys
 into chat, commit them, or run the deployment with shell tracing (`set -x`).
@@ -134,7 +136,7 @@ After a successful deployment, obtain the link:
 
 This prints the real share URL. It is omitted from normal deployment logs.
 The random token is stored with mode `0600` in
-`private/reading-room-deploy/share-token` and is reused on later deployments.
+`archive/operations/reading-room-deploy/share-token` and is reused on later deployments.
 Back up that file privately if you want to deploy from another machine.
 
 The bare Worker address returning **404 is expected**. Open the complete share
@@ -148,7 +150,7 @@ different:
 
 ```sh
 .venv/bin/python tools/reading_room/deploy_cloudflare.py \
-  --output build/reading-room-volunteer-rebuild --apply
+  --output dist/reading-room-volunteer-rebuild --apply
 ```
 
 The upload is resumable: rerun the same command after an interruption. Files
@@ -183,9 +185,9 @@ generating another link. Recover by adopting that token and redeploying:
 
 ```sh
 # First preserve the previous token if the share-token file exists:
-cp private/reading-room-deploy/share-token private/reading-room-deploy/share-token.previous
+cp archive/operations/reading-room-deploy/share-token archive/operations/reading-room-deploy/share-token.previous
 # If this was the first deployment, skip the cp command above.
-mv private/reading-room-deploy/share-token.pending private/reading-room-deploy/share-token
+mv archive/operations/reading-room-deploy/share-token.pending archive/operations/reading-room-deploy/share-token
 .venv/bin/python tools/reading_room/deploy_cloudflare.py --apply --worker-only
 ```
 

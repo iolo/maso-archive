@@ -1,5 +1,8 @@
 # TOC restoration
 
+Storage and retention follow [STORAGE.md](docs/STORAGE.md); dated implementation
+paths and cleanup milestones are interpreted through the current plan.
+
 ## INPUT
 - new high quality cover images in `tocs` directory
 

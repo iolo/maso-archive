@@ -1,5 +1,12 @@
 # CD1 extraction and reading-room content plan
 
+Storage update, 2026-10-16: retain the reference at `archive/cd1/reference/`,
+extraction at `archive/cd1/extraction/`, and packages/evidence under `archive/cd1/`.
+Catalog records now live in `metadata/`. Historical paths below remain compatible.
+Use [STORAGE.md](docs/STORAGE.md) for retention and recovery; completed extraction
+and its provenance remain preserved. Historical hash-pinned CD1 entry points
+need their documented Make adapters or the original code/layout for exact reruns.
+
 Wrap-up 2026-09-26: this extraction plan and the subsequent CD2, CD3 and combined
 reading-room implementation are complete. See the [current handoff](docs/SUCCESSOR-NOTES.md)
 for delivered coverage and deferred work. Earlier checkpoint scopes below remain
@@ -7,7 +14,7 @@ historical records and do not reopen extraction or UI implementation.
 
 Revised 2026-09-25. **Step 20 is complete: the usable CD1 text/code/image
 reference is ready** for reading and paper/OCR comparison. Open
-`build/cd1-reference/index.html` locally. Cosmetic formatting is not an acceptance
+`archive/cd1/reference/index.html` locally. Cosmetic formatting is not an acceptance
 gate. This document records the handoff and retained backlog.
 The separate [reading-room PRD](PRD-reading-room.md)
 owns the viewer's UI and application architecture. The previous broad archive

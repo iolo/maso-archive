@@ -3,6 +3,7 @@
 Both arms consume identical PNG bytes. Failed Qwen output stays verbatim and is
 marked failed; it is never silently replaced by the other engine or an answer.
 """
+from tools.storage_layout import is_local_output
 import argparse
 from contextlib import nullcontext
 from datetime import datetime, timezone
@@ -34,7 +35,7 @@ def read(path):
 
 def freeze(shared):
     shared = Path(shared).resolve()
-    if not shared.is_relative_to(ROOT / 'private'):
+    if not is_local_output(shared, ROOT):
         raise ValueError('Paired inputs must remain private')
     package = validate_package(read(shared / 'map.json'))
     if package['mapping']['status'] != 'mapped':
@@ -88,7 +89,7 @@ def run(shared, engine, output):
     if engine not in ('qwen', 'tesseract'):
         raise ValueError('Choose one pure OCR engine')
     shared, output = Path(shared).resolve(), Path(output).resolve()
-    if not output.is_relative_to(ROOT / 'private'):
+    if not is_local_output(output, ROOT):
         raise ValueError('Raw paired outputs must remain private')
     with run_lock(output):
         output.mkdir(parents=True, exist_ok=False)

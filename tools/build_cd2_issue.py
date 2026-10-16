@@ -6,8 +6,8 @@ import html
 import io
 import json
 from pathlib import Path
-import shutil
 import tempfile
+from tools.preserved_output import prepare_output, publish_tree
 
 from PIL import Image
 from tools.build_cd2_pilot import CSS, digest, marked_html, parse, put
@@ -16,7 +16,7 @@ from tools.map_cd1_topic import require
 from tools.map_cd2_candidates import SUMMARY as CANDIDATE_RECORD
 from tools.recover_cd1_text import json_bytes
 
-OUTPUT = ROOT / "build/cd2-issue-9401"
+OUTPUT = ROOT / "archive/cd2/evidence/cd2-issue-9401"
 CASES = ("940116300", "940121800")
 
 
@@ -92,7 +92,8 @@ def render_article(root, row, rtf, disc_files, probe_files):
             "text_sha256": digest(text.encode())}
 
 
-def build(verify_existing=False):
+def build(verify_existing=False, output=None):
+    destination = prepare_output(output or OUTPUT, verify_existing=verify_existing)
     reviewed = json.loads(RECORD.read_bytes())
     source_raw = checked(ROOT / reviewed["private_detail"]["path"], reviewed["private_detail"])
     source = json.loads(source_raw)
@@ -108,8 +109,8 @@ def build(verify_existing=False):
     require(len(rows) == 91 and len(extra) == 2, "9401 candidate population changed")
     selected = {row["reference"]: row for row in rows if row["reference"] in CASES}
     require(set(selected) == set(CASES), "Pilot cases missing")
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix=".cd2-issue-", dir=OUTPUT.parent) as temporary:
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix=".cd2-issue-", dir=destination.parent) as temporary:
         stage = Path(temporary)
         articles = [render_article(stage, selected[ref], rtf, disc_files, probe_files) for ref in CASES]
         available = {row["reference"] for row in articles}
@@ -136,20 +137,16 @@ def build(verify_existing=False):
         manifest = {"schema_version": 1, "issue_group": "9401", "candidates": len(all_rows),
                     "outcomes": {"success": 2, "pending": 91}, "articles": articles, "files": files}
         put(stage, "manifest.json", json_bytes(manifest))
-        if OUTPUT.exists():
-            if verify_existing:
-                require(json.loads((OUTPUT / "manifest.json").read_bytes()) == manifest,
-                        "Issue rebuild differs")
-            shutil.rmtree(OUTPUT)
-        shutil.copytree(stage, OUTPUT)
+        publish_tree(stage, destination, verify_existing=verify_existing)
     return manifest
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--verify-existing", action="store_true")
+    parser.add_argument("--output", type=Path, default=OUTPUT, help="Choose a fresh retained destination for a new revision")
+    parser.add_argument("--verify-existing", action="store_true", help="Compare an existing result without modifying it")
     args = parser.parse_args()
-    result = build(args.verify_existing)
+    result = build(args.verify_existing, output=args.output)
     print(result["issue_group"], result["candidates"], result["outcomes"], result["articles"])
 
 

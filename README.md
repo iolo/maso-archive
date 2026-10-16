@@ -13,6 +13,21 @@ Mapped Tesseract is the default; Qwen is opt-in assistance for difficult prose o
 code, with explicit layout and coverage review. The handoff links consolidated
 findings, metrics, commands and preserved [experiment history](docs/history/README.md).
 
+## What to keep
+
+| Directory | Purpose | Preserve? |
+| --- | --- | --- |
+| `metadata/` | Tracked IDs, catalog records, decisions and provenance | Yes; commit to Git |
+| `archive/` | Completed restorations, ongoing work, corrections, recipes, raw OCR, evidence and toolchains | Yes; back up separately |
+| `work/` | Verified reproducible caches and temporary processing | Disposable after the task finishes |
+| `dist/` | Assembled reading rooms | Replaceable from preserved inputs or release snapshots |
+
+Keep original PDFs, ISOs, extracted source files, donated covers and TOCs too.
+A completed article does **not** make its restoration evidence disposable.
+`data`, `private`, `build` and `output` are compatibility links for older recipes.
+Use the canonical directories above for new work. See [storage and recovery](docs/STORAGE.md)
+for the issue layout, retention rules and reader restore command.
+
 ## Read the archive
 
 The unified volunteer reader includes **all seven restored PDF issues**
@@ -21,7 +36,7 @@ three CDs**: 257 PDF article records plus 3,386 CD records. March's
 missing-source partial and the eight unresolved CD1 records remain visible.
 
 ```sh
-python3 -m http.server 4189 --bind 127.0.0.1 --directory build/reading-room-volunteer
+python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room
 ```
 
 Open [the volunteer reading room](http://127.0.0.1:4189/#/review).
@@ -31,9 +46,9 @@ OCR. **검토 메모** autosaves feedback locally; download the JSON and pass it
 the coordinator. Nothing is submitted automatically or marked officially accepted.
 Browser data is specific to the host/port and should be exported before clearing it.
 
-The prepared static app is `build/reading-room-volunteer/`. It uses relative
+The prepared static app is `dist/reading-room/`. It uses relative
 asset and data URLs and works with ordinary static servers, including Python's
-`http.server` and `npx serve build/reading-room-volunteer -l 4189`; Vite is only
+`http.server` and `npx serve dist/reading-room -l 4189`; Vite is only
 needed to build it. Rebuild the UI with
 `make build-volunteer-reading-room`; validate its data with
 `make check-volunteer-reading-room`. Reproduction, the pinned August adapters,
@@ -50,7 +65,7 @@ npm run preview
 ```
 
 Open the local address printed by Vite. The static site is in
-`build/reading-room/`; it needs HTTP hosting for JSON requests, with no backend,
+`dist/reading-room-cd/`; it needs HTTP hosting for JSON requests, with no backend,
 database or runtime extraction. It is not a direct `file://` application.
 
 To regenerate it from the completed private references, use Python 3.11+ with
@@ -64,8 +79,8 @@ make build-reading-room
 cd web && npm run preview
 ```
 
-The export requires `build/cd1-reference/`, `build/cd2-reference/`,
-`build/cd3-reference/`, the pinned `build/toc/` snapshot and CD1 reviewed issue
+The export requires `archive/cd1/reference/`, `archive/cd2/reference/`,
+`archive/cd3/reference/`, the pinned `archive/toc/current/` snapshot and CD1 reviewed issue
 packages. It verifies the inputs and stages a checked replacement before
 updating the reader. A Git checkout alone does not contain publisher sources or
 finished private outputs. See the [reading-room guide](docs/READING-ROOM.md) for
@@ -76,7 +91,7 @@ Without private inputs:
 ```sh
 cd web && npm ci && cd ..
 make demo-reading-room
-cd web && READING_ROOM_OUTPUT=build/reading-room-demo npm run preview
+cd web && READING_ROOM_OUTPUT=dist/reading-room-demo npm run preview
 ```
 
 Donated covers go in private `covers/` as `YYMM.jpg` (for example `8311.jpg`).
@@ -113,9 +128,9 @@ All three standalone references remain available:
 
 | Reference | Private entry point | Reproduction and coverage |
 | --- | --- | --- |
-| CD1 | `build/cd1-reference/index.html` | [CD1 guide](docs/CD1-READABLE-REFERENCE.md) |
-| CD2 | `build/cd2-reference/index.html` | [CD2 guide](docs/CD2-READABLE-REFERENCE.md) |
-| CD3 | `build/cd3-reference/index.html` | [CD3 guide](docs/CD3-READABLE-REFERENCE.md) |
+| CD1 | `archive/cd1/reference/index.html` | [CD1 guide](docs/CD1-READABLE-REFERENCE.md) |
+| CD2 | `archive/cd2/reference/index.html` | [CD2 guide](docs/CD2-READABLE-REFERENCE.md) |
+| CD3 | `archive/cd3/reference/index.html` | [CD3 guide](docs/CD3-READABLE-REFERENCE.md) |
 
 The reading room includes all three discs. Its CD2/CD3 source links also expose
 supplemental texts, biographies and unassigned-media shelves, outside the article
@@ -142,15 +157,18 @@ ISOs, decoder probes, recovered bodies/assets, generated sites and browser
 artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate JSON/assets campaign. November 1983 and February,
-March, May, June, July and August 1984 are complete; twelve supplied eligible
-issues remain. March retains one missing-source terminal partial; no April PDF
+March, May, June, July, August and September 1984 are complete; eleven supplied
+eligible issues remain. March retains one missing-source terminal partial; no April PDF
 was supplied. August accounts for all 43 TOC entries: 37 readable, assistant
 sample-reviewed articles and six non-owning headings. Its standalone index is
-`build/pdf-restoration/13-1984-08-reference/issue.json`; the report is
-`build/pdf-restoration/13-1984-08-closeout/report.json`. Source/correction ranges,
+`archive/pdf/1984-08/reference/issue.json`; the report is
+`archive/pdf/1984-08/evidence/13-1984-08-closeout/report.json`. Source/correction ranges,
 asset integrity and a byte-identical issue rebuild pass. Human acceptance/full
-proofreading and historical code execution remain unverified. September 1984 is
-next and has not started. All seven completed issues are integrated in the volunteer reader above.
+proofreading and historical code execution remain unverified. September is also
+complete at `archive/pdf/1984-09/reference/issue.json` (37 readable articles and
+six headings); October 1984 is next. The volunteer reader includes the seven
+completed issues through August. September remains a standalone JSON/assets
+package; reader integration requires a separate request.
 See the [PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md)
 and the short [successor handoff](docs/SUCCESSOR-NOTES.md).
 

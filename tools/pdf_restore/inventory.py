@@ -1,4 +1,5 @@
 """Inventory PDF metadata and preserve the complete provisional TOC queue."""
+from tools.storage_layout import is_local_output
 import argparse
 from collections import Counter
 import hashlib
@@ -111,9 +112,9 @@ def queue_for(sources, entries, candidates):
 
 def inventory(root=ROOT, output=None):
     root = Path(root).resolve()
-    output = Path(output or root / 'private/pdf-restoration/inventory').resolve()
-    if not output.is_relative_to(root / 'private') and not output.is_relative_to(root / 'build'):
-        raise ValueError('Generated evidence must live under private/ or build/')
+    output = Path(output or root / 'archive/pdf/shared/restoration/inventory').resolve()
+    if not is_local_output(output, root):
+        raise ValueError('Generated evidence must live under archive/, work/ or dist/')
     if output.exists():
         raise ValueError(f'Output already exists; use a separate --output to verify reproducibility: {output}')
     paths = sorted((root / 'maso-pdf').glob('*.pdf'))

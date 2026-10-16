@@ -17,6 +17,7 @@ OUTPUT = ROOT / 'build/cd1-oem-sample'
 def safe_output(output):
     output=symbol_arrow_pipeline.safe_output(output)
     for old in (symbol_arrow_pipeline.OUTPUT, ROOT/'build/cd1-symbol-pass', codec_review.OUTPUT):
+        old = old.resolve()
         require(not output.is_relative_to(old) and not old.is_relative_to(output), 'OEM retry overlaps historical evidence')
     return output
 

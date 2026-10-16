@@ -2,6 +2,7 @@
 import json
 import os
 from pathlib import Path
+from maso_archive.storage import canonical_path
 import tempfile
 import uuid
 
@@ -27,7 +28,7 @@ def write(path, raw):
 
 
 def verify(root, fingerprint):
-    root = Path(root)
+    root = canonical_path(root)
     require(not root.is_symlink(), 'Symlink stage root')
     manifest = json.loads((root / 'checkpoint.json').read_bytes())
     require(manifest['fingerprint'] == fingerprint, 'Stale checkpoint')

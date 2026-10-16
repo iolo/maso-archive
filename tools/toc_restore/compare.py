@@ -16,7 +16,7 @@ def normalized(text):
 
 def compare(index_path=PRIVATE / 'ocr-index.json', source=ROOT / 'TOC.md',
             output=PRIVATE / 'reports', reviews_path=PRIVATE / 'reviews.json',
-            catalog=ROOT / 'build/toc'):
+            catalog=ROOT / 'archive/toc/current'):
     source = Path(source)
     source_hash = digest(source)
     raw = source.read_text(encoding='utf-8')

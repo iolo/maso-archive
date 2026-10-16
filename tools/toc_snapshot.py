@@ -1,7 +1,7 @@
 """Explicit historical TOC inputs for the two CD1 witnesses and coverage audit.
 
 Logical paths in their original provenance keep their original meanings/hashes.
-Current imports always use build/toc; historical readers use this separate cache.
+Current imports use archive/toc/current; historical readers use this separate cache.
 """
 
 import argparse
@@ -17,7 +17,7 @@ from maso_archive.toc import run_import
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_SHA = "7d4386d31559383e8ddf14ca60dcaa3464aef52cf4d3ac50ca5a993ab422e34e"
-RECORD = f"data/catalog/toc-snapshots/{SOURCE_SHA}.json"
+RECORD = f"metadata/catalog/toc-snapshots/{SOURCE_SHA}.json"
 
 
 class Snapshot:
@@ -28,7 +28,7 @@ class Snapshot:
         if (len(source_sha) != 64 or any(c not in '0123456789abcdef' for c in source_sha) or
                 self.record['import_manifest']['source']['sha256'] != source_sha):
             raise ValueError("Unexpected historical TOC source")
-        self.directory = self.root / "build/toc-snapshots" / source_sha
+        self.directory = self.root / "work/cache/toc-snapshots" / source_sha
         self.files = {r["path"]: r for r in self.record["files"]}
         if len(self.files) != len(self.record["files"]):
             raise ValueError("Duplicate snapshot paths")

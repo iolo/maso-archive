@@ -5,7 +5,7 @@ import path from 'node:path'
 import fs from 'node:fs'
 
 const project = path.resolve(import.meta.dirname, '..')
-const output = process.env.READING_ROOM_OUTPUT ? path.resolve(project, process.env.READING_ROOM_OUTPUT) : path.join(project, 'build/reading-room')
+const output = process.env.READING_ROOM_OUTPUT ? path.resolve(project, process.env.READING_ROOM_OUTPUT) : path.join(project, 'dist/reading-room-cd')
 const base = process.env.READING_ROOM_BASE || '/'
 
 export default defineConfig({

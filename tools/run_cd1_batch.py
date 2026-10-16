@@ -3,6 +3,7 @@
 Examples: --issue 1988-02; --article 8802030; --all. Full-disc execution follows
 PLAN-CD1 13c validation. Output never changes the original reviewed packages.
 """
+from tools.storage_layout import is_local_output
 import argparse
 from copy import deepcopy
 import json
@@ -70,7 +71,7 @@ def isolate(jobs, process):
 class Runner:
     def __init__(self, output=OUTPUT):
         self.output = Path(output).resolve()
-        require(self.output.is_relative_to(ROOT / 'build') or self.output.is_relative_to(Path('/tmp')), 'Output must be private build/ or /tmp')
+        require(is_local_output(self.output, ROOT) or self.output.is_relative_to(Path('/tmp')), 'Output must be private build/ or /tmp')
         self.data, manifest = queue.load_inventory(queue.OUTPUT)
         # Do not trust a checksum-valid queue if its source files changed afterwards.
         for record in manifest['inputs'].values():
@@ -414,7 +415,7 @@ def main():
         if args.write_record:
             require(args.issue == '1988-02' and all(j['status'] == 'prepared' for j in report['jobs']) and
                     len(report['jobs']) == 6 and report['issues']['maso-1988-02']['status'] == 'prepared', 'Record requires successful full February scope')
-            require(runner.output.is_relative_to(ROOT / 'build'), 'Tracked record requires repo-private output')
+            require(is_local_output(runner.output, ROOT), 'Tracked record requires repo-private output')
             record = {k: v for k, v in report.items() if k != 'events'}
             record.update(checkpoint='13b', output_root=runner.output.relative_to(ROOT).as_posix(),
                           baseline_record=runner.profiles['baseline_record'], baseline_equivalence='article_JSON_and_Markdown_byte_exact; media_records_and_assets_unchanged',

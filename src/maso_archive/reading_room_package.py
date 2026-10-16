@@ -8,6 +8,8 @@ import xml.etree.ElementTree as ET
 
 from jsonschema import Draft202012Validator
 
+from .storage import canonical_path
+
 from .reading_room import SCHEMA_PATH, require, validate_bundle, validate_manifest
 
 
@@ -16,13 +18,15 @@ def file_record(path, raw):
 
 
 def checked_file(root, record):
-    """Read only regular files below the package root, never symlink targets."""
+    """Read regular files, permitting only registered repository storage aliases."""
     relative = record["path"]
     require(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*(/[A-Za-z0-9][A-Za-z0-9._-]*)*", relative),
             f"Unsafe package path: {relative!r}")
-    path = Path(root)
+    path = canonical_path(root)
     require(path.is_dir() and not path.is_symlink(), "Package root must be a real directory")
-    for segment in relative.split("/"):
+    # Hash records retain their original logical paths after the migration.
+    relative_path = canonical_path(path / relative).relative_to(path)
+    for segment in relative_path.parts:
         path = path / segment
         require(not path.is_symlink(), f"Symlink in package: {relative}")
     require(path.is_file(), f"Missing package file: {relative}")

@@ -1,8 +1,10 @@
 # Reading room
 
+Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
+
 ## Unified volunteer reading room — October 14, 2026
 
-The current combined release is `build/reading-room-volunteer/`.
+The current combined release is `dist/reading-room/`.
 For inexpensive hosting through a secret share URL, see
 [Deploy to Cloudflare R2 and Workers](DEPLOY-READING-ROOM.md).
 It contains every completed PDF restoration and the CD1/CD2/CD3 collection:
@@ -26,7 +28,7 @@ unavailable states remain visible. No new PDF restoration or human acceptance
 is implied by this integration.
 
 ```sh
-python3 -m http.server 4189 --bind 127.0.0.1 --directory build/reading-room-volunteer
+python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room
 ```
 
 Open <http://127.0.0.1:4189/#/review>. The cover shelf remains at
@@ -56,7 +58,14 @@ or clearing browser storage. The app does not import review files.
 
 ### Reproduce and validate
 
-The prepared July combined reader and final August closeout inputs are required.
+To recover the prepared reader after removing `dist/reading-room`, run
+`make restore-volunteer-reading-room`. It copies the retained release and verifies
+every file hash. An existing destination is refused; use
+`VOLUNTEER_OUTPUT=dist/reading-room-restored` to restore alongside it.
+
+The historical export below requires the prepared July combined reader and final
+August closeout inputs. The July intermediate was already absent at the storage
+migration; the preserved release provides recovery without that intermediate.
 The export uses the original staging checker and preserves all prior reader
 files except the catalog/search/manifest and newly integrated issue indexes.
 August requires the same four private validation adapters used in its standalone
@@ -75,10 +84,10 @@ make preview-volunteer-reading-room
 To reproduce while preserving an existing release, use a fresh output consistently:
 
 ```sh
-make export-volunteer-reading-room VOLUNTEER_OUTPUT=build/reading-room-volunteer-rebuild
-make check-volunteer-reading-room VOLUNTEER_OUTPUT=build/reading-room-volunteer-rebuild
-make build-volunteer-reading-room VOLUNTEER_OUTPUT=build/reading-room-volunteer-rebuild
-make preview-volunteer-reading-room VOLUNTEER_OUTPUT=build/reading-room-volunteer-rebuild VOLUNTEER_PORT=4190
+make export-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild
+make check-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild
+make build-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild
+make preview-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild VOLUNTEER_PORT=4190
 ```
 
 `VOLUNTEER_BASE` defaults to `./`, so the generated asset and data URLs resolve
@@ -88,9 +97,9 @@ URL rewrites, or SPA fallback is required; navigation uses hash routes.
 For example, from the repository root:
 
 ```sh
-python3 -m http.server 4189 --bind 127.0.0.1 --directory build/reading-room-volunteer
+python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room
 # Alternatively:
-npx serve build/reading-room-volunteer -l 4189
+npx serve dist/reading-room -l 4189
 ```
 
 Both serve the reader at `http://localhost:4189/#/review`. Vite's
@@ -119,7 +128,7 @@ checks covered August scan images/corrections, note persistence after reload,
 separate article/region notes, individual and full JSON exports, all three CD
 source filters, empty search, pagination, CD text downloads, dark mode, and
 320px/390px mobile layouts. Temporary QA notes were removed from the test browser.
-Private screenshots and the inventory summary are in `output/playwright/`.
+Private screenshots and the inventory summary are in `archive/evidence/playwright/`.
 Data manifest SHA-256:
 `67519c29b0b31108510677374314728fcd777e775190b5c1991b871dacb6e60b`.
 
@@ -138,16 +147,16 @@ region with its scan. Original OCR, correction notes and uncertainties remain
 available. Copy a region URL when reporting a correction. This is a read-only
 preview; opening an article does not approve it.
 
-The fresh output is `build/reading-room-routed-july-complete`, staged with
-`tools.reading_room.scan_issue` from `build/reading-room-qwen-june-complete/data`
-and `private/pdf-restoration/12-1984-07-comparison/whole-issue-ledger.json`.
+The fresh output is `dist/reading-room-routed-july-complete`, staged with
+`tools.reading_room.scan_issue` from `dist/reading-room-qwen-june-complete/data`
+and `archive/pdf/1984-07/restoration/12-1984-07-comparison/whole-issue-ledger.json`.
 It preserves all 184 earlier scan articles and the CD collection, for 220 scan
 articles total. The data manifest SHA-256 is
 `b5b05a2968da1bc75b6c88622d284d55a7bd49b4e3ffce2d295d4e341c05357c`.
 
 ```sh
 cd web
-READING_ROOM_OUTPUT=build/reading-room-routed-july-complete READING_ROOM_BASE=/archive/ npm run preview -- --port 4188 --strictPort
+READING_ROOM_OUTPUT=dist/reading-room-routed-july-complete READING_ROOM_BASE=/archive/ npm run preview -- --port 4188 --strictPort
 ```
 
 Full dataset integrity, prior-file preservation, TOC accounting and production
@@ -187,13 +196,13 @@ To restart the complete build:
 
 ```sh
 cd web
-READING_ROOM_OUTPUT=build/reading-room-qwen-june-complete READING_ROOM_BASE=/archive/ npm run preview -- --port 4187 --strictPort
+READING_ROOM_OUTPUT=dist/reading-room-qwen-june-complete READING_ROOM_BASE=/archive/ npm run preview -- --port 4187 --strictPort
 ```
 
 The final staging uses `tools.reading_room.scan_issue` with the private
-`private/pdf-restoration/12-1984-06-qwen/whole-issue-ledger.json`, starting from
-`build/reading-room-restored/data` in a fresh output. The checked result is
-`private/pdf-restoration/12-1984-06-qwen/reader-complete-result.json`.
+`archive/pdf/1984-06/restoration/12-1984-06-qwen/whole-issue-ledger.json`, starting from
+`dist/reading-room-restored/data` in a fresh output. The checked result is
+`archive/pdf/1984-06/restoration/12-1984-06-qwen/reader-complete-result.json`.
 Complete data manifest SHA-256:
 `551f16c995adf82bbd366e69167e022bf3363b98199e60e60439e3788fef8b7a`.
 Use a fresh output for any further staging; each package and ledger is pinned.
@@ -209,7 +218,7 @@ human-pending notices and retained source ambiguities. No frontend code changed.
 
 ## Review completed PDF issues
 
-`build/reading-room-restored/` combines the original CD collection with all
+`dist/reading-room-restored/` combines the original CD collection with all
 four completed PDF issues: November 1983 (35 articles), February 1984 (37),
 March 1984 (38) and May 1984 (36). The 146 scan-derived articles retain their
 original text, code, figures, region evidence and independent review states.
@@ -218,7 +227,7 @@ absent. The other 145 scan-derived articles are readable; all are sample-reviewe
 
 ```sh
 cd web
-READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm run preview -- --port 4184 --strictPort
+READING_ROOM_OUTPUT=dist/reading-room-restored READING_ROOM_BASE=/archive/ npm run preview -- --port 4184 --strictPort
 ```
 
 Open `http://127.0.0.1:4184/archive/`. Issue routes are
@@ -232,10 +241,10 @@ To reproduce from the existing validated February reader and completed ledgers,
 use fresh output directories (the exporter refuses existing data outputs):
 
 ```sh
-PYTHONPATH=.:src python3 -m tools.reading_room.scan_issue --base build/reading-room-pdf-february/data --ledger private/pdf-restoration/12-1984-03/issue-progress.json --output build/reading-room-restored-march/data
-PYTHONPATH=.:src python3 -m tools.reading_room.scan_issue --base build/reading-room-restored-march/data --ledger private/pdf-restoration/12-1984-05/issue-progress.json --output build/reading-room-restored/data
+PYTHONPATH=.:src python3 -m tools.reading_room.scan_issue --base dist/reading-room-pdf-february/data --ledger archive/pdf/1984-03/restoration/12-1984-03/issue-progress.json --output dist/reading-room-restored-march/data
+PYTHONPATH=.:src python3 -m tools.reading_room.scan_issue --base dist/reading-room-restored-march/data --ledger archive/pdf/1984-05/restoration/12-1984-05/issue-progress.json --output dist/reading-room-restored/data
 cd web
-READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm run build
+READING_ROOM_OUTPUT=dist/reading-room-restored READING_ROOM_BASE=/archive/ npm run build
 ```
 
 The exporter validates both complete datasets and preserves existing CD and
@@ -264,8 +273,8 @@ are not a claim of 152 distinct printed issues.
 
 ## Build the local archive
 
-From the repository root, with the private `build/cd1-reference/`,
-`build/cd2-reference/`, `build/cd3-reference/`, `build/toc/`, and CD1 reviewed
+From the repository root, with the private `archive/cd1/reference/`,
+`archive/cd2/reference/`, `archive/cd3/reference/`, `archive/toc/current/`, and CD1 reviewed
 issue packages present:
 
 ```sh
@@ -277,34 +286,34 @@ cd web && npm run preview
 ```
 
 Open the local preview address shown by Vite. The complete static site is in
-`build/reading-room/`: `index.html`, hashed frontend assets and the prebuilt
+`dist/reading-room-cd/`: `index.html`, hashed frontend assets and the prebuilt
 `data/` tree. It needs ordinary static file hosting, with no application server
 or API. A direct `file://` browser opening is not supported by the SPA because
 browsers restrict local JSON fetches. The older
-`build/cd1-reference/index.html` remains the direct-file reader.
+`archive/cd1/reference/index.html` remains the direct-file reader.
 
 The export refuses a TOC snapshot that does not match the completed reference's
 input hashes, and verifies CD2/CD3 file inventories and hashes before copying.
 It builds and checks a staging tree before replacing reading-room data, so
 missing or changed inputs leave the previous data usable. It does not change
 the references, extraction records or publisher sources.
-The generated data and source assets stay under ignored `build/` and
+The generated reader data and source assets stay under ignored `dist/` and
 must be handled as private content. A checkout without those folders can still
 build and test the synthetic demo:
 
 ```sh
 cd web && npm ci && cd ..
 make demo-reading-room
-cd web && READING_ROOM_OUTPUT=build/reading-room-demo npm run preview
+cd web && READING_ROOM_OUTPUT=dist/reading-room-demo npm run preview
 ```
 
 The demo deliberately uses invented article titles, code and a simple SVG. Its
 prepared, recovered, gap, blocked and unmatched cases exercise the same reader.
-It lives under `build/reading-room-demo/`, separate from the real archive.
+It lives under `dist/reading-room-demo/`, separate from the real archive.
 
 For development, run `npm run dev` in `web/` after exporting data. Vite serves
 the selected build data through its local development middleware. Set
-`READING_ROOM_OUTPUT=build/reading-room-demo` to develop against the demo.
+`READING_ROOM_OUTPUT=dist/reading-room-demo` to develop against the demo.
 
 ## Add or replace cover images
 
@@ -317,7 +326,7 @@ covers/9509.jpg  → September 1995
 ```
 
 `YY` means `19YY`; months must be 01–12. Exports select donated images first,
-then verified front-cover candidates from `private/pdf-restoration/covers/`,
+then verified front-cover candidates from `archive/pdf/shared/restoration/covers/`,
 then the existing placeholder. PDF eligibility requires the pinned review,
 visible date, and candidate hash; `masoYYMM.*` filenames alone are ignored.
 PDF preparation and visual review remain a separate workflow. A corrupt donation
@@ -329,8 +338,8 @@ within 480 × 640 pixels, preserving proportions without cropping or upscaling.
 EXIF orientation is applied, embedded color profiles are converted to sRGB,
 and source metadata is stripped. Donated originals stay unchanged and must
 never be committed or served. Private manifests and rebuildable thumbnails
-live under ignored `build/cover-thumbnails/`; only derivatives are copied into
-`build/reading-room/data/covers/`. Content-sensitive filenames change when source
+live under ignored `archive/covers/derivatives/`; only derivatives are copied into
+`dist/reading-room-cd/data/covers/`. Content-sensitive filenames change when source
 bytes or transform settings change.
 
 After adding, replacing or removing a donation:
@@ -367,7 +376,7 @@ checks remain available without that option.
 After reader checks and browser inspection pass, retire paired legacy JPEGs:
 
 ```sh
-make cleanup-legacy-covers                    # Writes build/cover-cleanup.json; no deletion.
+make cleanup-legacy-covers                    # Writes archive/covers/evidence/cover-cleanup.json; no deletion.
 make cleanup-legacy-covers COVER_ARGS=--apply  # Applies the existing report after revalidation.
 ```
 
@@ -376,7 +385,7 @@ thumbnail hashes, and a validated reader using the donation for matching dates.
 A date outside the reader catalog may use its validated prepared thumbnail.
 Changed files or validation evidence invalidate the report. Reapplying the same
 report is safe; completed deletions are logged in ignored
-`build/cover-cleanup.<report-hash>.applied.json`. Unpaired legacy JPEGs, legacy
+`archive/covers/evidence/cover-cleanup.<report-hash>.applied.json`. Unpaired legacy JPEGs, legacy
 `.png`, `.jpeg` and `.webp` variants, donated originals, PDF candidates and review records are
 preserved. Ordinary preparation, export and checking never delete source files.
 
@@ -394,7 +403,7 @@ cd web
 READING_ROOM_BASE=/archive/ npm run build
 ```
 
-Deploy the **contents** of `build/reading-room/` at `/archive/` (or choose a
+Deploy the **contents** of `dist/reading-room-cd/` at `/archive/` (or choose a
 different `READING_ROOM_OUTPUT` directory). The data URL is resolved against
 that base. Hash routes (`#/issues/...`, `#/articles/...`) work on static hosts
 without a route rewrite. Downloads and images use package-relative data URLs.
@@ -417,10 +426,10 @@ The manifest pins all three input manifests and inventories every output file,
 including the complete copied CD2/CD3 references under `data/source/`.
 
 A separate [version 3 scan pilot](READING-ROOM-STATIC-V3.md) is staged under
-`build/reading-room-pdf-pilot/data`, retaining the complete CD baseline. The
+`dist/reading-room-pdf-pilot/data`, retaining the complete CD baseline. The
 loader accepts version 3. The scan-specific UI described in
 [PDF restoration](PDF-RESTORATION.md) passes desktop/mobile checks in
-`build/reading-room-pdf-ui/`, including scan evidence, review states and extracted
+`dist/reading-room-pdf-ui/`, including scan evidence, review states and extracted
 covers. The production aggregate above remains unchanged.
 
 CD2 retains 220 success and 1,110 partial outcomes; CD3 retains 792 success and
@@ -447,13 +456,13 @@ The cover contribution depends on the supplied dates; inspect the current manife
 for exact file and cover counts.
 
 For the earlier CD1-only export, run
-`PYTHONPATH=src python3 -m tools.reading_room.export --output build/reading-room-cd1/data`.
+`PYTHONPATH=src python3 -m tools.reading_room.export --output dist/reading-room-cd1/data`.
 The default `make export-reading-room` aggregates all discs; custom paths can
 be passed with `READING_ROOM_ARGS`. The historical strict package schema is
 unchanged.
 
 For CD1, the adapter projects the existing `catalog.json`, per-article `reference.json`,
-text/listing files and media from `build/cd1-reference/`. It reads the pinned TOC
+text/listing files and media from `archive/cd1/reference/`. It reads the pinned TOC
 snapshot or an explicitly validated owner correction migration, plus reviewed
 links from existing issue packages. The adapter replays migration decisions and
 preserves historical article records; it does not rewrite their source hashes.
@@ -510,7 +519,7 @@ remain in place. Other historical outputs with unresolved dependencies were
 kept. This was a conservative cleanup, not a claim that every remaining build
 is necessary to serve the site.
 
-The private cleanup record is `private/build-cleanup/2026-10-14/report.json`.
+The private cleanup record is `archive/migrations/build-cleanup/2026-10-14/report.json`.
 It lists every removed directory, byte totals, retained-file hashes and snapshot
 hashes. All 886,430 removed regular files were hashed; unique bytes were copied
 and checked, and identical retained copies were verified before deletion.
@@ -520,7 +529,7 @@ The archive (unique files plus indexes and logs) occupies about **246 MiB**.
 To restore one historical preview at its original path:
 
 ```sh
-python3 private/build-cleanup/2026-10-14/cleanup.py restore reading-room-qwen-june-through-car
+python3 -m tools.storage_layout restore-retired reading-room-qwen-june-through-car
 ```
 
 Restoration refuses an existing destination or changed source bytes. It requires

@@ -109,7 +109,7 @@ class QwenOCRTests(unittest.TestCase):
                 validate_manifest(manifest)
 
     def test_public_output_rejected(self):
-        with self.assertRaisesRegex(ValueError,'private/'):
+        with self.assertRaisesRegex(ValueError,'archive/'):
             fresh_output('/tmp/qwen-public-output')
 
     def test_package_input_masks_exclusions_before_padding_or_detection(self):

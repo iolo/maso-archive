@@ -77,7 +77,7 @@ class SymbolPolicyTests(unittest.TestCase):
                 with self.assertRaises(ValueError): retry.safe_output(p)
         for p in (ROOT/'build', Path('/tmp/symbol-output')):
             with self.assertRaises(ValueError): retry.safe_output(p)
-        self.assertEqual(retry.safe_output(retry.OUTPUT), retry.OUTPUT)
+        self.assertEqual(retry.safe_output(retry.OUTPUT), retry.OUTPUT.resolve())
 
 
 class SymbolArtifacts(unittest.TestCase):

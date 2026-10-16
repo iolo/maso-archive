@@ -176,9 +176,17 @@ def verify():
         require((OUTPUT / "unassigned-media" / item["name"]).read_bytes() == original,
                 "Unassigned media original differs")
     check_links(OUTPUT)
+    manifest_path = OUTPUT / "manifest.json"
+    logical_path = manifest_path.relative_to(ROOT).as_posix()
+    if RECORD.exists():
+        # Keep the reviewed record's logical path while checking that its
+        # compatibility alias still identifies this exact physical manifest.
+        logical_path = json.loads(RECORD.read_bytes())["output_manifest"]["path"]
+        require((ROOT / logical_path).resolve() == manifest_path.resolve(),
+                "Reviewed CD3 manifest location differs")
     result = {"schema_version": 1, "disc_id": "cd3", "scope": "private_readable_reference",
               "source_queue_sha256": queue_hash,
-              "output_manifest": {"path": str((OUTPUT / "manifest.json").relative_to(ROOT)),
+              "output_manifest": {"path": logical_path,
                                   "sha256": digest((OUTPUT / "manifest.json").read_bytes())},
               "counts": {"article_candidates": len(rows), "groups": len(groups),
                          "success": catalog["outcomes"].get("success", 0),

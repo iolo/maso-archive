@@ -1,5 +1,30 @@
 # Local PDF restoration
 
+## Current storage locations (2026-10-16)
+
+Use [STORAGE.md](STORAGE.md#successive-restoration) and `PLAN-OCR.md` for new
+checkpoints. The numbered implementation history below retains its original
+commands and recorded paths, which remain available through compatibility links.
+Current defaults are:
+
+| Input or result | Location |
+| --- | --- |
+| Source inventory | `archive/pdf/shared/restoration/inventory/` |
+| Pinned OCR runtime | `archive/toolchains/ocr/` |
+| Raw OCR batch cache | `archive/pdf/shared/restoration/batch-cache/` (preserve) |
+| Cover checkpoint | `archive/pdf/shared/restoration/covers/` |
+| New maps, corrections, OCR state and attempts | `archive/pdf/YYYY-MM/restoration/batch-NN/` |
+| Checked article/batch exports | Fresh directories under `archive/pdf/YYYY-MM/packages/` |
+| Issue package / comparison evidence | `archive/pdf/YYYY-MM/reference/` / `evidence/` |
+
+The active inventory/runtime readers prefer canonical paths; old unmigrated
+checkouts remain supported. Frozen state that pins an earlier implementation
+still needs that exact implementation. Do not weaken its checks or remove old
+attempts to resume it. Issue completion never makes raw OCR or corrections
+expendable. This storage update authorizes no reader rebuild or cleanup.
+
+Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths below remain available through compatibility links.
+
 For current OCR policy and where to resume, read the short
 [OCR handoff](../PLAN-OCR.md). This document is a tooling reference; numbered pilot
 steps and old checkpoint records do not require repeating completed experiments.

@@ -1,5 +1,8 @@
 # cover restoration
 
+Storage and retention follow [STORAGE.md](docs/STORAGE.md); dated implementation
+paths and cleanup milestones are interpreted through the current plan.
+
 ## INPUT
   - new high quality cover images (`covers/YYMM.jpg`)
   - (ignore) old low quality cover images(`covers/masoYYMM.jpg`)

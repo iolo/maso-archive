@@ -21,7 +21,7 @@ from tools.recover_cd1_text import json_bytes
 
 ISO = ROOT / "masocd-2.iso"
 TREE = ROOT / "masocd-2"
-PROBE = ROOT / "private/cd2-probe/raw"
+PROBE = ROOT / "archive/cd2/extraction/raw"
 OUTPUT = ROOT / "build/cd2-preservation/inventory.json"
 RECORD = ROOT / "data/catalog/preservation/cd2-inventory.json"
 EXPECTED_ISO = {"bytes": 197738496, "sha256": "fc7b3047b2c6cc2555500faf43dc0b73ff877c2f5b01acdb32041615d2f31a0e"}

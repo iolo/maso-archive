@@ -87,7 +87,7 @@ class FontDeclarationPolicyTests(unittest.TestCase):
                 with self.assertRaises(ValueError): retry.safe_output(path)
         for path in (ROOT, ROOT / 'build', Path('/tmp/declaration-output')):
             with self.assertRaises(ValueError): retry.safe_output(path)
-        self.assertEqual(retry.safe_output(retry.OUTPUT), retry.OUTPUT)
+        self.assertEqual(retry.safe_output(retry.OUTPUT), retry.OUTPUT.resolve())
 
 
 class FontDeclarationArtifacts(unittest.TestCase):

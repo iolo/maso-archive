@@ -1,0 +1,4832 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "source_git_commit": "7f4cd97387df08dd706d53c4353e108e4ecaa67b",
+  "policy": "Retained bytes and logical paths in historical evidence are unchanged. Old root names are compatibility links; use canonical destinations for new work.",
+  "moves": [
+    {
+      "from": "data",
+      "to": "metadata"
+    },
+    {
+      "from": "private/PRD-reading-room-next.md",
+      "to": "archive/plans/PRD-reading-room-next.md"
+    },
+    {
+      "from": "private/build-cleanup",
+      "to": "archive/migrations/build-cleanup"
+    },
+    {
+      "from": "private/cd1-probe",
+      "to": "archive/cd1/extraction"
+    },
+    {
+      "from": "private/cd2-probe",
+      "to": "archive/cd2/extraction"
+    },
+    {
+      "from": "private/cd3-probe",
+      "to": "archive/cd3/extraction"
+    },
+    {
+      "from": "private/cover-inventory",
+      "to": "archive/covers/inventory"
+    },
+    {
+      "from": "private/documentation-ocr-consolidation",
+      "to": "archive/migrations/documentation-ocr-consolidation"
+    },
+    {
+      "from": "private/documentation-pdf-progress-reorganization",
+      "to": "archive/migrations/documentation-pdf-progress-reorganization"
+    },
+    {
+      "from": "private/ocr-qwen3-vl",
+      "to": "archive/experiments/ocr-qwen3-vl"
+    },
+    {
+      "from": "private/pdf-restoration/10-batch",
+      "to": "archive/pdf/shared/restoration/10-batch"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-01",
+      "to": "archive/pdf/1983-11/restoration/11-batch-01"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-02",
+      "to": "archive/pdf/1983-11/restoration/11-batch-02"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-03",
+      "to": "archive/pdf/1983-11/restoration/11-batch-03"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-04",
+      "to": "archive/pdf/1983-11/restoration/11-batch-04"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-05",
+      "to": "archive/pdf/1983-11/restoration/11-batch-05"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-06",
+      "to": "archive/pdf/1983-11/restoration/11-batch-06"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-07",
+      "to": "archive/pdf/1983-11/restoration/11-batch-07"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-08",
+      "to": "archive/pdf/1983-11/restoration/11-batch-08"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-09",
+      "to": "archive/pdf/1983-11/restoration/11-batch-09"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-10",
+      "to": "archive/pdf/1983-11/restoration/11-batch-10"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-11",
+      "to": "archive/pdf/1983-11/restoration/11-batch-11"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-12",
+      "to": "archive/pdf/1983-11/restoration/11-batch-12"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-13",
+      "to": "archive/pdf/1983-11/restoration/11-batch-13"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-14",
+      "to": "archive/pdf/1983-11/restoration/11-batch-14"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-15",
+      "to": "archive/pdf/1983-11/restoration/11-batch-15"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-16",
+      "to": "archive/pdf/1983-11/restoration/11-batch-16"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-17",
+      "to": "archive/pdf/1983-11/restoration/11-batch-17"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-18",
+      "to": "archive/pdf/1983-11/restoration/11-batch-18"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-19",
+      "to": "archive/pdf/1983-11/restoration/11-batch-19"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-20",
+      "to": "archive/pdf/1983-11/restoration/11-batch-20"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-21",
+      "to": "archive/pdf/1983-11/restoration/11-batch-21"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-22",
+      "to": "archive/pdf/1983-11/restoration/11-batch-22"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-23",
+      "to": "archive/pdf/1983-11/restoration/11-batch-23"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-24",
+      "to": "archive/pdf/1983-11/restoration/11-batch-24"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-25",
+      "to": "archive/pdf/1983-11/restoration/11-batch-25"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-26",
+      "to": "archive/pdf/1983-11/restoration/11-batch-26"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-27",
+      "to": "archive/pdf/1983-11/restoration/11-batch-27"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-28",
+      "to": "archive/pdf/1983-11/restoration/11-batch-28"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-29",
+      "to": "archive/pdf/1983-11/restoration/11-batch-29"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-30",
+      "to": "archive/pdf/1983-11/restoration/11-batch-30"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-31",
+      "to": "archive/pdf/1983-11/restoration/11-batch-31"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-32",
+      "to": "archive/pdf/1983-11/restoration/11-batch-32"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-33",
+      "to": "archive/pdf/1983-11/restoration/11-batch-33"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-34",
+      "to": "archive/pdf/1983-11/restoration/11-batch-34"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-35",
+      "to": "archive/pdf/1983-11/restoration/11-batch-35"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-36",
+      "to": "archive/pdf/1983-11/restoration/11-batch-36"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-37",
+      "to": "archive/pdf/1983-11/restoration/11-batch-37"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-38",
+      "to": "archive/pdf/1983-11/restoration/11-batch-38"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-39",
+      "to": "archive/pdf/1983-11/restoration/11-batch-39"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-40",
+      "to": "archive/pdf/1983-11/restoration/11-batch-40"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-41",
+      "to": "archive/pdf/1983-11/restoration/11-batch-41"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-42",
+      "to": "archive/pdf/1983-11/restoration/11-batch-42"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-43",
+      "to": "archive/pdf/1983-11/restoration/11-batch-43"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-44",
+      "to": "archive/pdf/1983-11/restoration/11-batch-44"
+    },
+    {
+      "from": "private/pdf-restoration/11-batch-45",
+      "to": "archive/pdf/1983-11/restoration/11-batch-45"
+    },
+    {
+      "from": "private/pdf-restoration/11-closeout",
+      "to": "archive/pdf/1983-11/restoration/11-closeout"
+    },
+    {
+      "from": "private/pdf-restoration/11-editor-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-editor-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-feature-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-feature-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-generator-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-generator-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-graphic-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-graphic-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-ieee488-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-ieee488-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-library-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-library-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-mailing-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-mailing-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-november",
+      "to": "archive/pdf/1983-11/restoration/11-november"
+    },
+    {
+      "from": "private/pdf-restoration/11-orientation-repair",
+      "to": "archive/pdf/1983-11/restoration/11-orientation-repair"
+    },
+    {
+      "from": "private/pdf-restoration/11-radar-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-radar-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-robot-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-robot-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-submarine-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-submarine-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/11-unix-assemble",
+      "to": "archive/pdf/1983-11/restoration/11-unix-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-accounting-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-accounting-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-01",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-01"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-02",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-02"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-03",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-03"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-04",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-04"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-05",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-05"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-06",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-06"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-07",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-07"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-08",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-08"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-09",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-09"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-10",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-10"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-11",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-11"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-12",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-12"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-13",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-13"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-14",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-14"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-15",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-15"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-16",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-16"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-17",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-17"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-18",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-18"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-19",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-19"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-20",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-20"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-21",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-21"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-22",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-22"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-23",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-23"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-24",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-24"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-25",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-25"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-26",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-26"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-27",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-27"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-28",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-28"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-29",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-29"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-30",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-30"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-31",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-31"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-32",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-32"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-33",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-33"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-34",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-34"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-35",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-35"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-36",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-36"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-37",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-37"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-38",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-38"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-39",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-39"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-40",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-40"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-41",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-41"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-42",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-42"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-43",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-43"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-44",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-44"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-45",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-45"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-batch-46",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-batch-46"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-classify-headings",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-classify-headings"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-closeout",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-closeout"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-converter-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-converter-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-dictionary-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-dictionary-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-feature-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-feature-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-hangul-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-hangul-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-loader-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-loader-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-microtext-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-microtext-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-news-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-news-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-reference",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-reference"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-systems-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-systems-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-02-unix-assemble",
+      "to": "archive/pdf/1984-02/restoration/12-1984-02-unix-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-01",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-01"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-02",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-02"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-03",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-03"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-04",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-04"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-05",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-05"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-06",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-06"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-07",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-07"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-08",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-08"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-09",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-09"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-10",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-10"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-11",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-11"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-12",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-12"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-13",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-13"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-14",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-14"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-15",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-15"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-16",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-16"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-17",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-17"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-18",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-18"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-19",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-19"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-20",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-20"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-21",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-21"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-22",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-22"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-23",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-23"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-24",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-24"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-25",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-25"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-26",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-26"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-27",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-27"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-28",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-28"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-29",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-29"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-30",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-30"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-31",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-31"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-32",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-32"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-33",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-33"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-34",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-34"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-35",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-35"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-36",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-36"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-37",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-37"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-38",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-38"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-39",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-39"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-40",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-40"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-41",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-41"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-42",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-42"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-43",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-43"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-batch-44",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-batch-44"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-closeout",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-closeout"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-03-feature-assembly",
+      "to": "archive/pdf/1984-03/restoration/12-1984-03-feature-assembly"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-accounting-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-accounting-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-ai-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-ai-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-appendix-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-appendix-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-appendix-source-adapter",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-appendix-source-adapter"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-basictech-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-basictech-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-01",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-01"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-02",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-02"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-03",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-03"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-04",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-04"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-05",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-05"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-06",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-06"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-07",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-07"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-08",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-08"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-09",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-09"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-10",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-10"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-11",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-11"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-12",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-12"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-13",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-13"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-14",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-14"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-15",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-15"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-16",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-16"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-17",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-17"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-18",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-18"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-19",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-19"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-20",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-20"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-21",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-21"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-22",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-22"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-23",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-23"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-24",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-24"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-25",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-25"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-26",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-26"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-27",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-27"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-28",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-28"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-29",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-29"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-30",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-30"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-31",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-31"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-32",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-32"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-33",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-33"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-34",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-34"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-35",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-35"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-36",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-36"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-37",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-37"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-38",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-38"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-39",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-39"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-40",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-40"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-41",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-41"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-42",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-42"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-batch-43",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-batch-43"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-cat-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-cat-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-cat-reference-adapter",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-cat-reference-adapter"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-closeout",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-closeout"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-database-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-database-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-feature-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-feature-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-fishing-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-fishing-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-fugitive-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-fugitive-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-happy-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-happy-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-happy-reference-adapter",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-happy-reference-adapter"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-logo-adapter",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-logo-adapter"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-logo-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-logo-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-machine-adapter",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-machine-adapter"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-machine-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-machine-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-medical-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-medical-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-radar-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-radar-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-radar-news-adapter",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-radar-news-adapter"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-terminal-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-terminal-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-terminal-table-adapter",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-terminal-table-adapter"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-unix-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-unix-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-05-visicalc-assemble",
+      "to": "archive/pdf/1984-05/restoration/12-1984-05-visicalc-assemble"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-06-qwen",
+      "to": "archive/pdf/1984-06/restoration/12-1984-06-qwen"
+    },
+    {
+      "from": "private/pdf-restoration/12-1984-07-comparison",
+      "to": "archive/pdf/1984-07/restoration/12-1984-07-comparison"
+    },
+    {
+      "from": "private/pdf-restoration/12-catalog-reconcile",
+      "to": "archive/pdf/shared/restoration/12-catalog-reconcile"
+    },
+    {
+      "from": "private/pdf-restoration/13-1984-08-adaptive",
+      "to": "archive/pdf/1984-08/restoration/13-1984-08-adaptive"
+    },
+    {
+      "from": "private/pdf-restoration/13-1984-08-closeout",
+      "to": "archive/pdf/1984-08/restoration/13-1984-08-closeout"
+    },
+    {
+      "from": "private/pdf-restoration/13-1984-08-cost-pilot",
+      "to": "archive/pdf/1984-08/restoration/13-1984-08-cost-pilot"
+    },
+    {
+      "from": "private/pdf-restoration/14-1984-09",
+      "to": "archive/pdf/1984-09/restoration/14-1984-09"
+    },
+    {
+      "from": "private/pdf-restoration/14-1984-09-closeout",
+      "to": "archive/pdf/1984-09/restoration/14-1984-09-closeout"
+    },
+    {
+      "from": "private/pdf-restoration/6a-matchsticks",
+      "to": "archive/pdf/shared/restoration/6a-matchsticks"
+    },
+    {
+      "from": "private/pdf-restoration/6b-turbo-pascal",
+      "to": "archive/pdf/shared/restoration/6b-turbo-pascal"
+    },
+    {
+      "from": "private/pdf-restoration/6c-basic-column",
+      "to": "archive/pdf/shared/restoration/6c-basic-column"
+    },
+    {
+      "from": "private/pdf-restoration/7-cd-comparison",
+      "to": "archive/pdf/shared/restoration/7-cd-comparison"
+    },
+    {
+      "from": "private/pdf-restoration/8-reader-adapter",
+      "to": "archive/pdf/shared/restoration/8-reader-adapter"
+    },
+    {
+      "from": "private/pdf-restoration/9-reader-ui",
+      "to": "archive/pdf/shared/restoration/9-reader-ui"
+    },
+    {
+      "from": "private/pdf-restoration/batch-cache",
+      "to": "archive/pdf/shared/restoration/batch-cache"
+    },
+    {
+      "from": "private/pdf-restoration/cost-audit-2026-10-01",
+      "to": "archive/pdf/shared/restoration/cost-audit-2026-10-01"
+    },
+    {
+      "from": "private/pdf-restoration/cost-audit-2026-10-02",
+      "to": "archive/pdf/shared/restoration/cost-audit-2026-10-02"
+    },
+    {
+      "from": "private/pdf-restoration/covers",
+      "to": "archive/pdf/shared/restoration/covers"
+    },
+    {
+      "from": "private/pdf-restoration/data-only-checkpoint",
+      "to": "archive/pdf/shared/restoration/data-only-checkpoint"
+    },
+    {
+      "from": "private/pdf-restoration/inventory",
+      "to": "archive/pdf/shared/restoration/inventory"
+    },
+    {
+      "from": "private/pdf-restoration/inventory-2026-10-01",
+      "to": "archive/pdf/shared/restoration/inventory-2026-10-01"
+    },
+    {
+      "from": "private/pdf-restoration/inventory-repeat",
+      "to": "archive/pdf/shared/restoration/inventory-repeat"
+    },
+    {
+      "from": "private/pdf-restoration/ocr-comparison",
+      "to": "archive/pdf/shared/restoration/ocr-comparison"
+    },
+    {
+      "from": "private/pdf-restoration/ocr-runtime",
+      "to": "archive/toolchains/ocr"
+    },
+    {
+      "from": "private/pdf-restoration/pilot",
+      "to": "archive/pdf/shared/restoration/pilot"
+    },
+    {
+      "from": "private/preservation",
+      "to": "archive/preservation"
+    },
+    {
+      "from": "private/reading-room-deploy",
+      "to": "archive/operations/reading-room-deploy"
+    },
+    {
+      "from": "private/reading-room-restored-review-2026-10-08",
+      "to": "archive/evidence/reading-room-restored-review-2026-10-08"
+    },
+    {
+      "from": "private/toc-restoration",
+      "to": "archive/toc/restoration"
+    },
+    {
+      "from": "build/cd1-article-probe",
+      "to": "archive/cd1/evidence/cd1-article-probe"
+    },
+    {
+      "from": "build/cd1-articles",
+      "to": "archive/cd1/packages/cd1-articles"
+    },
+    {
+      "from": "build/cd1-association-pass",
+      "to": "archive/cd1/evidence/cd1-association-pass"
+    },
+    {
+      "from": "build/cd1-association-sample",
+      "to": "archive/cd1/evidence/cd1-association-sample"
+    },
+    {
+      "from": "build/cd1-associations",
+      "to": "archive/cd1/evidence/cd1-associations"
+    },
+    {
+      "from": "build/cd1-batch",
+      "to": "archive/cd1/evidence/cd1-batch"
+    },
+    {
+      "from": "build/cd1-blocks",
+      "to": "archive/cd1/evidence/cd1-blocks"
+    },
+    {
+      "from": "build/cd1-browser-check",
+      "to": "archive/cd1/evidence/cd1-browser-check"
+    },
+    {
+      "from": "build/cd1-codec-review",
+      "to": "archive/cd1/evidence/cd1-codec-review"
+    },
+    {
+      "from": "build/cd1-font-declaration-pass",
+      "to": "archive/cd1/evidence/cd1-font-declaration-pass"
+    },
+    {
+      "from": "build/cd1-font-declaration-review",
+      "to": "archive/cd1/evidence/cd1-font-declaration-review"
+    },
+    {
+      "from": "build/cd1-font-declaration-sample",
+      "to": "archive/cd1/evidence/cd1-font-declaration-sample"
+    },
+    {
+      "from": "build/cd1-font-pass",
+      "to": "archive/cd1/evidence/cd1-font-pass"
+    },
+    {
+      "from": "build/cd1-font-review",
+      "to": "archive/cd1/evidence/cd1-font-review"
+    },
+    {
+      "from": "build/cd1-font-sample",
+      "to": "archive/cd1/evidence/cd1-font-sample"
+    },
+    {
+      "from": "build/cd1-image-probe",
+      "to": "archive/cd1/evidence/cd1-image-probe"
+    },
+    {
+      "from": "build/cd1-images",
+      "to": "archive/cd1/evidence/cd1-images"
+    },
+    {
+      "from": "build/cd1-index",
+      "to": "archive/cd1/evidence/cd1-index"
+    },
+    {
+      "from": "build/cd1-issues",
+      "to": "archive/cd1/packages/cd1-issues"
+    },
+    {
+      "from": "build/cd1-markdown",
+      "to": "archive/cd1/evidence/cd1-markdown"
+    },
+    {
+      "from": "build/cd1-oem-pass",
+      "to": "archive/cd1/evidence/cd1-oem-pass"
+    },
+    {
+      "from": "build/cd1-oem-sample",
+      "to": "archive/cd1/evidence/cd1-oem-sample"
+    },
+    {
+      "from": "build/cd1-ordinary-font-pass",
+      "to": "archive/cd1/evidence/cd1-ordinary-font-pass"
+    },
+    {
+      "from": "build/cd1-ordinary-font-review",
+      "to": "archive/cd1/evidence/cd1-ordinary-font-review"
+    },
+    {
+      "from": "build/cd1-ordinary-font-sample",
+      "to": "archive/cd1/evidence/cd1-ordinary-font-sample"
+    },
+    {
+      "from": "build/cd1-paragraph",
+      "to": "archive/cd1/evidence/cd1-paragraph"
+    },
+    {
+      "from": "build/cd1-preservation",
+      "to": "archive/cd1/evidence/cd1-preservation"
+    },
+    {
+      "from": "build/cd1-processing-inventory",
+      "to": "archive/cd1/evidence/cd1-processing-inventory"
+    },
+    {
+      "from": "build/cd1-reference",
+      "to": "archive/cd1/reference"
+    },
+    {
+      "from": "build/cd1-reference-catalog-replay",
+      "to": "archive/cd1/evidence/cd1-reference-catalog-replay"
+    },
+    {
+      "from": "build/cd1-reference-initial",
+      "to": "archive/cd1/evidence/cd1-reference-initial"
+    },
+    {
+      "from": "build/cd1-rtf-inventory",
+      "to": "archive/cd1/evidence/cd1-rtf-inventory"
+    },
+    {
+      "from": "build/cd1-sample-initial",
+      "to": "archive/cd1/evidence/cd1-sample-initial"
+    },
+    {
+      "from": "build/cd1-second-article",
+      "to": "archive/cd1/evidence/cd1-second-article"
+    },
+    {
+      "from": "build/cd1-second-probe",
+      "to": "archive/cd1/evidence/cd1-second-probe"
+    },
+    {
+      "from": "build/cd1-symbol-arrow-sample",
+      "to": "archive/cd1/evidence/cd1-symbol-arrow-sample"
+    },
+    {
+      "from": "build/cd1-symbol-pass",
+      "to": "archive/cd1/evidence/cd1-symbol-pass"
+    },
+    {
+      "from": "build/cd1-symbol-review",
+      "to": "archive/cd1/evidence/cd1-symbol-review"
+    },
+    {
+      "from": "build/cd1-symbol-sample",
+      "to": "archive/cd1/evidence/cd1-symbol-sample"
+    },
+    {
+      "from": "build/cd1-text",
+      "to": "archive/cd1/evidence/cd1-text"
+    },
+    {
+      "from": "build/cd2-issue-9401",
+      "to": "archive/cd2/evidence/cd2-issue-9401"
+    },
+    {
+      "from": "build/cd2-preservation",
+      "to": "archive/cd2/evidence/cd2-preservation"
+    },
+    {
+      "from": "build/cd2-reference",
+      "to": "archive/cd2/reference"
+    },
+    {
+      "from": "build/cd2-reference-pilot",
+      "to": "archive/cd2/evidence/cd2-reference-pilot"
+    },
+    {
+      "from": "build/cd3-preservation",
+      "to": "archive/cd3/evidence/cd3-preservation"
+    },
+    {
+      "from": "build/cd3-reference",
+      "to": "archive/cd3/reference"
+    },
+    {
+      "from": "build/cover-cleanup-dry-run.log",
+      "to": "archive/covers/evidence/cover-cleanup-dry-run.log"
+    },
+    {
+      "from": "build/cover-cleanup.281d0f861b26f900.applied.json",
+      "to": "archive/covers/evidence/cover-cleanup.281d0f861b26f900.applied.json"
+    },
+    {
+      "from": "build/cover-cleanup.json",
+      "to": "archive/covers/evidence/cover-cleanup.json"
+    },
+    {
+      "from": "build/cover-final-checks.json",
+      "to": "archive/covers/evidence/cover-final-checks.json"
+    },
+    {
+      "from": "build/cover-migration-before.json",
+      "to": "archive/covers/evidence/cover-migration-before.json"
+    },
+    {
+      "from": "build/cover-migration-result.json",
+      "to": "archive/covers/evidence/cover-migration-result.json"
+    },
+    {
+      "from": "build/cover-test-pdf.log",
+      "to": "archive/covers/evidence/cover-test-pdf.log"
+    },
+    {
+      "from": "build/cover-test-reading-room.log",
+      "to": "archive/covers/evidence/cover-test-reading-room.log"
+    },
+    {
+      "from": "build/cover-thumbnails",
+      "to": "archive/covers/derivatives"
+    },
+    {
+      "from": "build/pdf-restoration/10-batch",
+      "to": "archive/pdf/shared/packages/10-batch"
+    },
+    {
+      "from": "build/pdf-restoration/10-batch-config",
+      "to": "archive/pdf/shared/evidence/10-batch-config"
+    },
+    {
+      "from": "build/pdf-restoration/10-batch-map",
+      "to": "archive/pdf/shared/evidence/10-batch-map"
+    },
+    {
+      "from": "build/pdf-restoration/10-batch-repeat",
+      "to": "archive/pdf/shared/evidence/10-batch-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-01",
+      "to": "archive/pdf/1983-11/packages/11-batch-01"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-01-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-01-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-01-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-01-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-02",
+      "to": "archive/pdf/1983-11/packages/11-batch-02"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-02-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-02-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-02-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-02-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-03",
+      "to": "archive/pdf/1983-11/packages/11-batch-03"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-03-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-03-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-03-evidence-reviewed",
+      "to": "archive/pdf/1983-11/evidence/11-batch-03-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-03-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-03-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-04",
+      "to": "archive/pdf/1983-11/packages/11-batch-04"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-04-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-04-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-04-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-04-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-05",
+      "to": "archive/pdf/1983-11/packages/11-batch-05"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-05-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-05-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-05-evidence-reviewed",
+      "to": "archive/pdf/1983-11/evidence/11-batch-05-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-05-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-05-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-06",
+      "to": "archive/pdf/1983-11/packages/11-batch-06"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-06-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-06-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-06-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-06-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-06-evidence-reviewed",
+      "to": "archive/pdf/1983-11/evidence/11-batch-06-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-06-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-06-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-07",
+      "to": "archive/pdf/1983-11/packages/11-batch-07"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-07-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-07-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-07-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-07-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-07-evidence-reviewed",
+      "to": "archive/pdf/1983-11/evidence/11-batch-07-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-07-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-07-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-08",
+      "to": "archive/pdf/1983-11/packages/11-batch-08"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-08-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-08-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-08-evidence-reviewed",
+      "to": "archive/pdf/1983-11/evidence/11-batch-08-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-08-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-08-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-09",
+      "to": "archive/pdf/1983-11/packages/11-batch-09"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-09-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-09-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-09-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-09-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-09-evidence-final2",
+      "to": "archive/pdf/1983-11/evidence/11-batch-09-evidence-final2"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-09-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-09-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-10",
+      "to": "archive/pdf/1983-11/packages/11-batch-10"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-10-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-10-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-10-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-10-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-10-evidence-final3",
+      "to": "archive/pdf/1983-11/evidence/11-batch-10-evidence-final3"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-10-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-10-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-10-repeat-review-draft",
+      "to": "archive/pdf/1983-11/evidence/11-batch-10-repeat-review-draft"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-10-review-draft",
+      "to": "archive/pdf/1983-11/evidence/11-batch-10-review-draft"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-11",
+      "to": "archive/pdf/1983-11/packages/11-batch-11"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-11-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-11-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-11-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-11-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-12",
+      "to": "archive/pdf/1983-11/packages/11-batch-12"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-12-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-12-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-12-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-12-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-12-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-12-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-12-repeat-review-draft",
+      "to": "archive/pdf/1983-11/evidence/11-batch-12-repeat-review-draft"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-12-review-draft",
+      "to": "archive/pdf/1983-11/evidence/11-batch-12-review-draft"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-13",
+      "to": "archive/pdf/1983-11/packages/11-batch-13"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-13-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-13-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-13-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-13-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-13-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-batch-13-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-14",
+      "to": "archive/pdf/1983-11/packages/11-batch-14"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-14-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-14-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-15",
+      "to": "archive/pdf/1983-11/packages/11-batch-15"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-15-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-15-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-16",
+      "to": "archive/pdf/1983-11/packages/11-batch-16"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-16-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-16-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-16-evidence-reviewed",
+      "to": "archive/pdf/1983-11/evidence/11-batch-16-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-17",
+      "to": "archive/pdf/1983-11/packages/11-batch-17"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-17-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-17-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-17-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-17-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-17-evidence-reviewed",
+      "to": "archive/pdf/1983-11/evidence/11-batch-17-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-18",
+      "to": "archive/pdf/1983-11/packages/11-batch-18"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-18-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-18-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-18-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-18-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-19",
+      "to": "archive/pdf/1983-11/packages/11-batch-19"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-19-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-19-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-20",
+      "to": "archive/pdf/1983-11/packages/11-batch-20"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-20-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-20-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-20-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-20-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-21",
+      "to": "archive/pdf/1983-11/packages/11-batch-21"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-21-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-21-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-21-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-21-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-22",
+      "to": "archive/pdf/1983-11/packages/11-batch-22"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-22-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-22-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-23",
+      "to": "archive/pdf/1983-11/packages/11-batch-23"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-23-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-23-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-23-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-23-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-24",
+      "to": "archive/pdf/1983-11/packages/11-batch-24"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-24-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-24-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-24-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-24-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-25",
+      "to": "archive/pdf/1983-11/packages/11-batch-25"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-25-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-25-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-25-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-25-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-26",
+      "to": "archive/pdf/1983-11/packages/11-batch-26"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-26-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-26-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-27",
+      "to": "archive/pdf/1983-11/packages/11-batch-27"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-27-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-27-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-28",
+      "to": "archive/pdf/1983-11/packages/11-batch-28"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-28-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-28-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-29",
+      "to": "archive/pdf/1983-11/packages/11-batch-29"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-29-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-29-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-30",
+      "to": "archive/pdf/1983-11/packages/11-batch-30"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-30-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-30-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-30-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-30-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-31",
+      "to": "archive/pdf/1983-11/packages/11-batch-31"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-31-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-31-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-31-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-31-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-32",
+      "to": "archive/pdf/1983-11/packages/11-batch-32"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-32-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-32-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-32-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-32-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-33",
+      "to": "archive/pdf/1983-11/packages/11-batch-33"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-33-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-33-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-33-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-33-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-34",
+      "to": "archive/pdf/1983-11/packages/11-batch-34"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-34-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-34-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-35",
+      "to": "archive/pdf/1983-11/packages/11-batch-35"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-35-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-35-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-35-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-35-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-36",
+      "to": "archive/pdf/1983-11/packages/11-batch-36"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-36-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-36-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-36-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-36-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-37",
+      "to": "archive/pdf/1983-11/packages/11-batch-37"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-37-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-37-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-37-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-37-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-38",
+      "to": "archive/pdf/1983-11/packages/11-batch-38"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-38-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-38-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-38-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-38-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-39",
+      "to": "archive/pdf/1983-11/packages/11-batch-39"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-39-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-39-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-39-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-39-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-40",
+      "to": "archive/pdf/1983-11/packages/11-batch-40"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-40-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-40-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-40-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-40-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-41",
+      "to": "archive/pdf/1983-11/packages/11-batch-41"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-41-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-41-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-41-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-41-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-42",
+      "to": "archive/pdf/1983-11/packages/11-batch-42"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-42-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-42-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-43",
+      "to": "archive/pdf/1983-11/packages/11-batch-43"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-43-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-43-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-43-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-43-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-44",
+      "to": "archive/pdf/1983-11/packages/11-batch-44"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-44-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-44-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-44-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-44-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-45",
+      "to": "archive/pdf/1983-11/packages/11-batch-45"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-45-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-batch-45-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-45-evidence-final",
+      "to": "archive/pdf/1983-11/evidence/11-batch-45-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/11-batch-45-evidence-final2",
+      "to": "archive/pdf/1983-11/evidence/11-batch-45-evidence-final2"
+    },
+    {
+      "from": "build/pdf-restoration/11-closeout",
+      "to": "archive/pdf/1983-11/evidence/11-closeout"
+    },
+    {
+      "from": "build/pdf-restoration/11-editor-assemble",
+      "to": "archive/pdf/1983-11/packages/11-editor-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-feature-assemble",
+      "to": "archive/pdf/1983-11/packages/11-feature-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-generator-assemble",
+      "to": "archive/pdf/1983-11/packages/11-generator-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-graphic-assemble",
+      "to": "archive/pdf/1983-11/packages/11-graphic-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-ieee488-assemble",
+      "to": "archive/pdf/1983-11/packages/11-ieee488-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-library-assemble",
+      "to": "archive/pdf/1983-11/packages/11-library-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-mailing-assemble",
+      "to": "archive/pdf/1983-11/packages/11-mailing-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-orientation-repair-evidence",
+      "to": "archive/pdf/1983-11/evidence/11-orientation-repair-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/11-orientation-repair-legacy-check",
+      "to": "archive/pdf/1983-11/packages/11-orientation-repair-legacy-check"
+    },
+    {
+      "from": "build/pdf-restoration/11-radar-assemble",
+      "to": "archive/pdf/1983-11/packages/11-radar-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-robot-assemble",
+      "to": "archive/pdf/1983-11/packages/11-robot-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-submarine-assemble",
+      "to": "archive/pdf/1983-11/packages/11-submarine-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/11-submarine-assemble-repeat",
+      "to": "archive/pdf/1983-11/evidence/11-submarine-assemble-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/11-unix-assemble",
+      "to": "archive/pdf/1983-11/packages/11-unix-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-accounting-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-accounting-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-01",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-01"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-01-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-01-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-02",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-02"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-02-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-02-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-03",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-03"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-03-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-03-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-04",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-04"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-04-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-04-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-05",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-05"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-05-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-05-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-05-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-05-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-06",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-06"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-06-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-06-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-06-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-06-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-07",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-07"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-07-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-07-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-07-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-07-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-08",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-08"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-08-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-08-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-09",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-09"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-09-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-09-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-09-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-09-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-09-evidence-final",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-09-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-10",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-10"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-10-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-10-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-11",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-11"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-11-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-11-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-11-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-11-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-11-evidence-final",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-11-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-12",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-12"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-12-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-12-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-12-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-12-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-13",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-13"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-13-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-13-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-14",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-14"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-14-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-14-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-14-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-14-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-15",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-15"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-15-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-15-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-15-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-15-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-16",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-16"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-16-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-16-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-16-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-16-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-17",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-17"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-17-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-17-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-17-evidence-expanded",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-17-evidence-expanded"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-17-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-17-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-18",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-18"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-18-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-18-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-18-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-18-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-19",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-19"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-19-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-19-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-19-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-19-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-20",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-20"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-20-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-20-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-20-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-20-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-21",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-21"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-21-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-21-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-21-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-21-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-22",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-22"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-22-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-22-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-23",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-23"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-23-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-23-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-24",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-24"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-24-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-24-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-24-evidence-final",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-24-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-24-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-24-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-25",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-25"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-25-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-25-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-25-reviewed",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-25-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-25-reviewed-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-25-reviewed-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-26",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-26"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-26-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-26-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-27",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-27"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-27-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-27-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-28",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-28"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-28-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-28-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-29",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-29"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-29-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-29-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-30",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-30"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-30-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-30-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-31",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-31"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-31-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-31-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-32",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-32"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-32-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-32-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-32-reviewed-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-32-reviewed-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-33",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-33"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-33-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-33-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-34",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-34"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-34-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-34-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-35",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-35"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-35-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-35-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-35-reviewed-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-35-reviewed-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-36",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-36"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-36-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-36-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-37",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-37"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-37-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-37-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-38",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-38"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-38-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-38-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-38-reviewed-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-38-reviewed-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-39",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-39"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-39-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-39-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-40",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-40"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-40-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-40-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-40-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-40-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-41",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-41"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-41-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-41-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-41-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-41-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-42",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-42"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-42-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-42-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-42-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-42-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-43",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-43"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-43-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-43-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-44",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-44"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-44-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-44-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-45",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-45"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-45-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-45-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-45-evidence-reviewed",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-45-evidence-reviewed"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-46",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-batch-46"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-batch-46-evidence",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-batch-46-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-classify-headings",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-classify-headings"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-closeout",
+      "to": "archive/pdf/1984-02/evidence/12-1984-02-closeout"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-converter-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-converter-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-dictionary-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-dictionary-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-feature-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-feature-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-hangul-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-hangul-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-loader-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-loader-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-microtext-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-microtext-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-news-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-news-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-reference",
+      "to": "archive/pdf/1984-02/reference"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-systems-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-systems-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-02-unix-assemble",
+      "to": "archive/pdf/1984-02/packages/12-1984-02-unix-assemble"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-ad",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-ad"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-01",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-01"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-01-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-01-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-01-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-01-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-02",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-02"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-02-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-02-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-03",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-03"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-03-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-03-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-03-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-03-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-04",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-04"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-04-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-04-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-05",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-05"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-05-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-05-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-06",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-06"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-06-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-06-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-06-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-06-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-06-evidence-revised-final",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-06-evidence-revised-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-07",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-07"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-07-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-07-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-08",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-08"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-08-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-08-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-09",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-09"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-09-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-09-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-09-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-09-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-09-evidence-revised-final",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-09-evidence-revised-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-10",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-10"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-10-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-10-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-11",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-11"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-11-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-11-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-12",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-12"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-12-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-12-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-12-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-12-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-12-evidence-revised-final",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-12-evidence-revised-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-13",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-13"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-13-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-13-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-14",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-14"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-14-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-14-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-14-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-14-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-15",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-15"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-15-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-15-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-16",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-16"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-16-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-16-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-17",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-17"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-17-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-17-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-17-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-17-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-18",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-18"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-18-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-18-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-18-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-18-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-18-evidence-tape-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-18-evidence-tape-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-19",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-19"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-19-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-19-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-19-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-19-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-20",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-20"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-20-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-20-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-20-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-20-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-21",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-21"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-21-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-21-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-21-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-21-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-22",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-22"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-22-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-22-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-22-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-22-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-23",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-23"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-23-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-23-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-23-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-23-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-24",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-24"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-24-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-24-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-24-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-24-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-25",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-25"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-25-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-25-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-25-evidence-final",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-25-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-25-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-25-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-26",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-26"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-26-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-26-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-26-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-26-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-27",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-27"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-27-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-27-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-27-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-27-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-28",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-28"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-28-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-28-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-28-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-28-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-29",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-29"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-29-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-29-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-29-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-29-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-30",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-30"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-30-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-30-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-30-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-30-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-31",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-31"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-31-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-31-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-32",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-32"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-32-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-32-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-32-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-32-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-33",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-33"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-33-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-33-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-34",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-34"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-34-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-34-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-35",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-35"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-35-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-35-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-36",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-36"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-36-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-36-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-37",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-37"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-37-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-37-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-37-evidence-revised",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-37-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-37-evidence-revised-ad",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-37-evidence-revised-ad"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-38",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-38"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-38-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-38-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-38-evidence-revised-ad",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-38-evidence-revised-ad"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-39",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-39"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-39-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-39-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-39-evidence-metadata",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-39-evidence-metadata"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-40",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-40"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-40-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-40-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-41",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-41"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-41-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-41-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-41-evidence-revised-debug",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-41-evidence-revised-debug"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-41-evidence-revised-tunnel",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-41-evidence-revised-tunnel"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-42",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-42"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-42-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-42-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-42-evidence-revised-qa",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-42-evidence-revised-qa"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-43",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-43"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-43-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-43-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-44",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-batch-44"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-batch-44-evidence",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-batch-44-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-closeout",
+      "to": "archive/pdf/1984-03/evidence/12-1984-03-closeout"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-database",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-database"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-feature",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-feature"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-hunting",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-hunting"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-interface",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-interface"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-machine",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-machine"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-medical",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-medical"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-news",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-news"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-northwest",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-northwest"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-numbers",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-numbers"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-puzzle",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-puzzle"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-reasoning",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-reasoning"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-reference",
+      "to": "archive/pdf/1984-03/reference"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-regression",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-regression"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-sewoon",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-sewoon"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-shape",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-shape"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-systems",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-systems"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-tape",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-tape"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-update",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-update"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-03-visicalc",
+      "to": "archive/pdf/1984-03/packages/12-1984-03-visicalc"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-accounting",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-accounting"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-ai",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-ai"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-appendix",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-appendix"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-basictech",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-basictech"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-01",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-01"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-01-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-01-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-02",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-02"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-02-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-02-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-02-evidence-final",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-02-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-02-evidence-final2",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-02-evidence-final2"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-02-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-02-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-03",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-03"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-03-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-03-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-03-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-03-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-04",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-04"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-04-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-04-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-04-evidence-final",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-04-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-04-evidence-final2",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-04-evidence-final2"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-04-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-04-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-05",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-05"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-05-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-05-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-06",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-06"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-06-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-06-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-06-evidence-final",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-06-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-06-evidence-metadata-final",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-06-evidence-metadata-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-06-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-06-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-07",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-07"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-07-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-07-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-07-evidence-final",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-07-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-08",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-08"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-08-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-08-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-08-evidence-final",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-08-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-08-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-08-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-09",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-09"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-09-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-09-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-10",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-10"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-10-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-10-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-10-evidence-final",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-10-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-10-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-10-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-11",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-11"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-11-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-11-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-12",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-12"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-12-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-12-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-12-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-12-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-13",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-13"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-13-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-13-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-13-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-13-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-14",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-14"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-14-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-14-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-14-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-14-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-14-evidence-revised-2",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-14-evidence-revised-2"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-15",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-15"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-15-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-15-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-15-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-15-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-16",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-16"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-16-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-16-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-16-evidence-final",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-16-evidence-final"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-16-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-16-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-17",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-17"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-17-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-17-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-17-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-17-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-18",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-18"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-18-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-18-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-18-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-18-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-19",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-19"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-19-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-19-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-19-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-19-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-20",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-20"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-20-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-20-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-20-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-20-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-21",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-21"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-21-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-21-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-21-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-21-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-22",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-22"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-22-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-22-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-22-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-22-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-23",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-23"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-23-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-23-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-23-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-23-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-24",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-24"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-24-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-24-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-24-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-24-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-25",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-25"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-25-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-25-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-25-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-25-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-26",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-26"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-26-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-26-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-26-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-26-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-27",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-27"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-27-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-27-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-27-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-27-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-28",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-28"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-28-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-28-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-29",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-29"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-29-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-29-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-29-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-29-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-30",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-30"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-30-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-30-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-30-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-30-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-31",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-31"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-31-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-31-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-31-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-31-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-32",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-32"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-32-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-32-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-32-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-32-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-33",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-33"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-33-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-33-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-33-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-33-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-34",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-34"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-34-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-34-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-34-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-34-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-35",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-35"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-35-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-35-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-35-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-35-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-36",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-36"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-36-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-36-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-36-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-36-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-37",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-37"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-37-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-37-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-38",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-38"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-38-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-38-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-39",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-39"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-39-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-39-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-39-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-39-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-40",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-40"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-40-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-40-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-40-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-40-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-40-evidence-revised2",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-40-evidence-revised2"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-41",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-41"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-41-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-41-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-42",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-42"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-42-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-42-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-42-evidence-revised",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-42-evidence-revised"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-43",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-batch-43"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-batch-43-evidence",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-batch-43-evidence"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-cat",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-cat"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-cat-reference-adapter",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-cat-reference-adapter"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-closeout",
+      "to": "archive/pdf/1984-05/evidence/12-1984-05-closeout"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-database",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-database"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-feature",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-feature"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-fishing",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-fishing"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-fugitive",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-fugitive"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-happy",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-happy"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-logo",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-logo"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-machine",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-machine"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-medical",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-medical"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-radar",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-radar"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-reference",
+      "to": "archive/pdf/1984-05/reference"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-terminal",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-terminal"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-unix",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-unix"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-05-visicalc",
+      "to": "archive/pdf/1984-05/packages/12-1984-05-visicalc"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-01",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-01"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-01-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-01-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-02",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-02"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-02-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-02-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-03",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-03"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-03-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-03-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-04-corrected",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-04-corrected"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-04-corrected-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-04-corrected-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-05",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-05"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-05-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-05-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-06",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-06"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-06-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-06-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-07",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-07"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-08",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-08"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-09",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-09"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-10",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-10"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-11",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-11"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-12",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-12"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-13",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-13"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-14",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-14"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-15",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-15"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-16",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-16"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-17",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-17"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-18",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-18"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-19",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-19"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-20",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-20"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-21",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-21"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-22",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-22"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-23",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-23"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-24",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-24"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-25",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-25"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-26",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-26"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-27",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-27"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-28",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-28"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-29",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-29"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-30",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-30"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-31",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-31"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-32",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-32"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-33",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-33"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-34",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-34"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-35",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-35"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-36",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-36"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-37",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-37"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-38",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-38"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-39",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-39"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-40",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-40"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-batch-41",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-batch-41"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-history-complete",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-history-complete"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-history-complete-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-history-complete-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-phoneme-complete",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-phoneme-complete"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-phoneme-complete-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-phoneme-complete-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-speech-complete",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-speech-complete"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-06-qwen-speech-complete-rebuild",
+      "to": "archive/pdf/1984-06/packages/12-1984-06-qwen-speech-complete-rebuild"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-01",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-01"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-02",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-02"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-03",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-03"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-04",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-04"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-05",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-05"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-06",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-06"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-07",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-07"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-08",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-08"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-09",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-09"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-10",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-10"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-11",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-11"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-12",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-12"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-13",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-13"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-14",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-14"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-15",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-15"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-16",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-16"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-17",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-17"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-18",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-18"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-19",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-19"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-20",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-20"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-21",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-21"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-22",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-22"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-23",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-23"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-24",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-24"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-25",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-25"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-26",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-26"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-27",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-27"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-28",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-28"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-29",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-29"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-30",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-30"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-31",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-31"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-32",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-32"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-33",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-33"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-34",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-34"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-35",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-35"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-36",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-36"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-37",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-37"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-38",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-38"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-39",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-39"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-40",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-40"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-41",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-41"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-42",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-42"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-43",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-43"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-44",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-44"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-45",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-45"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-46",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-46"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-47",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-47"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-48",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-48"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-49",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-49"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-50",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-50"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-51",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-51"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-52",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-52"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-53",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-53"
+    },
+    {
+      "from": "build/pdf-restoration/12-1984-07-comparison-batch-54",
+      "to": "archive/pdf/1984-07/packages/12-1984-07-comparison-batch-54"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-apple-ghost-source-index-45",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-apple-ghost-source-index-45"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-basic-editor-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-basic-editor-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-01",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-01"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-02",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-02"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-03",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-03"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-04",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-04"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-05",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-05"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-06",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-06"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-07",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-07"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-08",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-08"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-09",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-09"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-10",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-10"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-11",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-11"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-12",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-12"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-13",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-13"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-14",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-14"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-15",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-15"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-16",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-16"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-17",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-17"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-18",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-18"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-19",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-19"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-20",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-20"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-21",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-21"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-22",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-22"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-23",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-23"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-24",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-24"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-25",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-25"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-26",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-26"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-27",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-27"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-28",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-28"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-29",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-29"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-30",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-30"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-31",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-31"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-32",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-32"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-33",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-33"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-34",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-34"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-35",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-35"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-36",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-36"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-37",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-37"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-38",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-38"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-39",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-39"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-40",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-40"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-41",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-41"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-42",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-42"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-43",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-43"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-44",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-44"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-45",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-45"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-46",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-46"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-batch-47",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-batch-47"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-classifieds-source-index-47",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-classifieds-source-index-47"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-contest-review-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-contest-review-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-cpm-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-cpm-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-cpm-source-index-15",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-cpm-source-index-15"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-cpm-source-index-16",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-cpm-source-index-16"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-debugging-room-source-index-46",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-debugging-room-source-index-46"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-echo-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-echo-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-echo-source-index-32",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-echo-source-index-32"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-echo-source-index-33",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-echo-source-index-33"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-editorial-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-editorial-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-english-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-english-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-flyboat-source-index-44",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-flyboat-source-index-44"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-fortran-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-19",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-fortran-source-index-19"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-fortran-source-index-20",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-fortran-source-index-20"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-freefall-source-index-21",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-freefall-source-index-21"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-graphics-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-graphics-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-graphics-source-index-17",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-graphics-source-index-17"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-graphics-source-index-18",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-graphics-source-index-18"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-japan-microcomputers-source-index-26",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-japan-microcomputers-source-index-26"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-medical-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-medical-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-medical-source-index-30",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-medical-source-index-30"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-medical-source-index-31",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-medical-source-index-31"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-meta-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-meta-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-meta-source-index-36",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-meta-source-index-36"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-meta-source-index-37",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-meta-source-index-37"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-microcomputer-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-38",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-microcomputer-source-index-38"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-39",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-microcomputer-source-index-39"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-microcomputer-source-index-40",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-microcomputer-source-index-40"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-pia-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-pia-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-qa-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-qa-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-radar-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index-27",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-radar-source-index-27"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-radar-source-index-28",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-radar-source-index-28"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-recalc-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-41",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-recalc-source-index-41"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-recalc-source-index-42",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-recalc-source-index-42"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-shape-table-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-shape-table-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-shape-table-source-index-24",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-shape-table-source-index-24"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-shape-table-source-index-25",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-shape-table-source-index-25"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-spc-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-34",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-spc-source-index-34"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-spc-source-index-35",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-spc-source-index-35"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-tree-source-index-29",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-tree-source-index-29"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-ufo-source-index-43",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-ufo-source-index-43"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-visicalc-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-visicalc-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-z80-source-index",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-z80-source-index"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-z80-source-index-22",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-z80-source-index-22"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-adaptive-z80-source-index-23",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-adaptive-z80-source-index-23"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-closeout",
+      "to": "archive/pdf/1984-08/evidence/13-1984-08-closeout"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-closeout-revisions",
+      "to": "archive/pdf/1984-08/evidence/13-1984-08-closeout-revisions"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-cost-pilot",
+      "to": "archive/pdf/1984-08/packages/13-1984-08-cost-pilot"
+    },
+    {
+      "from": "build/pdf-restoration/13-1984-08-reference",
+      "to": "archive/pdf/1984-08/reference"
+    },
+    {
+      "from": "build/pdf-restoration/14-1984-09-closeout",
+      "to": "archive/pdf/1984-09/evidence/14-1984-09-closeout"
+    },
+    {
+      "from": "build/pdf-restoration/14-1984-09-reference",
+      "to": "archive/pdf/1984-09/reference"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-01",
+      "to": "archive/pdf/1984-09/packages/14-batch-01"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-02",
+      "to": "archive/pdf/1984-09/packages/14-batch-02"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-03",
+      "to": "archive/pdf/1984-09/packages/14-batch-03"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-04",
+      "to": "archive/pdf/1984-09/packages/14-batch-04"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-05",
+      "to": "archive/pdf/1984-09/packages/14-batch-05"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-06",
+      "to": "archive/pdf/1984-09/packages/14-batch-06"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-07",
+      "to": "archive/pdf/1984-09/packages/14-batch-07"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-08",
+      "to": "archive/pdf/1984-09/packages/14-batch-08"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-09",
+      "to": "archive/pdf/1984-09/packages/14-batch-09"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-10",
+      "to": "archive/pdf/1984-09/packages/14-batch-10"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-11",
+      "to": "archive/pdf/1984-09/packages/14-batch-11"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-12",
+      "to": "archive/pdf/1984-09/packages/14-batch-12"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-13",
+      "to": "archive/pdf/1984-09/packages/14-batch-13"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-14",
+      "to": "archive/pdf/1984-09/packages/14-batch-14"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-15",
+      "to": "archive/pdf/1984-09/packages/14-batch-15"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-16",
+      "to": "archive/pdf/1984-09/packages/14-batch-16"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-17",
+      "to": "archive/pdf/1984-09/packages/14-batch-17"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-18",
+      "to": "archive/pdf/1984-09/packages/14-batch-18"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-19",
+      "to": "archive/pdf/1984-09/packages/14-batch-19"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-20",
+      "to": "archive/pdf/1984-09/packages/14-batch-20"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-21",
+      "to": "archive/pdf/1984-09/packages/14-batch-21"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-22",
+      "to": "archive/pdf/1984-09/packages/14-batch-22"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-23",
+      "to": "archive/pdf/1984-09/packages/14-batch-23"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-24",
+      "to": "archive/pdf/1984-09/packages/14-batch-24"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-25",
+      "to": "archive/pdf/1984-09/packages/14-batch-25"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-26",
+      "to": "archive/pdf/1984-09/packages/14-batch-26"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-27",
+      "to": "archive/pdf/1984-09/packages/14-batch-27"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-28",
+      "to": "archive/pdf/1984-09/packages/14-batch-28"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-29",
+      "to": "archive/pdf/1984-09/packages/14-batch-29"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-30",
+      "to": "archive/pdf/1984-09/packages/14-batch-30"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-31",
+      "to": "archive/pdf/1984-09/packages/14-batch-31"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-32",
+      "to": "archive/pdf/1984-09/packages/14-batch-32"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-33",
+      "to": "archive/pdf/1984-09/packages/14-batch-33"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-34",
+      "to": "archive/pdf/1984-09/packages/14-batch-34"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-35",
+      "to": "archive/pdf/1984-09/packages/14-batch-35"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-36",
+      "to": "archive/pdf/1984-09/packages/14-batch-36"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-37",
+      "to": "archive/pdf/1984-09/packages/14-batch-37"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-38",
+      "to": "archive/pdf/1984-09/packages/14-batch-38"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-39",
+      "to": "archive/pdf/1984-09/packages/14-batch-39"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-40",
+      "to": "archive/pdf/1984-09/packages/14-batch-40"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-41",
+      "to": "archive/pdf/1984-09/packages/14-batch-41"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-42",
+      "to": "archive/pdf/1984-09/packages/14-batch-42"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-43",
+      "to": "archive/pdf/1984-09/packages/14-batch-43"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-44",
+      "to": "archive/pdf/1984-09/packages/14-batch-44"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-45",
+      "to": "archive/pdf/1984-09/packages/14-batch-45"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-46",
+      "to": "archive/pdf/1984-09/packages/14-batch-46"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-47",
+      "to": "archive/pdf/1984-09/packages/14-batch-47"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-48",
+      "to": "archive/pdf/1984-09/packages/14-batch-48"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-49",
+      "to": "archive/pdf/1984-09/packages/14-batch-49"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-50",
+      "to": "archive/pdf/1984-09/packages/14-batch-50"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-51",
+      "to": "archive/pdf/1984-09/packages/14-batch-51"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-52",
+      "to": "archive/pdf/1984-09/packages/14-batch-52"
+    },
+    {
+      "from": "build/pdf-restoration/14-batch-53",
+      "to": "archive/pdf/1984-09/packages/14-batch-53"
+    },
+    {
+      "from": "build/pdf-restoration/6a-matchsticks",
+      "to": "archive/pdf/shared/packages/6a-matchsticks"
+    },
+    {
+      "from": "build/pdf-restoration/6a-matchsticks-before-paragraph-fix",
+      "to": "archive/pdf/shared/evidence/6a-matchsticks-before-paragraph-fix"
+    },
+    {
+      "from": "build/pdf-restoration/6a-matchsticks-repeat",
+      "to": "archive/pdf/shared/evidence/6a-matchsticks-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/6b-turbo-pascal",
+      "to": "archive/pdf/shared/packages/6b-turbo-pascal"
+    },
+    {
+      "from": "build/pdf-restoration/6b-turbo-pascal-repeat",
+      "to": "archive/pdf/shared/evidence/6b-turbo-pascal-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/6c-basic-column",
+      "to": "archive/pdf/shared/packages/6c-basic-column"
+    },
+    {
+      "from": "build/pdf-restoration/6c-basic-column-repeat",
+      "to": "archive/pdf/shared/evidence/6c-basic-column-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/7-cd-comparison",
+      "to": "archive/pdf/shared/packages/7-cd-comparison"
+    },
+    {
+      "from": "build/pdf-restoration/7-cd-comparison-before-provenance",
+      "to": "archive/pdf/shared/evidence/7-cd-comparison-before-provenance"
+    },
+    {
+      "from": "build/pdf-restoration/7-cd-comparison-before-provenance-repeat",
+      "to": "archive/pdf/shared/evidence/7-cd-comparison-before-provenance-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/7-cd-comparison-draft",
+      "to": "archive/pdf/shared/evidence/7-cd-comparison-draft"
+    },
+    {
+      "from": "build/pdf-restoration/7-cd-comparison-repeat",
+      "to": "archive/pdf/shared/evidence/7-cd-comparison-repeat"
+    },
+    {
+      "from": "build/pdf-restoration/cost-audit-2026-10-02",
+      "to": "archive/pdf/shared/packages/cost-audit-2026-10-02"
+    },
+    {
+      "from": "build/pdf-restoration/pilot",
+      "to": "archive/pdf/shared/packages/pilot"
+    },
+    {
+      "from": "build/pdf-restoration/pilot-repeat",
+      "to": "archive/pdf/shared/evidence/pilot-repeat"
+    },
+    {
+      "from": "build/reading-room-volunteer",
+      "to": "dist/reading-room"
+    },
+    {
+      "from": "build/toc",
+      "to": "archive/toc/current"
+    },
+    {
+      "from": "build/toc-images",
+      "to": "archive/toc/images"
+    },
+    {
+      "from": "build/toc-snapshots",
+      "to": "work/cache/toc-snapshots"
+    },
+    {
+      "from": "output/playwright",
+      "to": "archive/evidence/playwright"
+    }
+  ]
+}

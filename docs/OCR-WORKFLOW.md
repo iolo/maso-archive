@@ -1,5 +1,7 @@
 # OCR workflow reference
 
+Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
+
 The [OCR handoff](../PLAN-OCR.md) defines current policy: mapped Tesseract is the
 default; Qwen is explicit assistance. The A/B/C workflow below is an optional
 measurement experiment, not a required restoration pass. Its original nine
@@ -13,12 +15,12 @@ For reviewed restoration maps, use the existing mapped adapter:
 
 ```sh
 PYTHONPATH=.:src python3 -m tools.ocr_qwen.mapped \
-  --request private/path/request.json --output private/path/new-qwen-ocr
+  --request archive/pdf/YYYY-MM/restoration/batch-NN/request.json --output archive/pdf/YYYY-MM/restoration/batch-NN/new-qwen-ocr
 # Add --resume only for unchanged inputs/settings/implementation.
 ```
 
 A request contains `batch_id`, optional `scale_to` (1000–6000; default 3000),
-and `articles: [{"map": {"path": "private/.../map.json", "sha256": "...", "bytes": 123}}]`.
+and `articles: [{"map": {"path": "archive/evidence/.../map.json", "sha256": "...", "bytes": 123}}]`.
 Paths are repository-relative. The adapter ceiling is three articles/twelve source
 pages; use the tighter current restoration checkpoint limits when applicable.
 It uses reviewed crops, not automatic layout or a local correction pass.
@@ -48,19 +50,19 @@ Use the existing private three-page manifest created by `prepare-trial` in the
 
 ```sh
 python3 -m tools.ocr_qwen workflow \
-  --manifest private/ocr-qwen3-vl/samples.json \
-  --output private/ocr-qwen3-vl/new-workflow
+  --manifest archive/experiments/ocr-qwen3-vl/samples.json \
+  --output archive/experiments/ocr-qwen3-vl/new-workflow
 
 # Same inputs, code, models and inference settings:
 python3 -m tools.ocr_qwen workflow \
-  --manifest private/ocr-qwen3-vl/samples.json \
-  --output private/ocr-qwen3-vl/new-workflow --resume
+  --manifest archive/experiments/ocr-qwen3-vl/samples.json \
+  --output archive/experiments/ocr-qwen3-vl/new-workflow --resume
 
 # An interrupted stage has no completed checkpoint. Explicitly retain/archive
 # that partial attempt and retry it, reusing all completed stages:
 python3 -m tools.ocr_qwen workflow \
-  --manifest private/ocr-qwen3-vl/samples.json \
-  --output private/ocr-qwen3-vl/new-workflow --resume --retry-incomplete
+  --manifest archive/experiments/ocr-qwen3-vl/samples.json \
+  --output archive/experiments/ocr-qwen3-vl/new-workflow --resume --retry-incomplete
 
 make test-ocr-qwen3-vl
 ```
@@ -140,7 +142,7 @@ local model tokens or this conversation's length.
 
 ```sh
 python3 -m tools.ocr_qwen review-summary \
-  --ledger private/ocr-qwen3-vl/new-workflow/review-ledger.json
+  --ledger archive/experiments/ocr-qwen3-vl/new-workflow/review-ledger.json
 ```
 
 The checker rejects missing prepared page/arm/region records, automatic acceptance,
@@ -149,7 +151,7 @@ usage/time. Actual savings remain unmeasured until comparable review records exi
 
 ## Existing results and evidence
 
-The serial run `private/ocr-qwen3-vl/workflow-03/` completed 60 verified stages;
+The serial run `archive/experiments/ocr-qwen3-vl/workflow-03/` completed 60 verified stages;
 an unchanged resume made no new inference or server startup. Its source-linked
 review packets and `review-ledger.json` remain available there. All nine human
 page/arm records remain unaccepted.

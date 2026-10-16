@@ -1,4 +1,5 @@
 """Export reviewed scan article data; optionally render a separate preview."""
+from tools.storage_layout import is_local_output, preserved_input
 import argparse
 from copy import deepcopy
 from html.parser import HTMLParser
@@ -111,7 +112,8 @@ def validate_source(package, root=ROOT):
     """Check source identity, inventory geometry and TOC eligibility without OCR."""
     checked(root, {key: package['source'][key] for key in ('path', 'sha256', 'bytes')})
     checked(root, package['toc_pin'])
-    inventory = root / 'private/pdf-restoration/inventory'
+    inventory = preserved_input(root, 'archive/pdf/shared/restoration/inventory',
+                                'private/pdf-restoration/inventory')
     sources = json.loads((inventory / 'sources.json').read_bytes())
     source = next((s for s in sources['sources'] if s['id'] == package['source']['id']), None)
     if source is None or source['scope'] != 'toc-entries-and-cover':
@@ -131,8 +133,8 @@ def validate_source(package, root=ROOT):
 
 def build(recipe_path, output, root=ROOT, *, preview=False):
     root, recipe_path, output = Path(root).resolve(), Path(recipe_path).resolve(), Path(output).resolve()
-    if not any(output.is_relative_to(root / d) for d in ('build', 'private')):
-        raise ValueError('Generated export must remain under build/ or private/')
+    if not is_local_output(output, root):
+        raise ValueError('Generated export must remain under archive/, work/ or dist/')
     if output.exists():
         raise ValueError('Export already exists; rebuild into a separate output for comparison')
     base = recipe_path.parent
@@ -211,7 +213,8 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                 raise ValueError('Reading block correction evidence is not tied to its scan regions')
         package['corrections'] = [copy_pin(base, stage, recipe['corrections'], 'corrections.json')]
         copy_pin(base, stage, recipe['map'], 'map.json')
-        runtime = safe_path(root, recipe.get('runtime_directory', 'private/pdf-restoration/ocr-runtime'))
+        default_runtime = preserved_input(root, 'archive/toolchains/ocr', 'private/pdf-restoration/ocr-runtime')
+        runtime = safe_path(root, recipe.get('runtime_directory', default_runtime.relative_to(root).as_posix()))
         runtime_pin = copy_pin(runtime, stage, recipe['runtime'], 'runtime.json')
         write_json(stage / 'provenance.json', dict(recipe=pin(base, recipe_path.name),
                    inventory=pin(inventory, 'sources.json'), queue=pin(inventory, 'queue.jsonl'),

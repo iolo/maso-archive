@@ -17,7 +17,7 @@ from tools.recover_cd1_text import json_bytes
 ISO = ROOT / "masocd-1.iso"
 ISO_SHA256 = "dabd54e6a516ba9e3a2c348b8d1eebddd8bd45d8be3c81c84855102a269d9a17"
 EXTRACTED = ROOT / "masocd-1"
-PROBE = ROOT / "private/cd1-probe"
+PROBE = ROOT / "archive/cd1/extraction"
 OUTPUT = ROOT / "build/cd1-preservation"
 RECORD = ROOT / "data/catalog/preservation/cd1-inventory.json"
 BACKUP_OUTPUT = ROOT / "private/preservation/cd1-backup-check.json"

@@ -1,4 +1,5 @@
 """Validate one invariant Symbol punctuation sample; retain three deferred articles."""
+from tools.storage_layout import is_local_output
 import argparse
 from pathlib import Path
 from collections import Counter
@@ -23,12 +24,12 @@ RECORD = ROOT / 'data/catalog/batch-runs/cd1-symbol-sample.json'
 
 def safe_output(output):
     output = Path(output).resolve()
-    require(output.is_relative_to(ROOT / 'build'), 'Font retries require a private build root')
+    require(is_local_output(output, ROOT), 'Font retries require a private build root')
     for name in ('cd1-batch', 'cd1-associations', 'cd1-association-sample', 'cd1-association-pass',
                  'cd1-font-review', 'cd1-font-sample', 'cd1-font-pass', 'cd1-ordinary-font-review',
                  'cd1-ordinary-font-sample', 'cd1-ordinary-font-pass', 'cd1-font-declaration-review',
                  'cd1-font-declaration-sample', 'cd1-font-declaration-pass', 'cd1-symbol-review'):
-        old = ROOT / 'build' / name
+        old = (ROOT / 'build' / name).resolve()
         require(not output.is_relative_to(old) and not old.is_relative_to(output), 'Font retry would overlap preserved outputs')
     return output
 

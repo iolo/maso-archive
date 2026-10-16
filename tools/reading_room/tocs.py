@@ -2,6 +2,7 @@
 from collections import defaultdict
 from io import BytesIO
 from pathlib import Path
+from maso_archive.storage import canonical_path
 import re
 import shutil
 import tempfile
@@ -13,7 +14,7 @@ from .covers import date_label, pin, replace_directory, separate
 from tools.toc_restore.inventory import PRIVATE, SOURCES, fingerprint, inventory, verify_reviews
 
 POLICY = 'toc-images-v1'
-DEFAULT_OUTPUT = ROOT / 'build/toc-images'
+DEFAULT_OUTPUT = ROOT / 'archive/toc/images'
 SETTINGS = dict(preview=dict(bounds=[480, 720], quality=80),
                 readable=dict(bounds=[1600, 2400], quality=85),
                 orientation='exif-transpose', mode='RGB', color='sRGB',
@@ -57,7 +58,7 @@ def transform(source, target, variant):
 
 
 def prepare(directory=SOURCES, output=DEFAULT_OUTPUT, reviews=PRIVATE / 'reviews.json'):
-    directory, output = Path(directory), Path(output)
+    directory, output = Path(directory), canonical_path(output)
     separate(output, directory, reviews)
     source = inventory(directory)
     if source['errors'] or source['duplicates']:

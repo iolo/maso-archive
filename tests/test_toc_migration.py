@@ -22,7 +22,7 @@ class TocMigrationTests(unittest.TestCase):
         source.write_text('## 88.01\n- Category: Old title = 10\n- News\n  - Local\n  - Abroad\n')
         run_import(source, toc, ids, start='1988-01', end='1988-01')
         old = read(toc / 'manifest.json')
-        cache = root / 'build/toc-snapshots' / old['source']['sha256']
+        cache = root / 'work/cache/toc-snapshots' / old['source']['sha256']
         (cache / 'build').mkdir(parents=True)
         shutil.copytree(toc, cache / 'build/toc')
         (cache / 'data/identities').mkdir(parents=True)
@@ -98,7 +98,7 @@ class TocMigrationTests(unittest.TestCase):
             from tools.toc_snapshot import Snapshot
             snapshot=Snapshot(root,'data/catalog/toc-snapshots/'+source_sha+'.json')
             snapshot.restore()
-            shutil.copytree(snapshot.directory,stage/'build/toc-snapshots'/source_sha)
+            shutil.copytree(snapshot.directory,stage/'work/cache/toc-snapshots'/source_sha)
             run_import(stage/'TOC.md',stage/'build/toc',stage/'data/identities/toc.json')
             record, _ = load_migration(stage/'build/toc',reference,stage)
             old_entries=snapshot.artifact('toc-entries.jsonl')

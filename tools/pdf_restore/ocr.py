@@ -1,4 +1,5 @@
 """Pinned local Tesseract evidence, bounded to one mapped page per invocation."""
+from tools.storage_layout import is_local_output
 import argparse
 import json
 import math
@@ -14,7 +15,7 @@ from PIL import Image
 from .inventory import ROOT, digest, pin, write_json
 from .package import orientation_degrees, validate_package
 
-RUNTIME = ROOT / 'private/pdf-restoration/ocr-runtime'
+RUNTIME = ROOT / 'archive/toolchains/ocr'
 DEB_HASHES = {
     'libleptonica6_1.86.0-1_amd64.deb': '02cf6d56ec1b2b906a4039e93119ba04a56098efb775ca7c5791528a41ec43f0',
     'libtesseract5_5.5.0-1build1_amd64.deb': '67a4c0589b2178ea82db69cb83d0fdcee21f3e509b52819fcc359d8461555d6d',
@@ -119,7 +120,7 @@ def page_ocr(package_path, pdf_page, output, mode='compare', runtime=RUNTIME, sc
     page = selected[0]
     regions = [r for r in package['regions'] if r['pdf_index'] == page['pdf_index']]
     output = output.resolve()
-    if not any(output.is_relative_to(ROOT / name) for name in ('private', 'build')):
+    if not is_local_output(output, ROOT):
         raise ValueError('OCR outputs must stay private')
     if output.exists():
         raise ValueError('OCR evidence already exists; choose a separate output')

@@ -1,4 +1,5 @@
 """Paired uncached OCR trials with pinned inputs and explicitly limited accuracy metrics."""
+from tools.storage_layout import is_local_output
 from collections import defaultdict
 import json
 import platform
@@ -134,7 +135,7 @@ def prepare_trial(trial, destination):
     if Path(destination).exists():
         raise ValueError('Manifest already exists')
     destination = Path(destination).resolve()
-    if not any(destination.is_relative_to(ROOT/name) for name in ('private','build')):
+    if not is_local_output(destination, ROOT):
         raise ValueError('References must remain private')
     write_json(destination, dict(schema_version=1,samples=entries,
         reference_note='Prior scan-reviewed, assistant-corrected Tesseract drafts, crosschecked in earlier trial. Not an independent human gold corpus. BASIC has unresolved bitmap/blank glyphs. Three purposive pages, no generalization claim.',

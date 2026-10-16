@@ -175,7 +175,7 @@ def check(root, require_thumbnails=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--data', type=Path, default=Path('build/reading-room/data'))
+    parser.add_argument('--data', type=Path, default=Path('dist/reading-room-cd/data'))
     parser.add_argument('--require-thumbnails', action='store_true')
     args = parser.parse_args()
     print(json.dumps(check(args.data, require_thumbnails=args.require_thumbnails)))

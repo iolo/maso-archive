@@ -1,4 +1,5 @@
 """Bounded, resumable regional OCR; reviewed publication stays a separate step."""
+from tools.storage_layout import is_local_output, preserved_input
 import argparse
 from contextlib import contextmanager
 import fcntl
@@ -30,8 +31,8 @@ def key(value):
 
 def private_path(path, root):
     path = Path(path).resolve()
-    if not any(path.is_relative_to(root / name) for name in ('private', 'build')):
-        raise ValueError('Batch outputs must remain under private/ or build/')
+    if not is_local_output(path, root):
+        raise ValueError('Batch outputs must remain under archive/, work/ or dist/')
     return path
 
 
@@ -112,7 +113,8 @@ def prepare(request_path, state, cache, root=ROOT, runtime=RUNTIME):
     lookups = request['lookup_pages']
     if len(lookups) > limits['lookup_pages']:
         raise ValueError('Lookup page ceiling exceeded')
-    inventory = root / 'private/pdf-restoration/inventory'
+    inventory = preserved_input(root, 'archive/pdf/shared/restoration/inventory',
+                                'private/pdf-restoration/inventory')
     sources = json.loads((inventory / 'sources.json').read_bytes())['sources']
     for lookup in lookups:
         source = next((s for s in sources if s['id'] == lookup.get('source_id')), None)
@@ -501,7 +503,7 @@ def main():
     p = sub.add_parser('prepare')
     p.add_argument('--request', type=Path, required=True)
     p.add_argument('--state', type=Path, required=True)
-    p.add_argument('--cache', type=Path, default=ROOT / 'private/pdf-restoration/batch-cache')
+    p.add_argument('--cache', type=Path, default=ROOT / 'archive/pdf/shared/restoration/batch-cache')
     p = sub.add_parser('resume')
     p.add_argument('--state', type=Path, required=True)
     p.add_argument('--max-tasks', type=int)

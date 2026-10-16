@@ -25,7 +25,7 @@ SAMPLE = {'9308449': 'leaf auxiliary', '9103252': 'auxiliary with outgoing serie
 
 class AssociationRunner(Runner):
     def __init__(self, output=OUTPUT):
-        require(not Path(output).resolve().is_relative_to(FIRST_OUTPUT), 'Retry output must be separate from first pass')
+        require(not Path(output).resolve().is_relative_to(FIRST_OUTPUT.resolve()), 'Retry output must be separate from first pass')
         super().__init__(output)
         first = read_json(associations.FIRST_PASS)
         require(key(self.identity) == first['pipeline_identity_sha256'], 'Original extraction pipeline changed')

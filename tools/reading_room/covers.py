@@ -5,6 +5,7 @@ import hashlib
 from io import BytesIO
 import json
 from pathlib import Path
+from maso_archive.storage import canonical_path
 import re
 import shutil
 import tempfile
@@ -14,8 +15,8 @@ from PIL import Image, ImageCms, ImageOps, __version__ as pillow_version, featur
 from .export import ROOT, copy, digest, read, safe, write
 
 POLICY = 'thumbnail-v1'
-DEFAULT_OUTPUT = ROOT / 'build/cover-thumbnails'
-DEFAULT_CHECKPOINT = ROOT / 'private/pdf-restoration/covers'
+DEFAULT_OUTPUT = ROOT / 'archive/covers/derivatives'
+DEFAULT_CHECKPOINT = ROOT / 'archive/pdf/shared/restoration/covers'
 SETTINGS = dict(bounds=[480, 640], quality=80, optimize=True, mode='RGB',
                 orientation='exif-transpose', color='embedded-profile-to-sRGB',
                 resample='LANCZOS', metadata='stripped', pillow=pillow_version,
@@ -23,7 +24,7 @@ SETTINGS = dict(bounds=[480, 640], quality=80, optimize=True, mode='RGB',
 
 
 def separate(output, *inputs):
-    output = Path(output)
+    output = canonical_path(output)
     if output.is_symlink():
         raise ValueError('Unsafe output symlink')
     for source in inputs:
@@ -175,7 +176,7 @@ def replace_directory(staged, output, backup):
 
 
 def prepare(directory=ROOT / 'covers', output=DEFAULT_OUTPUT, checkpoint=None):
-    output = Path(output)
+    output = canonical_path(output)
     separate(output, directory, checkpoint)
     selected = discover(directory, checkpoint)
     previous = {}
@@ -211,7 +212,7 @@ def prepare(directory=ROOT / 'covers', output=DEFAULT_OUTPUT, checkpoint=None):
 
 
 def attach_covers(output, catalog, directory, checkpoint=None, thumbnails=None):
-    output = Path(output)
+    output = canonical_path(output)
     thumbnails = Path(thumbnails) if thumbnails is not None else DEFAULT_OUTPUT
     separate(output, directory, checkpoint, thumbnails)
     prepared = prepare(directory, thumbnails, checkpoint) if directory is not None or checkpoint is not None else {'records': []}
@@ -319,8 +320,8 @@ def main():
     parser.add_argument('--covers', type=Path, default=ROOT / 'covers', help='Private donated YYMM.jpg directory')
     parser.add_argument('--thumbnails', type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument('--pdf-cover-checkpoint', type=Path, default=DEFAULT_CHECKPOINT)
-    parser.add_argument('--reader', type=Path, default=ROOT / 'build/reading-room/data')
-    parser.add_argument('--report', type=Path, default=ROOT / 'build/cover-cleanup.json')
+    parser.add_argument('--reader', type=Path, default=ROOT / 'dist/reading-room-cd/data')
+    parser.add_argument('--report', type=Path, default=ROOT / 'archive/covers/evidence/cover-cleanup.json')
     parser.add_argument('--apply', action='store_true', help='Apply an existing, unchanged cleanup report')
     args = parser.parse_args()
     if args.action == 'prepare':

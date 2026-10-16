@@ -20,7 +20,7 @@ OUTPUT = ROOT / 'build/cd1-symbol-arrow-sample'
 
 def safe_output(output):
     output=retry_symbol_sample.safe_output(output)
-    old=retry_symbol_sample.OUTPUT
+    old=retry_symbol_sample.OUTPUT.resolve()
     require(not output.is_relative_to(old) and not old.is_relative_to(output), 'Arrow retry overlaps 18a sample')
     return output
 

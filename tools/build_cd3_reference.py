@@ -6,9 +6,9 @@ import html
 import json
 from pathlib import Path
 import re
-import shutil
 import sys
 import tempfile
+from tools.preserved_output import prepare_output, publish_tree
 
 from tools.build_cd2_pilot import CSS, marked_html, put
 from tools.build_cd2_reference import convert_media, file_manifest, verify_package
@@ -19,7 +19,7 @@ from tools.map_cd1_topic import require
 from tools.map_cd3_candidates import SUMMARY as QUEUE_RECORD, checked, digest
 from tools.recover_cd1_text import json_bytes
 
-OUTPUT = ROOT / "build/cd3-reference"
+OUTPUT = ROOT / "archive/cd3/reference"
 
 
 def load():
@@ -54,16 +54,18 @@ def check_links(stage, allow_root=False):
 
 
 def build_group(group, queue, probe_files, disc_files, rtf, queue_hash,
-                *, resume=False, verify_existing=False):
+                *, resume=False, verify_existing=False, output=None):
     topics = [t for t in queue["topics"] if t["role"] == "article_candidate" and t["group"] == group]
     by_id = {t["identity"]: t for t in queue["topics"]}
     require(topics, f"No CD3 candidates for group {group}")
-    target = OUTPUT / "groups" / group
+    require(not (resume and verify_existing), "Choose resume or verify-existing")
+    target = Path(output or OUTPUT).resolve() / "groups" / group
     if resume and target.exists():
         manifest = verify_package(target)
         require(manifest["source_queue_sha256"] == queue_hash and manifest["group"] == group,
                 "Resumable group source differs")
         return manifest
+    target = prepare_output(target, verify_existing=verify_existing)
     target.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix=f".cd3-{group}-", dir=target.parent) as temporary:
         stage = Path(temporary)
@@ -216,16 +218,14 @@ def build_group(group, queue, probe_files, disc_files, rtf, queue_hash,
                     "media_occurrences": sum(r["media_occurrences"] for r in rows),
                     "files": file_manifest(stage)}
         put(stage, "manifest.json", json_bytes(manifest))
-        if target.exists():
-            if verify_existing:
-                require(verify_package(target) == manifest, f"Group {group} rebuild differs")
-            shutil.rmtree(target)
-        shutil.copytree(stage, target)
+        publish_tree(stage, target, verify_existing=verify_existing)
     return manifest
 
 
-def finalize(queue, probe_files, rtf, queue_hash):
-    target = OUTPUT
+def finalize(queue, probe_files, rtf, queue_hash, *, output=None, verify_existing=False):
+    target = Path(output or OUTPUT).resolve()
+    def write(root, name, data):
+        put(root, name, data, verify_existing=verify_existing)
     groups = sorted({t["group"] for t in queue["topics"] if t["role"] == "article_candidate"})
     manifests = {group: verify_package(target / "groups" / group) for group in groups}
     require(all(m["source_queue_sha256"] == queue_hash for m in manifests.values()),
@@ -239,9 +239,9 @@ def finalize(queue, probe_files, rtf, queue_hash):
     source_media = []
     for name in sorted(p for p in probe_files if p.lower().endswith(".bmp")):
         original = checked(PROBE / "main/raw" / name, probe_files[name])
-        put(target, f"media-sources/{name}", original)
+        write(target, f"media-sources/{name}", original)
         source_media.append({"name": name, "sha256": digest(original), "bytes": len(original)})
-    put(target, "media-sources.json", json_bytes({"schema_version": 1, "resources": source_media}))
+    write(target, "media-sources.json", json_bytes({"schema_version": 1, "resources": source_media}))
     supplements = []
     for topic in queue["topics"]:
         if topic["role"] == "article_candidate":
@@ -277,8 +277,8 @@ def finalize(queue, probe_files, rtf, queue_hash):
                 rendered.append("<p>" + "".join(content) + "</p>")
             require(media_index == len(topic["media"]), "Supplement media order differs")
             text = "".join(text_parts)
-            put(target, f"{directory}/text.txt", text)
-            put(target, f"{directory}/blocks.json", json_bytes({"identity": topic["identity"],
+            write(target, f"{directory}/text.txt", text)
+            write(target, f"{directory}/blocks.json", json_bytes({"identity": topic["identity"],
                 "source": span, "topic": topic, "paragraphs": paragraphs, "issues": issues,
                 "token_count": token_count}))
             parts.extend(rendered)
@@ -286,31 +286,31 @@ def finalize(queue, probe_files, rtf, queue_hash):
             issue_count = len(issues)
             text_hash = digest(text.encode())
         except (ValueError, IndexError, KeyError, OSError) as error:
-            put(target, f"{directory}/text.txt", "")
-            put(target, f"{directory}/blocks.json", json_bytes({"identity": topic["identity"],
+            write(target, f"{directory}/text.txt", "")
+            write(target, f"{directory}/blocks.json", json_bytes({"identity": topic["identity"],
                 "source": span, "topic": topic, "error": str(error)}))
             parts.append(f'<p class="gap">Text unavailable: {html.escape(str(error))}</p>')
             status, issue_count, text_hash = "failed", 0, None
-        put(target, f"{directory}/index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 ' + topic["identity"] + '</title><link rel="stylesheet" href="../../style.css"><body>' + "".join(parts) + '</body></html>\n')
+        write(target, f"{directory}/index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 ' + topic["identity"] + '</title><link rel="stylesheet" href="../../style.css"><body>' + "".join(parts) + '</body></html>\n')
         supplements.append({"identity": topic["identity"], "role": topic["role"],
                             "context_aliases": topic["context_aliases"], "media": topic["media"],
                             "rtf": span, "status": status, "issue_records": issue_count,
                             "text_sha256": text_hash})
-    put(target, "supplements.json", json_bytes({"schema_version": 1, "topics": supplements}))
+    write(target, "supplements.json", json_bytes({"schema_version": 1, "topics": supplements}))
     supplement_items = [f'<li><a href="{row["identity"]}/index.html">{row["identity"]}</a> · {html.escape(row["role"].replace("_", " "))} · {row["status"]}</li>'
                         for row in supplements]
-    put(target, "supplements/index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 supplemental topics</title><link rel="stylesheet" href="../style.css"><body><nav><a href="../index.html">CD3 reference</a></nav><h1>Supplemental topics</h1><p class="note">Native auxiliary topics, author bios, and document tail; print relationships remain unverified.</p><ol>' + "".join(supplement_items) + '</ol></body></html>\n')
+    write(target, "supplements/index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 supplemental topics</title><link rel="stylesheet" href="../style.css"><body><nav><a href="../index.html">CD3 reference</a></nav><h1>Supplemental topics</h1><p class="note">Native auxiliary topics, author bios, and document tail; print relationships remain unverified.</p><ol>' + "".join(supplement_items) + '</ol></body></html>\n')
     used = {m["source_name"] for t in queue["topics"] for m in t["media"] if m["source_name"]}
     unassigned = []
     for name in sorted(p for p in probe_files if p.lower().endswith(".bmp") and p not in used):
         original = checked(PROBE / "main/raw" / name, probe_files[name])
-        put(target, f"unassigned-media/{name}", original)
+        write(target, f"unassigned-media/{name}", original)
         unassigned.append({"name": name, "sha256": digest(original), "bytes": len(original),
                            "status": "original_unassigned"})
-    put(target, "unassigned-media.json", json_bytes({"schema_version": 1, "resources": unassigned}))
+    write(target, "unassigned-media.json", json_bytes({"schema_version": 1, "resources": unassigned}))
     list_items = [f'<li><a href="groups/{group}/index.html">{html.escape(group)}</a> · {manifests[group]["candidates"]} candidates</li>' for group in groups]
-    put(target, "style.css", CSS + "\n")
-    put(target, "index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 private reference</title><link rel="stylesheet" href="style.css"><body><h1>CD3 private reference</h1><p class="note">CD transcription · paper review pending · native labels are not verified magazine issue identities.</p><ol>' + "".join(list_items) + '</ol><p><a href="catalog.json">Coverage catalog</a> · <a href="supplements/index.html">Supplemental topics</a> · <a href="media-sources.json">Original media</a> · <a href="unassigned-media.json">Unassigned media</a></p></body></html>\n')
+    write(target, "style.css", CSS + "\n")
+    write(target, "index.html", '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CD3 private reference</title><link rel="stylesheet" href="style.css"><body><h1>CD3 private reference</h1><p class="note">CD transcription · paper review pending · native labels are not verified magazine issue identities.</p><ol>' + "".join(list_items) + '</ol><p><a href="catalog.json">Coverage catalog</a> · <a href="supplements/index.html">Supplemental topics</a> · <a href="media-sources.json">Original media</a> · <a href="unassigned-media.json">Unassigned media</a></p></body></html>\n')
     catalog = {"schema_version": 1, "disc_id": "cd3", "source_queue_sha256": queue_hash,
                "candidates": len(rows), "outcomes": dict(sorted(Counter(r["status"] for r in rows).items())),
                "groups": {group: {k: m[k] for k in ("candidates", "outcomes", "media_resources", "media_occurrences")}
@@ -319,11 +319,11 @@ def finalize(queue, probe_files, rtf, queue_hash):
                "supplement_outcomes": dict(sorted(Counter(t["status"] for t in supplements).items())),
                "source_media": len(source_media), "unassigned_media": len(unassigned),
                "articles": rows}
-    put(target, "catalog.json", json_bytes(catalog))
+    write(target, "catalog.json", json_bytes(catalog))
     check_links(target)
     files = file_manifest(target)
     files = [f for f in files if f["path"] != "manifest.json"]
-    put(target, "manifest.json", json_bytes({"schema_version": 1, "disc_id": "cd3",
+    write(target, "manifest.json", json_bytes({"schema_version": 1, "disc_id": "cd3",
         "source_queue_sha256": queue_hash, "counts": {"candidates": len(rows),
         "supplemental_topics": len(supplements), "unassigned_media": len(unassigned)}, "files": files}))
     return catalog
@@ -335,7 +335,8 @@ def main():
     scope.add_argument("--group")
     scope.add_argument("--all", action="store_true")
     parser.add_argument("--resume", action="store_true")
-    parser.add_argument("--verify-existing", action="store_true")
+    parser.add_argument("--output", type=Path, default=OUTPUT, help="Choose a fresh retained destination for a new revision")
+    parser.add_argument("--verify-existing", action="store_true", help="Compare an existing result without modifying it")
     args = parser.parse_args()
     try:
         source, queue, probe_files, disc_files, rtf, queue_hash = load()
@@ -343,10 +344,10 @@ def main():
         selected = groups if args.all else [args.group]
         for group in selected:
             manifest = build_group(group, queue, probe_files, disc_files, rtf, queue_hash,
-                                   resume=args.resume, verify_existing=args.verify_existing)
+                                   resume=args.resume, verify_existing=args.verify_existing, output=args.output)
             print(group, manifest["candidates"], manifest["outcomes"], flush=True)
         if args.all:
-            catalog = finalize(queue, probe_files, rtf, queue_hash)
+            catalog = finalize(queue, probe_files, rtf, queue_hash, output=args.output, verify_existing=args.verify_existing)
             print("CD3 reference complete:", catalog["candidates"], catalog["outcomes"])
     except (OSError, ValueError, KeyError, IndexError) as error:
         print(f"CD3 reference build failed: {error}", file=sys.stderr)

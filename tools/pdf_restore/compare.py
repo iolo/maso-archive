@@ -1,4 +1,5 @@
 """Export a bounded, manually reviewed scan/CD comparison without editing either source."""
+from tools.storage_layout import is_local_output
 import argparse
 from difflib import SequenceMatcher
 import json
@@ -136,8 +137,8 @@ def check_comparison(output):
 
 def build(recipe_path, output, root=ROOT):
     root, recipe_path, output = Path(root).resolve(), Path(recipe_path).resolve(), Path(output).resolve()
-    if not any(output.is_relative_to(root / name) for name in ('build', 'private')):
-        raise ValueError('Comparison export must remain under build/ or private/')
+    if not is_local_output(output, root):
+        raise ValueError('Comparison export must remain under archive/, work/ or dist/')
     if output.exists():
         raise ValueError('Comparison export already exists; use a fresh output')
     recipe = json.loads(recipe_path.read_bytes())

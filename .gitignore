@@ -11,16 +11,22 @@
 /hwin31/
 /hwin31.cfg
 
-# Private extraction outputs and rebuildable artifacts
-/private/
-/build/
+# Local preserved artifacts, disposable work and assembled readers
+/archive/
+/work/
+/dist/
+
+# Compatibility symlinks for historical paths (also ignore the links themselves)
+/data
+/private
+/build
+/output
 __pycache__/
 *.pyc
 /.venv/
 
 # Private local-browser verification artifacts
 /.playwright-cli/
-/output/playwright/
 /web/node_modules/
 /web/.vite/
 /web/*.tsbuildinfo

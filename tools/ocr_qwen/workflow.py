@@ -1,4 +1,5 @@
 """Resumable local preparation for three human-reviewed sustainability arms."""
+from tools.storage_layout import is_local_output
 from difflib import SequenceMatcher
 from contextlib import contextmanager
 import fcntl
@@ -43,7 +44,7 @@ ARMS = ('A-tesseract', 'B-qwen', 'C-local-correction')
 def run_lock(output):
     """A surviving worker owns the run even when a UI/session is interrupted."""
     output=Path(output).resolve()
-    if not any(output.is_relative_to(ROOT/n) for n in ('private','build')):
+    if not is_local_output(output, ROOT):
         raise ValueError('Workflow outputs must remain private')
     output.parent.mkdir(parents=True,exist_ok=True)
     with (output.parent/f'.{output.name}.lock').open('a+') as stream:
@@ -294,7 +295,7 @@ def _workflow(manifest_path, output, resume=False, server_options=None, max_toke
                                 for p in sorted(Path(__file__).parent.glob('*.py'))])
     output=Path(output).resolve()
     if resume:
-        if not any(output.is_relative_to(ROOT/n) for n in ('private','build')):
+        if not is_local_output(output, ROOT):
             raise ValueError('Workflow outputs must remain private')
         if json.loads((output/'run.json').read_bytes())!=config:
             raise ValueError('Resume configuration/input/model/implementation changed; choose a fresh output')

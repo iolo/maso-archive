@@ -1,5 +1,12 @@
 # Reading-room implementation plan
 
+Storage update, 2026-10-16: the current reader is `dist/reading-room/`;
+the CD-only reader is `dist/reading-room-cd/`. Preserve source references,
+restoration/integration evidence and named releases under `archive/`.
+A disposable reader must have a verified recovery path before replacement.
+The completed implementation below is historical; follow [STORAGE.md](docs/STORAGE.md)
+and the current [reading-room guide](docs/READING-ROOM.md) for operations.
+
 **2026-09-26 aggregation follow-up completed:** at the owner's request, the
 reading room now consumes the completed PLAN-CD1/CD2/CD3 results through the
 version 2 adapter. It has 3,386 candidates, 3,378 texts, 3,212 listings and

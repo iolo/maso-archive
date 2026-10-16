@@ -1,5 +1,7 @@
 # Successor handoff — 2026-10-16
 
+Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
+
 ## Read first
 
 1. [OCR handoff](../PLAN-OCR.md): accepted engine policy, essential findings,
@@ -8,11 +10,11 @@
    August and September are complete. September's 37 articles and source-page
    ledger are recorded in [the September log](progress/8409.md). October 1984
    is next. Restoration alone does not authorize a reading-room rebuild.
-3. [September closeout](../build/pdf-restoration/14-1984-09-closeout/report.json)
+3. [September closeout](../archive/pdf/1984-09/evidence/14-1984-09-closeout/report.json)
    and its source-page ledger at
-   `private/pdf-restoration/14-1984-09-closeout/source-page-ledger.json`.
+   `archive/pdf/1984-09/restoration/14-1984-09-closeout/source-page-ledger.json`.
    For an existing August assembly check, use its pinned adapters from
-   `private/pdf-restoration/13-1984-08-closeout/reproduction.json`.
+   `archive/pdf/1984-08/restoration/13-1984-08-closeout/reproduction.json`.
 
 **Current OCR policy:** mapped Tesseract by default. Qwen is an opt-in draft or
 second reading for difficult prose or code, with explicit layout/coverage review.

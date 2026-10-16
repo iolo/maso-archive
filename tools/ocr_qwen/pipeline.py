@@ -1,4 +1,5 @@
 """Two-pass layout detection and literal regional transcription; no automatic publication."""
+from tools.storage_layout import is_local_output
 import base64
 from io import BytesIO
 import json
@@ -46,8 +47,8 @@ guessing. Transcribe only what is visibly present, including incomplete sentence
 
 def fresh_output(path):
     path = Path(path).resolve()
-    if not any(path.is_relative_to(ROOT / name) for name in ('private', 'build')):
-        raise ValueError('OCR outputs must stay under private/ or build/')
+    if not is_local_output(path, ROOT):
+        raise ValueError('OCR outputs must stay under archive/, work/ or dist/')
     path.mkdir(parents=True, exist_ok=False)
     return path
 

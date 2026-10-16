@@ -12,9 +12,9 @@ import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[2]
-REFERENCE = ROOT / 'build/cd1-reference'
-TOC = ROOT / 'build/toc'
-OUTPUT = ROOT / 'build/reading-room/data'
+REFERENCE = ROOT / 'archive/cd1/reference'
+TOC = ROOT / 'archive/toc/current'
+OUTPUT = ROOT / 'dist/reading-room-cd/data'
 VERSION = 1
 
 
@@ -117,7 +117,7 @@ def _export(reference, toc, output, issue_filter, covers, cover_checkpoint, thum
 
     # Reviewed associations come from the existing prepared issue packages. The
     # current TOC snapshot provides display metadata for every issue.
-    coverage = read(ROOT / 'data/catalog/batch-runs/cd1-oem-pass.json')
+    coverage = read(ROOT / 'metadata/catalog/batch-runs/cd1-oem-pass.json')
     reviewed = {}
     article_metadata = {}
     for record in coverage['issues']:
@@ -315,13 +315,13 @@ def main():
     parser.add_argument('--tocs', type=Path, default=SOURCES)
     parser.add_argument('--toc-images', type=Path, default=TOC_IMAGES)
     parser.add_argument('--toc-reviews', type=Path, default=PRIVATE / 'reviews.json')
-    parser.add_argument('--cd2-reference', type=Path, default=ROOT / 'build/cd2-reference')
-    parser.add_argument('--cd3-reference', type=Path, default=ROOT / 'build/cd3-reference')
+    parser.add_argument('--cd2-reference', type=Path, default=ROOT / 'archive/cd2/reference')
+    parser.add_argument('--cd3-reference', type=Path, default=ROOT / 'archive/cd3/reference')
     args = parser.parse_args()
     if args.all_discs and (args.issue or args.demo):
         parser.error('--all-discs cannot be combined with --issue or --demo')
     if args.demo:
-        target = ROOT / 'build/reading-room-demo/data' if args.output == OUTPUT else args.output
+        target = ROOT / 'dist/reading-room-demo/data' if args.output == OUTPUT else args.output
         result = demo(target)
         from .tocs import demo_images
         result.update(demo_images(target))

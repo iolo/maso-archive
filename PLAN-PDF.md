@@ -1,5 +1,11 @@
 # Step-by-step PDF restoration plan
 
+Storage update, 2026-10-16: follow the [successive-issue workflow](docs/STORAGE.md#successive-restoration)
+for new work. Keep unfinished batches, raw OCR, corrections, recipes and review
+evidence under `archive/pdf/YYYY-MM/`; preserve them after issue closeout too.
+Use a fresh destination for each revision. Older dated paths below remain valid
+through compatibility links and do not change the retention policy.
+
 ## Current OCR routing guide
 
 **User decision, 2026-10-14:** retain mapped Tesseract as the default restoration
@@ -21,9 +27,9 @@ records below are historical and do not authorize a new rebuild.
 September is complete under the canonical-TOC JSON/assets scope: all 43 TOC
 entries are accounted as 37 readable, assistant sample-reviewed articles and
 six non-owning headings. The standalone index is
-`build/pdf-restoration/14-1984-09-reference/issue.json`; the report is
-`build/pdf-restoration/14-1984-09-closeout/report.json`. All 268 PDF pages are
-classified in `private/pdf-restoration/14-1984-09-closeout/source-page-ledger.json`:
+`archive/pdf/1984-09/reference/issue.json`; the report is
+`archive/pdf/1984-09/evidence/14-1984-09-closeout/report.json`. All 268 PDF pages are
+classified in `archive/pdf/1984-09/restoration/14-1984-09-closeout/source-page-ledger.json`:
 226 have selected article bodies and 42 are other material, including the
 separate unlisted four-page SPC-1000 joystick article. One source page is shared
 by two disjoint articles. The 37 selected packages, verified cover, complete

@@ -1,5 +1,8 @@
 # reading-room
 
+Storage and retention follow [STORAGE.md](docs/STORAGE.md); dated implementation
+paths and cleanup milestones are interpreted through the current plan.
+
 NOTE: this PRD is related PRD-local-web.md but seperated for simplicity.
 
 ## GOAL

@@ -1,5 +1,6 @@
 """Prepare bounded cover evidence; install only explicitly reviewed front covers."""
 import argparse
+from tools.storage_layout import preserved_input
 import json
 from pathlib import Path
 import shutil
@@ -9,7 +10,7 @@ from PIL import Image
 
 from .inventory import ROOT, digest, pin, write_json
 
-DEFAULT = ROOT / 'private/pdf-restoration/covers'
+DEFAULT = ROOT / 'archive/pdf/shared/restoration/covers'
 
 
 def existing_covers(root):
@@ -46,7 +47,8 @@ def render(root, source, page, target, size=1800):
 def prepare(root=ROOT, output=DEFAULT):
     if output.exists():
         raise ValueError('Cover checkpoint already exists')
-    inventory = root / 'private/pdf-restoration/inventory/sources.json'
+    inventory = preserved_input(root, 'archive/pdf/shared/restoration/inventory',
+                                'private/pdf-restoration/inventory') / 'sources.json'
     sources = json.loads(inventory.read_bytes())['sources']
     output.mkdir(parents=True)
     write_json(output / 'existing-before.json', existing_covers(root))

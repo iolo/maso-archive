@@ -1,4 +1,5 @@
 """Run all 14b association retries and compose current issues without rewriting history."""
+from tools.storage_layout import is_local_output
 from collections import Counter
 from pathlib import Path
 import json
@@ -23,7 +24,7 @@ def histogram(values):
 
 def load_outcome(pointer, job, identity):
     batch_root, checkpoint_root = (ROOT / pointer[k] for k in ('batch_root', 'checkpoint_root'))
-    require(all(p.resolve().is_relative_to(ROOT / 'build') for p in (batch_root, checkpoint_root)), 'Outcome outside private build roots')
+    require(all(is_local_output(p, ROOT) for p in (batch_root, checkpoint_root)), 'Outcome outside private build roots')
     record = json.loads(checked_file(checkpoint_root, pointer['record']))
     verify_job(checkpoint_root, batch_root, record, identity)
     require(record['job_id'] == job['id'] and record['article_id'] == job['candidate_article_id'] and

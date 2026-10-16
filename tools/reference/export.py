@@ -19,7 +19,7 @@ from tools.reference import text as recovery
 from maso_archive.reading_room_package import checked_file, check_svg, file_record
 
 CURRENT=ROOT/'data/catalog/batch-runs/cd1-oem-pass.json'
-OUTPUT=ROOT/'build/cd1-reference'
+OUTPUT=ROOT/'archive/cd1/reference'
 RECORD=ROOT/'data/catalog/batch-runs/cd1-readable-reference.json'
 CSS='''body{font:17px/1.65 system-ui,sans-serif;max-width:76rem;margin:2rem auto;padding:0 1rem;color:#222;background:#fff}
 a{color:#1455a0}h1,h2{line-height:1.3}nav a{margin-right:1rem}.text{white-space:pre-wrap;overflow-wrap:anywhere;margin:.35rem 0}pre{overflow:auto;padding:1rem;background:#f5f5f5;tab-size:8;line-height:1.45}code{font-family:ui-monospace,monospace}img{max-width:100%;height:auto;background:white}figure{margin:1rem 0}figcaption,.note{color:#555}.gap{border-left:4px solid #aa6500;padding-left:1rem}li{margin:.35rem 0}table{border-collapse:collapse}td,th{padding:.3rem .7rem;border-bottom:1px solid #ddd;text-align:left}.section{font-weight:bold}details{margin:1rem 0}summary{cursor:pointer}'''
@@ -155,8 +155,9 @@ def export_article(root,job,blocks,status,details,media_for,source_record):
 
 def build(output=OUTPUT,write_record=False):
     output=Path(output).resolve()
-    require(output.parent==ROOT/'build' and output.name.startswith('cd1-reference') and not output.is_symlink(),
-            'Reference output must be a dedicated build/cd1-reference* directory')
+    require(((output.parent == ROOT/'archive/cd1' and output.name.startswith('reference')) or
+             (output.parent == (ROOT/'build').resolve() and output.name.startswith('cd1-reference'))) and not output.is_symlink(),
+            'Reference output must be a dedicated archive/cd1/reference* directory')
     current=read(CURRENT);data,inventory_manifest=queue.load_inventory(queue.OUTPUT)
     jobs={j['id']:j for j in data['jobs']};catalog=table(current,'catalog');exceptions={r['job_id']:r for r in table(current,'exceptions')}
     require(len(jobs)==len(catalog)==1088,'Reference candidate population changed')
