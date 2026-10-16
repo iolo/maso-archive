@@ -68,7 +68,7 @@ def usage(responses):
 
 
 def build(root=ROOT):
-    docs = root / 'docs'
+    docs = root / 'docs/ocr-experiments'
     private = root / 'private/pdf-restoration/12-1984-06-qwen'
     progress = read(docs / 'ocr-june-progress.json')
     files = sorted(docs.glob('ocr-june-batch*-comparison.json'))
@@ -257,7 +257,7 @@ def markdown(report):
         'For the next comparison, preselect a small balanced set of fresh prose, code, tables and graphic-heavy pages. Prepare both raw drafts on identical reviewed crops, then assign **one draft per page** to the correction/review workflow, balanced across content types. Keep the other draft hidden until review finishes to reduce familiarity bias. Record actual capable-model input/cached/output tokens, active mapping/correction/review minutes, retries, omissions and explicit human acceptance. Compare total effort per accepted page and errors after correction. Set the desired saving before inspecting the results; June supplies useful raw-OCR evidence, not that final decision metric.', '',
         'The aggregate evidence is strong enough to continue Qwen as a partial alternative now. The next experiment should spend its measurement effort on correction and review cost, rather than accumulating more favorable raw-CER examples.', '',
         '## Reproduce and inspect', '',
-        '[Machine-readable consolidation](ocr-june-metrics.json) contains input hashes, weighted counts, per-batch tokens/times, failure evidence and explicit nulls for unmeasured costs. [Original progress](ocr-june-progress.json), [issue accounting](ocr-june-accounting.json), [earlier A/B/C pilot](ocr-workflow-measurements.json), and [reading-room review guide](READING-ROOM.md) remain separate.', '',
+        '[Machine-readable consolidation](ocr-experiments/ocr-june-metrics.json) contains input hashes, weighted counts, per-batch tokens/times, failure evidence and explicit nulls for unmeasured costs. [Original progress](ocr-experiments/ocr-june-progress.json), [issue accounting](ocr-experiments/ocr-june-accounting.json), [earlier A/B/C pilot](ocr-experiments/ocr-workflow-measurements.json), and [reading-room review guide](READING-ROOM.md) remain separate.', '',
         'From the repository root, with the private June evidence present:', '',
         '```sh', 'PYTHONPATH=src:. python3 -m tools.ocr_qwen.consolidate', 'PYTHONPATH=src:. python3 -m unittest discover -s tests -p test_ocr_consolidate.py', '```', '',
         'The consolidator is read-only with respect to OCR evidence. It pools existing edit counts, validates unique source-crop identity, deduplicates only identical completion IDs, keeps retry work, and never converts a missing measurement to zero.', '']
@@ -266,7 +266,7 @@ def markdown(report):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output',type=Path,default=ROOT/'docs/ocr-june-metrics.json')
+    parser.add_argument('--output',type=Path,default=ROOT/'docs/ocr-experiments/ocr-june-metrics.json')
     parser.add_argument('--report',type=Path,default=ROOT/'docs/OCR-JUNE-DECISION.md')
     args=parser.parse_args()
     report=build()

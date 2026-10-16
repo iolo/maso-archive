@@ -72,7 +72,7 @@ Use the same per-token rates for both routes: `C = u*uncached + c*cached + o*out
 | 1 | 4 | 0.8866 | 0.9524 | -39,833.5 | 7/8 |
 | 1 | 8 | 0.8867 | 0.9575 | -43,743.5 | 7/8 |
 
-Exact whole-cohort difference, Q minus T: `+143,219*u -1,179,008*c -8,965*o`. Qwen is cheaper when this expression is negative. Per-article vectors, differences and scenario ratios are in [the machine-readable results](ocr-august-pilot-results.json).
+Exact whole-cohort difference, Q minus T: `+143,219*u -1,179,008*c -8,965*o`. Qwen is cheaper when this expression is negative. Per-article vectors, differences and scenario ratios are in [the machine-readable results](ocr-experiments/ocr-august-pilot-results.json).
 
 The 16 sealed corrections are the matched comparison. VISICALC had one aborted Qwen-route correction after a shared crop defect was found; it used 47,297 uncached input, 301,056 cached input and 1,686 output tokens. Both raw routes were rerun on an identically amended map, followed by two fresh corrections. The original Tesseract correction had never started. Add that paid abort for an observed recovery-inclusive view; it is not an intrinsic Qwen failure penalty. Both views are in the results JSON.
 
@@ -149,4 +149,4 @@ The sample covers short prose, a game listing, a contest table, BASIC tutorials,
 
 Both routes used the same pinned source crop bytes and July-tested runtime settings. The VISICALC shared-coverage recovery and editor pre-inference seam amendment are documented in the [protocol and progress history](OCR-AUGUST-PILOT.md). All exports passed integrity checks and byte-identical rebuilds; input manifests and usage categories reconciled.
 
-Evidence: [selection](ocr-august-pilot-selection.json), [progress](ocr-august-pilot-progress.json), [independent usage](ocr-august-pilot-correction-usage.json), [coordinator usage](ocr-august-pilot-usage.json), [consolidated results](ocr-august-pilot-results.json).
+Evidence: [selection](ocr-experiments/ocr-august-pilot-selection.json), [progress](ocr-experiments/ocr-august-pilot-progress.json), [independent usage](ocr-experiments/ocr-august-pilot-correction-usage.json), [coordinator usage](ocr-experiments/ocr-august-pilot-usage.json), [consolidated results](ocr-experiments/ocr-august-pilot-results.json).

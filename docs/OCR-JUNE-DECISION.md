@@ -111,7 +111,7 @@ The aggregate evidence is strong enough to continue Qwen as a partial alternativ
 
 ## Reproduce and inspect
 
-[Machine-readable consolidation](ocr-june-metrics.json) contains input hashes, weighted counts, per-batch tokens/times, failure evidence and explicit nulls for unmeasured costs. [Original progress](ocr-june-progress.json), [issue accounting](ocr-june-accounting.json), [earlier A/B/C pilot](ocr-workflow-measurements.json), and [reading-room review guide](READING-ROOM.md) remain separate.
+[Machine-readable consolidation](ocr-experiments/ocr-june-metrics.json) contains input hashes, weighted counts, per-batch tokens/times, failure evidence and explicit nulls for unmeasured costs. [Original progress](ocr-experiments/ocr-june-progress.json), [issue accounting](ocr-experiments/ocr-june-accounting.json), [earlier A/B/C pilot](ocr-experiments/ocr-workflow-measurements.json), and [reading-room review guide](READING-ROOM.md) remain separate.
 
 From the repository root, with the private June evidence present:
 

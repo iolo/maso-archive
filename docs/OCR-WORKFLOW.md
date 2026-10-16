@@ -4,6 +4,8 @@ The [OCR handoff](../PLAN-OCR.md) defines current policy: mapped Tesseract is th
 default; Qwen is explicit assistance. The A/B/C workflow below is an optional
 measurement experiment, not a required restoration pass. Its original nine
 page/arm human review records remain pending. No new experiment is queued.
+The public JSON measurements and checkpoint ledgers are indexed in
+[OCR experiment data](ocr-experiments/README.md).
 
 ## Mapped Qwen assistance
 
@@ -152,7 +154,7 @@ an unchanged resume made no new inference or server startup. Its source-linked
 review packets and `review-ledger.json` remain available there. All nine human
 page/arm records remain unaccepted.
 
-[Measurements](ocr-workflow-measurements.json) retain the sample-level scores,
+[Measurements](ocr-experiments/ocr-workflow-measurements.json) retain the sample-level scores,
 local resource costs, regressions and missing human/paid measurements.
 [June's consolidation](OCR-JUNE-DECISION.md#should-local-qwen-also-do-automatic-correction)
 explains why local self-correction is not mandatory.

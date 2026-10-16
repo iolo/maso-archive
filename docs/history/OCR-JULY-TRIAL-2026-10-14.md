@@ -506,13 +506,13 @@ and reading-room rebuilding remain pending; no reading-room build/staging occurr
 
 ## Evidence and continuation
 
-- [Issue progress and package pins](../ocr-july-progress.json)
-- [Four matched crop comparisons](../ocr-july-comparison-01.json)
-- [Six reverse-assignment crop comparisons](../ocr-july-comparison-02.json)
-- [Four technical/table crop comparisons](../ocr-july-comparison-03.json)
-- [Four hardware-prose crop comparisons](../ocr-july-comparison-04.json)
-- [Four software-instruction crop comparisons](../ocr-july-comparison-05.json)
-- [Assistant usage by work window, including shared overhead](../ocr-july-usage.json)
+- [Issue progress and package pins](../ocr-experiments/ocr-july-progress.json)
+- [Four matched crop comparisons](../ocr-experiments/ocr-july-comparison-01.json)
+- [Six reverse-assignment crop comparisons](../ocr-experiments/ocr-july-comparison-02.json)
+- [Four technical/table crop comparisons](../ocr-experiments/ocr-july-comparison-03.json)
+- [Four hardware-prose crop comparisons](../ocr-experiments/ocr-july-comparison-04.json)
+- [Four software-instruction crop comparisons](../ocr-experiments/ocr-july-comparison-05.json)
+- [Assistant usage by work window, including shared overhead](../ocr-experiments/ocr-july-usage.json)
 - Private queue, maps, raw evidence, corrections and scripts:
   `private/pdf-restoration/12-1984-07-comparison/`
 - Native packages: `build/pdf-restoration/12-1984-07-comparison-batch-01/editorial/`
@@ -1111,7 +1111,7 @@ listing has not been executed or repaired for runtime behavior.
 | p65r05 — BASIC movement logic, Qwen | 0.00% | 3.41% |
 | p67r02 — BASIC compass instructions, Qwen | 0.00% | 10.27% |
 
-[Comparison14](../ocr-july-comparison-14.json) uses identical PNGs and references
+[Comparison14](../ocr-experiments/ocr-july-comparison-14.json) uses identical PNGs and references
 sealed before alternate OCR. References are unblinded assistant source readings,
 not independent human gold. Compact CER ignores whitespace, including code
 literal padding. These samples exclude the omitted crops and cannot establish
@@ -1175,7 +1175,7 @@ transcription audit, not a validated executable or reconstructed binary.
 | p71r12 — faint wrapped BASIC, Qwen | 0.00% | 67.38% |
 | p72r13 — decimal DATA, Qwen | 0.00% | 14.41% |
 
-[Comparison15](../ocr-july-comparison-15.json) uses identical PNGs and references
+[Comparison15](../ocr-experiments/ocr-july-comparison-15.json) uses identical PNGs and references
 sealed before alternate OCR. The faint BASIC sample shows a much larger raw gap
 than the clear prose, consistent with continuing this content route. References
 remain unblinded assistant readings, including flagged source ambiguities. The
@@ -1252,7 +1252,7 @@ or binary certification is claimed.
 | p75r09 — BASIC enemy movement, Qwen | 0.00% | 13.86% |
 | p77r05 — faint hexadecimal rows, Qwen | 3.17% | 93.65% |
 
-[Comparison16](../ocr-july-comparison-16.json) uses identical PNGs, with references
+[Comparison16](../ocr-experiments/ocr-july-comparison-16.json) uses identical PNGs, with references
 sealed before alternate OCR. The source readings are unblinded and include flagged
 ambiguities, not independent human gold. Fixed samples exclude damaged700 and the
 silent five-line omission. Compact CER ignores whitespace. The raw gap supports
@@ -1318,7 +1318,7 @@ execution or byte-faithful glyph reconstruction is claimed.
 | p79r17 — hexadecimal DATA, Qwen | 0.00% | 34.09% |
 | p79r07 — ordinary BASIC, Qwen | 0.00% | 31.07% |
 
-[Comparison17](../ocr-july-comparison-17.json) uses identical PNGs and references
+[Comparison17](../ocr-experiments/ocr-july-comparison-17.json) uses identical PNGs and references
 sealed before alternate OCR. References are unblinded assistant readings, not
 independent human gold. Samples deliberately exclude graphic markers and do not
 include the omitted header or faint final-page errors. Compact CER ignores
@@ -1398,7 +1398,7 @@ acceptance is claimed.
 | p82r07 — numeric DATA, Qwen | 0.42% | 35.42% |
 | p85r09 — hexadecimal CHR$ expressions, Qwen | 0.00% | 42.61% |
 
-[Comparison18](../ocr-july-comparison-18.json) uses identical PNGs, with source-checked
+[Comparison18](../ocr-experiments/ocr-july-comparison-18.json) uses identical PNGs, with source-checked
 references sealed before alternate OCR. References remain unblinded assistant
 readings. The fixed sample set excludes graphic-marker crops and the main
 omission cases; it cannot establish whole-article accuracy or paid savings.
@@ -1466,7 +1466,7 @@ A8 were source-restored. Music O/0 and literal spacing remain reviewable.
 | p91r08 — hex dump, Qwen | 0.63% | 11.25% |
 | p91r10 — assembly columns, Qwen | 65.52% | 13.79% |
 
-[Comparison19](../ocr-july-comparison-19.json) keeps the four preselected identical
+[Comparison19](../ocr-experiments/ocr-july-comparison-19.json) keeps the four preselected identical
 PNGs and seals references before alternate OCR. References remain unblinded
 assistant readings. The assembly score is dominated by reading order, with
 editorially linearized bracket labels also affecting comparison. Compact CER
@@ -1534,7 +1534,7 @@ printer commands remain scan-linked symbols; their executable meaning is unresol
 | p96r18 — dot-matrix SHAPE procedure, Qwen | 0.00% | 5.71% |
 | p97r09 — typeset RECTANGLE procedure, Qwen | 0.00% | 0.85% |
 
-[Comparison20](../ocr-july-comparison-20.json) uses the fixed identical PNGs and
+[Comparison20](../ocr-experiments/ocr-july-comparison-20.json) uses the fixed identical PNGs and
 references sealed before alternate OCR. These are unblinded assistant readings,
 not human gold or whole-article error rates. Tesseract is close on the typeset
 procedure; the four samples do not cover the quote/paraphrase cases. Compact CER
@@ -1596,7 +1596,7 @@ human confirmation. No syntax repair, execution or byte-perfect claim is made.
 | p100r06 — BASIC with Korean strings, Qwen | 3.51% | 32.46% |
 | p100r13 — repeated graphics commands, Qwen | 5.76% | 21.58% |
 
-[Comparison21](../ocr-july-comparison-21.json) uses fixed identical PNGs and references
+[Comparison21](../ocr-experiments/ocr-july-comparison-21.json) uses fixed identical PNGs and references
 sealed before alternate OCR. References are unblinded assistant readings, not human
 gold or whole-article error rates. The established Tesseract alternate configuration
 uses `eng` for code and `kor+eng` for other text. Consequently the Korean-string
@@ -1672,7 +1672,7 @@ executed, and exact typeset dots, spacing and return-marker bytes are not certif
 | p105r10 — directory screen | 0.00% | 5.00% |
 | p106r18 — assembly excerpt | 0.00% | 18.52% |
 
-[Comparison22](../ocr-july-comparison-22.json) uses identical PNGs and assistant
+[Comparison22](../ocr-experiments/ocr-july-comparison-22.json) uses identical PNGs and assistant
 references sealed before alternate OCR. These are unblinded samples, not human
 gold or whole-article accuracy. Compact CER ignores whitespace and cannot
 certify command syntax or literal spacing. The routing heuristic now considers
@@ -1719,7 +1719,7 @@ No command execution, syntax repair or exact-spacing certification is claimed.
 | p111r03 — assembly rows/comments | 0.00% | 4.46% |
 | p113r02 — CAT directory rows | 3.05% | 16.79% |
 
-[Comparison23](../ocr-july-comparison-23.json) uses identical PNGs and references
+[Comparison23](../ocr-experiments/ocr-july-comparison-23.json) uses identical PNGs and references
 sealed before alternate OCR. References are unblinded assistant readings, not human
 gold. Typeset punctuation and the provisional comma-like mark affect these scores;
 compact CER ignores whitespace and is not whole-article or executable-code accuracy.
@@ -1773,7 +1773,7 @@ crops retained; drawn rules are omitted and arrow positioning is approximate.
 | p122r19 — ADD operand examples | 0.00% | 5.56% |
 | p123r19 — addressed assembly rows | 0.00% | 13.25% |
 
-[Comparison24](../ocr-july-comparison-24.json) uses identical PNGs and references
+[Comparison24](../ocr-experiments/ocr-july-comparison-24.json) uses identical PNGs and references
 sealed before alternate OCR. The arithmetic score includes Qwen's added dashed
 divider and arrow/label placement; it is not a pure digit-accuracy result. Samples
 are unblinded assistant references, not human gold or whole-article accuracy. The
@@ -1825,7 +1825,7 @@ source damage and recovery confound any causal engine-cost comparison.
 | p126r23 — ADC HL opcode row | 23.91% | 71.74% |
 | p127r15 — OR assembly sample | 0.00% | 9.62% |
 
-[Comparison25](../ocr-july-comparison-25.json) uses the four preselected identical
+[Comparison25](../ocr-experiments/ocr-july-comparison-25.json) uses the four preselected identical
 PNGs and references sealed before alternate OCR. The rerouted ADC HL sample has
 a bounded512-token Qwen alternate (completed normally); the different cap is
 recorded. Table scores include flag/arrow typography and editorial slash separators
@@ -1895,7 +1895,7 @@ were not copied from the earlier program.
 | p131r15 — DATA rows310–350 | 4.51% | 58.65% |
 | p134r10 — wrapped sine formula | 0.00% | 47.62% |
 
-[Comparison26](../ocr-july-comparison-26.json) uses preselected identical PNGs and
+[Comparison26](../ocr-experiments/ocr-july-comparison-26.json) uses preselected identical PNGs and
 assistant references sealed before alternates. Compact CER ignores whitespace;
 it does not certify physical-wrap preservation, whole-article accuracy or human
 acceptance. The primary table failure and seven omitted characters occurred
@@ -1959,7 +1959,7 @@ the scan; output values were not reconstructed by executing or sorting the code.
 | p142r03 — compiler source/offsets | 11.60% | 23.70% |
 | p142r09 — sorted numeric output | 2.53% | 10.13% |
 
-[Comparison27](../ocr-july-comparison-27.json) uses preselected identical crops and
+[Comparison27](../ocr-experiments/ocr-july-comparison-27.json) uses preselected identical crops and
 unblinded assistant references sealed before alternates. Both Tesseract-primary
 samples received bounded512-token Qwen alternates and completed normally.
 Whitespace, handwritten glyph conventions and printed divider representation
@@ -2026,7 +2026,7 @@ original images; the table and robot notice also have separate transcriptions.
 | p146r09 — CMOS process parameters | 0.00% | 9.88% |
 | p147r21 — ruled system table | 2.63% | 30.70% |
 
-[Comparison28](../ocr-july-comparison-28.json) uses preselected identical PNGs and
+[Comparison28](../ocr-experiments/ocr-july-comparison-28.json) uses preselected identical PNGs and
 unblinded assistant references sealed before alternate recognition. Tesseract
 uses kor+eng throughout; the two Tesseract-primary Qwen alternates have512-token
 caps and completed normally. Compact CER ignores whitespace and reflects table
@@ -2089,7 +2089,7 @@ explicitly provisional. There are37 review flags; human proofreading is mandator
 | p151r28 — CMOS identifiers | 0.00% | 17.02% |
 | p153r26 — GaAs technical prose | 0.00% | 16.85% |
 
-[Comparison29](../ocr-july-comparison-29.json) uses preselected identical PNGs and
+[Comparison29](../ocr-experiments/ocr-july-comparison-29.json) uses preselected identical PNGs and
 assistant references sealed before alternates, unblinded and not human gold.
 Tesseract uses kor+eng throughout. The single Tesseract-primary sample's Qwen
 alternate completed within its512-token cap. Compact CER ignores whitespace;
@@ -2148,7 +2148,7 @@ representations; no code was executed or inferred.
 | p155r14 — Apple hardware specifications | 1.61% | 19.35% |
 | p157r24 — Lisp hardware specifications | 1.30% | 2.60% |
 
-[Comparison30](../ocr-july-comparison-30.json) uses preselected identical PNGs with
+[Comparison30](../ocr-experiments/ocr-july-comparison-30.json) uses preselected identical PNGs with
 unblinded assistant references sealed before alternates. Tesseract uses kor+eng;
 the one Tesseract-primary Qwen alternate completed within512 tokens. Compact CER
 ignores whitespace but counts superscript and Roman-numeral representation.
@@ -2229,7 +2229,7 @@ none was reconstructed from computed values. Human review is mandatory.
 | p165r06 — complete dot-matrix table | 13.80% | 68.40% |
 | p168r06 — mixed-language title commands | 5.26% | 15.79% |
 
-[Comparison31](../ocr-july-comparison-31.json) uses preselected identical PNGs.
+[Comparison31](../ocr-experiments/ocr-july-comparison-31.json) uses preselected identical PNGs.
 Assistant references were sealed before new alternates; the earlier table probe
 had already informed routing. Tesseract uses English for the table and kor+eng
 for other samples, including commands. The one Tesseract-primary Qwen alternate
@@ -2292,7 +2292,7 @@ in reading order. Human review remains mandatory.
 | p173r28 — PL/I ADDQ header/declaration | 1.59% | 44.44% |
 | p173r32 — faint DELETEQ ending | 22.22% | 73.02% |
 
-[Comparison32](../ocr-july-comparison-32.json) uses preselected identical PNGs,
+[Comparison32](../ocr-experiments/ocr-july-comparison-32.json) uses preselected identical PNGs,
 with assistant references sealed before alternates. Tesseract uses kor+eng for
 prose and eng for code. The T-primary Qwen alternate completed within512 tokens.
 The faint ending's reference is provisional, so its CER measures agreement with
@@ -2361,7 +2361,7 @@ fact, command or hardware specification was repaired or execution-verified.
 | p178r27 — technical AWK prose | 0.00% | 8.16% |
 | p181r05 — four model/memory rows | 0.00% | 10.81% |
 
-[Comparison33](../ocr-july-comparison-33.json) uses preselected identical PNGs,
+[Comparison33](../ocr-experiments/ocr-july-comparison-33.json) uses preselected identical PNGs,
 unchanged by the page177 crop revision. References were sealed before alternates;
 they remain unblinded assistant readings, not human gold. Both engines used the
 same images; Tesseract kor+eng throughout. The T-primary Qwen alternate completed
@@ -2430,7 +2430,7 @@ work. These measurements do not establish causal paid-token savings by engine.
 | p198r23 — 4532 truth table | 31.58% | 88.95% |
 | p199r17 — first two KEY rows | 0.00% | 31.58% |
 
-[Comparison34](../ocr-july-comparison-34.json) uses identical preselected PNGs and
+[Comparison34](../ocr-experiments/ocr-july-comparison-34.json) uses identical preselected PNGs and
 assistant source references sealed before alternates. References are unblinded,
 not human gold. Tesseract uses kor+eng on prose and eng on table/code. Both
 T-primary Qwen alternates completed below the512-token limit. Compact CER ignores
@@ -2499,7 +2499,7 @@ separate window. These observations do not isolate per-engine paid savings.
 | p205r23 — monitor rows7–12 | 0.50% | 10.45% |
 | p206r23 — small monitor rows94–99 | 1.82% | 26.82% |
 
-[Comparison35](../ocr-july-comparison-35.json) uses preselected identical PNGs.
+[Comparison35](../ocr-experiments/ocr-july-comparison-35.json) uses preselected identical PNGs.
 Assistant references were sealed before alternates and remain unblinded, not human
 gold. Code references retain printed column order, avoiding a CER penalty for the
 canonical export's editorial STAT-first layout. Tesseract uses kor+eng prose and
@@ -2731,7 +2731,7 @@ readings. Cached input and reasoning output are subsets, not additional totals.
 No second paid correction was performed, so these observations cannot establish
 causal paid-token savings for either engine.
 
-[Comparison39](../ocr-july-comparison-39.json) uses four preselected identical PNGs,
+[Comparison39](../ocr-experiments/ocr-july-comparison-39.json) uses four preselected identical PNGs,
 with unblinded assistant references sealed before new alternates. The already-seen
 prose probe is reused without another call; its cost belongs to preparation.
 
@@ -2786,7 +2786,7 @@ rechecks that corrected an assistant draft reading, and helper/index preparation
 This is not a paired paid-correction experiment. Do not infer per-engine paid
 savings, or add nested recognition/failed compute again to raw time.
 
-[Comparison40](../ocr-july-comparison-40.json) uses source-reviewed, unblinded
+[Comparison40](../ocr-experiments/ocr-july-comparison-40.json) uses source-reviewed, unblinded
 assistant references sealed before alternate OCR. Two initially named crops
 contained custom graphics and were replaced with adjacent ordinary-code crops
 during source inspection, before references and alternate scores. Consequently,
@@ -2846,7 +2846,7 @@ Qwen omitted two initial continuation digits, inserted a DATA value and repeated
 a music unit elsewhere. Source review repaired those transcription errors;
 original RESTORE2520 and dangling-looking quotes were retained without repair.
 
-[Comparison41](../ocr-july-comparison-41.json) uses four plain crops selected after
+[Comparison41](../ocr-experiments/ocr-july-comparison-41.json) uses four plain crops selected after
 primary OCR/source review, before alternate scores. References are unblinded
 assistant readings, not human gold. The samples are exploratory and exclude
 custom graphics and unreadable digits.
@@ -2915,7 +2915,7 @@ extra repeated DATA values. The printed DATA contains one missing comma:
 That original omission, unusual IF forms and provisional faded values remain
 unchanged and flagged. The program has not been executed.
 
-[Comparison42](../ocr-july-comparison-42.json) uses identical PNGs and assistant
+[Comparison42](../ocr-experiments/ocr-july-comparison-42.json) uses identical PNGs and assistant
 source references sealed before alternate OCR. Three samples were preselected;
 p227r18 was replaced by p227r20 after source review to exclude editorial glyph
 markers. The set is exploratory, unblinded, and not entirely preselected or human gold.
@@ -2975,7 +2975,7 @@ correction, joins, crop repair, terminal-status verification/recovery and helper
 preparation. Export and evaluation are separate. No causal paid-cost comparison
 can be inferred from these observations.
 
-[Comparison43](../ocr-july-comparison-43.json) retains all four original samples,
+[Comparison43](../ocr-experiments/ocr-july-comparison-43.json) retains all four original samples,
 selected after the rejected prose probe and before primary batch OCR. References
 were source-reviewed and sealed before the remaining alternates/scores. They are
 unblinded assistant readings, not human gold. Neither revised crop is an evaluation
@@ -3049,7 +3049,7 @@ must not simply be added. These measurements do not establish causal paid-token
 savings from either engine.
 
 Four samples were selected before primary OCR, with source references sealed
-before alternate OCR. Compact CER in [comparison44](../ocr-july-comparison-44.json):
+before alternate OCR. Compact CER in [comparison44](../ocr-experiments/ocr-july-comparison-44.json):
 
 | Sample | Qwen | Tesseract |
 | --- | ---: | ---: |
@@ -3107,7 +3107,7 @@ The correction window includes source review, field checks, crop repair, recover
 and helper preparation. Export and evaluation are separate; no causal paid-token
 savings claim follows from comparing different material.
 
-[Comparison45](../ocr-july-comparison-45.json) favors Qwen on all four samples:
+[Comparison45](../ocr-experiments/ocr-july-comparison-45.json) favors Qwen on all four samples:
 compact CER Q/T is0.00/9.38%,0.00/8.08%,0.57/10.92%,and0.00/15.56%.
 The four IDs were selected before primary OCR, but two sample boundaries changed
 before references were sealed and alternates run. The obsolete probe image was
@@ -3163,7 +3163,7 @@ and reused as an alternate. Correction includes source rechecks,DATA/literal/
 formula checks,joins,crop repair and helper preparation; export/evaluation are
 separate. Different material and workflow prevent a causal paid-token claim.
 
-[Comparison46](../ocr-july-comparison-46.json) compact CER Q/T:
+[Comparison46](../ocr-experiments/ocr-july-comparison-46.json) compact CER Q/T:
 reverse introduction1.23/7.41%,plain BASIC0.00/5.51%,memory explanation2.44/7.32%,
 printer prose1.49/13.43%. All four original sample images stayed unchanged and
 references were sealed before the remaining alternates. References are unblinded
@@ -3466,10 +3466,10 @@ preview are still required to complete the goal.
 
 All36 articles across225 source pages are restored and available in the
 [July reading-room preview](http://127.0.0.1:4188/archive/#/issues/maso-1984-07).
-Human acceptance remains pending. [Accounting](../ocr-july-accounting.json) reconciles
+Human acceptance remains pending. [Accounting](../ocr-experiments/ocr-july-accounting.json) reconciles
 42 TOC entries as36 bodies and six headings.
 
-The [decision report](../OCR-JULY-DECISION.md) and [reproducible metrics](../ocr-july-metrics.json)
+The [decision report](../OCR-JULY-DECISION.md) and [reproducible metrics](../ocr-experiments/ocr-july-metrics.json)
 retain raw accuracy,timing bounds,retries,paid cached/uncached/output usage,
 evaluation and workflow overhead.206 ordinary crops score2.35% Qwen versus22.56%
 Tesseract compact CER;209 matched timed crops take805.51s versus41.42s. Index52

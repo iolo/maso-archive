@@ -43,3 +43,6 @@ bodies preserve all content except recorded heading-level/link adjustments.
 Byte offsets describe the initial migration; use destination anchors for lookup
 after updating summaries or appending new checkpoints. Keep migrated record
 bodies and anchors intact; a later reorganization must update their locations.
+Links to OCR JSON evidence were rebased when those files moved to
+[`docs/ocr-experiments`](../ocr-experiments/README.md); the migration map records
+the earlier snapshot.

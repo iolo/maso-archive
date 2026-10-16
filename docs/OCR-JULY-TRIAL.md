@@ -6,8 +6,8 @@ bounded Qwen assistance for difficult prose or code and layout/coverage review.
 
 - [Consolidated July findings](OCR-JULY-DECISION.md) retain the useful accuracy,
   runtime, cost-accounting results and limitations.
-- [Metrics](ocr-july-metrics.json), [usage](ocr-july-usage.json) and
-  [progress](ocr-july-progress.json) remain unchanged.
+- [Metrics](ocr-experiments/ocr-july-metrics.json), [usage](ocr-experiments/ocr-july-usage.json) and
+  [progress](ocr-experiments/ocr-july-progress.json) remain unchanged.
 - [Full trial and checkpoint history](history/OCR-JULY-TRIAL-2026-10-14.md)
   preserves assignments, comparisons, recoveries and artifact references.
 

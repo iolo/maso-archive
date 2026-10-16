@@ -121,7 +121,7 @@ usage/time. Actual savings remain unmeasured until comparable review records exi
 ## First mapped-crop trial — 2026-10-09
 
 Private run: `private/ocr-qwen3-vl/workflow-03/`. Public, transcription-free
-[measurements](../ocr-workflow-measurements.json) were generated with:
+[measurements](../ocr-experiments/ocr-workflow-measurements.json) were generated with:
 
 ```sh
 python3 -m tools.ocr_workflow_report \
@@ -252,7 +252,7 @@ Successful recognition used58.72s and27,287local tokens, excluding rendering,
 startup and review; sampled peak GPU was7,842MiB. An initial crop-mapping attempt
 is retained and adds58.63s/27,309tokens. This is a practical checkpoint, not a
 controlled accuracy/savings measurement. Human time and capable-model usage are
-unmeasured. [Sanitized checkpoint/pins](../ocr-june-progress.json) includes both runs.
+unmeasured. [Sanitized checkpoint/pins](../ocr-experiments/ocr-june-progress.json) includes both runs.
 
 Private review packets include all regions, including agreements:
 
@@ -292,14 +292,14 @@ row order and uses five cells per row without inferred code repair. Qwen's sole
 scored cell difference is dash typography (em dash versus reference minus), not
 an established substantive error. An additional
 eng-only Tesseract table run scores265/312; its Korean example cells still count.
-[Full measurements and limits](../ocr-june-batch04-comparison.json) include per-crop
+[Full measurements and limits](../ocr-experiments/ocr-june-batch04-comparison.json) include per-crop
 results, settings, image pins and sampled resources.
 
 Tesseract is faster at recognition on these crops. Qwen's cleaner drafts suggest
 less downstream correction work, but that effort and paid-token savings remain
 unmeasured. Corrected six-page Qwen preparation took89.95s including render/startup;
 69.03s was regional inference. An initial table-boundary attempt adds90.19s and is
-retained in [checkpoint accounting](../ocr-june-progress.json). New geometry requires
+retained in [checkpoint accounting](../ocr-experiments/ocr-june-progress.json). New geometry requires
 native-size boundary inspection; readable model output alone is not proof of a
 complete crop. No automatic acceptance or publication occurred.
 
@@ -328,7 +328,7 @@ whitespace, which can hide errors inside code literals. The additional row check
 preserves spaces inside single quotes while ignoring alignment elsewhere; it
 requires one exact printed line-number match. This strict score measures source
 transcription, not executable correctness. No assembly or execution was performed.
-[Measurements](../ocr-june-batch05-comparison.json) retain sample hashes and resources.
+[Measurements](../ocr-experiments/ocr-june-batch05-comparison.json) retain sample hashes and resources.
 
 Source checking found an invented comment marker on ORG, an EOPEN misreading,
 quoted-character errors and shortened banners. Printed source misspellings and
@@ -348,7 +348,7 @@ indexes retain156 rows including headers; their projected text is checked exact.
 Nineteen source readings remain unresolved and all96 regions await human review.
 
 Two code crops were selected before inference and their assistant source references
-fixed before Tesseract. [Measurements](../ocr-june-batch06-comparison.json):
+fixed before Tesseract. [Measurements](../ocr-experiments/ocr-june-batch06-comparison.json):
 
 | Diagnostic | Qwen | Tesseract |
 | --- | ---: | ---: |
@@ -379,7 +379,7 @@ See the [consolidated decision report](../OCR-JUNE-DECISION.md) for weighted acc
 
 All 38 canonical article bodies are now assembled across 216 source pages, with
 seven non-owning headings accounting for all 45 contents entries. The
-[coverage ledger](../ocr-june-accounting.json) separates availability from review:
+[coverage ledger](../ocr-experiments/ocr-june-accounting.json) separates availability from review:
 all 38 are readable and assistant sample-reviewed, with zero human acceptances.
 The packages contain 3,082 mapped regions and 325 explicit unresolved-text flags;
 these flags are review aids, not an exhaustive error count.
@@ -394,11 +394,11 @@ remain explicit scan-linked placeholders. No program is certified executable.
 
 The final appendix comparison covers prose, a name/address table and editor
 commands: compact CER 0%/0%/6.11% for Qwen versus 4%/4.88%/54.15% for Tesseract.
-[Index scores](../ocr-june-batch41-comparison.json) separately retain a post-hoc
+[Index scores](../ocr-experiments/ocr-june-batch41-comparison.json) separately retain a post-hoc
 leader-normalized diagnostic because dotted leaders distort edit distance. All
 comparisons use assistant scan-corrected Qwen-derived references, fixed before
 Tesseract but unblinded; none is independent human gold or a whole-issue accuracy
-estimate. [Progress](../ocr-june-progress.json) records individual timing, resources,
+estimate. [Progress](../ocr-experiments/ocr-june-progress.json) records individual timing, resources,
 failures, cached resumes and package hashes rather than extrapolating savings.
 
 The [complete reading-room preview](../READING-ROOM.md) is the next stage: review
@@ -414,7 +414,7 @@ The maintainer selected July1984 for the next trial. See [the trial plan and
 measurements](OCR-JULY-TRIAL.md) for opposite engine assignments across content
 categories, actual assistant usage accounting, and matched raw-OCR samples.
 Twenty-two complete July article bodies are recorded in
-[July progress](../ocr-july-progress.json), including the fully assembled CP/M and
+[July progress](../ocr-experiments/ocr-july-progress.json), including the fully assembled CP/M and
 Z80 lessons, computer graphics and Apple FORTRAN. Fourteen bodies remain incomplete, including the partly restored Information Radar;
 six unpaginated TOC parent headings are tracked separately. All human acceptances
 remain pending.

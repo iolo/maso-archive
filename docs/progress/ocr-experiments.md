@@ -30,7 +30,7 @@ These entries do not authorize restarting the experiments.
   the diagram page's middle column and merged the prose inset. Automatic layout
   is not reliable enough to replace reviewed region maps on this evidence.
 - `docs/OCR-QWEN3-VL.md` documents commands, methodology, limitations and measured
-  results; `docs/ocr-qwen3-vl-benchmark.json` retains sanitized measurements.
+  results; `docs/ocr-experiments/ocr-qwen3-vl-benchmark.json` retains sanitized measurements.
   Original transcriptions, images and raw responses remain under ignored private
   directories. No historical restoration package or source was modified.
 - Validation: 10 new OCR tests, 117 existing PDF tests and 21 TOC tests passed;
@@ -62,7 +62,7 @@ These entries do not authorize restarting the experiments.
   per-run OS file lock prevents overlapping workers; final measurements use only
   fresh serial `workflow-03`.
 - `docs/OCR-WORKFLOW.md` documents CLI, actual review recording, results and links
-  to the three private review packets. `docs/ocr-workflow-measurements.json`
+  to the three private review packets. `docs/ocr-experiments/ocr-workflow-measurements.json`
   contains only sanitized measurements. `tools.ocr_workflow_report` computes
   dependency-inclusive costs and region regressions without inventing savings.
 - Validation: 24 OCR/workflow tests pass, including reference isolation, cache

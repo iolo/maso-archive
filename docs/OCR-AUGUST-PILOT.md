@@ -14,7 +14,7 @@ Selection and order were frozen before viewing either engine's output.
 This pilot follows the user's October 12 request
 to compare paid restoration cost with local CPU, GPU and runtime priced at zero.
 
-The [setup usage audit](ocr-august-pilot-setup-usage.json) records selection and
+The [setup usage audit](ocr-experiments/ocr-august-pilot-setup-usage.json) records selection and
 protocol work through2026-10-12 00:40:48 UTC:39,461 uncached input,1,848,320 cached
 input and10,510 output tokens (3,350 reasoning tokens already included in output).
 This is shared experimental overhead, not either route's correction cost. The
@@ -46,7 +46,7 @@ Figures, diagrams and screen images remain source images in both restorations;
 the shared map will define exactly which surrounding text and table fields need
 transcription before OCR. Graphic-glyph policy must be identical across routes.
 
-The [selection manifest](ocr-august-pilot-selection.json) pins the source PDF,
+The [selection manifest](ocr-experiments/ocr-august-pilot-selection.json) pins the source PDF,
 canonical contents, page sets, categories and balanced processing order. The first
 two pairs check instrumentation on prose and code. Engine-first order is randomized
 within that two-pair block and within the remaining six, with seed198408 and four
@@ -205,8 +205,8 @@ independent correction stage below began. The first-two instrumentation gate has
 now passed; the other six articles follow next. No reading-room rebuild
 was performed.
 
-The [progress manifest](ocr-august-pilot-progress.json) records artifact pins and
-completion state. The [coordinator usage audit](ocr-august-pilot-usage.json) records
+The [progress manifest](ocr-experiments/ocr-august-pilot-progress.json) records artifact pins and
+completion state. The [coordinator usage audit](ocr-experiments/ocr-august-pilot-usage.json) records
 shared setup, preparation and orchestration through its explicit cutoff, including
 between-window overhead. Independent correction-session usage is reported separately.
 Coordinator helper work overlapped raw runs, so those paid tokens are shared
@@ -232,7 +232,7 @@ source inspection, correction, export checks and final reply. Worker-declared
 time excludes initial instruction loading and final reply; the longer audit window
 also includes observation delay and is not active correction time. The native
 response IDs are distinct across the two sessions and absent from the coordinator
-log. The [independent usage audit](ocr-august-pilot-correction-usage.json) retains
+log. The [independent usage audit](ocr-experiments/ocr-august-pilot-correction-usage.json) retains
 counts, model/settings, artifact pins and timing scopes without conversation text.
 
 All 14 corrected regions agree after removing whitespace. Three differ in spacing.
@@ -446,7 +446,7 @@ Qwen route 4.17% higher under that same hypothetical rate vector. Neither figure
 is an actual bill or an estimate of inherent engine recovery risk.
 
 The [results report](OCR-AUGUST-PILOT-RESULTS.md) and
-[machine-readable results](ocr-august-pilot-results.json) consolidate all eight
+[machine-readable results](ocr-experiments/ocr-august-pilot-results.json) consolidate all eight
 articles, matched/recovery cost, raw/correction time, source fidelity and shared
 experimental overhead. Sixteen matched raw arms plus two original coverage-recovery
 arms were executed. No automatic whole-issue expansion or reading-room build was

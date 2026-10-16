@@ -128,6 +128,6 @@ alone will not resolve the causal cost question: a future bounded, matched
 correction experiment would be needed, if that evidence is worth its extra cost.
 
 Reproduce with `PYTHONPATH=src:. python3 -m tools.ocr_qwen.consolidate_july`.
-[Metrics and evidence pins](ocr-july-metrics.json), [usage audit](ocr-july-usage.json),
-[progress](ocr-july-progress.json), and [June context](OCR-JUNE-DECISION.md) retain
+[Metrics and evidence pins](ocr-experiments/ocr-july-metrics.json), [usage audit](ocr-experiments/ocr-july-usage.json),
+[progress](ocr-experiments/ocr-july-progress.json), and [June context](OCR-JUNE-DECISION.md) retain
 the evidence and limitations. Raw transcriptions and native responses remain private.

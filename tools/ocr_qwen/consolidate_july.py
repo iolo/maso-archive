@@ -31,7 +31,7 @@ def window_totals(windows):
 
 
 def build(root=ROOT):
-    docs = root / 'docs'
+    docs = root / 'docs/ocr-experiments'
     private = root / 'private/pdf-restoration/12-1984-07-comparison'
     progress, paid = (read(docs / f'ocr-july-{name}.json') for name in ('progress', 'usage'))
     assert progress['completed_article_bodies'] == 36 and progress['remaining_article_bodies'] == 0
@@ -114,6 +114,6 @@ def build(root=ROOT):
 
 if __name__ == '__main__':
     result = build()
-    destination = ROOT / 'docs/ocr-july-metrics.json'
+    destination = ROOT / 'docs/ocr-experiments/ocr-july-metrics.json'
     destination.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({k: result[k] for k in ('counts', 'paired_raw_timing', 'raw_timing')}, indent=2))

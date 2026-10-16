@@ -170,7 +170,7 @@ its README's abbreviated `json_schema` example used a different shape.
 
 ## Measured comparison — 2026-10-09
 
-Run: [sanitized measurements](ocr-qwen3-vl-benchmark.json); complete local evidence in
+Run: [sanitized measurements](ocr-experiments/ocr-qwen3-vl-benchmark.json); complete local evidence in
 `private/ocr-qwen3-vl/benchmark-02/` (including its checked SHA-256 manifest).
 All 18 runs completed successfully. Both repeats gave identical accuracy scores.
 

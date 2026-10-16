@@ -32,7 +32,7 @@ OCR disclosure, loaded scans, mobile layout without page overflow, and the final
 region of the assembled history. No browser errors were observed in the resumed
 review session. Private results and screenshots remain ignored by Git.
 
-See [July accounting](ocr-july-accounting.json), [progress](ocr-july-progress.json)
+See [July accounting](ocr-experiments/ocr-july-accounting.json), [progress](ocr-experiments/ocr-july-progress.json)
 and the [OCR decision report](OCR-JULY-DECISION.md). June's separate preview remains
 unchanged. Human review, uncertain glyph resolution and code execution validation
 remain distinct from this completed restoration-and-preview delivery.
@@ -75,8 +75,8 @@ Use a fresh output for any further staging; each package and ledger is pinned.
 
 This preview preserves the previous 146 scan articles and CD collection. Earlier
 June preview directories and the one-article phoneme preview at port4186 remain
-unchanged. Data and screenshots remain ignored by Git. [Progress](ocr-june-progress.json)
-and [whole-issue accounting](ocr-june-accounting.json) record package pins and
+unchanged. Data and screenshots remain ignored by Git. [Progress](ocr-experiments/ocr-june-progress.json)
+and [whole-issue accounting](ocr-experiments/ocr-june-accounting.json) record package pins and
 validation. Full dataset integrity, prior-file preservation, complete TOC
 accounting and the production build passed. Browser checks cover the 38-article
 issue page, assembled history, appendix tables and source/correction views with

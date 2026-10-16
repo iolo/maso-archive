@@ -16,6 +16,10 @@ instructions to resume old trials, repeat OCR or rebuild the reading room.
 [Snapshot provenance](OCR-HISTORY-MANIFEST.json) records the original Git revision,
 source/archive hashes and relative-link rewrites. Prose, measurements and commands
 are preserved; relative Markdown destinations are rebased for this directory.
-Machine-readable experiment metrics, private evidence and completed packages were
-not moved or rewritten. Historical defaults, counts, pending states and test
+The archive hashes describe the initial 2026-10-14 snapshots, before the later
+OCR data link rebasing.
+Machine-readable experiment metrics now live in [OCR experiment data](../ocr-experiments/README.md);
+their contents, private evidence and completed packages were not rewritten.
+Relative links in these snapshots were rebased for the data move. Historical
+defaults, counts, pending states and test
 baselines describe their own checkpoints; current handoff takes precedence.

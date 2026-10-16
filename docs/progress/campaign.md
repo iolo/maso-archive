@@ -18,7 +18,7 @@ remain pending. No reading-room rebuild is queued.
 Start with [the short OCR handoff](../../PLAN-OCR.md) and
 [successor notes](../SUCCESSOR-NOTES.md). The accepted policy is mapped Tesseract
 by default, with opt-in Qwen assistance and explicit layout/coverage review.
-[August progress](../ocr-august-progress.json) and
+[August progress](../ocr-experiments/ocr-august-progress.json) and
 `build/pdf-restoration/13-1984-08-closeout/report.json` hold the completed outcome.
 
 The detailed records below are historical evidence. Read a specific checkpoint

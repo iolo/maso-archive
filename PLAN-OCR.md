@@ -19,7 +19,7 @@ paired OCR or a new engine comparison.
 
 - August 1984 is complete at `build/pdf-restoration/13-1984-08-reference/issue.json`;
   its report is `build/pdf-restoration/13-1984-08-closeout/report.json` and its
-  machine-readable [ledger](docs/ocr-august-progress.json) remains preserved.
+  machine-readable [ledger](docs/ocr-experiments/ocr-august-progress.json) remains preserved.
 - September 1984 is complete under the canonical-TOC JSON/assets scope: 37
   readable, assistant sample-reviewed articles and six non-owning headings.
   The [issue index](build/pdf-restoration/14-1984-09-reference/issue.json),
@@ -95,11 +95,11 @@ specific unresolved decision and a bounded design; preserve the existing results
 
 - [August comparison report](docs/OCR-AUGUST-PILOT-RESULTS.md): paired correction
   tokens, runtime, observed source errors and price sensitivity. Full vectors:
-  [results JSON](docs/ocr-august-pilot-results.json).
+  [results JSON](docs/ocr-experiments/ocr-august-pilot-results.json).
 - Raw accuracy/resources: [initial benchmark](docs/OCR-QWEN3-VL.md),
   [June report](docs/OCR-JUNE-DECISION.md), [July report](docs/OCR-JULY-DECISION.md).
   CER/WER, table-cell scores and final acceptance measure different things.
-- [August production usage](docs/ocr-august-usage.json): preparation, correction,
+- [August production usage](docs/ocr-experiments/ocr-august-usage.json): preparation, correction,
   export, evaluation/recovery and reporting windows, plus between-window usage.
   Local inference calls/retries/routes are in the August progress ledger.
 - Separate paid uncached input, cached input and output. Reasoning is included in
