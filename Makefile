@@ -298,3 +298,22 @@ build-cd3-reference:
 
 check-cd3-reference:
 	$(PYTHON) -m tools.verify_cd3_reference
+
+# Unified, private volunteer release. Earlier reference builds remain untouched.
+VOLUNTEER_OUTPUT ?= build/reading-room-volunteer
+VOLUNTEER_BASE ?= ./
+VOLUNTEER_PORT ?= 4189
+VOLUNTEER_INPUT ?= build/reading-room-routed-july-complete/data
+VOLUNTEER_LEDGER ?= private/pdf-restoration/13-1984-08-closeout/export-ledger.json
+.PHONY: export-volunteer-reading-room build-volunteer-reading-room check-volunteer-reading-room preview-volunteer-reading-room
+export-volunteer-reading-room:
+	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.volunteer export --base $(VOLUNTEER_INPUT) --ledger $(VOLUNTEER_LEDGER) --data $(VOLUNTEER_OUTPUT)/data
+
+build-volunteer-reading-room:
+	cd web && READING_ROOM_OUTPUT=$(VOLUNTEER_OUTPUT) READING_ROOM_BASE=$(VOLUNTEER_BASE) npm run build
+
+check-volunteer-reading-room:
+	PYTHONPATH=src:. $(PYTHON) -m tools.reading_room.volunteer check --data $(VOLUNTEER_OUTPUT)/data
+
+preview-volunteer-reading-room:
+	cd web && READING_ROOM_OUTPUT=$(VOLUNTEER_OUTPUT) READING_ROOM_BASE=$(VOLUNTEER_BASE) npm run preview -- --port $(VOLUNTEER_PORT) --strictPort

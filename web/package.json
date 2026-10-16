@@ -2,6 +2,7 @@
   "name": "maso-reading-room",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://iolo.github.io/maso-archive",
   "type": "module",
   "scripts": {
     "dev": "vite",

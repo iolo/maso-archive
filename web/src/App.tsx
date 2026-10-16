@@ -6,6 +6,7 @@ import { type ArticleDoc, type ArticleSummary, type Block, type Catalog, type Is
 
 import { ScanArticle, availabilityLabel, sectionPath, verificationLabel } from './ScanArticle'
 import { TocImages } from './TocImages'
+import { ReviewNotebook, ReviewQueue } from './VolunteerReview'
 import type { TocGallery } from './data'
 
 type Theme = 'system' | 'light' | 'dark'
@@ -57,8 +58,8 @@ function Header({ issues, articles }: { issues: IssueSummary[]; articles: Articl
   useEffect(() => { if (selectedYear !== undefined) setYear(selectedYear) }, [selectedYear])
   return <header className="site-header"><div className="header-inner">
     <Link className="brand" to="/" aria-label="마이크로소프트웨어 읽기실 홈"><BookOpen size={21} strokeWidth={1.8} /><span>마이크로소프트웨어 <em>읽기실</em></span></Link>
-    <nav className="top-links" aria-label="주 메뉴"><Link to="/">호 목록</Link><Link to="/search">제목·글쓴이 검색</Link></nav>
-    <div className="header-tools"><label className="header-select"><span className="sr-only">연도</span><select aria-label="연도" value={year} onChange={e => setYear(e.target.value === '' ? '' : Number(e.target.value))}><option value="">연도</option>{years.map(y => <option key={y} value={y}>{y || '날짜 미확인'}</option>)}</select><ChevronDown size={13} /></label>
+    <nav className="top-links" aria-label="주 메뉴"><Link to="/">호 목록</Link><Link to="/review">자원봉사 검토</Link><Link to="/search">제목·글쓴이 검색</Link></nav>
+    <Link className="mobile-review-link" to="/review">검토</Link><div className="header-tools"><label className="header-select"><span className="sr-only">연도</span><select aria-label="연도" value={year} onChange={e => setYear(e.target.value === '' ? '' : Number(e.target.value))}><option value="">연도</option>{years.map(y => <option key={y} value={y}>{y || '날짜 미확인'}</option>)}</select><ChevronDown size={13} /></label>
       <label className="header-select"><span className="sr-only">월</span><select aria-label="월" value={selected && selectedYear === year ? selected : ''} onChange={e => e.target.value && navigate(issuePath(e.target.value))}><option value="">월</option>{issues.filter(i => i.year === year).map(i => <option value={i.id} key={i.id}>{i.nativeGroup ? i.label : `${String(i.month).padStart(2, '0')}월`}</option>)}</select><ChevronDown size={13} /></label>
       <form className="header-search" role="search" onSubmit={e => { e.preventDefault(); navigate(`/search?q=${encodeURIComponent(query)}`) }}><label className="sr-only" htmlFor="header-query">제목·글쓴이 검색</label><Search size={15} /><input id="header-query" value={query} onChange={e => setQuery(e.target.value)} placeholder="제목·글쓴이 검색" /><button aria-label="검색" type="submit"><ArrowRight size={15} /></button></form>
       <ThemeControl />
@@ -108,6 +109,7 @@ export function IssueCover({ issue, compact = false }: { issue: IssueSummary; co
 function Bookshelf({ catalog }: { catalog: Catalog }) {
   const groups = [...new Set(catalog.issues.map(i => i.year))]
   return <div className="bookshelf page-content"><div className="page-heading"><p className="eyebrow">월간 마이크로소프트웨어</p><h1>호 목록</h1><p>도서관 차례, CD1·CD2·CD3 전사 자료와 스캔 복원 글을 찾아보세요. CD2·CD3 묶음은 CD 날짜 표기이며 종이 잡지의 발행호와 대조 전입니다.</p></div>
+    <div className="reading-room-review-entry"><Link to="/review">자원봉사 검토 시작 →</Link><span>PDF 복원과 CD 자료를 대조하고 수정 제안을 남겨 주세요.</span></div>
     {catalog.tocGallery && <p><Link to="/toc-scans">차례 스캔 모음 <ArrowRight size={16} /></Link></p>}
     {catalog.sources && <p className="source-note">보충 글·원본 자료: {catalog.sources.filter(s => s.referencePath).map(s => <a key={s.disc} href={sourceUrl(s.referencePath!)} target="_blank" rel="noreferrer">{s.disc.toUpperCase()} 참조 자료 ↗ </a>)}</p>}
     {groups.map(year => <section key={year} className="year-section"><h2>{year || '날짜 미확인'}</h2><div className="issue-grid">{catalog.issues.filter(i => i.year === year).map(issue => <Link key={issue.id} className="issue-tile" to={issuePath(issue.id)}><IssueCover issue={issue} compact /><span className="issue-date">{issue.label}</span><strong>{issue.nativeGroup ? 'CD 날짜 묶음' : `${String(issue.month).padStart(2, '0')}월호`}</strong><span>{issue.textCount ? `읽기 자료 ${issue.textCount}편` : '차례만 있음'}</span><ArrowRight size={17} /></Link>)}</div></section>)}
@@ -125,6 +127,7 @@ function IssueOverview({ issue }: { issue: IssueDoc }) {
       <p>검토: {Object.entries(issue.scanRestoration.counts.verification).map(([state, count]) => `${verificationLabel(state as Parameters<typeof verificationLabel>[0])} ${count}`).join(' · ')}</p>
       <p>판독 불확실성과 수동 비트맵 교정 대기는 각 글의 교정 기록에 남아 있습니다.</p>
     </section>}
+    <p><Link to={`/review?issue=${encodeURIComponent(issue.issue.id)}`}>이 호 검토 목록 →</Link></p>
     <section className="article-index"><h2>읽기 자료</h2>{issue.articles.length ? <ul>{issue.articles.map(article => <li key={article.article_id}><Link to={articlePath(article.article_id)}>{article.title}</Link><span>{article.sourceKind === 'scan' && article.availability ? availabilityLabel(article.availability) : statusLabel(article.status)}{article.verification && ` · ${verificationLabel(article.verification)}`}</span></li>)}</ul> : <p>이 호의 읽기 본문은 준비되지 않았습니다. 왼쪽 차례의 제목은 볼 수 있습니다.</p>}</section>
   </div>
 }
@@ -250,7 +253,7 @@ function RoutedPage({ catalog }: { catalog: Catalog }) {
     <main id="main" tabIndex={-1} ref={focus}>
       {!issueId ? <Bookshelf catalog={catalog} /> : issue.loading || issue.error ? <DataState loading={issue.loading} error={issue.error} retry={issue.retry} /> : !issue.value ? <NotFound /> :
       params.entryId ? <TocDetail issue={issue.value} id={params.entryId} /> :
-      params.articleId ? article.loading || article.error ? <DataState loading={article.loading} error={article.error} retry={article.retry} /> : article.value ? <ArticleView doc={article.value} /> : <NotFound /> :
+      params.articleId ? article.loading || article.error ? <DataState loading={article.loading} error={article.error} retry={article.retry} /> : article.value ? <><ReviewNotebook doc={article.value} /><ArticleView doc={article.value} /></> : <NotFound /> :
       params.resource ? media.loading || media.error ? <DataState loading={media.loading} error={media.error} retry={media.retry} /> : media.value?.items.find(m => m.resource === params.resource) ? <MediaView issueId={issueId} media={media.value.items.find(m => m.resource === params.resource)!} /> : <NotFound /> :
       <IssueOverview issue={issue.value} />}
     </main>
@@ -267,6 +270,7 @@ export default function App() {
       <Route path="/issues/:issueId/toc/:entryId" element={<RoutedPage catalog={catalog.value} />} />
       <Route path="/issues/:issueId/media/:resource" element={<RoutedPage catalog={catalog.value} />} />
       <Route path="/articles/:articleId" element={<RoutedPage catalog={catalog.value} />} />
+      <Route path="/review" element={<main id="main" className="review-page" tabIndex={-1}><ReviewQueue catalog={catalog.value} /></main>} />
       <Route path="/search" element={<main id="main"><SearchView catalog={catalog.value} /></main>} />
       <Route path="/toc-scans" element={<main id="main"><TocGalleryView path={catalog.value.tocGallery} /></main>} />
       <Route path="*" element={<main id="main"><NotFound /></main>} />

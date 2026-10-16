@@ -1,5 +1,130 @@
 # Reading room
 
+## Unified volunteer reading room — October 14, 2026
+
+The current combined release is `build/reading-room-volunteer/`.
+For inexpensive hosting through a secret share URL, see
+[Deploy to Cloudflare R2 and Workers](DEPLOY-READING-ROOM.md).
+It contains every completed PDF restoration and the CD1/CD2/CD3 collection:
+
+| PDF issue | Article records |
+| --- | ---: |
+| 1983-11 | 35 |
+| 1984-02 | 37 |
+| 1984-03 | 38 |
+| 1984-05 | 36 |
+| 1984-06 | 38 |
+| 1984-07 | 36 |
+| 1984-08 | 37 |
+| PDF total | 257 |
+| CD1 / CD2 / CD3 total | 3,386 |
+
+There are 3,643 article records and 3,635 text downloads across 152 navigation
+records. These are not 152 distinct printed issues: empty library TOCs and
+native CD date groups retain their original identities. All known partial and
+unavailable states remain visible. No new PDF restoration or human acceptance
+is implied by this integration.
+
+```sh
+python3 -m http.server 4189 --bind 127.0.0.1 --directory build/reading-room-volunteer
+```
+
+Open <http://127.0.0.1:4189/#/review>. The cover shelf remains at
+`#/`; the review queue supports source, issue, personal status, and metadata
+search. Filters are in the URL. Lists load 60 entries at a time. PDF articles
+retain scan comparisons, original OCR, code, figures and correction evidence;
+CD articles retain text, code and original attachments.
+
+Open **검토 메모** above any article or scan region. Name is optional;
+choose **검토 중**, **수정 제안**, or **대조 완료**, and describe the location,
+current text, proposed correction and evidence. Input autosaves in this
+browser's local storage, with explicit failure feedback if storage is blocked
+or full. An individual memo can still be downloaded if local saving fails.
+
+Regional notes stay attached to their own region. A regional check alone never
+marks a whole article checked; any current-text correction proposal takes
+priority in the queue. Notes include issue/article identity, a relative deep
+link, text/package SHA-256 fingerprints, reviewer and timestamp. Old-text notes
+are excluded from current personal progress; the editor also warns when the
+restoration package changes. Historical restoration status remains unchanged.
+
+**내 검토 기록 내려받기** exports all saved notes as UTF-8 JSON. Deliver it to
+the review coordinator using your usual channel. There is no submission server,
+shared queue, account, claim/assignment, or automatic official approval. Data is
+specific to the browser and origin (including port); export before moving hosts
+or clearing browser storage. The app does not import review files.
+
+### Reproduce and validate
+
+The prepared July combined reader and final August closeout inputs are required.
+The export uses the original staging checker and preserves all prior reader
+files except the catalog/search/manifest and newly integrated issue indexes.
+August requires the same four private validation adapters used in its standalone
+closeout. `tools.reading_room.volunteer` verifies their exact SHA-256 hashes
+before installing them, then runs the standard exporter/checker. Missing or
+changed adapters fail closed; no restoration records are edited.
+
+```sh
+# Export once to a FRESH data output (existing data is intentionally refused).
+make export-volunteer-reading-room
+make check-volunteer-reading-room
+make build-volunteer-reading-room
+make preview-volunteer-reading-room
+```
+
+To reproduce while preserving an existing release, use a fresh output consistently:
+
+```sh
+make export-volunteer-reading-room VOLUNTEER_OUTPUT=build/reading-room-volunteer-rebuild
+make check-volunteer-reading-room VOLUNTEER_OUTPUT=build/reading-room-volunteer-rebuild
+make build-volunteer-reading-room VOLUNTEER_OUTPUT=build/reading-room-volunteer-rebuild
+make preview-volunteer-reading-room VOLUNTEER_OUTPUT=build/reading-room-volunteer-rebuild VOLUNTEER_PORT=4190
+```
+
+`VOLUNTEER_BASE` defaults to `./`, so the generated asset and data URLs resolve
+relative to `index.html`. Serve the entire output directory with any static
+HTTP server, at its root or inside a subdirectory. No Vite runtime, API server,
+URL rewrites, or SPA fallback is required; navigation uses hash routes.
+For example, from the repository root:
+
+```sh
+python3 -m http.server 4189 --bind 127.0.0.1 --directory build/reading-room-volunteer
+# Alternatively:
+npx serve build/reading-room-volunteer -l 4189
+```
+
+Both serve the reader at `http://localhost:4189/#/review`. Vite's
+`make preview-volunteer-reading-room` remains an optional convenience.
+The earlier build used absolute `/archive/` paths, which Vite preview mapped
+automatically. Ordinary static servers required a matching physical directory
+or mount. Rebuild with `make build-volunteer-reading-room` to remove that
+requirement. If intentionally using an absolute `VOLUNTEER_BASE`, the static
+host must serve the output at that URL prefix.
+
+The relative-path build was browser-checked on both Python `http.server` and
+the npm `serve` package, plus a subdirectory on Python's server. Each loaded
+the 3,643-record catalog, review queue, August PDF and CD3 article routes, and
+article reloads without HTTP failures or browser errors. The data manifest
+remained unchanged.
+
+Use an access-controlled static host when sharing the collection. Source PDFs, private
+restoration inputs and originals are not deployment inputs; the generated
+reader already includes its allowed derivatives and article packages. This
+release is local and private; no public deployment has been performed.
+
+Validation completed for this release: 58 focused Python tests, 24 frontend
+tests, TypeScript and the production build, the full data checker (including
+cover derivatives), and the exporter's prior-file preservation checks. Browser
+checks covered August scan images/corrections, note persistence after reload,
+separate article/region notes, individual and full JSON exports, all three CD
+source filters, empty search, pagination, CD text downloads, dark mode, and
+320px/390px mobile layouts. Temporary QA notes were removed from the test browser.
+Private screenshots and the inventory summary are in `output/playwright/`.
+Data manifest SHA-256:
+`67519c29b0b31108510677374314728fcd777e775190b5c1991b871dacb6e60b`.
+
+The historical previews below describe earlier datasets and remain intact.
+
 ## Complete July routed-OCR review preview
 
 The [July review preview](http://127.0.0.1:4188/archive/#/issues/maso-1984-07)
@@ -370,3 +495,49 @@ real issue/article/media/search flows, mobile layout and the static build.
 The real build is large because it ships original and converted media files;
 the browser loads only selected documents and images. Do not deploy or publish
 the private content without a separate decision about access and rights.
+
+## Build cleanup — October 14, 2026
+
+Twenty obsolete preview/test directories were retired, reclaiming about **108 GiB**.
+`build/` decreased from approximately 251 GiB to **143 GiB**. The removed groups
+were nine incremental June previews (the completed June reader remains), the
+repeated PDF pilot, three TOC validation readers, three cover-reader trials,
+three demo/nested builds, and the fallback cover-thumbnail cache.
+
+The current volunteer reader, July rebuild baseline, completed issue readers,
+CD references, canonical TOCs, prepared CD packages, and PDF restoration outputs
+remain in place. Other historical outputs with unresolved dependencies were
+kept. This was a conservative cleanup, not a claim that every remaining build
+is necessary to serve the site.
+
+The private cleanup record is `private/build-cleanup/2026-10-14/report.json`.
+It lists every removed directory, byte totals, retained-file hashes and snapshot
+hashes. All 886,430 removed regular files were hashed; unique bytes were copied
+and checked, and identical retained copies were verified before deletion.
+Compressed inventories preserve file locations, modes, timestamps and symlinks.
+The archive (unique files plus indexes and logs) occupies about **246 MiB**.
+
+To restore one historical preview at its original path:
+
+```sh
+python3 private/build-cleanup/2026-10-14/cleanup.py restore reading-room-qwen-june-through-car
+```
+
+Restoration refuses an existing destination or changed source bytes. It requires
+free space for the full restored copy. Historical staging scripts or old preview
+URLs that refer to removed directories require restoration first. The synthetic
+demo can instead be regenerated with `make demo-reading-room`.
+
+**The compact archive is not an independent backup.** Duplicate bytes are read
+from retained `reading-room`, `reading-room-pdf-pilot`,
+`reading-room-qwen-june-complete`, `reading-room-routed-july-complete`, and
+`reading-room-volunteer` data trees; exact source paths are in the inventories.
+Keep those files unchanged along with the cleanup archive if exact historical
+restoration is required. Both the archive and generated readers are Git-ignored.
+
+Post-cleanup validation passed: the complete volunteer reader still has all
+3,643 article records; the July baseline passes its full integrity check; all
+37 August input packages validate; and eight retained manifests are unchanged.
+Four cleanup tests covered lossless file/symlink restoration and rejection of
+changed candidates, restore sources, and snapshot inventories. The logs and
+validation records are beside the cleanup report.

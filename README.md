@@ -15,18 +15,32 @@ findings, metrics, commands and preserved [experiment history](docs/history/READ
 
 ## Read the archive
 
-To review the four PDF issues already integrated into the prepared reader
-(1983-11, 1984-02, 1984-03, 1984-05) alongside the existing CD collection:
+The unified volunteer reader includes **all seven restored PDF issues**
+(November 1983; February, March, May, June, July and August 1984) and **all
+three CDs**: 257 PDF article records plus 3,386 CD records. March's
+missing-source partial and the eight unresolved CD1 records remain visible.
 
 ```sh
-cd web
-READING_ROOM_OUTPUT=build/reading-room-restored READING_ROOM_BASE=/archive/ npm run preview -- --port 4184 --strictPort
+python3 -m http.server 4189 --bind 127.0.0.1 --directory build/reading-room-volunteer
 ```
 
-Open [the restored-issue reading room](http://127.0.0.1:4184/archive/).
-Its article pages include text, code downloads, original figures, scan regions
-and review records. March's missing-source partial remains visible. This
-prepared private build is separate from the older CD-only baseline below.
+Open [the volunteer reading room](http://127.0.0.1:4189/#/review).
+Filter by source, issue, personal review status, title or author. Open a PDF
+article's scan comparison to review regions beside corrected text and original
+OCR. **검토 메모** autosaves feedback locally; download the JSON and pass it to
+the coordinator. Nothing is submitted automatically or marked officially accepted.
+Browser data is specific to the host/port and should be exported before clearing it.
+
+The prepared static app is `build/reading-room-volunteer/`. It uses relative
+asset and data URLs and works with ordinary static servers, including Python's
+`http.server` and `npx serve build/reading-room-volunteer -l 4189`; Vite is only
+needed to build it. Rebuild the UI with
+`make build-volunteer-reading-room`; validate its data with
+`make check-volunteer-reading-room`. Reproduction, the pinned August adapters,
+and private static hosting are described in the [reading-room guide](docs/READING-ROOM.md).
+The [Cloudflare deployment guide](docs/DEPLOY-READING-ROOM.md) includes a resumable
+uploader and a Worker for sharing the collection through an unlisted URL.
+Earlier private previews and the CD-only baseline remain available below.
 
 With the prepared private data, start the existing build:
 
@@ -136,7 +150,7 @@ sample-reviewed articles and six non-owning headings. Its standalone index is
 `build/pdf-restoration/13-1984-08-closeout/report.json`. Source/correction ranges,
 asset integrity and a byte-identical issue rebuild pass. Human acceptance/full
 proofreading and historical code execution remain unverified. September 1984 is
-next and has not started. Reader integration is separate; no rebuild is queued.
+next and has not started. All seven completed issues are integrated in the volunteer reader above.
 See the [PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md)
 and the short [successor handoff](docs/SUCCESSOR-NOTES.md).
 
