@@ -1235,7 +1235,12 @@
       "listing_physical_rows": 51,
       "listing_logical_rows": 51,
       "listing_source_uncertainty_notes": 2,
-      "prior_files_verified": 5459
+      "prior_files_verified": 5459,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-07/preserved-work-inventory.json",
+        "sha256": "89c6d3b27710c2959b7d15e22dc5b976ec637b2979810f0b8bad38319b450127",
+        "bytes": 1274721
+      }
     }
   ],
   "next_checkpoint": {
