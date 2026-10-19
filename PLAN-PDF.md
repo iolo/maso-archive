@@ -24,18 +24,17 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-October 1984 is in progress: 18 readable, assistant sample-reviewed articles,
-one partial conversion program, two non-owning headings and20 of41 entries
-unresolved. Complete CP/M103–110,SPC input111–112 and Apple Fortran113–119 are
-selected. Conversion full source120–128 is verified; opening120–125 retains21
-regions,nine blocks,11 original images,10 regional spans and one source join.
-Eight complete BASIC panels retain332 numbered positions; photo and both source
-explanation tables remain original images with raw drafts unpromoted. All20 OCR
-tasks completed without failures/retries; three crops widened once before OCR,
-originals retained. Independent byte-identical rebuild passes. All nine source pages now have
-immutable native coverage; next assemble complete conversion120–128. Source bitmap/encoded-byte,
-internal code/table and execution limits remain explicit. Whole-issue closeout
-pending; no reading-room rebuild.
+October 1984 is in progress: 19 readable, assistant sample-reviewed articles,
+no partial articles, two non-owning headings and20 of41 entries unresolved.
+Complete conversion120–128 combines exact immutable natives:27 regions,nine
+reading blocks,17 original images,10 regional spans and one source join. Fourteen
+whole BASIC columns retain485 numbered source positions and13 panel connections,
+including10 incoming physical wraps. Photo and both explanation tables remain
+original images with raw drafts unpromoted. Native preservation and independent
+byte-identical assembly rebuild pass. Next: classify non-owning Business divider
+139sequence,then verify development-system article140 to before148 and restore its
+bounded opening. Source glyph/byte/execution and human review limits remain;
+whole-issue closeout pending,no reading-room rebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.

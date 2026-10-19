@@ -1413,52 +1413,22 @@
       "parent_id": "maso-1984-10-toc-0013",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Separate 도량형 환산 프로그램120/PDF122,signed 김경묵,SPC-1000; canonical title/byline/parent unchanged.",
-        "Complete120–128/PDF122–130 through4850 CLS:END,prior Apple Fortran119,next canonical debugging room129. Lower121 unrelated 우신기술서적 ad excluded.",
-        "Current immutable opening120–125 preserves all independent reading text and original photo/tables/eight BASIC columns10–3320. Ending126–128 and separate complete nine-page assembly remain required.",
-        "Ending126–128 now restored as separate immutable native; full nine-page native coverage exists,selected opening remains partial until separate complete assembly."
+        "Complete120–128/PDF122–130 assembled from exact immutable natives through4850 CLS:END. Prior Fortran119,next independent debugging129; lower121 unrelated bookshop ad excluded.",
+        "All standalone prose/headings/title/byline and complete original photo,two explanation tables,14 BASIC columns/485 source numbers preserved. Bitmap/source glyphs,encoded bytes and historical execution unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-22-r01/conversion-a",
+        "directory": "archive/pdf/1984-10/packages/conversion-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0020",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-22-r01/conversion-a/manifest.json",
-          "sha256": "2fb238b055fb55e5dbf611a8bea6c7bd17ef7dfd126ba640c7e635f58a9c19e1",
-          "bytes": 15268
+          "path": "archive/pdf/1984-10/packages/conversion-complete-r01/manifest.json",
+          "sha256": "272762cfa3e007f13ae55209bf7b2418a675b1ea8462c6fa9e5b25307de8db77",
+          "bytes": 23779
         },
         "coverage": {
-          "pdf_pages": [
-            122,
-            123,
-            124,
-            125,
-            126,
-            127
-          ],
-          "printed_pages": [
-            "120",
-            "121",
-            "122",
-            "123",
-            "124",
-            "125"
-          ],
-          "regions": 21,
-          "blocks": 9,
-          "figures": 11,
-          "regional_text_ranges": 10,
-          "physical_listing_rows": 0,
-          "original_basic_panels": 8,
-          "original_basic_numbered_positions": 332,
-          "original_table_panels": 2,
-          "source_variable_rows": 16,
-          "source_line_range_rows": 13,
-          "original_photo": 1
-        },
-        "full_source_extent": {
           "pdf_pages": [
             122,
             123,
@@ -1480,9 +1450,22 @@
             "126",
             "127",
             "128"
-          ]
+          ],
+          "regions": 27,
+          "blocks": 9,
+          "figures": 17,
+          "regional_text_ranges": 10,
+          "physical_listing_rows": 0,
+          "original_basic_panels": 14,
+          "original_basic_numbered_positions": 485,
+          "original_table_panels": 2,
+          "source_variable_rows": 16,
+          "source_line_range_rows": 13,
+          "original_photo": 1,
+          "image_continuations": 13,
+          "incoming_physical_wrap_boundaries": 10
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "name": "opening",
@@ -1502,7 +1485,17 @@
               "bytes": 5380
             }
           }
-        ]
+        ],
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/conversion-assembly/article-associations.json",
+          "sha256": "1990af943f3160aea1003f982d1f25118c918368f7a08ef7b24fa1d93014bb41",
+          "bytes": 18987
+        },
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/conversion-assembly/image-code-coverage.json",
+          "sha256": "feab08d602726853b968fb8694e4a310bc7eff6f7555d8e9af8b59c0becfacae",
+          "bytes": 31007
+        }
       }
     },
     {
@@ -1725,8 +1718,8 @@
     "articles": 19,
     "non_owning_headings": 2,
     "unresolved_classification": 20,
-    "readable": 18,
-    "partial": 1,
+    "readable": 19,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 21,
@@ -2522,17 +2515,45 @@
       "outputs": [
         "maso-1984-10-toc-0020"
       ]
+    },
+    {
+      "id": "conversion-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/conversion-assembly/checkpoint.json",
+        "sha256": "b9533796562d2eba82006d2a519cf7e12fdc6695dd06fb80431dfbd4617a422a",
+        "bytes": 1453
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-22/source-review.json",
+        "sha256": "f07915943613ccacd5c8d65e8de5ea11cea635f0bef06cafd028dea1698b2b08",
+        "bytes": 2525
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/conversion-assembly/validation.json",
+        "sha256": "3a111b3d8d2d729b09fe674b43b6b555cd11435b37fd039d50939ba2e82c5e32",
+        "bytes": 2602
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/conversion-assembly/review-log.json",
+        "sha256": "b7a8edbad37012eff41fca1004a4e7f6433a3ccbbbcbb7687f40d160c56c1579",
+        "bytes": 3167
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "f894aca",
+      "outputs": [
+        "maso-1984-10-toc-0020"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "conversion-assembly",
-    "goal": "Assemble full conversion120–128 from exact immutable natives; audit14 complete BASIC columns/485 numbered positions and all physical bitmap/string wraps,two explanation tables,photo,global text ranges and source associations.",
+    "id": "business-heading",
+    "goal": "Classify canonical 비즈니스0021 using exact source divider139sequence/PDF141 (no printed folio) and adjacent138ad/140independent development-system title. Preserve canonical children and non-owning status; no OCR/body invented. Then verify complete development-system extent from140 before148 and restore bounded opening.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0020"
+      "maso-1984-10-toc-0021"
     ],
     "maximum_articles": 1,
     "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

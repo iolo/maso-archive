@@ -6,18 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: 18 readable, assistant sample-reviewed articles,
-one partial conversion program, two non-owning headings and20 of41 entries
-unresolved. Complete CP/M103–110,SPC input111–112 and Apple Fortran113–119 are
-selected. Conversion full source120–128 is verified; opening120–125 retains21
-regions,nine blocks,11 original images,10 regional spans and one source join.
-Eight complete BASIC panels retain332 numbered positions; photo and both source
-explanation tables remain original images with raw drafts unpromoted. All20 OCR
-tasks completed without failures/retries; three crops widened once before OCR,
-originals retained. Independent byte-identical rebuild passes. All nine source pages now have
-immutable native coverage; next assemble complete conversion120–128. Source bitmap/encoded-byte,
-internal code/table and execution limits remain explicit. Whole-issue closeout
-pending; no reading-room rebuild.
+October 1984 is in progress: 19 readable, assistant sample-reviewed articles,
+no partial articles, two non-owning headings and20 of41 entries unresolved.
+Complete conversion120–128 combines exact immutable natives:27 regions,nine
+reading blocks,17 original images,10 regional spans and one source join. Fourteen
+whole BASIC columns retain485 numbered source positions and13 panel connections,
+including10 incoming physical wraps. Photo and both explanation tables remain
+original images with raw drafts unpromoted. Native preservation and independent
+byte-identical assembly rebuild pass. Next: classify non-owning Business divider
+139sequence,then verify development-system article140 to before148 and restore its
+bounded opening. Source glyph/byte/execution and human review limits remain;
+whole-issue closeout pending,no reading-room rebuild.
 See the [October record](docs/progress/8410.md) and versioned ledger.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
@@ -50,7 +49,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 19 classified | 18 readable, 1 partial; 20 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 19 classified | 19 readable; 20 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
