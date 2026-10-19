@@ -1,4 +1,4 @@
-# Successor handoff — 2026-10-19
+# Successor handoff — 2026-10-20
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
@@ -41,13 +41,16 @@ Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October; December has four readable articles, including complete 골목대장20–33
-and 똑딱 반짝34–46. Apple BASIC to machine language(3) is partial:47–52 restored
-of verified47–63, with32 of37 entries still unresolved. The latest210-file native
-rebuilds identically; source/range checks pass for73physical code rows,41instruction
-groups and81table cells. All7179 prior files are unchanged. All66original/14revised
-crops preceded45successful OCR tasks. Printed LAD/0~911 and all original panels
+and 똑딱 반짝34–46. Apple BASIC to machine language(3) is partial:47–58 restored
+of verified47–63, with32 of37 entries still unresolved. The latest269-file native
+rebuilds identically; source/range checks pass for169physical code rows,41numbered
+source lines,70machine-byte literals,191DFB values and116table cells. All8004 prior
+files are unchanged. All77original/11revised crops preceded61successful OCR tasks.
+Source errors, two unknown header dash counts, A8/AB/OBJ0 candidates and original panels
 remain preserved, including batch01's timing and batch06's intermediate retention
-exceptions. Next: Apple feature53–58, then59–63 and separate full assembly. Reader
+exceptions. Next: Apple feature59–63, then separate full47–63 assembly. Retain
+the five-column numbered rows and their address-bearing byte continuations in a
+compatible projection; no current assembly compatibility is claimed. Reader
 integration is separate; the owner subsequently requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve

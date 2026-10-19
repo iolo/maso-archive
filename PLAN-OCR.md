@@ -21,14 +21,16 @@ paired OCR or a new engine comparison.
 
 - December 1984 is in progress: editorial18, robot-feature introduction19,
   complete 골목대장20–33 and complete 똑딱 반짝34–46 are readable and assistant
-  sample-reviewed. Apple BASIC to machine language(3) is partial: opening47–52
-  restored, actual full extent47–63 verified. Of37 entries,32 await classification.
-  The latest native retains66regions,42blocks,21images,73physical code rows,
-  41instruction groups and81table cells. All210files rebuild identically;7179
-  prior files are unchanged. All66original/14revised crops preceded45OCR tasks,
-  without failure/retry. Literal LAD and0~911 remain preserved. Batch01's initial
+  sample-reviewed. Apple BASIC to machine language(3) is partial:47–58 restored,
+  actual full extent47–63 verified. Of37 entries,32 await classification.
+  The latest native retains77regions,53blocks,16images,169physical code rows,
+  41numbered source lines and116table cells. All269files rebuild identically;8004
+  prior files are unchanged. All77original/11revised crops preceded61OCR tasks,
+  without failure/retry. Printed byte/address wraps and conflicting AND literals
+  remain preserved; two header dash counts and A8/AB/OBJ0 candidates are explicit.
+  Compatible mixed-listing projection remains for full assembly. Batch01's initial
   timing and batch06's intermediate retention exceptions remain explicit.
-  Next: Apple feature53–58, then59–63 and separate full assembly.
+  Next: Apple feature59–63, then separate full47–63 assembly.
   Inspect full pages and every exact crop before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.

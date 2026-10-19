@@ -26,15 +26,17 @@ records below are historical and do not authorize a new rebuild.
 
 The editorial18, robot-feature introduction19, complete 골목대장20–33 and
 complete 똑딱 반짝34–46 are readable and assistant sample-reviewed. Apple BASIC
-to machine language(3) is partial:47–52 restored of verified47–63. Thirty-two
-of37 entries remain unresolved. The latest native retains66regions,42blocks,
-21images,73physical code rows,41instruction groups and81table cells; all210files
-rebuild identically. All7179 prior evidence files are unchanged. All66original/
-14revised crops were reviewed before45OCR tasks, without failure or retry.
-Printed LAD and0~911 remain literal; original panels and comment wraps retained.
+to machine language(3) is partial:47–58 restored of verified47–63. Thirty-two
+of37 entries remain unresolved. The latest native retains77regions,53blocks,
+16images,169physical code rows,41numbered source lines and116table cells; all269files
+rebuild identically. All8004 prior evidence files are unchanged. All77original/
+11revised crops were reviewed before61OCR tasks, without failure or retry.
+Printed address/byte wraps and contradictory AND literals remain literal; original
+panels, two unknown header dash counts and glyph candidates are retained.
 Earlier glyph/hex uncertainties, batch01's timing and batch06's intermediate
 retention exceptions remain explicit.
-Next: Apple feature53–58, then59–63 and separate full47–63 assembly.
+Next: Apple feature59–63, then separate full47–63 assembly with compatible
+projection for mixed numbered listings and address-bearing byte wraps.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).

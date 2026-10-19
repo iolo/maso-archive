@@ -8,12 +8,12 @@ by the calendar month in which restoration work happened.
 
 December 1984 is in progress: four readable, assistant sample-reviewed articles
 cover editorial18, robot-feature introduction19, 골목대장20–33 and 똑딱 반짝34–46.
-Apple BASIC to machine language(3) is partial:47–52 restored of verified47–63.
-Of37 canonical entries,32 await classification/restoration. The latest210-file
-native rebuilds identically, retaining21images,73physical code rows,41instruction
-groups and81table cells. All7179 prior files remain unchanged. Source uncertainties
+Apple BASIC to machine language(3) is partial:47–58 restored of verified47–63.
+Of37 canonical entries,32 await classification/restoration. The latest269-file
+native rebuilds identically, retaining16images,169physical code rows,41numbered
+source lines and116table cells. All8004 prior files remain unchanged. Source uncertainties
 and the batch01 timing/batch06 intermediate retention exceptions remain explicit.
-Next: Apple feature53–58, then59–63 and separate full assembly.
+Next: Apple feature59–63, then separate full assembly with compatible mixed-listing projection.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
