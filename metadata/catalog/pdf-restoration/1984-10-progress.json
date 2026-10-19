@@ -187,10 +187,53 @@
       "toc_entry_id": "maso-1984-10-toc-0004",
       "title": "블록격파 게임의 제작",
       "parent_id": "maso-1984-10-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
+      "classification": "article",
+      "body_owner": true,
       "availability": "unresolved",
-      "verification": "unreviewed"
+      "verification": "unreviewed",
+      "classification_evidence": [
+        "Displayed title begins on shared printed27 after the foundations conclusion. Game explanation33, complete flowchart34 and BREAKOUT listing35–40 establish full body extent. DOS TOOL KIT guide41–43 is separately titled unlisted material and excluded."
+      ],
+      "source_extent_review": {
+        "record": {
+          "path": "archive/pdf/1984-10/restoration/batch-05/source-review.json",
+          "sha256": "484e14e30836cafbf8032200a2e83e55882fed2653cfbd29f19da45be0d6038c",
+          "bytes": 8329
+        },
+        "pdf_pages": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "printed_pages": [
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "restoration": "not-yet-extracted"
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0005",
@@ -553,14 +596,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 4,
+    "articles": 5,
     "non_owning_headings": 0,
-    "unresolved_classification": 37,
+    "unresolved_classification": 36,
     "readable": 4,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 4
+    "sample_reviewed": 4,
+    "unresolved_availability": 37
   },
   "checkpoints": [
     {
@@ -686,17 +730,45 @@
       "outputs": [
         "maso-1984-10-toc-0003"
       ]
+    },
+    {
+      "id": "batch-05-source-review",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-05/checkpoint.json",
+        "sha256": "3d8e062f7953c78c880d038886f969c454b31ce8c41b2f291482def6bffae209",
+        "bytes": 1761
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-05/source-review-validation.json",
+        "sha256": "72339c557bd72cfbcd0a9c007739fc4dfb856a76dd00f3eb840e27b08c179ab9",
+        "bytes": 5338
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-05/source-review.json",
+        "sha256": "484e14e30836cafbf8032200a2e83e55882fed2653cfbd29f19da45be0d6038c",
+        "bytes": 8329
+      },
+      "status": "partial-checkpoint-source-review-complete-extraction-pending",
+      "tool_revision": "e143629",
+      "outputs": [
+        "maso-1984-10-toc-0004"
+      ]
     }
   ],
   "next_checkpoint": {
     "id": "batch-05",
-    "goal": "Establish full extent of 블록격파 게임의 제작 from shared printed27/PDF29 and restore its first bounded segment, at most six source pages. Review end/adjacent pages locally; preserve foundations ending on shared27 separately.",
+    "goal": "Resume declared first block-game segment: map/extract printed27–32/PDF29–34 after completed source review. Full game extent27–40 is verified; exclude unlisted DOS guide41–43. No OCR process is running and no map/export exists yet.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0004"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20
+    "maximum_outside_map_lookups": 20,
+    "source_review": {
+      "path": "archive/pdf/1984-10/restoration/batch-05/source-review.json",
+      "sha256": "484e14e30836cafbf8032200a2e83e55882fed2653cfbd29f19da45be0d6038c",
+      "bytes": 8329
+    }
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

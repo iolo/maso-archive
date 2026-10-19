@@ -22,8 +22,10 @@ paired OCR or a new engine comparison.
 - October 1984 is in progress. The editorial, signed special-feature
   introduction, 기계어의 학습 and complete 기계어의 기초 are readable,
   assistant sample-reviewed JSON/assets packages. No partial article remains.
-  Continue with 블록격파 게임의 제작 from shared printed27. The other 37 of
-  41 canonical entries still await classification/restoration. Continue
+  블록격파 게임의 제작 is source-verified at printed27–40, with extraction
+  pending for its declared first segment27–32. The separately titled unlisted
+  DOS TOOL KIT guide41–43 is excluded. Thirty-six entries await classification;
+  37 of 41 still await restoration/outcomes. Continue
   from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.
