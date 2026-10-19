@@ -6,16 +6,19 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: six readable, assistant sample-reviewed articles
-cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46 and
-complete Apple BASIC to machine language(3)47–63, plus Christmas-card66–69. One
-non-owning hobby heading is classified. Both Diamond Field natives cover70–77,
-pending independent full assembly;29 of37 entries await classification. The latest
-49-file ending rebuilds identically, retaining4images,212physical/193numbered entries
-and1397DATA fields. All12034prior files are unchanged. Both natives total645physical/
-568numbered entries,94quoted fields and1478DATA fields. Source candidates, the retained
-verifier/parser failure, and batch01 timing/batch06 retention exceptions remain explicit.
-Next: independent full Diamond Field70–77assembly.
+December 1984 is in progress: seven readable, assistant sample-reviewed articles
+cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46,
+Apple BASIC to machine language(3)47–63, Christmas-card66–69 and Diamond Field70–77.
+One non-owning hobby heading;zero partial;29 of37 entries await classification.
+Diamond Field's214-file assembly and156-file metadata revision rebuild identically;
+all12240prior files are unchanged. Exact combined indexes preserve645physical/
+568numbered entries,94quoted fields,1478DATA fields,27table cells and18images.
+All original source/OCR/text/image bytes and original metadata remain preserved.
+The opt-in field extension passes148PDF tests; the earlier Apple assembly still passes.
+Source candidates, retained implementation/verifier failures and batch01 timing/
+batch06 retention exceptions remain explicit.
+Next: establish full Spin Ball0008extent from verified78/PDF80and both neighbors,
+then restore a bounded opening segment.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
@@ -55,7 +58,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
-| 1984-12 | 7 | 6 readable; 1 partial; 1 non-owning heading; 29 TOC entries unresolved | [8412](docs/progress/8412.md) |
+| 1984-12 | 7 | 7 readable; 0 partial; 1 non-owning heading; 29 TOC entries unresolved | [8412](docs/progress/8412.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

@@ -24,22 +24,24 @@ records below are historical and do not authorize a new rebuild.
 
 ## December 1984 started, 2026-10-19
 
-The editorial18, robot-feature introduction19, complete 골목대장20–33,
-똑딱 반짝34–46, Apple BASIC to machine language(3)47–63 and Christmas-card66–69
-are readable and assistant sample-reviewed. Both Diamond Field natives now cover
-all70–77; independent full assembly remains required. Seven articles and one
-non-owning hobby heading are classified: six readable, one partial;29 of37 entries
-remain unresolved. Ending76–77retains212physical/193numbered entries and1397DATA
-fields, including1120hex literals,50printed checksums,182decimal values,35panel
-strings and10music fields. All49ending files rebuild identically;12034prior files
-unchanged. All13exact crops preceded9successful OCR tasks, with no crop repair.
-The original verifier/parser failure and fresh passing revision are preserved;
-exports and OCR were unchanged. Both natives total645physical/568numbered entries,
-94quoted fields,1478DATA fields,27table cells and18images. Source candidates remain
-explicit; no encoding/checksum/execution reconstruction.
-The new preservation inventory pins12240files. Earlier batch01 timing and batch06
-intermediate retention exceptions remain explicit. Shared140-test baseline unchanged.
-Next: independent full Diamond Field70–77assembly with every source field projected.
+Seven articles are readable and assistant sample-reviewed: editorial18, robot-feature
+introduction19, 골목대장20–33, 똑딱 반짝34–46, Apple BASIC to machine language(3)47–63,
+Christmas-card66–69 and complete Diamond Field70–77. One non-owning hobby heading
+is classified;29 of37 entries remain unresolved, with no current partial articles.
+
+Diamond Field's eight-page assembly preserves59regions,15blocks,18images,
+645physical/568numbered entries,94quoted fields,1478DATA fields and27table cells.
+All214files and the156-file metadata revision independently rebuild identically.
+All12240prior files remain unchanged. The opening revision retains all original
+metadata and every source/OCR/text/image byte. Combined fields keep exact UTF-8
+ranges, physical wraps, blank strings and separate printed checksums. The opt-in
+source-field extension passes148PDF tests; the earlier Apple assembly still passes.
+Preserved implementation/test and independent-verifier failures are documented.
+Source glyph/spacing/music candidates, checksum/encoding/execution limitations and
+earlier batch01 timing/batch06 retention exceptions remain explicit.
+
+Next: establish full Spin Ball0008extent from verified78/PDF80and both neighbors,
+then restore a bounded opening segment. Crowded Speedway88is only a TOC lookup lead.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).

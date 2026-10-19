@@ -19,22 +19,21 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- December 1984 is in progress: editorial18, robot-feature introduction19,
-  complete 골목대장20–33, complete 똑딱 반짝34–46, Apple BASIC to machine language(3)
-  47–63 and Christmas-card66–69 are readable and assistant sample-reviewed. Six complete
-  articles and one non-owning hobby heading. Two Diamond Field natives cover all70–77,
-  pending full independent assembly;29 of37 entries remain unresolved. Ending76–77
-  retains212physical/193numbered BASIC entries and1397DATA fields. All49ending files
-  rebuild identically;12034prior files unchanged. All13exact crops preceded9successful
-  OCR tasks, no repairs/retries. One verifier/parser failure and fresh passing revision
-  are retained without changing exports/OCR. Both natives total645physical/568numbered
-  entries,94quoted fields,1478DATA fields,27table cells and18images. Printed checksums,
-  hex/decimal fields and graphic/music/spacing candidates remain independent source
-  readings; no byte, encoding, checksum or execution reconstruction.
-  The preservation inventory pins12240files. Batch01's timing and batch06's
-  intermediate retention exceptions remain explicit. Shared140-test baseline unchanged.
-  Next: full Diamond Field70–77assembly, retaining every native byte and projecting
-  all source indexes. No further mapping/OCR is needed for that assembly.
+- December 1984 is in progress: seven readable, assistant sample-reviewed articles
+  cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46,
+  Apple BASIC to machine language(3)47–63, Christmas-card66–69 and Diamond Field70–77.
+  One non-owning hobby heading;zero partial;29 of37 entries remain unresolved.
+  Diamond Field's complete214-file assembly and156-file metadata revision rebuild
+  identically. All12240prior files remain unchanged. All645physical/568numbered entries,
+  94quoted fields,1478DATA fields,27table cells and18images retain combined source
+  ranges and original evidence. No new mapping, rendering or OCR. The opt-in BASIC
+  source-field extension passes148tests and the earlier Apple assembly still passes.
+  Preserved test/implementation and verifier failures did not change source text/OCR.
+  Glyph/spacing/music candidates and printed checksums remain source readings;
+  source encoding, checksums and execution are unverified. Batch01 timing and batch06
+  intermediate retention exceptions remain explicit.
+  Next: establish Spin Ball0008full extent from verified78/PDF80and both neighbors,
+  then restore at most six source pages. Crowded Speedway88is a TOC lookup lead.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

@@ -40,28 +40,37 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December has six readable articles, including complete 골목대장20–33,
-똑딱 반짝34–46, Apple BASIC to machine language(3)47–63 and Christmas-card66–69.
-Hobby0005 is a non-owning divider on unpaginatedPDF67; all four child links remain.
-Diamond Field now has both natives covering70–77, pending full independent assembly;
-29 of37 entries remain unresolved. Latest ending76–77has49byte-identical rebuilt files;
-12034prior files unchanged. All13exact crops preceded9successful OCR tasks; no repairs.
-The initial verifier's quoted-field parser failure and fresh r02are preserved; exports
-and OCR are unchanged. Ending212physical/193numbered entries retain1397DATA fields:
-1120hex literals,50printed checksums,182decimal values,35panel strings and10music fields.
-Combined natives retain59regions,15blocks,18images,645physical/568numbered entries,
-94quoted fields,1478DATA fields and27table cells. Source checksums are never used to
-infer bytes. Printed6470color11, earlier1050SC/newline100,1920S/OUND, DEFUSR3=&H90 and
-G=1960remain literal. Unicode/space/music candidates do not certify MSX/Hangul bytes.
-Inventory pins12240files; shared140-test baseline unchanged. Earlier source uncertainties,
-both Christmas-card revisions, batch01 timing and batch06 retention exceptions remain.
-Next: full Diamond Field70–77assembly. The opening native lacks some wrapped-mode
-metadata; use an explicit fresh metadata compatibility revision or opt-in adapter while
-preserving every original byte. Project all quoted and general DATA indexes, including
-negative move fields, blank panel strings and music physical wraps. No further OCR.
-Spin Ball0008from verified78/PDF80is next after assembly. NeighborPDF66 is an unpaginated publisher ad, and
-native58–64shorthand is not an observed folio64 or global-offset claim. Reader
-integration is separate; the owner subsequently requested the October reader build.
+October; December has seven readable articles, including complete 골목대장20–33,
+똑딱 반짝34–46, Apple BASIC to machine language(3)47–63, Christmas-card66–69 and
+Diamond Field70–77. Hobby0005 is a non-owning divider on unpaginatedPDF67;
+all four child links remain. Zero current partial;29 of37 entries remain unresolved.
+
+Diamond Field's214-file full assembly and156-file metadata revision rebuild
+identically. All12240prior files are unchanged. Its59regions,15blocks,18images,
+645physical/568numbered entries,94quoted fields,1478DATA fields and27table cells
+retain exact combined source ranges. The opening revision preserves the original
+package and all four original metadata files. All source/OCR/text/image bytes are
+unchanged. Combined printed checksums, negative decimal spacing, panel blanks,
+music wraps and repeated quotes remain independent source occurrences.
+Printed1050SC/newline100,1920S/OUND, DEFUSR3=&H90,G=1960,4900checksum899and6470color11
+remain literal. Unicode/space/music candidates do not certify MSX/Hangul bytes.
+
+Opt-in BASIC source-field tooling is committed as eba1e08and passes148PDF tests;
+the earlier Apple assembly and its four live implementation pins still pass.
+See [the format notes](PDF-BASIC-SOURCE-FIELDS.md). Original test/projection attempts
+are under restoration/diamond-field-assembly; the independent audit's original
+abbreviated1050assertion failure and fresh verify-r02.py are retained under evidence.
+Use verify-r02.py; it is read-only unless --report names a fresh destination.
+The new preservation inventory pins13004files. No additional OCR was needed.
+Both Christmas-card revisions, batch01 timing,
+batch06 retention and all source uncertainty records remain preserved.
+
+Next: batch14 Spin Ball0008from verified78/PDF80. Establish full extent and both
+neighbors before mapping at most six pages. Crowded Speedway0009at88is only a TOC
+lookup lead. Reuse and reinspect native13's pinned PDF79–81renders.
+NeighborPDF66 is an unpaginated publisher ad; native58–64shorthand is not an observed
+folio64 or a global-offset claim. Reader integration is separate; the owner
+subsequently requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve
 source hashes, canonical IDs/parents, original evidence and user edits. Verify a

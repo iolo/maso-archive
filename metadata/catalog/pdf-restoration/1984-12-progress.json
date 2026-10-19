@@ -671,19 +671,19 @@
       "parent_id": "maso-1984-12-toc-0005",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "PDF72/printed70 independently starts Diamond Field, displayed 다이어몬드 필드. Full eight-page70–77extent inspected; body ends71, listing ends6670on77. PDF80/printed78starts Spin Ball. Canonical TOC identity/title unchanged.",
-        "Two preserved natives now cover all70–77, BASIC1000–6670,645physical/568numbered entries,94quoted fields and1478machine/general DATA fields. No source pages deferred. Independent full assembly and complete source-field projection remain required; original metadata and source bytes must remain unchanged."
+        "Two preserved natives and independent full assembly cover all70–77/PDF72–79. All645physical/568numbered entries,94quoted fields,1478DATA fields,27table cells and18images have exact combined source ranges. All214files and156-file metadata revision rebuild identically; every original source/OCR/text/image byte retained. Source ambiguity, printed mistakes and verification limitations remain."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-12/packages/batch-12-r01/diamond-field-a",
+        "directory": "archive/pdf/1984-12/packages/diamond-field-complete-r01",
         "article_id": "scan-maso-1984-12-toc-0007",
         "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-12-r01/diamond-field-a/manifest.json",
-          "sha256": "c50124379afdfcb068e88cd0ee11a7f0f03b8bf7ee57c4cf0a44b3ea6945f6aa",
-          "bytes": 25228
+          "path": "archive/pdf/1984-12/packages/diamond-field-complete-r01/manifest.json",
+          "sha256": "d8210a6d95b306e0ec13f184b575c08488788cd477cdb906ed55d6f31c27c286",
+          "bytes": 38800
         },
         "coverage": {
           "pdf_pages": [
@@ -710,7 +710,7 @@
           "blocks": 15,
           "figures": 18
         },
-        "segments": [
+        "native_segments": [
           {
             "directory": "archive/pdf/1984-12/packages/batch-12-r01/diamond-field-a",
             "article_id": "scan-maso-1984-12-toc-0007",
@@ -766,6 +766,23 @@
             "segment": "b"
           }
         ],
+        "opening_metadata_revision": {
+          "directory": "archive/pdf/1984-12/packages/diamond-field-index-r01/opening",
+          "manifest": {
+            "path": "archive/pdf/1984-12/packages/diamond-field-index-r01/opening/manifest.json",
+            "sha256": "4ac0eeac72464fd116128bc019e7cacb520a608fd3913c6f07282812567c3c5a",
+            "bytes": 26058
+          },
+          "procedure": {
+            "path": "archive/pdf/1984-12/restoration/diamond-field-assembly/revise-opening.py",
+            "sha256": "8be559a2908b1764e4120d179e78f8a334dcc9862dcd7c77b8ace2954fd6a198",
+            "bytes": 4707
+          }
+        },
+        "index_mode": "wrapped-listing-v1",
+        "basic_source_fields_format": "v1",
+        "deferred_printed_pages": [],
+        "assembly_required": false,
         "full_source_extent": {
           "pdf_pages": [
             72,
@@ -787,8 +804,7 @@
             "76",
             "77"
           ]
-        },
-        "deferred_printed_pages": []
+        }
       }
     },
     {
@@ -1089,8 +1105,8 @@
   "totals": {
     "canonical_entries": 37,
     "classified_articles": 7,
-    "readable_articles": 6,
-    "partial_articles": 1,
+    "readable_articles": 7,
+    "partial_articles": 0,
     "nonowning_headings": 1,
     "unresolved_eligibility": 29,
     "human_accepted_articles": 0
@@ -2194,48 +2210,131 @@
         "sha256": "f9c6a6728ec344c1c3d3a5b5a082b6fa724d0d8aec108482c2d4b6452b6339fa",
         "bytes": 2807914
       }
+    },
+    {
+      "id": "diamond-field-assembly",
+      "status": "complete-readable-article",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/diamond-field-assembly/checkpoint.json",
+        "sha256": "a28e0cb775ec5f26653e7c26554d9f409d1e88c4aa668cb4c0c7c3c1e1a441b4",
+        "bytes": 3077
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/diamond-field-assembly/validation-r02.json",
+        "sha256": "cff9c58dec9b6209bab5f95b2548555c93051301dedf4c70f57cdfc274a6ee64",
+        "bytes": 1924
+      },
+      "implementation": {
+        "path": "archive/pdf/1984-12/restoration/diamond-field-assembly/implementation.json",
+        "sha256": "87361ffcb4a0c9e53bce128c7f5c60efe7d1ee6bba637cb2e580fcf265feb665",
+        "bytes": 2079
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/diamond-field-assembly/reproduction.json",
+        "sha256": "35842b39fd959bec4cd536775c18e4b19807a9beb7cc3917830760d184e0288d",
+        "bytes": 1819
+      },
+      "manifest": {
+        "path": "archive/pdf/1984-12/packages/diamond-field-complete-r01/manifest.json",
+        "sha256": "d8210a6d95b306e0ec13f184b575c08488788cd477cdb906ed55d6f31c27c286",
+        "bytes": 38800
+      },
+      "verification_failure": {
+        "path": "archive/pdf/1984-12/evidence/diamond-field-assembly/verification-failure.json",
+        "sha256": "80f0dca8533336ee902ae81da67359ff3d979b1e5fc0777295e33fd318c19992",
+        "bytes": 445
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/diamond-field-assembly/verify-r02.py",
+        "sha256": "3431e5ada9c021719478bb2fa199dcef0f96cbb58a0e66daebebd99ab43f2d54",
+        "bytes": 15484
+      },
+      "source_token_changes": 0,
+      "formatting_revision": null,
+      "package_files": 214,
+      "immutable_segment_files": 205,
+      "original_opening_files_preserved": 151,
+      "pages": 8,
+      "regions": 59,
+      "blocks": 15,
+      "figures": 18,
+      "source_block_ranges": 15,
+      "regional_text_ranges": 41,
+      "text_review_items": 132,
+      "regional_listing_ranges": 26,
+      "listing_physical_rows": 645,
+      "numbered_logical_entries": 568,
+      "wrapped_rows": 77,
+      "quoted_fields": 94,
+      "graphic_strings": 55,
+      "music_strings": 19,
+      "data_statements": 180,
+      "data_fields": 1478,
+      "data_field_kinds": {
+        "hex-literal": 1192,
+        "printed-decimal-checksum": 59,
+        "printed-decimal-literal": 182,
+        "quoted-panel-string": 35,
+        "unquoted-music-source": 10
+      },
+      "printed_checksum_rows": 59,
+      "table_cells": 27,
+      "blank_table_cells": 1,
+      "native_prose_joins": 2,
+      "caption_links": 1,
+      "inline_examples": 1,
+      "resolved_scope_notes": 4,
+      "source_uncertainty_records": 86,
+      "prior_files_verified": 12240,
+      "pdf_tests": 148,
+      "new_mapping_pages": 0,
+      "new_ocr_tasks": 0,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/diamond-field-assembly/preserved-work-inventory.json",
+        "sha256": "bc8e52f3807a00db49d4c596793bc2c57e8b53a50d20871eb82a0aaa1e1dd219",
+        "bytes": 2989444
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "diamond-field-assembly",
-    "goal": "Independently assemble complete Diamond Field70–77from both immutable natives. Preserve all645physical/568numbered BASIC entries,94quoted fields,1478DATA fields,27table cells and18images with exact combined source ranges. Any metadata compatibility revision must be fresh and leave every original source/OCR/text byte unchanged.",
+    "id": "batch-14",
+    "goal": "Establish full Spin Ball0008extent from verified independent title78/PDF80 and both neighbors. Restore a bounded opening segment, no more than six mapped source pages, retaining all code/graphics/tables and source uncertainties.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0007"
+      "maso-1984-12-toc-0008"
     ],
-    "source_packages": [
-      "archive/pdf/1984-12/packages/batch-12-r01/diamond-field-a",
-      "archive/pdf/1984-12/packages/batch-13-r01/diamond-field-b"
-    ],
-    "mapping_targets": [],
-    "known_full_extent": {
-      "pdf_pages": [
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79
-      ],
-      "printed_pages": [
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77
-      ],
-      "last_printed_listing_number": 6670
+    "known_start": {
+      "pdf_page": 80,
+      "printed_page": 78
     },
+    "provisional_mapping_targets": [
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "provisional_lookup_targets": [
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "No further mapping/OCR needed. Native opening custom quoted/machine indexes and ending generic hex/decimal/panel/music DATA fields require compatible combined projection. Existing wrapped mode expects execute_verified/occurrence/figure-sequence metadata not fully supplied by opening native; use an explicit fresh metadata-only revision or compatible opt-in adapter. Preserve all original metadata and field values, source ambiguity and historical mistakes. Spin Ball0008from78is next after full assembly. No reader rebuild."
+    "note": "Next canonical Crowded Speedway0009at88is a TOC lookup lead, not verified end/offset. Native13already preserved/reviewed PDF79–81; reuse their pins and reinspect. Review full extent and adjacent independent title before mapping; every exact original/revised crop before OCR. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
