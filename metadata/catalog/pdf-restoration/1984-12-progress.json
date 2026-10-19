@@ -1228,7 +1228,7 @@
       "verification": "sample-reviewed",
       "classification_evidence": [
         "PDF104/printed102opens independent SPC-1000BASIC speed article withpublisher credit;full102–109/PDF104–111and all neighbors inspected. PDF103is the non-owning education divider;PDF112/110independently opens CP/M(5). Canonical title,parent0010andidentity unchanged.",
-        "Opening102–107preserves all45regions,100blocks,nine original images,29physical/25numbered listing rows,four wraps,six quoted strings,three tables/109cells/15blanks,131inline examples,nine figure captions andfour listing-caption links. All162files rebuild identically. Remaining108–109and independent full assembly required;source glyphs/mistakes/diagram discrepancies remain explicit."
+        "Two preserved natives cover full102–109/PDF104–111with60regions,109blocks,13images,230physical rows,148numbered entries,82wraps,31quoted strings,10DATAfields,146hex literals,18font units,24graphic candidates/22editorial markers,three tables/109cells/15blanks,137inline examples,11figure-caption links,six listing-caption links andeight prose joins. Ending57files rebuild identically. All source glyphs/run widths/encoding andhistorical claims remain unverified;independent full assembly stillrequired."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-12/packages/batch-18-r01/basic-speed-a",
@@ -1245,7 +1245,9 @@
             106,
             107,
             108,
-            109
+            109,
+            110,
+            111
           ],
           "printed_pages": [
             "102",
@@ -1253,11 +1255,13 @@
             "104",
             "105",
             "106",
-            "107"
+            "107",
+            "108",
+            "109"
           ],
-          "regions": 45,
-          "blocks": 100,
-          "figures": 9
+          "regions": 60,
+          "blocks": 109,
+          "figures": 13
         },
         "segment": "a",
         "segments": [
@@ -1291,6 +1295,29 @@
               "figures": 9
             },
             "segment": "a"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-19-r01/basic-speed-b",
+            "article_id": "scan-maso-1984-12-toc-0011",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-19-r01/basic-speed-b/manifest.json",
+              "sha256": "9d1f2f7f543892ce47fb1c1d264e49818622cd4525e679beb3ee2fa02210ec82",
+              "bytes": 9621
+            },
+            "coverage": {
+              "pdf_pages": [
+                110,
+                111
+              ],
+              "printed_pages": [
+                "108",
+                "109"
+              ],
+              "regions": 15,
+              "blocks": 9,
+              "figures": 4
+            },
+            "segment": "b"
           }
         ],
         "full_source_extent": {
@@ -1316,10 +1343,7 @@
           ],
           "ending": "Prose ends108;list6continues through109with final observed10090DATArow.Exact ending glyphs/count remain for next crop review."
         },
-        "deferred_printed_pages": [
-          "108",
-          "109"
-        ],
+        "deferred_printed_pages": [],
         "assembly_required": true,
         "source_review": {
           "path": "archive/pdf/1984-12/restoration/batch-18/source-reviewed.json",
@@ -1330,6 +1354,28 @@
           "path": "archive/pdf/1984-12/restoration/batch-18/segment-scope.json",
           "sha256": "a092bf412913ed5c659185b45635adefe8280a7e9bd99bc0bedbb46f913196df",
           "bytes": 746
+        },
+        "selected_source_end": {
+          "printed_page": "109",
+          "printed_line": 10090,
+          "source_candidate": "10090 DATA \"⟦blank-run:width-unverified⟧GR⟦blank-run:width-unverified⟧BR CTSH⟦blank-run:width-unverified⟧\"\n",
+          "unknown_blank_widths": "Explicit editorial markers;not reconstructed original string length orencoded bytes.",
+          "evidence": {
+            "path": "archive/pdf/1984-12/restoration/batch-19/source-detail-review.json",
+            "sha256": "cde9554cc3a1baf960a621aab24f2fe989b00f651de31a54ce2ab9e2da0b0cff",
+            "bytes": 2957
+          },
+          "corrections": {
+            "path": "archive/pdf/1984-12/packages/batch-19-r01/basic-speed-b/corrections.json",
+            "sha256": "b157fe11ee8f048b0f8d806b389378074cb6694157cbf230358b49e86f15a052",
+            "bytes": 826872
+          }
+        },
+        "assembly_compatibility": "Preserve opening tables plus ending graphic_string_index/basic_hex_literal_index/font_definition_indexandall quote/DATA/physical/logical/caption/source candidate fields. Existing table-literal projector rejects specialized graphic category;explicit compatible extension required without altering source orprior16implementation pins.",
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-19/source-index-schema.json",
+          "sha256": "dcbe0f58cb570626d88d20b68c730a33a733c65344592b6e966a062718ae59e4",
+          "bytes": 1750
         }
       }
     },
@@ -3471,24 +3517,130 @@
         "sha256": "51383d5c785bbdd4fb4b816f6bccdf5620b1c33acb711a2f3801dee5a2f9948b",
         "bytes": 1109
       }
+    },
+    {
+      "id": "batch-19",
+      "status": "complete-partial-article-ending",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/checkpoint.json",
+        "sha256": "b70c70d63df7d9587ad244419f9de3e71d5a46733f5b2e835ef9799ef8f92112",
+        "bytes": 1663
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-19/validation-r01.json",
+        "sha256": "d20f1162721452549eefe8b6ea1ca9c80d9e119566a41011dc4236a72bbd770d",
+        "bytes": 1436
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-19/verify.py",
+        "sha256": "214ea9221f73a73b51a326d2154cee426c57d6f7bdbe07480bac286b8c4a80b1",
+        "bytes": 18636
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/source-reviewed.json",
+        "sha256": "f8c2b4770f555d0776b0b92f963b4c8514f3a50d2ab233db5155436ede9207ee",
+        "bytes": 3629
+      },
+      "source_detail_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/source-detail-review.json",
+        "sha256": "cde9554cc3a1baf960a621aab24f2fe989b00f651de31a54ce2ab9e2da0b0cff",
+        "bytes": 2957
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/source-index-schema.json",
+        "sha256": "dcbe0f58cb570626d88d20b68c730a33a733c65344592b6e966a062718ae59e4",
+        "bytes": 1750
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/mapping-completed.json",
+        "sha256": "1402b7b437d77649fcba7ef210d30eee0f3c00f7a9cb697e07f9ace052ca7659",
+        "bytes": 873
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/segment-scope.json",
+        "sha256": "769b0c2c64855e1a63240e559215dd8d6d4074e6f7f0e72fd2064e4685eb53a7",
+        "bytes": 1053
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/preflight-reviewed.json",
+        "sha256": "504e55589d9d5513c7d3cffda85792675d0c144f9e020821536b1da4744f273c",
+        "bytes": 6779
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/correction-completed.json",
+        "sha256": "d8c02c2af4743c235ad51eb92804689f8aabd231e09b4e0a863ac04be6508bcf",
+        "bytes": 779
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-19/reproduction.json",
+        "sha256": "0b33444ce95d6629da46a8b753138c4bfdb8013b128dd33c1181e4ae798cb70b",
+        "bytes": 1446
+      },
+      "actual_ocr_tasks": 11,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 0,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 19908,
+      "rebuild_files": 57,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 4,
+      "outside_map_lookups": 2,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 175,
+      "shared_pipeline_files": "unchanged;all16historical implementation pins verified",
+      "regions": 15,
+      "blocks": 9,
+      "figures": 4,
+      "regional_text_ranges": 14,
+      "text_review_items": 18,
+      "text_review_notes": 4,
+      "prose_joins": 0,
+      "tables": 0,
+      "table_data_rows": 0,
+      "table_rows": 0,
+      "table_cells": 0,
+      "blank_table_cells": 0,
+      "caption_links": 2,
+      "listing_caption_links": 2,
+      "listing_groups": 2,
+      "listing_physical_rows": 201,
+      "listing_logical_entries": 123,
+      "physical_wrap_rows": 78,
+      "regional_listing_spans": 7,
+      "source_notes": 58,
+      "quoted_literals": 25,
+      "basic_data_rows": 10,
+      "basic_data_fields": 10,
+      "basic_hex_literals": 146,
+      "font_definition_units": 18,
+      "graphic_source_candidates": 24,
+      "editorial_marker_spans": 22,
+      "hex_rows": 0,
+      "inline_examples": 6,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-19/preserved-work-inventory.json",
+        "sha256": "9fe82ed80ffca867051e7178b4a1a9187c31b37c8f293f08c3c2fe8a0d6f4934",
+        "bytes": 4661506
+      },
+      "retained_handoff_repair": {
+        "path": "archive/pdf/1984-12/evidence/batch-19/handoff-repair-r02.json",
+        "sha256": "1f0e7e8d97d906b6a47d28cf9e19bf76f04fcc2faf8454abe6a679a95080eb4c",
+        "bytes": 1314
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-19",
-    "goal": "Restore BASIC speed0011ending108–109/PDF110–111from the verified full102–109source;retain list5andcomplete list6physical/logical rows,quoted/DATA/hex-like source fields,font definitions,prose/captions andsource uncertainty without encoding/arithmetic reconstruction.",
+    "id": "basic-speed-assembly",
+    "goal": "Independently assemble full BASIC speed102–109from both preserved natives with every original source index andmetadata projected,including tables,graphic candidate/marker spans,font-definition units,all literal hex occurrences,quotes/DATA,physical/logical rows andcaption ownership.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0011"
     ],
-    "mapping_targets": [
-      110,
-      111
+    "source_packages": [
+      "archive/pdf/1984-12/packages/batch-18-r01/basic-speed-a",
+      "archive/pdf/1984-12/packages/batch-19-r01/basic-speed-b"
     ],
-    "provisional_lookup_targets": [
-      109,
-      110,
-      111,
-      112
-    ],
+    "mapping_targets": [],
     "known_full_extent": {
       "pdf_pages": [
         104,
@@ -3510,17 +3662,19 @@
         "108",
         "109"
       ],
-      "ending": "Prose ends108;list6continues through109with final observed10090DATArow.Exact ending glyphs/count remain for next crop review."
+      "last_printed_line": 10090
     },
-    "source_packages": [
-      "archive/pdf/1984-12/packages/batch-18-r01/basic-speed-a"
-    ],
+    "source_index_schema": {
+      "path": "archive/pdf/1984-12/restoration/batch-19/source-index-schema.json",
+      "sha256": "dcbe0f58cb570626d88d20b68c730a33a733c65344592b6e966a062718ae59e4",
+      "bytes": 1750
+    },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Reuse pinned3000px source/review scans;reinspect full109–112before mapping andevery exact original/revised crop before OCR. Opening102–107ends at complete paragraph/figure4;ending108starts independent Akeyparagraphandlist5. Source109list6last observed10090DATArow;exact symbols/quotes/fontfields require crop review,no inferred keylayout or character encoding. Independent full102–109assembly remains separate after native ending. Future selected-package/issue-closeout operations including Crowded Speedway require explicit table_literal_assembly.check/installed(). No reader rebuild."
+    "note": "No new mapping/OCR. Combined60regions,109blocks,13images,230physical/148numbered rows,82wraps,31quotes,10DATAfields,146hex literals,18font units,24graphic candidates/22markers,three tables/109cells/15blanks,137inline examples,11figure captions,six listing captions,eight prose joins. Native boundary107/108is between complete paragraphs/figures;no cross-native prose/token/logical join. Existing table-literal projector rejects graphiccategoryanddoes not projectnewfont/hex indexes;explicit compatible extension required. Preserve all16prior implementation pins,all original metadata/source text,andunknown glyph/run/encoded-byte status. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

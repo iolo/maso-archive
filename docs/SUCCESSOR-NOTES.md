@@ -40,50 +40,57 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December has nine readable articles,one partial BASIC speed0011,
-two non-owning headings and25of37unresolved entries. Education0010is non-owning;
-all five canonical child links remain unchanged.
+October; December has nine readable articles, one partial BASIC speed0011,
+two non-owning headings and25 of37 unresolved entries. Both BASIC speed natives
+cover full102–109; independent complete assembly is still required.
 
-The162-file native export and independent rebuild are byte-identical. It retains
-45regions,100blocks,nine original images,108regional text spans,138text reviews,
-30text notes andeight prose joins. Four listings retain29physical rows,25numbered
-entries,four wraps,six quoted strings andnine source notes. Three tables retain
-15data rows,16including headers,109cells and15blanks. Nine figure-caption links,
-four listing-caption links and131inline examples have exact source occurrences.
+Ending108–109/PDF110–111 is the selected batch19 native;opening102–107/PDF104–109
+is preserved in batch18. Both cover full102–109, pending complete assembly.
 
-All45original andthree revised exact crops were inspected before36successful
-mapped Tesseract tasks. Three clipped edges were widened once each before OCR;
-no recognition failure/retry or post-OCR repair. Twelve whole pages were reviewed,
-with six outside-map lookups;four pinned renders reused,eight newly rendered.
-Thekeymatrix OCR drafts are poor/empty;every table cell was transcribed directly
-from scans. All19,252prior evidence files are unchanged;new inventory:19,908files.
-Shared175-test baseline andall16historical implementation pins remain unchanged.
+The 57-file ending export and independent rebuild are byte-identical. It retains
+15 regions, nine blocks, four original images, 14 regional text spans and 18 text
+reviews. Lists 5/6 retain 201 physical rows, 123 numbered entries, 78 wraps,
+25 quoted strings, ten literal DATA fields, 146 hex literals, 18 font definitions,
+24 graphic candidates and 22 editorial markers. Every field, marker and clipped
+physical source span has an independently checked UTF-8 occurrence.
 
-Source8008Akey infigure3 differs from8001inprose/figure4;BEE differs fromBEEP;
-parenthetical&H0FFFF differs from&H0FFF. All remain literal. Blank key boxes,
-uncertain matrix glyphs,physical COUNT/STOP/quoted-string wraps,inline FOR wrap
-andUnicode return/arrow approximations remain explicit. No encoding,hardware,
-arithmetic,syntax,opcode or execution reconstruction. The first verifier's wrong
-file-count assumption andfresh fix are retained;source/export bytes are unchanged.
+Line 9100 continues from the left column to the right inside C/newline/HR$.
+The &/newline/H8000 token stays split. Short &H8, &HC, &HD and &H0 spellings,
+quoted borders, unknown blank widths, joined DATA glyphs and all candidates remain
+literal or explicitly marked. No font decoding, key-layout inference, run-length
+fill, opcode, arithmetic or execution reconstruction was performed.
 
-Next: batch19,restore ending108–109with lists5/6,then independently assemble the
-full102–109article. Reuse/reinspect pinned whole scans before mapping andevery
-exact original/revised crop before OCR. Future selected-package/issue-closeout
-checks including complete Crowded Speedway88–97(final69F8) must use the explicit
-`tools.pdf_restore.table_literal_assembly.check` or `installed()` context.
-Human acceptance/full proofreading,source bytes andexecution remain unverified.
+All 15 exact original crops were inspected before 11 successful mapped Tesseract
+tasks. Four pinned whole/review scans were reused; two mapped pages and two
+outside-map lookups. No crop repair, recognition failure/retry or post-OCR crop
+repair. Five supplemental source zooms support the one correction pass. All 19,908
+prior evidence files remain unchanged; the new inventory contains 20,161 files.
+The 175-test baseline and all 16 historical implementation pins are unchanged.
+
+Next: basic-speed-assembly for complete 102–109. Preserve the opening's three
+tables/109 cells/15 blanks and every ending graphic, font, hex, quote, DATA and
+source-marker index. Existing table/literal tooling rejects the specialized graphic
+category and does not project the new font/hex indexes; add an explicit compatible
+projection without dropping metadata, rewriting source or changing prior pins.
+No further mapping/OCR is needed. Crowded Speedway checks still require
+`tools.pdf_restore.table_literal_assembly.check` or its `installed()` context.
+Human acceptance/full proofreading, source bytes and execution remain unverified.
 No reader/frontend work.
 
-Current native coverage is102–107/PDF104–109 of full102–109;108–109remain.
-Selected native:packages/batch-18-r01/basic-speed-a. Reproduction/source/crop/OCR/
-correction evidence:restoration/batch-18. Independent audit:evidence/batch-18/
-verify-r02.py (read-only unless --report names a fresh path). All162files rebuild
-identically. The wrong initial verifier file count andfresh fix are retained.
+Ending:packages/batch-19-r01/basic-speed-b;opening:packages/batch-18-r01/basic-speed-a.
+Source/crop/OCR/correction/schema/reproduction evidence:restoration/batch-19.
+Use evidence/batch-19/verify.py read-only unless --report names a fresh path.
+The preserved native source-index schema names every new field and assembly gate.
+Combined source:60regions,109blocks,13images,230physical/148numbered rows,
+82wraps,31quotes,ten DATAfields,146hex literals,18font units,24graphic candidates/
+22markers,137inline examples,three tables/109cells/15blanks,11figure captions,
+six listing captions andeight native prose joins. Native boundary107/108requires
+no prose/token/logical join. All original metadata/candidates must remain exact.
 
-Crowded Speedway remains packages/crowded-speedway-complete-r01. Table/literal
-tooling39e5b61 and[format notes](PDF-TABLE-LITERAL-ASSEMBLY.md) remain pinned.
-Its complete88–97source retains final69F8/eight00fields andearlier6FF8revision.
-Keep batch01timing,batch02report-retention andbatch06intermediate-retention exceptions.
+Crowded Speedway remains packages/crowded-speedway-complete-r01. Tooling39e5b61
+and[format notes](PDF-TABLE-LITERAL-ASSEMBLY.md) remain pinned,including its final
+69F8/eight00source revision. Keep batch01timing,batch02report-retention,batch06
+intermediate-retention andbatch18file-count/handoff repair history explicit.
 
 Spin Ball remains packages/spin-ball-complete-r02. Literal-source tooling
 c27c183and its [format notes](PDF-LITERAL-SOURCE-FIELDS.md) remain preserved.
