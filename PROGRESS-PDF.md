@@ -7,9 +7,9 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1984 is in progress: twelve readable, assistant sample-reviewed articles
-and two non-owning headings;27 of41 canonical entries remain unresolved. Complete
-Devastator65–67, U-boat62–64 and turtle57–61 pass exact rebuilds. Next: establish
-기계어 강좌's full extent and restore its opening74–79 within six mapped pages.
+with one partial course and two non-owning headings;26 of41 canonical entries
+remain unresolved. Course74–91 is source-verified; opening74–79 passes an exact
+rebuild. Next: course80–85, then86–91 natives and separate full assembly.
 Source code/table images retain separate unpromoted drafts. See the
 [October record](docs/progress/8410.md) and its versioned ledger for selected
 packages and evidence. Whole-issue closeout remains pending.
@@ -44,7 +44,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 5 classified | 4 readable, 1 partial; 36 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 13 classified | 12 readable, 1 partial; 26 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

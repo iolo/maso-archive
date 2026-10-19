@@ -934,10 +934,89 @@
       "toc_entry_id": "maso-1984-10-toc-0014",
       "title": "기계어 강좌",
       "parent_id": "maso-1984-10-toc-0013",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Separate title/byline begins printed74/PDF76. Full body extent74–91/PDF76–93 verified through next independent title92. No interleaved ad or separate unlisted body.",
+        "Source prose closes79. Source programs continue79–82, output and two instruction-set series through91. Opening74–79 selected; natives80–85/86–91 and separate full assembly pending.",
+        "Canonical author 박재현 preserved; displayed 이세형/서울대학교 제어계측공학과4 recorded separately without identity mutation."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-13-r01/machine-course-a",
+        "article_id": "scan-maso-1984-10-toc-0014",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-13-r01/machine-course-a/manifest.json",
+          "sha256": "f8a90817dd222319502b307a873ad75be9386fb6eb67b091d107b74a335a3a8c",
+          "bytes": 34411
+        },
+        "coverage": {
+          "pdf_pages": [
+            76,
+            77,
+            78,
+            79,
+            80,
+            81
+          ],
+          "printed_pages": [
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79"
+          ],
+          "regions": 52,
+          "blocks": 58,
+          "figures": 12,
+          "physical_listing_rows": 18
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ],
+          "printed_pages": [
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91"
+          ]
+        },
+        "complete_article_assembly_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0015",
@@ -1210,15 +1289,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 12,
+    "articles": 13,
     "non_owning_headings": 2,
-    "unresolved_classification": 27,
+    "unresolved_classification": 26,
     "readable": 12,
-    "partial": 0,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 14,
-    "unresolved_availability": 27
+    "sample_reviewed": 15,
+    "unresolved_availability": 26
   },
   "checkpoints": [
     {
@@ -1617,11 +1696,39 @@
         "maso-1984-10-toc-0012",
         "maso-1984-10-toc-0013"
       ]
+    },
+    {
+      "id": "batch-13",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-13/checkpoint.json",
+        "sha256": "ae6044d2f4c0c89d86895b66f16b161dd13ad31fb770bfd5b6d61ab2926770d9",
+        "bytes": 3094
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-13/source-review.json",
+        "sha256": "c7790ed4e67d7a8aa39409d7f6b6151be04cf8892f77547606635bf91389b149",
+        "bytes": 2490
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-13/validation.json",
+        "sha256": "4fa8369ce4361ed9a0c883a83c1a8aa67140e21de234ce6a6bbe8b9de4dd356c",
+        "bytes": 2003
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-13/review-log.json",
+        "sha256": "59035eecea3148e2429171713092adeda956017acc699335bd0f808392cac461",
+        "bytes": 13815
+      },
+      "status": "partial-course-opening",
+      "tool_revision": "9f80adc",
+      "outputs": [
+        "maso-1984-10-toc-0014"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-13",
-    "goal": "Establish full 기계어 강좌 extent from74 to before next title92, accounting for any intervening ads. Restore opening74–79/PDF76–81 within six mapped pages; later natives and assembly follow. Preserve canonical 박재현 vs displayed 이세형 byline discrepancy without changing identity.",
+    "id": "batch-14",
+    "goal": "Restore source course80–85/PDF82–87 as second immutable native: LIST2 ending, LIST3, output and alphabetical instruction-set rows1–422. Original images plus unpromoted mapped eng drafts; then86–91 native and full assembly.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0014"
     ],

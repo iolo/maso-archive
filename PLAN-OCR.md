@@ -20,12 +20,12 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October 1984 is in progress: twelve readable, assistant sample-reviewed
-  articles and two non-owning headings;27 of41 entries remain unresolved.
-  Devastator is complete65–67; five following pages68–72 are unrelated ads, then
-  education divider73 and course74. Original code/table imagery and separate
-  unpromoted drafts retain explicit character/byte uncertainty. Next: verify full
-  기계어 강좌 to before92 and restore opening74–79 within six mapped pages;
-  preserve canonical 박재현/displayed 이세형 discrepancy, then later natives/assembly.
+  articles, one partial course and two non-owning headings;26 of41 entries remain
+  unresolved. Course extent74–91 is verified; opening74–79 retains58 reading
+  blocks,12 images and18 short-example rows. Original code/table imagery and
+  unpromoted drafts retain explicit character/byte uncertainty. Next: course80–85,
+  then86–91 in separate six-page natives and full assembly. Canonical 박재현 and
+  displayed 이세형 remain separate unresolved identity evidence.
   The separately titled unlisted DOS TOOL KIT guide41–43 is excluded. Continue
   from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
