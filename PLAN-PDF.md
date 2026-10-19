@@ -24,17 +24,18 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-Seven October articles are readable, assistant sample-reviewed JSON/assets:
-the editorial, feature introduction, 기계어의 학습, 기계어의 기초, complete
-블록격파 게임의 제작, 하늘의 왕자 콘돌 and 명랑운동회. 취미생활 is a
-non-owning heading. Eight of41 canonical entries are accounted;33 remain unresolved.
-Dense source program panels remain original images with unpromoted OCR drafts;
-searchable prose and short typed examples retain explicit source uncertainties.
+Eight October articles are readable, assistant sample-reviewed JSON/assets;
+취미생활 is a non-owning heading. Nine of41 canonical entries are accounted;
+32 remain unresolved. Latest: complete 인베이더84, printed50–53/PDF52–55,
+with25 corrected blocks and complete original code/variable images. Dense source
+program panels remain original images with unpromoted OCR drafts; prose and short
+typed examples retain source-linked uncertainties.
 The [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Next: verify and restore 인베이더84, candidate printed50–53, within ordinary
-bounds. The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
+Next: verify flower54–56 and turtle57–61, then restore flower plus turtle57–59
+within the six-page/two-article ceiling. Turtle60–61 and assembly remain later.
+The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
 Whole-issue closeout remains pending; no reading-room rebuild occurred.
 
 ## September 1984 closeout, 2026-10-16

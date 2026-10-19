@@ -6,13 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: seven readable, assistant sample-reviewed articles
-and one non-owning hobby heading;33 of41 canonical entries remain unresolved.
-Latest: 하늘의 왕자 콘돌46–47 and 명랑운동회48–49. Their complete BASIC
-panels remain original images with unpromoted OCR drafts. Next: 인베이더84,
-candidate printed50–53. See the [October record](docs/progress/8410.md) and its
-versioned ledger for selected packages, independent rebuild evidence and the next
-bounded checkpoint. Whole-issue closeout remains pending.
+October 1984 is in progress: eight readable, assistant sample-reviewed articles
+and one non-owning hobby heading;32 of41 canonical entries remain unresolved.
+Latest: complete 인베이더84, printed50–53. Code/variable images retain separate
+unpromoted OCR drafts. Next: flower54–56 plus turtle opening57–59 within six mapped
+pages, after full-extent review. See the [October record](docs/progress/8410.md)
+and its versioned ledger for selected packages, exact rebuild evidence and the
+next bounded checkpoint. Whole-issue closeout remains pending.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
