@@ -19,15 +19,14 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: eight readable, assistant sample-reviewed
-  articles and one non-owning hobby heading;32 of41 entries remain unresolved.
-  Latest: complete 인베이더84, printed50–53. Its BASIC panels and variable table
-  remain original images with unpromoted drafts;25 corrected blocks include the
-  prose and twelve logical program-description rows. Next: verify flower54–56
-  and turtle57–61; restore flower plus turtle57–59 within the ordinary limits.
-  Turtle60–61 and assembly require later work. The separately titled unlisted
-  DOS TOOL KIT guide41–43 is excluded. Continue from the
-  [October record](docs/progress/8410.md) and
+- October 1984 is in progress: nine readable articles, one partial turtle
+  native57–59 and one non-owning hobby heading;30 of41 entries remain unresolved.
+  Latest: complete flower54–56 and turtle opening57–59. Tables/code remain
+  complete original images with unpromoted drafts; source520 has an outgoing
+  physical image-row fragment on60. Next: turtle ending60–61 plus U-boat62–64
+  within five mapped pages/two articles, then separate turtle assembly.
+  The separately titled unlisted DOS TOOL KIT guide41–43 is excluded. Continue
+  from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

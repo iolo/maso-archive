@@ -571,19 +571,145 @@
       "toc_entry_id": "maso-1984-10-toc-0009",
       "title": "꽃밭을 사수하라",
       "parent_id": "maso-1984-10-toc-0005",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Displayed flower title54 reads 꽃밭을 사수하자 while canonical stays 꽃밭을 사수하라. Prose ends55 with 간단해/지지만 continuation; program source10–1210 ends GOTO1190 on56. Next turtle title57 is separate."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-10-r01/flower",
+        "article_id": "scan-maso-1984-10-toc-0009",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-10-r01/flower/manifest.json",
+          "sha256": "deb41703133b2670be19d431efdcb381e88d1d121866aa55f2daea373c96d6d2",
+          "bytes": 12409
+        },
+        "coverage": {
+          "pdf_pages": [
+            56,
+            57,
+            58
+          ],
+          "printed_pages": [
+            "54",
+            "55",
+            "56"
+          ],
+          "regions": 18,
+          "blocks": 17,
+          "figures": 8,
+          "regional_text_ranges": 19,
+          "text_review_ranges": 23,
+          "prose_boundaries": 2,
+          "caption_note_associations": 1,
+          "original_basic_panels": 3,
+          "source_first_last_numbers": [
+            10,
+            1210
+          ],
+          "source_numbered_positions": 122,
+          "typed_code_rows": 0,
+          "original_table_panels": 3,
+          "ocr_code_and_tables_promoted": false
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0010",
       "title": "거북이 사냥",
       "parent_id": "maso-1984-10-toc-0005",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Turtle title/deck and prose57, explanation/variables and code10–180 on58, continuation190–520 on59. Source520 physically continues as unnumbered text at top60; code extends through final2090 RETURN on61. Next U-boat title62 is separate. Bottom59 is unrelated computer-school advertisement and excluded."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a",
+        "article_id": "scan-maso-1984-10-toc-0010",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a/manifest.json",
+          "sha256": "26fed7cbe940c3bd06b63db37f87c754004adb40ebc9916ef4f740ecd2ca00a9",
+          "bytes": 12230
+        },
+        "coverage": {
+          "pdf_pages": [
+            59,
+            60,
+            61
+          ],
+          "printed_pages": [
+            "57",
+            "58",
+            "59"
+          ],
+          "regions": 17,
+          "blocks": 16,
+          "figures": 7,
+          "regional_text_ranges": 17,
+          "text_review_ranges": 22,
+          "prose_boundaries": 1,
+          "caption_note_associations": 1,
+          "original_basic_panels": 3,
+          "source_first_last_numbers": [
+            10,
+            520
+          ],
+          "source_numbered_positions": 52,
+          "typed_code_rows": 0,
+          "original_table_panels": 3,
+          "ocr_code_and_tables_promoted": false,
+          "full_printed_extent": [
+            "57",
+            "58",
+            "59",
+            "60",
+            "61"
+          ],
+          "deferred_printed_pages": [
+            "60",
+            "61"
+          ],
+          "assembly_pending": true,
+          "outgoing_source_image_row": 520
+        }
+      },
+      "source_extent_review": {
+        "record": {
+          "path": "archive/pdf/1984-10/restoration/batch-10/source-review.json",
+          "sha256": "b983f5788d60892f9a5413ab579ccb26c4e3c03d1e50ca897a40d7b44a3d17a0",
+          "bytes": 2443
+        },
+        "pdf_pages": [
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "printed_pages": [
+          "57",
+          "58",
+          "59",
+          "60",
+          "61"
+        ],
+        "restoration": "partial57–59;60–61 and complete assembly remain required"
+      },
+      "historical_native_attempts": [
+        {
+          "directory": "archive/pdf/1984-10/packages/batch-10-r01/turtle-a",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-10-r01/turtle-a/manifest.json",
+            "sha256": "f4a66e30072b71d43fc2b3a5ee43c3bf686f29e4a666999fe3de9d8f09e53971",
+            "bytes": 12230
+          },
+          "reason": "Preserved first reading before source-supported 담어 syllable correction."
+        }
+      ]
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0011",
@@ -892,15 +1018,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 8,
+    "articles": 10,
     "non_owning_headings": 1,
-    "unresolved_classification": 32,
-    "readable": 8,
-    "partial": 0,
+    "unresolved_classification": 30,
+    "readable": 9,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 9,
-    "unresolved_availability": 32
+    "sample_reviewed": 11,
+    "unresolved_availability": 30
   },
   "checkpoints": [
     {
@@ -1194,14 +1320,43 @@
       "outputs": [
         "maso-1984-10-toc-0008"
       ]
+    },
+    {
+      "id": "batch-10",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-10/checkpoint.json",
+        "sha256": "5e424cf4860044cbb779f55da86a7d5a9a3b2f448d6152aa424dbeb5fe102f65",
+        "bytes": 1623
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-10/source-review.json",
+        "sha256": "b983f5788d60892f9a5413ab579ccb26c4e3c03d1e50ca897a40d7b44a3d17a0",
+        "bytes": 2443
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-10/validation.json",
+        "sha256": "1c34735f4bdf9d4d089dd35febedc8dd125da0888cceb851bf946105d2bd4097",
+        "bytes": 3312
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-10/review-log.json",
+        "sha256": "d65b797559e063af5b3aae555e0538dacb2cf913b321a9f5be47fbb77ded6372",
+        "bytes": 11388
+      },
+      "status": "complete-article-and-partial-native",
+      "tool_revision": "bb759d1",
+      "outputs": [
+        "maso-1984-10-toc-0009",
+        "maso-1984-10-toc-0010"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-10",
-    "goal": "Verify flower article full54–56 and turtle full57–61. Restore complete flower54–56/PDF56–58 plus turtle opening57–59/PDF59–61 within six mapped pages. Turtle60–61 and separate assembly deferred.",
+    "id": "batch-11",
+    "goal": "Restore turtle ending60–61/PDF62–63, retaining source520 incoming physical image fragment, and verify/restore complete U-boat62–64/PDF64–66 before next title65. Five mapped pages/two articles; separate turtle assembly afterward.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0009",
-      "maso-1984-10-toc-0010"
+      "maso-1984-10-toc-0010",
+      "maso-1984-10-toc-0011"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,

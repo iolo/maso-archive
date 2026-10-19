@@ -6,11 +6,11 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: eight readable, assistant sample-reviewed articles
-and one non-owning hobby heading;32 of41 canonical entries remain unresolved.
-Latest: complete 인베이더84, printed50–53. Code/variable images retain separate
-unpromoted OCR drafts. Next: flower54–56 plus turtle opening57–59 within six mapped
-pages, after full-extent review. See the [October record](docs/progress/8410.md)
+October 1984 is in progress: nine readable, assistant sample-reviewed articles,
+one partial turtle native57–59 and one non-owning heading;30 of41 canonical entries
+remain unresolved. Latest: complete flower54–56 and turtle opening57–59. Dense
+tables/code remain original images with unpromoted drafts. Next: turtle60–61 plus
+U-boat62–64, then separate turtle assembly. See the [October record](docs/progress/8410.md)
 and its versioned ledger for selected packages, exact rebuild evidence and the
 next bounded checkpoint. Whole-issue closeout remains pending.
 
