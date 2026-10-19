@@ -6,33 +6,41 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: nine readable articles, no partial articles,
-two non-owning headings and 26 of 37 entries unresolved. Crowded Speedway is
-complete over 88–97/PDF90–99. The 336-file assembly and both fresh metadata-only
-native revisions reproduce byte-for-byte; all 17,885 prior evidence files remain
-unchanged. The new preservation inventory contains 19,252 files.
+December 1984 is in progress: nine readable articles, one partial article,
+two non-owning headings and 25 of 37 entries unresolved. BASIC speed0011 is
+restored over 102–107/PDF104–109 of its verified full102–109/PDF104–111. The
+following CP/M(5) starts110/PDF112; the education divider precedes102 atPDF103.
+Canonical identities, titles and parent links remain unchanged.
 
-All 98 regions, 37 blocks and 31 original images retain exact source provenance.
-The combined listing preserves 1,233 physical rows, ten numbered BASIC entries,
-seven wraps, 1,216 hex rows/addresses and 9,728 literal fields. Exact indexes retain
-44 DATA fields, two quotes, 16 inline examples, two tables/80 cells/22 blanks,
-four figure-caption links, one listing-caption link and two native prose joins.
-The internal-digit 13/newline/indentation/3 DATA spelling, missing table digits,
-blank road-flag address and all source uncertainty remain literal. Final 69F8
-with eight 00 fields retains the earlier 6FF8 observation and source-reading revision.
+The162-file native export and independent rebuild are byte-identical. It retains
+45regions,100blocks,nine original images,108regional text spans,138text reviews,
+30text notes andeight prose joins. Four listings retain29physical rows,25numbered
+entries,four wraps,six quoted strings andnine source notes. Three tables retain
+15data rows,16including headers,109cells and15blanks. Nine figure-caption links,
+four listing-caption links and131inline examples have exact source occurrences.
 
-Separate opt-in table/literal tooling (39e5b61) passes all 175 PDF tests. All twelve
-historical implementation pins and three historical assembly audits pass unchanged.
-Future checks or issue closeout including Crowded Speedway must use
-`tools.pdf_restore.table_literal_assembly.check` or its `installed()` context;
-see [the format notes](docs/PDF-TABLE-LITERAL-ASSEMBLY.md). No new mapping/OCR.
+All45original andthree revised exact crops were inspected before36successful
+mapped Tesseract tasks. Three clipped edges were widened once each before OCR;
+no recognition failure/retry or post-OCR repair. Twelve whole pages were reviewed,
+with six outside-map lookups;four pinned renders reused,eight newly rendered.
+Thekeymatrix OCR drafts are poor/empty;every table cell was transcribed directly
+from scans. All19,252prior evidence files are unchanged;new inventory:19,908files.
+Shared175-test baseline andall16historical implementation pins remain unchanged.
 
-Next: batch18, establish the complete extent/neighbors of SPC-1000 BASIC speed
-0011, whose title102/PDF104 is already observed, then restore at most six mapped
-pages. Its end is not established; CP/M(5)110 is only a lookup lead. Review full
-pages before mapping and all exact original/revised crops before OCR. Education
-0010 is already non-owning. Human acceptance/full proofreading, source bytes and
-execution remain unverified. No reader/frontend work.
+Source8008Akey infigure3 differs from8001inprose/figure4;BEE differs fromBEEP;
+parenthetical&H0FFFF differs from&H0FFF. All remain literal. Blank key boxes,
+uncertain matrix glyphs,physical COUNT/STOP/quoted-string wraps,inline FOR wrap
+andUnicode return/arrow approximations remain explicit. No encoding,hardware,
+arithmetic,syntax,opcode or execution reconstruction. The first verifier's wrong
+file-count assumption andfresh fix are retained;source/export bytes are unchanged.
+
+Next: batch19,restore ending108–109with lists5/6,then independently assemble the
+full102–109article. Reuse/reinspect pinned whole scans before mapping andevery
+exact original/revised crop before OCR. Future selected-package/issue-closeout
+checks including complete Crowded Speedway88–97(final69F8) must use the explicit
+`tools.pdf_restore.table_literal_assembly.check` or `installed()` context.
+Human acceptance/full proofreading,source bytes andexecution remain unverified.
+No reader/frontend work.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
@@ -73,7 +81,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
-| 1984-12 | 9 | 9 readable; 0 partial; 2 non-owning headings; 26 TOC entries unresolved | [8412](docs/progress/8412.md) |
+| 1984-12 | 10 | 9 readable; 1 partial; 2 non-owning headings; 25 TOC entries unresolved | [8412](docs/progress/8412.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
