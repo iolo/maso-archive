@@ -7,10 +7,11 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 December 1984 is in progress: editorial18 and robot-feature introduction19 are
-readable; 골목대장20–25 is a partial segment of its verified20–33 extent. Of37
+readable; 골목대장20–31 has two partial segments of its verified20–33 extent. Of37
 canonical entries,34 await classification/restoration. All selected packages and
-independent byte-identical rebuilds pass. Batch02's49 crops were reviewed before
-OCR; batch01's timing exception remains explicit. Next is 골목대장26–31.
+independent byte-identical rebuilds pass. Batch03 adds55 preflight-reviewed crops,
+13 images and28 code rows; batch01's timing exception remains explicit.
+Next is 골목대장32–33, followed by full-article assembly.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
