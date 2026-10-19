@@ -74,6 +74,10 @@ def join_blocks(recipe, package, contexts):
 
 
 def project_examples(recipe, originals):
+    basic = any('basic_source_fields_format' in c for _, c in originals)
+    if basic and (recipe.get('index_mode') != 'wrapped-listing-v1' or any(
+            c.get('basic_source_fields_format') != 'v1' for _, c in originals)):
+        raise ValueError('BASIC source fields require uniformly opted-in wrapped segments')
     # Interrupted wrapped packages use existing block/range indexes; unlike the
     # regional modes, they do not require retrofitting immutable regional indexes.
     wrapped = recipe.get('index_mode') in ('wrapped-listing-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1')
@@ -264,6 +268,9 @@ def project_examples(recipe, originals):
             if literal:
                 from .assembly_literals import project_hex_indexes
                 project_hex_indexes(context, corrections, listing)
+            if basic:
+                from .assembly_basic_fields import project_basic_fields
+                project_basic_fields(context, corrections, listing, text_range, references)
             continue
 
         code = {b['id']: b for b in context.source['blocks'] if b['kind'] == 'code'}
