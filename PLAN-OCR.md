@@ -25,8 +25,7 @@ paired OCR or a new engine comparison.
   46 blocks,16 original images,46 regional spans and six short-example rows.
   All61 OCR tasks completed without failures/retries; four crops widened once.
   First mistaken reading retained beside selected source correction; no OCR repeat.
-  Independent byte-identical rebuild passes. Next: restore ending119, then separate
-  complete seven-page assembly. Source errors,table/code interiors and encoded-byte/
+  Independent byte-identical rebuild passes. Next: assemble complete seven-page article from exact opening/ending natives. Source errors,table/code interiors and encoded-byte/
   execution limits remain explicit. Whole-issue closeout is pending.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).

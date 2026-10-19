@@ -1331,7 +1331,8 @@
       "classification_evidence": [
         "Separate 애플 포트란 title113/PDF115,signed 이준구/대우중공업 전산실,연재4회. Canonical title/byline/parent unchanged.",
         "Full113–119/PDF115–121 verified through final transcendence code/output119, no unrelated material/ads. Prior SPC ends112,next independent 도량형 환산 starts120.",
-        "Current immutable opening113–118 preserves all standalone text/two short examples and full tables/program/output/cartoon images. Source119 and separate full seven-page assembly required."
+        "Current immutable opening113–118 preserves all standalone text/two short examples and full tables/program/output/cartoon images. Source119 and separate full seven-page assembly required.",
+        "Ending119 restored separately; all seven pages now have immutable native coverage, remaining partial until separate full assembly."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-20-r02/apple-fortran-a",
@@ -1389,7 +1390,27 @@
             "119"
           ]
         },
-        "complete_article_assembly_pending": true
+        "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "name": "opening",
+            "directory": "archive/pdf/1984-10/packages/batch-20-r02/apple-fortran-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-20-r02/apple-fortran-a/manifest.json",
+              "sha256": "d0492475f2a0313a469177b1ee2fd243d53eb8be15d7e9228cb64ae17d785be3",
+              "bytes": 43675
+            }
+          },
+          {
+            "name": "ending",
+            "directory": "archive/pdf/1984-10/packages/batch-21-r01/apple-fortran-b",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-21-r01/apple-fortran-b/manifest.json",
+              "sha256": "1001b752da213cbdd4e6a0a04733737997f5d2a0ed4edd2a90d8ac5214707d9f",
+              "bytes": 3264
+            }
+          }
+        ]
       }
     },
     {
@@ -2306,17 +2327,45 @@
       "outputs": [
         "maso-1984-10-toc-0019"
       ]
+    },
+    {
+      "id": "batch-21",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-21/checkpoint.json",
+        "sha256": "182b663e686a3a3e8baf9981874aee5a3ecfa04b3092e8088bfbf07b8cd1e06a",
+        "bytes": 2339
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-21/source-review.json",
+        "sha256": "811d94bb3a35aa111cfcf280fc42e0cb0d97d3366bceca4d0a3e854f4d4a9b0f",
+        "bytes": 1131
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-21/validation.json",
+        "sha256": "46feec08478f05f39380360b1f7c8680b2dd465b729ff637b36a6c1773ae9749",
+        "bytes": 1504
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-21/review-log.json",
+        "sha256": "56cef0b230af914f77904a686161ad4371a0da6f8f51318504cd50bad4271b87",
+        "bytes": 1464
+      },
+      "status": "apple-fortran-ending-preserved",
+      "tool_revision": "5df8cdf",
+      "outputs": [
+        "maso-1984-10-toc-0019"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-21",
-    "goal": "Restore Apple Fortran ending119/PDF121 from pinned full source extent113–119. Preserve two remaining original code/output columns and label45 continuation; separate complete seven-page assembly follows.",
+    "id": "apple-fortran-assembly",
+    "goal": "Assemble complete Apple Fortran113–119 from exact immutable natives; audit rebased ranges, two short examples, three tables/ASCII128 positions,14 original program/output panels/32 FORMAT labels, code/image/caption scopes.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0019"
     ],
     "maximum_articles": 1,
-    "maximum_mapped_pages": 1,
-    "maximum_outside_map_lookups": 20
+    "maximum_mapped_pages": 0,
+    "maximum_outside_map_lookups": 0
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
