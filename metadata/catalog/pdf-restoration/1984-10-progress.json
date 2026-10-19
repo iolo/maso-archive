@@ -1326,51 +1326,22 @@
       "parent_id": "maso-1984-10-toc-0013",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Separate 애플 포트란 title113/PDF115,signed 이준구/대우중공업 전산실,연재4회. Canonical title/byline/parent unchanged.",
-        "Full113–119/PDF115–121 verified through final transcendence code/output119, no unrelated material/ads. Prior SPC ends112,next independent 도량형 환산 starts120.",
-        "Current immutable opening113–118 preserves all standalone text/two short examples and full tables/program/output/cartoon images. Source119 and separate full seven-page assembly required.",
-        "Ending119 restored separately; all seven pages now have immutable native coverage, remaining partial until separate full assembly."
+        "Separate 애플 포트란 title113/PDF115,signed 이준구/대우중공업 전산실,연재4회; canonical title/byline/parent unchanged.",
+        "Complete113–119/PDF115–121 assembled from exact immutable natives through final transcendence program/output119; no unrelated body/ads. Prior SPC112 and next 도량형 환산120 bound article.",
+        "All standalone prose/headers/captions,two short examples and complete original table/program/output/cartoon images retained. Historical source type/value/code/glyph anomalies and encoded-byte/execution limits explicit."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-20-r02/apple-fortran-a",
+        "directory": "archive/pdf/1984-10/packages/apple-fortran-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0019",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-20-r02/apple-fortran-a/manifest.json",
-          "sha256": "d0492475f2a0313a469177b1ee2fd243d53eb8be15d7e9228cb64ae17d785be3",
-          "bytes": 43675
+          "path": "archive/pdf/1984-10/packages/apple-fortran-complete-r01/manifest.json",
+          "sha256": "ad98acc046f419c2903b691600efc3d1ee46484fe501c6e057f309cec804c990",
+          "bytes": 52828
         },
         "coverage": {
-          "pdf_pages": [
-            115,
-            116,
-            117,
-            118,
-            119,
-            120
-          ],
-          "printed_pages": [
-            "113",
-            "114",
-            "115",
-            "116",
-            "117",
-            "118"
-          ],
-          "regions": 62,
-          "blocks": 46,
-          "figures": 16,
-          "regional_text_ranges": 46,
-          "physical_listing_rows": 6,
-          "original_program_output_panels": 12,
-          "fortran_format_label_positions": 21,
-          "original_table_panels": 3,
-          "ascii_physical_data_positions": 128,
-          "original_cartoon": 1
-        },
-        "full_source_extent": {
           "pdf_pages": [
             115,
             116,
@@ -1388,9 +1359,22 @@
             "117",
             "118",
             "119"
-          ]
+          ],
+          "regions": 65,
+          "blocks": 47,
+          "figures": 18,
+          "regional_text_ranges": 47,
+          "physical_listing_rows": 6,
+          "original_program_output_panels": 14,
+          "fortran_format_label_positions": 32,
+          "original_table_panels": 3,
+          "ascii_physical_data_positions": 128,
+          "original_cartoon": 1,
+          "caption_associations": 4,
+          "source_heading_associations": 14,
+          "image_continuations": 5
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "name": "opening",
@@ -1410,7 +1394,17 @@
               "bytes": 3264
             }
           }
-        ]
+        ],
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/apple-fortran-assembly/article-associations.json",
+          "sha256": "6868e73c2da0ea3135009de0e7f26446846dae82e1a32f6757fe6b8e6cd49456",
+          "bytes": 51411
+        },
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/apple-fortran-assembly/image-code-coverage.json",
+          "sha256": "56fa9a79d91347e8ad7b7395b4d5fb5e0785f12a864d9601438c80f57968a889",
+          "bytes": 18806
+        }
       }
     },
     {
@@ -1642,8 +1636,8 @@
     "articles": 18,
     "non_owning_headings": 2,
     "unresolved_classification": 21,
-    "readable": 17,
-    "partial": 1,
+    "readable": 18,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 20,
@@ -2355,17 +2349,45 @@
       "outputs": [
         "maso-1984-10-toc-0019"
       ]
+    },
+    {
+      "id": "apple-fortran-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/apple-fortran-assembly/checkpoint.json",
+        "sha256": "32a8bf30bf4c2a5791cf87bccb36cd2a7e4ceba553ba5a174a6f16bef53fcf66",
+        "bytes": 1499
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-20/source-review.json",
+        "sha256": "2304d2185f8b4a4400e7b64d49e9e44dbd4684a4cb180bfcd124ee22773b6e3a",
+        "bytes": 1832
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/apple-fortran-assembly/validation.json",
+        "sha256": "4ad4584c5cedd60caaa8701668d8f86fef0b21131acebdbbdae4a112a24dd7a7",
+        "bytes": 2639
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/apple-fortran-assembly/review-log.json",
+        "sha256": "910e61faf530fc7d556a1662bc0e0e76e5b3d9477b1da7e13730de86e51b88a8",
+        "bytes": 3341
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "7192db8",
+      "outputs": [
+        "maso-1984-10-toc-0019"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "apple-fortran-assembly",
-    "goal": "Assemble complete Apple Fortran113–119 from exact immutable natives; audit rebased ranges, two short examples, three tables/ASCII128 positions,14 original program/output panels/32 FORMAT labels, code/image/caption scopes.",
+    "id": "batch-22",
+    "goal": "Verify complete 도량형 환산 program extent from120 through before next independent canonical title, within20 outside-map lookups. Restore actual opening within candidate120–125/PDF122–127,six mapped pages maximum; preserve all BASIC/tables/screens/bitmap glyphs and continue/assemble separately if needed.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0019"
+      "maso-1984-10-toc-0020"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

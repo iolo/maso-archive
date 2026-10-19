@@ -24,14 +24,16 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-October 1984 is in progress:17 readable,assistant sample-reviewed articles,
-one partial Apple Fortran,two non-owning headings and21 of41 entries unresolved.
-Source Apple Fortran113–119 is verified; opening113–118 retains62 regions,
-46 blocks,16 original images,46 regional spans and six short-example rows.
-All61 OCR tasks completed without failures/retries; four crops widened once.
-First mistaken reading retained beside selected source correction; no OCR repeat.
-Independent byte-identical rebuild passes. Next: assemble complete seven-page article from exact opening/ending natives. Source errors,table/code interiors and encoded-byte/
-execution limits remain explicit. Whole-issue closeout is pending.
+October 1984 is in progress: 18 readable, assistant sample-reviewed articles,
+no partial articles, two non-owning headings and 21 of 41 entries unresolved.
+Complete Apple Fortran113–119 passes exact native preservation and independent
+assembly rebuild: 65 regions,47 blocks,18 original images,47 regional spans and
+six short-example rows. Fourteen full program/output panels retain32 FORMAT
+labels; three complete tables retain128 ASCII positions and printed129 anomaly.
+Five image continuations,four captions and14 source heading scopes are indexed.
+Next: verify full 도량형 환산 extent from120, then restore actual opening within
+candidate120–125 under six-page limit. Literal source errors,table/code interiors,
+encoded bytes and execution limits remain explicit. Whole-issue closeout pending.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded; no reading-room rebuild.
