@@ -20,18 +20,17 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October 1984 is in progress: 23 readable, assistant sample-reviewed articles,
-  no partial,three non-owning headings and15 of41 entries unresolved. Complete
-  자료구조177–183 covers50 regions,30 corrected blocks,13 original images,
-  39 regional spans,48 review ranges,nine native boundaries and nine caption links.
-  Three distinct Pascal source panels,six diagrams,two original mathematical prose
-  panels,title/series panel and illustration retain source notation/anomalies;five
-  bibliography entries have global source scopes. All native bytes preserved;
-  source/range/scan/caption/heading/math/program/reference checks and independent
-  byte-identical rebuild pass. No new mapping/OCR. Four pure scope notes resolve;
-  source fidelity/notation uncertainties remain. Next:Technical heading classification,
-  full 마이컴 설계강좌188 extent review,then bounded opening. Human acceptance/
-  full proofreading,source glyph/notation/encoded-byte fidelity and execution remain
-  unverified;whole-issue closeout pending,no reader rebuild.
+  one partial microcomputer-design article,four non-owning headings and13 of41
+  entries unresolved. Full design188–202/PDF190–204 is verified through source
+  listing119 END at20B4;Technical divider sequence187 has no visible folio/owned body.
+  Opening188–191 retains34regions,23corrected blocks,seven original images,27regional
+  spans,four boundaries and five captions. Five hardware diagrams preserve pin/
+  voltage/signal bars/subscripts/wires/timing;series strip/artwork retained. All32OCR
+  tasks completed with one pre-recognition crop repair,zero failures/retries;
+  independent byte-identical rebuild passes. Literal hardware/wording/number claims
+  and provisional10킬로 remain source-linked. Next:192–197 middle,then198–202 ending/
+  full15-page assembly. Human acceptance/full proofreading,source glyph/notation/
+  encoded-byte fidelity and execution unverified;whole-issue closeout pending,no reader rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
