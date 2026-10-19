@@ -2084,7 +2084,8 @@
         "Separate source188/PDF190 displayed 마이크로 컴퓨터 설계 강좌/제5장 메모리의 증설,signed 김덕우/서울대 제어계측공학과4. Canonical 마이컴 설계강좌/김덕우/Technical parent unchanged.",
         "Actual complete continuous188–202/PDF190–204 reviewed,including18original figures and memory-test assembly listing1 ending202 line119 END at20B4. Prior Technical non-owning divider sequence187/no visible folio;next independent SPCeditor203. No unrelated ads/body within article.",
         "Current188–191 retains23corrected standalone blocks/seven original series/art/diagram images and four explicit text boundaries. All diagram pin/voltage/signal-overbar/subscript/timing/wire content original. Historical hardware/wording/source-number anomalies retained;192–202/full15-page assembly pending.",
-        "Middle192–197 restored separately:33corrected blocks/11original images,figures6–15/reset-state table,source spelling/addresses/signal/timing anomalies retained. All current inputs/source/ranges/scans/links and independent rebuild pass with explicitly recorded final3revised-preview timing exception. Two immutable natives cover188–197;remaining198–202/full15-page assembly required."
+        "Middle192–197 restored separately:33corrected blocks/11original images,figures6–15/reset-state table,source spelling/addresses/signal/timing anomalies retained. All current inputs/source/ranges/scans/links and independent rebuild pass with explicitly recorded final3revised-preview timing exception. Two immutable natives cover188–197;remaining198–202/full15-page assembly required.",
+        "Ending198–202 restored separately:14corrected blocks/7original images,figures16–18/control table/three assembler panels,116source-number positions4–119 ending119END at20B4. All22crops reviewed before OCR,22tasks/zero failures/retries/repairs;independent rebuild exact. Three immutable natives now cover full188–202;separate complete15-page assembly required. Prior middle preflight timing exception remains explicit."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-34-r01/microcomputer-a",
@@ -2175,6 +2176,14 @@
               "sha256": "5dd508f7058bd8accb1b969560086df7ac77277e126202b8c0f9c9c8dc39a226",
               "bytes": 37157
             }
+          },
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-36-r01/microcomputer-c",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-36-r01/microcomputer-c/manifest.json",
+              "sha256": "0c30d2cd18d5ef30ab822f23abef0d785238bfd3149043ef16fc9f43debde97e",
+              "bytes": 16732
+            }
           }
         ],
         "all_native_source_pages": [
@@ -2187,12 +2196,22 @@
           196,
           197,
           198,
-          199
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
         ],
         "middle_validation": {
           "path": "archive/pdf/1984-10/evidence/batch-35/validation.json",
           "sha256": "596f46b0be0bacee4d9e32acb94986a89cb487fc580eb87d72777266a1f096b5",
           "bytes": 2982
+        },
+        "ending_validation": {
+          "path": "archive/pdf/1984-10/evidence/batch-36/validation.json",
+          "sha256": "c03aea2d945fad3b90f6e0ccf471186f443ed08d5dfb2d92771ea2aa22816acf",
+          "bytes": 2691
         }
       }
     },
@@ -3655,17 +3674,45 @@
       "outputs": [
         "maso-1984-10-toc-0027"
       ]
+    },
+    {
+      "id": "batch-36",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-36/checkpoint.json",
+        "sha256": "b196b4b712395ee24fa3091fd3897f87895b55408e3e58473e108b43d2e28a11",
+        "bytes": 2797
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-36/source-review.json",
+        "sha256": "a4343f158d6b30e88f36ae0b5f2ad7406c3c8178e06663f226ac53652834f598",
+        "bytes": 1999
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-36/validation.json",
+        "sha256": "c03aea2d945fad3b90f6e0ccf471186f443ed08d5dfb2d92771ea2aa22816acf",
+        "bytes": 2691
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-36/review-log.json",
+        "sha256": "a2351e493802c738dc87b2b18e634e8da6c5bfb035895a7a648048559c6c87d8",
+        "bytes": 2196
+      },
+      "status": "partial-microcomputer-ending",
+      "tool_revision": "5f1959c",
+      "outputs": [
+        "maso-1984-10-toc-0027"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-36",
-    "goal": "Restore microcomputer ending198–202/PDF200–204,five mapped/two adjacent lookups197/203,using verified full188–202extent. Correct IPL/bank/test/SRAM prose/captions;retain original figures16–18 and memory-test assembly listing1 across200–202,source numbers4–119 including blank/comment/physical wraps and119END at20B4. Preserve source address/overbar/glyph anomalies;full15-page assembly follows.",
+    "id": "microcomputer-assembly",
+    "goal": "Assemble full188–202/PDF190–204 from three immutable natives;verify every source range/scan/caption/heading/prose/table/assembler association and all native bytes. Resolve six pure scope notes only,retain middle preflight timing exception and all source fidelity limits.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0027"
     ],
-    "maximum_articles": 2,
-    "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20
+    "maximum_articles": 1,
+    "maximum_mapped_pages": 0,
+    "maximum_outside_map_lookups": 0
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

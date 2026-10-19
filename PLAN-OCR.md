@@ -21,15 +21,15 @@ paired OCR or a new engine comparison.
 
 - October 1984 is in progress: 23 readable, assistant sample-reviewed articles,
   one partial microcomputer-design article,four non-owning headings and13 of41
-  entries unresolved. Design middle192–197 retains50regions,33corrected blocks,
-  11original images,40regional spans,seven boundaries and10caption links. Ten
-  hardware figures6–15/reset-state table preserve signal bars/values/wires;source
-  REST/RESET,페치/패치,address/wording anomalies retained.50OCR tasks,zero failures/
-  retries,six pre-recognition crop repairs;exact rebuild/source/range/scan checks pass.
-  Final3revised-preview model confirmation followed engine launch;timing exception
-  explicit,no OCR rerun. Two natives now cover188–197. Next:198–202 ending,then
-  full15-page assembly. Human acceptance/full proofreading,source glyph/notation/
-  encoded-byte fidelity and execution unverified;whole-issue closeout pending,no reader rebuild.
+  entries unresolved. Design ending198–202 retains22regions,14corrected blocks,
+  seven original images,16regional spans/two word joins and six caption links.
+  Figures16–18/control table and three assembler panels retain116printed source
+  positions4–119 through119END at20B4. All22crops reviewed before recognition;
+  22tasks,zero failures/retries/repairs;source/range/scan checks and exact rebuild pass.
+  Three immutable natives now cover188–202;full15-page assembly next. Prior middle
+  preflight timing exception remains explicit. Human acceptance/full proofreading,
+  source glyph/notation/encoded-byte fidelity and execution unverified;whole-issue
+  closeout pending,no reader rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
