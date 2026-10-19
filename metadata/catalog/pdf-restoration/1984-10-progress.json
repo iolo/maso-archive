@@ -2323,61 +2323,65 @@
       "parent_id": "maso-1984-10-toc-0026",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Displayed PHONE LIST 프로그램을 통해 본 프로그래밍테크닉206/PDF208,애플 컴퍼티블/김귀만/경희대 경영학과3년. Canonical title/byline/Technical parent unchanged.",
-        "Actual full206–211/PDF208–213endsclosing감사/아디오스. Prior205SPCeditor,next212sequenceindependentmonthlycontestnotice/no visiblefolio,and213공모총평 excluded. All6articlefolios individually checked.",
-        "Opening206–208retains23corrected blocks/11original images,listings1–4/table/figures1–3/threeinlineexamples,26regional spans/32reviews/three joins/eightcaption links. All36crops reviewed before36OCRtasks,zero failures/retries/repairs;source/range/scan/associations and independent rebuild pass. Ending209–211/full6-page assembly required.",
-        "Ending209–211restored separately:30corrected blocks/14original images,31source spans/44reviews/oneparagraphjoin/12caption links. Five originalP0–P4program examplesretain27source positions/sevenwraps,19numbered explanation entriesremainprose.45crops/all7revisions reviewed before45OCRtasks,sevenrepairs once/zerofailure/retry;all source/range/scan/association and exact rebuild pass. Two natives cover full206–211,separate complete6-page assembly required."
+        "Displayed PHONE LIST 프로그램을 통해 본 프로그래밍테크닉206/애플 컴퍼티블/김귀만/경희대 경영학과3년. Canonical PHONE LIST를 통해 본 프로그래밍 테크닉/김귀만/Technical parent unchanged.",
+        "Actual full206–211/PDF208–213endsclosing감사/아디오스. Prior205SPCeditor,next212sequence independent monthlycontestnotice/no visiblefolio,and213공모총평 excluded. All6folios individually checked.",
+        "Two exact immutable natives retain81regions/53corrected blocks/25original images,57regional spans/76reviews/four native boundaries/20captions. Listings1–9/five inlineinputs/table/figures1–6/8–11 and19explanatory prose entries source-linked;no fabricatedfigure7or typed mainPHONE LISTsource. All global source/paragraph/heading/caption/input/dump checks,native preservation and independent complete rebuild pass."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-38-r01/phone-a",
+        "directory": "archive/pdf/1984-10/packages/phone-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0029",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-38-r01/phone-a/manifest.json",
-          "sha256": "df3ba032d82ddcee7c2bdb688ad8b290fb4516a98764f8ea9d569ce20bb1aef3",
-          "bytes": 26353
+          "path": "archive/pdf/1984-10/packages/phone-complete-r01/manifest.json",
+          "sha256": "b06d1e45817004d0c75f862258f98065bb1f32dc66acc25aa0e5a0bd5cf2d2a9",
+          "bytes": 65801
         },
         "coverage": {
           "pdf_pages": [
             208,
             209,
-            210
+            210,
+            211,
+            212,
+            213
           ],
           "printed_pages": [
             "206",
             "207",
-            "208"
+            "208",
+            "209",
+            "210",
+            "211"
           ],
-          "regions": 36,
-          "blocks": 23,
-          "figures": 11,
-          "regional_text_ranges": 26,
-          "text_review_ranges": 32,
-          "explicit_prose_boundaries": 3,
-          "caption_blocks": 8,
-          "caption_associations": 8,
-          "source_heading_associations": 11,
-          "source_prose_image_associations": 11,
-          "image_text_overlaps": 2,
-          "original_listing_input_images": 4,
-          "original_monitor_output_dump_images": 4,
+          "regions": 81,
+          "blocks": 53,
+          "figures": 25,
+          "text_review_ranges": 76,
+          "source_regional_spans": 57,
+          "native_prose_boundaries": 4,
+          "cross_native_broken_word_connections": 0,
+          "cross_native_paragraph_connections": 1,
+          "caption_blocks": 20,
+          "caption_associations": 20,
+          "image_text_overlap_regions": 2,
+          "prose_image_associations": 31,
+          "cross_native_prose_image_associations": 2,
+          "source_heading_associations": 25,
+          "source_listing_images": 9,
+          "original_P0_P4_programs": 5,
+          "source_program_number_positions": 27,
+          "source_program_physical_wraps": 7,
+          "source_program_physical_rows": 34,
+          "original_inline_inputs": 5,
+          "original_numbered_figures": 10,
           "original_control_key_tables": 1,
-          "source_control_table_body_cells": 6,
-          "source_control_table_header_cells": 2,
-          "original_memory_structure_diagrams": 2,
-          "source_listing_labels": [
-            1,
-            2,
-            3,
-            4
-          ],
-          "source_visible_number_positions": 7,
-          "source_dump_rows": 8,
-          "source_dump_bytes": 64,
-          "source_dump_command_lines": 2,
-          "source_inline_examples": 3,
+          "source_explanatory_entries": 19,
+          "source_numbered_input_positions": 35,
+          "source_indexed_display_number_positions": 12,
+          "additional_original_display_number_positions": 1,
+          "complete_input_and_display_number_positions": 48,
           "typed_program_rows": 0
         },
         "full_source_extent": {
@@ -2398,7 +2402,7 @@
             "211"
           ]
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "directory": "archive/pdf/1984-10/packages/batch-38-r01/phone-a",
@@ -2418,22 +2422,14 @@
           }
         ],
         "article_associations": {
-          "path": "archive/pdf/1984-10/evidence/batch-38/source-associations.json",
-          "sha256": "dc7283c43375472ef7d56c73c40f6fae34850a6f01e8ed7343a967ffc8ab61ff",
-          "bytes": 51620
+          "path": "archive/pdf/1984-10/evidence/phone-assembly/article-associations.json",
+          "sha256": "68d5a84820678279000d2a56d0cf38bbc6c751cc0cee44ee581960ed773a2b91",
+          "bytes": 162674
         },
-        "all_native_source_pages": [
-          208,
-          209,
-          210,
-          211,
-          212,
-          213
-        ],
-        "ending_validation": {
-          "path": "archive/pdf/1984-10/evidence/batch-39/validation.json",
-          "sha256": "22723ba400a1a0dca3c18065cc5ba6179b86d99999242e08a9f2414715373e88",
-          "bytes": 2882
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/phone-assembly/image-code-coverage.json",
+          "sha256": "7c2bf76410955b7592cafc696e12f895fc9cbe3442911eb8be5875a5a3420e88",
+          "bytes": 27216
         }
       }
     },
@@ -2576,8 +2572,8 @@
     "articles": 26,
     "non_owning_headings": 4,
     "unresolved_classification": 11,
-    "readable": 25,
-    "partial": 1,
+    "readable": 26,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 30,
@@ -4018,17 +4014,46 @@
       "outputs": [
         "maso-1984-10-toc-0029"
       ]
+    },
+    {
+      "id": "phone-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/phone-assembly/checkpoint.json",
+        "sha256": "b2ca26123bfd76e7359952513fdc7faec49106d4ddcb36778b04edf05eec6cbf",
+        "bytes": 1092
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-38/source-review.json",
+        "sha256": "091b1bf6689bb2952495bad9cbc1673f4c7d975799ab566410ceffbd419e805c",
+        "bytes": 1776
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/phone-assembly/validation.json",
+        "sha256": "33ab29acf5cac411658b9685eb76d4723442a6fc45b3952806956a44cd0bd327",
+        "bytes": 3002
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/phone-assembly/review-log.json",
+        "sha256": "fac20aee8c9338eceb454c3407b9e260082c3f220546f1d303f0c836295f6f39",
+        "bytes": 3617
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "c80deb3",
+      "outputs": [
+        "maso-1984-10-toc-0029"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "phone-assembly",
-    "goal": "Assemble complete206–211/PDF208–213from exact two immutable natives;verify81regions/53blocks/25images,57regional spans/76reviews/four native boundaries/20captions. Audit listing1–9/figures1–6/8–11/table/5inlineinputs,19prose explanation entries/cross-nativeLINKparagraph and diagram2/3associations. Preserve source anomalies,resolve4pure scope notes only.",
+    "id": "batch-40",
+    "goal": "Classify non-owning 공모입선작0030from canonical children/actualdivider evidence,and restore complete 공모총평0031from213/PDF215after actual fullsource/adjacent review. Preserve winners table/source text/title and byline absence;at most2identities/6mapped/20outside lookups.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0029"
+      "maso-1984-10-toc-0030",
+      "maso-1984-10-toc-0031"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

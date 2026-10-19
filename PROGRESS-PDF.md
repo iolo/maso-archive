@@ -6,17 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: 25 readable, assistant sample-reviewed articles,
-one partial PHONE LIST article,four non-owning headings and11 of41 entries
-unresolved. PHONE ending209–211retains45regions,30corrected blocks/14original
-images,31regional spans/44reviews,one paragraph boundary and12caption links.
-Five P0–P4original programs retain27source positions/sevenwraps;19numbered
-explanations remain prose. All45initial/seven revised crops reviewed before45OCR
-tasks,zero failures/retries;seven crop repairs once. Source/range/scan checks and
-exact rebuild pass. Two immutable natives cover206–211;complete6-page assembly
-next. Prior design-middle timing exception remains recorded. Human acceptance/
-full proofreading,source encoded bytes and execution unverified;whole-issue
-closeout pending,no reader rebuild.
+October 1984 is in progress: 26 readable, assistant sample-reviewed articles,
+no partial,four non-owning headings and11 of41 entries unresolved. Complete
+PHONE LIST206–211covers81regions,53corrected blocks/25original images,
+57regional spans/76reviews,four native boundaries and20caption links. Listings1–9,
+five inlineinputs/table/figures1–6/8–11 and19numbered prose explanations retained.
+All25images have heading scopes;31prose-image links/one cross-native paragraph
+validate. All native bytes and independent complete rebuild exact,no new mapping/
+OCR. Four pure scope notes resolve;source limits remain. Next:공모입선작 heading
+classification/공모총평213restoration. Prior design-middle timing exception remains
+recorded. Human acceptance/full proofreading,source bytes and execution unverified;
+whole-issue closeout pending,no reader rebuild.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
@@ -48,7 +48,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 26 classified | 25 readable, 1 partial; 11 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 26 classified | 26 readable; 11 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

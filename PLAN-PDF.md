@@ -24,17 +24,17 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-October 1984 is in progress: 25 readable, assistant sample-reviewed articles,
-one partial PHONE LIST article,four non-owning headings and11 of41 entries
-unresolved. PHONE ending209–211retains45regions,30corrected blocks/14original
-images,31regional spans/44reviews,one paragraph boundary and12caption links.
-Five P0–P4original programs retain27source positions/sevenwraps;19numbered
-explanations remain prose. All45initial/seven revised crops reviewed before45OCR
-tasks,zero failures/retries;seven crop repairs once. Source/range/scan checks and
-exact rebuild pass. Two immutable natives cover206–211;complete6-page assembly
-next. Prior design-middle timing exception remains recorded. Human acceptance/
-full proofreading,source encoded bytes and execution unverified;whole-issue
-closeout pending,no reader rebuild.
+October 1984 is in progress: 26 readable, assistant sample-reviewed articles,
+no partial,four non-owning headings and11 of41 entries unresolved. Complete
+PHONE LIST206–211covers81regions,53corrected blocks/25original images,
+57regional spans/76reviews,four native boundaries and20caption links. Listings1–9,
+five inlineinputs/table/figures1–6/8–11 and19numbered prose explanations retained.
+All25images have heading scopes;31prose-image links/one cross-native paragraph
+validate. All native bytes and independent complete rebuild exact,no new mapping/
+OCR. Four pure scope notes resolve;source limits remain. Next:공모입선작 heading
+classification/공모총평213restoration. Prior design-middle timing exception remains
+recorded. Human acceptance/full proofreading,source bytes and execution unverified;
+whole-issue closeout pending,no reader rebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.
