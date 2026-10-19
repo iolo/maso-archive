@@ -42,46 +42,54 @@ July, August, September and October 1984. March retains its absent-source termin
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October.
 
-December 1984 is in progress: ten readable articles, no partial articles,
-two non-owning headings and 25 of 37 entries unresolved. BASIC speed is complete
-over 102–109/PDF104–111, combining opening102–107 and ending108–109. Its238-file
-assembly and both167/62-file metadata-only revisions reproduce byte-for-byte.
-Every219original native file and every original correction value remains preserved.
+December 1984 is in progress: ten readable articles, one partial CP/M(5)
+article, two non-owning headings and 24 of 37 entries unresolved. CP/M opening
+110–115/PDF112–117 is restored. Its full source spans PDF112–132: observed
+folios 110–129 plus an unpaginated final reference-table continuation. The lower
+bookshop advertisement on that scan is separate. No folio 130 was observed.
 
-The combined package retains60regions,109blocks,13images,230physical rows,
-148numbered entries,82wraps,31quotes,ten DATAfields,146hex literals,18font units,
-24graphic candidates/22markers,three tables/109cells/15blanks,137inline examples,
-11figure-caption links,six listing-caption links andeight native prose joins.
-Every source occurrence andnested marker/scan range is projected exactly. Original
-source mistakes,glyph candidates,unknown widths andshort literals remain unchanged.
+The 337-file opening package and independent rebuild are byte-identical. It retains
+100 regions, 81 blocks, 24 original images, 216 unnumbered physical transcript rows,
+213 transcript units, 1,295 literal tokens, 77 dump rows, 816 literal fields and
+48 printed ASCII columns. One FDOS table retains 24 cells. Exact source indexes
+cover 83 regional text spans, 138 text reviews, 55 notes, 377 inline examples,
+22 figure-caption links, 21 listing-caption links and two prose joins. Four visible
+quote marks, 11 code unknown markers and nine prose unknown markers remain explicit.
+Source mistakes, faint glyphs and binding-hidden text remain candidates; no opcode,
+ASCII, arithmetic or program reconstruction. Figure 16 starts on 115 and continues
+on 116, where its caption appears. Hexadecimal addresses are source labels.
 
-Separate explicit graphic/table/font tooling (4e77db4) passes187PDF tests andtwelve
-focused tests. All16historical implementation pins andfour historical assembly
-audits pass unchanged. The failed first real-source probe exposed a two-scan
-uncertainty record;its original code/report andthe cross-scan regression/fix remain
-preserved. Two verifier NameErrors andfresh fixes also remain;no export changed.
-All20,161prior evidence files are unchanged;new preservation inventory:21,160files.
-No new mapping,rendering,OCR orsource correction was needed for assembly.
+All 24 whole-page views, 100 original crops and 25 once-revised crops were inspected
+before 76 successful mapped Tesseract tasks. Six mapped pages and 18 outside-map
+lookups; 20 new renders and four reused renders. No recognition failure, retry or
+post-OCR crop repair. The initial index classifier confused a NEXT PC response with
+a dump; its failed script and fresh fix remain. The first inventory pinned its
+still-open finalizer log. That inventory, terminal log, exception and fresh selected
+22,490-file inventory remain. All 21,160 prior files and 20 implementation pins are
+unchanged. The existing 187-test PDF baseline is reused; no shared tooling changed.
 
-Future selected-package/index/issue-closeout operations including BASIC speed must
-use `tools.pdf_restore.graphic_literal_assembly.check` or its `installed()` context.
-It also handles the older Crowded Speedway table/literal format. See the
-[graphic/font format notes](PDF-GRAPHIC-LITERAL-ASSEMBLY.md). Ordinary default
-checking cannot certify these specialized correction indexes.
+BASIC speed 102–109 remains complete from opening 102–107 and ending 108–109.
+Selected-package/index/issue-closeout checks must use
+`tools.pdf_restore.graphic_literal_assembly.check` or its `installed()` context;
+it also handles Crowded Speedway. Preserve every CP/M transcript, field, ASCII,
+marker, table, review and caption index in a future compatible full assembly.
 
-Next: batch20,establish the full extent/neighbors of CP/M(5)0012 fromobserved
-110/PDF112,then restore atmost six mapped pages. Its end is not established;
-next canonical perspective simulation131is only a lookup lead. Reuse/reinspect
-pinned scans;review full extent before mapping andevery exact original/revised
-crop before OCR. Human acceptance/full proofreading,source bytes andexecution
-remain unverified. No reader/frontend work.
+Next: batch21, CP/M middle116–121/PDF118–123. Reinspect pinned full-source and
+neighbor scans and every exact original/revised crop before OCR. Later122–129,
+unpaginated PDF132 and complete assembly remain. Human acceptance, full
+proofreading, source encoded bytes and execution remain unverified. No reader work.
 
-Selected full package:packages/basic-speed-complete-r01. Source-native originals
-remain batch18/19;flag revisions are packages/basic-speed-index-r01/{opening,ending}.
-Reproduction/implementation:restoration/basic-speed-assembly. Independent selected
-audit:evidence/basic-speed-assembly/verify-r03.py,read-only unless --report names
-a fresh path. Both earlier verifier failures andthe first real-source probe failure
-are preserved. Keep every original source candidate andprevious retention exception.
+CP/M opening: packages/batch-20-r01/cpm5-a. Reproduction and index schema:
+restoration/batch-20. Read-only audit: evidence/batch-20/verify.py. Preserve the
+failed index classifier and first inventory's open-log exception. The selected
+r02 inventory is the stable 22,490-file record. All 20 historical implementation
+files remain pinned. Preserve every unnumbered transcript and specialized source
+index in the eventual full assembly.
+
+BASIC speed remains packages/basic-speed-complete-r01; original batch18/19 natives
+and basic-speed-index-r01/{opening,ending} revisions remain immutable. Its selected
+audit is evidence/basic-speed-assembly/verify-r03.py. Both earlier verifier failures
+and the first real-source probe failure remain preserved.
 
 Crowded Speedway remains packages/crowded-speedway-complete-r01,including final
 69F8/eight00source revision. Its pinned table/literal tooling39e5b61 remains

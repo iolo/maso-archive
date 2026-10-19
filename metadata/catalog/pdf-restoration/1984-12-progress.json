@@ -1413,10 +1413,182 @@
       "toc_entry_id": "maso-1984-12-toc-0012",
       "title": "CP/M 입문(5)",
       "parent_id": "maso-1984-12-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent CP/M입문/연재5회title,신동완/대림산업기획조정실creditand8080/Z80/DDT/ED/ZSIDstrap onPDF112/110. Full21sourcepagesPDF112–132andneighbors111/133/134reviewed. Closing mark128isfollowed by129andunpaginatedPDF132reference tables;lowerPDF132bookshopadandleftPDF133officeadareseparate. No observed130folio,globaloffsetorcanonicalidentitychange.",
+        "Opening110–115native retains100regions,81blocks,24original images,216unnumberedphysical rows,213transcriptunits,1295tokens,77dump rows/816literalfields/48ASCIIcolumns,one24celltable,377inline examples,22figurecaptions/21listingcaptions,two prosejoins andexplicit source uncertainties. Remaining116–129plusunpaginatedfinal/fullassemblyrequired."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a",
+        "article_id": "scan-maso-1984-12-toc-0012",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a/manifest.json",
+          "sha256": "3c29a7f7f9cf6213c8dcf4190305d19b6f6e5c9f60eccf16ae412cc93e7c8548",
+          "bytes": 57476
+        },
+        "coverage": {
+          "pdf_pages": [
+            112,
+            113,
+            114,
+            115,
+            116,
+            117
+          ],
+          "printed_pages": [
+            "110",
+            "111",
+            "112",
+            "113",
+            "114",
+            "115"
+          ],
+          "regions": 100,
+          "blocks": 81,
+          "figures": 24
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a",
+            "article_id": "scan-maso-1984-12-toc-0012",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a/manifest.json",
+              "sha256": "3c29a7f7f9cf6213c8dcf4190305d19b6f6e5c9f60eccf16ae412cc93e7c8548",
+              "bytes": 57476
+            },
+            "coverage": {
+              "pdf_pages": [
+                112,
+                113,
+                114,
+                115,
+                116,
+                117
+              ],
+              "printed_pages": [
+                "110",
+                "111",
+                "112",
+                "113",
+                "114",
+                "115"
+              ],
+              "regions": 100,
+              "blocks": 81,
+              "figures": 24
+            },
+            "segment": "a"
+          }
+        ],
+        "full_source_extent": {
+          "pdf_pages": [
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132
+          ],
+          "printed_pages": [
+            "110",
+            "111",
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128",
+            "129",
+            null
+          ],
+          "unpaginated_final_pdf": 132,
+          "coverage": "Last upper reference continuation only;lower ad excluded;printed130notobserved."
+        },
+        "deferred_printed_pages": [
+          "116",
+          "117",
+          "118",
+          "119",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "128",
+          "129",
+          null
+        ],
+        "deferred_pdf_pages": [
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132
+        ],
+        "assembly_required": true,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-20/source-reviewed.json",
+          "sha256": "6242aa33b114116cfc69899f875bb2e7de1c85a64f0ae0ffc9f51c2434991947",
+          "bytes": 13122
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-20/source-index-schema.json",
+          "sha256": "c4b869f01d32845504229e6a4e8545ff7f2b74b9a8f8f2611dc43de8973b606e",
+          "bytes": 2535
+        },
+        "assembly_compatibility": "Future assembly must retain every unnumbered transcript,token,hex/address/ASCII/quote/marker/table/index andsource note;do not force hexadecimal address labels into numbered BASIC schema orsilently discard specialized categories.",
+        "caption_associations_pending": [
+          {
+            "opening_region": "p115-fig16-opening",
+            "continues_on_pdf": 118,
+            "caption_on_pdf": 118,
+            "caption_in_this_native": false,
+            "assembly_association": "pending source-reviewed ending"
+          }
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0013",
@@ -1670,11 +1842,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 10,
+    "classified_articles": 11,
     "readable_articles": 10,
-    "partial_articles": 0,
+    "partial_articles": 1,
     "nonowning_headings": 2,
-    "unresolved_eligibility": 25,
+    "unresolved_eligibility": 24,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -3746,25 +3918,197 @@
         "sha256": "52fc961c0f42f2d55014eced3ac7945d3eed8369261b553a859074f8a37ffd14",
         "bytes": 4898945
       }
+    },
+    {
+      "id": "batch-20",
+      "status": "complete-partial-article-opening",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/checkpoint.json",
+        "sha256": "23a3ee97e244d122b4aa2aca0e9c9a77698bf0c78826faa88e19951a707a875f",
+        "bytes": 5366
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-20/validation-r01.json",
+        "sha256": "7a4b0ec44c3a2bb9c47eb45963b8998e486facc05978185a5cf14a953bacdf48",
+        "bytes": 1342
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-20/verify.py",
+        "sha256": "a0e91ce9cbdd7b1de748992c50c141239c1102384df2abb0f9b244481d6f77a4",
+        "bytes": 14874
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/source-reviewed.json",
+        "sha256": "6242aa33b114116cfc69899f875bb2e7de1c85a64f0ae0ffc9f51c2434991947",
+        "bytes": 13122
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/source-index-schema.json",
+        "sha256": "c4b869f01d32845504229e6a4e8545ff7f2b74b9a8f8f2611dc43de8973b606e",
+        "bytes": 2535
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/mapping-completed.json",
+        "sha256": "2750d6152d8f399225a48a6503038380ebe628609037920a6735b88359927c53",
+        "bytes": 692
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/crop-repair-r01.json",
+        "sha256": "75196192f5b7265612b960fafbf8126b5a10fea53856206ee4429132aa97892e",
+        "bytes": 19189
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/segment-scope.json",
+        "sha256": "1514decab6704644af179c797f4ca6166c7950cf525271bddacb6a4476c204d2",
+        "bytes": 1799
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/preflight-reviewed.json",
+        "sha256": "903abb415c1cfeb77f79be87c58388b61f435a2d9f658012c1d6ef74f69979b1",
+        "bytes": 45930
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/ocr-completed.json",
+        "sha256": "756674b4392c0d9fa3425caf096a88d123b1960e83c5d43628b3be4f0b7b1899",
+        "bytes": 1302
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/correction-completed.json",
+        "sha256": "312e18f17d0a38afa713f37c8348072b65385e13529371ff9688c23d024194cf",
+        "bytes": 711
+      },
+      "retained_index_failure": {
+        "path": "archive/pdf/1984-12/evidence/batch-20/correction-r01-failure.json",
+        "sha256": "3667630599bb64893a58e49a02b3d91f94a9f9afdbf6b6ed66db6a57589ffafe",
+        "bytes": 574
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-20/reproduction.json",
+        "sha256": "219b1cce0de7d80ba6260d3d3f7554e1752c0cda5fbcee2461dcbf12b93340c1",
+        "bytes": 1303
+      },
+      "actual_ocr_tasks": 76,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 25,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 21160,
+      "rebuild_files": 337,
+      "new_source_renders": 20,
+      "reused_full_page_renders": 4,
+      "outside_map_lookups": 18,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 187,
+      "historical_live_implementation_pins_verified": 20,
+      "regions": 100,
+      "blocks": 81,
+      "figures": 24,
+      "regional_text_ranges": 83,
+      "text_review_items": 138,
+      "text_review_notes": 55,
+      "prose_joins": 2,
+      "tables": 1,
+      "table_rows": 6,
+      "table_cells": 24,
+      "blank_table_cells": 0,
+      "caption_links": 22,
+      "listing_caption_links": 21,
+      "listing_groups": 27,
+      "listing_physical_rows": 216,
+      "listing_logical_basic_entries": 0,
+      "transcript_units": 213,
+      "transcript_tokens": 1295,
+      "hex_rows": 77,
+      "hex_address_fields": 77,
+      "hex_value_fields": 816,
+      "hex_ascii_columns": 48,
+      "visible_quotes": 4,
+      "editorial_code_markers": 11,
+      "editorial_prose_markers": 9,
+      "inline_examples": 377,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-20/preserved-work-inventory-r02.json",
+        "sha256": "b2995cbf0dd019fcd6c1f27e062e11aad6dde7f1d203755b73e1d6d6bb03264d",
+        "bytes": 5190100
+      },
+      "retained_inventory_repair": {
+        "path": "archive/pdf/1984-12/evidence/batch-20/inventory-r02-repair.json",
+        "sha256": "028af160f7fe5ed1c2712201aafa382a5287d49183c6737193d3df0b01c6405b",
+        "bytes": 1015
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-20",
-    "goal": "Establish complete CP/M(5)0012extent andneighbors fromobserved title110/PDF112,then restore a bounded opening of atmost six mapped source pages withall prose,code,hex/table/diagram/caption fields andsource uncertainty.",
+    "id": "batch-21",
+    "goal": "Restore CP/M(5)middle116–121frompinned full-source review,withallconsole/assembly/dump/table/caption content andliteral source uncertainty.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0012"
     ],
-    "known_start": {
-      "pdf_page": 112,
-      "printed_page": 110
+    "known_full_extent": {
+      "pdf_pages": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ],
+      "printed_pages": [
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118",
+        "119",
+        "120",
+        "121",
+        "122",
+        "123",
+        "124",
+        "125",
+        "126",
+        "127",
+        "128",
+        "129",
+        null
+      ],
+      "unpaginated_final_pdf": 132,
+      "coverage": "Last upper reference continuation only;lower ad excluded;printed130notobserved."
     },
-    "provisional_mapping_targets": [
-      112,
-      113,
-      114,
-      115,
-      116,
-      117
+    "mapping_targets": [
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ],
+    "printed_page_targets": [
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121"
     ],
     "provisional_lookup_targets": [
       111,
@@ -3792,12 +4136,17 @@
       133,
       134
     ],
+    "source_review": {
+      "path": "archive/pdf/1984-12/restoration/batch-20/source-reviewed.json",
+      "sha256": "6242aa33b114116cfc69899f875bb2e7de1c85a64f0ae0ffc9f51c2434991947",
+      "bytes": 13122
+    },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "PDF112/110title and113/111,114/112continuations alreadyobserved/preserved inbatch18;reuse pins andreinspect. Full end remains unestablished. Next canonicalperspective simulation0013printed131is a lookup lead only,not a source boundary/global folio offset. Review full extent/adjacent independent material before mapping andevery exact original/revised crop before OCR. Future selected-package/issue-closeout checks including BASIC speedmust use graphic_literal_assembly.check/installed();it also handlesolder Crowded table/literal format. No reader rebuild."
+    "note": "Reinspect full source/neighbor evidence andall exact original/revised crops before OCR. Figure16starts115andcontinues116wherecaptionappears;retainbothframeparts andsource-supported association. Later122–129plusunpaginatedPDF132andfullassemblyremain. Do not invent130folio ordecode/reconstructhex/opcode/ASCII/addressfields. Keep every unnumbered transcript/field/candidate index forfuture compatible assembly;all20priorimplementationpinsunchanged. Usegraphic_literal_assemblyforBASIC speed/Crowded selectedchecks. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
