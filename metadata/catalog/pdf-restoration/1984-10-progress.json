@@ -1139,10 +1139,56 @@
       "toc_entry_id": "maso-1984-10-toc-0016",
       "title": "수학을 통한 논리학습",
       "parent_id": "maso-1984-10-toc-0013",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source97/PDF99 begins 수학을 통한 논리학습, MSX/FC-100 and 편집부; canonical title/author/parent unchanged.",
+        "Complete six-page article97–102/PDF99–104 contains three source sections, all mathematical worked/exercise panels, three complete BASIC programs and closing prose102. No interleaved unrelated material.",
+        "Prior96 is a full book advertisement; next independent CP/M/BASCOM title starts103/PDF105."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-17-r01/math-logic",
+        "article_id": "scan-maso-1984-10-toc-0016",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-17-r01/math-logic/manifest.json",
+          "sha256": "c0929222070178a4f72f08eea234748536bdc1c29c92eada000a2c2ca7585542",
+          "bytes": 36285
+        },
+        "coverage": {
+          "pdf_pages": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104
+          ],
+          "printed_pages": [
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102"
+          ],
+          "regions": 54,
+          "blocks": 29,
+          "figures": 25,
+          "physical_listing_rows": 0,
+          "original_basic_panels": 9,
+          "original_basic_source_numbered_positions": 223,
+          "source_program_numbered_positions": [
+            81,
+            65,
+            77
+          ],
+          "original_math_panels": 12,
+          "original_numberline_images": 3,
+          "cross_column_code_continuations": 1
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0017",
@@ -1397,15 +1443,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 14,
+    "articles": 15,
     "non_owning_headings": 2,
-    "unresolved_classification": 25,
-    "readable": 14,
+    "unresolved_classification": 24,
+    "readable": 15,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 16,
-    "unresolved_availability": 25
+    "sample_reviewed": 17,
+    "unresolved_availability": 24
   },
   "checkpoints": [
     {
@@ -1944,13 +1990,41 @@
       "outputs": [
         "maso-1984-10-toc-0015"
       ]
+    },
+    {
+      "id": "batch-17",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-17/checkpoint.json",
+        "sha256": "9578c489c668f50427c145848573f72f52d4541760a029abc57c3c9277bb0826",
+        "bytes": 2324
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-17/source-review.json",
+        "sha256": "c4bd95b1f72ab8b24d4f00d27ad6d08d7a933ca7dc881c88c341e3b35f38a9db",
+        "bytes": 1977
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-17/validation.json",
+        "sha256": "0ce041c856230be7303b91f3976e39880dd37395de35c8d0ba1da019de8b86c5",
+        "bytes": 2019
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-17/review-log.json",
+        "sha256": "d87c2d3cbcdbc680d0eac560db3b23bbcc7396ed90087336d3d053feb977f37e",
+        "bytes": 14359
+      },
+      "status": "complete-article",
+      "tool_revision": "7b5ef6a",
+      "outputs": [
+        "maso-1984-10-toc-0016"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-17",
-    "goal": "Verify full 수학을 통한 논리학습 extent97 to before next independent CP/M title103; restore actual body within six-page candidate97–102/PDF99–104. Preserve mathematical expressions/diagrams/reference tables and program images with source-linked uncertainty.",
+    "id": "batch-18",
+    "goal": "Verify complete CP/M 입문/BASCOM extent from103 to before next independent title111, accounting for intervening ads/unlisted material. Restore actual opening within candidate103–108/PDF105–110 and six-page ceiling; later native/assembly only if required by full source extent.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0016"
+      "maso-1984-10-toc-0017"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,

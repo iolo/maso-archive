@@ -24,8 +24,8 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-Fourteen October articles are readable, assistant sample-reviewed JSON/assets;
-취미생활 and 교육입문 are non-owning headings. Twenty-five of41 entries remain
+Fifteen October articles are readable, assistant sample-reviewed JSON/assets;
+취미생활 and 교육입문 are non-owning headings. Twenty-four of41 entries remain
 unresolved; no partial article is selected. Latest: complete 기계어 강좌74–91,
 assembled from three exact natives across18 source pages. Its62 reading blocks,
 40 original images,18 short-example rows and both700-position reference series
@@ -37,8 +37,10 @@ The [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin selected JSON/assets and private evidence. 기초 테크닉 코너92–95 is also
 complete:47 reading blocks,10 original BASIC panels/107 numbered positions and
-two typed MID$ rows. Lower ad93 and full ad96 excluded. Next: verify 수학을 통한
-논리학습 from97 to before next title103 and restore actual candidate97–102.
+two typed MID$ rows. Lower ad93 and full ad96 excluded. Complete 수학을 통한
+논리학습97–102 retains29 reading blocks/25 images, twelve mathematical panels,
+three numberlines and nine code columns/223 numbered positions. Next: verify CP/M
+입문 from103 to before111 and restore opening within candidate103–108.
 The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
 Whole-issue closeout remains pending; no reading-room rebuild occurred.
 
