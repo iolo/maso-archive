@@ -20,16 +20,16 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October 1984 is in progress: 20 readable, assistant sample-reviewed articles,
-  no partial articles,three non-owning headings and18 of41 entries unresolved.
-  Complete development-system140–147 retains63 regions,34 corrected blocks,
-  15 original images,49 regional spans,11 native prose joins,one144→146 prose
-  connection around145flow,and13 caption/13 chapter-image associations. Eleven
-  forms/tables,two flows and two photos remain original images with unpromoted raw
-  drafts. Both natives are byte-preserved and independent complete rebuild matches.
-  Source141 lacks visible folio;145flow keeps its printed sideways orientation.
-  Next: verify full 한글주소록 extent from148 before167,then bounded opening.
-  Human acceptance/full proofreading,internal source glyph/cell/byte fidelity and
-  execution remain unverified;whole-issue closeout pending,no reading-room rebuild.
+  one partial addressbook article,three non-owning headings and17 of41 entries
+  unresolved. Full 한글주소록148–166 is verified;dense opening148–150 retains16
+  regions,14 corrected blocks,three original images,18 regional spans,four prose
+  joins,two captions and four diagram/prose associations.17 actual OCR tasks cover
+  15 initial/two once-widened crops;13 unchanged original results reused,no failures
+  or failure retries. All revisions/unselected output remain;independent rebuild
+  matches. Original title artwork,data-file grid and linked-list diagram preserve
+  source labels/arrows/cells. Next: middle151–156,then157–166 and full19-page
+  assembly. Human acceptance/full proofreading,source glyph/cell/encoded-byte and
+  execution limits remain;whole-issue closeout pending,no reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

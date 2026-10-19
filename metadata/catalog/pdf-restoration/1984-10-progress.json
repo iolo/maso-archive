@@ -1631,10 +1631,93 @@
       "toc_entry_id": "maso-1984-10-toc-0023",
       "title": "한글주소록 프로그램",
       "parent_id": "maso-1984-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Separate 한글 주소록 프로그램148/PDF150,signed 박승운/서울대학교 전자계산기 공학과4,애플컴패티블/한글링크(홍익전자). Canonical title/byline/Business parent unchanged.",
+        "Full148–166/PDF150–168 verified continuously through narrative157 and original BASIC listings158–166 final12660 GOTO11700;prior development147,next independent 의료보험 수가계산167. No unrelated ads/body.",
+        "Current dense opening148–150 all standalone prose/title/byline/captions and original notebook/table/diagram retained. Source150ㅎ이→151면19번… continuation explicit;remaining151–166 and separate full19-page assembly required."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a",
+        "article_id": "scan-maso-1984-10-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a/manifest.json",
+          "sha256": "d6d7ff54a64dea62b30a0aa7f994b6e48a0a5330c20954637ad2ff9f069c4083",
+          "bytes": 11609
+        },
+        "coverage": {
+          "pdf_pages": [
+            150,
+            151,
+            152
+          ],
+          "printed_pages": [
+            "148",
+            "149",
+            "150"
+          ],
+          "regions": 16,
+          "blocks": 14,
+          "figures": 3,
+          "regional_text_ranges": 18,
+          "physical_listing_rows": 0,
+          "original_data_structure_table": 1,
+          "original_linked_list_diagram": 1,
+          "original_notebook_title_artwork": 1,
+          "caption_associations": 2,
+          "diagram_prose_associations": 4,
+          "native_prose_boundaries": 4
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168
+          ],
+          "printed_pages": [
+            "148",
+            "149",
+            "150",
+            "151",
+            "152",
+            "153",
+            "154",
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165",
+            "166"
+          ],
+          "source_final_listing_statement": "12660 GOTO11700"
+        },
+        "complete_article_assembly_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0024",
@@ -1826,15 +1909,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 20,
+    "articles": 21,
     "non_owning_headings": 3,
-    "unresolved_classification": 18,
+    "unresolved_classification": 17,
     "readable": 20,
-    "partial": 0,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 23,
-    "unresolved_availability": 18
+    "sample_reviewed": 24,
+    "unresolved_availability": 17
   },
   "checkpoints": [
     {
@@ -2766,11 +2849,39 @@
       "outputs": [
         "maso-1984-10-toc-0022"
       ]
+    },
+    {
+      "id": "batch-26",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-26/checkpoint.json",
+        "sha256": "4a5613822d611bda9c3f79435d42a959c6720ecc2f851df295e3ce0a9981c059",
+        "bytes": 2798
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-26/source-review.json",
+        "sha256": "659702129c510aa2d251ca3ccb53f3fd239706cb7c4ebcd776b230041fee4d5e",
+        "bytes": 1801
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-26/validation.json",
+        "sha256": "ca0dd90bab691fcbc6f142df64e4591e4c6ef8028af140450b0f353708199a8d",
+        "bytes": 3344
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-26/review-log.json",
+        "sha256": "83d9a94d0dfcadbaf0c71b159c9a710158cc4c188ba402a7a8a6624b4c466bc7",
+        "bytes": 2973
+      },
+      "status": "partial-addressbook-opening",
+      "tool_revision": "3116325",
+      "outputs": [
+        "maso-1984-10-toc-0023"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-26",
-    "goal": "Verify complete 한글주소록 프로그램0023 source extent from148 before next167;inspect all candidate148–166 plus adjacent boundaries before mapping. Restore bounded opening at most148–153 with source prose/captions and complete original panels;do not infer code bytes.",
+    "id": "batch-27",
+    "goal": "Restore addressbook middle151–156/PDF153–158 using full source extent148–166 already verified. Correct explanatory prose/captions,retain complete original diagrams3–6 and screens7/8 with all screenshot sequences/overlap boundaries;record source150ㅎ이→151면19번… and156→157 prose continuation. Subsequent157–166 and full19-page assembly remain required.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0023"
     ],
