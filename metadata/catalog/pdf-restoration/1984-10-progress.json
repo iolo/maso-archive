@@ -1813,21 +1813,20 @@
       "parent_id": "maso-1984-10-toc-0021",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Separate 의료보험 수가계산167/PDF169,displayed 애플 컴패티블(주)컴퓨텍/historical contact;canonical title/byline컴퓨텍/Business parent unchanged. Internal code D S LEE comments remain source observations,not byline replacement.",
-        "Full continuous167–176/PDF169–178 verified,prior addressbook166,next independent 자료구조177. No unrelated ads/body. Source174/176 describe differences-only listings3/4;future report modules explicitly deferred to next issue by source.",
-        "Current167–172 retains15 corrected standalone blocks/eight original title/code/table images. Menu and standard-price listings1/2 complete in five panels/196 source labels;all source values/glyphs/raw drafts preserved. Remaining173–176 and separate full10-page assembly required.",
-        "Ending173–176/PDF175–178 now restored separately:9 corrected blocks/8 original code-table images;listings3/4 explicitly changes-only relative to2,table4 retains two original fragments/shared caption. All10 source pages represented in exact immutable natives;complete article assembly remains required."
+        "Separate 의료보험 수가계산167/PDF169,displayed Apple-compatible/(주)컴퓨텍/historical contact and internal D S LEE comments;canonical title/byline컴퓨텍/Business parent unchanged.",
+        "Complete continuous167–176/PDF169–178 assembled from two exact immutable natives,between addressbook166 and independent 자료구조177. No unrelated ads/body. Source future-report material explicitly deferred to next issue,not missing current pages.",
+        "All24 corrected standalone blocks/16original images retained. Four source program groups/295labels remain separate,including changes-only listings3/4 relative to2. All five logical tables/table4 fragments,15caption/15heading/16prose-image scopes,global ranges and native joins audited without semantic/program reconstruction."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-30-r01/medical-a",
+        "directory": "archive/pdf/1984-10/packages/medical-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0024",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-30-r01/medical-a/manifest.json",
-          "sha256": "a500ca3bfc67dd5b45120549de3acfbb43bd0d9ef49cca4af0f50ab57e71edcf",
-          "bytes": 18797
+          "path": "archive/pdf/1984-10/packages/medical-complete-r01/manifest.json",
+          "sha256": "c4f21a2551b6d41a5ecfe0615c288d83bb024a416b9ff0b8c8cbb42bd2e39217",
+          "bytes": 37523
         },
         "coverage": {
           "pdf_pages": [
@@ -1836,7 +1835,11 @@
             171,
             172,
             173,
-            174
+            174,
+            175,
+            176,
+            177,
+            178
           ],
           "printed_pages": [
             "167",
@@ -1844,26 +1847,43 @@
             "169",
             "170",
             "171",
-            "172"
+            "172",
+            "173",
+            "174",
+            "175",
+            "176"
           ],
-          "regions": 26,
-          "blocks": 15,
-          "figures": 8,
-          "regional_text_ranges": 18,
-          "text_review_ranges": 19,
+          "regions": 45,
+          "blocks": 24,
+          "figures": 16,
+          "regional_text_ranges": 29,
+          "text_review_ranges": 32,
           "physical_listing_rows": 0,
-          "original_basic_panels": 5,
-          "source_number_positions": 196,
+          "original_basic_panels": 9,
+          "separate_source_program_groups": 4,
+          "total_source_number_positions": 295,
           "menu_source_number_positions": 70,
           "standard_price_source_number_positions": 126,
-          "original_tables": 2,
+          "disease_difference_source_number_positions": 58,
+          "union_difference_source_number_positions": 41,
+          "program_panel_connections": 5,
+          "incoming_physical_wrap_boundaries": 1,
+          "original_table_images": 6,
+          "logical_tables": 5,
           "source_table1_rows": 24,
           "source_table1_code_positions": 48,
           "source_table2_record_positions": 11,
+          "source_table3_code_positions": 15,
+          "source_table4_record_positions": 50,
+          "source_table4_original_fragments": 2,
+          "source_table5_record_positions": 17,
           "original_title_frame": 1,
-          "caption_blocks": 4,
-          "caption_associations": 7,
-          "native_prose_boundaries": 3
+          "caption_blocks": 9,
+          "caption_associations": 15,
+          "source_heading_associations": 15,
+          "source_prose_image_associations": 16,
+          "native_prose_boundaries": 5,
+          "cross_native_broken_word_connections": 0
         },
         "full_source_extent": {
           "pdf_pages": [
@@ -1891,7 +1911,7 @@
             "176"
           ]
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "directory": "archive/pdf/1984-10/packages/batch-30-r01/medical-a",
@@ -1910,22 +1930,15 @@
             }
           }
         ],
-        "all_native_source_pages": [
-          169,
-          170,
-          171,
-          172,
-          173,
-          174,
-          175,
-          176,
-          177,
-          178
-        ],
-        "ending_validation": {
-          "path": "archive/pdf/1984-10/evidence/batch-31/validation.json",
-          "sha256": "d04dfaaabd1bee554866e10978e436569c7825c73ff4aab9fb273bc193e4465e",
-          "bytes": 2623
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/medical-assembly/article-associations.json",
+          "sha256": "db1141301f3d39f7ea969b5133d26472eda5e84368ded60c3fcf683928dfd2eb",
+          "bytes": 97596
+        },
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/medical-assembly/image-code-coverage.json",
+          "sha256": "162883031a99f328d23f516ba74017de3f86f87fc684efa08e549a05afbb5360",
+          "bytes": 16480
         }
       }
     },
@@ -2113,8 +2126,8 @@
     "articles": 22,
     "non_owning_headings": 3,
     "unresolved_classification": 16,
-    "readable": 21,
-    "partial": 1,
+    "readable": 22,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 25,
@@ -3246,17 +3259,45 @@
       "outputs": [
         "maso-1984-10-toc-0024"
       ]
+    },
+    {
+      "id": "medical-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/medical-assembly/checkpoint.json",
+        "sha256": "6ff668cb22de9c8223f543d74b8d8447fb0d1942ef5cb7a4c3919af65013905b",
+        "bytes": 1582
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-30/source-review.json",
+        "sha256": "2f9f0767fe088f9fd6734ecbab7333515f0a64519469b460119c04ef127068ff",
+        "bytes": 2159
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/medical-assembly/validation.json",
+        "sha256": "541a9e2fb53c0866b427359b682da5faa37d2df76169f4134a25ba7f95a5904e",
+        "bytes": 3189
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/medical-assembly/review-log.json",
+        "sha256": "4e4e3242a288647e825bdac9c46f6b5a224d736e0288a9b8d0cb833dee964431",
+        "bytes": 3898
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "5f4846f",
+      "outputs": [
+        "maso-1984-10-toc-0024"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "medical-assembly",
-    "goal": "Assemble full medical167–176/PDF169–178 from two exact immutable natives;validate global29regional/32review ranges,15caption links,9original BASIC panels/295number positions in four separate source groups,changes-only listings3/4,table4 two fragments,all original tables/heading/prose scopes and independent rebuild. No new OCR/mapping.",
+    "id": "batch-32",
+    "goal": "Verify actual complete 자료구조0025/이근배 extent from177 before next Technical group/188마이컴설계강좌,all candidate pages and adjacent boundaries before mapping. Restore bounded opening at most six mapped pages. Preserve original code/diagram/table evidence and source glyph/encoded-byte/execution limits.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0024"
+      "maso-1984-10-toc-0025"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
