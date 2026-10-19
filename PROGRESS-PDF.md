@@ -8,9 +8,9 @@ by the calendar month in which restoration work happened.
 
 October 1984 is in progress: the editorial, signed feature introduction,
 기계어의 학습 and 기계어의 기초 are complete readable, assistant sample-reviewed
-JSON/assets packages. No current partial article remains. The game article is
-located on printed27–40 and awaits extraction. Thirty-six entries await
-classification; 37 await restoration/outcomes. See the
+JSON/assets packages. The game article has a sample-reviewed partial segment27–32
+of its verified extent27–40. Thirty-six entries await classification/restoration;
+game33–40 and assembly remain. See the
 [October record](docs/progress/8410.md) and its versioned progress ledger for
 selected packages, independent rebuild evidence and the next bounded checkpoint.
 
@@ -44,7 +44,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 5 classified | 4 readable; 1 awaiting extraction, 36 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 5 classified | 4 readable, 1 partial; 36 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

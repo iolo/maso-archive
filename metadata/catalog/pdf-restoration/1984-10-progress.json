@@ -189,8 +189,8 @@
       "parent_id": "maso-1984-10-toc-0001",
       "classification": "article",
       "body_owner": true,
-      "availability": "unresolved",
-      "verification": "unreviewed",
+      "availability": "partial",
+      "verification": "sample-reviewed",
       "classification_evidence": [
         "Displayed title begins on shared printed27 after the foundations conclusion. Game explanation33, complete flowchart34 and BREAKOUT listing35–40 establish full body extent. DOS TOOL KIT guide41–43 is separately titled unlisted material and excluded."
       ],
@@ -233,6 +233,64 @@
           "40"
         ],
         "restoration": "not-yet-extracted"
+      },
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-05-r01/block-game-a",
+        "article_id": "scan-maso-1984-10-toc-0004",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-05-r01/block-game-a/manifest.json",
+          "sha256": "2fd2682c5029fe52246773a960df7d290069776b8ce07d19db7eee4fa17459ec",
+          "bytes": 25894
+        },
+        "coverage": {
+          "pdf_pages": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "printed_pages": [
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32"
+          ],
+          "full_printed_extent": [
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40"
+          ],
+          "deferred_printed_pages": [
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40"
+          ],
+          "regions": 44,
+          "blocks": 66,
+          "figures": 10,
+          "physical_listing_rows": 82,
+          "assembly_pending": true
+        }
       }
     },
     {
@@ -600,11 +658,11 @@
     "non_owning_headings": 0,
     "unresolved_classification": 36,
     "readable": 4,
-    "partial": 0,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 4,
-    "unresolved_availability": 37
+    "sample_reviewed": 5,
+    "unresolved_availability": 36
   },
   "checkpoints": [
     {
@@ -753,22 +811,40 @@
       "outputs": [
         "maso-1984-10-toc-0004"
       ]
+    },
+    {
+      "id": "batch-05",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-05/checkpoint.json",
+        "sha256": "3d8e062f7953c78c880d038886f969c454b31ce8c41b2f291482def6bffae209",
+        "bytes": 1761
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-05/validation.json",
+        "sha256": "04555d4239d8a24190420b529c1e6822071fd5e401215afa6b86b3abac7f0d89",
+        "bytes": 3283
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-05/review-log.json",
+        "sha256": "74b2f0fbab2e2a6fb971aa719c47050f1fc9962448fa656516e65dd8a09de905",
+        "bytes": 12134
+      },
+      "status": "complete-segment",
+      "tool_revision": "fabf5fb",
+      "outputs": [
+        "maso-1984-10-toc-0004"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-05",
-    "goal": "Resume declared first block-game segment: map/extract printed27–32/PDF29–34 after completed source review. Full game extent27–40 is verified; exclude unlisted DOS guide41–43. No OCR process is running and no map/export exists yet.",
+    "id": "batch-06",
+    "goal": "Restore block-game printed33–38/PDF35–40: final explanatory page, complete sideways flowchart and first four source-listing pages; retain original listing/diagram images and raw OCR without certifying untranscribed code bytes. Then printed39–40 and complete assembly remain.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0004"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20,
-    "source_review": {
-      "path": "archive/pdf/1984-10/restoration/batch-05/source-review.json",
-      "sha256": "484e14e30836cafbf8032200a2e83e55882fed2653cfbd29f19da45be0d6038c",
-      "bytes": 8329
-    }
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
