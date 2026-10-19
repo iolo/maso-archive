@@ -43,6 +43,8 @@ def join_boundaries(recipe, corrections, listing):
     Segment-local prefix rows remain unnumbered in their immutable corrections.
     Only the combined indexes receive the reviewed logical continuation links.
     """
+    if corrections.get('literal_source_fields_format') and recipe.get('wrapped_listing_joins'):
+        raise ValueError('Literal source fields require complete segment-local units')
     validate_boundary_joins(recipe)
     for join in recipe['wrapped_listing_joins']:
         left, right = join['left'], join['right']
@@ -89,6 +91,15 @@ def join_boundaries(recipe, corrections, listing):
 
 def project_listing(context, corrections, listing, *, allow_aligned_assembly=False):
     original = context.correction
+    flags = [(s.get('manual_postproduction') or {}).get('literal_source_fields_format')
+             if isinstance(s.get('manual_postproduction'), dict) else None
+             for s in corrections['segments']]
+    literals = any(flag is not None for flag in flags)
+    if literals and (any(flag != 'v1' for flag in flags) or
+                     corrections.get('index_mode') != 'wrapped-listing-v1' or
+                     (original.get('manual_postproduction') or {}).get('literal_source_fields_format') != 'v1' or
+                     'basic_source_fields_format' in original):
+        raise ValueError('Literal source fields require uniformly opted-in wrapped segments')
     code = {b['id']: b for b in context.source['blocks'] if b['kind'] == 'code'}
     groups = original.get('listing_groups', [])
     membership, group_ids, aligned = {}, set(), set()
@@ -282,3 +293,6 @@ def project_listing(context, corrections, listing, *, allow_aligned_assembly=Fal
         unnumbered = sum(r['listing_id'] == id and r['row_kind'] == 'unnumbered' for r in physical)
         if unnumbered:
             target['unnumbered_rows'] = target.get('unnumbered_rows', 0) + unnumbered
+    if literals:
+        from .assembly_source_literals import project_source_literals
+        project_source_literals(context, corrections, listing)
