@@ -21,16 +21,17 @@ paired OCR or a new engine comparison.
 
 - October 1984 is in progress: 21 readable, assistant sample-reviewed articles,
   one partial medical-insurance article,three non-owning headings and16 of41 entries
-  unresolved. Full medical167–176 is verified;opening167–172 retains26 regions,
-  15 corrected blocks,eight original images,18 regional spans,three prose joins and
-  seven caption associations. Five whole BASIC panels preserve separate menu70/
-  standard-price126 source labels;two original tables retain24 category rows/48codes
-  and11 report records. All25 OCR tasks completed without failures,retries or crop
-  repairs;independent byte-identical rebuild passes. Source medical/price/insurance
-  claims and3000/3900 discrepancy retained. Next:173–176 ending,then full10-page
-  assembly;source listings3/4 contain differences-only material,not inferred expanded
-  programs. Human acceptance/full proofreading,source glyph/control/cell/encoded-byte
-  fidelity and execution remain unverified;whole-issue closeout pending,no reader rebuild.
+  unresolved. Medical ending173–176 now retains19 regions,nine corrected blocks,
+  eight original images,11 regional spans,two prose joins and eight caption links.
+  Four original BASIC panels preserve99 source labels in separate listing3/4
+  changes-only groups relative to listing2. Four table panels retain15 department
+  codes,50 disease-report records across two original fragments and17 union records.
+  All19 OCR tasks completed with one pre-recognition crop repair,zero failures or
+  retries;independent byte-identical rebuild passes. Both natives now cover all10
+  source pages167–176;separate full article assembly is next. Historical claims,
+  omitted-code descriptions and source3000/3900 discrepancy remain literal. Human
+  acceptance/full proofreading,source glyph/control/cell/encoded-byte fidelity and
+  execution remain unverified;whole-issue closeout pending,no reader rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
