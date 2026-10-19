@@ -2642,10 +2642,85 @@
       "toc_entry_id": "maso-1984-10-toc-0033",
       "title": "하얀돌 까만돌",
       "parent_id": "maso-1984-10-toc-0030",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Displayed 하얀돌 까만돌221/PDF223,프로그램공모우수상/subtitle인생의축소판을모니터에/SPC-1000/안정빈/한양대원예공학과3년. Canonical title/byline/공모입선작 parent unchanged.",
+        "Actual complete221–223/PDF223–225 ends590DATA…-1000 in final right column. All three folios verified;prior220SuperLeague/next224피라밋II independent opener excluded. No unrelated body inside scope.",
+        "17corrected blocks/eight original images retain Go screen/data layout/six single-program panels,105number positions/123wraps/228physical rows/three incoming continuations and16prose variable definitions. All26initial/two revised crops reviewed before26OCRtasks;all source/range/scan/continuation/association checks and independent rebuild pass. Faded580DATA/source-2000versusfinal-1000 inconsistency preserved without repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-43-r01/go-replay",
+        "article_id": "scan-maso-1984-10-toc-0033",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-43-r01/go-replay/manifest.json",
+          "sha256": "bbccab289965b204df0d07999cebe5a494669db35598691e9362a2f4550dbcbd",
+          "bytes": 19140
+        },
+        "coverage": {
+          "pdf_pages": [
+            223,
+            224,
+            225
+          ],
+          "printed_pages": [
+            "221",
+            "222",
+            "223"
+          ],
+          "regions": 26,
+          "blocks": 17,
+          "figures": 8,
+          "regional_text_ranges": 19,
+          "text_review_ranges": 26,
+          "explicit_prose_boundaries": 2,
+          "word_split_joins": 1,
+          "list_continuations": 1,
+          "caption_blocks": 0,
+          "caption_associations": 0,
+          "source_heading_associations": 8,
+          "source_prose_image_associations": 14,
+          "image_text_overlaps": 1,
+          "original_basic_panels": 6,
+          "source_program_groups": 1,
+          "source_number_positions": 105,
+          "source_internal_wrap_rows": 114,
+          "source_incoming_wrap_rows": 9,
+          "source_total_wrap_rows": 123,
+          "source_physical_text_rows": 228,
+          "program_panel_connections": 5,
+          "wrapped_panel_connections": 3,
+          "source_extra_numbered_row": 343,
+          "source_final_number": 590,
+          "source_final_statement": "590 DATA 2030,2021,2010,3021,1030,-1000",
+          "source_variable_explanations": 16,
+          "original_Go_screens": 1,
+          "original_data_layouts": 1,
+          "source_data_fields": 3,
+          "source_state_values": 4,
+          "typed_program_rows": 0
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            223,
+            224,
+            225
+          ],
+          "printed_pages": [
+            "221",
+            "222",
+            "223"
+          ]
+        },
+        "complete_article_assembly_pending": false,
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-43/source-associations.json",
+          "sha256": "a250273b98039a5150d822e15603b7df6965f1115b20173967bb2f4345717a54",
+          "bytes": 68323
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0034",
@@ -2747,15 +2822,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 28,
+    "articles": 29,
     "non_owning_headings": 5,
-    "unresolved_classification": 8,
-    "readable": 28,
+    "unresolved_classification": 7,
+    "readable": 29,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 33,
-    "unresolved_availability": 8
+    "sample_reviewed": 34,
+    "unresolved_availability": 7
   },
   "checkpoints": [
     {
@@ -4333,13 +4408,41 @@
       "outputs": [
         "maso-1984-10-toc-0032"
       ]
+    },
+    {
+      "id": "batch-43",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-43/checkpoint.json",
+        "sha256": "33768fac1e9342ff04d85a98f5b6b4711459eb7eac4116f301da2916914433fb",
+        "bytes": 2120
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-43/source-review.json",
+        "sha256": "f29815425a8ff9cb093435991434d9e3e760e7b63a396e783edeed2ac6a4d76f",
+        "bytes": 1887
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-43/validation.json",
+        "sha256": "b0089d06a83c7c899dc4440fb1769be62642a72c513ce93e0f16d2a29076442b",
+        "bytes": 2897
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-43/review-log.json",
+        "sha256": "c45f018cec8b0712e9cc83eb4e76ff9e84ea54b3c3f05e9119f5c8eb4e24d59c",
+        "bytes": 2708
+      },
+      "status": "complete-article",
+      "tool_revision": "49dc557",
+      "outputs": [
+        "maso-1984-10-toc-0033"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-43",
-    "goal": "Verify full하얀돌까만돌0033actualextent from221before224피라밋II,allcandidate/adjacentsourcepagesbeforemapping;restore completearticleifwithin6mappedpages. Preserve originalSPCcode/Go-screen/data-layoutimages,correct standaloneprose/headings/captions/explanatoryrows,retain sourcecontrol/byte/executionlimits.",
+    "id": "batch-44",
+    "goal": "Verify full 피라밋II0034 actual extent from224 before235복덕방,all candidate/adjacent source pages before mapping. Restore bounded opening up to6mapped pages;retain original graphics/screens/controls/program panels,correct standalone prose/captions/explanatory rows. Segment longer article and assemble immutable outputs.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0033"
+      "maso-1984-10-toc-0034"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,

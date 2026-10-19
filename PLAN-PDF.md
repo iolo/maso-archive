@@ -24,18 +24,18 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-October 1984 is in progress: 28 readable, assistant sample-reviewed articles,
-no partial articles, five non-owning headings, and eight unresolved entries out
-of 41. Complete 슈퍼리그214–220 contains 24 regions, 11 corrected blocks and
-12 original images. Ten BASIC panels preserve one program with 543 printed
-number positions, 76 physical wraps and 19 DATA statements. The 22 variable
-explanations, 21 program ranges, source references and header overlaps pass
-global checks. Every native file is preserved; the complete package rebuilds
-byte-for-byte without new mapping or OCR. Four obsolete scope notes resolve;
-source fidelity limits remain. Next: verify and restore 하얀돌까만돌 from221.
-The earlier design-middle preflight timing exception remains documented.
-Human acceptance, full proofreading, source bytes and execution are unverified.
-Whole-issue closeout remains pending. No reading-room rebuild.
+October 1984 is in progress: 29 readable, assistant sample-reviewed articles,
+no partial articles, five non-owning headings, and seven unresolved entries out
+of 41. Complete 하얀돌 까만돌221–223 preserves 26 regions, 17 corrected blocks
+and eight original images. Six BASIC panels retain 105 printed numbers,
+123 physical wraps and three continuations across columns; the Go screen,
+data layout and 16 variable explanations remain source-linked. All source,
+range, scan and continuation checks and the independent rebuild pass. Source
+DATA580 fading and the -2000/-1000 discrepancy remain explicit. Next: verify
+피라밋II from224 and restore a bounded opening. The earlier design-middle
+preflight timing exception remains documented. Human acceptance, full
+proofreading, source bytes and execution remain unverified. Whole-issue
+closeout is pending; no reading-room rebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.
