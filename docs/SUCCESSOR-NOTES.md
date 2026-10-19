@@ -1,4 +1,4 @@
-# Successor handoff — 2026-10-16
+# Successor handoff — 2026-10-19
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
@@ -7,12 +7,15 @@ Storage: [what to preserve and where new work belongs](STORAGE.md). Historical p
 1. [OCR handoff](../PLAN-OCR.md): accepted engine policy, essential findings,
    source/review rules, metrics and commands. Do not read all trial logs to resume.
 2. [PDF plan](../PLAN-PDF.md): JSON/assets scope and remaining campaign gates.
-   August and September are complete. September's 37 articles and source-page
-   ledger are recorded in [the September log](progress/8409.md). October 1984
-   is next. Restoration alone does not authorize a reading-room rebuild.
-3. [September closeout](../archive/pdf/1984-09/evidence/14-1984-09-closeout/report.json)
+   August, September and October are complete. October's 35 articles and 260-page
+   ledger are recorded in [the October log](progress/8410.md). December 1984
+   is the next supplied eligible issue. Restoration alone does not authorize a
+   reading-room rebuild.
+3. [October closeout](../archive/pdf/1984-10/evidence/issue-closeout/report.json)
    and its source-page ledger at
-   `archive/pdf/1984-09/restoration/14-1984-09-closeout/source-page-ledger.json`.
+   `archive/pdf/1984-10/restoration/issue-closeout/source-page-ledger.json`.
+   The portable index is `archive/pdf/1984-10/reference/issue.json`; reproduce it
+   using `archive/pdf/1984-10/restoration/issue-closeout/reproduction.json`.
    For an existing August assembly check, use its pinned adapters from
    `archive/pdf/1984-08/restoration/13-1984-08-closeout/reproduction.json`.
 
@@ -23,18 +26,21 @@ Qwen-first/adaptive assignments are superseded; measurements remain useful.
 
 ## Restoration state and boundaries
 
-September accounts for all 43 TOC entries: 37 readable, assistant
-sample-reviewed articles and six non-owning headings. All 268 PDF pages are
-classified and the full issue rebuild matches byte-for-byte. Human acceptance,
-full proofreading, exact source bytes and historical program execution remain
-unverified. Existing artifacts and uncertainty records are preserved; no text
-normalization or code repair is authorized by plausibility.
+October accounts for all 41 TOC entries: 35 readable, assistant sample-reviewed
+articles and six non-owning headings. All 260 PDF pages are classified and the
+independent full issue rebuild is byte-identical. All 30,737 earlier evidence files
+remain unchanged. Unlisted DOS TOOL KIT 41–43 and 통합 소프트웨어 241–255 are outside
+canonical restoration scope. Human acceptance/full proofreading, source bytes and
+execution remain unverified. News/classified body transcription is pending; many
+program/numeric panels remain original images. Keep the batch 35 preflight timing
+exception explicit: model confirmation of three revised crops followed OCR batch
+launch, with per-region timing uninstrumented. Later source/crop/rebuild checks pass.
 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
-July, August and September 1984. March retains its absent-source terminal
-partial; no April PDF was supplied. Eleven supplied eligible issues remain after
-September. Reader integration is separate; do not mistake an older prepared
-reader's coverage for current JSON restoration coverage.
+July, August, September and October 1984. March retains its absent-source terminal
+partial; no April PDF was supplied. Ten supplied eligible issues remain after
+October; December 1984 is next, and its restoration has not started. Reader
+integration is separate; its current September coverage is unchanged.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve
 source hashes, canonical IDs/parents, original evidence and user edits. Verify a

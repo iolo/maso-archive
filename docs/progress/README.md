@@ -16,7 +16,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | July 1984 | [8407.md](8407.md) — completed ledger and existing detailed history |
 | August 1984 | [8408.md](8408.md) |
 | September 1984 | [8409.md](8409.md) — canonical TOC complete |
-| October 1984 | [8410.md](8410.md) — restoration in progress |
+| October 1984 | [8410.md](8410.md) — canonical TOC complete |
 
 | Shared scope | Records |
 | --- | --- |

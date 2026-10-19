@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1984-10",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-10-19",
   "source": {
     "path": "maso-pdf/maso-8410.pdf",
@@ -5234,20 +5234,78 @@
       "outputs": [
         "maso-1984-10-toc-0041"
       ]
+    },
+    {
+      "id": "issue-closeout",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/issue-closeout/checkpoint.json",
+        "sha256": "cf3b6b56648cab1e45b73f5273a3423f8ea2f957f3efa9cae0d30bbb6b6eb3df",
+        "bytes": 611
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/issue-closeout/source-page-ledger.json",
+        "sha256": "7331114c7c9d57a4d89bafa3cbbed7c2035966df13f33d2c152f7fac7f884f15",
+        "bytes": 237359
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/restoration/issue-closeout/validation.json",
+        "sha256": "d255ad7c88f0c175dd1636a933fce61fd980146261b7a2a6813856a293444599",
+        "bytes": 2681
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/issue-closeout/completion-audit.json",
+        "sha256": "90bea874609126b8151f4add3c019a545ebe2adf868b91308dc430f6312068ea",
+        "bytes": 3670
+      },
+      "status": "complete-issue",
+      "tool_revision": "95d7f03",
+      "outputs": [
+        "maso-1984-10-toc-0001",
+        "maso-1984-10-toc-0002",
+        "maso-1984-10-toc-0003",
+        "maso-1984-10-toc-0004",
+        "maso-1984-10-toc-0006",
+        "maso-1984-10-toc-0007",
+        "maso-1984-10-toc-0008",
+        "maso-1984-10-toc-0009",
+        "maso-1984-10-toc-0010",
+        "maso-1984-10-toc-0011",
+        "maso-1984-10-toc-0012",
+        "maso-1984-10-toc-0014",
+        "maso-1984-10-toc-0015",
+        "maso-1984-10-toc-0016",
+        "maso-1984-10-toc-0017",
+        "maso-1984-10-toc-0018",
+        "maso-1984-10-toc-0019",
+        "maso-1984-10-toc-0020",
+        "maso-1984-10-toc-0022",
+        "maso-1984-10-toc-0023",
+        "maso-1984-10-toc-0024",
+        "maso-1984-10-toc-0025",
+        "maso-1984-10-toc-0027",
+        "maso-1984-10-toc-0028",
+        "maso-1984-10-toc-0029",
+        "maso-1984-10-toc-0031",
+        "maso-1984-10-toc-0032",
+        "maso-1984-10-toc-0033",
+        "maso-1984-10-toc-0034",
+        "maso-1984-10-toc-0036",
+        "maso-1984-10-toc-0037",
+        "maso-1984-10-toc-0038",
+        "maso-1984-10-toc-0039",
+        "maso-1984-10-toc-0040",
+        "maso-1984-10-toc-0041"
+      ]
     }
   ],
-  "next_checkpoint": {
-    "id": "issue-closeout",
-    "goal": "Reconcile all260 source pages,35 readable articles/six headings, two unlisted features and verified cover. Export standalone JSON/assets reference and report, validate exact selected package copies and independent byte-identical issue rebuild. Retain batch35 preflight timing exception and human/source-byte/volunteer-transcription limits.",
-    "toc_entry_ids": [],
-    "new_ocr": false,
-    "reader_rebuild": false
-  },
+  "next_checkpoint": null,
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
-    "Source encoded bytes and program execution unverified.",
-    "Whole-issue source-page ledger, cover accounting, remaining articles, assemblies and issue closeout pending.",
-    "Preserved local files have not yet been independently backed up and restore-tested."
+    "Source encoded bytes and program execution remain unverified.",
+    "News and classified body prose remains readable original images with corrected searchable headings; volunteer body transcription pending. Numerous code/table/diagram panels also remain original images with unpromoted OCR.",
+    "Batch35 preflight timing exception retained: final model confirmation of three revised crops followed OCR batch launch; per-region timing uninstrumented. All selected crops now reviewed, successful recognition not repeated, subsequent checks pass.",
+    "Unlisted DOS TOOL KIT41–43 and 통합 소프트웨어241–255 remain outside canonical article restoration; their18 source pages are classified.",
+    "Preserved local files have not been independently backed up and restore-tested."
   ],
   "reader_rebuild": false,
   "unlisted_source_articles": [
@@ -5256,5 +5314,87 @@
       "sha256": "f4f2d137bb3c813cf4aad0bc6893e32ea44947f88650d4c762a19520a26be3c9",
       "bytes": 1598
     }
-  ]
+  ],
+  "next_supplied_issue": "1984-12",
+  "next_issue_started": false,
+  "human_accepted_articles": 0,
+  "closeout": {
+    "issue_index": {
+      "path": "archive/pdf/1984-10/reference/issue.json",
+      "sha256": "9dd8d13015f6c62125004ebdbdf6a0552541ce86914bce77e8ae76305ab2c378",
+      "bytes": 10794
+    },
+    "standalone_manifest": {
+      "path": "archive/pdf/1984-10/reference/manifest.json",
+      "sha256": "e608d5d98882f3e5d8b26d3976ad01b3486fb118a4a4973a8aa04dfb589d0539",
+      "bytes": 961190
+    },
+    "accounting": {
+      "path": "archive/pdf/1984-10/reference/accounting.json",
+      "sha256": "f5b75aa2e396a4b4b8b16395ef3e065cd30592b17c9d31f0a46578eed29693ef",
+      "bytes": 12015
+    },
+    "report": {
+      "path": "archive/pdf/1984-10/evidence/issue-closeout/report.json",
+      "sha256": "5353c2c64e0e963098e1b2d861a13da9d9e263dd194a9f32fcb34da267424d5a",
+      "bytes": 4671
+    },
+    "source_page_ledger": {
+      "path": "archive/pdf/1984-10/restoration/issue-closeout/source-page-ledger.json",
+      "sha256": "7331114c7c9d57a4d89bafa3cbbed7c2035966df13f33d2c152f7fac7f884f15",
+      "bytes": 237359
+    },
+    "export_ledger": {
+      "path": "archive/pdf/1984-10/restoration/issue-closeout/export-ledger.json",
+      "sha256": "5733aa5dbe659b583d92ba7febd38e9e781f1d4c2bb74d4d614938acb70f3db6",
+      "bytes": 113605
+    },
+    "validation": {
+      "path": "archive/pdf/1984-10/restoration/issue-closeout/validation.json",
+      "sha256": "d255ad7c88f0c175dd1636a933fce61fd980146261b7a2a6813856a293444599",
+      "bytes": 2681
+    },
+    "completion_audit": {
+      "path": "archive/pdf/1984-10/restoration/issue-closeout/completion-audit.json",
+      "sha256": "90bea874609126b8151f4add3c019a545ebe2adf868b91308dc430f6312068ea",
+      "bytes": 3670
+    },
+    "cover_provenance": {
+      "path": "archive/pdf/1984-10/evidence/issue-closeout/cover-provenance.json",
+      "sha256": "bb6ccbdb824b67ec9b3fe0f0fb537e76af420c82992f167451d6bf4ab02a9e83",
+      "bytes": 3014
+    },
+    "reproduction": {
+      "path": "archive/pdf/1984-10/restoration/issue-closeout/reproduction.json",
+      "sha256": "3430e20512cdc02eaf131db7612f9b8672dc6c52c5fcbe1f3d79ad2e1f23082b",
+      "bytes": 779
+    },
+    "totals": {
+      "regions": 1234,
+      "blocks": 970,
+      "figures": 453,
+      "review_records": 35,
+      "source_pdf_pages": 260,
+      "distinct_article_source_pages": 205,
+      "nonarticle_source_pages": 55,
+      "shared_article_pages": 2,
+      "selected_package_files": 5218,
+      "issue_files": 5224,
+      "issue_bytes": 970332652,
+      "prior_evidence_files": 30737
+    },
+    "human_acceptance": "pending",
+    "full_proofreading": "unverified",
+    "preflight_timing_exception": {
+      "regions": [
+        "mc194-ground-diagram",
+        "mc195-pins64-diagram",
+        "mc196-dram64-device-left"
+      ],
+      "scope": "Final model visual confirmation followed batch launch;whether each specific region was recognized before that model boundary was not timestamp-instrumented.",
+      "all_selected_crops_now_visually_reviewed": true,
+      "successful_recognition_repeated": false
+    },
+    "reader_rebuild": false
+  }
 }

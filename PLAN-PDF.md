@@ -22,17 +22,20 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## October 1984 in progress, 2026-10-19
+## October 1984 closeout, 2026-10-19
 
-October 1984 article restoration is accounted:35 readable, assistant sample-reviewed
-articles and six non-owning headings cover all41 canonical TOC entries. There are
-no partial articles or unresolved entries. The advertising index preserves27 rows/
-54 cells, two original table columns and its tree; absent printed folio retained.
-Source/range/scan/cell checks and byte-identical rebuild pass. Whole-issue closeout
-is next:260-page source ledger, verified cover, standalone index and report.
-Unlisted DOS TOOL KIT41–43 and 통합 소프트웨어241–255 stay outside canonical scope.
-The earlier timing exception, human/source-byte limits and volunteer news/classified
-body transcription remain recorded. No reading-room rebuild.
+October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
+assistant sample-reviewed articles and six non-owning headings account for all 41
+entries, with no partial articles or unresolved eligibility. All 260 PDF pages are
+classified: 205 contain selected article bodies and 55 are other material, including
+18 pages of two unlisted features. The verified cover, selected packages and
+independent byte-identical issue rebuild pass; all 30,737 prior evidence files remain
+unchanged. The standalone index is `archive/pdf/1984-10/reference/issue.json`;
+the report is `archive/pdf/1984-10/evidence/issue-closeout/report.json`.
+Human acceptance/full proofreading, source bytes and execution remain unverified;
+news/classified body transcription and the batch 35 preflight timing exception remain
+explicit. No reading-room rebuild. December 1984 is the next supplied eligible issue;
+ten remain after October, and no next-issue work has started.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 and 통합 소프트웨어241–255 remain outside the canonical article set.

@@ -6,34 +6,23 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 article restoration is accounted:35 readable, assistant sample-reviewed
-articles and six non-owning headings cover all41 canonical TOC entries. There are
-no partial articles or unresolved entries. The advertising index preserves27 rows/
-54 cells, two original table columns and its tree; absent printed folio retained.
-Source/range/scan/cell checks and byte-identical rebuild pass. Whole-issue closeout
-is next:260-page source ledger, verified cover, standalone index and report.
-Unlisted DOS TOOL KIT41–43 and 통합 소프트웨어241–255 stay outside canonical scope.
-The earlier timing exception, human/source-byte limits and volunteer news/classified
-body transcription remain recorded. No reading-room rebuild.
+October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
+assistant sample-reviewed articles and six non-owning headings account for all 41
+entries, with no partial articles or unresolved eligibility. All 260 PDF pages are
+classified: 205 contain selected article bodies and 55 are other material, including
+18 pages of two unlisted features. The verified cover, selected packages and
+independent byte-identical issue rebuild pass; all 30,737 prior evidence files remain
+unchanged. The standalone index is `archive/pdf/1984-10/reference/issue.json`;
+the report is `archive/pdf/1984-10/evidence/issue-closeout/report.json`.
+Human acceptance/full proofreading, source bytes and execution remain unverified;
+news/classified body transcription and the batch 35 preflight timing exception remain
+explicit. No reading-room rebuild. December 1984 is the next supplied eligible issue;
+ten remain after October, and no next-issue work has started.
 
-September 1984 canonical-TOC JSON/assets restoration is complete. All 43
-contents records resolve to 37 readable, assistant sample-reviewed articles and
-six non-owning headings. The portable [issue index](build/pdf-restoration/14-1984-09-reference/issue.json)
-and [closeout report](build/pdf-restoration/14-1984-09-closeout/report.json)
-pass package, source-page, cover and independent byte-identical rebuild checks.
-All 268 PDF pages are classified: 226 have selected article bodies and 42 are
-cover, contents, dividers, advertising, publisher backmatter or unlisted content.
-The unlisted four-page **SPC-1000과 조이스틱** feature is identified separately
-outside the canonical TOC selection.
-
-The ten-page **정보 레이다** package retains all news columns and illustrations in
-original images with searchable printed story headings; its body prose awaits
-volunteer transcription. Many code, numeric and classified panels elsewhere
-also remain source images. Human acceptance, complete proofreading, source-byte
-verification and program execution remain pending. The reading room has not
-been rebuilt. October 1984 is now in progress; eleven supplied eligible issues
-remain after September, including October.
-See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
+September is also complete:37 readable articles/six headings, with its
+[issue index](archive/pdf/1984-09/reference/issue.json) and
+[report](archive/pdf/1984-09/evidence/14-1984-09-closeout/report.json) preserved.
+See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 [PDF plan](PLAN-PDF.md) and [successor notes](docs/SUCCESSOR-NOTES.md).
 
 | Issue | Body articles | Availability | Detailed progress |
@@ -46,7 +35,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 35 classified | 35 readable; issue closeout pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
