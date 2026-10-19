@@ -26,12 +26,12 @@ records below are historical and do not authorize a new rebuild.
 
 The editorial, signed feature introduction and 기계어의 학습 are complete
 readable, assistant sample-reviewed JSON/assets packages. Three of 41 canonical
-entries are restored. 기계어의 기초 has a partial printed21–23 segment;
+entries are restored. 기계어의 기초 has two partial segments covering printed21–27;
 37 other entries await classification/restoration. The
 [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Continue with 기계어의 기초 printed24–27, then separately assemble its immutable
+Continue with its index metadata revision, then separately assemble its immutable
 segments. Whole-issue closeout remains pending;
 no reading-room rebuild occurred.
 

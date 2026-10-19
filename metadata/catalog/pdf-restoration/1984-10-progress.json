@@ -146,6 +146,48 @@
           "figures": 4,
           "physical_listing_rows": 10
         }
+      },
+      "pending_assembly": {
+        "segments": [
+          {
+            "name": "opening",
+            "directory": "archive/pdf/1984-10/packages/batch-03-r01/foundations-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-03-r01/foundations-a/manifest.json",
+              "sha256": "3ccc6b86d45ad30ccad109e37d0237fcb7bd212b0351039dd1a63dde57fed1af",
+              "bytes": 13407
+            }
+          },
+          {
+            "name": "ending",
+            "directory": "archive/pdf/1984-10/packages/batch-04-r01/foundations-b",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-04-r01/foundations-b/manifest.json",
+              "sha256": "538a0f68f58d8893457a491c6698a6cb0a334d9208b197ba73cc9258b91587d6",
+              "bytes": 14909
+            }
+          }
+        ],
+        "pdf_pages": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "printed_pages": [
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27"
+        ],
+        "deferred_source_pages": [],
+        "assembly_pending": true
       }
     },
     {
@@ -592,17 +634,38 @@
       "outputs": [
         "maso-1984-10-toc-0003"
       ]
+    },
+    {
+      "id": "batch-04",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-04/checkpoint.json",
+        "sha256": "c26244ec5a9bd52b250e44391a7ec6ba6224dcccdf5960957fea631f06b47c56",
+        "bytes": 2689
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-04/validation.json",
+        "sha256": "696f787218babd8a75a99619289bf4607789d5c81dcc98bb1c5e20f2a1eb8668",
+        "bytes": 1000
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-04/review-log.json",
+        "sha256": "099a2e4e39280e0a468bba985a68352565243b4edeabbb00cb93abdb6e5728f7",
+        "bytes": 8107
+      },
+      "status": "complete-segment",
+      "tool_revision": "e6bd50a",
+      "outputs": [
+        "maso-1984-10-toc-0003"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-04",
-    "goal": "Restore final 기계어의 기초 segment, printed24–26 and upper-left27/PDF26–29. Exclude all 블록격파 게임의 제작 content on shared27. Then assemble immutable opening and ending in a separate checkpoint.",
+    "id": "foundations-index-revision",
+    "goal": "Make fresh metadata revisions for assembly using exact original maps, OCR, blocks and assets; project block/range/listing indexes without modifying immutable native inputs. Then assemble complete printed21–27 in a separate checkpoint.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0003"
     ],
-    "maximum_articles": 2,
-    "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20
+    "new_ocr": false
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
