@@ -1639,7 +1639,8 @@
         "Separate 한글 주소록 프로그램148/PDF150,signed 박승운/서울대학교 전자계산기 공학과4,애플컴패티블/한글링크(홍익전자). Canonical title/byline/Business parent unchanged.",
         "Full148–166/PDF150–168 verified continuously through narrative157 and original BASIC listings158–166 final12660 GOTO11700;prior development147,next independent 의료보험 수가계산167. No unrelated ads/body.",
         "Current dense opening148–150 all standalone prose/title/byline/captions and original notebook/table/diagram retained. Source150ㅎ이→151면19번… continuation explicit;remaining151–166 and separate full19-page assembly required.",
-        "Middle151–156 restored:41 corrected blocks/32 original diagrams,screens and printout,including duplicate8-11,page-spanning8-16 and column-spanning8-19.12 variable entries/10 routine explanations remain source-linked prose. Remaining157–166 and separate full assembly pending."
+        "Middle151–156 restored:41 corrected blocks/32 original diagrams,screens and printout,including duplicate8-11,page-spanning8-16 and column-spanning8-19.12 variable entries/10 routine explanations remain source-linked prose. Remaining157–166 and separate full assembly pending.",
+        "Final narrative157 and listing opening158–162 restored:6 corrected blocks/12 original code images;initialization32 labels100–410 END distinct from main321 labels100–4390,two source replacement examples. Remaining163–166 and separate full19-page assembly pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a",
@@ -1734,6 +1735,14 @@
               "sha256": "139e8842fc4dacc3112d403345b7bec7355588069ddc3ba307e99dbde03ad573",
               "bytes": 33694
             }
+          },
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-28-r01/addressbook-c",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-28-r01/addressbook-c/manifest.json",
+              "sha256": "2e126004ee807dffe029ffd5b6f7787d2b4ab1826244a6dd8eac1aacb343ff44",
+              "bytes": 13762
+            }
           }
         ],
         "source_pages_in_natives": [
@@ -1745,15 +1754,15 @@
           155,
           156,
           157,
-          158
-        ],
-        "remaining_pdf_pages": [
+          158,
           159,
           160,
           161,
           162,
           163,
-          164,
+          164
+        ],
+        "remaining_pdf_pages": [
           165,
           166,
           167,
@@ -2947,11 +2956,39 @@
       "outputs": [
         "maso-1984-10-toc-0023"
       ]
+    },
+    {
+      "id": "batch-28",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-28/checkpoint.json",
+        "sha256": "50d40fdeeafe06f86c27d8fc755b47f907c0b7de4e1c3f03e37d969ac68516d1",
+        "bytes": 2826
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-28/source-review.json",
+        "sha256": "182b33a80b44e1c37b6d9c3ddddd0c749c2c0e88f921014f68d7488b02c9fb80",
+        "bytes": 1973
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-28/validation.json",
+        "sha256": "6c5684cce2fe5f7fe90acc8fd195ee8971e449818f42b85fc47fb0ea78aa357c",
+        "bytes": 2332
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-28/review-log.json",
+        "sha256": "a36a9856d670d36e6170239997249aa92b630c6046dc8cc1b911f7a53d2af227",
+        "bytes": 2584
+      },
+      "status": "partial-addressbook-final-narrative-and-listings-opening",
+      "tool_revision": "fb31129",
+      "outputs": [
+        "maso-1984-10-toc-0023"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-28",
-    "goal": "Restore addressbook157–162/PDF159–164:final explanatory prose157,source two short replacement examples,and complete original BASIC listing1/2 opening158–162. Retain exact source numbers/columns/physical wraps and original old glyphs;record source156①→157② and source listing163 continuation. Remaining163–166 and full19-page assembly follow.",
+    "id": "batch-29",
+    "goal": "Restore addressbook ending163–166/PDF165–168,all eight complete original main BASIC columns from4400 through12660 GOTO11700;retain source number positions/physical wraps/old glyphs. Verify previous162code and next167independent medical-insurance title. Full19-page assembly of four exact natives follows.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0023"
     ],

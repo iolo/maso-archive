@@ -21,15 +21,15 @@ paired OCR or a new engine comparison.
 
 - October 1984 is in progress: 20 readable, assistant sample-reviewed articles,
   one partial addressbook article,three non-owning headings and17 of41 entries
-  unresolved. Addressbook148–156 now exists in two immutable natives. Middle151–156
-  retains71 regions,41 corrected blocks,32 original images,43 regional spans,two
-  prose joins and30 caption blocks/32 associations. Duplicate8-11 labels,page8-16
-  and column8-19 screen fragments remain original. Twelve variable definitions and
-  ten routine explanations have source-linked ranges;inline commands remain prose.
-  All39 OCR tasks completed without failures/retries;one caption widened before
-  OCR,70 crops unchanged. Independent byte-identical rebuild passes. Next:157–162,
-  then163–166 and full19-page assembly. Human acceptance/full proofreading,source
-  glyph/cell/encoded-byte fidelity and execution remain unverified;whole-issue
+  unresolved. Addressbook148–162 now exists in three immutable natives. Current
+  157–162 retains18 regions,six corrected blocks,12 original code images,seven
+  regional spans,one prose join and two captions. Ten complete BASIC columns retain
+  32 initialization labels100–410 END and321 main labels100–4390 separately;two
+  source replacement examples and673/677 colon-only program rows remain original.
+  Eight panel connections/four incoming physical wraps validate. All18 OCR tasks
+  completed without failures,retries or crop repairs;independent rebuild matches.
+  Next:163–166,then full19-page assembly. Human acceptance/full proofreading,source
+  glyph/control/encoded-byte fidelity and execution remain unverified;whole-issue
   closeout pending,no reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
