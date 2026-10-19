@@ -25,12 +25,12 @@ records below are historical and do not authorize a new rebuild.
 ## December 1984 started, 2026-10-19
 
 The complete editorial18 and robot-feature introduction19 are readable;
-골목대장20–31 now has two immutable partial segments of its verified20–33 extent. Thirty-four
+골목대장20–33 now has three immutable native segments, with assembly pending. Thirty-four
 of37 canonical entries remain unresolved. Source/asset/text-range checks and
-independent byte-identical rebuilds pass. Batch03 adds55 preflight-reviewed crops,
-13 images and28 literal code rows; all190 export files rebuild identically.
+independent byte-identical rebuilds pass. Batch04 adds the final209 hex rows and
+3329 source-linked byte slots; all64 export files rebuild identically.
 Batch01's initial crop-review timing exception remains explicit. Next is
-골목대장32–33, then separate assembly. No reading-room rebuild.
+separate 골목대장20–33 assembly. No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 

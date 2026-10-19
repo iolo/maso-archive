@@ -40,9 +40,9 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December has two readable articles and one partial 골목대장20–31
-article in two immutable segments, with34 of37 TOC entries still unresolved.
-Next: 골목대장32–33 and separate assembly. Batch03's55 crops were reviewed before OCR;
+October; December has two readable articles and 골목대장20–33 in three immutable
+natives awaiting assembly, with34 of37 TOC entries still unresolved. Next:
+골목대장 assembly. Batch04 adds209 hex rows and3329 source-linked byte slots;
 batch01's timing exception remains explicit. Reader
 integration is separate; the owner subsequently requested the October reader build.
 

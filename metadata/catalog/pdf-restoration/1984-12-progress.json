@@ -63,7 +63,7 @@
       "verification": "sample-reviewed",
       "classification_evidence": [
         "PDF22/printed20 starts 골목대장; all intervening14 pages inspected through final program list on PDF35/printed33. PDF36 starts independent 똑딱 반짝.",
-        "Immutable native segments restore printed20–25 and26–31; printed32–33 listings and whole-article assembly remain required."
+        "Three immutable natives cover printed20–33 completely; independent whole-article assembly remains required before readable status."
       ],
       "restoration": {
         "article_id": "scan-maso-1984-12-toc-0002",
@@ -129,6 +129,29 @@
               "figures": 13
             },
             "segment": "b"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-04-r02/alley-leader-c",
+            "article_id": "scan-maso-1984-12-toc-0002",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-04-r02/alley-leader-c/manifest.json",
+              "sha256": "f1f2ee72665b6fe1df78534258353f532f46bf1c2b43700bf33bb0e174f798b9",
+              "bytes": 10540
+            },
+            "coverage": {
+              "pdf_pages": [
+                34,
+                35
+              ],
+              "printed_pages": [
+                "32",
+                "33"
+              ],
+              "regions": 16,
+              "blocks": 13,
+              "figures": 3
+            },
+            "segment": "c"
           }
         ],
         "coverage": {
@@ -144,7 +167,9 @@
             30,
             31,
             32,
-            33
+            33,
+            34,
+            35
           ],
           "printed_pages": [
             "20",
@@ -158,11 +183,13 @@
             "28",
             "29",
             "30",
-            "31"
+            "31",
+            "32",
+            "33"
           ],
-          "regions": 104,
-          "blocks": 105,
-          "figures": 27
+          "regions": 120,
+          "blocks": 118,
+          "figures": 30
         },
         "full_printed_pages": [
           "20",
@@ -180,10 +207,7 @@
           "32",
           "33"
         ],
-        "deferred_printed_pages": [
-          "32",
-          "33"
-        ],
+        "deferred_printed_pages": [],
         "assembly_required": true
       }
     },
@@ -708,25 +732,82 @@
         "sha256": "7eca17b54743a68cfb2ec8022e6c94b9cfcd10136e0136792b1a5c51a1d04650",
         "bytes": 698
       }
+    },
+    {
+      "id": "batch-04",
+      "status": "complete-partial-article-segment",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-04/checkpoint.json",
+        "sha256": "1203eb5cd4112ec82a8f8821aceecbeba3a084d48f56cb168c36b5e31101eaee",
+        "bytes": 1719
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-04/validation-r02.json",
+        "sha256": "590b204814927df02c0fd307284fc7e37ccbc97bb2e135a442b04cce1ab98172",
+        "bytes": 1506
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-04/source-review/review-log.json",
+        "sha256": "fd845b75ef747e88af17a4e1e14810affc6423c89e8a6e45b2820417abe6db32",
+        "bytes": 1595
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-04/preflight-reviewed.json",
+        "sha256": "271c8d5e3c3e884432ead7eb17f42c923ff81e3af09a43ef4532234ea89fbcda",
+        "bytes": 3440
+      },
+      "crop_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-04/preflight-crop-repair.json",
+        "sha256": "3ef2760a168bffe55362bbbedb87db359ebd4db2a8b0b16c218d3d085e5b3a31",
+        "bytes": 4778
+      },
+      "metadata_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-04/metadata-revision.json",
+        "sha256": "f6bc7f81b12c4a455ebd67d7a540a4667187af9085da0bf7764b00dcd2bc70bc",
+        "bytes": 630
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-04/correction-completed.json",
+        "sha256": "f9dd392696744586027c3c5d391d6287ccdbafb235367d558fce70c12ea89d9f",
+        "bytes": 321
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-04/reproduction.json",
+        "sha256": "73b287221dde2cfa0482475167a678b21606b289ba87f88a88a9f350d4eabd63",
+        "bytes": 890
+      },
+      "actual_ocr_tasks": 13,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 12,
+      "post_ocr_crop_repairs": 0,
+      "regions": 16,
+      "blocks": 13,
+      "figures": 3,
+      "regional_text_ranges": 13,
+      "listing_physical_rows": 209,
+      "listing_logical_rows": 209,
+      "printed_byte_slots": 3329,
+      "unknown_byte_slots": 4,
+      "unknown_nibbles": 6,
+      "source_uncertainty_notes": 19,
+      "prior_files_verified": 1709,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-04/preserved-work-inventory.json",
+        "sha256": "847debc4a24c8de11dfed138c38276b225e8715b1325ee000fa56367e6dd8dbb",
+        "bytes": 472657
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-04",
-    "goal": "Restore final 골목대장 program listing segment, printed32–33; retain both prior natives and then assemble all three segments separately.",
-    "known_start": {
-      "pdf_page": 34,
-      "printed_page": 32
-    },
-    "mapping_targets": [
-      34,
-      35
-    ],
+    "id": "alley-leader-assembly",
+    "goal": "Assemble complete 골목대장 printed20–33 from three pinned immutable natives; preserve original corrections and project source/listing/table ranges.",
     "limits": {
-      "articles": 2,
-      "mapped_source_pages": 6,
-      "outside_map_lookup_pages": 20
+      "new_mapping_pages": 0,
+      "new_ocr_tasks": 0,
+      "assembled_articles": 1
     },
-    "note": "Reinspect full pages, exact listing crops and adjacent33/36. Preserve every hex address/byte row, uncertain glyphs and original panels; no inferred opcode fixes. Full article20–33; assembly follows native export."
+    "note": "Coverage complete; metadata adapters may be required for namespaced indexes. Preserve all originals. Verify every boundary, range and independent byte-identical assembly before readable status."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
