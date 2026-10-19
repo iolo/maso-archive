@@ -19,17 +19,18 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: 26 readable, assistant sample-reviewed articles,
-  no partial,four non-owning headings and11 of41 entries unresolved. Complete
-  PHONE LIST206–211covers81regions,53corrected blocks/25original images,
-  57regional spans/76reviews,four native boundaries and20caption links. Listings1–9,
-  five inlineinputs/table/figures1–6/8–11 and19numbered prose explanations retained.
-  All25images have heading scopes;31prose-image links/one cross-native paragraph
-  validate. All native bytes and independent complete rebuild exact,no new mapping/
-  OCR. Four pure scope notes resolve;source limits remain. Next:공모입선작 heading
-  classification/공모총평213restoration. Prior design-middle timing exception remains
-  recorded. Human acceptance/full proofreading,source bytes and execution unverified;
-  whole-issue closeout pending,no reader rebuild.
+- October 1984 is in progress: 27 readable, assistant sample-reviewed articles,
+  no partial,five non-owning headings and9 of41 entries unresolved. 공모입선작 is
+  classified non-owning from actual shareddivider/canonicalfourchildren. Complete
+  공모총평213retains7regions,five corrected blocks/one original winners table,
+  seven regional spans/ninereviews/twowordjoins. Eleven tableentries preserve44
+  populated+4blankbodycells/8headers;source names/titles/machines and historical
+  claims retained,no inferredbyline. All7initial/four revised crops reviewed before
+  7OCRtasks,zero failures/retries;four once-only crop repairs. Source/range/scan/
+  classification checks and exact independent rebuild pass. Next:full슈퍼리그214
+  extent review and boundedopening. Prior design-middle timing exception remains
+  recorded;human acceptance/full proofreading/source bytes/execution unverified.
+  Whole-issue closeout pending,no reader rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

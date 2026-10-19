@@ -2068,7 +2068,7 @@
         "bytes": 1295
       },
       "classification_evidence": [
-        "Visual Technical divider with 하드웨어에서부터 소프트웨어까지 전문 강좌 strapline,large 테크니컬 title,generic computer photo and child navigation rows188/203/206. Separate 공모입선작 navigation214/221/224 shares source divider but canonical heading0030 remains independently unresolved.",
+        "Visual Technical divider with 하드웨어에서부터 소프트웨어까지 전문 강좌 strapline,large 테크니컬 title,generic computer photo and child navigation188/203/206. Separate 공모입선작navigation214/221/224sharesdivider;0030nowindependentlyclassified non-owning inbatch40,originalTechnicalclassificationrecordunchanged.",
         "No independent article body/byline/program owned by0026. Source folio not visible;187 is sequence position before independently visible188article/PDF190,not a claimed printed folio. Canonical titles/parent/child identities unchanged."
       ]
     },
@@ -2437,19 +2437,84 @@
       "toc_entry_id": "maso-1984-10-toc-0030",
       "title": "공모입선작",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_record": {
+        "path": "archive/pdf/1984-10/restoration/batch-40/contest-classification.json",
+        "sha256": "63d4e957beb9442b3dc9c8ac9e97b923dd1b36ab822296993b949edbe4fe852b",
+        "bytes": 1687
+      },
+      "classification_evidence": [
+        "Actual sharedTechnicaldividerPDF189distinct공모입선작heading/navigation214/221/224,canonical pagelessgroup/fourchildren0031–0034. Review213and independentsuperleague214openers verified;dividernavigationomitsreview213butcanonicalchildretained.",
+        "No independent owned body/byline/program. Sourcefolio notvisible,187issequencepositiononly. Technical0026andcontest0030identities remain distinct;sharedpage doesnot mergeownership."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0031",
       "title": "공모총평",
       "parent_id": "maso-1984-10-toc-0030",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source공모총평section/더 빨리 보다 편리하게titleon213/PDF215. Canonical공모총평/parent공모입선작unchanged;noindependentbyline,noauthorinferredfrombody/tableparticipantnames.",
+        "Actualcomplete213singlepage,prior212sequenceindependentmonthlycontestnotice/next214슈퍼리그excluded. Fullthree-columnreviewendsautumngreeting/endmark,lower11-entrywinnerstableownedarticle.",
+        "Fivecorrectedblocks/sevenregionalspans/ninereviews/twowordjoins,onewholeoriginaltable11entries44populated+4blankbodycells/8headers. All7crops/fourrevisionsreviewedbefore7OCRtasks;source/range/scan/table/caption/classificationchecksandindependentrebuildpass."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-40-r01/contest-review",
+        "article_id": "scan-maso-1984-10-toc-0031",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-40-r01/contest-review/manifest.json",
+          "sha256": "2373f4d8783d2394c24f6017b1c2c56e2939ac0e8eda351bebd5e86eed8e1ae8",
+          "bytes": 5966
+        },
+        "coverage": {
+          "pdf_pages": [
+            215
+          ],
+          "printed_pages": [
+            "213"
+          ],
+          "regions": 7,
+          "blocks": 5,
+          "figures": 1,
+          "regional_text_ranges": 7,
+          "text_review_ranges": 9,
+          "explicit_prose_boundaries": 2,
+          "caption_blocks": 1,
+          "caption_associations": 1,
+          "source_heading_associations": 1,
+          "source_prose_image_associations": 1,
+          "image_text_overlaps": 1,
+          "original_winners_tables": 1,
+          "source_table_entries": 11,
+          "source_table_physical_body_rows": 6,
+          "source_table_columns": 8,
+          "source_table_body_cells": 48,
+          "source_table_populated_body_cells": 44,
+          "source_table_blank_body_cells": 4,
+          "source_table_header_cells": 8,
+          "source_byline": null
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            215
+          ],
+          "printed_pages": [
+            "213"
+          ]
+        },
+        "complete_article_assembly_pending": false,
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-40/source-associations.json",
+          "sha256": "7095cc4401b1db15ba0ea3e20c1ed6e00b1c441ad042cb5f003532e5fdfa1916",
+          "bytes": 17496
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0032",
@@ -2569,15 +2634,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 26,
-    "non_owning_headings": 4,
-    "unresolved_classification": 11,
-    "readable": 26,
+    "articles": 27,
+    "non_owning_headings": 5,
+    "unresolved_classification": 9,
+    "readable": 27,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 30,
-    "unresolved_availability": 11
+    "sample_reviewed": 32,
+    "unresolved_availability": 9
   },
   "checkpoints": [
     {
@@ -4042,14 +4107,42 @@
       "outputs": [
         "maso-1984-10-toc-0029"
       ]
+    },
+    {
+      "id": "batch-40",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-40/checkpoint.json",
+        "sha256": "2986ad392952248779ca88d52fb03a4138892e9f8fe19830395101ec13499acf",
+        "bytes": 2974
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-40/source-review.json",
+        "sha256": "88fffaca5567e2c68f84d081a807e4648586f4a36e5f517f1661f465332fa6e3",
+        "bytes": 1409
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-40/validation.json",
+        "sha256": "65bc36ce112f9739c249541e2e2c3eddcab39a10d48ebc0f047b70b4be96db51",
+        "bytes": 2758
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-40/review-log.json",
+        "sha256": "8665e6317e4a443e49a5d7a801997864cf02d7ac2fff5919cf311ca588e2e10c",
+        "bytes": 2941
+      },
+      "status": "complete-contest-review-and-non-owning-contest-heading",
+      "tool_revision": "c0b71e7",
+      "outputs": [
+        "maso-1984-10-toc-0030",
+        "maso-1984-10-toc-0031"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-40",
-    "goal": "Classify non-owning 공모입선작0030from canonical children/actualdivider evidence,and restore complete 공모총평0031from213/PDF215after actual fullsource/adjacent review. Preserve winners table/source text/title and byline absence;at most2identities/6mapped/20outside lookups.",
+    "id": "batch-41",
+    "goal": "Verify full슈퍼리그0032actualextent from214before221하얀돌까만돌,allcandidate/adjacent pagesbeforemapping. Restore boundedopening up to6mappedpages,retain originalprogram/screens/art/controls/sourceclaims and correct standalone prose/captions. Ending/assemblyasrequired.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0030",
-      "maso-1984-10-toc-0031"
+      "maso-1984-10-toc-0032"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,
