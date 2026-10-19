@@ -26,17 +26,18 @@ records below are historical and do not authorize a new rebuild.
 
 The editorial18, robot-feature introduction19, complete 골목대장20–33 and
 complete 똑딱 반짝34–46 are readable and assistant sample-reviewed. Apple BASIC
-to machine language(3) is partial pending assembly: all47–63 covered by three
-preserved natives. Thirty-two of37 entries remain unresolved. The latest native
-retains48regions,17blocks,17images,292physical code rows,144numbered entries and
-42table cells; all150files rebuild identically. All9027prior evidence files are
-unchanged. All48original/11revised crops preceded31OCR tasks, without failure/retry.
-BASIC183 and assembly86/110 physical wraps, original panels, three unknown header
-dash counts, source mistakes and glyph candidates remain explicit.
+to machine language(3)47–63 is now complete and readable. Five articles are readable,
+zero partial;32 of37 entries remain unresolved. The full assembly retains191regions,
+111blocks,54images,534physical rows,185numbered entries,338logical source units and
+239table cells. All638files rebuild identically;629native files and9625prior evidence
+files are unchanged. Opt-in mixed-source projection preserves every column and byte
+wrap without a formatting revision;140PDF tests pass. The58/59word joins literally.
+BASIC183 and assembly86/110 wraps, original panels, three unknown header dash counts,
+source mistakes and glyph candidates remain explicit.
 Earlier glyph/hex uncertainties, batch01's timing and batch06's intermediate
 retention exceptions remain explicit.
-Next: full47–63 assembly with compatible projection for mixed numbered listings
-and address-bearing byte wraps; join58느/59껴지기. No further OCR needed.
+Next: classify hobby heading0005 and restore Christmas-card article0006 from66,
+after verifying its actual source extent and adjacent title.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).

@@ -21,17 +21,18 @@ paired OCR or a new engine comparison.
 
 - December 1984 is in progress: editorial18, robot-feature introduction19,
   complete 골목대장20–33 and complete 똑딱 반짝34–46 are readable and assistant
-  sample-reviewed. Apple BASIC to machine language(3) remains partial pending
-  assembly: all47–63 covered by three preserved natives. Of37 entries,32 await
-  classification. The latest native retains48regions,17blocks,17images,292physical
-  code rows,144numbered entries and42table cells. All150files rebuild identically;
-  9027prior files are unchanged. All48original/11revised crops preceded31OCR tasks,
-  without failure/retry. BASIC183 and assembly86/110 physical wraps remain explicit;
-  source mistakes, three unknown header dash counts and glyph candidates are retained.
-  Compatible mixed-listing projection remains for full assembly. Batch01's initial
+  sample-reviewed. Complete Apple BASIC to machine language(3)47–63 is now readable:
+  five complete articles, zero partial and32 of37 entries awaiting classification.
+  The full assembly retains191regions,111blocks,54images,534physical code rows,
+  185numbered entries,338logical source units and239table cells. All638files rebuild
+  identically;629native files and9625prior files are unchanged. New opt-in mixed
+  source projection preserves all columns/address-bearing byte wraps without a
+  formatting revision;140PDF tests pass. The58/59word is joined literally.
+  BASIC183 and assembly86/110 wraps, source mistakes, three unknown header dash
+  counts and glyph candidates remain explicit. Batch01's initial
   timing and batch06's intermediate retention exceptions remain explicit.
-  Next: full47–63 assembly, joining58느/59껴지기 and retaining all native indexes.
-  No further OCR needed for this assembly.
+  Next: classify hobby heading0005 and restore Christmas-card article0006 from66,
+  after verifying its actual extent and adjacent title. Exact crops before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

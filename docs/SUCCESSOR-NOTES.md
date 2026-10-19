@@ -40,21 +40,22 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December has four readable articles, including complete 골목대장20–33
-and 똑딱 반짝34–46. Apple BASIC to machine language(3) is partial pending assembly:
-all47–63 covered by three preserved natives, with32 of37 entries still unresolved.
-The latest150-file native rebuilds identically; source/range checks pass for
-292physical code rows,144numbered entries,546machine-byte literals,408DFB values
-and42table cells. All9027prior files are unchanged. All48original/11revised crops
-preceded31successful OCR tasks. BASIC183 and assembly86/110 physical wraps,
+October; December has five readable articles, including complete 골목대장20–33,
+똑딱 반짝34–46 and Apple BASIC to machine language(3)47–63. Zero partial articles
+remain, with32 of37 entries still unresolved. The latest638-file assembly rebuilds
+identically; all629native files and9625prior files are unchanged. Source/range checks
+pass for534physical rows,185numbered entries,338logical units,1430column fields,
+616machine-byte literals,599DFB values and239table cells. Opt-in
+`mixed-source-listing-v1` is committed as82710ea;140PDF tests pass. Ordinary
+offline assembly checking works without a private adapter or formatting revision.
+BASIC183 and assembly86/110 physical wraps,
 source errors, three unknown header dash counts, glyph candidates and original panels
 remain preserved, including batch01's timing and batch06's intermediate retention
-exceptions. Next: full47–63 assembly, joining58느/59껴지기. Retain
-the five-column numbered rows and their address-bearing byte continuations in a
-compatible projection; no current assembly compatibility is claimed. Across all
-three natives, verify534physical rows,185numbered entries,338logical units,
-1430column fields,616machine-byte literals,599DFB values and239table cells.
-No further mapping/OCR is needed for this assembly. Reader
+exceptions. The58느/59껴지기 word joins literally with both native ranges retained.
+Next: classify hobby heading0005 from its actual divider/TOC and restore Christmas-card
+article0006 from verified66/PDF68. Verify actual full extent/next title before mapping;
+Diamond Field70 is still a TOC candidate. NeighborPDF66 is an unpaginated publisher
+ad, and native58–64shorthand is not an observed folio64 or global-offset claim. Reader
 integration is separate; the owner subsequently requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve

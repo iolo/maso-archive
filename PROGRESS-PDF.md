@@ -6,14 +6,14 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: four readable, assistant sample-reviewed articles
-cover editorial18, robot-feature introduction19, 골목대장20–33 and 똑딱 반짝34–46.
-Apple BASIC to machine language(3) is partial pending assembly: all47–63 covered
-by three preserved natives. Of37 canonical entries,32 await classification.
-The latest150-file native rebuilds identically, retaining17images,292physical
-code rows,144numbered entries and42table cells. All9027prior files are unchanged. Source uncertainties
+December 1984 is in progress: five readable, assistant sample-reviewed articles
+cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46 and
+complete Apple BASIC to machine language(3)47–63. Zero partial articles remain;
+32 of37 entries await classification. The latest638-file assembly rebuilds
+identically, retaining54images,534physical code rows,185numbered entries and
+239table cells. All629native files and9625prior files are unchanged. Source uncertainties
 and the batch01 timing/batch06 intermediate retention exceptions remain explicit.
-Next: full47–63 assembly with compatible mixed-listing projection and58/59word join.
+Next: hobby heading0005 and Christmas-card article0006 from66, after extent verification.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
@@ -53,7 +53,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
-| 1984-12 | 5 classified | 4 readable, 1 partial; 32 TOC entries unresolved | [8412](docs/progress/8412.md) |
+| 1984-12 | 5 | 5 readable; 32 TOC entries unresolved | [8412](docs/progress/8412.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

@@ -413,19 +413,19 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "PDF49/printed47 visibly starts independent featureII title/byline. Every full page through63/PDF65 and following ad66/divider67/Christmas-card68 inspected. Main body ends61; final appendix63 ends133 BACKGRD DS24. PriorPDF48 ends Tick Tock46.",
-        "Three preserved natives cover all47–63, including complete133line appendix and BASIC driver. Independent full article assembly remains required. Join58final느/59first껴지기 without an inserted character. Mixed numbered/address-bearing byte wraps need compatible projection retaining all native bytes and indexes."
+        "Three preserved natives and independent full assembly cover all47–63. Literal58느/59껴지기 join, every534physical/185numbered row,338logical source units,1430column fields,616machine-byte literals,599DFBvalues and239table cells pass. All629native files/correction objects and source uncertainties remain unchanged."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-12/packages/batch-08-r01/apple-machine-a",
+        "directory": "archive/pdf/1984-12/packages/apple-machine-complete-r01",
         "article_id": "scan-maso-1984-12-toc-0004",
         "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-08-r01/apple-machine-a/manifest.json",
-          "sha256": "f78f2398c373550221064ff6f344d0e9170c063506b24d9cfd8a8fb8f545dd9e",
-          "bytes": 35034
+          "path": "archive/pdf/1984-12/packages/apple-machine-complete-r01/manifest.json",
+          "sha256": "fbacdc147b3789c918b7aed7b95c8fa0bffa7d7a8ea8562ba33203d7350f6b28",
+          "bytes": 116703
         },
         "coverage": {
           "pdf_pages": [
@@ -467,10 +467,10 @@
             "63"
           ],
           "regions": 191,
-          "blocks": 112,
+          "blocks": 111,
           "figures": 54
         },
-        "segments": [
+        "native_segments": [
           {
             "directory": "archive/pdf/1984-12/packages/batch-08-r01/apple-machine-a",
             "article_id": "scan-maso-1984-12-toc-0004",
@@ -563,6 +563,9 @@
             "segment": "c"
           }
         ],
+        "index_mode": "mixed-source-listing-v1",
+        "deferred_printed_pages": [],
+        "assembly_required": false,
         "full_source_extent": {
           "pdf_pages": [
             49,
@@ -602,8 +605,7 @@
             "62",
             "63"
           ]
-        },
-        "deferred_printed_pages": []
+        }
       }
     },
     {
@@ -931,8 +933,8 @@
   "totals": {
     "canonical_entries": 37,
     "classified_articles": 5,
-    "readable_articles": 4,
-    "partial_articles": 1,
+    "readable_articles": 5,
+    "partial_articles": 0,
     "nonowning_headings": 0,
     "unresolved_eligibility": 32,
     "human_accepted_articles": 0
@@ -1723,66 +1725,108 @@
         "sha256": "680cd29090170b16742b80c5e60dad11960fcbb419d83f84aa245db30a53c780",
         "bytes": 2194132
       }
+    },
+    {
+      "id": "apple-machine-assembly",
+      "status": "complete-readable-article",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/apple-machine-assembly/checkpoint.json",
+        "sha256": "51fad8a2f6fde29959721986991163018eb55b32b4b6f93988bcd3bcdf86bde9",
+        "bytes": 3504
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/apple-machine-assembly/validation.json",
+        "sha256": "b90acadbedce43d2cb7e91a28df31fef20d4493e253f40e4be01a5b3e0bfe851",
+        "bytes": 1647
+      },
+      "implementation": {
+        "path": "archive/pdf/1984-12/restoration/apple-machine-assembly/implementation.json",
+        "sha256": "3d5311b939d0bfe53a3b282fcbe2615200df13042b7f3335b7d40e76b51b4235",
+        "bytes": 1065
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/apple-machine-assembly/reproduction.json",
+        "sha256": "a608744bbcee29bc0f4e7e9594fb1891b69a293e331ffeabe057b690cb27250d",
+        "bytes": 1353
+      },
+      "manifest": {
+        "path": "archive/pdf/1984-12/packages/apple-machine-complete-r01/manifest.json",
+        "sha256": "fbacdc147b3789c918b7aed7b95c8fa0bffa7d7a8ea8562ba33203d7350f6b28",
+        "bytes": 116703
+      },
+      "new_ocr_tasks": 0,
+      "new_mapping_pages": 0,
+      "source_token_changes": 0,
+      "formatting_revision": null,
+      "package_files": 638,
+      "immutable_native_files": 629,
+      "pages": 17,
+      "regions": 191,
+      "blocks": 111,
+      "figures": 54,
+      "source_block_ranges": 112,
+      "regional_text_ranges": 141,
+      "text_review_items": 189,
+      "native_prose_joins": 16,
+      "resolved_prose_joins": 1,
+      "resolved_scope_notes": 8,
+      "tables": 16,
+      "table_rows_including_headers": 66,
+      "table_cells": 239,
+      "blank_table_cells": 21,
+      "caption_links": 5,
+      "listing_groups": 23,
+      "listing_physical_rows": 534,
+      "numbered_logical_entries": 185,
+      "source_logical_units": 338,
+      "source_column_fields": 1430,
+      "machine_byte_literals": 616,
+      "dfb_rows": 78,
+      "dfb_literal_values": 599,
+      "inline_examples": 74,
+      "unknown_header_dash_runs": 3,
+      "prior_files_verified": 9625,
+      "pdf_tests": 140,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/apple-machine-assembly/preserved-work-inventory.json",
+        "sha256": "c9e7e42f06c3f7419f9e98ae98114341b857f9f485c7d2f40de0fbd40ec47180",
+        "bytes": 2513164
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "apple-machine-assembly",
-    "goal": "Independently assemble complete Apple BASIC to machine language(3)47–63 from three preserved natives. Join58느/59껴지기 and project all mixed physical/logical listings, columns, byte/data fields, tables, figures and source spans without losing original metadata.",
+    "id": "batch-11",
+    "goal": "Classify canonical hobby heading0005 from the actual divider/TOC and restore Christmas-card article0006 from verified opening66/PDF68 after establishing full extent. Keep non-owning heading separate from child body.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0004"
+      "maso-1984-12-toc-0005",
+      "maso-1984-12-toc-0006"
     ],
-    "source_packages": [
-      "archive/pdf/1984-12/packages/batch-08-r01/apple-machine-a",
-      "archive/pdf/1984-12/packages/batch-09-r01/apple-machine-b",
-      "archive/pdf/1984-12/packages/batch-10-r01/apple-machine-c"
-    ],
-    "mapping_targets": [],
-    "known_full_extent": {
-      "pdf_pages": [
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65
-      ],
-      "printed_pages": [
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63
-      ]
+    "known_start": {
+      "pdf_page": 68,
+      "printed_page": 66
     },
+    "provisional_mapping_targets": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "provisional_lookup_targets": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "No further source mapping/OCR needed. Existing modes may not accept five-column numbered rows with address-bearing byte wraps; implement or use a compatible opt-in projection, keeping every native/correction immutable. All534physical rows,185numbered entries,338logical source units,1430column fields,616machine-byte literals,599DFB values and239table cells must remain source-linked. Source claims/glyph candidates,3unknown header dash counts and BASIC183wrap remain explicit. Promote canonical article readable only after full independent assembly/rebuild checks. Hobby divider0005 remains separate next canonical classification."
+    "note": "PDF66publisher tape/disk ad is unpaginated. PDF67hobby divider was observed in prior extent review; reuse pins and reinspect it before classifying heading0005. Christmas-card title66/PDF68 previously observed; next canonical Diamond Field70 is a TOC candidate, not a proven end/offset. Inspect actual source through article end and next independent title before mapping. Every exact crop before OCR; preserve all graphics/listings and source mistakes. Do not rebuild reader."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
