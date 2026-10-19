@@ -2243,10 +2243,79 @@
       "toc_entry_id": "maso-1984-10-toc-0028",
       "title": "SPC-1000용 텍스트 에디터",
       "parent_id": "maso-1984-10-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Separate displayed SPC-1000/텍스트 에디터/A - Micom203/PDF205. Canonical SPC-1000용 텍스트 에디터/Amicom/Technical parent unchanged.",
+        "Actual complete203–205/PDF205–207;prior202memory test ends119END,next206PHONE LIST independent title. Lower204TRS-80advertisement excluded.",
+        "Seven corrected standalone blocks/six original code panels retain all article text,BASIC0and assembler0000–0172/finalEND/report/21symbols. Every crop reviewed before13OCRtasks;all source/range/scan/panel/association checks and independent byte-identical rebuild pass. Raw drafts unpromoted,no typed execution reconstruction."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-37-r02/editor",
+        "article_id": "scan-maso-1984-10-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-37-r02/editor/manifest.json",
+          "sha256": "c5d05e5c41b77f1d150fd5b7ac7033376fd0b730a6a445ae44f4facfce5c9c8b",
+          "bytes": 10204
+        },
+        "coverage": {
+          "pdf_pages": [
+            205,
+            206,
+            207
+          ],
+          "printed_pages": [
+            "203",
+            "204",
+            "205"
+          ],
+          "regions": 13,
+          "blocks": 7,
+          "figures": 6,
+          "regional_text_ranges": 7,
+          "text_review_ranges": 10,
+          "explicit_prose_boundaries": 0,
+          "caption_blocks": 0,
+          "caption_associations": 0,
+          "source_heading_associations": 6,
+          "source_prose_image_associations": 6,
+          "original_assembler_panels": 5,
+          "source_assembler_number_positions": 173,
+          "source_number_extent": [
+            0,
+            172
+          ],
+          "original_basic_panels": 1,
+          "source_basic_number_positions": 1,
+          "separate_source_program_groups": 2,
+          "program_panel_connections": 4,
+          "incoming_unnumbered_wraps": 0,
+          "source_final_statement": "0172 END atFBFC",
+          "source_symbol_names": 21,
+          "typed_program_rows": 0,
+          "excluded_advertisements": 1
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            205,
+            206,
+            207
+          ],
+          "printed_pages": [
+            "203",
+            "204",
+            "205"
+          ]
+        },
+        "complete_article_assembly_pending": false,
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-37/source-associations.json",
+          "sha256": "bcfd7bc2965e25e6df9a73e5715734bdfe93e7a612cdddba477f2a7af9645377",
+          "bytes": 29226
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0029",
@@ -2393,15 +2462,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 24,
+    "articles": 25,
     "non_owning_headings": 4,
-    "unresolved_classification": 13,
-    "readable": 24,
+    "unresolved_classification": 12,
+    "readable": 25,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 28,
-    "unresolved_availability": 13
+    "sample_reviewed": 29,
+    "unresolved_availability": 12
   },
   "checkpoints": [
     {
@@ -3754,13 +3823,41 @@
       "outputs": [
         "maso-1984-10-toc-0027"
       ]
+    },
+    {
+      "id": "batch-37",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-37/checkpoint.json",
+        "sha256": "48150a3521ba1b091fd8dc25b1dc7e5de46d3fda7cd4a1584ec0008f402609ab",
+        "bytes": 2149
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-37/source-review.json",
+        "sha256": "05c0eea1ba61ef4accb26fcb500ac90d45c055dbeb57876ead4c4be5d0606aa4",
+        "bytes": 1564
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-37/validation.json",
+        "sha256": "0eb512d92e2f984b16a1ed012f4822bb7e880ca1402e356d55627ababfca1b30",
+        "bytes": 2645
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-37/review-log.json",
+        "sha256": "ce835cab8622fa5ff7f640ee89ec87f27a764ceada75de9f1b7cfbf138589b6a",
+        "bytes": 2635
+      },
+      "status": "complete-article",
+      "tool_revision": "8ee5d91",
+      "outputs": [
+        "maso-1984-10-toc-0028"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-37",
-    "goal": "Verify full SPC-1000용 텍스트 에디터0028 source extent from203before PHONE LIST206,review all candidate/adjacent source pages,then restore bounded complete article with original code/tables/screens and corrected standalone prose/captions. At most2identities/6mapped/20outside lookups.",
+    "id": "batch-38",
+    "goal": "Verify full PHONE LIST0029 extent from206before canonical 공모총평213,all candidate/adjacent source pages before mapping;restore opening at most6mapped pages. Preserve source programs/screens/flow and correct standalone text/captions,then ending/full assembly as required.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0028"
+      "maso-1984-10-toc-0029"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,

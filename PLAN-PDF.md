@@ -24,17 +24,17 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-October 1984 is in progress: 24 readable, assistant sample-reviewed articles,
-no partial,four non-owning headings and13 of41 entries unresolved. Complete
-마이컴 설계강좌188–202 covers106regions,70corrected blocks,25original images,
-83regional spans/101reviews,13native boundaries and21caption links. Original18
-hardware diagrams,two tables,three assembler panels116source positions4–119,
-series strip/artwork retained. Global source/range/scan/caption/heading/prose/table/
-assembler checks and exact independent rebuild pass;all native bytes preserved.
-Six pure scope notes resolve;middle preflight timing exception and all source
-fidelity limits remain explicit. No new mapping/OCR. Next:full SPC-1000editor203
-extent review and restoration. Human acceptance/full proofreading,source encoded
-bytes and circuit/program execution unverified;whole-issue closeout pending,no reader rebuild.
+October 1984 is in progress: 25 readable, assistant sample-reviewed articles,
+no partial,four non-owning headings and12 of41 entries unresolved. Complete
+SPC-1000editor203–205 retains13regions,seven corrected blocks/six original code
+images,seven regional spans/10reviews and six prose-image links. Original BASIC0
+and five assembler panels0000–0172 retain174combined source-number positions,
+four panel connections/finalEND/report/21symbols;lower204advertisement excluded.
+All13crops reviewed before13OCRtasks,zero failures/retries/repairs;successful OCR
+reused for corrected r02export. Source/range/scan checks and exact independent
+rebuild pass. Prior design-middle timing exception remains recorded. Next:full
+PHONE LIST206extent review,then bounded opening. Human acceptance/full proofreading,
+source encoded bytes and execution unverified;whole-issue closeout pending,no reader rebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.
