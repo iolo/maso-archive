@@ -25,17 +25,15 @@ records below are historical and do not authorize a new rebuild.
 ## October 1984 in progress, 2026-10-19
 
 October 1984 is in progress: 27 readable, assistant sample-reviewed articles,
-no partial,five non-owning headings and9 of41 entries unresolved. 공모입선작 is
-classified non-owning from actual shareddivider/canonicalfourchildren. Complete
-공모총평213retains7regions,five corrected blocks/one original winners table,
-seven regional spans/ninereviews/twowordjoins. Eleven tableentries preserve44
-populated+4blankbodycells/8headers;source names/titles/machines and historical
-claims retained,no inferredbyline. All7initial/four revised crops reviewed before
-7OCRtasks,zero failures/retries;four once-only crop repairs. Source/range/scan/
-classification checks and exact independent rebuild pass. Next:full슈퍼리그214
-extent review and boundedopening. Prior design-middle timing exception remains
-recorded;human acceptance/full proofreading/source bytes/execution unverified.
-Whole-issue closeout pending,no reader rebuild.
+one partial슈퍼리그 article,five non-owning headings and8 of41 entries unresolved.
+슈퍼리그opening214–219retains22regions,11correctedblocks/10originalimages,
+12regionalspans/15reviews/onewordjoin. EightoriginalBASICpanels426source positions/
+49wraps/extra1455,22variable/21rangeexplanations andtwoartimagesretained. Lower216
+advertisementexcluded. All22initial/onerevisedcropsreviewedbefore20OCRtasks,
+zero failures/retries;oneheader-artcrop repairedonce. Source/range/scan checks and
+exactindependentrebuildpass. Next220ending,thencomplete7-pageassembly. Prior
+design-middle timingexceptionremainsrecorded;humanacceptance/fullproofreading/
+sourcebytes/executionunverified. Whole-issuecloseoutpending,no readerrebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.
