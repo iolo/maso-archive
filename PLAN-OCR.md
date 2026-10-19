@@ -21,13 +21,13 @@ paired OCR or a new engine comparison.
 
 - October 1984 is in progress: 31 readable, assistant sample-reviewed articles,
   one partial article, six non-owning headings and three unresolved entries out
-  of41. 정보레이다 opening131–136 preserves39regions,25correctedsearchableheadings
-  and14originalimages. Twenty stories and seven image-column continuations retain
-  complete readable news bodies,with volunteerbodytranscription explicitly pending.
-  All source/range/scan/heading/overlap checks and independentrebuild pass. Actual
-  news ends137;138is a separateadvertisement. Next:ending137andcomplete7-page
-  assembly. Earlier design-middle timing exception remains recorded. Human
-  acceptance/full proofreading/sourcebytes remain unverified. Whole-issue closeout
+  of41. 정보레이다 ending137 preserves one correctedheading and two completeoriginal
+  newscolumns,including AIincoming and finalstorywordcontinuations. Allthreeinitial
+  crops and one repairedendmarkcrop were reviewed beforethree kor+engOCRtasks,
+  with zero failures/retries;source/range/scan checks and exact rebuild pass. Two
+  immutable natives cover131–137;complete7-page assembly is next. Newsbody
+  transcription remains explicitly volunteer-pending. Earlier design-middle timing
+  exception and human/sourcebyte limits remain recorded. Whole-issue closeout
   is pending; no reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
