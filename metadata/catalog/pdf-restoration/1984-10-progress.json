@@ -2527,7 +2527,8 @@
       "classification_evidence": [
         "Source슈퍼리그214/PDF216with프로그램공모우수상/subtitle/SPC-1000/이영섭/한양대전자통신공학과3년. Canonical슈퍼리그/이영섭/공모입선작parentunchanged.",
         "Actualfull214–220/PDF216–222endsDATA6320infinalrightpanel. All7foliosindividuallychecked,prior213공모총평/next221하얀돌까만돌excluded. Lower216BASICAadvertisementexcluded.",
-        "Opening214–219retains11correctedblocks/10originalimages,12regionalspans/15reviews/onewordjoin. EightoriginalBASICpanels426sourcepositions/49wraps/extra1455,singleprogram;22variable/21rangeexplanationsremainprose. All22initial/onerevisedcropsreviewedbefore20OCRtasks,zero failure/retry;source/range/scan/associationsandindependentrebuildpass. Ending220/full7-pageassemblyrequired."
+        "Opening214–219retains11correctedblocks/10originalimages,12regionalspans/15reviews/onewordjoin. EightoriginalBASICpanels426sourcepositions/49wraps/extra1455,singleprogram;22variable/21rangeexplanationsremainprose. All22initial/onerevisedcropsreviewedbefore20OCRtasks,zero failure/retry;source/range/scan/associationsandindependentrebuildpass. Ending220/full7-pageassemblyrequired.",
+        "Ending220retainedseparately:two wholeoriginalBASICpanels117sourcepositions5160–6320/27wraps/144physicaltextrows/19DATAstatements. Bothcrops reviewedbefore2engOCRtasks,zero failure/retry/repair;all source/scan/panelchecks and independentrebuildpass. No standalone endingtitle/byline/prose/captionor typedcode. Two immutable nativesnowcoverfull214–220,separate complete7-pageassemblyrequired."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-41-r01/superleague-a",
@@ -2612,12 +2613,34 @@
               "sha256": "e938aa81b5a4c27b1cac7c9a904ffbeffb1527dc481dd99f2e8e45a388143c3b",
               "bytes": 15347
             }
+          },
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-42-r01/superleague-b",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-42-r01/superleague-b/manifest.json",
+              "sha256": "e70473fc976415b651fbbaa5568a4a40890c11e1e81ea00374e58df913ebb9f6",
+              "bytes": 2603
+            }
           }
         ],
         "article_associations": {
           "path": "archive/pdf/1984-10/evidence/batch-41/source-associations.json",
           "sha256": "d5c64f6b0eeb4fb665a8ef16d4172e5e3c505776dfa8dc43aaeb335b01924983",
           "bytes": 101182
+        },
+        "all_native_source_pages": [
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222
+        ],
+        "ending_validation": {
+          "path": "archive/pdf/1984-10/evidence/batch-42/validation.json",
+          "sha256": "f8428e9f741ab94932b0f83b51fdb79a91efc7680c24b8aeeae0c234f98d1af6",
+          "bytes": 2473
         }
       }
     },
@@ -4260,17 +4283,45 @@
       "outputs": [
         "maso-1984-10-toc-0032"
       ]
+    },
+    {
+      "id": "batch-42",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-42/checkpoint.json",
+        "sha256": "50498523f5bf71032a59a60d0f3631b168540f979c950f452d84d749215f5487",
+        "bytes": 2264
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-42/source-review.json",
+        "sha256": "b5a1d5f1a556e6968bded8f7307d6e3560ca8b31c81f7429d71d6d38e5288701",
+        "bytes": 1445
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-42/validation.json",
+        "sha256": "f8428e9f741ab94932b0f83b51fdb79a91efc7680c24b8aeeae0c234f98d1af6",
+        "bytes": 2473
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-42/review-log.json",
+        "sha256": "537ab34c26023a41c0df53422b26da168862a46856d9930c99fdcb55a5aed3c5",
+        "bytes": 2078
+      },
+      "status": "partial-superleague-ending",
+      "tool_revision": "c824b84",
+      "outputs": [
+        "maso-1984-10-toc-0032"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-42",
-    "goal": "Restore슈퍼리그ending220/PDF222fromverifiedfull214–220extent,one mapped/two adjacentlookups219/221. Preserve two finaloriginalBASICpanels5160–6320/sourcepenalty-number/graphicstrings/DATArows/physicalwraps and boundary5150→5160. No independentendingtitle/byline. Then separate complete7-pageassembly.",
+    "id": "superleague-assembly",
+    "goal": "Assemblecomplete214–220/PDF216–222fromexacttwoimmutable natives. Audit24regions/11blocks/12images,12regionalspans/15reviews/oneprosejoin,10originalsingle-program panels543numberpositions/76wraps/619physicaltextrows/ninepanelconnections,22variables/21ranges andcross-native5250reference. Resolvefourpure scope notesonly.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0032"
     ],
-    "maximum_articles": 2,
-    "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20
+    "maximum_articles": 1,
+    "maximum_mapped_pages": 0,
+    "maximum_outside_map_lookups": 0
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

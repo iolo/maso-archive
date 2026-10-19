@@ -7,13 +7,13 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1984 is in progress: 27 readable, assistant sample-reviewed articles,
-one partial슈퍼리그 article,five non-owning headings and8 of41 entries unresolved.
-슈퍼리그opening214–219retains22regions,11correctedblocks/10originalimages,
-12regionalspans/15reviews/onewordjoin. EightoriginalBASICpanels426source positions/
-49wraps/extra1455,22variable/21rangeexplanations andtwoartimagesretained. Lower216
-advertisementexcluded. All22initial/onerevisedcropsreviewedbefore20OCRtasks,
-zero failures/retries;oneheader-artcrop repairedonce. Source/range/scan checks and
-exactindependentrebuildpass. Next220ending,thencomplete7-pageassembly. Prior
+one partial슈퍼리그article,five non-owning headings and8 of41 entries unresolved.
+슈퍼리그ending220retains two whole originalprogram panels117sourcepositions/
+27wraps/144physicaltextrows/19DATAstatements,sourceends6320DATA. No independent
+endingprose/title/byline/caption or typedcode. Bothcropsreviewedbefore2engOCRtasks,
+zero failures/retries/repairs;source/scan/panelchecks and exactrebuildpass. Two
+immutable nativescover214–220;complete7-pageassemblynext,including543source
+positions/76wraps/ninepanelconnections andcross-native5250reference. Prior
 design-middle timingexceptionremainsrecorded;humanacceptance/fullproofreading/
 sourcebytes/executionunverified. Whole-issuecloseoutpending,no readerrebuild.
 
