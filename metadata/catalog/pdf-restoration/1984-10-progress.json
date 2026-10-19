@@ -1095,10 +1095,45 @@
       "toc_entry_id": "maso-1984-10-toc-0015",
       "title": "기초 테크닉 코너",
       "parent_id": "maso-1984-10-toc-0013",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Source92/PDF94 begins canonical series 기초 테크닉 코너, with topical title 텍스트 에니메이션 and signed 박현철. Canonical series title/author/parent unchanged.",
+        "Complete prose and ten Apple/SPC-1000 BASIC panels occupy92–95/PDF94–97; last source LIST5-1 ends140 GOTO40 on95.",
+        "Lower school advertisement93 excluded as disjoint nonarticle material.96 is a full unrelated book advertisement; next independent 수학을 통한 논리학습 begins97."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-16-r01/text-animation",
+        "article_id": "scan-maso-1984-10-toc-0015",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-16-r01/text-animation/manifest.json",
+          "sha256": "24357bef7450e89ae13cd8a8de4b16a095d3ce019c3a29f57f86df58dc89d85e",
+          "bytes": 21400
+        },
+        "coverage": {
+          "pdf_pages": [
+            94,
+            95,
+            96,
+            97
+          ],
+          "printed_pages": [
+            "92",
+            "93",
+            "94",
+            "95"
+          ],
+          "regions": 30,
+          "blocks": 47,
+          "figures": 10,
+          "physical_listing_rows": 2,
+          "original_basic_panels": 10,
+          "original_basic_source_numbered_positions": 107,
+          "original_code_physical_wraps": 1
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0016",
@@ -1362,15 +1397,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 13,
+    "articles": 14,
     "non_owning_headings": 2,
-    "unresolved_classification": 26,
-    "readable": 13,
+    "unresolved_classification": 25,
+    "readable": 14,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 15,
-    "unresolved_availability": 26
+    "sample_reviewed": 16,
+    "unresolved_availability": 25
   },
   "checkpoints": [
     {
@@ -1881,13 +1916,41 @@
       "outputs": [
         "maso-1984-10-toc-0014"
       ]
+    },
+    {
+      "id": "batch-16",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-16/checkpoint.json",
+        "sha256": "7884605c7344212b203bdb87107be32d1995fab1a08540d037f10981cdfe1cf4",
+        "bytes": 2262
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-16/source-review.json",
+        "sha256": "210de32816c72445f3f0e0a6773c337ac308c3697c6324d885f47c8fde7e1e3d",
+        "bytes": 1577
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-16/validation.json",
+        "sha256": "1f48b373fa312ba0d3654b2bef886eec8bc2194e9a23547eead9d1f812e8d33b",
+        "bytes": 1975
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-16/review-log.json",
+        "sha256": "6afb390d298e6c2098eec83e007465b6a88b87947fad0238c8f0bcd0d603789f",
+        "bytes": 9127
+      },
+      "status": "complete-article",
+      "tool_revision": "e8442dd",
+      "outputs": [
+        "maso-1984-10-toc-0015"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-16",
-    "goal": "Verify full 기초 테크닉 코너/텍스트애니메이션 extent from92 through before next independent title97, then restore actual bounded body within candidate92–96/PDF94–98. Preserve displayed deck/title and all BASIC/screens/diagrams without inferred code bytes.",
+    "id": "batch-17",
+    "goal": "Verify full 수학을 통한 논리학습 extent97 to before next independent CP/M title103; restore actual body within six-page candidate97–102/PDF99–104. Preserve mathematical expressions/diagrams/reference tables and program images with source-linked uncertainty.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0015"
+      "maso-1984-10-toc-0016"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,

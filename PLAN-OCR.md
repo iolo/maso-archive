@@ -19,14 +19,16 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: thirteen readable, assistant sample-reviewed
-  articles and two non-owning headings;26 of41 entries remain unresolved, no
+- October 1984 is in progress: fourteen readable, assistant sample-reviewed
+  articles and two non-owning headings;25 of41 entries remain unresolved, no
   partial selected. Complete 기계어 강좌74–91 retains62 reading blocks,40 original
   images,18 short-example rows and both700-position reference series. All three
   native snapshots, global ranges/35 caption scopes and exact independent rebuild
   pass. Original code/table drafts and canonical 박재현/displayed 이세형 conflict
-  remain explicit. Next: verify 기초 테크닉 코너92 to before97 and restore actual
-  body within candidate92–96. The unlisted DOS TOOL KIT41–43 remains excluded.
+  remain explicit. Complete 기초 테크닉 코너92–95 adds47 reading blocks,10 code
+  images/107 numbered positions and two typed MID$ rows. Lower ad93/full ad96
+  excluded. Next: verify 수학을 통한 논리학습97 to before103; candidate97–102.
+  The unlisted DOS TOOL KIT41–43 remains excluded.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.
