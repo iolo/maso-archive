@@ -189,7 +189,7 @@
       "parent_id": "maso-1984-10-toc-0001",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Displayed title begins on shared printed27 after the foundations conclusion. Game explanation33, complete flowchart34 and BREAKOUT listing35–40 establish full body extent. DOS TOOL KIT guide41–43 is separately titled unlisted material and excluded."
@@ -232,14 +232,43 @@
           "39",
           "40"
         ],
-        "restoration": "All27–40 collected as three immutable partial natives; complete assembly pending",
+        "restoration": "complete assembled27–40; final numbered main source459 SEND RTS",
         "source_number_correction": {
           "path": "archive/pdf/1984-10/restoration/batch-07/source-number-correction.json",
           "sha256": "a77dd377852e5a68c2d0508216476ace313aafc3cc41ba4937b7a2ef0ccb2159",
           "bytes": 1111
         }
       },
-      "restoration": {
+      "native_segments": [
+        {
+          "name": "opening",
+          "directory": "archive/pdf/1984-10/packages/batch-05-r01/block-game-a",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-05-r01/block-game-a/manifest.json",
+            "sha256": "2fd2682c5029fe52246773a960df7d290069776b8ce07d19db7eee4fa17459ec",
+            "bytes": 25894
+          }
+        },
+        {
+          "name": "continuation",
+          "directory": "archive/pdf/1984-10/packages/batch-06-r01/block-game-b",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-06-r01/block-game-b/manifest.json",
+            "sha256": "4041a50026a331db3ea8ceab025d27e8c8b98eae6736eacb5c9ac11680bbb16f",
+            "bytes": 13495
+          }
+        },
+        {
+          "name": "ending",
+          "directory": "archive/pdf/1984-10/packages/batch-07-r02/block-game-c",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-07-r02/block-game-c/manifest.json",
+            "sha256": "9fbb2b4677cb0750a0e5e33fd73cb94bbce39e9fbd0dc9784fbdc899f00da186",
+            "bytes": 3993
+          }
+        }
+      ],
+      "historical_partial_restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-05-r01/block-game-a",
         "article_id": "scan-maso-1984-10-toc-0004",
         "manifest": {
@@ -314,35 +343,67 @@
           ]
         }
       },
-      "native_segments": [
-        {
-          "name": "opening",
-          "directory": "archive/pdf/1984-10/packages/batch-05-r01/block-game-a",
-          "manifest": {
-            "path": "archive/pdf/1984-10/packages/batch-05-r01/block-game-a/manifest.json",
-            "sha256": "2fd2682c5029fe52246773a960df7d290069776b8ce07d19db7eee4fa17459ec",
-            "bytes": 25894
-          }
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/block-game-complete-r01",
+        "article_id": "scan-maso-1984-10-toc-0004",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/block-game-complete-r01/manifest.json",
+          "sha256": "f7a24c9f63b72f3050d53a904aa4b7b4a0ba66c4914ca444f3f9722bb3398966",
+          "bytes": 49379
         },
-        {
-          "name": "continuation",
-          "directory": "archive/pdf/1984-10/packages/batch-06-r01/block-game-b",
-          "manifest": {
-            "path": "archive/pdf/1984-10/packages/batch-06-r01/block-game-b/manifest.json",
-            "sha256": "4041a50026a331db3ea8ceab025d27e8c8b98eae6736eacb5c9ac11680bbb16f",
-            "bytes": 13495
-          }
-        },
-        {
-          "name": "ending",
-          "directory": "archive/pdf/1984-10/packages/batch-07-r02/block-game-c",
-          "manifest": {
-            "path": "archive/pdf/1984-10/packages/batch-07-r02/block-game-c/manifest.json",
-            "sha256": "9fbb2b4677cb0750a0e5e33fd73cb94bbce39e9fbd0dc9784fbdc899f00da186",
-            "bytes": 3993
-          }
+        "coverage": {
+          "pdf_pages": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "printed_pages": [
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40"
+          ],
+          "regions": 68,
+          "blocks": 80,
+          "figures": 25,
+          "physical_typed_example_rows": 101,
+          "main_listing_image_panels": 12,
+          "main_listing_source_numbered_range": [
+            1,
+            459
+          ],
+          "main_listing_typed_rows": 0,
+          "caption_pullquote_associations": 5,
+          "prose_boundaries": 5,
+          "assembly_pending": false
         }
-      ]
+      },
+      "main_listing_coverage": {
+        "path": "archive/pdf/1984-10/evidence/block-game-assembly/main-listing-coverage.json",
+        "sha256": "da9c9a02acfde6a6da1d14b02fb0b141df0d8e70f83ed90b1bbdbcc601b724e9",
+        "bytes": 7337
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0005",
@@ -708,8 +769,8 @@
     "articles": 5,
     "non_owning_headings": 0,
     "unresolved_classification": 36,
-    "readable": 4,
-    "partial": 1,
+    "readable": 5,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 5,
@@ -931,16 +992,36 @@
       "outputs": [
         "maso-1984-10-toc-0004"
       ]
+    },
+    {
+      "id": "block-game-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/block-game-assembly/checkpoint.json",
+        "sha256": "bbfd35c9c96363fd908e11f7f7d5e4b881ec45bfc2048e6fecc8d50b6b9d755d",
+        "bytes": 1825
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/block-game-assembly/validation.json",
+        "sha256": "bc1c5f6909c5ed822074d262e87ae177e602b2210494f747fbb7587279610635",
+        "bytes": 2631
+      },
+      "status": "complete-article",
+      "tool_revision": "54f4b89",
+      "outputs": [
+        "maso-1984-10-toc-0004"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "block-game-assembly",
-    "goal": "Assemble exact three immutable game natives across printed27–40/PDF29–42. Preserve all images, raw OCR and source uncertainties; rebase text/listing/caption ranges and retain original metadata. Correct prior end-number claim to459 SEND RTS using batch07 evidence.",
+    "id": "batch-08",
+    "goal": "Review hobby divider printed45/PDF47 and restore 하늘의 왕자 콘돌46–47/PDF48–49 plus 명랑운동회48–49/PDF50–51 after confirming boundaries against next article50. Classify the divider separately as navigation if source supports it.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0004"
+      "maso-1984-10-toc-0006",
+      "maso-1984-10-toc-0007"
     ],
-    "maximum_new_mapping_pages": 0,
-    "maximum_new_ocr_tasks": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
