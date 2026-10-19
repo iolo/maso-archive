@@ -24,16 +24,16 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-Ten October articles are readable, assistant sample-reviewed JSON/assets;
-취미생활 is a non-owning heading and turtle57–61 is collected as two immutable
-partial natives awaiting assembly. Twenty-nine of41 entries remain unresolved.
-Latest: complete U보트를 격침하라62–64 and turtle ending60–61. Code panels remain
-original images with unpromoted OCR drafts; source spelling and encoded-byte
-uncertainties remain explicit. Turtle520/1770 physical image fragments are retained.
+Eleven October articles are readable, assistant sample-reviewed JSON/assets;
+취미생활 is a non-owning heading. Twenty-nine of41 entries remain unresolved,
+with no partial article currently selected. Latest: complete turtle57–61 and
+U-boat62–64. Turtle retains seven original BASIC panels/209 numbered positions,
+including520/1770 physical image fragments; raw code drafts remain unpromoted.
 The [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Next: separate turtle assembly from exact native pins, without new mapping/OCR.
+Next: verify full 디베스테이터 from65 through the education area73–74, then
+restore opening65–70 within six mapped pages. Ending native/assembly follow.
 The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
 Whole-issue closeout remains pending; no reading-room rebuild occurred.
 

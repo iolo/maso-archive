@@ -6,13 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: ten readable, assistant sample-reviewed articles,
-one partial turtle article collected57–61 in two natives, and one non-owning heading;
-29 of41 canonical entries remain unresolved. Latest: complete U-boat62–64 and
-turtle60–61. Code remains original images with unpromoted drafts. Next: separate
-turtle assembly. See the [October record](docs/progress/8410.md) and its versioned
-ledger for selected packages, exact rebuild evidence and the next checkpoint.
-Whole-issue closeout remains pending.
+October 1984 is in progress: eleven readable, assistant sample-reviewed articles
+and one non-owning heading;29 of41 canonical entries remain unresolved. Complete
+turtle57–61 and U-boat62–64 pass exact rebuilds. Next: establish 디베스테이터's
+full extent and restore its first six pages65–70. Code/table drafts remain
+unpromoted original-image readings. See the [October record](docs/progress/8410.md)
+and its versioned ledger for selected packages and evidence. Whole-issue closeout
+remains pending.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and

@@ -19,13 +19,13 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: ten readable articles, one partial turtle
-  collected57–61 as two immutable natives, and one non-owning hobby heading;
-  29 of41 entries remain unresolved. Latest: complete U-boat62–64 and turtle
-  ending60–61. Code remains original images with unpromoted eng drafts; source520
-  cross-native and1770 internal physical image fragments are preserved.
-  Next: separate turtle assembly without mapping/OCR. The separately titled
-  unlisted DOS TOOL KIT guide41–43 is excluded. Continue from the
+- October 1984 is in progress: eleven readable, assistant sample-reviewed
+  articles and one non-owning hobby heading;29 of41 entries remain unresolved.
+  Complete turtle57–61 retains seven original code panels and both520/1770 physical
+  image fragments. No selected article is currently partial. Next: verify full
+  디베스테이터 from65 through the education area73–74, then restore opening65–70
+  within the six-page limit; ending native/assembly afterward. The separately
+  titled unlisted DOS TOOL KIT guide41–43 is excluded. Continue from the
   [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.

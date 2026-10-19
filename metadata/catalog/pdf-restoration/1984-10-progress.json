@@ -622,12 +622,65 @@
       "parent_id": "maso-1984-10-toc-0005",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Turtle title/deck and prose57, explanation/variables and code10–180 on58, continuation190–520 on59. Source520 physically continues as unnumbered text at top60; code extends through final2090 RETURN on61. Next U-boat title62 is separate. Bottom59 is unrelated computer-school advertisement and excluded."
       ],
-      "restoration": {
+      "source_extent_review": {
+        "record": {
+          "path": "archive/pdf/1984-10/restoration/batch-10/source-review.json",
+          "sha256": "b983f5788d60892f9a5413ab579ccb26c4e3c03d1e50ca897a40d7b44a3d17a0",
+          "bytes": 2443
+        },
+        "pdf_pages": [
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "printed_pages": [
+          "57",
+          "58",
+          "59",
+          "60",
+          "61"
+        ],
+        "restoration": "complete assembled57–61 from exact opening/ending native pins"
+      },
+      "historical_native_attempts": [
+        {
+          "directory": "archive/pdf/1984-10/packages/batch-10-r01/turtle-a",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-10-r01/turtle-a/manifest.json",
+            "sha256": "f4a66e30072b71d43fc2b3a5ee43c3bf686f29e4a666999fe3de9d8f09e53971",
+            "bytes": 12230
+          },
+          "reason": "Preserved first reading before source-supported 담어 syllable correction."
+        }
+      ],
+      "native_segments": [
+        {
+          "name": "opening",
+          "directory": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a/manifest.json",
+            "sha256": "26fed7cbe940c3bd06b63db37f87c754004adb40ebc9916ef4f740ecd2ca00a9",
+            "bytes": 12230
+          }
+        },
+        {
+          "name": "ending",
+          "directory": "archive/pdf/1984-10/packages/batch-11-r01/turtle-b",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-11-r01/turtle-b/manifest.json",
+            "sha256": "1195c097fe05a797ec8383370583e47674e80b026ce4ec8a56ba1703a19fe9a7",
+            "bytes": 4037
+          }
+        }
+      ],
+      "historical_partial_restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a",
         "article_id": "scan-maso-1984-10-toc-0010",
         "manifest": {
@@ -685,59 +738,54 @@
           ]
         }
       },
-      "source_extent_review": {
-        "record": {
-          "path": "archive/pdf/1984-10/restoration/batch-10/source-review.json",
-          "sha256": "b983f5788d60892f9a5413ab579ccb26c4e3c03d1e50ca897a40d7b44a3d17a0",
-          "bytes": 2443
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/turtle-complete-r01",
+        "article_id": "scan-maso-1984-10-toc-0010",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/turtle-complete-r01/manifest.json",
+          "sha256": "7cca9d8687dcc45fb65ae09d7bebfcac54cf0542f5b580682ee5afc7147709fc",
+          "bytes": 18997
         },
-        "pdf_pages": [
-          59,
-          60,
-          61,
-          62,
-          63
-        ],
-        "printed_pages": [
-          "57",
-          "58",
-          "59",
-          "60",
-          "61"
-        ],
-        "restoration": "All57–61 collected as two exact immutable partial natives; complete assembly pending."
+        "coverage": {
+          "pdf_pages": [
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "printed_pages": [
+            "57",
+            "58",
+            "59",
+            "60",
+            "61"
+          ],
+          "regions": 21,
+          "blocks": 16,
+          "figures": 11,
+          "text_block_ranges": 16,
+          "text_review_ranges": 22,
+          "source_regional_spans": 17,
+          "prose_boundaries": 1,
+          "caption_entry_note_associations": 1,
+          "original_code_panels": 7,
+          "source_numbered_positions": 209,
+          "source_number_range": [
+            10,
+            2090
+          ],
+          "typed_code_rows": 0,
+          "original_table_panels": 3,
+          "physical_image_row_continuations": 2,
+          "assembly_pending": false
+        }
       },
-      "historical_native_attempts": [
-        {
-          "directory": "archive/pdf/1984-10/packages/batch-10-r01/turtle-a",
-          "manifest": {
-            "path": "archive/pdf/1984-10/packages/batch-10-r01/turtle-a/manifest.json",
-            "sha256": "f4a66e30072b71d43fc2b3a5ee43c3bf686f29e4a666999fe3de9d8f09e53971",
-            "bytes": 12230
-          },
-          "reason": "Preserved first reading before source-supported 담어 syllable correction."
-        }
-      ],
-      "native_segments": [
-        {
-          "name": "opening",
-          "directory": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a",
-          "manifest": {
-            "path": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a/manifest.json",
-            "sha256": "26fed7cbe940c3bd06b63db37f87c754004adb40ebc9916ef4f740ecd2ca00a9",
-            "bytes": 12230
-          }
-        },
-        {
-          "name": "ending",
-          "directory": "archive/pdf/1984-10/packages/batch-11-r01/turtle-b",
-          "manifest": {
-            "path": "archive/pdf/1984-10/packages/batch-11-r01/turtle-b/manifest.json",
-            "sha256": "1195c097fe05a797ec8383370583e47674e80b026ce4ec8a56ba1703a19fe9a7",
-            "bytes": 4037
-          }
-        }
-      ]
+      "image_code_coverage": {
+        "path": "archive/pdf/1984-10/evidence/turtle-assembly/image-code-coverage.json",
+        "sha256": "01d1482024324d9b1225707701662d32e11c9e19812c27647ca75ee09988f8b9",
+        "bytes": 8366
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0011",
@@ -1099,8 +1147,8 @@
     "articles": 11,
     "non_owning_headings": 1,
     "unresolved_classification": 29,
-    "readable": 10,
-    "partial": 1,
+    "readable": 11,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 12,
@@ -1456,16 +1504,35 @@
         "maso-1984-10-toc-0010",
         "maso-1984-10-toc-0011"
       ]
+    },
+    {
+      "id": "turtle-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/turtle-assembly/checkpoint.json",
+        "sha256": "5ca31f164672be5cb9dd90e1c76e71177666d47bfda09e0bf65c420d3245eff9",
+        "bytes": 1318
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/turtle-assembly/validation.json",
+        "sha256": "c92de8e8764bf7420b72e60e2d4378517bf5c405eb5db2ba1f6e3ddc0747ef02",
+        "bytes": 2163
+      },
+      "status": "complete-article",
+      "tool_revision": "5c4b898",
+      "outputs": [
+        "maso-1984-10-toc-0010"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "turtle-assembly",
-    "goal": "Assemble exact turtle opening57–59 and ending60–61; retain seven original code panels and resolve source520 cross-native and1770 internal image-row coverage without typed inference. No mapping/OCR.",
+    "id": "batch-12",
+    "goal": "Verify full 디베스테이터 extent from displayed title65 to next education area73–74, then restore opening65–70/PDF67–72 within six mapped pages. Ending native and separate complete assembly later.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0010"
+      "maso-1984-10-toc-0012"
     ],
-    "maximum_new_mapping_pages": 0,
-    "maximum_new_ocr_tasks": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
