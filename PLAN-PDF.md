@@ -26,17 +26,17 @@ records below are historical and do not authorize a new rebuild.
 
 The editorial18, robot-feature introduction19, complete 골목대장20–33 and
 complete 똑딱 반짝34–46 are readable and assistant sample-reviewed. Apple BASIC
-to machine language(3) is partial:47–58 restored of verified47–63. Thirty-two
-of37 entries remain unresolved. The latest native retains77regions,53blocks,
-16images,169physical code rows,41numbered source lines and116table cells; all269files
-rebuild identically. All8004 prior evidence files are unchanged. All77original/
-11revised crops were reviewed before61OCR tasks, without failure or retry.
-Printed address/byte wraps and contradictory AND literals remain literal; original
-panels, two unknown header dash counts and glyph candidates are retained.
+to machine language(3) is partial pending assembly: all47–63 covered by three
+preserved natives. Thirty-two of37 entries remain unresolved. The latest native
+retains48regions,17blocks,17images,292physical code rows,144numbered entries and
+42table cells; all150files rebuild identically. All9027prior evidence files are
+unchanged. All48original/11revised crops preceded31OCR tasks, without failure/retry.
+BASIC183 and assembly86/110 physical wraps, original panels, three unknown header
+dash counts, source mistakes and glyph candidates remain explicit.
 Earlier glyph/hex uncertainties, batch01's timing and batch06's intermediate
 retention exceptions remain explicit.
-Next: Apple feature59–63, then separate full47–63 assembly with compatible
-projection for mixed numbered listings and address-bearing byte wraps.
+Next: full47–63 assembly with compatible projection for mixed numbered listings
+and address-bearing byte wraps; join58느/59껴지기. No further OCR needed.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
