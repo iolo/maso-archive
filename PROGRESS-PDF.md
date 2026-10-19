@@ -9,13 +9,13 @@ by the calendar month in which restoration work happened.
 December 1984 is in progress: six readable, assistant sample-reviewed articles
 cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46 and
 complete Apple BASIC to machine language(3)47–63, plus Christmas-card66–69. One
-non-owning hobby heading is classified. Diamond Field70–75 is a partial opening
-of verified70–77;29 of37 entries await classification. The latest151-file native
-rebuilds identically, retaining14images,433physical/375numbered BASIC entries,
-59quoted fields and27table cells. All11416prior files are unchanged. Graphic/music/
-spacing candidates, literal source mistakes and the batch01 timing/batch06
-intermediate retention exceptions remain explicit.
-Next: ending Diamond Field76–77, then independent full70–77assembly.
+non-owning hobby heading is classified. Both Diamond Field natives cover70–77,
+pending independent full assembly;29 of37 entries await classification. The latest
+49-file ending rebuilds identically, retaining4images,212physical/193numbered entries
+and1397DATA fields. All12034prior files are unchanged. Both natives total645physical/
+568numbered entries,94quoted fields and1478DATA fields. Source candidates, the retained
+verifier/parser failure, and batch01 timing/batch06 retention exceptions remain explicit.
+Next: independent full Diamond Field70–77assembly.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 

@@ -22,18 +22,19 @@ paired OCR or a new engine comparison.
 - December 1984 is in progress: editorial18, robot-feature introduction19,
   complete 골목대장20–33, complete 똑딱 반짝34–46, Apple BASIC to machine language(3)
   47–63 and Christmas-card66–69 are readable and assistant sample-reviewed. Six complete
-  articles and one non-owning hobby heading. Diamond Field70–75 is now partial,
-  with full70–77extent verified;29 of37 entries remain unresolved. Batch12 retains
-  46regions,14blocks,14images,433physical/375numbered BASIC entries and27table cells.
-  All151files rebuild identically;11416prior files unchanged. All46original/14revised
-  exact crops preceded32successful OCR tasks. Fifty-nine quoted fields preserve20
-  graphic/19music candidates;9machine DATA rows retain72hex literals and9printed
-  checksums independently. Original source mistakes and Unicode/spacing/music
-  candidates remain explicit; no encoded-byte or execution claim.
-  The preservation inventory pins12034files. Batch01's timing and batch06's
+  articles and one non-owning hobby heading. Two Diamond Field natives cover all70–77,
+  pending full independent assembly;29 of37 entries remain unresolved. Ending76–77
+  retains212physical/193numbered BASIC entries and1397DATA fields. All49ending files
+  rebuild identically;12034prior files unchanged. All13exact crops preceded9successful
+  OCR tasks, no repairs/retries. One verifier/parser failure and fresh passing revision
+  are retained without changing exports/OCR. Both natives total645physical/568numbered
+  entries,94quoted fields,1478DATA fields,27table cells and18images. Printed checksums,
+  hex/decimal fields and graphic/music/spacing candidates remain independent source
+  readings; no byte, encoding, checksum or execution reconstruction.
+  The preservation inventory pins12240files. Batch01's timing and batch06's
   intermediate retention exceptions remain explicit. Shared140-test baseline unchanged.
-  Next: Diamond Field ending76–77/4750–6670, then full70–77assembly. Exact crops
-  before OCR; reuse verified extent and preserved original source views.
+  Next: full Diamond Field70–77assembly, retaining every native byte and projecting
+  all source indexes. No further mapping/OCR is needed for that assembly.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

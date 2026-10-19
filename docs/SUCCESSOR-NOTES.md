@@ -43,21 +43,23 @@ partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October; December has six readable articles, including complete 골목대장20–33,
 똑딱 반짝34–46, Apple BASIC to machine language(3)47–63 and Christmas-card66–69.
 Hobby0005 is a non-owning divider on unpaginatedPDF67; all four child links remain.
-Diamond Field70–75 is now a partial opening of visually verified70–77;29 of37 entries
-remain unresolved. Latest batch12's151files rebuild identically;11416prior files unchanged.
-All46original/14revised crops preceded32successful OCR tasks. Source/range checks pass
-for46regions,14blocks,14images,433physical/375numbered BASIC entries1000–4740and27table
-cells. Fifty-nine quoted fields preserve20graphic/19music candidates. Nine machine
-DATA rows retain72hex fields and9printed checksums independently, without computation.
-Literal1050SC/newline100,1920S/OUND page wrap, DEFUSR3=&H90 and G=1960remain unchanged.
-Selected graphic/space/music glyphs are unverified Unicode candidates, not historical
-MSX/Hangul encoded bytes. No execution repair. Inventory pins12034files; shared140-test
-baseline unchanged. Earlier source uncertainties, both Christmas-card correction/export
-revisions, batch01 timing and batch06 intermediate retention exceptions remain explicit.
-Next: batch13 for Diamond Field76–77/PDF78–79,4750–6670; then independently assemble
-full70–77from both immutable natives. Full source extent and next independent Spin Ball
-78/PDF80are verified; reuse pins, reinspect full ending pages and every exact crop before
-OCR. NeighborPDF66 is an unpaginated publisher ad, and
+Diamond Field now has both natives covering70–77, pending full independent assembly;
+29 of37 entries remain unresolved. Latest ending76–77has49byte-identical rebuilt files;
+12034prior files unchanged. All13exact crops preceded9successful OCR tasks; no repairs.
+The initial verifier's quoted-field parser failure and fresh r02are preserved; exports
+and OCR are unchanged. Ending212physical/193numbered entries retain1397DATA fields:
+1120hex literals,50printed checksums,182decimal values,35panel strings and10music fields.
+Combined natives retain59regions,15blocks,18images,645physical/568numbered entries,
+94quoted fields,1478DATA fields and27table cells. Source checksums are never used to
+infer bytes. Printed6470color11, earlier1050SC/newline100,1920S/OUND, DEFUSR3=&H90 and
+G=1960remain literal. Unicode/space/music candidates do not certify MSX/Hangul bytes.
+Inventory pins12240files; shared140-test baseline unchanged. Earlier source uncertainties,
+both Christmas-card revisions, batch01 timing and batch06 retention exceptions remain.
+Next: full Diamond Field70–77assembly. The opening native lacks some wrapped-mode
+metadata; use an explicit fresh metadata compatibility revision or opt-in adapter while
+preserving every original byte. Project all quoted and general DATA indexes, including
+negative move fields, blank panel strings and music physical wraps. No further OCR.
+Spin Ball0008from verified78/PDF80is next after assembly. NeighborPDF66 is an unpaginated publisher ad, and
 native58–64shorthand is not an observed folio64 or global-offset claim. Reader
 integration is separate; the owner subsequently requested the October reader build.
 

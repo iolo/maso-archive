@@ -26,17 +26,20 @@ records below are historical and do not authorize a new rebuild.
 
 The editorial18, robot-feature introduction19, complete 골목대장20–33,
 똑딱 반짝34–46, Apple BASIC to machine language(3)47–63 and Christmas-card66–69
-are readable and assistant sample-reviewed. Diamond Field70–75 is a partial opening
-of verified70–77. Seven articles and one non-owning hobby heading are classified:
-six readable, one partial;29 of37 entries remain unresolved. Latest six-page native
-retains46regions,14blocks,14images,433physical/375numbered BASIC entries and27table
-cells. All151files rebuild identically;11416prior files unchanged. All46original/
-14revised exact crops preceded32successful OCR tasks. Source-linked59quoted fields
-include20graphic/19music candidates;9machine DATA rows retain72hex literals and9
-printed checksums independently. No encoding, checksum or execution reconstruction.
-The new preservation inventory pins12034files. Earlier batch01 timing and batch06
+are readable and assistant sample-reviewed. Both Diamond Field natives now cover
+all70–77; independent full assembly remains required. Seven articles and one
+non-owning hobby heading are classified: six readable, one partial;29 of37 entries
+remain unresolved. Ending76–77retains212physical/193numbered entries and1397DATA
+fields, including1120hex literals,50printed checksums,182decimal values,35panel
+strings and10music fields. All49ending files rebuild identically;12034prior files
+unchanged. All13exact crops preceded9successful OCR tasks, with no crop repair.
+The original verifier/parser failure and fresh passing revision are preserved;
+exports and OCR were unchanged. Both natives total645physical/568numbered entries,
+94quoted fields,1478DATA fields,27table cells and18images. Source candidates remain
+explicit; no encoding/checksum/execution reconstruction.
+The new preservation inventory pins12240files. Earlier batch01 timing and batch06
 intermediate retention exceptions remain explicit. Shared140-test baseline unchanged.
-Next: ending Diamond Field76–77/4750–6670, then independent full70–77assembly.
+Next: independent full Diamond Field70–77assembly with every source field projected.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
