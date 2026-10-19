@@ -3201,10 +3201,78 @@
       "toc_entry_id": "maso-1984-10-toc-0040",
       "title": "Q&A",
       "parent_id": "maso-1984-10-toc-0035",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Actual complete Q&A238–240/PDF240–242 has four questions and answers. Prior classifieds237 and following independent unlisted 통합 소프트웨어241–255 are separate. Twenty whole views reviewed; three mapped pages and17 outside lookups. Canonical title/parent preserved; four correspondent bylines are not article authors.",
+        "22 corrected blocks/12 original images retain four independent BASIC programs/59 numbered rows, five captions, three diagram labels and historical syntax/keyboard symbols. One uncertain 가능을 reading explicitly retained. All source/range/scan/association checks and independent byte-identical rebuild pass; human proofreading/encoded bytes/execution remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-50-r01/qa",
+        "article_id": "scan-maso-1984-10-toc-0040",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-50-r01/qa/manifest.json",
+          "sha256": "9dc77241619f66d965d1994e72e0b00b0e81ca14a8335f9aab723119393e879e",
+          "bytes": 20163
+        },
+        "coverage": {
+          "pdf_pages": [
+            240,
+            241,
+            242
+          ],
+          "printed_pages": [
+            "238",
+            "239",
+            "240"
+          ],
+          "regions": 28,
+          "blocks": 22,
+          "figures": 12,
+          "regional_text_ranges": 23,
+          "text_review_ranges": 33,
+          "source_reader_questions": 4,
+          "source_reader_answers": 4,
+          "source_correspondent_bylines": 4,
+          "explicit_prose_boundaries": 1,
+          "caption_blocks": 5,
+          "caption_associations": 5,
+          "source_prose_image_associations": 14,
+          "image_text_overlaps": 12,
+          "original_basic_panels": 4,
+          "source_program_groups": 4,
+          "source_number_positions": 59,
+          "source_physical_program_rows": 59,
+          "source_physical_wraps": 0,
+          "source_code_references": 4,
+          "source_program_variant_links": 1,
+          "original_circle_diagrams": 1,
+          "source_diagram_labels": 3,
+          "source_inline_syntax_excerpts": 7,
+          "source_uncertain_readings": 1,
+          "typed_program_rows": 0
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            240,
+            241,
+            242
+          ],
+          "printed_pages": [
+            "238",
+            "239",
+            "240"
+          ]
+        },
+        "complete_article_assembly_pending": false,
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-50/source-associations.json",
+          "sha256": "d438bf3196a52025b3adcaa546b7f9c65e2f302ebbc54d87f2b74cf517c3224a",
+          "bytes": 81179
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0041",
@@ -3218,15 +3286,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 33,
+    "articles": 34,
     "non_owning_headings": 6,
-    "unresolved_classification": 2,
-    "readable": 33,
+    "unresolved_classification": 1,
+    "readable": 34,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 39,
-    "unresolved_availability": 2
+    "sample_reviewed": 40,
+    "unresolved_availability": 1
   },
   "checkpoints": [
     {
@@ -5057,13 +5125,41 @@
       "outputs": [
         "maso-1984-10-toc-0039"
       ]
+    },
+    {
+      "id": "batch-50",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-50/checkpoint.json",
+        "sha256": "f6c8b906748d2ae6013024ba2042e2f6568a7f9a9c3e2089f306b760f3d3fcf1",
+        "bytes": 2195
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-50/source-review.json",
+        "sha256": "87b15666c2557f4933a5839a86f623414456286392408cdd83392ef739d08794",
+        "bytes": 1883
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-50/validation.json",
+        "sha256": "7d32bc6545e9e1604887eff93b18e7d2f5487233bdd5015784672b4841cb6c86",
+        "bytes": 3109
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-50/review-log.json",
+        "sha256": "52891ba1606d661b1f89fc68cd3b852e138506460a4eb5beaaeaf70b56c62259",
+        "bytes": 2464
+      },
+      "status": "complete-qa",
+      "tool_revision": "bf0ad2c",
+      "outputs": [
+        "maso-1984-10-toc-0040"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-50",
-    "goal": "Verify full Q&A0040actualextent from238/PDF240before256advertisingindex,allcandidate238–255/adjacent237and256sourceviewsbeforemapping. DistinguishownedQ&Afrominterspersedortrailingadvertisements;restore boundedopening up to6mappedpages,correctprose/questions/headings/captions andretain sourcecode/table/diagramimages. Segmentifnecessary,thencompleteassembly. Adindex0041andwholeissuecloseoutstillpending.",
+    "id": "batch-51",
+    "goal": "Restore advertising index0041 on PDF258 after verifying adjacent source pages. Its folio is absent; canonical sequence256 is not a literal printed label. Exclude upper publisher advertisement, preserve illustration/table geometry, correct index cells. Then whole-issue260-page ledger, cover, standalone reference and closeout.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0040"
+      "maso-1984-10-toc-0041"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,
@@ -5075,5 +5171,12 @@
     "Whole-issue source-page ledger, cover accounting, remaining articles, assemblies and issue closeout pending.",
     "Preserved local files have not yet been independently backed up and restore-tested."
   ],
-  "reader_rebuild": false
+  "reader_rebuild": false,
+  "unlisted_source_articles": [
+    {
+      "path": "archive/pdf/1984-10/restoration/batch-50/unlisted-integrated-software-classification.json",
+      "sha256": "f4f2d137bb3c813cf4aad0bc6893e32ea44947f88650d4c762a19520a26be3c9",
+      "bytes": 1598
+    }
+  ]
 }

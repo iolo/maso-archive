@@ -6,16 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: 33 readable, assistant sample-reviewed articles,
-no partial articles, six non-owning headings and two unresolved entries out
-of 41. Complete 복덕방 235–237 preserves ten regions, four searchable title/category
-blocks and six original images. Its53groupedlistings and three image continuations
-retain original prices, contacts and specification cells; volunteer listing
-transcription remains pending. All source/range/scan/category/continuation checks
-and independent rebuild pass. Next: verify the actual Q&A extent from238 and
-restore a bounded opening, then 광고색인 and whole-issue closeout. The earlier
-design-middle timing exception and human/source-byte limits remain recorded.
-No reading-room rebuild.
+October 1984 is in progress: 34 readable, assistant sample-reviewed articles,
+no partial articles, six non-owning headings and one unresolved entry out of41.
+Complete Q&A238–240 preserves four questions/answers,22 corrected blocks,12 original
+images and four BASIC panels with59 source rows. One uncertain prose reading remains
+explicit. Source/range/scan checks and byte-identical rebuild pass. The separate
+unlisted 통합 소프트웨어241–255 is classified outside canonical restoration scope.
+Next: advertising index, then260-page ledger, cover and standalone issue closeout.
+The earlier timing exception, human/source-byte limits and volunteer news/classified
+body transcription remain recorded. No reading-room rebuild.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
@@ -47,7 +46,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 33 classified | 33 readable; 2 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 34 classified | 34 readable; 1 classification pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
