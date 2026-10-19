@@ -1000,8 +1000,8 @@
       "availability": "partial",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "PDF90/printed88independently starts Crowded Speedway with original title, racing art, platform/translation credit, prose and screenshot. PDF91/89ends prose and starts BASIC list1. PDF92–99/90–97contain flowchart/list2hex through6FF8. PDF100–102are separate ads;PDF103is education divider;PDF104/102starts independent BASIC speed article. Canonical identity/title/parent unchanged.",
-        "Opening88–93retains62regions,33blocks,19images,585physical rows,10numbered BASIC entries,seven wraps,568hex rows/addresses,4544hex literals,44DATA fields,two quoted strings,two tables/80cells and16inline examples. All200files reproduce identically. Remaining94–97and full independent assembly required. Source mistakes, table gaps and glyph candidates remain explicit. Selected r02also explicitly associates list2caption with all four code blocks/twelve framed columns, without changing source text. Original r01package and metadata remain preserved."
+        "Full88–97/PDF90–99and neighbors reviewed. Exact ending detail reads69F8/eight00fields, superseding earlier6FF8full-page extent observation; original source reading retained unchanged. FollowingPDF100–102are ads,PDF103education divider,PDF104/102independent BASIC speed article. Canonical identity/title/parent unchanged.",
+        "Two natives now cover complete88–97with98regions,37blocks,31images,1233physical rows,1216hex rows/addresses,9728hex literals,10numbered BASIC entries,seven wraps,44DATA fields,two quotes,two tables/80cells,16inline examples,four figure-caption links andone listing-caption link. Ending117files rebuild identically;full assembly and complete source-index projection remain required."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-12/packages/batch-16-r02/crowded-speedway-a",
@@ -1018,7 +1018,11 @@
             92,
             93,
             94,
-            95
+            95,
+            96,
+            97,
+            98,
+            99
           ],
           "printed_pages": [
             "88",
@@ -1026,11 +1030,15 @@
             "90",
             "91",
             "92",
-            "93"
+            "93",
+            "94",
+            "95",
+            "96",
+            "97"
           ],
-          "regions": 62,
-          "blocks": 33,
-          "figures": 19
+          "regions": 98,
+          "blocks": 37,
+          "figures": 31
         },
         "segments": [
           {
@@ -1063,6 +1071,33 @@
               "figures": 19
             },
             "segment": "a"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-17-r01/crowded-speedway-b",
+            "article_id": "scan-maso-1984-12-toc-0009",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-17-r01/crowded-speedway-b/manifest.json",
+              "sha256": "2ae98ab1dc62dc1b5872b1398d2f9724de267cbeed2b8fd7f353eac49039bf1d",
+              "bytes": 19887
+            },
+            "coverage": {
+              "pdf_pages": [
+                96,
+                97,
+                98,
+                99
+              ],
+              "printed_pages": [
+                "94",
+                "95",
+                "96",
+                "97"
+              ],
+              "regions": 36,
+              "blocks": 4,
+              "figures": 12
+            },
+            "segment": "b"
           }
         ],
         "full_source_extent": {
@@ -1091,12 +1126,7 @@
             "97"
           ]
         },
-        "deferred_printed_pages": [
-          "94",
-          "95",
-          "96",
-          "97"
-        ],
+        "deferred_printed_pages": [],
         "assembly_required": true,
         "assembly_compatibility": "Preserve mixed table/hex/BASIC indexes and internal-digit physical DATAwrap. Existing literal_source_fields_format:v1rejects tables and split13/newline3; needs explicit compatible projection, with all original metadata/text retained.",
         "original_native_export": {
@@ -1108,6 +1138,24 @@
           "path": "archive/pdf/1984-12/restoration/batch-16/caption-association-r02.json",
           "sha256": "8b3c09b3970672a86ab75d8fdb3175538201765aef46301001bfc6114400aefd",
           "bytes": 1548
+        },
+        "selected_source_end": {
+          "last_address_literal": "69F8",
+          "last_row_fields": [
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00"
+          ],
+          "evidence": {
+            "path": "archive/pdf/1984-12/restoration/batch-17/source-reading-revision.json",
+            "sha256": "d0d9ca31cb6a3e81d8937c617af567d0a3dd7a0e4cbacb5014edfe7d9517c560",
+            "bytes": 1010
+          }
         }
       }
     },
@@ -1115,10 +1163,19 @@
       "toc_entry_id": "maso-1984-12-toc-0010",
       "title": "교육입문",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "UnpaginatedPDF103education divider contains a promotional strap,heading,illustration and five child references102/110/131/150/152. No independent signed introduction,body prose or listing.",
+        "Canonical children0011–0015remain linked to0010. FollowingPDF104/102independently opens BASIC speed article;divider does not own child bodies."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/education-classification.json",
+        "sha256": "7b576b1f36cf309ecdb7816576b83ba05dad51c4271247f37f3dc69a1bc64f60",
+        "bytes": 1051
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0011",
@@ -1393,8 +1450,8 @@
     "classified_articles": 9,
     "readable_articles": 8,
     "partial_articles": 1,
-    "nonowning_headings": 1,
-    "unresolved_eligibility": 27,
+    "nonowning_headings": 2,
+    "unresolved_eligibility": 26,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -2969,29 +3026,128 @@
         "sha256": "4abda02fc48e8f704fd48788de2f75a0b85507e686680a8368b4c5acbe88c006",
         "bytes": 3917648
       }
+    },
+    {
+      "id": "batch-17",
+      "status": "complete-partial-article-ending-and-heading-classification",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/checkpoint.json",
+        "sha256": "f476eed6695f23e3d4fb7e79dd55f76eb7f6a2954c719dbf4a6fd8919622a03f",
+        "bytes": 1775
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-17/validation-r03.json",
+        "sha256": "ff53f4dc9eee01f0e0d0ee156db13d72aef3fa6d1f2278517db8ed799c595ba3",
+        "bytes": 1231
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-17/verify-r03.py",
+        "sha256": "e21cbed967e613a97633327b4d7973d8f07658e81821d2cbac2d2360de58edbb",
+        "bytes": 14102
+      },
+      "retained_verifier_repairs": [
+        {
+          "path": "archive/pdf/1984-12/evidence/batch-17/verifier-repair-r02.json",
+          "sha256": "0925a483c42b83bb3c3fed948effc2e1a9d835efc9c54d693e0e63b14db5a465",
+          "bytes": 834
+        },
+        {
+          "path": "archive/pdf/1984-12/evidence/batch-17/verifier-repair-r03.json",
+          "sha256": "3ce31c3fb629460f2eaa3113e57388c57907b0e4d37118ef7db9f8228bb68f94",
+          "bytes": 826
+        }
+      ],
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/source-reviewed.json",
+        "sha256": "30977c2174d737679b742da568884230038736867c83ddbfafac4e3529c3b126",
+        "bytes": 5801
+      },
+      "source_reading_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/source-reading-revision.json",
+        "sha256": "d0d9ca31cb6a3e81d8937c617af567d0a3dd7a0e4cbacb5014edfe7d9517c560",
+        "bytes": 1010
+      },
+      "education_classification": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/education-classification.json",
+        "sha256": "7b576b1f36cf309ecdb7816576b83ba05dad51c4271247f37f3dc69a1bc64f60",
+        "bytes": 1051
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/mapping-completed.json",
+        "sha256": "27b42fa897950ac12b01206030d88391cb578424018a1baf3b6331a91493fb20",
+        "bytes": 2515
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/segment-scope.json",
+        "sha256": "8259bee9f22d1f61c9c979e7c9d9ab08218f255b0e8ea6d9d22b243adde19f64",
+        "bytes": 1321
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/preflight-reviewed.json",
+        "sha256": "dea2851d36db617f6e3587fb2129c9395feab831306ddefaf1f2998152d9df90",
+        "bytes": 15538
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/correction-completed.json",
+        "sha256": "ba332bdc219440f8655a3429fa24cd54c998cd1317e512642b2c5abc6469d326",
+        "bytes": 578
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-17/reproduction.json",
+        "sha256": "1bbfbd68f28c6248c480afa987cefbba639c6587519131c7de2acc9dad25de4b",
+        "bytes": 1133
+      },
+      "actual_ocr_tasks": 24,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 0,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 17399,
+      "rebuild_files": 117,
+      "regions": 36,
+      "blocks": 4,
+      "figures": 12,
+      "regional_text_ranges": 24,
+      "text_review_items": 28,
+      "listing_groups": 1,
+      "listing_physical_rows": 648,
+      "listing_logical_entries": 0,
+      "physical_wrap_rows": 0,
+      "regional_listing_spans": 24,
+      "source_notes": 93,
+      "hex_rows": 648,
+      "hex_addresses": 648,
+      "hex_literal_fields": 5184,
+      "last_address_literal": "69F8",
+      "last_row_fields": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ],
+      "source_reading_revisions": 1,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-17/preserved-work-inventory.json",
+        "sha256": "cb24913402db89f6b957c600b08d4a7de129ff90df31e2ac3ffea1c95825f31d",
+        "bytes": 4125140
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-17",
-    "goal": "Restore Crowded Speedway0009ending94–97/PDF96–99from preserved/reinspected exact source, retaining every hex row/field and complete panel. Classify education0010non-owning divider from PDF103and five canonical children as a separate named task. Full88–97assembly remains separate.",
+    "id": "crowded-speedway-assembly",
+    "goal": "Independently assemble complete Crowded Speedway88–97from both preserved natives with every regional/review/physical/logical/hex-address/value/quote/DATA/table/inline/caption index projected exactly, retaining all original metadata and source text.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0009",
-      "maso-1984-12-toc-0010"
+      "maso-1984-12-toc-0009"
     ],
-    "mapping_targets": [
-      96,
-      97,
-      98,
-      99
+    "source_packages": [
+      "archive/pdf/1984-12/packages/batch-16-r02/crowded-speedway-a",
+      "archive/pdf/1984-12/packages/batch-17-r01/crowded-speedway-b"
     ],
-    "lookup_targets": [
-      95,
-      100,
-      101,
-      102,
-      103,
-      104
-    ],
+    "mapping_targets": [],
     "known_full_extent": {
       "pdf_pages": [
         90,
@@ -3017,14 +3173,24 @@
         96,
         97
       ],
-      "last_observed_address_literal": "6FF8"
+      "last_address_literal": "69F8",
+      "last_row_fields": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
     },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Reuse batch16pinned full scans and reinspect before mapping. Current opening ends55B8; next94starts55C0between complete rows. Final97/6FF8field count/glyphs require exact crop review; no address arithmetic or byte/shape/opcode inference. Three following ads have no observed article folios; educationdividerPDF103is unpaginated. View every exact original/revised crop before OCR; preserve all originals. No reader rebuild."
+    "note": "No new mapping/OCR. Both natives total98regions,37blocks,31images,1233physical rows,1216hex rows/printed addresses,9728hex literals,44DATA fields,two quotes,16inline examples,80table cells/22blanks,four figure-caption links,one listing-caption link andtwo native prose joins. Boundary55B8/55C0between complete rows. Existing literal-source v1rejects tables/internal-digit13/newline3DATA;use explicit compatible projection without rewriting source to fit. Preserve prior shared implementation pins,all original natives,and6FF8→69F8source-reading revision. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
