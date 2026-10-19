@@ -9,7 +9,7 @@ by the calendar month in which restoration work happened.
 October 1984 is in progress: the editorial, signed feature introduction and 기계어의 학습 are
 complete JSON/assets packages, both readable and assistant sample-reviewed.
 기계어의 기초 has two sample-reviewed partial segments covering printed21–27;
-its index metadata revision and assembly remain pending. The other 37 canonical entries await
+its index metadata revision is validated and assembly remains pending. The other 37 canonical entries await
 classification/restoration. See the
 [October record](docs/progress/8410.md) and its versioned progress ledger for
 selected packages, independent rebuild evidence and the next bounded checkpoint.

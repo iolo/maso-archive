@@ -151,19 +151,19 @@
         "segments": [
           {
             "name": "opening",
-            "directory": "archive/pdf/1984-10/packages/batch-03-r01/foundations-a",
+            "directory": "archive/pdf/1984-10/packages/foundations-index-r01/opening",
             "manifest": {
-              "path": "archive/pdf/1984-10/packages/batch-03-r01/foundations-a/manifest.json",
-              "sha256": "3ccc6b86d45ad30ccad109e37d0237fcb7bd212b0351039dd1a63dde57fed1af",
-              "bytes": 13407
+              "path": "archive/pdf/1984-10/packages/foundations-index-r01/opening/manifest.json",
+              "sha256": "2a1114c6dc3184f51bb40ddee5093cfa019c2f93cdaa0b1b786d6c225ada1ef2",
+              "bytes": 13408
             }
           },
           {
             "name": "ending",
-            "directory": "archive/pdf/1984-10/packages/batch-04-r01/foundations-b",
+            "directory": "archive/pdf/1984-10/packages/foundations-index-r01/ending",
             "manifest": {
-              "path": "archive/pdf/1984-10/packages/batch-04-r01/foundations-b/manifest.json",
-              "sha256": "538a0f68f58d8893457a491c6698a6cb0a334d9208b197ba73cc9258b91587d6",
+              "path": "archive/pdf/1984-10/packages/foundations-index-r01/ending/manifest.json",
+              "sha256": "89bc12d731e7e678129537652127d0554b4f194947c55d3f2afe7eaa2b28892e",
               "bytes": 14909
             }
           }
@@ -187,7 +187,27 @@
           "27"
         ],
         "deferred_source_pages": [],
-        "assembly_pending": true
+        "assembly_pending": true,
+        "original_segments": [
+          {
+            "name": "opening",
+            "directory": "archive/pdf/1984-10/packages/batch-03-r01/foundations-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-03-r01/foundations-a/manifest.json",
+              "sha256": "3ccc6b86d45ad30ccad109e37d0237fcb7bd212b0351039dd1a63dde57fed1af",
+              "bytes": 13407
+            }
+          },
+          {
+            "name": "ending",
+            "directory": "archive/pdf/1984-10/packages/batch-04-r01/foundations-b",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-04-r01/foundations-b/manifest.json",
+              "sha256": "538a0f68f58d8893457a491c6698a6cb0a334d9208b197ba73cc9258b91587d6",
+              "bytes": 14909
+            }
+          }
+        ]
       }
     },
     {
@@ -657,11 +677,29 @@
       "outputs": [
         "maso-1984-10-toc-0003"
       ]
+    },
+    {
+      "id": "foundations-index-revision",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/foundations-index-revision/checkpoint.json",
+        "sha256": "cae711904ffb788d7fcea58298575a1e93848655ed7f1b30ddbd395b24d6a8ba",
+        "bytes": 1301
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/foundations-index-revision/validation.json",
+        "sha256": "98b2839f07ef7d2739eddd9100399d03ea6b6b29debdbf66c63b2a182adae30a",
+        "bytes": 1412
+      },
+      "status": "complete-metadata-only",
+      "tool_revision": "4e9b9a6",
+      "outputs": [
+        "maso-1984-10-toc-0003"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "foundations-index-revision",
-    "goal": "Make fresh metadata revisions for assembly using exact original maps, OCR, blocks and assets; project block/range/listing indexes without modifying immutable native inputs. Then assemble complete printed21–27 in a separate checkpoint.",
+    "id": "foundations-assembly",
+    "goal": "Assemble exact opening/ending metadata revision pins into complete 기계어의 기초, printed21–27/PDF23–29. Validate combined text/review/physical-row/caption references and exact independent rebuild; retain both original native generations.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0003"
     ],

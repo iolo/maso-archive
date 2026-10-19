@@ -31,7 +31,7 @@ entries are restored. 기계어의 기초 has two partial segments covering prin
 [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Continue with its index metadata revision, then separately assemble its immutable
+Continue with its immutable segments and separately assemble the complete article from those
 segments. Whole-issue closeout remains pending;
 no reading-room rebuild occurred.
 
