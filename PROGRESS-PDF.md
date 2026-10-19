@@ -6,6 +6,14 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
+December 1984 is in progress: batch 01 delivers the editorial18 and robot-feature
+introduction19 as two readable, assistant sample-reviewed articles. The other
+35 of 37 canonical entries await classification/restoration. Both packages and
+independent byte-identical rebuilds pass; the initial crop-review timing exception
+and three bounded crop repairs remain explicit. Next is 골목대장 from printed20.
+See the [December record](docs/progress/8412.md) and
+[ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
+
 October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
 assistant sample-reviewed articles and six non-owning headings account for all 41
 entries, with no partial articles or unresolved eligibility. All 260 PDF pages are
@@ -17,7 +25,7 @@ the report is `archive/pdf/1984-10/evidence/issue-closeout/report.json`.
 Human acceptance/full proofreading, source bytes and execution remain unverified;
 news/classified body transcription and the batch 35 preflight timing exception remain
 explicit. The restoration closeout itself did not rebuild the reader.
-December 1984 is next; ten remain after October, and no next-issue work has started.
+Ten supplied eligible issues remain after October, including December now in progress.
 
 October's volunteer reader was subsequently built at the owner's request. The
 current `dist/reading-room/` contains 329 PDF articles across nine issues plus
@@ -42,6 +50,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
+| 1984-12 | 2 restored so far | 2 readable; 35 TOC entries unresolved | [8412](docs/progress/8412.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

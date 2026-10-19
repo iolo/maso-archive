@@ -19,6 +19,16 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+- December 1984 is in progress. Batch 01 restores editorial18 and the signed
+  robot-feature introduction19: two readable, assistant sample-reviewed articles;
+  35 of 37 canonical TOC entries still await classification/restoration. Both
+  packages pass source/range checks and independent byte-identical rebuilds.
+  Thirteen OCR tasks include three bounded crop repairs; five unchanged results
+  were reused. Initial exact crop review followed recognition, an explicit timing
+  exception; revised crops were reviewed before recognition. Next is 골목대장
+  from PDF22/printed20, with extent and exact crop review before OCR.
+  See the [December record](docs/progress/8412.md) and
+  [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
   assistant sample-reviewed articles and six non-owning headings account for all 41
   entries, with no partial articles or unresolved eligibility. All 260 PDF pages are
@@ -29,8 +39,8 @@ paired OCR or a new engine comparison.
   the report is `archive/pdf/1984-10/evidence/issue-closeout/report.json`.
   Human acceptance/full proofreading, source bytes and execution remain unverified;
   news/classified body transcription and the batch 35 preflight timing exception remain
-  explicit. No reading-room rebuild. December 1984 is the next supplied eligible issue;
-  ten remain after October, and no next-issue work has started.
+  explicit. No reading-room rebuild at restoration closeout. Ten supplied eligible
+  issues remain after October, including December now in progress.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   The owner subsequently requested the October volunteer reader build, now

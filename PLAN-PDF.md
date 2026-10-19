@@ -22,6 +22,18 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
+## December 1984 started, 2026-10-19
+
+Batch 01 restores the complete editorial18 and robot-feature introduction19 as
+two readable, assistant sample-reviewed JSON/assets packages. Thirty-five of the
+37 canonical entries remain unresolved. Source/asset/text-range checks and
+independent byte-identical rebuilds pass. The initial exact-crop review timing
+exception and three once-widened crops are retained in the evidence. Next is the
+first bounded segment of 골목대장 from PDF22/printed20, after full-extent and
+exact-crop preflight review. No reading-room rebuild.
+See the [December record](docs/progress/8412.md) and
+[versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
+
 ## October 1984 closeout, 2026-10-19
 
 October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

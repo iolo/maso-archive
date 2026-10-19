@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-12",
+  "status": "in-progress",
+  "updated": "2026-10-19",
+  "source": {
+    "path": "maso-pdf/maso-8412.pdf",
+    "sha256": "ada0edbfe2872b2c12e3ed30a591bc3de1adc6be3ec6cf13e5b6e19088df5252",
+    "bytes": 90921927
+  },
+  "canonical_toc": {
+    "path": "TOC.md",
+    "sha256": "725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+    "bytes": 252444
+  },
+  "canonical_queue": {
+    "path": "archive/pdf/1984-12/restoration/canonical-queue.json",
+    "sha256": "149e71aed4b502c17c5244d61f787b277b5569f4d495f1322eda138d27632f7f",
+    "bytes": 49684
+  },
+  "entries": [
+    {
+      "toc_entry_id": "maso-1984-12-toc-0001",
+      "title": "특집 I : 마이크로 로봇과 관련 기술",
+      "parent_id": null,
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF21 visibly numbered19 is the complete signed introduction and two diagrams. PDF22 visibly numbered20 starts independent child 골목대장.",
+        "Parent0001 owns the substantial introduction; canonical child links and title remain unchanged. Displayed 로보트 and author affiliation preserved independently.",
+        "Read columns left to middle to right, then figure1 and figure2 with respective captions."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/batch-01-r01/feature-intro",
+        "article_id": "scan-maso-1984-12-toc-0001",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/batch-01-r01/feature-intro/manifest.json",
+          "sha256": "bde00a0add9d699ae6a2f7970707db3370ed9d0054e6b1243f2d0b2d001e46f3",
+          "bytes": 6875
+        },
+        "coverage": {
+          "pdf_pages": [
+            21
+          ],
+          "printed_pages": [
+            "19"
+          ],
+          "regions": 10,
+          "blocks": 10,
+          "figures": 2
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0002",
+      "title": "골목대장",
+      "parent_id": "maso-1984-12-toc-0001",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0003",
+      "title": "똑딱 반짝",
+      "parent_id": "maso-1984-12-toc-0001",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0004",
+      "title": "특집 II : 애플 베이직에서 기계어로(3)",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0005",
+      "title": "취미생활",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0006",
+      "title": "크리스마스 카드 제작",
+      "parent_id": "maso-1984-12-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0007",
+      "title": "다이아몬드 필드",
+      "parent_id": "maso-1984-12-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0008",
+      "title": "스핀 볼",
+      "parent_id": "maso-1984-12-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0009",
+      "title": "크라우디드 스피드웨이",
+      "parent_id": "maso-1984-12-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0010",
+      "title": "교육입문",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0011",
+      "title": "베이직 속도 증진의 비결",
+      "parent_id": "maso-1984-12-toc-0010",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0012",
+      "title": "CP/M 입문(5)",
+      "parent_id": "maso-1984-12-toc-0010",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0013",
+      "title": "투시도 시뮬레이션",
+      "parent_id": "maso-1984-12-toc-0010",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0014",
+      "title": "MSX를 위한 기계어 코드 로더",
+      "parent_id": "maso-1984-12-toc-0010",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0015",
+      "title": "수학을 통한 논리학습(5)",
+      "parent_id": "maso-1984-12-toc-0010",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0016",
+      "title": "비즈니스",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0017",
+      "title": "메모리의 효율적인 사용을 위하여",
+      "parent_id": "maso-1984-12-toc-0016",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0018",
+      "title": "비지캘크 한계의 극복(2)",
+      "parent_id": "maso-1984-12-toc-0016",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0019",
+      "title": "테크니컬",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0020",
+      "title": "마이크로컴퓨터 설계강좌(6)",
+      "parent_id": "maso-1984-12-toc-0019",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0021",
+      "title": "퍼블릭 키이 크립토그래피",
+      "parent_id": "maso-1984-12-toc-0019",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0022",
+      "title": "공모입선작",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0023",
+      "title": "공모 총평",
+      "parent_id": "maso-1984-12-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0024",
+      "title": "64 Column",
+      "parent_id": "maso-1984-12-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0025",
+      "title": "까만돌 하얀돌",
+      "parent_id": "maso-1984-12-toc-0022",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0026",
+      "title": "메아리",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0027",
+      "title": "SPC-CLOCK의 추가설명과 테크닉응용",
+      "parent_id": "maso-1984-12-toc-0026",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0028",
+      "title": "리로케이터",
+      "parent_id": "maso-1984-12-toc-0026",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0029",
+      "title": "바이오리듬",
+      "parent_id": "maso-1984-12-toc-0026",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0030",
+      "title": "총정리 : 과월호 활용을 위한 찾아보기",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0031",
+      "title": "정보모음",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0032",
+      "title": "편집자 노트",
+      "parent_id": "maso-1984-12-toc-0031",
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF20 visibly numbered18 contains the complete editorial; previous PDF19 is the issue title/divider and next PDF21 begins special feature19.",
+        "All prose is in the right column; title and decorative panels belong to the same editorial. Folio excluded."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/batch-01-r01/editorial",
+        "article_id": "scan-maso-1984-12-toc-0032",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/batch-01-r01/editorial/manifest.json",
+          "sha256": "e6f0a7825f29e6fe8047b3b0877885d6d92d30dd0217a0cdcbbcfc1321c27ac9",
+          "bytes": 3023
+        },
+        "coverage": {
+          "pdf_pages": [
+            20
+          ],
+          "printed_pages": [
+            "18"
+          ],
+          "regions": 5,
+          "blocks": 15,
+          "figures": 3
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0033",
+      "title": "정보 레이다",
+      "parent_id": "maso-1984-12-toc-0031",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0034",
+      "title": "복덕방",
+      "parent_id": "maso-1984-12-toc-0031",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0035",
+      "title": "Q&A",
+      "parent_id": "maso-1984-12-toc-0031",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0036",
+      "title": "광고색인",
+      "parent_id": "maso-1984-12-toc-0031",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-12-toc-0037",
+      "title": "편집후기",
+      "parent_id": "maso-1984-12-toc-0031",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    }
+  ],
+  "totals": {
+    "canonical_entries": 37,
+    "classified_articles": 2,
+    "readable_articles": 2,
+    "partial_articles": 0,
+    "nonowning_headings": 0,
+    "unresolved_eligibility": 35,
+    "human_accepted_articles": 0
+  },
+  "checkpoints": [
+    {
+      "id": "batch-01",
+      "status": "complete-with-explicit-timing-exception",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-01/checkpoint.json",
+        "sha256": "8d0d6fbd083946f0deb0222fb8290744599ad8f13868005de2b4715bca311e7f",
+        "bytes": 1424
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-01/validation.json",
+        "sha256": "217d1a917b6eac7db3f63df750ea727da69694c7f6c55a9a2c56b355551b27ba",
+        "bytes": 1608
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-01/source-review/review-log.json",
+        "sha256": "c0270f003f708e11b5f6809238c3f515612a170f68680b7cef66885b709b0695",
+        "bytes": 3314
+      },
+      "review_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-01/review-completed.json",
+        "sha256": "3fcc634077f9cc636b76ba79a8a35caf6546c0a49e36515ef048926683e4877b",
+        "bytes": 709
+      },
+      "ocr_reuse": {
+        "path": "archive/pdf/1984-12/restoration/batch-01/ocr-reuse.json",
+        "sha256": "7bfd382269d4805a4d8a0f0b21d9ef30ced0dd65f3488d6062f8752a625f836d",
+        "bytes": 2974
+      },
+      "crop_repairs": {
+        "path": "archive/pdf/1984-12/restoration/batch-01/crop-repairs.json",
+        "sha256": "9f89283a445e3e5003fd3a27e4e5cd0090b772c89fb3e7ae36a6b8aff3143705",
+        "bytes": 1431
+      },
+      "actual_ocr_tasks": 13,
+      "crop_repairs_count": 3,
+      "unchanged_ocr_reused": 5,
+      "regions": 15,
+      "blocks": 25,
+      "figures": 5,
+      "regional_text_ranges": 27,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-01/preserved-work-inventory.json",
+        "sha256": "85e33bc8529e4b59d2fe4d3b81b8053a9c18de7506d4f7a2aff49383f83a13eb",
+        "bytes": 59150
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-01/reproduction.json",
+        "sha256": "d1f9d63fc54876a5b41a5c11ebc891744b6bffb08e4e9ea8d1ab2f75f60ffbe5",
+        "bytes": 1253
+      }
+    }
+  ],
+  "next_checkpoint": {
+    "id": "batch-02",
+    "goal": "Locate full extent and restore first bounded segment of 골목대장, canonical0002.",
+    "known_start": {
+      "pdf_page": 22,
+      "printed_page": 20
+    },
+    "limits": {
+      "articles": 2,
+      "mapped_source_pages": 6,
+      "outside_map_lookup_pages": 20
+    },
+    "note": "Inspect full extent and adjacent pages; review exact crop preflight before OCR. Later segments and independent assembly required if longer than six pages."
+  },
+  "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
+  "reader_rebuild": false,
+  "independent_backup_restore": "not-performed; no recoverability claim",
+  "human_acceptance": "pending",
+  "full_proofreading": "unverified"
+}

@@ -9,7 +9,8 @@ Storage: [what to preserve and where new work belongs](STORAGE.md). Historical p
 2. [PDF plan](../PLAN-PDF.md): JSON/assets scope and remaining campaign gates.
    August, September and October are complete. October's 35 articles and 260-page
    ledger are recorded in [the October log](progress/8410.md). December 1984
-   is the next supplied eligible issue. Restoration alone does not authorize a
+   is now in progress; batch 01 and the next bounded task are in
+   [the December log](progress/8412.md). Restoration alone does not authorize a
    reading-room rebuild.
 3. [October closeout](../archive/pdf/1984-10/evidence/issue-closeout/report.json)
    and its source-page ledger at
@@ -39,7 +40,9 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December 1984 is next, and its restoration has not started. Reader
+October; December batch 01 restores two articles, with 35 of 37 TOC entries still
+unresolved. Next: 골목대장 from PDF22/printed20. The initial exact-crop review
+timing exception remains explicit; inspect subsequent crops before OCR. Reader
 integration is separate; the owner subsequently requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve
