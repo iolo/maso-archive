@@ -8,7 +8,9 @@ by the calendar month in which restoration work happened.
 
 October 1984 is in progress: the editorial, signed feature introduction and 기계어의 학습 are
 complete JSON/assets packages, both readable and assistant sample-reviewed.
-The other 38 canonical entries await classification/restoration. See the
+기계어의 기초 has a sample-reviewed partial segment on printed21–23;
+printed24–27 and assembly remain pending. The other 37 canonical entries await
+classification/restoration. See the
 [October record](docs/progress/8410.md) and its versioned progress ledger for
 selected packages, independent rebuild evidence and the next bounded checkpoint.
 
@@ -42,7 +44,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 3 so far | 3 readable; 38 entries pending classification | [8410](docs/progress/8410.md) |
+| 1984-10 | 4 so far | 3 readable, 1 partial; 37 entries pending classification | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

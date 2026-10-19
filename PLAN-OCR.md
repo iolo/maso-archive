@@ -21,7 +21,9 @@ paired OCR or a new engine comparison.
 
 - October 1984 is in progress. The editorial and signed special-feature
   introduction and 기계어의 학습 are readable, assistant sample-reviewed
-  JSON/assets packages; 38 of 41 canonical entries still await classification/restoration. Continue
+  JSON/assets packages. 기계어의 기초 has a partial segment on printed21–23;
+  continue with its final printed24–27 and separate assembly. The other 37 of
+  41 canonical entries still await classification/restoration. Continue
   from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.
