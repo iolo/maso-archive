@@ -30,13 +30,13 @@ def text_bytes(package):
 
 
 def validate_recipe(recipe):
-    examples = recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1')
+    examples = recipe.get('index_mode') in ('mixed-source-listing-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1')
     optional = ({'index_mode', 'prose_joins'} if examples else {'index_mode'}) | {'shared_pdf_pages', 'resolved_exclusions'}
     if recipe.get('index_mode') == 'wrapped-listing-v1':
         optional.add('wrapped_listing_joins')
     if (set(recipe) - optional != {'segments', 'expected_pdf_pages', 'evidence', 'uncertainties', 'resolved_notes'} or
         ('index_mode' in recipe and recipe['index_mode'] not in
-         ('namespaced-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1'))):
+         ('namespaced-v1', 'mixed-source-listing-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1'))):
         raise ValueError('Unknown or missing assembly recipe field')
     if examples:
         from .assembly_examples import validate_joins
@@ -137,6 +137,9 @@ def project(recipe, segments):
     validate_recipe(recipe)
     from .assembly_shared import validate_shared_pages
     validate_shared_pages(recipe, segments)
+    if recipe.get('index_mode') == 'mixed-source-listing-v1':
+        from .assembly_mixed import project_mixed
+        return project_mixed(recipe, segments)
     if recipe.get('index_mode') in ('standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1'):
         from .assembly_examples import project_examples
         return project_examples(recipe, segments)

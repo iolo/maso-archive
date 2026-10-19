@@ -57,6 +57,23 @@ incoming link agree. `legacy_continuation_adaptations` records that validation;
 the original segment and continuation record remain unchanged. Unknown legacy
 shapes and inconsistent boundaries fail validation.
 
+`mixed-source-listing-v1` is an opt-in assembly mode for articles combining
+unnumbered examples, numbered BASIC text wraps and five printed assembler columns
+(address, machine bytes, number, source, comment). It retains every physical row
+unchanged, including addresses on byte continuations. `assembly_instruction_index`
+explicitly partitions physical rows into source units; `logical_listing_line_index`
+retains only the printed numbered entries. A continuation never acquires an inferred
+number, opcode or machine byte. Source-column cells, machine-byte literals and DFB
+values require exact spans and explicitly unverified byte/execution status.
+
+This mode also projects regional prose/review ranges, literal occurrences, table
+rows/cells including blanks, captions, figures and native prose joins. Optional
+cross-segment prose joins must identify adjacent reviewed blocks and exact endings/
+openings. Every original correction object and native file remains retained.
+Missing rows, wrong scans, orphaned wraps, incomplete columns/data, reassigned
+repeated cells and false byte/execution claims fail validation. Existing assembly
+modes and their immutable outputs retain their established behavior.
+
 ## Current data-only commands
 
 ```sh
