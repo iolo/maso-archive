@@ -24,17 +24,16 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-Nine October articles are readable, assistant sample-reviewed JSON/assets;
-취미생활 is a non-owning heading and 거북이 사냥 has a partial native57–59
-of verified full57–61. Thirty of41 canonical entries remain unresolved. Latest:
-complete 꽃밭을 사수하라54–56 (displayed 사수하자) and turtle opening57–59.
-All source body prose is corrected; dense tables/code remain original images with
-separate unpromoted OCR drafts and explicit character/byte uncertainties.
+Ten October articles are readable, assistant sample-reviewed JSON/assets;
+취미생활 is a non-owning heading and turtle57–61 is collected as two immutable
+partial natives awaiting assembly. Twenty-nine of41 entries remain unresolved.
+Latest: complete U보트를 격침하라62–64 and turtle ending60–61. Code panels remain
+original images with unpromoted OCR drafts; source spelling and encoded-byte
+uncertainties remain explicit. Turtle520/1770 physical image fragments are retained.
 The [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Next: turtle ending60–61 plus complete U-boat62–64 after boundary verification,
-within five mapped pages/two articles. Separate turtle assembly follows.
+Next: separate turtle assembly from exact native pins, without new mapping/OCR.
 The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
 Whole-issue closeout remains pending; no reading-room rebuild occurred.
 

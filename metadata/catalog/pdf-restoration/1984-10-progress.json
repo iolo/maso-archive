@@ -669,12 +669,20 @@
             "60",
             "61"
           ],
-          "deferred_printed_pages": [
+          "deferred_printed_pages": [],
+          "assembly_pending": true,
+          "outgoing_source_image_row": 520,
+          "additional_native_pdf_pages": [
+            62,
+            63
+          ],
+          "collected_printed_pages": [
+            "57",
+            "58",
+            "59",
             "60",
             "61"
-          ],
-          "assembly_pending": true,
-          "outgoing_source_image_row": 520
+          ]
         }
       },
       "source_extent_review": {
@@ -697,7 +705,7 @@
           "60",
           "61"
         ],
-        "restoration": "partial57–59;60–61 and complete assembly remain required"
+        "restoration": "All57–61 collected as two exact immutable partial natives; complete assembly pending."
       },
       "historical_native_attempts": [
         {
@@ -709,16 +717,86 @@
           },
           "reason": "Preserved first reading before source-supported 담어 syllable correction."
         }
+      ],
+      "native_segments": [
+        {
+          "name": "opening",
+          "directory": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-10-r02/turtle-a/manifest.json",
+            "sha256": "26fed7cbe940c3bd06b63db37f87c754004adb40ebc9916ef4f740ecd2ca00a9",
+            "bytes": 12230
+          }
+        },
+        {
+          "name": "ending",
+          "directory": "archive/pdf/1984-10/packages/batch-11-r01/turtle-b",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-11-r01/turtle-b/manifest.json",
+            "sha256": "1195c097fe05a797ec8383370583e47674e80b026ce4ec8a56ba1703a19fe9a7",
+            "bytes": 4037
+          }
+        }
       ]
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0011",
       "title": "U보트를 격침하라",
       "parent_id": "maso-1984-10-toc-0005",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Displayed U-보트 title/platform/byline and all opening text, seven subroutine descriptions, two screenshots62. Four original BASIC panels63–64 end2960 RETURN. Next displayed 디베스테이터 starts65."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-11-r02/uboat",
+        "article_id": "scan-maso-1984-10-toc-0011",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-11-r02/uboat/manifest.json",
+          "sha256": "6550ab2449ec4e3751bba8efa428b59ddcff331736ea9e5b816eb306b18563ae",
+          "bytes": 9009
+        },
+        "coverage": {
+          "pdf_pages": [
+            64,
+            65,
+            66
+          ],
+          "printed_pages": [
+            "62",
+            "63",
+            "64"
+          ],
+          "regions": 13,
+          "blocks": 22,
+          "figures": 6,
+          "regional_text_ranges": 22,
+          "text_review_ranges": 27,
+          "prose_boundaries": 0,
+          "caption_associations": 0,
+          "original_basic_panels": 4,
+          "source_first_last_numbers": [
+            1000,
+            2960
+          ],
+          "source_numbered_positions": 197,
+          "typed_code_rows": 0,
+          "all_raw_code_drafts_unpromoted": true
+        }
+      },
+      "historical_native_attempts": [
+        {
+          "directory": "archive/pdf/1984-10/packages/batch-11-r01/uboat",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-11-r01/uboat/manifest.json",
+            "sha256": "2cfb2e8080d423ccc99795172434e836389f4b77f1e32a6ecb3c0213ade85241",
+            "bytes": 9009
+          },
+          "reason": "Initial reading export retained before two source-supported word corrections."
+        }
+      ]
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0012",
@@ -1018,15 +1096,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 10,
+    "articles": 11,
     "non_owning_headings": 1,
-    "unresolved_classification": 30,
-    "readable": 9,
+    "unresolved_classification": 29,
+    "readable": 10,
     "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 11,
-    "unresolved_availability": 30
+    "sample_reviewed": 12,
+    "unresolved_availability": 29
   },
   "checkpoints": [
     {
@@ -1349,18 +1427,45 @@
         "maso-1984-10-toc-0009",
         "maso-1984-10-toc-0010"
       ]
+    },
+    {
+      "id": "batch-11",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-11/checkpoint.json",
+        "sha256": "c52afc16bc3d877928badfe22952ed05777295d2cebacc1bfef2e63df0403d34",
+        "bytes": 2021
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-11/source-review.json",
+        "sha256": "df6ba03936624abc4e5f2dfb56a87a847b48f9a8c47c4d843494bbb1702728dc",
+        "bytes": 2320
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-11/validation.json",
+        "sha256": "3f039654eef2ffae0c649501045fac4418c9874e70cf8b7ff1a17e9259d0a636",
+        "bytes": 3257
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-11/review-log.json",
+        "sha256": "70a98808302134010fb19ea751036ebc07f04978127f60aa20a6ecb622e651ac",
+        "bytes": 7013
+      },
+      "status": "complete-article-and-ending-native",
+      "tool_revision": "da8e59c",
+      "outputs": [
+        "maso-1984-10-toc-0010",
+        "maso-1984-10-toc-0011"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-11",
-    "goal": "Restore turtle ending60–61/PDF62–63, retaining source520 incoming physical image fragment, and verify/restore complete U-boat62–64/PDF64–66 before next title65. Five mapped pages/two articles; separate turtle assembly afterward.",
+    "id": "turtle-assembly",
+    "goal": "Assemble exact turtle opening57–59 and ending60–61; retain seven original code panels and resolve source520 cross-native and1770 internal image-row coverage without typed inference. No mapping/OCR.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0010",
-      "maso-1984-10-toc-0011"
+      "maso-1984-10-toc-0010"
     ],
-    "maximum_articles": 2,
-    "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20
+    "maximum_new_mapping_pages": 0,
+    "maximum_new_ocr_tasks": 0
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
