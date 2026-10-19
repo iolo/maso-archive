@@ -24,49 +24,50 @@ records below are historical and do not authorize a new rebuild.
 
 ## December 1984 started, 2026-10-19
 
-December 1984 is in progress: ten readable articles, one partial CP/M(5)
-article, two non-owning headings and 24 of 37 entries unresolved. Four immutable
-CP/M natives now cover all 21 source pages, PDF112–132: observed 110–129 plus an
-unpaginated upper reference-table continuation. The lower advertisement on PDF132
-is separate; no folio 130 was observed. Complete article assembly remains pending.
+December 1984 is in progress: eleven readable articles, no partial articles,
+two non-owning headings and 24 of 37 entries unresolved. CP/M(5) is complete under
+the JSON/assets scope at packages/cpm5-complete-r01. All 21 source pages PDF112–132
+are included: observed 110–129 plus an unpaginated upper reference continuation.
+The lower PDF132 advertisement is separate; no folio 130 was observed.
 
-The new ending native and independent rebuild reproduce all 63 files exactly.
-Its 21 regions, 14 blocks and 10 original images retain 27 unnumbered physical rows,
-25 nonblank units and 129 tokens. Fifteen compiler rows retain 45 exact cells,
-including two blank object fields; object strings remain opaque source candidates.
-No byte decoding, padding, opcode repair, arithmetic or execution reconstruction.
+The complete article, export probe and independent rebuild reproduce all 904 files
+exactly. All 895 files from the four native packages remain byte-identical. The
+assembly retains 271 regions, 195 blocks, 75 original images and 820 unnumbered
+physical rows. Every native correction field survives in original metadata; every
+native array category is projected. All 13,674 range occurrences, including 79
+zero-width occurrences, preserve their source bytes and positions within the
+combined article/listing coordinate systems. Native source text stays unchanged.
 
-Four reference-table halves retain 118 data rows, 122 rows including headers,
-366 cells, 12 category labels and 70 arrow/ditto occurrences. The CPI counterpart
-is visibly blank and stays empty. Four graphic cells link to original rotation
-diagrams and 36 separately indexed visible labels. Their labels are transcriptions,
-not printed captions or recreated drawings. Eight table/diagram images have no
-observed caption. Source mistakes, unknown glyphs, ditto marks and cell wraps remain
-explicit; no manual-based instruction correction or graphic-pattern reconstruction.
+The complete indexes retain 390 table cells with one blank CPI counterpart,
+183 compiler data cells with 39 blanks, four original-graphic cells, 36 diagram
+labels, 12 table categories and 70 arrow/ditto occurrences. Figure 16's opening115
+frame shares the observed ending116 caption; the new link is explicitly assembly-
+derived. Figure34/37/48 ownership remains intact. There are 66 figure-caption links,
+61 listing-caption links and nine uncaptioned originals. Labels are not synthetic
+captions or recreated drawings. No semantic, opcode, arithmetic, encoding or graphic
+reconstruction; printed mistakes and visual candidates remain unverified.
 
-All 15 regional text spans, 31 text reviews, 16 notes, 775 inline examples, two
-figure-caption links, two listing-caption links and one error-list column join pass.
-All 23 pinned whole-page views and 21 original/nine revised crops were inspected
-before 11 successful tasks. Three mapped pages and 20 outside-map lookups; no new
-rendering, recognition failure/retry or post-OCR crop repair. All 24,469 prior files
-and 20 implementation pins are unchanged. New preservation inventory: 24,797 files.
-The unchanged 187-test PDF baseline is reused; no shared tooling or reader work.
+The opt-in adapter was committed as61ce1ce. All 193 PDF tests pass, including six
+focused regressions. The first real-source probe caught a derived caption link
+classified as a native row; its prototype and failure remain. The corrected probe
+passes every native category and metadata comparison. All 24,797 prior files and
+20 historical implementation pins are unchanged. New preservation inventory:
+27,541 files. No new OCR, source correction, mapping, rendering, crop or reader work.
 
-The four natives retain 271 regions, 195 blocks, 75 original images and 820 physical
-rows. All source is available; a compatible full assembly is required. Preserve every
-native transcript, editor, quote, compiler, hex/address/ASCII, table/cell/row/category,
-graphic-cell/diagram-label/symbol, marker, review and caption index, including exact
-zero-length blanks and original metadata. Preserve all existing multi-frame captions,
-including figures 16, 34, 37 and 48. No source rewrites or index-category dropping.
+Use `tools.pdf_restore.cpm_literal_assembly.check` or its `installed()` context for
+all selected-package and issue checks. It installs/delegates the existing
+`graphic_literal_assembly` dispatcher for BASIC speed, Crowded Speedway and other
+older formats. Three new adapter/test/document pins are separate from the 20
+unchanged historical pins. See docs/PDF-CPM-LITERAL-ASSEMBLY.md for the format.
+BASIC speed 102–109 remains complete from opening102–107 and ending108–109.
+Human acceptance, full proofreading, original encoded bytes and execution remain
+unverified. No reader rebuild.
 
-Next: cpm5-assembly, using all four immutable natives. Add a compatible adapter if
-needed while keeping all 20 historical implementation files unchanged. Independently
-rebuild and verify the complete article, source coverage and canonical accounting.
-BASIC speed 102–109 remains complete from opening 102–107 and ending 108–109.
-All selected-package checks must use `tools.pdf_restore.graphic_literal_assembly.check`
-or its `installed()` context, which also handles Crowded Speedway. Human acceptance,
-full proofreading, source encoded bytes and historical execution remain unverified.
-No reader rebuild.
+Next: batch24, canonical0013 perspective simulation. Its opening on PDF133 visibly
+shows131 with the title/cube/byline onright; the left advertisement is separate.
+Verify its actual full extent and neighbors before mapping a bounded opening.
+Provisional candidates PDF133–138 do not establish a global folio offset or ending.
+Keep each checkpoint within two articles, six mapped pages and20 outside-map lookups.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.

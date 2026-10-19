@@ -1415,22 +1415,23 @@
       "parent_id": "maso-1984-12-toc-0010",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Independent CP/M입문/연재5회title,신동완/대림산업기획조정실creditand8080/Z80/DDT/ED/ZSIDstrap onPDF112/110. Full21sourcepagesPDF112–132andneighbors111/133/134reviewed. Closing mark128isfollowed by129andunpaginatedPDF132reference tables;lowerPDF132bookshopadandleftPDF133officeadareseparate. No observed130folio,globaloffsetorcanonicalidentitychange.",
         "Opening110–115native retains100regions,81blocks,24original images,216unnumberedphysical rows,213transcriptunits,1295tokens,77dump rows/816literalfields/48ASCIIcolumns,one24celltable,377inline examples,22figurecaptions/21listingcaptions,two prosejoins andexplicit source uncertainties. Remaining116–129plusunpaginatedfinal/fullassemblyrequired.",
         "Middle116–121native independently reproduces255files andretains78regions/53blocks/22images,273physical/270nonblankrows,113literalEDrowlabels/41commands/fivequotedcandidates,51dump rows/726literalfields/48ASCIIcolumnsandtwo prosejoins. Both natives nowcover110–121with178regions/134blocks/46images/489physicalrows. Later122–129plusunpaginatedPDF132andfullassemblyremain. Everyoriginalnativesourcecandidate/metadataandcanonicalidentityunchanged.",
         "Middle122–127 native independently reproduces240 files and retains72 regions/47 blocks/19 images,304 physical/298 nonblank rows,138 ED labels/44 commands/18 quoted candidates,46 compiler data rows/138 cells/37 blanks and three prose joins. Three natives now cover110–127 with250 regions/181 blocks/65 images/793 physical rows. Remaining128–129,unpaginated PDF132 and complete assembly required. All original candidate readings/metadata and canonical identities unchanged.",
-        "Ending128–129 and unpaginated upperPDF132 native independently reproduces63 files. It retains21 regions/14 blocks/10 original images,27 physical rows,four reference table halves with118 data rows/366 cells/one blank/four graphic cells,12 categories,36 diagram labels,70 arrow/ditto occurrences and15 compiler rows/45 cells/two blanks. All21 source pages now covered by four immutable natives:271 regions,195 blocks,75 images,820 physical rows. Complete compatible assembly remains required;availability remains partial. LowerPDF132 advertisement excluded;no observed130 folio or source-byte/execution claim."
+        "Ending128–129 and unpaginated upperPDF132 native independently reproduces63 files. It retains21 regions/14 blocks/10 original images,27 physical rows,four reference table halves with118 data rows/366 cells/one blank/four graphic cells,12 categories,36 diagram labels,70 arrow/ditto occurrences and15 compiler rows/45 cells/two blanks. All21 source pages now covered by four immutable natives:271 regions,195 blocks,75 images,820 physical rows. Complete compatible assembly remains required;availability remains partial. LowerPDF132 advertisement excluded;no observed130 folio or source-byte/execution claim.",
+        "Complete21-page CP/M assembly independently reproduces904 files,including all895 original native files unchanged. All271 regions/195 blocks/75 figures/820 physical rows and every native correction field survive. Exact projection retains13,674 range occurrences,79 zero-width occurrences,390 table cells/one blank/four graphic cells,183 compiler cells/39 blanks and36 diagram labels. Figure16 opening/ending frames share the observed ending caption;66 figure-caption and61 listing-caption links,9 uncaptioned originals. All24,797 prior files and20 historical implementation pins unchanged. New opt-in adapter committed61ce1ce,193 tests pass. Source-byte/execution/human acceptance claims remain unverified. No source,OCR or reader work."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a",
+        "directory": "archive/pdf/1984-12/packages/cpm5-complete-r01",
         "article_id": "scan-maso-1984-12-toc-0012",
         "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a/manifest.json",
-          "sha256": "3c29a7f7f9cf6213c8dcf4190305d19b6f6e5c9f60eccf16ae412cc93e7c8548",
-          "bytes": 57476
+          "path": "archive/pdf/1984-12/packages/cpm5-complete-r01/manifest.json",
+          "sha256": "49b74c2aee1a0540d8be2193f1315805018341065377698be8bea53e7ca86b9b",
+          "bytes": 168281
         },
         "coverage": {
           "pdf_pages": [
@@ -1655,7 +1656,7 @@
         },
         "deferred_printed_pages": [],
         "deferred_pdf_pages": [],
-        "assembly_required": true,
+        "assembly_required": false,
         "source_review": {
           "path": "archive/pdf/1984-12/restoration/batch-20/source-reviewed.json",
           "sha256": "6242aa33b114116cfc69899f875bb2e7de1c85a64f0ae0ffc9f51c2434991947",
@@ -1667,15 +1668,7 @@
           "bytes": 2535
         },
         "assembly_compatibility": "Preserve every native unnumbered physical/regional/transcript/editor/quote/compiler/hex/address/ASCII/token/marker/inline/table/cell/row/category/graphic-cell/diagram-label/symbol/review/caption index and original metadata. Blank CPI counterpart and blank compiler fields stay blank;graphic cells retain original images. No source-category dropping, semantic/opcode/arithmetic/byte reconstruction or graphic-pattern recreation. Preserve prior figure16/34/37/48 frame associations.",
-        "caption_associations_pending": [
-          {
-            "opening_region": "p115-fig16-opening",
-            "continues_on_pdf": 118,
-            "caption_on_pdf": 118,
-            "caption_in_this_native": false,
-            "assembly_association": "pending source-reviewed ending"
-          }
-        ],
+        "caption_associations_pending": [],
         "source_index_schemas": [
           {
             "path": "archive/pdf/1984-12/restoration/batch-20/source-index-schema.json",
@@ -1743,7 +1736,52 @@
             "association": "Source-reviewed original frames and one observed caption."
           }
         ],
-        "outgoing_boundary": "All source ends at upperPDF132 OUT row;lower advertisement excluded. PDF133 independently opens perspective simulation."
+        "outgoing_boundary": "All source ends at upperPDF132 OUT row;lower advertisement excluded. PDF133 independently opens perspective simulation.",
+        "index_mode": "cpm-literal-v1",
+        "check_entrypoint": "tools.pdf_restore.cpm_literal_assembly.check",
+        "adapter_context": "tools.pdf_restore.cpm_literal_assembly.installed",
+        "implementation": {
+          "path": "archive/pdf/1984-12/restoration/cpm5-assembly/implementation.json",
+          "sha256": "9a2e2fd5248167594914173c84da1862efa41eeb9f55843f13ffad24262fdce1",
+          "bytes": 5616
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/cpm5-assembly/reproduction.json",
+          "sha256": "8f79ebba0bc9c264af7b82316f590a851ac80c521b7b14c96349ab8ece606a62",
+          "bytes": 1460
+        },
+        "resolved_caption_associations": [
+          {
+            "opening_region": "p115-fig16-opening",
+            "opening_package": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a",
+            "opening_manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a/manifest.json",
+              "sha256": "3c29a7f7f9cf6213c8dcf4190305d19b6f6e5c9f60eccf16ae412cc93e7c8548",
+              "bytes": 57476
+            },
+            "ending_region": "p116-fig16-ending",
+            "caption_block_id": "p116-fig16-ending-caption",
+            "future_combined_figure_ids": [
+              "p115-fig16-opening-image",
+              "p116-fig16-ending-image"
+            ],
+            "association": "Source-verifiedpendingfullassembly;originalnativesunchanged."
+          }
+        ],
+        "connected_listing_groups": [
+          {
+            "listing_ids": [
+              "p115-fig16-opening",
+              "p116-fig16-ending"
+            ],
+            "figure_ids": [
+              "p115-fig16-opening-image",
+              "p116-fig16-ending-image"
+            ],
+            "caption_block_id": "p116-fig16-ending-caption",
+            "policy": "Physical native rows/blocks preserved; no renumbering or inferred byte join."
+          }
+        ]
       }
     },
     {
@@ -1999,8 +2037,8 @@
   "totals": {
     "canonical_entries": 37,
     "classified_articles": 11,
-    "readable_articles": 10,
-    "partial_articles": 1,
+    "readable_articles": 11,
+    "partial_articles": 0,
     "nonowning_headings": 2,
     "unresolved_eligibility": 24,
     "human_accepted_articles": 0
@@ -4558,111 +4596,139 @@
         "sha256": "2a6599f79e221360f5edbf7477ba3b86c9c21ec5c222935d1f4047a825a34b30",
         "bytes": 5694431
       }
+    },
+    {
+      "id": "cpm5-assembly",
+      "status": "complete-readable-article",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/cpm5-assembly/checkpoint.json",
+        "sha256": "482c2de5269878f6b5ba358b8a3a293c3c5442a22ccdaf4d573d06521ca27157",
+        "bytes": 6631
+      },
+      "recipe": {
+        "path": "archive/pdf/1984-12/restoration/cpm5-assembly/assembly-recipe.json",
+        "sha256": "c53f70ea7519ac5534c10c70d61fa0df16bb3b1cafeaa2a4085b0a4003d7962f",
+        "bytes": 6901
+      },
+      "implementation": {
+        "path": "archive/pdf/1984-12/restoration/cpm5-assembly/implementation.json",
+        "sha256": "9a2e2fd5248167594914173c84da1862efa41eeb9f55843f13ffad24262fdce1",
+        "bytes": 5616
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/cpm5-assembly/reproduction.json",
+        "sha256": "8f79ebba0bc9c264af7b82316f590a851ac80c521b7b14c96349ab8ece606a62",
+        "bytes": 1460
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/cpm5-assembly/validation-r01.json",
+        "sha256": "83ae3ec093587664ebd21ba1ffb61bf3a1d7e8f1c01c5cb1f340d82068892bb8",
+        "bytes": 1080
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/cpm5-assembly/verify.py",
+        "sha256": "315cf555f6ec947fec1dc39bddb87a90334b014c7a0843744a9148aef933a3d1",
+        "bytes": 7912
+      },
+      "projection_probe": {
+        "path": "archive/pdf/1984-12/evidence/cpm5-assembly/projection-probe-r02.json",
+        "sha256": "f76eefc120fa896dbd2a6ba19c6a046f0815887643c54a76580a3c575db4883b",
+        "bytes": 686
+      },
+      "retained_prototype_failure": {
+        "path": "archive/pdf/1984-12/evidence/cpm5-assembly/projection-probe-r01.log",
+        "sha256": "9f807394e4dec89c56cd66e460dd3693f8efec0af2afb8cfbc8cf00c75b92ef0",
+        "bytes": 321
+      },
+      "selected_dispatch": {
+        "path": "archive/pdf/1984-12/evidence/cpm5-assembly/selected-dispatch-r01.json",
+        "sha256": "d0b4acd063325f28ce3b0aaa83a65732780b078f470cdc89019e1640ceff84a4",
+        "bytes": 3362
+      },
+      "new_ocr": 0,
+      "new_mapped_pages": 0,
+      "outside_map_lookups": 0,
+      "canonical_tasks": 1,
+      "rebuild_files": 904,
+      "original_native_files_retained": 895,
+      "prior_files_verified": 24797,
+      "historical_live_implementation_pins_verified": 20,
+      "adapter_implementation_pins_verified": 3,
+      "shared_pipeline_tests": 193,
+      "pages": 21,
+      "regions": 271,
+      "blocks": 195,
+      "figures": 75,
+      "physical_rows": 820,
+      "projected_range_occurrences": 13674,
+      "zero_width_range_occurrences": 79,
+      "table_cells": 390,
+      "blank_table_cells": 1,
+      "compiler_cells": 183,
+      "blank_compiler_cells": 39,
+      "graphic_cells": 4,
+      "diagram_labels": 36,
+      "figure_caption_links": 66,
+      "listing_caption_links": 61,
+      "uncaptioned_figures": 9,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/cpm5-assembly/preserved-work-inventory.json",
+        "sha256": "5b094f43ebbad8e3d418cfb4276bd0b7df1c060017ef39e5218144e193e1a131",
+        "bytes": 6348627
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "cpm5-assembly",
-    "goal": "Assemble all four immutable CP/M(5) natives across full21 source pages,projecting every specialized index and original metadata without source changes or category loss.",
+    "id": "batch-24",
+    "goal": "Verify full source extent and restore a bounded opening segment of perspective simulation(0013),preserving source prose,geometry,formulas,graphics and any listings literally.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0012"
+      "maso-1984-12-toc-0013"
     ],
-    "known_full_extent": {
-      "pdf_pages": [
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131,
-        132
-      ],
-      "printed_pages": [
-        "110",
-        "111",
-        "112",
-        "113",
-        "114",
-        "115",
-        "116",
-        "117",
-        "118",
-        "119",
-        "120",
-        "121",
-        "122",
-        "123",
-        "124",
-        "125",
-        "126",
-        "127",
-        "128",
-        "129",
-        null
-      ],
-      "unpaginated_final_pdf": 132,
-      "coverage": "Last upper reference continuation only;lower ad excluded;printed130notobserved."
+    "known_opening": {
+      "pdf_page": 133,
+      "printed_page": "131",
+      "evidence": "Independently observed title/cube/right-half byline 고일두 onPDF133;left office-move advertisement separate. Full extent not yet established."
     },
-    "native_packages": [
-      {
-        "directory": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a",
-        "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a/manifest.json",
-          "sha256": "3c29a7f7f9cf6213c8dcf4190305d19b6f6e5c9f60eccf16ae412cc93e7c8548",
-          "bytes": 57476
-        }
-      },
-      {
-        "directory": "archive/pdf/1984-12/packages/batch-21-r01/cpm5-b",
-        "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-21-r01/cpm5-b/manifest.json",
-          "sha256": "6325c085c8b1817faeb321e9c5ba894eca8f4429f1771ff4f84b5fd95717ce87",
-          "bytes": 43558
-        }
-      },
-      {
-        "directory": "archive/pdf/1984-12/packages/batch-22-r01/cpm5-c",
-        "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-22-r01/cpm5-c/manifest.json",
-          "sha256": "3d4e8f126070f4867328c28d217ed626ade7b5c01b4b1f17940f945a1db8ccfd",
-          "bytes": 41223
-        }
-      },
-      {
-        "directory": "archive/pdf/1984-12/packages/batch-23-r01/cpm5-d",
-        "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-23-r01/cpm5-d/manifest.json",
-          "sha256": "2b84477b062d1d45f65193ec0991e35fe618d475541a9cbb8c744c978025c609",
-          "bytes": 10664
-        }
-      }
+    "provisional_mapping_targets": [
+      133,
+      134,
+      135,
+      136,
+      137,
+      138
     ],
-    "mapping_targets": [],
-    "new_ocr": false,
-    "source_review": {
-      "path": "archive/pdf/1984-12/restoration/batch-23/source-reviewed.json",
-      "sha256": "8818b929e6019c7e388081159603898991e396a522b130920d15ca2c5fdafbf6",
-      "bytes": 12298
-    },
+    "provisional_lookup_targets": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+    ],
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Separate immutable assembly checkpoint;no fresh OCR or expanded native map. Existing pinned implementation files must remain unchanged. Add a compatible adapter if needed to project all transcript/editor/quote/compiler/hex/ASCII/table/category/graphic/diagram-label/symbol/review/caption indexes,including zero-length blanks and original native metadata. Preserve all figure16/34/37/48 frame-caption ownership and observed column/page boundaries. Keep source drawings,unknown widths/labels,printed mistakes and blank CPI counterpart. Full source112–132 includes unpaginated upper132;lower ad excluded,no observed130. Independently rebuild/check full package,all prior evidence and canonical accounting;use graphic_literal_assembly in all-selected audits. No reader rebuild."
+    "note": "Inspect actual source ending and adjacent material before mapping. TOC next0014 claims150 butno global PDF/folio offset or assumed extent. Six opening candidates133–138 are provisional;adapt mapping after source review,atmost20 outside-map pages. Preserve existing24,797+assembly evidence and all20 historical implementation pins. Reuse mapped Tesseract and source errors/glyph uncertainty;no formula/opcode/graphic reconstruction. All-selected checks must use cpm_literal_assembly.check/installed(),which installs/delegates graphic_literal_assembly for BASICspeed/Crowded. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

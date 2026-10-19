@@ -42,67 +42,68 @@ July, August, September and October 1984. March retains its absent-source termin
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October.
 
-December 1984 is in progress: ten readable articles, one partial CP/M(5)
-article, two non-owning headings and 24 of 37 entries unresolved. Four immutable
-CP/M natives now cover all 21 source pages, PDF112–132: observed 110–129 plus an
-unpaginated upper reference-table continuation. The lower advertisement on PDF132
-is separate; no folio 130 was observed. Complete article assembly remains pending.
+December 1984 is in progress: eleven readable articles, no partial articles,
+two non-owning headings and 24 of 37 entries unresolved. CP/M(5) is complete under
+the JSON/assets scope at packages/cpm5-complete-r01. All 21 source pages PDF112–132
+are included: observed 110–129 plus an unpaginated upper reference continuation.
+The lower PDF132 advertisement is separate; no folio 130 was observed.
 
-The new ending native and independent rebuild reproduce all 63 files exactly.
-Its 21 regions, 14 blocks and 10 original images retain 27 unnumbered physical rows,
-25 nonblank units and 129 tokens. Fifteen compiler rows retain 45 exact cells,
-including two blank object fields; object strings remain opaque source candidates.
-No byte decoding, padding, opcode repair, arithmetic or execution reconstruction.
+The complete article, export probe and independent rebuild reproduce all 904 files
+exactly. All 895 files from the four native packages remain byte-identical. The
+assembly retains 271 regions, 195 blocks, 75 original images and 820 unnumbered
+physical rows. Every native correction field survives in original metadata; every
+native array category is projected. All 13,674 range occurrences, including 79
+zero-width occurrences, preserve their source bytes and positions within the
+combined article/listing coordinate systems. Native source text stays unchanged.
 
-Four reference-table halves retain 118 data rows, 122 rows including headers,
-366 cells, 12 category labels and 70 arrow/ditto occurrences. The CPI counterpart
-is visibly blank and stays empty. Four graphic cells link to original rotation
-diagrams and 36 separately indexed visible labels. Their labels are transcriptions,
-not printed captions or recreated drawings. Eight table/diagram images have no
-observed caption. Source mistakes, unknown glyphs, ditto marks and cell wraps remain
-explicit; no manual-based instruction correction or graphic-pattern reconstruction.
+The complete indexes retain 390 table cells with one blank CPI counterpart,
+183 compiler data cells with 39 blanks, four original-graphic cells, 36 diagram
+labels, 12 table categories and 70 arrow/ditto occurrences. Figure 16's opening115
+frame shares the observed ending116 caption; the new link is explicitly assembly-
+derived. Figure34/37/48 ownership remains intact. There are 66 figure-caption links,
+61 listing-caption links and nine uncaptioned originals. Labels are not synthetic
+captions or recreated drawings. No semantic, opcode, arithmetic, encoding or graphic
+reconstruction; printed mistakes and visual candidates remain unverified.
 
-All 15 regional text spans, 31 text reviews, 16 notes, 775 inline examples, two
-figure-caption links, two listing-caption links and one error-list column join pass.
-All 23 pinned whole-page views and 21 original/nine revised crops were inspected
-before 11 successful tasks. Three mapped pages and 20 outside-map lookups; no new
-rendering, recognition failure/retry or post-OCR crop repair. All 24,469 prior files
-and 20 implementation pins are unchanged. New preservation inventory: 24,797 files.
-The unchanged 187-test PDF baseline is reused; no shared tooling or reader work.
+The opt-in adapter was committed as61ce1ce. All 193 PDF tests pass, including six
+focused regressions. The first real-source probe caught a derived caption link
+classified as a native row; its prototype and failure remain. The corrected probe
+passes every native category and metadata comparison. All 24,797 prior files and
+20 historical implementation pins are unchanged. New preservation inventory:
+27,541 files. No new OCR, source correction, mapping, rendering, crop or reader work.
 
-The four natives retain 271 regions, 195 blocks, 75 original images and 820 physical
-rows. All source is available; a compatible full assembly is required. Preserve every
-native transcript, editor, quote, compiler, hex/address/ASCII, table/cell/row/category,
-graphic-cell/diagram-label/symbol, marker, review and caption index, including exact
-zero-length blanks and original metadata. Preserve all existing multi-frame captions,
-including figures 16, 34, 37 and 48. No source rewrites or index-category dropping.
+Use `tools.pdf_restore.cpm_literal_assembly.check` or its `installed()` context for
+all selected-package and issue checks. It installs/delegates the existing
+`graphic_literal_assembly` dispatcher for BASIC speed, Crowded Speedway and other
+older formats. Three new adapter/test/document pins are separate from the 20
+unchanged historical pins. See docs/PDF-CPM-LITERAL-ASSEMBLY.md for the format.
+BASIC speed 102–109 remains complete from opening102–107 and ending108–109.
+Human acceptance, full proofreading, original encoded bytes and execution remain
+unverified. No reader rebuild.
 
-Next: cpm5-assembly, using all four immutable natives. Add a compatible adapter if
-needed while keeping all 20 historical implementation files unchanged. Independently
-rebuild and verify the complete article, source coverage and canonical accounting.
-BASIC speed 102–109 remains complete from opening 102–107 and ending 108–109.
-All selected-package checks must use `tools.pdf_restore.graphic_literal_assembly.check`
-or its `installed()` context, which also handles Crowded Speedway. Human acceptance,
-full proofreading, source encoded bytes and historical execution remain unverified.
-No reader rebuild.
+Next: batch24, canonical0013 perspective simulation. Its opening on PDF133 visibly
+shows131 with the title/cube/byline onright; the left advertisement is separate.
+Verify its actual full extent and neighbors before mapping a bounded opening.
+Provisional candidates PDF133–138 do not establish a global folio offset or ending.
+Keep each checkpoint within two articles, six mapped pages and20 outside-map lookups.
 
-CP/M natives: packages/batch-20-r01/cpm5-a, packages/batch-21-r01/cpm5-b,
-packages/batch-22-r01/cpm5-c and packages/batch-23-r01/cpm5-d. Their source/schema/
-reproduction records are in matching restoration/batch directories. Latest read-only
-audit: evidence/batch-23/verify.py. Its 63 files reproduce exactly; all 24,797 preservation
-inventory files pass. The complete assembly must preserve native table prefixes,
-category ranges, empty compiler/table fields, graphic references and diagram-label
-blocks as well as every prior transcript/editor/quote/dump/review/caption category.
-The ending table prefixes and cell separators are editorial; table starts are recorded
-within their blocks. Graphic cells reference original images; label blocks are not
-synthetic captions. Existing tests/pinned implementation files remain unchanged.
+CP/M selected package: archive/pdf/1984-12/packages/cpm5-complete-r01.
+Recipe/implementation/reproduction: restoration/cpm5-assembly. Read-only audit:
+evidence/cpm5-assembly/verify.py;explicit fresh --report only. Keep all four immutable
+natives in batch20–23 and their original source/index/schema records. Combined
+native_metadata retains every original correction field;native packages also remain
+inside the complete export. The new adapter projects blank cells,table prefixes,
+nested compiler fields,graphic references and labels without losing earlier editor,
+quote,hex/ASCII,review or caption categories. Existing 20 implementation pins remain
+unchanged. All-selected checks now use the compatible CP/M wrapper described above.
 
-Earlier batch20 index/inventory exceptions, batch21 geometry-metadata pin failure
-and batch22 serialization count/dependent missing-file attempt remain preserved.
-The batch22 handoff clarification explicitly retains the earlier figure34 pair.
-BASIC speed remains packages/basic-speed-complete-r01 with immutable batch18/19
-originals and basic-speed-index-r01/{opening,ending} revisions. Its selected audit
-is evidence/basic-speed-assembly/verify-r03.py; earlier failures remain preserved.
+Earlier batch20 index/inventory exceptions,batch21 geometry-metadata pin failure,
+batch22 serialization count/dependent attempt and figure34 handoff clarification
+remain preserved. The assembly's first prototype failed provenance classification;
+its source/log remain. Corrected projection and all193 tests pass. The old187-test
+baseline is retained separately. BASIC speed remains packages/basic-speed-complete-r01
+with immutable batch18/19 originals and basic-speed-index-r01/{opening,ending}
+revisions;its earlier failures remain. No reading-room rebuild.
 
 Crowded Speedway remains packages/crowded-speedway-complete-r01,including final
 69F8/eight00source revision. Its pinned table/literal tooling39e5b61 remains
