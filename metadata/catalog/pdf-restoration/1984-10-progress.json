@@ -1638,7 +1638,8 @@
       "classification_evidence": [
         "Separate 한글 주소록 프로그램148/PDF150,signed 박승운/서울대학교 전자계산기 공학과4,애플컴패티블/한글링크(홍익전자). Canonical title/byline/Business parent unchanged.",
         "Full148–166/PDF150–168 verified continuously through narrative157 and original BASIC listings158–166 final12660 GOTO11700;prior development147,next independent 의료보험 수가계산167. No unrelated ads/body.",
-        "Current dense opening148–150 all standalone prose/title/byline/captions and original notebook/table/diagram retained. Source150ㅎ이→151면19번… continuation explicit;remaining151–166 and separate full19-page assembly required."
+        "Current dense opening148–150 all standalone prose/title/byline/captions and original notebook/table/diagram retained. Source150ㅎ이→151면19번… continuation explicit;remaining151–166 and separate full19-page assembly required.",
+        "Middle151–156 restored:41 corrected blocks/32 original diagrams,screens and printout,including duplicate8-11,page-spanning8-16 and column-spanning8-19.12 variable entries/10 routine explanations remain source-linked prose. Remaining157–166 and separate full assembly pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a",
@@ -1716,7 +1717,48 @@
           ],
           "source_final_listing_statement": "12660 GOTO11700"
         },
-        "complete_article_assembly_pending": true
+        "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a/manifest.json",
+              "sha256": "d6d7ff54a64dea62b30a0aa7f994b6e48a0a5330c20954637ad2ff9f069c4083",
+              "bytes": 11609
+            }
+          },
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-27-r01/addressbook-b",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-27-r01/addressbook-b/manifest.json",
+              "sha256": "139e8842fc4dacc3112d403345b7bec7355588069ddc3ba307e99dbde03ad573",
+              "bytes": 33694
+            }
+          }
+        ],
+        "source_pages_in_natives": [
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158
+        ],
+        "remaining_pdf_pages": [
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168
+        ]
       }
     },
     {
@@ -2877,11 +2919,39 @@
       "outputs": [
         "maso-1984-10-toc-0023"
       ]
+    },
+    {
+      "id": "batch-27",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-27/checkpoint.json",
+        "sha256": "11642b9da1f8c9a2fe37de0963419dfd05c7f033807aae8b9340f9f92d126498",
+        "bytes": 2885
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-27/source-review.json",
+        "sha256": "def348c8b14d0734d102f48c4a4ba04dc973116bebba5de47558a90825cb34b4",
+        "bytes": 1890
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-27/validation.json",
+        "sha256": "2273b1e671fc8f2d442b709f37abefd0a5e55d4fd9939500f5b32200cd80e9ee",
+        "bytes": 2829
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-27/review-log.json",
+        "sha256": "fa72635cf99692d941abc7a779fc3fbb4422fb7a7fb5cd180848390faffe82c0",
+        "bytes": 2850
+      },
+      "status": "partial-addressbook-middle",
+      "tool_revision": "2720a77",
+      "outputs": [
+        "maso-1984-10-toc-0023"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-27",
-    "goal": "Restore addressbook middle151–156/PDF153–158 using full source extent148–166 already verified. Correct explanatory prose/captions,retain complete original diagrams3–6 and screens7/8 with all screenshot sequences/overlap boundaries;record source150ㅎ이→151면19번… and156→157 prose continuation. Subsequent157–166 and full19-page assembly remain required.",
+    "id": "batch-28",
+    "goal": "Restore addressbook157–162/PDF159–164:final explanatory prose157,source two short replacement examples,and complete original BASIC listing1/2 opening158–162. Retain exact source numbers/columns/physical wraps and original old glyphs;record source156①→157② and source listing163 continuation. Remaining163–166 and full19-page assembly follow.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0023"
     ],
