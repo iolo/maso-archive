@@ -25,14 +25,14 @@ records below are historical and do not authorize a new rebuild.
 ## December 1984 started, 2026-10-19
 
 The editorial18, robot-feature introduction19 and complete 골목대장20–33 are
-readable and assistant sample-reviewed. 똑딱 반짝 has two preserved partial
-natives covering34–45 of verified extent34–46. Thirty-three of37 entries remain
+readable and assistant sample-reviewed. 똑딱 반짝 has three preserved partial
+natives covering34–46 of verified extent34–46. Thirty-three of37 entries remain
 unresolved. Source/asset/range checks and independent byte-identical rebuilds pass.
 Batch06 retains39regions,40blocks,nine images,48table cells and129numbered code
 rows; all138 files rebuild identically. All4911 prior evidence files remain unchanged.
 An intermediate correction-history retention exception is documented. Four earlier
 hex bytes remain explicitly uncertain; batch01's crop-review timing exception
-remains explicit. Next: 똑딱 반짝 ending46, then full34–46 assembly.
+remains explicit. Next: independent full 똑딱 반짝34–46 assembly; all180printed listing rows are natively covered.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).

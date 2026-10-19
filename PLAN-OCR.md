@@ -21,7 +21,7 @@ paired OCR or a new engine comparison.
 
 - December 1984 is in progress: editorial18, robot-feature introduction19 and
   complete 골목대장20–33 are readable and assistant sample-reviewed.
-  똑딱 반짝34–45 is restored in two partial natives of verified extent34–46.
+  똑딱 반짝34–46 is restored in three partial natives of verified extent34–46.
   Of37 canonical entries,33 await classification/restoration. Batch06 retains
   39regions,40blocks,nine images,48table cells and129numbered code rows.
   All138 files rebuild identically; source/range/preflight checks pass and all4911
@@ -29,7 +29,7 @@ paired OCR or a new engine comparison.
   before30 successful OCR tasks. An intermediate correction-history retention
   exception is explicit; raw OCR and exports are preserved.
   Four earlier hex bytes remain uncertain. Batch01's initial crop-review timing
-  exception remains explicit. Next: 똑딱 반짝 ending46, then full34–46 assembly.
+  exception remains explicit. Next: independent full 똑딱 반짝34–46 assembly; all180printed listing rows are natively covered.
   Inspect current full pages and every exact crop before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
