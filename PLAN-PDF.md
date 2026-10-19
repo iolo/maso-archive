@@ -27,14 +27,13 @@ records below are historical and do not authorize a new rebuild.
 Twelve October articles are readable, assistant sample-reviewed JSON/assets;
 기계어 강좌74–79 is partial, with full source extent74–91 verified. 취미생활 and
 교육입문 are non-owning headings. Twenty-six of41 entries remain unresolved.
-Latest opening has58 reading blocks,12 images and18 short-example rows.
+Opening has58 reading blocks,12 images and18 short-example rows; a second native80–85 adds3 captions/14 images and alphabetical source rows1–422.
 Dense code/table panels remain original images with
 unpromoted drafts, and source glyph/byte uncertainties remain explicit.
 The [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Next: restore course80–85, then86–91 within six pages each, followed by separate
-full assembly. Canonical 박재현/displayed 이세형 byline discrepancy remains explicit.
+Next: restore course86–91 within six pages, followed by separate full18-page assembly. Canonical 박재현/displayed 이세형 byline discrepancy remains explicit.
 The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
 Whole-issue closeout remains pending; no reading-room rebuild occurred.
 
