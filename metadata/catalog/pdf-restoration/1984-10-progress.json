@@ -2083,7 +2083,8 @@
       "classification_evidence": [
         "Separate source188/PDF190 displayed 마이크로 컴퓨터 설계 강좌/제5장 메모리의 증설,signed 김덕우/서울대 제어계측공학과4. Canonical 마이컴 설계강좌/김덕우/Technical parent unchanged.",
         "Actual complete continuous188–202/PDF190–204 reviewed,including18original figures and memory-test assembly listing1 ending202 line119 END at20B4. Prior Technical non-owning divider sequence187/no visible folio;next independent SPCeditor203. No unrelated ads/body within article.",
-        "Current188–191 retains23corrected standalone blocks/seven original series/art/diagram images and four explicit text boundaries. All diagram pin/voltage/signal-overbar/subscript/timing/wire content original. Historical hardware/wording/source-number anomalies retained;192–202/full15-page assembly pending."
+        "Current188–191 retains23corrected standalone blocks/seven original series/art/diagram images and four explicit text boundaries. All diagram pin/voltage/signal-overbar/subscript/timing/wire content original. Historical hardware/wording/source-number anomalies retained;192–202/full15-page assembly pending.",
+        "Middle192–197 restored separately:33corrected blocks/11original images,figures6–15/reset-state table,source spelling/addresses/signal/timing anomalies retained. All current inputs/source/ranges/scans/links and independent rebuild pass with explicitly recorded final3revised-preview timing exception. Two immutable natives cover188–197;remaining198–202/full15-page assembly required."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-34-r01/microcomputer-a",
@@ -2157,7 +2158,42 @@
             "202"
           ]
         },
-        "complete_article_assembly_pending": true
+        "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-34-r01/microcomputer-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-34-r01/microcomputer-a/manifest.json",
+              "sha256": "0181c98eb72bb0bd335e93534eacdbeddf8ce742b41208c67ff484f47b395d3f",
+              "bytes": 24163
+            }
+          },
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-35-r01/microcomputer-b",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-35-r01/microcomputer-b/manifest.json",
+              "sha256": "5dd508f7058bd8accb1b969560086df7ac77277e126202b8c0f9c9c8dc39a226",
+              "bytes": 37157
+            }
+          }
+        ],
+        "all_native_source_pages": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199
+        ],
+        "middle_validation": {
+          "path": "archive/pdf/1984-10/evidence/batch-35/validation.json",
+          "sha256": "596f46b0be0bacee4d9e32acb94986a89cb487fc580eb87d72777266a1f096b5",
+          "bytes": 2982
+        }
       }
     },
     {
@@ -3591,11 +3627,39 @@
         "maso-1984-10-toc-0026",
         "maso-1984-10-toc-0027"
       ]
+    },
+    {
+      "id": "batch-35",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-35/checkpoint.json",
+        "sha256": "6f8e6aab2e35225a785e4b860c770697f8388a0200c8595836555e12dbd2e362",
+        "bytes": 2646
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-35/source-review.json",
+        "sha256": "7aa04d58e9ee214ee00dfb654ad754f7ad2649aeb4475eb9e5e186dad54df749",
+        "bytes": 2073
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-35/validation.json",
+        "sha256": "596f46b0be0bacee4d9e32acb94986a89cb487fc580eb87d72777266a1f096b5",
+        "bytes": 2982
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-35/review-log.json",
+        "sha256": "13a199f791ecf011861ed86942e0b6d7a61ce442f144c2f6df6e1690ecd72074",
+        "bytes": 3208
+      },
+      "status": "partial-microcomputer-middle-with-preflight-timing-exception",
+      "tool_revision": "3356463",
+      "outputs": [
+        "maso-1984-10-toc-0027"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-35",
-    "goal": "Restore microcomputer middle192–197/PDF194–199,six mapped/two adjacent lookups191/198 using verified full188–202 extent. Preserve timing/reset/DRAM64K/bank prose and figures6–15,all source active-low signal-bar/subscript/value/diagram/wire claims and literal spelling. Source195메인 메모→196리 page-word continuation must remain source-linked. Remaining198–202/full15-page assembly follows.",
+    "id": "batch-36",
+    "goal": "Restore microcomputer ending198–202/PDF200–204,five mapped/two adjacent lookups197/203,using verified full188–202extent. Correct IPL/bank/test/SRAM prose/captions;retain original figures16–18 and memory-test assembly listing1 across200–202,source numbers4–119 including blank/comment/physical wraps and119END at20B4. Preserve source address/overbar/glyph anomalies;full15-page assembly follows.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0027"
     ],

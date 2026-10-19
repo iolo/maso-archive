@@ -26,14 +26,13 @@ records below are historical and do not authorize a new rebuild.
 
 October 1984 is in progress: 23 readable, assistant sample-reviewed articles,
 one partial microcomputer-design article,four non-owning headings and13 of41
-entries unresolved. Full design188–202/PDF190–204 is verified through source
-listing119 END at20B4;Technical divider sequence187 has no visible folio/owned body.
-Opening188–191 retains34regions,23corrected blocks,seven original images,27regional
-spans,four boundaries and five captions. Five hardware diagrams preserve pin/
-voltage/signal bars/subscripts/wires/timing;series strip/artwork retained. All32OCR
-tasks completed with one pre-recognition crop repair,zero failures/retries;
-independent byte-identical rebuild passes. Literal hardware/wording/number claims
-and provisional10킬로 remain source-linked. Next:192–197 middle,then198–202 ending/
+entries unresolved. Design middle192–197 retains50regions,33corrected blocks,
+11original images,40regional spans,seven boundaries and10caption links. Ten
+hardware figures6–15/reset-state table preserve signal bars/values/wires;source
+REST/RESET,페치/패치,address/wording anomalies retained.50OCR tasks,zero failures/
+retries,six pre-recognition crop repairs;exact rebuild/source/range/scan checks pass.
+Final3revised-preview model confirmation followed engine launch;timing exception
+explicit,no OCR rerun. Two natives now cover188–197. Next:198–202 ending,then
 full15-page assembly. Human acceptance/full proofreading,source glyph/notation/
 encoded-byte fidelity and execution unverified;whole-issue closeout pending,no reader rebuild.
 
