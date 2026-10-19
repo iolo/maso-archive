@@ -20,16 +20,16 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October 1984 is in progress: 25 readable, assistant sample-reviewed articles,
-  no partial,four non-owning headings and12 of41 entries unresolved. Complete
-  SPC-1000editor203–205 retains13regions,seven corrected blocks/six original code
-  images,seven regional spans/10reviews and six prose-image links. Original BASIC0
-  and five assembler panels0000–0172 retain174combined source-number positions,
-  four panel connections/finalEND/report/21symbols;lower204advertisement excluded.
-  All13crops reviewed before13OCRtasks,zero failures/retries/repairs;successful OCR
-  reused for corrected r02export. Source/range/scan checks and exact independent
-  rebuild pass. Prior design-middle timing exception remains recorded. Next:full
-  PHONE LIST206extent review,then bounded opening. Human acceptance/full proofreading,
-  source encoded bytes and execution unverified;whole-issue closeout pending,no reader rebuild.
+  one partial PHONE LIST article,four non-owning headings and11 of41 entries
+  unresolved. PHONE opening206–208retains36regions,23corrected blocks/11original
+  images,26regional spans/32reviews,three native boundaries and eightcaption links.
+  Listings1–4/control-key table/figures1–3/three inline inputs retain original code,
+  output/dump/byte/control geometry. All36crops reviewed before36OCRtasks,zero
+  failures/retries/repairs;source/range/scan checks and exact rebuild pass. Actual
+  complete article206–211verified;next209–211ending,then separate6-page assembly.
+  Prior design-middle timing exception remains recorded. Human acceptance/full
+  proofreading,source encoded bytes and execution unverified;whole-issue closeout
+  pending,no reader rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

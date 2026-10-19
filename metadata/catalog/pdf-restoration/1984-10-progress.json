@@ -2321,10 +2321,99 @@
       "toc_entry_id": "maso-1984-10-toc-0029",
       "title": "PHONE LIST를 통해 본 프로그래밍 테크닉",
       "parent_id": "maso-1984-10-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Displayed PHONE LIST 프로그램을 통해 본 프로그래밍테크닉206/PDF208,애플 컴퍼티블/김귀만/경희대 경영학과3년. Canonical title/byline/Technical parent unchanged.",
+        "Actual full206–211/PDF208–213endsclosing감사/아디오스. Prior205SPCeditor,next212sequenceindependentmonthlycontestnotice/no visiblefolio,and213공모총평 excluded. All6articlefolios individually checked.",
+        "Opening206–208retains23corrected blocks/11original images,listings1–4/table/figures1–3/threeinlineexamples,26regional spans/32reviews/three joins/eightcaption links. All36crops reviewed before36OCRtasks,zero failures/retries/repairs;source/range/scan/associations and independent rebuild pass. Ending209–211/full6-page assembly required."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-38-r01/phone-a",
+        "article_id": "scan-maso-1984-10-toc-0029",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-38-r01/phone-a/manifest.json",
+          "sha256": "df3ba032d82ddcee7c2bdb688ad8b290fb4516a98764f8ea9d569ce20bb1aef3",
+          "bytes": 26353
+        },
+        "coverage": {
+          "pdf_pages": [
+            208,
+            209,
+            210
+          ],
+          "printed_pages": [
+            "206",
+            "207",
+            "208"
+          ],
+          "regions": 36,
+          "blocks": 23,
+          "figures": 11,
+          "regional_text_ranges": 26,
+          "text_review_ranges": 32,
+          "explicit_prose_boundaries": 3,
+          "caption_blocks": 8,
+          "caption_associations": 8,
+          "source_heading_associations": 11,
+          "source_prose_image_associations": 11,
+          "image_text_overlaps": 2,
+          "original_listing_input_images": 4,
+          "original_monitor_output_dump_images": 4,
+          "original_control_key_tables": 1,
+          "source_control_table_body_cells": 6,
+          "source_control_table_header_cells": 2,
+          "original_memory_structure_diagrams": 2,
+          "source_listing_labels": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "source_visible_number_positions": 7,
+          "source_dump_rows": 8,
+          "source_dump_bytes": 64,
+          "source_dump_command_lines": 2,
+          "source_inline_examples": 3,
+          "typed_program_rows": 0
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            208,
+            209,
+            210,
+            211,
+            212,
+            213
+          ],
+          "printed_pages": [
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ]
+        },
+        "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-38-r01/phone-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-38-r01/phone-a/manifest.json",
+              "sha256": "df3ba032d82ddcee7c2bdb688ad8b290fb4516a98764f8ea9d569ce20bb1aef3",
+              "bytes": 26353
+            }
+          }
+        ],
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-38/source-associations.json",
+          "sha256": "dc7283c43375472ef7d56c73c40f6fae34850a6f01e8ed7343a967ffc8ab61ff",
+          "bytes": 51620
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0030",
@@ -2462,15 +2551,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 25,
+    "articles": 26,
     "non_owning_headings": 4,
-    "unresolved_classification": 12,
+    "unresolved_classification": 11,
     "readable": 25,
-    "partial": 0,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 29,
-    "unresolved_availability": 12
+    "sample_reviewed": 30,
+    "unresolved_availability": 11
   },
   "checkpoints": [
     {
@@ -3851,11 +3940,39 @@
       "outputs": [
         "maso-1984-10-toc-0028"
       ]
+    },
+    {
+      "id": "batch-38",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-38/checkpoint.json",
+        "sha256": "9afe01cc605a0f932eb9eadd4eb0d0565b68794e4ded10b81dbe877ef969c7e4",
+        "bytes": 2202
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-38/source-review.json",
+        "sha256": "091b1bf6689bb2952495bad9cbc1673f4c7d975799ab566410ceffbd419e805c",
+        "bytes": 1776
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-38/validation.json",
+        "sha256": "269e399f3dd58a0cc588c0ed473054e3a8cf56f05013df18fff7eae02e67607b",
+        "bytes": 2604
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-38/review-log.json",
+        "sha256": "6752724eba87948e39a8802cf4d773ed0b162ba049bbf8b82a7081f8e9402149",
+        "bytes": 2581
+      },
+      "status": "partial-phone-opening",
+      "tool_revision": "9346c22",
+      "outputs": [
+        "maso-1984-10-toc-0029"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-38",
-    "goal": "Verify full PHONE LIST0029 extent from206before canonical 공모총평213,all candidate/adjacent source pages before mapping;restore opening at most6mapped pages. Preserve source programs/screens/flow and correct standalone text/captions,then ending/full assembly as required.",
+    "id": "batch-39",
+    "goal": "Restore PHONE ending209–211/PDF211–213 from verified full206–211extent,three mapped/adjacent208/212lookups. Correct program explanation/closing/numbered prose rows/captions;retain listings5–9 and figures4–6/8–11/source7missing observation,inline inputs,source typos/physicalwraps. Then separate complete6-page assembly.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0029"
     ],
