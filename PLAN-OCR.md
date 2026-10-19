@@ -20,19 +20,18 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - December 1984 is in progress: editorial18, robot-feature introduction19,
-  complete 골목대장20–33 and complete 똑딱 반짝34–46 are readable and assistant
-  sample-reviewed. Complete Apple BASIC to machine language(3)47–63 is now readable:
-  five complete articles, zero partial and32 of37 entries awaiting classification.
-  The full assembly retains191regions,111blocks,54images,534physical code rows,
-  185numbered entries,338logical source units and239table cells. All638files rebuild
-  identically;629native files and9625prior files are unchanged. New opt-in mixed
-  source projection preserves all columns/address-bearing byte wraps without a
-  formatting revision;140PDF tests pass. The58/59word is joined literally.
-  BASIC183 and assembly86/110 wraps, source mistakes, three unknown header dash
-  counts and glyph candidates remain explicit. Batch01's initial
-  timing and batch06's intermediate retention exceptions remain explicit.
-  Next: classify hobby heading0005 and restore Christmas-card article0006 from66,
-  after verifying its actual extent and adjacent title. Exact crops before OCR.
+  complete 골목대장20–33, complete 똑딱 반짝34–46, Apple BASIC to machine language(3)
+  47–63 and Christmas-card66–69 are readable and assistant sample-reviewed. Six complete
+  articles, one non-owning hobby heading, zero partial and30 of37 entries unresolved.
+  Latest batch11 preserves29regions,6blocks,9images,311physical/237numbered BASIC
+  entries and74wrap rows. All98files rebuild identically;10914prior files unchanged.
+  All29original/3revised exact crops preceded20successful pinned Tesseract tasks.
+  One printed semicolon correction uses fresh r02 files; original r01 retained.
+  Four invisible quoted blank counts and source/glyph candidates remain explicit.
+  The preservation inventory pins11416files. Batch01's timing and batch06's
+  intermediate retention exceptions remain explicit. Shared140-test baseline unchanged.
+  Next: verify Diamond Field0007's full extent from observed70/PDF72, then map
+  an opening segment of six or fewer pages. Exact crops before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

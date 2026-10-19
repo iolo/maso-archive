@@ -612,19 +612,58 @@
       "toc_entry_id": "maso-1984-12-toc-0005",
       "title": "취미생활",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Unpaginated divider contains 취미생활, the short promotional strap 재미있고 유익한 다양한 게임프로그램의 모음!, an illustration, and references to four separately titled children at66/70/78/88.",
+        "No independent body prose, signed introduction or listing. Child article0006 begins on following PDF68, visible folio66. Divider does not own child bodies."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/hobby-heading-classification.json",
+        "sha256": "29ad4707e645415f004d518bf7ea2291749e3197134d39c6b81188850ebd43e2",
+        "bytes": 2475
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0006",
       "title": "크리스마스 카드 제작",
       "parent_id": "maso-1984-12-toc-0005",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF68/printed66 starts Christmas-card article and BASIC listing. Body ends66; listing continues67–69, ending41999RETURN. PDF72/printed70 starts independent Diamond Field.",
+        "Complete four-page package preserves all29regions,6ordered blocks,9original figures,311physical rows/237numbered entries and source-linked uncertainties. Fresh r02 corrects one printed semicolon; all earlier corrections/exports remain immutable."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/batch-11-r02/christmas-card",
+        "article_id": "scan-maso-1984-12-toc-0006",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/batch-11-r02/christmas-card/manifest.json",
+          "sha256": "2f6c9aa769cda586280aa398b914b4e59bd49d323ae126be4730bc8fd87b3cb2",
+          "bytes": 16260
+        },
+        "coverage": {
+          "pdf_pages": [
+            68,
+            69,
+            70,
+            71
+          ],
+          "printed_pages": [
+            "66",
+            "67",
+            "68",
+            "69"
+          ],
+          "regions": 29,
+          "blocks": 6,
+          "figures": 9
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0007",
@@ -932,11 +971,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 5,
-    "readable_articles": 5,
+    "classified_articles": 6,
+    "readable_articles": 6,
     "partial_articles": 0,
-    "nonowning_headings": 0,
-    "unresolved_eligibility": 32,
+    "nonowning_headings": 1,
+    "unresolved_eligibility": 30,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -1792,41 +1831,106 @@
         "sha256": "c9e7e42f06c3f7419f9e98ae98114341b857f9f485c7d2f40de0fbd40ec47180",
         "bytes": 2513164
       }
+    },
+    {
+      "id": "batch-11",
+      "status": "complete",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/checkpoint.json",
+        "sha256": "580e5ae113251740b8bfce270c6e703c464c97916f9db2c5d8aa75133f89d5fe",
+        "bytes": 1725
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-11/validation.json",
+        "sha256": "b489e1c9a65b27fa9874ad5516446c1751da65d43910b06a180141054a03228c",
+        "bytes": 832
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/source-reviewed.json",
+        "sha256": "e5c05d13bf9aca67a1056c452db02b810ed763df2bc260441ff140339c6f8f28",
+        "bytes": 2538
+      },
+      "heading_classification": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/hobby-heading-classification.json",
+        "sha256": "29ad4707e645415f004d518bf7ea2291749e3197134d39c6b81188850ebd43e2",
+        "bytes": 2475
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/preflight-reviewed.json",
+        "sha256": "4b411819aa005bc03ca1d721cdb2ae1354356faca4c6dc7267a72f161ad89772",
+        "bytes": 12784
+      },
+      "crop_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/crop-repair-r02.json",
+        "sha256": "6fa513437a6b9aed6ba551e09d8b049849d6305e04f372fdd77eb649815e6e2c",
+        "bytes": 2546
+      },
+      "source_correction_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/source-correction-r02.json",
+        "sha256": "154f38af04c19b940ae6619b2b160ce52f75452a7495f8f8565e8d4b49c17b03",
+        "bytes": 861
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/correction-completed-r02.json",
+        "sha256": "b20979b55cf153bbfe109f41377e843a22876702b7e5e6eb16aab43a1925fba5",
+        "bytes": 340
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-11/reproduction.json",
+        "sha256": "d2914c8d786f6f26ce280e4efdcaa61742c582da2a4a76f6c047bd41a992eacc",
+        "bytes": 1315
+      },
+      "actual_ocr_tasks": 20,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 3,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 10914,
+      "rebuild_files": 98,
+      "regions": 29,
+      "blocks": 6,
+      "figures": 9,
+      "regional_text_ranges": 20,
+      "text_review_items": 38,
+      "prose_joins": 2,
+      "tables": 0,
+      "listing_physical_rows": 311,
+      "listing_logical_entries": 237,
+      "physical_wrap_rows": 74,
+      "source_notes": 15,
+      "unknown_blank_runs": 4,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-11/preserved-work-inventory.json",
+        "sha256": "6e90119dcc3c9b09873556519492b680fc6bc9dc959fd8e38384856fee7f6f3e",
+        "bytes": 2624422
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-11",
-    "goal": "Classify canonical hobby heading0005 from the actual divider/TOC and restore Christmas-card article0006 from verified opening66/PDF68 after establishing full extent. Keep non-owning heading separate from child body.",
+    "id": "batch-12",
+    "goal": "Restore the bounded opening of Diamond Field0007 from verified70/PDF72. Establish complete actual extent and neighboring owners before mapping; preserve all prose, screenshot, flowchart, table, BASIC and machine-code physical rows in segments of six or fewer pages.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0005",
-      "maso-1984-12-toc-0006"
+      "maso-1984-12-toc-0007"
     ],
-    "known_start": {
-      "pdf_page": 68,
-      "printed_page": 66
-    },
     "provisional_mapping_targets": [
-      68,
-      69,
-      70,
-      71
-    ],
-    "provisional_lookup_targets": [
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
       72,
-      73
+      73,
+      74,
+      75,
+      76,
+      77
     ],
+    "known_opening": {
+      "pdf_page": 72,
+      "printed_page": "70",
+      "next_toc_start_candidate": "Spin Ball78"
+    },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "PDF66publisher tape/disk ad is unpaginated. PDF67hobby divider was observed in prior extent review; reuse pins and reinspect it before classifying heading0005. Christmas-card title66/PDF68 previously observed; next canonical Diamond Field70 is a TOC candidate, not a proven end/offset. Inspect actual source through article end and next independent title before mapping. Every exact crop before OCR; preserve all graphics/listings and source mistakes. Do not rebuild reader."
+    "note": "Christmas-card66–69 is complete with no assembly pending. Hobby0005 is non-owning; retain all four canonical children. Diamond full end not yet verified: TOC78 is a lookup lead only. All exact original/revised crops must be inspected before OCR. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

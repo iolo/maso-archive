@@ -24,20 +24,19 @@ records below are historical and do not authorize a new rebuild.
 
 ## December 1984 started, 2026-10-19
 
-The editorial18, robot-feature introduction19, complete 골목대장20–33 and
-complete 똑딱 반짝34–46 are readable and assistant sample-reviewed. Apple BASIC
-to machine language(3)47–63 is now complete and readable. Five articles are readable,
-zero partial;32 of37 entries remain unresolved. The full assembly retains191regions,
-111blocks,54images,534physical rows,185numbered entries,338logical source units and
-239table cells. All638files rebuild identically;629native files and9625prior evidence
-files are unchanged. Opt-in mixed-source projection preserves every column and byte
-wrap without a formatting revision;140PDF tests pass. The58/59word joins literally.
-BASIC183 and assembly86/110 wraps, original panels, three unknown header dash counts,
-source mistakes and glyph candidates remain explicit.
-Earlier glyph/hex uncertainties, batch01's timing and batch06's intermediate
-retention exceptions remain explicit.
-Next: classify hobby heading0005 and restore Christmas-card article0006 from66,
-after verifying its actual source extent and adjacent title.
+The editorial18, robot-feature introduction19, complete 골목대장20–33,
+똑딱 반짝34–46, Apple BASIC to machine language(3)47–63 and Christmas-card66–69
+are readable and assistant sample-reviewed. Six articles and one non-owning hobby
+heading are classified, zero partial;30 of37 entries remain unresolved. The latest
+four-page package retains29regions,6blocks,9images and311physical/237numbered BASIC
+entries. All98files rebuild identically;10914prior evidence files are unchanged.
+All29original/3revised crops preceded20successful OCR tasks. One printed semicolon
+was corrected in a fresh revision; both corrections/exports remain preserved.
+Four invisible blank counts, source mistakes and glyph candidates remain explicit.
+The new preservation inventory pins11416files. Earlier batch01 timing and batch06
+intermediate retention exceptions remain explicit. Shared140-test baseline unchanged.
+Next: verify Diamond Field0007's full extent from its observed70/PDF72 opening,
+then restore an opening segment of six or fewer pages.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).

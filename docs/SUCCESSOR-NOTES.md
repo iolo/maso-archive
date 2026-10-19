@@ -40,22 +40,23 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December has five readable articles, including complete 골목대장20–33,
-똑딱 반짝34–46 and Apple BASIC to machine language(3)47–63. Zero partial articles
-remain, with32 of37 entries still unresolved. The latest638-file assembly rebuilds
-identically; all629native files and9625prior files are unchanged. Source/range checks
-pass for534physical rows,185numbered entries,338logical units,1430column fields,
-616machine-byte literals,599DFB values and239table cells. Opt-in
-`mixed-source-listing-v1` is committed as82710ea;140PDF tests pass. Ordinary
-offline assembly checking works without a private adapter or formatting revision.
-BASIC183 and assembly86/110 physical wraps,
-source errors, three unknown header dash counts, glyph candidates and original panels
-remain preserved, including batch01's timing and batch06's intermediate retention
-exceptions. The58느/59껴지기 word joins literally with both native ranges retained.
-Next: classify hobby heading0005 from its actual divider/TOC and restore Christmas-card
-article0006 from verified66/PDF68. Verify actual full extent/next title before mapping;
-Diamond Field70 is still a TOC candidate. NeighborPDF66 is an unpaginated publisher
-ad, and native58–64shorthand is not an observed folio64 or global-offset claim. Reader
+October; December has six readable articles, including complete 골목대장20–33,
+똑딱 반짝34–46, Apple BASIC to machine language(3)47–63 and Christmas-card66–69.
+Hobby0005 is a non-owning divider on unpaginatedPDF67; all four child links remain.
+Zero partial articles remain, with30 of37 entries unresolved. Latest batch11's98files
+rebuild identically;10914prior files are unchanged. All29original/3revised crops
+preceded20successful OCR tasks. Source/range checks pass for29regions,6blocks,9images,
+311physical/237numbered BASIC entries and74wrap rows. Four invisible blank counts,
+YI/Y1 and other glyph candidates, printed TF$ and unusual punctuation remain explicit.
+A fresh r02 corrects first PRINT's semicolon on40; both original correction/export
+and selected revision are retained, with no repeated OCR. The new inventory pins11416files.
+Shared140-test baseline unchanged. Earlier source uncertainties and batch01 timing/
+batch06 intermediate retention exceptions remain explicit. Mixed-source assembly
+support is committed82710ea; prior complete Apple assembly remains unchanged.
+Next: verify Diamond Field0007's full extent from observed70/PDF72 and adjacent71,
+then restore an opening segment of six or fewer pages. Spin Ball78 remains a TOC
+lookup lead, not a verified end. NeighborPDF66 is an unpaginated publisher ad, and
+native58–64shorthand is not an observed folio64 or global-offset claim. Reader
 integration is separate; the owner subsequently requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve
