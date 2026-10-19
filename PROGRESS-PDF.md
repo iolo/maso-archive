@@ -7,16 +7,18 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 December 1984 is in progress: seven readable, assistant sample-reviewed articles
-cover editorial 18, robot-feature introduction 19, 골목대장 20–33, 똑딱 반짝 34–46,
-Apple BASIC to machine language(3) 47–63, Christmas-card 66–69 and Diamond Field 70–77.
-Spin Ball's opening 78–83 is restored as a partial; final 84–87 and full assembly
-remain required. One non-owning heading; 28 of 37 entries await classification.
-All 195 opening files rebuild identically, with 704 physical rows, 5,280 hex values,
-662 printed addresses, 45 DATA fields and ten images. All 13,004 prior files are
-unchanged. All 54 original/14 revised crops preceded 44 successful OCR tasks;
-no recognition failures/retries or post-OCR repairs. Shared 148-test baseline unchanged.
-Source candidates and earlier timing/retention exceptions remain explicit.
-Next: Spin Ball ending 84–87, then independent full 78–87 assembly.
+cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46,
+Apple BASIC to machine language(3)47–63, Christmas-card66–69 and Diamond Field70–77.
+Both Spin Ball natives cover78–87; independent full assembly remains required.
+One partial, one non-owning heading;28 of37 entries await classification.
+All109ending files rebuild identically, preserving648rows/5,181hex values and four
+complete panels. All13,781prior files are unchanged. All28exact crops preceded
+24successful OCR tasks; no geometry/recognition/post-OCR repair or retry.
+The earlier final-row four-field reading is retained and superseded by five
+directly visible fields. One7B28typing repair has fresh/original evidence.
+Shared148-test baseline unchanged. Source candidates and earlier exceptions remain.
+Next: independently assemble Spin Ball78–87, including all1,352physical rows,
+10,461hex literals and every custom source-field index. No further OCR.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 

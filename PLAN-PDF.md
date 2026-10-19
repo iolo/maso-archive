@@ -26,25 +26,27 @@ records below are historical and do not authorize a new rebuild.
 
 Seven articles are readable and assistant sample-reviewed: editorial 18, robot-feature
 introduction 19, 골목대장 20–33, 똑딱 반짝 34–46, Apple BASIC to machine language(3) 47–63,
-Christmas-card 66–69 and Diamond Field 70–77. Spin Ball is partial: its opening
-78–83 is restored, with the final 84–87 and full assembly pending. One non-owning
-hobby heading is classified; 28 of 37 entries remain unresolved.
+Christmas-card 66–69 and Diamond Field 70–77. Both Spin Ball natives now cover all
+78–87, pending independent full assembly. One non-owning hobby heading is classified;
+28 of 37 entries remain unresolved. Spin Ball remains partial until assembly passes.
 
-Spin Ball's actual ten-page extent and both neighbors are verified from the scans.
-The opening preserves 54 regions, 33 blocks, ten images, 704 physical listing rows,
-28 numbered entries, 662 hex rows, 5,280 hex literals and 662 printed address fields.
-All 195 package files independently rebuild identically. All 13,004 prior files
-remain unchanged; the new inventory pins 13,781 files. Every 54 original and
-14 revised exact crops was inspected before 44 successful OCR tasks. No recognition
-failures, retries or post-OCR repairs. All 45 DATA fields, nine quoted strings,
-ten inline examples and both prose continuations retain exact UTF-8 source ranges.
-Short hex rows, negative-number wraps, source mistakes and glyph candidates remain
-literal. Shared 148-test pipeline baseline unchanged; no reader/frontend work.
+The ending 84–87 preserves 28 regions, four blocks, four complete original panels,
+648 printed hex rows, 648 address labels and 5,181 literal values. All 109 ending
+files rebuild identically; all 13,781 prior files remain unchanged. Every 28 exact
+crops preceded 24 successful OCR tasks, with no geometry repairs, engine failures,
+recognition retries or post-OCR crop repairs. Exact final-row review shows five
+fields at7BE0:00 01 00 00 01, superseding the earlier four-field extent observation
+while retaining it. One typed7B28row was repaired in a fresh correction object;
+the original and precise scan evidence remain preserved. New inventory:14,220files.
+Shared148-test baseline unchanged. No reader/frontend work.
 
-Next: restore Spin Ball 84–87/PDF 86–89, then independently assemble all 78–87.
-All ending and neighbor scans are already pinned; reinspect them before mapping.
-Crowded Speedway independently begins 88/PDF 90. Earlier batch01 timing, batch06
-retention and all source encoding/execution limitations remain explicit.
+Both natives retain1,352physical rows,1,310hex rows/printed addresses,10,461hex
+literals,45DATA fields,nine quotes,ten inline examples and14images. Next:
+independently assemble complete78–87with every native source index projected.
+No further mapping/OCR is needed. Existing BASIC source-field mode does not cover
+this mixed bare-letter DATA/hex-dump schema; use an explicit compatible opt-in
+projection and fresh metadata revisions if needed, retaining every original byte.
+Source candidates and earlier batch01 timing/batch06 retention exceptions remain.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 No reading-room rebuild.
