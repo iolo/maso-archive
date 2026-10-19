@@ -20,15 +20,17 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October 1984 is in progress: 18 readable, assistant sample-reviewed articles,
-  no partial articles, two non-owning headings and 21 of 41 entries unresolved.
-  Complete Apple Fortran113–119 passes exact native preservation and independent
-  assembly rebuild: 65 regions,47 blocks,18 original images,47 regional spans and
-  six short-example rows. Fourteen full program/output panels retain32 FORMAT
-  labels; three complete tables retain128 ASCII positions and printed129 anomaly.
-  Five image continuations,four captions and14 source heading scopes are indexed.
-  Next: verify full 도량형 환산 extent from120, then restore actual opening within
-  candidate120–125 under six-page limit. Literal source errors,table/code interiors,
-  encoded bytes and execution limits remain explicit. Whole-issue closeout pending.
+  one partial conversion program, two non-owning headings and20 of41 entries
+  unresolved. Complete CP/M103–110,SPC input111–112 and Apple Fortran113–119 are
+  selected. Conversion full source120–128 is verified; opening120–125 retains21
+  regions,nine blocks,11 original images,10 regional spans and one source join.
+  Eight complete BASIC panels retain332 numbered positions; photo and both source
+  explanation tables remain original images with raw drafts unpromoted. All20 OCR
+  tasks completed without failures/retries; three crops widened once before OCR,
+  originals retained. Independent byte-identical rebuild passes. Next: ending
+  126–128,then separate full conversion assembly. Source bitmap/encoded-byte,
+  internal code/table and execution limits remain explicit. Whole-issue closeout
+  pending; no reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
