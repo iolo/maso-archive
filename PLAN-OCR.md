@@ -21,55 +21,67 @@ paired OCR or a new engine comparison.
 
 - December 1984 is in progress: eleven readable articles, one partial perspective
   simulation article, two non-owning headings and 23 of 37 entries unresolved.
-  The perspective article spans 19 observed pages131–149, PDF133–151. Its narrative
-  closing mark on140 is followed by AppleSoft141–144 and GBASIC144–149; the last
-  listing ends4290 END on149. The opening title/cube/byline 고일두 is onright131;
-  the left office-move advertisement is separate. No global folio offset is inferred.
+  Perspective spans 19 observed pages 131–149, PDF133–151. Its closing prose on140
+  is followed by AppleSoft141–144 and GBASIC144–149, ending4290 END. The two
+  immutable natives cover131–142; printed143–149 and full assembly remain.
 
-  Opening131–136 is restored at packages/perspective-a. The native and independent
-  rebuild reproduce all148 files exactly:40 regions,33 blocks,seven original drawings,
-  39 regional text spans,six source joins and16 unnumbered MOVE/DRAW physical rows.
-  Sixty-four code tokens retain subscripts as Unicode visual candidates. No numbered
-  BASIC entries are inferred. Printed137–149 and the complete article assembly remain.
+  The new middle137–142 package is packages/perspective-b-r01. Its native and
+  independent rebuild reproduce all154 files exactly:46 regions,31 blocks,13 original
+  frames and36 regional text spans. The mathematical indexes retain11 display/context
+  spans,eight source grids,30 observed matrix rows,87 literal cells andtwo printed
+  ellipsis rows. Compact vectors are not expanded into invented components;no omitted
+  ellipsis rows or calculated values are supplied. Identity translation entries and
+  second input row X₂ X₂ remain literal source readings.
 
-  The mathematical indexes retain26 display/context spans,20 matrices,74 matrix rows,
-  264 literal cells,15 fractions,296 math glyphs,four equation labels and959 inline
-  occurrences. Diagram indexes retain101 observed label tokens and seven captions
-  across six captioned frames. One original frame carries separate6.1/6.2 captions;
-  the opening cube has no observed caption. Original two-dimensional layouts survive
-  in all40 region images. Textual brackets,spacing,slash fractions and label order are
-  editorial representations;mathematical correctness and source bytes are unverified.
+  The source indexes retain43 flowchart labels,24 printed line references,15 variable
+  definitions,51 diagram/DATA label candidates,nine output parameter rows and27
+  output values. The original three output drawings andtwo-page main flowchart remain
+  pixels. Flowchart connection B andreturn A are source associations,not reconstructed
+  edges. Source NX is retained independently of program XN. No synthetic captions for
+  flow/data/output frames;three diagram captions andtwo listing frames sharing10.3
+  produce five caption/frame occurrences. Eight originals have no printed caption.
 
-  Source anomalies remain:219/2000=0.1395,the three-component scaling input vector,
-  the first reflection matrix's two negative entries,the symbolic view matrix's final0
-  and clipping prose's ad remainder. General matrix g/q,perspective γ/r,looped ℓ/l,
-  subscript t/i,decimal/coordinate punctuation and other faded glyphs remain explicit
-  visual candidates. No arithmetic,formula,semantic or graphic reconstruction.
+  The code retains226 physical rows,223 nonblank units and1,108 literal tokens.
+  There are170 actual numbered AppleSoft entries10–1690,including885,with physical
+  wraps kept. Printed400 crosses the141 columns. Source110 wraps70/0;290/330 wrap8/7;
+  1400's target wraps1/940 and1470's target161/0. Logical indexes keep those physical
+  bytes;no runnable-line reconstruction. Six regional listing spans,658 lexical code
+  identifiers,46 quote glyphs,23 paired string candidates and12 target candidates pass.
+  DATA indexes retain64 fields:24 symbolic example fields and40 literal numeric fields
+  across four unnumbered records. No arithmetic,syntax,encoding or graphic repair.
 
-  All23 whole/review pairs and40 original/23 revised crops were inspected before33
-  successful mapped Tesseract tasks. Six mapped pages,17 outside-map lookups,20 new
-  renders andthree original render reuses. No recognition failures/retries orpost-OCR
-  crop repairs. The failed advertisement-map metadata attempt and initial display-line
-  index selector remain preserved;fresh scripts reuse completed source review/readings.
-  All27,541 prior files and20 historical plus3 CP/M implementation pins are unchanged.
-  New preservation inventory:28,226 files. All193 PDF tests pass. No shared tooling changes.
+  A new full-page recheck found that the opening134 reflection paragraph does have
+  a closing parenthesis beyond the old crop's right edge. The original opening package
+  and its incorrect missing-parenthesis statement remain preserved as superseded
+  evidence. An explicit bounded crop/OCR/correction/index revision is required before
+  complete assembly. See restoration/batch-25/opening-defect-followup.json;the ledger
+  carries required_native_revisions. Do not treat the old cropped absence as source fact.
 
-  CP/M(5) remains complete at packages/cpm5-complete-r01:all21 PDF112–132 pages,
+  All22 pinned whole/review pairs and46 original/seven revised exact crops were
+  inspected before33 successful tasks. Six mapped pages and16 outside-map lookups;
+  no new render,recognition failure/retry orpost-OCR crop repair. Failed first serializer
+  syntax andtwo export attempts with inconsistent runtime pin path spelling remain.
+  Fresh scripts reuse completed readings/OCR;selected recipe changes only path metadata
+  with identical runtime hashes/bytes. All28,226 prior files and23 implementation pins
+  remain unchanged. New preservation inventory:28,907 files. The unchanged193-test
+  baseline from batch24 is reused;no shared tooling changes or repeated tests.
+
+  CP/M remains complete at packages/cpm5-complete-r01:all21 PDF112–132 pages,
   observed110–129 plus an unpaginated upper reference continuation;lower132 ad separate,
   no observed130. Its904-file assembly retains all895 native files and every specialized
   index/metadata field. BASIC speed102–109 remains complete from opening102–107 and
-  ending108–109. All selected-package/issue checks must use cpm_literal_assembly.check
-  or its installed() context,which installs/delegates graphic_literal_assembly for older
-  formats. The CP/M-specific adapter is not a generic perspective-formula adapter.
+  ending108–109. All selected-package checks must use cpm_literal_assembly.check or
+  installed(),which installs/delegates graphic_literal_assembly for older formats.
+  The CP/M-specific adapter is not generic for perspective formulas and code indexes.
 
-  Next: batch25,perspective137–142,PDF139–144. This includes clipping/composite
-  transforms,flowchart,variables,usage,data/output examples and the first two AppleSoft
-  listing pages. Recheck the full extent/neighbors and every exact crop beforeOCR;
-  preserve all native formula/matrix/cell/fraction/glyph/equation/diagram/captionpart/
-  physical/code/review indexes and metadata for later assembly. Keep checkpoints within
-  two articles,six mapped pages and20 outside-map lookups. Human acceptance,full
-  proofreading,original encoded bytes,execution and mathematics remain unverified.
-  No reader rebuild.
+  Next:batch26,perspective143–148,PDF145–150. This includes AppleSoft ending143–144
+  andGBASIC opening144–148. Remaining149,the opening134 repair andcompatible full
+  assembly follow. Recheck full extent/neighbors andevery exact crop beforeOCR.
+  Preserve every native field/array andoriginal metadata,including math/ellipsis,flow,
+  variable,DATA/output,physical/logical/quote/string/target andcaption associations.
+  Keep checkpoints within two articles,six mapped pages and20 outside-map lookups.
+  Human acceptance,full proofreading,encoded bytes,execution andmathematics remain
+  unverified. No reader rebuild.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
