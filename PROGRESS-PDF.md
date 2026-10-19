@@ -9,8 +9,8 @@ by the calendar month in which restoration work happened.
 October 1984 is in progress: twelve readable, assistant sample-reviewed articles
 with one partial course and two non-owning headings;26 of41 canonical entries
 remain unresolved. Course74–91 is source-verified; opening74–79 passes an exact
-rebuild. Second native80–85 preserves LIST2/3 and alphabet1–422. Next: final86–91
-native and separate full18-page assembly.
+rebuild. Second native80–85 preserves LIST2/3 and alphabet1–422. Final86–91
+native is now verified. Next: separate full18-page assembly of all three natives.
 Source code/table images retain separate unpromoted drafts. See the
 [October record](docs/progress/8410.md) and its versioned ledger for selected
 packages and evidence. Whole-issue closeout remains pending.

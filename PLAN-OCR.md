@@ -24,7 +24,8 @@ paired OCR or a new engine comparison.
   unresolved. Course extent74–91 is verified; opening74–79 retains58 reading
   blocks,12 images and18 short-example rows. Original code/table imagery and
   unpromoted drafts retain explicit character/byte uncertainty. Native80–85 adds
-  LIST2/3 endings and alphabet1–422. Next: final86–91 native and full assembly. Canonical 박재현 and
+  LIST2/3 endings and alphabet1–422; native86–91 completes alphabet423–700 and
+  separate machine-code1–700. Next: assemble all three immutable natives. Canonical 박재현 and
   displayed 이세형 remain separate unresolved identity evidence.
   The separately titled unlisted DOS TOOL KIT guide41–43 is excluded. Continue
   from the [October record](docs/progress/8410.md) and
