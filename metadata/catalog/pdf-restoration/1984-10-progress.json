@@ -59,10 +59,38 @@
       "toc_entry_id": "maso-1984-10-toc-0002",
       "title": "기계어의 학습",
       "parent_id": "maso-1984-10-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF22/printed20 begins 기계어의 학습; it continues into PDF23/printed21 upper left.",
+        "The paragraph ending 애플의 기계어(또는 어셈블리)사용에 관한 확실한 자신감을 얻게 될 것이다 closes this child before the next displayed title.",
+        "Running feature banner and folios are page furniture; next child title/body on shared21 are explicitly excluded."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-02-r01/learning",
+        "article_id": "scan-maso-1984-10-toc-0002",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-02-r01/learning/manifest.json",
+          "sha256": "0091671aeeb37d1bf55d3d4b5ae1a998780ced892ce632076ef9b6938f469173",
+          "bytes": 4019
+        },
+        "coverage": {
+          "pdf_pages": [
+            22,
+            23
+          ],
+          "printed_pages": [
+            "20",
+            "21"
+          ],
+          "regions": 4,
+          "blocks": 26,
+          "figures": 0,
+          "physical_listing_rows": 1
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0003",
@@ -443,14 +471,14 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 2,
+    "articles": 3,
     "non_owning_headings": 0,
-    "unresolved_classification": 39,
-    "readable": 2,
+    "unresolved_classification": 38,
+    "readable": 3,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 2
+    "sample_reviewed": 3
   },
   "checkpoints": [
     {
@@ -471,13 +499,31 @@
         "maso-1984-10-toc-0036",
         "maso-1984-10-toc-0001"
       ]
+    },
+    {
+      "id": "batch-02",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-02/checkpoint.json",
+        "sha256": "878aa6337e8fb67017b596ffd1aecac68cc6ed00ee9718e024656ddc7da0ee67",
+        "bytes": 1411
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-02/validation.json",
+        "sha256": "d7f8e9c3e41daf3a2a5a3efff3790f1785b9197cd01797372e59fc59643ca4c7",
+        "bytes": 986
+      },
+      "status": "complete",
+      "tool_revision": "1bc8d6d",
+      "outputs": [
+        "maso-1984-10-toc-0002"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-02",
-    "goal": "Restore 기계어의 학습 from verified printed20 through its conclusion on shared printed21; exclude following 기계어의 기초.",
+    "id": "batch-03",
+    "goal": "Restore 기계어의 기초 from shared printed21; verify its end adjacent to 블록격파 게임의 제작 at printed27. Map at most six pages.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0002"
+      "maso-1984-10-toc-0003"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,

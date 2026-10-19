@@ -24,13 +24,13 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-The editorial and signed feature introduction are complete readable,
-assistant sample-reviewed JSON/assets packages. Two of 41 canonical entries
-are restored; 39 await classification/restoration. The
+The editorial, signed feature introduction and 기계어의 학습 are complete
+readable, assistant sample-reviewed JSON/assets packages. Three of 41 canonical
+entries are restored; 38 await classification/restoration. The
 [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Continue with 기계어의 학습 on printed20–21. Whole-issue closeout remains pending;
+Continue with 기계어의 기초 from shared printed21. Whole-issue closeout remains pending;
 no reading-room rebuild occurred.
 
 ## September 1984 closeout, 2026-10-16

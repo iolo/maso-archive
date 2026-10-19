@@ -20,8 +20,8 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October 1984 is in progress. The editorial and signed special-feature
-  introduction are readable, assistant sample-reviewed JSON/assets packages;
-  39 of 41 canonical entries still await classification/restoration. Continue
+  introduction and 기계어의 학습 are readable, assistant sample-reviewed
+  JSON/assets packages; 38 of 41 canonical entries still await classification/restoration. Continue
   from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.
