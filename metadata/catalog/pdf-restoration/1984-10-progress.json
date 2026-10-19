@@ -1527,7 +1527,8 @@
       "classification_evidence": [
         "Separate 전산개발 시스템 연구140/PDF142,연재2회,트라이젬/삼보 컴퓨터 교육부. Canonical title/byline/Business parent unchanged.",
         "Full140–147/PDF142–149 through final prose147,prior non-owning Business139sequence,next independent 한글주소록148. No unrelated ads/body;source141 folio absent,sequence verified by140/142.",
-        "Current opening140–145 all standalone prose/headings/captions and complete original forms/flows/photos retained. Ending146–147 and separate full eight-page assembly required;source144→146 prose connection explicit."
+        "Current opening140–145 all standalone prose/headings/captions and complete original forms/flows/photos retained. Ending146–147 and separate full eight-page assembly required;source144→146 prose connection explicit.",
+        "Ending146–147 now has corrected remaining prose/four composite captions and four complete original survey/list panels. All eight pages exist in immutable natives; separate complete assembly pending."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-24-r01/development-a",
@@ -1590,7 +1591,26 @@
             143
           ]
         },
-        "complete_article_assembly_pending": true
+        "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-24-r01/development-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-24-r01/development-a/manifest.json",
+              "sha256": "d79a5a7c30a607755ca2e38836ac005c767d601a3acb4669c709ea852d44b43b",
+              "bytes": 28675
+            }
+          },
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-25-r01/development-b",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-25-r01/development-b/manifest.json",
+              "sha256": "4c30ad9fea1cb6f9418e0167d0a0bd0bc74b483450c312e66edc9b4b3bd9c2ad",
+              "bytes": 15670
+            }
+          }
+        ],
+        "all_source_pages_in_natives": true
       }
     },
     {
@@ -2676,11 +2696,39 @@
       "outputs": [
         "maso-1984-10-toc-0022"
       ]
+    },
+    {
+      "id": "batch-25",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-25/checkpoint.json",
+        "sha256": "909802dc076f73f1b9da26baed72144be186a29fd09dfd24130e68754e27ede7",
+        "bytes": 2722
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-25/source-review.json",
+        "sha256": "25208cec7cee49e0793d6a55097f66169e1baa59919d6323b09a1e70454682d8",
+        "bytes": 1333
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-25/validation.json",
+        "sha256": "602b3da8ad5af2aa5d41e7e005796abd3bcd5e42260c9ddea856d99dab82da3c",
+        "bytes": 1783
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-25/review-log.json",
+        "sha256": "11376b763cd2eb6ddf5a53e94207491e7652f730798659bc5cb1eeb5ae9d8340",
+        "bytes": 2064
+      },
+      "status": "partial-development-system-ending",
+      "tool_revision": "720ed55",
+      "outputs": [
+        "maso-1984-10-toc-0022"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-25",
-    "goal": "Restore development-system ending146–147/PDF148–149 using pinned full extent140–147. Correct remaining prose/captions and preserve complete INPUT/OUTPUT surveys,FILE/OUTPUT lists;record source144 기본 설계에→146 다… connection. Separate eight-page assembly follows.",
+    "id": "development-assembly",
+    "goal": "Assemble exact immutable development-system140–147 natives,with all original11 forms/tables,two flows/two photos,global caption/heading scopes and source144→146 prose continuation around145flow. No new mapping/OCR.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0022"
     ],

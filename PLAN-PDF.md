@@ -26,15 +26,15 @@ records below are historical and do not authorize a new rebuild.
 
 October 1984 is in progress: 19 readable, assistant sample-reviewed articles,
 one partial development-system article, three non-owning headings and18 of41
-entries unresolved. Full development-system140–147 is verified; opening140–145
-retains42 regions,26 blocks,11 original images,32 regional spans,six prose joins
-and nine caption associations. Seven forms,two flows and two photos remain
-original images with unpromoted raw drafts; source anomalies and sideways145flow
-are preserved. All39 OCR tasks completed without failures/retries;eight crops
-widened once before OCR,originals retained. Independent byte-identical rebuild
-passes. Next: ending146–147,then separate full eight-page assembly. Human review,
-internal source glyph/cell/byte and execution limits remain explicit;whole-issue
-closeout pending,no reading-room rebuild.
+entries unresolved. Development-system140–147 now exists in two immutable
+natives. Ending146–147 retains21 regions,eight corrected blocks,four original
+survey/list panels,17 regional spans,five prose joins and four composite captions.
+All21 OCR tasks completed without failures,retries or crop repairs;independent
+byte-identical rebuild passes. Source dates,values,blank grids,FILE rows1–5 and
+OUTPUT rows1/2/7 with ellipses remain original images. Next: separate complete
+eight-page assembly,including144→146 prose around145flow. Human review,internal
+source glyph/cell/byte and execution limits remain explicit;whole-issue closeout
+pending,no reading-room rebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.
