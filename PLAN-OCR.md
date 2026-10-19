@@ -19,17 +19,17 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: 23 readable, assistant sample-reviewed articles,
-  one partial microcomputer-design article,four non-owning headings and13 of41
-  entries unresolved. Design ending198–202 retains22regions,14corrected blocks,
-  seven original images,16regional spans/two word joins and six caption links.
-  Figures16–18/control table and three assembler panels retain116printed source
-  positions4–119 through119END at20B4. All22crops reviewed before recognition;
-  22tasks,zero failures/retries/repairs;source/range/scan checks and exact rebuild pass.
-  Three immutable natives now cover188–202;full15-page assembly next. Prior middle
-  preflight timing exception remains explicit. Human acceptance/full proofreading,
-  source glyph/notation/encoded-byte fidelity and execution unverified;whole-issue
-  closeout pending,no reader rebuild.
+- October 1984 is in progress: 24 readable, assistant sample-reviewed articles,
+  no partial,four non-owning headings and13 of41 entries unresolved. Complete
+  마이컴 설계강좌188–202 covers106regions,70corrected blocks,25original images,
+  83regional spans/101reviews,13native boundaries and21caption links. Original18
+  hardware diagrams,two tables,three assembler panels116source positions4–119,
+  series strip/artwork retained. Global source/range/scan/caption/heading/prose/table/
+  assembler checks and exact independent rebuild pass;all native bytes preserved.
+  Six pure scope notes resolve;middle preflight timing exception and all source
+  fidelity limits remain explicit. No new mapping/OCR. Next:full SPC-1000editor203
+  extent review and restoration. Human acceptance/full proofreading,source encoded
+  bytes and circuit/program execution unverified;whole-issue closeout pending,no reader rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
