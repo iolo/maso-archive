@@ -24,22 +24,19 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-Fifteen October articles are readable, assistant sample-reviewed JSON/assets;
-CP/M 입문103–108 is partial, with full source extent103–110 verified. 취미생활 and
-교육입문 are non-owning headings. Twenty-three of41 entries remain unresolved.
-Latest opening retains44 reading blocks,13 original images,51 regional spans and
-seven explicit word/column/page boundaries. All original tables/flows/compiler/
-terminal panels and unpromoted drafts remain, with literal source anomalies and
-control-glyph/byte uncertainty. Independent byte-identical rebuild passes.
-Complete 기계어 강좌74–91, 기초 테크닉 코너92–95 and math97–102 remain selected;
-worked mathematical interiors are original images with unpromoted drafts.
-The [October record](docs/progress/8410.md) and
-[versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
-pin selected JSON/assets and private evidence. Next: CP/M109–110 plus actual
-SPC-1000 input-technique body within candidate111–112 after boundary review;
-at most four candidate source pages/two articles, then separate CP/M assembly.
-The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
-Whole-issue closeout remains pending; no reading-room rebuild occurred.
+Sixteen October articles are readable, assistant sample-reviewed JSON/assets;
+CP/M has exact immutable natives103–108 and109–110 but remains partial pending
+separate full assembly. 취미생활 and 교육입문 are non-owning headings;22 of41
+entries remain unresolved. Latest checkpoint completes SPC input-technique111–112
+and CP/M ending109–110, retaining27 reading blocks/seven original images/32
+regional spans/four source joins. All26 OCR tasks completed without failures or
+retries; eight crops widened once before OCR, originals retained. Both independent
+byte-identical rebuilds pass. Source anomalies, terminal/key diagrams and inline
+command/control-glyph byte limits remain explicit. Next: separate complete CP/M
+assembly from the exact natives. See the [October record](docs/progress/8410.md)
+and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
+The unlisted DOS TOOL KIT41–43 remains excluded. Whole-issue closeout is pending;
+no reading-room rebuild occurred.
 
 ## September 1984 closeout, 2026-10-16
 

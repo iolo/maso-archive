@@ -19,18 +19,18 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: fifteen readable, assistant sample-reviewed
-  articles, one partial CP/M and two non-owning headings;23 of41 entries remain
-  unresolved. Source CP/M103–110 is verified; opening103–108 retains44 reading
-  blocks/13 images/51 regional spans/seven joins and passes exact rebuild. Original
-  table/code/terminal imagery and inline-command/control-glyph limits remain
-  explicit. Next: CP/M109–110 plus actual SPC-1000 input-technique body111–112
-  after boundary review, within four candidate pages/two articles; separate CP/M
-  assembly follows. Complete course74–91, text-animation92–95 and math97–102 remain
-  selected. The unlisted DOS TOOL KIT41–43 stays excluded. Continue from the
+- October 1984 is in progress: sixteen readable, assistant sample-reviewed
+  articles, one partial CP/M and two non-owning headings;22 of41 entries remain
+  unresolved. Latest checkpoint completes SPC input-technique111–112 and CP/M
+  ending109–110:27 blocks/seven original images/32 spans/four joins, both exact
+  rebuilds. All26 OCR tasks completed without failures/retries; eight crops widened
+  once before OCR, originals preserved. Next: assemble full CP/M103–110 from exact
+  immutable opening/ending natives. Source anomalies, image interiors and inline
+  command/control-byte uncertainty remain. Continue from the
   [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
-  Mapped Tesseract remains the default. Whole-issue closeout is pending.
+  Mapped Tesseract remains default; unlisted DOS TOOL KIT41–43 excluded and
+  whole-issue closeout pending.
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
   its report is `archive/pdf/1984-08/evidence/13-1984-08-closeout/report.json` and its
   machine-readable [ledger](docs/ocr-experiments/ocr-august-progress.json) remains preserved.
