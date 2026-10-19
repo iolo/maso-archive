@@ -20,20 +20,22 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - December 1984 is in progress: seven readable, assistant sample-reviewed articles
-  cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46,
-  Apple BASIC to machine language(3)47–63, Christmas-card66–69 and Diamond Field70–77.
-  One non-owning hobby heading;zero partial;29 of37 entries remain unresolved.
-  Diamond Field's complete214-file assembly and156-file metadata revision rebuild
-  identically. All12240prior files remain unchanged. All645physical/568numbered entries,
-  94quoted fields,1478DATA fields,27table cells and18images retain combined source
-  ranges and original evidence. No new mapping, rendering or OCR. The opt-in BASIC
-  source-field extension passes148tests and the earlier Apple assembly still passes.
-  Preserved test/implementation and verifier failures did not change source text/OCR.
-  Glyph/spacing/music candidates and printed checksums remain source readings;
-  source encoding, checksums and execution are unverified. Batch01 timing and batch06
+  cover editorial 18, robot-feature introduction 19, 골목대장 20–33, 똑딱 반짝 34–46,
+  Apple BASIC to machine language(3) 47–63, Christmas-card 66–69 and Diamond Field 70–77.
+  Spin Ball is partial: opening 78–83 is restored; final 84–87 and full assembly
+  remain required. One non-owning hobby heading; 28 of 37 entries remain unresolved.
+  All 195 opening files rebuild identically; 13,004 prior files remain unchanged.
+  Full source extent 78–87 and both neighbors are verified. All 54 original and
+  14 revised exact crops preceded 44 successful OCR tasks, with no failure/retry
+  or post-OCR repair. The opening retains 704 physical rows, 28 numbered entries,
+  662 hex rows/5,280 literals, 662 printed addresses, 45 DATA fields, nine quotes,
+  ten inline examples and ten images. Every index keeps exact source occurrences
+  and UTF-8 ranges. New inventory: 13,781 files. Shared 148-test baseline unchanged.
+  Source glyphs, short rows, physical negative wraps and printed mistakes remain
+  literal; no binary/opcode/shape/length reconstruction. Batch01 timing and batch06
   intermediate retention exceptions remain explicit.
-  Next: establish Spin Ball0008full extent from verified78/PDF80and both neighbors,
-  then restore at most six source pages. Crowded Speedway88is a TOC lookup lead.
+  Next: Spin Ball 84–87/PDF 86–89, then independent complete 78–87 assembly.
+  Reuse pinned ending/neighbors and inspect every exact crop before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

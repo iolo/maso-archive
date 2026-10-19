@@ -42,35 +42,39 @@ July, August, September and October 1984. March retains its absent-source termin
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October; December has seven readable articles, including complete 골목대장20–33,
 똑딱 반짝34–46, Apple BASIC to machine language(3)47–63, Christmas-card66–69 and
-Diamond Field70–77. Hobby0005 is a non-owning divider on unpaginatedPDF67;
-all four child links remain. Zero current partial;29 of37 entries remain unresolved.
+Diamond Field70–77. Spin Ball opening78–83 is now partial. Hobby0005 is a non-owning
+divider on unpaginatedPDF67; all four child links remain. One current partial;
+28 of37 entries remain unresolved.
 
-Diamond Field's214-file full assembly and156-file metadata revision rebuild
-identically. All12240prior files are unchanged. Its59regions,15blocks,18images,
-645physical/568numbered entries,94quoted fields,1478DATA fields and27table cells
-retain exact combined source ranges. The opening revision preserves the original
-package and all four original metadata files. All source/OCR/text/image bytes are
-unchanged. Combined printed checksums, negative decimal spacing, panel blanks,
-music wraps and repeated quotes remain independent source occurrences.
-Printed1050SC/newline100,1920S/OUND, DEFUSR3=&H90,G=1960,4900checksum899and6470color11
-remain literal. Unicode/space/music candidates do not certify MSX/Hangul bytes.
+Batch14 establishes full Spin Ball78–87/PDF80–89 and both neighbors. Its195-file
+opening rebuilds identically, preserving54regions,33blocks,ten images,704physical
+rows,28numbered BASIC entries,662hex rows/5280literals and662printed addresses.
+All45DATA fields, nine quoted strings, ten inline examples, four caption links and
+two prose continuations retain exact source ranges. Short rows0C37/15C8/080A,
+negative-field physical wraps and source mistakes are literal; no reconstruction.
+Original54 and14revised exact crops all preceded44successful mapped OCR tasks.
+No recognition failure/retry or post-OCR repair. All13004prior files unchanged;
+new preservation inventory pins13781files. Shared148-test baseline unchanged.
+All glyph/spacing candidates, batch01 timing, batch06 retention and earlier failure
+attempts remain preserved. Use batch14/evidence verify.py read-only unless --report
+names a fresh path.
 
-Opt-in BASIC source-field tooling is committed as eba1e08and passes148PDF tests;
-the earlier Apple assembly and its four live implementation pins still pass.
-See [the format notes](PDF-BASIC-SOURCE-FIELDS.md). Original test/projection attempts
-are under restoration/diamond-field-assembly; the independent audit's original
-abbreviated1050assertion failure and fresh verify-r02.py are retained under evidence.
-Use verify-r02.py; it is read-only unless --report names a fresh destination.
-The new preservation inventory pins13004files. No additional OCR was needed.
-Both Christmas-card revisions, batch01 timing,
-batch06 retention and all source uncertainty records remain preserved.
+Next: batch15 Spin Ball84–87/PDF86–89. All ending/neighbor full scans are pinned
+under batch14/source-review; reuse and reinspect before mapping. Source continues
+between complete rows67A0/67A8 and ends7BE0 with four fields00 01 00 01. Retain
+every repeated/zero-run field and address as a separate source occurrence; no
+arithmetic, opcode, length or shape-pattern repair. Then independently assemble
+complete78–87, projecting every custom hex/BASIC/quote/DATA/inline source index.
+Following independent Crowded Speedway88/PDF90 is verified.
 
-Next: batch14 Spin Ball0008from verified78/PDF80. Establish full extent and both
-neighbors before mapping at most six pages. Crowded Speedway0009at88is only a TOC
-lookup lead. Reuse and reinspect native13's pinned PDF79–81renders.
-NeighborPDF66 is an unpaginated publisher ad; native58–64shorthand is not an observed
-folio64 or a global-offset claim. Reader integration is separate; the owner
-subsequently requested the October reader build.
+Diamond Field's complete assembly remains at packages/diamond-field-complete-r01;
+its metadata revision and original four metadata files remain preserved. Opt-in
+BASIC field tooling eba1e08 is documented in [the format notes](PDF-BASIC-SOURCE-FIELDS.md).
+Use evidence/diamond-field-assembly/verify-r02.py for that historical audit;
+the initial verifier and failed attempts remain retained. NeighborPDF66 is an
+unpaginated publisher ad; native58–64shorthand is not an observed folio64 or a
+global-offset claim. Reader integration is separate; the owner subsequently
+requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve
 source hashes, canonical IDs/parents, original evidence and user edits. Verify a

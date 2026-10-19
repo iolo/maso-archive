@@ -811,10 +811,110 @@
       "toc_entry_id": "maso-1984-12-toc-0008",
       "title": "스핀 볼",
       "parent_id": "maso-1984-12-toc-0005",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF80/printed78independently starts 스핀 볼; prose ends79with NIBBLE84.5source attribution/closing mark. Full ten-page78–87extent and both neighbors inspected. Final visible7BE0row on87contains four source fields; independent Crowded Speedway starts88/PDF90. Canonical title/identity/parent unchanged.",
+        "Opening78–83native includes complete prose, BASIC list1, hex lists2/3and opening list4through67A0. All704physical rows,28numbered entries,662hex rows/5280literal values,45DATA fields,9quoted strings,10inline examples and10original images have exact source ranges. Remaining84–87and independent full assembly required."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/batch-14-r01/spin-ball-a",
+        "article_id": "scan-maso-1984-12-toc-0008",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/batch-14-r01/spin-ball-a/manifest.json",
+          "sha256": "8b621e1402fe5ce36b5a1464b6931068cca9a0ec847912ee345a9716c43c367a",
+          "bytes": 33143
+        },
+        "coverage": {
+          "pdf_pages": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "printed_pages": [
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83"
+          ],
+          "regions": 54,
+          "blocks": 33,
+          "figures": 10
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-14-r01/spin-ball-a",
+            "article_id": "scan-maso-1984-12-toc-0008",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-14-r01/spin-ball-a/manifest.json",
+              "sha256": "8b621e1402fe5ce36b5a1464b6931068cca9a0ec847912ee345a9716c43c367a",
+              "bytes": 33143
+            },
+            "coverage": {
+              "pdf_pages": [
+                80,
+                81,
+                82,
+                83,
+                84,
+                85
+              ],
+              "printed_pages": [
+                "78",
+                "79",
+                "80",
+                "81",
+                "82",
+                "83"
+              ],
+              "regions": 54,
+              "blocks": 33,
+              "figures": 10
+            },
+            "segment": "a"
+          }
+        ],
+        "full_source_extent": {
+          "pdf_pages": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "printed_pages": [
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87"
+          ]
+        },
+        "deferred_printed_pages": [
+          "84",
+          "85",
+          "86",
+          "87"
+        ],
+        "assembly_required": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0009",
@@ -1104,11 +1204,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 7,
+    "classified_articles": 8,
     "readable_articles": 7,
-    "partial_articles": 0,
+    "partial_articles": 1,
     "nonowning_headings": 1,
-    "unresolved_eligibility": 29,
+    "unresolved_eligibility": 28,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -2294,33 +2394,107 @@
         "sha256": "bc8e52f3807a00db49d4c596793bc2c57e8b53a50d20871eb82a0aaa1e1dd219",
         "bytes": 2989444
       }
+    },
+    {
+      "id": "batch-14",
+      "status": "complete-partial-article-segment",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/checkpoint.json",
+        "sha256": "538f4ba8cca386da38a7eebd43beb75b6873371bf53b73a37c1a8395d1d53453",
+        "bytes": 1794
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-14/validation.json",
+        "sha256": "f25bf30f098660b30761b121b18c14251722aa983bbab8bf329189465a59a521",
+        "bytes": 1057
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/source-reviewed.json",
+        "sha256": "69cf93ca988f7ce94d119d3acb034453d92edda5044313bcae37efa95143ac98",
+        "bytes": 9978
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/mapping-completed.json",
+        "sha256": "22ea7c000c7a40072920646229df8d3d88ad63ac0b3e6b9431480d3dc028df95",
+        "bytes": 1538
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/segment-scope.json",
+        "sha256": "91a81355f27f99a6450ee1a4c27954620f72b7c32a59398f4b6d44e69dcf1d29",
+        "bytes": 850
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/preflight-reviewed.json",
+        "sha256": "efdecef9172a25282e1a55550496f36700b2b6abd02a3ac543373cd5aa099be7",
+        "bytes": 25243
+      },
+      "crop_repair_r02": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/crop-repair-r02.json",
+        "sha256": "9362012f368aafd5faa22c88f9568bb7a8c511ed5a2a3d873f93e6ecf532b8ec",
+        "bytes": 10828
+      },
+      "crop_repair_r03": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/crop-repair-r03.json",
+        "sha256": "8ed4fa91e201c7b292262f920ca9022009c1a2da44496315cef7d92651751adf",
+        "bytes": 1230
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/correction-completed.json",
+        "sha256": "97e3eeaca386f6bb6520876f52995f955a4124b744f1a05c3242012b3c818f76",
+        "bytes": 549
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-14/reproduction.json",
+        "sha256": "9cbbfc4e0c276b91ab7af33d97cde8915d5c95e84aa7c5c0f2ffaae633093efe",
+        "bytes": 1276
+      },
+      "actual_ocr_tasks": 44,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 14,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 13004,
+      "rebuild_files": 195,
+      "regions": 54,
+      "blocks": 33,
+      "figures": 10,
+      "regional_text_ranges": 56,
+      "text_review_items": 72,
+      "prose_joins": 2,
+      "caption_links": 4,
+      "listing_groups": 4,
+      "listing_physical_rows": 704,
+      "listing_logical_entries": 28,
+      "physical_wrap_rows": 14,
+      "regional_listing_spans": 29,
+      "source_notes": 25,
+      "quoted_literals": 9,
+      "basic_data_rows": 3,
+      "basic_data_fields": 45,
+      "hex_rows": 662,
+      "hex_addresses": 662,
+      "hex_literal_fields": 5280,
+      "inline_examples": 10,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-14/preserved-work-inventory.json",
+        "sha256": "28a139de7a8d1b5b1479a9bec39780d93a49fa8b08d07955a3ca7d42d5335d07",
+        "bytes": 3162816
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-14",
-    "goal": "Establish full Spin Ball0008extent from verified independent title78/PDF80 and both neighbors. Restore a bounded opening segment, no more than six mapped source pages, retaining all code/graphics/tables and source uncertainties.",
+    "id": "batch-15",
+    "goal": "Restore final Spin Ball84–87/PDF86–89, all remaining SPIN.SHAPESprinted hex rows67A8through7BE0. Then independently assemble full78–87from both preserved natives with every source index projected.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0008"
     ],
-    "known_start": {
-      "pdf_page": 80,
-      "printed_page": 78
-    },
-    "provisional_mapping_targets": [
-      80,
-      81,
-      82,
-      83,
-      84,
-      85
+    "mapping_targets": [
+      86,
+      87,
+      88,
+      89
     ],
-    "provisional_lookup_targets": [
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
+    "source_lookup_targets": [
       85,
       86,
       87,
@@ -2329,12 +2503,45 @@
       90,
       91
     ],
+    "known_full_extent": {
+      "pdf_pages": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "printed_pages": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "last_address_literal": "7BE0",
+      "last_row_fields": [
+        "00",
+        "01",
+        "00",
+        "01"
+      ]
+    },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Next canonical Crowded Speedway0009at88is a TOC lookup lead, not verified end/offset. Native13already preserved/reviewed PDF79–81; reuse their pins and reinspect. Review full extent and adjacent independent title before mapping; every exact original/revised crop before OCR. No reader rebuild."
+    "note": "All full ending/neighbor scans already pinned by batch14source review; reuse and reinspect before mapping. Every exact original/revised crop before OCR. Source continues between complete rows67A0/67A8. Retain each address and repeated/zero-run value literally; do not generate patterns, reconstruct bytes or infer opcodes/lengths. Final four-field row7BE0must stay short. Following independent Crowded Speedway88/PDF90. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
