@@ -40,12 +40,12 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December has three readable articles including complete 골목대장20–33,
-with one partial 똑딱 반짝34–46 of verified extent34–46 and33 of37 entries
-still unresolved. Batch06's138 files rebuild identically; source/range checks
-pass for129numbered rows and48table cells. Its intermediate correction-history
-retention exception is explicit. Next: independent full 똑딱 반짝34–46 assembly; all180printed listing rows are natively covered.
-All originals and batch01's timing exception remain preserved. Reader
+October; December has four readable articles, including complete 골목대장20–33
+and 똑딱 반짝34–46, with33 of37 entries still unresolved. The latest304-file
+assembly rebuilds identically; source/range checks pass for180numbered rows,
+57table cells and the10/KΩ prose join. All original natives and source uncertainties
+remain preserved, including batch01's timing and batch06's intermediate retention
+exceptions. Next: Apple BASIC to machine language(3), from47, after extent verification. Reader
 integration is separate; the owner subsequently requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve

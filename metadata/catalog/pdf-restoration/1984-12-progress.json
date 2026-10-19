@@ -238,19 +238,19 @@
       "parent_id": "maso-1984-12-toc-0001",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "PDF36/printed34 visibly starts independent title/byline; every page through final assembly line180 RET on PDF48/printed46 inspected. Prior article ends33; next feature starts47/PDF49.",
-        "Three preserved natives cover34–46 completely, including all180printed rows. Separate full assembly and10/KΩ prose boundary resolution required before readable status."
+        "Three preserved natives and independent full assembly cover all34–46. Literal10/KΩ prose join, every180listing row, all table/caption/source ranges and original preservation pass; source uncertainties remain explicit."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-12/packages/batch-05-r01/tick-tock-a",
+        "directory": "archive/pdf/1984-12/packages/tick-tock-complete-r01",
         "article_id": "scan-maso-1984-12-toc-0003",
         "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-05-r01/tick-tock-a/manifest.json",
-          "sha256": "a3d5312606422268f069f72f0c8a76ee8573a89f3a0fb1b97f42ec3c8e07929d",
-          "bytes": 21119
+          "path": "archive/pdf/1984-12/packages/tick-tock-complete-r01/manifest.json",
+          "sha256": "374166671ef5d2e9ab27e54358af64a8320dac9186c288ff6b49f279b705f542",
+          "bytes": 55409
         },
         "coverage": {
           "pdf_pages": [
@@ -284,10 +284,10 @@
             "46"
           ],
           "regions": 86,
-          "blocks": 78,
+          "blocks": 77,
           "figures": 25
         },
-        "segments": [
+        "native_segments": [
           {
             "directory": "archive/pdf/1984-12/packages/batch-05-r01/tick-tock-a",
             "article_id": "scan-maso-1984-12-toc-0003",
@@ -372,39 +372,39 @@
             "segment": "c"
           }
         ],
-        "full_source_extent": {
-          "pdf_pages": [
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47,
-            48
-          ],
-          "printed_pages": [
-            "34",
-            "35",
-            "36",
-            "37",
-            "38",
-            "39",
-            "40",
-            "41",
-            "42",
-            "43",
-            "44",
-            "45",
-            "46"
-          ]
+        "index_revisions": [
+          {
+            "name": "opening",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/tick-tock-index-r01/opening/manifest.json",
+              "sha256": "36130e40f7ff0b179dfa663a30807f686562e6ce9b153e39f90ca328190fc357",
+              "bytes": 21119
+            }
+          },
+          {
+            "name": "middle",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/tick-tock-index-r01/middle/manifest.json",
+              "sha256": "44566bd5bf200c2ecf2d3b849210b59d1ae697d663308efed766208cfe3be556",
+              "bytes": 23267
+            }
+          },
+          {
+            "name": "ending",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/tick-tock-index-r01/ending/manifest.json",
+              "sha256": "240bf595325f015a20b447de787ad9074fd5f11c89509ce50fbf3369bc8a82e3",
+              "bytes": 4957
+            }
+          }
+        ],
+        "extended_index": {
+          "path": "archive/pdf/1984-12/evidence/tick-tock-assembly/projected-extended-index.json",
+          "sha256": "95ee1ab5092635a4368050a2192f31219ae70f885137e7e907a9700701c0f461",
+          "bytes": 130723
         },
-        "deferred_printed_pages": []
+        "deferred_printed_pages": [],
+        "assembly_required": false
       }
     },
     {
@@ -741,8 +741,8 @@
   "totals": {
     "canonical_entries": 37,
     "classified_articles": 4,
-    "readable_articles": 3,
-    "partial_articles": 1,
+    "readable_articles": 4,
+    "partial_articles": 0,
     "nonowning_headings": 0,
     "unresolved_eligibility": 33,
     "human_accepted_articles": 0
@@ -1241,17 +1241,110 @@
         "sha256": "89c6d3b27710c2959b7d15e22dc5b976ec637b2979810f0b8bad38319b450127",
         "bytes": 1274721
       }
+    },
+    {
+      "id": "tick-tock-assembly",
+      "status": "complete-readable-article",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/tick-tock-assembly/checkpoint.json",
+        "sha256": "4f3984661b2d8b5e6315b47e35fec44377db9a069492c4236cb3feefb3a9c08d",
+        "bytes": 1596
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/tick-tock-assembly/validation.json",
+        "sha256": "90fb263a1c8f2eb51961925331f08f55e19172bf80159c1e53c5a5c349a483b1",
+        "bytes": 1772
+      },
+      "extended_index": {
+        "path": "archive/pdf/1984-12/evidence/tick-tock-assembly/projected-extended-index.json",
+        "sha256": "95ee1ab5092635a4368050a2192f31219ae70f885137e7e907a9700701c0f461",
+        "bytes": 130723
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/tick-tock-assembly/reproduction.json",
+        "sha256": "c36ab25f551327fc46a8a23ef788ab229176555d2c3250abdec9c9daae89358e",
+        "bytes": 1618
+      },
+      "manifest": {
+        "path": "archive/pdf/1984-12/packages/tick-tock-complete-r01/manifest.json",
+        "sha256": "374166671ef5d2e9ab27e54358af64a8320dac9186c288ff6b49f279b705f542",
+        "bytes": 55409
+      },
+      "new_ocr_tasks": 0,
+      "new_mapping_pages": 0,
+      "source_token_changes": 0,
+      "formatting_revision": "Remove exactly288leading spaces before printed line numbers in fresh index revisions; preserve every source token and all original natives.",
+      "regions": 86,
+      "blocks": 77,
+      "figures": 25,
+      "regional_text_ranges": 86,
+      "source_block_ranges": 78,
+      "text_review_ranges": 117,
+      "prose_joins": 8,
+      "resolved_prose_boundaries": 1,
+      "listing_physical_rows": 180,
+      "listing_logical_rows": 180,
+      "table_cells": 57,
+      "blank_table_cells": 7,
+      "caption_associations": 19,
+      "unknown_asterisk_run_rows": 4,
+      "listing_source_uncertainty_notes": 10,
+      "prior_files_verified": 5579,
+      "package_files": 304,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/tick-tock-assembly/preserved-work-inventory.json",
+        "sha256": "775d861d7c80d26a15772437cb129f900660b14d5044d53c295e9c91e1ef2b4c",
+        "bytes": 1644627
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "tick-tock-assembly",
-    "goal": "Independently assemble complete 똑딱 반짝34–46 from three pinned natives; join10/KΩ, retain all180listing rows, tables/figures and original corrections.",
-    "limits": {
-      "new_mapping_pages": 0,
-      "new_ocr_tasks": 0,
-      "assembled_articles": 1
+    "id": "batch-08",
+    "goal": "Establish actual full extent of canonical0004 Apple BASIC to machine language(3), from verified opening47/PDF49; restore first six pages within bounded limits.",
+    "toc_entry_ids": [
+      "maso-1984-12-toc-0004"
+    ],
+    "known_start": {
+      "pdf_page": 49,
+      "printed_page": 47
     },
-    "note": "Use fresh metadata/index revisions where required; preserve all original source readings. Code-number indentation may need a documented format-only revision for wrapped-listing projection. Human proofreading/source bytes/execution remain unverified."
+    "mapping_targets": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "provisional_lookup_targets": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "limits": {
+      "articles": 2,
+      "mapped_source_pages": 6,
+      "outside_map_lookup_pages": 20
+    },
+    "note": "Opening title/byline/source folio verified; next canonical article starts66candidate only. Inspect every actual folio through end/adjacent title within lookup limit, then map49–54 only. Preserve all graphics, source tables and code rows; inspect exact crops before OCR. Do not infer engineering corrections or executable bytes."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

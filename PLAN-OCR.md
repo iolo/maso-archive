@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-19. Read this before future PDF restoration. This is the current
+Updated 2026-10-20. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -19,18 +19,17 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- December 1984 is in progress: editorial18, robot-feature introduction19 and
-  complete 골목대장20–33 are readable and assistant sample-reviewed.
-  똑딱 반짝34–46 is restored in three partial natives of verified extent34–46.
-  Of37 canonical entries,33 await classification/restoration. Batch06 retains
-  39regions,40blocks,nine images,48table cells and129numbered code rows.
-  All138 files rebuild identically; source/range/preflight checks pass and all4911
-  prior evidence files are unchanged. All39original/15revised crops were inspected
-  before30 successful OCR tasks. An intermediate correction-history retention
-  exception is explicit; raw OCR and exports are preserved.
-  Four earlier hex bytes remain uncertain. Batch01's initial crop-review timing
-  exception remains explicit. Next: independent full 똑딱 반짝34–46 assembly; all180printed listing rows are natively covered.
-  Inspect current full pages and every exact crop before OCR.
+- December 1984 is in progress: editorial18, robot-feature introduction19,
+  complete 골목대장20–33 and complete 똑딱 반짝34–46 are readable and assistant
+  sample-reviewed. Of37 entries,33 await classification/restoration. The latest
+  assembly retains86regions,77blocks,25images,180numbered code rows and57table
+  cells. All304files and three index revisions rebuild identically; all5579 prior
+  files are unchanged. The10/KΩ sentence is joined; code-number padding removal
+  is exactly288spaces, with all originals retained. Four decorative asterisk-run
+  rows and earlier glyph/hex candidates remain uncertain. Batch01's initial
+  timing and batch06's intermediate retention exceptions remain explicit.
+  Next: Apple BASIC to machine language(3), from47; verify extent before mapping
+  the first six pages. Inspect full pages and every exact crop before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

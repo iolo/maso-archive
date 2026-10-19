@@ -1,19 +1,18 @@
 # PDF restoration progress
 
-Updated 2026-10-19. This file is the status index; detailed records live under
+Updated 2026-10-20. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: editorial18, robot-feature introduction19 and the
-complete 골목대장20–33 are readable and assistant sample-reviewed. 똑딱 반짝34–46
-is restored in three partial natives of verified extent34–46. Of37 canonical entries,
-33 await classification/restoration. All selected packages and independent rebuilds
-pass; batch06's138 files retain nine images,48table cells and129code rows. Four earlier
-hex bytes remain uncertain; batch01's timing exception remains explicit.
-Batch06's intermediate correction-history retention exception is explicit.
-Next: independent full 똑딱 반짝34–46 assembly; all180printed listing rows are natively covered.
+December 1984 is in progress: four readable, assistant sample-reviewed articles
+cover editorial18, robot-feature introduction19, 골목대장20–33 and 똑딱 반짝34–46.
+Of37 canonical entries,33 await classification/restoration. The latest304-file
+assembly rebuilds identically, retaining25images,180code rows and57table cells.
+All original natives remain preserved. Source uncertainties and the batch01 timing/
+batch06 intermediate retention exceptions remain explicit.
+Next: Apple BASIC to machine language(3), from47, after extent verification.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
@@ -53,7 +52,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
-| 1984-12 | 4 started | 3 readable, 1 partial; 33 TOC entries unresolved | [8412](docs/progress/8412.md) |
+| 1984-12 | 4 | 4 readable; 33 TOC entries unresolved | [8412](docs/progress/8412.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
