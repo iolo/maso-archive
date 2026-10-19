@@ -1418,7 +1418,8 @@
       "classification_evidence": [
         "Separate 도량형 환산 프로그램120/PDF122,signed 김경묵,SPC-1000; canonical title/byline/parent unchanged.",
         "Complete120–128/PDF122–130 through4850 CLS:END,prior Apple Fortran119,next canonical debugging room129. Lower121 unrelated 우신기술서적 ad excluded.",
-        "Current immutable opening120–125 preserves all independent reading text and original photo/tables/eight BASIC columns10–3320. Ending126–128 and separate complete nine-page assembly remain required."
+        "Current immutable opening120–125 preserves all independent reading text and original photo/tables/eight BASIC columns10–3320. Ending126–128 and separate complete nine-page assembly remain required.",
+        "Ending126–128 now restored as separate immutable native; full nine-page native coverage exists,selected opening remains partial until separate complete assembly."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-22-r01/conversion-a",
@@ -1481,7 +1482,27 @@
             "128"
           ]
         },
-        "complete_article_assembly_pending": true
+        "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "name": "opening",
+            "directory": "archive/pdf/1984-10/packages/batch-22-r01/conversion-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-22-r01/conversion-a/manifest.json",
+              "sha256": "2fb238b055fb55e5dbf611a8bea6c7bd17ef7dfd126ba640c7e635f58a9c19e1",
+              "bytes": 15268
+            }
+          },
+          {
+            "name": "ending",
+            "directory": "archive/pdf/1984-10/packages/batch-23-r01/conversion-b",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-23-r01/conversion-b/manifest.json",
+              "sha256": "bbf9ba9c2733c86c25f1fafc986c7fdc27045192a77e1a7c3428b8750c6cedb7",
+              "bytes": 5380
+            }
+          }
+        ]
       }
     },
     {
@@ -2473,17 +2494,45 @@
       "outputs": [
         "maso-1984-10-toc-0020"
       ]
+    },
+    {
+      "id": "batch-23",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-23/checkpoint.json",
+        "sha256": "dfd0333eafa5a75d27f25a927a68bc754d5c62db2c554be491b993c16b0d59b1",
+        "bytes": 2601
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-23/source-review.json",
+        "sha256": "ca81c5b7e6b125ffb2724c9408ce17b4885abd733c9e2ae08ad1125786dc32d3",
+        "bytes": 1244
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-23/validation.json",
+        "sha256": "643b3c4f01582341f9486d4be9ba0f48ef573f12ee584223ec72a0a52e011656",
+        "bytes": 1709
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-23/review-log.json",
+        "sha256": "713e19a77a4662703c13eabeef855a6a9390b26bf84c4b16954f72e4481e1fca",
+        "bytes": 1497
+      },
+      "status": "conversion-ending-preserved",
+      "tool_revision": "d83ca99",
+      "outputs": [
+        "maso-1984-10-toc-0020"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-23",
-    "goal": "Restore conversion ending126–128/PDF128–130,remaining six whole BASIC column images3330–4850 and bitmap/array tables encoded in source. Reuse pinned full nine-page extent and adjacent129 debugging boundary. Separate full assembly follows; Business divider139seq/PDF141 already source-verified for later non-owning classification.",
+    "id": "conversion-assembly",
+    "goal": "Assemble full conversion120–128 from exact immutable natives; audit14 complete BASIC columns/485 numbered positions and all physical bitmap/string wraps,two explanation tables,photo,global text ranges and source associations.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0020"
     ],
-    "maximum_articles": 2,
-    "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20
+    "maximum_articles": 1,
+    "maximum_mapped_pages": 0,
+    "maximum_outside_map_lookups": 0
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

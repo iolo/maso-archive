@@ -32,8 +32,8 @@ regions,nine blocks,11 original images,10 regional spans and one source join.
 Eight complete BASIC panels retain332 numbered positions; photo and both source
 explanation tables remain original images with raw drafts unpromoted. All20 OCR
 tasks completed without failures/retries; three crops widened once before OCR,
-originals retained. Independent byte-identical rebuild passes. Next: ending
-126–128,then separate full conversion assembly. Source bitmap/encoded-byte,
+originals retained. Independent byte-identical rebuild passes. All nine source pages now have
+immutable native coverage; next assemble complete conversion120–128. Source bitmap/encoded-byte,
 internal code/table and execution limits remain explicit. Whole-issue closeout
 pending; no reading-room rebuild.
 
