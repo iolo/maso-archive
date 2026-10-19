@@ -20,17 +20,16 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - October 1984 is in progress: 29 readable, assistant sample-reviewed articles,
-  no partial articles, five non-owning headings, and seven unresolved entries out
-  of 41. Complete 하얀돌 까만돌221–223 preserves 26 regions, 17 corrected blocks
-  and eight original images. Six BASIC panels retain 105 printed numbers,
-  123 physical wraps and three continuations across columns; the Go screen,
-  data layout and 16 variable explanations remain source-linked. All source,
-  range, scan and continuation checks and the independent rebuild pass. Source
-  DATA580 fading and the -2000/-1000 discrepancy remain explicit. Next: verify
-  피라밋II from224 and restore a bounded opening. The earlier design-middle
-  preflight timing exception remains documented. Human acceptance, full
-  proofreading, source bytes and execution remain unverified. Whole-issue
-  closeout is pending; no reading-room rebuild.
+  one partial article, five non-owning headings and six unresolved entries out
+  of 41. 피라밋II opening224–229 preserves 24 regions, 11 corrected blocks and
+  11 original images, including seven BASIC panels with299 printed numbers,
+  189 physical wraps and488 physical rows. The36 program-range explanations and
+  31 variable descriptions remain source-linked. PDF227has no visible folio;
+  225is sequence only and its printed-page field remains null. All crop/source/
+  range/scan checks and the independent rebuild pass. Next: ending230–234 and
+  complete11-page assembly. The earlier design-middle preflight timing exception
+  remains recorded. Human acceptance, full proofreading, source bytes and execution
+  remain unverified. Whole-issue closeout is pending; no reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

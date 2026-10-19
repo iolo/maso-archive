@@ -2726,10 +2726,132 @@
       "toc_entry_id": "maso-1984-10-toc-0034",
       "title": "피라밋 II",
       "parent_id": "maso-1984-10-toc-0030",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical 피라밋 II/차승엽/공모입선작 parent unchanged. Actual224–234/PDF226–236ends6520DATA;adjacent223Go/235복덕방 independent. SourceSPC-1000/광신중3년 recorded separately.",
+        "Opening224–229sixmapped pages,PDF227no visiblefolio:null preserved,225sequenceonly. Rightindependent 알파서림advertisement excluded. All24initial/one revised crops reviewedbefore23OCRtasks,zero failures/retries.",
+        "11corrected blocks/11originalimages retain36program ranges/31variable definitions/seven originalsingle-program panels299numbers/189wraps/488physicalrows. All source/range/scan checks and independent rebuild pass. Preliminaryextra1667claim superseded by verified ordinary1670;successfulOCR reusedunchanged. Ending230–234and fullassemblypending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-44-r03/pyramid-a",
+        "article_id": "scan-maso-1984-10-toc-0034",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-44-r03/pyramid-a/manifest.json",
+          "sha256": "9b39380143043ce7a3e6bd838eded07efb304ee43f8add514989eefb54e516da",
+          "bytes": 17385
+        },
+        "coverage": {
+          "pdf_pages": [
+            226,
+            227,
+            228,
+            229,
+            230,
+            231
+          ],
+          "printed_pages": [
+            "224",
+            null,
+            "226",
+            "227",
+            "228",
+            "229"
+          ],
+          "sequence_positions": [
+            "224",
+            "225",
+            "226",
+            "227",
+            "228",
+            "229"
+          ],
+          "regions": 24,
+          "blocks": 11,
+          "figures": 11,
+          "regional_text_ranges": 15,
+          "text_review_ranges": 18,
+          "explicit_prose_boundaries": 4,
+          "word_split_joins": 2,
+          "list_continuations": 2,
+          "caption_blocks": 0,
+          "caption_associations": 0,
+          "source_heading_associations": 23,
+          "source_prose_image_associations": 18,
+          "image_text_overlaps": 3,
+          "original_basic_panels": 7,
+          "source_program_groups": 1,
+          "source_number_positions": 299,
+          "source_internal_wrap_rows": 186,
+          "source_incoming_wrap_rows": 3,
+          "source_total_wrap_rows": 189,
+          "source_physical_text_rows": 488,
+          "program_panel_connections": 6,
+          "wrapped_panel_connections": 2,
+          "source_program_range_explanations": 36,
+          "source_variable_explanations": 31,
+          "typed_program_rows": 0
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236
+          ],
+          "printed_pages": [
+            "224",
+            null,
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231",
+            "232",
+            "233",
+            "234"
+          ],
+          "sequence_positions": [
+            "224",
+            "225",
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231",
+            "232",
+            "233",
+            "234"
+          ]
+        },
+        "complete_article_assembly_pending": true,
+        "native_segments": [
+          {
+            "directory": "archive/pdf/1984-10/packages/batch-44-r03/pyramid-a",
+            "manifest": {
+              "path": "archive/pdf/1984-10/packages/batch-44-r03/pyramid-a/manifest.json",
+              "sha256": "9b39380143043ce7a3e6bd838eded07efb304ee43f8add514989eefb54e516da",
+              "bytes": 17385
+            }
+          }
+        ],
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-44/source-associations.json",
+          "sha256": "6282212b3d3d686f47ca21cedf721f56fff2d237f44f8be3f48105a37e599ade",
+          "bytes": 158842
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0035",
@@ -2822,15 +2944,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 29,
+    "articles": 30,
     "non_owning_headings": 5,
-    "unresolved_classification": 7,
+    "unresolved_classification": 6,
     "readable": 29,
-    "partial": 0,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 34,
-    "unresolved_availability": 7
+    "sample_reviewed": 35,
+    "unresolved_availability": 6
   },
   "checkpoints": [
     {
@@ -4436,11 +4558,39 @@
       "outputs": [
         "maso-1984-10-toc-0033"
       ]
+    },
+    {
+      "id": "batch-44",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-44/checkpoint.json",
+        "sha256": "8b7a17e19a66dddaf0ede60d2cecf2026e19aab7da53d295b211f5fc1c618def",
+        "bytes": 2245
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-44/source-review.json",
+        "sha256": "d2ed35ec6e6706e8a083178fc9fb6c8624605ab33639e8a5ac1ea7bdaf6a877e",
+        "bytes": 3868
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-44/validation.json",
+        "sha256": "c813cee9a00eebdf92b89c80bc0fc5e95a84043d42f182f7e707994a7f8ce03b",
+        "bytes": 3011
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-44/review-log.json",
+        "sha256": "af6acab60030ade302003fc5453db52a850a00cb837b5e21ece23aaf760bd9c0",
+        "bytes": 2605
+      },
+      "status": "partial-pyramid-opening",
+      "tool_revision": "ca7d8a9",
+      "outputs": [
+        "maso-1984-10-toc-0034"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-44",
-    "goal": "Verify full 피라밋II0034 actual extent from224 before235복덕방,all candidate/adjacent source pages before mapping. Restore bounded opening up to6mapped pages;retain original graphics/screens/controls/program panels,correct standalone prose/captions/explanatory rows. Segment longer article and assemble immutable outputs.",
+    "id": "batch-45",
+    "goal": "Restore original 피라밋II ending230–234/PDF232–236,five mappedpages,tenwholecodepanels. Review allcropsbeforeOCR,preserve physicalwraps/incoming2890and final6520DATA. Then assemble immutable opening/ending and validate all11pages/36range/31variable scopes. PDF227missing literalfolio remainsnull.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0034"
     ],
