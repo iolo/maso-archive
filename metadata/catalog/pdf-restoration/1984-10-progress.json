@@ -1811,10 +1811,87 @@
       "toc_entry_id": "maso-1984-10-toc-0024",
       "title": "의료보험 수가계산",
       "parent_id": "maso-1984-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Separate 의료보험 수가계산167/PDF169,displayed 애플 컴패티블(주)컴퓨텍/historical contact;canonical title/byline컴퓨텍/Business parent unchanged. Internal code D S LEE comments remain source observations,not byline replacement.",
+        "Full continuous167–176/PDF169–178 verified,prior addressbook166,next independent 자료구조177. No unrelated ads/body. Source174/176 describe differences-only listings3/4;future report modules explicitly deferred to next issue by source.",
+        "Current167–172 retains15 corrected standalone blocks/eight original title/code/table images. Menu and standard-price listings1/2 complete in five panels/196 source labels;all source values/glyphs/raw drafts preserved. Remaining173–176 and separate full10-page assembly required."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-30-r01/medical-a",
+        "article_id": "scan-maso-1984-10-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-30-r01/medical-a/manifest.json",
+          "sha256": "a500ca3bfc67dd5b45120549de3acfbb43bd0d9ef49cca4af0f50ab57e71edcf",
+          "bytes": 18797
+        },
+        "coverage": {
+          "pdf_pages": [
+            169,
+            170,
+            171,
+            172,
+            173,
+            174
+          ],
+          "printed_pages": [
+            "167",
+            "168",
+            "169",
+            "170",
+            "171",
+            "172"
+          ],
+          "regions": 26,
+          "blocks": 15,
+          "figures": 8,
+          "regional_text_ranges": 18,
+          "text_review_ranges": 19,
+          "physical_listing_rows": 0,
+          "original_basic_panels": 5,
+          "source_number_positions": 196,
+          "menu_source_number_positions": 70,
+          "standard_price_source_number_positions": 126,
+          "original_tables": 2,
+          "source_table1_rows": 24,
+          "source_table1_code_positions": 48,
+          "source_table2_record_positions": 11,
+          "original_title_frame": 1,
+          "caption_blocks": 4,
+          "caption_associations": 7,
+          "native_prose_boundaries": 3
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178
+          ],
+          "printed_pages": [
+            "167",
+            "168",
+            "169",
+            "170",
+            "171",
+            "172",
+            "173",
+            "174",
+            "175",
+            "176"
+          ]
+        },
+        "complete_article_assembly_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0025",
@@ -1997,15 +2074,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 21,
+    "articles": 22,
     "non_owning_headings": 3,
-    "unresolved_classification": 17,
+    "unresolved_classification": 16,
     "readable": 21,
-    "partial": 0,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 24,
-    "unresolved_availability": 17
+    "sample_reviewed": 25,
+    "unresolved_availability": 16
   },
   "checkpoints": [
     {
@@ -3077,11 +3154,39 @@
       "outputs": [
         "maso-1984-10-toc-0023"
       ]
+    },
+    {
+      "id": "batch-30",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-30/checkpoint.json",
+        "sha256": "f6c59df8e6e0f901fd6983e6eeb20ba6053664f6d145cee6956a2118b56c1c30",
+        "bytes": 2446
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-30/source-review.json",
+        "sha256": "2f9f0767fe088f9fd6734ecbab7333515f0a64519469b460119c04ef127068ff",
+        "bytes": 2159
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-30/validation.json",
+        "sha256": "df8a910f703bd5d63e23cfba690fd05bec2332ff41676cf20f9ea9afa59146f8",
+        "bytes": 2671
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-30/review-log.json",
+        "sha256": "8b6a186d7da0297f7e75dd9a50b781b698a42b6fdce2f3d7a3640dc19fb2a255",
+        "bytes": 2844
+      },
+      "status": "partial-medical-opening",
+      "tool_revision": "269fd5c",
+      "outputs": [
+        "maso-1984-10-toc-0024"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-30",
-    "goal": "Verify full canonical 의료보험 수가계산0024 actual extent from167 before next177,all candidate pages/adjacent boundaries before mapping. Restore bounded opening at most167–172 with complete source prose/captions/original program panels;preserve source identity/old glyph/encoded-byte/execution limits.",
+    "id": "batch-31",
+    "goal": "Restore medical ending173–176/PDF175–178 using full167–176 extent/adjacent172code and177independent자료구조. Correct remaining classification/union prose/captions,retain category table3/disease table4 both fragments/union table5 and listings3/4 source differences-only panels. Preserve source differing references/omitted-code claims without synthesizing expanded programs. Separate full10-page assembly follows.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0024"
     ],

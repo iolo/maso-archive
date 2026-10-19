@@ -7,18 +7,17 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1984 is in progress: 21 readable, assistant sample-reviewed articles,
-no partial articles,three non-owning headings and17 of41 entries unresolved.
-Complete addressbook148–166 retains113 regions,61 corrected blocks,55 original
-images,68 regional spans,77 text reviews,seven native prose joins,two cross-native
-connections and36 caption links. Eighteen original BASIC columns preserve separate
-initialization32/main608 source labels;17 main columns have16 connections/seven
-incoming physical wraps. Source replacement examples,diagrams/screens/printout,
-duplicate caption11 and page16/column19 fragments remain original. Four natives
-are byte-preserved;independent whole rebuild matches.13 obsolete coverage components
-resolve while both mixed fidelity clauses remain. Next:verify full medical-insurance
-article from167 before177,then bounded opening. Human acceptance/full proofreading,
-source glyph/control/encoded-byte fidelity and execution remain unverified;
-whole-issue closeout pending,no reading-room rebuild.
+one partial medical-insurance article,three non-owning headings and16 of41 entries
+unresolved. Full medical167–176 is verified;opening167–172 retains26 regions,
+15 corrected blocks,eight original images,18 regional spans,three prose joins and
+seven caption associations. Five whole BASIC panels preserve separate menu70/
+standard-price126 source labels;two original tables retain24 category rows/48codes
+and11 report records. All25 OCR tasks completed without failures,retries or crop
+repairs;independent byte-identical rebuild passes. Source medical/price/insurance
+claims and3000/3900 discrepancy retained. Next:173–176 ending,then full10-page
+assembly;source listings3/4 contain differences-only material,not inferred expanded
+programs. Human acceptance/full proofreading,source glyph/control/cell/encoded-byte
+fidelity and execution remain unverified;whole-issue closeout pending,no reader rebuild.
 See the [October record](docs/progress/8410.md) and versioned ledger.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
@@ -51,7 +50,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 21 classified | 21 readable; 17 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 22 classified | 21 readable, 1 partial; 16 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
