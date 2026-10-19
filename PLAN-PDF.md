@@ -25,22 +25,19 @@ records below are historical and do not authorize a new rebuild.
 ## October 1984 in progress, 2026-10-19
 
 Fifteen October articles are readable, assistant sample-reviewed JSON/assets;
-취미생활 and 교육입문 are non-owning headings. Twenty-four of41 entries remain
-unresolved; no partial article is selected. Latest: complete 기계어 강좌74–91,
-assembled from three exact natives across18 source pages. Its62 reading blocks,
-40 original images,18 short-example rows and both700-position reference series
-pass range/scan/native-preservation and independent byte-identical rebuild checks.
-Source code/table drafts remain unpromoted; canonical 박재현/displayed 이세형
-and literal source anomalies retain explicit uncertainty. Complete35 caption scopes
-and72 source regional text spans are independently indexed in linked evidence.
+CP/M 입문103–108 is partial, with full source extent103–110 verified. 취미생활 and
+교육입문 are non-owning headings. Twenty-three of41 entries remain unresolved.
+Latest opening retains44 reading blocks,13 original images,51 regional spans and
+seven explicit word/column/page boundaries. All original tables/flows/compiler/
+terminal panels and unpromoted drafts remain, with literal source anomalies and
+control-glyph/byte uncertainty. Independent byte-identical rebuild passes.
+Complete 기계어 강좌74–91, 기초 테크닉 코너92–95 and math97–102 remain selected;
+worked mathematical interiors are original images with unpromoted drafts.
 The [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
-pin selected JSON/assets and private evidence. 기초 테크닉 코너92–95 is also
-complete:47 reading blocks,10 original BASIC panels/107 numbered positions and
-two typed MID$ rows. Lower ad93 and full ad96 excluded. Complete 수학을 통한
-논리학습97–102 retains29 reading blocks/25 images, twelve mathematical panels,
-three numberlines and nine code columns/223 numbered positions. Next: verify CP/M
-입문 from103 to before111 and restore opening within candidate103–108.
+pin selected JSON/assets and private evidence. Next: CP/M109–110 plus actual
+SPC-1000 input-technique body within candidate111–112 after boundary review;
+at most four candidate source pages/two articles, then separate CP/M assembly.
 The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
 Whole-issue closeout remains pending; no reading-room rebuild occurred.
 
