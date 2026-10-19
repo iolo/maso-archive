@@ -19,16 +19,18 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: 27 readable, assistant sample-reviewed articles,
-  one partial슈퍼리그article,five non-owning headings and8 of41 entries unresolved.
-  슈퍼리그ending220retains two whole originalprogram panels117sourcepositions/
-  27wraps/144physicaltextrows/19DATAstatements,sourceends6320DATA. No independent
-  endingprose/title/byline/caption or typedcode. Bothcropsreviewedbefore2engOCRtasks,
-  zero failures/retries/repairs;source/scan/panelchecks and exactrebuildpass. Two
-  immutable nativescover214–220;complete7-pageassemblynext,including543source
-  positions/76wraps/ninepanelconnections andcross-native5250reference. Prior
-  design-middle timingexceptionremainsrecorded;humanacceptance/fullproofreading/
-  sourcebytes/executionunverified. Whole-issuecloseoutpending,no readerrebuild.
+- October 1984 is in progress: 28 readable, assistant sample-reviewed articles,
+  no partial articles, five non-owning headings, and eight unresolved entries out
+  of 41. Complete 슈퍼리그214–220 contains 24 regions, 11 corrected blocks and
+  12 original images. Ten BASIC panels preserve one program with 543 printed
+  number positions, 76 physical wraps and 19 DATA statements. The 22 variable
+  explanations, 21 program ranges, source references and header overlaps pass
+  global checks. Every native file is preserved; the complete package rebuilds
+  byte-for-byte without new mapping or OCR. Four obsolete scope notes resolve;
+  source fidelity limits remain. Next: verify and restore 하얀돌까만돌 from221.
+  The earlier design-middle preflight timing exception remains documented.
+  Human acceptance, full proofreading, source bytes and execution are unverified.
+  Whole-issue closeout remains pending. No reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

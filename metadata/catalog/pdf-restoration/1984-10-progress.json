@@ -2522,21 +2522,20 @@
       "parent_id": "maso-1984-10-toc-0030",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Source슈퍼리그214/PDF216with프로그램공모우수상/subtitle/SPC-1000/이영섭/한양대전자통신공학과3년. Canonical슈퍼리그/이영섭/공모입선작parentunchanged.",
         "Actualfull214–220/PDF216–222endsDATA6320infinalrightpanel. All7foliosindividuallychecked,prior213공모총평/next221하얀돌까만돌excluded. Lower216BASICAadvertisementexcluded.",
-        "Opening214–219retains11correctedblocks/10originalimages,12regionalspans/15reviews/onewordjoin. EightoriginalBASICpanels426sourcepositions/49wraps/extra1455,singleprogram;22variable/21rangeexplanationsremainprose. All22initial/onerevisedcropsreviewedbefore20OCRtasks,zero failure/retry;source/range/scan/associationsandindependentrebuildpass. Ending220/full7-pageassemblyrequired.",
-        "Ending220retainedseparately:two wholeoriginalBASICpanels117sourcepositions5160–6320/27wraps/144physicaltextrows/19DATAstatements. Bothcrops reviewedbefore2engOCRtasks,zero failure/retry/repair;all source/scan/panelchecks and independentrebuildpass. No standalone endingtitle/byline/prose/captionor typedcode. Two immutable nativesnowcoverfull214–220,separate complete7-pageassemblyrequired."
+        "Exact two immutable natives retain24regions/11correctedblocks/12originalimages. Ten single-programBASICpanels543sourcepositions/76wraps/619physicalrows/ninepanelconnections/19DATAstatements;22variable/21rangeexplanations remain prose. Allglobalranges/scans/program/heading/headeroverlap/4250and5250references pass;all nativefiles and independent completerebuild exact."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-41-r01/superleague-a",
+        "directory": "archive/pdf/1984-10/packages/superleague-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0032",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-41-r01/superleague-a/manifest.json",
-          "sha256": "e938aa81b5a4c27b1cac7c9a904ffbeffb1527dc481dd99f2e8e45a388143c3b",
-          "bytes": 15347
+          "path": "archive/pdf/1984-10/packages/superleague-complete-r01/manifest.json",
+          "sha256": "a3bcdea7d7ad21a76bbd688141e3ea3ea2cb04b79a4dd0aeb8929f5fece5eaa9",
+          "bytes": 20842
         },
         "coverage": {
           "pdf_pages": [
@@ -2545,7 +2544,8 @@
             218,
             219,
             220,
-            221
+            221,
+            222
           ],
           "printed_pages": [
             "214",
@@ -2553,32 +2553,35 @@
             "216",
             "217",
             "218",
-            "219"
+            "219",
+            "220"
           ],
-          "regions": 22,
+          "regions": 24,
           "blocks": 11,
-          "figures": 10,
-          "regional_text_ranges": 12,
+          "figures": 12,
           "text_review_ranges": 15,
-          "explicit_prose_boundaries": 1,
+          "source_regional_spans": 12,
+          "native_prose_boundaries": 1,
+          "cross_native_broken_word_connections": 0,
           "caption_blocks": 0,
           "caption_associations": 0,
-          "source_heading_associations": 10,
-          "source_prose_image_associations": 13,
-          "source_code_references": 1,
-          "image_text_overlaps": 5,
-          "original_basic_panels": 8,
+          "image_text_overlap_regions": 5,
+          "prose_image_associations": 15,
+          "source_heading_associations": 12,
+          "source_code_references": 2,
+          "cross_native_source_code_references": 1,
+          "original_basic_panels": 10,
           "source_program_groups": 1,
-          "source_number_positions": 426,
-          "source_physical_wraps": 49,
-          "source_physical_text_rows": 475,
-          "program_panel_connections": 7,
-          "incoming_unnumbered_wraps": 0,
+          "source_number_positions": 543,
+          "source_physical_wraps": 76,
+          "source_physical_text_rows": 619,
           "source_extra_numbered_row": 1455,
-          "source_last_number": 5150,
-          "source_next_number": 5160,
+          "program_panel_connections": 9,
+          "source_font_data_statements": 19,
+          "source_final_statement": "6320 DATA 1,-1,-1,-1,-1,1,1,1",
           "source_variable_explanations": 22,
           "source_program_range_explanations": 21,
+          "source_program_range_associations": 21,
           "original_header_art": 1,
           "original_players_referee_illustration": 1,
           "typed_program_rows": 0,
@@ -2604,7 +2607,7 @@
             "220"
           ]
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "directory": "archive/pdf/1984-10/packages/batch-41-r01/superleague-a",
@@ -2624,23 +2627,14 @@
           }
         ],
         "article_associations": {
-          "path": "archive/pdf/1984-10/evidence/batch-41/source-associations.json",
-          "sha256": "d5c64f6b0eeb4fb665a8ef16d4172e5e3c505776dfa8dc43aaeb335b01924983",
-          "bytes": 101182
+          "path": "archive/pdf/1984-10/evidence/superleague-assembly/article-associations.json",
+          "sha256": "385fead13e65a5e9f3dab23cb8c14607fba0dfd5b9f4a9bd3adf1fbee7bcec79",
+          "bytes": 155910
         },
-        "all_native_source_pages": [
-          216,
-          217,
-          218,
-          219,
-          220,
-          221,
-          222
-        ],
-        "ending_validation": {
-          "path": "archive/pdf/1984-10/evidence/batch-42/validation.json",
-          "sha256": "f8428e9f741ab94932b0f83b51fdb79a91efc7680c24b8aeeae0c234f98d1af6",
-          "bytes": 2473
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/superleague-assembly/image-code-coverage.json",
+          "sha256": "5daf57b7ab5ad7b863ca37b6212f567d46e570e32370db7e87a67b05037fba53",
+          "bytes": 72667
         }
       }
     },
@@ -2756,8 +2750,8 @@
     "articles": 28,
     "non_owning_headings": 5,
     "unresolved_classification": 8,
-    "readable": 27,
-    "partial": 1,
+    "readable": 28,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 33,
@@ -4311,17 +4305,45 @@
       "outputs": [
         "maso-1984-10-toc-0032"
       ]
+    },
+    {
+      "id": "superleague-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/superleague-assembly/checkpoint.json",
+        "sha256": "e3dd859732c2a306bfe7466db3b9ecba9edc9eea569b4d29034f821418e465c7",
+        "bytes": 1122
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-41/source-review.json",
+        "sha256": "2c1f8474b5f5da3b5ff26721fd9b6174fd796aba2e5487da3fb489eaf4cc031b",
+        "bytes": 1991
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/superleague-assembly/validation.json",
+        "sha256": "d9f73a483289fd58731d826db5b96c83b98bb7da59b8c66a2ee99a4b917cd0df",
+        "bytes": 3081
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/superleague-assembly/review-log.json",
+        "sha256": "cbf8f6c55b9fe1f1f1f85fa9e4f98d50237f4f1d180c76d9ca0abafedf681838",
+        "bytes": 3536
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "6bf912c",
+      "outputs": [
+        "maso-1984-10-toc-0032"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "superleague-assembly",
-    "goal": "Assemblecomplete214–220/PDF216–222fromexacttwoimmutable natives. Audit24regions/11blocks/12images,12regionalspans/15reviews/oneprosejoin,10originalsingle-program panels543numberpositions/76wraps/619physicaltextrows/ninepanelconnections,22variables/21ranges andcross-native5250reference. Resolvefourpure scope notesonly.",
+    "id": "batch-43",
+    "goal": "Verify full하얀돌까만돌0033actualextent from221before224피라밋II,allcandidate/adjacentsourcepagesbeforemapping;restore completearticleifwithin6mappedpages. Preserve originalSPCcode/Go-screen/data-layoutimages,correct standaloneprose/headings/captions/explanatoryrows,retain sourcecontrol/byte/executionlimits.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0032"
+      "maso-1984-10-toc-0033"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
