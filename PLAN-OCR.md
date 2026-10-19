@@ -19,14 +19,14 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- December 1984 is in progress. Batch 01 restores editorial18 and the signed
-  robot-feature introduction19: two readable, assistant sample-reviewed articles;
-  35 of 37 canonical TOC entries still await classification/restoration. Both
-  packages pass source/range checks and independent byte-identical rebuilds.
-  Thirteen OCR tasks include three bounded crop repairs; five unchanged results
-  were reused. Initial exact crop review followed recognition, an explicit timing
-  exception; revised crops were reviewed before recognition. Next is 골목대장
-  from PDF22/printed20, with extent and exact crop review before OCR.
+- December 1984 is in progress: editorial18 and robot-feature introduction19
+  are readable; batch02 adds 골목대장20–25 as a partial segment of its verified
+  20–33 extent. Of37 canonical entries,34 await classification/restoration.
+  All selected packages pass source/range checks and byte-identical rebuilds.
+  Batch02 preserves49 regions,14 images and three transcribed tables; all38
+  OCR tasks used reviewed preflight crops, without failure or retry. Batch01's
+  initial crop-review timing exception remains explicit. Next is 골목대장26–31,
+  then32–33 and separate assembly; reinspect full pages and crops before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

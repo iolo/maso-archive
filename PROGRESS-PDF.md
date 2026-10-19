@@ -6,11 +6,11 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: batch 01 delivers the editorial18 and robot-feature
-introduction19 as two readable, assistant sample-reviewed articles. The other
-35 of 37 canonical entries await classification/restoration. Both packages and
-independent byte-identical rebuilds pass; the initial crop-review timing exception
-and three bounded crop repairs remain explicit. Next is 골목대장 from printed20.
+December 1984 is in progress: editorial18 and robot-feature introduction19 are
+readable; 골목대장20–25 is a partial segment of its verified20–33 extent. Of37
+canonical entries,34 await classification/restoration. All selected packages and
+independent byte-identical rebuilds pass. Batch02's49 crops were reviewed before
+OCR; batch01's timing exception remains explicit. Next is 골목대장26–31.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
@@ -50,7 +50,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
-| 1984-12 | 2 restored so far | 2 readable; 35 TOC entries unresolved | [8412](docs/progress/8412.md) |
+| 1984-12 | 3 started | 2 readable, 1 partial; 34 TOC entries unresolved | [8412](docs/progress/8412.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
