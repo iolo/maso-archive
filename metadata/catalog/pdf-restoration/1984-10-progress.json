@@ -409,28 +409,110 @@
       "toc_entry_id": "maso-1984-10-toc-0005",
       "title": "취미생활",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF47 is the hobby visual divider with short strapline, generic artwork and seven navigation rows. It has no independent signed body/program. The page has no visible folio; its sequence position is45 before visible article46."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1984-10/restoration/batch-08/hobby-divider-classification.json",
+        "sha256": "34f4ce855869aba463cf914b6eadaf7a5e601146b33110cf572f453df7d82370",
+        "bytes": 1163
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0006",
       "title": "하늘의 왕자 콘돌",
       "parent_id": "maso-1984-10-toc-0005",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Displayed title and signed MSX explanation on46; prose continues with 바/람 across46–47 and closes before two source panels1000–1830. Next title 명랑운동회 begins48."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-08-r01/condor",
+        "article_id": "scan-maso-1984-10-toc-0006",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-08-r01/condor/manifest.json",
+          "sha256": "e8f2af076793342744aa289d631b47b86bd5d594c2d9667407cc139d6230d635",
+          "bytes": 7003
+        },
+        "coverage": {
+          "pdf_pages": [
+            48,
+            49
+          ],
+          "printed_pages": [
+            "46",
+            "47"
+          ],
+          "regions": 10,
+          "blocks": 10,
+          "figures": 4,
+          "regional_text_ranges": 11,
+          "text_review_ranges": 14,
+          "prose_boundaries": 1,
+          "typed_code_rows": 0,
+          "original_basic_panels": 2,
+          "source_number_range": [
+            1000,
+            1830
+          ],
+          "source_number_step": 10,
+          "source_numbered_rows": 84,
+          "ocr_drafts_promoted": false
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0007",
       "title": "명랑운동회",
       "parent_id": "maso-1984-10-toc-0005",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Displayed title, MSX byline, gameplay/rules prose and first source panel1000–1310 on48; complete continuation1320–2210 END on49. Next displayed 인베이더84 begins50."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-08-r01/sports",
+        "article_id": "scan-maso-1984-10-toc-0007",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-08-r01/sports/manifest.json",
+          "sha256": "17a77e3c68b956eebab2222a7a58962951ee5ccbb26934f2c1c3ccfcd474abf3",
+          "bytes": 8269
+        },
+        "coverage": {
+          "pdf_pages": [
+            50,
+            51
+          ],
+          "printed_pages": [
+            "48",
+            "49"
+          ],
+          "regions": 11,
+          "blocks": 11,
+          "figures": 4,
+          "regional_text_ranges": 11,
+          "text_review_ranges": 12,
+          "prose_boundaries": 0,
+          "typed_code_rows": 0,
+          "original_basic_panels": 3,
+          "source_number_range": [
+            1000,
+            2210
+          ],
+          "source_number_step": 10,
+          "source_numbered_rows": 122,
+          "ocr_drafts_promoted": false
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0008",
@@ -766,15 +848,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 5,
-    "non_owning_headings": 0,
-    "unresolved_classification": 36,
-    "readable": 5,
+    "articles": 7,
+    "non_owning_headings": 1,
+    "unresolved_classification": 33,
+    "readable": 7,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 5,
-    "unresolved_availability": 36
+    "sample_reviewed": 8,
+    "unresolved_availability": 33
   },
   "checkpoints": [
     {
@@ -1010,14 +1092,43 @@
       "outputs": [
         "maso-1984-10-toc-0004"
       ]
+    },
+    {
+      "id": "batch-08",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-08/checkpoint.json",
+        "sha256": "cd48750052457de2e1f144cb979753e8261bbb95df700b3b63e7ac0d5c87410d",
+        "bytes": 1280
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-08/source-review.json",
+        "sha256": "73293cc8d9ba6120a5692a60263d7555bd326385e74eed1595b264b1715c0b7e",
+        "bytes": 1706
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-08/validation.json",
+        "sha256": "70250fa29f7be1a078a3d1b366ad44badfde4c3e9de9913d4c45b64d73f2bea2",
+        "bytes": 2921
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-08/review-log.json",
+        "sha256": "b21fcfeeddd8e7791122fa2f1900e125ed66f4632d6c862d55628c29c28dcc5d",
+        "bytes": 7433
+      },
+      "status": "complete-two-articles-and-heading-classification",
+      "tool_revision": "c994735",
+      "outputs": [
+        "maso-1984-10-toc-0005",
+        "maso-1984-10-toc-0006",
+        "maso-1984-10-toc-0007"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-08",
-    "goal": "Review hobby divider printed45/PDF47 and restore 하늘의 왕자 콘돌46–47/PDF48–49 plus 명랑운동회48–49/PDF50–51 after confirming boundaries against next article50. Classify the divider separately as navigation if source supports it.",
+    "id": "batch-09",
+    "goal": "Verify full extent of 인베이더84 from printed50/PDF52 to next title 꽃밭을 사수하라54, then restore complete four-page article within ordinary bounds.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0006",
-      "maso-1984-10-toc-0007"
+      "maso-1984-10-toc-0008"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,

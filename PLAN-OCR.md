@@ -19,15 +19,14 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress. The editorial, signed special-feature
-  introduction, 기계어의 학습, 기계어의 기초 and complete 블록격파 게임의 제작
-  are readable, assistant sample-reviewed JSON/assets packages. The game covers
-  printed27–40, retaining main source numbers1–459 as original aligned image
-  panels with unpromoted OCR drafts. Five of41 entries are restored;36 await
-  classification/restoration. Next: hobby divider classification and the first
-  two hobby articles within the ordinary bounds. The separately titled unlisted
-  DOS TOOL KIT guide41–43 is excluded. Continue from the
-  [October record](docs/progress/8410.md) and
+- October 1984 is in progress: seven readable, assistant sample-reviewed
+  articles and one non-owning hobby heading;33 of41 entries remain unresolved.
+  The latest articles are 하늘의 왕자 콘돌46–47 and 명랑운동회48–49.
+  Their BASIC panels remain complete original images with unpromoted eng OCR
+  drafts, as does the complete game main listing1–459. Next: verify and restore
+  인베이더84, candidate printed50–53, within ordinary checkpoint bounds.
+  The separately titled unlisted DOS TOOL KIT guide41–43 is excluded. Continue
+  from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

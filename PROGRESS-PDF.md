@@ -6,14 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: five readable, assistant sample-reviewed JSON/assets
-articles cover the editorial, feature introduction, 기계어의 학습, 기계어의 기초
-and complete 블록격파 게임의 제작. The game spans printed27–40; main listing
-source numbers1–459 remain original aligned images with unpromoted OCR drafts.
-Thirty-six entries await classification/restoration. Next: hobby divider and the
-first two hobby articles. See the [October record](docs/progress/8410.md) and its
+October 1984 is in progress: seven readable, assistant sample-reviewed articles
+and one non-owning hobby heading;33 of41 canonical entries remain unresolved.
+Latest: 하늘의 왕자 콘돌46–47 and 명랑운동회48–49. Their complete BASIC
+panels remain original images with unpromoted OCR drafts. Next: 인베이더84,
+candidate printed50–53. See the [October record](docs/progress/8410.md) and its
 versioned ledger for selected packages, independent rebuild evidence and the next
-bounded checkpoint.
+bounded checkpoint. Whole-issue closeout remains pending.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
