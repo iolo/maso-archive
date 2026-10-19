@@ -25,16 +25,15 @@ records below are historical and do not authorize a new rebuild.
 ## October 1984 in progress, 2026-10-19
 
 October 1984 is in progress: 31 readable, assistant sample-reviewed articles,
-no partial articles, six non-owning headings and four unresolved entries out
-of 41. Complete 디버깅룸129 preserves11regions,sixcorrectedproseblocks andfive
-originalimages. ThreeBASICpanels retain21replacementnumbers/fourwraps/25physical
-rows;two old/newbytetables preserve32displayedcells. SixSPCerratapairs and the
-source7-byteclaim remain unchanged;historicalpatches were not applied. Allsource/
-range/scan checks and independentrebuild pass. SourceTOCPDF17confirms정보모음as
-pagelessnon-owninggroupwithsixchildren. Next:정보레이다131–138extent andbounded
-restoration. Earlier design-middle timing exception remains recorded. Human
-acceptance/full proofreading/sourcebytes/execution remain unverified. Whole-issue
-closeout is pending; no reading-room rebuild.
+one partial article, six non-owning headings and three unresolved entries out
+of41. 정보레이다 opening131–136 preserves39regions,25correctedsearchableheadings
+and14originalimages. Twenty stories and seven image-column continuations retain
+complete readable news bodies,with volunteerbodytranscription explicitly pending.
+All source/range/scan/heading/overlap checks and independentrebuild pass. Actual
+news ends137;138is a separateadvertisement. Next:ending137andcomplete7-page
+assembly. Earlier design-middle timing exception remains recorded. Human
+acceptance/full proofreading/sourcebytes remain unverified. Whole-issue closeout
+is pending; no reading-room rebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.
