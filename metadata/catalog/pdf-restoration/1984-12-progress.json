@@ -813,19 +813,19 @@
       "parent_id": "maso-1984-12-toc-0005",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "PDF80/printed78independently starts 스핀 볼; prose ends79with NIBBLE84.5attribution/closing mark. Full78–87and both neighbors inspected; Crowded Speedway starts88/PDF90. Exact final7BE0crop shows five fields00 01 00 00 01, superseding earlier four-field full-page extent observation with original evidence retained. Canonical identity/title/parent unchanged.",
-        "Two preserved natives cover all78–87,1352physical rows,28numbered BASIC entries,1310hex rows/10461literal values,1310printed addresses,45DATA fields,nine quotes,ten inline examples and14images. All ending109files reproduce identically; no source pages deferred. Independent full assembly and complete source-field projection remain required."
+        "Two preserved natives and independent full assembly cover all78–87/PDF80–89. All1352physical/28numbered BASIC rows,1310hex rows/printed addresses,10461hex literals,45DATA fields,nine quotes,ten inline examples and14images have exact combined source ranges. All323assembly files and both200/114-file flag-only metadata revisions rebuild identically. Every original source/OCR/text/image byte and correction value remains retained. Source ambiguity, five-field final-row revision,7B28typing repair and verification limitations remain explicit."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-12/packages/batch-14-r01/spin-ball-a",
+        "directory": "archive/pdf/1984-12/packages/spin-ball-complete-r02",
         "article_id": "scan-maso-1984-12-toc-0008",
         "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-14-r01/spin-ball-a/manifest.json",
-          "sha256": "8b621e1402fe5ce36b5a1464b6931068cca9a0ec847912ee345a9716c43c367a",
-          "bytes": 33143
+          "path": "archive/pdf/1984-12/packages/spin-ball-complete-r02/manifest.json",
+          "sha256": "7a2dd1af28679a20a908fff2479679d1f4b1003991dac6216668e72d9bec5d6a",
+          "bytes": 60084
         },
         "coverage": {
           "pdf_pages": [
@@ -856,7 +856,7 @@
           "blocks": 37,
           "figures": 14
         },
-        "segments": [
+        "native_segments": [
           {
             "directory": "archive/pdf/1984-12/packages/batch-14-r01/spin-ball-a",
             "article_id": "scan-maso-1984-12-toc-0008",
@@ -916,6 +916,38 @@
             "segment": "b"
           }
         ],
+        "native_metadata_revisions": [
+          {
+            "directory": "archive/pdf/1984-12/packages/spin-ball-index-r01/opening",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/spin-ball-index-r01/opening/manifest.json",
+              "sha256": "f02d29ab15541ea57c0b2b78e35b5f8865caad2783f715d5d99f3f2c66438639",
+              "bytes": 33974
+            },
+            "procedure": {
+              "path": "archive/pdf/1984-12/restoration/spin-ball-assembly/revise-natives.py",
+              "sha256": "c26afe98adc4e1cca63cc1908ad173691292230b092415639c325f334bf4591f",
+              "bytes": 2939
+            }
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/spin-ball-index-r01/ending",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/spin-ball-index-r01/ending/manifest.json",
+              "sha256": "9a481cadd7df2f74ad418d3b99ee032d1d29a859709d1e4d549a5b72fbf82a32",
+              "bytes": 19630
+            },
+            "procedure": {
+              "path": "archive/pdf/1984-12/restoration/spin-ball-assembly/revise-natives.py",
+              "sha256": "c26afe98adc4e1cca63cc1908ad173691292230b092415639c325f334bf4591f",
+              "bytes": 2939
+            }
+          }
+        ],
+        "index_mode": "wrapped-listing-v1",
+        "literal_source_fields_format": "v1",
+        "deferred_printed_pages": [],
+        "assembly_required": false,
         "full_source_extent": {
           "pdf_pages": [
             80,
@@ -942,8 +974,6 @@
             "87"
           ]
         },
-        "deferred_printed_pages": [],
-        "assembly_required": true,
         "selected_source_end": {
           "last_address_literal": "7BE0",
           "last_row_fields": [
@@ -1250,8 +1280,8 @@
   "totals": {
     "canonical_entries": 37,
     "classified_articles": 8,
-    "readable_articles": 7,
-    "partial_articles": 1,
+    "readable_articles": 8,
+    "partial_articles": 0,
     "nonowning_headings": 1,
     "unresolved_eligibility": 28,
     "human_accepted_articles": 0
@@ -2619,59 +2649,138 @@
         "sha256": "025bd318bb588620aadbbc97794a55caf277b23e458f11a3f9d895e428c7b66f",
         "bytes": 3261241
       }
+    },
+    {
+      "id": "spin-ball-assembly",
+      "status": "complete-readable-article",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/spin-ball-assembly/checkpoint.json",
+        "sha256": "52a06411881482b4b038ff994d1a1043bb6601e47a5c375602968b0b866a7b7b",
+        "bytes": 1399
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/spin-ball-assembly/validation-r02.json",
+        "sha256": "c7a6f96f058886b5809f9f0145902ef9a4c7d9aef34dce8a5bafc3e941b5fff3",
+        "bytes": 1752
+      },
+      "implementation": {
+        "path": "archive/pdf/1984-12/restoration/spin-ball-assembly/implementation.json",
+        "sha256": "6f6de1686206330dc14e627e1d7532f7e74dd3567d6743b9db08e3f1760e4f6a",
+        "bytes": 2629
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/spin-ball-assembly/reproduction.json",
+        "sha256": "d4544d7c0a29a597bdc60bcb8c42a7ec8d1eb5c87a56540702a2434d671b71c1",
+        "bytes": 1708
+      },
+      "manifest": {
+        "path": "archive/pdf/1984-12/packages/spin-ball-complete-r02/manifest.json",
+        "sha256": "7a2dd1af28679a20a908fff2479679d1f4b1003991dac6216668e72d9bec5d6a",
+        "bytes": 60084
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/spin-ball-assembly/verify-r02.py",
+        "sha256": "1ebe7307721a0d3fe8c5bf268acd49421645a0aef373477479ad97d98b1f45bf",
+        "bytes": 14699
+      },
+      "source_token_changes": 0,
+      "retained_failed_audit": {
+        "path": "archive/pdf/1984-12/evidence/spin-ball-assembly/verify-r01.log",
+        "sha256": "97d16c4460f48003af7bfa859307344e33df1a9487a6fa11953b444d72f9c46a",
+        "bytes": 326
+      },
+      "retained_unpromoted_export": {
+        "path": "archive/pdf/1984-12/packages/spin-ball-complete-r01/manifest.json",
+        "sha256": "c3a67503f8ac61cd9440757af8966a5536a3975a88433f77ec7ddec21b4743ab",
+        "bytes": 60084
+      },
+      "package_files": 323,
+      "immutable_segment_files": 314,
+      "original_native_files_preserved": 304,
+      "metadata_revision_files": 314,
+      "pages": 10,
+      "regions": 82,
+      "blocks": 37,
+      "figures": 14,
+      "source_block_ranges": 37,
+      "regional_text_ranges": 80,
+      "text_review_items": 100,
+      "text_review_notes": 20,
+      "regional_listing_ranges": 53,
+      "listing_physical_rows": 1352,
+      "numbered_logical_entries": 28,
+      "wrapped_rows": 14,
+      "hex_rows": 1310,
+      "hex_addresses": 1310,
+      "hex_literals": 10461,
+      "quoted_fields": 9,
+      "data_statements": 3,
+      "data_fields": 45,
+      "data_field_kinds": {
+        "printed-decimal-literal": 36,
+        "bare-letter-source": 8,
+        "quoted-source-string": 1
+      },
+      "native_prose_joins": 2,
+      "caption_links": 4,
+      "inline_examples": 10,
+      "source_uncertainty_records": 60,
+      "resolved_scope_notes": 4,
+      "prior_files_verified": 14220,
+      "pdf_tests": 163,
+      "new_mapping_pages": 0,
+      "new_ocr_tasks": 0,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/spin-ball-assembly/preserved-work-inventory.json",
+        "sha256": "a041a9978aac2bb227f01ccd9fcf1b37c670fad731e489eca30b42db4676cfd2",
+        "bytes": 3733713
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "spin-ball-assembly",
-    "goal": "Independently assemble complete Spin Ball78–87from both preserved natives, projecting every exact regional/review/physical/logical/hex-address/value/quote/DATA/inline/caption index without changing original source bytes or metadata.",
+    "id": "batch-16",
+    "goal": "Establish complete Crowded Speedway0009extent and neighbors from verified title88/PDF90, then restore a bounded opening of at most six mapped source pages with all text, code, tables, graphics and source uncertainty.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0008"
+      "maso-1984-12-toc-0009"
     ],
-    "source_packages": [
-      "archive/pdf/1984-12/packages/batch-14-r01/spin-ball-a",
-      "archive/pdf/1984-12/packages/batch-15-r01/spin-ball-b"
-    ],
-    "mapping_targets": [],
-    "known_full_extent": {
-      "pdf_pages": [
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89
-      ],
-      "printed_pages": [
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87
-      ],
-      "last_address_literal": "7BE0",
-      "last_row_fields": [
-        "00",
-        "01",
-        "00",
-        "00",
-        "01"
-      ]
+    "known_start": {
+      "pdf_page": 90,
+      "printed_page": 88
     },
+    "provisional_mapping_targets": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "provisional_lookup_targets": [
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "No further mapping/OCR needed. Both natives total82regions,37blocks,14images,1352physical rows,28numbered entries,14wraps,1310hex rows/printed-address labels,10461hex literals,45DATA fields,nine quotes,ten inline examples,fourcaption links andtwo prose joins. Native boundary67A0/67A8is between complete rows. Preserve all originals and source ambiguity, final-row five-field correction record and single retained7B28literal typing repair. Opening custom hex/mixed DATA indexes need opt-in compatible combined projection; do not silently drop them. Existing basic_source_fields_format=v1only handles its declared DATA categories, not this mixed bare-letter DATA/hex dump. Any compatibility metadata revision must use a fresh path and retain all original metadata. Following0009Crowded Speedway88/PDF90is next after assembly. No reader rebuild."
+    "note": "PDF90/88title and91/89continuation already reviewed/preserved in batch14. Reuse pins and reinspect. Full end not yet established: following canonical pageless education heading0010and child0011printed102are lookup leads only, not a global folio offset or observed boundary. Review full extent/adjacent independent material before mapping and every exact original/revised crop before OCR. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

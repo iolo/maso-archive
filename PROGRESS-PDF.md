@@ -6,19 +6,33 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: seven readable, assistant sample-reviewed articles
+December 1984 is in progress: eight readable, assistant sample-reviewed articles
 cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46,
-Apple BASIC to machine language(3)47–63, Christmas-card66–69 and Diamond Field70–77.
-Both Spin Ball natives cover78–87; independent full assembly remains required.
-One partial, one non-owning heading;28 of37 entries await classification.
-All109ending files rebuild identically, preserving648rows/5,181hex values and four
-complete panels. All13,781prior files are unchanged. All28exact crops preceded
-24successful OCR tasks; no geometry/recognition/post-OCR repair or retry.
-The earlier final-row four-field reading is retained and superseded by five
-directly visible fields. One7B28typing repair has fresh/original evidence.
-Shared148-test baseline unchanged. Source candidates and earlier exceptions remain.
-Next: independently assemble Spin Ball78–87, including all1,352physical rows,
-10,461hex literals and every custom source-field index. No further OCR.
+Apple BASIC to machine language(3)47–63, Christmas-card66–69, Diamond Field70–77
+and complete Spin Ball78–87. No partial articles remain at this checkpoint.
+One non-owning hobby heading is classified;28 of37 entries remain unresolved.
+
+The complete Spin Ball assembly and both flag-only native metadata revisions
+rebuild byte-identically:323assembly files,200opening files and114ending files.
+All14,220prior evidence files remain unchanged; the new inventory pins16,180files.
+Every original correction value, metadata file, scan, crop, OCR result and reading
+revision remains retained. The combined indexes cover1,352physical rows,
+28numbered BASIC entries,14wraps,1,310hex rows/addresses,10,461hex literals,
+45DATA fields,nine quotes,ten inline examples,14images andfour caption links.
+Source glyph/spacing candidates, the five-field final7BE0revision and7B28typing
+repair remain explicit. Source bytes/execution and full proofreading are unverified.
+
+The separately committed literal-source projection passes163PDF tests. Earlier
+Apple/Diamond live implementation pins and read-only audits pass unchanged.
+An initial assembly omitted the native logical-row ordinal; its export/rebuild,
+code and failed independent verifier remain preserved. Selected r02retains native
+and global ordinals. No new mapping, rendering, OCR or reader/frontend work.
+
+Next: establish Crowded Speedway0009full extent and neighbors from verified
+88/PDF90, then map at most six opening pages. Following education heading0010
+and child0011printed102are lookup leads, not verified boundaries or global offsets.
+Keep source review/crop timing, correction and evidence-retention rules unchanged.
+
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
@@ -58,7 +72,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
-| 1984-12 | 8 | 7 readable; 1 partial; 1 non-owning heading; 28 TOC entries unresolved | [8412](docs/progress/8412.md) |
+| 1984-12 | 8 | 8 readable; 1 non-owning heading; 28 TOC entries unresolved | [8412](docs/progress/8412.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

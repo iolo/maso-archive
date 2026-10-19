@@ -40,35 +40,38 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December has seven readable articles, including complete 골목대장20–33,
-똑딱 반짝34–46, Apple BASIC to machine language(3)47–63, Christmas-card66–69 and
-Diamond Field70–77. Both Spin Ball natives cover78–87, pending independent full
-assembly; it remains one partial. Hobby0005 is a non-owning divider on unpaginated
-PDF67; all four child links remain.28 of37 entries remain unresolved.
+October; December has eight readable articles, including complete 골목대장20–33,
+똑딱 반짝34–46, Apple BASIC to machine language(3)47–63, Christmas-card66–69,
+Diamond Field70–77and Spin Ball78–87. No partial articles; one non-owning hobby
+heading and28of37unresolved entries remain.
 
-Latest batch15ending84–87has109byte-identical rebuilt files,28regions,four blocks,
-four complete panels,648physical hex rows/address labels and5181literal values.
-All28exact crops preceded24successful mapped OCR tasks. No geometry repair,
-recognition failure/retry or post-OCR repair. All13781prior files unchanged;
-new inventory pins14220files. Shared148-test baseline unchanged.
+Spin Ball's selected package is packages/spin-ball-complete-r02. All323files and
+both200/114-file flag-only revisions rebuild identically. All14,220prior evidence
+files are unchanged; new inventory16,180files. Every original correction key/value,
+four metadata files per native, OCR/crop/map and source-reading/typing history
+remain preserved. Combined indexes retain1,352physical/28numbered BASIC rows,
+14wraps,1,310hex rows/addresses,10,461hex literals,45DATA fields,nine quotes,
+ten inline examples,14images,four captions andtwo native prose joins.
 
-Final exact7BE0crop shows five fields00 01 00 00 01. Earlier four-field extent
-records and the original map remain preserved; fresh pre-OCR source/map metadata
-revision supersedes that count without changing geometry/crops. One typed7B28row
-was repaired before export in a fresh p87-r02object, with original/delta/scan/raw
-evidence retained. Use batch15/evidence verify.py read-only unless --report names
-a fresh path. Source candidates, batch01 timing, batch06 retention and earlier
-failure attempts remain preserved. Do not normalize shape data or infer binaries.
+Literal-source tooling c27c183passes163PDF tests; format notes are
+[PDF-LITERAL-SOURCE-FIELDS.md](PDF-LITERAL-SOURCE-FIELDS.md). All eight live
+Apple/Diamond implementation pins and both read-only audits remain unchanged.
+The first assembly omitted the native logical ordinal; its code/export/rebuild
+and failed independent verifier are retained. Selected r02preserves native/global
+ordinals. Use evidence/spin-ball-assembly/verify-r02.py read-only unless --report
+names a fresh path. No new mapping,rendering,OCR or reader work.
 
-Next: spin-ball-assembly. Both natives total82regions,37blocks,14images,1352physical
-rows,28numbered BASIC entries,14wraps,1310hex rows/printed addresses,10461hex literals,
-45DATA fields,nine quotes,ten inline examples,four caption links andtwo prose joins.
-Boundary67A0/67A8lies between complete rows. Preserve all original metadata and
-project every custom hex/BASIC/quote/DATA/inline index into combined downloads.
-Existing basic_source_fields_format=v1does not support the bare-letter DATA/hex
-dump schema. Use a separately tested compatible opt-in extension and fresh metadata
-revisions if needed; preserve both original packages and all metadata bytes.
-No further mapping/OCR. Following0009Crowded Speedway88/PDF90is verified.
+Keep the final7BE0five-field revision, original four-field extent observation,
+7B28typing repair and all source glyph/spacing candidates explicit. Earlier
+batch01timing,batch02report retention andbatch06intermediate retention exceptions
+remain. No binary/opcode/shape-pattern reconstruction or human acceptance claim.
+
+Next: batch16Crowded Speedway0009. Verified88/PDF90title and89/PDF91continuation;
+full end not established. Following education0010and child0011printed102are
+lookup leads only. Reuse/reinspect preserved pages, establish full extent and
+neighbors before mapping at most six opening pages, and inspect every exact
+original/revised crop before OCR. Limits remain two tasks/six mapped pages/
+twenty outside-map lookup pages. Do not derive a global PDF/folio offset.
 
 Diamond Field remains at packages/diamond-field-complete-r01 with its original
 metadata revision. BASIC field tooling eba1e08 is documented in

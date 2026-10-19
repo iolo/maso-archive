@@ -19,24 +19,32 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- December 1984 is in progress: seven readable, assistant sample-reviewed articles
+- December 1984 is in progress: eight readable, assistant sample-reviewed articles
   cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46,
-  Apple BASIC to machine language(3)47–63, Christmas-card66–69 and Diamond Field70–77.
-  Both Spin Ball natives cover78–87, pending full independent assembly. One partial,
-  one non-owning hobby heading;28 of37 entries remain unresolved.
-  The109-file ending84–87rebuilds identically;13,781prior files remain unchanged.
-  All28exact crops preceded24successful OCR tasks, with no geometry repair,
-  failure/retry or post-OCR crop repair. Ending648rows retain5,181hex literals.
-  Exact final7BE0crop shows five fields00 01 00 00 01; earlier four-field extent
-  observation and fresh pre-OCR source-reading revision are retained. Original and
-  revised correction objects preserve one7B28literal typing repair before export.
-  Both natives retain1,352physical rows,1,310hex rows/addresses,10,461hex literals,
-  45DATA fields,nine quotes,ten inline examples and14images. New inventory:14,220files.
-  Shared148-test baseline unchanged. Source glyphs, short rows, physical wraps and
-  printed mistakes remain literal; no binary/opcode/shape/length reconstruction.
-  Batch01 timing and batch06 intermediate retention exceptions remain explicit.
-  Next: independent full Spin Ball78–87assembly with all custom source indexes.
-  No further mapping/OCR needed; preserve both original natives and metadata.
+  Apple BASIC to machine language(3)47–63, Christmas-card66–69, Diamond Field70–77
+  and complete Spin Ball78–87. No partial articles remain at this checkpoint.
+  One non-owning hobby heading is classified;28 of37 entries remain unresolved.
+
+  The complete Spin Ball assembly and both flag-only native metadata revisions
+  rebuild byte-identically:323assembly files,200opening files and114ending files.
+  All14,220prior evidence files remain unchanged; the new inventory pins16,180files.
+  Every original correction value, metadata file, scan, crop, OCR result and reading
+  revision remains retained. The combined indexes cover1,352physical rows,
+  28numbered BASIC entries,14wraps,1,310hex rows/addresses,10,461hex literals,
+  45DATA fields,nine quotes,ten inline examples,14images andfour caption links.
+  Source glyph/spacing candidates, the five-field final7BE0revision and7B28typing
+  repair remain explicit. Source bytes/execution and full proofreading are unverified.
+
+  The separately committed literal-source projection passes163PDF tests. Earlier
+  Apple/Diamond live implementation pins and read-only audits pass unchanged.
+  An initial assembly omitted the native logical-row ordinal; its export/rebuild,
+  code and failed independent verifier remain preserved. Selected r02retains native
+  and global ordinals. No new mapping, rendering, OCR or reader/frontend work.
+
+  Next: establish Crowded Speedway0009full extent and neighbors from verified
+  88/PDF90, then map at most six opening pages. Following education heading0010
+  and child0011printed102are lookup leads, not verified boundaries or global offsets.
+  Keep source review/crop timing, correction and evidence-retention rules unchanged.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

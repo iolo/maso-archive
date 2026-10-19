@@ -24,32 +24,35 @@ records below are historical and do not authorize a new rebuild.
 
 ## December 1984 started, 2026-10-19
 
-Seven articles are readable and assistant sample-reviewed: editorial 18, robot-feature
-introduction 19, 골목대장 20–33, 똑딱 반짝 34–46, Apple BASIC to machine language(3) 47–63,
-Christmas-card 66–69 and Diamond Field 70–77. Both Spin Ball natives now cover all
-78–87, pending independent full assembly. One non-owning hobby heading is classified;
-28 of 37 entries remain unresolved. Spin Ball remains partial until assembly passes.
+December 1984 is in progress: eight readable, assistant sample-reviewed articles
+cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46,
+Apple BASIC to machine language(3)47–63, Christmas-card66–69, Diamond Field70–77
+and complete Spin Ball78–87. No partial articles remain at this checkpoint.
+One non-owning hobby heading is classified;28 of37 entries remain unresolved.
 
-The ending 84–87 preserves 28 regions, four blocks, four complete original panels,
-648 printed hex rows, 648 address labels and 5,181 literal values. All 109 ending
-files rebuild identically; all 13,781 prior files remain unchanged. Every 28 exact
-crops preceded 24 successful OCR tasks, with no geometry repairs, engine failures,
-recognition retries or post-OCR crop repairs. Exact final-row review shows five
-fields at7BE0:00 01 00 00 01, superseding the earlier four-field extent observation
-while retaining it. One typed7B28row was repaired in a fresh correction object;
-the original and precise scan evidence remain preserved. New inventory:14,220files.
-Shared148-test baseline unchanged. No reader/frontend work.
+The complete Spin Ball assembly and both flag-only native metadata revisions
+rebuild byte-identically:323assembly files,200opening files and114ending files.
+All14,220prior evidence files remain unchanged; the new inventory pins16,180files.
+Every original correction value, metadata file, scan, crop, OCR result and reading
+revision remains retained. The combined indexes cover1,352physical rows,
+28numbered BASIC entries,14wraps,1,310hex rows/addresses,10,461hex literals,
+45DATA fields,nine quotes,ten inline examples,14images andfour caption links.
+Source glyph/spacing candidates, the five-field final7BE0revision and7B28typing
+repair remain explicit. Source bytes/execution and full proofreading are unverified.
 
-Both natives retain1,352physical rows,1,310hex rows/printed addresses,10,461hex
-literals,45DATA fields,nine quotes,ten inline examples and14images. Next:
-independently assemble complete78–87with every native source index projected.
-No further mapping/OCR is needed. Existing BASIC source-field mode does not cover
-this mixed bare-letter DATA/hex-dump schema; use an explicit compatible opt-in
-projection and fresh metadata revisions if needed, retaining every original byte.
-Source candidates and earlier batch01 timing/batch06 retention exceptions remain.
+The separately committed literal-source projection passes163PDF tests. Earlier
+Apple/Diamond live implementation pins and read-only audits pass unchanged.
+An initial assembly omitted the native logical-row ordinal; its export/rebuild,
+code and failed independent verifier remain preserved. Selected r02retains native
+and global ordinals. No new mapping, rendering, OCR or reader/frontend work.
+
+Next: establish Crowded Speedway0009full extent and neighbors from verified
+88/PDF90, then map at most six opening pages. Following education heading0010
+and child0011printed102are lookup leads, not verified boundaries or global offsets.
+Keep source review/crop timing, correction and evidence-retention rules unchanged.
+
 See the [December record](docs/progress/8412.md) and
-[versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
-No reading-room rebuild.
+[ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
 ## October 1984 closeout, 2026-10-19
 
