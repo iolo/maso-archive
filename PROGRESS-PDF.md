@@ -8,9 +8,9 @@ by the calendar month in which restoration work happened.
 
 October 1984 is in progress: the editorial, signed feature introduction,
 기계어의 학습 and 기계어의 기초 are complete readable, assistant sample-reviewed
-JSON/assets packages. The game article has a sample-reviewed partial segment27–32
+JSON/assets packages. The game article has a sample-reviewed partial natives27–38
 of its verified extent27–40. Thirty-six entries await classification/restoration;
-game33–40 and assembly remain. See the
+game39–40 and assembly remain. See the
 [October record](docs/progress/8410.md) and its versioned progress ledger for
 selected packages, independent rebuild evidence and the next bounded checkpoint.
 
