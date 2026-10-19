@@ -1522,21 +1522,20 @@
       "parent_id": "maso-1984-10-toc-0021",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Separate 전산개발 시스템 연구140/PDF142,연재2회,트라이젬/삼보 컴퓨터 교육부. Canonical title/byline/Business parent unchanged.",
-        "Full140–147/PDF142–149 through final prose147,prior non-owning Business139sequence,next independent 한글주소록148. No unrelated ads/body;source141 folio absent,sequence verified by140/142.",
-        "Current opening140–145 all standalone prose/headings/captions and complete original forms/flows/photos retained. Ending146–147 and separate full eight-page assembly required;source144→146 prose connection explicit.",
-        "Ending146–147 now has corrected remaining prose/four composite captions and four complete original survey/list panels. All eight pages exist in immutable natives; separate complete assembly pending."
+        "Separate 전산개발 시스템 연구140/PDF142,연재2회/트라이젬/삼보 컴퓨터 교육부;canonical title/byline/Business parent unchanged.",
+        "Complete140–147/PDF142–149 assembled from exact immutable natives;prior non-owning Business139sequence,next independent 한글주소록148. No unrelated ads/body;source141 folio absent,sequence explicit.",
+        "All corrected standalone prose/headings/captions and eleven complete original forms/tables,two flows/two photos retained. Source144→146 continuation around145flow and global caption/chapter scope audited;source anomalies preserved without semantic repair."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-24-r01/development-a",
+        "directory": "archive/pdf/1984-10/packages/development-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0022",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-24-r01/development-a/manifest.json",
-          "sha256": "d79a5a7c30a607755ca2e38836ac005c767d601a3acb4669c709ea852d44b43b",
-          "bytes": 28675
+          "path": "archive/pdf/1984-10/packages/development-complete-r01/manifest.json",
+          "sha256": "7e52753888325defecffec9469e24c46f2a168bdc8808c23df42a09596fedcfd",
+          "bytes": 49763
         },
         "coverage": {
           "pdf_pages": [
@@ -1545,7 +1544,9 @@
             144,
             145,
             146,
-            147
+            147,
+            148,
+            149
           ],
           "printed_pages": [
             "140",
@@ -1553,18 +1554,22 @@
             "142",
             "143",
             "144",
-            "145"
+            "145",
+            "146",
+            "147"
           ],
-          "regions": 42,
-          "blocks": 26,
-          "figures": 11,
-          "regional_text_ranges": 32,
+          "regions": 63,
+          "blocks": 34,
+          "figures": 15,
+          "regional_text_ranges": 49,
           "physical_listing_rows": 0,
-          "original_form_table_panels": 7,
-          "original_hardware_flow": 1,
-          "original_system_flow": 1,
+          "original_form_table_panels": 11,
+          "original_flows": 2,
           "original_photos": 2,
-          "caption_associations": 9
+          "caption_associations": 13,
+          "source_heading_associations": 13,
+          "native_prose_boundaries": 11,
+          "cross_native_prose_connections": 1
         },
         "full_source_extent": {
           "pdf_pages": [
@@ -1591,7 +1596,7 @@
             143
           ]
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "directory": "archive/pdf/1984-10/packages/batch-24-r01/development-a",
@@ -1610,7 +1615,16 @@
             }
           }
         ],
-        "all_source_pages_in_natives": true
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/development-assembly/article-associations.json",
+          "sha256": "8700a028b0015ad19bfbe7a106d7bcb29d925df77a800a9a09ccc1921931fd78",
+          "bytes": 72909
+        },
+        "image_coverage": {
+          "path": "archive/pdf/1984-10/evidence/development-assembly/image-coverage.json",
+          "sha256": "2e97b0b58921892246b8a590de7bfb91569620a5f10be0d8629033d3b3a23159",
+          "bytes": 9469
+        }
       }
     },
     {
@@ -1815,8 +1829,8 @@
     "articles": 20,
     "non_owning_headings": 3,
     "unresolved_classification": 18,
-    "readable": 19,
-    "partial": 1,
+    "readable": 20,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 23,
@@ -2724,13 +2738,41 @@
       "outputs": [
         "maso-1984-10-toc-0022"
       ]
+    },
+    {
+      "id": "development-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/development-assembly/checkpoint.json",
+        "sha256": "01a78d14e772f66097e72d4e01fd6b1ce9eae82567990db48d00b5d467d13c98",
+        "bytes": 1481
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-24/source-review.json",
+        "sha256": "588e9103fb09d0b6b37cd9fb8d86f6a63e47fab379270eb2b1434d0b702494a4",
+        "bytes": 2249
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/development-assembly/validation.json",
+        "sha256": "542886a3d79fed8384f46d8a73499eb8c9179b256e733b0d8ed01b6d19f21265",
+        "bytes": 2565
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/development-assembly/review-log.json",
+        "sha256": "68aea5f31696d8d3eb92aef3cb7121c921f49be924008648385c53324c12fe19",
+        "bytes": 3129
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "e000ccb",
+      "outputs": [
+        "maso-1984-10-toc-0022"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "development-assembly",
-    "goal": "Assemble exact immutable development-system140–147 natives,with all original11 forms/tables,two flows/two photos,global caption/heading scopes and source144→146 prose continuation around145flow. No new mapping/OCR.",
+    "id": "batch-26",
+    "goal": "Verify complete 한글주소록 프로그램0023 source extent from148 before next167;inspect all candidate148–166 plus adjacent boundaries before mapping. Restore bounded opening at most148–153 with source prose/captions and complete original panels;do not infer code bytes.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0022"
+      "maso-1984-10-toc-0023"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,
