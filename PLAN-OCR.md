@@ -20,51 +20,48 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - December 1984 is in progress: ten readable articles, one partial CP/M(5)
-  article, two non-owning headings and 24 of 37 entries unresolved. Three CP/M natives
-  now cover 110–127/PDF112–129. Its full source remains PDF112–132: observed 110–129
-  plus an unpaginated upper reference-table continuation. The lower advertisement on
-  PDF132 is separate; no folio 130 was observed.
+  article, two non-owning headings and 24 of 37 entries unresolved. Four immutable
+  CP/M natives now cover all 21 source pages, PDF112–132: observed 110–129 plus an
+  unpaginated upper reference-table continuation. The lower advertisement on PDF132
+  is separate; no folio 130 was observed. Complete article assembly remains pending.
 
-  The new 122–127 native and independent rebuild reproduce all 240 files exactly.
-  Its 72 regions, 47 blocks and 19 original images retain 304 unnumbered physical rows,
-  298 nonblank units and 930 tokens. All 138 ED label occurrences, 44 editor commands,
-  18 paired source-string candidates and 54 visible quote/prime glyphs retain exact
-  source ranges. Compiler indexes preserve 46 data rows, 138 cells and 37 blank fields
-  (16 address, 21 object), plus three header cells. Object strings remain opaque;
-  no byte decoding, padding, opcode repair, arithmetic or editor-state reconstruction.
+  The new ending native and independent rebuild reproduce all 63 files exactly.
+  Its 21 regions, 14 blocks and 10 original images retain 27 unnumbered physical rows,
+  25 nonblank units and 129 tokens. Fifteen compiler rows retain 45 exact cells,
+  including two blank object fields; object strings remain opaque source candidates.
+  No byte decoding, padding, opcode repair, arithmetic or execution reconstruction.
 
-  All 53 regional text spans, 83 text reviews, 30 notes, 404 inline examples, 19 figure-
-  caption links, 16 listing-caption links and three prose joins pass checks. Figure 37
-  and figures 48-1/48-2 each retain two original frames under one observed caption.
-  The earlier figure 16 association across 115/116 and both figure 34 frames on121
-remain explicit in prior natives.
-  Two code markers and three prose markers retain unreadable glyph-run widths,
-  repeated dollar-run widths and a vertical placeholder shape. Source mistakes and
-  visual candidates remain unverified; no historical execution or encoded-byte claim.
+  Four reference-table halves retain 118 data rows, 122 rows including headers,
+  366 cells, 12 category labels and 70 arrow/ditto occurrences. The CPI counterpart
+  is visibly blank and stays empty. Four graphic cells link to original rotation
+  diagrams and 36 separately indexed visible labels. Their labels are transcriptions,
+  not printed captions or recreated drawings. Eight table/diagram images have no
+  observed caption. Source mistakes, unknown glyphs, ditto marks and cell wraps remain
+  explicit; no manual-based instruction correction or graphic-pattern reconstruction.
 
-  All 24 pinned whole-page views and 72 original/six revised crops were inspected
-  before 53 successful mapped tasks. Six mapped pages and 18 outside-map lookups;
-  no new rendering, recognition failure/retry or post-OCR crop repair. The source-text
-  serializer initially expected 17 blocks rather than the actual 16 merged transcripts;
-  its assertion and dependent missing-file attempt are retained. A fresh script changes
-  only that count; no second source correction or OCR retry. All 23,510 prior files and
-  20 implementation pins are unchanged. New preservation inventory: 24,469 files.
+  All 15 regional text spans, 31 text reviews, 16 notes, 775 inline examples, two
+  figure-caption links, two listing-caption links and one error-list column join pass.
+  All 23 pinned whole-page views and 21 original/nine revised crops were inspected
+  before 11 successful tasks. Three mapped pages and 20 outside-map lookups; no new
+  rendering, recognition failure/retry or post-OCR crop repair. All 24,469 prior files
+  and 20 implementation pins are unchanged. New preservation inventory: 24,797 files.
   The unchanged 187-test PDF baseline is reused; no shared tooling or reader work.
 
-  Three CP/M natives retain 250 regions, 181 blocks, 65 images and 793 physical rows.
-  Remaining 128–129, unpaginated PDF132 and complete assembly are required. Preserve
-  every native transcript, editor, quote, compiler cell/header including blanks,
-  hex/address/ASCII, marker, table, review and caption index in the future projection.
+  The four natives retain 271 regions, 195 blocks, 75 original images and 820 physical
+  rows. All source is available; a compatible full assembly is required. Preserve every
+  native transcript, editor, quote, compiler, hex/address/ASCII, table/cell/row/category,
+  graphic-cell/diagram-label/symbol, marker, review and caption index, including exact
+  zero-length blanks and original metadata. Preserve all existing multi-frame captions,
+  including figures 16, 34, 37 and 48. No source rewrites or index-category dropping.
+
+  Next: cpm5-assembly, using all four immutable natives. Add a compatible adapter if
+  needed while keeping all 20 historical implementation files unchanged. Independently
+  rebuild and verify the complete article, source coverage and canonical accounting.
   BASIC speed 102–109 remains complete from opening 102–107 and ending 108–109.
   All selected-package checks must use `tools.pdf_restore.graphic_literal_assembly.check`
-  or its `installed()` context, which also handles Crowded Speedway.
-
-  Next: batch23, CP/M ending 128–129/PDF130–131 and unpaginated upper PDF132.
-  Reinspect the full 21-page source extent and immediate neighbors111/133: 23 whole
-  pages, three mapped and 20 outside-map lookups. Review every exact original/revised
-  crop before OCR. The closing mark on128 does not end the reference-table source.
-  Human acceptance, full proofreading, source bytes and execution remain unverified.
-  Full assembly follows separately. No reader work.
+  or its `installed()` context, which also handles Crowded Speedway. Human acceptance,
+  full proofreading, source encoded bytes and historical execution remain unverified.
+  No reader rebuild.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
