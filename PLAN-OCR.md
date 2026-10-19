@@ -19,15 +19,16 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- December 1984 is in progress: editorial18 and robot-feature introduction19
-  are readable; batches02–04 cover 골목대장20–33 in three immutable natives,
-  awaiting full assembly. Of37 canonical entries,34 await classification/restoration.
+- December 1984 is in progress: editorial18, robot-feature introduction19 and
+  complete 골목대장20–33 are readable and assistant sample-reviewed.
+  Of37 canonical entries,34 await classification/restoration.
   All selected packages pass source/range checks and byte-identical rebuilds.
-  Batch04 adds209 hex rows and3329 byte slots; four byte positions have explicit
-  unknown nibbles. All13 OCR tasks used reviewed crops, without failure or retry;
-  all64 export files rebuild identically. Batch01's initial crop-review timing
-  exception remains explicit. Next is separate 골목대장20–33 assembly. Preserve
-  all three native manifests/corrections and verify projected indexes.
+  The 골목대장 assembly preserves120regions,30images,237code rows and3329 hex slots;
+  four byte positions have unknown nibbles. All434 assembly files and three native
+  index revisions rebuild identically; all originals remain unchanged. One terminalLF
+  separates the independent listings. Batch01's initial crop-review timing exception
+  remains explicit. Next is 똑딱 반짝 from34: verify extent, then map at most six pages
+  and inspect every exact crop before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

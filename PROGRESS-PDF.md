@@ -6,12 +6,12 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: editorial18 and robot-feature introduction19 are
-readable; 골목대장20–33 has three native segments awaiting assembly. Of37
+December 1984 is in progress: editorial18, robot-feature introduction19 and the
+complete 골목대장20–33 are readable and assistant sample-reviewed. Of37
 canonical entries,34 await classification/restoration. All selected packages and
-independent byte-identical rebuilds pass. Batch04 adds209 hex rows and3329 byte
-slots, with four marked unknown bytes; batch01's timing exception remains explicit.
-Next is full-article assembly of 골목대장20–33.
+independent byte-identical rebuilds pass. The434-file 골목대장 assembly preserves
+237 code rows, with four marked unknown hex bytes; batch01's timing exception
+remains explicit. Next is 똑딱 반짝 from34, after extent verification.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
