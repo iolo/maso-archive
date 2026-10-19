@@ -25,15 +25,16 @@ records below are historical and do not authorize a new rebuild.
 ## October 1984 in progress, 2026-10-19
 
 October 1984 is in progress: 19 readable, assistant sample-reviewed articles,
-no partial articles, three non-owning headings and 19 of 41 entries unresolved.
-Complete conversion120–128 passes exact native preservation and independent
-assembly rebuild, retaining14 original BASIC panels/485 source numbered rows,
-both explanation tables and the photo. Business is a non-owning visual divider
-on PDF141 (no printed folio; sequence139); its four canonical child identities
-remain unchanged. Next: verify full development-system article140 to before148
-and restore its actual opening within candidate140–145 under six-page limit.
-Original source glyph/byte/execution and human review limits remain explicit;
-whole-issue closeout is pending. No reading-room rebuild.
+one partial development-system article, three non-owning headings and18 of41
+entries unresolved. Full development-system140–147 is verified; opening140–145
+retains42 regions,26 blocks,11 original images,32 regional spans,six prose joins
+and nine caption associations. Seven forms,two flows and two photos remain
+original images with unpromoted raw drafts; source anomalies and sideways145flow
+are preserved. All39 OCR tasks completed without failures/retries;eight crops
+widened once before OCR,originals retained. Independent byte-identical rebuild
+passes. Next: ending146–147,then separate full eight-page assembly. Human review,
+internal source glyph/cell/byte and execution limits remain explicit;whole-issue
+closeout pending,no reading-room rebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.

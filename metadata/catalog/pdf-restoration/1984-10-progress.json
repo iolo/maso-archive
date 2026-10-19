@@ -1520,10 +1520,78 @@
       "toc_entry_id": "maso-1984-10-toc-0022",
       "title": "전산개발 시스템 연구",
       "parent_id": "maso-1984-10-toc-0021",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Separate 전산개발 시스템 연구140/PDF142,연재2회,트라이젬/삼보 컴퓨터 교육부. Canonical title/byline/Business parent unchanged.",
+        "Full140–147/PDF142–149 through final prose147,prior non-owning Business139sequence,next independent 한글주소록148. No unrelated ads/body;source141 folio absent,sequence verified by140/142.",
+        "Current opening140–145 all standalone prose/headings/captions and complete original forms/flows/photos retained. Ending146–147 and separate full eight-page assembly required;source144→146 prose connection explicit."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-24-r01/development-a",
+        "article_id": "scan-maso-1984-10-toc-0022",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-24-r01/development-a/manifest.json",
+          "sha256": "d79a5a7c30a607755ca2e38836ac005c767d601a3acb4669c709ea852d44b43b",
+          "bytes": 28675
+        },
+        "coverage": {
+          "pdf_pages": [
+            142,
+            143,
+            144,
+            145,
+            146,
+            147
+          ],
+          "printed_pages": [
+            "140",
+            "141 (sequence; no visible folio)",
+            "142",
+            "143",
+            "144",
+            "145"
+          ],
+          "regions": 42,
+          "blocks": 26,
+          "figures": 11,
+          "regional_text_ranges": 32,
+          "physical_listing_rows": 0,
+          "original_form_table_panels": 7,
+          "original_hardware_flow": 1,
+          "original_system_flow": 1,
+          "original_photos": 2,
+          "caption_associations": 9
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149
+          ],
+          "sequence_pages": [
+            "140",
+            "141",
+            "142",
+            "143",
+            "144",
+            "145",
+            "146",
+            "147"
+          ],
+          "no_visible_folio_pdf_pages": [
+            143
+          ]
+        },
+        "complete_article_assembly_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0023",
@@ -1724,15 +1792,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 19,
+    "articles": 20,
     "non_owning_headings": 3,
-    "unresolved_classification": 19,
+    "unresolved_classification": 18,
     "readable": 19,
-    "partial": 0,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 22,
-    "unresolved_availability": 19
+    "sample_reviewed": 23,
+    "unresolved_availability": 18
   },
   "checkpoints": [
     {
@@ -2580,11 +2648,39 @@
       "outputs": [
         "maso-1984-10-toc-0021"
       ]
+    },
+    {
+      "id": "batch-24",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-24/checkpoint.json",
+        "sha256": "4b17bd975d12d5f55d78810432ea73b0e6c62256fef871b27cef2c4e71f3f7cb",
+        "bytes": 2372
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-24/source-review.json",
+        "sha256": "588e9103fb09d0b6b37cd9fb8d86f6a63e47fab379270eb2b1434d0b702494a4",
+        "bytes": 2249
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-24/validation.json",
+        "sha256": "c2412a123fd8661184575bc57d0a2730b03fc6e5995cf9da92e54a3aa9e5fe03",
+        "bytes": 2568
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-24/review-log.json",
+        "sha256": "ce488d1e6aeda0f9e50cd7468302c34dc50f86f49c0f298960f275f4ddf0f1d3",
+        "bytes": 12349
+      },
+      "status": "partial-development-system-opening",
+      "tool_revision": "805fecb",
+      "outputs": [
+        "maso-1984-10-toc-0022"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-24",
-    "goal": "Verify full 전산개발 시스템 연구 extent from140 before next independent 한글주소록148. Restore actual opening within candidate140–145/PDF142–147,six pages maximum,preserving all original business forms/flows/tables and source row/cell evidence; later native/assembly if needed.",
+    "id": "batch-25",
+    "goal": "Restore development-system ending146–147/PDF148–149 using pinned full extent140–147. Correct remaining prose/captions and preserve complete INPUT/OUTPUT surveys,FILE/OUTPUT lists;record source144 기본 설계에→146 다… connection. Separate eight-page assembly follows.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0022"
     ],
