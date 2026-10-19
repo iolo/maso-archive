@@ -8,14 +8,14 @@ by the calendar month in which restoration work happened.
 
 October 1984 is in progress: 22 readable, assistant sample-reviewed articles,
 one partial data-structures article,three non-owning headings and15 of41 entries
-unresolved. Actual 자료구조 extent is177–183/PDF179–185;following three ads/
-corporate notice and Technical divider are excluded. Opening177–179 retains23
-regions,15 corrected blocks,five original images,18 regional spans,three joins
-and three caption associations. Whole Pascal source listing1,runtime graph,
-selection diagram,title panel/illustration preserved. All21 OCR tasks complete,
-zero recognition failures/retries/crop repairs;independent byte-identical rebuild
-passes. Literal source 정열/자치하는/math/n-pass claims retained;code drafts
-unpromoted,no invented source byline. Next:180–183 ending,then full7-page assembly.
+unresolved. Data-structures ending180–183 retains27 regions,15 corrected blocks,
+eight original images,21 regional spans,six source boundaries and six caption
+associations. Two Pascal source panels,four diagrams and two original mathematical
+prose panels retain all source notation/anomalies;five bibliography entries corrected.
+All27 OCR tasks completed with one pre-recognition crop repair,zero failures or
+retries;independent byte-identical rebuild passes. Both natives cover actual full
+177–183;following ads/Technical divider excluded. Next:separate full7-page assembly.
+Source(n+1),duplicated equality,tree/array/bibliographic anomalies remain literal.
 Human acceptance/full proofreading,source glyph/notation/encoded-byte fidelity and
 execution remain unverified;whole-issue closeout pending,no reader rebuild.
 
