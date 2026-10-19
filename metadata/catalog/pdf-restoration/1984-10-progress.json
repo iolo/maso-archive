@@ -3126,10 +3126,76 @@
       "toc_entry_id": "maso-1984-10-toc-0039",
       "title": "복덕방",
       "parent_id": "maso-1984-10-toc-0035",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Actual complete복덕방235–237/PDF237–239endsleft237FC30listing/contact,allthreefoliosindividuallyobserved. Prior234Pyramidprogram/next238Q&Aindependent;237rightrecruitmentdisplayadexcluded. Canonicaltitle/정보모음parentunchanged,no authorinferred.",
+        "Fourcorrectedtitle/categoryblocks/sixoriginalimages retain53logicalclassifiedlistings(1wanted/15exchange/37sale),threeimagecontinuations/onewordsplit/fouroverlaps. Completeoriginalbody/contact/price/specificationcells readable,volunteerlistingtranscriptionpending;shortproductanchorsnotfulltranscriptions. All10initial/two revisedcrops reviewedbefore9kor+engOCRtasks,onepurephotoskipped,zero failure/retry;allsource/range/scan checks and independentrebuildpass."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-49-r01/classifieds",
+        "article_id": "scan-maso-1984-10-toc-0039",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-49-r01/classifieds/manifest.json",
+          "sha256": "8bfb9d2a87bae67d618876593ff0fc7d825a5808f70ef110f01bb7a4e5ef9037",
+          "bytes": 7540
+        },
+        "coverage": {
+          "pdf_pages": [
+            237,
+            238,
+            239
+          ],
+          "printed_pages": [
+            "235",
+            "236",
+            "237"
+          ],
+          "regions": 10,
+          "blocks": 4,
+          "figures": 6,
+          "regional_text_ranges": 4,
+          "text_review_ranges": 4,
+          "corrected_title_category_blocks": 4,
+          "original_classified_body_columns": 5,
+          "original_opener_photographs": 1,
+          "source_classified_groups": 3,
+          "source_logical_classified_listings": 53,
+          "wanted_listings": 1,
+          "exchange_listings": 15,
+          "sale_listings": 37,
+          "source_classified_image_continuations": 3,
+          "source_classified_image_word_splits": 1,
+          "source_heading_associations": 13,
+          "source_category_image_associations": 8,
+          "image_text_overlaps": 4,
+          "caption_blocks": 0,
+          "caption_associations": 0,
+          "excluded_advertisements": 1,
+          "listing_transcription": "pending-volunteer",
+          "typed_body_paragraphs": 0
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            237,
+            238,
+            239
+          ],
+          "printed_pages": [
+            "235",
+            "236",
+            "237"
+          ]
+        },
+        "complete_article_assembly_pending": false,
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-49/source-associations.json",
+          "sha256": "16a8055f2b792c1059a3a534df3e888b83ccd31fb89e0f1b86763513ad3c7346",
+          "bytes": 53964
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0040",
@@ -3152,15 +3218,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 32,
+    "articles": 33,
     "non_owning_headings": 6,
-    "unresolved_classification": 3,
-    "readable": 32,
+    "unresolved_classification": 2,
+    "readable": 33,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 38,
-    "unresolved_availability": 3
+    "sample_reviewed": 39,
+    "unresolved_availability": 2
   },
   "checkpoints": [
     {
@@ -4963,13 +5029,41 @@
       "outputs": [
         "maso-1984-10-toc-0038"
       ]
+    },
+    {
+      "id": "batch-49",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-49/checkpoint.json",
+        "sha256": "b57ca24270e01463d3dfa76647f0092d3520ac5a9bbd0cc7ff5b7ee850b59e6e",
+        "bytes": 2062
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-49/source-review.json",
+        "sha256": "618e927ffd00f57f4b4d8a0ebdd877a7001a45df333bd9cb923a608c745dadd1",
+        "bytes": 1710
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-49/validation.json",
+        "sha256": "eeb914fc5de6df699e789b894d83e008d90ab8deb412710f62970dc2be63e029",
+        "bytes": 2712
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-49/review-log.json",
+        "sha256": "6f63a6c2b88b902c4b377311e37c92fbed1b2d6c977e769eec0e7fdc9519b28d",
+        "bytes": 2403
+      },
+      "status": "complete-classifieds",
+      "tool_revision": "2eaad6a",
+      "outputs": [
+        "maso-1984-10-toc-0039"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-49",
-    "goal": "Verify full 복덕방0039actualextent from235before238Q&A andadjacent234;reviewallcandidatepagesbeforemapping. Restore boundedcompleteclassifiedsifwithin6pages:correct searchableheadings/instructions,retain readableoriginallisting/contact/price/columncontinuations/photos,explicitvolunteerlistingtranscriptionpending underacceptedclassifiedsworkflow. No historicalcontactactions.",
+    "id": "batch-50",
+    "goal": "Verify full Q&A0040actualextent from238/PDF240before256advertisingindex,allcandidate238–255/adjacent237and256sourceviewsbeforemapping. DistinguishownedQ&Afrominterspersedortrailingadvertisements;restore boundedopening up to6mappedpages,correctprose/questions/headings/captions andretain sourcecode/table/diagramimages. Segmentifnecessary,thencompleteassembly. Adindex0041andwholeissuecloseoutstillpending.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0039"
+      "maso-1984-10-toc-0040"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,

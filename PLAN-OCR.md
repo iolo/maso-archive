@@ -19,16 +19,16 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: 32 readable, assistant sample-reviewed articles,
-  no partial articles, six non-owning headings and three unresolved entries out
-  of 41. Complete 정보 레이다 131–137 preserves 42 regions, 26 searchable headings,
-  16 original images and 21 stories. Nine image-column continuations, including
-  six word splits and the cross-native AI passage, remain source-linked. All
-  source/range/scan/story/heading checks pass; every native file and independent
-  complete rebuild are byte-identical. Readable news bodies remain original images,
-  with volunteer transcription explicitly pending. Next: 복덕방 extent and restoration.
-  The earlier design-middle timing exception and human/source-byte limits remain
-  recorded. Whole-issue closeout is pending; no reading-room rebuild.
+- October 1984 is in progress: 33 readable, assistant sample-reviewed articles,
+  no partial articles, six non-owning headings and two unresolved entries out
+  of 41. Complete 복덕방 235–237 preserves ten regions, four searchable title/category
+  blocks and six original images. Its53groupedlistings and three image continuations
+  retain original prices, contacts and specification cells; volunteer listing
+  transcription remains pending. All source/range/scan/category/continuation checks
+  and independent rebuild pass. Next: verify the actual Q&A extent from238 and
+  restore a bounded opening, then 광고색인 and whole-issue closeout. The earlier
+  design-middle timing exception and human/source-byte limits remain recorded.
+  No reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
