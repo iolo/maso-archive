@@ -6,16 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: 31 readable, assistant sample-reviewed articles,
-one partial article, six non-owning headings and three unresolved entries out
-of41. 정보레이다 ending137 preserves one correctedheading and two completeoriginal
-newscolumns,including AIincoming and finalstorywordcontinuations. Allthreeinitial
-crops and one repairedendmarkcrop were reviewed beforethree kor+engOCRtasks,
-with zero failures/retries;source/range/scan checks and exact rebuild pass. Two
-immutable natives cover131–137;complete7-page assembly is next. Newsbody
-transcription remains explicitly volunteer-pending. Earlier design-middle timing
-exception and human/sourcebyte limits remain recorded. Whole-issue closeout
-is pending; no reading-room rebuild.
+October 1984 is in progress: 32 readable, assistant sample-reviewed articles,
+no partial articles, six non-owning headings and three unresolved entries out
+of 41. Complete 정보 레이다 131–137 preserves 42 regions, 26 searchable headings,
+16 original images and 21 stories. Nine image-column continuations, including
+six word splits and the cross-native AI passage, remain source-linked. All
+source/range/scan/story/heading checks pass; every native file and independent
+complete rebuild are byte-identical. Readable news bodies remain original images,
+with volunteer transcription explicitly pending. Next: 복덕방 extent and restoration.
+The earlier design-middle timing exception and human/source-byte limits remain
+recorded. Whole-issue closeout is pending; no reading-room rebuild.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
@@ -47,7 +47,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 32 classified | 31 readable; 1 partial; 3 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 32 classified | 32 readable; 3 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

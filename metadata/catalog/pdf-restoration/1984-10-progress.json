@@ -3016,20 +3016,20 @@
       "parent_id": "maso-1984-10-toc-0035",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Actualfull 정보레이다131–137/PDF133–139ends137rightprogramgeneratorstory.138MSDOSadvertisement/139Businessdivider andprior130relocationadvertisement excluded. Canonical 정보 레이다/정보모음parent retained,no authorinferred.",
-        "Current131–136sixmappedpages retain39regions/25correctedheadings/14originalimages,20storystarts/seveninternalimagecontinuations. Fulloriginalnewsbodies readable,volunteertranscriptionpendingunderacceptednewsworkflow;allsource/range/scan/heading/overlapchecks and independentrebuildpass. All39cropsreviewedbefore37kor+engOCRtasks,two purephotoskipped,zero failure/retry/repair. Ending137andcompleteassemblyrequired.",
-        "Ending137retainedseparately:onecorrectedstory21heading/twooriginalcolumns,AIincomingandgeneratorleft→rightwordcontinuations/publicationendmarkretained. Lowerdesignschooladvertisement/associatedphoto excluded. All3initial/one revisedcrop reviewedbefore3kor+engOCRtasks,zero failure/retry;all source/range/scan checks and independentrebuildpass. Two exactnativescoverfull131–137,separatecomplete7-pageassemblyrequired."
+        "Actual complete information-radar news131–137/PDF133–139ends137rightprogramgeneratorstory. All7foliosindividuallyobserved. Canonical 정보 레이다/정보모음 parent unchanged,no authorinferred. Prior130relocationadvertisement/lower137designschooladvertisementandassociatedphoto/138MSDOSadvertisement/139Businessdivider excluded.",
+        "Two exact immutable natives retain42regions/26correctedsearchableheadings/16originalimages,21stories(15domestic/sixforeign),nineimagecolumncontinuations/sixwordsplits/onecross-nativeAIconnection/22overlaps. Allglobalranges/scans/heading/story/image/continuationlinks validate;allnativefilesandindependentcompleterebuildbyte-identical.",
+        "Complete readable original news bodies remain images with volunteer transcription explicitly pending;raw drafts unpromoted. Five pure obsoletecoverage notes resolved;allhistorical/sourcebyte/oldglyph/human-reviewfidelitylimits retained."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-47-r01/news-a",
+        "directory": "archive/pdf/1984-10/packages/news-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0038",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-47-r01/news-a/manifest.json",
-          "sha256": "d128534c5ffd20eb93ded256c4efda52b889c7d4a907d323a6f2fdfb09bbaa4e",
-          "bytes": 26834
+          "path": "archive/pdf/1984-10/packages/news-complete-r01/manifest.json",
+          "sha256": "b7861aec718c63c9dd4707286634cf4785421eea56c032ebc1d856e73bacb02c",
+          "bytes": 34227
         },
         "coverage": {
           "pdf_pages": [
@@ -3038,7 +3038,8 @@
             135,
             136,
             137,
-            138
+            138,
+            139
           ],
           "printed_pages": [
             "131",
@@ -3046,27 +3047,34 @@
             "133",
             "134",
             "135",
-            "136"
+            "136",
+            "137"
           ],
-          "regions": 39,
-          "blocks": 25,
-          "figures": 14,
-          "regional_text_ranges": 25,
-          "text_review_ranges": 27,
-          "corrected_headings": 25,
-          "source_news_story_starts": 20,
-          "original_news_body_columns": 12,
+          "regions": 42,
+          "blocks": 26,
+          "figures": 16,
+          "corrected_headings": 26,
+          "text_block_ranges": 26,
+          "text_review_ranges": 28,
+          "source_regional_spans": 26,
+          "native_prose_boundaries": 0,
+          "source_news_stories": 21,
+          "domestic_news_stories": 15,
+          "foreign_news_stories": 6,
+          "original_news_body_columns": 14,
           "original_uncaptioned_photograph_assets": 2,
-          "source_news_image_continuations": 7,
-          "source_news_image_word_splits": 4,
-          "outgoing_source_news_continuations": 1,
-          "source_heading_associations": 56,
-          "source_story_image_associations": 28,
-          "image_text_overlaps": 21,
+          "source_news_image_continuations": 9,
+          "source_news_image_word_splits": 6,
+          "cross_native_news_image_continuations": 1,
+          "source_heading_associations": 63,
+          "source_story_image_associations": 31,
+          "image_text_overlaps": 22,
           "caption_blocks": 0,
           "caption_associations": 0,
+          "excluded_advertisements": 1,
           "body_transcription": "pending-volunteer",
-          "typed_body_paragraphs": 0
+          "typed_body_paragraphs": 0,
+          "resolved_scope_components": 5
         },
         "full_source_extent": {
           "pdf_pages": [
@@ -3088,7 +3096,7 @@
             "137"
           ]
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "directory": "archive/pdf/1984-10/packages/batch-47-r01/news-a",
@@ -3108,23 +3116,9 @@
           }
         ],
         "article_associations": {
-          "path": "archive/pdf/1984-10/evidence/batch-47/source-associations.json",
-          "sha256": "2dca3059500b3aa76987d569cac8c8b77c7d89114548e350a7d61f22b1f01a9a",
-          "bytes": 110804
-        },
-        "all_native_source_pages": [
-          133,
-          134,
-          135,
-          136,
-          137,
-          138,
-          139
-        ],
-        "ending_validation": {
-          "path": "archive/pdf/1984-10/evidence/batch-48/validation.json",
-          "sha256": "a8df8cf41fcaa763cc8579832586889748f0dc5e9bf87f449ab5ec0dcd7393e0",
-          "bytes": 2433
+          "path": "archive/pdf/1984-10/evidence/news-assembly/article-associations.json",
+          "sha256": "883de42bad08fa2597a19d9b17ead8e138fd5c5140f990268c943b731b8bf5c6",
+          "bytes": 174918
         }
       }
     },
@@ -3161,8 +3155,8 @@
     "articles": 32,
     "non_owning_headings": 6,
     "unresolved_classification": 3,
-    "readable": 31,
-    "partial": 1,
+    "readable": 32,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 38,
@@ -4941,17 +4935,45 @@
       "outputs": [
         "maso-1984-10-toc-0038"
       ]
+    },
+    {
+      "id": "news-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/news-assembly/checkpoint.json",
+        "sha256": "4275351f8e1bf310bd755569317674c8f83aa83a9d4ef7a92084bbfcb7b8c2f3",
+        "bytes": 1098
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-47/source-review.json",
+        "sha256": "672f4341eb59c514b8560500e4ed23eca6e79c9d07e2dad96c058581fbc54ff1",
+        "bytes": 1798
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/news-assembly/validation.json",
+        "sha256": "212c90c98ce9fcfeba929cd8822a8bc43289246b933cc517cf82b05c14204688",
+        "bytes": 2518
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/news-assembly/review-log.json",
+        "sha256": "4544314702aa4ec758556e71ab83039ef2ebfe029e2645b40ca34ba93c9dcb7f",
+        "bytes": 3114
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "ba82b4c",
+      "outputs": [
+        "maso-1984-10-toc-0038"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "news-assembly",
-    "goal": "Assemblecomplete 정보레이다131–137/PDF133–139fromtwoexactnatives. Verify42regions/26correctedheadings/16originalimages/21stories/nineimagecolumncontinuations(includingcross-nativeAI명망→있는)/22overlaps. Bodytranscriptionremainsvolunteer-pending;exclude lower137advertisement/associatedphoto and138fullpageadvertisement. Resolvefivepurecoverage notesonly.",
+    "id": "batch-49",
+    "goal": "Verify full 복덕방0039actualextent from235before238Q&A andadjacent234;reviewallcandidatepagesbeforemapping. Restore boundedcompleteclassifiedsifwithin6pages:correct searchableheadings/instructions,retain readableoriginallisting/contact/price/columncontinuations/photos,explicitvolunteerlistingtranscriptionpending underacceptedclassifiedsworkflow. No historicalcontactactions.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0038"
+      "maso-1984-10-toc-0039"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
