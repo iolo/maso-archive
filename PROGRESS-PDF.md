@@ -6,18 +6,19 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: 22 readable, assistant sample-reviewed articles,
-one partial data-structures article,three non-owning headings and15 of41 entries
-unresolved. Data-structures ending180–183 retains27 regions,15 corrected blocks,
-eight original images,21 regional spans,six source boundaries and six caption
-associations. Two Pascal source panels,four diagrams and two original mathematical
-prose panels retain all source notation/anomalies;five bibliography entries corrected.
-All27 OCR tasks completed with one pre-recognition crop repair,zero failures or
-retries;independent byte-identical rebuild passes. Both natives cover actual full
-177–183;following ads/Technical divider excluded. Next:separate full7-page assembly.
-Source(n+1),duplicated equality,tree/array/bibliographic anomalies remain literal.
-Human acceptance/full proofreading,source glyph/notation/encoded-byte fidelity and
-execution remain unverified;whole-issue closeout pending,no reader rebuild.
+October 1984 is in progress: 23 readable, assistant sample-reviewed articles,
+no partial,three non-owning headings and15 of41 entries unresolved. Complete
+자료구조177–183 covers50 regions,30 corrected blocks,13 original images,
+39 regional spans,48 review ranges,nine native boundaries and nine caption links.
+Three distinct Pascal source panels,six diagrams,two original mathematical prose
+panels,title/series panel and illustration retain source notation/anomalies;five
+bibliography entries have global source scopes. All native bytes preserved;
+source/range/scan/caption/heading/math/program/reference checks and independent
+byte-identical rebuild pass. No new mapping/OCR. Four pure scope notes resolve;
+source fidelity/notation uncertainties remain. Next:Technical heading classification,
+full 마이컴 설계강좌188 extent review,then bounded opening. Human acceptance/
+full proofreading,source glyph/notation/encoded-byte fidelity and execution remain
+unverified;whole-issue closeout pending,no reader rebuild.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
@@ -49,7 +50,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 23 classified | 22 readable, 1 partial; 15 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 23 classified | 23 readable; 15 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

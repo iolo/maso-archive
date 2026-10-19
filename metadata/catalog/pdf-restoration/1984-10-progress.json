@@ -1948,48 +1948,60 @@
       "parent_id": "maso-1984-10-toc-0021",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Displayed 자료구조177/PDF179,subtitle 정열(sorting)과 검색(searching),마지막회. Canonical author이근배/Business parent unchanged;no independent byline appears in source177–183,none invented into article text.",
-        "Actual complete177–183/PDF179–185 ends with closing prose/references. Following184–186sequence/PDF186–188 are unrelated publisher ads/corporate notice;187sequence/PDF189 Technical divider;188/PDF190 independent 마이컴설계강좌. Prior medical176. No unrelated material owned.",
-        "Current177–179 retains15 corrected standalone blocks/five original title/art/graph/diagram/Pascal images. All literal source 정열/자치하는/math notation/n-pass claims retained;code draft unpromoted. Remaining180–183 and separate complete7-page assembly required.",
-        "Ending180–183/PDF182–185 now restored separately:15corrected blocks/eight original math/Pascal/diagram images and five bibliography entries. All7source pages represented by two exact immutable natives;complete article assembly remains required. Literal source mathematical/diagram/bibliographic anomalies retained without repair."
+        "Displayed 자료구조177/PDF179,subtitle 정열(sorting)과 검색(searching),마지막회 and historical six-part series contents. Canonical author이근배/Business parent unchanged;no independent source byline fabricated.",
+        "Actual complete177–183/PDF179–185 assembled from exact immutable two natives,ending closing prose/five references. Prior medical176;following184–186sequence publisher ads/corporate notice and187sequence Technical divider excluded. Next independent 마이컴설계강좌188.",
+        "All30corrected standalone blocks/13original images retained. Three distinct Pascal source panels,six diagrams,two mathematical prose/equation panels,title/series panel/illustration. Global39regional/48review ranges,nine native boundaries/nine captions,11heading/12prose-image scopes,five references and all source anomalies audited without semantic/algebraic/program reconstruction."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-32-r01/data-structures-a",
+        "directory": "archive/pdf/1984-10/packages/data-structures-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0025",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-32-r01/data-structures-a/manifest.json",
-          "sha256": "8aa0a43cf4e48fd53bda74dea7770f0ca93baa56312f34d0c5f3058c4cf90a6b",
-          "bytes": 16428
+          "path": "archive/pdf/1984-10/packages/data-structures-complete-r01/manifest.json",
+          "sha256": "e5f3e37e71729ea7b084412b36c23464ffa01c182efc3ae9d833b3794e13e534",
+          "bytes": 41251
         },
         "coverage": {
           "pdf_pages": [
             179,
             180,
-            181
+            181,
+            182,
+            183,
+            184,
+            185
           ],
           "printed_pages": [
             "177",
             "178",
-            "179"
+            "179",
+            "180",
+            "181",
+            "182",
+            "183"
           ],
-          "regions": 23,
-          "blocks": 15,
-          "figures": 5,
-          "regional_text_ranges": 18,
-          "text_review_ranges": 21,
+          "regions": 50,
+          "blocks": 30,
+          "figures": 13,
+          "regional_text_ranges": 39,
+          "text_review_ranges": 48,
           "physical_listing_rows": 0,
-          "original_pascal_panels": 1,
-          "original_diagrams": 2,
+          "original_pascal_panels": 3,
+          "separate_source_program_groups": 3,
+          "original_diagrams": 6,
+          "original_math_prose_images": 2,
           "original_title_panel": 1,
           "original_illustration": 1,
-          "caption_blocks": 3,
-          "caption_associations": 3,
-          "source_heading_associations": 3,
-          "source_prose_image_associations": 4,
-          "native_prose_boundaries": 3
+          "caption_blocks": 9,
+          "caption_associations": 9,
+          "source_heading_associations": 11,
+          "source_prose_image_associations": 12,
+          "native_prose_boundaries": 9,
+          "image_text_overlaps": 6,
+          "source_bibliography_entries": 5,
+          "cross_native_broken_word_connections": 0
         },
         "full_source_extent": {
           "pdf_pages": [
@@ -2011,7 +2023,7 @@
             "183"
           ]
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "directory": "archive/pdf/1984-10/packages/batch-32-r01/data-structures-a",
@@ -2030,19 +2042,15 @@
             }
           }
         ],
-        "all_native_source_pages": [
-          179,
-          180,
-          181,
-          182,
-          183,
-          184,
-          185
-        ],
-        "ending_validation": {
-          "path": "archive/pdf/1984-10/evidence/batch-33/validation.json",
-          "sha256": "7efd7f2cb32f29fecb9e240aedcda31b53da6148d0f299ed546a8867f41b5fc7",
-          "bytes": 2327
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/data-structures-assembly/article-associations.json",
+          "sha256": "68f37c968dfb61a8888f811831ac5ac6f9bd60a669b39b8bd87081d0221c0827",
+          "bytes": 142565
+        },
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/data-structures-assembly/image-code-coverage.json",
+          "sha256": "0a7a924f8f93148fd69d2daf74952cc12f132d92ca1d642d8afa20e45dd678f4",
+          "bytes": 13717
         }
       }
     },
@@ -2221,8 +2229,8 @@
     "articles": 23,
     "non_owning_headings": 3,
     "unresolved_classification": 15,
-    "readable": 22,
-    "partial": 1,
+    "readable": 23,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 26,
@@ -3438,17 +3446,46 @@
       "outputs": [
         "maso-1984-10-toc-0025"
       ]
+    },
+    {
+      "id": "data-structures-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/data-structures-assembly/checkpoint.json",
+        "sha256": "1a19bf9c36822f3a69b2e897e7eaaa080df41ddf278c3a3b3c72016f4fdbe006",
+        "bytes": 1660
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-32/source-review.json",
+        "sha256": "97fa3bf74ad760d0a73c1972a4a58861ea87a3248bcc044f07ca0161f64b8a1b",
+        "bytes": 1931
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/data-structures-assembly/validation.json",
+        "sha256": "217d12811d4642604477f7814720130566b7b747bac1cbbdf51fc758adef7feb",
+        "bytes": 2693
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/data-structures-assembly/review-log.json",
+        "sha256": "734891b7faf056202501925ea2cc37f99bbd24676a929de5bd80acff06d89fb2",
+        "bytes": 3887
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "3639f1b",
+      "outputs": [
+        "maso-1984-10-toc-0025"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "data-structures-assembly",
-    "goal": "Assemble full 자료구조177–183/PDF179–185 from exact immutable two natives. Validate50regions/30blocks/13images,39regional/48review ranges,nine native joins/nine captions,three separate Pascal sources,six original diagrams,two math/prose overlap panels and five references. Resolve obsolete coverage only,retain source anomalies/notation uncertainties and all native bytes;independent rebuild. No mapping/OCR.",
+    "id": "batch-34",
+    "goal": "Classify non-owning Technical0026 from actual divider187sequence/PDF189,canonical/source title spacing separate. Verify full 마이컴설계강좌0027 actual extent from188 before203SPCeditor,all candidate pages/adjacent boundaries before mapping;restore bounded opening up to six mapped article pages. At most two canonical identities,20outside lookups;preserve memory/hardware/code diagrams and source glyph/byte/execution limits.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0025"
+      "maso-1984-10-toc-0026",
+      "maso-1984-10-toc-0027"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
