@@ -24,32 +24,35 @@ records below are historical and do not authorize a new rebuild.
 
 ## December 1984 started, 2026-10-19
 
-December 1984 is in progress: eight readable, assistant sample-reviewed articles
-cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46,
-Apple BASIC to machine language(3)47–63, Christmas-card66–69, Diamond Field70–77
-and complete Spin Ball78–87. No partial articles remain at this checkpoint.
-One non-owning hobby heading is classified;28 of37 entries remain unresolved.
+December 1984 is in progress: eight articles are readable, including complete
+Spin Ball78–87. Crowded Speedway88–93is restored as one partial article of its
+verified full88–97extent. One non-owning hobby heading is classified;27of37
+canonical entries remain unresolved. Human acceptance/full proofreading,
+original source bytes and historical execution remain unverified.
 
-The complete Spin Ball assembly and both flag-only native metadata revisions
-rebuild byte-identically:323assembly files,200opening files and114ending files.
-All14,220prior evidence files remain unchanged; the new inventory pins16,180files.
-Every original correction value, metadata file, scan, crop, OCR result and reading
-revision remains retained. The combined indexes cover1,352physical rows,
-28numbered BASIC entries,14wraps,1,310hex rows/addresses,10,461hex literals,
-45DATA fields,nine quotes,ten inline examples,14images andfour caption links.
-Source glyph/spacing candidates, the five-field final7BE0revision and7B28typing
-repair remain explicit. Source bytes/execution and full proofreading are unverified.
+The opening retains62regions,33blocks,19original images,585physical listing rows,
+ten numbered BASIC entries,seven wraps,568hex rows/addresses and4,544hex literals.
+Two tables retain18data rows/80cells,including22blank cells. All44DATA fields,
+two quoted strings,16inline examples,four figure-caption links andone listing
+caption link have exact source ranges. Printed SPEEPWAY-RUN,missing table address
+digits,blank road-flag address and decimal13/newline3remain literal candidates.
 
-The separately committed literal-source projection passes163PDF tests. Earlier
-Apple/Diamond live implementation pins and read-only audits pass unchanged.
-An initial assembly omitted the native logical-row ordinal; its export/rebuild,
-code and failed independent verifier remain preserved. Selected r02retains native
-and global ordinals. No new mapping, rendering, OCR or reader/frontend work.
+All62original/one revised exact crops were inspected before43successful mapped
+Tesseract tasks. One compatibility crop widened before OCR; no recognition
+failure/retry or post-OCR crop repair. Both200-file exports/rebuilds remain
+preserved. Selected r02adds only an explicit list2caption link to its four code
+blocks/twelve panels; all original source text and other correction values remain
+exact. All16,180prior evidence files are unchanged; new inventory:17,399files.
+The tested163-test shared pipeline remains unchanged. No reader/frontend work.
 
-Next: establish Crowded Speedway0009full extent and neighbors from verified
-88/PDF90, then map at most six opening pages. Following education heading0010
-and child0011printed102are lookup leads, not verified boundaries or global offsets.
-Keep source review/crop timing, correction and evidence-retention rules unchanged.
+Next: restore Crowded Speedway94–97/PDF96–99from preserved/reinspected scans,
+then independently assemble the full88–97article. The next named checkpoint
+also classifies the separate education0010divider on unpaginatedPDF103.
+Following PDF100–102are three ads; BASIC speed article independently starts
+printed102/PDF104. These observations establish local boundaries, not a global
+PDF/folio offset. Existing literal-source v1does not project tables or the
+internal-digit DATAwrap; full assembly needs explicit compatible projection
+while preserving all original indexes, metadata and source spelling.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
