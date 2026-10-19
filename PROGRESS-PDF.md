@@ -6,13 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: sixteen readable, assistant sample-reviewed articles,
-one partial CP/M and two non-owning headings;22 of41 entries remain unresolved.
-Complete SPC input-technique111–112 and CP/M ending109–110 pass exact rebuilds.
-Next: assemble full CP/M103–110 from the two immutable natives. Original source
-images/drafts, literal errors and glyph/control-byte uncertainty remain. See the
-[October record](docs/progress/8410.md) and versioned ledger for selected packages
-and evidence. Whole-issue closeout remains pending.
+October 1984 is in progress: seventeen readable, assistant sample-reviewed articles,
+no partial,two non-owning headings and22 of41 entries unresolved. Complete
+CP/M103–110 passes exact native preservation and independent assembly rebuild;
+all original imagery and inline command/control-byte limits remain. Next: verify
+full Apple Fortran from113 before120 and restore actual opening within candidate
+113–118 under six-page limit. See the [October record](docs/progress/8410.md) and
+versioned ledger for selected packages/evidence. Whole-issue closeout pending.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
@@ -44,7 +44,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 17 classified | 16 readable, 1 partial; 22 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 17 classified | 17 readable; 22 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

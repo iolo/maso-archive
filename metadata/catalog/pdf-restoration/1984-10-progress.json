@@ -1196,50 +1196,22 @@
       "parent_id": "maso-1984-10-toc-0013",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Separate CP/M/BASCOM title/deck/연재4회 and signed 신동완/대림산업 기획조정실 on103/PDF105. Canonical CP/M 입문 title/author/parent unchanged; displayed BASCOM title separate.",
-        "Full article103–110/PDF105–112 verified through final L80 prose/diagram110, before independent SPC-1000 input-technique title111. Lower bookshop advertisement108 is disjointly excluded.",
-        "Current immutable opening covers103–108/PDF105–110 only. Source109–110 and separate full eight-page assembly remain required.",
-        "Ending109–110 restored in separate immutable native. All eight source pages now have native coverage; selected opening remains partial until separate full assembly."
+        "Separate CP/M/BASCOM title103 with signed 신동완/대림산업 기획조정실, 연재4회. Canonical title/byline/parent unchanged; displayed BASCOM separate.",
+        "Complete source103–110/PDF105–112 assembled from two exact immutable natives, through final L80 diagram110; math ends102 and SPC input begins111. Lower bookshop ad108 excluded.",
+        "All independent prose/headings/captions and inline command examples corrected, all original BASIC/compiler/table/terminal/flow/photo imagery retained. Source errors and command/control/glyph/byte/execution limits explicit."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-18-r01/cpm-a",
+        "directory": "archive/pdf/1984-10/packages/cpm-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0017",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-18-r01/cpm-a/manifest.json",
-          "sha256": "46586122f1436acbc9213ae60b496d7fceb2a142bc38f7691fe7dd75e4ccedd4",
-          "bytes": 41766
+          "path": "archive/pdf/1984-10/packages/cpm-complete-r01/manifest.json",
+          "sha256": "e8d423ae5e0607fd874349154010998c8551692fef73792be4b7199c29c1f4e9",
+          "bytes": 57597
         },
         "coverage": {
-          "pdf_pages": [
-            105,
-            106,
-            107,
-            108,
-            109,
-            110
-          ],
-          "printed_pages": [
-            "103",
-            "104",
-            "105",
-            "106",
-            "107",
-            "108"
-          ],
-          "regions": 61,
-          "blocks": 44,
-          "figures": 13,
-          "physical_listing_rows": 0,
-          "original_basic_example_panels": 2,
-          "original_aligned_compiler_listing_panels": 1,
-          "original_terminal_output_panels": 4,
-          "original_table_panels": 3,
-          "original_flow_diagrams": 2
-        },
-        "full_source_extent": {
           "pdf_pages": [
             105,
             106,
@@ -1259,9 +1231,22 @@
             "108",
             "109",
             "110"
-          ]
+          ],
+          "regions": 74,
+          "blocks": 58,
+          "figures": 17,
+          "regional_text_ranges": 68,
+          "physical_listing_rows": 0,
+          "original_basic_example_panels": 3,
+          "original_basic_numbered_positions": 11,
+          "original_aligned_compiler_listing_panels": 1,
+          "original_terminal_output_panels": 6,
+          "original_table_panels": 3,
+          "original_flow_diagrams": 3,
+          "original_photo": 1,
+          "caption_associations": 7
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "name": "opening",
@@ -1281,7 +1266,17 @@
               "bytes": 9682
             }
           }
-        ]
+        ],
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/cpm-assembly/article-associations.json",
+          "sha256": "1c3d37445a3e16fae20d2182764d1a88172da3ac8590fe5e09ce58ea75c1691f",
+          "bytes": 76381
+        },
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/cpm-assembly/image-code-coverage.json",
+          "sha256": "7834a4035683d6dab1ff966be00cc85efdd28fd7f2d5a4cae7d34e71336a5664",
+          "bytes": 10447
+        }
       }
     },
     {
@@ -1563,8 +1558,8 @@
     "articles": 17,
     "non_owning_headings": 2,
     "unresolved_classification": 22,
-    "readable": 16,
-    "partial": 1,
+    "readable": 17,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 19,
@@ -2192,17 +2187,45 @@
         "maso-1984-10-toc-0017",
         "maso-1984-10-toc-0018"
       ]
+    },
+    {
+      "id": "cpm-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/cpm-assembly/checkpoint.json",
+        "sha256": "cd73f70b244f3ff6faafb7807f6b744c898aaa8e8ad37526a4c409de0ff58ebb",
+        "bytes": 1410
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-18/source-review.json",
+        "sha256": "274c914f9a0ae51204816edbd1df43c21fed1b8c0d1329ab672a3a3f5ef06ef2",
+        "bytes": 2284
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/cpm-assembly/validation.json",
+        "sha256": "2c35368fd7133e2424cb90b0c5dce6dfe301523fe129948e9a021e98a475bcf9",
+        "bytes": 2578
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/cpm-assembly/review-log.json",
+        "sha256": "1e82b17277e385f1d282726831e366a140a6d6b40a36b63a7399b8c799d585ac",
+        "bytes": 3207
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "29340e9",
+      "outputs": [
+        "maso-1984-10-toc-0017"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "cpm-assembly",
-    "goal": "Assemble complete CP/M/BASCOM103–110 from exact immutable opening103–108 and ending109–110. Audit global text/review ranges, original program/table/compiler/terminal/flow images and cross-native source reference, preserving source anomalies and glyph/control-byte limits.",
+    "id": "batch-20",
+    "goal": "Verify full 애플 포트란 extent from113 through before next independent 도량형 환산120. Restore actual opening within candidate113–118/PDF115–120 (six source pages maximum); preserve all source programs/terminal/tables and continue/assemble separately if needed.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0017"
+      "maso-1984-10-toc-0019"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

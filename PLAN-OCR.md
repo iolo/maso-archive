@@ -19,15 +19,15 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: sixteen readable, assistant sample-reviewed
-  articles, one partial CP/M and two non-owning headings;22 of41 entries remain
-  unresolved. Latest checkpoint completes SPC input-technique111–112 and CP/M
-  ending109–110:27 blocks/seven original images/32 spans/four joins, both exact
-  rebuilds. All26 OCR tasks completed without failures/retries; eight crops widened
-  once before OCR, originals preserved. Next: assemble full CP/M103–110 from exact
-  immutable opening/ending natives. Source anomalies, image interiors and inline
-  command/control-byte uncertainty remain. Continue from the
-  [October record](docs/progress/8410.md) and
+- October 1984 is in progress: seventeen readable, assistant sample-reviewed
+  articles,no partial,two non-owning headings and22 of41 entries unresolved.
+  Complete CP/M103–110 passes exact native preservation and independent assembly
+  rebuild:74 regions/58 blocks/17 images,68 spans/10 joins,seven captions/eight
+  source heading/example associations and exact108→109 /N source connection.
+  Original source errors and command/control/glyph/byte limits remain explicit.
+  Next: verify full Apple Fortran113 to before120, restore actual opening within
+  candidate113–118 under six-page maximum, later native/assembly if needed.
+  Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains default; unlisted DOS TOOL KIT41–43 excluded and
   whole-issue closeout pending.
