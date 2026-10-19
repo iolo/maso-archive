@@ -1633,46 +1633,87 @@
       "parent_id": "maso-1984-10-toc-0021",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Separate 한글 주소록 프로그램148/PDF150,signed 박승운/서울대학교 전자계산기 공학과4,애플컴패티블/한글링크(홍익전자). Canonical title/byline/Business parent unchanged.",
-        "Full148–166/PDF150–168 verified continuously through narrative157 and original BASIC listings158–166 final12660 GOTO11700;prior development147,next independent 의료보험 수가계산167. No unrelated ads/body.",
-        "Current dense opening148–150 all standalone prose/title/byline/captions and original notebook/table/diagram retained. Source150ㅎ이→151면19번… continuation explicit;remaining151–166 and separate full19-page assembly required.",
-        "Middle151–156 restored:41 corrected blocks/32 original diagrams,screens and printout,including duplicate8-11,page-spanning8-16 and column-spanning8-19.12 variable entries/10 routine explanations remain source-linked prose. Remaining157–166 and separate full assembly pending.",
-        "Final narrative157 and listing opening158–162 restored:6 corrected blocks/12 original code images;initialization32 labels100–410 END distinct from main321 labels100–4390,two source replacement examples. Remaining163–166 and separate full19-page assembly pending.",
-        "Ending163–166 restored as eight complete original main BASIC columns/287 source labels4400–12660 GOTO11700. All19 pages exist in four immutable natives;full assembly remains required before readable status."
+        "Separate 한글 주소록 프로그램148/PDF150,signed 박승운/서울대학교 전자계산기 공학과4,애플컴패티블/한글링크(홍익전자);canonical title/byline/Business parent unchanged.",
+        "Complete148–166/PDF150–168 assembled from exact immutable four natives through12660 GOTO11700;prior development147,next independent medical-insurance167. No unrelated ads/body.",
+        "All corrected standalone prose/captions and55 original images retained:18 BASIC columns/640 labels in two separate program groups,two source replacement examples,title art,tables,diagrams/screens/printout. Source duplicate caption11,page16/column19 fragments,word/list continuations and global source ranges audited."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a",
+        "directory": "archive/pdf/1984-10/packages/addressbook-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0023",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a/manifest.json",
-          "sha256": "d6d7ff54a64dea62b30a0aa7f994b6e48a0a5330c20954637ad2ff9f069c4083",
-          "bytes": 11609
+          "path": "archive/pdf/1984-10/packages/addressbook-complete-r01/manifest.json",
+          "sha256": "2f2f751005a63274d5eeeb4ac2fa755d6034d6dc8a5103d64696f2495f297faa",
+          "bytes": 73252
         },
         "coverage": {
           "pdf_pages": [
             150,
             151,
-            152
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168
           ],
           "printed_pages": [
             "148",
             "149",
-            "150"
+            "150",
+            "151",
+            "152",
+            "153",
+            "154",
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165",
+            "166"
           ],
-          "regions": 16,
-          "blocks": 14,
-          "figures": 3,
-          "regional_text_ranges": 18,
+          "regions": 113,
+          "blocks": 61,
+          "figures": 55,
+          "regional_text_ranges": 68,
+          "text_review_ranges": 77,
           "physical_listing_rows": 0,
-          "original_data_structure_table": 1,
-          "original_linked_list_diagram": 1,
-          "original_notebook_title_artwork": 1,
-          "caption_associations": 2,
-          "diagram_prose_associations": 4,
-          "native_prose_boundaries": 4
+          "original_basic_columns": 18,
+          "source_initialization_number_positions": 32,
+          "source_main_number_positions": 608,
+          "total_source_number_positions": 640,
+          "original_replacement_examples": 2,
+          "original_table_images": 2,
+          "original_flow_images": 5,
+          "original_screen_images": 27,
+          "original_title_artwork": 1,
+          "caption_blocks": 34,
+          "caption_associations": 36,
+          "source_definition_entries": 12,
+          "source_routine_explanations": 14,
+          "native_prose_boundaries": 7,
+          "cross_native_prose_connections": 2,
+          "main_panel_connections": 16,
+          "incoming_physical_wrap_boundaries": 7
         },
         "full_source_extent": {
           "pdf_pages": [
@@ -1719,7 +1760,7 @@
           ],
           "source_final_listing_statement": "12660 GOTO11700"
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "directory": "archive/pdf/1984-10/packages/batch-26-r02/addressbook-a",
@@ -1754,29 +1795,16 @@
             }
           }
         ],
-        "source_pages_in_natives": [
-          150,
-          151,
-          152,
-          153,
-          154,
-          155,
-          156,
-          157,
-          158,
-          159,
-          160,
-          161,
-          162,
-          163,
-          164,
-          165,
-          166,
-          167,
-          168
-        ],
-        "remaining_pdf_pages": [],
-        "all_source_pages_in_natives": true
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/addressbook-assembly/article-associations.json",
+          "sha256": "5e47d4509f931fdbb3c9a7bddd6d549ca55fddd82d7a749e883f7545f1e7d6d6",
+          "bytes": 209055
+        },
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/addressbook-assembly/image-code-coverage.json",
+          "sha256": "cd084707b6eca56fcd3bdda5df73cb85842c16c54ccb9df640869283aa2039b7",
+          "bytes": 41224
+        }
       }
     },
     {
@@ -1972,8 +2000,8 @@
     "articles": 21,
     "non_owning_headings": 3,
     "unresolved_classification": 17,
-    "readable": 20,
-    "partial": 1,
+    "readable": 21,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 24,
@@ -3021,17 +3049,45 @@
       "outputs": [
         "maso-1984-10-toc-0023"
       ]
+    },
+    {
+      "id": "addressbook-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/addressbook-assembly/checkpoint.json",
+        "sha256": "9854a1dcf9e79c043643f6a7148077e4c5c6637a0584a21b51286e090a07a893",
+        "bytes": 2239
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-26/source-review.json",
+        "sha256": "659702129c510aa2d251ca3ccb53f3fd239706cb7c4ebcd776b230041fee4d5e",
+        "bytes": 1801
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/addressbook-assembly/validation.json",
+        "sha256": "d810915b19f0b9e42ecbd3e71559bd1d880bb71da27e1c3e8ae7a97f6cad9ac4",
+        "bytes": 4054
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/addressbook-assembly/review-log.json",
+        "sha256": "4da0c9b241223674c1b6123f26e9415aac6c311eff6accf36f8d4cff553de0ac",
+        "bytes": 5018
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "a6fb2e3",
+      "outputs": [
+        "maso-1984-10-toc-0023"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "addressbook-assembly",
-    "goal": "Assemble complete addressbook148–166 from four exact immutable natives. Audit all19 source pages/global text/caption/prose/definition/diagram/screen-fragment scopes,18 original BASIC columns/two listing groups/640 source labels,17 main columns/608 labels/16panel connections/seven incoming physical wraps,two source replacement examples,all source glyph/encoded-byte/execution limits.",
+    "id": "batch-30",
+    "goal": "Verify full canonical 의료보험 수가계산0024 actual extent from167 before next177,all candidate pages/adjacent boundaries before mapping. Restore bounded opening at most167–172 with complete source prose/captions/original program panels;preserve source identity/old glyph/encoded-byte/execution limits.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0023"
+      "maso-1984-10-toc-0024"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

@@ -19,16 +19,17 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: 20 readable, assistant sample-reviewed articles,
-  one partial addressbook article,three non-owning headings and17 of41 entries
-  unresolved. All19 addressbook pages148–166 now exist in four immutable natives.
-  Ending163–166 retains eight complete original main BASIC columns/287 source labels
-  4400–12660 GOTO11700,seven panel connections and three incoming physical wraps.
-  No typed program or inferred END. All8 eng OCR tasks completed without failures,
-  retries or crop repairs;independent byte-identical rebuild passes. Complete source
-  includes separate initialization32 labels/main608 labels across18 original columns,
-  two replacement examples and all prose/diagrams/screens/printout. Next:separate
-  full19-page assembly/global association audit. Human acceptance/full proofreading,
+- October 1984 is in progress: 21 readable, assistant sample-reviewed articles,
+  no partial articles,three non-owning headings and17 of41 entries unresolved.
+  Complete addressbook148–166 retains113 regions,61 corrected blocks,55 original
+  images,68 regional spans,77 text reviews,seven native prose joins,two cross-native
+  connections and36 caption links. Eighteen original BASIC columns preserve separate
+  initialization32/main608 source labels;17 main columns have16 connections/seven
+  incoming physical wraps. Source replacement examples,diagrams/screens/printout,
+  duplicate caption11 and page16/column19 fragments remain original. Four natives
+  are byte-preserved;independent whole rebuild matches.13 obsolete coverage components
+  resolve while both mixed fidelity clauses remain. Next:verify full medical-insurance
+  article from167 before177,then bounded opening. Human acceptance/full proofreading,
   source glyph/control/encoded-byte fidelity and execution remain unverified;
   whole-issue closeout pending,no reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
