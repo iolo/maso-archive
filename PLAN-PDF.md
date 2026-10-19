@@ -26,15 +26,15 @@ records below are historical and do not authorize a new rebuild.
 
 October 1984 is in progress: 29 readable, assistant sample-reviewed articles,
 one partial article, five non-owning headings and six unresolved entries out
-of 41. 피라밋II opening224–229 preserves 24 regions, 11 corrected blocks and
-11 original images, including seven BASIC panels with299 printed numbers,
-189 physical wraps and488 physical rows. The36 program-range explanations and
-31 variable descriptions remain source-linked. PDF227has no visible folio;
-225is sequence only and its printed-page field remains null. All crop/source/
-range/scan checks and the independent rebuild pass. Next: ending230–234 and
-complete11-page assembly. The earlier design-middle preflight timing exception
-remains recorded. Human acceptance, full proofreading, source bytes and execution
-remain unverified. Whole-issue closeout is pending; no reading-room rebuild.
+of 41. 피라밋II ending230–234 preserves ten original BASIC panels with357
+printed numbers,357 physical wraps and714 physical rows;44mazeDATAstatements
+and final6520DATAremain original. Source2930→3000gap and incoming2890/3260/5840
+continuations are preserved. All ten crops were reviewed before ten engOCRtasks,
+with zero failures/retries/repairs;source/scan checks and exact rebuild pass.
+Two immutable natives cover224–234;complete11-page assembly is next. PDF227
+has no visible folio and its printed-page field remains null. Earlier design-middle
+timing exception,human acceptance/full proofreading/source bytes/execution limits
+remain recorded. Whole-issue closeout is pending; no reading-room rebuild.
 
 See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
 Unlisted DOS TOOL KIT41–43 remains excluded.
