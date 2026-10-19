@@ -25,14 +25,16 @@ records below are historical and do not authorize a new rebuild.
 ## December 1984 started, 2026-10-19
 
 The editorial18, robot-feature introduction19, complete 골목대장20–33 and
-complete 똑딱 반짝34–46 are readable and assistant sample-reviewed. Thirty-three
-of37 entries remain unresolved. The latest assembly retains86regions,77blocks,
-25images,180numbered code rows and57table cells; all304files rebuild identically.
-The10/KΩ sentence boundary is joined. All5579 prior evidence files are unchanged.
-Code-number padding removal is exactly288spaces, with all originals preserved.
-Four decorative asterisk-run rows and earlier hex/glyph candidates remain uncertain;
-batch01's timing and batch06's intermediate retention exceptions remain explicit.
-Next: Apple BASIC to machine language(3), from printed47, after extent verification.
+complete 똑딱 반짝34–46 are readable and assistant sample-reviewed. Apple BASIC
+to machine language(3) is partial:47–52 restored of verified47–63. Thirty-two
+of37 entries remain unresolved. The latest native retains66regions,42blocks,
+21images,73physical code rows,41instruction groups and81table cells; all210files
+rebuild identically. All7179 prior evidence files are unchanged. All66original/
+14revised crops were reviewed before45OCR tasks, without failure or retry.
+Printed LAD and0~911 remain literal; original panels and comment wraps retained.
+Earlier glyph/hex uncertainties, batch01's timing and batch06's intermediate
+retention exceptions remain explicit.
+Next: Apple feature53–58, then59–63 and separate full47–63 assembly.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).

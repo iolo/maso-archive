@@ -21,15 +21,15 @@ paired OCR or a new engine comparison.
 
 - December 1984 is in progress: editorial18, robot-feature introduction19,
   complete 골목대장20–33 and complete 똑딱 반짝34–46 are readable and assistant
-  sample-reviewed. Of37 entries,33 await classification/restoration. The latest
-  assembly retains86regions,77blocks,25images,180numbered code rows and57table
-  cells. All304files and three index revisions rebuild identically; all5579 prior
-  files are unchanged. The10/KΩ sentence is joined; code-number padding removal
-  is exactly288spaces, with all originals retained. Four decorative asterisk-run
-  rows and earlier glyph/hex candidates remain uncertain. Batch01's initial
+  sample-reviewed. Apple BASIC to machine language(3) is partial: opening47–52
+  restored, actual full extent47–63 verified. Of37 entries,32 await classification.
+  The latest native retains66regions,42blocks,21images,73physical code rows,
+  41instruction groups and81table cells. All210files rebuild identically;7179
+  prior files are unchanged. All66original/14revised crops preceded45OCR tasks,
+  without failure/retry. Literal LAD and0~911 remain preserved. Batch01's initial
   timing and batch06's intermediate retention exceptions remain explicit.
-  Next: Apple BASIC to machine language(3), from47; verify extent before mapping
-  the first six pages. Inspect full pages and every exact crop before OCR.
+  Next: Apple feature53–58, then59–63 and separate full assembly.
+  Inspect full pages and every exact crop before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

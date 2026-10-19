@@ -411,10 +411,130 @@
       "toc_entry_id": "maso-1984-12-toc-0004",
       "title": "특집 II : 애플 베이직에서 기계어로(3)",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF49/printed47 visibly starts independent featureII title/byline. Every full page through63/PDF65 and following ad66/divider67/Christmas-card68 inspected. Main body ends61; final appendix63 ends133 BACKGRD DS24. PriorPDF48 ends Tick Tock46.",
+        "Opening native47–52 restored;53–63 remains available source deferred to bounded natives. Independent complete article assembly required. Page52 ends a complete paragraph; topic continues53."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/batch-08-r01/apple-machine-a",
+        "article_id": "scan-maso-1984-12-toc-0004",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/batch-08-r01/apple-machine-a/manifest.json",
+          "sha256": "f78f2398c373550221064ff6f344d0e9170c063506b24d9cfd8a8fb8f545dd9e",
+          "bytes": 35034
+        },
+        "coverage": {
+          "pdf_pages": [
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "printed_pages": [
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52"
+          ],
+          "regions": 66,
+          "blocks": 42,
+          "figures": 21
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-08-r01/apple-machine-a",
+            "article_id": "scan-maso-1984-12-toc-0004",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-08-r01/apple-machine-a/manifest.json",
+              "sha256": "f78f2398c373550221064ff6f344d0e9170c063506b24d9cfd8a8fb8f545dd9e",
+              "bytes": 35034
+            },
+            "coverage": {
+              "pdf_pages": [
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "printed_pages": [
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52"
+              ],
+              "regions": 66,
+              "blocks": 42,
+              "figures": 21
+            },
+            "segment": "a"
+          }
+        ],
+        "full_source_extent": {
+          "pdf_pages": [
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "printed_pages": [
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63"
+          ]
+        },
+        "deferred_printed_pages": [
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63"
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0005",
@@ -740,11 +860,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 4,
+    "classified_articles": 5,
     "readable_articles": 4,
-    "partial_articles": 0,
+    "partial_articles": 1,
     "nonowning_headings": 0,
-    "unresolved_eligibility": 33,
+    "unresolved_eligibility": 32,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -1296,33 +1416,95 @@
         "sha256": "775d861d7c80d26a15772437cb129f900660b14d5044d53c295e9c91e1ef2b4c",
         "bytes": 1644627
       }
+    },
+    {
+      "id": "batch-08",
+      "status": "complete-partial-article-segment",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-08/checkpoint.json",
+        "sha256": "3b07880c3fe406ff988b127f7848d19bacbd17ef027b41402859a3454b9e40b8",
+        "bytes": 1742
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-08/validation.json",
+        "sha256": "0d6a4600d1717bc73cc35339053caedf1222d25771078326eea2fc0d8023aa0d",
+        "bytes": 1660
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-08/source-reviewed.json",
+        "sha256": "380b210ad3796fa7ed29f6f3db07367c240916a891a0099f00456ec3bc69a0f5",
+        "bytes": 4475
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-08/segment-scope.json",
+        "sha256": "e4ba9bf5130b7b876dece2c900e62a3f617bee1cc77432045db2513dbaa16376",
+        "bytes": 873
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-08/preflight-reviewed.json",
+        "sha256": "1a95e0faf02bb6e93a4b9ff9a30ad46db4db370d52ad795fb6c2fbe8cccff30e",
+        "bytes": 29582
+      },
+      "crop_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-08/crop-repair-r02.json",
+        "sha256": "ff19d9e6557416de911de144e4681bd23c50e62d62290eedf23c3a62a99ba564",
+        "bytes": 10795
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-08/correction-completed.json",
+        "sha256": "e8cf5bcffba11e4e393a5cc9bd927bca2f8f65edf39ddd6dbc3d4a2fad95be8b",
+        "bytes": 407
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-08/reproduction.json",
+        "sha256": "e3af66e2e5de494c451a3d06c63c9b01a2fedadaa114cae7382da02b25e64743",
+        "bytes": 1074
+      },
+      "actual_ocr_tasks": 45,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 14,
+      "post_ocr_crop_repairs": 0,
+      "regions": 66,
+      "blocks": 42,
+      "figures": 21,
+      "regional_text_ranges": 46,
+      "text_review_items": 58,
+      "prose_joins": 3,
+      "tables": 6,
+      "table_rows_including_headers": 27,
+      "table_cells": 81,
+      "blank_cells": 12,
+      "caption_associations": 1,
+      "listing_physical_rows": 73,
+      "assembly_logical_units": 42,
+      "assembly_instruction_units": 41,
+      "source_heading_units": 1,
+      "cross_column_comment_units": 1,
+      "inline_examples": 26,
+      "prior_files_verified": 7179,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-08/preserved-work-inventory.json",
+        "sha256": "9eebe60189089374e49995af5f9bbc9fedf6d955fcf0c805bcc033587121cec6",
+        "bytes": 1829621
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-08",
-    "goal": "Establish actual full extent of canonical0004 Apple BASIC to machine language(3), from verified opening47/PDF49; restore first six pages within bounded limits.",
+    "id": "batch-09",
+    "goal": "Restore Apple BASIC to machine language(3) middle printed53–58/PDF55–60. Preserve all worked examples, figures, tables and physical code/comment rows. Ending59–63 and independent full47–63 assembly remain separate.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0004"
     ],
-    "known_start": {
-      "pdf_page": 49,
-      "printed_page": 47
-    },
     "mapping_targets": [
-      49,
-      50,
-      51,
-      52,
-      53,
-      54
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
     ],
-    "provisional_lookup_targets": [
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
+    "source_lookup_targets": [
       54,
       55,
       56,
@@ -1330,21 +1512,54 @@
       58,
       59,
       60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68
+      61
     ],
+    "known_full_extent": {
+      "pdf_pages": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "printed_pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ]
+    },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Opening title/byline/source folio verified; next canonical article starts66candidate only. Inspect every actual folio through end/adjacent title within lookup limit, then map49–54 only. Preserve all graphics, source tables and code rows; inspect exact crops before OCR. Do not infer engineering corrections or executable bytes."
+    "note": "Reuse verified full extent. Reinspect mapped full pages and every exact crop before OCR. Source body ends61, appendix62–63 final133 BACKGRD DS24. Preserve literal source mistakes and original images; unnumbered code rows must not acquire fabricated printed numbers. The hobby divider0005 remains unclassified pending a separate named checkpoint."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
