@@ -6,13 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: eleven readable, assistant sample-reviewed articles
-and one non-owning heading;29 of41 canonical entries remain unresolved. Complete
-turtle57–61 and U-boat62–64 pass exact rebuilds. Next: establish 디베스테이터's
-full extent and restore its first six pages65–70. Code/table drafts remain
-unpromoted original-image readings. See the [October record](docs/progress/8410.md)
-and its versioned ledger for selected packages and evidence. Whole-issue closeout
-remains pending.
+October 1984 is in progress: twelve readable, assistant sample-reviewed articles
+and two non-owning headings;27 of41 canonical entries remain unresolved. Complete
+Devastator65–67, U-boat62–64 and turtle57–61 pass exact rebuilds. Next: establish
+기계어 강좌's full extent and restore its opening74–79 within six mapped pages.
+Source code/table images retain separate unpromoted drafts. See the
+[October record](docs/progress/8410.md) and its versioned ledger for selected
+packages and evidence. Whole-issue closeout remains pending.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and

@@ -19,14 +19,15 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: eleven readable, assistant sample-reviewed
-  articles and one non-owning hobby heading;29 of41 entries remain unresolved.
-  Complete turtle57–61 retains seven original code panels and both520/1770 physical
-  image fragments. No selected article is currently partial. Next: verify full
-  디베스테이터 from65 through the education area73–74, then restore opening65–70
-  within the six-page limit; ending native/assembly afterward. The separately
-  titled unlisted DOS TOOL KIT guide41–43 is excluded. Continue from the
-  [October record](docs/progress/8410.md) and
+- October 1984 is in progress: twelve readable, assistant sample-reviewed
+  articles and two non-owning headings;27 of41 entries remain unresolved.
+  Devastator is complete65–67; five following pages68–72 are unrelated ads, then
+  education divider73 and course74. Original code/table imagery and separate
+  unpromoted drafts retain explicit character/byte uncertainty. Next: verify full
+  기계어 강좌 to before92 and restore opening74–79 within six mapped pages;
+  preserve canonical 박재현/displayed 이세형 discrepancy, then later natives/assembly.
+  The separately titled unlisted DOS TOOL KIT guide41–43 is excluded. Continue
+  from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

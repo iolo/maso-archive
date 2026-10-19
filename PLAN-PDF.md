@@ -24,16 +24,17 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-Eleven October articles are readable, assistant sample-reviewed JSON/assets;
-취미생활 is a non-owning heading. Twenty-nine of41 entries remain unresolved,
-with no partial article currently selected. Latest: complete turtle57–61 and
-U-boat62–64. Turtle retains seven original BASIC panels/209 numbered positions,
-including520/1770 physical image fragments; raw code drafts remain unpromoted.
+Twelve October articles are readable, assistant sample-reviewed JSON/assets;
+취미생활 and 교육입문 are non-owning headings. Twenty-seven of41 entries remain
+unresolved; no partial article is currently selected. Latest: complete Devastator65–67,
+U-boat62–64 and turtle57–61. Dense code/table panels remain original images with
+unpromoted drafts, and source glyph/byte uncertainties remain explicit.
 The [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Next: verify full 디베스테이터 from65 through the education area73–74, then
-restore opening65–70 within six mapped pages. Ending native/assembly follow.
+Next: verify full 기계어 강좌 from74 to before next title92 and restore opening74–79
+within six mapped pages. Canonical 박재현/displayed 이세형 byline discrepancy
+must stay explicit without changing identity; later natives/assembly follow.
 The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
 Whole-issue closeout remains pending; no reading-room rebuild occurred.
 
