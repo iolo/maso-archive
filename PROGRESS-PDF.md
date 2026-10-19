@@ -6,13 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: 34 readable, assistant sample-reviewed articles,
-no partial articles, six non-owning headings and one unresolved entry out of41.
-Complete Q&A238–240 preserves four questions/answers,22 corrected blocks,12 original
-images and four BASIC panels with59 source rows. One uncertain prose reading remains
-explicit. Source/range/scan checks and byte-identical rebuild pass. The separate
-unlisted 통합 소프트웨어241–255 is classified outside canonical restoration scope.
-Next: advertising index, then260-page ledger, cover and standalone issue closeout.
+October 1984 article restoration is accounted:35 readable, assistant sample-reviewed
+articles and six non-owning headings cover all41 canonical TOC entries. There are
+no partial articles or unresolved entries. The advertising index preserves27 rows/
+54 cells, two original table columns and its tree; absent printed folio retained.
+Source/range/scan/cell checks and byte-identical rebuild pass. Whole-issue closeout
+is next:260-page source ledger, verified cover, standalone index and report.
+Unlisted DOS TOOL KIT41–43 and 통합 소프트웨어241–255 stay outside canonical scope.
 The earlier timing exception, human/source-byte limits and volunteer news/classified
 body transcription remain recorded. No reading-room rebuild.
 
@@ -46,7 +46,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 34 classified | 34 readable; 1 classification pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 35 classified | 35 readable; issue closeout pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

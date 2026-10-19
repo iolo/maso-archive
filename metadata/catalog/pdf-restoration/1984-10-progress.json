@@ -3278,23 +3278,76 @@
       "toc_entry_id": "maso-1984-10-toc-0041",
       "title": "광고색인",
       "parent_id": "maso-1984-10-toc-0035",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Complete lower advertising index on PDF258,canonical sequence256 with no visible printed folio. Upper 컴퓨터비전 publisher promotion and neighboring unlisted255/cover advertisements separate. Four source views reviewed.",
+        "Three corrected blocks/three original images retain27 advertiser/reference pairs and54 cells, including 표2/표3/표4 and original dotted leaders. Faint 벤엘상사 candidate flagged. Source/package/range/scan/cell checks and independent byte-identical rebuild pass."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-51-r01/adindex",
+        "article_id": "scan-maso-1984-10-toc-0041",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-51-r01/adindex/manifest.json",
+          "sha256": "bda695477d53fcf381c0951a6c8ed2450f6b49c97a08ac58c6ca724bcddeeb9b",
+          "bytes": 3418
+        },
+        "coverage": {
+          "pdf_pages": [
+            258
+          ],
+          "printed_pages": [
+            null
+          ],
+          "source_sequence_reference": 256,
+          "printed_folio_visible": false,
+          "regions": 4,
+          "blocks": 3,
+          "figures": 3,
+          "regional_text_ranges": 3,
+          "text_review_ranges": 4,
+          "advertiser_rows": 27,
+          "advertiser_cells": 54,
+          "original_table_columns": 2,
+          "original_decorative_trees": 1,
+          "caption_blocks": 0,
+          "image_text_overlaps": 2,
+          "source_heading_associations": 2,
+          "source_image_associations": 3,
+          "excluded_advertisements": 1,
+          "source_uncertain_readings": 1
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            258
+          ],
+          "printed_pages": [
+            null
+          ],
+          "source_sequence_reference": 256
+        },
+        "complete_article_assembly_pending": false,
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-51/source-associations.json",
+          "sha256": "bec11ad3ee004be28c0ed788c7e5a6c73a092b4f39956fb3220b9be2e02c59a8",
+          "bytes": 25288
+        }
+      }
     }
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 34,
+    "articles": 35,
     "non_owning_headings": 6,
-    "unresolved_classification": 1,
-    "readable": 34,
+    "unresolved_classification": 0,
+    "readable": 35,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 40,
-    "unresolved_availability": 1
+    "sample_reviewed": 41,
+    "unresolved_availability": 0
   },
   "checkpoints": [
     {
@@ -5153,17 +5206,42 @@
       "outputs": [
         "maso-1984-10-toc-0040"
       ]
+    },
+    {
+      "id": "batch-51",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-51/checkpoint.json",
+        "sha256": "8ecb9fa855addb9e9887f453dc77db7c52181c855af2276182aa7be0019dc03c",
+        "bytes": 2062
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-51/source-review.json",
+        "sha256": "2127592bf0409c394931a2548ed6bb302a2acf5cbd1109c24d99d6af101358ec",
+        "bytes": 995
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-51/validation.json",
+        "sha256": "0b0d79554eeec5ec268bc778471b713736d2e4c61866232da3100e8489885e81",
+        "bytes": 2169
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-51/review-log.json",
+        "sha256": "81986024b447f9ff641bc01ee7002cffb2f167b12c42b42a85942ae38464cc4d",
+        "bytes": 1777
+      },
+      "status": "complete-advertising-index",
+      "tool_revision": "6a630f8",
+      "outputs": [
+        "maso-1984-10-toc-0041"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-51",
-    "goal": "Restore advertising index0041 on PDF258 after verifying adjacent source pages. Its folio is absent; canonical sequence256 is not a literal printed label. Exclude upper publisher advertisement, preserve illustration/table geometry, correct index cells. Then whole-issue260-page ledger, cover, standalone reference and closeout.",
-    "toc_entry_ids": [
-      "maso-1984-10-toc-0041"
-    ],
-    "maximum_articles": 2,
-    "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20
+    "id": "issue-closeout",
+    "goal": "Reconcile all260 source pages,35 readable articles/six headings, two unlisted features and verified cover. Export standalone JSON/assets reference and report, validate exact selected package copies and independent byte-identical issue rebuild. Retain batch35 preflight timing exception and human/source-byte/volunteer-transcription limits.",
+    "toc_entry_ids": [],
+    "new_ocr": false,
+    "reader_rebuild": false
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

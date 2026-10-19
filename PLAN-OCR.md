@@ -19,13 +19,13 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: 34 readable, assistant sample-reviewed articles,
-  no partial articles, six non-owning headings and one unresolved entry out of41.
-  Complete Q&A238–240 preserves four questions/answers,22 corrected blocks,12 original
-  images and four BASIC panels with59 source rows. One uncertain prose reading remains
-  explicit. Source/range/scan checks and byte-identical rebuild pass. The separate
-  unlisted 통합 소프트웨어241–255 is classified outside canonical restoration scope.
-  Next: advertising index, then260-page ledger, cover and standalone issue closeout.
+- October 1984 article restoration is accounted:35 readable, assistant sample-reviewed
+  articles and six non-owning headings cover all41 canonical TOC entries. There are
+  no partial articles or unresolved entries. The advertising index preserves27 rows/
+  54 cells, two original table columns and its tree; absent printed folio retained.
+  Source/range/scan/cell checks and byte-identical rebuild pass. Whole-issue closeout
+  is next:260-page source ledger, verified cover, standalone index and report.
+  Unlisted DOS TOOL KIT41–43 and 통합 소프트웨어241–255 stay outside canonical scope.
   The earlier timing exception, human/source-byte limits and volunteer news/classified
   body transcription remain recorded. No reading-room rebuild.
   Continue from the [October record](docs/progress/8410.md) and
