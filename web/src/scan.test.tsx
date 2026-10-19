@@ -45,6 +45,20 @@ describe('scan reading and evidence states', () => {
     expect(html).toContain('Synthetic author (printed role)')
     expect(html.match(/printed role/g)).toHaveLength(1)
   })
+  it('keeps correspondents beside their questions when no article author is recorded', () => {
+    vi.stubGlobal('document', { baseURI: 'http://localhost/archive/' })
+    const doc = scanFixture('readable')
+    doc.article.page = 238
+    const questioners = ['First correspondent', 'Second correspondent', 'Third correspondent', 'Fourth correspondent']
+    doc.blocks.push(...questioners.map((text, i) => ({ id: `questioner-${i}`, type: 'byline', preformatted: false,
+      regionIds: ['r1'], paragraphs: [{ id: `name-${i}`, terminated: false, runs: [{ type: 'text' as const, text }] }] })))
+    const html = renderToStaticMarkup(<MemoryRouter><ScanArticle doc={doc} /></MemoryRouter>)
+    expect(html).toContain('<p class="metadata">238쪽</p>')
+    for (const name of questioners) {
+      expect(html.match(new RegExp(name, 'g'))).toHaveLength(1)
+      expect(html.indexOf(name)).toBeGreaterThan(html.indexOf('class="article-body"'))
+    }
+  })
   it('preserves literal code and prose paragraphs without turning availability into review', () => {
     vi.stubGlobal('document', { baseURI: 'http://localhost/archive/' })
     const html = render('partial')

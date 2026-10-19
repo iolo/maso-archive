@@ -40,14 +40,25 @@ Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October; December 1984 is next, and its restoration has not started. Reader
-integration is separate; its current September coverage is unchanged.
+integration is separate; the owner subsequently requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve
 source hashes, canonical IDs/parents, original evidence and user edits. Verify a
 process is live before waiting/resuming; reuse successful stages. Close out an
 issue before starting another. Earlier checkpoint “next” statements are historical.
 
-## Reader integration — 2026-10-16
+## Reader integration — 2026-10-19
+
+At the owner's explicit request, `dist/reading-room/` now includes October's 35
+articles: nine PDF issues (329 records) plus 3,386 CD records, 3,715 total. The
+original October closeout/packages remain unchanged. See [the reading-room guide](READING-ROOM.md)
+for reproduction and the verified `reading-room-2026-10-19-october` snapshot.
+All 5,218 files from the 35 packages and 124,113 inherited reader files are preserved;
+nine Python tests, 25 frontend tests, production build and browser checks pass. Q&A
+correspondents remain beside their questions after a focused display correction.
+This is a local build; no deployment occurred.
+
+### Previous September integration — 2026-10-16
 
 At the owner's explicit request, `dist/reading-room/` now includes September's
 37 restored articles: eight PDF issues (294 records) plus 3,386 CD records,

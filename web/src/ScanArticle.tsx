@@ -30,7 +30,7 @@ export function ScanReview({ scan }: { scan: ScanData }) {
 export function ScanArticle({ doc }: { doc: ArticleDoc }) {
   const scan = doc.scan!
   const article = doc.article
-  const bylineBlock = doc.blocks.find(b => b.type === 'byline')
+  const bylineBlock = doc.blocks.find(b => b.type === 'byline' && article.byline && blockText(b).includes(article.byline))
   const byline = bylineBlock ? blockText(bylineBlock) : article.byline
   const [params] = useSearchParams()
   const navigate = useNavigate()
@@ -79,7 +79,7 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
   const readable = scan.availability === 'readable' || scan.availability === 'partial'
   return <article className="article-view page-content scan-article">
     <div className="page-heading"><p className="eyebrow"><Link to={issuePath(article.issue_id)}>{dateOf(article.issue_id)}</Link> · 스캔 복원</p>
-      <h1>{article.title}</h1><p className="metadata">{byline}{article.page !== null && ` · ${article.page}쪽`}</p>
+      <h1>{article.title}</h1><p className="metadata">{byline}{article.page !== null && `${byline ? ' · ' : ''}${article.page}쪽`}</p>
       {article.tocEntryId && <Link to={tocPath(article.issue_id, article.tocEntryId)}>차례 항목으로</Link>}
     </div>
     <ScanReview scan={scan} />
@@ -91,7 +91,7 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
       <a href="#scan-regions" onClick={e => { e.preventDefault(); document.getElementById('scan-regions')?.scrollIntoView() }}>스캔 영역 목록</a>
     </nav>
     {readable && <div className="article-body">{doc.blocks.map(block => {
-      if (block.type === 'spacing' || block.type === 'byline') return null
+      if (block.type === 'spacing' || block === bylineBlock) return null
       if (block.scanFigureId) {
         const figure = scan.figures.find(f => f.id === block.scanFigureId)
         if (!figure) return null

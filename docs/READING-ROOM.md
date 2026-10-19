@@ -2,12 +2,12 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
-## Unified volunteer reading room — October 16, 2026
+## Unified volunteer reading room — October 19, 2026
 
-The current combined release is `dist/reading-room/`.
-For inexpensive hosting through a secret share URL, see
+The current combined release is `dist/reading-room/`. It includes all nine
+completed PDF issues through October 1984 and the CD1/CD2/CD3 collection.
+For hosting through a secret share URL, see
 [Deploy to Cloudflare R2 and Workers](DEPLOY-READING-ROOM.md).
-It contains every completed PDF restoration and the CD1/CD2/CD3 collection:
 
 | PDF issue | Article records |
 | --- | ---: |
@@ -19,66 +19,51 @@ It contains every completed PDF restoration and the CD1/CD2/CD3 collection:
 | 1984-07 | 36 |
 | 1984-08 | 37 |
 | 1984-09 | 37 |
-| PDF total | 294 |
+| 1984-10 | 35 |
+| PDF total | 329 |
 | CD1 / CD2 / CD3 total | 3,386 |
 
-There are 3,680 article records and 3,672 text downloads across 152 navigation
-records. These are not 152 distinct printed issues: empty library TOCs and
-native CD date groups retain their original identities. All known partial and
-unavailable states remain visible. No new PDF restoration or human acceptance
-is implied by this integration.
+There are **3,715 article records**, 3,707 text downloads and 3,423 code listings
+across 152 navigation records. Empty library TOCs and native CD date groups keep
+their original identities; these are not 152 distinct printed issues. Known partial
+and unavailable states remain visible. This integration adds no human acceptance.
 
 ```sh
 python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room
 ```
 
-Open <http://127.0.0.1:4189/#/review>. The cover shelf remains at
-`#/`; the review queue supports source, issue, personal status, and metadata
-search. Filters are in the URL. Lists load 60 entries at a time. PDF articles
-retain scan comparisons, original OCR, code, figures and correction evidence;
-CD articles retain text, code and original attachments.
+Open <http://127.0.0.1:4189/#/review?issue=maso-1984-10> for October's volunteer
+queue, or <http://127.0.0.1:4189/#/issues/maso-1984-10> for its contents.
+The shelf is at `#/`. Queue filters persist in the URL; lists load 60 entries
+at a time. PDF articles retain scan comparisons, original OCR, code, figures and
+correction evidence; CD articles retain text, code and original attachments.
 
-Open **검토 메모** above any article or scan region. Name is optional;
-choose **검토 중**, **수정 제안**, or **대조 완료**, and describe the location,
-current text, proposed correction and evidence. Input autosaves in this
-browser's local storage, with explicit failure feedback if storage is blocked
-or full. An individual memo can still be downloaded if local saving fails.
+Open **검토 메모** above an article or scan region. Name is optional; choose
+**검토 중**, **수정 제안**, or **대조 완료**, and describe the location, current
+text, proposed correction and evidence. Notes autosave in this browser's local
+storage. Blocked/full storage gives feedback; an individual memo can still be
+exported. Regional notes stay with their region and do not mark a whole article
+checked. Current-text correction proposals take priority in the queue.
 
-Regional notes stay attached to their own region. A regional check alone never
-marks a whole article checked; any current-text correction proposal takes
-priority in the queue. Notes include issue/article identity, a relative deep
-link, text/package SHA-256 fingerprints, reviewer and timestamp. Old-text notes
-are excluded from current personal progress; the editor also warns when the
-restoration package changes. Historical restoration status remains unchanged.
-
-**내 검토 기록 내려받기** exports all saved notes as UTF-8 JSON. Deliver it to
-the review coordinator using your usual channel. There is no submission server,
-shared queue, account, claim/assignment, or automatic official approval. Data is
-specific to the browser and origin (including port); export before moving hosts
-or clearing browser storage. The app does not import review files.
+**내 검토 기록 내려받기** exports saved notes as UTF-8 JSON for delivery to the
+coordinator through your usual channel. There is no submission server, shared
+queue, account, assignment or automatic official approval. Notes belong to this
+browser and origin, including port: export before moving hosts or clearing storage.
+The app does not import notes. Text/package fingerprints identify stale notes;
+old-text notes do not count toward current personal progress.
 
 ### Reproduce and validate
 
-To recover the prepared reader after removing `dist/reading-room`, run
-`make restore-volunteer-reading-room`. It copies the retained release and verifies
-every file hash. An existing destination is refused; use
-`VOLUNTEER_OUTPUT=dist/reading-room-restored` to restore alongside it.
+The October export uses the preserved September reader at
+`archive/releases/reading-room-2026-10-16-september/data/` and integration ledger
+`archive/pdf/1984-10/evidence/reader-integration-2026-10-19/export-ledger.json`.
+All 35 inputs come from October's standalone package. No canonical title mappings
+were required. All 5,218 original package files copy exactly. All 124,113 inherited
+files outside the catalog/search/manifest and October issue/media indexes remain
+unchanged. The original October closeout, OCR and corrections are preserved.
+August's four hash-pinned validation adapters remain required by the checker.
 
-The September build uses the preserved August reader at
-`archive/releases/reading-room-2026-10-16/data/` and the derived integration ledger
-`archive/pdf/1984-09/evidence/reader-integration-2026-10-16/export-ledger-r02.json`.
-Its 37 inputs come from the self-contained September standalone package.
-The new export preserves all prior files except the catalog/search/manifest and
-September's issue/media indexes. August's four pinned validation adapters are
-still required to check the combined collection; they are verified before use.
-
-Two old titles in September's closeout ledger differed from the canonical TOC:
-`바라케이드` → `바리케이드` and `리뷰 살롱` → `신간 안내`. The separate integration
-ledger records those mappings against `TOC.md`, the current catalog, the saved
-reader and September's progress notes. The original closeout, source articles,
-raw OCR and corrections remain unchanged.
-
-Use a fresh output consistently to reproduce the September reader:
+Use a fresh output consistently:
 
 ```sh
 make export-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild
@@ -87,50 +72,41 @@ make build-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-r
 make preview-volunteer-reading-room VOLUNTEER_OUTPUT=dist/reading-room-volunteer-rebuild VOLUNTEER_PORT=4190
 ```
 
-The saved September release is
-`archive/releases/reading-room-2026-10-16-september/`, with its sibling SHA-256
-receipt. `make restore-volunteer-reading-room` selects this release by default.
-To select August explicitly, set `VOLUNTEER_RELEASE=reading-room-2026-10-16`.
-The missing July intermediate is no longer needed by the current export recipe.
+The verified snapshot is `archive/releases/reading-room-2026-10-19-october/`, with
+its sibling SHA-256 receipt. `make restore-volunteer-reading-room` selects it by
+default and refuses an existing output. Set `VOLUNTEER_OUTPUT=dist/recovered-reader`
+to restore alongside the current build. The September release and previous local
+reader at `dist/reading-room-before-october-2026-10-19/` remain preserved.
+To reproduce September, use its saved August base and integration ledger recorded
+under `archive/pdf/1984-09/evidence/reader-integration-2026-10-16/`; select its
+saved release with `VOLUNTEER_RELEASE=reading-room-2026-10-16-september`.
 
-`VOLUNTEER_BASE` defaults to `./`, so the generated asset and data URLs resolve
-relative to `index.html`. Serve the entire output directory with any static
-HTTP server, at its root or inside a subdirectory. No Vite runtime, API server,
-URL rewrites, or SPA fallback is required; navigation uses hash routes.
-For example, from the repository root:
+`VOLUNTEER_BASE` defaults to `./`: serve the entire output directory with an
+ordinary static HTTP server, at its root or inside a subdirectory. Data/assets
+resolve relative to `index.html`; hash navigation needs no rewrite or SPA fallback.
+`make preview-volunteer-reading-room` is optional. For an intentional absolute
+base, the static host must serve the output at that URL prefix.
 
-```sh
-python3 -m http.server 4189 --bind 127.0.0.1 --directory dist/reading-room
-# Alternatively:
-npx serve dist/reading-room -l 4189
-```
+October's 41 TOC entries resolve to 35 readable, sample-reviewed articles and six
+non-owning headings. Human proofreading, news/classified body transcription,
+source bytes and historical execution remain unverified. The restoration's batch
+35 preflight timing exception remains in its original records.
 
-Both serve the reader at `http://localhost:4189/#/review`. Vite's
-`make preview-volunteer-reading-room` remains an optional convenience.
-The earlier build used absolute `/archive/` paths, which Vite preview mapped
-automatically. Ordinary static servers required a matching physical directory
-or mount. Rebuild with `make build-volunteer-reading-room` to remove that
-requirement. If intentionally using an absolute `VOLUNTEER_BASE`, the static
-host must serve the output at that URL prefix.
+Browser review caught and corrected an author-display bug: correspondent bylines
+in an article without a canonical author now stay beside their questions, rather
+than using the first correspondent as the author and hiding the others. Canonical
+authors still retain their printed role when a matching byline is available.
+Article records, original text and source packages are unchanged.
 
-The September build passed the full data checker, prior-file preservation
-checks, six focused Python tests, 24 frontend tests, TypeScript and production
-compilation. Browser checks covered September's contents, a prose article,
-a code article, scan/region views, downloads and mobile layout. The original
-37 packages and all earlier reader article files remain unchanged.
+The full data checker, prior-file preservation checks, nine focused Python tests,
+25 frontend tests, TypeScript and production compilation pass. Browser checks
+cover October's contents, Q&A correspondents, original scan/corrected-text review,
+actual text/code/image downloads, the volunteer queue and mobile layout.
+Evidence, implementation pins and logs are preserved under
+`archive/pdf/1984-10/evidence/reader-integration-2026-10-19/`.
+Data manifest SHA-256: `d22f323dfd07d258158af0d50db863266dcce0652da2a2328827c5988f5f6d0f`.
 
-The combined reader has 3,680 articles, 3,672 text downloads and
-3,417 code listings. September accounts for 43 TOC entries: 37 restored
-articles and six non-owning headings. All 37 retain `sample-reviewed` status;
-this integration adds no human acceptance or new OCR result.
-
-Integration inputs, exact implementation sources, logs, browser evidence and
-validation are preserved under
-`archive/pdf/1984-09/evidence/reader-integration-2026-10-16/`.
-Data manifest SHA-256: `fe33b9e537357f801301549f3d65cdacc50738e1ecb4166db4ed8d6a6b310e9a`.
-
-The reader is prepared locally. No deployment was performed for this update.
-Use the existing access-controlled hosting workflow if separately requested.
+The reader is prepared locally; this update did not deploy it.
 
 The historical previews below describe earlier datasets and remain intact.
 

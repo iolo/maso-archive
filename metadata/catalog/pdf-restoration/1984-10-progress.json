@@ -5396,5 +5396,18 @@
       "successful_recognition_repeated": false
     },
     "reader_rebuild": false
+  },
+  "reader_integration": {
+    "date": "2026-10-19",
+    "validation": {
+      "path": "archive/pdf/1984-10/evidence/reader-integration-2026-10-19/validation.json",
+      "sha256": "f43c34c999cd916b9153f071315b0f890e6f8f43e53e407a0f594b11e3b302cd",
+      "bytes": 2579
+    },
+    "directory": "dist/reading-room",
+    "release": "reading-room-2026-10-19-october",
+    "deployed": false,
+    "human_acceptance_added": false,
+    "restoration_closeout_unchanged": true
   }
 }

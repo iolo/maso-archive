@@ -33,6 +33,8 @@ paired OCR or a new engine comparison.
   ten remain after October, and no next-issue work has started.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
+  The owner subsequently requested the October volunteer reader build, now
+  completed locally; see [the reader guide](docs/READING-ROOM.md).
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
   its report is `archive/pdf/1984-08/evidence/13-1984-08-closeout/report.json` and its
   machine-readable [ledger](docs/ocr-experiments/ocr-august-progress.json) remains preserved.

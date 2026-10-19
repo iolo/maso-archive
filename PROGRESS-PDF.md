@@ -16,8 +16,14 @@ unchanged. The standalone index is `archive/pdf/1984-10/reference/issue.json`;
 the report is `archive/pdf/1984-10/evidence/issue-closeout/report.json`.
 Human acceptance/full proofreading, source bytes and execution remain unverified;
 news/classified body transcription and the batch 35 preflight timing exception remain
-explicit. No reading-room rebuild. December 1984 is the next supplied eligible issue;
-ten remain after October, and no next-issue work has started.
+explicit. The restoration closeout itself did not rebuild the reader.
+December 1984 is next; ten remain after October, and no next-issue work has started.
+
+October's volunteer reader was subsequently built at the owner's request. The
+current `dist/reading-room/` contains 329 PDF articles across nine issues plus
+3,386 CD records (3,715 total). Data preservation, tests, production compilation
+and browser checks pass; the October release is saved. This was a local build,
+with no deployment. See [the reader guide](docs/READING-ROOM.md).
 
 September is also complete:37 readable articles/six headings, with its
 [issue index](archive/pdf/1984-09/reference/issue.json) and

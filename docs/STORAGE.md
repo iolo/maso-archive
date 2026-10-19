@@ -166,14 +166,13 @@ the volunteer reader first if a retired snapshot depends on it.
 
 ## Restore the reading room
 
-After the owner's September integration request, the current reader release is
-`archive/releases/reading-room-2026-10-16-september/` (eight PDF issues plus all
-three CDs). `make restore-volunteer-reading-room` now selects that release;
-set `VOLUNTEER_RELEASE=reading-room-2026-10-16` to select the older August reader.
-The current export also uses the saved August release as its base, so it does
-not need the missing July intermediate. See [the current recipe](READING-ROOM.md).
-
-
+After the owner's October integration request, the current reader release is
+`archive/releases/reading-room-2026-10-19-october/` (nine PDF issues plus all three
+CDs). `make restore-volunteer-reading-room` selects that verified release.
+The October export uses the saved September release as its base and October's
+standalone packages. August's four pinned validation adapters remain required.
+September's saved release and prior recipes remain preserved; an older prepared
+reader does not define the current JSON restoration scope.
 The pre-migration volunteer reader is retained independently at
 `archive/releases/reading-room-2026-10-16/`. Its sibling JSON file lists every
 file's size and SHA-256. The release contains the existing seven PDF issues and
@@ -211,8 +210,9 @@ Preserve each release's sibling JSON receipt. The restore command without
 not whichever directory happens to be newest.
 
 The old July integration input is absent. Replaying the historical August-only
-export still requires that base. The current September recipe explicitly uses
-the saved August release instead; both earlier releases remain preserved.
+export still requires that base. The September recipe uses the saved August
+release; the current October recipe uses the saved September release.
+All earlier releases remain preserved.
 
 The retained release and migration journal are on this same disk. They protect
 against accidental rebuilding, not disk failure. Preserve `archive/` and
