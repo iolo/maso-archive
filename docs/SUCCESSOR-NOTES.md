@@ -43,55 +43,62 @@ partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October.
 
 December 1984 is in progress: ten readable articles, one partial CP/M(5)
-article, two non-owning headings and 24 of 37 entries unresolved. CP/M natives now
-cover 110–121/PDF112–123. Its full source remains PDF112–132: observed 110–129 plus
-an unpaginated upper reference-table continuation. The lower advertisement on
+article, two non-owning headings and 24 of 37 entries unresolved. Three CP/M natives
+now cover 110–127/PDF112–129. Its full source remains PDF112–132: observed 110–129
+plus an unpaginated upper reference-table continuation. The lower advertisement on
 PDF132 is separate; no folio 130 was observed.
 
-The new 116–121 native and independent rebuild reproduce all 255 files exactly.
-It retains 78 regions, 53 blocks, 22 original images, 273 unnumbered physical rows,
-270 nonblank transcript units and 1,448 tokens. All 113 ED line-label occurrences,
-41 editor commands, five quoted source candidates and 36 quote/prime glyphs retain
-exact source ranges. ED labels are preserved with duplicates and descending values.
-Fifty-one dump rows retain 726 literal fields and 48 printed ASCII columns without
-byte decoding, address arithmetic or opcode repair. Eighteen code markers and five
-unknown prose $-run widths remain explicit. Source mistakes and glyph candidates
-are unverified; no historical execution or encoded-byte claim.
+The new 122–127 native and independent rebuild reproduce all 240 files exactly.
+Its 72 regions, 47 blocks and 19 original images retain 304 unnumbered physical rows,
+298 nonblank units and 930 tokens. All 138 ED label occurrences, 44 editor commands,
+18 paired source-string candidates and 54 visible quote/prime glyphs retain exact
+source ranges. Compiler indexes preserve 46 data rows, 138 cells and 37 blank fields
+(16 address, 21 object), plus three header cells. Object strings remain opaque;
+no byte decoding, padding, opcode repair, arithmetic or editor-state reconstruction.
 
-All 56 regional text spans, 106 text reviews, 50 notes, 292 inline examples, 22 figure-
-caption links, 21 listing-caption links and two prose joins pass independent checks.
-Figure 34 preserves both original frames in one 31-row transcript; its caption owns
-both images. Figure 16's caption on 116 retains the incoming 115 frame association
-for full assembly. Source prose joins retain118left/right있/는 and119/120모드/로.
+All 53 regional text spans, 83 text reviews, 30 notes, 404 inline examples, 19 figure-
+caption links, 16 listing-caption links and three prose joins pass checks. Figure 37
+and figures 48-1/48-2 each retain two original frames under one observed caption.
+The earlier figure 16 association across 115/116 and both figure 34 frames on121
+remain explicit in prior natives.
+Two code markers and three prose markers retain unreadable glyph-run widths,
+repeated dollar-run widths and a vertical placeholder shape. Source mistakes and
+visual candidates remain unverified; no historical execution or encoded-byte claim.
 
-All 24 pinned whole-page views and 78 original/seven revised crops were inspected
-before 56 successful mapped tasks. Six mapped pages and 18 outside-map lookups;
-no new rendering, recognition failure/retry or post-OCR crop repair. The geometry
-script produced the map and seven crops, then failed its final metadata pin lookup
-on an old segment path. Its script, failure and fresh metadata record remain;
-no second geometry repair or OCR retry. All 22,490 prior files and 20 implementation
-pins are unchanged. New preservation inventory: 23,510 files. The unchanged 187-test
-PDF baseline is reused; no shared tooling or reader work.
+All 24 pinned whole-page views and 72 original/six revised crops were inspected
+before 53 successful mapped tasks. Six mapped pages and 18 outside-map lookups;
+no new rendering, recognition failure/retry or post-OCR crop repair. The source-text
+serializer initially expected 17 blocks rather than the actual 16 merged transcripts;
+its assertion and dependent missing-file attempt are retained. A fresh script changes
+only that count; no second source correction or OCR retry. All 23,510 prior files and
+20 implementation pins are unchanged. New preservation inventory: 24,469 files.
+The unchanged 187-test PDF baseline is reused; no shared tooling or reader work.
 
-Both CP/M natives retain 178 regions, 134 blocks, 46 images and 489 physical rows.
-Later 122–129, unpaginated PDF132 and complete assembly remain. Preserve every
-transcript, editor-label/command, quote, hex/address/ASCII, marker, table, review and
-caption index in a compatible future projection. BASIC speed 102–109 remains
-complete from opening 102–107 and ending 108–109. All selected-package checks must
-use `tools.pdf_restore.graphic_literal_assembly.check` or its `installed()` context,
-which also handles Crowded Speedway.
+Three CP/M natives retain 250 regions, 181 blocks, 65 images and 793 physical rows.
+Remaining 128–129, unpaginated PDF132 and complete assembly are required. Preserve
+every native transcript, editor, quote, compiler cell/header including blanks,
+hex/address/ASCII, marker, table, review and caption index in the future projection.
+BASIC speed 102–109 remains complete from opening 102–107 and ending 108–109.
+All selected-package checks must use `tools.pdf_restore.graphic_literal_assembly.check`
+or its `installed()` context, which also handles Crowded Speedway.
 
-Next: batch22, CP/M middle122–127/PDF124–129. Reinspect pinned source and neighbor
-scans and every exact original/revised crop before OCR. Human acceptance, full
-proofreading, source encoded bytes and execution remain unverified. No reader work.
+Next: batch23, CP/M ending 128–129/PDF130–131 and unpaginated upper PDF132.
+Reinspect the full 21-page source extent and immediate neighbors111/133: 23 whole
+pages, three mapped and 20 outside-map lookups. Review every exact original/revised
+crop before OCR. The closing mark on128 does not end the reference-table source.
+Human acceptance, full proofreading, source bytes and execution remain unverified.
+Full assembly follows separately. No reader work.
 
-CP/M natives: packages/batch-20-r01/cpm5-a and packages/batch-21-r01/cpm5-b.
-Reproduction/schema/source evidence: restoration/batch-20 and restoration/batch-21.
-Middle read-only audit: evidence/batch-21/verify.py. Its 255 files reproduce exactly;
-all 23,510 preservation inventory files pass. Keep the seven-crop metadata pin
-failure and fresh record. Earlier batch20 index-classifier and inventory open-log
-exceptions remain preserved. All 20 historical implementation files stay pinned.
-Full assembly must preserve every new editor/quote/ASCII/source-candidate index.
+CP/M natives: packages/batch-20-r01/cpm5-a, packages/batch-21-r01/cpm5-b,
+and packages/batch-22-r01/cpm5-c. Source/schema/reproduction records are in their
+matching restoration/batch directories. Latest read-only audit:
+evidence/batch-22/verify.py. All 240 native files reproduce exactly and the 24,469-file
+preservation inventory passes. Keep the original serializer count assertion and
+dependent missing-file attempt; fresh serialization changes the count only.
+Earlier batch20 index/inventory exceptions and batch21 geometry-metadata pin failure
+remain preserved. All 20 historical implementation files stay pinned. Full assembly
+must project every specialized index, including blank compiler cells, and preserve
+all native metadata and all multi-frame caption associations, including figure34.
 
 BASIC speed remains packages/basic-speed-complete-r01 with immutable batch18/19
 originals and basic-speed-index-r01/{opening,ending} revisions. Its selected audit

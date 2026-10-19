@@ -1420,7 +1420,8 @@
       "classification_evidence": [
         "Independent CP/M입문/연재5회title,신동완/대림산업기획조정실creditand8080/Z80/DDT/ED/ZSIDstrap onPDF112/110. Full21sourcepagesPDF112–132andneighbors111/133/134reviewed. Closing mark128isfollowed by129andunpaginatedPDF132reference tables;lowerPDF132bookshopadandleftPDF133officeadareseparate. No observed130folio,globaloffsetorcanonicalidentitychange.",
         "Opening110–115native retains100regions,81blocks,24original images,216unnumberedphysical rows,213transcriptunits,1295tokens,77dump rows/816literalfields/48ASCIIcolumns,one24celltable,377inline examples,22figurecaptions/21listingcaptions,two prosejoins andexplicit source uncertainties. Remaining116–129plusunpaginatedfinal/fullassemblyrequired.",
-        "Middle116–121native independently reproduces255files andretains78regions/53blocks/22images,273physical/270nonblankrows,113literalEDrowlabels/41commands/fivequotedcandidates,51dump rows/726literalfields/48ASCIIcolumnsandtwo prosejoins. Both natives nowcover110–121with178regions/134blocks/46images/489physicalrows. Later122–129plusunpaginatedPDF132andfullassemblyremain. Everyoriginalnativesourcecandidate/metadataandcanonicalidentityunchanged."
+        "Middle116–121native independently reproduces255files andretains78regions/53blocks/22images,273physical/270nonblankrows,113literalEDrowlabels/41commands/fivequotedcandidates,51dump rows/726literalfields/48ASCIIcolumnsandtwo prosejoins. Both natives nowcover110–121with178regions/134blocks/46images/489physicalrows. Later122–129plusunpaginatedPDF132andfullassemblyremain. Everyoriginalnativesourcecandidate/metadataandcanonicalidentityunchanged.",
+        "Middle122–127 native independently reproduces240 files and retains72 regions/47 blocks/19 images,304 physical/298 nonblank rows,138 ED labels/44 commands/18 quoted candidates,46 compiler data rows/138 cells/37 blanks and three prose joins. Three natives now cover110–127 with250 regions/181 blocks/65 images/793 physical rows. Remaining128–129,unpaginated PDF132 and complete assembly required. All original candidate readings/metadata and canonical identities unchanged."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-12/packages/batch-20-r01/cpm5-a",
@@ -1443,7 +1444,13 @@
             120,
             121,
             122,
-            123
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129
           ],
           "printed_pages": [
             "110",
@@ -1457,11 +1464,17 @@
             "118",
             "119",
             "120",
-            "121"
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127"
           ],
-          "regions": 178,
-          "blocks": 134,
-          "figures": 46
+          "regions": 250,
+          "blocks": 181,
+          "figures": 65
         },
         "segments": [
           {
@@ -1525,6 +1538,37 @@
               "figures": 22
             },
             "segment": "b"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-22-r01/cpm5-c",
+            "article_id": "scan-maso-1984-12-toc-0012",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-22-r01/cpm5-c/manifest.json",
+              "sha256": "3d4e8f126070f4867328c28d217ed626ade7b5c01b4b1f17940f945a1db8ccfd",
+              "bytes": 41223
+            },
+            "coverage": {
+              "pdf_pages": [
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "printed_pages": [
+                "122",
+                "123",
+                "124",
+                "125",
+                "126",
+                "127"
+              ],
+              "regions": 72,
+              "blocks": 47,
+              "figures": 19
+            },
+            "segment": "c"
           }
         ],
         "full_source_extent": {
@@ -1578,23 +1622,11 @@
           "coverage": "Last upper reference continuation only;lower ad excluded;printed130notobserved."
         },
         "deferred_printed_pages": [
-          "122",
-          "123",
-          "124",
-          "125",
-          "126",
-          "127",
           "128",
           "129",
           null
         ],
         "deferred_pdf_pages": [
-          124,
-          125,
-          126,
-          127,
-          128,
-          129,
           130,
           131,
           132
@@ -1610,7 +1642,7 @@
           "sha256": "c4b869f01d32845504229e6a4e8545ff7f2b74b9a8f8f2611dc43de8973b606e",
           "bytes": 2535
         },
-        "assembly_compatibility": "Preserveall unnumberedphysical/regionaltranscripts,editorline-labeloccurrences/commands,visiblequote/primemarks,quotedsourcecandidates,hex/address/ASCII/token/marker/inline/caption/reviewindexes andoriginalmetadata. NoBASICrenumbering,inferredquote/width/byte/editorstate,orcategorydropping. Figure34ownsbothtwoscanframes;figure16captionmustown115/116framesinfullassembly.",
+        "assembly_compatibility": "Preserve all unnumbered physical/regional transcripts, editor-label/command, quote/string, compiler-row/cell/header including blanks, hex/address/ASCII, token/marker/inline/caption/review indexes and original metadata. Do not drop categories or reconstruct byte widths, opcodes, arithmetic, editor state or blank compiler fields. Incoming figure16 association in prior natives must survive full assembly.",
         "caption_associations_pending": [
           {
             "opening_region": "p115-fig16-opening",
@@ -1630,6 +1662,11 @@
             "path": "archive/pdf/1984-12/restoration/batch-21/source-index-schema.json",
             "sha256": "9aec7adac4e52e6288cf9632ccfed92186c3d12aa1ddf93659150092c2e1a353",
             "bytes": 2688
+          },
+          {
+            "path": "archive/pdf/1984-12/restoration/batch-22/source-index-schema.json",
+            "sha256": "f80a79a964eb4ab5768eb4bc6781d7cb151723783326575968a654142157a9ad",
+            "bytes": 3299
           }
         ],
         "source_code_connections": [
@@ -1648,9 +1685,36 @@
               "p116-fig16-ending-image"
             ],
             "association": "Source-verifiedpendingfullassembly;originalnativesunchanged."
+          },
+          {
+            "listing_id": "p122-fig37",
+            "figure_ids": [
+              "p122-fig37-opening-image",
+              "p122-fig37-ending-image"
+            ],
+            "caption_block_id": "p122-fig37-ending-caption",
+            "association": "Source-reviewed original frames and one observed caption."
+          },
+          {
+            "listing_id": "p126-p127-fig48-1",
+            "figure_ids": [
+              "p126-fig48-1-opening-image",
+              "p127-fig48-1-ending-image"
+            ],
+            "caption_block_id": "p127-fig48-1-ending-caption",
+            "association": "Source-reviewed original frames and one observed caption."
+          },
+          {
+            "listing_id": "p127-fig48-2",
+            "figure_ids": [
+              "p127-fig48-2-opening-image",
+              "p127-fig48-2-ending-image"
+            ],
+            "caption_block_id": "p127-fig48-2-ending-caption",
+            "association": "Source-reviewed original frames and one observed caption."
           }
         ],
-        "outgoing_boundary": "Searchfigure35on121isfollowedbyitsexplanatoryproseon122. No missingpage/articleendingclaim."
+        "outgoing_boundary": "Operator source figure49 on127 is followed by results figures50/51 on128. This native does not end article."
       }
     },
     {
@@ -4216,11 +4280,133 @@
         "sha256": "71c1a98171cb4056dacdb15316b717726371e4844e52e23fe5fef3554a2423d9",
         "bytes": 5413230
       }
+    },
+    {
+      "id": "batch-22",
+      "status": "complete-partial-article-middle",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/checkpoint.json",
+        "sha256": "d40def83065d8a902fc00c8b11b9e23614f0d1c7dfb59c1559b7074cae3ecc77",
+        "bytes": 5332
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-22/validation-r01.json",
+        "sha256": "2b15b14861f68e17ab6de91d6ee1966d21d512eb34e1d28fa1edd5362db99a54",
+        "bytes": 1586
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-22/verify.py",
+        "sha256": "006af938df6143a58a2cd70fb2c21d964d26c0b6b4964c9f30b4cb348ba057bb",
+        "bytes": 15127
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/source-reviewed.json",
+        "sha256": "800f7c98dcfbda99a8cc14668dad9f0fb1d959932c9756df5893767994f81a89",
+        "bytes": 12718
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/source-index-schema.json",
+        "sha256": "f80a79a964eb4ab5768eb4bc6781d7cb151723783326575968a654142157a9ad",
+        "bytes": 3299
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/mapping-completed.json",
+        "sha256": "62d27c8708a283637f18ea386cc393959c1e2185f80320df99f74d922daf5666",
+        "bytes": 690
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/crop-repair-r01.json",
+        "sha256": "943d61e8d84c997c4ad5b922be12350a630d370b080e2acc9eff719a8f1837a0",
+        "bytes": 5151
+      },
+      "retained_serialization_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/correction-preparation-failure-r01.json",
+        "sha256": "1224ac953430b9dc5fc2cb3ca58b31a833ec8009e69ed58b7fa29567af59f4cf",
+        "bytes": 940
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/segment-scope.json",
+        "sha256": "df988c84379a8ff1b4be0c34658bd76a84ea1a6d734bf05f18a4ef67679a41e2",
+        "bytes": 2693
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/preflight-reviewed.json",
+        "sha256": "0317c428fd1599c1b2e2e4d49ece77e5ab45df026b134a2f284963bca3f51e3d",
+        "bytes": 31491
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/ocr-completed.json",
+        "sha256": "867ac552fea23a36420a80d184b183794d24b2d7cc8cd56ffc9ae08563a79128",
+        "bytes": 1301
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/correction-completed.json",
+        "sha256": "8ed4c33a2e88d15dcf656cd633495f8f01a1b0332e5906f99eedd143f1a7dadd",
+        "bytes": 958
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-22/reproduction.json",
+        "sha256": "da46539f234b2e673657218875ee557b89b09a66e6a5654e1755712532f14578",
+        "bytes": 1372
+      },
+      "actual_ocr_tasks": 53,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 6,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 23510,
+      "rebuild_files": 240,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 24,
+      "outside_map_lookups": 18,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 187,
+      "historical_live_implementation_pins_verified": 20,
+      "regions": 72,
+      "blocks": 47,
+      "figures": 19,
+      "regional_text_ranges": 53,
+      "text_review_items": 83,
+      "text_review_notes": 30,
+      "prose_joins": 3,
+      "tables": 0,
+      "table_rows": 0,
+      "table_cells": 0,
+      "blank_table_cells": 0,
+      "caption_links": 19,
+      "listing_caption_links": 16,
+      "listing_groups": 16,
+      "listing_physical_rows": 304,
+      "listing_logical_basic_entries": 0,
+      "regional_listing_spans": 19,
+      "transcript_units": 298,
+      "transcript_tokens": 930,
+      "compiler_rows": 47,
+      "compiler_data_rows": 46,
+      "compiler_cells": 138,
+      "blank_compiler_cells": 37,
+      "compiler_header_cells": 3,
+      "hex_rows": 0,
+      "hex_address_fields": 0,
+      "hex_value_fields": 0,
+      "hex_ascii_columns": 0,
+      "visible_quotes": 54,
+      "quoted_source_candidates": 18,
+      "editor_line_labels": 138,
+      "editor_commands": 44,
+      "editorial_code_markers": 2,
+      "editorial_prose_markers": 3,
+      "inline_examples": 404,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-22/preserved-work-inventory.json",
+        "sha256": "7b5bb2ce74880bdf7824721a6e6bf8f59a5e236c7ef27118d7d8502ed39481bf",
+        "bytes": 5623985
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-22",
-    "goal": "RestoreCP/M(5)middle122–127frompinnedfullsourceafterreview,includingEDexamples,ASMsource/compiler/output/directive/operatorcontent,allcaptionsandliteraluncertainty.",
+    "id": "batch-23",
+    "goal": "Restore CP/M(5) ending128–129 and unpaginated PDF132 upper reference continuation, including operator results and complete mnemonic tables; preserve all literal uncertainties.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0012"
     ],
@@ -4275,20 +4461,14 @@
       "coverage": "Last upper reference continuation only;lower ad excluded;printed130notobserved."
     },
     "mapping_targets": [
-      124,
-      125,
-      126,
-      127,
-      128,
-      129
+      130,
+      131,
+      132
     ],
     "printed_page_targets": [
-      "122",
-      "123",
-      "124",
-      "125",
-      "126",
-      "127"
+      "128",
+      "129",
+      null
     ],
     "provisional_lookup_targets": [
       111,
@@ -4313,20 +4493,19 @@
       130,
       131,
       132,
-      133,
-      134
+      133
     ],
     "source_review": {
-      "path": "archive/pdf/1984-12/restoration/batch-21/source-reviewed.json",
-      "sha256": "753c2f674ca46143590a8280a40076f45c4bdee8b7ea64e7340eb0c514aefa34",
-      "bytes": 12786
+      "path": "archive/pdf/1984-12/restoration/batch-22/source-reviewed.json",
+      "sha256": "800f7c98dcfbda99a8cc14668dad9f0fb1d959932c9756df5893767994f81a89",
+      "bytes": 12718
     },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Reinspectpinnedfullsource/neighborsandall exactoriginal/revisedcropsbeforeOCR. 122beginsfigure35explanationafter121searchpanel. Later128–129plusunpaginatedupperPDF132/fullassemblyremain. PreserveallEDlabel/command/quote/byte/ASCII/address/caption/reviewindexesandall20historicalimplementationpins. No observed130folio,noopcode/arithmetic/encodingreconstruction. Usegraphic_literal_assemblyinselectedaudits. No readerrebuild."
+    "note": "Reinspect full21-page source extent112–132 and immediate neighbors111/133:23 whole pages,three mapped and20 outside-map lookups. No need to add134. Review every exact original/revised crop before OCR. Source table continues after closing mark on128 through129 and unpaginated upper132; lower132 advertisement separate. No observed130 folio. Preserve every specialized native index,all multi-frame source-caption associations, including the earlier figure34 pair and20 implementation pins. Full assembly is a separate checkpoint; selected audits use graphic_literal_assembly. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
