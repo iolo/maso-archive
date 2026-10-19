@@ -24,15 +24,14 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-The editorial, signed feature introduction and 기계어의 학습 are complete
-readable, assistant sample-reviewed JSON/assets packages. Three of 41 canonical
-entries are restored. 기계어의 기초 has two partial segments covering printed21–27;
+The editorial, signed feature introduction, 기계어의 학습 and 기계어의 기초 are
+complete readable, assistant sample-reviewed JSON/assets packages. Four of 41
+canonical entries are restored, with no current partial article;
 37 other entries await classification/restoration. The
 [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Continue with its immutable segments and separately assemble the complete article from those
-segments. Whole-issue closeout remains pending;
+Continue with 블록격파 게임의 제작 from shared printed27. Whole-issue closeout remains pending;
 no reading-room rebuild occurred.
 
 ## September 1984 closeout, 2026-10-16

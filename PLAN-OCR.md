@@ -19,10 +19,10 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress. The editorial and signed special-feature
-  introduction and 기계어의 학습 are readable, assistant sample-reviewed
-  JSON/assets packages. 기계어의 기초 has two partial segments covering printed21–27;
-  continue with its separate assembly. The other 37 of
+- October 1984 is in progress. The editorial, signed special-feature
+  introduction, 기계어의 학습 and complete 기계어의 기초 are readable,
+  assistant sample-reviewed JSON/assets packages. No partial article remains.
+  Continue with 블록격파 게임의 제작 from shared printed27. The other 37 of
   41 canonical entries still await classification/restoration. Continue
   from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
