@@ -7,19 +7,17 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 October 1984 is in progress: 22 readable, assistant sample-reviewed articles,
-no partial,three non-owning headings and16 of41 entries unresolved. Complete
-medical167–176 now covers45 regions,24 corrected blocks,16 original images,
-29 regional spans,32 review ranges,five native joins and15 caption associations.
-Nine original BASIC panels preserve295 source labels in four separate groups;
-listings3/4 remain changes-only relative to listing2. Six table images retain five
-logical tables,including table4 across two original fragments/shared caption.
-All native bytes preserved;global range/scan/caption/heading/program/table checks
-and independent byte-identical rebuild pass. No new OCR or mapping. Five obsolete
-scope components resolve with one mixed fidelity clause explicit. Historical
-claims,omitted-code descriptions and source3000/3900 discrepancy remain literal.
-Next:verify complete 자료구조177 extent,then bounded opening. Human acceptance/
-full proofreading,source glyph/control/cell/encoded-byte fidelity and execution
-remain unverified;whole-issue closeout pending,no reader rebuild.
+one partial data-structures article,three non-owning headings and15 of41 entries
+unresolved. Actual 자료구조 extent is177–183/PDF179–185;following three ads/
+corporate notice and Technical divider are excluded. Opening177–179 retains23
+regions,15 corrected blocks,five original images,18 regional spans,three joins
+and three caption associations. Whole Pascal source listing1,runtime graph,
+selection diagram,title panel/illustration preserved. All21 OCR tasks complete,
+zero recognition failures/retries/crop repairs;independent byte-identical rebuild
+passes. Literal source 정열/자치하는/math/n-pass claims retained;code drafts
+unpromoted,no invented source byline. Next:180–183 ending,then full7-page assembly.
+Human acceptance/full proofreading,source glyph/notation/encoded-byte fidelity and
+execution remain unverified;whole-issue closeout pending,no reader rebuild.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
@@ -51,7 +49,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 22 classified | 22 readable; 16 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 23 classified | 22 readable, 1 partial; 15 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
