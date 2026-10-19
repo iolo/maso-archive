@@ -936,44 +936,22 @@
       "parent_id": "maso-1984-10-toc-0013",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Separate title/byline begins printed74/PDF76. Full body extent74–91/PDF76–93 verified through next independent title92. No interleaved ad or separate unlisted body.",
-        "Source prose closes79. Source programs continue79–82, output and two instruction-set series through91. Opening74–79 selected; natives80–85/86–91 and separate full assembly pending.",
-        "Canonical author 박재현 preserved; displayed 이세형/서울대학교 제어계측공학과4 recorded separately without identity mutation."
+        "Separate course title/displayed byline begins printed74/PDF76; full article74–91/PDF76–93 verified through next independent title92. No interleaved ad or unrelated body.",
+        "Prose closes79; complete LIST1/2/3 programs79–82, printed output and two independently indexed700-position instruction-set series83–91 are retained in original images. All18 pages assembled from three exact immutable natives.",
+        "Canonical author 박재현 is unchanged. Displayed 이세형/서울대학교 제어계측공학과4 and canonical metadata retain separate scan-linked evidence; discrepancy unresolved."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-10/packages/batch-13-r01/machine-course-a",
+        "directory": "archive/pdf/1984-10/packages/machine-course-complete-r01",
         "article_id": "scan-maso-1984-10-toc-0014",
         "manifest": {
-          "path": "archive/pdf/1984-10/packages/batch-13-r01/machine-course-a/manifest.json",
-          "sha256": "f8a90817dd222319502b307a873ad75be9386fb6eb67b091d107b74a335a3a8c",
-          "bytes": 34411
+          "path": "archive/pdf/1984-10/packages/machine-course-complete-r01/manifest.json",
+          "sha256": "5fd4b8c16f1a93323bc273ef662da18c1edf691bddfbacb649f629728fea7556",
+          "bytes": 64859
         },
         "coverage": {
-          "pdf_pages": [
-            76,
-            77,
-            78,
-            79,
-            80,
-            81
-          ],
-          "printed_pages": [
-            "74",
-            "75",
-            "76",
-            "77",
-            "78",
-            "79"
-          ],
-          "regions": 52,
-          "blocks": 58,
-          "figures": 12,
-          "physical_listing_rows": 18
-        },
-        "full_source_extent": {
           "pdf_pages": [
             76,
             77,
@@ -1013,9 +991,20 @@
             "89",
             "90",
             "91"
-          ]
+          ],
+          "regions": 84,
+          "blocks": 62,
+          "figures": 40,
+          "physical_listing_rows": 18,
+          "original_program_panels": 9,
+          "original_reference_code_panels": 20,
+          "separate_reference_series_positions": [
+            700,
+            700
+          ],
+          "original_table_images": 5
         },
-        "complete_article_assembly_pending": true,
+        "complete_article_assembly_pending": false,
         "native_segments": [
           {
             "directory": "archive/pdf/1984-10/packages/batch-13-r01/machine-course-a",
@@ -1090,26 +1079,16 @@
             ]
           }
         ],
-        "collected_printed_pages": [
-          "74",
-          "75",
-          "76",
-          "77",
-          "78",
-          "79",
-          "80",
-          "81",
-          "82",
-          "83",
-          "84",
-          "85",
-          "86",
-          "87",
-          "88",
-          "89",
-          "90",
-          "91"
-        ]
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/machine-course-assembly/article-associations.json",
+          "sha256": "acd2cb3da51d1a9754e30b5435821d68c06f2111d8fed9b82dcffabe682f5ee9",
+          "bytes": 87073
+        },
+        "image_code_coverage": {
+          "path": "archive/pdf/1984-10/evidence/machine-course-assembly/image-code-coverage.json",
+          "sha256": "931449791fb6adf605352824ceb0ddc8047d75d51d73f553a5722a0e9a7e1cea",
+          "bytes": 43983
+        }
       }
     },
     {
@@ -1386,8 +1365,8 @@
     "articles": 13,
     "non_owning_headings": 2,
     "unresolved_classification": 26,
-    "readable": 12,
-    "partial": 1,
+    "readable": 13,
+    "partial": 0,
     "image_only": 0,
     "failed": 0,
     "sample_reviewed": 15,
@@ -1874,17 +1853,45 @@
       "outputs": [
         "maso-1984-10-toc-0014"
       ]
+    },
+    {
+      "id": "machine-course-assembly",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/machine-course-assembly/checkpoint.json",
+        "sha256": "a54ae3a40b2673b32b25c067de806de4e27fc8be1ece239ef6984c15a0979059",
+        "bytes": 1829
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-13/source-review.json",
+        "sha256": "c7790ed4e67d7a8aa39409d7f6b6151be04cf8892f77547606635bf91389b149",
+        "bytes": 2490
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/machine-course-assembly/validation.json",
+        "sha256": "32b3074aeaa4e9b26bf3849bb25e0e23d652207bccde7f011f87e9230a4aa716",
+        "bytes": 3208
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/machine-course-assembly/review-log.json",
+        "sha256": "a88b59391175c2fc68a7d326dfdc9ad11e4a2980fbbd75fa3b776582f04d7729",
+        "bytes": 3413
+      },
+      "status": "complete-article-assembled",
+      "tool_revision": "ed4163b",
+      "outputs": [
+        "maso-1984-10-toc-0014"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "machine-course-assembly",
-    "goal": "Assemble exact immutable opening74–79, middle80–85 and ending86–91 into complete18-page course. Validate all text/example/caption spans, program continuations, both700-position reference series, native preservation and independent exact rebuild. No new OCR.",
+    "id": "batch-16",
+    "goal": "Verify full 기초 테크닉 코너/텍스트애니메이션 extent from92 through before next independent title97, then restore actual bounded body within candidate92–96/PDF94–98. Preserve displayed deck/title and all BASIC/screens/diagrams without inferred code bytes.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0014"
+      "maso-1984-10-toc-0015"
     ],
-    "maximum_articles": 1,
-    "maximum_mapped_pages": 0,
-    "maximum_outside_map_lookups": 0
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

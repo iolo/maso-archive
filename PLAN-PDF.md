@@ -24,19 +24,19 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-Twelve October articles are readable, assistant sample-reviewed JSON/assets;
-기계어 강좌74–79 is partial, with full source extent74–91 verified. 취미생활 and
-교육입문 are non-owning headings. Twenty-six of41 entries remain unresolved.
-Opening has58 reading blocks,12 images and18 short-example rows; a second
-native80–85 adds3 captions/14 images and alphabetical source rows1–422.
-Dense code/table panels remain original images with
-unpromoted drafts, and source glyph/byte uncertainties remain explicit.
+Thirteen October articles are readable, assistant sample-reviewed JSON/assets;
+취미생활 and 교육입문 are non-owning headings. Twenty-six of41 entries remain
+unresolved; no partial article is selected. Latest: complete 기계어 강좌74–91,
+assembled from three exact natives across18 source pages. Its62 reading blocks,
+40 original images,18 short-example rows and both700-position reference series
+pass range/scan/native-preservation and independent byte-identical rebuild checks.
+Source code/table drafts remain unpromoted; canonical 박재현/displayed 이세형
+and literal source anomalies retain explicit uncertainty. Complete35 caption scopes
+and72 source regional text spans are independently indexed in linked evidence.
 The [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
-pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Final native86–91 adds14 original panels and both source series endings. Next:
-separate full18-page course assembly; all three exact natives are collected.
-Canonical 박재현/displayed 이세형 byline discrepancy remains explicit.
+pin selected JSON/assets and private evidence. Next: verify 기초 테크닉 코너 from92
+to before next title97 and restore its actual body within candidate92–96.
 The separately titled unlisted DOS TOOL KIT guide41–43 remains excluded.
 Whole-issue closeout remains pending; no reading-room rebuild occurred.
 

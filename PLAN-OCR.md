@@ -19,16 +19,15 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: twelve readable, assistant sample-reviewed
-  articles, one partial course and two non-owning headings;26 of41 entries remain
-  unresolved. Course extent74–91 is verified; opening74–79 retains58 reading
-  blocks,12 images and18 short-example rows. Original code/table imagery and
-  unpromoted drafts retain explicit character/byte uncertainty. Native80–85 adds
-  LIST2/3 endings and alphabet1–422; native86–91 completes alphabet423–700 and
-  separate machine-code1–700. Next: assemble all three immutable natives. Canonical 박재현 and
-  displayed 이세형 remain separate unresolved identity evidence.
-  The separately titled unlisted DOS TOOL KIT guide41–43 is excluded. Continue
-  from the [October record](docs/progress/8410.md) and
+- October 1984 is in progress: thirteen readable, assistant sample-reviewed
+  articles and two non-owning headings;26 of41 entries remain unresolved, no
+  partial selected. Complete 기계어 강좌74–91 retains62 reading blocks,40 original
+  images,18 short-example rows and both700-position reference series. All three
+  native snapshots, global ranges/35 caption scopes and exact independent rebuild
+  pass. Original code/table drafts and canonical 박재현/displayed 이세형 conflict
+  remain explicit. Next: verify 기초 테크닉 코너92 to before97 and restore actual
+  body within candidate92–96. The unlisted DOS TOOL KIT41–43 remains excluded.
+  Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
   Mapped Tesseract remains the default. Whole-issue closeout is pending.
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;

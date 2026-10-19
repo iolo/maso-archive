@@ -6,13 +6,12 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: twelve readable, assistant sample-reviewed articles
-with one partial course and two non-owning headings;26 of41 canonical entries
-remain unresolved. Course74–91 is source-verified; opening74–79 passes an exact
-rebuild. Second native80–85 preserves LIST2/3 and alphabet1–422. Final86–91
-native is now verified. Next: separate full18-page assembly of all three natives.
-Source code/table images retain separate unpromoted drafts. See the
-[October record](docs/progress/8410.md) and its versioned ledger for selected
+October 1984 is in progress: thirteen readable, assistant sample-reviewed articles
+and two non-owning headings;26 of41 entries remain unresolved, no partial selected.
+Complete 기계어 강좌74–91 passes an exact18-page assembly/rebuild, retaining source
+program/reference/table imagery and separate unpromoted drafts. Next: verify 기초
+테크닉 코너 from92 to before97 and restore its actual body within candidate92–96.
+See the [October record](docs/progress/8410.md) and versioned ledger for selected
 packages and evidence. Whole-issue closeout remains pending.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
@@ -45,7 +44,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 13 classified | 12 readable, 1 partial; 26 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 13 classified | 13 readable; 26 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
