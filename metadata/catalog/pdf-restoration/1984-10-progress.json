@@ -232,7 +232,12 @@
           "39",
           "40"
         ],
-        "restoration": "partial: two immutable natives cover27–38;39–40 and assembly pending"
+        "restoration": "All27–40 collected as three immutable partial natives; complete assembly pending",
+        "source_number_correction": {
+          "path": "archive/pdf/1984-10/restoration/batch-07/source-number-correction.json",
+          "sha256": "a77dd377852e5a68c2d0508216476ace313aafc3cc41ba4937b7a2ef0ccb2159",
+          "bytes": 1111
+        }
       },
       "restoration": {
         "directory": "archive/pdf/1984-10/packages/batch-05-r01/block-game-a",
@@ -275,10 +280,7 @@
             "39",
             "40"
           ],
-          "deferred_printed_pages": [
-            "39",
-            "40"
-          ],
+          "deferred_printed_pages": [],
           "regions": 44,
           "blocks": 66,
           "figures": 10,
@@ -290,7 +292,9 @@
             37,
             38,
             39,
-            40
+            40,
+            41,
+            42
           ],
           "collected_printed_pages": [
             "27",
@@ -304,7 +308,9 @@
             "35",
             "36",
             "37",
-            "38"
+            "38",
+            "39",
+            "40"
           ]
         }
       },
@@ -325,6 +331,15 @@
             "path": "archive/pdf/1984-10/packages/batch-06-r01/block-game-b/manifest.json",
             "sha256": "4041a50026a331db3ea8ceab025d27e8c8b98eae6736eacb5c9ac11680bbb16f",
             "bytes": 13495
+          }
+        },
+        {
+          "name": "ending",
+          "directory": "archive/pdf/1984-10/packages/batch-07-r02/block-game-c",
+          "manifest": {
+            "path": "archive/pdf/1984-10/packages/batch-07-r02/block-game-c/manifest.json",
+            "sha256": "9fbb2b4677cb0750a0e5e33fd73cb94bbce39e9fbd0dc9784fbdc899f00da186",
+            "bytes": 3993
           }
         }
       ]
@@ -893,17 +908,39 @@
       "outputs": [
         "maso-1984-10-toc-0004"
       ]
+    },
+    {
+      "id": "batch-07",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-07/checkpoint.json",
+        "sha256": "34ab245fd1bb6da255ab17e08d3de17253efbd5770f6d6ded172092456cfafcd",
+        "bytes": 2260
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-07/validation.json",
+        "sha256": "64980839189fb8f143b03bfa26c6b8f4624dd2e189f226c38310e2c92b27307f",
+        "bytes": 1489
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-07/review-log.json",
+        "sha256": "b8f810f35dfab6628e07e0ef3b7798f36e181f975bea8d8a0a8d6ca93eed303f",
+        "bytes": 2780
+      },
+      "status": "complete-segment",
+      "tool_revision": "a0270f0",
+      "outputs": [
+        "maso-1984-10-toc-0004"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-07",
-    "goal": "Preserve final game listing printed39–40/PDF41–42 as four aligned original image panels with unpromoted eng OCR drafts, source numbered305–457. Then separately assemble immutable27–40 natives.",
+    "id": "block-game-assembly",
+    "goal": "Assemble exact three immutable game natives across printed27–40/PDF29–42. Preserve all images, raw OCR and source uncertainties; rebase text/listing/caption ranges and retain original metadata. Correct prior end-number claim to459 SEND RTS using batch07 evidence.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0004"
     ],
-    "maximum_articles": 2,
-    "maximum_mapped_pages": 6,
-    "maximum_outside_map_lookups": 20
+    "maximum_new_mapping_pages": 0,
+    "maximum_new_ocr_tasks": 0
   },
   "limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

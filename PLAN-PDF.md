@@ -26,12 +26,12 @@ records below are historical and do not authorize a new rebuild.
 
 The editorial, signed feature introduction, 기계어의 학습 and 기계어의 기초 are
 complete readable, assistant sample-reviewed JSON/assets packages. Four of 41
-canonical entries are restored. 블록격파 게임의 제작 has a partial natives27–38
+canonical entries are restored. 블록격파 게임의 제작 has three partial natives27–40
 of its verified extent27–40. Thirty-six other entries await classification/restoration. The
 [October record](docs/progress/8410.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json)
 pin source review, maps, immutable OCR/corrections and exact independent rebuilds.
-Continue batch07 at printed39–40, then separate game assembly. The separately titled
+Continue with separate game assembly. The separately titled
 unlisted DOS TOOL KIT guide41–43 remains excluded. Whole-issue closeout remains pending;
 no reading-room rebuild occurred.
 
