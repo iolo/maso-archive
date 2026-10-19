@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-10",
+  "status": "in-progress",
+  "updated": "2026-10-19",
+  "source": {
+    "path": "maso-pdf/maso-8410.pdf",
+    "sha256": "d0ef753db88c5e5d47cacc1187567421ecef81094c03174d63373f94cdfa0a87",
+    "bytes": 91259893
+  },
+  "canonical_toc": {
+    "path": "TOC.md",
+    "sha256": "725694617b79e207044c9d739c60ee83447b6efe0fbb41f7680ef3c7dfe90c56",
+    "bytes": 252444
+  },
+  "canonical_queue": {
+    "path": "archive/pdf/1984-10/restoration/canonical-queue.json",
+    "sha256": "b8ad2f106eb804bb3f71d4d479ed1d4de0548872e7e179a44d1b26d7fb6c421e",
+    "bytes": 54770
+  },
+  "entries": [
+    {
+      "toc_entry_id": "maso-1984-10-toc-0001",
+      "title": "특집 : 애플베이직에서 기계어로",
+      "parent_id": null,
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-01-r01/feature-intro",
+        "article_id": "scan-maso-1984-10-toc-0001",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-01-r01/feature-intro/manifest.json",
+          "sha256": "27258af46747a359aaa35bdecfd8feccba34bafa977c17b45820af9bb5c60bf3",
+          "bytes": 4178
+        },
+        "coverage": {
+          "pdf_pages": [
+            20,
+            21
+          ],
+          "printed_pages": [
+            "18",
+            "19"
+          ],
+          "regions": 6,
+          "blocks": 9,
+          "figures": 2
+        }
+      },
+      "classification_evidence": [
+        "PDF20/printed18 is a special-feature visual divider. PDF21/printed19 has substantial signed introductory prose by 김영일.",
+        "The pageless canonical parent0001 owns this introduction. Its children remain independent bodies: 기계어의 학습 begins PDF22/printed20; 기계어의 기초 begins on PDF23/printed21 after the 학습 conclusion.",
+        "Canonical title and parent/child identities are unchanged; displayed title spacing and author affiliation are transcribed separately."
+      ]
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0002",
+      "title": "기계어의 학습",
+      "parent_id": "maso-1984-10-toc-0001",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0003",
+      "title": "기계어의 기초",
+      "parent_id": "maso-1984-10-toc-0001",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0004",
+      "title": "블록격파 게임의 제작",
+      "parent_id": "maso-1984-10-toc-0001",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0005",
+      "title": "취미생활",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0006",
+      "title": "하늘의 왕자 콘돌",
+      "parent_id": "maso-1984-10-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0007",
+      "title": "명랑운동회",
+      "parent_id": "maso-1984-10-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0008",
+      "title": "인베이더 84",
+      "parent_id": "maso-1984-10-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0009",
+      "title": "꽃밭을 사수하라",
+      "parent_id": "maso-1984-10-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0010",
+      "title": "거북이 사냥",
+      "parent_id": "maso-1984-10-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0011",
+      "title": "U보트를 격침하라",
+      "parent_id": "maso-1984-10-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0012",
+      "title": "디베스테이터",
+      "parent_id": "maso-1984-10-toc-0005",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0013",
+      "title": "교육입문",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0014",
+      "title": "기계어 강좌",
+      "parent_id": "maso-1984-10-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0015",
+      "title": "기초 테크닉 코너",
+      "parent_id": "maso-1984-10-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0016",
+      "title": "수학을 통한 논리학습",
+      "parent_id": "maso-1984-10-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0017",
+      "title": "CP/M 입문",
+      "parent_id": "maso-1984-10-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0018",
+      "title": "SPC-1000 베이직 프로그램 입력 테크닉",
+      "parent_id": "maso-1984-10-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0019",
+      "title": "애플 포트란",
+      "parent_id": "maso-1984-10-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0020",
+      "title": "도량형 환산",
+      "parent_id": "maso-1984-10-toc-0013",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0021",
+      "title": "비즈니스",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0022",
+      "title": "전산개발 시스템 연구",
+      "parent_id": "maso-1984-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0023",
+      "title": "한글주소록 프로그램",
+      "parent_id": "maso-1984-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0024",
+      "title": "의료보험 수가계산",
+      "parent_id": "maso-1984-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0025",
+      "title": "자료구조",
+      "parent_id": "maso-1984-10-toc-0021",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0026",
+      "title": "테크니컬",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0027",
+      "title": "마이컴 설계강좌",
+      "parent_id": "maso-1984-10-toc-0026",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0028",
+      "title": "SPC-1000용 텍스트 에디터",
+      "parent_id": "maso-1984-10-toc-0026",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0029",
+      "title": "PHONE LIST를 통해 본 프로그래밍 테크닉",
+      "parent_id": "maso-1984-10-toc-0026",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0030",
+      "title": "공모입선작",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0031",
+      "title": "공모총평",
+      "parent_id": "maso-1984-10-toc-0030",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0032",
+      "title": "슈퍼리그",
+      "parent_id": "maso-1984-10-toc-0030",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0033",
+      "title": "하얀돌 까만돌",
+      "parent_id": "maso-1984-10-toc-0030",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0034",
+      "title": "피라밋 II",
+      "parent_id": "maso-1984-10-toc-0030",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0035",
+      "title": "정보모음",
+      "parent_id": null,
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0036",
+      "title": "편집자 노트",
+      "parent_id": "maso-1984-10-toc-0035",
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-01-r01/editorial",
+        "article_id": "scan-maso-1984-10-toc-0036",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-01-r01/editorial/manifest.json",
+          "sha256": "647e5bcdb6a16a5940c3409dac368cad99c79600bc5e38204f6eb65654f78eed",
+          "bytes": 3515
+        },
+        "coverage": {
+          "pdf_pages": [
+            19
+          ],
+          "printed_pages": [
+            "17"
+          ],
+          "regions": 5,
+          "blocks": 12,
+          "figures": 2
+        }
+      },
+      "classification_evidence": [
+        "PDF19 visibly carries printed17 and the complete editorial. PDF18 is a monitor advertisement. PDF20 is special-feature divider18.",
+        "Title, decorative portrait, left and right columns and endmark cover all editorial content; prose continues across columns.",
+        "First crop inspection found insufficient bottom margin beneath 칼럼; widened p17-left once in fresh revision. Original map/OCR retained in editorial/."
+      ]
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0037",
+      "title": "디버깅 룸",
+      "parent_id": "maso-1984-10-toc-0035",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0038",
+      "title": "정보 레이다",
+      "parent_id": "maso-1984-10-toc-0035",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0039",
+      "title": "복덕방",
+      "parent_id": "maso-1984-10-toc-0035",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0040",
+      "title": "Q&A",
+      "parent_id": "maso-1984-10-toc-0035",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-10-toc-0041",
+      "title": "광고색인",
+      "parent_id": "maso-1984-10-toc-0035",
+      "classification": "unresolved",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    }
+  ],
+  "counts": {
+    "canonical_entries": 41,
+    "articles": 2,
+    "non_owning_headings": 0,
+    "unresolved_classification": 39,
+    "readable": 2,
+    "partial": 0,
+    "image_only": 0,
+    "failed": 0,
+    "sample_reviewed": 2
+  },
+  "checkpoints": [
+    {
+      "id": "batch-01",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-01/checkpoint.json",
+        "sha256": "3c285cbc927dc668465103f6d3a21d7194558b5c06281c689678116aad02b9f0",
+        "bytes": 1413
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-01/validation.json",
+        "sha256": "d803980527ad0ca26c6a99386dfc8bf60444ce4da893b3d64d271cf28019cc00",
+        "bytes": 1573
+      },
+      "status": "complete",
+      "tool_revision": "0f8f03b",
+      "outputs": [
+        "maso-1984-10-toc-0036",
+        "maso-1984-10-toc-0001"
+      ]
+    }
+  ],
+  "next_checkpoint": {
+    "id": "batch-02",
+    "goal": "Restore 기계어의 학습 from verified printed20 through its conclusion on shared printed21; exclude following 기계어의 기초.",
+    "toc_entry_ids": [
+      "maso-1984-10-toc-0002"
+    ],
+    "maximum_articles": 2,
+    "maximum_mapped_pages": 6,
+    "maximum_outside_map_lookups": 20
+  },
+  "limits": [
+    "Assistant sample review is not human acceptance or full proofreading.",
+    "Source encoded bytes and program execution unverified.",
+    "Whole-issue source-page ledger, cover accounting, remaining articles, assemblies and issue closeout pending.",
+    "Preserved local files have not yet been independently backed up and restore-tested."
+  ],
+  "reader_rebuild": false
+}

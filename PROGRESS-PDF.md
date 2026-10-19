@@ -1,10 +1,16 @@
 # PDF restoration progress
 
-Updated 2026-10-16. This file is the status index; detailed records live under
+Updated 2026-10-19. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
+
+October 1984 is in progress: the editorial and signed feature introduction are
+complete JSON/assets packages, both readable and assistant sample-reviewed.
+The other 39 canonical entries await classification/restoration. See the
+[October record](docs/progress/8410.md) and its versioned progress ledger for
+selected packages, independent rebuild evidence and the next bounded checkpoint.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
@@ -21,7 +27,8 @@ original images with searchable printed story headings; its body prose awaits
 volunteer transcription. Many code, numeric and classified panels elsewhere
 also remain source images. Human acceptance, complete proofreading, source-byte
 verification and program execution remain pending. The reading room has not
-been rebuilt. October 1984 is the next supplied eligible issue; eleven remain.
+been rebuilt. October 1984 is now in progress; eleven supplied eligible issues
+remain after September, including October.
 See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 [PDF plan](PLAN-PDF.md) and [successor notes](docs/SUCCESSOR-NOTES.md).
 
@@ -35,6 +42,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
+| 1984-10 | 2 so far | 2 readable; 39 entries pending classification | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

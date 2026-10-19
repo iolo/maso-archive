@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-16. Read this before future PDF restoration. This is the current
+Updated 2026-10-19. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -19,6 +19,12 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+- October 1984 is in progress. The editorial and signed special-feature
+  introduction are readable, assistant sample-reviewed JSON/assets packages;
+  39 of 41 canonical entries still await classification/restoration. Continue
+  from the [October record](docs/progress/8410.md) and
+  [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
+  Mapped Tesseract remains the default. Whole-issue closeout is pending.
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
   its report is `archive/pdf/1984-08/evidence/13-1984-08-closeout/report.json` and its
   machine-readable [ledger](docs/ocr-experiments/ocr-august-progress.json) remains preserved.
