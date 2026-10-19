@@ -2896,10 +2896,19 @@
       "toc_entry_id": "maso-1984-10-toc-0035",
       "title": "정보모음",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "SourceTOCPDF17directlyshows정보모음withsixnavigationrows:17편집자노트/129디버깅룸/131정보레이다/235복덕방/238Q&A/256광고색인. No ownpagenumber/byline/body;heading groups dispersedindependent articles.",
+        "Canonicalpagelesssection0035and allsixchildidentities/parents unchanged. Editorial17alreadyrestored;debug129actualbodychecked,news131independentopenerchecked. No standalonearticleor additionalownerfabricated."
+      ],
+      "classification_record": {
+        "path": "archive/pdf/1984-10/restoration/batch-46/information-classification.json",
+        "sha256": "cffb2869cb5ee64910fc96badd6e2103b51311d9f41474f70e7953647aac830a",
+        "bytes": 1510
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0036",
@@ -2939,10 +2948,67 @@
       "toc_entry_id": "maso-1984-10-toc-0037",
       "title": "디버깅 룸",
       "parent_id": "maso-1984-10-toc-0035",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Actualcomplete 디버깅룸129/PDF131onepage,visiblefolio129. Prior128conversion/nextPDF132relocationadvertisement(no visiblefolio,sequence130only)/PDF133news131 independent excluded. Canonical 디버깅 룸/정보모음parent retained,no authorinferred.",
+        "Six correctedproseblocks/threeoriginalBASICpanels/twooriginalbyteimages retain sixSPCbefore→after pairs,21sourcepositions/fourwraps/25physicalrows/32old-newdisplayedbytecells. Source7-byteclaim retained;no historicalpatches applied. All11cropsreviewedbefore11OCRtasks,zero failure/retry/repair;all source/range/scan checks and independentrebuildpass."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-46-r01/debugging",
+        "article_id": "scan-maso-1984-10-toc-0037",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-46-r01/debugging/manifest.json",
+          "sha256": "03d9aa02b50c287b970d4746f3571334bec1cc526ce0e8c217a835af2c86a1e1",
+          "bytes": 8888
+        },
+        "coverage": {
+          "pdf_pages": [
+            131
+          ],
+          "printed_pages": [
+            "129"
+          ],
+          "regions": 11,
+          "blocks": 6,
+          "figures": 5,
+          "regional_text_ranges": 6,
+          "text_review_ranges": 10,
+          "explicit_prose_boundaries": 0,
+          "caption_blocks": 0,
+          "caption_associations": 0,
+          "source_heading_associations": 5,
+          "source_prose_image_associations": 5,
+          "original_basic_panels": 3,
+          "source_program_groups": 2,
+          "source_number_positions": 21,
+          "source_physical_wraps": 4,
+          "source_physical_text_rows": 25,
+          "program_panel_connections": 1,
+          "original_byte_tables": 2,
+          "source_displayed_byte_cells": 32,
+          "source_byte_address_rows": 4,
+          "source_errata_pairs": 6,
+          "source_literal_patch_count_claim": 7,
+          "typed_program_rows": 0
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            131
+          ],
+          "printed_pages": [
+            "129"
+          ]
+        },
+        "complete_article_assembly_pending": false,
+        "article_associations": {
+          "path": "archive/pdf/1984-10/evidence/batch-46/source-associations.json",
+          "sha256": "69d26fbcc85affc267d656e19aa74958f783057386bc42279bc26f0e893ad580",
+          "bytes": 23174
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0038",
@@ -2983,15 +3049,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 30,
-    "non_owning_headings": 5,
-    "unresolved_classification": 6,
-    "readable": 30,
+    "articles": 31,
+    "non_owning_headings": 6,
+    "unresolved_classification": 4,
+    "readable": 31,
     "partial": 0,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 35,
-    "unresolved_availability": 6
+    "sample_reviewed": 37,
+    "unresolved_availability": 4
   },
   "checkpoints": [
     {
@@ -4681,14 +4747,42 @@
       "outputs": [
         "maso-1984-10-toc-0034"
       ]
+    },
+    {
+      "id": "batch-46",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-46/checkpoint.json",
+        "sha256": "9e18d0410fb1e7cf50bd571c682d6c6492b26b63caea34dbeb964bc83a18d7dd",
+        "bytes": 2145
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-46/source-review.json",
+        "sha256": "ce241276c780c7cd9e85bb6efbe9769972e17ecbfe50a071080efd53d24e3e54",
+        "bytes": 1340
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-46/validation.json",
+        "sha256": "a0c806a8eb6f9c16ef69c668dbf2b487e37527cd2a55021c7f819fe11dd8fcb1",
+        "bytes": 2620
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-46/review-log.json",
+        "sha256": "aced9f11e7eb52221352806a0d2f7d6d37b50dabf494ca0e8364a20cc6bd5c51",
+        "bytes": 2973
+      },
+      "status": "complete-debugging-and-information-heading",
+      "tool_revision": "f328c59",
+      "outputs": [
+        "maso-1984-10-toc-0035",
+        "maso-1984-10-toc-0037"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-46",
-    "goal": "Classify 정보모음0035 ascanonical headingorbody from source evidence and actualchildstart. Verify full 디버깅룸0037extent129before정보레이다131,allcandidate/adjacentpages before mapping;restore bounded completebodyifwithin6pages. Preserve originalcode/table/errata and correct standaloneprose/headings/captions with allsourcefidelitylimits.",
+    "id": "batch-47",
+    "goal": "Verify actualfull 정보레이다0038extent131–138/PDF133–140before139Businessdivider and prior130advertisement. Reviewallsource/adjacentviewsbeforemapping;restore boundedopening up to6pages with correctedsearchableheadings/captions and readableoriginalnewsbodyimages,explicit volunteertranscriptionpending as acceptednews policy. Separateendingnative and fullassemblyrequired.",
     "toc_entry_ids": [
-      "maso-1984-10-toc-0035",
-      "maso-1984-10-toc-0037"
+      "maso-1984-10-toc-0038"
     ],
     "maximum_articles": 2,
     "maximum_mapped_pages": 6,
