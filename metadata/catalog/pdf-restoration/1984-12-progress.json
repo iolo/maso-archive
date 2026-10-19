@@ -997,19 +997,19 @@
       "parent_id": "maso-1984-12-toc-0005",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Full88–97/PDF90–99and neighbors reviewed. Exact ending detail reads69F8/eight00fields, superseding earlier6FF8full-page extent observation; original source reading retained unchanged. FollowingPDF100–102are ads,PDF103education divider,PDF104/102independent BASIC speed article. Canonical identity/title/parent unchanged.",
-        "Two natives now cover complete88–97with98regions,37blocks,31images,1233physical rows,1216hex rows/addresses,9728hex literals,10numbered BASIC entries,seven wraps,44DATA fields,two quotes,two tables/80cells,16inline examples,four figure-caption links andone listing-caption link. Ending117files rebuild identically;full assembly and complete source-index projection remain required."
+        "Two preserved natives and independent full assembly cover all88–97/PDF90–99. All336assembly files and both205/122-file flag-only revisions reproduce identically. All1233physical rows,1216hex rows/addresses,9728hex literals,44DATA fields,two quotes,two tables/80cells/22blanks,16inline examples and31images have exact combined source ranges. The13/newline3DATAfield,table gaps/blank address,source uncertainty and all native metadata remain literal. Source bytes,execution,human acceptance/full proofreading remain unverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1984-12/packages/batch-16-r02/crowded-speedway-a",
+        "directory": "archive/pdf/1984-12/packages/crowded-speedway-complete-r01",
         "article_id": "scan-maso-1984-12-toc-0009",
         "manifest": {
-          "path": "archive/pdf/1984-12/packages/batch-16-r02/crowded-speedway-a/manifest.json",
-          "sha256": "021f743aa0aac5c59ae3c6cbc747d1d622b7a65a0fe2f30d3dad526e74f526eb",
-          "bytes": 33988
+          "path": "archive/pdf/1984-12/packages/crowded-speedway-complete-r01/manifest.json",
+          "sha256": "cec3b40a86559309f3f9dbe4a856612be1ea4477b97bb2fa9d5230621c7d6570",
+          "bytes": 62229
         },
         "coverage": {
           "pdf_pages": [
@@ -1040,7 +1040,7 @@
           "blocks": 37,
           "figures": 31
         },
-        "segments": [
+        "native_segments": [
           {
             "directory": "archive/pdf/1984-12/packages/batch-16-r02/crowded-speedway-a",
             "article_id": "scan-maso-1984-12-toc-0009",
@@ -1100,6 +1100,50 @@
             "segment": "b"
           }
         ],
+        "native_metadata_revisions": [
+          {
+            "directory": "archive/pdf/1984-12/packages/crowded-speedway-index-r01/opening",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/crowded-speedway-index-r01/opening/manifest.json",
+              "sha256": "062eee150ab4b3401f17d40102f2ed846134b7789666f1d5286125dbd5838330",
+              "bytes": 34819
+            },
+            "procedure": {
+              "path": "archive/pdf/1984-12/restoration/crowded-speedway-assembly/revise-natives.py",
+              "sha256": "607bcf0e116c60a54a983b4dc2e337f29863f7f9d675aa143e0667656cd1ec98",
+              "bytes": 2971
+            }
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/crowded-speedway-index-r01/ending",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/crowded-speedway-index-r01/ending/manifest.json",
+              "sha256": "c7af926c86060f10d91db60682df9f00213f92e29101f03b99662eafc8d6768c",
+              "bytes": 20717
+            },
+            "procedure": {
+              "path": "archive/pdf/1984-12/restoration/crowded-speedway-assembly/revise-natives.py",
+              "sha256": "607bcf0e116c60a54a983b4dc2e337f29863f7f9d675aa143e0667656cd1ec98",
+              "bytes": 2971
+            }
+          }
+        ],
+        "index_mode": "wrapped-listing-v1",
+        "literal_table_source_fields_format": "v1",
+        "check_entrypoint": "tools.pdf_restore.table_literal_assembly.check",
+        "adapter_context": "tools.pdf_restore.table_literal_assembly.installed",
+        "implementation": {
+          "path": "archive/pdf/1984-12/restoration/crowded-speedway-assembly/implementation.json",
+          "sha256": "e6040517a1d2db8e99065019dd1f6866a82b4c6dd5ee1becd01a198092b2a804",
+          "bytes": 2805
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/crowded-speedway-assembly/reproduction.json",
+          "sha256": "e8fcdef786d2ca4ac8707df592147a33eb4c1e66641c0a35f9c5dfceb933a196",
+          "bytes": 2080
+        },
+        "deferred_printed_pages": [],
+        "assembly_required": false,
         "full_source_extent": {
           "pdf_pages": [
             90,
@@ -1126,9 +1170,6 @@
             "97"
           ]
         },
-        "deferred_printed_pages": [],
-        "assembly_required": true,
-        "assembly_compatibility": "Preserve mixed table/hex/BASIC indexes and internal-digit physical DATAwrap. Existing literal_source_fields_format:v1rejects tables and split13/newline3; needs explicit compatible projection, with all original metadata/text retained.",
         "original_native_export": {
           "path": "archive/pdf/1984-12/packages/batch-16-r01/crowded-speedway-a/manifest.json",
           "sha256": "9651743a88b811ba55fee69de19e17bc0d240c358e317e8cf25fd841609a0a9c",
@@ -1448,8 +1489,8 @@
   "totals": {
     "canonical_entries": 37,
     "classified_articles": 9,
-    "readable_articles": 8,
-    "partial_articles": 1,
+    "readable_articles": 9,
+    "partial_articles": 0,
     "nonowning_headings": 2,
     "unresolved_eligibility": 26,
     "human_accepted_articles": 0
@@ -3135,62 +3176,128 @@
         "sha256": "cb24913402db89f6b957c600b08d4a7de129ff90df31e2ac3ffea1c95825f31d",
         "bytes": 4125140
       }
+    },
+    {
+      "id": "crowded-speedway-assembly",
+      "status": "complete-readable-article",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/crowded-speedway-assembly/checkpoint.json",
+        "sha256": "5767960493fb3fe7d45405f14b19735cb2a7d227d5eff96a83942e008895febe",
+        "bytes": 1872
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/crowded-speedway-assembly/validation-r01.json",
+        "sha256": "e5cd50072ac61dbc02839d3a27f9541c1c56ada56a957c9f9d3219b3c68c978b",
+        "bytes": 1783
+      },
+      "implementation": {
+        "path": "archive/pdf/1984-12/restoration/crowded-speedway-assembly/implementation.json",
+        "sha256": "e6040517a1d2db8e99065019dd1f6866a82b4c6dd5ee1becd01a198092b2a804",
+        "bytes": 2805
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/crowded-speedway-assembly/reproduction.json",
+        "sha256": "e8fcdef786d2ca4ac8707df592147a33eb4c1e66641c0a35f9c5dfceb933a196",
+        "bytes": 2080
+      },
+      "manifest": {
+        "path": "archive/pdf/1984-12/packages/crowded-speedway-complete-r01/manifest.json",
+        "sha256": "cec3b40a86559309f3f9dbe4a856612be1ea4477b97bb2fa9d5230621c7d6570",
+        "bytes": 62229
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/crowded-speedway-assembly/verify.py",
+        "sha256": "4aa24674825343d1a2ee13a98ed6dca8c50175220c71ed6d2e31227dcb28f968",
+        "bytes": 18572
+      },
+      "source_token_changes": 0,
+      "offline_check": {
+        "path": "archive/pdf/1984-12/evidence/crowded-speedway-assembly/offline-check-r01.log",
+        "sha256": "09c631cbdb694e6c955aef846b505efac7f1cddb81d2ba0e0574a35e27916254",
+        "bytes": 62
+      },
+      "package_files": 336,
+      "immutable_segment_files": 327,
+      "original_native_files_preserved": 317,
+      "metadata_revision_files": 327,
+      "pages": 10,
+      "regions": 98,
+      "blocks": 37,
+      "figures": 31,
+      "source_block_ranges": 37,
+      "regional_text_ranges": 77,
+      "text_review_items": 98,
+      "text_review_notes": 21,
+      "regional_listing_ranges": 47,
+      "listing_physical_rows": 1233,
+      "numbered_logical_entries": 10,
+      "wrapped_rows": 7,
+      "hex_rows": 1216,
+      "hex_addresses": 1216,
+      "hex_literals": 9728,
+      "quoted_fields": 2,
+      "data_statements": 1,
+      "data_fields": 44,
+      "internal_digit_wrap": "13\n  3",
+      "tables": 2,
+      "table_cells": 80,
+      "table_rows": 20,
+      "blank_table_cells": 22,
+      "native_prose_joins": 2,
+      "caption_links": 4,
+      "listing_caption_links": 1,
+      "inline_examples": 16,
+      "source_uncertainty_records": 155,
+      "resolved_scope_notes": 4,
+      "prior_files_verified": 17885,
+      "pdf_tests": 175,
+      "new_mapping_pages": 0,
+      "new_ocr_tasks": 0,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/crowded-speedway-assembly/preserved-work-inventory.json",
+        "sha256": "28e50ebcb3c63ccb35d27d4146c4664b76c4bf82e1b1bf54c6d3a29c31b70574",
+        "bytes": 4459367
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "crowded-speedway-assembly",
-    "goal": "Independently assemble complete Crowded Speedway88–97from both preserved natives with every regional/review/physical/logical/hex-address/value/quote/DATA/table/inline/caption index projected exactly, retaining all original metadata and source text.",
+    "id": "batch-18",
+    "goal": "Establish complete SPC-1000 BASIC speed article0011extent and neighbors from observed title102/PDF104, then restore at most six mapped source pages with all text,code,figures,tables and source uncertainty.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0009"
+      "maso-1984-12-toc-0011"
     ],
-    "source_packages": [
-      "archive/pdf/1984-12/packages/batch-16-r02/crowded-speedway-a",
-      "archive/pdf/1984-12/packages/batch-17-r01/crowded-speedway-b"
-    ],
-    "mapping_targets": [],
-    "known_full_extent": {
-      "pdf_pages": [
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99
-      ],
-      "printed_pages": [
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97
-      ],
-      "last_address_literal": "69F8",
-      "last_row_fields": [
-        "00",
-        "00",
-        "00",
-        "00",
-        "00",
-        "00",
-        "00",
-        "00"
-      ]
+    "known_start": {
+      "pdf_page": 104,
+      "printed_page": 102
     },
+    "provisional_mapping_targets": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "provisional_lookup_targets": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ],
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "No new mapping/OCR. Both natives total98regions,37blocks,31images,1233physical rows,1216hex rows/printed addresses,9728hex literals,44DATA fields,two quotes,16inline examples,80table cells/22blanks,four figure-caption links,one listing-caption link andtwo native prose joins. Boundary55B8/55C0between complete rows. Existing literal-source v1rejects tables/internal-digit13/newline3DATA;use explicit compatible projection without rewriting source to fit. Preserve prior shared implementation pins,all original natives,and6FF8→69F8source-reading revision. No reader rebuild."
+    "note": "PDF104/102title already observed in batch16/17;full end is not established. Next canonical CP/M(5)printed110is a lookup lead,not a verified boundary or global folio offset. Reuse pinned scans/reinspect;review complete extent and adjacent material before mapping,then every exact original/revised crop before OCR. Education0010is already non-owning. Future selected-package/issue-closeout audits including Crowded Speedway must use explicit table_literal_assembly.check/installed(). No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

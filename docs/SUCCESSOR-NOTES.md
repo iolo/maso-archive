@@ -40,38 +40,41 @@ launch, with per-region timing uninstrumented. Later source/crop/rebuild checks 
 Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
-October; December has eight readable articles through complete Spin Ball78–87.
-Both Crowded Speedway natives cover full88–97,pending independent assembly;one
-partial,two non-owning headings and26of37unresolved entries remain. Education0010
-is non-owning from unpaginatedPDF103andfive canonical children;links unchanged.
+October; December now has nine readable articles through Crowded Speedway88–97,
+zero partial articles,two non-owning headings and26 of37 unresolved entries.
+Education0010 is non-owning;all five canonical child links remain unchanged.
 
-Latest ending:packages/batch-17-r01/crowded-speedway-b. All117files rebuild
-identically;36regions,four code blocks,twelve complete frames,648physical hex
-rows/addresses and5,184literal fields. All36exact crops preceded24successful
-mapped tasks. No geometry repair,recognition failure/retry or post-OCR repair.
-Ten pinned source views reused;all17,399prior files unchanged. New inventory:
-17,885files. Shared163-test pipeline andall prior implementation pins unchanged.
+All 98 regions, 37 blocks and 31 original images retain exact source provenance.
+The combined listing preserves 1,233 physical rows, ten numbered BASIC entries,
+seven wraps, 1,216 hex rows/addresses and 9,728 literal fields. Exact indexes retain
+44 DATA fields, two quotes, 16 inline examples, two tables/80 cells/22 blanks,
+four figure-caption links, one listing-caption link and two native prose joins.
+The internal-digit 13/newline/indentation/3 DATA spelling, missing table digits,
+blank road-flag address and all source uncertainty remain literal. Final 69F8
+with eight 00 fields retains the earlier 6FF8 observation and source-reading revision.
 
-Exact final source detail reads69F8/eight00fields,superseding earlier6FF8extent
-observation through fresh pre-OCR source-reading revision. Both original/selected
-records anddetail remain. Source scan damage and00/0D/0F,A/4,B/8,D/0,E/F,9and
-F/7candidates remain unresolved;no binary/opcode/address/shape reconstruction.
-Use evidence/batch-17/verify-r03.py read-only unless --report names a fresh path.
-Both earlier verifier failures andfresh fixes are retained;source/export unchanged.
+Separate opt-in table/literal tooling (39e5b61) passes all 175 PDF tests. All twelve
+historical implementation pins and three historical assembly audits pass unchanged.
+Future checks or issue closeout including Crowded Speedway must use
+`tools.pdf_restore.table_literal_assembly.check` or its `installed()` context;
+see [the format notes](PDF-TABLE-LITERAL-ASSEMBLY.md). No new mapping/OCR.
 
-Next:crowded-speedway-assembly from opening batch16-r02and ending batch17-r01.
-Combined98regions,37blocks,31images,1,233physical rows,1,216hex rows/addresses,
-9,728hex literals,44DATA fields,two quotes,16inline examples,80table cells/22blanks,
-four figure-caption links,one listing-caption link andtwo native prose joins.
-Boundary55B8/55C0is between complete rows;no new mapping/OCR needed. Existing
-literal-source v1rejects tables/internal-digit13/newline3DATAspelling. Use an
-explicit compatible projection preserving every native index,text andmetadata;
-leave prior implementation pins unchanged. No reader rebuild.
+Next: batch18, establish the complete extent/neighbors of SPC-1000 BASIC speed
+0011, whose title102/PDF104 is already observed, then restore at most six mapped
+pages. Its end is not established; CP/M(5)110 is only a lookup lead. Review full
+pages before mapping and all exact original/revised crops before OCR. Education
+0010 is already non-owning. Human acceptance/full proofreading, source bytes and
+execution remain unverified. No reader/frontend work.
 
-Opening printed SPEEPWAY-RUN,table gaps6 ,92and6 ,93,blank road-flag address,
-brace-like marks andphysical DATAwrap stay literal. Earlier batch01timing,
-batch02report retention andbatch06intermediate retention exceptions remain.
-Human acceptance/full proofreading,source encoding andexecution unverified.
+Selected package:packages/crowded-speedway-complete-r01. All336 files and205/122
+native revisions rebuild identically;all17,885 prior evidence files are unchanged.
+New inventory:19,252 files. Use evidence/crowded-speedway-assembly/verify.py
+read-only unless --report names a fresh path. Reproduction/implementation pins
+are in restoration/crowded-speedway-assembly. Tooling commit:39e5b61.
+
+Opening SPEEPWAY-RUN,table gaps6 ,92 and6 ,93,blank road-flag address,brace-like
+marks and physical DATAwrap remain literal. Earlier batch01 timing,batch02 report
+retention andbatch06 intermediate-retention exceptions remain explicit.
 
 Spin Ball remains packages/spin-ball-complete-r02. Literal-source tooling
 c27c183and its [format notes](PDF-LITERAL-SOURCE-FIELDS.md) remain preserved.
