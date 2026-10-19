@@ -669,10 +669,103 @@
       "toc_entry_id": "maso-1984-12-toc-0007",
       "title": "다이아몬드 필드",
       "parent_id": "maso-1984-12-toc-0005",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF72/printed70 independently starts Diamond Field, displayed 다이어몬드 필드. Full eight-page70–77extent inspected; body ends71, listing ends6670on77. PDF80/printed78starts Spin Ball. Canonical TOC identity/title unchanged.",
+        "Opening70–75native includes full body, all artwork/table/flowchart and BASIC1000–4740. Available ending76–77/4750–6670and independent full assembly remain required. Physical1920S/OUND page wrap and all source/glyph candidates retained."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/batch-12-r01/diamond-field-a",
+        "article_id": "scan-maso-1984-12-toc-0007",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/batch-12-r01/diamond-field-a/manifest.json",
+          "sha256": "c50124379afdfcb068e88cd0ee11a7f0f03b8bf7ee57c4cf0a44b3ea6945f6aa",
+          "bytes": 25228
+        },
+        "coverage": {
+          "pdf_pages": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "printed_pages": [
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75"
+          ],
+          "regions": 46,
+          "blocks": 14,
+          "figures": 14
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-12-r01/diamond-field-a",
+            "article_id": "scan-maso-1984-12-toc-0007",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-12-r01/diamond-field-a/manifest.json",
+              "sha256": "c50124379afdfcb068e88cd0ee11a7f0f03b8bf7ee57c4cf0a44b3ea6945f6aa",
+              "bytes": 25228
+            },
+            "coverage": {
+              "pdf_pages": [
+                72,
+                73,
+                74,
+                75,
+                76,
+                77
+              ],
+              "printed_pages": [
+                "70",
+                "71",
+                "72",
+                "73",
+                "74",
+                "75"
+              ],
+              "regions": 46,
+              "blocks": 14,
+              "figures": 14
+            },
+            "segment": "a"
+          }
+        ],
+        "full_source_extent": {
+          "pdf_pages": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "printed_pages": [
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77"
+          ]
+        },
+        "deferred_printed_pages": [
+          "76",
+          "77"
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0008",
@@ -971,11 +1064,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 6,
+    "classified_articles": 7,
     "readable_articles": 6,
-    "partial_articles": 0,
+    "partial_articles": 1,
     "nonowning_headings": 1,
-    "unresolved_eligibility": 30,
+    "unresolved_eligibility": 29,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -1904,33 +1997,139 @@
         "sha256": "6e90119dcc3c9b09873556519492b680fc6bc9dc959fd8e38384856fee7f6f3e",
         "bytes": 2624422
       }
+    },
+    {
+      "id": "batch-12",
+      "status": "complete-partial-article-segment",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-12/checkpoint.json",
+        "sha256": "2e8e796050ac645aff3c69ca078428e2372ce2c5a30b808b9348a8569f75669f",
+        "bytes": 1726
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-12/validation.json",
+        "sha256": "149817f810ca253cc95f230f0bb55d47a086b1b6bb8a0ceca61e23be2a42473d",
+        "bytes": 1070
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-12/source-reviewed.json",
+        "sha256": "058f1f7db2632667fef88f830d8da117e0bf2e8b4e05177e260fadd5cb30f741",
+        "bytes": 4225
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-12/mapping-completed.json",
+        "sha256": "c0370c807d973a251f08a7400245ed2ed6529bfc210b359f3d8564319d4f95e4",
+        "bytes": 561
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-12/segment-scope.json",
+        "sha256": "1235cc0d15f7714a24f523865aa90a305abbad900e0a602b810b8e34298db121",
+        "bytes": 893
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-12/preflight-reviewed.json",
+        "sha256": "92e6449b8eaadc1fec17c541d5cb18e1e3151a9eb0c9f10e10024be02a248008",
+        "bytes": 21609
+      },
+      "crop_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-12/crop-repair-r02.json",
+        "sha256": "4f65962cbb4fdba7cb04e7be35a139e241117edf1784b824cad7477273e7b679",
+        "bytes": 11350
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-12/correction-completed.json",
+        "sha256": "03733a93c558101964fba558e131390402b77e4d189fa2d15c9cc285f9e0a756",
+        "bytes": 629
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-12/reproduction.json",
+        "sha256": "f6a5bbbdc77771ea42af76d35cf2dfe173072262beab9585e931462669238875",
+        "bytes": 1222
+      },
+      "actual_ocr_tasks": 32,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 14,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 11416,
+      "rebuild_files": 151,
+      "regions": 46,
+      "blocks": 14,
+      "figures": 14,
+      "regional_text_ranges": 32,
+      "text_review_items": 86,
+      "prose_joins": 2,
+      "tables": 1,
+      "table_rows": 9,
+      "table_cells": 27,
+      "blank_cells": 1,
+      "caption_links": 1,
+      "listing_physical_rows": 433,
+      "listing_logical_entries": 375,
+      "physical_wrap_rows": 58,
+      "regional_listing_spans": 17,
+      "source_notes": 49,
+      "quoted_literals": 59,
+      "graphic_strings": 20,
+      "music_strings": 19,
+      "machine_data_rows": 9,
+      "machine_data_fields": 81,
+      "hex_literals": 72,
+      "printed_checksums": 9,
+      "inline_examples": 1,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-12/preserved-work-inventory.json",
+        "sha256": "b42db2a4dcd550b527d0a0a2aea28269cf66ba67367f1ab70d62d44a82a9cc84",
+        "bytes": 2762762
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-12",
-    "goal": "Restore the bounded opening of Diamond Field0007 from verified70/PDF72. Establish complete actual extent and neighboring owners before mapping; preserve all prose, screenshot, flowchart, table, BASIC and machine-code physical rows in segments of six or fewer pages.",
+    "id": "batch-13",
+    "goal": "Restore Diamond Field ending76–77/PDF78–79, BASIC4750–6670, including all machine DATA/checksums, sprite/character bytes, panel strings, music data and final round patterns. Then independently assemble full70–77from both immutable natives.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0007"
     ],
-    "provisional_mapping_targets": [
-      72,
-      73,
-      74,
-      75,
-      76,
-      77
+    "mapping_targets": [
+      78,
+      79
     ],
-    "known_opening": {
-      "pdf_page": 72,
-      "printed_page": "70",
-      "next_toc_start_candidate": "Spin Ball78"
+    "source_lookup_targets": [
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "known_full_extent": {
+      "pdf_pages": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "printed_pages": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "last_printed_listing_number": 6670
     },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Christmas-card66–69 is complete with no assembly pending. Hobby0005 is non-owning; retain all four canonical children. Diamond full end not yet verified: TOC78 is a lookup lead only. All exact original/revised crops must be inspected before OCR. No reader rebuild."
+    "note": "Reuse verified eight-page extent and pinned source views; reinspect ending full pages and every exact crop before OCR. Next independent title Spin Ball78/PDF80. Preserve printed machine-byte/checksum fields independently; no computation or opcode inference. Unicode glyph/music/blank counts remain candidates. Opening70–75partial native433physical/375numbered entries1000–4740committed separately. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

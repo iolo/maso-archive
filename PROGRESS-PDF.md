@@ -9,13 +9,13 @@ by the calendar month in which restoration work happened.
 December 1984 is in progress: six readable, assistant sample-reviewed articles
 cover editorial18, robot-feature introduction19, 골목대장20–33, 똑딱 반짝34–46 and
 complete Apple BASIC to machine language(3)47–63, plus Christmas-card66–69. One
-non-owning hobby heading is classified; zero partial articles and30 of37 entries
-await classification. The latest98-file package rebuilds identically, retaining
-9images and311physical/237numbered BASIC entries. All10914prior files are unchanged.
-Four invisible blank counts, source candidates and the batch01 timing/batch06
-intermediate retention exceptions remain explicit. Original r01 correction/export
-is preserved alongside the selected r02 punctuation correction.
-Next: verify Diamond Field0007's full extent from70/PDF72, then restore its opening.
+non-owning hobby heading is classified. Diamond Field70–75 is a partial opening
+of verified70–77;29 of37 entries await classification. The latest151-file native
+rebuilds identically, retaining14images,433physical/375numbered BASIC entries,
+59quoted fields and27table cells. All11416prior files are unchanged. Graphic/music/
+spacing candidates, literal source mistakes and the batch01 timing/batch06
+intermediate retention exceptions remain explicit.
+Next: ending Diamond Field76–77, then independent full70–77assembly.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 
@@ -55,7 +55,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
-| 1984-12 | 6 | 6 readable; 1 non-owning heading; 30 TOC entries unresolved | [8412](docs/progress/8412.md) |
+| 1984-12 | 7 | 6 readable; 1 partial; 1 non-owning heading; 29 TOC entries unresolved | [8412](docs/progress/8412.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

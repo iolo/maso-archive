@@ -26,17 +26,17 @@ records below are historical and do not authorize a new rebuild.
 
 The editorial18, robot-feature introduction19, complete 골목대장20–33,
 똑딱 반짝34–46, Apple BASIC to machine language(3)47–63 and Christmas-card66–69
-are readable and assistant sample-reviewed. Six articles and one non-owning hobby
-heading are classified, zero partial;30 of37 entries remain unresolved. The latest
-four-page package retains29regions,6blocks,9images and311physical/237numbered BASIC
-entries. All98files rebuild identically;10914prior evidence files are unchanged.
-All29original/3revised crops preceded20successful OCR tasks. One printed semicolon
-was corrected in a fresh revision; both corrections/exports remain preserved.
-Four invisible blank counts, source mistakes and glyph candidates remain explicit.
-The new preservation inventory pins11416files. Earlier batch01 timing and batch06
+are readable and assistant sample-reviewed. Diamond Field70–75 is a partial opening
+of verified70–77. Seven articles and one non-owning hobby heading are classified:
+six readable, one partial;29 of37 entries remain unresolved. Latest six-page native
+retains46regions,14blocks,14images,433physical/375numbered BASIC entries and27table
+cells. All151files rebuild identically;11416prior files unchanged. All46original/
+14revised exact crops preceded32successful OCR tasks. Source-linked59quoted fields
+include20graphic/19music candidates;9machine DATA rows retain72hex literals and9
+printed checksums independently. No encoding, checksum or execution reconstruction.
+The new preservation inventory pins12034files. Earlier batch01 timing and batch06
 intermediate retention exceptions remain explicit. Shared140-test baseline unchanged.
-Next: verify Diamond Field0007's full extent from its observed70/PDF72 opening,
-then restore an opening segment of six or fewer pages.
+Next: ending Diamond Field76–77/4750–6670, then independent full70–77assembly.
 No reading-room rebuild.
 See the [December record](docs/progress/8412.md) and
 [versioned ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
