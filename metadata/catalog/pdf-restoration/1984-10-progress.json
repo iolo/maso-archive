@@ -1324,10 +1324,73 @@
       "toc_entry_id": "maso-1984-10-toc-0019",
       "title": "애플 포트란",
       "parent_id": "maso-1984-10-toc-0013",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Separate 애플 포트란 title113/PDF115,signed 이준구/대우중공업 전산실,연재4회. Canonical title/byline/parent unchanged.",
+        "Full113–119/PDF115–121 verified through final transcendence code/output119, no unrelated material/ads. Prior SPC ends112,next independent 도량형 환산 starts120.",
+        "Current immutable opening113–118 preserves all standalone text/two short examples and full tables/program/output/cartoon images. Source119 and separate full seven-page assembly required."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-10/packages/batch-20-r02/apple-fortran-a",
+        "article_id": "scan-maso-1984-10-toc-0019",
+        "manifest": {
+          "path": "archive/pdf/1984-10/packages/batch-20-r02/apple-fortran-a/manifest.json",
+          "sha256": "d0492475f2a0313a469177b1ee2fd243d53eb8be15d7e9228cb64ae17d785be3",
+          "bytes": 43675
+        },
+        "coverage": {
+          "pdf_pages": [
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ],
+          "printed_pages": [
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "118"
+          ],
+          "regions": 62,
+          "blocks": 46,
+          "figures": 16,
+          "regional_text_ranges": 46,
+          "physical_listing_rows": 6,
+          "original_program_output_panels": 12,
+          "fortran_format_label_positions": 21,
+          "original_table_panels": 3,
+          "ascii_physical_data_positions": 128,
+          "original_cartoon": 1
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121
+          ],
+          "printed_pages": [
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "118",
+            "119"
+          ]
+        },
+        "complete_article_assembly_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-10-toc-0020",
@@ -1555,15 +1618,15 @@
   ],
   "counts": {
     "canonical_entries": 41,
-    "articles": 17,
+    "articles": 18,
     "non_owning_headings": 2,
-    "unresolved_classification": 22,
+    "unresolved_classification": 21,
     "readable": 17,
-    "partial": 0,
+    "partial": 1,
     "image_only": 0,
     "failed": 0,
-    "sample_reviewed": 19,
-    "unresolved_availability": 22
+    "sample_reviewed": 20,
+    "unresolved_availability": 21
   },
   "checkpoints": [
     {
@@ -2215,16 +2278,44 @@
       "outputs": [
         "maso-1984-10-toc-0017"
       ]
+    },
+    {
+      "id": "batch-20",
+      "plan": {
+        "path": "archive/pdf/1984-10/restoration/batch-20/checkpoint.json",
+        "sha256": "9e4ec5f842f81be48b15dbee5875c12c807f3ebd3d999e48a1842834cdf6c70d",
+        "bytes": 2253
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-10/restoration/batch-20/source-review.json",
+        "sha256": "2304d2185f8b4a4400e7b64d49e9e44dbd4684a4cb180bfcd124ee22773b6e3a",
+        "bytes": 1832
+      },
+      "validation": {
+        "path": "archive/pdf/1984-10/evidence/batch-20/validation.json",
+        "sha256": "68c1cf37c63b0445e77c62515b5cc54b42a4101f83f7036a3cde58402cf53ffe",
+        "bytes": 2727
+      },
+      "review": {
+        "path": "archive/pdf/1984-10/restoration/batch-20/review-log.json",
+        "sha256": "51aa1adb810305adf6f71561bdb0f56a03c9befc4dd7b834e72ccfbbe81aab76",
+        "bytes": 16985
+      },
+      "status": "partial-apple-fortran-opening",
+      "tool_revision": "ecc43f6",
+      "outputs": [
+        "maso-1984-10-toc-0019"
+      ]
     }
   ],
   "next_checkpoint": {
-    "id": "batch-20",
-    "goal": "Verify full 애플 포트란 extent from113 through before next independent 도량형 환산120. Restore actual opening within candidate113–118/PDF115–120 (six source pages maximum); preserve all source programs/terminal/tables and continue/assemble separately if needed.",
+    "id": "batch-21",
+    "goal": "Restore Apple Fortran ending119/PDF121 from pinned full source extent113–119. Preserve two remaining original code/output columns and label45 continuation; separate complete seven-page assembly follows.",
     "toc_entry_ids": [
       "maso-1984-10-toc-0019"
     ],
-    "maximum_articles": 2,
-    "maximum_mapped_pages": 6,
+    "maximum_articles": 1,
+    "maximum_mapped_pages": 1,
     "maximum_outside_map_lookups": 20
   },
   "limits": [

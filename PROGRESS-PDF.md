@@ -6,13 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-October 1984 is in progress: seventeen readable, assistant sample-reviewed articles,
-no partial,two non-owning headings and22 of41 entries unresolved. Complete
-CP/M103–110 passes exact native preservation and independent assembly rebuild;
-all original imagery and inline command/control-byte limits remain. Next: verify
-full Apple Fortran from113 before120 and restore actual opening within candidate
-113–118 under six-page limit. See the [October record](docs/progress/8410.md) and
-versioned ledger for selected packages/evidence. Whole-issue closeout pending.
+October 1984 is in progress:17 readable,assistant sample-reviewed articles,
+one partial Apple Fortran,two non-owning headings and21 of41 entries unresolved.
+Source Apple Fortran113–119 is verified; opening113–118 retains62 regions,
+46 blocks,16 original images,46 regional spans and six short-example rows.
+All61 OCR tasks completed without failures/retries; four crops widened once.
+First mistaken reading retained beside selected source correction; no OCR repeat.
+Independent byte-identical rebuild passes. Next: restore ending119, then separate
+complete seven-page assembly. Source errors,table/code interiors and encoded-byte/
+execution limits remain explicit. Whole-issue closeout is pending.
+See the [October record](docs/progress/8410.md) and versioned ledger.
 
 September 1984 canonical-TOC JSON/assets restoration is complete. All 43
 contents records resolve to 37 readable, assistant sample-reviewed articles and
@@ -44,7 +47,7 @@ See the [September record](docs/progress/8409.md), [OCR handoff](PLAN-OCR.md),
 | 1984-07 | 36 | 36 readable | [8407](docs/progress/8407.md) |
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
-| 1984-10 | 17 classified | 17 readable; 22 classifications pending | [8410](docs/progress/8410.md) |
+| 1984-10 | 18 classified | 17 readable, 1 partial; 21 classifications pending | [8410](docs/progress/8410.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

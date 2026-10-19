@@ -19,18 +19,17 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- October 1984 is in progress: seventeen readable, assistant sample-reviewed
-  articles,no partial,two non-owning headings and22 of41 entries unresolved.
-  Complete CP/M103–110 passes exact native preservation and independent assembly
-  rebuild:74 regions/58 blocks/17 images,68 spans/10 joins,seven captions/eight
-  source heading/example associations and exact108→109 /N source connection.
-  Original source errors and command/control/glyph/byte limits remain explicit.
-  Next: verify full Apple Fortran113 to before120, restore actual opening within
-  candidate113–118 under six-page maximum, later native/assembly if needed.
+- October 1984 is in progress:17 readable,assistant sample-reviewed articles,
+  one partial Apple Fortran,two non-owning headings and21 of41 entries unresolved.
+  Source Apple Fortran113–119 is verified; opening113–118 retains62 regions,
+  46 blocks,16 original images,46 regional spans and six short-example rows.
+  All61 OCR tasks completed without failures/retries; four crops widened once.
+  First mistaken reading retained beside selected source correction; no OCR repeat.
+  Independent byte-identical rebuild passes. Next: restore ending119, then separate
+  complete seven-page assembly. Source errors,table/code interiors and encoded-byte/
+  execution limits remain explicit. Whole-issue closeout is pending.
   Continue from the [October record](docs/progress/8410.md) and
   [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
-  Mapped Tesseract remains default; unlisted DOS TOOL KIT41–43 excluded and
-  whole-issue closeout pending.
 - August 1984 is complete at `archive/pdf/1984-08/reference/issue.json`;
   its report is `archive/pdf/1984-08/evidence/13-1984-08-closeout/report.json` and its
   machine-readable [ledger](docs/ocr-experiments/ocr-august-progress.json) remains preserved.

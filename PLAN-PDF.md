@@ -24,19 +24,18 @@ records below are historical and do not authorize a new rebuild.
 
 ## October 1984 in progress, 2026-10-19
 
-Seventeen October articles are readable, assistant sample-reviewed JSON/assets;
-no partial articles remain. 취미생활 and 교육입문 are non-owning headings;22 of41
-entries remain unresolved. Complete CP/M103–110 combines exact immutable natives:
-74 regions,58 blocks,17 original images,68 regional spans and10 prose joins.
-Seven captions,eight source heading/example associations and the108→109 /N
-connection are independently indexed. All native files are preserved byte for
-byte; independent assembly rebuild passes. Source errors,inline command/control
-and encoded-byte limits remain explicit. Next: verify full Apple Fortran from113
-before120; restore actual opening within candidate113–118 (six-page maximum).
-See the [October record](docs/progress/8410.md) and
-[versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
-Unlisted DOS TOOL KIT41–43 remains excluded; whole-issue closeout is pending.
-No reading-room rebuild occurred.
+October 1984 is in progress:17 readable,assistant sample-reviewed articles,
+one partial Apple Fortran,two non-owning headings and21 of41 entries unresolved.
+Source Apple Fortran113–119 is verified; opening113–118 retains62 regions,
+46 blocks,16 original images,46 regional spans and six short-example rows.
+All61 OCR tasks completed without failures/retries; four crops widened once.
+First mistaken reading retained beside selected source correction; no OCR repeat.
+Independent byte-identical rebuild passes. Next: restore ending119, then separate
+complete seven-page assembly. Source errors,table/code interiors and encoded-byte/
+execution limits remain explicit. Whole-issue closeout is pending.
+
+See the [October record](docs/progress/8410.md) and [versioned ledger](metadata/catalog/pdf-restoration/1984-10-progress.json).
+Unlisted DOS TOOL KIT41–43 remains excluded; no reading-room rebuild.
 
 ## September 1984 closeout, 2026-10-16
 
