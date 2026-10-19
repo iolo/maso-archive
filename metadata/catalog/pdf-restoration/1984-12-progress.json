@@ -242,7 +242,7 @@
       "verification": "sample-reviewed",
       "classification_evidence": [
         "PDF36/printed34 visibly starts independent title/byline; every page through final assembly line180 RET on PDF48/printed46 inspected. Prior article ends33; next feature starts47/PDF49.",
-        "Opening native covers34–39. Remaining40–46 and independent whole-article assembly required; final10 continues next-page KΩ, not missing source."
+        "Two preserved natives cover34–45. Final46 numbered rows130–180 and independent whole-article assembly required; incoming10/KΩ span preserved for assembly."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-12/packages/batch-05-r01/tick-tock-a",
@@ -259,7 +259,13 @@
             38,
             39,
             40,
-            41
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
           ],
           "printed_pages": [
             "34",
@@ -267,11 +273,17 @@
             "36",
             "37",
             "38",
-            "39"
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
           ],
-          "regions": 41,
-          "blocks": 33,
-          "figures": 15
+          "regions": 80,
+          "blocks": 73,
+          "figures": 24
         },
         "segments": [
           {
@@ -304,6 +316,37 @@
               "figures": 15
             },
             "segment": "a"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-06-r01/tick-tock-b",
+            "article_id": "scan-maso-1984-12-toc-0003",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-06-r01/tick-tock-b/manifest.json",
+              "sha256": "05cb0b74af9b29caa2cfa08b17ba37a40b5e6d38f954d63ee8fd03b6b034c96d",
+              "bytes": 23267
+            },
+            "coverage": {
+              "pdf_pages": [
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+              ],
+              "printed_pages": [
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+              ],
+              "regions": 39,
+              "blocks": 40,
+              "figures": 9
+            },
+            "segment": "b"
           }
         ],
         "full_source_extent": {
@@ -339,12 +382,6 @@
           ]
         },
         "deferred_printed_pages": [
-          "40",
-          "41",
-          "42",
-          "43",
-          "44",
-          "45",
           "46"
         ]
       }
@@ -1050,21 +1087,96 @@
         "sha256": "7440bc083664395b498a4416775ec86974525e1e2490717ad214c54c477d30ff",
         "bytes": 1127084
       }
+    },
+    {
+      "id": "batch-06",
+      "status": "complete-partial-article-segment",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-06/checkpoint.json",
+        "sha256": "e6614518eba866cf2f4e79969753189d7f07fad22a44e2dd2193bf1c8df58591",
+        "bytes": 1843
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-06/validation.json",
+        "sha256": "1653f32cee11ba98b2ef23f21cc664ada1d0e32a4612a302ad72545e4ad0d54e",
+        "bytes": 1824
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-06/source-reviewed.json",
+        "sha256": "ba5b3b7d6fcebe1b267a24ddce43553ac9cc8420a90cc05164ebed9f301b837c",
+        "bytes": 2498
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-06/segment-scope.json",
+        "sha256": "98b7fc831eac3a23b5fb3d1e6ac5b9dee7e6164d0eb34d5f850a533bcc941ea1",
+        "bytes": 902
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-06/preflight-reviewed.json",
+        "sha256": "87efc800bb4df232913416ac364836be7dec4705bdd1adcf776b17189ec46f96",
+        "bytes": 7500
+      },
+      "crop_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-06/crop-repair.json",
+        "sha256": "7f97c2984eb1a521d0f3e08ce17d3de1f91bbece1d374882a36a3ba7a50dbd81",
+        "bytes": 16389
+      },
+      "correction_retention_exception": {
+        "path": "archive/pdf/1984-12/restoration/batch-06/correction-retention-exception.json",
+        "sha256": "224481ab6891fde6b397572a8f61113c31108ca821853ce27389e1312b0b5a65",
+        "bytes": 1249
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-06/correction-completed.json",
+        "sha256": "a428dbe32a4adc7936895c685294078a4df157b1be84a03b36743470634d3035",
+        "bytes": 415
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-06/reproduction.json",
+        "sha256": "0f53337d2aae2e5d852c909a0471fb7d935dc744d256ef015e1c32b3d12db0d9",
+        "bytes": 903
+      },
+      "actual_ocr_tasks": 30,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 15,
+      "post_ocr_crop_repairs": 0,
+      "regions": 39,
+      "blocks": 40,
+      "figures": 9,
+      "regional_text_ranges": 45,
+      "text_review_items": 65,
+      "prose_joins": 5,
+      "tables": 1,
+      "table_data_rows": 4,
+      "table_header_rows": 2,
+      "table_cells": 48,
+      "blank_cells": 6,
+      "caption_associations": 6,
+      "listing_physical_rows": 129,
+      "listing_logical_rows": 129,
+      "listing_source_uncertainty_notes": 8,
+      "prior_files_verified": 4911,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-06/preserved-work-inventory.json",
+        "sha256": "3bdafac72bafd656dfe04e4080c7e9e20a2dda7879d167b19a9b36e86bd684d7",
+        "bytes": 1248764
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-06",
-    "goal": "Restore 똑딱 반짝 middle printed40–45/PDF42–47, including remaining body, diagrams/table and first129 numbered assembly rows; ending46 and full assembly remain separate.",
+    "id": "batch-07",
+    "goal": "Restore final 똑딱 반짝 printed46/PDF48 numbered rows130–180; commit ending, then independently assemble complete34–46 from three preserved natives.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0003"
     ],
     "mapping_targets": [
-      42,
-      43,
-      44,
-      45,
-      46,
-      47
+      48
+    ],
+    "source_lookup_targets": [
+      47,
+      48,
+      49
     ],
     "known_full_extent": {
       "pdf_pages": [
@@ -1103,7 +1215,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Reuse pinned extent review; reinspect current full pages/exact crops before OCR. Opening final10 joins40 KΩ. Body ends43; listing1–23 on43,24–76 on44,77–129 on45; remaining130–180 on46. Preserve every literal row and uncertainty; no semantic code repair."
+    "note": "Reinspect final page/exact crops before OCR. Preserve all51 rows and complete original panel. No inferred subroutines: source explicitly omits them. Assembly must join10/KΩ across nativea/b and129/130 listing rows, retain all originals and validate projected ranges. Human proofreading/bytes/execution unverified."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

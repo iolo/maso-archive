@@ -7,12 +7,13 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 December 1984 is in progress: editorial18, robot-feature introduction19 and the
-complete 골목대장20–33 are readable and assistant sample-reviewed. 똑딱 반짝34–39
-is a restored partial segment of verified extent34–46. Of37 canonical entries,
+complete 골목대장20–33 are readable and assistant sample-reviewed. 똑딱 반짝34–45
+is restored in two partial natives of verified extent34–46. Of37 canonical entries,
 33 await classification/restoration. All selected packages and independent rebuilds
-pass; batch05's127 files retain15 original images and nine table cells. Four earlier
+pass; batch06's138 files retain nine images,48table cells and129code rows. Four earlier
 hex bytes remain uncertain; batch01's timing exception remains explicit.
-Next: 똑딱 반짝40–45, then ending46 and full assembly.
+Batch06's intermediate correction-history retention exception is explicit.
+Next: 똑딱 반짝 ending46, then full34–46 assembly.
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 

@@ -41,9 +41,10 @@ Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October; December has three readable articles including complete 골목대장20–33,
-with one partial 똑딱 반짝34–39 of verified extent34–46 and33 of37 entries
-still unresolved. Batch05's127 files rebuild identically; all source/range checks
-pass. Next: 똑딱 반짝40–45, then ending46 and full assembly.
+with one partial 똑딱 반짝34–45 of verified extent34–46 and33 of37 entries
+still unresolved. Batch06's138 files rebuild identically; source/range checks
+pass for129numbered rows and48table cells. Its intermediate correction-history
+retention exception is explicit. Next: 똑딱 반짝 ending46, then full34–46 assembly.
 All originals and batch01's timing exception remain preserved. Reader
 integration is separate; the owner subsequently requested the October reader build.
 
