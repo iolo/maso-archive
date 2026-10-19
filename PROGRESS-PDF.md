@@ -6,50 +6,57 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: eleven readable articles, no partial articles,
-two non-owning headings and 24 of 37 entries unresolved. CP/M(5) is complete under
-the JSON/assets scope at packages/cpm5-complete-r01. All 21 source pages PDF112–132
-are included: observed 110–129 plus an unpaginated upper reference continuation.
-The lower PDF132 advertisement is separate; no folio 130 was observed.
+December 1984 is in progress: eleven readable articles, one partial perspective
+simulation article, two non-owning headings and 23 of 37 entries unresolved.
+The perspective article spans 19 observed pages131–149, PDF133–151. Its narrative
+closing mark on140 is followed by AppleSoft141–144 and GBASIC144–149; the last
+listing ends4290 END on149. The opening title/cube/byline 고일두 is onright131;
+the left office-move advertisement is separate. No global folio offset is inferred.
 
-The complete article, export probe and independent rebuild reproduce all 904 files
-exactly. All 895 files from the four native packages remain byte-identical. The
-assembly retains 271 regions, 195 blocks, 75 original images and 820 unnumbered
-physical rows. Every native correction field survives in original metadata; every
-native array category is projected. All 13,674 range occurrences, including 79
-zero-width occurrences, preserve their source bytes and positions within the
-combined article/listing coordinate systems. Native source text stays unchanged.
+Opening131–136 is restored at packages/perspective-a. The native and independent
+rebuild reproduce all148 files exactly:40 regions,33 blocks,seven original drawings,
+39 regional text spans,six source joins and16 unnumbered MOVE/DRAW physical rows.
+Sixty-four code tokens retain subscripts as Unicode visual candidates. No numbered
+BASIC entries are inferred. Printed137–149 and the complete article assembly remain.
 
-The complete indexes retain 390 table cells with one blank CPI counterpart,
-183 compiler data cells with 39 blanks, four original-graphic cells, 36 diagram
-labels, 12 table categories and 70 arrow/ditto occurrences. Figure 16's opening115
-frame shares the observed ending116 caption; the new link is explicitly assembly-
-derived. Figure34/37/48 ownership remains intact. There are 66 figure-caption links,
-61 listing-caption links and nine uncaptioned originals. Labels are not synthetic
-captions or recreated drawings. No semantic, opcode, arithmetic, encoding or graphic
-reconstruction; printed mistakes and visual candidates remain unverified.
+The mathematical indexes retain26 display/context spans,20 matrices,74 matrix rows,
+264 literal cells,15 fractions,296 math glyphs,four equation labels and959 inline
+occurrences. Diagram indexes retain101 observed label tokens and seven captions
+across six captioned frames. One original frame carries separate6.1/6.2 captions;
+the opening cube has no observed caption. Original two-dimensional layouts survive
+in all40 region images. Textual brackets,spacing,slash fractions and label order are
+editorial representations;mathematical correctness and source bytes are unverified.
 
-The opt-in adapter was committed as61ce1ce. All 193 PDF tests pass, including six
-focused regressions. The first real-source probe caught a derived caption link
-classified as a native row; its prototype and failure remain. The corrected probe
-passes every native category and metadata comparison. All 24,797 prior files and
-20 historical implementation pins are unchanged. New preservation inventory:
-27,541 files. No new OCR, source correction, mapping, rendering, crop or reader work.
+Source anomalies remain:219/2000=0.1395,the three-component scaling input vector,
+the first reflection matrix's two negative entries,the symbolic view matrix's final0
+and clipping prose's ad remainder. General matrix g/q,perspective γ/r,looped ℓ/l,
+subscript t/i,decimal/coordinate punctuation and other faded glyphs remain explicit
+visual candidates. No arithmetic,formula,semantic or graphic reconstruction.
 
-Use `tools.pdf_restore.cpm_literal_assembly.check` or its `installed()` context for
-all selected-package and issue checks. It installs/delegates the existing
-`graphic_literal_assembly` dispatcher for BASIC speed, Crowded Speedway and other
-older formats. Three new adapter/test/document pins are separate from the 20
-unchanged historical pins. See docs/PDF-CPM-LITERAL-ASSEMBLY.md for the format.
-BASIC speed 102–109 remains complete from opening102–107 and ending108–109.
-Human acceptance, full proofreading, original encoded bytes and execution remain
-unverified. No reader rebuild.
+All23 whole/review pairs and40 original/23 revised crops were inspected before33
+successful mapped Tesseract tasks. Six mapped pages,17 outside-map lookups,20 new
+renders andthree original render reuses. No recognition failures/retries orpost-OCR
+crop repairs. The failed advertisement-map metadata attempt and initial display-line
+index selector remain preserved;fresh scripts reuse completed source review/readings.
+All27,541 prior files and20 historical plus3 CP/M implementation pins are unchanged.
+New preservation inventory:28,226 files. All193 PDF tests pass. No shared tooling changes.
 
-Next: batch24, canonical0013 perspective simulation. Its opening on PDF133 visibly
-shows131 with the title/cube/byline onright; the left advertisement is separate.
-Verify its actual full extent and neighbors before mapping a bounded opening.
-Provisional candidates PDF133–138 do not establish a global folio offset or ending.
-Keep each checkpoint within two articles, six mapped pages and20 outside-map lookups.
+CP/M(5) remains complete at packages/cpm5-complete-r01:all21 PDF112–132 pages,
+observed110–129 plus an unpaginated upper reference continuation;lower132 ad separate,
+no observed130. Its904-file assembly retains all895 native files and every specialized
+index/metadata field. BASIC speed102–109 remains complete from opening102–107 and
+ending108–109. All selected-package/issue checks must use cpm_literal_assembly.check
+or its installed() context,which installs/delegates graphic_literal_assembly for older
+formats. The CP/M-specific adapter is not a generic perspective-formula adapter.
+
+Next: batch25,perspective137–142,PDF139–144. This includes clipping/composite
+transforms,flowchart,variables,usage,data/output examples and the first two AppleSoft
+listing pages. Recheck the full extent/neighbors and every exact crop beforeOCR;
+preserve all native formula/matrix/cell/fraction/glyph/equation/diagram/captionpart/
+physical/code/review indexes and metadata for later assembly. Keep checkpoints within
+two articles,six mapped pages and20 outside-map lookups. Human acceptance,full
+proofreading,original encoded bytes,execution and mathematics remain unverified.
+No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.

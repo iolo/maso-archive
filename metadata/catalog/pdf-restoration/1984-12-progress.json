@@ -1788,10 +1788,173 @@
       "toc_entry_id": "maso-1984-12-toc-0013",
       "title": "투시도 시뮬레이션",
       "parent_id": "maso-1984-12-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Independent title/cube/byline 고일두 and 서울공대 건축과 박사과정 onrightPDF133/observed131;left office-move ad separate. All19 source pagesPDF133–151 observed131–149 independently reviewed with neighbors132/152. Narrative closing140 continues into AppleSoft141–144 andGBASIC144–149;last4290 END on149. No global offset or inferred folio.",
+        "Opening131–136 native/rebuild retain148 identical files,40 regions,33 blocks,seven original drawing frames,39regional text spans,six source joins,20matrices/74rows/264literalcells,26display spans,15fractions,296math glyphs,four equation labels,101diagram label tokens,seven captions in six frames and16unnumberedMOVE/DRAWrows/64tokens. Source anomalies and glyph/Unicode uncertainty preserved;no arithmetic,formula orgraphic reconstruction. Remaining137–149 andfullassembly required."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/perspective-a",
+        "article_id": "scan-maso-1984-12-toc-0013",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/perspective-a/manifest.json",
+          "sha256": "b1382b6b9090cd0b9a476e354a7fd5391baa6968ebc64594a46c47a92f4379aa",
+          "bytes": 25270
+        },
+        "coverage": {
+          "pdf_pages": [
+            133,
+            134,
+            135,
+            136,
+            137,
+            138
+          ],
+          "printed_pages": [
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136"
+          ],
+          "regions": 40,
+          "blocks": 33,
+          "figures": 7
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1984-12/packages/perspective-a",
+            "article_id": "scan-maso-1984-12-toc-0013",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/perspective-a/manifest.json",
+              "sha256": "b1382b6b9090cd0b9a476e354a7fd5391baa6968ebc64594a46c47a92f4379aa",
+              "bytes": 25270
+            },
+            "coverage": {
+              "pdf_pages": [
+                133,
+                134,
+                135,
+                136,
+                137,
+                138
+              ],
+              "printed_pages": [
+                "131",
+                "132",
+                "133",
+                "134",
+                "135",
+                "136"
+              ],
+              "regions": 40,
+              "blocks": 33,
+              "figures": 7
+            },
+            "segment": "a"
+          }
+        ],
+        "full_source_extent": {
+          "pdf_pages": [
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151
+          ],
+          "printed_pages": [
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143",
+            "144",
+            "145",
+            "146",
+            "147",
+            "148",
+            "149"
+          ],
+          "coverage": "Nineteen observed source pages including prose,data/output examples,AppleSoft andGBASIC listings. Last4290 END on149."
+        },
+        "deferred_printed_pages": [
+          "137",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145",
+          "146",
+          "147",
+          "148",
+          "149"
+        ],
+        "deferred_pdf_pages": [
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151
+        ],
+        "assembly_required": true,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-24/source-reviewed.json",
+          "sha256": "e9a1a14aae316010d127370a14fcd6beb677becf67700d2b08aa6be731c33de0",
+          "bytes": 14602
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-24/source-index-schema.json",
+          "sha256": "2f85681de57e2562fb979030fe6a8f6d8c59a1db08ec168f329849a89d92ebe8",
+          "bytes": 3456
+        },
+        "source_index_schemas": [
+          {
+            "path": "archive/pdf/1984-12/restoration/batch-24/source-index-schema.json",
+            "sha256": "2f85681de57e2562fb979030fe6a8f6d8c59a1db08ec168f329849a89d92ebe8",
+            "bytes": 3456
+          }
+        ],
+        "assembly_compatibility": "Preserve all native fields and every formula/matrix/cell/row/fraction/glyph/equation/diagram/captionpart/inline/physical/code/review index. Keep all original images and uncertainty metadata. CP/M-specific assembly adapter is not applicable; no mathematical repair or source-category dropping.",
+        "outgoing_boundary": "Printed136 ends 그 전체를; source137 continues 그리지 않으며. Remaining prose,diagrams,flowchart,data/examples and two listings deferred.",
+        "caption_associations_pending": []
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0014",
@@ -2036,11 +2199,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 11,
+    "classified_articles": 12,
     "readable_articles": 11,
-    "partial_articles": 0,
+    "partial_articles": 1,
     "nonowning_headings": 2,
-    "unresolved_eligibility": 24,
+    "unresolved_eligibility": 23,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -4677,26 +4840,193 @@
         "sha256": "5b094f43ebbad8e3d418cfb4276bd0b7df1c060017ef39e5218144e193e1a131",
         "bytes": 6348627
       }
+    },
+    {
+      "id": "batch-24",
+      "status": "complete-partial-article-opening",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/checkpoint.json",
+        "sha256": "161ceccd0717eb9574115fcfd7510af700b5140e7e8972e2c4729f0a3bbfe42e",
+        "bytes": 5895
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-24/validation-r01.json",
+        "sha256": "e47d9c45b41670df539ae7845f41d608fd7c10b0b44459d339416e30d52484b8",
+        "bytes": 1165
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-24/verify.py",
+        "sha256": "f40d59551e3022feeb112df1d92eae91b12c774a40be6313888216eaa59df53a",
+        "bytes": 15041
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/source-reviewed.json",
+        "sha256": "e9a1a14aae316010d127370a14fcd6beb677becf67700d2b08aa6be731c33de0",
+        "bytes": 14602
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/source-index-schema.json",
+        "sha256": "2f85681de57e2562fb979030fe6a8f6d8c59a1db08ec168f329849a89d92ebe8",
+        "bytes": 3456
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/mapping-completed.json",
+        "sha256": "fb1beeda4f6ddf7633773f1c79f9425a32e9000c8520ab6d0992e94976e0091f",
+        "bytes": 685
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/crop-repair-r01.json",
+        "sha256": "9cfbd0f10908363b5fad02aed34fb8575b4b839bcefa270755335fb3b3b21546",
+        "bytes": 18193
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/segment-scope.json",
+        "sha256": "46d9e10af5a9b3a2756266c70f4c87ca66d04d70e5fdc240743631910bfa2319",
+        "bytes": 1854
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/preflight-reviewed.json",
+        "sha256": "f980f96eeabba7a0307ef5972048d83594dd3d0c6c6ff77d36e878020bc24045",
+        "bytes": 21169
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/ocr-completed.json",
+        "sha256": "a0256b0ea59a3a3fcd6480d47e17ed48c7a26fb62b8d1957949478468fedde0e",
+        "bytes": 1300
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/correction-completed.json",
+        "sha256": "a581386504ca55384a92179cb69f5f37df161115aab1432e00a1309a9c62fc60",
+        "bytes": 528
+      },
+      "retained_mapping_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/mapping-failure-r01.json",
+        "sha256": "8ea3b23b56fdd3cc4176b9c7da3875ae1ae4f7ef4772598b73547a2da797d861",
+        "bytes": 661
+      },
+      "retained_serialization_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/serialization-failure-r01.json",
+        "sha256": "1f20f6b8da6cb267c06aad8027f550b8e094956b959b80f364b5814ebe0b4f95",
+        "bytes": 6507
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-24/reproduction.json",
+        "sha256": "7461276bfa7c242dc9d039a13a4626005fbf2211d04cd58df881ce15ef5157b3",
+        "bytes": 1651
+      },
+      "actual_ocr_tasks": 33,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 23,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 27541,
+      "rebuild_files": 148,
+      "new_source_renders": 20,
+      "reused_full_page_renders": 3,
+      "outside_map_lookups": 17,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 193,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/batch-24/test-pdf-r01.log",
+        "sha256": "7d0b4626654ab0d3427d1822a5326faefaab128a64637ec8d756a3b59297a3f1",
+        "bytes": 32976
+      },
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "regions": 40,
+      "blocks": 33,
+      "figures": 7,
+      "ocr_tasks": 33,
+      "regional_text_ranges": 39,
+      "review_notes": 62,
+      "prose_joins": 6,
+      "formula_displays": 26,
+      "matrices": 20,
+      "matrix_rows": 74,
+      "matrix_cells": 264,
+      "fractions": 15,
+      "math_glyphs": 296,
+      "equation_labels": 4,
+      "diagram_labels": 101,
+      "caption_links": 6,
+      "caption_parts": 7,
+      "uncaptioned_figures": 1,
+      "physical_code_rows": 16,
+      "transcript_tokens": 64,
+      "inline_examples": 959,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-24/preserved-work-inventory.json",
+        "sha256": "bd4d698686b24d186200556bd458f9d8610e49315b729b5e549ec4a3b38af86d",
+        "bytes": 6500178
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-24",
-    "goal": "Verify full source extent and restore a bounded opening segment of perspective simulation(0013),preserving source prose,geometry,formulas,graphics and any listings literally.",
+    "id": "batch-25",
+    "goal": "Restore perspective simulation middle137–142,including clipping/composite-transform math,flowchart,variable references,usage anddata/output examples;keep all source errors and original graphics.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0013"
     ],
-    "known_opening": {
-      "pdf_page": 133,
-      "printed_page": "131",
-      "evidence": "Independently observed title/cube/right-half byline 고일두 onPDF133;left office-move advertisement separate. Full extent not yet established."
+    "known_full_extent": {
+      "pdf_pages": [
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151
+      ],
+      "printed_pages": [
+        "131",
+        "132",
+        "133",
+        "134",
+        "135",
+        "136",
+        "137",
+        "138",
+        "139",
+        "140",
+        "141",
+        "142",
+        "143",
+        "144",
+        "145",
+        "146",
+        "147",
+        "148",
+        "149"
+      ],
+      "coverage": "Nineteen observed source pages including prose,data/output examples,AppleSoft andGBASIC listings. Last4290 END on149."
     },
-    "provisional_mapping_targets": [
-      133,
-      134,
-      135,
-      136,
-      137,
-      138
+    "mapping_targets": [
+      139,
+      140,
+      141,
+      142,
+      143,
+      144
+    ],
+    "printed_page_targets": [
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142"
     ],
     "provisional_lookup_targets": [
       132,
@@ -4720,15 +5050,19 @@
       150,
       151,
       152,
-      153,
-      154
+      153
     ],
+    "source_review": {
+      "path": "archive/pdf/1984-12/restoration/batch-24/source-reviewed.json",
+      "sha256": "e9a1a14aae316010d127370a14fcd6beb677becf67700d2b08aa6be731c33de0",
+      "bytes": 14602
+    },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Inspect actual source ending and adjacent material before mapping. TOC next0014 claims150 butno global PDF/folio offset or assumed extent. Six opening candidates133–138 are provisional;adapt mapping after source review,atmost20 outside-map pages. Preserve existing24,797+assembly evidence and all20 historical implementation pins. Reuse mapped Tesseract and source errors/glyph uncertainty;no formula/opcode/graphic reconstruction. All-selected checks must use cpm_literal_assembly.check/installed(),which installs/delegates graphic_literal_assembly for BASICspeed/Crowded. No reader rebuild."
+    "note": "Reinspect pinned full extent/neighbors andall exact original/revised crops beforeOCR. Full19-page source ends149;closing narrative mark140 doesnotend listings. First two AppleSoft listing pages141–142 are within this proposed six-page segment;AppleSoft143–144 andGBASIC144–149 remain later. Incoming136 clippingprose ends 그 전체를 and137continues 그리지 않으며. Preserve every matrix/formula/cell/fraction/equation/glyph/diagram/captionpart/physical/code/review category and native metadata in future compatible assembly. No arithmetic/opcode/formula/graphic reconstruction;CP/M-specific adapter is not generic. All23implementation pins stay unchanged. All-selected audits use cpm_literal_assembly wrapper. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
