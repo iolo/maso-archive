@@ -41,9 +41,10 @@ Completed JSON/assets issues are November 1983 and February, March, May, June,
 July, August, September and October 1984. March retains its absent-source terminal
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October; December has three readable articles including complete 골목대장20–33,
-with34 of37 TOC entries still unresolved. Next: 똑딱 반짝 from printed34, after
-extent verification. The434-file assembly preserves all originals and237 code rows;
-batch01's timing exception remains explicit. Reader
+with one partial 똑딱 반짝34–39 of verified extent34–46 and33 of37 entries
+still unresolved. Batch05's127 files rebuild identically; all source/range checks
+pass. Next: 똑딱 반짝40–45, then ending46 and full assembly.
+All originals and batch01's timing exception remain preserved. Reader
 integration is separate; the owner subsequently requested the October reader build.
 
 Private PDFs, raw OCR, model files and completed exports are not in Git. Preserve

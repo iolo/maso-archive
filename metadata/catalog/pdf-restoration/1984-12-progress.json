@@ -236,10 +236,118 @@
       "toc_entry_id": "maso-1984-12-toc-0003",
       "title": "똑딱 반짝",
       "parent_id": "maso-1984-12-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF36/printed34 visibly starts independent title/byline; every page through final assembly line180 RET on PDF48/printed46 inspected. Prior article ends33; next feature starts47/PDF49.",
+        "Opening native covers34–39. Remaining40–46 and independent whole-article assembly required; final10 continues next-page KΩ, not missing source."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/batch-05-r01/tick-tock-a",
+        "article_id": "scan-maso-1984-12-toc-0003",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/batch-05-r01/tick-tock-a/manifest.json",
+          "sha256": "a3d5312606422268f069f72f0c8a76ee8573a89f3a0fb1b97f42ec3c8e07929d",
+          "bytes": 21119
+        },
+        "coverage": {
+          "pdf_pages": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "printed_pages": [
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39"
+          ],
+          "regions": 41,
+          "blocks": 33,
+          "figures": 15
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1984-12/packages/batch-05-r01/tick-tock-a",
+            "article_id": "scan-maso-1984-12-toc-0003",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/batch-05-r01/tick-tock-a/manifest.json",
+              "sha256": "a3d5312606422268f069f72f0c8a76ee8573a89f3a0fb1b97f42ec3c8e07929d",
+              "bytes": 21119
+            },
+            "coverage": {
+              "pdf_pages": [
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "printed_pages": [
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39"
+              ],
+              "regions": 41,
+              "blocks": 33,
+              "figures": 15
+            },
+            "segment": "a"
+          }
+        ],
+        "full_source_extent": {
+          "pdf_pages": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "printed_pages": [
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46"
+          ]
+        },
+        "deferred_printed_pages": [
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46"
+        ]
+      }
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0004",
@@ -574,11 +682,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 3,
+    "classified_articles": 4,
     "readable_articles": 3,
-    "partial_articles": 0,
+    "partial_articles": 1,
     "nonowning_headings": 0,
-    "unresolved_eligibility": 34,
+    "unresolved_eligibility": 33,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -870,32 +978,132 @@
         "sha256": "55ace0cef626584e539fb61733ca6f02616bdfe799d513f7c592ab7dfdde4447",
         "bytes": 1013974
       }
+    },
+    {
+      "id": "batch-05",
+      "status": "complete-partial-article-segment",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-05/checkpoint.json",
+        "sha256": "1d3a290f3471a14e8238d2e21a4b43fa2adfa7973764bb44474172f69b269266",
+        "bytes": 1911
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-05/validation.json",
+        "sha256": "13d694e3cfb4facdf8b84f54b45da064d4521c7b8faa9029d6732e28d1acbd13",
+        "bytes": 1506
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-05/source-reviewed.json",
+        "sha256": "7f29725fd97fda0e595894c9f41d16906a365c9640480f5355b02eafa02dda22",
+        "bytes": 3751
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-05/segment-scope.json",
+        "sha256": "f2e2e6b5b6ae206b801b84a78787644720ae3d997fd60932c8c08f26b19f159b",
+        "bytes": 813
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-05/preflight-reviewed.json",
+        "sha256": "efc7920010f5baf4f400bf81f79fa332245b5220ef1570e86b39bf5fa9972cc4",
+        "bytes": 7740
+      },
+      "crop_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-05/crop-repair.json",
+        "sha256": "a75d0420a43ae0749aac834c7f36975f0dff894b42040e3c7d6e09ec24e03136",
+        "bytes": 969
+      },
+      "pre_ocr_script_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-05/pre-ocr-script-failure.json",
+        "sha256": "6915918147eb96dd68966328e85aa8928f82edc389e9daf03c92f4d89a6852ba",
+        "bytes": 326
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-05/correction-completed.json",
+        "sha256": "b4995b742538a2301f08df7fc5bff16bffb90d886fbe130681aee64240a33a0c",
+        "bytes": 307
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-05/reproduction.json",
+        "sha256": "01b00163435438de2e7f44dfed5b42fd37378a82df8577b32d5b161c4aafe9e4",
+        "bytes": 855
+      },
+      "actual_ocr_tasks": 26,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 5,
+      "post_ocr_crop_repairs": 0,
+      "regions": 41,
+      "blocks": 33,
+      "figures": 15,
+      "regional_text_ranges": 36,
+      "text_review_items": 45,
+      "prose_joins": 3,
+      "tables": 1,
+      "table_data_rows": 2,
+      "table_header_rows": 1,
+      "table_cells": 9,
+      "blank_cells": 1,
+      "caption_associations": 13,
+      "prior_files_verified": 4395,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-05/preserved-work-inventory.json",
+        "sha256": "7440bc083664395b498a4416775ec86974525e1e2490717ad214c54c477d30ff",
+        "bytes": 1127084
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-05",
-    "goal": "Establish actual extent of 똑딱 반짝, canonical0003, from known startPDF36/printed34; restore opening segment within six source pages.",
+    "id": "batch-06",
+    "goal": "Restore 똑딱 반짝 middle printed40–45/PDF42–47, including remaining body, diagrams/table and first129 numbered assembly rows; ending46 and full assembly remain separate.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0003"
     ],
-    "known_start": {
-      "pdf_page": 36,
-      "printed_page": 34
-    },
     "mapping_targets": [
-      36,
-      37,
-      38,
-      39,
-      40,
-      41
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
     ],
+    "known_full_extent": {
+      "pdf_pages": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "printed_pages": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Start title/byline and prior boundary verified. Following TOC article starts47candidate only; inspect actual folios and article end within lookup limit. Preserve circuits, tables, code/figures and review exact crops before OCR. Longer extent requires further natives and independent assembly."
+    "note": "Reuse pinned extent review; reinspect current full pages/exact crops before OCR. Opening final10 joins40 KΩ. Body ends43; listing1–23 on43,24–76 on44,77–129 on45; remaining130–180 on46. Preserve every literal row and uncertainty; no semantic code repair."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

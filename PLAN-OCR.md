@@ -21,14 +21,14 @@ paired OCR or a new engine comparison.
 
 - December 1984 is in progress: editorial18, robot-feature introduction19 and
   complete 골목대장20–33 are readable and assistant sample-reviewed.
-  Of37 canonical entries,34 await classification/restoration.
-  All selected packages pass source/range checks and byte-identical rebuilds.
-  The 골목대장 assembly preserves120regions,30images,237code rows and3329 hex slots;
-  four byte positions have unknown nibbles. All434 assembly files and three native
-  index revisions rebuild identically; all originals remain unchanged. One terminalLF
-  separates the independent listings. Batch01's initial crop-review timing exception
-  remains explicit. Next is 똑딱 반짝 from34: verify extent, then map at most six pages
-  and inspect every exact crop before OCR.
+  똑딱 반짝34–39 is a restored partial segment of verified extent34–46.
+  Of37 canonical entries,33 await classification/restoration. Batch05 retains
+  41regions,33blocks,15images and nine table cells. All127 files rebuild identically;
+  source/range/preflight checks pass and all4395 prior evidence files are unchanged.
+  All41original/five revised crops were inspected before26 successful OCR tasks.
+  Four earlier hex bytes remain uncertain. Batch01's initial crop-review timing
+  exception remains explicit. Next: 똑딱 반짝40–45, then ending46 and full assembly.
+  Inspect current full pages and every exact crop before OCR.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
