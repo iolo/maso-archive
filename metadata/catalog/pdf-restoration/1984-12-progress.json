@@ -2682,19 +2682,112 @@
       "toc_entry_id": "maso-1984-12-toc-0015",
       "title": "수학을 통한 논리학습(5)",
       "parent_id": "maso-1984-12-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/math-montecarlo-r01",
+        "article_id": "scan-maso-1984-12-toc-0015",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/math-montecarlo-r01/manifest.json",
+          "sha256": "e07ebac464969877f9b071a4180d1546b00fa1cea3dceaaabf44add2c7eee18c",
+          "bytes": 17631
+        },
+        "coverage": {
+          "pdf_pages": [
+            154,
+            155,
+            156
+          ],
+          "printed_pages": [
+            "152",
+            "153",
+            "154"
+          ],
+          "regions": 29,
+          "blocks": 22,
+          "figures": 7
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            154,
+            155,
+            156
+          ],
+          "printed_pages": [
+            "152",
+            "153",
+            "154"
+          ],
+          "opening_pdf": 154,
+          "ending_pdf": 156,
+          "previous_pdf": 153,
+          "next_pdf": 157,
+          "byline_candidate": "편집부",
+          "series_candidate": "연재5회",
+          "subtitle_candidate": "몬테 칼로 방법의 기초",
+          "ending_evidence": "Closingpublishermark andlist1with18numberedBASIClines100–270/output3.136 on154. Next155/PDF157 independentlyopensinformationradar."
+        },
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-30/source-reviewed.json",
+          "sha256": "565d1e1a88e3045aef0e1270666252fb06dd33d9f6b16541c11256131806b41c",
+          "bytes": 11137
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-30/source-index-schema.json",
+          "sha256": "63b918d3e1737037dfdffd525fd6e05ab7aa40a10271dc137afc6d639af0c033",
+          "bytes": 3201
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-30/reproduction-r01.json",
+          "sha256": "703094801510bfedfa919e8f8135727babd2942380da7d5c40230c7ddc5f6e6a",
+          "bytes": 2547
+        },
+        "source_code_connections": [],
+        "source_prose_connections": [
+          {
+            "left_block_id": "p154-left-bottom",
+            "right_block_id": "p154-right-math",
+            "left_region_id": "p154-left-bottom",
+            "right_region_id": "p154-right-math",
+            "intervening_figure_id": "p154-fig4-image",
+            "editorial_separator": null,
+            "reason": "The example introduction ends with 직선의 식은. Original plot4 stays between the introduction and equations; text bytes remain separate across its image anchor."
+          }
+        ],
+        "caption_associations_pending": [],
+        "explanatory_note_revision": {
+          "path": "archive/pdf/1984-12/restoration/batch-30/note-revision-r01.json",
+          "sha256": "a5fbcd50f04c7c6b0f77571f0b07623e87e49c7c4fbbac4b3e7564b59ec6f0c2",
+          "bytes": 1043
+        }
+      },
+      "classification_evidence": [
+        "Independentmathematicstitle152/PDF154 afterMSXfinal8070 on151;completebody152–154/PDF154–156 endswithpublishermarkandlist1/output3.136. Independentinformationradar starts155/PDF157. Full18view153–170inspection;no globaloffset.",
+        "104filenative/independentrebuild exact:29regions/22blocks/sevenoriginals/26regionalspans/34reviewnotes.13formulas/eightfractions/16components/integral/antiderivative/fourboundoccurrences/32plotlabels/122prosenumbers/18BASICentries/19physicalrows/fivecaptions. SourceOC/ICandprobabilityclaims/errors unchanged;Unicode2Dmathcandidatesnotcalculationcertification."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0016",
       "title": "비즈니스",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_record": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/business-classification.json",
+        "sha256": "57d00fb864b585b9fb0a6682716cfd2f102e33d55fb301f02ca15cdf40938120",
+        "bytes": 1533
+      },
+      "classification_evidence": [
+        "UnpaginatedbusinessdividerPDF167 hasprintedheading비지니스,strapH·A에서부터O·A까지,illustration andtwochildreferences166/172;no independentbyline/body/listing. Canonicaltitle비즈니스 andchildren0017/0018 remainunchanged.",
+        "PDF168observed166 startsindependentmemoryarticle withowntitle/editorialtranslationcredit. No inferred165folio orduplicateheadingbody."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0017",
@@ -2912,11 +3005,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 13,
-    "readable_articles": 13,
+    "classified_articles": 14,
+    "readable_articles": 14,
     "partial_articles": 0,
-    "nonowning_headings": 2,
-    "unresolved_eligibility": 22,
+    "nonowning_headings": 3,
+    "unresolved_eligibility": 20,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -6437,49 +6530,218 @@
         "sha256": "b068dc3bc59585ec86da1c18ed1b4bd60fc967a9d66a5f09d03cb5aa99f5c04b",
         "bytes": 7024693
       }
+    },
+    {
+      "id": "batch-30",
+      "status": "complete-native-article-and-heading",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/checkpoint.json",
+        "sha256": "04ea652f263654b1e5ed2b1551fe5526187836498c567fc52f4291f73c279587",
+        "bytes": 6407
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/checkpoint-r01.json",
+        "sha256": "17ca7acd8b20d04b39e072a13cb4e0ea02a849a02aae4a2dc543ef0ac0bcf8d7",
+        "bytes": 7222
+      },
+      "resumption": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/resumption-reviewed.json",
+        "sha256": "bb5a8ffa007c53e85e0f6dca445849dc863dca573a1ab6c917f293301395b93a",
+        "bytes": 878
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-30/validation-r01.json",
+        "sha256": "971aae74ae7caf0807b2a35a28ec74a54b01aa7e92ac0dc9b0fed119028efee9",
+        "bytes": 1881
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-30/verify-r01.py",
+        "sha256": "4f8568477ce0662097412d13b6f92442b7220ae0d0015f0b4b6ca7704ed25f2d",
+        "bytes": 17634
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/source-reviewed.json",
+        "sha256": "565d1e1a88e3045aef0e1270666252fb06dd33d9f6b16541c11256131806b41c",
+        "bytes": 11137
+      },
+      "business_classification": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/business-classification.json",
+        "sha256": "57d00fb864b585b9fb0a6682716cfd2f102e33d55fb301f02ca15cdf40938120",
+        "bytes": 1533
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/source-index-schema.json",
+        "sha256": "63b918d3e1737037dfdffd525fd6e05ab7aa40a10271dc137afc6d639af0c033",
+        "bytes": 3201
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/mapping-completed.json",
+        "sha256": "73ee1d7cddca702a5c19b4fdd93c4362f515e248092d90a26a8d6d2c41f582a5",
+        "bytes": 660
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/crop-repair-r01.json",
+        "sha256": "d8e3780fb0b8b09345ef1c5261904b11bfcb0849ebc81a2af3ffbdf784ab2b65",
+        "bytes": 4223
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/segment-scope.json",
+        "sha256": "7de23496e24a7b1aacf3d73bab8967cba1ebe8b8450f319f6d2d5a4b25725b0e",
+        "bytes": 846
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/preflight-reviewed.json",
+        "sha256": "248895fbacefc58d7b5eca3fb350fc7a6ec458c1c8819982ec8bab77565e2343",
+        "bytes": 14634
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/ocr-completed.json",
+        "sha256": "acd38e55d8872eecb987b98e57503977e88fb5eb75d148513109987985de7bc2",
+        "bytes": 820
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/source-correction-pass-completed.json",
+        "sha256": "e7241add81aa2b6e19fd26966f753d3739bc74b35b236c94cb6e951cac9294dd",
+        "bytes": 4670
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/correction-completed.json",
+        "sha256": "4997c945aa11488e7e81f8ba76fb1f406c1e5f599c86bf952c4cdb67b5a559f6",
+        "bytes": 1121
+      },
+      "retained_verifier_preparation_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/verifier-preparation-failure.json",
+        "sha256": "f68251067daa8a11fcb864adb31c5d8facc95731ef059f209bb3212dd031901f",
+        "bytes": 455
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/reproduction-r01.json",
+        "sha256": "703094801510bfedfa919e8f8135727babd2942380da7d5c40230c7ddc5f6e6a",
+        "bytes": 2547
+      },
+      "actual_ocr_tasks": 22,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 12,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 30501,
+      "rebuild_files": 104,
+      "new_source_renders": 15,
+      "reused_full_page_renders": 3,
+      "outside_map_lookups": 15,
+      "canonical_tasks": 2,
+      "shared_pipeline_tests": 203,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/perspective-assembly/tests-implementation-r01.log",
+        "sha256": "2c2bf02ff36a6061e1f199522442d83c03d7a6398582cbec37d22b317869c452",
+        "bytes": 34581
+      },
+      "tests_reused_without_rerun": true,
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "perspective_implementation_pins_verified": 3,
+      "regions": 29,
+      "blocks": 22,
+      "figures": 7,
+      "ocr_tasks": 22,
+      "regional_text_ranges": 26,
+      "review_notes": 34,
+      "prose_joins": 4,
+      "external_prose_connections": 1,
+      "formula_displays": 13,
+      "fractions": 8,
+      "fraction_components": 16,
+      "math_glyphs": 35,
+      "math_operators": 91,
+      "source_numeric_claims": 122,
+      "integrals": 1,
+      "integral_bounds": 4,
+      "antiderivatives": 1,
+      "source_sequences": 1,
+      "diagram_labels": 32,
+      "source_output_rows": 1,
+      "source_output_values": 1,
+      "byline_candidates": 1,
+      "series_candidates": 1,
+      "caption_links": 5,
+      "caption_parts": 5,
+      "listing_caption_links": 1,
+      "uncaptioned_figures": 2,
+      "listing_groups": 1,
+      "physical_code_rows": 19,
+      "logical_basic_entries": 18,
+      "transcript_tokens": 117,
+      "code_identifiers": 40,
+      "numeric_literal_fragments": 36,
+      "visible_code_symbols": 39,
+      "comment_markers": 8,
+      "visible_quote_glyphs": 10,
+      "paired_string_candidates": 1,
+      "line_reference_clauses": 1,
+      "target_label_fields": 1,
+      "data_records": 0,
+      "data_fields": 0,
+      "inline_examples": 288,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-30/preserved-work-inventory-r01.json",
+        "sha256": "12a5d3a4142127a9c6661c4649610f40839750c09aa59fa7cace2bdf819fdb7e",
+        "bytes": 7180122
+      },
+      "explanatory_note_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-30/note-revision-r01.json",
+        "sha256": "a5fbcd50f04c7c6b0f77571f0b07623e87e49c7c4fbbac4b3e7564b59ec6f0c2",
+        "bytes": 1043
+      },
+      "initial_validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-30/validation.json",
+        "sha256": "ccaf6bb9736b8f223bbef893bef3df79ab90f773e1bb7f5c5e28d0bd3bb8fd06",
+        "bytes": 1881
+      },
+      "initial_verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-30/verify.py",
+        "sha256": "6ac19464d386c0c81d6f169f8ccec0a348ded94eaef88a2490df637946295433",
+        "bytes": 16740
+      },
+      "initial_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-30/preserved-work-inventory.json",
+        "sha256": "5cc956b8d2ba4bac8d9ad4ba8d48994a0933f84d26e09f0643d02aa7543b85a6",
+        "bytes": 7128992
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-30",
-    "goal": "Verifycompleteextent ofcanonicalmathematics/logicallearning5 starting152;restoreboundedopening152–157 ifconfirmed.",
+    "id": "batch-31",
+    "goal": "Verifycompleteextent ofcanonicalmemoryefficiencyarticle0017 starting166;restoreuptosixconfirmedpages.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0015"
+      "maso-1984-12-toc-0017"
     ],
     "mapping_targets": [
-      154,
-      155,
-      156,
-      157,
-      158,
-      159
+      168,
+      169,
+      170,
+      171,
+      172,
+      173
     ],
     "printed_page_targets": [
-      "152",
-      "153",
-      "154",
-      "155",
-      "156",
-      "157"
+      "166",
+      "167",
+      "168",
+      "169",
+      "170",
+      "171"
     ],
     "provisional_lookup_targets": [
-      153,
-      154,
-      155,
-      156,
-      157,
-      158,
-      159,
-      160,
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
       167,
       168,
       169,
-      170
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
     ],
     "full_extent_review_pending": true,
     "limits": {
@@ -6487,7 +6749,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Title/editorialcredit/series5 observedon152/PDF154;153/PDF155 continuesarticle. Actualendnotyetverified;nextTOCbody starts166 withnon-owningbusinessheadingcandidate beforeit. Provisional153–170PDFlookupwindow mustlocatecompleteextent/neighbors beforemapping;no globaloffsetorinferredfolio. Mapatmostsixconfirmedopeningpages,retainremainderexplicitly. Inspecteveryoriginal/revisedcrop beforemappedTesseract;retainmathematical sourceerrors,probabilityvalues,formulas/fractions/diagrams/tables/physicalcodefields withoutsemantic/arithmetic reconstruction. Allselectedchecks useperspective_literal_assembly wrapper;all26implementationpins and203-testbaseline remainunchanged. No reader rebuild."
+    "note": "Independentmemorytitle/editorialtranslationcredit observedon166/PDF168. PDF169observed167 isupperarticle/lowerstoread;excludead. PDF170observed168 hasbody/diagrams/table/code. Actualendnotyetverified;VisiCalccanonical0018 starts172candidate. Reusepinned167–170wholeviews thenverifycompleteextent/neighbors beforemapping;no globaloffsetorinferredfolio. Mapatmostsixconfirmedpages,retainremainderexplicitly. Inspecteveryoriginal/revisedcrop beforemappedTesseract;preservetables/codefields/diagramlabels/sourceerrors withoutsemantic/arithmetic reconstruction. Allselectedchecks useperspective_literal_assembly wrapper;all26implementationpins and203-testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

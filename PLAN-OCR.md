@@ -19,72 +19,85 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- December 1984 is in progress: thirteen readable articles, no partial articles,
-  two non-owning headings and 22 of 37 entries unresolved. The MSX machine-code
-  loader0014 is now complete over observed150–151/PDF152–153 at packages/msx-loader.
-  Its53-file native and independent rebuild match exactly. The article starts with
-  its own title after perspective149 andends8070 RESUME1150 before mathematics152.
-  All five whole views151–155 were inspected;no globalfolio offset was assumed.
+- December 1984 is in progress: fourteen readable articles, no partial articles,
+  three non-owning headings and 20 of 37 entries unresolved. Mathematics/logical
+  learning(5), canonical0015, is complete over observed152–154/PDF154–156 at
+  packages/math-montecarlo-r01. All104 files match the independent rebuild. The article
+  follows MSX151 and ends with its closing mark, list1 and output on154; independent
+  information radar starts155. All18 whole views153–170 were inspected before mapping.
+  Three mapped pages,15 outside-map lookups and two canonical tasks stay within limits.
+  No global folio offset was assumed.
 
-  The MSX native retains14 regions,eight blocks,four uncaptioned original images
-  (three boxed listing frames andthe publisher closing mark),ten regional spans
-  and16 source review notes. All14 original andone revised exact crop were inspected
-  before ten successful OCR tasks. One closing-prose crop was widened below its
-  last baseline before OCR. OEM1/PSM6,one thread,3000-long-edge,eng code/kor+eng prose
-  remain pinned. No recognition failure,retry orpost-OCR repair. Four full/review
-  pairs were reused andone new source page rendered;two mapped pages,three outside
-  lookups. One source-direct correction pass;all raw drafts/maps/crops retained.
+  The mathematics native retains29 regions,22 blocks,seven original images,
+  26 regional spans and34 review notes. All29 original and12 revised exact crops
+  were inspected before22 successful OCR tasks. Twelve distinct crops were repaired
+  once before OCR to include clipped prose starts, plot margins and the full
+  GOTO240. The series glyph contour touches its revised left edge; the complete
+  original title panel is also retained and was inspected independently. No second
+  repair or recognition retry. OEM1/PSM6,one thread,3000-pixel long edge,eng code and
+  kor+eng prose remain pinned. Three full/review pairs were reused and15 new pages
+  rendered. One source correction pass; all maps,crops,raw drafts and readings remain.
 
-  The continuous listing retains147 physical rows and134 actual numbered entries,
-  including1045/1055/1065/1075/4015/5091. Printed3180/3190 after3150 andthe4090→4120
-  gap remain;no3160/3170/4100/4110 were supplied. All physical wraps remain,including
-  C/M$,S/TART,L/AST,quotedzero,MS/X,3/2),ERROR/newline100,EL/SE andquoted i/n line.
-  Source6030 >= and6530 > stay independent. No syntax,firmware,hex,arithmetic or
-  encoding repair,executable flattening orsemantic reconstruction.
+  Exact indexes preserve13 formulas,eight fractions/16 components,one integral,
+  one antiderivative and four bound occurrences,35 math glyphs,91 math punctuation
+  candidates,122 prose numbers,one six-1 sequence and32 diagram labels. Four prose
+  joins retain independent region ranges; the example introduction,plot4 and
+  its equations retain their image anchor through a separate association.
+  Five captions link four original plots and the listing/output frame; the title
+  panel and publisher mark have no printed captions. No curves or shading were
+  reconstructed. Linear Unicode powers,subscripts,square roots,stacked fractions,
+  integral limits and brackets remain visual candidates with the scans authoritative.
 
-  Indexes retain763 tokens,368 identifiers,221 numeric fragments,1,265 punctuation
-  candidates,43 leading comment glyphs,21 decorative runs,123 quote/comment glyphs,
-  39 paired strings,34 reference clauses/target fields,44 function tokens and685
-  inline occurrences. Four command headings D/S/G/@,six literal hex examples and
-  four quoted character bounds are indexed without decoding. Prose • is retained
-  as a dot/bullet candidate independently ofcode4190's quoted period. Decorative
-  run widths,quotedspaces/dots,apostrophes,@,Q/O,0/O and1/I remain uncertain.
+  The BASIC listing retains18 numbered entries100–270 over19 physical rows,
+  including the quoted-string wrap in270. Its117 tokens,40 identifiers,36 numeric
+  fragments,39 punctuation candidates,eight comment markers,ten quote/comment
+  glyphs,one paired string and one GOTO240 reference/target are indexed. The printed
+  output3.136 is preserved. Source OC/IC prose,ratio and code statements remain
+  independent;3.141592/3.986924,probability/expected-value claims,est-imate,상한,
+  갯수,점친 and caption2's 원의 색 remain unchanged. No mathematical,statistical,
+  arithmetic,syntax,encoding or graphic reconstruction.
 
-  The source credit reads 박 재 현 / 박재현 candidate on151;the TOC names박제현.
-  Both are retained independently in source_byline_index andthe ledger. Canonical
-  identity,title,parent andTOC metadata remain unchanged. No printed frame captions
-  were observed;none were invented from article title orprogram comments.
+  Business0016 is classified as a non-owning heading from unpaginated PDF167.
+  Its source heading 비지니스 differs from canonical 비즈니스; both remain, with
+  canonical identity and children0017/0018 unchanged. The divider has two child
+  references166/172 and no independent body/byline/listing. Memory166/PDF168 opens
+  independently. No165 folio was inferred for the divider.
 
-  All30,256 prior files and26 implementation pins remain unchanged. The new
-  preservation inventory has30,501 files. The unchanged203-test baseline is reused
-  without rerunning tests. A fresh index revision adds brackets/@/!/caret/backslash
-  coverage andthe prose stopmark range without changing source readings/other
-  indexes. Initial correction/recipe/stat files remain. An initial ledger finalizer
-  failed onan absent evidence list;its script/record/snapshot remain. The fresh
-  finalizer initializes only that list and reuses completed schema/reproduction.
-  No source,OCR orexport restart. No shared tooling orreader work.
+  All30,501 prior files and26 implementation pins remain unchanged. The new
+  preservation inventory contains31,208 files. The unchanged203-test baseline is
+  reused without rerunning tests. Initial verifier preparation reached a missing
+  parent while the independent build was live; no verifier file was written.
+  The exact build session then completed, and the verifier was created and passed.
+  The failed preparation record remains; no source,OCR or build restart occurred.
 
-  Perspective131–149 remains complete at packages/perspective-complete-r01:393 files,
-  all384 natives exact,one134 repair andboth10.3/10.4 captions resolved. Immutable
-  perspective-a,perspective-b-r01,perspective-c,perspective-d andreflectionrevision
-  retain all math/code metadata,including87 middle matrix cells and143–148 listings.
-  CP/M remains complete at packages/cpm5-complete-r01,observed110–129 plusunpaginated
-  upper PDF132 reference continuation;lower132 ad separate,no observed130. BASIC
-  speed102–109 retains opening102–107 andending108–109. All selected checks use
+  MSX150–151 remains complete at packages/msx-loader:147 physical rows/134 entries,
+  source credit 박재현 retained independently from TOC박제현. Perspective131–149 remains
+  complete at packages/perspective-complete-r01,including143–148 listings,all384 native
+  files,the134 repair and both captions. Preserve perspective-a,perspective-b-r01,
+  perspective-c,perspective-d and87 middle matrix cells. CP/M remains complete at
+  packages/cpm5-complete-r01,observed110–129 plus unpaginated upper PDF132 continuation;
+  lower132 advertisement excluded,no observed130. BASIC speed102–109 retains its
+  opening102–107 and ending108–109. All selected checks use
   perspective_literal_assembly.check/installed(),which delegates cpm_literal_assembly
-  andgraphic_literal_assembly for older formats. Preserve all26 implementation pins.
+  and graphic_literal_assembly for older formats. Preserve all26 implementation pins.
 
-  Next:batch30,canonical mathematics/logical learning(5)0015,start152. The title,
-  editorial credit andseries5 are observed onPDF154;PDF155/153 continues it. Verify
-  the complete extent andneighbors beforemapping. A provisional PDF153–170 lookup
-  window andsix-page opening152–157/PDF154–159 stay within the limits;these are
-  candidates,not an inferred globaloffset orverified end. Keep atmostsix mapped
-  pages/two articles/20 outside-map lookups. Retain all mathematical source errors,
-  formulas,fractions,diagrams,tables andcode without arithmetic reconstruction.
-  Human acceptance,full proofreading,source bytes andexecution remain unverified.
+  Next:batch31,canonical memory efficiency0017,start166/PDF168. Verify the complete
+  extent and neighbors before mapping up to six confirmed pages. Provisional
+  PDF167–176 lookups and opening166–171/PDF168–173 are candidates,not an established
+  end or global offset. Reuse pinned167–170 views; exclude the lower store ad on
+  observed167/PDF169. Preserve tables,code,diagrams and source errors. Keep at most
+  two articles/six mapped pages/20 outside-map lookups. Human acceptance,full
+  proofreading,source bytes,execution and mathematical correctness remain unverified.
   No reader rebuild.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
+
+  The selected math-montecarlo-r01 package replaces only an unnecessary Japanese
+  gloss in one explanatory metadata note with English. All source readings,indexes,
+  images and OCR remain unchanged. Original corrections,recipe,104-file package,
+  independent rebuild and validation reports remain preserved. The selected recipe
+  is math-a/package-recipe-r01.json; read-only verifier is evidence/batch-30/verify-r01.py.
+  The revised preservation inventory contains31,208 files.
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
   assistant sample-reviewed articles and six non-owning headings account for all 41
   entries, with no partial articles or unresolved eligibility. All 260 PDF pages are
