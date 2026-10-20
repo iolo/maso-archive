@@ -20,13 +20,34 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - December 1984 is in progress: twenty-four readable articles, one partial article,
-  six non-owning headings and 6 of 37 entries unresolved. Canonical0030, the yearly
-  back-issue index, retains immutable opening241–246 at packages/year-index-a and
-  middle247–252 at packages/year-index-b. The 79-file opening and 56-file middle
-  each match independent rebuilds byte for byte. Actual full extent is241–255/PDF243–257;
-  final255 ends with 통합소프트웨어2 before the independent editorialPDF258.
-  The advertising index on240/PDF242 is separate despite its TOC reference255.
-  Three final body pages253–255 and full article assembly remain pending.
+  six non-owning headings and 6 of 37 entries unresolved. Canonical0030,the yearly
+  back-issue index,now has all fifteen body pages241–255/PDF243–257 in three immutable
+  natives:packages/year-index-a opening241–246,packages/year-index-b middle247–252,
+  and packages/year-index-c final253–255. The 79-file opening,56-file middle and36-file
+  ending each match independent rebuilds byte for byte. All171 native files remain.
+  No body pages are deferred;full article assembly is still pending. The final reading
+  table ends with 통합 소프트웨어 2 before independent editorialPDF258. Advertising
+  index240/PDF242 remains separate despite its TOC reference255.
+
+  Final253–255 retains10 regions,six blocks,four original grids and2,345 exact UTF-8
+  range occurrences. Four table parts retain67 rows,254 logical cell positions and15
+  header fields. Final255 has three columns 월/제목/내용;the other tables have four.
+  There are28 printed month fields,43 platforms,67 titles,67 summaries and49 blank slots.
+  Nineteen local merges cover37 slots;two incoming month groups retain two empty slots.
+  Ten literal blank platforms remain. No repeated labels or invented platform column.
+  Two external middle heading/month occurrences retain original exact ranges and pins.
+  Source SP-1000,신판 UFO,로미티이,칼창,시대적 변경,본선 논제,데이트 공유 and
+  MAX-PRINT description word order remain literal candidates. One unresolved source-mark
+  extent between 알람 and 등 has an explicit editorial placeholder and unknown glyph count.
+  Original scans remain authoritative;no title,platform,history,technical or glyph repair.
+
+  Five reused whole-view pairs/three mapped pages/two outside lookups/one canonical task.
+  All ten exact crops inspected before six pinned kor+eng tasks. All six raw drafts read
+  before one source-direct pass for four grid coverage failures. Zero OCR failures,retries,
+  engine switches or crop repairs. All41,850 prior files,every prior checkpoint inventory,
+  29 implementation pins and1,367 prior ledger pins pass. Current inventory:42,048 files.
+  The unchanged213-test baseline is reused. Human acceptance,full proofreading,source
+  encoded bytes,claims and execution remain unverified. No reader rebuild.
 
   Middle247–252 retains18 regions,10 blocks,eight original grids and5,128 exact
   UTF-8 range occurrences. Eight table parts retain162 rows,648 logical cell positions
@@ -50,7 +71,7 @@ paired OCR or a new engine comparison.
   drafts were read before one source-direct pass. All eight grid drafts had omitted cells
   or damaged order;the recorded bounded fallback restored every eligible cell. Zero OCR
   failures,retries,engine switches or crop repairs. All41,537 prior files,every earlier
-  checkpoint inventory and29 implementation pins pass. The current preservation inventory
+  checkpoint inventory and29 implementation pins pass. The middle preservation inventory
   contains41,850 files;the unchanged213-test baseline is reused. Human acceptance,
   full proofreading,source encoded bytes,claims and execution remain unverified.
   No reader rebuild.
@@ -204,14 +225,16 @@ paired OCR or a new engine comparison.
   design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
   cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-  Next: batch47, yearly index0030 final253–255/PDF255–257. Keep immutable opening
-  year-index-a and middle year-index-b. Reinspect whole pages254–258 and every exact crop
-  before OCR. Final253 contains technical ending and 공모입선작 opening;254 continues
-  contest entries;255 is the three-column 읽을거리 table. Link incoming technical84.5
-  to middle252 row24 without printing a repeated label. Preserve every cell,blank,merged
-  span,header,title,platform,summary and original grid. No chronology,reference,title,
-  platform or technical repair. Full241–255 assembly remains after the final native.
-  All29 implementation pins/213-test baseline unchanged. No reader rebuild.
+  Next: yearly-index assembly,canonical0030 full241–255/PDF243–257. Keep all three
+  immutable natives and every source reading/raw OCR/original grid. Use the unchanged
+  design-literal-v1 adapter;project every category/native array and exact byte range.
+  Independently verify external original-download heading/month occurrences without
+  shifting their native source ranges. Retain all rows/cells/headers/blanks/merges/month
+  continuations/section headings/figures and final three-column layout. Resolve only exact
+  native-stage deferral/assembly claims in active package notes;all original metadata and
+  uncertainties survive. No new map,render,OCR or correction is needed. Independent
+  complete-package rebuild and all preservation/ledger checks required. All29 implementation
+  pins/213-test baseline unchanged. No reader rebuild.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

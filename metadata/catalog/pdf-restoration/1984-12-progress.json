@@ -8415,16 +8415,8 @@
           "toc_credit": "편집부",
           "ending_evidence": "AllnineteenwholeviewsPDF242–260 individuallyinspected. Indexopens241/PDF243withtitle/introduction/covermontage/integratedbackissuesalenote. Tablescontinue242–255:특집,취미생활,교육입문,비지니스,테크니컬,공모입선작,읽을거리. Final255/PDF257is읽을거리tableending통합소프트웨어2. NextPDF258opensindependent1년을정리하며editorial;PDF259–260areindependentbackads. Previous240/PDF242containsseparate컴퓨터비전adand광고색인. Actualfifteenpages241–255;notassumedthrough254orTOC255advertisingreference. No globaloffset."
         },
-        "deferred_pdf_pages": [
-          255,
-          256,
-          257
-        ],
-        "deferred_printed_pages": [
-          "253",
-          "254",
-          "255"
-        ],
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
         "assembly_required": true,
         "source_review": {
           "path": "archive/pdf/1984-12/restoration/batch-45/source-reviewed-r01.json",
@@ -8687,6 +8679,46 @@
               "bytes": 3506
             },
             "immutable": true
+          },
+          {
+            "name": "year-index-c",
+            "directory": "archive/pdf/1984-12/packages/year-index-c",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/manifest.json",
+              "sha256": "27c8bbca31830bff302b16df1583b1e7357db0adfed824e3fd0291f8f19d1625",
+              "bytes": 6169
+            },
+            "coverage": {
+              "pdf_pages": [
+                255,
+                256,
+                257
+              ],
+              "printed_pages": [
+                "253",
+                "254",
+                "255"
+              ],
+              "regions": 10,
+              "blocks": 6,
+              "figures": 4
+            },
+            "source_review": {
+              "path": "archive/pdf/1984-12/restoration/batch-47/source-reviewed.json",
+              "sha256": "b6ccae15a31b52af0bc5a433c5f7d6dbf77dd64d1079ce5cb0a29825cf4edb88",
+              "bytes": 6401
+            },
+            "source_index_schema": {
+              "path": "archive/pdf/1984-12/restoration/batch-47/year-index-c/source-index-schema.json",
+              "sha256": "476bb333308e541d391b0b980c47c44c80080cf600acc79a2d12bffa18d1e415",
+              "bytes": 6259
+            },
+            "reproduction": {
+              "path": "archive/pdf/1984-12/restoration/batch-47/reproduction.json",
+              "sha256": "ce0d47979ffbe969a548f49a2c9ddd4d7ef5026cf77f518865eb66a83a5c0214",
+              "bytes": 2798
+            },
+            "immutable": true
           }
         ],
         "restored_native_coverage": {
@@ -8702,7 +8734,10 @@
             251,
             252,
             253,
-            254
+            254,
+            255,
+            256,
+            257
           ],
           "printed_pages": [
             "241",
@@ -8716,11 +8751,14 @@
             "249",
             "250",
             "251",
-            "252"
+            "252",
+            "253",
+            "254",
+            "255"
           ],
-          "regions": 41,
-          "blocks": 26,
-          "figures": 15
+          "regions": 51,
+          "blocks": 32,
+          "figures": 19
         },
         "additional_native_source_candidates": [
           {
@@ -8872,6 +8910,256 @@
             },
             "source_bytes": "unverified",
             "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p253-technical-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 1896,
+            "utf8_byte_end_exclusive": 1909,
+            "transcription_excerpt": "좌표 산도",
+            "note": "Opaque printed phrase candidate; no technical recovery.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page255/p253-technical-table.png",
+              "sha256": "a2c1394811e4f0d2348f5336adb538c17bc9141f1627ab63dfef486159dbdb70",
+              "bytes": 1837192
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p253-technical-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 3048,
+            "utf8_byte_end_exclusive": 3104,
+            "transcription_excerpt": "칼라를 사용할 수 그래픽 화면의 있게하는",
+            "note": "Source word order retained without grammar repair.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page255/p253-technical-table.png",
+              "sha256": "a2c1394811e4f0d2348f5336adb538c17bc9141f1627ab63dfef486159dbdb70",
+              "bytes": 1837192
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p254-contest-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 4594,
+            "utf8_byte_end_exclusive": 4601,
+            "transcription_excerpt": "SP-1000",
+            "note": "Printed missing C retained;not normalized platform.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page256/p254-contest-table.png",
+              "sha256": "16e6d87d925635ffe06c023b10102139cba4990dbfaa7b3f6e1f301ee189b899",
+              "bytes": 2344241
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p254-contest-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 6100,
+            "utf8_byte_end_exclusive": 6110,
+            "transcription_excerpt": "신판 UFO",
+            "note": "Printed title glyph candidate; no title repair.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page256/p254-contest-table.png",
+              "sha256": "16e6d87d925635ffe06c023b10102139cba4990dbfaa7b3f6e1f301ee189b899",
+              "bytes": 2344241
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p254-contest-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 6322,
+            "utf8_byte_end_exclusive": 6328,
+            "transcription_excerpt": "칼창",
+            "note": "Printed instrument word candidate; no inferred term.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page256/p254-contest-table.png",
+              "sha256": "16e6d87d925635ffe06c023b10102139cba4990dbfaa7b3f6e1f301ee189b899",
+              "bytes": 2344241
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p254-contest-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 6698,
+            "utf8_byte_end_exclusive": 6710,
+            "transcription_excerpt": "로미티이",
+            "note": "Uncertain printed maze-game title glyphs;original grid authoritative.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page256/p254-contest-table.png",
+              "sha256": "16e6d87d925635ffe06c023b10102139cba4990dbfaa7b3f6e1f301ee189b899",
+              "bytes": 2344241
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p254-contest-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 7203,
+            "utf8_byte_end_exclusive": 7231,
+            "transcription_excerpt": "⟦uncertain source marks⟧",
+            "note": "Unresolved source marks between 알람 and 등;unknown glyph identities/count. Placeholder is editorial,not source text.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page256/p254-contest-table.png",
+              "sha256": "16e6d87d925635ffe06c023b10102139cba4990dbfaa7b3f6e1f301ee189b899",
+              "bytes": 2344241
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p255-reading-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 8280,
+            "utf8_byte_end_exclusive": 8296,
+            "transcription_excerpt": "시대적 변경",
+            "note": "Printed title word candidate retained without historical repair.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page257/p255-reading-table.png",
+              "sha256": "6aadbf5fcff77c61df06cf0450d37bc8b8d29604a53e34b0da901b5932ea1bce",
+              "bytes": 1943958
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p255-reading-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 9235,
+            "utf8_byte_end_exclusive": 9248,
+            "transcription_excerpt": "본선 논제",
+            "note": "Printed title word candidate retained independently of description 본선문제.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page257/p255-reading-table.png",
+              "sha256": "6aadbf5fcff77c61df06cf0450d37bc8b8d29604a53e34b0da901b5932ea1bce",
+              "bytes": 1943958
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/year-index-c",
+            "region_id": "p255-reading-table",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/article.txt",
+              "sha256": "5e966e0bb5b0d74067e030291e996600793f83429f14bee0af51bf86f6ff5689",
+              "bytes": 11170
+            },
+            "utf8_byte_start": 10941,
+            "utf8_byte_end_exclusive": 10957,
+            "transcription_excerpt": "데이트 공유",
+            "note": "Printed term retained without data/software semantic repair.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/ocr-page257/p255-reading-table.png",
+              "sha256": "6aadbf5fcff77c61df06cf0450d37bc8b8d29604a53e34b0da901b5932ea1bce",
+              "bytes": 1943958
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/year-index-c/corrections.json",
+              "sha256": "7652d5d45621633074a0bc68b798ddd933b1606697858b47d49a95a9edccdc04",
+              "bytes": 1747400
+            },
+            "source_bytes": "unverified",
+            "human_acceptance": "pending"
           }
         ]
       },
@@ -8880,7 +9168,8 @@
         "Opening241–246onlyatyear-index-a:79filenative/rebuildexact/23regions/16blocks/sevenoriginals/4959exactUTF8ranges. Sixruledtableparts167rows/668logicalslots/24headers. 29printedmonthfields/149platforms/167titles/167summaries/156blankpositions;17literalblankplatformslots,126coveredlocalslots/19merges,13incomingblankmonthslots/threecross-pagegroups. Labelsnotcopiedintounprintedlocations;monthreferencesnotfolios.",
         "Source84.12between83.11and84.1,2실2방,디오리지이엠,SPC-100 0,로즈런너,올림차순andallhistoricalclaimsretained. Originalgraycolumns/handwrittenarrowandbox/covermontage/salenote/framingretainedwithoutgraphicreconstruction. Sevenoriginalsuncaptioned;sectionheadingsnotinventedfigurecaptions.",
         "All19wholeviews/23original/3revisedcropsinspectedbefore16kor+engtasks. Allrawsreadbeforeonesourcepass;coverageomissionsandemptyreversedlabelhandledbyrecordedboundedsource-directfallback. NoOCRfailure/retry/enginechange/postOCRcrop. Prewriteserializerassertionfailurepreserved;freshserializerfixesexpectedblankcountwithoutsourcechanges. Ninebodypages247–255andfullassemblyremainpending. Sourceglyphs/spacing/encodedbytes/fullproofreading/humanacceptance/executionunverified.",
-        "Middle247–252 at immutable year-index-b:56 native/rebuild files,18regions/10blocks/eight originals;162rows/648slots/32headers/30months/94platforms/162titles/162summaries/200blanks. Thirty local merges cover117slots;four incoming month groups cover16blanks;67 literal blank platform positions. Four external opening heading/month occurrences independently verified. All ten raw drafts read before one source-direct pass;all eight grids had coverage failures. Zero OCR failures/retries/crop repairs. Final253–255 and assembly pending. Original opening and every previous uncertainty retained."
+        "Middle247–252 at immutable year-index-b:56 native/rebuild files,18regions/10blocks/eight originals;162rows/648slots/32headers/30months/94platforms/162titles/162summaries/200blanks. Thirty local merges cover117slots;four incoming month groups cover16blanks;67 literal blank platform positions. Four external opening heading/month occurrences independently verified. All ten raw drafts read before one source-direct pass;all eight grids had coverage failures. Zero OCR failures/retries/crop repairs. Final253–255 and assembly pending. Original opening and every previous uncertainty retained.",
+        "Final253–255 at immutable year-index-c:36 native/rebuild files,10regions/6blocks/four originals/2345exactranges;67rows/254slots/15headers/28months/43platforms/67titles/67summaries/49blanks.19localmerges/37coveredslots,two incoming groups/two empty slots,ten literal blank platforms. Final reading table three columns. Two external middle occurrences independently verified. Six raws read before one source-direct pass for four grid coverage failures. Source SP-1000/title candidates/unknown marks retained. Zero OCR failures/retries/crop repairs. No body pages deferred;full assembly pending. Original opening/middle preserved."
       ]
     },
     {
@@ -15338,44 +15627,152 @@
         "sha256": "29f8777aa29e4ae0d786b42239609eaf3b6892b38132b6251931439575a8b8c4",
         "bytes": 9574524
       }
+    },
+    {
+      "id": "batch-47",
+      "status": "partial-yearly-index-ending253–255",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/checkpoint.json",
+        "sha256": "66b8fc30dd8c29953d3b84063c089e3eb00dd3c87b4c0d42b570916850282746",
+        "bytes": 6740
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/checkpoint-r01.json",
+        "sha256": "2e12a3016319bcbed64ec6724f4b5e63713d71a354f4a9bc8f870107eadb2331",
+        "bytes": 8450
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-47/validation.json",
+        "sha256": "d3e0729815a5c43cc253798fa3ad77cff4e40e8e0200e8cdde259ec61c3be27a",
+        "bytes": 1307
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-47/verify.py",
+        "sha256": "9fbd117ec7167c03ef79a5770d71f31bec2058fc4af016685521f0062d3010b4",
+        "bytes": 14129
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/source-reviewed.json",
+        "sha256": "b6ccae15a31b52af0bc5a433c5f7d6dbf77dd64d1079ce5cb0a29825cf4edb88",
+        "bytes": 6401
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/mapping-completed.json",
+        "sha256": "c4e5881ea15b576f3f396056827686b9e8740a3d7b9cbaf100f9d452e80f91da",
+        "bytes": 688
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/preflight-reviewed.json",
+        "sha256": "bac017526426264cd6938f8ae2f2bedda9503ea205c9c8a3fd8d25d278ccdca1",
+        "bytes": 5666
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/ocr-completed.json",
+        "sha256": "438738fb7f57bcf8d677be4c09b028d432382699d879bdefc4b56a5d61c6bc25",
+        "bytes": 902
+      },
+      "raw_coverage_fallback": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/raw-coverage-fallback.json",
+        "sha256": "df5b13e52537e32b93d4aaaf70e31b0049eb5768a16994b6627a5ff1e2ac852a",
+        "bytes": 849
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/source-correction-reading.json",
+        "sha256": "0940ed9b328028c86a0e8f0a86d08cb9447d80601b9849971287ce8980c945e1",
+        "bytes": 3441
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-47/correction-completed.json",
+        "sha256": "6425d7d7fe0b7092e8451af1c19893ca4f512ad4eac23d8b699a372c39de0986",
+        "bytes": 847
+      },
+      "statistics": {
+        "completed_at": "2026-10-20T11:02:10.932876+00:00",
+        "regions": 10,
+        "blocks": 6,
+        "figures": 4,
+        "ocr_tasks": 6,
+        "eng_code_tasks": 0,
+        "kor_eng_tasks": 6,
+        "tables": 4,
+        "table_rows": 67,
+        "logical_table_cell_slots": 254,
+        "table_header_fields": 15,
+        "logical_blank_slots": 49,
+        "printed_month_fields": 28,
+        "printed_platform_fields": 43,
+        "printed_title_fields": 67,
+        "printed_summary_fields": 67,
+        "local_merged_cells": 19,
+        "local_covered_slots": 37,
+        "incoming_month_continuations": 2,
+        "incoming_blank_month_slots": 2,
+        "literal_blank_platform_slots": 10,
+        "source_table_heading_links": 4,
+        "original_table_annotation_groups": 0,
+        "localized_candidates": 10,
+        "unknown_source_mark_extents": 1,
+        "current_body_pages": 3,
+        "deferred_body_pages": 0,
+        "assembly_required": true,
+        "source_correction_passes": 1
+      },
+      "actual_ocr_tasks": 6,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 6,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 0,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 41850,
+      "rebuild_files": 36,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 5,
+      "mapped_source_pages": 3,
+      "outside_map_lookups": 2,
+      "canonical_tasks": 1,
+      "deferred_body_pages": 0,
+      "assembly_required": true,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "implementation_pins_verified": 29,
+      "exact_utf8_range_occurrences": 2345,
+      "external_middle_occurrences_verified": 2,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-47/preserved-work-inventory.json",
+        "sha256": "2358a087c89ab2d4a136babb0e6f226773601a4bd2f584c40ce51e075a8605aa",
+        "bytes": 9617668
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-47",
-    "goal": "Restore yearly index0030 final253–255/PDF255–257 after whole-view/exact-crop review; retain opening and middle immutable for later full assembly.",
+    "id": "year-index-assembly",
+    "goal": "Assemble complete yearly index0030 observed241–255/PDF243–257 from three immutable natives;project every category and exact source occurrence;retain all external original-source references and uncertainties.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0030"
     ],
-    "mapping_targets": [
-      255,
-      256,
-      257
-    ],
-    "printed_page_targets": [
-      "253",
-      "254",
-      "255"
-    ],
-    "provisional_lookup_targets": [
-      254,
-      255,
-      256,
-      257,
-      258
-    ],
+    "mapping_targets": [],
+    "printed_page_targets": [],
+    "provisional_lookup_targets": [],
     "full_extent_review_pending": false,
-    "segment_source_review_pending": true,
+    "segment_source_review_pending": false,
     "verified_full_extent": {
-      "path": "archive/pdf/1984-12/restoration/batch-46/source-reviewed.json",
-      "sha256": "ca34ffcdb1434416ee621fd77cc424ec76aae83b90eb287cb3d34696554b11c3",
-      "bytes": 10598
+      "path": "archive/pdf/1984-12/restoration/batch-47/source-reviewed.json",
+      "sha256": "b6ccae15a31b52af0bc5a433c5f7d6dbf77dd64d1079ce5cb0a29825cf4edb88",
+      "bytes": 6401
     },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Actual full index241–255 verified. Keep year-index-a opening241–246 and year-index-b middle247–252 unchanged. Final253 has technical ending plus 공모입선작 opening;254 contest continuation;255 three-column 읽을거리 table ending 통합소프트웨어2. Review whole pages/exact crops before OCR. Link incoming84.5 technical month to middle252 row24 without repeating labels. Preserve every literal field/blank/merged span/header/original grid. No chronology/title/platform/reference/technical repair. Full article assembly remains after final native.29 implementation pins/213-test baseline unchanged. No reader rebuild."
+    "note": "All15 body pages restored in immutable year-index-a/b/c,171nativefiles,51regions/32blocks/19originals. No mapped pages/render/OCR/correction required for assembly. Use existing design-literal-v1 adapter with unchanged29 implementation pins and213-test baseline. Retain every category/native array/range/cell/blank/merged/continuation/header/heading/figure. External article-pin objects keep original source_occurrence ranges and are independently verified,not shifted as current-native ranges. Final reading table has three columns. Unknown source marks after 알람 retain unknown count. Resolve only exact native-stage deferral/assembly claims in active package notes,leaving immutable natives/source metadata intact. All other uncertainties remain. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
