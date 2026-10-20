@@ -3028,10 +3028,354 @@
       "toc_entry_id": "maso-1984-12-toc-0020",
       "title": "마이크로컴퓨터 설계강좌(6)",
       "parent_id": "maso-1984-12-toc-0019",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/design-a",
+        "article_id": "scan-maso-1984-12-toc-0020",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/design-a/manifest.json",
+          "sha256": "4d29844facd22b2a6a9539b856f95a0cf90b5d039739505396c9bd968946f5b8",
+          "bytes": 21347
+        },
+        "coverage": {
+          "pdf_pages": [
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "printed_pages": [
+            "178",
+            "179",
+            "180",
+            "181",
+            "182",
+            "183"
+          ],
+          "regions": 39,
+          "blocks": 28,
+          "figures": 13
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1984-12/packages/design-a",
+            "article_id": "scan-maso-1984-12-toc-0020",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/design-a/manifest.json",
+              "sha256": "4d29844facd22b2a6a9539b856f95a0cf90b5d039739505396c9bd968946f5b8",
+              "bytes": 21347
+            },
+            "coverage": {
+              "pdf_pages": [
+                180,
+                181,
+                182,
+                183,
+                184,
+                185
+              ],
+              "printed_pages": [
+                "178",
+                "179",
+                "180",
+                "181",
+                "182",
+                "183"
+              ],
+              "regions": 39,
+              "blocks": 28,
+              "figures": 13
+            },
+            "segment": "a"
+          }
+        ],
+        "full_source_extent": {
+          "opening_pdf": 180,
+          "ending_pdf": 206,
+          "previous_pdf": 179,
+          "next_pdf": 207,
+          "opening_printed_page": "178",
+          "ending_printed_page": "204",
+          "boundary_pdf_span": [
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206
+          ],
+          "observed_folios": [
+            {
+              "pdf_page": 180,
+              "printed_page": "178"
+            },
+            {
+              "pdf_page": 181,
+              "printed_page": "179"
+            },
+            {
+              "pdf_page": 182,
+              "printed_page": "180"
+            },
+            {
+              "pdf_page": 183,
+              "printed_page": "181"
+            },
+            {
+              "pdf_page": 184,
+              "printed_page": "182"
+            },
+            {
+              "pdf_page": 185,
+              "printed_page": "183"
+            },
+            {
+              "pdf_page": 186,
+              "printed_page": "184"
+            },
+            {
+              "pdf_page": 202,
+              "printed_page": "200"
+            },
+            {
+              "pdf_page": 203,
+              "printed_page": "201"
+            },
+            {
+              "pdf_page": 204,
+              "printed_page": "202"
+            },
+            {
+              "pdf_page": 205,
+              "printed_page": "203"
+            },
+            {
+              "pdf_page": 206,
+              "printed_page": "204"
+            }
+          ],
+          "unreviewed_interior_pdf_pages": [
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201
+          ],
+          "interior_page_classification_pending": true,
+          "all_interior_pages_reviewed": false,
+          "byline_candidate": "김덕우",
+          "affiliation_candidate": "서울대 제어계측 공학과",
+          "chapter_candidate": "제6장 베이직의 이식",
+          "boundary_evidence": "Independenttitle/byline178/PDF180. EndingZ80assemblylistingon204/PDF206 hasfinalOTOPdefinitionandEND;next205/PDF207independentlyopenspublic-keycryptography. Fullphysicalspan180–206 isboundary-defined,notassertionofuncheckedinteriorfolios/bodyclassification.",
+          "mapped_pdf_pages": [
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "mapped_printed_pages": [
+            "178",
+            "179",
+            "180",
+            "181",
+            "182",
+            "183"
+          ],
+          "deferred_pdf_pages": [
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206
+          ],
+          "deferred_printed_pages": [
+            "184",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "200",
+            "201",
+            "202",
+            "203",
+            "204"
+          ],
+          "unobserved_folio_policy": "Nonehere meansnotyetinspected,notunpaginated. Do notderivefoliosfromPDFoffset. Deferredsourcepageswillbeinspected/qualifiedbeforetheirnative mapping."
+        },
+        "deferred_pdf_pages": [
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206
+        ],
+        "deferred_printed_pages": [
+          "184",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "200",
+          "201",
+          "202",
+          "203",
+          "204"
+        ],
+        "unreviewed_interior_pdf_pages": [
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201
+        ],
+        "interior_page_classification_pending": true,
+        "assembly_required": true,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-33/source-reviewed.json",
+          "sha256": "7e3b89d8a83af50e0e9042664e39a21c977a59440933ad7a8ca67f0a205d822b",
+          "bytes": 14140
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-33/source-index-schema.json",
+          "sha256": "9f9b8a5cc553eaaf1def66a88c2ce86f66037b4affbff879ca8fcc9b91178aae",
+          "bytes": 4559
+        },
+        "source_index_schemas": [
+          {
+            "path": "archive/pdf/1984-12/restoration/batch-33/source-index-schema.json",
+            "sha256": "9f9b8a5cc553eaaf1def66a88c2ce86f66037b4affbff879ca8fcc9b91178aae",
+            "bytes": 4559
+          }
+        ],
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-33/reproduction.json",
+          "sha256": "8529d619cfda58f1fcc87a5000d503e6fc748220da0f19189f686326528e1d0c",
+          "bytes": 2056
+        },
+        "source_code_connections": [],
+        "caption_associations_pending": [],
+        "source_credit": {
+          "byline": "김 덕 우",
+          "candidate": "김덕우",
+          "affiliation": "서울대 제어계측 공학과",
+          "chapter": "제6장 베이직의 이식",
+          "source_pdf_page": 180,
+          "printed_page": "178"
+        },
+        "assembly_compatibility": "Opening partial only;21 remaining physical pages and complete assembly pending. Preserve every table/cell/blank/merge/physical-cell-line/syntax/flow/memory/address/quote/caption/review index and original source metadata. Unknown folios mean uninspected,not unpaginated. No global offset or unseen interior classification.",
+        "excluded_advertisement": {
+          "pdf_page": 181,
+          "printed_page": "179",
+          "coverage": "Upper article only;independent lower book advertisement excluded."
+        }
+      },
+      "classification_evidence": [
+        "Independentdesign6title/chapter/byline178/PDF180;sourceendingZ80listingEND204/PDF206 andnextcryptography205/PDF207 inspected. Boundaryphysicalspan180–206 verified at endpoints,not claimofuncheckedinteriorcoverage. Sixopeningpages178–183mapped. ImmediateoutgoingPDF186observed184continuesarticle.",
+        "All17wholeviews179–186/202–210 inspectedbeforemapping;sixmapped/11outside/twotasks. FifteeninteriorPDF187–201 remainunreviewed/unclassified/folio unknown. Deferred21physicalpages186–206 andcompleteassemblyrequired;no globalfoliooffset.",
+        "125filenative/independentrebuild exact:39regions/28blocks/13originals/30regionalspans/49reviewnotes. Eighttables55rows201cells16blanks219physicalcelllines/sevenmerges;fournumbereddiagrams/128labellines/fourcaptions. Source LOAC/LOAD,FORdash/ADC8/FOOOH/CLABL/YRSCK/FSTPV/RWRK andnumericrangevariants remainliteral. No code execution/opcode/byte/address/arithmetic/graphic reconstruction."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0021",
@@ -3046,10 +3390,19 @@
       "toc_entry_id": "maso-1984-12-toc-0022",
       "title": "공모입선작",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_record": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/contest-classification.json",
+        "sha256": "f6fcca7d0a2684b7aef0a5fa98d7cbe3e691fd60934c87864ea1420c81cc57d1",
+        "bytes": 1714
+      },
+      "classification_evidence": [
+        "UnpaginatedPDF179 contains independent공모입선작 heading andthreecanonicalchildreferences213/214/219. No signedbody/introduction/listingownedbyheading;canonicalchildren0023/0024/0025unchanged.",
+        "Separatefromtechnical0019andits178/205references on sameunpaginateddivider. No inferredfolio orduplicatedarticlebody."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0023",
@@ -3213,11 +3566,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 16,
+    "classified_articles": 17,
     "readable_articles": 16,
-    "partial_articles": 0,
-    "nonowning_headings": 4,
-    "unresolved_eligibility": 17,
+    "partial_articles": 1,
+    "nonowning_headings": 5,
+    "unresolved_eligibility": 15,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -7234,48 +7587,392 @@
         "sha256": "b0a57343b64582b70d90b000c827a45dc4982dfb735be68d319cade5a0d86b2c",
         "bytes": 7499327
       }
+    },
+    {
+      "id": "batch-33",
+      "status": "complete-partial-article-opening-and-heading",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/checkpoint.json",
+        "sha256": "628106afadbf5c28ef0b7a775bc273ad4a926e9cb51fdd8c3c750b8aa9b957d0",
+        "bytes": 6512
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/checkpoint-r01.json",
+        "sha256": "2a9c59620cc865af6394f5e7d90911d08703ead39aa660986de591380bf0c683",
+        "bytes": 7087
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-33/validation-r01.json",
+        "sha256": "85e2ad647ca6dc0c9d88a6a6bfe79581c56811416c0858ccae5a0dae1ae2855c",
+        "bytes": 2284
+      },
+      "initial_validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-33/validation.json",
+        "sha256": "4292ba116f32e453e4c708ce90925ba5cee15a7105222f3dcbc36a8e522e84db",
+        "bytes": 2284
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-33/verify-r01.py",
+        "sha256": "603bc7ee0967aff776d47bd1cce9c3bc35911ff2e9abcb73791c3ad308a8cab7",
+        "bytes": 20646
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/source-reviewed.json",
+        "sha256": "7e3b89d8a83af50e0e9042664e39a21c977a59440933ad7a8ca67f0a205d822b",
+        "bytes": 14140
+      },
+      "contest_classification": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/contest-classification.json",
+        "sha256": "f6fcca7d0a2684b7aef0a5fa98d7cbe3e691fd60934c87864ea1420c81cc57d1",
+        "bytes": 1714
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/source-index-schema.json",
+        "sha256": "9f9b8a5cc553eaaf1def66a88c2ce86f66037b4affbff879ca8fcc9b91178aae",
+        "bytes": 4559
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/mapping-completed-r01.json",
+        "sha256": "62b4ea71723ea55df03f93e9e3cb56042ce35ee491b3ee3d208da46687258491",
+        "bytes": 1016
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/crop-repair-r01.json",
+        "sha256": "c3ff7c6db29b1ad63b4a57c4010aa8a9793d8d3245d47fafca4bf9c7e1cdb8c7",
+        "bytes": 6316
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/segment-scope.json",
+        "sha256": "7ff57b7a442937a7c2951eaaf95d672c31d57437fb18d2117d6bbb7034963051",
+        "bytes": 3473
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/preflight-reviewed.json",
+        "sha256": "74a3c11d4089cf9ce3b782b7e57486b74906ab668eaa2351ded1d90dcee3eb6d",
+        "bytes": 20150
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/ocr-completed.json",
+        "sha256": "bbde36dd0b98291bab111add0ca3b4b83ce3d96896d33be900cad08629acf6ba",
+        "bytes": 1300
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/source-correction-pass-completed.json",
+        "sha256": "ce0263e6c22e5d6ce8aef095134aa03c2454f0b17974054338921a57828ed7b1",
+        "bytes": 6194
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/correction-completed.json",
+        "sha256": "4b14852ab6095e24b725ce83e0529581b4005bc6aede87d5c3ac8c768420e244",
+        "bytes": 1453
+      },
+      "source_table_readings": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/source-table-readings.json",
+        "sha256": "df227a81746db3253f0254f79fd70a12c6f8befa81b5a317c37b8ef81183cf21",
+        "bytes": 8822
+      },
+      "retained_serializer_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/serializer-revision-r01.json",
+        "sha256": "8fd3eb274b55b7d925019c9c8bbd4481c17e2e483f25ad5d6d8a9b9b69961781",
+        "bytes": 1140
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-33/reproduction.json",
+        "sha256": "8529d619cfda58f1fcc87a5000d503e6fc748220da0f19189f686326528e1d0c",
+        "bytes": 2056
+      },
+      "actual_ocr_tasks": 26,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 19,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 32631,
+      "rebuild_files": 125,
+      "new_source_renders": 11,
+      "reused_full_page_renders": 6,
+      "outside_map_lookups": 11,
+      "canonical_tasks": 2,
+      "shared_pipeline_tests": 203,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/perspective-assembly/tests-implementation-r01.log",
+        "sha256": "2c2bf02ff36a6061e1f199522442d83c03d7a6398582cbec37d22b317869c452",
+        "bytes": 34581
+      },
+      "tests_reused_without_rerun": true,
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "perspective_implementation_pins_verified": 3,
+      "regions": 39,
+      "blocks": 28,
+      "figures": 13,
+      "ocr_tasks": 26,
+      "regional_text_ranges": 30,
+      "review_notes": 49,
+      "prose_joins": 2,
+      "tables": 8,
+      "table_rows": 55,
+      "table_cells": 201,
+      "blank_table_cells": 16,
+      "table_header_cells": 29,
+      "physical_cell_lines": 219,
+      "merged_cell_associations": 7,
+      "table_local_headings": 6,
+      "source_keywords": 30,
+      "source_abbreviations": 30,
+      "source_format_fields": 33,
+      "source_operator_fields": 10,
+      "error_messages": 3,
+      "special_keys": 1,
+      "syntax_tokens": 141,
+      "angle_fields": 45,
+      "general_line_forms": 1,
+      "syntax_claims": 2,
+      "signed_range_claims": 3,
+      "numeric_claims": 97,
+      "source_symbols": 438,
+      "quote_glyphs": 18,
+      "bullet_glyphs": 4,
+      "feature_claims": 4,
+      "hex_fields": 27,
+      "model_references": 10,
+      "diagram_labels": 128,
+      "flow_label_lines": 52,
+      "memory_label_lines": 76,
+      "flow_terms": 7,
+      "branch_labels": 7,
+      "flow_section_labels": 4,
+      "flow_section_descriptions": 4,
+      "pointer_labels": 6,
+      "work_labels": 16,
+      "work_boundaries": 16,
+      "work_label_boundary_associations": 16,
+      "figure_references": 4,
+      "bylines": 1,
+      "affiliations": 1,
+      "chapters": 1,
+      "titles": 1,
+      "caption_links": 4,
+      "caption_parts": 4,
+      "uncaptioned_figures": 9,
+      "listing_groups": 0,
+      "physical_code_rows": 0,
+      "inline_examples": 301,
+      "deferred_physical_pages": 21,
+      "uninspected_interior_pages": 15,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-33/preserved-work-inventory.json",
+        "sha256": "d2da37a0efc8502056cf655eff50a4865d6f0c2ce589c7051c0fbab0561054ac",
+        "bytes": 7625808
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-33",
-    "goal": "Verify source boundaries ofcanonicalmicrocomputerdesign6article0020 starting178;restoreuptosixconfirmedopeningpages,andclassifycontestheading0022fromsourceifconfirmed.",
+    "id": "batch-34",
+    "goal": "Restore next six confirmed physical design6 pagesPDF186–191 after full-page andfolio inspection;retain allsourceprose/tables/flow/memory/syntaxandlistingswithoutrepair.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0020",
-      "maso-1984-12-toc-0022"
+      "maso-1984-12-toc-0020"
     ],
+    "known_boundary_span": {
+      "opening_pdf": 180,
+      "ending_pdf": 206,
+      "previous_pdf": 179,
+      "next_pdf": 207,
+      "opening_printed_page": "178",
+      "ending_printed_page": "204",
+      "boundary_pdf_span": [
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "observed_folios": [
+        {
+          "pdf_page": 180,
+          "printed_page": "178"
+        },
+        {
+          "pdf_page": 181,
+          "printed_page": "179"
+        },
+        {
+          "pdf_page": 182,
+          "printed_page": "180"
+        },
+        {
+          "pdf_page": 183,
+          "printed_page": "181"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "182"
+        },
+        {
+          "pdf_page": 185,
+          "printed_page": "183"
+        },
+        {
+          "pdf_page": 186,
+          "printed_page": "184"
+        },
+        {
+          "pdf_page": 202,
+          "printed_page": "200"
+        },
+        {
+          "pdf_page": 203,
+          "printed_page": "201"
+        },
+        {
+          "pdf_page": 204,
+          "printed_page": "202"
+        },
+        {
+          "pdf_page": 205,
+          "printed_page": "203"
+        },
+        {
+          "pdf_page": 206,
+          "printed_page": "204"
+        }
+      ],
+      "unreviewed_interior_pdf_pages": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "interior_page_classification_pending": true,
+      "all_interior_pages_reviewed": false,
+      "byline_candidate": "김덕우",
+      "affiliation_candidate": "서울대 제어계측 공학과",
+      "chapter_candidate": "제6장 베이직의 이식",
+      "boundary_evidence": "Independenttitle/byline178/PDF180. EndingZ80assemblylistingon204/PDF206 hasfinalOTOPdefinitionandEND;next205/PDF207independentlyopenspublic-keycryptography. Fullphysicalspan180–206 isboundary-defined,notassertionofuncheckedinteriorfolios/bodyclassification.",
+      "mapped_pdf_pages": [
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "mapped_printed_pages": [
+        "178",
+        "179",
+        "180",
+        "181",
+        "182",
+        "183"
+      ],
+      "deferred_pdf_pages": [
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "deferred_printed_pages": [
+        "184",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "200",
+        "201",
+        "202",
+        "203",
+        "204"
+      ],
+      "unobserved_folio_policy": "Nonehere meansnotyetinspected,notunpaginated. Do notderivefoliosfromPDFoffset. Deferredsourcepageswillbeinspected/qualifiedbeforetheirnative mapping."
+    },
     "mapping_targets": [
-      180,
-      181,
-      182,
-      183,
-      184,
-      185
+      186,
+      187,
+      188,
+      189,
+      190,
+      191
     ],
     "printed_page_targets": [
-      "178",
-      "179",
-      "180",
-      "181",
-      "182",
-      "183"
+      "184",
+      null,
+      null,
+      null,
+      null,
+      null
     ],
     "provisional_lookup_targets": [
-      179,
       180,
-      181,
-      182,
-      183,
-      184,
       185,
-      202,
-      203,
-      204,
-      205,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
       206,
-      207,
-      208,
-      209,
-      210
+      207
     ],
     "full_extent_review_pending": true,
     "limits": {
@@ -7283,7 +7980,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Independentdesign6 title/subtitle베이직의이식/김덕우credit observedon178/PDF180. PDF181/179upperarticle+lowerbookad;excludead. Known180–182/PDF182–184continuewithflowcharts/tables/prose;fullendunverified. Nextcanonicalcryptographystarts205candidate;inspecttargeted202–210endingwindow plus179–185openingtoverifyactualstart/end/neighbors withoutscanninga27pagecandidateextentastwentyoutside-maplookups. Do notinferglobaloffsetoruncheckedinteriorpageclassification. Mapatmostsixconfirmedopeningpages;retainremainder/assemblyexplicitly. Separatecontestheading0022isprintedonunpaginatedPDF179with213/214/219references;verifyitscanonicalchildrenandnon-owningstatusasthedeclaredsecondtask. Do notassigndividerfolio. Preserveallphysicalcode/tables/operatorglyphs/memory/flowlabels/sourceerrors. Allselectedchecks useperspective_literal_assembly wrapper;26implementationpins/203-testbaseline unchanged. No reader rebuild."
+    "note": "Opening design-a178–183 selectedpartial;21physicalpages186–206deferred. PDF186observed184alreadyreviewed;PDF187–201notreviewedandfoliosunknown,notunpaginated. Verifyfolios/bodyforeachnewpagebeforemapping;do notgeneratefromoffset. Reusepinnedboundaryopening180/ending206/next207 andimmediateneighbor185;inspectoutgoing192beforemapping. Physicalspan27pagesknownatendpointsdoesnotcertifyinteriorcoverage. Preserveall13originalimages/eighttables/201cells/physicalcellwraps/16blanks/sevenmerges/sourceformat,operator,quote,flow,memory,address/caption/reviewindexesandnative metadata. SourceZ80listings200–204remainlater. Fullarticleassembly required afterallsegments. Contest0022isclassifiednon-owningwithchildren0023/24/25;technical0019alreadyclassified. Allselectedchecks useperspectivewrapper,26implementationpins/203-testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
