@@ -4048,7 +4048,61 @@
               "bytes": 3076726
             }
           }
-        ]
+        ],
+        "assembly_tooling": {
+          "status": "tested-adapter-ready-for-full-assembly",
+          "format": "design-literal-v1",
+          "implementation": {
+            "path": "archive/pdf/1984-12/restoration/design-assembly/implementation.json",
+            "sha256": "46f2dbbfc9f86d4d964eeb7141b8243fe328bf9d03fe00f4783a2d5103791079",
+            "bytes": 1602
+          },
+          "projection_probe": {
+            "path": "archive/pdf/1984-12/evidence/design-assembly/projection-probe.json",
+            "sha256": "5c103bc407b0d610c22b153847546489bf94f00f779dadbe3050e949eddd0252",
+            "bytes": 1097
+          },
+          "capability_audit": {
+            "path": "archive/pdf/1984-12/evidence/design-assembly/existing-adapter-capabilities.json",
+            "sha256": "5e466bc019158be96d3541c36447bdd58d5fe6409c5842d0f9465f395fa37bbf",
+            "bytes": 886
+          },
+          "input_audit": {
+            "path": "archive/pdf/1984-12/restoration/design-assembly/input-audit.json",
+            "sha256": "9aeeefa742c5e704b5dba7df544d9d36b247642ba74f029de4aa10446683998d",
+            "bytes": 142621
+          },
+          "tests": 213,
+          "focused_tests": 10,
+          "test_log": {
+            "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+            "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+            "bytes": 36219
+          },
+          "historical_implementation_pins_verified": 26,
+          "new_implementation_pins": 3,
+          "native_files_unchanged": 440,
+          "projected_category_occurrences": 279,
+          "projected_utf8_occurrences": 29792,
+          "physical_source_rows": 1759,
+          "readable_export_created": false,
+          "ledger_availability_promoted": false,
+          "retained_initial_failure": {
+            "path": "archive/pdf/1984-12/evidence/design-assembly/tests-failure-r00.json",
+            "sha256": "e808039df050e6fd1e2fe5db01b201e0143a2aa8a60fb94fdbe887db2e298c5e",
+            "bytes": 555
+          },
+          "retained_fixture_failures": {
+            "path": "archive/pdf/1984-12/evidence/design-assembly/tests-failure-r01.json",
+            "sha256": "51858ba8a44f517e9054349877e82f1534ed025d58c0f03ee3e8927914b59b1f",
+            "bytes": 607
+          },
+          "preserved_work_inventory": {
+            "path": "archive/pdf/1984-12/evidence/design-assembly/tooling-preserved-work-inventory.json",
+            "sha256": "8d770d113a488fe0cf0c4e206bfcc9bab828dae826890f42e02bc6f0084279e0",
+            "bytes": 7955493
+          }
+        }
       },
       "classification_evidence": [
         "Independentdesign6title/chapter/byline178/PDF180;sourceendingZ80listingEND204/PDF206 andnextcryptography205/PDF207 inspected. Boundaryphysicalspan180–206 verified at endpoints,not claimofuncheckedinteriorcoverage. Sixopeningpages178–183mapped. ImmediateoutgoingPDF186observed184continuesarticle.",
@@ -9038,7 +9092,7 @@
   "next_checkpoint": {
     "id": "design-assembly",
     "kind": "immutable-native-assembly",
-    "goal": "Audit source-category projection and assemble complete design(6)178–204 from five exact native inputs; add a separately tested adapter if existing tooling cannot preserve every native field/range/category. Verify independent rebuild before canonical promotion.",
+    "goal": "Assemble complete design(6)178–204 from five exact natives using the tested design-literal-v1 adapter. Review exact stage-note resolutions, verify every native/custom category and independent byte-identical rebuild, then promote canonical0020.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0020"
     ],
@@ -9312,7 +9366,62 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Five immutable natives design-a178–183/design-b184–189/design-c190–195/design-d196–201/design-e202–204 cover all27 physical article pages; no source pages or OCR queued. Complete article assembly is pending. Audit every custom source metadata/index/category before selecting an adapter. Preserve all original images/native bytes and exact ranges, tables/patch fields/shared captions/prose/spatial/diagram associations, physical listings/EQU/labels/quoted runs/messages/storage/ORG/port/bit/symbolic fields, old unknown bands, uncertain MEMOF tail and final leading-semicolon END row. No executable reconstruction, source-byte recovery, target/alias arithmetic or expected opcode/hardware repairs. Keep26 implementation pins until a justified separately tested tooling change; use perspective wrapper for existing selected packages. Promote0020 only after complete export/rebuild/source/range/preservation/accounting audits. No reader rebuild."
+    "note": "Five immutable natives design-a178–183/design-b184–189/design-c190–195/design-d196–201/design-e202–204 cover all27 physical article pages; no source pages or OCR queued. Complete article assembly is pending. Audit every custom source metadata/index/category before selecting an adapter. Preserve all original images/native bytes and exact ranges, tables/patch fields/shared captions/prose/spatial/diagram associations, physical listings/EQU/labels/quoted runs/messages/storage/ORG/port/bit/symbolic fields, old unknown bands, uncertain MEMOF tail and final leading-semicolon END row. No executable reconstruction, source-byte recovery, target/alias arithmetic or expected opcode/hardware repairs. Keep26 implementation pins until a justified separately tested tooling change; use perspective wrapper for existing selected packages. Promote0020 only after complete export/rebuild/source/range/preservation/accounting audits. No reader rebuild. Adapter tools.pdf_restore.design_literal_assembly is now tested:213 PDF tests/ten focused regressions and full five-native probe pass. Use its scoped check/installed dispatcher for all selected packages. Keep the three implementation.json pins plus26 prior pins unchanged. No readable export or availability promotion yet; production recipe and full independent assembly remain pending.",
+    "phase": "complete-article-export",
+    "tooling": {
+      "status": "tested-adapter-ready-for-full-assembly",
+      "format": "design-literal-v1",
+      "implementation": {
+        "path": "archive/pdf/1984-12/restoration/design-assembly/implementation.json",
+        "sha256": "46f2dbbfc9f86d4d964eeb7141b8243fe328bf9d03fe00f4783a2d5103791079",
+        "bytes": 1602
+      },
+      "projection_probe": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/projection-probe.json",
+        "sha256": "5c103bc407b0d610c22b153847546489bf94f00f779dadbe3050e949eddd0252",
+        "bytes": 1097
+      },
+      "capability_audit": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/existing-adapter-capabilities.json",
+        "sha256": "5e466bc019158be96d3541c36447bdd58d5fe6409c5842d0f9465f395fa37bbf",
+        "bytes": 886
+      },
+      "input_audit": {
+        "path": "archive/pdf/1984-12/restoration/design-assembly/input-audit.json",
+        "sha256": "9aeeefa742c5e704b5dba7df544d9d36b247642ba74f029de4aa10446683998d",
+        "bytes": 142621
+      },
+      "tests": 213,
+      "focused_tests": 10,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "historical_implementation_pins_verified": 26,
+      "new_implementation_pins": 3,
+      "native_files_unchanged": 440,
+      "projected_category_occurrences": 279,
+      "projected_utf8_occurrences": 29792,
+      "physical_source_rows": 1759,
+      "readable_export_created": false,
+      "ledger_availability_promoted": false,
+      "retained_initial_failure": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-failure-r00.json",
+        "sha256": "e808039df050e6fd1e2fe5db01b201e0143a2aa8a60fb94fdbe887db2e298c5e",
+        "bytes": 555
+      },
+      "retained_fixture_failures": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-failure-r01.json",
+        "sha256": "51858ba8a44f517e9054349877e82f1534ed025d58c0f03ee3e8927914b59b1f",
+        "bytes": 607
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tooling-preserved-work-inventory.json",
+        "sha256": "8d770d113a488fe0cf0c4e206bfcc9bab828dae826890f42e02bc6f0084279e0",
+        "bytes": 7955493
+      }
+    }
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

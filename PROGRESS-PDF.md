@@ -75,9 +75,20 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 perspective_literal_assembly.check/installed(), delegating cpm_literal_assembly and
 graphic_literal_assembly. Preserve all 26 implementation pins.
 
-Next: design-assembly. Assess the existing assembly pipeline against every field
-and source category in all five native corrections, then add a separately tested
-adapter if required. Assemble observed 178–204 from the exact five immutable inputs;
+Assembly tooling is now tested in tools.pdf_restore.design_literal_assembly using
+mode design-literal-v1. All 213 PDF tests pass, including ten focused regressions.
+The five-native probe preserves all 440 files, 279 segment/category occurrences,
+29,792 UTF-8 ranges and 1,759 physical listing rows. Source metadata, four BASIC
+labels, the leading-semicolon END row and MEMOF uncertainty remain exact. Preserve
+the three new implementation.json pins as well as the 26 prior pins. The initial
+parent-scan validation gap and two test fixture/assertion failures are retained;
+all were resolved before the passing probe/full suite. No OCR, source correction,
+readable assembly export or canonical availability promotion occurred in this phase.
+Use design_literal_assembly.check/installed() for the new and earlier formats.
+
+Next: design-assembly. Use the tested design-literal-v1 adapter to create the
+production recipe with explicit stage-note resolutions, then assemble observed
+178–204 from the exact five immutable inputs;
 retain all assets, native bytes, range projections, tables, opaque patch fields,
 prose/spatial/diagram/caption associations, physical listing groups, quoted runs,
 message/storage/ORG fields, MEMOF uncertainty and the leading-semicolon END row.
