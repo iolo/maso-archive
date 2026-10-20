@@ -22,7 +22,7 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
-## February 1985 in progress, 2026-10-20
+## February 1985 in progress, 2026-10-21
 
 Batch01 restores 편집자 노트, canonical0009, on printed17/PDF19.
 The selected JSON/assets package is
@@ -37,9 +37,18 @@ the independent rebuild. Nine questions retain 52 assembly ordinals, 12 BASIC
 labels, 24 arithmetic cells and five explicit unknown bands. All 2,482 exact
 UTF-8 ranges and 68 image decodes pass; unchanged 213-test baseline reused.
 
-The 56-entry issue ledger records two readable/sample-reviewed articles and 54
-unresolved entries. Next is batch03: verify 이 책을 처음 대하는 독자에게 from
-printed22/PDF24 and restore it within the usual limits. PDF23/24 renders can be reused. Cover selection,
+Batch03 completes 이 책을 처음 대하는 독자에게, canonical0011, on printed22–26/
+PDF24–28. All 215 files at `archive/pdf/1985-02/packages/batch-03-r01/reader-guide`
+match the independent rebuild. Fifty text blocks and six originals retain three
+BASIC examples, two assembly listings, two dumps and two interactive-entry panels.
+All 2,766 exact ranges, 56 image decodes, 50 code rows, 18 assembly ordinals,
+11 BASIC labels and four caption links pass. Two unknown bands, four faint heading
+candidates, literal command/byte discrepancies and duplicate MSX step③ remain explicit.
+One crop repair preceded 50 OCR tasks; no failure/retry. The 213-test baseline is reused.
+
+The 56-entry issue ledger records three readable/sample-reviewed articles and 53
+unresolved entries. Next is batch04: verify 애독자 광장 from printed27/PDF29
+and restore it within the usual limits. PDF28/29 renders can be reused. Cover selection,
 remaining source-page accounting and issue closeout are pending. See the
 [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-20. Read this before future PDF restoration. This is the current
+Updated 2026-10-21. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -32,9 +32,14 @@ paired OCR or a new engine comparison.
   24 arithmetic cells validate. Four crop repairs preceded 63 tasks; no OCR
   failures/retries. Two separator bands and three quoted-space bands remain
   explicit unknowns. The unchanged 213-test baseline is reused.
-  Two articles are readable/sample-reviewed; 54 of 56 canonical entries remain
-  unresolved. Next: batch03 verifies 이 책을 처음 대하는 독자에게 from
-  printed22/PDF24 within the normal limits, reusing saved PDF23/24 renders.
+  Batch03 completes 이 책을 처음 대하는 독자에게 on printed22–26/PDF24–28.
+  All 215 package/rebuild files match; 2,766 exact ranges, 56 images, 50 code rows,
+  18 assembly ordinals, 11 BASIC labels and four caption links pass. One crop repair
+  preceded 50 tasks; no OCR failures/retries. Two unknown bands, four faint headings,
+  source command/byte differences and duplicate MSX step③ remain explicit.
+  Three articles are readable/sample-reviewed; 53 of 56 canonical entries remain
+  unresolved. Next: batch04 verifies 애독자 광장 from printed27/PDF29 within
+  the normal limits, reusing saved PDF28/29 renders.
   Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

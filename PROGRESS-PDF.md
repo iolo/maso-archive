@@ -1,18 +1,19 @@
 # PDF restoration progress
 
-Updated 2026-10-20. This file is the status index; detailed records live under
+Updated 2026-10-21. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. The editor's note on printed17/PDF19
-and Q&A on printed18–21/PDF20–23 are readable/sample-reviewed; 54 of 56 canonical
-entries remain unresolved. Both independent rebuilds match, and 213 PDF tests
-pass. Q&A retains all 52 assembly ordinals, 12 BASIC labels and 24 arithmetic cells,
-with five explicit unknown bands. Next is extent review and restoration of
-이 책을 처음 대하는 독자에게 from printed22/PDF24. Cover selection and issue
-closeout remain pending.
+February 1985 restoration is in progress. The editor's note, Q&A and reader guide
+are readable/sample-reviewed; 53 of 56 canonical entries remain unresolved.
+The reader guide covers printed22–26/PDF24–28. All 215 files match its independent
+rebuild; 2,766 exact ranges, 56 images, 50 code rows, 18 assembly ordinals,
+11 BASIC labels and four caption links pass. Two unknown bands and localized
+source candidates remain explicit. The unchanged pipeline reuses its passing
+213-test baseline. Next is extent review and restoration of 애독자 광장 from
+printed27/PDF29. Cover selection and issue closeout remain pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild.
