@@ -1795,7 +1795,8 @@
       "classification_evidence": [
         "Independent title/cube/byline 고일두 and 서울공대 건축과 박사과정 onrightPDF133/observed131;left office-move ad separate. All19 source pagesPDF133–151 observed131–149 independently reviewed with neighbors132/152. Narrative closing140 continues into AppleSoft141–144 andGBASIC144–149;last4290 END on149. No global offset or inferred folio.",
         "Opening131–136 native/rebuild retain148 identical files,40 regions,33 blocks,seven original drawing frames,39regional text spans,six source joins,20matrices/74rows/264literalcells,26display spans,15fractions,296math glyphs,four equation labels,101diagram label tokens,seven captions in six frames and16unnumberedMOVE/DRAWrows/64tokens. Source anomalies and glyph/Unicode uncertainty preserved;no arithmetic,formula orgraphic reconstruction. Remaining137–149 andfullassembly required.",
-        "Middle137–142 native independently reproduces154files. Bothnatives cover131–142 with86regions/64blocks/20originals. Current226physicalrows include170actualnumberedAppleSoftentries,64DATAfields,27outputvalues,87matrixcells,43flowlabels and15variabledefinitions;all sourceerrors retained. Later143–149 pluscompleteassembly remain. Recheckfound opening134 reflectionparagraph closingparenthesis clippedbyoldcrop;explicitretained revision required beforeassembly. Originalnative untouched;prior missing-source-parenthesis statement is not finalsourceauthority."
+        "Middle137–142 native independently reproduces154files. Bothnatives cover131–142 with86regions/64blocks/20originals. Current226physicalrows include170actualnumberedAppleSoftentries,64DATAfields,27outputvalues,87matrixcells,43flowlabels and15variabledefinitions;all sourceerrors retained. Later143–149 pluscompleteassembly remain. Recheckfound opening134 reflectionparagraph closingparenthesis clippedbyoldcrop;explicitretained revision required beforeassembly. Originalnative untouched;prior missing-source-parenthesis statement is not finalsourceauthority.",
+        "Listing143–148 native independently reproduces56files. Three natives cover131–148 with103regions/67blocks/27originals. Current406physicalrows retain378numberedentries,49DATAfields,65literal targetfields andtwo independent sourcevariants. FinalGBASIC149,explicitopening134parenthesis crop/source revision,knownprior10.3caption association andcompatible fullassembly remain. No oldnative changes."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-12/packages/perspective-a",
@@ -1818,7 +1819,13 @@
             141,
             142,
             143,
-            144
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150
           ],
           "printed_pages": [
             "131",
@@ -1832,11 +1839,17 @@
             "139",
             "140",
             "141",
-            "142"
+            "142",
+            "143",
+            "144",
+            "145",
+            "146",
+            "147",
+            "148"
           ],
-          "regions": 86,
-          "blocks": 64,
-          "figures": 20
+          "regions": 103,
+          "blocks": 67,
+          "figures": 27
         },
         "segments": [
           {
@@ -1900,6 +1913,37 @@
               "figures": 13
             },
             "segment": "b"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/perspective-c",
+            "article_id": "scan-maso-1984-12-toc-0013",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/perspective-c/manifest.json",
+              "sha256": "6fdb75bcf57572efc4d6f3e08581fddf148d1a8b2599b065f9477880c4972052",
+              "bytes": 9389
+            },
+            "coverage": {
+              "pdf_pages": [
+                145,
+                146,
+                147,
+                148,
+                149,
+                150
+              ],
+              "printed_pages": [
+                "143",
+                "144",
+                "145",
+                "146",
+                "147",
+                "148"
+              ],
+              "regions": 17,
+              "blocks": 3,
+              "figures": 7
+            },
+            "segment": "c"
           }
         ],
         "full_source_extent": {
@@ -1948,21 +1992,9 @@
           "coverage": "Nineteen observed source pages including prose,data/output examples,AppleSoft andGBASIC listings. Last4290 END on149."
         },
         "deferred_printed_pages": [
-          "143",
-          "144",
-          "145",
-          "146",
-          "147",
-          "148",
           "149"
         ],
         "deferred_pdf_pages": [
-          145,
-          146,
-          147,
-          148,
-          149,
-          150,
           151
         ],
         "assembly_required": true,
@@ -1986,15 +2018,56 @@
             "path": "archive/pdf/1984-12/restoration/batch-25/source-index-schema.json",
             "sha256": "4f0784d1af3b156a0a5b8de9fb297f8f71d073f6ff190823ae5be3a9fb612813",
             "bytes": 5059
+          },
+          {
+            "path": "archive/pdf/1984-12/restoration/batch-26/source-index-schema.json",
+            "sha256": "8039f96a7e0136112734460919eb09c84bb347ed12c60f95db412f2681d264ea",
+            "bytes": 3807
           }
         ],
-        "assembly_compatibility": "Preserve every native field/array including literal math/matrix/cell/row/ellipsis/fraction/glyph/diagram/flowlabel/flowline/variable/outputparameter/DATA/physical/logical/token/identifier/quote/string/linereference/caption/review and original metadata. Keep original graphics and every physical wrap. Resolve recorded opening134 crop defect by explicit retained revision beforecompleteassembly;no silent rewrites orcategory loss. CP/M adapter is notgeneric forperspective.",
-        "outgoing_boundary": "AppleSoft listing current142 ends1690 NEXT I;143 starts1700 REM,continues through144 before GBASIC starts144. No source ending inferred from narrative140.",
-        "caption_associations_pending": [],
+        "assembly_compatibility": "Preserve every native field/array/metadata including physical/logical/regional/token/identifier/numeric/symbol/comment/dash/quote/string/referenceclause/targetfield/DATA/inline/review/caption andexternalcaption provenance. Keep independentlistingvariants andsevenoriginalframes. Resolveearlier134 cropdefect byexplicitretainedrevision;connectknown10.3heading andfinalGBASIC149 beforecompleteassembly. No semantic/arithmetic/cross-version orgraphic reconstruction.",
+        "outgoing_boundary": "CurrentGBASIC148ends3770comment;149continues3780 andends4290 END. Source149stilldeferred.",
+        "caption_associations_pending": [
+          {
+            "listing_id": "applesoft-ending-143-144",
+            "figure_ids": [
+              "p143-apple-image",
+              "p144-apple-image"
+            ],
+            "status": "associate-known-earlier-source-heading-at-complete-assembly",
+            "external_caption": {
+              "source_package_manifest": {
+                "path": "archive/pdf/1984-12/packages/perspective-b-r01/manifest.json",
+                "sha256": "9f6a2faa74d035d1c7e523264e2ca18f281b9828b1b86f43bf8abc68b67f9842",
+                "bytes": 26447
+              },
+              "source_corrections": {
+                "path": "archive/pdf/1984-12/packages/perspective-b-r01/corrections.json",
+                "sha256": "0fcbb629ee0d3f1f10cd677cfdf62422bb960aecddaf67afc5a57d8846f6f097",
+                "bytes": 3616731
+              },
+              "source_download": {
+                "path": "archive/pdf/1984-12/packages/perspective-b-r01/article.txt",
+                "sha256": "e876ac427d2df75ed00e0b03179ef67e628eb5a3db0542798ebdbdfe8c88a65a",
+                "bytes": 14620
+              },
+              "source_caption_block_id": "p141-heading",
+              "source_caption_region_id": "p141-heading",
+              "source_scan": {
+                "path": "archive/pdf/1984-12/packages/perspective-b-r01/ocr-page143/p141-heading.png",
+                "sha256": "b3aa4932237f750531ecd09c3807159468384fbac1af070f3e150ba794e956c5",
+                "bytes": 24036
+              },
+              "external_utf8_byte_start": 10002,
+              "external_utf8_byte_end_exclusive": 10046,
+              "caption_text": "10.3. 애플소프트 베이직 프로그램"
+            }
+          }
+        ],
         "latest_source_review": {
-          "path": "archive/pdf/1984-12/restoration/batch-25/source-reviewed.json",
-          "sha256": "4a44974fc7d4e598830824972d27cf0a62c9b374c51f5d440266a70d2d37318f",
-          "bytes": 18278
+          "path": "archive/pdf/1984-12/restoration/batch-26/source-reviewed.json",
+          "sha256": "b2b0bbe875737e44ea40258fafbf5c07f4757b0dbaae0400b775bfbf424a2814",
+          "bytes": 18241
         },
         "required_native_revisions": [
           {
@@ -2009,6 +2082,60 @@
               "bytes": 1588
             },
             "reason": "Fullsourcepage shows closingparenthesis beyond priorrightcrop edge;oldnativeandincorrect missingparenthesis claim preserved as superseded evidence. Fresh boundedcrop/OCR/correction/indexrevision required."
+          }
+        ],
+        "source_code_connections": [
+          {
+            "listing_id": "applesoft-ending-143-144",
+            "figure_ids": [
+              "p143-apple-image",
+              "p144-apple-image"
+            ],
+            "incoming_listing_id": "applesoft-opening-141-142",
+            "incoming_package": {
+              "path": "archive/pdf/1984-12/packages/perspective-b-r01/manifest.json",
+              "sha256": "9f6a2faa74d035d1c7e523264e2ca18f281b9828b1b86f43bf8abc68b67f9842",
+              "bytes": 26447
+            },
+            "external_caption": {
+              "source_package_manifest": {
+                "path": "archive/pdf/1984-12/packages/perspective-b-r01/manifest.json",
+                "sha256": "9f6a2faa74d035d1c7e523264e2ca18f281b9828b1b86f43bf8abc68b67f9842",
+                "bytes": 26447
+              },
+              "source_corrections": {
+                "path": "archive/pdf/1984-12/packages/perspective-b-r01/corrections.json",
+                "sha256": "0fcbb629ee0d3f1f10cd677cfdf62422bb960aecddaf67afc5a57d8846f6f097",
+                "bytes": 3616731
+              },
+              "source_download": {
+                "path": "archive/pdf/1984-12/packages/perspective-b-r01/article.txt",
+                "sha256": "e876ac427d2df75ed00e0b03179ef67e628eb5a3db0542798ebdbdfe8c88a65a",
+                "bytes": 14620
+              },
+              "source_caption_block_id": "p141-heading",
+              "source_caption_region_id": "p141-heading",
+              "source_scan": {
+                "path": "archive/pdf/1984-12/packages/perspective-b-r01/ocr-page143/p141-heading.png",
+                "sha256": "b3aa4932237f750531ecd09c3807159468384fbac1af070f3e150ba794e956c5",
+                "bytes": 24036
+              },
+              "external_utf8_byte_start": 10002,
+              "external_utf8_byte_end_exclusive": 10046,
+              "caption_text": "10.3. 애플소프트 베이직 프로그램"
+            }
+          },
+          {
+            "listing_id": "gbasic-opening-144-148",
+            "figure_ids": [
+              "p144-gb-image",
+              "p145-gb-image",
+              "p146-gb-image",
+              "p147-gb-image",
+              "p148-gb-image"
+            ],
+            "caption_block_id": "p144-gb-heading",
+            "later_continuation_required": true
           }
         ]
       }
@@ -5157,11 +5284,141 @@
         "sha256": "71b18329bb01a271c1cad3850be61025c43f7f0ec8c1ab61f037ee96c56191ce",
         "bytes": 6652712
       }
+    },
+    {
+      "id": "batch-26",
+      "status": "complete-partial-article-listing-continuation",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/checkpoint.json",
+        "sha256": "dd571b43dd42134f53ceeb140c23c3aca163a837b592cfc6fe12f43d334d266a",
+        "bytes": 5965
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-26/validation-r01.json",
+        "sha256": "b8010e94687699492c23b33a94692c142573a28f09f47ce905aeed42dcfde9f2",
+        "bytes": 1589
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-26/verify.py",
+        "sha256": "704c0f16f9d2643dc3d9c469543e0db396b81d4472cf7e840735390b819501a1",
+        "bytes": 14481
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/source-reviewed.json",
+        "sha256": "b2b0bbe875737e44ea40258fafbf5c07f4757b0dbaae0400b775bfbf424a2814",
+        "bytes": 18241
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/source-index-schema.json",
+        "sha256": "8039f96a7e0136112734460919eb09c84bb347ed12c60f95db412f2681d264ea",
+        "bytes": 3807
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/mapping-completed.json",
+        "sha256": "c3809ab7cee600d8b6b1946dc1f5805c91985a3818a9226eb4b9daa4b3d79a21",
+        "bytes": 672
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/crop-repair-r01.json",
+        "sha256": "798bc9bab28c8aa2956cd269f23c1310647127bf961fe9911eb43555177b41f9",
+        "bytes": 2185
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/segment-scope.json",
+        "sha256": "553d827b67064905decd584c84dfb6abf21d13355651a39d433d4f796987fdae",
+        "bytes": 4125
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/preflight-reviewed.json",
+        "sha256": "aea6b929d4be5159868b48a4033ce1a8792cf3cb0b9e201dfa486f99a5a1c92f",
+        "bytes": 7905
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/ocr-completed.json",
+        "sha256": "98e5d498a416e7653323d4cfb2fb3be5b8584c0788da9c007bbac8305c0e3282",
+        "bytes": 1299
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/correction-completed.json",
+        "sha256": "eb18ccbdaffee0ee38c0b444e7fa344de085283c5e226e18c57bac1aa30af24e",
+        "bytes": 873
+      },
+      "resume_assessment": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/resume-assessment.json",
+        "sha256": "bf7723c1be088282066711a613f64879164e7d31a03e62a2e0e9ed4bf505ff19",
+        "bytes": 562
+      },
+      "opening_defect_followup": {
+        "path": "archive/pdf/1984-12/restoration/batch-25/opening-defect-followup.json",
+        "sha256": "3a919c035cfcf7629f3b7c62fe7a16bfb3a9b67dc441aba0d878bc0dd3b8b85c",
+        "bytes": 1588
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-26/reproduction.json",
+        "sha256": "273b2e59344a6e61ab15fc5ae0d46a3764182a57f82846b109d87f83d0558437",
+        "bytes": 1429
+      },
+      "actual_ocr_tasks": 10,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 2,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 28907,
+      "rebuild_files": 56,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 22,
+      "outside_map_lookups": 16,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 193,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/batch-24/test-pdf-r01.log",
+        "sha256": "7d0b4626654ab0d3427d1822a5326faefaab128a64637ec8d756a3b59297a3f1",
+        "bytes": 32976
+      },
+      "tests_reused_without_rerun": true,
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "opening_native_revision_pending": true,
+      "regions": 17,
+      "blocks": 3,
+      "figures": 7,
+      "ocr_tasks": 10,
+      "regional_text_ranges": 10,
+      "review_notes": 12,
+      "listing_groups": 2,
+      "physical_code_rows": 406,
+      "nonblank_physical_rows": 404,
+      "logical_basic_entries": 378,
+      "applesoft_logical_entries": 100,
+      "gbasic_logical_entries": 278,
+      "transcript_tokens": 1591,
+      "code_identifiers": 1378,
+      "numeric_literal_fragments": 897,
+      "visible_code_symbols": 1537,
+      "comment_markers": 74,
+      "decorative_runs": 2,
+      "visible_quote_glyphs": 165,
+      "paired_string_candidates": 45,
+      "line_reference_clauses": 55,
+      "target_label_fields": 65,
+      "data_records": 6,
+      "data_fields": 49,
+      "inline_examples": 2276,
+      "caption_links": 5,
+      "caption_parts": 5,
+      "listing_caption_links": 1,
+      "uncaptioned_figures": 2,
+      "external_caption_groups_pending": 1,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-26/preserved-work-inventory.json",
+        "sha256": "cf3bc43121e79dda574e1cbb40332c9a817cebf1f4a1adb7c2f02948f5593d17",
+        "bytes": 6717971
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-26",
-    "goal": "Restore perspective simulation listing continuation143–148,including AppleSoft ending143–144 andGBASIC opening144–148,withliteralphysical/logical/quote/DATA/token provenance.",
+    "id": "batch-27",
+    "goal": "Restore finalGBASIC listing149,PDF151,through4290 END;retain allsource rows andexact source indexes.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0013"
     ],
@@ -5211,20 +5468,10 @@
       "coverage": "Nineteen observed source pages including prose,data/output examples,AppleSoft andGBASIC listings. Last4290 END on149."
     },
     "mapping_targets": [
-      145,
-      146,
-      147,
-      148,
-      149,
-      150
+      151
     ],
     "printed_page_targets": [
-      "143",
-      "144",
-      "145",
-      "146",
-      "147",
-      "148"
+      "149"
     ],
     "provisional_lookup_targets": [
       132,
@@ -5247,13 +5494,12 @@
       149,
       150,
       151,
-      152,
-      153
+      152
     ],
     "source_review": {
-      "path": "archive/pdf/1984-12/restoration/batch-25/source-reviewed.json",
-      "sha256": "4a44974fc7d4e598830824972d27cf0a62c9b374c51f5d440266a70d2d37318f",
-      "bytes": 18278
+      "path": "archive/pdf/1984-12/restoration/batch-26/source-reviewed.json",
+      "sha256": "b2b0bbe875737e44ea40258fafbf5c07f4757b0dbaae0400b775bfbf424a2814",
+      "bytes": 18241
     },
     "limits": {
       "articles": 2,
@@ -5275,7 +5521,44 @@
         "reason": "Fullsourcepage shows closingparenthesis beyond priorrightcrop edge;oldnativeandincorrect missingparenthesis claim preserved as superseded evidence. Fresh boundedcrop/OCR/correction/indexrevision required."
       }
     ],
-    "note": "Reinspect full19pageextent/neighbors andall exactoriginal/revisedcrops beforeOCR. CurrentAppleSoft142ends1690 NEXT I;143 starts1700 REM. Page144sharesAppleSoftending through2760REM andindependent GBASICheading/opening1000 onward. RemainingGBASIC149 andcompleteassembly follow. Opening134reflectionparagraph parenthesis edgeclipping requiresseparate explicitretainedmap/crop/OCR/correction/indexrevision beforecompleteassembly;do not silentlyuseabsenceclaim fromoldcrop. Preserveall sourceerrors,physicalwraps,blankrows,program-specificlabels,DATA/quotes/strings/token/targets andeverynative field/array/metadata category. All23implementationpinsunchanged;selectedaudits usecpm_literal_assembly wrapper. No reader rebuild."
+    "caption_associations_pending": [
+      {
+        "listing_id": "applesoft-ending-143-144",
+        "figure_ids": [
+          "p143-apple-image",
+          "p144-apple-image"
+        ],
+        "status": "associate-known-earlier-source-heading-at-complete-assembly",
+        "external_caption": {
+          "source_package_manifest": {
+            "path": "archive/pdf/1984-12/packages/perspective-b-r01/manifest.json",
+            "sha256": "9f6a2faa74d035d1c7e523264e2ca18f281b9828b1b86f43bf8abc68b67f9842",
+            "bytes": 26447
+          },
+          "source_corrections": {
+            "path": "archive/pdf/1984-12/packages/perspective-b-r01/corrections.json",
+            "sha256": "0fcbb629ee0d3f1f10cd677cfdf62422bb960aecddaf67afc5a57d8846f6f097",
+            "bytes": 3616731
+          },
+          "source_download": {
+            "path": "archive/pdf/1984-12/packages/perspective-b-r01/article.txt",
+            "sha256": "e876ac427d2df75ed00e0b03179ef67e628eb5a3db0542798ebdbdfe8c88a65a",
+            "bytes": 14620
+          },
+          "source_caption_block_id": "p141-heading",
+          "source_caption_region_id": "p141-heading",
+          "source_scan": {
+            "path": "archive/pdf/1984-12/packages/perspective-b-r01/ocr-page143/p141-heading.png",
+            "sha256": "b3aa4932237f750531ecd09c3807159468384fbac1af070f3e150ba794e956c5",
+            "bytes": 24036
+          },
+          "external_utf8_byte_start": 10002,
+          "external_utf8_byte_end_exclusive": 10046,
+          "caption_text": "10.3. 애플소프트 베이직 프로그램"
+        }
+      }
+    ],
+    "note": "Reinspect full19pageextent plusneighborsPDF132/152:21lookups total,20outside the one mappedpage;do notadd153outside-limit. CurrentGBASIC148ends3770,final149starts3780 andends4290 END. Separateopening134explicitcrop/OCR/correction/indexrevision remainsmandatory beforecompleteassembly. Preserve allnative fields/arrays/metadata,physicalwraps,sourceerrors,variant independence andresolveknownexternal10.3caption association. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

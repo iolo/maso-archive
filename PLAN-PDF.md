@@ -26,67 +26,59 @@ records below are historical and do not authorize a new rebuild.
 
 December 1984 is in progress: eleven readable articles, one partial perspective
 simulation article, two non-owning headings and 23 of 37 entries unresolved.
-Perspective spans 19 observed pages 131–149, PDF133–151. Its closing prose on140
-is followed by AppleSoft141–144 and GBASIC144–149, ending4290 END. The two
-immutable natives cover131–142; printed143–149 and full assembly remain.
+Perspective spans 19 observed pages 131–149, PDF133–151. Three immutable natives
+cover131–148: packages/perspective-a, packages/perspective-b-r01 and
+packages/perspective-c. They retain103 regions,67 blocks and27 original images.
+Final GBASIC149, the explicit opening134 repair and full assembly remain.
 
-The new middle137–142 package is packages/perspective-b-r01. Its native and
-independent rebuild reproduce all154 files exactly:46 regions,31 blocks,13 original
-frames and36 regional text spans. The mathematical indexes retain11 display/context
-spans,eight source grids,30 observed matrix rows,87 literal cells andtwo printed
-ellipsis rows. Compact vectors are not expanded into invented components;no omitted
-ellipsis rows or calculated values are supplied. Identity translation entries and
-second input row X₂ X₂ remain literal source readings.
+The new listing143–148 native and independent rebuild reproduce all56 files
+exactly. Its17 regions retain three blocks,seven original listing frames andten
+regional text spans. Two right edges were widened once before OCR;all17 original
+andtwo revised exact crops were inspected. Ten tasks succeeded with no failure,
+retry or post-OCR crop repair. All22 whole/review pairs were reused and inspected;
+six mapped pages and16 outside-map lookups. One source-direct correction pass.
 
-The source indexes retain43 flowchart labels,24 printed line references,15 variable
-definitions,51 diagram/DATA label candidates,nine output parameter rows and27
-output values. The original three output drawings andtwo-page main flowchart remain
-pixels. Flowchart connection B andreturn A are source associations,not reconstructed
-edges. Source NX is retained independently of program XN. No synthetic captions for
-flow/data/output frames;three diagram captions andtwo listing frames sharing10.3
-produce five caption/frame occurrences. Eight originals have no printed caption.
+The listing indexes retain406 physical rows,404 nonblank units and378 observed
+numbered entries:100 AppleSoft1700–2760 and278 GBASIC1000–3770. AppleSoft inserted
+2265, printed gaps andtwo blank rows remain. Target233/newline0 andall other
+physical wraps are indexed without executable flattening. The source versions
+remain independent:four AppleSoft DATA records retain40 fields;two GBASIC setup
+records retainnine fields. Printed POKE1913,2 andsource glyph/spacing candidates
+are not repaired from expected syntax,firmware orcross-version agreement.
 
-The code retains226 physical rows,223 nonblank units and1,108 literal tokens.
-There are170 actual numbered AppleSoft entries10–1690,including885,with physical
-wraps kept. Printed400 crosses the141 columns. Source110 wraps70/0;290/330 wrap8/7;
-1400's target wraps1/940 and1470's target161/0. Logical indexes keep those physical
-bytes;no runnable-line reconstruction. Six regional listing spans,658 lexical code
-identifiers,46 quote glyphs,23 paired string candidates and12 target candidates pass.
-DATA indexes retain64 fields:24 symbolic example fields and40 literal numeric fields
-across four unnumbered records. No arithmetic,syntax,encoding or graphic repair.
+Exact source indexes retain1,591 tokens,1,378 identifiers,897 numeric fragments,
+1,537 punctuation candidates,74 comment glyphs,two uncertain decorative dash runs,
+165 quote/comment glyphs,45 paired strings,55 reference clauses,65 target fields
+and2,276 inline occurrences. Five GBASIC frames share observedlocal10.4 heading.
+Two current AppleSoft frames have no locally printed caption;prior10.3 heading
+is pinned with exact external source bytes for association atcompleteassembly.
+The ledger carries this pending association andboth source-code connections.
 
-A new full-page recheck found that the opening134 reflection paragraph does have
-a closing parenthesis beyond the old crop's right edge. The original opening package
-and its incorrect missing-parenthesis statement remain preserved as superseded
-evidence. An explicit bounded crop/OCR/correction/index revision is required before
-complete assembly. See restoration/batch-25/opening-defect-followup.json;the ledger
-carries required_native_revisions. Do not treat the old cropped absence as source fact.
+Earlier middle137–142 retains87 matrix cells,two printed ellipsis rows,43 flowchart
+labels,24 printed references,15 variable definitions,64 DATA fields and27 output
+values. All math,diagram,flow,prosejoin,physical/logical listing andcaption metadata
+must survive assembly. The CP/M adapter is not a generic perspective adapter.
 
-All22 pinned whole/review pairs and46 original/seven revised exact crops were
-inspected before33 successful tasks. Six mapped pages and16 outside-map lookups;
-no new render,recognition failure/retry orpost-OCR crop repair. Failed first serializer
-syntax andtwo export attempts with inconsistent runtime pin path spelling remain.
-Fresh scripts reuse completed readings/OCR;selected recipe changes only path metadata
-with identical runtime hashes/bytes. All28,226 prior files and23 implementation pins
-remain unchanged. New preservation inventory:28,907 files. The unchanged193-test
-baseline from batch24 is reused;no shared tooling changes or repeated tests.
+Opening134 reflection paragraph has a closing parenthesis beyond the old crop
+edge. The old native andits incorrect missing-parenthesis statement remain as
+superseded evidence. A separate bounded crop/OCR/correction/index revision is
+required before full assembly;see restoration/batch-25/opening-defect-followup.json
+andthe ledger's required_native_revisions. No silent overwrite ofold evidence.
 
-CP/M remains complete at packages/cpm5-complete-r01:all21 PDF112–132 pages,
-observed110–129 plus an unpaginated upper reference continuation;lower132 ad separate,
-no observed130. Its904-file assembly retains all895 native files and every specialized
-index/metadata field. BASIC speed102–109 remains complete from opening102–107 and
-ending108–109. All selected-package checks must use cpm_literal_assembly.check or
-installed(),which installs/delegates graphic_literal_assembly for older formats.
-The CP/M-specific adapter is not generic for perspective formulas and code indexes.
+All28,907 prior files and23 implementation pins remain unchanged. The new
+preservation inventory has29,209 files. The unchanged193-test baseline frombatch24
+is reused without rerunning tests;no shared tooling changes orreader rebuild.
+CP/M remains complete at packages/cpm5-complete-r01,observed110–129 plusunpaginated
+upper PDF132 reference continuation;lower132 ad separate,no observed130. BASIC
+speed102–109 retains opening102–107 andending108–109. All selected checks use
+cpm_literal_assembly.check/installed(),which delegates graphic_literal_assembly.
 
-Next:batch26,perspective143–148,PDF145–150. This includes AppleSoft ending143–144
-andGBASIC opening144–148. Remaining149,the opening134 repair andcompatible full
-assembly follow. Recheck full extent/neighbors andevery exact crop beforeOCR.
-Preserve every native field/array andoriginal metadata,including math/ellipsis,flow,
-variable,DATA/output,physical/logical/quote/string/target andcaption associations.
-Keep checkpoints within two articles,six mapped pages and20 outside-map lookups.
-Human acceptance,full proofreading,encoded bytes,execution andmathematics remain
-unverified. No reader rebuild.
+Next:batch27,final GBASIC149/PDF151 through4290 END. Recheck full19-page extent
+andneighbors PDF132/152:21 views,20 outside the one mapped page;do notadd153.
+Then perform the separate opening134 source revision andcompatible full assembly,
+resolving known10.3 caption association andpreserving every native field/array and
+original frame. Human acceptance,full proofreading,source bytes,execution and
+mathematics remain unverified. No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
