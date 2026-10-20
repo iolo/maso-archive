@@ -3065,7 +3065,10 @@
             200,
             201,
             202,
-            203
+            203,
+            204,
+            205,
+            206
           ],
           "printed_pages": [
             "178",
@@ -3091,11 +3094,14 @@
             "198",
             "199",
             "200",
-            "201"
+            "201",
+            "202",
+            "203",
+            "204"
           ],
-          "regions": 129,
-          "blocks": 79,
-          "figures": 50
+          "regions": 141,
+          "blocks": 85,
+          "figures": 56
         },
         "segments": [
           {
@@ -3221,6 +3227,31 @@
               "figures": 12
             },
             "segment": "d"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/design-e",
+            "article_id": "scan-maso-1984-12-toc-0020",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/design-e/manifest.json",
+              "sha256": "b52a192c8a5137e9d718a677d08f745d65a896c3a7fe34ae7f92e5504a122015",
+              "bytes": 6381
+            },
+            "coverage": {
+              "pdf_pages": [
+                204,
+                205,
+                206
+              ],
+              "printed_pages": [
+                "202",
+                "203",
+                "204"
+              ],
+              "regions": 12,
+              "blocks": 6,
+              "figures": 6
+            },
+            "segment": "e"
           }
         ],
         "full_source_extent": {
@@ -3375,33 +3406,19 @@
           "byline_candidate": "김덕우",
           "affiliation_candidate": "서울대 제어계측 공학과",
           "chapter_candidate": "제6장 베이직의 이식",
-          "boundary_evidence": "Independent opening178/PDF180, final listing END204/PDF206 and next cryptography205/PDF207. All27 physical pages now individually viewed across four bounded checkpoints; the current six-page map is not a complete transcription or article assembly.",
+          "boundary_evidence": "Independent opening178/PDF180; final source OTOP definition and END on204/PDF206; next independent cryptography205/PDF207. All27 physical source pages individually viewed. Current closing map covers three pages only; five-native full article assembly remains required.",
           "mapped_pdf_pages": [
-            198,
-            199,
-            200,
-            201,
-            202,
-            203
-          ],
-          "mapped_printed_pages": [
-            "196",
-            "197",
-            "198",
-            "199",
-            "200",
-            "201"
-          ],
-          "deferred_pdf_pages": [
             204,
             205,
             206
           ],
-          "deferred_printed_pages": [
+          "mapped_printed_pages": [
             "202",
             "203",
             "204"
           ],
+          "deferred_pdf_pages": [],
+          "deferred_printed_pages": [],
           "unobserved_folio_policy": "Nonehere meansnotyetinspected,notunpaginated. Do notderivefoliosfromPDFoffset. Deferredsourcepageswillbeinspected/qualifiedbeforetheirnative mapping.",
           "previous_restored_pdf_pages": [
             180,
@@ -3421,7 +3438,13 @@
             194,
             195,
             196,
-            197
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203
           ],
           "previous_restored_printed_pages": [
             "178",
@@ -3441,19 +3464,17 @@
             "192",
             "193",
             "194",
-            "195"
+            "195",
+            "196",
+            "197",
+            "198",
+            "199",
+            "200",
+            "201"
           ]
         },
-        "deferred_pdf_pages": [
-          204,
-          205,
-          206
-        ],
-        "deferred_printed_pages": [
-          "202",
-          "203",
-          "204"
-        ],
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
         "unreviewed_interior_pdf_pages": [],
         "interior_page_classification_pending": false,
         "assembly_required": true,
@@ -3487,6 +3508,11 @@
             "path": "archive/pdf/1984-12/restoration/batch-36/source-index-schema.json",
             "sha256": "b3c16560cf3eb567594aaa224cbaaaad3a7b0169c5642e0a77585147e193ea22",
             "bytes": 4836
+          },
+          {
+            "path": "archive/pdf/1984-12/restoration/batch-37/source-index-schema.json",
+            "sha256": "a1b82c15cdca551a23247f3ea120f05c928a18fc7b03c2179c28515d572b68f8",
+            "bytes": 5281
           }
         ],
         "reproduction": {
@@ -3801,6 +3827,97 @@
             },
             "quote_completion_performed": false,
             "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-listing-continuation",
+            "previous_native": {
+              "path": "archive/pdf/1984-12/packages/design-d/manifest.json",
+              "sha256": "a49e0457b4bf33b6252084a35e44f6234dddbf7d2b136f44fdf842b779129575",
+              "bytes": 11397
+            },
+            "previous_corrections": {
+              "path": "archive/pdf/1984-12/packages/design-d/corrections.json",
+              "sha256": "934a4ac615735287f29802975290965556304fac5426260b6b42f0e68441c4d8",
+              "bytes": 5785616
+            },
+            "previous_download": "listing.txt",
+            "previous_utf8_byte_start": 12623,
+            "previous_utf8_byte_end_exclusive": 12645,
+            "previous_physical_text": "        LD      A,3FH",
+            "previous_scan": {
+              "path": "archive/pdf/1984-12/packages/design-d/ocr-page203/p201-right.png",
+              "sha256": "097650b85ec9038d3b3349fe2d59a82ae4e9eb48cdae33964f9ac559c477c58a",
+              "bytes": 333876
+            },
+            "current_region_id": "p202-left",
+            "current_physical_line_id": "p202-left:physical:1",
+            "current_physical_text": "        CALL    PUT",
+            "quote_completion_performed": false,
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "previous_region_id": "p202-left",
+            "next_region_id": "p202-right",
+            "previous_last_physical_text": "        CALL    CONIN",
+            "next_first_physical_text": "        CP      03H",
+            "source_program": "tiny-basic-main-listing",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "previous_region_id": "p202-right",
+            "next_region_id": "p203-left",
+            "previous_last_physical_text": "CTOUT:  LD      L,A     ;8251A DATA OUTPUT",
+            "next_first_physical_text": "CTO1:   IN      A,(15H)",
+            "source_program": "tiny-basic-main-listing",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "previous_region_id": "p203-left",
+            "next_region_id": "p203-right",
+            "previous_last_physical_text": "        LD      HL,OTOP-1",
+            "next_first_physical_text": "LOAD2:  INC     HL",
+            "source_program": "tiny-basic-main-listing",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "previous_region_id": "p203-right",
+            "next_region_id": "p204-left",
+            "previous_last_physical_text": ";",
+            "next_first_physical_text": "LOFF:   LD      A,0FFH  ;SET PRINTER STATUS",
+            "source_program": "tiny-basic-main-listing",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "previous_region_id": "p204-left",
+            "next_region_id": "p204-right",
+            "previous_last_physical_text": "        DEFM    'KEY IN ANY KEY '",
+            "next_first_physical_text": "        DEFB    0AH",
+            "source_program": "tiny-basic-main-listing",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "article-ending-boundary",
+            "region_id": "p204-right",
+            "block_id": "p204-right",
+            "source_pdf_page": 206,
+            "printed_page": "204",
+            "last_physical_line": ";               END",
+            "next_pdf_page": 207,
+            "next_printed_page": "205",
+            "next_independent_article": "maso-1984-12-toc-0021",
+            "next_source_view": {
+              "path": "archive/pdf/1984-12/restoration/batch-37/source-review/pdf-207.png",
+              "sha256": "cfd3f7d873e1b93933829a051b9b5e50add386aa664c8098208da3e04f7c7ed0",
+              "bytes": 950093
+            },
+            "quote_completion_performed": false,
+            "executable_join_performed": false,
+            "source_terminal_end_is_on_semicolon_row": true
           }
         ],
         "caption_associations_pending": [],
@@ -3812,39 +3929,40 @@
           "source_pdf_page": 180,
           "printed_page": "178"
         },
-        "assembly_compatibility": "Preserve every native field, source-linked array and original frame. Four immutable natives cover178–201; three physical pages204–206 and complete assembly remain. All27 source pages now individually reviewed. Preserve 648 current physical rows, quoted punctuation/repeated quote runs, opaque directive/operand/comment fields and all glyph/source-spelling variants. Do not infer encoded bytes, escaping, opcode behavior, target resolution or syntax.",
+        "assembly_compatibility": "Preserve every native source field, category, exact range and original frame. Five natives cover178–204/all27 physical source pages with no deferred body pages; full article assembly remains required. Preserve325 closing physical rows, thirteen complete quoted message fields/trailing spaces, storage/ORG/symbolic operands, uncertain MEMOF tail and final leading-semicolon END row. No encoded bytes, opcode, address, target, arithmetic, syntax or hardware reconstruction.",
         "excluded_advertisement": {
           "pdf_page": 181,
           "printed_page": "179",
           "coverage": "Upper article only;independent lower book advertisement excluded."
         },
         "latest_source_review": {
-          "path": "archive/pdf/1984-12/restoration/batch-36/source-reviewed.json",
-          "sha256": "a998f6b18813ab6b7fb802c2539a521278d555bbea8d359a1fd4d383a2456614",
-          "bytes": 26840
+          "path": "archive/pdf/1984-12/restoration/batch-37/source-reviewed.json",
+          "sha256": "bd2d46d91b318af9b12414cf950a97fe7dffbb7feb31c90e716a364aa807eebd",
+          "bytes": 24783
         },
         "latest_reproduction": {
-          "path": "archive/pdf/1984-12/restoration/batch-36/reproduction.json",
-          "sha256": "d4f82e7cd5aff3a2c93e729712647efd51f10ff193ba2f6a3aa276c341fc63f3",
-          "bytes": 2091
+          "path": "archive/pdf/1984-12/restoration/batch-37/reproduction.json",
+          "sha256": "f15bd921edb8bf45dfd75f73630c8749cb99041fffa5d6ecd4213f756a6145da",
+          "bytes": 2022
         },
         "outgoing_boundary": {
-          "connection_type": "deferred-physical-listing-continuation",
-          "region_id": "p201-right",
-          "block_id": "p201-right",
-          "source_pdf_page": 203,
-          "printed_page": "201",
-          "last_physical_line": "        LD      A,3FH",
-          "next_pdf_page": 204,
-          "next_printed_page": "202",
-          "observed_next_first_physical_candidate": "        CALL    PUT",
+          "connection_type": "article-ending-boundary",
+          "region_id": "p204-right",
+          "block_id": "p204-right",
+          "source_pdf_page": 206,
+          "printed_page": "204",
+          "last_physical_line": ";               END",
+          "next_pdf_page": 207,
+          "next_printed_page": "205",
+          "next_independent_article": "maso-1984-12-toc-0021",
           "next_source_view": {
-            "path": "archive/pdf/1984-12/restoration/batch-36/source-review/pdf-204.png",
-            "sha256": "51622d82e1f9d2d934b2171d0b92266fac1ffeb0c21d68221da0ca4900b28afb",
-            "bytes": 462527
+            "path": "archive/pdf/1984-12/restoration/batch-37/source-review/pdf-207.png",
+            "sha256": "cfd3f7d873e1b93933829a051b9b5e50add386aa664c8098208da3e04f7c7ed0",
+            "bytes": 950093
           },
           "quote_completion_performed": false,
-          "executable_join_performed": false
+          "executable_join_performed": false,
+          "source_terminal_end_is_on_semicolon_row": true
         },
         "pending_manual_source_glyphs": [
           {
@@ -3907,6 +4025,29 @@
               "bytes": 2704260
             }
           }
+        ],
+        "pending_manual_source_tail_corrections": [
+          {
+            "region_id": "p203-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 3228,
+            "utf8_byte_end_exclusive": 3233,
+            "transcription_excerpt": "MEMOF",
+            "source_tail_completeness": "unverified",
+            "missing_glyph_count": "unknown",
+            "manual_correction": "pending-if-tail-certification-required",
+            "recovery_from_context": false,
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/design-e/ocr-page205/p203-left.png",
+              "sha256": "945984f39b5f1c6d54186d2a6d0519e6e56551c05d43395f362e6eb131fd4775",
+              "bytes": 460697
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/design-e/corrections.json",
+              "sha256": "a1c1bcaa712602a5198d3b4b0d6f5d528e376ba82af4dec826374dcdbeb99133",
+              "bytes": 3076726
+            }
+          }
         ]
       },
       "classification_evidence": [
@@ -3915,7 +4056,8 @@
         "125filenative/independentrebuild exact:39regions/28blocks/13originals/30regionalspans/49reviewnotes. Eighttables55rows201cells16blanks219physicalcelllines/sevenmerges;fournumbereddiagrams/128labellines/fourcaptions. Source LOAC/LOAD,FORdash/ADC8/FOOOH/CLABL/YRSCK/FSTPV/RWRK andnumericrangevariants remainliteral. No code execution/opcode/byte/address/arithmetic/graphic reconstruction.",
         "Middle184–189/PDF186–191 native138filesmatchesindependently. Combinedtwoimmutable natives cover178–189/12pages/81regions/55blocks/26originals;article remains partial. Prosemark188doesnotendpatchtable/Tinylisting189–204. Actualoutgoing190/PDF192inspected;15physicalpages192–206 andfullassemblyremain. Unchecked193–201folios/bodyclassificationpending. Two tables58rows/157cells,39patchrows/117fields,138physicalcode rows/fourBASIClabels/20EQUdefinitions,103diagramlabels and11captionlinks retainedwithoutsemanticrepair. Unknownequals/twoasteriskbands explicit;Tinylastcommentcontinueson190 withoutclosingquotecompletion.",
         "Continuation 190–195/PDF192–197: 69-file native matches independent rebuild. Three immutable natives cover 178–195, 18 pages/105 regions/67 blocks/38 originals; remains partial. Nine physical pages 198–206 plus complete assembly remain. Individually observed outgoing196; PDF199–201 uninspected/unclassified/folio-unknown. Current 648 physical rows/88 opaque directive values/27 strings/55 comment expressions preserve spelling, glyph and symbol candidates without decoding or syntax repair. Incoming189/190 quote/comment rows remain physically separate; all twelve original frames uncaptioned.",
-        "Continuation196–201/PDF198–203:69-file native matches independent rebuild. Four natives cover178–201/24 pages/129 regions/79 blocks/50 originals; remains partial. All27 physical source pages now individually reviewed, resolving interior folio/classification uncertainty. Current648 physical rows/80 directive values/29 complete quoted fields/31 quoted operands/58 quote runs preserve repeated apostrophes without inferred escaping. Source spelling, arithmetic/opcode errors and unknown glyphs retained. Three physical pages204–206/printed202–204 plus full article assembly remain."
+        "Continuation196–201/PDF198–203:69-file native matches independent rebuild. Four natives cover178–201/24 pages/129 regions/79 blocks/50 originals; remains partial. All27 physical source pages now individually reviewed, resolving interior folio/classification uncertainty. Current648 physical rows/80 directive values/29 complete quoted fields/31 quoted operands/58 quote runs preserve repeated apostrophes without inferred escaping. Source spelling, arithmetic/opcode errors and unknown glyphs retained. Three physical pages204–206/printed202–204 plus full article assembly remain.",
+        "Closing202–204/PDF204–206:39-file native matches independent rebuild. Five immutable natives cover all27 source pages/141 regions/85 blocks/56 originals; no deferred body pages. Canonical entry remains partial until full assembly. Current325 physical rows/61 directive fields/13 complete quoted message fragments/22 storage fields/ORG/port/bit/symbolic operands retained without decoding or arithmetic. Final END is on leading-semicolon physical row and is not converted to executable syntax. Source RECORD STRAT/MESS6/trailing spaces and uncertain MEMOF comment tail retained without contextual completion; next205/PDF207 is independent cryptography."
       ]
     },
     {
@@ -8755,13 +8897,192 @@
         "sha256": "f2418e78297604805293511e0964f866d2760f0d79e1f88416af60b91b053a9a",
         "bytes": 7909099
       }
+    },
+    {
+      "id": "batch-37",
+      "status": "complete-partial-article-closing",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/checkpoint.json",
+        "sha256": "544add98ab3750fd289e889fcf2506d269d164895615f10c18f2bb022fe6701c",
+        "bytes": 6395
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-37/validation.json",
+        "sha256": "c34af9cd95bb60bb6199fbda4dad9195a4d39de56e09524aab3fa380b25578ef",
+        "bytes": 1860
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-37/verify.py",
+        "sha256": "efd0b3b9b1022b32bb35b5e81ae5efa49f9969248561af90602be8320ebf8be5",
+        "bytes": 17440
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/source-reviewed.json",
+        "sha256": "bd2d46d91b318af9b12414cf950a97fe7dffbb7feb31c90e716a364aa807eebd",
+        "bytes": 24783
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/source-index-schema.json",
+        "sha256": "a1b82c15cdca551a23247f3ea120f05c928a18fc7b03c2179c28515d572b68f8",
+        "bytes": 5281
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/mapping-completed.json",
+        "sha256": "44bd7c1d5f8ba9eb41f6c95364d5342e814fe1482c8d41a0eb9b3eb1c82e6d43",
+        "bytes": 624
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/segment-scope.json",
+        "sha256": "71c7c50488a4f280a8d713945f7c90ad07f3960cb72b8201f5dfe1c4cb73caca",
+        "bytes": 5486
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/preflight-reviewed.json",
+        "sha256": "959428b1c86cdc3fcee6d6bf642da88bfe6be131b10717c7b037635ab30183b1",
+        "bytes": 5648
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/ocr-completed.json",
+        "sha256": "d6f4b4906226a0410fda384c0a6422e27ef22685576d19f5ce8ffe58e2ec1f0e",
+        "bytes": 818
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/source-correction-pass.json",
+        "sha256": "e0e3f7b8a22328b9e9d3d17783ba40c608263e2d8e4658413a0a1f063bec0fa7",
+        "bytes": 1770
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/correction-completed.json",
+        "sha256": "5d7bca5c6639e1f089fc373e1ca785dbeeddaaa146251226e44c676daba354ff",
+        "bytes": 1269
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-37/reproduction.json",
+        "sha256": "f15bd921edb8bf45dfd75f73630c8749cb99041fffa5d6ecd4213f756a6145da",
+        "bytes": 2022
+      },
+      "actual_ocr_tasks": 6,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 0,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 34538,
+      "rebuild_files": 39,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 7,
+      "outside_map_lookups": 4,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 203,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/perspective-assembly/tests-implementation-r01.log",
+        "sha256": "2c2bf02ff36a6061e1f199522442d83c03d7a6398582cbec37d22b317869c452",
+        "bytes": 34581
+      },
+      "tests_reused_without_rerun": true,
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "perspective_implementation_pins_verified": 3,
+      "regions": 12,
+      "blocks": 6,
+      "figures": 6,
+      "ocr_tasks": 6,
+      "code_tasks": 6,
+      "regional_text_ranges": 6,
+      "review_notes": 12,
+      "listing_groups": 6,
+      "physical_code_rows": 325,
+      "nonblank_code_rows": 322,
+      "logical_basic_entries": 0,
+      "assembly_columns": 611,
+      "label_definitions": 61,
+      "instruction_fields": 278,
+      "operand_fields": 266,
+      "operand_identifiers": 376,
+      "branch_operand_fields": 68,
+      "directive_rows": 61,
+      "directive_values": 61,
+      "string_literals": 13,
+      "message_fragments": 13,
+      "storage_definitions": 22,
+      "origin_directives": 1,
+      "symbolic_storage_operands": 2,
+      "port_operands": 18,
+      "bit_operands": 5,
+      "terminal_end_fields": 1,
+      "uncertain_comment_tails": 1,
+      "quote_runs": 26,
+      "quoted_operand_fields": 13,
+      "quoted_keywords": 0,
+      "code_tokens": 754,
+      "code_identifiers": 796,
+      "code_numeric_fragments": 103,
+      "code_symbols": 319,
+      "code_quote_glyphs": 26,
+      "comment_tails": 55,
+      "hex_fields": 86,
+      "local_offsets": 15,
+      "comment_expressions": 0,
+      "comment_expression_parts": 0,
+      "localized_glyph_candidates": 12,
+      "physical_source_connections": 7,
+      "uncaptioned_figures": 6,
+      "deferred_physical_pages": 0,
+      "uninspected_interior_pages": 0,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-37/preserved-work-inventory.json",
+        "sha256": "875ab912df340fcdad3edf13c59f0b0914e3f28dca34fcf2bba2587145bdac3a",
+        "bytes": 7949908
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-37",
-    "goal": "Restore design(6) closing physical PDF204–206/observed202–204 after current page/folio and neighbor review; preserve final OTOP/END, all physical code/quote/comment/data/directive fields and original frames.",
+    "id": "design-assembly",
+    "kind": "immutable-native-assembly",
+    "goal": "Audit source-category projection and assemble complete design(6)178–204 from five exact native inputs; add a separately tested adapter if existing tooling cannot preserve every native field/range/category. Verify independent rebuild before canonical promotion.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0020"
+    ],
+    "native_inputs": [
+      {
+        "directory": "archive/pdf/1984-12/packages/design-a",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/design-a/manifest.json",
+          "sha256": "4d29844facd22b2a6a9539b856f95a0cf90b5d039739505396c9bd968946f5b8",
+          "bytes": 21347
+        }
+      },
+      {
+        "directory": "archive/pdf/1984-12/packages/design-b",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/design-b/manifest.json",
+          "sha256": "62bcb58fa7450709211c5158eb1e78652c5b9dfc9c57355a850e777f87120f10",
+          "bytes": 23628
+        }
+      },
+      {
+        "directory": "archive/pdf/1984-12/packages/design-c",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/design-c/manifest.json",
+          "sha256": "8730493c8b329deac80d825fdf8eb3e9fb37c4a62528a9be9577262c2286b0d6",
+          "bytes": 11401
+        }
+      },
+      {
+        "directory": "archive/pdf/1984-12/packages/design-d",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/design-d/manifest.json",
+          "sha256": "a49e0457b4bf33b6252084a35e44f6234dddbf7d2b136f44fdf842b779129575",
+          "bytes": 11397
+        }
+      },
+      {
+        "directory": "archive/pdf/1984-12/packages/design-e",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/design-e/manifest.json",
+          "sha256": "b52a192c8a5137e9d718a677d08f745d65a896c3a7fe34ae7f92e5504a122015",
+          "bytes": 6381
+        }
+      }
     ],
     "known_boundary_span": {
       "opening_pdf": 180,
@@ -8915,33 +9236,19 @@
       "byline_candidate": "김덕우",
       "affiliation_candidate": "서울대 제어계측 공학과",
       "chapter_candidate": "제6장 베이직의 이식",
-      "boundary_evidence": "Independent opening178/PDF180, final listing END204/PDF206 and next cryptography205/PDF207. All27 physical pages now individually viewed across four bounded checkpoints; the current six-page map is not a complete transcription or article assembly.",
+      "boundary_evidence": "Independent opening178/PDF180; final source OTOP definition and END on204/PDF206; next independent cryptography205/PDF207. All27 physical source pages individually viewed. Current closing map covers three pages only; five-native full article assembly remains required.",
       "mapped_pdf_pages": [
-        198,
-        199,
-        200,
-        201,
-        202,
-        203
-      ],
-      "mapped_printed_pages": [
-        "196",
-        "197",
-        "198",
-        "199",
-        "200",
-        "201"
-      ],
-      "deferred_pdf_pages": [
         204,
         205,
         206
       ],
-      "deferred_printed_pages": [
+      "mapped_printed_pages": [
         "202",
         "203",
         "204"
       ],
+      "deferred_pdf_pages": [],
+      "deferred_printed_pages": [],
       "unobserved_folio_policy": "Nonehere meansnotyetinspected,notunpaginated. Do notderivefoliosfromPDFoffset. Deferredsourcepageswillbeinspected/qualifiedbeforetheirnative mapping.",
       "previous_restored_pdf_pages": [
         180,
@@ -8961,7 +9268,13 @@
         194,
         195,
         196,
-        197
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203
       ],
       "previous_restored_printed_pages": [
         "178",
@@ -8981,35 +9294,25 @@
         "192",
         "193",
         "194",
-        "195"
+        "195",
+        "196",
+        "197",
+        "198",
+        "199",
+        "200",
+        "201"
       ]
     },
-    "mapping_targets": [
-      204,
-      205,
-      206
-    ],
-    "printed_page_targets": [
-      "202",
-      "203",
-      "204"
-    ],
-    "provisional_lookup_targets": [
-      179,
-      180,
-      203,
-      204,
-      205,
-      206,
-      207
-    ],
+    "mapping_targets": [],
+    "printed_page_targets": [],
+    "provisional_lookup_targets": [],
     "full_extent_review_pending": false,
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Four immutable natives design-a178–183/design-b184–189/design-c190–195/design-d196–201. All27 physical source pages individually reviewed across four bounded checkpoints; current native coverage24 pages is not a full article assembly. Three physical pages204–206/printed202–204 remain. Reinspect all three plus preceding203/next207/opening180/divider179 before mapping. Preserve201 LD A,3FH to202 CALL PUT physical boundary, final OTOP/END and all literal data/quoted message/ORG/DEFW/DEFB fields without inferred byte/escape/opcode/target semantics. Future complete assembly must retain every prior native category and original frame; a separately tested adapter may be needed. Use perspective wrapper for all selected checks;26 implementation pins/203-test baseline unchanged. No reader rebuild."
+    "note": "Five immutable natives design-a178–183/design-b184–189/design-c190–195/design-d196–201/design-e202–204 cover all27 physical article pages; no source pages or OCR queued. Complete article assembly is pending. Audit every custom source metadata/index/category before selecting an adapter. Preserve all original images/native bytes and exact ranges, tables/patch fields/shared captions/prose/spatial/diagram associations, physical listings/EQU/labels/quoted runs/messages/storage/ORG/port/bit/symbolic fields, old unknown bands, uncertain MEMOF tail and final leading-semicolon END row. No executable reconstruction, source-byte recovery, target/alias arithmetic or expected opcode/hardware repairs. Keep26 implementation pins until a justified separately tested tooling change; use perspective wrapper for existing selected packages. Promote0020 only after complete export/rebuild/source/range/preservation/accounting audits. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

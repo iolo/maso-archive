@@ -44,61 +44,56 @@ October.
 
 December 1984 is in progress: sixteen readable articles, one partial article,
 five non-owning headings and 15 of 37 entries unresolved. Design(6), canonical 0020,
-has four immutable natives: packages/design-a for 178–183, packages/design-b for
-184–189, packages/design-c for 190–195 and packages/design-d for 196–201.
-The new 69-file native on PDF198–203 matches its independent rebuild exactly.
-Combined coverage is 24 pages/PDF180–203, 129 regions, 79 blocks and 50 original
-images. The article remains partial; complete assembly is pending.
+has five immutable natives: packages/design-a for 178–183, packages/design-b for
+184–189, packages/design-c for 190–195, packages/design-d for 196–201 and
+packages/design-e for 202–204/PDF204–206. The new 39-file closing native matches
+its independent rebuild exactly. Combined coverage is all 27 pages/PDF180–206,
+141 regions, 85 blocks and 56 original images. No source body pages remain deferred;
+the complete article assembly is pending, so canonical availability remains partial.
 
-The source opens 178/PDF180, ends with the Z80 listing END on 204/PDF206, and is
-followed by independent cryptography on 205/PDF207. All 27 physical article pages
-now have individual whole-view evidence across batches 33–36. The three previously
-unchecked PDF199–201 pages were actually observed as 197–199; no global offset
-was used. Interior classification/folio uncertainty is resolved. Three physical
-pages 204–206/printed 202–204 remain deferred for transcription, followed by full
-article assembly. Source review is distinct from restored body coverage.
+The independently reviewed opening is 178/PDF180, final OTOP/END is on 204/PDF206,
+and independent cryptography opens 205/PDF207. All 27 physical article pages have
+individual whole-view evidence. No global folio offset was inferred. Batch37
+reinspected seven whole views: 179/180/203–207. Three mapped pages, four outside-map
+lookups, one canonical task; all seven full/review pairs reused with pinned identity.
+All twelve exact original crops were inspected before six successful English code
+OCR tasks. Margins were complete, including gutter beyond the LOAD1 comment frame;
+no crop repair. OEM1/PSM6, one thread and 3000-pixel long edge remain pinned.
+One source correction pass; zero failures, retries or post-OCR repairs.
 
-Batch36 inspected twelve whole views: 179/180/197–204/206/207. Six mapped pages,
-six outside-map lookups, one canonical task; six reused pairs and six new renders.
-All 24 original and nine revised exact crops were inspected before twelve successful
-English code tasks. OEM1/PSM6, one thread and 3000-pixel long edge remain pinned.
-One source correction pass; zero recognition failures, retries or post-OCR repairs.
-Each affected crop was widened once. All raw drafts, readings and images retained.
+Design-e retains 325 physical rows/322 nonblank rows, six code blocks and six
+uncaptioned original frames. Five columns have 54 physical rows; the final column
+has 55. Indexes retain 61 labels, 61 opaque directive rows/values, 13 complete quoted
+message fields/fragments, 22 labeled storage fields, one ORG and two symbolic
+storage operands. The 18 port operands, five bit operands, 86 hex fields and 15 local
+offsets remain opaque. Quoted trailing spaces, RECORD STRAT, MESS6, INBUF+110 and
+OTOP are literal candidates without decoded bytes or arithmetic/alias reconstruction.
 
-Design-d preserves 648 physical rows/645 nonblank rows, twelve code blocks and
-twelve original uncaptioned frames. Indexes retain 89 labels, 80 opaque directive
-rows/values, 29 complete quoted directive fields, 31 quoted operand fields, 58 quote
-runs and seven quoted keyword candidates. Repeated apostrophes are retained as
-visible glyph runs without inferring escaping or decoding characters. The 96 hex
-fields, 18 local offsets and 30 comment expressions/240 parts remain unevaluated.
-There are no new EQU definitions or BASIC line numbers in this segment.
+The final END appears on a physical row beginning with a semicolon. That complete
+row is retained as a comment candidate and END has a separate source occurrence
+index; no executable directive was supplied. The LOAD1 comment visibly ends in the
+candidate MEMOF near the source frame edge. Its tail glyph/completeness remains
+unverified; the original includes gutter proving this is not an OCR crop omission.
+No MEMORY completion or missing-glyph count was inferred. The localized tail is
+pinned for possible manual review. Incoming 201 LD A,3FH to 202 CALL PUT and the
+independent next-article boundary remain explicit physical source associations.
+No opcode, byte, address, target, encoding, syntax or hardware repair.
 
-Printed WWINT5, ERSYY1/ERSRY, DIVSR, repeated 62H values, FNABS OR H and LE's
-LD L,H remain independent source candidates. Two blank rows in GET1 and the
-DEFS32 comment wrap are physical rows. All source errors, uncertain punctuation,
-quote, zero/O/I/1/B/R/P/F glyphs and spacing remain candidates. No opcode, byte,
-address, target, encoding, arithmetic or syntax reconstruction. Incoming 195 JP RUN1
-to 196 semicolon/PRSHA and outgoing 201 LD A,3FH to 202 CALL PUT remain physical
-associations; no executable joining or invented figure captions.
+All preceding natives retain every table, diagram, shared caption, physical row,
+quote run, opaque field and unknown band. Design-b retains 39 patch rows/117 fields,
+138 physical rows/four BASIC labels/20 EQU fields, six captions/11 frame links and
+three unknown bands. Design-c and design-d retain their 648 rows each, complete
+quoted operands and source errors. The partial entry still primarily pins design-a;
+segments pins all five. Combined coverage is not a combined article body.
 
-Prior natives retain every table, diagram, shared caption, source index and unknown
-band. Design-b still has 39 patch rows/117 opaque fields, 138 physical rows/four
-BASIC labels/20 EQU fields, six captions/11 links and three unknown bands. Design-c
-retains its 648 physical rows/88 directives/27 strings and 189/190 comment boundary.
-Keep all custom categories and original images in the later assembly. The partial
-entry's primary directory/manifest still pins design-a; segments pins all four.
-Aggregated coverage is not a combined article body.
-
-All 34,187 prior files and 26 implementation pins remain unchanged. The new
-preservation inventory contains 34,538 files. Source/runtime, geometry, crop/settings/
-timing, exact range/physical/lexical/quote-field indexes and independent rebuild
-checks pass. The unchanged 203-test baseline is reused without rerun. A map-preparation
-attempt used a nonexistent historical batch33 revision filename; the selected ledger
-pin resolved it before mapping. Two serializer-preparation attempts failed on adapter
-quoting and a duplicate replacement assertion; both were retained and fixed before
-serialization. Successful OCR, source readings and exported bytes were not repeated.
+All 34,538 prior files and 26 implementation pins remain unchanged. The new
+preservation inventory contains 34,733 files. Source/runtime, geometry, crop/settings/
+timing, exact UTF-8/review/physical/lexical/message/storage/END indexes, prior ledger
+pins and independent rebuild checks pass. The unchanged 203-test baseline is reused
+without rerun. All scans, raw drafts, crops, one-pass readings, recipes and review
+artifacts are retained. No failed attempt or OCR/correction rerun in this checkpoint.
 Contest 0022 and technical 0019 remain non-owning headings on unpaginated PDF179;
-canonical titles, identities and parents are unchanged.
+canonical identities, titles and parents are unchanged.
 
 VisiCalc 172–175 remains complete at visicalc-limits:154 files, five menus/52 options/
 129 fields, three ROUND claims and one manual source word ⟦faint source word⟧ pending.
@@ -116,27 +111,30 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 perspective_literal_assembly.check/installed(), delegating cpm_literal_assembly and
 graphic_literal_assembly. Preserve all 26 implementation pins.
 
-Next: batch37, design closing on physical PDF204–206/observed 202–204. Reinspect
-each current page and adjacent 203/207 with independent opening 180/divider 179.
-Preserve 201's LD A,3FH to 202 CALL PUT boundary, final OTOP/END, every physical
-comment/quote/data/directive row and original frame. Three physical pages and full
-article assembly remain. Later assembly must preserve all four natives' custom
-categories and may need a separately tested adapter. Human acceptance, full
-proofreading, source bytes, execution and historical claims remain unverified.
-No reader rebuild.
+Next: design-assembly. Assess the existing assembly pipeline against every field
+and source category in all five native corrections, then add a separately tested
+adapter if required. Assemble observed 178–204 from the exact five immutable inputs;
+retain all assets, native bytes, range projections, tables, opaque patch fields,
+prose/spatial/diagram/caption associations, physical listing groups, quoted runs,
+message/storage/ORG fields, MEMOF uncertainty and the leading-semicolon END row.
+No new mapped source pages or OCR are queued. Promote canonical 0020 only after
+the complete package and independent rebuild pass. Human acceptance, full proofreading,
+source bytes, execution and historical claims remain unverified. No reader rebuild.
 
-Design continuation evidence: restoration/batch-36 and evidence/batch-36. Selected
-map is map-r01.json and source review is source-reviewed.json. All 27 source-page
-view pins are listed in whole_article_review_coverage. One write-reviewed.py pass
-produced twelve 54-row files. prepare-reviewed.py serializes corrections.json and
-package-recipe.json. Failed adapter preparations and map attempt remain archived.
-Read-only verify.py and checkpoint-audit.py write only fresh optional --report paths.
+Closing evidence: restoration/batch-37 and evidence/batch-37. Selected map/source
+review are map.json/source-reviewed.json. write-reviewed.py made six source readings
+once. prepare-reviewed.py serializes corrections.json/package-recipe.json. There
+are no revised crops. Read-only verify.py/checkpoint-audit.py write fresh optional
+--report files only. Full source-review coverage is pinned across all 27 pages.
 
-Complete quoted directive fields include four consecutive apostrophes; the new
-source_quote_run_index and source_quoted_operand_index preserve these and LD quote
-operands without inferred escaping. A first-pair regex would truncate those fields.
-Do not normalize WWINT5, ERSYY1, OR H, L,H or opaque repeated byte claims. Preserve
-all four native metadata/category sets during assembly; no combined design body yet.
+Assembly must retain all five native category sets and non-owning heading/advertisement
+boundaries. New source_message_fragment_index, source_storage_definition_index,
+source_origin_directive_index, source_symbolic_storage_operand_index, port/bit indexes,
+source_terminal_end_index and source_comment_tail_uncertainty_index are literal.
+END is on the leading-semicolon physical row; MEMOF is not completed. Do not derive
+message bytes, storage addresses, alias arithmetic, opcodes or hardware corrections.
+Keep all 26 implementation pins unchanged until a separately tested adapter change
+is justified, and preserve every immutable native file and custom metadata field.
 
 Crowded Speedway remains packages/crowded-speedway-complete-r01,including final
 69F8/eight00source revision. Its pinned table/literal tooling39e5b61 remains
