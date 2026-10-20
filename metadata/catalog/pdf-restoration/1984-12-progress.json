@@ -6472,10 +6472,1229 @@
       "toc_entry_id": "maso-1984-12-toc-0025",
       "title": "까만돌 하얀돌",
       "parent_id": "maso-1984-12-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/black-white",
+        "article_id": "scan-maso-1984-12-toc-0025",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/black-white/manifest.json",
+          "sha256": "3be2afe55811439390099630c41683c001b428e1ab0c3e0350857cae35a895ae",
+          "bytes": 23526
+        },
+        "coverage": {
+          "pdf_pages": [
+            221,
+            222,
+            223,
+            224
+          ],
+          "printed_pages": [
+            "219",
+            "220",
+            "221",
+            "222"
+          ],
+          "regions": 38,
+          "blocks": 20,
+          "figures": 8
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            221,
+            222,
+            223,
+            224
+          ],
+          "printed_pages": [
+            "219",
+            "220",
+            "221",
+            "222"
+          ],
+          "opening_pdf": 221,
+          "ending_pdf": 224,
+          "previous_pdf": 220,
+          "next_pdf": 225,
+          "printed_title_candidate": "까만돌 하얀돌",
+          "byline_candidate": "김현태",
+          "credit_detail_candidate": "부산 구포여상 교사",
+          "platform_candidate": "SPC-1000",
+          "award_candidate": "공모우수상",
+          "program_credit_candidate": "Kim Heontae / 1984.10.9.",
+          "ending_evidence": "Full source219–222 independentlyread. Prose andlabel/variable/program explanation end220withpublishermark;listing starts220andends1380ENDon222. Next223–225/PDF225–227areindependent복덕방classifieds,notlistingcontinuation. Following메아리/SPC-CLOCKopens226/PDF228. Previous218/PDF220is64ColumnfontdataendingF0F8. No globaloffset/TOCboundaryinference."
+        },
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-42/source-reviewed.json",
+          "sha256": "57e4d59201426c60919f1090b88c154aabf62eb535520b121f37cd2bff5cc487",
+          "bytes": 8981
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-42/source-index-schema.json",
+          "sha256": "d1654d270597317999052fec1abfc736a53929ed9d27619e1c59450368de58b9",
+          "bytes": 5183
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-42/reproduction.json",
+          "sha256": "ac2b20d6f960ab983d6a7f1c71576da41f28e52a2ec4847bf24c0c07130ec5da",
+          "bytes": 2450
+        },
+        "source_code_connections": [
+          {
+            "connection_type": "physical-column-or-page-continuation",
+            "listing_id": "black-white-complete-listing",
+            "previous_region_id": "p220-listing-start",
+            "next_region_id": "p221-listing-left",
+            "previous_last_physical_text": "1,MY-4)-(MX-4,MY-4),PSET,1",
+            "next_first_physical_text": "80 LINE(MX+4,MY+1)-(MX+4,MY+4),PSET,0:LINE(MX-",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-continuation",
+            "listing_id": "black-white-complete-listing",
+            "previous_region_id": "p221-listing-left",
+            "next_region_id": "p221-listing-right",
+            "previous_last_physical_text": "⟦ampersand band: count unknown⟧ M E N U ⟦ampersand band: count unknown⟧",
+            "next_first_physical_text": "⟦ampersand band: count unknown⟧",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-continuation",
+            "listing_id": "black-white-complete-listing",
+            "previous_region_id": "p221-listing-right",
+            "next_region_id": "p222-listing-left",
+            "previous_last_physical_text": ":GOSUB \"SOUND\":PATTERN(MX-3,MY+3),7,WH$:XY(X,Y",
+            "next_first_physical_text": ")=2:CH$=\"BL\":PATTERN(24,48),7,BL$:N=N+1:N(N)=1",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-continuation",
+            "listing_id": "black-white-complete-listing",
+            "previous_region_id": "p222-listing-left",
+            "next_region_id": "p222-listing-right",
+            "previous_last_physical_text": "UB \"DEAD\":DB=DB+1:GOTO 1110",
+            "next_first_physical_text": "1030 IF SC=4 THEN X=SX:Y=SY:GOSUB \"CURSOR\":GOS",
+            "executable_join_performed": false
+          }
+        ],
+        "caption_associations_pending": [],
+        "source_title": {
+          "candidate": "까만돌 하얀돌",
+          "source_graphic_glyphs": [
+            "까",
+            "만",
+            "돌",
+            "하",
+            "얀",
+            "돌"
+          ],
+          "source_glyph_reading_order": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "canonical_title": "까만돌 하얀돌",
+          "canonical_identity_changed": false
+        },
+        "source_credit": {
+          "printed_byline": "김 현 태",
+          "canonical_credit": "김현태",
+          "detail": "부산 구포여상 교사",
+          "platform": "SPC-1000",
+          "award": "공모우수상",
+          "program_credit": "Kim Heontae",
+          "program_date": "1984.10.9.",
+          "canonical_identity_changed": false
+        },
+        "pending_manual_source_glyphs": [
+          {
+            "region_id": "p220-listing-start",
+            "download": "listing.txt",
+            "utf8_byte_start": 4,
+            "utf8_byte_end_exclusive": 34,
+            "transcription_excerpt": "⟦dash band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-listing-start.png",
+              "sha256": "2a44c39cd39c9e4c54fd710281bbf6fccaac6e52e74b70f260a6b00734253de2",
+              "bytes": 356303
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p220-listing-start",
+            "download": "listing.txt",
+            "utf8_byte_start": 268,
+            "utf8_byte_end_exclusive": 298,
+            "transcription_excerpt": "⟦dash band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-listing-start.png",
+              "sha256": "2a44c39cd39c9e4c54fd710281bbf6fccaac6e52e74b70f260a6b00734253de2",
+              "bytes": 356303
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p220-listing-start",
+            "download": "listing.txt",
+            "utf8_byte_start": 349,
+            "utf8_byte_end_exclusive": 384,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-listing-start.png",
+              "sha256": "2a44c39cd39c9e4c54fd710281bbf6fccaac6e52e74b70f260a6b00734253de2",
+              "bytes": 356303
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p220-listing-start",
+            "download": "listing.txt",
+            "utf8_byte_start": 385,
+            "utf8_byte_end_exclusive": 420,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-listing-start.png",
+              "sha256": "2a44c39cd39c9e4c54fd710281bbf6fccaac6e52e74b70f260a6b00734253de2",
+              "bytes": 356303
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p220-listing-start",
+            "download": "listing.txt",
+            "utf8_byte_start": 433,
+            "utf8_byte_end_exclusive": 468,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-listing-start.png",
+              "sha256": "2a44c39cd39c9e4c54fd710281bbf6fccaac6e52e74b70f260a6b00734253de2",
+              "bytes": 356303
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p220-listing-start",
+            "download": "listing.txt",
+            "utf8_byte_start": 469,
+            "utf8_byte_end_exclusive": 504,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-listing-start.png",
+              "sha256": "2a44c39cd39c9e4c54fd710281bbf6fccaac6e52e74b70f260a6b00734253de2",
+              "bytes": 356303
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1151,
+            "utf8_byte_end_exclusive": 1186,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1187,
+            "utf8_byte_end_exclusive": 1222,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1229,
+            "utf8_byte_end_exclusive": 1264,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1265,
+            "utf8_byte_end_exclusive": 1300,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1440,
+            "utf8_byte_end_exclusive": 1475,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1476,
+            "utf8_byte_end_exclusive": 1511,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1520,
+            "utf8_byte_end_exclusive": 1555,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1556,
+            "utf8_byte_end_exclusive": 1591,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2057,
+            "utf8_byte_end_exclusive": 2092,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2093,
+            "utf8_byte_end_exclusive": 2128,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2139,
+            "utf8_byte_end_exclusive": 2174,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2175,
+            "utf8_byte_end_exclusive": 2210,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2480,
+            "utf8_byte_end_exclusive": 2515,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2516,
+            "utf8_byte_end_exclusive": 2551,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2562,
+            "utf8_byte_end_exclusive": 2597,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2598,
+            "utf8_byte_end_exclusive": 2633,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2750,
+            "utf8_byte_end_exclusive": 2785,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2786,
+            "utf8_byte_end_exclusive": 2821,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 2830,
+            "utf8_byte_end_exclusive": 2865,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-left.png",
+              "sha256": "2bd809d580ebe1118f6a5277e62c5a1b3bdef723d20ecf2cc3de70eabccd9075",
+              "bytes": 1074412
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 2866,
+            "utf8_byte_end_exclusive": 2901,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-right.png",
+              "sha256": "80ab11a2612829ee725b58997d0db092b903598dfd49db576687a61e756f7240",
+              "bytes": 1114680
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 3358,
+            "utf8_byte_end_exclusive": 3393,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-right.png",
+              "sha256": "80ab11a2612829ee725b58997d0db092b903598dfd49db576687a61e756f7240",
+              "bytes": 1114680
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 3394,
+            "utf8_byte_end_exclusive": 3429,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-right.png",
+              "sha256": "80ab11a2612829ee725b58997d0db092b903598dfd49db576687a61e756f7240",
+              "bytes": 1114680
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 3436,
+            "utf8_byte_end_exclusive": 3471,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-right.png",
+              "sha256": "80ab11a2612829ee725b58997d0db092b903598dfd49db576687a61e756f7240",
+              "bytes": 1114680
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p221-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 3472,
+            "utf8_byte_end_exclusive": 3507,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page223/p221-listing-right.png",
+              "sha256": "80ab11a2612829ee725b58997d0db092b903598dfd49db576687a61e756f7240",
+              "bytes": 1114680
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 5559,
+            "utf8_byte_end_exclusive": 5594,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-left.png",
+              "sha256": "f431c8b2d7e76504a9714fc6de9a96906795648d6e278db9a72aa629d4b76ff3",
+              "bytes": 1012282
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 5595,
+            "utf8_byte_end_exclusive": 5630,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-left.png",
+              "sha256": "f431c8b2d7e76504a9714fc6de9a96906795648d6e278db9a72aa629d4b76ff3",
+              "bytes": 1012282
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 5641,
+            "utf8_byte_end_exclusive": 5676,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-left.png",
+              "sha256": "f431c8b2d7e76504a9714fc6de9a96906795648d6e278db9a72aa629d4b76ff3",
+              "bytes": 1012282
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 5677,
+            "utf8_byte_end_exclusive": 5712,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-left.png",
+              "sha256": "f431c8b2d7e76504a9714fc6de9a96906795648d6e278db9a72aa629d4b76ff3",
+              "bytes": 1012282
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7206,
+            "utf8_byte_end_exclusive": 7241,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7242,
+            "utf8_byte_end_exclusive": 7277,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7288,
+            "utf8_byte_end_exclusive": 7323,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7324,
+            "utf8_byte_end_exclusive": 7359,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7576,
+            "utf8_byte_end_exclusive": 7611,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7612,
+            "utf8_byte_end_exclusive": 7647,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7658,
+            "utf8_byte_end_exclusive": 7693,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7694,
+            "utf8_byte_end_exclusive": 7729,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7960,
+            "utf8_byte_end_exclusive": 7995,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 7996,
+            "utf8_byte_end_exclusive": 8031,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 8038,
+            "utf8_byte_end_exclusive": 8073,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p222-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 8074,
+            "utf8_byte_end_exclusive": 8109,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page224/p222-listing-right.png",
+              "sha256": "492f8bcf9038f72799ec024037763f2378cb1cea36706e7a44d069ff539c191f",
+              "bytes": 902219
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          }
+        ],
+        "pending_manual_display_glyphs": [
+          {
+            "region_id": "p219-execution-body",
+            "download": "article.txt",
+            "utf8_byte_start": 2881,
+            "utf8_byte_end_exclusive": 2884,
+            "transcription_excerpt": "↑",
+            "original_encoding": "unverified",
+            "source_pixels_authoritative": true,
+            "manual_correction": "pending-if-exact-original-glyph-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page221/p219-execution-body.png",
+              "sha256": "a3460c4a89195f0543f9eef6cea2dc5ab19cde82a71b243454f757a35563769c",
+              "bytes": 282140
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p219-execution-body",
+            "download": "article.txt",
+            "utf8_byte_start": 2886,
+            "utf8_byte_end_exclusive": 2889,
+            "transcription_excerpt": "↓",
+            "original_encoding": "unverified",
+            "source_pixels_authoritative": true,
+            "manual_correction": "pending-if-exact-original-glyph-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page221/p219-execution-body.png",
+              "sha256": "a3460c4a89195f0543f9eef6cea2dc5ab19cde82a71b243454f757a35563769c",
+              "bytes": 282140
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p219-execution-body",
+            "download": "article.txt",
+            "utf8_byte_start": 2891,
+            "utf8_byte_end_exclusive": 2894,
+            "transcription_excerpt": "→",
+            "original_encoding": "unverified",
+            "source_pixels_authoritative": true,
+            "manual_correction": "pending-if-exact-original-glyph-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page221/p219-execution-body.png",
+              "sha256": "a3460c4a89195f0543f9eef6cea2dc5ab19cde82a71b243454f757a35563769c",
+              "bytes": 282140
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p219-execution-body",
+            "download": "article.txt",
+            "utf8_byte_start": 2896,
+            "utf8_byte_end_exclusive": 2899,
+            "transcription_excerpt": "→",
+            "original_encoding": "unverified",
+            "source_pixels_authoritative": true,
+            "manual_correction": "pending-if-exact-original-glyph-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page221/p219-execution-body.png",
+              "sha256": "a3460c4a89195f0543f9eef6cea2dc5ab19cde82a71b243454f757a35563769c",
+              "bytes": 282140
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p220-execution-rest",
+            "download": "article.txt",
+            "utf8_byte_start": 2942,
+            "utf8_byte_end_exclusive": 2945,
+            "transcription_excerpt": "□",
+            "original_encoding": "unverified",
+            "source_pixels_authoritative": true,
+            "manual_correction": "pending-if-exact-original-glyph-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-execution-rest.png",
+              "sha256": "6c5786ff1e9039ba6511c1952cd955a0193e495510f58f585d1a985ef58b57ae",
+              "bytes": 305496
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p220-execution-rest",
+            "download": "article.txt",
+            "utf8_byte_start": 3357,
+            "utf8_byte_end_exclusive": 3360,
+            "transcription_excerpt": "□",
+            "original_encoding": "unverified",
+            "source_pixels_authoritative": true,
+            "manual_correction": "pending-if-exact-original-glyph-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-execution-rest.png",
+              "sha256": "6c5786ff1e9039ba6511c1952cd955a0193e495510f58f585d1a985ef58b57ae",
+              "bytes": 305496
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          },
+          {
+            "region_id": "p220-variables-left",
+            "download": "article.txt",
+            "utf8_byte_start": 4727,
+            "utf8_byte_end_exclusive": 4731,
+            "transcription_excerpt": "🄲",
+            "original_encoding": "unverified",
+            "source_pixels_authoritative": true,
+            "manual_correction": "pending-if-exact-original-glyph-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/black-white/ocr-page222/p220-variables-left.png",
+              "sha256": "11af47c927a58c09a3834c5f2148b48d4df92a75fc656fd435539951ba8b675d",
+              "bytes": 192779
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+              "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+              "bytes": 4518020
+            }
+          }
+        ],
+        "quoted_run_review": {
+          "repeated_glyph_candidates": 9,
+          "space_candidates": 6,
+          "source_glyph_and_space_counts": "unverified",
+          "corrections": {
+            "path": "archive/pdf/1984-12/packages/black-white/corrections.json",
+            "sha256": "c06038e8a47d3fdaa93caf3c43b0d533e461dcb45342b8afb7c4c652b5741348",
+            "bytes": 4518020
+          }
+        }
+      },
+      "classification_evidence": [
+        "Complete까만돌하얀돌219–222/PDF221–224 independentlyboundedbyprevious64Column218fontdataF0F8andnextindependent복덕방classifieds223–225/PDF225–227. Following메아리/SPC-CLOCK226/PDF228 isoutsidecurrentarticle;no globaloffset orTOCboundary inference. Source김현태/부산구포여상교사/SPC-1000/공모우수상 andprogramKimHeontae/1984.10.9. retained independently.",
+        "137file native/rebuild exact:38regions/20blocks/eightoriginals/30ownregionalranges/6286exactUTF8occurrences. Six source titleglyphs/wholeboardheader/12screenlabels/originalgameboard retainedwithoutboard/piececounting. Proseexecutioncontinues219–220;threeprosetables33rows77cells,noheaders;source NC1000/SC1~15/720L/두려워하거나/↑↓→→/boxedC preserved.",
+        "OnecompleteBASICprogram234physicalrows/147actualvisiblelabels/87continuations/46unknownbandmarkers/104pairedquotedfields/11quotedlabeldefinitions/33quotedlabelreferences/62referenceclauses/28opaquefields.380banner crosses221columns;720continuationcrosses222and000*X/numeric-only0 are notlabels. SOUND13;9,quotedWHITE/DEAD/next/menu/keyword/decimalwraps retainedwithoutgame/byte/encoding/syntax repair. Allfiveprogramframes/header/screen/publishermark uncaptioned;no caption invented.",
+        "All11wholeviews/38original/four revisedexactcrops inspectedbefore30successful tasks(5eng/25kor+eng). Four prose rightboundaries extendedbeforeOCR;onesourcecorrectionpass/no retries/failures/postOCRrepair. Fresh metadata selectsownrepeatedscreenBLACK/WHITEcolumn occurrences withouttextchange. Sourceencodedbytes/quotedspace/repeatcounts/glyphs/fullproofreading/humanacceptance/execution unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0026",
@@ -6612,11 +7831,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 20,
-    "readable_articles": 20,
+    "classified_articles": 21,
+    "readable_articles": 21,
     "partial_articles": 0,
     "nonowning_headings": 5,
-    "unresolved_eligibility": 12,
+    "unresolved_eligibility": 11,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -12304,42 +13523,167 @@
         "sha256": "e38d176fa1a68390ce1543f32e872fdc7296f3f64359777f5f17bfbf412f6e3e",
         "bytes": 8934385
       }
+    },
+    {
+      "id": "batch-42",
+      "status": "complete-black-white219–222",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/checkpoint.json",
+        "sha256": "472aa812bb7f9586e27a4d9a45239e23e9abbedb5f2c6f865bdb85d30663d41c",
+        "bytes": 6848
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/checkpoint-r01.json",
+        "sha256": "4a3dae4dd04f7fccf145b9e62cb7f520f730be0e575aec76481bd94a2ad32fdc",
+        "bytes": 7263
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-42/validation.json",
+        "sha256": "cb5d56aa8616ddc04183c0921f39a61b0e4441acf9ab4907b451218e31b7627f",
+        "bytes": 1092
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-42/verify.py",
+        "sha256": "8d6dade9ec3d9b74dcda9f31fdd3dbd212d6846af6f6961b2d3af287d25cf2c6",
+        "bytes": 11566
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/source-reviewed.json",
+        "sha256": "57e4d59201426c60919f1090b88c154aabf62eb535520b121f37cd2bff5cc487",
+        "bytes": 8981
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/mapping-completed.json",
+        "sha256": "f339259beee938f7b8314a21166624081c373b4386e79f51bd4c27ec3eb3866b",
+        "bytes": 687
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/crop-repair-r01.json",
+        "sha256": "02a5f7118a920812d6704c9575d1c7be2f8b3fd7b34cd60b6e4af64a17ed9659",
+        "bytes": 4283
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/preflight-reviewed.json",
+        "sha256": "97d8a30b7215be096dab0291e288a26e89f65053a11108a8415e9d5b6fa4b0fc",
+        "bytes": 18786
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/ocr-completed.json",
+        "sha256": "16a53865c2b0fab4926abe9758f9381c13426676a8471ba06392234460e4eef4",
+        "bytes": 1075
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/source-correction-reading.json",
+        "sha256": "410074cdc9573596b49dbdcfa2199550b77425982f8ca0c69afa4cdb15a45c82",
+        "bytes": 7120
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/correction-completed.json",
+        "sha256": "7ee243cafed5d06d4515777ee5227868a1a7d5f68f9a87816bad5b1e688bd268",
+        "bytes": 782
+      },
+      "screen_occurrence_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-42/screen-occurrence-repair-completed-r01.json",
+        "sha256": "63587d5b963e2102bd9db38111b72b2ee64674d048ef01208a362004d37716f5",
+        "bytes": 1621
+      },
+      "statistics": {
+        "completed_at": "2026-10-20T08:07:09.605040+00:00",
+        "regions": 38,
+        "blocks": 20,
+        "figures": 8,
+        "ocr_tasks": 30,
+        "eng_code_tasks": 5,
+        "kor_eng_tasks": 25,
+        "regional_text_ranges": 30,
+        "review_notes": 30,
+        "prose_joins": 1,
+        "tables": 3,
+        "table_rows": 33,
+        "table_cells": 77,
+        "table_headers": 0,
+        "source_title_glyphs": 6,
+        "screen_labels": 12,
+        "listing_groups": 1,
+        "physical_code_rows": 234,
+        "logical_basic_entries": 147,
+        "physical_continuations": 87,
+        "unknown_bands": 46,
+        "paired_quoted_fields": 104,
+        "quoted_label_definitions": 11,
+        "quoted_label_references": 33,
+        "line_reference_clauses": 62,
+        "target_fields": 62,
+        "hex_fields": 28,
+        "quoted_repeat_candidates": 9,
+        "quoted_space_candidates": 6,
+        "source_correction_passes": 1
+      },
+      "actual_ocr_tasks": 30,
+      "eng_code_tasks": 5,
+      "kor_eng_tasks": 25,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 4,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 38939,
+      "rebuild_files": 137,
+      "new_source_renders": 5,
+      "reused_full_page_renders": 6,
+      "mapped_source_pages": 4,
+      "outside_map_lookups": 7,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "implementation_pins_verified": 29,
+      "exact_utf8_range_occurrences": 6286,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-42/preserved-work-inventory.json",
+        "sha256": "6a00078a77293c3f4eeb168a082cfe49c1f381c094890682252efe1dc1f184ac",
+        "bytes": 9064243
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-42",
-    "goal": "Restore opening of canonical까만돌하얀돌0025 after actualsourceextent/byline/platform/neighbor inspection;map at mostsix eligiblepages andsplit any longerbody.",
+    "id": "batch-43",
+    "goal": "Classify source메아리0026 as non-owningheading ifevidenceconfirms,thenrestorecanonicalSPC-CLOCK0027 afteractualextent/byline/neighborinspection;atmosttwocanonicaltasks/sixmappedpages.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0025"
+      "maso-1984-12-toc-0026",
+      "maso-1984-12-toc-0027"
     ],
     "mapping_targets": [
-      221,
-      222,
-      223,
-      224,
-      225,
-      226
+      228,
+      229,
+      230,
+      231,
+      232,
+      233
     ],
     "printed_page_targets": [
-      "219",
-      "220",
-      null,
+      "226",
+      "227",
+      "228",
       null,
       null,
       null
     ],
     "provisional_lookup_targets": [
-      220,
-      221,
-      222,
-      223,
-      224,
-      225,
-      226,
       227,
       228,
       229,
-      230
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236
     ],
     "full_extent_review_pending": true,
     "limits": {
@@ -12347,7 +13691,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Independently observed opening219/PDF221 and220/PDF222 belong to까만돌하얀돌/source김현태/SPC-1000. Other provisional folios/body/ad boundaries unverified;no globaloffset or nextTOC226 boundary inference. Reuse pinned full/reviewpairs frombatches40/41 where available,andinspectactual full extent/neighbors beforemapping. Atmostsixdistincteligiblepages/onecanonicaltask initially/twentyoutside-maplookups;split longerbody. PreserveeveryphysicalBASIC/assembly/hex/quoted/screen/table/caption/sourcecredit field and originalframes ifpresent. Inspect every original/revisedexactcrop before mappedTesseract;one sourcecorrectionpass;no semantic/game/byte/opcode/MML/encoding/hardware repair.64Columncomplete144filesselected/135natives retained;twounknownbands/musicO0/repeatcounts/quotedspaces remain sourceuncertainties,notdeferredbodypages. Use design_literal_assembly dispatcher;29implementationpins/213testbaseline unchanged. No reader rebuild."
+    "note": "Source메아리triangle/SPC-CLOCKopening226/PDF228,227/PDF229 and228/PDF230 individuallyseen as batch42outside-maplookups. Source탁연상 titleSPC-CLOCK의추가설명과테크닉응용 retained;no bodyownershipforthegroupheading. Actualending/remainingfolios/independentads/nextarticle unverified. Reusepinned227–230full/reviewpairsandreinspect actualfullsourceextent/neighbors beforemapping;nextTOC리로케이터232 isreferenceonly,notPDFboundary. Atmostsixeligiblepages/twocanonicaltasks/twentyoutsidelookups;splitlongerbody. Preserveeverydiagram/topology/label/table/formula/assembly/BASIC/hex/patch/quoted/physicalwrap/sourceclaim and originalimage ifpresent;inspecteveryexactcrop beforemappedTesseract andonecorrectionpass. No opcode/byte/address/firmware/math/encoding/syntax/graphic repair. Black-whitecomplete137filesselected/46unknownbands/quotedruns/boxedarrowcandidates retained,notdeferredpages.64Column144files/135natives remainscomplete.29implementationpins/213testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
