@@ -75,12 +75,22 @@ Seventeen localized candidates retain NED20G/ED20G and literal arithmetic.
 All 26 tasks completed without failure/retry; the unchanged 213-test baseline is reused.
 A fresh metadata revision corrects one 2A occurrence link; all prior versions remain.
 
-The 56-entry issue ledger records six readable/sample-reviewed articles and 50
-unresolved entries. Next is batch07: verify SPC-1000 tip : BEEP from printed36/PDF38
-and restore it within the usual limits. The lower 컴퓨돌이 panel remains separate.
-PDF37/38 renders can be reused. Cover selection, remaining source-page accounting
-and issue closeout are pending. See the [February record](docs/progress/8502.md)
-and [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
+Batch07 completes SPC-1000 tip : BEEP, canonical0028, on printed36–37/PDF38–39.
+The opening lower 컴퓨돌이 panel remains separately owned and excluded. All 105 files
+at `archive/pdf/1985-02/packages/batch-07-r01/spc-beep` match its independent rebuild.
+All 1,987 exact ranges, 2,069 evidence pins and 27 images pass. Two BASIC listings
+retain 60 labels/63 code rows, 124 numeric DATA fields plus END and 62 note/duration
+pairs. The note table retains 16 data cells/two row headers; six usage examples,
+five boxed keys and three caption links remain. Seven unknown bands/marks and
+19 source candidates remain explicit. All 23 tasks completed without failure/retry;
+two crop repairs preceded OCR. Unchanged 213-test baseline reused.
+
+The 56-entry issue ledger records seven readable/sample-reviewed articles and 49
+unresolved entries. Next is batch08: verify MSX-tip : 미니 모니터 from printed38/PDF40
+and restore it within the usual limits. PDF39/40 renders can be reused. Cover selection,
+remaining source-page accounting and issue closeout are pending. See the
+[February record](docs/progress/8502.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.
 
 ## December 1984 closeout, 2026-10-20

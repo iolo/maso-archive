@@ -6,18 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Six articles are readable/sample-reviewed;
-50 of 56 canonical entries remain unresolved. The latest is the Apple conversion
-tip on PDF36–37, visible folio34 then null. The lower independent advertisement is
-excluded. All 117 files match its independent rebuild; 905 exact ranges, 992 evidence
-pins and 30 images pass. Seven code/output rows, one temporary BASIC label, five
-ordered steps, six prose references, eleven RETURN labels and two word continuations
-are source-linked. Seventeen localized glyph/claim candidates remain explicit.
-All 26 OCR tasks completed without failure/retry. A fresh metadata revision corrects
-one occurrence link; all original evidence remains. The unchanged pipeline reuses
-its passing 213-test baseline. Next is SPC-1000 tip : BEEP from printed36/PDF38;
-the lower 컴퓨돌이 panel remains separate. Cover selection and issue closeout remain
-pending. See the [February record](docs/progress/8502.md) and
+February 1985 restoration is in progress. Seven articles are readable/sample-reviewed;
+49 of 56 canonical entries remain unresolved. The latest is SPC-1000 tip : BEEP on
+printed36–37/PDF38–39; the opening lower comic remains separately owned/excluded.
+All 105 files match its independent rebuild; 1,987 exact ranges, 2,069 evidence pins
+and 27 images pass. Two listings retain 60 BASIC labels, 63 code rows and 124 numeric
+DATA fields plus END. The note table, six examples, five boxed keys and three captions
+are source-linked. Seven unknown bands/marks and 19 localized candidates remain.
+All 23 OCR tasks completed without failure/retry. The unchanged pipeline reuses its
+passing 213-test baseline. Next is MSX-tip : 미니 모니터 from printed38/PDF40.
+Cover selection and issue closeout remain pending.
+See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,

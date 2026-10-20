@@ -55,9 +55,17 @@ paired OCR or a new engine comparison.
   All 30 crops inspected before 26 tasks; all raws read before one source pass;
   zero failure/retry/crop repair. One 2A occurrence link fixed in a fresh metadata
   revision; all source text and prior outputs preserved. Unchanged 213-test baseline.
-  Six articles are readable/sample-reviewed; 50 of 56 canonical entries remain
-  unresolved. Next: batch07 verifies SPC-1000 tip : BEEP from printed36/PDF38,
-  keeping the lower 컴퓨돌이 panel separate. Cover and issue closeout remain pending.
+  Batch07 completes SPC-1000 tip : BEEP on printed36–37/PDF38–39; the opening
+  lower comic remains separately owned/excluded. All 105 rebuild files, 1,987 exact
+  ranges, 2,069 evidence pins and 27 images pass. Two listings retain 60 BASIC labels,
+  63 code rows and 124 numeric DATA fields plus END. The table retains 16 cells/two
+  row headers; six examples, five boxed keys and three captions remain. Seven unknown
+  bands/marks and 19 source candidates remain explicit. All 27 original/two revised
+  crops inspected before 23 tasks; all raws read before one pass; zero OCR failures
+  or retries. Unchanged 213-test baseline reused.
+  Seven articles are readable/sample-reviewed; 49 of 56 canonical entries remain
+  unresolved. Next: batch08 verifies MSX-tip : 미니 모니터 from printed38/PDF40.
+  Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.

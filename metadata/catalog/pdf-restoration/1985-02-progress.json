@@ -484,12 +484,39 @@
       "toc_entry_id": "maso-1985-02-toc-0028",
       "title": "SPC-1000 tip : BEEP",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Article spans printed36–37/PDF38–39,including two listings and six usage examples. Opening page lower 컴퓨돌이 is a separate canonical0025 panel,excluded.",
+        "Preceding PDF37 ends Apple tip above book advertisement. Following PDF40/38 opens MSX 미니 모니터,canonical0029.",
+        "Opening explanation-left ends 나타 and incoming-right starts 내었다. Opening right-final ends 것이/다 across physical lines;final37 prose and examples continue independently.",
+        "Listing1 lower-left through1160 continues upper-right1170–1350 DATA END;listing2 ends1110 GOTO1010. Both complete original pages/panels retained without execution.",
+        "Source subtitle SPC-1000의 숨겨진 세계 and title BEEP remain independent of canonical title. No printed article byline."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-07-r01/spc-beep",
+        "article_id": "scan-maso-1985-02-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-07-r01/spc-beep/manifest.json",
+          "sha256": "f1561197bac67c4513159db96105727ed2472c1c25a3ee90c34048dfa41a0757",
+          "bytes": 17229
+        },
+        "coverage": {
+          "pdf_pages": [
+            38,
+            39
+          ],
+          "printed_pages": [
+            "36",
+            "37"
+          ],
+          "regions": 27,
+          "blocks": 23,
+          "figures": 4
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0029",
@@ -802,10 +829,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 6,
+    "readable": 7,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 50
+    "unresolved_eligibility": 49
   },
   "checkpoints": [
     {
@@ -1095,6 +1122,61 @@
         "sha256": "7350cbff500e82ade8a855b756af54e6528209721d0a08f3b58846da826b371a",
         "bytes": 864140
       }
+    },
+    {
+      "id": "batch-07",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0028"
+      ],
+      "mapped_pdf_pages": [
+        38,
+        39
+      ],
+      "outside_map_lookup_pages": [
+        37,
+        40
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-07/validation.json",
+        "sha256": "755f65f7c17e0b595e4289842afd9b6115e45e2da1a2a8d88c0da0e6b2056552",
+        "bytes": 1282
+      },
+      "stats": {
+        "completed_at": "2026-10-20T23:49:55.366329+00:00",
+        "regions": 27,
+        "blocks": 23,
+        "figures": 4,
+        "physical_text_rows": 120,
+        "physical_code_rows": 63,
+        "basic_labels": 60,
+        "listing1_labels": 42,
+        "listing2_labels": 18,
+        "data_rows": 17,
+        "data_fields": 125,
+        "numeric_data_fields": 124,
+        "note_duration_pairs": 62,
+        "table_rows": 2,
+        "table_data_cells": 16,
+        "table_row_headers": 2,
+        "usage_examples": 6,
+        "key_labels": 5,
+        "quoted_fields": 5,
+        "connections": 3,
+        "caption_links": 3,
+        "unknown_bands": 7,
+        "source_candidates": 19,
+        "source_passes": 1,
+        "ocr_tasks": 23,
+        "failures": 0,
+        "retries": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-07-preserved-work.json",
+        "sha256": "95c54bd3c4d17e651b1f8d4fac23f57baaaa48afeac60edee716ce068d6d4ee8",
+        "bytes": 956514
+      }
     }
   ],
   "source_page_observations": [
@@ -1264,28 +1346,47 @@
     },
     {
       "pdf_page": 38,
-      "classification": "article-opening-and-separate-comic-observed",
+      "classification": "mixed-article-and-separate-comic",
       "toc_entry_ids": [
         "maso-1985-02-toc-0028",
         "maso-1985-02-toc-0025"
       ],
       "printed_page": "36",
-      "source_title": "SPC-1000 tip BEEP;separate lower 컴퓨돌이",
+      "evidence": "Upper BEEP body complete;lower 컴퓨돌이 “언제쯤” canonical0025 separately owned and still pending."
+    },
+    {
+      "pdf_page": 39,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0028"
+      ],
+      "printed_page": "37",
+      "evidence": "BEEP continuation prose,usage examples and two complete BASIC listings."
+    },
+    {
+      "pdf_page": 40,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0029"
+      ],
+      "printed_page": "38",
+      "source_title": "MSX 미니 모니터",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-07",
-    "goal": "Verify extent of SPC-1000 tip : BEEP from printed36/PDF38 and restore within six mapped pages.",
+    "id": "batch-08",
+    "goal": "Verify extent of MSX-tip : 미니 모니터 from printed38/PDF40 and restore within six mapped pages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0028"
+      "maso-1985-02-toc-0029"
     ],
-    "mapping_targets": "Opening PDF38/printed36 observed; separate lower 컴퓨돌이 panel remains outside this article. Verify actual end and adjacent pages.",
+    "mapping_targets": "Opening PDF40/printed38 observed;verify listing continuation,actual end and adjacent pages.",
     "provisional_lookup_targets": [
-      37,
-      38,
-      39
+      39,
+      40,
+      41,
+      42
     ],
     "limits": {
       "articles": 2,
@@ -1297,12 +1398,13 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "OCR omitted lower prose over photograph; preserved drafts and one source-direct completion.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
-    "Remaining50 identities and remaining source-page accounting require inspection; no global page offset inferred.",
+    "Remaining49 identities and remaining source-page accounting require inspection; no global page offset inferred.",
     "Q&A retains two unknown separator bands,three unknown quoted-space widths,source technical/numeric mistakes and Unicode source candidates; no code execution certification.",
     "Reader guide retains two unknown bands, four faint heading candidates, literal code/command discrepancies and duplicate MSX step③. All original images retained; source encoded bytes and execution unverified.",
     "Reader letters retain five unknown ellipsis bands and localized names,addresses,bibliographic/technical references; no identity/contact/reference verification. Eight signatures and three editorial responses are not an article byline.",
     "BASIC input lesson retains RETRUN,physical1170/290 wrap,13unknown bands,table-range glyph approximations and source claims. Original input diagram retained;independent diagram-label transcription pending volunteers.",
-    "Apple conversion tip retains opaque NED20G/ED20G,0075 - E8 03,physical word continuations and seventeen localized glyph/claim candidates. Final folio absent and mapped null;lower independent advertisement excluded. No source claims or execution certified."
+    "Apple conversion tip retains opaque NED20G/ED20G,0075 - E8 03,physical word continuations and seventeen localized glyph/claim candidates. Final folio absent and mapped null;lower independent advertisement excluded. No source claims or execution certified.",
+    "BEEP retains six unknown decorative bands and one unclear raised usage mark,19localized source candidates,&H2/&H20 distinctions and literal DATA values. Source claims/encoding/execution remain unverified;separate lower 컴퓨돌이 remains pending."
   ],
   "reader_rebuild": false
 }
