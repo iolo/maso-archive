@@ -19,10 +19,48 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- December 1984 is in progress: twenty-eight readable articles, no partial articles,
-  seven non-owning headings and 2 of 37 entries unresolved. Information parent0031,
+- December 1984 is in progress: thirty readable articles, no partial articles,
+  seven non-owning headings and no unresolved entries among the 37 canonical entries. Information parent0031,
   정보모음,is a non-owning TOC organizational group with no invented body pages;
   its canonical identity/title and six child relationships remain unchanged.
+
+  Advertising index0036 is complete in packages/advertising-index:21 files match
+  the independent rebuild. Its actual body is the lower panel of240/PDF242;upper
+  independent magazine advertisement excluded. Canonical TOC255 remains unchanged.
+  Four regions/three blocks/one original panel retain24 rows/48 cells/two ordered column
+  parts/no invented headers and24 literal name/reference pairs. Three cover references
+  표3/표2/표4 remain printed references,not inferred folios. Original tree/rules/240folio
+  and24 leader-dot bands retained as pixels without encoded-count inference. Source
+  고려씨스템산업 and 우신기술서적 remain literal candidates. No reference targets verified.
+
+  Closing editorial0037 is complete in packages/closing-editorial:53 files match the
+  independent rebuild. Actual PDF258 follows yearly-index final255 and precedes independent
+  TIGER advertisementPDF259. Source title1년을 정리하며 remains separate from canonical
+  편집후기/256. The source page has no visible folio and is mapped null. Twelve regions/
+  11 blocks/one full original page retain nine independently signed notes and one left→middle
+  column word continuation. Nine signature Unicode candidates retain their own scans;
+  no full author identities or article-wide byline inferred. Six ellipsis bands retain
+  explicit editorial placeholders with unknown original glyph counts. Original old spelling,
+  학생방/청승맞게 candidates and Eye Shoping remain without grammar/encoding repair.
+
+  Both packages retain1,206 exact UTF-8 ranges;14 localized source candidates andsix
+  unknown-band occurrences remain source-linked. Six whole views/five reused renders/one
+  new render;two mapped pages/four outside lookups/two canonical tasks. All16 exact original
+  crops viewed before14 kor+eng tasks. All14 raws read before one direct source pass;
+  zero OCR failures,retries,engine changes or crop repairs. Successful index/signature
+  omissions handled through recorded source-direct fallback. Initial excluded-region schema
+  failure retained;fresh mapping revision fixes metadata only before any map/crop/OCR output.
+  Recorder authoring preflight removed stray descriptive draft characters before execution;
+  all drafts retained. Source readings/maps/crops/raws/packages unchanged by those repairs.
+  All44,629 prior files,every prior inventory and29 implementation pins pass;current
+  preservation inventory contains 44,948 files. Unchanged213-test baseline reused.
+
+  All37 canonical entries are classified:30 readable articles/seven non-owning headings.
+  This is not issue closeout. The selected articles contain bodies on227 PDF pages;
+  33 other pages still need explicit whole-issue accounting. Cover verification,standalone
+  issue JSON/assets and independent issue rebuild/closeout remain pending. Human acceptance/
+  full proofreading,source bytes,claims,execution and backup recoverability remain unverified.
+  No reader rebuild.
 
   Classifieds0034 is complete223–225/PDF225–227 at packages/classifieds:35 files
   match the independent rebuild. Nine regions/six searchable title/category/running
@@ -255,13 +293,14 @@ paired OCR or a new engine comparison.
   design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
   cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-  Next: batch51, canonical0036 advertising index and0037 closing editorial. Provisional
-  source candidates are lower240/PDF242 and256/PDF258;review complete pages and neighbors
-  before mapping. Keep upper240 magazine advertisement separate;canonical TOC255 stays
-  unchanged. Preserve literal index rows/cover references/page fields/tree illustration
-  and editorial paragraphs/credits/terminal marks. Limits remain two canonical tasks,
-  six mapped pages and twenty outside-map lookups. Whole-issue accounting,cover verification,
-  independent issue rebuild and closeout follow separately. No reader rebuild.
+  Next: issue-accounting-01. Review the first20 pages outside selected article bodies:
+  PDF1–19 and66. Record cover/contents/divider/advertisement/other classifications and visible
+  folios from whole pages,without a global offset. Verify existing prepared cover under
+  PLAN-covers.md;preserve donated assets and prior evidence. Remaining13 outside-body pages
+  form the following bounded accounting checkpoint. Then reconcile all260 pages/shared-page
+  exclusions,export standalone issue JSON/assets and independently rebuild/check the whole
+  issue. Preserve all source uncertainties and volunteer transcription status. No new OCR
+  or reader rebuild. The full December goal remains active until closeout passes.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
