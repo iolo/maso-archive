@@ -20,13 +20,40 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - December 1984 is in progress: twenty-four readable articles, one partial article,
-  six non-owning headings and 6 of 37 entries unresolved. Canonical0030,the yearly
-  back-issue index,has its opening241–246/PDF243–248 at packages/year-index-a.
-  The 79-file native matches its independent rebuild byte for byte. Actual full extent
-  is241–255/PDF243–257: the final reading-material table ends with 통합소프트웨어2
-  before the independent editorial pagePDF258. The lower advertising index on240/PDF242
-  is separate despite its canonical TOC reference255. No global folio offset or next-TOC
-  boundary was inferred. Nine body pages247–255 and full article assembly remain pending.
+  six non-owning headings and 6 of 37 entries unresolved. Canonical0030, the yearly
+  back-issue index, retains immutable opening241–246 at packages/year-index-a and
+  middle247–252 at packages/year-index-b. The 79-file opening and 56-file middle
+  each match independent rebuilds byte for byte. Actual full extent is241–255/PDF243–257;
+  final255 ends with 통합소프트웨어2 before the independent editorialPDF258.
+  The advertising index on240/PDF242 is separate despite its TOC reference255.
+  Three final body pages253–255 and full article assembly remain pending.
+
+  Middle247–252 retains18 regions,10 blocks,eight original grids and5,128 exact
+  UTF-8 range occurrences. Eight table parts retain162 rows,648 logical cell positions
+  and32 header fields for 월/기종/제목/내용. Thirty printed month fields are issue
+  references,not folios;94 platforms,162 titles,162 summaries and200 blank positions
+  remain. Thirty local merged cells cover117 slots;four incoming month groups retain
+  16 empty positions. Sixty-seven literal blank platform positions remain;one additional
+  blank platform position is covered by an observed two-row cell. No label is duplicated
+  into an unprinted position. Four external opening heading/month occurrences retain
+  independent original byte ranges and pins;they are checked against their own download.
+
+  Education ends upper249,business spans lower249–upper251,and technical begins lower251.
+  Printed 비지니스/테크니컬 remain section headings,not invented captions. All eight
+  original grids remain uncaptioned. Source 독도는 우리땅/지도,마이크로 챌크,
+  분산분석과 회귀분석외,서북 편란법,Searc-hing and 마담 뚜 remain literal candidates.
+  Historical/technical claims and Roman/dash/ellipsis glyph approximations remain unverified.
+  Technical84.5 continues into final253;source labels are not repeated in empty slots.
+
+  All eleven reused whole-view pairs and eighteen exact crops were inspected before ten
+  kor+eng tasks,using pinned OEM1/PSM6,one thread and3000-pixel long edge. All ten raw
+  drafts were read before one source-direct pass. All eight grid drafts had omitted cells
+  or damaged order;the recorded bounded fallback restored every eligible cell. Zero OCR
+  failures,retries,engine switches or crop repairs. All41,537 prior files,every earlier
+  checkpoint inventory and29 implementation pins pass. The current preservation inventory
+  contains41,850 files;the unchanged213-test baseline is reused. Human acceptance,
+  full proofreading,source encoded bytes,claims and execution remain unverified.
+  No reader rebuild.
 
   Opening241–246 retains23 regions,16 blocks,seven original images and4,959 exact
   UTF-8 range occurrences. Source opening12권은 이런 내용들이었읍니다.,subtitle
@@ -61,7 +88,7 @@ paired OCR or a new engine comparison.
   A pre-write serializer assertion omitted one literal blank platform in its expected
   count; the failure is retained and a fresh serializer fixes the metadata expectation.
   Source readings remain unchanged. All41,110 prior files and29 implementation pins pass;
-  the new preservation inventory contains41,537 files. The unchanged213-test baseline
+  the opening preservation inventory contains41,537 files. The unchanged213-test baseline
   is reused. Human acceptance,full proofreading,source encoded bytes,historical/technical/
   scientific claims and execution remain unverified. No reader rebuild.
 
@@ -177,16 +204,14 @@ paired OCR or a new engine comparison.
   design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
   cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-  Next: batch46, yearly index0030 middle247–252/PDF249–254. Keep immutable opening
-  year-index-a. The actual full241–255 extent is verified; current eligible pages and
-  neighbors still require whole-view and exact-crop review. Reuse pinned248–258 render
-  pairs from batch45. Map at most six pages/one canonical task; preserve every cell,
-  blank,merged month span,header,title,platform,summary and original grid. Month labels
-  are issue references,not folios; never repeat unprinted labels or repair84.12 and other
-  historical discrepancies. Whole-grid drafts can omit cells; record a bounded source
-  fallback or justified crop repair without retrying unchanged failing inputs. Final
-  253–255/PDF255–257 and full assembly remain after the middle segment. All29
-  implementation pins/213-test baseline unchanged. No reader rebuild.
+  Next: batch47, yearly index0030 final253–255/PDF255–257. Keep immutable opening
+  year-index-a and middle year-index-b. Reinspect whole pages254–258 and every exact crop
+  before OCR. Final253 contains technical ending and 공모입선작 opening;254 continues
+  contest entries;255 is the three-column 읽을거리 table. Link incoming technical84.5
+  to middle252 row24 without printing a repeated label. Preserve every cell,blank,merged
+  span,header,title,platform,summary and original grid. No chronology,reference,title,
+  platform or technical repair. Full241–255 assembly remains after the final native.
+  All29 implementation pins/213-test baseline unchanged. No reader rebuild.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
