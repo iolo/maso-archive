@@ -157,20 +157,21 @@ ISOs, decoder probes, recovered bodies/assets, generated sites and browser
 artifacts are excluded from Git. No public deployment was performed.
 
 PDF restoration is a separate JSON/assets campaign. November 1983 and February,
-March, May, June, July, August and September 1984 are complete; eleven supplied
-eligible issues remain. March retains one missing-source terminal partial; no April PDF
-was supplied. August accounts for all 43 TOC entries: 37 readable, assistant
-sample-reviewed articles and six non-owning headings. Its standalone index is
-`archive/pdf/1984-08/reference/issue.json`; the report is
-`archive/pdf/1984-08/evidence/13-1984-08-closeout/report.json`. Source/correction ranges,
-asset integrity and a byte-identical issue rebuild pass. Human acceptance/full
-proofreading and historical code execution remain unverified. September is also
-complete at `archive/pdf/1984-09/reference/issue.json` (37 readable articles and
-six headings); October 1984 is next. The volunteer reader now includes all eight
-completed issues through September, integrated at the owner's request. The
-standalone JSON/assets package and original restoration evidence are preserved.
-See the [PDF plan](PLAN-PDF.md), [progress by issue](docs/progress/README.md)
-and the short [successor handoff](docs/SUCCESSOR-NOTES.md).
+March, May, June, July, August, September, October and December 1984 are complete;
+nine supplied eligible issues remain. March retains one missing-source terminal
+partial; no April PDF was supplied. December accounts for all 37 canonical entries:
+30 readable, assistant sample-reviewed articles and seven non-owning headings.
+All 260 source pages are classified. Its standalone index is
+`archive/pdf/1984-12/reference-r01/issue.json`; the completion report is
+`archive/pdf/1984-12/evidence/issue-closeout/report.json`. All 6,579 issue files match
+the independent rebuild, and all 213 freshly rerun PDF pipeline tests pass.
+Human acceptance/full proofreading, source encoded bytes and execution remain
+unverified; volunteer news/classified-body/diagram-label transcription and source
+uncertainties remain explicit. February 1985 is next; no next-issue work has started.
+Reader delivery is separate and was not rebuilt for December. See the
+[reader guide](docs/READING-ROOM.md), [PDF plan](PLAN-PDF.md),
+[progress by issue](docs/progress/README.md) and
+[successor handoff](docs/SUCCESSOR-NOTES.md).
 
 ## Validation and handoff
 

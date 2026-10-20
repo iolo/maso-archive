@@ -6,10 +6,13 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: thirty readable articles, no partial articles,
-seven non-owning headings and no unresolved entries among the 37 canonical entries. Information parent0031,
-정보모음,is a non-owning TOC organizational group with no invented body pages;
-its canonical identity/title and six child relationships remain unchanged.
+December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
+assistant sample-reviewed articles and seven non-owning headings account for all 37
+entries, with no partial articles or unresolved eligibility. The standalone index is
+`archive/pdf/1984-12/reference-r01/issue.json`; the completion report is
+`archive/pdf/1984-12/evidence/issue-closeout/report.json`.
+Information parent0031, 정보모음, remains a non-owning organizational group;
+all canonical identities, titles, parents and six child relationships are unchanged.
 
 Advertising index0036 is complete in packages/advertising-index:21 files match
 the independent rebuild. Its actual body is the lower panel of240/PDF242;upper
@@ -42,33 +45,35 @@ all drafts retained. Source readings/maps/crops/raws/packages unchanged by those
 All44,629 prior files,every prior inventory and29 implementation pins pass;current
 preservation inventory contains 44,948 files. Unchanged213-test baseline reused.
 
-All37 canonical entries are classified:30 readable articles/seven non-owning headings.
-All260 source pages are now accounted:227 contain selected article bodies;33 are other
-material. The33 comprise one cover,25 advertising/publisher-promotion pages,one contents,
-one issue title page,four group-divider pages andone unlisted publisher contest notice.
-All33 outside-body pages individually inspected in bounded20/13 checkpoints. Thirteen
-new whole views plus a named supplementalPDF132 review used14 lookups in accounting02,
-within20. No extra article identities,source folios or global offsets inferred.
+All 260 source pages are accounted: 227 contain selected article bodies and 33
+are other material (one cover, 25 advertising/promotion pages, one contents page,
+one issue title page, four group dividers and one unlisted publisher contest notice).
+All 33 outside-body pages were inspected in bounded checkpoints. Six native-map
+advertisement exclusions and the separate lower-PDF132 accounting annotation retain
+seven mixed-page advertisement exclusions. The CP/M native maps and upper-only crops
+are unchanged; source-map null folios on PDF132 and PDF258 remain null.
 
-Six native-map advertisement exclusions remain exact. Supplemental132 review confirms
-the independent lower bookstore advertisement absent from the legacy exclusion array
-but already outside all upper-only CP/M crops. A separate source-page accounting
-annotation records it;native maps/packages/readings unchanged. Original260-page ledger/
-audit and fresh r01 revisions retained. Seven mixed-page advertisement regions now
-explicit in full accounting. Source-map null folios132 and258 remain null.
+The donated cover takes priority. Its verified RGB JPEG thumbnail is 480×639 and
+63,964 bytes, with metadata stripped; the private derivative rebuild is byte-identical.
+The donated source remains unchanged and private. All 30 selected packages retain
+1,836 regions, 1,291 blocks and 509 figures. Their 6,573 copied files are exact.
+The selected standalone issue and independent rebuild match across all 6,579 files
+(2,040,045,506 bytes each); 1,752 unique image hashes decode successfully. Original
+exports remain preserved; the selected revision changes only ledger/manifest metadata.
 
-The donated December cover/PDF front cover/existing thumbnail remain verified against
-visible ’84.12. Existing RGB JPEG thumbnail is480×639/63,964 bytes,metadata stripped;
-fresh private derivative rebuild byte-identical. Donated source/spine unchanged/private.
-All30 selected packages/1,836regions/1,291blocks/509figures,45,012 prior files,every prior
-inventory and29 implementation pins pass. Current preservation inventory contains 45,068
-files;unchanged213-test baseline reused. Zero maps/OCR/source correction/canonical tasks.
+Fresh `make test-pdf` passes all 213 tests. All 45,068 prior files, every prior inventory,
+29 implementation pins and 1,645 pre-closeout ledger pins pass. The final preservation
+inventory contains 71,430 stable files, excluding its own file and later ledger/audit
+supplements. All maps, crops, raw drafts, corrections, immutable natives and failed
+attempts remain preserved. All 51 source checkpoints and two accounting checkpoints
+pass the recorded two-task/six-mapped-page/twenty-outside-lookup bounds.
 
-This is not issue closeout. Standalone issue JSON/assets and independent whole-issue
-export/rebuild/completion audit remain pending. All original source errors,unknown glyphs,
-volunteer news/classified-body/diagram-label transcription and batch01 crop-timing exception
-remain explicit. Human acceptance/full proofreading,source bytes,claims,execution and
-backup recoverability unverified. No reader rebuild.
+Source errors, unknown glyphs and volunteer news/classified-body/diagram-label
+transcription remain explicit. Batch01's initial exact crops were inspected after
+recognition; full pages preceded mapping, revised crops preceded recognition, and all
+selected regions were visually reviewed. This exception remains in the final report.
+Human acceptance/full proofreading, source encoded bytes, historical/technical claims,
+execution and backup recoverability remain unverified. No reader rebuild.
 
 Classifieds0034 is complete223–225/PDF225–227 at packages/classifieds:35 files
 match the independent rebuild. Nine regions/six searchable title/category/running
@@ -301,13 +306,13 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
 cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-Next: issue-closeout. Verify read-only canonical TOC/base snapshot and donated cover
-hash,export standalone archive/pdf/1984-12/reference JSON/assets and independently rebuild
-into a fresh evidence directory with unchanged tooling. Verify entire issue bytes/assets/
-manifests,all37 identities/titles/parents/all30 selected packages,260-page ledger/cover/
-prior inventories/implementation pins and retained source uncertainties. Update final
-report/ledger/five handoffs and commit,then audit every December requirement before
-marking the goal complete. No --preview,reader/browser/frontend rebuild or next-issue work.
+December closeout is complete. Reproduce the selected JSON/assets issue using
+`archive/pdf/1984-12/restoration/issue-closeout/reproduction-r03.json` and the pinned
+private inputs. Read `evidence/issue-closeout/report.json`, the complete source-page
+ledger and retained source uncertainties before volunteer correction. No further
+December restoration checkpoint is queued. Nine supplied eligible issues remain;
+February 1985 is next, and no next-issue work has started. No --preview or
+reader/browser/frontend rebuild was performed.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
@@ -323,7 +328,7 @@ the report is `archive/pdf/1984-10/evidence/issue-closeout/report.json`.
 Human acceptance/full proofreading, source bytes and execution remain unverified;
 news/classified body transcription and the batch 35 preflight timing exception remain
 explicit. The restoration closeout itself did not rebuild the reader.
-Ten supplied eligible issues remain after October, including December now in progress.
+December is also complete; nine supplied eligible issues remain, starting with February 1985.
 
 October's volunteer reader was subsequently built at the owner's request. The
 current `dist/reading-room/` contains 329 PDF articles across nine issues plus

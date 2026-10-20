@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1984-12",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-10-20",
   "source": {
     "path": "maso-pdf/maso-8412.pdf",
@@ -18186,24 +18186,111 @@
         "sha256": "8e3a94087b742ba8289fcb9b9a3bc59930972a97349d8b8c5f1bcaffa4c8c325",
         "bytes": 10290446
       }
+    },
+    {
+      "id": "issue-closeout",
+      "status": "complete",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/issue-closeout/checkpoint-r01.json",
+        "sha256": "26248dad6cf2f97874ae3d172d5967f4c9ce7e8935753222b9d81bd0db11f1fe",
+        "bytes": 7949
+      },
+      "export_ledger": {
+        "path": "archive/pdf/1984-12/restoration/issue-closeout/export-ledger-r01.json",
+        "sha256": "f4edb627c45f44b2c1a2f0b65809ece37fb7c1352411b776ace3d86c7d5e84cd",
+        "bytes": 487223
+      },
+      "report": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/report-r01.json",
+        "sha256": "770d4f263322901b6d3cbf78b57b243c64fe2aee1732eb154440fa93c39e4752",
+        "bytes": 8011
+      },
+      "completion_audit": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/completion-audit.json",
+        "sha256": "82b8ada83fbf8bc24038f711d192106403e37742900786d8066e4d627efac932",
+        "bytes": 6117
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/validation.json",
+        "sha256": "ec929e8f91fe5888481fe0febd1dd68c5922f854e57887ff060a2ba1876979ec",
+        "bytes": 3969
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/verify-r01.py",
+        "sha256": "47334f9e2575b7b2e38789cfdac07c6e1fc4f0e4bc0906a66b846eb86972f5d1",
+        "bytes": 10382
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/issue-closeout/reproduction-r03.json",
+        "sha256": "0500eac56abd29424b5eddb37f8105ebee52416f7f620e3c730494dfadec3453",
+        "bytes": 2864
+      },
+      "bounded_checkpoint_audit": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/bounded-checkpoints-audit.json",
+        "sha256": "ef3f4bc2c917d16a014b004d974d4fbd778e149717e099c8a532b02eb34ffc49",
+        "bytes": 33623
+      },
+      "issue_index": {
+        "path": "archive/pdf/1984-12/reference-r01/issue.json",
+        "sha256": "486e3ea9399d2c411b189c5ab6bb3ada3d45c289a43f564de3ee90e73ccdf1db",
+        "bytes": 9299
+      },
+      "standalone_manifest": {
+        "path": "archive/pdf/1984-12/reference-r01/manifest.json",
+        "sha256": "1fc7f0046b79cf776adbfd42241858e42202685d12756bf9f31826cc3a4e06b2",
+        "bytes": 1200373
+      },
+      "issue_files": 6579,
+      "selected_package_files": 6573,
+      "selected_packages": 30,
+      "prior_files_verified": 45068,
+      "implementation_pins_verified": 29,
+      "precloseout_ledger_pins_verified": 1645,
+      "all_source_pages_accounted": 260,
+      "independent_rebuild_byte_identical": true,
+      "actual_ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "mapped_source_pages": 0,
+      "outside_map_lookups": 0,
+      "canonical_tasks": 0,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/pdf-tests.log",
+        "sha256": "9fd43ac0a7f4624f836455d8f9742c425bdaa8221a8632b8dc7cb557291f4093",
+        "bytes": 36294
+      },
+      "test_result": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/pdf-tests.json",
+        "sha256": "6c4479241bf5c938b28cceb1515ec87d52be6277feb198d41f78082b7a1bf206",
+        "bytes": 440
+      },
+      "tests_reused_without_rerun": false,
+      "reader_rebuild": false,
+      "issue_closeout_pending": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/preserved-work-inventory-r01.json",
+        "sha256": "c71ad1bc10352b76b2f9333eb3818e45026540497373ed05050fc05a92da391d",
+        "bytes": 17258045
+      },
+      "preserved_files": 71430,
+      "post_promotion_verifier": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/verify-r02.py",
+        "sha256": "385c2a729d2948615ce36c59839e41510a79d493371344faa9f19f8418bfdbb0",
+        "bytes": 10437
+      },
+      "post_promotion_auditor": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/audit-after-ledger-r01.py",
+        "sha256": "027f3d25f5054c6a2c3c84425e47fa4b087184b7019498adb0b9c7f41ec4d2c9",
+        "bytes": 7220
+      },
+      "preserved_initial_closeout_inventory": {
+        "path": "archive/pdf/1984-12/evidence/issue-closeout/preserved-work-inventory.json",
+        "sha256": "f62a2394b459365f05d757b16b91cfd12ec7dda95e7cc9cdf05c28f5f7430fa0",
+        "bytes": 17256405
+      }
     }
   ],
-  "next_checkpoint": {
-    "id": "issue-closeout",
-    "goal": "Export standalone December issue JSON/assets and independently rebuild;verify every full-issue requirement before marking completion.",
-    "toc_entry_ids": [],
-    "mapping_targets": [],
-    "printed_page_targets": [],
-    "provisional_lookup_targets": [],
-    "full_extent_review_pending": false,
-    "segment_source_review_pending": false,
-    "limits": {
-      "articles": 2,
-      "mapped_source_pages": 6,
-      "outside_map_lookup_pages": 20
-    },
-    "note": "No source extraction tasks:all37canonical entries classified30readable/sevenheadings;all260source pages accounted227body+33other;cover donated priority/thumbnail verified. Use unchanged issue exporter with read-only canonical TOC/base snapshot archive/releases/reading-room-2026-10-19-october/data after proving37identity/title/parent and coverhash match. Export fresh archive/pdf/1984-12/reference and independently fresh evidence/issue-closeout/rebuild/reference without --preview. Preserve all30 immutable selected packages/natives/raws/readings/failed attempts/indexes. Verify byte-identical entire issue,relative asset/manifest pins,canonical hierarchy,source-page ledger/six native-map ads plus lower132 separate annotation,all prior inventories/29 implementation pins/213-test baseline,cover dimensions/metadata/donated priority. Record initial batch01 pre-OCR crop-inspection timing exception and all volunteer body/diagram transcription/unknown glyph/source errors;human acceptance/full proofreading/encodedbytes/execution/backup recovery unverified. Reconcile final docs/ledger/report and commit before completion audit. No reader/browser/frontend rebuild or next-issue work."
-  },
+  "next_checkpoint": null,
   "cover_status": {
     "status": "verified-donated-cover-and-prepared-thumbnail",
     "verification": {
@@ -18277,6 +18364,62 @@
     "native_map_exclusions": 6,
     "additional_source_accounting_exclusions": 1,
     "all_canonical_entries_classified": true,
-    "issue_closeout_pending": true
+    "issue_closeout_pending": false
+  },
+  "issue_closeout": {
+    "report": {
+      "path": "archive/pdf/1984-12/evidence/issue-closeout/report-r01.json",
+      "sha256": "770d4f263322901b6d3cbf78b57b243c64fe2aee1732eb154440fa93c39e4752",
+      "bytes": 8011
+    },
+    "completion_audit": {
+      "path": "archive/pdf/1984-12/evidence/issue-closeout/completion-audit.json",
+      "sha256": "82b8ada83fbf8bc24038f711d192106403e37742900786d8066e4d627efac932",
+      "bytes": 6117
+    },
+    "validation": {
+      "path": "archive/pdf/1984-12/evidence/issue-closeout/validation.json",
+      "sha256": "ec929e8f91fe5888481fe0febd1dd68c5922f854e57887ff060a2ba1876979ec",
+      "bytes": 3969
+    },
+    "issue_index": {
+      "path": "archive/pdf/1984-12/reference-r01/issue.json",
+      "sha256": "486e3ea9399d2c411b189c5ab6bb3ada3d45c289a43f564de3ee90e73ccdf1db",
+      "bytes": 9299
+    },
+    "standalone_manifest": {
+      "path": "archive/pdf/1984-12/reference-r01/manifest.json",
+      "sha256": "1fc7f0046b79cf776adbfd42241858e42202685d12756bf9f31826cc3a4e06b2",
+      "bytes": 1200373
+    },
+    "reproduction": {
+      "path": "archive/pdf/1984-12/restoration/issue-closeout/reproduction-r03.json",
+      "sha256": "0500eac56abd29424b5eddb37f8105ebee52416f7f620e3c730494dfadec3453",
+      "bytes": 2864
+    },
+    "independent_rebuild_byte_identical": true,
+    "pdf_tests": 213,
+    "human_acceptance": "pending",
+    "preserved_work_inventory": {
+      "path": "archive/pdf/1984-12/evidence/issue-closeout/preserved-work-inventory-r01.json",
+      "sha256": "c71ad1bc10352b76b2f9333eb3818e45026540497373ed05050fc05a92da391d",
+      "bytes": 17258045
+    },
+    "preserved_files": 71430,
+    "post_promotion_verifier": {
+      "path": "archive/pdf/1984-12/evidence/issue-closeout/verify-r02.py",
+      "sha256": "385c2a729d2948615ce36c59839e41510a79d493371344faa9f19f8418bfdbb0",
+      "bytes": 10437
+    },
+    "post_promotion_auditor": {
+      "path": "archive/pdf/1984-12/evidence/issue-closeout/audit-after-ledger-r01.py",
+      "sha256": "027f3d25f5054c6a2c3c84425e47fa4b087184b7019498adb0b9c7f41ec4d2c9",
+      "bytes": 7220
+    },
+    "preserved_initial_closeout_inventory": {
+      "path": "archive/pdf/1984-12/evidence/issue-closeout/preserved-work-inventory.json",
+      "sha256": "f62a2394b459365f05d757b16b91cfd12ec7dda95e7cc9cdf05c28f5f7430fa0",
+      "bytes": 17256405
+    }
   }
 }
