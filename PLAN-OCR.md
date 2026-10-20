@@ -19,6 +19,19 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
+- February 1985 is in progress: batch01 restores canonical0009, 편집자 노트,
+  on printed17/PDF19. The selected package is
+  `archive/pdf/1985-02/packages/batch-01-r02/editorial`; all 25 files match its
+  independent rebuild. Four pinned kor+eng drafts were incomplete over the background
+  photograph; one source-direct correction pass restores all 67 physical text rows,
+  with the complete original page retained. Five crops were inspected before OCR.
+  All 394 exact UTF-8 ranges and five image decodes pass; 213 PDF tests pass.
+  One article is readable/sample-reviewed; 55 of 56 canonical entries remain
+  unresolved. Next: batch02 verifies Q&A from printed18/PDF20 within the normal
+  limits, reusing saved PDF19/20 renders. Cover and issue closeout remain pending.
+  See [the issue record](docs/progress/8502.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
+  No reader rebuild. Earlier statements that February has not started are historical.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is

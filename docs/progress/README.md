@@ -18,6 +18,7 @@ notes for targeted investigation, not as instructions to restart completed work.
 | September 1984 | [8409.md](8409.md) — canonical TOC complete |
 | October 1984 | [8410.md](8410.md) — canonical TOC complete |
 | December 1984 | [8412.md](8412.md) — canonical TOC complete |
+| February 1985 | [8502.md](8502.md) — restoration in progress |
 
 | Shared scope | Records |
 | --- | --- |

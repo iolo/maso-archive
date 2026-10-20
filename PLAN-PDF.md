@@ -22,6 +22,23 @@ old checkpoint “next” statements are not a queue to resume.
 restoration delivers JSON/assets. Existing rendering instructions and acceptance
 records below are historical and do not authorize a new rebuild.
 
+## February 1985 in progress, 2026-10-20
+
+Batch01 restores 편집자 노트, canonical0009, on printed17/PDF19.
+The selected JSON/assets package is
+`archive/pdf/1985-02/packages/batch-01-r02/editorial`; all 25 files match its
+independent rebuild. Five reviewed regions retain four blocks, 67 physical text
+rows and the complete original page. All 394 exact UTF-8 ranges and five image
+decodes pass; fresh `make test-pdf` passes 213 tests.
+
+The 56-entry issue ledger records one readable/sample-reviewed article and 55
+unresolved entries. Next is batch02: verify Q&A's extent from printed18/PDF20 and
+restore it within the usual limits. PDF19/20 renders can be reused. Cover selection,
+remaining source-page accounting and issue closeout are pending. See the
+[February record](docs/progress/8502.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
+No reader rebuild; human acceptance and full proofreading remain pending.
+
 ## December 1984 closeout, 2026-10-20
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,

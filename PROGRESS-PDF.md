@@ -6,6 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
+February 1985 restoration has started. Batch01 completes the editor's note on
+printed17/PDF19: one readable/sample-reviewed article, with 55 of 56 canonical
+entries still unresolved. The package and independent rebuild match all 25 files;
+394 exact UTF-8 ranges and all 213 PDF tests pass. Next is Q&A extent review and
+restoration from printed18/PDF20. Cover selection and issue closeout remain pending.
+See the [February record](docs/progress/8502.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
+No reader rebuild.
+
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
 entries, with no partial articles or unresolved eligibility. The standalone index is
@@ -353,7 +362,8 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-08 | 37 | 37 readable | [8408](docs/progress/8408.md) |
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
-| 1984-12 | 10 | 10 readable; 0 partial; 2 non-owning headings; 25 TOC entries unresolved | [8412](docs/progress/8412.md) |
+| 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
+| 1985-02 | Pending classification | 1 readable; 55 TOC entries unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
