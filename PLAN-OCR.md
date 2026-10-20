@@ -19,8 +19,40 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- December 1984 is in progress: seventeen readable articles, zero partial articles,
-  five non-owning headings and 15 of 37 entries unresolved. Design(6), canonical 0020,
+- December 1984 is in progress: seventeen readable articles, one partial article,
+  five non-owning headings and 14 of 37 entries unresolved. Cryptography 0021 has
+  its opening 205–207/PDF207–209 restored at packages/cryptography-a-r01. Its 96-file
+  native matches the independent rebuild byte for byte. The full article is independently
+  verified as 205–211/PDF207–213; closing 208–211 and full assembly remain pending.
+  Printed John Smith and editorial translation are separate from canonical 편집부.
+  The unpaginated contest notice on PDF214 is excluded, with no invented 212 folio;
+  contest review 213/PDF215 and 64 COLUMN 214/PDF216 establish later neighbors.
+
+  Batch38 inspected twelve full pages, mapped three and used nine outside-map lookups
+  for one canonical task. Both reused render pairs and ten new render pairs are retained.
+  All 25 original crops and two revised figure2 crops were viewed before 21 successful
+  Tesseract tasks. Figure2 was widened once to include the final key-label glyph.
+  OEM1/PSM6, one thread, 3000-pixel long edge and kor+eng remain pinned. One source
+  correction pass; no OCR failures/retries or post-OCR repairs.
+
+  The opening retains 25 regions, 21 blocks, four original images, 24 regional spans,
+  29 review notes, three prose joins and 485 exact UTF-8 range occurrences. Two diagrams
+  retain 19 labels and original arrows/topology. The timing table retains six rows,
+  12 cells and two headers. Three printed captions remain associated; the original
+  displayed formula is uncaptioned. Quoted message, 23 ASCII fields, eight six-position
+  blocks and eight output values remain independent. Equation 716111947 and output
+  71611947 differ in the scan and are preserved without reconciliation. Source
+  crytography, dec-ryptor, Encryp-tion, blo ck, 200자키, 6자키, 산술전인 and Z=2b stay literal.
+  The source 670/680 prose claim is retained without certifying program behavior.
+
+  The first export rejected an object-shaped gap where the schema requires a string;
+  its original recipe/failure remain archived. A fresh recipe changes only that metadata
+  shape. No OCR or source-reading rerun. Source/geometry/regions/fields/captions/ranges,
+  all 35,682 prior files and 29 implementation pins pass. New inventory: 36,111 files.
+  The unchanged 213-test baseline is reused. Human acceptance/full proofreading,
+  source bytes, mathematical/cryptographic claims and execution remain unverified.
+
+  Design(6), canonical 0020,
   is now complete at packages/design-complete-r01, observed 178–204/PDF180–206.
   The 449-file package matches its independent rebuild byte for byte. All 440 files
   from five immutable natives remain exact: design-a 178–183, design-b 184–189,
@@ -86,15 +118,15 @@ paired OCR or a new engine comparison.
   design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
   cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-  Next: batch38, canonical public-key cryptography 0021. Its actual opening is
-  205/PDF207. Verify its full source extent, printed byline and neighbors before mapping;
-  TOC author/editorial identity and printed John Smith/editorial translation are distinct.
-  The provisional physical window 207–212 is not an asserted article extent, and only
-  207 has a currently observed 205 folio. Inspect every new folio and crop. Use at most
-  six eligible mapped source pages/two canonical tasks/twenty outside-map lookups.
-  Next TOC reference 213 does not establish a PDF boundary or offset. Use the design
-  adapter's scoped check dispatcher for all selected packages; retain all 29 pins and
-  213-test baseline. No reader rebuild.
+  Next: batch39, cryptography closing 208–211/PDF210–213. Reuse pinned full/review
+  pairs and reinspect current pages/neighbors before mapping. Preserve all four BASIC
+  listings with physical wraps, quotes, comments and opaque values: listing1 on208,
+  listing2 on209, listing3 across209/210, listing4 across210/211. Keep formulas, digital
+  signature prose and five references. Four mapped pages, at most two canonical tasks
+  and twenty outside-map lookups. Preserve immutable opening cryptography-a-r01;
+  the article remains partial until closing restoration and separate full205–211 assembly
+  pass. No inferred 212 folio. Use the design adapter's scoped check dispatcher for all
+  selected packages; retain all 29 implementation pins and 213-test baseline. No reader rebuild.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

@@ -4245,10 +4245,120 @@
       "toc_entry_id": "maso-1984-12-toc-0021",
       "title": "퍼블릭 키이 크립토그래피",
       "parent_id": "maso-1984-12-toc-0019",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/cryptography-a-r01",
+        "article_id": "scan-maso-1984-12-toc-0021",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/cryptography-a-r01/manifest.json",
+          "sha256": "70bde99a4419d46545b6ed0bc59001abe7c0b6a5675cf191c58474f7e5d111f4",
+          "bytes": 16253
+        },
+        "coverage": {
+          "pdf_pages": [
+            207,
+            208,
+            209
+          ],
+          "printed_pages": [
+            "205",
+            "206",
+            "207"
+          ],
+          "regions": 25,
+          "blocks": 21,
+          "figures": 4
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213
+          ],
+          "printed_pages": [
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "opening_pdf": 207,
+          "ending_pdf": 213,
+          "previous_pdf": 206,
+          "next_pdf": 214,
+          "printed_title_candidate": "퍼블릭 키이 크립토그래피",
+          "deck_candidate": "암호 조립과 해독의 혁신적인 방법",
+          "byline_candidate": "죤 스미드 (John Smith)",
+          "translation_credit_candidate": "편집부편역",
+          "canonical_credit": "편집부",
+          "ending_evidence": "Listing4 ends580; remaining RSA/digital-signature prose and five references end211/PDF213. PDF214 is unpaginated software-contest notice, not article continuation; independent contest review213/PDF215 and64 COLUMN214/PDF216 follow. No global PDF/folio offset."
+        },
+        "deferred_pdf_pages": [
+          210,
+          211,
+          212,
+          213
+        ],
+        "deferred_printed_pages": [
+          "208",
+          "209",
+          "210",
+          "211"
+        ],
+        "assembly_required": true,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-38/source-reviewed.json",
+          "sha256": "46a72f339f9ed0f72f70337c1ea5e532c6be5a8ca7a1f1ac7674220150de88f1",
+          "bytes": 8428
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-38/source-index-schema.json",
+          "sha256": "11e255bedde7199ddfd79434bd6539f2644bfff1276cbede24ae0a6ce19d259f",
+          "bytes": 3008
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-38/reproduction.json",
+          "sha256": "c1bb897a4b0e39b6ba9934cb3037cc96582299dff623763a4e2880101c3cad77",
+          "bytes": 1994
+        },
+        "source_code_connections": [
+          {
+            "source_region_id": "p207-right",
+            "source_excerpt": "프로그램 리스트 1의 670행과 680행이 암호 해독작업을 담당한다.",
+            "target_pdf_page": 210,
+            "target_printed_page": "208",
+            "target_listing": "리스트 1",
+            "printed_line_candidates": [
+              670,
+              680
+            ],
+            "relationship": "Source prose claim,not executable or mathematical verification. Target source inspected as lookup only;not yet mapped."
+          }
+        ],
+        "caption_associations_pending": [],
+        "source_credit": {
+          "author": "죤 스미드 (John Smith)",
+          "translation": "편집부편역",
+          "canonical_credit": "편집부",
+          "source_pdf_page": 207,
+          "printed_page": "205",
+          "canonical_identity_changed": false
+        }
+      },
+      "classification_evidence": [
+        "Independent205/PDF207 title/deck/JohnSmith/editorialtranslation followsdesign204/PDF206. All12fullviews206–217 reviewed. Actualfullarticle205–211/PDF207–213 endsafterlisting4/digital-signatureprose/fivereferences. UnpaginatedcontestnoticePDF214 excluded;contestreview213/PDF215 and64COLUMN214/PDF216 independentlyobserved. No globaloffset or212folio inferred.",
+        "Opening205–207 only:96filenative/independentrebuildexact;25regions/21blocks/four originals/24regionalspans/29reviewnotes/threeprosejoins. One timingtable6rows12cellstwoheaders,two diagrams19labels,threecaptions/oneuncaptionedformula.485exactUTF8rangeoccurrences.",
+        "Quotedmessage/23ASCII/eightblock/eightoutputfields andequation716111947/output71611947 retained independently. Sourceerrors/claims/authortransliteration unchanged. No arithmetic/cryptographic/encoding repair. Ending208–211 andcompletearticleassembly explicitlydeferred."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0022",
@@ -4430,11 +4540,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 17,
+    "classified_articles": 18,
     "readable_articles": 17,
-    "partial_articles": 0,
+    "partial_articles": 1,
     "nonowning_headings": 5,
-    "unresolved_eligibility": 15,
+    "unresolved_eligibility": 14,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -9336,34 +9446,167 @@
         "sha256": "1bd5054ccf76d7161901e593dea900621958d9c51cb236f5adbb5a67e804c180",
         "bytes": 8175645
       }
+    },
+    {
+      "id": "batch-38",
+      "status": "partial-native-article",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/checkpoint.json",
+        "sha256": "2203a9b2b9555539b8507f01de57f59158b01911ea817e75c8993a30f6df0ebc",
+        "bytes": 6913
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/checkpoint-r01.json",
+        "sha256": "5e8c16ce3de5209fbf73e526294a166ae6eb95e824078356cef27f0393d3a290",
+        "bytes": 7731
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-38/validation.json",
+        "sha256": "9b4f75a728d40824cdfab1b881cb1123d1c06181ddd99adc4687dd7af738469a",
+        "bytes": 1067
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-38/verify.py",
+        "sha256": "1533eaf4ac4039607791e4040685957923e9d4f16c697c10718d25f6135389ce",
+        "bytes": 9818
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/source-reviewed.json",
+        "sha256": "46a72f339f9ed0f72f70337c1ea5e532c6be5a8ca7a1f1ac7674220150de88f1",
+        "bytes": 8428
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/source-index-schema.json",
+        "sha256": "11e255bedde7199ddfd79434bd6539f2644bfff1276cbede24ae0a6ce19d259f",
+        "bytes": 3008
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/mapping-completed.json",
+        "sha256": "293017cffc399c47aecbe086b7f6077cd2d8096a31634aa06f3c6fc66de1cabe",
+        "bytes": 650
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/crop-repair-r01.json",
+        "sha256": "171664d00fca42d2367c49d8b818b1a4e43f8e1213749709dfc37b87ec32788b",
+        "bytes": 2180
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/segment-scope.json",
+        "sha256": "d5c003587c0618c7e6ac7b6ce827858964de604d921403645210c293cd6967a8",
+        "bytes": 1172
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/preflight-reviewed.json",
+        "sha256": "a0434da2b8aef124382fa5d39b69b888c357d7c171dc63d35941b53b4541c650",
+        "bytes": 11164
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/ocr-completed.json",
+        "sha256": "91feecf2938275419a0cf902b5f61ae53e2330a3d48317c8d9f7a006718a5e63",
+        "bytes": 820
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/source-correction-pass.json",
+        "sha256": "3285463619c7268187acbd577e2c2c87d690f27d781b91155ae7ba6cd5418961",
+        "bytes": 1293
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/correction-completed.json",
+        "sha256": "1d7ff2fa6877afcd576ce78c65fe68c60cc936681b7b1612728920e57bbd9d4b",
+        "bytes": 626
+      },
+      "retained_schema_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/build-failure-r00.json",
+        "sha256": "441f03e09671cf2d6d1d997e103c2349aba7fedf83d860776794b92dc17d8b37",
+        "bytes": 764
+      },
+      "original_recipe": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/cryptography-a/package-recipe.json",
+        "sha256": "35ee25530f5acf6ac376bd6f60320d5b27e8325b0c32522ad78d0fe0ea3a95cd",
+        "bytes": 5588
+      },
+      "selected_recipe": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/cryptography-a/package-recipe-r01.json",
+        "sha256": "15b5fc7e79df690300b76153dcd4d474a4c34c19a4e09cd19c4428e68893ea46",
+        "bytes": 5520
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-38/reproduction.json",
+        "sha256": "c1bb897a4b0e39b6ba9934cb3037cc96582299dff623763a4e2880101c3cad77",
+        "bytes": 1994
+      },
+      "actual_ocr_tasks": 21,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 2,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 35682,
+      "rebuild_files": 96,
+      "new_source_renders": 10,
+      "reused_full_page_renders": 2,
+      "outside_map_lookups": 9,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "implementation_pins_verified": 29,
+      "exact_utf8_range_occurrences": 485,
+      "reader_rebuild": false,
+      "regions": 25,
+      "blocks": 21,
+      "figures": 4,
+      "ocr_tasks": 21,
+      "regional_text_ranges": 24,
+      "review_notes": 29,
+      "prose_joins": 3,
+      "tables": 1,
+      "table_rows": 6,
+      "table_cells": 12,
+      "table_header_cells": 2,
+      "diagram_labels": 19,
+      "caption_links": 3,
+      "caption_parts": 3,
+      "uncaptioned_figures": 1,
+      "formula_displays": 1,
+      "numeric_source_fragments": 91,
+      "numeric_example_rows": 7,
+      "numeric_example_fields": 39,
+      "quoted_messages": 1,
+      "discrepancies": 1,
+      "byline_candidates": 2,
+      "source_code_connections": 1,
+      "physical_code_rows": 0,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-38/preserved-work-inventory.json",
+        "sha256": "7ddbd05bb600efd8a75368d5832b9cfa0ea6a8764a6ef3a6405c6efb26717df6",
+        "bytes": 8270880
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-38",
-    "goal": "Restore canonical public-key cryptography beginning on observed205/PDF207; verify actual full extent, byline and neighboring articles before selecting a bounded map.",
+    "id": "batch-39",
+    "goal": "Restore cryptography closing208–211/PDF210–213, retaining all four BASIC listings,physical wraps,quoted fields,formulas,digital-signature prose and five references;then separate full205–211assembly.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0021"
     ],
     "mapping_targets": [
-      207,
-      208,
-      209,
       210,
       211,
-      212
+      212,
+      213
     ],
     "printed_page_targets": [
-      "205",
-      null,
-      null,
-      null,
-      null,
-      null
+      "208",
+      "209",
+      "210",
+      "211"
     ],
     "provisional_lookup_targets": [
-      206,
       207,
-      208,
       209,
       210,
       211,
@@ -9371,16 +9614,15 @@
       213,
       214,
       215,
-      216,
-      217
+      216
     ],
-    "full_extent_review_pending": true,
+    "full_extent_review_pending": false,
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Independent opening205/PDF207 already inspected after design204. Canonical TOC author/editorial identity remains unchanged; printed John Smith/편집부편역 credits must be recorded independently. Next canonical contest review has TOC reference213; do not infer a PDF offset or article ending from it. Provisional physical window207–212 is not asserted article extent: inspect full pages/folios/actual ending/neighbors first and map at most six eligible current source pages. Inspect every exact crop before mapped Tesseract; one source correction pass; preserve tables/quoted formulas/code/diagram/caption fields and original images if present. Design complete package449 files/all440 natives exact is selected; three unknown bands/MEMOF tail remain source uncertainties, with no body pages deferred. Use design_literal_assembly.check/installed() for all selected packages, delegating earlier formats. Preserve29 implementation pins and213-test baseline. No reader rebuild."
+    "note": "Actualfull205–211extent/boundaries independentlyreviewed inbatch38;reusepinnedwhole/reviewpairs thenreinspectcurrentpagesandneighbors. Fourlistinggroups:1on208,2on209,3starts209/continues210,4starts210/continues211. Preservephysicalwraps/commentquote/runglyph/value/sourceerrors withoutsyntax/math repair. Finaldigitalsignature/fivereferences end211;PDF214 unpaginatedcontestnoticeexcluded. No212folio/globaloffset. Openingcryptography-a-r01/96files retainedimmutable;partialuntilendingandseparatecompleteassemblypass. Use design_literal_assembly.check/installed dispatcher;29implementationpins/213testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
