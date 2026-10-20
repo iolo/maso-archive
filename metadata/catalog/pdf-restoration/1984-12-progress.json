@@ -3047,7 +3047,13 @@
             182,
             183,
             184,
-            185
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191
           ],
           "printed_pages": [
             "178",
@@ -3055,11 +3061,17 @@
             "180",
             "181",
             "182",
-            "183"
+            "183",
+            "184",
+            "185",
+            "186",
+            "187",
+            "188",
+            "189"
           ],
-          "regions": 39,
-          "blocks": 28,
-          "figures": 13
+          "regions": 81,
+          "blocks": 55,
+          "figures": 26
         },
         "segments": [
           {
@@ -3092,6 +3104,37 @@
               "figures": 13
             },
             "segment": "a"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/design-b",
+            "article_id": "scan-maso-1984-12-toc-0020",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/design-b/manifest.json",
+              "sha256": "62bcb58fa7450709211c5158eb1e78652c5b9dfc9c57355a850e777f87120f10",
+              "bytes": 23628
+            },
+            "coverage": {
+              "pdf_pages": [
+                186,
+                187,
+                188,
+                189,
+                190,
+                191
+              ],
+              "printed_pages": [
+                "184",
+                "185",
+                "186",
+                "187",
+                "188",
+                "189"
+              ],
+              "regions": 42,
+              "blocks": 27,
+              "figures": 13
+            },
+            "segment": "b"
           }
         ],
         "full_source_extent": {
@@ -3160,6 +3203,30 @@
               "printed_page": "184"
             },
             {
+              "pdf_page": 187,
+              "printed_page": "185"
+            },
+            {
+              "pdf_page": 188,
+              "printed_page": "186"
+            },
+            {
+              "pdf_page": 189,
+              "printed_page": "187"
+            },
+            {
+              "pdf_page": 190,
+              "printed_page": "188"
+            },
+            {
+              "pdf_page": 191,
+              "printed_page": "189"
+            },
+            {
+              "pdf_page": 192,
+              "printed_page": "190"
+            },
+            {
               "pdf_page": 202,
               "printed_page": "200"
             },
@@ -3181,12 +3248,6 @@
             }
           ],
           "unreviewed_interior_pdf_pages": [
-            187,
-            188,
-            189,
-            190,
-            191,
-            192,
             193,
             194,
             195,
@@ -3204,28 +3265,22 @@
           "chapter_candidate": "제6장 베이직의 이식",
           "boundary_evidence": "Independenttitle/byline178/PDF180. EndingZ80assemblylistingon204/PDF206 hasfinalOTOPdefinitionandEND;next205/PDF207independentlyopenspublic-keycryptography. Fullphysicalspan180–206 isboundary-defined,notassertionofuncheckedinteriorfolios/bodyclassification.",
           "mapped_pdf_pages": [
-            180,
-            181,
-            182,
-            183,
-            184,
-            185
-          ],
-          "mapped_printed_pages": [
-            "178",
-            "179",
-            "180",
-            "181",
-            "182",
-            "183"
-          ],
-          "deferred_pdf_pages": [
             186,
             187,
             188,
             189,
             190,
-            191,
+            191
+          ],
+          "mapped_printed_pages": [
+            "184",
+            "185",
+            "186",
+            "187",
+            "188",
+            "189"
+          ],
+          "deferred_pdf_pages": [
             192,
             193,
             194,
@@ -3243,13 +3298,7 @@
             206
           ],
           "deferred_printed_pages": [
-            "184",
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
+            "190",
             null,
             null,
             null,
@@ -3265,15 +3314,25 @@
             "203",
             "204"
           ],
-          "unobserved_folio_policy": "Nonehere meansnotyetinspected,notunpaginated. Do notderivefoliosfromPDFoffset. Deferredsourcepageswillbeinspected/qualifiedbeforetheirnative mapping."
+          "unobserved_folio_policy": "Nonehere meansnotyetinspected,notunpaginated. Do notderivefoliosfromPDFoffset. Deferredsourcepageswillbeinspected/qualifiedbeforetheirnative mapping.",
+          "previous_restored_pdf_pages": [
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "previous_restored_printed_pages": [
+            "178",
+            "179",
+            "180",
+            "181",
+            "182",
+            "183"
+          ]
         },
         "deferred_pdf_pages": [
-          186,
-          187,
-          188,
-          189,
-          190,
-          191,
           192,
           193,
           194,
@@ -3291,13 +3350,7 @@
           206
         ],
         "deferred_printed_pages": [
-          "184",
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          "190",
           null,
           null,
           null,
@@ -3314,12 +3367,6 @@
           "204"
         ],
         "unreviewed_interior_pdf_pages": [
-          187,
-          188,
-          189,
-          190,
-          191,
-          192,
           193,
           194,
           195,
@@ -3347,6 +3394,11 @@
             "path": "archive/pdf/1984-12/restoration/batch-33/source-index-schema.json",
             "sha256": "9f9b8a5cc553eaaf1def66a88c2ce86f66037b4affbff879ca8fcc9b91178aae",
             "bytes": 4559
+          },
+          {
+            "path": "archive/pdf/1984-12/restoration/batch-34/source-index-schema.json",
+            "sha256": "6d5d038fc225726f01797103cb5e0db35c7e2619bd1b3315f0934692d03c9fa4",
+            "bytes": 4295
           }
         ],
         "reproduction": {
@@ -3354,7 +3406,26 @@
           "sha256": "8529d619cfda58f1fcc87a5000d503e6fc748220da0f19189f686326528e1d0c",
           "bytes": 2056
         },
-        "source_code_connections": [],
+        "source_code_connections": [
+          {
+            "region_id": "p189-tiny-code",
+            "block_id": "p189-tiny-code",
+            "source_pdf_page": 191,
+            "printed_page": "189",
+            "next_pdf_page": 192,
+            "next_printed_page": "190",
+            "last_physical_line": "        LD      HL,INIMES;DISPLAY 'KEY IN",
+            "observed_next_comment_candidate": "; RAM END ADDRESS'",
+            "next_source_view": {
+              "path": "archive/pdf/1984-12/restoration/batch-34/source-review/pdf-192.png",
+              "sha256": "fe7fa4aeab321085555eef08df83027b647b969d7f590d6ba7c2603420489169",
+              "bytes": 487507
+            },
+            "quote_completion_performed": false,
+            "executable_join_performed": false,
+            "connection_type": "deferred-physical-comment-continuation"
+          }
+        ],
         "caption_associations_pending": [],
         "source_credit": {
           "byline": "김 덕 우",
@@ -3364,17 +3435,108 @@
           "source_pdf_page": 180,
           "printed_page": "178"
         },
-        "assembly_compatibility": "Opening partial only;21 remaining physical pages and complete assembly pending. Preserve every table/cell/blank/merge/physical-cell-line/syntax/flow/memory/address/quote/caption/review index and original source metadata. Unknown folios mean uninspected,not unpaginated. No global offset or unseen interior classification.",
+        "assembly_compatibility": "Preserve allnative fields/arrays/metadata,physical/logical/code/token/quote/marker/patch/address/OLD/NEW/table/caption/spatial/diagram/prose ranges and13originalframes. Opening178–183 andcurrent184–189 are separateimmutable natives;15physicalpages192–206 plusfullassemblyremain. Unknown193–201folios areuninspected,notunpaginated. RetainTinycommentcontinuationwithoutquoteoropcode repair.",
         "excluded_advertisement": {
           "pdf_page": 181,
           "printed_page": "179",
           "coverage": "Upper article only;independent lower book advertisement excluded."
-        }
+        },
+        "latest_source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-34/source-reviewed-r01.json",
+          "sha256": "8a15530e36eb85c33a0a4418792d2622040349d123fc4ffe9825567795ddf424",
+          "bytes": 12578
+        },
+        "latest_reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-34/reproduction.json",
+          "sha256": "f34193fdf4b908e87327db0d939a8ae43967e2d249c937c3ec76d19de66eca3b",
+          "bytes": 1927
+        },
+        "outgoing_boundary": {
+          "region_id": "p189-tiny-code",
+          "block_id": "p189-tiny-code",
+          "source_pdf_page": 191,
+          "printed_page": "189",
+          "next_pdf_page": 192,
+          "next_printed_page": "190",
+          "last_physical_line": "        LD      HL,INIMES;DISPLAY 'KEY IN",
+          "observed_next_comment_candidate": "; RAM END ADDRESS'",
+          "next_source_view": {
+            "path": "archive/pdf/1984-12/restoration/batch-34/source-review/pdf-192.png",
+            "sha256": "fe7fa4aeab321085555eef08df83027b647b969d7f590d6ba7c2603420489169",
+            "bytes": 487507
+          },
+          "quote_completion_performed": false,
+          "executable_join_performed": false,
+          "connection_type": "deferred-physical-comment-continuation"
+        },
+        "pending_manual_source_glyphs": [
+          {
+            "region_id": "p189-patch-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 757,
+            "utf8_byte_end_exclusive": 774,
+            "transcription_excerpt": "⟦equals band⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/design-b/ocr-page191/p189-patch-left.png",
+              "sha256": "e75c05b786ecbbb38d79b3f0d46ce30eecb7eb0785ecc70f912d727dcca2d1d4",
+              "bytes": 443140
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/design-b/corrections.json",
+              "sha256": "e38edbcbc3387a05f6fc8fac29ea46a5872d4c7789cc26004855afe600e8340e",
+              "bytes": 2704260
+            }
+          },
+          {
+            "region_id": "p189-tiny-code",
+            "download": "listing.txt",
+            "utf8_byte_start": 2308,
+            "utf8_byte_end_exclusive": 2327,
+            "transcription_excerpt": "⟦asterisk band⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/design-b/ocr-page191/p189-tiny-code.png",
+              "sha256": "f3b1dac2c7d468bd469ec178fdb7fe4b866572e35bffa58611c3a127d441dcfc",
+              "bytes": 646767
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/design-b/corrections.json",
+              "sha256": "e38edbcbc3387a05f6fc8fac29ea46a5872d4c7789cc26004855afe600e8340e",
+              "bytes": 2704260
+            }
+          },
+          {
+            "region_id": "p189-tiny-code",
+            "download": "listing.txt",
+            "utf8_byte_start": 2408,
+            "utf8_byte_end_exclusive": 2427,
+            "transcription_excerpt": "⟦asterisk band⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/design-b/ocr-page191/p189-tiny-code.png",
+              "sha256": "f3b1dac2c7d468bd469ec178fdb7fe4b866572e35bffa58611c3a127d441dcfc",
+              "bytes": 646767
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/design-b/corrections.json",
+              "sha256": "e38edbcbc3387a05f6fc8fac29ea46a5872d4c7789cc26004855afe600e8340e",
+              "bytes": 2704260
+            }
+          }
+        ]
       },
       "classification_evidence": [
         "Independentdesign6title/chapter/byline178/PDF180;sourceendingZ80listingEND204/PDF206 andnextcryptography205/PDF207 inspected. Boundaryphysicalspan180–206 verified at endpoints,not claimofuncheckedinteriorcoverage. Sixopeningpages178–183mapped. ImmediateoutgoingPDF186observed184continuesarticle.",
         "All17wholeviews179–186/202–210 inspectedbeforemapping;sixmapped/11outside/twotasks. FifteeninteriorPDF187–201 remainunreviewed/unclassified/folio unknown. Deferred21physicalpages186–206 andcompleteassemblyrequired;no globalfoliooffset.",
-        "125filenative/independentrebuild exact:39regions/28blocks/13originals/30regionalspans/49reviewnotes. Eighttables55rows201cells16blanks219physicalcelllines/sevenmerges;fournumbereddiagrams/128labellines/fourcaptions. Source LOAC/LOAD,FORdash/ADC8/FOOOH/CLABL/YRSCK/FSTPV/RWRK andnumericrangevariants remainliteral. No code execution/opcode/byte/address/arithmetic/graphic reconstruction."
+        "125filenative/independentrebuild exact:39regions/28blocks/13originals/30regionalspans/49reviewnotes. Eighttables55rows201cells16blanks219physicalcelllines/sevenmerges;fournumbereddiagrams/128labellines/fourcaptions. Source LOAC/LOAD,FORdash/ADC8/FOOOH/CLABL/YRSCK/FSTPV/RWRK andnumericrangevariants remainliteral. No code execution/opcode/byte/address/arithmetic/graphic reconstruction.",
+        "Middle184–189/PDF186–191 native138filesmatchesindependently. Combinedtwoimmutable natives cover178–189/12pages/81regions/55blocks/26originals;article remains partial. Prosemark188doesnotendpatchtable/Tinylisting189–204. Actualoutgoing190/PDF192inspected;15physicalpages192–206 andfullassemblyremain. Unchecked193–201folios/bodyclassificationpending. Two tables58rows/157cells,39patchrows/117fields,138physicalcode rows/fourBASIClabels/20EQUdefinitions,103diagramlabels and11captionlinks retainedwithoutsemanticrepair. Unknownequals/twoasteriskbands explicit;Tinylastcommentcontinueson190 withoutclosingquotecompletion."
       ]
     },
     {
@@ -7764,11 +7926,165 @@
         "sha256": "d2da37a0efc8502056cf655eff50a4865d6f0c2ce589c7051c0fbab0561054ac",
         "bytes": 7625808
       }
+    },
+    {
+      "id": "batch-34",
+      "status": "complete-partial-article-middle",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/checkpoint.json",
+        "sha256": "660288af41994e3f448b59e042dd37c4cb27d22fc33af4eaf0edf34e744deaf5",
+        "bytes": 6405
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-34/validation-r01.json",
+        "sha256": "e1ad1a24dc8b46c05c9cb1cdeb80a4b15edf462e0d3f8b908a1ff6b4bcce458e",
+        "bytes": 1879
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-34/verify-r01.py",
+        "sha256": "208ed9260c3bc7d684ee971a6e28a3bb6591b7e80148afe2fc2f26b8d516a425",
+        "bytes": 19795
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/source-reviewed-r01.json",
+        "sha256": "8a15530e36eb85c33a0a4418792d2622040349d123fc4ffe9825567795ddf424",
+        "bytes": 12578
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/source-index-schema.json",
+        "sha256": "6d5d038fc225726f01797103cb5e0db35c7e2619bd1b3315f0934692d03c9fa4",
+        "bytes": 4295
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/mapping-completed-r01.json",
+        "sha256": "3671abb960d488663ac5bfbbe422bc1d417893f4fae4aa6908e7a47201e88df1",
+        "bytes": 994
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/crop-repair-r01.json",
+        "sha256": "ca93fcf153938f34e05d4b8f86d5cacfd517b00acb2bed40853a825ddd20dc17",
+        "bytes": 4906
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/segment-scope-r01.json",
+        "sha256": "085cfb11fcd5bdcf65f6a52a1734f0727d43caa5b1b1ab0a0d2e06f7e6ee24c3",
+        "bytes": 3657
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/preflight-reviewed.json",
+        "sha256": "d45ecf666a09f427100b73f0c6360800da08d354fc20063fe4326468f225eb9f",
+        "bytes": 20553
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/ocr-completed.json",
+        "sha256": "25bf103cb3e8cc75c97275017a37f1a367faf9eb06d0aba52fed18902c059917",
+        "bytes": 1300
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/source-correction-pass-completed.json",
+        "sha256": "7017f79553c5970dc3822ed74c7bc6d38ffa6d8cbba048bc9cc8fc463ff617a3",
+        "bytes": 6984
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/correction-completed-r01.json",
+        "sha256": "bf62ce9520ef0487af5eb8e4c8b5a9320f83974a4ee872d04c5cf2e5fea547f1",
+        "bytes": 1286
+      },
+      "retained_serializer_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/serializer-revision-r01.json",
+        "sha256": "9da6acb27361d1a8fea733d3e3b6a8a35adba9f48b658a893f1c2b5d6b2cecce",
+        "bytes": 1493
+      },
+      "retained_verifier_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/verification-revision-r01.json",
+        "sha256": "d23e99373d281a6e45241d4622ceb7219267a3d56bdd06ce335539e3257b013e",
+        "bytes": 753
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-34/reproduction.json",
+        "sha256": "f34193fdf4b908e87327db0d939a8ae43967e2d249c937c3ec76d19de66eca3b",
+        "bytes": 1927
+      },
+      "actual_ocr_tasks": 29,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 14,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 33215,
+      "rebuild_files": 138,
+      "new_source_renders": 6,
+      "reused_full_page_renders": 6,
+      "outside_map_lookups": 6,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 203,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/perspective-assembly/tests-implementation-r01.log",
+        "sha256": "2c2bf02ff36a6061e1f199522442d83c03d7a6398582cbec37d22b317869c452",
+        "bytes": 34581
+      },
+      "tests_reused_without_rerun": true,
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "perspective_implementation_pins_verified": 3,
+      "regions": 42,
+      "blocks": 27,
+      "figures": 13,
+      "ocr_tasks": 29,
+      "code_tasks": 5,
+      "regional_text_ranges": 34,
+      "review_notes": 43,
+      "prose_joins": 6,
+      "tables": 2,
+      "table_rows": 58,
+      "table_cells": 157,
+      "table_header_cells": 8,
+      "blank_table_cells": 1,
+      "work_area_definitions": 16,
+      "patch_rows": 39,
+      "patch_fields": 117,
+      "patch_categories": 5,
+      "assembly_columns": 136,
+      "equ_definitions": 20,
+      "listing_groups": 4,
+      "physical_code_rows": 138,
+      "nonblank_code_rows": 115,
+      "logical_basic_entries": 4,
+      "code_tokens": 384,
+      "code_identifiers": 341,
+      "code_numeric_fragments": 127,
+      "code_symbols": 107,
+      "code_quote_glyphs": 1,
+      "comment_tails": 53,
+      "unknown_bands": 3,
+      "inline_examples": 799,
+      "numeric_claims": 118,
+      "source_symbols": 569,
+      "prose_quote_glyphs": 54,
+      "source_glyph_candidates": 33,
+      "hex_claims": 12,
+      "routine_references": 54,
+      "formula_claims": 15,
+      "explanation_steps": 6,
+      "spatial_formula_marks": 4,
+      "diagram_labels": 103,
+      "diagram_fields": 173,
+      "figure_references": 13,
+      "caption_links": 11,
+      "printed_caption_parts": 6,
+      "listing_caption_links": 3,
+      "uncaptioned_figures": 2,
+      "deferred_physical_pages": 15,
+      "uninspected_interior_pages": 9,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-34/preserved-work-inventory.json",
+        "sha256": "083ade762064c3a90abf4176eda8c2ac448abc4918d46db809c232373cf77704",
+        "bytes": 7760363
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-34",
-    "goal": "Restore next six confirmed physical design6 pagesPDF186–191 after full-page andfolio inspection;retain allsourceprose/tables/flow/memory/syntaxandlistingswithoutrepair.",
+    "id": "batch-35",
+    "goal": "Restoredesign6assemblycontinuationphysicalPDF192–197afterindividualpage/folioinspection;preservephysicalwraps,comments,labels,EQU/data/quote/hex/columnsandallsourceerrors.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0020"
     ],
@@ -7838,6 +8154,30 @@
           "printed_page": "184"
         },
         {
+          "pdf_page": 187,
+          "printed_page": "185"
+        },
+        {
+          "pdf_page": 188,
+          "printed_page": "186"
+        },
+        {
+          "pdf_page": 189,
+          "printed_page": "187"
+        },
+        {
+          "pdf_page": 190,
+          "printed_page": "188"
+        },
+        {
+          "pdf_page": 191,
+          "printed_page": "189"
+        },
+        {
+          "pdf_page": 192,
+          "printed_page": "190"
+        },
+        {
           "pdf_page": 202,
           "printed_page": "200"
         },
@@ -7859,12 +8199,6 @@
         }
       ],
       "unreviewed_interior_pdf_pages": [
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
         193,
         194,
         195,
@@ -7882,28 +8216,22 @@
       "chapter_candidate": "제6장 베이직의 이식",
       "boundary_evidence": "Independenttitle/byline178/PDF180. EndingZ80assemblylistingon204/PDF206 hasfinalOTOPdefinitionandEND;next205/PDF207independentlyopenspublic-keycryptography. Fullphysicalspan180–206 isboundary-defined,notassertionofuncheckedinteriorfolios/bodyclassification.",
       "mapped_pdf_pages": [
-        180,
-        181,
-        182,
-        183,
-        184,
-        185
-      ],
-      "mapped_printed_pages": [
-        "178",
-        "179",
-        "180",
-        "181",
-        "182",
-        "183"
-      ],
-      "deferred_pdf_pages": [
         186,
         187,
         188,
         189,
         190,
-        191,
+        191
+      ],
+      "mapped_printed_pages": [
+        "184",
+        "185",
+        "186",
+        "187",
+        "188",
+        "189"
+      ],
+      "deferred_pdf_pages": [
         192,
         193,
         194,
@@ -7921,13 +8249,7 @@
         206
       ],
       "deferred_printed_pages": [
-        "184",
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        "190",
         null,
         null,
         null,
@@ -7943,18 +8265,34 @@
         "203",
         "204"
       ],
-      "unobserved_folio_policy": "Nonehere meansnotyetinspected,notunpaginated. Do notderivefoliosfromPDFoffset. Deferredsourcepageswillbeinspected/qualifiedbeforetheirnative mapping."
+      "unobserved_folio_policy": "Nonehere meansnotyetinspected,notunpaginated. Do notderivefoliosfromPDFoffset. Deferredsourcepageswillbeinspected/qualifiedbeforetheirnative mapping.",
+      "previous_restored_pdf_pages": [
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "previous_restored_printed_pages": [
+        "178",
+        "179",
+        "180",
+        "181",
+        "182",
+        "183"
+      ]
     },
     "mapping_targets": [
-      186,
-      187,
-      188,
-      189,
-      190,
-      191
+      192,
+      193,
+      194,
+      195,
+      196,
+      197
     ],
     "printed_page_targets": [
-      "184",
+      "190",
       null,
       null,
       null,
@@ -7962,15 +8300,16 @@
       null
     ],
     "provisional_lookup_targets": [
+      179,
       180,
-      185,
-      186,
-      187,
-      188,
-      189,
-      190,
       191,
       192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
       206,
       207
     ],
@@ -7980,7 +8319,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Opening design-a178–183 selectedpartial;21physicalpages186–206deferred. PDF186observed184alreadyreviewed;PDF187–201notreviewedandfoliosunknown,notunpaginated. Verifyfolios/bodyforeachnewpagebeforemapping;do notgeneratefromoffset. Reusepinnedboundaryopening180/ending206/next207 andimmediateneighbor185;inspectoutgoing192beforemapping. Physicalspan27pagesknownatendpointsdoesnotcertifyinteriorcoverage. Preserveall13originalimages/eighttables/201cells/physicalcellwraps/16blanks/sevenmerges/sourceformat,operator,quote,flow,memory,address/caption/reviewindexesandnative metadata. SourceZ80listings200–204remainlater. Fullarticleassembly required afterallsegments. Contest0022isclassifiednon-owningwithchildren0023/24/25;technical0019alreadyclassified. Allselectedchecks useperspectivewrapper,26implementationpins/203-testbaseline unchanged. No reader rebuild."
+    "note": "Two immutable nativesdesign-a178–183/design-b184–189 selected. Combinedcoverage12pages isnotassembledbody;15physicalpages192–206remain. PDF192observed190alreadyreviewed;193–201uninspectedfolios unknown. Reusepreceding191/opening180/divider179/ending206/next207;inspectoutgoing198andallnewfoliosbeforemapping. Tiny189endsLD HL,INIMES;DISPLAY quoteKEY IN;next190commentRAM END ADDRESS quote mustretainphysicalwrapandsemicolon,not executableflattening. Preserveallnativefields,indexes,sharedcaptions,138physicalrows/39patchrows/117opaquevalues,unknownbands/quad-square/circledglyphuncertainty. Do notnormalizeFACTR/FACT,FSTVP/FSTPV/FTOV or3FFH/3FFFH usinghardware/opcodes. Fullassemblyrequiredafterremainingnatives. Useperspectivewrapperforallselectedchecks;26implementationpins/203testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

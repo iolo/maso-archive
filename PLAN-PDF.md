@@ -26,63 +26,67 @@ records below are historical and do not authorize a new rebuild.
 
 December 1984 is in progress: sixteen readable articles, one partial article,
 five non-owning headings and 15 of 37 entries unresolved. Design(6), canonical 0020,
-has its opening observed 178–183/PDF180–185 at packages/design-a. All 125 files match
-an independent rebuild. Its source title, chapter 6 BASIC porting label, 김덕우 byline
-and 서울대 제어계측 공학과 affiliation remain independent of the canonical title.
+now has two immutable natives: packages/design-a for observed 178–183/PDF180–185 and
+packages/design-b for observed 184–189/PDF186–191. The new 138-file native matches
+its independent rebuild exactly. Combined coverage is 12 pages, 81 regions, 55 blocks
+and 26 original images. The complete article assembly remains pending.
 
-The opening 178/PDF180 and final Z80 listing END on 204/PDF206 establish a 27-page
-physical boundary span PDF180–206. Independent cryptography opens205/PDF207.
-This does not establish unchecked interior coverage: PDF187–201 remain unreviewed,
-unclassified and folio-unknown. Twenty-one physical pages 186–206 and full article
-assembly are deferred. Deferred folios are known 184 on 186 and 200–204 on 202–206;
-None on 187–201 means uninspected, not unpaginated. No global offset was assumed.
+The independent opening 178/PDF180 and final Z80 listing END 204/PDF206 establish
+physical span 180–206; cryptography opens 205/PDF207. Prose closes 188 with a publisher
+mark, but patch tables and listings continue 189–204. All current mapped folios 184–189
+and outgoing 190/PDF192 were inspected. Fifteen physical pages 192–206 remain deferred.
+PDF193–201 remain unreviewed, unclassified and folio-unknown; None means uninspected,
+not unpaginated. Known deferred folios are 190 on 192 and 200–204 on 202–206. No global
+folio offset or unchecked interior classification was inferred.
 
-All 17 whole views 179–186/202–210 were inspected before mapping: six mapped pages,
-11 outside-map lookups and two canonical tasks. Six full/review pairs were reused,
-11 newly rendered. The lower independent book ad on 179/PDF181 is excluded. All 39
-original and 19 revised exact crops were inspected before 26 successful Tesseract
-tasks. Each affected crop was widened once. OEM1/PSM6, one thread, 3000-pixel long
-edge and kor+eng remain pinned. One source correction pass; zero recognition
-failures, retries or post-OCR repairs. All inputs and unsuccessful attempts retained.
+This checkpoint inspected 12 whole views 179/180/185–192/206/207 before mapping:
+six mapped pages, six outside-map lookups, one canonical task. Six full/review pairs
+were reused and six newly rendered. All 42 original and 14 revised exact crops were
+viewed before 29 successful mapped tasks, including five code crops. OEM1/PSM6,
+one thread, 3000-pixel long edge, eng for code and kor+eng for prose remain pinned.
+Each affected crop was widened once. One source correction pass; zero recognition
+failures, retries or post-OCR repairs. Figure 8's printed (b) heading is retained as
+separate prose from the widened code region. All stages and failed attempts retained.
 
-The native retains 39 regions, 28 blocks, 13 original images, 30 regional spans and 49
-review notes. Eight syntax tables retain 55 observed entry/ruled rows, 201 cells,
-29 header cells, 16 blank cells, 219 physical cell lines and seven spanning-cell
-associations. The blank NEXT function field continues the spanning FOR explanation;
-merged values are not repeated. Thirty keywords/thirty abbreviations/33 formats,
-ten operators/three error messages/one special-key field and 141 syntax tokens remain
-literal candidates. Printed LOAC/LOAD, ADC 8/ADC8., FOR dash, controlC/03H and numeric
-−32767/−32768 variants remain independent. No executable listing in these six pages.
+Design-b retains 42 regions, 27 blocks, 13 originals, 34 regional ranges and 43 review
+notes. Two tables preserve 58 rows/157 cells/eight header fields/one blank. The work-area
+table has 17 rows/34 cells/16 definitions. The patch table retains 39 data rows, 117 opaque
+address/OLD/NEW fields and five printed category headings. Unequal field lengths and
+DB/D3/B/E/0/O values remain source candidates; no patch bytes or opcodes decoded.
 
-Four numbered diagrams retain 128 physical label lines, seven flow terms/seven branch
-labels, four section labels with descriptions, six pointer labels and 16 work labels/
-16 boundary fields. All 27 opaque hexlike fields retain O/0 uncertainty, including
-FOOOH. CLABL, YRSCK, FSTPV, RWRK, INSRT, KWCPR and EEXPR remain source candidates.
-Four printed captions link the diagrams; the eight tables and opening illustration
-have no printed figure captions. All 13 original images remain authoritative.
-No opcode, byte, address, hardware, software, encoding, arithmetic or graphic reconstruction.
-Two source prose joins retain all three regional ranges. All 301 inline occurrences,
-97 numbers, 438 symbols, 18 quote glyphs and four feature bullets have exact indexes.
+Four listing groups retain 138 physical rows, 115 nonblank rows and four actual BASIC
+labels 10,20,30,40. Patch addresses are not BASIC numbers. Twenty printed EQU definitions,
+136 assembly columns, 384 tokens, 341 identifier occurrences and one unclosed quote are
+indexed. Three unknown decorative bands remain explicit editorial markers; their English
+labels are excluded from source tokens while printed semicolons are retained. The final
+Tiny BASIC comment continues onto deferred 190; no quote completion or executable join.
 
-Contest0022 is now a non-owning heading on unpaginated PDF179 with canonical children
-0023/0024/0025 and source references213/214/219. It has no independent signed body.
-Technical0019 remains separately classified with children 0020/0021 and 178/205 refs.
-No divider folio was invented. Canonical identities, titles and parents are unchanged.
+Six prose joins, 15 expression/result claims, six explanation steps and four elevated
+parenthesis marks preserve literal source occurrences. Diagrams retain 103 label rows/
+173 fields. Six printed captions link 11 frames: figure 6 has four frames, figure 8 two,
+figure 9 two. The Tiny listing and publisher mark have no invented captions. All 13
+original images remain authoritative. FACTR/FACT, FSTVP/FSTPV/FTOV, 3FFH/listing 3FFFH,
+Q equal/minus and circled/Greek/quartered-square glyphs remain uncertain candidates.
+No syntax, hardware, byte, address, encoding, arithmetic or graphic reconstruction.
 
-All 32,631 prior files and 26 implementation pins remain unchanged; the new inventory
-contains 33,215 files. The unchanged 203-test baseline is reused without rerun.
-An initial serializer guard found a missing 0000H index because a Unicode word-boundary
-rule rejected following Korean text. Fresh prepare-reviewed-r01.py fixes that index,
-reusing the completed source readings. Initial attempt/diagnostic remain preserved.
-No OCR or source-correction restart. Native and independent rebuild pass exact
-ranges, table/diagram projections, source identity, geometry, settings and coverage checks.
+All 33,215 prior files and 26 implementation pins remain unchanged; the new preservation
+inventory contains 33,834 files. The unchanged 203-test baseline is reused without
+rerun. A fresh serializer fixes marker words leaking into two source tokens, reusing
+all readings/blocks. Its first revision had an unmatched-parenthesis SyntaxError;
+that attempt is retained. A verifier assumption that captions always followed bodies
+was fixed for Table 1's caption above the table; the native was already correct.
+Source/crop/settings/range/physical-row/patch-field/rebuild and preservation checks pass.
+
+Contest0022 and technical0019 remain separate non-owning headings on unpaginated PDF179.
+Their canonical children0023/24/25 and 0020/21 retain references213/214/219 and 178/205.
+Canonical identities, titles and parents are unchanged.
 
 VisiCalc 172–175 remains complete at visicalc-limits:154 files, five menus/52 options/
 129 fields, three ROUND claims and one manual source word ⟦faint source word⟧ pending.
 Body/page coverage is complete; CALCULATE/CALCULATION and 351.6763/results351.68/352/350
 remain independent. Memory 166–171 at memory-efficiency retains 182 files/190 cells/
 15 blanks/99 byte fields/46 physical rows/45 entries, source 위해서/canonical 위하여,
-Rea Only Memory, 76 BE:6 andoutput149/prose 191. Mathematics 152–154 remains at
+Rea Only Memory, 76 BE:6 and output 149/prose 191. Mathematics 152–154 remains at
 math-montecarlo-r01:104 files/output 3.136. Business unpaginated PDF167 retains
 source 비지니스/canonical 비즈니스. MSX 150–151 at msx-loader retains 147 physical rows/
 134 entries and 박재현/TOC박제현. Perspective 131–149 at perspective-complete-r01 retains
@@ -93,13 +97,13 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 perspective_literal_assembly.check/installed(), delegating cpm_literal_assembly and
 graphic_literal_assembly. Preserve all 26 implementation pins.
 
-Next: batch34, design following six physical pages PDF186–191. Only 186 has an already
-observed 184 folio; inspect all new pages and their folios before mapping. Reuse pinned
-opening 180/ending 206/next 207 and preceding 185; review outgoing 192. Keep unknown
-interior folios/classification pending until inspected. Preserve all cell/wrap/blank/
-merge/syntax/flow/memory/address/quote/caption/review indexes and native metadata for
-later compatible full assembly. Human acceptance/full proofreading/source bytes/
-execution and historical claims remain unverified. No reader rebuild.
+Next: batch35, design assembly continuation on physical PDF192–197. Only 192 has an
+already inspected 190 folio; verify every new page/folio before mapping. Reuse preceding 191,
+opening 180/divider179/ending 206/next 207 and inspect outgoing 198. Preserve the physical
+189/190 comment boundary, all source fields/indexes/shared captions/unknown bands and
+native metadata. Fifteen physical pages and full assembly remain. Human acceptance,
+full proofreading, source bytes, execution and historical claims remain unverified.
+No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
