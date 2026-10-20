@@ -7893,19 +7893,444 @@
       "toc_entry_id": "maso-1984-12-toc-0028",
       "title": "리로케이터",
       "parent_id": "maso-1984-12-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/relocator",
+        "article_id": "scan-maso-1984-12-toc-0028",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/relocator/manifest.json",
+          "sha256": "ba237f3fb1d1ac99a5107a3d2e7a0fefec26449e211c717f04d3037434075f43",
+          "bytes": 14074
+        },
+        "coverage": {
+          "pdf_pages": [
+            234,
+            235
+          ],
+          "printed_pages": [
+            "232",
+            "233"
+          ],
+          "regions": 23,
+          "blocks": 16,
+          "figures": 6
+        },
+        "full_source_extent": {
+          "toc_entry_id": "maso-1984-12-toc-0028",
+          "pdf_pages": [
+            234,
+            235
+          ],
+          "printed_pages": [
+            "232",
+            "233"
+          ],
+          "opening_pdf": 234,
+          "ending_pdf": 235,
+          "previous_pdf": 233,
+          "next_pdf": 236,
+          "printed_title_candidate": "리로케이터",
+          "strap_candidate": "기계어를 처리하여 주는 유틸리티 프로그램중의 하나",
+          "byline_candidate": "정주원/동북중3",
+          "platform_candidate": "FC-100",
+          "ending_evidence": "MainprogramhexendsE268;data2endsE570;data3endsF140witheightvisiblepairs3F28592F4E290000,notashortrow. Allthreeprintedcaptions/listingframeson233 beforeindependent바이오리듬234. No decodedbytes/opcode/relocationreconstruction."
+        },
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-44/source-reviewed-r01.json",
+          "sha256": "b6444d7e35be433f607e48484602d2bfac1c1e2d9d3960707991fabc4de657e0",
+          "bytes": 9547
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-44/relocator/source-index-schema.json",
+          "sha256": "2690f09a39155333b7e68aeb1362b53ed86f10a266fd52162666d9156872a096",
+          "bytes": 4778
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-44/relocator/reproduction.json",
+          "sha256": "b576d0cc3dfc4c6a86e449fab3e09cfe221844bb433354846525a339aadd3bb8",
+          "bytes": 1934
+        },
+        "source_code_connections": [
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "listing_id": "relocator-main-hex",
+            "previous_region_id": "p233-list1-left",
+            "next_region_id": "p233-list1-rest",
+            "previous_last_physical_text": "E190 51 E5 ED B1 28 04 FE ED",
+            "next_first_physical_text": "E198 20 04 06 02 18 33 ED 5B",
+            "executable_join_performed": false
+          }
+        ],
+        "caption_associations_pending": [],
+        "source_title": {
+          "candidate": "리로케이터",
+          "canonical_title": "리로케이터",
+          "canonical_identity_changed": false
+        },
+        "source_credit": {
+          "printed_byline": "정주원/동북중 3",
+          "platform": "FC-100",
+          "program_credit": null,
+          "program_date": null,
+          "canonical_identity_changed": false
+        },
+        "pending_manual_source_glyphs": [],
+        "pending_source_formula_candidates": []
+      },
+      "classification_evidence": [
+        "Completeindependentlyboundedrelocator source232,233/PDF234,235. MainprogramhexendsE268;data2endsE570;data3endsF140witheightvisiblepairs3F28592F4E290000,notashortrow. Allthreeprintedcaptions/listingframeson233 beforeindependent바이오리듬234. No decodedbytes/opcode/relocationreconstruction. Canonicaltitle/parent/identityunchanged.",
+        "83file relocatornative/rebuild exact;23regions/16blocks/6originals/7057exactUTF8ranges. Threeopaquehexgroups134physicalrows/134addresses/1072printedbytepairs/1206tablecells;allrowseightpairsincludingF140. Fourcaptionlinks/threeprintedcaptions/twouncaptionedframes;boxedkey/downarrowapproximations/JPandF147physicalprosewraps retained. No opcode/ASCII/byte/address/relocation reconstruction.",
+        "All11wholeviews/40original/one revisedcrops inspectedbefore27successfultasks(8eng/19kor+eng);all27rawsread beforeonesourcepass. InitialexclusionschemafailurepreservedandcorrectedbeforeOCR. ZeroOCRfailures/retries/postOCRrepairs. Sourceencodedbytes/spacecounts/displayglyphs/fullproofreading/humanacceptance/execution andhistorical/scientific/hardwareclaims unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0029",
       "title": "바이오리듬",
       "parent_id": "maso-1984-12-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/biorhythm",
+        "article_id": "scan-maso-1984-12-toc-0029",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/biorhythm/manifest.json",
+          "sha256": "3ce81e5a56146b9874f41eca8f0d1fe0a88286daad9e4d9527a79b4d6131e739",
+          "bytes": 9447
+        },
+        "coverage": {
+          "pdf_pages": [
+            236,
+            237
+          ],
+          "printed_pages": [
+            "234",
+            "235"
+          ],
+          "regions": 17,
+          "blocks": 7,
+          "figures": 7
+        },
+        "full_source_extent": {
+          "toc_entry_id": "maso-1984-12-toc-0029",
+          "pdf_pages": [
+            236,
+            237
+          ],
+          "printed_pages": [
+            "234",
+            "235"
+          ],
+          "opening_pdf": 236,
+          "ending_pdf": 237,
+          "previous_pdf": 235,
+          "next_pdf": 238,
+          "printed_title_candidate": "바이오리듬",
+          "byline_candidate": "차원기",
+          "platform_candidate": "MSX",
+          "program_credit_candidate": "HeaderByW.G.CHA/T.546-1850/1984/8/6/Language:MSX-BASIC;line90BYW.K.CHA1984/8independent.",
+          "ending_evidence": "Bodyends234withpublishermark;listingcontinuesacross234columnsand235columns,ends510calendarformulaRETURNaboveindependent세운기술서적advertisement. Lower235adexcluded;nextPDF238containsbookstore/academyads,thenQ&A237–239/PDF239–241. No inferred236folio onPDF238."
+        },
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-44/source-reviewed-r01.json",
+          "sha256": "b6444d7e35be433f607e48484602d2bfac1c1e2d9d3960707991fabc4de657e0",
+          "bytes": 9547
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-44/biorhythm/source-index-schema.json",
+          "sha256": "b025fb906a4394ecd51cd80e3ccda56faaa707a4fc7b5e7cc98a3175a3d4147e",
+          "bytes": 4851
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-44/biorhythm/reproduction.json",
+          "sha256": "20e3ca4ed354c632affa4a9281866fbcf31d8dc37093171451559887250c7d91",
+          "bytes": 1934
+        },
+        "source_code_connections": [
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "listing_id": "biorhythm-complete-BASIC",
+            "previous_region_id": "p234-listing-left",
+            "next_region_id": "p234-listing-right",
+            "previous_last_physical_text": "\"",
+            "next_first_physical_text": "95 LOCATE6,11:PRINT\"|\":LOCATE 33,11:PRINT\"|\"",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "listing_id": "biorhythm-complete-BASIC",
+            "previous_region_id": "p234-listing-right",
+            "next_region_id": "p235-listing-left",
+            "previous_last_physical_text": "(87,7),4:PRINT#1,\"| BIO RHYTHM |\":PSET(87,14),",
+            "next_first_physical_text": "4:PRINT#1,\"⟦bottom box rule: extent unknown⟧\"",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-column-or-page-sequence",
+            "listing_id": "biorhythm-complete-BASIC",
+            "previous_region_id": "p235-listing-left",
+            "next_region_id": "p235-listing-right",
+            "previous_last_physical_text": "380 FOR I=180 TO 198:PSET(I,155),8:NEXT:FOR I=",
+            "next_first_physical_text": "208 TO 226:PSET(I,155),11:NEXT:FOR I=236 TO 25",
+            "executable_join_performed": false
+          }
+        ],
+        "caption_associations_pending": [],
+        "source_title": {
+          "candidate": "바이오리듬",
+          "canonical_title": "바이오리듬",
+          "canonical_identity_changed": false
+        },
+        "source_credit": {
+          "printed_byline": "차 원 기",
+          "platform": "MSX",
+          "program_credit": "By W.G.CHA / line90 BY W.K.CHA",
+          "program_date": "header1984/8/6 / line90 1984/8",
+          "canonical_identity_changed": false
+        },
+        "pending_manual_source_glyphs": [
+          {
+            "region_id": "p234-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 3,
+            "utf8_byte_end_exclusive": 38,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-source-glyph-or-extent-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page236/p234-listing-left.png",
+              "sha256": "b2a6c18a2192b1f3b8d65acce23c569f6e241b77ba52a7828d775afd2bf84d61",
+              "bytes": 407877
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            }
+          },
+          {
+            "region_id": "p234-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 243,
+            "utf8_byte_end_exclusive": 278,
+            "transcription_excerpt": "⟦ampersand band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-source-glyph-or-extent-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page236/p234-listing-left.png",
+              "sha256": "b2a6c18a2192b1f3b8d65acce23c569f6e241b77ba52a7828d775afd2bf84d61",
+              "bytes": 407877
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            }
+          },
+          {
+            "region_id": "p234-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 624,
+            "utf8_byte_end_exclusive": 658,
+            "transcription_excerpt": "⟦top box rule: extent unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-source-glyph-or-extent-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page236/p234-listing-left.png",
+              "sha256": "b2a6c18a2192b1f3b8d65acce23c569f6e241b77ba52a7828d775afd2bf84d61",
+              "bytes": 407877
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            }
+          },
+          {
+            "region_id": "p234-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 697,
+            "utf8_byte_end_exclusive": 736,
+            "transcription_excerpt": "⟦Korean display glyphs: unverified⟧",
+            "source_glyph_count": "unverified",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-source-glyph-or-extent-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page236/p234-listing-left.png",
+              "sha256": "b2a6c18a2192b1f3b8d65acce23c569f6e241b77ba52a7828d775afd2bf84d61",
+              "bytes": 407877
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            }
+          },
+          {
+            "region_id": "p234-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 819,
+            "utf8_byte_end_exclusive": 858,
+            "transcription_excerpt": "⟦Korean display glyphs: unverified⟧",
+            "source_glyph_count": "unverified",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-source-glyph-or-extent-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page236/p234-listing-left.png",
+              "sha256": "b2a6c18a2192b1f3b8d65acce23c569f6e241b77ba52a7828d775afd2bf84d61",
+              "bytes": 407877
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            }
+          },
+          {
+            "region_id": "p234-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 1012,
+            "utf8_byte_end_exclusive": 1049,
+            "transcription_excerpt": "⟦bottom box rule: extent unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-source-glyph-or-extent-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page236/p234-listing-right.png",
+              "sha256": "e061d39cd6b6884a2c83f8140ab522a65df666ccd8c41e06040daaf7240a8a50",
+              "bytes": 535470
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            }
+          },
+          {
+            "region_id": "p234-listing-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 1726,
+            "utf8_byte_end_exclusive": 1760,
+            "transcription_excerpt": "⟦top box rule: extent unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-source-glyph-or-extent-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page236/p234-listing-right.png",
+              "sha256": "e061d39cd6b6884a2c83f8140ab522a65df666ccd8c41e06040daaf7240a8a50",
+              "bytes": 535470
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            }
+          },
+          {
+            "region_id": "p235-listing-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 1825,
+            "utf8_byte_end_exclusive": 1862,
+            "transcription_excerpt": "⟦bottom box rule: extent unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-source-glyph-or-extent-certification-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page237/p235-listing-left.png",
+              "sha256": "9e54e0e49164b81a7c5fa519a5e2b9356234085e10d4d8b7265c7552a53848bc",
+              "bytes": 439745
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            }
+          }
+        ],
+        "pending_source_formula_candidates": [
+          {
+            "download": "listing.txt",
+            "utf8_byte_start": 378,
+            "utf8_byte_end_exclusive": 454,
+            "transcription_excerpt": "40 FOR B=20 TO 251:H=A+SIN(((B-20)/8+DD)*PP/R)\n+89:PSET(B,H),CO:NEXT:RETURN\n",
+            "printed_line": 40,
+            "source_bytes": "unverified",
+            "mathematics_verified": false,
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            },
+            "source_scans": [
+              {
+                "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page236/p234-listing-left.png",
+                "sha256": "b2a6c18a2192b1f3b8d65acce23c569f6e241b77ba52a7828d775afd2bf84d61",
+                "bytes": 407877
+              }
+            ]
+          },
+          {
+            "download": "listing.txt",
+            "utf8_byte_start": 2364,
+            "utf8_byte_end_exclusive": 2402,
+            "transcription_excerpt": "330 A=60:P=23:S=28:I=33:PP=-6.283184#\n",
+            "printed_line": 330,
+            "source_bytes": "unverified",
+            "mathematics_verified": false,
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            },
+            "source_scans": [
+              {
+                "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page237/p235-listing-left.png",
+                "sha256": "9e54e0e49164b81a7c5fa519a5e2b9356234085e10d4d8b7265c7552a53848bc",
+                "bytes": 439745
+              }
+            ]
+          },
+          {
+            "download": "listing.txt",
+            "utf8_byte_start": 3148,
+            "utf8_byte_end_exclusive": 3258,
+            "transcription_excerpt": "510 D=365*Y%+D%+31*(M%-1)+INT((Y%-1)/4)*(M%<3)\n-(INT(.4*M%+2.3)-INT(Y%/4))*(M%>3)-INT(3/4*(Y%\n/100)+1):RETURN\n",
+            "printed_line": 510,
+            "source_bytes": "unverified",
+            "mathematics_verified": false,
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/biorhythm/corrections.json",
+              "sha256": "7e11eb7995ddf8993906c1d1a42081f2793adf1c2e10fe12951b23852028adc1",
+              "bytes": 1812239
+            },
+            "source_scans": [
+              {
+                "path": "archive/pdf/1984-12/packages/biorhythm/ocr-page237/p235-listing-right.png",
+                "sha256": "4580e0fc210991320251da2036fd081deea41d02dd9346099e5545d2c2b1fc61",
+                "bytes": 407272
+              }
+            ]
+          }
+        ]
+      },
+      "classification_evidence": [
+        "Completeindependentlyboundedbiorhythm source234,235/PDF236,237. Bodyends234withpublishermark;listingcontinuesacross234columnsand235columns,ends510calendarformulaRETURNaboveindependent세운기술서적advertisement. Lower235adexcluded;nextPDF238containsbookstore/academyads,thenQ&A237–239/PDF239–241. No inferred236folio onPDF238. Canonicaltitle/parent/identityunchanged.",
+        "56file biorhythmnative/rebuild exact;17regions/7blocks/7originals/2482exactUTF8ranges. OneBASIC97physicalrows/67actuallabels/30continuations;source0actual label,208TO226incoming380continuationnotlabel208;230crossespage. 44quotedfields/11referenceclauses/ninescreenfields/threeopaqueformulacandidates. Twoampersandbands/fourboxruleextentsunknowntwoHangulclustersunverified. Source40A+SINuncertainoperator,330-6.283184#,510INT(.4...),W.G./W.K.CHA,date1984/8/6versus1984/8,HIGHRESORUTION,FORCAST/NEM remainindependent. Lower235adexcluded;allsevenframesuncaptioned.",
+        "All11wholeviews/40original/one revisedcrops inspectedbefore27successfultasks(8eng/19kor+eng);all27rawsread beforeonesourcepass. InitialexclusionschemafailurepreservedandcorrectedbeforeOCR. ZeroOCRfailures/retries/postOCRrepairs. Sourceencodedbytes/spacecounts/displayglyphs/fullproofreading/humanacceptance/execution andhistorical/scientific/hardwareclaims unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0030",
@@ -8006,11 +8431,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 22,
-    "readable_articles": 22,
+    "classified_articles": 24,
+    "readable_articles": 24,
     "partial_articles": 0,
     "nonowning_headings": 6,
-    "unresolved_eligibility": 9,
+    "unresolved_eligibility": 7,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -13950,43 +14375,220 @@
         "sha256": "bb4fca3e69615d177b388103354aa00e7f942ef1b3bca298150da1735399cd8d",
         "bytes": 9284026
       }
+    },
+    {
+      "id": "batch-44",
+      "status": "complete-relocator232–233-and-biorhythm234–235",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/checkpoint.json",
+        "sha256": "ae9685d506d31e0f6641b3335a4598dedc51e39f42bf1cf2cc66d49d260b7c35",
+        "bytes": 6848
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/checkpoint-r02.json",
+        "sha256": "785a300ba037e205764fc8deb4d0ae06879f1cb2db31f8236c5d1a968ec5fcf9",
+        "bytes": 8823
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-44/validation.json",
+        "sha256": "756cf81522652866ba8bea22195cd7a52558782a2396eedcef768716e2ea3f81",
+        "bytes": 1368
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-44/verify.py",
+        "sha256": "e7a63d4e37215f66e4be198093e38083f99889617981bde35b13b41622c023b7",
+        "bytes": 12874
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/source-reviewed-r01.json",
+        "sha256": "b6444d7e35be433f607e48484602d2bfac1c1e2d9d3960707991fabc4de657e0",
+        "bytes": 9547
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/mapping-completed.json",
+        "sha256": "f8ce0f590580d6da1c31125dcaf521684db5551b4380fa7d84b2765c8197f972",
+        "bytes": 1281
+      },
+      "preserved_mapping_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/mapping-failure-r01.json",
+        "sha256": "ea81602e9bb7201a257de1d3b7a2448f6d1683f19da4716c82a2bda74b804050",
+        "bytes": 556
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/crop-repair-r01.json",
+        "sha256": "bb754a6369117e05b18ca546d781abfcac9d4a70761e56825215f0d1b434271b",
+        "bytes": 1443
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/preflight-reviewed.json",
+        "sha256": "fe22926e5713ae3bd1d4250c172ad988d088c9b8cedead1c7f235fffc4a1151f",
+        "bytes": 19898
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/ocr-completed.json",
+        "sha256": "8afaf6ccc2bb6bfc52f4d671f30128cfd9af3a33afec2a74b87b63c829197ee0",
+        "bytes": 1066
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/source-correction-reading.json",
+        "sha256": "2d9a16495b3ab956a71d4fc943f666f8ea949fe953777ebab2f5be80d2ce9c72",
+        "bytes": 1197
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/correction-completed.json",
+        "sha256": "73a96ddbc9dcec44d8d73d6ad871f8b4f8f29ce519e214ad488368e421f3aa86",
+        "bytes": 2011
+      },
+      "statistics": {
+        "completed_at": "2026-10-20T09:39:00.498874+00:00",
+        "source_reading": {
+          "path": "archive/pdf/1984-12/restoration/batch-44/source-correction-reading.json",
+          "sha256": "2d9a16495b3ab956a71d4fc943f666f8ea949fe953777ebab2f5be80d2ce9c72",
+          "bytes": 1197
+        },
+        "articles": [
+          {
+            "article": "relocator",
+            "regions": 23,
+            "blocks": 16,
+            "figures": 6,
+            "ocr_tasks": 17,
+            "eng_code_tasks": 4,
+            "kor_eng_tasks": 13,
+            "regional_text_ranges": 17,
+            "listing_groups": 3,
+            "physical_code_rows": 134,
+            "actual_BASIC_labels": 0,
+            "physical_BASIC_continuations": 0,
+            "opaque_address_fields": 134,
+            "opaque_hex_pairs": 1072,
+            "table_rows": 134,
+            "table_cells": 1206,
+            "quoted_fields": 0,
+            "source_reference_clauses": 0,
+            "source_target_fields": 0,
+            "editorial_markers": 0,
+            "unknown_bands_or_rule_extents": 0,
+            "unverified_display_clusters": 0,
+            "caption_links": 4,
+            "caption_parts": 3,
+            "uncaptioned_figures": 2,
+            "screen_fields": 0,
+            "formula_candidates": 0,
+            "source_correction_passes": 1
+          },
+          {
+            "article": "biorhythm",
+            "regions": 17,
+            "blocks": 7,
+            "figures": 7,
+            "ocr_tasks": 10,
+            "eng_code_tasks": 4,
+            "kor_eng_tasks": 6,
+            "regional_text_ranges": 10,
+            "listing_groups": 1,
+            "physical_code_rows": 97,
+            "actual_BASIC_labels": 67,
+            "physical_BASIC_continuations": 30,
+            "opaque_address_fields": 0,
+            "opaque_hex_pairs": 0,
+            "table_rows": 0,
+            "table_cells": 0,
+            "quoted_fields": 44,
+            "source_reference_clauses": 11,
+            "source_target_fields": 11,
+            "editorial_markers": 8,
+            "unknown_bands_or_rule_extents": 6,
+            "unverified_display_clusters": 2,
+            "caption_links": 0,
+            "caption_parts": 0,
+            "uncaptioned_figures": 7,
+            "screen_fields": 9,
+            "formula_candidates": 3,
+            "source_correction_passes": 1
+          }
+        ],
+        "source_correction_passes": 1,
+        "post_ocr_crop_repairs": 0
+      },
+      "actual_ocr_tasks": 27,
+      "eng_code_tasks": 8,
+      "kor_eng_tasks": 19,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 1,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 40519,
+      "rebuild_files": 139,
+      "new_source_renders": 7,
+      "reused_full_page_renders": 4,
+      "mapped_source_pages": 4,
+      "outside_map_lookups": 7,
+      "canonical_tasks": 2,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "implementation_pins_verified": 29,
+      "exact_utf8_range_occurrences": 9539,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-44/preserved-work-inventory.json",
+        "sha256": "e6a4b2e38751b4df27c1c74b203a10410f84d0ffdc659e04d55fdd25b35402c1",
+        "bytes": 9412101
+      },
+      "ledger_pin_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-44/ledger-pin-repair-r01.json",
+        "sha256": "abc062e98ec926ec694c3986ea54455c21876c30a3b58494e0ec5ae966a9bbaa",
+        "bytes": 743
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-44",
-    "goal": "Restorecanonical리로케이터0028 and바이오리듬0029 afteractualextent/byline/neighborinspection;atmosttwocanonicaltasks/sixmappedpages.",
+    "id": "batch-45",
+    "goal": "Inspectactualfullscopeofcanonical0030총정리 yearlyback-issueindex,thenrestoreatmostfirstsixeligiblepages;splitandassemblelongerbody.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0028",
-      "maso-1984-12-toc-0029"
+      "maso-1984-12-toc-0030"
     ],
     "mapping_targets": [
-      234,
-      235,
-      236,
-      237,
-      238,
-      239
+      243,
+      244,
+      245,
+      246,
+      247,
+      248
     ],
     "printed_page_targets": [
-      "232",
-      "233",
-      "234",
+      "241",
+      null,
+      null,
       null,
       null,
       null
     ],
     "provisional_lookup_targets": [
-      233,
-      234,
-      235,
-      236,
-      237,
-      238,
-      239,
-      240,
-      241,
       242,
-      243
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260
     ],
     "full_extent_review_pending": true,
     "limits": {
@@ -13994,7 +14596,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Independent리로케이터232–233/PDF234–235/source정주원/FC-100 andnext바이오리듬234/PDF236/source차원기/MSX individuallyseen as outside-maplookups. Actualbiorhythmending/remainingfolios/neighbors/independentads unverified;nomapderivedfromTOC. Reusepinned233–236whole/reviewpairsandreinspectactualsource beforemapping;atmostsixeligiblepages/twotasks/twentyoutsidelookups,splitlongerbody. 메아리0026now non-owningwithoutbody. Preserveallhex/assembly/BASIC/table/diagram/formula/quote/physicalwrap/sourceclaim/originalfields. Inspecteveryexactcrop beforemappedTesseract,onesourcecorrectionpass,noopcode/byte/address/hardware/encoding/math/MML/graphicrepair. SPC-CLOCKcomplete236files/two unknownbands/17opaqueMMLstrings retained. 29implementationpins/213testbaseline unchanged. No reader rebuild."
+    "note": "Opening241/PDF243individuallyobservedoutsidebatch44:12권은이런내용들이이었습니다/과월호활용을위한찾아보기,backissuepromotion/introduction/covermontage. Actualindexextent/remainingfolios/independentads/endingunverified;do notderivefromTOCorassumethrough254. Reusepinned242–243whole/reviewpairs;inspecteligiblefullscopeandneighborsbeforemapping. Atmostfirstsixmappedpages/onecanonicaltask;splitlongerindexandretainimmutableoutputsforlaterassembly. Preservealltablecolumns/rowheadings/sourceissue/date/page/title/summary/graphic/captionfieldsandoriginalswithoutcorrectinghistoricalreferences. Other정보모음entriesremainunresolved;notadditionalcanonicaltasksinthischeckpoint. 29implementationpins/213testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
