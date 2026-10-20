@@ -409,12 +409,39 @@
       "toc_entry_id": "maso-1985-02-toc-0026",
       "title": "베이직 강좌",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Printed30–32/PDF32–34 individually inspected. Source headline 세련된 INPUT is distinct from canonical 베이직 강좌. No printed article byline; canonical편집부 remains catalog metadata only.",
+        "Previous PDF31/29 ends 애독자광장. Following PDF35 is an independent 희망전자개발 advertisement;PDF36/34 opens 애플tip 언제라도 가능한 진법변환. No global page offset inferred.",
+        "Two independent BASIC programs,list1Apple/list2SPC,retain separate labels and physical wraps. List3 is explanatory table,list4 is variable table,not extra code. Five printed captions refer to two listings,two tables and one input diagram. Final conclusion ends32."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-05-r01/basic-input",
+        "article_id": "scan-maso-1985-02-toc-0026",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-05-r01/basic-input/manifest.json",
+          "sha256": "8435ab24b049043d13a22a3b5eca5bcbe39eb9472f2d4822cc21e8baa916847a",
+          "bytes": 28390
+        },
+        "coverage": {
+          "pdf_pages": [
+            32,
+            33,
+            34
+          ],
+          "printed_pages": [
+            "30",
+            "31",
+            "32"
+          ],
+          "regions": 45,
+          "blocks": 39,
+          "figures": 6
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0027",
@@ -749,10 +776,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 4,
+    "readable": 5,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 52
+    "unresolved_eligibility": 51
   },
   "checkpoints": [
     {
@@ -939,6 +966,61 @@
         "sha256": "b85c2f7efc5da9d0744346613f7a7c3d2a803be309d8255acade729ed29041b6",
         "bytes": 579442
       }
+    },
+    {
+      "id": "batch-05",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0026"
+      ],
+      "mapped_pdf_pages": [
+        32,
+        33,
+        34
+      ],
+      "outside_map_lookup_pages": [
+        31,
+        35,
+        36
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-05/validation.json",
+        "sha256": "57056f36a6ace8859b18f68135abbde4c7db3094fc55f8a263f0e0c423226581",
+        "bytes": 1121
+      },
+      "stats": {
+        "completed_at": "2026-10-20T15:45:40.137893+00:00",
+        "regions": 45,
+        "blocks": 39,
+        "figures": 6,
+        "physical_text_rows": 226,
+        "physical_code_rows": 87,
+        "basic_labels": 84,
+        "main_basic_labels": 80,
+        "example_labels": 4,
+        "physical_code_continuations": 3,
+        "table_rows": 42,
+        "table_cells": 76,
+        "table_headers": 2,
+        "table_blanks": 8,
+        "table_range_groups": 3,
+        "quoted_fields": 26,
+        "caption_links": 5,
+        "connections": 4,
+        "physical_wraps": 3,
+        "unknown_bands": 13,
+        "source_candidates": 20,
+        "source_passes": 1,
+        "ocr_tasks": 39,
+        "failures": 0,
+        "retries": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-05-preserved-work.json",
+        "sha256": "54136d048977760e93a45efcaea1f4cfa812c0b75214b9719d1d3b05d5ea2ac7",
+        "bytes": 732018
+      }
     }
   ],
   "source_page_observations": [
@@ -1058,30 +1140,60 @@
     },
     {
       "pdf_page": 32,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0026"
       ],
       "printed_page": "30",
-      "source_title": "세련된 INPUT",
+      "source_title": "세련된 INPUT"
+    },
+    {
+      "pdf_page": 33,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0026"
+      ],
+      "printed_page": "31",
+      "source_title": "세련된 INPUT"
+    },
+    {
+      "pdf_page": 34,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0026"
+      ],
+      "printed_page": "32",
+      "source_title": "세련된 INPUT"
+    },
+    {
+      "pdf_page": 35,
+      "classification": "advertisement",
+      "evidence": "Independent 희망전자개발 PC-8001/APPLE II equipment advertisement;outside article bodies."
+    },
+    {
+      "pdf_page": 36,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0027"
+      ],
+      "printed_page": "34",
+      "source_title": "언제라도 가능한 진법변환",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-05",
-    "goal": "Verify extent of 베이직 강좌, source headline 세련된 INPUT, from printed30/PDF32 and restore within six mapped pages.",
+    "id": "batch-06",
+    "goal": "Verify extent of 애플 tip : 언제나 가능한 진법 변환 from printed34/PDF36 and restore within six mapped pages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0026"
+      "maso-1985-02-toc-0027"
     ],
-    "mapping_targets": "Opening PDF32/printed30 observed; actual end and adjacent pages require inspection.",
+    "mapping_targets": "Opening PDF36/printed34 observed; source heading 언제라도 가능한 진법변환 differs from canonical wording. Verify actual end and adjacent pages.",
     "provisional_lookup_targets": [
-      31,
-      32,
-      33,
-      34,
       35,
-      36
+      36,
+      37,
+      38
     ],
     "limits": {
       "articles": 2,
@@ -1093,10 +1205,11 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "OCR omitted lower prose over photograph; preserved drafts and one source-direct completion.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
-    "Remaining52 identities and remaining source-page accounting require inspection; no global page offset inferred.",
+    "Remaining51 identities and remaining source-page accounting require inspection; no global page offset inferred.",
     "Q&A retains two unknown separator bands,three unknown quoted-space widths,source technical/numeric mistakes and Unicode source candidates; no code execution certification.",
     "Reader guide retains two unknown bands, four faint heading candidates, literal code/command discrepancies and duplicate MSX step③. All original images retained; source encoded bytes and execution unverified.",
-    "Reader letters retain five unknown ellipsis bands and localized names,addresses,bibliographic/technical references; no identity/contact/reference verification. Eight signatures and three editorial responses are not an article byline."
+    "Reader letters retain five unknown ellipsis bands and localized names,addresses,bibliographic/technical references; no identity/contact/reference verification. Eight signatures and three editorial responses are not an article byline.",
+    "BASIC input lesson retains RETRUN,physical1170/290 wrap,13unknown bands,table-range glyph approximations and source claims. Original input diagram retained;independent diagram-label transcription pending volunteers."
   ],
   "reader_rebuild": false
 }

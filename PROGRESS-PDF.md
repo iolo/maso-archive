@@ -6,14 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. The editor's note, Q&A, reader guide and
-애독자 광장 are readable/sample-reviewed; 52 of 56 canonical entries remain unresolved.
-The reader guide covers printed22–26/PDF24–28; all 215 rebuild files and 2,766
-exact ranges match. Reader letters cover printed27–29/PDF29–31; all 159 rebuild
-files, 1,966 exact ranges, 40 images, eight letter/signature pairs and three editorial
-replies pass. Source errors, unknown bands and localized candidates remain explicit.
-The unchanged pipeline reuses its passing 213-test baseline. Next is extent review
-and restoration of 베이직 강좌 (source headline 세련된 INPUT) from printed30/PDF32.
+February 1985 restoration is in progress. Five articles are readable/sample-reviewed;
+51 of 56 canonical entries remain unresolved. The latest is 베이직 강좌, source
+headline 세련된 INPUT, on printed30–32/PDF32–34. All 171 files match its independent
+rebuild; 3,078 exact ranges, 45 images, 87 physical code rows/84 labels and 76
+nonblank table cells pass. Source RETRUN, physical wraps, 13 unknown bands and
+localized candidates remain explicit. The original input diagram remains readable;
+independent label transcription is pending volunteers. The unchanged pipeline reuses
+its passing 213-test baseline. Next is extent review and restoration of 애플 tip :
+언제나 가능한 진법 변환 from printed34/PDF36.
 Cover selection and issue closeout remain pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

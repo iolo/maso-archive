@@ -54,9 +54,20 @@ references. All 1,966 exact ranges and 40 images pass. Six crop repairs preceded
 37 tasks; no OCR failure/retry. Five ellipsis bands and localized source candidates
 remain explicit. The unchanged 213-test baseline is reused.
 
-The 56-entry issue ledger records four readable/sample-reviewed articles and 52
-unresolved entries. Next is batch05: verify 베이직 강좌 (source headline 세련된 INPUT)
-from printed30/PDF32 and restore it within the usual limits. PDF31/32 renders can be reused. Cover selection,
+Batch05 completes 베이직 강좌, canonical0026, source headline 세련된 INPUT,
+on printed30–32/PDF32–34. All 171 files at
+`archive/pdf/1985-02/packages/batch-05-r01/basic-input` match its independent
+rebuild. All 3,078 exact ranges and 45 images pass. Two programs and four examples
+retain 87 physical code rows/84 BASIC labels; two tables retain 76 nonblank cells,
+eight blank slots and three printed range groups. Five captions retain their targets.
+RETRUN, the physical1170/290 wrap and 13 unknown bands remain literal. The original
+input diagram remains; independent label transcription is pending volunteers.
+All 39 OCR tasks completed without failure/retry; the 213-test baseline is reused.
+
+The 56-entry issue ledger records five readable/sample-reviewed articles and 51
+unresolved entries. Next is batch06: verify 애플 tip : 언제나 가능한 진법 변환
+from printed34/PDF36 and restore it within the usual limits. Source headline
+언제라도 가능한 진법변환 remains distinct. PDF35/36 renders can be reused. Cover selection,
 remaining source-page accounting and issue closeout are pending. See the
 [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

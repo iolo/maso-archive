@@ -41,9 +41,15 @@ paired OCR or a new engine comparison.
   its rebuild; 1,966 exact ranges and 40 images pass. Eight letters/eight signatures/
   three editorial replies retain separate identities. Six crop repairs preceded
   37 tasks; no OCR failures/retries. Five ellipsis bands remain explicit.
-  Four articles are readable/sample-reviewed; 52 of 56 canonical entries remain
-  unresolved. Next: batch05 verifies 베이직 강좌 (source headline 세련된 INPUT)
-  from printed30/PDF32 within normal limits, reusing saved PDF31/32 renders.
+  Batch05 completes 베이직 강좌, source headline 세련된 INPUT, on printed30–32/
+  PDF32–34. All 171 rebuild files, 3,078 exact ranges and 45 images pass. Two
+  programs/four examples retain 87 physical rows/84 labels; two tables retain
+  76 nonblank cells/eight blanks/three range groups. RETRUN, physical1170/290
+  and 13 unknown bands remain. Original input diagram retained; label transcription
+  pending volunteers. All 39 tasks completed without failure/retry.
+  Five articles are readable/sample-reviewed; 51 of 56 canonical entries remain
+  unresolved. Next: batch06 verifies 애플 tip : 언제나 가능한 진법 변환 from
+  printed34/PDF36, reusing PDF35/36 renders. Source 언제라도 wording stays distinct.
   Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
