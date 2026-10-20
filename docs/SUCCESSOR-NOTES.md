@@ -42,10 +42,46 @@ July, August, September and October 1984. March retains its absent-source termin
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October.
 
-December 1984 is in progress: twenty-six readable articles, no partial articles,
-seven non-owning headings and 4 of 37 entries unresolved. Information parent0031,
+December 1984 is in progress: twenty-eight readable articles, no partial articles,
+seven non-owning headings and 2 of 37 entries unresolved. Information parent0031,
 정보모음,is a non-owning TOC organizational group with no invented body pages;
 its canonical identity/title and six child relationships remain unchanged.
+
+Classifieds0034 is complete223–225/PDF225–227 at packages/classifieds:35 files
+match the independent rebuild. Nine regions/six searchable title/category/running
+headings/three complete original pages retain three categories,eight ordered body-image
+fragments and three item-to-contact continuations. Original opening photo/art,all offers,
+contacts,prices,headers,footers and terminal mark remain. Body transcription is pending
+volunteers under the accepted classifieds-image policy;no historical contact/price claims
+or source item counts inferred. Source title letter spacing remains independent from
+canonical 복덕방. No body pages or assembly are pending.
+
+Q&A0035 is complete237–239/PDF239–241 at packages/qa:194 files match the independent
+rebuild. Fifty-six regions/43 source-corrected blocks/13 original images retain five
+questions and answers,ten code groups/17 physical rows,two machine-code tables/six rows/
+12 cells/four headers/six opaque addresses/18 hex pairs and five prose continuations.
+Seven original circuit/logic/truth-table diagrams retain six separately transcribed
+caption links. Diagram/pin/node/truth-table label transcription is pending volunteers;
+all original pixels,including page239 crease,remain. Five question submitters are not
+an invented article byline. No body pages or assembly are pending.
+
+The printed MACINE CODE header,two different byte groupings,0DEH,$17DE and $17DEH,
+42 memory claim,1/65536 probability,7FF/FH physical wrap,74 LS 157/74LS157,power/pin
+claims,Japanese reference/superscript candidates and *F000L remain literal. Sixteen
+localized candidates retain exact downloads/ranges and original scans. No spelling,
+opcode,byte,address,hardware,math,logic,encoding or bibliographic reconstruction.
+Human acceptance/full proofreading,source bytes and execution remain unverified.
+
+Eleven reused whole views/six mapped pages/five outside lookups/two canonical tasks.
+All65 exact original crops inspected before49 pinned tasks:ten eng code/39 kor+eng.
+All49 raws read before one direct source correction pass;zero OCR failures,retries,
+engine switches or crop repairs. Successful OCR omissions retained with recorded
+source-direct fallback. One serializer audit failed on an optional excerpt field before
+writing corrections/recipes;fresh revision fixes only that audit. Both attempts retained;
+source readings/maps/crops/raws unchanged. Both packages retain1,587 exact UTF-8 ranges.
+All43,699 prior files,every prior inventory and29 implementation pins pass;current
+preservation inventory contains 44,629 files. Unchanged213-test baseline reused.
+No reader rebuild.
 
 Information radar0033 is complete at packages/radar-complete-r01, covering
 printed pages 155–163/PDF157–165. The 197-file package matches its independent rebuild
@@ -242,15 +278,13 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
 cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-Next: batch50, canonical0034 classifieds and0035 Q&A. Provisional mapping candidates
-are PDF225–227 and239–241, with eleven whole-page lookup candidates. Inspect actual
-starts, endings and neighbors before selecting at most six eligible pages/two tasks;
-do not infer folio offsets or absorb independent advertisements. Segment longer extents.
-Preserve original classified bodies with explicit volunteer-transcription status where
-the accepted image policy applies. Source-correct Q&A prose, code and captions once,
-retaining physical rows, opaque fields and printed errors without semantic or hardware
-repair. Canonical0036 advertising index remains a separate eligibility decision.
-Limits: two canonical tasks, six mapped pages, twenty outside-map lookups. No reader rebuild.
+Next: batch51, canonical0036 advertising index and0037 closing editorial. Provisional
+source candidates are lower240/PDF242 and256/PDF258;review complete pages and neighbors
+before mapping. Keep upper240 magazine advertisement separate;canonical TOC255 stays
+unchanged. Preserve literal index rows/cover references/page fields/tree illustration
+and editorial paragraphs/credits/terminal marks. Limits remain two canonical tasks,
+six mapped pages and twenty outside-map lookups. Whole-issue accounting,cover verification,
+independent issue rebuild and closeout follow separately. No reader rebuild.
 
 Complete design evidence: restoration/design-assembly and evidence/design-assembly.
 Use assembly-recipe.json/reproduction.json and implementation.json's three exact
@@ -265,7 +299,7 @@ The root ledger's pending unknown-band/MEMOF links now point into the complete
 listing and keep original_native_occurrence. Do not convert the final semicolon END
 row into an executable directive or normalize printed source mistakes. No design
 native, crop, reading, raw draft, failed adapter/test attempt or source evidence may
-be removed after promotion. Cryptography,contest review,64Column,black-white,SPC-CLOCK,relocator andbiorhythm are complete;메아리 is non-owning. Yearly index and radar are complete in their selected full packages. Information0031 remains non-owning; next batch50 reviews classifieds and Q&A.
+be removed after promotion. Cryptography,contest review,64Column,black-white,SPC-CLOCK,relocator andbiorhythm are complete;메아리 is non-owning. Yearly index and radar are complete in their selected full packages. Information0031 remains non-owning; classifieds and Q&A are complete. Next batch51 reviews advertising index and closing editorial.
 
 Crowded Speedway remains packages/crowded-speedway-complete-r01,including final
 69F8/eight00source revision. Its pinned table/literal tooling39e5b61 remains

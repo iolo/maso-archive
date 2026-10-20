@@ -9738,19 +9738,501 @@
       "toc_entry_id": "maso-1984-12-toc-0034",
       "title": "복덕방",
       "parent_id": "maso-1984-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/classifieds",
+        "article_id": "scan-maso-1984-12-toc-0034",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/classifieds/manifest.json",
+          "sha256": "8ab6e78ff756c9ad03d74ec6e1c17957cb456b6c7bca877e31f15d39a0ef5042",
+          "bytes": 5916
+        },
+        "coverage": {
+          "pdf_pages": [
+            225,
+            226,
+            227
+          ],
+          "printed_pages": [
+            "223",
+            "224",
+            "225"
+          ],
+          "regions": 9,
+          "blocks": 6,
+          "figures": 3
+        },
+        "full_source_extent": {
+          "printed_pages": [
+            "223",
+            "224",
+            "225"
+          ],
+          "pdf_pages": [
+            225,
+            226,
+            227
+          ],
+          "opening": "Original illustrated 복덕방 opening on223/PDF225,after complete black-white listing222/PDF224.",
+          "ending": "Final classified/contact and terminal mark225/PDF227,before independent SPC-CLOCK226/PDF228.",
+          "byline": null
+        },
+        "source_credit": null,
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-50/source-reviewed.json",
+          "sha256": "ff69aea3e1396dc3d4b07eeaa0ba5a49bf1420b8ce8389044de27d14f07440ac",
+          "bytes": 10732
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-50/classifieds/source-index-schema.json",
+          "sha256": "642abcf14d9bc376296d310342949b1355ba8bb2b8a175d3d10e5359e5fd359e",
+          "bytes": 3800
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-50/reproduction.json",
+          "sha256": "682a33c56f81d4adbd549b6bcf9d8d5119386edc9d45bf881b44a96dc34271ae",
+          "bytes": 3016
+        },
+        "validation": {
+          "path": "archive/pdf/1984-12/evidence/batch-50/validation.json",
+          "sha256": "a1b4389b9a8c8f5aa6f4ba2af18d70a9aa3846097aa50ae6776940ed709482be",
+          "bytes": 1949
+        },
+        "caption_associations_pending": [],
+        "pending_manual_source_candidates": [
+          {
+            "region_id": "p223-title",
+            "download": "article.txt",
+            "utf8_byte_start": 0,
+            "utf8_byte_end_exclusive": 11,
+            "transcription_excerpt": "복 덕 방",
+            "note": "Photo-screen title letter spacing retained independently from canonical and running title복덕방.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/classifieds/ocr-page225/p223-title.png",
+              "sha256": "5028eb0485e72a55cc998511ea187248f0c677a151bee28534e82a1802e99d62",
+              "bytes": 65662
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/classifieds/corrections.json",
+              "sha256": "57918410f561c89b4275056d5b8da9979160f00b921a6086fd4c361d8a3539a9",
+              "bytes": 63914
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          }
+        ],
+        "body_availability": "original-image-readable",
+        "body_transcription": "pending-volunteer",
+        "classified_sections": 3,
+        "body_fragments": 8,
+        "body_continuations": 3,
+        "source_terminal_marks": 1
+      },
+      "classification_evidence": [
+        "Canonical0034 complete classifieds223–225/PDF225–227 after black-white222/before SPC-CLOCK226.35-file independent rebuild/9regions/6searchable headings/3complete original pages/48exactranges. Three printed categories/eight ordered body-image fragments/three item-to-contact continuations retain all offers,contacts,prices,photo art and terminal mark. Classified body transcription pending volunteers;source claims unverified. No article byline invented.",
+        "All11 whole views and65 exact original crops inspected before49 pinned tasks;all raws read before one source-direct pass. No OCR failures,retries,engine changes or post-OCR repairs. Human acceptance/full proofreading/sourcebytes/claims unverified. Canonical identity/title/parent unchanged."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0035",
       "title": "Q&A",
       "parent_id": "maso-1984-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/qa",
+        "article_id": "scan-maso-1984-12-toc-0035",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/qa/manifest.json",
+          "sha256": "59bb0c3a0d4dd353003e722dd6b3482e68716335e9902d28c6092520b94f387f",
+          "bytes": 32938
+        },
+        "coverage": {
+          "pdf_pages": [
+            239,
+            240,
+            241
+          ],
+          "printed_pages": [
+            "237",
+            "238",
+            "239"
+          ],
+          "regions": 56,
+          "blocks": 43,
+          "figures": 13
+        },
+        "full_source_extent": {
+          "printed_pages": [
+            "237",
+            "238",
+            "239"
+          ],
+          "pdf_pages": [
+            239,
+            240,
+            241
+          ],
+          "opening": "Original lock/key Q/A graphic and framed invitation237/PDF239,after full advertisementPDF238.",
+          "ending": "Final disassembler answer/*F000L and terminal mark239/PDF241,before separate advertisement/advertising-index240/PDF242.",
+          "byline": null
+        },
+        "source_credit": null,
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-50/source-reviewed.json",
+          "sha256": "ff69aea3e1396dc3d4b07eeaa0ba5a49bf1420b8ce8389044de27d14f07440ac",
+          "bytes": 10732
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-50/qa/source-index-schema.json",
+          "sha256": "089cf61382a8f333f21eff10014779260e3465e3486a82d3513d19224b103eeb",
+          "bytes": 3846
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-50/reproduction.json",
+          "sha256": "682a33c56f81d4adbd549b6bcf9d8d5119386edc9d45bf881b44a96dc34271ae",
+          "bytes": 3016
+        },
+        "validation": {
+          "path": "archive/pdf/1984-12/evidence/batch-50/validation.json",
+          "sha256": "a1b4389b9a8c8f5aa6f4ba2af18d70a9aa3846097aa50ae6776940ed709482be",
+          "bytes": 1949
+        },
+        "caption_associations_pending": [],
+        "pending_manual_source_candidates": [
+          {
+            "region_id": "p237-question-machine",
+            "download": "article.txt",
+            "utf8_byte_start": 1817,
+            "utf8_byte_end_exclusive": 1828,
+            "transcription_excerpt": "MACINE CODE",
+            "note": "Printed header lacks H;no spelling correction.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page239/p237-question-machine.png",
+              "sha256": "e2b4e082c167353d27e55daa0d01ca3706670d256108cd720f6b952b9e273af8",
+              "bytes": 32842
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p237-answer-machine",
+            "download": "article.txt",
+            "utf8_byte_start": 2262,
+            "utf8_byte_end_exclusive": 2273,
+            "transcription_excerpt": "MACINE CODE",
+            "note": "Separate answer header retains same source spelling.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page239/p237-answer-machine.png",
+              "sha256": "8da84a18a63e81f05a97a36c089bb56b3256042f313483bf9478890ca8c597cc",
+              "bytes": 33769
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p237-a1",
+            "download": "article.txt",
+            "utf8_byte_start": 847,
+            "utf8_byte_end_exclusive": 849,
+            "transcription_excerpt": "42",
+            "note": "Printed memory allocation claim retained without arithmetic repair.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page239/p237-a1.png",
+              "sha256": "64fdb02cc583bfa9d9a2644fe0919a53f93f3b0c560be180b45ce838fc4a4893",
+              "bytes": 330455
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p237-a1",
+            "download": "article.txt",
+            "utf8_byte_start": 563,
+            "utf8_byte_end_exclusive": 584,
+            "transcription_excerpt": "인터프리터와마",
+            "note": "Physical source spacing retained without grammar repair.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page239/p237-a1.png",
+              "sha256": "64fdb02cc583bfa9d9a2644fe0919a53f93f3b0c560be180b45ce838fc4a4893",
+              "bytes": 330455
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p238-q3-ldbc",
+            "download": "article.txt",
+            "utf8_byte_start": 3453,
+            "utf8_byte_end_exclusive": 3458,
+            "transcription_excerpt": "$17DE",
+            "note": "Printed question operand has no trailing H;do not complete from answer.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page240/p238-q3-ldbc.png",
+              "sha256": "4393718cc399738b8821191303c042774c41daa6f8b29398e4c2639187f6045d",
+              "bytes": 8928
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p238-a3-ldbc",
+            "download": "article.txt",
+            "utf8_byte_start": 3754,
+            "utf8_byte_end_exclusive": 3759,
+            "transcription_excerpt": "$17DE",
+            "note": "Printed answer example has no trailing H;independent of explicit later operand.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page240/p238-a3-ldbc.png",
+              "sha256": "c2c475001713035514395ab3bc3d67b7b9e37605a8df91eddd7faa2582529876",
+              "bytes": 9371
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p238-a3-explicit-ldbc",
+            "download": "article.txt",
+            "utf8_byte_start": 4394,
+            "utf8_byte_end_exclusive": 4400,
+            "transcription_excerpt": "$17DEH",
+            "note": "Later explicit operand retained independently.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page240/p238-a3-explicit-ldbc.png",
+              "sha256": "559d856529a0285ed84907ed77cb702df8a7db02b161fa0930bff1af0fb65c89",
+              "bytes": 10099
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p238-a3-registers",
+            "download": "article.txt",
+            "utf8_byte_start": 4167,
+            "utf8_byte_end_exclusive": 4174,
+            "transcription_excerpt": "1/65536",
+            "note": "Source probability claim retained without mathematical review.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page240/p238-a3-registers.png",
+              "sha256": "227ca07cfba55b6c9a5e30ea99198e6ac90f3a2c68c9d8618e268a136cb088ad",
+              "bytes": 159579
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p238-a3-memory-right",
+            "download": "article.txt",
+            "utf8_byte_start": 5095,
+            "utf8_byte_end_exclusive": 5101,
+            "transcription_excerpt": "7FF\nFH",
+            "note": "Physical hex-field wrap retained;no missing digit inferred.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page240/p238-a3-memory-right.png",
+              "sha256": "f1e435b4c521f1e5dee2a9b9b7b4e3ee930ec43d596215a81758c3d378840fed",
+              "bytes": 362439
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p238-a3-memory-right",
+            "download": "article.txt",
+            "utf8_byte_start": 4936,
+            "utf8_byte_end_exclusive": 4945,
+            "transcription_excerpt": "74 LS 157",
+            "note": "Printed spacing independent from later74LS157.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page240/p238-a3-memory-right.png",
+              "sha256": "f1e435b4c521f1e5dee2a9b9b7b4e3ee930ec43d596215a81758c3d378840fed",
+              "bytes": 362439
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p238-a4-start",
+            "download": "article.txt",
+            "utf8_byte_start": 6198,
+            "utf8_byte_end_exclusive": 6207,
+            "transcription_excerpt": "25번 핀",
+            "note": "Printed supply/pin claim not corrected using hardware expectations.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page240/p238-a4-start.png",
+              "sha256": "5283a13d7aa0083e23b817f1fb76910fc2f852e4acebcd6fbd083398a5bc83c5",
+              "bytes": 234227
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p238-a4-start",
+            "download": "article.txt",
+            "utf8_byte_start": 6664,
+            "utf8_byte_end_exclusive": 6714,
+            "transcription_excerpt": "神崎康宏, マイコン設計トレーニング",
+            "note": "Japanese reference Unicode candidates;no bibliographic completion or external validation.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page240/p238-a4-start.png",
+              "sha256": "5283a13d7aa0083e23b817f1fb76910fc2f852e4acebcd6fbd083398a5bc83c5",
+              "bytes": 234227
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p239-a4-end",
+            "download": "article.txt",
+            "utf8_byte_start": 8189,
+            "utf8_byte_end_exclusive": 8251,
+            "transcription_excerpt": "東京芝浦電気株式会社, 集積回路技術資料C²MOS",
+            "note": "Japanese/superscript Unicode candidates;encoded glyphs unverified.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page241/p239-a4-end.png",
+              "sha256": "086a46c2e895418ab890aff3e9927c54b15b6cf39b0c911f8faf911eafb332b2",
+              "bytes": 156102
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p239-a5-start",
+            "download": "article.txt",
+            "utf8_byte_start": 8717,
+            "utf8_byte_end_exclusive": 8722,
+            "transcription_excerpt": "$F000",
+            "note": "Printed address independent from code command;no inferred execution.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page241/p239-a5-start.png",
+              "sha256": "b0cd5c89dad118f5eac738be63fe566b4499b630861fe883539ce9e2aaf1c0ce",
+              "bytes": 97938
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p239-monitor-command",
+            "download": "article.txt",
+            "utf8_byte_start": 8813,
+            "utf8_byte_end_exclusive": 8819,
+            "transcription_excerpt": "*F000L",
+            "note": "Printed monitor command;no execution or hardware confirmation.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/qa/ocr-page241/p239-monitor-command.png",
+              "sha256": "f64d0715b3f3ee5a1dd592e614f5896d730c3ee22b7153950a3bb50c9d050354",
+              "bytes": 5217
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/qa/corrections.json",
+              "sha256": "73eda5e4cb2b61e9472dcf58aecc74c6f751fc73b7ce2314222189bfa87115d0",
+              "bytes": 1047336
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          }
+        ],
+        "body_transcription": "assistant-source-reviewed",
+        "diagram_label_transcription": "pending-volunteer",
+        "question_answer_pairs": 5,
+        "code_groups": 10,
+        "physical_code_rows": 17,
+        "machine_tables": 2,
+        "machine_table_rows": 6,
+        "machine_cells": 12,
+        "machine_headers": 4,
+        "opaque_address_fields": 6,
+        "opaque_hex_pairs": 18,
+        "prose_continuations": 5,
+        "diagram_images": 7,
+        "caption_links": 6,
+        "caption_parts": 6,
+        "source_terminal_marks": 1
+      },
+      "classification_evidence": [
+        "Canonical0035 complete Q&A237–239/PDF239–241 after independent advertisementPDF238/before separate advertisement-and-adindex240/PDF242.194-file independent rebuild/56regions/43blocks/13originals/1539exactranges. Five questions and answers/ten code groups/17physical rows/two machine tables/six rows/12cells/fourheaders/sixaddresses/18opaque pairs/five prose continuations/seven original diagrams/six printed caption links. MACINE CODE,byte grouping,0DEH/$17DE/$17DEH,1/65536,7FF/FH wrap,supply/pin claims,Japanese references and *F000L remain source candidates without semantic/hardware/math/logic repair or execution. Diagram labels pending volunteers. Five submitters are not an article byline.",
+        "All11 whole views and65 exact original crops inspected before49 pinned tasks;all raws read before one source-direct pass. No OCR failures,retries,engine changes or post-OCR repairs. Human acceptance/full proofreading/sourcebytes/claims unverified. Canonical identity/title/parent unchanged."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0036",
@@ -9773,11 +10255,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 26,
-    "readable_articles": 26,
+    "classified_articles": 28,
+    "readable_articles": 28,
     "partial_articles": 0,
     "nonowning_headings": 7,
-    "unresolved_eligibility": 4,
+    "unresolved_eligibility": 2,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -16686,43 +17168,189 @@
         "sha256": "6fc560f9d210b5fe4def1ec3b0b491b0a1a4cfd4374ba9abeb96b060544d71ae",
         "bytes": 9997796
       }
+    },
+    {
+      "id": "batch-50",
+      "status": "complete-classifieds223–225-and-qa237–239",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/checkpoint.json",
+        "sha256": "d1db5fee3f0a4c8fa23958bc13f8d23f9f15c42fd42b11494dace31d820aea4d",
+        "bytes": 6873
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/checkpoint-r01.json",
+        "sha256": "39be87951ca9f56acb80cb32170d2c83791d37e5925ec4fe65a67d33b67f0ca3",
+        "bytes": 7165
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-50/validation.json",
+        "sha256": "a1b4389b9a8c8f5aa6f4ba2af18d70a9aa3846097aa50ae6776940ed709482be",
+        "bytes": 1949
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-50/verify.py",
+        "sha256": "aa18182e6cffbde45de6228e3194aa31fbc0f9c6f549cdfcc5418b3a9a6b3824",
+        "bytes": 13012
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/source-reviewed.json",
+        "sha256": "ff69aea3e1396dc3d4b07eeaa0ba5a49bf1420b8ce8389044de27d14f07440ac",
+        "bytes": 10732
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/mapping-completed.json",
+        "sha256": "1902c9e906828b0358ae8a648805ef4d64df2734c59c3f6ff3a588ce65e2c24b",
+        "bytes": 1167
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/preflight-reviewed.json",
+        "sha256": "f5d8e4e1164e615137d98ee76155559e0ab82c9c3108bc62447e476f778cb3ef",
+        "bytes": 18733
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/ocr-completed.json",
+        "sha256": "3654dacfe6b228ab0898823bfe1995bcb791d085abe3c36c60a084344e594288",
+        "bytes": 1394
+      },
+      "draft_reading_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/draft-reading-completed.json",
+        "sha256": "a8d2431eac0d01eb89ad6b60eb59b9e1cbd130bc67e57ddc69e6d0f4aa357b1f",
+        "bytes": 13062
+      },
+      "raw_coverage_fallback": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/raw-coverage-fallback.json",
+        "sha256": "7f261ba844577934e6654b1c5ffabccab98cbc8b07f31b5379312f2f07582490",
+        "bytes": 504
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/source-correction-reading.json",
+        "sha256": "8d39ddf58e23788a96549bbe7e23c1c23b7f1f06a29400c231b3082e18a85d56",
+        "bytes": 33809
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/correction-completed.json",
+        "sha256": "9ff7081cd9b819cc630d05e3ef43bcdc607405771e7929736baf1f35f935d572",
+        "bytes": 1352
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/reproduction.json",
+        "sha256": "682a33c56f81d4adbd549b6bcf9d8d5119386edc9d45bf881b44a96dc34271ae",
+        "bytes": 3016
+      },
+      "serializer_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-50/serializer-attempt-r00.json",
+        "sha256": "e2dc925e38c8d141455225a09bcacc667b6b6aa886b778e429e14c8ca6557032",
+        "bytes": 716
+      },
+      "statistics": {
+        "completed_at": "2026-10-20T12:40:37.201762+00:00",
+        "source_correction_passes": 1,
+        "articles": [
+          {
+            "article": "classifieds",
+            "regions": 9,
+            "blocks": 6,
+            "original_images": 3,
+            "raw_tasks": 6,
+            "code_groups": 0,
+            "physical_code_rows": 0,
+            "machine_tables": 0,
+            "machine_table_rows": 0,
+            "machine_cells": 0,
+            "machine_headers": 0,
+            "opaque_hex_pairs": 0,
+            "question_answer_pairs": 0,
+            "caption_links": 0,
+            "caption_parts": 0,
+            "prose_continuations": 0,
+            "classified_sections": 3,
+            "classified_continuations": 3,
+            "localized_source_candidates": 1
+          },
+          {
+            "article": "qa",
+            "regions": 56,
+            "blocks": 43,
+            "original_images": 13,
+            "raw_tasks": 43,
+            "code_groups": 10,
+            "physical_code_rows": 17,
+            "machine_tables": 2,
+            "machine_table_rows": 6,
+            "machine_cells": 12,
+            "machine_headers": 4,
+            "opaque_hex_pairs": 18,
+            "question_answer_pairs": 5,
+            "caption_links": 6,
+            "caption_parts": 6,
+            "prose_continuations": 5,
+            "classified_sections": 0,
+            "classified_continuations": 0,
+            "localized_source_candidates": 15
+          }
+        ],
+        "raw_tasks": 49,
+        "eng_code_tasks": 10,
+        "kor_eng_tasks": 39,
+        "ocr_failures": 0,
+        "retries": 0,
+        "reader_rebuild": false
+      },
+      "rebuild_files": 229,
+      "exact_utf8_range_occurrences": 1587,
+      "actual_ocr_tasks": 49,
+      "eng_code_tasks": 10,
+      "kor_eng_tasks": 39,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 0,
+      "post_ocr_crop_repairs": 0,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 11,
+      "mapped_source_pages": 6,
+      "outside_map_lookups": 5,
+      "canonical_tasks": 2,
+      "deferred_body_pages": 0,
+      "assembly_required": false,
+      "prior_files_verified": 43699,
+      "implementation_pins_verified": 29,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-50/preserved-work-inventory.json",
+        "sha256": "920846a79fff200608d4a8191387a222cff809105ba50525ceced3701e866226",
+        "bytes": 10195563
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-50",
-    "goal": "Inspect actual classifieds0034 and Q&A0035 extents and restore bounded eligible bodies without absorbing adjacent ads or advertising index.",
+    "id": "batch-51",
+    "goal": "Resolve actual advertising-index0036 and closing-editorial0037 source extents and restore their eligible complete bodies separately from advertisements.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0034",
-      "maso-1984-12-toc-0035"
+      "maso-1984-12-toc-0036",
+      "maso-1984-12-toc-0037"
     ],
     "mapping_targets": [
-      225,
-      226,
-      227,
-      239,
-      240,
-      241
+      242,
+      258
     ],
     "printed_page_targets": [
-      "223",
-      "224",
-      "225",
-      "237",
-      "238",
-      "239"
+      "240",
+      "256"
     ],
     "provisional_lookup_targets": [
-      224,
-      225,
-      226,
-      227,
-      228,
-      238,
-      239,
-      240,
       241,
       242,
-      243
+      243,
+      257,
+      258,
+      259
     ],
     "full_extent_review_pending": true,
     "segment_source_review_pending": true,
@@ -16731,7 +17359,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Provisional TOC/source candidates only. Reinspect whole pages/opening/ending/neighbors and every exact crop;do not infer folio offset/extent. Classifieds candidate223–225 before separately restored SPC-CLOCK226;Q&A candidate237–239 before separate240 advertisement/advertising index. At most six mapped eligible pages/two tasks;segment if actual extent exceeds limit. Preserve original classified items/advertisements with explicit body transcription status where accepted original-image policy applies. Source-correct Q&A prose/code/captions once against reviewed crops;keep physical rows/fields/opaque values and original errors without semantic/hardware repair or execution. Canonical0036 ad-index eligibility remains separate and is not decided from neighbor context. No engine benchmark or reader rebuild."
+    "note": "Provisional source candidates only. Reinspect actual complete pages,starts,ends and neighbors. Advertising-index observed lower240/PDF242 is separate from upper computer-vision magazine advertisement and from complete yearly-index final255/PDF257;canonical TOC255 remains unchanged. Do not infer body eligibility solely from neighboring context. Closing editorial candidate256/PDF258 precedes independent rear advertisement. Preserve table rows/labels/page references/tree illustration/captions and editorial paragraphs/credits/terminal marks against exact source crops. Do not normalize cover references or source page-number errors. At most two canonical tasks/six mapped/twenty outside lookups. Finish separate whole-issue accounting/cover/independent rebuild/closeout afterward;this is not issue completion. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
