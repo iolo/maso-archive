@@ -1796,7 +1796,8 @@
         "Independent title/cube/byline 고일두 and 서울공대 건축과 박사과정 onrightPDF133/observed131;left office-move ad separate. All19 source pagesPDF133–151 observed131–149 independently reviewed with neighbors132/152. Narrative closing140 continues into AppleSoft141–144 andGBASIC144–149;last4290 END on149. No global offset or inferred folio.",
         "Opening131–136 native/rebuild retain148 identical files,40 regions,33 blocks,seven original drawing frames,39regional text spans,six source joins,20matrices/74rows/264literalcells,26display spans,15fractions,296math glyphs,four equation labels,101diagram label tokens,seven captions in six frames and16unnumberedMOVE/DRAWrows/64tokens. Source anomalies and glyph/Unicode uncertainty preserved;no arithmetic,formula orgraphic reconstruction. Remaining137–149 andfullassembly required.",
         "Middle137–142 native independently reproduces154files. Bothnatives cover131–142 with86regions/64blocks/20originals. Current226physicalrows include170actualnumberedAppleSoftentries,64DATAfields,27outputvalues,87matrixcells,43flowlabels and15variabledefinitions;all sourceerrors retained. Later143–149 pluscompleteassembly remain. Recheckfound opening134 reflectionparagraph closingparenthesis clippedbyoldcrop;explicitretained revision required beforeassembly. Originalnative untouched;prior missing-source-parenthesis statement is not finalsourceauthority.",
-        "Listing143–148 native independently reproduces56files. Three natives cover131–148 with103regions/67blocks/27originals. Current406physicalrows retain378numberedentries,49DATAfields,65literal targetfields andtwo independent sourcevariants. FinalGBASIC149,explicitopening134parenthesis crop/source revision,knownprior10.3caption association andcompatible fullassembly remain. No oldnative changes."
+        "Listing143–148 native independently reproduces56files. Three natives cover131–148 with103regions/67blocks/27originals. Current406physicalrows retain378numberedentries,49DATAfields,65literal targetfields andtwo independent sourcevariants. FinalGBASIC149,explicitopening134parenthesis crop/source revision,knownprior10.3caption association andcompatible fullassembly remain. No oldnative changes.",
+        "Final149 native/rebuild reproduce14files exactly. Four natives coverall19observedpages131–149/PDF133–151 with105regions/68blocks/28originals. Ending53physical/numberedGBASICrows retain4045/4105/no4140,source3840NEX andfinal4290 END beforeindependentMSX150. No deferred sourcepages remain. Availability remainspartial pendingexplicitopening134parenthesis crop/source/indexrevision andcompatiblefullassembly withknown10.3/10.4caption associations. Oldnatives unchanged."
       ],
       "restoration": {
         "directory": "archive/pdf/1984-12/packages/perspective-a",
@@ -1825,7 +1826,8 @@
             147,
             148,
             149,
-            150
+            150,
+            151
           ],
           "printed_pages": [
             "131",
@@ -1845,11 +1847,12 @@
             "145",
             "146",
             "147",
-            "148"
+            "148",
+            "149"
           ],
-          "regions": 103,
-          "blocks": 67,
-          "figures": 27
+          "regions": 105,
+          "blocks": 68,
+          "figures": 28
         },
         "segments": [
           {
@@ -1944,6 +1947,27 @@
               "figures": 7
             },
             "segment": "c"
+          },
+          {
+            "directory": "archive/pdf/1984-12/packages/perspective-d",
+            "article_id": "scan-maso-1984-12-toc-0013",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/perspective-d/manifest.json",
+              "sha256": "ab557739cda9b12c4be846f0af390bab4d0c45687baad4fadf352210edce8186",
+              "bytes": 2210
+            },
+            "coverage": {
+              "pdf_pages": [
+                151
+              ],
+              "printed_pages": [
+                "149"
+              ],
+              "regions": 2,
+              "blocks": 1,
+              "figures": 1
+            },
+            "segment": "d"
           }
         ],
         "full_source_extent": {
@@ -1991,12 +2015,8 @@
           ],
           "coverage": "Nineteen observed source pages including prose,data/output examples,AppleSoft andGBASIC listings. Last4290 END on149."
         },
-        "deferred_printed_pages": [
-          "149"
-        ],
-        "deferred_pdf_pages": [
-          151
-        ],
+        "deferred_printed_pages": [],
+        "deferred_pdf_pages": [],
         "assembly_required": true,
         "source_review": {
           "path": "archive/pdf/1984-12/restoration/batch-24/source-reviewed.json",
@@ -2023,10 +2043,15 @@
             "path": "archive/pdf/1984-12/restoration/batch-26/source-index-schema.json",
             "sha256": "8039f96a7e0136112734460919eb09c84bb347ed12c60f95db412f2681d264ea",
             "bytes": 3807
+          },
+          {
+            "path": "archive/pdf/1984-12/restoration/batch-27/source-index-schema.json",
+            "sha256": "7d3069be48856d21953ea70aa61ca80b2ef0d3285a65eccee436063e40c71304",
+            "bytes": 3331
           }
         ],
-        "assembly_compatibility": "Preserve every native field/array/metadata including physical/logical/regional/token/identifier/numeric/symbol/comment/dash/quote/string/referenceclause/targetfield/DATA/inline/review/caption andexternalcaption provenance. Keep independentlistingvariants andsevenoriginalframes. Resolveearlier134 cropdefect byexplicitretainedrevision;connectknown10.3heading andfinalGBASIC149 beforecompleteassembly. No semantic/arithmetic/cross-version orgraphic reconstruction.",
-        "outgoing_boundary": "CurrentGBASIC148ends3770comment;149continues3780 andends4290 END. Source149stilldeferred.",
+        "assembly_compatibility": "Preserve every native field/array/metadata including physical/logical/regional/token/identifier/numeric/symbol/comment/dash/quote/string/referenceclause/targetfield/DATA/inline/review/caption andexternalcaption provenance. Keep independentlistingvariants andalloriginalframes. Resolveearlier134 cropdefect byexplicitretainedrevision;connectknown10.3/10.4headings andGBASIC3770→3780 through4290 beforecompleteassembly. No semantic/arithmetic/cross-version orgraphic reconstruction.",
+        "outgoing_boundary": "Final4290 END precedes independentMSXloader150/PDF152. No remaining sourcepages;opening134explicitrevision andcompatiblecompleteassembly remain.",
         "caption_associations_pending": [
           {
             "listing_id": "applesoft-ending-143-144",
@@ -2062,12 +2087,46 @@
               "external_utf8_byte_end_exclusive": 10046,
               "caption_text": "10.3. 애플소프트 베이직 프로그램"
             }
+          },
+          {
+            "listing_id": "gbasic-ending-149",
+            "figure_ids": [
+              "p149-gb-image"
+            ],
+            "status": "associate-known-earlier-source-heading-at-complete-assembly",
+            "external_caption": {
+              "source_package_manifest": {
+                "path": "archive/pdf/1984-12/packages/perspective-c/manifest.json",
+                "sha256": "6fdb75bcf57572efc4d6f3e08581fddf148d1a8b2599b065f9477880c4972052",
+                "bytes": 9389
+              },
+              "source_corrections": {
+                "path": "archive/pdf/1984-12/packages/perspective-c/corrections.json",
+                "sha256": "764eab6dfe45fcfb4d58571a62c011f9b601b5007fabac73bffdd93463190529",
+                "bytes": 7004986
+              },
+              "source_download": {
+                "path": "archive/pdf/1984-12/packages/perspective-c/article.txt",
+                "sha256": "01b09e5bf147d7ca108a97e5411bf801a5fa788809b6de1908bb8a57db8ec7c3",
+                "bytes": 9758
+              },
+              "source_caption_block_id": "p144-gb-heading",
+              "source_caption_region_id": "p144-gb-heading",
+              "source_scan": {
+                "path": "archive/pdf/1984-12/packages/perspective-c/ocr-page146/p144-gb-heading.png",
+                "sha256": "b6979dbf2d4a1afceb23f8da717034f5ff6246565fdae1391d7709bdc6b0624e",
+                "bytes": 17454
+              },
+              "external_utf8_byte_start": 2823,
+              "external_utf8_byte_end_exclusive": 2848,
+              "caption_text": "10.4. GBASIC 프로그램"
+            }
           }
         ],
         "latest_source_review": {
-          "path": "archive/pdf/1984-12/restoration/batch-26/source-reviewed.json",
-          "sha256": "b2b0bbe875737e44ea40258fafbf5c07f4757b0dbaae0400b775bfbf424a2814",
-          "bytes": 18241
+          "path": "archive/pdf/1984-12/restoration/batch-27/source-reviewed.json",
+          "sha256": "d08749d189f0caceb8d8140a7765aea5512dc5cdaadc2726a0dd43fdfaac9330",
+          "bytes": 17267
         },
         "required_native_revisions": [
           {
@@ -2136,6 +2195,46 @@
             ],
             "caption_block_id": "p144-gb-heading",
             "later_continuation_required": true
+          },
+          {
+            "listing_id": "gbasic-ending-149",
+            "figure_ids": [
+              "p149-gb-image"
+            ],
+            "incoming_listing_id": "gbasic-opening-144-148",
+            "incoming_package": {
+              "path": "archive/pdf/1984-12/packages/perspective-c/manifest.json",
+              "sha256": "6fdb75bcf57572efc4d6f3e08581fddf148d1a8b2599b065f9477880c4972052",
+              "bytes": 9389
+            },
+            "external_caption": {
+              "source_package_manifest": {
+                "path": "archive/pdf/1984-12/packages/perspective-c/manifest.json",
+                "sha256": "6fdb75bcf57572efc4d6f3e08581fddf148d1a8b2599b065f9477880c4972052",
+                "bytes": 9389
+              },
+              "source_corrections": {
+                "path": "archive/pdf/1984-12/packages/perspective-c/corrections.json",
+                "sha256": "764eab6dfe45fcfb4d58571a62c011f9b601b5007fabac73bffdd93463190529",
+                "bytes": 7004986
+              },
+              "source_download": {
+                "path": "archive/pdf/1984-12/packages/perspective-c/article.txt",
+                "sha256": "01b09e5bf147d7ca108a97e5411bf801a5fa788809b6de1908bb8a57db8ec7c3",
+                "bytes": 9758
+              },
+              "source_caption_block_id": "p144-gb-heading",
+              "source_caption_region_id": "p144-gb-heading",
+              "source_scan": {
+                "path": "archive/pdf/1984-12/packages/perspective-c/ocr-page146/p144-gb-heading.png",
+                "sha256": "b6979dbf2d4a1afceb23f8da717034f5ff6246565fdae1391d7709bdc6b0624e",
+                "bytes": 17454
+              },
+              "external_utf8_byte_start": 2823,
+              "external_utf8_byte_end_exclusive": 2848,
+              "caption_text": "10.4. GBASIC 프로그램"
+            },
+            "final_printed_line": 4290
           }
         ]
       }
@@ -5414,11 +5513,140 @@
         "sha256": "cf3bc43121e79dda574e1cbb40332c9a817cebf1f4a1adb7c2f02948f5593d17",
         "bytes": 6717971
       }
+    },
+    {
+      "id": "batch-27",
+      "status": "complete-partial-article-ending",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/checkpoint.json",
+        "sha256": "8a656d16feeb642068bdcd0490a0549116368c65ebbea5d6397de17e262c4469",
+        "bytes": 5786
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-27/validation-r02.json",
+        "sha256": "448789b3a862c4770978669f9f87e6f8f57dfcc07f008c76dc11bfa7dd359b66",
+        "bytes": 1535
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-27/verify-r01.py",
+        "sha256": "49d88602b5b65be32f413b9e8c3a22f1f8f5c1aeb39570ff4357da792cadf7e9",
+        "bytes": 13794
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/source-reviewed.json",
+        "sha256": "d08749d189f0caceb8d8140a7765aea5512dc5cdaadc2726a0dd43fdfaac9330",
+        "bytes": 17267
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/source-index-schema.json",
+        "sha256": "7d3069be48856d21953ea70aa61ca80b2ef0d3285a65eccee436063e40c71304",
+        "bytes": 3331
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/mapping-completed.json",
+        "sha256": "eee7886bab9ef5a4f7bafc35070b6ebc941e5b37839b3bf74470f39a1f1abc4e",
+        "bytes": 662
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/segment-scope.json",
+        "sha256": "d4eb27f5ea33d5b82ad63c65267edb979d80498f505234115284df5a2d9031cf",
+        "bytes": 3397
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/preflight-reviewed.json",
+        "sha256": "9ec26b6f28ff36b3070f36b4146b6a4115c062b128f00f39ff2c60be5edac999",
+        "bytes": 1440
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/ocr-completed.json",
+        "sha256": "da3615f8efbd13e3c5be12fc5337a6777913b2d028ef62dd39dcaea380367ff3",
+        "bytes": 498
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/correction-completed.json",
+        "sha256": "b77444aa7f9f7544224140c56f2219403dbb73b5b4fbe153147552033b01988c",
+        "bytes": 821
+      },
+      "metadata_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/metadata-revision-r01.json",
+        "sha256": "70881b3642343334a05c5b1042be899791b789f2ed6fae71a3379b0187a29520",
+        "bytes": 1085
+      },
+      "retained_verification_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/verification-failure-r01.json",
+        "sha256": "5e5c34ef9b00cac492cae63d9115412c3239e3673a684a85f400027e81141201",
+        "bytes": 689
+      },
+      "opening_defect_followup": {
+        "path": "archive/pdf/1984-12/restoration/batch-25/opening-defect-followup.json",
+        "sha256": "3a919c035cfcf7629f3b7c62fe7a16bfb3a9b67dc441aba0d878bc0dd3b8b85c",
+        "bytes": 1588
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-27/reproduction.json",
+        "sha256": "e8d8c902a7b0e6bde0991d9b3a7793e53ff05bd5a3d75cae167fe60a73c7e754",
+        "bytes": 1794
+      },
+      "actual_ocr_tasks": 1,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 0,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 29209,
+      "rebuild_files": 14,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 21,
+      "outside_map_lookups": 20,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 193,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/batch-24/test-pdf-r01.log",
+        "sha256": "7d0b4626654ab0d3427d1822a5326faefaab128a64637ec8d756a3b59297a3f1",
+        "bytes": 32976
+      },
+      "tests_reused_without_rerun": true,
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "opening_native_revision_pending": true,
+      "regions": 2,
+      "blocks": 1,
+      "figures": 1,
+      "ocr_tasks": 1,
+      "regional_text_ranges": 1,
+      "review_notes": 4,
+      "listing_groups": 1,
+      "physical_code_rows": 53,
+      "nonblank_physical_rows": 53,
+      "logical_basic_entries": 53,
+      "gbasic_logical_entries": 53,
+      "transcript_tokens": 195,
+      "code_identifiers": 189,
+      "numeric_literal_fragments": 105,
+      "visible_code_symbols": 206,
+      "comment_markers": 12,
+      "decorative_runs": 0,
+      "visible_quote_glyphs": 48,
+      "paired_string_candidates": 18,
+      "line_reference_clauses": 1,
+      "target_label_fields": 1,
+      "data_records": 0,
+      "data_fields": 0,
+      "inline_examples": 296,
+      "caption_links": 0,
+      "caption_parts": 0,
+      "listing_caption_links": 0,
+      "uncaptioned_figures": 1,
+      "external_caption_groups_pending": 1,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-27/preserved-work-inventory.json",
+        "sha256": "8974f7ccff41e740b9b53a974a461ef331e080364716c9101d1ad96120de63f7",
+        "bytes": 6742892
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-27",
-    "goal": "Restore finalGBASIC listing149,PDF151,through4290 END;retain allsource rows andexact source indexes.",
+    "id": "batch-28",
+    "goal": "Repair opening134 reflection paragraph crop/source/indexevidence usinganexplicitretainedrevision beforecompleteperspectiveassembly.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0013"
     ],
@@ -5468,10 +5696,10 @@
       "coverage": "Nineteen observed source pages including prose,data/output examples,AppleSoft andGBASIC listings. Last4290 END on149."
     },
     "mapping_targets": [
-      151
+      136
     ],
     "printed_page_targets": [
-      "149"
+      "134"
     ],
     "provisional_lookup_targets": [
       132,
@@ -5497,9 +5725,9 @@
       152
     ],
     "source_review": {
-      "path": "archive/pdf/1984-12/restoration/batch-26/source-reviewed.json",
-      "sha256": "b2b0bbe875737e44ea40258fafbf5c07f4757b0dbaae0400b775bfbf424a2814",
-      "bytes": 18241
+      "path": "archive/pdf/1984-12/restoration/batch-27/source-reviewed.json",
+      "sha256": "d08749d189f0caceb8d8140a7765aea5512dc5cdaadc2726a0dd43fdfaac9330",
+      "bytes": 17267
     },
     "limits": {
       "articles": 2,
@@ -5556,9 +5784,43 @@
           "external_utf8_byte_end_exclusive": 10046,
           "caption_text": "10.3. 애플소프트 베이직 프로그램"
         }
+      },
+      {
+        "listing_id": "gbasic-ending-149",
+        "figure_ids": [
+          "p149-gb-image"
+        ],
+        "status": "associate-known-earlier-source-heading-at-complete-assembly",
+        "external_caption": {
+          "source_package_manifest": {
+            "path": "archive/pdf/1984-12/packages/perspective-c/manifest.json",
+            "sha256": "6fdb75bcf57572efc4d6f3e08581fddf148d1a8b2599b065f9477880c4972052",
+            "bytes": 9389
+          },
+          "source_corrections": {
+            "path": "archive/pdf/1984-12/packages/perspective-c/corrections.json",
+            "sha256": "764eab6dfe45fcfb4d58571a62c011f9b601b5007fabac73bffdd93463190529",
+            "bytes": 7004986
+          },
+          "source_download": {
+            "path": "archive/pdf/1984-12/packages/perspective-c/article.txt",
+            "sha256": "01b09e5bf147d7ca108a97e5411bf801a5fa788809b6de1908bb8a57db8ec7c3",
+            "bytes": 9758
+          },
+          "source_caption_block_id": "p144-gb-heading",
+          "source_caption_region_id": "p144-gb-heading",
+          "source_scan": {
+            "path": "archive/pdf/1984-12/packages/perspective-c/ocr-page146/p144-gb-heading.png",
+            "sha256": "b6979dbf2d4a1afceb23f8da717034f5ff6246565fdae1391d7709bdc6b0624e",
+            "bytes": 17454
+          },
+          "external_utf8_byte_start": 2823,
+          "external_utf8_byte_end_exclusive": 2848,
+          "caption_text": "10.4. GBASIC 프로그램"
+        }
       }
     ],
-    "note": "Reinspect full19pageextent plusneighborsPDF132/152:21lookups total,20outside the one mappedpage;do notadd153outside-limit. CurrentGBASIC148ends3770,final149starts3780 andends4290 END. Separateopening134explicitcrop/OCR/correction/indexrevision remainsmandatory beforecompleteassembly. Preserve allnative fields/arrays/metadata,physicalwraps,sourceerrors,variant independence andresolveknownexternal10.3caption association. No reader rebuild."
+    "note": "Allarticle sourcepages nowcovered;availability remainspartial. Preserve everyoldnative/map/crop/rawOCR/reading andwrongabsenceclaim assuperseded evidence. Widenp134-right-middle beyondx=.949,inspectexactcropbeforefreshOCR,correctonce andretainexplicitnative/indexrevision withindependentrebuild. Recheckfull19pageextent plusneighbors132/152:21views/20outsideone mappedpage;do notadd153. Compatiblefullassembly mustapplyexplicitcorrectionandresolveknown10.3/10.4caption associations whilepreservingeverynative field/array/metadata andsourcevariant independence. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
