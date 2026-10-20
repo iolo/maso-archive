@@ -24,53 +24,47 @@ records below are historical and do not authorize a new rebuild.
 
 ## December 1984 started, 2026-10-19
 
-December 1984 is in progress: seventeen readable articles, one partial article,
-five non-owning headings and 14 of 37 entries unresolved. Cryptography 0021 now
-has all source pages 205–211/PDF207–213 in two immutable natives: opening
-cryptography-a-r01 for 205–207 (96 files) and closing cryptography-b for 208–211
-(121 files). Both match independent rebuilds byte for byte. Combined coverage is
-62 regions, 42 blocks and 16 original images; full article assembly remains pending.
-Canonical availability is partial, with no source body pages deferred. The selected
-primary still pins the opening, and segments retains both natives and source schemas.
+December 1984 is in progress: eighteen readable articles, zero partial articles,
+five non-owning headings and 14 of 37 entries unresolved. Cryptography 0021 is complete
+at packages/cryptography-complete-r01, observed205–211/PDF207–213. Its 323-file
+package matches the independent rebuild byte for byte. All 217 original native files
+are retained exactly: opening cryptography-a-r01 (96 files) and cryptography-b
+(121 files). Keep both originals and the fresh 193-file opening metadata revision
+cryptography-a-r02, which embeds every original opening file. All 314 assembly input
+files are copied exactly into the complete article. No body pages or assembly pending.
 
-Batch39 reinspected nine pinned full/review pairs before mapping four source pages;
-five outside-map lookups, one canonical task, no new source renders. The actual
-ending remains 211/PDF213, followed by unpaginated contest notice PDF214, independent
-contest review 213/PDF215 and 64 COLUMN 214/PDF216. No invented 212 folio or global
-offset. All 37 original and two adjusted exact crops were viewed before 25 successful
-Tesseract tasks: seven eng code and eighteen kor+eng text. Two crops tightened once
-to remove fragments of adjacent text. OEM1/PSM6, one thread and 3000-pixel long edge
-remain pinned. One source correction pass; zero OCR failures/retries/post-OCR repairs.
+The opening revision adds only segment_scope.boundary_pdf_span to its correction
+object, matching its already established full_pdf_pages207–213. All other correction
+fields, readings, ranges, OCR and assets are unchanged; 92 active files are identical,
+with four derived metadata files changed. The revision and its independent rebuild
+match all193 files. The original opening's metadata and 96 files remain exact inside
+retained-opening-r01. No source correction or recognition was repeated.
 
-The closing native retains 37 regions, 21 blocks, 12 originals, 25 regional spans,
-30 review notes and 5,479 exact UTF-8 range occurrences. Four separate listings retain
-248 physical rows, 235 numbered entries and thirteen continuations. Listing1 crosses
-208 columns, listing3 spans209/210 and listing4 spans210/211 without joining physical
-rows. Thirty decorative bands have explicit count-unknown markers linked to originals.
-Root manual-review links point into the closing listing and retain unknown glyph counts.
-Source TO Q = 1, M(I) + 1, (M*m), DEFDBL.C, Sharir and probablistic remain literal.
-The period/quote wrap in listing3 420 differs from listing4 450's quote-only wrap;
-numeric-only 240/220 are target continuations. No syntax or algorithm reconstruction.
+All seven individually reviewed source pages retain 62 regions, 42 blocks and sixteen
+original images. All 74 native category occurrences and 5,964 UTF-8 range occurrences
+reverse-project exactly. Full original correction metadata remains in native_metadata.
+Four BASIC listings retain 248 physical rows, 235 numbered entries and thirteen
+continuations. Thirty decorative bands retain count-unknown markers linked to their
+original frames; root manual links now use complete-package scans/ranges and retain
+their original native occurrences. No glyph counts, source bytes or executable repair.
 
-Seven original program frames, four math frames and the original references remain.
-Five caption links retain three printed labels; seven frames are uncaptioned. Five
-algorithm steps, eighteen formula/field occurrences and five bibliographic records
-retain sixteen physical reference rows and printed hyphens. Source d제곱한 후 n하면,
-암호조절키, 제3자로 침입자, 알릴수 and 메세지 remain independent source candidates.
-The opening retains its two diagrams/19 labels, timing table/12 cells, quoted message/
-23 ASCII fields/eight blocks/eight outputs and equation716111947 versus output71611947.
+Two diagrams retain 19 labels and original topology. The timing table retains six
+rows/twelve cells/two headers. Quoted message, 23 ASCII fields/eight blocks/eight outputs,
+equation716111947 and output71611947 stay independent. Nineteen formula/field occurrences,
+five algorithm steps and five printed bibliographic records/sixteen physical reference
+rows remain literal. Eight caption links retain six printed caption parts; eight original
+frames are uncaptioned. Listing3 420's period/quote wrap differs from listing4 450's
+quote-only wrap; numeric-only240/220 remain continuations. Source TO Q = 1, M(I) + 1,
+(M*m), DEFDBL.C, Sharir, probablistic, crytography, Z=2b and all historical errors remain.
 Printed John Smith/editorial translation remain separate from canonical 편집부.
 
-All 36,111 prior files and 29 implementation pins pass; new preservation inventory:
-36,632 files. The unchanged 213-test baseline is reused. Assembly preflight found
-that the opening lacks segment_scope.boundary_pdf_span, although its full_pdf_pages
-already records the verified seven-page extent. An independent in-memory probe adds
-only that field and passes native validation without changing the original. Before
-full assembly, make a fresh metadata-only opening revision and prove every other
-correction field, reading, range, OCR file and asset unchanged. Keep the original
-96-file opening and 121-file closing. No new source work is needed for assembly.
-Human acceptance/full proofreading, source bytes, mathematics/cryptographic claims
-and execution remain unverified.
+Five exact stale staging notes are resolved only in active package notes. All original
+notes/review arrays/native files remain. External provenance paths were not rewritten:
+5,955 evidence-pin occurrences resolve to 156 retained files through declared source
+roots. All 36,632 prior files and 29 implementation pins pass; new inventory: 37,882
+files. The unchanged 213-test baseline is reused. No new mapping, rendering, OCR,
+source correction, browser or reader work. Human acceptance/full proofreading,
+source bytes, mathematical/cryptographic claims and execution remain unverified.
 
 Design(6), canonical 0020,
 is now complete at packages/design-complete-r01, observed 178–204/PDF180–206.
@@ -138,15 +132,16 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
 cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-Next: cryptography-assembly. Prepare the narrowly audited opening boundary-field
-metadata revision, then assemble complete205–211 from exact opening/closing inputs
-using the pinned design-literal-v1 adapter. Retain both original native packages,
-all arrays/metadata, 30 unknown bands, physical/quoted wraps, formulas/algorithm,
-references, captions, source credits and independent numeric discrepancies. Resolve
-only explicitly identified stale stage notes. Validate exact native/projection ranges
-and an independent byte-identical rebuild before promoting0021 to readable. No new
-mapping/render/OCR/correction tasks; keep all29 implementation pins/213-test baseline.
-No reader rebuild.
+Next: batch40, canonical contest review0023 and64Column0024. Independently observed
+openings are213/PDF215 and214/PDF216;PDF217observed215 contains upper listing frames
+and a lower independent academy advertisement, which must be excluded. Verify actual
+full source extent, bylines and neighbors before mapping up to six eligible pages/two
+canonical tasks/twenty outside-map lookups. Provisional PDF215–220 has only first three
+observed folios213/214/215; do not infer the remaining folios or a global offset. Next
+black/white-stones TOC reference219 is not a PDF boundary. Preserve contest table and
+closing mark, source64Column title/credit/platform/listings/hex/quotes/images;inspect
+every exact crop before mapped Tesseract. Keep all originals/revisions and use the
+design adapter dispatcher with29implementation pins/213-test baseline. No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.

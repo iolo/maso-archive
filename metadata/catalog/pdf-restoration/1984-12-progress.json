@@ -4247,15 +4247,15 @@
       "parent_id": "maso-1984-12-toc-0019",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "restoration": {
-        "directory": "archive/pdf/1984-12/packages/cryptography-a-r01",
+        "directory": "archive/pdf/1984-12/packages/cryptography-complete-r01",
         "article_id": "scan-maso-1984-12-toc-0021",
         "manifest": {
-          "path": "archive/pdf/1984-12/packages/cryptography-a-r01/manifest.json",
-          "sha256": "70bde99a4419d46545b6ed0bc59001abe7c0b6a5675cf191c58474f7e5d111f4",
-          "bytes": 16253
+          "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/manifest.json",
+          "sha256": "c698aa7fc192c91a2d288a24bb7f366a70e33eeb692e7845b67ca7d53abb62b8",
+          "bytes": 60134
         },
         "coverage": {
           "pdf_pages": [
@@ -4312,21 +4312,21 @@
         },
         "deferred_pdf_pages": [],
         "deferred_printed_pages": [],
-        "assembly_required": true,
+        "assembly_required": false,
         "source_review": {
-          "path": "archive/pdf/1984-12/restoration/batch-38/source-reviewed.json",
-          "sha256": "46a72f339f9ed0f72f70337c1ea5e532c6be5a8ca7a1f1ac7674220150de88f1",
-          "bytes": 8428
+          "path": "archive/pdf/1984-12/restoration/batch-39/source-reviewed.json",
+          "sha256": "dbc7d03f7936b7a95db8393166d0d83d720439e3c50a8cec0b5449d6d05a4443",
+          "bytes": 8275
         },
         "source_index_schema": {
-          "path": "archive/pdf/1984-12/restoration/batch-38/source-index-schema.json",
-          "sha256": "11e255bedde7199ddfd79434bd6539f2644bfff1276cbede24ae0a6ce19d259f",
-          "bytes": 3008
+          "path": "archive/pdf/1984-12/restoration/cryptography-assembly/source-index-schema.json",
+          "sha256": "0aee42b3c5fa0e0ec8bac84600d8b5397dbf8004f70a0ca55d3af08dbe413d8f",
+          "bytes": 2766
         },
         "reproduction": {
-          "path": "archive/pdf/1984-12/restoration/batch-38/reproduction.json",
-          "sha256": "c1bb897a4b0e39b6ba9934cb3037cc96582299dff623763a4e2880101c3cad77",
-          "bytes": 1994
+          "path": "archive/pdf/1984-12/restoration/cryptography-assembly/reproduction.json",
+          "sha256": "27b140b473d35e90237a059129bb995fb349b0237848a7319f2876f10ae65955",
+          "bytes": 2908
         },
         "source_code_connections": [
           {
@@ -4466,9 +4466,9 @@
           }
         ],
         "latest_reproduction": {
-          "path": "archive/pdf/1984-12/restoration/batch-39/reproduction.json",
-          "sha256": "fc855829f00d70399d64c6a2d66fb98addc23728e6b7b3ef8cc38bb7d5c43ee4",
-          "bytes": 2057
+          "path": "archive/pdf/1984-12/restoration/cryptography-assembly/reproduction.json",
+          "sha256": "27b140b473d35e90237a059129bb995fb349b0237848a7319f2876f10ae65955",
+          "bytes": 2908
         },
         "closing_source_code_connections": [
           {
@@ -4517,14 +4517,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-left.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page210/p208-list1-left.png",
               "sha256": "af693d233c187352d6e7547892ade8bea1f03dd79a9a2d9c722f0642dd69cf76",
               "bytes": 763622
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p208-list1-left",
+              "download": "listing.txt",
+              "utf8_byte_start": 105,
+              "utf8_byte_end_exclusive": 137,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-left.png",
+                "sha256": "af693d233c187352d6e7547892ade8bea1f03dd79a9a2d9c722f0642dd69cf76",
+                "bytes": 763622
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4537,14 +4557,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-left.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page210/p208-list1-left.png",
               "sha256": "af693d233c187352d6e7547892ade8bea1f03dd79a9a2d9c722f0642dd69cf76",
               "bytes": 763622
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p208-list1-left",
+              "download": "listing.txt",
+              "utf8_byte_start": 550,
+              "utf8_byte_end_exclusive": 580,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-left.png",
+                "sha256": "af693d233c187352d6e7547892ade8bea1f03dd79a9a2d9c722f0642dd69cf76",
+                "bytes": 763622
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4557,14 +4597,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-left.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page210/p208-list1-left.png",
               "sha256": "af693d233c187352d6e7547892ade8bea1f03dd79a9a2d9c722f0642dd69cf76",
               "bytes": 763622
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p208-list1-left",
+              "download": "listing.txt",
+              "utf8_byte_start": 773,
+              "utf8_byte_end_exclusive": 803,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-left.png",
+                "sha256": "af693d233c187352d6e7547892ade8bea1f03dd79a9a2d9c722f0642dd69cf76",
+                "bytes": 763622
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4577,14 +4637,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-left.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page210/p208-list1-left.png",
               "sha256": "af693d233c187352d6e7547892ade8bea1f03dd79a9a2d9c722f0642dd69cf76",
               "bytes": 763622
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p208-list1-left",
+              "download": "listing.txt",
+              "utf8_byte_start": 1141,
+              "utf8_byte_end_exclusive": 1171,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-left.png",
+                "sha256": "af693d233c187352d6e7547892ade8bea1f03dd79a9a2d9c722f0642dd69cf76",
+                "bytes": 763622
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4597,14 +4677,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-right.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page210/p208-list1-right.png",
               "sha256": "b0d1c0606cf9ac2a0c2aea9b8fcb10439a114dfbd78b7e29912b549908f00732",
               "bytes": 420972
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p208-list1-right",
+              "download": "listing.txt",
+              "utf8_byte_start": 1666,
+              "utf8_byte_end_exclusive": 1696,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-right.png",
+                "sha256": "b0d1c0606cf9ac2a0c2aea9b8fcb10439a114dfbd78b7e29912b549908f00732",
+                "bytes": 420972
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4617,14 +4717,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-right.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page210/p208-list1-right.png",
               "sha256": "b0d1c0606cf9ac2a0c2aea9b8fcb10439a114dfbd78b7e29912b549908f00732",
               "bytes": 420972
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p208-list1-right",
+              "download": "listing.txt",
+              "utf8_byte_start": 2015,
+              "utf8_byte_end_exclusive": 2045,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-right.png",
+                "sha256": "b0d1c0606cf9ac2a0c2aea9b8fcb10439a114dfbd78b7e29912b549908f00732",
+                "bytes": 420972
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4637,14 +4757,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-right.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page210/p208-list1-right.png",
               "sha256": "b0d1c0606cf9ac2a0c2aea9b8fcb10439a114dfbd78b7e29912b549908f00732",
               "bytes": 420972
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p208-list1-right",
+              "download": "listing.txt",
+              "utf8_byte_start": 2091,
+              "utf8_byte_end_exclusive": 2121,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-right.png",
+                "sha256": "b0d1c0606cf9ac2a0c2aea9b8fcb10439a114dfbd78b7e29912b549908f00732",
+                "bytes": 420972
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4657,14 +4797,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-right.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page210/p208-list1-right.png",
               "sha256": "b0d1c0606cf9ac2a0c2aea9b8fcb10439a114dfbd78b7e29912b549908f00732",
               "bytes": 420972
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p208-list1-right",
+              "download": "listing.txt",
+              "utf8_byte_start": 2296,
+              "utf8_byte_end_exclusive": 2328,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page210/p208-list1-right.png",
+                "sha256": "b0d1c0606cf9ac2a0c2aea9b8fcb10439a114dfbd78b7e29912b549908f00732",
+                "bytes": 420972
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4677,14 +4837,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page211/p209-list2.png",
               "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
               "bytes": 704434
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p209-list2",
+              "download": "listing.txt",
+              "utf8_byte_start": 2434,
+              "utf8_byte_end_exclusive": 2466,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+                "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
+                "bytes": 704434
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4697,14 +4877,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page211/p209-list2.png",
               "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
               "bytes": 704434
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p209-list2",
+              "download": "listing.txt",
+              "utf8_byte_start": 2743,
+              "utf8_byte_end_exclusive": 2775,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+                "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
+                "bytes": 704434
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4717,14 +4917,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page211/p209-list2.png",
               "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
               "bytes": 704434
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p209-list2",
+              "download": "listing.txt",
+              "utf8_byte_start": 2893,
+              "utf8_byte_end_exclusive": 2923,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+                "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
+                "bytes": 704434
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4737,14 +4957,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page211/p209-list2.png",
               "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
               "bytes": 704434
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p209-list2",
+              "download": "listing.txt",
+              "utf8_byte_start": 3152,
+              "utf8_byte_end_exclusive": 3182,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+                "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
+                "bytes": 704434
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4757,14 +4997,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page211/p209-list2.png",
               "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
               "bytes": 704434
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p209-list2",
+              "download": "listing.txt",
+              "utf8_byte_start": 3620,
+              "utf8_byte_end_exclusive": 3652,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list2.png",
+                "sha256": "a5dd377a066fda0e691d2ebf153fab6ad72c09575562335f9032ed910b291e40",
+                "bytes": 704434
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4777,14 +5037,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list3-start.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page211/p209-list3-start.png",
               "sha256": "11213c1977ab60c2c27cb44569309b546acbfbff692ee43ac203a2d0685a75d0",
               "bytes": 80434
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p209-list3-start",
+              "download": "listing.txt",
+              "utf8_byte_start": 3761,
+              "utf8_byte_end_exclusive": 3793,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page211/p209-list3-start.png",
+                "sha256": "11213c1977ab60c2c27cb44569309b546acbfbff692ee43ac203a2d0685a75d0",
+                "bytes": 80434
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4797,14 +5077,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list3-rest.png",
               "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
               "bytes": 808945
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list3-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 4022,
+              "utf8_byte_end_exclusive": 4054,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+                "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
+                "bytes": 808945
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4817,14 +5117,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list3-rest.png",
               "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
               "bytes": 808945
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list3-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 4176,
+              "utf8_byte_end_exclusive": 4206,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+                "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
+                "bytes": 808945
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4837,14 +5157,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list3-rest.png",
               "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
               "bytes": 808945
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list3-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 4410,
+              "utf8_byte_end_exclusive": 4440,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+                "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
+                "bytes": 808945
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4857,14 +5197,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list3-rest.png",
               "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
               "bytes": 808945
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list3-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 4742,
+              "utf8_byte_end_exclusive": 4772,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+                "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
+                "bytes": 808945
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4877,14 +5237,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list3-rest.png",
               "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
               "bytes": 808945
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list3-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 4908,
+              "utf8_byte_end_exclusive": 4938,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+                "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
+                "bytes": 808945
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4897,14 +5277,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list3-rest.png",
               "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
               "bytes": 808945
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list3-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 4983,
+              "utf8_byte_end_exclusive": 5013,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+                "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
+                "bytes": 808945
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4917,14 +5317,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list3-rest.png",
               "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
               "bytes": 808945
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list3-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 5344,
+              "utf8_byte_end_exclusive": 5376,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list3-rest.png",
+                "sha256": "7e3ab8ae29097e9978f85eb22d817016be93ebca5b75aedeba0222a0be3f8524",
+                "bytes": 808945
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4937,14 +5357,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list4-start.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list4-start.png",
               "sha256": "9673358c0ea5cdf732985c7331bc777f9f9756236861be6c1519b3a28a4f3b23",
               "bytes": 354709
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list4-start",
+              "download": "listing.txt",
+              "utf8_byte_start": 5487,
+              "utf8_byte_end_exclusive": 5519,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list4-start.png",
+                "sha256": "9673358c0ea5cdf732985c7331bc777f9f9756236861be6c1519b3a28a4f3b23",
+                "bytes": 354709
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4957,14 +5397,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list4-start.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list4-start.png",
               "sha256": "9673358c0ea5cdf732985c7331bc777f9f9756236861be6c1519b3a28a4f3b23",
               "bytes": 354709
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list4-start",
+              "download": "listing.txt",
+              "utf8_byte_start": 5706,
+              "utf8_byte_end_exclusive": 5738,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list4-start.png",
+                "sha256": "9673358c0ea5cdf732985c7331bc777f9f9756236861be6c1519b3a28a4f3b23",
+                "bytes": 354709
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4977,14 +5437,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list4-start.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page212/p210-list4-start.png",
               "sha256": "9673358c0ea5cdf732985c7331bc777f9f9756236861be6c1519b3a28a4f3b23",
               "bytes": 354709
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p210-list4-start",
+              "download": "listing.txt",
+              "utf8_byte_start": 5893,
+              "utf8_byte_end_exclusive": 5923,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page212/p210-list4-start.png",
+                "sha256": "9673358c0ea5cdf732985c7331bc777f9f9756236861be6c1519b3a28a4f3b23",
+                "bytes": 354709
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -4997,14 +5477,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page213/p211-list4-rest.png",
               "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
               "bytes": 619130
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p211-list4-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 6149,
+              "utf8_byte_end_exclusive": 6179,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+                "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
+                "bytes": 619130
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -5017,14 +5517,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page213/p211-list4-rest.png",
               "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
               "bytes": 619130
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p211-list4-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 6291,
+              "utf8_byte_end_exclusive": 6321,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+                "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
+                "bytes": 619130
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -5037,14 +5557,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page213/p211-list4-rest.png",
               "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
               "bytes": 619130
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p211-list4-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 6579,
+              "utf8_byte_end_exclusive": 6609,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+                "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
+                "bytes": 619130
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -5057,14 +5597,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page213/p211-list4-rest.png",
               "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
               "bytes": 619130
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p211-list4-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 6809,
+              "utf8_byte_end_exclusive": 6839,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+                "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
+                "bytes": 619130
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -5077,14 +5637,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page213/p211-list4-rest.png",
               "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
               "bytes": 619130
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p211-list4-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 6884,
+              "utf8_byte_end_exclusive": 6914,
+              "transcription_excerpt": "⟦dash band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+                "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
+                "bytes": 619130
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           },
           {
@@ -5097,23 +5677,96 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/segments/b/ocr-page213/p211-list4-rest.png",
               "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
               "bytes": 619130
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
-              "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
-              "bytes": 3561924
+              "path": "archive/pdf/1984-12/packages/cryptography-complete-r01/corrections.json",
+              "sha256": "52d0fed6e164fdb35b6d2ff73f00d01b6ff9774399935917a86c646f9301eb5a",
+              "bytes": 8956689
+            },
+            "original_native_occurrence": {
+              "region_id": "p211-list4-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 7241,
+              "utf8_byte_end_exclusive": 7273,
+              "transcription_excerpt": "⟦equals band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/ocr-page213/p211-list4-rest.png",
+                "sha256": "c289b93b031cdceb4430b676cb9a12d6f40cbc65f1129edfb9eaa988ac90f3ea",
+                "bytes": 619130
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/cryptography-b/corrections.json",
+                "sha256": "263a0e51a491ac4bc0015492255742528474ad2730cf537128e3fa33333b547c",
+                "bytes": 3561924
+              }
             }
           }
-        ]
+        ],
+        "native_primary_record": {
+          "directory": "archive/pdf/1984-12/packages/cryptography-a-r01",
+          "article_id": "scan-maso-1984-12-toc-0021",
+          "manifest": {
+            "path": "archive/pdf/1984-12/packages/cryptography-a-r01/manifest.json",
+            "sha256": "70bde99a4419d46545b6ed0bc59001abe7c0b6a5675cf191c58474f7e5d111f4",
+            "bytes": 16253
+          },
+          "source_review": {
+            "path": "archive/pdf/1984-12/restoration/batch-38/source-reviewed.json",
+            "sha256": "46a72f339f9ed0f72f70337c1ea5e532c6be5a8ca7a1f1ac7674220150de88f1",
+            "bytes": 8428
+          },
+          "source_index_schema": {
+            "path": "archive/pdf/1984-12/restoration/batch-38/source-index-schema.json",
+            "sha256": "11e255bedde7199ddfd79434bd6539f2644bfff1276cbede24ae0a6ce19d259f",
+            "bytes": 3008
+          },
+          "reproduction": {
+            "path": "archive/pdf/1984-12/restoration/batch-38/reproduction.json",
+            "sha256": "c1bb897a4b0e39b6ba9934cb3037cc96582299dff623763a4e2880101c3cad77",
+            "bytes": 1994
+          }
+        },
+        "index_mode": "design-literal-v1",
+        "check_entrypoint": "tools.pdf_restore.design_literal_assembly.check",
+        "native_metadata_revision": {
+          "directory": "archive/pdf/1984-12/packages/cryptography-a-r02",
+          "manifest": {
+            "path": "archive/pdf/1984-12/packages/cryptography-a-r02/manifest.json",
+            "sha256": "d99b40ccc9e3f1509518bc3dc9bb8ed617275ba99ab93fdaad1cfe8bb759c597",
+            "bytes": 34692
+          },
+          "files": 193,
+          "original_opening_files_retained": 96,
+          "only_correction_delta": {
+            "segment_scope.boundary_pdf_span": [
+              207,
+              208,
+              209,
+              210,
+              211,
+              212,
+              213
+            ]
+          }
+        },
+        "complete_assembly_validation": {
+          "path": "archive/pdf/1984-12/evidence/cryptography-assembly/validation.json",
+          "sha256": "c5d8827900cccafbd383014b73f6626bc17b55669cc85a5c278aff464b0e6a35",
+          "bytes": 36185
+        }
       },
       "classification_evidence": [
         "Independent205/PDF207 title/deck/JohnSmith/editorialtranslation followsdesign204/PDF206. All12fullviews206–217 reviewed. Actualfullarticle205–211/PDF207–213 endsafterlisting4/digital-signatureprose/fivereferences. UnpaginatedcontestnoticePDF214 excluded;contestreview213/PDF215 and64COLUMN214/PDF216 independentlyobserved. No globaloffset or212folio inferred.",
         "Opening205–207 only:96filenative/independentrebuildexact;25regions/21blocks/four originals/24regionalspans/29reviewnotes/threeprosejoins. One timingtable6rows12cellstwoheaders,two diagrams19labels,threecaptions/oneuncaptionedformula.485exactUTF8rangeoccurrences.",
         "Quotedmessage/23ASCII/eightblock/eightoutputfields andequation716111947/output71611947 retained independently. Sourceerrors/claims/authortransliteration unchanged. No arithmetic/cryptographic/encoding repair. Ending208–211 andcompletearticleassembly explicitlydeferred.",
-        "Closing208–211/PDF210–213 restored in immutable121-filecryptography-b matchingindependentrebuild.37regions/21blocks/12originals/25regionalspans/30reviewnotes/5479exactUTF8ranges. FourBASIClistings retain248physicalrows/235numberedentries/13continuations/30unknownbandmarkers. Fivecaptionlinks/threeprintedcaptions/sevenuncaptionedframes,fivealgorithmsteps/18formulasorfields/fiveprintedreferences/16physicalreferencerows remainliteral. Combinednativescoverall205–211/62regions/42blocks/16originalimages. No sourcebodypages deferred,butfullassemblyrequired;openingprimary/96-filemanifest remainsunchanged. Freshopeningmetadata-onlyboundaryfieldrevision required beforeassembly;single-fieldin-memoryprobe passes withoutsourcechanges."
+        "Closing208–211/PDF210–213 restored in immutable121-filecryptography-b matchingindependentrebuild.37regions/21blocks/12originals/25regionalspans/30reviewnotes/5479exactUTF8ranges. FourBASIClistings retain248physicalrows/235numberedentries/13continuations/30unknownbandmarkers. Fivecaptionlinks/threeprintedcaptions/sevenuncaptionedframes,fivealgorithmsteps/18formulasorfields/fiveprintedreferences/16physicalreferencerows remainliteral. Combinednativescoverall205–211/62regions/42blocks/16originalimages. No sourcebodypages deferred,butfullassemblyrequired;openingprimary/96-filemanifest remainsunchanged. Freshopeningmetadata-onlyboundaryfieldrevision required beforeassembly;single-fieldin-memoryprobe passes withoutsourcechanges.",
+        "Completecryptography205–211/PDF207–213 independentlyreproduces323files. All217originalnativefiles retainedexactly:opening96embeddedin193filemetadatarevision/closing121;all314assemblyinputfiles copied. Openingactivecorrectionchangesonlyboundary_pdf_span,92filesunchanged/fourderivedmetadatafileschanged. All74categoryoccurrences/5964UTF8ranges independentlyreverse-project;fulloriginalmetadata retained. Sevenpages/62regions/42blocks/16originals/fourlistings248physicalrows235numberedentries13continuations/30unknownbands,table12cells/twodiagrams19labels/39numericfields/quotedmessage/19formulaoccurrences/fivealgorithmsteps/fiveprintedreferences remainliteral. Eightcaptionlinks/sixprintedcaptions/eightuncaptionedimages. Fiveexactstagingnotes resolved;allsourceuncertainties andoriginalnotes remain.5955externalpinoccurrences/156retainedfiles verified. No newsource/OCRwork;29implementationpins/213testbaseline unchanged. Humanacceptance/fullproofreading/sourcebytes/execution unverified."
       ]
     },
     {
@@ -5297,8 +5950,8 @@
   "totals": {
     "canonical_entries": 37,
     "classified_articles": 18,
-    "readable_articles": 17,
-    "partial_articles": 1,
+    "readable_articles": 18,
+    "partial_articles": 0,
     "nonowning_headings": 5,
     "unresolved_eligibility": 14,
     "human_accepted_articles": 0
@@ -10480,38 +11133,157 @@
         "sha256": "0c524e06f6ef6c2fa2e367616a30deebb80ef555863550cb06769176bb790c73",
         "bytes": 8387233
       }
+    },
+    {
+      "id": "cryptography-assembly",
+      "status": "complete-article-assembly",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/cryptography-assembly/checkpoint.json",
+        "sha256": "29521e1e3d7fa2b2f998a45fc89b7e0a1e3f63080b58b4b40394bb08065b61a7",
+        "bytes": 6920
+      },
+      "production_preflight": {
+        "path": "archive/pdf/1984-12/restoration/cryptography-assembly/production-preflight.json",
+        "sha256": "699d69fd66142da4de929f52b46c1cfb9dad7ada3bacf34288540e3f761d7686",
+        "bytes": 996
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/cryptography-assembly/validation.json",
+        "sha256": "c5d8827900cccafbd383014b73f6626bc17b55669cc85a5c278aff464b0e6a35",
+        "bytes": 36185
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/cryptography-assembly/verify-assembly.py",
+        "sha256": "c03f29ecd2e7fc9c83d1aed45d3ad78c46284238420452fb69517ada662339c1",
+        "bytes": 11446
+      },
+      "recipe": {
+        "path": "archive/pdf/1984-12/restoration/cryptography-assembly/assembly-recipe.json",
+        "sha256": "5c99b691046f6f8fd468e442cc37452d6a866569c3f2c9d335a91c2194a7fd36",
+        "bytes": 5751
+      },
+      "input_audit": {
+        "path": "archive/pdf/1984-12/restoration/cryptography-assembly/input-audit.json",
+        "sha256": "0e54a11708c02f69a3efa828d0097751fb618c7a553cc16e2d148805e3a5efcd",
+        "bytes": 94156
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/cryptography-assembly/source-index-schema.json",
+        "sha256": "0aee42b3c5fa0e0ec8bac84600d8b5397dbf8004f70a0ca55d3af08dbe413d8f",
+        "bytes": 2766
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/cryptography-assembly/reproduction.json",
+        "sha256": "27b140b473d35e90237a059129bb995fb349b0237848a7319f2876f10ae65955",
+        "bytes": 2908
+      },
+      "metadata_revision_plan": {
+        "path": "archive/pdf/1984-12/restoration/cryptography-assembly/metadata-revision-plan.json",
+        "sha256": "5ca42176a6e83e8126ea94740f5bdb993c0f8811f02f464859c003fc9367696e",
+        "bytes": 931
+      },
+      "metadata_revision_script": {
+        "path": "archive/pdf/1984-12/restoration/cryptography-assembly/prepare-metadata.py",
+        "sha256": "a50763f3d58bbdb1bb2cee3228036372d7eafedc186c112f41ec4a55a5a8f0e4",
+        "bytes": 5976
+      },
+      "new_mapping_pages": 0,
+      "new_source_renders": 0,
+      "new_ocr_tasks": 0,
+      "new_source_corrections": 0,
+      "outside_map_lookups": 0,
+      "canonical_tasks": 1,
+      "rebuild_files": 323,
+      "metadata_revision_files": 193,
+      "original_native_files_exact": 217,
+      "assembly_input_files_exact": 314,
+      "prior_files_verified": 36632,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "implementation_pins_verified": 29,
+      "resolved_stage_notes": 5,
+      "reader_rebuild": false,
+      "projected_category_occurrences": 74,
+      "projected_utf8_occurrences": 5964,
+      "pages": 7,
+      "regions": 62,
+      "blocks": 42,
+      "original_images": 16,
+      "physical_rows": 248,
+      "listing_groups": 4,
+      "logical_basic_entries": 235,
+      "physical_continuations": 13,
+      "unknown_decorative_bands": 30,
+      "formula_displays": 19,
+      "algorithm_steps": 5,
+      "bibliographic_records": 5,
+      "bibliography_physical_rows": 16,
+      "table_cells": 12,
+      "diagram_labels": 19,
+      "numeric_example_fields": 39,
+      "quoted_messages": 1,
+      "quoted_listing_fields": 16,
+      "caption_links": 8,
+      "printed_caption_parts": 6,
+      "uncaptioned_originals": 8,
+      "external_pin_occurrences_verified": 5955,
+      "external_unique_files_verified": 156,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/cryptography-assembly/preserved-work-inventory.json",
+        "sha256": "70697c409af26521572fc1e78598f1513a790ba309a38dffd18616389c24d91f",
+        "bytes": 8698413
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "cryptography-assembly",
-    "goal": "Assemble complete205–211/PDF207–213 from exact opening/closing natives after a narrowly audited metadata-only opening boundary-field revision;retain original96-file opening and121-file closing unchanged.",
+    "id": "batch-40",
+    "goal": "Restore canonicalcontestreview213 and64Column beginning214 after actualsourceextent/byline/neighbor inspection;atmosttwotasks/sixmappedpages.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0021"
+      "maso-1984-12-toc-0023",
+      "maso-1984-12-toc-0024"
     ],
-    "mapping_targets": [],
-    "printed_page_targets": [],
-    "provisional_lookup_targets": [],
-    "full_extent_review_pending": false,
+    "mapping_targets": [
+      215,
+      216,
+      217,
+      218,
+      219,
+      220
+    ],
+    "printed_page_targets": [
+      "213",
+      "214",
+      "215",
+      null,
+      null,
+      null
+    ],
+    "provisional_lookup_targets": [
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "full_extent_review_pending": true,
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "metadata_preparation": {
-      "original_opening": "archive/pdf/1984-12/packages/cryptography-a-r01",
-      "only_required_delta": "Add segment_scope.boundary_pdf_span equal to existing full_pdf_pages207–213 in a fresh correction/recipe/package revision. Original remains immutable;all other correction fields/source readings/ranges/OCR/assets identical.",
-      "audit": {
-        "path": "archive/pdf/1984-12/restoration/batch-39/assembly-compatibility-audit.json",
-        "sha256": "4c5f1d5b8feccdfa0ea7817edb0a2427166467ab5e3f0bc36a396f0ac6ab42ed",
-        "bytes": 1294
-      },
-      "probe": {
-        "path": "archive/pdf/1984-12/restoration/batch-39/assembly-compatibility-probe-r01.json",
-        "sha256": "f6c0a707a8e55a1fab47f68fc73068bf4e7186573f410e79ada2ecaafcc5e286",
-        "bytes": 899
-      }
-    },
-    "note": "No new mapping,render,OCR or sourcecorrection required. Validate fresh metadata revision against original96files,thenuse pinneddesign-literal-v1 adapter with allnativearray/metadata projections. Preserve originalopening96files/closing121files and allphysicalrows/235labels/13continuations/30unknownbands/formulas/algorithm/bibliography/numericdiscrepancies/credits/captions/16originalimages. Onlystale stagingnotes may be explicitlyresolved;sourceuncertaintiesremain. Fullnative/reverseprojection and independentbyteidenticalrebuild requiredbefore0021promotion. Earlierprimarystillopening;combinedcoverageisnotcombinedbody. No frontend/reader/browserwork;29implementationpins/213testbaseline unchanged."
+    "note": "Contestreview213/PDF215 and64COLUMN214/PDF216 independentlyseen;PDF217observed215 hasupper64COLUMNlistingframes/lowerindependentacademyadvertisement,excludead. Onlyfirstthreeprovisionalfoliosobserved;do notinfer216–218orglobaloffset. Nextblack/whitestonesTOCreference219isreferenceonly,notPDFboundary. Reusepinned214–217wholeviewsfrombatch38/39 andverifyfullsourceextent/neighbors beforemapping. Atmostsixeligiblepages/twocanonicaltasks/twentyoutsidelookups;splitlongerbody. Preservecontesttable/closingmark,source64Columncaption/title/byline/platform/programphysicalrows/hexDATA/quotedstrings/glyphs andalloriginalimages ifpresent. Inspecteveryexactcrop beforemappedTesseract;onesourcecorrectionpass. Cryptographycomplete323files/217originalnativefilesselected;keepopening96/closing121/revision193. Thirtyunknownbands/sourceerrors remainmanualuncertainties,notdeferredbodypages. Allselectedchecks use design_literal_assembly.check/installed;29implementationpins/213baseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
