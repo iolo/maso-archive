@@ -24,82 +24,84 @@ records below are historical and do not authorize a new rebuild.
 
 ## December 1984 started, 2026-10-19
 
-December 1984 is in progress: fifteen readable articles, no partial articles,
-three non-owning headings and 19 of 37 entries unresolved. Memory efficiency0017
-is complete over observed166–171/PDF168–173 at packages/memory-efficiency.
-All182 files match the independent rebuild. The independent title/translation
-credit on166 follows the unpaginated business divider; its closing mark on171
-follows the garbage-collection program/output and final paragraph. VisiCalc172
-starts independently. All10 whole views167–176 were inspected before mapping;
-six mapped pages/four outside-map lookups/one canonical task. The lower store
-advertisement on observed167/PDF169 is excluded. No global folio offset.
+December 1984 is in progress: sixteen readable articles, no partial articles,
+four non-owning headings and 17 of 37 entries unresolved. VisiCalc limits(2),
+canonical0018, is complete over observed172–175/PDF174–177 at packages/visicalc-limits.
+All 154 files match the independent rebuild. Its title, final-installment label
+and byline follow memory171; the final six-function list and closing mark end175.
+PDF178 is a separate book advertisement, PDF179 an unpaginated technical divider,
+and PDF180 independently opens design178. All 12 whole views173–184 were inspected
+before mapping: four mapped pages, eight outside-map lookups, two canonical tasks.
+No global folio offset was assumed.
 
-The native retains53 regions,49 blocks,13 original images,53 regional spans and
-77 review notes. All53 original and11 revised exact crops were inspected before
-40 successful OCR tasks. Eleven distinct crops were repaired once before OCR for
-complete prose/heading/frame margins. OEM1/PSM6,one thread,3000-pixel long edge,
-eng code/kor+eng prose remain pinned. Four full/review pairs were reused and six
-new pages rendered. One source correction pass;zero recognition failures,retries
-or post-OCR repairs. All maps,crops,raw drafts,readings and attempts remain.
+The VisiCalc native retains 44 regions, 40 blocks, ten original images, 41 regional
+spans and 62 review notes. All 44 original and five revised exact crops were viewed
+before 34 successful OCR tasks. Five distinct crops were widened once for complete
+glyph/bullet/baseline margins. OEM1/PSM6, one thread, 3000-pixel long edge and kor+eng
+remain pinned. Four full/review pairs reused, eight new pages rendered. One source
+correction pass; zero recognition failures, retries or post-OCR repairs. All inputs,
+raw drafts, maps, crops and readings remain preserved.
 
-Five tables retain32 physical rows/190 cells/15 blanks/31 header cells. The ragged
-figure7 rows retain13/15/9/11 fields,including the extra8 after52 in its first data
-row;three ellipses and count phrases stay unexpanded. All99 printed byte-value
-fields are opaque candidates. Six pointer-expression parts/ten address fields
-preserve the repeated256 and PEEK116 physical continuation. Three MSB patterns/
-six fields,three inline printed30 alternatives,26 formulas,62 diagram labels,
-430 prose numbers and718 inline occurrences are indexed without evaluation.
+Five menus retain 62 physical rows, 52 options and 129 observed key/label/value
+fields, including 25 values. Five headers/prompts, 25 dot-leader associations and
+five highlights retain their original images; leader counts and shading are not
+reconstructed. The worksheet retains 23 visible text rows, 20 row labels, five
+column labels, A1/30 status values and ten exclamation separator candidates.
+Blank worksheet geometry remains in the original screen. Seventeen diagram labels
+cover page geometry and the unnumbered width comparison. Seven printed captions
+link the numbered figures; illustration, width diagram and closing mark are uncaptioned.
 
-Nine independent BASIC/example groups retain46 physical rows and45 numbered
-entries. Six side-by-side examples remain separate two-row groups with printed
-heading prefixes. The first example's 10 A= has no supplied value;the initial
-program skips40,and the array program skips30. Its40 expression keeps the minus
-and standalone1 on separate physical rows. Source76 BE:6 remains unparsed.
-The indexes retain206 tokens,92 identifiers,83 numeric fragments,107 punctuation
-candidates,20 quote glyphs,ten paired strings and four GOSUB1000 clauses/targets.
-Empty-looking strings,spaces and dim vertical strokes remain visual candidates.
-No runnable flattening or syntax repair.
+Indexes retain 23 key or key-glyph candidates, two control examples, 24 commands,
+12 function-name occurrences, three ROUND claims/six arguments/three results,
+128 source numbers, 118 symbols, four quote glyphs, 22 bullets, six feature claims
+and 475 inline occurrences. Source CALCULATE prose and CALCULATION screen text
+remain independent, as do the printed rounding input351.6763/results351.68/352/350.
+CircledⓇ, boxed arrows, angle〉, A1/AI, dash, quote and separator glyphs remain
+visual candidates. No key behavior, software, encoded-byte, arithmetic or graphic
+reconstruction. The final list has six distinct names ending with one ATAN.
 
-Eight printed figure captions/nine physical caption parts accompany the original
-memory diagrams/tables. Four original program/example images and the publisher
-mark have no printed captions;none were invented. Printed Rea Only Memory,
-of-fset,BUZZ/BUS,first figure7 value66,output149 and prose191/49398 remain literal
-independent candidates. No address/byte/bit/ASCII/encoding,memory-map,arithmetic or
-graphic reconstruction. Printed title위해서 differs from canonical위하여;source
-translation credit편집부 역 and(In Cider 84년 4월호에서) are retained independently.
-Canonical identities,titles and parents remain unchanged.
+One washed-out opening word remains explicitly marked ⟦faint source word⟧ and linked
+to its source crop for manual correction. It was not completed from context.
+The other two editorial markers approximate visible boxed arrows. Page/body
+coverage is complete; human acceptance and full proofreading remain unverified.
 
-All31,208 prior files and26 implementation pins remain unchanged. The new
-preservation inventory has31,977 files. The unchanged203-test baseline is reused
-without rerunning tests. Initial excluded-region metadata used the wrong schema
-key;the fresh mapping script reused the completed source review. Two serializer
-guards then caught a standalone continuation classified as a label and a pointer
-heading classified as an expression. Fresh serializers corrected only index logic,
-reusing all40 readings. Failed scripts/records remain;no source or OCR restart.
+Technical0019 is classified as a non-owning heading on unpaginated PDF179. Its
+strap, illustration and two references178/205 support canonical children0020/0021;
+no independent body or inferred177 folio. Design178 has its own title/byline.
+The additional contest heading0022 and references213/214/219 on that divider remain
+a separate unresolved canonical entry for the next declared task.
 
-Mathematics152–154 remains complete at math-montecarlo-r01:104 files,all formulas/
-fractions/integral bounds/plots and printed output3.136 retained. Business0016 is
-already classified on unpaginated PDF167;source비지니스/canonical비즈니스 and its two
-children remain independent,without an inferred165 folio. MSX150–151 remains
-complete at msx-loader:147 physical rows/134 entries,source박재현/TOC박제현 retained.
-Perspective131–149 remains complete at perspective-complete-r01,including143–148
-listings,87 middle matrix cells,all384 native files,the134 repair and both captions.
-Keep perspective-a,perspective-b-r01,perspective-c,perspective-d. CP/M remains complete
-at cpm5-complete-r01,observed110–129 plus unpaginated upper PDF132 continuation;
-lower132 ad excluded,no observed130. BASIC speed102–109 retains opening102–107 and
-ending108–109. All selected checks use perspective_literal_assembly.check/installed(),
-which delegates cpm_literal_assembly and graphic_literal_assembly. Keep all26 pins.
+All 31,977 prior files and 26 implementation pins remain unchanged. The new
+preservation inventory contains 32,631 files. The unchanged 203-test baseline is
+reused without rerunning tests. The initial whole-view summary mistakenly called
+ATAN repeated; exact-crop review corrected that explanatory metadata before OCR
+in fresh source-reviewed-r01/mapping-completed-r01 records. Original records remain.
+The source function list was written once. No recognition or correction restart.
 
-Next:batch32,canonical VisiCalc limits(2)0018,start172/PDF174. Title,last-installment
-label and이영진 credit are observed on172;173–174 continue with screens/menus/prose.
-Verify the full extent and neighbors before mapping up to six confirmed pages.
-Provisional PDF173–184 lookups and opening172–177/PDF174–179 are candidates,not a
-verified end or global offset. Reuse pinned173–176 views. Following technical0019
-is still unclassified;do not infer its folio/body. Preserve screenshot text,menu
-labels,values,key glyphs and captions as source candidates. Keep at most two
-articles/six mapped pages/20 outside-map lookups. Human acceptance,full proofreading,
-source bytes,execution and mathematical/hardware correctness remain unverified.
-No reader rebuild.
+Memory166–171 remains complete at memory-efficiency: 182 files, 190 table cells/
+15 blanks, 99 byte fields and 46 physical rows/45 numbered entries. Its source
+위해서/canonical위하여, Rea Only Memory, 76 BE:6 and output149/prose191 remain independent.
+Mathematics152–154 remains at math-montecarlo-r01: 104 files and output3.136. Business
+on unpaginatedPDF167 retains source비지니스/canonical비즈니스 and both children.
+MSX150–151 at msx-loader retains147 physical rows/134 entries and 박재현/TOC박제현.
+Perspective131–149 at perspective-complete-r01 retains all384 natives,134 repair,
+two captions,143–148 listings and87 middle matrix cells; keep perspective-a,
+perspective-b-r01,perspective-c,perspective-d. CP/M at cpm5-complete-r01 retains
+110–129 plus unpaginated upper PDF132; lower132 ad excluded,no observed130.
+BASIC speed102–109 retains opening102–107/ending108–109. All selected checks use
+perspective_literal_assembly.check/installed(), which delegates cpm_literal_assembly
+and graphic_literal_assembly. Preserve all 26 implementation pins.
+
+Next: batch33, design(6)0020 starting178/PDF180, plus contest-heading0022 classification.
+Verify the actual ending and neighbors with targeted PDF202–210 lookups and the
+179–185 opening window before mapping up to six confirmed opening pages178–183.
+The next TOC article starts205 as a candidate; no end or unchecked interior coverage
+is inferred. Reuse pinned179–184 views. Exclude the lower advertisement on179/PDF181.
+Contest0022 is on unpaginatedPDF179 with three canonical references213/214/219;
+verify its children and non-owning status as the second task. Keep at most two
+canonical tasks/six mapped pages/20 outside-map lookups, and retain any article
+remainder and assembly explicitly. Source bytes, execution, mathematical correctness
+and software behavior remain unverified. No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.

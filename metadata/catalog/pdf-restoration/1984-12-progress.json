@@ -2901,19 +2901,128 @@
       "toc_entry_id": "maso-1984-12-toc-0018",
       "title": "비지캘크 한계의 극복(2)",
       "parent_id": "maso-1984-12-toc-0016",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/visicalc-limits",
+        "article_id": "scan-maso-1984-12-toc-0018",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/visicalc-limits/manifest.json",
+          "sha256": "e8adceef6e9c54a85c9145bbb8651419fbceb37f65ae8062d2d95e452039c771",
+          "bytes": 26261
+        },
+        "coverage": {
+          "pdf_pages": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "printed_pages": [
+            "172",
+            "173",
+            "174",
+            "175"
+          ],
+          "regions": 44,
+          "blocks": 40,
+          "figures": 10
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "printed_pages": [
+            "172",
+            "173",
+            "174",
+            "175"
+          ],
+          "opening_pdf": 174,
+          "ending_pdf": 177,
+          "previous_pdf": 173,
+          "next_pdf": 178,
+          "byline_candidate": "이영진",
+          "series_candidate": "마지막 회",
+          "ending_evidence": "Six-function comparison list @SIN,@COS,@TAN,@ASIN,@ACOS,@ATAN andclosingpublishermark ends175. NextPDF178 independentbookadvertisement;PDF179 unpaginatedtechnicaldivider;PDF180 observed178 independentdesignarticle."
+        },
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-32/source-reviewed-r01.json",
+          "sha256": "4cbc4222c137239ce9a48361dbdb9bb39a9086bdb8d0dfc18715fe28f7d7e4d2",
+          "bytes": 8914
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-32/source-index-schema.json",
+          "sha256": "c06a519f135810e280aa88a81aa5f9f4b7f8767582cd30a9e86cdaa213d8e39c",
+          "bytes": 4078
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-32/reproduction.json",
+          "sha256": "1208c6c9dfcd6fe6c43ca95bbe3a38462161c3be14f3c98275e0d2c2252c8bcc",
+          "bytes": 2161
+        },
+        "source_code_connections": [],
+        "caption_associations_pending": [],
+        "pending_manual_source_corrections": [
+          {
+            "region_id": "p172-left",
+            "download": "article.txt",
+            "utf8_byte_start": 178,
+            "utf8_byte_end_exclusive": 201,
+            "transcription_excerpt": "⟦faint source word⟧",
+            "manual_correction": "pending",
+            "recovery_from_context": false,
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/visicalc-limits/ocr-page174/p172-left.png",
+              "sha256": "4d35f13dc4509ea49c0ddce4191449a24eb7443513feac4379f55119131fe1b0",
+              "bytes": 859883
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/visicalc-limits/corrections.json",
+              "sha256": "5e2a2c5bc3f2e7237e4a23ef07f3d04fcf04d2247a55aff0fc5c73b3a08c2ac1",
+              "bytes": 1098231
+            }
+          }
+        ],
+        "source_credit": {
+          "byline": "이 영 진",
+          "candidate": "이영진",
+          "series": "마지막 회",
+          "source_pdf_page": 174,
+          "printed_page": "172"
+        }
+      },
+      "classification_evidence": [
+        "IndependentVisiCalctitle/last-installment/이영진credit172/PDF174 followsmemory171. Completebody172–175/PDF174–177 endswithsix-functionlist/closingmark. PDF178 independentbookad,PDF179unpaginatedtechnicaldivider,PDF180observed178independentdesignarticle. All12wholeviews173–184inspected;no globaloffset.",
+        "154filenative/independentrebuild exact:44regions/40blocks/10originals/41regionalspans/62reviewnotes. Five menus/52options/129key-label-valuefields/25values;worksheet20rowlabels/fivecolumns/visibleA1+30/CA-!glyphcandidates. 23keycandidates/24commands/12functiontokens/threeROUNDclaims/sevenfigurecaptions retainliteralvalues andsourcevariants. No behavioral/encoding/arithmetic/graphic repair.",
+        "Onewashed-outopeningword retainedasexplicitlocalized⟦faint source word⟧ withpinnedsource/manualcorrectionpending;page/bodycoveragecomplete. Boxedarrow/circledⓇ/angle〉/dash/quote/headerseparatorcandidates unverified. Originaldotleadercounts/highlights/shading/blankgrid not reconstructed. CALCULATEprose/CALCULATIONscreen independent;sourceROUNDresults notcomputed."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0019",
       "title": "테크니컬",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_record": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/technical-classification.json",
+        "sha256": "7a1714a89f63fdfa2bf997adb317c21bbb6194301513ccc96ddac564e6de8115",
+        "bytes": 1593
+      },
+      "classification_evidence": [
+        "UnpaginatedtechnicaldividerPDF179 containsstrap/title/illustration andtwo canonicaltechnicalchildreferences178/205. No independent signedbody/listing. Canonicaltitle테크니컬 andchildren0020/0021 unchanged;no inferred177folio.",
+        "PDF180observed178 independentlystartsdesign6 with김덕우credit. Additional공모입선작 heading/three213/214/219references ondivider remainseparatecanonical0022;notclassifiedinthisalreadytwo-taskcheckpoint."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0020",
@@ -3104,11 +3213,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 15,
-    "readable_articles": 15,
+    "classified_articles": 16,
+    "readable_articles": 16,
     "partial_articles": 0,
-    "nonowning_headings": 3,
-    "unresolved_eligibility": 19,
+    "nonowning_headings": 4,
+    "unresolved_eligibility": 17,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -6966,43 +7075,207 @@
         "sha256": "2d0b8c9d2440e79a32f06a341aab22dffcd3d37a5cab95289b7261d5b96d580a",
         "bytes": 7353178
       }
+    },
+    {
+      "id": "batch-32",
+      "status": "complete-native-article-and-heading",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/checkpoint.json",
+        "sha256": "2d572b71d50e9b98c0e6072495d5da4e80fbf171f43428a291696d1829dae352",
+        "bytes": 6307
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/checkpoint-r01.json",
+        "sha256": "e9a1aff8fb90dd515aa709906c9e7cfaa9486094c747db64449877294c822709",
+        "bytes": 7011
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-32/validation.json",
+        "sha256": "de04387a39cbf4178584750a7dc34c27772e5eab8d6d4209a0b156ded84af7ea",
+        "bytes": 2129
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-32/verify.py",
+        "sha256": "63fcb1e6f53d679fd05804c36444b7763655780ac10861fdde3aad46588e4122",
+        "bytes": 17637
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/source-reviewed-r01.json",
+        "sha256": "4cbc4222c137239ce9a48361dbdb9bb39a9086bdb8d0dfc18715fe28f7d7e4d2",
+        "bytes": 8914
+      },
+      "source_review_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/source-review-revision-r01.json",
+        "sha256": "4eb391f1cfaa238568a49674b2f39901dc2c33c4ee20b57c9caf473383428111",
+        "bytes": 914
+      },
+      "technical_classification": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/technical-classification.json",
+        "sha256": "7a1714a89f63fdfa2bf997adb317c21bbb6194301513ccc96ddac564e6de8115",
+        "bytes": 1593
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/source-index-schema.json",
+        "sha256": "c06a519f135810e280aa88a81aa5f9f4b7f8767582cd30a9e86cdaa213d8e39c",
+        "bytes": 4078
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/mapping-completed-r01.json",
+        "sha256": "2df3fcf7990ba2c6cbb694bc07514e951ac9a70041e480be1e37d0277699cecd",
+        "bytes": 974
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/crop-repair-r01.json",
+        "sha256": "b73659668e2bb5cfe7514c17e4cec583d820fe85f8a7b1b444576fe3cf27fa1c",
+        "bytes": 2044
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/segment-scope.json",
+        "sha256": "40a704fabae0ff085c068c04469ba4048ce4b1c9d9a2d84cfb2e2750de36f4c4",
+        "bytes": 1802
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/preflight-reviewed.json",
+        "sha256": "427436c6acd925ea6e3fef0bfccf0aebc6cf2378d6fc3949b092127ff098ffc9",
+        "bytes": 19531
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/ocr-completed.json",
+        "sha256": "e46cee7f3b3f41c2ebcd61b157193b3314e34dfbc17f444cc93061b1ab75fc03",
+        "bytes": 980
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/source-correction-pass-completed.json",
+        "sha256": "5ff663ffca39ea6807e13c70d4c8336997ea1c240a3475dd71d90f5c02df327a",
+        "bytes": 6928
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/correction-completed.json",
+        "sha256": "fcb6afca99f8c58a189cc9f02fde9a2fd3854e08ceb417d975e52ff12597a211",
+        "bytes": 1289
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-32/reproduction.json",
+        "sha256": "1208c6c9dfcd6fe6c43ca95bbe3a38462161c3be14f3c98275e0d2c2252c8bcc",
+        "bytes": 2161
+      },
+      "actual_ocr_tasks": 34,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 5,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 31977,
+      "rebuild_files": 154,
+      "new_source_renders": 8,
+      "reused_full_page_renders": 4,
+      "outside_map_lookups": 8,
+      "canonical_tasks": 2,
+      "shared_pipeline_tests": 203,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/perspective-assembly/tests-implementation-r01.log",
+        "sha256": "2c2bf02ff36a6061e1f199522442d83c03d7a6398582cbec37d22b317869c452",
+        "bytes": 34581
+      },
+      "tests_reused_without_rerun": true,
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "perspective_implementation_pins_verified": 3,
+      "regions": 44,
+      "blocks": 40,
+      "figures": 10,
+      "ocr_tasks": 34,
+      "regional_text_ranges": 41,
+      "review_notes": 62,
+      "prose_joins": 1,
+      "menus": 5,
+      "menu_physical_rows": 62,
+      "menu_options": 52,
+      "menu_fields": 129,
+      "menu_value_fields": 25,
+      "menu_headers": 5,
+      "menu_prompts": 5,
+      "dot_leader_associations": 25,
+      "highlight_associations": 5,
+      "screen_text_rows": 85,
+      "worksheet_rows": 23,
+      "worksheet_row_labels": 20,
+      "worksheet_column_labels": 5,
+      "worksheet_status_values": 2,
+      "worksheet_header_glyphs": 10,
+      "source_keys": 23,
+      "control_examples": 2,
+      "source_commands": 24,
+      "source_function_tokens": 12,
+      "function_comparison_lists": 1,
+      "round_examples": 3,
+      "round_arguments": 6,
+      "round_results": 3,
+      "round_inputs": 1,
+      "source_numeric_claims": 128,
+      "source_symbols": 118,
+      "quote_glyphs": 4,
+      "bullet_glyphs": 22,
+      "feature_claims": 6,
+      "editorial_markers": 3,
+      "unresolved_source_words": 1,
+      "diagram_labels": 17,
+      "byline_candidates": 1,
+      "series_candidates": 1,
+      "source_title_candidates": 1,
+      "caption_links": 7,
+      "caption_parts": 7,
+      "uncaptioned_figures": 3,
+      "listing_groups": 0,
+      "physical_code_rows": 0,
+      "logical_basic_entries": 0,
+      "inline_examples": 475,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-32/preserved-work-inventory.json",
+        "sha256": "b0a57343b64582b70d90b000c827a45dc4982dfb735be68d319cade5a0d86b2c",
+        "bytes": 7499327
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-32",
-    "goal": "Verifycompleteextent ofcanonicalVisiCalclimits2article0018 starting172;restoreuptosixconfirmedpages.",
+    "id": "batch-33",
+    "goal": "Verify source boundaries ofcanonicalmicrocomputerdesign6article0020 starting178;restoreuptosixconfirmedopeningpages,andclassifycontestheading0022fromsourceifconfirmed.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0018"
+      "maso-1984-12-toc-0020",
+      "maso-1984-12-toc-0022"
     ],
     "mapping_targets": [
-      174,
-      175,
-      176,
-      177,
-      178,
-      179
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
     ],
     "printed_page_targets": [
-      "172",
-      "173",
-      "174",
-      "175",
-      "176",
-      "177"
+      "178",
+      "179",
+      "180",
+      "181",
+      "182",
+      "183"
     ],
     "provisional_lookup_targets": [
-      173,
-      174,
-      175,
-      176,
-      177,
-      178,
       179,
       180,
       181,
       182,
       183,
-      184
+      184,
+      185,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
     ],
     "full_extent_review_pending": true,
     "limits": {
@@ -7010,7 +7283,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "IndependentVisiCalctitle/last-installment/이영진credit observedon172/PDF174;173/174/PDF175/176 continuewithscreens/menus/diagram/prose. Actualendnotyetverified. Canonicaltechnicalheading0019pageless andmicrocomputerdesign0020start178candidate follow. Reusepinned173–176wholeviews andinspect177–184toverifyextent/neighbors beforemapping;no globaloffsetorinferreddividerfolio. Atmostsixconfirmedpages;retainanyremainderexplicitly. Inspecteveryoriginal/revisedcrop beforemappedTesseract;preserve source menu labels/values/keyglyphs/screenshotfields/captions withoutbehavioral/semantic repair. Allselectedchecks useperspective_literal_assembly wrapper;all26implementationpins/203-testbaseline unchanged. No reader rebuild."
+    "note": "Independentdesign6 title/subtitle베이직의이식/김덕우credit observedon178/PDF180. PDF181/179upperarticle+lowerbookad;excludead. Known180–182/PDF182–184continuewithflowcharts/tables/prose;fullendunverified. Nextcanonicalcryptographystarts205candidate;inspecttargeted202–210endingwindow plus179–185openingtoverifyactualstart/end/neighbors withoutscanninga27pagecandidateextentastwentyoutside-maplookups. Do notinferglobaloffsetoruncheckedinteriorpageclassification. Mapatmostsixconfirmedopeningpages;retainremainder/assemblyexplicitly. Separatecontestheading0022isprintedonunpaginatedPDF179with213/214/219references;verifyitscanonicalchildrenandnon-owningstatusasthedeclaredsecondtask. Do notassigndividerfolio. Preserveallphysicalcode/tables/operatorglyphs/memory/flowlabels/sourceerrors. Allselectedchecks useperspective_literal_assembly wrapper;26implementationpins/203-testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
