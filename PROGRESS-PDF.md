@@ -6,14 +6,15 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. The editor's note, Q&A and reader guide
-are readable/sample-reviewed; 53 of 56 canonical entries remain unresolved.
-The reader guide covers printed22–26/PDF24–28. All 215 files match its independent
-rebuild; 2,766 exact ranges, 56 images, 50 code rows, 18 assembly ordinals,
-11 BASIC labels and four caption links pass. Two unknown bands and localized
-source candidates remain explicit. The unchanged pipeline reuses its passing
-213-test baseline. Next is extent review and restoration of 애독자 광장 from
-printed27/PDF29. Cover selection and issue closeout remain pending.
+February 1985 restoration is in progress. The editor's note, Q&A, reader guide and
+애독자 광장 are readable/sample-reviewed; 52 of 56 canonical entries remain unresolved.
+The reader guide covers printed22–26/PDF24–28; all 215 rebuild files and 2,766
+exact ranges match. Reader letters cover printed27–29/PDF29–31; all 159 rebuild
+files, 1,966 exact ranges, 40 images, eight letter/signature pairs and three editorial
+replies pass. Source errors, unknown bands and localized candidates remain explicit.
+The unchanged pipeline reuses its passing 213-test baseline. Next is extent review
+and restoration of 베이직 강좌 (source headline 세련된 INPUT) from printed30/PDF32.
+Cover selection and issue closeout remain pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild.

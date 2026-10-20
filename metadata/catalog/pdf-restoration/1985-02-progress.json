@@ -228,12 +228,39 @@
       "toc_entry_id": "maso-1985-02-toc-0012",
       "title": "애독자 광장",
       "parent_id": "maso-1985-02-toc-0008",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Printed27–29/PDF29–31 individually inspected. Eight titled reader letters and three magazine responses; all source signatures preserved without inventing an article byline.",
+        "Previous PDF28/26 ends reader guide;following PDF32/30 begins independent 세련된 INPUT. Canonical0012 identity/title/parent unchanged.",
+        "Opening27 two columns after title ornament;28 and29 three columns each. Letter1 crosses27columns;letter2 crosses27→28;letter5 crosses28columns→29;letter6 crosses29columns;letter7 crosses29columns. Final letter8 signature ends article."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-04-r01/readers-plaza",
+        "article_id": "scan-maso-1985-02-toc-0012",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-04-r01/readers-plaza/manifest.json",
+          "sha256": "8ba9083abff2d52c4da2c28c866f7e09ee88cb0f5e3983a6d32e9793a66f5d2d",
+          "bytes": 26981
+        },
+        "coverage": {
+          "pdf_pages": [
+            29,
+            30,
+            31
+          ],
+          "printed_pages": [
+            "27",
+            "28",
+            "29"
+          ],
+          "regions": 40,
+          "blocks": 37,
+          "figures": 3
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0013",
@@ -722,10 +749,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 3,
+    "readable": 4,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 53
+    "unresolved_eligibility": 52
   },
   "checkpoints": [
     {
@@ -865,6 +892,53 @@
         "sha256": "98a77b014da91fcef26768ce9c5f8f2171ea73bac0bc0727b849d6c80325d7b9",
         "bytes": 435504
       }
+    },
+    {
+      "id": "batch-04",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0012"
+      ],
+      "mapped_pdf_pages": [
+        29,
+        30,
+        31
+      ],
+      "outside_map_lookup_pages": [
+        28,
+        32
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-04/validation.json",
+        "sha256": "981ea1678df5135f19c55e76407a3990c18f051dd22e41c92abc015c4ebb6eeb",
+        "bytes": 1060
+      },
+      "stats": {
+        "completed_at": "2026-10-20T15:23:57.639462+00:00",
+        "regions": 40,
+        "blocks": 37,
+        "figures": 3,
+        "physical_text_rows": 348,
+        "letters": 8,
+        "signatures": 8,
+        "editorial_responses": 3,
+        "numbered_requests": 8,
+        "connections": 8,
+        "physical_wraps": 9,
+        "printed_references": 11,
+        "unknown_bands": 5,
+        "source_candidates": 21,
+        "source_passes": 1,
+        "ocr_tasks": 37,
+        "failures": 0,
+        "retries": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-04-preserved-work.json",
+        "sha256": "b85c2f7efc5da9d0744346613f7a7c3d2a803be309d8255acade729ed29041b6",
+        "bytes": 579442
+      }
     }
   ],
   "source_page_observations": [
@@ -960,28 +1034,54 @@
     },
     {
       "pdf_page": 29,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0012"
       ],
-      "printed_page": "27",
+      "printed_page": "27"
+    },
+    {
+      "pdf_page": 30,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0012"
+      ],
+      "printed_page": "28"
+    },
+    {
+      "pdf_page": 31,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0012"
+      ],
+      "printed_page": "29"
+    },
+    {
+      "pdf_page": 32,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0026"
+      ],
+      "printed_page": "30",
+      "source_title": "세련된 INPUT",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-04",
-    "goal": "Verify extent of 애독자 광장 from printed27/PDF29 and restore within six mapped pages.",
+    "id": "batch-05",
+    "goal": "Verify extent of 베이직 강좌, source headline 세련된 INPUT, from printed30/PDF32 and restore within six mapped pages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0012"
+      "maso-1985-02-toc-0026"
     ],
-    "mapping_targets": "Opening PDF29/printed27 observed; actual end and adjacent pages require inspection.",
+    "mapping_targets": "Opening PDF32/printed30 observed; actual end and adjacent pages require inspection.",
     "provisional_lookup_targets": [
-      28,
-      29,
-      30,
       31,
-      32
+      32,
+      33,
+      34,
+      35,
+      36
     ],
     "limits": {
       "articles": 2,
@@ -993,9 +1093,10 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "OCR omitted lower prose over photograph; preserved drafts and one source-direct completion.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
-    "Remaining53 identities and remaining source-page accounting require inspection; no global page offset inferred.",
+    "Remaining52 identities and remaining source-page accounting require inspection; no global page offset inferred.",
     "Q&A retains two unknown separator bands,three unknown quoted-space widths,source technical/numeric mistakes and Unicode source candidates; no code execution certification.",
-    "Reader guide retains two unknown bands, four faint heading candidates, literal code/command discrepancies and duplicate MSX step③. All original images retained; source encoded bytes and execution unverified."
+    "Reader guide retains two unknown bands, four faint heading candidates, literal code/command discrepancies and duplicate MSX step③. All original images retained; source encoded bytes and execution unverified.",
+    "Reader letters retain five unknown ellipsis bands and localized names,addresses,bibliographic/technical references; no identity/contact/reference verification. Eight signatures and three editorial responses are not an article byline."
   ],
   "reader_rebuild": false
 }

@@ -37,9 +37,13 @@ paired OCR or a new engine comparison.
   18 assembly ordinals, 11 BASIC labels and four caption links pass. One crop repair
   preceded 50 tasks; no OCR failures/retries. Two unknown bands, four faint headings,
   source command/byte differences and duplicate MSX step③ remain explicit.
-  Three articles are readable/sample-reviewed; 53 of 56 canonical entries remain
-  unresolved. Next: batch04 verifies 애독자 광장 from printed27/PDF29 within
-  the normal limits, reusing saved PDF28/29 renders.
+  Batch04 completes 애독자 광장 on printed27–29/PDF29–31. All 159 files match
+  its rebuild; 1,966 exact ranges and 40 images pass. Eight letters/eight signatures/
+  three editorial replies retain separate identities. Six crop repairs preceded
+  37 tasks; no OCR failures/retries. Five ellipsis bands remain explicit.
+  Four articles are readable/sample-reviewed; 52 of 56 canonical entries remain
+  unresolved. Next: batch05 verifies 베이직 강좌 (source headline 세련된 INPUT)
+  from printed30/PDF32 within normal limits, reusing saved PDF31/32 renders.
   Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

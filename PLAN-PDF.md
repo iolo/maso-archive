@@ -46,9 +46,17 @@ All 2,766 exact ranges, 56 image decodes, 50 code rows, 18 assembly ordinals,
 candidates, literal command/byte discrepancies and duplicate MSX step③ remain explicit.
 One crop repair preceded 50 OCR tasks; no failure/retry. The 213-test baseline is reused.
 
-The 56-entry issue ledger records three readable/sample-reviewed articles and 53
-unresolved entries. Next is batch04: verify 애독자 광장 from printed27/PDF29
-and restore it within the usual limits. PDF28/29 renders can be reused. Cover selection,
+Batch04 completes 애독자 광장, canonical0012, on printed27–29/PDF29–31.
+All 159 files at `archive/pdf/1985-02/packages/batch-04-r01/readers-plaza`
+match its independent rebuild. Eight letters, eight signatures and three editorial
+replies retain 348 physical text rows, eight numbered requests and eleven printed
+references. All 1,966 exact ranges and 40 images pass. Six crop repairs preceded
+37 tasks; no OCR failure/retry. Five ellipsis bands and localized source candidates
+remain explicit. The unchanged 213-test baseline is reused.
+
+The 56-entry issue ledger records four readable/sample-reviewed articles and 52
+unresolved entries. Next is batch05: verify 베이직 강좌 (source headline 세련된 INPUT)
+from printed30/PDF32 and restore it within the usual limits. PDF31/32 renders can be reused. Cover selection,
 remaining source-page accounting and issue closeout are pending. See the
 [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
