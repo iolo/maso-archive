@@ -56,11 +56,26 @@ paired OCR or a new engine comparison.
   preservation inventory contains 44,948 files. Unchanged213-test baseline reused.
 
   All37 canonical entries are classified:30 readable articles/seven non-owning headings.
-  This is not issue closeout. The selected articles contain bodies on227 PDF pages;
-  33 other pages still need explicit whole-issue accounting. Cover verification,standalone
-  issue JSON/assets and independent issue rebuild/closeout remain pending. Human acceptance/
-  full proofreading,source bytes,claims,execution and backup recoverability remain unverified.
-  No reader rebuild.
+  Whole-issue accounting01 has classified20 pages outside the227 selected body-containing
+  pages:one front cover,17 advertising/publisher-promotion pages,one contents page andone
+  issue title page. All20 whole views PDF1–19 and66 individually inspected;no source folios
+  or new article identities inferred. The original contents/cover note/imprint and publisher
+  sales notices remain source material outside canonical article bodies. No new map/OCR/
+  source correction/canonical restoration task or reader rebuild.
+
+  The donated December cover,PDF front cover and existing thumbnail were visually verified
+  against visible ’84.12. Donated source remains unchanged and takes priority. The existing
+  RGB JPEG thumbnail is480×639/63,964 bytes,metadata stripped;fresh private derivative
+  rebuild matches byte for byte. Original donation/spine are private. Cover records/pins
+  and transform settings retained;no reader/browser rebuild. All30 selected packages,
+  44,948 prior files,every prior inventory and29 implementation pins pass. Current
+  preservation inventory contains 45,012 files;unchanged213-test baseline reused.
+
+  This is not issue closeout. Thirteen of33 outside-body pages still need source-page
+  classification. Then reconcile all260 pages/shared-page exclusions and export/rebuild
+  the standalone issue JSON/assets. Human acceptance/full proofreading,source bytes,
+  claims,execution and backup recoverability remain unverified. All prior volunteer
+  transcription and source-uncertainty records remain explicit. No reader rebuild.
 
   Classifieds0034 is complete223–225/PDF225–227 at packages/classifieds:35 files
   match the independent rebuild. Nine regions/six searchable title/category/running
@@ -293,14 +308,14 @@ paired OCR or a new engine comparison.
   design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
   cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-  Next: issue-accounting-01. Review the first20 pages outside selected article bodies:
-  PDF1–19 and66. Record cover/contents/divider/advertisement/other classifications and visible
-  folios from whole pages,without a global offset. Verify existing prepared cover under
-  PLAN-covers.md;preserve donated assets and prior evidence. Remaining13 outside-body pages
-  form the following bounded accounting checkpoint. Then reconcile all260 pages/shared-page
-  exclusions,export standalone issue JSON/assets and independently rebuild/check the whole
-  issue. Preserve all source uncertainties and volunteer transcription status. No new OCR
-  or reader rebuild. The full December goal remains active until closeout passes.
+  Next: issue-accounting-02. Individually inspect remaining13 outside-body pages:
+  PDF67,100–103,166–167,178–179,214,238,259–260. Classify observed dividers/advertisements/
+  other material and visible folios without a global offset. Limits remain20 outside-map
+  lookups/zero mapped pages/zero OCR/zero canonical tasks. Then reconcile all260 pages,
+  preserving selected article regions and shared-page exclusions,for separate standalone
+  issue export/independent rebuild/completion audit. Keep donated cover/thumbnail and all
+  source evidence unchanged. No reader rebuild. The full December goal remains active
+  until whole-issue closeout passes.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,

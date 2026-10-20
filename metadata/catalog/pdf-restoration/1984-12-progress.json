@@ -18041,37 +18041,80 @@
         "sha256": "9a1675a62252e9454582fa897edb10043199ea715d4af696331accd7fee2fb1d",
         "bytes": 10264835
       }
+    },
+    {
+      "id": "issue-accounting-01",
+      "status": "twenty-nonbody-pages-and-cover-verified",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/issue-accounting-01/checkpoint.json",
+        "sha256": "256b14dbc2d82cbfb057c76dec445e496c5427b36b84984d4fff37c29c7d393e",
+        "bytes": 6774
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/issue-accounting-01/validation.json",
+        "sha256": "79d18191ba9411ead5341342445d974d7432ed9828360b89b6d8ee0acaffeb15",
+        "bytes": 1059
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/issue-accounting-01/verify.py",
+        "sha256": "e3248bb380a826fb7394a289af475074e3b0b2385394d094bcc608d3f0adaf79",
+        "bytes": 5280
+      },
+      "source_classifications": {
+        "path": "archive/pdf/1984-12/restoration/issue-accounting-01/source-page-classifications.json",
+        "sha256": "7660c931eddbdf7237c78042bfee5e5e86633c73fa01791ee5f9c6bfd2003b3a",
+        "bytes": 18849
+      },
+      "cover_verification": {
+        "path": "archive/pdf/1984-12/evidence/issue-accounting-01/cover-verification.json",
+        "sha256": "bd8bf2633698c899fba9cfd8a39fc9a7b597229a2751089067326df3da2689b3",
+        "bytes": 2557
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/issue-accounting-01/reproduction.json",
+        "sha256": "49722e99a8c93fb57fd4ee1c4d9900db06cb5dbef52a4afaa79663ac46fe79b9",
+        "bytes": 1753
+      },
+      "source_pages_reviewed": 20,
+      "nonbody_counts": {
+        "cover": 1,
+        "advertising": 17,
+        "contents": 1,
+        "issue-title-page": 1
+      },
+      "selected_body_pages": 227,
+      "remaining_nonbody_pages": 13,
+      "actual_ocr_tasks": 0,
+      "mapped_source_pages": 0,
+      "outside_map_lookups": 20,
+      "canonical_tasks": 0,
+      "source_correction_passes": 0,
+      "new_source_renders": 20,
+      "prior_files_verified": 44948,
+      "implementation_pins_verified": 29,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "reader_rebuild": false,
+      "issue_closeout_pending": true,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/issue-accounting-01/preserved-work-inventory.json",
+        "sha256": "633b80457fe96bb3667808d2e3e437edb2edc27921a7da2d2be6f0886bff6197",
+        "bytes": 10278437
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "issue-accounting-01",
-    "goal": "Begin complete260-page accounting and cover verification with first20 pages outside selected article bodies;preserve canonical scope and all prior uncertainty.",
+    "id": "issue-accounting-02",
+    "goal": "Classify remaining13 pages outside selected canonical bodies,then prepare complete260-page ledger for separate issue export/rebuild/closeout.",
     "toc_entry_ids": [],
     "mapping_targets": [],
     "printed_page_targets": [],
     "provisional_lookup_targets": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      66
-    ],
-    "remaining_outside_selected_pages": [
       67,
       100,
       101,
@@ -18323,11 +18366,65 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "All37 canonical entries classified:30readable/seven non-owning headings/no unresolved. Issue remains in-progress. Review first20 outside-body pages PDF1–19 and66 individually,including cover/contents/dividers/ads;record exact source types and visible folios without global offset inference.33 total pages outside227 selected body-containing pages;remaining13 become next bounded accounting checkpoint. Verify existing prepared cover according to PLAN-covers.md;do not recreate donated assets or infer backups. Reconcile all260 pages and shared-page advertisements against original maps/exclusions. After accounting,export standalone issue JSON/assets and independently rebuild/check whole issue,preservation,ledger/source/cover/canonical hierarchy and all selected package manifests. Do not claim full printed-issue transcription,human acceptance,source bytes or recoverability. No OCR or reader rebuild required for accounting."
+    "note": "Remaining13 outside-body pages only:PDF67,100–103,166–167,178–179,214,238,259–260. Inspect each whole source page;record group dividers/advertisements/unlisted material and visible folios without global offset inference. Canonical30readable/sevenheadings unchanged;all30 selected packages already checked. Cover/donated source/480x639thumbnail verified and private byte-identical rebuild retained;do not recreate or overwrite assets. Reconcile full260-page coverage and shared-page exclusions only after this bounded source review,then separate standalone issue JSON/assets export/independent rebuild/completion audit. No OCR/new canonical extraction or reader rebuild."
   },
-  "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
+  "cover_status": {
+    "status": "verified-donated-cover-and-prepared-thumbnail",
+    "verification": {
+      "path": "archive/pdf/1984-12/evidence/issue-accounting-01/cover-verification.json",
+      "sha256": "bd8bf2633698c899fba9cfd8a39fc9a7b597229a2751089067326df3da2689b3",
+      "bytes": 2557
+    },
+    "source": {
+      "path": "covers/8412.jpg",
+      "sha256": "59598c6d6b364328919c17da17a0a10ba6f3033445d2c4ab4f603e83378d06ae",
+      "bytes": 10799921
+    },
+    "thumbnail": {
+      "path": "archive/covers/derivatives/8412-0ab1b6440305a7c9761d5565-thumb.jpg",
+      "sha256": "f8acc13917b3a2adb185d2abaac866fc1c3fb8bd2e89fd34a624b4eae96600f9",
+      "bytes": 63964
+    },
+    "width": 480,
+    "height": 639,
+    "policy": "donated-before-verified-PDF-before-placeholder",
+    "source_pdf_identity_verified": true,
+    "thumbnail_rebuild_byte_identical": true,
+    "human_acceptance": "pending"
+  },
   "reader_rebuild": false,
   "independent_backup_restore": "not-performed; no recoverability claim",
   "human_acceptance": "pending",
-  "full_proofreading": "unverified"
+  "full_proofreading": "unverified",
+  "source_page_accounting": {
+    "status": "partial",
+    "source_pdf_pages": 260,
+    "selected_body_containing_pages": 227,
+    "outside_selected_body_pages": 33,
+    "classified_outside_body_pages": 20,
+    "remaining_outside_body_pages": [
+      67,
+      100,
+      101,
+      102,
+      103,
+      166,
+      167,
+      178,
+      179,
+      214,
+      238,
+      259,
+      260
+    ],
+    "classification_records": [
+      {
+        "path": "archive/pdf/1984-12/restoration/issue-accounting-01/source-page-classifications.json",
+        "sha256": "7660c931eddbdf7237c78042bfee5e5e86633c73fa01791ee5f9c6bfd2003b3a",
+        "bytes": 18849
+      }
+    ],
+    "all_canonical_entries_classified": true,
+    "issue_closeout_pending": true
+  }
 }
