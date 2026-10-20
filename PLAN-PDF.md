@@ -64,13 +64,23 @@ RETRUN, the physical1170/290 wrap and 13 unknown bands remain literal. The origi
 input diagram remains; independent label transcription is pending volunteers.
 All 39 OCR tasks completed without failure/retry; the 213-test baseline is reused.
 
-The 56-entry issue ledger records five readable/sample-reviewed articles and 51
-unresolved entries. Next is batch06: verify 애플 tip : 언제나 가능한 진법 변환
-from printed34/PDF36 and restore it within the usual limits. Source headline
-언제라도 가능한 진법변환 remains distinct. PDF35/36 renders can be reused. Cover selection,
-remaining source-page accounting and issue closeout are pending. See the
-[February record](docs/progress/8502.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
+Batch06 completes 애플 tip : 언제나 가능한 진법 변환, canonical0027,
+source headline 언제라도 가능한 진법변환, on PDF36–37. Opening folio34 is visible;
+final folio is absent and mapped null. Lower independent book advertisement excluded.
+All 117 files at `archive/pdf/1985-02/packages/batch-06-r02/apple-conversion` match
+its independent rebuild. All 905 exact ranges, 992 evidence pins and 30 images pass.
+Seven code/output rows, one temporary BASIC label, five ordered steps, six prose
+step references, eleven RETURN occurrences and two word continuations survive.
+Seventeen localized candidates retain NED20G/ED20G and literal arithmetic.
+All 26 tasks completed without failure/retry; the unchanged 213-test baseline is reused.
+A fresh metadata revision corrects one 2A occurrence link; all prior versions remain.
+
+The 56-entry issue ledger records six readable/sample-reviewed articles and 50
+unresolved entries. Next is batch07: verify SPC-1000 tip : BEEP from printed36/PDF38
+and restore it within the usual limits. The lower 컴퓨돌이 panel remains separate.
+PDF37/38 renders can be reused. Cover selection, remaining source-page accounting
+and issue closeout are pending. See the [February record](docs/progress/8502.md)
+and [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.
 
 ## December 1984 closeout, 2026-10-20

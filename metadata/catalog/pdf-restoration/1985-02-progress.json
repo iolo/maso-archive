@@ -447,12 +447,38 @@
       "toc_entry_id": "maso-1985-02-toc-0027",
       "title": "애플 tip : 언제나 가능한 진법 변환",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Article spans PDF36–37. First visible folio34;final page has no visible folio,so mapped null rather than inferred35. Original final upper panel retained;lower independent book advertisement excluded.",
+        "Source heading 언제라도 가능한 진법변환 differs from canonical 애플 tip : 언제나 가능한 진법 변환. Canonical identity/title/parent unchanged; no source byline.",
+        "Previous PDF35 independent 희망전자개발 advertisement;following PDF38/36 opens SPC-1000 tip BEEP with separate 컴퓨돌이 lower panel.",
+        "Opening example-end finishes with 결 and final incoming begins 과를;final principle-body2 ends 모 and right column starts 니터. Final signed arithmetic ends article above independent advertisement."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-06-r02/apple-conversion",
+        "article_id": "scan-maso-1985-02-toc-0027",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-06-r02/apple-conversion/manifest.json",
+          "sha256": "5ad15a4460e54ad8072b09f61ee0a00592396b7086b8e37816f6d96418c02fd5",
+          "bytes": 19535
+        },
+        "coverage": {
+          "pdf_pages": [
+            36,
+            37
+          ],
+          "printed_pages": [
+            "34",
+            null
+          ],
+          "regions": 30,
+          "blocks": 26,
+          "figures": 4
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0028",
@@ -776,10 +802,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 5,
+    "readable": 6,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 51
+    "unresolved_eligibility": 50
   },
   "checkpoints": [
     {
@@ -1021,6 +1047,54 @@
         "sha256": "54136d048977760e93a45efcaea1f4cfa812c0b75214b9719d1d3b05d5ea2ac7",
         "bytes": 732018
       }
+    },
+    {
+      "id": "batch-06",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0027"
+      ],
+      "mapped_pdf_pages": [
+        36,
+        37
+      ],
+      "outside_map_lookup_pages": [
+        35,
+        38
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-06/validation.json",
+        "sha256": "d016dfb696a23e7e2fe78b757bfd737c7e8d39bfa00e213ba46fbbbbb0881d55",
+        "bytes": 1161
+      },
+      "stats": {
+        "completed_at": "2026-10-20T15:58:54.170424+00:00",
+        "regions": 30,
+        "blocks": 26,
+        "figures": 4,
+        "physical_text_rows": 106,
+        "physical_code_rows": 7,
+        "basic_labels": 1,
+        "step_labels": 5,
+        "prose_step_references": 6,
+        "key_labels": 11,
+        "boxed_key_labels": 8,
+        "command_tokens": 12,
+        "connections": 2,
+        "physical_wraps": 2,
+        "unknown_bands": 0,
+        "source_candidates": 17,
+        "source_passes": 1,
+        "ocr_tasks": 26,
+        "failures": 0,
+        "retries": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-06-preserved-work.json",
+        "sha256": "7350cbff500e82ade8a855b756af54e6528209721d0a08f3b58846da826b371a",
+        "bytes": 864140
+      }
     }
   ],
   "source_page_observations": [
@@ -1172,28 +1246,46 @@
     },
     {
       "pdf_page": 36,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0027"
       ],
       "printed_page": "34",
-      "source_title": "언제라도 가능한 진법변환",
+      "source_title": "언제라도 가능한 진법변환"
+    },
+    {
+      "pdf_page": 37,
+      "classification": "mixed-article-and-advertisement",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0027"
+      ],
+      "printed_page": null,
+      "evidence": "Upper framed article conclusion retained;no visible folio. Lower independent 우신기술서적 advertisement excluded."
+    },
+    {
+      "pdf_page": 38,
+      "classification": "article-opening-and-separate-comic-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0028",
+        "maso-1985-02-toc-0025"
+      ],
+      "printed_page": "36",
+      "source_title": "SPC-1000 tip BEEP;separate lower 컴퓨돌이",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-06",
-    "goal": "Verify extent of 애플 tip : 언제나 가능한 진법 변환 from printed34/PDF36 and restore within six mapped pages.",
+    "id": "batch-07",
+    "goal": "Verify extent of SPC-1000 tip : BEEP from printed36/PDF38 and restore within six mapped pages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0027"
+      "maso-1985-02-toc-0028"
     ],
-    "mapping_targets": "Opening PDF36/printed34 observed; source heading 언제라도 가능한 진법변환 differs from canonical wording. Verify actual end and adjacent pages.",
+    "mapping_targets": "Opening PDF38/printed36 observed; separate lower 컴퓨돌이 panel remains outside this article. Verify actual end and adjacent pages.",
     "provisional_lookup_targets": [
-      35,
-      36,
       37,
-      38
+      38,
+      39
     ],
     "limits": {
       "articles": 2,
@@ -1205,11 +1297,12 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "OCR omitted lower prose over photograph; preserved drafts and one source-direct completion.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
-    "Remaining51 identities and remaining source-page accounting require inspection; no global page offset inferred.",
+    "Remaining50 identities and remaining source-page accounting require inspection; no global page offset inferred.",
     "Q&A retains two unknown separator bands,three unknown quoted-space widths,source technical/numeric mistakes and Unicode source candidates; no code execution certification.",
     "Reader guide retains two unknown bands, four faint heading candidates, literal code/command discrepancies and duplicate MSX step③. All original images retained; source encoded bytes and execution unverified.",
     "Reader letters retain five unknown ellipsis bands and localized names,addresses,bibliographic/technical references; no identity/contact/reference verification. Eight signatures and three editorial responses are not an article byline.",
-    "BASIC input lesson retains RETRUN,physical1170/290 wrap,13unknown bands,table-range glyph approximations and source claims. Original input diagram retained;independent diagram-label transcription pending volunteers."
+    "BASIC input lesson retains RETRUN,physical1170/290 wrap,13unknown bands,table-range glyph approximations and source claims. Original input diagram retained;independent diagram-label transcription pending volunteers.",
+    "Apple conversion tip retains opaque NED20G/ED20G,0075 - E8 03,physical word continuations and seventeen localized glyph/claim candidates. Final folio absent and mapped null;lower independent advertisement excluded. No source claims or execution certified."
   ],
   "reader_rebuild": false
 }

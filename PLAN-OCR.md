@@ -47,10 +47,17 @@ paired OCR or a new engine comparison.
   76 nonblank cells/eight blanks/three range groups. RETRUN, physical1170/290
   and 13 unknown bands remain. Original input diagram retained; label transcription
   pending volunteers. All 39 tasks completed without failure/retry.
-  Five articles are readable/sample-reviewed; 51 of 56 canonical entries remain
-  unresolved. Next: batch06 verifies 애플 tip : 언제나 가능한 진법 변환 from
-  printed34/PDF36, reusing PDF35/36 renders. Source 언제라도 wording stays distinct.
-  Cover and issue closeout remain pending.
+  Batch06 completes the Apple conversion tip on PDF36–37, visible folio34 then
+  null. Lower independent advertisement excluded. All 117 rebuild files, 905 exact
+  ranges, 992 evidence pins and 30 images pass. Seven code/output rows, one temporary
+  BASIC label, five ordered steps, six prose references, eleven RETURN labels and
+  two word continuations retain source links. Seventeen localized candidates remain.
+  All 30 crops inspected before 26 tasks; all raws read before one source pass;
+  zero failure/retry/crop repair. One 2A occurrence link fixed in a fresh metadata
+  revision; all source text and prior outputs preserved. Unchanged 213-test baseline.
+  Six articles are readable/sample-reviewed; 50 of 56 canonical entries remain
+  unresolved. Next: batch07 verifies SPC-1000 tip : BEEP from printed36/PDF38,
+  keeping the lower 컴퓨돌이 panel separate. Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.
