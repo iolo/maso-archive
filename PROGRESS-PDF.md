@@ -6,50 +6,59 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: twenty-one readable articles, zero partial articles,
-five non-owning headings and 11 of 37 entries unresolved. Canonical0025, 까만돌 하얀돌,
-is complete at packages/black-white. The 137-file package matches its independent
-rebuild byte for byte. Actual extent is219–222/PDF221–224: the listing ends with
-1380 END before independent 복덕방 classifieds223–225/PDF225–227. No body pages or
-assembly remain pending. Source 김현태,부산 구포여상 교사,SPC-1000 and 공모우수상
-remain separate from program credit Kim Heontae/date1984.10.9.; canonical identity
-is unchanged. No global folio offset or next-TOC boundary was inferred.
+December 1984 is in progress: twenty-two readable articles, zero partial articles,
+six non-owning headings and 9 of 37 entries unresolved. SPC-CLOCK, canonical0027,
+is complete at packages/spc-clock. The 236-file package matches its independent
+rebuild byte for byte. Its actual extent is226–231/PDF228–233: prose ends229;
+assembly ends at source ordinal0154 RET and BASIC ends470 PLAY on231, before
+independent 리로케이터232/PDF234. No body pages or assembly remain pending.
+Source title SPC-CLOCK의 추가설명과 테크닉응용,byline 탁 연 상 and program credit
+BY TAK YEON SANG/date1984.11.13 remain literal; canonical identities are unchanged.
+메아리0026 is a non-owning section banner repeated on independent child articles.
+It owns no body pages. No global folio offset or next-TOC boundary was inferred.
 
-Four source pages retain38 regions,20 blocks and eight original images. All6,286
-indexed UTF-8 range occurrences are exact. Six title glyphs retain their individual
-source occurrences and original board design. Twelve screen labels/count/key fields
-retain the original screenshot; its grid/pieces were not reconstructed or counted.
-Three prose tables retain33 rows/77 cells:11 label explanations,11 variable records
-and11 program-line explanations. These prose row numbers are not BASIC labels.
+Six source pages retain68 regions,48 blocks and15 original images. All6,348 indexed
+UTF-8 range occurrences are exact. Five diagrams retain original arrows,hatching,
+stacks and screen geometry;86 diagram-label rows and four tables/12 rows/36 cells
+remain source candidates. Three prose joins retain their original regional boundaries.
+Seven printed caption parts supply nine caption links; six frames remain uncaptioned.
 
-One complete BASIC program retains234 physical rows,147 visible numbered entries
-and87 continuations across five original frames. It retains104 paired quoted fields,
-11 quoted label definitions,33 quoted label references,62 reference clauses and28
-opaque hex fields. The380 banner crosses columns;720 continues on222 without a
-visible label. Numeric-only0 and000*X wraps remain continuations; line labels are
-identified within each physical row using horizontal whitespace only. Physical WHITE,
-DEAD,next/menu,keyword and decimal10 wraps remain intact. No executable flattening.
+Seven independent code groups retain224 physical rows:155 assembly rows with source
+ordinals and1,085 independent columns,47 main BASIC rows/46 visible labels/one wrap,
+one inline BASIC row,four circled patch rows and17 inline assembly rows(9+5+3).
+Only47 actual BASIC labels are indexed; assembly ordinals,patch numbers and prose
+references are separate roles. Nine EQU fields,one ORG,one DEFB,109 emitted runs
+and195 opaque hex pairs remain independent. Missing90 and the standalone2 after
+120's &HD remain physical source features; no END or executable join was supplied.
 
-Forty-six decorative dash/ampersand bands retain count-unknown markers and originals.
-Nine quoted repeated-glyph runs and six space runs remain candidates with unverified
-source counts. Source SOUND13;9,NC(1000),SC1~15,720L prose versus710M listing,
-두려워하거나 and arrow candidates↑↓→→ remain unchanged. Unicode boxed cursor/C
-approximations retain their original scans; source encoding/directions are unverified.
-All eight header/screen/program/publisher-mark frames have no invented captions.
+Two semicolon bands retain unknown-count markers and original frames. Seventeen
+quoted music fields retain unverified O/0,notes,repeats and spaces. D000/ORG0EA00H,
+ERR/ERC/EPR/EROR,E8CFH/E8CFF,prose POKE E8 versus BASIC EA,CURST2/CURS.2 and
+N4 EQU5 remain independent. Source INCRESE,CHANL,ADDRES,ROUTIN,INTERUPT,
+아리숭하다,기보여서,그곳으로로,멀리미터 and the SN3 grammatical error remain.
+The uncertain closing parenthesis after guide(200 was not supplied. No opcode,byte,
+address,firmware,encoding,MML,grammar or diagram reconstruction.
 
-All11 whole views were inspected: four mapped pages,seven outside-map lookups and
-one canonical task. Six pinned render pairs were reused; five new pairs were rendered.
-All38 original and four revised exact crops were inspected before30 successful OCR
-tasks(5eng/25kor+eng). Four prose right boundaries were extended before OCR. OEM1/PSM6,
-one thread and3000-pixel long edge remain pinned. One source correction pass; zero
-OCR failures,retries or post-OCR repairs. A fresh metadata revision corrects two
-screen BLACK/WHITE ranges to their own column-label occurrences rather than repeated
-header words. Source text,raw drafts and the original correction object remain unchanged.
+All ten whole views were inspected: six mapped pages,four outside-map lookups and
+two canonical tasks. Four pinned render pairs were reused; six new pairs were rendered.
+All68 original and15 revised exact crops were inspected before53 successful tasks
+(9eng/44kor+eng),using pinned OEM1/PSM6,one thread and3000-pixel long edge.
+All53 raw drafts were read before one source correction pass; zero OCR failures,
+retries or post-OCR repairs. Truncated draft output was re-read in bounded calls.
+All39,527 prior files and29 implementation pins pass; the new preservation inventory
+contains40,519 files. The unchanged213-test baseline is reused. Human acceptance,
+full proofreading,source encoded bytes,hardware/historical claims and execution remain
+unverified. No reader rebuild.
 
-All38,939 prior files and29 implementation pins pass; the new preservation inventory
-contains39,527 files. The unchanged213-test baseline is reused. Human acceptance,
-full proofreading,source encoded bytes,game/historical/hardware claims and execution
-remain unverified. No reader rebuild.
+Black-white219–222 remains complete at packages/black-white:137 files match its
+independent rebuild;38 regions/20 blocks/eight originals/6,286 exact ranges survive.
+Its one BASIC program retains234 physical rows/147 labels/87 continuations; numeric-only
+0 and000*X remain wraps. Three prose tables retain33 rows/77 cells;six title glyphs,
+12 screen labels and the original board remain. Forty-six decorative dash/ampersand
+bands have unknown counts; nine quoted runs/six space runs/boxed cursor/C/↑↓→→ remain
+unverified. SOUND13;9,NC(1000),SC1~15,720L prose/710M code,두려워하거나 and all
+physical keyword/string/decimal wraps remain. Two screen BLACK/WHITE occurrence ranges
+retain their fresh metadata revision; original correction/text/OCR remain unchanged.
 
 64 Column214–218 remains complete at column64-complete-r01:144 files match its
 independent rebuild; all135 original native files remain exact. All92 category
@@ -131,17 +140,17 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
 cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-Next: batch43, source 메아리0026 and SPC-CLOCK0027. Confirm the former as a
-non-owning heading and inspect the latter's actual full extent,byline,remaining folios,
-neighbors and independent advertisements before mapping. Source226/PDF228,227/PDF229
-and228/PDF230 were individually observed as outside-map lookups; later folios/ending
-are unverified. The next TOC reference 리로케이터232 is not a PDF boundary. Reuse pinned
-227–230 full/review views and inspect all eligible pages. Map at most six pages/two
-canonical tasks/twenty outside-map lookups;split a longer body. Preserve all diagrams,
-labels,formulas,tables,assembly/BASIC/hex/patch/quote fields,physical wraps,source claims
-and originals. Inspect every exact crop before mapped Tesseract;one source correction
-pass,no opcode/byte/address/firmware/math/encoding/graphic repair. All29 implementation
-pins/213-test baseline unchanged. No reader rebuild.
+Next: batch44, 리로케이터0028 and 바이오리듬0029. Inspect actual full extents,
+bylines,folios,neighbors and independent advertisements before mapping. Independent
+리로케이터232–233/PDF234–235(source 정주원/FC-100) and 바이오리듬234/PDF236
+(source 차원기/MSX) were individually seen as outside-map lookups; the latter's ending
+and later folios remain unverified. Reuse pinned233–236 whole/review pairs. Provisional
+PDF234–239 are lookup candidates,not established article boundaries. Map at most six
+eligible pages/two canonical tasks/twenty outside-map lookups; split a longer body.
+Preserve every hex/assembly/BASIC/table/diagram/formula/quote/physical-wrap/source-claim
+field and original image. Inspect every exact crop before mapped Tesseract; one source
+correction pass,no opcode/byte/address/hardware/encoding/math/MML/graphic repair.
+All29 implementation pins/213-test baseline unchanged. No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.

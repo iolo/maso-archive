@@ -7700,19 +7700,194 @@
       "toc_entry_id": "maso-1984-12-toc-0026",
       "title": "메아리",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_record": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/echo-classification.json",
+        "sha256": "23d7c560887c6368a3d6232bfc03cdc7f0e1fdaf8fee9f9149f3e85f7c4e3c2f",
+        "bytes": 1593
+      },
+      "classification_evidence": [
+        "CanonicalTOCentryhasnopagereferenceandparentstoindependent0027/0028/0029articles.",
+        "Same메아리triangle appears onSPC-CLOCK226–231andindependent리로케이터232/바이오리듬234;eachhasown title/byline/body. Bannerisnon-owningsectionfurniture,notasecondbody."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0027",
       "title": "SPC-CLOCK의 추가설명과 테크닉응용",
       "parent_id": "maso-1984-12-toc-0026",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/spc-clock",
+        "article_id": "scan-maso-1984-12-toc-0027",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/spc-clock/manifest.json",
+          "sha256": "b612987ea60d4636f503b6fef535fdc7c1cda94691d70ec4641aefee86f7c48c",
+          "bytes": 41099
+        },
+        "coverage": {
+          "pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233
+          ],
+          "printed_pages": [
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231"
+          ],
+          "regions": 68,
+          "blocks": 48,
+          "figures": 15
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233
+          ],
+          "printed_pages": [
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231"
+          ],
+          "opening_pdf": 228,
+          "ending_pdf": 233,
+          "previous_pdf": 227,
+          "next_pdf": 234,
+          "printed_title_candidate": "SPC-CLOCK의 추가설명과 테크닉응용",
+          "byline_candidate": "탁연상",
+          "section_candidate": "메아리",
+          "program_credit_candidate": "BY TAK YEON SANG / 1984.11.13",
+          "ending_evidence": "Alltenwholeviews227–236 individuallyinspected. SPC-CLOCKprose ends229withpublishermark;list1assemblycontinues230–231throughsourceordinal0154RET;list2BASICends470PLAY on231withoutEND. Independent리로케이터232/PDF234 followswithsource정주원/FC-100,hexlistings233/PDF235,andindependent바이오리듬234/PDF236. Previous225/PDF227ends복덕방classifieds. No globalfoliooffset orTOCboundaryinference."
+        },
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-43/source-reviewed.json",
+          "sha256": "e4f44f5692bf691960e96993b2367c38071d01194ac1a5001e7d09220c6ca8d2",
+          "bytes": 8712
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-43/source-index-schema.json",
+          "sha256": "920f9ce214a2a9ef37151c8de7c6d9b76cd5a88d1a276c69cbaf1f091c3efa6e",
+          "bytes": 5741
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-43/reproduction.json",
+          "sha256": "8dff03a9def85605e43742ce9c41623922440fad430a2cbb6c0ed01c6dad9fcd",
+          "bytes": 2790
+        },
+        "source_code_connections": [
+          {
+            "connection_type": "physical-assembly-column-or-page-sequence",
+            "listing_id": "spc-clock-assembly-list1",
+            "previous_region_id": "p230-assembly-left",
+            "next_region_id": "p230-assembly-right",
+            "previous_last_physical_text": "0049 EA23 3EFF             LD A,0FFH",
+            "next_first_physical_text": "0050 EA25 321711           LD (MASKB),A",
+            "executable_join_performed": false
+          },
+          {
+            "connection_type": "physical-assembly-column-or-page-sequence",
+            "listing_id": "spc-clock-assembly-list1",
+            "previous_region_id": "p230-assembly-right",
+            "next_region_id": "p231-assembly-rest",
+            "previous_last_physical_text": "0101 EA7E FB               EI",
+            "next_first_physical_text": "0102 EA7F ED4D             RETI",
+            "executable_join_performed": false
+          }
+        ],
+        "caption_associations_pending": [],
+        "source_title": {
+          "candidate": "SPC-CLOCK의 추가설명과 테크닉응용",
+          "canonical_title": "SPC-CLOCK의 추가설명과 테크닉응용",
+          "canonical_identity_changed": false
+        },
+        "source_credit": {
+          "printed_byline": "탁 연 상",
+          "program_credit": "BY TAK YEON SANG",
+          "program_date": "1984.11.13",
+          "canonical_identity_changed": false
+        },
+        "pending_manual_source_glyphs": [
+          {
+            "region_id": "p230-assembly-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 779,
+            "utf8_byte_end_exclusive": 814,
+            "transcription_excerpt": "⟦semicolon band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/spc-clock/ocr-page232/p230-assembly-left.png",
+              "sha256": "3679348391c4fc18ad89bf4c4185095a160926a9b979b708d85e46493c8ad59b",
+              "bytes": 804127
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/spc-clock/corrections.json",
+              "sha256": "3ef939ec8c3cd3914fca10c3b3c65e06299273a0a1e6793f01248ada448b1655",
+              "bytes": 4769303
+            }
+          },
+          {
+            "region_id": "p230-assembly-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 981,
+            "utf8_byte_end_exclusive": 1016,
+            "transcription_excerpt": "⟦semicolon band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/spc-clock/ocr-page232/p230-assembly-left.png",
+              "sha256": "3679348391c4fc18ad89bf4c4185095a160926a9b979b708d85e46493c8ad59b",
+              "bytes": 804127
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/spc-clock/corrections.json",
+              "sha256": "3ef939ec8c3cd3914fca10c3b3c65e06299273a0a1e6793f01248ada448b1655",
+              "bytes": 4769303
+            }
+          }
+        ],
+        "music_string_review": {
+          "quoted_music_candidates": 17,
+          "O_or_zero_glyphs": "unverified",
+          "source_glyph_and_space_counts": "unverified",
+          "music_semantics_verified": false,
+          "corrections": {
+            "path": "archive/pdf/1984-12/packages/spc-clock/corrections.json",
+            "sha256": "3ef939ec8c3cd3914fca10c3b3c65e06299273a0a1e6793f01248ada448b1655",
+            "bytes": 4769303
+          }
+        }
+      },
+      "classification_evidence": [
+        "Source226–231/PDF228–233 beginsindependentlywithtitle/byline탁연상;proseends229withpublishermark;assembly0000–0154endsRETandBASIClist2ends470PLAYon231beforeindependent리로케이터232/PDF234. Previous225endsclassifieds. No inferredglobaloffset/nextTOCboundary. 메아리 is repeatednon-owningbanner;canonicalidentity/parentunchanged.",
+        "236file native/independentrebuild exact:68regions/48blocks/15originals/6348exactUTF8rangeoccurrences. Five diagrams/originaltopology/86labelrows/fourdiagramtables12rows36cells/threeprosejoins retained. Sevenprintedcaptions/ninecaptionlinks/sixuncaptionedframes;no inventedcaption.",
+        "Sevenindependentcodegroupsretain224physicalrows:155assemblyordinals/1085independentcolumns/109emittedruns/195opaquepairs/9EQU/ORG/DEFB;mainBASIC47rows46labels/one120wrap;inlineBASIC1/circledpatch4/inlineASM9+5+3. Only47actualBASIClabels. Missing90andnoENDpreserved;two unknownsemicolonbands/17opaqueMMLstrings. D000/ORG0EA00H,ERR/ERC/EPR/EROR,E8CFH/E8CFF,proseE8/codeEA,CURST2/CURS.2,N4EQU5 andsourcespellings retainedindependently.",
+        "Alltenwholeviews/68original/15revisedcrops inspectedbefore53successfultasks(9eng/44kor+eng). All53rawsread beforeonesourcecorrectionpass;zero failures/retries/postOCRrepairs. Originalspaces/glyphs/MML/sourceencodedbytes/hardwareclaims/fullproofreading/humanacceptance/execution unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0028",
@@ -7831,11 +8006,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 21,
-    "readable_articles": 21,
+    "classified_articles": 22,
+    "readable_articles": 22,
     "partial_articles": 0,
-    "nonowning_headings": 5,
-    "unresolved_eligibility": 11,
+    "nonowning_headings": 6,
+    "unresolved_eligibility": 9,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -13648,42 +13823,170 @@
         "sha256": "6a00078a77293c3f4eeb168a082cfe49c1f381c094890682252efe1dc1f184ac",
         "bytes": 9064243
       }
+    },
+    {
+      "id": "batch-43",
+      "status": "complete-spc-clock226–231-and-nonowning-echo",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/checkpoint.json",
+        "sha256": "0b9ea74b90de7174f2efac5e28061262fd44348128e828dfecc5e7a08ba61d62",
+        "bytes": 6863
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/checkpoint-r01.json",
+        "sha256": "30a11c3bb2a12d6d24da15238a1da5c089769e6ec352445d1272abaa05d4846a",
+        "bytes": 7844
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-43/validation.json",
+        "sha256": "4de1c0e84b35216e2b01e22a94c513568c0aa7cd3072fde51ffa38214f8654bb",
+        "bytes": 1175
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-43/verify.py",
+        "sha256": "7d3cbbda75ed0473a9e9231fa4f2232613f5ac0a9ee74064ef5c27ee595bad20",
+        "bytes": 12796
+      },
+      "heading_classification": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/echo-classification.json",
+        "sha256": "23d7c560887c6368a3d6232bfc03cdc7f0e1fdaf8fee9f9149f3e85f7c4e3c2f",
+        "bytes": 1593
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/source-reviewed.json",
+        "sha256": "e4f44f5692bf691960e96993b2367c38071d01194ac1a5001e7d09220c6ca8d2",
+        "bytes": 8712
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/mapping-completed.json",
+        "sha256": "945c3034b6a2f3371e57f757d6af5f814677ce9740f6b5e8e23f42aca4c5f7f8",
+        "bytes": 680
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/crop-repair-r01.json",
+        "sha256": "307eb9291bdfbb29c13a370b4e03b8cae13f41ffd1ac1f708bab6387eb703a49",
+        "bytes": 12149
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/preflight-reviewed.json",
+        "sha256": "9e7100dc7704cfc55f708740973e5aa4b2a25dd88c0f76a795ba2c4cd3cc55c2",
+        "bytes": 33212
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/ocr-completed.json",
+        "sha256": "f4a1b56a073f8e6824d6abd613ea32d085bda57f178c13e413a023056802c4c4",
+        "bytes": 1409
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/source-correction-reading.json",
+        "sha256": "bbcbd1e3d87c3a02306a70659238e4422296e7ec548e73d79869b1b17984f526",
+        "bytes": 1443
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-43/correction-completed.json",
+        "sha256": "c4f710fa37e35bba571b26dc35f0a5c006004d52e7adb48b5a66901bd543adeb",
+        "bytes": 838
+      },
+      "statistics": {
+        "completed_at": "2026-10-20T09:18:18.702893+00:00",
+        "regions": 68,
+        "blocks": 48,
+        "figures": 15,
+        "ocr_tasks": 53,
+        "eng_code_tasks": 9,
+        "kor_eng_tasks": 44,
+        "regional_text_ranges": 53,
+        "listing_groups": 7,
+        "physical_code_rows": 224,
+        "logical_basic_entries": 47,
+        "main_basic_physical_rows": 47,
+        "main_basic_labels": 46,
+        "main_basic_continuations": 1,
+        "assembly_ordinals": 155,
+        "assembly_columns": 1085,
+        "assembly_address_fields": 155,
+        "assembly_hex_runs": 109,
+        "assembly_hex_pairs": 195,
+        "equ_fields": 9,
+        "directive_fields": 11,
+        "unknown_bands": 2,
+        "quoted_music_fields": 17,
+        "table_rows": 12,
+        "table_cells": 36,
+        "table_headers": 4,
+        "diagram_label_rows": 86,
+        "caption_links": 9,
+        "caption_parts": 7,
+        "uncaptioned_figures": 6,
+        "prose_joins": 3,
+        "source_correction_passes": 1
+      },
+      "actual_ocr_tasks": 53,
+      "eng_code_tasks": 9,
+      "kor_eng_tasks": 44,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 15,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 39527,
+      "rebuild_files": 236,
+      "new_source_renders": 6,
+      "reused_full_page_renders": 4,
+      "mapped_source_pages": 6,
+      "outside_map_lookups": 4,
+      "canonical_tasks": 2,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "implementation_pins_verified": 29,
+      "exact_utf8_range_occurrences": 6348,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-43/preserved-work-inventory.json",
+        "sha256": "bb4fca3e69615d177b388103354aa00e7f942ef1b3bca298150da1735399cd8d",
+        "bytes": 9284026
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-43",
-    "goal": "Classify source메아리0026 as non-owningheading ifevidenceconfirms,thenrestorecanonicalSPC-CLOCK0027 afteractualextent/byline/neighborinspection;atmosttwocanonicaltasks/sixmappedpages.",
+    "id": "batch-44",
+    "goal": "Restorecanonical리로케이터0028 and바이오리듬0029 afteractualextent/byline/neighborinspection;atmosttwocanonicaltasks/sixmappedpages.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0026",
-      "maso-1984-12-toc-0027"
+      "maso-1984-12-toc-0028",
+      "maso-1984-12-toc-0029"
     ],
     "mapping_targets": [
-      228,
-      229,
-      230,
-      231,
-      232,
-      233
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
     ],
     "printed_page_targets": [
-      "226",
-      "227",
-      "228",
+      "232",
+      "233",
+      "234",
       null,
       null,
       null
     ],
     "provisional_lookup_targets": [
-      227,
-      228,
-      229,
-      230,
-      231,
-      232,
       233,
       234,
       235,
-      236
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243
     ],
     "full_extent_review_pending": true,
     "limits": {
@@ -13691,7 +13994,7 @@
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Source메아리triangle/SPC-CLOCKopening226/PDF228,227/PDF229 and228/PDF230 individuallyseen as batch42outside-maplookups. Source탁연상 titleSPC-CLOCK의추가설명과테크닉응용 retained;no bodyownershipforthegroupheading. Actualending/remainingfolios/independentads/nextarticle unverified. Reusepinned227–230full/reviewpairsandreinspect actualfullsourceextent/neighbors beforemapping;nextTOC리로케이터232 isreferenceonly,notPDFboundary. Atmostsixeligiblepages/twocanonicaltasks/twentyoutsidelookups;splitlongerbody. Preserveeverydiagram/topology/label/table/formula/assembly/BASIC/hex/patch/quoted/physicalwrap/sourceclaim and originalimage ifpresent;inspecteveryexactcrop beforemappedTesseract andonecorrectionpass. No opcode/byte/address/firmware/math/encoding/syntax/graphic repair. Black-whitecomplete137filesselected/46unknownbands/quotedruns/boxedarrowcandidates retained,notdeferredpages.64Column144files/135natives remainscomplete.29implementationpins/213testbaseline unchanged. No reader rebuild."
+    "note": "Independent리로케이터232–233/PDF234–235/source정주원/FC-100 andnext바이오리듬234/PDF236/source차원기/MSX individuallyseen as outside-maplookups. Actualbiorhythmending/remainingfolios/neighbors/independentads unverified;nomapderivedfromTOC. Reusepinned233–236whole/reviewpairsandreinspectactualsource beforemapping;atmostsixeligiblepages/twotasks/twentyoutsidelookups,splitlongerbody. 메아리0026now non-owningwithoutbody. Preserveallhex/assembly/BASIC/table/diagram/formula/quote/physicalwrap/sourceclaim/originalfields. Inspecteveryexactcrop beforemappedTesseract,onesourcecorrectionpass,noopcode/byte/address/hardware/encoding/math/MML/graphicrepair. SPC-CLOCKcomplete236files/two unknownbands/17opaqueMMLstrings retained. 29implementationpins/213testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
