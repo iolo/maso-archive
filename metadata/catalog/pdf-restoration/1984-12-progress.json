@@ -5875,15 +5875,15 @@
       "parent_id": "maso-1984-12-toc-0022",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "restoration": {
-        "directory": "archive/pdf/1984-12/packages/column64-a",
+        "directory": "archive/pdf/1984-12/packages/column64-complete-r01",
         "article_id": "scan-maso-1984-12-toc-0024",
         "manifest": {
-          "path": "archive/pdf/1984-12/packages/column64-a/manifest.json",
-          "sha256": "05c66be4c020c12fb90310f8a3724bb7cf9d8cf7e639d2fff7120e28d847dd7a",
-          "bytes": 10576
+          "path": "archive/pdf/1984-12/packages/column64-complete-r01/manifest.json",
+          "sha256": "a46e03c296ae580224992cb1620a6b9137d6bb3a0b5065742a953b3655eaf957",
+          "bytes": 25562
         },
         "coverage": {
           "pdf_pages": [
@@ -5931,32 +5931,76 @@
         },
         "deferred_pdf_pages": [],
         "deferred_printed_pages": [],
-        "assembly_required": true,
+        "assembly_required": false,
         "source_review": {
-          "path": "archive/pdf/1984-12/restoration/batch-40/source-reviewed.json",
-          "sha256": "1d3f0ba45086b8479cee97448600ef9c7cf94d4665a582a9e0165d0a92f583f4",
-          "bytes": 9178
+          "path": "archive/pdf/1984-12/restoration/batch-41/source-reviewed.json",
+          "sha256": "735395ebf889ade6e9593334b6f786975426baf2d75034cbaeb5e22b4ed8d578",
+          "bytes": 6840
         },
         "source_index_schema": {
-          "path": "archive/pdf/1984-12/restoration/batch-40/column64-a/source-index-schema.json",
-          "sha256": "e6933ff105ef83a31d665d0f7589969391e2d1e43deef38d889942fc161b9bd8",
-          "bytes": 4189
+          "path": "archive/pdf/1984-12/restoration/column64-assembly/source-index-schema.json",
+          "sha256": "9291786227c49f3e4b60ffb825bac23054b58dbe0c1d30f1c70356e852bc548d",
+          "bytes": 3206
         },
         "reproduction": {
-          "path": "archive/pdf/1984-12/restoration/batch-40/column64-a/reproduction.json",
-          "sha256": "8250a92bea63f871da5d6d17729b97d046331885f1a7d87e7de1d1838d8ed4bb",
-          "bytes": 1905
+          "path": "archive/pdf/1984-12/restoration/column64-assembly/reproduction.json",
+          "sha256": "ddae01b37e2eacffe320082fc65acfa1f5cbf7410f1141c86a3b244fe1988386",
+          "bytes": 2821
         },
         "source_code_connections": [
           {
-            "listing_id": "column64-test2-opening",
-            "source_region_id": "p215-test2-right",
-            "last_current_printed_line": 290,
-            "last_current_fragment": "ABO3C",
-            "target_pdf_page": 218,
-            "target_printed_page": "216",
-            "next_source_fragment_candidate": "DEFG\"",
-            "relationship": "Next physical source row continues openmusicfield;targetsourceinspectedbutnotmapped. No quote completion or runnable flattening."
+            "connection_type": "complete-article-physical-music-continuation",
+            "source_line": 290,
+            "opening_fragment": {
+              "source_segment": "a",
+              "block_id": "column64-test2-opening",
+              "region_id": "p215-test2-right",
+              "download": "listing.txt",
+              "utf8_byte_start": 1074,
+              "utf8_byte_end_exclusive": 1144,
+              "transcription_excerpt": "290 PLAY \"V15O3C3EDFEGFAGBA+CB+D\n    +C+E:V13O5C5CCCCCCC:V12O2G5ABO3C\n",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/column64-complete-r01/segments/a/ocr-page217/p215-test2-right.png",
+                "sha256": "c89df1f3f34f8fa378e0012db26df61d097e9e66dcbad46be15c501d25c8dae0",
+                "bytes": 257061
+              }
+            },
+            "incoming_physical_fragment": {
+              "source_segment": "b",
+              "block_id": "column64-test2-ending",
+              "region_id": "p216-test2-rest",
+              "download": "listing.txt",
+              "utf8_byte_start": 1144,
+              "utf8_byte_end_exclusive": 1149,
+              "transcription_excerpt": "DEFG\"",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/column64-complete-r01/segments/b/ocr-page218/p216-test2-rest.png",
+                "sha256": "b20a4d45e5627836219959ccadce38c42f207e51ad4e24829a353e6309fb6dce",
+                "bytes": 263090
+              }
+            },
+            "incoming_visible_label": null,
+            "incoming_continued_printed_line": 290,
+            "closing_quote_visible_in_tail": true,
+            "source_continuation_coverage_complete": true,
+            "original_opening_fragment_modified": false,
+            "quote_supplied_in_opening": false,
+            "executable_join_performed": false,
+            "source_bytes": "unverified",
+            "O_or_zero_glyphs": "unverified",
+            "repeated_music_glyph_counts": "unverified",
+            "quoted_spaces": "unverified",
+            "full_listing": {
+              "path": "archive/pdf/1984-12/packages/column64-complete-r01/listing.txt",
+              "sha256": "30340c618456ed739542b08d6eb54a8827a61fd8c2c9c7c4e58a0105407ecf6f",
+              "bytes": 13780
+            },
+            "full_corrections": {
+              "path": "archive/pdf/1984-12/packages/column64-complete-r01/corrections.json",
+              "sha256": "6181b03e324389727286fe233940d1b016e83d0bbde92b4f7923b9795fd8a1b2",
+              "bytes": 24288144
+            },
+            "note": "This records physical adjacency and the visible tail quote only. The opening native retains its exact open candidate; the closing first physical row retains no visible label. No MML interpretation,byte certification,quote insertion or executable flattening."
           }
         ],
         "caption_associations_pending": [],
@@ -5995,14 +6039,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test1-left.png",
+              "path": "archive/pdf/1984-12/packages/column64-complete-r01/segments/a/ocr-page217/p215-test1-left.png",
               "sha256": "1a7f359c9c151d3d5a73a5af386da1929d175b6f677a891c7901724511d948d2",
               "bytes": 211509
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
-              "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
-              "bytes": 731282
+              "path": "archive/pdf/1984-12/packages/column64-complete-r01/corrections.json",
+              "sha256": "6181b03e324389727286fe233940d1b016e83d0bbde92b4f7923b9795fd8a1b2",
+              "bytes": 24288144
+            },
+            "original_native_occurrence": {
+              "region_id": "p215-test1-left",
+              "download": "listing.txt",
+              "utf8_byte_start": 120,
+              "utf8_byte_end_exclusive": 154,
+              "transcription_excerpt": "⟦asterisk band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test1-left.png",
+                "sha256": "1a7f359c9c151d3d5a73a5af386da1929d175b6f677a891c7901724511d948d2",
+                "bytes": 211509
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
+                "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
+                "bytes": 731282
+              }
             }
           },
           {
@@ -6015,14 +6079,34 @@
             "printed_source": false,
             "manual_correction": "pending-if-exact-band-count-required",
             "scan": {
-              "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test2-right.png",
+              "path": "archive/pdf/1984-12/packages/column64-complete-r01/segments/a/ocr-page217/p215-test2-right.png",
               "sha256": "c89df1f3f34f8fa378e0012db26df61d097e9e66dcbad46be15c501d25c8dae0",
               "bytes": 257061
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
-              "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
-              "bytes": 731282
+              "path": "archive/pdf/1984-12/packages/column64-complete-r01/corrections.json",
+              "sha256": "6181b03e324389727286fe233940d1b016e83d0bbde92b4f7923b9795fd8a1b2",
+              "bytes": 24288144
+            },
+            "original_native_occurrence": {
+              "region_id": "p215-test2-right",
+              "download": "listing.txt",
+              "utf8_byte_start": 770,
+              "utf8_byte_end_exclusive": 804,
+              "transcription_excerpt": "⟦asterisk band: count unknown⟧",
+              "source_glyph_count": "unknown",
+              "printed_source": false,
+              "manual_correction": "pending-if-exact-band-count-required",
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test2-right.png",
+                "sha256": "c89df1f3f34f8fa378e0012db26df61d097e9e66dcbad46be15c501d25c8dae0",
+                "bytes": 257061
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
+                "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
+                "bytes": 731282
+              }
             }
           }
         ],
@@ -6037,16 +6121,44 @@
             "repeated_C_count": "unverified",
             "source_bytes": "unverified",
             "manual_correction": "pending-if-exact-music-byte-certification-required",
-            "closing_quote_in_current_native": false,
+            "closing_quote_in_original_native": false,
+            "full_article_physical_continuation_covered": true,
+            "physical_tail_association": {
+              "path": "archive/pdf/1984-12/restoration/column64-assembly/source-boundary-associations.json",
+              "sha256": "dc03157568a6c3805912df8a6fa3ee890b26b08a1ed4dc890f4ad3a33227f838",
+              "bytes": 2806
+            },
             "scan": {
-              "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test2-right.png",
+              "path": "archive/pdf/1984-12/packages/column64-complete-r01/segments/a/ocr-page217/p215-test2-right.png",
               "sha256": "c89df1f3f34f8fa378e0012db26df61d097e9e66dcbad46be15c501d25c8dae0",
               "bytes": 257061
             },
             "corrections": {
-              "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
-              "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
-              "bytes": 731282
+              "path": "archive/pdf/1984-12/packages/column64-complete-r01/corrections.json",
+              "sha256": "6181b03e324389727286fe233940d1b016e83d0bbde92b4f7923b9795fd8a1b2",
+              "bytes": 24288144
+            },
+            "original_native_occurrence": {
+              "region_id": "p215-test2-right",
+              "download": "listing.txt",
+              "utf8_byte_start": 1074,
+              "utf8_byte_end_exclusive": 1144,
+              "transcription_excerpt": "290 PLAY \"V15O3C3EDFEGFAGBA+CB+D\n    +C+E:V13O5C5CCCCCCC:V12O2G5ABO3C\n",
+              "O_or_zero_glyphs": "unverified",
+              "repeated_C_count": "unverified",
+              "source_bytes": "unverified",
+              "manual_correction": "pending-if-exact-music-byte-certification-required",
+              "closing_quote_in_current_native": false,
+              "scan": {
+                "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test2-right.png",
+                "sha256": "c89df1f3f34f8fa378e0012db26df61d097e9e66dcbad46be15c501d25c8dae0",
+                "bytes": 257061
+              },
+              "corrections": {
+                "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
+                "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
+                "bytes": 731282
+              }
             }
           }
         ],
@@ -6157,9 +6269,9 @@
           }
         ],
         "latest_reproduction": {
-          "path": "archive/pdf/1984-12/restoration/batch-41/reproduction.json",
-          "sha256": "e231ebedad0aa3fd94297828588ac3a45fa3328898ca26bc642d29e1c99ef1e8",
-          "bytes": 2387
+          "path": "archive/pdf/1984-12/restoration/column64-assembly/reproduction.json",
+          "sha256": "ddae01b37e2eacffe320082fc65acfa1f5cbf7410f1141c86a3b244fe1988386",
+          "bytes": 2821
         },
         "closing_source_code_connections": [
           {
@@ -6295,6 +6407,55 @@
           "coverage_complete": true,
           "opening_original_modified": false,
           "music_interpretation_or_source_bytes_verified": false
+        },
+        "native_primary_record": {
+          "directory": "archive/pdf/1984-12/packages/column64-a",
+          "article_id": "scan-maso-1984-12-toc-0024",
+          "manifest": {
+            "path": "archive/pdf/1984-12/packages/column64-a/manifest.json",
+            "sha256": "05c66be4c020c12fb90310f8a3724bb7cf9d8cf7e639d2fff7120e28d847dd7a",
+            "bytes": 10576
+          },
+          "source_review": {
+            "path": "archive/pdf/1984-12/restoration/batch-40/source-reviewed.json",
+            "sha256": "1d3f0ba45086b8479cee97448600ef9c7cf94d4665a582a9e0165d0a92f583f4",
+            "bytes": 9178
+          },
+          "source_index_schema": {
+            "path": "archive/pdf/1984-12/restoration/batch-40/column64-a/source-index-schema.json",
+            "sha256": "e6933ff105ef83a31d665d0f7589969391e2d1e43deef38d889942fc161b9bd8",
+            "bytes": 4189
+          },
+          "reproduction": {
+            "path": "archive/pdf/1984-12/restoration/batch-40/column64-a/reproduction.json",
+            "sha256": "8250a92bea63f871da5d6d17729b97d046331885f1a7d87e7de1d1838d8ed4bb",
+            "bytes": 1905
+          }
+        },
+        "original_opening_source_code_connections": [
+          {
+            "listing_id": "column64-test2-opening",
+            "source_region_id": "p215-test2-right",
+            "last_current_printed_line": 290,
+            "last_current_fragment": "ABO3C",
+            "target_pdf_page": 218,
+            "target_printed_page": "216",
+            "next_source_fragment_candidate": "DEFG\"",
+            "relationship": "Next physical source row continues openmusicfield;targetsourceinspectedbutnotmapped. No quote completion or runnable flattening."
+          }
+        ],
+        "index_mode": "design-literal-v1",
+        "check_entrypoint": "tools.pdf_restore.design_literal_assembly.check",
+        "complete_article_assembly_pending": false,
+        "source_boundary_associations": {
+          "path": "archive/pdf/1984-12/restoration/column64-assembly/source-boundary-associations.json",
+          "sha256": "dc03157568a6c3805912df8a6fa3ee890b26b08a1ed4dc890f4ad3a33227f838",
+          "bytes": 2806
+        },
+        "complete_assembly_validation": {
+          "path": "archive/pdf/1984-12/evidence/column64-assembly/validation.json",
+          "sha256": "2461f6f5bf0e38d70b7de13c7729ff6d0f2b4aa3c47e5f7058522eabe6f5af04",
+          "bytes": 23277
         }
       },
       "classification_evidence": [
@@ -6303,7 +6464,8 @@
         "Test2line290openmusicfragmentphysicallycontinuesDEFGquoteonnext216;notcompletedorinterpreted. O/0,C-runglyphcounts/quotedspaces/musicbytes unverified.216–218andfullarticleassembly explicitlydeferred.",
         "Closing216–218/PDF218–220 complete at column64-b:72files match independentrebuild;24regions/fiveblocks/11originals/13regionalspans/15358exactUTF8rangeoccurrences. 19physicalBASICrows/ninevisiblelabels/incomingDEFGquote linked to immutableopening290 without suppliedlabel or quote.",
         "List1 retains223physicalrows/215printedordinals0000–0214/eighthexcontinuations/1338columns/223addresses/221hexruns/425literalhexpairs/29labels/215instructionfields/203operands/threeDEFMstrings. FirstD000/ORG0E800H,1180H,LOP?? and emitted/operandfields independent;no opcode/endian/byte/address repair.",
-        "List2 retains224physicalrecords/2016cells(224opaqueaddresses/1792valuefields),sixoriginalpanels and sharedcaption;no decodedbitmaps/generatedaddresses. Tenlocalcaptionlinks/twocaptions/oneincomingframewithoutlocalcaption;exactlink to previous test2caption. All135nativefiles retained;full214–218assembly pending before readablepromotion."
+        "List2 retains224physicalrecords/2016cells(224opaqueaddresses/1792valuefields),sixoriginalpanels and sharedcaption;no decodedbitmaps/generatedaddresses. Tenlocalcaptionlinks/twocaptions/oneincomingframewithoutlocalcaption;exactlink to previous test2caption. All135nativefiles retained;full214–218assembly pending before readablepromotion.",
+        "Complete64Column214–218/PDF216–220 independentlyreproduces144files;all135nativefiles retainedexactly(63opening/72closing),with no metadata revision. All92categoryoccurrences/16415UTF8ranges independentlyreverse-project;fulloriginalmetadata retained. Fivepages/42regions/15blocks/17originals/5listinggroups/520physicalrows:73BASICrows53visiblelabels20continuations,223assemblyrows215ordinals8hexcontinuations,224fontrecords2016cells. IncomingDEFGquote linked to original290without supplying label/quote or flattening. Sourceerrors,D000/ORG0E800H,1180H,LOP??,070D/0D07,quotedspaces/musicglyphs opaque. Two countunknownbands/sourceuncertainties remain;rootmanual linksusecompletepackage and retainoriginalrecords.14captionlinks/fourcaptions/threeuncaptionedframes. Sixexactstagingnotes resolved;alloriginalnotes retained.16516externalpinoccurrences/100retainedfiles verified. No newsource/OCRwork;29implementationpins/213testbaseline unchanged. Humanacceptance/fullproofreading/sourcebytes/execution unverified."
       ]
     },
     {
@@ -6451,8 +6613,8 @@
   "totals": {
     "canonical_entries": 37,
     "classified_articles": 20,
-    "readable_articles": 19,
-    "partial_articles": 1,
+    "readable_articles": 20,
+    "partial_articles": 0,
     "nonowning_headings": 5,
     "unresolved_eligibility": 12,
     "human_accepted_articles": 0
@@ -12031,29 +12193,161 @@
         "sha256": "aa67becbf47a37b940c8445cd60352f95a9f64262b473add52e70edeee094fe3",
         "bytes": 846
       }
+    },
+    {
+      "id": "column64-assembly",
+      "status": "complete-article-assembly",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/column64-assembly/checkpoint.json",
+        "sha256": "6eb9f1ca97f2af056ba3bcc0badfd20c854811e6fc75f2a47e419c250d0a0379",
+        "bytes": 6718
+      },
+      "production_preflight": {
+        "path": "archive/pdf/1984-12/restoration/column64-assembly/production-preflight.json",
+        "sha256": "fc78f813746f3cfc164ad4aa9fd99a3b8d01295af3c50e262e2224d0647b7e68",
+        "bytes": 1020
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/column64-assembly/validation.json",
+        "sha256": "2461f6f5bf0e38d70b7de13c7729ff6d0f2b4aa3c47e5f7058522eabe6f5af04",
+        "bytes": 23277
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/column64-assembly/verify-assembly-r01.py",
+        "sha256": "87d9170ad6386d19851023c7f64acabc70abc4b043b4e05f18e7fd948de0be4f",
+        "bytes": 13443
+      },
+      "retained_verifier_failure": {
+        "path": "archive/pdf/1984-12/evidence/column64-assembly/verification-failure-r00.json",
+        "sha256": "dda4b4d8898037d58e96d64380f6ae337d46184903fc12d58ce7b9f9a6394bbb",
+        "bytes": 720
+      },
+      "recipe": {
+        "path": "archive/pdf/1984-12/restoration/column64-assembly/assembly-recipe.json",
+        "sha256": "a3c87ad7ec99ab16a4fad3194b20da010dea6abaa83b20489001908c0aac2027",
+        "bytes": 6536
+      },
+      "input_audit": {
+        "path": "archive/pdf/1984-12/restoration/column64-assembly/input-audit.json",
+        "sha256": "67edf9f456f475e67c9fb104ddccc0afd0696fd4bb91a212906f919fe35199a4",
+        "bytes": 38589
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/column64-assembly/source-index-schema.json",
+        "sha256": "9291786227c49f3e4b60ffb825bac23054b58dbe0c1d30f1c70356e852bc548d",
+        "bytes": 3206
+      },
+      "source_boundary_associations": {
+        "path": "archive/pdf/1984-12/restoration/column64-assembly/source-boundary-associations.json",
+        "sha256": "dc03157568a6c3805912df8a6fa3ee890b26b08a1ed4dc890f4ad3a33227f838",
+        "bytes": 2806
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/column64-assembly/reproduction.json",
+        "sha256": "ddae01b37e2eacffe320082fc65acfa1f5cbf7410f1141c86a3b244fe1988386",
+        "bytes": 2821
+      },
+      "new_mapping_pages": 0,
+      "new_source_renders": 0,
+      "new_ocr_tasks": 0,
+      "new_source_corrections": 0,
+      "outside_map_lookups": 0,
+      "canonical_tasks": 1,
+      "rebuild_files": 144,
+      "metadata_revision_required": false,
+      "original_native_files_exact": 135,
+      "assembly_input_files_exact": 135,
+      "prior_files_verified": 38620,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "implementation_pins_verified": 29,
+      "resolved_stage_notes": 6,
+      "reader_rebuild": false,
+      "projected_category_occurrences": 92,
+      "projected_utf8_occurrences": 16415,
+      "pages": 5,
+      "regions": 42,
+      "blocks": 15,
+      "original_images": 17,
+      "physical_rows": 520,
+      "listing_groups": 5,
+      "basic_physical_rows": 73,
+      "logical_basic_entries": 53,
+      "basic_physical_continuations": 20,
+      "assembly_physical_rows": 223,
+      "assembly_ordinals": 215,
+      "assembly_hex_continuations": 8,
+      "assembly_columns": 1338,
+      "assembly_addresses": 223,
+      "assembly_hex_runs": 221,
+      "assembly_hex_pairs": 425,
+      "font_rows": 224,
+      "table_cells": 2016,
+      "font_address_fields": 224,
+      "font_value_fields": 1792,
+      "unknown_decorative_bands": 2,
+      "music_source_fragments": 2,
+      "music_continuation_coverage_complete": true,
+      "quoted_listing_fields": 17,
+      "caption_links": 14,
+      "printed_caption_parts": 4,
+      "uncaptioned_originals": 3,
+      "external_pin_occurrences_verified": 16516,
+      "external_unique_files_verified": 100,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/column64-assembly/preserved-work-inventory.json",
+        "sha256": "e38d176fa1a68390ce1543f32e872fdc7296f3f64359777f5f17bfbf412f6e3e",
+        "bytes": 8934385
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "column64-assembly",
-    "goal": "Assemble complete64Column214–218/PDF216–220 from immutable63-file opening and72-file closing;retain every native/category/range/original image and source uncertainty.",
+    "id": "batch-42",
+    "goal": "Restore opening of canonical까만돌하얀돌0025 after actualsourceextent/byline/platform/neighbor inspection;map at mostsix eligiblepages andsplit any longerbody.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0024"
+      "maso-1984-12-toc-0025"
     ],
-    "mapping_targets": [],
-    "printed_page_targets": [],
-    "provisional_lookup_targets": [],
-    "full_extent_review_pending": false,
+    "mapping_targets": [
+      221,
+      222,
+      223,
+      224,
+      225,
+      226
+    ],
+    "printed_page_targets": [
+      "219",
+      "220",
+      null,
+      null,
+      null,
+      null
+    ],
+    "provisional_lookup_targets": [
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230
+    ],
+    "full_extent_review_pending": true,
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "assembly_input_audit": {
-      "path": "archive/pdf/1984-12/restoration/batch-41/assembly-input-audit.json",
-      "sha256": "aa85028a7512b2257a041709fbddeb58eeae9fbbab2b162cf898a2dfd1a69957",
-      "bytes": 1535
-    },
-    "note": "No new mapping/render/OCR/sourcecorrection or metadatarevision required. Both natives passdesign-literal-v1 validate_native forfull216–220. Preserve opening54physicalBASICrows44labels/eightstrings/twounknownbands andclosing19physicalBASICrowsninevisiblelabels/incoming290tail,223assemblyrows215ordinals/224fontrecords2016cells. Keep opening musiccandidate unchanged;link DEFGquote through explicitnativepins/ranges withoutflattening/execution. SourceD000/ORG0E800H/1180H/LOP??/070Dand0D07/quotedspaces/musicO0/repeatcounts remain opaque. Seventeensourceframes/fourprintedcaptions;lower215academyadexcluded. Resolve only exact stale staging deferrals in active notes;all originalcorrections/arrays/files retained. Independentbyteidenticalrebuild/fullarrayreverseprojection required before0024readablepromotion. 29implementationpins/213testbaseline unchanged. No reader rebuild."
+    "note": "Independently observed opening219/PDF221 and220/PDF222 belong to까만돌하얀돌/source김현태/SPC-1000. Other provisional folios/body/ad boundaries unverified;no globaloffset or nextTOC226 boundary inference. Reuse pinned full/reviewpairs frombatches40/41 where available,andinspectactual full extent/neighbors beforemapping. Atmostsixdistincteligiblepages/onecanonicaltask initially/twentyoutside-maplookups;split longerbody. PreserveeveryphysicalBASIC/assembly/hex/quoted/screen/table/caption/sourcecredit field and originalframes ifpresent. Inspect every original/revisedexactcrop before mappedTesseract;one sourcecorrectionpass;no semantic/game/byte/opcode/MML/encoding/hardware repair.64Columncomplete144filesselected/135natives retained;twounknownbands/musicO0/repeatcounts/quotedspaces remain sourceuncertainties,notdeferredbodypages. Use design_literal_assembly dispatcher;29implementationpins/213testbaseline unchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

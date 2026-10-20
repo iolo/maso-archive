@@ -6,55 +6,54 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: nineteen readable articles, one partial article,
-five non-owning headings and 12 of 37 entries unresolved. Contest review0023 is
-complete at contest-review:30 files, observed213/PDF215. Its source heading/title,
-four-entry winners table (five rows,20 cells,four headers), caption and original
-images remain intact; no printed byline was invented.
+December 1984 is in progress: twenty readable articles, zero partial articles,
+five non-owning headings and 12 of 37 entries unresolved. 64 Column0024 is complete
+at packages/column64-complete-r01, observed214–218/PDF216–220. Its144-file package
+matches the independent rebuild byte for byte. All135 original native files remain
+exact: column64-a:63 files and column64-b:72 files. Keep both immutable natives.
+Both already had the required boundary metadata; no metadata revision was needed.
+No body pages or assembly remain pending for this article.
 
-64 Column0024 now has both native segments: column64-a:63 files covers214–215,
-and column64-b:72 files covers216–218/PDF218–220. Full source214–218/PDF216–220
-is individually verified, ending with font dataF0F8 before independent 까만돌 하얀돌
-219/PDF221. Combined coverage is42 regions,15 blocks and17 original frames.
-No body pages remain deferred; full214–218 assembly is pending before promotion.
-Source 송준영,SPC-1000,award/title and canonical identity are unchanged. The lower
-215/PDF217 academy advertisement remains excluded in the immutable opening.
+Five individually reviewed source pages retain42 regions,15 blocks and17 original
+images. All92 native category occurrences and16,415 UTF-8 range occurrences
+reverse-project exactly. Full original correction metadata remains in native_metadata.
+The lower215/PDF217 academy advertisement remains excluded. Source 송준영,SPC-1000,
+award/title and canonical identity stay unchanged; final font dataF0F8 precedes the
+independent 까만돌 하얀돌219/PDF221. No global folio offset was inferred.
 
-The closing retains466 physical rows:19 BASIC rows/nine visible labels/ten wraps,
-223 assembly rows/215 printed ordinals0000–0214/eight hex continuations, and224
-font-data records. Assembly has1,338 independent columns,223 address fields,
-221 emitted hex runs/425 literal hex pairs,29 labels,215 instruction fields and
-203 operands. Its firstD000/ORG0E800H,1180H,LOP??,070D/0D07 fields and quoted
-spaces remain independent source candidates. No opcode,endian,address or byte repair.
-The font table retains2,016 cells:224 addresses and1,792 opaque value fields,
-six original panels and a shared caption; no decoded bitmaps or generated addresses.
+Five listing groups preserve520 physical rows. The BASIC tests retain73 physical
+rows,53 visible numbered entries and20 continuations. The assembly retains223 rows,
+215 source ordinals0000–0214,eight hex continuations,1,338 independent columns,
+223 addresses,221 emitted hex runs/425 literal hex pairs,29 labels,215 instruction
+fields and203 operands. The font table retains224 rows/2,016 cells:224 address fields
+and1,792 opaque values. No source addresses,bytes,opcodes,font bitmaps or MML derived.
 
-The incoming DEFGquote retains no visible line number and links to the immutable
-opening's line290 through exact native pins/ranges. No quote was added to the opening
-and no physical strings were flattened. The opening retains54 physical BASIC rows,
-44 numbered entries,ten continuations,eight quoted fields and two unknown asterisk
-bands. Source ULT/code OUT,&H8E9,STEP&H physical10 and all hardware/math claims remain
-independent. O/0,repeated music glyph counts,quoted spaces and encoded bytes remain
-unverified. Closing has nine paired quoted fields,ten local caption links/two printed
-captions; its incoming frame refers to the previous test2 caption without inventing one.
+Line290's original open music candidate stays unchanged. Its incoming DEFGquote tail
+is a separate physical row without a visible label,linked by exact full/native ranges
+and source scans. No quote was supplied in the opening and no executable text was
+flattened. Full article continuation coverage is complete; O/0,repeated music glyph
+counts,quoted spaces and encoded bytes remain unverified. Source ULT/code OUT,&H8E9,
+STEP&H physical10,D000/ORG0E800H,1180H,LOP?? and independent070D/0D07 fields remain.
 
-Seven pinned whole/review pairs were reused and reinspected:three mapped pages,
-four outside-map lookups,one canonical task. All24 original crops and two revised
-crops were inspected before13 successful OCR tasks(11eng/two kor+eng). The two
-lower boundaries were extended before OCR to retain completeEDB0/EF58 rows.
-OEM1/PSM6,one thread,3000-pixel long edge remain pinned. One source correction pass;
-zero OCR failures,retries or post-OCR repairs. A metadata-only index supplement
-changed no source text. The initial verifier assumed an optional row-ID field;
-its failure is retained, and the corrected verifier checks exact row byte containment.
-The post-ledger audit also found one copied relative scan pin; its path was rooted
-without changing either native. Both failed audits and their resolutions remain archived.
+Two decorative asterisk bands retain unknown glyph counts and original frames.
+Root manual band/music links now use complete-package scans/ranges and retain their
+original native occurrences. Seventeen paired quoted fields,14 caption links/four
+printed captions and three frames without local captions remain source-associated.
+The incoming program frame retains its previous test2-caption association.
 
-The72-file closing matches its independent rebuild;15,358 exact UTF-8 range
-occurrences pass. All38,289 prior files and29 implementation pins pass; the new
-preservation inventory contains38,620 files. The unchanged213-test baseline is
-reused. Both natives already pass design-literal-v1 assembly input validation;
-all135 native files remain immutable. Human acceptance/full proofreading,source
-encoded bytes and execution remain unverified. No reader rebuild.
+Six exact stale stage notes are resolved only in active package notes. All original
+notes,review arrays,native files and source uncertainties remain. External provenance
+paths were not rewritten:16,516 evidence-pin occurrences resolve to100 retained files
+through declared native/work/parent/root contexts. The initial verifier omitted the
+parent directory owning a relative script pin; its failure is retained,and the fresh
+verifier declares that source root. No artifact or source text changed for the audit.
+
+All38,620 prior files and29 implementation pins pass; new preservation inventory:
+38,939 files. The unchanged213-test baseline is reused. No new mapping,rendering,
+OCR,source correction or reader rebuild. Human acceptance/full proofreading,source
+encoded bytes,hardware/math/firmware/MML claims and execution remain unverified.
+Contest review0023 remains complete at contest-review:30 files,observed213/PDF215,
+with its original table,caption and publisher mark intact.
 
 Cryptography205–211 remains complete at cryptography-complete-r01:323 files match
 its independent rebuild. All217 original native files and193-file opening metadata
@@ -129,15 +128,16 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
 cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-Next: column64-assembly, full214–218/PDF216–220 from the immutable63-file
-opening and72-file closing. No new mapping,rendering,OCR,source correction or
-metadata revision is required. Preserve every native/category/range/original image,
-the incoming290 music association,all physical rows,opaque assembly/font fields,
-two unknown bands and source uncertainties. Resolve only exact stale stage deferrals
-in active notes; original metadata remains. Require an independent byte-identical
-rebuild and full reverse projection before0024 becomes readable. Two tasks/six mapped/
-twenty outside lookups remain ceilings. All29 implementation pins/213-test baseline
-unchanged. No reader rebuild.
+Next: batch42, canonical 까만돌 하얀돌0025. Independently observed219/PDF221
+and220/PDF222 show the opening/source김현태/SPC-1000. Inspect actual full extent,
+remaining folios,neighbors and independent advertisements before mapping. Provisional
+PDF221–226 does not establish six eligible pages; no global offset or nextTOC226
+boundary inference. Reuse pinned full/review views where available. Restore at most
+six eligible pages/one initial canonical task/twenty outside-map lookups;split a longer
+body. Preserve all physical listings/quotes/hex/screens/tables/captions/original frames
+if present. Inspect every exact crop before mapped Tesseract;one source correction
+pass,no semantic/game/byte/opcode/encoding repair. All29 implementation pins/213-test
+baseline unchanged. No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
