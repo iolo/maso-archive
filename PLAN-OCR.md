@@ -26,9 +26,16 @@ paired OCR or a new engine comparison.
   photograph; one source-direct correction pass restores all 67 physical text rows,
   with the complete original page retained. Five crops were inspected before OCR.
   All 394 exact UTF-8 ranges and five image decodes pass; 213 PDF tests pass.
-  One article is readable/sample-reviewed; 55 of 56 canonical entries remain
-  unresolved. Next: batch02 verifies Q&A from printed18/PDF20 within the normal
-  limits, reusing saved PDF19/20 renders. Cover and issue closeout remain pending.
+  Batch02 also completes Q&A, canonical0010, printed18–21/PDF20–23. Its package
+  `archive/pdf/1985-02/packages/batch-02-r01/qa` matches all 266 rebuild files;
+  2,482 exact UTF-8 ranges, 68 images, 52 assembly ordinals, 12 BASIC labels and
+  24 arithmetic cells validate. Four crop repairs preceded 63 tasks; no OCR
+  failures/retries. Two separator bands and three quoted-space bands remain
+  explicit unknowns. The unchanged 213-test baseline is reused.
+  Two articles are readable/sample-reviewed; 54 of 56 canonical entries remain
+  unresolved. Next: batch03 verifies 이 책을 처음 대하는 독자에게 from
+  printed22/PDF24 within the normal limits, reusing saved PDF23/24 renders.
+  Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.

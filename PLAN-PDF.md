@@ -31,9 +31,15 @@ independent rebuild. Five reviewed regions retain four blocks, 67 physical text
 rows and the complete original page. All 394 exact UTF-8 ranges and five image
 decodes pass; fresh `make test-pdf` passes 213 tests.
 
-The 56-entry issue ledger records one readable/sample-reviewed article and 55
-unresolved entries. Next is batch02: verify Q&A's extent from printed18/PDF20 and
-restore it within the usual limits. PDF19/20 renders can be reused. Cover selection,
+Batch02 completes Q&A, canonical0010, on printed18–21/PDF20–23. Its selected
+package `archive/pdf/1985-02/packages/batch-02-r01/qa` matches all 266 files of
+the independent rebuild. Nine questions retain 52 assembly ordinals, 12 BASIC
+labels, 24 arithmetic cells and five explicit unknown bands. All 2,482 exact
+UTF-8 ranges and 68 image decodes pass; unchanged 213-test baseline reused.
+
+The 56-entry issue ledger records two readable/sample-reviewed articles and 54
+unresolved entries. Next is batch03: verify 이 책을 처음 대하는 독자에게 from
+printed22/PDF24 and restore it within the usual limits. PDF23/24 renders can be reused. Cover selection,
 remaining source-page accounting and issue closeout are pending. See the
 [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
