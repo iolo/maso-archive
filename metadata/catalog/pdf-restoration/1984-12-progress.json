@@ -2575,10 +2575,108 @@
       "toc_entry_id": "maso-1984-12-toc-0014",
       "title": "MSX를 위한 기계어 코드 로더",
       "parent_id": "maso-1984-12-toc-0010",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/msx-loader",
+        "article_id": "scan-maso-1984-12-toc-0014",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/msx-loader/manifest.json",
+          "sha256": "8f557f450db36b8c74b37c70fb8bb4f3da02b1e69a1de74f55f2ac42f2e30470",
+          "bytes": 8816
+        },
+        "coverage": {
+          "pdf_pages": [
+            152,
+            153
+          ],
+          "printed_pages": [
+            "150",
+            "151"
+          ],
+          "regions": 14,
+          "blocks": 8,
+          "figures": 4
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            152,
+            153
+          ],
+          "printed_pages": [
+            "150",
+            "151"
+          ],
+          "opening_pdf": 152,
+          "ending_pdf": 153,
+          "byline_source_pdf": 153,
+          "previous_pdf": 151,
+          "next_pdf": 154,
+          "source_byline_candidate": "박재현",
+          "toc_byline_candidate": "박제현",
+          "byline_spelling_verification": "Exactsourcecreditcrop reviewed;박재현 retainedindependently ofTOC박제현."
+        },
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-29/source-reviewed.json",
+          "sha256": "73872f66be1a639a713202f87b4dd4f9fbd31acbf341efd307f16f3703c6a03c",
+          "bytes": 4701
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-29/source-index-schema.json",
+          "sha256": "6222da061daaa7db3c589a30c2dd53fd0d294fe3a4605ee2fa5cbd5274260152",
+          "bytes": 2221
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-29/reproduction.json",
+          "sha256": "d0a49989f6894ace852a8da692fa0ea6f353152224f1f7e12a32e66b684c2cf8",
+          "bytes": 1781
+        },
+        "source_code_connections": [
+          {
+            "listing_id": "msx-loader-program",
+            "opening_region": "p150-code",
+            "continuation_region": "p151-code-left",
+            "last_opening_printed_line": 3040,
+            "first_continuation_printed_line": 3050
+          },
+          {
+            "listing_id": "msx-loader-program",
+            "opening_region": "p151-code-left",
+            "continuation_region": "p151-code-right",
+            "last_opening_printed_line": 5000,
+            "first_continuation_printed_line": 5010
+          }
+        ],
+        "caption_associations_pending": [],
+        "source_byline": {
+          "candidate": "박재현",
+          "text": "박 재 현",
+          "canonical_toc_byline": "박제현",
+          "spelling_difference_retained": true,
+          "canonical_identity_changed": false,
+          "source_pdf_page": 153,
+          "printed_page": "151",
+          "crop": {
+            "path": "archive/pdf/1984-12/packages/msx-loader/ocr-page153/p151-credit.png",
+            "sha256": "d292a6848cded3007c7d4a450fa51ff0364fdf0f601557e75f63ce4a409bfd3d",
+            "bytes": 6509
+          },
+          "corrections": {
+            "path": "archive/pdf/1984-12/packages/msx-loader/corrections.json",
+            "sha256": "be5a33fce9deb78403192a3637a91fbc7e267e318b61edfc97c15e224c5bac5a",
+            "bytes": 3106478
+          }
+        }
+      },
+      "classification_evidence": [
+        "IndependentMSXtitle150/PDF152 afterperspective149;last8070 RESUME1150 on151/PDF153 precedesindependentmathematics/logicallearning5 title152/PDF154. Allfivefullviews151–155 inspected;no globaloffset. Scannedbyline박 재 현/박재현 candidate differsfromTOC박제현;canonicalidentity unchanged.",
+        "Complete53-file native/independentrebuild exact:14regions,8blocks,4uncaptionedoriginals (threeboxedlistingframes andpublisherclosingmark),10regionalspans,16reviewnotes. OnecontinuousMSXBASICprogram retains147physicalrows/134printedlabels,allwraps/gaps/inserted4015/5091,6hexexamplefields/4quotedbounds,4commandheadings andindependentprosebullet/quotedperiod candidates. No program/firmware/arithmetic/encoding repair;originalpixel/glyph/spacing/decorativecount uncertainty retained."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0015",
@@ -2814,11 +2912,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 12,
-    "readable_articles": 12,
+    "classified_articles": 13,
+    "readable_articles": 13,
     "partial_articles": 0,
     "nonowning_headings": 2,
-    "unresolved_eligibility": 23,
+    "unresolved_eligibility": 22,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -6206,35 +6304,190 @@
         "sha256": "8b111e682c8bccdad926c698e750a15df4a1589f4f1f6a5440d8ccd5c946e2ae",
         "bytes": 6972240
       }
+    },
+    {
+      "id": "batch-29",
+      "status": "complete-native-article",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/checkpoint.json",
+        "sha256": "f1e78bf6313d5e6578f8dfcf9e5eacddf9c9f046008a9a9a83ec73caec2e0355",
+        "bytes": 6280
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-29/validation-r01.json",
+        "sha256": "0c9a710970d26e573d0d69a4ab526d5d0a6d354e003da5db7d5180889f9c1336",
+        "bytes": 1720
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-29/verify.py",
+        "sha256": "b33c19a5bfe1dd246ce74af671aeecd1623b562324091c8b36404d3377dffcf1",
+        "bytes": 15319
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/source-reviewed.json",
+        "sha256": "73872f66be1a639a713202f87b4dd4f9fbd31acbf341efd307f16f3703c6a03c",
+        "bytes": 4701
+      },
+      "source_index_schema": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/source-index-schema.json",
+        "sha256": "6222da061daaa7db3c589a30c2dd53fd0d294fe3a4605ee2fa5cbd5274260152",
+        "bytes": 2221
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/mapping-completed.json",
+        "sha256": "bf2d3e8297b4aa8a65ca558ad33d7733f36c11f501e4ccf260aea299b57854f4",
+        "bytes": 518
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/crop-repair-r01.json",
+        "sha256": "fae30459d0df96d8ae4affeae9caf9ebff1c3468dc1c2bb55841289ea16465f7",
+        "bytes": 1282
+      },
+      "segment_scope": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/segment-scope.json",
+        "sha256": "04f3be6c4cdf5ba7ce68af9ba5b789668fb328cb28a4ede7889d7b6edae6766c",
+        "bytes": 1421
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/preflight-reviewed.json",
+        "sha256": "b9feb6de91851cee8739daf84b2382a6ae2f094425de38e9055b7b870f8836b7",
+        "bytes": 6505
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/ocr-completed.json",
+        "sha256": "645ca5c43580f574f31af47b71bbfdbbe835da1fcf3eb350042a7637eabf95cd",
+        "bytes": 659
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/correction-completed-r01.json",
+        "sha256": "96bdb5be0a911d992637b7e126d9a7912dcb33102871e1308efac20c80192ce1",
+        "bytes": 955
+      },
+      "index_revision": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/index-revision-r01.json",
+        "sha256": "833cb5bb6d53898751785e8e32c3e2339fdfe41ada0ce1666fe507feef3fe437",
+        "bytes": 1516
+      },
+      "retained_finalization_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/finalization-failure-r01.json",
+        "sha256": "f43fc84c83cddebe33b12e93391f139f6be2ec7a75b52bb324962ea132e135c6",
+        "bytes": 707
+      },
+      "reproduction": {
+        "path": "archive/pdf/1984-12/restoration/batch-29/reproduction.json",
+        "sha256": "d0a49989f6894ace852a8da692fa0ea6f353152224f1f7e12a32e66b684c2cf8",
+        "bytes": 1781
+      },
+      "actual_ocr_tasks": 10,
+      "failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 1,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 30256,
+      "rebuild_files": 53,
+      "new_source_renders": 1,
+      "reused_full_page_renders": 4,
+      "outside_map_lookups": 3,
+      "canonical_tasks": 1,
+      "shared_pipeline_tests": 203,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/perspective-assembly/tests-implementation-r01.log",
+        "sha256": "2c2bf02ff36a6061e1f199522442d83c03d7a6398582cbec37d22b317869c452",
+        "bytes": 34581
+      },
+      "tests_reused_without_rerun": true,
+      "historical_live_implementation_pins_verified": 20,
+      "cpm_adapter_implementation_pins_verified": 3,
+      "perspective_implementation_pins_verified": 3,
+      "regions": 14,
+      "blocks": 8,
+      "figures": 4,
+      "ocr_tasks": 10,
+      "regional_text_ranges": 10,
+      "review_notes": 16,
+      "listing_groups": 1,
+      "physical_code_rows": 147,
+      "nonblank_physical_rows": 147,
+      "logical_basic_entries": 134,
+      "transcript_tokens": 763,
+      "code_identifiers": 368,
+      "numeric_literal_fragments": 221,
+      "visible_code_symbols": 1265,
+      "comment_markers": 43,
+      "decorative_runs": 21,
+      "visible_quote_glyphs": 123,
+      "paired_string_candidates": 39,
+      "line_reference_clauses": 34,
+      "target_label_fields": 34,
+      "hex_example_fields": 6,
+      "hex_character_bounds": 4,
+      "source_function_tokens": 44,
+      "command_headings": 4,
+      "byline_candidates": 1,
+      "data_records": 0,
+      "data_fields": 0,
+      "inline_examples": 685,
+      "caption_links": 0,
+      "uncaptioned_figures": 4,
+      "source_byline_candidate": "박재현",
+      "canonical_toc_byline": "박제현",
+      "source_stop_marks": 1,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-29/preserved-work-inventory.json",
+        "sha256": "b068dc3bc59585ec86da1c18ed1b4bd60fc967a9d66a5f09d03cb5aa99f5c04b",
+        "bytes": 7024693
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-29",
-    "goal": "Restore canonicalMSX machine-code loader beginningonobserved150;verifycompleteextent/byline andneighbors beforemapping/OCR.",
+    "id": "batch-30",
+    "goal": "Verifycompleteextent ofcanonicalmathematics/logicallearning5 starting152;restoreboundedopening152–157 ifconfirmed.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0014"
+      "maso-1984-12-toc-0015"
     ],
     "mapping_targets": [
-      152,
-      153
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
     ],
     "printed_page_targets": [
-      "150",
-      "151"
+      "152",
+      "153",
+      "154",
+      "155",
+      "156",
+      "157"
     ],
     "provisional_lookup_targets": [
-      151,
-      152,
       153,
       154,
-      155
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
     ],
+    "full_extent_review_pending": true,
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Currentboundaryevidence showsindependentMSXtitle onPDF152/printed150 afterperspectivefinal149. TOCbyline박제현,start150,nextmath/logicallearning5start152. Provisional150–151/PDF152–153extentmustbeverifiedagainstfullsource/neighbors;no globaloffsetorinferredfolio. InspecteveryexactcropbeforemappedTesseract,correctonce,preservephysicalcodewraps/comments/quotes/hex/targetfields andalloriginalframes. Allselectedchecksnowuseperspective_literal_assemblywrapper,whichdelegatesCP/M/graphicolderformats. Preserveall26implementationpins (23historical+threeperspective) and203-testbaseline. No reader rebuild."
+    "note": "Title/editorialcredit/series5 observedon152/PDF154;153/PDF155 continuesarticle. Actualendnotyetverified;nextTOCbody starts166 withnon-owningbusinessheadingcandidate beforeit. Provisional153–170PDFlookupwindow mustlocatecompleteextent/neighbors beforemapping;no globaloffsetorinferredfolio. Mapatmostsixconfirmedopeningpages,retainremainderexplicitly. Inspecteveryoriginal/revisedcrop beforemappedTesseract;retainmathematical sourceerrors,probabilityvalues,formulas/fractions/diagrams/tables/physicalcodefields withoutsemantic/arithmetic reconstruction. Allselectedchecks useperspective_literal_assembly wrapper;all26implementationpins and203-testbaseline remainunchanged. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
