@@ -6,63 +6,67 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: eleven readable articles, one partial perspective
-simulation article, two non-owning headings and 23 of 37 entries unresolved.
-Perspective has complete source coverage over131–149/PDF133–151 in four immutable
-base natives: packages/perspective-a, packages/perspective-b-r01,
-packages/perspective-c and packages/perspective-d. Their105 regions,68 blocks and
-28 original images remain unchanged. Full article assembly is still required.
+December 1984 is in progress: twelve readable articles, no partial articles,
+two non-owning headings and 23 of 37 entries unresolved. Perspective simulation
+is complete over19 observed pages131–149/PDF133–151 at
+packages/perspective-complete-r01. Its393-file export and independent rebuild
+match exactly. All384 native files are retained byte-identically:372 base files
+from perspective-a,perspective-b-r01,perspective-c,perspective-d plus12 files from
+the explicit perspective-reflection-revision. Human acceptance remains pending.
 
-The opening134/PDF136 reflection-region repair is now verified at
-packages/perspective-reflection-revision. Its12-file native and independent rebuild
-match exactly. The old crop atx=.949 was retained byte-identically;the revised
-right edge x=.970 includes the printed closing parenthesis after−1. Both exact
-crops were inspected before one fresh kor+eng OEM1/PSM6/one-thread/3000-long-edge
-task. No recognition failure,retry orpost-OCR repair. All21 full/review pairs132–152
-were reused and inspected:one mapped page,20 outside-map lookups.
+The full article retains105 regions,68 blocks,28 original frames,77 regional OCR
+drafts,86 regional text spans and129 source review notes. All five original
+correction metadata objects remain exact in native_metadata. The page134 repair
+replaces its active region,block,crop,OCR andoccurrence indexes once atoriginal
+reading order;one observed closing parenthesis is restored. Oldcroppedtext andthe
+incorrect absence claim remain only as superseded archival evidence. No duplicate
+page,section ormatrix counts. No new mapping,rendering,OCR orsource correction.
 
-One source-direct correction pass adds only that observed parenthesis to the
-active block text. All other candidate bytes remain identical. The three matrices,
-12 rows,48 cells,three display ranges,11 math glyphs and64 inline occurrences
-remain source-linked;the first matrix still has two negative diagonal entries.
-Source a,e,f is unchanged. No mathematical,arithmetic orsemantic repair. A separate
-restored-glyph index locates the newly recovered parenthesis exactly.
+All source indexes survive:37 display/context ranges,28 matrices,104 observed
+rows,351 literal cells,two printed ellipsis rows,16 fractions,466 math glyphs,
+four equation labels,152 diagram/DATA labels,43 flow labels,24 flow references,
+15 variable definitions,nine output rows and27 values. Source errors such as
+reflection's two negative entries,identity translation,X₂ X₂ and219/2000 remain.
+No mathematics,arithmetic,semantic orgraphic reconstruction. Earlier middle87
+matrix cells andlisting143–148 source evidence remain immutable.
 
-The old opening package,crop,rawOCR,reading,indexes andincorrect missing-parenthesis
-claim remain immutable superseded evidence. The verified revision must replace
-only p134-right-middle's active region,block andoccurrence indexes during assembly,
-with old evidence retained. It adds no page,section orduplicate matrix counts.
-The ledger now records verified-native-awaiting-assembly-application,with pinned
-source_revision andnative_revisions. Do not append the repaired section asnewcontent.
+Code retains701 physical rows,696 nonblank units,601 numbered entries and2,958
+tokens. AppleSoft andGBASIC stay independent. There are113 DATA fields in10
+records,2,225 identifiers,1,002 numeric fragments,1,743 punctuation candidates,
+86 comment glyphs,259 quote/comment glyphs,86 paired strings,68 reference clauses,
+66 target fields and5,115 inline occurrences. All physical wraps,source gaps,
+inserted2265/4045/4105,absent4140,POKE1913,2 and3840 NEX remain. No executable
+flattening,firmware correction orcross-version repair. FinalGBASIC4290 END retained.
 
-Earlier143–148 at perspective-c retains406 physical rows,378 numbered entries,
-49 DATA fields and65 target fields. Final149 at perspective-d retains53 rows,
-inserted4045/4105,absent4140,literal3840 NEX andfinal4290 END. Middle137–142 at
-perspective-b-r01 retains87 matrix cells,two ellipsis rows,43 flow labels,24 source
-references,15 variable definitions,64 DATA fields and27 output values. Active
-four-native totals include701 physical rows and601 numbered entries. Preserve all
-math,flow,prosejoin,DATA/output,physical/logical,quote/comment/numeric/symbol/target
-andcaption metadata. AppleSoft andGBASIC remain independent source versions.
+Known10.3 AppleSoft caption associates its143–144 continuation frames,and10.4
+GBASIC caption associates149,from exact prior native bytes andscan provenance.
+Both pending associations are resolved:19 caption/frame links,20 caption parts,
+four listing-caption links andnine truly uncaptioned originals. One explicit
+prose136→137 boundary retains source blocks andimage anchors;two listing links
+connect1690→1700 and3770→3780 without changing physical bytes. Flow138→139 retains
+observed B/A labels,with original geometry only. No caption orrevision remains pending.
 
-All29,330 prior files and23 implementation pins remain unchanged. The new
-preservation inventory has29,444 files. The unchanged193-test baseline frombatch24
-is reused without rerunning tests. No shared tooling orreader changes.
+The new opt-in implementation was committed separately as ef36c69 before export.
+All203 PDF tests pass. The detailed audit verifies17,659 projected native rows and
+19,901 nested UTF8 ranges. All29,444 prior files and23 prior implementation pins
+are unchanged;three new perspective implementation pins bring the total to26.
+New preservation inventory:30,256 files. All selected checks must now use
+perspective_literal_assembly.check/installed(),which delegates cpm_literal_assembly
+andgraphic_literal_assembly for older formats. The CP/M adapter isnot generic for
+perspective math/source-revision indexes. No reader orfrontend work.
+
 CP/M remains complete at packages/cpm5-complete-r01,observed110–129 plusunpaginated
 upper PDF132 reference continuation;lower132 ad separate,no observed130. BASIC
-speed102–109 retains opening102–107 andending108–109. All selected checks use
-cpm_literal_assembly.check/installed(),which delegates graphic_literal_assembly.
-The CP/M adapter isnot generic forperspective math/source-revision indexes.
+speed102–109 retains opening102–107 andending108–109. Earlier native failures and
+all superseded evidence remain preserved. Source bytes,full proofreading,execution
+andmathematical correctness remain unverified.
 
-Next:compatible full perspective assembly fromfour base natives plusverified
-region revision. Preserve all372 base files and12 revision files exactly;apply
-replacement once atoriginal reading order. Resolve known10.3 AppleSoft caption
-association for143–144 frames and10.4 GBASIC association for149,using pinned
-external source ranges. Preserve every native field/array/metadata andoriginal
-frame. Connect prose136→137,flow138→139 andlistings1690→1700/3770→3780 without
-flattening physical bytes. Implement/verify compatible assembly before promotion;
-independent full rebuild andissue accounting/preservation audit remain mandatory.
-Human acceptance,full proofreading,source bytes,execution andmathematics remain
-unverified. No reader rebuild.
+Next:batch29,canonical MSX machine-code loader0014,TOC start150/byline박제현.
+Provisional pages150–151/PDF152–153 must be verified against whole source pages
+andneighbors before mapping;the next TOC article starts152. No globalfolio offset.
+Recheck every exact original/revised crop before OCR. Keep literal physical code,
+comments,quoted strings,hex/target fields andoriginal frames. Remain within two
+articles,six mapped pages and20 outside-map lookups. No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
