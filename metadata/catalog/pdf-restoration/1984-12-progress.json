@@ -5791,19 +5791,273 @@
       "toc_entry_id": "maso-1984-12-toc-0023",
       "title": "공모 총평",
       "parent_id": "maso-1984-12-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/contest-review",
+        "article_id": "scan-maso-1984-12-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/contest-review/manifest.json",
+          "sha256": "ca991998b0050b77e082c568db23cf30932b99ffa9b277e11187dda45b1ff281",
+          "bytes": 4950
+        },
+        "coverage": {
+          "pdf_pages": [
+            215
+          ],
+          "printed_pages": [
+            "213"
+          ],
+          "regions": 7,
+          "blocks": 5,
+          "figures": 2
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            215
+          ],
+          "printed_pages": [
+            "213"
+          ],
+          "opening_pdf": 215,
+          "ending_pdf": 215,
+          "previous_pdf": 214,
+          "next_pdf": 216,
+          "printed_title_candidate": "양보다는 질을 우선",
+          "section_candidate": "공모총평",
+          "byline_candidate": null,
+          "canonical_credit": "편집부",
+          "ending_evidence": "FourentryDecemberwinners table andpublishermark completepage213;independent64COLUMN/SPC-1000/송준영 opens214/PDF216."
+        },
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
+        "assembly_required": false,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-40/source-reviewed.json",
+          "sha256": "1d3f0ba45086b8479cee97448600ef9c7cf94d4665a582a9e0165d0a92f583f4",
+          "bytes": 9178
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-40/contest-review/source-index-schema.json",
+          "sha256": "9ded7de36e255c96ac9b4420402d87bfd1248299994c2a0d3e0ed7b7fe75c334",
+          "bytes": 3664
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-40/contest-review/reproduction.json",
+          "sha256": "4fdd9fca0ace202bdbb7549826a5f03853ddfc604ce379648df31c85dd240f86",
+          "bytes": 1921
+        },
+        "source_code_connections": [],
+        "caption_associations_pending": [],
+        "source_title": {
+          "candidate": "양보다는 질을 우선",
+          "section_candidate": "공모총평",
+          "canonical_title": "공모 총평",
+          "canonical_identity_changed": false
+        },
+        "source_credit": {
+          "printed_byline": null,
+          "canonical_credit": "편집부",
+          "platform": null,
+          "canonical_identity_changed": false
+        }
+      },
+      "classification_evidence": [
+        "Completecontestreview213/PDF215 independentlyboundedbyunpaginatedcontestnotice214and64COLUMN214/PDF216. Sourceheading공모총평/title양보다는질을우선 retainedseparatelyfromcanonical공모총평;no printedbyline invented.",
+        "30filenative/independentrebuild exact:sevenregions/fiveblocks/twooriginals/five ownregionalspans;fourentrycontesttable5rows/20cells/fourheaders,onecaption/closingmark. Source3배(64×24)/VIDEXclaims/table인피던스/name/device strings literal,notcomputed/normalized."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0024",
       "title": "64 Column",
       "parent_id": "maso-1984-12-toc-0022",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/column64-a",
+        "article_id": "scan-maso-1984-12-toc-0024",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/column64-a/manifest.json",
+          "sha256": "05c66be4c020c12fb90310f8a3724bb7cf9d8cf7e639d2fff7120e28d847dd7a",
+          "bytes": 10576
+        },
+        "coverage": {
+          "pdf_pages": [
+            216,
+            217
+          ],
+          "printed_pages": [
+            "214",
+            "215"
+          ],
+          "regions": 18,
+          "blocks": 10,
+          "figures": 6
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            216,
+            217,
+            218,
+            219,
+            220
+          ],
+          "printed_pages": [
+            "214",
+            "215",
+            "216",
+            "217",
+            "218"
+          ],
+          "opening_pdf": 216,
+          "ending_pdf": 220,
+          "previous_pdf": 215,
+          "next_pdf": 221,
+          "printed_title_candidate": "64 COLUMN",
+          "byline_candidate": "송준영",
+          "platform_candidate": "SPC-1000",
+          "award_candidate": "공모 최우수상",
+          "ending_evidence": "BASICtest2/Z80sourceendsEND214on217/definedcharacterdatacontinuesfinal218F0F8;independent까만돌하얀돌title/SPC1000/김현태 opens219/PDF221. LowerPDF217academyadvertisementexcluded."
+        },
+        "deferred_pdf_pages": [
+          218,
+          219,
+          220
+        ],
+        "deferred_printed_pages": [
+          "216",
+          "217",
+          "218"
+        ],
+        "assembly_required": true,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-40/source-reviewed.json",
+          "sha256": "1d3f0ba45086b8479cee97448600ef9c7cf94d4665a582a9e0165d0a92f583f4",
+          "bytes": 9178
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-40/column64-a/source-index-schema.json",
+          "sha256": "e6933ff105ef83a31d665d0f7589969391e2d1e43deef38d889942fc161b9bd8",
+          "bytes": 4189
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-40/column64-a/reproduction.json",
+          "sha256": "8250a92bea63f871da5d6d17729b97d046331885f1a7d87e7de1d1838d8ed4bb",
+          "bytes": 1905
+        },
+        "source_code_connections": [
+          {
+            "listing_id": "column64-test2-opening",
+            "source_region_id": "p215-test2-right",
+            "last_current_printed_line": 290,
+            "last_current_fragment": "ABO3C",
+            "target_pdf_page": 218,
+            "target_printed_page": "216",
+            "next_source_fragment_candidate": "DEFG\"",
+            "relationship": "Next physical source row continues openmusicfield;targetsourceinspectedbutnotmapped. No quote completion or runnable flattening."
+          }
+        ],
+        "caption_associations_pending": [],
+        "source_title": {
+          "candidate": "64 COLUMN",
+          "section_candidate": null,
+          "canonical_title": "64 Column",
+          "canonical_identity_changed": false
+        },
+        "source_credit": {
+          "printed_byline": "송준영",
+          "canonical_credit": "송준영",
+          "platform": "SPC-1000",
+          "canonical_identity_changed": false
+        },
+        "excluded_advertisement": {
+          "id": "p215-lower-academy-advertisement",
+          "pdf_index": 216,
+          "kind": "advertisement",
+          "bbox": [
+            0.055,
+            0.52,
+            0.887,
+            0.923
+          ],
+          "notes": "Independent loweracademyadvertisement,noteligiblearticlebody."
+        },
+        "pending_manual_source_glyphs": [
+          {
+            "region_id": "p215-test1-left",
+            "download": "listing.txt",
+            "utf8_byte_start": 120,
+            "utf8_byte_end_exclusive": 154,
+            "transcription_excerpt": "⟦asterisk band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test1-left.png",
+              "sha256": "1a7f359c9c151d3d5a73a5af386da1929d175b6f677a891c7901724511d948d2",
+              "bytes": 211509
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
+              "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
+              "bytes": 731282
+            }
+          },
+          {
+            "region_id": "p215-test2-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 770,
+            "utf8_byte_end_exclusive": 804,
+            "transcription_excerpt": "⟦asterisk band: count unknown⟧",
+            "source_glyph_count": "unknown",
+            "printed_source": false,
+            "manual_correction": "pending-if-exact-band-count-required",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test2-right.png",
+              "sha256": "c89df1f3f34f8fa378e0012db26df61d097e9e66dcbad46be15c501d25c8dae0",
+              "bytes": 257061
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
+              "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
+              "bytes": 731282
+            }
+          }
+        ],
+        "pending_manual_music_glyphs": [
+          {
+            "region_id": "p215-test2-right",
+            "download": "listing.txt",
+            "utf8_byte_start": 1074,
+            "utf8_byte_end_exclusive": 1144,
+            "transcription_excerpt": "290 PLAY \"V15O3C3EDFEGFAGBA+CB+D\n    +C+E:V13O5C5CCCCCCC:V12O2G5ABO3C\n",
+            "O_or_zero_glyphs": "unverified",
+            "repeated_C_count": "unverified",
+            "source_bytes": "unverified",
+            "manual_correction": "pending-if-exact-music-byte-certification-required",
+            "closing_quote_in_current_native": false,
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/column64-a/ocr-page217/p215-test2-right.png",
+              "sha256": "c89df1f3f34f8fa378e0012db26df61d097e9e66dcbad46be15c501d25c8dae0",
+              "bytes": 257061
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/column64-a/corrections.json",
+              "sha256": "4e569e4a59b8cefc4665a2fa8ec0a189736717da76715fb7dfa81450b3baf898",
+              "bytes": 731282
+            }
+          }
+        ]
+      },
+      "classification_evidence": [
+        "Full64Column214–218/PDF216–220sourceextent individuallyreviewed;source송준영/SPC-1000/공모최우수상 andtitle64COLUMN retained. FinalfontdataF0F8on218 beforeindependent까만돌하얀돌219/PDF221. No globaloffset;lower215academyadexcluded.",
+        "Opening214–215 only:63filenative/rebuild exact;18regions/10blocks/sixoriginals/12ownregionalspans. TwoBASICtestgroups54physicalrows/44labels/10continuations/eightpairedquotedfields/twounknownasteriskbands. Fourcaptionlinks/twoprintedcaptions;header/closingmark original. ProseULT/codeOUT/&H8E9/hexsplit/quotedwrap/sourceclaims remainliteral.",
+        "Test2line290openmusicfragmentphysicallycontinuesDEFGquoteonnext216;notcompletedorinterpreted. O/0,C-runglyphcounts/quotedspaces/musicbytes unverified.216–218andfullarticleassembly explicitlydeferred."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0025",
@@ -5949,11 +6203,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 18,
-    "readable_articles": 18,
-    "partial_articles": 0,
+    "classified_articles": 20,
+    "readable_articles": 19,
+    "partial_articles": 1,
     "nonowning_headings": 5,
-    "unresolved_eligibility": 14,
+    "unresolved_eligibility": 12,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -11238,52 +11492,182 @@
         "sha256": "70697c409af26521572fc1e78598f1513a790ba309a38dffd18616389c24d91f",
         "bytes": 8698413
       }
+    },
+    {
+      "id": "batch-40",
+      "status": "complete-contestreview-and-partial64Column",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/checkpoint.json",
+        "sha256": "acbe4f07c02ec01d18b579efdc8532b64afc2492aead5c0472bee398d37d468c",
+        "bytes": 6854
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/checkpoint-r01.json",
+        "sha256": "1a3748bba2464d6035df59b975762fae89e9c7af208800ec15c3c43bf1b9f3cf",
+        "bytes": 7678
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-40/validation.json",
+        "sha256": "22fdb5154ccbe73434c0d82a275647d7c301b7840f431574402d97422bc943bd",
+        "bytes": 1073
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-40/verify.py",
+        "sha256": "78ffee9d75e4a489ddb0935e625fce0614e45479c95a8614eeb34539ed3b9711",
+        "bytes": 10426
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/source-reviewed.json",
+        "sha256": "1d3f0ba45086b8479cee97448600ef9c7cf94d4665a582a9e0165d0a92f583f4",
+        "bytes": 9178
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/mapping-completed.json",
+        "sha256": "c3b2ed5b9b19ca1919b15762b458b39fe0b69b73f1b92c8c3e7d1d1100684439",
+        "bytes": 821
+      },
+      "retained_map_schema_failure": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/mapping-failure-r00.json",
+        "sha256": "8e45930330f3e10cd95ced8324d9d74ffd9d15f01c8daa9dd7b7b4fb3b832124",
+        "bytes": 635
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/crop-repair-r02.json",
+        "sha256": "7e19e895e27b61876b989f302924eba8b80dd6e81b4d0a6bf7d53659f998fa2d",
+        "bytes": 1072
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/preflight-reviewed.json",
+        "sha256": "e342009f3e75351e9c749eaa30a06522afbf43e0eb58be54bb124eabedb0052f",
+        "bytes": 12511
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/ocr-completed.json",
+        "sha256": "2e31b357433d724548bd0bd218c54eb0757e646bb9b5fc9ded8be6cdb5967412",
+        "bytes": 903
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/source-correction-pass.json",
+        "sha256": "c0111fdaeb82aa2de6d27bbc6a033ad65242be4f684d4931e4cc6725bbf46046",
+        "bytes": 1489
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-40/correction-completed.json",
+        "sha256": "ad0e346f7e238526e57277330c1e9745316f03f28616dc602ead6c9b74550c4d",
+        "bytes": 1398
+      },
+      "indexing_mechanics": {
+        "path": "archive/pdf/1984-12/restoration/batch-39/prepare-reviewed.py",
+        "sha256": "aecdf09d54bbd14a483d89c6cc9fc2b8a7ce4abffc4327d779dc132d860e326f",
+        "bytes": 22440
+      },
+      "articles": [
+        {
+          "article": "contest-review",
+          "regions": 7,
+          "blocks": 5,
+          "figures": 2,
+          "regional_text_ranges": 5,
+          "review_notes": 5,
+          "table_rows": 5,
+          "table_cells": 20,
+          "table_header_cells": 4,
+          "listing_groups": 0,
+          "physical_code_rows": 0,
+          "logical_basic_entries": 0,
+          "physical_continuations": 0,
+          "unknown_bands": 0,
+          "quoted_fields": 0,
+          "open_music_fragments": 0,
+          "caption_links": 1,
+          "caption_parts": 1,
+          "uncaptioned_figures": 1
+        },
+        {
+          "article": "column64-a",
+          "regions": 18,
+          "blocks": 10,
+          "figures": 6,
+          "regional_text_ranges": 12,
+          "review_notes": 10,
+          "table_rows": 0,
+          "table_cells": 0,
+          "table_header_cells": 0,
+          "listing_groups": 2,
+          "physical_code_rows": 54,
+          "logical_basic_entries": 44,
+          "physical_continuations": 10,
+          "unknown_bands": 2,
+          "quoted_fields": 8,
+          "open_music_fragments": 1,
+          "caption_links": 4,
+          "caption_parts": 2,
+          "uncaptioned_figures": 2
+        }
+      ],
+      "actual_ocr_tasks": 17,
+      "eng_code_tasks": 4,
+      "kor_eng_tasks": 13,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 1,
+      "post_ocr_crop_repairs": 0,
+      "prior_files_verified": 37882,
+      "rebuild_files": 93,
+      "new_source_renders": 8,
+      "reused_full_page_renders": 4,
+      "mapped_source_pages": 3,
+      "outside_map_lookups": 9,
+      "canonical_tasks": 2,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "implementation_pins_verified": 29,
+      "exact_utf8_range_occurrences": 1156,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-40/preserved-work-inventory.json",
+        "sha256": "753634ab2ca119f6ca65f0d29821083b115889fcb8a49f972a014033bc7ae828",
+        "bytes": 8786383
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-40",
-    "goal": "Restore canonicalcontestreview213 and64Column beginning214 after actualsourceextent/byline/neighbor inspection;atmosttwotasks/sixmappedpages.",
+    "id": "batch-41",
+    "goal": "Restore64Columnclosing216–218/PDF218–220,includingincomingtest2music290continuation,Z80literalcolumns anddefinedcharacterhexdata;then separatefull214–218assembly.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0023",
       "maso-1984-12-toc-0024"
     ],
     "mapping_targets": [
-      215,
-      216,
-      217,
       218,
       219,
       220
     ],
     "printed_page_targets": [
-      "213",
-      "214",
-      "215",
-      null,
-      null,
-      null
+      "216",
+      "217",
+      "218"
     ],
     "provisional_lookup_targets": [
-      214,
-      215,
       216,
       217,
       218,
       219,
       220,
       221,
-      222,
-      223,
-      224,
-      225
+      222
     ],
-    "full_extent_review_pending": true,
+    "full_extent_review_pending": false,
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Contestreview213/PDF215 and64COLUMN214/PDF216 independentlyseen;PDF217observed215 hasupper64COLUMNlistingframes/lowerindependentacademyadvertisement,excludead. Onlyfirstthreeprovisionalfoliosobserved;do notinfer216–218orglobaloffset. Nextblack/whitestonesTOCreference219isreferenceonly,notPDFboundary. Reusepinned214–217wholeviewsfrombatch38/39 andverifyfullsourceextent/neighbors beforemapping. Atmostsixeligiblepages/twocanonicaltasks/twentyoutsidelookups;splitlongerbody. Preservecontesttable/closingmark,source64Columncaption/title/byline/platform/programphysicalrows/hexDATA/quotedstrings/glyphs andalloriginalimages ifpresent. Inspecteveryexactcrop beforemappedTesseract;onesourcecorrectionpass. Cryptographycomplete323files/217originalnativefilesselected;keepopening96/closing121/revision193. Thirtyunknownbands/sourceerrors remainmanualuncertainties,notdeferredbodypages. Allselectedchecks use design_literal_assembly.check/installed;29implementationpins/213baseline unchanged. No reader rebuild."
+    "note": "Allfullsource214–218/next219independentlyreviewed inbatch40. Reusepinnedwhole/reviewpairsand reinspection beforemapping.216lefttopfirstphysicalDEFGquote continues290PLAYfrom215;preserveincomingfragmentwithoutinventingprintedlabelorclosingquoteinopening. Test2ends216,thenlist1Z80rows0000–0214/ENDends217;definedcharacterdataEA00–F0F8 continues217–218. Treat allrowordinals/addresses/bytes/instructions/labels/quotedDEFM/music/fontdatacells asopaque literalfields;no disassembly/byte/opcode/firmware/math/encoding/musicalrepair. Preserveeachoriginalframe/caption/sourcecredit. Threepages/onecanonicaltask;atmostsixmapped/twotasks/twentyoutsidelookups. Openingcolumn64-a/63filesimmutable;partialuntilclosingandfullassemblypass. Contestreview213/30files complete;canonicalidentitiesunchanged. All29implementationpins/213testbaseline unchanged;design_literal_assembly dispatcher. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,
