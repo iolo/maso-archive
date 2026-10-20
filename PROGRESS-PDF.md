@@ -6,46 +6,45 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-December 1984 is in progress: twenty-five readable articles, one partial article,
+December 1984 is in progress: twenty-six readable articles, no partial articles,
 seven non-owning headings and 4 of 37 entries unresolved. Information parent0031,
 정보모음,is a non-owning TOC organizational group with no invented body pages;
 its canonical identity/title and six child relationships remain unchanged.
 
-Information radar0033 now has all nine body pages155–163/PDF157–165 in immutable
-packages/radar-a domestic155–160 and packages/radar-b foreign161–163. The142-file
-opening and47-file ending each match independent rebuilds byte for byte;all189 native
-files remain. No body pages are deferred;full radar assembly is pending. Actual ending
-TI story/contact/terminal mark precedes independent book advertisementPDF166. Business
-dividerPDF167 and memory166/PDF168 remain separate;no TOC/global-offset boundary inferred.
+Information radar0033 is complete at packages/radar-complete-r01, covering
+printed pages 155–163/PDF157–165. The 197-file package matches its independent rebuild
+byte for byte. All 189 files from immutable radar-a domestic155–160 and radar-b
+foreign161–163 remain exact, including their full correction metadata and stage scopes.
+No radar body pages or assembly remain pending. The final TI story, contact address and
+terminal mark precede independent book advertisementPDF166. Business dividerPDF167
+and memory166/PDF168 remain separate; no global folio offset was inferred.
 
-Foreign161–163 retains12 regions,nine searchable heading/title blocks,three complete
-original pages and118 exact UTF-8 ranges. Four reports retain seven ordered body-image
-fragments and three explicit joins:compatibility left161→right161,and benchmark report
-right162→left163→upperright163. One original four-panel SNA diagram retains all panel,
-node and connector labels as pixels;its embedded Evolution of SNA Networks title is
-searchable and is not an invented caption. Addresses and final terminal mark remain.
-Body/diagram-label transcription is pending volunteers;no body,graph or technical claims
-are reconstructed from headings. Source MC 68000,석권 예상,재고,SNA발표 10주년,
-Networks and 인공 지능용 remain literal candidates,not corrected by historical expectations.
+All 63 native category occurrences, 66 explicit source/category slices and 559 exact
+UTF-8 ranges reverse-project correctly. The package retains 50 regions, 41 searchable
+heading/title/credit blocks and nine complete original page images. Twenty-six news
+reports plus one integrated reader notice retain 27 ordered item identities, 34 body
+fragments, seven continuation joins and 26 adjacent story links. Reader23→foreign24
+and the section-transition record retain the prior domestic manifest pin.
 
-Together the natives retain50 regions,41 searchable blocks andnine original full pages,
-26 news reports plus one integrated reader notice,27 item identities,34 body fragments,
-seven joins,five uncaptioned photos andone embedded diagram. Reader23→foreign24 section
-transition preserves the domestic manifest pin. Domestic142-file/441-range native remains
-unchanged,including source 한승컴퓨터/body한송컴퓨터,벨엘상사,센타/센터,32비트,
-DPQ-280,바이컴-Ⅱ,입찰및,찾읍니다 and reader credit윤찬규. The reader credit is not
-an article byline. Sixteen localized candidates retain original scans/exact native ranges.
-All body/photo/rule/header/footer/notice/diagram/address pixels remain original-image
-readable. Volunteer body/diagram-label transcription is explicit;assistant sample review
-is not human acceptance/full proofreading. Source bytes,spacing and claims remain unverified.
+Five uncaptioned photos, one original four-panel SNA diagram and one terminal mark
+remain as source images. Evolution of SNA Networks is its searchable embedded title,
+not an invented caption. Body and diagram-label transcription is pending volunteers;
+all original body, photo, rule, header, footer, notice, diagram and address pixels remain
+readable. Searchable headings do not establish corrected body prose or technical claims.
 
-Five reused whole views/three mapped pages/two outside lookups/one canonical task. All12
-original/one revised diagram-title crop inspected before nine pinned kor+eng tasks. All
-nine raws read before one source-direct correction pass;zero-byte diagram-title draft
-was retained and corrected directly from source. Zero OCR process failures,retries,engine
-switches or post-OCR crop repairs. All43,050 prior files,every prior inventory and29
-implementation pins pass;current preservation inventory contains43,280 files. The
-unchanged213-test baseline is reused. No reader rebuild.
+Sixteen localized source candidates retain exact combined ranges and original scans:
+한승컴퓨터/body한송컴퓨터, 벨엘상사, 센타/센터, 32비트, DPQ-280, 바이컴-Ⅱ,
+입찰및, 찾읍니다, reader credit윤찬규, MC 68000, 석권 예상, 재고,
+SNA발표 10주년, Networks and 인공 지능용. The reader credit is not an article byline.
+Source spelling, spacing, encoded bytes and historical/technical claims remain unverified.
+Assistant sample review is not human acceptance or full proofreading.
+
+Assembly required no new mapping, rendering, OCR or source correction. Four exact stale
+native-stage deferral/assembly notes were resolved only in active package status;
+all original notes remain. All 787 evidence-pin occurrences resolve through declared
+source roots to 135 retained files. All 43,280 prior files, every prior inventory and
+29 implementation pins pass; the current preservation inventory contains 43,699 files.
+The unchanged 213-test baseline is reused. No reader rebuild.
 
 Canonical0030,the yearly
 back-issue index,is complete241–255/PDF243–257 at packages/year-index-complete-r01.
@@ -207,15 +206,15 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
 cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-Next: radar assembly,canonical0033 full155–163/PDF157–165. Keep domestic radar-a and
-foreign radar-b immutable. Use unchanged design-literal-v1 to project every native array
-and exact range;retain all189 native files/full original metadata. Verify27 ordered item
-identities,34 body fragments/seven joins,five photos/one diagram,all original-page coverage
-and reader23→foreign24 section transition. Bodies/diagram labels remain original-image
-readable with volunteer transcription pending. Resolve only exact native-stage deferral/
-assembly claims in active package status;preserve all original notes and uncertainty.
-No new map,render,OCR or source correction. Independent complete rebuild/preservation/
-ledger checks required. All29 implementation pins/213-test baseline unchanged. No reader rebuild.
+Next: batch50, canonical0034 classifieds and0035 Q&A. Provisional mapping candidates
+are PDF225–227 and239–241, with eleven whole-page lookup candidates. Inspect actual
+starts, endings and neighbors before selecting at most six eligible pages/two tasks;
+do not infer folio offsets or absorb independent advertisements. Segment longer extents.
+Preserve original classified bodies with explicit volunteer-transcription status where
+the accepted image policy applies. Source-correct Q&A prose, code and captions once,
+retaining physical rows, opaque fields and printed errors without semantic or hardware
+repair. Canonical0036 advertising index remains a separate eligibility decision.
+Limits: two canonical tasks, six mapped pages, twenty outside-map lookups. No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
