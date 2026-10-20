@@ -9125,10 +9125,19 @@
       "toc_entry_id": "maso-1984-12-toc-0031",
       "title": "정보모음",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_record": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/information-heading-classification.json",
+        "sha256": "07b3b0b97e6e8b3d7a0e1cdd7542f5efaae59e3f483b0621785908bc8e019dbe",
+        "bytes": 1627
+      },
+      "classification_evidence": [
+        "TOC-only information section has no printed page reference and contains six independently identified children.",
+        "Radar independent title/body155–163 is source-verified;editorial child0032 already independently restored. No group body pages or printed divider invented. Canonical hierarchy unchanged."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0032",
@@ -9167,10 +9176,326 @@
       "toc_entry_id": "maso-1984-12-toc-0033",
       "title": "정보 레이다",
       "parent_id": "maso-1984-12-toc-0031",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "restoration": {
+        "directory": "archive/pdf/1984-12/packages/radar-a",
+        "article_id": "scan-maso-1984-12-toc-0033",
+        "manifest": {
+          "path": "archive/pdf/1984-12/packages/radar-a/manifest.json",
+          "sha256": "b2f61618ccf287e1401d23101d4265f2566cbb52c7b75a295114c5a1ff075728",
+          "bytes": 24791
+        },
+        "coverage": {
+          "pdf_pages": [
+            157,
+            158,
+            159,
+            160,
+            161,
+            162
+          ],
+          "printed_pages": [
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160"
+          ],
+          "regions": 38,
+          "blocks": 32,
+          "figures": 6
+        },
+        "full_source_extent": {
+          "pdf_pages": [
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165
+          ],
+          "printed_pages": [
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163"
+          ],
+          "opening_pdf": 157,
+          "ending_pdf": 165,
+          "previous_pdf": 156,
+          "next_pdf": 166,
+          "printed_opening_title": "정보 레이다",
+          "printed_strapline_candidate": "누가, 무엇을, 어떻게…",
+          "printed_byline": null,
+          "ending_evidence": "All fourteen PDF156–169 whole views individually inspected. Previous154/PDF156 ends mathematics. Radar opens155/PDF157 with independent title/strapline/antenna image/domestic section;continues domestic through160/PDF162,then foreign section161–163/PDF163–165. Final TI artificial-intelligence CPU story ends with contact address and terminal mark on163/PDF165. NextPDF166 is independent 大恩 book advertisement;PDF167 independent unpaginated business divider;memory opens166/PDF168. No global offset/next-TOC boundary inferred."
+        },
+        "deferred_pdf_pages": [
+          163,
+          164,
+          165
+        ],
+        "deferred_printed_pages": [
+          "161",
+          "162",
+          "163"
+        ],
+        "assembly_required": true,
+        "source_review": {
+          "path": "archive/pdf/1984-12/restoration/batch-48/source-reviewed.json",
+          "sha256": "8ed5c9ed2baac797f252aaf88fdc99688202584092e240591d62cf6516de189f",
+          "bytes": 13166
+        },
+        "source_index_schema": {
+          "path": "archive/pdf/1984-12/restoration/batch-48/radar-a/source-index-schema.json",
+          "sha256": "309f84df490725fa715d621ccb0ace16f8981a2ec8e8634c6cc2f9c1d7263f7c",
+          "bytes": 5017
+        },
+        "reproduction": {
+          "path": "archive/pdf/1984-12/restoration/batch-48/reproduction.json",
+          "sha256": "780c4fa716f133c08169e7a44f23c6f0714578ab06b2179f1308e2c55fc69401",
+          "bytes": 2073
+        },
+        "source_title": {
+          "printed_opening": "정보 레이다",
+          "running": "정보레이다",
+          "printed_strapline": "누가, 무엇을, 어떻게…",
+          "canonical_title": "정보 레이다",
+          "canonical_identity_changed": false
+        },
+        "source_credit": {
+          "printed_article_byline": null,
+          "reader_notice_credit": "윤찬규",
+          "reader_credit_is_article_byline": false
+        },
+        "body_availability": "original-image-readable",
+        "body_transcription": "pending-volunteer",
+        "news_reports": 22,
+        "integrated_reader_notices": 1,
+        "news_items": 23,
+        "body_fragments": 27,
+        "body_continuations": 4,
+        "uncaptioned_photos": 5,
+        "caption_associations_pending": [],
+        "pending_manual_source_candidates": [
+          {
+            "region_id": "p155-story02-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 140,
+            "utf8_byte_end_exclusive": 146,
+            "transcription_excerpt": "센타",
+            "note": "Printed organization 센타 remains independent of title 센터.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page157/p155-story02-heading.png",
+              "sha256": "d301df7fb9d5c4d3c18b73f7b1ef3a03abb726df9cae1c530325fe31265049fc",
+              "bytes": 59629
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p155-story02-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 162,
+            "utf8_byte_end_exclusive": 168,
+            "transcription_excerpt": "센터",
+            "note": "Printed title 센터 remains independent of organization 센타.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page157/p155-story02-heading.png",
+              "sha256": "d301df7fb9d5c4d3c18b73f7b1ef3a03abb726df9cae1c530325fe31265049fc",
+              "bytes": 59629
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p156-story04-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 311,
+            "utf8_byte_end_exclusive": 326,
+            "transcription_excerpt": "한승컴퓨터",
+            "note": "Header glyph candidate independent of body 한송컴퓨터;no company-name normalization.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page158/p156-story04-heading.png",
+              "sha256": "91b316ad2949f4c2a3f0deaefc8058c7afc71f2b1a296c0932e90c86bbfb74d8",
+              "bytes": 100786
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p157-story07-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 614,
+            "utf8_byte_end_exclusive": 622,
+            "transcription_excerpt": "32비트",
+            "note": "Literal source numeric claim;raw39 was recognition error,technical claim not independently verified.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page159/p157-story07-heading.png",
+              "sha256": "4f8fb33616471886f392e386e88b21da3b47f531f851fe890912708f1d58444f",
+              "bytes": 72608
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p158-story13-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 1022,
+            "utf8_byte_end_exclusive": 1031,
+            "transcription_excerpt": "입찰및",
+            "note": "Printed joined word retained.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page160/p158-story13-heading.png",
+              "sha256": "f50901965dcd1a02e472b83283858378ec995a3fd51b8aa746b9b03d62827231",
+              "bytes": 96021
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p159-story14-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 1111,
+            "utf8_byte_end_exclusive": 1123,
+            "transcription_excerpt": "벨엘상사",
+            "note": "Printed organization glyph candidate retained without external company-name recovery.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page161/p159-story14-heading.png",
+              "sha256": "a570bca49e880edfeee7ee94c1f8bcfbe7f364d144d9d33b450179017294ed50",
+              "bytes": 51167
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p159-story15-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 1188,
+            "utf8_byte_end_exclusive": 1195,
+            "transcription_excerpt": "DPQ-280",
+            "note": "Printed model letters/digits retained without hardware reconstruction.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page161/p159-story15-heading.png",
+              "sha256": "36f1f870dd9729cd4a9d05663b05cda21845b18ac77ffc915abcbc59411241f1",
+              "bytes": 80276
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p159-story16-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 1230,
+            "utf8_byte_end_exclusive": 1233,
+            "transcription_excerpt": "Ⅱ",
+            "note": "Roman numeral Unicode candidate,original encoding unverified.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page161/p159-story16-heading.png",
+              "sha256": "b8a80eaa1fa4229f402bc0b943c19174a12558a998a5813f7557df894d64f315",
+              "bytes": 55129
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p160-reader23-heading",
+            "download": "article.txt",
+            "utf8_byte_start": 1546,
+            "utf8_byte_end_exclusive": 1558,
+            "transcription_excerpt": "찾읍니다",
+            "note": "Historical spelling retained.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page162/p160-reader23-heading.png",
+              "sha256": "a03c093ca27d8c10e021aff8971fd26063f85b4538a7f5a32cf2cfab4a766b9c",
+              "bytes": 17924
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "region_id": "p160-reader23-credit",
+            "download": "article.txt",
+            "utf8_byte_start": 1560,
+            "utf8_byte_end_exclusive": 1569,
+            "transcription_excerpt": "윤찬규",
+            "note": "Printed reader credit source-compared;not article byline.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-a/ocr-page162/p160-reader23-credit.png",
+              "sha256": "7e3cbc0ee9658818b95a671a996d5470d7b40405c6a264ffdab762b3a649d4f2",
+              "bytes": 9417
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-a/corrections.json",
+              "sha256": "e6c3b9fa5ada56e234705a93a4f7dea5d41cd67c937c6429f1a759727d34ca63",
+              "bytes": 409400
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          }
+        ]
+      },
+      "classification_evidence": [
+        "Actualradar155–163/PDF157–165 individually reviewed;independent opening title/strapline/antenna/domestic section aftermath154,thenforeign161–163 ending TI story/contact/terminal mark before independent book adPDF166. Business dividerPDF167 and memory166/PDF168 are separate. No global offset/TOC boundary inferred.",
+        "Opening domestic155–160 at radar-a:142-file independent rebuild exact;38regions/32blocks/six complete original pages/441exactranges.22news reports/one integrated reader notice/27body imagefragments/four continuations/five uncaptioned photos. Searchable source headings/credit corrected;body prose remains original-image readable with volunteer transcription pending.",
+        "All38 original/one revised pre-OCR crops inspected before32tasks;all raws read before one source-direct pass,three coverage omissions handled. No OCR failures/retries/engine switch/post-OCR crop repair. Source title/company/model/number/glyph/spelling variants retained;no historical/technical repair. Foreign161–163/fullassembly pending. Human acceptance/full proofreading/sourcebytes/claims unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-12-toc-0034",
@@ -9211,11 +9536,11 @@
   ],
   "totals": {
     "canonical_entries": 37,
-    "classified_articles": 25,
+    "classified_articles": 26,
     "readable_articles": 25,
-    "partial_articles": 0,
-    "nonowning_headings": 6,
-    "unresolved_eligibility": 6,
+    "partial_articles": 1,
+    "nonowning_headings": 7,
+    "unresolved_eligibility": 4,
     "human_accepted_articles": 0
   },
   "checkpoints": [
@@ -15792,55 +16117,165 @@
         "sha256": "7fdff46babe1be58e56572b14f9be6191ef1a2c355767447211126f213b3df4f",
         "bytes": 9711790
       }
+    },
+    {
+      "id": "batch-48",
+      "status": "partial-radar-domestic155–160-and-information-heading",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/checkpoint.json",
+        "sha256": "2fd566ec8aa75e4f2fb87b4ca1124158d9d158a6a1b0f85b57fbd96e1f9fe102",
+        "bytes": 6958
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/checkpoint-r01.json",
+        "sha256": "42f065b8f7c06c77e2b6617292e7e469c33acee2c3eb7f339dac3320b21a0070",
+        "bytes": 8507
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-48/validation.json",
+        "sha256": "d803e03f5f2d7ca4c6281bab73a5991befd26edee787c7879a3bb366262ce01b",
+        "bytes": 1211
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-48/verify.py",
+        "sha256": "95fbd7f44c8e0c18b68b112049436970ee34b9ac018b637c3e007ce3966594fa",
+        "bytes": 12418
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/source-reviewed.json",
+        "sha256": "8ed5c9ed2baac797f252aaf88fdc99688202584092e240591d62cf6516de189f",
+        "bytes": 13166
+      },
+      "heading_classification": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/information-heading-classification.json",
+        "sha256": "07b3b0b97e6e8b3d7a0e1cdd7542f5efaae59e3f483b0621785908bc8e019dbe",
+        "bytes": 1627
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/mapping-completed.json",
+        "sha256": "9972129fe0752d3ca38dc9f663598a441bcd5b06bd1f78148015efebf07752e3",
+        "bytes": 857
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/crop-repair-r01.json",
+        "sha256": "2a5243e57c690ed44aa1d7e8de8ce47812b0224957ab58025abbb38f8c2db1ee",
+        "bytes": 1274
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/preflight-reviewed.json",
+        "sha256": "26b4cf1a701c8eff17b63cbc414fd9849f3eddd867a5b2238d5c478929ce189d",
+        "bytes": 19107
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/ocr-completed.json",
+        "sha256": "bc94596951955c74decb03b72570e1f94d0e651e1dc61c0d065e9da61df41086",
+        "bytes": 1394
+      },
+      "raw_coverage_fallback": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/raw-coverage-fallback.json",
+        "sha256": "2eea0e48904734223a79f8a2cc41e199d84395239fbf3ff27f7391d6168897fd",
+        "bytes": 1002
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/source-correction-reading.json",
+        "sha256": "ba42d6410deaedc588fdc2047fb24f3401f8e1cb0f80956395370a3175febd1a",
+        "bytes": 7106
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-48/correction-completed.json",
+        "sha256": "4acd8cb86e67a3169bda914e4006c71c68e150a5a8343b327c5c7f0ebbe357f8",
+        "bytes": 543
+      },
+      "statistics": {
+        "completed_at": "2026-10-20T11:39:26.117688+00:00",
+        "regions": 38,
+        "blocks": 32,
+        "figures": 6,
+        "ocr_tasks": 32,
+        "eng_code_tasks": 0,
+        "kor_eng_tasks": 32,
+        "news_reports": 22,
+        "integrated_reader_notices": 1,
+        "news_items": 23,
+        "body_continuations": 4,
+        "uncaptioned_photos": 5,
+        "searchable_heading_credit_regions": 32,
+        "localized_source_candidates": 10,
+        "body_transcription": "pending-volunteer",
+        "current_body_pages": 6,
+        "deferred_body_pages": 3,
+        "assembly_required": true,
+        "source_correction_passes": 1
+      },
+      "rebuild_files": 142,
+      "exact_utf8_range_occurrences": 441,
+      "actual_ocr_tasks": 32,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 32,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 1,
+      "post_ocr_crop_repairs": 0,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 14,
+      "mapped_source_pages": 6,
+      "outside_map_lookups": 8,
+      "canonical_tasks": 2,
+      "deferred_body_pages": 3,
+      "assembly_required": true,
+      "prior_files_verified": 42431,
+      "implementation_pins_verified": 29,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-48/preserved-work-inventory.json",
+        "sha256": "c8203328f3d7f4061673d6881f63eda0caa888f96701ca5980d66c366d1b7aeb",
+        "bytes": 9847611
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-48",
-    "goal": "Inspect information-radar0033 actual extent and restore a bounded opening;resolve information heading0031 ownership only from reviewed evidence.",
+    "id": "batch-49",
+    "goal": "Restore information-radar0033 foreign161–163/PDF163–165 after whole-view/exact-crop review;retain domestic155–160 immutable for full assembly.",
     "toc_entry_ids": [
-      "maso-1984-12-toc-0031",
       "maso-1984-12-toc-0033"
     ],
     "mapping_targets": [
-      157,
-      158,
-      159,
-      160,
-      161,
-      162
+      163,
+      164,
+      165
     ],
     "printed_page_targets": [
-      "155",
-      "156",
-      "157",
-      "158",
-      "159",
-      "160"
+      "161",
+      "162",
+      "163"
     ],
     "provisional_lookup_targets": [
-      156,
-      157,
-      158,
-      159,
-      160,
-      161,
       162,
       163,
       164,
       165,
-      166,
-      167,
-      168,
-      169
+      166
     ],
-    "full_extent_review_pending": true,
+    "full_extent_review_pending": false,
     "segment_source_review_pending": true,
+    "verified_full_extent": {
+      "path": "archive/pdf/1984-12/restoration/batch-48/source-reviewed.json",
+      "sha256": "8ed5c9ed2baac797f252aaf88fdc99688202584092e240591d62cf6516de189f",
+      "bytes": 13166
+    },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Provisional source candidates only;do not infer extent/folio offsets from next TOC entry. Inspect opening/ending/neighbors and current exact crops before OCR. Radar begins near printed155;business unpaginatedPDF167 and memory opening166/PDF168 are separately restored and cannot be absorbed. Map at most six eligible pages in one native;defer/assemble longer actual extent. Preserve news headings/bylines/captions/column order and original source bodies;follow accepted news-image coverage policy with explicit volunteer-transcription status where used. No new engine benchmark or reader rebuild."
+    "note": "Radar actual155–163 verified. Foreign section161 starts 나라밖 소식;includes compatibility article,IBM SNA10-year story/original diagram,benchmark-test report continuing162right to163left/upperright,and finalTI artificial-intelligence CPU story ending163 before book adPDF166. Preserve all bodies/diagram labels/addresses as original images under accepted news policy;make headlines searchable and mark volunteer body transcription pending. Keep body continuations and source claims literal;do not conduct an OCR/processor benchmark. Full155–163 assembly follows final native. Information parent0031 is non-owning;do not reclassify canonical identities. No reader rebuild."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

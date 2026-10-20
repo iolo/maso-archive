@@ -42,8 +42,39 @@ July, August, September and October 1984. March retains its absent-source termin
 partial; no April PDF was supplied. Ten supplied eligible issues remain after
 October.
 
-December 1984 is in progress: twenty-five readable articles, no partial articles,
-six non-owning headings and 6 of 37 entries unresolved. Canonical0030,the yearly
+December 1984 is in progress: twenty-five readable articles, one partial article,
+seven non-owning headings and 4 of 37 entries unresolved. Information parent0031,
+정보모음,is a non-owning TOC organizational group with no invented body pages;
+its canonical identity/title and six child relationships remain unchanged.
+
+Information radar0033 has domestic155–160/PDF157–162 at packages/radar-a. The142-file
+native matches its independent rebuild byte for byte:38 regions,32 searchable heading/
+credit blocks,six complete original pages and441 exact UTF-8 range occurrences.
+Actual radar extent is155–163/PDF157–165,nine pages. FinalTI story/contact/terminal mark
+ends163 before independent book advertisementPDF166;business dividerPDF167 and memory
+opening166/PDF168 remain separate. Foreign161–163 and full article assembly are pending.
+
+Twenty-two news reports and one integrated framed reader notice retain23 item identities,
+27 ordered body-image fragments and four explicit column/page continuations. Five original
+photos remain uncaptioned;news headings are not invented captions. Full-page images retain
+every body/photo/rule/header/footer/notice pixel. Heading/organization/title/credit readings
+are searchable;body prose remains original-image readable with volunteer transcription
+pending under the accepted news policy. Reader notice 찾읍니다 belongs to the original160
+page;its credit 윤찬규 is not an article byline. Source 한승컴퓨터 header candidate/body
+한송컴퓨터,벨엘상사,센타/센터,32비트,DPQ-280,바이컴-Ⅱ,입찰및 and old spelling
+remain literal;ten localized candidates retain exact ranges/original scans. No company-name,
+title,history,technical,encoding or graphic repair. Human acceptance/full proofreading and
+source bytes/claims remain unverified.
+
+All fourteen reused whole-view pairs and38 original/one revised exact crops inspected
+before32 pinned kor+eng tasks. One headline received fresh horizontal padding before OCR.
+All raw drafts read before one source-direct heading/credit pass;three raw omissions were
+corrected directly from scans. Zero OCR process failures,retries,engine switches or post-OCR
+crop repairs. All42,431 prior files,every earlier inventory and29 implementation pins pass;
+current preservation inventory contains43,050 files. The unchanged213-test baseline is
+reused. No reader rebuild.
+
+Canonical0030,the yearly
 back-issue index,is complete241–255/PDF243–257 at packages/year-index-complete-r01.
 The 179-file complete package matches its independent rebuild byte for byte. All171
 files from immutable packages/year-index-a opening241–246,packages/year-index-b
@@ -84,7 +115,7 @@ No new mapping,render,OCR or source correction was needed for assembly. Six exac
 native-stage notes were resolved only in active package status;all original notes/metadata
 remain copied. All12,634 evidence-pin occurrences resolve through declared source roots
 to140 retained files. All42,048 prior files,every prior inventory and29 implementation
-pins pass;current preservation inventory contains42,431 files. The unchanged213-test
+pins pass;yearly-index preservation inventory contains42,431 files. The unchanged213-test
 baseline is reused. A read-only inspection missed the documented PYTHONPATH;the first
 verifier omitted expected source_segment on top-level structure pins. Both failed attempts
 remain;fresh verifier corrects only its expected metadata field. Packages/source readings
@@ -203,15 +234,15 @@ BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks
 design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
 cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-Next: batch48,information-radar0033 extent review and bounded opening,with information
-heading0031 ownership review. Provisional mapped candidates PDF157–162/printed155–160;
-whole-view lookup candidates PDF156–169. Verify actual opening/ending/neighbors and every
-exact crop;do not infer extent from TOC or global folio offsets. Separately restored
-unpaginated businessPDF167 and memory166/PDF168 cannot be absorbed. At most six eligible
-mapped pages/two canonical tasks;segment/assemble any longer body. Preserve news headings,
-bylines,captions,column order and all source bodies as original images,with explicit
-volunteer-transcription status where the accepted news policy is used. No engine benchmark
-or reader rebuild.
+Next: batch49,information-radar0033 foreign161–163/PDF163–165. Keep domestic radar-a
+immutable. Reinspect wholePDF162–166 and every exact crop before OCR. Foreign section starts
+나라밖 소식,then compatibility,IBM SNA10-year/original diagram,benchmark-test report and
+finalTI CPU story. Benchmark report continues162right to163left/upperright. Preserve all
+body/diagram/address pixels and source claims;make headings searchable and mark volunteer
+body transcription pending. The printed benchmark report is source material,not a request
+for a new processor/OCR benchmark. Full155–163 assembly follows final native. Information
+parent0031 remains non-owning. All29 implementation pins/213-test baseline unchanged.
+No reader rebuild.
 
 Complete design evidence: restoration/design-assembly and evidence/design-assembly.
 Use assembly-recipe.json/reproduction.json and implementation.json's three exact
@@ -226,7 +257,7 @@ The root ledger's pending unknown-band/MEMOF links now point into the complete
 listing and keep original_native_occurrence. Do not convert the final semicolon END
 row into an executable directive or normalize printed source mistakes. No design
 native, crop, reading, raw draft, failed adapter/test attempt or source evidence may
-be removed after promotion. Cryptography,contest review,64Column,black-white,SPC-CLOCK,relocator andbiorhythm are complete;메아리 is non-owning. The full yearly index241–255 is readable at year-index-complete-r01;next batch48 reviews information radar.
+be removed after promotion. Cryptography,contest review,64Column,black-white,SPC-CLOCK,relocator andbiorhythm are complete;메아리 is non-owning. Yearly index remains complete;radar domestic155–160 is partial and information heading0031 is non-owning. Next batch49 restores foreign161–163.
 
 Crowded Speedway remains packages/crowded-speedway-complete-r01,including final
 69F8/eight00source revision. Its pinned table/literal tooling39e5b61 remains
