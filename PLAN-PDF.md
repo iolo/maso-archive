@@ -24,58 +24,56 @@ records below are historical and do not authorize a new rebuild.
 
 ## December 1984 started, 2026-10-19
 
-December 1984 is in progress: sixteen readable articles, one partial article,
+December 1984 is in progress: seventeen readable articles, zero partial articles,
 five non-owning headings and 15 of 37 entries unresolved. Design(6), canonical 0020,
-has five immutable natives: packages/design-a for 178–183, packages/design-b for
-184–189, packages/design-c for 190–195, packages/design-d for 196–201 and
-packages/design-e for 202–204/PDF204–206. The new 39-file closing native matches
-its independent rebuild exactly. Combined coverage is all 27 pages/PDF180–206,
-141 regions, 85 blocks and 56 original images. No source body pages remain deferred;
-the complete article assembly is pending, so canonical availability remains partial.
+is now complete at packages/design-complete-r01, observed 178–204/PDF180–206.
+The 449-file package matches its independent rebuild byte for byte. All 440 files
+from five immutable natives remain exact: design-a 178–183, design-b 184–189,
+design-c 190–195, design-d 196–201 and design-e 202–204. Keep every native.
 
-The independently reviewed opening is 178/PDF180, final OTOP/END is on 204/PDF206,
-and independent cryptography opens 205/PDF207. All 27 physical article pages have
-individual whole-view evidence. No global folio offset was inferred. Batch37
-reinspected seven whole views: 179/180/203–207. Three mapped pages, four outside-map
-lookups, one canonical task; all seven full/review pairs reused with pinned identity.
-All twelve exact original crops were inspected before six successful English code
-OCR tasks. Margins were complete, including gutter beyond the LOAD1 comment frame;
-no crop repair. OEM1/PSM6, one thread and 3000-pixel long edge remain pinned.
-One source correction pass; zero failures, retries or post-OCR repairs.
+The complete article retains 27 individually reviewed source pages, 141 regions,
+85 blocks and 56 original images. No body pages or article assembly remain pending.
+The independent opening 178/PDF180, final OTOP/END 204/PDF206 and next cryptography
+205/PDF207 establish actual extent. No global folio offset was inferred. The lower
+independent book advertisement on PDF181 and non-owning headings on PDF179 retain
+their original exclusions/classifications. Canonical identities/titles/parents unchanged.
 
-Design-e retains 325 physical rows/322 nonblank rows, six code blocks and six
-uncaptioned original frames. Five columns have 54 physical rows; the final column
-has 55. Indexes retain 61 labels, 61 opaque directive rows/values, 13 complete quoted
-message fields/fragments, 22 labeled storage fields, one ORG and two symbolic
-storage operands. The 18 port operands, five bit operands, 86 hex fields and 15 local
-offsets remain opaque. Quoted trailing spaces, RECORD STRAT, MESS6, INBUF+110 and
-OTOP are literal candidates without decoded bytes or arithmetic/alias reconstruction.
+All 279 native segment/category occurrences and 29,792 UTF-8 range occurrences
+reverse-project exactly. Full original correction metadata remains in native_metadata;
+every additional native array is projected with an explicit category slice. Ten tables
+retain 113 rows/358 cells/37 header fields, including 39 patch rows/117 opaque
+address-OLD-NEW fields. Fifteen caption links retain ten printed captions; 41 original
+frames remain uncaptioned. Shared-caption, diagram, spatial formula and prose
+associations retain their original source occurrences and every image anchor.
 
-The final END appears on a physical row beginning with a semicolon. That complete
-row is retained as a comment candidate and END has a separate source occurrence
-index; no executable directive was supplied. The LOAD1 comment visibly ends in the
-candidate MEMOF near the source frame edge. Its tail glyph/completeness remains
-unverified; the original includes gutter proving this is not an OCR crop omission.
-No MEMORY completion or missing-glyph count was inferred. The localized tail is
-pinned for possible manual review. Incoming 201 LD A,3FH to 202 CALL PUT and the
-independent next-article boundary remain explicit physical source associations.
-No opcode, byte, address, target, encoding, syntax or hardware repair.
+Thirty-four listing groups retain 1,759 physical rows, including patch rows and only
+four actual BASIC labels 10,20,30,40. Twenty EQU fields, 216 label candidates,
+69 complete quoted fields, 44 quoted operands and 84 quote runs remain literal.
+Thirteen quoted message fragments preserve trailing spaces and RECORD STRAT.
+Twenty-two storage fields, one ORG, two symbolic storage operands and port/bit/hex/
+local-offset fields are opaque. No opcode, byte, address, target, alias arithmetic,
+encoding, hardware, syntax or graphic reconstruction. Source errors are independent.
 
-All preceding natives retain every table, diagram, shared caption, physical row,
-quote run, opaque field and unknown band. Design-b retains 39 patch rows/117 fields,
-138 physical rows/four BASIC labels/20 EQU fields, six captions/11 frame links and
-three unknown bands. Design-c and design-d retain their 648 rows each, complete
-quoted operands and source errors. The partial entry still primarily pins design-a;
-segments pins all five. Combined coverage is not a combined article body.
+Physical 189/190 DISPLAY comment continuation stays separate without quote completion.
+Final END remains on its leading-semicolon physical row. Three decorative bands
+retain unknown glyph counts. The MEMOF comment-tail candidate remains unverified;
+no MEMORY completion or missing-glyph count was inferred. Root manual-review links
+now use complete-listing ranges and retain their original native occurrences.
+Human acceptance/full proofreading, source encoded bytes and execution remain unverified.
 
-All 34,538 prior files and 26 implementation pins remain unchanged. The new
-preservation inventory contains 34,733 files. Source/runtime, geometry, crop/settings/
-timing, exact UTF-8/review/physical/lexical/message/storage/END indexes, prior ledger
-pins and independent rebuild checks pass. The unchanged 203-test baseline is reused
-without rerun. All scans, raw drafts, crops, one-pass readings, recipes and review
-artifacts are retained. No failed attempt or OCR/correction rerun in this checkpoint.
-Contest 0022 and technical 0019 remain non-owning headings on unpaginated PDF179;
-canonical identities, titles and parents are unchanged.
+Adapter design_literal_assembly was committed separately as b4d4b8a before export.
+All 213 PDF tests passed; all 29 implementation pins remain unchanged through assembly.
+The 14 exact stale stage-note deferrals were resolved only in active package notes;
+all original notes/review arrays/native files remain intact. External evidence paths
+were not rewritten: 30,281 pin occurrences resolve to 328 retained source files using
+the declared original review roots. No new mapping, render, OCR or source correction
+was needed for assembly. Earlier mapping/serializer/test failures remain archived.
+
+All 34,760 prior files remain unchanged. The new preservation inventory contains
+35,682 files. Source/geometry, every native/category/range/asset, physical rows,
+quoted/message/storage/END fields, complete output/rebuild and ledger checks pass.
+The 213-test baseline is reused for this data-only export. The issue remains in
+progress; design is one completed article within the original full-issue goal.
 
 VisiCalc 172–175 remains complete at visicalc-limits:154 files, five menus/52 options/
 129 fields, three ROUND claims and one manual source word ⟦faint source word⟧ pending.
@@ -90,29 +88,18 @@ all 384 natives, 134 repair, two captions, 143–148 listings and 87 middle matr
 keep perspective-a, perspective-b-r01, perspective-c, perspective-d. CP/M remains at
 cpm5-complete-r01,110–129 plus unpaginated upper PDF132; lower 132 ad excluded, no 130.
 BASIC speed102–109 retains opening 102–107/ending 108–109. Selected checks use
-perspective_literal_assembly.check/installed(), delegating cpm_literal_assembly and
-graphic_literal_assembly. Preserve all 26 implementation pins.
+design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
+cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-Assembly tooling is now tested in tools.pdf_restore.design_literal_assembly using
-mode design-literal-v1. All 213 PDF tests pass, including ten focused regressions.
-The five-native probe preserves all 440 files, 279 segment/category occurrences,
-29,792 UTF-8 ranges and 1,759 physical listing rows. Source metadata, four BASIC
-labels, the leading-semicolon END row and MEMOF uncertainty remain exact. Preserve
-the three new implementation.json pins as well as the 26 prior pins. The initial
-parent-scan validation gap and two test fixture/assertion failures are retained;
-all were resolved before the passing probe/full suite. No OCR, source correction,
-readable assembly export or canonical availability promotion occurred in this phase.
-Use design_literal_assembly.check/installed() for the new and earlier formats.
-
-Next: design-assembly. Use the tested design-literal-v1 adapter to create the
-production recipe with explicit stage-note resolutions, then assemble observed
-178–204 from the exact five immutable inputs;
-retain all assets, native bytes, range projections, tables, opaque patch fields,
-prose/spatial/diagram/caption associations, physical listing groups, quoted runs,
-message/storage/ORG fields, MEMOF uncertainty and the leading-semicolon END row.
-No new mapped source pages or OCR are queued. Promote canonical 0020 only after
-the complete package and independent rebuild pass. Human acceptance, full proofreading,
-source bytes, execution and historical claims remain unverified. No reader rebuild.
+Next: batch38, canonical public-key cryptography 0021. Its actual opening is
+205/PDF207. Verify its full source extent, printed byline and neighbors before mapping;
+TOC author/editorial identity and printed John Smith/editorial translation are distinct.
+The provisional physical window 207–212 is not an asserted article extent, and only
+207 has a currently observed 205 folio. Inspect every new folio and crop. Use at most
+six eligible mapped source pages/two canonical tasks/twenty outside-map lookups.
+Next TOC reference 213 does not establish a PDF boundary or offset. Use the design
+adapter's scoped check dispatcher for all selected packages; retain all 29 pins and
+213-test baseline. No reader rebuild.
 
 See the [December record](docs/progress/8412.md) and
 [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json). No reader rebuild.
