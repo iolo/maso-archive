@@ -9241,16 +9241,8 @@
           "printed_byline": null,
           "ending_evidence": "All fourteen PDF156–169 whole views individually inspected. Previous154/PDF156 ends mathematics. Radar opens155/PDF157 with independent title/strapline/antenna image/domestic section;continues domestic through160/PDF162,then foreign section161–163/PDF163–165. Final TI artificial-intelligence CPU story ends with contact address and terminal mark on163/PDF165. NextPDF166 is independent 大恩 book advertisement;PDF167 independent unpaginated business divider;memory opens166/PDF168. No global offset/next-TOC boundary inferred."
         },
-        "deferred_pdf_pages": [
-          163,
-          164,
-          165
-        ],
-        "deferred_printed_pages": [
-          "161",
-          "162",
-          "163"
-        ],
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
         "assembly_required": true,
         "source_review": {
           "path": "archive/pdf/1984-12/restoration/batch-48/source-reviewed.json",
@@ -9489,12 +9481,272 @@
             "human_acceptance": "pending",
             "source_bytes": "unverified"
           }
+        ],
+        "native_segments": [
+          {
+            "name": "radar-a",
+            "directory": "archive/pdf/1984-12/packages/radar-a",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/radar-a/manifest.json",
+              "sha256": "b2f61618ccf287e1401d23101d4265f2566cbb52c7b75a295114c5a1ff075728",
+              "bytes": 24791
+            },
+            "coverage": {
+              "pdf_pages": [
+                157,
+                158,
+                159,
+                160,
+                161,
+                162
+              ],
+              "printed_pages": [
+                "155",
+                "156",
+                "157",
+                "158",
+                "159",
+                "160"
+              ],
+              "regions": 38,
+              "blocks": 32,
+              "figures": 6
+            },
+            "immutable": true
+          },
+          {
+            "name": "radar-b",
+            "directory": "archive/pdf/1984-12/packages/radar-b",
+            "manifest": {
+              "path": "archive/pdf/1984-12/packages/radar-b/manifest.json",
+              "sha256": "50163843dc30025773afbd1806d4ad23c97375ebd074936273a72f0116f43c37",
+              "bytes": 8081
+            },
+            "coverage": {
+              "pdf_pages": [
+                163,
+                164,
+                165
+              ],
+              "printed_pages": [
+                "161",
+                "162",
+                "163"
+              ],
+              "regions": 12,
+              "blocks": 9,
+              "figures": 3
+            },
+            "source_review": {
+              "path": "archive/pdf/1984-12/restoration/batch-49/source-reviewed.json",
+              "sha256": "2a903a1a2ca49a50548dbf7a4a2cd67f89904a28c4fb6d1391361448acb58afe",
+              "bytes": 6745
+            },
+            "source_index_schema": {
+              "path": "archive/pdf/1984-12/restoration/batch-49/radar-b/source-index-schema.json",
+              "sha256": "236ed3060f26672dd3be86cd79120e9b870a31eb62ad4e108257695542c77cf3",
+              "bytes": 5422
+            },
+            "reproduction": {
+              "path": "archive/pdf/1984-12/restoration/batch-49/reproduction.json",
+              "sha256": "8601710709132c04032bc5edcfce314954a1b54b8aec763578a52bf8109c3f91",
+              "bytes": 2076
+            },
+            "immutable": true
+          }
+        ],
+        "restored_native_coverage": {
+          "pdf_pages": [
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165
+          ],
+          "printed_pages": [
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163"
+          ],
+          "regions": 50,
+          "blocks": 41,
+          "figures": 9
+        },
+        "total_news_reports": 26,
+        "total_news_items": 27,
+        "total_body_fragments": 34,
+        "total_body_continuations": 7,
+        "embedded_diagrams": 1,
+        "diagram_panels": 4,
+        "diagram_label_transcription": "pending-volunteer",
+        "additional_native_source_candidates": [
+          {
+            "native_directory": "archive/pdf/1984-12/packages/radar-b",
+            "region_id": "p161-story24-heading",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/radar-b/article.txt",
+              "sha256": "7b5b024f26c55878d8162a555baf1df51c079d04550b750d78c678dd275241c8",
+              "bytes": 444
+            },
+            "utf8_byte_start": 35,
+            "utf8_byte_end_exclusive": 43,
+            "transcription_excerpt": "MC 68000",
+            "note": "Printed model/number spacing candidate;no technical normalization.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-b/ocr-page163/p161-story24-heading.png",
+              "sha256": "ec085920c747195a6cf6e053e39792871cd0549cfdc9ccd591281e8dbffb8876",
+              "bytes": 69556
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-b/corrections.json",
+              "sha256": "e7f4d87b3ce76b986f18fcfdb9e1e0022294d94196f56e4e760dde7723b624ce",
+              "bytes": 121065
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/radar-b",
+            "region_id": "p161-story24-heading",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/radar-b/article.txt",
+              "sha256": "7b5b024f26c55878d8162a555baf1df51c079d04550b750d78c678dd275241c8",
+              "bytes": 444
+            },
+            "utf8_byte_start": 70,
+            "utf8_byte_end_exclusive": 83,
+            "transcription_excerpt": "석권 예상",
+            "note": "Printed historical prediction retained without later factual correction.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-b/ocr-page163/p161-story24-heading.png",
+              "sha256": "ec085920c747195a6cf6e053e39792871cd0549cfdc9ccd591281e8dbffb8876",
+              "bytes": 69556
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-b/corrections.json",
+              "sha256": "e7f4d87b3ce76b986f18fcfdb9e1e0022294d94196f56e4e760dde7723b624ce",
+              "bytes": 121065
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/radar-b",
+            "region_id": "p161-story24-heading",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/radar-b/article.txt",
+              "sha256": "7b5b024f26c55878d8162a555baf1df51c079d04550b750d78c678dd275241c8",
+              "bytes": 444
+            },
+            "utf8_byte_start": 104,
+            "utf8_byte_end_exclusive": 110,
+            "transcription_excerpt": "재고",
+            "note": "Printed title term retained without expected-word repair.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-b/ocr-page163/p161-story24-heading.png",
+              "sha256": "ec085920c747195a6cf6e053e39792871cd0549cfdc9ccd591281e8dbffb8876",
+              "bytes": 69556
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-b/corrections.json",
+              "sha256": "e7f4d87b3ce76b986f18fcfdb9e1e0022294d94196f56e4e760dde7723b624ce",
+              "bytes": 121065
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/radar-b",
+            "region_id": "p162-story25-heading",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/radar-b/article.txt",
+              "sha256": "7b5b024f26c55878d8162a555baf1df51c079d04550b750d78c678dd275241c8",
+              "bytes": 444
+            },
+            "utf8_byte_start": 197,
+            "utf8_byte_end_exclusive": 205,
+            "transcription_excerpt": "10주년",
+            "note": "Printed historical anniversary claim;not independently verified.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-b/ocr-page164/p162-story25-heading.png",
+              "sha256": "21108e993f4f04b860fabb8c72fb475dfe6cb74761246d2c1db8f212f32f90f1",
+              "bytes": 50428
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-b/corrections.json",
+              "sha256": "e7f4d87b3ce76b986f18fcfdb9e1e0022294d94196f56e4e760dde7723b624ce",
+              "bytes": 121065
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/radar-b",
+            "region_id": "p162-diagram-title",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/radar-b/article.txt",
+              "sha256": "7b5b024f26c55878d8162a555baf1df51c079d04550b750d78c678dd275241c8",
+              "bytes": 444
+            },
+            "utf8_byte_start": 278,
+            "utf8_byte_end_exclusive": 286,
+            "transcription_excerpt": "Networks",
+            "note": "Embedded title plural retained;node/panel/connector labels remain original-image readable.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-b/ocr-page164/p162-diagram-title.png",
+              "sha256": "85a376dc7687dfbe5c3b240725d1e82accb68e2aa3270e433f5e8e9619d2c823",
+              "bytes": 43608
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-b/corrections.json",
+              "sha256": "e7f4d87b3ce76b986f18fcfdb9e1e0022294d94196f56e4e760dde7723b624ce",
+              "bytes": 121065
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          },
+          {
+            "native_directory": "archive/pdf/1984-12/packages/radar-b",
+            "region_id": "p163-story27-heading",
+            "download": {
+              "path": "archive/pdf/1984-12/packages/radar-b/article.txt",
+              "sha256": "7b5b024f26c55878d8162a555baf1df51c079d04550b750d78c678dd275241c8",
+              "bytes": 444
+            },
+            "utf8_byte_start": 362,
+            "utf8_byte_end_exclusive": 378,
+            "transcription_excerpt": "인공 지능용",
+            "note": "Printed heading spacing retained;no technical or language modernization.",
+            "scan": {
+              "path": "archive/pdf/1984-12/packages/radar-b/ocr-page165/p163-story27-heading.png",
+              "sha256": "ff9d68b0a6b0fb64692f63922c72ae3d2b107c142331d38ff9259b855214e988",
+              "bytes": 52746
+            },
+            "corrections": {
+              "path": "archive/pdf/1984-12/packages/radar-b/corrections.json",
+              "sha256": "e7f4d87b3ce76b986f18fcfdb9e1e0022294d94196f56e4e760dde7723b624ce",
+              "bytes": 121065
+            },
+            "human_acceptance": "pending",
+            "source_bytes": "unverified"
+          }
         ]
       },
       "classification_evidence": [
         "Actualradar155–163/PDF157–165 individually reviewed;independent opening title/strapline/antenna/domestic section aftermath154,thenforeign161–163 ending TI story/contact/terminal mark before independent book adPDF166. Business dividerPDF167 and memory166/PDF168 are separate. No global offset/TOC boundary inferred.",
         "Opening domestic155–160 at radar-a:142-file independent rebuild exact;38regions/32blocks/six complete original pages/441exactranges.22news reports/one integrated reader notice/27body imagefragments/four continuations/five uncaptioned photos. Searchable source headings/credit corrected;body prose remains original-image readable with volunteer transcription pending.",
-        "All38 original/one revised pre-OCR crops inspected before32tasks;all raws read before one source-direct pass,three coverage omissions handled. No OCR failures/retries/engine switch/post-OCR crop repair. Source title/company/model/number/glyph/spelling variants retained;no historical/technical repair. Foreign161–163/fullassembly pending. Human acceptance/full proofreading/sourcebytes/claims unverified."
+        "All38 original/one revised pre-OCR crops inspected before32tasks;all raws read before one source-direct pass,three coverage omissions handled. No OCR failures/retries/engine switch/post-OCR crop repair. Source title/company/model/number/glyph/spelling variants retained;no historical/technical repair. Foreign161–163/fullassembly pending. Human acceptance/full proofreading/sourcebytes/claims unverified.",
+        "Foreign161–163 at immutable radar-b:47-file independent rebuild exact;12regions/9blocks/three complete original pages/118exactranges. Fourreports/globalordinals24–27/sevenbodyfragments/threejoins/onefour-panel SNA diagram/terminal mark. Source headlines and embeddedtitle searchable;allbody/diagram-node/panel/connector/address pixels retained with volunteer transcription pending. Reader23→foreign24 section transition references immutable domestic manifest. Fivewholeviews/12original+one revisedcrops inspected before9tasks;all raws read beforeonepass,emptydiagram draft handled directly fromsource. No OCRfailures/retries/enginechange/post-OCRcrop. No body pages deferred;full155–163 assembly pending. All prior source uncertainty and canonical identities unchanged."
       ]
     },
     {
@@ -16238,44 +16490,150 @@
         "sha256": "c8203328f3d7f4061673d6881f63eda0caa888f96701ca5980d66c366d1b7aeb",
         "bytes": 9847611
       }
+    },
+    {
+      "id": "batch-49",
+      "status": "partial-radar-foreign161–163",
+      "checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/checkpoint.json",
+        "sha256": "fdbf8e690a85381bda327214cd1877d698a96d7d343cc96f8d5f75d214959b45",
+        "bytes": 6817
+      },
+      "amended_checkpoint": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/checkpoint-r01.json",
+        "sha256": "d82d7fd78f1639ed60e6d91ba6dd5505ebf70394c70801711777d59080256081",
+        "bytes": 8223
+      },
+      "validation": {
+        "path": "archive/pdf/1984-12/evidence/batch-49/validation.json",
+        "sha256": "08c7184910c453466de2d019039d88757a8d1300d961eb7094a038bb71595d88",
+        "bytes": 1274
+      },
+      "verifier": {
+        "path": "archive/pdf/1984-12/evidence/batch-49/verify.py",
+        "sha256": "bfbffea0718406d5d65d23e5f0c0fdcbd61fb5c9131c853a458e446d6be6c281",
+        "bytes": 13307
+      },
+      "source_review": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/source-reviewed.json",
+        "sha256": "2a903a1a2ca49a50548dbf7a4a2cd67f89904a28c4fb6d1391361448acb58afe",
+        "bytes": 6745
+      },
+      "mapping": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/mapping-completed.json",
+        "sha256": "95840e8fdcccbe641f8ba0f4444692bd1885aa6f3f3b8cbb3e0c7e8f5e065f2d",
+        "bytes": 735
+      },
+      "geometry_repair": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/crop-repair-r01.json",
+        "sha256": "5e0f71c38ed64e9fc28f25df5569abb24e46cd9588557a0b6613d31732aec9ae",
+        "bytes": 1276
+      },
+      "preflight": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/preflight-reviewed.json",
+        "sha256": "88809635c0dd07c7cc4ba4ab3deb042a9985f715d55cc3f2304014747067d0c7",
+        "bytes": 6727
+      },
+      "ocr_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/ocr-completed.json",
+        "sha256": "2cfa173158bc201805d0548ae78162877d91388a3ba6d4a0e16d74b986cdfbf9",
+        "bytes": 887
+      },
+      "raw_coverage_fallback": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/raw-coverage-fallback.json",
+        "sha256": "8052e63fbde82d170c416c58b060e9adf99654c5366a80dd99b47bd215f7ff94",
+        "bytes": 932
+      },
+      "source_correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/source-correction-reading.json",
+        "sha256": "dbebfe852b8e3d3b439feec64e10b8ea83df797308e01e7eeb98575bb328b5bc",
+        "bytes": 2807
+      },
+      "correction_completion": {
+        "path": "archive/pdf/1984-12/restoration/batch-49/correction-completed.json",
+        "sha256": "65d917ca795535b4bf8d6a9754e1d7be08891597d5cf73188fb01798edb1dd9e",
+        "bytes": 661
+      },
+      "statistics": {
+        "completed_at": "2026-10-20T12:01:19.908185+00:00",
+        "regions": 12,
+        "blocks": 9,
+        "figures": 3,
+        "ocr_tasks": 9,
+        "eng_code_tasks": 0,
+        "kor_eng_tasks": 9,
+        "news_reports": 4,
+        "integrated_reader_notices": 0,
+        "news_items": 4,
+        "body_fragments": 7,
+        "body_continuations": 3,
+        "uncaptioned_photos": 0,
+        "embedded_diagrams": 1,
+        "diagram_panels": 4,
+        "searchable_heading_title_regions": 9,
+        "localized_source_candidates": 6,
+        "body_transcription": "pending-volunteer",
+        "diagram_label_transcription": "pending-volunteer",
+        "current_body_pages": 3,
+        "deferred_body_pages": 0,
+        "assembly_required": true,
+        "source_correction_passes": 1
+      },
+      "rebuild_files": 47,
+      "exact_utf8_range_occurrences": 118,
+      "actual_ocr_tasks": 9,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 9,
+      "ocr_failures": 0,
+      "retries": 0,
+      "preflight_crop_repairs": 1,
+      "post_ocr_crop_repairs": 0,
+      "new_source_renders": 0,
+      "reused_full_page_renders": 5,
+      "mapped_source_pages": 3,
+      "outside_map_lookups": 2,
+      "canonical_tasks": 1,
+      "deferred_body_pages": 0,
+      "assembly_required": true,
+      "prior_files_verified": 43050,
+      "implementation_pins_verified": 29,
+      "shared_pipeline_tests": 213,
+      "test_log": {
+        "path": "archive/pdf/1984-12/evidence/design-assembly/tests-full-r01.log",
+        "sha256": "f2fa7e3aa1fe1b73bff081b24363abe04be401b7500dd299487741e7b3b44529",
+        "bytes": 36219
+      },
+      "tests_reused_without_rerun": true,
+      "reader_rebuild": false,
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1984-12/evidence/batch-49/preserved-work-inventory.json",
+        "sha256": "44e325e2a21623a728c9ff9fede7c67ee3cba2f063793a5dbcaeebdd8afafb8b",
+        "bytes": 9897106
+      }
     }
   ],
   "next_checkpoint": {
-    "id": "batch-49",
-    "goal": "Restore information-radar0033 foreign161–163/PDF163–165 after whole-view/exact-crop review;retain domestic155–160 immutable for full assembly.",
+    "id": "radar-assembly",
+    "goal": "Assemble complete information-radar0033 observed155–163/PDF157–165 from immutable domestic/foreign natives,retaining searchable source headings and all original news/diagram/notice bodies.",
     "toc_entry_ids": [
       "maso-1984-12-toc-0033"
     ],
-    "mapping_targets": [
-      163,
-      164,
-      165
-    ],
-    "printed_page_targets": [
-      "161",
-      "162",
-      "163"
-    ],
-    "provisional_lookup_targets": [
-      162,
-      163,
-      164,
-      165,
-      166
-    ],
+    "mapping_targets": [],
+    "printed_page_targets": [],
+    "provisional_lookup_targets": [],
     "full_extent_review_pending": false,
-    "segment_source_review_pending": true,
+    "segment_source_review_pending": false,
     "verified_full_extent": {
-      "path": "archive/pdf/1984-12/restoration/batch-48/source-reviewed.json",
-      "sha256": "8ed5c9ed2baac797f252aaf88fdc99688202584092e240591d62cf6516de189f",
-      "bytes": 13166
+      "path": "archive/pdf/1984-12/restoration/batch-49/source-reviewed.json",
+      "sha256": "2a903a1a2ca49a50548dbf7a4a2cd67f89904a28c4fb6d1391361448acb58afe",
+      "bytes": 6745
     },
     "limits": {
       "articles": 2,
       "mapped_source_pages": 6,
       "outside_map_lookup_pages": 20
     },
-    "note": "Radar actual155–163 verified. Foreign section161 starts 나라밖 소식;includes compatibility article,IBM SNA10-year story/original diagram,benchmark-test report continuing162right to163left/upperright,and finalTI artificial-intelligence CPU story ending163 before book adPDF166. Preserve all bodies/diagram labels/addresses as original images under accepted news policy;make headlines searchable and mark volunteer body transcription pending. Keep body continuations and source claims literal;do not conduct an OCR/processor benchmark. Full155–163 assembly follows final native. Information parent0031 is non-owning;do not reclassify canonical identities. No reader rebuild."
+    "note": "Allnine bodypages supplied by radar-a/b:189immutablefiles/50regions/41searchableblocks/nineoriginalpages.26reports+reader notice=27items,34orderedbodyfragments/sevenjoins/fiveuncaptionedphotos/onefour-paneldiagram/oneoriginalterminalmark. Body/diagram-label transcription remains pending volunteers,images fully readable. Use unchanged design-literal-v1;project every native array/range and preserve source story identities/order,including reader23→foreign24 boundary sequence. Retain all189 nativefiles and original scopes/notes. Resolve only exact native-stage deferral/assembly claims in active package status. No new map/render/OCR/correction or reader rebuild.29 implementation pins/213-test baseline unchanged."
   },
   "cover_status": "Existing prepared cover to verify at issue closeout; visible source identity confirmed.",
   "reader_rebuild": false,

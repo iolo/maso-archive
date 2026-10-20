@@ -24,32 +24,42 @@ paired OCR or a new engine comparison.
   정보모음,is a non-owning TOC organizational group with no invented body pages;
   its canonical identity/title and six child relationships remain unchanged.
 
-  Information radar0033 has domestic155–160/PDF157–162 at packages/radar-a. The142-file
-  native matches its independent rebuild byte for byte:38 regions,32 searchable heading/
-  credit blocks,six complete original pages and441 exact UTF-8 range occurrences.
-  Actual radar extent is155–163/PDF157–165,nine pages. FinalTI story/contact/terminal mark
-  ends163 before independent book advertisementPDF166;business dividerPDF167 and memory
-  opening166/PDF168 remain separate. Foreign161–163 and full article assembly are pending.
+  Information radar0033 now has all nine body pages155–163/PDF157–165 in immutable
+  packages/radar-a domestic155–160 and packages/radar-b foreign161–163. The142-file
+  opening and47-file ending each match independent rebuilds byte for byte;all189 native
+  files remain. No body pages are deferred;full radar assembly is pending. Actual ending
+  TI story/contact/terminal mark precedes independent book advertisementPDF166. Business
+  dividerPDF167 and memory166/PDF168 remain separate;no TOC/global-offset boundary inferred.
 
-  Twenty-two news reports and one integrated framed reader notice retain23 item identities,
-  27 ordered body-image fragments and four explicit column/page continuations. Five original
-  photos remain uncaptioned;news headings are not invented captions. Full-page images retain
-  every body/photo/rule/header/footer/notice pixel. Heading/organization/title/credit readings
-  are searchable;body prose remains original-image readable with volunteer transcription
-  pending under the accepted news policy. Reader notice 찾읍니다 belongs to the original160
-  page;its credit 윤찬규 is not an article byline. Source 한승컴퓨터 header candidate/body
-  한송컴퓨터,벨엘상사,센타/센터,32비트,DPQ-280,바이컴-Ⅱ,입찰및 and old spelling
-  remain literal;ten localized candidates retain exact ranges/original scans. No company-name,
-  title,history,technical,encoding or graphic repair. Human acceptance/full proofreading and
-  source bytes/claims remain unverified.
+  Foreign161–163 retains12 regions,nine searchable heading/title blocks,three complete
+  original pages and118 exact UTF-8 ranges. Four reports retain seven ordered body-image
+  fragments and three explicit joins:compatibility left161→right161,and benchmark report
+  right162→left163→upperright163. One original four-panel SNA diagram retains all panel,
+  node and connector labels as pixels;its embedded Evolution of SNA Networks title is
+  searchable and is not an invented caption. Addresses and final terminal mark remain.
+  Body/diagram-label transcription is pending volunteers;no body,graph or technical claims
+  are reconstructed from headings. Source MC 68000,석권 예상,재고,SNA발표 10주년,
+  Networks and 인공 지능용 remain literal candidates,not corrected by historical expectations.
 
-  All fourteen reused whole-view pairs and38 original/one revised exact crops inspected
-  before32 pinned kor+eng tasks. One headline received fresh horizontal padding before OCR.
-  All raw drafts read before one source-direct heading/credit pass;three raw omissions were
-  corrected directly from scans. Zero OCR process failures,retries,engine switches or post-OCR
-  crop repairs. All42,431 prior files,every earlier inventory and29 implementation pins pass;
-  current preservation inventory contains43,050 files. The unchanged213-test baseline is
-  reused. No reader rebuild.
+  Together the natives retain50 regions,41 searchable blocks andnine original full pages,
+  26 news reports plus one integrated reader notice,27 item identities,34 body fragments,
+  seven joins,five uncaptioned photos andone embedded diagram. Reader23→foreign24 section
+  transition preserves the domestic manifest pin. Domestic142-file/441-range native remains
+  unchanged,including source 한승컴퓨터/body한송컴퓨터,벨엘상사,센타/센터,32비트,
+  DPQ-280,바이컴-Ⅱ,입찰및,찾읍니다 and reader credit윤찬규. The reader credit is not
+  an article byline. Sixteen localized candidates retain original scans/exact native ranges.
+  All body/photo/rule/header/footer/notice/diagram/address pixels remain original-image
+  readable. Volunteer body/diagram-label transcription is explicit;assistant sample review
+  is not human acceptance/full proofreading. Source bytes,spacing and claims remain unverified.
+
+  Five reused whole views/three mapped pages/two outside lookups/one canonical task. All12
+  original/one revised diagram-title crop inspected before nine pinned kor+eng tasks. All
+  nine raws read before one source-direct correction pass;zero-byte diagram-title draft
+  was retained and corrected directly from source. Zero OCR process failures,retries,engine
+  switches or post-OCR crop repairs. All43,050 prior files,every prior inventory and29
+  implementation pins pass;current preservation inventory contains43,280 files. The
+  unchanged213-test baseline is reused. No reader rebuild.
+
   Canonical0030,the yearly
   back-issue index,is complete241–255/PDF243–257 at packages/year-index-complete-r01.
   The 179-file complete package matches its independent rebuild byte for byte. All171
@@ -210,15 +220,15 @@ paired OCR or a new engine comparison.
   design_literal_assembly.check/installed(), delegating perspective_literal_assembly,
   cpm_literal_assembly and graphic_literal_assembly. Preserve all 29 implementation pins.
 
-  Next: batch49,information-radar0033 foreign161–163/PDF163–165. Keep domestic radar-a
-  immutable. Reinspect wholePDF162–166 and every exact crop before OCR. Foreign section starts
-  나라밖 소식,then compatibility,IBM SNA10-year/original diagram,benchmark-test report and
-  finalTI CPU story. Benchmark report continues162right to163left/upperright. Preserve all
-  body/diagram/address pixels and source claims;make headings searchable and mark volunteer
-  body transcription pending. The printed benchmark report is source material,not a request
-  for a new processor/OCR benchmark. Full155–163 assembly follows final native. Information
-  parent0031 remains non-owning. All29 implementation pins/213-test baseline unchanged.
-  No reader rebuild.
+  Next: radar assembly,canonical0033 full155–163/PDF157–165. Keep domestic radar-a and
+  foreign radar-b immutable. Use unchanged design-literal-v1 to project every native array
+  and exact range;retain all189 native files/full original metadata. Verify27 ordered item
+  identities,34 body fragments/seven joins,five photos/one diagram,all original-page coverage
+  and reader23→foreign24 section transition. Bodies/diagram labels remain original-image
+  readable with volunteer transcription pending. Resolve only exact native-stage deferral/
+  assembly claims in active package status;preserve all original notes and uncertainty.
+  No new map,render,OCR or source correction. Independent complete rebuild/preservation/
+  ledger checks required. All29 implementation pins/213-test baseline unchanged. No reader rebuild.
   See the [December record](docs/progress/8412.md) and
   [ledger](metadata/catalog/pdf-restoration/1984-12-progress.json).
 - October 1984 is complete under the canonical TOC JSON/assets scope: 35 readable,
