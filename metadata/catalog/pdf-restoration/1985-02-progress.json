@@ -858,7 +858,12 @@
         "Current ordinals:154 547–654;155 655–762;156 763–870;157 871–978;158 979–1086;159 1087–1149. There are603 printed numbered assembly rows, with no unnumbered object continuations apparent in this segment.",
         "Lower-right159 separately begins list2 MLE.START: BASIC100–300, including physical string, numeric and identifier wraps. Following160 continues310–460 and ends with : GOTO 180. Do not infer END or repair source fields.",
         "All six current source pages are eligible MLE listing material; complete original pages retained. Final160 independent contest and book advertisements stay excluded from the future MLE map. No ownership expansion into prior upperALE141.",
-        "Source spelling, byte/address/operand discrepancies, overprinted ink near1133 and unknown encoded spacing remain explicit; no opcode/semantic/program repair."
+        "Source spelling, byte/address/operand discrepancies, overprinted ink near1133 and unknown encoded spacing remain explicit; no opcode/semantic/program repair.",
+        "Full MLE extent remains prose139–141/PDF141–143 plus listings146–158/PDF148–160. Current checkpoint maps only finalPDF160. Immutable mle-a/b/c retain all fifteen earlier source pages; complete assembly remains pending.",
+        "Saved whole pages159,160,161 individually reviewed. PDF159 ends BASIC300;160 begins310, left listing ends430, upper-right begins440 and ends460 with final physical : GOTO 180. No printed END is added.",
+        "Current source contains sixteen BASIC labels310–460. Numeric-only continuations12,3617),16375),53,114 etc are wraps, not line labels. Preserve all strings, punctuation, numeric fields and source variations independently.",
+        "Separate1-LINE contest and lower book advertisements on160 are excluded. Original MLE badge and both framed listing panels are retained separately; complete whole page remains private evidence.",
+        "Following161 is a full-page 현금가격분할판매 advertisement, not an MLE continuation. Prior upperALE/lowerMLE ownership on141 stays unchanged."
       ],
       "restoration": {
         "directory": "archive/pdf/1985-02/packages/batch-31-r01/mle-a",
@@ -884,7 +889,8 @@
             156,
             157,
             158,
-            159
+            159,
+            160
           ],
           "printed_pages": [
             "139",
@@ -901,12 +907,13 @@
             "154",
             "155",
             "156",
-            "157"
+            "157",
+            "158"
           ],
-          "regions": 105,
-          "blocks": 85,
-          "figures": 20,
-          "shared_page_ownership": "PDF141 lower MLE body plus separate upper-right MLE badge; upper ALE excluded."
+          "regions": 111,
+          "blocks": 88,
+          "figures": 23,
+          "shared_page_ownership": "PDF141 lower MLE body plus separate upper-right MLE badge; upper ALE excluded. PDF160 MLE badge,left and upper-right listing panels only; contest/ads excluded."
         },
         "full_pdf_pages": [
           141,
@@ -927,18 +934,16 @@
           160
         ],
         "assembly_required": true,
-        "deferred_pdf_pages": [
-          160
-        ],
+        "deferred_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1985-02/restoration/batch-33/validation.json",
-          "sha256": "7a0d46d48e3b67d1126052801c3e85de75aab9a9a46fb934261af211983af701",
-          "bytes": 2642
+          "path": "archive/pdf/1985-02/restoration/batch-34/validation.json",
+          "sha256": "f6a1ae3e17a3466e719710588986a7500722cff495c74960faf3133e4415d5e7",
+          "bytes": 2081
         },
         "reproduction": {
-          "path": "archive/pdf/1985-02/restoration/batch-33/reproduction.json",
-          "sha256": "a75ad5bdfd4d750ec3c7aed22fc5a47f3ab546c95c5db4857c40dae8c4246ffb",
-          "bytes": 1476
+          "path": "archive/pdf/1985-02/restoration/batch-34/reproduction.json",
+          "sha256": "b6422a5a8f5669fd4ffa067a30a06e4f65e89d3e73882006f44b6fc46a6da3cb",
+          "bytes": 1463
         },
         "segments": [
           {
@@ -1058,6 +1063,37 @@
               "sha256": "a75ad5bdfd4d750ec3c7aed22fc5a47f3ab546c95c5db4857c40dae8c4246ffb",
               "bytes": 1476
             }
+          },
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-34-r01/mle-d",
+            "article_id": "scan-maso-1985-02-toc-0007",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-34-r01/mle-d/manifest.json",
+              "sha256": "282ebd082cbc1d0ec824071a0a341047a7c47f58bf508dfbe68f25ba09b7b498",
+              "bytes": 3920
+            },
+            "coverage": {
+              "pdf_pages": [
+                160
+              ],
+              "printed_pages": [
+                "158"
+              ],
+              "regions": 6,
+              "blocks": 3,
+              "figures": 3
+            },
+            "validation": {
+              "path": "archive/pdf/1985-02/restoration/batch-34/validation.json",
+              "sha256": "f6a1ae3e17a3466e719710588986a7500722cff495c74960faf3133e4415d5e7",
+              "bytes": 2081
+            },
+            "segment": "d",
+            "reproduction": {
+              "path": "archive/pdf/1985-02/restoration/batch-34/reproduction.json",
+              "sha256": "b6422a5a8f5669fd4ffa067a30a06e4f65e89d3e73882006f44b6fc46a6da3cb",
+              "bytes": 1463
+            }
           }
         ],
         "known_full_extent": {
@@ -1099,7 +1135,7 @@
           ]
         },
         "complete_article_assembly_pending": true,
-        "all_body_pages_restored_across_natives": false
+        "all_body_pages_restored_across_natives": true
       }
     },
     {
@@ -5491,6 +5527,72 @@
         "sha256": "58e112202ad65f5b7ae55ad7e4bc416670b5d0b445c624f7ef706ca4de57b931",
         "bytes": 8205276
       }
+    },
+    {
+      "id": "batch-34",
+      "status": "complete-final-listing-native;full-article-assembly-pending",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0007"
+      ],
+      "mapped_pdf_pages": [
+        160
+      ],
+      "outside_map_lookup_pages": [
+        159,
+        161
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-34/validation.json",
+        "sha256": "f6a1ae3e17a3466e719710588986a7500722cff495c74960faf3133e4415d5e7",
+        "bytes": 2081
+      },
+      "stats": {
+        "completed_at": "2026-10-21T09:25:59.163742+00:00",
+        "stats": {
+          "regions": 6,
+          "blocks": 3,
+          "figures": 3,
+          "physical_text_rows": 34,
+          "physical_code_rows": 33,
+          "logical_listing_lines": 16,
+          "listing_groups": 1,
+          "basic_labels": 16,
+          "basic_physical_rows": 33,
+          "basic_physical_wraps": 17,
+          "basic_quoted_strings": 8,
+          "basic_numeric_fragments": 64,
+          "basic_branch_targets": 3,
+          "source_candidates": 11,
+          "unknown_bands": 0,
+          "typographic_approximations": 1,
+          "unknown_space_bands": 162,
+          "quoted_fields": 5,
+          "caption_links": 0,
+          "external_associations": 2,
+          "column_connections": 1,
+          "availability": "partial",
+          "mapped_pdf_pages": [
+            160
+          ],
+          "deferred_pdf_pages": []
+        },
+        "source_passes": 1,
+        "ocr_tasks": 3,
+        "eng_code_tasks": 2,
+        "kor_eng_tasks": 1,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 0
+      },
+      "resolved_stage_limits": [
+        "MLE canonical0007 remains partial across three natives: prosePDF141–143 and listingsPDF148–159, fifteen of sixteen source pages. FinalBASIC page160 and complete assembly remain pending. Current listing preserves603 ordinals547–1149,2916 independent fields/1305 blanks,1269 object bytes,66 comments and81 labels. Final49DB:60 1149 RTS ends list1; lower-right159 starts list2 MLE.START,BASIC100–300 in40 physical rows/21 labels/19 wraps. Fourteen quoted strings,87 numeric fragments,three branch-target occurrences,eleven assembly column/page joins,one caption andfour exact native associations remain indexed. Fifty-one localized candidates,one overprinted row1133,five Unicode approximations and2793 unknown spacing bands retain originals. PrintedHIMEM16368,CALL16384,opaque patch stringD823G,L0/LO candidate,A$/L$ display strings,numeric-only continuations and all assembly fields remain literal. No syntax,byte,address or arithmetic repairs. Human acceptance,full proofreading,source bytes andexecution unverified. Shared141 upperALE/lowerMLE ownership unchanged; prior natives preserved exactly."
+      ],
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-34-preserved-work.json",
+        "sha256": "47ff0b4400cf262d909e0705ddae3365d779fec3b2ace1465d79f2e0fcf0ef13",
+        "bytes": 8230881
+      }
     }
   ],
   "source_page_observations": [
@@ -6987,7 +7089,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "MLE.START ending",
-      "restoration": "MLE-final-BASIC-page-deferred-to-batch-34;independent-contest-and-ads-excluded",
+      "restoration": "MLE-final-BASIC-page-exported;complete-article-assembly-pending;independent-contest-and-ads-excluded",
       "ownership_note": "List2 continues310–460, ending : GOTO 180; independent contest 추종자/SPC-1000 and lower book ads excluded from MLE."
     },
     {
@@ -7011,28 +7113,42 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-34",
-    "goal": "Restore final MLE listing printed158/PDF160 as the fourth immutable native, BASIC310–460. Then assemble all sixteen noncontiguous article pages in a separate checkpoint.",
+    "id": "mle-complete-assembly",
+    "goal": "Assemble the complete sixteen-page MLE article from four immutable reviewed natives. Preserve full correction metadata, all physical/logical rows, independent assembly fields, BASIC labels, source uncertainties and original owned images.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0007"
     ],
     "native_packages": [
       "archive/pdf/1985-02/packages/batch-31-r01/mle-a",
       "archive/pdf/1985-02/packages/batch-32-r01/mle-b",
-      "archive/pdf/1985-02/packages/batch-33-r01/mle-c"
+      "archive/pdf/1985-02/packages/batch-33-r01/mle-c",
+      "archive/pdf/1985-02/packages/batch-34-r01/mle-d"
     ],
-    "mapping_targets": "Reuse saved source views; map only MLE left BASIC310–430, upper-right440–460 and section badge onPDF160. Preserve complete eligible MLE portions and exact physical wraps; independently owned contest and lower book advertisements are excluded.",
-    "provisional_lookup_targets": [
-      159,
-      160,
-      161
-    ],
-    "boundary_review": "Incoming BASIC300 on159 ends before310 on160. Final460 physical row : GOTO 180 establishes body ending; no END is invented. PDF161 is an independent advertisement. Preserve source30행 prose claim independently of label130. No source program execution or syntax/opcode/address/byte repairs.",
+    "mapping_targets": "No new mapping or OCR. Reuse exact pinned mle-a,b,c,d source coverage: prosePDF141–143 and listingPDF148–160; interveningALE144–147 excluded. Project all original metadata and ranges without changing native files.",
+    "boundary_review": "Resolve list1/list2 caption and prose associations using exact native occurrences; preserve list1firstordinal4 without invented1–3, ordinal498 byte page continuation, ordinal510 column continuation,546/547 segment boundary, final1149RTS and BASIC300/310 boundary through final460 : GOTO 180. Prose30행 remains an independent source claim, never repaired to130. Resolve only precise stale stage deferrals in assembled active notes; preserve every original note and uncertainty. PDF141 upperALE and PDF160 contest/ads remain excluded.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    }
+    },
+    "assembly_source_pages": [
+      141,
+      142,
+      143,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160
+    ]
   },
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
@@ -7060,7 +7176,7 @@
     "Background music canonical0003 is complete across eleven noncontiguous pages117–121,128–133/PDF119–123,130–135; firstlisting128loweronly andfinal133two disjointpanels. Two natives/all486files/fullmetadata remain exact. Complete indexes retain798textrows,519coderows/509logicalgroups,440assemblyordinals/2107fields/1022blanks/711objectbytes,208comments/13storage directives,seven unnumberedbytecontinuations,64patchdumpbytes/ninepatchassemblyrows,48BASIClabels/twowraps,17PLAYstrings/251characters,sixcaptions/12annotations and15externalassociations. Sixty-two sourcecandidates,fiveunknownbands and2091unknownspacebands remain. Originalcommand,byte,mnemonic,address,annotation-range,PLAYstring andspelling discrepancies retained. Diagramlabels,humanacceptance,sourcebytes,exactspacing,execution andtechnicalclaims unverified. No bodypages orassembly pending. Use pinned background_music_literal checker/context.",
     "FeatureII inputtools opener0004 andpaperholder0005 complete onprinted134–135/PDF136–137. Openerowns its introduction/photo while allthreecanonicalchildren remain unchanged. Four faintdiagram labels transcribed andsource-linked; nine localizedcandidates,two RomanII Unicodeapproximations andtenphysical wraps retain originals. Paperholdercolumnjoin입/력된,caption그림1,bilingualheadlines andhistorical5～6천원price/availability/usefulnessclaims remain literal. Humanacceptance,fullproofreading,sourcebytes,mechanical/historicalclaims andsmall chipmarkings inintrophoto remain unverified. No bodypages orassembly pending for these two articles.",
     "ALE canonical0006 is complete across eight noncontiguous pages136–139,142–145/PDF138–141,144–147. Two natives/all276files/fullmetadata retained. Complete indexes retain855textrows,588coderows/587logicalgroups,579assemblyordinals/3161fields/892blanks/1007objectbytes,375comments/136labels/49directives,twoheaders,oneBASIClabel,sixexamples,two tables38cells,threecaptions,12ordinalannotations,fiveroutine ranges,sevenkeynotations/sevenPOKEcommands,eightprosejoins and13externalassociations. Sixty-seven candidates,oneunknown dashband,twoinkmarks,eighteenUnicodeapproximations and2983unknownspacebands remain. Prose1006,L$3EF,37478($9266),overlappingroutine ranges,listing1007bytes,open-ended494 andFFER remain literal. Shared139upperALE/lowerMLE ownership preserved; interveningPDF142–143 excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned ale_literal checker/context.",
-    "MLE canonical0007 remains partial across three natives: prosePDF141–143 and listingsPDF148–159, fifteen of sixteen source pages. FinalBASIC page160 and complete assembly remain pending. Current listing preserves603 ordinals547–1149,2916 independent fields/1305 blanks,1269 object bytes,66 comments and81 labels. Final49DB:60 1149 RTS ends list1; lower-right159 starts list2 MLE.START,BASIC100–300 in40 physical rows/21 labels/19 wraps. Fourteen quoted strings,87 numeric fragments,three branch-target occurrences,eleven assembly column/page joins,one caption andfour exact native associations remain indexed. Fifty-one localized candidates,one overprinted row1133,five Unicode approximations and2793 unknown spacing bands retain originals. PrintedHIMEM16368,CALL16384,opaque patch stringD823G,L0/LO candidate,A$/L$ display strings,numeric-only continuations and all assembly fields remain literal. No syntax,byte,address or arithmetic repairs. Human acceptance,full proofreading,source bytes andexecution unverified. Shared141 upperALE/lowerMLE ownership unchanged; prior natives preserved exactly."
+    "MLE canonical0007 remains partial pending complete article assembly. All sixteen noncontiguous pages now exist in four immutable natives: prosePDF141–143 and listingsPDF148–160. Final page160 retains16 BASIC labels310–460,33 physical rows/17 wraps,eight quoted strings,64 numeric fragments,three GOTO targets,430/440 column join andtwo exact incoming/caption associations. Original badge andtwo framed listing panels are preserved; independent contest and lower book advertisements excluded. Final460 : GOTO 180 establishes ending; no END invented. Eleven source candidates,one RomanII approximation and162 unknown spacing bands retain originals. SourceL0/LO,A$/L$ display strings,BLOADED and all numeric/string wraps remain literal. Earlier603+543 assembly ordinals,unnumbered byte/comment/string rows and all prose retained unchanged. Human acceptance,full proofreading,source bytes andexecution unverified; no source or syntax repair."
   ],
   "reader_rebuild": false
 }

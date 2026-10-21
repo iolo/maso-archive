@@ -341,13 +341,35 @@ outside lookups and one canonical task respect the limits. Fifteen of sixteen ML
 source pages now exist in three immutable natives. Prior prose/listing natives unchanged.
 Current totals: 23 readable, one partial article, two non-owning headings and 30 unresolved.
 
-Next: restore final MLE listing158/PDF160, canonical0007, BASIC310–460.
-Map the left and upper-right MLE listings plus section badge; exclude the independent
-contest and lower book advertisements. Preserve incoming300/310 and final460 physical
-row : GOTO 180, with no inventedEND. Then assemble all sixteen noncontiguous pages in
-a separate checkpoint. Shared141 upperALE ownership stays unchanged. Cover selection,
-remaining page accounting and issue closeout remain pending. No reader rebuild;
-human acceptance and full proofreading pending.
+Batch34 restores final MLE listing158/PDF160 at
+`archive/pdf/1985-02/packages/batch-34-r01/mle-d`. All24 files match the independent
+rebuild; 1,378 current UTF-8 ranges, two external native ranges, 1,399 evidence pins
+and six images pass. Sixteen BASIC labels310–460 retain33 physical rows/17 wraps,
+eight quoted strings,64 numeric fragments andthree GOTO targets. Numeric12,3617),
+16375),53,114 and115 fragments remain continuations, not new labels. The430/440
+column join, incoming300/310 and exact prior list2 caption retain source occurrences.
+Final460 : GOTO 180 establishes the body ending; no END is invented.
+
+The original section badge andtwo framed listing panels remain separate; independent
+contest and lower book advertisements are excluded. Following161 is an independent
+advertisement. SourceL0/LO,A$/L$ display strings,BLOADED spelling andnumeric/string
+wraps stay literal. Eleven source candidates,one RomanII approximation and162 unknown
+spacing bands retain originals. Allsix crops were individually reviewed beforethree
+tasks (2eng/1kor+eng); all drafts read before one source pass. No crop repair, OCR
+failure or retry. All36,817 prior files and30 implementation pins pass; unchanged
+213-test baseline reused. One mapped page,two outside lookups andone canonical task
+respect the limits. All sixteen MLE pages now exist in four immutable natives;
+complete article assembly remains pending, and earlier natives are unchanged.
+Current totals: 23 readable, one partial article, two non-owning headings and 30 unresolved.
+
+Next: assemble complete MLE from exact pinned mle-a,b,c,d, prosePDF141–143 and
+listingsPDF148–160. Preserve full native metadata, independent fields, physical/logical
+rows, source uncertainties and all original owned images. Resolve caption/prose links
+and exact stale stage deferrals without changing native files or printed30행 to130.
+Retain firstordinal4,498/510 byte continuations,546/547 and BASIC300/310 boundaries,
+final1149RTS and460 : GOTO 180. Shared141 upperALE and160 contest/ads remain excluded.
+Cover selection,remaining page accounting and issue closeout remain pending.
+No reader rebuild;human acceptance and full proofreading pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
