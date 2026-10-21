@@ -163,14 +163,25 @@ paired OCR or a new engine comparison.
   inspected before 68 kor+eng tasks; all raws read before one source pass. No OCR
   failure/retry; unchanged 213-test baseline reused. Preliminary source-title spelling
   corrected through explicit metadata erratum, preserving original maps/notes.
-  Thirteen articles are readable/sample-reviewed, one partial, two headings non-owning
-  and 40 of56 entries unresolved. Batch18 completes ending84–85/PDF86–87: all 128
+  Batch18 completes ending84–85/PDF86–87: all 128
   files match its rebuild; 1,224 current ranges, three external ranges, 1,344 pins and
   42 images pass. Two truth tables retain 56 data cells; six steps/four arithmetic
   examples and fourteen text/two image candidates remain. All 42 original/one revised
   crops preceded 26 kor+eng tasks; all raws read before one source pass. No failures
-  or retries; unchanged tests. Next: digital-logic-assembly preserves all 439 native
-  files, incoming Karnaugh association and external table4 reference, without new OCR.
+  or retries; unchanged tests.
+  디지털 논리 회로 is complete at packages/digital-logic-complete-r01, printed78–85/
+  PDF80–87. All 447 rebuild files and 439 native files/full metadata remain exact.
+  Fifty-eight category slices/eight objects reverse to native records, retaining 6,698
+  original ranges. All 6,703 active ranges, 7,305 native pins and 141 images pass.
+  Nine tables/507 indexed fields/89 blanks, twelve arithmetic panels, six design steps,
+  six captions and both cross-segment associations are verified. Fifty-one text/two
+  image candidates and four unknown ellipsis counts remain; diagram labels pending
+  volunteers. No new OCR/source correction; unchanged tests. Five negative probes
+  reject range/link/coverage drift. Use private digital-logic-assembly/digital_logic_literal.py
+  checker/context and reproduction.json; generic check alone does not recognize it.
+  Fourteen articles are readable/sample-reviewed, none partial, two headings non-owning
+  and 40 of56 entries unresolved. Next: batch19 verifies PASCAL/MT+ from printed86/PDF88,
+  its actual end and adjacent pages; reuse PDF87/88 and retain the six-page mapping limit.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

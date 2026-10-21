@@ -1124,7 +1124,7 @@
       "parent_id": "maso-1985-02-toc-0035",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Whole PDF79–88 reviewed. Actual article extent printed78–85/PDF80–87; preceding PDF79 is an independent Samsung contest advertisement and PDF88 opens PASCAL/MT+.",
@@ -1136,7 +1136,8 @@
         "Currentcheckpoint maps onlyending84–85/PDF86–87;opening78–83/PDF80–85 preserved inbatch17. Immutablearticleassembly remains required. Twomappedpages,twooutsidelookups,onecanonicaltask.",
         "IncomingPDF86opening Karnaughdiagram isassociated withprior outgoingfunction andtext 함수 F를 카르노 맵에 그려보면. Preserve native source ranges; no invented word join.",
         "FourKarnaughdiagram regions on84 andtwoon85,circuit/blockdiagrams,twotruth tables,sixdesignsteps andfourone-bitaddition examples remain source material. Independent diagramlabeltranscription pendingvolunteers; tablecells,steps andmainformulas transcribed/indexed.",
-        "Physical84right것→85left이다. and85middle때→85right문에 continuations retained. Final paragraph ends 다음에 기회가 있다면 좀 더 복잡한 디지탈 시스템의 설계도 다뤄 보려 한다. before nextarticle."
+        "Physical84right것→85left이다. and85middle때→85right문에 continuations retained. Final paragraph ends 다음에 기회가 있다면 좀 더 복잡한 디지탈 시스템의 설계도 다뤄 보려 한다. before nextarticle.",
+        "Complete immutable assembly covers printed78–85/PDF80–87. All 439 native files/full metadata retained; every projected category/range, incoming function-to-Karnaugh association and external table4 reference verified. Source title 디지탈 논리회로 and canonical 디지털 논리 회로 remain distinct; preceding Samsung contest advertisement and following PASCAL/MT+ remain separate."
       ],
       "restoration": {
         "segments": [
@@ -1244,7 +1245,48 @@
         },
         "deferred_pdf_pages": [],
         "deferred_printed_pages": [],
-        "assembly_required": true
+        "assembly_required": false,
+        "directory": "archive/pdf/1985-02/packages/digital-logic-complete-r01",
+        "article_id": "scan-maso-1985-02-toc-0037",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/digital-logic-complete-r01/manifest.json",
+          "sha256": "511f02cb4fb743824185649aaa7f5c0338e6480b9d19139cfae08eb08b6ed932",
+          "bytes": 79840
+        },
+        "complete_article_assembly": {
+          "path": "archive/pdf/1985-02/packages/digital-logic-complete-r01/manifest.json",
+          "sha256": "511f02cb4fb743824185649aaa7f5c0338e6480b9d19139cfae08eb08b6ed932",
+          "bytes": 79840
+        },
+        "index_mode": "digital-logic-literal-v1",
+        "private_adapter": {
+          "path": "archive/pdf/1985-02/restoration/digital-logic-assembly/digital_logic_literal.py",
+          "sha256": "815743ed15b67032fab75e8788759520aa59c4b272ba38ff285468c6622c776a",
+          "bytes": 8535
+        },
+        "check_entrypoint": "digital_logic_literal.check",
+        "adapter_context": "digital_logic_literal.installed",
+        "adapter_pythonpath": "archive/pdf/1985-02/restoration/digital-logic-assembly",
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/digital-logic-assembly/validation.json",
+          "sha256": "cf7fd4ebbd4c89ef766dcc3d3e83c489c2bc59e6f28701e50790215e452f01a3",
+          "bytes": 2096
+        },
+        "native_files_retained_exactly": 439,
+        "projected_category_occurrences": 58,
+        "projected_object_occurrences": 8,
+        "projected_utf8_occurrences": 6698,
+        "all_active_utf8_occurrences": 6703,
+        "resolved_stage_limits": {
+          "path": "archive/pdf/1985-02/restoration/digital-logic-assembly/ledger-stage-resolution.json",
+          "sha256": "7c9d25d0a3593b62865bc387312b9169d85786be113764a27a56e8656bd169ae",
+          "bytes": 2009
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/digital-logic-assembly/reproduction.json",
+          "sha256": "230a997f0da716e43d9bda0b7103b987bc0e73124573c575e4df40791f3b57ee",
+          "bytes": 2439
+        }
       }
     },
     {
@@ -1459,8 +1501,8 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 13,
-    "partial": 1,
+    "readable": 14,
+    "partial": 0,
     "non_owning_headings": 2,
     "unresolved_eligibility": 40
   },
@@ -2567,6 +2609,48 @@
         "sha256": "183445998a2f47cd4bb09715146254c758fe0041293662632f7366892831065d",
         "bytes": 3631463
       }
+    },
+    {
+      "id": "digital-logic-assembly",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0037"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/digital-logic-assembly/validation.json",
+        "sha256": "cf7fd4ebbd4c89ef766dcc3d3e83c489c2bc59e6f28701e50790215e452f01a3",
+        "bytes": 2096
+      },
+      "stats": {
+        "files": 447,
+        "native_files": 439,
+        "regions": 141,
+        "blocks": 94,
+        "figures": 47,
+        "physical_non_table_text_rows": 610,
+        "serialized_table_rows": 129,
+        "table_cells": 507,
+        "table_blank_slots": 89,
+        "projected_ranges": 6698,
+        "all_active_ranges": 6703,
+        "category_occurrences": 58,
+        "projected_objects": 8,
+        "new_ocr_tasks": 0,
+        "assembly_pending": false
+      },
+      "resolved_stage_limits": {
+        "path": "archive/pdf/1985-02/restoration/digital-logic-assembly/ledger-stage-resolution.json",
+        "sha256": "7c9d25d0a3593b62865bc387312b9169d85786be113764a27a56e8656bd169ae",
+        "bytes": 2009
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/digital-logic-assembly-preserved-work.json",
+        "sha256": "eede75d5a167f236ce3097448912ffd2ea72e0bfb7a889499c09f39a07c5e6f6",
+        "bytes": 3848748
+      }
     }
   ],
   "source_page_observations": [
@@ -3201,7 +3285,7 @@
       "printed_page": "78",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;ending-and-assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 81,
@@ -3212,7 +3296,7 @@
       "printed_page": "79",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;ending-and-assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 82,
@@ -3223,7 +3307,7 @@
       "printed_page": "80",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;ending-and-assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 83,
@@ -3234,7 +3318,7 @@
       "printed_page": "81",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;ending-and-assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 84,
@@ -3245,7 +3329,7 @@
       "printed_page": "82",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;ending-and-assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 85,
@@ -3256,7 +3340,7 @@
       "printed_page": "83",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;ending-and-assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 86,
@@ -3267,7 +3351,7 @@
       "printed_page": "84",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "ending-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 87,
@@ -3278,7 +3362,7 @@
       "printed_page": "85",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "ending-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 88,
@@ -3293,13 +3377,16 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "digital-logic-assembly",
-    "goal": "Assemble immutable opening/ending 디지털 논리 회로 natives covering printed78–85/PDF80–87. Preserve all native metadata,table/arithmetic/diagram indexes andsource uncertainties before marking readable.",
+    "id": "batch-19",
+    "goal": "Verify canonical0038 PASCAL/MT+ actual extent from printed86/PDF88, including end and adjacent pages; restore in segments of at most six mapped pages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0037"
+      "maso-1985-02-toc-0038"
     ],
-    "mapping_targets": "No new mapping/render/OCR/source correction. Preserve311opening and128ending files. Project everycategory/range; verify incomingeleven-term function-to-Karnaughassociation andexternal table4caption/reference. Preserve source 디지탈 erratum andliteral formula discrepancies.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "Reuse saved PDF87/88. Inspect actual extent before mapping; next TOC CP/M entry at printed104 is a lookup lead, not proof of a contiguous article. Preserve printed code, tables, diagrams and source discrepancies without program repair.",
+    "provisional_lookup_targets": [
+      87,
+      88
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -3323,8 +3410,7 @@
     "80286 retains48localized candidates,nultitasking,Zenix,Bus Instruction Unit,physical wraps and literal model/numeric claims. One ellipsis-band count remains unknown;original uncaptioned processor diagram retained with independent labels pending volunteers. No historical/technical/reference verification.",
     "Forth complete printed56–63/PDF58–65 retains48localized candidates andoneunknown caption dot-band count;all17diagram originals remain withindependent label transcription pending volunteers. No body pages orassembly pending. Use pinned private forth_literal checker/context;fullnative metadata andall561native files preserved. Human acceptance/encoding/technical claims remain unverified.",
     "산수 경주 complete64–76/PDF66–78 retains91localizedcandidates,461unknownencodedwhitespacebands,fouroriginalscreens andoneillustration;independent screenlabeltranscription pendingvolunteers. No bodypages orassemblypending. Use pinnedprivate math_race_literal checker/context;all474native files/fullmetadata preserved. Complete223BASIClabels/703BASICrows and165dump rows/1317literalbytes verified without execution orencodedbinary reconstruction. Humanacceptance/encoding/technicalclaims unverified.",
-    "디지털 논리 회로 remains partial: opening78–83/PDF80–85 exported; ending84–85/PDF86–87 andimmutableassembly pending. Source spelling 디지탈, printed sentence/formula errors,37localized candidates and4unknown encoded ellipsis bands remain. Seven Karnaugh diagrams and hardware circuit retain pixels; independent diagram labels pending volunteers. Table4 row alignment is editorial; original geometry authoritative.",
-    "디지털 논리 회로 ending84–85/PDF86–87 exported: two truth tables/56data cells/9headers,sixdesignsteps,fouradditionexamples,sixKarnaughregions,fouradderdiagrams. Fourteentext/twoimage candidates retain Ex-/culusive-OR,전가산기(half adder),primeposition andformula differences. All8bodypages covered inimmutable natives;assemblyrequired. Threeexternalnative ranges linkincoming function andtable4reference;source correctness/independentdiagramlabels unverified."
+    "디지털 논리 회로 complete78–85/PDF80–87 retains51text/twoimage candidates,four unknown ellipsis counts,nine table groups/507indexed fields/89blank slots,twelve arithmetic panels andoriginal diagrams. Source 디지탈,printed formula/sentence errors,Ex-/culusive-OR,전가산기(half adder),prime positions andliteral truth cells remain. Independent diagram labels,human acceptance,encoded bytes,exact spacing andmath/technical claims unverified. No body pages orassembly pending. Use pinned private digital_logic_literal checker/context;all439native files/fullmetadata retained."
   ],
   "reader_rebuild": false
 }

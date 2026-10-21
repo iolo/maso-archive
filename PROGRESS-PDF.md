@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Thirteen articles are readable/sample-reviewed,
-one partial, two headings are non-owning and 40 of56 entries remain unresolved.
+February 1985 restoration is in progress. Fourteen articles are readable/sample-reviewed,
+none partial, two headings are non-owning and 40 of56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -27,8 +27,16 @@ Batch18 completes ending84–85/PDF86–87: all 128 files match the rebuild; 1,2
 ranges, three external ranges, 1,344 pins and 42 images pass. Two truth tables retain
 56 data cells, six design steps and four arithmetic examples. Fourteen text/two image
 candidates remain. All 26 OCR tasks completed without failure/retry.
-Next: digital-logic-assembly preserves all 439 native files and verifies the incoming
-Karnaugh association and external table4 reference. No new OCR/source correction.
+디지털 논리 회로 is complete at packages/digital-logic-complete-r01, printed78–85/
+PDF80–87. All 447 files match its rebuild; all 439 native files/full metadata remain exact.
+All 58 category slices/eight objects reverse to their native records; 6,703 active
+ranges, 7,305 native pins and 141 images pass. Nine tables retain 507 indexed fields/
+89 blanks; twelve arithmetic panels, six steps and six captions survive. Both cross-
+segment associations pass. Fifty-one text/two image candidates/four unknown ellipsis
+counts remain. Use private digital_logic_literal checker/context; no new OCR/source
+correction. Five negative probes reject range/link/coverage drift.
+Next: batch19 verifies PASCAL/MT+ from printed86/PDF88, including its actual end and
+adjacent pages. Reuse PDF87/88; map at most six pages per segment.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.

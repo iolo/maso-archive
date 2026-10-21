@@ -228,17 +228,30 @@ All 99 original/21 revised crops preceded 68 tasks; all raws read before one sou
 pass. No OCR failure/retry; unchanged 213-test baseline reused. Original maps retain
 the superseded source-title narrative, with an explicit metadata erratum.
 
-The 56-entry ledger records thirteen readable/sample-reviewed articles, one partial,
-two non-owning headings and 40 unresolved entries. Batch18 completes the ending84–85/
+Batch18 completes the ending84–85/
 PDF86–87 at packages/batch-18-r01/digital-logic-b. All 128 files match its independent
 rebuild; 1,224 current ranges, three external ranges, 1,344 evidence pins and 42 images
 pass. Two truth tables retain 56 data cells; six design steps and four arithmetic
 examples remain. Fourteen text/two image candidates preserve literal formula and
 label discrepancies. All 42 original/one revised crops preceded 26 kor+eng tasks;
 all raws read before one source pass. No OCR failure/retry; unchanged test baseline.
-Next: digital-logic-assembly combines both immutable natives, preserving all 439 files,
-the incoming function-to-Karnaugh association and external table4 reference. No new
-mapping, rendering, OCR or source correction. PASCAL/MT+ opens separately on PDF88.
+디지털 논리 회로 is now complete at packages/digital-logic-complete-r01, printed78–85/
+PDF80–87. All 447 files match the independent rebuild; all 439 native files/full metadata
+remain exact. Fifty-eight category slices/eight objects reverse to native records:
+6,698 original range occurrences, 6,703 active ranges, 7,305 native evidence pins and
+141 images pass. Nine table groups retain 507 indexed fields/89 blank slots; twelve
+arithmetic panels, six design steps, six captions and both cross-segment associations
+are verified. Fifty-one text/two image candidates and four unknown ellipsis counts
+remain; independent diagram labels pending volunteers. Four original stage notes and
+two ledger deferrals are preserved with explicit resolution records. Five negative
+probes reject altered ranges/links/coverage. Use the pinned private digital-logic-assembly/
+digital_logic_literal.py checker/context and reproduction.json; generic check alone
+does not recognize this format. No new OCR/source correction; unchanged test baseline.
+
+The 56-entry ledger records fourteen readable/sample-reviewed articles, no partials,
+two non-owning headings and 40 unresolved entries. Next: batch19 verifies PASCAL/MT+
+from printed86/PDF88, including its actual end and adjacent pages, before mapping at
+most six pages. Reuse PDF87/88; the next TOC entry at104 is only a lookup lead.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
