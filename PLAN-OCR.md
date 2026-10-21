@@ -135,10 +135,18 @@ paired OCR or a new engine comparison.
   22 dump rows/176 bytes. Thirty source candidates, 145 quoted fields and 461 unknown
   encoded-whitespace bands remain explicit. All 40 original/one revised crops preceded
   19 tasks; all raws read before one source pass. No OCR failure/retry; unchanged tests.
+  Batch16 restores final76/PDF78 at packages/batch-16-r01/math-race-c. All 29 files
+  match its independent rebuild; 7,174 current ranges, two external native ranges,
+  7,199 current evidence pins and eight images pass. Its 143 dump rows retain 1,141
+  literal bytes, two column boundaries and the five-byte final6520 row. Twenty-two
+  localized source candidates remain. All eight original/one revised crops preceded
+  four tasks; all raws read before one source pass. No OCR failure/retry; unchanged
+  test baseline. Incoming60A8/60B0 and prior caption retain their native evidence.
   Twelve articles are readable/sample-reviewed, one partial, two headings non-owning
-  and 41 of56 entries unresolved. Next: batch16 restores final76/PDF78, preserving
-  list2 continuation60A8/60B0 through6520. Reuse PDF77–79; immutable assembly follows
-  separately. Both existing segments and their complete review evidence remain.
+  and 41 of56 entries unresolved. All 산수 경주 pages64–76/PDF66–78 are now covered.
+  Next: separately assemble all three immutable natives with complete metadata,
+  category/range projection, both continuations and external caption links. No new
+  mapping, OCR or source correction is queued for assembly.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

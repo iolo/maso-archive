@@ -191,11 +191,23 @@ source-linked. Thirty localized candidates and 461 unknown encoded-whitespace ba
 remain explicit. All 40 original/one revised crops preceded 19 tasks; all raws were
 read before one source pass. No OCR failure/retry; unchanged 213-test baseline reused.
 
+Batch16 restores final printed76/PDF78 at
+`archive/pdf/1985-02/packages/batch-16-r01/math-race-c`. All 29 files match the
+independent rebuild; 7,174 current UTF-8 ranges, two external native ranges,
+7,199 current evidence pins and eight images pass. Four blocks retain the section
+label and 143 dump rows/1,141 literal bytes. The incoming60A8/60B0 link, two column
+boundaries, prior caption and five-byte final6520 row remain indexed. Twenty-two
+localized glyph candidates remain explicit. All eight original/one revised crops
+preceded four tasks; all raws were read before one source pass. No OCR failure/retry;
+unchanged 213-test baseline reused. PDF79 is an independent contest advertisement.
+
 The 56-entry ledger records twelve readable/sample-reviewed articles, one partial,
-two non-owning headings and 41 unresolved entries. Next is batch16: restore the final
-산수 경주 page, printed76/PDF78, preserving list2's continuation60A8/60B0 through
-the final6520 row. Reuse reviewed PDF77–79; assemble the three immutable segments
-separately afterward. Cover selection, remaining page accounting and issue closeout are pending.
+two non-owning headings and 41 unresolved entries. All 산수 경주 body pages,
+printed64–76/PDF66–78, are covered by three immutable natives. Next: assemble them
+separately, preserving native metadata, every review category and source range,
+both incoming continuations and external caption links before marking the article
+readable. No new OCR or source correction is needed. Cover selection, remaining
+page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.
