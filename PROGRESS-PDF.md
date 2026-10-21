@@ -6,16 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Ten articles are readable/sample-reviewed,
-one heading is non-owning and 45 of 56 canonical entries remain unresolved. The latest
-is 오캄의 칼날 on printed44–49/PDF46–51. All 286 files match the independent rebuild;
-4,778 exact ranges, 5,007 evidence pins and 76 images pass. Its 108 code rows form
-96 source-line groups; two listing captions, an illustration, two pull quotes,
-four operator-table rows/eight cells and eleven wrapped annotations remain.
-Forty-two source candidates, one unknown hyphen-band count and unknown encoded
-whitespace retain original scans. All 67 OCR tasks completed without failure/retry.
-The unchanged pipeline reuses its passing 213-test baseline. Next is 80286 from
-printed50/PDF52. Cover selection and issue closeout remain pending.
+February 1985 restoration is in progress. Eleven articles are readable/sample-reviewed,
+one heading is non-owning and 44 of 56 canonical entries remain unresolved. The latest
+is 80286 on printed50–55/PDF52–57. All 243 files match the independent rebuild;
+3,193 exact ranges, 3,379 evidence pins and 64 images pass. Its 463 physical rows
+retain three credits, three pull quotes, six headings and sixteen continuation links.
+The original processor diagram remains; independent label transcription is pending
+volunteers. Forty-eight source candidates and one unknown ellipsis count retain scans.
+All 57 OCR tasks completed without failure/retry. The unchanged pipeline reuses its
+passing 213-test baseline. Next is 포쓰의 기초 이해 from printed56/PDF58, within the
+six-mapped-page limit. Cover selection and issue closeout remain pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 

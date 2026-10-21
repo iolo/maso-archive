@@ -85,9 +85,17 @@ paired OCR or a new engine comparison.
   all raws read before one source pass. Zero OCR failures/retries. Four Korean-annotated
   examples corrected directly from eng drafts. Metadata revision adds logical grouping;
   text unchanged/all versions preserved. Unchanged 213-test baseline reused.
-  Ten articles are readable/sample-reviewed, one heading is non-owning and 45 of
-  56 canonical entries remain unresolved. Next: batch11 verifies 80286 from
-  printed50/PDF52. Cover and issue closeout remain pending.
+  Batch11 completes 80286 on printed50–55/PDF52–57. All 243 rebuild files,
+  3,193 exact ranges, 3,379 evidence pins and 64 images pass. Its 463 physical rows
+  retain three source credits, three pull quotes, six headings, eleven page/column
+  joins and five regional continuations. One uncaptioned processor diagram retains
+  original labels; independent transcription pending volunteers. Forty-eight source
+  candidates and one unknown ellipsis count remain explicit. All 64 original/four
+  revised crops inspected before 57 kor+eng tasks; all raws read before one source
+  pass. No OCR failure/retry. Unchanged 213-test baseline reused.
+  Eleven articles are readable/sample-reviewed, one heading is non-owning and 44 of
+  56 canonical entries remain unresolved. Next: batch12 verifies 포쓰의 기초 이해 from
+  printed56/PDF58, segmenting if longer than six pages. Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.

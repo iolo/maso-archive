@@ -118,10 +118,23 @@ All 67 tasks completed without failure/retry; four crop repairs preceded OCR. A 
 metadata revision adds logical row grouping without changing text. All versions remain.
 Unchanged 213-test baseline reused.
 
-The 56-entry issue ledger records ten readable/sample-reviewed articles, one
-non-owning heading and 45 unresolved entries. Next is batch11: verify 80286
-from printed50/PDF52 and restore within six mapped pages. PDF51/52 renders can be
-reused. Cover selection, remaining source-page accounting and issue closeout are pending.
+Batch11 completes 80286, canonical0033, on printed50–55/PDF52–57.
+All 243 files at `archive/pdf/1985-02/packages/batch-11-r01/i80286` match its
+independent rebuild. All 3,193 exact ranges, 3,379 evidence pins and 64 images pass.
+Fifty-seven blocks retain 463 physical rows, six complete pages, one uncaptioned
+processor diagram, three pull quotes, three credits and six section headings.
+Eleven page/column joins, five regional continuations, eighteen physical wraps,
+112 technical-token occurrences and 131 numeric fields retain exact source links.
+Forty-eight candidates preserve nultitasking, Zenix, Bus Instruction Unit and literal
+source claims. One ellipsis-band count remains unknown; diagram labels pending volunteers.
+All 57 tasks completed without failure/retry; four crop repairs preceded OCR.
+Unchanged 213-test baseline reused. All prior work and source corrections remain.
+
+The 56-entry issue ledger records eleven readable/sample-reviewed articles, one
+non-owning heading and 44 unresolved entries. Next is batch12: verify 포쓰의 기초 이해
+from printed56/PDF58 and restore within six mapped pages, segmenting if longer.
+PDF57/58 renders can be reused. Cover selection, remaining source-page accounting
+and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.
