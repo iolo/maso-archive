@@ -1067,12 +1067,34 @@ All46,627 prior files and30 implementation pins pass;47,815 files are now preser
 The unchanged213-test baseline is reused. No reader rebuild.
 Current totals: 36 readable, one partial article, six non-owning headings and13 unresolved.
 
-Next: restore final216–221/PDF218–223 of 마이크로 컴퓨터 설계 강좌0048 as batch50,
-reusing the reviewed source views. Preserve the incoming변환 결과를/A 레지스터에서
-association,figures10–16,list1 assembly across218–219,lists2/3 BASIC andoutputs,
-parts table1,andprose continuing from218 to220 across the intervening listing page.
-Then assemble all twelve pages separately from immutable natives. Parent 정보모음0008,
-cover selection,remaining page accounting andissue closeout remain pending.
+Batch50 restores final216–221/PDF218–223 of 마이크로 컴퓨터 설계 강좌0048 at
+`archive/pdf/1985-02/packages/batch-50-r01`. All275 files match the independent
+rebuild;5,976 current exact UTF-8 ranges,one incoming native range,6,290 evidence
+pins and77 images pass. The ending retains63 blocks/413 physical transcript rows,
+seven numbered diagrams,parts-table original andsix complete pages. List1 retains
+69 assembly rows/196 fields/80 blank fields/six EQU constants;lists2/3 retain16
+BASIC labels,36 output rows/81 numeric fields,six prompt-response pairs anda final
+unanswered prompt. Two independent parts lists retain27 rows/47 cells/seven blank
+quantities. Eleven caption links,five prose connections,one listing continuation,
+80 physical wraps,five complete overbar groups andthe incoming native boundary pass.
+Duplicate③,28V versus figure2.8V,REF IF⁺,진압,음궤한,CMMR,DIT,ADC082-!,AF. and
+missing THEN remain literal. Thirty-seven source candidates,one faint-glyph marker,
+55 Unicode approximations and1,424 unknown encoded-space bands retain original scans.
+All77 original/eight revised crops acrosssix repaired regions preceded63 OCR tasks
+(8 eng/55 kor+eng);all drafts preceded one source pass. No OCR failures/retries.
+All47,815 prior files and30 implementation pins pass;48,957 files are preserved.
+The unchanged213-test baseline is reused. No reader rebuild. All twelve body pages
+are now restored across two immutable natives;complete article assembly is pending.
+Current totals: 36 readable, one partial article, six non-owning headings and13 unresolved.
+
+Next: assemble all twelve pages210–221/PDF212–223 of 마이크로 컴퓨터 설계 강좌0048
+from immutable batch49/50 natives. Preserve full correction metadata andall local
+indexes,resolve the 변환 결과를/A 레지스터에서 boundary andopening list1 reference,
+andvalidate projected ranges against native bytes. No new mapping orOCR is needed.
+Then verify 알려지지 않은 Z80 명령어0049 from222/PDF224. Parent 정보모음0008,cover
+selection,remaining page accounting andissue closeout remain pending. Human acceptance,
+full proofreading,source bytes,spacing,claims,circuit behavior,execution andindependent
+backup recovery remain unverified;diagram-label transcription is pending volunteers.
 
 ## December 1984 closeout, 2026-10-20
 
