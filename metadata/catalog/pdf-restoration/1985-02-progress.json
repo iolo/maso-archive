@@ -3408,12 +3408,88 @@
       "toc_entry_id": "maso-1985-02-toc-0044",
       "title": "전학년 성적 처리 프로그램",
       "parent_id": "maso-1985-02-toc-0042",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Full extent verified as twelve continuous pages184–195/PDF186–197 by title, two BASIC listings, compilation/prose continuations, program explanations, usage sections andfinal printed-results figure. PDF185 is completedreview0043;PDF198 independently begins timetable0045.",
+        "Current six-page opening184–189/PDF186–191 includes list1 성적 처리 프로그램 through9010 andlist2 합산 프로그램 through2050; no BASIC listing continuation is deferred. Prose afterlist2 ends않는 andcontinues다. onPDF192. Fullarticle remains partial pending192–197 andassembly.",
+        "Shared187/PDF189 owns onlyleft andupperright list1 panels. Separate publisher 알려드립니다 notice belowright excluded frommap,OCR andarticleoriginals. Fivewholepageoriginals andtwoownedlistingpanels retained.",
+        "Allfourteen fullsourceviews185–198 inspected. Six mappedpages186–191,eight outsideviews185/192–198,onecanonicaltask0044. Threeviews reused,elevennewrenders. No othercanonicalarticle classification orreaderbuild.",
+        "Source platform애플컴패티블,credit최 오 길/미림니트 onPDF187 belong to this article. Printed spelling,syntax,duplicate labels,quotes,filenames andarithmetic remain independent literal sourcefields."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-44-r01/grades-a",
+        "article_id": "scan-maso-1985-02-toc-0044",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-44-r01/grades-a/manifest.json",
+          "sha256": "2c8c243181da70c0e54fa18962ca3b642c72d06fcdff62ccdd982809aeb03f5f",
+          "bytes": 18091
+        },
+        "coverage": {
+          "pdf_pages": [
+            186,
+            187,
+            188,
+            189,
+            190,
+            191
+          ],
+          "printed_pages": [
+            "184",
+            "185",
+            "186",
+            "187",
+            "188",
+            "189"
+          ],
+          "regions": 30,
+          "blocks": 23,
+          "figures": 7,
+          "physical_text_rows": 493,
+          "physical_code_rows": 431,
+          "basic_labels": 296,
+          "basic_physical_wraps": 135,
+          "basic_quoted_strings": 177,
+          "basic_statements": 668,
+          "caption_links": 2,
+          "shared_page_ownership": "PDF189 owns left and upper-right listing panels; independent lower-right publisher advertisement excluded."
+        },
+        "full_pdf_pages": [
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197
+        ],
+        "assembly_required": true,
+        "deferred_pdf_pages": [
+          192,
+          193,
+          194,
+          195,
+          196,
+          197
+        ],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-44/validation.json",
+          "sha256": "2b4bcb9e590106b973262a3d502320aa1a1957ed43c5d24922fcf6145e52d10d",
+          "bytes": 2538
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-44/reproduction.json",
+          "sha256": "3a26c876bf22ef5029ce78e697312181e3b3aa9ac2bde074121e4714f0966e65",
+          "bytes": 1323
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0045",
@@ -3551,9 +3627,9 @@
   "totals": {
     "canonical_entries": 56,
     "readable": 33,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 5,
-    "unresolved_eligibility": 18
+    "unresolved_eligibility": 17
   },
   "checkpoints": [
     {
@@ -7016,6 +7092,100 @@
         "sha256": "572a97ba0bde2b00e14a5e4785d944418ee2eba06094011d5cc39f7e04fe865a",
         "bytes": 9452193
       }
+    },
+    {
+      "id": "batch-44",
+      "status": "partial-article-segment",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "mapped_pdf_pages": [
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "outside_map_lookup_pages": [
+        185,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-44/validation.json",
+        "sha256": "2b4bcb9e590106b973262a3d502320aa1a1957ed43c5d24922fcf6145e52d10d",
+        "bytes": 2538
+      },
+      "stats": {
+        "completed_at": "2026-10-21T12:09:43.958000+00:00",
+        "stats": {
+          "regions": 30,
+          "blocks": 23,
+          "figures": 7,
+          "physical_text_rows": 493,
+          "physical_code_rows": 431,
+          "logical_listing_lines": 296,
+          "listing_groups": 2,
+          "basic_labels": 296,
+          "basic_physical_rows": 431,
+          "basic_physical_wraps": 135,
+          "basic_quoted_strings": 177,
+          "basic_quote_delimiters": 354,
+          "basic_statements": 668,
+          "basic_numeric_fragments": 487,
+          "basic_branch_targets": 67,
+          "source_candidates": 37,
+          "unknown_bands": 8,
+          "unknown_quote_space_bands": 7,
+          "unknown_punctuation_bands": 1,
+          "typographic_approximations": 6,
+          "unknown_space_bands": 1223,
+          "quoted_fields": 153,
+          "caption_links": 2,
+          "column_connections": 9,
+          "same_label_column_joins": 3,
+          "prose_joins": 1,
+          "requirements": 7,
+          "source_claims": 9,
+          "command_examples": 3,
+          "availability": "partial",
+          "mapped_pdf_pages": [
+            186,
+            187,
+            188,
+            189,
+            190,
+            191
+          ],
+          "deferred_pdf_pages": [
+            192,
+            193,
+            194,
+            195,
+            196,
+            197
+          ]
+        },
+        "source_passes": 1,
+        "ocr_tasks": 23,
+        "eng_code_tasks": 11,
+        "kor_eng_tasks": 12,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 7
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-44-preserved-work.json",
+        "sha256": "551361fbf6381deb5479a45fe62a63124146a0c631ab740551f3ec061e81b065",
+        "bytes": 9566350
+      }
     }
   ],
   "source_page_observations": [
@@ -8802,13 +8972,13 @@
     {
       "pdf_page": 186,
       "printed_page": "184",
-      "classification": "canonical-start-lookup",
+      "classification": "canonical-article",
       "toc_entry_ids": [
         "maso-1985-02-toc-0044"
       ],
       "source_title": "전학년 성적처리 프로그램",
-      "restoration": "outside-current-checkpoint;pending-eligibility-or-restoration-review",
-      "ownership_note": "Independent canonical0044 opening under non-owning parent0042; bodyrestoration andfull extent review remain pending.",
+      "restoration": "opening-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending.",
       "section_title": "프로그램공모 최우수상"
     },
     {
@@ -8822,23 +8992,127 @@
       "section_title": "프로그램공모 우수상",
       "restoration": "outside-current-checkpoint;pending-restoration",
       "ownership_note": "Third independent child of non-owning0042; opening reviewed for heading ownership only. No map orOCR; complete extent pending."
+    },
+    {
+      "pdf_page": 187,
+      "printed_page": "185",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "opening-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending."
+    },
+    {
+      "pdf_page": 188,
+      "printed_page": "186",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "opening-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending."
+    },
+    {
+      "pdf_page": 189,
+      "printed_page": "187",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "mixed-article-advertisement",
+      "restoration": "opening-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Independent lower-right 알려드립니다 publisher notice excluded; owned left and upper-right listing originals retained."
+    },
+    {
+      "pdf_page": 190,
+      "printed_page": "188",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "opening-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending."
+    },
+    {
+      "pdf_page": 191,
+      "printed_page": "189",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "opening-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Both BASIC listings end within186–191; compilation discussion continues to192."
+    },
+    {
+      "pdf_page": 192,
+      "printed_page": "190",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-45",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending."
+    },
+    {
+      "pdf_page": 193,
+      "printed_page": "191",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-45",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending."
+    },
+    {
+      "pdf_page": 194,
+      "printed_page": "192",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-45",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending."
+    },
+    {
+      "pdf_page": 195,
+      "printed_page": "193",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-45",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending."
+    },
+    {
+      "pdf_page": 196,
+      "printed_page": "194",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-45",
+      "ownership_note": "Canonical0044 continuous twelve-page article verified from source; current opening six pages restored, ending six and assembly pending."
+    },
+    {
+      "pdf_page": 197,
+      "printed_page": "195",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-45",
+      "ownership_note": "Final usage prose/results figure end this article; independent timetable begins198."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-44",
-    "goal": "Verify full extent of 전학년 성적 처리 프로그램0044 from printed184/PDF186 and restore its first bounded segment.",
+    "id": "batch-45",
+    "goal": "Restore the ending six pages of 전학년 성적 처리 프로그램0044, printed190–195/PDF192–197, as an immutable second segment; then assemble the twelve-page article separately.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0044"
     ],
-    "mapping_targets": "Inspect candidate printed184–195/PDF186–197 and boundary185/198, then map at most six source pages, provisionally186–191. Retain all code rows, labels, tables, figures and source irregularities.",
+    "mapping_targets": "Reuse batch44 verified source views192–197. Preserve compilation commands, program explanations, usage examples and original final results figure; review all tables, captions and field values. Map only these six pages.",
     "provisional_lookup_targets": [
-      185,
-      186,
-      187,
-      188,
-      189,
-      190,
       191,
       192,
       193,
@@ -8848,7 +9122,7 @@
       197,
       198
     ],
-    "boundary_review": "PDF186 opening andPDF198 independent timetable opening are verified; intervening continuity and actual ending require source review. Do not infer extent from TOC offsets. If longer than six pages, preserve immutable segments and assemble separately before readable promotion.",
+    "boundary_review": "Opening native grades-a ends 않는 onPDF191, continuing 다. on192. Both BASIC listings are complete in grades-a through9010/2050. Final usage prose and printed-results figure endPDF197; PDF198 starts independent timetable0045. Bind incoming prose and references to exact native ranges; do not merge or repair printed code/claims.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -8889,7 +9163,8 @@
     "Batch40 completes conversioncontest0023 on181/PDF183 andclassifies parent0019 asnon-owning repeated1-LINE 콘테스트 우수작 heading. Allfour canonicalchildren andlinks retained; otherthreecontestbodies remain unresolved. Completepanel,seventext/image regions,sixblocks14physicalrows retainone BASIC label1,ninecoderows,eightwraps,threequotedstrings15statements,author박문길,platform애플컴패티블 andhistoricaladdress길음3동126-27. Numeric409/6 andquotedN/0(10)? physicalwraps stayliteral;0/O/Q promptcandidateexplicit. Eightcandidates,eightUnicodeapproximations and67unknownspacebands retain scans. Printer0041 completepackage unchanged andsource-disjoint. Humanacceptance/fullproofreading,encodedbytes,spacing,execution andcontactvalidity unverified. ExactPDF184heading매월 corrects prior이달의 activeobservation only; original preserved.",
     "Batch41 completes GRcontest0020 on103/PDF105 andpanorama0021 on133/PDF135. Bothcompleteindependentpanels match priorPASCAL/music exclusions andretain originals. Combined12blocks27physicaltextrows include17coderows/twoBASIClabels1,15wraps,threequotedstrings32colonstatementgroups,two branchtargets andsixsplitfields. GRliteral50digitstring retains4/28/18digitfragments andB/$,GOTO/1 wraps;twoquotedblankbands remainunknowncounts withwiderW$ gap noted. Panorama retainsIMOD/6,Y=Y/+K,THEN T/HENwrap,NEXTELSENEXT andcompactkeywords withoutsyntaxrepair. Twenty-one candidates,30Unicodeapproximations and80unknownspacebands retain originals. Historicalauthors/addresses/platforms literal;humanacceptance,fullproofreading,sourcebytes,spacing,execution andcontactvalidity unverified. Heading0019 andallfourchildlinks unchanged;0022 stillunresolved.",
     "Batch42 completes 추종자0022 on158/PDF160. Complete independent panel exactly matches MLE contest158 exclusion. Twelve physical text rows include seven BASIC rows, sole numeric label1, sixwraps, twoquotedstrings, thirteen lexical colon groups and symbolic LABEL/GOTO C. PEE/K,AM/OD99 and quoted-label wraps preserved. Square brackets in both CIRCLE groups and6^6 carets remain literal; no arithmetic orsyntax repair. Ten localized candidates, eleven Unicode approximations andone unknown encoded-space band retain scans. Historicalcredit/platform/address literal. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andcontactvalidity unverified. Allfour contestchildren nowreadable; non-owningheading0019 unchanged.",
-    "Batch43 completes 공모 총평0043 on183/PDF185, sourceheadline 새학기 준비, andclassifies pageless parent0042 공모 입상 asnon-owning withthreeunchangedchildren0043–0045. Review retains59prose rows/two columns/one continuation,threeothertextrows,sixserializedtablerows withfourheaders/twentydata cells,sevenparagraphsegments,57physicalrowboundaries,threequotedtitles andsevenliteralaward/softwareclaims. Fifteen sourcecandidates retain historicalspelling/names,including 이 은 록 glyph candidate; sixUnicodequoteapproximations. Tablepipes areeditorial; originaltable andwholepage retained. TOC편집부 not insertedasbodybyline. Humanacceptance,fullproofreading,encodedbytes,spacing andclaims unverified. No readerrebuild."
+    "Batch43 completes 공모 총평0043 on183/PDF185, sourceheadline 새학기 준비, andclassifies pageless parent0042 공모 입상 asnon-owning withthreeunchangedchildren0043–0045. Review retains59prose rows/two columns/one continuation,threeothertextrows,sixserializedtablerows withfourheaders/twentydata cells,sevenparagraphsegments,57physicalrowboundaries,threequotedtitles andsevenliteralaward/softwareclaims. Fifteen sourcecandidates retain historicalspelling/names,including 이 은 록 glyph candidate; sixUnicodequoteapproximations. Tablepipes areeditorial; originaltable andwholepage retained. TOC편집부 not insertedasbodybyline. Humanacceptance,fullproofreading,encodedbytes,spacing andclaims unverified. No readerrebuild.",
+    "Batch44 restores canonical0044 opening184–189/PDF186–191 as partial; full extent184–195/PDF186–197 verified. Ending192–197 and immutable article assembly pending. Both BASIC listings are complete in this native:431 physical rows/296 labels/135 wraps/177 quoted strings/668 colon groups andthree same-label column joins2010,4310,8110. Numeric-only rows and0 THEN/1 ELSE fragments remain continuations. Seven unknown quoted-space bands andfaint list2 line290 punctuation useexplicit editorial markers. Thirty-seven source candidates retain FISRT, independent class prompts/dimensions, literal arithmetic, faint1020–1080 glyphs, historical spelling andcredit. Seven original page/panel images exclude separate lower-right189 publisher notice. Two captions,seven requirements,nine claims,three commands andintro column join retained. Outgoing 않는 continues다. on192. Human acceptance,full proofreading,sourcebytes,spacing andexecution unverified. No reader rebuild."
   ],
   "reader_rebuild": false
 }
