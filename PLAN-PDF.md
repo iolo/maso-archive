@@ -437,12 +437,28 @@ ranges, links, ordinals and page coverage. All 32,016 prior files and 30 impleme
 pins pass; the unchanged 213-test baseline is reused. Use the pinned private
 `restoration/background-music-assembly/background_music_literal.py` checker/context
 and `reproduction.json`; the generic checker alone does not recognize this format.
-Current totals: 20 readable, no partial articles, two non-owning headings and 34 unresolved.
+After music assembly: 20 readable, no partial articles, two non-owning headings and 34 unresolved.
 
-Next: verify 특집 II : 입력 도구, canonical0004, from printed134/PDF136.
-Review its own prose/photo, actual extent, adjacent pages and child relationships
-before mapping; its parent role does not imply a non-owning heading.
-Keep the two-article/six-mapped-page/twenty-outside-lookup checkpoint limits.
+Batch28 completes the input-tools introduction, canonical0004, on printed134/PDF136
+at `archive/pdf/1985-02/packages/batch-28-r01/input-intro`, and 페이퍼 홀더,
+canonical0005, on printed135/PDF137 at
+`archive/pdf/1985-02/packages/batch-28-r01/paper-holder`. All 22 introduction files
+and 54 paper-holder files match their independent rebuilds. All 286 exact UTF-8
+ranges, 345 evidence pins and 18 images pass. Fourteen blocks retain 40 physical rows,
+the original photograph and diagram, four faint diagram labels, one caption and its
+prose reference, the 입/력된 column join, ten physical wraps and three historical claims.
+The introduction owns its prose/photo; all three child identities and relationships remain.
+Nine localized glyph candidates and two Roman-II Unicode approximations remain explicit.
+The original price5～6천원, availability statement and printed wording remain literal.
+All 18 crops were inspected before 14 kor+eng tasks; all drafts were read before one
+source correction pass. No OCR failure, retry or crop repair. All 33,029 prior files
+and 30 implementation pins pass; the unchanged 213-test baseline is reused.
+Current totals: 22 readable, no partial articles, two non-owning headings and 32 unresolved.
+
+Next: verify 애플 베이직 라인 에디터, canonical0006, from printed136/PDF138.
+Inspect its prose, referenced listings, actual ending and adjacent pages before mapping.
+The next TOC entry is a lookup lead, not proof of the ending; retain any noncontiguous
+listing ownership. Keep the two-article/six-page/twenty-outside-lookup limits.
 Cover selection, remaining page accounting and issue closeout remain pending.
 No reader rebuild; human acceptance and full proofreading remain pending.
 
