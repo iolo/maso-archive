@@ -413,12 +413,38 @@ paired OCR or a new engine comparison.
   the generic checker alone does not recognize this format.
   Current totals: 23 readable, no partial articles, two non-owning headings and 31 unresolved.
 
-  Next: verify 기계어 라인 에디터 (MLE), canonical0007, from lower139/PDF141.
-  Reuse observed prosePDF141–143 and listing openingPDF148; verify all referenced machine-
-  code and BASIC listings, actual ending and adjacent pages before mapping. Preserve ALE
-  ownership on shared141 and noncontiguous listing ownership. Keep the two-article/six-page/
-  twenty-outside-lookup limits. Cover selection, remaining page accounting and issue
-  closeout remain pending. No reader rebuild; human acceptance and full proofreading pending.
+  Batch31 restores all MLE prose on printed139–141/PDF141–143 at
+  `archive/pdf/1985-02/packages/batch-31-r01/mle-a`. All 225 files match the independent
+  rebuild; 2,023 exact UTF-8 ranges, 2,228 evidence pins and 60 images pass. Fifty-two
+  blocks retain 221 serialized text rows, including ten code/menu rows in nine logical
+  groups. Five menu options, two tables/18 cells, eleven memory-diagram labels, four
+  examples, 39 key notations, four prose joins and 55 physical wraps retain source links.
+  Three listing references and three BASIC-label claims remain explicitly deferred.
+  The diagram retains its original geometry; label serialization order is editorial.
+  Shared139 owns lower MLE body and its separate section badge; upper ALE is excluded.
+
+  The full sixteen-page extent is verified: prosePDF141–143, then listingsPDF148–160.
+  List1 starts at the first visible ordinal4; no rows1–3 are invented. It ends at
+  49DB:60 1149 RTS on159, where list2 starts at BASIC100. List2 ends on160 at label460,
+  final physical row : GOTO 180. The separate contest and advertisements on160 are
+  excluded;161 is an independent advertisement and162 starts 정보교류/나라안 소식.
+  Thirteen listing pages and complete immutable article assembly remain pending.
+
+  Printed 게제, 압력, 30행, menu DISC versus heading DISK, memory addresses and command
+  fields remain literal. Twenty-three candidates, five unknown menu dot leaders, 24 Unicode
+  approximations and 37 unknown spacing bands retain originals. All 60 original/two revised
+  crops were reviewed before52 tasks (5eng/47kor+eng); all drafts were read before one
+  source pass. Two border trims preceded OCR; no failure/retry. All 35,122 prior files
+  and30 implementation pins pass; unchanged213-test baseline reused. Three mapped pages,
+  17 outside lookups and one canonical task respect the operating limits.
+  Current totals: 23 readable, one partial article, two non-owning headings and 30 unresolved.
+
+  Next: restore MLE listing146–151/PDF148–153, canonical0007, within the six-page limit.
+  Reuse batch31 source views; preserve first visible ordinal4, all unnumbered object-byte
+  rows, physical comments/strings and ordinal498's continuation acrossPDF152–153. This
+  segment ends at546; following154 begins547. RemainingPDF154–160 and complete assembly
+  stay pending. Cover selection, remaining page accounting and issue closeout remain
+  pending. No reader rebuild; human acceptance and full proofreading pending.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
