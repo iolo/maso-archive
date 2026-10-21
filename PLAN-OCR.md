@@ -153,9 +153,19 @@ paired OCR or a new engine comparison.
   reject range/link/cell/coverage drift. Use the pinned private math-race-assembly/
   math_race_literal.py checker/context and reproduction.json; generic check alone
   does not recognize this format. All six original stale stage notes remain preserved.
-  Thirteen articles are readable/sample-reviewed, none partial, two headings non-owning
-  and 41 of56 entries unresolved. Next: batch17 verifies 디지털 논리 회로 from
-  printed78/PDF80, including actual ending/adjacency. Reuse PDF79/80; segment if needed.
+  Batch17 restores 디지털 논리 회로 opening78–83/PDF80–85 at
+  packages/batch-17-r01/digital-logic-a. All 311 files match its independent rebuild;
+  5,474 ranges, 5,954 evidence pins and 99 images pass. Five numbered tables/two extra
+  truth tables, eight gate groups/80 truth-data cells, eleven arithmetic panels and
+  six caption links remain. Seven original Karnaugh diagrams retain geometry/labels.
+  Thirty-seven candidates preserve source 디지탈 and literal sentence/formula errors;
+  four encoded ellipsis counts remain unknown. All 99 original/21 revised crops were
+  inspected before 68 kor+eng tasks; all raws read before one source pass. No OCR
+  failure/retry; unchanged 213-test baseline reused. Preliminary source-title spelling
+  corrected through explicit metadata erratum, preserving original maps/notes.
+  Thirteen articles are readable/sample-reviewed, one partial, two headings non-owning
+  and 40 of56 entries unresolved. Next: batch18 restores ending84–85/PDF86–87 and
+  its incoming four-variable Karnaugh association. Reuse PDF85–88; assemble separately.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

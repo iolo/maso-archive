@@ -216,10 +216,22 @@ or its `installed()` context; see that directory's `reproduction.json`. Five neg
 probes reject range, continuation, caption, cell and final-page coverage drift.
 No new mapping, rendering, OCR or source correction; unchanged 213-test baseline reused.
 
-The 56-entry ledger records thirteen readable/sample-reviewed articles, no partials,
-two non-owning headings and 41 unresolved entries. Next is batch17: verify and restore
-디지털 논리 회로, canonical0037, from printed78/PDF80, including its actual ending
-and adjacent pages. Reuse PDF79/80; segment if longer than six mapped pages.
+Batch17 restores 디지털 논리 회로 opening78–83/PDF80–85 at
+`archive/pdf/1985-02/packages/batch-17-r01/digital-logic-a`. All 311 files match its
+independent rebuild; 5,474 exact ranges, 5,954 evidence pins and 99 images pass.
+Five numbered tables/two additional truth tables retain 442 indexed nonblank fields;
+eight gate groups retain 80 truth-data cells. Eleven arithmetic panels, six caption
+links and seven original Karnaugh diagrams remain. Thirty-seven candidates preserve
+source 디지탈, printed sentence/formula errors and literal truth values. Four encoded
+ellipsis counts remain unknown; independent diagram labels pending volunteers.
+All 99 original/21 revised crops preceded 68 tasks; all raws read before one source
+pass. No OCR failure/retry; unchanged 213-test baseline reused. Original maps retain
+the superseded source-title narrative, with an explicit metadata erratum.
+
+The 56-entry ledger records thirteen readable/sample-reviewed articles, one partial,
+two non-owning headings and 40 unresolved entries. Next is batch18: restore the
+article's ending84–85/PDF86–87, preserving the incoming four-variable Karnaugh
+association. Reuse PDF85–88; PASCAL/MT+ opens on PDF88. Assemble both natives separately.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

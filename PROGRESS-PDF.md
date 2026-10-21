@@ -7,7 +7,7 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 February 1985 restoration is in progress. Thirteen articles are readable/sample-reviewed,
-none partial, two headings are non-owning and 41 of56 entries remain unresolved.
+one partial, two headings are non-owning and 40 of56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -18,8 +18,13 @@ bands remain. Use its pinned private math_race_literal checker/context. No new O
 correction; unchanged 213-test baseline reused. Five negative probes reject altered data.
 Parent0035 remains non-owning with four unchanged children.
 Forth remains complete at packages/forth-complete-r01; use its pinned private checker.
-Next: batch17 verifies and restores 디지털 논리 회로 from printed78/PDF80, including
-actual ending and adjacent pages. Reuse PDF79/80; segment if longer than six mapped pages.
+Batch17 restores 디지털 논리 회로 opening78–83/PDF80–85: 311 files match the rebuild;
+5,474 text ranges, 5,954 evidence pins and 99 images pass. Seven table groups, eight
+gate groups, eleven arithmetic panels and seven Karnaugh diagrams retain literal
+source content. All 68 OCR tasks completed without failure/retry. Source 디지탈 and
+printed formula errors remain; 37 localized candidates/four unknown ellipsis bands.
+Next: batch18 restores ending84–85/PDF86–87, then separate immutable assembly.
+Reuse PDF85–88; preserve the incoming four-variable Karnaugh association.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
@@ -372,7 +377,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Classification in progress | 13 readable; 0 partial; 2 headings; 41 unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 13 readable; 1 partial; 2 headings; 40 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
