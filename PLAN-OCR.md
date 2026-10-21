@@ -663,11 +663,32 @@ paired OCR or a new engine comparison.
   spacing,execution andtechnical claims remain unverified. No reader rebuild.
   Current totals: 28 readable,no partial articles,three non-owning headings and25 unresolved.
 
-  Next: restore contest0023 on printed181/PDF183 andverify heading0019 ownership in batch40.
-  Use the lower-right panel only;completed printer0041 owns left/upper-right. Review the
-  heading's other child panels through bounded saved-source lookups without restoring
-  those children. Parent정보모음0008,cover selection,remaining page accounting andissue
-  closeout remain pending.
+  Batch40 completes 10진수를 2진수∼16진수까지로0023 on printed181/PDF183 at
+  `archive/pdf/1985-02/packages/batch-40-r01/decimal-conversion`. All34 files match its
+  independent rebuild;339 exact UTF-8 ranges,364 evidence pins andseven images pass.
+  Six blocks retain14 physical text rows,including one BASIC label1 across nine code rows.
+  Eight wraps,three quoted strings,15 statements andone branch target remain indexed;
+  the split409/6 constant andN/0(10)? prompt retain their original physical rows.
+  Eight source candidates include the ambiguous0/O/Q prompt glyph. Eight Unicode
+  approximations and67 unknown space bands retain scans. No syntax oraddress repair.
+
+  Heading0019 is non-owning: the same1-LINE 콘테스트 우수작 label appears above
+  allfour independently titled children on103/133/158/181. Allcanonical identities and
+  parent links remain;the otherthree contest bodies stay unresolved. The complete0023
+  panel is source-disjoint from completedprinter0041. Author박문길,platform애플컴패티블
+  andhistoricaladdress길음3동126-27 remain literal. Allseven crops preceded six tasks
+  (one eng/five kor+eng);all drafts were read before one source pass. No crop repair,
+  OCR failure orretry. All41,590 prior files and30 implementation pins remain exact;
+  unchanged213-test baseline reused. Preservation inventory: 41,757 files.
+  The active PDF184 heading is corrected to매월 소프트웨어 공모;the prior이달의
+  observation remains preserved. Human acceptance,full proofreading,source bytes,
+  spacing,execution andcontact validity remain unverified. No reader rebuild.
+  Current totals: 29 readable,no partial articles,four non-owning headings and23 unresolved.
+
+  Next: restore contest0020 on printed103/PDF105 andcontest0021 on printed133/PDF135
+  in batch41. Use only their independent panels;exclude completedPASCAL/music andthe
+  lower advertisement. Contest0022,parent정보모음0008,cover selection,remaining page
+  accounting andissue closeout remain pending.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is

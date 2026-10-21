@@ -1714,12 +1714,20 @@
       "toc_entry_id": "maso-1985-02-toc-0019",
       "title": "1라인 콘테스트 우수작",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0019 heading repeats as 1-LINE 콘테스트 우수작 above four separate child panels: GR타입의 숫자 쓰기0020 at103/PDF105,파노라마Ⅱ0021 at133/PDF135,추종자0022 at158/PDF160,andconversion0023 at181/PDF183. No separately owned parent body observed; classify group-heading without duplicatebody.",
+        "Allfour child identities andparent0019 links remain canonical. Only0023 body restored thischeckpoint;0020/21/22 remain unresolved. ExistingPASCAL/music/MLE/printer sourceownership preserved."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-02/restoration/batch-40/heading-classification.json",
+        "sha256": "f7f36c0ee4996da55ebf21c05bf31767b11a276e5ae443c23989b324d1d4c421",
+        "bytes": 2191
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0020",
@@ -1758,12 +1766,64 @@
       "toc_entry_id": "maso-1985-02-toc-0023",
       "title": "10진수를 2진수∼16진수까지로",
       "parent_id": "maso-1985-02-toc-0019",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0023 is the independent lower-right contest panel on printed181/PDF183: source title10진수를 2진수~16진수까지로,platform애플컴패티블,credit박문길,address서울시 성북구 길음3동126-27 andone BASIC label1 establish ownership. Complete panel retained; printer0041 left/upperright excluded.",
+        "FullPDF182 is preceding printer continuation;PDF184 is independent 매월 소프트웨어 공모 notice. The contest has no prose or listing continuation outside its complete panel. Printed181 folio is visible on fullsource outside ownedpanel.",
+        "Canonical0019 heading repeats as 1-LINE 콘테스트 우수작 above four separate child panels: GR타입의 숫자 쓰기0020 at103/PDF105,파노라마Ⅱ0021 at133/PDF135,추종자0022 at158/PDF160,andconversion0023 at181/PDF183. No separately owned parent body observed; classify group-heading without duplicatebody.",
+        "Allfour child identities andparent0019 links remain canonical. Only0023 body restored thischeckpoint;0020/21/22 remain unresolved. ExistingPASCAL/music/MLE/printer sourceownership preserved.",
+        "Two canonicaltasks0019/0023,one mappedpage183,five outsideviews182/184/105/135/160. Reusedall sixsourceviews;no new renders. No othercanonicalclassification orreaderbuild."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-40-r01/decimal-conversion",
+        "article_id": "scan-maso-1985-02-toc-0023",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-40-r01/decimal-conversion/manifest.json",
+          "sha256": "753929c48cba36140f7b43170c972917ad632edd0fbf0cf985b5b28abe3981d9",
+          "bytes": 5447
+        },
+        "coverage": {
+          "pdf_pages": [
+            183
+          ],
+          "printed_pages": [
+            "181"
+          ],
+          "regions": 7,
+          "blocks": 6,
+          "figures": 1,
+          "physical_text_rows": 14,
+          "physical_code_rows": 9,
+          "basic_labels": 1,
+          "basic_physical_wraps": 8,
+          "basic_quoted_strings": 3,
+          "owned_bbox": [
+            0.4726148409893993,
+            0.523125,
+            0.8833922261484098,
+            0.8125
+          ],
+          "shared_with": "maso-1985-02-toc-0041"
+        },
+        "full_pdf_pages": [
+          183
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-40/validation.json",
+          "sha256": "cb1aeb158593472da5a9f2f4224564577b5abd65c0f2276d7b7afe41fd3ecbb4",
+          "bytes": 1963
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-40/reproduction.json",
+          "sha256": "b41adfa51e63c106b1796ace9429093cd1fb94cf12a0cd9cc35630ad694011f1",
+          "bytes": 1326
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0024",
@@ -3283,10 +3343,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 28,
+    "readable": 29,
     "partial": 0,
-    "non_owning_headings": 3,
-    "unresolved_eligibility": 25
+    "non_owning_headings": 4,
+    "unresolved_eligibility": 23
   },
   "checkpoints": [
     {
@@ -6468,6 +6528,74 @@
         "sha256": "8b5502458d0f525743a326d27a224f177b7ea3dfc6abd9444377f0ffdde11f21",
         "bytes": 9283100
       }
+    },
+    {
+      "id": "batch-40",
+      "status": "complete-article-and-heading-classification",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0019",
+        "maso-1985-02-toc-0023"
+      ],
+      "mapped_pdf_pages": [
+        183
+      ],
+      "outside_map_lookup_pages": [
+        182,
+        184,
+        105,
+        135,
+        160
+      ],
+      "canonical_tasks": 2,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-40/validation.json",
+        "sha256": "cb1aeb158593472da5a9f2f4224564577b5abd65c0f2276d7b7afe41fd3ecbb4",
+        "bytes": 1963
+      },
+      "classification": {
+        "path": "archive/pdf/1985-02/restoration/batch-40/heading-classification.json",
+        "sha256": "f7f36c0ee4996da55ebf21c05bf31767b11a276e5ae443c23989b324d1d4c421",
+        "bytes": 2191
+      },
+      "stats": {
+        "completed_at": "2026-10-21T11:18:32.602941+00:00",
+        "stats": {
+          "regions": 7,
+          "blocks": 6,
+          "figures": 1,
+          "physical_text_rows": 14,
+          "physical_code_rows": 9,
+          "basic_labels": 1,
+          "logical_listing_lines": 1,
+          "basic_physical_wraps": 8,
+          "basic_quoted_strings": 3,
+          "basic_statements": 15,
+          "basic_branch_targets": 1,
+          "physical_split_fields": 2,
+          "source_candidates": 8,
+          "typographic_approximations": 8,
+          "unknown_space_bands": 67,
+          "contest_fields": 3,
+          "caption_links": 0,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            183
+          ],
+          "deferred_pdf_pages": []
+        },
+        "source_passes": 1,
+        "ocr_tasks": 6,
+        "eng_code_tasks": 1,
+        "kor_eng_tasks": 5,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-40-preserved-work.json",
+        "sha256": "c84115bd9c8d60bf93ed5988258c5d62806a2cd0425ef31d1ad3617b25563c59",
+        "bytes": 9319162
+      }
     }
   ],
   "source_page_observations": [
@@ -7372,13 +7500,17 @@
       "pdf_page": 105,
       "classification": "mixed-article-and-independent-contest",
       "toc_entry_ids": [
-        "maso-1985-02-toc-0038"
+        "maso-1985-02-toc-0038",
+        "maso-1985-02-toc-0020"
       ],
       "printed_page": "103",
       "source_title": "PASCAL/MT+",
       "non_owning_section": "maso-1985-02-toc-0035",
       "restoration": "complete-article-assembly-exported",
-      "excluded_panel": "Lower-right GR 타입의 숫자 쓰기 / 김승모 / Apple; independent contest, separate final accounting pending."
+      "excluded_panel": "Lower-right GR 타입의 숫자 쓰기 / 김승모 / Apple; independent contest, separate final accounting pending.",
+      "contest_section_heading": "maso-1985-02-toc-0019",
+      "contest_source_title": "GR 타입의 숫자 쓰기",
+      "contest_restoration": "unresolved;source-panel-observed-only"
     },
     {
       "pdf_page": 106,
@@ -7685,11 +7817,15 @@
       "printed_page": "133",
       "classification": "mixed-article-and-independent-material",
       "toc_entry_ids": [
-        "maso-1985-02-toc-0003"
+        "maso-1985-02-toc-0003",
+        "maso-1985-02-toc-0021"
       ],
       "source_title": "배경음악의 구현",
       "restoration": "complete-background-music-assembly-exported",
-      "ownership_note": "Complete musiclist2 owns onlyleft andupperright panels,ending480GOTO400; independent1-LINEcontest andloweradvertisement remain excluded. Exactbboxes retained inpackagecoverage."
+      "ownership_note": "Complete musiclist2 owns onlyleft andupperright panels,ending480GOTO400; independent1-LINEcontest andloweradvertisement remain excluded. Exactbboxes retained inpackagecoverage.",
+      "contest_section_heading": "maso-1985-02-toc-0019",
+      "contest_source_title": "파노라마 Ⅱ",
+      "contest_restoration": "unresolved;source-panel-observed-only"
     },
     {
       "pdf_page": 136,
@@ -7961,11 +8097,15 @@
       "printed_page": "158",
       "classification": "mixed-article-and-independent-material",
       "toc_entry_ids": [
-        "maso-1985-02-toc-0007"
+        "maso-1985-02-toc-0007",
+        "maso-1985-02-toc-0022"
       ],
       "source_title": "MLE.START ending",
       "restoration": "complete-MLE-assembly-exported;independent-contest-and-ads-excluded",
-      "ownership_note": "MLE owns sectionbadge,left BASIC310–430 andupper-right440–460,ending : GOTO 180. Separate canonical contest candidate추종자 andlowerbookads remain outsideMLE; their issue classification is pending."
+      "ownership_note": "MLE owns sectionbadge,left BASIC310–430 andupper-right440–460,ending : GOTO 180. Separate canonical contest candidate추종자 andlowerbookads remain outsideMLE; their issue classification is pending.",
+      "contest_section_heading": "maso-1985-02-toc-0019",
+      "contest_source_title": "추종자",
+      "contest_restoration": "unresolved;source-panel-observed-only"
     },
     {
       "pdf_page": 161,
@@ -8209,23 +8349,24 @@
     {
       "pdf_page": 183,
       "printed_page": "181",
-      "classification": "shared-canonical-article-bodies",
+      "classification": "two-canonical-article-bodies",
       "toc_entry_ids": [
         "maso-1985-02-toc-0041",
         "maso-1985-02-toc-0023"
       ],
       "source_title": "프린터 마스터 / 10진수를 2진수~16진수까지로",
-      "restoration": "complete-printer-master-exported;independent-contest-pending",
-      "ownership_note": "Printer owns wholeleft andupperright; independentcontest lower-right excluded. Contest0023 andheading0019 notclassified/restored thischeckpoint."
+      "restoration": "complete-printer-master-exported;complete-decimal-conversion-exported",
+      "ownership_note": "Printer0041 owns wholeleft/upperright; conversion0023 owns lower-right completepanel. Both outputs verified source-disjoint. Heading0019 non-owning; no duplicatedbody.",
+      "contest_section_heading": "maso-1985-02-toc-0019"
     },
     {
       "pdf_page": 184,
       "printed_page": null,
       "classification": "independent-competition-notice",
       "toc_entry_ids": [],
-      "source_title": "이달의 소프트웨어 공모",
+      "source_title": "매월 소프트웨어 공모",
       "restoration": "outside-current-checkpoint;pending-eligibility-or-restoration-review",
-      "ownership_note": "Boundary-only source observation; no canonical entry classification changed."
+      "ownership_note": "Boundary-only source observation; no canonical entry classification changed. Exactsourceheading corrects earlier 이달의 label; original batch39 observation remains preserved."
     },
     {
       "pdf_page": 185,
@@ -8252,22 +8393,22 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-40",
-    "goal": "Restore canonical0023 10진수를 2진수∼16진수까지로 on shared printed181/PDF183; verify canonical0019 contest-heading ownership from its separated child panels without restoring other children.",
+    "id": "batch-41",
+    "goal": "Restore independent contest entries0020 GR타입의 숫자쓰기 atprinted103/PDF105 and0021 파노라마II atprinted133/PDF135, retaining existing canonicaltitles andparent0019.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0023",
-      "maso-1985-02-toc-0019"
+      "maso-1985-02-toc-0020",
+      "maso-1985-02-toc-0021"
     ],
-    "mapping_targets": "Known lower-right contest panel onPDF183;verify exact complete ownedbox,source title,platform,credit andBASIC row before mapping. Exclude completedprinter0041. Reuse savedsource views foradjacentpages andothercontestheading instances.",
+    "mapping_targets": "Reuse batch40 fullsource105/135. Map only thetwo independent contestpanels. Verify completeheading,title,platform,BASIC wraps,credit,address andoriginalpanel. Exclude completedPASCAL/music panels andlower advertisement.",
     "provisional_lookup_targets": [
-      182,
-      183,
-      184,
+      104,
       105,
+      106,
+      134,
       135,
-      160
+      136
     ],
-    "boundary_review": "Printed181 panel independentlyowned fromprinter left/upperright. Heading0019 has four canonicalchildren; verify repeating section label and absence ofseparate parentbody without inventing hierarchy or modifying otherchildren. TOC page leads require source confirmation.",
+    "boundary_review": "Bothcontest panels alreadyobserved complete; adjacentviews are boundedconfirmation,not grounds forglobalfoliooffset. Preserve completednative packages andallfour childlinks underheading0019. Contest0022 remains forlatercheckpoint.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -8304,7 +8445,8 @@
     "Batch35 completes 나라안 소식0014 on printed160–165/PDF162–167 and classifies 정보 레이다0013 as a non-owning section heading, retaining canonical sibling parent0008 links. Parent0008 remains unresolved; no duplicate section body or invented hierarchy. Sixteen news items/four tables92cells16headers/three photos/four continuations retain literal claims and source errors, including5바이트씩15비트,수수강신청서,Jonus Ada,두격,28작품/28명/상장58매/66대. Forty localized candidates,two ink marks and24Unicode approximations retain originals. Photographic labels pending volunteers; human acceptance/full proofreading,sourcebytes andhistorical claims unverified. Earlier lookup source title 정보교류 is corrected to 정보레이다 only in active observations; original notes remain preserved.",
     "Foreignnews0015 complete across printed166–174/PDF168–176 at foreign-news-complete-r01. Twoimmutable natives/all332files/fullmetadata preserved;44categoryslices/nineobjects/6104projectedranges reverseexactly. Complete17newsitems/664physicalrows retain19numberedfeatures,fourbullets,12subheadings,twocaptionlinks,15internaljoins plus유력/한boundary,243physicalwraps. Ninety-fourcandidates,twoinkmarks,oneunknownellipsisband and153Unicodeapproximations retain allsource discrepancies/spelling/grammar. Final176 lower-right0016 notice excluded. Image-labeltranscription,humanacceptance,fullproofreading,encodedbytes,exactspacing andclaims unverified. No bodypages orassembly pending; use pinnedforeign_news_literal checker/context.",
     "Batch38 completes canonical0016 원고 모집 광고 as independent lower-rightbox on174/PDF176. CanonicalTOC eligibility retained despiteadvertisingtitle. Three crops/twoblocks/19physicalrows/fourcontactfields/threesubmissionterms/sixwraps preserve originalframe,이시겠읍니까,일류필자,접수일로 부터,address36-4,telephone783-2296 and10일returnclaim. Fourlocalizedcandidates;no unknownbands. Foreign0015 andnotice0016 sourceareas disjoint. Humanacceptance,fullproofreading,sourcebytes,spacing andhistoricalcontact/termsvalidity unverified;parent0008 unchanged.",
-    "Batch39 completes 프린터 마스터0041 on176–181/PDF178–183. Fullsixpages,447assemblyordinals0000–0446 in468physicalcoderows,21unnumberedobjectcontinuations,773literalobjectbytes,2144fields/1132blanks,two tables26cells35celllines,sixboxedkeys14commands15wraps retained. Final0446 E305 semicolon supersedes preliminary address-only note; originals retained. No END invented. Shared181contest0023 excluded. Thirty-eight candidates,two inkmarks,eleven unknownbandcounts,19Unicodeapproximations and1743unknownspacebands retain originals. Korean year/month inDEFM remains independent ofprinted objectbytes; no syntax/byte/address/grammar/technical repair. Humanacceptance,fullproofreading,encodedbytes,spacing,execution andclaims unverified. Parent0008 unchanged."
+    "Batch39 completes 프린터 마스터0041 on176–181/PDF178–183. Fullsixpages,447assemblyordinals0000–0446 in468physicalcoderows,21unnumberedobjectcontinuations,773literalobjectbytes,2144fields/1132blanks,two tables26cells35celllines,sixboxedkeys14commands15wraps retained. Final0446 E305 semicolon supersedes preliminary address-only note; originals retained. No END invented. Shared181contest0023 excluded. Thirty-eight candidates,two inkmarks,eleven unknownbandcounts,19Unicodeapproximations and1743unknownspacebands retain originals. Korean year/month inDEFM remains independent ofprinted objectbytes; no syntax/byte/address/grammar/technical repair. Humanacceptance,fullproofreading,encodedbytes,spacing,execution andclaims unverified. Parent0008 unchanged.",
+    "Batch40 completes conversioncontest0023 on181/PDF183 andclassifies parent0019 asnon-owning repeated1-LINE 콘테스트 우수작 heading. Allfour canonicalchildren andlinks retained; otherthreecontestbodies remain unresolved. Completepanel,seventext/image regions,sixblocks14physicalrows retainone BASIC label1,ninecoderows,eightwraps,threequotedstrings15statements,author박문길,platform애플컴패티블 andhistoricaladdress길음3동126-27. Numeric409/6 andquotedN/0(10)? physicalwraps stayliteral;0/O/Q promptcandidateexplicit. Eightcandidates,eightUnicodeapproximations and67unknownspacebands retain scans. Printer0041 completepackage unchanged andsource-disjoint. Humanacceptance/fullproofreading,encodedbytes,spacing,execution andcontactvalidity unverified. ExactPDF184heading매월 corrects prior이달의 activeobservation only; original preserved."
   ],
   "reader_rebuild": false
 }
