@@ -331,12 +331,30 @@ Literal command names, product claims, repeated wording, sample punctuation and
 printed totals846/3,421 remain. All 26,010 prior files and 30 implementation pins
 pass; unchanged 213-test baseline reused. Following PDF115 is a separate feature opener.
 
-The 56-entry ledger records seventeen readable/sample-reviewed articles, zero partial,
-two non-owning headings and 37 unresolved entries.
-Next: batch24 verifies ownership of canonical0001 특집 I : 베이직과 기계어의 만남
-on printed113/PDF115 and canonical0002 스피드 텍스트 from printed114/PDF116.
-Retain the opener's introductory prose; inspect child extent and adjacent pages before
-mapping at most two canonical tasks/six pages. Reuse saved PDF114/115 views.
+Batch24 completes the feature introduction, canonical0001, on printed113/PDF115 at
+`archive/pdf/1985-02/packages/batch-24-r01/feature-intro`: all 38 files match the rebuild;
+123 exact ranges, 153 evidence pins and nine images pass. Seven blocks retain sixteen
+physical rows and four keyboard labels. Two photo-obscured spans and five source
+candidates remain explicit. The opener owns its introduction; both child identities remain.
+Speed text, canonical0002, is partial at `packages/batch-24-r01/speed-a`, covering
+printed114–116,122–123/PDF116–118,124–125. All 325 files, 8,514 exact ranges, 8,940
+pins and 85 images pass. Its 417 rows include 146 code rows in 145 logical groups;
+136 assembly ordinals retain 658 fields/164 blanks/184 object bytes, six comments and
+33 directives. Seven BASIC labels, two captions, five command guides, thirteen annotation
+groups and five connections remain. Thirty candidates, one unknown leader band,
+26 ornament approximations and 561 unknown space bands remain. Incomplete PEEK and
+assembly94 operands,800E/1415 and1200/1600/2700 stay literal. Full extent is ten pages:
+three prose pages plus122–128 listings, final128 upper only; intervening music excluded.
+All 94 original/eight revised crops preceded84tasks; all raws read before one source pass.
+No OCR failures/retries. All 26,714 prior files and30implementation pins pass; unchanged
+213-test baseline reused. Five listing pages and complete speed-text assembly remain.
+
+The 56-entry ledger records eighteen readable/sample-reviewed articles, one partial,
+two non-owning headings and 35 unresolved entries.
+Next: batch25 restores remaining 스피드 텍스트 listings on printed124–128/PDF126–130,
+using saved views. Continue list1 ordinal136→137 through432, then upper128 list2
+ending540 PRINT:RETURN; exclude the lower background-music listing. Complete speed-text
+assembly follows separately, retaining both natives and the original caption/page links.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

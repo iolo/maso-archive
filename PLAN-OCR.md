@@ -241,12 +241,18 @@ paired OCR or a new engine comparison.
   Literal command names, product claims, repeated wording, sample punctuation and
   printed totals846/3,421 remain. All 26,010 prior files and 30 implementation pins
   pass; unchanged 213-test baseline reused. Following PDF115 is a separate feature opener.
-  Seventeen articles are readable/sample-reviewed, zero partial, two headings non-owning
-  and 37 of 56 entries unresolved. PDF111 advertisement and PDF105 contest excluded.
-  Next: batch24 verifies ownership of canonical0001 특집 I : 베이직과 기계어의 만남
-  on printed113/PDF115 and canonical0002 스피드 텍스트 from printed114/PDF116.
-  Retain the opener's introductory prose; inspect child extent and adjacent pages before
-  mapping at most two canonical tasks/six pages. Reuse saved PDF114/115 views.
+  Batch24 completes canonical0001 featureintro113/PDF115 at packages/batch-24-r01/feature-intro:
+  38 rebuild files/123 ranges/153 pins/nine images pass; two obscured bands remain.
+  Speedtext0002 partialnativea at packages/batch-24-r01/speed-a covers114–116,122–123:
+  325 files/8,514 ranges/8,940 pins/85 images pass;136 assembly ordinals,184object bytes,
+  seven BASIC labels,two captions/five command guides retained. Full ten-page extent
+  includes122–128 listings,final128upperonly. All94original/eight revised crops before84tasks;
+  allraws before one source pass,no failures/retries. All26,714prior files/30pins pass.
+  Eighteen readable,one partial,two non-owning headings,35of56unresolved;unchanged213tests.
+  Next: batch25 restores remaining 스피드 텍스트 listings on printed124–128/PDF126–130,
+  using saved views. Continue list1 ordinal136→137 through432, then upper128 list2
+  ending540 PRINT:RETURN; exclude the lower background-music listing. Complete speed-text
+  assembly follows separately, retaining both natives and the original caption/page links.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

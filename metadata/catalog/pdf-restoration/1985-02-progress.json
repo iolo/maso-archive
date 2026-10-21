@@ -24,23 +24,180 @@
       "toc_entry_id": "maso-1985-02-toc-0001",
       "title": "특집 I : 베이직과 기계어의 만남",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Feature opener canonical0001 owns substantial introductory prose onprinted113/PDF115,with its own headline andkeyboard photograph; preserve both canonical children0002/0003 anddo not assign their bodies to opener. Source headline adds(2),canonical title unchanged.",
+        "Speed text canonical0002 owns noncontiguous ten pages:printed114–116/PDF116–118 prose andprinted122–127/PDF124–129 list1 plus upperprinted128/PDF130 list2. Every one of these pages inspected,including intermediate124–126.",
+        "Intervening printed117–121/PDF119–123 belongs to separate background-music feature; allfive pages inspected. PDF130 lower begins background-music list1; PDF131 continues it. Exclude those bodies from speed text.",
+        "Speed text prose final116points to list1 at122 andlist2 at128. List1 begins source header/ordinal1andends432 DS$0C on127. List2 ends540 PRINT:RETURN inupper128; lower128 is separately captioned background-music source.",
+        "Current checkpoint maps opener113 andspeed114–116,122–123:two canonical tasks/six pages. Speed listing124–128 remains deferred to second native; later assembly required. Actual fullspeed extent ten pages,not three.",
+        "Opening example listing30/40has physical continuation; assembly ordinals are not BASIC labels. Preserve literaladdresses/objectbytes/operands,sourceerrata andprose line-range discrepancies without execution/syntax repair.",
+        "Speed source123right finalannotations137–153 precede corresponding code on124; retain outgoing association. All technical glyphs,source encoded spaces,diagram labels andhistorical claims remain unverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-24-r01/feature-intro",
+        "article_id": "scan-maso-1985-02-toc-0001",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-24-r01/feature-intro/manifest.json",
+          "sha256": "5bea17c035a47f73529d896f537c285fdc7ece5eb784b278791013a1fe138b82",
+          "bytes": 6195
+        },
+        "coverage": {
+          "pdf_pages": [
+            115
+          ],
+          "printed_pages": [
+            "113"
+          ],
+          "regions": 9,
+          "blocks": 7,
+          "figures": 2
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-24/validation.json",
+          "sha256": "df653b071a1c290eefd2fd4cb9b611cb1d5facbb73e3434c5ff38b58da3bbd75",
+          "bytes": 3978
+        },
+        "body_scope": "Own introductory prose andkeyboard photograph on113; both canonical child relationships unchanged,child bodies separately owned.",
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-24/reproduction.json",
+          "sha256": "5980c0e87ac38b9ef980c015c635139f9393c35d3e0f8effe9618d259f51f83b",
+          "bytes": 1548
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0002",
       "title": "스피드 텍스트",
       "parent_id": "maso-1985-02-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Feature opener canonical0001 owns substantial introductory prose onprinted113/PDF115,with its own headline andkeyboard photograph; preserve both canonical children0002/0003 anddo not assign their bodies to opener. Source headline adds(2),canonical title unchanged.",
+        "Speed text canonical0002 owns noncontiguous ten pages:printed114–116/PDF116–118 prose andprinted122–127/PDF124–129 list1 plus upperprinted128/PDF130 list2. Every one of these pages inspected,including intermediate124–126.",
+        "Intervening printed117–121/PDF119–123 belongs to separate background-music feature; allfive pages inspected. PDF130 lower begins background-music list1; PDF131 continues it. Exclude those bodies from speed text.",
+        "Speed text prose final116points to list1 at122 andlist2 at128. List1 begins source header/ordinal1andends432 DS$0C on127. List2 ends540 PRINT:RETURN inupper128; lower128 is separately captioned background-music source.",
+        "Current checkpoint maps opener113 andspeed114–116,122–123:two canonical tasks/six pages. Speed listing124–128 remains deferred to second native; later assembly required. Actual fullspeed extent ten pages,not three.",
+        "Opening example listing30/40has physical continuation; assembly ordinals are not BASIC labels. Preserve literaladdresses/objectbytes/operands,sourceerrata andprose line-range discrepancies without execution/syntax repair.",
+        "Speed source123right finalannotations137–153 precede corresponding code on124; retain outgoing association. All technical glyphs,source encoded spaces,diagram labels andhistorical claims remain unverified."
+      ],
+      "restoration": {
+        "segments": [
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-24-r01/speed-a",
+            "article_id": "scan-maso-1985-02-toc-0002",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-24-r01/speed-a/manifest.json",
+              "sha256": "c1e80d9bdb364fa2fcf081bedd368cb9d4cbd411220436bd46127b25b451e30a",
+              "bytes": 55287
+            },
+            "coverage": {
+              "pdf_pages": [
+                116,
+                117,
+                118,
+                124,
+                125
+              ],
+              "printed_pages": [
+                "114",
+                "115",
+                "116",
+                "122",
+                "123"
+              ],
+              "regions": 85,
+              "blocks": 77,
+              "figures": 8
+            },
+            "segment": "a"
+          }
+        ],
+        "coverage": {
+          "pdf_pages": [
+            116,
+            117,
+            118,
+            124,
+            125
+          ],
+          "printed_pages": [
+            "114",
+            "115",
+            "116",
+            "122",
+            "123"
+          ],
+          "regions": 85,
+          "blocks": 77,
+          "figures": 8
+        },
+        "known_full_extent": {
+          "pdf_pages": [
+            116,
+            117,
+            118,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130
+          ],
+          "printed_pages": [
+            "114",
+            "115",
+            "116",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128"
+          ],
+          "final_page_upper_only": true,
+          "intervening_other_article_pdf_pages": [
+            119,
+            120,
+            121,
+            122,
+            123
+          ]
+        },
+        "deferred_pdf_pages": [
+          126,
+          127,
+          128,
+          129,
+          130
+        ],
+        "deferred_printed_pages": [
+          "124",
+          "125",
+          "126",
+          "127",
+          "128"
+        ],
+        "assembly_required": true,
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-24/validation.json",
+          "sha256": "df653b071a1c290eefd2fd4cb9b611cb1d5facbb73e3434c5ff38b58da3bbd75",
+          "bytes": 3978
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-24/reproduction.json",
+          "sha256": "5980c0e87ac38b9ef980c015c635139f9393c35d3e0f8effe9618d259f51f83b",
+          "bytes": 1548
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0003",
@@ -1823,10 +1980,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 17,
-    "partial": 0,
+    "readable": 18,
+    "partial": 1,
     "non_owning_headings": 2,
-    "unresolved_eligibility": 37
+    "unresolved_eligibility": 35
   },
   "checkpoints": [
     {
@@ -3445,6 +3602,137 @@
         "sha256": "5cbf71d5c4ea386db96bbac9c5a3a63b0f455335f9fdf85e86f51a227fc0e285",
         "bytes": 5950327
       }
+    },
+    {
+      "id": "batch-24",
+      "status": "complete-feature-intro;speed-opening-segment-partial",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0001",
+        "maso-1985-02-toc-0002"
+      ],
+      "mapped_pdf_pages": [
+        115,
+        116,
+        117,
+        118,
+        124,
+        125
+      ],
+      "outside_map_lookup_pages": [
+        114,
+        119,
+        120,
+        121,
+        122,
+        123,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "canonical_tasks": 2,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-24/validation.json",
+        "sha256": "df653b071a1c290eefd2fd4cb9b611cb1d5facbb73e3434c5ff38b58da3bbd75",
+        "bytes": 3978
+      },
+      "stats": {
+        "completed_at": "2026-10-21T05:52:31.789235+00:00",
+        "articles": {
+          "feature-intro": {
+            "regions": 9,
+            "blocks": 7,
+            "figures": 2,
+            "physical_text_rows": 16,
+            "physical_code_rows": 0,
+            "logical_listing_lines": 0,
+            "listing_groups": 0,
+            "assembly_rows": 0,
+            "assembly_fields": 0,
+            "assembly_blank_fields": 0,
+            "assembly_object_bytes": 0,
+            "assembly_comments": 0,
+            "storage_directives": 0,
+            "nonordinal_listing_rows": 0,
+            "basic_labels": 0,
+            "source_candidates": 5,
+            "unknown_bands": 2,
+            "ornament_approximations": 0,
+            "unknown_space_bands": 0,
+            "connections": 0,
+            "physical_wraps": 0,
+            "caption_links": 0,
+            "section_associations": 0,
+            "command_guides": 0,
+            "listing_annotations": 0,
+            "photo_label_associations": 4,
+            "listing_page_references": 0,
+            "outgoing_associations": 0,
+            "availability": "readable",
+            "mapped_pdf_pages": [
+              115
+            ],
+            "deferred_pdf_pages": []
+          },
+          "speed-a": {
+            "regions": 85,
+            "blocks": 77,
+            "figures": 8,
+            "physical_text_rows": 417,
+            "physical_code_rows": 146,
+            "logical_listing_lines": 145,
+            "listing_groups": 2,
+            "assembly_rows": 136,
+            "assembly_fields": 658,
+            "assembly_blank_fields": 164,
+            "assembly_object_bytes": 184,
+            "assembly_comments": 6,
+            "storage_directives": 33,
+            "nonordinal_listing_rows": 2,
+            "basic_labels": 7,
+            "source_candidates": 30,
+            "unknown_bands": 1,
+            "ornament_approximations": 26,
+            "unknown_space_bands": 561,
+            "connections": 5,
+            "physical_wraps": 14,
+            "caption_links": 2,
+            "section_associations": 19,
+            "command_guides": 5,
+            "listing_annotations": 13,
+            "photo_label_associations": 0,
+            "listing_page_references": 2,
+            "outgoing_associations": 2,
+            "availability": "partial",
+            "mapped_pdf_pages": [
+              116,
+              117,
+              118,
+              124,
+              125
+            ],
+            "deferred_pdf_pages": [
+              126,
+              127,
+              128,
+              129,
+              130
+            ]
+          }
+        },
+        "source_passes": 1,
+        "ocr_tasks": 84,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 8
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-24-preserved-work.json",
+        "sha256": "3a43f71428ee2da29aac6da04a54777257636e91ffd6a792826053586adb6632",
+        "bytes": 6269298
+      }
     }
   ],
   "source_page_observations": [
@@ -4457,32 +4745,234 @@
     },
     {
       "pdf_page": 115,
-      "classification": "feature-opener-observed",
+      "printed_page": "113",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0001"
       ],
-      "printed_page": "113",
-      "source_title": "특집I 베이직과 기계어의 만남(2)",
-      "restoration": "ownership-and-restoration-pending"
+      "source_title": "베이직과 기계어의 만남(2)",
+      "restoration": "complete-intro-exported;child-bodies-separate"
+    },
+    {
+      "pdf_page": 116,
+      "printed_page": "114",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 117,
+      "printed_page": "115",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 118,
+      "printed_page": "116",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 119,
+      "printed_page": "117",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": "118",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+    },
+    {
+      "pdf_page": 121,
+      "printed_page": "119",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+    },
+    {
+      "pdf_page": 122,
+      "printed_page": "120",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+    },
+    {
+      "pdf_page": 123,
+      "printed_page": "121",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+    },
+    {
+      "pdf_page": 124,
+      "printed_page": "122",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 125,
+      "printed_page": "123",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 126,
+      "printed_page": "124",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 127,
+      "printed_page": "125",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 128,
+      "printed_page": "126",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 129,
+      "printed_page": "127",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 130,
+      "printed_page": "128",
+      "classification": "mixed-separate-article-bodies",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0002",
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "스피드 텍스트",
+      "restoration": "body-observed;restoration-pending",
+      "ownership_note": "Upper speedtextlist2ends540;lower separately captioned background-musiclist1. Only upper belongs to speedtext;exact nextmap must exclude lower."
+    },
+    {
+      "pdf_page": 131,
+      "printed_page": "129",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악 소스프로그램",
+      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-24",
-    "goal": "Verify canonical0001 특집I opener ownership and canonical0002 스피드 텍스트 actual extent; restore within two canonical tasks andsix mapped pages.",
+    "id": "batch-25",
+    "goal": "Restore remaining speed-text listing pages124–128/PDF126–130,retaining nativea andcomplete featureintro; then assemble speedtext separately.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0001",
       "maso-1985-02-toc-0002"
     ],
-    "mapping_targets": "Reuse saved PDF115/printed113 feature opener with introductory prose. Determine body ownership from source without discarding opener text. Inspect 스피드 텍스트 from provisional printed114/PDF116 and ending/adjacent pages; TOC next child117 is only a lookup lead.",
-    "provisional_lookup_targets": [
-      114,
-      115,
-      116,
-      117,
-      118,
-      119
+    "mapping_targets": "Reuse saved PDF126–130. List1 continues ordinal137after136through432; retain alladdress/objectbytes/statement fields,annotations andcrosspagejoins. PDF130 upperonly contains list2BASIC ending540 PRINT:RETURN; exclude lowerbackground-music listing. Keep prose1200/1600/2700,missingbasicoperand/asm94Y andsourcebyte discrepancies literal.",
+    "current_mapping_targets": [
+      126,
+      127,
+      128,
+      129,
+      130
     ],
+    "provisional_lookup_targets": [
+      125,
+      131
+    ],
+    "full_extent_verified": {
+      "toc_entry_id": "maso-1985-02-toc-0002",
+      "full_pdf_pages": [
+        116,
+        117,
+        118,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "current_pdf_pages": [
+        116,
+        117,
+        118,
+        124,
+        125
+      ],
+      "deferred_pdf_pages": [
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "final_page_shared": true,
+      "final_page_owned_bbox": [
+        0,
+        0,
+        1,
+        0.48
+      ],
+      "assembly_required": true
+    },
+    "boundary_review": "Incoming list1ordinal136→137 andsource123annotations137–153; later assembly must link list1caption andlist2page reference from immutable nativea. Do not assume published arithmetic/addresses/codecorrectness.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -4509,7 +4999,8 @@
     "디지털 논리 회로 complete78–85/PDF80–87 retains51text/twoimage candidates,four unknown ellipsis counts,nine table groups/507indexed fields/89blank slots,twelve arithmetic panels andoriginal diagrams. Source 디지탈,printed formula/sentence errors,Ex-/culusive-OR,전가산기(half adder),prime positions andliteral truth cells remain. Independent diagram labels,human acceptance,encoded bytes,exact spacing andmath/technical claims unverified. No body pages orassembly pending. Use pinned private digital_logic_literal checker/context;all439native files/fullmetadata retained.",
     "PASCAL/MT+ complete86–103/PDF88–105 retains126source candidates,eleven unknown symbol/ellipsis extents,2035unknown encoded-space bands andfour unknown vertical source-row counts. Lists1–12,87listing groups,581indexed code/output rows/575logical lines,33directory entries/99fields/three blanks,63assembly rows/158fields/94blanks,11labels/four storage rows,11constants/six array bounds andall original panels remain. Printed errors,duplicated Hanoi header,repeated WNCS,PROGRAMTEST,final declaration colon andsource numeric/technical claims remain literal. Independent compilation/stack diagram labels,human acceptance,encoded bytes,exact spacing andexecution unverified. No body pages orassembly pending. Use pinned private pascal_literal checker/context;all1068native files/fullmetadata retained. Final independent contest excluded.",
     "CP/M 입문 complete104–108/PDF106–110 retains46localized candidates,eight unknown symbol/dot bands and265unknown encoded-space bands. Source ASID,/ CPM,RSS38,B/2,SDT/SPT,36D/32sectors,ALO/0,1928,l2,r0addresses andbyte-order claims remain literal. Sixty-three assembly rows/185fields/four blanks include two address-only rows;52dump bytes retain FFB0/FA80 andliteral count disagreements. Numeric output6/15/20fragments remain incomplete as printed. Nine data rows/40table cells include four headers andallphysical cell wraps;five BASIC labels/two quoted fields preserved. Human acceptance,source bytes,execution,exact spacing andtechnical claims unverified. No body pages orassembly pending; following advertisement excluded.",
-    "TG-WRITER review complete110–112/PDF112–114 retains31localized candidates,two unknown ellipsis counts andone indexed margin-space band. Historical spelling,repeated 모아쓰기가,패키지에내에서,COMPUTE/CONTINUE/FOOTNOTE,192KB/400/200/36claims andtable totals846/3,421 remain literal. Two sample tables retain48nonblank cells/six blanks;four feature items,six summary fields andtwo formatting samples retain independent rows/punctuation/margin marks. Photograph screen/device labels pending volunteers. Human acceptance,source bytes,exact spacing,software behavior andtechnical claims unverified. No body pages orassembly pending;following feature opener has independent prose requiring classification."
+    "TG-WRITER review complete110–112/PDF112–114 retains31localized candidates,two unknown ellipsis counts andone indexed margin-space band. Historical spelling,repeated 모아쓰기가,패키지에내에서,COMPUTE/CONTINUE/FOOTNOTE,192KB/400/200/36claims andtable totals846/3,421 remain literal. Two sample tables retain48nonblank cells/six blanks;four feature items,six summary fields andtwo formatting samples retain independent rows/punctuation/margin marks. Photograph screen/device labels pending volunteers. Human acceptance,source bytes,exact spacing,software behavior andtechnical claims unverified. No body pages orassembly pending;following feature opener has independent prose requiring classification.",
+    "FeatureI opener0001 owns one-pageintro113/PDF115 andretains two canonicalchildren; it is readablewithtwo localizedphoto-obscured bands andfive sourcecandidates. Four keyboard labels indexed;tiny photograph labels/humanproofreading pending. Speedtext0002 partialnativea covers114–116,122–123/PDF116–118,124–125. Fullten-pageextent includeslisting124–128/PDF126–130,finalupperonly;intervening background-music bodiesexcluded. Nativea retains417physicalrows/146coderows/145logicalrows,136assemblyordinals/658fields/164blanks/184objectbytes,sixcomments/33directives,sevenBASIClabels/two captions/fivecommandguides/13annotationgroups. Thirty sourcecandidates,one leaderband,26ornamentapproximations and561unknownspacebands remain. Literal800E/90F6/1415,1200/1600/2700,incompletePEEKoperand andmissingasm94Y not repaired. Fivepages andcompleteassembly remain;sourcebytes,execution,exactspacing andtechnicalclaims unverified."
   ],
   "reader_rebuild": false
 }

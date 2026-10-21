@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Seventeen articles are readable/sample-reviewed,
-zero partial, two headings are non-owning and 37 of 56 entries remain unresolved.
+February 1985 restoration is in progress. Eighteen articles are readable/sample-reviewed,
+one is partial, two headings are non-owning and 35 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -90,10 +90,27 @@ one source pass. No OCR failures/retries; one paragraph-edge trim before recogni
 Literal command names, product claims, repeated wording, sample punctuation and
 printed totals846/3,421 remain. All 26,010 prior files and 30 implementation pins
 pass; unchanged 213-test baseline reused. Following PDF115 is a separate feature opener.
-Next: batch24 verifies ownership of canonical0001 특집 I : 베이직과 기계어의 만남
-on printed113/PDF115 and canonical0002 스피드 텍스트 from printed114/PDF116.
-Retain the opener's introductory prose; inspect child extent and adjacent pages before
-mapping at most two canonical tasks/six pages. Reuse saved PDF114/115 views.
+Batch24 completes the feature introduction, canonical0001, on printed113/PDF115 at
+`archive/pdf/1985-02/packages/batch-24-r01/feature-intro`: all 38 files match the rebuild;
+123 exact ranges, 153 evidence pins and nine images pass. Seven blocks retain sixteen
+physical rows and four keyboard labels. Two photo-obscured spans and five source
+candidates remain explicit. The opener owns its introduction; both child identities remain.
+Speed text, canonical0002, is partial at `packages/batch-24-r01/speed-a`, covering
+printed114–116,122–123/PDF116–118,124–125. All 325 files, 8,514 exact ranges, 8,940
+pins and 85 images pass. Its 417 rows include 146 code rows in 145 logical groups;
+136 assembly ordinals retain 658 fields/164 blanks/184 object bytes, six comments and
+33 directives. Seven BASIC labels, two captions, five command guides, thirteen annotation
+groups and five connections remain. Thirty candidates, one unknown leader band,
+26 ornament approximations and 561 unknown space bands remain. Incomplete PEEK and
+assembly94 operands,800E/1415 and1200/1600/2700 stay literal. Full extent is ten pages:
+three prose pages plus122–128 listings, final128 upper only; intervening music excluded.
+All 94 original/eight revised crops preceded84tasks; all raws read before one source pass.
+No OCR failures/retries. All 26,714 prior files and30implementation pins pass; unchanged
+213-test baseline reused. Five listing pages and complete speed-text assembly remain.
+Next: batch25 restores remaining 스피드 텍스트 listings on printed124–128/PDF126–130,
+using saved views. Continue list1 ordinal136→137 through432, then upper128 list2
+ending540 PRINT:RETURN; exclude the lower background-music listing. Complete speed-text
+assembly follows separately, retaining both natives and the original caption/page links.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
@@ -446,7 +463,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Classification in progress | 17 readable; 0 partial; 2 headings; 37 unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 18 readable; 1 partial; 2 headings; 35 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
