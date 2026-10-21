@@ -5028,12 +5028,104 @@
       "toc_entry_id": "maso-1985-02-toc-0055",
       "title": "부메랑 소년",
       "parent_id": "maso-1985-02-toc-0051",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0055 independentlyopensprinted244/PDF246,MSX/편집부,headline부메랑소년 andsubtitle부메랑이란 오스트레일리아 원주민이 사용하던 무기이다. Prior245contains0054finaldump/independentcontest/errata,not0055.",
+        "Fullarticleprinted244–248/PDF246–250: openingprose andBASIC1000–1260 on246;1270–2080 on247;2090–2910 on248;2920–3830 on249;3840–4760 on250. Completefinal4760 IF STRIG ( 0 ) THEN RETURN ELSE 4760. No bodypageorassemblydeferred.",
+        "Ninecontinuouslistingpanels retainlabels1000–4760,physicalwrappedcommands/strings,DATA,sprite definitions andPLAYstrings. Printedboxed4430–4490 graphic-keyinstruction retainedindependently;seven graphic-keystrings keptasopaquevisualsources withoutinventedcharacterencoding.",
+        "Printedsourcecredit refers to일본의 마이컴 베이직 매거진 ’84. 7,with발/췌 physicalwrap. ActualKoreanwording retainedinsourcepass;noexpandedforeignpublicationtitle inferred. Historicalcreditclaim unverified.",
+        "Followingprinted249/PDF251 independentlyopenscanonical0056 양계장에서아르바이트를,MSX/편집부,newsubtitleand1000SCREEN1. Full0055endingverifiedfromsource,notTOCoffsetassumption.",
+        "Completefivepagebody:377labels/435physicalrows/58wraps,416DATAfields/13spritegroups,ninePLAYstrings/122characters,oneDRAWstring,seven graphic-keybands andfourwavyglyphstrings retainedwithsourceuncertainties. Actual4760endingverified."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-57-r03",
+        "article_id": "scan-maso-1985-02-toc-0055",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-57-r03/manifest.json",
+          "sha256": "cae0b69c2083bc0f700509047a0ad0a704238c524fd954baee3c4146c1bee2c8",
+          "bytes": 22354
+        },
+        "coverage": {
+          "regions": 43,
+          "blocks": 28,
+          "figures": 15,
+          "physical_text_rows": 475,
+          "physical_code_rows": 435,
+          "basic_physical_rows": 435,
+          "basic_label_occurrences": 377,
+          "basic_wraps": 58,
+          "basic_quoted_strings": 50,
+          "basic_quote_delimiters": 96,
+          "unclosed_source_quotes": 4,
+          "basic_statements": 383,
+          "basic_data_fields": 416,
+          "sprite_data_groups": 13,
+          "play_strings": 9,
+          "play_characters": 122,
+          "draw_strings": 1,
+          "graphic_key_groups": 7,
+          "wavy_graphic_groups": 12,
+          "basic_branch_targets": 24,
+          "basic_lexical_tokens": 3756,
+          "basic_quoted_space_bands": 46,
+          "listing_groups": 1,
+          "internal_listing_joins": 8,
+          "boxed_keys": 2,
+          "printed_program_ranges": 1,
+          "physical_prose_wraps": 21,
+          "caption_links": 0,
+          "source_candidates": 43,
+          "unknown_markers": 14,
+          "typographic_approximations": 9,
+          "unknown_space_bands": 2836,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            246,
+            247,
+            248,
+            249,
+            250
+          ],
+          "deferred_pdf_pages": [],
+          "editorial_marker_spaces": 40,
+          "pdf_pages": [
+            246,
+            247,
+            248,
+            249,
+            250
+          ],
+          "printed_pages": [
+            "244",
+            "245",
+            "246",
+            "247",
+            "248"
+          ]
+        },
+        "full_pdf_pages": [
+          246,
+          247,
+          248,
+          249,
+          250
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-57/validation.json",
+          "sha256": "9c1a41f44343ed714699a5eb0594ecf838dd2eaa3ee9b94df6be8b164ac24d74",
+          "bytes": 2333
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-57/reproduction.json",
+          "sha256": "4417f370e28b1cb74f1e5c034c12993bc5023ac3b7e0bd03110ad8ec8b3648ab",
+          "bytes": 1623
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0056",
@@ -5049,10 +5141,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 42,
+    "readable": 43,
     "partial": 0,
     "non_owning_headings": 7,
-    "unresolved_eligibility": 7
+    "unresolved_eligibility": 6
   },
   "checkpoints": [
     {
@@ -9819,6 +9911,91 @@
         "sha256": "f42a3ecc457497e2418303b86315fcff91d250be501744dc821fc72679bac5e6",
         "bytes": 12336987
       }
+    },
+    {
+      "id": "batch-57",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0055"
+      ],
+      "mapped_pdf_pages": [
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "outside_map_lookup_pages": [
+        245,
+        251
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-57/validation.json",
+        "sha256": "9c1a41f44343ed714699a5eb0594ecf838dd2eaa3ee9b94df6be8b164ac24d74",
+        "bytes": 2333
+      },
+      "stats": {
+        "completed_at": "2026-10-21T23:22:12.668880+00:00",
+        "stats": {
+          "regions": 43,
+          "blocks": 28,
+          "figures": 15,
+          "physical_text_rows": 475,
+          "physical_code_rows": 435,
+          "basic_physical_rows": 435,
+          "basic_label_occurrences": 377,
+          "basic_wraps": 58,
+          "basic_quoted_strings": 50,
+          "basic_quote_delimiters": 96,
+          "unclosed_source_quotes": 4,
+          "basic_statements": 383,
+          "basic_data_fields": 416,
+          "sprite_data_groups": 13,
+          "play_strings": 9,
+          "play_characters": 122,
+          "draw_strings": 1,
+          "graphic_key_groups": 7,
+          "wavy_graphic_groups": 12,
+          "basic_branch_targets": 24,
+          "basic_lexical_tokens": 3756,
+          "basic_quoted_space_bands": 46,
+          "listing_groups": 1,
+          "internal_listing_joins": 8,
+          "boxed_keys": 2,
+          "printed_program_ranges": 1,
+          "physical_prose_wraps": 21,
+          "caption_links": 0,
+          "source_candidates": 43,
+          "unknown_markers": 14,
+          "typographic_approximations": 9,
+          "unknown_space_bands": 2836,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            246,
+            247,
+            248,
+            249,
+            250
+          ],
+          "deferred_pdf_pages": [],
+          "editorial_marker_spaces": 40
+        },
+        "source_passes": 1,
+        "ocr_tasks": 28,
+        "eng_code_tasks": 9,
+        "kor_eng_tasks": 19,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 9,
+        "repaired_regions": 8,
+        "metadata_revision": "NineUnicodeoccurrences indexed;forty spaces insideeditorialdescriptionsclassifiedseparately from2836visuallyrepresentedsource spacebands. No sourcechange."
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-57-preserved-work.json",
+        "sha256": "7b4eb2f78014771683e3f828ec530b6e1816c472d5af1b4880265713cedb1627",
+        "bytes": 12554407
+      }
     }
   ],
   "source_page_observations": [
@@ -12118,14 +12295,14 @@
     {
       "pdf_page": 246,
       "printed_page": "244",
-      "classification": "canonical-start-lookup",
+      "classification": "canonical-article",
       "toc_entry_ids": [
         "maso-1985-02-toc-0055"
       ],
-      "source_title": "부메랑 소년",
+      "source_title": "부메랑소년",
       "section_title": "MSX",
-      "restoration": "outside-current-checkpoint;pending-restoration",
-      "ownership_note": "Independent title,credit andplatform banner supportnon-owninggameparent0051. Lookup only; nochildmapping,OCR orexport. Fullarticleextentpending."
+      "restoration": "complete-boomerang-article-exported",
+      "ownership_note": "Canonical0055 ownsallfivepages244–248/PDF246–250:prose,boxedgraphic-keynote,sourcecredit andnineBASICpanels1000–4760. Graphic-keyLatin/bracketreadings remainUnicodeapproximations;fourwavystringsretainmarkers. Noencodedbytes/behaviorinference. No bodypages/assemblypending."
     },
     {
       "pdf_page": 251,
@@ -12245,28 +12422,70 @@
         "logator-contest",
         "reader-errata"
       ]
+    },
+    {
+      "pdf_page": 247,
+      "printed_page": "245",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0055"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-boomerang-article-exported",
+      "ownership_note": "Canonical0055 ownsallfivepages244–248/PDF246–250:prose,boxedgraphic-keynote,sourcecredit andnineBASICpanels1000–4760. Graphic-keyLatin/bracketreadings remainUnicodeapproximations;fourwavystringsretainmarkers. Noencodedbytes/behaviorinference. No bodypages/assemblypending."
+    },
+    {
+      "pdf_page": 248,
+      "printed_page": "246",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0055"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-boomerang-article-exported",
+      "ownership_note": "Canonical0055 ownsallfivepages244–248/PDF246–250:prose,boxedgraphic-keynote,sourcecredit andnineBASICpanels1000–4760. Graphic-keyLatin/bracketreadings remainUnicodeapproximations;fourwavystringsretainmarkers. Noencodedbytes/behaviorinference. No bodypages/assemblypending."
+    },
+    {
+      "pdf_page": 249,
+      "printed_page": "247",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0055"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-boomerang-article-exported",
+      "ownership_note": "Canonical0055 ownsallfivepages244–248/PDF246–250:prose,boxedgraphic-keynote,sourcecredit andnineBASICpanels1000–4760. Graphic-keyLatin/bracketreadings remainUnicodeapproximations;fourwavystringsretainmarkers. Noencodedbytes/behaviorinference. No bodypages/assemblypending."
+    },
+    {
+      "pdf_page": 250,
+      "printed_page": "248",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0055"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-boomerang-article-exported",
+      "ownership_note": "FinalrightBASIC4760 IF STRIG ( 0 ) THEN RETURN ELSE 4760 ends0055. SourceREMEND3810notending. Next251independentlyopens0056;graphic-key4430–4490bands retainedwithuncertainty."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-57",
-    "goal": "Verify canonical0055 부메랑 소년 actualextent from printed244/PDF246 andrestore within sixmappedpages.",
+    "id": "batch-58",
+    "goal": "Verify canonical0056 양계장에서 아르바이트를 actualextent from printed249/PDF251 andrestore within sixmappedpages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0055"
+      "maso-1985-02-toc-0056"
     ],
-    "mapping_targets": "Reuse reviewedPDF245independentpanels andPDF246MSX/편집부opening. Inspecteveryproposedbodypage andactualending/following ownership beforemapping. Ifmorethansixpages,restorefirstboundedsegment andexplicitlydeferending/assembly.",
+    "mapping_targets": "Reuse reviewed251opening and250priorending. Inspectactualcontinuations/ending andfollowingownership beforemapping. Ifmorethansixpages,restoreboundedfirstsegment andexplicitlydeferending/assembly.",
     "provisional_lookup_targets": [
-      245,
-      246,
-      247,
-      248,
-      249,
       250,
       251,
       252,
-      253
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260
     ],
-    "boundary_review": "Prior0054 endsupperleft245atDA00;rightLOGATORcontest/lowererrata independent. 부메랑소년0055 independentlyopensprinted244/PDF246. Lastchild0056 양계장에서 아르바이트를 TOCprinted249 isonlylookuplead(provisionalPDF251),notproofofending/globaloffset. PreserveallBASICrows/labels,DATA,graphics/keyboardlabels,boxed4430–4490note,captions andsourcecredit/discrepancies. No0055mappingorOCRyet.",
+    "boundary_review": "부메랑소년0055 complete244–248/PDF246–250 at4760. Lastgamechild0056 independentlyopens249/PDF251withMSX/편집부,subtitle아주 이따금 공룡의 알이 나오기도 한다네,prose andBASIC1000SCREEN1. Boxed1240graphic-keyinstruction andsourcecreditvisible;remainingbodyextentunverified. Preserve BASICrows/labels,DATA,graphics/keys,commands/captions,claims/sourcecredits anddiscrepancies. No0056mappingorOCRyet;no lastarticleending inferredfromTOC orPDFend.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -12316,7 +12535,8 @@
     "Batch52 completes MAT 함수0050 printed224–227/PDF226–229. Twelve listing panels retain142 BASIC rows/labels,144 lexical statements,four quoted strings,eight quote delimiters,ten branch targets,twelve DATA fields andtwo visible mark candidates. Three matrices retain21 cells/nine rows with editorial name-row/bracket layout andoriginal geometry. Three equations retain12 numeric fields,nine variables andnine operators;six independent formulas andfive output rows/six fields remain literal. Twelve captions,fourteen prose references,three line references,seven continuations and36 physical wraps remain linked. Source PUT1S,J=1,D(RB),X=RB,OUTOUT,determinent,baselineB=AT,beta glyph,raised1530/1910 marks andlist10 references remain independent source candidates. Thirty candidates,39 Unicode approximations and1094 encoded-space bands retain scans. All matrix/listing labels transcribed. Human acceptance,full proofreading,source bytes,spacing,dimension/arithmetic claims,execution andindependent backup recovery remain unverified. No reader rebuild.",
     "Batch53 completes 그랜드 캐년0052 printed228–231/PDF230–233 andclassifies 게임 모음0051 asnon-owning, preservingfivechildren. Twenty-six BASIC labels/28physicalrows retainthree quotedstrings,six delimiters,28lexicalstatements,96DATA fields andtwo wraps. Six-column dump retains293rows/2340literalbytefields,alladdresses andfinalfour-byte6920 row. Three commandpanels,two monitor-entryrows/ninebytes,eight screenlabels/eightvalues,eleven boxedkeys,two checksums/two memoryranges,two captions,six references,one prosecolumnjoin and53physicalprosewraps remainindexed. Printed saveL$923,checksums4288/265976,range28672–28761,96DATAfields,setupX/Z vsinplayA/Z,역활/9서/깊숙히 andbyte discrepancies remainindependent. Thirty-two candidates,two editorialmark descriptions,16Unicode approximations,2834encoded-spacebands andthree verticalgaps retainoriginals. Exactencodedbytes,spacing,historicalclaims,execution,humanacceptance,fullproofreading andindependentbackuprecovery remainunverified. Allvisiblegame/listinglabels transcribed. No reader rebuild.",
     "Batch54 completes 포도 귀신0053, source 포도귀신, printed232–235/PDF234–237. SevenBASICpanels retain185labels/256physicalrows,71wraps,11quotedstrings/22delimiters,245lexicalstatements,216DATAfields,43branchtargets and1972lexicaltokens. Allnonspacecodebytes covered bylabel/tokenfragments; no syntax/behavior inference. Sixcolumn/pagejoins include1110and2210same-line continuations. Elevenprogramdescriptionranges occupy13physicalrows; final2800range remainsopen-ended. Four screenlabels/values,fourboxedkeys,one descriptioncolumnjoin and29physicalprosewraps remainindexed. No printedcaption invented. Thirty-fourcandidates,eightUnicodeapproximations,1245encoded-spacebands including15quotedspacebands retainoriginals. Prime-like1090mark,percentvariables,splitnumbers,sourceallBASICclaim andliteralspelling remainindependent. Final loweracademyadexcluded; fullsourcepagepinnedprivately. Humanacceptance,fullproofreading,encodedbytes,spacing,claims,execution andindependentbackuprecovery remainunverified. Allvisiblelabels transcribed; no readerrebuild.",
-    "소혹성 지대0054 completeacrossprinted236–243/PDF238–245 fromtwoimmutable natives/all270files/fullcorrectionmetadata. Completeindexes retain931physicaltextrows,845coderows,39BASIClabels/rows,tenquotedstrings/20delimiters,39statements,fivebranches,218lexicaltokens,14quotedspacebands,801dump rows/6408literalbytefields C100–DA00 in17columns,fourcommandregions/fiverows,eightroutinedescriptions/tenaddresses,fiveopaquescreenfields,fourboxedkeys,twocaptions/tworeferences,16dumpconnections,two regionalcontinuations and45prosewraps. IncomingD418/D420 andinheritedlist2caption resolved;externalnativeevidence retainsoriginalnamespace. Sixty-sixcandidates,eighteditorialmarkers,13Unicodeapproximations and6976encodedspacebands remain. SC*256,&HD9FFindependentofDA00,repeatedloadheading,sourcebyte/glyph/spelling discrepancies remainliteral. Final245rightLOGATORcontest/lowererrataexcluded;eligiblepanel/folio retained. Tinyillustrationlabels pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,execution andindependentbackuprecovery unverified. No bodypages orassemblypending. Use pinnedasteroid_literal_r02 checker/context;no readerrebuild."
+    "소혹성 지대0054 completeacrossprinted236–243/PDF238–245 fromtwoimmutable natives/all270files/fullcorrectionmetadata. Completeindexes retain931physicaltextrows,845coderows,39BASIClabels/rows,tenquotedstrings/20delimiters,39statements,fivebranches,218lexicaltokens,14quotedspacebands,801dump rows/6408literalbytefields C100–DA00 in17columns,fourcommandregions/fiverows,eightroutinedescriptions/tenaddresses,fiveopaquescreenfields,fourboxedkeys,twocaptions/tworeferences,16dumpconnections,two regionalcontinuations and45prosewraps. IncomingD418/D420 andinheritedlist2caption resolved;externalnativeevidence retainsoriginalnamespace. Sixty-sixcandidates,eighteditorialmarkers,13Unicodeapproximations and6976encodedspacebands remain. SC*256,&HD9FFindependentofDA00,repeatedloadheading,sourcebyte/glyph/spelling discrepancies remainliteral. Final245rightLOGATORcontest/lowererrataexcluded;eligiblepanel/folio retained. Tinyillustrationlabels pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,execution andindependentbackuprecovery unverified. No bodypages orassemblypending. Use pinnedasteroid_literal_r02 checker/context;no readerrebuild.",
+    "Batch57 completes부메랑 소년0055,source부메랑소년,printed244–248/PDF246–250. NineBASICpanels retain377labels/435physicalrows/58wraps,50quotedstrings/96delimiters/fourunclosedsourcequotes,383lexicalstatements,416literalhexDATAfields/13spritegroups,24branchtargets,3756lexicaltokens and46quotedspacebands. NinePLAYstrings/122characters,oneDRAWstring,seven graphic-keybands4430–4490,fourwavyglyphstrings/twelvebandmarkers,twoarrowkeys,oneboxedprogramrange,eightcolumn/pagejoins and21prosewraps indexed. Actual4760endingretained;REMEND3810notending. Graphic-keyLatin/bracketreadings arevisualUnicodeapproximations;[ versusC,V/Wruncounts andencodedMSXinputunknown. Noclosingquotesinvented4460–4490. Twelvewavy-pairmarkers/twolowmarkdescriptions retainoriginals. Forty-threecandidates,14editorialmarkers,nineUnicodeapproximations and2836source-approximation spacebands plus40editorial-description spaces remainexplicit. PLAY0/O/5/S,splitTX/STR$/MS/ME and41/00,compactPUTSPRITE,DATAglyphs,mechanics/sourcecredit discrepancies remainliteral. Humanacceptance,fullproofreading,sourcebytes,spacing,graphicglyphcounts/encoding,claims,execution andindependentbackuprecovery unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
