@@ -206,11 +206,22 @@ paired OCR or a new engine comparison.
   two revised crops preceded47tasks; all raws read before one pass. No OCR failures/
   retries. Failed initial constant-index assertion preserved; metadata fix changed
   no text. All21,734prior files verified; unchanged213tests. Final contest excluded.
-  Fourteen articles are readable/sample-reviewed, one partial, two headings non-owning
-  and39of56entries unresolved. All eighteen PASCAL pages86–103 are restored across
-  three natives. Next: immutable PASCAL assembly, preserving every metadata category,
-  source range and native file; no new OCR/source correction. Full86–103extent verified;
-  independent lower-right contest onPDF105 excluded. Reuse saved PDF87–106views.
+  PASCAL/MT+ is complete at packages/pascal-complete-r01, printed86–103/PDF88–105.
+  All 1,077 rebuild files and 1,068 native files/full metadata remain exact. All120
+  category slices/sixteen objects reverse to native records, retaining24,160original
+  ranges. All26,620active ranges,25,223native pins and294images pass. Complete indexes
+  retain581code/output rows in575logical groups,87listing groups,sixteen captions and
+  nine outputs. Lists1–12,directory/assembly fields,both native boundaries and3.3reference
+  pass.126candidates,eleven unknown symbol/ellipsis extents,2035space bands andfour
+  unknown vertical source-row counts remain. Diagram labels pending volunteers.
+  Six stale stage notes resolved only in active status; originals remain. Seven
+  negative probes reject altered ranges/links/fields/coverage. Checker failures/revisions
+  preserved; source text unchanged. Use private pascal-assembly/pascal_literal.py
+  checker/context and reproduction.json; no new OCR/source correction, unchanged213tests.
+  Fifteen articles are readable/sample-reviewed, zero partial, two headings non-owning
+  and39of56entries unresolved. Independent lower-right contest onPDF105 excluded.
+  Next: batch22 verifies CP/M 입문 from printed104/PDF106, its ending and adjacent
+  pages before bounded restoration. Reuse saved PDF105/106; PDF87–106views remain.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

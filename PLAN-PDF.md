@@ -286,13 +286,27 @@ No OCR failure/retry. Initial constant-index assertion failure is preserved;
 metadata correction changed no text. All 21,734 prior files verified; unchanged
 213-test baseline reused. Final independent contest excluded from article assets.
 
-The 56-entry ledger records fourteen readable/sample-reviewed articles, one partial,
-two non-owning headings and 39 unresolved entries. PASCAL's verified full extent is
-printed86–103/PDF88–105. The independent lower-right contest on103/PDF105 remains
-excluded. All eighteen body pages86–103/PDF88–105 are restored across three
-immutable natives. Next: PASCAL assembly, preserving every native file, metadata
-category, source range and continuation before promoting article availability.
-No new OCR/source correction. All PDF87–106 source views are preserved.
+PASCAL/MT+ is complete at `archive/pdf/1985-02/packages/pascal-complete-r01`,
+printed86–103/PDF88–105. All 1,077 files match its independent rebuild; all 1,068
+native files/full metadata remain exact. All 120 category slices/sixteen objects
+reverse to native records, retaining 24,160 original range occurrences. All 26,620
+active ranges, 25,223 native evidence pins and 294 images pass. Complete indexes
+retain 581 code/output rows in 575 logical groups, 87 listing groups, sixteen
+captions and nine output groups. Lists1–12, directory/assembly fields, both native
+boundary associations and the external3.3 reference pass. Four vertical-dot extents
+retain unknown source-row counts. All126source candidates, eleven unknown symbol/
+ellipsis extents and2035unknown space bands remain; diagram labels pending volunteers.
+Six stale stage notes are resolved only in active status; full originals remain.
+Seven negative probes reject range/link/field/coverage drift. Checker revisions and
+their failed attempts are preserved; no source text or package revision was needed.
+Use the pinned private `restoration/pascal-assembly/pascal_literal.py` checker/context
+and reproduction.json. No new OCR/source correction; unchanged213-test baseline reused.
+The independent lower-right contest on103/PDF105 remains excluded.
+
+The 56-entry ledger records fifteen readable/sample-reviewed articles, zero partial,
+two non-owning headings and39unresolved entries. Next: batch22 verifies CP/M 입문
+from printed104/PDF106, its actual ending and adjacent pages, then restores bounded
+segments. Reuse saved PDF105/106 views; all PDF87–106 source views remain preserved.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

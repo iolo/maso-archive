@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Fourteen articles are readable/sample-reviewed,
-one partial, two headings are non-owning and 39 of56 entries remain unresolved.
+February 1985 restoration is in progress. Fifteen articles are readable/sample-reviewed,
+zero partial, two headings are non-owning and 39 of56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -57,9 +57,18 @@ rows/158fields/94blanks,11labels/four storage rows,11constants and six array bou
 Thirty-three candidates/863unknown encoded-space bands remain. All60original/two
 revised crops preceded47tasks; no OCR failure/retry. Initial constant-index failure
 preserved and corrected without text changes. All21,734prior files verified.
-Full PASCAL extent86–103/PDF88–105 verified, excluding final independent contest.
-All eighteen PASCAL pages are restored in three natives. Next: immutable article
-assembly with full metadata/range/native preservation; no new OCR/source correction.
+PASCAL/MT+ is complete at packages/pascal-complete-r01, printed86–103/PDF88–105.
+All 1,077 files match its independent rebuild; all 1,068 native files/full metadata
+remain exact. All120category slices/sixteen objects reverse to native records;
+24,160original ranges,26,620active ranges,25,223native pins and294images pass.
+Complete indexes retain581code/output rows/575logical groups,87listing groups,
+sixteen captions andnine outputs. Lists1–12,directory/assembly fields,both native
+boundaries and3.3reference pass.126candidates,eleven unknown symbol/ellipsis extents,
+2035space bands andfour unknown vertical source-row counts remain. Original stage
+notes andchecker failures preserved; seven negative probes reject changed data.
+Use pinned private pascal_literal checker/context; no new OCR/source correction.
+Final independent contest remains excluded. Next: batch22 verifies CP/M 입문 from
+printed104/PDF106, its actual extent and adjacent pages before bounded restoration.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
@@ -412,7 +421,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Classification in progress | 14 readable; 1 partial; 2 headings; 39 unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 15 readable; 0 partial; 2 headings; 39 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
