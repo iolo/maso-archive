@@ -349,8 +349,8 @@ All 94 original/eight revised crops preceded84tasks; all raws read before one so
 No OCR failures/retries. All 26,714 prior files and30implementation pins pass; unchanged
 213-test baseline reused. Batch25 below completes the remaining listing pages.
 
-The 56-entry ledger records eighteen readable/sample-reviewed articles, one partial,
-two non-owning headings and 35 unresolved entries.
+The 56-entry ledger records nineteen readable/sample-reviewed articles, no partial
+articles, two non-owning headings and 35 unresolved entries.
 Batch25 restores the remaining speed-text listings at
 `archive/pdf/1985-02/packages/batch-25-r01/speed-b`, printed124–128/PDF126–130,
 with final128 upper only. All 158 files match the independent rebuild; 15,805 current
@@ -366,12 +366,25 @@ All41 original/two revised crops preceded36 tasks(18eng/18kor+eng); allraws read
 one source pass. No OCR failures/retries. A verifier spacing assertion was corrected
 in a fresh revision; both attempts remain, source text/packages unchanged.
 All28,160 prior files and30 implementation pins pass; unchanged213-test baseline reused.
-All ten body pages are restored across two natives; complete article assembly remains.
+Batch25 restored all ten body pages across two natives; the complete assembly follows below.
 
-Next: assemble complete 스피드 텍스트 from immutable batch24speed-a andbatch25speed-b,
-with no new mapping orOCR. Project every native range/category, resolve the five native
-associations andretain upper-only128 ownership. Preserve original corrections andall
-source uncertainties; resolve stage deferrals only in active assembly metadata.
+스피드 텍스트 is complete at `packages/speed-text-complete-r02`. All 492 files match
+its independent rebuild; all 483 native files and full metadata remain exact. The 78
+category slices and ten object projections retain 24,319 original range occurrences;
+26,904 active ranges, 25,217 native evidence pins and 126 images pass. Five external
+associations resolve to exact complete-article ranges while their native records remain.
+Complete indexes retain 827 text rows, 501 code rows in 498 logical groups, 432 assembly
+ordinals, 754 object bytes, one unnumbered byte continuation, 64 BASIC labels, three
+listing groups, three captions and 31 annotations. Final page 128 remains upper-only.
+Fifty-six candidates, one leader band, 62 ornament approximations and 1,840 unknown
+space bands remain. Four stage notes resolved only in active status; originals retained.
+No new OCR or source correction. Eight negative probes reject range/link/ordinal/coverage
+changes; unchanged 213-test baseline reused. Use the pinned private speed_text_literal
+checker/context and reproduction.json. No speed-text body pages or assembly remain pending.
+
+Next: batch26 verifies 배경 음악의 구현 from printed117/PDF119, including its separate
+listing from lower128/PDF130 and the actual ending beyond PDF131. Reuse saved views;
+exclude upper130 speed text and verify every continuation before mapping at most six pages.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
