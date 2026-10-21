@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Sixteen articles are readable/sample-reviewed,
-zero partial, two headings are non-owning and 38 of56 entries remain unresolved.
+February 1985 restoration is in progress. Seventeen articles are readable/sample-reviewed,
+zero partial, two headings are non-owning and 37 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -77,8 +77,23 @@ all continuations remain. Forty-six candidates,eight unknown dot bands and265spa
 bands remain. All81crops reviewed before74tasks; all raws read before one pass.
 No OCR failures/retries/crop repairs; preparation failures andmetadata revision retained.
 All24,775prior files pass; unchanged213tests. Following PDF111 advertisement excluded.
-Next: batch23 verifies 소프트웨어 리뷰, source 삼보 컴퓨터의 TG-WRITER, from
-printed110/PDF112, its actual ending and adjacent pages before bounded restoration.
+Batch23 completes 소프트웨어 리뷰, source 삼보 컴퓨터의 TG-WRITER, at
+`archive/pdf/1985-02/packages/batch-23-r01/tg-writer`, printed110–112/PDF112–114.
+All 176 files match its independent rebuild; 1,661 exact UTF-8 ranges, 1,822 evidence
+pins and 48 images pass. Forty blocks retain 169 non-table text rows, four feature
+items, six summary fields, two formatting samples and two tables with 48 nonblank
+cells/six blank cells. Four connections, eighteen physical wraps and fifteen heading
+associations remain. Thirty-one candidates, two unknown ellipsis counts and one
+margin-space band retain original scans; photograph labels pending volunteers.
+All 48 original/one revised crops preceded 40 kor+eng tasks; all raws read before
+one source pass. No OCR failures/retries; one paragraph-edge trim before recognition.
+Literal command names, product claims, repeated wording, sample punctuation and
+printed totals846/3,421 remain. All 26,010 prior files and 30 implementation pins
+pass; unchanged 213-test baseline reused. Following PDF115 is a separate feature opener.
+Next: batch24 verifies ownership of canonical0001 특집 I : 베이직과 기계어의 만남
+on printed113/PDF115 and canonical0002 스피드 텍스트 from printed114/PDF116.
+Retain the opener's introductory prose; inspect child extent and adjacent pages before
+mapping at most two canonical tasks/six pages. Reuse saved PDF114/115 views.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
@@ -431,7 +446,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Classification in progress | 16 readable; 0 partial; 2 headings; 38 unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 17 readable; 0 partial; 2 headings; 37 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

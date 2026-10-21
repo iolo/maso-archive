@@ -228,11 +228,25 @@ paired OCR or a new engine comparison.
   bands remain. All 81 crops reviewed before74tasks; all raws read before one pass.
   No OCR failures/retries/crop repairs; map/preflight failures and quote-index metadata
   revision preserved. All24,775prior files pass; unchanged213-test baseline reused.
-  Sixteen articles are readable/sample-reviewed, zero partial, two headings non-owning
-  and38of56entries unresolved. Independent lower-right contest onPDF105 excluded.
-  Next: batch23 verifies 소프트웨어 리뷰, source 삼보 컴퓨터의 TG-WRITER, from
-  printed110/PDF112, including actual ending and adjacent pages before restoration.
-  Reuse saved PDF111/112; PDF105–112views remain. PDF111 advertisement excluded.
+  Batch23 completes 소프트웨어 리뷰, source 삼보 컴퓨터의 TG-WRITER, at
+  `archive/pdf/1985-02/packages/batch-23-r01/tg-writer`, printed110–112/PDF112–114.
+  All 176 files match its independent rebuild; 1,661 exact UTF-8 ranges, 1,822 evidence
+  pins and 48 images pass. Forty blocks retain 169 non-table text rows, four feature
+  items, six summary fields, two formatting samples and two tables with 48 nonblank
+  cells/six blank cells. Four connections, eighteen physical wraps and fifteen heading
+  associations remain. Thirty-one candidates, two unknown ellipsis counts and one
+  margin-space band retain original scans; photograph labels pending volunteers.
+  All 48 original/one revised crops preceded 40 kor+eng tasks; all raws read before
+  one source pass. No OCR failures/retries; one paragraph-edge trim before recognition.
+  Literal command names, product claims, repeated wording, sample punctuation and
+  printed totals846/3,421 remain. All 26,010 prior files and 30 implementation pins
+  pass; unchanged 213-test baseline reused. Following PDF115 is a separate feature opener.
+  Seventeen articles are readable/sample-reviewed, zero partial, two headings non-owning
+  and 37 of 56 entries unresolved. PDF111 advertisement and PDF105 contest excluded.
+  Next: batch24 verifies ownership of canonical0001 특집 I : 베이직과 기계어의 만남
+  on printed113/PDF115 and canonical0002 스피드 텍스트 from printed114/PDF116.
+  Retain the opener's introductory prose; inspect child extent and adjacent pages before
+  mapping at most two canonical tasks/six pages. Reuse saved PDF114/115 views.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
