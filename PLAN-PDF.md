@@ -416,15 +416,34 @@ source check corrected one manual byte-order error at0413 to220C16; both version
 A code-group metadata revision excludes the caption; text and OCR are unchanged,
 and the failed first export, rebuild and verifier remain preserved. All 31,330 prior
 files and 30 implementation pins pass; the unchanged 213-test baseline is reused.
-All eleven body pages are restored across two native packages; assembly remains pending.
+Batch27 restored all eleven body pages across two native packages; the complete assembly follows below.
 
-Next: assemble complete 배경 음악의 구현 from immutable batch26music-a and
-batch27music-b. Resolve the 15 native associations, retain every native file and
-metadata category, preserve all shared-page exclusions and verify a fresh rebuild.
-No new mapping, OCR or source correction is needed for this assembly.
-Cover selection, remaining page accounting and issue closeout are pending.
-See the [February record](docs/progress/8502.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
+배경 음악의 구현 is complete at
+`archive/pdf/1985-02/packages/background-music-complete-r01`, covering eleven
+noncontiguous pages117–121,128–133/PDF119–123,130–135. All 495 files match the
+independent rebuild; all 486 native files and full correction metadata remain exact.
+Eighty category slices and twelve object projections reverse to their native records
+across 26,001 original UTF-8 range occurrences. All 29,010 active ranges, 27,451 native
+evidence pins and 129 images pass. Complete indexes retain 798 text rows, 519 code rows
+in 509 logical groups, 440 assembly ordinals0000–0439, 711 object bytes, seven unnumbered
+byte continuations, 64 patch-dump bytes, nine patch-assembly rows, 48 BASIC labels,
+two physical wraps and 17 PLAY strings/251 characters. Six captions, twelve routine
+annotations and all fifteen cross-segment associations retain exact source occurrences.
+Upper128 speed text, final133 contest and advertisement remain excluded. Sixty-two
+source candidates, five unknown bands and 2,091 unknown spacing bands remain explicit.
+Four stage notes are resolved only in active status; all original notes remain.
+No new mapping, render, OCR or source correction. Nine negative probes reject altered
+ranges, links, ordinals and page coverage. All 32,016 prior files and 30 implementation
+pins pass; the unchanged 213-test baseline is reused. Use the pinned private
+`restoration/background-music-assembly/background_music_literal.py` checker/context
+and `reproduction.json`; the generic checker alone does not recognize this format.
+Current totals: 20 readable, no partial articles, two non-owning headings and 34 unresolved.
+
+Next: verify 특집 II : 입력 도구, canonical0004, from printed134/PDF136.
+Review its own prose/photo, actual extent, adjacent pages and child relationships
+before mapping; its parent role does not imply a non-owning heading.
+Keep the two-article/six-mapped-page/twenty-outside-lookup checkpoint limits.
+Cover selection, remaining page accounting and issue closeout remain pending.
 No reader rebuild; human acceptance and full proofreading remain pending.
 
 ## December 1984 closeout, 2026-10-20
