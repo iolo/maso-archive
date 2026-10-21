@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Twenty-nine articles are readable/sample-reviewed,
-none are partial, four headings are non-owning and 23 of 56 entries remain unresolved.
+February 1985 restoration is in progress. Thirty-one articles are readable/sample-reviewed,
+none are partial, four headings are non-owning and 21 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -543,10 +543,32 @@ observation remains preserved. Human acceptance,full proofreading,source bytes,
 spacing,execution andcontact validity remain unverified. No reader rebuild.
 Current totals: 29 readable,no partial articles,four non-owning headings and23 unresolved.
 
-Next: restore contest0020 on printed103/PDF105 andcontest0021 on printed133/PDF135
-in batch41. Use only their independent panels;exclude completedPASCAL/music andthe
-lower advertisement. Contest0022,parent정보모음0008,cover selection,remaining page
-accounting andissue closeout remain pending.
+Batch41 completes GR타입의 숫자 쓰기0020 on103/PDF105 and파노라마II0021
+on133/PDF135 at `archive/pdf/1985-02/packages/batch-41-r01/gr-numbers` and
+`archive/pdf/1985-02/packages/batch-41-r01/panorama-ii`. Each34-file package matches
+its independent rebuild. GR passes479 exact UTF-8 ranges/504 evidence pins;panorama
+passes174 ranges/199 pins. All14 image crops match their source pixels andexclude
+completedPASCAL/music panels andthe lower bookshop advertisement.
+
+GR retains12 physical code rows,one BASIC label1,eleven wraps,three quoted strings
+andall50 digits in4/28/18-character physical fragments. Two quoted blank-space bands
+retain explicit unknown counts;the W$ gap is visibly wider than Y$. B/$ andGOTO/1
+wraps remain. Panorama retainsfive code rows,one label1,four wraps,IMOD/6,Y=Y/+K,
+THEN's T/HEN split andcompactNEXTELSENEXT without syntax repair. Together the packages
+retain27 physical text rows,32 lexical colon groups,21 source candidates,30 Unicode
+approximations and80 unknown space bands. Authors,platforms andaddresses remain literal.
+
+All14 original/one revised crops preceded12 tasks(two eng/ten kor+eng);all drafts
+were read before one source pass. One GR byline trim;no OCR failure/retry.
+All41,757 prior files and30 implementation pins remain exact;213-test baseline reused.
+Preservation inventory: 42,052 files. Heading0019 andallfour childlinks remain unchanged.
+Human acceptance,full proofreading,source bytes,spacing,execution andcontact validity
+remain unverified. No reader rebuild.
+Current totals: 31 readable,no partial articles,four non-owning headings and21 unresolved.
+
+Next: restore 추종자0022 on printed158/PDF160 in batch42. Use only the complete
+independent contestpanel;exclude completedMLE andlower book advertisements. Parent
+정보모음0008,cover selection,remaining page accounting andissue closeout remain pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
