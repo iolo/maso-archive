@@ -975,16 +975,46 @@ All53,867 prior files and30 implementation pins pass; 54,788 files are preserved
 The unchanged213-test baseline is reused. No reader rebuild.
 Current totals: 41 readable, one partial article, seven non-owning headings and 7 unresolved.
 
-Next: restore 소혹성 지대0054 ending printed242–243/PDF244–245 as batch56.
-Reuse the reviewed full pages; map only the ending dump D420–DA00. Final245 upper-left
-two columns belong to0054; the right LOGATOR contest and lower reader errata are independent.
-Link incoming D418/D420 and the opening list2 caption through exact native evidence.
-Preserve printed &HD9FF independently of the final DA00 row. After the ending native,
-assemble the complete article separately from immutable segments. Following 부메랑 소년0055
-opens244/PDF246. Parent 정보모음0008, cover selection, remaining page accounting and
+Batch56 restores 소혹성 지대0054 ending printed242–243/PDF244–245 at
+`archive/pdf/1985-02/packages/batch-56-r01`. All 52 files match the independent
+rebuild; 11,558 current exact UTF-8 ranges, three inherited native ranges,
+11,614 current evidence pins and16 images pass. Five dump columns retain189 rows/
+1,512 literal byte fields D420–DA00, with column lengths51/51/51/18/18 and eight final
+zero fields. Four column connections, the exact incoming D418/D420 boundary and the
+opening list2 caption remain linked to immutable batch55 evidence. Twenty-eight source
+candidates, one editorial address-side mark atD600, one raised-separator Unicode
+approximation atD938 and1,513 encoded-space bands retain originals. No byte, address,
+command or length repair; printed save bound &HD9FF remains independent of finalDA00.
+Final245 right LOGATOR contest and lower reader errata are excluded; the complete
+eligible dump panel and folio243 remain, with full-page evidence preserved privately.
+All16 original/two revised crops preceded nine OCR tasks (5 eng/4 kor+eng); all drafts
+preceded one source pass. No OCR failures/retries. The first dump column's right margin
+was widened and a blank folio crop moved up before OCR; both original attempts remain.
+All54,788 prior files and30 implementation pins pass; 55,031 files are preserved.
+The unchanged213-test baseline is reused. No reader rebuild.
+
+All eight article pages236–243/PDF238–245 are now covered in two immutable natives;
+complete article assembly remains pending. Together they retain931 physical text rows,
+845 code rows,39 BASIC labels/rows, ten quoted strings/20 delimiters,39 statements,
+five branches,218 lexical tokens,14 quoted-space bands,801 dump rows/6,408 literal
+byte fields in17 columns, four command regions/five rows, eight routine descriptions/
+ten addresses, five screen fields, four boxed keys, two captions plus the inherited
+association, fifteen internal dump joins and the incoming boundary, two regional
+continuations and45 prose wraps. Sixty-six source candidates, eight editorial markers,
+thirteen Unicode approximations and6,976 encoded-space bands remain explicit.
+Current totals: 41 readable, one partial article, seven non-owning headings and 7 unresolved.
+
+Next: assemble complete 소혹성 지대0054 from immutable batch55 and batch56 natives.
+Preserve every native file and full correction record; project every category, object
+and exact range. Verify the D418/D420 boundary, inherited list2 caption and all17 dump
+columns C100–DA00. Retain SC * 256, &HD9FF versusDA00, repeated load-heading wording,
+source spelling/byte/glyph discrepancies and every uncertainty. Resolve completed
+stage deferrals only in active metadata; preserve their original snapshots.
+No new mapping, OCR or source correction is needed. Tiny illustration labels remain
+pending volunteers. Parent 정보모음0008, cover selection, remaining page accounting and
 issue closeout remain pending. Human acceptance, full proofreading, source bytes,
-spacing, claims, execution and independent backup recovery remain unverified;
-earlier diagram-label transcription is pending volunteers. No reader rebuild.
+spacing, claims, execution and independent backup recovery remain unverified.
+No reader rebuild.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37

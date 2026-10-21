@@ -4738,7 +4738,12 @@
         "Currentboundedsegment236–241/PDF238–243 includes12dumpcolumns C100–D418. Next242/PDF244 beginsD420; final243/PDF245 continuesD8E8–DA00. Endingpages244–245 andcompleteassemblyremainpending. Nofullarticleavailabilityclaimed.",
         "PrintedSAVEM end&HD9FF andfinalDA00 row independent; no byte/length/command repair. Printedroutineaddresses andBASICPEEK/POKE/SC*256 expressions retainedliterally, notcorrectedbyZ80orprogramsemantics.",
         "Allsix fullpageoriginals,twelve dumpcolumnoriginals,BASICpanel,illustration andgamescreen retained. Actualcrop/OCR/sourcecorrection remainlaterstages.",
-        "Firstsixpages completeaspartialnative;39BASIC labels/rows,612dump rows/4896fields,commands,routines,screen andcaptions indexed. Final244–245 andcompleteassembly pending."
+        "Firstsixpages completeaspartialnative;39BASIC labels/rows,612dump rows/4896fields,commands,routines,screen andcaptions indexed. Final244–245 andcompleteassembly pending.",
+        "Canonical0054 fullprinted236–243/PDF238–245 independentlyverified. Endingprinted242/PDF244 hasthreefull dumpcolumns D420–D8E0; final243/PDF245 upperlefttwocolumns D8E8–DA00. Allfivecolumns eligible.",
+        "Incomingbatch55 finalD418 01 15 66 22 55 15 99 88 leads toD420 91 11 15 00 45 15 AA AA. Existinglist2caption onPDF240 governsending columns; exactnative associationspendingindexing.",
+        "FinalDA00 00 00 00 00 00 00 00 00 closesdump. PrintedSAVEMend&HD9FF remainsindependent; no repair/truncation inferred.",
+        "Final245rightLOGATORcontest(MSX/정찬용) andlowerreadererrata are independent/excluded. Following244/PDF246opens부메랑소년0055. Currentmaps onlytwo endingpages;completearticleassembly separate.",
+        "Full244original/fivecolumnoriginals/finaleligiblepanel/folio retained. Complete245page pinnedprivately asownershipevidence; excludedpanels notexported."
       ],
       "restoration": {
         "directory": "archive/pdf/1985-02/packages/batch-55-r01",
@@ -4749,57 +4754,15 @@
           "bytes": 36078
         },
         "coverage": {
-          "regions": 68,
-          "blocks": 47,
-          "figures": 21,
-          "physical_text_rows": 738,
-          "physical_code_rows": 656,
-          "basic_physical_rows": 39,
-          "basic_label_occurrences": 39,
-          "basic_wraps": 0,
-          "basic_quoted_strings": 10,
-          "basic_quote_delimiters": 20,
-          "basic_statements": 39,
-          "basic_branch_targets": 5,
-          "basic_lexical_tokens": 218,
-          "basic_quoted_space_bands": 14,
-          "listing_groups": 6,
-          "dump_rows": 612,
-          "dump_bytes": 4896,
-          "internal_listing_joins": 11,
-          "command_panels": 4,
-          "screen_fields": 5,
-          "boxed_keys": 4,
-          "routine_address_groups": 8,
-          "routine_addresses": 10,
-          "prose_references": 2,
-          "continuations": 2,
-          "physical_prose_wraps": 45,
-          "caption_links": 2,
-          "source_candidates": 38,
-          "unknown_markers": 7,
-          "typographic_approximations": 12,
-          "unknown_space_bands": 5463,
-          "availability": "partial",
-          "mapped_pdf_pages": [
-            238,
-            239,
-            240,
-            241,
-            242,
-            243
-          ],
-          "deferred_pdf_pages": [
-            244,
-            245
-          ],
           "pdf_pages": [
             238,
             239,
             240,
             241,
             242,
-            243
+            243,
+            244,
+            245
           ],
           "printed_pages": [
             "236",
@@ -4807,8 +4770,42 @@
             "238",
             "239",
             "240",
-            "241"
-          ]
+            "241",
+            "242",
+            "243"
+          ],
+          "regions": 84,
+          "blocks": 56,
+          "figures": 28,
+          "physical_text_rows": 931,
+          "physical_code_rows": 845,
+          "basic_labels": 39,
+          "basic_physical_rows": 39,
+          "basic_quoted_strings": 10,
+          "basic_quote_delimiters": 20,
+          "basic_statements": 39,
+          "basic_branch_targets": 5,
+          "basic_lexical_tokens": 218,
+          "basic_quoted_space_bands": 14,
+          "dump_rows": 801,
+          "dump_bytes": 6408,
+          "dump_columns": 17,
+          "command_panels": 4,
+          "command_rows": 5,
+          "routine_address_groups": 8,
+          "routine_addresses": 10,
+          "screen_fields": 5,
+          "boxed_keys": 4,
+          "caption_links": 2,
+          "external_caption_links": 1,
+          "internal_listing_joins": 15,
+          "incoming_boundary_links": 1,
+          "continuations": 2,
+          "physical_prose_wraps": 45,
+          "source_candidates": 66,
+          "unknown_markers": 8,
+          "typographic_approximations": 13,
+          "unknown_space_bands": 6976
         },
         "full_pdf_pages": [
           238,
@@ -4844,20 +4841,162 @@
         },
         "assembly_required": true,
         "complete_article_assembly_pending": true,
-        "deferred_pdf_pages": [
-          244,
-          245
-        ],
+        "deferred_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1985-02/restoration/batch-55/validation.json",
-          "sha256": "2e54dcc840c9bb410cabe21ab0438ba8f0ff9734c07a5fabc6d7c281a35f3e35",
-          "bytes": 2250
+          "path": "archive/pdf/1985-02/restoration/batch-56/validation.json",
+          "sha256": "b4d6b14de40a25f347eafacf768ad8b3e7f7db04c84daf1f2a0dc1ab6f8cefc6",
+          "bytes": 1814
         },
         "reproduction": {
-          "path": "archive/pdf/1985-02/restoration/batch-55/reproduction.json",
-          "sha256": "5af9ae6f3206c2f6551c79a887bba5ec23f553384a81bedeafc8c032f386a46e",
-          "bytes": 1612
-        }
+          "path": "archive/pdf/1985-02/restoration/batch-56/reproduction.json",
+          "sha256": "a09cf8be08287b2b1d16f951f021de28dedd1875a4ecd7fbfdfe27d1b86c4cba",
+          "bytes": 1704
+        },
+        "segments": [
+          {
+            "segment": "a",
+            "directory": "archive/pdf/1985-02/packages/batch-55-r01",
+            "article_id": "scan-maso-1985-02-toc-0054",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-55-r01/manifest.json",
+              "sha256": "e04bdfef87f9ec462a8ed7a6628ad4fe7c8e8bca3c38157de76e6a5136a70f5f",
+              "bytes": 36078
+            },
+            "coverage": {
+              "regions": 68,
+              "blocks": 47,
+              "figures": 21,
+              "physical_text_rows": 738,
+              "physical_code_rows": 656,
+              "basic_physical_rows": 39,
+              "basic_label_occurrences": 39,
+              "basic_wraps": 0,
+              "basic_quoted_strings": 10,
+              "basic_quote_delimiters": 20,
+              "basic_statements": 39,
+              "basic_branch_targets": 5,
+              "basic_lexical_tokens": 218,
+              "basic_quoted_space_bands": 14,
+              "listing_groups": 6,
+              "dump_rows": 612,
+              "dump_bytes": 4896,
+              "internal_listing_joins": 11,
+              "command_panels": 4,
+              "screen_fields": 5,
+              "boxed_keys": 4,
+              "routine_address_groups": 8,
+              "routine_addresses": 10,
+              "prose_references": 2,
+              "continuations": 2,
+              "physical_prose_wraps": 45,
+              "caption_links": 2,
+              "source_candidates": 38,
+              "unknown_markers": 7,
+              "typographic_approximations": 12,
+              "unknown_space_bands": 5463,
+              "availability": "partial",
+              "mapped_pdf_pages": [
+                238,
+                239,
+                240,
+                241,
+                242,
+                243
+              ],
+              "deferred_pdf_pages": [
+                244,
+                245
+              ],
+              "pdf_pages": [
+                238,
+                239,
+                240,
+                241,
+                242,
+                243
+              ],
+              "printed_pages": [
+                "236",
+                "237",
+                "238",
+                "239",
+                "240",
+                "241"
+              ]
+            },
+            "validation": {
+              "path": "archive/pdf/1985-02/restoration/batch-55/validation.json",
+              "sha256": "2e54dcc840c9bb410cabe21ab0438ba8f0ff9734c07a5fabc6d7c281a35f3e35",
+              "bytes": 2250
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-02/restoration/batch-55/reproduction.json",
+              "sha256": "5af9ae6f3206c2f6551c79a887bba5ec23f553384a81bedeafc8c032f386a46e",
+              "bytes": 1612
+            }
+          },
+          {
+            "segment": "b",
+            "directory": "archive/pdf/1985-02/packages/batch-56-r01",
+            "article_id": "scan-maso-1985-02-toc-0054",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-56-r01/manifest.json",
+              "sha256": "1c205dac819ee498823684df6309802a752788f6eb86d3787e9ec3fc5477c2ab",
+              "bytes": 8460
+            },
+            "coverage": {
+              "regions": 16,
+              "blocks": 9,
+              "figures": 7,
+              "physical_text_rows": 193,
+              "physical_code_rows": 189,
+              "listing_groups": 1,
+              "dump_rows": 189,
+              "dump_bytes": 1512,
+              "dump_column_rows": [
+                51,
+                51,
+                51,
+                18,
+                18
+              ],
+              "final_row_bytes": 8,
+              "internal_listing_joins": 4,
+              "caption_links": 1,
+              "external_named_evidence": 2,
+              "source_candidates": 28,
+              "unknown_markers": 1,
+              "typographic_approximations": 1,
+              "unknown_space_bands": 1513,
+              "availability": "partial",
+              "mapped_pdf_pages": [
+                244,
+                245
+              ],
+              "deferred_pdf_pages": [],
+              "assembly_pending": true,
+              "pdf_pages": [
+                244,
+                245
+              ],
+              "printed_pages": [
+                "242",
+                "243"
+              ]
+            },
+            "validation": {
+              "path": "archive/pdf/1985-02/restoration/batch-56/validation.json",
+              "sha256": "b4d6b14de40a25f347eafacf768ad8b3e7f7db04c84daf1f2a0dc1ab6f8cefc6",
+              "bytes": 1814
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-02/restoration/batch-56/reproduction.json",
+              "sha256": "a09cf8be08287b2b1d16f951f021de28dedd1875a4ecd7fbfdfe27d1b86c4cba",
+              "bytes": 1704
+            }
+          }
+        ],
+        "all_body_pages_restored_across_natives": true
       }
     },
     {
@@ -9524,6 +9663,77 @@
         "sha256": "90dfdc2a316d6a4a70ca1c34c4a38ab6c990ac96788eeda114f97a5a7ef46781",
         "bytes": 12152393
       }
+    },
+    {
+      "id": "batch-56",
+      "status": "complete-ending-native;full-article-assembly-pending",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0054"
+      ],
+      "mapped_pdf_pages": [
+        244,
+        245
+      ],
+      "outside_map_lookup_pages": [
+        243,
+        246
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-56/validation.json",
+        "sha256": "b4d6b14de40a25f347eafacf768ad8b3e7f7db04c84daf1f2a0dc1ab6f8cefc6",
+        "bytes": 1814
+      },
+      "stats": {
+        "completed_at": "2026-10-21T22:54:21.204016+00:00",
+        "stats": {
+          "regions": 16,
+          "blocks": 9,
+          "figures": 7,
+          "physical_text_rows": 193,
+          "physical_code_rows": 189,
+          "listing_groups": 1,
+          "dump_rows": 189,
+          "dump_bytes": 1512,
+          "dump_column_rows": [
+            51,
+            51,
+            51,
+            18,
+            18
+          ],
+          "final_row_bytes": 8,
+          "internal_listing_joins": 4,
+          "caption_links": 1,
+          "external_named_evidence": 2,
+          "source_candidates": 28,
+          "unknown_markers": 1,
+          "typographic_approximations": 1,
+          "unknown_space_bands": 1513,
+          "availability": "partial",
+          "mapped_pdf_pages": [
+            244,
+            245
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_pending": true
+        },
+        "source_passes": 1,
+        "ocr_tasks": 9,
+        "eng_code_tasks": 5,
+        "kor_eng_tasks": 4,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 2
+      },
+      "resolved_stage_limits": [
+        "Batch55 restores 소혹성 지대0054 opening236–241/PDF238–243 aspartialnative. Fullarticle236–243/PDF238–245 verified;ending242–243 andcompleteassembly pending. OneBASICpanel retains39labels/rows1000–1380,tenquotedstrings/20delimiters,39lexicalstatements,fivebranches,218lexicaltokens and14quotedspacebands. Twelve dumpcolumns retain612rows/4896literalbytefields C100–D418 and11columnconnections. Fourcommandregions/fivephysicalcommandrows,eight routinedescriptions/tenaddresses,fourboxedkeys,fiveopaquescreenfields,twocaptions/tworeferences,two regionalcontinuations and45prosewraps remainindexed. PrintedSC*256,&HD9FF,repeatedloadheading,갯수/리턴키이를 andbyte discrepancies stayliteral. Thirty-eightcandidates,seveneditorialmarkers(includingtwo unknownasteriskcounts),12Unicodeapproximations and5463encodedspacebands retainoriginals. Five lowmarks andfourraisedprimeapproximations remainindependentofbytes. Originalillustrationtinylabels pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,execution andindependentbackuprecovery unverified. Final245rightcontest/lowererrata excludedfromarticleextent. No readerrebuild."
+      ],
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-56-preserved-work.json",
+        "sha256": "fd7f1a646c057d415c5debbb4e6075ebcd902587457a2ef56273823346fa756e",
+        "bytes": 12203094
+      }
     }
   ],
   "source_page_observations": [
@@ -11817,7 +12027,7 @@
       ],
       "source_title": "소혹성 지대",
       "section_title": "SPC-1000",
-      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -11884,7 +12094,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -11894,7 +12104,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -11904,7 +12114,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -11914,7 +12124,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -11924,7 +12134,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "CurrentlastdumpD418 has eightfields01 15 66 22 55 15 99 88;next244startsD420. No fullarticlecompletionclaimed."
     },
     {
@@ -11934,7 +12144,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "outside-current-segment;deferred-to-batch-56",
+      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -11944,7 +12154,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article-with-independent-panels",
-      "restoration": "outside-current-segment;deferred-to-batch-56",
+      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "Finalupperlefttwodumpcolumns D8E8–DA00 belong0054. RightLOGATOR(MSX/정찬용) andlower독자errata independentlyowned. Endingnotyettranscribed/exported.",
       "excluded_region_ids": [
         "logator-contest",
@@ -11954,23 +12164,22 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-56",
-    "goal": "Restore final printed242–243/PDF244–245 ofcanonical0054 소혹성 지대 as immutable ending segment; assemble fullarticle separately afterward.",
+    "id": "asteroid-complete-assembly",
+    "goal": "Assemble full 소혹성 지대0054 printed236–243/PDF238–245 from immutable batch55/56 natives, preserving allfiles andfullcorrectionmetadata.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0054"
     ],
-    "mapping_targets": "Reuse batch55 fullviews244–245; sourceverify endingdump D420–DA00. Preserve alladdress/bytefields andoriginalcolumns; inherit list2caption through exactnative association. Final245eligible upperlefttwocolumns only;rightLOGATORcontest andlowererrata excluded.",
-    "provisional_lookup_targets": [
-      243,
-      244,
-      245,
-      246
+    "native_packages": [
+      "archive/pdf/1985-02/packages/batch-55-r01",
+      "archive/pdf/1985-02/packages/batch-56-r01"
     ],
-    "boundary_review": "IncomingnativefinalD418 01 15 66 22 55 15 99 88 leads tonextD420. Final245dump endsDA00with eight visible00fields; printedSAVEM &HD9FF staysindependent. Following246 opens부메랑소년0055. Preserve literalbyte/glyph/spacing discrepancies. Fullarticleassembly separatelyafterendingnative,withoutnewOCR ofopening.",
+    "mapping_targets": [],
+    "provisional_lookup_targets": [],
+    "boundary_review": "Project every nativecategory/range/object into completearticle withoutrewritingphysicaltext. Verify exactD418/D420 boundary, inheritedlist2caption andall17dumpcolumns C100–DA00/801rows/6408fields. Preserve39BASIC labels/rows,tenquotes/20delimiters,39statements,fivebranches,218lexicaltokens,14quotedspacebands,fourcommandregions/fiverows,eightroutinedescriptions/tenaddresses,fiveopaquescreenfields,fourboxedkeys,twocaptions/tworeferences,two regionalcontinuations,45prosewraps. Resolve stage deferrals onlyinactive metadata;keeporiginalnative snapshots. PreserveSC*256,&HD9FFversusDA00,repeatedheadingwording,eighteditorialmarkers,13Unicodeapproximations and6976spacebands. Final245contest/errata excluded. No newOCR/sourcecorrection orreaderrebuild.",
     "limits": {
-      "articles": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
+      "articles": 1,
+      "mapped_pages": 0,
+      "outside_lookup_pages": 0
     }
   },
   "known_limits": [
@@ -12016,7 +12225,7 @@
     "Batch52 completes MAT 함수0050 printed224–227/PDF226–229. Twelve listing panels retain142 BASIC rows/labels,144 lexical statements,four quoted strings,eight quote delimiters,ten branch targets,twelve DATA fields andtwo visible mark candidates. Three matrices retain21 cells/nine rows with editorial name-row/bracket layout andoriginal geometry. Three equations retain12 numeric fields,nine variables andnine operators;six independent formulas andfive output rows/six fields remain literal. Twelve captions,fourteen prose references,three line references,seven continuations and36 physical wraps remain linked. Source PUT1S,J=1,D(RB),X=RB,OUTOUT,determinent,baselineB=AT,beta glyph,raised1530/1910 marks andlist10 references remain independent source candidates. Thirty candidates,39 Unicode approximations and1094 encoded-space bands retain scans. All matrix/listing labels transcribed. Human acceptance,full proofreading,source bytes,spacing,dimension/arithmetic claims,execution andindependent backup recovery remain unverified. No reader rebuild.",
     "Batch53 completes 그랜드 캐년0052 printed228–231/PDF230–233 andclassifies 게임 모음0051 asnon-owning, preservingfivechildren. Twenty-six BASIC labels/28physicalrows retainthree quotedstrings,six delimiters,28lexicalstatements,96DATA fields andtwo wraps. Six-column dump retains293rows/2340literalbytefields,alladdresses andfinalfour-byte6920 row. Three commandpanels,two monitor-entryrows/ninebytes,eight screenlabels/eightvalues,eleven boxedkeys,two checksums/two memoryranges,two captions,six references,one prosecolumnjoin and53physicalprosewraps remainindexed. Printed saveL$923,checksums4288/265976,range28672–28761,96DATAfields,setupX/Z vsinplayA/Z,역활/9서/깊숙히 andbyte discrepancies remainindependent. Thirty-two candidates,two editorialmark descriptions,16Unicode approximations,2834encoded-spacebands andthree verticalgaps retainoriginals. Exactencodedbytes,spacing,historicalclaims,execution,humanacceptance,fullproofreading andindependentbackuprecovery remainunverified. Allvisiblegame/listinglabels transcribed. No reader rebuild.",
     "Batch54 completes 포도 귀신0053, source 포도귀신, printed232–235/PDF234–237. SevenBASICpanels retain185labels/256physicalrows,71wraps,11quotedstrings/22delimiters,245lexicalstatements,216DATAfields,43branchtargets and1972lexicaltokens. Allnonspacecodebytes covered bylabel/tokenfragments; no syntax/behavior inference. Sixcolumn/pagejoins include1110and2210same-line continuations. Elevenprogramdescriptionranges occupy13physicalrows; final2800range remainsopen-ended. Four screenlabels/values,fourboxedkeys,one descriptioncolumnjoin and29physicalprosewraps remainindexed. No printedcaption invented. Thirty-fourcandidates,eightUnicodeapproximations,1245encoded-spacebands including15quotedspacebands retainoriginals. Prime-like1090mark,percentvariables,splitnumbers,sourceallBASICclaim andliteralspelling remainindependent. Final loweracademyadexcluded; fullsourcepagepinnedprivately. Humanacceptance,fullproofreading,encodedbytes,spacing,claims,execution andindependentbackuprecovery remainunverified. Allvisiblelabels transcribed; no readerrebuild.",
-    "Batch55 restores 소혹성 지대0054 opening236–241/PDF238–243 aspartialnative. Fullarticle236–243/PDF238–245 verified;ending242–243 andcompleteassembly pending. OneBASICpanel retains39labels/rows1000–1380,tenquotedstrings/20delimiters,39lexicalstatements,fivebranches,218lexicaltokens and14quotedspacebands. Twelve dumpcolumns retain612rows/4896literalbytefields C100–D418 and11columnconnections. Fourcommandregions/fivephysicalcommandrows,eight routinedescriptions/tenaddresses,fourboxedkeys,fiveopaquescreenfields,twocaptions/tworeferences,two regionalcontinuations and45prosewraps remainindexed. PrintedSC*256,&HD9FF,repeatedloadheading,갯수/리턴키이를 andbyte discrepancies stayliteral. Thirty-eightcandidates,seveneditorialmarkers(includingtwo unknownasteriskcounts),12Unicodeapproximations and5463encodedspacebands retainoriginals. Five lowmarks andfourraisedprimeapproximations remainindependentofbytes. Originalillustrationtinylabels pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,execution andindependentbackuprecovery unverified. Final245rightcontest/lowererrata excludedfromarticleextent. No readerrebuild."
+    "소혹성 지대0054 all8bodypages236–243/PDF238–245 restored acrossimmutablebatch55/56natives;completearticleassemblypending. Combined84regions/56blocks/28figures retain931physicaltextrows,845coderows,39BASIClabels/rows,tenquotedstrings/20delimiters,39statements,fivebranches,218lexicaltokens,14quotedspacebands,801dump rows/6408literalbytefields C100–DA00 in17columns,fourcommandregions/fiverows,eightroutinegroups/tenaddresses,fiveopaquescreenfields,fourboxedkeys,twocaptions plusoneinheritedassociation,15internaldumpjoins plusincomingD418/D420,two regionalcontinuations and45prosewraps. Sixty-sixsourcecandidates,eighteditorialmarkers,13Unicodeapproximations and6976encodedspacebands retainoriginals. SC*256,&HD9FFindependentofDA00,repeatedheading,sourcebyte/glyph/spelling discrepancies literal. EndingD600mark/D938raisedseparator retainedwithoutbyteinference. Final245rightLOGATORcontest/lowererrata excluded. Tinyillustrationlabels pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,execution andindependentbackuprecovery unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
