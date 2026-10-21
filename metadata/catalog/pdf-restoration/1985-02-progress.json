@@ -1332,23 +1332,91 @@
       "toc_entry_id": "maso-1985-02-toc-0013",
       "title": "정보 레이다",
       "parent_id": "maso-1985-02-toc-0008",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Printed160/PDF162 opens 나라안 소식 beside a large rotated 정보레이다 masthead. Printed161,163,165 running headers repeat 정보레이다. Earlier lookup-only information in batch31/batch34 called this 정보교류; this is a source-reading erratum, not a canonical title change.",
+        "Canonical0013 정보 레이다 is a shared section heading over domestic and foreign news, without an additional independently owned body on the reviewed opening. Canonical0014 owns the domestic body on six individually reviewed pages printed160–165/PDF162–167. Canonical identities, sibling parent0008 links and titles remain unchanged. Parent0008 classification is deferred.",
+        "PDF161 is a full independent installment-sales computer advertisement, with no domestic-news continuation. PDF168 independently begins 나라밖 소식, with Hitachi optical disk news and other foreign items; PDF169 continues foreign news and repeats 정보레이다. Neither lookup page is mapped or restored in this checkpoint; foreign extent is unverified."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-02/restoration/batch-35/heading-classification.json",
+        "sha256": "6855757af003c65c1600821dd0b26c74478264fc101f962ca5433e36de04945d",
+        "bytes": 2888
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0014",
       "title": "나라안 소식",
       "parent_id": "maso-1985-02-toc-0008",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Printed160/PDF162 opens 나라안 소식 beside a large rotated 정보레이다 masthead. Printed161,163,165 running headers repeat 정보레이다. Earlier lookup-only information in batch31/batch34 called this 정보교류; this is a source-reading erratum, not a canonical title change.",
+        "Canonical0013 정보 레이다 is a shared section heading over domestic and foreign news, without an additional independently owned body on the reviewed opening. Canonical0014 owns the domestic body on six individually reviewed pages printed160–165/PDF162–167. Canonical identities, sibling parent0008 links and titles remain unchanged. Parent0008 classification is deferred.",
+        "PDF161 is a full independent installment-sales computer advertisement, with no domestic-news continuation. PDF168 independently begins 나라밖 소식, with Hitachi optical disk news and other foreign items; PDF169 continues foreign news and repeats 정보레이다. Neither lookup page is mapped or restored in this checkpoint; foreign extent is unverified.",
+        "Domestic text comprises sixteen news items. PDF163 Samsung video item continues from lower left to upper right. Cactus on164 continues around its original photograph and into the right column. HP-8050 on164 continues to the table and closing prose atop165. National contest on165 continues at upper-left166 through its prize table. EXXIM8001 starts lower-left166 and continues upper-right, around its photograph. Lucky-Goldstar research item lower-left167 is associated with the upper-right building photograph. The final right-column one-line-contest award item closes165 with an editorial quotation and no outgoing continuation.",
+        "Four ruled tables are retained as original images plus separate transcription regions: HP-8050 timing, Hyosung training, national contest prizes, power-supply specifications. Preserve merged/spatial headers, blank slots, physical wraps, units and printed arithmetic independently; do not reconcile totals or product claims.",
+        "Three uncaptioned photographs depict the Cactus system, EXXIM system and research building. No captions are invented. Complete originals retain layout, folios, running headers and all eligible content. Historical names, contact details, wording, product identifiers and claims must remain literal."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-35-r01/domestic-news",
+        "article_id": "scan-maso-1985-02-toc-0014",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-35-r01/domestic-news/manifest.json",
+          "sha256": "d475f41f0e865ce05ad6b46afc15f92587c87d05cb7028049c37f0dda30313f0",
+          "bytes": 37727
+        },
+        "coverage": {
+          "pdf_pages": [
+            162,
+            163,
+            164,
+            165,
+            166,
+            167
+          ],
+          "printed_pages": [
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165"
+          ],
+          "regions": 64,
+          "blocks": 50,
+          "figures": 14,
+          "news_items": 16,
+          "tables": 4,
+          "photographs": 3
+        },
+        "full_pdf_pages": [
+          162,
+          163,
+          164,
+          165,
+          166,
+          167
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-35/validation.json",
+          "sha256": "af1e155a8d8b984cbd4be7c9b90b1be52448677de787018d086398239dfefa8e",
+          "bytes": 2087
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-35/reproduction.json",
+          "sha256": "0109902c9d62452164294f6a1d66e5e9a73f141db722b7d37d33aec2cf58c505",
+          "bytes": 1274
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0015",
@@ -2889,10 +2957,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 24,
+    "readable": 25,
     "partial": 0,
-    "non_owning_headings": 2,
-    "unresolved_eligibility": 30
+    "non_owning_headings": 3,
+    "unresolved_eligibility": 28
   },
   "checkpoints": [
     {
@@ -5664,6 +5732,89 @@
         "sha256": "16eca4e65e60058c347b6008fbb97c48299683a35ed0b4ccda357e8b7bdf6c1c",
         "bytes": 8427806
       }
+    },
+    {
+      "id": "batch-35",
+      "status": "complete-article-and-heading-classification",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0013",
+        "maso-1985-02-toc-0014"
+      ],
+      "mapped_pdf_pages": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      "outside_map_lookup_pages": [
+        161,
+        168,
+        169
+      ],
+      "canonical_tasks": 2,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-35/validation.json",
+        "sha256": "af1e155a8d8b984cbd4be7c9b90b1be52448677de787018d086398239dfefa8e",
+        "bytes": 2087
+      },
+      "classification": {
+        "path": "archive/pdf/1985-02/restoration/batch-35/heading-classification.json",
+        "sha256": "6855757af003c65c1600821dd0b26c74478264fc101f962ca5433e36de04945d",
+        "bytes": 2888
+      },
+      "stats": {
+        "completed_at": "2026-10-21T09:56:56.518374+00:00",
+        "stats": {
+          "regions": 64,
+          "blocks": 50,
+          "figures": 14,
+          "physical_text_rows": 328,
+          "table_serialized_rows": 40,
+          "table_groups": 4,
+          "table_rows": 24,
+          "table_cells": 92,
+          "table_headers": 16,
+          "table_cell_lines": 108,
+          "table_blank_cells": 0,
+          "table_physical_wraps": 13,
+          "spatial_headers": 2,
+          "source_candidates": 40,
+          "ink_marks": 2,
+          "typographic_approximations": 24,
+          "connections": 4,
+          "physical_wraps": 111,
+          "caption_links": 0,
+          "news_items": 16,
+          "photographs": 3,
+          "source_object_associations": 4,
+          "image_contexts": 2,
+          "table_contexts": 4,
+          "section_labels": 4,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            162,
+            163,
+            164,
+            165,
+            166,
+            167
+          ]
+        },
+        "source_passes": 1,
+        "ocr_tasks": 50,
+        "eng_code_tasks": 0,
+        "kor_eng_tasks": 50,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 2
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-35-preserved-work.json",
+        "sha256": "3d191aba611749f07bd326c94e48ec4a0153a363c0e384e52c7453f2776a9659",
+        "bytes": 8632822
+      }
     }
   ],
   "source_page_observations": [
@@ -7166,43 +7317,123 @@
     {
       "pdf_page": 161,
       "printed_page": null,
-      "classification": "advertisement-observed",
+      "classification": "advertisement",
       "toc_entry_ids": [],
       "source_title": "현금가격 분할 판매",
-      "restoration": "lookup-only;not-MLE",
-      "ownership_note": "Independent full-page advertisement after MLE ending."
+      "restoration": "outside-canonical-article-body",
+      "ownership_note": "Independent full-page computer installment-sales advertisement between MLE and domestic news."
     },
     {
       "pdf_page": 162,
       "printed_page": "160",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0014"
+      ],
+      "source_title": "나라안 소식 / 정보레이다",
+      "restoration": "complete-article-exported",
+      "ownership_note": "Domestic0014 owns body; 정보 레이다0013 is shared non-owning section heading. All16 news items/four tables/three photos across six pages restored."
+    },
+    {
+      "pdf_page": 163,
+      "printed_page": "161",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0014"
+      ],
+      "source_title": "나라안 소식 / 정보레이다",
+      "restoration": "complete-article-exported",
+      "ownership_note": "Domestic0014 owns body; 정보 레이다0013 is shared non-owning section heading. All16 news items/four tables/three photos across six pages restored."
+    },
+    {
+      "pdf_page": 164,
+      "printed_page": "162",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0014"
+      ],
+      "source_title": "나라안 소식 / 정보레이다",
+      "restoration": "complete-article-exported",
+      "ownership_note": "Domestic0014 owns body; 정보 레이다0013 is shared non-owning section heading. All16 news items/four tables/three photos across six pages restored."
+    },
+    {
+      "pdf_page": 165,
+      "printed_page": "163",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0014"
+      ],
+      "source_title": "나라안 소식 / 정보레이다",
+      "restoration": "complete-article-exported",
+      "ownership_note": "Domestic0014 owns body; 정보 레이다0013 is shared non-owning section heading. All16 news items/four tables/three photos across six pages restored."
+    },
+    {
+      "pdf_page": 166,
+      "printed_page": "164",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0014"
+      ],
+      "source_title": "나라안 소식 / 정보레이다",
+      "restoration": "complete-article-exported",
+      "ownership_note": "Domestic0014 owns body; 정보 레이다0013 is shared non-owning section heading. All16 news items/four tables/three photos across six pages restored."
+    },
+    {
+      "pdf_page": 167,
+      "printed_page": "165",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0014"
+      ],
+      "source_title": "나라안 소식 / 정보레이다",
+      "restoration": "complete-article-exported",
+      "ownership_note": "Domestic0014 owns body; 정보 레이다0013 is shared non-owning section heading. All16 news items/four tables/three photos across six pages restored."
+    },
+    {
+      "pdf_page": 168,
+      "printed_page": "166",
       "classification": "adjacent-article-body-observed",
-      "toc_entry_ids": [],
-      "source_title": "정보교류 / 나라안 소식",
-      "restoration": "lookup-only;canonical-classification-pending",
-      "ownership_note": "Separate section opening; not MLE. Do not infer ownership from TOC lead alone."
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0015"
+      ],
+      "source_title": "나라밖 소식 / 정보레이다",
+      "restoration": "lookup-only;restoration-pending",
+      "ownership_note": "Independent foreign-news section opens168 and continues169; final extent not yet verified."
+    },
+    {
+      "pdf_page": 169,
+      "printed_page": "167",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0015"
+      ],
+      "source_title": "나라밖 소식 / 정보레이다",
+      "restoration": "lookup-only;restoration-pending",
+      "ownership_note": "Independent foreign-news section opens168 and continues169; final extent not yet verified."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-35",
-    "goal": "Verify 정보 레이다 canonical0013 and 나라안 소식 canonical0014 ownership and actual extent from printed160/PDF162,then restore eligible material within the six-page checkpoint limit.",
+    "id": "batch-36",
+    "goal": "Verify actual extent of 나라밖 소식 canonical0015 from printed166/PDF168; restore up to six source pages, segmenting and later assembling if longer.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0013",
-      "maso-1985-02-toc-0014"
+      "maso-1985-02-toc-0015"
     ],
-    "mapping_targets": "Reuse savedPDF162 source view. Its observed 정보교류 / 나라안 소식 opening is a lead,not a canonical ownership decision. Verify whether 정보 레이다 owns separate body material or is a non-owning heading; avoid duplicate ownership. Review domestic-news continuations and actual ending before mapping at most six source pages. Parent정보모음0008 remains unresolved until its own classification checkpoint.",
+    "mapping_targets": "Reuse batch35 full source views168–169. PDF168 starts 나라밖 소식 with Hitachi optical-disc news;169 continues foreign items with shared 정보레이다 header. Inspect every continuation and actual end before choosing the bounded map.",
     "provisional_lookup_targets": [
-      161,
-      162,
-      163,
-      164,
-      165,
-      166,
       167,
       168,
-      169
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177
     ],
-    "boundary_review": "Confirm canonical titles,parent0008,allcolumns/captions/tables/images andadvertising exclusions. TOC나라밖소식166/PDF168 is a lookup lead,not proof of domestic-news ending. Retain literal historical wording; no source claims repaired. MLE ends160 and161 is an independent advertisement.",
+    "boundary_review": "TOC 원고 모집 광고 printed174 is a lookup lead only, not proof that foreign news ends173. Do not infer a global folio offset or restore/classify the separate call-for-papers entry in this one-task batch. Keep canonical parent0008 links and pending classification unchanged.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -7235,7 +7466,8 @@
     "Background music canonical0003 is complete across eleven noncontiguous pages117–121,128–133/PDF119–123,130–135; firstlisting128loweronly andfinal133two disjointpanels. Two natives/all486files/fullmetadata remain exact. Complete indexes retain798textrows,519coderows/509logicalgroups,440assemblyordinals/2107fields/1022blanks/711objectbytes,208comments/13storage directives,seven unnumberedbytecontinuations,64patchdumpbytes/ninepatchassemblyrows,48BASIClabels/twowraps,17PLAYstrings/251characters,sixcaptions/12annotations and15externalassociations. Sixty-two sourcecandidates,fiveunknownbands and2091unknownspacebands remain. Originalcommand,byte,mnemonic,address,annotation-range,PLAYstring andspelling discrepancies retained. Diagramlabels,humanacceptance,sourcebytes,exactspacing,execution andtechnicalclaims unverified. No bodypages orassembly pending. Use pinned background_music_literal checker/context.",
     "FeatureII inputtools opener0004 andpaperholder0005 complete onprinted134–135/PDF136–137. Openerowns its introduction/photo while allthreecanonicalchildren remain unchanged. Four faintdiagram labels transcribed andsource-linked; nine localizedcandidates,two RomanII Unicodeapproximations andtenphysical wraps retain originals. Paperholdercolumnjoin입/력된,caption그림1,bilingualheadlines andhistorical5～6천원price/availability/usefulnessclaims remain literal. Humanacceptance,fullproofreading,sourcebytes,mechanical/historicalclaims andsmall chipmarkings inintrophoto remain unverified. No bodypages orassembly pending for these two articles.",
     "ALE canonical0006 is complete across eight noncontiguous pages136–139,142–145/PDF138–141,144–147. Two natives/all276files/fullmetadata retained. Complete indexes retain855textrows,588coderows/587logicalgroups,579assemblyordinals/3161fields/892blanks/1007objectbytes,375comments/136labels/49directives,twoheaders,oneBASIClabel,sixexamples,two tables38cells,threecaptions,12ordinalannotations,fiveroutine ranges,sevenkeynotations/sevenPOKEcommands,eightprosejoins and13externalassociations. Sixty-seven candidates,oneunknown dashband,twoinkmarks,eighteenUnicodeapproximations and2983unknownspacebands remain. Prose1006,L$3EF,37478($9266),overlappingroutine ranges,listing1007bytes,open-ended494 andFFER remain literal. Shared139upperALE/lowerMLE ownership preserved; interveningPDF142–143 excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned ale_literal checker/context.",
-    "MLE canonical0007 is complete across sixteen noncontiguous pages139–141,146–158/PDF141–143,148–160. Four natives/all411files/fullmetadata retained. Complete indexes retain1554textrows,1334coderows/1193logicalgroups,sevencompletegroups,1146assemblyordinals4–1149,5753fields/2997blanks/2495objectbytes,89byte/15textcontinuations,13quotedoperands/17DFBoperands,37BASIClabels100–460 in73rows/36wraps/22strings,two tables18cells,11diagramlabels,5menuoptions,39keynotations,fourprosejoins,25listingconnections andsevenexternalassociations. 128candidates,tenunknownbands,twoinkmarks,33Unicodeapproximations and5511unknownspacebands remain. Printed30행 has no matching BASIC label and no inferred130target;210/410 link to exact printed rows. Firstordinal4 andfinal1149RTS,final460 : GOTO 180,allopaque strings,byte/address differences andsource errors remain literal. Shared141upperALE and160contest/ads excluded; intervening144–147ALE excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned mle_literal checker/context."
+    "MLE canonical0007 is complete across sixteen noncontiguous pages139–141,146–158/PDF141–143,148–160. Four natives/all411files/fullmetadata retained. Complete indexes retain1554textrows,1334coderows/1193logicalgroups,sevencompletegroups,1146assemblyordinals4–1149,5753fields/2997blanks/2495objectbytes,89byte/15textcontinuations,13quotedoperands/17DFBoperands,37BASIClabels100–460 in73rows/36wraps/22strings,two tables18cells,11diagramlabels,5menuoptions,39keynotations,fourprosejoins,25listingconnections andsevenexternalassociations. 128candidates,tenunknownbands,twoinkmarks,33Unicodeapproximations and5511unknownspacebands remain. Printed30행 has no matching BASIC label and no inferred130target;210/410 link to exact printed rows. Firstordinal4 andfinal1149RTS,final460 : GOTO 180,allopaque strings,byte/address differences andsource errors remain literal. Shared141upperALE and160contest/ads excluded; intervening144–147ALE excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned mle_literal checker/context.",
+    "Batch35 completes 나라안 소식0014 on printed160–165/PDF162–167 and classifies 정보 레이다0013 as a non-owning section heading, retaining canonical sibling parent0008 links. Parent0008 remains unresolved; no duplicate section body or invented hierarchy. Sixteen news items/four tables92cells16headers/three photos/four continuations retain literal claims and source errors, including5바이트씩15비트,수수강신청서,Jonus Ada,두격,28작품/28명/상장58매/66대. Forty localized candidates,two ink marks and24Unicode approximations retain originals. Photographic labels pending volunteers; human acceptance/full proofreading,sourcebytes andhistorical claims unverified. Earlier lookup source title 정보교류 is corrected to 정보레이다 only in active observations; original notes remain preserved."
   ],
   "reader_rebuild": false
 }
