@@ -1293,12 +1293,145 @@
       "toc_entry_id": "maso-1985-02-toc-0038",
       "title": "PASCAL/MT+",
       "parent_id": "maso-1985-02-toc-0035",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All PDF87–106 whole pages inspected; actual PASCAL/MT+ extent printed86–103/PDF88–105; preceding digital logic and following CP/M separate. FinalPDF105 independent lower-right one-line contest excluded from article.",
+        "Current map covers only opening86–91/PDF88–93; middle92–97/ending98–103 and complete immutable assembly pending. Six mapped pages/fourteen outside lookups/one canonical task.",
+        "Opening title PASCAL/MT+, author 장덕기/서울대 전기공학과3; 교육입문 running section. Canonical title/byline identity unchanged.",
+        "Lists1–5 code and printed outputs retain original panels/captions. Standalone declarations and examples are mapped as code; prose may include inline symbols. Literal source syntax/spacing/values remain unverified.",
+        "CASE skeleton on87 closes with END on88; array prose88 continues89; BLOCKWRITE89 continues90. Page90 top-right WAIT prose continues lower-left around listing4. Page91 ends by introducing list6 on92; no invented word join.",
+        "Opening printed86–91/PDF88–93 exported with all five listings/three outputs and full original pages. Source errors and unknown glyph/spacing counts remain explicit; twelve following pages and immutable assembly deferred."
+      ],
+      "restoration": {
+        "segments": [
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-19-r02/pascal-a",
+            "article_id": "scan-maso-1985-02-toc-0038",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-19-r02/pascal-a/manifest.json",
+              "sha256": "fbdd59e99ad4ca8103f658e90e60ccacc586aa6793519cb61b164c17c9ee6771",
+              "bytes": 86664
+            },
+            "coverage": {
+              "pdf_pages": [
+                88,
+                89,
+                90,
+                91,
+                92,
+                93
+              ],
+              "printed_pages": [
+                "86",
+                "87",
+                "88",
+                "89",
+                "90",
+                "91"
+              ],
+              "regions": 134,
+              "blocks": 123,
+              "figures": 11
+            },
+            "segment": "a"
+          }
+        ],
+        "coverage": {
+          "pdf_pages": [
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ],
+          "printed_pages": [
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91"
+          ],
+          "regions": 134,
+          "blocks": 123,
+          "figures": 11
+        },
+        "known_full_extent": {
+          "pdf_pages": [
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "printed_pages": [
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103"
+          ]
+        },
+        "deferred_pdf_pages": [
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        "deferred_printed_pages": [
+          "92",
+          "93",
+          "94",
+          "95",
+          "96",
+          "97",
+          "98",
+          "99",
+          "100",
+          "101",
+          "102",
+          "103"
+        ],
+        "assembly_required": true
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0039",
@@ -1502,9 +1635,9 @@
   "totals": {
     "canonical_entries": 56,
     "readable": 14,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 2,
-    "unresolved_eligibility": 40
+    "unresolved_eligibility": 39
   },
   "checkpoints": [
     {
@@ -2651,6 +2784,128 @@
         "sha256": "eede75d5a167f236ce3097448912ffd2ea72e0bfb7a889499c09f39a07c5e6f6",
         "bytes": 3848748
       }
+    },
+    {
+      "id": "batch-19",
+      "status": "complete-opening-segment;article-partial",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "mapped_pdf_pages": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "outside_map_lookup_pages": [
+        87,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-19/validation.json",
+        "sha256": "8f23506f9d85ff11d883225ffd26f2111784d97d0e274fabcf44152b0cc778c8",
+        "bytes": 3620
+      },
+      "stats": {
+        "completed_at": "2026-10-21T04:10:39.349101+00:00",
+        "regions": 134,
+        "blocks": 123,
+        "figures": 11,
+        "physical_text_rows": 444,
+        "physical_code_rows": 159,
+        "listing_groups": 51,
+        "listing_group_rows": {
+          "program86-example": 1,
+          "label86-example": 1,
+          "const86-example": 2,
+          "type87-example": 2,
+          "var87-example": 1,
+          "writeln87-example": 1,
+          "compound87-example": 4,
+          "repeat87-example": 3,
+          "while87-example": 2,
+          "for87-up": 2,
+          "for87-down": 2,
+          "if87-example": 4,
+          "case87-example": 6,
+          "bits88-declarations": 3,
+          "shift88-declarations": 2,
+          "bytes88-declarations": 3,
+          "list1-code": 11,
+          "list1-output": 6,
+          "binary88-before": 1,
+          "binary88-after": 1,
+          "binary88-set": 1,
+          "move88-declarations": 3,
+          "list2-code": 10,
+          "list2-output": 4,
+          "length89-declaration": 1,
+          "concat89-declaration": 1,
+          "copy89-declaration": 1,
+          "pos89-declaration": 1,
+          "delete89-declaration": 1,
+          "insert89-declaration": 1,
+          "assign89-declaration": 1,
+          "list3-code": 11,
+          "list3-output": 4,
+          "close89-declaration": 1,
+          "purge89-declaration": 1,
+          "ioresult89-declaration": 1,
+          "seekread89-declaration": 1,
+          "seekwrite89-declaration": 1,
+          "blockread89-declaration": 1,
+          "blockwrite89-declaration": 1,
+          "wait90-declaration": 1,
+          "list4-code": 21,
+          "wait90-example": 6,
+          "memavail90-declaration": 1,
+          "maxavail90-declaration": 1,
+          "addr90-declaration": 1,
+          "sizeof90-declaration": 1,
+          "inline91-example": 3,
+          "list5-code": 14,
+          "ports91-example": 3,
+          "redirect91-example": 2
+        },
+        "code_identifier_occurrences": 508,
+        "code_operator_occurrences": 485,
+        "numeric_fields": 152,
+        "quoted_fields": 29,
+        "opcode_prefixes": 14,
+        "unknown_space_bands": 486,
+        "connections": 8,
+        "listing_connections": 1,
+        "physical_wraps": 14,
+        "caption_links": 5,
+        "enumerated_items": 28,
+        "outputs": 3,
+        "unknown_bands": 10,
+        "source_candidates": 50,
+        "source_passes": 1,
+        "ocr_tasks": 123,
+        "failures": 0,
+        "retries": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-19-preserved-work.json",
+        "sha256": "c1c5c61deab22d68b0a363ba4c3d9454c6376be48385f1d17addbcced2ca67c6",
+        "bytes": 4531474
+      }
     }
   ],
   "source_page_observations": [
@@ -3366,34 +3621,224 @@
     },
     {
       "pdf_page": 88,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0038"
       ],
       "printed_page": "86",
       "source_title": "PASCAL/MT+",
-      "restoration": "pending"
+      "restoration": "opening-segment-exported;article-partial",
+      "non_owning_section": "maso-1985-02-toc-0035"
+    },
+    {
+      "pdf_page": 89,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "87",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 90,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "88",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 91,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "89",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 92,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "90",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 93,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "91",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;article-partial"
+    },
+    {
+      "pdf_page": 94,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "92",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 95,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "93",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 96,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "94",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 97,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "95",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 98,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "96",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 99,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "97",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 100,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "98",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 101,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "99",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 102,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "100",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 103,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "101",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 104,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "102",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending"
+    },
+    {
+      "pdf_page": 105,
+      "classification": "mixed-article-and-independent-contest",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "printed_page": "103",
+      "source_title": "PASCAL/MT+",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "body-observed;restoration-pending",
+      "excluded_panel": "Lower-right GR 타입의 숫자 쓰기 / 김승모 / Apple; independent contest, separate final accounting pending."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-19",
-    "goal": "Restore PASCAL/MT+ opening printed86–91/PDF88–93 after exact crop review. Actual full extent86–103/PDF88–105 is source-verified; restore three immutable six-page segments and assemble separately.",
+    "id": "batch-20",
+    "goal": "Restore PASCAL/MT+ middle printed92–97/PDF94–99, preserving immutable opening segment. Full extent86–103/PDF88–105 verified; ending98–103 and complete assembly follow separately.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0038"
     ],
-    "mapping_targets": "Map only PDF88–93. Preserve prose/code examples, lists1–5 and their output/captions, physical wraps and outgoing list6 association. All PDF87–106 whole-page views are saved. PDF105 lower-right one-line contest is independent and must be excluded in ending segment.",
-    "provisional_lookup_targets": [],
-    "limits": {
-      "articles": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
-    },
-    "boundary_review": {
-      "path": "archive/pdf/1985-02/restoration/batch-19/whole-page-review.json",
-      "sha256": "5517117e865cf8af8a51a185e8ec7a4a42d9cad0cb227f8120160e11a7976269",
-      "bytes": 15374
-    },
+    "mapping_targets": "Review reused whole pages and map only PDF94–99. Preserve list6 redirected I/O and output, list7 BDOS, compilation/module material, directories/compiler/link/debug displays, photograph, list9 program/module/output and stack diagram. Verify incoming list6 reference and outgoing prose; no syntax or execution repair.",
+    "provisional_lookup_targets": [
+      93,
+      100
+    ],
+    "current_mapping_targets": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
     "full_extent_verified": {
       "pdf_pages": [
         88,
@@ -3436,30 +3881,16 @@
         "103"
       ]
     },
-    "current_mapping_targets": [
-      88,
-      89,
-      90,
-      91,
-      92,
-      93
-    ],
-    "outside_map_lookup_pages": [
-      87,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100,
-      101,
-      102,
-      103,
-      104,
-      105,
-      106
-    ]
+    "boundary_review": {
+      "path": "archive/pdf/1985-02/restoration/batch-19/whole-page-review.json",
+      "sha256": "5517117e865cf8af8a51a185e8ec7a4a42d9cad0cb227f8120160e11a7976269",
+      "bytes": 15374
+    },
+    "limits": {
+      "articles": 2,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 20
+    }
   },
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
@@ -3478,7 +3909,8 @@
     "80286 retains48localized candidates,nultitasking,Zenix,Bus Instruction Unit,physical wraps and literal model/numeric claims. One ellipsis-band count remains unknown;original uncaptioned processor diagram retained with independent labels pending volunteers. No historical/technical/reference verification.",
     "Forth complete printed56–63/PDF58–65 retains48localized candidates andoneunknown caption dot-band count;all17diagram originals remain withindependent label transcription pending volunteers. No body pages orassembly pending. Use pinned private forth_literal checker/context;fullnative metadata andall561native files preserved. Human acceptance/encoding/technical claims remain unverified.",
     "산수 경주 complete64–76/PDF66–78 retains91localizedcandidates,461unknownencodedwhitespacebands,fouroriginalscreens andoneillustration;independent screenlabeltranscription pendingvolunteers. No bodypages orassemblypending. Use pinnedprivate math_race_literal checker/context;all474native files/fullmetadata preserved. Complete223BASIClabels/703BASICrows and165dump rows/1317literalbytes verified without execution orencodedbinary reconstruction. Humanacceptance/encoding/technicalclaims unverified.",
-    "디지털 논리 회로 complete78–85/PDF80–87 retains51text/twoimage candidates,four unknown ellipsis counts,nine table groups/507indexed fields/89blank slots,twelve arithmetic panels andoriginal diagrams. Source 디지탈,printed formula/sentence errors,Ex-/culusive-OR,전가산기(half adder),prime positions andliteral truth cells remain. Independent diagram labels,human acceptance,encoded bytes,exact spacing andmath/technical claims unverified. No body pages orassembly pending. Use pinned private digital_logic_literal checker/context;all439native files/fullmetadata retained."
+    "디지털 논리 회로 complete78–85/PDF80–87 retains51text/twoimage candidates,four unknown ellipsis counts,nine table groups/507indexed fields/89blank slots,twelve arithmetic panels andoriginal diagrams. Source 디지탈,printed formula/sentence errors,Ex-/culusive-OR,전가산기(half adder),prime positions andliteral truth cells remain. Independent diagram labels,human acceptance,encoded bytes,exact spacing andmath/technical claims unverified. No body pages orassembly pending. Use pinned private digital_logic_literal checker/context;all439native files/fullmetadata retained.",
+    "PASCAL/MT+ opening86–91/PDF88–93 partial: 134regions/123blocks/11figures,444transcript rows including159code/output/example rows. Four vertical-dot extents have unknown original row counts. Lists1–5/three outputs,five captions,CASE continuation/eight prose associations retained. Fifty source candidates,ten unknown symbol/ellipsis extents and486 unknown encoded-space bands remain. Middle92–97,ending98–103 and immutable assembly pending; final independent contest excluded. Human acceptance,source bytes,technical claims and program execution unverified."
   ],
   "reader_rebuild": false
 }

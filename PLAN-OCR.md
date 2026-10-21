@@ -179,12 +179,20 @@ paired OCR or a new engine comparison.
   volunteers. No new OCR/source correction; unchanged tests. Five negative probes
   reject range/link/coverage drift. Use private digital-logic-assembly/digital_logic_literal.py
   checker/context and reproduction.json; generic check alone does not recognize it.
-  Fourteen articles are readable/sample-reviewed, none partial, two headings non-owning
-  and 40 of56 entries unresolved. Batch19 whole-page review verifies PASCAL/MT+
-  printed86–103/PDF88–105 after inspecting all PDF87–106 views. CP/M begins PDF106;
-  the independent lower-right contest onPDF105 is excluded. Next: map/review exact
-  crops for opening86–91/PDF88–93 before OCR; middle92–97 and ending98–103 follow
-  separately. No batch19 OCR or source correction has started; reuse saved views.
+  Batch19 restores PASCAL/MT+ opening86–91/PDF88–93 at packages/batch-19-r02/pascal-a.
+  All 512 files match its rebuild; 7,374 exact ranges, 7,786 pins and 134 images pass.
+  The 444 transcript rows include159code/output/example rows; four vertical-dot
+  extents retain unknown original row counts. Lists1–5/three outputs, five captions,
+  CASE continuation and eight prose associations survive. Fifty source candidates,
+  ten unknown symbol/ellipsis extents and486unknown encoded-space bands remain.
+  All132original/28revised crops preceded123tasks (52eng/71kor+eng); all raws read
+  before one source pass. No failures/retries. Fresh metadata revision adds logical
+  source-row coverage without text changes; both versions/rebuilds remain preserved.
+  All17,295prior files verified; unchanged213-test baseline reused.
+  Fourteen articles are readable/sample-reviewed, one partial, two headings non-owning
+  and39of56entries unresolved. Next: batch20 restores PASCAL middle92–97/PDF94–99,
+  then ending98–103/PDF100–105 and immutable assembly. Full86–103extent verified;
+  independent lower-right contest onPDF105 excluded. Reuse saved PDF87–106views.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

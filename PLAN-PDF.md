@@ -248,13 +248,23 @@ probes reject altered ranges/links/coverage. Use the pinned private digital-logi
 digital_logic_literal.py checker/context and reproduction.json; generic check alone
 does not recognize this format. No new OCR/source correction; unchanged test baseline.
 
-The 56-entry ledger records fourteen readable/sample-reviewed articles, no partials,
-two non-owning headings and 40 unresolved entries. Batch19 boundary review inspected
-all PDF87–106 views and verified PASCAL/MT+ printed86–103/PDF88–105, followed by
-CP/M 입문 on104/PDF106. The independent lower-right one-line contest on103/PDF105
-is excluded from PASCAL. Next: map/review exact crops for opening86–91/PDF88–93,
-then run pinned OCR. Middle92–97 and ending98–103 follow as separate six-page segments.
-All twenty views are preserved; no batch19 OCR or source correction has started.
+Batch19 restores PASCAL/MT+ opening86–91/PDF88–93 at
+`archive/pdf/1985-02/packages/batch-19-r02/pascal-a`. All 512 files match its
+independent rebuild; 7,374 exact ranges, 7,786 evidence pins and 134 images pass.
+Its 123 blocks retain 444 transcript rows, including 159 code/output/example rows;
+four vertical-dot extents have unknown original row counts. Lists1–5, three printed
+outputs, five captions, CASE's page continuation and eight prose associations remain.
+Fifty candidates preserve literal source errors; ten symbol/ellipsis extents and
+486 encoded-space bands remain unknown. All 132 original/28 revised crops preceded
+123 tasks (52 eng/71 kor+eng); all raws read before one source pass. No failure/retry.
+A fresh metadata revision adds logical row coverage; text and both prior outputs
+remain exact. Unchanged 213-test baseline reused; all 17,295 prior files verified.
+
+The 56-entry ledger records fourteen readable/sample-reviewed articles, one partial,
+two non-owning headings and 39 unresolved entries. PASCAL's verified full extent is
+printed86–103/PDF88–105. The independent lower-right contest on103/PDF105 remains
+excluded. Next: batch20 restores middle92–97/PDF94–99, then ending98–103/PDF100–105
+and separate immutable article assembly. All PDF87–106 source views are preserved.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

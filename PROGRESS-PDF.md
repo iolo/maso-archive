@@ -7,7 +7,7 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 February 1985 restoration is in progress. Fourteen articles are readable/sample-reviewed,
-none partial, two headings are non-owning and 40 of56 entries remain unresolved.
+one partial, two headings are non-owning and 39 of56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -35,10 +35,15 @@ ranges, 7,305 native pins and 141 images pass. Nine tables retain 507 indexed fi
 segment associations pass. Fifty-one text/two image candidates/four unknown ellipsis
 counts remain. Use private digital_logic_literal checker/context; no new OCR/source
 correction. Five negative probes reject range/link/coverage drift.
-Batch19 whole-page review verifies PASCAL/MT+ printed86–103/PDF88–105; all twenty
-PDF87–106 views are saved. CP/M begins PDF106; the lower-right contest onPDF105 is
-separate. Next: map/review exact crops for opening86–91/PDF88–93, then OCR. No batch19
-OCR/source correction has started; middle/ending restoration and assembly follow.
+Batch19 restores PASCAL/MT+ opening86–91/PDF88–93 at packages/batch-19-r02/pascal-a.
+All512files match its rebuild;7,374ranges/7,786pins/134images pass. Lists1–5 and three
+printed outputs retain five captions, CASE continuation and eight prose associations.
+The444transcript rows include159code/output/example rows, with four vertical-dot
+extents retaining unknown source row counts. Fifty candidates/ten unknown symbol
+extents/486unknown encoded-space bands remain. All132original/28revised crops preceded
+123tasks; all raws read before one source pass. No failures/retries; unchanged213tests.
+Full PASCAL extent86–103/PDF88–105 verified, excluding final independent contest.
+Next: batch20 middle92–97/PDF94–99, ending98–103/PDF100–105, then immutable assembly.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
@@ -391,7 +396,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Classification in progress | 13 readable; 1 partial; 2 headings; 40 unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 14 readable; 1 partial; 2 headings; 39 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
