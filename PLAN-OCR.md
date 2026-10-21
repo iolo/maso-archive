@@ -871,12 +871,31 @@ paired OCR or a new engine comparison.
   and30 implementation pins pass; unchanged213-test baseline reused. No reader rebuild.
   Current totals: 34 readable, one partial article, five non-owning headings and16 unresolved.
 
-  Next: restore final202/PDF204 as batch47, preserving list1 continuation1007 through1055,
-  list2 caption and every character-pattern dump address/byte through the final56D2 row.
-  Bind the incoming1007 fragment to its exact native range. PDF205 is an independent
-  advertisement;PDF206 starts 애플 클럭. Then assemble the seven-page timetable article
-  from immutable natives. Parent 정보모음0008,cover selection,remaining page accounting
-  andissue closeout remain pending. Canonical0046 eligibility remains unresolved.
+  Batch47 restores final printed202/PDF204 at
+  `archive/pdf/1985-02/packages/batch-47-r01/timetable-b`. All 34 files match its
+  independent rebuild; 3,397 current UTF-8 ranges, 3,419 evidence pins, four external
+  native-range occurrences (three unique) and seven crop images pass. Six blocks
+  retain 122 physical text rows: 69 BASIC rows and 50 dump rows plus badge/caption.
+  The incoming1007 fragment, 48 new labels1008–1055, 240 literal DATA fields and
+  50 dump addresses/400 byte fields through56D2 remain source-linked. Two external
+  associations retain the incoming1007 and inherited list1 caption; two internal
+  column joins and the list2 caption retain their exact targets. Nineteen custom-glyph
+  markers, 29 Unicode approximations, 469 unknown encoded-space bands and31 source
+  candidates remain explicit. The original prose endpoint56C9 is not changed to56D2.
+  All seven exact crops preceded six OCR tasks (four eng/two kor+eng); all drafts
+  preceded one source pass. No crop repair or OCR failure/retry. The original metadata
+  count of three unique native ranges is retained with an erratum distinguishing four
+  occurrences; package bytes are unchanged. All45,115 prior-file pins and30 implementation
+  pins pass; the unchanged213-test baseline is reused. All45,277 files in the new
+  preservation inventory remain exact. No reader rebuild.
+  All seven body pages now have verified native packages; complete assembly is pending.
+  Current totals: 34 readable, one partial article, five non-owning headings and16 unresolved.
+
+  Next: assemble the complete seven-page timetable article from immutable natives,
+  with no new mapping or OCR. Resolve the incoming1007 association and inherited
+  list1 caption while retaining all source occurrences, tables, dump bytes, original
+  panels and uncertainty records. Parent 정보모음0008, cover selection, remaining page
+  accounting and issue closeout remain pending. Canonical0046 eligibility remains unresolved.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is

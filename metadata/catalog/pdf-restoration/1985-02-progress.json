@@ -3676,7 +3676,12 @@
         "Prose joins196example→197인 경우,197leftT를→197right누르면,197right배→198left정될. Table2 variables continue left to right198. Listing column/page joins80,140,230,320,390 and1007 require exact source-fragment association; repeated 0 comment rows are source labels, not inferred unique ordinals.",
         "Ten whole-page views197–206 reviewed; six mapped pages198–203 andfour outside lookups197/204/205/206. No shared unrelated material on owned pages; no exclusion regions. Pageless0046 eligibility remains unchanged.",
         "Boxed keys, letter/digit variants, custom bitmap Korean/Chinese-like glyphs, header PROGRAMER, source dates and references, mismatched printed memory bounds and final dump addresses remain literal. No syntax, byte, arithmetic or semantic repair.",
-        "Six-page opening exported with per-occurrence BASIC IDs preserving seven0 comments andtwo130 labels. All31 printed table endpoints retained;159 and180 have no exact label occurrence,130 remains ambiguous between two source occurrences. No semantic target inference."
+        "Six-page opening exported with per-occurrence BASIC IDs preserving seven0 comments andtwo130 labels. All31 printed table endpoints retained;159 and180 have no exact label occurrence,130 remains ambiguous between two source occurrences. No semantic target inference.",
+        "Final202/PDF204 belongs to canonical0045; left/middle columns complete list1 DATA1007 continuation through1055, thenmiddle-bottom/right columns carry list2 도형정의 데이터.",
+        "Incoming firstline2232425262728293132333435363738 continues openingnative1007; do not create a new BASIC label or numericfield from physical wrap. List1 left ends1033 andmiddle begins1034.",
+        "List2 begins554A andmiddle panel ends5582; right starts558A andends56D2 eight visible bytefields. Entire finalpage preserved. Printed prose endpoint56C9 remains independent of actual dump lastaddress.",
+        "PDF203 is previousnative listing; PDF205 is independentfullpage 상진전산 advertisement; PDF206 independently starts 애플 클럭. Fullarticle extent196–202/PDF198–204 unchanged.",
+        "Four sourceviews203–206 reviewed,reused unchanged. One mapped page204,threeoutside lookups203/205/206,onecanonicaltask0045. No otherentry classification orreaderbuild."
       ],
       "restoration": {
         "directory": "archive/pdf/1985-02/packages/batch-46-r01/timetable-a",
@@ -3693,7 +3698,8 @@
             200,
             201,
             202,
-            203
+            203,
+            204
           ],
           "printed_pages": [
             "196",
@@ -3701,25 +3707,25 @@
             "198",
             "199",
             "200",
-            "201"
+            "201",
+            "202"
           ],
-          "regions": 60,
-          "blocks": 51,
-          "figures": 9,
-          "physical_text_rows": 384,
+          "regions": 67,
+          "blocks": 57,
+          "figures": 10,
+          "physical_text_rows": 506,
           "table_serialization_rows": 76,
-          "physical_transcript_rows": 460,
-          "physical_code_rows": 262,
-          "basic_label_occurrences": 63,
-          "distinct_basic_labels": 56,
-          "basic_physical_wraps": 199,
-          "basic_quoted_strings": 168,
-          "basic_statements": 456,
+          "physical_transcript_rows": 582,
+          "physical_code_rows": 381,
+          "basic_physical_rows": 331,
+          "basic_label_occurrences": 111,
+          "distinct_basic_labels": 104,
           "tables": 6,
           "table_cells": 148,
           "table_brace_groups": 4,
-          "boxed_keys": 15,
-          "caption_links": 4
+          "dump_rows": 50,
+          "dump_bytes": 400,
+          "caption_links": 5
         },
         "full_pdf_pages": [
           198,
@@ -3751,19 +3757,115 @@
           ]
         },
         "assembly_required": true,
-        "deferred_pdf_pages": [
-          204
-        ],
+        "deferred_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1985-02/restoration/batch-46/validation.json",
-          "sha256": "d02056917a31ecc810c098448c5025d2f5115d6ffec99618adfe74471c32d731",
-          "bytes": 2065
+          "path": "archive/pdf/1985-02/restoration/batch-47/validation.json",
+          "sha256": "45b207dea99d0f4a6c405456a140aa18152dc139ddeacb4edee1aef3d22440bb",
+          "bytes": 1613
         },
         "reproduction": {
-          "path": "archive/pdf/1985-02/restoration/batch-46/reproduction.json",
-          "sha256": "f9b209cceacc9a7cd26809353699ab3bb363738df539a0973a3155f70899a668",
-          "bytes": 1339
-        }
+          "path": "archive/pdf/1985-02/restoration/batch-47/reproduction.json",
+          "sha256": "7d37b1ec88d12a7376cd2d923052ff56a4569b448739632e6dff27e4e7dafdb0",
+          "bytes": 1470
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-46-r01/timetable-a",
+            "article_id": "scan-maso-1985-02-toc-0045",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-46-r01/timetable-a/manifest.json",
+              "sha256": "67bb1c19f28a3a86ab5a52e1dc343797c7968b55b0ca23db621226d87c643cc0",
+              "bytes": 37527
+            },
+            "coverage": {
+              "pdf_pages": [
+                198,
+                199,
+                200,
+                201,
+                202,
+                203
+              ],
+              "printed_pages": [
+                "196",
+                "197",
+                "198",
+                "199",
+                "200",
+                "201"
+              ],
+              "regions": 60,
+              "blocks": 51,
+              "figures": 9,
+              "physical_text_rows": 384,
+              "table_serialization_rows": 76,
+              "physical_transcript_rows": 460,
+              "physical_code_rows": 262,
+              "basic_label_occurrences": 63,
+              "distinct_basic_labels": 56,
+              "basic_physical_wraps": 199,
+              "basic_quoted_strings": 168,
+              "basic_statements": 456,
+              "tables": 6,
+              "table_cells": 148,
+              "table_brace_groups": 4,
+              "boxed_keys": 15,
+              "caption_links": 4
+            },
+            "validation": {
+              "path": "archive/pdf/1985-02/restoration/batch-46/validation.json",
+              "sha256": "d02056917a31ecc810c098448c5025d2f5115d6ffec99618adfe74471c32d731",
+              "bytes": 2065
+            },
+            "reproduction": {
+              "path": "archive/pdf/1985-02/restoration/batch-46/reproduction.json",
+              "sha256": "f9b209cceacc9a7cd26809353699ab3bb363738df539a0973a3155f70899a668",
+              "bytes": 1339
+            },
+            "segment": "a"
+          },
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-47-r01/timetable-b",
+            "article_id": "scan-maso-1985-02-toc-0045",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-47-r01/timetable-b/manifest.json",
+              "sha256": "60e1b9ea7afa54083986d5d35568b8156137eef953f061dd017bdbc46ea3b410",
+              "bytes": 5631
+            },
+            "coverage": {
+              "pdf_pages": [
+                204
+              ],
+              "printed_pages": [
+                "202"
+              ],
+              "regions": 7,
+              "blocks": 6,
+              "figures": 1,
+              "physical_text_rows": 122,
+              "physical_code_rows": 119,
+              "basic_physical_rows": 69,
+              "basic_label_occurrences": 48,
+              "basic_data_fields": 240,
+              "dump_rows": 50,
+              "dump_bytes": 400,
+              "caption_links": 1
+            },
+            "validation": {
+              "path": "archive/pdf/1985-02/restoration/batch-47/validation.json",
+              "sha256": "45b207dea99d0f4a6c405456a140aa18152dc139ddeacb4edee1aef3d22440bb",
+              "bytes": 1613
+            },
+            "segment": "b",
+            "reproduction": {
+              "path": "archive/pdf/1985-02/restoration/batch-47/reproduction.json",
+              "sha256": "7d37b1ec88d12a7376cd2d923052ff56a4569b448739632e6dff27e4e7dafdb0",
+              "bytes": 1470
+            }
+          }
+        ],
+        "complete_article_assembly_pending": true,
+        "all_body_pages_restored_across_natives": true
       }
     },
     {
@@ -7667,6 +7769,73 @@
         "sha256": "dff22f827806446325b39351a0c924a89ce60864e31e72944e46a246bc4ba4db",
         "bytes": 10059129
       }
+    },
+    {
+      "id": "batch-47",
+      "status": "complete-ending-native;full-article-assembly-pending",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0045"
+      ],
+      "mapped_pdf_pages": [
+        204
+      ],
+      "outside_map_lookup_pages": [
+        203,
+        205,
+        206
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-47/validation.json",
+        "sha256": "45b207dea99d0f4a6c405456a140aa18152dc139ddeacb4edee1aef3d22440bb",
+        "bytes": 1613
+      },
+      "stats": {
+        "completed_at": "2026-10-21T13:17:47.203272+00:00",
+        "stats": {
+          "regions": 7,
+          "blocks": 6,
+          "figures": 1,
+          "physical_text_rows": 122,
+          "physical_code_rows": 119,
+          "basic_physical_rows": 69,
+          "basic_label_occurrences": 48,
+          "basic_logical_groups": 49,
+          "basic_wraps": 20,
+          "basic_data_fields": 240,
+          "dump_rows": 50,
+          "dump_bytes": 400,
+          "caption_links": 1,
+          "external_associations": 2,
+          "native_range_occurrences": 4,
+          "source_candidates": 31,
+          "unknown_markers": 19,
+          "typographic_approximations": 29,
+          "unknown_space_bands": 469,
+          "availability": "partial",
+          "mapped_pdf_pages": [
+            204
+          ],
+          "deferred_pdf_pages": [],
+          "unique_native_ranges": 3
+        },
+        "source_passes": 1,
+        "ocr_tasks": 6,
+        "eng_code_tasks": 4,
+        "kor_eng_tasks": 2,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 0,
+        "metadata_count_erratum": "Initial count3 represented unique ranges; complete occurrence count is4 because incoming source-label wrapper appears in both logical indexes. No package/text changes."
+      },
+      "resolved_stage_limits": [
+        "Timetable0045 opening196–201/PDF198–203 ispartial; final202/PDF204 andcompleteassembly pending. It retains262 BASIC rows/63 label occurrences/56 distinct labels/199wraps/168quotes/456lexicalcolon groups,five same-linecolumn/pagejoins andoutgoing1007. Seven0comments andtwo130labels retain separate occurrenceIDs; sourceGOTO180 remains unchanged. Six tables74rows/148cells/150fragments/fourbracegroups,eighteenprintedreferences/31endpoints,fifteenboxedkeys,sevenmenuoptions,fivecontinuations andfourcaptions retained. Reference159 and180 have noexactsource labels;130 has two candidates. Source159,dimensionsS(7)/S(6),T22duplication,DEFCHR$,PROGRAMER,SPESIAL,date1984/9,period2122. andmemorybounds56C9 remain literal. Thirty-seven editorial markers includeunknown bands andfaint330letter;115Unicodeapproximations and1147display-space bands remainunverified. Twenty-six localized candidates andthree original outputpanels retain sourceevidence; internal paneldata/labels pendingvolunteers. Humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. No reader rebuild."
+      ],
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-47-preserved-work.json",
+        "sha256": "ddc10993b99570b184b5d32ace9e451d13ba45158fd7a26f7ee7599bbc316009",
+        "bytes": 10094016
+      }
     }
   ],
   "source_page_observations": [
@@ -9471,8 +9640,8 @@
       ],
       "source_title": "시간표작성 프로그램",
       "section_title": "프로그램공모 우수상",
-      "restoration": "opening-segment-exported;final204-and-assembly-pending",
-      "ownership_note": "Canonical0045 owns continuous196–202/PDF198–204; six-page opening restored, final204 andassembly pending."
+      "restoration": "timetable-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "ownership_note": "Canonical0045 owns continuous196–202/PDF198–204; allseven pages restored across two immutable natives, assembly pending."
     },
     {
       "pdf_page": 187,
@@ -9591,7 +9760,7 @@
         "maso-1985-02-toc-0045"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-segment-exported;final204-and-assembly-pending",
+      "restoration": "timetable-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "Three original timetable output panels withsharedcaption,platformSPC-1000 andcredit이 상 우/사북중학교 교사 belong to0045; internal output label/data transcription pending volunteers."
     },
     {
@@ -9601,8 +9770,8 @@
         "maso-1985-02-toc-0045"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-segment-exported;final204-and-assembly-pending",
-      "ownership_note": "Canonical0045 owns continuous196–202/PDF198–204; six-page opening restored, final204 andassembly pending."
+      "restoration": "timetable-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "ownership_note": "Canonical0045 owns continuous196–202/PDF198–204; allseven pages restored across two immutable natives, assembly pending."
     },
     {
       "pdf_page": 201,
@@ -9611,8 +9780,8 @@
         "maso-1985-02-toc-0045"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-segment-exported;final204-and-assembly-pending",
-      "ownership_note": "Canonical0045 owns continuous196–202/PDF198–204; six-page opening restored, final204 andassembly pending."
+      "restoration": "timetable-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "ownership_note": "Canonical0045 owns continuous196–202/PDF198–204; allseven pages restored across two immutable natives, assembly pending."
     },
     {
       "pdf_page": 202,
@@ -9621,8 +9790,8 @@
         "maso-1985-02-toc-0045"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-segment-exported;final204-and-assembly-pending",
-      "ownership_note": "Canonical0045 owns continuous196–202/PDF198–204; six-page opening restored, final204 andassembly pending."
+      "restoration": "timetable-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "ownership_note": "Canonical0045 owns continuous196–202/PDF198–204; allseven pages restored across two immutable natives, assembly pending."
     },
     {
       "pdf_page": 203,
@@ -9631,7 +9800,7 @@
         "maso-1985-02-toc-0045"
       ],
       "classification": "canonical-article",
-      "restoration": "opening-segment-exported;final204-and-assembly-pending",
+      "restoration": "timetable-native-exported;all-body-pages-restored;complete-assembly-pending",
       "ownership_note": "List1 DATA1007 continues from final physical row to nextpage204; do not complete from expected numeric pattern."
     },
     {
@@ -9641,8 +9810,8 @@
         "maso-1985-02-toc-0045"
       ],
       "classification": "canonical-article",
-      "restoration": "outside-current-segment;deferred-to-batch-47",
-      "ownership_note": "List1 continuedDATA through1055 andlist2 characterpattern dump554A–56D2 endarticle. Page notyet mapped/restored; sourcebounds56C9 remain independent ofdump ending."
+      "restoration": "timetable-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "ownership_note": "FinalDATA1007–1055 andcomplete character-pattern dump554A–56D2 restored. Nativeincoming1007 andinheritedlist1caption retained. Sourceprosebounds56C9 independent ofdump ending."
     },
     {
       "pdf_page": 205,
@@ -9666,23 +9835,22 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-47",
-    "goal": "Restore the final page of 시간표 작성 프로그램0045, printed202/PDF204, as an immutable ending segment; then assemble all seven pages separately.",
+    "id": "timetable-complete-assembly",
+    "goal": "Assemble the complete seven-page 시간표 작성 프로그램0045 from immutable timetable-a andtimetable-b; no new mapping orOCR.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0045"
     ],
-    "mapping_targets": "Reuse batch46 reviewed PDF204: continued list1 DATA1007 through1055 across left/middle columns, list2 도형정의 데이터 caption anddump from554A through56D2 across middle/right. Map onlyPDF204, preserving every address/byte/glyph andphysicalwrap.",
-    "provisional_lookup_targets": [
-      203,
-      204,
-      205,
-      206
+    "native_packages": [
+      "archive/pdf/1985-02/packages/batch-46-r01/timetable-a",
+      "archive/pdf/1985-02/packages/batch-47-r01/timetable-b"
     ],
-    "boundary_review": "Opening native timetable-a ends1007 DATA7,YGY,영,1,161718191A212; final page begins2232425262728293132333435363738. Keep exact incoming native range. List1 last1055 andlist2 last56D2 eight-byte row end article202; PDF205 independent 상진전산 advertisement,PDF206 independent 애플 클럭. Preserve repeated DATA IDs, variable glyphs, program table159/180 missing endpoints andduplicate130. No reconstruction of font glyphs or sourcebyte/semantic repair. Classify0046 separately later.",
+    "mapping_targets": [],
+    "provisional_lookup_targets": [],
+    "boundary_review": "Retain every native file andfull correction metadata. Project all source occurrences, including seven0 comments andtwo130 labels,331 BASIC physical rows,111 label occurrences,104 distinct labels,allquotes/colon groups andDATA fragments. Merge only source association ofa ending1007 withb incoming numeric-onlyrow; do not change either text. Link inherited list1 caption to both finalDATA columns. Retain all50 dump rows/400bytes,fullpage originals/three outputpanels,six tables148cells/fourbracegroups,15boxedkeys/sevenmenuoptions andallsource uncertainties. Keep missing159/180 andambiguous130 references explicit. No upperbound repair from56C9 to dumpend; nofont reconstruction orsourcebyte inference. Resolve only active stage deferrals, with original notes retained. Humanacceptance/fullproofreading andoutputpanel label/data transcription remain pending.",
     "limits": {
-      "articles": 2,
-      "mapped_pages": 6,
-      "outside_lookup_pages": 20
+      "articles": 1,
+      "mapped_pages": 0,
+      "outside_lookup_pages": 0
     }
   },
   "known_limits": [
@@ -9721,7 +9889,7 @@
     "Batch42 completes 추종자0022 on158/PDF160. Complete independent panel exactly matches MLE contest158 exclusion. Twelve physical text rows include seven BASIC rows, sole numeric label1, sixwraps, twoquotedstrings, thirteen lexical colon groups and symbolic LABEL/GOTO C. PEE/K,AM/OD99 and quoted-label wraps preserved. Square brackets in both CIRCLE groups and6^6 carets remain literal; no arithmetic orsyntax repair. Ten localized candidates, eleven Unicode approximations andone unknown encoded-space band retain scans. Historicalcredit/platform/address literal. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andcontactvalidity unverified. Allfour contestchildren nowreadable; non-owningheading0019 unchanged.",
     "Batch43 completes 공모 총평0043 on183/PDF185, sourceheadline 새학기 준비, andclassifies pageless parent0042 공모 입상 asnon-owning withthreeunchangedchildren0043–0045. Review retains59prose rows/two columns/one continuation,threeothertextrows,sixserializedtablerows withfourheaders/twentydata cells,sevenparagraphsegments,57physicalrowboundaries,threequotedtitles andsevenliteralaward/softwareclaims. Fifteen sourcecandidates retain historicalspelling/names,including 이 은 록 glyph candidate; sixUnicodequoteapproximations. Tablepipes areeditorial; originaltable andwholepage retained. TOC편집부 not insertedasbodybyline. Humanacceptance,fullproofreading,encodedbytes,spacing andclaims unverified. No readerrebuild.",
     "Grade-processing0044 is complete across printed184–195/PDF186–197. Both immutable natives/all263files/fullmetadata retained. Complete indexes retain828 physical textrows plus89 table serializationrows,431 BASIC rows/296labels/135wraps/177quotes/668statements,two listings,three captions,five tables67rows/134cells/157fragments,43 printed line references/81 exact endpoints,16 compilationsteps skipping10,seven menuoptions and11 continuations. All82 external associations resolve; original wrappers remain exact. Seventy-three source candidates,eight unknown bands,one ellipsis-count uncertainty,116 Unicode approximations and3217 unknown encoded-space bands remain. BASOCM.COM,772085,ENGLI,FISRT,DSKETTE,횟수을,caption성적을 화면 andsource order⑤⑥ remain literal. Internal originalprintout label/data transcription pendingvolunteers; humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. Independent publisher notice onPDF189 excluded. No body pages or assembly pending. Use pinned grades_literal checker/context; no reader rebuild.",
-    "Timetable0045 opening196–201/PDF198–203 ispartial; final202/PDF204 andcompleteassembly pending. It retains262 BASIC rows/63 label occurrences/56 distinct labels/199wraps/168quotes/456lexicalcolon groups,five same-linecolumn/pagejoins andoutgoing1007. Seven0comments andtwo130labels retain separate occurrenceIDs; sourceGOTO180 remains unchanged. Six tables74rows/148cells/150fragments/fourbracegroups,eighteenprintedreferences/31endpoints,fifteenboxedkeys,sevenmenuoptions,fivecontinuations andfourcaptions retained. Reference159 and180 have noexactsource labels;130 has two candidates. Source159,dimensionsS(7)/S(6),T22duplication,DEFCHR$,PROGRAMER,SPESIAL,date1984/9,period2122. andmemorybounds56C9 remain literal. Thirty-seven editorial markers includeunknown bands andfaint330letter;115Unicodeapproximations and1147display-space bands remainunverified. Twenty-six localized candidates andthree original outputpanels retain sourceevidence; internal paneldata/labels pendingvolunteers. Humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. No reader rebuild."
+    "Timetable0045 has allseven bodypages196–202/PDF198–204 across twoimmutable natives; completeassembly pending. Openingretains262BASICrows/63labeloccurrences,seven0comments/two130labels,168quotes/456lexicalcolon groups,six tables74rows/148cells/fourbracegroups,15boxedkeys/sevenmenus/fourcaptionlinks andthreeoriginaloutputpanels. Endingretains69BASICrows with48newlabels1008–1055 plusincoming1007,240DATAfields,50dump rows/400literalbytefields andonecaption. Incoming1007 andinheritedlist1caption bindexact native ranges. Combined111labeloccurrences/104distinctlabels retainmissing159/180 andambiguous130 references; sourceGOTO180 not repaired. Nineteenending customglyph markers remainunknown; combined56visiblemarkers,144Unicodeapproximations,1616display-space bands and57sourcecandidates remainexplicit. DuplicateDATAIDs,A-containingclassfields,WYW,IOB,OYJ,PROGRAMER,SPESIAL,dates,dimensions,period2122. andmemorybounds56C9 remainliteral. Originaloutputpanel data/labels pendingvolunteers. Humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. No reader rebuild."
   ],
   "reader_rebuild": false
 }
