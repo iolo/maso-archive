@@ -566,10 +566,29 @@ paired OCR or a new engine comparison.
   213-test baseline reused. The preservation inventory now contains38,717 files.
   Current totals: 25 readable, no partial articles, three non-owning headings and28 unresolved.
 
-  Next: verify 나라밖 소식0015 from printed166/PDF168, reusing saved168–169 views.
-  Inspect all continuations andthe actual ending, then restore at most six pages in
-  batch36;segment andassemble separately if longer. TOC원고 모집 광고174 is a lookup
-  lead only. Parent정보모음0008,cover selection,remaining page accounting andissue
+  Batch36 restores 나라밖 소식0015 opening166–171/PDF168–173 as partial at
+  `archive/pdf/1985-02/packages/batch-36-r01/foreign-news-a`. All234 files match its
+  independent rebuild;4,311 exact UTF-8 ranges,4,495 evidence pins and61 images pass.
+  Fifty-five blocks retain474 physical rows,13 complete news items andthe opening
+  IBM PC AT report. Nineteen numbered features,four bullets,nine subheadings,ten
+  internal connections and171 physical wraps remain source-linked. Outgoing 유력/한
+  continues onPDF174; native fragments remain separate for later assembly.
+
+  The verified full extent is166–174/PDF168–176. Final176 foreign text occupies the
+  whole left column andupper-right;the lower-right boxed 원고 모집 광고0016 is
+  separate andexcluded. PDF177 is an independent Silicon Valley Fever book advertisement.
+  Fifty-eight source candidates,two ink marks,one unknown ellipsis band and137 Unicode
+  approximations retain originals. Printed70/780nm,300/360KB,Rodert Wasserman,Wall Fargo,
+  Microcrompu-ter,Iomgega,Bern-onlli andsource errors remain literal. All61 original/
+  one revised crops preceded55 kor+eng tasks;all raws read before one source pass.
+  No OCR failures/retries. All38,717 prior files and30 implementation pins remain exact;
+  unchanged213-test baseline reused. Preservation inventory: 39,671 files.
+  Current totals: 25 readable, one partial article, three non-owning headings and27 unresolved.
+
+  Next: restore 나라밖 소식0015 ending172–174/PDF174–176 in batch37, reusing saved
+  views;then assemble allnine pages separately. Preserve incoming 유력/한,remaining
+  AT report,PLD photo/diagram/caption on175 andfinal prose on176;exclude separate0016
+  notice. Parent정보모음0008,cover selection,remaining page accounting andissue
   closeout remain pending. No reader rebuild;human acceptance/full proofreading pending.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
