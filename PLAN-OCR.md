@@ -296,10 +296,30 @@ paired OCR or a new engine comparison.
   before one source pass. No OCR failures/retries. All 29,813 prior files and 30
   implementation pins pass; unchanged 213-test baseline reused. This is a partial article.
 
-  Next: batch27 restores ending listings 129–133/PDF131–135 from saved views. Continue
-  0050→0051 through 0439 END, preserve any printed ordinal gap and unnumbered object-byte
-  rows, then list 2 through 480 GOTO 400 with its physical 450 wrap. Review exact shared-page
-  crops and exclude the independent contest/advertisement. Complete assembly follows separately.
+  Batch 27 restores the ending music listings at
+  `archive/pdf/1985-02/packages/batch-27-r02/music-b`, printed129–133/PDF131–135.
+  All 103 files match an independent rebuild; 20,947 current UTF-8 ranges, 15 external
+  native ranges, 21,941 evidence pins and 28 images pass. The 450 text rows retain
+  446 code rows in 437 logical groups, 389 assembly ordinals0051–0439, 1,907 fields,
+  865 blanks, 673 object bytes and seven unnumbered byte continuations. Ordinal0390 is
+  present; the earlier possible-gap note remains preserved. List2 retains 48 labels,
+  two physical wraps, 17 PLAY strings with 251 characters, one caption and two credits.
+  Fifteen links retain the opening row0050, list1 caption, twelve routine annotations
+  and the list2 prose reference. The final page owns only the left and upper-right
+  listing panels; the independent contest and advertisement remain excluded.
+  Thirty-one source candidates, two unknown asterisk bands and 1,805 unknown spacing
+  bands remain. All 28 original/eight revised crops preceded 22 tasks (18 eng/4 kor+eng);
+  all raws were read before one source pass. No OCR failures or retries. A focused
+  source check corrected one manual byte-order error at0413 to220C16; both versions remain.
+  A code-group metadata revision excludes the caption; text and OCR are unchanged,
+  and the failed first export, rebuild and verifier remain preserved. All 31,330 prior
+  files and 30 implementation pins pass; the unchanged 213-test baseline is reused.
+  All eleven body pages are restored across two native packages; assembly remains pending.
+
+  Next: assemble complete 배경 음악의 구현 from immutable batch26music-a and
+  batch27music-b. Resolve the 15 native associations, retain every native file and
+  metadata category, preserve all shared-page exclusions and verify a fresh rebuild.
+  No new mapping, OCR or source correction is needed for this assembly.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
