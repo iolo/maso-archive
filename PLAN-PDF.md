@@ -154,12 +154,24 @@ wording and glyph approximations. All 44 original/two revised crops were inspect
 before 38 tasks; all raws read before one source pass. Zero OCR failure/retry;
 unchanged 213-test baseline reused. Original attempts and both natives remain.
 
-The 56-entry issue ledger records eleven readable/sample-reviewed articles, one
-partial article, one non-owning heading and 43 unresolved entries. Next is the
-separate Forth assembly checkpoint: combine the verified opening and ending natives,
-retain all correction metadata and verify the 네/스팅 continuation. All eight body
-pages are covered; assembly remains pending. Cover selection, remaining page
-accounting and issue closeout are pending.
+Forth is now complete at `archive/pdf/1985-02/packages/forth-complete-r01`, covering
+printed56–63/PDF58–65. All 569 files match the independent rebuild; all 561 native
+files and both full correction records remain exact. Fifty segment/category slices
+and 3,639 projected UTF-8 ranges reverse to their original occurrences. The package
+retains 158 regions, 129 blocks, 507 physical rows, seventeen diagrams/twenty captions,
+three tables/thirty cells/four headers, four pull quotes and the verified 네/스팅 join.
+Six stale stage notes are resolved only in active status; original notes remain.
+Forty-eight source candidates and one unknown caption dot count remain explicit.
+No new mapping, render, OCR or source correction. Use the pinned private
+`archive/pdf/1985-02/restoration/forth-assembly/forth_literal.py` checker/context;
+see its `reproduction.json`. The unchanged 213-test baseline is reused, and three
+negative adapter probes reject range drift, a changed incoming link and deferred coverage.
+
+The 56-entry ledger records twelve readable/sample-reviewed articles, no partials,
+one non-owning heading and 43 unresolved entries. Next is batch14: verify parent0035
+교육용 프로그램의 진수 and restore child0036 산수 경주 from printed64/PDF66.
+Reuse PDF65/66 views; establish the actual extent and segment if longer than six
+mapped pages. Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.

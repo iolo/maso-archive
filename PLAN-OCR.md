@@ -109,10 +109,20 @@ paired OCR or a new engine comparison.
   three NEXT points and two pull quotes. Nineteen source candidates remain explicit.
   All 44 original/two revised crops inspected before 38 tasks; all raws read before
   one source pass. Zero OCR failure/retry. Unchanged 213-test baseline reused.
-  Eleven articles are readable/sample-reviewed, one is partial, one heading is
-  non-owning and 43 of 56 canonical entries remain unresolved. Next: assemble the
-  immutable Forth opening and ending segments, preserving all native metadata and
-  checking the 네/스팅 continuation. All body pages covered; assembly remains pending.
+  Forth is now complete at packages/forth-complete-r01, printed56–63/PDF58–65.
+  All 569 files match its independent rebuild; all 561 native files/full correction
+  metadata remain exact. Fifty category slices and 3,639 projected UTF-8 ranges
+  reverse to their native occurrences. All 158 images and the 네/스팅 join pass.
+  Its 507 physical rows retain seventeen diagrams/twenty captions, thirty table
+  cells/four headers and four pull quotes. Forty-eight candidates/one unknown dot
+  count remain; diagram labels pending volunteers. No new OCR/source correction.
+  Use the pinned private forth-assembly/forth_literal.py checker/context, with
+  reproduction.json for commands. Unchanged 213-test baseline reused; three negative
+  adapter probes reject range drift, changed incoming evidence and deferred coverage.
+  Twelve articles are readable/sample-reviewed, none partial, one heading is
+  non-owning and 43 of 56 canonical entries remain unresolved. Next: batch14 verifies
+  parent0035 교육용 프로그램의 진수 and restores child0036 산수 경주
+  from printed64/PDF66; reuse PDF65/66 and verify actual extent before mapping.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
