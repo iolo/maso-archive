@@ -218,10 +218,21 @@ paired OCR or a new engine comparison.
   negative probes reject altered ranges/links/fields/coverage. Checker failures/revisions
   preserved; source text unchanged. Use private pascal-assembly/pascal_literal.py
   checker/context and reproduction.json; no new OCR/source correction, unchanged213tests.
-  Fifteen articles are readable/sample-reviewed, zero partial, two headings non-owning
-  and39of56entries unresolved. Independent lower-right contest onPDF105 excluded.
-  Next: batch22 verifies CP/M 입문 from printed104/PDF106, its ending and adjacent
-  pages before bounded restoration. Reuse saved PDF105/106; PDF87–106views remain.
+  Batch22 completes CP/M 입문 at packages/batch-22-r01/cpm, printed104–108/PDF106–110.
+  All 312 files match the rebuild; 5,742 ranges, 6,004 evidence pins and 81 images pass.
+  Its 361 non-table text rows include 90 code/output rows. Assembly indexes retain
+  63 rows/185 fields/four blanks, including two address-only rows; eight dump rows
+  retain 52 bytes. The two-page table preserves nine data rows/four headers/40 cells
+  and 59 cell lines. Five BASIC labels/two quoted fields and 31 numeric output fragments
+  remain literal. Forty-six candidates, eight unknown dot bands and 265 unknown space
+  bands remain. All 81 crops reviewed before74tasks; all raws read before one pass.
+  No OCR failures/retries/crop repairs; map/preflight failures and quote-index metadata
+  revision preserved. All24,775prior files pass; unchanged213-test baseline reused.
+  Sixteen articles are readable/sample-reviewed, zero partial, two headings non-owning
+  and38of56entries unresolved. Independent lower-right contest onPDF105 excluded.
+  Next: batch23 verifies 소프트웨어 리뷰, source 삼보 컴퓨터의 TG-WRITER, from
+  printed110/PDF112, including actual ending and adjacent pages before restoration.
+  Reuse saved PDF111/112; PDF105–112views remain. PDF111 advertisement excluded.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

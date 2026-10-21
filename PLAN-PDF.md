@@ -303,10 +303,24 @@ Use the pinned private `restoration/pascal-assembly/pascal_literal.py` checker/c
 and reproduction.json. No new OCR/source correction; unchanged213-test baseline reused.
 The independent lower-right contest on103/PDF105 remains excluded.
 
-The 56-entry ledger records fifteen readable/sample-reviewed articles, zero partial,
-two non-owning headings and39unresolved entries. Next: batch22 verifies CP/M 입문
-from printed104/PDF106, its actual ending and adjacent pages, then restores bounded
-segments. Reuse saved PDF105/106 views; all PDF87–106 source views remain preserved.
+Batch22 completes CP/M 입문 at `archive/pdf/1985-02/packages/batch-22-r01/cpm`,
+printed104–108/PDF106–110. Its actual extent is five pages; following PDF111 is an
+independent advertisement, and PDF112 opens the software review. All 312 files match
+the independent rebuild; 5,742 exact ranges, 6,004 evidence pins and 81 images pass.
+The 361 non-table text rows include 90 code/output rows. Sixty-three assembly rows
+retain 185 fields/four blanks, including two address-only rows. Eight dump rows retain
+52 bytes; the two-page DPB table retains nine data rows/four headers/40 cells and all
+59 cell lines. Five BASIC labels/two quoted fields, 31 numeric output fragments and
+all source connections remain. Forty-six candidates, eight unknown dot bands and
+265 unknown encoded-space bands remain. All 81 crops were reviewed before 74 tasks;
+all raws read before one source pass. No OCR failures/retries/crop repairs. Initial
+map/preflight assertion failures and a metadata-only quote-index revision are retained.
+All 24,775 prior files verified; unchanged 213-test baseline reused.
+
+The 56-entry ledger records sixteen readable/sample-reviewed articles, zero partial,
+two non-owning headings and38unresolved entries. Next: batch23 verifies 소프트웨어 리뷰,
+source title 삼보 컴퓨터의 TG-WRITER, from printed110/PDF112, including its actual
+ending and adjacent pages before bounded restoration. Reuse saved PDF111/112 views.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

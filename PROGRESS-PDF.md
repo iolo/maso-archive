@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Fifteen articles are readable/sample-reviewed,
-zero partial, two headings are non-owning and 39 of56 entries remain unresolved.
+February 1985 restoration is in progress. Sixteen articles are readable/sample-reviewed,
+zero partial, two headings are non-owning and 38 of56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -67,8 +67,18 @@ boundaries and3.3reference pass.126candidates,eleven unknown symbol/ellipsis ext
 2035space bands andfour unknown vertical source-row counts remain. Original stage
 notes andchecker failures preserved; seven negative probes reject changed data.
 Use pinned private pascal_literal checker/context; no new OCR/source correction.
-Final independent contest remains excluded. Next: batch22 verifies CP/M 입문 from
-printed104/PDF106, its actual extent and adjacent pages before bounded restoration.
+Final independent contest remains excluded.
+Batch22 completes CP/M 입문 at packages/batch-22-r01/cpm, printed104–108/PDF106–110.
+All 312 rebuild files, 5,742 ranges, 6,004 evidence pins and 81 images pass. Its 361
+non-table rows retain90code/output rows,63assembly rows/185fields/four blanks and
+52dump bytes. The two-page table retains nine data rows/four headers/40cells and
+59cell lines. Five BASIC labels/two quoted fields,31numeric output fragments and
+all continuations remain. Forty-six candidates,eight unknown dot bands and265space
+bands remain. All81crops reviewed before74tasks; all raws read before one pass.
+No OCR failures/retries/crop repairs; preparation failures andmetadata revision retained.
+All24,775prior files pass; unchanged213tests. Following PDF111 advertisement excluded.
+Next: batch23 verifies 소프트웨어 리뷰, source 삼보 컴퓨터의 TG-WRITER, from
+printed110/PDF112, its actual ending and adjacent pages before bounded restoration.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
@@ -421,7 +431,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Classification in progress | 15 readable; 0 partial; 2 headings; 39 unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 16 readable; 0 partial; 2 headings; 38 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

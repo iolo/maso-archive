@@ -1541,12 +1541,57 @@
       "toc_entry_id": "maso-1985-02-toc-0039",
       "title": "CP/M 입문",
       "parent_id": "maso-1985-02-toc-0035",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "All eight whole pages PDF105–112 inspected before mapping. Actual CP/M 입문 final installment is printed104–108/PDF106–110, five pages.",
+        "PDF105 finishes PASCAL plus independent contest; PDF111 is a full-page 구미전자 advertisement; PDF112 opens software review TG-WRITER on printed110. No CP/M material on either adjacent page.",
+        "Title CP/M 입문, 마지막 회, author 신동완/대림산업 기획실. Intro thanks 신동완 and describes Z80 BDOS examples; canonical identity unchanged.",
+        "Special BDOS functions24–32 and reading/writing20/22/21/16/33/34 retain separate printed examples. Function29 prose continues105→106;DPB table continues106→107;random-read code continues108left→right.",
+        "Printed inconsistencies including ASID/ ZSID,32/36 track sectors,SDT/SPT,random-read C,21 and prose address disagreements remain literal. Exact code and dump field occurrence review required.",
+        "Five mapped pages,three outside lookups,one canonical task; two source views reused andsix new renders. No source-program execution."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-22-r01/cpm",
+        "article_id": "scan-maso-1985-02-toc-0039",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-22-r01/cpm/manifest.json",
+          "sha256": "bfaae3f291cc556bba938f5301d371902d7777108e71a72a9b167a28baffa13b",
+          "bytes": 52709
+        },
+        "coverage": {
+          "pdf_pages": [
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "printed_pages": [
+            "104",
+            "105",
+            "106",
+            "107",
+            "108"
+          ],
+          "regions": 81,
+          "blocks": 74,
+          "figures": 7
+        },
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-22/validation.json",
+          "sha256": "5c23e06b5d7adac68876a39bded4a5117a59bc37fdbf00a4742b9f9d0b250be4",
+          "bytes": 2708
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-22/reproduction.json",
+          "sha256": "988b25b444aa8753f495b6f3aae69ab5537733e1089e2f48f436ae66bff73a79",
+          "bytes": 1265
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0040",
@@ -1738,10 +1783,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 15,
+    "readable": 16,
     "partial": 0,
     "non_owning_headings": 2,
-    "unresolved_eligibility": 39
+    "unresolved_eligibility": 38
   },
   "checkpoints": [
     {
@@ -3219,6 +3264,94 @@
         "sha256": "adec07fccdfa2ec9b36ff931b218d2f754e9a179abbdc419ec02c40dc0c6e82b",
         "bytes": 5527575
       }
+    },
+    {
+      "id": "batch-22",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0039"
+      ],
+      "mapped_pdf_pages": [
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "outside_map_lookup_pages": [
+        105,
+        111,
+        112
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-22/validation.json",
+        "sha256": "5c23e06b5d7adac68876a39bded4a5117a59bc37fdbf00a4742b9f9d0b250be4",
+        "bytes": 2708
+      },
+      "stats": {
+        "completed_at": "2026-10-21T05:15:21.542143+00:00",
+        "regions": 81,
+        "blocks": 74,
+        "figures": 7,
+        "physical_non_table_text_rows": 361,
+        "physical_code_rows": 90,
+        "logical_source_lines": 90,
+        "listing_groups": 18,
+        "listing_group_rows": {
+          "fn24-code": 3,
+          "fn25-code": 3,
+          "fn27-code": 8,
+          "allocation105-master": 3,
+          "allocation105-empty": 3,
+          "fn28-code": 7,
+          "fn29-code": 4,
+          "fn28b-code": 3,
+          "fn30-code": 4,
+          "fn31-code": 3,
+          "dpb106-dump": 4,
+          "stat107-output": 9,
+          "fn32-code": 4,
+          "make107-basic": 5,
+          "file107-output": 3,
+          "fn20-code": 7,
+          "fn22-21-16-code": 10,
+          "fn33-code": 7
+        },
+        "assembly_rows": 63,
+        "assembly_fields": 185,
+        "assembly_blank_fields": 4,
+        "dump_rows": 8,
+        "dump_bytes": 52,
+        "dump_addresses": 6,
+        "table_parts": 2,
+        "table_data_rows": 9,
+        "table_cells": 40,
+        "table_cell_physical_lines": 59,
+        "basic_labels": 5,
+        "numeric_output_fields": 31,
+        "source_candidates": 46,
+        "unknown_bands": 8,
+        "unknown_space_bands": 265,
+        "connections": 5,
+        "listing_connections": 1,
+        "table_connections": 1,
+        "physical_wraps": 21,
+        "section_listing_associations": 12,
+        "command_response_rows": 30,
+        "output_groups": 5,
+        "source_passes": 1,
+        "ocr_tasks": 74,
+        "failures": 0,
+        "retries": 0,
+        "metadata_revision_at": "2026-10-21T05:16:08.393795+00:00",
+        "quoted_fields": 2
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-22-preserved-work.json",
+        "sha256": "3ffa125dbc01cc837cd96c850e6cf978bb4c84a9abc5c71778d803e01870c098",
+        "bytes": 5793969
+      }
     }
   ],
   "source_page_observations": [
@@ -4130,19 +4263,97 @@
       "non_owning_section": "maso-1985-02-toc-0035",
       "restoration": "complete-article-assembly-exported",
       "excluded_panel": "Lower-right GR 타입의 숫자 쓰기 / 김승모 / Apple; independent contest, separate final accounting pending."
+    },
+    {
+      "pdf_page": 106,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0039"
+      ],
+      "printed_page": "104",
+      "source_title": "CP/M 입문",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "section_label_visible": true,
+      "restoration": "complete-article-exported"
+    },
+    {
+      "pdf_page": 107,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0039"
+      ],
+      "printed_page": "105",
+      "source_title": "CP/M 입문",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "section_label_visible": false,
+      "restoration": "complete-article-exported"
+    },
+    {
+      "pdf_page": 108,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0039"
+      ],
+      "printed_page": "106",
+      "source_title": "CP/M 입문",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "section_label_visible": true,
+      "restoration": "complete-article-exported"
+    },
+    {
+      "pdf_page": 109,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0039"
+      ],
+      "printed_page": "107",
+      "source_title": "CP/M 입문",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "section_label_visible": false,
+      "restoration": "complete-article-exported"
+    },
+    {
+      "pdf_page": 110,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0039"
+      ],
+      "printed_page": "108",
+      "source_title": "CP/M 입문",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "section_label_visible": true,
+      "restoration": "complete-article-exported"
+    },
+    {
+      "pdf_page": 111,
+      "classification": "full-page-advertisement",
+      "toc_entry_ids": [],
+      "printed_page": null,
+      "source_title": "구미전자",
+      "restoration": "excluded-unlisted-advertisement"
+    },
+    {
+      "pdf_page": 112,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0040"
+      ],
+      "printed_page": "110",
+      "source_title": "삼보 컴퓨터의 TG-WRITER",
+      "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-22",
-    "goal": "Verify canonical0039 CP/M 입문 actual extent from printed104/PDF106, including end and adjacent pages; restore in segments of at most six mapped pages.",
+    "id": "batch-23",
+    "goal": "Verify canonical0040 소프트웨어 리뷰 actual extent from printed110/PDF112 and restore within six mapped pages; segment if longer.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0039"
+      "maso-1985-02-toc-0040"
     ],
-    "mapping_targets": "Reuse saved PDF105/106. Inspect actual extent before mapping; subsequent TOC entries are lookup leads, not proof of a contiguous article. Preserve code, tables, diagrams and source discrepancies without program repair.",
+    "mapping_targets": "Opening PDF112/printed110 has source title 삼보 컴퓨터의 TG-WRITER. Reuse saved PDF111/112. Verify actual ending, continuations and adjacent pages before mapping; TOC successor is only a lookup lead.",
     "provisional_lookup_targets": [
-      105,
-      106
+      111,
+      112
     ],
     "limits": {
       "articles": 2,
@@ -4168,7 +4379,8 @@
     "Forth complete printed56–63/PDF58–65 retains48localized candidates andoneunknown caption dot-band count;all17diagram originals remain withindependent label transcription pending volunteers. No body pages orassembly pending. Use pinned private forth_literal checker/context;fullnative metadata andall561native files preserved. Human acceptance/encoding/technical claims remain unverified.",
     "산수 경주 complete64–76/PDF66–78 retains91localizedcandidates,461unknownencodedwhitespacebands,fouroriginalscreens andoneillustration;independent screenlabeltranscription pendingvolunteers. No bodypages orassemblypending. Use pinnedprivate math_race_literal checker/context;all474native files/fullmetadata preserved. Complete223BASIClabels/703BASICrows and165dump rows/1317literalbytes verified without execution orencodedbinary reconstruction. Humanacceptance/encoding/technicalclaims unverified.",
     "디지털 논리 회로 complete78–85/PDF80–87 retains51text/twoimage candidates,four unknown ellipsis counts,nine table groups/507indexed fields/89blank slots,twelve arithmetic panels andoriginal diagrams. Source 디지탈,printed formula/sentence errors,Ex-/culusive-OR,전가산기(half adder),prime positions andliteral truth cells remain. Independent diagram labels,human acceptance,encoded bytes,exact spacing andmath/technical claims unverified. No body pages orassembly pending. Use pinned private digital_logic_literal checker/context;all439native files/fullmetadata retained.",
-    "PASCAL/MT+ complete86–103/PDF88–105 retains126source candidates,eleven unknown symbol/ellipsis extents,2035unknown encoded-space bands andfour unknown vertical source-row counts. Lists1–12,87listing groups,581indexed code/output rows/575logical lines,33directory entries/99fields/three blanks,63assembly rows/158fields/94blanks,11labels/four storage rows,11constants/six array bounds andall original panels remain. Printed errors,duplicated Hanoi header,repeated WNCS,PROGRAMTEST,final declaration colon andsource numeric/technical claims remain literal. Independent compilation/stack diagram labels,human acceptance,encoded bytes,exact spacing andexecution unverified. No body pages orassembly pending. Use pinned private pascal_literal checker/context;all1068native files/fullmetadata retained. Final independent contest excluded."
+    "PASCAL/MT+ complete86–103/PDF88–105 retains126source candidates,eleven unknown symbol/ellipsis extents,2035unknown encoded-space bands andfour unknown vertical source-row counts. Lists1–12,87listing groups,581indexed code/output rows/575logical lines,33directory entries/99fields/three blanks,63assembly rows/158fields/94blanks,11labels/four storage rows,11constants/six array bounds andall original panels remain. Printed errors,duplicated Hanoi header,repeated WNCS,PROGRAMTEST,final declaration colon andsource numeric/technical claims remain literal. Independent compilation/stack diagram labels,human acceptance,encoded bytes,exact spacing andexecution unverified. No body pages orassembly pending. Use pinned private pascal_literal checker/context;all1068native files/fullmetadata retained. Final independent contest excluded.",
+    "CP/M 입문 complete104–108/PDF106–110 retains46localized candidates,eight unknown symbol/dot bands and265unknown encoded-space bands. Source ASID,/ CPM,RSS38,B/2,SDT/SPT,36D/32sectors,ALO/0,1928,l2,r0addresses andbyte-order claims remain literal. Sixty-three assembly rows/185fields/four blanks include two address-only rows;52dump bytes retain FFB0/FA80 andliteral count disagreements. Numeric output6/15/20fragments remain incomplete as printed. Nine data rows/40table cells include four headers andallphysical cell wraps;five BASIC labels/two quoted fields preserved. Human acceptance,source bytes,execution,exact spacing andtechnical claims unverified. No body pages orassembly pending; following advertisement excluded."
   ],
   "reader_rebuild": false
 }
