@@ -731,9 +731,38 @@ paired OCR or a new engine comparison.
   execution and contact validity remain unverified. No reader rebuild.
   Current totals: 32 readable, no partial articles, four non-owning headings and 20 unresolved.
 
-  Next: review 공모 입상0042 and restore 공모 총평0043 from printed183/PDF185 in
-  batch43. Verify actual boundaries using PDF184–186 and classify the parent only
-  from source evidence. Parent 정보모음0008, cover selection, remaining page accounting
+  Batch43 completes 공모 총평0043, source headline 새학기 준비, on printed183/PDF185
+  at `archive/pdf/1985-02/packages/batch-43-r01/competition-review`. All 34 files match
+  its independent rebuild; 706 exact UTF-8 ranges, 780 evidence pins and eight image
+  crops pass. Two columns retain 59 prose rows and their continuation. Three other
+  text rows, seven paragraph segments, 57 physical row boundaries, three quoted titles
+  and seven historical award/software claims remain source-linked.
+
+  The winners table retains four headers and twenty data cells in six serialized
+  rows, with every repeated value linked to its own occurrence. Pipes are editorial
+  cell separators; the original table and full page remain available. Fifteen source
+  candidates include the contributor-name glyph 록 (raw OCR 목); six quote glyphs
+  remain Unicode approximations. Historical wording, names, award counts and claims
+  remain literal. The TOC credit 편집부 is not inserted as an unprinted body byline.
+
+  Parent0042 공모 입상 is now non-owning: source openings on PDF185,186,198 show its
+  three independently titled children under review, top-prize and prize section labels.
+  All canonical identities and three child links remain unchanged. The preceding
+  PDF184 monthly recruitment notice remains independently owned.
+
+  All eight crops were reviewed before six kor+eng tasks; all drafts were read before
+  one source pass. No crop repair, OCR failure or retry. Two preparation failures are
+  retained: unsupported map kind, then PNG-byte comparison corrected to decoded pixels.
+  Both stopped before OCR. All 42,211 prior files and 30 implementation pins remain
+  exact; the unchanged 213-test baseline is reused. Preservation inventory: 42,383 files.
+  Human acceptance, full proofreading, source bytes, spacing and historical claims
+  remain unverified. No reader rebuild.
+  Current totals: 33 readable, no partial articles, five non-owning headings and 18 unresolved.
+
+  Next: verify the full extent of 전학년 성적 처리 프로그램0044 from printed184/PDF186
+  and restore its first segment in batch44, mapping at most six pages. Candidate extent
+  is PDF186–197, before the verified timetable opening on PDF198; continuity and ending
+  still require review. Parent 정보모음0008, cover selection, remaining page accounting
   and issue closeout remain pending.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37

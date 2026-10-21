@@ -3332,23 +3332,77 @@
       "toc_entry_id": "maso-1985-02-toc-0042",
       "title": "공모 입상",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "PDF184 is a separate monthly competition recruitment notice, not a body for the TOC parent 공모 입상. PDF186 independently begins canonical0044 전학년 성적처리 프로그램 under 프로그램공모 최우수상. PDF198 independently begins0045 시간표작성 프로그램 under 프로그램공모 우수상.",
+        "Canonical0042 is a pageless organizational heading grouping review0043 and two award-winning program articles0044/0045. The three distinct openings and differentiated section labels establish child ownership; no standalone parent body or divider is invented. All three canonical child links remain unchanged."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-02/restoration/batch-43/heading-classification.json",
+        "sha256": "ec3370c04b9379531dd88e0b7cffbeeeb13245085a26bfe85737de958e13604c",
+        "bytes": 2319
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0043",
       "title": "공모 총평",
       "parent_id": "maso-1985-02-toc-0042",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0043 공모 총평 owns whole printed183/PDF185, source section 프로그램공모 총평 and headline 새학기 준비. Two prose columns end with 하는 바램이다.; the five-row table 2월호 공모 입선작 belongs to the same page. No review continuation.",
+        "PDF184 is a separate monthly competition recruitment notice, not a body for the TOC parent 공모 입상. PDF186 independently begins canonical0044 전학년 성적처리 프로그램 under 프로그램공모 최우수상. PDF198 independently begins0045 시간표작성 프로그램 under 프로그램공모 우수상.",
+        "Canonical0042 is a pageless organizational heading grouping review0043 and two award-winning program articles0044/0045. The three distinct openings and differentiated section labels establish child ownership; no standalone parent body or divider is invented. All three canonical child links remain unchanged.",
+        "One mappedpage185,three outsideviews184/186/198,two canonicaltasks0042/0043. Three existing renders reused andone new lookup render. No mapping/OCR of child0044/0045 or the independent notice."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-43-r01/competition-review",
+        "article_id": "scan-maso-1985-02-toc-0043",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-43-r01/competition-review/manifest.json",
+          "sha256": "dc2bbca270f2911680569f4a99d06e271e5df4398110fbd48a663826e2eeb13e",
+          "bytes": 5479
+        },
+        "coverage": {
+          "pdf_pages": [
+            185
+          ],
+          "printed_pages": [
+            "183"
+          ],
+          "regions": 8,
+          "blocks": 6,
+          "figures": 2,
+          "physical_text_rows": 62,
+          "physical_prose_rows": 59,
+          "table_serialization_rows": 6,
+          "tables": 1,
+          "table_cells": 24,
+          "prose_column_connections": 1,
+          "caption_links": 1
+        },
+        "full_pdf_pages": [
+          185
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-43/validation.json",
+          "sha256": "941027d2fdb7bbe9fc0217870e298e71450e780f9131b57d6d33578174e0ee55",
+          "bytes": 1909
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-43/reproduction.json",
+          "sha256": "b869d65c85342cb0fd0a2bc500ae1e609c6790af491ff06477f792117376834b",
+          "bytes": 1555
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0044",
@@ -3496,10 +3550,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 32,
+    "readable": 33,
     "partial": 0,
-    "non_owning_headings": 4,
-    "unresolved_eligibility": 20
+    "non_owning_headings": 5,
+    "unresolved_eligibility": 18
   },
   "checkpoints": [
     {
@@ -6901,6 +6955,67 @@
         "sha256": "730b5d0ddc63696a13a655db5ce100d8621b7f075771b431a0d4c03c3c477623",
         "bytes": 9415054
       }
+    },
+    {
+      "id": "batch-43",
+      "status": "complete-article-and-nonowning-heading",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0042",
+        "maso-1985-02-toc-0043"
+      ],
+      "mapped_pdf_pages": [
+        185
+      ],
+      "outside_map_lookup_pages": [
+        184,
+        186,
+        198
+      ],
+      "canonical_tasks": 2,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-43/validation.json",
+        "sha256": "941027d2fdb7bbe9fc0217870e298e71450e780f9131b57d6d33578174e0ee55",
+        "bytes": 1909
+      },
+      "stats": {
+        "completed_at": "2026-10-21T11:49:25.439129+00:00",
+        "stats": {
+          "regions": 8,
+          "blocks": 6,
+          "figures": 2,
+          "physical_text_rows": 62,
+          "physical_prose_rows": 59,
+          "table_serialization_rows": 6,
+          "tables": 1,
+          "table_cells": 24,
+          "table_cell_lines": 24,
+          "source_candidates": 15,
+          "typographic_approximations": 6,
+          "quoted_titles": 3,
+          "physical_wraps": 57,
+          "prose_column_connections": 1,
+          "paragraphs": 7,
+          "caption_links": 1,
+          "source_claims": 7,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            185
+          ],
+          "deferred_pdf_pages": []
+        },
+        "source_passes": 1,
+        "ocr_tasks": 6,
+        "eng_code_tasks": 0,
+        "kor_eng_tasks": 6,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-43-preserved-work.json",
+        "sha256": "572a97ba0bde2b00e14a5e4785d944418ee2eba06094011d5cc39f7e04fe865a",
+        "bytes": 9452193
+      }
     }
   ],
   "source_page_observations": [
@@ -8671,18 +8786,18 @@
       "toc_entry_ids": [],
       "source_title": "매월 소프트웨어 공모",
       "restoration": "outside-current-checkpoint;pending-eligibility-or-restoration-review",
-      "ownership_note": "Boundary-only source observation; no canonical entry classification changed. Exactsourceheading corrects earlier 이달의 label; original batch39 observation remains preserved."
+      "ownership_note": "Independent monthly competition recruitment notice, outside parent0042 andreview0043 bodyownership. Original sourceheadline correction retained; final issue page accounting remains pending."
     },
     {
       "pdf_page": 185,
       "printed_page": "183",
-      "classification": "canonical-start-lookup",
+      "classification": "canonical-article",
       "toc_entry_ids": [
         "maso-1985-02-toc-0043"
       ],
       "source_title": "새학기 준비",
-      "restoration": "outside-current-checkpoint;pending-eligibility-or-restoration-review",
-      "ownership_note": "Boundary-only source observation; no canonical entry classification changed."
+      "restoration": "complete-article-exported",
+      "ownership_note": "Complete one-page review0043 owns headline,two prosecolumns,winners table andfulloriginal. Parent0042 is a non-owning group with three unchanged children; no duplicated parentbody."
     },
     {
       "pdf_page": 186,
@@ -8691,26 +8806,49 @@
       "toc_entry_ids": [
         "maso-1985-02-toc-0044"
       ],
-      "source_title": "전학년 성적처리",
+      "source_title": "전학년 성적처리 프로그램",
       "restoration": "outside-current-checkpoint;pending-eligibility-or-restoration-review",
-      "ownership_note": "Boundary-only source observation; no canonical entry classification changed."
+      "ownership_note": "Independent canonical0044 opening under non-owning parent0042; bodyrestoration andfull extent review remain pending.",
+      "section_title": "프로그램공모 최우수상"
+    },
+    {
+      "pdf_page": 198,
+      "printed_page": "196",
+      "classification": "canonical-start-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0045"
+      ],
+      "source_title": "시간표작성 프로그램",
+      "section_title": "프로그램공모 우수상",
+      "restoration": "outside-current-checkpoint;pending-restoration",
+      "ownership_note": "Third independent child of non-owning0042; opening reviewed for heading ownership only. No map orOCR; complete extent pending."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-43",
-    "goal": "Verify and restore 공모 총평0043 from printed183/PDF185; classify parent 공모 입상0042 only after source ownership review.",
+    "id": "batch-44",
+    "goal": "Verify full extent of 전학년 성적 처리 프로그램0044 from printed184/PDF186 and restore its first bounded segment.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0042",
-      "maso-1985-02-toc-0043"
+      "maso-1985-02-toc-0044"
     ],
-    "mapping_targets": "Review saved PDF184–186 for actual review opening, ending and relation to the independent monthly competition notice and following prize-winning program. Map only verified review extent within six-page limit.",
+    "mapping_targets": "Inspect candidate printed184–195/PDF186–197 and boundary185/198, then map at most six source pages, provisionally186–191. Retain all code rows, labels, tables, figures and source irregularities.",
     "provisional_lookup_targets": [
-      184,
       185,
-      186
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198
     ],
-    "boundary_review": "Do not assume TOC page boundaries prove extent. Verify whether0042 is a non-owning heading or owns a distinct body; preserve all canonical identities and three child links. No further contest child remains unresolved.",
+    "boundary_review": "PDF186 opening andPDF198 independent timetable opening are verified; intervening continuity and actual ending require source review. Do not infer extent from TOC offsets. If longer than six pages, preserve immutable segments and assemble separately before readable promotion.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -8750,7 +8888,8 @@
     "Batch39 completes 프린터 마스터0041 on176–181/PDF178–183. Fullsixpages,447assemblyordinals0000–0446 in468physicalcoderows,21unnumberedobjectcontinuations,773literalobjectbytes,2144fields/1132blanks,two tables26cells35celllines,sixboxedkeys14commands15wraps retained. Final0446 E305 semicolon supersedes preliminary address-only note; originals retained. No END invented. Shared181contest0023 excluded. Thirty-eight candidates,two inkmarks,eleven unknownbandcounts,19Unicodeapproximations and1743unknownspacebands retain originals. Korean year/month inDEFM remains independent ofprinted objectbytes; no syntax/byte/address/grammar/technical repair. Humanacceptance,fullproofreading,encodedbytes,spacing,execution andclaims unverified. Parent0008 unchanged.",
     "Batch40 completes conversioncontest0023 on181/PDF183 andclassifies parent0019 asnon-owning repeated1-LINE 콘테스트 우수작 heading. Allfour canonicalchildren andlinks retained; otherthreecontestbodies remain unresolved. Completepanel,seventext/image regions,sixblocks14physicalrows retainone BASIC label1,ninecoderows,eightwraps,threequotedstrings15statements,author박문길,platform애플컴패티블 andhistoricaladdress길음3동126-27. Numeric409/6 andquotedN/0(10)? physicalwraps stayliteral;0/O/Q promptcandidateexplicit. Eightcandidates,eightUnicodeapproximations and67unknownspacebands retain scans. Printer0041 completepackage unchanged andsource-disjoint. Humanacceptance/fullproofreading,encodedbytes,spacing,execution andcontactvalidity unverified. ExactPDF184heading매월 corrects prior이달의 activeobservation only; original preserved.",
     "Batch41 completes GRcontest0020 on103/PDF105 andpanorama0021 on133/PDF135. Bothcompleteindependentpanels match priorPASCAL/music exclusions andretain originals. Combined12blocks27physicaltextrows include17coderows/twoBASIClabels1,15wraps,threequotedstrings32colonstatementgroups,two branchtargets andsixsplitfields. GRliteral50digitstring retains4/28/18digitfragments andB/$,GOTO/1 wraps;twoquotedblankbands remainunknowncounts withwiderW$ gap noted. Panorama retainsIMOD/6,Y=Y/+K,THEN T/HENwrap,NEXTELSENEXT andcompactkeywords withoutsyntaxrepair. Twenty-one candidates,30Unicodeapproximations and80unknownspacebands retain originals. Historicalauthors/addresses/platforms literal;humanacceptance,fullproofreading,sourcebytes,spacing,execution andcontactvalidity unverified. Heading0019 andallfourchildlinks unchanged;0022 stillunresolved.",
-    "Batch42 completes 추종자0022 on158/PDF160. Complete independent panel exactly matches MLE contest158 exclusion. Twelve physical text rows include seven BASIC rows, sole numeric label1, sixwraps, twoquotedstrings, thirteen lexical colon groups and symbolic LABEL/GOTO C. PEE/K,AM/OD99 and quoted-label wraps preserved. Square brackets in both CIRCLE groups and6^6 carets remain literal; no arithmetic orsyntax repair. Ten localized candidates, eleven Unicode approximations andone unknown encoded-space band retain scans. Historicalcredit/platform/address literal. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andcontactvalidity unverified. Allfour contestchildren nowreadable; non-owningheading0019 unchanged."
+    "Batch42 completes 추종자0022 on158/PDF160. Complete independent panel exactly matches MLE contest158 exclusion. Twelve physical text rows include seven BASIC rows, sole numeric label1, sixwraps, twoquotedstrings, thirteen lexical colon groups and symbolic LABEL/GOTO C. PEE/K,AM/OD99 and quoted-label wraps preserved. Square brackets in both CIRCLE groups and6^6 carets remain literal; no arithmetic orsyntax repair. Ten localized candidates, eleven Unicode approximations andone unknown encoded-space band retain scans. Historicalcredit/platform/address literal. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andcontactvalidity unverified. Allfour contestchildren nowreadable; non-owningheading0019 unchanged.",
+    "Batch43 completes 공모 총평0043 on183/PDF185, sourceheadline 새학기 준비, andclassifies pageless parent0042 공모 입상 asnon-owning withthreeunchangedchildren0043–0045. Review retains59prose rows/two columns/one continuation,threeothertextrows,sixserializedtablerows withfourheaders/twentydata cells,sevenparagraphsegments,57physicalrowboundaries,threequotedtitles andsevenliteralaward/softwareclaims. Fifteen sourcecandidates retain historicalspelling/names,including 이 은 록 glyph candidate; sixUnicodequoteapproximations. Tablepipes areeditorial; originaltable andwholepage retained. TOC편집부 not insertedasbodybyline. Humanacceptance,fullproofreading,encodedbytes,spacing andclaims unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
