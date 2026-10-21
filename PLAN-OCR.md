@@ -916,12 +916,39 @@ paired OCR or a new engine comparison.
   timetable_literal.py checker/context and reproduction.json for rebuild andissue closeout.
   Current totals: 35 readable, no partial articles, five non-owning headings and16 unresolved.
 
-  Next: verify 애플 클럭0047 from printed204/PDF206, including its actual ending and
-  adjacent material, then restore within six mapped pages as batch48. Review pageless
-  parent0046 테크닉의 극치 ownership from source while preserving both child identities.
-  TOC next child0048 printed210 is a lookup lead, not proof ofa global folio offset or
-  article extent. Parent 정보모음0008,cover selection,remaining page accounting andissue
-  closeout remain pending. No reader rebuild.
+  Batch48 completes 애플 클럭0047 on printed204–208/PDF206–210 at
+  `archive/pdf/1985-02/packages/batch-48-r01`. All 181 files match its independent
+  rebuild; 12,874 exact UTF-8 ranges, 13,015 evidence pins and 49 images pass.
+  Four BASIC programs and one POKE example retain 262 physical rows, 135 labels,
+  127 wraps, 58 quoted strings, 371 lexical statements and 49 DATA fields. List1
+  retains 30 dump rows/240 byte fields, including the literal dot in0318. Three
+  same-line joins preserve list3/1020, list4/145 and list5/150 across columns/pages.
+  The address table retains 16 logical rows, 62 cells, five header cells and two
+  cells spanning1002–1003. Six captions, three prose joins, two original circuit
+  diagrams and five complete pages retain their source associations. Printed
+  $2E0/$2E1, 34Hz/68Hz/1/64, prose14minutes versus POKE15, 로시시켜, TRU, MULTY,
+  leading-zero03 and 클럭장치 remain literal. Q/O/0 and D0/DO candidates remain
+  explicit. Two unknown space bands, one dot band and one faint terminal letter
+  remain visible; 38 source candidates, seven Unicode approximations and 2,335
+  unknown encoded-space bands retain their scans. Circuit-label transcription,
+  human acceptance, full proofreading, source bytes, claims and execution remain
+  unverified. All49 original/one widened crops preceded41 OCR tasks (12 eng/29 kor+eng);
+  all drafts preceded one source pass. No OCR failure/retry. Original transcripts
+  and the focused table/glyph revision remain preserved. All45,832 prior files and
+  30 implementation pins pass; the new46,627-file preservation inventory is exact.
+  The unchanged213-test baseline is reused. No reader rebuild.
+  Parent0046 테크닉의 극치 is non-owning, with both canonical children0047/0048
+  unchanged. The printed 테크니컬 banner does not replace the canonical title.
+  FollowingPDF211 is a separate publisher notice/ad; PDF212 starts0048, with
+  continuation213 reviewed only for ownership. No parent body or divider is invented.
+  Current totals: 36 readable, no partial articles, six non-owning headings and14 unresolved.
+
+  Next: verify the full extent of 마이크로 컴퓨터 설계 강좌0048 from printed210/PDF212,
+  source chapter8 A/D변환기의 접속, then restore its first six-page segment as batch49.
+  Reuse the reviewed opening212–213 and inspect the actual ending/following article;
+  next TOC entry0049 printed222 is a lookup lead, not an inferred boundary. Preserve
+  all circuit/table/listing content and continuations. Parent 정보모음0008, cover
+  selection, remaining page accounting and issue closeout remain pending.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is

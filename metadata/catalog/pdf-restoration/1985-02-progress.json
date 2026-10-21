@@ -3897,23 +3897,104 @@
       "toc_entry_id": "maso-1985-02-toc-0046",
       "title": "테크닉의 극치",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Parent0046 테크닉의 극치 is a pageless canonical section with two unchangedchildren0047/0048. Both source articles use테크니컬 banner,withdistincttitles/bylines andseparate bodies; no standalone parentbody/divider betweenprecedingad205 andcurrent/nextarticle. Classifyparent asnon-owning fromhierarchy andsource,without renamingcanonicaltitle tobanner.",
+        "Both child articles haveindependenttitle/byline andbody; interveningPDF211 ispublishernotice/ad. Canonicalpageless title테크닉의 극치 remains distinct fromprintedbanner테크니컬. No standaloneparentbody orduplicate childcontent invented."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-02/restoration/batch-48/heading-classification.json",
+        "sha256": "1f698f37d64f0ed9f1c7d166757a34f20f6d81fca000526f4a393cfa0fadb259",
+        "bytes": 2380
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0047",
       "title": "애플 클럭",
       "parent_id": "maso-1985-02-toc-0046",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0047 opens printed204/PDF206 with source title애플 클럭 anddeck2500원의 가격으로 애플에 클럭을 붙일 수 있다.; platform애플컴패티블 andcredit천 인 욱 appear205/PDF207.",
+        "Actual full extent is five pages204–208/PDF206–210. Firsttwo pages containprose,address table,two original circuits andsix-line POKE example. List1 is a three-column monitor dump; lists2–5 arefour independent BASIC programs. List5 final6500 END on208 endsarticle.",
+        "PDF205 is independent상진전산 advertisement. FollowingPDF211 containsindependent upper tape-sales publisher notice andlower보라바이컴 ad,neither belongs tothis article. PDF212 opensnextcanonical0048 마이크로 컴퓨터 설계강좌,chapter8 A/D변환기의 접속;PDF213 continuesit.",
+        "Parent0046 테크닉의 극치 is a pageless canonical section with two unchangedchildren0047/0048. Both source articles use테크니컬 banner,withdistincttitles/bylines andseparate bodies; no standalone parentbody/divider betweenprecedingad205 andcurrent/nextarticle. Classifyparent asnon-owning fromhierarchy andsource,without renamingcanonicaltitle tobanner.",
+        "Currentmap includesonlyfive pages206–210. Nine whole-page views205–213 reviewed;outside-maplookups205/211/212/213,twocanonicaltasks0046/0047. No sharedunrelated material onownedpages;noexclusions.",
+        "Prosecontinues204left50번/204middle핀,204middle입력되어/204right1번,204right인터럽트를 건/205left후. List3 line1020 continuesleft→right at3: HPLOT;list4 line145 crosses207→208 atH’ KE/Y;list5 line150 continues208left→right atTL/$,MX. Printedcommands,numericdiscrepancies,spelling andquoted-space widths remainliteral.",
+        "Address table preservesall16 source address rows,header groups,blankfunction cells andmultiline alarm-mode description; originaltable retained. Two uncaptioned circuit diagrams remainoriginal; prose그림2 association retainedwithoutinventedcaption. Independentdiagramlabel transcription pendingvolunteers."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-48-r01",
+        "article_id": "scan-maso-1985-02-toc-0047",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-48-r01/manifest.json",
+          "sha256": "4c1f2c459735fb09c2cd6019e0906619fd7a1f860e1ce4450ac28e8e4b6097e9",
+          "bytes": 30163
+        },
+        "coverage": {
+          "pdf_pages": [
+            206,
+            207,
+            208,
+            209,
+            210
+          ],
+          "printed_pages": [
+            "204",
+            "205",
+            "206",
+            "207",
+            "208"
+          ],
+          "regions": 49,
+          "blocks": 41,
+          "figures": 8,
+          "physical_text_rows": 390,
+          "table_serialization_rows": 24,
+          "physical_transcript_rows": 414,
+          "physical_code_rows": 292,
+          "basic_physical_rows": 262,
+          "basic_labels": 135,
+          "basic_wraps": 127,
+          "basic_quoted_strings": 58,
+          "basic_statements": 371,
+          "basic_data_fields": 49,
+          "dump_rows": 30,
+          "dump_bytes": 240,
+          "tables": 1,
+          "table_cells": 62,
+          "table_header_cells": 5,
+          "table_spanning_cells": 2,
+          "prose_continuations": 3,
+          "same_line_listing_joins": 3,
+          "caption_links": 6
+        },
+        "full_pdf_pages": [
+          206,
+          207,
+          208,
+          209,
+          210
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-48/validation.json",
+          "sha256": "1ab32fb7b27c122c335d454dae57eb436ad87219cf6ba7e250288df88ba38871",
+          "bytes": 2071
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-48/reproduction.json",
+          "sha256": "a24ee1a01b7126e59eba91a4aaefb13edc61c1991eb685f42e9a82d04d4a4836",
+          "bytes": 1732
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0048",
@@ -4017,10 +4098,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 35,
+    "readable": 36,
     "partial": 0,
-    "non_owning_headings": 5,
-    "unresolved_eligibility": 16
+    "non_owning_headings": 6,
+    "unresolved_eligibility": 14
   },
   "checkpoints": [
     {
@@ -7915,6 +7996,90 @@
         "sha256": "63caf51a0513af10da7db085734a09d1fd63c6f5390a0ae4376546b36c15083f",
         "bytes": 10223214
       }
+    },
+    {
+      "id": "batch-48",
+      "status": "complete-article-and-nonowning-heading",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0046",
+        "maso-1985-02-toc-0047"
+      ],
+      "mapped_pdf_pages": [
+        206,
+        207,
+        208,
+        209,
+        210
+      ],
+      "outside_map_lookup_pages": [
+        205,
+        211,
+        212,
+        213
+      ],
+      "canonical_tasks": 2,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-48/validation.json",
+        "sha256": "1ab32fb7b27c122c335d454dae57eb436ad87219cf6ba7e250288df88ba38871",
+        "bytes": 2071
+      },
+      "stats": {
+        "completed_at": "2026-10-21T13:44:36.570772+00:00",
+        "stats": {
+          "regions": 49,
+          "blocks": 41,
+          "figures": 8,
+          "physical_text_rows": 390,
+          "table_serialization_rows": 24,
+          "physical_transcript_rows": 414,
+          "physical_code_rows": 292,
+          "basic_physical_rows": 262,
+          "basic_label_occurrences": 135,
+          "basic_wraps": 127,
+          "basic_quoted_strings": 58,
+          "basic_quote_delimiters": 116,
+          "basic_statements": 371,
+          "basic_data_fields": 49,
+          "listing_groups": 6,
+          "dump_rows": 30,
+          "dump_bytes": 240,
+          "internal_listing_joins": 6,
+          "same_line_listing_joins": 3,
+          "tables": 1,
+          "table_logical_rows": 16,
+          "table_cells": 62,
+          "table_header_cells": 5,
+          "table_spanning_cells": 2,
+          "prose_references": 12,
+          "continuations": 3,
+          "caption_links": 6,
+          "source_candidates": 38,
+          "unknown_markers": 4,
+          "typographic_approximations": 7,
+          "unknown_space_bands": 2335,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            206,
+            207,
+            208,
+            209,
+            210
+          ],
+          "deferred_pdf_pages": []
+        },
+        "source_passes": 1,
+        "ocr_tasks": 41,
+        "eng_code_tasks": 12,
+        "kor_eng_tasks": 29,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 1
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-48-preserved-work.json",
+        "sha256": "c109ecbdcaaf856f2cbf06cfc1b4bff09a0c5a7e4beac1aefbbd9a553017a66e",
+        "bytes": 10394049
+      }
     }
   ],
   "source_page_observations": [
@@ -9903,36 +10068,112 @@
     {
       "pdf_page": 206,
       "printed_page": "204",
-      "classification": "canonical-start-lookup",
+      "classification": "canonical-article",
       "toc_entry_ids": [
         "maso-1985-02-toc-0047"
       ],
       "source_title": "애플 클럭",
+      "restoration": "complete-apple-clock-article-exported",
+      "ownership_note": "Canonical0047 owns allfive pages204–208/PDF206–210;prose,address table,two circuits,list1 dump,lists2–5 BASIC andPOKE example complete. Parent0046 non-owning.",
+      "section_title": "테크니컬"
+    },
+    {
+      "pdf_page": 207,
+      "printed_page": "205",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0047"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-apple-clock-article-exported",
+      "ownership_note": "Canonical0047 owns allfive pages204–208/PDF206–210;prose,address table,two circuits,list1 dump,lists2–5 BASIC andPOKE example complete. Parent0046 non-owning."
+    },
+    {
+      "pdf_page": 208,
+      "printed_page": "206",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0047"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-apple-clock-article-exported",
+      "ownership_note": "Canonical0047 owns allfive pages204–208/PDF206–210;prose,address table,two circuits,list1 dump,lists2–5 BASIC andPOKE example complete. Parent0046 non-owning."
+    },
+    {
+      "pdf_page": 209,
+      "printed_page": "207",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0047"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-apple-clock-article-exported",
+      "ownership_note": "Canonical0047 owns allfive pages204–208/PDF206–210;prose,address table,two circuits,list1 dump,lists2–5 BASIC andPOKE example complete. Parent0046 non-owning."
+    },
+    {
+      "pdf_page": 210,
+      "printed_page": "208",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0047"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-apple-clock-article-exported",
+      "ownership_note": "Canonical0047 owns allfive pages204–208/PDF206–210;prose,address table,two circuits,list1 dump,lists2–5 BASIC andPOKE example complete. Parent0046 non-owning."
+    },
+    {
+      "pdf_page": 211,
+      "printed_page": null,
+      "classification": "publisher-notice-and-advertisement",
+      "toc_entry_ids": [],
+      "restoration": "outside-current-checkpoint;pending-final-accounting",
+      "ownership_note": "Upper테이프 판매는 중단합니다 publishernotice andlower보라바이컴 ad areindependent ofApple clock. Finalissue page accounting pending."
+    },
+    {
+      "pdf_page": 212,
+      "printed_page": "210",
+      "classification": "canonical-start-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
       "restoration": "outside-current-checkpoint;pending-restoration",
-      "ownership_note": "Independent opening under테크니컬; used only as timetable ending boundary lookup. Canonical0046 eligibility unchanged."
+      "ownership_note": "Distinct마이크로 컴퓨터 설계강좌 opening,제8장 A/D변환기의 접속,김덕우. Fullarticleextent andrestoration pending.",
+      "source_title": "마이크로 컴퓨터 설계강좌",
+      "section_title": "테크니컬"
+    },
+    {
+      "pdf_page": 213,
+      "printed_page": "211",
+      "classification": "canonical-continuation-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "restoration": "outside-current-checkpoint;pending-restoration",
+      "ownership_note": "Continuationof0048 with서언,A/D변환기 prose andtwo originaldiagrams;nomapping/OCR thischeckpoint."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-48",
-    "goal": "Verify canonical0047 애플 클럭 actual extent from printed204/PDF206, restore within six mapped pages, and review pageless parent0046 테크닉의 극치 ownership without altering canonical identities.",
+    "id": "batch-49",
+    "goal": "Verify full extent of canonical0048 마이크로 컴퓨터 설계 강좌, sourcechapter8 A/D변환기의 접속, from printed210/PDF212 andrestore its first bounded segment.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0046",
-      "maso-1985-02-toc-0047"
+      "maso-1985-02-toc-0048"
     ],
-    "mapping_targets": "Provisional PDF206–211 only after source coverage and actual full extent review. If longer, defer additional pages to a separate checkpoint and assembly.",
+    "mapping_targets": "Provisional PDF212–217 opening only after full extent andsource coverage review; laterbodypages require separate checkpoints andimmutable assembly.",
     "provisional_lookup_targets": [
-      205,
-      206,
-      207,
-      208,
-      209,
-      210,
       211,
       212,
-      213
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225
     ],
-    "boundary_review": "Reuse reviewed PDF205 independent advertisement and PDF206 Apple clock opening. Verify all proposed body pages and actual ending/following article; next TOC child0048 begins printed210 as a lookup lead, not proof of ending or global folio offset. Determine whether parent0046 is a non-owning heading from source and canonical hierarchy; preserve both child relationships. Keep prose,assembly ordinals,addresses,byte fields,hardware diagrams,tables andcaptions literal; no syntax or circuit repair, execution, or diagram reconstruction.",
+    "boundary_review": "Reuse reviewedPDF211 independentpublishernotice/ad and212–213 actualarticleopening. Canonicalnext0049 알려지지 않은 Z80 명령어 printed222 islookup lead,notproof ofglobaloffset orcurrentending. Verify interveningpages andactualfollowingarticle,allcircuit/table/listing/caption ownership andcontinuations. Preserve printedtechnical claims,code,arithmetic andsource spelling; no circuit repair orprogram execution. Parent0046 remainsnon-owning withtwo unchangedchildren.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -9975,7 +10216,8 @@
     "Batch42 completes 추종자0022 on158/PDF160. Complete independent panel exactly matches MLE contest158 exclusion. Twelve physical text rows include seven BASIC rows, sole numeric label1, sixwraps, twoquotedstrings, thirteen lexical colon groups and symbolic LABEL/GOTO C. PEE/K,AM/OD99 and quoted-label wraps preserved. Square brackets in both CIRCLE groups and6^6 carets remain literal; no arithmetic orsyntax repair. Ten localized candidates, eleven Unicode approximations andone unknown encoded-space band retain scans. Historicalcredit/platform/address literal. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andcontactvalidity unverified. Allfour contestchildren nowreadable; non-owningheading0019 unchanged.",
     "Batch43 completes 공모 총평0043 on183/PDF185, sourceheadline 새학기 준비, andclassifies pageless parent0042 공모 입상 asnon-owning withthreeunchangedchildren0043–0045. Review retains59prose rows/two columns/one continuation,threeothertextrows,sixserializedtablerows withfourheaders/twentydata cells,sevenparagraphsegments,57physicalrowboundaries,threequotedtitles andsevenliteralaward/softwareclaims. Fifteen sourcecandidates retain historicalspelling/names,including 이 은 록 glyph candidate; sixUnicodequoteapproximations. Tablepipes areeditorial; originaltable andwholepage retained. TOC편집부 not insertedasbodybyline. Humanacceptance,fullproofreading,encodedbytes,spacing andclaims unverified. No readerrebuild.",
     "Grade-processing0044 is complete across printed184–195/PDF186–197. Both immutable natives/all263files/fullmetadata retained. Complete indexes retain828 physical textrows plus89 table serializationrows,431 BASIC rows/296labels/135wraps/177quotes/668statements,two listings,three captions,five tables67rows/134cells/157fragments,43 printed line references/81 exact endpoints,16 compilationsteps skipping10,seven menuoptions and11 continuations. All82 external associations resolve; original wrappers remain exact. Seventy-three source candidates,eight unknown bands,one ellipsis-count uncertainty,116 Unicode approximations and3217 unknown encoded-space bands remain. BASOCM.COM,772085,ENGLI,FISRT,DSKETTE,횟수을,caption성적을 화면 andsource order⑤⑥ remain literal. Internal originalprintout label/data transcription pendingvolunteers; humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. Independent publisher notice onPDF189 excluded. No body pages or assembly pending. Use pinned grades_literal checker/context; no reader rebuild.",
-    "Timetable0045 is complete across printed196–202/PDF198–204. Both immutable natives/all256 files/fullmetadata retained. Complete indexes retain506 physical text rows plus76 serialized table rows,331 BASIC rows/111 label occurrences/104 distinct labels/220 wraps,168 quotedstrings/456 lexicalcolon groups,50 dump rows/400 byte fields,six tables74rows/148cells/four brace groups,15 boxedkeys/seven menuoptions,five continuations andfive captions. Incoming1007 physical fragments andinheritedlist1caption resolve; every native wrapper remains exact. Seven0 comments/two130 labels,missing159/180 andambiguous130 references remain literal. Source memory bound56C9 remains independent ofdump end56D2. Fifty-seven sourcecandidates,56 visible unknown markers,144 Unicodeapproximations and1616 encoded-space bands remain. Original three output-panel internal label/data transcription pendingvolunteers; humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. No body pages orassembly pending. Use pinned timetable_literal checker/context; no reader rebuild."
+    "Timetable0045 is complete across printed196–202/PDF198–204. Both immutable natives/all256 files/fullmetadata retained. Complete indexes retain506 physical text rows plus76 serialized table rows,331 BASIC rows/111 label occurrences/104 distinct labels/220 wraps,168 quotedstrings/456 lexicalcolon groups,50 dump rows/400 byte fields,six tables74rows/148cells/four brace groups,15 boxedkeys/seven menuoptions,five continuations andfive captions. Incoming1007 physical fragments andinheritedlist1caption resolve; every native wrapper remains exact. Seven0 comments/two130 labels,missing159/180 andambiguous130 references remain literal. Source memory bound56C9 remains independent ofdump end56D2. Fifty-seven sourcecandidates,56 visible unknown markers,144 Unicodeapproximations and1616 encoded-space bands remain. Original three output-panel internal label/data transcription pendingvolunteers; humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. No body pages orassembly pending. Use pinned timetable_literal checker/context; no reader rebuild.",
+    "Batch48 completes Appleclock0047 printed204–208/PDF206–210 andclassifiespageless0046 asnon-owning withtwo unchangedchildren0047/0048. Four BASICprograms andonePOKEexample retain262physicalrows/135labels/127wraps/58quotes/371lexicalstatements/49DATAfields. List1 retains30dump rows/240bytefields andliteral0318 dot. Address table retains16logicalrows/62cells/fiveheadercells/twoshared1002–1003cells. Threeprosejoins,three same-lineBASICjoins,sixcaptionlinks,two originalcircuits andfive fulloriginals retained. Printed$2E0/$2E1,34Hz/68Hz/1/64,prose14minutes vsPOKE15,로시시켜,TRU,MULTY,leadingzero03 andsourceword클럭장치 remainliteral. Q/O/0 responseglyphs andD0/DO remaincandidates. Two unknownspacebands,onedotband andonefaintterminalletter remainvisible. Thirty-eight sourcecandidates,sevenUnicodeapproximations and2335 encoded-space bands preserve scans. Diagraminternal label/data transcription pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,circuitbehavior andexecution unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
