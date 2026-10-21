@@ -249,10 +249,27 @@ paired OCR or a new engine comparison.
   includes122–128 listings,final128upperonly. All94original/eight revised crops before84tasks;
   allraws before one source pass,no failures/retries. All26,714prior files/30pins pass.
   Eighteen readable,one partial,two non-owning headings,35of56unresolved;unchanged213tests.
-  Next: batch25 restores remaining 스피드 텍스트 listings on printed124–128/PDF126–130,
-  using saved views. Continue list1 ordinal136→137 through432, then upper128 list2
-  ending540 PRINT:RETURN; exclude the lower background-music listing. Complete speed-text
-  assembly follows separately, retaining both natives and the original caption/page links.
+  Batch25 restores the remaining speed-text listings at
+  `archive/pdf/1985-02/packages/batch-25-r01/speed-b`, printed124–128/PDF126–130,
+  with final128 upper only. All 158 files match the independent rebuild; 15,805 current
+  UTF-8 ranges, five external native ranges, 16,277 evidence pins and 41 images pass.
+  The 410 physical text rows include355 code rows in353 logical groups. Assembly
+  ordinals137–432 retain1,459 fields/323 blanks/570 object bytes/eight storage directives;
+  the unnumbered byte row after425 remains separate. List2 retains57 BASIC labels and
+  its physical line50 string wrap. Eighteen annotation groups andfive native associations
+  retain caption122, page128, ordinal136→137 andincoming annotations/prose.
+  Twenty-six candidates,36 ornament approximations and1,279 unknown space bands remain.
+  Printed349–350/302–349, DF, BLT, WRITE,APPEND andbareNEXT remain literal.
+  All41 original/two revised crops preceded36 tasks(18eng/18kor+eng); allraws read before
+  one source pass. No OCR failures/retries. A verifier spacing assertion was corrected
+  in a fresh revision; both attempts remain, source text/packages unchanged.
+  All28,160 prior files and30 implementation pins pass; unchanged213-test baseline reused.
+  All ten body pages are restored across two natives; complete article assembly remains.
+
+  Next: assemble complete 스피드 텍스트 from immutable batch24speed-a andbatch25speed-b,
+  with no new mapping orOCR. Project every native range/category, resolve the five native
+  associations andretain upper-only128 ownership. Preserve original corrections andall
+  source uncertainties; resolve stage deferrals only in active assembly metadata.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
