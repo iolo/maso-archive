@@ -1069,15 +1069,38 @@ paired OCR or a new engine comparison.
   The unchanged 213-test baseline is reused. No reader rebuild.
   Current totals: 40 readable, no partial articles, seven non-owning headings and 9 unresolved.
 
-  Next: verify 포도 귀신0053 (source 포도귀신) from printed232/PDF234 as batch54.
-  Reuse reviewed opening234 and continuation235; inspect intervening236–237 and
-  next independent 소혹성 지대0054 opening238 before mapping at most six pages.
-  Preserve BASIC rows/labels, DATA, graphics, keys, captions and source discrepancies.
-  No0053 mapping or OCR has started. Parent 정보모음0008, cover selection, remaining
-  page accounting and issue closeout remain pending. Human acceptance, full proofreading,
-  source bytes, spacing, claims, circuit behavior, execution and independent backup
-  recovery remain unverified; earlier diagram-label transcription is pending volunteers.
-  No reader rebuild.
+  Batch54 completes 포도 귀신0053 (source 포도귀신), printed232–235/PDF234–237,
+  at `archive/pdf/1985-02/packages/batch-54-r01`. All 121 files match the independent
+  rebuild; 10,259 exact UTF-8 ranges, 10,365 evidence pins and 37 images pass.
+  Seven BASIC panels retain 185 labels in 256 physical rows, 71 wraps, eleven quoted
+  strings, 22 quote delimiters, 245 lexical statements, 216 DATA fields, 43 branch
+  targets and 1,972 lexical tokens. Exact label/token fragments cover all nonspace code.
+  Six listing joins include the same-line1110 and2210 continuations. Eleven program
+  range descriptions retain thirteen physical rows and the open-ended2800 range.
+  Four screen labels/values, four boxed keys, one description column join and29 prose
+  wraps remain linked. The listing and screen have no invented captions. Final lower
+  academy advertisement is excluded; eligible top, folio235 and private full-page evidence remain.
+  Source spelling, all-BASIC claim, percent variables,1090 raised mark, physical digit/
+  variable/string wraps and quoted spaces remain literal. Thirty-four candidates,
+  eight Unicode approximations and1,245 encoded-space bands (including15 quoted bands)
+  retain scans. All visible labels are transcribed; execution remains unverified.
+  All37 original/two revised crops preceded25 OCR tasks (7 eng/18 kor+eng); all drafts
+  preceded one source pass. No OCR failures/retries. Initial preparation's12-range count
+  is corrected explicitly to11 in the selected map, indexes and active record; originals remain.
+  All53,332 prior files and30 implementation pins pass; 53,867 files are preserved.
+  The unchanged213-test baseline is reused. No reader rebuild.
+  Current totals: 41 readable, no partial articles, seven non-owning headings and 8 unresolved.
+
+  Next: verify 소혹성 지대0054 from printed236/PDF238 as batch55. Inspect its full
+  ending and continuations before restoring at most six pages; if longer, preserve
+  the remaining pages and assembly as explicit pending work. Reuse reviewed opening238
+  and next child 부메랑 소년0055 opening246; inspect intervening239–245 and adjacent
+  ownership. Preserve BASIC, machine-code addresses/bytes, commands, captions, graphics
+  and source discrepancies. No0054 mapping or OCR has started. Parent 정보모음0008,
+  cover selection, remaining page accounting and issue closeout remain pending.
+  Human acceptance, full proofreading, source bytes, spacing, claims, circuit behavior,
+  execution and independent backup recovery remain unverified; earlier diagram-label
+  transcription is pending volunteers. No reader rebuild.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
