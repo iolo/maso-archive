@@ -189,9 +189,17 @@ paired OCR or a new engine comparison.
   before one source pass. No failures/retries. Fresh metadata revision adds logical
   source-row coverage without text changes; both versions/rebuilds remain preserved.
   All17,295prior files verified; unchanged213-test baseline reused.
+  Batch20 restores middle92–97/PDF94–99 at packages/batch-20-r01/pascal-b.
+  All 346 files match its rebuild; 8,279 current ranges, one incoming native range,
+  8,615 pins and 100 images pass. Its 361 text rows include 213 code/output rows
+  in 209 logical lines. Lists6–9/five output groups, eight captions, 33 directory
+  entries/99 fields/three blanks and 29 file/option items remain. Forty-three
+  candidates, one unknown ellipsis count and 686 unknown space bands stay explicit.
+  All 100 crops preceded79 tasks (32 eng/47 kor+eng); all raws read before one pass.
+  No failure/retry/crop repair; all20,369 prior files verified; unchanged213tests.
   Fourteen articles are readable/sample-reviewed, one partial, two headings non-owning
-  and39of56entries unresolved. Next: batch20 restores PASCAL middle92–97/PDF94–99,
-  then ending98–103/PDF100–105 and immutable assembly. Full86–103extent verified;
+  and39of56entries unresolved. Opening/middle86–97 are restored. Next: batch21
+  restores ending98–103/PDF100–105, then immutable assembly. Full86–103extent verified;
   independent lower-right contest onPDF105 excluded. Reuse saved PDF87–106views.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and

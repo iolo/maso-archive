@@ -260,11 +260,24 @@ Fifty candidates preserve literal source errors; ten symbol/ellipsis extents and
 A fresh metadata revision adds logical row coverage; text and both prior outputs
 remain exact. Unchanged 213-test baseline reused; all 17,295 prior files verified.
 
+Batch20 restores PASCAL/MT+ middle92–97/PDF94–99 at
+`archive/pdf/1985-02/packages/batch-20-r01/pascal-b`. All 346 files match its
+independent rebuild; 8,279 current UTF-8 ranges, one incoming native range,
+8,615 evidence pins and 100 images pass. The 79 blocks retain 361 text rows,
+including 213 code/output rows in 209 logical source lines. Lists6–9, five output
+groups, eight captions, 33 directory entries/99 fields/three blank slots and 29
+file/option items remain indexed. Linker/debugger continuations, the duplicated
+Hanoi header and list9's separate main/module remain literal. Forty-three candidates,
+one unknown ellipsis count and 686 unknown encoded-space bands remain explicit;
+independent diagram labels are pending volunteers. All 100 crops preceded 79 tasks
+(32 eng/47 kor+eng); all raws read before one source pass. No failure/retry/crop repair.
+All 20,369 prior files verified; unchanged 213-test baseline reused.
+
 The 56-entry ledger records fourteen readable/sample-reviewed articles, one partial,
 two non-owning headings and 39 unresolved entries. PASCAL's verified full extent is
 printed86–103/PDF88–105. The independent lower-right contest on103/PDF105 remains
-excluded. Next: batch20 restores middle92–97/PDF94–99, then ending98–103/PDF100–105
-and separate immutable article assembly. All PDF87–106 source views are preserved.
+excluded. Opening and middle86–97/PDF88–99 are restored. Next: batch21 restores
+ending98–103/PDF100–105, then separate immutable article assembly. All PDF87–106 source views are preserved.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

@@ -42,8 +42,16 @@ The444transcript rows include159code/output/example rows, with four vertical-dot
 extents retaining unknown source row counts. Fifty candidates/ten unknown symbol
 extents/486unknown encoded-space bands remain. All132original/28revised crops preceded
 123tasks; all raws read before one source pass. No failures/retries; unchanged213tests.
+Batch20 restores middle92–97/PDF94–99 at packages/batch-20-r01/pascal-b.
+All346files match its rebuild;8,279current ranges/one incoming native range,
+8,615pins/100images pass. Its361text rows retain213code/output rows/209logical lines,
+33directory entries/99fields/three blanks,29file-option items andeight captions.
+Lists6–9,five output groups and all continuations remain source-linked.43candidates,
+one ellipsis count and686encoded-space bands remain uncertain; diagram labels pending.
+All100crops preceded79tasks; all raws read before one pass. No failure/retry/crop repair;
+20,369prior files verified, unchanged213-test baseline reused.
 Full PASCAL extent86–103/PDF88–105 verified, excluding final independent contest.
-Next: batch20 middle92–97/PDF94–99, ending98–103/PDF100–105, then immutable assembly.
+Opening/middle86–97 are restored. Next: batch21 ending98–103/PDF100–105, then assembly.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
