@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Twenty-five articles are readable/sample-reviewed,
-one is partial, three headings are non-owning and 27 of 56 entries remain unresolved.
+February 1985 restoration is in progress. Twenty-six articles are readable/sample-reviewed,
+none are partial, three headings are non-owning and 27 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -461,10 +461,32 @@ No OCR failure,retry orcrop repair. All39,671 prior files and30 implementation p
 remain exact;unchanged213-test baseline reused. Preservation inventory: 40,085 files.
 Current totals remain25 readable,one partial article,three non-owning headings and27 unresolved.
 
-Next: assemble complete 나라밖 소식0015 from exact batch36/37 natives,covering
-166–174/PDF168–176 and17 unique news items. Preserve every native file,full correction
-metadata,caption association andsource uncertainty;link the AT report and유력/한
-boundary without rewriting native fragments. No new mapping,OCR orsource correction.
+나라밖 소식0015 is complete at `archive/pdf/1985-02/packages/foreign-news-complete-r01`,
+printed166–174/PDF168–176. All340 files match the independent rebuild;all332 native
+files andfull correction metadata remain exact. Forty-four category slices/nine objects
+reverse to their native records,retaining6,104 projected UTF-8 ranges. All6,209 active
+ranges,6,372 native evidence pins and88 images pass. Use the pinned private
+`foreign_news_literal.check` / `foreign_news_literal.installed` adapter and reproduction.json.
+
+Seventeen complete news items retain664 physical rows,19 numbered features,four bullets,
+12 subheadings,two PLD image/caption associations and243 physical wraps. The AT report
+retains its opening andending native associations;15 internal prose connections plus
+유력/한 link the original fragments without rewriting them. Final176 lower-right
+canonical0016 notice remains excluded. Ninety-four candidates,two ink marks,one unknown
+ellipsis band and153 Unicode approximations retain source errors andliteral discrepancies.
+Image-label transcription,human acceptance,full proofreading,source bytes andclaims
+remain unverified. No body pages orarticle assembly remain pending.
+
+Four exact native stage notes andtwo ledger deferrals are resolved only in active status;
+all originals remain preserved. Six negative probes reject altered ranges,AT coverage,
+caption targets,final notice inclusion anddeferred ending. No new mapping,rendering,OCR
+orsource correction. All40,085 prior files and30 implementation pins remain unchanged;
+213-test baseline reused. Preservation inventory: 40,791 files.
+Current totals: 26 readable,no partial articles,three non-owning headings and27 unresolved.
+
+Next: verify andrestore 원고 모집 광고0016 in batch38 from the lower-right box on
+printed174/PDF176,using saved source views. Keep its ownership disjoint from completed
+foreign news;preserve source wording,address,telephone andprinted terms literally.
 Parent정보모음0008,cover selection,remaining page accounting andissue closeout remain
 pending. No reader rebuild;human acceptance/full proofreading pending.
 
