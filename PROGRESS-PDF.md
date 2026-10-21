@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Twenty-six articles are readable/sample-reviewed,
-none are partial, three headings are non-owning and 27 of 56 entries remain unresolved.
+February 1985 restoration is in progress. Twenty-seven articles are readable/sample-reviewed,
+none are partial, three headings are non-owning and 26 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -484,11 +484,27 @@ orsource correction. All40,085 prior files and30 implementation pins remain unch
 213-test baseline reused. Preservation inventory: 40,791 files.
 Current totals: 26 readable,no partial articles,three non-owning headings and27 unresolved.
 
-Next: verify andrestore 원고 모집 광고0016 in batch38 from the lower-right box on
-printed174/PDF176,using saved source views. Keep its ownership disjoint from completed
-foreign news;preserve source wording,address,telephone andprinted terms literally.
-Parent정보모음0008,cover selection,remaining page accounting andissue closeout remain
-pending. No reader rebuild;human acceptance/full proofreading pending.
+Batch38 completes 원고 모집 광고0016 on the lower-right of174/PDF176 at
+`archive/pdf/1985-02/packages/batch-38-r01/call-for-papers`. All17 files match its
+independent rebuild;114 exact UTF-8 ranges,127 evidence pins andthree images pass.
+Two blocks retain19 physical rows,four contact fields,three submission terms andsix
+wraps. The complete notice frame is preserved;all selected regions are disjoint from
+completed foreign news. Canonical TOC eligibility includes this notice despite its title.
+
+Printed이시겠읍니까?,일류 필자로,접수일로 부터,address36-4,telephone783-2296
+and10일 return wording remain literal. Four localized candidates retain source links;
+contact validity,human acceptance,full proofreading andsource bytes remain unverified.
+Allthree crops precededtwo kor+eng tasks;both drafts read before one source pass.
+No OCR failure,retry orcrop repair. All40,791 prior files and30 implementation pins
+remain exact;unchanged213-test baseline reused. Preservation inventory: 40,887 files.
+Current totals: 27 readable,no partial articles,three non-owning headings and26 unresolved.
+
+Next: verify 프린터 마스터0041 from TOC176 in batch39. PDF178 is a provisional
+opening lookup after book advertisement177;confirm actual extent andcontinuations before
+mapping at most six pages. Segment andassemble separately if longer. TOC181 contest
+and183 review are lookup leads only. Parent정보모음0008,cover selection,remaining
+page accounting andissue closeout remain pending. No reader rebuild;human acceptance
+andfull proofreading pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37

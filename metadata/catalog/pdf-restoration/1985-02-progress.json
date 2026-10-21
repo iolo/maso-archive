@@ -1632,12 +1632,61 @@
       "toc_entry_id": "maso-1985-02-toc-0016",
       "title": "원고 모집 광고",
       "parent_id": "maso-1985-02-toc-0008",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0016 원고 모집 광고 is explicitly listed inTOC at174. Actualsource onprinted174/PDF176 is the independent lower-right framednotice headed 독자여러분의 원고를 모집합니다. It is eligible despite its advertising title; canonicalidentity,title,parent0008 remain unchanged.",
+        "Full175–177 viewed. Foreignnews0015 continues from175 andends in176left/upper-right,while notice0016 begins andends within its ownbox. Next177 is independent 실리콘밸리의 熱風 bookadvertisement. No notice continuation orfurther bodypage.",
+        "Noticecompletebox equals the exclusion saved in completedforeignnews. Two foreign-ownedareas are excluded here,so selectedoutputs have nooverlapping sourcebody. Sharedfolio174 observed onfull176;foliooutside notice isnot duplicated asnoticeasset.",
+        "Title hasthreephysical lines;body preserves invitation,address,payment/returnterms andtelephone. No tables,listings,photographs orcaptions. Lettering remains inoriginalbox;no marketing,spelling,grammar orcontactnormalization."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-38-r01/call-for-papers",
+        "article_id": "scan-maso-1985-02-toc-0016",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-38-r01/call-for-papers/manifest.json",
+          "sha256": "21cdb50c37e857c19be25f5670db7745b06b52b49ad861b6d3ff8fb9403e95fd",
+          "bytes": 2732
+        },
+        "coverage": {
+          "pdf_pages": [
+            176
+          ],
+          "printed_pages": [
+            "174"
+          ],
+          "regions": 3,
+          "blocks": 2,
+          "figures": 1,
+          "physical_text_rows": 19,
+          "notice_fields": 4,
+          "notice_terms": 3,
+          "owned_bbox": [
+            0.5565371024734982,
+            0.415625,
+            0.9628975265017667,
+            0.933125
+          ],
+          "shared_with": "maso-1985-02-toc-0015"
+        },
+        "full_pdf_pages": [
+          176
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-38/validation.json",
+          "sha256": "ee66b8d9187ad527d2ecb4c134c66e11ffad13f42f6933b9aebdc50524dd4a21",
+          "bytes": 1749
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-38/reproduction.json",
+          "sha256": "12e298f54711093ad30470064d8a4f632a6deca2d598fd498605ce09cbbaebcb",
+          "bytes": 1290
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0017",
@@ -3156,10 +3205,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 26,
+    "readable": 27,
     "partial": 0,
     "non_owning_headings": 3,
-    "unresolved_eligibility": 27
+    "unresolved_eligibility": 26
   },
   "checkpoints": [
     {
@@ -6203,6 +6252,61 @@
         "sha256": "4f58b24a88876ed33244d7b69ccead51895038f728e1fbbcc521956d577bebc2",
         "bytes": 9105199
       }
+    },
+    {
+      "id": "batch-38",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0016"
+      ],
+      "mapped_pdf_pages": [
+        176
+      ],
+      "outside_map_lookup_pages": [
+        175,
+        177
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-38/validation.json",
+        "sha256": "ee66b8d9187ad527d2ecb4c134c66e11ffad13f42f6933b9aebdc50524dd4a21",
+        "bytes": 1749
+      },
+      "stats": {
+        "completed_at": "2026-10-21T10:47:35.913723+00:00",
+        "stats": {
+          "regions": 3,
+          "blocks": 2,
+          "figures": 1,
+          "physical_text_rows": 19,
+          "source_candidates": 4,
+          "ink_marks": 0,
+          "unknown_bands": 0,
+          "typographic_approximations": 0,
+          "quote_glyphs": 0,
+          "physical_wraps": 6,
+          "caption_links": 0,
+          "notice_fields": 4,
+          "notice_terms": 3,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            176
+          ],
+          "deferred_pdf_pages": []
+        },
+        "source_passes": 1,
+        "ocr_tasks": 2,
+        "eng_code_tasks": 0,
+        "kor_eng_tasks": 2,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-38-preserved-work.json",
+        "sha256": "c11e42d6562cde75dafca75f8cdb26ec6cee36ef89e9bcec0ff26f304e1fc15e",
+        "bytes": 9125503
+      }
     }
   ],
   "source_page_observations": [
@@ -7868,13 +7972,14 @@
     {
       "pdf_page": 176,
       "printed_page": "174",
-      "classification": "article-body-with-independent-panel",
+      "classification": "two-canonical-article-bodies",
       "toc_entry_ids": [
-        "maso-1985-02-toc-0015"
+        "maso-1985-02-toc-0015",
+        "maso-1985-02-toc-0016"
       ],
-      "source_title": "나라밖 소식 / 정보레이다",
-      "restoration": "complete-foreign-news-assembly-exported",
-      "ownership_note": "Completeforeign0015 owns wholeleft/upper-right ending PLD prose;lower-right independentcanonical0016 call-for-papers notice excluded andpending. Exactownedbboxes preserved."
+      "source_title": "나라밖 소식 / 독자 여러분의 원고를 모집합니다.",
+      "restoration": "complete-foreign-news-assembly-exported;complete-call-for-papers-exported",
+      "ownership_note": "Foreign0015 owns left/upper-right;notice0016 owns lower-right completeframedbox. Bothcompleteoutputs verified source-disjoint;sharedfolio174 observed onfullsource. Canonicalparent0008 unchanged."
     },
     {
       "pdf_page": 177,
@@ -7888,18 +7993,25 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-38",
-    "goal": "Verify andrestore canonical0016 원고 모집 광고, the independent boxed notice onprinted174/PDF176, within its own source area.",
+    "id": "batch-39",
+    "goal": "Verify actual extent andrestore 프린터 마스터 canonical0041 from TOCprinted176,using atmostsix mappedpages andsegmenting iflonger.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0016"
+      "maso-1985-02-toc-0041"
     ],
-    "mapping_targets": "Reuse batch37 full176 andadjacent175/177. Source heading 독자여러분의 원고를 모집합니다. is lower-right176, distinct from completedforeign-news0015 left/upper-right. Verify complete box/text/ending andkeep both articles disjoint.",
+    "mapping_targets": "PDF178 is a provisional opening lookup after independentbookadvertisement177;verify actualheadline,folio,start,end andeverycontinuation before mapping. Preserve listings,diagrams,sourcephysicalrows andcaption associations.",
     "provisional_lookup_targets": [
-      175,
-      176,
-      177
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
     ],
-    "boundary_review": "CanonicalTOC eligibility includes this specific notice despite advertising title. Preserve source wording,address,telephone andprinted deadline/payment claims literally. Parent0008 remains unresolved; do not infer a globalfoliooffset or classify otherentries without sourceevidence.",
+    "boundary_review": "TOC176 is a lookup lead,not a globalfoliooffset. TOC181contest0023 and183review0043 are boundaryleads,not proof ofprinterarticle ending. Inspect sharedpanels andretain only0041ownedareas;no implicitclassification ofotherentries orparent0008.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -7934,7 +8046,8 @@
     "ALE canonical0006 is complete across eight noncontiguous pages136–139,142–145/PDF138–141,144–147. Two natives/all276files/fullmetadata retained. Complete indexes retain855textrows,588coderows/587logicalgroups,579assemblyordinals/3161fields/892blanks/1007objectbytes,375comments/136labels/49directives,twoheaders,oneBASIClabel,sixexamples,two tables38cells,threecaptions,12ordinalannotations,fiveroutine ranges,sevenkeynotations/sevenPOKEcommands,eightprosejoins and13externalassociations. Sixty-seven candidates,oneunknown dashband,twoinkmarks,eighteenUnicodeapproximations and2983unknownspacebands remain. Prose1006,L$3EF,37478($9266),overlappingroutine ranges,listing1007bytes,open-ended494 andFFER remain literal. Shared139upperALE/lowerMLE ownership preserved; interveningPDF142–143 excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned ale_literal checker/context.",
     "MLE canonical0007 is complete across sixteen noncontiguous pages139–141,146–158/PDF141–143,148–160. Four natives/all411files/fullmetadata retained. Complete indexes retain1554textrows,1334coderows/1193logicalgroups,sevencompletegroups,1146assemblyordinals4–1149,5753fields/2997blanks/2495objectbytes,89byte/15textcontinuations,13quotedoperands/17DFBoperands,37BASIClabels100–460 in73rows/36wraps/22strings,two tables18cells,11diagramlabels,5menuoptions,39keynotations,fourprosejoins,25listingconnections andsevenexternalassociations. 128candidates,tenunknownbands,twoinkmarks,33Unicodeapproximations and5511unknownspacebands remain. Printed30행 has no matching BASIC label and no inferred130target;210/410 link to exact printed rows. Firstordinal4 andfinal1149RTS,final460 : GOTO 180,allopaque strings,byte/address differences andsource errors remain literal. Shared141upperALE and160contest/ads excluded; intervening144–147ALE excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned mle_literal checker/context.",
     "Batch35 completes 나라안 소식0014 on printed160–165/PDF162–167 and classifies 정보 레이다0013 as a non-owning section heading, retaining canonical sibling parent0008 links. Parent0008 remains unresolved; no duplicate section body or invented hierarchy. Sixteen news items/four tables92cells16headers/three photos/four continuations retain literal claims and source errors, including5바이트씩15비트,수수강신청서,Jonus Ada,두격,28작품/28명/상장58매/66대. Forty localized candidates,two ink marks and24Unicode approximations retain originals. Photographic labels pending volunteers; human acceptance/full proofreading,sourcebytes andhistorical claims unverified. Earlier lookup source title 정보교류 is corrected to 정보레이다 only in active observations; original notes remain preserved.",
-    "Foreignnews0015 complete across printed166–174/PDF168–176 at foreign-news-complete-r01. Twoimmutable natives/all332files/fullmetadata preserved;44categoryslices/nineobjects/6104projectedranges reverseexactly. Complete17newsitems/664physicalrows retain19numberedfeatures,fourbullets,12subheadings,twocaptionlinks,15internaljoins plus유력/한boundary,243physicalwraps. Ninety-fourcandidates,twoinkmarks,oneunknownellipsisband and153Unicodeapproximations retain allsource discrepancies/spelling/grammar. Final176 lower-right0016 notice excluded. Image-labeltranscription,humanacceptance,fullproofreading,encodedbytes,exactspacing andclaims unverified. No bodypages orassembly pending; use pinnedforeign_news_literal checker/context."
+    "Foreignnews0015 complete across printed166–174/PDF168–176 at foreign-news-complete-r01. Twoimmutable natives/all332files/fullmetadata preserved;44categoryslices/nineobjects/6104projectedranges reverseexactly. Complete17newsitems/664physicalrows retain19numberedfeatures,fourbullets,12subheadings,twocaptionlinks,15internaljoins plus유력/한boundary,243physicalwraps. Ninety-fourcandidates,twoinkmarks,oneunknownellipsisband and153Unicodeapproximations retain allsource discrepancies/spelling/grammar. Final176 lower-right0016 notice excluded. Image-labeltranscription,humanacceptance,fullproofreading,encodedbytes,exactspacing andclaims unverified. No bodypages orassembly pending; use pinnedforeign_news_literal checker/context.",
+    "Batch38 completes canonical0016 원고 모집 광고 as independent lower-rightbox on174/PDF176. CanonicalTOC eligibility retained despiteadvertisingtitle. Three crops/twoblocks/19physicalrows/fourcontactfields/threesubmissionterms/sixwraps preserve originalframe,이시겠읍니까,일류필자,접수일로 부터,address36-4,telephone783-2296 and10일returnclaim. Fourlocalizedcandidates;no unknownbands. Foreign0015 andnotice0016 sourceareas disjoint. Humanacceptance,fullproofreading,sourcebytes,spacing andhistoricalcontact/termsvalidity unverified;parent0008 unchanged."
   ],
   "reader_rebuild": false
 }
