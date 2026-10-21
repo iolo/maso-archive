@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Thirty-four articles are readable/sample-reviewed,
-one is partial, five headings are non-owning and 16 of 56 entries remain unresolved.
+February 1985 restoration is in progress. Thirty-five articles are readable/sample-reviewed,
+none are partial, five headings are non-owning and 16 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -749,11 +749,37 @@ preservation inventory remain exact. No reader rebuild.
 All seven body pages now have verified native packages; complete assembly is pending.
 Current totals: 34 readable, one partial article, five non-owning headings and16 unresolved.
 
-Next: assemble the complete seven-page timetable article from immutable natives,
-with no new mapping or OCR. Resolve the incoming1007 association and inherited
-list1 caption while retaining all source occurrences, tables, dump bytes, original
-panels and uncertainty records. Parent 정보모음0008, cover selection, remaining page
-accounting and issue closeout remain pending. Canonical0046 eligibility remains unresolved.
+시간표 작성 프로그램0045 is complete at
+`archive/pdf/1985-02/packages/timetable-complete-r01`, printed196–202/PDF198–204.
+All 265 files match the independent rebuild; all256 native files and full correction
+metadata remain exact. Eighty-eight category slices and nine projected objects reverse
+to their native records across14,345 projected UTF-8 ranges. All18,108 active ranges,
+14,554 native evidence pins and67 images pass. The complete article retains506 physical
+text rows plus76 serialized table rows,331 BASIC rows/111 label occurrences/104 distinct
+labels/220 wraps,168 quoted strings,456 lexical colon groups,50 dump rows/400 byte fields,
+six tables74 rows/148 cells/four brace groups,15 boxed keys andseven menu options.
+Both incoming1007 andinherited list1 caption associations resolve into complete ranges;
+original physical text andall four native-range wrapper occurrences remain exact.
+Seven0 comments,two130 labels,missing159/180 andambiguous130 references remain explicit.
+The source prose endpoint56C9 is independent ofthe final dump address56D2. Five captions,
+five prose/table continuations,three output panels andall seven originals remain.
+Fifty-seven source candidates,56 visible unknown markers,144 Unicode approximations and
+1,616 unknown encoded-space bands remain; output-panel internal label/data transcription
+is pending volunteers. Human acceptance,full proofreading,source bytes,spacing,claims and
+execution remain unverified. Four stale stage notes resolve only in active status,with
+originals retained. Eight negative probes reject range,link,label,caption,cell,byte and
+coverage drift. All45,277 prior files and30 implementation pins pass; the new45,832-file
+preservation inventory is exact. No new mapping,rendering,OCR orsource correction;
+unchanged213-test baseline reused. Use the pinned private timetable-assembly/
+timetable_literal.py checker/context and reproduction.json for rebuild andissue closeout.
+Current totals: 35 readable, no partial articles, five non-owning headings and16 unresolved.
+
+Next: verify 애플 클럭0047 from printed204/PDF206, including its actual ending and
+adjacent material, then restore within six mapped pages as batch48. Review pageless
+parent0046 테크닉의 극치 ownership from source while preserving both child identities.
+TOC next child0048 printed210 is a lookup lead, not proof ofa global folio offset or
+article extent. Parent 정보모음0008,cover selection,remaining page accounting andissue
+closeout remain pending. No reader rebuild.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
