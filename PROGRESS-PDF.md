@@ -647,12 +647,40 @@ remain exact; the unchanged 213-test baseline is reused. Preservation inventory:
 remain unverified. No reader rebuild.
 Current totals: 33 readable, one partial article, five non-owning headings and 17 unresolved.
 
-Next: restore 전학년 성적 처리 프로그램0044 ending printed190–195/PDF192–197 in
-batch45, then assemble all twelve pages separately. Reuse the verified source views
-and preserve compilation commands, explanations, usage, tables and final results figure.
-Bind the incoming prose to native grades-a; PDF198 starts the independent timetable.
-Parent 정보모음0008, cover selection, remaining page accounting and issue closeout
-remain pending.
+Batch45 restores 전학년 성적 처리 프로그램0044 ending printed190–195/PDF192–197
+at `archive/pdf/1985-02/packages/batch-45-r01/grades-b`. All twelve body pages now
+exist across immutable grades-a and grades-b; separate article assembly remains pending.
+All 155 files match the independent rebuild. Checks pass for 6,981 current UTF-8 ranges,
+82 exact opening-native references, 7,194 evidence pins and 42 crop images.
+
+Five explanatory tables retain 67 logical rows, 134 cells and 157 cell fragments,
+including the445–450 description continued onto192. Their 43 printed line references
+retain 81 exact BASIC endpoint associations. The335 other physical text rows and89
+table serialization rows preserve the sixteen compilation steps (⑩ absent), seven menu
+options, ten command examples, six example groups and nine page/column continuations.
+The incoming 않는/다. association links to the unchanged opening native.
+
+Six whole pages and the captioned final printout remain as original images. Internal
+printout label/data transcription is pending volunteers. Thirty-six source candidates
+retain BASOCM.COM, the visually confirmed772085 (raw72085), ENGLI, DSKETTE, 횟수을,
+and caption 출력된 전체 성적을 화면. Printed⑤⑥ placement, .BAS/.COM instructions,
+filename punctuation and claims remain independent; no arithmetic or syntax repair.
+One ellipsis-count uncertainty,110 Unicode approximations and1,994 display-space bands
+remain explicit. Human acceptance, full proofreading, source bytes and execution unverified.
+
+All42 original/one trimmed crops preceded35 kor+eng tasks; all drafts preceded one
+source pass. Zero OCR failures/retries. An unsupported heading map kind failed before
+output; the fresh map uses section-label. A missing-import verifier failure is retained;
+its revision changes only the checker. All42,909 prior files and30 implementation pins
+remain exact; the unchanged213-test baseline is reused. Preservation inventory:
+43,568 files. No reader rebuild.
+Current totals: 33 readable, one partial article, five non-owning headings and 17 unresolved.
+
+Next: assemble the complete 전학년 성적 처리 프로그램0044 from the two immutable
+native packages, covering printed184–195/PDF186–197. Preserve every native file and
+all correction metadata; resolve only active stage deferrals and exact native associations.
+No further article body pages, mapping or OCR are pending. Parent 정보모음0008,
+cover selection, remaining page accounting and issue closeout remain pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
