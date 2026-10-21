@@ -4730,7 +4730,7 @@
       "parent_id": "maso-1985-02-toc-0051",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0054 independentlyopens236/PDF238 with흥미진진한게임/소혹성지대,SPC-1000 and김상범. Prior235/PDF237 ends포도귀신 aboveindependentad. Canonicaltitle소혹성 지대 preserved.",
@@ -4743,15 +4743,16 @@
         "Incomingbatch55 finalD418 01 15 66 22 55 15 99 88 leads toD420 91 11 15 00 45 15 AA AA. Existinglist2caption onPDF240 governsending columns; exactnative associationspendingindexing.",
         "FinalDA00 00 00 00 00 00 00 00 00 closesdump. PrintedSAVEMend&HD9FF remainsindependent; no repair/truncation inferred.",
         "Final245rightLOGATORcontest(MSX/정찬용) andlowerreadererrata are independent/excluded. Following244/PDF246opens부메랑소년0055. Currentmaps onlytwo endingpages;completearticleassembly separate.",
-        "Full244original/fivecolumnoriginals/finaleligiblepanel/folio retained. Complete245page pinnedprivately asownershipevidence; excludedpanels notexported."
+        "Full244original/fivecolumnoriginals/finaleligiblepanel/folio retained. Complete245page pinnedprivately asownershipevidence; excludedpanels notexported.",
+        "Complete 소혹성 지대 assembly covers printed236–243/PDF238–245. All270 nativefiles/fullmetadata retained;80categoryslices/12objects/51482projectedranges reverseexactly. All78224activeranges/84images validate. Full39BASIClabels/rows,801dump rows/6408bytefields in17columns,fourcommandregions/fiverows,eightroutines/tenaddresses,fivescreenfields/fourboxedkeys,twocaptions/tworeferences,16dumpconnections,two regionalcontinuations and45prosewraps retained. IncomingD418/D420 andinheritedlist2caption resolvedwithouttextrewrite. Final245rightcontest/lowererrataexcluded. No bodypages orassemblypending;tinyillustrationlabels/sourcebytes/spacing/execution/claims/humanproofreadingunverified."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-02/packages/batch-55-r01",
+        "directory": "archive/pdf/1985-02/packages/asteroid-complete-r01",
         "article_id": "scan-maso-1985-02-toc-0054",
         "manifest": {
-          "path": "archive/pdf/1985-02/packages/batch-55-r01/manifest.json",
-          "sha256": "e04bdfef87f9ec462a8ed7a6628ad4fe7c8e8bca3c38157de76e6a5136a70f5f",
-          "bytes": 36078
+          "path": "archive/pdf/1985-02/packages/asteroid-complete-r01/manifest.json",
+          "sha256": "1e2535c2bc6499baadaf28a12fb45e7a30699f192f637c8e77554fc7eb147a36",
+          "bytes": 48763
         },
         "coverage": {
           "pdf_pages": [
@@ -4839,18 +4840,18 @@
             "243"
           ]
         },
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
         "deferred_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1985-02/restoration/batch-56/validation.json",
-          "sha256": "b4d6b14de40a25f347eafacf768ad8b3e7f7db04c84daf1f2a0dc1ab6f8cefc6",
-          "bytes": 1814
+          "path": "archive/pdf/1985-02/restoration/asteroid-assembly/validation.json",
+          "sha256": "f67f74f0dd7a6dd17758e5db5ae020097b99dd332b98a19a6333b718850af4b8",
+          "bytes": 2524
         },
         "reproduction": {
-          "path": "archive/pdf/1985-02/restoration/batch-56/reproduction.json",
-          "sha256": "a09cf8be08287b2b1d16f951f021de28dedd1875a4ecd7fbfdfe27d1b86c4cba",
-          "bytes": 1704
+          "path": "archive/pdf/1985-02/restoration/asteroid-assembly/reproduction.json",
+          "sha256": "2a1edc54a3454e17cd8064885d9b413d6a752eb0c95fd6567d3c7c4d0386e92d",
+          "bytes": 2306
         },
         "segments": [
           {
@@ -4996,7 +4997,31 @@
             }
           }
         ],
-        "all_body_pages_restored_across_natives": true
+        "all_body_pages_restored_across_natives": true,
+        "complete_article_assembly": {
+          "path": "archive/pdf/1985-02/packages/asteroid-complete-r01/manifest.json",
+          "sha256": "1e2535c2bc6499baadaf28a12fb45e7a30699f192f637c8e77554fc7eb147a36",
+          "bytes": 48763
+        },
+        "index_mode": "asteroid-literal-v1",
+        "private_adapter": {
+          "path": "archive/pdf/1985-02/restoration/asteroid-assembly/asteroid_literal_r02.py",
+          "sha256": "8b2cb3c9571cbd2b4d5532889b29c1d27f603f0af4e76eae9c7a00a61fe0d074",
+          "bytes": 14901
+        },
+        "check_entrypoint": "asteroid_literal_r02.check",
+        "adapter_context": "asteroid_literal_r02.installed",
+        "adapter_pythonpath": "archive/pdf/1985-02/restoration/asteroid-assembly",
+        "native_files_retained_exactly": 270,
+        "projected_category_occurrences": 80,
+        "projected_object_occurrences": 12,
+        "projected_utf8_occurrences": 51482,
+        "all_active_utf8_occurrences": 78224,
+        "resolved_stage_limits": {
+          "path": "archive/pdf/1985-02/restoration/asteroid-assembly/ledger-stage-resolution.json",
+          "sha256": "ec6629b44f0db746c2f7e95feb86f6d61c34a70dc5fcf8d974536ff36733944f",
+          "bytes": 6947
+        }
       }
     },
     {
@@ -5024,8 +5049,8 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 41,
-    "partial": 1,
+    "readable": 42,
+    "partial": 0,
     "non_owning_headings": 7,
     "unresolved_eligibility": 7
   },
@@ -9734,6 +9759,66 @@
         "sha256": "fd7f1a646c057d415c5debbb4e6075ebcd902587457a2ef56273823346fa756e",
         "bytes": 12203094
       }
+    },
+    {
+      "id": "asteroid-complete-assembly",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0054"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/asteroid-assembly/validation.json",
+        "sha256": "f67f74f0dd7a6dd17758e5db5ae020097b99dd332b98a19a6333b718850af4b8",
+        "bytes": 2524
+      },
+      "stats": {
+        "files": 279,
+        "native_files": 270,
+        "regions": 84,
+        "blocks": 56,
+        "figures": 28,
+        "physical_text_rows": 931,
+        "physical_code_rows": 845,
+        "basic_labels": 39,
+        "basic_quoted_strings": 10,
+        "basic_quote_delimiters": 20,
+        "basic_statements": 39,
+        "basic_branch_targets": 5,
+        "basic_lexical_tokens": 218,
+        "basic_quoted_space_bands": 14,
+        "dump_rows": 801,
+        "dump_bytes": 6408,
+        "dump_columns": 17,
+        "command_panels": 4,
+        "command_rows": 5,
+        "routine_address_groups": 8,
+        "routine_addresses": 10,
+        "screen_fields": 5,
+        "boxed_keys": 4,
+        "captions": 2,
+        "external_associations": 2,
+        "listing_connections": 16,
+        "continuations": 2,
+        "projected_ranges": 51482,
+        "all_active_ranges": 78224,
+        "category_occurrences": 80,
+        "projected_objects": 12,
+        "new_ocr_tasks": 0,
+        "assembly_pending": false
+      },
+      "resolved_stage_limits": {
+        "path": "archive/pdf/1985-02/restoration/asteroid-assembly/ledger-stage-resolution.json",
+        "sha256": "ec6629b44f0db746c2f7e95feb86f6d61c34a70dc5fcf8d974536ff36733944f",
+        "bytes": 6947
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/asteroid-assembly-preserved-work.json",
+        "sha256": "f42a3ecc457497e2418303b86315fcff91d250be501744dc821fc72679bac5e6",
+        "bytes": 12336987
+      }
     }
   ],
   "source_page_observations": [
@@ -12027,7 +12112,7 @@
       ],
       "source_title": "소혹성 지대",
       "section_title": "SPC-1000",
-      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "restoration": "complete-asteroid-assembly-exported",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -12094,7 +12179,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "restoration": "complete-asteroid-assembly-exported",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -12104,7 +12189,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "restoration": "complete-asteroid-assembly-exported",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -12114,7 +12199,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "restoration": "complete-asteroid-assembly-exported",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -12124,7 +12209,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "restoration": "complete-asteroid-assembly-exported",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -12134,7 +12219,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "restoration": "complete-asteroid-assembly-exported",
       "ownership_note": "CurrentlastdumpD418 has eightfields01 15 66 22 55 15 99 88;next244startsD420. No fullarticlecompletionclaimed."
     },
     {
@@ -12144,7 +12229,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article",
-      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "restoration": "complete-asteroid-assembly-exported",
       "ownership_note": "Canonical0054 full236–243/PDF238–245 reviewed. Openingprose/BASIC1000–1380 anddumpC100–D418 exported. EndingD420–DA00/completeassembly pending. Final245rightLOGATORcontest andlowererrata independent/excluded."
     },
     {
@@ -12154,7 +12239,7 @@
         "maso-1985-02-toc-0054"
       ],
       "classification": "canonical-article-with-independent-panels",
-      "restoration": "asteroid-native-exported;all-body-pages-restored;complete-assembly-pending",
+      "restoration": "complete-asteroid-assembly-exported",
       "ownership_note": "Finalupperlefttwodumpcolumns D8E8–DA00 belong0054. RightLOGATOR(MSX/정찬용) andlower독자errata independentlyowned. Endingnotyettranscribed/exported.",
       "excluded_region_ids": [
         "logator-contest",
@@ -12164,22 +12249,28 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "asteroid-complete-assembly",
-    "goal": "Assemble full 소혹성 지대0054 printed236–243/PDF238–245 from immutable batch55/56 natives, preserving allfiles andfullcorrectionmetadata.",
+    "id": "batch-57",
+    "goal": "Verify canonical0055 부메랑 소년 actualextent from printed244/PDF246 andrestore within sixmappedpages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0054"
+      "maso-1985-02-toc-0055"
     ],
-    "native_packages": [
-      "archive/pdf/1985-02/packages/batch-55-r01",
-      "archive/pdf/1985-02/packages/batch-56-r01"
+    "mapping_targets": "Reuse reviewedPDF245independentpanels andPDF246MSX/편집부opening. Inspecteveryproposedbodypage andactualending/following ownership beforemapping. Ifmorethansixpages,restorefirstboundedsegment andexplicitlydeferending/assembly.",
+    "provisional_lookup_targets": [
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253
     ],
-    "mapping_targets": [],
-    "provisional_lookup_targets": [],
-    "boundary_review": "Project every nativecategory/range/object into completearticle withoutrewritingphysicaltext. Verify exactD418/D420 boundary, inheritedlist2caption andall17dumpcolumns C100–DA00/801rows/6408fields. Preserve39BASIC labels/rows,tenquotes/20delimiters,39statements,fivebranches,218lexicaltokens,14quotedspacebands,fourcommandregions/fiverows,eightroutinedescriptions/tenaddresses,fiveopaquescreenfields,fourboxedkeys,twocaptions/tworeferences,two regionalcontinuations,45prosewraps. Resolve stage deferrals onlyinactive metadata;keeporiginalnative snapshots. PreserveSC*256,&HD9FFversusDA00,repeatedheadingwording,eighteditorialmarkers,13Unicodeapproximations and6976spacebands. Final245contest/errata excluded. No newOCR/sourcecorrection orreaderrebuild.",
+    "boundary_review": "Prior0054 endsupperleft245atDA00;rightLOGATORcontest/lowererrata independent. 부메랑소년0055 independentlyopensprinted244/PDF246. Lastchild0056 양계장에서 아르바이트를 TOCprinted249 isonlylookuplead(provisionalPDF251),notproofofending/globaloffset. PreserveallBASICrows/labels,DATA,graphics/keyboardlabels,boxed4430–4490note,captions andsourcecredit/discrepancies. No0055mappingorOCRyet.",
     "limits": {
-      "articles": 1,
-      "mapped_pages": 0,
-      "outside_lookup_pages": 0
+      "articles": 2,
+      "mapped_pages": 6,
+      "outside_lookup_pages": 20
     }
   },
   "known_limits": [
@@ -12225,7 +12316,7 @@
     "Batch52 completes MAT 함수0050 printed224–227/PDF226–229. Twelve listing panels retain142 BASIC rows/labels,144 lexical statements,four quoted strings,eight quote delimiters,ten branch targets,twelve DATA fields andtwo visible mark candidates. Three matrices retain21 cells/nine rows with editorial name-row/bracket layout andoriginal geometry. Three equations retain12 numeric fields,nine variables andnine operators;six independent formulas andfive output rows/six fields remain literal. Twelve captions,fourteen prose references,three line references,seven continuations and36 physical wraps remain linked. Source PUT1S,J=1,D(RB),X=RB,OUTOUT,determinent,baselineB=AT,beta glyph,raised1530/1910 marks andlist10 references remain independent source candidates. Thirty candidates,39 Unicode approximations and1094 encoded-space bands retain scans. All matrix/listing labels transcribed. Human acceptance,full proofreading,source bytes,spacing,dimension/arithmetic claims,execution andindependent backup recovery remain unverified. No reader rebuild.",
     "Batch53 completes 그랜드 캐년0052 printed228–231/PDF230–233 andclassifies 게임 모음0051 asnon-owning, preservingfivechildren. Twenty-six BASIC labels/28physicalrows retainthree quotedstrings,six delimiters,28lexicalstatements,96DATA fields andtwo wraps. Six-column dump retains293rows/2340literalbytefields,alladdresses andfinalfour-byte6920 row. Three commandpanels,two monitor-entryrows/ninebytes,eight screenlabels/eightvalues,eleven boxedkeys,two checksums/two memoryranges,two captions,six references,one prosecolumnjoin and53physicalprosewraps remainindexed. Printed saveL$923,checksums4288/265976,range28672–28761,96DATAfields,setupX/Z vsinplayA/Z,역활/9서/깊숙히 andbyte discrepancies remainindependent. Thirty-two candidates,two editorialmark descriptions,16Unicode approximations,2834encoded-spacebands andthree verticalgaps retainoriginals. Exactencodedbytes,spacing,historicalclaims,execution,humanacceptance,fullproofreading andindependentbackuprecovery remainunverified. Allvisiblegame/listinglabels transcribed. No reader rebuild.",
     "Batch54 completes 포도 귀신0053, source 포도귀신, printed232–235/PDF234–237. SevenBASICpanels retain185labels/256physicalrows,71wraps,11quotedstrings/22delimiters,245lexicalstatements,216DATAfields,43branchtargets and1972lexicaltokens. Allnonspacecodebytes covered bylabel/tokenfragments; no syntax/behavior inference. Sixcolumn/pagejoins include1110and2210same-line continuations. Elevenprogramdescriptionranges occupy13physicalrows; final2800range remainsopen-ended. Four screenlabels/values,fourboxedkeys,one descriptioncolumnjoin and29physicalprosewraps remainindexed. No printedcaption invented. Thirty-fourcandidates,eightUnicodeapproximations,1245encoded-spacebands including15quotedspacebands retainoriginals. Prime-like1090mark,percentvariables,splitnumbers,sourceallBASICclaim andliteralspelling remainindependent. Final loweracademyadexcluded; fullsourcepagepinnedprivately. Humanacceptance,fullproofreading,encodedbytes,spacing,claims,execution andindependentbackuprecovery remainunverified. Allvisiblelabels transcribed; no readerrebuild.",
-    "소혹성 지대0054 all8bodypages236–243/PDF238–245 restored acrossimmutablebatch55/56natives;completearticleassemblypending. Combined84regions/56blocks/28figures retain931physicaltextrows,845coderows,39BASIClabels/rows,tenquotedstrings/20delimiters,39statements,fivebranches,218lexicaltokens,14quotedspacebands,801dump rows/6408literalbytefields C100–DA00 in17columns,fourcommandregions/fiverows,eightroutinegroups/tenaddresses,fiveopaquescreenfields,fourboxedkeys,twocaptions plusoneinheritedassociation,15internaldumpjoins plusincomingD418/D420,two regionalcontinuations and45prosewraps. Sixty-sixsourcecandidates,eighteditorialmarkers,13Unicodeapproximations and6976encodedspacebands retainoriginals. SC*256,&HD9FFindependentofDA00,repeatedheading,sourcebyte/glyph/spelling discrepancies literal. EndingD600mark/D938raisedseparator retainedwithoutbyteinference. Final245rightLOGATORcontest/lowererrata excluded. Tinyillustrationlabels pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,execution andindependentbackuprecovery unverified. No readerrebuild."
+    "소혹성 지대0054 completeacrossprinted236–243/PDF238–245 fromtwoimmutable natives/all270files/fullcorrectionmetadata. Completeindexes retain931physicaltextrows,845coderows,39BASIClabels/rows,tenquotedstrings/20delimiters,39statements,fivebranches,218lexicaltokens,14quotedspacebands,801dump rows/6408literalbytefields C100–DA00 in17columns,fourcommandregions/fiverows,eightroutinedescriptions/tenaddresses,fiveopaquescreenfields,fourboxedkeys,twocaptions/tworeferences,16dumpconnections,two regionalcontinuations and45prosewraps. IncomingD418/D420 andinheritedlist2caption resolved;externalnativeevidence retainsoriginalnamespace. Sixty-sixcandidates,eighteditorialmarkers,13Unicodeapproximations and6976encodedspacebands remain. SC*256,&HD9FFindependentofDA00,repeatedloadheading,sourcebyte/glyph/spelling discrepancies remainliteral. Final245rightLOGATORcontest/lowererrataexcluded;eligiblepanel/folio retained. Tinyillustrationlabels pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,execution andindependentbackuprecovery unverified. No bodypages orassemblypending. Use pinnedasteroid_literal_r02 checker/context;no readerrebuild."
   ],
   "reader_rebuild": false
 }
