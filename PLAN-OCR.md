@@ -280,9 +280,26 @@ paired OCR or a new engine comparison.
   changes; unchanged 213-test baseline reused. Use the pinned private speed_text_literal
   checker/context and reproduction.json. No speed-text body pages or assembly remain pending.
 
-  Next: batch26 verifies 배경 음악의 구현 from printed117/PDF119, including its separate
-  listing from lower128/PDF130 and the actual ending beyond PDF131. Reuse saved views;
-  exclude upper130 speed text and verify every continuation before mapping at most six pages.
+  Batch 26 restores 배경 음악의 구현 opening at
+  `archive/pdf/1985-02/packages/batch-26-r01/music-a`: prose 117–121/PDF119–123 and
+  lower 128/PDF130. Its verified full extent is eleven noncontiguous pages through
+  printed 133/PDF135, ending 480 GOTO 400. Upper 128 remains separately owned speed text;
+  the final page's independent contest and advertisement are excluded.
+  All 383 files match an independent rebuild; 5,054 exact UTF-8 ranges, 5,510 evidence
+  pins and 101 images pass. The 348 text rows retain 73 code rows in 72 logical groups,
+  51 assembly ordinals 0000–0050, 200 fields/157 blanks/38 object bytes, 64 dump bytes
+  and nine patch-assembly rows. Four diagrams, three pull quotes, five captions, eight
+  installation steps, eight usage groups, twelve routine annotations and nine joins remain.
+  Thirty-one source candidates, three unknown bands and 286 unknown spacing bands remain;
+  printed command inconsistencies, repeated prose and historical ranges stay literal.
+  All 101 original/11 revised crops preceded 91 tasks (8 eng/83 kor+eng); all raws were read
+  before one source pass. No OCR failures/retries. All 29,813 prior files and 30
+  implementation pins pass; unchanged 213-test baseline reused. This is a partial article.
+
+  Next: batch27 restores ending listings 129–133/PDF131–135 from saved views. Continue
+  0050→0051 through 0439 END, preserve any printed ordinal gap and unnumbered object-byte
+  rows, then list 2 through 480 GOTO 400 with its physical 450 wrap. Review exact shared-page
+  crops and exclude the independent contest/advertisement. Complete assembly follows separately.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

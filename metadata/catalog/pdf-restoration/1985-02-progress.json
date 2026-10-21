@@ -276,12 +276,170 @@
       "toc_entry_id": "maso-1985-02-toc-0003",
       "title": "배경 음악의 구현",
       "parent_id": "maso-1985-02-toc-0001",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0003 배경 음악의 구현 opens onprinted117/PDF119 withsourceheadline배경음악의 구현 andSPC-1000platform. Canonicalbyline정지윤 retained; no newbodybyline invented.",
+        "Complete noncontiguous extent iselevenpages:prose117–121/PDF119–123 andlistings128–133/PDF130–135. All thirteen lookup pages118–123,130–136 inspected. PDF118 belongs tocompleted speedtext;PDF136 begins independentfeatureII입력도구.",
+        "Printed128/PDF130 upperbelongs tospeedtext; onlylower0.48..1is owned bymusic. List1 starts0000D000,continues051onPDF131 andends0439 END at7F78onprinted132/PDF134; unnumberedemittedbytecontinuations andpossibleprintedordinalgap near0390 require literalreview inendingsegment.",
+        "List2 beginsprinted132/PDF134 andcontinuesprinted133/PDF135,leftthenupperright,ending480 GOTO400. Independent1-LINEcontestpanel andloweradvertisement onPDF135 excluded; theirpresence doesnotextend music.",
+        "Current native mapsprosePDF119–123 andlower130:sixpages,onecanonicaltask. RemainingPDF131–135andcompleteassembly deferred. Prose addresses/line ranges andcodebytes remain independent historicalclaims.",
+        "Memory/data diagrams andtwoflowcharts preserved asoriginalimages; captions separatelytranscribed. Fine diagramlabel transcription remains pendingvolunteers; sourcegeometry andarrows are authoritative."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-26-r01/music-a",
+        "article_id": "scan-maso-1985-02-toc-0003",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-26-r01/music-a/manifest.json",
+          "sha256": "fef70772ea57676d42adc1593847a8f4861bf6b9c78c89c013bc8a2284453af4",
+          "bytes": 64902
+        },
+        "coverage": {
+          "pdf_pages": [
+            119,
+            120,
+            121,
+            122,
+            123,
+            130
+          ],
+          "printed_pages": [
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "128"
+          ],
+          "regions": 101,
+          "blocks": 91,
+          "figures": 10,
+          "first_listing_page_owned_bbox": [
+            0,
+            0.48,
+            1,
+            1
+          ]
+        },
+        "segments": [
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-26-r01/music-a",
+            "article_id": "scan-maso-1985-02-toc-0003",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-26-r01/music-a/manifest.json",
+              "sha256": "fef70772ea57676d42adc1593847a8f4861bf6b9c78c89c013bc8a2284453af4",
+              "bytes": 64902
+            },
+            "coverage": {
+              "pdf_pages": [
+                119,
+                120,
+                121,
+                122,
+                123,
+                130
+              ],
+              "printed_pages": [
+                "117",
+                "118",
+                "119",
+                "120",
+                "121",
+                "128"
+              ],
+              "regions": 101,
+              "blocks": 91,
+              "figures": 10,
+              "first_listing_page_owned_bbox": [
+                0,
+                0.48,
+                1,
+                1
+              ]
+            },
+            "segment": "a"
+          }
+        ],
+        "known_full_extent": {
+          "pdf_pages": [
+            119,
+            120,
+            121,
+            122,
+            123,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135
+          ],
+          "printed_pages": [
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "128",
+            "129",
+            "130",
+            "131",
+            "132",
+            "133"
+          ],
+          "noncontiguous": true,
+          "first_listing_owned_bbox": [
+            0,
+            0.48,
+            1,
+            1
+          ],
+          "final_page_shared": true,
+          "final_owned_regions_approximate": [
+            [
+              0.045,
+              0.145,
+              0.447,
+              0.486
+            ],
+            [
+              0.482,
+              0.146,
+              0.876,
+              0.248
+            ]
+          ],
+          "final_marker": "480 GOTO 400"
+        },
+        "deferred_pdf_pages": [
+          131,
+          132,
+          133,
+          134,
+          135
+        ],
+        "deferred_printed_pages": [
+          "129",
+          "130",
+          "131",
+          "132",
+          "133"
+        ],
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-26/validation.json",
+          "sha256": "3929d98e7e1f3150f0a79e90bfebdacaa267fe63e0d9770d4c2998c285ef0171",
+          "bytes": 2265
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-26/reproduction.json",
+          "sha256": "a2c8fc41ddd49af61ac33c9e430d46a229df107ba491d6dc8af12bad46637ed5",
+          "bytes": 1561
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0004",
@@ -2054,9 +2212,9 @@
   "totals": {
     "canonical_entries": 56,
     "readable": 19,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 2,
-    "unresolved_eligibility": 35
+    "unresolved_eligibility": 34
   },
   "checkpoints": [
     {
@@ -3928,6 +4086,94 @@
         "sha256": "e35f197a41cf6c92e1820bc8ebfb59056c84b61df53c7ae4a9836453c2c2cb28",
         "bytes": 6649751
       }
+    },
+    {
+      "id": "batch-26",
+      "status": "complete-opening-native;five-listing-pages-and-assembly-pending",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "mapped_pdf_pages": [
+        119,
+        120,
+        121,
+        122,
+        123,
+        130
+      ],
+      "outside_map_lookup_pages": [
+        118,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-26/validation.json",
+        "sha256": "3929d98e7e1f3150f0a79e90bfebdacaa267fe63e0d9770d4c2998c285ef0171",
+        "bytes": 2265
+      },
+      "stats": {
+        "completed_at": "2026-10-21T06:47:46.606661+00:00",
+        "articles": {
+          "music-a": {
+            "regions": 101,
+            "blocks": 91,
+            "figures": 10,
+            "physical_text_rows": 348,
+            "physical_code_rows": 73,
+            "logical_listing_lines": 72,
+            "listing_groups": 6,
+            "assembly_rows": 51,
+            "assembly_fields": 200,
+            "assembly_blank_fields": 157,
+            "assembly_object_bytes": 38,
+            "assembly_comments": 36,
+            "storage_directives": 6,
+            "dump_rows": 8,
+            "dump_bytes": 64,
+            "patch_assembly_rows": 9,
+            "source_candidates": 31,
+            "unknown_bands": 3,
+            "unknown_space_bands": 286,
+            "connections": 9,
+            "physical_wraps": 22,
+            "caption_links": 5,
+            "installation_steps": 8,
+            "command_guides": 8,
+            "listing_annotations": 12,
+            "availability": "partial",
+            "mapped_pdf_pages": [
+              119,
+              120,
+              121,
+              122,
+              123,
+              130
+            ],
+            "deferred_pdf_pages": [
+              131,
+              132,
+              133,
+              134,
+              135
+            ]
+          }
+        },
+        "source_passes": 1,
+        "ocr_tasks": 91,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 11
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-26-preserved-work.json",
+        "sha256": "a52683a0698cc618722beb96f9de204a7548dbf589829a10ae32427d3b2a1101",
+        "bytes": 6983957
+      }
     }
   ],
   "source_page_observations": [
@@ -4981,52 +5227,52 @@
     {
       "pdf_page": 119,
       "printed_page": "117",
-      "classification": "adjacent-article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0003"
       ],
       "source_title": "배경음악의 구현",
-      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+      "restoration": "opening-native-exported;five-listing-pages-and-assembly-pending"
     },
     {
       "pdf_page": 120,
       "printed_page": "118",
-      "classification": "adjacent-article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0003"
       ],
       "source_title": "배경음악의 구현",
-      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+      "restoration": "opening-native-exported;five-listing-pages-and-assembly-pending"
     },
     {
       "pdf_page": 121,
       "printed_page": "119",
-      "classification": "adjacent-article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0003"
       ],
       "source_title": "배경음악의 구현",
-      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+      "restoration": "opening-native-exported;five-listing-pages-and-assembly-pending"
     },
     {
       "pdf_page": 122,
       "printed_page": "120",
-      "classification": "adjacent-article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0003"
       ],
       "source_title": "배경음악의 구현",
-      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+      "restoration": "opening-native-exported;five-listing-pages-and-assembly-pending"
     },
     {
       "pdf_page": 123,
       "printed_page": "121",
-      "classification": "adjacent-article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0003"
       ],
       "source_title": "배경음악의 구현",
-      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+      "restoration": "opening-native-exported;five-listing-pages-and-assembly-pending"
     },
     {
       "pdf_page": 124,
@@ -5097,44 +5343,90 @@
         "maso-1985-02-toc-0003"
       ],
       "source_title": "스피드 텍스트",
-      "restoration": "complete-speed-text-assembly-exported",
-      "ownership_note": "Upper0..0.48 speedtextlist2 complete; lower separately captionedbackgroundmusiclist1 excluded fromspeedtext andpendingits ownrestoration."
+      "restoration": "complete-speed-text-assembly-exported;music-opening-native-exported",
+      "ownership_note": "Upper0..0.48 speedtextlist2 complete; lower0.48..1 backgroundmusiclist1 opening0000–0050 exported separately."
     },
     {
       "pdf_page": 131,
       "printed_page": "129",
-      "classification": "adjacent-article-body-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0003"
       ],
-      "source_title": "배경음악 소스프로그램",
-      "restoration": "boundary-observed;article-eligibility-and-full-extent-not-promoted"
+      "source_title": "배경음악의 구현",
+      "restoration": "extent-verified;ending-listing-native-pending"
+    },
+    {
+      "pdf_page": 132,
+      "printed_page": "130",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "extent-verified;ending-listing-native-pending"
+    },
+    {
+      "pdf_page": 133,
+      "printed_page": "131",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "extent-verified;ending-listing-native-pending"
+    },
+    {
+      "pdf_page": 134,
+      "printed_page": "132",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "extent-verified;ending-listing-native-pending"
+    },
+    {
+      "pdf_page": 135,
+      "printed_page": "133",
+      "classification": "mixed-article-and-independent-material",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0003"
+      ],
+      "source_title": "배경음악의 구현",
+      "restoration": "extent-verified;ending-listing-native-pending",
+      "ownership_note": "Music list2 ends480GOTO400 inupperright; independent1-LINEcontest andloweradvertisement excluded. Final exactmap pending."
+    },
+    {
+      "pdf_page": 136,
+      "printed_page": "134",
+      "classification": "adjacent-feature-introduction-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0004"
+      ],
+      "source_title": "특집Ⅱ 입력도구",
+      "restoration": "boundary-observed;ownership-restoration-pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-26",
-    "goal": "Verify canonical0003 배경 음악의 구현 actual noncontiguous extent from printed117/PDF119, including listing ending andadjacent pages; restore in bounded segments of at most six mapped pages.",
+    "id": "batch-27",
+    "goal": "Restore remaining 배경 음악의 구현 listings on printed129–133/PDF131–135, then assemble the full eleven-page article separately.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0003"
     ],
-    "mapping_targets": "Reuse saved PDF118–123 and130–131. Prose117–121/PDF119–123 andlower128/PDF130musiclist1 are observed. Verify continuation/ending beyondPDF131 before mapping; upperPDF130belongs to completed speedtext andmust be excluded. Canonical nextfeature134 is a lookup lead,not proof ofarticleend. Preserve code,diagrams,source spelling,bytes,ordinals andphysical wraps without execution orsyntax repair.",
-    "provisional_lookup_targets": [
-      118,
-      119,
-      120,
-      121,
-      122,
-      123,
-      130,
+    "mapping_targets": [
       131,
       132,
       133,
       134,
-      135,
+      135
+    ],
+    "provisional_lookup_targets": [
+      130,
       136
     ],
-    "boundary_review": "Confirm source headline/byline againstcanonical0003, allprose/listing continuations andactual ending. Noncontiguous pages need individualownership; speedtextPDF124–129andupper130 remain separately owned.",
+    "boundary_review": "Reuse source-reviewed eleven-page extent andsaved views. Continue list1 ordinal0050→0051 through0439 END; preserve possible sourceordinal0390gap, unnumberedobjectbytecontinuations andallliteral fields. List2 starts lower-right132/PDF134 thenleftandupperright133/PDF135,ending480 GOTO400. Exact finalpage regions need crop review; exclude independent1-LINEcontest andbottomadvertisement. Preserve physical450wrap without inventedlabel orsyntaxrepair.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -5163,7 +5455,8 @@
     "CP/M 입문 complete104–108/PDF106–110 retains46localized candidates,eight unknown symbol/dot bands and265unknown encoded-space bands. Source ASID,/ CPM,RSS38,B/2,SDT/SPT,36D/32sectors,ALO/0,1928,l2,r0addresses andbyte-order claims remain literal. Sixty-three assembly rows/185fields/four blanks include two address-only rows;52dump bytes retain FFB0/FA80 andliteral count disagreements. Numeric output6/15/20fragments remain incomplete as printed. Nine data rows/40table cells include four headers andallphysical cell wraps;five BASIC labels/two quoted fields preserved. Human acceptance,source bytes,execution,exact spacing andtechnical claims unverified. No body pages orassembly pending; following advertisement excluded.",
     "TG-WRITER review complete110–112/PDF112–114 retains31localized candidates,two unknown ellipsis counts andone indexed margin-space band. Historical spelling,repeated 모아쓰기가,패키지에내에서,COMPUTE/CONTINUE/FOOTNOTE,192KB/400/200/36claims andtable totals846/3,421 remain literal. Two sample tables retain48nonblank cells/six blanks;four feature items,six summary fields andtwo formatting samples retain independent rows/punctuation/margin marks. Photograph screen/device labels pending volunteers. Human acceptance,source bytes,exact spacing,software behavior andtechnical claims unverified. No body pages orassembly pending;following feature opener has independent prose requiring classification.",
     "FeatureI opener0001 owns one-pageintro113/PDF115 andretains two canonicalchildren; it is readablewithtwo localizedphoto-obscured bands andfive sourcecandidates. Four keyboard labels indexed;tiny photograph labels/humanproofreading pending.",
-    "Speed text canonical0002 is complete across ten noncontiguous pages114–116,122–128/PDF116–118,124–130, final128upperonly. Two natives/all483files/fullmetadata remain exact. Complete indexes retain827textrows,501coderows/498logicalgroups,432assemblyordinals/2117fields/487blanks/754objectbytes,sixcomments/41storage directives,oneunnumbered425bytecontinuation,64BASIClabels/threegroups,threecaptions/31annotations,onequotedwrap,fiveexternalassociations. Fifty-six sourcecandidates,oneleaderband,62ornamentapproximations and1840unknownspacebands remain. MissingPEEK/asm94operands,800E/90F6/1415,1200/1600/2700,349–350/302–349,DF/BLT andWRITE,APPEND retained. Diagram/photo labels,humanacceptance,sourcebytes,exactspacing,execution andtechnicalclaims unverified. No bodypages orassembly pending. Use pinned speed_text_literal checker/context."
+    "Speed text canonical0002 is complete across ten noncontiguous pages114–116,122–128/PDF116–118,124–130, final128upperonly. Two natives/all483files/fullmetadata remain exact. Complete indexes retain827textrows,501coderows/498logicalgroups,432assemblyordinals/2117fields/487blanks/754objectbytes,sixcomments/41storage directives,oneunnumbered425bytecontinuation,64BASIClabels/threegroups,threecaptions/31annotations,onequotedwrap,fiveexternalassociations. Fifty-six sourcecandidates,oneleaderband,62ornamentapproximations and1840unknownspacebands remain. MissingPEEK/asm94operands,800E/90F6/1415,1200/1600/2700,349–350/302–349,DF/BLT andWRITE,APPEND retained. Diagram/photo labels,humanacceptance,sourcebytes,exactspacing,execution andtechnicalclaims unverified. No bodypages orassembly pending. Use pinned speed_text_literal checker/context.",
+    "Batch26 musicopeningnative coversprose117–121/PDF119–123 andlower128/PDF130; fiveendinglistingpages129–133/PDF131–135 andcompleteassembly pending. All348physicaltextrows/73coderows/72logicalgroups preserved;51assemblyordinals0000–0050,200fields/157blanks/38objectbytes,64dumpbytes andninepatchassemblyrows indexed. Fouroriginaldiagrams,threepullquotes,fivecaptions,eightinstallationsteps,eightusagegroups,twelveroutineannotations andnineinternaljoins remain. 31sourcecandidates,threeunknownbands and286unknownspacebands explicit; sourcecode/prose inconsistencies retained. Humanacceptance/fullproofreading,sourcebytes andfine diagramlabeltranscription pending."
   ],
   "reader_rebuild": false
 }
