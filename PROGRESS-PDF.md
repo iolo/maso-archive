@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Twenty-two articles are readable/sample-reviewed,
-one is partial, two headings are non-owning and 31 of 56 entries remain unresolved.
+February 1985 restoration is in progress. Twenty-three articles are readable/sample-reviewed,
+none are partial, two headings are non-owning and 31 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -248,12 +248,35 @@ All 34,248 prior files and 30 implementation pins pass; unchanged213-test baseli
 All eight ALE body pages now exist in two immutable natives; article assembly is pending.
 Current totals: 22 readable, one partial article, two non-owning headings and 31 unresolved.
 
-Next: assemble complete ALE from exact batch29 ale-a and batch30 ale-b pins. Retain
-all native files and metadata, including every prose/table/example and assembly field.
-Project all thirteen native associations and resolve only active stage deferrals;
-keep printed ranges and source discrepancies literal. No new mapping or OCR.
-Cover selection, remaining page accounting and issue closeout remain pending.
-No reader rebuild; human acceptance and full proofreading remain pending.
+ALE is complete at `archive/pdf/1985-02/packages/ale-complete-r01`, covering eight
+noncontiguous pages136–139,142–145/PDF138–141,144–147. All 285 files match the
+independent rebuild; all 276 native files and full correction metadata remain exact.
+Ninety-eight category slices and ten object projections reverse to native records
+across 33,986 original UTF-8 range occurrences. All 37,850 active ranges, 35,131 native
+evidence pins and 72 images pass. Complete indexes retain 855 text rows, 588 code rows
+in 587 logical groups, 579 assembly ordinals, 3,161 fields, 892 blanks, 1,007 object bytes,
+375 comments, 136 labels and 49 directives. Two listing headers, six examples, one
+BASIC label, two tables/38 cells, three captions, twelve ordinal annotations, five
+routine ranges, seven keys/seven POKE commands, two pull quotes and eight prose joins
+remain. All thirteen cross-segment links resolve; printed494 remains open-ended.
+Shared139/PDF141 owns only upper ALE prose; lower MLE and interveningPDF142–143
+remain excluded. Sixty-seven candidates, one unknown dash band, two isolated ink marks,
+eighteen Unicode approximations and 2,983 unknown spacing bands retain original scans.
+Four stage notes resolve only in active status; original notes and all source claims,
+including prose1006 versus listing1,007 bytes and unexplained FFER, remain untouched.
+No new mapping, rendering, OCR or source correction. Nine negative probes reject altered
+ranges, references, ordinals and ownership. All 34,529 prior files and 30 implementation
+pins pass; unchanged213-test baseline reused. Use the pinned private
+`restoration/ale-assembly/ale_literal.py` checker/context and `reproduction.json`;
+the generic checker alone does not recognize this format.
+Current totals: 23 readable, no partial articles, two non-owning headings and 31 unresolved.
+
+Next: verify 기계어 라인 에디터 (MLE), canonical0007, from lower139/PDF141.
+Reuse observed prosePDF141–143 and listing openingPDF148; verify all referenced machine-
+code and BASIC listings, actual ending and adjacent pages before mapping. Preserve ALE
+ownership on shared141 and noncontiguous listing ownership. Keep the two-article/six-page/
+twenty-outside-lookup limits. Cover selection, remaining page accounting and issue
+closeout remain pending. No reader rebuild; human acceptance and full proofreading pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
