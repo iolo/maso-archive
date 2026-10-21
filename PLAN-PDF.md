@@ -1335,14 +1335,44 @@ No body pages or assembly remain pending. Nine source views include three mapped
 and six outside lookups; following258 has visible folio240, independent of TOC256.
 Current totals: 44 readable, no partial articles, seven non-owning headings and 5 unresolved.
 
-Next: verify 디버깅 룸0017 on printed243/PDF245 as batch59.
-Reuse the preserved full page and inspect the independent lower errata panel before
-mapping. Preserve every correction pair,table/code row,number and source discrepancy;
-upper-left 소혹성 final dump and upper-right LOGATOR contest remain separately owned.
-No0017 mapping or OCR has started. 복덕방0018,광고색인0024,컴퓨돌이0025,parent
-정보모음0008,cover selection,remaining page accounting and issue closeout remain pending.
-Human acceptance,full proofreading,source bytes,spacing,graphic glyph counts/encoding,
-claims,execution and independent backup recovery remain unverified. No reader rebuild.
+Batch59 completes 디버깅 룸0017 (source 디버깅룸), the independent lower panel
+on printed243/PDF245, at `archive/pdf/1985-02/packages/batch-59-r03`.
+All 45 files match the independent rebuild; 1,180 exact UTF-8 ranges,
+1,220 evidence pins and12 image decodes pass. Five correction entries retain25 cells/
+five headers,four printed correction pairs and the SEARCH diagram's four labels/two
+blank slots. Eight Q&A rows retain94 numeric cells,two final blank cells,twelve headers
+and23 grouping brackets. Row2's closing37] has no visible opening before26; no bracket
+was added. CP/M format retains14 field names,27 hex fields,three ellipsis groups and
+five underlined7a–7e fields. Earlier values were not invented. Four printed references,
+two physical prose wraps and one caption association retain exact source links.
+Sixteen candidates,seven Unicode approximations and263 unknown space bands remain.
+Table pipes/semicolons/spacing are editorial serialization; subscript headers are flattened
+and bracket shapes approximated,with original tables/panel preserved. Historical
+corrections are transcribed here; they were not applied to other articles or issues.
+All12 original crops preceded8 OCR tasks (2 eng/6 kor+eng); all drafts preceded one
+source pass. No crop repairs,OCR failures or retries. Metadata revisions remove stray
+draft-note fragments and use the actual printed caption. The OCR-bound map's exclusion
+note incorrectly called LOGATOR canonical0050/already restored; active correction
+metadata identifies it as an independent unlisted contest. Canonical0050 remains MAT 함수.
+No source/OCR inputs changed. The first verifier omitted the caption's final newline
+from its expectation; a fresh verifier checks the complete range. All three exports,
+two rebuilds,original notes and failed/passed verifiers/validations remain preserved.
+All57,101 prior files and30 implementation pins pass; 57,456 files are preserved.
+The unchanged213-test baseline is reused. No body pages or assembly remain pending.
+The shared-page observation now distinguishes selected0054 upper-left dump,selected0017
+lower errata and unlisted upper-right LOGATOR; the previous observation is preserved.
+Current totals: 45 readable, no partial articles, seven non-owning headings and 4 unresolved.
+
+Next: verify 복덕방0018 and 광고색인0024 on PDF254–258 as batch60.
+Reuse the reviewed four-page classifieds and following lower advertiser index; verify
+both endings/adjacent ownership before mapping at most five pages and two articles.
+Preserve all category/entry continuations,original masthead labels and advertiser/page
+reference cells. Exclude the independent upper258 컴퓨터비전 advertisement. Visible
+folio240 on258 remains independent of canonical TOC256; do not change the catalog.
+No0018/0024 mapping or OCR has started. 컴퓨돌이0025,parent 정보모음0008,cover
+selection,remaining page accounting and issue closeout remain pending. Human acceptance,
+full proofreading,source bytes,spacing,claims/correction efficacy,execution and independent
+backup recovery remain unverified. No reader rebuild.
 
 ## December 1984 closeout, 2026-10-20
 
