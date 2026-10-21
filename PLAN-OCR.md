@@ -102,10 +102,18 @@ paired OCR or a new engine comparison.
   independent diagram labels pending volunteers. All 114 original/thirteen revised
   crops inspected before 91 kor+eng tasks; all raws read before one source pass.
   No OCR failure/retry. Unchanged 213-test baseline reused.
+  Batch13 restores Forth's ending62–63/PDF64–65, excluding the independent comic.
+  All 166 rebuild files, 787 current ranges, one prior-segment incoming range,
+  922 evidence pins and 44 images pass. Its 114 physical rows retain two diagrams,
+  three captions, twelve table cells/six arrows, two compiler roles/four terms,
+  three NEXT points and two pull quotes. Nineteen source candidates remain explicit.
+  All 44 original/two revised crops inspected before 38 tasks; all raws read before
+  one source pass. Zero OCR failure/retry. Unchanged 213-test baseline reused.
   Eleven articles are readable/sample-reviewed, one is partial, one heading is
-  non-owning and 43 of 56 canonical entries remain unresolved. Next: batch13 restores
-  Forth's closing62–63/PDF64–65, excluding the independent 컴퓨돌이 panel on PDF65.
-  Both immutable segments then require assembly. Cover and issue closeout remain pending.
+  non-owning and 43 of 56 canonical entries remain unresolved. Next: assemble the
+  immutable Forth opening and ending segments, preserving all native metadata and
+  checking the 네/스팅 continuation. All body pages covered; assembly remains pending.
+  Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.

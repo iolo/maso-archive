@@ -143,11 +143,23 @@ one caption dot-band count remains unknown. Diagram labels are pending volunteer
 All 114 original/thirteen revised crops were inspected before 91 tasks; all raws
 read before one source pass. Zero OCR failure/retry; unchanged 213-test baseline.
 
+Batch13 restores Forth's closing printed62–63/PDF64–65, excluding the independent
+upper-right 컴퓨돌이 해답 panel. All 166 files at
+`archive/pdf/1985-02/packages/batch-13-r01/forth-b` match the independent rebuild.
+All 787 current exact ranges, the separate incoming prior-segment range, 922 evidence
+pins and 44 images pass. Thirty-eight blocks retain 114 physical rows, two diagrams,
+three captions, twelve table cells/six arrows, two compiler roles/four term lines,
+three NEXT points and two pull quotes. Nineteen source candidates retain literal
+wording and glyph approximations. All 44 original/two revised crops were inspected
+before 38 tasks; all raws read before one source pass. Zero OCR failure/retry;
+unchanged 213-test baseline reused. Original attempts and both natives remain.
+
 The 56-entry issue ledger records eleven readable/sample-reviewed articles, one
-partial article, one non-owning heading and 43 unresolved entries. Next is batch13:
-restore Forth's closing printed62–63/PDF64–65, excluding the independent upper-right
-컴퓨돌이 panel on PDF65. Reuse PDF63–66 views, then assemble the immutable segments
-in a separate checkpoint. Cover selection, remaining page accounting and closeout are pending.
+partial article, one non-owning heading and 43 unresolved entries. Next is the
+separate Forth assembly checkpoint: combine the verified opening and ending natives,
+retain all correction metadata and verify the 네/스팅 continuation. All eight body
+pages are covered; assembly remains pending. Cover selection, remaining page
+accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.

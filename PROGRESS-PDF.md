@@ -8,14 +8,15 @@ by the calendar month in which restoration work happened.
 
 February 1985 restoration is in progress. Eleven articles are readable/sample-reviewed,
 one is partial, one heading is non-owning and 43 of 56 entries remain unresolved.
-The latest checkpoint restores Forth's opening printed56–61/PDF58–63. All 395 files
-match the independent rebuild; 2,852 exact ranges, 3,206 evidence pins and 114 images
-pass. Its 393 physical rows retain fifteen diagrams, seventeen captions, eighteen
-table cells/four headers, two pull quotes and eight continuation links. Twenty-nine
-source candidates and one unknown dot count remain; diagram labels pending volunteers.
-All 91 OCR tasks completed without failure/retry. Unchanged 213-test baseline reused.
-Next: restore the closing printed62–63/PDF64–65, excluding the independent 컴퓨돌이
-panel, then assemble both segments. Cover selection and issue closeout remain pending.
+The latest checkpoint restores Forth's closing printed62–63/PDF64–65. All 166 files
+match the independent rebuild; 787 current text ranges, the incoming prior-segment
+range, 922 evidence pins and 44 images pass. Its 114 physical rows retain two diagrams,
+three captions, twelve table cells/six arrows, two compiler roles/four terms, three
+NEXT points and two pull quotes. Nineteen source candidates remain explicit.
+All 38 OCR tasks completed without failure/retry. Unchanged 213-test baseline reused.
+Next: assemble both immutable Forth segments and verify their continuation. All
+body pages are covered; the article remains partial until assembly. Cover selection,
+remaining page accounting and issue closeout remain pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 
@@ -367,7 +368,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Pending classification | 2 readable; 54 TOC entries unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 11 readable; 1 partial; 1 heading; 43 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
