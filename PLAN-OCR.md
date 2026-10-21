@@ -142,11 +142,20 @@ paired OCR or a new engine comparison.
   localized source candidates remain. All eight original/one revised crops preceded
   four tasks; all raws read before one source pass. No OCR failure/retry; unchanged
   test baseline. Incoming60A8/60B0 and prior caption retain their native evidence.
-  Twelve articles are readable/sample-reviewed, one partial, two headings non-owning
-  and 41 of56 entries unresolved. All 산수 경주 pages64–76/PDF66–78 are now covered.
-  Next: separately assemble all three immutable natives with complete metadata,
-  category/range projection, both continuations and external caption links. No new
-  mapping, OCR or source correction is queued for assembly.
+  산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
+  All 483 files match its rebuild; all 474 native files/full metadata remain exact.
+  Ninety-six category slices/thirteen objects reverse to native records, covering
+  29,389 original range occurrences. All 32,710 active ranges, 29,829 native pins and
+  144 images pass. Complete indexes retain 223 BASIC labels, 165 dump rows/1,317 bytes,
+  228 table cells and ten captions. Both continuations/two external captions are
+  verified. Ninety-one candidates/461 unknown whitespace bands remain explicit.
+  No new OCR/source correction; unchanged test baseline reused. Five negative probes
+  reject range/link/cell/coverage drift. Use the pinned private math-race-assembly/
+  math_race_literal.py checker/context and reproduction.json; generic check alone
+  does not recognize this format. All six original stale stage notes remain preserved.
+  Thirteen articles are readable/sample-reviewed, none partial, two headings non-owning
+  and 41 of56 entries unresolved. Next: batch17 verifies 디지털 논리 회로 from
+  printed78/PDF80, including actual ending/adjacency. Reuse PDF79/80; segment if needed.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

@@ -6,20 +6,20 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Twelve articles are readable/sample-reviewed,
-one partial, two headings are non-owning and 41 of56 entries remain unresolved.
-Batch16 restores 산수 경주 final76/PDF78 at packages/batch-16-r01/math-race-c.
-All29files match the independent rebuild; 7,174 current ranges, two external native
-ranges andeight images pass. Its143dump rows retain1,141literal bytes, incoming60A8/60B0,
-two column boundaries andthe five-byte final6520row. Twenty-two source candidates
-remain. Allfour tasks completed without failure/retry aftereight original/one revised
-crops were inspected; one source correction pass followed reading all raws.
-Unchanged213-test baseline reused. Allthree natives andprior evidence remain.
-Parent0035 is non-owning with four unchanged children.
+February 1985 restoration is in progress. Thirteen articles are readable/sample-reviewed,
+none partial, two headings are non-owning and 41 of56 entries remain unresolved.
+산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
+All 483 files match its independent rebuild; all 474 native files/full metadata remain
+exact. Ninety-six category slices/thirteen projected objects reverse to native records;
+32,710 active text ranges and 144 images pass. Complete indexes retain 223 BASIC labels,
+165 dump rows/1,317 literal bytes, 228 table cells and ten captions. Both continuations
+and two external caption links are verified. Ninety-one candidates/461 unknown whitespace
+bands remain. Use its pinned private math_race_literal checker/context. No new OCR/source
+correction; unchanged 213-test baseline reused. Five negative probes reject altered data.
+Parent0035 remains non-owning with four unchanged children.
 Forth remains complete at packages/forth-complete-r01; use its pinned private checker.
-All13articlepages64–76/PDF66–78 are covered. Next: separately assemble allthree
-immutable segments, retaining native metadata, every review category/range,
-both continuations andexternalcaption links before marking the article readable.
+Next: batch17 verifies and restores 디지털 논리 회로 from printed78/PDF80, including
+actual ending and adjacent pages. Reuse PDF79/80; segment if longer than six mapped pages.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
@@ -372,7 +372,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Classification in progress | 12 readable; 1 partial; 2 headings; 41 unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 13 readable; 0 partial; 2 headings; 41 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.

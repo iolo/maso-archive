@@ -201,13 +201,26 @@ localized glyph candidates remain explicit. All eight original/one revised crops
 preceded four tasks; all raws were read before one source pass. No OCR failure/retry;
 unchanged 213-test baseline reused. PDF79 is an independent contest advertisement.
 
-The 56-entry ledger records twelve readable/sample-reviewed articles, one partial,
-two non-owning headings and 41 unresolved entries. All 산수 경주 body pages,
-printed64–76/PDF66–78, are covered by three immutable natives. Next: assemble them
-separately, preserving native metadata, every review category and source range,
-both incoming continuations and external caption links before marking the article
-readable. No new OCR or source correction is needed. Cover selection, remaining
-page accounting and issue closeout are pending.
+산수 경주 is now complete at `archive/pdf/1985-02/packages/math-race-complete-r01`,
+covering printed64–76/PDF66–78. All 483 files match the independent rebuild; all
+474 native files and full correction metadata remain exact. Ninety-six category
+slices and thirteen projected objects reverse to their native records across
+29,389 original range occurrences. All 32,710 active ranges, 29,829 native evidence
+pins and 144 image decodes pass. Complete indexes retain 223 BASIC labels/703 BASIC
+rows, 165 dump rows/1,317 literal bytes, three tables/228 cells and ten captions.
+Both cross-segment continuations and two external caption links are verified without
+rewriting physical text. Ninety-one source candidates and 461 unknown whitespace
+bands remain explicit. Six stale stage notes are resolved only in active status.
+Use the pinned private `restoration/math-race-assembly/math_race_literal.py` checker
+or its `installed()` context; see that directory's `reproduction.json`. Five negative
+probes reject range, continuation, caption, cell and final-page coverage drift.
+No new mapping, rendering, OCR or source correction; unchanged 213-test baseline reused.
+
+The 56-entry ledger records thirteen readable/sample-reviewed articles, no partials,
+two non-owning headings and 41 unresolved entries. Next is batch17: verify and restore
+디지털 논리 회로, canonical0037, from printed78/PDF80, including its actual ending
+and adjacent pages. Reuse PDF79/80; segment if longer than six mapped pages.
+Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.

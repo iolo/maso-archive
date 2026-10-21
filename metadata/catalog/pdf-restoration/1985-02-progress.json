@@ -901,7 +901,7 @@
       "parent_id": "maso-1985-02-toc-0035",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Whole PDF65–80 inspected. Full 산수 경주 article printed64–76/PDF66–78 ends withlist2dump6520;PDF79separateSamsungcontestadvertisement;PDF80starts디지털논리회로. Current maponlyopening64–69/PDF66–71.",
@@ -916,7 +916,8 @@
         "Whole PDF77–79 inspected; current map only printed76/PDF78. Incoming list2 continues prior60A8 with60B0.",
         "Final three dump columns read left then middle then right; terminal6520 row hasfive printedbytes. No eligible article continuation onPDF79,an independentSamsungcontestadvertisement.",
         "교육입문 isarunning section label,notauthorcredit. Canonicaltitle/byline/parent unchanged. Openingandmiddlenatives retained;immutableassembly follows separately.",
-        "All three complete dump panels andcomplete original page retained. Hex glyphs requireliteral sourcepass;no binaryconstruction orsemantic byte repair."
+        "All three complete dump panels andcomplete original page retained. Hex glyphs requireliteral sourcepass;no binaryconstruction orsemantic byte repair.",
+        "Complete immutableassembly covers all observedprinted64–76/PDF66–78;allthree natives/files/fullmetadata preserved. Every projectedindex, BASIC49025/0,dump60A8/60B0andtwoexternalcaptions verified. FollowingSamsungadvertisementPDF79 remainsoutsidebody."
       ],
       "restoration": {
         "segments": [
@@ -1073,7 +1074,48 @@
         },
         "deferred_pdf_pages": [],
         "deferred_printed_pages": [],
-        "assembly_required": true
+        "assembly_required": false,
+        "directory": "archive/pdf/1985-02/packages/math-race-complete-r01",
+        "article_id": "scan-maso-1985-02-toc-0036",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/math-race-complete-r01/manifest.json",
+          "sha256": "4d4bcbdadc550c1c6687f5d6f0435f4c35cb7647174ed89b5092e40a35710e90",
+          "bytes": 86170
+        },
+        "complete_article_assembly": {
+          "path": "archive/pdf/1985-02/packages/math-race-complete-r01/manifest.json",
+          "sha256": "4d4bcbdadc550c1c6687f5d6f0435f4c35cb7647174ed89b5092e40a35710e90",
+          "bytes": 86170
+        },
+        "index_mode": "math-race-literal-v1",
+        "private_adapter": {
+          "path": "archive/pdf/1985-02/restoration/math-race-assembly/math_race_literal.py",
+          "sha256": "289ef131d3a274289df82f0f3375600fdaad3858a1d62a240225c448ab988f12",
+          "bytes": 10286
+        },
+        "check_entrypoint": "math_race_literal.check",
+        "adapter_context": "math_race_literal.installed",
+        "adapter_pythonpath": "archive/pdf/1985-02/restoration/math-race-assembly",
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/math-race-assembly/validation.json",
+          "sha256": "27d6ca4037103306453bd72049f41d764570af66274f1f1a6e2ad6665ae26bda",
+          "bytes": 2138
+        },
+        "native_files_retained_exactly": 474,
+        "projected_category_occurrences": 96,
+        "projected_object_occurrences": 13,
+        "projected_utf8_occurrences": 29389,
+        "all_active_utf8_occurrences": 32710,
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/math-race-assembly/reproduction.json",
+          "sha256": "c9c8506afae49839bfd4b56b040a072080d0545910b0a6daadafb6226b23024b",
+          "bytes": 2452
+        },
+        "resolved_stage_limits": {
+          "path": "archive/pdf/1985-02/restoration/math-race-assembly/ledger-stage-resolution.json",
+          "sha256": "5bac84dfdec992b673257cdd225c495cfc44f39e41a2812290402e024a7b2be9",
+          "bytes": 2260
+        }
       }
     },
     {
@@ -1299,8 +1341,8 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 12,
-    "partial": 1,
+    "readable": 13,
+    "partial": 0,
     "non_owning_headings": 2,
     "unresolved_eligibility": 41
   },
@@ -2234,6 +2276,49 @@
         "sha256": "b7001457e757259b2c378cacc9e63e75771600357bf5bfbf2d632f969db59ab1",
         "bytes": 2996289
       }
+    },
+    {
+      "id": "math-race-assembly",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/math-race-assembly/validation.json",
+        "sha256": "27d6ca4037103306453bd72049f41d764570af66274f1f1a6e2ad6665ae26bda",
+        "bytes": 2138
+      },
+      "stats": {
+        "files": 483,
+        "native_files": 474,
+        "regions": 144,
+        "blocks": 101,
+        "figures": 43,
+        "physical_text_rows": 1242,
+        "physical_code_rows": 872,
+        "basic_labels": 223,
+        "dump_rows": 165,
+        "dump_bytes": 1317,
+        "projected_ranges": 29389,
+        "all_active_ranges": 32710,
+        "category_occurrences": 96,
+        "projected_objects": 13,
+        "new_ocr_tasks": 0,
+        "assembly_pending": false
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/math-race-assembly-preserved-work.json",
+        "sha256": "9e56e94e873f91567e5621e9ada44d77eadb1828411e0a9e0ad2da93ed56dbd5",
+        "bytes": 3226409
+      },
+      "resolved_stage_limits": {
+        "path": "archive/pdf/1985-02/restoration/math-race-assembly/ledger-stage-resolution.json",
+        "sha256": "5bac84dfdec992b673257cdd225c495cfc44f39e41a2812290402e024a7b2be9",
+        "bytes": 2260
+      }
     }
   ],
   "source_page_observations": [
@@ -2717,7 +2802,7 @@
       "printed_page": "64",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 67,
@@ -2728,7 +2813,7 @@
       "printed_page": "65",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 68,
@@ -2739,7 +2824,7 @@
       "printed_page": "66",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 69,
@@ -2750,7 +2835,7 @@
       "printed_page": "67",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 70,
@@ -2761,7 +2846,7 @@
       "printed_page": "68",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 71,
@@ -2772,7 +2857,7 @@
       "printed_page": "69",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "opening-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 72,
@@ -2783,7 +2868,7 @@
       "printed_page": "70",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "middle-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 73,
@@ -2794,7 +2879,7 @@
       "printed_page": "71",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "middle-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 74,
@@ -2805,7 +2890,7 @@
       "printed_page": "72",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "middle-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 75,
@@ -2816,7 +2901,7 @@
       "printed_page": "73",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "middle-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 76,
@@ -2827,7 +2912,7 @@
       "printed_page": "74",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "middle-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 77,
@@ -2838,7 +2923,7 @@
       "printed_page": "75",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "middle-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 78,
@@ -2849,7 +2934,7 @@
       "printed_page": "76",
       "source_title": "산수 경주",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "ending-segment-exported;assembly-pending"
+      "restoration": "complete-article-assembly-exported"
     },
     {
       "pdf_page": 79,
@@ -2872,13 +2957,16 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "math-race-assembly",
-    "goal": "Assemble allthree immutable 산수 경주 segments covering printed64–76/PDF66–78. Preserve native metadata andverify bothincomingcontinuations andexternalcaptions before markingreadable.",
+    "id": "batch-17",
+    "goal": "Verify canonical0037 디지털 논리 회로 actual extent from printed78/PDF80,including ending andadjacent pages;restore within sixmappedpages orsegment iflonger.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0036"
+      "maso-1985-02-toc-0037"
     ],
-    "mapping_targets": "No new mapping/render/OCR/sourcecorrection. Preserve nativea339files,b106files,andcfinalsegment; project everycategory andUTF8range withoriginalreviewroots. Verify BASIC49025/0, dump60A8/60B0 andlistingcaptionlinks; retain allsourceuncertainties.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "PDF80already observed opening 디지털 논리회로 after independentSamsungcontestadvertisementPDF79. Reuse savedPDF79/80;inspectactualextent beforemapping. Retain originaldiagramlabels withcaptionassociations;no inferred technicalrepair.",
+    "provisional_lookup_targets": [
+      79,
+      80
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -2901,9 +2989,7 @@
     "Occam article retains108physical code rows/96source-line groups,42localized candidates,Willam/SER Q/finish-versus-finished names,oneunknown hyphen band and unknown encoded whitespace. Four Korean-annotated examples corrected directly from eng drafts. No source program execution,semantic repair or reference verification.",
     "80286 retains48localized candidates,nultitasking,Zenix,Bus Instruction Unit,physical wraps and literal model/numeric claims. One ellipsis-band count remains unknown;original uncaptioned processor diagram retained with independent labels pending volunteers. No historical/technical/reference verification.",
     "Forth complete printed56–63/PDF58–65 retains48localized candidates andoneunknown caption dot-band count;all17diagram originals remain withindependent label transcription pending volunteers. No body pages orassembly pending. Use pinned private forth_literal checker/context;fullnative metadata andall561native files preserved. Human acceptance/encoding/technical claims remain unverified.",
-    "산수 경주 opening64–69/PDF66–71 exported with479physical text rows,114code rows,43BASIC labels,228table cells andfour original screens. Fullextent64–76/PDF66–78;remainingsevenpages andimmutableassembly pending. AA operator,+. code point,T/O glyph and39sourcecandidates remain explicit;screenlabels pending volunteers. Parent0035 hasfour unchanged children0036–0039;originalthreechildstagecount isretained metadataerratum.",
-    "산수 경주 middle70–75/PDF72–77 exported with619physicaltextrows/615coderows,180newBASIClabels,22dump rows/176bytes. Incoming490andtwoexternalnative ranges verified;sixinternalBASIClinejoins/elevenpanelboundaries retained. Thirtysourcecandidates,145quotedfieldsand461unknownencodedwhitespacebands remainexplicit. Final76/PDF78andimmutableassemblypending.",
-    "산수 경주 final76/PDF78 exported with144physicaltextrows/143dump rows/1141bytes;final6520row hasfivebytes. Incoming60A8/60B0andpriorcaption retaintwoverifiedexternalranges. Twenty-twolocalizedsourcecandidates remain. All13articlepages covered inthreeimmutable natives;assemblyrequired before readable. No new encodedbinary orsemantic correction."
+    "산수 경주 complete64–76/PDF66–78 retains91localizedcandidates,461unknownencodedwhitespacebands,fouroriginalscreens andoneillustration;independent screenlabeltranscription pendingvolunteers. No bodypages orassemblypending. Use pinnedprivate math_race_literal checker/context;all474native files/fullmetadata preserved. Complete223BASIClabels/703BASICrows and165dump rows/1317literalbytes verified without execution orencodedbinary reconstruction. Humanacceptance/encoding/technicalclaims unverified."
   ],
   "reader_rebuild": false
 }
