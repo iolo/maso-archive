@@ -197,9 +197,19 @@ paired OCR or a new engine comparison.
   candidates, one unknown ellipsis count and 686 unknown space bands stay explicit.
   All 100 crops preceded79 tasks (32 eng/47 kor+eng); all raws read before one pass.
   No failure/retry/crop repair; all20,369 prior files verified; unchanged213tests.
+  Batch21 restores ending98–103/PDF100–105 at packages/batch-21-r01/pascal-c.
+  All 210 files match its rebuild; 8,507 current ranges, two external native ranges,
+  8,813 pins and 60 images pass. Its 270 text rows include209code/output rows in
+  207logical lines. Lists10–12,three captions,63assembly rows/158fields/94blanks,
+  11labels/four storage rows,11constants and six array bounds remain indexed.
+  Thirty-three candidates/863unknown space bands retain original scans. All60original/
+  two revised crops preceded47tasks; all raws read before one pass. No OCR failures/
+  retries. Failed initial constant-index assertion preserved; metadata fix changed
+  no text. All21,734prior files verified; unchanged213tests. Final contest excluded.
   Fourteen articles are readable/sample-reviewed, one partial, two headings non-owning
-  and39of56entries unresolved. Opening/middle86–97 are restored. Next: batch21
-  restores ending98–103/PDF100–105, then immutable assembly. Full86–103extent verified;
+  and39of56entries unresolved. All eighteen PASCAL pages86–103 are restored across
+  three natives. Next: immutable PASCAL assembly, preserving every metadata category,
+  source range and native file; no new OCR/source correction. Full86–103extent verified;
   independent lower-right contest onPDF105 excluded. Reuse saved PDF87–106views.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and

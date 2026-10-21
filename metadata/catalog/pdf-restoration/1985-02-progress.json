@@ -1304,7 +1304,8 @@
         "Lists1–5 code and printed outputs retain original panels/captions. Standalone declarations and examples are mapped as code; prose may include inline symbols. Literal source syntax/spacing/values remain unverified.",
         "CASE skeleton on87 closes with END on88; array prose88 continues89; BLOCKWRITE89 continues90. Page90 top-right WAIT prose continues lower-left around listing4. Page91 ends by introducing list6 on92; no invented word join.",
         "Opening printed86–91/PDF88–93 exported with all five listings/three outputs and full original pages. Source errors and unknown glyph/spacing counts remain explicit; twelve following pages and immutable assembly deferred.",
-        "Middle92–97/PDF94–99 exported in immutable segment b. All lists6–9, two directories, compiler/linker/debugger outputs, photograph and stack diagram retain originals. Opening segment unchanged; ending98–103 and assembly remain pending. Earlier twelve-page deferral is superseded only in active coverage."
+        "Middle92–97/PDF94–99 exported in immutable segment b. All lists6–9, two directories, compiler/linker/debugger outputs, photograph and stack diagram retain originals. Opening segment unchanged; ending98–103 and assembly remain pending. Earlier twelve-page deferral is superseded only in active coverage.",
+        "Ending98–103/PDF100–105 exported in immutable segment c, including lists10–12 and final TEST/LINKMT. Lower-right independent contest on105 excluded. All eighteen body pages covered across three natives; full-article assembly remains pending. Earlier page deferrals preserved historically and superseded only in active coverage."
       ],
       "restoration": {
         "segments": [
@@ -1369,6 +1370,37 @@
               "figures": 21
             },
             "segment": "b"
+          },
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-21-r01/pascal-c",
+            "article_id": "scan-maso-1985-02-toc-0038",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-21-r01/pascal-c/manifest.json",
+              "sha256": "6c361c5fbde9bb4450f47f695e18f90667d6c5fec4a12039d0782ac5275f1285",
+              "bytes": 35417
+            },
+            "coverage": {
+              "pdf_pages": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105
+              ],
+              "printed_pages": [
+                "98",
+                "99",
+                "100",
+                "101",
+                "102",
+                "103"
+              ],
+              "regions": 60,
+              "blocks": 47,
+              "figures": 13
+            },
+            "segment": "c"
           }
         ],
         "coverage": {
@@ -1384,7 +1416,13 @@
             96,
             97,
             98,
-            99
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
           ],
           "printed_pages": [
             "86",
@@ -1398,11 +1436,17 @@
             "94",
             "95",
             "96",
-            "97"
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103"
           ],
-          "regions": 234,
-          "blocks": 202,
-          "figures": 32
+          "regions": 294,
+          "blocks": 249,
+          "figures": 45
         },
         "known_full_extent": {
           "pdf_pages": [
@@ -1446,22 +1490,8 @@
             "103"
           ]
         },
-        "deferred_pdf_pages": [
-          100,
-          101,
-          102,
-          103,
-          104,
-          105
-        ],
-        "deferred_printed_pages": [
-          "98",
-          "99",
-          "100",
-          "101",
-          "102",
-          "103"
-        ],
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
         "assembly_required": true
       }
     },
@@ -3024,6 +3054,86 @@
         "sha256": "53cc42c104aca448c0a5e192a159b109ccb3b7524561b2c074503af84ed79782",
         "bytes": 4832317
       }
+    },
+    {
+      "id": "batch-21",
+      "status": "complete-ending-segment;full-article-assembly-pending",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0038"
+      ],
+      "mapped_pdf_pages": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "outside_map_lookup_pages": [
+        99,
+        106
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-21/validation.json",
+        "sha256": "ba4aa3638112d55ccb1e4ec4eedf140a32568816695959889ecf2b3c5d77b824",
+        "bytes": 2593
+      },
+      "stats": {
+        "completed_at": "2026-10-21T04:49:38.586519+00:00",
+        "regions": 60,
+        "blocks": 47,
+        "figures": 13,
+        "physical_text_rows": 270,
+        "physical_code_rows": 209,
+        "logical_source_lines": 207,
+        "listing_groups": 12,
+        "listing_group_rows": {
+          "assemble98-command": 1,
+          "list10-pascal": 9,
+          "list10-assembly": 14,
+          "list10-output": 3,
+          "list11-program": 120,
+          "io102-example": 2,
+          "link102-command": 2,
+          "list12-init": 19,
+          "list12-read-module": 19,
+          "list12-wnc": 11,
+          "test103-code": 7,
+          "link103-command": 2
+        },
+        "code_identifier_occurrences": 712,
+        "code_operator_occurrences": 579,
+        "numeric_fields": 117,
+        "quoted_fields": 10,
+        "unknown_space_bands": 863,
+        "connections": 2,
+        "listing_connections": 5,
+        "physical_wraps": 17,
+        "caption_links": 3,
+        "enumerated_items": 4,
+        "outputs": 1,
+        "assembly_rows": 63,
+        "assembly_fields": 158,
+        "assembly_blank_fields": 94,
+        "assembly_labels": 11,
+        "storage_rows": 4,
+        "constants": 11,
+        "array_bounds": 6,
+        "definition_headers": 11,
+        "unknown_bands": 0,
+        "source_candidates": 33,
+        "external_native_ranges": 2,
+        "source_passes": 1,
+        "ocr_tasks": 47,
+        "failures": 0,
+        "retries": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-21-preserved-work.json",
+        "sha256": "78795df6580290941bb314d5274602ef97e5200b0593bbd4b5df7a78b4d1002a",
+        "bytes": 5020852
+      }
     }
   ],
   "source_page_observations": [
@@ -3878,7 +3988,7 @@
       "printed_page": "98",
       "source_title": "PASCAL/MT+",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "body-observed;restoration-pending"
+      "restoration": "ending-segment-exported;full-article-assembly-pending"
     },
     {
       "pdf_page": 101,
@@ -3889,7 +3999,7 @@
       "printed_page": "99",
       "source_title": "PASCAL/MT+",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "body-observed;restoration-pending"
+      "restoration": "ending-segment-exported;full-article-assembly-pending"
     },
     {
       "pdf_page": 102,
@@ -3900,7 +4010,7 @@
       "printed_page": "100",
       "source_title": "PASCAL/MT+",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "body-observed;restoration-pending"
+      "restoration": "ending-segment-exported;full-article-assembly-pending"
     },
     {
       "pdf_page": 103,
@@ -3911,7 +4021,7 @@
       "printed_page": "101",
       "source_title": "PASCAL/MT+",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "body-observed;restoration-pending"
+      "restoration": "ending-segment-exported;full-article-assembly-pending"
     },
     {
       "pdf_page": 104,
@@ -3922,7 +4032,7 @@
       "printed_page": "102",
       "source_title": "PASCAL/MT+",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "body-observed;restoration-pending"
+      "restoration": "ending-segment-exported;full-article-assembly-pending"
     },
     {
       "pdf_page": 105,
@@ -3933,30 +4043,49 @@
       "printed_page": "103",
       "source_title": "PASCAL/MT+",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "body-observed;restoration-pending",
+      "restoration": "ending-segment-exported;full-article-assembly-pending",
       "excluded_panel": "Lower-right GR 타입의 숫자 쓰기 / 김승모 / Apple; independent contest, separate final accounting pending."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-21",
-    "goal": "Restore PASCAL/MT+ ending printed98–103/PDF100–105, preserving immutable opening and middle segments. Exclude independent lower-right GR 타입의 숫자 쓰기 contest on103/PDF105. Complete article assembly follows as a separate checkpoint.",
+    "id": "pascal-assembly",
+    "goal": "Assemble complete PASCAL/MT+ printed86–103/PDF88–105 from three immutable native segments, retaining every correction/source range, original image and uncertainty. All eighteen body pages restored; independent lower-right contest on103 excluded.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0038"
     ],
-    "mapping_targets": "Review reused whole pages and map only PDF100–105. Preserve incoming 리턴/어드레스 phrase, assembly listings and printed outputs, remaining PASCAL text and final TEST/LINKMT example; account separately for the independent final-page contest. No syntax, hardware, math or execution repair.",
-    "provisional_lookup_targets": [
-      99,
-      106
+    "native_segments": [
+      {
+        "segment": "a",
+        "directory": "archive/pdf/1985-02/packages/batch-19-r02/pascal-a",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-19-r02/pascal-a/manifest.json",
+          "sha256": "fbdd59e99ad4ca8103f658e90e60ccacc586aa6793519cb61b164c17c9ee6771",
+          "bytes": 86664
+        }
+      },
+      {
+        "segment": "b",
+        "directory": "archive/pdf/1985-02/packages/batch-20-r01/pascal-b",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-20-r01/pascal-b/manifest.json",
+          "sha256": "a5099cdd55eba8973283bd4fea9ea1455a0f7770cc9bd076473426aa1d8655e4",
+          "bytes": 58331
+        }
+      },
+      {
+        "segment": "c",
+        "directory": "archive/pdf/1985-02/packages/batch-21-r01/pascal-c",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-21-r01/pascal-c/manifest.json",
+          "sha256": "6c361c5fbde9bb4450f47f695e18f90667d6c5fec4a12039d0782ac5275f1285",
+          "bytes": 35417
+        }
+      }
     ],
-    "current_mapping_targets": [
-      100,
-      101,
-      102,
-      103,
-      104,
-      105
-    ],
+    "mapping_targets": "No new mapping/render/OCR/source correction. Preserve all native files byte-for-byte; project every metadata category and exact range, verify incoming list6 reference and middle-to-ending phrase, resolve only superseded active stage notes, retain full originals. Verify listings1–12, output groups, directory fields, assembly fields, prose joins, captions and excluded final contest; export independent byte-identical assembly before availability promotion.",
+    "provisional_lookup_targets": [],
+    "current_mapping_targets": [],
     "full_extent_verified": {
       "pdf_pages": [
         88,
@@ -4029,7 +4158,8 @@
     "산수 경주 complete64–76/PDF66–78 retains91localizedcandidates,461unknownencodedwhitespacebands,fouroriginalscreens andoneillustration;independent screenlabeltranscription pendingvolunteers. No bodypages orassemblypending. Use pinnedprivate math_race_literal checker/context;all474native files/fullmetadata preserved. Complete223BASIClabels/703BASICrows and165dump rows/1317literalbytes verified without execution orencodedbinary reconstruction. Humanacceptance/encoding/technicalclaims unverified.",
     "디지털 논리 회로 complete78–85/PDF80–87 retains51text/twoimage candidates,four unknown ellipsis counts,nine table groups/507indexed fields/89blank slots,twelve arithmetic panels andoriginal diagrams. Source 디지탈,printed formula/sentence errors,Ex-/culusive-OR,전가산기(half adder),prime positions andliteral truth cells remain. Independent diagram labels,human acceptance,encoded bytes,exact spacing andmath/technical claims unverified. No body pages orassembly pending. Use pinned private digital_logic_literal checker/context;all439native files/fullmetadata retained.",
     "PASCAL/MT+ opening86–91/PDF88–93 partial: 134regions/123blocks/11figures,444transcript rows including159code/output/example rows. Four vertical-dot extents have unknown original row counts. Lists1–5/three outputs,five captions,CASE continuation/eight prose associations retained. Fifty source candidates,ten unknown symbol/ellipsis extents and486 unknown encoded-space bands remain. Middle92–97,ending98–103 and immutable assembly pending; final independent contest excluded. Human acceptance,source bytes,technical claims and program execution unverified.",
-    "PASCAL middle92–97/PDF94–99 complete as partial segment b:100regions/79blocks/21figures,361text rows/213code-output rows/209logical source lines. Lists6–9,five output groups,eight captions,33directory entries/99fields/three blank slots,29file-option items and cross-page continuations indexed.43source candidates,one unknown ellipsis count and686unknown encoded-space bands remain. Independent diagram labels pending volunteers. Active combined coverage86–97;ending98–103 and immutable assembly pending. Earlier twelve-page deferral retained historically; final independent contest excluded."
+    "PASCAL middle92–97/PDF94–99 complete as partial segment b:100regions/79blocks/21figures,361text rows/213code-output rows/209logical source lines. Lists6–9,five output groups,eight captions,33directory entries/99fields/three blank slots,29file-option items and cross-page continuations indexed.43source candidates,one unknown ellipsis count and686unknown encoded-space bands remain. Independent diagram labels pending volunteers. Active combined coverage86–97;ending98–103 and immutable assembly pending. Earlier twelve-page deferral retained historically; final independent contest excluded.",
+    "PASCAL ending98–103/PDF100–105 complete as partial segment c:60regions/47blocks/13figures,270text rows/209code-output rows/207logical lines. Lists10–12,63assembly rows/158fields/94blank fields/11labels/four storage rows,11constants/six array bounds and three captions indexed.33source candidates and863unknown encoded-space bands remain. Two crop repairs preceded47tasks. Source-correction index first attempt omitted initial const-prefixed field and was rejected; revised metadata script corrects it with all source text unchanged. All eighteen body pages now covered; immutable assembly pending. Prior deferrals and final independent contest remain explicit."
   ],
   "reader_rebuild": false
 }

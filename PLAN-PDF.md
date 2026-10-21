@@ -273,11 +273,26 @@ independent diagram labels are pending volunteers. All 100 crops preceded 79 tas
 (32 eng/47 kor+eng); all raws read before one source pass. No failure/retry/crop repair.
 All 20,369 prior files verified; unchanged 213-test baseline reused.
 
+Batch21 restores ending98–103/PDF100–105 at
+`archive/pdf/1985-02/packages/batch-21-r01/pascal-c`. All 210 files match its
+independent rebuild; 8,507 current ranges, two external native ranges, 8,813 pins
+and 60 images pass. Its 270 text rows include 209 code/output rows in 207 logical
+lines. Lists10–12 retain three captions and five listing connections. Assembly
+indexes retain 63 rows/158 fields/94 blank fields/11 labels/four storage rows;
+eleven constants and six array bounds remain literal. Thirty-three candidates
+and 863 unknown encoded-space bands retain original scans. All 60 original/two
+revised crops preceded 47 tasks (28 eng/19 kor+eng); all raws read before one pass.
+No OCR failure/retry. Initial constant-index assertion failure is preserved;
+metadata correction changed no text. All 21,734 prior files verified; unchanged
+213-test baseline reused. Final independent contest excluded from article assets.
+
 The 56-entry ledger records fourteen readable/sample-reviewed articles, one partial,
 two non-owning headings and 39 unresolved entries. PASCAL's verified full extent is
 printed86–103/PDF88–105. The independent lower-right contest on103/PDF105 remains
-excluded. Opening and middle86–97/PDF88–99 are restored. Next: batch21 restores
-ending98–103/PDF100–105, then separate immutable article assembly. All PDF87–106 source views are preserved.
+excluded. All eighteen body pages86–103/PDF88–105 are restored across three
+immutable natives. Next: PASCAL assembly, preserving every native file, metadata
+category, source range and continuation before promoting article availability.
+No new OCR/source correction. All PDF87–106 source views are preserved.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

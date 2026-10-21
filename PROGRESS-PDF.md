@@ -50,8 +50,16 @@ Lists6–9,five output groups and all continuations remain source-linked.43candi
 one ellipsis count and686encoded-space bands remain uncertain; diagram labels pending.
 All100crops preceded79tasks; all raws read before one pass. No failure/retry/crop repair;
 20,369prior files verified, unchanged213-test baseline reused.
+Batch21 restores ending98–103/PDF100–105 at packages/batch-21-r01/pascal-c.
+All210files match its rebuild;8,507current ranges/two external ranges,8,813pins and
+60images pass. Lists10–12 retain209code/output rows/207logical lines,63assembly
+rows/158fields/94blanks,11labels/four storage rows,11constants and six array bounds.
+Thirty-three candidates/863unknown encoded-space bands remain. All60original/two
+revised crops preceded47tasks; no OCR failure/retry. Initial constant-index failure
+preserved and corrected without text changes. All21,734prior files verified.
 Full PASCAL extent86–103/PDF88–105 verified, excluding final independent contest.
-Opening/middle86–97 are restored. Next: batch21 ending98–103/PDF100–105, then assembly.
+All eighteen PASCAL pages are restored in three natives. Next: immutable article
+assembly with full metadata/range/native preservation; no new OCR/source correction.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
