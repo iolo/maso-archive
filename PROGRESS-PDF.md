@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Thirty-one articles are readable/sample-reviewed,
-none are partial, four headings are non-owning and 21 of 56 entries remain unresolved.
+February 1985 restoration is in progress. Thirty-two articles are readable/sample-reviewed,
+none are partial, four headings are non-owning and 20 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -566,9 +566,33 @@ Human acceptance,full proofreading,source bytes,spacing,execution andcontact val
 remain unverified. No reader rebuild.
 Current totals: 31 readable,no partial articles,four non-owning headings and21 unresolved.
 
-Next: restore 추종자0022 on printed158/PDF160 in batch42. Use only the complete
-independent contestpanel;exclude completedMLE andlower book advertisements. Parent
-정보모음0008,cover selection,remaining page accounting andissue closeout remain pending.
+Batch42 completes 추종자0022 on printed158/PDF160 at
+`archive/pdf/1985-02/packages/batch-42-r01/follower`. All 34 files match the
+independent rebuild; 209 exact UTF-8 ranges, 234 evidence pins and seven source-pixel
+crop comparisons pass. Its complete contest panel matches the existing MLE exclusion;
+completed MLE and lower book advertisements remain outside its ownership.
+
+Twelve physical text rows retain seven BASIC rows, one numeric label1, six wraps,
+two quoted strings, thirteen lexical colon groups and the symbolic LABEL/GOTO C.
+The quoted label closes on the next physical row; PEE/K and AM/OD99 wraps remain.
+Square brackets in both CIRCLE groups, 6^6 carets, compact POKEM and all numeric
+fields remain literal. Ten source candidates, eleven Unicode approximations and
+one unknown encoded-space band retain scans. Author 정 지 윤, SPC-1000 and the
+historical address remain as printed. No syntax, arithmetic or contact repair.
+
+All seven crops were reviewed before six tasks (one eng/five kor+eng); all drafts
+were read before one source pass. No crop repair, OCR failure or retry.
+All 42,052 prior files and 30 implementation pins remain exact; the unchanged
+213-test baseline is reused. Preservation inventory: 42,211 files.
+All four 1-LINE contest children are now readable; heading0019 and canonical links
+remain unchanged. Human acceptance, full proofreading, source bytes, spacing,
+execution and contact validity remain unverified. No reader rebuild.
+Current totals: 32 readable, no partial articles, four non-owning headings and 20 unresolved.
+
+Next: review 공모 입상0042 and restore 공모 총평0043 from printed183/PDF185 in
+batch43. Verify actual boundaries using PDF184–186 and classify the parent only
+from source evidence. Parent 정보모음0008, cover selection, remaining page accounting
+and issue closeout remain pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
