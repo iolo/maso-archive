@@ -606,14 +606,47 @@ respect the limits. All sixteen MLE pages now exist in four immutable natives;
 complete article assembly remains pending, and earlier natives are unchanged.
 Current totals: 23 readable, one partial article, two non-owning headings and 30 unresolved.
 
-Next: assemble complete MLE from exact pinned mle-a,b,c,d, prosePDF141–143 and
-listingsPDF148–160. Preserve full native metadata, independent fields, physical/logical
-rows, source uncertainties and all original owned images. Resolve caption/prose links
-and exact stale stage deferrals without changing native files or printed30행 to130.
-Retain firstordinal4,498/510 byte continuations,546/547 and BASIC300/310 boundaries,
-final1149RTS and460 : GOTO 180. Shared141 upperALE and160 contest/ads remain excluded.
-Cover selection,remaining page accounting and issue closeout remain pending.
-No reader rebuild;human acceptance and full proofreading pending.
+MLE is now complete at `archive/pdf/1985-02/packages/mle-complete-r02`.
+All420 files match the independent rebuild; all411 files from four immutable natives
+and their full metadata remain exact. The sixteen noncontiguous source pages are
+prose139–141/PDF141–143 and listings146–158/PDF148–160. No body pages or article
+assembly remain pending. Shared141 upperALE and160 contest/ads remain excluded;
+intervening144–147 belongs to ALE.
+
+All236 native category slices,21 object projections and70,141 projected UTF-8 ranges
+reverse to original records;75,654 active ranges and111 images pass. Seven external
+native associations resolve into complete article coordinates while their original
+wrappers remain unchanged. Twenty-five listing connections preserve498/510 byte
+continuations,546/547 and BASIC300/310 boundaries. Seven complete listing groups
+retain1,334 physical code rows/1,193 logical lines within1,554 total text rows.
+
+List1 retains1,146 ordinals4–1149,1,250 field-bearing physical rows,5,753 independent
+fields/2,997 blanks,2,495 object bytes,89 byte continuations,15 text continuations,
+13 quoted operands and17 DFB operands. No leading1–3 are invented; final49DB:60
+1149 RTS stays literal. List2 retains37 BASIC labels100–460 in73 rows/36 wraps,
+22 quoted strings andfinal460 : GOTO 180,without an addedEND. Three prose listing
+references target complete captions. Printed210/410 claims link to exact BASIC rows;
+printed30행 has no matching label and remains explicitly unmatched,never repaired to130.
+
+The two tables/18 cells,11 diagram labels,5 menu options,39 key notations,four prose
+joins andtwo pullquotes remain. 128 localized candidates,ten unknown decorative bands,
+two ink marks,33 Unicode approximations and5,511 unknown spacing bands retain originals.
+All source wording,opaque strings,byte/address discrepancies and errors remain literal.
+Use the pinned private `mle_literal.check` / `mle_literal.installed` adapter and its
+reproduction.json. All30 implementation pins remain unchanged;213-test baseline reused.
+No new mapping,rendering,OCR orsource correction. Eight exact stale stage notes are
+resolved only in active assembly notes; every original note remains in native metadata.
+The failed first assembly expectation and first key-wrap verifier are preserved;
+selectedr02 export/rebuild and revised verifier pass,including nine negative probes.
+All36,940 prior files remain unchanged.
+Current totals: 24 readable, no partial articles, two non-owning headings and30 unresolved.
+
+Next: verify 정보 레이다0013 and 나라안 소식0014 from printed160/PDF162, then
+restore within two canonical tasks andsix mapped pages. Resolve heading/body ownership
+without duplicate coverage; inspect actual continuations and ending. TOC나라밖소식166
+is a lookup lead,not proof of ending. Parent정보모음0008 classification remains pending.
+Cover selection,remaining page accounting andissue closeout remain pending.
+No reader rebuild;human acceptance andfull proofreading pending.
 
 ## December 1984 closeout, 2026-10-20
 

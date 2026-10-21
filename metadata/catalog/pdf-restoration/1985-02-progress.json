@@ -837,7 +837,7 @@
       "parent_id": "maso-1985-02-toc-0004",
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
         "Canonical0007 opens lower printed139/PDF141 with title 기계어 라인 에디터(MLE), platform 애플 컴패티블 and separate upper-right 특집II 입력도구 badge. Upper ALE body is excluded. No byline invented; canonical parent0004 retained.",
@@ -863,15 +863,16 @@
         "Saved whole pages159,160,161 individually reviewed. PDF159 ends BASIC300;160 begins310, left listing ends430, upper-right begins440 and ends460 with final physical : GOTO 180. No printed END is added.",
         "Current source contains sixteen BASIC labels310–460. Numeric-only continuations12,3617),16375),53,114 etc are wraps, not line labels. Preserve all strings, punctuation, numeric fields and source variations independently.",
         "Separate1-LINE contest and lower book advertisements on160 are excluded. Original MLE badge and both framed listing panels are retained separately; complete whole page remains private evidence.",
-        "Following161 is a full-page 현금가격분할판매 advertisement, not an MLE continuation. Prior upperALE/lowerMLE ownership on141 stays unchanged."
+        "Following161 is a full-page 현금가격분할판매 advertisement, not an MLE continuation. Prior upperALE/lowerMLE ownership on141 stays unchanged.",
+        "Complete immutable MLE assembly covers sixteen noncontiguous pages139–141,146–158/PDF141–143,148–160. All411 native files/full metadata retained. All236category slices/21objects/70141projected ranges reverse to native records. Seven external associations and25 listing boundaries verified. Complete list1 preserves1146 ordinals4–1149,1250 field-bearing physicalrows,5753fields/2997blanks/2495objectbytes,89byte/15textcontinuations,13quotedoperands and17DFBoperands. Complete list2 preserves37 BASIC labels100–460,73physicalrows/36wraps/22quotedstrings. Three prose listingreferences resolve to completecaptions; printed210/410 link to exact BASIC labels,printed30 remains unmatched without130 substitution. Prose tables18cells,11diagramlabels,5menuoptions,39keynotations andfourprosejoins retained. Shared141 upperALE excluded;160 contest/ads excluded; intervening144–147ALE excluded. No MLE bodypages orassembly pending; source uncertainties remain."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-02/packages/batch-31-r01/mle-a",
+        "directory": "archive/pdf/1985-02/packages/mle-complete-r02",
         "article_id": "scan-maso-1985-02-toc-0007",
         "manifest": {
-          "path": "archive/pdf/1985-02/packages/batch-31-r01/mle-a/manifest.json",
-          "sha256": "3a7459255854c5a23c648de23dc2f76b5c8cab740a2798d3c03e7bf914d5fc3d",
-          "bytes": 37646
+          "path": "archive/pdf/1985-02/packages/mle-complete-r02/manifest.json",
+          "sha256": "d7e0434e4f5db25e6c5658a2529632da7ee7ca429935a495ff67158bc15a2268",
+          "bytes": 74665
         },
         "coverage": {
           "pdf_pages": [
@@ -933,17 +934,17 @@
           159,
           160
         ],
-        "assembly_required": true,
+        "assembly_required": false,
         "deferred_pdf_pages": [],
         "validation": {
-          "path": "archive/pdf/1985-02/restoration/batch-34/validation.json",
-          "sha256": "f6a1ae3e17a3466e719710588986a7500722cff495c74960faf3133e4415d5e7",
-          "bytes": 2081
+          "path": "archive/pdf/1985-02/restoration/mle-assembly/validation.json",
+          "sha256": "749886a1a5ab96c45169b5d22b320103abce2a3a5bd1531d0e97bd3056f03260",
+          "bytes": 2794
         },
         "reproduction": {
-          "path": "archive/pdf/1985-02/restoration/batch-34/reproduction.json",
-          "sha256": "b6422a5a8f5669fd4ffa067a30a06e4f65e89d3e73882006f44b6fc46a6da3cb",
-          "bytes": 1463
+          "path": "archive/pdf/1985-02/restoration/mle-assembly/reproduction.json",
+          "sha256": "797f52f76ca3d19c3353caf22093dd237abd39788c88af29448ebe5d894a5951",
+          "bytes": 2412
         },
         "segments": [
           {
@@ -1134,8 +1135,32 @@
             "158"
           ]
         },
-        "complete_article_assembly_pending": true,
-        "all_body_pages_restored_across_natives": true
+        "complete_article_assembly_pending": false,
+        "all_body_pages_restored_across_natives": true,
+        "complete_article_assembly": {
+          "path": "archive/pdf/1985-02/packages/mle-complete-r02/manifest.json",
+          "sha256": "d7e0434e4f5db25e6c5658a2529632da7ee7ca429935a495ff67158bc15a2268",
+          "bytes": 74665
+        },
+        "index_mode": "mle-literal-v1",
+        "private_adapter": {
+          "path": "archive/pdf/1985-02/restoration/mle-assembly/mle_literal.py",
+          "sha256": "a0c0cb1a62c039345351ebf6897ce7092152efa251a1f879a852e6ee1c091645",
+          "bytes": 15762
+        },
+        "check_entrypoint": "mle_literal.check",
+        "adapter_context": "mle_literal.installed",
+        "adapter_pythonpath": "archive/pdf/1985-02/restoration/mle-assembly",
+        "native_files_retained_exactly": 411,
+        "projected_category_occurrences": 236,
+        "projected_object_occurrences": 21,
+        "projected_utf8_occurrences": 70141,
+        "all_active_utf8_occurrences": 75654,
+        "resolved_stage_limits": {
+          "path": "archive/pdf/1985-02/restoration/mle-assembly/ledger-stage-resolution.json",
+          "sha256": "471c5788d0bad57aba65fe0d9130bc4283162bf0cf85f6fb543e82bfce5f3fd0",
+          "bytes": 2537
+        }
       }
     },
     {
@@ -2864,8 +2889,8 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 23,
-    "partial": 1,
+    "readable": 24,
+    "partial": 0,
     "non_owning_headings": 2,
     "unresolved_eligibility": 30
   },
@@ -5593,6 +5618,52 @@
         "sha256": "47ff0b4400cf262d909e0705ddae3365d779fec3b2ace1465d79f2e0fcf0ef13",
         "bytes": 8230881
       }
+    },
+    {
+      "id": "mle-complete-assembly",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0007"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/mle-assembly/validation.json",
+        "sha256": "749886a1a5ab96c45169b5d22b320103abce2a3a5bd1531d0e97bd3056f03260",
+        "bytes": 2794
+      },
+      "stats": {
+        "files": 420,
+        "native_files": 411,
+        "regions": 111,
+        "blocks": 88,
+        "figures": 23,
+        "physical_text_rows": 1554,
+        "physical_code_rows": 1334,
+        "logical_source_lines": 1193,
+        "listing_groups": 7,
+        "captions": 2,
+        "listing_annotations": 3,
+        "assembly_ordinals": 1146,
+        "basic_labels": 37,
+        "projected_ranges": 70141,
+        "all_active_ranges": 75654,
+        "category_occurrences": 236,
+        "projected_objects": 21,
+        "new_ocr_tasks": 0,
+        "assembly_pending": false
+      },
+      "resolved_stage_limits": {
+        "path": "archive/pdf/1985-02/restoration/mle-assembly/ledger-stage-resolution.json",
+        "sha256": "471c5788d0bad57aba65fe0d9130bc4283162bf0cf85f6fb543e82bfce5f3fd0",
+        "bytes": 2537
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/mle-assembly-preserved-work.json",
+        "sha256": "16eca4e65e60058c347b6008fbb97c48299683a35ed0b4ccda357e8b7bdf6c1c",
+        "bytes": 8427806
+      }
     }
   ],
   "source_page_observations": [
@@ -6924,8 +6995,8 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "기계어 라인 에디터(MLE)",
-      "restoration": "MLE-prose-segment-exported;listing-and-assembly-pending",
-      "ownership_note": "Upper ALE remains complete in its own package; MLE owns lower title/platform/prose and separate badge only."
+      "restoration": "complete-ALE-and-MLE-assemblies-exported;separate-owned-regions",
+      "ownership_note": "CompleteALE owns upper prose; completeMLE owns lower body and separate badge. Both packages retain disjoint source regions and original exclusions."
     },
     {
       "pdf_page": 142,
@@ -6935,7 +7006,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "기계어 라인 에디터(MLE)",
-      "restoration": "MLE-prose-segment-exported;listing-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "MLE prose, examples, menu, tables and memory diagram restored; listings remain pending."
     },
     {
@@ -6946,7 +7017,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "기계어 라인 에디터(MLE)",
-      "restoration": "MLE-prose-segment-exported;listing-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "MLE prose, examples, menu, tables and memory diagram restored; listings remain pending."
     },
     {
@@ -6957,7 +7028,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-first-listing-segment-exported;later-listings-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -6968,7 +7039,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-first-listing-segment-exported;later-listings-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -6979,7 +7050,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-first-listing-segment-exported;later-listings-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -6990,7 +7061,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-first-listing-segment-exported;later-listings-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -7001,7 +7072,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-first-listing-segment-exported;later-listings-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -7012,7 +7083,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-first-listing-segment-exported;later-listings-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -7023,7 +7094,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-second-listing-segment-exported;final-BASIC-page-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -7034,7 +7105,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-second-listing-segment-exported;final-BASIC-page-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -7045,7 +7116,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-second-listing-segment-exported;final-BASIC-page-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -7056,7 +7127,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-second-listing-segment-exported;final-BASIC-page-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -7067,7 +7138,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "리스트1. MLE 소스프로그램",
-      "restoration": "MLE-second-listing-segment-exported;final-BASIC-page-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 source ordinals4–1149; retain unnumbered byte rows and wraps."
     },
     {
@@ -7078,7 +7149,7 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "MLE list1 ending/list2 MLE.START opening",
-      "restoration": "MLE-second-listing-segment-exported;final-BASIC-page-and-assembly-pending",
+      "restoration": "complete-MLE-assembly-exported",
       "ownership_note": "List1 ends49DB:60 1149 RTS; separate list2 startsBASIC100 and continues300."
     },
     {
@@ -7089,8 +7160,8 @@
         "maso-1985-02-toc-0007"
       ],
       "source_title": "MLE.START ending",
-      "restoration": "MLE-final-BASIC-page-exported;complete-article-assembly-pending;independent-contest-and-ads-excluded",
-      "ownership_note": "List2 continues310–460, ending : GOTO 180; independent contest 추종자/SPC-1000 and lower book ads excluded from MLE."
+      "restoration": "complete-MLE-assembly-exported;independent-contest-and-ads-excluded",
+      "ownership_note": "MLE owns sectionbadge,left BASIC310–430 andupper-right440–460,ending : GOTO 180. Separate canonical contest candidate추종자 andlowerbookads remain outsideMLE; their issue classification is pending."
     },
     {
       "pdf_page": 161,
@@ -7113,42 +7184,30 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "mle-complete-assembly",
-    "goal": "Assemble the complete sixteen-page MLE article from four immutable reviewed natives. Preserve full correction metadata, all physical/logical rows, independent assembly fields, BASIC labels, source uncertainties and original owned images.",
+    "id": "batch-35",
+    "goal": "Verify 정보 레이다 canonical0013 and 나라안 소식 canonical0014 ownership and actual extent from printed160/PDF162,then restore eligible material within the six-page checkpoint limit.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0007"
+      "maso-1985-02-toc-0013",
+      "maso-1985-02-toc-0014"
     ],
-    "native_packages": [
-      "archive/pdf/1985-02/packages/batch-31-r01/mle-a",
-      "archive/pdf/1985-02/packages/batch-32-r01/mle-b",
-      "archive/pdf/1985-02/packages/batch-33-r01/mle-c",
-      "archive/pdf/1985-02/packages/batch-34-r01/mle-d"
+    "mapping_targets": "Reuse savedPDF162 source view. Its observed 정보교류 / 나라안 소식 opening is a lead,not a canonical ownership decision. Verify whether 정보 레이다 owns separate body material or is a non-owning heading; avoid duplicate ownership. Review domestic-news continuations and actual ending before mapping at most six source pages. Parent정보모음0008 remains unresolved until its own classification checkpoint.",
+    "provisional_lookup_targets": [
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
     ],
-    "mapping_targets": "No new mapping or OCR. Reuse exact pinned mle-a,b,c,d source coverage: prosePDF141–143 and listingPDF148–160; interveningALE144–147 excluded. Project all original metadata and ranges without changing native files.",
-    "boundary_review": "Resolve list1/list2 caption and prose associations using exact native occurrences; preserve list1firstordinal4 without invented1–3, ordinal498 byte page continuation, ordinal510 column continuation,546/547 segment boundary, final1149RTS and BASIC300/310 boundary through final460 : GOTO 180. Prose30행 remains an independent source claim, never repaired to130. Resolve only precise stale stage deferrals in assembled active notes; preserve every original note and uncertainty. PDF141 upperALE and PDF160 contest/ads remain excluded.",
+    "boundary_review": "Confirm canonical titles,parent0008,allcolumns/captions/tables/images andadvertising exclusions. TOC나라밖소식166/PDF168 is a lookup lead,not proof of domestic-news ending. Retain literal historical wording; no source claims repaired. MLE ends160 and161 is an independent advertisement.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    },
-    "assembly_source_pages": [
-      141,
-      142,
-      143,
-      148,
-      149,
-      150,
-      151,
-      152,
-      153,
-      154,
-      155,
-      156,
-      157,
-      158,
-      159,
-      160
-    ]
+    }
   },
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",
@@ -7176,7 +7235,7 @@
     "Background music canonical0003 is complete across eleven noncontiguous pages117–121,128–133/PDF119–123,130–135; firstlisting128loweronly andfinal133two disjointpanels. Two natives/all486files/fullmetadata remain exact. Complete indexes retain798textrows,519coderows/509logicalgroups,440assemblyordinals/2107fields/1022blanks/711objectbytes,208comments/13storage directives,seven unnumberedbytecontinuations,64patchdumpbytes/ninepatchassemblyrows,48BASIClabels/twowraps,17PLAYstrings/251characters,sixcaptions/12annotations and15externalassociations. Sixty-two sourcecandidates,fiveunknownbands and2091unknownspacebands remain. Originalcommand,byte,mnemonic,address,annotation-range,PLAYstring andspelling discrepancies retained. Diagramlabels,humanacceptance,sourcebytes,exactspacing,execution andtechnicalclaims unverified. No bodypages orassembly pending. Use pinned background_music_literal checker/context.",
     "FeatureII inputtools opener0004 andpaperholder0005 complete onprinted134–135/PDF136–137. Openerowns its introduction/photo while allthreecanonicalchildren remain unchanged. Four faintdiagram labels transcribed andsource-linked; nine localizedcandidates,two RomanII Unicodeapproximations andtenphysical wraps retain originals. Paperholdercolumnjoin입/력된,caption그림1,bilingualheadlines andhistorical5～6천원price/availability/usefulnessclaims remain literal. Humanacceptance,fullproofreading,sourcebytes,mechanical/historicalclaims andsmall chipmarkings inintrophoto remain unverified. No bodypages orassembly pending for these two articles.",
     "ALE canonical0006 is complete across eight noncontiguous pages136–139,142–145/PDF138–141,144–147. Two natives/all276files/fullmetadata retained. Complete indexes retain855textrows,588coderows/587logicalgroups,579assemblyordinals/3161fields/892blanks/1007objectbytes,375comments/136labels/49directives,twoheaders,oneBASIClabel,sixexamples,two tables38cells,threecaptions,12ordinalannotations,fiveroutine ranges,sevenkeynotations/sevenPOKEcommands,eightprosejoins and13externalassociations. Sixty-seven candidates,oneunknown dashband,twoinkmarks,eighteenUnicodeapproximations and2983unknownspacebands remain. Prose1006,L$3EF,37478($9266),overlappingroutine ranges,listing1007bytes,open-ended494 andFFER remain literal. Shared139upperALE/lowerMLE ownership preserved; interveningPDF142–143 excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned ale_literal checker/context.",
-    "MLE canonical0007 remains partial pending complete article assembly. All sixteen noncontiguous pages now exist in four immutable natives: prosePDF141–143 and listingsPDF148–160. Final page160 retains16 BASIC labels310–460,33 physical rows/17 wraps,eight quoted strings,64 numeric fragments,three GOTO targets,430/440 column join andtwo exact incoming/caption associations. Original badge andtwo framed listing panels are preserved; independent contest and lower book advertisements excluded. Final460 : GOTO 180 establishes ending; no END invented. Eleven source candidates,one RomanII approximation and162 unknown spacing bands retain originals. SourceL0/LO,A$/L$ display strings,BLOADED and all numeric/string wraps remain literal. Earlier603+543 assembly ordinals,unnumbered byte/comment/string rows and all prose retained unchanged. Human acceptance,full proofreading,source bytes andexecution unverified; no source or syntax repair."
+    "MLE canonical0007 is complete across sixteen noncontiguous pages139–141,146–158/PDF141–143,148–160. Four natives/all411files/fullmetadata retained. Complete indexes retain1554textrows,1334coderows/1193logicalgroups,sevencompletegroups,1146assemblyordinals4–1149,5753fields/2997blanks/2495objectbytes,89byte/15textcontinuations,13quotedoperands/17DFBoperands,37BASIClabels100–460 in73rows/36wraps/22strings,two tables18cells,11diagramlabels,5menuoptions,39keynotations,fourprosejoins,25listingconnections andsevenexternalassociations. 128candidates,tenunknownbands,twoinkmarks,33Unicodeapproximations and5511unknownspacebands remain. Printed30행 has no matching BASIC label and no inferred130target;210/410 link to exact printed rows. Firstordinal4 andfinal1149RTS,final460 : GOTO 180,allopaque strings,byte/address differences andsource errors remain literal. Shared141upperALE and160contest/ads excluded; intervening144–147ALE excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned mle_literal checker/context."
   ],
   "reader_rebuild": false
 }
