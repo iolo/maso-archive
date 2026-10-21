@@ -702,10 +702,26 @@ Use the pinned private `restoration/grades-assembly/grades_literal.py` checker/c
 and `reproduction.json`; the generic checker alone does not recognize this format.
 Current totals: 34 readable, no partial articles, five non-owning headings and 17 unresolved.
 
-Next: verify 시간표 작성 프로그램0045 from printed196/PDF198, including its full
-extent, all listings/tables/captions and adjacent pages before mapping. PDF198–203 is
-only a provisional six-page opening checkpoint; the next TOC entry is a lookup lead,
-not proof of the ending. Retain the two-article/six-page/twenty-outside-lookup limits.
+Batch46 is in progress for 시간표 작성 프로그램0045. Source review establishes
+seven body pages196–202/PDF198–204; PDF205 is an independent advertisement and
+PDF206 starts 애플 클럭. The first six pages198–203 are mapped; final204 and complete
+assembly remain deferred. Ten whole-page views and all60 crops were reviewed;
+six listing margins were widened and rechecked before OCR. All51 tasks (six eng,
+45 kor+eng) completed without failure/retry, and every draft was read before one
+source correction pass. The selected51 regional texts retain460 serialized rows,
+including262 BASIC physical rows and63 source-label occurrences. Seven repeated0
+comment labels and the apparent duplicate130 before EACH OF TEACHER remain literal;
+GOTO180, table159, custom glyphs and mismatched memory bounds remain independent.
+One transcription O/0 error was corrected in a fresh text revision; all originals survive.
+Source/runtime/30 implementation pins,44,135 prior files and all crop/OCR pins pass.
+The initial unsupported table-kind preparation failed before map output; its revised
+map uses prose regions for table OCR. No article package or availability promotion yet.
+Private preparation evidence: `archive/pdf/1985-02/restoration/batch-46/preparation-validation.json`.
+
+Next: finish batch46 structured correction metadata, including table cells and brace
+groups, boxed keys, captions, repeated BASIC-label occurrences, physical continuations,
+quoted/custom glyph ranges and source uncertainties; export and independently rebuild
+this six-page segment. Then restore final202/PDF204 and assemble the seven-page article.
 Parent 정보모음0008, cover selection, remaining page accounting and issue closeout
 remain pending. No reader rebuild; human acceptance and full proofreading remain pending.
 
