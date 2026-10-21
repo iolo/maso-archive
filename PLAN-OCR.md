@@ -76,9 +76,18 @@ paired OCR or a new engine comparison.
   source candidates retain literal spelling/claims; diagram labels pending volunteers.
   All 56 original/three revised crops inspected before 50 tasks; all raws read before
   one source pass; zero OCR failure/retry. Unchanged 213-test baseline reused.
-  Nine articles are readable/sample-reviewed, one heading is non-owning and 46 of
-  56 canonical entries remain unresolved. Next: batch10 verifies 오캄의 칼날 from
-  printed44/PDF46. Cover and issue closeout remain pending.
+  Batch10 completes 오캄의 칼날 on printed44–49/PDF46–51. All 286 rebuild files,
+  4,778 exact ranges, 5,007 evidence pins and 76 images pass. The 108 physical code
+  rows form 96 source-line groups; two listing captions, four operator-table rows,
+  eleven wrapped annotations and ten prose connections remain. Forty-two candidates,
+  one unknown hyphen band and unknown encoded whitespace retain source scans.
+  All 76 original/four revised crops inspected before 67 tasks (13 eng/54 kor+eng);
+  all raws read before one source pass. Zero OCR failures/retries. Four Korean-annotated
+  examples corrected directly from eng drafts. Metadata revision adds logical grouping;
+  text unchanged/all versions preserved. Unchanged 213-test baseline reused.
+  Ten articles are readable/sample-reviewed, one heading is non-owning and 45 of
+  56 canonical entries remain unresolved. Next: batch11 verifies 80286 from
+  printed50/PDF52. Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.

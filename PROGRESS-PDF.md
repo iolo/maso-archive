@@ -6,16 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Nine articles are readable/sample-reviewed,
-one heading is non-owning and 46 of 56 canonical entries remain unresolved. The latest
-is 모뎀, 그 속 이야기 on printed40–43/PDF42–45. Parent 마이크로컴퓨터의 새로운 물결
-retains its four child relationships. All 214 files match the independent rebuild;
-1,934 exact ranges, 2,100 evidence pins and 56 images pass. Two original diagrams/two
-captions, two pull quotes, five chip features, two credits and six connections remain.
-Twenty-six source candidates retain original spelling and claims; independent diagram
-label transcription is pending volunteers. All 50 OCR tasks completed without failure
-or retry. The unchanged pipeline reuses its passing 213-test baseline. Next is
-오캄의 칼날 from printed44/PDF46. Cover selection and issue closeout remain pending.
+February 1985 restoration is in progress. Ten articles are readable/sample-reviewed,
+one heading is non-owning and 45 of 56 canonical entries remain unresolved. The latest
+is 오캄의 칼날 on printed44–49/PDF46–51. All 286 files match the independent rebuild;
+4,778 exact ranges, 5,007 evidence pins and 76 images pass. Its 108 code rows form
+96 source-line groups; two listing captions, an illustration, two pull quotes,
+four operator-table rows/eight cells and eleven wrapped annotations remain.
+Forty-two source candidates, one unknown hyphen-band count and unknown encoded
+whitespace retain original scans. All 67 OCR tasks completed without failure/retry.
+The unchanged pipeline reuses its passing 213-test baseline. Next is 80286 from
+printed50/PDF52. Cover selection and issue closeout remain pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 

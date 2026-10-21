@@ -106,9 +106,21 @@ candidates retain Oxcide/역활 and literal claims. Diagram-label transcription 
 pending volunteers. All 50 tasks completed without failure/retry; three crop repairs
 preceded OCR. Unchanged 213-test baseline reused.
 
-The 56-entry issue ledger records nine readable/sample-reviewed articles, one
-non-owning heading and 46 unresolved entries. Next is batch10: verify 오캄의 칼날
-from printed44/PDF46 and restore within six mapped pages. PDF45/46 renders can be
+Batch10 completes 오캄의 칼날, canonical0032, on printed44–49/PDF46–51.
+All 286 files at `archive/pdf/1985-02/packages/batch-10-r02/occam` match its
+independent rebuild. All 4,778 exact ranges, 5,007 evidence pins and 76 images pass.
+Sixty-seven blocks retain 436 physical rows, including 108 code rows in nine groups
+and 96 source-line groups. Two listing captions/panels, one illustration, two pull
+quotes, four operator-table rows/eight cells, eleven annotation wraps and ten prose
+connections remain. Forty-two localized candidates retain Willam, SER Q and literal
+identifier differences. One hyphen-band count and encoded whitespace remain unknown.
+All 67 tasks completed without failure/retry; four crop repairs preceded OCR. A fresh
+metadata revision adds logical row grouping without changing text. All versions remain.
+Unchanged 213-test baseline reused.
+
+The 56-entry issue ledger records ten readable/sample-reviewed articles, one
+non-owning heading and 45 unresolved entries. Next is batch11: verify 80286
+from printed50/PDF52 and restore within six mapped pages. PDF51/52 renders can be
 reused. Cover selection, remaining source-page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
