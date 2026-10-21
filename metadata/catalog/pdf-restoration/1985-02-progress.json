@@ -1131,7 +1131,12 @@
         "Batch17 restores only opening printed78–83/PDF80–85. Closing84–85/PDF86–87 and immutable complete-article assembly remain pending; six mapped pages/four outside lookups/one canonical task.",
         "Source headline is 디지탈 논리회로, credited 편집부; 교육입문 is a running section label. Enlarged source detail supersedes preliminary 디지털 source-title narrative. Original maps/notes remain preserved and canonical title stays 디지털 논리 회로.",
         "Five numbered tables, two additional truth tables, eight gate groups, eleven arithmetic panels, seven Karnaugh diagrams and one hardware diagram retain original pixels. Table names/formulas/truth cells and captions have exact text ranges; independent diagram labels remain pending volunteers.",
-        "Outgoing printed83/PDF85 ends 함수 F를 카르노 맵에 그려보면 after an eleven-term function. Its opening diagram continues on printed84/PDF86; no word join is invented."
+        "Outgoing printed83/PDF85 ends 함수 F를 카르노 맵에 그려보면 after an eleven-term function. Its opening diagram continues on printed84/PDF86; no word join is invented.",
+        "WholePDF85–88 inspected. Endingprinted84–85/PDF86–87 completes eight-page article78–85/PDF80–87; followingPDF88 opens PASCAL/MT+ independently.",
+        "Currentcheckpoint maps onlyending84–85/PDF86–87;opening78–83/PDF80–85 preserved inbatch17. Immutablearticleassembly remains required. Twomappedpages,twooutsidelookups,onecanonicaltask.",
+        "IncomingPDF86opening Karnaughdiagram isassociated withprior outgoingfunction andtext 함수 F를 카르노 맵에 그려보면. Preserve native source ranges; no invented word join.",
+        "FourKarnaughdiagram regions on84 andtwoon85,circuit/blockdiagrams,twotruth tables,sixdesignsteps andfourone-bitaddition examples remain source material. Independent diagramlabeltranscription pendingvolunteers; tablecells,steps andmainformulas transcribed/indexed.",
+        "Physical84right것→85left이다. and85middle때→85right문에 continuations retained. Final paragraph ends 다음에 기회가 있다면 좀 더 복잡한 디지탈 시스템의 설계도 다뤄 보려 한다. before nextarticle."
       ],
       "restoration": {
         "segments": [
@@ -1165,6 +1170,29 @@
               "figures": 31
             },
             "segment": "a"
+          },
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-18-r01/digital-logic-b",
+            "article_id": "scan-maso-1985-02-toc-0037",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-18-r01/digital-logic-b/manifest.json",
+              "sha256": "dca1278820e7ca10d98d0fa154b123c223fb5c53b5823a09e7ae176b52d22a4e",
+              "bytes": 21463
+            },
+            "coverage": {
+              "pdf_pages": [
+                86,
+                87
+              ],
+              "printed_pages": [
+                "84",
+                "85"
+              ],
+              "regions": 42,
+              "blocks": 26,
+              "figures": 16
+            },
+            "segment": "b"
           }
         ],
         "coverage": {
@@ -1174,7 +1202,9 @@
             82,
             83,
             84,
-            85
+            85,
+            86,
+            87
           ],
           "printed_pages": [
             "78",
@@ -1182,11 +1212,13 @@
             "80",
             "81",
             "82",
-            "83"
+            "83",
+            "84",
+            "85"
           ],
-          "regions": 99,
-          "blocks": 68,
-          "figures": 31
+          "regions": 141,
+          "blocks": 94,
+          "figures": 47
         },
         "known_full_extent": {
           "pdf_pages": [
@@ -1210,14 +1242,8 @@
             "85"
           ]
         },
-        "deferred_pdf_pages": [
-          86,
-          87
-        ],
-        "deferred_printed_pages": [
-          "84",
-          "85"
-        ],
+        "deferred_pdf_pages": [],
+        "deferred_printed_pages": [],
         "assembly_required": true
       }
     },
@@ -2480,6 +2506,67 @@
         "sha256": "5a97df246f6fb5edea9f6ddb1c5ec74525e60c790215e8f89746df99f89eb3fe",
         "bytes": 3514136
       }
+    },
+    {
+      "id": "batch-18",
+      "status": "complete-ending-segment;article-assembly-pending",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0037"
+      ],
+      "mapped_pdf_pages": [
+        86,
+        87
+      ],
+      "outside_map_lookup_pages": [
+        85,
+        88
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-18/validation.json",
+        "sha256": "bd1df20b143f3642b3c70bfbb6e23354954bc4bc7cc2369192e403a9793573f1",
+        "bytes": 2231
+      },
+      "stats": {
+        "completed_at": "2026-10-21T03:36:41.012196+00:00",
+        "regions": 42,
+        "blocks": 26,
+        "figures": 16,
+        "physical_non_table_text_rows": 134,
+        "serialized_table_rows": 17,
+        "tables": 2,
+        "table_data_rows": 12,
+        "table_data_cells": 56,
+        "table_headers": 9,
+        "indexed_table_fields": 65,
+        "design_steps": 6,
+        "arithmetic_examples": 4,
+        "arithmetic_fields": 15,
+        "karnaugh_diagram_regions": 6,
+        "adder_block_diagrams": 2,
+        "adder_circuit_diagrams": 2,
+        "caption_links": 0,
+        "prose_connections": 3,
+        "physical_wraps": 12,
+        "formula_rows": 15,
+        "carry_name_occurrences": 34,
+        "source_text_candidates": 14,
+        "source_image_candidates": 2,
+        "exact_range_occurrences": 1224,
+        "external_native_ranges": 3,
+        "ocr_tasks": 26,
+        "failures": 0,
+        "retries": 0,
+        "source_passes": 1,
+        "availability": "partial",
+        "deferred_pdf_pages": [],
+        "assembly_pending": true
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-18-preserved-work.json",
+        "sha256": "183445998a2f47cd4bb09715146254c758fe0041293662632f7366892831065d",
+        "bytes": 3631463
+      }
     }
   ],
   "source_page_observations": [
@@ -3180,7 +3267,7 @@
       "printed_page": "84",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "ending-observed;restoration-pending"
+      "restoration": "ending-segment-exported;assembly-pending"
     },
     {
       "pdf_page": 87,
@@ -3191,7 +3278,7 @@
       "printed_page": "85",
       "source_title": "디지탈 논리회로",
       "non_owning_section": "maso-1985-02-toc-0035",
-      "restoration": "ending-observed;restoration-pending"
+      "restoration": "ending-segment-exported;assembly-pending"
     },
     {
       "pdf_page": 88,
@@ -3206,18 +3293,13 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-18",
-    "goal": "Restore 디지털 논리 회로 ending printed84–85/PDF86–87, retaining incoming four-variable Karnaugh association and final adder design; assemble both immutable segments separately.",
+    "id": "digital-logic-assembly",
+    "goal": "Assemble immutable opening/ending 디지털 논리 회로 natives covering printed78–85/PDF80–87. Preserve all native metadata,table/arithmetic/diagram indexes andsource uncertainties before marking readable.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0037"
     ],
-    "mapping_targets": "Reuse saved PDF85–88. Map only ending PDF86–87 after exact crop review; PDF88 PASCAL/MT+ remains separate. Preserve all Boolean formulas, tables, diagrams and captions literally without mathematical correction.",
-    "provisional_lookup_targets": [
-      85,
-      86,
-      87,
-      88
-    ],
+    "mapping_targets": "No new mapping/render/OCR/source correction. Preserve311opening and128ending files. Project everycategory/range; verify incomingeleven-term function-to-Karnaughassociation andexternal table4caption/reference. Preserve source 디지탈 erratum andliteral formula discrepancies.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -3241,7 +3323,8 @@
     "80286 retains48localized candidates,nultitasking,Zenix,Bus Instruction Unit,physical wraps and literal model/numeric claims. One ellipsis-band count remains unknown;original uncaptioned processor diagram retained with independent labels pending volunteers. No historical/technical/reference verification.",
     "Forth complete printed56–63/PDF58–65 retains48localized candidates andoneunknown caption dot-band count;all17diagram originals remain withindependent label transcription pending volunteers. No body pages orassembly pending. Use pinned private forth_literal checker/context;fullnative metadata andall561native files preserved. Human acceptance/encoding/technical claims remain unverified.",
     "산수 경주 complete64–76/PDF66–78 retains91localizedcandidates,461unknownencodedwhitespacebands,fouroriginalscreens andoneillustration;independent screenlabeltranscription pendingvolunteers. No bodypages orassemblypending. Use pinnedprivate math_race_literal checker/context;all474native files/fullmetadata preserved. Complete223BASIClabels/703BASICrows and165dump rows/1317literalbytes verified without execution orencodedbinary reconstruction. Humanacceptance/encoding/technicalclaims unverified.",
-    "디지털 논리 회로 remains partial: opening78–83/PDF80–85 exported; ending84–85/PDF86–87 andimmutableassembly pending. Source spelling 디지탈, printed sentence/formula errors,37localized candidates and4unknown encoded ellipsis bands remain. Seven Karnaugh diagrams and hardware circuit retain pixels; independent diagram labels pending volunteers. Table4 row alignment is editorial; original geometry authoritative."
+    "디지털 논리 회로 remains partial: opening78–83/PDF80–85 exported; ending84–85/PDF86–87 andimmutableassembly pending. Source spelling 디지탈, printed sentence/formula errors,37localized candidates and4unknown encoded ellipsis bands remain. Seven Karnaugh diagrams and hardware circuit retain pixels; independent diagram labels pending volunteers. Table4 row alignment is editorial; original geometry authoritative.",
+    "디지털 논리 회로 ending84–85/PDF86–87 exported: two truth tables/56data cells/9headers,sixdesignsteps,fouradditionexamples,sixKarnaughregions,fouradderdiagrams. Fourteentext/twoimage candidates retain Ex-/culusive-OR,전가산기(half adder),primeposition andformula differences. All8bodypages covered inimmutable natives;assemblyrequired. Threeexternalnative ranges linkincoming function andtable4reference;source correctness/independentdiagramlabels unverified."
   ],
   "reader_rebuild": false
 }

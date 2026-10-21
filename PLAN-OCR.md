@@ -164,8 +164,13 @@ paired OCR or a new engine comparison.
   failure/retry; unchanged 213-test baseline reused. Preliminary source-title spelling
   corrected through explicit metadata erratum, preserving original maps/notes.
   Thirteen articles are readable/sample-reviewed, one partial, two headings non-owning
-  and 40 of56 entries unresolved. Next: batch18 restores ending84–85/PDF86–87 and
-  its incoming four-variable Karnaugh association. Reuse PDF85–88; assemble separately.
+  and 40 of56 entries unresolved. Batch18 completes ending84–85/PDF86–87: all 128
+  files match its rebuild; 1,224 current ranges, three external ranges, 1,344 pins and
+  42 images pass. Two truth tables retain 56 data cells; six steps/four arithmetic
+  examples and fourteen text/two image candidates remain. All 42 original/one revised
+  crops preceded 26 kor+eng tasks; all raws read before one source pass. No failures
+  or retries; unchanged tests. Next: digital-logic-assembly preserves all 439 native
+  files, incoming Karnaugh association and external table4 reference, without new OCR.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

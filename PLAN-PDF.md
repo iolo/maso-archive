@@ -229,9 +229,16 @@ pass. No OCR failure/retry; unchanged 213-test baseline reused. Original maps re
 the superseded source-title narrative, with an explicit metadata erratum.
 
 The 56-entry ledger records thirteen readable/sample-reviewed articles, one partial,
-two non-owning headings and 40 unresolved entries. Next is batch18: restore the
-article's ending84–85/PDF86–87, preserving the incoming four-variable Karnaugh
-association. Reuse PDF85–88; PASCAL/MT+ opens on PDF88. Assemble both natives separately.
+two non-owning headings and 40 unresolved entries. Batch18 completes the ending84–85/
+PDF86–87 at packages/batch-18-r01/digital-logic-b. All 128 files match its independent
+rebuild; 1,224 current ranges, three external ranges, 1,344 evidence pins and 42 images
+pass. Two truth tables retain 56 data cells; six design steps and four arithmetic
+examples remain. Fourteen text/two image candidates preserve literal formula and
+label discrepancies. All 42 original/one revised crops preceded 26 kor+eng tasks;
+all raws read before one source pass. No OCR failure/retry; unchanged test baseline.
+Next: digital-logic-assembly combines both immutable natives, preserving all 439 files,
+the incoming function-to-Karnaugh association and external table4 reference. No new
+mapping, rendering, OCR or source correction. PASCAL/MT+ opens separately on PDF88.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

@@ -23,8 +23,12 @@ Batch17 restores 디지털 논리 회로 opening78–83/PDF80–85: 311 files ma
 gate groups, eleven arithmetic panels and seven Karnaugh diagrams retain literal
 source content. All 68 OCR tasks completed without failure/retry. Source 디지탈 and
 printed formula errors remain; 37 localized candidates/four unknown ellipsis bands.
-Next: batch18 restores ending84–85/PDF86–87, then separate immutable assembly.
-Reuse PDF85–88; preserve the incoming four-variable Karnaugh association.
+Batch18 completes ending84–85/PDF86–87: all 128 files match the rebuild; 1,224 current
+ranges, three external ranges, 1,344 pins and 42 images pass. Two truth tables retain
+56 data cells, six design steps and four arithmetic examples. Fourteen text/two image
+candidates remain. All 26 OCR tasks completed without failure/retry.
+Next: digital-logic-assembly preserves all 439 native files and verifies the incoming
+Karnaugh association and external table4 reference. No new OCR/source correction.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
