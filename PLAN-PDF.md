@@ -1148,16 +1148,38 @@ All 51,351 prior files and 30 implementation pins pass; 52,539 files are preserv
 The unchanged 213-test baseline is reused. No reader rebuild.
 Current totals: 39 readable, no partial articles, six non-owning headings and 11 unresolved.
 
-Next: verify game parent0051 게임 모음 and child0052 그랜드 캐년 from printed228/PDF230
-as batch53. Inspect the child's actual ending and following article before mapping
-at most six pages. Classify the parent only with source evidence, preserving its
-five existing child relationships. Reuse reviewed opening230 and prepared views231–232;
-other child openings are lookup-only. Preserve BASIC, dump addresses/bytes, commands,
-captions, screen labels and source discrepancies literally.
-Parent 정보모음0008, cover selection, remaining page accounting and issue closeout
-remain pending. Human acceptance, full proofreading, source bytes, spacing, claims,
-circuit behavior, execution and independent backup recovery remain unverified;
-earlier diagram-label transcription is pending volunteers. No reader rebuild.
+Batch53 completes 그랜드 캐년0052, printed228–231/PDF230–233, at
+`archive/pdf/1985-02/packages/batch-53-r01`. Parent 게임 모음0051 is non-owning;
+all five child identities and relationships remain unchanged. Independent openings
+on PDF230,234,238,246,251 support the parent classification; other children remain pending.
+All 185 files match the independent rebuild; 20,028 exact UTF-8 ranges,
+20,178 evidence pins and 53 images pass. Twenty-six BASIC labels in 28 physical
+rows retain three quoted strings, six delimiters, 28 lexical statements, 96 DATA fields
+and two wraps. The six-column dump retains 293 rows, 2,340 byte fields and every
+address, including the final four-byte6920 row. Three command panels, two monitor
+entry rows/nine bytes, eight screen labels/eight values and eleven boxed keys remain.
+Two captions, six references, twelve listing joins, one prose column join and
+53 physical prose wraps remain linked. Printed L$923, checksums4288/265976,
+range28672–28761, 96 DATA fields, setupX/Z versus inplayA/Z and source spelling
+remain independent; no byte, syntax, length or checksum repair. Thirty-two candidates,
+two editorial mark descriptions, sixteen Unicode approximations, 2,834 unknown
+encoded-space bands and three vertical gaps retain scans. All visible labels transcribed.
+All 53 original/six revised crops preceded 41 OCR tasks (17 eng/24 kor+eng); all drafts
+preceded one source pass. No OCR failures/retries. One metadata revision corrects the
+left countdown3 occurrence link; all text and earlier versions remain unchanged.
+All 52,539 prior files and 30 implementation pins pass; 53,332 files are preserved.
+The unchanged 213-test baseline is reused. No reader rebuild.
+Current totals: 40 readable, no partial articles, seven non-owning headings and 9 unresolved.
+
+Next: verify 포도 귀신0053 (source 포도귀신) from printed232/PDF234 as batch54.
+Reuse reviewed opening234 and continuation235; inspect intervening236–237 and
+next independent 소혹성 지대0054 opening238 before mapping at most six pages.
+Preserve BASIC rows/labels, DATA, graphics, keys, captions and source discrepancies.
+No0053 mapping or OCR has started. Parent 정보모음0008, cover selection, remaining
+page accounting and issue closeout remain pending. Human acceptance, full proofreading,
+source bytes, spacing, claims, circuit behavior, execution and independent backup
+recovery remain unverified; earlier diagram-label transcription is pending volunteers.
+No reader rebuild.
 
 ## December 1984 closeout, 2026-10-20
 
