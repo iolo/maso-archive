@@ -714,12 +714,105 @@
       "toc_entry_id": "maso-1985-02-toc-0034",
       "title": "포쓰의 기초 이해",
       "parent_id": "maso-1985-02-toc-0030",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Visually inspected all10whole source views PDF57–66. PDF57 closes80286;PDF58 opens source 포쓰(Forth)의 기초 이해 credited 아트 화이트(Art White);visible folios56–63 establish eight-page article PDF58–65. Canonical title/byline/parent remain unchanged.",
+        "Batch12 is bounded to opening printed56–61/PDF58–63. Closing printed62–63/PDF64–65 must be restored in another checkpoint and immutable segments assembled before the article can become readable. Outside-map lookups are57,64,65,66;within20limit.",
+        "Opening pages retain body prose,source headline/standfirst/author,15numbered original diagrams with15separate captions,two comparison tables with captions,andtwo separate pullquotes on58and60. Diagram labels remain original pixels with independent transcription pending volunteers;table cells require exact transcription/indexing.",
+        "First-segment prose follows56left→56right→57left→58middle→58right→59left→59middle→59right→60middle→60right→61left→61middle→61right. Word continuations include57코→58드,58의→59해,59곳→59의,60항→60상,60address→61를,61PFA→61에. Segment ends61네→62스팅(nesting);must preserve exact outgoing/incoming source fragments.",
+        "Final printed63/PDF65 closes body in left column with a final paragraph beginning 이 기사가 포쓰 언어 전체에 대해. Figure17below and lower-right pullquote belong toForth. Upper-right framed 컴퓨돌이 해답 panel is independent and must be excluded from later ending map.",
+        "PDF66/printed64 independently opens 산수 경주. Its 교육입문 section label andrelationship tocanonical0035 require separate future classification;not a second task inbatch12."
+      ],
+      "restoration": {
+        "segments": [
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-12-r01/forth-a",
+            "article_id": "scan-maso-1985-02-toc-0034",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-12-r01/forth-a/manifest.json",
+              "sha256": "9124a729a200d890fda66e0976d34197f9f767415e3cf4493d0692ac26a16ac0",
+              "bytes": 66632
+            },
+            "coverage": {
+              "pdf_pages": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "printed_pages": [
+                "56",
+                "57",
+                "58",
+                "59",
+                "60",
+                "61"
+              ],
+              "regions": 114,
+              "blocks": 91,
+              "figures": 23
+            },
+            "segment": "a"
+          }
+        ],
+        "coverage": {
+          "pdf_pages": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "printed_pages": [
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61"
+          ],
+          "regions": 114,
+          "blocks": 91,
+          "figures": 23
+        },
+        "known_full_extent": {
+          "pdf_pages": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "printed_pages": [
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63"
+          ]
+        },
+        "deferred_pdf_pages": [
+          64,
+          65
+        ],
+        "deferred_printed_pages": [
+          "62",
+          "63"
+        ],
+        "assembly_required": true
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0035",
@@ -967,9 +1060,9 @@
   "totals": {
     "canonical_entries": 56,
     "readable": 11,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 1,
-    "unresolved_eligibility": 44
+    "unresolved_eligibility": 43
   },
   "checkpoints": [
     {
@@ -1542,6 +1635,73 @@
         "sha256": "685ff32c0a8e2bfc525e91ef851b58165bdcd75f99736234893dc78826350ced",
         "bytes": 1804287
       }
+    },
+    {
+      "id": "batch-12",
+      "status": "complete-opening-segment;article-partial",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0034"
+      ],
+      "mapped_pdf_pages": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "outside_map_lookup_pages": [
+        57,
+        64,
+        65,
+        66
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-12/validation.json",
+        "sha256": "aaa8d04ac6ebe338182dd76dbabf408a045f3a1702c7acf79dee9ecdb278bf15",
+        "bytes": 1579
+      },
+      "stats": {
+        "completed_at": "2026-10-21T01:07:45.761800+00:00",
+        "regions": 114,
+        "blocks": 91,
+        "figures": 23,
+        "physical_text_rows": 393,
+        "physical_code_rows": 0,
+        "technical_tokens": 101,
+        "numeric_fields": 59,
+        "connections": 8,
+        "physical_wraps": 20,
+        "caption_links": 17,
+        "diagrams": 15,
+        "tables": 2,
+        "table_cells": 18,
+        "table_headers": 4,
+        "table_ordinals": 9,
+        "pullquotes": 2,
+        "credit_fields": 1,
+        "section_headings": 2,
+        "internal_references": 16,
+        "parameter_types": 4,
+        "unknown_bands": 1,
+        "source_candidates": 29,
+        "source_passes": 1,
+        "ocr_tasks": 91,
+        "failures": 0,
+        "retries": 0,
+        "availability": "partial",
+        "deferred_pdf_pages": [
+          64,
+          65
+        ],
+        "assembly_pending": true
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-12-preserved-work.json",
+        "sha256": "9dae95f27121f01f0473b2551d75be2c3e16f1d38eadd1dd29832a23e55b17c6",
+        "bytes": 2148437
+      }
     }
   ],
   "source_page_observations": [
@@ -1924,33 +2084,122 @@
     },
     {
       "pdf_page": 58,
-      "classification": "article-opening-with-section-label-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0034"
       ],
       "printed_page": "56",
       "source_title": "포쓰(Forth)의 기초 이해",
       "non_owning_section": "maso-1985-02-toc-0030",
-      "restoration": "pending"
+      "section_label_visible": true,
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 59,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0034"
+      ],
+      "printed_page": "57",
+      "source_title": "포쓰(Forth)의 기초 이해",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": false,
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 60,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0034"
+      ],
+      "printed_page": "58",
+      "source_title": "포쓰(Forth)의 기초 이해",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": true,
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 61,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0034"
+      ],
+      "printed_page": "59",
+      "source_title": "포쓰(Forth)의 기초 이해",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": false,
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 62,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0034"
+      ],
+      "printed_page": "60",
+      "source_title": "포쓰(Forth)의 기초 이해",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": true,
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 63,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0034"
+      ],
+      "printed_page": "61",
+      "source_title": "포쓰(Forth)의 기초 이해",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": false,
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 64,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0034"
+      ],
+      "printed_page": "62",
+      "source_title": "포쓰(Forth)의 기초 이해",
+      "restoration": "pending",
+      "independent_panel": null
+    },
+    {
+      "pdf_page": 65,
+      "classification": "article-ending-with-independent-panel-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0034"
+      ],
+      "printed_page": "63",
+      "source_title": "포쓰(Forth)의 기초 이해",
+      "restoration": "pending",
+      "independent_panel": "Upper-right 컴퓨돌이 해답 excluded from article"
+    },
+    {
+      "pdf_page": 66,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "64",
+      "source_title": "산수 경주",
+      "restoration": "pending;parent0035classification deferred"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-12",
-    "goal": "Verify extent of 포쓰의 기초 이해 from printed56/PDF58 and restore within six mapped pages;segment if longer.",
+    "id": "batch-13",
+    "goal": "Restore closing printed62–63/PDF64–65 of 포쓰의 기초 이해 as immutable ending segment;exclude independent 컴퓨돌이 panel. Assemble both verified segments in a separate checkpoint.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0034"
     ],
-    "mapping_targets": "Opening PDF58/printed56 observed;verify actual ending,continuations and adjacent pages. Parent0030 remains non-owning with four unchanged children.",
+    "mapping_targets": "Known ending PDF64–65 follows six-page opening. Preserve incoming 스팅 continuation,figure16/17 captions,table3 andtwo pullquotes. PDF65upper-right 컴퓨돌이 is separately owned;PDF66 opens 산수 경주.",
     "provisional_lookup_targets": [
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
       63,
-      64
+      64,
+      65,
+      66
     ],
     "limits": {
       "articles": 2,
@@ -1962,7 +2211,7 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "OCR omitted lower prose over photograph; preserved drafts and one source-direct completion.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
-    "Remaining44 identities and remaining source-page accounting require inspection; no global page offset inferred.",
+    "Remaining43 identities and remaining source-page accounting require inspection; no global page offset inferred.",
     "Q&A retains two unknown separator bands,three unknown quoted-space widths,source technical/numeric mistakes and Unicode source candidates; no code execution certification.",
     "Reader guide retains two unknown bands, four faint heading candidates, literal code/command discrepancies and duplicate MSX step③. All original images retained; source encoded bytes and execution unverified.",
     "Reader letters retain five unknown ellipsis bands and localized names,addresses,bibliographic/technical references; no identity/contact/reference verification. Eight signatures and three editorial responses are not an article byline.",
@@ -1972,7 +2221,8 @@
     "MSX mini monitor retains four unknown menu dash bands,four quoted-space widths,18localized glyph/source candidates,GO/underscore readings and literal branch targets. Source references/encoding/claims/execution remain unverified.",
     "Modem article retains original diagrams with independent label transcription pending volunteers,26localized source candidates,Metal Oxcide/역활/수신과 응답 wording,physical continuations and unverified claims/references. Parent0030 owns no body;all four child identities preserved.",
     "Occam article retains108physical code rows/96source-line groups,42localized candidates,Willam/SER Q/finish-versus-finished names,oneunknown hyphen band and unknown encoded whitespace. Four Korean-annotated examples corrected directly from eng drafts. No source program execution,semantic repair or reference verification.",
-    "80286 retains48localized candidates,nultitasking,Zenix,Bus Instruction Unit,physical wraps and literal model/numeric claims. One ellipsis-band count remains unknown;original uncaptioned processor diagram retained with independent labels pending volunteers. No historical/technical/reference verification."
+    "80286 retains48localized candidates,nultitasking,Zenix,Bus Instruction Unit,physical wraps and literal model/numeric claims. One ellipsis-band count remains unknown;original uncaptioned processor diagram retained with independent labels pending volunteers. No historical/technical/reference verification.",
+    "Forth opening segment printed56–61 retains393physical rows,18table cells/four headers,15diagrams/17captions,29localized candidates,Intrepretive/어드레드/아키스 andone unknown caption dot band. Ending62–63 andfullarticleassembly remain pending;diagram-label transcription pending volunteers. Source claims/encoding/references unverified."
   ],
   "reader_rebuild": false
 }

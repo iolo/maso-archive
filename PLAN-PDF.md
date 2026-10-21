@@ -130,11 +130,24 @@ source claims. One ellipsis-band count remains unknown; diagram labels pending v
 All 57 tasks completed without failure/retry; four crop repairs preceded OCR.
 Unchanged 213-test baseline reused. All prior work and source corrections remain.
 
+Batch12 restores the opening six pages of 포쓰의 기초 이해, canonical0034,
+printed56–61/PDF58–63. The full article is eight pages, printed56–63/PDF58–65;
+its closing two pages and assembly remain pending. All 395 files at
+`archive/pdf/1985-02/packages/batch-12-r01/forth-a` match the independent rebuild.
+All 2,852 exact ranges, 3,206 evidence pins and 114 images pass. Ninety-one blocks
+retain 393 physical rows, fifteen diagrams with captions, two tables with captions,
+eighteen data cells/four headers/nine ordinals, two pull quotes and one source credit.
+Eight continuations, twenty physical wraps and sixteen internal references retain
+exact source links. Twenty-nine candidates preserve Intrepretive, 어드레드 and 아키스;
+one caption dot-band count remains unknown. Diagram labels are pending volunteers.
+All 114 original/thirteen revised crops were inspected before 91 tasks; all raws
+read before one source pass. Zero OCR failure/retry; unchanged 213-test baseline.
+
 The 56-entry issue ledger records eleven readable/sample-reviewed articles, one
-non-owning heading and 44 unresolved entries. Next is batch12: verify 포쓰의 기초 이해
-from printed56/PDF58 and restore within six mapped pages, segmenting if longer.
-PDF57/58 renders can be reused. Cover selection, remaining source-page accounting
-and issue closeout are pending.
+partial article, one non-owning heading and 43 unresolved entries. Next is batch13:
+restore Forth's closing printed62–63/PDF64–65, excluding the independent upper-right
+컴퓨돌이 panel on PDF65. Reuse PDF63–66 views, then assemble the immutable segments
+in a separate checkpoint. Cover selection, remaining page accounting and closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.

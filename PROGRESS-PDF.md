@@ -7,15 +7,15 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 February 1985 restoration is in progress. Eleven articles are readable/sample-reviewed,
-one heading is non-owning and 44 of 56 canonical entries remain unresolved. The latest
-is 80286 on printed50–55/PDF52–57. All 243 files match the independent rebuild;
-3,193 exact ranges, 3,379 evidence pins and 64 images pass. Its 463 physical rows
-retain three credits, three pull quotes, six headings and sixteen continuation links.
-The original processor diagram remains; independent label transcription is pending
-volunteers. Forty-eight source candidates and one unknown ellipsis count retain scans.
-All 57 OCR tasks completed without failure/retry. The unchanged pipeline reuses its
-passing 213-test baseline. Next is 포쓰의 기초 이해 from printed56/PDF58, within the
-six-mapped-page limit. Cover selection and issue closeout remain pending.
+one is partial, one heading is non-owning and 43 of 56 entries remain unresolved.
+The latest checkpoint restores Forth's opening printed56–61/PDF58–63. All 395 files
+match the independent rebuild; 2,852 exact ranges, 3,206 evidence pins and 114 images
+pass. Its 393 physical rows retain fifteen diagrams, seventeen captions, eighteen
+table cells/four headers, two pull quotes and eight continuation links. Twenty-nine
+source candidates and one unknown dot count remain; diagram labels pending volunteers.
+All 91 OCR tasks completed without failure/retry. Unchanged 213-test baseline reused.
+Next: restore the closing printed62–63/PDF64–65, excluding the independent 컴퓨돌이
+panel, then assemble both segments. Cover selection and issue closeout remain pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 

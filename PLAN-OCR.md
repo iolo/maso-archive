@@ -93,9 +93,19 @@ paired OCR or a new engine comparison.
   candidates and one unknown ellipsis count remain explicit. All 64 original/four
   revised crops inspected before 57 kor+eng tasks; all raws read before one source
   pass. No OCR failure/retry. Unchanged 213-test baseline reused.
-  Eleven articles are readable/sample-reviewed, one heading is non-owning and 44 of
-  56 canonical entries remain unresolved. Next: batch12 verifies 포쓰의 기초 이해 from
-  printed56/PDF58, segmenting if longer than six pages. Cover and issue closeout remain pending.
+  Batch12 restores Forth's opening printed56–61/PDF58–63 as a partial segment.
+  Its full extent is56–63/PDF58–65; ending two pages and assembly remain pending.
+  All 395 rebuild files, 2,852 exact ranges, 3,206 evidence pins and 114 images pass.
+  The 393 physical rows retain fifteen diagrams/seventeen captions, eighteen table
+  cells/four headers/nine ordinals, eight continuations and twenty physical wraps.
+  Twenty-nine source candidates and one unknown caption dot count remain explicit;
+  independent diagram labels pending volunteers. All 114 original/thirteen revised
+  crops inspected before 91 kor+eng tasks; all raws read before one source pass.
+  No OCR failure/retry. Unchanged 213-test baseline reused.
+  Eleven articles are readable/sample-reviewed, one is partial, one heading is
+  non-owning and 43 of 56 canonical entries remain unresolved. Next: batch13 restores
+  Forth's closing62–63/PDF64–65, excluding the independent 컴퓨돌이 panel on PDF65.
+  Both immutable segments then require assembly. Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.
