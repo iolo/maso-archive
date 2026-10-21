@@ -879,23 +879,144 @@
       "toc_entry_id": "maso-1985-02-toc-0035",
       "title": "교육용 프로그램의 진수",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "No parent folio in canonical TOC; first child starts printed64/PDF66 directly after Forth ending printed63/PDF65.",
+        "Shared source section label 교육입문 appears on child opening PDF66 and separate next child PDF80. No separately owned parent body observed.",
+        "Canonical parent title 교육용 프로그램의 진수 remains distinct from source running heading 교육입문. All FOUR canonical children 0036–0039 and their relationships are unchanged."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-02/restoration/batch-14/parent-classification.json",
+        "sha256": "fbb4f125c0851f431d0ceb4afc23fd8bd999bdaf643d9be5096dc1815880a45f",
+        "bytes": 6338
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0036",
       "title": "산수 경주",
       "parent_id": "maso-1985-02-toc-0035",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Whole PDF65–80 inspected. Full 산수 경주 article printed64–76/PDF66–78 ends withlist2dump6520;PDF79separateSamsungcontestadvertisement;PDF80starts디지털논리회로. Current maponlyopening64–69/PDF66–71.",
+        "Canonical0035교육용 프로그램의 진수is non-owning organizational parent;no separate body betweenForth63/PDF65andchild산수 경주64/PDF66. Source sharedsectionlabel교육입문remains distinct fromcanonicalparenttitle. All four canonical children0036/0037/0038/0039 unchanged;original stage count superseded by parent-classification.json metadata erratum.",
+        "Opening sourceplatformlabel애플 컴퍼티블is notan authorcredit;canonical편집부unchanged. Complete source prose,tables1–3,four screen examples/fig1captionparts anduncaptioned drafting illustration retained.",
+        "List1MATH.MARATHONstartsprinted68/PDF70andcontinuesonto69/PDF71. Line140crossespageboundary;line330crossesleft/rightcolumns;line490endsoutgoing25withfollowingPDF72beginning0:UL = 0. Preserve physicalfragmentswithoutsyntaxrepair.",
+        "Current six-page segment remains partial;deferPDF72–78andseparateimmutableassembly. NoOCR/rendering/metadataassumptioncertifiesprogrambehavior orsourceencodedbytes."
+      ],
+      "restoration": {
+        "segments": [
+          {
+            "directory": "archive/pdf/1985-02/packages/batch-14-r01/math-race-a",
+            "article_id": "scan-maso-1985-02-toc-0036",
+            "manifest": {
+              "path": "archive/pdf/1985-02/packages/batch-14-r01/math-race-a/manifest.json",
+              "sha256": "cfc41ecabf9c368c09a2e8bb2eb172167e480869c3de496eeec762aa3712d796",
+              "bytes": 57000
+            },
+            "coverage": {
+              "pdf_pages": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71
+              ],
+              "printed_pages": [
+                "64",
+                "65",
+                "66",
+                "67",
+                "68",
+                "69"
+              ],
+              "regions": 96,
+              "blocks": 78,
+              "figures": 18
+            },
+            "segment": "a"
+          }
+        ],
+        "coverage": {
+          "pdf_pages": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ],
+          "printed_pages": [
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69"
+          ],
+          "regions": 96,
+          "blocks": 78,
+          "figures": 18
+        },
+        "known_full_extent": {
+          "pdf_pages": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "printed_pages": [
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76"
+          ]
+        },
+        "deferred_pdf_pages": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78
+        ],
+        "deferred_printed_pages": [
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "75",
+          "76"
+        ],
+        "assembly_required": true
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0037",
@@ -1121,9 +1242,9 @@
   "totals": {
     "canonical_entries": 56,
     "readable": 12,
-    "partial": 0,
-    "non_owning_headings": 1,
-    "unresolved_eligibility": 43
+    "partial": 1,
+    "non_owning_headings": 2,
+    "unresolved_eligibility": 41
   },
   "checkpoints": [
     {
@@ -1855,6 +1976,90 @@
         "sha256": "6d30a41f123234926210cc3c76f428f4b2aed03c9417d3af09a554f376b9e296",
         "bytes": 2560270
       }
+    },
+    {
+      "id": "batch-14",
+      "status": "complete-opening-segment-and-parent-classification;article-partial",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0035",
+        "maso-1985-02-toc-0036"
+      ],
+      "mapped_pdf_pages": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "outside_map_lookup_pages": [
+        65,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "canonical_tasks": 2,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-14/validation.json",
+        "sha256": "8869e893889830884cd7b28d397b58ca35b8dbc6ede81bf7a36c9c7e714e8747",
+        "bytes": 2227
+      },
+      "stats": {
+        "completed_at": "2026-10-21T01:58:09.102580+00:00",
+        "regions": 96,
+        "blocks": 78,
+        "figures": 18,
+        "physical_text_rows": 479,
+        "physical_code_rows": 114,
+        "listing_groups": 5,
+        "basic_labels": 43,
+        "source_logical_basic_lines": 43,
+        "table_rows": [
+          10,
+          43,
+          61
+        ],
+        "table_cells": 228,
+        "table_headers": 0,
+        "caption_links": 9,
+        "screens": 4,
+        "illustrations": 1,
+        "prose_connections": 5,
+        "listing_connections": 2,
+        "physical_wraps": 21,
+        "numeric_fields": 443,
+        "technical_tokens": 50,
+        "quoted_fields": 7,
+        "source_candidates": 39,
+        "source_passes": 1,
+        "ocr_tasks": 78,
+        "eng_tasks": 7,
+        "kor_eng_tasks": 71,
+        "failures": 0,
+        "retries": 0,
+        "availability": "partial",
+        "deferred_pdf_pages": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78
+        ],
+        "assembly_pending": true
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-14-preserved-work.json",
+        "sha256": "d5198ac3dba951305b5e48136a8b8caa3412c3a631e1f2ae9022ad3396770271",
+        "bytes": 2863468
+      }
     }
   ],
   "source_page_observations": [
@@ -2331,27 +2536,183 @@
     },
     {
       "pdf_page": 66,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0036"
       ],
       "printed_page": "64",
       "source_title": "산수 경주",
-      "restoration": "pending;parent0035classification deferred"
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 67,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "65",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 68,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "66",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 69,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "67",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 70,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "68",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 71,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "69",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "opening-segment-exported;assembly-pending"
+    },
+    {
+      "pdf_page": 72,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "70",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 73,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "71",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 74,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "72",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 75,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "73",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 76,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "74",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 77,
+      "classification": "article-continuation-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "75",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 78,
+      "classification": "article-ending-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0036"
+      ],
+      "printed_page": "76",
+      "source_title": "산수 경주",
+      "non_owning_section": "maso-1985-02-toc-0035",
+      "restoration": "pending"
+    },
+    {
+      "pdf_page": 79,
+      "classification": "independent-advertisement-observed",
+      "toc_entry_ids": [],
+      "printed_page": null,
+      "source_title": "Samsung contest advertisement",
+      "restoration": "outside-canonical-article-body"
+    },
+    {
+      "pdf_page": 80,
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0037"
+      ],
+      "printed_page": "78",
+      "source_title": "디지털 논리회로",
+      "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-14",
-    "goal": "Verify canonical0035 교육용 프로그램의 진수 parent ownership andrestore canonical0036 산수 경주 from printed64/PDF66,including its actual ending andadjacent pages;segment if over six mapped pages.",
+    "id": "batch-15",
+    "goal": "Restore middle printed70–75/PDF72–77 of 산수 경주 as immutable second segment. Final printed76/PDF78 andcompletearticleassembly follow separately.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0035",
       "maso-1985-02-toc-0036"
     ],
-    "mapping_targets": "PDF66already observed opening 산수 경주 with교육입문 source label. Verify parent classification without changing canonical titles orrelationships;inspect actual article extent beforemapping.",
+    "mapping_targets": "Reuse reviewed PDF71–78. Preserve incoming line490 numeric continuation25/0,remaining list1 MATH.MARATHON through2290 andstart oflist2 MM.SHAPES dump onPDF77. Map onlyPDF72–77;finaldumpPDF78deferred.",
     "provisional_lookup_targets": [
-      65,
-      66
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78
     ],
     "limits": {
       "articles": 2,
@@ -2374,7 +2735,8 @@
     "Modem article retains original diagrams with independent label transcription pending volunteers,26localized source candidates,Metal Oxcide/역활/수신과 응답 wording,physical continuations and unverified claims/references. Parent0030 owns no body;all four child identities preserved.",
     "Occam article retains108physical code rows/96source-line groups,42localized candidates,Willam/SER Q/finish-versus-finished names,oneunknown hyphen band and unknown encoded whitespace. Four Korean-annotated examples corrected directly from eng drafts. No source program execution,semantic repair or reference verification.",
     "80286 retains48localized candidates,nultitasking,Zenix,Bus Instruction Unit,physical wraps and literal model/numeric claims. One ellipsis-band count remains unknown;original uncaptioned processor diagram retained with independent labels pending volunteers. No historical/technical/reference verification.",
-    "Forth complete printed56–63/PDF58–65 retains48localized candidates andoneunknown caption dot-band count;all17diagram originals remain withindependent label transcription pending volunteers. No body pages orassembly pending. Use pinned private forth_literal checker/context;fullnative metadata andall561native files preserved. Human acceptance/encoding/technical claims remain unverified."
+    "Forth complete printed56–63/PDF58–65 retains48localized candidates andoneunknown caption dot-band count;all17diagram originals remain withindependent label transcription pending volunteers. No body pages orassembly pending. Use pinned private forth_literal checker/context;fullnative metadata andall561native files preserved. Human acceptance/encoding/technical claims remain unverified.",
+    "산수 경주 opening64–69/PDF66–71 exported with479physical text rows,114code rows,43BASIC labels,228table cells andfour original screens. Fullextent64–76/PDF66–78;remainingsevenpages andimmutableassembly pending. AA operator,+. code point,T/O glyph and39sourcecandidates remain explicit;screenlabels pending volunteers. Parent0035 hasfour unchanged children0036–0039;originalthreechildstagecount isretained metadataerratum."
   ],
   "reader_rebuild": false
 }

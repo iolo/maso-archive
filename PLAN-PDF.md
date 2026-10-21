@@ -167,11 +167,25 @@ No new mapping, render, OCR or source correction. Use the pinned private
 see its `reproduction.json`. The unchanged 213-test baseline is reused, and three
 negative adapter probes reject range drift, a changed incoming link and deferred coverage.
 
-The 56-entry ledger records twelve readable/sample-reviewed articles, no partials,
-one non-owning heading and 43 unresolved entries. Next is batch14: verify parent0035
-교육용 프로그램의 진수 and restore child0036 산수 경주 from printed64/PDF66.
-Reuse PDF65/66 views; establish the actual extent and segment if longer than six
-mapped pages. Cover selection, remaining page accounting and issue closeout are pending.
+Batch14 restores the opening printed64–69/PDF66–71 of 산수 경주, canonical0036.
+Its full extent is printed64–76/PDF66–78; seven following pages and assembly remain
+pending. Parent0035 교육용 프로그램의 진수 is non-owning with four unchanged children.
+All 339 files at `archive/pdf/1985-02/packages/batch-14-r01/math-race-a` match the
+independent rebuild. All 6,572 exact ranges, 6,863 evidence pins and 96 images pass.
+The 479 physical text rows include 114 code rows and 43 actual BASIC labels; three
+tables retain 114 rows/228 cells without invented headers. Four screens, an illustration,
+nine caption links, five prose connections and two listing joins remain source-linked.
+Thirty-nine candidates retain AA operator ambiguity, +. code point, T/O glyph,
+-16368 and historical wording. Outgoing line490 preserves 25 before next page's 0.
+All 96 original/four revised crops were inspected before 78 tasks; all raws read before
+one source pass. Zero OCR failure/retry; unchanged 213-test baseline reused. The original
+three-child count is preserved as a metadata erratum; OCR-bound maps remain unchanged.
+
+The 56-entry ledger records twelve readable/sample-reviewed articles, one partial,
+two non-owning headings and 41 unresolved entries. Next is batch15: restore 산수 경주
+printed70–75/PDF72–77, preserving the incoming line490 continuation, the rest of list1
+and beginning of list2 MM.SHAPES. Reuse reviewed PDF71–78; final PDF78 and assembly
+follow separately. Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.

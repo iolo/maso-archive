@@ -119,10 +119,19 @@ paired OCR or a new engine comparison.
   Use the pinned private forth-assembly/forth_literal.py checker/context, with
   reproduction.json for commands. Unchanged 213-test baseline reused; three negative
   adapter probes reject range drift, changed incoming evidence and deferred coverage.
-  Twelve articles are readable/sample-reviewed, none partial, one heading is
-  non-owning and 43 of 56 canonical entries remain unresolved. Next: batch14 verifies
-  parent0035 교육용 프로그램의 진수 and restores child0036 산수 경주
-  from printed64/PDF66; reuse PDF65/66 and verify actual extent before mapping.
+  Batch14 restores 산수 경주 opening64–69/PDF66–71; full extent64–76/PDF66–78.
+  All 339 files match its independent rebuild; 6,572 exact ranges, 6,863 evidence
+  pins and 96 images pass. Its 479 physical text rows retain 114 code rows/43 BASIC
+  labels, 228 table cells, four original screens and nine caption links. Thirty-nine
+  source candidates and outgoing490 fragment25/0 remain explicit. All 96 original/
+  four revised crops inspected before78tasks; all raws read before one source pass.
+  No OCR failure/retry; unchanged213-test baseline reused. Parent0035 is non-owning
+  with four unchanged children0036–0039; original three-child count retained as a
+  metadata erratum without changing OCR-bound maps. Seven pages/assembly pending.
+  Twelve articles are readable/sample-reviewed, one partial, two headings non-owning
+  and 41 of56 entries unresolved. Next: batch15 restores printed70–75/PDF72–77,
+  preserving incoming490 continuation, remaining list1 and beginning list2 MM.SHAPES.
+  Reuse PDF71–78; final PDF78 and immutable assembly follow separately.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

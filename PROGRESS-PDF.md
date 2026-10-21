@@ -7,18 +7,18 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 February 1985 restoration is in progress. Twelve articles are readable/sample-reviewed,
-none partial, one heading is non-owning and 43 of 56 entries remain unresolved.
-Forth is complete on printed56–63/PDF58–65 at packages/forth-complete-r01. All 569
-files match the independent rebuild, preserving all 561 native files and full metadata.
-Fifty category slices, 3,639 projected ranges and all 158 images pass. Its 507 physical
-rows retain seventeen diagrams/twenty captions, thirty table cells/four headers,
-four pull quotes and the 네/스팅 continuation. Forty-eight source candidates and one
-unknown dot count remain; diagram labels pending volunteers. No new OCR or source
-correction for assembly. Unchanged 213-test baseline reused; three negative adapter
-probes pass. Use the pinned private Forth checker described in its reproduction.json.
-Next: batch14 verifies parent0035 and restores 산수 경주 from printed64/PDF66,
-establishing actual extent before mapping. Cover selection, remaining page accounting
-and issue closeout remain pending.
+one partial, two headings are non-owning and 41 of56 entries remain unresolved.
+Batch14 restores 산수 경주 opening64–69/PDF66–71 at packages/batch-14-r01/math-race-a.
+All339files match the independent rebuild; 6,572 exact ranges and96images pass. Its
+479physical rows retain114code rows/43BASIC labels,228table cells,four screens and
+nine caption links. Thirty-nine source candidates remain. All78tasks completed without
+failure/retry after96original/four revised crops were inspected; one source correction
+pass followed reading all raws. Unchanged213-test baseline reused. Parent0035 is
+non-owning with four unchanged children; original three-child note retained as erratum.
+Forth remains complete at packages/forth-complete-r01; use its pinned private checker.
+Next: batch15 restores 산수 경주 printed70–75/PDF72–77, preserving incoming490
+continuation andlist1/list2 boundaries. Final printed76/PDF78 andimmutableassembly
+follow separately. Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 
@@ -370,7 +370,7 @@ See the [October record](docs/progress/8410.md), [OCR handoff](PLAN-OCR.md),
 | 1984-09 | 37 | 37 readable; canonical TOC complete | [8409](docs/progress/8409.md) |
 | 1984-10 | 35 | 35 readable; canonical TOC complete | [8410](docs/progress/8410.md) |
 | 1984-12 | 30 | 30 readable; seven non-owning headings; canonical TOC complete | [8412](docs/progress/8412.md) |
-| 1985-02 | Classification in progress | 12 readable; 1 heading; 43 unresolved | [8502](docs/progress/8502.md) |
+| 1985-02 | Classification in progress | 12 readable; 1 partial; 2 headings; 41 unresolved | [8502](docs/progress/8502.md) |
 
 No April 1984 PDF was supplied. Completed accounting and usable coverage are
 separate: March's absent printed pages 250–251 remain explicit.
