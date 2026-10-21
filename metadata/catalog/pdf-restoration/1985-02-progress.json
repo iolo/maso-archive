@@ -522,12 +522,39 @@
       "toc_entry_id": "maso-1985-02-toc-0029",
       "title": "MSX-tip : 미니 모니터",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Article spans printed38–39/PDF40–41;opening prose has three command sections and starts the listing,which continues on final left panel through1600 GOTO1080.",
+        "Final right 브레인컴퓨터 relocation advertisement is independent and excluded. Full opening page,complete final left panel and separate visible39folio retained.",
+        "Previous PDF39/37 ends BEEP;following PDF42/40 opens 모뎀 그 속이야기 under 마이크로 컴퓨터의 새로운 물결.",
+        "Source title MSX 미니 모니터 remains distinct from canonical MSX-tip : 미니 모니터. No printed article byline.",
+        "Set-memory purpose ends opening left column;its usage continues top right. Listing opening1080 precedes final1090;all physical code rows to be checked before delivery."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-08-r01/msx-monitor",
+        "article_id": "scan-maso-1985-02-toc-0029",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-08-r01/msx-monitor/manifest.json",
+          "sha256": "303b90668a20e97f761d9db21822d4617b13adfc419c81292c4c937ce2f97f3d",
+          "bytes": 14451
+        },
+        "coverage": {
+          "pdf_pages": [
+            40,
+            41
+          ],
+          "printed_pages": [
+            "38",
+            "39"
+          ],
+          "regions": 22,
+          "blocks": 19,
+          "figures": 3
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0030",
@@ -829,10 +856,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 7,
+    "readable": 8,
     "partial": 0,
     "non_owning_headings": 0,
-    "unresolved_eligibility": 49
+    "unresolved_eligibility": 48
   },
   "checkpoints": [
     {
@@ -1177,6 +1204,57 @@
         "sha256": "95c54bd3c4d17e651b1f8d4fac23f57baaaa48afeac60edee716ce068d6d4ee8",
         "bytes": 956514
       }
+    },
+    {
+      "id": "batch-08",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0029"
+      ],
+      "mapped_pdf_pages": [
+        40,
+        41
+      ],
+      "outside_map_lookup_pages": [
+        39,
+        42
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-08/validation.json",
+        "sha256": "342d4e55cb7e256beb8d57d93730be73e2a4a1630f1290a1c866c2c8d1698ad8",
+        "bytes": 1219
+      },
+      "stats": {
+        "completed_at": "2026-10-20T23:58:54.840805+00:00",
+        "regions": 22,
+        "blocks": 19,
+        "figures": 3,
+        "physical_text_rows": 121,
+        "physical_code_rows": 61,
+        "basic_labels": 61,
+        "command_sections": 3,
+        "command_formats": 3,
+        "quoted_fields": 32,
+        "source_literal_fields": 35,
+        "source_branch_targets": 17,
+        "prose_key_references": 9,
+        "connections": 4,
+        "physical_wraps": 6,
+        "caption_links": 1,
+        "source_references": 2,
+        "unknown_bands": 8,
+        "source_candidates": 18,
+        "source_passes": 1,
+        "ocr_tasks": 19,
+        "failures": 0,
+        "retries": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-08-preserved-work.json",
+        "sha256": "8bf3a53f14b3d8458e799ee93667e34d48601036cfa92d12520155ba0a2533e5",
+        "bytes": 1035254
+      }
     }
   ],
   "source_page_observations": [
@@ -1365,28 +1443,50 @@
     },
     {
       "pdf_page": 40,
-      "classification": "article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0029"
       ],
       "printed_page": "38",
-      "source_title": "MSX 미니 모니터",
+      "source_title": "MSX 미니 모니터"
+    },
+    {
+      "pdf_page": 41,
+      "classification": "mixed-article-and-advertisement",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0029"
+      ],
+      "printed_page": "39",
+      "evidence": "Left listing continuation1090–1600 complete;right independent 브레인컴퓨터 relocation advertisement excluded."
+    },
+    {
+      "pdf_page": 42,
+      "classification": "article-opening-with-section-label-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0030",
+        "maso-1985-02-toc-0031"
+      ],
+      "printed_page": "40",
+      "source_title": "모뎀 그 속이야기",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-08",
-    "goal": "Verify extent of MSX-tip : 미니 모니터 from printed38/PDF40 and restore within six mapped pages.",
+    "id": "batch-09",
+    "goal": "Verify parent section 마이크로컴퓨터의 새로운 물결 and extent of child 모뎀, 그 속 이야기 from printed40/PDF42;restore within six mapped pages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0029"
+      "maso-1985-02-toc-0030",
+      "maso-1985-02-toc-0031"
     ],
-    "mapping_targets": "Opening PDF40/printed38 observed;verify listing continuation,actual end and adjacent pages.",
+    "mapping_targets": "Opening PDF42/printed40 observed with section label and modem title/byline. Verify actual end and adjacent pages;canonical parent and four child identities preserved.",
     "provisional_lookup_targets": [
-      39,
-      40,
       41,
-      42
+      42,
+      43,
+      44,
+      45,
+      46
     ],
     "limits": {
       "articles": 2,
@@ -1398,13 +1498,14 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "OCR omitted lower prose over photograph; preserved drafts and one source-direct completion.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
-    "Remaining49 identities and remaining source-page accounting require inspection; no global page offset inferred.",
+    "Remaining48 identities and remaining source-page accounting require inspection; no global page offset inferred.",
     "Q&A retains two unknown separator bands,three unknown quoted-space widths,source technical/numeric mistakes and Unicode source candidates; no code execution certification.",
     "Reader guide retains two unknown bands, four faint heading candidates, literal code/command discrepancies and duplicate MSX step③. All original images retained; source encoded bytes and execution unverified.",
     "Reader letters retain five unknown ellipsis bands and localized names,addresses,bibliographic/technical references; no identity/contact/reference verification. Eight signatures and three editorial responses are not an article byline.",
     "BASIC input lesson retains RETRUN,physical1170/290 wrap,13unknown bands,table-range glyph approximations and source claims. Original input diagram retained;independent diagram-label transcription pending volunteers.",
     "Apple conversion tip retains opaque NED20G/ED20G,0075 - E8 03,physical word continuations and seventeen localized glyph/claim candidates. Final folio absent and mapped null;lower independent advertisement excluded. No source claims or execution certified.",
-    "BEEP retains six unknown decorative bands and one unclear raised usage mark,19localized source candidates,&H2/&H20 distinctions and literal DATA values. Source claims/encoding/execution remain unverified;separate lower 컴퓨돌이 remains pending."
+    "BEEP retains six unknown decorative bands and one unclear raised usage mark,19localized source candidates,&H2/&H20 distinctions and literal DATA values. Source claims/encoding/execution remain unverified;separate lower 컴퓨돌이 remains pending.",
+    "MSX mini monitor retains four unknown menu dash bands,four quoted-space widths,18localized glyph/source candidates,GO/underscore readings and literal branch targets. Source references/encoding/claims/execution remain unverified."
   ],
   "reader_rebuild": false
 }

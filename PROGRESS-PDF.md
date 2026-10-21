@@ -6,17 +6,16 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Seven articles are readable/sample-reviewed;
-49 of 56 canonical entries remain unresolved. The latest is SPC-1000 tip : BEEP on
-printed36–37/PDF38–39; the opening lower comic remains separately owned/excluded.
-All 105 files match its independent rebuild; 1,987 exact ranges, 2,069 evidence pins
-and 27 images pass. Two listings retain 60 BASIC labels, 63 code rows and 124 numeric
-DATA fields plus END. The note table, six examples, five boxed keys and three captions
-are source-linked. Seven unknown bands/marks and 19 localized candidates remain.
-All 23 OCR tasks completed without failure/retry. The unchanged pipeline reuses its
-passing 213-test baseline. Next is MSX-tip : 미니 모니터 from printed38/PDF40.
-Cover selection and issue closeout remain pending.
-See the [February record](docs/progress/8502.md) and
+February 1985 restoration is in progress. Eight articles are readable/sample-reviewed;
+48 of 56 canonical entries remain unresolved. The latest is MSX-tip : 미니 모니터 on
+printed38–39/PDF40–41; the final right advertisement is excluded. All 88 files match
+its independent rebuild; 2,316 exact ranges, 2,384 evidence pins and 22 images pass.
+All 61 listing rows/labels, 32 quoted fields, 17 branch targets, three command sections
+and one caption remain source-linked. Eight unknown bands/widths and 18 localized
+candidates remain. All 19 tasks completed without failure/retry. The unchanged pipeline
+reuses its passing 213-test baseline. Next is parent-section verification and restoration
+of 모뎀, 그 속 이야기 from printed40/PDF42. Cover selection and issue closeout remain
+pending. See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,

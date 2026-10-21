@@ -63,9 +63,15 @@ paired OCR or a new engine comparison.
   bands/marks and 19 source candidates remain explicit. All 27 original/two revised
   crops inspected before 23 tasks; all raws read before one pass; zero OCR failures
   or retries. Unchanged 213-test baseline reused.
-  Seven articles are readable/sample-reviewed; 49 of 56 canonical entries remain
-  unresolved. Next: batch08 verifies MSX-tip : 미니 모니터 from printed38/PDF40.
-  Cover and issue closeout remain pending.
+  Batch08 completes MSX-tip : 미니 모니터 on printed38–39/PDF40–41; final right
+  advertisement excluded. All 88 rebuild files, 2,316 exact ranges, 2,384 evidence
+  pins and 22 images pass. All 61 listing rows/labels, 32 quoted fields, 17 branch
+  targets, three command sections and one caption survive. Eight unknown bands/widths
+  and 18 source candidates remain. All 22 original/two revised crops inspected before
+  19 tasks; all raws read before one pass; zero OCR failure/retry. Unchanged test baseline.
+  Eight articles are readable/sample-reviewed; 48 of 56 canonical entries remain
+  unresolved. Next: batch09 verifies parent 마이크로컴퓨터의 새로운 물결 and child
+  모뎀, 그 속 이야기 from printed40/PDF42. Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.

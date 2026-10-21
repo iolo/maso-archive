@@ -85,12 +85,22 @@ five boxed keys and three caption links remain. Seven unknown bands/marks and
 19 source candidates remain explicit. All 23 tasks completed without failure/retry;
 two crop repairs preceded OCR. Unchanged 213-test baseline reused.
 
-The 56-entry issue ledger records seven readable/sample-reviewed articles and 49
-unresolved entries. Next is batch08: verify MSX-tip : 미니 모니터 from printed38/PDF40
-and restore it within the usual limits. PDF39/40 renders can be reused. Cover selection,
-remaining source-page accounting and issue closeout are pending. See the
-[February record](docs/progress/8502.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
+Batch08 completes MSX-tip : 미니 모니터, canonical0029, on printed38–39/PDF40–41.
+The final right relocation advertisement is excluded; left listing panel and folio
+remain. All 88 files at `archive/pdf/1985-02/packages/batch-08-r01/msx-monitor` match
+its independent rebuild. All 2,316 exact ranges, 2,384 evidence pins and 22 images pass.
+The listing retains all 61 rows/labels1000–1600, 32 quoted fields, 35 literal fields
+and 17 branch targets. Three command sections, one caption/four listing regions,
+four connections and six physical wraps remain. Eight unknown bands/widths and
+18 localized candidates remain explicit. All 19 tasks completed without failure/retry;
+two crop repairs preceded OCR. Unchanged 213-test baseline reused.
+
+The 56-entry issue ledger records eight readable/sample-reviewed articles and 48
+unresolved entries. Next is batch09: verify parent 마이크로컴퓨터의 새로운 물결 and
+restore child 모뎀, 그 속 이야기 from printed40/PDF42 within the usual limits.
+PDF41/42 renders can be reused. Cover selection, remaining source-page accounting
+and issue closeout are pending. See the [February record](docs/progress/8502.md)
+and [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.
 
 ## December 1984 closeout, 2026-10-20
