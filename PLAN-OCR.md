@@ -818,11 +818,38 @@ paired OCR or a new engine comparison.
   43,568 files. No reader rebuild.
   Current totals: 33 readable, one partial article, five non-owning headings and 17 unresolved.
 
-  Next: assemble the complete 전학년 성적 처리 프로그램0044 from the two immutable
-  native packages, covering printed184–195/PDF186–197. Preserve every native file and
-  all correction metadata; resolve only active stage deferrals and exact native associations.
-  No further article body pages, mapping or OCR are pending. Parent 정보모음0008,
-  cover selection, remaining page accounting and issue closeout remain pending.
+  전학년 성적 처리 프로그램0044 is complete at
+  `archive/pdf/1985-02/packages/grades-complete-r01`, printed184–195/PDF186–197.
+  All 272 files match the independent rebuild; all 263 native files and full correction
+  metadata remain exact. Ninety-four category slices and eleven object projections
+  reverse to native records across 22,959 original UTF-8 range occurrences. All 25,275
+  active ranges, 23,341 native evidence pins and 72 crop images pass.
+  The article retains 828 physical text rows plus 89 table serialization rows, two BASIC
+  listings with 431 physical rows/296 labels/135 wraps/177 quoted strings/668 statements,
+  five tables with 67 logical rows/134 cells/157 fragments, three captions and eleven
+  continuations. All 43 printed listing references retain their 81 endpoint associations;
+  these and the incoming 않는/다. join resolve into complete-article ranges while original
+  native references remain unchanged. Sixteen compilation steps still omit⑩; seven menu
+  options and the original placement of⑤⑥ remain literal. The independent lower-right
+  publisher notice on187/PDF189 remains excluded.
+  Seventy-three source candidates, eight unknown bands, one ellipsis-count uncertainty,
+  116 Unicode approximations and 3,217 unknown encoded-space bands remain explicit.
+  BASOCM.COM,772085,ENGLI,FISRT,DSKETTE and caption성적을 화면 retain their source forms.
+  Internal printout data/label transcription is pending volunteers. Four stage notes resolve
+  only in active status; all original notes, source discrepancies and uncertainties survive.
+  No new mapping, rendering, OCR or source correction. Eight negative probes reject altered
+  ranges, references, labels, captions, compilation numbering, ownership and deferred coverage.
+  All 43,568 prior files and 30 implementation pins pass; unchanged213-test baseline reused.
+  Use the pinned private `restoration/grades-assembly/grades_literal.py` checker/context
+  and `reproduction.json`; the generic checker alone does not recognize this format.
+  Current totals: 34 readable, no partial articles, five non-owning headings and 17 unresolved.
+
+  Next: verify 시간표 작성 프로그램0045 from printed196/PDF198, including its full
+  extent, all listings/tables/captions and adjacent pages before mapping. PDF198–203 is
+  only a provisional six-page opening checkpoint; the next TOC entry is a lookup lead,
+  not proof of the ending. Retain the two-article/six-page/twenty-outside-lookup limits.
+  Parent 정보모음0008, cover selection, remaining page accounting and issue closeout
+  remain pending. No reader rebuild; human acceptance and full proofreading remain pending.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
