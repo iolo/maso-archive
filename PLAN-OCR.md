@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-21. Read this before future PDF restoration. This is the current
+Updated 2026-10-22. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -1205,15 +1205,42 @@ paired OCR or a new engine comparison.
   The unchanged213-test baseline is reused. No body pages or assembly remain pending.
   Current totals: 43 readable, no partial articles, seven non-owning headings and 6 unresolved.
 
-  Next: verify 양계장에서 아르바이트를0056 from printed249/PDF251 as batch58.
-  Reuse reviewed opening251 and prior250 ending; inspect actual continuations,ending
-  and following ownership before mapping at most six pages. If longer, explicitly defer
-  the ending and complete assembly. Preserve BASIC rows/labels, DATA, graphics/keys,
-  boxed1240 graphic-key instruction,source credit,claims and discrepancies. No0056 mapping
-  or OCR has started; its ending is unverified. Parent 정보모음0008,cover selection,
-  remaining page accounting and issue closeout remain pending. Human acceptance,
-  full proofreading,source bytes,spacing,graphic glyph counts/encoding,claims,execution
-  and independent backup recovery remain unverified. No reader rebuild.
+  Batch58 completes 양계장에서 아르바이트를0056, printed249–251/PDF251–253,
+  at `archive/pdf/1985-02/packages/batch-58-r01`. All 98 files match the independent
+  rebuild; 8,700 exact UTF-8 ranges, 8,787 evidence pins and29 image decodes pass.
+  Five BASIC panels retain185 labels in208 physical rows,23 wraps,43 quoted strings/
+  86 delimiters,212 lexical statements,54 DATA fields (six decimal headers and48 hex
+  fields),six bitmap groups,20 direct branch fragments,12 ON targets and1,405 lexical tokens.
+  Two PLAY strings/58 characters,six graphic bands,eight boxed keys/three graphic-input
+  associations,one printed1240 reference,four listing connections,the same-page
+  제한시/간내에 prose continuation and34 physical prose wraps retain exact associations.
+  Actual final2850 RETURN and following 복덕방 on254 establish the complete ending.
+  Missing2500,split THEN/100/32,G assignment,RETURN1720,PLAY0/O/6,DATA fields and
+  historical wording/claims remain literal. Two editorial markers preserve unknown counts
+  in the repetitive W-like1240 and c1280 bands. Four d-glyph rows2350–2410 retain visual
+  approximations with count/spacing/encoding uncertainties and original panels.
+  Thirty-eight source candidates,two editorial markers,seven Unicode approximations
+  and1,429 source-approximation space bands (including69 quoted bands) remain explicit;
+  six spaces inside editorial descriptions are indexed separately. Faint prose spelling
+  and collision consonants remain localized volunteer proofreading candidates.
+  All29 original/three replacement crops preceded20 OCR tasks (5 eng/15 kor+eng);
+  all drafts preceded one source pass. No OCR failures/retries. Three crop repairs improve
+  slanted listing margins and isolate1240. The first map preparation rejected unsupported
+  heading kind before map/crop writes; a fresh script uses section-label. Both scripts and
+  the failure summary remain preserved. All56,651 prior files and30 implementation pins
+  pass; 57,101 files are preserved. The unchanged213-test baseline is reused.
+  No body pages or assembly remain pending. Nine source views include three mapped pages
+  and six outside lookups; following258 has visible folio240, independent of TOC256.
+  Current totals: 44 readable, no partial articles, seven non-owning headings and 5 unresolved.
+
+  Next: verify 디버깅 룸0017 on printed243/PDF245 as batch59.
+  Reuse the preserved full page and inspect the independent lower errata panel before
+  mapping. Preserve every correction pair,table/code row,number and source discrepancy;
+  upper-left 소혹성 final dump and upper-right LOGATOR contest remain separately owned.
+  No0017 mapping or OCR has started. 복덕방0018,광고색인0024,컴퓨돌이0025,parent
+  정보모음0008,cover selection,remaining page accounting and issue closeout remain pending.
+  Human acceptance,full proofreading,source bytes,spacing,graphic glyph counts/encoding,
+  claims,execution and independent backup recovery remain unverified. No reader rebuild.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is

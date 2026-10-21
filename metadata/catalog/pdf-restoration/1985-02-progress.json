@@ -5131,20 +5131,106 @@
       "toc_entry_id": "maso-1985-02-toc-0056",
       "title": "양계장에서 아르바이트를",
       "parent_id": "maso-1985-02-toc-0051",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0056 opens printed249/PDF251 with MSX/편집부, title 양계장에서 아르바이트를 and dinosaur-egg subtitle. Prior printed248/PDF250 ends independent0055 at4760.",
+        "Article printed249–251/PDF251–253: opening prose and1000–1160;1170–1990;2000–2850. Actual final2850 RETURN on253; following254 opens 복덕방 classified listings. No body page or assembly deferred.",
+        "Five listing columns retain physical wraps, numeric DATA headers and eight literal hex fields per DATA row, opaque PRINT/PLAY strings, boxed1240 graphic-key instructions, arrow keys and source credit. Printed source credit says 마이컴 베이직 매거진1984년11월호.",
+        "Reviewed outside pages250,254–258: prior article, four 복덕방 pages, then upper 컴퓨터비전 advertisement and lower 광고색인 on258. Bottomfolio258 visibly240, not inferred256. Outside material not owned by0056.",
+        "Complete three-page body:185labels/208physicalrows/23wraps,54DATAfields/sixbitmapgroups,twoPLAYstrings,graphic/boxedkeyinstructions andactual2850ending. Missing2500 retained."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-58-r01",
+        "article_id": "scan-maso-1985-02-toc-0056",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-58-r01/manifest.json",
+          "sha256": "bdd943681c1b43b531b9734e655bc71089b2f504f7bd0f549cfc5995296e7bc0",
+          "bytes": 16112
+        },
+        "coverage": {
+          "regions": 29,
+          "blocks": 20,
+          "figures": 9,
+          "physical_text_rows": 257,
+          "physical_code_rows": 208,
+          "basic_physical_rows": 208,
+          "basic_label_occurrences": 185,
+          "basic_wraps": 23,
+          "basic_quoted_strings": 43,
+          "basic_quote_delimiters": 86,
+          "unclosed_source_quotes": 0,
+          "basic_statements": 212,
+          "basic_data_fields": 54,
+          "bitmap_data_groups": 6,
+          "bitmap_decimal_headers": 6,
+          "bitmap_hex_fields": 48,
+          "play_strings": 2,
+          "play_characters": 58,
+          "graphic_key_groups": 6,
+          "graphic_key_input_associations": 3,
+          "basic_branch_targets": 20,
+          "basic_on_targets": 12,
+          "basic_lexical_tokens": 1405,
+          "basic_quoted_space_bands": 69,
+          "listing_groups": 1,
+          "internal_listing_joins": 4,
+          "boxed_keys": 8,
+          "printed_program_references": 1,
+          "regional_prose_connections": 1,
+          "physical_prose_wraps": 34,
+          "caption_links": 0,
+          "source_candidates": 38,
+          "unknown_markers": 2,
+          "typographic_approximations": 7,
+          "unknown_space_bands": 1429,
+          "editorial_description_space_bands": 6,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            251,
+            252,
+            253
+          ],
+          "deferred_pdf_pages": [],
+          "pdf_pages": [
+            251,
+            252,
+            253
+          ],
+          "printed_pages": [
+            "249",
+            "250",
+            "251"
+          ]
+        },
+        "full_pdf_pages": [
+          251,
+          252,
+          253
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-58/validation.json",
+          "sha256": "8ac6b122843b86903200d28a982884de96b013235f25d7ae93d5c0d4114f850c",
+          "bytes": 2425
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-58/reproduction.json",
+          "sha256": "ac694655f269726c9527c4eaecf29b4baa634d2cb78fff73fe1479e91896b52d",
+          "bytes": 1621
+        }
+      }
     }
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 43,
+    "readable": 44,
     "partial": 0,
     "non_owning_headings": 7,
-    "unresolved_eligibility": 6
+    "unresolved_eligibility": 5
   },
   "checkpoints": [
     {
@@ -9996,6 +10082,93 @@
         "sha256": "7b4eb2f78014771683e3f828ec530b6e1816c472d5af1b4880265713cedb1627",
         "bytes": 12554407
       }
+    },
+    {
+      "id": "batch-58",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0056"
+      ],
+      "mapped_pdf_pages": [
+        251,
+        252,
+        253
+      ],
+      "outside_map_lookup_pages": [
+        250,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-58/validation.json",
+        "sha256": "8ac6b122843b86903200d28a982884de96b013235f25d7ae93d5c0d4114f850c",
+        "bytes": 2425
+      },
+      "stats": {
+        "completed_at": "2026-10-21T23:41:00.769067+00:00",
+        "stats": {
+          "regions": 29,
+          "blocks": 20,
+          "figures": 9,
+          "physical_text_rows": 257,
+          "physical_code_rows": 208,
+          "basic_physical_rows": 208,
+          "basic_label_occurrences": 185,
+          "basic_wraps": 23,
+          "basic_quoted_strings": 43,
+          "basic_quote_delimiters": 86,
+          "unclosed_source_quotes": 0,
+          "basic_statements": 212,
+          "basic_data_fields": 54,
+          "bitmap_data_groups": 6,
+          "bitmap_decimal_headers": 6,
+          "bitmap_hex_fields": 48,
+          "play_strings": 2,
+          "play_characters": 58,
+          "graphic_key_groups": 6,
+          "graphic_key_input_associations": 3,
+          "basic_branch_targets": 20,
+          "basic_on_targets": 12,
+          "basic_lexical_tokens": 1405,
+          "basic_quoted_space_bands": 69,
+          "listing_groups": 1,
+          "internal_listing_joins": 4,
+          "boxed_keys": 8,
+          "printed_program_references": 1,
+          "regional_prose_connections": 1,
+          "physical_prose_wraps": 34,
+          "caption_links": 0,
+          "source_candidates": 38,
+          "unknown_markers": 2,
+          "typographic_approximations": 7,
+          "unknown_space_bands": 1429,
+          "editorial_description_space_bands": 6,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            251,
+            252,
+            253
+          ],
+          "deferred_pdf_pages": []
+        },
+        "source_passes": 1,
+        "ocr_tasks": 20,
+        "eng_code_tasks": 5,
+        "kor_eng_tasks": 15,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 3,
+        "repaired_regions": 3
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-58-preserved-work.json",
+        "sha256": "e9918f3f96e6db3f5b93065765971ca838e8a56a1aed9a859f0b40f129931570",
+        "bytes": 12648977
+      }
     }
   ],
   "source_page_observations": [
@@ -12307,14 +12480,14 @@
     {
       "pdf_page": 251,
       "printed_page": "249",
-      "classification": "canonical-start-lookup",
+      "classification": "canonical-article",
       "toc_entry_ids": [
         "maso-1985-02-toc-0056"
       ],
       "source_title": "양계장에서 아르바이트를",
       "section_title": "MSX",
-      "restoration": "outside-current-checkpoint;pending-restoration",
-      "ownership_note": "Independent title,credit andplatform banner supportnon-owninggameparent0051. Lookup only; nochildmapping,OCR orexport. Fullarticleextentpending."
+      "restoration": "complete-poultry-article-exported",
+      "ownership_note": "Canonical0056 owns all249–251/PDF251–253: prose,boxed1240graphic-keynote,sourcecredit andfiveBASICpanels1000–2850. Missing2500source label retained;graphic bands retain count/encoding candidates. No bodypages/assemblypending."
     },
     {
       "pdf_page": 235,
@@ -12462,30 +12635,97 @@
       "classification": "canonical-article",
       "restoration": "complete-boomerang-article-exported",
       "ownership_note": "FinalrightBASIC4760 IF STRIG ( 0 ) THEN RETURN ELSE 4760 ends0055. SourceREMEND3810notending. Next251independentlyopens0056;graphic-key4430–4490bands retainedwithuncertainty."
+    },
+    {
+      "pdf_page": 252,
+      "printed_page": "250",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0056"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-poultry-article-exported",
+      "ownership_note": "Canonical0056 owns all249–251/PDF251–253: prose,boxed1240graphic-keynote,sourcecredit andfiveBASICpanels1000–2850. Missing2500source label retained;graphic bands retain count/encoding candidates. No bodypages/assemblypending."
+    },
+    {
+      "pdf_page": 253,
+      "printed_page": "251",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0056"
+      ],
+      "classification": "canonical-article",
+      "restoration": "complete-poultry-article-exported",
+      "ownership_note": "Final2850RETURN ends0056;following254opens 복덕방. No END/2500invented. Physical32split3/2 retained."
+    },
+    {
+      "pdf_page": 254,
+      "printed_page": "252",
+      "classification": "outside-map-adjacent-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0018"
+      ],
+      "restoration": "lookup-only;pending-later-bounded-restoration",
+      "source_title": "복덕방",
+      "ownership_note": "Independent 복덕방classifieds continuation;first254opens photographicmasthead. No0018mapping/OCR or completeentryclassification inbatch58."
+    },
+    {
+      "pdf_page": 255,
+      "printed_page": "253",
+      "classification": "outside-map-adjacent-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0018"
+      ],
+      "restoration": "lookup-only;pending-later-bounded-restoration",
+      "source_title": "복덕방",
+      "ownership_note": "Independent 복덕방classifieds continuation;first254opens photographicmasthead. No0018mapping/OCR or completeentryclassification inbatch58."
+    },
+    {
+      "pdf_page": 256,
+      "printed_page": "254",
+      "classification": "outside-map-adjacent-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0018"
+      ],
+      "restoration": "lookup-only;pending-later-bounded-restoration",
+      "source_title": "복덕방",
+      "ownership_note": "Independent 복덕방classifieds continuation;first254opens photographicmasthead. No0018mapping/OCR or completeentryclassification inbatch58."
+    },
+    {
+      "pdf_page": 257,
+      "printed_page": "255",
+      "classification": "outside-map-adjacent-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0018"
+      ],
+      "restoration": "lookup-only;pending-later-bounded-restoration",
+      "source_title": "복덕방",
+      "ownership_note": "Independent 복덕방classifieds continuation;first254opens photographicmasthead. No0018mapping/OCR or completeentryclassification inbatch58."
+    },
+    {
+      "pdf_page": 258,
+      "printed_page": "240",
+      "classification": "outside-map-adjacent-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0024"
+      ],
+      "restoration": "lookup-only;pending-later-bounded-restoration",
+      "source_title": "광고색인",
+      "ownership_note": "Not0056. Upper컴퓨터비전advertisement/lower광고색인 withvisiblefolio240;canonicalTOC256 conflict retained."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-58",
-    "goal": "Verify canonical0056 양계장에서 아르바이트를 actualextent from printed249/PDF251 andrestore within sixmappedpages.",
+    "id": "batch-59",
+    "goal": "Verify and restore canonical0017 디버깅 룸 in the independent lower panel on printed243/PDF245.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0056"
+      "maso-1985-02-toc-0017"
     ],
-    "mapping_targets": "Reuse reviewed251opening and250priorending. Inspectactualcontinuations/ending andfollowingownership beforemapping. Ifmorethansixpages,restoreboundedfirstsegment andexplicitlydeferending/assembly.",
+    "mapping_targets": "Reuse preserved full245source frombatch55/56;review lowererrata panel,all rows/tables/code snippets,actualcompleteextent andadjacentownership beforemapping. Upperleftasteroidfinaldump andrightLOGATORcontest remainseparate.",
     "provisional_lookup_targets": [
-      250,
-      251,
-      252,
-      253,
-      254,
-      255,
-      256,
-      257,
-      258,
-      259,
-      260
+      244,
+      245,
+      246
     ],
-    "boundary_review": "부메랑소년0055 complete244–248/PDF246–250 at4760. Lastgamechild0056 independentlyopens249/PDF251withMSX/편집부,subtitle아주 이따금 공룡의 알이 나오기도 한다네,prose andBASIC1000SCREEN1. Boxed1240graphic-keyinstruction andsourcecreditvisible;remainingbodyextentunverified. Preserve BASICrows/labels,DATA,graphics/keys,commands/captions,claims/sourcecredits anddiscrepancies. No0056mappingorOCRyet;no lastarticleending inferredfromTOC orPDFend.",
+    "boundary_review": "Earlier full245reviews show independent lower errata following0054dump andLOGATORcontest. CanonicalTOC디버깅룸243 needs directtitle/layoutverification and panel restoration;do not silently exclude a canonical article as advertising. Preserve correction pairs,printedcode/numbers/sourcewording and source conflicts. No0017mapping orOCR yet. Other unresolved0008정보모음,0018복덕방,0024광고색인,0025컴퓨돌이 remain for later bounded checkpoints.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -12536,7 +12776,8 @@
     "Batch53 completes 그랜드 캐년0052 printed228–231/PDF230–233 andclassifies 게임 모음0051 asnon-owning, preservingfivechildren. Twenty-six BASIC labels/28physicalrows retainthree quotedstrings,six delimiters,28lexicalstatements,96DATA fields andtwo wraps. Six-column dump retains293rows/2340literalbytefields,alladdresses andfinalfour-byte6920 row. Three commandpanels,two monitor-entryrows/ninebytes,eight screenlabels/eightvalues,eleven boxedkeys,two checksums/two memoryranges,two captions,six references,one prosecolumnjoin and53physicalprosewraps remainindexed. Printed saveL$923,checksums4288/265976,range28672–28761,96DATAfields,setupX/Z vsinplayA/Z,역활/9서/깊숙히 andbyte discrepancies remainindependent. Thirty-two candidates,two editorialmark descriptions,16Unicode approximations,2834encoded-spacebands andthree verticalgaps retainoriginals. Exactencodedbytes,spacing,historicalclaims,execution,humanacceptance,fullproofreading andindependentbackuprecovery remainunverified. Allvisiblegame/listinglabels transcribed. No reader rebuild.",
     "Batch54 completes 포도 귀신0053, source 포도귀신, printed232–235/PDF234–237. SevenBASICpanels retain185labels/256physicalrows,71wraps,11quotedstrings/22delimiters,245lexicalstatements,216DATAfields,43branchtargets and1972lexicaltokens. Allnonspacecodebytes covered bylabel/tokenfragments; no syntax/behavior inference. Sixcolumn/pagejoins include1110and2210same-line continuations. Elevenprogramdescriptionranges occupy13physicalrows; final2800range remainsopen-ended. Four screenlabels/values,fourboxedkeys,one descriptioncolumnjoin and29physicalprosewraps remainindexed. No printedcaption invented. Thirty-fourcandidates,eightUnicodeapproximations,1245encoded-spacebands including15quotedspacebands retainoriginals. Prime-like1090mark,percentvariables,splitnumbers,sourceallBASICclaim andliteralspelling remainindependent. Final loweracademyadexcluded; fullsourcepagepinnedprivately. Humanacceptance,fullproofreading,encodedbytes,spacing,claims,execution andindependentbackuprecovery remainunverified. Allvisiblelabels transcribed; no readerrebuild.",
     "소혹성 지대0054 completeacrossprinted236–243/PDF238–245 fromtwoimmutable natives/all270files/fullcorrectionmetadata. Completeindexes retain931physicaltextrows,845coderows,39BASIClabels/rows,tenquotedstrings/20delimiters,39statements,fivebranches,218lexicaltokens,14quotedspacebands,801dump rows/6408literalbytefields C100–DA00 in17columns,fourcommandregions/fiverows,eightroutinedescriptions/tenaddresses,fiveopaquescreenfields,fourboxedkeys,twocaptions/tworeferences,16dumpconnections,two regionalcontinuations and45prosewraps. IncomingD418/D420 andinheritedlist2caption resolved;externalnativeevidence retainsoriginalnamespace. Sixty-sixcandidates,eighteditorialmarkers,13Unicodeapproximations and6976encodedspacebands remain. SC*256,&HD9FFindependentofDA00,repeatedloadheading,sourcebyte/glyph/spelling discrepancies remainliteral. Final245rightLOGATORcontest/lowererrataexcluded;eligiblepanel/folio retained. Tinyillustrationlabels pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,execution andindependentbackuprecovery unverified. No bodypages orassemblypending. Use pinnedasteroid_literal_r02 checker/context;no readerrebuild.",
-    "Batch57 completes부메랑 소년0055,source부메랑소년,printed244–248/PDF246–250. NineBASICpanels retain377labels/435physicalrows/58wraps,50quotedstrings/96delimiters/fourunclosedsourcequotes,383lexicalstatements,416literalhexDATAfields/13spritegroups,24branchtargets,3756lexicaltokens and46quotedspacebands. NinePLAYstrings/122characters,oneDRAWstring,seven graphic-keybands4430–4490,fourwavyglyphstrings/twelvebandmarkers,twoarrowkeys,oneboxedprogramrange,eightcolumn/pagejoins and21prosewraps indexed. Actual4760endingretained;REMEND3810notending. Graphic-keyLatin/bracketreadings arevisualUnicodeapproximations;[ versusC,V/Wruncounts andencodedMSXinputunknown. Noclosingquotesinvented4460–4490. Twelvewavy-pairmarkers/twolowmarkdescriptions retainoriginals. Forty-threecandidates,14editorialmarkers,nineUnicodeapproximations and2836source-approximation spacebands plus40editorial-description spaces remainexplicit. PLAY0/O/5/S,splitTX/STR$/MS/ME and41/00,compactPUTSPRITE,DATAglyphs,mechanics/sourcecredit discrepancies remainliteral. Humanacceptance,fullproofreading,sourcebytes,spacing,graphicglyphcounts/encoding,claims,execution andindependentbackuprecovery unverified. No readerrebuild."
+    "Batch57 completes부메랑 소년0055,source부메랑소년,printed244–248/PDF246–250. NineBASICpanels retain377labels/435physicalrows/58wraps,50quotedstrings/96delimiters/fourunclosedsourcequotes,383lexicalstatements,416literalhexDATAfields/13spritegroups,24branchtargets,3756lexicaltokens and46quotedspacebands. NinePLAYstrings/122characters,oneDRAWstring,seven graphic-keybands4430–4490,fourwavyglyphstrings/twelvebandmarkers,twoarrowkeys,oneboxedprogramrange,eightcolumn/pagejoins and21prosewraps indexed. Actual4760endingretained;REMEND3810notending. Graphic-keyLatin/bracketreadings arevisualUnicodeapproximations;[ versusC,V/Wruncounts andencodedMSXinputunknown. Noclosingquotesinvented4460–4490. Twelvewavy-pairmarkers/twolowmarkdescriptions retainoriginals. Forty-threecandidates,14editorialmarkers,nineUnicodeapproximations and2836source-approximation spacebands plus40editorial-description spaces remainexplicit. PLAY0/O/5/S,splitTX/STR$/MS/ME and41/00,compactPUTSPRITE,DATAglyphs,mechanics/sourcecredit discrepancies remainliteral. Humanacceptance,fullproofreading,sourcebytes,spacing,graphicglyphcounts/encoding,claims,execution andindependentbackuprecovery unverified. No readerrebuild.",
+    "Batch58 completes양계장에서 아르바이트를0056,printed249–251/PDF251–253. FiveBASICpanels retain185labels/208rows/23wraps,43strings/86delimiters,212lexicalstatements,54DATAfields(sixdecimalheaders/48hexfields)/sixbitmapgroups,20directtargets/12ONtargets,1405lexicaltokens and69quotedspacebands. TwoPLAYstrings/58characters,sixgraphicbands,eightboxedkeys/threeinputassociations,one1240reference,fourlistingconnections,one제한시/간내에columnjoin and34prosewraps indexed. Missing2500,splitTHEN/100/32,Gassignment,RETURN1720,PLAY0/O/6,DATA andhistoricalspelling/claims remainliteral. Twoeditorialrepetitivebandmarkers leaveW-like1240/c1280countunknown;fourd-gridrows2350–2410 arevisualapproximationswithcount/spacing/encodinguncertainties. Thirty-eightcandidates,sevenUnicodeapproximations,1429source-approximation spacebands andsixeditorial-description spaces remainexplicit. TwentyOCRtasks5eng/15koreng;29original/3replacementcrops inspectedbeforeinference;zeroOCRfailure/retry. Humanacceptance/fullproofreading,sourcebytes,spacing,graphicglyphcounts/encoding,claims,execution andindependentbackuprecovery remainunverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }
