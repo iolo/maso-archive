@@ -985,14 +985,38 @@ paired OCR or a new engine comparison.
   are now restored across two immutable natives;complete article assembly is pending.
   Current totals: 36 readable, one partial article, six non-owning headings and13 unresolved.
 
-  Next: assemble all twelve pages210–221/PDF212–223 of 마이크로 컴퓨터 설계 강좌0048
-  from immutable batch49/50 natives. Preserve full correction metadata andall local
-  indexes,resolve the 변환 결과를/A 레지스터에서 boundary andopening list1 reference,
-  andvalidate projected ranges against native bytes. No new mapping orOCR is needed.
-  Then verify 알려지지 않은 Z80 명령어0049 from222/PDF224. Parent 정보모음0008,cover
-  selection,remaining page accounting andissue closeout remain pending. Human acceptance,
-  full proofreading,source bytes,spacing,claims,circuit behavior,execution andindependent
-  backup recovery remain unverified;diagram-label transcription is pending volunteers.
+  마이크로 컴퓨터 설계 강좌0048 is complete at
+  `archive/pdf/1985-02/packages/design-complete-r01`, covering printed210–221/PDF212–223.
+  All 570 files match the independent rebuild; all 561 native files and full correction
+  records remain exact. Seventy-four category slices and ten objects reverse to their
+  original metadata across 9,946 projected UTF-8 ranges. All 10,431 active ranges,
+  10,540 native evidence pins and 160 images validate. The assembly retains 128 blocks,
+  698 physical transcript rows, sixteen numbered diagrams, one illustration, three
+  original table panels and twelve complete pages. Three tables/four independent lists
+  retain 42 logical rows, 126 cells, 15 headers, 31 blank slots and two spanning cells.
+  List1 retains 69 assembly rows/196 fields/80 blanks/six EQU constants; lists2/3 retain
+  16 BASIC labels, 36 output rows/81 numeric fields, six prompt-response pairs and one
+  unanswered prompt. Twenty-two captions, sixteen complete prose continuations, one
+  listing continuation, 122 physical wraps and five signal-overbar groups remain.
+  The incoming 변환 결과를/A 레지스터에서 boundary and opening list1 reference resolve
+  without rewriting text. Sixty-eight candidates, one faint-glyph marker, 142 Unicode
+  approximations and 2,603 unknown encoded-space bands retain scans. Four native stage
+  notes and one ledger deferral are resolved only in active status; originals remain.
+  Use the pinned private `restoration/design-assembly/adc_design_literal.py` checker
+  or its `installed()` context; see `reproduction.json`. Eight negative probes reject
+  range, boundary, caption, blank-slot, assembly-row, coverage and ending corruption.
+  All 48,957 prior files and 30 implementation pins pass; 50,120 files are preserved.
+  No new mapping, rendering, OCR or source correction; unchanged 213-test baseline reused.
+  Current totals: 37 readable, no partial articles, six non-owning headings and13 unresolved.
+
+  Next: verify 알려지지 않은 Z80 명령어0049 from printed222/PDF224 and restore a bounded
+  segment as batch51. Reuse reviewed opening224/continuation225; inspect the actual
+  ending and following article before mapping at most six pages. Preserve opcode
+  tables, assembly rows, register notation, examples and source discrepancies literally.
+  Parent 정보모음0008, cover selection, remaining page accounting and issue closeout
+  remain pending. Human acceptance, full proofreading, source bytes, spacing, claims,
+  circuit behavior, execution and independent backup recovery remain unverified;
+  diagram-label transcription is pending volunteers. No reader rebuild.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
