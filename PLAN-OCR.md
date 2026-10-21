@@ -370,13 +370,32 @@ paired OCR or a new engine comparison.
   files and 30 implementation pins pass; the unchanged 213-test baseline is reused.
   Current totals: 22 readable, one partial article, two non-owning headings and 31 unresolved.
 
-  Next: restore ALE listing142–145/PDF144–147 as batch30, then assemble both immutable
-  segments separately. Reuse reviewed source views; retain ordinals1–579, all listing
-  fields and the final93FE:60 579 RTS literally. Bind the caption and twelve prose
-  annotations to the listing with exact native evidence; open-ended494 remains open.
-  Keep the two-article/six-page/twenty-outside-lookup limits. Cover selection, remaining
-  page accounting and issue closeout remain pending. No reader rebuild; human acceptance
-  and full proofreading remain pending.
+  Batch30 restores the complete ALE listing on printed142–145/PDF144–147 at
+  `archive/pdf/1985-02/packages/batch-30-r01/ale-b`. All 53 files match its independent
+  rebuild; 31,617 current UTF-8 ranges, thirteen external native ranges, 32,586 evidence
+  pins and fourteen images pass. All 579 assembly ordinals retain 3,161 independent
+  fields, 892 blank fields, 1,007 printed object bytes, 375 comments, 136 labels and
+  49 ORG/EQU directives. Two unnumbered headers retain the source/object filenames;
+  the object-header dash count stays unknown. Seven column/page boundaries, one caption,
+  twelve prose ordinal references and one prose listing reference retain exact links.
+  The printed494 range remains open. Thirty-eight localized candidates, two isolated
+  ink marks and 2,971 unknown spacing bands retain originals. FFER stays in its printed
+  comment position without an inserted semicolon. All source spellings and numerical
+  claims remain independent, including prose1006 and the listing's1,007 object bytes.
+  All 22 original/nine revised crops were reviewed before ten tasks (8eng/2kor+eng);
+  all drafts were read before one source pass. No OCR failure/retry. Original half-column
+  crops and subsequent whole-column/margin repairs remain. A null-ledger-entry verifier
+  failure and its corrected script remain; no source/package changes were required.
+  All 34,248 prior files and 30 implementation pins pass; unchanged213-test baseline reused.
+  All eight ALE body pages now exist in two immutable natives; article assembly is pending.
+  Current totals: 22 readable, one partial article, two non-owning headings and 31 unresolved.
+
+  Next: assemble complete ALE from exact batch29 ale-a and batch30 ale-b pins. Retain
+  all native files and metadata, including every prose/table/example and assembly field.
+  Project all thirteen native associations and resolve only active stage deferrals;
+  keep printed ranges and source discrepancies literal. No new mapping or OCR.
+  Cover selection, remaining page accounting and issue closeout remain pending.
+  No reader rebuild; human acceptance and full proofreading remain pending.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
