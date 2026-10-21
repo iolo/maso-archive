@@ -1027,10 +1027,31 @@ paired OCR or a new engine comparison.
   The unchanged213-test baseline is reused. No reader rebuild.
   Current totals: 38 readable, no partial articles, six non-owning headings and12 unresolved.
 
-  Next: verify MAT 함수0050 from printed224/PDF226 and restore a bounded segment as
-  batch52. Reuse reviewed opening226 andprepared,unreviewed views227–232; inspect the
-  actual ending andfollowing ownership before mapping at most six pages. Preserve
-  matrix notation,BASIC physical rows/labels,examples,captions andsource discrepancies.
+  Batch52 completes MAT 함수0050, printed224–227/PDF226–229, at
+  `archive/pdf/1985-02/packages/batch-52-r01`. All 293 files match the independent
+  rebuild; 5,909 exact UTF-8 ranges, 6,133 evidence pins and 86 images pass.
+  Twelve listing panels retain 142 BASIC rows/labels, 144 lexical statements, four
+  quoted strings, eight quote delimiters, ten branch targets and twelve DATA fields.
+  Three matrices retain 21 cells in nine rows, with original geometry alongside an
+  editorial text layout. Three equations retain twelve numeric fields, nine variables
+  and nine operators; six formulas and five output rows/six fields remain independent.
+  Twelve captions, fourteen prose references, three line references, seven continuations
+  and 36 physical wraps remain linked. Printed PUT1S, J=1, D(RB), X=RB, OUTOUT,
+  determinent, baseline B=AT, the beta glyph, raised marks after1530/1910 and list10
+  references remain literal. Thirty source candidates, 39 Unicode approximations and
+  1,094 unknown encoded-space bands retain scans. All matrix/listing labels are transcribed.
+  All 86 original crops and one widened caption preceded 66 OCR tasks (12 eng/54 kor+eng);
+  all drafts preceded one source pass. No OCR failures/retries. Six page views were reused.
+  All 51,351 prior files and 30 implementation pins pass; 52,539 files are preserved.
+  The unchanged 213-test baseline is reused. No reader rebuild.
+  Current totals: 39 readable, no partial articles, six non-owning headings and 11 unresolved.
+
+  Next: verify game parent0051 게임 모음 and child0052 그랜드 캐년 from printed228/PDF230
+  as batch53. Inspect the child's actual ending and following article before mapping
+  at most six pages. Classify the parent only with source evidence, preserving its
+  five existing child relationships. Reuse reviewed opening230 and prepared views231–232;
+  other child openings are lookup-only. Preserve BASIC, dump addresses/bytes, commands,
+  captions, screen labels and source discrepancies literally.
   Parent 정보모음0008, cover selection, remaining page accounting and issue closeout
   remain pending. Human acceptance, full proofreading, source bytes, spacing, claims,
   circuit behavior, execution and independent backup recovery remain unverified;
