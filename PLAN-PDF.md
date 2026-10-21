@@ -1193,16 +1193,42 @@ All53,332 prior files and30 implementation pins pass; 53,867 files are preserved
 The unchanged213-test baseline is reused. No reader rebuild.
 Current totals: 41 readable, no partial articles, seven non-owning headings and 8 unresolved.
 
-Next: verify 소혹성 지대0054 from printed236/PDF238 as batch55. Inspect its full
-ending and continuations before restoring at most six pages; if longer, preserve
-the remaining pages and assembly as explicit pending work. Reuse reviewed opening238
-and next child 부메랑 소년0055 opening246; inspect intervening239–245 and adjacent
-ownership. Preserve BASIC, machine-code addresses/bytes, commands, captions, graphics
-and source discrepancies. No0054 mapping or OCR has started. Parent 정보모음0008,
-cover selection, remaining page accounting and issue closeout remain pending.
-Human acceptance, full proofreading, source bytes, spacing, claims, circuit behavior,
-execution and independent backup recovery remain unverified; earlier diagram-label
-transcription is pending volunteers. No reader rebuild.
+Batch55 restores 소혹성 지대0054 opening printed236–241/PDF238–243 at
+`archive/pdf/1985-02/packages/batch-55-r01` as a partial native. Its full eight-page
+extent is printed236–243/PDF238–245; the final two pages and complete assembly remain pending.
+All 218 files match the independent rebuild; 39,924 exact UTF-8 ranges,
+40,110 evidence pins and68 image decodes pass. One BASIC panel retains39 labels/
+physical rows1000–1380, ten quoted strings/20 delimiters,39 lexical statements,
+five branches,218 lexical tokens and14 quoted-space bands. Twelve dump columns retain
+612 rows/4,896 literal byte fields C100–D418 and eleven column/page connections.
+Four command regions/five physical command rows, eight routine descriptions/ten
+addresses, four boxed keys, five opaque screen fields, two captions/two references,
+two regional continuations and45 physical prose wraps remain indexed.
+Printed SC * 256, save bound &HD9FF, repeated load-heading wording, 갯수/리턴키이를,
+byte discrepancies and all source spelling remain literal. Thirty-eight candidates,
+seven editorial markers (including two unknown asterisk counts), twelve Unicode
+approximations and5,463 encoded-space bands retain originals. Five low marks and
+four raised marks remain independent of the indexed byte fields. Tiny painted labels
+inside the original illustration remain pending volunteers; screen/listing labels are transcribed.
+All59 original crops and ten replacement command/prose crops preceded47 OCR tasks
+(17 eng/30 kor+eng); all drafts preceded one source pass. No OCR failures/retries or
+coverage repairs. Four running-head crops omitted by the sheet predicate were inspected
+separately before OCR. Metadata revisions correct the preparation's missingH in &HD9FF
+and a narrative low-mark count; source text and every original version remain preserved.
+All53,867 prior files and30 implementation pins pass; 54,788 files are preserved.
+The unchanged213-test baseline is reused. No reader rebuild.
+Current totals: 41 readable, one partial article, seven non-owning headings and 7 unresolved.
+
+Next: restore 소혹성 지대0054 ending printed242–243/PDF244–245 as batch56.
+Reuse the reviewed full pages; map only the ending dump D420–DA00. Final245 upper-left
+two columns belong to0054; the right LOGATOR contest and lower reader errata are independent.
+Link incoming D418/D420 and the opening list2 caption through exact native evidence.
+Preserve printed &HD9FF independently of the final DA00 row. After the ending native,
+assemble the complete article separately from immutable segments. Following 부메랑 소년0055
+opens244/PDF246. Parent 정보모음0008, cover selection, remaining page accounting and
+issue closeout remain pending. Human acceptance, full proofreading, source bytes,
+spacing, claims, execution and independent backup recovery remain unverified;
+earlier diagram-label transcription is pending volunteers. No reader rebuild.
 
 ## December 1984 closeout, 2026-10-20
 
