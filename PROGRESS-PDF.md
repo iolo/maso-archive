@@ -7,7 +7,7 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 February 1985 restoration is in progress. Twenty-two articles are readable/sample-reviewed,
-none are partial, two headings are non-owning and 32 of 56 entries remain unresolved.
+one is partial, two headings are non-owning and 31 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -211,12 +211,30 @@ source correction pass. No OCR failure, retry or crop repair. All 33,029 prior f
 and 30 implementation pins pass; the unchanged 213-test baseline is reused.
 Current totals: 22 readable, no partial articles, two non-owning headings and 32 unresolved.
 
-Next: verify 애플 베이직 라인 에디터, canonical0006, from printed136/PDF138.
-Inspect its prose, referenced listings, actual ending and adjacent pages before mapping.
-The next TOC entry is a lookup lead, not proof of the ending; retain any noncontiguous
-listing ownership. Keep the two-article/six-page/twenty-outside-lookup limits.
-Cover selection, remaining page accounting and issue closeout remain pending.
-No reader rebuild; human acceptance and full proofreading remain pending.
+Batch29 restores ALE’s complete prose segment, canonical0006, on printed136–139/
+PDF138–141 at `archive/pdf/1985-02/packages/batch-29-r01/ale-a`. All 223 files match
+its independent rebuild; all 2,369 exact UTF-8 ranges, 2,545 evidence pins and 58 images
+pass. Fifty-two blocks retain 272 physical rows, six examples/seven code rows, one
+BASIC label, two tables/19 rows/38 cells, two captions and eight prose continuations.
+Twelve listing annotations, five routine ranges, seven key notations, seven POKE
+commands, two pull quotes and 56 physical wraps retain their source occurrences.
+Twenty-nine glyph/wording candidates, seventeen Unicode approximations and twelve
+unknown spacing bands remain explicit. Printed1006/L$3EF,37478($9266),PSII,FREFAC,
+overlapping routine ranges, table arrows and split RETURN remain literal.
+The full extent is eight noncontiguous pages: prose136–139 plus listing142–145.
+Shared139/PDF141 owns only upper ALE prose; lower MLE and interveningPDF142–143
+are excluded. All 58 original/five revised crops preceded52tasks (6eng/46kor+eng);
+all drafts were read before one source pass. No OCR failure/retry. All 33,342 prior
+files and 30 implementation pins pass; the unchanged 213-test baseline is reused.
+Current totals: 22 readable, one partial article, two non-owning headings and 31 unresolved.
+
+Next: restore ALE listing142–145/PDF144–147 as batch30, then assemble both immutable
+segments separately. Reuse reviewed source views; retain ordinals1–579, all listing
+fields and the final93FE:60 579 RTS literally. Bind the caption and twelve prose
+annotations to the listing with exact native evidence; open-ended494 remains open.
+Keep the two-article/six-page/twenty-outside-lookup limits. Cover selection, remaining
+page accounting and issue closeout remain pending. No reader rebuild; human acceptance
+and full proofreading remain pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37

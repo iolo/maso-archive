@@ -629,12 +629,73 @@
       "toc_entry_id": "maso-1985-02-toc-0006",
       "title": "애플 베이직 라인 에디터",
       "parent_id": "maso-1985-02-toc-0004",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0006 ALE opens printed136/PDF138 withsource title애플베이직라인에디터(ALE) and애플컴패티블 platform. Canonicaltitle,parent0004 andsiblings0005/0007 preserved; no byline invented.",
+        "Actualeight-page noncontiguous extent:prose136–138/PDF138–140 plusupper139/PDF141,thenlist1printed142–145/PDF144–147. All sourcepages inspected individually. Printed139lower/MLEbadge and140–141/PDF142–143 are separateMLEbody.",
+        "ALEprose continues from138ending당 into139opening신 andends제약 section작업해야 한다 inupper139. Lower139starts independent기계어라인에디터(MLE). Sharedpageupperprose crop excludes MLEtitle,sectionbadge,platform andbody.",
+        "List1 captionALE소스프로그램 on142/PDF144 startsSOURCEFILE:ALE,ordinals1–69left and70–142right. Following143/PDF145continues143–288,144/PDF146continues289–433,and145/PDF147continues434–579 ending93FE:60 579 RTS.",
+        "Following146/PDF148is separatelycaptionedMLE소스프로그램 andobjectfileMLE.OBJ0; it doesnotextendALE. No listingpages were inferred merelyfromnextTOCentry.",
+        "Currentfirstsegment restoresallfourprosepages,includingtwo commandtables,examples,source keynotation,programreferences andtwo pullquotes. Four-page assemblylisting remains intact forsecondboundedsegment andlaterimmutableassembly.",
+        "Keep sourceprose addresses,bytecounts,POKEvalues,commandnotation andline-range claims literal andindependent oflisting semantics. No historical/code/syntax/hardware repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-29-r01/ale-a",
+        "article_id": "scan-maso-1985-02-toc-0006",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-29-r01/ale-a/manifest.json",
+          "sha256": "84b34ae23f6371a6e491a66922d5f48b914ae43c28fd04de7f95c85300216de9",
+          "bytes": 37593
+        },
+        "coverage": {
+          "pdf_pages": [
+            138,
+            139,
+            140,
+            141
+          ],
+          "printed_pages": [
+            "136",
+            "137",
+            "138",
+            "139"
+          ],
+          "regions": 58,
+          "blocks": 52,
+          "figures": 6,
+          "shared_page_ownership": "PDF141 upper ALE prose only; lower MLE body and section badge excluded."
+        },
+        "full_pdf_pages": [
+          138,
+          139,
+          140,
+          141,
+          144,
+          145,
+          146,
+          147
+        ],
+        "assembly_required": true,
+        "deferred_pdf_pages": [
+          144,
+          145,
+          146,
+          147
+        ],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-29/validation.json",
+          "sha256": "cc1909e2657cf0238dd43947f6c8e31dbd390aa4460541e4bc871f114a41da82",
+          "bytes": 2342
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-29/reproduction.json",
+          "sha256": "d510075726f6e8c6373489e2e55c939683dbe74546b4f92dec20366ddb60adb1",
+          "bytes": 1240
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0007",
@@ -2374,9 +2435,9 @@
   "totals": {
     "canonical_entries": 56,
     "readable": 22,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 2,
-    "unresolved_eligibility": 32
+    "unresolved_eligibility": 31
   },
   "checkpoints": [
     {
@@ -4539,6 +4600,94 @@
         "sha256": "1858386277874122c9a554e4f066abfaefab4e7bd51d3842aa00200434a2c25d",
         "bytes": 7448669
       }
+    },
+    {
+      "id": "batch-29",
+      "status": "partial-article-segment",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006"
+      ],
+      "mapped_pdf_pages": [
+        138,
+        139,
+        140,
+        141
+      ],
+      "outside_map_lookup_pages": [
+        137,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-29/validation.json",
+        "sha256": "cc1909e2657cf0238dd43947f6c8e31dbd390aa4460541e4bc871f114a41da82",
+        "bytes": 2342
+      },
+      "stats": {
+        "completed_at": "2026-10-21T07:49:20.602437+00:00",
+        "stats": {
+          "regions": 58,
+          "blocks": 52,
+          "figures": 6,
+          "physical_text_rows": 272,
+          "physical_code_rows": 7,
+          "logical_listing_lines": 6,
+          "listing_groups": 6,
+          "basic_labels": 1,
+          "table_groups": 2,
+          "table_rows": 19,
+          "table_cells": 38,
+          "table_blank_cells": 0,
+          "table_physical_wraps": 2,
+          "source_candidates": 29,
+          "unknown_bands": 0,
+          "typographic_approximations": 17,
+          "unknown_space_bands": 12,
+          "connections": 8,
+          "physical_wraps": 56,
+          "caption_links": 2,
+          "table_references": 2,
+          "listing_annotations": 12,
+          "routine_ranges": 5,
+          "example_contexts": 6,
+          "section_associations": 10,
+          "key_notations": 7,
+          "poke_commands": 7,
+          "listing_references": 1,
+          "pullquotes": 2,
+          "availability": "partial",
+          "mapped_pdf_pages": [
+            138,
+            139,
+            140,
+            141
+          ],
+          "deferred_pdf_pages": [
+            144,
+            145,
+            146,
+            147
+          ]
+        },
+        "source_passes": 1,
+        "ocr_tasks": 52,
+        "eng_code_tasks": 6,
+        "kor_eng_tasks": 46,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 5
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-29-preserved-work.json",
+        "sha256": "83e2fa2379f865f1c41c12ccd3f89f33351453e6bc08e7aea0e6846a31312e75",
+        "bytes": 7645242
+      }
     }
   ],
   "source_page_observations": [
@@ -5787,31 +5936,143 @@
     {
       "pdf_page": 138,
       "printed_page": "136",
-      "classification": "adjacent-article-opening-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
         "maso-1985-02-toc-0006"
       ],
       "source_title": "애플 베이직 라인 에디터(ALE)",
-      "restoration": "opening-observed;extent-and-restoration-pending"
+      "restoration": "ALE-prose-segment-exported;listing-and-assembly-pending",
+      "ownership_note": "ALE prose, examples and tables restored; complete article requires noncontiguous listing."
+    },
+    {
+      "pdf_page": 139,
+      "printed_page": "137",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006"
+      ],
+      "source_title": "애플 베이직 라인 에디터(ALE)",
+      "restoration": "ALE-prose-segment-exported;listing-and-assembly-pending",
+      "ownership_note": "ALE prose, examples and tables restored; complete article requires noncontiguous listing."
+    },
+    {
+      "pdf_page": 140,
+      "printed_page": "138",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006"
+      ],
+      "source_title": "애플 베이직 라인 에디터(ALE)",
+      "restoration": "ALE-prose-segment-exported;listing-and-assembly-pending",
+      "ownership_note": "ALE prose, examples and tables restored; complete article requires noncontiguous listing."
+    },
+    {
+      "pdf_page": 141,
+      "printed_page": "139",
+      "classification": "mixed-article-bodies",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006",
+        "maso-1985-02-toc-0007"
+      ],
+      "source_title": "애플 베이직 라인 에디터(ALE)",
+      "restoration": "ALE-prose-segment-exported;listing-and-assembly-pending",
+      "ownership_note": "Only upper ALE prose restored; lower MLE title/body and section badge excluded."
+    },
+    {
+      "pdf_page": 142,
+      "printed_page": "140",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0007"
+      ],
+      "source_title": "기계어 라인 에디터(MLE)",
+      "restoration": "lookup-only;restoration-pending",
+      "ownership_note": "Separate MLE prose; not ALE."
+    },
+    {
+      "pdf_page": 143,
+      "printed_page": "141",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0007"
+      ],
+      "source_title": "기계어 라인 에디터(MLE)",
+      "restoration": "lookup-only;restoration-pending",
+      "ownership_note": "Separate MLE prose; not ALE."
+    },
+    {
+      "pdf_page": 148,
+      "printed_page": "146",
+      "classification": "adjacent-article-body-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0007"
+      ],
+      "source_title": "기계어 라인 에디터(MLE)",
+      "restoration": "lookup-only;restoration-pending",
+      "ownership_note": "Separate MLE listing begins PDF148."
+    },
+    {
+      "pdf_page": 144,
+      "printed_page": "142",
+      "classification": "article-listing-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006"
+      ],
+      "source_title": "리스트1. ALE 소스프로그램",
+      "restoration": "deferred-to-batch-30",
+      "ownership_note": "ALE noncontiguous listing; final93FE:60 579 RTS onPDF147."
+    },
+    {
+      "pdf_page": 145,
+      "printed_page": "143",
+      "classification": "article-listing-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006"
+      ],
+      "source_title": "리스트1. ALE 소스프로그램",
+      "restoration": "deferred-to-batch-30",
+      "ownership_note": "ALE noncontiguous listing; final93FE:60 579 RTS onPDF147."
+    },
+    {
+      "pdf_page": 146,
+      "printed_page": "144",
+      "classification": "article-listing-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006"
+      ],
+      "source_title": "리스트1. ALE 소스프로그램",
+      "restoration": "deferred-to-batch-30",
+      "ownership_note": "ALE noncontiguous listing; final93FE:60 579 RTS onPDF147."
+    },
+    {
+      "pdf_page": 147,
+      "printed_page": "145",
+      "classification": "article-listing-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006"
+      ],
+      "source_title": "리스트1. ALE 소스프로그램",
+      "restoration": "deferred-to-batch-30",
+      "ownership_note": "ALE noncontiguous listing; final93FE:60 579 RTS onPDF147."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-29",
-    "goal": "Verify canonical0006 애플 베이직 라인 에디터 actual full extent from printed136/PDF138,including all referenced listings; restore within the bounded source-page limit.",
+    "id": "batch-30",
+    "goal": "Restore the four ALE assembly-listing pages, printed142–145/PDF144–147, as the second immutable segment; full article assembly remains a separate checkpoint.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0006"
     ],
-    "mapping_targets": "Reuse saved PDF137–138. The ALE opening onprinted136/PDF138 hasprose,input/usage examples andan assembly listingreference57–579. Inspect prosecontinuations,listings,ending andadjacent pages before mapping; nextcanonicalchild 기계어라인에디터 atprinted139 is a lookup lead,not proof of ALEending. Preserve independent articleownership andnoncontiguous listing pages if observed.",
+    "mapping_targets": "Reuse batch29 saved source views. ALE list1 caption and SOURCE FILE: ALE start PDF144; ordinals1–142 on144,143–288 on145,289–433 on146,434–579 on147. Final marker93FE:60 579 RTS; followingPDF148 MLE listing is excluded. Preserve original columns, blank fields, object bytes, comments, storage and physical continuations.",
     "provisional_lookup_targets": [
-      137,
-      138,
-      139,
-      140,
-      141,
-      142
+      143,
+      144,
+      145,
+      146,
+      147,
+      148
     ],
-    "boundary_review": "Verify sourceheadline/platform against canonical0006, complete source-pagecoverage andactual end. Record physical BASIC/example wraps,assembly ordinals/fields,keys,tables andcaptionlinks literally; no syntax,opcode orprogram repair. Preserve source uncertainty andall prior work.",
+    "boundary_review": "Bind listing caption and twelve prose ordinal annotations back to exact native ale-a ranges at assembly. Open-ended494 reference remains open; do not reconcile prose addresses, byte counts or code claims using semantics. Keep original full eight-page scope and shared141 ALE/MLE ownership.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -5842,7 +6103,8 @@
     "FeatureI opener0001 owns one-pageintro113/PDF115 andretains two canonicalchildren; it is readablewithtwo localizedphoto-obscured bands andfive sourcecandidates. Four keyboard labels indexed;tiny photograph labels/humanproofreading pending.",
     "Speed text canonical0002 is complete across ten noncontiguous pages114–116,122–128/PDF116–118,124–130, final128upperonly. Two natives/all483files/fullmetadata remain exact. Complete indexes retain827textrows,501coderows/498logicalgroups,432assemblyordinals/2117fields/487blanks/754objectbytes,sixcomments/41storage directives,oneunnumbered425bytecontinuation,64BASIClabels/threegroups,threecaptions/31annotations,onequotedwrap,fiveexternalassociations. Fifty-six sourcecandidates,oneleaderband,62ornamentapproximations and1840unknownspacebands remain. MissingPEEK/asm94operands,800E/90F6/1415,1200/1600/2700,349–350/302–349,DF/BLT andWRITE,APPEND retained. Diagram/photo labels,humanacceptance,sourcebytes,exactspacing,execution andtechnicalclaims unverified. No bodypages orassembly pending. Use pinned speed_text_literal checker/context.",
     "Background music canonical0003 is complete across eleven noncontiguous pages117–121,128–133/PDF119–123,130–135; firstlisting128loweronly andfinal133two disjointpanels. Two natives/all486files/fullmetadata remain exact. Complete indexes retain798textrows,519coderows/509logicalgroups,440assemblyordinals/2107fields/1022blanks/711objectbytes,208comments/13storage directives,seven unnumberedbytecontinuations,64patchdumpbytes/ninepatchassemblyrows,48BASIClabels/twowraps,17PLAYstrings/251characters,sixcaptions/12annotations and15externalassociations. Sixty-two sourcecandidates,fiveunknownbands and2091unknownspacebands remain. Originalcommand,byte,mnemonic,address,annotation-range,PLAYstring andspelling discrepancies retained. Diagramlabels,humanacceptance,sourcebytes,exactspacing,execution andtechnicalclaims unverified. No bodypages orassembly pending. Use pinned background_music_literal checker/context.",
-    "FeatureII inputtools opener0004 andpaperholder0005 complete onprinted134–135/PDF136–137. Openerowns its introduction/photo while allthreecanonicalchildren remain unchanged. Four faintdiagram labels transcribed andsource-linked; nine localizedcandidates,two RomanII Unicodeapproximations andtenphysical wraps retain originals. Paperholdercolumnjoin입/력된,caption그림1,bilingualheadlines andhistorical5～6천원price/availability/usefulnessclaims remain literal. Humanacceptance,fullproofreading,sourcebytes,mechanical/historicalclaims andsmall chipmarkings inintrophoto remain unverified. No bodypages orassembly pending for these two articles."
+    "FeatureII inputtools opener0004 andpaperholder0005 complete onprinted134–135/PDF136–137. Openerowns its introduction/photo while allthreecanonicalchildren remain unchanged. Four faintdiagram labels transcribed andsource-linked; nine localizedcandidates,two RomanII Unicodeapproximations andtenphysical wraps retain originals. Paperholdercolumnjoin입/력된,caption그림1,bilingualheadlines andhistorical5～6천원price/availability/usefulnessclaims remain literal. Humanacceptance,fullproofreading,sourcebytes,mechanical/historicalclaims andsmall chipmarkings inintrophoto remain unverified. No bodypages orassembly pending for these two articles.",
+    "ALE canonical0006 is partial: all four prose pages136–139/PDF138–141 restored; shared139 owns upper ALE text only. Four listing pages142–145/PDF144–147 and immutable article assembly remain pending. Two tables retain19rows/38cells, six examples7physicalrows, twelve ordinal annotations, five literal routine ranges, seven POKE commands and eight prose continuations. Source1006 bytes,L$3EF,37478($9266),PSII,FREFAC,overlapping90C9–92DB/92D4–93FE,split RETURN and DATA spaces remain independent. Twenty-nine candidates,seventeen Unicode approximations andtwelve unknown spacing bands retain originals; human acceptance,full proofreading,sourcebytes andprogram semantics remain unverified. MLE canonical0007 remains unresolved."
   ],
   "reader_rebuild": false
 }
