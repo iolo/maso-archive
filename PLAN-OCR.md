@@ -69,9 +69,16 @@ paired OCR or a new engine comparison.
   targets, three command sections and one caption survive. Eight unknown bands/widths
   and 18 source candidates remain. All 22 original/two revised crops inspected before
   19 tasks; all raws read before one pass; zero OCR failure/retry. Unchanged test baseline.
-  Eight articles are readable/sample-reviewed; 48 of 56 canonical entries remain
-  unresolved. Next: batch09 verifies parent 마이크로컴퓨터의 새로운 물결 and child
-  모뎀, 그 속 이야기 from printed40/PDF42. Cover and issue closeout remain pending.
+  Batch09 completes 모뎀, 그 속 이야기 on printed40–43/PDF42–45; parent0030 is
+  non-owning with four unchanged children. All 214 rebuild files, 1,934 exact ranges,
+  2,100 evidence pins and 56 images pass. Two original diagrams/two captions, two
+  pull quotes, five chip features, two credits and six connections remain. Twenty-six
+  source candidates retain literal spelling/claims; diagram labels pending volunteers.
+  All 56 original/three revised crops inspected before 50 tasks; all raws read before
+  one source pass; zero OCR failure/retry. Unchanged 213-test baseline reused.
+  Nine articles are readable/sample-reviewed, one heading is non-owning and 46 of
+  56 canonical entries remain unresolved. Next: batch10 verifies 오캄의 칼날 from
+  printed44/PDF46. Cover and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
   No reader rebuild. Earlier statements that February has not started are historical.

@@ -560,23 +560,62 @@
       "toc_entry_id": "maso-1985-02-toc-0030",
       "title": "마이크로컴퓨터의 새로운 물결",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "group-heading",
+      "body_owner": false,
+      "availability": "not-applicable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical section has no page reference and contains exactly four unchanged children0031–0034.",
+        "Printed section labels repeat on modem40/42 and next independent child44. Titles/credits and body ownership belong to children;no standalone parent body or package invented."
+      ],
+      "restoration": null,
+      "classification_record": {
+        "path": "archive/pdf/1985-02/restoration/batch-09/parent-classification.json",
+        "sha256": "005704611863c1049b1bc2b6df049be7cd49390e087cd0b15e37d1c25108130d",
+        "bytes": 2717
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0031",
       "title": "모뎀, 그 속 이야기",
       "parent_id": "maso-1985-02-toc-0030",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Article spans printed40–43/PDF42–45. Previous PDF41 ends MSX monitor;PDF46/44 independently opens 오캄의 칼날 under the same parent section.",
+        "Canonical0030 is a non-owning organizational section:current TOC has four child identities0031–0034;printed section labels repeat on modem40/42 and next child44 with independent titles/bylines. No standalone parent body identified.",
+        "Source title 모뎀 그 속이야기 and byline 잭 파워스(Jack Powers),편집부 편역 remain source fields;canonical title/byline/parent unchanged.",
+        "Two complete original diagrams and two separately transcribed captions on41;original diagram-label transcription pending volunteers. All four complete pages retained.",
+        "Pull quotes on42left and43right remain separately indexed repeated editorial text;not inserted into column continuations. Final body closes with 엔지니어들이 한번 도전해 봄직도 한 분야이다."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-09-r01/modem",
+        "article_id": "scan-maso-1985-02-toc-0031",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-09-r01/modem/manifest.json",
+          "sha256": "ff0ae8a8f276345dbbe6d29ec7d7b418b48e48373cb55f6d45da7cd92e61fe15",
+          "bytes": 35796
+        },
+        "coverage": {
+          "pdf_pages": [
+            42,
+            43,
+            44,
+            45
+          ],
+          "printed_pages": [
+            "40",
+            "41",
+            "42",
+            "43"
+          ],
+          "regions": 56,
+          "blocks": 50,
+          "figures": 6
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0032",
@@ -856,10 +895,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 8,
+    "readable": 9,
     "partial": 0,
-    "non_owning_headings": 0,
-    "unresolved_eligibility": 48
+    "non_owning_headings": 1,
+    "unresolved_eligibility": 46
   },
   "checkpoints": [
     {
@@ -1255,6 +1294,60 @@
         "sha256": "8bf3a53f14b3d8458e799ee93667e34d48601036cfa92d12520155ba0a2533e5",
         "bytes": 1035254
       }
+    },
+    {
+      "id": "batch-09",
+      "status": "complete",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0030",
+        "maso-1985-02-toc-0031"
+      ],
+      "mapped_pdf_pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "outside_map_lookup_pages": [
+        41,
+        46
+      ],
+      "canonical_tasks": 2,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-09/validation.json",
+        "sha256": "4635867cfa080f10d8e9529ee4b1cc3f2d80e1d3fcba7dd0cabf0cd4d6ef3520",
+        "bytes": 1300
+      },
+      "stats": {
+        "completed_at": "2026-10-21T00:13:26.044306+00:00",
+        "regions": 56,
+        "blocks": 50,
+        "figures": 6,
+        "physical_text_rows": 290,
+        "physical_code_rows": 0,
+        "technical_tokens": 67,
+        "numeric_fields": 47,
+        "connections": 6,
+        "physical_wraps": 12,
+        "caption_links": 2,
+        "diagrams": 2,
+        "pullquotes": 2,
+        "feature_sections": 5,
+        "credit_fields": 2,
+        "parent_sections": 1,
+        "parent_children": 4,
+        "unknown_bands": 0,
+        "source_candidates": 26,
+        "source_passes": 1,
+        "ocr_tasks": 50,
+        "failures": 0,
+        "retries": 0
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-09-preserved-work.json",
+        "sha256": "db572c27fbe8662de06f0719de966ed37d78226dc29390ecbe6d99cffb8e92f1",
+        "bytes": 1218975
+      }
     }
   ],
   "source_page_observations": [
@@ -1461,32 +1554,77 @@
     },
     {
       "pdf_page": 42,
-      "classification": "article-opening-with-section-label-observed",
+      "classification": "article-body",
       "toc_entry_ids": [
-        "maso-1985-02-toc-0030",
         "maso-1985-02-toc-0031"
       ],
       "printed_page": "40",
       "source_title": "모뎀 그 속이야기",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": true
+    },
+    {
+      "pdf_page": 43,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0031"
+      ],
+      "printed_page": "41",
+      "source_title": "모뎀 그 속이야기",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": false
+    },
+    {
+      "pdf_page": 44,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0031"
+      ],
+      "printed_page": "42",
+      "source_title": "모뎀 그 속이야기",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": true
+    },
+    {
+      "pdf_page": 45,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0031"
+      ],
+      "printed_page": "43",
+      "source_title": "모뎀 그 속이야기",
+      "non_owning_section": "maso-1985-02-toc-0030",
+      "section_label_visible": false
+    },
+    {
+      "pdf_page": 46,
+      "classification": "article-opening-with-section-label-observed",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0032"
+      ],
+      "printed_page": "44",
+      "source_title": "오캄의 칼날",
+      "non_owning_section": "maso-1985-02-toc-0030",
       "restoration": "pending"
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-09",
-    "goal": "Verify parent section 마이크로컴퓨터의 새로운 물결 and extent of child 모뎀, 그 속 이야기 from printed40/PDF42;restore within six mapped pages.",
+    "id": "batch-10",
+    "goal": "Verify extent of 오캄의 칼날 from printed44/PDF46 and restore within six mapped pages.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0030",
-      "maso-1985-02-toc-0031"
+      "maso-1985-02-toc-0032"
     ],
-    "mapping_targets": "Opening PDF42/printed40 observed with section label and modem title/byline. Verify actual end and adjacent pages;canonical parent and four child identities preserved.",
+    "mapping_targets": "Opening PDF46/printed44 observed;verify actual ending,continuations and adjacent pages. Parent0030 remains non-owning with four unchanged children.",
     "provisional_lookup_targets": [
-      41,
-      42,
-      43,
-      44,
       45,
-      46
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
     ],
     "limits": {
       "articles": 2,
@@ -1498,14 +1636,15 @@
     "Assistant sample review is not human acceptance or full proofreading.",
     "OCR omitted lower prose over photograph; preserved drafts and one source-direct completion.",
     "No historical or technical fact checking, encoded-byte recovery, execution or independent backup restore certification.",
-    "Remaining48 identities and remaining source-page accounting require inspection; no global page offset inferred.",
+    "Remaining46 identities and remaining source-page accounting require inspection; no global page offset inferred.",
     "Q&A retains two unknown separator bands,three unknown quoted-space widths,source technical/numeric mistakes and Unicode source candidates; no code execution certification.",
     "Reader guide retains two unknown bands, four faint heading candidates, literal code/command discrepancies and duplicate MSX step③. All original images retained; source encoded bytes and execution unverified.",
     "Reader letters retain five unknown ellipsis bands and localized names,addresses,bibliographic/technical references; no identity/contact/reference verification. Eight signatures and three editorial responses are not an article byline.",
     "BASIC input lesson retains RETRUN,physical1170/290 wrap,13unknown bands,table-range glyph approximations and source claims. Original input diagram retained;independent diagram-label transcription pending volunteers.",
     "Apple conversion tip retains opaque NED20G/ED20G,0075 - E8 03,physical word continuations and seventeen localized glyph/claim candidates. Final folio absent and mapped null;lower independent advertisement excluded. No source claims or execution certified.",
     "BEEP retains six unknown decorative bands and one unclear raised usage mark,19localized source candidates,&H2/&H20 distinctions and literal DATA values. Source claims/encoding/execution remain unverified;separate lower 컴퓨돌이 remains pending.",
-    "MSX mini monitor retains four unknown menu dash bands,four quoted-space widths,18localized glyph/source candidates,GO/underscore readings and literal branch targets. Source references/encoding/claims/execution remain unverified."
+    "MSX mini monitor retains four unknown menu dash bands,four quoted-space widths,18localized glyph/source candidates,GO/underscore readings and literal branch targets. Source references/encoding/claims/execution remain unverified.",
+    "Modem article retains original diagrams with independent label transcription pending volunteers,26localized source candidates,Metal Oxcide/역활/수신과 응답 wording,physical continuations and unverified claims/references. Parent0030 owns no body;all four child identities preserved."
   ],
   "reader_rebuild": false
 }

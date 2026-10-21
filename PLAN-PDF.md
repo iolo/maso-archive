@@ -95,12 +95,23 @@ four connections and six physical wraps remain. Eight unknown bands/widths and
 18 localized candidates remain explicit. All 19 tasks completed without failure/retry;
 two crop repairs preceded OCR. Unchanged 213-test baseline reused.
 
-The 56-entry issue ledger records eight readable/sample-reviewed articles and 48
-unresolved entries. Next is batch09: verify parent 마이크로컴퓨터의 새로운 물결 and
-restore child 모뎀, 그 속 이야기 from printed40/PDF42 within the usual limits.
-PDF41/42 renders can be reused. Cover selection, remaining source-page accounting
-and issue closeout are pending. See the [February record](docs/progress/8502.md)
-and [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
+Batch09 completes 모뎀, 그 속 이야기, canonical0031, on printed40–43/PDF42–45.
+Parent0030, 마이크로컴퓨터의 새로운 물결, is non-owning; all four child identities
+and relationships remain. All 214 files at
+`archive/pdf/1985-02/packages/batch-09-r01/modem` match its independent rebuild.
+All 1,934 exact ranges, 2,100 evidence pins and 56 images pass. Fifty blocks retain
+290 physical rows, two original diagrams/two captions, two pull quotes, five chip
+features, two credits, six connections and twelve physical wraps. Twenty-six source
+candidates retain Oxcide/역활 and literal claims. Diagram-label transcription remains
+pending volunteers. All 50 tasks completed without failure/retry; three crop repairs
+preceded OCR. Unchanged 213-test baseline reused.
+
+The 56-entry issue ledger records nine readable/sample-reviewed articles, one
+non-owning heading and 46 unresolved entries. Next is batch10: verify 오캄의 칼날
+from printed44/PDF46 and restore within six mapped pages. PDF45/46 renders can be
+reused. Cover selection, remaining source-page accounting and issue closeout are pending.
+See the [February record](docs/progress/8502.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.
 
 ## December 1984 closeout, 2026-10-20

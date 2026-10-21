@@ -6,16 +6,17 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Eight articles are readable/sample-reviewed;
-48 of 56 canonical entries remain unresolved. The latest is MSX-tip : 미니 모니터 on
-printed38–39/PDF40–41; the final right advertisement is excluded. All 88 files match
-its independent rebuild; 2,316 exact ranges, 2,384 evidence pins and 22 images pass.
-All 61 listing rows/labels, 32 quoted fields, 17 branch targets, three command sections
-and one caption remain source-linked. Eight unknown bands/widths and 18 localized
-candidates remain. All 19 tasks completed without failure/retry. The unchanged pipeline
-reuses its passing 213-test baseline. Next is parent-section verification and restoration
-of 모뎀, 그 속 이야기 from printed40/PDF42. Cover selection and issue closeout remain
-pending. See the [February record](docs/progress/8502.md) and
+February 1985 restoration is in progress. Nine articles are readable/sample-reviewed,
+one heading is non-owning and 46 of 56 canonical entries remain unresolved. The latest
+is 모뎀, 그 속 이야기 on printed40–43/PDF42–45. Parent 마이크로컴퓨터의 새로운 물결
+retains its four child relationships. All 214 files match the independent rebuild;
+1,934 exact ranges, 2,100 evidence pins and 56 images pass. Two original diagrams/two
+captions, two pull quotes, five chip features, two credits and six connections remain.
+Twenty-six source candidates retain original spelling and claims; independent diagram
+label transcription is pending volunteers. All 50 OCR tasks completed without failure
+or retry. The unchanged pipeline reuses its passing 213-test baseline. Next is
+오캄의 칼날 from printed44/PDF46. Cover selection and issue closeout remain pending.
+See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
