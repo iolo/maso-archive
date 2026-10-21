@@ -1009,14 +1009,32 @@ paired OCR or a new engine comparison.
   No new mapping, rendering, OCR or source correction; unchanged 213-test baseline reused.
   Current totals: 37 readable, no partial articles, six non-owning headings and13 unresolved.
 
-  Next: verify 알려지지 않은 Z80 명령어0049 from printed222/PDF224 and restore a bounded
-  segment as batch51. Reuse reviewed opening224/continuation225; inspect the actual
-  ending and following article before mapping at most six pages. Preserve opcode
-  tables, assembly rows, register notation, examples and source discrepancies literally.
+  Batch51 completes 알려지지 않은 Z80 명령어0049, printed222–223/PDF224–225, at
+  `archive/pdf/1985-02/packages/batch-51-r01`. All 306 files match the independent
+  rebuild; 4,465 exact UTF-8 ranges, 4,736 evidence pins and81 images pass.
+  Six tables retain52 logical rows,273 nonblank cells,six blanks,33 headers,29 row
+  headers,four axes and57 source underline groups. Two assembly examples retain15
+  physical rows/printed ordinals,77 fields,28 blank fields,22 bytes andfour labels.
+  Six captions,three table references,one example association,four prose continuations
+  and37 physical wraps remain linked. Printed Ediwin,DFB,RLO,RR .C,BIT b C,
+  OUT (C),L under60,LD (nn),H,CPRI andD000 remain literal. Printed ranges andthe4–7
+  row group are not expanded. Thirty source candidates,two faded ED prose bands,
+  seven Unicode approximations and787 unknown encoded-space bands retain scans.
+  All81 original/eight revised crops acrossseven regions preceded72 OCR tasks
+  (2 eng/70 kor+eng);all drafts preceded one source pass. No OCR failures/retries.
+  All50,120 prior files and30 implementation pins pass; 51,351 files are preserved.
+  All table/example labels are transcribed; no diagram-label task remains for0049.
+  The unchanged213-test baseline is reused. No reader rebuild.
+  Current totals: 38 readable, no partial articles, six non-owning headings and12 unresolved.
+
+  Next: verify MAT 함수0050 from printed224/PDF226 and restore a bounded segment as
+  batch52. Reuse reviewed opening226 andprepared,unreviewed views227–232; inspect the
+  actual ending andfollowing ownership before mapping at most six pages. Preserve
+  matrix notation,BASIC physical rows/labels,examples,captions andsource discrepancies.
   Parent 정보모음0008, cover selection, remaining page accounting and issue closeout
   remain pending. Human acceptance, full proofreading, source bytes, spacing, claims,
   circuit behavior, execution and independent backup recovery remain unverified;
-  diagram-label transcription is pending volunteers. No reader rebuild.
+  earlier diagram-label transcription is pending volunteers. No reader rebuild.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
