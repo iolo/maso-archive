@@ -297,12 +297,34 @@ and30 implementation pins pass; unchanged213-test baseline reused. Three mapped 
 17 outside lookups and one canonical task respect the operating limits.
 Current totals: 23 readable, one partial article, two non-owning headings and 30 unresolved.
 
-Next: restore MLE listing146–151/PDF148–153, canonical0007, within the six-page limit.
-Reuse batch31 source views; preserve first visible ordinal4, all unnumbered object-byte
-rows, physical comments/strings and ordinal498's continuation acrossPDF152–153. This
-segment ends at546; following154 begins547. RemainingPDF154–160 and complete assembly
-stay pending. Cover selection, remaining page accounting and issue closeout remain
-pending. No reader rebuild; human acceptance and full proofreading pending.
+Batch32 restores the first six MLE listing pages146–151/PDF148–153 at
+`archive/pdf/1985-02/packages/batch-32-r01/mle-b`. All 79 files match the independent
+rebuild; 32,867 current UTF-8 ranges, one external native range, 34,637 evidence pins
+and22 images pass. The 543 printed ordinals4–546 retain 647 field-bearing physical rows,
+2,837 independent fields, 1,692 blanks, 1,226 object bytes, 55 comment fragments,
+129 labels and92 directives. No leading rows1–3 are invented. One object-file header,
+89 unnumbered byte rows and15 text continuations form648 code rows/544 logical groups.
+Thirteen quoted operands and17 DFB operands retain physical fragments and unknown
+encoded spacing. Eleven column/page joins include ordinal498 acrossPDF152–153 and
+ordinal510 acrossPDF153 columns. The caption and exact native prose reference are linked.
+
+Printed NENUE/MENUE, BLT/BGE, PTADDR/PRTADR, CONTRO/L E, DFB $4/6 and $4/5 wraps,
+quoted strings and independent object fields remain literal. Forty-three candidates,
+five unknown dash bands, one isolated ink mark, three RomanII approximations and
+2,519 unknown spacing bands retain originals. All22 crops were reviewed before16 tasks
+(12eng/4kor+eng); all drafts were read before one source pass. No crop repair, OCR
+failure or retry. All36,053 prior files and30 implementation pins pass; unchanged
+213-test baseline reused. Six mapped pages, two outside lookups and one canonical task
+respect the limits. Nine of sixteen MLE source pages now exist in two immutable natives.
+Current totals: 23 readable, one partial article, two non-owning headings and 30 unresolved.
+
+Next: restore MLE listing152–157/PDF154–159, canonical0007, within the six-page limit.
+Reuse saved source views; preserve incoming546/547, remaining assembly ordinals547–1149,
+and final49DB:60 RTS on159. Lower-right159 begins list2 MLE.START at BASIC100 through300.
+FinalPDF160, BASIC310–460 and complete article assembly stay pending. Preserve independent
+contest/ads on160 and upper ALE ownership on141. No syntax, byte or address repair.
+Cover selection, remaining page accounting and issue closeout remain pending.
+No reader rebuild; human acceptance and full proofreading pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
