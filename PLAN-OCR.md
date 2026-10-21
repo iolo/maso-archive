@@ -180,8 +180,11 @@ paired OCR or a new engine comparison.
   reject range/link/coverage drift. Use private digital-logic-assembly/digital_logic_literal.py
   checker/context and reproduction.json; generic check alone does not recognize it.
   Fourteen articles are readable/sample-reviewed, none partial, two headings non-owning
-  and 40 of56 entries unresolved. Next: batch19 verifies PASCAL/MT+ from printed86/PDF88,
-  its actual end and adjacent pages; reuse PDF87/88 and retain the six-page mapping limit.
+  and 40 of56 entries unresolved. Batch19 whole-page review verifies PASCAL/MT+
+  printed86–103/PDF88–105 after inspecting all PDF87–106 views. CP/M begins PDF106;
+  the independent lower-right contest onPDF105 is excluded. Next: map/review exact
+  crops for opening86–91/PDF88–93 before OCR; middle92–97 and ending98–103 follow
+  separately. No batch19 OCR or source correction has started; reuse saved views.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).

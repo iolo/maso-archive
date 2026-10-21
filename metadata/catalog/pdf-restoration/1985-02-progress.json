@@ -3378,20 +3378,88 @@
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
     "id": "batch-19",
-    "goal": "Verify canonical0038 PASCAL/MT+ actual extent from printed86/PDF88, including end and adjacent pages; restore in segments of at most six mapped pages.",
+    "goal": "Restore PASCAL/MT+ opening printed86–91/PDF88–93 after exact crop review. Actual full extent86–103/PDF88–105 is source-verified; restore three immutable six-page segments and assemble separately.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0038"
     ],
-    "mapping_targets": "Reuse saved PDF87/88. Inspect actual extent before mapping; next TOC CP/M entry at printed104 is a lookup lead, not proof of a contiguous article. Preserve printed code, tables, diagrams and source discrepancies without program repair.",
-    "provisional_lookup_targets": [
-      87,
-      88
-    ],
+    "mapping_targets": "Map only PDF88–93. Preserve prose/code examples, lists1–5 and their output/captions, physical wraps and outgoing list6 association. All PDF87–106 whole-page views are saved. PDF105 lower-right one-line contest is independent and must be excluded in ending segment.",
+    "provisional_lookup_targets": [],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
       "outside_lookup_pages": 20
-    }
+    },
+    "boundary_review": {
+      "path": "archive/pdf/1985-02/restoration/batch-19/whole-page-review.json",
+      "sha256": "5517117e865cf8af8a51a185e8ec7a4a42d9cad0cb227f8120160e11a7976269",
+      "bytes": 15374
+    },
+    "full_extent_verified": {
+      "pdf_pages": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "printed_pages": [
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92",
+        "93",
+        "94",
+        "95",
+        "96",
+        "97",
+        "98",
+        "99",
+        "100",
+        "101",
+        "102",
+        "103"
+      ]
+    },
+    "current_mapping_targets": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ],
+    "outside_map_lookup_pages": [
+      87,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ]
   },
   "known_limits": [
     "Assistant sample review is not human acceptance or full proofreading.",

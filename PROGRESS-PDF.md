@@ -35,8 +35,10 @@ ranges, 7,305 native pins and 141 images pass. Nine tables retain 507 indexed fi
 segment associations pass. Fifty-one text/two image candidates/four unknown ellipsis
 counts remain. Use private digital_logic_literal checker/context; no new OCR/source
 correction. Five negative probes reject range/link/coverage drift.
-Next: batch19 verifies PASCAL/MT+ from printed86/PDF88, including its actual end and
-adjacent pages. Reuse PDF87/88; map at most six pages per segment.
+Batch19 whole-page review verifies PASCAL/MT+ printed86–103/PDF88–105; all twenty
+PDF87–106 views are saved. CP/M begins PDF106; the lower-right contest onPDF105 is
+separate. Next: map/review exact crops for opening86–91/PDF88–93, then OCR. No batch19
+OCR/source correction has started; middle/ending restoration and assembly follow.
 Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.

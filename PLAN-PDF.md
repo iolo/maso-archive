@@ -249,9 +249,12 @@ digital_logic_literal.py checker/context and reproduction.json; generic check al
 does not recognize this format. No new OCR/source correction; unchanged test baseline.
 
 The 56-entry ledger records fourteen readable/sample-reviewed articles, no partials,
-two non-owning headings and 40 unresolved entries. Next: batch19 verifies PASCAL/MT+
-from printed86/PDF88, including its actual end and adjacent pages, before mapping at
-most six pages. Reuse PDF87/88; the next TOC entry at104 is only a lookup lead.
+two non-owning headings and 40 unresolved entries. Batch19 boundary review inspected
+all PDF87–106 views and verified PASCAL/MT+ printed86–103/PDF88–105, followed by
+CP/M 입문 on104/PDF106. The independent lower-right one-line contest on103/PDF105
+is excluded from PASCAL. Next: map/review exact crops for opening86–91/PDF88–93,
+then run pinned OCR. Middle92–97 and ending98–103 follow as separate six-page segments.
+All twenty views are preserved; no batch19 OCR or source correction has started.
 Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
