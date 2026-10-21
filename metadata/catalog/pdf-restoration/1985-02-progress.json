@@ -4000,12 +4000,149 @@
       "toc_entry_id": "maso-1985-02-toc-0048",
       "title": "마이크로 컴퓨터 설계 강좌",
       "parent_id": "maso-1985-02-toc-0046",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0048 opens printed210/PDF212: chapter8 A/D변환기의 접속,마이크로 컴퓨터 설계강좌,김 덕 우,서울대 제어계측 공학과. Running header connects following eleven pages. Twelve body pages210–221/PDF212–223 individually inspected; no intervening unrelated pages.",
+        "Actual final221/PDF223 concludes BASIC interface discussion andretains table1 parts list andlist3 program/output. Following222/PDF224 independently opens알려지지 않은 Z80 명령어 canonical0049;PDF225 continues that independent article. EarlierPDF211 isseparate publishernotice/ad.",
+        "Currentboundedsegment includesonly210–215/PDF212–217. Remaining216–221/PDF218–223 andimmutable assembly arepending. Fifteen fullsource views211–225 reviewed; nineoutside-map lookup pages211,218–225;onecanonicaltask0048. No exclusions oncurrentownedpages.",
+        "Opening illustration andfigures1–9 retained asoriginal images. Figure6 pinout andfigure7 block diagram have their printed order/positions retained; figure8 caption on215 is associated withits graph andthe two214 electrical/timing panels. No caption renumbering. Originaltables retained beside futurecelltranscription. Independent internal diagram labels pendingvolunteers.",
+        "Proseconnections:211left ends표 /211middle시장치;211middle쓰이 /211right고 있다.;211right콘덴서 /212leftC를;213left회 /213middle로를;213middle50ppm/℃ /213right정도이다.;214left버스에 /214middle직접;214middle8개의 /214right각기;214right1 /215left회;215upperleft같 /215middle다.;215middle트 /215right리를;215lowerleft결과를 /216leftA 레지스터에서. Keep physicalfragments andordering.",
+        "Unmappedfuture observations:216startsA 레지스터에서 andsection3 ICL7109;217threeoriginaldiagrams12–14;218figure15 andlist1start;219list1continuation;220figure16/list2 andprose continuingacross219listing;221table1/list3/end. These areextent observations,not currenttranscriptions orrestoredcoverage.",
+        "Preserve source ADC0808/ADC080B captionglyph candidates, printed1/256 versus multiplication1256,tableunits,signed fields,circledstepnumbers,source spelling andclaims. Do not resolveusing hardwaretruth. Exactcrop/sourcecorrection pending."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-49-r01",
+        "article_id": "scan-maso-1985-02-toc-0048",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-49-r01/manifest.json",
+          "sha256": "6571232ae2b7e0492c72811d4ebeb6859ea0115c17e9dfa47f075ec5847467c4",
+          "bytes": 47737
+        },
+        "coverage": {
+          "regions": 83,
+          "blocks": 65,
+          "figures": 18,
+          "physical_text_rows": 266,
+          "table_serialization_rows": 19,
+          "physical_transcript_rows": 285,
+          "physical_code_rows": 0,
+          "tables": 2,
+          "table_logical_rows": 15,
+          "table_cells": 79,
+          "table_header_cells": 14,
+          "table_blank_cells": 24,
+          "table_spanning_cells": 2,
+          "prose_references": 13,
+          "deferred_references": 1,
+          "continuations": 10,
+          "physical_prose_wraps": 42,
+          "caption_links": 11,
+          "procedure_steps": 4,
+          "source_candidates": 31,
+          "unknown_markers": 0,
+          "typographic_approximations": 87,
+          "unknown_space_bands": 1179,
+          "availability": "partial",
+          "mapped_pdf_pages": [
+            212,
+            213,
+            214,
+            215,
+            216,
+            217
+          ],
+          "deferred_pdf_pages": [
+            218,
+            219,
+            220,
+            221,
+            222,
+            223
+          ],
+          "pdf_pages": [
+            212,
+            213,
+            214,
+            215,
+            216,
+            217
+          ],
+          "printed_pages": [
+            "210",
+            "211",
+            "212",
+            "213",
+            "214",
+            "215"
+          ]
+        },
+        "full_pdf_pages": [
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223
+        ],
+        "known_full_extent": {
+          "pdf_pages": [
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223
+          ],
+          "printed_pages": [
+            "210",
+            "211",
+            "212",
+            "213",
+            "214",
+            "215",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221"
+          ]
+        },
+        "assembly_required": true,
+        "deferred_pdf_pages": [
+          218,
+          219,
+          220,
+          221,
+          222,
+          223
+        ],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-49/validation.json",
+          "sha256": "387d4cffadc54ce93efd3084526b3ed2a292ec8d5ea7e92296e71bd95ecb2280",
+          "bytes": 1927
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-49/reproduction.json",
+          "sha256": "fef5577a7e164a1c5040461dcb571e0c4082d275815097c0d5f1085e28c42447",
+          "bytes": 1484
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0049",
@@ -4099,9 +4236,9 @@
   "totals": {
     "canonical_entries": 56,
     "readable": 36,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 6,
-    "unresolved_eligibility": 14
+    "unresolved_eligibility": 13
   },
   "checkpoints": [
     {
@@ -8080,6 +8217,95 @@
         "sha256": "c109ecbdcaaf856f2cbf06cfc1b4bff09a0c5a7e4beac1aefbbd9a553017a66e",
         "bytes": 10394049
       }
+    },
+    {
+      "id": "batch-49",
+      "status": "partial-article-segment",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "mapped_pdf_pages": [
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "outside_map_lookup_pages": [
+        211,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-49/validation.json",
+        "sha256": "387d4cffadc54ce93efd3084526b3ed2a292ec8d5ea7e92296e71bd95ecb2280",
+        "bytes": 1927
+      },
+      "stats": {
+        "completed_at": "2026-10-21T14:06:33.479650+00:00",
+        "stats": {
+          "regions": 83,
+          "blocks": 65,
+          "figures": 18,
+          "physical_text_rows": 266,
+          "table_serialization_rows": 19,
+          "physical_transcript_rows": 285,
+          "physical_code_rows": 0,
+          "tables": 2,
+          "table_logical_rows": 15,
+          "table_cells": 79,
+          "table_header_cells": 14,
+          "table_blank_cells": 24,
+          "table_spanning_cells": 2,
+          "prose_references": 13,
+          "deferred_references": 1,
+          "continuations": 10,
+          "physical_prose_wraps": 42,
+          "caption_links": 11,
+          "procedure_steps": 4,
+          "source_candidates": 31,
+          "unknown_markers": 0,
+          "typographic_approximations": 87,
+          "unknown_space_bands": 1179,
+          "availability": "partial",
+          "mapped_pdf_pages": [
+            212,
+            213,
+            214,
+            215,
+            216,
+            217
+          ],
+          "deferred_pdf_pages": [
+            218,
+            219,
+            220,
+            221,
+            222,
+            223
+          ]
+        },
+        "source_passes": 1,
+        "ocr_tasks": 65,
+        "eng_code_tasks": 0,
+        "kor_eng_tasks": 65,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 2
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-49-preserved-work.json",
+        "sha256": "d23b394fa4f8112764baa93c76a3cf942552323c8e92fe159ae45dea7caa4547",
+        "bytes": 10648037
+      }
     }
   ],
   "source_page_observations": [
@@ -10128,41 +10354,157 @@
     {
       "pdf_page": 212,
       "printed_page": "210",
-      "classification": "canonical-start-lookup",
+      "classification": "canonical-article",
       "toc_entry_ids": [
         "maso-1985-02-toc-0048"
       ],
-      "restoration": "outside-current-checkpoint;pending-restoration",
-      "ownership_note": "Distinct마이크로 컴퓨터 설계강좌 opening,제8장 A/D변환기의 접속,김덕우. Fullarticleextent andrestoration pending.",
+      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending.",
       "source_title": "마이크로 컴퓨터 설계강좌",
       "section_title": "테크니컬"
     },
     {
       "pdf_page": 213,
       "printed_page": "211",
-      "classification": "canonical-continuation-lookup",
+      "classification": "canonical-article",
       "toc_entry_ids": [
         "maso-1985-02-toc-0048"
       ],
+      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending."
+    },
+    {
+      "pdf_page": 214,
+      "printed_page": "212",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending."
+    },
+    {
+      "pdf_page": 215,
+      "printed_page": "213",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending."
+    },
+    {
+      "pdf_page": 216,
+      "printed_page": "214",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending."
+    },
+    {
+      "pdf_page": 217,
+      "printed_page": "215",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "opening-six-page-segment-exported;ending-and-assembly-pending",
+      "ownership_note": "Outgoing변환 결과를 continueson216/PDF218 withA 레지스터에서; figure9 retained."
+    },
+    {
+      "pdf_page": 218,
+      "printed_page": "216",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-50",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending."
+    },
+    {
+      "pdf_page": 219,
+      "printed_page": "217",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-50",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending."
+    },
+    {
+      "pdf_page": 220,
+      "printed_page": "218",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-50",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending."
+    },
+    {
+      "pdf_page": 221,
+      "printed_page": "219",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-50",
+      "ownership_note": "Fullpage listing1 continuation belongs to0048;prose from218/PDF220 resumeson220/PDF222."
+    },
+    {
+      "pdf_page": 222,
+      "printed_page": "220",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-50",
+      "ownership_note": "Canonical0048 full210–221/PDF212–223 individually reviewed;opening210–215 restored,ending216–221 andassembly pending."
+    },
+    {
+      "pdf_page": 223,
+      "printed_page": "221",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0048"
+      ],
+      "classification": "canonical-article",
+      "restoration": "outside-current-segment;deferred-to-batch-50",
+      "ownership_note": "Finalprose,parts table1,andBASIC list3/output endarticle;following222/PDF224 startsindependent Z80article."
+    },
+    {
+      "pdf_page": 224,
+      "printed_page": "222",
+      "classification": "canonical-start-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0049"
+      ],
+      "source_title": "알려지지 않은 Z80 명령어",
       "restoration": "outside-current-checkpoint;pending-restoration",
-      "ownership_note": "Continuationof0048 with서언,A/D변환기 prose andtwo originaldiagrams;nomapping/OCR thischeckpoint."
+      "ownership_note": "Distinct Z80article;sourceview usedonlytoverify0048 ending. No0049mappingorOCR."
+    },
+    {
+      "pdf_page": 225,
+      "printed_page": "223",
+      "classification": "canonical-continuation-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0049"
+      ],
+      "source_title": "알려지지 않은 Z80 명령어",
+      "restoration": "outside-current-checkpoint;pending-restoration",
+      "ownership_note": "Distinct Z80article;sourceview usedonlytoverify0048 ending. No0049mappingorOCR."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-49",
-    "goal": "Verify full extent of canonical0048 마이크로 컴퓨터 설계 강좌, sourcechapter8 A/D변환기의 접속, from printed210/PDF212 andrestore its first bounded segment.",
+    "id": "batch-50",
+    "goal": "Restore final216–221/PDF218–223 ofcanonical0048 마이크로 컴퓨터 설계 강좌 as immutable ending segment,then assemble all twelve pages separately.",
     "toc_entry_ids": [
       "maso-1985-02-toc-0048"
     ],
-    "mapping_targets": "Provisional PDF212–217 opening only after full extent andsource coverage review; laterbodypages require separate checkpoints andimmutable assembly.",
+    "mapping_targets": "Reuse batch49 sourceviews218–223. Preserve ICL7109 prose,figures10–16,assemblylist1 across218–219,lists2/3 BASIC andoutputs,parts table1,andallcaption/column/pageassociations.",
     "provisional_lookup_targets": [
-      211,
-      212,
-      213,
-      214,
-      215,
-      216,
       217,
       218,
       219,
@@ -10173,7 +10515,7 @@
       224,
       225
     ],
-    "boundary_review": "Reuse reviewedPDF211 independentpublishernotice/ad and212–213 actualarticleopening. Canonicalnext0049 알려지지 않은 Z80 명령어 printed222 islookup lead,notproof ofglobaloffset orcurrentending. Verify interveningpages andactualfollowingarticle,allcircuit/table/listing/caption ownership andcontinuations. Preserve printedtechnical claims,code,arithmetic andsource spelling; no circuit repair orprogram execution. Parent0046 remainsnon-owning withtwo unchangedchildren.",
+    "boundary_review": "Incoming printed215 application ends변환 결과를;216 beginsA 레지스터에서 얻을 수 있다. Keep exact native range. Printed218 prose continueson220 acrossfullpage219listing; list1 continues218→219. Final221 prose/table1/list3 andfollowing222Z80article independently verifyending. Preserve all source ICL7107/7109,numeric/unit/letter/byte/spelling discrepancies; no syntax,hardware orarithmetic repair. Assembly separate afterendingnative.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -10217,7 +10559,8 @@
     "Batch43 completes 공모 총평0043 on183/PDF185, sourceheadline 새학기 준비, andclassifies pageless parent0042 공모 입상 asnon-owning withthreeunchangedchildren0043–0045. Review retains59prose rows/two columns/one continuation,threeothertextrows,sixserializedtablerows withfourheaders/twentydata cells,sevenparagraphsegments,57physicalrowboundaries,threequotedtitles andsevenliteralaward/softwareclaims. Fifteen sourcecandidates retain historicalspelling/names,including 이 은 록 glyph candidate; sixUnicodequoteapproximations. Tablepipes areeditorial; originaltable andwholepage retained. TOC편집부 not insertedasbodybyline. Humanacceptance,fullproofreading,encodedbytes,spacing andclaims unverified. No readerrebuild.",
     "Grade-processing0044 is complete across printed184–195/PDF186–197. Both immutable natives/all263files/fullmetadata retained. Complete indexes retain828 physical textrows plus89 table serializationrows,431 BASIC rows/296labels/135wraps/177quotes/668statements,two listings,three captions,five tables67rows/134cells/157fragments,43 printed line references/81 exact endpoints,16 compilationsteps skipping10,seven menuoptions and11 continuations. All82 external associations resolve; original wrappers remain exact. Seventy-three source candidates,eight unknown bands,one ellipsis-count uncertainty,116 Unicode approximations and3217 unknown encoded-space bands remain. BASOCM.COM,772085,ENGLI,FISRT,DSKETTE,횟수을,caption성적을 화면 andsource order⑤⑥ remain literal. Internal originalprintout label/data transcription pendingvolunteers; humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. Independent publisher notice onPDF189 excluded. No body pages or assembly pending. Use pinned grades_literal checker/context; no reader rebuild.",
     "Timetable0045 is complete across printed196–202/PDF198–204. Both immutable natives/all256 files/fullmetadata retained. Complete indexes retain506 physical text rows plus76 serialized table rows,331 BASIC rows/111 label occurrences/104 distinct labels/220 wraps,168 quotedstrings/456 lexicalcolon groups,50 dump rows/400 byte fields,six tables74rows/148cells/four brace groups,15 boxedkeys/seven menuoptions,five continuations andfive captions. Incoming1007 physical fragments andinheritedlist1caption resolve; every native wrapper remains exact. Seven0 comments/two130 labels,missing159/180 andambiguous130 references remain literal. Source memory bound56C9 remains independent ofdump end56D2. Fifty-seven sourcecandidates,56 visible unknown markers,144 Unicodeapproximations and1616 encoded-space bands remain. Original three output-panel internal label/data transcription pendingvolunteers; humanacceptance,fullproofreading,sourcebytes,spacing,claims andexecution unverified. No body pages orassembly pending. Use pinned timetable_literal checker/context; no reader rebuild.",
-    "Batch48 completes Appleclock0047 printed204–208/PDF206–210 andclassifiespageless0046 asnon-owning withtwo unchangedchildren0047/0048. Four BASICprograms andonePOKEexample retain262physicalrows/135labels/127wraps/58quotes/371lexicalstatements/49DATAfields. List1 retains30dump rows/240bytefields andliteral0318 dot. Address table retains16logicalrows/62cells/fiveheadercells/twoshared1002–1003cells. Threeprosejoins,three same-lineBASICjoins,sixcaptionlinks,two originalcircuits andfive fulloriginals retained. Printed$2E0/$2E1,34Hz/68Hz/1/64,prose14minutes vsPOKE15,로시시켜,TRU,MULTY,leadingzero03 andsourceword클럭장치 remainliteral. Q/O/0 responseglyphs andD0/DO remaincandidates. Two unknownspacebands,onedotband andonefaintterminalletter remainvisible. Thirty-eight sourcecandidates,sevenUnicodeapproximations and2335 encoded-space bands preserve scans. Diagraminternal label/data transcription pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,circuitbehavior andexecution unverified. No readerrebuild."
+    "Batch48 completes Appleclock0047 printed204–208/PDF206–210 andclassifiespageless0046 asnon-owning withtwo unchangedchildren0047/0048. Four BASICprograms andonePOKEexample retain262physicalrows/135labels/127wraps/58quotes/371lexicalstatements/49DATAfields. List1 retains30dump rows/240bytefields andliteral0318 dot. Address table retains16logicalrows/62cells/fiveheadercells/twoshared1002–1003cells. Threeprosejoins,three same-lineBASICjoins,sixcaptionlinks,two originalcircuits andfive fulloriginals retained. Printed$2E0/$2E1,34Hz/68Hz/1/64,prose14minutes vsPOKE15,로시시켜,TRU,MULTY,leadingzero03 andsourceword클럭장치 remainliteral. Q/O/0 responseglyphs andD0/DO remaincandidates. Two unknownspacebands,onedotband andonefaintterminalletter remainvisible. Thirty-eight sourcecandidates,sevenUnicodeapproximations and2335 encoded-space bands preserve scans. Diagraminternal label/data transcription pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,circuitbehavior andexecution unverified. No readerrebuild.",
+    "Design0048 opening210–215/PDF212–217 partial;full12-pageextent210–221/PDF212–223 verified individually. Ending216–221 andimmutableassembly pending. Opening retains65blocks/285physicaltranscriptrows,ninenumbereddiagrams,oneillustration,two tables15rows/79cells/14headers/24blanks/tworowspanningcells,elevencaptionlinks,tenproseconnections,42selectedphysicalwraps,fourproceduresteps andoutgoing변환 결과를. ICL7107 introduction,caption6 OBOB glyphcandidate,20V×1256,1/256,78mV,미분직선성,전환종료,호울드,서부루틴,andtiming8+2/μS/클럭주기 remainliteral. Thirty-one sourcecandidates,87Unicode/subscriptapproximations and1179 encodedspacebands retain scans. Diagramlabel transcription pendingvolunteers;humanacceptance,fullproofreading,sourcebytes,spacing,claims,circuitbehavior andexecution unverified. No readerrebuild."
   ],
   "reader_rebuild": false
 }

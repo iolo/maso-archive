@@ -943,12 +943,34 @@ paired OCR or a new engine comparison.
   continuation213 reviewed only for ownership. No parent body or divider is invented.
   Current totals: 36 readable, no partial articles, six non-owning headings and14 unresolved.
 
-  Next: verify the full extent of 마이크로 컴퓨터 설계 강좌0048 from printed210/PDF212,
-  source chapter8 A/D변환기의 접속, then restore its first six-page segment as batch49.
-  Reuse the reviewed opening212–213 and inspect the actual ending/following article;
-  next TOC entry0049 printed222 is a lookup lead, not an inferred boundary. Preserve
-  all circuit/table/listing content and continuations. Parent 정보모음0008, cover
-  selection, remaining page accounting and issue closeout remain pending.
+  Batch49 restores the opening210–215/PDF212–217 of 마이크로 컴퓨터 설계 강좌0048,
+  chapter8 A/D변환기의 접속, at `archive/pdf/1985-02/packages/batch-49-r01`.
+  All286 files match the independent rebuild;3,970 exact UTF-8 ranges,4,249 evidence
+  pins and83 images pass. Full extent210–221/PDF212–223 was individually reviewed;
+  final221 contains concluding prose,parts table1 andlist3/output,followed by the
+  independent Z80 article222/PDF224. Ending216–221 andimmutable assembly remain pending.
+  The opening retains65 blocks/285 physical transcript rows,nine numbered diagrams,
+  one illustration andtwo original tables. Fifteen table rows retain79 populated cells,
+  14 headers,24 blanks andtwo spanning cells;multiline timing fields remain indexed.
+  Eleven caption links,ten prose connections,42 selected physical wraps,four numbered
+  steps andoutgoing변환 결과를 retain source associations. ICL7107,caption6 OBOB glyph
+  candidate,20V×1256,1/256,78mV,미분직선성,전환종료 andtiming8+2/μS/클럭주기 remain
+  literal. Thirty-one source candidates,87 Unicode/subscript approximations and1,179
+  unknown encoded-space bands retain scans. Diagram-label transcription,human acceptance,
+  full proofreading,source bytes,spacing,claims,circuit behavior andexecution remain unverified.
+  All83 original/two revised crops preceded65 kor+eng tasks;all drafts preceded one
+  source pass. No OCR failure/retry. The rejected map-ID attempt andinitial checker
+  assumption about absent listing.txt remain archived;only preparation/checker changed.
+  All46,627 prior files and30 implementation pins pass;47,815 files are now preserved.
+  The unchanged213-test baseline is reused. No reader rebuild.
+  Current totals: 36 readable, one partial article, six non-owning headings and13 unresolved.
+
+  Next: restore final216–221/PDF218–223 of 마이크로 컴퓨터 설계 강좌0048 as batch50,
+  reusing the reviewed source views. Preserve the incoming변환 결과를/A 레지스터에서
+  association,figures10–16,list1 assembly across218–219,lists2/3 BASIC andoutputs,
+  parts table1,andprose continuing from218 to220 across the intervening listing page.
+  Then assemble all twelve pages separately from immutable natives. Parent 정보모음0008,
+  cover selection,remaining page accounting andissue closeout remain pending.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
