@@ -7,7 +7,7 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 February 1985 restoration is in progress. Thirty-four articles are readable/sample-reviewed,
-none are partial, five headings are non-owning and 17 of 56 entries remain unresolved.
+one is partial, five headings are non-owning and 16 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -702,28 +702,39 @@ Use the pinned private `restoration/grades-assembly/grades_literal.py` checker/c
 and `reproduction.json`; the generic checker alone does not recognize this format.
 Current totals: 34 readable, no partial articles, five non-owning headings and 17 unresolved.
 
-Batch46 is in progress for 시간표 작성 프로그램0045. Source review establishes
-seven body pages196–202/PDF198–204; PDF205 is an independent advertisement and
-PDF206 starts 애플 클럭. The first six pages198–203 are mapped; final204 and complete
-assembly remain deferred. Ten whole-page views and all60 crops were reviewed;
-six listing margins were widened and rechecked before OCR. All51 tasks (six eng,
-45 kor+eng) completed without failure/retry, and every draft was read before one
-source correction pass. The selected51 regional texts retain460 serialized rows,
-including262 BASIC physical rows and63 source-label occurrences. Seven repeated0
-comment labels and the apparent duplicate130 before EACH OF TEACHER remain literal;
-GOTO180, table159, custom glyphs and mismatched memory bounds remain independent.
-One transcription O/0 error was corrected in a fresh text revision; all originals survive.
-Source/runtime/30 implementation pins,44,135 prior files and all crop/OCR pins pass.
-The initial unsupported table-kind preparation failed before map output; its revised
-map uses prose regions for table OCR. No article package or availability promotion yet.
-Private preparation evidence: `archive/pdf/1985-02/restoration/batch-46/preparation-validation.json`.
+Batch46 restores 시간표 작성 프로그램0045 opening printed196–201/PDF198–203
+at `archive/pdf/1985-02/packages/batch-46-r01/timetable-a`. Full extent is seven
+pages196–202/PDF198–204; final202/PDF204 and complete assembly remain pending.
+All 222 files match the independent rebuild. Checks pass for 10,948 exact UTF-8 ranges,
+11,127 evidence pins and 60 crop images. The segment retains 384 physical text rows
+plus76 table serialization rows, including262 BASIC physical rows,63 source-label
+occurrences,56 distinct labels,199 physical wraps,168 quoted strings and456 lexical
+colon groups. Seven repeated0 comment labels and two130 labels retain distinct source
+occurrence IDs. All five internal listing joins80/140/230/320/390 remain exact;
+final1007 continues onPDF204. List2 character-pattern data is deferred to that page.
+Six tables retain74 logical rows,148 cells,150 cell fragments andfour brace groups.
+Eighteen printed line references retain31 endpoints:159 and180 have no exact source
+label;130 refers to two literal occurrences. No semantic target or repaired label inferred.
+Fifteen boxed keys,seven menu options,five prose/table continuations andfour caption
+links remain. Three output panels retain one shared caption; internal data/labels await
+volunteer transcription. Source T22 duplication,159,S(7)/S(6),DEFCHR$,PROGRAMER,
+SPESIAL,1984/9,period2122.,GOTO180 andmemory endpoint56C9 remain independent.
+Twenty-six source candidates,37 visible editorial markers,115 Unicode approximations
+and1,147 unknown encoded-space bands retain their scans. Human acceptance,full
+proofreading,source bytes,spacing,claims andexecution remain unverified.
+All60 original/six widened crops preceded51 OCR tasks (six eng/45 kor+eng); all drafts
+preceded one source pass. No OCR failure/retry. A fresh text revision corrects one O/0
+transcription error. Failed map-kind,metadata key-location andverifier particle checks
+remain preserved; their revisions change preparation/checking only. All44,135 prior files
+and30 implementation pins pass; unchanged213-test baseline reused. No reader rebuild.
+Current totals: 34 readable, one partial article, five non-owning headings and16 unresolved.
 
-Next: finish batch46 structured correction metadata, including table cells and brace
-groups, boxed keys, captions, repeated BASIC-label occurrences, physical continuations,
-quoted/custom glyph ranges and source uncertainties; export and independently rebuild
-this six-page segment. Then restore final202/PDF204 and assemble the seven-page article.
-Parent 정보모음0008, cover selection, remaining page accounting and issue closeout
-remain pending. No reader rebuild; human acceptance and full proofreading remain pending.
+Next: restore final202/PDF204 as batch47, preserving list1 continuation1007 through1055,
+list2 caption and every character-pattern dump address/byte through the final56D2 row.
+Bind the incoming1007 fragment to its exact native range. PDF205 is an independent
+advertisement;PDF206 starts 애플 클럭. Then assemble the seven-page timetable article
+from immutable natives. Parent 정보모음0008,cover selection,remaining page accounting
+andissue closeout remain pending. Canonical0046 eligibility remains unresolved.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
