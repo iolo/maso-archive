@@ -3030,12 +3030,90 @@
       "toc_entry_id": "maso-1985-02-toc-0041",
       "title": "프린터 마스터",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Canonical0041 프린터 마스터 opens printed176/PDF178 after independentbookadvertisement177. Sourceheadline,SPC-1000 platform andbyline원성욱 establish identity;utilitybadge is source sectionlabel,not newcanonicalownership.",
+        "Everypage176–181/PDF178–183 reviewed;fullarticle is sixconsecutivepages. Prose concludes on177,then assemblylisting continues through178–181. Lastprintedordinal0446 atE305 isaddressonly,preceded0445 BSTAD:;noEND invented. Final181lower-right independent1-LINE contest0023 andheading0019 excluded.",
+        "Two sourcecommandtables on177 carry 표1,LIST#1 andHCOPY titles,merged headers/cells andliteralPOKE formulas. Originaltableimages retained;tablecells andcontext indexed separately. Prose/listingnumber reference not assumed tobe an actualprintedlistingcaption.",
+        "Onecontinuous assemblylisting retains printedordinals0000–0446,objectbytes,addresses,labels,opcodes,operands,comments,quotedmessages,emptyfields andunnumberedobjectbytecontinuations. No syntax,opcode,byte,address,arithmetic orencodingrepair. Decorativebandcounts remain explicit ifunverified.",
+        "Final183 ownedareas are wholeleft andupperright only;fulluncutpage retained asboundaryevidence. Following184 is independentmonthlysoftwarecompetition notice,185 opens공모총평0043 with새학기 준비,186 opens전학년 성적처리0044. Othercanonicalclassification/restoration deferred.",
+        "Currentcheckpoint maps allsixprinterpages only,onecanonicaltask;outside177/184/185/186 areboundarylookups. Parent0008 andcontest/review/gradeentries unchanged.",
+        "Exact crop inspection supersedes preliminary final-row observation:0446 E305 has a semicolon. Original address-only note preserved. All447ordinals/21objectcontinuations remain literal."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-02/packages/batch-39-r01/printer-master",
+        "article_id": "scan-maso-1985-02-toc-0041",
+        "manifest": {
+          "path": "archive/pdf/1985-02/packages/batch-39-r01/printer-master/manifest.json",
+          "sha256": "23fb0d404ee73402eaa7a7ab2783ba2159a656863e81b78669d5c1293e2e002c",
+          "bytes": 27880
+        },
+        "coverage": {
+          "pdf_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183
+          ],
+          "printed_pages": [
+            "176",
+            "177",
+            "178",
+            "179",
+            "180",
+            "181"
+          ],
+          "regions": 46,
+          "blocks": 37,
+          "figures": 9,
+          "physical_text_rows": 540,
+          "physical_code_rows": 468,
+          "assembly_ordinals": 447,
+          "assembly_object_continuations": 21,
+          "tables": 2,
+          "table_cells": 26,
+          "final_owned_bboxes": [
+            [
+              0,
+              0,
+              0.46819787985865724,
+              1
+            ],
+            [
+              0.46819787985865724,
+              0,
+              1,
+              0.521875
+            ]
+          ],
+          "shared_with": "maso-1985-02-toc-0023"
+        },
+        "full_pdf_pages": [
+          178,
+          179,
+          180,
+          181,
+          182,
+          183
+        ],
+        "assembly_required": false,
+        "deferred_pdf_pages": [],
+        "validation": {
+          "path": "archive/pdf/1985-02/restoration/batch-39/validation.json",
+          "sha256": "b94cbc4a53a2fc15efe4e0efb98b886b7f86e75010c1a8070af77358349122fc",
+          "bytes": 2356
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-02/restoration/batch-39/reproduction.json",
+          "sha256": "d4c48d544ab1720609f19e0b410ad1a4a58af23a0ec5314591d46dfb7f422d75",
+          "bytes": 1288
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1985-02-toc-0042",
@@ -3205,10 +3283,10 @@
   ],
   "totals": {
     "canonical_entries": 56,
-    "readable": 27,
+    "readable": 28,
     "partial": 0,
     "non_owning_headings": 3,
-    "unresolved_eligibility": 26
+    "unresolved_eligibility": 25
   },
   "checkpoints": [
     {
@@ -6307,6 +6385,89 @@
         "sha256": "c11e42d6562cde75dafca75f8cdb26ec6cee36ef89e9bcec0ff26f304e1fc15e",
         "bytes": 9125503
       }
+    },
+    {
+      "id": "batch-39",
+      "status": "complete-article",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0041"
+      ],
+      "mapped_pdf_pages": [
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      "outside_map_lookup_pages": [
+        177,
+        184,
+        185,
+        186
+      ],
+      "canonical_tasks": 1,
+      "validation": {
+        "path": "archive/pdf/1985-02/restoration/batch-39/validation.json",
+        "sha256": "b94cbc4a53a2fc15efe4e0efb98b886b7f86e75010c1a8070af77358349122fc",
+        "bytes": 2356
+      },
+      "stats": {
+        "completed_at": "2026-10-21T11:07:35.733335+00:00",
+        "stats": {
+          "regions": 46,
+          "blocks": 37,
+          "figures": 9,
+          "physical_text_rows": 540,
+          "table_serialization_rows": 19,
+          "physical_code_rows": 468,
+          "logical_listing_lines": 447,
+          "assembly_rows": 447,
+          "assembly_fields": 2144,
+          "assembly_blank_fields": 1132,
+          "assembly_object_bytes": 773,
+          "assembly_comments": 91,
+          "storage_directives": 47,
+          "assembly_object_continuations": 21,
+          "quoted_fields": 20,
+          "source_candidates": 38,
+          "ink_marks": 2,
+          "unknown_bands": 11,
+          "unknown_space_bands": 1743,
+          "typographic_approximations": 19,
+          "tables": 2,
+          "table_cells": 26,
+          "table_cell_lines": 35,
+          "boxed_keys": 6,
+          "commands": 14,
+          "physical_wraps": 15,
+          "prose_connections": 2,
+          "caption_links": 1,
+          "column_connections": 17,
+          "availability": "readable",
+          "mapped_pdf_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183
+          ],
+          "deferred_pdf_pages": []
+        },
+        "source_passes": 1,
+        "ocr_tasks": 37,
+        "eng_code_tasks": 18,
+        "kor_eng_tasks": 19,
+        "failures": 0,
+        "retries": 0,
+        "crop_repairs": 9
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-02/evidence/batch-39-preserved-work.json",
+        "sha256": "8b5502458d0f525743a326d27a224f177b7ea3dfc6abd9444377f0ffdde11f21",
+        "bytes": 9283100
+      }
     }
   ],
   "source_page_observations": [
@@ -7586,6 +7747,40 @@
       "ownership_note": "ALE prose, examples and tables restored; complete article requires noncontiguous listing."
     },
     {
+      "pdf_page": 141,
+      "printed_page": "139",
+      "classification": "mixed-article-bodies",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0006",
+        "maso-1985-02-toc-0007"
+      ],
+      "source_title": "기계어 라인 에디터(MLE)",
+      "restoration": "complete-ALE-and-MLE-assemblies-exported;separate-owned-regions",
+      "ownership_note": "CompleteALE owns upper prose; completeMLE owns lower body and separate badge. Both packages retain disjoint source regions and original exclusions."
+    },
+    {
+      "pdf_page": 142,
+      "printed_page": "140",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0007"
+      ],
+      "source_title": "기계어 라인 에디터(MLE)",
+      "restoration": "complete-MLE-assembly-exported",
+      "ownership_note": "MLE prose, examples, menu, tables and memory diagram restored; listings remain pending."
+    },
+    {
+      "pdf_page": 143,
+      "printed_page": "141",
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0007"
+      ],
+      "source_title": "기계어 라인 에디터(MLE)",
+      "restoration": "complete-MLE-assembly-exported",
+      "ownership_note": "MLE prose, examples, menu, tables and memory diagram restored; listings remain pending."
+    },
+    {
       "pdf_page": 144,
       "printed_page": "142",
       "classification": "article-listing-observed",
@@ -7628,40 +7823,6 @@
       "source_title": "리스트1. ALE 소스프로그램",
       "restoration": "complete-ALE-assembly-exported",
       "ownership_note": "ALE noncontiguous listing; final93FE:60 579 RTS onPDF147."
-    },
-    {
-      "pdf_page": 141,
-      "printed_page": "139",
-      "classification": "mixed-article-bodies",
-      "toc_entry_ids": [
-        "maso-1985-02-toc-0006",
-        "maso-1985-02-toc-0007"
-      ],
-      "source_title": "기계어 라인 에디터(MLE)",
-      "restoration": "complete-ALE-and-MLE-assemblies-exported;separate-owned-regions",
-      "ownership_note": "CompleteALE owns upper prose; completeMLE owns lower body and separate badge. Both packages retain disjoint source regions and original exclusions."
-    },
-    {
-      "pdf_page": 142,
-      "printed_page": "140",
-      "classification": "article-body",
-      "toc_entry_ids": [
-        "maso-1985-02-toc-0007"
-      ],
-      "source_title": "기계어 라인 에디터(MLE)",
-      "restoration": "complete-MLE-assembly-exported",
-      "ownership_note": "MLE prose, examples, menu, tables and memory diagram restored; listings remain pending."
-    },
-    {
-      "pdf_page": 143,
-      "printed_page": "141",
-      "classification": "article-body",
-      "toc_entry_ids": [
-        "maso-1985-02-toc-0007"
-      ],
-      "source_title": "기계어 라인 에디터(MLE)",
-      "restoration": "complete-MLE-assembly-exported",
-      "ownership_note": "MLE prose, examples, menu, tables and memory diagram restored; listings remain pending."
     },
     {
       "pdf_page": 148,
@@ -7989,29 +8150,124 @@
       "source_title": "실리콘밸리의 熱風",
       "restoration": "outside-canonical-article-body",
       "ownership_note": "Independent full-page Silicon Valley Fever book advertisement following verified foreign-news ending."
+    },
+    {
+      "pdf_page": 178,
+      "printed_page": "176",
+      "classification": "canonical-article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0041"
+      ],
+      "source_title": "프린터 마스터",
+      "restoration": "complete-printer-master-exported",
+      "ownership_note": "Printer listing/prose/source originals complete."
+    },
+    {
+      "pdf_page": 179,
+      "printed_page": "177",
+      "classification": "canonical-article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0041"
+      ],
+      "source_title": "프린터 마스터",
+      "restoration": "complete-printer-master-exported",
+      "ownership_note": "Printer listing/prose/source originals complete."
+    },
+    {
+      "pdf_page": 180,
+      "printed_page": "178",
+      "classification": "canonical-article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0041"
+      ],
+      "source_title": "프린터 마스터",
+      "restoration": "complete-printer-master-exported",
+      "ownership_note": "Printer listing/prose/source originals complete."
+    },
+    {
+      "pdf_page": 181,
+      "printed_page": "179",
+      "classification": "canonical-article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0041"
+      ],
+      "source_title": "프린터 마스터",
+      "restoration": "complete-printer-master-exported",
+      "ownership_note": "Printer listing/prose/source originals complete."
+    },
+    {
+      "pdf_page": 182,
+      "printed_page": "180",
+      "classification": "canonical-article-body",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0041"
+      ],
+      "source_title": "프린터 마스터",
+      "restoration": "complete-printer-master-exported",
+      "ownership_note": "Printer listing/prose/source originals complete."
+    },
+    {
+      "pdf_page": 183,
+      "printed_page": "181",
+      "classification": "shared-canonical-article-bodies",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0041",
+        "maso-1985-02-toc-0023"
+      ],
+      "source_title": "프린터 마스터 / 10진수를 2진수~16진수까지로",
+      "restoration": "complete-printer-master-exported;independent-contest-pending",
+      "ownership_note": "Printer owns wholeleft andupperright; independentcontest lower-right excluded. Contest0023 andheading0019 notclassified/restored thischeckpoint."
+    },
+    {
+      "pdf_page": 184,
+      "printed_page": null,
+      "classification": "independent-competition-notice",
+      "toc_entry_ids": [],
+      "source_title": "이달의 소프트웨어 공모",
+      "restoration": "outside-current-checkpoint;pending-eligibility-or-restoration-review",
+      "ownership_note": "Boundary-only source observation; no canonical entry classification changed."
+    },
+    {
+      "pdf_page": 185,
+      "printed_page": "183",
+      "classification": "canonical-start-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0043"
+      ],
+      "source_title": "새학기 준비",
+      "restoration": "outside-current-checkpoint;pending-eligibility-or-restoration-review",
+      "ownership_note": "Boundary-only source observation; no canonical entry classification changed."
+    },
+    {
+      "pdf_page": 186,
+      "printed_page": "184",
+      "classification": "canonical-start-lookup",
+      "toc_entry_ids": [
+        "maso-1985-02-toc-0044"
+      ],
+      "source_title": "전학년 성적처리",
+      "restoration": "outside-current-checkpoint;pending-eligibility-or-restoration-review",
+      "ownership_note": "Boundary-only source observation; no canonical entry classification changed."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-39",
-    "goal": "Verify actual extent andrestore 프린터 마스터 canonical0041 from TOCprinted176,using atmostsix mappedpages andsegmenting iflonger.",
+    "id": "batch-40",
+    "goal": "Restore canonical0023 10진수를 2진수∼16진수까지로 on shared printed181/PDF183; verify canonical0019 contest-heading ownership from its separated child panels without restoring other children.",
     "toc_entry_ids": [
-      "maso-1985-02-toc-0041"
+      "maso-1985-02-toc-0023",
+      "maso-1985-02-toc-0019"
     ],
-    "mapping_targets": "PDF178 is a provisional opening lookup after independentbookadvertisement177;verify actualheadline,folio,start,end andeverycontinuation before mapping. Preserve listings,diagrams,sourcephysicalrows andcaption associations.",
+    "mapping_targets": "Known lower-right contest panel onPDF183;verify exact complete ownedbox,source title,platform,credit andBASIC row before mapping. Exclude completedprinter0041. Reuse savedsource views foradjacentpages andothercontestheading instances.",
     "provisional_lookup_targets": [
-      177,
-      178,
-      179,
-      180,
-      181,
       182,
       183,
       184,
-      185,
-      186
+      105,
+      135,
+      160
     ],
-    "boundary_review": "TOC176 is a lookup lead,not a globalfoliooffset. TOC181contest0023 and183review0043 are boundaryleads,not proof ofprinterarticle ending. Inspect sharedpanels andretain only0041ownedareas;no implicitclassification ofotherentries orparent0008.",
+    "boundary_review": "Printed181 panel independentlyowned fromprinter left/upperright. Heading0019 has four canonicalchildren; verify repeating section label and absence ofseparate parentbody without inventing hierarchy or modifying otherchildren. TOC page leads require source confirmation.",
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -8047,7 +8303,8 @@
     "MLE canonical0007 is complete across sixteen noncontiguous pages139–141,146–158/PDF141–143,148–160. Four natives/all411files/fullmetadata retained. Complete indexes retain1554textrows,1334coderows/1193logicalgroups,sevencompletegroups,1146assemblyordinals4–1149,5753fields/2997blanks/2495objectbytes,89byte/15textcontinuations,13quotedoperands/17DFBoperands,37BASIClabels100–460 in73rows/36wraps/22strings,two tables18cells,11diagramlabels,5menuoptions,39keynotations,fourprosejoins,25listingconnections andsevenexternalassociations. 128candidates,tenunknownbands,twoinkmarks,33Unicodeapproximations and5511unknownspacebands remain. Printed30행 has no matching BASIC label and no inferred130target;210/410 link to exact printed rows. Firstordinal4 andfinal1149RTS,final460 : GOTO 180,allopaque strings,byte/address differences andsource errors remain literal. Shared141upperALE and160contest/ads excluded; intervening144–147ALE excluded. Humanacceptance,fullproofreading,sourcebytes,spacing,execution andclaims unverified. No bodypages orassembly pending. Use pinned mle_literal checker/context.",
     "Batch35 completes 나라안 소식0014 on printed160–165/PDF162–167 and classifies 정보 레이다0013 as a non-owning section heading, retaining canonical sibling parent0008 links. Parent0008 remains unresolved; no duplicate section body or invented hierarchy. Sixteen news items/four tables92cells16headers/three photos/four continuations retain literal claims and source errors, including5바이트씩15비트,수수강신청서,Jonus Ada,두격,28작품/28명/상장58매/66대. Forty localized candidates,two ink marks and24Unicode approximations retain originals. Photographic labels pending volunteers; human acceptance/full proofreading,sourcebytes andhistorical claims unverified. Earlier lookup source title 정보교류 is corrected to 정보레이다 only in active observations; original notes remain preserved.",
     "Foreignnews0015 complete across printed166–174/PDF168–176 at foreign-news-complete-r01. Twoimmutable natives/all332files/fullmetadata preserved;44categoryslices/nineobjects/6104projectedranges reverseexactly. Complete17newsitems/664physicalrows retain19numberedfeatures,fourbullets,12subheadings,twocaptionlinks,15internaljoins plus유력/한boundary,243physicalwraps. Ninety-fourcandidates,twoinkmarks,oneunknownellipsisband and153Unicodeapproximations retain allsource discrepancies/spelling/grammar. Final176 lower-right0016 notice excluded. Image-labeltranscription,humanacceptance,fullproofreading,encodedbytes,exactspacing andclaims unverified. No bodypages orassembly pending; use pinnedforeign_news_literal checker/context.",
-    "Batch38 completes canonical0016 원고 모집 광고 as independent lower-rightbox on174/PDF176. CanonicalTOC eligibility retained despiteadvertisingtitle. Three crops/twoblocks/19physicalrows/fourcontactfields/threesubmissionterms/sixwraps preserve originalframe,이시겠읍니까,일류필자,접수일로 부터,address36-4,telephone783-2296 and10일returnclaim. Fourlocalizedcandidates;no unknownbands. Foreign0015 andnotice0016 sourceareas disjoint. Humanacceptance,fullproofreading,sourcebytes,spacing andhistoricalcontact/termsvalidity unverified;parent0008 unchanged."
+    "Batch38 completes canonical0016 원고 모집 광고 as independent lower-rightbox on174/PDF176. CanonicalTOC eligibility retained despiteadvertisingtitle. Three crops/twoblocks/19physicalrows/fourcontactfields/threesubmissionterms/sixwraps preserve originalframe,이시겠읍니까,일류필자,접수일로 부터,address36-4,telephone783-2296 and10일returnclaim. Fourlocalizedcandidates;no unknownbands. Foreign0015 andnotice0016 sourceareas disjoint. Humanacceptance,fullproofreading,sourcebytes,spacing andhistoricalcontact/termsvalidity unverified;parent0008 unchanged.",
+    "Batch39 completes 프린터 마스터0041 on176–181/PDF178–183. Fullsixpages,447assemblyordinals0000–0446 in468physicalcoderows,21unnumberedobjectcontinuations,773literalobjectbytes,2144fields/1132blanks,two tables26cells35celllines,sixboxedkeys14commands15wraps retained. Final0446 E305 semicolon supersedes preliminary address-only note; originals retained. No END invented. Shared181contest0023 excluded. Thirty-eight candidates,two inkmarks,eleven unknownbandcounts,19Unicodeapproximations and1743unknownspacebands retain originals. Korean year/month inDEFM remains independent ofprinted objectbytes; no syntax/byte/address/grammar/technical repair. Humanacceptance,fullproofreading,encodedbytes,spacing,execution andclaims unverified. Parent0008 unchanged."
   ],
   "reader_rebuild": false
 }

@@ -6,8 +6,8 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-February 1985 restoration is in progress. Twenty-seven articles are readable/sample-reviewed,
-none are partial, three headings are non-owning and 26 of 56 entries remain unresolved.
+February 1985 restoration is in progress. Twenty-eight articles are readable/sample-reviewed,
+none are partial, three headings are non-owning and 25 of 56 entries remain unresolved.
 산수 경주 is complete at packages/math-race-complete-r01, printed64–76/PDF66–78.
 All 483 files match its independent rebuild; all 474 native files/full metadata remain
 exact. Ninety-six category slices/thirteen projected objects reverse to native records;
@@ -499,12 +499,33 @@ No OCR failure,retry orcrop repair. All40,791 prior files and30 implementation p
 remain exact;unchanged213-test baseline reused. Preservation inventory: 40,887 files.
 Current totals: 27 readable,no partial articles,three non-owning headings and26 unresolved.
 
-Next: verify 프린터 마스터0041 from TOC176 in batch39. PDF178 is a provisional
-opening lookup after book advertisement177;confirm actual extent andcontinuations before
-mapping at most six pages. Segment andassemble separately if longer. TOC181 contest
-and183 review are lookup leads only. Parent정보모음0008,cover selection,remaining
-page accounting andissue closeout remain pending. No reader rebuild;human acceptance
-andfull proofreading pending.
+Batch39 completes 프린터 마스터0041 on printed176–181/PDF178–183 at
+`archive/pdf/1985-02/packages/batch-39-r01/printer-master`. All166 files match the
+independent rebuild;12,919 exact UTF-8 ranges,14,238 evidence pins and46 images pass.
+Thirty-seven blocks retain540 non-table physical text rows,including468 code rows.
+The listing preserves447 ordinals0000–0446,21 unnumbered object-byte continuations,
+2,144 fields/1,132 blanks and773 literal object bytes. Two command tables retain26
+merged cells/35 cell lines;table serialization is separate from physical source rows.
+Six boxed keys,14 commands,15 physical wraps and17 listing boundaries remain indexed.
+
+Final0446 E305 contains a semicolon,correcting the preliminary address-only observation;
+original notes remain. No END is invented. Korean year/month glyphs in a DEFM string
+remain independent of printed object bytes. Thirty-eight source candidates,two ink marks,
+eleven unknown decorative bands,19 Unicode approximations and1,743 unknown space bands
+retain original scans. Shared181 lower-right contest0023 remains excluded and pending.
+All46 original/nine revised crops preceded37 tasks(18eng/19kor+eng);all drafts were
+read before one source pass. No OCR failure/retry. Initial verifier schema-key failure
+is preserved;the revised verifier passes without changing source/package data.
+All40,887 prior files and30 implementation pins remain exact;213-test baseline reused.
+Preservation inventory: 41,590 files. Human acceptance,full proofreading,source bytes,
+spacing,execution andtechnical claims remain unverified. No reader rebuild.
+Current totals: 28 readable,no partial articles,three non-owning headings and25 unresolved.
+
+Next: restore contest0023 on printed181/PDF183 andverify heading0019 ownership in batch40.
+Use the lower-right panel only;completed printer0041 owns left/upper-right. Review the
+heading's other child panels through bounded saved-source lookups without restoring
+those children. Parent정보모음0008,cover selection,remaining page accounting andissue
+closeout remain pending.
 
 December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
 assistant sample-reviewed articles and seven non-owning headings account for all 37
