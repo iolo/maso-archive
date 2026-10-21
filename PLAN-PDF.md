@@ -562,13 +562,36 @@ failure or retry. All36,053 prior files and30 implementation pins pass; unchange
 respect the limits. Nine of sixteen MLE source pages now exist in two immutable natives.
 Current totals: 23 readable, one partial article, two non-owning headings and 30 unresolved.
 
-Next: restore MLE listing152–157/PDF154–159, canonical0007, within the six-page limit.
-Reuse saved source views; preserve incoming546/547, remaining assembly ordinals547–1149,
-and final49DB:60 RTS on159. Lower-right159 begins list2 MLE.START at BASIC100 through300.
-FinalPDF160, BASIC310–460 and complete article assembly stay pending. Preserve independent
-contest/ads on160 and upper ALE ownership on141. No syntax, byte or address repair.
-Cover selection, remaining page accounting and issue closeout remain pending.
-No reader rebuild; human acceptance and full proofreading pending.
+Batch33 restores MLE listing152–157/PDF154–159 at
+`archive/pdf/1985-02/packages/batch-33-r01/mle-c`. All83 files match the independent
+rebuild; 33,873 current UTF-8 ranges, four external native ranges, 35,254 evidence pins
+and23 images pass. All603 assembly ordinals547–1149 retain2,916 independent fields,
+1,305 blanks,1,269 object bytes,66 comments and81 labels. Eleven column/page joins
+and incoming546/547 remain linked. Final49DB:60 1149 RTS ends list1 without an addedEND.
+
+Lower-right159 begins separately captioned list2 MLE.START, BASIC100–300 in40 physical
+rows/21 labels/19 wraps. Fourteen quoted strings,87 numeric fragments andthree branch
+occurrences remain indexed. Numeric10:,6371),6373),6) and1798 fragments are continuations,
+not new BASIC labels. The caption, two exact prose references and prior list1 caption
+retain their original occurrences. PrintedHIMEM16368 versusCALL16384,opaqueD823G patch
+string,L0/LO candidate,A$/L$ display strings and independent assembly fields stay literal.
+Fifty-one localized candidates,one overprinted row1133,five Unicode approximations and
+2,793 unknown spacing bands retain originals; no syntax,byte,address or arithmetic repair.
+
+All23 crops were reviewed before17 tasks (13eng/4kor+eng); all drafts were read before
+one source pass. No crop repair, OCR failure or retry. All36,427 prior files and30
+implementation pins pass; unchanged213-test baseline reused. Six mapped pages, two
+outside lookups and one canonical task respect the limits. Fifteen of sixteen MLE
+source pages now exist in three immutable natives. Prior prose/listing natives unchanged.
+Current totals: 23 readable, one partial article, two non-owning headings and 30 unresolved.
+
+Next: restore final MLE listing158/PDF160, canonical0007, BASIC310–460.
+Map the left and upper-right MLE listings plus section badge; exclude the independent
+contest and lower book advertisements. Preserve incoming300/310 and final460 physical
+row : GOTO 180, with no inventedEND. Then assemble all sixteen noncontiguous pages in
+a separate checkpoint. Shared141 upperALE ownership stays unchanged. Cover selection,
+remaining page accounting and issue closeout remain pending. No reader rebuild;
+human acceptance and full proofreading pending.
 
 ## December 1984 closeout, 2026-10-20
 
