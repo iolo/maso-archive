@@ -8,17 +8,18 @@ by the calendar month in which restoration work happened.
 
 February 1985 restoration is in progress. Twelve articles are readable/sample-reviewed,
 one partial, two headings are non-owning and 41 of56 entries remain unresolved.
-Batch14 restores 산수 경주 opening64–69/PDF66–71 at packages/batch-14-r01/math-race-a.
-All339files match the independent rebuild; 6,572 exact ranges and96images pass. Its
-479physical rows retain114code rows/43BASIC labels,228table cells,four screens and
-nine caption links. Thirty-nine source candidates remain. All78tasks completed without
-failure/retry after96original/four revised crops were inspected; one source correction
-pass followed reading all raws. Unchanged213-test baseline reused. Parent0035 is
-non-owning with four unchanged children; original three-child note retained as erratum.
+Batch15 restores 산수 경주 middle70–75/PDF72–77 at packages/batch-15-r01/math-race-b.
+All106files match the independent rebuild; 15,643 current ranges, two external native
+ranges and40images pass. Its619textrows retain593BASICrows/180newlabels, incoming490,
+six internal line joins and22dump rows/176bytes. Thirty source candidates,145quoted
+fields and461unknown encoded-whitespace bands remain. All19tasks completed without
+failure/retry after40original/one revised crops were inspected; one source correction
+pass followed reading all raws. Unchanged213-test baseline reused. The opening segment
+andall prior evidence remain. Parent0035 is non-owning with four unchanged children.
 Forth remains complete at packages/forth-complete-r01; use its pinned private checker.
-Next: batch15 restores 산수 경주 printed70–75/PDF72–77, preserving incoming490
-continuation andlist1/list2 boundaries. Final printed76/PDF78 andimmutableassembly
-follow separately. Cover selection, remaining page accounting andissue closeout pending.
+Next: batch16 restores final printed76/PDF78, preserving list2 continuation60A8/60B0
+through6520. Reuse reviewedPDF77–79; assemble allthree immutable segments afterward.
+Cover selection, remaining page accounting andissue closeout pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json). No reader rebuild.
 

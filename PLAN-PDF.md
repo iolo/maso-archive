@@ -181,11 +181,21 @@ All 96 original/four revised crops were inspected before 78 tasks; all raws read
 one source pass. Zero OCR failure/retry; unchanged 213-test baseline reused. The original
 three-child count is preserved as a metadata erratum; OCR-bound maps remain unchanged.
 
+Batch15 restores the middle printed70–75/PDF72–77 of 산수 경주 at
+`archive/pdf/1985-02/packages/batch-15-r01/math-race-b`. All 106 files match the
+independent rebuild; 15,643 current UTF-8 ranges, two external native ranges,
+15,759 current evidence pins and 40 images pass. Its 619 physical text rows include
+593 BASIC rows and 22 dump rows. The incoming490 fragment, 180 new labels500–2290,
+eleven panel boundaries/six BASIC joins, 145 quoted fields and 176 dump bytes remain
+source-linked. Thirty localized candidates and 461 unknown encoded-whitespace bands
+remain explicit. All 40 original/one revised crops preceded 19 tasks; all raws were
+read before one source pass. No OCR failure/retry; unchanged 213-test baseline reused.
+
 The 56-entry ledger records twelve readable/sample-reviewed articles, one partial,
-two non-owning headings and 41 unresolved entries. Next is batch15: restore 산수 경주
-printed70–75/PDF72–77, preserving the incoming line490 continuation, the rest of list1
-and beginning of list2 MM.SHAPES. Reuse reviewed PDF71–78; final PDF78 and assembly
-follow separately. Cover selection, remaining page accounting and issue closeout are pending.
+two non-owning headings and 41 unresolved entries. Next is batch16: restore the final
+산수 경주 page, printed76/PDF78, preserving list2's continuation60A8/60B0 through
+the final6520 row. Reuse reviewed PDF77–79; assemble the three immutable segments
+separately afterward. Cover selection, remaining page accounting and issue closeout are pending.
 See the [February record](docs/progress/8502.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
 No reader rebuild; human acceptance and full proofreading remain pending.

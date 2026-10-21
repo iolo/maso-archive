@@ -128,10 +128,17 @@ paired OCR or a new engine comparison.
   No OCR failure/retry; unchanged213-test baseline reused. Parent0035 is non-owning
   with four unchanged children0036–0039; original three-child count retained as a
   metadata erratum without changing OCR-bound maps. Seven pages/assembly pending.
+  Batch15 restores middle70–75/PDF72–77 at packages/batch-15-r01/math-race-b.
+  All 106 files match the independent rebuild; 15,643 current ranges, two external
+  native ranges, 15,759 current evidence pins and 40 images pass. Its 619 text rows
+  retain 593 BASIC rows/180 new labels, incoming490, six internal line joins and
+  22 dump rows/176 bytes. Thirty source candidates, 145 quoted fields and 461 unknown
+  encoded-whitespace bands remain explicit. All 40 original/one revised crops preceded
+  19 tasks; all raws read before one source pass. No OCR failure/retry; unchanged tests.
   Twelve articles are readable/sample-reviewed, one partial, two headings non-owning
-  and 41 of56 entries unresolved. Next: batch15 restores printed70–75/PDF72–77,
-  preserving incoming490 continuation, remaining list1 and beginning list2 MM.SHAPES.
-  Reuse PDF71–78; final PDF78 and immutable assembly follow separately.
+  and 41 of56 entries unresolved. Next: batch16 restores final76/PDF78, preserving
+  list2 continuation60A8/60B0 through6520. Reuse PDF77–79; immutable assembly follows
+  separately. Both existing segments and their complete review evidence remain.
   Cover selection, remaining page accounting and issue closeout remain pending.
   See [the issue record](docs/progress/8502.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-02-progress.json).
