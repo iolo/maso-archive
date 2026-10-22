@@ -6,43 +6,42 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 24 of 48 entries are readable and assistant
+March 1985 remains in progress: 26 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, five headings are non-owning, and
-19 entries remain unresolved. Canonical0015 컴퓨돌이 is complete as three separate
-vignettes on PDF161/159, PDF205/203 and PDF228/226. Canonical0016 광고색인 is
-complete in the lower panel of PDF242. Its actual folio is null; canonical TOC240
-remains unchanged. Neither article has deferred body pages or assembly pending.
+17 entries remain unresolved. Entry0031 어셈블러의 활용 is complete on PDF140/138;
+entry0032 &의 활용법 is complete on PDF141–143/139–141. The latter's printed
+title is &의 사용법; the canonical identity/title remains unchanged. Neither
+article has deferred body pages or assembly pending.
 
-The cartoons retain three logos, story headings, original character drawings,
-question-mark hat labels and complete panels/observed folios. Twenty story rows,
-two quoted passages, five dialogue turns and seven wrapped source fields remain
-literal. Printed 달갈, 날라갔다 and 주었읍니다 are unchanged. Three tiny monitor
-marks retain original pixels with unknown glyph identities/count/role; no artist
-is inferred. The index retains two ordered parts,26 rows,52 cells,no printed
-headers,three cover references and26 original leader bands/tree/lower rule.
-Names and references are source candidates; target pages and historical identities
-remain unverified. Neighbor technical/game bodies and the upper promotion are excluded.
+The assembler package retains five hex frames,23 rows,207 cells and184 opaque
+pair fields,three highlight boxes/five highlighted fields,13 boxed key labels and
+the editor's note/figure1. One unclear mark after EB on1AD0 has an explicit
+unknown marker; its original glyph identity/count/role remains unknown. The
+ampersand package retains three BASIC labels,36 assembly rows,22 printed57–78
+ordinals and14 unnumbered rows (including the five-row tail),29 diagram labels
+and original arrow/brace/box geometry. Four caption links span both articles.
+Printed G1AA8/editor1A9F,prose57～77/listing78,DELARY-1,ROUTI. and SO STACK-ROUTINE
+remain literal. No byte,address,syntax,keyboard,firmware or encoding repair or execution.
 
-All86 selected files match independent rebuilds. All729 active UTF-8 ranges,
-863 evidence-pin occurrences and25 crop image pixel comparisons pass. All33,282
-prior files,44 inventories,22 prior readable packages,nine private formats and30
+All237 selected files match independent rebuilds. All4,130 active UTF-8 ranges,
+4,202 evidence-pin occurrences and66 crop-image pixel comparisons pass. The
+keyboard's36 files are unchanged; all18 nonfigure pairs on shared143 are disjoint.
+All33,699 prior files,45 inventories,24 prior packages,nine private formats and30
 core pins remain exact. The unchanged fresh213-test batch43 baseline is reused.
-Preservation inventory contains33,699 files. Thirteen whole views (three reused,
-ten new),four mapped pages/nine outside lookups;all25 initial exact crops andone
-art replacement viewed before15 kor+eng tasks. All15 raws read before one source
-pass;successful omissions handled through recorded source-direct fallback. No OCR
-failures/retries. One art crop widened before OCR;all original revisions retained.
-Use pinned batch41 assembly_dispatch.py. No reader rebuild.
+Preservation inventory contains34,728 files. Six whole views reused;four mapped
+pages/two outside lookups. All64 initial exact crops andtwo added crops inspected
+before51 tasks (ten eng/41 kor+eng);all51 raws read before one source pass. Two
+pre-OCR coverage revisions add diagram100 and the140 folio;all original revisions
+remain. No OCR failures/retries. Use pinned batch41 dispatcher. No reader rebuild.
 
-Next: verify actual full extents and restore0031 어셈블러의 활용 and0032 &의 활용법.
-TOC138/139 are lookup cues; initial PDF139–144 whole views precede mapping.
-Preserve all code/prose physical wraps,labels,opcodes,comments,opaque fields and
-original images. Completed keyboard0013 on lower143 and the right publisher
-notice remain excluded from0032. Parent0030 waits its children and a separate
-boundary review. Cover selection,remaining entries,all244-page accounting and
-full issue closeout remain pending. Human acceptance,full proofreading,source
-bytes/spacing,historical claims and tiny artwork identification remain unverified;
-news/classified body transcription awaits volunteers.
+Next: verify actual full extents and restore0033 MSX 문자패턴 정의 and0034
+기계어 강좌 : 난수·난수·난수. TOC142/149 are lookup cues; initial whole views
+143–148/150–155 precede mapping. Preserve all code,mathematical expressions,
+tables/cells,diagrams/labels,physical wraps and original assets literally.
+Parent메아리0030 waits0033 and a separate boundary review. Cover selection,
+remaining entries,all244-page accounting and full issue closeout remain pending.
+Human acceptance,full proofreading,source bytes/spacing and historical/technical
+claims remain unverified; news/classified body transcription awaits volunteers.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

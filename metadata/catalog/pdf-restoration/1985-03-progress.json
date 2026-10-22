@@ -3050,23 +3050,139 @@
       "toc_entry_id": "maso-1985-03-toc-0031",
       "title": "어셈블러의 활용",
       "parent_id": "maso-1985-03-toc-0030",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Six whole views139–144 inspected before mapping.139ends completedIOCS;140iscomplete0031assembler atvisible138;141opens0032withprintedtitle &의 사용법,142continues,leftupper143ends,before144MSX 문자패턴 정의. Canonical0032 &의 활용법 title/byline/TOC139 remain unchanged.",
+        "Assembler140 has메아리/SPC-1000 header,임 인 건/영동고교1년 credit,seven ordered instructions,five printed address/hex dumps,two visual patch highlighting groups,usage/symbol instructions andseparate editor note/figure1. Full original page andall five dump frames retained;no instructions executed orbytes repaired.",
+        "Ampersand141–143 has메아리/애플 컴퍼티블 header,정 지 훈/천호중학교2학년 credit,four sections,memory/process diagram/caption,three numbered BASIC rows,nine unnumbered setup assembly rows,printed57–78 table excerpt andfive unnumbered tail rows on143. Do not invent79–83 labels orreconstruct omittedSearch source.",
+        "Only upper-left143 owned by0032;lower-leftkeyboard0013/right publisher recruitment excluded. Lower-right142 publisher notice excluded. No source spelling/opcode/address/command/diagram/encoding repair orexecution;full diagram geometry original. Parent0030 unresolved pendingchildren/separate review."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-46-r01/assembler",
+        "article_id": "scan-maso-1985-03-toc-0031",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-46-r01/assembler/manifest.json",
+          "sha256": "264b145c64bb8135cc1022cd4d6630ce88e555515d3e63d704be4280fa1ca443",
+          "bytes": 14952
+        },
+        "coverage": {
+          "pdf_pages": [
+            140
+          ],
+          "printed_pages": [
+            "138"
+          ],
+          "regions": 25,
+          "blocks": 19,
+          "figures": 6,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-46/validation.json",
+          "sha256": "621b04d1f20fe82d8ce4639880722fedc1f1f47daef016abd167999dcb62c180",
+          "bytes": 3306
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-46/reproduction.json",
+          "sha256": "22511a2d877b1091fe7429ff51177eadfa2b9496b3b0f3c10d4de80c0b538259",
+          "bytes": 2230
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-46/source-reviewed.json",
+          "sha256": "b336124059b9d562b50496e97d8c642d72fcfdda9b288f6346fb4f7bba395c2d",
+          "bytes": 2022
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-46-r01/assembler/corrections.json",
+            "sha256": "0b3022bf06d4b9659828f09c6d4c8aea25def1f5b28e71b422ffaff4f6203d40",
+            "bytes": 1037454
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Source code/hex fields,physical wraps,boxedkeys,diagram labels andoriginal pixels literal. UnknownEB mark/editor claim/source discrepancies unverified;no semanticrepair,patch application orexecution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-46/previous-ledger.json",
+        "sha256": "9ee67cb4b85395f3fe87e68e08080e4b87d857fb07baa02b22ee2be6a83cb952",
+        "bytes": 284467
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0032",
       "title": "&의 활용법",
       "parent_id": "maso-1985-03-toc-0030",
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Six whole views139–144 inspected before mapping.139ends completedIOCS;140iscomplete0031assembler atvisible138;141opens0032withprintedtitle &의 사용법,142continues,leftupper143ends,before144MSX 문자패턴 정의. Canonical0032 &의 활용법 title/byline/TOC139 remain unchanged.",
+        "Assembler140 has메아리/SPC-1000 header,임 인 건/영동고교1년 credit,seven ordered instructions,five printed address/hex dumps,two visual patch highlighting groups,usage/symbol instructions andseparate editor note/figure1. Full original page andall five dump frames retained;no instructions executed orbytes repaired.",
+        "Ampersand141–143 has메아리/애플 컴퍼티블 header,정 지 훈/천호중학교2학년 credit,four sections,memory/process diagram/caption,three numbered BASIC rows,nine unnumbered setup assembly rows,printed57–78 table excerpt andfive unnumbered tail rows on143. Do not invent79–83 labels orreconstruct omittedSearch source.",
+        "Only upper-left143 owned by0032;lower-leftkeyboard0013/right publisher recruitment excluded. Lower-right142 publisher notice excluded. No source spelling/opcode/address/command/diagram/encoding repair orexecution;full diagram geometry original. Parent0030 unresolved pendingchildren/separate review."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-46-r01/ampersand",
+        "article_id": "scan-maso-1985-03-toc-0032",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-46-r01/ampersand/manifest.json",
+          "sha256": "fe2fe7d97af1a288b7bc0bd2ccc210c666c6807f22ac09335dad288150c4a3a3",
+          "bytes": 24787
+        },
+        "coverage": {
+          "pdf_pages": [
+            141,
+            142,
+            143
+          ],
+          "printed_pages": [
+            "139",
+            "140",
+            "141"
+          ],
+          "regions": 41,
+          "blocks": 32,
+          "figures": 9,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-46/validation.json",
+          "sha256": "621b04d1f20fe82d8ce4639880722fedc1f1f47daef016abd167999dcb62c180",
+          "bytes": 3306
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-46/reproduction.json",
+          "sha256": "22511a2d877b1091fe7429ff51177eadfa2b9496b3b0f3c10d4de80c0b538259",
+          "bytes": 2230
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-46/source-reviewed.json",
+          "sha256": "b336124059b9d562b50496e97d8c642d72fcfdda9b288f6346fb4f7bba395c2d",
+          "bytes": 2022
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-46-r01/ampersand/corrections.json",
+            "sha256": "aa642e7f3a07a86c178e457ba3e3969240f42535552514c07700bb42bb92a606",
+            "bytes": 1071166
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Source code/hex fields,physical wraps,boxedkeys,diagram labels andoriginal pixels literal. UnknownEB mark/editor claim/source discrepancies unverified;no semanticrepair,patch application orexecution."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-46/previous-ledger.json",
+        "sha256": "9ee67cb4b85395f3fe87e68e08080e4b87d857fb07baa02b22ee2be6a83cb952",
+        "bytes": 284467
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0033",
@@ -3247,10 +3363,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 24,
+    "readable": 26,
     "partial": 0,
     "non_owning_headings": 5,
-    "unresolved_eligibility": 19
+    "unresolved_eligibility": 17
   },
   "checkpoints": [
     {
@@ -5328,6 +5444,53 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-46",
+      "status": "complete",
+      "stage": "validated-complete-assembler-and-ampersand",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0031",
+        "maso-1985-03-toc-0032"
+      ],
+      "mapped_pdf_pages": [
+        140,
+        141,
+        142,
+        143
+      ],
+      "outside_map_lookup_pages": [
+        139,
+        144
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 51,
+      "eng_code_tasks": 10,
+      "kor_eng_tasks": 41,
+      "source_correction_passes": 1,
+      "pre_OCR_coverage_repair_rounds": 2,
+      "added_regions": 2,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-46/validation.json",
+        "sha256": "621b04d1f20fe82d8ce4639880722fedc1f1f47daef016abd167999dcb62c180",
+        "bytes": 3306
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-46/verification-completed.json",
+        "sha256": "555490b354e0718e02b666b521fe4a56cd292891460a88af1a12d9411d5e941b",
+        "bytes": 1241
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-46-preserved-work.json",
+        "sha256": "a62087a09770a3a37666d058dadfba4a4c763574a1d00a045eddcb1e610dc530",
+        "bytes": 7741260
+      },
+      "started_at": "2026-10-22T23:09:45.349849+00:00",
+      "finished_at": "2026-10-22T23:30:45.280441+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -6736,71 +6899,133 @@
     },
     {
       "pdf_page": 140,
-      "classification": "separate-next-article-opening-observed",
-      "toc_entry_ids": [],
-      "printed_page": "138",
-      "restoration": "observed;not-restored",
-      "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
-        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
-        "bytes": 2090
-      },
-      "notes": "SPC-1000어셈블리의 활용/임인건;canonical0031,notcurrent0002."
-    },
-    {
-      "pdf_page": 141,
-      "classification": "separate-next-article-opening-observed",
-      "toc_entry_ids": [],
-      "printed_page": "139",
-      "restoration": "observed;not-restored",
-      "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
-        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
-        "bytes": 2090
-      },
-      "notes": "애플컴패티블&의사용법/정지훈;canonical0032,notcurrent0002."
-    },
-    {
-      "pdf_page": 142,
-      "classification": "separate-next-article-body-observed",
-      "toc_entry_ids": [],
-      "printed_page": "140",
-      "restoration": "observed;not-restored",
-      "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
-        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
-        "bytes": 2090
-      },
-      "notes": "Apple&article withindependent lower-rightmanuscriptnotice;no ownershipdecisions inthischeckpoint."
-    },
-    {
-      "pdf_page": 143,
-      "classification": "mixed-canonical-body-and-other-material",
+      "classification": "article-body",
       "toc_entry_ids": [
-        "maso-1985-03-toc-0013"
+        "maso-1985-03-toc-0031"
       ],
-      "printed_page": "141",
-      "restoration": "complete-one-line-program-panel;neighbor-body-restoration-pending",
+      "printed_page": "138",
+      "restoration": "checked-complete-assembler",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
-        "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
-        "bytes": 1661
+        "path": "archive/pdf/1985-03/restoration/batch-46/source-reviewed.json",
+        "sha256": "b336124059b9d562b50496e97d8c642d72fcfdda9b288f6346fb4f7bba395c2d",
+        "bytes": 2022
       },
-      "notes": "Only mapped one-line panel owned;adjacent other article andpublisher material excluded. Original program panel/boxed code/folio retained.",
+      "notes": "Full0031assembler page/sourcefolio138 retained.",
       "prior_observation": {
-        "pdf_page": 143,
-        "classification": "mixed-outside-current-article-observed",
+        "pdf_page": 140,
+        "classification": "separate-next-article-opening-observed",
         "toc_entry_ids": [],
-        "printed_page": "141",
+        "printed_page": "138",
         "restoration": "observed;not-restored",
         "source_review": {
           "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
           "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
           "bytes": 2090
         },
-        "notes": "Apple&ending upperleft,one-linekeyboardcontest lowerleft,recruitmentnotice right. Current0002alreadyended139;otherownershippending."
+        "notes": "SPC-1000어셈블리의 활용/임인건;canonical0031,notcurrent0002."
+      }
+    },
+    {
+      "pdf_page": 141,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0032"
+      ],
+      "printed_page": "139",
+      "restoration": "checked-complete-ampersand",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-46/source-reviewed.json",
+        "sha256": "b336124059b9d562b50496e97d8c642d72fcfdda9b288f6346fb4f7bba395c2d",
+        "bytes": 2022
       },
-      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0032"
+      "notes": "Only0032eligible body;independent publisher/keyboard material excluded where present.",
+      "prior_observation": {
+        "pdf_page": 141,
+        "classification": "separate-next-article-opening-observed",
+        "toc_entry_ids": [],
+        "printed_page": "139",
+        "restoration": "observed;not-restored",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+          "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+          "bytes": 2090
+        },
+        "notes": "애플컴패티블&의사용법/정지훈;canonical0032,notcurrent0002."
+      }
+    },
+    {
+      "pdf_page": 142,
+      "classification": "mixed-article-and-publisher-material",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0032"
+      ],
+      "printed_page": "140",
+      "restoration": "checked-complete-ampersand",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-46/source-reviewed.json",
+        "sha256": "b336124059b9d562b50496e97d8c642d72fcfdda9b288f6346fb4f7bba395c2d",
+        "bytes": 2022
+      },
+      "notes": "Only0032eligible body;independent publisher/keyboard material excluded where present.",
+      "prior_observation": {
+        "pdf_page": 142,
+        "classification": "separate-next-article-body-observed",
+        "toc_entry_ids": [],
+        "printed_page": "140",
+        "restoration": "observed;not-restored",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+          "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+          "bytes": 2090
+        },
+        "notes": "Apple&article withindependent lower-rightmanuscriptnotice;no ownershipdecisions inthischeckpoint."
+      }
+    },
+    {
+      "pdf_page": 143,
+      "classification": "shared-canonical-article-bodies",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0013",
+        "maso-1985-03-toc-0032"
+      ],
+      "printed_page": "141",
+      "restoration": "checked-complete-keyboard-and-ampersand;nonfigure-regions-disjoint",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-46/source-reviewed.json",
+        "sha256": "b336124059b9d562b50496e97d8c642d72fcfdda9b288f6346fb4f7bba395c2d",
+        "bytes": 2022
+      },
+      "notes": "Upper-leftampersand/lower-leftkeyboard complete;right publisher recruitment excluded.36keyboardfiles unchanged.",
+      "prior_observation": {
+        "pdf_page": 143,
+        "classification": "mixed-canonical-body-and-other-material",
+        "toc_entry_ids": [
+          "maso-1985-03-toc-0013"
+        ],
+        "printed_page": "141",
+        "restoration": "complete-one-line-program-panel;neighbor-body-restoration-pending",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
+          "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
+          "bytes": 1661
+        },
+        "notes": "Only mapped one-line panel owned;adjacent other article andpublisher material excluded. Original program panel/boxed code/folio retained.",
+        "prior_observation": {
+          "pdf_page": 143,
+          "classification": "mixed-outside-current-article-observed",
+          "toc_entry_ids": [],
+          "printed_page": "141",
+          "restoration": "observed;not-restored",
+          "source_review": {
+            "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+            "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+            "bytes": 2090
+          },
+          "notes": "Apple&ending upperleft,one-linekeyboardcontest lowerleft,recruitmentnotice right. Current0002alreadyended139;otherownershippending."
+        },
+        "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0032"
+      },
+      "nonfigure_ampersand_keyboard_pairs_disjoint": 18
     },
     {
       "pdf_page": 144,
@@ -7310,20 +7535,26 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-46",
-    "goal": "Verify actual full extents andrestore0031 어셈블러의 활용 and0032 &의 활용법,children of메아리0030.",
+    "id": "batch-47",
+    "goal": "Verify actual full extents andrestore0033 MSX 문자패턴 정의 and0034 기계어 강좌 : 난수·난수·난수.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0031",
-      "maso-1985-03-toc-0032"
+      "maso-1985-03-toc-0033",
+      "maso-1985-03-toc-0034"
     ],
-    "mapping_targets": "TOC138/139 arelookup cues,not global offsets. Initially inspectPDF139–144 whole views;reuse saved renders where possible. Verify actual title/intro/byline,complete program/prose extents/ending andneighbors beforemapping. Expected candidates140 forassembler and141–143 forampersand remainprovisional. Preserve all code physical rows/labels/opcodes/comments/quoted/opaque address/numeric fields,tables/screens/figures/captions/originalpixels without syntax/semantic/encoding repair or execution. Lower-leftPDF143 keyboard0013 andright publisher recruitment areexcluded from0032;all36 keyboardfiles unchanged andnonfigure ownership disjoint. At mosttwo tasks/six mappedpages/twenty outside lookups;segment only ifactual full extent exceeds cap. Parent0030 classification waits itschildren0031/0032/0033 andseparate boundaries review. Cover,remaining entries,244-page accounting/full March closeout pending. No reader rebuild.",
+    "mapping_targets": "TOC142/149 arelookup cues,not global offsets. Initially inspect143–148 and150–155 whole views;reuse saved renders where possible. Verify actual title/intro/byline,full article/code/table/diagram extents,ending andneighbors beforemapping. CandidatesMSX144–146 beforeindependent147notice andrandom151–153 before154recursiveBASIC remainprovisional. Preserve all codephysical rows/labels/quoted/opaque numeric fields,mathematical expressions/tables/all cells,figures/captions/labels/original pixels without syntax/algorithm/hardware/encoding repair orexecution. At mosttwo canonicaltasks/six distinctmappedpages/twenty outside lookups;segment separately ifactual combined extent exceeds cap. Parent메아리0030 waits0033 andseparate group boundaries review;0031/0032 alreadycomplete. Cover,remaining entries,244-page accounting/full March closeout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      139,
-      140,
-      141,
-      142,
       143,
-      144
+      144,
+      145,
+      146,
+      147,
+      148,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
     ],
     "limits": {
       "articles": 2,
@@ -7383,9 +7614,10 @@
     "Use pinned batch41 assembly_dispatch for all nine March private formats in JSON/assets issue export/check. Full native stage notes/flags retained;active complete classifieds scope has no deferred body pages orassembly pending.",
     "Complete classifieds retains56 exact native files/full metadata;24 supplemental category slices/10 object projections reverse exactly. Three categories/18 body fragments/17 flow links/six physical associations preserved;239→240category/new-bullet only,no contact join. Body volunteer transcription/source spacing/bytes/item counts/current identities/historical claims remain unverified.",
     "Keyboard sourceLOCATEY,0 twice,LO/newlineCATE andHA/newline!  HA! remain literal;quoted encoded-space counts unverified. Miniclock sourcePOKE54,0,0,Q=Q/newline+(R-Q),CIRCL/newlineE andIFR>6/newline0THEN unchanged. Canonical미니 클럭 independent fromprinted미니클럭. No syntax/number/keyboard/clock/encoding repair or execution.",
-    "19 canonical entries remain unresolved. Cartoons0015 complete three independent panels161/205/228:three logos/headings/art/hatlabels,20 storyrows,two quotes/five dialogue turns/seven wrapped source fields. Three tiny monitor marks retain original pixels withunknown identity/count/role;no artist inferred. Printed달갈/날라갔다/주었읍니다 unchanged.",
     "Advertisingindex0016 complete lowerPDF242 withnullfolio despite canonical240:two ordered parts/26 rows/52 cells/no printed headers/three cover references/26 original leader bands/tree/lower rule. Source벨엘상사/보라바이컴/선경화학 andall names remainvisual candidates;no identity/reference-target/leader-count/folio-offset repair.",
-    "All86 selectedfiles match independent rebuilds;729 exact ranges/863 pinoccurrences/25 original cropimages pass. All33282 priorfiles/44 inventories/22 priorpackages/nine formats/30 corepins unchanged;213-test baseline reused. Next0031/0032 full extents/source restoration;cover,remaining entries,244-page accounting/full March closeout pending. Use pinnedbatch41 dispatcher."
+    "17 canonical entries remain unresolved. Assembler0031 complete140/138 andampersand0032 complete141–143/139–141;66regions/51blocks/15originals,62physical code rows. Assemblerfive hexframes/23rows/207cells/184opaque pairs,three highlightboxes/five fields/13boxedkeys/one unknownEB mark;no patch applied.",
+    "Ampersandprintedtitle &의 사용법 separate fromcanonical &의 활용법. Three BASIC labels,36assemblyrows/22printed57–78 ordinals/14unnumbered rows includingfive tailrows,29diagramlabels/four captions acrossbotharticles. Prose57～77,DELARY-1,ROUTI.,SO STACK-ROUTINE,G1AA8/editor1A9F andallsource spelling/fields remainliteral;no repair/execution.",
+    "All237 selectedfiles match independent rebuilds;4130 exact ranges/4202 pinoccurrences/66 cropimages pass.36keyboardfiles unchanged andall18 nonfigurepairs on143disjoint. All33699 priorfiles/45inventories/24priorpackages/nineformats/30corepins unchanged;213-test baseline reused. Next0033MSX/0034random full extents/source restoration;parent0030,cover,remaining entries,244-page accounting/full Marchcloseout pending. Use pinnedbatch41 dispatcher."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
