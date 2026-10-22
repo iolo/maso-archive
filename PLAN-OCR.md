@@ -20,20 +20,19 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March 1985 is in progress: nine of 48 entries are readable/sample-reviewed,
-  two headings are non-owning, no articles are partial and 37 entries remain
-  unresolved. 통신의 개념 is complete at printed 42–49 / PDF 44–51: all 210
-  assembly files match the independent rebuild, including 202 exact native files.
-  All 4,391 active UTF-8 ranges and 9,163 evidence pins pass. Six caption links,
-  42 diagram labels, 48 table fields/nine headers and one unknown signal band
-  retain their source scans. The incoming continuation is resolved without
-  rewriting physical fragments. Parent0021 is a non-owning heading above the two
-  restored children; no separate body/divider. All 5,157 prior files and 30 core
-  pins remain exact; the fresh 213-test environment check remains valid.
-  Next: verify the extent of 프린터 활용방법 from printed 50 / PDF 52 and restore
-  a bounded first segment. Reuse PDF 51–53; inspect following pages before mapping.
-  Keep two tasks/six mapped pages/twenty outside lookups. Cover selection, remaining
-  source accounting and issue closeout remain pending. Follow
-  [March's log](docs/progress/8503.md) and
+  two headings are non-owning, printer is partial and 36 entries remain unresolved.
+  Batch11 restores its first printed 50–55 / PDF 52–57; full extent 50–60 /
+  PDF52–62 is verified. All 366 native files match the independent rebuild;
+  4,387 UTF-8 ranges and 4,707 pins pass. It retains 94 physical code rows / 83
+  BASIC labels, 12 program/output pairs, 24 caption links, four control streams,
+  23 hex fields and 46 explicit unknown bands. All 5,596 prior files / 30 core
+  pins remain exact; the fresh 213-test environment baseline is unchanged.
+  Next: restore final printed56–60/PDF58–62 and example12 output12→13. Reuse
+  PDF57–63; map the five final pages, excluding lowerPDF61 publisher notices
+  from printer body. Complete assembly and parent0024 classification follow
+  separately. Keep two tasks/six mapped pages/twenty outside lookups. Cover
+  selection, remaining source accounting and issue closeout remain pending.
+  Follow [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

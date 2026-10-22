@@ -24,23 +24,24 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-Nine of 48 entries are readable and assistant sample-reviewed; tips and
-마이크로 컴퓨터의 새로운 물결 are non-owning headings. No articles are partial;
-37 entries remain unresolved. 통신의 개념 is complete across printed 42–49 /
-PDF 44–51. Its 210-file assembly matches the independent rebuild and retains all
-202 immutable native files exactly. All 4,391 active UTF-8 ranges and 9,163
-source-evidence pins validate. The complete package retains 57 regions, 43 blocks,
-14 originals, six caption links, 42 diagram labels and a six-row parity table.
-The unknown binary signal band remains an original image with an explicit
-volunteer transcription placeholder. No body pages or article assembly remain
-pending. All 5,157 prior files and 30 core pins remain unchanged; the fresh
-213-test environment check remains valid. Both source children establish the
-parent as an organizational heading without a separate body or divider.
-Next: verify the actual extent of 프린터 활용방법 from printed 50 / PDF 52,
-then restore a bounded first segment. Reuse PDF 51–53 and inspect each following
-page before mapping; retain two-task/six-page/twenty-lookup limits. Cover selection,
-source-page accounting and issue closeout remain pending. Details:
-[March log](docs/progress/8503.md) and
+Nine of 48 entries are readable and assistant sample-reviewed; two headings are
+non-owning, 프린터 활용방법 is partial and 36 entries remain unresolved.
+Batch11 restores its opening printed 50–55 / PDF 52–57 as an immutable native.
+The full article spans printed 50–60 / PDF 52–62. All 366 package files match the
+independent rebuild; 4,387 exact UTF-8 ranges and 4,707 pins validate. The native
+retains 94 physical code rows / 83 printed BASIC labels, 12 program/output pairs,
+24 caption links, four boxed control streams and 23 opaque hex fields. Forty-six
+unknown leader/dash/output bands retain explicit markers and original scans.
+All 5,596 prior files and 30 implementation pins remain exact; the unchanged
+pipeline reuses the fresh 213-test environment baseline. Communication remains
+complete and its two native segments stay immutable.
+Next: restore final printed 56–60 / PDF 58–62 and validate the incoming example12
+output continuation from 12 to 13. Reuse PDF 57–63; map only the five final pages.
+PDF61 has printer body above two independent publisher notices, including the
+canonical recruitment notice0008; exclude both lower notices from printer body.
+Complete assembly and 교육입문 parent classification follow separately. Retain
+two-task/six-page/twenty-lookup limits. Cover selection, source accounting and issue
+closeout remain pending. Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 ## February 1985 closeout, 2026-10-22

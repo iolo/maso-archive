@@ -7,18 +7,18 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 is in progress: nine of 48 entries are readable/sample-reviewed,
-with two non-owning headings, no partial articles and 37 unresolved entries.
-통신의 개념 is complete across printed 42–49 / PDF 44–51. All 210 assembly files
-match the independent rebuild, including 202 exact immutable native files. All
-4,391 active UTF-8 ranges and 9,163 evidence pins pass. Six caption links, 42
-figure labels, 48 parity-table fields and one unknown signal band retain scans.
-No body pages or article assembly remain pending. Parent0021 is non-owning above
-both restored children. All 5,157 prior files and 30 core pins remain exact;
-the fresh 213-test environment check remains valid.
-Next: verify 프린터 활용방법 from printed 50 / PDF 52 and restore its first
-bounded segment. Reuse PDF 51–53 within normal limits. Cover selection, source
-accounting and issue closeout remain pending. See [March's log](docs/progress/8503.md)
-and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+with two non-owning headings, one partial article and 36 unresolved entries.
+Batch11 restores the first printed50–55/PDF52–57 of 프린터 활용방법; its full
+extent is printed50–60/PDF52–62. All 366 native files match the independent
+rebuild; 4,387 exact UTF-8 ranges and 4,707 pins pass. It retains 94 physical
+code rows, 83 BASIC labels, 12 program/output pairs, 24 caption links, 23 hex
+fields and 46 explicit unknown bands. All 5,596 prior files and 30 core pins
+remain exact; the fresh 213-test environment baseline is unchanged.
+Next: restore finalprinted56–60/PDF58–62 and example12 output12→13. Exclude
+lowerPDF61 independent notices from printer body. Assembly and parent0024
+classification follow separately. Cover selection, source accounting and issue
+closeout remain pending. See [March's log](docs/progress/8503.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56
 entries are accounted for by 48 readable, assistant sample-reviewed articles and
