@@ -24,25 +24,26 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-Ten of 48 entries are readable and assistant sample-reviewed; one article is
+Eleven of 48 entries are readable and assistant sample-reviewed; no articles are
 partial, two headings are non-owning and 35 entries remain unresolved.
-All MAT0026 body pages, printed62–76/PDF64–78, now have validated native segments.
-The final printed74–76/PDF76–78 package matches the independent rebuild across
-all 107 files; all 4,939 UTF-8 ranges and 5,036 evidence pins pass. Its 35 regions,
-21 blocks and 14 originals retain 197 physical code rows, 183 BASIC labels,
-30 matrix values, two printed listing labels and the final conclusion/terminal mark.
-LowerPDF78 advertising is excluded; its upper body, terminal mark and folio76
-are preserved separately. LINEAR270's selected+ reading remains separate from
-an earlier semicolon lookup cue. All 13,054 prior files and 30 core pins pass;
-the fresh 213-test baseline is reused. The three MAT natives retain 591 files.
+MAT0026 is complete, printed62–76/PDF64–78. The assembled package and independent
+rebuild match across all 600 files, including 591 exact native files. All 26,454
+active UTF-8 ranges and 47,223 evidence pins pass; every supplemental native
+array/object reverses exactly to its original. The complete article retains
+183 regions, 127 blocks, 56 originals, 644 physical code rows, 558 BASIC labels,
+104 matrix values, two FCB tables, opaque DDT data and five printed caption links.
+Both cross-segment links resolve without changing literal fragments. LINEAR270's
+selected+ reading stays separate from the historical semicolon lookup cue.
+LowerPDF78 advertising remains excluded; upper body, terminal mark and folio76
+are separate originals. All 13,547 prior files and 30 core pins pass; all 213 PDF
+tests were freshly rerun. The preservation inventory contains 14,776 files.
 
-Next: assemble MAT from the three immutable segments, preserving all native files
-and metadata and resolving both cross-segment links. No new mapping/OCR needed.
-Printer remains complete; use the pinned batch13 format-aware dispatcher for
-both existing completed March assemblies and extend it for MAT's private format.
-Parent0024 has five children and remains unresolved. Cover selection, source
-accounting and issue closeout remain pending. No reader rebuild.
-Details: [March log](docs/progress/8503.md) and
+Next: verify the full extent and restore the first bounded segment of CP/M의 진수,
+canonical0027, from the previously observed PDF80 opening. Do not infer a global
+folio offset. Use the pinned batch17 dispatcher for all three completed March
+private assembly formats. Parent0024 has five children and remains unresolved;
+cover selection, source accounting and issue closeout remain pending. No reader
+rebuild. Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
 ## February 1985 closeout, 2026-10-22

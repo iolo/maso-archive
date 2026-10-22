@@ -6,19 +6,20 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 is in progress: ten of 48 entries are readable/sample-reviewed,
-with one partial article, two non-owning headings and 35 unresolved entries.
-All MAT0026 body pages, printed62–76/PDF64–78, now have validated native segments.
-The final printed74–76/PDF76–78 package matches the independent rebuild across
-107 files; all 4,939 UTF-8 ranges and 5,036 evidence pins pass. It retains 35
-regions/21 blocks/14 originals, 197 physical code rows, 183 BASIC labels, 30
-matrix values, two printed listing labels and the conclusion/terminal mark.
-MixedPDF78 lower advertising stays excluded; upper body, terminal mark and folio76
-are separate originals. Earlier semicolon lookup cues remain historical; the
-selected LINEAR270 reading uses+. All 13,054 prior files and 30 core pins pass;
-the fresh 213-test baseline is reused. All 591 files from the three natives remain.
-Next: complete MAT assembly, preserving native metadata and resolving both
-cross-segment boundaries. Printer remains complete. Parent0024, cover selection,
+March 1985 is in progress: eleven of 48 entries are readable/sample-reviewed,
+with no partial articles, two non-owning headings and 35 unresolved entries.
+MAT0026 is complete, printed62–76/PDF64–78. Its 600-file assembly matches the
+independent rebuild and retains all 591 exact native files. All 26,454 active
+UTF-8 ranges, 47,223 evidence pins and 183 image decodes pass; all supplemental
+native arrays/objects reverse exactly. The complete article retains 127 blocks,
+56 originals, 644 physical code rows, 558 BASIC labels, 104 matrix values,
+two FCB tables, opaque DDT data, five captions and 14 complete program associations.
+Both inter-segment links resolve without text joining; LINEAR270's selected+
+stays separate from the earlier semicolon lookup cue. LowerPDF78 advertising
+stays excluded. All 13,547 prior files and 30 core pins pass, and all 213 PDF
+tests were freshly rerun. The preservation inventory contains 14,776 files.
+Next: verify CP/M의 진수's actual extent and restore its first bounded segment
+from the previously observed PDF80 opening. Parent0024, cover selection,
 source accounting and issue closeout remain pending. See [March's log](docs/progress/8503.md)
 and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 

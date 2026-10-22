@@ -19,25 +19,24 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress: ten of 48 entries are readable/sample-reviewed,
-  one article is partial, two headings are non-owning and 35 remain unresolved.
-  All MAT0026 body pages printed62–76/PDF64–78 now have validated native segments.
-  The final printed74–76/PDF76–78 package matches the independent rebuild across
-  107 files; all 4,939 UTF-8 ranges and 5,036 pins pass. It retains 35 regions/
-  21 blocks/14 originals, 197 physical code rows, 183 BASIC labels, 30 matrix
-  values, two listing captions and the ending. All 35 initial exact crops and
-  two repairs were viewed before 21 tasks (7 eng/14 kor+eng); all drafts read
-  before one source pass. No OCR failures, retries or engine changes. LowerPDF78
-  advertising is excluded; upper body/terminal mark/folio76 are separate originals.
-  LINEAR270's selected+ reading corrects only the current source interpretation;
-  earlier semicolon cues, maps and prior natives remain unchanged. All 13,054
-  prior files and 30 core pins pass; fresh213-test baseline reused. The three
-  natives retain 591 files. Next: separate complete MAT assembly, preserving
-  native metadata and both cross-segment links. No new mapping/OCR needed.
-  Extend the pinned private dispatcher for MAT; existing completed formats remain.
-  Parent0024, cover selection, source accounting and issue closeout remain pending.
-  Follow [March's log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+- March 1985 is in progress: eleven of 48 entries are readable/sample-reviewed,
+  no articles are partial, two headings are non-owning and 35 remain unresolved.
+  MAT0026 is complete, printed62–76/PDF64–78. All 600 assembly files match the
+  independent rebuild, including 591 exact native files. All 26,454 active UTF-8
+  ranges and 47,223 pins verify; all native supplemental arrays/objects reverse
+  exactly to their originals. The complete article retains 183 regions/127 blocks/
+  56 originals, 644 physical code rows, 558 BASIC labels, 104 matrix values,
+  two FCB tables, opaque DDT data, five caption links and 14 complete program
+  associations. Both inter-segment links resolve without text joining. LINEAR270
+  uses+; the earlier semicolon cue stays historical. MixedPDF78 lower advertising
+  stays excluded; upper body/terminal mark/folio76 are separate originals.
+  No new mapping/OCR/source correction. All 13,547 prior files and 30 core pins
+  pass; all 213 PDF tests were freshly rerun. Preservation includes 14,776 files.
+  Next: verify full CP/M의 진수 extent and restore its first bounded segment from
+  the previously observed PDF80 opening. Use the pinned batch17 dispatcher for
+  all three completed March private formats. Parent0024, cover selection, source
+  accounting and issue closeout remain pending. Follow [March's log](docs/progress/8503.md)
+  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
