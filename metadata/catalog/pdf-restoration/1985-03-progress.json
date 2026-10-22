@@ -235,12 +235,119 @@
       "toc_entry_id": "maso-1985-03-toc-0002",
       "title": "특집 II : SPC-1000의 IOCS분석 : INPUT, OUTPUT의 CONTROL SYSTEM",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Actual featureII opening125 title SPC-1000의 IOCS분석,Englishsubtitle,5회연재중1회 andintro over illustration belong same126 body IOCS의 전체적인 메모리맵과 그 구조/byline황건순. Openingfolio null,not inferred123.",
+        "All15continuouspages125–139 reviewed. Prose/diagrams/listings lead to finalsource listing0607/0450semicolon andterminal139/visible137;prior124bookadvertisements,next140distinct SPC-1000어셈블리의 활용/임인건 establish extent.",
+        "First native125–130 retains openingillustration/intro,seriesoutline,memory/jump/bit diagrams,GMODE/SMODE/FCB tables,listing1andanalysis through0144~0145. Remaining131–139 andassembly pending. Literalerrors/physicalwraps/10unknownbands retained;no hardware/opcode/programrepair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-33-r01/iocs-a",
+        "article_id": "scan-maso-1985-03-toc-0002",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-33-r01/iocs-a/manifest.json",
+          "sha256": "062fa7e6fecca7f0fabf09fa0a04dd0c970066102b3d9be275481417bc2b7576",
+          "bytes": 36601
+        },
+        "coverage": {
+          "pdf_pages": [
+            125,
+            126,
+            127,
+            128,
+            129,
+            130
+          ],
+          "printed_pages": [
+            null,
+            "124",
+            "125",
+            "126",
+            "127",
+            "128"
+          ],
+          "regions": 64,
+          "blocks": 47,
+          "figures": 17,
+          "deferred_pdf_pages": [
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139
+          ]
+        },
+        "segments": [
+          {
+            "id": "iocs-a",
+            "directory": "archive/pdf/1985-03/packages/batch-33-r01/iocs-a",
+            "manifest": {
+              "path": "archive/pdf/1985-03/packages/batch-33-r01/iocs-a/manifest.json",
+              "sha256": "062fa7e6fecca7f0fabf09fa0a04dd0c970066102b3d9be275481417bc2b7576",
+              "bytes": 36601
+            },
+            "pdf_pages": [
+              125,
+              126,
+              127,
+              128,
+              129,
+              130
+            ],
+            "printed_pages": [
+              null,
+              "124",
+              "125",
+              "126",
+              "127",
+              "128"
+            ],
+            "availability": "partial"
+          }
+        ],
+        "assembly_required": true,
+        "complete_article_assembly_pending": true,
+        "next_section_boundary": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-33-r01/iocs-a/corrections.json",
+            "sha256": "e5e5b834fb4154b5428ed470df94b7ba85c1c3055d18773a99bbdccd5273ee22",
+            "bytes": 1868233
+          },
+          "field": "next_section_boundary"
+        },
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-33/validation.json",
+          "sha256": "678142e85f1e9bd7ee04c3b29884de0bdd4fd08f31915c31bc9ba3f25b6041d6",
+          "bytes": 2061
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-33/reproduction.json",
+          "sha256": "7794b675e485a5bb3f86ba05ecd1e01be3cc1ba3aa1c80d2f4145b3532f4d4c9",
+          "bytes": 1361
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+          "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+          "bytes": 2090
+        },
+        "full_extent_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-33/source-extent-reviewed.json",
+          "sha256": "d7e5035693a9946b44a55703e6b8680162d8430810b521a72d36a94dd6b44f49",
+          "bytes": 4444
+        }
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/previous-ledger.json",
+        "sha256": "f81faa063d3ecdcdddf8ace30e1d89400e554bdcbe52b4bd9a6a8cd0b3410932",
+        "bytes": 187202
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0003",
@@ -2372,9 +2479,9 @@
   "totals": {
     "canonical_entries": 48,
     "readable": 16,
-    "partial": 0,
+    "partial": 1,
     "non_owning_headings": 3,
-    "unresolved_eligibility": 29
+    "unresolved_eligibility": 28
   },
   "checkpoints": [
     {
@@ -3821,6 +3928,74 @@
       "article_availability": "readable",
       "deferred_body_pdf_pages": [],
       "assembly_required": false
+    },
+    {
+      "id": "batch-33",
+      "status": "complete",
+      "stage": "validated-first-partial-native",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "mapped_pdf_pages": [
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "outside_map_lookup_pages": [
+        124,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "canonical_tasks": 1,
+      "ocr_tasks": 47,
+      "eng_code_tasks": 2,
+      "kor_eng_tasks": 45,
+      "source_correction_passes": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/validation.json",
+        "sha256": "678142e85f1e9bd7ee04c3b29884de0bdd4fd08f31915c31bc9ba3f25b6041d6",
+        "bytes": 2061
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/verification-completed.json",
+        "sha256": "813d5624cf98a62de440fae74d3d5b1013eb81ea1fd2be10cb305e3e3015b9bb",
+        "bytes": 1368
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-33-preserved-work.json",
+        "sha256": "8b9d96050c22d988bf2b8b98c43c330ddc7676af9238ca25d412ad3cc67098e4",
+        "bytes": 6653302
+      },
+      "started_at": "2026-10-22T20:11:49.430946+00:00",
+      "finished_at": "2026-10-22T20:30:20.866224+00:00",
+      "timing_scope": "Wallclock includes full extent stage,waits/gaps and fresh environment verification;active human effort unmeasured.",
+      "article_availability": "partial",
+      "deferred_body_pdf_pages": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "assembly_required": true
     }
   ],
   "source_page_observations": [
@@ -5008,54 +5183,287 @@
       "printed_page": null,
       "restoration": "observed;not-restored",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
-        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
-        "bytes": 1793
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
       },
-      "notes": "Independent two-panel computer-book advertisements, not feature0001 continuation."
+      "notes": "Independent computer-book advertisements,notIOCSbody."
     },
     {
       "pdf_page": 125,
-      "classification": "separate-special-feature-opening",
-      "toc_entry_ids": [],
+      "classification": "article-opening-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
       "printed_page": null,
-      "restoration": "observed;not-restored",
+      "restoration": "checked-opening-native;131–139-andassembly-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
-        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
-        "bytes": 1793
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
       },
-      "notes": "Next special featureII SPC-1000 IOCS opening; no visible folio. Canonical0002 mapping pending."
+      "notes": "Owned featureII opening/illustration/intro/installment. No visiblefolio;null preserved.126confirms bodytitle/황건순 byline."
     },
     {
       "pdf_page": 126,
-      "classification": "separate-next-feature-body-observed",
-      "toc_entry_ids": [],
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
       "printed_page": "124",
-      "restoration": "observed;not-restored",
+      "restoration": "checked-opening-native;131–139-andassembly-pending",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
-        "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
-        "bytes": 1793
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
       },
       "notes": "Next IOCS memory map/body title and 황건순 credit; canonical0002 extent review pending."
+    },
+    {
+      "pdf_page": 127,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "125",
+      "restoration": "checked-opening-native;131–139-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 128,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "126",
+      "restoration": "checked-opening-native;131–139-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 129,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "127",
+      "restoration": "checked-opening-native;131–139-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 130,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "128",
+      "restoration": "checked-opening-native;131–139-andassembly-pending",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 131,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "129",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 132,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "130",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 133,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "131",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 134,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "132",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 135,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "133",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 136,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "134",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 137,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "135",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 138,
+      "classification": "article-body",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "136",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      }
+    },
+    {
+      "pdf_page": 139,
+      "classification": "article-ending-observed",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0002"
+      ],
+      "printed_page": "137",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      },
+      "notes": "Actualending source listing0607/0450semicolon andterminal;next140 new title/credit."
+    },
+    {
+      "pdf_page": 140,
+      "classification": "separate-next-article-opening-observed",
+      "toc_entry_ids": [],
+      "printed_page": "138",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      },
+      "notes": "SPC-1000어셈블리의 활용/임인건;canonical0031,notcurrent0002."
+    },
+    {
+      "pdf_page": 141,
+      "classification": "separate-next-article-opening-observed",
+      "toc_entry_ids": [],
+      "printed_page": "139",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      },
+      "notes": "애플컴패티블&의사용법/정지훈;canonical0032,notcurrent0002."
+    },
+    {
+      "pdf_page": 142,
+      "classification": "separate-next-article-body-observed",
+      "toc_entry_ids": [],
+      "printed_page": "140",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      },
+      "notes": "Apple&article withindependent lower-rightmanuscriptnotice;no ownershipdecisions inthischeckpoint."
+    },
+    {
+      "pdf_page": 143,
+      "classification": "mixed-outside-current-article-observed",
+      "toc_entry_ids": [],
+      "printed_page": "141",
+      "restoration": "observed;not-restored",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-33/source-reviewed.json",
+        "sha256": "c6d897d995deb472eb2b90ccb95e80778084bd1f9d3188f87031ca1334e487db",
+        "bytes": 2090
+      },
+      "notes": "Apple&ending upperleft,one-linekeyboardcontest lowerleft,recruitmentnotice right. Current0002alreadyended139;otherownershippending."
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-33",
-    "goal": "Verify actual full extent of canonical0002 SPC-1000 IOCS feature from observedPDF125 opening and126 body;then restore first bounded segment.",
+    "id": "batch-34",
+    "goal": "Restore middle sixpagesPDF131–136/visible129–134 of canonical0002 SPC-1000 IOCS;preserve immutable firstnative125–130. Final137–139 andassembly follow separately.",
     "toc_entry_ids": [
       "maso-1985-03-toc-0002"
     ],
-    "mapping_targets": "Source125 specialfeatureII opening has no observedfolio;126/visible124 confirms IOCS memory-map/body title and 황건순 credit. Verify title/body association,all continuouspages,actualending andadjacent next body before mapping/OCR. CanonicalTOC123 and later TOC138/141 are lookup cues,not globaloffsets. Initialbounded wholeviews124–143(20 total);reuse saved124–126,render further onlywithin20 outside-map lookups. If ending notverified within cap,save extent-review stage andcontinueverification separately,do not map an assumed extent. Once full extent proven,map atmost firstsix eligiblepages. Preserve opening125nullfolio,allprose/diagrams/labels/flow/memorytables/code/actualcaptions and opaque addresses. No opcode/hardware/semanticrepair. Parent0003,cover,remainingcanonicalentries,all244-pageaccounting andissuecloseout pending. No reader rebuild.",
+    "mapping_targets": "Fullactualextent125–139 verified,opening125folio null;all otherfolios observed124–137. Reuse saved130–137 views;map131–136 only. Current130final0144~0145discussion continues131parenthetical0356/BREAK+SHIFT/CLOAD5;keep priorboundary ranges against their ownnative.131–132continued cassetteanalysis,figure9 PSGbit table,133 BASICapplicationlistings2–5 andprose,134proseconclusion+listing6source0000–0082;135source0083–0188;136source0189–0294. Preserve allopaqueaddresses/objecthex/source rownumbers/mnemonics/operands/commentlabels/physicalwraps andactualcaptions. No syntax,opcode,hardware,address orsemanticrepair. Final137–139and completeassembly remainpending. Parent0003,cover,remainingentries,244-pageaccounting andfullissuecloseout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      124,
-      125,
-      126,
-      127,
-      128,
-      129,
       130,
       131,
       132,
@@ -5063,13 +5471,7 @@
       134,
       135,
       136,
-      137,
-      138,
-      139,
-      140,
-      141,
-      142,
-      143
+      137
     ],
     "limits": {
       "articles": 2,
@@ -5117,8 +5519,10 @@
     "Final feature native retains source X10×3/list3/V⁻²/formula colon candidates,22.6/1.56 claims,B scalar/array note,three asterisk bands/formula ellipsis,223 literal dump rows and8F78 unreadablechecksum. Final8FF0 eight printed fields not truncated from prose8FF2/7F3. No checksum/opcode/statistical/program repair or execution.",
     "Batch31 pre-OCR crop repair widens final BASIC column to retain complete PRINT340;initial map/crops remain. Verifier revision scopes two prior boundary ranges to prior native files;all source/package data unchanged.",
     "Use pinned batch32 assembly_dispatch for all7 completed March private formats in issueJSON/assets exports. Native stageflags/notes historical;complete feature active scopehasno deferredbodypages orassemblypending.",
-    "29 canonical entries remain unresolved. Feature0001 complete across115–123;0002 IOCS fullsourceextent/firstnative next. Parent0003,cover,remainingentries,all244-page accounting andissuecloseout pending.",
-    "Complete feature retains442 exactnativefiles/fullmetadata;50 supplementalarray slices/11object projections reverseexactly. All66 candidates/sixmarkers,sourcecode/matrix/hex/table fields and openingnullfolio unchanged. No decoding/checksum/math/program/statistical repair."
+    "Complete feature retains442 exactnativefiles/fullmetadata;50 supplementalarray slices/11object projections reverseexactly. All66 candidates/sixmarkers,sourcecode/matrix/hex/table fields and openingnullfolio unchanged. No decoding/checksum/math/program/statistical repair.",
+    "28 canonical entries remain unresolved. Canonical0002IOCS first125–130 native partial;remaining131–139 andcompleteassembly pending. Full15-pageactualextent verified;125nullfolio preserved.",
+    "IOCS sourceROM/RAMphrasing,GMODEpage4text0FFFH,FCB13A8/ASH,SMODEmissingclosingparenthesis,POKE&H D2 1,ADRESS,key/identifier/hexwraps,sourcegrammar andfigure7(3)references retained. Ten dot/dashbands unknowncounts. Originalarrows/rules/mergedcells andallpixels retained;no decoding/repair/execution.",
+    "Parent0003,cover,remainingentries,all244-source-pageaccounting andissuecloseout pending. Seven completedprivateformats unchanged."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
