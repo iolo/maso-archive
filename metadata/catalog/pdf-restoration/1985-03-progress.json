@@ -26,21 +26,21 @@
       "parent_id": null,
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "classification_evidence": [
-        "Actual feature opening115 has series title,editorial credit,photo and intro;116/visible114 confirms subtitle 꿈의 실현! MAT! and body association. Opening folio is null,not inferred113.",
-        "All continuous pages115–123 inspected. Final123/visible121 finishes monitor dump and application BASIC350END with terminal mark;124 independent book advertisements,125 new special feature opening and126/visible124 confirms IOCS title/author.",
-        "Current first native115–120 preserves photo/intro,matrix introduction/storage/usage,examples1–15 and all printed results/labels/captions. Final121–123 and complete assembly pending. No program/math/output/encoding repair.",
-        "Final121–123/visible119–121 restored as117-file immutable native. All nine actualbodypages now have442 nativefiles;complete assembly pending. PNT examples16/17,all result/table/formula fields,223 monitor rows/1784 opaque bytefields,52 BASIC labels/28 physical wraps,actualcaptions,350END andterminal retained. One faded checksum and four unknown-count bands explicit. Source list3 reference retained without invented result panel. Prior325 openingfiles unchanged;first115folio null."
+        "Complete canonical0001 feature assembled from two immutable natives covering actualPDF115–123/observednull,114–121. All442 native files/fullmetadata exact;no bodypages orassembly pending.",
+        "Actual115 series opening/photo/intro/editorialcredit links to116 subtitle/body. First folio null remains;final123 ends application BASIC350END and terminalmark before124 independent bookadvertisements.",
+        "Every supplemental array/object projection reverses exactly. All17example program/output links,147 BASIC labels/physicalwraps,407 matrix/result numericfields plus20 salescells/fourheaders,223 dump rows/1784 opaque bytefields/223 checksums,actualcaptions/formulas/sourcecandidates retained.",
+        "120→121 NEINV-to-PNT section association verified with complete sentence;no splitword orencodedjoin. All66 sourcecandidates/sixmarkers remain. Five unknown-count bands andone faded8F78checksum explicit;no program/math/checksum/opcode/statistical/encoding repair."
       ],
       "restoration": {
-        "directory": "archive/pdf/1985-03/packages/batch-30-r01/dream-mat-a",
+        "directory": "archive/pdf/1985-03/packages/batch-32-r01/dream-mat-complete",
         "article_id": "scan-maso-1985-03-toc-0001",
         "manifest": {
-          "path": "archive/pdf/1985-03/packages/batch-30-r01/dream-mat-a/manifest.json",
-          "sha256": "45128ab6617cd200d211525728efea8a3f8c648f5f2b9df00498f32b3ab71520",
-          "bytes": 55095
+          "path": "archive/pdf/1985-03/packages/batch-32-r01/dream-mat-complete/manifest.json",
+          "sha256": "e8bce7f07f23154dbf891a469539a1d283365a3fba8f929ef7a310533abae457",
+          "bytes": 81040
         },
         "coverage": {
           "pdf_pages": [
@@ -49,7 +49,10 @@
             117,
             118,
             119,
-            120
+            120,
+            121,
+            122,
+            123
           ],
           "printed_pages": [
             null,
@@ -57,16 +60,15 @@
             "115",
             "116",
             "117",
-            "118"
+            "118",
+            "119",
+            "120",
+            "121"
           ],
-          "regions": 103,
-          "blocks": 71,
-          "figures": 32,
-          "deferred_pdf_pages": [
-            121,
-            122,
-            123
-          ]
+          "regions": 139,
+          "blocks": 95,
+          "figures": 44,
+          "deferred_pdf_pages": []
         },
         "segments": [
           {
@@ -126,26 +128,40 @@
             }
           }
         ],
-        "assembly_required": true,
-        "complete_article_assembly_pending": true,
-        "next_section_boundary": {
-          "corrections": {
-            "path": "archive/pdf/1985-03/packages/batch-30-r01/dream-mat-a/corrections.json",
-            "sha256": "0f320a523832499f15e19a06efc1812207df154639693c28cce9ad66e64e04de",
-            "bytes": 2991164
-          },
-          "field": "next_section_boundary"
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "assembly_recipe": {
+          "path": "archive/pdf/1985-03/restoration/batch-32/assembly-recipe.json",
+          "sha256": "d97ce9de6dd897527ffc59fd3531e7372e8ab1a26de816108d2e7bd6a3585d6e",
+          "bytes": 4115
+        },
+        "private_adapter": {
+          "path": "archive/pdf/1985-03/restoration/batch-32/dream_mat_literal.py",
+          "sha256": "a98a8cf032cdba886c0c9a40de23f911f593da97e2e8fc319ec9506402cd554f",
+          "bytes": 8217
+        },
+        "assembly_dispatcher": {
+          "path": "archive/pdf/1985-03/restoration/batch-32/assembly_dispatch.py",
+          "sha256": "941f0001f0f637dd135a31d68733a7b8d91a44b69878c555c55e770923eb45f1",
+          "bytes": 1898
         },
         "validation": {
-          "path": "archive/pdf/1985-03/restoration/batch-30/validation.json",
-          "sha256": "80420f8233c392101f6aadc6b23a9f5e0ee8d144f5a8a350072af893d6aac246",
-          "bytes": 1885
+          "path": "archive/pdf/1985-03/restoration/batch-32/validation.json",
+          "sha256": "c46314fdbaceba98ccab25e5c4f97c7c8b90f918ce805111caa9d6731493abec",
+          "bytes": 2597
         },
         "reproduction": {
-          "path": "archive/pdf/1985-03/restoration/batch-30/reproduction.json",
-          "sha256": "bdec386ab93143b7b65eb46b0c8d7246fa35fd39b8344499ebfd51ef7061f7b9",
-          "bytes": 1426
+          "path": "archive/pdf/1985-03/restoration/batch-32/reproduction.json",
+          "sha256": "8485edf693eafeb44d8284bf67a4224917166bdd0ae70d2e99474066a6b93648",
+          "bytes": 2626
         },
+        "incoming_boundaries": [
+          {
+            "path": "archive/pdf/1985-03/restoration/batch-31/incoming-boundary.json",
+            "sha256": "4e4c3798b5123cec7a0d74ab58fabb5b7f65fb7a411666a48cd10557baac19a2",
+            "bytes": 3107
+          }
+        ],
         "source_review": {
           "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
           "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
@@ -179,40 +195,40 @@
             "120",
             "121"
           ],
-          "all_eligible_body_pages_restored": true,
-          "deferred_pdf_pages": [],
-          "assembly_pending": true,
           "regions": 139,
           "blocks": 95,
           "figures": 44,
-          "native_files": 442,
-          "coverage_note": "Primarydirectory/coverage remains immutable first native. All nine actualbodypages now have natives;complete assembly pending."
+          "deferred_pdf_pages": [],
+          "all_eligible_body_pages_restored": true,
+          "assembly_pending": false,
+          "native_files_retained": 442
         },
-        "incoming_boundaries": [
-          {
-            "path": "archive/pdf/1985-03/restoration/batch-31/incoming-boundary.json",
-            "sha256": "4e4c3798b5123cec7a0d74ab58fabb5b7f65fb7a411666a48cd10557baac19a2",
-            "bytes": 3107
-          }
-        ],
-        "final_native_validation": {
-          "path": "archive/pdf/1985-03/restoration/batch-31/validation.json",
-          "sha256": "881c3e3e4c85cc45c62415976461144d85e43a8f32f7cb10116b39cbcd850774",
-          "bytes": 2021
+        "native_stage_history": {
+          "path": "archive/pdf/1985-03/restoration/batch-32/previous-ledger.json",
+          "sha256": "ba06a8cdb8d287acc4739b7747650d53ab3c2fb18b68e559babcd0488b2a55e2",
+          "bytes": 184914
         },
-        "latest_native_ending": {
+        "complete_source_ending": {
           "corrections": {
-            "path": "archive/pdf/1985-03/packages/batch-31-r01/dream-mat-b/corrections.json",
-            "sha256": "50733f8a633caf28da6e40a094c8a8a33bed309a21848d5d69d2f2f7b34821a2",
-            "bytes": 5424932
+            "path": "archive/pdf/1985-03/packages/batch-32-r01/dream-mat-complete/corrections.json",
+            "sha256": "eb2b06e6085f26df23bd269e7e98c4f3ee0bdb4bcae9408e0c72b9098947ce62",
+            "bytes": 21773991
           },
-          "field": "article_ending"
+          "field": "complete_source_ending"
+        },
+        "cross_segment_connections": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-32-r01/dream-mat-complete/corrections.json",
+            "sha256": "eb2b06e6085f26df23bd269e7e98c4f3ee0bdb4bcae9408e0c72b9098947ce62",
+            "bytes": 21773991
+          },
+          "field": "cross_segment_connections"
         }
       },
       "classification_history": {
-        "path": "archive/pdf/1985-03/restoration/batch-30/previous-ledger.json",
-        "sha256": "a2def3def32481b68502eba28e241adf68e994e1df3c2c77b954bb67dfe1dff4",
-        "bytes": 168341
+        "path": "archive/pdf/1985-03/restoration/batch-32/previous-ledger.json",
+        "sha256": "ba06a8cdb8d287acc4739b7747650d53ab3c2fb18b68e559babcd0488b2a55e2",
+        "bytes": 184914
       }
     },
     {
@@ -2355,8 +2371,8 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 15,
-    "partial": 1,
+    "readable": 16,
+    "partial": 0,
     "non_owning_headings": 3,
     "unresolved_eligibility": 29
   },
@@ -3771,6 +3787,40 @@
       "article_availability": "partial",
       "deferred_body_pdf_pages": [],
       "assembly_required": true
+    },
+    {
+      "id": "batch-32",
+      "status": "complete",
+      "stage": "validated-complete-assembly",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0001"
+      ],
+      "mapped_pdf_pages": [],
+      "outside_map_lookup_pages": [],
+      "canonical_tasks": 1,
+      "ocr_tasks": 0,
+      "source_correction_passes": 0,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-32/validation.json",
+        "sha256": "c46314fdbaceba98ccab25e5c4f97c7c8b90f918ce805111caa9d6731493abec",
+        "bytes": 2597
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-32/verification-completed.json",
+        "sha256": "3a991f7a7aa3afbe54e7123700d3c81df04690c1274f59e5c24f574dcef45e2c",
+        "bytes": 1467
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-32-preserved-work.json",
+        "sha256": "162f21bd46280f993fb2265faf49a37d27812c628a4c293208dfdcc0f459fc22",
+        "bytes": 6424004
+      },
+      "started_at": "2026-10-22T20:02:40.873570+00:00",
+      "finished_at": "2026-10-22T20:07:06.571844+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -4830,7 +4880,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": null,
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
         "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
@@ -4845,7 +4895,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": "114",
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
         "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
@@ -4859,7 +4909,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": "115",
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
         "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
@@ -4873,7 +4923,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": "116",
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
         "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
@@ -4887,7 +4937,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": "117",
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
         "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
@@ -4901,7 +4951,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": "118",
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-30/source-reviewed.json",
         "sha256": "33d3a43e6668540160722ebaef04765f96357e0fe3aaf4eee1c6d93c0b2fd85a",
@@ -4915,7 +4965,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": "119",
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-31/source-reviewed.json",
         "sha256": "da502fa687336eadcf292f39e8958a505d5c8d2c5eabe5ea21c9345feeec3bf8",
@@ -4929,7 +4979,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": "120",
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-31/source-reviewed.json",
         "sha256": "da502fa687336eadcf292f39e8958a505d5c8d2c5eabe5ea21c9345feeec3bf8",
@@ -4943,7 +4993,7 @@
         "maso-1985-03-toc-0001"
       ],
       "printed_page": "121",
-      "restoration": "checked-native;complete-assembly-pending",
+      "restoration": "checked-complete-assembled-article",
       "source_review": {
         "path": "archive/pdf/1985-03/restoration/batch-31/source-reviewed.json",
         "sha256": "da502fa687336eadcf292f39e8958a505d5c8d2c5eabe5ea21c9345feeec3bf8",
@@ -4993,13 +5043,34 @@
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-32",
-    "goal": "Assemble complete canonical0001 특집 I 꿈의 실현! MAT! from two immutable natives across actualPDF115–123/observed null,114–121;no new mapping or OCR.",
+    "id": "batch-33",
+    "goal": "Verify actual full extent of canonical0002 SPC-1000 IOCS feature from observedPDF125 opening and126 body;then restore first bounded segment.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0001"
+      "maso-1985-03-toc-0002"
     ],
-    "mapping_targets": "Zero mapped pages/outside lookups/OCR/sourcecorrection. Preserve all325 opening and117 final nativefiles/fullmetadata. Use distinct dream-mat-literal-v1 format,not existing CP/M mat-literal-v1. Project every array/object losslessly,including matrix/scalar/sales tables/unknownbands,all17example links,circled labels,BASIC physical/logical rows/quoted literals and wraps,223 dump rows/1784 bytefields/opaquechecksums,address/length mismatches,actual captions,openingphoto/credit/nullfolio andfinal350END/terminal. Preserve incoming120→121 section association without encoded join. Fullbodyhasnatives;completeavailability followsverified assembly/rebuild. Parent0003,cover,remainingentries,244-pageaccounting and fullissuecloseout pending. No reader rebuild.",
-    "provisional_lookup_targets": [],
+    "mapping_targets": "Source125 specialfeatureII opening has no observedfolio;126/visible124 confirms IOCS memory-map/body title and 황건순 credit. Verify title/body association,all continuouspages,actualending andadjacent next body before mapping/OCR. CanonicalTOC123 and later TOC138/141 are lookup cues,not globaloffsets. Initialbounded wholeviews124–143(20 total);reuse saved124–126,render further onlywithin20 outside-map lookups. If ending notverified within cap,save extent-review stage andcontinueverification separately,do not map an assumed extent. Once full extent proven,map atmost firstsix eligiblepages. Preserve opening125nullfolio,allprose/diagrams/labels/flow/memorytables/code/actualcaptions and opaque addresses. No opcode/hardware/semanticrepair. Parent0003,cover,remainingcanonicalentries,all244-pageaccounting andissuecloseout pending. No reader rebuild.",
+    "provisional_lookup_targets": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+    ],
     "limits": {
       "articles": 2,
       "mapped_pages": 6,
@@ -5038,20 +5109,21 @@
     "Numericpartial retains source mattissa,24/23and8/7diagramdifferences,78251716/78251726,1 2stoppingcondition,figure5/7methodheaderconflicts,sourcerepeatedconditions/가,diagramlabel/subscriptcandidates,44formula rows,90numericresultcells and36unknown-countbands. No formula,algorithm,numeric,glyphgeometry,encoding orsyntaxrepair.",
     "Batch25 lexicalindexrevision fixes quote-adjacenteditorial-marker filtering only;allregionalreadings/maps/crops/raws/blocks/downloads unchanged. Failedverifier,initial/selected270-fileexports andindependentrebuilds remainpreserved.",
     "Finalnumericnative preservesTaylor r+ds/d_n/2b glyphcandidates,coefficientrepetitions/subscripts/r-on-xsrow,Bairstwo’s/PRINT UNING,all21BIS/FPoutputrows/84cells,fourroots,andbothfootnotes;none recomputed,repairedorexecuted. Incominggr/림11 associationkeepspriorstagedcomma outofactualtext.",
-    "Usepinnedbatch27assembly_dispatch forall6completedMarchprivateformats inissueJSON/assets exports. Native-stageflags/noteshistorical;complete numericactive scopehasnodeferredbodypagesorassemblypending.",
     "Completenumeric retains407exactnativefiles/fullmetadata;54supplementalarrayslices/eightobjectprojections reverseexactly. All71candidates/61unknownbands,formula/coefficient/numeric/codefields andsourcefigure5/7methodconflictsremainliteral. Incoming111그/112림11 association hasnoencodedjoin orstagedcommainsertion.",
     "All14readablepackages andsixprivateformatschecked;parentclassificationchangesnochildbytes,canonicalidentities,titles,parentsororder. Coverselection,remainingcanonicalentries,all244sourcepageaccountingandissuecloseoutpending.",
     "Sourcepublisher/contact/address/payment/10-dayreturnclaims andoldspellingarehistoricalunverifiedliterals. Noauthor/captionorcurrent-contactidentityinferred. Parent0003,coverselection,remainingentries,all244sourcepageaccountingandissuecloseoutpending.",
     "Feature0001 retains original photo/intro,363 matrix/result cells,95 BASIC labels,30 program/output source ordinal occurrences,source XZ/COS/output discrepancy,IDN ordering,example8 missing second ampersand/scratch,determinart and PNT(0). No recomputation/execution/encoding repair.",
     "Parent0003,cover,remaining entries,all244-source-page accounting and issue closeout pending. Existing six completed private formats unchanged.",
-    "29 canonical entries remain unresolved. Feature0001 all nine pages115–123 now have442 nativefiles; completeassembly pending,availability partial. Opening115folio null preserved. Parent0003,cover,all244-page accounting and issuecloseout pending.",
     "Final feature native retains source X10×3/list3/V⁻²/formula colon candidates,22.6/1.56 claims,B scalar/array note,three asterisk bands/formula ellipsis,223 literal dump rows and8F78 unreadablechecksum. Final8FF0 eight printed fields not truncated from prose8FF2/7F3. No checksum/opcode/statistical/program repair or execution.",
-    "Batch31 pre-OCR crop repair widens final BASIC column to retain complete PRINT340;initial map/crops remain. Verifier revision scopes two prior boundary ranges to prior native files;all source/package data unchanged."
+    "Batch31 pre-OCR crop repair widens final BASIC column to retain complete PRINT340;initial map/crops remain. Verifier revision scopes two prior boundary ranges to prior native files;all source/package data unchanged.",
+    "Use pinned batch32 assembly_dispatch for all7 completed March private formats in issueJSON/assets exports. Native stageflags/notes historical;complete feature active scopehasno deferredbodypages orassemblypending.",
+    "29 canonical entries remain unresolved. Feature0001 complete across115–123;0002 IOCS fullsourceextent/firstnative next. Parent0003,cover,remainingentries,all244-page accounting andissuecloseout pending.",
+    "Complete feature retains442 exactnativefiles/fullmetadata;50 supplementalarray slices/11object projections reverseexactly. All66 candidates/sixmarkers,sourcecode/matrix/hex/table fields and openingnullfolio unchanged. No decoding/checksum/math/program/statistical repair."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {
-    "path": "archive/pdf/1985-03/restoration/batch-27/assembly_dispatch.py",
-    "sha256": "f28fb5d791929bccf1f64129b9b156659f8441b0cddd1e2e41159afe29aef1bc",
-    "bytes": 1785
+    "path": "archive/pdf/1985-03/restoration/batch-32/assembly_dispatch.py",
+    "sha256": "941f0001f0f637dd135a31d68733a7b8d91a44b69878c555c55e770923eb45f1",
+    "bytes": 1898
   }
 }

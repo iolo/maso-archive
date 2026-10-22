@@ -6,45 +6,46 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 15 of48 entries are readable and assistant
-sample-reviewed, one article is partial, three headings are non-owning and
+March 1985 remains in progress: 16 of48 entries are readable and assistant
+sample-reviewed, no articles are partial, three headings are non-owning and
 29 entries remain unresolved. Canonical0001, 특집 I : 베이직과 기계어의 만남(3) :
-꿈의 실현! MAT!, now has immutable natives for all nine actual body pages115–123.
-Its opening folio remains null; following pages show114–121. Complete assembly
-is pending, so the article remains partial.
+꿈의 실현! MAT!, is complete across actual PDF115–123. Its opening folio remains
+null; following pages show114–121. No feature body pages or assembly are pending.
 
-The final121–123 native matches its independent rebuild across117 files. Together
-with325 unchanged opening files, the two natives retain139 regions,95 text blocks
-and44 original images. Final-page indexes preserve PNT examples16/17,44 numeric
-output fields, the sales table's20 cells/four headers,223 monitor-dump rows with
-1,784 opaque byte fields,223 addresses/checksums,52 BASIC labels and28 physical
-wraps. Actual captions, application prose/formulas,350 END and terminal mark remain.
+All451 assembled files match the independent rebuild, including442 exact retained
+native files and their full metadata. The complete article retains139 regions,
+95 text blocks and44 original images: opening photo/intro/editorial credit, matrix
+operations, storage/usage, all17 examples/results, sales data, monitor dump,
+application BASIC, actual captions/formulas and final350 END/terminal mark.
+PDF124 remains a separate book advertisement; the next feature opens on125.
 
-One faded checksum at8F78 is explicitly unreadable. Three asterisk bands and one
-formula ellipsis have unknown glyph counts. Source X10×3, list3 reference, V⁻²,
-formula colon and22.6/1.56 claims remain literal candidates. All eight final8FF0
-fields are retained despite earlier prose endpoint8FF2/length7F3. No checksum,
-opcode, matrix, statistical, spelling or program repair or execution.
+All50 supplemental array slices and11 object projections reverse exactly to their
+natives. All21,037 active UTF-8 range occurrences,38,887 evidence pins and139 image
+decodes verify. Indexes preserve147 BASIC labels,418 physical code rows,407 numeric
+matrix/result cells plus20 sales cells/four headers,223 dump rows with1,784 opaque
+byte fields/223 checksums,17 example links,23 caption links and48 circled labels.
+Sixty-six source candidates andsix markers remain explicit. The120→121 section
+association requires no word join; native text and listing fragments stay exact.
 
-All10,653 current/boundary UTF-8 range occurrences,10,978 evidence pins and36
-image crops verify; two prior boundary ranges verify against their own native.
-Five reused whole views, three mapped pages, two outside lookups and one canonical
-task meet the limits. All36 selected crops were viewed before24 pinned tasks
-(11 eng code;13 kor+eng); all drafts were read before one direct source pass.
-One pre-OCR crop repair preserves the complete PRINT340; initial crops remain.
-No OCR failure, retry or engine change. A retained verifier revision corrects
-prior-boundary file scope without changing source or package data.
+Five unknown-count bands andone unreadable8F78 checksum retain original pixels.
+Source output/code discrepancies, spelling, PNT(0), X10×3, list3 reference,
+formula/V⁻² candidates and22.6/1.56 claims remain literal. Final8FF0 keeps all eight
+printed fields despite earlier prose8FF2/7F3. No decoding, checksum, program,
+matrix, statistical or encoding repair. Native stage flags remain historical;
+the assembled active scope has no deferred pages or assembly pending.
 
-All27,305 prior files,30 inventories,15 prior readable packages,325 opening files
-and30 core pins pass. The unchanged213-test environment baseline is reused.
-Preservation inventory contains27,841 files. Existing six private formats
-still check through pinned batch27 assembly_dispatch.py. No reader rebuild.
+This assembly checkpoint used zero mapped pages, outside lookups, OCR tasks or
+source-correction passes. All27,841 prior files,31 inventories,15 earlier readable
+packages and30 core pins pass; the unchanged213-test baseline is reused.
+Preservation inventory contains28,767 files. Use pinned batch32
+assembly_dispatch.py for allseven private formats. No reader rebuild.
 
-Next: assemble the two immutable feature natives, preserving every metadata array
-and object, literal field, source uncertainty and the null opening folio. No new
-mapping or OCR is needed. Parent0003, cover selection, remaining entries,
-all244-page accounting and issue closeout remain pending. Human acceptance,
-full proofreading, original encoded bytes and historical claims remain unverified.
+Next: verify canonical0002 SPC-1000 IOCS's full actual extent from the saved125
+opening and126 body, including its ending and adjacent material, then restore
+the first bounded segment. Opening125 folio stays null; TOC123 is a lookup cue.
+Parent0003, cover selection, remaining entries, all244-page accounting and issue
+closeout remain pending. Human acceptance, full proofreading, original encoded
+bytes, historical claims and execution remain unverified.
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
