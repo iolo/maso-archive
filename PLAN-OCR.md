@@ -19,23 +19,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:19 readable/sample-reviewed,one partial article,three non-owning
-  headings and25 unresolved. Classifieds0011 all eight pages234–241/observed
-  232–239 now have56 immutable native files/16 regions/eight headings/eight
-  complete originals. Final240–241 at packages/batch-40-r01/classifieds-b:14
-  files match rebuild;four fragments/two physical option-contact associations/
-  running title/contact/terminal retained. Three categories/18 total fragments/
-  six within-native associations;body prose volunteer transcription pending.
-  Incoming239→240 is category-only,new bullet;no same-item/contact association
-  or encoded join. Four reused views/two mapped/two outside/one task;three crops
-  viewed before one kor+eng task;draft read before one pass. No repair/failure/
-  retry/engine change. Five ranges/34 pins/three image pixels pass;all32,616
-  prior files/39 inventories/19 packages/42 opening files/30 core pins/eight
-  formats pass;unchanged fresh213-test batch36 baseline reused. Inventory32,710
-  files. Use pinned batch36 dispatcher. Next:complete classifieds assembly,
-  every array/object and56 native files retained;no mapping/OCR. Parent0003,
-  cover,remaining entries,244-page accounting andcloseout pending. Follow
-  [March log](docs/progress/8503.md) and
+- March1985:20 readable/sample-reviewed,no partial articles,three non-owning
+  headings and25 unresolved. Classifieds0011 complete234–241/observed232–239
+  at packages/batch-41-r01/classifieds-complete:64 files match rebuild,including
+  56 exact natives/full metadata.24 category slices/ten object projections reverse
+  exactly.16 regions/eight heading blocks/eight complete originals retain photo,
+  three categories/18 body fragments/17 flow links/six physical associations and
+  final241contact/terminal.239→240 is category/new-bullet only,no contact join.
+  Six source candidates/oldspellings remain;body prose volunteer transcription
+  pending. Six stage notes resolve only active scope;all durable source limits/
+  native flags/files retained.50 ranges/352 pins/16 images pass;all32,710 prior
+  files/40 inventories/19 prior packages/30 core pins pass;unchanged fresh213-test
+  batch36 baseline reused. Inventory32,869 files. Zero mapping/lookups/OCR/source
+  passes;one task. Use pinned batch41 dispatcher for nine formats. Failed verifier
+  listing/map-scope assumptions andrecorder parse attempt retained;fresh revisions
+  fix bookkeeping only. Stale dispatcher note removed withboth snapshots retained.
+  Next:parent0003 정보모음 ownership/organization review,all eight children now
+  complete,printed contents andbounded saved source boundaries. Parent remains
+  unresolved pending proof. Cover,remaining entries,244-page accounting/closeout
+  pending. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

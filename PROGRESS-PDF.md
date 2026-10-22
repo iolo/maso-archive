@@ -6,45 +6,50 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 remains in progress: 19 of 48 entries are readable and assistant
-sample-reviewed, one article is partial, three headings are non-owning, and
-25 entries remain unresolved. Canonical0011, 복덕방, now has immutable natives
-for all eight body pages, PDF234–241/observed232–239. Complete article assembly
-is pending, so availability remains partial. No body pages remain deferred.
+March 1985 remains in progress: 20 of 48 entries are readable and assistant
+sample-reviewed, no articles are partial, three headings are non-owning, and
+25 entries remain unresolved. Canonical0011, 복덕방, is complete across actual
+PDF234–241, observed folios232–239. No classified body pages or assembly remain
+pending. Body prose transcription awaits volunteers under the accepted original-
+image classifieds policy.
 
-Final240–241 at packages/batch-40-r01/classifieds-b matches its independent rebuild
-across14 files. Together with42 opening files, the natives preserve56 files,
-16 regions,eight searchable heading blocks andeight complete original pages.
-Three categories cover18 ordered body-image fragments andsix within-native
-physical offer/contact/option associations. All original photo,offers,prices,
-contacts,headers,footers andfinal241 terminal remain. Body prose transcription
-is pending volunteers under the accepted original-image classifieds policy.
+The complete package at packages/batch-41-r01/classifieds-complete matches its
+independent rebuild across64 files, including56 exact retained native files and
+their full metadata. Sixteen regions,eight searchable heading blocks andeight
+complete original pages preserve the opening photo/monitor title,all offers,
+prices,contacts,headers,footers andfinal241contact/terminal before separate242
+promotion/adindex with null observed folio. No byline or captions are invented.
 
-The final native retains four body fragments,two option/contact continuations
-andthe actual 복덕방 running title. The source exchange heading belongs opening
-236 andis not invented again. Incoming239right offers→240new bullet is category
-continuation only;no same-item/contact association or encoded join is inferred.
-Final241 contact/terminal precedes242 promotion/adindex with no observed folio.
-Source oldspellings물려드리겠읍니다/바꾸고 싶읍니다 andmonitor-title spacing stay
-literal;preliminary modernized descriptions remain historical evidence.
+All24 supplemental category slices andten object projections reverse exactly.
+Three complete categories preserve18 body-image fragments,17 ordered flow links
+andsix within-native physical option/contact associations. Incoming239→240 is
+same-category/new-bullet only;no same-item/contact association or encoded join
+is inferred. Actual headings retain 복 덕 방,필요로 합니다,물려드리겠읍니다 and
+바꾸고 싶읍니다 plusfour running labels. Six source candidates andall original
+pixels remain;preliminary modernized descriptions stay historical evidence.
 
-Four reused whole views,two mapped pages,two outside lookups andone task meet
-the limits. All three exact crops were viewed before one pinned kor+eng task;
-the draft was read before one source pass. No crop repair,OCR failure,retry or
-engine change. All five exact UTF-8 ranges,34 evidence pins andthree image
-comparisons pass. All32,616 prior files,39 inventories,19 readable packages,
-42 immutable opening files and30 core pins pass. Unchanged fresh213-test
-batch36 environment baseline is reused. Preservation inventory contains32,710
-files. Use pinned batch36 dispatcher for all eight completed private formats.
+Six exact native-stage deferral notes resolve only in active complete scope.
+Durable photo/title-spacing,no invented byline/caption/identity,source oldspelling,
+no239→240contact association andvolunteer/human/source-byte limits remain
+explicit. All native notes/flags/files stay exact. All50 active UTF-8 ranges,
+352 evidence pins and16 image decodes pass. All32,710 prior files,40 inventories,
+19 earlier readable packages and30 core pins pass. Unchanged fresh213-test
+batch36 baseline is reused. Preservation inventory contains32,869 files.
 
-Next: assemble both immutable classified natives with every array/object and
-all56 native files retained. Derive complete three-category/18-fragment order,
-six physical associations andthe category-only native boundary;verify every
-projection andan independent rebuild before recording readable availability.
-No new mapping or OCR is needed. Parent0003,cover selection,remaining entries,
-all244-page accounting andissue closeout remain pending. Human acceptance,full
-proofreading,source bytes/spacing andhistorical/current claims remain unverified.
-No reader rebuild.
+This assembly used zero mapping,outside lookups,OCR or source-correction passes.
+Use pinned batch41 assembly_dispatch.py for all nine private formats. Initial
+verifier code-listing/map-scope assumptions andrecorder parse failure remain
+preserved;fresh revisions fix bookkeeping only. Selected source/package/adapter
+data are unchanged. A stale batch36 routing note was removed from active limits,
+with both ledger snapshots retained. No reader rebuild.
+
+Next: review parent0003 정보모음's ownership using printed contents andbounded
+saved child/source boundaries. All eight children0004–0011 are now complete;
+the parent remains unresolved until its organization/body status is verified.
+Canonical IDs/titles/order/parents andchild packages remain fixed. Cover
+selection,remaining entries,all244-page accounting andissue closeout remain
+pending. Human acceptance,full proofreading,original encoded bytes/spacing,
+item counts andhistorical/current identities/claims remain unverified.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
