@@ -24,22 +24,22 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-Ten of 48 entries are readable and assistant sample-reviewed; two headings are
-non-owning, no articles are partial and 36 entries remain unresolved.
-프린터 활용방법 is complete across printed 50–60 / PDF 52–62. Its 741-file
-assembly matches the independent rebuild and preserves all 732 native files
-exactly. All 8,111 active UTF-8 ranges and 17,338 evidence pins validate. The
-package retains 210 regions, 168 blocks, 42 originals, 201 physical code rows,
-181 BASIC label occurrences, 48 caption links and 24 program/output associations.
-The output12→13 continuation and prior caption are resolved; repeated line10,
-blank result, reversed captions, 67 unknown bands and all source candidates remain.
-LowerPDF61 notices stay excluded. No printer body pages or assembly are pending.
-All 8,809 prior files and 30 core pins remain exact; the unchanged pipeline reuses
-its fresh 213-test baseline. A pinned private dispatcher checks both March
-assembly formats for future JSON/assets issue exports. No reader rebuild.
-Next: verify CP/M에서 사용 가능한 MAT 명령어 패키지 from printed62/PDF64,
-then restore a bounded first segment. Reuse PDF63–65 and inspect each following
-page and the actual end before mapping at most six pages. Keep the normal two-task,
+Ten of 48 entries are readable and assistant sample-reviewed; one article is
+partial, two headings are non-owning and 35 entries remain unresolved.
+MAT0026 is verified across printed62–76/PDF64–78. The first native covers
+printed62–67/PDF64–69: all 288 selected files match the independent rebuild.
+Its 5,034 exact UTF-8 ranges and 5,263 evidence pins pass. The 84 regions,
+65 blocks and 19 originals retain 74 matrix values, 21 opaque memory-dump rows/
+164 hex fields, two tables/20 rows, three captions and 24 BASIC label occurrences.
+Physical wraps, source errors, 23 localized candidates and 30 unknown bands remain.
+All 10,315 prior files and 30 core pins are unchanged. Fresh PDF tests pass 213/213.
+
+Printer remains complete across printed50–60/PDF52–62. The pinned batch13
+private dispatcher checks both completed March assembly formats. No reader rebuild.
+Next: restore MAT's middle printed68–73/PDF70–75, reusing the retained views and
+checking the incoming multi-drive paragraph. FinalPDF76–78 and separate complete
+assembly follow. PDF78 ends in the upper portion above an independent advertisement;
+PDF79 is advertising and PDF80 opens CP/M의 진수. Keep the normal two-task,
 six-page and twenty-lookup limits. Parent0024 has five children and remains
 unresolved. Cover selection, source accounting and issue closeout remain pending.
 Details: [March log](docs/progress/8503.md) and

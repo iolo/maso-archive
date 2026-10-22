@@ -20,21 +20,24 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March 1985 is in progress: ten of 48 entries are readable/sample-reviewed,
-  two headings are non-owning, no articles are partial and 36 remain unresolved.
-  Printer is complete at printed50–60/PDF52–62. All 741 assembly files match the
-  independent rebuild, including 732 exact native files. All 8,111 active ranges
-  and 17,338 pins pass. The prior output/caption association is resolved; repeated
-  line10, blank result, reversed captions, 67 unknown bands and mixedPDF61
-  exclusions remain source-linked. All 8,809 prior files and 30 core pins remain
-  exact; the fresh 213-test baseline is unchanged. Use the pinned batch13 private
-  dispatcher for both March assembly formats in issue JSON/assets exports.
-  Next: verify MAT0026 from printed62/PDF64 and restore a bounded first segment.
-  Reuse PDF63–65; inspect every following page and actual end before mapping.
-  Keep two tasks/six mapped pages/twenty outside lookups. Parent0024 remains
-  unresolved with four further children pending. Cover selection, source
-  accounting and issue closeout remain pending. Follow
-  [March's log](docs/progress/8503.md) and
-  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
+  one article is partial, two headings are non-owning and 35 remain unresolved.
+  MAT0026 is verified at printed62–76/PDF64–78. Its first native covers
+  printed62–67/PDF64–69: 288 files match the independent rebuild; all 5,034
+  UTF-8 ranges and 5,263 pins pass. The 84 regions/65 blocks/19 originals retain
+  74 matrix values, 21 memory-dump rows/164 hex fields, two tables/20 rows,
+  three captions, 24 BASIC labels, physical wraps, 23 candidates and 30 markers.
+  All 84 initial exact crops and seven repaired crops were viewed before 65
+  tasks (11 eng/54 kor+eng); every raw was read before one source pass. No OCR
+  failure, retry or engine switch. All 10,315 prior files and 30 core pins pass;
+  fresh PDF tests pass 213/213. Printer remains complete. Use the pinned batch13
+  dispatcher for both completed March assembly formats in issue JSON/assets exports.
+  Next: restore MAT's middle printed68–73/PDF70–75 from saved views, checking
+  the incoming multi-drive paragraph. FinalPDF76–78 and separate assembly remain.
+  PDF78 upper body ends above independent advertising; PDF79 advertising and
+  PDF80 CP/M opening stay separate. Keep two tasks/six mapped pages/twenty
+  outside lookups. Parent0024, cover selection, source accounting and issue
+  closeout remain pending. Follow [March's log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.

@@ -7,18 +7,20 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 is in progress: ten of 48 entries are readable/sample-reviewed,
-with two non-owning headings, no partial articles and 36 unresolved entries.
-Printer is complete across printed50–60/PDF52–62. All 741 assembly files match
-its independent rebuild, including 732 exact native files. All 8,111 active ranges
-and 17,338 evidence pins pass. The output/caption continuation is resolved;
-repeated line10, blank result, reversed captions, 67 unknown bands and lowerPDF61
-exclusions remain explicit. No body pages or printer assembly are pending.
-All 8,809 prior files and 30 core pins remain exact; the fresh 213-test baseline
-is unchanged. The pinned private dispatcher supports both March assembly formats.
-Next: verify MAT0026 from printed62/PDF64 and restore its first bounded segment.
-Parent0024 remains unresolved with its other four children pending. Cover selection,
-source accounting and issue closeout remain pending. See [March's log](docs/progress/8503.md)
-and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+with one partial article, two non-owning headings and 35 unresolved entries.
+MAT0026's full extent is verified at printed62–76/PDF64–78. Its first native,
+printed62–67/PDF64–69, matches the independent rebuild across all 288 files.
+All 5,034 UTF-8 ranges and 5,263 evidence pins pass. The package retains 84 regions,
+65 blocks, 19 originals, 74 matrix values, 21 memory-dump rows/164 hex fields,
+two tables/20 rows, three captions and 24 BASIC labels with physical wraps.
+Source errors, 23 localized candidates and 30 unknown bands remain explicit.
+All 10,315 prior files and 30 core pins remain exact; fresh PDF tests pass 213/213.
+Printer remains complete; use the pinned batch13 dispatcher for both completed
+March assembly formats. Next: MAT's middle printed68–73/PDF70–75, then final
+PDF76–78 and separate assembly. LowerPDF78 advertising remains excluded.
+Parent0024 remains unresolved. Cover selection, source accounting and issue
+closeout remain pending. See [March's log](docs/progress/8503.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56
 entries are accounted for by 48 readable, assistant sample-reviewed articles and
