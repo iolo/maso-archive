@@ -19,24 +19,27 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:16 readable/sample-reviewed, one partial article, three non-owning
-  headings and28 unresolved. IOCS0002 all15 body pages125–139 now have403 immutable
-  native files/127 regions/83 blocks/44 originals; complete assembly pending.
-  Opening125 folio null, following124–137 observed. Final native
-  packages/batch-35-r01/iocs-c:47 files match rebuild. It retains313 ordinals/
-  320 physical rows/seven wrapped object rows/544 opaque hex pairs/five DEFM
-  strings/four trailing-space candidates and0606 RET/0607semicolon/terminal.
-  All32,953 ranges/32,997 pins/17 images pass; four prior boundary ranges and one
-  caption range verify against their own middle native. Five reused views/three
-  mapped pages/two lookups/one task meet limits. All17 crops viewed before seven
-  tasks(six eng/one kor+eng); all drafts read before one pass. Three code crops
-  widened before OCR; originals retained. No OCR failures/retries. All30,422 prior
-  files/34 inventories/16 readable packages/356 earlier natives/30 core pins/seven
-  formats pass; unchanged213-test batch33 baseline reused. Inventory30,674 files.
-  Next: complete IOCS assembly with every array/object and403 files retained.
-  No new mapping/OCR. Use distinct iocs-literal-v1 format. Parent0003, cover,
-  remaining entries,244-page accounting and closeout remain pending. Follow
-  [March log](docs/progress/8503.md) and
+- March1985:17 readable/sample-reviewed, no partial articles, three non-owning
+  headings and28 unresolved. IOCS0002 complete across125–139/observed null,
+  124–137 at packages/batch-36-r02/iocs-complete. All412 files match rebuild,
+  including403 exact native files/full metadata;87 category slices/14 object
+  projections reverse exactly.127 regions/83 blocks/44 originals retain opening
+  title/illustration/intro/credit, outline, diagrams/tables, BASIC/source assembly,
+  actual captions and final0606 RET/0607 semicolon/terminal.608 source ordinals/
+  615 physical assembly rows/1,030 opaque hex pairs/90 blank objects,72 BASIC
+  labels/75 physical rows/52 DATA tokens,69 table cells/nine headers,15 captions,
+  104 analysis references,101 candidates/13 unknown bands retained. Seven wrapped
+  object rows/five DEFM strings/four trailing-space candidates remain independent
+  of printed hex. No decoding, address arithmetic or repair. All88,042 active
+  ranges/138,835 pins/127 images pass; two cross-native connections have no encoded
+  join. Zero mapping/lookups/OCR/source passes; one task. All30,674 prior files/
+  35 inventories/16 earlier packages/30 core pins pass; fresh213 PDF tests pass.
+  Inventory31,527 files. Use pinned batch36 dispatcher for all eight formats.
+  Failed initial note filter/missing-recipe build retained; fresh preparation
+  resolves only nine pending-stage notes, keeps technical note and native bytes.
+  Next:0009 정보 레이다 actual extent/ending/neighbors from initial PDF144–154
+  lookups; TOC145 is only a cue. Parent0003, cover, remaining entries,244-page
+  accounting and closeout pending. Follow [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

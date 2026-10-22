@@ -24,51 +24,51 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 16 of 48 entries are readable and assistant
-sample-reviewed, one article is partial, three headings are non-owning, and
+March 1985 remains in progress: 17 of 48 entries are readable and assistant
+sample-reviewed, no articles are partial, three headings are non-owning, and
 28 entries remain unresolved. Canonical0002, 특집 II : SPC-1000의 IOCS분석,
-now has immutable natives for all15 actual body pages, PDF125–139. Opening125
-folio stays null; subsequent pages show124–137. Complete assembly is pending,
-so article availability remains partial.
+is complete across actual PDF125–139. Opening125 folio stays null; subsequent
+pages show124–137. No IOCS body pages or complete assembly remain pending.
 
-The final native at packages/batch-35-r01/iocs-c matches its independent rebuild
-across47 files. Together with214 opening and142 middle files, the natives retain
-403 files,127 regions,83 text blocks and44 original images. No body pages remain
-deferred. The actual ending has0606 RET,0607/0450semicolon and a terminal mark;
-PDF140 begins a different title and byline.
+All412 assembled files match the independent rebuild, including403 exact retained
+native files and their full metadata. The complete article retains127 regions,
+83 text blocks and44 original images: opening illustration/intro/title/credit,
+installment outline, memory/jump/cassette diagrams, five tables, BASIC examples,
+source assembly, actual captions/analysis and final0606 RET/0607 semicolon/terminal.
+PDF140 begins a different article with its own title and byline.
 
-Final-page indexes retain313 numbered rows0295–0607 and320 physical assembly rows,
-including seven unnumbered object/address continuations.278 object fields contain
-544 opaque hex pairs;42 blank objects remain blank.44 labels,41 comments,
-271 mnemonic candidates and250 operand fields retain separate ranges. Five DEFM
-strings retain four trailing-space candidates, independently of the printed hex.
-The actual strings and wrapped addresses remain literal; no encoding is inferred.
-All32,953 current/boundary ranges,32,997 evidence pins and17 image crops pass.
-Four prior boundary ranges and one prior caption range verify against their own
-middle-native files.
+All87 supplemental category slices and14 object projections reverse exactly.
+All88,042 active UTF-8 range occurrences,138,835 evidence pins and127 image
+decodes verify. Complete indexes retain608 numbered source rows/615 physical
+assembly rows,1,030 opaque hex pairs/90 blank object fields,72 BASIC labels/
+75 physical BASIC rows/52 DATA tokens, five tables/69 cells/nine headers,
+15 caption links,19 outline rows and104 analysis references. Four blank checksum
+slots remain blank. The two cross-native connections preserve physical parts
+without encoded joins; listing6's derived caption covers all12 original panels.
 
-All three natives together retain608 source ordinals/615 physical assembly rows,
-1,030 opaque hex pairs,90 blank object fields,72 BASIC labels/75 physical BASIC
-rows,52 DATA tokens, five tables/69 cells/nine headers,101 source candidates and
-13 unknown-count bands. Original spelling, source contradictions, glyph/spacing
-candidates and every original pixel remain. No opcode, address, syntax, hardware
-or program repair or execution.
+Seven unnumbered object/address continuations and five DEFM strings preserve
+physical wraps and four trailing-space candidates independently of printed hex.
+All101 source candidates and13 unknown-count bands remain. Source contradictions,
+spelling, glyph/spacing candidates and all original pixels stay literal. No opcode,
+address, symbol, encoding, hardware, syntax or program repair or execution.
+Native stage flags stay historical; only nine exact pending-stage notes resolve
+in active complete scope. The technical assembly-description note remains active.
 
-Five reused whole views, three mapped pages, two outside lookups and one canonical
-task meet the limits. All17 selected crops were viewed before seven pinned tasks
-(six eng code;one kor+eng); all drafts were read before one source pass. One crop
-revision widened three code regions before OCR; initial maps/crops remain. No OCR
-failures, retries or engine changes. All30,422 prior files,34 inventories,
-16 readable packages,356 earlier native files and30 core pins pass. The unchanged
-213-test batch33 environment baseline is reused. Preservation inventory contains
-30,674 files. Existing seven private formats use pinned batch32 dispatcher.
-No reader rebuild.
+This checkpoint used no mapping, outside lookups, OCR or source-correction pass.
+All30,674 prior files,35 inventories,16 prior readable packages and30 core pins
+pass. Fresh environment verification passes all213 PDF tests. Preservation
+inventory contains31,527 files. Use pinned batch36 assembly_dispatch.py for all
+eight private formats. Initial preparation's broad note filter failed before
+recipe creation; a missing-recipe build also stopped before output. Both logs
+remain. Fresh preparation selects the nine exact pending notes; maps, readings
+and natives are unchanged. No reader rebuild.
 
-Next: assemble the three immutable IOCS natives with lossless metadata projection,
-then verify the complete package and independent rebuild. No new mapping or OCR
-is needed. Parent0003, cover selection, remaining entries, all244-page accounting
-and issue closeout remain pending. Human acceptance, full proofreading, source
-encoded bytes/spacing and historical claims remain unverified.
+Next: verify canonical0009 정보 레이다's actual full extent, ending and neighbors,
+then restore its eligible body. TOC145 is a lookup cue; initial PDF144–154 whole
+views require source verification before mapping. Parent0003, cover selection,
+remaining entries, all244-page accounting and issue closeout remain pending.
+Human acceptance, full proofreading, original encoded bytes/spacing and historical
+claims remain unverified.
 
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
