@@ -1261,16 +1261,49 @@ paired OCR or a new engine comparison.
   lower errata and unlisted upper-right LOGATOR; the previous observation is preserved.
   Current totals: 45 readable, no partial articles, seven non-owning headings and 4 unresolved.
 
-  Next: verify 복덕방0018 and 광고색인0024 on PDF254–258 as batch60.
-  Reuse the reviewed four-page classifieds and following lower advertiser index; verify
-  both endings/adjacent ownership before mapping at most five pages and two articles.
-  Preserve all category/entry continuations,original masthead labels and advertiser/page
-  reference cells. Exclude the independent upper258 컴퓨터비전 advertisement. Visible
-  folio240 on258 remains independent of canonical TOC256; do not change the catalog.
-  No0018/0024 mapping or OCR has started. 컴퓨돌이0025,parent 정보모음0008,cover
-  selection,remaining page accounting and issue closeout remain pending. Human acceptance,
-  full proofreading,source bytes,spacing,claims/correction efficacy,execution and independent
-  backup recovery remain unverified. No reader rebuild.
+  Batch60 completes 복덕방0018, printed252–255/PDF254–257, and 광고색인0024,
+  the lower panel of PDF258 with visible folio240 and canonical TOC256 unchanged.
+  Selected packages are `archive/pdf/1985-02/packages/batch-60-r01/classifieds` and
+  `archive/pdf/1985-02/packages/batch-60-r01/advertising-index`. All101 classifieds files
+  and25 index files match their independent rebuilds. Classifieds pass4,993 exact UTF-8
+  ranges,5,072 evidence pins and27 image decodes; the index passes508 ranges,550 pins
+  andfive image decodes. No body pages or assembly remain pending.
+
+  Classifieds retain83 bullet items (5 원함,32 바꾸기,46 물려주기),77 contact rows/
+  76 printed contact groups,79 phone fields,69 money expressions and15 location fields.
+  All254 physical rows,nine column/page connections andfour continuing items remain
+  source-linked. Three large photographic labels are transcribed. One apple-logo marker,
+  38 candidates,211 Unicode approximations and742 source-approximation space bands
+  plus one editorial-description space remain explicit. Stylized monitor /// versus III
+  and tiny photographic object-label transcription remain pending volunteers. Final contact
+  민 경 윤 corrects provisional map 민정훈 in active metadata; the OCR-bound map remains
+  unchanged. Printed product spellings,split model names,prices,phone numbers and source
+  claims remain literal; no current offers or contact validity were inferred.
+
+  The index retains24 rows/48 cells in two ordered columns without invented headers,
+  26 printed reference tokens (three cover references),24 leader-dot bands,original tree,
+  rules and240 folio. The independent upper 컴퓨터비전 advertisement is excluded.
+  Eight candidates,two source-space bands,24 editorial pipes and48 separator spaces
+  remain explicit. Printed 고려씨스템산업,벨엘상사 and이행전기 remain source candidates;
+  leader-dot counts and reference targets are unverified. No catalog correction.
+
+  All32 original/three replacement crops preceded26 kor+eng tasks; all drafts preceded
+  one source pass. No OCR failures/retries. Crop repairs recover the monitor label,final
+  오승택 contact row and outgoing 흑백 continuation. Index drafts omitted most rows;
+  all24 were recovered directly from the source without another OCR attempt.
+  All57,456 prior files and30 implementation pins pass; 58,006 files are preserved.
+  The unchanged213-test baseline is reused. Two canonical tasks,five mapped pages andtwo
+  outside lookups stay within the limits; six reused source views andone new259 view.
+  Current totals: 47 readable, no partial articles, seven non-owning headings and 2 unresolved.
+
+  Next: verify both 컴퓨돌이0025 comic occurrences at printed36/63 as batch61.
+  Reuse preserved PDF38/65,check actual panel titles,balloons,signatures,reading order,
+  endings and adjacent ownership before mapping. Preserve original art and uncertain
+  lettering; the separate BEEP/Forth program bodies retain their existing ownership.
+  No0025 mapping or OCR has started. Parent 정보모음0008,cover selection,remaining page
+  accounting and issue closeout remain pending. Human acceptance,full proofreading,
+  source bytes,spacing,historical prices/contacts/product claims,reference targets and
+  independent backup recovery remain unverified. No reader rebuild.
 - December 1984 is complete under the canonical TOC JSON/assets scope: 30 readable,
   assistant sample-reviewed articles and seven non-owning headings account for all 37
   entries, with no partial articles or unresolved eligibility. The standalone index is
