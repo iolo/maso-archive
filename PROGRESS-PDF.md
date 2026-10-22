@@ -6,13 +6,14 @@ by the calendar month in which restoration work happened.
 
 ## Current status
 
-March 1985 is in progress: batch01 restores the editor's note, canonical0004,
-on printed17/PDF19. One of 48 entries is readable and assistant sample-reviewed;
-47 remain unresolved. All 21 package files match the independent rebuild;
-495 exact UTF-8 ranges, 507 evidence pins and all 213 PDF tests pass. The source,
-current canonical queue, pinned runtime and earlier February preservation
-inventory pass verification. Next: verify and restore canonical0005 from
-printed18/PDF20 within the normal batch limits. Cover, source-page accounting
+March 1985 is in progress: the editor's note and input guide, canonical0004/0005,
+cover printed17–20/PDF19–22. Two of 48 entries are readable and assistant
+sample-reviewed; 46 remain unresolved. Batch02's 148 package files match the
+independent rebuild; 1,864 exact UTF-8 ranges and 1,981 evidence pins validate.
+The passing 213-test baseline is reused; all 102 batch01 inventory files remain
+exact. Source, canonical queue, runtime and February preservation checks passed
+at batch01. Next: verify canonical0006, 애독자 광장, from printed21/PDF23.
+Cover, source-page accounting
 and issue closeout remain pending. See [March's log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 

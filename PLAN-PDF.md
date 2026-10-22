@@ -24,13 +24,14 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-Batch01 restores canonical0004, 편집자 노트, on printed17/PDF19. One of 48
-canonical entries is readable and assistant sample-reviewed; 47 remain unresolved.
-All 21 package files match the independent rebuild; 495 exact UTF-8 ranges and
-all 213 PDF tests pass. Source, canonical queue, runtime and the prior February
-preservation inventory are verified. Next: verify canonical0005 from
-printed18/PDF20, including its actual end and adjacent pages, then restore it
-within the normal batch limits. Reuse saved PDF19/20 views. Cover selection,
+The editor's note and input guide, canonical0004/0005, cover printed17–20/PDF19–22.
+Two of 48 entries are readable and assistant sample-reviewed; 46 remain unresolved.
+Batch02's 148-file package matches its independent rebuild; 1,864 exact UTF-8
+ranges and 1,981 evidence pins validate. The passing 213-test baseline is reused;
+all 102 batch01 inventory files remain exact. Source, canonical queue, runtime
+and prior February preservation inventory passed batch01 verification. Next:
+verify canonical0006, 애독자 광장, from printed21/PDF23, including its actual end
+and adjacent pages. Reuse saved PDF22/23 views within normal limits. Cover selection,
 source-page accounting and issue closeout remain pending. Details:
 [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.

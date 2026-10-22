@@ -19,12 +19,12 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress. Batch01 restores canonical0004, 편집자 노트,
-  printed17/PDF19: one of 48 entries is readable/sample-reviewed; 47 remain
-  unresolved. The 21-file package matches its independent rebuild; 495 exact
-  UTF-8 ranges and all 213 PDF tests pass. Next: verify canonical0005,
-  언제나 이 컬럼부터 입력이 힘드십니까?, from printed18/PDF20, including actual
-  end and adjacent pages. Reuse batch01's saved PDF19/20 views. Cover selection,
+- March 1985 is in progress. The editor's note and input guide, canonical0004/0005,
+  cover printed17–20/PDF19–22: two of 48 entries are readable/sample-reviewed;
+  46 remain unresolved. Batch02's 148-file package matches its independent rebuild;
+  1,864 exact UTF-8 ranges validate and the passing 213-test baseline is reused.
+  Next: verify canonical0006, 애독자 광장, from printed21/PDF23, including actual
+  end and adjacent pages. Reuse batch02's saved PDF22/23 views. Cover selection,
   source-page accounting and issue closeout remain pending. Follow
   [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
