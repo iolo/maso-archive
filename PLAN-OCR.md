@@ -19,18 +19,20 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March 1985 is in progress: eight of 48 entries are readable/sample-reviewed,
-  tips is non-owning, communication is partial and38 remain unresolved. Both
-  immutable communication natives now cover printed42–49/PDF44–51. Batch09's
-  final48–49/PDF50–51 package matches its independent rebuild across60 files;
-  1,406 UTF-8 ranges/1,460 pins,48 table fields/nine headers,nine figurelabels,
-  three internal joins andthe incoming100%믿을만 continuation pass. One unknown
-  binary-signal band retains its original image andexplicit placeholder.
-  All4,859 prior files/30 core pins remain exact;fresh environment checks pass
-  all213 PDF tests. Next: complete assembly from immutablecommunication-a/b and
-  classify parent0021 against both restored children. No new mapping/OCR;reuse
-  PDF37–52 within the two-task/twenty-lookup limit. Cover selection,remaining
-  source accounting andissue closeout remain pending. Follow
+- March 1985 is in progress: nine of 48 entries are readable/sample-reviewed,
+  two headings are non-owning, no articles are partial and 37 entries remain
+  unresolved. 통신의 개념 is complete at printed 42–49 / PDF 44–51: all 210
+  assembly files match the independent rebuild, including 202 exact native files.
+  All 4,391 active UTF-8 ranges and 9,163 evidence pins pass. Six caption links,
+  42 diagram labels, 48 table fields/nine headers and one unknown signal band
+  retain their source scans. The incoming continuation is resolved without
+  rewriting physical fragments. Parent0021 is a non-owning heading above the two
+  restored children; no separate body/divider. All 5,157 prior files and 30 core
+  pins remain exact; the fresh 213-test environment check remains valid.
+  Next: verify the extent of 프린터 활용방법 from printed 50 / PDF 52 and restore
+  a bounded first segment. Reuse PDF 51–53; inspect following pages before mapping.
+  Keep two tasks/six mapped pages/twenty outside lookups. Cover selection, remaining
+  source accounting and issue closeout remain pending. Follow
   [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56

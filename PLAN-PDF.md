@@ -24,20 +24,23 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-22
 
-Eight of 48 entries are readable and assistant sample-reviewed; tips is a
-non-owning heading, 통신의 개념 is partial, and 38 entries remain unresolved.
-Both immutable communication natives now cover printed42–49/PDF44–51. Batch09
-restores final48–49/PDF50–51: all60 files match the independent rebuild;1,406 exact
-UTF-8 ranges and1,460 pins validate. Six table rows/48 fields/nine headers,nine
-figure labels andone unknown binary-signal band retain their original scans.
-The incoming100%믿을만 continuation andthree internal joins pass. All4,859 prior
-files and30 implementation pins remain exact. Fresh environment verification
-passes all213 PDF tests. Complete article assembly remains pending.
-Next: assemble the complete article from immutablecommunication-a/b,then classify
-parent0021 마이크로 컴퓨터의 새로운 물결 against both children andthe source extent.
-Use a separate two-task checkpoint with no new mapping/OCR;reuse PDF37–52 views
-within the twenty-lookup limit. Cover selection,source-page accounting andissue
-closeout remain pending. Details: [March log](docs/progress/8503.md) and
+Nine of 48 entries are readable and assistant sample-reviewed; tips and
+마이크로 컴퓨터의 새로운 물결 are non-owning headings. No articles are partial;
+37 entries remain unresolved. 통신의 개념 is complete across printed 42–49 /
+PDF 44–51. Its 210-file assembly matches the independent rebuild and retains all
+202 immutable native files exactly. All 4,391 active UTF-8 ranges and 9,163
+source-evidence pins validate. The complete package retains 57 regions, 43 blocks,
+14 originals, six caption links, 42 diagram labels and a six-row parity table.
+The unknown binary signal band remains an original image with an explicit
+volunteer transcription placeholder. No body pages or article assembly remain
+pending. All 5,157 prior files and 30 core pins remain unchanged; the fresh
+213-test environment check remains valid. Both source children establish the
+parent as an organizational heading without a separate body or divider.
+Next: verify the actual extent of 프린터 활용방법 from printed 50 / PDF 52,
+then restore a bounded first segment. Reuse PDF 51–53 and inspect each following
+page before mapping; retain two-task/six-page/twenty-lookup limits. Cover selection,
+source-page accounting and issue closeout remain pending. Details:
+[March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
 ## February 1985 closeout, 2026-10-22
