@@ -7,20 +7,29 @@ by the calendar month in which restoration work happened.
 ## Current status
 
 March 1985 is in progress: twelve of 48 entries are readable/sample-reviewed,
-with no partial articles, two non-owning headings and 34 unresolved entries.
-CP/M의 진수0027 is complete, printed78–89/PDF80–91. Its 481-file assembly matches
-the independent rebuild, including 472 exact native files. All 8,579 active UTF-8
-ranges, 17,548 evidence pins and 133 images pass; 52 supplemental array slices
-and 11 object projections reverse exactly to native metadata. It retains 107 blocks,
-26 originals, lists1–11, 100 physical code rows, 47 diagram-label rows, 30 opaque
-stack fields and 12 caption links. The final BDS-C running header and source
-errors remain literal. No CP/M body pages or assembly remain pending.
-All 17,059 prior files and 30 core pins pass; fresh213-test batch17 baseline reused.
-Preservation inventory contains 18,051 files. Next: verify BDS-C's full extent
-from observed PDF92 and restore its first bounded segment. Parent0024, cover
-selection, source accounting and issue closeout remain pending. See
-[March's log](docs/progress/8503.md) and
-[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+one article is partial, two headings are non-owning and 33 entries remain unresolved.
+BDS-C0028 opening printed90–95/PDF92–97 is restored in a 265-file native matching
+its independent rebuild. All 4,350 UTF-8 ranges, 4,557 evidence pins and 73 source-image
+crops verify. It retains 61 blocks/12 originals, 169 physical code/function-name rows,
+62 inline code/template rows, 30 table rows/60 cells/two headers and 104 library
+entries/six columns/three grouped headers. Twelve memory labels, the actual memory
+caption, Hanoi code/session, three cross-page fragments, 36 source candidates and one
+unknown-count omission band remain source-linked. Printed errors stay literal.
+
+The full BDS-C extent is PDF92–104, verified through every intervening page and
+adjacent sources. Final104 upper article ends with a terminal mark; lower advertising
+is excluded from the planned final map. Its visible folio is unobserved/null.
+PDF105 is independent advertising; 수치 해석 opens106/visible104. No global offset.
+All 18,051 prior files and 30 core pins pass; the environment check passed all213
+PDF tests. Preservation inventory contains 19,226 files. CP/M, MAT, printer and
+communication remain complete. Parent0024 remains unresolved.
+
+Next: restore BDS-C middle PDF98–103 from saved views, then final mixed104 and
+complete assembly in separate checkpoints. Use pinned batch20 assembly_dispatch_r02
+for the four completed March private formats. Cover selection, source accounting
+and issue closeout remain pending. No reader rebuild.
+See [March log](docs/progress/8503.md) and
+[ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
 February 1985 is complete under the canonical TOC JSON/assets scope: all 56
 entries are accounted for by 48 readable, assistant sample-reviewed articles and

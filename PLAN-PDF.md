@@ -24,25 +24,28 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-Twelve of 48 entries are readable and assistant sample-reviewed; no articles are
-partial, two headings are non-owning and 34 entries remain unresolved.
-CP/M의 진수0027 is complete, printed78–89/PDF80–91. Its 481-file assembly matches
-the independent rebuild, including all 472 exact native files. All 8,579 active
-UTF-8 ranges and 17,548 evidence pins verify; 52 supplemental array slices and
-11 object projections reverse exactly to native metadata. The complete article
-retains 133 regions/107 blocks/26 originals, lists1–11, 100 physical code rows,
-47 diagram-label rows, 30 opaque stack fields and 12 actual caption links.
-The section boundary is associated without a split-sentence or encoded join.
-The final-page BDS-C running header and all source discrepancies remain literal.
-All 17,059 prior files and 30 core pins pass; the fresh213-test batch17 baseline
-is reused. Preservation inventory contains 18,051 files. No body pages or assembly
-remain pending for CP/M; MAT, printer and communication remain complete.
+March 1985 is in progress: twelve of 48 entries are readable/sample-reviewed,
+one article is partial, two headings are non-owning and 33 entries remain unresolved.
+BDS-C0028 opening printed90–95/PDF92–97 is restored in a 265-file native matching
+its independent rebuild. All 4,350 UTF-8 ranges, 4,557 evidence pins and 73 source-image
+crops verify. It retains 61 blocks/12 originals, 169 physical code/function-name rows,
+62 inline code/template rows, 30 table rows/60 cells/two headers and 104 library
+entries/six columns/three grouped headers. Twelve memory labels, the actual memory
+caption, Hanoi code/session, three cross-page fragments, 36 source candidates and one
+unknown-count omission band remain source-linked. Printed errors stay literal.
 
-Next: verify BDS-C0028's full extent from its observed PDF92 opening, then restore
-its first bounded segment. Printed TOC90/next104 are lookup cues, not a global
-PDF offset. Use pinned batch20 assembly_dispatch_r02 for all four completed March
-private formats. Parent0024 has five children and remains unresolved; cover
-selection, source accounting and issue closeout remain pending. No reader rebuild.
+The full BDS-C extent is PDF92–104, verified through every intervening page and
+adjacent sources. Final104 upper article ends with a terminal mark; lower advertising
+is excluded from the planned final map. Its visible folio is unobserved/null.
+PDF105 is independent advertising; 수치 해석 opens106/visible104. No global offset.
+All 18,051 prior files and 30 core pins pass; the environment check passed all213
+PDF tests. Preservation inventory contains 19,226 files. CP/M, MAT, printer and
+communication remain complete. Parent0024 remains unresolved.
+
+Next: restore BDS-C middle PDF98–103 from saved views, then final mixed104 and
+complete assembly in separate checkpoints. Use pinned batch20 assembly_dispatch_r02
+for the four completed March private formats. Cover selection, source accounting
+and issue closeout remain pending. No reader rebuild.
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).
 
