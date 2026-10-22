@@ -12,7 +12,11 @@ sample-reviewed; 45 remain unresolved. Batch03's 111 package files match the
 independent rebuild; 1,816 exact UTF-8 ranges and 1,898 evidence pins validate.
 The passing 213-test baseline is reused; all 694 earlier March inventory files remain
 exact. Source, canonical queue, runtime and February preservation checks passed
-at batch01. Next: verify canonical0007, QA, from printed24/PDF26.
+at batch01. QA canonical0007 is now mapped across printed24–28/PDF26–30:
+batch04 preparation retains 72 reviewed regions and 65 completed/read raw drafts;
+all 1,174 earlier inventory files remain exact. Next: source correction, structured
+listing/field/continuation review, package export and independent rebuild.
+Reuse batch04 map-r02 and existing OCR. QA is not yet counted as readable.
 Cover, source-page accounting
 and issue closeout remain pending. See [March's log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
