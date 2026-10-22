@@ -24,37 +24,43 @@ records below are historical and do not authorize a new rebuild.
 
 ## March 1985 in progress, 2026-10-23
 
-March 1985 remains in progress: 22 of 48 entries are readable and assistant
+March 1985 remains in progress: 24 of 48 entries are readable and assistant
 sample-reviewed, no articles are partial, five headings are non-owning, and
-21 entries remain unresolved. Parent0012, 1라인 콘테스트 우수작, is a verified
-non-owning organizational heading. Both children0013/0014 are complete; the
-parent owns no body pages and has no article package.
+19 entries remain unresolved. Canonical0015 컴퓨돌이 is complete as three separate
+vignettes on PDF161/159, PDF205/203 and PDF228/226. Canonical0016 광고색인 is
+complete in the lower panel of PDF242. Its actual folio is null; canonical TOC240
+remains unchanged. Neither article has deferred body pages or assembly pending.
 
-Printed contents PDF17 shows the pageless parent above exactly two child
-references141/219 and before separately ruled 컴퓨돌이/광고색인 entries. Both
-independent program panels repeat the group banner: lower-left PDF143/printed141
-and lower-right PDF221/printed219. Eight saved whole views confirm their separate
-boundaries and neighboring articles/publisher notice. No continuous143–221 parent
-body or duplicated child text is inferred.
+The cartoons retain three logos, story headings, original character drawings,
+question-mark hat labels and complete panels/observed folios. Twenty story rows,
+two quoted passages, five dialogue turns and seven wrapped source fields remain
+literal. Printed 달갈, 날라갔다 and 주었읍니다 are unchanged. Three tiny monitor
+marks retain original pixels with unknown glyph identities/count/role; no artist
+is inferred. The index retains two ordered parts,26 rows,52 cells,no printed
+headers,three cover references and26 original leader bands/tree/lower rule.
+Names and references are source candidates; target pages and historical identities
+remain unverified. Neighbor technical/game bodies and the upper promotion are excluded.
 
-All 72 selected child files, four source banner/title ranges and all original maps,
-exclusions, code wraps, strings, credits and addresses remain exact. Both programs
-retain one BASIC label and seven physical rows each; source/encoded spacing and
-technical claims remain unverified. All 33,243 prior files, 43 prior inventories,
-22 readable packages, nine private formats and 30 core pins pass. The unchanged
-fresh 213-test batch43 environment baseline is reused. Preservation inventory
-contains 33,282 files. All eight views reused existing renders; zero mapped
-pages, OCR tasks, source-correction passes or parent exports.
+All86 selected files match independent rebuilds. All729 active UTF-8 ranges,
+863 evidence-pin occurrences and25 crop image pixel comparisons pass. All33,282
+prior files,44 inventories,22 prior readable packages,nine private formats and30
+core pins remain exact. The unchanged fresh213-test batch43 baseline is reused.
+Preservation inventory contains33,699 files. Thirteen whole views (three reused,
+ten new),four mapped pages/nine outside lookups;all25 initial exact crops andone
+art replacement viewed before15 kor+eng tasks. All15 raws read before one source
+pass;successful omissions handled through recorded source-direct fallback. No OCR
+failures/retries. One art crop widened before OCR;all original revisions retained.
 Use pinned batch41 assembly_dispatch.py. No reader rebuild.
 
-Next: verify actual full extents and restore0015 컴퓨돌이 and0016 광고색인.
-TOC159/203/226 and240 are lookup cues; initial whole views160–162/204–206/
-227–229 and240–243 precede mapping. Preserve original cartoon art, all visible
-speech/captions/credits and literal index names/references/leader bands. Cover
-selection, remaining entries, all244-page accounting and full issue closeout
-remain pending. Human acceptance, full proofreading, source bytes/spacing,
-historical contacts and technical claims remain unverified; news/classified body
-transcription awaits volunteers.
+Next: verify actual full extents and restore0031 어셈블러의 활용 and0032 &의 활용법.
+TOC138/139 are lookup cues; initial PDF139–144 whole views precede mapping.
+Preserve all code/prose physical wraps,labels,opcodes,comments,opaque fields and
+original images. Completed keyboard0013 on lower143 and the right publisher
+notice remain excluded from0032. Parent0030 waits its children and a separate
+boundary review. Cover selection,remaining entries,all244-page accounting and
+full issue closeout remain pending. Human acceptance,full proofreading,source
+bytes/spacing,historical claims and tiny artwork identification remain unverified;
+news/classified body transcription awaits volunteers.
 
 Details: [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

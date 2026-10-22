@@ -1366,23 +1366,139 @@
       "toc_entry_id": "maso-1985-03-toc-0015",
       "title": "컴퓨돌이",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Thirteen whole source views inspected before mapping. Actual noncontiguous cartoon vignettes atPDF161/visible159,PDF205/visible203,PDF228/visible226 match three canonical references;no intervening body pages assigned.",
+        "First vignette lower-right161 below RAM-card conclusion/terminal andseparator;160continuesRAMcard,next162startsSPCgraphics. Second below슈퍼맨 data205,followingdata204andbeforebusiness opening206. Third below퍼즐링 finaldata/terminal228,afterdata227andbefore행운의 동전229. Each independent complete vignette haslogo,storyheading,story andoriginal characterart withquestion-markhat;no visible artist/byline/signature inferred.",
+        "Advertising index iscomplete lowerPDF242 panel with광고색인 heading,tree illustration,two ordered columns ofprinted names/references andleader bands/lower rule. Upper컴퓨터비전 promotion excluded. Actual page hasno visible folio:null preserved despite canonical240. Previous241endsclassifieds at239;next243isindependentDaewoo advertisement.240isclassified continuation,notindex body.",
+        "Only four actual body pages mapped;two canonical tasks/nine outside-map lookups. Alloriginal art/panels/folios retained. No redrawing,commercialidentity/reference-target verification,code transcription fromneighbors orhistorical/encoding repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-45-r01/computori",
+        "article_id": "scan-maso-1985-03-toc-0015",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-45-r01/computori/manifest.json",
+          "sha256": "846af5837bf992c06389e7fd9c201c35903f6db08c929ccaf9c10a8ca4e9add4",
+          "bytes": 10653
+        },
+        "coverage": {
+          "pdf_pages": [
+            161,
+            205,
+            228
+          ],
+          "printed_pages": [
+            "159",
+            "203",
+            "226"
+          ],
+          "regions": 21,
+          "blocks": 12,
+          "figures": 9,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/validation.json",
+          "sha256": "7c761ec0f26917cac01a490392dd8313cb8b5948f5a37a15729456a8892ee56a",
+          "bytes": 3229
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/reproduction.json",
+          "sha256": "d7dd8cdbdf42bf66ffe45a5ffe590793aa116f72a2a43282dba669bd46072b52",
+          "bytes": 2263
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+          "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+          "bytes": 2265
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-45-r01/computori/corrections.json",
+            "sha256": "da360751c6da39a08ac757978abb1431d0e5645453b4b203eb440c8b3037256b",
+            "bytes": 229504
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Source spelling/physical wraps/stylized glyphs retained. Human acceptance,source bytes/spacing,historical claims andtiny artwork marks unverified."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/previous-ledger.json",
+        "sha256": "4f73a832bcddcf4bfcb9892df8023e1d73155070df51216120d79c684f3e60c1",
+        "bytes": 269310
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0016",
       "title": "광고색인",
       "parent_id": null,
-      "classification": "unresolved",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed",
-      "classification_evidence": [],
-      "restoration": null
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "classification_evidence": [
+        "Thirteen whole source views inspected before mapping. Actual noncontiguous cartoon vignettes atPDF161/visible159,PDF205/visible203,PDF228/visible226 match three canonical references;no intervening body pages assigned.",
+        "First vignette lower-right161 below RAM-card conclusion/terminal andseparator;160continuesRAMcard,next162startsSPCgraphics. Second below슈퍼맨 data205,followingdata204andbeforebusiness opening206. Third below퍼즐링 finaldata/terminal228,afterdata227andbefore행운의 동전229. Each independent complete vignette haslogo,storyheading,story andoriginal characterart withquestion-markhat;no visible artist/byline/signature inferred.",
+        "Advertising index iscomplete lowerPDF242 panel with광고색인 heading,tree illustration,two ordered columns ofprinted names/references andleader bands/lower rule. Upper컴퓨터비전 promotion excluded. Actual page hasno visible folio:null preserved despite canonical240. Previous241endsclassifieds at239;next243isindependentDaewoo advertisement.240isclassified continuation,notindex body.",
+        "Only four actual body pages mapped;two canonical tasks/nine outside-map lookups. Alloriginal art/panels/folios retained. No redrawing,commercialidentity/reference-target verification,code transcription fromneighbors orhistorical/encoding repair."
+      ],
+      "restoration": {
+        "directory": "archive/pdf/1985-03/packages/batch-45-r01/advertising-index",
+        "article_id": "scan-maso-1985-03-toc-0016",
+        "manifest": {
+          "path": "archive/pdf/1985-03/packages/batch-45-r01/advertising-index/manifest.json",
+          "sha256": "95df14d46c09a0ecd9831da2e6c3659300b007347aaf01e85b18a85defbe4917",
+          "bytes": 3397
+        },
+        "coverage": {
+          "pdf_pages": [
+            242
+          ],
+          "printed_pages": [
+            null
+          ],
+          "regions": 4,
+          "blocks": 3,
+          "figures": 1,
+          "deferred_pdf_pages": []
+        },
+        "assembly_required": false,
+        "complete_article_assembly_pending": false,
+        "validation": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/validation.json",
+          "sha256": "7c761ec0f26917cac01a490392dd8313cb8b5948f5a37a15729456a8892ee56a",
+          "bytes": 3229
+        },
+        "reproduction": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/reproduction.json",
+          "sha256": "d7dd8cdbdf42bf66ffe45a5ffe590793aa116f72a2a43282dba669bd46072b52",
+          "bytes": 2263
+        },
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+          "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+          "bytes": 2265
+        },
+        "source_ending": {
+          "corrections": {
+            "path": "archive/pdf/1985-03/packages/batch-45-r01/advertising-index/corrections.json",
+            "sha256": "86fe1da2e62a2299d21e937965bfd22440f6f179e04cb988b56547122b4c349b",
+            "bytes": 207759
+          },
+          "field": "source_ending"
+        },
+        "source_limits": "Names/references literal;leader counts unencoded;targets/historical identities unverified;actualfolio null independent fromcanonical240."
+      },
+      "classification_history": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/previous-ledger.json",
+        "sha256": "4f73a832bcddcf4bfcb9892df8023e1d73155070df51216120d79c684f3e60c1",
+        "bytes": 269310
+      }
     },
     {
       "toc_entry_id": "maso-1985-03-toc-0017",
@@ -3131,10 +3247,10 @@
   ],
   "totals": {
     "canonical_entries": 48,
-    "readable": 22,
+    "readable": 24,
     "partial": 0,
     "non_owning_headings": 5,
-    "unresolved_eligibility": 21
+    "unresolved_eligibility": 19
   },
   "checkpoints": [
     {
@@ -5158,6 +5274,60 @@
       "started_at": "2026-10-22T22:46:12.333580+00:00",
       "finished_at": "2026-10-22T22:49:09.087072+00:00",
       "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured."
+    },
+    {
+      "id": "batch-45",
+      "status": "complete",
+      "stage": "validated-complete-three-cartoons-and-advertising-index",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0015",
+        "maso-1985-03-toc-0016"
+      ],
+      "mapped_pdf_pages": [
+        161,
+        205,
+        228,
+        242
+      ],
+      "outside_map_lookup_pages": [
+        160,
+        162,
+        204,
+        206,
+        227,
+        229,
+        240,
+        241,
+        243
+      ],
+      "canonical_tasks": 2,
+      "ocr_tasks": 15,
+      "eng_code_tasks": 0,
+      "kor_eng_tasks": 15,
+      "source_correction_passes": 1,
+      "pre_OCR_crop_repair_rounds": 1,
+      "crops_changed": 1,
+      "validation": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/validation.json",
+        "sha256": "7c761ec0f26917cac01a490392dd8313cb8b5948f5a37a15729456a8892ee56a",
+        "bytes": 3229
+      },
+      "verification": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/verification-completed.json",
+        "sha256": "89ee781c3053103253bdbc82365b1d25ce607d8e56b1208bb0e88b158ad1156d",
+        "bytes": 1241
+      },
+      "preserved_work_inventory": {
+        "path": "archive/pdf/1985-03/evidence/batch-45-preserved-work.json",
+        "sha256": "fce9ee8e2bd74dd61ced5941885bd7062c27e22bc7f7eb1a4c0b0b7e704b3cd0",
+        "bytes": 7514492
+      },
+      "started_at": "2026-10-22T22:51:58.668310+00:00",
+      "finished_at": "2026-10-22T23:05:38.575997+00:00",
+      "timing_scope": "Wallclock includes waits/gaps;active human effort unmeasured.",
+      "article_availability": "readable",
+      "deferred_body_pdf_pages": [],
+      "assembly_required": false
     }
   ],
   "source_page_observations": [
@@ -6778,6 +6948,86 @@
       }
     },
     {
+      "pdf_page": 160,
+      "classification": "other-material-lookup-only",
+      "printed_page": "158",
+      "source_material_observed": "RAM-card technical continuation",
+      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      }
+    },
+    {
+      "pdf_page": 161,
+      "classification": "mixed-canonical-article-body-and-other-material",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0015"
+      ],
+      "printed_page": "159",
+      "restoration": "checked-complete-cartoon-panel",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      },
+      "notes": "Only mapped cartoon panel owned;neighbor technical/game body excluded.",
+      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0037"
+    },
+    {
+      "pdf_page": 162,
+      "classification": "other-material-lookup-only",
+      "printed_page": "160",
+      "source_material_observed": "SPC-1000 graphics opening",
+      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      }
+    },
+    {
+      "pdf_page": 204,
+      "classification": "other-material-lookup-only",
+      "printed_page": "202",
+      "source_material_observed": "슈퍼맨 BASIC/data continuation",
+      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      }
+    },
+    {
+      "pdf_page": 205,
+      "classification": "mixed-canonical-article-body-and-other-material",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0015"
+      ],
+      "printed_page": "203",
+      "restoration": "checked-complete-cartoon-panel",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      },
+      "notes": "Only mapped cartoon panel owned;neighbor technical/game body excluded.",
+      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0043"
+    },
+    {
+      "pdf_page": 206,
+      "classification": "other-material-lookup-only",
+      "printed_page": "204",
+      "source_material_observed": "관리 프로그램의 작성법 opening",
+      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      }
+    },
+    {
       "pdf_page": 220,
       "classification": "other-canonical-body-lookuponly",
       "printed_page": "218",
@@ -6815,6 +7065,46 @@
         "path": "archive/pdf/1985-03/restoration/batch-43/source-reviewed.json",
         "sha256": "120542f7f117330ccc15d1cfaa8bb4e05253c4860df8529e585dec578fd019a3",
         "bytes": 1661
+      }
+    },
+    {
+      "pdf_page": 227,
+      "classification": "other-material-lookup-only",
+      "printed_page": "225",
+      "source_material_observed": "퍼즐링 data continuation",
+      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      }
+    },
+    {
+      "pdf_page": 228,
+      "classification": "mixed-canonical-article-body-and-other-material",
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0015"
+      ],
+      "printed_page": "226",
+      "restoration": "checked-complete-cartoon-panel",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      },
+      "notes": "Only mapped cartoon panel owned;neighbor technical/game body excluded.",
+      "pending_neighbor_toc_entry_id": "maso-1985-03-toc-0047"
+    },
+    {
+      "pdf_page": 229,
+      "classification": "other-material-lookup-only",
+      "printed_page": "227",
+      "source_material_observed": "행운의 동전 opening",
+      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
       }
     },
     {
@@ -6979,40 +7269,61 @@
     },
     {
       "pdf_page": 242,
-      "classification": "promotion-and-advertising-index-observed",
+      "classification": "mixed-canonical-article-body-and-other-material",
       "printed_page": null,
       "source_material_observed": "Upper 컴퓨터 비전 promotion;lower 광고색인. No visible folio.",
-      "restoration": "outside-classifieds-map;advertising-index-eligibility/restoration-pending",
+      "restoration": "checked-complete-advertising-index;upper-promotion-excluded",
       "source_review": {
-        "path": "archive/pdf/1985-03/restoration/batch-39/source-reviewed.json",
-        "sha256": "49d8c646524d86043bb9eabb4651c0beac7b137ca3fea718814763a1396057a5",
-        "bytes": 3137
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
+      },
+      "prior_observation": {
+        "pdf_page": 242,
+        "classification": "promotion-and-advertising-index-observed",
+        "printed_page": null,
+        "source_material_observed": "Upper 컴퓨터 비전 promotion;lower 광고색인. No visible folio.",
+        "restoration": "outside-classifieds-map;advertising-index-eligibility/restoration-pending",
+        "source_review": {
+          "path": "archive/pdf/1985-03/restoration/batch-39/source-reviewed.json",
+          "sha256": "49d8c646524d86043bb9eabb4651c0beac7b137ca3fea718814763a1396057a5",
+          "bytes": 3137
+        }
+      },
+      "toc_entry_ids": [
+        "maso-1985-03-toc-0016"
+      ],
+      "notes": "Actual unpaginated lowerindex panel;canonicalTOC240 unchanged;upper컴퓨터비전 promotion excluded."
+    },
+    {
+      "pdf_page": 243,
+      "classification": "other-material-lookup-only",
+      "printed_page": null,
+      "source_material_observed": "IndependentDaewoo advertisement",
+      "restoration": "outside-current-cartoons/index-maps;no-other-entry-classification-change",
+      "source_review": {
+        "path": "archive/pdf/1985-03/restoration/batch-45/source-reviewed.json",
+        "sha256": "cd934ae0844227e241e6a36142094ec8e8925cc538f61c1663fc4e88359781ce",
+        "bytes": 2265
       }
     }
   ],
   "cover_status": "pending; donated cover priority; no cover selected in batch01",
   "next_checkpoint": {
-    "id": "batch-45",
-    "goal": "Verify actual full extents andrestore canonical0015 컴퓨돌이 and0016 광고색인 without changing canonical multi-page/title/reference identities.",
+    "id": "batch-46",
+    "goal": "Verify actual full extents andrestore0031 어셈블러의 활용 and0032 &의 활용법,children of메아리0030.",
     "toc_entry_ids": [
-      "maso-1985-03-toc-0015",
-      "maso-1985-03-toc-0016"
+      "maso-1985-03-toc-0031",
+      "maso-1985-03-toc-0032"
     ],
-    "mapping_targets": "TOC159,203,226 forcartoons and240 forad-index are lookup cues,not global PDF offsets. Initially inspect160–162/204–206/227–229 and240–243 whole views;reuse verified saved renders where possible. Establish actual title,all three cartoon installments/full panel boundaries andcredits/speech/captions if present;preserve original art andall visible text without redrawing/inventing. Inspect actual full advertising index table/headers/names/page references/leader bands,upper neighboring promotion andadjacent material before mapping. At most two canonical tasks/six distinct mapped pages/twenty outside lookups. Physical text wraps/opaque references/cover references/null folios remainliteral;no inferred page offsets,target verification orhistorical identity repair. Ifactual full extent exceeds cap,retain extent proof andsegment separately. Cover,remaining entries,244-page accounting andfull March closeout remain pending. No reader rebuild.",
+    "mapping_targets": "TOC138/139 arelookup cues,not global offsets. Initially inspectPDF139–144 whole views;reuse saved renders where possible. Verify actual title/intro/byline,complete program/prose extents/ending andneighbors beforemapping. Expected candidates140 forassembler and141–143 forampersand remainprovisional. Preserve all code physical rows/labels/opcodes/comments/quoted/opaque address/numeric fields,tables/screens/figures/captions/originalpixels without syntax/semantic/encoding repair or execution. Lower-leftPDF143 keyboard0013 andright publisher recruitment areexcluded from0032;all36 keyboardfiles unchanged andnonfigure ownership disjoint. At mosttwo tasks/six mappedpages/twenty outside lookups;segment only ifactual full extent exceeds cap. Parent0030 classification waits itschildren0031/0032/0033 andseparate boundaries review. Cover,remaining entries,244-page accounting/full March closeout pending. No reader rebuild.",
     "provisional_lookup_targets": [
-      160,
-      161,
-      162,
-      204,
-      205,
-      206,
-      227,
-      228,
-      229,
-      240,
-      241,
-      242,
-      243
+      139,
+      140,
+      141,
+      142,
+      143,
+      144
     ],
     "limits": {
       "articles": 2,
@@ -7072,8 +7383,9 @@
     "Use pinned batch41 assembly_dispatch for all nine March private formats in JSON/assets issue export/check. Full native stage notes/flags retained;active complete classifieds scope has no deferred body pages orassembly pending.",
     "Complete classifieds retains56 exact native files/full metadata;24 supplemental category slices/10 object projections reverse exactly. Three categories/18 body fragments/17 flow links/six physical associations preserved;239→240category/new-bullet only,no contact join. Body volunteer transcription/source spacing/bytes/item counts/current identities/historical claims remain unverified.",
     "Keyboard sourceLOCATEY,0 twice,LO/newlineCATE andHA/newline!  HA! remain literal;quoted encoded-space counts unverified. Miniclock sourcePOKE54,0,0,Q=Q/newline+(R-Q),CIRCL/newlineE andIFR>6/newline0THEN unchanged. Canonical미니 클럭 independent fromprinted미니클럭. No syntax/number/keyboard/clock/encoding repair or execution.",
-    "21 canonical entries remain unresolved. Parent0012 1라인 콘테스트 우수작 is verified non-owning after printedcontents/two completed child panels review. Children0013/0014 retain two independent page assignments143/221 and72 exact selected files. Parent owns no body pages/continuous143–221 range andno duplicated child text.22 readable/0 partial/5 non-owning headings.",
-    "All22 readable packages/nine private formats/30 core pins remain exact;all33243 prior files/43 inventories pass. Zero mapping/OCR/source passes/exports forparent classification. Next0015cartoons/0016adindex actual full extents/source restoration;cover,remaining entries,244-page accounting andfull March closeout pending. Use pinnedbatch41 dispatcher."
+    "19 canonical entries remain unresolved. Cartoons0015 complete three independent panels161/205/228:three logos/headings/art/hatlabels,20 storyrows,two quotes/five dialogue turns/seven wrapped source fields. Three tiny monitor marks retain original pixels withunknown identity/count/role;no artist inferred. Printed달갈/날라갔다/주었읍니다 unchanged.",
+    "Advertisingindex0016 complete lowerPDF242 withnullfolio despite canonical240:two ordered parts/26 rows/52 cells/no printed headers/three cover references/26 original leader bands/tree/lower rule. Source벨엘상사/보라바이컴/선경화학 andall names remainvisual candidates;no identity/reference-target/leader-count/folio-offset repair.",
+    "All86 selectedfiles match independent rebuilds;729 exact ranges/863 pinoccurrences/25 original cropimages pass. All33282 priorfiles/44 inventories/22 priorpackages/nine formats/30 corepins unchanged;213-test baseline reused. Next0031/0032 full extents/source restoration;cover,remaining entries,244-page accounting/full March closeout pending. Use pinnedbatch41 dispatcher."
   ],
   "reader_rebuild": false,
   "assembly_dispatcher": {

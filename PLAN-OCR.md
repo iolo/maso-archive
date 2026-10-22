@@ -19,19 +19,25 @@ paired OCR or a new engine comparison.
 
 ## Current restoration state
 
-- March1985:22 readable/sample-reviewed, no partial articles, five non-owning
-  headings and21 unresolved. Parent0012 1라인 콘테스트 우수작 verified non-owning
-  after printed contents/two completed child panel review. Parent has no body
-  pages/export or continuous143–221 range;no child duplication. All72 selected
-  child files and four banner/title source ranges unchanged. Eight saved whole
-  views inspected, all reused;zero mapping/OCR/source passes/exports. All33,243
-  prior files/43 inventories/22 readable packages/nine formats/30 core pins pass;
-  unchanged fresh213-test batch43 baseline reused. Inventory33,282 files.
-  Use pinned batch41 dispatcher. Next0015cartoons/0016adindex actual full extents
-  from initial160–162/204–206/227–229/240–243;TOC159,203,226/240 only cues.
-  Preserve original art/all speech/captions/credits andliteral index references.
-  Cover,remaining entries,244-page accounting/closeout pending. Source/human
-  limits and volunteer news/classified body transcription remain explicit. Follow
+- March1985:24 readable/sample-reviewed,no partial articles,five non-owning
+  headings and19 unresolved. Cartoons0015 complete at161/159,205/203,228/226:
+  three independent panels/logos/headings/art/hat labels,20 story rows,two quoted
+  passages/five dialogue turns/seven wrapped fields. Three tiny monitor marks
+  remain original with unknown glyphs/count/role;no artist inferred. Index0016
+  complete lowerPDF242/nullfolio despite canonical240:two parts/26 rows/52 cells,
+  no printed headers,three cover references/26 original leader bands/tree/rule.
+  All86 files match independent rebuilds;729 ranges/863 pins/25 crop images pass.
+  All33,282 prior files/44 inventories/22 prior packages/nine formats/30 core pins
+  unchanged;fresh213-test batch43 baseline reused. Inventory33,699 files.
+  Thirteen views (three reused/ten new),four mapped/nine outside pages. All25 exact
+  crops/one art replacement before15 kor+eng tasks;all raws before one source pass.
+  No OCR failure/retry;successful omissions use recorded direct-source fallback.
+  Printed 달갈/날라갔다/주었읍니다 and index names/references remain literal;no repair.
+  Next0031assembler/0032ampersand actual extents from initial139–144;TOC138/139
+  only cues. Preserve all source code/prose/opaque fields and separate lower143
+  keyboard ownership. Parent0030 waits its children/separate review. Cover,
+  remaining entries/244-page accounting/closeout pending. Source/human limits and
+  volunteer transcription remain explicit. Use pinned batch41 dispatcher. Follow
   [March log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
