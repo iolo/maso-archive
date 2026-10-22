@@ -2,7 +2,7 @@
 
 Storage: [what to preserve and where new work belongs](docs/STORAGE.md). Historical paths remain available through compatibility links.
 
-Updated 2026-10-22. Read this before future PDF restoration. This is the current
+Updated 2026-10-23. Read this before future PDF restoration. This is the current
 operating guide; experiment history is reference material, not a task queue.
 
 ## Accepted policy
@@ -21,21 +21,22 @@ paired OCR or a new engine comparison.
 
 - March 1985 is in progress: ten of 48 entries are readable/sample-reviewed,
   one article is partial, two headings are non-owning and 35 remain unresolved.
-  MAT0026's opening/middle natives cover printed62–73/PDF64–75. The middle
-  printed68–73/PDF70–75 package matches the independent rebuild across 196 files;
-  all 9,757 UTF-8 ranges and 9,927 pins pass. It retains 64 regions/41 blocks/
-  23 originals, 364 physical code rows, 351 BASIC labels, 17 listing fragments,
-  ten program associations, six code continuations and the incoming prose link.
-  All 64 exact initial crops and seven repairs were viewed before 41 tasks
-  (17 eng/24 kor+eng); all drafts read before one source pass. No OCR failure,
-  retry or engine switch. Opening's 288 files remain exact; all 12,164 prior
-  files and 30 core pins pass. The fresh 213-test baseline is reused. Printer
-  remains complete; use the pinned batch13 dispatcher for both completed March
-  assembly formats. Next: final MAT printed74–76/PDF76–78, checking LINEAR260→270,
-  then separate assembly. FinalPDF78 upper body only; lower advertising excluded.
-  Keep two tasks/six mapped pages/twenty outside lookups. Parent0024, cover
-  selection, source accounting and closeout remain pending. Follow
-  [March's log](docs/progress/8503.md) and
+  All MAT0026 body pages printed62–76/PDF64–78 now have validated native segments.
+  The final printed74–76/PDF76–78 package matches the independent rebuild across
+  107 files; all 4,939 UTF-8 ranges and 5,036 pins pass. It retains 35 regions/
+  21 blocks/14 originals, 197 physical code rows, 183 BASIC labels, 30 matrix
+  values, two listing captions and the ending. All 35 initial exact crops and
+  two repairs were viewed before 21 tasks (7 eng/14 kor+eng); all drafts read
+  before one source pass. No OCR failures, retries or engine changes. LowerPDF78
+  advertising is excluded; upper body/terminal mark/folio76 are separate originals.
+  LINEAR270's selected+ reading corrects only the current source interpretation;
+  earlier semicolon cues, maps and prior natives remain unchanged. All 13,054
+  prior files and 30 core pins pass; fresh213-test baseline reused. The three
+  natives retain 591 files. Next: separate complete MAT assembly, preserving
+  native metadata and both cross-segment links. No new mapping/OCR needed.
+  Extend the pinned private dispatcher for MAT; existing completed formats remain.
+  Parent0024, cover selection, source accounting and issue closeout remain pending.
+  Follow [March's log](docs/progress/8503.md) and
   [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and

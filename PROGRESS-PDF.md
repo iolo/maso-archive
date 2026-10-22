@@ -1,6 +1,6 @@
 # PDF restoration progress
 
-Updated 2026-10-22. This file is the status index; detailed records live under
+Updated 2026-10-23. This file is the status index; detailed records live under
 [`docs/progress/`](docs/progress/README.md), grouped by **magazine issue**, not
 by the calendar month in which restoration work happened.
 
@@ -8,17 +8,17 @@ by the calendar month in which restoration work happened.
 
 March 1985 is in progress: ten of 48 entries are readable/sample-reviewed,
 with one partial article, two non-owning headings and 35 unresolved entries.
-MAT0026's opening/middle natives now cover printed62–73/PDF64–75. The middle
-printed68–73/PDF70–75 package matches its independent rebuild across all 196 files;
-all 9,757 UTF-8 ranges and 9,927 evidence pins pass. Its 64 regions/41 blocks/
-23 originals retain 364 physical code rows, 351 BASIC labels, 17 fragments,
-ten program associations, six code continuations and the incoming prose link.
-The opening's 288 files remain unchanged. Source discrepancies, 29 candidates
-and four unknown bands remain explicit. All 12,164 prior files and 30 core pins
-pass; the fresh 213-test baseline is reused. Printer remains complete; use the
-pinned batch13 dispatcher for both completed March assembly formats.
-Next: MAT's final printed74–76/PDF76–78, checking LINEAR260→270, then separate
-assembly. LowerPDF78 advertising stays excluded. Parent0024, cover selection,
+All MAT0026 body pages, printed62–76/PDF64–78, now have validated native segments.
+The final printed74–76/PDF76–78 package matches the independent rebuild across
+107 files; all 4,939 UTF-8 ranges and 5,036 evidence pins pass. It retains 35
+regions/21 blocks/14 originals, 197 physical code rows, 183 BASIC labels, 30
+matrix values, two printed listing labels and the conclusion/terminal mark.
+MixedPDF78 lower advertising stays excluded; upper body, terminal mark and folio76
+are separate originals. Earlier semicolon lookup cues remain historical; the
+selected LINEAR270 reading uses+. All 13,054 prior files and 30 core pins pass;
+the fresh 213-test baseline is reused. All 591 files from the three natives remain.
+Next: complete MAT assembly, preserving native metadata and resolving both
+cross-segment boundaries. Printer remains complete. Parent0024, cover selection,
 source accounting and issue closeout remain pending. See [March's log](docs/progress/8503.md)
 and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 
