@@ -8,42 +8,45 @@ by the calendar month in which restoration work happened.
 
 March 1985 remains in progress: 16 of 48 entries are readable and assistant
 sample-reviewed, one article is partial, three headings are non-owning, and
-28 entries remain unresolved. The MAT feature remains complete. Canonical0002,
-특집 II : SPC-1000의 IOCS분석, now has an immutable opening native for PDF125–130.
-Its full extent is verified as PDF125–139. The opening folio stays null;
-subsequent pages show124–137. Pages131–139 and complete assembly remain pending.
+28 entries remain unresolved. Canonical0002, 특집 II : SPC-1000의 IOCS분석,
+now has immutable opening and middle natives covering PDF125–136. Full extent
+125–139 is verified; opening125 folio stays null and subsequent pages show124–137.
+Final137–139 and complete assembly remain pending.
 
-All214 native files match the independent rebuild. The64 regions,47 text blocks
-and17 original images preserve the opening illustration, introduction, titles,
-installment, 황건순 credit, five-installment outline, memory/jump diagrams,
-initialization, GMODE/SMODE/FCB tables, cassette diagrams, BASIC listing1, and
-source-listing analysis through0144–0145. The actual ending on PDF139 has source
-row0607/0450semicolon and a terminal mark; PDF140 starts a different article.
+The middle native at packages/batch-34-r01/iocs-b matches its independent rebuild
+across142 files. Combined with214 unchanged opening files, the natives retain
+110 regions,76 text blocks and34 original images. The middle covers cassette
+analysis, the PSG bit table, BASIC listings2–5, concluding prose and assembly
+listing6 through source row0294/022D/JP MVRFYN. Next137 begins0295/0230semicolon.
 
-Indexes retain17 BASIC labels,20 physical code rows, three wraps, four tables
-with53 cells/seven headers, five diagram-label groups,22 tape-diagram cells
-including four blanks,19 outline rows,46 analysis references, nine caption links
-and six continuations. All3,566 exact UTF-8 ranges,3,760 evidence pins and64 image
-crops verify. Ten dot/dash bands have unknown counts. Thirty-seven source
-candidates retain ROM/RAM phrasing,1417/1418 references, page4 endpoint0FFFH,
-FCB13A8/ASH, missing SMODE parenthesis, POKE &H D2 1, ADRESS, grammar and
-figure7(3) references. No hardware, opcode, address, bit-stream or program repair.
+All295 numbered assembly rows retain independent ordinal, address, object and
+statement columns:247 opaque object fields/486 hex pairs,48 blank object fields,
+33 labels,45 comments,247 mnemonic candidates and230 operand fields. Four BASIC
+programs retain55 labels/physical rows and52 opaque DATA tokens, including terminal0.
+The PSG table retains eight rows/16 cells/two headers. Six caption links and ten
+current continuations preserve column/page associations. The incoming130→131
+paragraph is linked separately.
+All13,499 current/boundary UTF-8 ranges,13,627 pins and46 image crops verify;
+one prior boundary range verifies against its own native.
 
-Twenty whole views include three reused and17 new renders. Six mapped pages,
-14 outside lookups and one canonical task meet the limits. Every selected crop
-was viewed before47 pinned tasks(two eng code;45 kor+eng); all drafts were read
-before one source pass. Two crop revisions before OCR retained the complete FCB
-header and diagram7 subsection(1); initial maps/crops remain. No OCR failures,
-retries or engine changes. All28,767 prior files,32 inventories,16 completed
-packages and30 core pins pass. Fresh environment verification passes213 PDF tests.
-The preservation inventory contains29,810 files. Use pinned batch32
-assembly_dispatch.py for the seven completed private formats. No reader rebuild.
+Thirty-nine source candidates retain0060–0162, PSG11/14 register claims,
+figure8/9 references, boud, VBLOD2, LOAD를 때에, O N, source GOTO160/80 and
+CLOAD0/CLOAD8/zero-O glyph candidates. Three comment dot bands have unknown
+counts. Source bytes, exact spacing, hardware claims and execution remain
+unverified. No opcode, address, syntax or semantic repair.
 
-Next: restore PDF131–136, preserving the opening native and the130→131 paragraph
-continuation. Final137–139 and assembly follow separately. Parent0003, cover
-selection, remaining entries, all244-page accounting and issue closeout remain
-pending. Human acceptance, full proofreading, source encoded bytes/spacing,
-historical claims and execution remain unverified.
+Eight reused whole views, six mapped pages, two outside lookups and one canonical
+task meet the limits. All46 exact crops were viewed before29 pinned tasks(ten eng
+code;19 kor+eng); all drafts were read before one source pass. No OCR failures,
+retries, engine changes or crop repairs. All29,810 prior files,33 inventories,
+16 readable packages,214 opening files and30 core pins pass. The unchanged213-test
+batch33 environment baseline is reused. Preservation inventory contains30,422
+files. Seven completed private formats still use pinned batch32 dispatcher.
+No reader rebuild.
+
+Next: restore final PDF137–139, then assemble all immutable IOCS natives separately.
+Parent0003, cover selection, remaining entries, all244-page accounting and issue
+closeout remain pending. Human acceptance and full proofreading are unverified.
 
 See [March log](docs/progress/8503.md) and
 [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json).

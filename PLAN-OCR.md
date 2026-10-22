@@ -20,24 +20,23 @@ paired OCR or a new engine comparison.
 ## Current restoration state
 
 - March1985:16 readable/sample-reviewed, one partial article, three non-owning
-  headings and28 unresolved. IOCS0002 opening PDF125–130 is preserved at
-  packages/batch-33-r01/iocs-a:214 files match the independent rebuild.
-  Full extent125–139 is verified; opening folio null, subsequent124–137 observed.
-  Remaining131–139 and assembly are pending. Its64 regions/47 blocks/17 originals
-  retain the illustration, introduction, credit, outline, diagrams, tables,
-  listing1 and analysis. Indexes preserve17 BASIC labels/20 physical rows/three
-  wraps,53 table cells/seven headers,22 tape cells/four blanks,19 outline rows,
-  46 analysis references, nine captions and six continuations. Ten unknown-count
-  bands and37 source candidates remain explicit. No hardware/opcode/program repair.
-  All3,566 ranges/3,760 pins/64 images pass. Twenty views(three reused/17 new),
-  six mapped pages/14 lookups/one task meet limits. All crops viewed before47
-  tasks(two eng/45 kor+eng); all drafts read before one pass. Two crop revisions
-  preceded OCR; no OCR failures/retries. All28,767 prior files/32 inventories/
-  16 readable packages/30 core pins/seven private formats pass; fresh213 PDF tests
-  pass. Inventory29,810 files. Use pinned batch32 dispatcher. Next: PDF131–136,
-  then final137–139 and assembly. Parent0003, cover, remaining entries,244-page
-  accounting and closeout remain pending. Follow [March log](docs/progress/8503.md)
-  and [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
+  headings and28 unresolved. IOCS0002 opening+middle125–136 now have356 immutable
+  native files/110 regions/76 blocks/34 originals. Full125–139 extent verified;
+  opening125 folio null. Final137–139 and assembly pending. Middle native
+  packages/batch-34-r01/iocs-b:142 files match rebuild. It retains295 numbered
+  assembly rows/247 object fields/486 opaque hex pairs/48 blank objects/33 labels,
+  55 BASIC labels/52 DATA tokens, PSG table16 cells/two headers, six captions and
+  ten continuations. Source errors/39 candidates/three unknown-count comment bands
+  remain literal. All13,499 ranges/13,627 pins/46 crops pass; one prior boundary
+  range verifies against its own native. Eight reused views/six mapped pages/two
+  lookups/one task meet limits. All crops viewed before29 tasks(ten eng/19 kor+eng);
+  all drafts read before one pass. No OCR failures/retries or crop repairs.
+  All29,810 prior files/33 inventories/16 readable packages/214 opening files/
+  30 core pins/seven formats pass; unchanged213-test batch33 baseline reused.
+  Inventory30,422 files. Use pinned batch32 dispatcher. Next: final137–139,
+  then full IOCS assembly. Parent0003, cover, remaining entries,244-page accounting
+  and closeout remain pending. Follow [March log](docs/progress/8503.md) and
+  [ledger](metadata/catalog/pdf-restoration/1985-03-progress.json). No reader rebuild.
 - February 1985 is complete under the canonical TOC JSON/assets scope: all 56
   entries are accounted for by 48 readable, assistant sample-reviewed articles and
   eight non-owning headings. No partial articles or unresolved eligibility remain.
